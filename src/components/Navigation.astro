@@ -1,0 +1,77 @@
+---
+const currentPath = Astro.url.pathname;
+---
+
+<nav class="navigation">
+  <div class="nav-container">
+    <a href="/" class={`nav-link ${currentPath === '/' ? 'active' : ''}`}>
+      Home
+    </a>
+    <a href="/archivio" class={`nav-link ${currentPath.startsWith('/archivio') ? 'active' : ''}`}>
+      Archivio
+    </a>
+    <a href="/about" class={`nav-link ${currentPath === '/about' ? 'active' : ''}`}>
+      Chi Siamo
+    </a>
+  </div>
+</nav>
+
+<style>
+  .navigation {
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0;
+  }
+
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 1rem 0;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+    position: relative;
+  }
+
+  .nav-link:hover {
+    color: #667eea;
+  }
+
+  .nav-link.active {
+    color: #667eea;
+  }
+
+  .nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #667eea;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-container {
+      padding: 0 1rem;
+      gap: 1.5rem;
+    }
+
+    .nav-link {
+      font-size: 0.9375rem;
+      padding: 0.875rem 0;
+    }
+  }
+</style>
+

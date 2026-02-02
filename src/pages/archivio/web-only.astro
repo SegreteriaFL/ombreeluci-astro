@@ -1,0 +1,179 @@
+---
+import { getCollection } from 'astro:content';
+import Header from '../../components/Header.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import megacluster from '../../data/articoli_megacluster.json';
+
+const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
+const allArticles = await getCollection('blog');
+
+// Solo articoli "Pubblicato online" (issue_number vuoto o nullo)
+const articoliWebOnly = allArticles
+  .filter((article) => {
+    const issue = article.data.issue_number;
+    return issue == null || String(issue).trim() === '';
+  })
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pubblicato online - Archivio Ombre e Luci</title>
+    <meta name="description" content="Articoli pubblicati solo online su Ombre e Luci." />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        line-height: 1.75;
+        color: #1a1a1a;
+        background: #fafafa;
+      }
+
+      .issue-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+
+      .archivio-header {
+        margin-bottom: 3rem;
+      }
+
+      .archivio-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #1a1a1a;
+        margin-bottom: 0.5rem;
+      }
+
+      .archivio-subtitle {
+        font-size: 1.125rem;
+        color: #666;
+      }
+
+      .articles-section {
+        margin-top: 0;
+      }
+
+      .articles-header {
+        margin-bottom: 2rem;
+      }
+
+      .articles-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 0.5rem;
+      }
+
+      .articles-count {
+        font-size: 1rem;
+        color: #666;
+      }
+
+      .articles-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+      }
+
+      .no-articles {
+        text-align: center;
+        padding: 4rem 2rem;
+        color: #666;
+        background: #fff;
+        border-radius: 8px;
+      }
+
+      .no-articles-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+
+      @media (max-width: 1024px) {
+        .articles-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 32px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .issue-container {
+          padding: 1.5rem 1rem;
+        }
+
+        .archivio-title {
+          font-size: 2rem;
+        }
+
+        .articles-grid {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+
+    <div class="issue-container">
+      <div class="archivio-header">
+        <h1 class="archivio-title">Pubblicato online</h1>
+        <p class="archivio-subtitle">
+          Articoli pubblicati solo sul sito, senza numero di rivista cartacea.
+        </p>
+      </div>
+
+      <section class="articles-section">
+        <div class="articles-header">
+          <h2 class="articles-title">Articoli</h2>
+          <p class="articles-count">
+            {articoliWebOnly.length} {articoliWebOnly.length === 1 ? 'articolo' : 'articoli'}
+          </p>
+        </div>
+
+        {articoliWebOnly.length > 0 ? (
+          <div class="articles-grid">
+            {articoliWebOnly.map((article) => {
+              const articleSlug = article.data.slug ?? article.slug;
+              const articleDate = article.data.date instanceof Date
+                ? article.data.date
+                : new Date(article.data.date);
+              const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
+              const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+              const wpIdStr = String(article.data.wp_id ?? '');
+              const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+              return (
+                <ArticleCard
+                  title={article.data.title}
+                  slug={articleSlug}
+                  categoriaMenu={categoria_menu ?? undefined}
+                  issue={article.data.issue_number}
+                  forma={formal}
+                  author={article.data.author}
+                  date={articleDate}
+                  image={articleImage}
+                />
+              );
+            })}
+          </div>
+        ) : (
+          <div class="no-articles">
+            <h3 class="no-articles-title">Nessun articolo</h3>
+            <p>Non ci sono articoli pubblicati solo online.</p>
+          </div>
+        )}
+      </section>
+    </div>
+  </body>
+</html>

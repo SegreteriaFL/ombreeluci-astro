@@ -1,0 +1,303 @@
+---
+import { getCollection } from 'astro:content';
+import Header from '../../components/Header.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import megacluster from '../../data/articoli_megacluster.json';
+
+const megaclusterData = megacluster as {
+  byId?: Record<string, { img_copertina_url?: string }>;
+  autoriById?: Record<string, { foto_url?: string; bio_html?: string }>;
+};
+const byId = megaclusterData.byId || {};
+const autoriById: Record<string, { foto_url?: string; bio_html?: string }> = megaclusterData.autoriById || {};
+
+// Genera tutti i percorsi statici per gli autori
+export async function getStaticPaths() {
+  const allArticles = await getCollection('blog');
+  
+  // Estrai autori unici
+  const autoriMap = new Map<string, { nome: string; articoli: any[] }>();
+  
+  for (const article of allArticles) {
+    const author = article.data.author;
+    if (!author || author === 'Autore sconosciuto') continue;
+    
+    // Genera slug autore (normalizza nome)
+    const slug = author
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '');
+    
+    if (!autoriMap.has(slug)) {
+      autoriMap.set(slug, { nome: author, articoli: [] });
+    }
+    
+    autoriMap.get(slug)!.articoli.push(article);
+  }
+  
+  return Array.from(autoriMap.entries()).map(([slug, data]) => ({
+    params: { slug },
+    props: {
+      nomeAutore: data.nome,
+      articoli: data.articoli.sort((a, b) => 
+        b.data.date.getTime() - a.data.date.getTime()
+      ),
+    },
+  }));
+}
+
+const { nomeAutore, articoli } = Astro.props;
+const slug = Astro.params.slug ?? '';
+
+// Lookup per slug URL (coincide con id_autore in database_autori / megacluster)
+const autoreData = slug ? autoriById[slug] : undefined;
+const authorImagePath = autoreData?.foto_url || `/assets/authors/${slug}.jpg`;
+const authorBioHtml = autoreData && typeof autoreData.bio_html === 'string' ? autoreData.bio_html.trim() || null : null;
+// Riconoscere HTML (tag come <i>, <b>, <p>, <a>, <em>, <br>) per titoli libri, corsivi, link
+const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
+---
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Articoli di {nomeAutore} - Ombre e Luci</title>
+    <meta name="description" content={`Leggi tutti i contributi di ${nomeAutore} pubblicati su Ombre e Luci`} />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: #fafafa;
+      }
+
+      .author-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+
+      .author-header {
+        background: #fff;
+        padding: 3rem 2rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        margin-bottom: 3rem;
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+      }
+
+      .author-avatar-wrapper {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        flex-shrink: 0;
+      }
+
+      .author-avatar-image {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .author-avatar-fallback {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+
+      .author-info {
+        flex: 1;
+      }
+
+      .author-name {
+        font-family: 'Raleway', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 1rem;
+      }
+
+      .author-bio {
+        font-size: 1.125rem;
+        line-height: 1.7;
+        color: #666;
+        margin-bottom: 1rem;
+      }
+      .author-bio-content i,
+      .author-bio-content em { font-style: italic; }
+      .author-bio-content b,
+      .author-bio-content strong { font-weight: 700; }
+      .author-bio-content a { color: #ff1053; text-decoration: none; }
+      .author-bio-content a:hover { text-decoration: underline; }
+      .author-bio-content p { margin: 0 0 0.75rem; }
+      .author-bio-content p:last-child { margin-bottom: 0; }
+
+      .author-stats {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        color: #666;
+      }
+
+      .author-stats-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .author-stats-number {
+        font-weight: 600;
+        color: #667eea;
+      }
+
+      .articles-section {
+        margin-top: 3rem;
+      }
+
+      .articles-header {
+        margin-bottom: 2rem;
+      }
+
+      .articles-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 0.5rem;
+      }
+
+      .articles-count {
+        font-size: 1rem;
+        color: #666;
+      }
+
+      .articles-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+      }
+
+      /* Responsive */
+      @media (max-width: 1024px) {
+        .articles-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 32px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .author-container {
+          padding: 1.5rem 1rem;
+        }
+
+        .author-header {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          padding: 2rem 1.5rem;
+        }
+
+        .author-name {
+          font-size: 2rem;
+        }
+
+        .articles-grid {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    
+    <div class="author-container">
+      <div class="author-header">
+        <div class="author-avatar-wrapper">
+          <img 
+            src={authorImagePath}
+            alt={nomeAutore}
+            class="author-avatar-image"
+            onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            loading="lazy"
+          />
+          <div class="author-avatar-fallback" style="display: none;">
+            {nomeAutore.charAt(0).toUpperCase()}
+          </div>
+        </div>
+        <div class="author-info">
+          <h1 class="author-name">{nomeAutore}</h1>
+          <div class="author-bio">
+            {authorBioHtml ? (
+              <div class="author-bio-content" set:html={bioIsHtml ? authorBioHtml : `<p>${authorBioHtml.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>`} />
+            ) : (
+              <>Autore di {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'} pubblicati su Ombre e Luci.</>
+            )}
+          </div>
+          <div class="author-stats">
+            <div class="author-stats-item">
+              <span class="author-stats-number">{articoli.length}</span>
+              <span>{articoli.length === 1 ? 'articolo' : 'articoli'}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="articles-section">
+        <div class="articles-header">
+          <h2 class="articles-title">Articoli</h2>
+          <p class="articles-count">
+            [{articoli.length}] articoli pubblicati
+          </p>
+        </div>
+
+        <div class="articles-grid">
+          {articoli.map((article) => {
+            const articleSlug = article.data.slug ?? article.slug;
+            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
+            const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+            const wpIdStr = String(article.data.wp_id ?? '');
+            const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+            return (
+              <ArticleCard
+                title={article.data.title}
+                slug={articleSlug}
+                categoriaMenu={categoria_menu ?? undefined}
+                issue={article.data.issue_number}
+                forma={formal}
+                author={article.data.author}
+                date={article.data.date}
+                image={articleImage}
+                ruoloEditoriale={ruolo_editoriale ?? undefined}
+              />
+            );
+          })}
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,36 @@
+---
+title: Genitori speciali...zzati. Servizio di consulenza pedagogica di trento
+date: 2016-12-16
+author: Redazione
+slug: genitori-specializzati-servizio-di-consulenza-pedagogica-di-trento
+wp_id: 39633
+original_url: "https://www.ombreeluci.it/?p=39633"
+cluster_id: 14
+has_comments: false
+tags:
+  - aprire-il-cuore
+umap_x: 5.392930507659912
+umap_y: 8.480293273925781
+umap_z: 7.807117938995361
+issue_number: OEL-136
+---
+
+Un
+piccolo e semplice trimestrale arriva da molto tempo nella nostra redazione. In copertina una foto in bianco e nero ritrae la manina di un bambino molto piccolo che si appoggia, sembra spingere, sul palmo della mano della mamma a sua volta appoggiata al palmo della mano del papà. Si chiama Notizie, da 32 anni è il giornale dei genitori iscritti ai Corsi per Corrispondenza del Servizio di Consulenza Pedagogica di Trento. Il notiziario raccoglie le lettere che i genitori inviano al Servizio, commentando i passi e i progressi che vedono nei loro figli accompagnati dai Corsi per Corrispondenza e dalle Settimane Residenziali che il Servizio organizza. Sono lettere molto belle, a volte semplici resoconti a volte riflessioni più approfondite che narrano la vita di questi bambini - di cui spesso conosciamo anche il volto grazie alle foto inviate dai genitori - che vivono un’esperienza comune anche a centinaia di km di distanza. Capita anche di trovarvi lettere come quella di una ragazza con sindrome di Down, ormai cresciuta che scrive di suo pugno di non aver più bisogno di leggere il notiziario... una bella conquista, oppure di un genitore in grossa difficoltà per il quale cercare e suggerire possibili nuovi approcci. Esistono corsi specifici per genitori di bambini sordi, per genitori di bambini ciechi, per genitori di bambini sordociechi e con sindrome di Down.
+> Abbiamo aspettato molto questa Settimana. Trascorrere con nostro figlio tutto il tempo possibile era una cosa di cui avevamo bisogno e che a causa del lavoro non era stato mai possibile
+
+Questi genitori sono condotti ad essere protagonisti del cambiamento nel modo di guardare e far guardare al loro figliolo. Poco tempo fa una neuropsichiatra infantile invitata ad una conferenza diceva che nei suoi 30 anni di esperienza quel che ha visto fare la differenza nella crescita positiva di un bambino con una disabilità non è solo la bravura del professionista ma quanto questo è in grado di sostenere i genitori e far scoprire loro quanto possono dare per il figlio. E il lavoro del servizio di Consulenza Pedagogica di Trento guidato da Salvatore Lagati mi pare lo confermi. Il loro impegno è rivolto, da 39 anni, alla formazione di genitori specializzati senza che questi divengano fisioterapisti, né logopedisti,né psicologi o medici. “Il nostro obiettivo- ci scrive Lagati- è fare in modo che i genitori e in generale, tutta la famiglia, compresi gli eventuali fratelli e sorelle e i nonni, se ve ne sono, siano a conoscenza di cosa bisogna fare perchè il loro bambino, o la loro bambina, cresca bene e apprenda il più possibile.
+> “Me ne torno a casa un po’ più ricca e un po’ più serena. Ho sciolto parecchi dubbi sull’argomento, acquisendo anche qualche suggerimento di tipo pratico.”
+
+Quando i familiari riescono ad educare il loro bambino, senza ricorrere per ogni cosa agli “esperti”, ai professionisti, abbiamo potuto notare chiaramente che la loro ansia e la loro angoscia, quando c’è, diminuisce e spesso sparisce, lasciando il posto alla gioia di poter aiutare concretamente il loro bambino. Un genitore mi ha scritto qualche tempo fa che se non avesse smesso di andare da tanti specialisti ed esperti per educare il figlio, rischiava che diventasse il figlio dell’equipe”. Continua spiegando che “gli specialisti e gli esperti ci vogliono, ma i principali educatori dei bambini, anche dei bambini con problemi, sono e devono restare i genitori. Genitori che, ovviamente devono apprendere qualcosa in più. Ma in cambio, avranno delle soddisfazioni enormi: potranno constatare giorno per giorno i risultati della loro opera educativa, l’affetto e la riconoscenza dei loro figli, in particolare di quelli per i quali hanno lavorato e si sono impegnati di più. In questi anni si sono rivolti al servizio 1.278 famiglie di bambini sordi, 757 famiglie di bambini ciechi o sordociechi, 1.540 famiglie di bambini con la sindrome di Down”.
+> “Ho conosciuto professionisti veramente validi e preparati che mi hanno fornito buoni spunti e consigli per aiutare mia figlia a superare le sue difficoltà. Inoltre mi è piaciuto il clima di familiarità e condivisione che si è creato con le altre famiglie.”
+
+Mi viene da pensare che qui le gocce cominciano a fare il mare! Le famiglie provengono da ogni parte d’Italia (anche dalla Svizzera alcuni...) e acquistano consapevolezza anche nell’interagire con i servizi territoriali cui appartengono. Lo sforzo formativo è costante e cerca di coinvolgere sia le famiglie che i professionisti del settore. Particolare incredibile ai nostri tempi... non c’è neanche un sito, ma solo un indirizzo di posta elettronica e il responsabile che risponde a ciascuno personalmente... Un altro segno che sono i fatti che hanno contato e contano nel lavoro di tutti i professionisti di questo servizio.
+*a cura di Cristina Tersigni*
+, 2016
+
+---
+
+### Principi fondamentali per corsi e le settimane estive:
+
+- I genitori costituiscono la risorsa educativa più importante che hanno i bambini. - I genitori conoscono meglio di tutti i loro figli e hanno la capacità e il diritto di prendere decisioni per loro nel campo educativo, almeno fino a quando i loro figli non saranno in grado di decidere da soli. - I bambini non possono imparare se non vengono stimolati a farlo. Questa stimolazione deve avvenire con delle modalità adatte a ciascun bambino. - I genitori non desiderano diventare insegnanti: essi vogliono restare genitori. Ma vogliono imparare a sfruttare nel miglior modo il tempo che spendono coi loro figli, creando delle occasioni di apprendimento e migliorando le possibilità educative dei loro figli. --- ### Le Settimane Estive e le Giornate Nazionali La Settimana Estiva per famiglie di bambini ciechi e sordociechi, le Giornate Nazionali per persone con problemi di udito, le Settimane Estive per famiglie di bambini con la sindrome di Down e i Weekend per genitori con figli con la sindrome di Down sull’Educazione Affettiva e Sessuale attualmente si svolgono a Bibione di Venezia e a Vicoforte di Cuneo, danno la possibilità alle famiglie di scambiarsi le loro esperienze, di apprendere da terapisti particolarmente preparati, attività fondamentali per educare i loro figli. Anche in questo caso, non si tratta di fare di un genitore un musicoterapeuta, o un logopedista, ma di far capire ai genitori che il loro bambino o la loro bambina non imparerà a parlare solo perchè frequenta logopedia presso una bravissima logopedista, ma perchè tutti i giorni e tutto il giorno i familiari si impegnano a parlare al loro bambino in un certo modo e lo stimolano a comunicare usando il linguaggio che conosce e suggerendo le parole che ancora non conosce. Per le iniziative residenziali è previsto un contributo stabilito dal Servizio di Consulenza e le spese di vitto e alloggio stabilite dall’ente ospitante.

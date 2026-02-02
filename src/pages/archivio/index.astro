@@ -1,0 +1,406 @@
+---
+import Header from '../../components/Header.astro';
+import IssueCard from '../../components/IssueCard.astro';
+import numeriData from '../../../scripts_and_data/datasets/numeri_rivista/numeri_wp_FINAL.json';
+
+// Carica i dati dei numeri
+const numeri = numeriData as Array<{
+  id_numero: string;
+  tipo_rivista: string;
+  numero_progressivo: number;
+  display_title: string;
+  titolo_numero: string;
+  anno_pubblicazione: number;
+  periodo_label?: string;
+  copertina_url?: string;
+  [key: string]: any;
+}>;
+
+// Estrai anni unici per il filtro
+const anni = Array.from(new Set(numeri.map(n => n.anno_pubblicazione)))
+  .sort((a, b) => b - a); // Dal più recente al più vecchio
+
+// Ordina i numeri per data (più recenti prima) di default
+const numeriOrdinati = [...numeri].sort((a, b) => {
+  // Ordina per anno, poi per numero progressivo
+  if (a.anno_pubblicazione !== b.anno_pubblicazione) {
+    return b.anno_pubblicazione - a.anno_pubblicazione;
+  }
+  return b.numero_progressivo - a.numero_progressivo;
+});
+---
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archivio - Ombre e Luci</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: #fafafa;
+      }
+
+      .archivio-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+
+      .archivio-header {
+        margin-bottom: 2.5rem;
+      }
+
+      .archivio-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 0.5rem;
+      }
+
+      .archivio-subtitle {
+        font-size: 1.125rem;
+        color: #666;
+        margin-bottom: 2rem;
+      }
+
+      .filters-container {
+        background: transparent;
+        padding: 0;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+      }
+
+      .filter-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .filter-label {
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: #666;
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+      }
+
+      .filter-select {
+        padding: 0.625rem 1rem;
+        border: none;
+        border-radius: 8px;
+        font-size: 0.9375rem;
+        background: rgba(0, 0, 0, 0.05);
+        color: #333;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        min-width: 150px;
+      }
+
+      .filter-select:hover {
+        background: rgba(0, 0, 0, 0.08);
+      }
+
+      .filter-select:focus {
+        outline: none;
+        background: rgba(0, 0, 0, 0.1);
+      }
+
+      .results-count {
+        margin-left: auto;
+        font-size: 0.9375rem;
+        color: #666;
+        font-weight: 500;
+      }
+
+      .issues-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+      }
+
+      .no-results {
+        text-align: center;
+        padding: 4rem 2rem;
+        color: #666;
+      }
+
+      .no-results-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+
+      .no-results-text {
+        font-size: 1rem;
+      }
+
+      /* Responsive */
+      @media (max-width: 1200px) {
+        .issues-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .archivio-container {
+          padding: 1.5rem 1rem;
+        }
+
+        .archivio-title {
+          font-size: 2rem;
+        }
+
+        .filters-container {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .filter-group {
+          width: 100%;
+        }
+
+        .results-count {
+          margin-left: 0;
+          margin-top: 0.5rem;
+        }
+
+        .issues-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 1rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .issues-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    
+    <div class="archivio-container">
+      <div class="archivio-header">
+        <h1 class="archivio-title">Archivio</h1>
+        <p class="archivio-subtitle">
+          Esplora tutti i numeri di Ombre e Luci e Insieme
+        </p>
+      </div>
+
+      <div class="filters-container">
+        <div class="filter-group">
+          <label for="filter-anno" class="filter-label">Anno</label>
+          <select id="filter-anno" class="filter-select">
+            <option value="">Tutti gli anni</option>
+            {anni.map(anno => (
+              <option value={anno}>{anno}</option>
+            ))}
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-testata" class="filter-label">Testata</label>
+          <select id="filter-testata" class="filter-select">
+            <option value="">Tutte</option>
+            <option value="ombre_e_luci">Ombre e Luci</option>
+            <option value="insieme">Insieme</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-ordine" class="filter-label">Ordinamento</label>
+          <select id="filter-ordine" class="filter-select">
+            <option value="desc">Data ↓</option>
+            <option value="asc">Data ↑</option>
+          </select>
+        </div>
+
+        <div class="results-count" id="results-count">
+          {numeri.length} numeri
+        </div>
+      </div>
+
+      <div class="issues-grid" id="issues-grid">
+        {numeriOrdinati.map(numero => (
+          <IssueCard
+            cover_url={numero.copertina_url}
+            titolo_numero={numero.titolo_numero}
+            numero={numero.numero_progressivo}
+            anno={numero.anno_pubblicazione}
+            periodo_label={numero.periodo_label}
+            tipo_rivista={numero.tipo_rivista}
+            id_numero={numero.id_numero}
+          />
+        ))}
+      </div>
+
+      <div class="no-results" id="no-results" style="display: none;">
+        <h2 class="no-results-title">Nessun risultato</h2>
+        <p class="no-results-text">Prova a modificare i filtri per vedere più risultati.</p>
+      </div>
+    </div>
+
+    <script define:vars={{ numeriData: numeriOrdinati.map(numero => ({
+        id: numero.id_numero,
+        tipo: numero.tipo_rivista,
+        numero: numero.numero_progressivo,
+        anno: numero.anno_pubblicazione,
+        titolo: numero.titolo_numero,
+        periodo: numero.periodo_label || '',
+        cover: numero.copertina_url || '',
+      })) }}>
+      // Dati dei numeri (passati dal server)
+      console.log('NumeriData caricati:', numeriData?.length || 0);
+
+      // Attendi che il DOM sia pronto
+      document.addEventListener('DOMContentLoaded', function() {
+        // Elementi DOM
+        const filterAnno = document.getElementById('filter-anno') as HTMLSelectElement;
+        const filterTestata = document.getElementById('filter-testata') as HTMLSelectElement;
+        const filterOrdine = document.getElementById('filter-ordine') as HTMLSelectElement;
+        const issuesGrid = document.getElementById('issues-grid') as HTMLElement;
+        const noResults = document.getElementById('no-results') as HTMLElement;
+        const resultsCount = document.getElementById('results-count') as HTMLElement;
+
+        if (!filterAnno || !filterTestata || !filterOrdine || !issuesGrid || !noResults || !resultsCount) {
+          console.error('Elementi DOM non trovati!', {
+            filterAnno: !!filterAnno,
+            filterTestata: !!filterTestata,
+            filterOrdine: !!filterOrdine,
+            issuesGrid: !!issuesGrid,
+            noResults: !!noResults,
+            resultsCount: !!resultsCount
+          });
+          return;
+        }
+
+        // Funzione per determinare la testata
+        function getTestata(tipo: string, titolo: string): string {
+          if (tipo === 'insieme' || titolo.toLowerCase().includes('insieme')) {
+            return 'insieme';
+          }
+          return 'ombre_e_luci';
+        }
+
+        // Funzione per filtrare e ordinare
+        function filterAndSort() {
+          if (!numeriData || numeriData.length === 0) {
+            console.error('numeriData non disponibile');
+            return;
+          }
+
+          const annoFiltro = filterAnno.value;
+          const testataFiltro = filterTestata.value;
+          const ordineFiltro = filterOrdine.value;
+
+          console.log('Filtri applicati:', { annoFiltro, testataFiltro, ordineFiltro });
+
+          // Filtra
+          let filtered = numeriData.filter(numero => {
+            if (annoFiltro && numero.anno.toString() !== annoFiltro) return false;
+            if (testataFiltro) {
+              const testata = getTestata(numero.tipo, numero.titolo);
+              if (testata !== testataFiltro) return false;
+            }
+            return true;
+          });
+
+          console.log('Risultati filtrati:', filtered.length);
+
+          // Ordina
+          filtered.sort((a, b) => {
+            if (a.anno !== b.anno) {
+              return ordineFiltro === 'desc' 
+                ? b.anno - a.anno 
+                : a.anno - b.anno;
+            }
+            return ordineFiltro === 'desc'
+              ? b.numero - a.numero
+              : a.numero - b.numero;
+          });
+
+          // Aggiorna UI con transizione fluida
+          issuesGrid.style.opacity = '0';
+          setTimeout(() => {
+            updateGrid(filtered);
+            updateResultsCount(filtered.length);
+            issuesGrid.style.opacity = '1';
+          }, 150);
+        }
+
+        // Funzione per aggiornare la griglia
+        function updateGrid(numeri: typeof numeriData) {
+          if (numeri.length === 0) {
+            issuesGrid.style.display = 'none';
+            noResults.style.display = 'block';
+            return;
+          }
+
+          issuesGrid.style.display = 'grid';
+          noResults.style.display = 'none';
+
+          // Genera HTML per le card
+          issuesGrid.innerHTML = numeri.map(numero => {
+            const testata = getTestata(numero.tipo, numero.titolo);
+            const testataLabel = testata === 'insieme' ? 'Insieme' : 'Ombre e Luci';
+            const numeroSlug = numero.id.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+            const linkUrl = `/archivio/${numeroSlug}`;
+
+            return `
+              <a href="${linkUrl}" class="issue-card">
+                <div class="issue-card-image-wrapper">
+                  ${numero.cover 
+                    ? `<img src="${numero.cover}" alt="Copertina ${testataLabel} n. ${numero.numero} - ${numero.anno}" class="issue-card-image" loading="lazy" />`
+                    : `<div class="issue-card-placeholder">
+                        <span class="issue-card-placeholder-text">${testataLabel}</span>
+                        <span class="issue-card-placeholder-number">n. ${numero.numero}</span>
+                      </div>`
+                  }
+                  <div class="issue-card-badge">${testataLabel}</div>
+                </div>
+                <div class="issue-card-content">
+                  <h3 class="issue-card-title">${numero.titolo}</h3>
+                  <div class="issue-card-meta">
+                    <span class="issue-card-number">n. ${numero.numero}</span>
+                    <span class="issue-card-year">${numero.anno}</span>
+                    ${numero.periodo ? `<span class="issue-card-period">${numero.periodo}</span>` : ''}
+                  </div>
+                </div>
+              </a>
+            `;
+          }).join('');
+        }
+
+        // Funzione per aggiornare il contatore risultati
+        function updateResultsCount(count: number) {
+          resultsCount.textContent = `${count} ${count === 1 ? 'numero' : 'numeri'}`;
+        }
+
+        // Transizione fluida per la griglia
+        issuesGrid.style.transition = 'opacity 0.15s ease-in-out';
+
+        // Event listeners
+        filterAnno.addEventListener('change', filterAndSort);
+        filterTestata.addEventListener('change', filterAndSort);
+        filterOrdine.addEventListener('change', filterAndSort);
+
+        // Inizializza
+        filterAndSort();
+      });
+    </script>
+  </body>
+</html>
+

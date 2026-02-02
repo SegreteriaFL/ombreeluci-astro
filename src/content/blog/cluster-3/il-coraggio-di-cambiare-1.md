@@ -1,0 +1,48 @@
+---
+title: Il coraggio di cambiare
+date: 2025-12-23
+author: Suor Veronica Amata Donatello
+slug: il-coraggio-di-cambiare-1
+wp_id: 15768773
+original_url: "https://www.ombreeluci.it/?p=15768773"
+cluster_id: 3
+has_comments: false
+umap_x: 8.826204299926758
+umap_y: 8.828829765319824
+umap_z: 11.87576961517334
+issue_number: OEL-172
+---
+
+L'equipe di preparazione del pellegrinaggio mi ha fatto la domanda del secolo: «Quale futuro abbiamo? Come rendere attuale il nostro carisma?». Se avessi la risposta, se la Chiesa avesse la risposta!
+
+Sicuramente avete ricevuto un dono e una missione nella Chiesa: però arriva un tempo in cui, come accade per ogni realtà, bisogna avere il coraggio di lasciarsi trasformare e di essere lievito. Ho avuto la grazia di girare all’estero e di incontrare altre comunità di Fede e Luce e, mi dicevo, l’Italia è diversa. In Italia le comunità sono nelle parrocchie, sono nei contesti. Se dovessi dare degli aggettivi di Fede e Luce direi casa e amicizia e, veramente, luogo di incontro. Ho pensato a due immagini da consegnarvi oggi. All’altare e alle tavole della vita.
+
+Ripenso a voi e penso anche a quelli che vengono in parrocchia da me a Roma, alla messa e alle vostre liturgie; non c’è convegno o evento mondiale in Vaticano dove non ci siete in maniera attiva. Eravamo insieme quando, per preparare il Giubileo della Misericordia, Paolo Tantaro (all’epoca presidente dell’associazione, ndr) alzò la mano e disse «Ma potremmo provare in piazza San Pietro il Vangelo mimato?». Silenzio. Mi sono detta… «Dio, abbiamo esagerato forse». E invece… Sì, sì. Ed è stata un’esperienza bellissima. Le vostre liturgie provocano, chiamano la Chiesa e chi partecipa a una visione diversa, a una visione nuova.
+
+E poi penso alla tavola della vita. Le volte che sono venuta si mangiava insieme. La sfida è che la tavola diventi il primo luogo di umanizzazione. In questo tempo dove vediamo i tanti conflitti, le fatiche che ci sono… la tavola e le tavole che voi abitate - e come le abitate - possono diventare scuola di evangelizzazione, scuola di umanizzazione.
+
+A tavola cos’è che si fa? I nostri corpi, i nostri sensi si attivano. Il gusto, l’olfatto, gli sguardi che si incrociano, i silenzi, il linguaggio. In fondo, la tavola, mi viene da dire, è un metodo sinodale di ascolto, di incontrare gli altri, di rispettare gli altri. A tavola si impara uno stile di stare insieme. La tavola diventa quasi tirocinio attivo. A tavola, un po’ come dice il Vangelo, si invitano tutti, o si dovrebbero invitare tutti.
+
+Ecco la prima sfida che potreste affrontare. Una volta dissi a qualcuno di voi, piuttosto che affittare solo la sala, perché non entrate in parrocchia? Perché non vi mischiate con la parrocchia? Voi potreste aiutare le parrocchie a invitare tutti a tavola. Le comunità cristiane a volte non si rendono neanche conto che c’è gente che manca a tavola. Voi potete essere sale, potete dire alla parrocchia «Ma come mai ci sono solo i nostri? Come mai le famiglie con disabilità o anziane non ci sono?» Voi potreste essere quel campanello.
+
+Nel libro di Samuele si racconta di quando Davide dice «Se non arriva il figlio di Jonathan io non mi siedo a tavola». Questa è una famiglia: una famiglia che cerca, che cerca gli ultimi, che cerca chi manca.
+
+È uscita ieri un’ultima ricerca sulle famiglie che hanno figli con disabilità: solo il 24% di loro ha un amico. Voi siete campioni dell’amicizia. Voi sapete cos’è l’amicizia. Le persone con disabilità o le famiglie non sono persone da assistere, sono amici con cui si vive un cammino di fede. Però, perdonatemi, ora vi provoco. Dovete far dono anche fuori dai vostri contesti. Questo è l’unico modo per salvarvi. Se no, diventate autoreferenziali, morite, perché calano le persone. I giovani non vengono; ormai rispetto a 50 anni fa ci sono molte proposte anche più belle, più allettanti, più carine di queste.
+
+La sfida è imparare, reimparare il linguaggio dello stare a tavola. In un tempo di all you can eat, in cui si mangia senza limiti, in cui non ci sono limiti, in cui c’è tutto, voi potreste essere maestri su questo e anche invitare le nostre comunità, dal pane della tavola al pane dell’altare. Ecco, nella messa della domenica, a prescindere dai gruppi ai quali puoi appartenere, è la comunità che, insieme, si ritrova. Voi dovreste essere quel campanello, di chi non ha paura di mischiarsi, che non ha paura di perdere. Dovreste essere sempre più nelle parrocchie. Le parrocchie saranno sgarrupate, ma sono 25.000 in Italia e la gente bussa ancora, la gente grida, chiede aiuto.
+
+Il 67% dei caregiver o dei fratelli e delle sorelle, non hanno mai avuto una persona a loro fianco, una persona che li ha aiutati. Anche io sono caregiver, sono figlia, sorella, ho parenti con disabilità. Come mi piacerebbe che mia sorella, mia mamma, mio papà avessero persone a fianco, ecco, persone che camminano con loro… C’è un popolo che attende il nostro grido. Alla tavola della mensa del Signore, provocate le parrocchie, provocate le diocesi. Tanti di voi sono referenti nelle nostre diocesi del servizio disabilità, penso a don Mauro Santoro ad esempio. Provocate le diocesi a dire non possiamo escludere qualcuno dalla mensa del Signore perché alla mensa del Signore impariamo a diventare comunità, impariamo lo stile degli altri e c’è posto. Allora, veramente, la liturgia diventa quel luogo dove si impara non a fare battaglie, ma impariamo dei paradigmi nuovi.
+
+Ci stiamo ponendo domande serie sulla vocazione delle persone con disabilità. Qual è la loro vocazione? Dire il rosario, essere in prima fila? La loro disabilità è la loro vocazione? Ma no, assolutamente no. Accompagniamo la Chiesa a uscire dall’ottica assistenzialista o dall’ottica legata solo a un frammento di vita delle persone con disabilità. Aiutiamo a far sì che sempre più le famiglie abbiano voce e partecipino. A volte nei contesti di catechesi i parroci hanno paura, non sanno come si fa. Voi siete maestri, voi già lavorate con tante cose. Allora fatevi compagni di viaggio con umiltà, fatevi piccoli, dite noi ci rendiamo disponibili, così i giovani vi guarderanno e diranno «che bello!».
+
+Abbiamo fatto il giubileo dei giovani, 1800 giovani con disabilità. C’era l’hub disabili, ma in ogni area c’era uno spazio dove l’80% delle persone con disabilità è rimasto coi propri compagni, coi loro amici. Questo è bello, permettere di poter scegliere, avere uomini e donne che camminano con loro, che vivono esperienze con gli altri giovani.
+
+L’ultima immagine: il lievito. Il lievito è un’immagine che ricorre spesso nel Vangelo. In questo tempo storico siamo chiamati tutti a essere sale, a essere lievito. Il lievito ha un’identità chiara, e voi l’avete: avete una storia, 50 anni di meraviglie da raccontare. Però il lievito se non si mischia con la farina e con l’acqua, muore. Abbiate questo coraggio per continuare a portare frutti di santità. Voi siete i maestri della spiritualità. Oggi parliamo della spiritualità delle persone con disabilità, delle famiglie. Voi già da 50 anni ne parlate. Pensate a quale eredità avete, che responsabilità avete nella Chiesa.
+
+Aiutate la Chiesa sempre più e la società civile ed ecclesiale. Diceva papa Francesco che spesso le persone con disabilità esistono ma non appartengono. Nel 2016, con lui, per la prima volta le persone con disabilità presero il microfono e fecero domande. Bergoglio disse loro: «O tutti o nessuno». Chi è che può aiutare a far sì che queste frasi, che il magistero, che il vangelo prenda vita? Il Signore usa le nostre mani, le nostre braccia, usa noi. Siate quei visionari, siate quel pane spezzato.
+
+Ci sono tante guerre, tanti conflitti. Nove famiglie con disabilità su dieci non fanno un pasto completo, mangiano ogni due giorni, sono sulla soglia della povertà. E voi lo sapete, non dovete risolvere tutto, ma dovete essere sentinelle. Dovete abitare quelle cattedre, quegli altari dove provocate e dite «Diamo voce, insieme si può fare, insieme possiamo cambiare, insieme possiamo essere quei visionari e quel pane spezzato che sfama 5.000 persone e ne riporta a casa».
+
+L’augurio che vi faccio oggi è di essere cuori che infiammano altri cuori. Penso a Nicolò Goboni che era al Giubileo dei giovani: un ragazzo problematico, un bambino che non sapevano dove mettere, con disagio, allontanato nella classe a fianco. Una maestra gli ha dato credito, gli ha detto «Tu hai un dono». E ora ha creato una realtà che in varie zone del mondo si occupa della dignità scolastica, insegna a lavorare per persone con disabilità e con disagio sociale. Al numero 47 Amoris Letitia dice che le famiglie con disabilità sono chiamate a essere testimoni proprio perché hanno vissuto tanti venerdì santo e tanti li vivono e possono essere testimoni della risurrezione. Ma a volte le famiglie - e ve lo dico io che lo vivo - hanno paura, si sentono sole, non ce la fanno. Allora voi siete già maestri su questo. Aiutateci. Veramente lo dico come Chiesa, aiutateci ad accompagnare le nostre diocesi con lo stile bello che avete voi, colorato, vivo, normale, gioioso, festivo, umano. Se io penso a voi, penso veramente che siete maestri di umanità, quella di cui c’è bisogno oggi, di grande umanità. Il mio augurio è di essere quel pane spezzato e di essere cuori che infiammano altri cuori. Non vi fate prendere dall’ansia dei numeri. Il Signore vi benedirà. Se voi avete coraggio di uscire, di cambiare, di morire, di lasciare qualcosa, il Signore benedice. Su questo ne sono veramente sicura perché lo vedo.
+
+https://youtu.be/GnfumfJHMk4?si=k-_9VbKmj61FunP9

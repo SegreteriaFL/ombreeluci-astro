@@ -1,0 +1,21 @@
+---
+title: La povertà delle beatitudini
+date: 2015-03-19
+author: Jean Vanier
+slug: la-povert-delle-beatitudini
+wp_id: 38830
+original_url: "https://www.ombreeluci.it/?p=38830"
+cluster_id: 8
+has_comments: false
+tags:
+  - fede-e-luce
+umap_x: 8.41539192199707
+umap_y: 11.861007690429688
+umap_z: 10.859783172607422
+issue_number: OEL-132
+---
+
+Il
+discorso della Montagna è il cuore del messaggio evangelico, tutto rivolto agli umili, ai poveri, ai deboli e alle persone vulnerabili: i piccoli, gli esseri insignificanti agli occhi di questo mondo, quelli che vengono sempre lasciati in disparte. È un messaggio di speranza, di amore e di guarigione. Le persone disabili, di fatto, con la loro semplice esistenza, annunciano Gesù e il messaggio del Vangelo. Gesù chiama i suoi discepoli a diventare servi e amici e non maestri; se sono amici suoi, devono diventare anche amici dei deboli e dei poveri. Li chiama a diventare “come bambini”: fiduciosi, aperti, pieni di stupore e di riconoscenza. È facile accorgersi di come il rifiuto, i tormenti e la condanna di Gesù, durante la vita pubblica, trovino riscontro nell’esperienza di chi vive un deficit intellettivo. Ma non dimentichiamo neppure il mistero di Maria, sua madre. […] ella era vicina a Gesù, credeva in Lui e si offriva in sacrificio con lui. […] È il nostro modello di compassione, ci insegna a stare accanto alle persone fino alla fine, abitando e vivendo con essi per tutta la vita, qualunque siano i loro problemi psichici o fisici, per condividerne l’angoscia e la povertà.[…] È una cosa molto semplice: niente di grandioso, niente di brillante o di importante, ma solo imparare ad amarci gli uni gli altri a diventare amici di chi ci sta vicino, a vivere in comunione con la comunità. I nostri pellegrinaggi presso i santuari dedicati a Maria, per noi erano un modo di ricordare il ministero di Maria, ma anche un’occasione per divertirci e per vivere un’avventura. I viaggi e le celebrazioni sono molto importanti per conservare il buon umore, per aprire cuore e menti ad altre realtà, per rompere la ruotine della vita quotidiana. E l’idea di fare un pellegrinaggio, di camminare insieme verso un santuario, si ritrova in gran parte delle religioni. […] Uno dei più importanti che abbiamo fatto: il pellegrinaggio a Lourdes di Fede e Luce nel 1971. È stato fenomenale! Cento volte meglio di come l’avessimo previsto! Benché ci aspettassimo un evento unico nel suo genere fu molto più grande di quanto pensassimo. Ancora una volta uno può fare la cosa che gli sembra buona, ma deve guardare fin dove lo porterà lo Spirito Santo! Il movimento di Fede e Luce è stato creato perché numerosi genitori di ragazzi con deficit intellettivi non avevano alcun sostegno: erano smarriti, non sapevano che cosa fare, a chi rivolgersi. […] Marie-Hélène (Mathieu) ed io abbiamo avuto l’idea di organizzare su scala internazionale, un pellegrinaggio a Lourdes, pensato specificatamente per le persone con disabilità e per i loro parenti e amici. Nel 1971, per la festa di Pasqua, sono arrivati a Lourdes 12.000 pellegrini da 15 paesi diversi! Abbiamo vissuto quattro giorni intensi, pieni di scambi personali e di celebrazioni comunitarie. Abbiamo cantato, pregato, ci siamo incontrati e abbiamo parlato insieme. Tutto era organizzato in funzione dei più deboli e vulnerabili, affinché non solo partecipassero alla festa, ma fossero al centro degli eventi. Per una volta erano gli invitati d’onore, i privilegiati, coloro che venivano accolti in maniera speciale.[…] Per molti genitori, Fede e Luce è diventato una fonte di speranza: non sono più soli; i ragazzi hanno trovato degli amici e le famiglie una comunità. […] Prego perché l’Arca e Fede e Luce prendano sempre Gesù per modello; Gesù, uomo di compassione, di bontà, di presenza, che ci conduce verso la comunione con il Padre e con gli altri. […] Il che comporta che ognuno scopra la sapienza e la verità, illuminata dal dialogo e dalla tenerezza. […] Sì, prendiamo Gesù a modello di compassione, Lui che ha sempre messo la persona al di sopra della legge e delle istituzioni, ma che ha anche proclamato la verità.
+*Jean Vanier*
+, tratto da ("La nostra vita insieme", Ed. San Paolo)

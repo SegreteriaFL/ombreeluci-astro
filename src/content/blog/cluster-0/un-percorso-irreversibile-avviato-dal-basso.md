@@ -1,0 +1,22 @@
+---
+title: Un percorso irreversibile avviato dal basso
+date: 2024-11-26
+author: Nicla Bettazzi
+slug: un-percorso-irreversibile-avviato-dal-basso
+wp_id: 45755
+original_url: "https://www.ombreeluci.it/?p=45755"
+cluster_id: 0
+has_comments: false
+umap_x: 7.311741352081299
+umap_y: 6.476260662078857
+umap_z: 10.446223258972168
+issue_number: OEL-168
+---
+
+Arrivando per la prima volta a Trieste in un’estate dei primi anni Settanta, la bella sorpresa fu che d’impatto tutto corrispondeva al mio immaginario di giovane studentessa. Trieste, splendida, emanava il fascino di una capitale europea, algida, elegante, multietnica, in più a dimensione umana. In contrasto, però, con l’immagine gaia, esuberante, tollerante, di sano benessere che la città offriva, colpivano, non poco, l’insofferenza verso quegli «s’chavi maledeti» che affollavano per lo più la piazza davanti alla stazione centrale, il numero elevatissimo di persone anziane.
+
+In realtà infatti erano presenti, carsicamente, dolorose e drammatiche problematicità: i dati statistici, dei quali in quegli anni i più erano all’oscuro, parlavano di come la città avesse sempre avuto percentuali altissime di malati di tbc, suicidi (maglia nera in Italia), alcolisti e malati mentali. Trieste era stata una grande città per un tempo relativamente breve, da metà Settecento al 1918 e tutte le culture, etnie, tradizioni etniche che vi erano confluite non avevano avuto la possibilità di amalgamarsi in un modello unitario. Se quella identità era stata anche l’humus sul quale era fiorita una insuperata produzione letteraria, l’inquietudine aveva però riversato altri disorientamenti sugli strati più fragili della popolazione compreso lo sbocco in un nazionalismo, in uno sciovinismo quasi presi a prestito. Poi un secondo dopoguerra particolarmente duro (i difficili rapporti con le zone limitrofe, la tragedia delle foibe e degli esuli istriani, un’economia tutta da ricostruire, un clima a volte davvero inclemente).
+
+Un rimedio per le contraddizioni più stridenti o per i casi più scomodi era sempre stato il grande manicomio, il San Giovanni, una bella costruzione sulla collina che domina la città, ampi viali ben curati, palazzine dall’architettura gradevole, più simile a un signorile luogo di villeggiatura che a un ospedale. Però all’interno i pazienti subivano l’elettroshock, erano tenuti in condizioni di degrado, a volte per intere giornate nei loro escrementi, legati ai letti di contenzione, isolati, segregati, disumanizzati. E se al San Giovanni, con i collaboratori più stretti, Basaglia decide che i manicomi non si migliorano ma si abbattono (Trieste sarà la prima al mondo a chiudere il manicomio), il primo impatto con la città non fu per niente semplice.
+
+Trieste «si offese» alle rivelazioni di quanto avveniva là dentro, si sentì in pericolo per quell’apertura e l’antico pregiudizio malato di mente/persona pericolosa divampò in tutta la sua ferocia. Il lento cammino virtuoso, che tale decisione metteva in atto, rimaneva infatti silente, la stampa nazionale, di destra e soprattutto «Il Piccolo» (il giornale locale) avevano ormai avviato una impietosa campagna contro Basaglia rappresentando i rischi verso i cittadini, la pericolosità della riforma e dando voce solo agli episodi negativi, alcuni gravissimi, purtroppo accaduti. Alla violenza della stampa, inoltre, si aggiungevano vere e proprie valanghe di denunce, querele, diffide. Era chiaro che bisognava riuscire a comunicare con i cittadini, tutti, altrimenti quello che si stava facendo non avrebbe fatto breccia. Era necessario andare ovunque (nelle scuole, nelle biblioteche, nei rioni, nei mercati) per chiedere, spiegare, accettare commenti dolorosi («Darei la pena di morte a tutti, peccato che in Italia non c’è. Sono troppo pericolosi»), senza giudicare ma continuando ad ascoltare e rispondere: era iniziato un rapporto conflittuale con la città, che però aveva accettato il contraddittorio. Nelle prime fasi della rivoluzione di Basaglia, non erano stati i ceti più colti, aperti e multietnici (come ci si sarebbe potuto aspettare) ad accogliere il nuovo, ma si erano rivelate risorsa straordinaria le classi sociali più deboli, le fragilità, che quei diversi sentivano vicini, «sulla stessa barca», qui aveva prevalso il buon senso comune, mai rigido e immobile nella sua pragmaticità, come insegnava Gramsci, e dal basso si era avviato un percorso irreversibile.

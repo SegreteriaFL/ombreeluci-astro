@@ -1,0 +1,23 @@
+---
+title: "Ogni uomo è una storia sacra"
+date: "1996-12-15"
+author: "Natalia Livi"
+theme: "cluster-0"
+cluster_id: 0
+slug: "ogni-uomo-e-una-storia-sacra"
+has_comments: false
+tema_code: "T15"
+tema_label: "Memoria e storia di Fede e Luce (opzionale)"
+categoria_menu: "Storia"
+---
+
+Vorremmo che tanti leggessero questo nuovo libro di Jean Vanier. Vorremmo che fosse letto dai medici, dagli assistenti sociali, dagli educatori e da tutti coloro che lavorano nel sociale. Vorremmo che fosse letto nelle comunità e nelle famiglie, nella solitudine della «pròpria cameretta» dove il Vangelo ci invita a rientrare per pregare e meditare, e nel cerchio di alcuni amici fidati, al momento della riflessione, dello scoraggiamento e della ripresa.
+Henri Bissonier definisce questo libro un compendio di antropologia cristiana. Jean Vanier pone sulla persona umana il suo sguardo carico di esperienza e di comprensione, ne delinea le fasi della vita e della crescita (psicologica e spirituale) le ferite e le difficoltà. Questa persona vive e cresce in un ambiente specifico, in mezzo agli altri, e non può essere felice indipendentemente da loro. Di qui il rilievo dato all'ambiente in cui si forma il bambino e l'importanza per tutti dell'appartenere a una terra, a un paese, a una famiglia, a una comunità. La comunità non è solo quella che uno ha scelto per realizzare il proprio ideale, ma può essere quella dove si vive o, dove si lavora o dove sono i propri affetti e le proprie radici. «La famiglia e la comunità sono i luoghi previlegiati in cui ci si impegna insieme per vivere, per condividere a livello personale e per sostenersi a vicenda. Sono i luoghi dell'incontro personale, i luoghi del cuore e dell'amore, i luoghi dove si diventa vulnerabili di fronte agli altri e dove si condividono i valori e l'esperienza della vita. Ci sono scuole e istituzioni che formano la testa; la comunità e la famiglia sono scuole del cuore, dell'amore e della fedeltà alle persone; sono scuole che aprono l’individuo agli altri, ai diversi, al perdono e all'amore universale».
+
+Ma se ogni persona umana è nata per vivere in un ambiente idoneo ad aiutarla a crescere, a ricevere e a dare l'amore che Dio ha messo in ogni creatura, come favorire tutto questo? Come superare gli ostacoli, lenire le ferite, lottare contro le ingiustizie? Jean Vanier racconta la propria esperienza, episodi della sua vita, lezioni imparate attraverso gli altri, la sua vocazione, le sue scelte, gli incontri fatti in Francia e in tutte le parti del mondo. Dietro le sue parole sembra di sentire il suo sì ripetuto tante volte e il suo amore per le persone più fragili. Ciò che ci tocca sempre leggendolo ascoltandolo è la concretezza delle sue parole: la spiritualità che lo contraddistingue non è teoria astratta, ma è sempre applicabile nella nostra vita. E vero che questo può rivoluzionare le nostre giornate, i nostri rapporti; è vero che a volte può apparire difficile, ma è anche vero che, ascoltandolo, diventa chiaro ciò che è importante e ciò che non lo è. Il suo atteggiamento è un modo di essere che è nato dalla realtà della sua vita con gli handicappati mentali. Il filo conduttore del libro è la capacità e la volontà di Jean Vanier di vivere «la comunione» con gli altri. «L'obiettivo di ogni crescita umana è la comunione, l'apertura agli altri, a Dio, al mondo. Scoprire la nostra comune umanità; darsi da fare per un mondo in cui ci siano più comunione e più compassione fra gli esseri umani». E ancora: «La comunione è possibile? E un miraggio creato da un genio malvagio, o è il luogo di una prespnzadi Dio? Questo è l'interrogativo fondamentale che si pone all'essere umano che è in cerca di unità, di pace, di libertà, di luce, di amore, ma che è scoraggiato da tutte le forze opposte che si trovano dentro di lui e intorno a lui».
+
+Questo libro ci dimostra che la comunione è possibile, che è l'antidoto alla ferita. Ci dice che la comunione è l'opposto dell’egoismo, del senso separativo delhio, dell'isolamento, e che sta a noi la responsabilità di volerla e di viverla.
+
+- *Natalia Livi*, 1996
+
+[**Natalia Livi**](http://www.ombreeluci.it/author/natalia-livi/), è stata una delle storiche collaboratrici di Ombre e Luci. Ha contribuito alla rivista dal 1991 al 2004.

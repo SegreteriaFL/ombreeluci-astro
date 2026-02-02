@@ -1,0 +1,1539 @@
+---
+import { getCollection } from 'astro:content';
+import Header from '../../components/Header.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
+import { ViewTransitions } from 'astro:transitions';
+import { readFile } from 'fs/promises';
+import { join } from 'path';
+import placeholderImage from '../../assets/placeholder1.webp';
+import autoriStats from '../../data/autori_stats.json';
+import megacluster from '../../data/articoli_megacluster.json';
+import '../../styles/global.css';
+
+const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
+const megaclusterData = megacluster as {
+  byId?: Record<string, { img_copertina_url?: string }>;
+  autoriById?: Record<string, { foto_url?: string; bio_html?: string }>;
+};
+const megaclusterById = megaclusterData.byId || {};
+const autoriById = megaclusterData.autoriById || {};
+// Debug: verifica caricamento megacluster in build
+console.log('[blog/[...slug].astro] Object.keys(megacluster.byId).length =', Object.keys(megaclusterById).length);
+console.log('[blog/[...slug].astro] Object.keys(megacluster.autoriById).length =', Object.keys(autoriById).length);
+
+// Genera tutti i percorsi statici
+export async function getStaticPaths() {
+  const allArticles = await getCollection('blog');
+  
+  return allArticles.map((article) => {
+    // Usa lo slug come parametro
+    const slug = article.slug;
+    
+    return {
+      params: { slug }
+    };
+  });
+}
+
+// Ottieni tutti gli articoli per trovare quello con lo slug corrispondente
+const allArticles = await getCollection('blog');
+const slugParam = Astro.params.slug;
+
+// Crea mappa wp_id -> slug per conversione link WordPress
+const wpIdToSlugMap: Record<number, string> = {};
+allArticles.forEach(article => {
+  if (article.data.wp_id && article.slug) {
+    wpIdToSlugMap[Number(article.data.wp_id)] = article.slug;
+  }
+});
+
+// Lo slug può essere:
+// 1. Solo il nome file (es. "ombre-e-luci")
+// 2. Percorso completo (es. "cluster-14/ombre-e-luci")
+let articleBySlug = null;
+
+// Prima prova a cercare per slug nel frontmatter
+articleBySlug = allArticles.find(entry => entry.data.slug === slugParam);
+
+// Se non trovato, prova con entry.slug (generato da Astro)
+if (!articleBySlug) {
+  articleBySlug = allArticles.find(entry => entry.slug === slugParam);
+}
+
+// Se non trovato, cerca per percorso completo
+if (!articleBySlug) {
+  articleBySlug = allArticles.find(entry => {
+    // entry.id è il percorso completo relativo a src/content/blog (es. "cluster-14/ombre-e-luci.md")
+    const entryPath = entry.id.replace(/\.md$/, ''); // Rimuovi .md
+    // Confronta con lo slug del parametro (può essere "cluster-14/ombre-e-luci" o solo "ombre-e-luci")
+    return entryPath === slugParam || entryPath.endsWith(`/${slugParam}`);
+  });
+}
+
+if (!articleBySlug) {
+  return Astro.redirect('/404');
+}
+
+const { Content } = await articleBySlug.render();
+
+// Funzione per formattare la data in italiano
+function formatDateItalian(date: Date): string {
+  return new Intl.DateTimeFormat('it-IT', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  }).format(date);
+}
+
+// Funzione per generare slug autore
+function generateAuthorSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+// Funzione per generare slug numero
+function generateIssueSlug(issueNumber: string): string {
+  return issueNumber.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+}
+
+// Slug autore e dati da megacluster (database_autori)
+const authorSlug = generateAuthorSlug(articleBySlug.data.author);
+let authorBio: string | null = (autoriById[authorSlug] as { bio_html?: string } | undefined)?.bio_html?.trim() || null;
+// Foto autore: da database_autori (foto_url) se presente, altrimenti locale /assets/authors/[slug].jpg
+const authorFotoUrl = autoriById[authorSlug]?.foto_url;
+const authorImagePath = authorFotoUrl || `/assets/authors/${authorSlug}.jpg`;
+
+if (!authorBio) {
+  try {
+    const autoriBioData = await import('../../../scripts_and_data/datasets/autori/autori_bio.json');
+    const autoriBio = autoriBioData.default as Array<{slug: string; nome_completo: string; bio: string | null}>;
+    const authorBioData = autoriBio.find(a => a.slug === authorSlug);
+    authorBio = authorBioData?.bio || null;
+  } catch (e) {
+    // File non trovato o errore, usa null
+  }
+}
+
+// Issue number e link
+const issueNumber = articleBySlug.data.issue_number;
+const issueSlug = issueNumber ? generateIssueSlug(issueNumber) : null;
+const issueLink = issueSlug ? `/archivio/${issueSlug}` : null;
+
+// Funzione per estrarre excerpt dalle prime due righe del contenuto
+async function extractExcerpt(articleId: string): Promise<string | null> {
+  try {
+    // articleId è il percorso relativo a src/content/blog (es. "cluster-14/ombre-e-luci.md")
+    const contentPath = join(process.cwd(), 'src', 'content', 'blog', articleId);
+    const content = await readFile(contentPath, 'utf-8');
+    const parts = content.split('---');
+    if (parts.length < 3) return null;
+    
+    const body = parts[2].trim();
+    // Rimuovi markdown e HTML, estrai solo testo
+    const textOnly = body
+      .replace(/^#+\s+/gm, '') // Rimuovi heading markers
+      .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1') // Rimuovi link markdown
+      .replace(/!\[([^\]]*)\]\([^\)]+\)/g, '') // Rimuovi immagini
+      .replace(/<[^>]+>/g, '') // Rimuovi HTML tags
+      .replace(/\*\*([^\*]+)\*\*/g, '$1') // Rimuovi bold
+      .replace(/\*([^\*]+)\*/g, '$1') // Rimuovi italic
+      .trim();
+    
+    // Prendi le prime due righe
+    const lines = textOnly.split('\n').filter(line => line.trim().length > 0);
+    if (lines.length >= 2) {
+      return lines.slice(0, 2).join(' ').substring(0, 200);
+    } else if (lines.length === 1) {
+      return lines[0].substring(0, 200);
+    }
+    return null;
+  } catch (e) {
+    // Se non riesce a leggere il file, ritorna null
+    return null;
+  }
+}
+
+// Estrai excerpt se non presente
+let articleExcerpt = articleBySlug.data.tema_label || null;
+if (!articleExcerpt) {
+  articleExcerpt = await extractExcerpt(articleBySlug.id);
+}
+
+// Meta description per SEO (prime 160 caratteri)
+const metaDescription = articleExcerpt 
+  ? articleExcerpt.substring(0, 160).replace(/\s+/g, ' ').trim()
+  : `${articleBySlug.data.title} - Articolo pubblicato su Ombre e Luci`;
+
+// Immagine articolo: da megacluster (img_copertina_url) se presente, altrimenti frontmatter (image/copertina_url) o placeholder
+const wpIdStr = String(articleBySlug.data.wp_id ?? '');
+const articleImage = megaclusterById[wpIdStr]?.img_copertina_url || articleBySlug.data.image || (articleBySlug.data as { copertina_url?: string }).copertina_url || placeholderImage.src;
+
+// Label categoria (categoria_menu) e slug per link; forma per badge
+const categoryDisplay = getThemeLabel(articleBySlug.data.wp_id);
+const categorySlug = getCategorySlugForArticle(articleBySlug.data.wp_id);
+const categoryLink = categorySlug ? `/categoria/${categorySlug}` : null;
+const currentLabels = getLabels(articleBySlug.data.tags ?? [], articleBySlug.data.wp_id);
+const formaDisplay = currentLabels.formal !== 'Articolo' ? currentLabels.formal : null;
+const currentThematic = currentLabels.thematic;
+const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
+// Badge: [Numero] • [Forma] / [categoria_menu] (label cliccabili)
+const showPubblicatoOnline = !hasIssue;
+
+// Calcola tempo di lettura (circa 200 parole al minuto)
+async function calculateReadingTime(articleId: string): Promise<number> {
+  try {
+    const contentPath = join(process.cwd(), 'src', 'content', 'blog', articleId);
+    const content = await readFile(contentPath, 'utf-8');
+    const parts = content.split('---');
+    if (parts.length < 3) return 3;
+    
+    const body = parts[2].trim();
+    const textOnly = body
+      .replace(/^#+\s+/gm, '')
+      .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')
+      .replace(/!\[([^\]]*)\]\([^\)]+\)/g, '')
+      .replace(/<[^>]+>/g, '')
+      .replace(/\*\*([^\*]+)\*\*/g, '$1')
+      .replace(/\*([^\*]+)\*/g, '$1')
+      .trim();
+    
+    const wordCount = textOnly.split(/\s+/).filter(word => word.length > 0).length;
+    const readingTime = Math.max(1, Math.ceil(wordCount / 200));
+    return readingTime;
+  } catch (e) {
+    return 3; // Default
+  }
+}
+
+const readingTime = await calculateReadingTime(articleBySlug.id);
+
+// Correlati intelligenti: priorità tematica → stesso autore → ultimi pubblicati
+const currentAuthor = articleBySlug.data.author;
+
+const others = allArticles.filter((a) => a.id !== articleBySlug.id);
+const byThematic = others.filter((a) => getLabels(a.data.tags ?? [], a.data.wp_id).thematic === currentThematic);
+const byAuthor = others.filter((a) => a.data.author === currentAuthor);
+const byDate = [...others].sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const relatedIds = new Set<string>();
+byThematic.forEach((a) => { if (relatedIds.size < 3) relatedIds.add(a.id); });
+byAuthor.forEach((a) => { if (relatedIds.size < 3) relatedIds.add(a.id); });
+byDate.forEach((a) => { if (relatedIds.size < 3) relatedIds.add(a.id); });
+const relatedArticles = Array.from(relatedIds)
+  .map((id) => allArticles.find((a) => a.id === id))
+  .filter(Boolean);
+---
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{articleBySlug.data.title} - Ombre e Luci</title>
+    <meta name="description" content={metaDescription} />
+    <meta property="og:title" content={articleBySlug.data.title} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:image" content={typeof articleImage === 'string' ? articleImage : articleImage.src} />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={articleBySlug.data.title} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={typeof articleImage === 'string' ? articleImage : articleImage.src} />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <ViewTransitions />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Reading Progress Bar */
+      .reading-progress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        background: #ff1053;
+        z-index: 9999;
+        transition: width 0.1s ease-in-out;
+      }
+
+      .article-container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        background: #fff;
+        min-height: 100vh;
+      }
+
+      /* Breadcrumbs - Nascoste */
+      .breadcrumbs {
+        display: none;
+      }
+
+      /* Header Centrato - max-width: 850px */
+      .article-header-wrapper {
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 2rem 2rem 3rem 2rem;
+      }
+
+      /* Fascia Hero Larga - 1100px centrata */
+      .article-hero-wrapper {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto 3rem auto;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+      }
+
+      /* Immagine Hero - più larga del contenitore testo */
+      .article-hero-image-wrapper {
+        width: 100%;
+        display: block;
+      }
+
+      @media (max-width: 768px) {
+        .article-container {
+          padding: 1.5rem 1rem; /* Più padding laterale su mobile */
+        }
+      }
+
+      .article-header {
+        margin-bottom: 4rem; /* Margine generoso */
+      }
+
+      .article-image {
+        width: 100%;
+        max-width: 1100px;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        margin: 0 auto;
+        border-radius: 8px;
+      }
+
+      /* Placeholder colorato default */
+      .article-image-placeholder {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        display: block;
+        background: linear-gradient(135deg, #ff1053 0%, #ff6b9d 100%);
+        position: relative;
+      }
+
+      .article-image-placeholder::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 80px;
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z'/%3E%3C/svg%3E") no-repeat center;
+        background-size: contain;
+        opacity: 0.5;
+      }
+
+      /* Header Articolo */
+      .article-header-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        font-size: 0.875rem;
+        color: #666;
+        gap: 1rem;
+      }
+
+      .article-category-badge {
+        display: block;
+        padding: 0.5rem 1rem;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: #666;
+        margin: 0 auto 1.5rem auto;
+        text-align: center;
+        width: fit-content;
+      }
+
+      .article-category-badge--online {
+        background: rgba(0, 0, 0, 0.05);
+      }
+
+      .article-badge-link {
+        color: #ff1053;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .article-badge-link:hover {
+        text-decoration: underline;
+      }
+      .article-badge-sep {
+        color: #666;
+        margin: 0 0.2rem;
+      }
+      .article-badge-text {
+        color: #666;
+      }
+
+      .article-category {
+        display: none; /* Rimuovi la scritta 'Articolo' */
+      }
+
+      .article-title {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        color: var(--text-color, #1a1a1a);
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+
+      .article-subtitle {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: var(--text-secondary, #666);
+        text-align: center;
+        margin-bottom: 2rem;
+        line-height: 1.8;
+      }
+
+      .article-meta {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        font-size: 0.95rem;
+        color: var(--text-secondary, #666);
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid var(--border-color, #e5e5e5);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .article-meta-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .article-meta-author-image {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .article-meta-author-placeholder {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 0.875rem;
+        font-weight: 600;
+      }
+
+      .author-link {
+        color: #ff1053;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+      }
+
+      .author-link:hover {
+        color: #e00e4a;
+        text-decoration: underline;
+      }
+
+      .issue-reference {
+        margin-bottom: 1rem;
+      }
+
+      .issue-link {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background: rgba(0, 0, 0, 0.05);
+        color: #666;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 0.875rem;
+        font-weight: 400;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .issue-link:hover {
+        background: rgba(0, 0, 0, 0.08);
+      }
+
+      /* Social Sticky Bar - Minimal monocolore #ff1053 */
+      .social-sticky {
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 100;
+        background: transparent;
+        padding: 1rem 0.75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      .social-sticky-inner {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        align-items: center;
+      }
+
+      .social-label {
+        font-size: 0.75rem;
+        color: #ff1053;
+        letter-spacing: 0.5px;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+      }
+
+      .social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 0;
+        color: #ff1053;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+      }
+
+      .social-link:hover {
+        color: #e00e4a;
+        transform: translateY(-2px);
+      }
+
+      .social-link svg {
+        fill: currentColor;
+      }
+
+      .social-link button {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+      }
+
+      /* Author Bio Section */
+      .author-bio-section {
+        margin-top: 5rem;
+        padding-top: 4rem;
+        border-top: 1px solid var(--border-color, #e5e5e5);
+      }
+
+      .author-bio-wrapper {
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+      }
+
+      .author-bio-avatar {
+        flex-shrink: 0;
+        position: relative;
+      }
+
+      .author-bio-image {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .author-bio-placeholder {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+
+      .author-bio-content {
+        flex: 1;
+      }
+
+      .author-bio-name {
+        font-size: 1.275rem; /* 85% di 1.5rem */
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 0.75rem;
+      }
+
+      .author-bio-link {
+        color: #1a1a1a;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+
+      .author-bio-link:hover {
+        color: #667eea;
+      }
+
+      .author-bio-text {
+        font-size: 0.85rem; /* 85% di 1rem */
+        line-height: 1.7;
+        color: #555;
+      }
+
+      .author-bio-total {
+        font-size: 0.8rem;
+        color: #777;
+        margin-top: 0.75rem;
+      }
+
+      .author-bio-total a {
+        color: #ff1053;
+        text-decoration: none;
+      }
+
+      .author-bio-total a:hover {
+        text-decoration: underline;
+      }
+
+      /* Corpo del Testo - max-width: 750px */
+      .article-content-wrapper {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0 2rem 3rem 2rem;
+      }
+
+      .article-content {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.8;
+        color: #2d2d2d;
+        position: relative;
+      }
+
+      /* Drop Cap rimosso */
+
+      /* Box "Leggi anche" - Con risalto grafico */
+      .read-also-box {
+        background: rgba(255, 16, 83, 0.05);
+        border: 2px solid #ff1053;
+        border-radius: 12px;
+        padding: 2rem;
+        margin: 3rem 0;
+        box-shadow: 0 4px 12px rgba(255, 16, 83, 0.1);
+      }
+
+      .read-also-box h4 {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        color: #ff1053;
+        margin-bottom: 1rem;
+        text-transform: none;
+      }
+
+      .read-also-box p {
+        font-size: 1rem;
+        color: #1a1a1a;
+        margin-bottom: 0;
+        line-height: 1.8;
+        font-family: 'Raleway', system-ui, sans-serif;
+      }
+
+      .read-also-box a {
+        color: #ff1053;
+        text-decoration: underline;
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+
+      .read-also-box a:hover {
+        color: #e00e4a;
+      }
+
+      /* Didascalia immagine - allineata a sinistra, stessa larghezza dell'immagine */
+      .article-image-caption {
+        margin: 0.5rem 0 0 0;
+        padding-left: 0;
+        font-size: 0.875rem;
+        color: var(--text-secondary, #666);
+        font-style: italic;
+        text-align: left;
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+      }
+
+      /* Widget a comparsa - Bottom Right con animazione morbida */
+      .floating-widget {
+        position: fixed;
+        right: -400px;
+        bottom: 20px;
+        width: 320px;
+        background: white;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+        padding: 1.5rem;
+        z-index: 1000;
+        transition: right 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease;
+        opacity: 0;
+        max-height: 400px;
+        overflow-y: auto;
+      }
+
+      .floating-widget.visible {
+        right: 20px;
+        opacity: 1;
+      }
+
+      .floating-widget-image {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        object-fit: cover;
+        display: block;
+      }
+
+      .floating-widget h4 {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: #1a1a1a;
+      }
+
+      .floating-widget p {
+        font-size: 0.95rem;
+        color: #555;
+        margin-bottom: 1rem;
+        line-height: 1.6;
+      }
+
+      .floating-widget .widget-link {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: #ff1053;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        text-transform: none;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .floating-widget .widget-link:hover {
+        background: #e00e4a;
+        transform: translateY(-1px);
+      }
+
+      .floating-widget .close-btn {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        color: #999;
+        cursor: pointer;
+        line-height: 1;
+        padding: 0;
+        width: 24px;
+        height: 24px;
+      }
+
+      .floating-widget .close-btn:hover {
+        color: #333;
+      }
+
+      .article-content :global(h1),
+      .article-content :global(h2),
+      .article-content :global(h3),
+      .article-content :global(h4) {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: #1a1a1a;
+      }
+
+      .article-content :global(h1) {
+        font-size: 2rem;
+      }
+
+      .article-content :global(h2) {
+        font-size: 1.75rem;
+      }
+
+      .article-content :global(h3) {
+        font-size: 1.5rem;
+      }
+
+      .article-content :global(p) {
+        margin-bottom: 2rem; /* Spaziatura generosa tra paragrafi */
+      }
+
+      .article-content :global(p + p) {
+        margin-top: 0;
+      }
+
+      .article-content :global(img) {
+        max-width: 100%;
+        height: auto;
+        margin: 2rem 0;
+        border-radius: 8px;
+      }
+
+      .article-content :global(a) {
+        color: #ff1053;
+        text-decoration: underline;
+        transition: color 0.3s ease-in-out;
+      }
+
+      .article-content :global(a:hover) {
+        color: #e00e4a;
+      }
+
+      .article-content :global(blockquote) {
+        border-left: 4px solid #ff1053;
+        padding-left: 1.5rem;
+        margin: 3rem 0;
+        font-style: italic;
+        color: var(--text-secondary, #666);
+      }
+
+      .article-content :global(ul),
+      .article-content :global(ol) {
+        margin: 1.75rem 0;
+        padding-left: 2rem;
+      }
+
+      .article-content :global(li) {
+        margin-bottom: 0.75rem; /* Più spazio tra elementi lista */
+      }
+
+      .article-content :global(li + li) {
+        margin-top: 0.5rem;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-top: 4rem;
+        padding: 0.75rem 1.5rem;
+        background: transparent;
+        color: #ff1053;
+        text-decoration: none;
+        border: 1px solid #ff1053;
+        border-radius: 8px;
+        font-size: 0.875rem;
+        font-weight: 600;
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        text-transform: none;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .back-link:hover {
+        background: #ff1053;
+        color: white;
+        transform: translateY(-1px);
+      }
+
+      .archival-alert {
+        background: #fff9e6;
+        border-left: 4px solid #ffd700;
+        padding: 1rem 1.5rem;
+        margin: 1.5rem 0;
+        border-radius: 4px;
+        font-size: 0.95rem;
+        color: #856404;
+        font-family: system-ui, -apple-system, sans-serif;
+      }
+
+      .archival-alert strong {
+        display: block;
+        margin-bottom: 0.25rem;
+      }
+
+      .archival-alert-en {
+        background: #fff9e6;
+        border-left: 4px solid #ffd700;
+        padding: 1rem 1.5rem;
+        margin: 1.5rem 0;
+        border-radius: 4px;
+        font-size: 0.95rem;
+        color: #856404;
+        font-family: system-ui, -apple-system, sans-serif;
+      }
+
+      .archival-alert-en strong {
+        display: block;
+      }
+
+      .numero-rivista-section {
+        margin-top: 5rem;
+        padding-top: 4rem;
+        border-top: 1px solid var(--border-color, #e5e5e5);
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+      }
+
+      .numero-rivista-section h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: #1a1a1a;
+      }
+
+      .copertina-container {
+        margin-bottom: 1.5rem;
+      }
+
+      .copertina-image {
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+
+      .pdf-container {
+        margin-top: 1rem;
+      }
+
+      .pdf-link {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: #ff1053;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        text-transform: none;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .pdf-link:hover {
+        background: #e00e4a;
+        transform: translateY(-1px);
+      }
+
+      /* Sezione Articoli Correlati - Allineata a 1100px come hero */
+      .related-articles-section {
+        width: 100%;
+        max-width: 1100px;
+        margin: 5rem auto 0 auto;
+        padding: 4rem 2rem;
+        border-top: 1px solid var(--border-color, #e5e5e5);
+      }
+
+      .related-articles-title {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--text-color, #1a1a1a);
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
+      .related-articles-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+        margin-top: 2rem;
+        align-items: start !important;
+      }
+
+      .related-articles-grid > * {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      @media (max-width: 768px) {
+        .related-articles-grid {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+      }
+
+      .comments-section {
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid #e5e5e5;
+        font-family: Georgia, 'Times New Roman', serif; /* Font serif anche per commenti */
+        font-size: 0.95rem;
+        color: #666;
+        font-style: italic;
+      }
+
+      .debug-section {
+        margin-top: 2rem;
+        padding: 1rem;
+        background: #f9f9f9;
+        border: 1px dashed #ccc;
+        border-radius: 4px;
+      }
+
+      .debug-section pre {
+        background: #f5f5f5;
+        padding: 1rem;
+        border-radius: 4px;
+        overflow-x: auto;
+        font-size: 0.75rem;
+        margin-top: 0.5rem;
+        font-family: 'Courier New', monospace;
+      }
+
+      @media (max-width: 768px) {
+        .article-title {
+          font-size: 2rem;
+        }
+
+        .article-content {
+          font-size: 1rem;
+        }
+
+        .article-content :global(p) {
+          margin-bottom: 1.5rem;
+        }
+
+        .social-sticky {
+          position: relative;
+          left: auto;
+          top: auto;
+          transform: none;
+          border-radius: 12px;
+          margin: 2rem 0;
+          padding: 1rem;
+        }
+
+        .social-sticky-inner {
+          flex-direction: row;
+          justify-content: center;
+        }
+
+        .social-label {
+          writing-mode: horizontal-tb;
+          text-orientation: mixed;
+        }
+
+        .author-bio-wrapper {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    
+    {/* Reading Progress Bar */}
+    <div class="reading-progress" id="reading-progress"></div>
+    
+    <div class="article-container">
+      {/* Breadcrumbs */}
+      <nav class="breadcrumbs">
+        <a href="/archivio">Archivio</a>
+        {issueNumber && (
+          <>
+            {' > '}
+            <a href={issueLink}>Numero {issueNumber}</a>
+          </>
+        )}
+      </nav>
+
+      {/* Header Centrato - max-width: 900px */}
+      <header class="article-header-wrapper">
+        {/* Badge: [Numero] • [Forma] / [categoria_menu] – label cliccabili verso categorie */}
+        {!showPubblicatoOnline ? (
+          <nav class="article-category-badge" aria-label="Categoria e numero">
+            {issueLink && <a href={issueLink} class="article-badge-link">Numero {issueNumber}</a>}
+            {issueLink && (formaDisplay || categoryLink) && <span class="article-badge-sep"> • </span>}
+            {formaDisplay && <span class="article-badge-text">{formaDisplay}</span>}
+            {formaDisplay && categoryLink && <span class="article-badge-sep"> / </span>}
+            {categoryLink ? (
+              <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>
+            ) : (
+              <span class="article-badge-text">{categoryDisplay}</span>
+            )}
+          </nav>
+        ) : (
+          <div class="article-category-badge article-category-badge--online">
+            {categoryLink ? (
+              <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>
+            ) : (
+              'Pubblicato online'
+            )}
+          </div>
+        )}
+
+        <h1 class="article-title">{articleBySlug.data.title}</h1>
+        
+        {/* Sottotitolo (excerpt o tema_label) */}
+        {articleExcerpt && (
+          <div class="article-subtitle">
+            {articleExcerpt}
+          </div>
+        )}
+        
+        {/* Metadati con foto autore */}
+        <div class="article-meta">
+          <div class="article-meta-item">
+            <img 
+              src={authorImagePath}
+              alt={articleBySlug.data.author}
+              class="article-meta-author-image"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              loading="lazy"
+            />
+            <div class="article-meta-author-placeholder" style="display: none;">
+              {articleBySlug.data.author.charAt(0).toUpperCase()}
+            </div>
+            <a href={`/autori/${authorSlug}`} class="author-link">{articleBySlug.data.author}</a>
+          </div>
+          <div class="article-meta-item">
+            {formatDateItalian(articleBySlug.data.date)}
+          </div>
+          <div class="article-meta-item">
+            {readingTime} min di lettura
+          </div>
+        </div>
+      </header>
+
+      {/* Fascia Hero Larga - 1100px centrata */}
+      <div class="article-hero-wrapper">
+        <div class="article-hero-image-wrapper">
+          <img 
+            src={articleImage} 
+            alt={articleBySlug.data.title}
+            class="article-image"
+            loading="lazy"
+          />
+          <div class="article-image-caption">
+            {articleBySlug.data.copertina_url ? 'Copertina del numero' : 'Immagine articolo'}
+          </div>
+        </div>
+      </div>
+
+      {/* Alert box per contenuti archivistici */}
+      {articleBySlug.data.date.getFullYear() < 2000 && (
+        <div class="article-header-wrapper">
+          <div class="archival-alert">
+            <strong>Contenuto d'archivio:</strong> Questo articolo del {articleBySlug.data.date.getFullYear()} riflette il linguaggio e le sensibilità del suo tempo.
+          </div>
+        </div>
+      )}
+      
+      {articleBySlug.data.is_translation && articleBySlug.data.date.getFullYear() < 2000 && (
+        <div class="article-header-wrapper">
+          <div class="archival-alert-en">
+            <strong>This archival content from {articleBySlug.data.date.getFullYear()} reflects the language and sensitivities of its time.</strong>
+          </div>
+        </div>
+      )}
+
+      {/* Social Sticky Bar */}
+      <div class="social-sticky" id="social-sticky">
+        <div class="social-sticky-inner">
+          <span class="social-label">Condividi</span>
+          <a 
+            href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link facebook"
+            aria-label="Condividi su Facebook"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+          <a 
+            href={`https://twitter.com/intent/tweet?url=${Astro.url.href}&text=${encodeURIComponent(articleBySlug.data.title)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link twitter"
+            aria-label="Condividi su X (Twitter)"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a 
+            href={`https://wa.me/?text=${encodeURIComponent(articleBySlug.data.title + ' ' + Astro.url.href)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link whatsapp"
+            aria-label="Condividi su WhatsApp"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+          </a>
+          <a 
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=${Astro.url.href}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link linkedin"
+            aria-label="Condividi su LinkedIn"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a 
+            href={`mailto:?subject=${encodeURIComponent(articleBySlug.data.title)}&body=${encodeURIComponent(Astro.url.href)}`}
+            class="social-link email"
+            aria-label="Invia via email"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+          </a>
+          <a 
+            href="#"
+            class="social-link copy-link"
+            aria-label="Copia link"
+            onclick={`event.preventDefault(); navigator.clipboard.writeText('${Astro.url.href}'); this.setAttribute('aria-label', 'Link copiato!'); setTimeout(() => this.setAttribute('aria-label', 'Copia link'), 2000); return false;`}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      {/* Corpo del Testo - max-width: 750px */}
+      <div class="article-content-wrapper">
+        <div class="article-content" id="article-content">
+          <Content />
+        </div>
+
+        {/* Bio Autore */}
+        <div class="author-bio-section">
+          <div class="author-bio-wrapper">
+            <div class="author-bio-avatar">
+              <img 
+                src={authorImagePath}
+                alt={articleBySlug.data.author}
+                class="author-bio-image"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                loading="lazy"
+              />
+              <div class="author-bio-placeholder" style="display: none;">
+                {articleBySlug.data.author.charAt(0).toUpperCase()}
+              </div>
+            </div>
+            <div class="author-bio-content">
+              <h3 class="author-bio-name">
+                <a href={`/autori/${authorSlug}`} class="author-bio-link">
+                  {articleBySlug.data.author}
+                </a>
+              </h3>
+              <div class="author-bio-text">
+                {authorBio ? (
+                  <div set:html={authorBio} />
+                ) : (
+                  `Autore di articoli pubblicati su Ombre e Luci.`
+                )}
+              </div>
+              <p class="author-bio-total">
+                In totale <a href="/autori">{totalAutori} autori</a> hanno collaborato con Ombre e Luci.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Widget a comparsa - Bottom Right */}
+      <div class="floating-widget" id="floating-widget">
+        <button class="close-btn" id="close-widget" aria-label="Chiudi">×</button>
+        <img src={placeholderImage.src} alt={articleBySlug.data.title} class="floating-widget-image" />
+        <h4>{articleBySlug.data.title}</h4>
+        {articleBySlug.data.pdf_url ? (
+          <>
+            <p>Scopri tutti gli articoli di questo numero della rivista.</p>
+            <a href={articleBySlug.data.pdf_url} target="_blank" rel="noopener noreferrer" class="widget-link">
+              📄 Scarica PDF
+            </a>
+          </>
+        ) : issueLink ? (
+          <>
+            <p>Esplora gli altri articoli di questo numero.</p>
+            <a href={issueLink} class="widget-link">
+              Vai al numero
+            </a>
+          </>
+        ) : (
+          <>
+            <p>Scopri altri articoli della rivista.</p>
+            <a href="/archivio" class="widget-link">
+              Vai all'archivio
+            </a>
+          </>
+        )}
+      </div>
+
+      {/* Sezione PDF e Copertina */}
+      {(articleBySlug.data.pdf_url || articleBySlug.data.copertina_url) && (
+        <div class="numero-rivista-section">
+          {articleBySlug.data.numero_rivista && articleBySlug.data.anno_rivista && (
+            <h3>Numero Rivista</h3>
+          )}
+          {articleBySlug.data.copertina_url && (
+            <div class="copertina-container">
+              <img 
+                src={articleBySlug.data.copertina_url} 
+                alt={`Copertina numero ${articleBySlug.data.numero_rivista || ''}`}
+                class="copertina-image"
+                loading="lazy"
+              />
+            </div>
+          )}
+          {articleBySlug.data.pdf_url && (
+            <div class="pdf-container">
+              <a 
+                href={articleBySlug.data.pdf_url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="pdf-link"
+              >
+                📄 Scarica PDF del numero
+              </a>
+            </div>
+          )}
+        </div>
+      )}
+
+      {articleBySlug.data.has_comments && (
+        <div class="comments-section">
+          -- Qui appariranno i commenti di Trikkia --
+        </div>
+      )}
+
+      {/* Debug: mostra i dati dell'articolo */}
+      <details class="debug-section">
+        <summary style="cursor: pointer; color: #666; font-size: 0.85rem; margin-top: 2rem; padding: 0.5rem;">
+          🔍 Debug: Dati articolo
+        </summary>
+        <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
+{JSON.stringify(articleBySlug.data, null, 2)}
+        </pre>
+        <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
+ID: {articleBySlug.id}
+Slug: {articleBySlug.slug}
+        </pre>
+      </details>
+
+      {/* Sezione Articoli Correlati - Fascia Larga max-width: 1200px */}
+      {relatedArticles.length > 0 && (
+        <section class="related-articles-section">
+          <h2 class="related-articles-title">Articoli Correlati</h2>
+          <div class="related-articles-grid">
+            {relatedArticles.map((article) => {
+              const articleSlug = article.data.slug || article.slug;
+              const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
+              const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+              const relWpId = String(article.data.wp_id ?? '');
+              const relImage = megaclusterById[relWpId]?.img_copertina_url || article.data.image;
+              return (
+                <ArticleCard
+                  title={article.data.title}
+                  slug={articleSlug}
+                  categoriaMenu={categoria_menu ?? undefined}
+                  issue={article.data.issue_number}
+                  forma={formal}
+                  author={article.data.author}
+                  date={article.data.date}
+                  image={relImage}
+                />
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      <a href="/" class="back-link">← Torna all'archivio</a>
+    </div>
+
+    <script define:vars={{ wpIdToSlugMap }}>
+      // Mappa wp_id -> slug disponibile globalmente
+    </script>
+    <script>
+      // Reading Progress Bar
+      const readingProgress = document.getElementById('reading-progress');
+      const articleContent = document.getElementById('article-content');
+      
+      function updateReadingProgress() {
+        if (!articleContent || !readingProgress) return;
+        
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollableHeight = documentHeight - windowHeight;
+        const progress = (scrollTop / scrollableHeight) * 100;
+        
+        readingProgress.style.width = Math.min(progress, 100) + '%';
+      }
+      
+      window.addEventListener('scroll', updateReadingProgress);
+      updateReadingProgress();
+
+      // Box "Leggi anche" dopo terzo paragrafo
+      function insertReadAlsoBox() {
+        const content = document.getElementById('article-content');
+        if (!content) return;
+        
+        const paragraphs = content.querySelectorAll('p');
+        if (paragraphs.length < 3) return;
+        
+        // Verifica se il box esiste già
+        if (content.querySelector('.read-also-box')) return;
+        
+        const thirdParagraph = paragraphs[2];
+        const readAlsoBox = document.createElement('div');
+        readAlsoBox.className = 'read-also-box';
+        readAlsoBox.innerHTML = `
+          <h4>Leggi anche</h4>
+          <p>Scopri altri articoli della rivista <a href="/archivio">nell'archivio</a> o <a href="/">nella homepage</a>.</p>
+        `;
+        
+        thirdParagraph.parentNode.insertBefore(readAlsoBox, thirdParagraph.nextSibling);
+      }
+
+      // Widget a comparsa dopo 50% scroll
+      const floatingWidget = document.getElementById('floating-widget');
+      const closeWidgetBtn = document.getElementById('close-widget');
+      let widgetShown = false;
+      let widgetClosed = false;
+      
+      function checkScrollForWidget() {
+        if (widgetClosed || widgetShown || !floatingWidget) return;
+        
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollableHeight = documentHeight - windowHeight;
+        const scrollPercent = (scrollTop / scrollableHeight) * 100;
+        
+        if (scrollPercent >= 50) {
+          floatingWidget.classList.add('visible');
+          widgetShown = true;
+        }
+      }
+      
+      if (closeWidgetBtn) {
+        closeWidgetBtn.addEventListener('click', () => {
+          if (floatingWidget) {
+            floatingWidget.classList.remove('visible');
+            widgetClosed = true;
+          }
+        });
+      }
+      
+      window.addEventListener('scroll', checkScrollForWidget);
+      
+      // Inserisci box "Leggi anche" quando il contenuto è caricato
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', insertReadAlsoBox);
+      } else {
+        insertReadAlsoBox();
+      }
+
+      // Processa link WordPress e link esterni
+      function processArticleLinks() {
+        const articleContent = document.getElementById('article-content');
+        if (!articleContent) return;
+
+        // Mappa wp_id -> slug (iniettata dal server tramite define:vars)
+
+        // Processa tutti i link nel contenuto
+        const links = articleContent.querySelectorAll('a[href]');
+        const currentDomain = window.location.hostname;
+        
+        links.forEach(link => {
+          let href = link.getAttribute('href');
+          if (!href) return;
+
+          // Fix link WordPress (?p=ID o ?p=ID&...)
+          const wpMatch = href.match(/[?&]p=(\d+)/);
+          if (wpMatch) {
+            const wpId = parseInt(wpMatch[1]);
+            const slug = wpIdToSlugMap[wpId];
+            
+            if (slug) {
+              // Converti link WordPress in nuovo formato
+              const newHref = `/blog/${slug}`;
+              link.setAttribute('href', newHref);
+              console.log(`Link WordPress convertito: ?p=${wpId} -> /blog/${slug}`);
+            } else {
+              console.log(`Link WordPress non trovato nella mappa: ?p=${wpId}`);
+            }
+          }
+
+          // Aggiungi target="_blank" e rel="noopener" ai link esterni
+          try {
+            const url = new URL(href, window.location.origin);
+            const isExternal = url.hostname !== currentDomain && 
+                              !url.hostname.includes(currentDomain) &&
+                              !href.startsWith('#') &&
+                              !href.startsWith('/') &&
+                              !href.startsWith('mailto:') &&
+                              !href.startsWith('tel:');
+            
+            if (isExternal) {
+              link.setAttribute('target', '_blank');
+              link.setAttribute('rel', 'noopener noreferrer');
+            }
+          } catch (e) {
+            // Se l'URL non è valido, ignora
+          }
+        });
+      }
+
+      // Esegui processamento link quando il contenuto è caricato
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', processArticleLinks);
+      } else {
+        processArticleLinks();
+      }
+
+      // Processa anche dopo che il contenuto è stato renderizzato da Astro
+      setTimeout(processArticleLinks, 100);
+    </script>
+  </body>
+</html>
+

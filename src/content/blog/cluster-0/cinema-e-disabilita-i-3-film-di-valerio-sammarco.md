@@ -1,0 +1,78 @@
+---
+title: "Cinema e disabilità: i 3 film di Valerio Sammarco"
+date: "2019-11-18"
+author: "Redazione"
+theme: "cluster-0"
+cluster_id: 0
+slug: "cinema-e-disabilita-i-3-film-di-valerio-sammarco"
+has_comments: false
+tema_code: "T14"
+tema_label: "Cinema e disabilità"
+categoria_menu: "Cultura"
+issue_number: OEL-148
+---
+
+# Cinema e disabilità: i 3 film di Valerio Sammarco
+
+## Abbiamo chiesto ad alcuni critici cinematografici di elencare 3 film che affrontano il tema della disabilità. Valerio Sammarco, che scrive per la Rivista del Cinematografo, ha scelto questi.
+
+Caporedattore de [La Rivista del Cinematografo](https://www.cinematografo.it/)
+
+Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.
+
+#### Introduzione
+
+[Gli altri siamo noi](http://www.ombreeluci.it/2019/gli-altri-siamo-noi/) di A De Simone
+
+#### 3 Film secondo
+
+[Federica Aliano](https://www.ombreeluci.it/2019/cinema-e-disabilita-3-film-secondo-federica-aliano/)
+[Claudio Cinus](https://www.ombreeluci.it/2020/cinema-e-disabilita-i-3-film-di-claudio-cinus/)
+[Alessandro De Simone](https://www.ombreeluci.it/2019/cinema-e-disabilita-3-film-secondo-alessandro-de-simone/)
+[Adriano Ercolani](https://www.ombreeluci.it/2019/cinema-e-disabilita-i-3-film-di-adriano-ercolani/)
+[Andrea Guglielmino](https://www.ombreeluci.it/2019/cinema-e-disabilita-i-3-film-di-andrea-guglielmino/)
+[Gabriele Niola](https://www.ombreeluci.it/2019/cinema-e-disabilita-i-3-film-di-gabriele-niola/)
+[Emilio Ranzato](https://www.ombreeluci.it/2019/cinema-e-disabilita-i-3-film-di-emilio-ranzato/)
+[Emanuele Rauco](https://www.ombreeluci.it/2019/cinema-e-disabilita-i-3-film-di-emanuele-rauco/)
+[Enrica Riera](https://www.ombreeluci.it/2019/cinema-e-disabilita-i-3-film-di-enrica-riera/)
+[Valerio Sammarco](https://www.ombreeluci.it/2019/cinema-e-disabilita-i-3-film-di-valerio-sammarco/)
+[Giorgia Sdei](https://www.ombreeluci.it/2019/cinema-e-disabilita-i-3-film-di-giorgia-sdei/)
+[Boris Sollazzo](https://www.ombreeluci.it/2019/cinema-e-disabilita-i-3-film-di-boris-sollazzo/)
+[Edoardo Zaccagnini](https://www.ombreeluci.it/2019/cinema-e-disabilita-i-3-film-di-edoardo-zaccagnini/)
+
+#### ALTRI ARTICOLI dall'archivio
+
+[La loro vita nei film](https://www.ombreeluci.it/1997/la-loro-vita-nei-film/) di M. Bertolini
+
+[Catalogo ragionato di film dedicati al tema della disabilità](https://www.ombreeluci.it/1997/catalogo-ragionato-di-film-dedicati-al-tema-della-disabilita/) a cura di Redazione
+
+[Non mi piace andare al cinema](https://www.ombreeluci.it/2019/non-mi-piace-andare-al-cinema/) di Benedetta
+
+[Recensione L'ottavo giorno](https://www.ombreeluci.it/1996/recensione-del-film-lottavo-giorno/) di Emanuele
+
+[Kairos, la storia di un pugile "down"](https://www.ombreeluci.it/2019/la-storia-di-un-pugile-con-sindrome-di-down-come-miglior-film-al-tertio-millennio-2018/) di Redazione
+
+[Gli Oscar premiano la disabilità](https://www.ombreeluci.it/2018/gli-oscar-premiano-la-disabilita-miglior-corto-la-storia-bambina-sorda/)
+
+## Zatoichi
+
+*(id. Giappone, 2003, durata 116 minuti) - di Takeshi Kitano. Con Takeshi Kitano, Tadanobu Asano, Akira Emoto, Yuko Daike, Saburo Ishikura. *
+
+Forse l’ultimo vero guizzo di un Takeshi Kitano poi perduto in chissà quali percorsi di lucida (?) follia, alle prese con il primo “Jidai-geki” della sua carriera. Nel Giappone del XIX secolo l’incedere sanguinolento di un (finto) massaggiatore cieco abile spadaccino guerriero. Sarà un meraviglioso bagno di sangue. Premiato a Venezia (Leone d’Argento) e più grande successo commerciale del regista/attore nipponico.
+
+## Unbreakable
+
+*(id. USA, 2000, durata 110 minuti) - Regia di M. Night Shyamalan. Un film con Samuel L. Jackson, Bruce Willis, Robin Wright, Spencer Treat Clark, Charlayne Woodard.*
+
+Primo titolo della sorprendente trilogia firmata da M. Night Shyamalan - insieme a Split (2016) e Glass (2019- mai preventivamente annunciata e di fatto svelata nel sottofinale dell'ultimo film. Al centro di tutto il Mr. Glass di Samuel L. Jackson, appassionato di fumetti e supereroi affetto da una malattia degenerativa delle ossa. Uno tra gli sguardi più originali sulla diversità, contro ogni tentativo di intrappolarne le gesta in nome di chissà quale equilibrio.
+
+## Un silenzio particolare
+
+*( Italia, 2004, durata 75 minuti) - Regia di Stefano Rulli. Con Matteo Rulli, Stefano Rulli, Clara Sereni, Giorgio Arlorio, Monica Barranco.
+*
+
+30 anni dopo Matti da slegare, doc sulla legge Basaglia realizzato con Agosti, Bellocchio e Petraglia, lo sceneggiatore Stefano Rulli torna di nuovo dietro la macchina da presa per raccontare di suo figlio, Matteo, 24enne autistico. Un diario intimo, sofferto, ma guidato sempre da un delicato pudore per cercare di colmare una distanza che spesso la malattia tenta di imporre. Da recuperare e/o riscoprire.
+
+### Speciale Cinema e disabilità
+
+Con i contributi di:

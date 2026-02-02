@@ -1,0 +1,16 @@
+---
+title: Per le strade di Roma
+date: 2020-04-06
+author: Giovanni Grossi
+slug: per-le-strade-di-roma
+wp_id: 16386
+original_url: "https://www.ombreeluci.it/?p=16386"
+cluster_id: 0
+has_comments: false
+umap_x: 7.056334018707275
+umap_y: 4.8256049156188965
+umap_z: 10.713510513305664
+issue_number: OEL-152
+---
+
+Un giorno di domenica del mese di dicembre, sono uscito da solo di casa, per dirigermi verso San Pietro e andare nel posto per vedere il Presepio da solo. Per entrare nella piazza, sono passato dal detector e ho levato le cose che fanno cambiare la luce al tornello. Poi ho visto il papa che dice l’angelus dalla finestra, ma io voglio vedere il presepio, è questo il motivo. Io durante l’anno non ci vado mai, perché faccio una vita lavorativa, e la giornata finisce la sera, e so che ricomincia tutti i cinque giorni. Quando sono uscito e mi sono diretto all’uscita io sono stato inseguito da un negretto che mi ha dato dei braccialetti, lui dice te li do gratis, quando vedo che me li da tre o quattro, io ho estratto i soldi, meno male che ne avevo pochi, sennò gli davo tutto quello che avevo. Non è vero che non do i soldi a nessuno, il problema è che non voglio mai usarli generalmente. Poi un’altra volta ho rifiutato e non ho dato niente, poi a forza di insistere ho ceduto a questa carità forzata, e ho pensato non è il caso che giro con i soldi, sennò rimango senza. Questo fenomeno dove mi fanno pena capita quasi spesso, se tutti fossero come me... ricchi che diventano poveri. Ricorda pinocchio con il gatto e la volpe. Il problema sussiste quando mi sgridano, che hai combinato, dove sei stato la mattina. Io non voglio dare mai soldi, se avevo tempo per uscire spendevo di più, o portavo il carrello della spesa. Poi vedo che questi uomini sono fissi, e fanno il lavoro umile, spazzare la scala e aspettano che gli riempiono il cartone con i soldi. Il fenomeno non è nuovo in città, va forte durante le feste con i turisti, specialmente quelli buoni di cuore! *Editoriale* ** ** **Se lo diceva Coco Chanel...** di Cristina Tersigni *Focus: Moda e disabilità* **La rivoluzione copernicana di Lucas** di Giulia Galeotti * * **Quel che l'abito fa** di Nicla Bettazzi **Vedersi in vetrina** di Cristina Tersigni **Jillian, la divina** di Giulia Galeotti *Intervista* **Tranquilla e soddisfatta di me stessa** di Francesca Cabrini *Testimonianze* **Quaranta occhi puntati su di te** di Silvia Gusmano *Dall'archivio* **Grazie per avermelo fatto fare da sola** di Una mamma *Associazioni* **Sfilate da sogno** di Cristina Tersigni *Fede e Luce* **Chi risponde alle domande** di Daniela Guglietta *Spettacoli* [**Il corpo dell'amore**](https://www.ombreeluci.it/2020/il-corpo-dellamore/) di Cristina Tersigni *Rubriche* **Dialogo Aperto n. 149** **Vita Fede e Luce n. 149** *Libri* **La nostra casa è in fiamme** di Greta Thunberg **Imperfetta** di Andrea Dorfman **Che cos'è una sindrome** di Giuseppe Colaneri **La bambina morbida** di Maria Cristina Toccafondi *Diari* **Negozi e** **pantaloni** di Benedetta Mattei **Per le strade di Roma** di Giovanni Grossi

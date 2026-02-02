@@ -1,0 +1,293 @@
+---
+import Header from '../../components/Header.astro';
+import autoriStats from '../../data/autori_stats.json';
+import megacluster from '../../data/articoli_megacluster.json';
+
+const megaclusterData = megacluster as { autoriById?: Record<string, { foto_url?: string; bio_html?: string }> };
+const autoriById = megaclusterData.autoriById || {};
+
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+// Merge foto e bio da megacluster (database_autori); ordinamento per count già nel JSON
+const autori = autoriStats.map((autore: { nome: string; slug: string; count_articoli: number; bio_breve: string; foto: string }) => {
+  const extra = autoriById[autore.slug];
+  const foto = extra?.foto_url || autore.foto;
+  let bio_breve = autore.bio_breve;
+  if (extra?.bio_html) {
+    const text = stripHtml(extra.bio_html);
+    bio_breve = text ? (text.slice(0, 120) + (text.length > 120 ? '…' : '')) : bio_breve;
+  }
+  return { ...autore, foto, bio_breve };
+});
+---
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autori - Ombre e Luci</title>
+    <meta name="description" content="Elenco degli autori della rivista Ombre e Luci" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <Header />
+    <main class="autori-page">
+      <div class="autori-container">
+        <h1 class="autori-title">Autori</h1>
+        <p class="autori-intro">Esplora i collaboratori della rivista Ombre e Luci.</p>
+
+        <div class="autori-toolbar">
+          <div class="autori-search-wrap">
+            <label for="autori-search" class="visually-hidden">Cerca autore</label>
+            <input
+              type="search"
+              id="autori-search"
+              class="autori-search"
+              placeholder="Cerca per nome..."
+              aria-label="Cerca autore"
+            />
+          </div>
+          <div class="autori-sort-wrap">
+            <label for="autori-sort" class="autori-sort-label">Ordina per</label>
+            <select id="autori-sort" class="autori-sort" aria-label="Ordina autori">
+              <option value="count-desc">Più articoli</option>
+              <option value="count-asc">Meno articoli</option>
+              <option value="name-asc">Nome A–Z</option>
+              <option value="name-desc">Nome Z–A</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="autori-grid" class="autori-grid">
+          {autori.map((autore) => (
+            <a href={`/autori/${autore.slug}`} class="autori-card" data-nome={autore.nome.toLowerCase()} data-count={autore.count_articoli}>
+              <div class="autori-card-image">
+                {autore.foto && !autore.foto.includes('default.png') ? (
+                  <img src={autore.foto} alt="" width="80" height="80" loading="lazy" onError="this.style.display='none'; this.nextElementSibling?.classList.add('visible')" />
+                ) : null}
+                <span class={(!autore.foto || autore.foto.includes('default.png')) ? 'autori-card-initial visible' : 'autori-card-initial'} aria-hidden="true">{autore.nome.charAt(0).toUpperCase()}</span>
+              </div>
+              <div class="autori-card-body">
+                <h2 class="autori-card-name">{autore.nome}</h2>
+                <p class="autori-card-count">{autore.count_articoli} {autore.count_articoli === 1 ? 'articolo' : 'articoli'}</p>
+                <p class="autori-card-bio">{autore.bio_breve}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+
+        <p id="autori-no-results" class="autori-no-results" style="display: none;">Nessun autore trovato.</p>
+      </div>
+    </main>
+
+    <style>
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      .autori-page {
+        min-height: 60vh;
+        padding: 2rem 0 4rem;
+        background: #fafafa;
+      }
+      .autori-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+      }
+      .autori-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin: 0 0 0.5rem;
+      }
+      .autori-intro {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1rem;
+        color: #555;
+        margin: 0 0 1.5rem;
+      }
+      .autori-toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        align-items: center;
+      }
+      .autori-search-wrap {
+        flex: 1;
+        min-width: 200px;
+      }
+      .autori-search {
+        width: 100%;
+        max-width: 320px;
+        padding: 0.5rem 1rem;
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 0.95rem;
+        border: 1px solid #e5e5e5;
+        border-radius: 0;
+        background: #fff;
+        color: #1a1a1a;
+      }
+      .autori-search:focus {
+        outline: none;
+        border-color: #ff1053;
+      }
+      .autori-sort-wrap {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .autori-sort-label {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 0.875rem;
+        color: #555;
+      }
+      .autori-sort {
+        padding: 0.5rem 0.75rem;
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 0.875rem;
+        border: 1px solid #e5e5e5;
+        background: #fff;
+        color: #1a1a1a;
+      }
+      .autori-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.25rem;
+      }
+      .autori-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1.25rem;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        text-decoration: none;
+        color: inherit;
+        transition: border-color 0.2s, box-shadow 0.2s;
+      }
+      .autori-card:hover {
+        border-color: #ff1053;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      }
+      .autori-card-image {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: #eee;
+        margin-bottom: 0.75rem;
+      }
+      .autori-card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .autori-card-initial {
+        position: absolute;
+        inset: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: #777;
+        background: #eee;
+      }
+      .autori-card-initial.visible {
+        display: flex;
+      }
+      .autori-card-name {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #1a1a1a;
+        margin: 0 0 0.25rem;
+      }
+      .autori-card-count {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 0.8rem;
+        color: #777;
+        margin: 0 0 0.5rem;
+      }
+      .autori-card-bio {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 0.8rem;
+        color: #555;
+        margin: 0;
+        line-height: 1.35;
+      }
+      .autori-no-results {
+        font-family: 'Raleway', system-ui, sans-serif;
+        color: #777;
+        margin-top: 1rem;
+      }
+      @media (max-width: 1024px) {
+        .autori-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 600px) {
+        .autori-grid {
+          grid-template-columns: 1fr;
+        }
+        .autori-container {
+          padding: 0 1rem;
+        }
+      }
+    </style>
+
+    <script>
+      (function () {
+        const grid = document.getElementById('autori-grid');
+        const search = document.getElementById('autori-search');
+        const sortSelect = document.getElementById('autori-sort');
+        const noResults = document.getElementById('autori-no-results');
+        const cards = grid ? Array.from(grid.querySelectorAll('.autori-card')) : [];
+
+        function normalize(s) {
+          return (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        }
+
+        function applyFilterAndSort() {
+          const query = normalize((search && search.value) || '');
+          let visible = cards;
+          if (query) {
+            visible = cards.filter((el) => normalize(el.dataset.nome || '').includes(query));
+          }
+          cards.forEach((el) => {
+            el.style.display = visible.includes(el) ? '' : 'none';
+          });
+          if (noResults) noResults.style.display = visible.length === 0 ? 'block' : 'none';
+
+          const order = (sortSelect && sortSelect.value) || 'count-desc';
+          const items = visible.slice();
+          if (order === 'count-desc') items.sort((a, b) => (b.dataset.count || 0) - (a.dataset.count || 0));
+          else if (order === 'count-asc') items.sort((a, b) => (a.dataset.count || 0) - (b.dataset.count || 0));
+          else if (order === 'name-asc') items.sort((a, b) => (a.dataset.nome || '').localeCompare(b.dataset.nome || ''));
+          else if (order === 'name-desc') items.sort((a, b) => (b.dataset.nome || '').localeCompare(a.dataset.nome || ''));
+          items.forEach((node) => grid.appendChild(node));
+        }
+
+        if (search) search.addEventListener('input', applyFilterAndSort);
+        if (sortSelect) sortSelect.addEventListener('change', applyFilterAndSort);
+      })();
+    </script>
+  </body>
+</html>

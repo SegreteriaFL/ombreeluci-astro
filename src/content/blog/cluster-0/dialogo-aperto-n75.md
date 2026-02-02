@@ -1,0 +1,44 @@
+---
+title: Dialogo aperto n.75
+date: 2001-09-26
+author: Redazione
+slug: dialogo-aperto-n75
+wp_id: 22564
+original_url: "https://www.ombreeluci.it/?p=22564"
+cluster_id: 0
+has_comments: false
+umap_x: 4.353780269622803
+umap_y: 7.751882553100586
+umap_z: 10.295019149780273
+issue_number: OEL-76
+---
+
+### A proposito di Microgiustizia
+
+Mi permetto di mandarvi qualche riflessione sull’articolo «Microgiustizia» di OMBRE E LUCI del primo trimestre di quest’anno. Io credo che se ci mettiamo in una logica di confronto con gli altri qualcosa non torni. Il fatto è che ognuno di noi, sano, disabile, malato psichico o comunque sia, ha ricevuto e riceve continuamente un mucchio di doni gratuiti che spesso non sono quelli che appaiono e la sofferenza e la malattia possono spesso diventare un mezzo per farci riconoscere ed apprezzare di più quanto abbiamo. Vedete, io sono stata sempre una che apparentemente ha avuto tutto e non mi ha proprio aiutato il fatto magari anche di sentirmi in colpa perché la maggior parte della gente aveva molto meno di quello che avevo io. Adesso che apparentemente ho perso così tanto (la morte di mio figlio Alberto di venti anni, il non farcela ad assisterlo durante la sua malattia, l’essere andata in pensione, il mio tumore, il riuscire a fare così poco...) è un po’ come se stessi ritrovando la mia vita e - pur nella fatica e nel dolore - potessi anche a poco a poco ritrovare la forza e la gioia. Non so se riesco a essere chiara: mi rendo conto che è un discorso difficile e che vi faccio in maniera incompiuta: prendetelo solo come uno spunto. **M.B.**
+
+---
+
+### Vecchi, esploratori
+
+Cari amici, ancora a proposito di vecchiaia ho letto recentemente sul numero 3/2001 della rivista OREUNDIC1, un altro scritto di Arturo Paoli su questo argomento. Ve lo invio perché mi sembra completi bene quanto avete pubblicato su OMBRE E LUCI (n. 2 / 2001 ). **Adriana Nottolini**
+
+*In un bel libro scritto da un anziano per i suoi coetanei, ma raccomandabile anche a persone giovani, trovo una frase di Eliot: «I vecchi dovrebbero essere esploratori». E ci sto riflettendo nel lento spegnersi del tempo di Natale che si chiude con la rievocazione di due vecchi esploratori: Simeone e Anna. L'esploratore guarda in avanti, non si installa nel terreno raggiunto, non pensa di costruirsi una casa, di lasciare lì le sue ossa, ma alza lo sguardo verso l’oltre, l’ignoto. Pensando al sopraggiungere della notte, alza una tenda, arrangia un giaciglio e si siede ad ammirare il lunghissimo tramonto che stende i suoi mutevoli colori su offerte che sembra insensato rifiutare. «Forse potrei fermarmi qui per sempre!". Ma l’esploratore alza lo sguardo e si sente recuperato dal fascino di quello che non si vede, che non è qui ma è certamente altro dai meravigliosi esseri su cui indugia la luce del tramonto. L’esploratore va verso l’ignoto, ma non verso il nulla, va verso un luogo che ci deve essere e che non sa come è. E il vecchio non ha altro mezzo per sfuggire alla morte che essere esploratore. Chi è abituato al facile linguaggio religioso pensa spontaneamente al Paradiso: ma io mi sono sentito in buona compagnia con il vecchio ebreo Simeone incontrato sulla strada del mio pensare sul vecchio come esploratore: Simeone non mantiene lo sguardo alzato verso il Paradiso, ma verso il «conforto d’Israele, una terra consolata, una umanità senza afflizioni». Non si aspetta la felicità piena, ma la consolazione che viene dalla scoperta che il male è rimediabile e attende la gioia di chi si asciuga le lagrime, come il raggio di sole che sfugge all’assedio della nuvolaglia. Ci troviamo a vivere in una terra così piagata di mali che è necessario mantenere lo sguardo in avanti verso l’altro, lo sguardo degli esploratori e non lo sguardo dei mistici (pseudomistici) puntato troppo in alto. Nella Bibbia si parla sempre di una speranza storica che avviene qui come consolazione di quelli che soffrono. Gesù presenta il programma di «annunciare ai poveri un lieto messaggio, di rimettere in libertà gli oppressi e predicare un anno di grazia nel Signore». E ai discepoli che non staccano lo sguardo dal cielo verso la stazione cui è diretto Gesù, si dice di guardare la terra dove tornerà. Simeone, arrivato, chiede serenamente, fiduciosamente di essere lasciato andare nella pace. Il suo cammino di esploratore è giunto a termine. **Arturo Paoli***
+
+---
+
+### La nostra gioia
+
+La strada di ritorno da Lourdes, in treno e pullman, è stata lunga... tre giorni per Polacchi e Ucraini, quattro giorni per i Russi e nove per i Georgiani... Adesso ripensiamo il nostro pellegrinaggio e vogliamo dividere con voi la gioia di appartenere alla grande famiglia di Fede e Luce. **La comunità di Mosca e della zona dei Carpazi - Urali - Caucaso**
+
+---
+
+### Una foto «speciale»
+
+Sono un’amica della comunità di Santa Maria di Piedigrotta a Napoli. Ho letto avidamente la copia ultima del vostro periodico (a proposito: tanti complimenti!) e sono venuta a sapere del vostro concorso fotografico. Il tema della foto che vi mando non è quello del concorso e non vi partecipo, ma tengo comunque a farvi avere questa foto. Non so se a voi trasmette la gioia che trasmette a me... È stata fatta al campo estivo 2000 che le tre comunità di Napoli hanno organizzato a Sessa Aurunca. A destra c’è Stany, un ragazzo autistico della comunità Roveto Ardente e a sinistra Mauro, un amico della mia comunità. Quel giorno decidemmo di andare tutti in piscina dove i ragazzi si divertono sempre un mondo e noi con loro!! Ma Stany proprio non voleva scendere in acqua, aveva una gran paura. Dopo un po’ di “tira e molla - ' è sceso e con la mano sicura di Marco si è lasciato andare. Questa foto è stata scattata mentre facevamo un “girotondo” in acqua e a Stany, come si può ben vedere, la cosa è piaciuta molto! Spero di essere riuscita a trasmettervi almeno un po’ dell’emozione che suscita in me questa immagine. **Gigia Marone**
+
+---
+
+### Il pazzo delle 30 iscrizioni
+
+Sono sacerdote, religioso del Gran San Bernardo. Come viceparroco ho partecipato al pellegrinaggio a Lourdes 1981 con la prima comunità Fede e Luce del Vallese. in Svizzera. Tre anni dopo esistevano già quattro comunità nella parte francofona della diocesi di Sion. Diventato Priore dell’Ospizio al Colle del Sempio- ne e assistente nazionale di Fede e Luce-Svizzera, ho potuto accompagnare cinque nuove comunità di lingua tedesca a Lourdes 1991. Da tre anni, eccomi in Italia (Vallèe d'Aosta) a pochi chilometri dal Colle del Gran San Bernardo, animatore in una «Casa Ospitaliera» e parrocco di Etroubles, un paese di montagna. Quando il cuore è conquistato dal «virus» di Fede e Luce, non si può tacere e rifiutare agli altri il «tesoro» che Gesù ci ha affidato. Durante due anni «hofaticato e non ho preso nulla», malgrado il mio desiderio di trar profitto della «grazia di Lourdes» che ha sempre «suscitato nascite» di nuove comunità. In luglio 2000, 40 membri di Fede e Luce-Pie- monte fanno il loro campeggio nella nostra «Casa Ospitaliera». Faccio una «scommessa»' con Gesù e chiedo alla responsabile regionale di prenotare 30 posti per i pellegrini della Valle d’Aosta, ma... conoscevo solo il mio nome! I miei nuovi amici mi danno del pazzo! In agosto, il Vescovo mi chiede di occuparmi del passaggio delFurna di S. Teresa del Bambino Gesù (suo padre era stato novizio al G.S. Bernardo) nella nostra diocesi. Ne parlo alla mia sorella, carmelitana in Francia, che mi dice: «Vedrai, ovunque ella passa, avvengono cose meravigliose!» Ma l'urna è passata da noi, molti sono andati a pregarla e non mi sono accorto di nessuna «meraviglia». Prendo poi il «bastone da pellegrino» e cerco fra le persone con handicap mentali, busso alle porte, ne parlo con conoscenze ed a fine di settembre, ho 15 nomi sulla mia lista. I responsabili di Fede e Luce d’Italia mi danno del pazzo perché io confermo l’iscrizione definitiva di 30 pellegrini! Chiedo preghiere alle Carmelitane di Aosta e continuo a bussare alle porte, cercando di parlare ai cuori che si aprono. Finalmente, la prima domenica di Avvento 2000, i 30 pellegrini s’incontrano, senza conoscersi, per la fondazione della comunità Fede e Luce, che mettono sotto la protezione di «San Bernardo di Aosta». Comunico questa meravigliosa notizia a mia sorella carmelitana, che risponde nella sua lettera natalizia: «Hai visto il lavoro di S. Teresa!» e pensare che l’avevo completamente dimenticata... Durante l’inverno, 12 pellegrini iscritti rinunciano; ci sono i sostituti e arriviamo in 30 a Lourdes 2001!!! Deogratias! Magnificat! Vedendomi con lo stendardo valdostano, certi pellegrini italiani esclamano: «Ecco il pazzo delle 30 iscrizioni!» **P. Klaus Sarbach**

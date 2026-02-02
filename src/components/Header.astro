@@ -1,0 +1,622 @@
+---
+import logo from '../assets/logo.svg';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+import { getThemesWithSlugs } from '../config/taxonomy.js';
+
+// Carica numeri rivista
+const numeriPath = join(process.cwd(), 'scripts_and_data', 'datasets', 'numeri_rivista', 'numeri_wp_FINAL.json');
+const numeriData = JSON.parse(readFileSync(numeriPath, 'utf-8'));
+
+// Trova ultimo numero
+const ultimoNumero = numeriData
+  .sort((a, b) => {
+    const annoA = a.anno_pubblicazione || 0;
+    const annoB = b.anno_pubblicazione || 0;
+    if (annoA !== annoB) return annoB - annoA;
+    return (b.numero_progressivo || 0) - (a.numero_progressivo || 0);
+  })[0];
+
+// Temi: categoria_menu (alias da FINAL_V4)
+const temi = getThemesWithSlugs();
+// Sezioni: Forme (colonna sinistra) e Navigazione (colonna destra) – ordine tassativo
+const sezioniForme = [
+  { nome: 'Editoriali', slug: 'editoriali' },
+  { nome: 'Testimonianze', slug: 'testimonianze' },
+  { nome: 'Interviste', slug: 'interviste' },
+  { nome: 'Recensioni', slug: 'recensioni' },
+];
+const sezioniNavigazione = [
+  { nome: 'Ultimi articoli', slug: '/' },
+  { nome: 'Archivio completo', slug: '/archivio' },
+  { nome: 'Autori', slug: '/autori' },
+  { nome: 'Chi siamo', slug: '/about' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="header">
+  <div class="header-top">
+    <div class="header-container">
+      <div class="header-left">
+        <a href="/" class="logo-link">
+          <img src={logo.src} alt="Ombre e Luci" class="logo" />
+        </a>
+      </div>
+      
+      <div class="header-center">
+        <form class="search-form" action="/search" method="get">
+          <input 
+            type="search" 
+            name="q" 
+            placeholder="Cerca articoli..." 
+            class="search-input"
+            aria-label="Cerca articoli"
+          />
+          <button type="submit" class="search-button" aria-label="Cerca">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+          </button>
+        </form>
+      </div>
+      
+      <div class="header-right">
+        <a href="/about" class="header-link">About</a>
+        <a href="/dona" class="header-button">Dona</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Apri menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Mega Menu Overlay -->
+  <div class="mega-menu" id="mega-menu">
+    <div class="mega-menu-container">
+      <div class="mega-menu-grid">
+        <!-- Blocco 1: Temi (2 colonne) -->
+        <div class="mega-menu-block">
+          <h3 class="mega-menu-title">Temi</h3>
+          <ul class="mega-menu-list mega-menu-list--grid">
+            {temi.map((cat) => (
+              <li>
+                <a href={`/categoria/${cat.slug}`} class="mega-menu-link">
+                  {cat.nome}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <!-- Blocco 2: Sezioni (Forme | Navigazione, 2 colonne) -->
+        <div class="mega-menu-block mega-menu-sezioni">
+          <h3 class="mega-menu-title">Sezioni</h3>
+          <div class="mega-menu-sezioni-grid">
+            <ul class="mega-menu-list">
+              {sezioniForme.map((cat) => (
+                <li>
+                  <a href={`/categoria/${cat.slug}`} class="mega-menu-link">
+                    {cat.nome}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <ul class="mega-menu-list">
+              {sezioniNavigazione.map((item) => (
+                <li>
+                  <a href={item.slug} class="mega-menu-link">
+                    {item.nome}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <!-- Blocco 3: Ultimo Numero (copertina a sinistra, metadati + CTA a destra) -->
+        <div class="mega-menu-block mega-menu-last-issue">
+          <h3 class="mega-menu-title">Ultimo Numero</h3>
+          {ultimoNumero ? (
+            <div class="last-issue-inner">
+              <a href={`/archivio/${String(ultimoNumero.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-')}`} class="last-issue-cover-wrap">
+                {ultimoNumero.copertina_url && (
+                  <img 
+                    src={ultimoNumero.copertina_url} 
+                    alt={ultimoNumero.titolo_numero}
+                    class="last-issue-cover"
+                    loading="lazy"
+                  />
+                )}
+              </a>
+              <div class="last-issue-meta">
+                <p class="last-issue-label">Numero {ultimoNumero.numero_progressivo ?? ''} · {ultimoNumero.anno_pubblicazione ?? ''}</p>
+                <h4 class="last-issue-title">{ultimoNumero.titolo_numero}</h4>
+                {ultimoNumero.periodo_label && (
+                  <p class="last-issue-period">{ultimoNumero.periodo_label}</p>
+                )}
+                <a href="/dona" class="mega-menu-cta">Sostieni Ombre e Luci →</a>
+              </div>
+            </div>
+          ) : (
+            <a href="/dona" class="mega-menu-cta">Sostieni Ombre e Luci →</a>
+          )}
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Overlay backdrop -->
+  <div class="menu-backdrop" id="menu-backdrop"></div>
+</header>
+
+<style>
+  :root {
+    --accent-color: #ff1053;
+    --accent-hover: #e00e4a;
+  }
+
+  .header {
+    position: relative;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 1000;
+  }
+
+  .header-top {
+    padding: 1.5rem 0;
+  }
+
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .header-left {
+    flex-shrink: 0;
+  }
+
+  .logo-link {
+    display: block;
+    text-decoration: none;
+  }
+
+  .logo {
+    max-width: 200px;
+    height: auto;
+    display: block;
+  }
+
+  .header-center {
+    flex: 1;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .search-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 2.5rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.875rem;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    background: transparent;
+  }
+
+  .search-input:focus {
+    border-color: var(--accent-color);
+  }
+
+  .search-button {
+    position: absolute;
+    left: 0.5rem;
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .search-button:hover {
+    color: var(--accent-color);
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  .header-link {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .header-link:hover {
+    color: var(--accent-color);
+  }
+
+  .header-button {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #fff;
+    background: var(--accent-color);
+    padding: 0.5rem 1.25rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header-button:hover {
+    background: var(--accent-hover);
+    transform: translateY(-1px);
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+  }
+
+  .hamburger-line {
+    width: 24px;
+    height: 2px;
+    background: #333;
+    transition: all 0.3s ease;
+  }
+
+  .menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+
+  .menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+
+  /* Mega Menu – sfondo bianco solido, copre contenuto senza trasparenze */
+  .mega-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+    z-index: 999;
+  }
+
+  .mega-menu.active {
+    max-height: 520px;
+    opacity: 1;
+  }
+
+  .mega-menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 1.25rem 3rem;
+  }
+
+  .mega-menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.05fr;
+    gap: 1.25rem 1.75rem;
+    align-items: start;
+  }
+
+  .mega-menu-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Titoli sezioni: grigio #777, maiuscolo, 0.75rem, senza linee sotto */
+  .mega-menu-title {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #777;
+    margin-bottom: 0.45rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+  }
+
+  .mega-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mega-menu-list--grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 0.7rem;
+  }
+
+  .mega-menu-sezioni-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 1rem;
+  }
+
+  .mega-menu-sezioni-grid .mega-menu-list {
+    gap: 12px;
+  }
+
+  /* Voci menu: nero #1a1a1a, Raleway, 0.9rem */
+  .mega-menu-link {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.35;
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    display: block;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .mega-menu-link:hover {
+    color: #ff1053;
+  }
+
+  .mega-menu-last-issue {
+    border-left: 1px solid #e5e5e5;
+    padding-left: 1rem;
+  }
+
+  /* CTA Sostieni: link elegante grassetto rosso #ff1053 con freccia →, non pulsante */
+  .mega-menu-cta {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.15rem 0;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #ff1053;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .mega-menu-cta:hover {
+    color: #e00e4a;
+  }
+
+  /* Ultimo Numero: 2 colonne – copertina 130px, metadati + CTA a destra */
+  .last-issue-inner {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.75rem;
+    align-items: start;
+  }
+
+  .last-issue-cover-wrap {
+    display: block;
+    text-decoration: none;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+
+  .last-issue-cover-wrap:hover {
+    transform: translateY(-1px);
+  }
+
+  .last-issue-cover {
+    width: 170px;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  }
+
+  .last-issue-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    min-width: 0;
+  }
+
+  .last-issue-label {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.7rem;
+    color: #777;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .last-issue-title {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+    line-height: 1.25;
+  }
+
+  .last-issue-period {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.75rem;
+    color: #666;
+    margin: 0;
+  }
+
+  .menu-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 998;
+  }
+
+  .menu-backdrop.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .mega-menu-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem 1.5rem;
+    }
+
+    .mega-menu-last-issue {
+      grid-column: 1 / -1;
+      border-left: none;
+      border-top: 1px solid #e5e5e5;
+      padding-left: 0;
+      padding-top: 0.75rem;
+    }
+
+    .last-issue-inner {
+      gap: 0.6rem;
+    }
+
+    .last-issue-cover {
+      width: 90px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header-container {
+      padding: 0 1rem;
+      gap: 1rem;
+    }
+
+    .logo {
+      max-width: 150px;
+    }
+
+    .header-center {
+      display: none;
+    }
+
+    .header-link {
+      display: none;
+    }
+
+    .header-button {
+      padding: 0.5rem 1rem;
+      font-size: 0.875rem;
+    }
+
+    .mega-menu-container {
+      padding: 0.75rem 1rem;
+    }
+
+    .mega-menu-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .mega-menu-list--grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 0.18rem 0.7rem;
+    }
+
+    .mega-menu-sezioni-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .mega-menu-last-issue {
+      border-top: 1px solid #e5e5e5;
+      padding-top: 0.75rem;
+    }
+
+    .last-issue-cover {
+      width: 72px;
+    }
+
+    .mega-menu-cta {
+      margin-top: 0.4rem;
+    }
+  }
+</style>
+
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const megaMenu = document.getElementById('mega-menu');
+  const menuBackdrop = document.getElementById('menu-backdrop');
+  let isMenuOpen = false;
+
+  function toggleMenu() {
+    isMenuOpen = !isMenuOpen;
+    
+    if (isMenuOpen) {
+      megaMenu.classList.add('active');
+      menuBackdrop.classList.add('active');
+      menuToggle.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    } else {
+      megaMenu.classList.remove('active');
+      menuBackdrop.classList.remove('active');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+  }
+
+  if (menuToggle) {
+    menuToggle.addEventListener('click', toggleMenu);
+  }
+
+  if (menuBackdrop) {
+    menuBackdrop.addEventListener('click', toggleMenu);
+  }
+
+  // Chiudi menu con ESC
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && isMenuOpen) {
+      toggleMenu();
+    }
+  });
+</script>

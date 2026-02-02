@@ -1,0 +1,26 @@
+---
+title: «L’ottavo giorno»
+date: 1997-09-19
+author: Redazione
+slug: lottavo-giorno
+wp_id: 11631
+original_url: "https://www.ombreeluci.it/?p=11631"
+cluster_id: 9
+has_comments: false
+tags:
+  - cinema-e-disabilita
+  - cinema-e-di
+umap_x: 8.867257118225098
+umap_y: 8.689505577087402
+umap_z: 3.0618836879730225
+---
+
+L'ottavo giorno, (Le huitième jour), 1996, Belgio, J. Vari Dormelì - George, il ragazzo afflitto da sindrome di Down, ha chiuso tutto il suo mondo in una valigia ed è alla ricerca dei suoi sogni; Harry è un manager in disarmo, che insegna ai carrieristi come essere invincibili, ma poi sperimenta sulla propria pelle quanto è facile perdere tutto a cominciare dall’affetto della famiglia. Due esseri umani alla deriva, ognuno, a modo suo, che finiscono per incontrarsi. Film da vedere per la bravura dei due protagonisti, e perché pone l’attenzione sulla vita dei disabili dopo la scomparsa dei genitori.
+
+>Ho visto «L'ottavo giorno» tre volte e ogni volta l'emozione è stata grande. Quando il film fu premiato a Cannes fui piacevolmente sorpresa perché mi sembrava importante che a una persona portatrice di handicap venisse riconosciuta una professionalità pari a quella di una persona «normale». Temevo che il film fosse «lagrimoso», che ispirasse compassione e pietà. Invece George risulta essere un personaggio altamente positivo, capace di comprendere il dolore e insegnare che l'amore verso tutto ciò che ci circonda è la cosa più importante. Il regista forse ha estremizzato i due ruoli: da una parte il bene e dall'altra il male; forse non è così, però chi vive con i ragazzi Down ha ritrovato in George molto delle loro caratteristiche: non solo amore e dolcezza ma anche la caparbietà’ nel portare avanti le loro idee, il desiderio di abbandonarsi a un mondo magico tutto loro e la volontà di vivere la realtà che li circonda senza permettere a nessuno di travolgerli in un ritmo di vita che non gli appartiene. Henry, l’altro protagonista, rappresenta il mondo in cui viviamo, ma soprattutto il “modo” in cui viviamo. Non ci basta un buon lavoro, vogliamo far carriera, non ci basta la casa, vogliamo la villa con piscina, e allora corriamo e non ci fermiamo davanti a nulla sacrificando la parte migliore di noi stessi.
+
+I due diventeranno grandi amici e forse è George a insegnare qualcosa a Henry: c’è una scena in cui il ragazzo costringe l’amico a sdraiarsi per un minuto su un prato a guardare il cielo e poi dice: “Un minuto tutto per noi”. Ecco, noi dovremmo comprendere che “un minuto tutto per noi” ci porterebbe a prestare attenzione a chi ci vive accanto e che spesso dimentichiamo presi dalla nostra vita convulsa. II regista ha saputo ben dosare i momenti altamente drammatici con quelli ironici e divertenti. Il film commuove e diverte in modo sorprendente. Il film è stato presentato in molte scuole di Roma. Questo è stato molto positivo perché in pochi mesi centinaia, se non migliaia di ragazzi hanno saputo ciò che nessuna scuola ed associazione potevano far conoscere. Io sono stata presente ad una di queste proiezioni come rappresentante dell'Associazione Italiana Persone Down. Il cinema che si trovava nel rione Trastevere era gremito di ragazzi (circa trecento) delle scuole superiori, quindi dai 15 ai 19 anni. Ero molto emozionata e preoccupata. Come si sarebbero comportati durante la proiezione? Avevo timore di ascoltare risa, sbuffi, sbadigli, frasi ironiche, ma in cuor mio speravo e sapevo che non sarebbe stato così. Infatti quella è stata una delle più belle esperienze della mia vita. Durante il film un silenzio assoluto, interrotto da risa dovute alle scene e da richieste di fazzoletti fra ragazze che non riuscivano a trattenere le lagrime. Alla fine un caloroso applauso. I ragazzi si alzarono, sapevano che doveva esserci un dibattito, ma nessuno avrebbe impedito loro di andarsene. Quando presi il microfono e mi rivolsi a loro presentandomi come la mamma di un ragazzo Down oggi tredicenne, la voce mi tremava. Avevo timore di toccare con mano il loro disinteresse verso una persona meno fortunata di loro. Immediatamente tutti si rimisero a sedere e rimasero a sentirmi parlare della mia esperienza e di quella dell Associazione senza muoversi per circa un’ora. E credetemi, erano rimasti perché volevano sapere di più su questi ragazzi che spesso sono nelle loro classi e che rimangono purtroppo degli sconosciuti, e non perché costretti.
+
+Ho spiegato loro che per fortuna nel nostro Paese pochissimi sono i ragazzi che vengono affidati ad istituti, la stragrande maggioranza rimane in famiglia, frequenta scuole pubbliche, fa sport e vive una vita piena di relazioni sociali. Questo è importante perché la conoscenza del problema impedisce reazioni spiacevoli dettate dall’ignoranza. I nostri ragazzi possono e debbono fare molto. Tutti noi dobbiamo aiutarli perché diventino cittadini a pieno titolo. L’amore, il rispetto, la tolleranza sono valori universali: se riusciremo a metterli in atto vivremo senz'altro in un mondo migliore dove i nostri ragazzi saranno sicuramente, anche loro come George, dei veri grandi protagonisti.
+
+- *Rosalba Bolognesi* , 1997

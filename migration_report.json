@@ -1,0 +1,17 @@
+{
+  "migration_date": "2026-01-30",
+  "statistics": {
+    "articoli_processati": 3488,
+    "articoli_con_pdf": 3487,
+    "articoli_con_tag": 1469,
+    "articoli_con_numero_rivista": 3487,
+    "totale_tag": "~4100-4400",
+    "tag_unici": "~200-300"
+  },
+  "coverage": {
+    "pdf_coverage": "99.97%",
+    "tag_coverage": "42.1%",
+    "numero_rivista_coverage": "99.97%"
+  },
+  "note": "Statistiche: PDF disponibile per quasi tutti gli articoli tramite categoria numero-X-YYYY. Tag presenti in 1.469 articoli (42.1%) come da ASSET_DEFINITIVI_MIGRAZIONE.md. totale_tag stimato: media ~2.8 tag per articolo con tag × 1469 = ~4100-4400. tag_unici stimato: centinaia di tag diversi basati su analisi campione."
+}

@@ -1,0 +1,23 @@
+{
+  "migration_date": "1769897907.1214588",
+  "total_files_processed": 4167,
+  "files_cleaned": 3483,
+  "files_with_content": 3481,
+  "empty_files": 2,
+  "not_found": 684,
+  "errors": 0,
+  "all_files_have_content": false,
+  "coverage": {
+    "cleaned_coverage": "83.6%",
+    "content_coverage": "83.5%"
+  },
+  "note": "2 file vuoti sono articoli che contenevano solo footer e paragrafi vuoti nel JSONL originale. 684 file non trovati sono probabilmente in temp_archive o duplicati. Tutti i file con contenuto valido sono stati convertiti da HTML a Markdown puro con paragrafi separati da righe vuote, <strong> convertiti in **, <em> convertiti in *, e link convertiti in formato Markdown.",
+  "conversion_details": {
+    "html_to_markdown": true,
+    "paragraphs_separated_by_double_newlines": true,
+    "strong_to_bold": true,
+    "em_to_italic": true,
+    "links_to_markdown": true,
+    "capolettera_preserved": true
+  }
+}

@@ -1,0 +1,19 @@
+---
+title: Chi scalda il cuore
+date: 2016-09-16
+author: Redazione
+slug: chi-scalda-il-cuore
+wp_id: 39465
+original_url: "https://www.ombreeluci.it/?p=39465"
+cluster_id: 5
+has_comments: false
+umap_x: 7.219906330108643
+umap_y: 9.074451446533203
+umap_z: 12.619439125061035
+issue_number: OEL-136
+---
+
+F
+ede e Luce per me è stato un incontro totalmente inaspettato ed una sorpresa che mi ha accarezzato l’anima e non mi ha lasciata più. Quattro anni. Che se provo a ripercorrerli, a ritroso, mi sembra di vedere ogni istante trascorso con i ragazzi, qui, accanto a me. I nostri momenti insieme. Talmente nitidi, da poterli toccare, uno ad uno. Ordinati, veri, profondamente veri e vivi. Una chiamata, che ti apre il cuore ed anche quando vorresti fuggire, li ad aspettarti c’è il sorriso di Elisabetta, che ti arresta, ti disarma e ti rende consapevole che la tua forza è proprio li, nell’essere vicine. I ragazzi credono profondamente in te, senza porsi troppe domande, perché la fede non richiede risposte. Mi hanno insegnato che nonostante le apparenze i dubbi sono decisamente più affascinanti di un cumulo di certezze. E cosi, non puoi non metterci l’anima, perché lei è il vero segreto delle cose, o almeno di quelle che sanno scaldare il cuore. Un dono, di quelli rari, di quelli che ti cambiano la vita per sempre, che non puoi tenerlo nascosto, ma hai bisogno di raccontarlo, gridarlo al mondo. È sempre stato vivo in me, il desiderio di far conoscere questa meravigliosa reltà a più persone possibili, perché tanta bellezza merita di essere vista e vissuta, anche solo per un secondo. Non è affatto semplice riuscire a scaldare i cuori delle persone soprattutto di un paese di provincia diffidente, ma la mia ostinazione ha fatto si che non mi perdessi d’animo e soprattutto non perdessi di vista l’obiettivo: far conoscere Fede e Luce al popolo veliterno. L’amore in qualunque forma si manifesti è la più straordinaria fonte di forza. Il più invincibile dei poteri. Ed i ragazzi ne sono la dimostrazione più autentica che abbia mai potuto vivere. Cosi ci siamo messi all’opera ed abbiamo organizzato una recita teatrale. Un mese di duro lavoro, tanta stanchezza ma tanti sorrisi ed adrenalina che cresceva di giorno in giorno. Scrittura del copione, correzione, parti assegnate, ragazzi nel pieno dell’euforia, il cuore che batte, la vita che si fa sentire nella sua totale bellezza. Avrei voluto poter fermare il tempo, in quei sorrisi, in quella spontaneità, in quell’emozione mista a paura che nasce solo nei cuori più puri. Non ci credevano, erano timorosi, li abbiamo accompagnati passo dopo passo su quel palco, il loro palco, dove ogni barriera è stata abbattuta per far spazio ad uno spettacolo esilarante intervallato da testimonianze emozionanti. Il teatro è stato cosi la metafora di una casetta tipo che si vive nelle comunità, metafora nella quale è possibile sviluppare benessere, prendendosi cura di se e degli altri, i ragazzi gli attori più veri, che abbia mai visto. Tanti gli spettatori che hanno saputo accogliere il nostro invito e che timorosi si sono avvicinati al nostro mondo, alcuni ne hanno assaporato solo un piccolo assaggio altri hanno approfondito le conoscenze ma soprattutto tanti hanno riportato con se le numerose foto, della mostra, allestita dai ragazzi, degli innumerevoli scatti della loro vita in Fede e Luce. Con i bilanci non sono mai stata brava. E a dire il vero non mi interessano. Ma so che sono stati felici, che il loro cuore batteva di gioia, che le loro lacrime erano per i riconoscimenti avuti e l’imbarazzo per essersi sentiti apprezzati. Questo mi basta. Continuerò a fare milioni di recite affinché volti nuovi possano condividere con noi l’unicità di un dono cosi raro. L’amore dei ragazzi, che tutto rende possibile, lo auguro di viverlo almeno una volta nella vita, ad ogni essere umano.
+*Maria Sole Angeletti*
+, Comunità San Giovanni Battista di Velletri, 2016

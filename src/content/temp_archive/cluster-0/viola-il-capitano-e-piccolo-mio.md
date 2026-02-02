@@ -1,0 +1,12 @@
+---
+title: "Viola, il Capitano e Piccolo mio"
+date: "2015-12-20"
+author: "Giulia Galeotti"
+theme: "cluster-0"
+cluster_id: 0
+image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_132_2015-206x300.jpg"
+slug: "viola-il-capitano-e-piccolo-mio"
+has_comments: false
+---
+
+<!-- Contenuto da aggiungere -->

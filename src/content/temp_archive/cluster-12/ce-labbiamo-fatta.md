@@ -1,0 +1,12 @@
+---
+title: "Ce l'abbiamo fatta"
+date: "1993-09-09"
+author: "Redazione"
+theme: "cluster-12"
+cluster_id: 12
+image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_43_1993.jpg"
+slug: "ce-labbiamo-fatta"
+has_comments: false
+---
+
+<!-- Contenuto da aggiungere -->

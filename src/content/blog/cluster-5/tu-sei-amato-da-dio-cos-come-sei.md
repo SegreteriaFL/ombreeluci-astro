@@ -1,0 +1,50 @@
+---
+title: Tu sei amato da Dio così come sei
+date: 2013-06-10
+author: Redazione
+slug: tu-sei-amato-da-dio-cos-come-sei
+wp_id: 37650
+original_url: "https://www.ombreeluci.it/?p=37650"
+cluster_id: 5
+has_comments: false
+tags:
+  - formazione
+umap_x: 7.825967311859131
+umap_y: 9.625306129455566
+umap_z: 14.452683448791504
+issue_number: OEL-124
+---
+
+Sessanta partecipanti provenienti dalle comunità della provincia si sono ritrovati intorno al tema Tu sei amato da Dio, così come sei. Testimoni Miguel Reyes e sua moglie Musky, dalla provincia Iberatlantica, Cesarina Bertin, dalla provincia Un Fiume di Pace, Lucia Casella in rappresentanza del Consiglio Internazionale.
+
+Arrivo tardi la sera della veglia. Ho finito di lavorare alle 18 e la veglia inizia alle 21,30. Poco male, direte voi, ma mi trovo a 300 km di distanza dal luogo dell’incontro. Cerco di fare presto e, come mi hanno insegnato in comunità, non mi perdo d’animo. So che vado in un posto dove ci sono persone, come me, chiamate a far parte della comunità di Fede e Luce. Arrivo alle 21.00, dopo aver percorso un’impervia e solitaria strada di montagna. Mi aspettavano e sono accolto con la gioia di sempre. Sono emozionato nel ritrovare la mia famiglia di *Fede e Luce* . Comincia la formazione.
+
+**La considerazione che *Fede e Luce* rappresenta un momento di vita di profonda relazione** guida il nostro cammino: parlare di comunità significa comprendere il legame profondo che esiste tra amici, genitori, ragazzi e concentrarsi sulla molteplicità delle relazioni possibili tra questi. Comprenderle, può facilitare la vita, la crescita e la rinascita delle comunità. Si intrecciano i vissuti di comunità con anni di vita alle loro spalle con quello di comunità più giovani, nella voglia di costruire una strada comune per aiutare quelle che hanno visto, nel corso degli anni, una diminuzione del numero di amici.
+
+**Perché gli amici diminuiscono?** Qual è l’identikit dell’amico e quale quello del genitore? Torniamo alle origini del messaggio di *Fede e Luce* , per fare in modo che le comunità, divenute a volte frenetiche in vista degli incontri, mettano al centro la Parola di Dio, quale motore determinante nelle relazioni.
+
+**Si comincia allora con la veglia di preghiera del venerdì sera** , leggendo due passi del Vangelo di Luca (La missione dei settanta discepoli; Le preoccupazioni). Alla fine abbiamo meditato alcune parole del Card. C.M. Martini.
+
+**La mattina del sabato è stato proposto il tema “Cosa ti aspetti?”** ; ascoltiamo dal Vangelo di Giovanni “Gesù e la Samaritana” e poi ancora le parole del Card. Martini: “Bisogna cercare di portare tutti a capire che fare *Fede e Luce* non è come fornire una prestazione, qualche servizio, qualche presenza, ma comporta un’assunzione di valori evangelici personali, un certo modo evangelico di vedere la vita”. Parole che riassumono in modo chiaro e semplice il profilo più intimo di chi è chiamato a far parte di una comunità di Fede e Luce.
+
+**Miguel (coord. prov. Iberatlantica – Spagna) ha proposto alcune riflessioni sull’appartenenza ed identità di un amico in *Fede e Luce* .** “Chi trova un amico trova un tesoro”, poiché la relazione porta molti benefici: dobbiamo quindi destinare attenzione all’amico anche accettando il rischio di possibili delusioni o inganni. Miguel parla in spagnolo e Don Marcello traduce a braccio. Le sue parole mi suonano così familiari, così comprensibili nonostante la lingua e riesco a capire la maggior parte delle cose che dice. Capisco che abbiamo avuto un dono con la sua presenza: Miguel e sua moglie Musky sono genitori in *Fede e Luce* , ma hanno una visione d’insieme sorprendente. Una carica umana ed una capacità di relazione che sono il miglior esempio. Miguel pone una serie di domande: chi sono gli amici in *Fede e Luce* ? Io chi sono? Di chi sono? A chi appartengo?
+
+**“Le due questioni, appartenenza ed identità, vanno associate** perché la mia identità forma la mia appartenenza, e la mia appartenenza mi da identità”. Miguel ci guida nel passare da un’appartenenza intesa nel senso letterale di proprietà, a quello in cui diventiamo parte di qualcosa. Parte di Dio, della Chiesa, di Fede e Luce: è difficile comprendere l’appartenenza a Fede e Luce se non si hanno chiare le altre due precedenti. Fede e Luce è nata nel cuore della Chiesa. Se apparteniamo solo a *Fede e Luce* senza appartenere alla Chiesa ed a Dio, la nostra relazione allora è fragile, così anche come il nostro stare in *Fede e Luce* .
+
+**Quando l’identità assume un valore centrale** , la domanda diviene chi è un amico in Fede e Luce? La risposta di Miguel descrive una persona che sta vicino ai ragazzi; un “educatore” in grado di non trattarli solo come bambini e di accettarne i limiti senza sostituirsi loro; è colui che sa porre dei limiti e che capisce quando la persona disabile necessita di lui; che dedica tempo ai ragazzi e che parla ai suoi amici della sua esperienza in *Fede e Luce* .
+
+**Descrive anche come non sia un animatore professionale** , responsabile di organizzare attività ricreative, o un “volontario” che si colloca ad un piano diverso dalla persona che aiuta: FL non è un club dove si vive solo il tempo libero e non “tiene” i ragazzi per dare respiro ai genitori.
+
+**Seguono gruppi di scambio, composti da amici, genitori e ragazzi** e nel mio, proprio con Miguel e Musky, trovo una fonte inesauribile di scambio e di crescita. Nel pomeriggio di sabato, Cesarina Bertin (vice coord. prov. Un Fiume di Pace) ha affrontato il tema “Le relazioni in comunità” evidenziando l’importanza delle relazioni tra genitori, tra amici e tra genitori e amici. *Fede e Luce* diviene un momento privilegiato di queste relazioni e momento privilegiato del vivere la festa. Ci siamo domandati: come sono maturato con le relazioni in *Fede e Luce* ? In cosa devo ancora crescere? Come la comunità mi può aiutare?
+
+**La necessità emersa dai gruppi di scambio** è quella di rendere chiare e costruttive le relazioni all’interno della comunità. Il rapporto, fin dalla sua nascita, porta con sé la crescita della responsabilità. Gli scambi sono sereni, aperti, diretti e non mancano le richieste d’aiuto e la voglia di crescere insieme.
+
+**La sera del sabato è festa del circo.** Ognuno di noi si è travestito come poteva; e, visto che la figura di Dumbo era mascotte dell’incontro, Bruno, con la certezza che ognuno di noi è un po’ “Dumbo” almeno nelle orecchie, ne ha distribuito paia a volontà. Balli, giochi, degustazione di dolci tipici di tutto il Sud, hanno dato colore ad una bella serata, conclusasi con un esilarante gioco del passaparola. La tensione per i grandi temi trattati durante la giornata si è così stemperata ed è divenuta occasione per conoscere nuovi amici fantastici tra i quali padre Graziano, superiore della struttura che ci ospitava.
+
+**La domenica mattina** , con Lucia Casella (vice coord. internazionale), abbiamo dato un volto a ragazzi, amici e genitori di comunità tanto lontane dalle nostre ma così uguali nel carisma e nel progetto. Lucia ha sottolineato il valore della comunità come tesoro affidatoci: “Non è nostro, abbiamo il dovere di custodirlo e di consegnarlo al prossimo così come ci è stato affidato”..
+
+**Dopo la Santa Messa celebrata da Don Piero** , alla fine della formazione, i volti dei partecipanti sono forse stanchi ma soddisfatti. Sono emersi tanti spunti di riflessione nei gruppi di scambio: uno per tutti, la capacità di discernere il momento della festa da quello della spiritualità.
+
+**Mi rendo conto che tutto è andato molto meglio di come immaginavo** , così Dio ha voluto, e nel cuore serbo l’immagine di tanti volti nuovi. Dopo i saluti non rimane che avviarsi per il ritorno a Bari. Con Lia, Mara e Laura parliamo, per 300 km, del movimento, dell’associazione a livello nazionale e soprattutto delle relazioni in comunità. Questo è stato il segno più bello che il lavoro fatto per organizzare l’incontro già comincia a portare frutto. Ora rimane il dovere della diffusione nelle nostre comunità. Il seme è piantato, ora tocca innaffiarlo. Spero che queste mie parole siano una prima goccia. Grazie a tutta l’equipe provinciale per lo spirito con cui ha costruito questa formazione, nella calura di giugno a Lipari; a Gianni e Rosita per gli spunti; a tutti voi per l’attenzione. Grazie a Dio perché mi ha sempre amato così come sono!
+
+*Luigi Spina* - [Comunità di San Giovanni Battista (BA)](https://www.fedeeluce.it/project/san-giovanni-battista-bari/)

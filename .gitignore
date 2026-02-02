@@ -1,0 +1,35 @@
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# export PHP / dati grezzi (pesanti, rigenerabili)
+estrai_tutto.*
+
+# migrazione e export WordPress (oltre 100 MB, fuori da GitHub)
+_migration_archive/
+*.xml
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# --- Essenziali per il sito (NON ignorare, tenere in repo) ---
+# src/data/*.json (articoli_megacluster.json, autori_stats.json) sono generati da script ma necessari per build
+# _migration_archive/categorie v2/articoli_*_FINAL_V5.csv è la Source of Truth

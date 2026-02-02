@@ -1,0 +1,12 @@
+---
+title: "Tenere più stretta la mano dei piccoli"
+date: "1986-06-30"
+author: "Anna Cece"
+theme: "cluster-10"
+cluster_id: 10
+image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_14_1986-209x300.jpg"
+slug: "tenere-pi-stretta-la-mano-dei-piccoli"
+has_comments: false
+---
+
+<!-- Contenuto da aggiungere -->

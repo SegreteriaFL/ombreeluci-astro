@@ -1,0 +1,12 @@
+---
+title: "\"Mirtilli\""
+date: "2014-12-15"
+author: "Rita Massi"
+theme: "cluster-2"
+cluster_id: 2
+image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_128_2014.jpg"
+slug: "mirtilli"
+has_comments: false
+---
+
+<!-- Contenuto da aggiungere -->

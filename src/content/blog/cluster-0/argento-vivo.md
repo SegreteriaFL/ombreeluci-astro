@@ -1,0 +1,21 @@
+---
+title: Argento vivo
+date: 2014-06-29
+author: Marta De Rino
+slug: argento-vivo
+wp_id: 38284
+original_url: "https://www.ombreeluci.it/?p=38284"
+cluster_id: 0
+has_comments: false
+tags:
+  - ciao-mariangela
+umap_x: 4.472727298736572
+umap_y: 10.138238906860352
+umap_z: 12.052062034606934
+issue_number: OEL-128
+---
+
+Se
+devo pensare a un’immagine, mi viene in mente l’argento vivo: un vulcano attivo, ribollente, caldo, magmatico. Terreno fertile, rigoglioso. Ma non un vulcano pericoloso. Un vulcano come l’Etna. Oppure un vento impetuoso, che entra all’improvviso in una stanza e mette tutto a soqquadro, che spinge alle spalle, che solletica e fa scoppiare allegre risate, uno zefiro primaverile, frizzante, divertente. La prima grande affabulatrice della mia vita. L’avrei ascoltata per ore nei suoi racconti “animati” delle avventure d’infanzia, della casa in campagna con i fratelli, della guerra, dei viaggi improbabili in paesi poveri, ambasciatrice di Fede e Luce. Tonante, divertita, ostinata nel dimostrare che lei sì, si ricordava bene! Mentre le sorelle e i fratelli (mia madre in particolare), si schernivano, recalcitravano, negavano.... A me non importava nulla. Non interessava sapere quali ricordi fossero i più veri. Di sicuro come li raccontava lei erano i miei preferiti. Talmente vividi davanti ai miei occhi da non farmi sentire la mancanza del cinema. Sì. Lei era il mio cinema preferito, da bambina. A volte si arrabbiava, si scandalizzava. E non aveva paura della forza dirompente che sprigionava da lei in quei momenti. E io nemmeno. Anzi. L’ammiravo. Il suo ardore vibrante, acceso, mi travolgeva, e invidiavo il suo coraggio, la sua furia quasi selvaggia, ma così appassionata. In quei momenti, da bambina e da ragazzina, io vedevo in lei l’immagine di Gesù che scaccia i mercanti dal tempio, una delle immagini del Vangelo che, da sempre, mi affascina di più. Io capivo che tutta quella energia nasceva dall’amore. Un amore immenso verso l’ideale che stava inseguendo, cercando, che desiderava costruire giorno dopo giorno, già qui, già ora. In questo aspetto dirompente, forse, un pochino le assomiglio (qualcuno, chissà, direbbe purtroppo). Io, invece, spero davvero di aver imparato da lei almeno un po’ di questa “ostinazione”... Che in parte ha fatto sì che nascessero le cose meravigliose che ha contribuito a fondare e a far crescere: Fede e Luce, Ombre e Luci. Piccoli pezzetti di cielo. Nel tempo è cambiata. Così, accanto a questa energia creatrice, hanno trovato spazio in lei altri aspetti: la lucidità dello sguardo, quasi chirurgico, con il quale metteva a fuoco le situazioni. Una più tranquilla saggezza, e benevolenza. Uno sguardo di chi, fatta tanta strada, si rivolge a coloro che stanno muovendo magari i primi passi, e offre preziosi consigli, pazienti incoraggiamenti, stimolanti suggerimenti. Generosa, infaticabile, sorridente, trascinatrice in situazioni di gruppo, ma anche capace di solitaria concentrazione. “Aria! Aria!” gridava, fintamente burbera, ai nipoti che l’assillavano per un nuovo gioco, un nuovo racconto.... Chiedeva spazio. Lo esigeva, a volte. Amava il silenzio, nel quale, credo, nutriva la sua intelligenza, mai pigra. Per poi tornare a trillare, cantare, combattere, in quello che, ai miei occhi di bambina, sembrava uno spettacolo infinito. Mi ha insegnato la meraviglia. Bambina tra i bambini. Assetata di Bellezza, la trovava, la scovava nei posti più impensati. Lei, accanitamente arrabbiata contro chi ne parlava ottusamente. Più di una volta l’ho sentita lamentarsi di tutte quelle persone che, di fronte a un “nuovo nato”, non sapevano fare altro che gridare “com’è bello, questo bambino!”, mentre lei masticava il fastidio per tutte quelle mamme che non si sono mai sentite dire la stessa cosa, dei loro figli.... Ma lei sapeva cosa fosse la vera Bellezza. Quella con la B maiuscola. Non quella di plastica, che siamo abituati a vedere, finta, sulle pagine delle riviste, sature di immagini patinate e “ritoccate” con Photoshop. La Bellezza profonda. Quella che traspare in quell’insieme meraviglioso, fatto di luci e di ombre, che è l’essere umano, qualunque essere umano. La sapeva riconoscere. La cercava. Ne era colma al punto che traspariva nel celeste dei suoi occhi. Che ora sono cielo, nel cielo.
+*Marta De Rino*
+, 2014

@@ -1,0 +1,18 @@
+---
+title: Uomo del Regno
+date: 2019-07-15
+author: Giulia Galeotti
+slug: uomo-del-regno
+wp_id: 12463
+original_url: "https://www.ombreeluci.it/?p=12463"
+cluster_id: 8
+has_comments: false
+umap_x: 8.38484001159668
+umap_y: 12.190370559692383
+umap_z: 10.676847457885742
+issue_number: OEL-148
+---
+
+Quattrocentoventotto pagine: tante sono quelle che compongono, nella traduzione italiana, *Il Regno* di Emmanuel Carrère, poderosa inchiesta sul Vangelo di Luca che lo scrittore francese conduce (secondo lo stile che l’ha reso famoso) alternando ricerca storica e racconto autobiografico. Non cristiano – sebbene per un periodo della sua vita lo sia stato – Carrère indaga la sostanza dell’annuncio evangelico. A tratti appassionante, divertente e capace di interrogare la fede di chi legge, a tratti fastidioso e impervio, man mano che ci si avvicina alla fine l’amaro in bocca aumenta. Perché (si chiede Carrère) se il centro del messaggio cristiano è la risurrezione, chi sono, dove sono – se ci sono – i cristiani che davvero vivono credendo che il Figlio dell’uomo sia tornato alla vita dopo tre giorni? Carrère non sembra trovarne traccia concreta. Poi, improvvisa come una fune inattesa capace di strapparci alle sabbie mobili, la svolta. «Va a finire – si legge infatti a pagina 421 – che mi ritrovo nel salone di una fattoria ristrutturata». E dopo aver passato del tempo in quel luogo, cantando e ballando con persone mai viste prima e di cui sa solo che «nessuno li invita mai da nessuna parte», Carrère confida: «Devo ammettere che quel giorno, per un attimo, ho capito che cos’è il Regno». Non ho mai chiesto a Jean cosa abbia pensato leggendo queste pagine che raccontano l’incontro, o meglio lo scontro di Carrère con l’Arca e con Vanier, descritto come un uomo «molto anziano, molto alto, molto attento, molto dolce e, lo si vede, molto buono». Sono certa però che sia impossibile un riconoscimento umano più strepitoso: aver dimostrato, con il frutto della propria vita, a un non credente che il Regno di Dio esiste. Ed è a Vanier, uomo di Dio e del mondo scomparso un mese fa, che dedichiamo questo numero speciale di Ombre e Luci. Speciale perché la foliazione è stravolta, le rubriche sono saltate, esattamente come stravolte sono state le nostre vite e saltati i nostri parametri dopo averlo conosciuto. A partire, innanzitutto, dalle sue opere – *[l’Arca](http://www.arca-it.org/index.php)* e [*Fede e Luce*](http://fedeeluce.it) .
+
+ *Editoriale* ** ** [**Uomo del Regno**](https://www.ombreeluci.it/2019/uomo-del-regno/) di Giulia Galeotti *Focus: Jean Vanier * **Jean e il carro di Geneviève** di Giulia Galeotti **Il coraggio di cambiare** di Giulia Galeotti **Levatrice di cose nuove** di Cristina Tersigni **Ci ha fatto vedere cose che non avevamo ancora visto** di Andrea Lonardo **Il tesoro nascosto nel campo** di Cristina Tersigni **L’autista più illustre** di Serena Sillitto **Il tuo ultimo soffio** di Angela Grassi *Dall'archivio* [**Ritrovare la nostra umanità**](https://www.ombreeluci.it/1992/di-fronte-alle-persone-che-soffrono-fuggire-o-andare-incontro/) di Jean Vanier *Spettacoli* **La tenerezza di Jean in un film** di Anne Dagallier *Libri di Jean Vanier* [**Le grandi domande della vita**](https://www.ombreeluci.it/2019/le-grandi-domande-della-vita/) **[Ho incontrato Gesù, mi ha detto: "ti voglio bene"](https://www.ombreeluci.it/2019/ho-incontrato-gesu-mi-ha-detto-ti-voglio-bene/) [La comunità, luogo del perdono e della festa](https://www.ombreeluci.it/2019/la-comunita-luogo-del-perdono-e-della-festa-2/) [Larmes de silence](https://www.ombreeluci.it/2019/larmes-de-silence/) *Diari* **«Daje Benedetta», «Daje tu, bello!»** di Benedetta Mattei **Come avrei voluto vederti più spesso** di Giovanni Grossi **

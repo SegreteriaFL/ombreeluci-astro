@@ -1,0 +1,19 @@
+---
+title: La strada percorsa finora
+date: 2017-12-21
+author: Cristina Tersigni
+slug: la-strada-percorsa-finora
+wp_id: 40118
+original_url: "https://www.ombreeluci.it/?p=40118"
+cluster_id: 4
+has_comments: false
+umap_x: 5.04127836227417
+umap_y: 6.699127197265625
+umap_z: 9.570237159729004
+issue_number: OEL-140
+---
+
+Da
+novembre è online il nuovo sito di Ombre e Luci (www.ombreeluci.it)! Nel 2018 festeggiamo i 35 anni della rivista e ci sembra che un buon modo per farlo sia quello di rendere accessibili 130 numeri proprio nel sito entro l’anno. I numeri più recenti continueranno ad essere consultabili nella forma cartacea, che non abbandoniamo, ma sarà disponibile, a richiesta, un pdf per quanti sostengono la redazione e la stampa della rivista. Periodicamente evidenzieremo i progressi fatti, gli articoli che ci sembrano ancora attuali (e sono tanti!) e che ci colpiscono maggiormente attraverso la segnalazione sui canali social (Fb e Twitter). E, se volete, potete segnalarci il vostro indirizzo mail per ricevere la nostra newsletter. Rileggere piano piano, interamente, tutti gli Ombre e Luci, come sto facendo ultimamente a caccia di inevitabili refusi (che vi invitiamo a segnalarci), ha tanti risvolti positivi: il riscoprire il buon senso, l’onestà, l’empatia di quelle tante persone che hanno conosciuto - sulla propria pelle o per profonda amicizia - tutto ciò che la disabilità comporta nella vita di una famiglia e hanno voluto farne parte con quanti più possibile proprio attraverso la nostra rivista. Ritrovare i volti di tanti amici nelle foto scelte sempre con grande attenzione, affinché lasciassero emergere la parte più bella di ciascuno, anche di chi non appare "bello”. Ricordare quanto di tutto questo è avvenuto attraverso Mariangela Mazzarotto Bertolini. Non c’erano i social che abbiamo ora… Ma era grande la voglia di tenersi vicini e informati. E allora lei, Mariangela, e altre persone (Guenda, Rita, Anna, Tea... e altri che non so) cominciarono dapprima con un ciclostile, Insieme. Certi che alla sofferenza era necessario rimanere almeno accanto. Anche ispirandosi all’esperienza francese di Friquette, una mamma come Mariangela, incontrata a Lourdes e che le aveva restituito la gioia del sorriso. Da quel germe, il desiderio di raggiungere tante altre famiglie ancora sole si concretizzava con la fondazione, nel 1983, della rivista Ombre e Luci con il prezioso sostegno di Nicole e Sergio, poi di Natalia e tanti altri… Per condividere spunti di riflessione e di informazione, proporre interessanti ed utili esperienze… con la costante preoccupazione di far sì che né le persone con un handicap - qualsiasi ma, in particolare, quello mentale - né le loro famiglie, potessero sentirsi totalmente, esclusivamente, ai margini della società e della Chiesa. Tante volte lo scoraggiamento avrà preso il sopravvento… non è stato sicuramente facile… Eppure siamo qui nel 2017 - anche grazie al continuo, fondamentale, sostegno di Fede e Luce onlus - a cercare di portare avanti questo lavoro, registrando tanti passi avanti, qualche lunga sosta e, purtroppo, qualche passo indietro in un mondo che vorremmo vedere ormai pienamente “inclusivo”. Ora proviamo, anche in nome del loro impegno, di quello di Mariangela, a mettere realmente a disposizione questo prezioso tesoro di esperienze, di testimonianze, di riflessioni. Gli anni passati si sentono, soprattutto nella terminologia utilizzata che spesso ora stona alle nostre orecchie; non abbiamo voluto fare cambiamenti per non tradire il contesto in cui i testi venivano scritti. Di questi tempi è bene aiutare la nostra memoria e vedere se e quanta strada abbiamo fatto. Con la speranza che tutto questo possa anche solo aggiungere qualche goccia di, presumiamo buona, acqua all’oceano della vita e della storia di ciascuno.
+*Cristina Tersigni*
+, 2018

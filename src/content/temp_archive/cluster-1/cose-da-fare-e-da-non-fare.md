@@ -1,0 +1,12 @@
+---
+title: "Cose da fare e da non fare"
+date: "2011-06-04"
+author: "Redazione"
+theme: "cluster-1"
+cluster_id: 1
+image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_114_2011.jpg"
+slug: "cose-da-fare-e-da-non-fare"
+has_comments: false
+---
+
+<!-- Contenuto da aggiungere -->

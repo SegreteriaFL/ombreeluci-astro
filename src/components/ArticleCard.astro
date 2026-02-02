@@ -1,0 +1,153 @@
+---
+// ArticleCard.astro – struttura: contenitore, link (solo immagine+badge+titolo), riga autore fuori dal link
+import placeholderImage from '../assets/placeholder1.webp';
+
+const { title, author, date, issue, slug, image, categoriaMenu, forma, ruoloEditoriale } = Astro.props;
+const isPortante = ruoloEditoriale === 'portante';
+const hasIssue = issue != null && String(issue).trim() !== '';
+const displayIssue = hasIssue ? issue : "Pubblicato online";
+const imageSrc = image || placeholderImage.src;
+// Badge: [Numero] • [Forma (se != Articolo)] / [categoria_menu]
+const formalPart = forma && forma !== 'Articolo' ? `${forma} / ` : '';
+const badgeText = hasIssue
+  ? `${displayIssue} • ${formalPart}${categoriaMenu || '—'}`
+  : (categoriaMenu ? categoriaMenu : 'Pubblicato online');
+
+function authorSlug(name: string): string {
+  return String(name)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+const formattedDate = new Intl.DateTimeFormat('it-IT', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}).format(date instanceof Date ? date : new Date(date));
+
+const authorLinkSlug = authorSlug(author);
+---
+
+<div class={`article-card${isPortante ? ' article-card--portante' : ''}`}>
+  <a href={`/blog/${slug}`} class="article-link">
+    <div class="article-image-wrap">
+      <img src={imageSrc} alt={title} loading="lazy" />
+    </div>
+    <div class="article-meta">
+      <p class={badgeText === 'Pubblicato online' ? 'article-badge article-badge-muted' : 'article-badge'}>{badgeText}</p>
+      <h3 class="article-title">{title}</h3>
+    </div>
+  </a>
+  <p class="author-row">
+    Di <a href={`/autori/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
+  </p>
+</div>
+
+<style>
+  .article-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+  }
+
+  .article-card--portante .article-title {
+    font-size: 1.35rem;
+  }
+
+  .article-card--portante .article-image-wrap {
+    aspect-ratio: 16/10;
+  }
+
+  .article-link {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    align-items: flex-start;
+  }
+
+  .article-image-wrap {
+    width: 100%;
+    aspect-ratio: 16/9;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  .article-image-wrap img {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+    object-fit: cover;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .article-image-wrap img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  @media (max-width: 480px) {
+    .author-row { white-space: normal; flex-wrap: wrap; }
+  }
+
+  .article-meta {
+    width: 100%;
+    margin: 0;
+  }
+
+  .article-badge {
+    margin: 0 0 4px 0;
+    color: #ff1053;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .article-badge-muted {
+    color: #666;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    width: fit-content;
+    text-transform: none;
+  }
+
+  .article-title {
+    margin: 4px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #1a1a1a;
+    font-size: 1.25rem;
+  }
+
+  .author-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+    white-space: nowrap;
+  }
+
+  .author-link {
+    color: #ff1053;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline;
+  }
+</style>

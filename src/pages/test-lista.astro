@@ -1,0 +1,106 @@
+---
+import { getCollection } from 'astro:content';
+import Header from '../components/Header.astro';
+
+// Ottieni tutti gli articoli
+let allArticlesList = [];
+
+try {
+  const allArticles = await getCollection('blog');
+  allArticlesList = allArticles
+    .filter(article => {
+      // Filtra articoli con date valide
+      try {
+        return article.data.date instanceof Date && !isNaN(article.data.date.getTime());
+      } catch (e) {
+        return false;
+      }
+    })
+    .sort((a, b) => {
+      try {
+        return b.data.date.getTime() - a.data.date.getTime();
+      } catch (e) {
+        return 0;
+      }
+    });
+} catch (error) {
+  console.error('Errore caricamento articoli:', error);
+}
+---
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista Completa Articoli - Ombre e Luci</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+        line-height: 1.8;
+      }
+      h1 {
+        color: #333;
+        border-bottom: 3px solid #0066cc;
+        padding-bottom: 0.5rem;
+      }
+      .stats {
+        background: #f5f5f5;
+        padding: 1rem;
+        border-radius: 8px;
+        margin: 2rem 0;
+        font-weight: bold;
+      }
+      .article-list {
+        list-style: decimal;
+        padding-left: 2rem;
+      }
+      .article-item {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #eee;
+      }
+      .article-link {
+        text-decoration: none;
+        color: #0066cc;
+      }
+      .article-link:hover {
+        text-decoration: underline;
+      }
+      .article-meta {
+        color: #666;
+        font-size: 0.85rem;
+        margin-left: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    
+    <h1>Lista Completa Articoli</h1>
+    
+    <div class="stats">
+      Totale articoli: {allArticlesList.length}
+      <br />
+      <a href="/" style="color: #0066cc; text-decoration: underline; margin-top: 0.5rem; display: inline-block;">← Torna all'archivio</a>
+    </div>
+    
+    <ol class="article-list">
+      {allArticlesList.map((article) => {
+        const articleSlug = article.data.slug || article.id.replace(/\.md$/, '').replace(/^.*\//, '');
+        return (
+          <li class="article-item">
+            <a href={`/blog/${articleSlug}`} class="article-link">
+              {article.data.title || 'Titolo mancante'}
+            </a>
+            <span class="article-meta">
+              ({article.data.date.getFullYear()}) - {article.data.author || 'Autore sconosciuto'} - Cluster: {article.data.cluster_id}
+            </span>
+          </li>
+        );
+      })}
+    </ol>
+  </body>
+</html>
+

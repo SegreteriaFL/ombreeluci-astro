@@ -1,0 +1,12 @@
+---
+title: "Fede e Luce: E subito scattò la molla"
+date: "2011-06-04"
+author: "Pietro Vetro"
+theme: "cluster-5"
+cluster_id: 5
+image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_114_2011.jpg"
+slug: "fede-e-luce-e-subito-scatt-la-molla"
+has_comments: false
+---
+
+<!-- Contenuto da aggiungere -->

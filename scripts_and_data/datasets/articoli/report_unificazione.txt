@@ -1,0 +1,12 @@
+============================================================
+REPORT UNIFICAZIONE DATI
+============================================================
+
+Articoli totali nel JSON unificato: 3488
+Articoli con almeno un commento: 44
+Articoli con immagine associata: 2514
+Articoli con slug: 3487
+Articoli con dati autore completi: 3385
+
+
+============================================================

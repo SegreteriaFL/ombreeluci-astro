@@ -1,0 +1,42 @@
+---
+title: "Fede e Luce: E subito scattò la molla"
+date: 2011-06-04
+author: Pietro Vetro
+slug: fede-e-luce-e-subito-scatt-la-molla
+wp_id: 35879
+original_url: "https://www.ombreeluci.it/?p=35879"
+cluster_id: 5
+has_comments: false
+umap_x: 7.4566264152526855
+umap_y: 9.001049995422363
+umap_z: 12.800556182861328
+issue_number: OEL-116
+---
+
+“Ci sarebbe questa Comunità di **[Fede e Luce](https://www.fedeeluce.it/)** che avrebbe bisogno di una mano, perché è un po’ in difficoltà”. Così è partita la mia lunga avventura a Fede e Luce, con queste 20 scarne parole, dette dal mio viceparroco di allora, Don Filippo Morlacchi, nel 2000. La comunità di S.Croce si era da poco trasferita nella mia Parrocchia, al Preziosissimo Sangue, e Don Filippo era appena diventato il suo assistente spirituale. Io e mia moglie Ilaria eravamo appena tornati dal nostro viaggio di nozze e cercavamo un servizio di volontariato da fare insieme.
+
+**Avevamo già sentito parlare di Fede e Luce da alcuni amici** che la frequentavano da tempo e avevamo anche già incontrato la comunità di S.Croce in occasioni diverse: lei insieme ad un'amica, io quando la comunità s’insediò in Parrocchia e, in quanto responsabile della Caritas, ero lì ad accoglierla.
+
+“Ci sarebbe questa comunità di Fede e Luce che avrebbe bisogno di una mano...” perché no? Poteva essere proprio l'occasione giusta: nessuno di noi due aveva esperienza nel campo del servizio alla disabilità mentale, ma entrare in un gruppo era anche una garanzia per avere un sostegno in caso di necessità. L'unica nostra esperienza, che allora non credevamo valida ma che poi si rivelò essere preziosa, era un’amicizia con due ragazze disabili della nostra Parrocchia, Anna Giulia e Paola, oggi, guarda caso, anche loro entrambe a Fede e Luce. Fu un inizio subito positivo: trovammo una comunità non troppo numerosa, ma molto accogliente, con una gran propensione al gioco e allo scherzo, ma che sapeva passare con naturalezza a momenti di riflessione e preghiera. Come succede sempre, scattò la molla subito in particolare con un disabile, nel mio caso Federico.
+
+**Mi ricordavo di questo ragazzone dall’aspetto da energumeno che parlava a macchinetta** , pieno di oggettini e con una magliettina a maniche corte in un clima piuttosto rigido; quello che mi colpì però è che si ricordava non solo il mio nome, dopo avermi visto una volta soltanto, ma anche il cognome (mentre io, naturalmente, di lui non mi ricordavo né nome né cognome). A Messa ci sedemmo vicini ed entrammo subito in confidenza, io a dirgli di non fare casino, lui a darmi ascolto (!!!) e poi con atteggiamenti da vecchio amico, come mettere una mano sulla mia spalla.
+
+**Anche con le dinamiche della comunità ci trovammo subito molto bene** . Ci piaceva non solo la casetta domenicale, ma anche le riunioni che si facevano per verificare com'era andata la giornata e quelle organizzative per il successivo incontro. Era un bel modo per sentirsi parte di qualcosa di più grande e per entrare subito in intimità con persone che si conoscevano da pochissimo tempo e di età diverse, chi parecchio più giovane, chi parecchio più grande.
+
+**Poi è iniziata l'amicizia** , sia con i ragazzi disabili, sia con le famiglie, sia con gli “amici” (quelli che una volta avremmo chiamato i volontari e che ora invece erano proprio quello: amici).
+
+Passano gli anni, alcuni se ne vanno, qualcuno arriva. Molti si sposano, molti hanno bambini. Io e mia moglie scopriamo di non poterne avere e iniziamo un’altra lunga avventura, quella dell'adozione, che prenderà 5 anni della nostra vita prima di giungere a compimento.
+
+**Due anni dopo essere entrati a Fede e Luce** , nel corso delle elezioni periodiche viene eletto il Responsabile di comunità Attilio, che resta in carica per tre anni e qualche mese e la volta successiva toccherà a me. Un’intuizione felice di Attilio era stata quella di coinvolgere persone giovani, consapevole che queste possono dare e ricevere molto in comunità. lo sono entrato a Fede e Luce non più giovanissimo (avevo 35 anni), ma l’idea di Attilio mi sembra molto giusta e così prendo contatto con gli scout della Parrocchia, proponendo un anno di servizio a Fede e Luce. La comunità sta un po’ in affanno e un aiuto di persone giovani fa sicuramente molto comodo: decideranno loro poi se continuare a vivere Fede e Luce o se percorrere altre strade. Il risultato è molto positivo: quasi tutti gli scout si integrano immediatamente, costituendo una presenza fondamentale nelle casette. Molti scelgono di non continuare, ma l’esperienza con i ragazzi è, a loro dire, comunque qualcosa che si portano nel cuore e che rimarrà.
+
+**Allo scadere del mio mandato di responsabile** , finalmente, l’ente che cura l'adozione ci chiama: ci sono due splendide bambine, Grace e Myla, che ci attendono nelle Filippine. Passano ancora un po’ di mesi per espletare tutte le pratiche burocratiche e, finalmente, partiamo. Non sto a raccontare tutto quello che abbiamo vissuto laggiù: le emozioni, le fatiche, la stanchezza, la voglia di ritornare. Dopo 20 giorni siamo di nuovo in Italia, in quattro però stavolta, e cerchiamo di tornare alla nostra vita normale in una situazione assolutamente diversa.
+
+Nella nostra vita, naturalmente, c'è anche Fede e Luce, che ormai ci accompagna da undici anni.
+
+**Dopo un breve periodo (qualche settimana) di assestamento** in cui le bambine iniziano a capire cosa vuol dire stare in famiglia, decidiamo di fare il grande passo e portarle alla casetta domenicale di comunità. Cerchiamo, nel nostro scarso inglese, di raccontare loro cosa le aspetta (e probabilmente non ci riusciamo) e, in particolare, cerchiamo anche di tutelare i ragazzi, spiegando a Grace e Myla che non devono ridere di nessuno e che non devono nemmeno piangere (visto che Federico, quando vede un bambino piangere, si fa prendere da una delle sue crisi e inizia a picchiarsi). La loro prima casetta va molto bene (almeno così ci sembra, le nostre figlie sono ancora fonte di sorprese, ma la sera dicono di essere state bene), grazie anche al lavoro del babysitter che ormai da qualche tempo si occupa dei bambini della comunità, sempre più numerosi: Tommaso ha un grandissimo successo con le nostre bambine, dovuto probabilmente al fatto che, oltre che essere simpatico, è anche bello, e le bambine sembrano apprezzarlo.
+
+**Fede e Luce è un’occasione splendida per la loro crescita** , non solo perché insegna la bellezza della diversità (come dice Jean Vanier, Fede e Luce è il luogo in cui impari che ognuno è bello a modo suo), ma perché le bambine imparano che, per sentirsi amate dai loro genitori, non serve stargli sempre appiccicati. Fede e Luce è il posto dove papà deve stare accanto a Brunella durante la messa per farle godere quel momento, però di tanto in tanto ti guarda, e tu te ne accorgi e lo saluti; è il posto in cui mamma chiacchiera con i genitori dei ragazzi, ma tu sai che c’è e che sta parlando di te; è il posto in cui i tuoi genitori stanno sempre a portata di mano, ma in modo discreto, osservandoti mentre fai le attività ma non facendole al posto tuo; è il posto in cui Federico arriva e ti dà un bacio,senza averti mai visto prima, così, perché ne ha voglia; è il posto in cui si canta e si sta in allegria in una bella giornata di sole, in cui ci si diverte senza parchi giochi, bambole stratosferiche o giocattoli che fanno mille luci o rumori.
+
+Non so dire se le mie bambine s’innamoreranno di Fede e Luce come me ne sono innamorato io, al momento opportuno decideranno loro; io e Ilaria comunque gliene daremo l'opportunità.
+
+*Pietro Vetro* , 2011

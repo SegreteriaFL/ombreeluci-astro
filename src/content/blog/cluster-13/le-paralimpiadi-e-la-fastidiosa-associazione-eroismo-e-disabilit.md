@@ -1,0 +1,46 @@
+---
+title: Le Paralimpiadi e la fastidiosa associazione “eroismo” e “disabilità”
+date: 2018-03-09
+author: Redazione
+slug: le-paralimpiadi-e-la-fastidiosa-associazione-eroismo-e-disabilit
+wp_id: 6855
+original_url: "https://www.ombreeluci.it/?p=6855"
+cluster_id: 13
+has_comments: false
+tags:
+  - olimpiadi
+  - paralimpiadi
+  - sport
+umap_x: 8.90897274017334
+umap_y: 5.1699652671813965
+umap_z: 8.989927291870117
+issue_number: OEL-144
+---
+
+Le
+[**Paralimpiadi invernali di PyeongChang**](https://www.wired.it/attualita/media/2018/03/08/paralimpiadi-2018-azzurri/)
+– appurato che l’appeal rispetto alle versioni estive è drasticamente più basso e questo vale anche per i Giochi olimpici – aiuteranno la
+**disabilità**
+ad entrare dalla porta principale nella quotidianità degli italiani anziché obbligarla ad alternare piedistalli dorati alle cantine più buie, senza un’apparente via di mezzo? Alle persone con disabilità, in particolar modo quelle che fanno sport, manca soltanto di essere accostati all’aggettivo “santi”. Sì, perché da “coraggiosi”, “poverini” e, per completare il quadro, “eroi”, già sono affiancati da sempre. Tutto parte dall’idea che la mancata perfezione (una gamba in meno per esempio) oppure che un fatto di per sé sfortunato (un incidente), possano porre una persona al di sopra della normalità. Una posizione che si espone inevitabilmente al giudizio altrui, buono o cattivo che sia. E allora la persona con disabilità diventa sempre “
+*altro*
+”, diventa qualcuno che un tempo bisognava nascondere, per vergogna o protezione, a seconda dei casi, e che, oggi, per contrasto netto e naturale dovuto ai tempi che cambiano e dovuto soprattutto allo sport, è diventato un “altro”
+**positivo**
+,
+**esagerato**
+,
+**eroico**
+, appunto. Dai, quasi finto, diciamocelo. Tutto questo “
+**eroismo**
+” imposto significa, comunque, far sentire “diverse” le persone, fuori dal gruppo di chi non si sente abbastanza coraggioso per alzarsi la mattina e ringraziare il cielo di avere due gambe, due braccia, di camminare come indicano gli insegnanti di pilates, di vedere, sentire perfettamente. Cosa c’entra lo sport in tutto questo? Cosa c’entrano le Paralimpiadi? Lo sport, inevitabilmente, fa da apripista per i cambiamenti sociali e questo caso non fa eccezione. Il processo evolutivo della percezione della disabilità – parliamo di sport – deve oltrepassare fasi precise: dallo stupore di vedere atleti ribaltarsi su delle carrozzine si passa a non chiedere più, colmi di
+**umana pietas**
+, “hai bisogno?”. Tante volte c’è un aspetto più dissacrante di chi vorrebbe mantenere lo status quo e fu quello di
+**Paolo Villaggio**
+quando, in occasione delle Paralimpiadi di Londra 2012, commentò a Radio 24 che lo sport per persone con disabilità era una vera pena, scatenando un putiferio e dividendo il mondo in buonisti e schietti, come se nel mezzo non ci fosse nient’altro. E invece, ci sarebbe bisogno di
+**“normalizzare” lo sport per persone con disabilità**
+(e non solo lo sport), anche se, forse, sarebbe ancora più bello, restando in Italia, usare una parola impropria ma nettamente meno ghettizzante: sarebbe bello “costituzionalizzare” lo sport per persone con disabilità, prendendo spunto da quell’uguaglianza sostanziale che sta alla base della nostra Carta Costituzionale. E magari, dallo sport, allargarsi a mille altri ambiti che interessano disabilità e diversità (altro che pensa, insomma). Ed è questo che le Paralimpiadi provano a fare ogni due anni: entrare nelle case per mostrare che si può. Che si può oggi e anche domani. Ci riusciranno, almeno un po’ di più, queste Paralimpiadi invernali? Come reagiremo nel vedere una persona con una gamba affrontare una discesa libera a 100 all’ora oppure osservare uno sciatore cieco che segue la sua guida in simbiosi e riesce a sciare senza paura di gobbette, della neve irregolare e della velocità? Saremo pronti a vederli come atleti in prima battuta per poi concentrarci sulle loro storie? (ah, una storia ce l’hanno tutti, anche il milionario Cristiano Ronaldo). A proposito di storie, e senza andare su quelle già note di
+[**Bebe Vio**](https://www.wired.it/lifestyle/salute/2017/12/03/giornata-internazionale-della-disabilita-bebe-vio-si-racconta/)
+, Alex Zanardi e altri medagliati estivi: Fabrizio Caselli, toscano, canoista e futuro parabobbista (la disciplina entrerà nel programma paralimpico invernale, probabilmente, a Pechino 2022) un giorno prima di Rio de Janeiro disse: “
+*Pensa che botta di fortuna quell’incidente. Non fosse stato per quell’immersione, ora starei ancora a fare il vetraio*
+”. Le Paralimpiadi partono venerdì 9 marzo, ore 12 italiana, con la cerimonia di apertura. Poi l’inizio delle gare: 27 atleti, 17 nel para ice hockey, 4 nello sci alpino (Renè De Silvestro, Davide Bendotti, Giacomo Bertagnolli e Fabrizio Casal), 4 nel para snowboard (Paolo Priolo, Jacopo Luchini, Manuel Pozzerle e Roberto Cavicchi) e 1 nello sci di fondo (Cristian Toninelli). Nessuna donna. Obiettivo: “Fare meglio di Sochi 2014” quando l’Italia prese zero medaglie. In palio c’è la sfida di entrare nelle case degli italiani dalla porta dalla quale entrano tutti. Nessun eroe, tanti atleti. Fonte:
+[Wired](https://www.wired.it/attualita/2018/03/09/paralimpiadi-pyeongchang-disabilita-sport/)
+<h3>Bastano 2€ al mese per sostenere Ombre e Luci. Dona subito.</h3><br><!-- --><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><!-- --><input type="hidden" name="cmd" value="_s-xclick"><!-- --><input type="hidden" name="hosted_button_id" value="UVHBN3Z23AM6N"><!-- --><input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal è il metodo rapido e sicuro per pagare e farsi pagare online."><!-- --><img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1"><!-- --></form><!-- -->

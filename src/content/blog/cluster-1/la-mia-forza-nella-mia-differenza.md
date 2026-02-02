@@ -1,0 +1,24 @@
+---
+title: La mia forza nella mia differenza
+date: 2018-06-30
+author: Cyrill Douillet
+slug: la-mia-forza-nella-mia-differenza
+wp_id: 40294
+original_url: "https://www.ombreeluci.it/?p=40294"
+cluster_id: 1
+has_comments: false
+umap_x: 7.295086860656738
+umap_y: 8.96701717376709
+umap_z: 8.043278694152832
+issue_number: OEL-144
+---
+
+**Lei è uno dei rari eletti regionali, portatore di handicap. Vive questo come una vittoria? Il suo handicap le è stato di freno nel suo percorso? ** Il mio impegno politico non è legato al mio handicap. Mi sono impegnato nel desiderio di mettermi al servizio degli altri. Un desiderio rinforzato lavorando come neuropsicologo nel servizio pubblico ospedaliero. Inoltre amo molto la mia città, Boulogne e desidero investire nella vita della mia città. Il mio handicap non è stato di ostacolo nel mio percorso. Ho cercato di fare della mia differenza una forza. In politica è sempre utile essere riconosciuti e distinguersi dagli altri. Dal momento che ho un handicap evidente, questo avviene automaticamente. Per la strada la gente mi interpella perché sono facilmente riconoscibile attraverso il notiziario del municipio. Quanto alle mie limitazioni fisiche, l’impegno politico mi spinge ad andare oltre. La mia patologia è fluttuante, ci sono dei giorni in cui mi sento bene e altri un po’ meno. Con tutti i miei impegni, la politica mi incoraggia a superare me stesso. Delle volte sono fiero di riuscire a fare più degli altri. Nello sguardo degli altri posso leggere dei dubbi sulla mia capacità di assumere delle responsabilità e di svolgere delle attività a ritmo sostenuto. Mi sforzo allora di dimostrare che la differenza, in questo caso, fisica, non mi limita nel lavoro e nella competenza. Spero che ciò possa far cambiare mentalità in questo ambito. Essendo io stesso disabile, spesso il solo, attorno ad un tavolo di lavoro, nelle riunioni alle quali posso partecipare, porto un punto di vista particolare sulla disabilità in ogni campo.
+
+**Al consiglio municipale lei è aggiunto (del sindaco) per le persone disabili; al consiglio regionale, delegato per la disabilità. Non c’è il rischio che le persone handicappate siano relegate a questi settori, a discapito di un impegno di più ampie vedute? ** Avrei potuto scegliere altri ambiti: la famiglia, l’educazione… Ma mi sento investito sulle questioni dell’handicap perché sono in sintonia con ciò che io sono. Può sembrare un cliché, ma è la scelta che ho fatto. Può darsi che non farò sempre questo nel corso della mia vita politica. Per il momento è su questo che mi realizzo di più e dove ho l’impressione di essere maggiormente utile. Ho la fortuna di avere dei mandati per cui la mia commissione non si riunisce solo per l’handicap. In qualità di sindaco aggiunto rappresento il comune nelle scuole, celebro matrimoni etc. Detto ciò bisogna guardarsi bene dal relegare le persone disabili solo in questi ambiti. Difatti l’esperienza mostra come la società evolve poco a poco. Guardiamo le donne in politica: all’inizio sono state assegnate alla famiglia. Poi, pian piano, ad altri ambiti, la difesa, la giustizia etc. Forse bisogna prima passare per questa strada.
+
+**Ci sono degli interventi di cui è particolarmente fiero? ** A Boulogne, ho potuto, con il sostegno del Sindaco, avviare e portare a termine, nello spazio di un solo mandato, vari importanti progetti: la creazione di un centro di accoglienza con assistenza medica; la creazione di una casa di accoglienza per pazienti con la sindrome locked-in; l’apertura di un istituto medico psico-pedagogico per adolescenti autistici. Felice di inaugurare questi luoghi pensando di aver portato delle vere soluzioni per queste persone e le loro famiglie. Questi sono dei progetti concreti, duraturi, efficaci e che rispondono a realtà drammatiche. A livello regionale, sono molto fiero di essermi battuto, con l’appoggio della Presidente, per ottenere, per il 2016, la formazione e l’inserimento professionale delle persone disabili.
+
+**Come incoraggiare l’esercizio di cittadinanza delle persone con disabilità? ** Da una parte, le persone con disabilità devono mostrarsi più esigenti con il potere politico, in particolare tramite le associazioni. Personalmente le incoraggio a perseverare nella lobbyng. Da un’altra parte, è il mondo politico che deve essere più attento ai più fragili, malgrado le difficoltà che stiamo vivendo. Infine l’opinione pubblica deve cambiare atteggiamento perché sta andando più lenta rispetto alle nuove leggi. Le persone disabili rappresentano il 10% della popolazione e non sono quasi mai presenti in politica. Sono contrario ad introdurre una quota, ma incoraggio le persone disabili a entrare in politica. Anche se è un ambiente duro, non bisogna rinunciare a portare meno brutalità, più umiltà e l’impegno di servire. Occorre coinvolgere i partiti, bussare alle porte, mostrare di cosa si è capaci e mirare in alto.
+
+di *Cyrill Douillet* (O&L n.216) trad. di Rita Massi

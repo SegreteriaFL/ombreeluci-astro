@@ -1,0 +1,170 @@
+---
+import Header from '../components/Header.astro';
+---
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi Siamo - Ombre e Luci</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        line-height: 1.7;
+        color: #333;
+        background: #fafafa;
+      }
+
+      .about-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+
+      .about-content {
+        background: #fff;
+        padding: 3rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      }
+
+      .about-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 2rem;
+      }
+
+      .about-section {
+        margin-bottom: 2.5rem;
+      }
+
+      .about-section:last-child {
+        margin-bottom: 0;
+      }
+
+      .about-section-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 1rem;
+      }
+
+      .about-text {
+        font-size: 1.125rem;
+        line-height: 1.8;
+        color: #555;
+        margin-bottom: 1rem;
+      }
+
+      .about-text p {
+        margin-bottom: 1rem;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .about-container {
+          padding: 1.5rem 1rem;
+        }
+
+        .about-content {
+          padding: 2rem 1.5rem;
+        }
+
+        .about-title {
+          font-size: 2rem;
+        }
+
+        .about-text {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    
+    <div class="about-container">
+      <div class="about-content">
+        <h1 class="about-title">Chi Siamo</h1>
+
+        <section class="about-section">
+          <h2 class="about-section-title">Ombre e Luci</h2>
+          <div class="about-text">
+            <p>
+              Ombre e Luci è una rivista che da oltre quarant'anni accompagna le persone 
+              con disabilità, le loro famiglie e le comunità che li accolgono, offrendo 
+              riflessioni, testimonianze e strumenti per vivere insieme la diversità come 
+              una ricchezza.
+            </p>
+            <p>
+              Attraverso articoli, interviste, recensioni e approfondimenti, la rivista 
+              esplora temi legati alla disabilità, all'inclusione, alla spiritualità e 
+              alla vita comunitaria, sempre con uno sguardo attento alla dignità e al 
+              valore di ogni persona.
+            </p>
+          </div>
+        </section>
+
+        <section class="about-section">
+          <h2 class="about-section-title">La Nostra Storia</h2>
+          <div class="about-text">
+            <p>
+              Nata nel 1976, Ombre e Luci ha accompagnato generazioni di lettori nel loro 
+              cammino, offrendo uno spazio di dialogo, confronto e crescita. La rivista 
+              si ispira ai valori di Fede e Luce, una comunità internazionale che riunisce 
+              persone con disabilità intellettiva, le loro famiglie e amici.
+            </p>
+            <p>
+              Nel corso degli anni, la rivista ha ampliato i suoi orizzonti, mantenendo 
+              sempre al centro la persona nella sua interezza e unicità, promuovendo una 
+              cultura dell'accoglienza e dell'inclusione.
+            </p>
+            <p>
+              Da oltre quarant'anni, Ombre e Luci continua a essere un punto di riferimento 
+              per chi cerca riflessioni profonde, testimonianze autentiche e strumenti 
+              concreti per vivere insieme la diversità come una ricchezza.
+            </p>
+          </div>
+        </section>
+
+        <section class="about-section">
+          <h2 class="about-section-title">La Redazione</h2>
+          <div class="about-text">
+            <p>
+              La redazione di Ombre e Luci è composta da un team di professionisti, 
+              volontari e collaboratori che condividono la passione per il giornalismo 
+              di qualità e l'impegno per i temi dell'inclusione e della disabilità.
+            </p>
+            <p>
+              Collaborano con la rivista autori, giornalisti, esperti e testimoni che 
+              portano la loro esperienza e competenza per offrire ai lettori contenuti 
+              sempre attuali e di valore.
+            </p>
+          </div>
+        </section>
+
+        <section class="about-section">
+          <h2 class="about-section-title">Contatti</h2>
+          <div class="about-text">
+            <p>
+              Per informazioni, abbonamenti o collaborazioni, puoi contattarci attraverso 
+              i canali ufficiali della rivista.
+            </p>
+            <p>
+              Siamo sempre disponibili per rispondere alle tue domande e per accogliere 
+              nuove proposte e contributi.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
+

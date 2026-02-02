@@ -1,0 +1,12 @@
+---
+title: "Un pellegrinaggio di ringraziamento"
+date: "1995-06-02"
+author: "Lucia Bertolini"
+theme: "cluster-10"
+cluster_id: 10
+image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_50_1995.jpg"
+slug: "un-pellegrinaggio-di-ringraziamento"
+has_comments: false
+---
+
+<!-- Contenuto da aggiungere -->

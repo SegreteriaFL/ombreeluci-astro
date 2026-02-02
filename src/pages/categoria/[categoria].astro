@@ -1,0 +1,122 @@
+---
+import { getCollection } from 'astro:content';
+import Header from '../../components/Header.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle } from '../../config/taxonomy.js';
+import megacluster from '../../data/articoli_megacluster.json';
+
+const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
+
+export async function getStaticPaths() {
+  const allArticles = await getCollection('blog');
+  const categorySlugs = getAllCategorySlugs();
+  return categorySlugs.map((categoria) => {
+    const cat = getCategoryBySlug(categoria);
+    const label = cat ? cat.label : categoria;
+    const displayLabel = cat?.displayLabel ?? cat?.label ?? categoria;
+    const articoli = allArticles.filter((article) => {
+      const tags = article.data.tags ?? [];
+      const wpId = article.data.wp_id;
+      if (cat?.type === 'thematic') {
+        const { tema_label } = getMegaclusterForArticle(wpId);
+        return tema_label === label;
+      }
+      if (cat?.type === 'formal') {
+        const { formal } = getLabels(tags, wpId);
+        return formal === label;
+      }
+      return false;
+    }).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+    return {
+      params: { categoria },
+      props: { articoli, categoryLabel: displayLabel },
+    };
+  });
+}
+
+const { articoli, categoryLabel } = Astro.props;
+---
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{categoryLabel} - Ombre e Luci</title>
+    <meta name="description" content={`Articoli nella categoria ${categoryLabel} su Ombre e Luci`} />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        line-height: 1.75;
+        color: #1a1a1a;
+        background: #fafafa;
+      }
+      .categoria-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+      .categoria-header {
+        margin-bottom: 2rem;
+      }
+      .categoria-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 0.5rem;
+      }
+      .categoria-count {
+        font-size: 1rem;
+        color: #666;
+      }
+      .articles-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+      }
+      @media (max-width: 768px) {
+        .articles-grid {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <div class="categoria-container">
+      <header class="categoria-header">
+        <h1 class="categoria-title">{categoryLabel}</h1>
+        <p class="categoria-count">
+          {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'}
+        </p>
+      </header>
+      <div class="articles-grid">
+        {articoli.map((article) => {
+          const articleSlug = article.data.slug ?? article.slug;
+          const { tema_label, categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
+          const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+          const articleDate = article.data.date instanceof Date
+            ? article.data.date
+            : new Date(article.data.date);
+          const wpIdStr = String(article.data.wp_id ?? '');
+          const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+          return (
+            <ArticleCard
+              title={article.data.title}
+              slug={articleSlug}
+              categoriaMenu={categoria_menu ?? undefined}
+              issue={article.data.issue_number}
+              forma={formal}
+              author={article.data.author}
+              date={articleDate}
+              image={articleImage}
+              ruoloEditoriale={ruolo_editoriale ?? undefined}
+            />
+          );
+        })}
+      </div>
+    </div>
+  </body>
+</html>

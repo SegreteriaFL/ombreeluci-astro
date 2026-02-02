@@ -1,0 +1,12 @@
+---
+title: "ArcheoCasilina – Recensione"
+date: "2022-06-06"
+author: "Lars Porsenna"
+theme: "cluster-0"
+cluster_id: 0
+image: "https://www.ombreeluci.it/wp-content/uploads/2022/03/Copertina_OeL_157_2022-206x300.jpg"
+slug: "archeocasilina-recensione"
+has_comments: false
+---
+
+<!-- Contenuto da aggiungere -->

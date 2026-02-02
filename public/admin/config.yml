@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: "blog"
+    label: "Articoli Blog"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Theme", name: "theme", widget: "string" }
+      - { label: "Cluster ID", name: "cluster_id", widget: "number" }
+      - { label: "Image", name: "image", widget: "string", required: false }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Has Comments", name: "has_comments", widget: "boolean" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+

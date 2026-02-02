@@ -1,0 +1,37 @@
+---
+title: "L'amicizia asimmetrica"
+date: 2011-06-04
+author: Padre Nicolas Buttet
+slug: lamicizia-asimmetrica
+wp_id: 35922
+original_url: "https://www.ombreeluci.it/?p=35922"
+cluster_id: 2
+has_comments: false
+umap_x: 6.018280029296875
+umap_y: 8.946762084960938
+umap_z: 11.757786750793457
+issue_number: OEL-116
+---
+
+M
+i ricordo di una giornata passata a Fede e Luce. C'erano due ragazzini che passarono tutto il pomeriggio a giocare insieme: Andrea con la sindrome di Down e Fiorenzo no. Alla sera quest’ultimo parlò della gioia che aveva provato a stare con Andrea. Gli chiesi dei loro giochi, del loro modo di viverli insieme, sorpreso che la diversità di Andrea non fosse venuta fuori. Dopo avere raccontato tutto il loro pomeriggio insieme, con cento dettagli, Fiorenzo ad un tratto mi disse:”Ma Andrea ha qualcosa di diverso...sai cosa?”
+
+### Un'amicizia ineguale
+
+Se Aristotele ha situato l'amicizia in una certa uguaglianza fra gli amici, non ha mai escluso la possibilità di un'amicizia ineguale. Per lui questa ineguaglianza risiedeva nella cultura, nello stato sociale o nell'età che rende gli amici diversi, eterogenei. L’amicizia fra “ineguali” è possibile perché non è soprattutto una questione di interesse egoista ma di bene. Essa è attenzione all’altro e non un vantaggio da trarre dalla relazione. [...] L'amicizia ha un bisogno di riconoscimento dell’altro come altro, diverso, chiede di uscire da sé per entrare nella dinamica e nella gioia del dono di sé .[...] L'amicizia dunque è apertura all’altro in quanto diverso da me. È anche occasione di unificazione della mia persona. Esco da me per andare verso l’altro e divento più me stesso in questa relazione.
+
+### Uscire da sé
+
+Amare d’amicizia, è dunque osare l’incontro...e la differenza. Riconoscere l’altro, il prossimo, richiede di uscire da sé e soprattutto dal proprio ruolo. Nella parabola del Buon Samaritano (Lc 10, 30-35) è interessante notare che quelli che ne sono incapaci, sono persone descritte secondo il loro ruolo sociale: il prete e il levita. Se sono chiuso nel mio ruolo è molto difficile che io riconosca in colui che incontro il mio prossimo. Il prossimo infatti non è chi si trova sulla mia strada ma colui verso il quale mi avvicino, disarmato io stesso e in cammino. Il sopraggiungere dell’amicizia, che è compassione e relazione, avviene al di là delle categorie sociali. Proprio perché il prossimo è estraneo, incontrato un po’ per caso sul ciglio della strada, può diventare familiare. Amare di amicizia è dunque uscire da sé e dal proprio stato per osare l’incontro così come si presenta e non come lo immagino. Se c'è una persona che si è fatta nostro prossimo, questi è Dio, il philantropus, colui che ama (filia) l’uomo. A Gesù piace chiamare i discepoli “amici”. Se Dio propone questa amicizia a tutti gli uomini, non è grazie ai nostri meriti ma proprio a causa della nostra povertà e vulnerabilità. “Sono venuto per i malati non per i sani”. Dio “da ricco che era si è fatto povero per arricchirci della sua povertà”(2Co. 8,9). Avete letto bene: arricchirci della sua povertà! Quindi, lo spogliamento diventa la condizione sine qua non dell'amicizia. Ciò che fa ostacolo all’esercizio della vera amicizia è ciò che consideriamo come ricchezza. Il sentimento di possesso, la superbia, la proprietà... L'amicizia divina diventa il modello e il luogo di tutte le relazioni di amicizia che possiamo creare. In questa prima amicizia fra Dio e l’uomo tutte le amicizie troveranno alla fine la loro forma, la loro pace, sicurezza e esemplarità. La vulnerabilità e la povertà non sono un ostacolo all'amicizia: ne sono le fondamenta. Non siamo chiamati ad un’amicizia interessata né ad un’amicizia “pronta cassa”. Ma ad un’amicizia di dono di sé e di condivisione di vita . Yves Coppens, paleontologo e scopritore del famoso fossile di Lucy, dichiarava che ciò lo affascinava di più negli studi fatti, era la scoperta di tombe sul confine del mesolitico e del neolitico. Vi aveva trovato scheletri di persone handicappate, paralizzate, incapaci di muoversi o di mangiare da sole. In una civiltà nomade, quelle persone erano state prese in carico, portate a spalla d'uomo e nutrite. Queste persone sono state sepolte e i loro corpi straziati sono stati oggetto della stessa attenzione degli altri corpi sani. Yves Coppen conclude che è quando ci si fa carico del vulnerabile che si può parlare di inizio di umanità. Se questo è vero allora il nostro mondo è in regressione con il trionfo in ogni campo della legge del più forte, dell’esclusione dei deboli.
+
+### La gratuità del tempo donato
+
+Se la vulnerabilità è il luogo dell'umano, l'amicizia deve dunque farci il suo nido. Ognuno ama ciò che gli assomiglia. E ciò che ci è più comune è proprio la nostra povertà! È illusione non riconoscerlo. La sofferenza, l’handicap richiedono compassione, primo movimento verso l’altro e fondamento dell'amicizia. Questa povertà accettata ci mette allora in relazione con la verità del nostro essere. Quando ci incontriamo in questa profondità, diventiamo autenticamente solidali con l’altro, anche lui povero e vulnerabile. Scopriamo che siamo chiamati ad arricchirci mutuamente, nello scambio di ciò che siamo e non di ciò che abbiamo. Ciò che salva le persone diverse dal dramma dell’indifferenza è dunque l’amicizia. Ma questa relazione assumerà la forma particolare e sconvolgente dell’amicizia quando questo incontro si concretizza nel tempo e nella realtà. L'amicizia non è virtuale, come in facebook, ma concreta e incarnata. Diceva l’umorista Gad Elmalah: “Con il computer ci abbracciamo tutti... Ma quando si è in presenza l’uno dell’altro ci si tocca la mano... da lontano”. L’amicizia è la gratuità del tempo donato che libera dalla fretta del quotidiano e che dona alla fugacità dell'istante che passa, il suo peso d’eternità. Se la si guarda da più vicino, l'amicizia è il solo atteggiamento che possa oltrepassare l’ineguaglianza delle persone. Non solo essa assume la differenza, ma ne fa la ragione stessa della comunione. L'amicizia asimmetrica, se oso questa espressione, diventa il modello di ogni amicizia. Se l'amicizia è troppo simmetrica, essa si trasforma in relazione fusionale.
+
+### Accoglienza ma non negazione della differenza
+
+Chiudo con un’ultima nota che mi viene dall’esperienza dell’amicizia con Manuela Maria, che ha un ritardo mentale. Questa amicizia vera, profonda non esclude un ruolo educativo, quello di vegliare sulla verità della relazione. A chi non è in situazione di handicap spetta di definire i limiti di un contenitore, di accettare alcune frustrazioni per salvare l'amicizia da ciò che potrebbe sfigurarla. Si tratta di dare ordine all’affettività perché l'amicizia possa diventare effettiva crescita reciproca delle persone nell'amore. Questo contenitore e questi limiti, lungi dall’essere un ostacolo all'amicizia, ne sono le condizioni stesse. L'accoglienza dell'altro così com'è non significa negare la differenza. L’amicizia non è commiserazione o pietà sulla sorte dell’altro, ma è perfettamente lucida, più esigente di quanto il cuore vorrebbe, più libera e semplice di quanto la ragione stabilirebbe. Dal canto suo Manuela Maria mi libera, mi sblocca, mi fa veramente pervenire all’infanzia spirituale che è la mia sola e vera dignità umana.
+*Nicolas Buttet*
+, 2011
+
+Ombres et Lumiére, n. 179

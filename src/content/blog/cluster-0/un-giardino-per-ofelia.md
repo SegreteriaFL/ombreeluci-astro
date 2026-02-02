@@ -1,0 +1,20 @@
+---
+title: Un giardino per Ofelia
+date: 2020-02-10
+author: Giulia Alberico
+slug: un-giardino-per-ofelia
+wp_id: 16244
+original_url: "https://www.ombreeluci.it/?p=16244"
+cluster_id: 0
+has_comments: false
+umap_x: 8.802786827087402
+umap_y: 9.204265594482422
+umap_z: 5.933535575866699
+issue_number: OEL-152
+---
+
+Pietro Floridia, fondatore nel 1994 del Teatro dell’Argine di Bologna, è autore e regista di *Tieragartenstrasse 4 Un giardino per Ofelia* (2006), pièce teatrale pubblicata per i tipi di una piccola casa editrice napoletana, Filema. Nel costruire questa pièce Floridia ha attinto a piene mani a una ricca documentazione storica, soprattutto alle deposizioni raccolte negli atti del processo di Norinberga. Sulla scena due soli personaggi: Gertrud Danicher e Ofelia von Pohlisch. La prima è una delle infermiere dell’ospedale di Stato Langehorn di Amburgo, dove ha prestato servizio dal settembre 1940 al giugno 1945. Ofelia, invece, è una giovanissima adolescente, figlia di un alto militare tedesco, affetta da un ritardo mentale che la relega all’età di otto-nove anni e della cui soppressione è accusata Gertrud. Gertrud è uno degli ingranaggi dell’infame programma T4. Ha il compito di rastrellare adulti e bambini con disabilità, la cui vita è, secondo il programma T4, indegna di essere vissuta per avviarli a una morte lucidamente programmata e organizzata secondo le direttive del Führer. Un programma molto ben oliato, capace di convincere i familiari delle creature “indegne” ad affidarle agli ospedali pubblici col miraggio di fantomatiche cure mediche. Nel programma invece era accuratamente prevista la lenta soppressione dei ricoverati, la immediata cremazione dei corpi, l’invio di una lettera alla famiglia con la notizia della morte del loro caro per sopravvenute complicazioni. Una vera e propria macchina di sterminio di cui si venne a conoscenza per gradi, tardi e male. Uno sterminio su scala industriale con crematori situati in luoghi aperti e lontani da centri abitati, furgoni col loro penoso carico che si muovevano solo in ore notturne, primo utilizzo di camere a gas, di farmaci letali, falsi certificati di morte da inviare alla famiglia con riferimento alle cause più varie, dalla tubercolosi all’infarto. L’ufficio centrale di questa orribile macchina di morte è a Berlino, in Tiergartenstrasse 4. Gertrud, sulla scena, è sottoposta ad interrogatorio da parte di un tribunale alleato e ripercorre ciò che è stato, ciò che ha visto e compiuto, con lucidità. Ma in modo reciso nega di aver avviato alla morte Ofelia e svela il sorprendente legame di affetto che si era instaurato con la bambina che avrebbe dovuto internare. Sollecitata dai magistrati, Gertrud ripercorre tutta la storia del programma T4, compresi gli interventi di personalità eminenti della Chiesa cattolica, come il vescovo von Galen, detto il leone di Munster, che avevano indotto il Führer nel 941 a chiudere ufficialmente il programma. Ma si trattò di una interruzione di facciata perché le soppressioni degli “indegni” continuarono non più all’interno di appositi centri ma nella normale routine di ogni ospedale statale. Per il decimillesimo paziente soppresso c’erano stati festeggiamenti ad Hadamar con distribuzione di razioni extra di alcolici per il personale addetto. Parallelamente alla deposizione di Gertrud e intrecciandosi a essa, c’è il delicato e ingenuo discorrere di Ofelia, chiusa in un suo mondo incantato, che parla ai fiori e alle piante del suo giardino, nella bella casa dove attende il ritorno del padre che, si saprà, è morto in guerra. Ofelia è piena di grazia e delicatezza, coltiva le rose, i ciclamini, i gigli, coltiva la poetica fragilità del bello in mezzo all’orrore che domina il mondo. La sua “follia” è l’unica luce in tanto Male e finirà per smuovere l’animo e la coscienza della donna che avrebbe dovuto consegnarla alla morte. Getrud afferma di aver salvato Ofelia, nell’unico modo che la logica ferrea dell’ingranaggio di cui fa parte le ha potuto permettere.
+
+Iscriviti e ricevila ogni quindici giorni
+
+Un nuovo post ogni due settimane
