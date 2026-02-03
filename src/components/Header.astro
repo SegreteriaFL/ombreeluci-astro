@@ -8,7 +8,7 @@ import { getThemesWithSlugs } from '../config/taxonomy.js';
 const numeriPath = join(process.cwd(), 'scripts_and_data', 'datasets', 'numeri_rivista', 'numeri_wp_FINAL.json');
 const numeriData = JSON.parse(readFileSync(numeriPath, 'utf-8'));
 
-// Trova ultimo numero
+// Ultimo numero
 const ultimoNumero = numeriData
   .sort((a, b) => {
     const annoA = a.anno_pubblicazione || 0;
@@ -17,348 +17,419 @@ const ultimoNumero = numeriData
     return (b.numero_progressivo || 0) - (a.numero_progressivo || 0);
   })[0];
 
-// Temi: categoria_menu (alias da FINAL_V4)
 const temi = getThemesWithSlugs();
-// Sezioni: Forme (colonna sinistra) e Navigazione (colonna destra) – ordine tassativo
 const sezioniForme = [
   { nome: 'Editoriali', slug: 'editoriali' },
   { nome: 'Testimonianze', slug: 'testimonianze' },
   { nome: 'Interviste', slug: 'interviste' },
   { nome: 'Recensioni', slug: 'recensioni' },
 ];
-const sezioniNavigazione = [
+const archivioLinks = [
   { nome: 'Ultimi articoli', slug: '/' },
   { nome: 'Archivio completo', slug: '/archivio' },
   { nome: 'Autori', slug: '/autori' },
-  { nome: 'Chi siamo', slug: '/about' },
 ];
-
-const currentPath = Astro.url.pathname;
 ---
 
-<header class="header">
-  <div class="header-top">
-    <div class="header-container">
-      <div class="header-left">
-        <a href="/" class="logo-link">
-          <img src={logo.src} alt="Ombre e Luci" class="logo" />
-        </a>
-      </div>
-      
-      <div class="header-center">
-        <form class="search-form" action="/search" method="get">
-          <input 
-            type="search" 
-            name="q" 
-            placeholder="Cerca articoli..." 
-            class="search-input"
-            aria-label="Cerca articoli"
-          />
-          <button type="submit" class="search-button" aria-label="Cerca">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="11" cy="11" r="8"></circle>
-              <path d="m21 21-4.35-4.35"></path>
+<header class="header" id="site-header" transition:persist="site-header">
+  <div class="header-bar">
+    <div class="header-inner">
+      <a href="/" class="logo-link" aria-label="Ombre e Luci - Home">
+        <img src={logo.src} alt="Ombre e Luci" class="logo" />
+      </a>
+
+      <form class="search-form" action="/search" method="get" aria-label="Cerca nel sito">
+        <label for="header-search" class="search-label">Cerca nel sito</label>
+        <input
+          id="header-search"
+          type="search"
+          name="q"
+          placeholder="Cerca nel sito..."
+          class="search-input"
+          aria-label="Cerca nel sito"
+        />
+        <button type="submit" class="search-button" aria-label="Cerca nel sito">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+        </button>
+      </form>
+
+      <div class="header-end">
+        <nav class="header-nav" aria-label="Servizi e utilità">
+          <a href="/chi-siamo" class="header-link">Chi siamo</a>
+          <a href="/#newsletter" class="header-link">Newsletter</a>
+        </nav>
+        <a href="/dona" class="header-cta">Contribuisci</a>
+        <button type="button" class="menu-trigger" id="menu-trigger" aria-label="Apri menu" aria-expanded="false" aria-controls="mega-menu">
+          <span class="menu-trigger-icon" aria-hidden="true">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+          <span class="menu-trigger-close" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <path d="M18 6 6 18M6 6l12 12"/>
             </svg>
-          </button>
-        </form>
-      </div>
-      
-      <div class="header-right">
-        <a href="/about" class="header-link">About</a>
-        <a href="/dona" class="header-button">Dona</a>
-        <button class="menu-toggle" id="menu-toggle" aria-label="Apri menu" aria-expanded="false">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
+          </span>
+          <span class="menu-trigger-label">Menù</span>
         </button>
       </div>
     </div>
   </div>
-  
-  <!-- Mega Menu Overlay -->
-  <div class="mega-menu" id="mega-menu">
-    <div class="mega-menu-container">
-      <div class="mega-menu-grid">
-        <!-- Blocco 1: Temi (2 colonne) -->
-        <div class="mega-menu-block">
-          <h3 class="mega-menu-title">Temi</h3>
-          <ul class="mega-menu-list mega-menu-list--grid">
-            {temi.map((cat) => (
-              <li>
-                <a href={`/categoria/${cat.slug}`} class="mega-menu-link">
-                  {cat.nome}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <!-- Blocco 2: Sezioni (Forme | Navigazione, 2 colonne) -->
-        <div class="mega-menu-block mega-menu-sezioni">
-          <h3 class="mega-menu-title">Sezioni</h3>
-          <div class="mega-menu-sezioni-grid">
-            <ul class="mega-menu-list">
-              {sezioniForme.map((cat) => (
+
+  <div class="mega-menu" id="mega-menu" role="dialog" aria-modal="true" aria-label="Menu di navigazione" aria-hidden="true">
+    <div class="mega-menu-inner">
+      <div class="mega-menu-container">
+        <div class="mega-menu-grid">
+          <div class="mega-menu-block">
+            <h3 class="mega-menu-title">Temi</h3>
+            <ul class="mega-menu-list mega-menu-list--grid">
+              {temi.map((cat) => (
                 <li>
-                  <a href={`/categoria/${cat.slug}`} class="mega-menu-link">
-                    {cat.nome}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <ul class="mega-menu-list">
-              {sezioniNavigazione.map((item) => (
-                <li>
-                  <a href={item.slug} class="mega-menu-link">
-                    {item.nome}
-                  </a>
+                  <a href={`/categoria/${cat.slug}`} class="mega-menu-link">{cat.nome}</a>
                 </li>
               ))}
             </ul>
           </div>
-        </div>
-        <!-- Blocco 3: Ultimo Numero (copertina a sinistra, metadati + CTA a destra) -->
-        <div class="mega-menu-block mega-menu-last-issue">
-          <h3 class="mega-menu-title">Ultimo Numero</h3>
-          {ultimoNumero ? (
-            <div class="last-issue-inner">
-              <a href={`/archivio/${String(ultimoNumero.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-')}`} class="last-issue-cover-wrap">
-                {ultimoNumero.copertina_url && (
-                  <img 
-                    src={ultimoNumero.copertina_url} 
-                    alt={ultimoNumero.titolo_numero}
-                    class="last-issue-cover"
-                    loading="lazy"
-                  />
-                )}
-              </a>
-              <div class="last-issue-meta">
-                <p class="last-issue-label">Numero {ultimoNumero.numero_progressivo ?? ''} · {ultimoNumero.anno_pubblicazione ?? ''}</p>
-                <h4 class="last-issue-title">{ultimoNumero.titolo_numero}</h4>
-                {ultimoNumero.periodo_label && (
-                  <p class="last-issue-period">{ultimoNumero.periodo_label}</p>
-                )}
-                <a href="/dona" class="mega-menu-cta">Sostieni Ombre e Luci →</a>
+          <div class="mega-menu-block">
+            <h3 class="mega-menu-title">Sezioni</h3>
+            <ul class="mega-menu-list">
+              {sezioniForme.map((cat) => (
+                <li>
+                  <a href={`/categoria/${cat.slug}`} class="mega-menu-link">{cat.nome}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div class="mega-menu-block">
+            <h3 class="mega-menu-title">Archivio</h3>
+            <ul class="mega-menu-list">
+              {archivioLinks.map((item) => (
+                <li>
+                  <a href={item.slug} class="mega-menu-link">{item.nome}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div class="mega-menu-block mega-menu-last-issue">
+            <h3 class="mega-menu-title">Ultimo Numero</h3>
+            {ultimoNumero ? (
+              <div class="last-issue-inner">
+                <a href={`/archivio/${String(ultimoNumero.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-')}`} class="last-issue-cover-wrap">
+                  {ultimoNumero.copertina_url && (
+                    <img
+                      src={ultimoNumero.copertina_url}
+                      alt={ultimoNumero.titolo_numero}
+                      class="last-issue-cover"
+                      loading="lazy"
+                    />
+                  )}
+                </a>
+                <div class="last-issue-meta">
+                  <p class="last-issue-label">Numero {ultimoNumero.numero_progressivo ?? ''} · {ultimoNumero.anno_pubblicazione ?? ''}</p>
+                  <h4 class="last-issue-title">{ultimoNumero.titolo_numero}</h4>
+                  {ultimoNumero.periodo_label && <p class="last-issue-period">{ultimoNumero.periodo_label}</p>}
+                  <a href="/dona" class="mega-menu-cta">Sostieni Ombre e Luci →</a>
+                </div>
               </div>
-            </div>
-          ) : (
-            <a href="/dona" class="mega-menu-cta">Sostieni Ombre e Luci →</a>
-          )}
+            ) : (
+              <a href="/dona" class="mega-menu-cta">Sostieni Ombre e Luci →</a>
+            )}
+          </div>
         </div>
       </div>
     </div>
   </div>
-  
-  <!-- Overlay backdrop -->
-  <div class="menu-backdrop" id="menu-backdrop"></div>
 </header>
 
-<style>
+<style is:global>
   :root {
-    --accent-color: #ff1053;
-    --accent-hover: #e00e4a;
+    --header-height: 72px;
   }
+</style>
 
+<style>
   .header {
-    position: relative;
-    background: #fff;
-    border-bottom: 1px solid #e5e5e5;
-    z-index: 1000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1100;
+    background: #ffffff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
   }
 
-  .header-top {
-    padding: 1.5rem 0;
-  }
-
-  .header-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+  .header-bar {
+    height: var(--header-height);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
   }
 
-  .header-left {
-    flex-shrink: 0;
+  .header-inner {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
   }
 
   .logo-link {
-    display: block;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    background: transparent !important;
   }
 
   .logo {
-    max-width: 200px;
-    height: auto;
+    max-height: 36px;
+    width: auto;
     display: block;
-  }
-
-  .header-center {
-    flex: 1;
-    max-width: 400px;
-    margin: 0 auto;
+    background: transparent !important;
+    background-color: transparent !important;
   }
 
   .search-form {
     position: relative;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
+    width: 360px;
+    max-width: 400px;
+    margin: 0 0.5rem;
+  }
+
+  .header-end {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  .search-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
   }
 
   .search-input {
     width: 100%;
-    padding: 0.5rem 1rem 0.5rem 2.5rem;
-    border: 1px solid #e5e5e5;
-    border-radius: 0;
+    height: 40px;
+    padding: 0 2.75rem 0 0.75rem;
+    border: 1px solid var(--border-color, #e8e6e3);
+    border-radius: 6px;
     font-family: 'Raleway', system-ui, sans-serif;
     font-size: 0.875rem;
+    color: var(--text-color, #2d2d2d);
+    background: #ffffff;
     outline: none;
-    transition: border-color 0.3s ease-in-out;
-    background: transparent;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .search-input::placeholder {
+    color: var(--text-secondary, #5c5c5c);
   }
 
   .search-input:focus {
     border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(196, 30, 58, 0.12);
   }
 
   .search-button {
     position: absolute;
-    left: 0.5rem;
-    background: none;
-    border: none;
-    color: #666;
-    cursor: pointer;
-    padding: 0.25rem;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 0.3s ease-in-out;
+    background: none;
+    border: none;
+    color: var(--text-secondary, #5c5c5c);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color 0.2s ease;
   }
 
   .search-button:hover {
     color: var(--accent-color);
   }
 
-  .header-right {
+  .header-nav {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.25rem;
     flex-shrink: 0;
   }
 
   .header-link {
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.875rem;
-    font-weight: 400;
-    color: #1a1a1a;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--text-color, #2d2d2d);
     text-decoration: none;
-    transition: color 0.3s ease-in-out;
+    transition: color 0.2s ease;
+    white-space: nowrap;
   }
 
   .header-link:hover {
     color: var(--accent-color);
   }
 
-  .header-button {
+  .header-cta {
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     font-weight: 600;
-    color: #fff;
+    color: #ffffff;
     background: var(--accent-color);
     padding: 0.5rem 1.25rem;
-    border-radius: 8px;
+    border-radius: 6px;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    transition: background 0.2s ease, transform 0.2s ease;
+    flex-shrink: 0;
   }
 
-  .header-button:hover {
+  .header-cta:hover {
     background: var(--accent-hover);
     transform: translateY(-1px);
   }
 
-  .menu-toggle {
+  .menu-trigger {
     display: flex;
-    flex-direction: column;
-    gap: 4px;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0.5rem;
-    width: 32px;
-    height: 32px;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--text-color, #2d2d2d);
+    transition: color 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .menu-trigger:hover {
+    color: var(--accent-color);
+  }
+
+  .menu-trigger-icon,
+  .menu-trigger-close {
+    display: flex;
+    align-items: center;
     justify-content: center;
+    width: 24px;
+    height: 24px;
+  }
+
+  .menu-trigger-close {
+    display: none;
+  }
+
+  .menu-trigger[aria-expanded="true"] .menu-trigger-icon {
+    display: none;
+  }
+
+  .menu-trigger[aria-expanded="true"] .menu-trigger-close {
+    display: flex;
   }
 
   .hamburger-line {
-    width: 24px;
-    height: 2px;
-    background: #333;
-    transition: all 0.3s ease;
-  }
-
-  .menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(1) {
-    transform: rotate(45deg) translate(6px, 6px);
-  }
-
-  .menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(2) {
-    opacity: 0;
-  }
-
-  .menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px);
-  }
-
-  /* Mega Menu – sfondo bianco solido, copre contenuto senza trasparenze */
-  .mega-menu {
     position: absolute;
-    top: 100%;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 1px;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+  }
+
+  .menu-trigger .menu-trigger-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+
+  .menu-trigger-icon .hamburger-line {
+    position: absolute;
+    left: 2px;
+  }
+
+  .menu-trigger-icon .hamburger-line:nth-child(1) {
+    top: 6px;
+  }
+
+  .menu-trigger-icon .hamburger-line:nth-child(2) {
+    top: 11px;
+  }
+
+  .menu-trigger-icon .hamburger-line:nth-child(3) {
+    top: 16px;
+  }
+
+  /* ---- Megamenu: tutta la larghezza, altezza fino a fine contenuto ---- */
+  .mega-menu {
+    position: fixed;
+    top: var(--header-height);
     left: 0;
     right: 0;
-    background: #fff;
-    border-bottom: 1px solid #e5e5e5;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1090;
+    background: #ffffff;
     max-height: 0;
     overflow: hidden;
-    opacity: 0;
-    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
-    z-index: 999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .mega-menu.active {
-    max-height: 520px;
-    opacity: 1;
+  .mega-menu[aria-hidden="false"] {
+    max-height: 85vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mega-menu-inner {
+    padding: 2rem 0 4rem;
   }
 
   .mega-menu-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem 1.25rem 3rem;
+    padding: 0 1.5rem;
   }
 
   .mega-menu-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1.05fr;
-    gap: 1.25rem 1.75rem;
+    grid-template-columns: 1fr 0.75fr 0.75fr 1.5fr;
+    gap: 2rem 2.5rem;
     align-items: start;
   }
 
   .mega-menu-block {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
   }
 
-  /* Titoli sezioni: grigio #777, maiuscolo, 0.75rem, senza linee sotto */
   .mega-menu-title {
     font-family: 'Raleway', system-ui, sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.15em;
     color: #777;
-    margin-bottom: 0.45rem;
+    margin: 0 0 0.25rem;
     text-transform: uppercase;
-    text-decoration: none;
-    border: none;
   }
 
   .mega-menu-list {
@@ -367,70 +438,39 @@ const currentPath = Astro.url.pathname;
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 0.65rem;
   }
 
   .mega-menu-list--grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px 0.7rem;
+    gap: 0.5rem 1rem;
   }
 
-  .mega-menu-sezioni-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0 1rem;
-  }
-
-  .mega-menu-sezioni-grid .mega-menu-list {
-    gap: 12px;
-  }
-
-  /* Voci menu: nero #1a1a1a, Raleway, 0.9rem */
   .mega-menu-link {
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.9375rem;
     font-weight: 400;
-    line-height: 1.35;
-    color: #1a1a1a;
+    line-height: 1.4;
+    color: var(--text-color, #2d2d2d);
     text-decoration: none;
     transition: color 0.2s ease;
     display: block;
-    padding: 0;
-    margin-bottom: 0;
   }
 
   .mega-menu-link:hover {
-    color: #ff1053;
+    color: var(--accent-color);
   }
 
   .mega-menu-last-issue {
-    border-left: 1px solid #e5e5e5;
-    padding-left: 1rem;
+    border-left: 1px solid var(--border-color, #e8e6e3);
+    padding-left: 1.25rem;
   }
 
-  /* CTA Sostieni: link elegante grassetto rosso #ff1053 con freccia →, non pulsante */
-  .mega-menu-cta {
-    display: inline-block;
-    margin-top: 0.5rem;
-    padding: 0.15rem 0;
-    font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: #ff1053;
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-
-  .mega-menu-cta:hover {
-    color: #e00e4a;
-  }
-
-  /* Ultimo Numero: 2 colonne – copertina 130px, metadati + CTA a destra */
   .last-issue-inner {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 0.75rem;
+    gap: 1rem;
     align-items: start;
   }
 
@@ -442,21 +482,21 @@ const currentPath = Astro.url.pathname;
   }
 
   .last-issue-cover-wrap:hover {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
 
   .last-issue-cover {
-    width: 170px;
+    width: 140px;
     height: auto;
     display: block;
-    border-radius: 4px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
 
   .last-issue-meta {
     display: flex;
     flex-direction: column;
-    gap: 0.2rem;
+    gap: 0.25rem;
     min-width: 0;
   }
 
@@ -471,152 +511,165 @@ const currentPath = Astro.url.pathname;
 
   .last-issue-title {
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.9375rem;
     font-weight: 600;
-    color: #1a1a1a;
+    color: var(--text-color, #2d2d2d);
     margin: 0;
-    line-height: 1.25;
+    line-height: 1.3;
   }
 
   .last-issue-period {
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.75rem;
-    color: #666;
+    font-size: 0.8rem;
+    color: var(--text-secondary, #5c5c5c);
     margin: 0;
   }
 
-  .menu-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    z-index: 998;
+  .mega-menu-cta {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
   }
 
-  .menu-backdrop.active {
-    opacity: 1;
-    visibility: visible;
+  .mega-menu-cta:hover {
+    color: var(--accent-hover);
   }
 
-  /* Responsive */
+  /* ---- Responsive: mobile IlPost-style ---- */
   @media (max-width: 1024px) {
     .mega-menu-grid {
       grid-template-columns: 1fr 1fr;
-      gap: 1rem 1.5rem;
+      gap: 1.5rem 1.5rem;
     }
 
     .mega-menu-last-issue {
       grid-column: 1 / -1;
       border-left: none;
-      border-top: 1px solid #e5e5e5;
+      border-top: 1px solid var(--border-color, #e8e6e3);
       padding-left: 0;
-      padding-top: 0.75rem;
-    }
-
-    .last-issue-inner {
-      gap: 0.6rem;
+      padding-top: 1rem;
     }
 
     .last-issue-cover {
-      width: 90px;
+      width: 100px;
     }
   }
 
   @media (max-width: 768px) {
-    .header-container {
+    :root {
+      --header-height: 64px;
+    }
+
+    .header-inner {
       padding: 0 1rem;
-      gap: 1rem;
+      gap: 0.75rem;
     }
 
     .logo {
-      max-width: 150px;
+      max-height: 32px;
+      background: transparent !important;
+      background-color: transparent !important;
     }
 
-    .header-center {
+    .search-form {
+      max-width: 180px;
+      margin: 0;
+    }
+
+    .search-input {
+      height: 36px;
+      font-size: 0.8125rem;
+    }
+
+    .header-nav {
       display: none;
     }
 
-    .header-link {
-      display: none;
-    }
-
-    .header-button {
-      padding: 0.5rem 1rem;
+    .header-cta {
+      padding: 0.45rem 1rem;
       font-size: 0.875rem;
     }
 
+    .menu-trigger-label {
+      display: none;
+    }
+
+    .mega-menu-inner {
+      padding: 1.5rem 0 3rem;
+    }
+
     .mega-menu-container {
-      padding: 0.75rem 1rem;
+      padding: 0 1rem;
     }
 
     .mega-menu-grid {
       grid-template-columns: 1fr;
-      gap: 0.75rem;
+      gap: 1.25rem;
     }
 
     .mega-menu-list--grid {
       grid-template-columns: 1fr 1fr;
-      gap: 0.18rem 0.7rem;
-    }
-
-    .mega-menu-sezioni-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .mega-menu-last-issue {
-      border-top: 1px solid #e5e5e5;
-      padding-top: 0.75rem;
+      gap: 0.4rem 0.75rem;
     }
 
     .last-issue-cover {
-      width: 72px;
+      width: 80px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .search-form {
+      display: none;
     }
 
-    .mega-menu-cta {
-      margin-top: 0.4rem;
+    .header-cta {
+      font-size: 0.8125rem;
+      padding: 0.4rem 0.75rem;
     }
   }
 </style>
 
 <script>
-  const menuToggle = document.getElementById('menu-toggle');
-  const megaMenu = document.getElementById('mega-menu');
-  const menuBackdrop = document.getElementById('menu-backdrop');
-  let isMenuOpen = false;
+  (function () {
+    const trigger = document.getElementById('menu-trigger');
+    const megaMenu = document.getElementById('mega-menu');
+    let isOpen = false;
 
-  function toggleMenu() {
-    isMenuOpen = !isMenuOpen;
-    
-    if (isMenuOpen) {
-      megaMenu.classList.add('active');
-      menuBackdrop.classList.add('active');
-      menuToggle.setAttribute('aria-expanded', 'true');
+    function openMenu() {
+      isOpen = true;
+      megaMenu?.setAttribute('aria-hidden', 'false');
+      trigger?.setAttribute('aria-expanded', 'true');
+      trigger?.setAttribute('aria-label', 'Chiudi menu');
       document.body.style.overflow = 'hidden';
-    } else {
-      megaMenu.classList.remove('active');
-      menuBackdrop.classList.remove('active');
-      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+
+    function closeMenu() {
+      isOpen = false;
+      megaMenu?.setAttribute('aria-hidden', 'true');
+      trigger?.setAttribute('aria-expanded', 'false');
+      trigger?.setAttribute('aria-label', 'Apri menu');
       document.body.style.overflow = '';
     }
-  }
 
-  if (menuToggle) {
-    menuToggle.addEventListener('click', toggleMenu);
-  }
-
-  if (menuBackdrop) {
-    menuBackdrop.addEventListener('click', toggleMenu);
-  }
-
-  // Chiudi menu con ESC
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && isMenuOpen) {
-      toggleMenu();
+    function toggleMenu() {
+      isOpen ? closeMenu() : openMenu();
     }
-  });
+
+    trigger?.addEventListener('click', toggleMenu);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && isOpen) closeMenu();
+    });
+
+    megaMenu?.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        closeMenu();
+      });
+    });
+  })();
 </script>

@@ -1,0 +1,61 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import AboutSidebar from '../../components/AboutSidebar.astro';
+import '../../styles/global.css';
+---
+
+<html lang="it">
+  <head>
+    <ViewTransitions />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Rivista - Chi Siamo - Ombre e Luci</title>
+  </head>
+  <body>
+    <Header />
+    <main class="site-main">
+      <div class="about-layout container">
+        <AboutSidebar active="la-rivista" />
+        <div class="about-page-content">
+          <h1>La Rivista</h1>
+          <p>Ombre e Luci è una rivista che da oltre quarant'anni accompagna le persone con disabilità, le loro famiglie e le comunità che li accolgono, offrendo riflessioni, testimonianze e strumenti per vivere insieme la diversità come una ricchezza.</p>
+          <p>Attraverso articoli, interviste, recensioni e approfondimenti, la rivista esplora temi legati alla disabilità, all'inclusione, alla spiritualità e alla vita comunitaria.</p>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .about-layout {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .about-page-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .about-page-content h1 {
+    margin-bottom: 1rem;
+  }
+
+  .about-page-content p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 768px) {
+    .about-layout {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+</style>

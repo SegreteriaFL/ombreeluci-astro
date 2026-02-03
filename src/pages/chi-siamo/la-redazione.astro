@@ -1,0 +1,61 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import AboutSidebar from '../../components/AboutSidebar.astro';
+import '../../styles/global.css';
+---
+
+<html lang="it">
+  <head>
+    <ViewTransitions />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Redazione - Chi Siamo - Ombre e Luci</title>
+  </head>
+  <body>
+    <Header />
+    <main class="site-main">
+      <div class="about-layout container">
+        <AboutSidebar active="la-redazione" />
+        <div class="about-page-content">
+          <h1>La Redazione</h1>
+          <p>La redazione di Ombre e Luci è composta da un team di professionisti, volontari e collaboratori che condividono la passione per il giornalismo di qualità e l'impegno per i temi dell'inclusione e della disabilità.</p>
+          <p>Collaborano con la rivista autori, giornalisti, esperti e testimoni che portano la loro esperienza e competenza per offrire ai lettori contenuti sempre attuali e di valore.</p>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .about-layout {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .about-page-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .about-page-content h1 {
+    margin-bottom: 1rem;
+  }
+
+  .about-page-content p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 768px) {
+    .about-layout {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+</style>

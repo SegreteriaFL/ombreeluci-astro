@@ -1,0 +1,97 @@
+---
+export interface Props {
+  active?: string; // path segment o slug della pagina corrente (es. 'la-rivista', 'contatti')
+}
+
+const { active = '' } = Astro.props;
+
+const links = [
+  { label: 'La Rivista', href: '/chi-siamo/la-rivista', slug: 'la-rivista' },
+  { label: 'La Redazione', href: '/chi-siamo/la-redazione', slug: 'la-redazione' },
+  { label: 'Redazione storica', href: '/chi-siamo/redazione-storica', slug: 'redazione-storica' },
+  { label: 'Collaboratori', href: '/chi-siamo/collaboratori', slug: 'collaboratori' },
+  { label: 'Hanno scritto per noi', href: '/chi-siamo/hanno-scritto-per-noi', slug: 'hanno-scritto-per-noi' },
+  { label: 'Contatti', href: '/chi-siamo/contatti', slug: 'contatti' },
+];
+---
+
+<nav class="about-sidebar" aria-label="Sezioni Chi siamo">
+  <ul class="about-sidebar-list">
+    {links.map((item) => (
+      <li>
+        <a
+          href={item.href}
+          class={`about-sidebar-link ${active === item.slug ? 'about-sidebar-link--active' : ''}`}
+        >
+          {item.label}
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+<style>
+  .about-sidebar {
+    flex-shrink: 0;
+    width: 220px;
+  }
+
+  .about-sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .about-sidebar-list li {
+    margin-bottom: 0.25rem;
+  }
+
+  .about-sidebar-link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  .about-sidebar-link:hover {
+    color: var(--text-color);
+    background: var(--border-color);
+  }
+
+  .about-sidebar-link--active {
+    font-weight: 600;
+    color: var(--accent-color);
+    background: rgba(196, 30, 58, 0.08);
+  }
+
+  .about-sidebar-link--active:hover {
+    color: var(--accent-hover);
+  }
+
+  @media (max-width: 768px) {
+    .about-sidebar {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .about-sidebar-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .about-sidebar-list li {
+      margin-bottom: 0;
+    }
+
+    .about-sidebar-link {
+      padding: 0.4rem 0.6rem;
+      font-size: 0.875rem;
+    }
+  }
+</style>

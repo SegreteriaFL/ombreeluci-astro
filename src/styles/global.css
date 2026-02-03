@@ -1,40 +1,66 @@
 /* ============================================
    CSS GLOBALE - Ombre e Luci
-   Stile elegante ispirato a iltascabile.it
+   Eleganza invisibile (Medium / Il Tascabile)
    ============================================ */
 
-/* Import Raleway - deve precedere ogni altra regola */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
-
-/* Variabili CSS - Colore Accent Unico */
-:root {
-  --accent-color: #ff1053;
-  --accent-hover: #e00e4a;
-  --text-color: #1a1a1a;
-  --text-secondary: #666;
-  --bg-color: #ffffff;
-  --bg-light: #fafafa;
-  --border-color: #e5e5e5;
+/* Raleway locale - public/fonts */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/raleway-latin.woff2') format('woff2');
 }
 
-/* Reset Base */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/raleway-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/raleway-latin.woff2') format('woff2');
+}
+
+/* Colori: contrasto elevato, niente bianco ottico, grigio antracite per testi */
+:root {
+  --accent-color: #c41e3a;
+  --accent-hover: #a01930;
+  --text-color: #2d2d2d;
+  --text-secondary: #5c5c5c;
+  --bg-color: #fafaf8;
+  --bg-light: #f5f5f3;
+  --bg-card: #fdfcfb;
+  --border-color: #e8e6e3;
+  --footer-height: 480px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Typography Globale */
 body {
   font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-  line-height: 1.75;
+  font-size: 18px;
+  line-height: 1.7;
   color: var(--text-color);
   background: var(--bg-light);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  z-index: 0;
 }
 
-/* Heading Styles */
+/* Header: stesso stile su tutte le pagine; con ViewTransitions usa transition:persist per evitare salti */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', system-ui, -apple-system, sans-serif;
   font-weight: 700;
@@ -43,15 +69,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  font-weight: 700;
   letter-spacing: -0.02em;
-  font-weight: 800;
+  font-size: clamp(2rem, 5vw, 3rem);
 }
 
 h2, h3, h4, h5, h6 {
   letter-spacing: -0.01em;
 }
 
-/* Pulsanti Coerenti - Stile Unificato */
 button,
 a.button,
 .button,
@@ -67,7 +93,7 @@ input[type="button"] {
   display: inline-block;
   transition: all 0.3s ease-in-out;
   background: var(--accent-color);
-  color: #ffffff;
+  color: #fff;
   font-size: 0.9375rem;
 }
 
@@ -78,19 +104,8 @@ input[type="submit"]:hover,
 input[type="button"]:hover {
   background: var(--accent-hover);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(255, 16, 83, 0.2);
-  transition: all 0.3s ease-in-out;
 }
 
-button:active,
-a.button:active,
-.button:active,
-input[type="submit"]:active,
-input[type="button"]:active {
-  transform: translateY(0);
-}
-
-/* Link Styles */
 a {
   color: var(--accent-color);
   text-decoration: none;
@@ -102,79 +117,50 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Spaziatura Generosa tra Sezioni */
-section,
-.section {
-  margin-bottom: 4rem;
-}
-
-article,
-.article {
-  margin-bottom: 3rem;
-}
-
-/* Container Base */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-/* Utility Classes */
-.text-center {
-  text-align: center;
+/* Main: sfondo crema. Il footer segue in flusso e si “rivela” scrollando in fondo. */
+.site-main {
+  position: relative;
+  z-index: 2;
+  background-color: var(--bg-light);
+  min-height: 40vh;
+  isolation: isolate;
 }
 
-.text-left {
-  text-align: left;
+@media (min-width: 769px) {
+  .site-main::after {
+    content: '';
+    display: block;
+    height: var(--footer-height);
+    background-color: var(--bg-light);
+  }
 }
 
-.mt-large {
-  margin-top: 4rem;
-}
-
-.mb-large {
-  margin-bottom: 4rem;
-}
-
-/* Immagini responsive ovunque */
 img {
   max-width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-/* Responsive - Mobile rescue */
+/* Margini laterali ampi su mobile per lettura riposante */
 @media (max-width: 768px) {
   body {
-    font-size: 1rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    font-size: 17px;
+    line-height: 1.75;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   h1 {
-    font-size: 1.8rem;
-    max-width: 100%;
+    font-size: 1.875rem;
   }
 
   .container {
-    padding: 0 0.75rem;
-  }
-
-  section,
-  .section {
-    margin-bottom: 2rem;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-
-  /* Griglia articoli: una colonna, testo non esce dai bordi */
-  .articles-grid > * {
-    min-width: 0;
+    padding: 0 1.25rem;
   }
 }
-

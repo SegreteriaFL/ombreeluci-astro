@@ -1,0 +1,62 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import AboutSidebar from '../../components/AboutSidebar.astro';
+import '../../styles/global.css';
+---
+
+<html lang="it">
+  <head>
+    <ViewTransitions />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contatti - Chi Siamo - Ombre e Luci</title>
+  </head>
+  <body>
+    <Header />
+    <main class="site-main">
+      <div class="about-layout container">
+        <AboutSidebar active="contatti" />
+        <div class="about-page-content">
+          <h1>Info e contatti</h1>
+          <p>Per informazioni, abbonamenti o collaborazioni puoi contattarci attraverso i canali ufficiali della rivista.</p>
+          <p><strong>Direzione, redazione e amministrazione:</strong><br />Via dei Cessati Spiriti 3, 00185 Roma.</p>
+          <p>Siamo sempre disponibili per rispondere alle tue domande e per accogliere nuove proposte e contributi.</p>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .about-layout {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .about-page-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .about-page-content h1 {
+    margin-bottom: 1rem;
+  }
+
+  .about-page-content p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 768px) {
+    .about-layout {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+</style>
