@@ -1,5 +1,8 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import '../../styles/global.css';
 import autoriStats from '../../data/autori_stats.json';
 import megacluster from '../../data/articoli_megacluster.json';
 
@@ -25,17 +28,15 @@ const autori = autoriStats.map((autore: { nome: string; slug: string; count_arti
 
 <html lang="it">
   <head>
+    <ViewTransitions />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Autori - Ombre e Luci</title>
     <meta name="description" content="Elenco degli autori della rivista Ombre e Luci" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <Header />
-    <main class="autori-page">
+    <main class="site-main autori-page">
       <div class="autori-container">
         <h1 class="autori-title">Autori</h1>
         <p class="autori-intro">Esplora i collaboratori della rivista Ombre e Luci.</p>
@@ -289,5 +290,6 @@ const autori = autoriStats.map((autore: { nome: string; slug: string; count_arti
         if (sortSelect) sortSelect.addEventListener('change', applyFilterAndSort);
       })();
     </script>
+    <Footer />
   </body>
 </html>

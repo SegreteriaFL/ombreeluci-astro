@@ -1,9 +1,12 @@
 ---
 import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
 import IssueCard from '../../components/IssueCard.astro';
-import numeriData from '../../../scripts_and_data/datasets/numeri_rivista/numeri_wp_FINAL.json';
+import { ViewTransitions } from 'astro:transitions';
+import '../../styles/global.css';
+import numeriData from '../../data/numeri_consolidati.json';
 
-// Carica i dati dei numeri
+// Carica i dati dei numeri (tutti i 197)
 const numeri = numeriData as Array<{
   id_numero: string;
   tipo_rivista: string;
@@ -17,16 +20,16 @@ const numeri = numeriData as Array<{
 }>;
 
 // Estrai anni unici per il filtro
-const anni = Array.from(new Set(numeri.map(n => n.anno_pubblicazione)))
-  .sort((a, b) => b - a); // Dal più recente al più vecchio
+const anni = Array.from(new Set(numeri.map((n) => n.anno_pubblicazione)))
+  .filter((y) => y != null)
+  .sort((a, b) => b - a);
 
 // Ordina i numeri per data (più recenti prima) di default
 const numeriOrdinati = [...numeri].sort((a, b) => {
-  // Ordina per anno, poi per numero progressivo
-  if (a.anno_pubblicazione !== b.anno_pubblicazione) {
-    return b.anno_pubblicazione - a.anno_pubblicazione;
-  }
-  return b.numero_progressivo - a.numero_progressivo;
+  const annoA = a.anno_pubblicazione ?? 0;
+  const annoB = b.anno_pubblicazione ?? 0;
+  if (annoA !== annoB) return annoB - annoA;
+  return (b.numero_progressivo ?? 0) - (a.numero_progressivo ?? 0);
 });
 ---
 
@@ -35,6 +38,7 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Archivio - Ombre e Luci</title>
+    <ViewTransitions />
     <style>
       * {
         margin: 0;
@@ -45,8 +49,8 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
       body {
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
         line-height: 1.6;
-        color: #333;
-        background: #fafafa;
+        color: var(--text-color, #2d2d2d);
+        background: var(--bg-light, #f5f5f3);
       }
 
       .archivio-container {
@@ -130,6 +134,10 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
         gap: 1.5rem;
       }
 
+      .issue-card-wrapper {
+        min-height: 0;
+      }
+
       .no-results {
         text-align: center;
         padding: 4rem 2rem;
@@ -191,7 +199,7 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
   </head>
   <body>
     <Header />
-    
+    <main class="site-main">
     <div class="archivio-container">
       <div class="archivio-header">
         <h1 class="archivio-title">Archivio</h1>
@@ -235,15 +243,23 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
 
       <div class="issues-grid" id="issues-grid">
         {numeriOrdinati.map(numero => (
-          <IssueCard
-            cover_url={numero.copertina_url}
-            titolo_numero={numero.titolo_numero}
-            numero={numero.numero_progressivo}
-            anno={numero.anno_pubblicazione}
-            periodo_label={numero.periodo_label}
-            tipo_rivista={numero.tipo_rivista}
-            id_numero={numero.id_numero}
-          />
+          <div
+            class="issue-card-wrapper"
+            data-id={numero.id_numero}
+            data-anno={numero.anno_pubblicazione ?? ''}
+            data-tipo={numero.tipo_rivista}
+            data-numero={numero.numero_progressivo ?? 0}
+          >
+            <IssueCard
+              cover_url={numero.copertina_url}
+              titolo_numero={numero.titolo_numero}
+              numero={numero.numero_progressivo}
+              anno={numero.anno_pubblicazione}
+              periodo_label={numero.periodo_label}
+              tipo_rivista={numero.tipo_rivista}
+              id_numero={numero.id_numero}
+            />
+          </div>
         ))}
       </div>
 
@@ -253,154 +269,57 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
       </div>
     </div>
 
-    <script define:vars={{ numeriData: numeriOrdinati.map(numero => ({
-        id: numero.id_numero,
-        tipo: numero.tipo_rivista,
-        numero: numero.numero_progressivo,
-        anno: numero.anno_pubblicazione,
-        titolo: numero.titolo_numero,
-        periodo: numero.periodo_label || '',
-        cover: numero.copertina_url || '',
-      })) }}>
-      // Dati dei numeri (passati dal server)
-      console.log('NumeriData caricati:', numeriData?.length || 0);
-
-      // Attendi che il DOM sia pronto
+    <script>
       document.addEventListener('DOMContentLoaded', function() {
-        // Elementi DOM
-        const filterAnno = document.getElementById('filter-anno') as HTMLSelectElement;
-        const filterTestata = document.getElementById('filter-testata') as HTMLSelectElement;
-        const filterOrdine = document.getElementById('filter-ordine') as HTMLSelectElement;
-        const issuesGrid = document.getElementById('issues-grid') as HTMLElement;
-        const noResults = document.getElementById('no-results') as HTMLElement;
-        const resultsCount = document.getElementById('results-count') as HTMLElement;
+        const filterAnno = document.getElementById('filter-anno');
+        const filterTestata = document.getElementById('filter-testata');
+        const filterOrdine = document.getElementById('filter-ordine');
+        const issuesGrid = document.getElementById('issues-grid');
+        const noResults = document.getElementById('no-results');
+        const resultsCount = document.getElementById('results-count');
+        if (!filterAnno || !filterTestata || !filterOrdine || !issuesGrid || !noResults || !resultsCount) return;
 
-        if (!filterAnno || !filterTestata || !filterOrdine || !issuesGrid || !noResults || !resultsCount) {
-          console.error('Elementi DOM non trovati!', {
-            filterAnno: !!filterAnno,
-            filterTestata: !!filterTestata,
-            filterOrdine: !!filterOrdine,
-            issuesGrid: !!issuesGrid,
-            noResults: !!noResults,
-            resultsCount: !!resultsCount
-          });
-          return;
-        }
+        var wrappers = Array.from(issuesGrid.querySelectorAll('.issue-card-wrapper'));
 
-        // Funzione per determinare la testata
-        function getTestata(tipo: string, titolo: string): string {
-          if (tipo === 'insieme' || titolo.toLowerCase().includes('insieme')) {
-            return 'insieme';
-          }
-          return 'ombre_e_luci';
-        }
-
-        // Funzione per filtrare e ordinare
         function filterAndSort() {
-          if (!numeriData || numeriData.length === 0) {
-            console.error('numeriData non disponibile');
-            return;
-          }
+          var annoFiltro = filterAnno.value;
+          var testataFiltro = filterTestata.value;
+          var ordineFiltro = filterOrdine.value;
 
-          const annoFiltro = filterAnno.value;
-          const testataFiltro = filterTestata.value;
-          const ordineFiltro = filterOrdine.value;
-
-          console.log('Filtri applicati:', { annoFiltro, testataFiltro, ordineFiltro });
-
-          // Filtra
-          let filtered = numeriData.filter(numero => {
-            if (annoFiltro && numero.anno.toString() !== annoFiltro) return false;
-            if (testataFiltro) {
-              const testata = getTestata(numero.tipo, numero.titolo);
-              if (testata !== testataFiltro) return false;
-            }
-            return true;
+          wrappers.forEach(function(w) {
+            var anno = w.getAttribute('data-anno');
+            var tipo = w.getAttribute('data-tipo');
+            var matchAnno = !annoFiltro || anno === annoFiltro;
+            var matchTipo = !testataFiltro || tipo === testataFiltro;
+            w.style.display = matchAnno && matchTipo ? '' : 'none';
           });
 
-          console.log('Risultati filtrati:', filtered.length);
+          var visible = wrappers.filter(function(w) { return w.style.display !== 'none'; });
 
-          // Ordina
-          filtered.sort((a, b) => {
-            if (a.anno !== b.anno) {
-              return ordineFiltro === 'desc' 
-                ? b.anno - a.anno 
-                : a.anno - b.anno;
-            }
-            return ordineFiltro === 'desc'
-              ? b.numero - a.numero
-              : a.numero - b.numero;
+          visible.sort(function(a, b) {
+            var annoA = parseInt(a.getAttribute('data-anno') || '0', 10);
+            var annoB = parseInt(b.getAttribute('data-anno') || '0', 10);
+            var numA = parseInt(a.getAttribute('data-numero') || '0', 10);
+            var numB = parseInt(b.getAttribute('data-numero') || '0', 10);
+            if (annoA !== annoB) return ordineFiltro === 'desc' ? annoB - annoA : annoA - annoB;
+            return ordineFiltro === 'desc' ? numB - numA : numA - numB;
           });
 
-          // Aggiorna UI con transizione fluida
-          issuesGrid.style.opacity = '0';
-          setTimeout(() => {
-            updateGrid(filtered);
-            updateResultsCount(filtered.length);
-            issuesGrid.style.opacity = '1';
-          }, 150);
+          visible.forEach(function(w) { issuesGrid.appendChild(w); });
+
+          resultsCount.textContent = visible.length + ' ' + (visible.length === 1 ? 'numero' : 'numeri');
+          issuesGrid.style.display = visible.length ? 'grid' : 'none';
+          noResults.style.display = visible.length ? 'none' : 'block';
         }
 
-        // Funzione per aggiornare la griglia
-        function updateGrid(numeri: typeof numeriData) {
-          if (numeri.length === 0) {
-            issuesGrid.style.display = 'none';
-            noResults.style.display = 'block';
-            return;
-          }
-
-          issuesGrid.style.display = 'grid';
-          noResults.style.display = 'none';
-
-          // Genera HTML per le card
-          issuesGrid.innerHTML = numeri.map(numero => {
-            const testata = getTestata(numero.tipo, numero.titolo);
-            const testataLabel = testata === 'insieme' ? 'Insieme' : 'Ombre e Luci';
-            const numeroSlug = numero.id.toLowerCase().replace(/[^a-z0-9-]/g, '-');
-            const linkUrl = `/archivio/${numeroSlug}`;
-
-            return `
-              <a href="${linkUrl}" class="issue-card">
-                <div class="issue-card-image-wrapper">
-                  ${numero.cover 
-                    ? `<img src="${numero.cover}" alt="Copertina ${testataLabel} n. ${numero.numero} - ${numero.anno}" class="issue-card-image" loading="lazy" />`
-                    : `<div class="issue-card-placeholder">
-                        <span class="issue-card-placeholder-text">${testataLabel}</span>
-                        <span class="issue-card-placeholder-number">n. ${numero.numero}</span>
-                      </div>`
-                  }
-                  <div class="issue-card-badge">${testataLabel}</div>
-                </div>
-                <div class="issue-card-content">
-                  <h3 class="issue-card-title">${numero.titolo}</h3>
-                  <div class="issue-card-meta">
-                    <span class="issue-card-number">n. ${numero.numero}</span>
-                    <span class="issue-card-year">${numero.anno}</span>
-                    ${numero.periodo ? `<span class="issue-card-period">${numero.periodo}</span>` : ''}
-                  </div>
-                </div>
-              </a>
-            `;
-          }).join('');
-        }
-
-        // Funzione per aggiornare il contatore risultati
-        function updateResultsCount(count: number) {
-          resultsCount.textContent = `${count} ${count === 1 ? 'numero' : 'numeri'}`;
-        }
-
-        // Transizione fluida per la griglia
-        issuesGrid.style.transition = 'opacity 0.15s ease-in-out';
-
-        // Event listeners
         filterAnno.addEventListener('change', filterAndSort);
         filterTestata.addEventListener('change', filterAndSort);
         filterOrdine.addEventListener('change', filterAndSort);
-
-        // Inizializza
         filterAndSort();
       });
     </script>
+    </main>
+    <Footer />
   </body>
 </html>
 

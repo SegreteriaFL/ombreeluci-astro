@@ -42,6 +42,8 @@ const blog = defineCollection({
     numero_rivista: z.union([z.number(), z.string().transform(s => parseInt(s) || 0)]).optional(),
     anno_rivista: z.union([z.number(), z.string().transform(s => parseInt(s) || 0)]).optional(),
     issue_number: z.string().optional(), // ID numero rivista (es. "INS-10", "OEL-146")
+    id_numero: z.string().optional(), // Stesso valore di issue_number (es. "OEL-86")
+    lang: z.enum(['it', 'en']).default('it'), // Lingua articolo (default: it)
     periodo_label: z.string().optional(),
     pdf_url: z.union([
       z.string().url(),
@@ -69,6 +71,9 @@ const blog = defineCollection({
     tema_code: z.string().optional(),
     tema_label: z.string().optional(),
     categoria_menu: z.string().optional(),
+    // Home editoriale: in futuro opzionali featured (primo piano) e theme_highlight (blocchi tematici)
+    // featured: z.boolean().optional(),
+    // theme_highlight: z.boolean().optional(),
   }).passthrough(), // Permette campi extra per compatibilità
 });
 

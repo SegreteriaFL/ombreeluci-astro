@@ -1,0 +1,233 @@
+---
+/**
+ * Layout per la pagina singola di un Diario (es. /diario-di-arianna).
+ * Header celeste con foto circolare e bio; feed articoli come Home (ArticleCard su sfondo bianco).
+ */
+import { ViewTransitions } from 'astro:transitions';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import '../styles/global.css';
+import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
+import megacluster from '../data/articoli_megacluster.json';
+
+const { nomeAutore, titoloDiario, fotoUrl, descrizioneDiario, articoli } = Astro.props;
+
+const megaclusterData = megacluster as { byId?: Record<string, { img_copertina_url?: string }> };
+const byId = megaclusterData.byId || {};
+---
+
+<html lang="it">
+  <head>
+    <ViewTransitions />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{titoloDiario} - Ombre e Luci</title>
+    <meta name="description" content={`Leggi le cronache e gli articoli di ${nomeAutore}, ${titoloDiario}, su Ombre e Luci.`} />
+  </head>
+  <body>
+    <Header />
+    <main class="site-main diario-single-main">
+      <div class="container diario-page">
+        <a href="/sezioni/diari" class="diario-back-link" aria-label="Torna a tutti i Diari">
+          <span class="diario-back-arrow" aria-hidden="true">←</span> Torna a tutti i Diari
+        </a>
+
+        <header class="diario-section-header">
+          <div class="diario-header-photo">
+            {fotoUrl ? (
+              <img src={fotoUrl} alt={nomeAutore} width="200" height="200" />
+            ) : (
+              <div class="diario-header-placeholder" aria-hidden="true" />
+            )}
+          </div>
+          <div class="diario-header-text">
+            <h1 class="diario-page-title">{titoloDiario}</h1>
+            <p class="diario-author-name">di {nomeAutore}</p>
+            <div class="diario-presentazione">
+              <p>{descrizioneDiario}</p>
+            </div>
+          </div>
+        </header>
+
+        <section class="diario-feed-section" aria-label={`Articoli di ${titoloDiario}`}>
+          <h2 class="visually-hidden">Articoli di {nomeAutore}</h2>
+          {articoli.length > 0 ? (
+            <div class="diario-articles-grid">
+              {articoli.map((article) => {
+                const articleSlug = article.data.slug ?? article.slug;
+                const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
+                const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+                const articleDate = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
+                const wpIdStr = String(article.data.wp_id ?? '');
+                const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+                return (
+                  <ArticleCard
+                    title={article.data.title}
+                    slug={articleSlug}
+                    categoriaMenu={categoria_menu ?? undefined}
+                    issue={article.data.issue_number}
+                    forma={formal}
+                    author={article.data.author}
+                    date={articleDate}
+                    image={articleImage}
+                    ruoloEditoriale={ruolo_editoriale ?? undefined}
+                  />
+                );
+              })}
+            </div>
+          ) : (
+            <p class="diario-empty">Nessun articolo ancora pubblicato per questo diario.</p>
+          )}
+        </section>
+
+        <p class="diario-back-bottom">
+          <a href="/sezioni/diari" class="diario-back-link"><span class="diario-back-arrow" aria-hidden="true">←</span> Torna a tutti i Diari</a>
+        </p>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  /* Pagina singola: header celeste, feed su bianco */
+  .diario-single-main {
+    background-color: var(--bg-color);
+  }
+
+  .diario-page {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  /* Link "Torna" discreto sopra l'header */
+  .diario-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  .diario-back-link:hover {
+    color: var(--accent-color);
+  }
+  .diario-back-arrow {
+    font-size: 0.75rem;
+    opacity: 0.85;
+  }
+
+  /* Header bio: sfondo celeste pastello, foto a sinistra con bordo bianco, titolo e bio a destra con respiro */
+  .diario-section-header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2.25rem;
+    align-items: start;
+    margin-bottom: 3.5rem;
+    padding: 2.5rem 2rem;
+    background-color: #f0f7ff;
+    border: none;
+  }
+  @media (max-width: 640px) {
+    .diario-section-header {
+      grid-template-columns: 1fr;
+      text-align: center;
+      padding: 2rem 1.5rem;
+    }
+    .diario-header-photo {
+      margin: 0 auto;
+    }
+  }
+
+  .diario-header-photo {
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background: var(--bg-light);
+    border: 3px solid #fff;
+    padding: 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  }
+  .diario-header-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .diario-header-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--border-color);
+  }
+
+  .diario-header-text {
+    min-width: 0;
+  }
+
+  .diario-page-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.85rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.35rem;
+  }
+
+  .diario-author-name {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+  }
+
+  /* Bio: interlinea generosa per evitare effetto appiccicato */
+  .diario-presentazione {
+    font-size: 1.125rem;
+    line-height: 1.85;
+    color: var(--text-color);
+    max-width: 56ch;
+  }
+  .diario-presentazione :global(p) {
+    margin-bottom: 0.75em;
+  }
+  .diario-presentazione :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  /* Feed articoli: stile Home, su sfondo bianco, più spazio sopra */
+  .diario-feed-section {
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .diario-articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .diario-empty {
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  .diario-back-bottom {
+    margin-top: 2.5rem;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>

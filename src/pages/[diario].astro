@@ -1,0 +1,54 @@
+---
+/**
+ * Pagina singola di un Diario: /diario-di-arianna, /diario-di-benedetta, ...
+ * Genera sempre le 7 pagine; foto da articoli_megacluster autoriById.
+ */
+import { getCollection } from 'astro:content';
+import DiarioLayout from '../layouts/DiarioLayout.astro';
+import { DIARISTI, getDiaristaByDiarioSlug } from '../data/diari.js';
+import megacluster from '../data/articoli_megacluster.json';
+
+export async function getStaticPaths() {
+  const megaclusterData = megacluster as { autoriById?: Record<string, { foto_url?: string }> };
+  const autoriById = megaclusterData.autoriById || {};
+
+  const allArticles = await getCollection('blog');
+  const paths: { params: { diario: string }; props: Record<string, unknown> }[] = [];
+
+  for (const d of DIARISTI) {
+    const articoli = allArticles
+      .filter((a) => (a.data.author || '').trim() === d.nome)
+      .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+    paths.push({
+      params: { diario: d.diarioSlug },
+      props: {
+        nomeAutore: d.nome,
+        titoloDiario: d.titoloDiario,
+        fotoUrl: autoriById[d.authorSlug]?.foto_url || '',
+        descrizioneDiario: d.descrizioneDiario,
+        articoli,
+      },
+    });
+  }
+
+  return paths;
+}
+
+const { diario } = Astro.params;
+const diarista = diario ? getDiaristaByDiarioSlug(diario) : undefined;
+
+if (!diarista) {
+  return Astro.redirect('/404');
+}
+
+const { nomeAutore, titoloDiario, fotoUrl, descrizioneDiario, articoli } = Astro.props;
+---
+
+<DiarioLayout
+  nomeAutore={nomeAutore}
+  titoloDiario={titoloDiario}
+  fotoUrl={fotoUrl}
+  descrizioneDiario={descrizioneDiario}
+  articoli={articoli}
+/>

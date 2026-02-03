@@ -1,0 +1,85 @@
+---
+/**
+ * Riga articolo per il feed della pagina Diario singolo: senza bordi, titolo in serif, molto whitespace.
+ */
+import placeholderImage from '../assets/placeholder1.webp';
+
+const { title, slug, image, date } = Astro.props;
+const imageSrc = image || placeholderImage.src;
+const formattedDate = new Intl.DateTimeFormat('it-IT', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}).format(date instanceof Date ? date : new Date(date));
+---
+
+<article class="diario-article-row">
+  <a href={`/blog/${slug}`} class="diario-article-row-link">
+    <div class="diario-article-row-image">
+      <img src={imageSrc} alt={title} loading="lazy" />
+    </div>
+    <div class="diario-article-row-content">
+      <h3 class="diario-article-row-title">{title}</h3>
+      <time class="diario-article-row-date" datetime={date instanceof Date ? date.toISOString() : new Date(date).toISOString()}>{formattedDate}</time>
+    </div>
+  </a>
+</article>
+
+<style>
+  .diario-article-row {
+    margin-bottom: 2.5rem;
+  }
+  .diario-article-row:last-child {
+    margin-bottom: 0;
+  }
+
+  .diario-article-row-link {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 1.5rem;
+    align-items: start;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s ease;
+  }
+  .diario-article-row-link:hover {
+    opacity: 0.85;
+  }
+  @media (max-width: 560px) {
+    .diario-article-row-link {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .diario-article-row-image {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    border-radius: 6px;
+    background: var(--bg-light);
+  }
+  .diario-article-row-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .diario-article-row-content {
+    min-width: 0;
+  }
+
+  .diario-article-row-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+  }
+
+  .diario-article-row-date {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+</style>

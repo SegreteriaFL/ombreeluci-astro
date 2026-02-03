@@ -1,9 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import IssueNavPill from '../../components/IssueNavPill.astro';
+import { ViewTransitions } from 'astro:transitions';
+import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
-import numeriData from '../../../scripts_and_data/datasets/numeri_rivista/numeri_wp_FINAL.json';
+import numeriData from '../../data/numeri_consolidati.json';
 import megacluster from '../../data/articoli_megacluster.json';
 
 const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
@@ -18,12 +22,12 @@ export async function getStaticPaths() {
     [key: string]: any;
   }>;
 
-  // Ordina numeri per anno e numero progressivo
+  // Ordina numeri per anno e numero progressivo (anno null = numeri sintetici, ordinati per numero)
   const numeriOrdinati = [...numeri].sort((a, b) => {
-    if (a.anno_pubblicazione !== b.anno_pubblicazione) {
-      return a.anno_pubblicazione - b.anno_pubblicazione;
-    }
-    return a.numero_progressivo - b.numero_progressivo;
+    const annoA = a.anno_pubblicazione ?? 0;
+    const annoB = b.anno_pubblicazione ?? 0;
+    if (annoA !== annoB) return annoA - annoB;
+    return (a.numero_progressivo ?? 0) - (b.numero_progressivo ?? 0);
   });
 
   return numeriOrdinati.map((numero, index) => {
@@ -39,18 +43,12 @@ export async function getStaticPaths() {
     
     return {
       params: { issue: slug },
-      props: { 
-        numero,
-        prevSlug,
-        nextSlug,
-        prevTitle: prevNumero?.display_title || prevNumero?.titolo_numero || null,
-        nextTitle: nextNumero?.display_title || nextNumero?.titolo_numero || null,
-      },
+      props: { numero, prevSlug, nextSlug },
     };
   });
 }
 
-const { numero, prevSlug, nextSlug, prevTitle, nextTitle } = Astro.props;
+const { numero, prevSlug, nextSlug } = Astro.props;
 
 // Carica tutti gli articoli
 const allArticles = await getCollection('blog');
@@ -115,6 +113,10 @@ function formatDateItalian(date: Date): string {
     day: 'numeric'
   }).format(date);
 }
+
+// Articoli in italiano (flusso principale) e in inglese (sezione separata in fondo)
+const articoliIt = articoliNumero.filter(a => a.data.lang !== 'en');
+const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
 ---
 
 <html lang="it">
@@ -122,6 +124,7 @@ function formatDateItalian(date: Date): string {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{numero.display_title || numero.titolo_numero} - Archivio Ombre e Luci</title>
+    <ViewTransitions />
     <style>
       * {
         margin: 0;
@@ -131,13 +134,21 @@ function formatDateItalian(date: Date): string {
 
       body {
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-        line-height: 1.75;
-        color: #1a1a1a;
-        background: #fafafa;
+        font-size: 18px;
+        line-height: 1.7;
+        color: var(--text-color, #2d2d2d);
+        background: var(--bg-light, #f5f5f3);
+      }
+
+      /* Main sopra il footer (fixed) così il contenuto non viene coperto */
+      .issue-main {
+        position: relative;
+        z-index: 2;
+        background: var(--bg-light, #f5f5f3);
       }
 
       .issue-container {
-        max-width: 1400px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 2rem 1.5rem;
       }
@@ -145,13 +156,13 @@ function formatDateItalian(date: Date): string {
       /* Hero Section */
       .hero-section {
         display: grid;
-        grid-template-columns: 380px 1fr;
-        gap: 3rem;
-        margin-bottom: 4rem;
-        background: #fff;
+        grid-template-columns: 320px 1fr;
+        gap: 2.5rem;
+        margin-bottom: 3rem;
+        background: var(--bg-card, #fdfcfb);
         padding: 2rem;
         border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        border: 1px solid var(--border-color, #e8e6e3);
       }
 
       .hero-cover {
@@ -186,10 +197,10 @@ function formatDateItalian(date: Date): string {
       }
 
       .hero-title {
-        font-size: 2.5rem;
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
         font-weight: 700;
-        line-height: 1.2;
-        color: #1a1a1a;
+        line-height: 1.25;
+        color: var(--text-color, #2d2d2d);
         margin: 0;
       }
 
@@ -231,7 +242,7 @@ function formatDateItalian(date: Date): string {
         align-items: center;
         gap: 0.5rem;
         padding: 0.875rem 1.5rem;
-        background: #ff1053;
+        background: var(--accent-color, #c41e3a);
         color: white;
         text-decoration: none;
         border-radius: 8px;
@@ -245,18 +256,18 @@ function formatDateItalian(date: Date): string {
       }
 
       .hero-button:hover {
-        background: #e00e4a;
+        background: var(--accent-hover, #a01930);
         transform: translateY(-2px);
       }
 
       .hero-button.secondary {
         background: transparent;
-        color: #ff1053;
-        border: 1px solid #ff1053;
+        color: var(--accent-color, #c41e3a);
+        border: 1px solid var(--accent-color, #c41e3a);
       }
 
       .hero-button.secondary:hover {
-        background: #ff1053;
+        background: var(--accent-color, #c41e3a);
         color: white;
       }
 
@@ -266,113 +277,54 @@ function formatDateItalian(date: Date): string {
         pointer-events: none;
       }
 
-      /* Navigazione Numeri */
-      .issue-navigation {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        margin-bottom: 3rem;
-        background: #fff;
-        padding: 1.5rem;
-        border-radius: 8px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      /* English Edition: sezione separata in fondo */
+      .english-edition-section {
+        margin-top: 2.5rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border-color, #e8e6e3);
       }
-
-      .nav-link {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        padding: 1rem;
-        text-decoration: none;
-        color: #333;
-        border-radius: 8px;
-        transition: all 0.2s ease;
-      }
-
-      .nav-link.prev {
-        justify-content: flex-start;
-      }
-
-      .nav-link.next {
-        justify-content: flex-end;
-        text-align: right;
-      }
-
-      .nav-link:hover {
-        background: transparent;
-        color: #ff1053;
-        border: 1px solid #ff1053;
-      }
-
-      .nav-link.disabled {
-        opacity: 0.3;
-        cursor: not-allowed;
-        pointer-events: none;
-      }
-
-      .nav-arrow {
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: #ff1053;
-      }
-
-      .nav-content {
-        display: flex;
-        flex-direction: column;
-        gap: 0.25rem;
-      }
-
-      .nav-label {
-        font-size: 0.875rem;
-        color: #666;
-        letter-spacing: 0.5px;
-      }
-
-      .nav-title {
+      .english-edition-section h2 {
         font-size: 1rem;
         font-weight: 600;
-        line-height: 1.3;
+        color: var(--text-secondary, #5c5c5c);
+        margin-bottom: 1rem;
       }
 
       /* Articoli Section */
       .articles-section {
-        margin-top: 3rem;
+        margin-top: 2rem;
       }
-
       .articles-header {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
       }
-
       .articles-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 700;
-        color: #1a1a1a;
+        color: var(--text-color, #2d2d2d);
         margin-bottom: 0.5rem;
       }
-
       .articles-count {
-        font-size: 1rem;
-        color: #666;
+        font-size: 0.9375rem;
+        color: var(--text-secondary, #5c5c5c);
       }
-
       .articles-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 32px;
+        gap: 1.5rem;
       }
-
       .no-articles {
         text-align: center;
-        padding: 4rem 2rem;
-        color: #666;
-        background: #fff;
+        padding: 3rem 2rem;
+        color: var(--text-secondary, #5c5c5c);
+        background: var(--bg-card, #fdfcfb);
         border-radius: 8px;
+        border: 1px solid var(--border-color, #e8e6e3);
       }
 
       .no-articles-title {
         font-size: 1.5rem;
         margin-bottom: 0.5rem;
-        color: #333;
+        color: var(--text-color, #2d2d2d);
       }
 
       /* Responsive */
@@ -395,7 +347,7 @@ function formatDateItalian(date: Date): string {
 
       @media (max-width: 768px) {
         .issue-container {
-          padding: 1.5rem 1rem;
+          padding: 1.5rem 1.25rem;
         }
 
         .hero-section {
@@ -424,7 +376,7 @@ function formatDateItalian(date: Date): string {
   </head>
   <body>
     <Header />
-    
+    <main class="issue-main">
     <div class="issue-container">
       {/* Hero Section */}
       <section class="hero-section">
@@ -511,57 +463,27 @@ function formatDateItalian(date: Date): string {
         </div>
       </section>
 
-      {/* Navigazione Numeri */}
-      {(prevSlug || nextSlug) && (
-        <nav class="issue-navigation">
-          {prevSlug ? (
-            <a href={`/archivio/${prevSlug}`} class="nav-link prev">
-              <span class="nav-arrow">←</span>
-              <div class="nav-content">
-                <span class="nav-label">Precedente</span>
-                <span class="nav-title">{prevTitle}</span>
-              </div>
-            </a>
-          ) : (
-            <div class="nav-link prev disabled"></div>
-          )}
-          
-          {nextSlug ? (
-            <a href={`/archivio/${nextSlug}`} class="nav-link next">
-              <div class="nav-content">
-                <span class="nav-label">Successivo</span>
-                <span class="nav-title">{nextTitle}</span>
-              </div>
-              <span class="nav-arrow">→</span>
-            </a>
-          ) : (
-            <div class="nav-link next disabled"></div>
-          )}
-        </nav>
-      )}
-
-      {/* Articoli Section */}
+      {/* Articoli: lista uniforme (IT) + English Edition in fondo */}
       <section class="articles-section">
         <div class="articles-header">
           <h2 class="articles-title">Articoli in questo numero</h2>
           <p class="articles-count">
-            {articoliNumero.length} {articoliNumero.length === 1 ? 'articolo' : 'articoli'}
+            {articoliIt.length} {articoliIt.length === 1 ? 'articolo' : 'articoli'}
+            {articoliEn.length > 0 && ` · ${articoliEn.length} in English`}
           </p>
         </div>
 
         {articoliNumero.length > 0 ? (
-          <div style="display: grid !important; grid-template-columns: 1fr 1fr 1fr !important; gap: 32px !important; align-items: start !important;">
-            {articoliNumero.map(article => {
-              const articleSlug = article.data.slug || article.slug;
-              const articleDate = article.data.date instanceof Date 
-                ? article.data.date 
-                : new Date(article.data.date);
-              const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
-              const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
-              const wpIdStr = String(article.data.wp_id ?? '');
-              const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
-              return (
-                <div>
+          <>
+            <div class="articles-grid">
+              {articoliIt.map(article => {
+                const articleSlug = article.data.slug || article.slug;
+                const articleDate = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
+                const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
+                const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+                const wpIdStr = String(article.data.wp_id ?? '');
+                const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+                return (
                   <ArticleCard
                     title={article.data.title}
                     slug={articleSlug}
@@ -572,10 +494,38 @@ function formatDateItalian(date: Date): string {
                     date={articleDate}
                     image={articleImage}
                   />
+                );
+              })}
+            </div>
+
+            {articoliEn.length > 0 && (
+              <div class="english-edition-section">
+                <h2>English Edition</h2>
+                <div class="articles-grid">
+                  {articoliEn.map(article => {
+                    const articleSlug = article.data.slug || article.slug;
+                    const articleDate = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
+                    const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
+                    const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+                    const wpIdStr = String(article.data.wp_id ?? '');
+                    const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+                    return (
+                      <ArticleCard
+                        title={article.data.title}
+                        slug={articleSlug}
+                        categoriaMenu={categoria_menu ?? undefined}
+                        issue={article.data.issue_number}
+                        forma={formal}
+                        author={article.data.author}
+                        date={articleDate}
+                        image={articleImage}
+                      />
+                    );
+                  })}
                 </div>
-              );
-            })}
-          </div>
+              </div>
+            )}
+          </>
         ) : (
           <div class="no-articles">
             <h3 class="no-articles-title">Nessun articolo trovato</h3>
@@ -584,6 +534,9 @@ function formatDateItalian(date: Date): string {
         )}
       </section>
     </div>
+    </main>
+    <Footer />
+    <IssueNavPill prevSlug={prevSlug} nextSlug={nextSlug} />
   </body>
 </html>
 

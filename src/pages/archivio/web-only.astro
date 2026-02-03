@@ -1,7 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
+import { ViewTransitions } from 'astro:transitions';
 import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import megacluster from '../../data/articoli_megacluster.json';
 
@@ -19,24 +22,12 @@ const articoliWebOnly = allArticles
 
 <html lang="it">
   <head>
+    <ViewTransitions />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pubblicato online - Archivio Ombre e Luci</title>
     <meta name="description" content="Articoli pubblicati solo online su Ombre e Luci." />
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-        line-height: 1.75;
-        color: #1a1a1a;
-        background: #fafafa;
-      }
-
       .issue-container {
         max-width: 1400px;
         margin: 0 auto;
@@ -125,7 +116,7 @@ const articoliWebOnly = allArticles
   </head>
   <body>
     <Header />
-
+    <main class="site-main">
     <div class="issue-container">
       <div class="archivio-header">
         <h1 class="archivio-title">Pubblicato online</h1>
@@ -175,5 +166,7 @@ const articoliWebOnly = allArticles
         )}
       </section>
     </div>
+    </main>
+    <Footer />
   </body>
 </html>

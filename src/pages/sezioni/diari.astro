@@ -1,4 +1,8 @@
 ---
+/**
+ * Hub I Diari di Ombre e Luci.
+ * Intro + griglia 7 card (uno per autore) + feed globale articoli dei 7 diaristi.
+ */
 import { ViewTransitions } from 'astro:transitions';
 import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
@@ -6,22 +10,22 @@ import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import { getDiaristiWithMeta, NOMI_DIARISTI } from '../../data/diari.js';
 import megacluster from '../../data/articoli_megacluster.json';
 
-const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
+const megaclusterData = megacluster as {
+  byId?: Record<string, { img_copertina_url?: string }>;
+  autoriById?: Record<string, { foto_url?: string; bio_html?: string }>;
+};
+const byId = megaclusterData.byId || {};
+const autoriById = megaclusterData.autoriById || {};
+
+const diaristiConMeta = getDiaristiWithMeta(autoriById);
+
 const allArticles = await getCollection('blog');
-
-// Articoli che contengono "diario" o "diari" nel titolo o in un tag
 const articoliDiari = allArticles
-  .filter((a) => {
-    const title = (a.data.title || '').toLowerCase();
-    const tags = (a.data.tags || []).map((t) => String(t).toLowerCase());
-    return title.includes('diario') || title.includes('diari') || tags.some((t) => t.includes('diario') || t.includes('diari'));
-  })
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0, 12);
-
-const articoliMostrati = articoliDiari.length > 0 ? articoliDiari : allArticles.sort((a, b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 12);
+  .filter((a) => NOMI_DIARISTI.has((a.data.author || '').trim()))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 ---
 
 <html lang="it">
@@ -30,22 +34,50 @@ const articoliMostrati = articoliDiari.length > 0 ? articoliDiari : allArticles.
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I Diari di Ombre e Luci - Ombre e Luci</title>
-    <meta name="description" content="I Diari: storie in prima persona, racconti di vita e di fragilità sulle pagine di Ombre e Luci." />
+    <meta name="description" content="I Diari: storie in prima persona, racconti di vita e di fragilità sulle pagine di Ombre e Luci. Le cronache di sette autori." />
   </head>
   <body>
     <Header />
-    <main class="site-main">
-      <div class="container" style="padding-top: 2rem; padding-bottom: 3rem;">
-        <header class="diari-header" style="margin-bottom: 2rem;">
-          <h1 class="chi-siamo-h2" style="margin-bottom: 0.75rem;">I Diari di Ombre e Luci</h1>
-          <p class="chi-siamo-lead" style="max-width: 720px; margin-bottom: 0;">
+    <main class="site-main diari-section-bg">
+      <div class="container diari-hub">
+        <header class="diari-intro">
+          <h1 class="diari-hub-title">I Diari di Ombre e Luci</h1>
+          <p class="diari-hub-lead">
             Storie in prima persona, racconti di vita e di fragilità: i Diari sono lo spazio dove autori e lettori condividono esperienze, riflessioni e incontri. Una finestra aperta sulla vita quotidiana, sulle comunità e sul cammino di Fede e Luce.
           </p>
         </header>
-        {articoliMostrati.length > 0 ? (
-          <section class="articles-section" aria-label="Articoli dai Diari">
-            <div class="articles-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem;">
-              {articoliMostrati.map((article) => {
+
+        <section class="diari-grid-section" aria-label="I sette Diari">
+          <h2 class="visually-hidden">I sette Diari</h2>
+          <div class="diari-cards diari-cards--polaroid">
+            {diaristiConMeta.map((d) => (
+              <article class="diari-card diari-card--polaroid">
+                <a href={`/${d.diarioSlug}`} class="diari-card-link">
+                  <div class="diari-polaroid-frame">
+                    <div class="diari-polaroid-photo">
+                      {d.fotoUrl ? (
+                        <img src={d.fotoUrl} alt={d.nome} width="280" height="280" loading="lazy" />
+                      ) : (
+                        <div class="diari-card-photo-placeholder" aria-hidden="true" />
+                      )}
+                    </div>
+                    <div class="diari-polaroid-caption">
+                      <h3 class="diari-card-title">{d.titoloDiario}</h3>
+                      <p class="diari-card-author">di {d.nome}</p>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section class="diari-feed-section" aria-label="Feed globale dei Diari">
+          <h2 class="diari-feed-heading">Tutti gli articoli dai Diari</h2>
+          <p class="diari-feed-intro">Gli ultimi contributi dei sette autori dei Diari, dal più recente al più vecchio.</p>
+          {articoliDiari.length > 0 ? (
+            <div class="diari-articles-grid">
+              {articoliDiari.map((article) => {
                 const articleSlug = article.data.slug ?? article.slug;
                 const { tema_label, categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
                 const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
@@ -67,17 +99,156 @@ const articoliMostrati = articoliDiari.length > 0 ? articoliDiari : allArticles.
                 );
               })}
             </div>
-            <p style="margin-top: 2rem;">
-              <a href="/" class="button">Tutti gli articoli</a>
-            </p>
-          </section>
-        ) : (
-          <p class="chi-siamo-lead">
-            <a href="/">Esplora gli articoli di Ombre e Luci</a>
-          </p>
-        )}
+          ) : (
+            <p class="diari-feed-empty">Nessun articolo ancora pubblicato dai Diari.</p>
+          )}
+        </section>
       </div>
     </main>
     <Footer />
   </body>
 </html>
+
+<style>
+  /* Sezione speciale Diari: sfondo celeste pastello */
+  .diari-section-bg {
+    background-color: var(--diari-bg);
+  }
+
+  .diari-hub {
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .diari-intro {
+    margin-bottom: 3rem;
+  }
+
+  .diari-hub-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.75rem;
+  }
+
+  .diari-hub-lead {
+    max-width: 720px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-color);
+  }
+
+  .diari-grid-section {
+    margin-bottom: 3rem;
+  }
+
+  /* Grid standard: tutte le card stessa larghezza, gap 2rem */
+  .diari-cards--polaroid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .diari-card--polaroid {
+    background: transparent;
+  }
+
+  .diari-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* Polaroid 2.0: bordo bianco sottile, ombra morbida e diffusa */
+  .diari-polaroid-frame {
+    background: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    padding: 0.75rem 0.75rem 1.25rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease;
+  }
+  .diari-card-link:hover .diari-polaroid-frame {
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .diari-polaroid-photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: var(--bg-light);
+  }
+  .diari-polaroid-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .diari-card-photo-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--border-color);
+  }
+
+  .diari-polaroid-caption {
+    padding-top: 1rem;
+    text-align: left;
+  }
+
+  .diari-card-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.25rem;
+    line-height: 1.3;
+  }
+
+  .diari-card-author {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  .diari-feed-section {
+    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .diari-feed-heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .diari-feed-intro {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .diari-articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .diari-feed-empty {
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>

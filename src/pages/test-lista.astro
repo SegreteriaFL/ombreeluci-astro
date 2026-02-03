@@ -1,6 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
+import { ViewTransitions } from 'astro:transitions';
 import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
 
 // Ottieni tutti gli articoli
 let allArticlesList = [];
@@ -30,16 +33,15 @@ try {
 
 <html lang="it">
   <head>
+    <ViewTransitions />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista Completa Articoli - Ombre e Luci</title>
     <style>
-      body {
-        font-family: system-ui, -apple-system, sans-serif;
+      .test-lista-main {
         max-width: 1200px;
         margin: 0 auto;
         padding: 2rem;
-        line-height: 1.8;
       }
       h1 {
         color: #333;
@@ -77,7 +79,7 @@ try {
   </head>
   <body>
     <Header />
-    
+    <div class="test-lista-main">
     <h1>Lista Completa Articoli</h1>
     
     <div class="stats">
@@ -101,6 +103,9 @@ try {
         );
       })}
     </ol>
+    </div>
+    </main>
+    <Footer />
   </body>
 </html>
 
