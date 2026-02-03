@@ -1,0 +1,68 @@
+---
+title: "Attività di fine stagione del gruppo San Paolo di Roma"
+date: "1977-09-20"
+author: "Redazione"
+theme: "cluster-0"
+cluster_id: 0
+slug: "attivita-di-fine-stagione-del-gruppo-san-paolo-di-roma"
+lang: it
+wp_id: 43849
+has_comments: false
+tema_code: "T15"
+tema_label: "Memoria e storia di Fede e Luce (opzionale)"
+categoria_menu: "Storia"
+issue_number: INS-15
+---
+
+Il gruppo "Hand Out", che altro non sarebbe se non il gruppo San Paolo di Fede e Luce, dopo un'attività iniziata ad ottobre dello scorso anno che ha visto i suoi componenti cementare un affiatamento e una amicizia sempre maggiore con i ragazzi, ha pensato, per finire la stagione in bellezza, di fare qualcosa di diverso della solita festicciola.
+Tra varie proposte più o meno valide si è optato principalmente per due, cioè una rappresentazione nel teatro della nostra sede (presso il Centro Giovanile San Paolo Ostiense), ed una gita insieme agli amici degli altri gruppi.
+
+Per la rappresentazione teatrale si è optato por due farse ad atto unico tenendo conto anche del fatto che l'intero "cast", regia compresa, era al suo esordio. Così un mese abbondante prima del debutto si sono iniziate le prove che, per causa di luogo e di tempo, avvenivano sempre di sera e che hanno visto la regista dannarsi a dare consigli a provetti attori come Sergio, Settimio, Enrico che, con elefantesca memoria, ogni volta declamavano un copione del tutto diverso dal precedente.
+
+Finalmente, tra i vari sudori, si è giunti al fatidico 22 Maggio quando, di fronte ad in folto pubblico, dopo il discorso di presentazione di Clara, si è aperto il sipario sulla prima farsa che vedeva nell'interno di un vagone ferroviario, i viaggiatori più assurdi: Agnese che ha avuto il coraggio di entrare per prima; un'anziana coppia (Rita e Roberto) che tra i vari pregi aveva quello di ... essere sorda; un'inviperita viaggiatrice (Adriana) che aveva avuto un precedente scambio di battute con unimpertinente ragazzina (Leo); una chiacchierona di prim'ordine (Cinzia); un ubriacone (Cecilia) e addirittura un pignolo semi addormentato (Enrico) che viene a battibecco con il controllore (Ettore), e infine una contadina (Teresa) che, per l'inesperienza, aveva lasciato il marito sul marciapiede della stazione.
+
+Terminata la prima farsa c'è stato un intervallo canoro, Cinzia alla chitarra e tutto il pubblico a fare coro, mentre dietro le quinte si lavorava a cambiare frettolosamente le "sontuose" scene.
+
+Un'altra canzone ed ecco il via alla seconda farsa che vede un avaro o meglio un risparmiatore (Settimio) il quale appunto per risparmiare candele, viveva perennemente al buio, preso di mira dagli scherzi arguti di Luigi (Sergio) e messi in atto di Tonia a Saverio (Manuela e Raffaele).
+
+Ed ecco che tutto va per il meglio, a parere del pubblico che non può certo vedere Clasa quasi urlare a Settimio che sta saltando la scena più comica, o Manuela cercare di suggerire a Sergio che non ricorda la battuta, e tanti altri "piccoli particolari" che è senz'altro meglio non svelare.
+
+Ciò che più conta oltre che al il pubblico si sia divertito, è il profondo legame che ci ha uniti con i ragazzi, lavorando insieme quasi ogni sera alla realizzazione dell'Opera, e che è stato suggellato in maniera ancora più decisa con la gita programmata per Tivoli il 5 giugno.
+
+Gita tutta da raccontare... (ed io ve la racconto!)
+
+Appuntamento davanti alla nostra sede alle ore 7.30-
+Ecco Clara, forse per non farsi dare della ritardataria, la sera precedente decide di mettere un po'!!! avanti l'orologio ed è così che è la prima ad arrivare all'appuntamento, alle SEI poi, un bel po' dopo, tutti gli altri (che arrivano tra le 7.15 e le 8, ma che praticamente sono pronti dalla sera prima).
+
+Alle 8, dopo varie raccomandazioni dei genitori, ci si conta. Se è tutti, e allora via a San Giovanni dive ci attendo eun altro gruppo di gitanti.
+
+Sistemati tutti e quarantatrè nei due pullman a nostra disposizione, partendo a razzo con tanto di sgommata alla volta di Tivoli. Favoloso! Per un tragitto che un normale pullman compie in 45 minuti, noi abbiamo impiegato - cinture di sicurezza allacciate e paracadute pronti - solo 1 ora, 47 minuti e 44 secondi. Un vero record! Tutto merito dei due piloti: Rocco Lumaca e Massimo Tartaruga,
+
+L'importante è che siamo giunti alla mèta. Il nostro programma prevede: la mattinata dedicata alla visita di Villa D'Este, con guida d'eccezione nella persona di Leo, dopodiché un vero trasbordo a Villa Adriana dove, dopo aver mangiato e fatto una visita alla villa, ci attendono i giochi e per chiudere la giornata, la santa messa celebrata da Louis.
+
+Questo il programma. Perché, come arriviamo... sorpresa! Le ville sono chiuse per sciopero del personale. Allora si opta su consiglio di Settimio, per il santuario di Quintilio, e non essendoci altra scelta c'è poco da decidere.
+
+Arrivati sul posto ci si accorge di aver lasciato a Roma, a guardia di un pino, la valigia contenente parte dell'attrezzatura dei giochi. Ed ecco allora ripartire per Roma (in macchina) Sergio e Settimio alla vana ricerca della valigia.
+
+Intanto, per iniziare le attività Louis e Robert danno disposizioni per costruire l'altare in pregiato travertino ma molto traballante, puntellato da spighe e da una vecchia cassetta semi distrutta mentre Raffele, con due pezzi di legno tolti alla suddetta cassetta, costruisce un'artistica croce.
+
+Su questo altare costruito con la partecipazione di tutti, natura compresa, è celebrata la messa cui tutti assistono partecipando attentamente.
+
+È giunto l'ora di pranzo finito il quale un po' perché fa caldo, un po' ché essendo chiusa la fonte che c'era fino a pochi mesi fa, tutti sono presi da una grande sete ed essendo il paese a 2 km a turno si va da una famiglia vicina ad elemosinare , con la bava alla bocca per la sete, un po' d'acqua. Ci sono bastati solo 50 litri... (a noi i cammelli ci fanno ridere!).
+
+Ormai tutti dissetati, ci siamo divisi in quattro squadre e cioè:
+
+gli elefanti, capitanati da Leo, con in squadra Goffredo, Robert, Robertina e Giulio;
+I vermi, capitanati da Sergio con in squadra Santina, Teresa, Louis, Agnes e Raffaele;
+le coccinelle capitanate da Cinzia, con i squadra Anna Maria, Arture, Sergio, Mauro, Robertona, Silvia e Laura
+I Conigli capitanati da Cecilia con in squadra Settimio, Luisa, Paolo, Enrico, Simonetta, Roberto, Loris
+
+Quindi abbiamo iniziato i giochi presentatici da due clown, Claudio e Clara, che oltre a far ridere noi hanno fatto ridere anche alcuni gitanti di Latina accampati lì vicino.
+
+Infine terminati i giochi che hanno visto il predominio di... Vermi!, nuovamente tutti sul pullman. Ci siamo fermati a Tivoli dove, formata una fila indiana di diversi Km, l'abbiamo attraversata in lungo e in largo avendo come guida Settimio e come vigile addetto al traffico Goffredo.
+
+Essendo ormai giunte le 18.30, esausti, tutti sul pullman per il veloce rientro. È così che alle 20 O'clock (precise) eravamo di ritorno tra due ali di folla danzanti (i genitori) che ci stavano aspettando.
+
+Per quest'anno è fatta! Manca solo una gita al mare in programma per il 19, questa volta però - in via del tutto straordinaria - saranno ammessi anche i genitori.
+
+*Settimio*, 1977

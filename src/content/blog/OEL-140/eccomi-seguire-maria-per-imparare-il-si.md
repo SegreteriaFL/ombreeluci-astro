@@ -1,0 +1,61 @@
+---
+title: "\"Eccomi\": seguire Maria per imparare il \"sì\""
+date: "2017-12-07"
+author: "Arianna Giuliano"
+theme: "cluster-0"
+cluster_id: 0
+slug: "eccomi-seguire-maria-per-imparare-il-si"
+lang: it
+has_comments: false
+tema_code: "T01"
+tema_label: "Vivere la disabilità"
+categoria_menu: "Disabilità"
+issue_number: OEL-140
+---
+
+### L'Eccomi di Maria: inizio di una nuova storia
+
+“Eccomi sono la serva del signore, avvenga in me quello che hai detto”: con queste parole pronunciate da Maria inizia una nuova, fondamentale pagina nella storia dell’umanità e nel cammino di salvezza. Sono parole piene di significato, ognuna di esse è fonte di riflessione per ogni cristiano chiamato a confrontarsi con la propria vocazione, e in particolare noi giovani che in questi anni della nostra vita siamo chiamati a compiere scelte importanti, scelte che dovrebbero essere coerenti con la fede che professiamo.
+Non si tratta di un cammino semplice**, anzi spesso ci lasciamo sopraffare dai dubbi, dalle incertezze, non riusciamo ad abbandonarci completamente al progetto che Dio ha su ognuno di noi, quasi temendo le conseguenze del nostro sì. Maria, invece, con il suo “Eccomi” rappresenta l’esempio più alto di essere umano che accoglie, pur non comprendendolo a pieno, la sua vocazione, ciò a cui è stata chiamata: diventare la madre di Dio.
+
+### Maria: modello di accoglienza della vocazione
+Il racconto dell’Annunciazione, infatti, è un racconto di vocazione** e perciò è un racconto che ci riguarda, perché tutti siamo segnati da una vocazione, da una chiamata. Anche a noi, in modi diversi, Dio ha mandato un angelo per consegnarci un messaggio e la nostra vita non è altro che la risposta alla chiamata del Signore.
+Dovremmo seguire Maria per imparare il “sì”, per imparare l’”Eccomi!”. La grande libertà che Dio lascia a noi uomini mi ha sempre colpito molto: l’Onnipotente parla, chiede, chiarisce anche attraverso i segni, ma non costringe. Maria non si sente costretta, ma sa bene Chi è che le chiede di accogliere in sé il sublime mistero: è Dio in Persona che lei ama da sempre con tutta se stessa e di cui si fida pienamente.
+
+Anche non sapendo nulla di ciò che stesse per accadere e non essendo a conoscenza delle conseguenze del suo gesto, Maria ha detto “Sì” all’angelo: un sì incondizionato, piegandosi al volere di Dio, che tra tante donne aveva scelto le, la più umile, semplice e buona per farla diventare Madre di Dio.
+
+> **Il racconto dell’Annunciazione, infatti, è un racconto di vocazione e perciò è un racconto che ci riguarda**, perché tutti siamo segnati da una vocazione, da una chiamata.
+
+### La vocazione di Maria e il ruolo della donna
+
+Rileggendo il brano dell’Annunciazione, una parola che mi ha sempre colpito molto è “serva”. L’angelo viene mandato a Nazareth, cioè nel “Terreno dell’umiltà” perché nel terreno dell’umiltà è nata la vocazione di Maria, la cui grandezza sta proprio nella sua umiltà.
+Maria non si inorgoglisce per la predilezione che Dio ha mostrato nei suoi confronti**, sa di essere protagonista e al tempo stesso serva della volontà divina, per questo sceglie liberamente e spontaneamente di pronunciare il suo sì. In noi, invece, è proprio l’orgoglio che ci impedisce l’apertura della nostra libertà, impedisce la lealtà del sì e dell’Eccomi.
+L’Eccomi di Maria è un Eccomi totalmente leale, senza limiti e tentennamenti.** E’ un Eccomi limpido, molto diverso da quello che pronunciamo noi: il nostro sì, spesso, è pieno di paure, di perplessità quasi che non riuscissimo a fidarci pienamente di Dio, ad accettare il progetto che Egli ha su ognuno di noi ed è per questo, forse, che chiudiamo la porta alla vera felicità.
+Dio sta sulla porta e bussa**, sta a noi, alla nostra volontà, aprire e dire “Eccomi”.
+Nell’annuncio dell’angelo c’è un riferimento importante: l’esperienza di Elisabetta, che rappresenta un modo per collegare tra loro, nella Storia, i due eventi che fanno parte di un unico progetto. Maria doveva sapere di Elisabetta: Giovanni, infatti, sarebbe nato per preparare la strada alle venuta di Gesù.
+Prima della chiamata di Maria c’è stata la chiamata di Elisabetta**, perché nessuna vocazione è solitaria, neanche la vocazione di Maria: tutto si muove secondo un disegno per cui le vocazioni devono convergere per formare un quadro unitario.
+
+> Anche a noi, in modi diversi, Dio ha mandato un angelo per consegnarci un messaggio e la nostra vita non è altro che la risposta alla chiamata del Signore.
+
+L’incontro di Maria con l’Angelo ha cambiato la Storia, da quando il Figlio di Dio aveva iniziato a vivere nel suo grembo era successo un fatto straordinario, destinato a stravolgere la valutazione di tutti gli eventi storici futuri: Dio si era dichiarato nella Storia, venendo lui stesso a farne parte. E per fare questo aveva scelto una semplice ragazza ebrea.
+Per comprendere totalmente la portata di questo evento è necessario soffermarsi sul ruolo e la condizione della donna nella società ebraica del I sec. a. C.** Innanzitutto la donna ebrea, ai tempi di Gesù, non era ammessa all’istruzione religiosa: secondo i rabbini questa esclusione era motivata dal fatto che riguardo alla Parola di Dio nella Bibbia è scritto “la insegnerete ai vostri figli” (Dt 11, 19). Se il Signore – così veniva precisato – avesse voluto che l’insegnamento fosse esteso anche alle donne, avrebbe aggiunto “alle vostre figlie”; la donna, inoltre, non partecipava alla vita pubblica del suo popolo, quando usciva di casa doveva tenere sempre il viso nascosto da veli che coprivano il viso, quasi a rendere impossibile il riconoscimento.
+
+Per la sua particolare condizione fisiologica **la donna viveva in una situazione di perenne impurità** (Lv 15, 19-30), e per questo era considerata l’essere umano più distante da Dio. Nel mondo giudaico l’arrivo di una figlia era considerata un’autentica sciagura, come si legge dal Siracide: “Una figlia è per il padre un’inquietudine segreta, la preoccupazione per lei allontana il sonno: nella sua giovinezza, perché non sfiorisca, una volta accasata, perché non sia ripudiata.
+
+Finché è ragazza, si teme che sia sedotta e che resti incinta nella casa paterna; quando è con un marito, che cada in colpa, quando è accasata, che sia sterile” (Sir 42,9-10)
+In questo contesto culturale sorprende, quindi, l’eccezionale rilievo dato alle donne in generale nei Vangeli e il ruolo riservato a Maria in particolare: a lei Dio consegna il destino di tutti. Con il suo “si”, frutto di una fede libera ed obbediente, Maria è diventata la “nuova Eva”, madre di tutti i viventi.
+
+### L'esempio di Maria nella vita e nella fede
+
+È interessante, a mio parere, confrontare **la profonda diversità di comportamento e di scelta compiute da due donne tanto importanti nella Storia dell’Umanità: Eva e Maria. Una – Eva – corrotta dal discorso di un angelo, Lucifero, si allontana da Dio trasgredendo la sua parola e perdendo così la vera libertà, l’altra – Maria – accolse l’Annuncio del discorso di un angelo, Gabriele, e obbedendo alla sua parola, consegna a tutti noi quella stessa libertà che ci ha permesso di chiamarci figli di Dio e lo siamo realmente; come la scelta sbagliata di Eva ci aveva fatti precipitare nel peccato, così il sì libero e gioioso di Maria ha posto le premesse per confermare, attraverso Gesù Cristo, la Nuova Alleanza e redimerci dal peccato.
+
+> L’esempio di Maria è molto importante per me: così come lei ha accettato, senza comprenderlo, il progetto di Dio, anch’io vivo la mia disabilità come il disegno che Lui ha su di me.
+Tutto questo ha cambiato, secondo me, il modo di vivere la fede in Dio**, ha mutato la vita dell’uomo, ha fatto sì che egli si rivolgesse a Maria, come alla mamma celeste a cui chiedere di intercedere per noi presso il Padre.
+
+Nel corso dei secoli la Chiesa ha sempre guardato a Maria come un modello da seguire, per la forza e la dolcezza, la semplicità e la determinazione, in altre parole il suo essere diversa e speciale. Anch’io sono diversa perché sono una ragazza disabile, tetraplegica, e da quelli che mi conoscono sono considerata una ragazza speciale.
+L’esempio di Maria è molto importante per me: così come lei ha accettato, senza comprenderlo, il progetto di Dio, anch’io vivo la mia disabilità come il disegno che Lui ha su di me. Ho accettato la mia condizione, senza comprenderla, ma sono convinta che voler capire del tutto i piani di Dio sia segno di arroganza da parte nostra, quasi volessimo essere come Dio, onnipotenti e onniscienti.
+Mi chiedo spesso quale sia il senso della mia vita** e grazie al sostegno della preghiera e della mia splendida famiglia, ho capito che ognuno di noi realizza la volontà di Dio solo aprendosi e donandosi agli altri con generosità a prescindere dai vincoli e dai limiti che abbiamo. In questo percorso, ritengo che la preghiera sia fondamentale, perché è ciò che ci permette di ascoltare col cuore Colui che ci parla: solo arrivando a fare silenzio dentro di noi possiamo dialogare con Dio e scoprire la vocazione a cui siamo chiamati per riuscire, come ci invita Maria nel brano delle nozze di Cana, a “fare ciò che Lui ci dirà”.
+
+*– Arianna Giuliano, 2013 (n.124)*
+
+### Bastano 2€ al mese per sostenere Ombre e Luci. Dona subito.

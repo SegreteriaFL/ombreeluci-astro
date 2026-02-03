@@ -1,0 +1,35 @@
+---
+title: "Autismo e comunicazione facilitata: Come Michele è uscito dalla sua \"fortezza\""
+date: "2001-09-27"
+author: "Redazione"
+theme: "cluster-0"
+cluster_id: 0
+slug: "autismo-e-comunicazione-facilitata-come-michele-e-uscito-dalla-sua-fortezza"
+lang: it
+wp_id: 22615
+has_comments: false
+tema_code: "T01"
+tema_label: "Vivere la disabilità"
+categoria_menu: "Disabilità"
+issue_number: OEL-76
+---
+
+Avviso
+La comunicazione facilitata non ha ottenuto all’interno della comunità scientifica e professionale, un giudizio unanime rispetto alla sua validità.
+
+L'articolo che segue è stato scritto diversi anni fa e va letto tenendo conto degli anni trascorsi.
+
+- *La Redazione*
+
+I giorni scorsi ho partecipato ad un seminario sul tema «Autismo, insufficienze mentali... la Bioenergia e la Bioelettronica sono una speranza in più?».
+Le ultime ricerche scientifiche in campo biologico sull Autismo dimostrano che in soggetti geneticamente predisposti ci siano dei funzionamenti anomali di certi neurotrasmettitori e che si può arrivare alla quasi guarigione seguendo una terapia a base di integratori per sopperire al deficit o all’eccesso di minerali riscontrato in molti bambini autistici. Inoltre questo studio ha rilevato nella maggior parte dei soggetti delle intolleranze alimentari principalmente al grano, glutine e al latte riconosciuti come causa dei disturbi più frequenti: ansia, iperatti- vità, scarsa concentrazione ecc. Quindi semplicemente seguendo delle diete alimentari (associate spesso ad integratori) già dalle prime settimane si possono notare dei miglioramenti nella sfera del comportamento, dell’attenzione, del linguaggio.
+Naturalmente questa è una spiegazione alquanto grossolana** in quanto non sono né un dottore, né tantomeno un ricercatore, ma solo una mamma aperta a tutte le possibilità. Abituata ai lentissimi progressi di mio figlio, ormai quindicenne, che in questi anni ha raggiunto con grande fatica dei livelli abbastanza soddisfacenti, mi ritrovo ad esprimere le mie perplessità di fronte a questa nuova terapia.
+Fino a sette anni Michele non parlava, pronunciava pochissime parole distorte e sconnesse tra di loro**, inserite in un contesto inappropriato. Era iperattivo e stereotipo, alla ricerca continua di oggetti che gli potessero dare sicurezza, si concentrava solo pochi minuti e non aveva interesse alcuno, né rapporto con me o con il resto della famiglia. Tralasciando le travagliate peripezie alla ricerca della diagnosi, come spesso accade, siamo giunti a sei anni alla diagnosi definitiva di «Tratti Autistici». Abbiamo iniziato diverse terapie e dopo vari tentativi pressocché nulli, siamo felicemente approdati alla psicoterapia che, nonostante i preconcetti e i 7consigli contrari di esperti, ha aiutato Michele a raggiungere un certo equilibrio rendendolo molto più calmo e attento. Abbiamo impiegato anni per incrementare quello che mi sembrava essere l’aspetto principale, focalizzando l’attenzione sul nostro rapporto distaccato e arido. Ogni piccolo passo mi è parso ogni volta una grande vittoria che mi ha incoraggiata a continuare.
+- Leggi anche: [Parliamo di comunicazione facilitata: intervista a Francesca Benassi](https://www.ombreeluci.it/2001/parliamo-di-comunicazione-facilitata-intervista-francesca-benassi/)
+Da 7 anni M. segue la Comunicazione Facilitata. Ricordo con emozione la prima volta che lo vidi scrivere al computer il mio nome, quello del fratello e della sua insegnante di sostegno; non avevo idea che sapesse scrivere e che conoscesse i nomi di coloro che gli stavano intorno. Così si è aperto un nuovo mondo, ho scoperto grazie all’aiuto della terapista della Comunicazione Facilitata che M. ha dei pensieri e dei sentimenti SUOI e che li esprime, anche se in maniera contorta, attraverso il computer. Questo metodo ha sviluppato molto l’area linguistica e concettuale. Infatti oggi M. parla, fa delle frasi compiute e logiche anche se non è capace di raccontare e dialogare. Adesso da quasi un anno M. scrive da solo, senza alcun sostegno da parte della terapista. È stupefacente osservarlo mentre scrive frasi che non si sognerebbe mai di pronunciare come: «Per me avere una cameretta significa poter trovare la momentanea calma». Adesso stiamo lavorando sull’autonomia, insegnandogli giorno per giorno tutti i passaggi per aiutarlo a fare la doccia da solo o a spazzolarsi bene i denti per 8 facilitare la gestione della sua persona.
+
+Per tutto questo mi è difficile credere che una terapia a base di integratori e diete alimentari possa sostituire gli insegnamenti costanti e le faticose cure di tutti questi anni. **È stato come strappare velo dopo velo il telo che ci divideva e ci allontanava sempre più**, travolti da un vortice, senza via d’uscita. Eppure abbiamo lavorato sodo, ho scandagliato con l’aiuto di esperti tutte le sue stereotipie ed i suoi atteggiamenti strani e incomprensibili, di fronte alle sue crisi improvvise di rabbia e pianto ho impiegato tutte le mie energie per aggirare le strategie messe in atta da lui, ho messo in gioco me stessa e spesso sono scesa al suo livello per stuzzicarlo e metterlo in crisi.
+
+Il nuovo Millennio apre le porte alla biochimica e alla bioenergia, una tesi che come per magia risolve il disturbo dell’Autismo. **Ma ci dobbiamo credere?** Oppure non dobbiamo far altro che accettare la realtà e cioè che la mente umana è così intricata e complessa che siamo ancora lontani dalla risoluzione del problema e che ci troviamo davanti a degli agenti esterni che vanno ad interagire su organi difettosi e quindi, è solo un metodo alternativo capace forse di migliorare un aspetto organico di questa meravigliosa macchina. Se qualcuno è convinto del contrario provi a convincermi, se possibile evitando le formule chimiche e rivolgendosi con tutta onestà ad un pubblico di genitori combattuti, offesi e umiliati più volte, eppure sempre energici.
+
+- *Teresa Rendina*, 2002

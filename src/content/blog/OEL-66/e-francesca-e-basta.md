@@ -1,0 +1,39 @@
+---
+title: "È Francesca e basta"
+date: "1999-06-11"
+author: "Redazione"
+theme: "cluster-0"
+cluster_id: 0
+slug: "e-francesca-e-basta"
+lang: it
+numero_rivista: 66
+id_numero: OEL-66
+issue_number: OEL-66
+wp_id: 12808
+has_comments: false
+tema_code: "T01"
+tema_label: "Vivere la disabilità"
+categoria_menu: "Disabilità"
+---
+
+Lui, Luigi Vittorio, sposato e padre di una bambina di 18 mesi, operatore presso una casa famiglia e animatore in un gruppo parrocchiale che comprende disabili e volontari, manda, via Internet, ad un gruppo di discussione un messaggio indignato a proposito di una pubblicità voluta dall’[Associazione ANFFAS](http://www.anffas.net/). Lei, Milena, vive a Forlì. È impiegata e mamma di Giorgia che ha nove anni e di Francesca di 15 mesi. Francesca è down ed è nata con una malformazione al volto chiamata labio-palatoschisi (labbro leporino e assenza di palato molle) Milena, dunque, che è per suo conto una appassionata di Internet, risponde al messaggio è nasce così una conversazione telematica tra due sconosciuti: una mamma piena di ribellione, di paura e l’indignato operatore. La conversazione e la reciproca conoscenza non si interrompono dopo il primo contatto perché Milena ha bisogno di «parlare, piangere, gridare. odiare...» e Luigi Vittorio ha bisogno di capire, di essere testimone, di camminare insieme.
+
+> «Ero tanto arrabbiata con Dio e ora non so...»
+
+Da gennaio a maggio del 1998 la corrispondenza continua: Milena e Vittorio a vicenda raccontano delle loro bambine, della famiglia. del lavoro; scambiano opinioni sulla politica, su libri letti, su films e cantanti. Affrontano problemi sociali: la droga, l’aids, l’aborto. E. naturalmente, parlano della piccola Francesca, della sua nascita, dei suoi problemi, e del suo futuro. Milena racconta, riflette, denuncia, si arrabbia, sorride... Luigi ascolta, racconta a sua volta, riflette e, ogni tanto, invia un messaggio speciale: la testimonianza di uno scrittore, la riflessione di un altro, una preghiera particolare, una poesia. Poi, trascinati dagli argomenti che affrontano, parlano di speranza, di fede, di Dio... «Ero tanto arrabbiata con Dio e ora non so...».
+
+Il libro si chiude con due lettere di Milena alla sua bambina: la prima, scritta al momento della nascita di Francesca, è piena di amore e sofferenza, di paure e forza vitale; la seconda è scritta nel giugno del ’98, e descrive la «riscoperta di Francesca» e del suo «mondo sommerso», l’amore nuovo che Milena sente per lei, un amore maturo che la trasforma e che investe tutto e tutto le fa accogliere della sua bambina: anche «quello che riuscirai o non riuscirai a fare». Due lettere scritte da una mamma come tante, non letterata, non psicologa, non particolarmente religiosa: due lettere, a mio parere, bellissime che documentano un cammino che tutti, indistintamente, dovremmo poter fare.
+
+T.C., 1999
+
+### L'autrice scrive...
+
+Sul sito [Pianetadown](https://www.pianetadown.org/archive/index.php/t-90.html) abbiamo trovato un post dell'autrice, datato gennaio 2006, che riportiamo sperando di far cosa gradita.
+
+*Volevo spiegare, brevemente , quali sono i motivi che sono alla base della nascita di questo libro (nato per caso): il bisogno di comunicazione, il bisogno di condivisione ed infine il bisogno di far capire agli altri.
+Il bisogno di comunicazione al giorno d’oggi, secondo me, è molto più forte di quello che si pensa, proprio perché viviamo in una società dal ritmo frenetico dove i contatti con gli altri sono spiccioli, c’è poco tempo per relazionarsi e, soprattutto, per approfondire le conoscenze, costruire un’amicizia. In questo, e può sembrare un paradosso nell’era "parlante" dei telefoni, Internet come nuova tecnologia ci aiuta molto, proprio perché ci aiuta a riscoprire la scrittura come strumento di comunicazione. Sono convinta che la scrittura permetta una conoscenza molto più profonda fra le persone, si ha il tempo di meditare, analizzare, interrogarsi, e di non "scrivere" a vanvera… o tanto per scrivere. Sicuramente è un mezzo "facile" che permette, a chi ha difficoltà ai contatti umani magari per timidezza, di conoscere altre persone anche se purtroppo solo virtualmente. E' un mezzo che oggettivamente ha sicuramente dei limiti: il più grande è quello di non potersi guardare negli occhi, anche se nel mio caso è stato una "panacea", proprio perchè mi era più facile raccontarmi ad uno sconosciuto: Luigi Vittorio, lui era come un diario, uno specchio che mi rispondeva.
+Il bisogno di condivisione lo sentivo dentro: vivo, pulsante e doloroso. Ho avuto la fortuna di incontrare sulla rete Luigi Vittorio… che ha condiviso con me un problema, e mi ha accompagnata, con tenacia e dolcezza, nel processo di accettazione dell’handicap di mia figlia Francesca.
+Il bisogno di far capire agli altri…di partecipare agli altri la mia esperienza :è questo il motivo principale che alla fine mi ha spinto a pubblicare una parte del mio vissuto, nonostante io sia una persona timida e schiva. Questo libro ha smosso delle emozioni, me ne sono accorta grazie a tante manifestazioni di solidarietà e di affetto ricevute in questi anni, quindi credo che il risultato sia stato in parte raggiunto.
+Non è stato facile per me decidere di darmi in pasto alla gente, con tutte le mie debolezze e i miei rifiuti, ma sono convinta che questo mio mettermi in discussione per primo può servire ad altre madri "speciali" a guardarsi dentro e ad imparare ad amare i propri figli non per quello che ti possono dare, ma per quello che sono. E Francesca è, appunto, Francesca e basta.
+Dicendo che il risultato è stato in parte raggiunto intendo dire che la strada da fare nel mondo dell’handicap è ancora lunga e tortuosa. Le cose stanno in parte migliorando grazie alla "visibilità" che c’è al giorno d’oggi: insomma questi nostri figli non sono più chiusi in casa o in istituti speciali, ma cominciano ad essere parte integrante di questa società anche se sul loro futuro, ancora, non ci si investe. Purtroppo per molte associazioni e strutture questi nostri ragazzi sono solo un business, non ci si preoccupa dei loro sentimenti, della loro dignità, delle loro infinite potenzialità. Per questo è importante la loro "visibilità": possono fare paura a chi non li conosce… è normale, ma quando impari a conoscerli, a guardarli negli occhi la paura se ne va, cominci a chiamarli per nome, a distinguerli fra loro… a capire che anche loro possono darti qualcosa, che non sono handicappati e basta… ma qualcosa di molto più grande, unico e vero… capisci che sono persone con i loro pregi, difetti e la loro unicità, proprio come ognuno di noi.
+Non abbiate paura di loro, cercate di conoscerli e di non soffermarvi sulle apparenze, fissate i loro sguardi e, come mi disse un giorno una mamma, ricordatevi di quegli occhi, di quel viso quando spingete da dietro la loro carrozzina. So che ci sono tante persone nel mondo del volontariato che queste cose le hanno capite da tempo: Luigi Vittorio è una di queste persone e grazie a lui e all’impegno di altre persone che hanno creduto nel progetto Casa Blu, da oramai qualche anno, a Roma è nata una casa famiglia che ospita ragazzi con gravi handicap. A breve dovrebbe aprire anche "Casa Salvatore"... insomma, da un piccolo sogno, si è arrivati a dei progetti veri... e la storia continua.*

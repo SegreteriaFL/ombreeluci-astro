@@ -1,0 +1,23 @@
+---
+title: "Cosa c'è oltre la scuola?"
+date: "2021-02-04"
+author: "Monica Leggeri"
+theme: "cluster-0"
+cluster_id: 0
+slug: "cosa-ce-oltre-la-scuola"
+lang: it
+wp_id: 23723
+has_comments: false
+tema_code: "T13"
+tema_label: "Linguaggio, cultura e rappresentazioni"
+categoria_menu: "Cultura"
+issue_number: OEL-152
+id_numero: OEL-152
+---
+Noi genitori che, sin dal nido, abbiamo cercato modalità, rapporti e persone che potessero aiutare i nostri figli a trovare un ambiente accogliente e inclusivo; noi che abbiamo incontrato nella scuola forse l’unica occasione di relazione con i loro pari per i nostri figli. Noi che sappiamo che nel “dopo scuola” per i ragazzi con disabilità mentale non c’è molto, forse nulla, se non centri diurni con lunghe liste di attesa che rischiano di compromettere tutto il lavoro svolto in precedenza, con la paura di vedere i nostri ragazzi regredire. Noi che sentiamo angosciante la domanda: «Cosa c’è per i nostri figli, dopo la scuola?».
+
+Della questione hanno cercato di farsi carico, una decina di anni fa, Ferdinanda Cargoni e Valentina Spalletta. Assistenti specialistiche dal 2004 di alcuni ragazzi con disabilità mentale al liceo Gelasio Caetani di Roma, Cargoni e Spalletta hanno portato avanti il progetto di integrazione scolastica finanziato dalla provincia di Roma, instaurando un rapporto di fiducia e scambio con i ragazzi e le loro famiglie, attraverso le attività svolte nella scuola e durante i viaggi organizzati. Su richiesta dei genitori, hanno poi iniziato a organizzare uscite pomeridiane di gruppo con i ragazzi che già si conoscevano. «Si è creato così – spiega Cargoni – un buon affiatamento sia individualmente che in gruppo, coordinandosi continuamente con la maggior parte delle figure specialistiche con le quali rimaniamo in stretto contatto. L’uscita dal mondo della scuola dei ragazzi è un cambiamento radicale nelle abitudini quotidiane e nei rapporti interpersonali. I genitori ci hanno manifestato un forte interesse a mantenere il gruppo unito, dimostrando fiducia per il lavoro che avevamo svolto durante la scuola. Abbiamo deciso di costituire [*Il Col**i**brì*](https://www.facebook.com/Associazione-Il-colibri-APS-1706213456274053/) come no profit nell’ottobre del 2015 e, nel 2019, siamo diventati ente del Terzo Settore».
+
+A oggi l’associazione [*Il Col**i**brì*](https://www.facebook.com/Associazione-Il-colibri-APS-1706213456274053/) segue otto ragazzi e offre un’alternativa valida al centro diurno. A causa della mancanza di opportuni finanziamenti però («le pratiche burocratiche estremamente lunghe e piene di cavilli non favoriscono le piccole realtà con i loro progetti alternativi, e si scontrano con il muro delle istituzioni e dei soliti colossi»), i ragazzi possono incontrarsi solo tre volte a settimana. In queste occasioni vengono svolte diverse attività – spiega ancora Cargoni – «a cominciare dall’accoglienza con il “Tu come stai?”. Poi un tè e qualche biscotto, preparato con noi o a casa, cui seguono varie attività, tra cui pittura, lettura, lettura del giornale e commento, educazione civica. Da circa un anno trascorriamo un giorno a settimana nella biblioteca comunale Flaminia, ospiti del progetto Leggere in tutti i sensi. Ogni due mesi organizziamo dei viaggi culturali, un momento di svago, forte aggregazione e di rinforzo delle autonomie. Dal 2019 offriamo anche un’attività di alternanza scuola-lavoro che vede la partecipazione di studenti del liceo Gelasio Caetani in un’ottica di scambio tra pari».
+
+Un’ulteriore difficoltà, segnala Ferdinanda Cargoni, riguarda la poca chiarezza intorno alla disabilità adulta su “chi può fare cosa” a livello educativo e terapeutico. «È proprio per questo motivo che abbiamo creato un’area educativa dove ciascuno ha le proprie competenze, e dove non si sostituisce l’educatore con lo psicologo, oppure l’assistente sociale con l’OSS, creando una promiscuità di ruoli e di compensi». Emerge purtroppo ancora una società impreparata ai percorsi inclusivi: il progetto nel cassetto è proprio quello di promuovere una realtà accogliente, a cominciare da quella abitativa. «Un appartamento magari - spiega ancora Cargoni - in un contesto cittadino già frequentato dai ragazzi: permetterebbe loro di sperimentarsi nel vivere autonomamente all’interno di un programma individualizzato e supportati da operatori specializzati. Pensare, insomma, anche per loro una vita dignitosa da adulti: in aiuto e supporto alle famiglie per promuovere la salute psicobiologica dell’individuo in qualsiasi condizione si trovi». E aprire, come per tutti i loro coetanei, una finestra sul futuro.

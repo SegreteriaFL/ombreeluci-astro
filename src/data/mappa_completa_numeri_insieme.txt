@@ -1,0 +1,33 @@
+ID Numero,Titolo Ufficiale nell'Archivio,Anno
+INS-30,Insieme n. 30 – Bollettino Fede e Luce,1981
+INS-29,Insieme n. 29 – Bollettino Fede e Luce,1981
+INS-28,Insieme n. 28 – Bollettino Fede e Luce,1981
+INS-27,Insieme n. 27 – Bollettino Fede e Luce,1980
+INS-26,Insieme n. 26 – Bollettino Fede e Luce,1980
+INS-25,Insieme n. 25 – Bollettino Fede e Luce,1980
+INS-24,Insieme n. 24 – Bollettino Fede e Luce,1980
+INS-23,Insieme n. 23 – Bollettino Fede e Luce,1979
+INS-22,Insieme n. 22 – Bollettino Fede e Luce,1979
+INS-21,Insieme n. 21 – Bollettino Fede e Luce,1979
+INS-20,Insieme n. 20 – Bollettino Fede e Luce,1979
+INS-19,Insieme n. 19 – Bollettino Fede e Luce,1978
+INS-18,Insieme n. 18 – Bollettino Fede e Luce,1978
+INS-17,Insieme n. 17 – Bollettino Fede e Luce (Assisi),1978
+INS-16,Insieme n. 16 – Bollettino Fede e Luce,1978
+INS-15,Insieme n. 15 – Bollettino Fede e Luce,1977
+INS-14,Insieme n. 14 – Bollettino Fede e Luce,1977
+INS-13,Insieme n. 13 – Bollettino Fede e Luce,1977
+INS-12,Insieme n. 12 – Bollettino Fede e Luce,1977
+INS-11,Insieme n. 11 – Bollettino Fede e Luce,1976
+INS-10,Insieme n. 10 – Bollettino Fede e Luce,1976
+INS-9,Insieme n. 9 – Bollettino Fede e Luce,1976
+INS-8,Insieme n. 8 – Bollettino Fede e Luce,1976
+INS-7,Insieme n. 7 – Bollettino Fede e Luce,1975
+INS-6,Insieme n. 6 – Speciale Pellegrinaggio Roma,1975
+INS-5,Insieme n. 5 – Bollettino Fede e Luce,1975
+INS-4,Insieme n. 4 – Bollettino Fede e Luce,1975
+INS-3,Insieme n. 3 – Bollettino di Fede e Luce,1974
+INS-2,Insieme n. 2 – Bollettino Fede e Luce,1974
+INS-1,Insieme n. 1 – Bollettino Fede e Luce,1974
+INS-SP1,Insieme “Speciale Fede e Luce” – 1981,1981
+INS-SP2,Insieme Giallo – Speciale Verso Pasqua 1981,1981

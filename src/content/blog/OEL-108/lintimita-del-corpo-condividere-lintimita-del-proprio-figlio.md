@@ -1,0 +1,46 @@
+---
+title: "L’intimita del corpo: condividere l’intimità del proprio figlio"
+date: "2009-12-10"
+author: "Redazione"
+theme: "cluster-1"
+cluster_id: 1
+slug: "lintimita-del-corpo-condividere-lintimita-del-proprio-figlio"
+lang: it
+wp_id: 34578
+has_comments: false
+tema_code: "T02"
+tema_label: "Famiglie, genitori, fratelli"
+categoria_menu: "Famiglie"
+issue_number: OEL-108
+---
+
+Perché bisogna dare importanza al momento della toilette, cioè al momento dell’intimità con il corpo del proprio figlio?
+L’intimità con il corpo dell’altro è, in realtà, fondamentale perché, se bene vissuto dà valore al corpo che ci è affidato. Per aiutare il ragazzo a condividere questo momento così delicato bisogna convincerlo a pensare che il suo corpo è bello, ha valore ed è quindi necessario prendersene cura. Anche se ferito o malato il suo corpo è “Tempio dello Spirito Santo” e quindi sempre degno di amore e rispetto. Il corpo è il prezioso scrigno della sua persona. Pensando a questo è normale volere custodire il suo corpo e insieme la sua dignità riflettendo sul senso dell’intimità.
+Come si può definire l’intimità?
+Intimità è tutto ciò che costituisce l’individualità di una persona, tutto ciò che gli appartiene in modo esclusivo, sia sul piano fisico, che affettivo e spirituale. Purtroppo, nel caso della persona handicappata, l'intimità è forzatamente più limitata e deve spesso essere condivisa con genitori e assistenti. Non per questo l’intimità viene meno ma continua ad essere tale se condivisa con poche persone vicine, sempre rispettose del pudore difeso sia all’interno della casa come del centro ospitante, da sguardi esterni. Si dimostra di rispettare l'intimità della persona imponendosi sempre il “proposito dell’attenzione” cioè quello di evitare ogni gesto che possa mettere a rischio la difesa della sua intimità: saper chiudere la porta, abbassare una tenda, adottare un linguaggio delicato...E, in generale, semplicemente saper mettersi al suo posto e comportarsi con lei come vorremmo ci si comportasse con noi (esercizio sempre molto salutare!).
+
+Ma il rispetto dell’intimità non si ferma al problema della persona fisica. C'è il rispetto della volontà, dell’interiorità, della vita spirituale e dei sentimenti della persona handicappata. Non prendere iniziative per lei senza il suo consenso, accettare che non ci confidi tutto, rispettare i suoi gusti, le sue manie, le sue piccole civetterie...sono tutti aspetti molto delicati.
+La cura del corpo può diventare un momento importante?
+La prima preoccupazione sarà quella di trasformare la toilette in un momento di rilassamento e di piacere, facendo dimenticare la sofferenza dell'handicap. Questo si può ottenere usando prodotti piacevoli: oli profumati, saponi morbidi, sali da bagno...con massaggi alla schiena e alla nuca...con la musica e con ogni altro mezzo che renda più gradevole l’ambiente. E soprattutto bisogna evitare che la pulizia e la cura del corpo sia vissuta come un incarico fastidioso, di routine da svolgere in fretta. Infatti questo momento di intimità tra genitori e figlio è anche un'occasione importante per dimostrare affetto, tenerezza e per parlare... Per dire qualcosa che consenta alla persona handicappata di sentire riconosciuta la sua sofferenza... “So che è difficile per te accettare che io faccia questi gesti al tuo posto..” o perché senta valorizzato il suo corpo... “Hai una pelle molto morbida....dei capelli bellissimi... fai grandi progressi”. La cura del corpo, può così diventare un momento per trasmettere affetto e tenerezza.
+Si può educare al pudore?
+Questo è un punto fondamentale nell’educazione, in particolare per i ragazzi con handicap mentale che hanno molta difficoltà a contenere la loro affettività. In modo più o meno invadente possono mettere a disagio chi li avvicina ma soprattutto possono mettere sé stessi in grave pericolo se il loro modo eccessivo di esternare l’affetto viene preso per una provocazione. È quindi molto importante insegnare loro fin da bambini il riserbo nei gesti e nei sentimenti.
+
+Si può ad esempio, spiegare che il suo corpo appartiene esclusivamente a lui solo e che nessuno quindi, salvo che per alcuni momenti di cure e di pulizia, deve toccarlo o accostarlo da vicino. Si può dirgli che alcune parti del corpo, pur non avendo niente di brutto o vergognoso, sono “riservate” e non devono essere mostrate in pubblico. Ancora.. “non si abbraccia chiunque si incontra, né ci si getta al collo al primo venuto” perché “questa è la regola decisa per vivere insieme civilmente”. Senza bisogno di tante altre spiegazioni il ragazzo capisce da solo che si tratta di regole da rispettare per stare insieme agli altri.
+Quando è fuori di casa, come si può fare rispettare la sua intimità?
+Sono stati fatti molti progressi negli ultimi anni per quanto riguarda ospedali e centri di accoglienza. L’intimità è un diritto per tutti e per ognuno, ma nella ripetitività dei gesti quotidiani può capitare che infermieri o medici dimentichino questa regola fondamentale. È compito, in quel caso, dei genitori ricordare, con tatto e gentilezza questo diritto fondamentale suggerendo un altro modo di agire. Anche se riconoscendo gli sforzi fatti per una migliore accoglienza dei loro ragazzi, i genitori devono poter parlare per spiegare i loro problemi. Spesso, invece, si assiste a un malinteso: da un lato i genitori resi suscettibili dalla loro sofferenza, indicano gli errori con troppa aggressività, dall'altro lato il personale medico tende a considerare i genitori come persone sempre troppo esigenti. A volte si tratta di un problema di linguaggio, di una errata interpretazione delle intenzioni da entrambi le parti, che potrebbero essere risolti con un modo di parlare più gentile e accorto o, meglio ancora, con una lettera scritta con calma.
+Forse c’è anche un problema nel trovare la "giusta distanza" nel rapporto di aiuto?
+Senza dubbio e questo esiste sia in famiglia che nelle istituzioni pubbliche. Per moltissime persone disabili fisiche è una sofferenza enorme accettare che un altro entri nella loro intimità, soprattutto a partire dall’adolescenza. Fino a quel momento i genitori sono naturalmente le persone più adeguate ma con l’età adulta forse non lo sono più. E se la toilette diviene un momento di tensione o di lite è preferibile proporre al proprio caro di cercare un aiuto esterno. Così nel caso di una figlia divenuta troppo pesante per la schiena e le braccia di una mamma anziana, o di un ragazzo che a fatica controlla la sua virilità sotto la doccia.
+
+Per i genitori è un sacrificio accettare che, al posto loro,un estraneo si prenda cura del figlio nell'intimità e poi c’è il costo in danaro... ma l'importante è scegliere il modo migliore, genitore o persona addetta, affinché il momento della toilette resti il più possibile sereno e rilassato. Infine ognuno saprà trovare la maniera di accordare rispetto e intimità: l’essenziale è di farlo con il cuore e tutta la delicatezza possibile.
+
+*a cura di Agathe Jarry*, 2009
+
+(Ombres et Lumiére n. 169)
+
+### La pubertà di mia figlia mi mette a disagio
+
+Quando Laura è diventata adolescente, per anni ho voluto che il suo corpo non crescesse. Mi metteva a disagio che mia figlia potesse avere un fisico da donna con l’intelligenza di un bambino di tre anni. Ero impaurita all'idea di vedere i segni della femminilità sul suo corpo disabile.
+L’arrivo delle prime mestruazioni, soprattutto, mi hanno destabilizzata perché Laura non poteva gestire da sola questo problema. Bisognava cambiarla cinque volte al giorno.
+Oggi Laura è in un centro e altre persone mi hanno dato il cambio.
+D. Barmi
+(Ombres et Lumiére n. 169)

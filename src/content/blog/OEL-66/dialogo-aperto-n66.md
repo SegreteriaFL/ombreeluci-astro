@@ -1,0 +1,32 @@
+---
+title: Dialogo aperto n.66
+date: 1999-06-11
+author: Redazione
+slug: dialogo-aperto-n66
+lang: it
+numero_rivista: 66
+id_numero: OEL-66
+issue_number: OEL-66
+wp_id: 12799
+original_url: "https://www.ombreeluci.it/?p=12799"
+cluster_id: 14
+has_comments: false
+umap_x: 4.478573799133301
+umap_y: 8.08601188659668
+umap_z: 10.219018936157227
+---
+
+### A proposito di «Mamma e teologo»
+
+Vi scrivo la mia esperienza per quanto riguarda l'articolo dell’ultimo numero: «La mamma e il teologo». Ho svolto il mio lavoro di terapista della riabilitazione per la quasi totalità con bambini cerebrolesi. La mia fortuna è stata quella di aver scelto questo lavoro da piccola e sono riuscita a svolgerlo per 26 anni fino a quando per ragioni di salute ho dovuto andare in pensione ma sono sempre nel volontariato e ora in una piccola associazione di genitori che vuole pensare al "dopo". Il problema del dolore e della sofferenza e una certa spiegazione di esso alla luce di Cristo mi ha sempre accompagnato. Poco o quasi nulla è stato l’aiuto ricevuto dai sacerdoti o chi per loro. È vero che tutti si riferiscono alla Croce e poi basta. Ho sempre rifiutato in cuor mio questo. Tantissimo aiuto l’ho avuto dai libri di
+[Jean Vanier](http://www.ombreeluci.it/jeanvanier/)
+al quale sono molto vicina come idee. Non potendo così dare una spiegazione mi sono sempre arresa nel senso che solo Dio sa i suoi progetti e non sono certo i nostri. Quale conforto è stato leggere che un teologo dica: «State zitti se non sapete fare miracoli». Ho trovato conferma al mio agire in tutti questi anni. Guardo e ho guardato Gesù: cosa fa Lui, guardo i suoi insegnamenti attraverso il Vangelo. Prima cosa: Lui li ha amati ed io devo percorrere questa strada. Amali, e poi il resto viene da sé. Le parole non sono mai servite molto. Poi che fa Gesù? Vede le necessità delle persone che incontra e le sfama. Anche io cercavo di sfamare il loro desiderio di vita. Quando una nuova famiglia veniva in ambulatorio cercavo di guardarla in toto, non solo il bambino colpito staccandolo da essa. Cercavo di far capire loro che erano le persone più importanti per me in quel momento. La preparazione professionale era una cosa importante per me e l’aggiornamento fondamentale perché dovevo donare «il meglio» delle mie possibilità. (Non sempre tutto è filato liscio certamente, ma quello era il mio desiderio di fondo. Ho fatto anche io tanti errori, non sono infallibile, sono una con i miei difetti). Lascio a voi immaginare tutte le domande poste di continuo: «Perché mi è capitato questo? Perché Dio.?» Rispondevo sempre che non lo sapevo e di non chiederselo perché questo li portava lontano e a non amare il figlio. Assicuravo sempre e garantivo il mio aiuto promettendo che non li avrei mai lasciati. (E insieme a loro che oggi li aiuto per il "dopo"). Così mi arrabbiavo e mi arrabbio tuttora quando le persone si avvicinavano con pietismo. Quando questi bambini, diventati grandi, mi dicevano la loro rabbia perché le persone dicevano davanti a loro «poverini», ho insegnato loro a rispondere: «perché poverini? perché sfortunati? Io sono felice, forse sei tu poverino che non riesci a guardarmi come ragazzo, ma vedi solo la mia carrozzina, i miei movimenti inconsulti...». Poi spiegavo loro che dovevano farlo anche se questo dava loro fastidio perché avevano Il compito di educare queste persone per preparare la strada anche a quelli che non avevano la possibilità di rispondere e per farli conoscere... Un’ultima cosa: un’esperienza personalissima di quando non stavo bene e avevo bisogno degli altri. Mi ero arrabbiata con la parabola del Samaritano e poi ho rielaborato il tutto. La parabola del Samaritano è solo l’inizio dell’insegnamento di Gesù, è il minimo indispensabile, il primo passo. Le persone vengono ad aiutarti, a farti visita, a metter mano al portafoglio e poi se ne vanno a sbrigare i loro affari e chi si è visto si è visto. La difficoltà è il passo successivo, è quello di dimenticare i nostri affari, di cercare di dimenticare un po’ noi stessi per condividere quotidianamente le loro difficoltà e andare al loro passo con tanta pazienza e amore duraturo nel tempo dimenticando a volte T orologio perché i tempi dei nostri amici non coincidono con i nostri, le loro esigenze e volontà non sono le nostre come la volontà di Dio non è la nostra.
+**Ernesta Sirtori**
+
+---
+
+### Io non capisco perché...
+
+...Mi rendo conto di tutto quello che accade nel mondo. Il problema più grande è la disoccupazione, perché molte persone sono senza lavoro e io sento che non è possibile continuare così... le persone normali le capisco e le invidio. Con chi ha problemi sto male perché devo avere pazienza, e soprattutto capire cosa vogliono: essere aiutati a fare tutto... Mi sento in contraddizione... io da solo in certi momenti sto bene, quando sento la musica, o scrivo o faccio le parole crociate. In altri sono triste e avrei una tale voglia di andarmene... Vorrei essere accettato per quello che sono e per quello che dimostro con tutti i miei problemi... Vorrei dire tutto quello che sento, ma ho paura di sbagliare, di essere mandato via. frainteso. Ma quello che mi ha fregato più di tutto è Tamore, perché io sento di amare, ma non so né chi né come si fa, nessuno mi insegna niente! Ma perché mai, tutte le volte che mi piace una ragazza succede sempre che lei è fidanzata, e io rimango da solo e non so neanche dove la incontro? È colpa mia che penso solo a questo, oppure devo attendere, non l’ho mai capito perché...
+**Giovanni Grossi**
+*Caro Giovanni , le cose che dici , gli stati d'animo che esprimi nella tua lunga lettera , lo saprai , sono comuni a tanti ragazzi della tua età e anche a persone più adulte: il malessere per i problemi che ci circondano, la voglia di lavorare per gli altri e insieme la paura di essere troppo coinvolti o di non essere accettati per quello che si è...il desiderio grandissimo di amore, e la paura di non trovare la ragazza ideale ... Tanti nostri lettori si riconosceranno nelle tue parole e chissà, forse a qualcuno verrà voglia di risponderti, di raccontarti i suoi problemi... Intanto, credici , hai dato voce a tanti ragazzi che non sanno esprimere il loro disagio come fai tu. Grazie per averci scritto.*

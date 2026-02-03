@@ -1,0 +1,62 @@
+---
+title: "Punti di incontro: servire, giocare, lavorare, riflettere..."
+date: 1986-06-24
+author: Redazione
+slug: punti-di-incontro-servire-giocare-lavorare-riflettere
+lang: it
+wp_id: 5429
+original_url: "https://www.ombreeluci.it/?p=5429"
+cluster_id: 12
+has_comments: false
+tags:
+  - formazione
+  - riflessioni
+  - pellegrinaggio-assisi-1986
+  - piccoli-gruppi
+  - attivita-laboratoriali
+umap_x: 8.847167015075684
+umap_y: 8.281907081604004
+umap_z: 10.943313598632812
+issue_number: OEL-14
+id_numero: OEL-14
+---
+### Costruiamo insieme: fai un regalo per...
+
+Manualità per chi vuole. Infatti i ragazzi non ne hanno nessuna voglia. Il lavoro proposto dal conduttore è abbastanza semplice e ha buon rendimento. Ci sono quadrati e rettangoli di spesso cartone grigio, quadrati e rettangoli un po’ più piccoli di carta marrone (ritagli regalati da una tipografia), molte foglie essiccate di forme e misure diverse, cellophane. Si fermano sul cartone con una toccata di colla le foghe singole o in composizione; volendo si incolla prima la carta marrone sul cartone grigio per avere un effetto cornice. Si stende sopra un pezzo di cellophane, incollandolo sul retro del cartone. Si passa poi il tutto faccia in giù su una fiamma (lì si usava alcool e ovatta, ma è meglio il fornello a gas) in modo che il cellophane si tenda bene. L’interesse maggiore dei ragazzi pare sia toccare con energia le fragili foglie appiattite. Per fortuna l’attenzione cresce alla frase: «facciamo un regalo per...».
+**Fare un regalo significa più che fare un lavoro**
+. Il lavoro è articolato in operazioni semplici che comportano esercizio del gusto (scelta delle foglie, composizione, inserimento o no della carta marrone), esercizio manuale (mettere in posizione cartone e carta, prendere con delicatezza le foglie, incollare). Sergio è addetto al passaggio dei quadretti sulla fiamma, talvolta con effetti disastrosi: troppo svelto e il cellophane non tira, troppo lento e il cellophane brucia. Il più entusiasta è Mariolino di Bari: comincia col «regalo per mamma», poi «per Lidia», e poi per una fila interminabile di parenti. Finisce le due ore felice con le mani piene di quadretti, ognuno col nome del destinatario. Sergio finisce con meno entusiasmo, avendo distrattamente preso il piatto sul quale alcool e cotone erano a lungo bruciati. Alcool sulle scottature — fa bene, fa bene! Poi Aiax per pulire il piatto annerito proprietà della Cittadella. E ci si mette per via, alla Basilica Superiore, per la
+[messa col Card. Martini](http://www.ombreeluci.it/1986/perche-si-manifestassero-le-opere-dio/)
+. di
+**Maria Sciascia**
+, comunità di S. Francesco (Roma)
+
+### Sorella morte: tabù o speranza?
+
+Ho partecipato all’incontro «Laudato si' mi’ Signore per sorella morte corporale» (la morte, tabù o speranza?), perché l’estate scorsa, a causa di un incidente automobilistico, sono stato lì lì per morire e da quel momento questo argomento mi incuriosisce particolarmente. La discussione si è sviluppata su un filo essenzialmente teorico perché è molto difficile che le persone abbiano avuto un contatto diretto con la morte. Il fatto di essere cristiani ci porta o ci dovrebbe portare a considerare la morte come speranza. Questa è stata la considerazione più ricorrente e sicuramente più importante scaturita durante rincontro. È emerso però anche che quelle poche persone che come me hanno pensato di trovarsi vicino alla morte, in quel momento l’abbiano considerata un tabù, vuoi per un momentaneo istinto di sopravvivenza, vuoi per l’impreparazione a morire senza avere potuto fare completamente ciò che si vorrebbe. Quest’incontro mi ha personalmente permesso di riflettere con l’aiuto di altre persone ed esperienze su argomenti importanti come appunto la morte, la sofferenza, la paura, la nostra fede. A discussione conclusa ho avuto l’impressione che ognuno di noi, come è successo a me, avesse acquisito una maggiore serenità di prima nell'affrontare questi temi. di
+**Paolo Braga**
+17 anni (Milano)
+
+### Perdonare è farsi perdonare
+
+Per il Punto di incontro sul perdono (con più partecipanti del previsto),
+[la traccia è quella suggerita da Jean Vanier](http://www.ombreeluci.it/1986/scendere-le-scale/)
+in «Comunità come luogo di perdono e di festa». Finché non accetto di essere un miscuglio di luce e di tenebre, di qualità e difetti, di amore e odio... continuo a dividere il mondo in nemici e amici, continuo a erigere barriere in me e all'esterno. Quando ammetto di avere debolezze e difetti, ma anche di poter progredire verso la libertà interiore e un amore più vero, allora posso accettare difetti e debolezze degli altri e che anch'essi possono progredire verso la libertà dell’amore. Alla discussione, partecipano tutti, con naturalezza e semplicità, pur sentendo quanto sia difficile il perdono. Ricordo alcune delle osservazioni del gruppo.
+- Il dono del perdono non è gratuito, ma richiede la nostra collaborazione. - È un dono che bisogna chiedere, volere. - Si riesce a perdonare, ma non a dimenticare. - È più facile perdonare le grandi offese, di quelle che si ripetono ogni giorno. - Quanto, è difficile perdonare (?!) al Signore quando siamo colpiti da grandi disgrazie. - Un maestro di spiritualità diceva: le ferite profonde lasciano cicatrici. - Colui che perdona sembra superiore, invece si trova nella condizione di perdonare perché l’altro è importante per lui.
+Da questa conversazione è emersa la gioia di riuscire a incontrarci e poter parlare, in serenità, di temi impegnativi. di
+**Virginia Goffi**
+,
+[Comunità di S. Giuseppe della pace](http://www.fedeeluce.it/san-giuseppe-della-pace-(milano).html)
+(Milano)
+
+### Da grande vorrei... Bisogno di parlare
+
+Nel gruppo diretto da Mariangela Bertolini sul tema «Che vorrei fare da grande?» scelto per persone con handicap medio-lieve, c’erano dieci ragazze tutte con capacità di esprimersi. Alla domanda «Che vorrai fare da grande?» molte delle giovani presenti espressero il desiderio di sposarsi; ma approfondendo l’argomento, ci sembrò che non tutte avessero le idee chiare: una di loro disse che aveva avuto diverse proposte di matrimonio, ma quando si spiegò meglio, capimmo che tali richieste non erano altro che frasi dette da un amico, tipo: «ti voglio bene!». Mariangela ha dovuto spiegare che «ti voglio bene» o «mi sei simpatica», non significa «ti voglio sposare», e che per sposarsi bisogna essere in due: non basta che una ragazza desideri sposarsi perché questo avvenga. Un’altra ragazza ha raccontato come si sentiva gelosa al matrimonio di una cugina: «So che io non posso sposarmi — diceva — però non è giusto!» Eravamo tutti d’accordo, infatti non è giusto! A questo punto abbiamo parlato un po’ della responsabilità nel matrimonio. Mariangela chiedeva: «Sapete amministrare i soldi? Sapete fare la spesa per la famiglia e far tornare i conti?» L’idea di fare i conti le ha un po’ tutte preoccupate... Io ho chiesto: «E se vi dovesse nascere un bambino malato, sapreste curarlo?» Ho parlato un po’ delle cose che io ho dovuto fare per Sabina da quando è nata (visite mediche, soggiorni in ospedale...) Tutte erano zitte. Una ha azzardato: «Il pupo se sta male lo porto da mamma...» L’atmosfera era carica di tristezza. Non avevano pensato alle difficoltà del matrimonio, ma solo alla bellezza dell’essere innamorati. Abbiamo fatto una pausa sorridente a base di coca e aranciata. Non tutte le ragazze si volevano sposare; una voleva diventare suora, una restare a casa con i genitori, una aprire un negozio. Tutte si sono mostrate desiderose di lavorare e hanno parlato del loro lavoro con molta fierezza. Penso che la conversazione sia stata utile, anche se alcuni desideri delle ragazze sono destinati ad essere frustrati. Hanno bisogno comunque di parlare dei loro problemi e non tenere tutto dentro. Parlando insieme, si può aiutarle a trovare un atteggiamento più realistico. È necessario offrire loro delle alternative, come il lavoro, l’amicizia e la possibilità di conversare con delle persone disposte ad ascoltarle con affetto. di
+**Olga Burrows Gammarelli**
+, Comunità di S. Francesco (Roma)
+
+### Ci incontriamo con Pierangelo Sequeri
+
+Affollatissimo l'incontro con Pierangelo Sequeri venerdì 25 aprile, nel pomeriggio, ad Assisi: tantissimi ragazzi accompagnati da alcuni amici. Il tema indicato è appunto «Ci incontriamo». Un grande cartellone rosso su cui spicca una stilizzata croce nera — riproduzione di una moderna scultura — è di fronte ai ragazzi seduti. Pierangelo distribuisce alcune illustrazioni per lo più tratte da giornali; poi — dopo aver detto brevissime parole esplicative — chiede ai ragazzi qua e là per le file di restituire ad una ad una le illustrazioni stesse. Ognuna viene mostrata a tutti e si cerca di dire cosa rappresenti: un uomo solo, seduto, ripiegato su se stesso al bordo del marciapiede; due bambine dagli occhi tristi; forse abbandonato l’animale solitario; solo anche l’albero che innalza in una landa deserta i suoi rami nudi e ritorti. La solitudine. La sofferenza. A mano a mano le immagini vengono incollate sulla croce nera del cartellone. La croce... le nostre croci... la grande croce accoglie le singole croci personali... Una serie di diapositive proiettate alla parete — per lo più sculture dello stesso autore, commentate da Pierangelo con semplici chiare parole — mostrano il teatro della vita: dapprima una sola figura isolata o due figure lontane l’una dall’altra, su due differenti piani; poi due figure vicine; poi altre. Poi Francesco d'Assisi: aveva tante cose (soldi, vestiti,...) che non tutti potevano avere; lasciò tutto, ricominciò da solo, ebbe nuovi amici... È il superamento della solitudine, della sofferenza che abbiamo illustrato sul cartellone con la croce nera in campo rosso? Infine l’ultima immagine, ancora da una scultura: una tavola di pietra ed intorno dodici sedie pure di pietra. L’ultima cena. Ma questa ultima cena è anche riprodotta su un secondo cartellone. «Chi vuole stare con Gesù?» chiede Pierangelo. Tutti vogliono stare con Gesù. Ed allora ogni ragazzo si alza, tiene in mano la foto che lo raffigura, quella che ha portato con sé da casa, e va ad appuntarla sul cartellone, intorno al tavolo dell’ultima cena. Chi non ha la foto, scrive il proprio nome o mette un segno sul cartellone che in breve è ricoperto di volti e di firme. Tutti i ragazzi — o quasi tutti — hanno seguito. E compreso. Ma forse non si rendono conto che in questo momento stanno dando la rappresentazione dal vivo di una spontanea, vera condivisione. La «lezione» è finita. Grazie, Pierangelo. di
+**Enrica Cofano**
+, Comunità Villa Patrizi (Roma)
+ ### Elenco di tutti i Punti di Incontro 1) **«Giochiamo insieme»** (servizio per persone particolarmente instabili) 2) **«Suoniamo insieme»** (servizio per persone particolarmente gravi) 3) **«Lavoriamo insieme»** (pittura, collage... per chi vuole) 4) **«Costruiamo insieme»** (manualità per chi vuole) 5) **«Improvvisiamo insieme»** (teatro per i bambini e ragazzi fino ai 12 anni) 6) **«Ci incontriamo»** (incontro riservato a 50 p. con handicap medio-lievi e amici) 7) **«Mi vorrei confessare ...»** (incontro riservato a persone con handicap lieve e amici) 8) **«Dipende da te»** (incontro riservato a persone con handicap fisico, motorio, sensoriale...) 9) **«Da grande vorrei»** (incontro riservato a ragazze con handicap medio-lieve) 10) **«Mi piacerebbe...»** (incontro riservato a ragazze con handicap medio-lieve) 11) **Laudato si’ mi’ Signore per la fraternità che d unisce** (come rafforzare i legami fra genitori, persone con handicap, amici) 12) **Laudato si’ mi’ Signore per frate corpo** (come esprimere i nostri sentimenti?) 13) **Laudato si’ mi’ Signore per la Tua ubbidienza** (che cos'è l’ubbidienza, oggi?) 14) **Laudato si’ mi’ Signore per sorella povertà** (che senso ha essere poveri oggi?) 15) **Laudato si’ mi’ Signore per il Tuo perdono** (perdonare è farsi perdonare) 16) **Laudato si’ mi’ Signore perché uomo e donna** ci hai creati (abbiamo tutti bisogno di amare e di essere amati) 17) **Laudato si’ mi’ Signore per il Tuo sguardo su di noi** (incontrare gli altri attraverso lo sguardo) 18) **Laudato si’ mi’ Signore per i piccoli che sono fra noi** (la nostra accoglienza li aiuta a progredire?) 19) **Laudato si’ mi’ Signore per sorella morte corporale** (tabù o speranza?) 20) **Laudato si’ mi’ Signore per la Tua Chiesa** (Chiesa di Gesù, chi sei per me?)

@@ -1,0 +1,42 @@
+---
+title: "Quando la comunità accoglie, senza giudicare"
+date: "2020-02-18"
+author: "Claudio Cinus"
+theme: "cluster-0"
+cluster_id: 0
+slug: "quando-la-comunita-accoglie-senza-giudicare"
+lang: it
+wp_id: 16476
+has_comments: false
+tema_code: "T14"
+tema_label: "Cinema e disabilità"
+categoria_menu: "Cultura"
+issue_number: OEL-152
+---
+
+Tra i molti modi possibili in cui strutturare un documentario su Lourdes – inteso come santuario religioso, ma anche come luogo iconico di notorietà universale – i registi francesi Thierry Demaizière e Alban Teurlai hanno scelto il metodo profano dell'osservazione dell'umanità che lo visita: per capire il successo di Lourdes, hanno provato a capire le motivazioni di chi ne è il motore.
+
+Ogni anno, circa sei milioni di pellegrini da ogni parte del mondo visitano quello che è diventato nel corso degli anni uno dei principiali poli turistici francesi. La convinzione di chi non c'è mai stato è che sia il posto in cui chi ne ha bisogno chiede un miracolo o una grazia. Ma i numeri dicono tutt’altro: le guarigioni inspiegabili riconosciute come tali sono una frazione minima rispetto al totale di pellegrini malati, persino in numero minore rispetto alla percentuale di remissioni spontanee di varie patologie. Per dirla come una delle donne cui il film dà voce, andare a Lourdes per ottenere un miracolo è come sperare di vincere la lotteria.
+
+Per capire le intime motivazioni dei pellegrini, i registi hanno seguito prima e durante la permanenza a Lourdes alcuni visitatori, ognuno con una storia e degli obiettivi diversi. Sono singole vicende, necessarie per creare una narrazione cinematografica efficace, che emergono da una marea umana eterogenea ma accomunata dalle alte aspettative che il pellegrinaggio porta con sé.
+C’è chi ha una disabilità dalla nascita e ha dovuto affrontare tutti i problemi pratici e sociali conseguenti, spesso con l’aiuto dei familiari; c’è chi si è ammalato da adulto e ha dovuto adattarsi a un'esistenza completamente diversa, magari a un’aspettativa di vita accorciatasi all’improvviso; c’è chi viaggia per conto di qualcuno troppo fragile per farlo; ci sono prostitute e travestiti che per qualche giorno possono sentirsi parte di una comunità che non ha apparenti pregiudizi.
+
+Nel mostrare gli impegni che si susseguono nel corso della settimana – le visite alla grotta, le funzioni religiose, i pasti in comune – si ha l’impressione di un’organizzazione ferrea che lascia poco margine alla libertà personale, ma sembra che l’esperienza cercata dai pellegrini sia proprio quella di lasciarsi completamente assorbire da qualcosa più grande di loro. Eppure, tutti riescono anche a raccontare la propria storia individuale, che assume quella rilevanza che nella vita di tutti i giorni probabilmente scompare agli occhi delle rispettive comunità. La macchina da presa non può riprendere né miracoli né apparizioni, si sofferma piuttosto su gesti molto concreti come passare la mano sulla roccia della grotta dell’apparizione, bagnarsi con l’acqua della fonte, cibarsi e svagarsi con l’aiuto di professionisti e volontari: l'azione, in questo film, è importante quanto la parola e la riflessione.
+
+L’approccio laico dei registi evita interrogativi sulla veridicità delle apparizioni della Madonna e, men che meno, sui miracoli riconosciuti dalla Chiesa. Non è un film d’inchiesta, non si analizza né la questione religiosa né il rischio che il santuario diventi il corrispettivo di un luna park della fede, non si pratica il giochetto dell’essere pro o contro perché il compito che i registi si erano dati non era quello di capire il fenomeno socioeconomico di Lourdes, ma di comprendere le ragioni di chi vi investe tempo, denaro e speranze. Spogliato sia della sua aura miracolosa sia del suo controverso valore turistico, Lourdes visto attraverso gli occhi dei pellegrini, dei religiosi e dei volontari appare come un luogo capace di donare la grazia dell’accoglienza senza pregiudizi. Se l’obiettivo era spiegare a tutti – chi conosce Lourdes ma soprattutto chi non vi è mai stato – perché milioni di persone ne sono attratte ogni anno, la risposta che dà il documentario è che, per un breve periodo, coloro che nella vita di tutti i giorni devono affrontare difficoltà, dolori, indifferenza e talvolta anche disprezzo, trovano una comunità che li accoglie senza giudicarli. Senza farli sentire un peso, senza farli sentire fuori posto e anzi convincendoli che quello per loro sia il posto giusto al momento giusto.
+
+Questo non alleggerisce il peso dei tormenti e delle paure che i protagonisti raccontano agli spettatori, sempre con compostezza e mai indugiando nel patetismo. È un documentario che non vuole nascondere il dolore di vivere e non illude che basti un pellegrinaggio per aggiustare tutto, eppure l’atto stesso del viaggio, per tutti coloro che sono ripresi nella pellicola, dimostra la volontà di non arrendersi alla paura. Di credere ancora nel futuro.
+La curiosità derivata dal successo del documentario – che in Francia ha avuto incassi di tutto rispetto per un'opera di questo genere – ha spinto il Santuario a realizzare un ulteriore video per raccontare cosa sia successo ad alcune delle persone ritratte, al termine delle riprese. Operazione però che rischia di alimentare una curiosità morbosa non necessaria, laddove il percorso del documentario era calibrato con precisione: la preparazione del viaggio, l’esperienza in loco, poi a chiudere il cerchio la tristezza quando si deve lasciare Lourdes.
+
+Cosa resta nello spettatore al termine della visione? Cosa sono riusciti a cogliere i registi nel loro tentativo di dare un senso antropologico a una complessa esperienza che unisce elementi di fede profonda a quelli, non secondari, del carattere economico di un’attrazione turistica? Probabilmente negli sguardi e nei gesti dei pellegrini si riesce a cogliere la felicità di trovarsi in un luogo che fa stare bene l'anima, ancor prima che il corpo: le lacrime sincere di chi parte sembrano proprio la risposta all'interrogativo che gli autori si erano posti all’inizio della lavorazione.
+
+#####
+
+### Lourdes
+
+*2019, Francia, 95 min.
+di Thierry Demaizière e Alban Teurlai*
+
+Iscriviti e ricevila ogni quindici giorni
+
+### Con 2€ al mese riceverai il nuovo numero di Ombre e Luci in anteprima digitale.

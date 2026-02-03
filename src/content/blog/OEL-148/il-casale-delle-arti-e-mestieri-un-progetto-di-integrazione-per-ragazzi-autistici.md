@@ -1,0 +1,53 @@
+---
+title: "Il casale delle arti e mestieri: un progetto di integrazione per ragazzi autistici"
+date: 2019-04-02
+author: Redazione
+slug: il-casale-delle-arti-e-mestieri-un-progetto-di-integrazione-per-ragazzi-autistici
+lang: it
+wp_id: 11680
+original_url: "https://www.ombreeluci.it/?p=11680"
+cluster_id: 1
+has_comments: false
+umap_x: 7.7869110107421875
+umap_y: 7.5709638595581055
+umap_z: 7.421412467956543
+issue_number: OEL-148
+---
+
+D
+al 2 aprile, in concomitanza con la Giornata Mondiale per la consapevolezza dell'Autismo, parte finalmente il progetto “
+[**Il casale delle arti e dei mestieri**](http://casale.cervelliribelli.it/)
+” inaugurata ufficialmente con il Ministro della scuola
+**Bussetti**
+e la sindaca di Roma
+**Virginia Raggi**
+. Sul sito
+[Per Noi Autistici](http://www.pernoiautistici.com/2019/04/il-2-aprile-si-inaugura-il-casale-delle-arti-e-dei-mestieri-per-agro-autistici/?fbclid=IwAR2CY7PdfRqBMvvvjo5ZhkwNiPPvbP5x42Cp2gAH-2NZu_aUMhgyKQ-AAtI)
+, è
+[Gianluca Nicoletti](http://www.ombreeluci.it/2018/io-figlio-di-mio-figlio/)
+a spiegare il progetto:
+*È solo l’inizio, ma siamo orgogliosi di poter dire che stiamo facendo qualcosa che ancora non esiste. Non crediamo che ci siano precedenti di un progetto così strutturato che abbia come capofila un Ministero e il supporto di Roma Capitale, per partner scientifico l’equipe specializzata in autismo di una prestigiosa Università come Tor Vergata. Gli operatori agronomi di due istituti agrari che sono a tutti gli effetti due aziende agricole moderne ed efficienti, professionisti della comunicazione che costruiranno un brand prestigioso sui prodotti che deriveranno dal lavoro dei ragazzi.*
+Il progetto vanta un equipe multidisciplinare unica nel suo genere:
+- Il **M.I.U.R. Ministero dell’Università, dell’Istruzione e della Ricerca** – “Direzione generale per lo studente, l’integrazione e la partecipazione” ha sostenuto il progetto e lo presidierà. - l’ **Associazione Insettopia Onlus** che ha scritto il progetto, ne coordinerà la comunicazione con la sua Factory **Cervelli Ribelli** (che comprende anche **Kulta-Scuola Channel** ); su tale iniziativa è stato sottoscritto con la stessa Associazione un Protocollo d’intesa: “Il Casale delle Arti: comunicare e condividere la neurodiversità” (Ufficio del Gabinetto del MIUR Atti del Ministro prot. n.0000O15 del 20/02/2018). - l’ **Università Tor Vergata di Roma** è partner tramite l’équipe “Autismo Tor Vergata” che opera nel Dipartimento di Medicina dei Sistemi nelle sue Sezioni di Neuropsichiatria Infantile e Psichiatria. Avrà il compito di fornire le linee di indirizzo sulle attività e monitorerà la funzionalità e i reali benefici in termini di benessere soggettivo e nuove abilità da parte dei ragazzi. - Il **Comune di Roma** , sosterrà il progetto con il finanziamento di assistenti specialistici distribuiti per le varie sedi. Per quanto di sua competenza, con Citta Metropolitana, faciliterà l’utilizzo di luoghi deputati a laboratori agroalimentari.
+**COSA VOGLIAMO**
+**Lavorare per conquistare spazi liberi per i nostri “cervelli ribelli”**
+- Vogliamo realizzare un modello di **esperimento sociale** che abbia il fine di costruire spazi di inclusione reale nella società e nel lavoro anche per persone neurodiverse. - Vogliamo dimostrare che chi ha un “cervello diverso **” non ha come unico destino l’emarginazione in una struttura che lo escluda** della società civile. I ragazzi neurodiversi anziché destinati a essere “nascosti” diventeranno testimonial e contribuiranno a creare un brand che attribuirà valore ai loro prodotti, proprio perché frutto di individui “eccentrici”. - Vogliamo contribuire a rilanciare **il valore della scuola come formazione alla vita,** aiutando le famiglie a fare squadra per investire nei loro figli autistici fino a che sono in forze nel “durante noi”. Vogliamo fornire strumenti pratici per trasformare l’incertezza nel domani in una possibile risorsa nel presente. - Vogliamo fare del nostro progetto **uno strumento di diffusione di cultura civile** : useremo tutti gli strumenti di comunicazione diretta e virale per portare conoscenza su come si possa creare valore sociale contaminando diversi “punti di vista mentali”.
+**COME FAREMO**
+**Formiamo ragazzi e famiglie a fare impresa**
+- Vogliamo costruire all’interno di due scuole – vere e proprie aziende agricole – una «città speciale» dove **organizzare produttivamente il tempo dei ragazzi con difficoltà relazionali, cognitive e comportamentali insieme ai loro coetanei «normotipici»** , assistiti da operatori specializzati. - Vogliamo creare un modello di inclusione in un ambiente «protetto», con aree di training per **sviluppare abilità adattive e di autonomia individuale** e sociale, utili per muoversi nel mondo esterno. - Vogliamo **coinvolgere attivamente soggetti neurodiversi, formandoli al lavoro** in laboratori socio occupazionali con valore aggiunto di mercato, sviluppando un prototipo di micro impresa sociale. - Vogliamo mettere in campo competenze e strumenti per creare **una rete imprenditoriale sostenibile a beneficio di una rete di famiglie «speciali»** capace di generare una fonte di supporto anche per i fratelli e sorelle di ragazzi neurodiversi.
+**DOVE ANDREMO**
+**Cominciamo da due istituti agrari a Roma**
+- La location principale sarà presso **l’Istituto Tecnico Agrario “G. Garibaldi”** (in via di Vigna Murata), una vera e propria oasi naturalistica di circa 76 ettari inserita nel tessuto urbano di Roma. Da cento anni forma tecnici qualificati per la produzione agro-alimentare e per l’ambiente. Al Garibaldi sarà allestito uno spazio laboratoriale integrato libero per la realizzazione di un AGROLAB di innovazione tecnologica sulla produzione e trasformazione di farine antiche (“Senatore Cappelli”, “Saragolla”, “Verna”) per paste di grano duro e lavorazioni di composte e passate con i frutti della terra. Sarà inoltre creato **“l’orto giardino** ” e un **frutteto** . - Nell’edificio secondario della sede succursale dell’ **Istituto Tecnico Agrario Emilio Sereni** (posta in via della Colonia Agricola) è già in corso un’attività specifica con ragazzi neurodiversi. Ci inseriremo su quanto già fatto avvantaggiandoci di una base di esperienza già consolidata su cui costruire il nostro progetto. Nell’area del Sereni si potranno realizzare le attività lavorative nelle aree comuni con le attività della scuola (rispettando le necessità della didattica dell’istituto). In particolare nella serra interna, l’orto interno, le aree coltivabili esterne e l’annesso birrificio. (Il Giuseppe Garibaldi e l’Emilio Sereni sono diretti entrambi dalla Preside Patrizia Marini).
+**COSA FAREMO**
+**Prodotti sani e belli da regalare e da mettere in tavola**
+- Lavori tecnici di **preparazione e confezionamento dei prodotti agroalimentari** (composte, passate e paste essiccate etc.) - **Produzione di ortaggi (orto ristretto)** che potranno essere venduti in loco creando un punto di vendita e/o organizzando un servizio di consegna a domicilio. - **Impiego al birrificio** annesso alla succursale Sereni, per attività come etichettatura, confezionamento ecc. in relazione alle singole abilità dei ragazzi. - Obiettivi a medio termine: la realizzazione di una **piattaforma di e-commerce per la vendita dei prodotti.** In aggiunta, un agriturismo che proponga degustazioni di prodotti a chilometro zero nella scuola che verrà ritenuta più adatta per la riuscita del progetto.
+**COME CI RACCONTEREMO**
+- Il progetto rientrerà nel **concept “Cervelli Ribelli”** (Insettopia Onlus–Kulta–Scuola Channel), che si sta consolidando su attività mirate alla **valorizzazione delle differenze e all’inclusione della diversità** . - Il “Casale delle Arti e dei Mestieri” sarà anche un importante **progetto di comunicazione** , incentrato sulla valorizzazione delle differenze e dell’unicità, sull’orgoglio di chi non ha paura di mostrare il proprio punto di vista e di chi ama valorizzare il proprio sguardo sul mondo. - “Il Casale delle Arti e dei Mestieri” diventerà un’eccellente e innovativa best practice di Corporate Social Responsibility, grazie a progetti e ad attività in campo agricolo, di orticultura, di lavorazione e packaging, studio e realizzazione del brand di prodotti che abbiano come valore aggiunto quello di essere realizzati con l’impegno di ragazzi neurodiversi. - Potranno in quest’ottica essere pianificati materiali specifici di dissemination, partecipazione a occasioni istituzionali, organizzazione eventi ad hoc, “lab” a uso di creazione di cultura aziendale di inclusione e diversity management , infotainment originale e marchiato.
+Fonte:
+[Per Noi Autistici](http://www.pernoiautistici.com/2019/04/il-2-aprile-si-inaugura-il-casale-delle-arti-e-dei-mestieri-per-agro-autistici/?fbclid=IwAR2CY7PdfRqBMvvvjo5ZhkwNiPPvbP5x42Cp2gAH-2NZu_aUMhgyKQ-AAtI)
+
+## [Scopri il nostro Dossier sull'Autismo](http://www.ombreeluci.it/autismo/)
+
+[La lezione del femminismo](http://www.ombreeluci.it/2015/la-lezione-del-femminismo/) di *Nicla Bettazzi* [Un altro anno](http://www.ombreeluci.it/2015/un-altro-anno/) di *Giovanni Grossi* [Bicoca's Got talent](http://www.ombreeluci.it/2015/bicocas-got-talent/) di *Giovanni Grossi* [Alla fine qualcosa ci inventeremo](http://www.ombreeluci.it/2015/alla-fine-qualcosa-ci-inventeremo/) di *Redazione* [Con loro ci sto bene](http://www.ombreeluci.it/2015/ci-sto-bene/) di *Giovanni Grossi* [L'emozione non ha voce](http://www.ombreeluci.it/2014/lemozione-non-voce/) di *Redazione* [Mamma ti posso parlare](http://www.ombreeluci.it/2014/mamma-ti-posso-parlare/) di *Redazione* [Ora che sto per diventare mamma](http://www.ombreeluci.it/2009/ora-sto-diventare-mamma/) di *Maria Paola Tosti* [Momenti difficili](http://www.ombreeluci.it/2009/momenti-difficili/) di *Pennablu* [Che senso ha la vita di Paolo?](http://www.ombreeluci.it/2010/senso-la-vita-paolo/) di *Maria Amelia* [Un panorama da riscoprire](http://www.ombreeluci.it/2017/un-panorama-riscoprire/) di *Tommaso Bertolini* [Nicola Pintus e il progetto Filippide](http://www.ombreeluci.it/2017/nicola-pintus-il-progetto-filippide/) di *Huberta Pott* [Autismo e integrazione scolastica](http://www.ombreeluci.it/2010/autismo-integrazione-scolastica/) di *Davide Del Duca*
+
+### Bastano 2€ al mese per sostenere Ombre e Luci. Dona subito.

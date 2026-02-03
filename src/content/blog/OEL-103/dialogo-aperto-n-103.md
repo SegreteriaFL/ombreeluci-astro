@@ -1,0 +1,42 @@
+---
+title: Dialogo aperto n. 103
+date: 2008-09-03
+author: Redazione
+slug: dialogo-aperto-n-103
+lang: it
+wp_id: 33798
+original_url: "https://www.ombreeluci.it/?p=33798"
+cluster_id: 11
+has_comments: false
+umap_x: 4.577278137207031
+umap_y: 7.3013739585876465
+umap_z: 10.500535011291504
+issue_number: OEL-103
+id_numero: OEL-103
+---
+### Creiamo una rete informale
+
+Rispondendo alla vostra inchiesta, riflettevo sulla possibilità che “Ombre e Luci” diventi uno strumento per mettere in comunicazione i lettori. Se gli stessi lettori, partendo dagli stimoli della rivista, cominciassero a scriversi tra di loro non solo potrebbero condividere ciò che incontrano (e ciò con cui si scontrano...) nella vita di tutti i giorni, ma aiuterebbero coloro che si trovano nella stessa situazione e non sanno come gestirla. Un beneficio doppio, sia per chi scrive che per chi legge: per i primi la consapevolezza di poter aiutare chi non sa, per gli altri l’opportunità di conoscere altre situazioni per risolvere un problema apparentemente senza soluzione per mancanza di informazioni, oppure per sciogliere dubbi o ancora per apprezzare e vivere nuove esperienze da altri già vissute. Un mondo, quindi, per creare una sorta di rete informale, alla quale tutti possono contribuire affinché i legami che la reggono diventino sempre più solidi.
+**Papà di una persona disabile**
+
+---
+
+### Una piccola storia
+
+Siamo due amiche di una famiglia appartenente ad un gruppo Fede e Luce della nostra città. Abbiamo letto su Ombre e Luci le testimonianze di alcuni geni tori e ci è venuto il desiderio di proporvi di pubblicare quella della mamma di una persona gravemente disabile che da molti anni vive questa realtà con grande dignità e semplicità. Quello che questa mamma (che preferisce mantenere l’anonimato) scrive, ci è sembrata una bellissima dichiarazione d'amore e pensiamo possa essere di aiuto e conforto ad altre mamme che vivono la quotidiana fatica che comporta l’essere geni tori di ragazzi in difficoltà.
+*Ho esitato a lungo prima di riuscire a scrivere la mia esperienza; in fondo, mi sono chiesta, che cosa ho fatto di tanto speciale? Qualunque mamma avrebbe assolto i suoi compiti come me. Si sa benissimo, quando si decide di avere un figlio, di dovergli tutto, a volte anche la vita. Riflettendo su questa ultima considerazione ho concluso che la mia vita, a modo mio, l’ho regalata a mio figlio. Infatti sono la mamma di un ragazzo molto ma molto speciale. Ora non è certamente possibile descrivere 39 anni in poche righe, schematizzare i dolori, le tribolazioni e perché no anche le gioie vissute nell’arco di questo tempo. Se torno indietro con la mente sento ancora oggi riaffiorare la disperazione, l’angoscia che ti attanaglia il corpo e l’anima e rivivo con lucidità il momento in cui i medici mi dissero, seppure in modo ovattato, che mio figlio era ammalato. L’avevo capito, ma la conferma è stata straziante. Che dire quando ti trovi impotente davanti ad una terribile malattia che porta il tuo bambino all’autodistruzione! Penso che questo sia il lato più doloroso in quello che ci è capitato; si possono elencare le lacrime, le notti insonni, le corse in ospedale da un posto all’altro mendicando una qualsiasi speranza, ma il dolore no, quello è tuo, e per capirlo lo si deve vivere. Quando ho avuto mio figlio ero giovane, piena di sogni e di voglia di vivere. È stato certamente difficile annullarmi come persona, rinunciare a tutto, persino a vivere una normale vita di coppia con mio marito; prima di tutto veniva sempre lui, nostro figlio. Ripeto, non è stato facile, si matura poco a poco. Quante volte la classica domanda riaffiora: perché proprio a noi? Che cosa abbiamo fatto? E allora senti vacillare persino la fede, ti senti sola. Questa esperienza, però, non è del tutto negativa, anzi, mette in risalto i veri valori e le cose futili e fasulle ti passano vicino senza nemmeno sfiorarti. Hai ben altro a cui pensare! I figli poi non si fanno per se stessi e l’infanzia passa presto. Giustamente presi dalla loro vita li senti sempre meno tuoi. Invece il mio è rimasto con me, rimane sempre il mio bambino da tenere in braccio, da accarezzare e baciare. Non posso certo nutrire particolari aspettative: non sarà un giocatore o avvocato, ma lo posso amare di un amore completo, cosa che alle mamme di figli sani è quasi sempre negata. Pur essendo costretti ad una vita famigliare difficile non è che si viva una vita passiva. Mio figlio a modo suo è una persona ricca di sentimenti e a modo suo coinvolge tutti. È certamente duro vivere con lui, a volte sembra risucchiare le tue energie sia fisiche che mentali e ti chiedi fino a che punto potrai resistere, ma è abbastanza che lui ti sorrida oppure che al momento di metterlo a letto la sera lui ti guardi e ti dica: “Grazie mamma di tutto” e c'è tutto il compenso per la sofferenza, la voglia di continuare e soprattutto l’amore. Chiedo solo una grazia a Dio, che ci mantenga mio marito e me in salute, per continuare l’opera che ci ha affidato, perché l’incognita del domani è senz'altro fonte di grande preoccupazione. Tante esperienze dolorose sono passate e hanno lasciato il segno, però a volte mi sorprendo ad ammirare i colori ed il cielo azzurro e il dolore vissuto non mi impedisce di accostare la carrozzina di mio figlio alla finestra e dirgli: “Guarda come è bello il cielo azzurro!”*
+**Una mamma**
+
+---
+
+### Sono impegnate quelle che mi piacciono
+
+Io sono partito da casa mia alle ore 11, con Enrico Zampetti che è molto silenzioso. Ci vado d’accordo, forse per carenza di argomenti di cui parlare. Lui ha fatto salire in macchina Stefano Paoletti, che stava con la sua famiglia; non ero mai salito in casa sua prima. Dopo, quando eravamo pronti ci siamo diretti nel posto. È Penna in Teverina. Non è grande il luogo, è un paese con un bar dove si può ballare e prendere quello che si vuole. Ogni giorno ognuno di noi lavorava, a seconda delle proprie mansioni si impegnava in qualcosa. Dalla sveglia alla cucina, variando la giornata, io mi sono trovato bene con tutti di tutte le età e c'erano anche le ragazze che riconosco anche a distanza di anni. Però sono impegnate quelle che mi piacciono. Anche con i ragazzi sono stato discretamente, con qualcuno ho parlato e scherzato, con altri ho condiviso i silenzi, le emozioni. In piscina ho nuotato a rana, ho giocato a pallone con tutti. Ho odiato i gavettoni, per l’acqua in faccia, però ho scoperto di essere un ragazzo con delle sensazioni. Siamo stati in chiesa dove ho letto i salmi. Ho visto la processione della Madonna della Neve, ho ballato e poi un altro giorno, ancora tutto da vivere, fino alla fine. È stato un bel campo sugli indiani con capo “Penna Teverina”. Sono stato bene con tutti insomma. Ognuno ha dentro di sé cose belle da valorizzare e non abbattersi per i problemi. Ciao da
+**Giovanni Grossi**
+
+---
+
+### Ci è sembrato giusto
+
+Da sempre vi seguo con interesse. Io non ho figli con handicap, ma ne ho avuti due dei quali uno nato morto e l’altro deceduto in un incidente aereo. Ormai vivo sola perché anche mio marito non c’è più da quattro anni. Nella mia via abita un ragazzo cerebroleso di nome Domenico con il quale sia io che mio marito abbiamo sempre avuto buoni rapporti di amicizia. Domenico è stato adottato da due signore non sposate che lo seguono fin da piccolo e fanno di tutto per inserirlo nella società. Frequenta scuole normali, con tutti i problemi che conseguono per loro. Abbiamo avuto per amici anche una coppia di giovani sposi che avevano un figlio autistico e che frequentavano spesso la nostra casa, perché erano stati allontanati da tutti per via del figlio con carattere molto aggressivo. Sia mio marito che io, comunque, lo accettavamo, anche se più volte ci ha aggredito fisicamente e veramente ci ha lasciato il segno. Ci sembrava giusto soprattutto per i genitori che altrimenti sarebbero stati soli. Erano gente semplice, anche se abbastanza ricchi, ma per causa del figlio, che dava fastidio al condominio, hanno dovuto lasciare il loro bellissimo appartamento per trasferirsi in una villetta in periferia per essere indipendenti. Ora non ci vediamo più perché per me è impossibile raggiungerli.
+**Angela Bigi Milano**

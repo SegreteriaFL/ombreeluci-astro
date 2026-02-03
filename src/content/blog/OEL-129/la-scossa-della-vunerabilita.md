@@ -1,0 +1,31 @@
+---
+title: "La scossa della vunerabilità"
+date: "2015-03-19"
+author: "Gianfranco Ravasi"
+theme: "cluster-0"
+cluster_id: 0
+slug: "la-scossa-della-vunerabilita"
+lang: it
+wp_id: 38873
+has_comments: false
+tema_code: "T05"
+tema_label: "Fede, Chiesa e spiritualità della fragilità"
+categoria_menu: "Fede"
+issue_number: OEL-129
+id_numero: OEL-129
+---
+Cari Amici, sono veramente lieto di aggiungermi al coro festoso di voci che celebrano insieme con voi i 40 anni dell’Associazione Fede e Luce in Italia. Mi unisco idealmente invitandovi a continuare la vostra navigazione nel mare della sofferenza, apparentemente tempestoso, in realtà colmo di epifanie di fede e luce. Bisogna, però, attrezzarsi per questo viaggio ritrovando la purezza di mente e di cuore e la libertà dagli stereotipi, riconquistando la capacità di stupirci perché, come ammoniva già Chesterton, «il nostro mondo non perirà certo per mancanza di meraviglie, bensì di meraviglia».
+
+E la prima, dominante e sconcertante meraviglia che ci viene incontro è quella della “vulnerabilità” della creatura umana, coi suoi corollari di debolezza, di fragilità, di vergogna, di morte. Essa diventa nelle persone handicappate quasi un emblema che si trasforma in un richiamo e persino in una scossa per la nostra superficialità perché – come scriveva un’importante filosofa francese, Julia Kristeva – è «il loro sguardo a perforare la nostra ombra». Essere vulnerabili significa semplicemente essere umani e quindi non possiamo sentirci estranei o relegare questa dimensione solo a una determinata categoria di persone. Purtroppo ci imponiamo spesso una censura per paura o inerzia o banalità. La società contemporanea rigetta il peso delle domande che fioriscono su questo terreno; la scienza cerca di rimandare al domani ciò che oggi è senza rimedio.
+
+È, quindi, necessario il ritorno a un’etica autentica che riesca a far coabitare l’uomo col suo limite senza la narcosi dell’indifferenza o della rimozione ma anche senza la disperazione dell’impotenza. Scriveva Jean Vanier: «Un nuovo umanesimo implica un vero lavoro su se stessi. Come diceva Martin Luther King, per evitare di disprezzare gli altri, così differenti da noi, è indispensabile accettare se stessi, con le proprie debolezze e handicap», cambiando in tal modo il nostro sguardo su una realtà apparentemente così “scandalosa” ed estranea alla persona abile. Infatti, per integrare la nostra mortalità bisogna aver osato l’incontro con l’altro più debole il quale ha già elaborato esistenzialmente la realtà comune a tutti della nostra caducità. E su questo terreno si innesta anche la fede.
+
+Quando si muovono i passi su questo territorio esistenziale c’è una sorprendente figura che ci viene incontro, è il “Dio handicappato” cristiano che si rivela nella sofferenza e nella morte di Cristo, terribilmente umano e meravigliosamente divino, risorto ma ancora con le piaghe della passione. È questo Dio «vulnerabile e angosciato» il Dio che Vanier ha incontrato e gli ha cambiato la vita: «La mia fede in Dio non è una fede in un Dio di potenza, ma una fede in un Dio potente che diventa impotente, che si fa povero per raggiungerci nella nostra povertà umana».
+
+È la stessa intuizione del teologo martire Dietrich Bonhoeffer che nel lager nazista scriveva senza imbarazzo che «Dio in Cristo ci salva non in virtù della sua onnipotenza bensì della sua impotenza». Essa lo rende non solo vicino ma intimo all’umanità vulnerabile e vulnerata. Le figure di un Cristo, che non si accontenta di guarire il lebbroso ma «lo tocca» (Marco 1,41), e di Francesco che ne ricalca le orme abbracciando un malato di lebbra, diventano una parabola del superamento di ogni retorica sacrale o secolare. Così la concretezza si insinua nella riflessione, l’affetto non esita a inoltrarsi sui sentieri d’altura del mistero, la quotidianità lacerata si sottopone al giudizio della ragione e della fede.
+
+Auspico, perciò, che Fede e Luce continui a essere un legame vivo e appassionato con chi è più debole, una relazione con chi è talora rifiutato, così da realizzare un incontro che, come un vero amore, doni all’altro la sua libertà e la sua dignità umana, lo consideri e lo apprezzi, veda in lui la sua bellezza e il suo valore. Si tratta, per ciascuno di noi, di portare insieme pesi e difficoltà, di incoraggiarci e sostenerci a vicenda, di portare l’amore là dove viviamo. Non possiamo fare questo da soli ma lo facciamo con Gesù che ci dice: «non temere io sono con te» (cf. Matteo 28,20).
+
+In questo orizzonte siamo chiamati tutti a ergere una barriera contro la seduzione dell’indifferenza che è infastidita dalla presenza della sofferenza e dell’handicap e che vorrebbe semplicemente cancellarla per non turbare la propria festa banale. Su tutto risplende la “professione di gioia” di Vanier, anche nella debolezza della nuova tappa della sua ormai lunga vita: «Mi sento felice di vivere e di esistere, provo come una sorta di pienezza che scaturisce dal più profondo del mio essere».
+
+*Card. Gianfranco Ravasi*, 2015

@@ -1,0 +1,22 @@
+---
+title: Gli amici che non ti aspetti
+date: 2006-03-30
+author: Monica Leggeri
+slug: gli-amici-che-non-ti-aspetti
+lang: it
+numero_rivista: 93
+id_numero: OEL-93
+issue_number: OEL-93
+wp_id: 31458
+original_url: "https://www.ombreeluci.it/?p=31458"
+cluster_id: 5
+has_comments: false
+umap_x: 6.5862321853637695
+umap_y: 8.725833892822266
+umap_z: 12.130088806152344
+---
+
+V
+i vorrei parlare di questi amici, ma prima vorrei fare una premessa. Faccio parte dell’Associazione "Fede e Luce" da circa 20 anni, sono quindi una "vecchia" amica di tanti ragazzi e mamme che, insieme a me a F. e L., sono cresciuti e anche invecchiati. Da circa 3 anni il mio "ruolo", all’interno del gruppo, è un po’ cambiato. Ho una bimba con un marcato ritardo dello sviluppo psico-motorio. Mi trovo, quindi, ad assumere una nuova parte; quello di mamma, oltre che di amica. Aver acquistato la consapevolezza di ciò è stato faticoso e doloroso. La nostra vita e la nostra visione delle cose e soprattutto del futuro è stata stravolta. Come è intuibile è molto diverso vivere certe situazioni indirettamente, seppure con grande trasporto emotivo e affettivo, che viverle sulla propria pelle. È stato duro scoprire nel tempo che mia figlia, nonostante le ottimistiche (forse superficiali) previsioni di alcune persone (familiari e medici), non recuperava velocemente il ritardo diagnosticato precocemente e vedere che rispetto alla sua età cronologica, questo andava sempre evidenziandosi. Siamo una famiglia (penso di poterlo dire senza vanità), e prima ancora una coppia (io e mio marito), che ha cercato di rendersi disponibile all'ascolto e all'aiuto di famiglie con figli con problemi. Ora ci troviamo noi a chiedere aiuto e cercare conforto per affrontare questa avventura così nuova e a volte così faticosa. E allora ecco che si scoprono, con sorpresa e anche piacere, tante persone, lontane da qualsiasi ambiente religioso, senza nessuna preparazione specifica, né medica né spirituale, ma con tanta capacità di accoglienza spontanea vera e affettuosa. Sono nascosti, e fanno i lavori più vari: insegnanti, bidelli, avvocati, giornalisti, impiegati. Sono persone incontrate per caso, genitori di amici dei nostri figli, colleghi, insegnanti o vicini di casa. A volte non hanno mai avuto a che fare con persone disabili e con loro familiari, ma hanno la capacità di guardare oltre. E allora viva queste persone che non si fanno troppe domande, non si pongono troppi problemi su come comportarsi "quando..."; su cosa guardare e non guardare, su cosa dire e cosa cercare di "non" chiedere per paura di creare imbarazzo. Viva questo popolo silenzioso e nascosto che ha il coraggio di chiederti"come va?", "Come sta la bambina", "Come è andata a scuola", perché ha il coraggio di ascoltare anche risposte brusche, angosciose e imbarazzanti. E che sembra rendersi conto pienamente della dimensione del problema. Sono persone che hanno la spontaneità di incontrarti e incontrare tua figlia, strapazzarla se serve, e chiedere o cercare di capire come fare per riuscire a stare bene con lei. Mi viene da pensare ai racconti dei nostri "vecchi" amici che avevano da affrontare problemi simili al nostro, alle loro storie ed alle difficoltà che hanno dovuto superare negli anni passati. E fa piacere pensare che probabilmente la gente "qualunque" è un po’ cambiata e migliorata e oggi siamo tutti un po’ più capaci di un tempo di avvicinarci a situazioni di questo tipo. È strano, ma a volte abbiamo la sensazione che molti di quelli che abbiamo incontrato spesso in comunità, e che hanno condiviso con noi diverse esperienze di vicinanza a famiglie con il problema dell’handicap, non riescano a volte, a trovare la spontaneità e la naturalezza di questi "amici inaspettati". Sono questi ultimi, forse che, anche non conoscendoci da tanto, hanno subito compreso che la nostra sensibilità è cambiata e che qualcosa di importante e stravolgente è avvenuto nella nostra vita familiare. Al contrario alcuni dei "vecchi" amici, pur nell’affetto che ci lega o forse anche a causa di questo, a volte hanno agito come se nulla fosse, ci sono sembrati quasi frenati dall’imbarazzo e in qualche modo non siamo riusciti a sentire il coinvolgimento che forse ci aspettavamo. A loro chiederei di imparare dai "nuovi" la spontaneità e la naturalezza; fa più piacere una domanda, che magari può mettere in imbarazzo, piuttosto che il silenzio e il pensare che tutto sia come prima.
+*Monica*
+, 2006

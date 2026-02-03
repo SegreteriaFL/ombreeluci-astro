@@ -19,8 +19,19 @@ project_root = Path(__file__).parent.parent.parent
 articoli_json = project_root / "scripts_and_data" / "datasets" / "articoli" / "articoli_semantici_FULL_2026.json"
 enriched_csv = project_root / "_migration_archive" / "categorie v2" / "articoli_2026_enriched_temi_s8_FINAL_V3.csv"
 numeri_json = project_root / "scripts_and_data" / "datasets" / "numeri_rivista" / "numeri_wp_FINAL.json"
+slugs_json = project_root / "scripts_and_data" / "datasets" / "articoli" / "articoli_slugs_definitivi.json"
 autori_json = project_root / "scripts_and_data" / "datasets" / "autori" / "database_autori.json"
 output_file = project_root / "scripts_and_data" / "datasets" / "articoli" / "database_unificato.json"
+
+
+def normalize_url(url: str) -> str:
+    """Normalizza URL per confronto: lowercase, https, senza trailing slash."""
+    if not url:
+        return ""
+    u = url.strip().lower()
+    if u.startswith("http://"):
+        u = "https://" + u[7:]
+    return u.rstrip("/")
 
 print("="*80)
 print("CREAZIONE DATABASE UNIFICATO")
@@ -62,21 +73,36 @@ if not numeri_json.exists():
 with open(numeri_json, 'r', encoding='utf-8') as f:
     numeri = json.load(f)
 
-# Crea mappa URL -> numero
+# Mappa URL normalizzato -> numero (usata per Fonte A: match articoli_urls)
 url_to_numero = {}
+# Mappa slug categoria "n-XXX" -> numero (per Fonte B: categorie tipo n-100)
+n_slug_to_numero = {}
 for numero in numeri:
-    # Mappa tutti gli URL articoli al numero
     for url in numero.get('articoli_urls', []):
-        url_to_numero[url] = numero
-    
-    # Mappa anche URL canonico
+        key = normalize_url(url)
+        if key:
+            url_to_numero[key] = numero
     if numero.get('canonical_url'):
-        url_to_numero[numero['canonical_url']] = numero
+        url_to_numero[normalize_url(numero['canonical_url'])] = numero
     if numero.get('wp_url_numero'):
-        url_to_numero[numero['wp_url_numero']] = numero
+        url_to_numero[normalize_url(numero['wp_url_numero'])] = numero
+    # Categoria "n-100" -> OEL-100 / INS-10 ecc.
+    np = numero.get('numero_progressivo')
+    if np is not None:
+        n_slug_to_numero[f"n-{np}"] = numero
 
 print(f"[OK] Caricati {len(numeri)} numeri rivista")
-print(f"[OK] Mappati {len(url_to_numero)} URL a numeri")
+print(f"[OK] Mappati {len(url_to_numero)} URL a numeri, {len(n_slug_to_numero)} slug n-* a numeri")
+
+# 3b. Carica slug articoli (per costruire URL da anno+slug e fare match Fonte A)
+slugs_by_id = {}
+if slugs_json.exists():
+    with open(slugs_json, 'r', encoding='utf-8') as f:
+        slugs_data = json.load(f)
+    slugs_by_id = {str(k): v for k, v in slugs_data.items()}
+    print(f"[OK] Caricati {len(slugs_by_id)} slug articoli")
+else:
+    print(f"[WARN] File slug non trovato: {slugs_json}")
 
 # 4. Carica autori
 print("\n[4/4] Caricamento autori...")
@@ -183,36 +209,55 @@ for art_id, articolo in articoli_map.items():
         record['categoria_menu'] = ''
         record['confidenza_tema'] = 0.0
     
-    # Match numero rivista usando slug categoria "numero-X-YYYY"
+    # Match numero rivista: Fonte B (categorie) poi Fonte A (URL da articoli_urls)
     numero_match = None
     
-    # Estrai slug categoria "numero-X-YYYY" dall'articolo
+    # Fonte B1: slug categoria "numero-X-YYYY" (es. numero-1-1983)
     categories = articolo.get('tax', {}).get('categories', [])
     numero_slug_categoria = None
+    n_slug_categoria = None
     for cat in categories:
         slug = cat.get('slug', '')
         if slug.startswith('numero-'):
             numero_slug_categoria = slug
             break
+    if not numero_slug_categoria:
+        for cat in categories:
+            slug = cat.get('slug', '')
+            if re.match(r'^n-\d+$', slug):  # es. n-100
+                n_slug_categoria = slug
+                break
     
     if numero_slug_categoria:
-        # Estrai numero e anno: "numero-1-1983" -> (1, 1983)
         match = re.match(r'numero-(\d+)-(\d{4})', numero_slug_categoria)
         if match:
             num_prog = int(match.group(1))
             anno = int(match.group(2))
-            
-            # Cerca numero corrispondente (prova prima "ombre_e_luci", poi "insieme")
-            # Perché lo stesso numero progressivo può esistere in entrambe le riviste
             for numero in numeri:
-                if (numero.get('numero_progressivo') == num_prog and 
+                if (numero.get('numero_progressivo') == num_prog and
                     numero.get('anno_pubblicazione') == anno):
-                    # Preferisci "ombre_e_luci" se disponibile
                     if numero.get('tipo_rivista') == 'ombre_e_luci':
                         numero_match = numero
                         break
-                    elif not numero_match:  # Fallback su "insieme" se non trovato altro
+                    elif not numero_match:
                         numero_match = numero
+    
+    # Fonte B2: slug categoria "n-XXX" (es. n-100)
+    if not numero_match and n_slug_categoria and n_slug_categoria in n_slug_to_numero:
+        numero_match = n_slug_to_numero[n_slug_categoria]
+    
+    # Fonte A: match URL (anno + slug) con articoli_urls dei numeri
+    if not numero_match and art_id in slugs_by_id:
+        slug_art = slugs_by_id.get(str(art_id))
+        date_str = articolo.get('meta', {}).get('date', '')
+        year_match = re.match(r'(\d{4})', date_str) if date_str else None
+        anno_art = int(year_match.group(1)) if year_match else None
+        if slug_art and anno_art is not None:
+            for year in [anno_art] + [y for y in range(1976, 2027) if y != anno_art]:
+                url_candidate = normalize_url(f"https://www.ombreeluci.it/{year}/{slug_art}/")
+                if url_candidate in url_to_numero:
+                    numero_match = url_to_numero[url_candidate]
+                    break
     
     if numero_match:
         matched_numeri += 1

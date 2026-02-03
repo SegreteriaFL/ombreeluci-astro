@@ -1,0 +1,45 @@
+---
+title: Il crimine di Eva
+date: 2021-01-18
+author: Redazione
+slug: il-crimine-di-eva
+lang: it
+wp_id: 41113
+original_url: "https://www.ombreeluci.it/?p=41113"
+cluster_id: 3
+has_comments: false
+umap_x: 5.525774002075195
+umap_y: 9.391520500183105
+umap_z: 8.931989669799805
+issue_number: OEL-153
+id_numero: OEL-153
+---
+Questa è la storia di una donna che ha commesso un crimine che l’umanità non perdona. Ha rifiutato il ruolo di vittima. Eva Rodrigues aveva tutti i requisiti per meritare questa sentenza. Era donna: una disgrazia. Era negra: una disgrazia. Era povera: una disgrazia. E, come se non bastasse, era nata da un parto complicato. Aveva una paralisi cerebrale. Tremava tutta, rovesciava il mangiare, camminava a fatica, la goffaggine fatta persona. A Eva, il mondo riservava un solo destino: quello di essere una disgraziata. Avrebbe giusto potuto tendere la mano e chiedere l’elemosina. E ricevere sguardi di profonda pena. In cambio di quella moneta, avrebbe restituito al donatore non soltanto il sollievo della carità, ma un altro, segreto: la garanzia che la deformità, come la pazzia, riguarda sempre l’altro.
+
+Eva si è ribellata. Ha deciso che non sarebbe stata una disgraziata. Che il mondo si arrangiasse. Che trovasse altre vittime per soddisfare il suo gusto per l’orrido. È stato questo il crimine di Eva. Quello che non le hanno mai perdonato. Non potendo appiccicarle sulla fronte l’etichetta di disgraziata, ne hanno trovata un’altra per marchiarla. Come si permetteva, lei, la deforme, lei, l’handicappata, lei, la menomata, di rifiutare la mano della carità, sorella della compassione e cugina dell’ipocrisia? Come si permetteva lei, l’anormale, di guardare in faccia i normali da pari a pari? Sembrava quasi che l’esposizione del corpo deforme di Eva rivelasse l’anima deforme dell’altro. Che l’esibizione del suo difetto mettesse a nudo i difetti occulti di chi la guardava. Come si permetteva Eva, proprio lei, di essere imperfetta in un mondo in cui si pagano fortune perché tutti siano ugualmente perfetti? Come osava essere diversa in un mondo in cui avere le stesse idee è l’unica garanzia di sicurezza? Come osava far trionfare lo spirito nel mondo delle apparenze?
+
+Che pretese quelle di Eva! Quanti pericoli ha sollevato Eva quando ha deciso che non sarebbe stata una disgraziata. Da vittima, è diventata colpevole. Ma bisogna raccontare come si è ribellata Eva, prima di rivelare come è stata punita. Eva non sa se è stato per le risatine che la accompagnavano, per le imitazioni che facevano di lei o per l’imposizione di starsene relegata in un angolo. Preferibilmente in silenzio. Sa solo che ha deciso di non sottomettersi. Che avrebbe reinventato il suo destino. Che avrebbe reinventato se stessa.
+
+Il primo atto di ribellione fu quello di iscriversi a scuola. A 9 anni, nel posto in cui era nata, Restinga Seca, nel centro dello stato del Rio Grande do Sul. Le mani non le obbedivano, erano due arti indocili che lei non controllava. Eva usò tutta la forza di cui disponeva perché la mano sinistra tenesse ferma la destra. Con una mano contorta sull’altra, dolorante per lo sforzo, Eva riuscì per la prima volta a scrivere. L’attrito della mano curva sul foglio le scorticava le dita. I primi quaderni avevano lettere insanguinate, parole ferite.
+
+I primi quaderni di Eva furono scritti col sangue. Eva scoprì in quel momento che era in grado di riscrivere il suo destino. E, a questo primo gesto spavaldo, ricevette subito il primo castigo. Nonostante gli ottimi voti, fu costretta a ripetere l’anno. La maestra non accettava, non capiva come Eva riuscisse a scrivere. Eva ripeté l’anno e promise che l’avrebbe ripetuto tutte le volte che fosse stato necessario finché la maestra, il mondo, avessero capito che lei non si sarebbe mai arresa. Che l’avrebbe avuta vinta, a costo di prenderli per stanchezza. Che le chiedessero tutto, meno l’impossibile. Che le chiedessero tutto, meno che restare al suo posto.
+
+Eva imparò presto che l’indipendenza è come le sabbie mobili. Un territorio da conquistare e riconquistare giorno dopo giorno. A 17 anni, davanti a otto fratelli e a due genitori analfabeti, contadini senza terra, esplose in un primo grido: «Basta! Poveretta di qua, poveretta di là, basta! Se rovescio il cibo dal piatto, fatemelo rovesciare. Se faccio cadere le cose quando le prendo, lasciatele cadere. Se cado, fatemi rialzare». Eva si trasferì a Porto Alegre. Trovò un lavoro da domestica e finì le scuole medie. Le sue mani erano scorticate dalle ferite. Come la sua anima. Ma non sanguinavano più.
+
+Eva si iscrisse all’università, ma non poteva pagarsela. Per due volte le negarono il prestito d’onore. Chiese il trasferimento in una sede meno costosa. Eva sognava di diventare un’insegnante. Voleva insegnare come si poteva scrivere con le mani piagate. E come far diventare ali quelle mani contorte. Ma erano tante le anime deformi che s’interponevano tra Eva e il mondo. La battaglia era appena all’inizio e probabilmente non avrà fine. Ne sentì di tutti colori. Come farai a scrivere alla lavagna tremando in questo modo? Come potrai insegnare con una calligrafia così brutta? Non lo capisci che disturbi e basta? Non lo capisci che tra te e una ragazza normale sceglieranno sempre quella normale? Vuoi passare la vita a guardare il tuo diploma appeso al muro? Questo è quanto si sentì dire da una sua insegnante. Questo è quanto le toccò sentire all’università. Tanto per rendersi conto che l’ignoranza alligna dove meno uno se lo aspetterebbe. Eva, la minorata fisica, rispose alla minorata d’animo: «In primo luogo, io non rinuncerò. Secondo, poi, la vita è un rischio. Non solo per me. Per chiunque».
+
+Eva ci mise del tempo a capire perché il suo tremore minacciava a tal punto quegli esseri così baldanzosi. Perché la sua fragilità offendeva tanto. Fu umiliata in tutte le maniere note e in altre inventate apposta per lei. Prima, le impedirono di fare il tirocinio. Poi, lo avrebbe potuto fare solo in una scuola per disabili. Successivamente, decisero che doveva farlo di giorno, perché sapevano che in quelle ore lei lavorava per mantenersi. Alla fine, siccome lei non si arrendeva, si arresero loro.
+
+Quando il nome di Eva fu pronunciato, il giorno della laurea, tutti si alzarono in piedi, gridarono, applaudirono. Lei non li sentì. Tutti i suoi sensi erano concentrati nel non cadere. Attraversare quel palco senza inciampare era la metafora della sua vita. Eva non sarebbe caduta. Non lì. Ed Eva non cadde.
+
+Finalmente, riuscì a entrare in un’aula scolastica come insegnante. Cambiò almeno tre scuole. E in ognuna successe qualcosa. Quando scoprivano che Eva non era una disgraziata, che assumerla non era un atto di carità, tutto cambiava. Quando scoprivano che Eva era capace, che bisognava competere con la sua mente, non con i suoi tremori, l’atteggiamento mutava. La commiserazione iniziale si trasformava in odio. Chi si crede di essere questa handicappata? Fu quello che Eva ascoltò con le sue orecchie. E così Eva fu espulsa dal mondo che era riuscita appena a sfiorare.
+
+Eva non si arrese. E non si arrenderà. Nel 1994 fece il concorso per funzionario presso l’allora Corte d’Appello. Pensò che gli occhi bendati della Giustizia non l’avrebbero giudicata per la sua deformità. Fece le prove in un’aula speciale, come handicappata. Arrivò nona in graduatoria. La nomina fu ufficialmente pubblicata. Ma, udite!, Eva fu bocciata dal neurologo. Perché le tremavano le mani, perché avrebbe rovesciato il caffè dalla tazzina.
+
+Bastò una firma per chiudere il capitolo di una vita. Eva intentò una causa. Il difensore d’ufficio non si presentò all’udienza, sostenendo di non essere stato avvisato. Eva andò avanti. A oggi, il processo è all’esame del Supremo Tribunale Federale. Eva è tornata a lavorare come domestica.
+
+Eva è donna, negra e povera. Le tremano le mani. Questo ancora lo accettano. Quello che non le perdonano è di aver rifiutato di essere una disgraziata. Quello che non perdonano a Eva è che, essendo donna, negra, povera e minorata fisica, ha terminato l’università. E in questo paese. Tutto congiurava contro di lei e, malgrado ciò, Eva ha osato vincere la sua scommessa. Per questo l’hanno condannata. Attenzione alle parole di Eva: «Ogni volta che mi butteranno giù, io mi rialzerò con più forza. Non voglio sentir parlare di sconfitta. La sconfitta non è mai stata nei miei piani. E disgraziato è chi mi ci chiama».
+
+La vita è prodiga di paradossi. Quello di Eva è che la odiano perché non possono provare pena per lei. E il paradosso del mondo è che le peggiori deformità sono invisibili.
+
+2019 © Eliane Brum - Published by special arrangement with Agência Literária Riff in conjunction with their duly appointed co-agent the Ella Sher Literary Agency - 2020 © Sellerio editore. Tutti i diritti riservati.

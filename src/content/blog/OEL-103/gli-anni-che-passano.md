@@ -1,0 +1,21 @@
+---
+title: Gli anni che passano
+date: 2008-09-03
+author: Pennablù
+slug: gli-anni-che-passano
+lang: it
+wp_id: 33691
+original_url: "https://www.ombreeluci.it/?p=33691"
+cluster_id: 0
+has_comments: false
+umap_x: 8.293092727661133
+umap_y: 7.460243225097656
+umap_z: 11.167302131652832
+issue_number: OEL-103
+id_numero: OEL-103
+---
+O
+ggi, 7 ottobre festeggiamo la ripresa delle attività di laboratorio con una gita fuori Roma. Andiamo a trovare un amico che vive a Bracciano. Giro del lago in barca, pizza all’aperto, passeggiata sugli asini , o.. visti i nostri considerevoli pesi, sarà piuttosto una passeggiata con gli asini! Sono arrivata per tempo e ho preso un comodo posto vicino al finestrino. Ecco, arrivano alla spicciolata, qualcuno da solo, altri in piccoli gruppi. Li guardo salire sul pulman ad uno ad uno: zainetto, cappello per il sole, macchina fotografica, i nostri ragazzi così adulti ormai. Per noi amiche, certo, sono sempre i ”ragazzi” ma in realtà parecchi di loro appaiono quasi anziani per chi li guarda con occhi nuovi. I capelli iniziano a ingrigire e i volti a segnarsi, Qualcuno fatica a montare sugli alti gradini del pulman. Mi è stato detto che una vecchiaia precoce segna il destino di questi ragazzi Ma, in realtà, quanti anni hanno ormai e da quanti anni ci conosciamo ? Incredibile, per alcuni sono già venti, o venticinque anni! E quindi,di cosa mi meraviglio? E noi le “amiche” ?...le guardo (mi guardo) ora, con occhio più critico. Queste amiche due volte perché loro, dei ragazzi e mie:infatti dopo tanti anni siamo diventate tra di noi amiche vere. Anche noi siamo cambiate, cambiatissime a ben guardare. Anche i nostri capelli....se non fosse per l’arte del parrucchiere... e i nostri lineamenti non sono quelli di un tempo Non solo. In alcuni movimenti siamo meno rapide, più lente nel camminare, tutte o quasi abbiamo bisogno degli occhiali e di segnarci ogni cosa per non dimenticare, e di proteggerci dalle correnti d’aria ed è indispensabile che il riscaldamento del laboratorio funzioni nei pomeriggi freddi...Anche noi fatichiamo un po’ a salire sul pulman e ci informiamo bene sul percorso da compiere ...non ci saranno troppe salite o troppo sole? troppe cose da vedere? E poi, come attrici improvvisate in occasione delle recite di laboratorio, fatichiamo un bel po’ ad imparare le nostre piccole parti a memoria, e quanti sbagli, quante risate! E poi, e poi,... diciamo la verità abbiamo ora anche noi qualche debolezza, qualche scatto di insofferenza, il rifiuto davanti ad un lavoro più complicato o semplicemente più antipatico e la voglia di chiacchierare, soprattutto dei nostri malanni, è pericolosamente in aumento Continuo ad osservare amiche e ragazzi, e a pensare mentre il pulman ormai ci trasporta lontano e Bice illustra l’itinerario e si incrociano le prime battute , si tentano le prime canzoni. Continuo a pensare: “Anche noi, vuol dire anche noi come loro. Come Augusto, come Stefania, come tutti i nostri amici di laboratorio che, diversamente da noi, debolezze o fragilità o incapacità le hanno sempre avute, a 10, a 20 a 40 anni. E’ come se gli anni passati insieme ci avessero resi un po’ più simili, se dovessimo ora condividere con loro qualche difficoltà in più, sperimentare la stessa fatica nel fare cose che ci sembravano tanto semplici e che solo per loro erano da sempre difficili. Quindi noi, le maestre che dovevano guidare e insegnare, siamo dopo tanti anni semplicemente un po’ più come loro, un po’ meno sicure di noi e delle nostre possibilità, un po’ più incapaci. Bene, un bel risultato! Concludo la mia riflessione con un punta di amarezza. Ma in fondo al mio cuore, o nella mia testa, risuona anche un'altra frase pronunciata da Chi sa sempre come rassicurarci: “... se non ritornerete come questi piccoli...”
+*Pennablù*
+, 2008Questo articolo è tratto da
+[Ombre e Luci n.103](https://www.ombreeluci.it/project/numero-103-ci-sono-anchio/)

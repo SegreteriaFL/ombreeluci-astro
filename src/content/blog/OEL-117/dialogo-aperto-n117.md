@@ -1,0 +1,50 @@
+---
+title: Dialogo aperto n.117
+date: 2012-03-16
+author: Redazione
+slug: dialogo-aperto-n117
+lang: it
+wp_id: 36284
+original_url: "https://www.ombreeluci.it/?p=36284"
+cluster_id: 11
+has_comments: false
+umap_x: 5.0107316970825195
+umap_y: 7.861185073852539
+umap_z: 11.12589168548584
+issue_number: OEL-117
+id_numero: OEL-117
+---
+### Dolci saluti
+
+Una domenica mattina piena di sole Alessandro è venuto a prendermi in comunità e giunti a Monselice abbiamo preso il treno per Venezia, il treno era strapieno di persone. Arrivati a Venezia sono sceso con il montacarichi e anche la città brulicava di persone. Attraverso stradine e soprattutto ponti siamo arrivati ai Frari, là ci aspettavano insieme a Cesarina gli amici di Feltre e tutti i rappresentanti delle regioni di Fede e Luce d’Italia; di loro già ne conoscevo qualcuno. Dopo i saluti c’è stata la Messa con Padre Gianluigi. Il pranzo è stato stupendo, sono venute a mangiare vicino a me delle giovanissime amiche di Fede e Luce di Roma e della Sicilia. Seduto vicino a queste nuove amiche mi sentivo felice per la calorosa attenzione ma ero anche un po’ imbarazzato per la difficoltà a comprenderci. Dolci sono stati i saluti con l’arrivederci. Nel pomeriggio con gli amici di Raggi di Sole e di Abano abbiamo fatto una lunga passeggiata per Venezia. Avevamo in programma di passare a salutare mia zia suora ma l’ora di prendere il treno del ritorno è arrivata in fretta e così siamo tornati a casa. È stata una giornata bellissima ed ero felice per aver conosciuto nuove amiche che spero di sentire presto.
+**Samuele**
+
+---
+
+### Sopra un banco
+
+Questo è un testo un po’ particolare che mi ha dato un’amica. E’ stato trovato l’estate scorsa da un nostro amico (vedovo da pochi mesi) sopra un banco di una chiesetta di montagna nel Veneto. Io penso che sia passato un angelo a lasciarlo lì... Ve lo mando perché mi è piaciuta l’atmosfera di quel vero amore che ci ha insegnato Gesù e che sarebbe la nostra aspirazione... Spero che piaccia anche a voi! Credo però che per Ombre e Luci non vada bene perché il contesto è molto personale e non va necessariamente bene per tutti... Buon lavoro! La quarta di copertina dell’ultimo numero (3-2011 ndr) mi è parsa fantastica!
+**Natalia**
+*“Se i tuoi figli non vogliono andare a messa, non dire: “Non hanno più fede!” Dì solamente: “Non vanno a messa”. Chi ti ha incaricato infatti di determinare il grado di fede degli altri? Non dimenticare mai il Vangelo! E’ davanti alla pagana cananea o al centurione romano idolatra che Gesù non può fare a meno di esclamare con gioia: “Mai ho visto una simile fede in Israele!” Se tua figlia vive con qualcuno senza essere sposata, non dire: “Vive nel peccato!”, ma dì: “Mia figlia vive con un compagno”. Dio ti ha forse incaricato di organizzare il giudizio universale? Se i tuoi nipoti non sono battezzati o non vanno al catechismo, non dire: “Rifiutano la Chiesa e i sacramenti…”. Che ne sai tu degli incontri segreti che Dio può avere con i tuoi nipoti? Delle sconvolgenti sorprese di cui nessuno conosce né il giorno né l’ora? Sai che non ci sono mai stati tanti battesimi di adulti come in questi tempi? Accetta che la fede dei tuoi nipoti non sia riposta solo nelle tue mani e non dipenda solo da te. Ma è perché io so che tu soffri di tutto ciò e che rischi di soffrirne ancor di più nel corso delle prossime riunioni di famiglia che io vorrei poter illuminare il tuo sguardo con una stella. Diventare capaci di guardare l’altro come un figlio di Dio e non come un non praticante, guardarlo con la stessa tenerezza di Dio, ascoltare l’altro come qualcuno da amare e non come un presunto colpevole, è il segno più concreto che è vero che Dio si è fatto uomo”*
+**Padre Jean-Claude Brulhart**
+
+---
+
+### Ancora messaggeri di gioia
+
+…Ricordo ancora con emozione il 2 febbraio festeggiato lo scorso anno a Lourdes attorno a un grande fuoco che fu l’inizio del nostro quarantesimo compleanno. Questo fuoco ha illuminato tutti i pellegrinaggi che hanno avuto luogo nel 2011. Questo fuoco ha illuminato ugualmente molti altri eventi importanti, non direttamente legati ai quarant’anni di Fede e Luce: la nostra partecipazione alla giornata di Assisi in ottobre, la visita di Benedetto XVI al Benin in novembre e altri ancora… Il libro di Marie-Hélène Mathieu è stato un bel regalo di compleanno, bisogna continuare a farlo conoscere, è uno «strumento» molto importante per rileggere la nostra storia e continuare a vivere le energie degli esordi. Dall’anno scorso abbiamo anche un sito internet bello e nuovo, frutto del lavoro di una segreteria eccezionale. Che il grande fuoco di Lourdes continui a illuminare i pellegrinaggi che avranno luogo nel 2012! I messaggeri della gioia continueranno ancora quest’anno a diffondere il loro entusiasmo nel mondo. A fine febbraio, con l’équipe di coordinamento internazionale, considereremo l’intero cammino già percorso e vedremo come questo slancio possa continuare a portare frutti in futuro. Allora, andiamo tutti avanti, continuiamo ancora a farci conoscere, ad invitare nuove famiglie, nuovi amici! Non dimentichiamo nelle nostre preghiere tutte le comunità che si trovano in Paesi di cui i giornali ci parlano troppo spesso quando si tratta di difficoltà, conflitti, guerre. Non mi abituerò mai a questo genere di notizie drammatiche e affido tutti i nostri amici in sofferenza alle vostre preghiere.
+**Ghislain du Chéné**
+- Coordinatore internazionale Fede e Luce
+
+---
+
+### Chi può dire…
+
+Avendo letto con interesse l’articolo del prof. Mariani nel n. 115 di Ombre e Luci, sono rimasta colpita dalla dura risposta di Paolo Mazzarotto nel n. 116. Il prof. Mariani mette in campo, forse con troppa veemenza, problematiche sulle quali, per me, sarebbe giusto che laici e credenti si confrontassero con la mente sgombra da qualsiasi pregiudizio. Sarebbe interessante affrontare il tema del valore della vita, con tutte le sue implicazioni, senza vergogna e senza paura, cercando di capire bene di cosa stiamo parlando. Mi limiterò a fare alcune domande che mi angosciano molto e a riferire varie risposte sull’argomento, che ho raccolto tra amici e conoscenti, o ascoltato in dibattiti televisivi o letto su autorevoli quotidiani.
+**Quando inizia la vita di un essere umano?**
+Per alcuni dal primo istante del concepimento, per altri quando è completamente formato il cervello o addirittura nel momento in cui si ha l’autocoscienza. Quest’ultima affermazione mi fa rabbrividire: guardo mia figlia Flaminia, trentatreenne cerebrolesa, a causa di una leggerezza dei medici,e definita, nella valutazione dei disabili, grave/gravissima, e non so dire per certo che abbia piena coscienza di sé. Quindi come persona, forse, non esiste?
+**Quale criterio stabilisce quando la nostra vita può ritenersi degna di essere vissuta?**
+Sicuramente quando siamo pienamente autonomi, grado di dimostrare tutte le nostre capacità, quando, fisicamente e spiritualmente, sappiamo utilizzare tutte le nostre potenzialità. Penso, con sgomento, alla mia Flaminia e a tante altre persone che conosco e si trovano in condizioni simili alla sua e, sicuramente, non rientrano in questi parametri. La loro vita è inutile?
+**Chi può decidere che una vita non è degna di essere vissuta? I genitori, il tutore, l’amministratore di sostegno, un giudice, un medico?**
+Quando si entra nella “categoria” dei disabili gravi/gravissimi? Se si nasce con una grave malformazione o una alterazione cromosomica. Se si nasce sani ma, per errori umani al momento del parto o subito dopo, subire danni gravissimi e irrimediabili, dovuti anche ad una vaccinazione, ad una encefalite quale complicazione di una banale malattia esantematica e via dicendo. Se si nasce sani e si vive una vita piena in tutti i suoi aspetti finchè, un evento traumatico, un incidente, un ictus, un delicato intervento chirurgico malriuscito, trasforma la vita di una persona “normodotata” in quella di un disabile grave/gravissimo. Aggiungerei anche alcuni anziani che, dopo una vita di totale normalità, vengono aggrediti da forme gravi di demenza o alzheimer. Generalmente tutte queste persone sono in grado di alimentarsi ed idratarsi autonomamente, nè di farne richiesta. Parlo solo di idratazione e alimentazione, che sono la base della sopravvivenza per tutti noi; altre cure potrebbero rientrare nell’accanimento terapeutico e sarebbero da valutare caso per caso. Un’ultima domanda:come si può dubitare del bene prezioso della vita di ogni essere umano quando si pensa alla ragazza down (ricordo che la sindrome di Down è facilmente individuabile dalle attuali indagini prenatali e i medici consigliano vivamente di abortire) dell’ultima lettera nel n.116 di Ombre e Luci, che prima di morire ha cercato, con tutte le sue forze, di far riappacificare i suoi familiari, divisi da antichi malintesi? Concludo con un pensiero per mio padre: è stato uno stimatissimo chirurgo, con una intelligenza molto brillante; purtroppo negli gli ultimi anni della sua vita è stato affetto da una grave forma di demenza senile, da lui diagnosticata ai primi segnali. La sua bella mente lo aveva completamente abbandonato; non ricordava nulla, eccetto le preghiere che non ha mai dimenticato. L’ho visto pregare fino all’ultimo istante della sua vita, testimoniando, anche nelle sue condizioni critiche, la grande fede che lo aveva sempre accompagnato. Forse dovremmo riflettere con più rispetto ed umiltà sul grande mistero della vita e della morte e pensare che gli “anatemi” del prof. Mariani, potrebbero essere invece grida di allarme. Forse il baratro nel quale spesso abbiamo la sensazione che il nostro mondo stia precipitando, potrebbe avere la sua origine anche nella graduale perdita di rispetto della sacralità della vita umana, che in passato accomunava laici e credenti.Io penso che le gioie e i dolori fanno parte della nostra natura umana, però non mi stanco mai di ripetere che dovremmo impegnarci tutti di più per migliorare la società in cui viviamo, pretendendo che nessuno sia lasciato solo ad affrontare difficoltà e disperazione.
+**Paola Pulieri Ceccarini**

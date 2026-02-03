@@ -1,0 +1,22 @@
+---
+title: Una profezia
+date: 2015-03-19
+author: Marco Bove
+slug: una-profezia
+lang: it
+wp_id: 38838
+original_url: "https://www.ombreeluci.it/?p=38838"
+cluster_id: 5
+has_comments: false
+tags:
+  - fede-e-luce
+umap_x: 7.459002494812012
+umap_y: 9.12482738494873
+umap_z: 12.830785751342773
+issue_number: OEL-129
+id_numero: OEL-129
+---
+D
+a quando ha cominciato a muovere i suoi primi passi, Fede e Luce ha compiuto un lungo cammino, non solo nel mondo, ma anche nella Chiesa e al proprio interno, prendendo progressivamente coscienza di sé e del proprio compito, del dono fragile e prezioso che piano piano è diventato per questo nostro mondo. Anche per me come Assistente Spirituale, l’incontro con Fede e Luce è avvenuto fin dagli anni della mia formazione in Seminario durante una festa di fine anno, ed è stata una progressiva scoperta. Mi era stato chiesto di accogliere nei locali del Seminario questo gruppo un po’ strano, così quando è arrivato, è successo esattamente il contrario: non sono stato io ad accogliere, ma sono stato accolto, così semplicemente, senza ruoli né etichette, nella semplicità di stare insieme. E da allora, sono passati più di trent’anni, non me ne sono più andato. Credo non sia esagerato, né fuori posto parlare allora del “vangelo di Fede e Luce”, dal momento che quello che viviamo nelle nostre comunità, è insieme una esperienza molto bella di amicizia, di incontro e insieme una esperienza di vangelo. E quando si tratta di vangelo, il problema non è tanto fare grandi teorie, si tratta semplicemente di vita. Il vangelo infatti non è né una dottrina, né una teoria, è una vita, la vita di Gesù. E a Fede e Luce abbiamo scoperto che è possibile viverla nella semplicità e nella quotidianità delle nostre relazioni, nei momenti di incontro, nelle feste e nella preghiera. Ma che cos’è il vangelo di Fede e Luce? San Paolo scrivendo ai cristiani di Corinto dice: “Considerate infatti la vostra chiamata, fratelli: non ci sono fra voi molti sapienti dal punto di vista umano, né molti potenti, né molti nobili. Ma quello che è stolto per il mondo, Dio lo ha scelto per confondere i sapienti; quello che è debole per il mondo, Dio lo ha scelto per confondere i forti; quello che è ignobile e disprezzato per il mondo, quello che è nulla, Dio lo ha scelto per ridurre al nulla le cose che sono, perché nessuno possa vantarsi di fronte a Dio.” (1Cor 1, 26-29) Queste parole descrivono benissimo quello che noi viviamo a Fede e Luce, le scelte di Dio infatti vanno sempre un po’ contro corrente. Questo nostro mondo sceglie e preferisce sempre ciò che è da mettere sul piedistallo, sceglie la forza, la bellezza, la competizione. Ma Dio invece sceglie quello che per tutti è “stolto, ignobile, disprezzato...”. Così anche a Fede e Luce, in cui non ci sono né sapienti, né potenti, né nobili, anche noi scopriamo che ogni essere umano ha un grande valore sempre, e che non c’è nessuno che non abbia le proprie povertà, le proprie ferite, i propri limiti. Ma ciascuno è amato e accolto così com’è senza doversi nascondere, mascherare o vergognare, ciascuno ha diritto di essere se stesso, e a ciascuno è importante che venga rivelata la propria bellezza. Questo è il vangelo, la buona notizia dell’amore di Dio per tutti i suoi figli. Ma tutto questo a Fede e Luce cerchiamo di viverlo e più che essere annunciato a parole, cerchiamo di farlo accadere ogni volta che ci incontriamo, con la gioia di accogliersi e di stare insieme, permettendo a ciascuno di sentirsi accolto. Nella Chiesa e nel mondo di oggi, tutti devono poter trovare il loro posto, soprattutto chi è più piccolo e più fragile. Per questo Fede e Luce è un segno importante ed ha un vero e proprio compito profetico: quello cioè di rivelare a tutti il volto di un Dio che sceglie i piccoli e confonde i sapienti di questo mondo; ma anche all’interno della Chiesa ricorda a tutti qual è il centro del vangelo e come poterlo annunciare. Abbiamo la presunzione di credere che Fede e Luce sia un segno di vangelo e che lo Spirito ce lo abbia affidato oggi come dono e come compito. Forse non sempre siamo capaci di viverlo e di testimoniarlo davvero, ma di questa profezia siamo più che consapevoli e, con tutta l’umiltà del caso, siamo anche un po’ orgogliosi.
+*don Marco Bove*
+, Assistente ecclesiastico nazionale Milano - Un Fiume di Pace

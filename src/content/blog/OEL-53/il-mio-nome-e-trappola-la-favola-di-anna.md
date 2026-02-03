@@ -1,0 +1,32 @@
+---
+title: "Il mio nome è trappola - La favola di Anna"
+date: "1996-03-03"
+author: "Redazione"
+theme: "cluster-0"
+cluster_id: 0
+slug: "il-mio-nome-e-trappola-la-favola-di-anna"
+lang: it
+numero_rivista: 53
+id_numero: OEL-53
+issue_number: OEL-53
+wp_id: 10475
+has_comments: false
+tema_code: "T03"
+tema_label: "Amicizia e relazioni autentiche"
+categoria_menu: "Relazioni"
+---
+
+Quello che mi dispiace, mentre mi accingo a scrivere qualche parola di presentazione per questo libro, è che, comunque, troppo poche persone lo leggeranno. Io vorrei invece che lo leggessero in tanti; non per fare un piacere a Margherita, che lo ha scritto (anche se certamente ne sarebbe felice, non ultimo per le «entrate»), ma perché è un bel libro. Vorrei che lo leggessero i ragazzi e le ragazze che viaggiano (trovandolo a mille lire nelle edicole della stazione), le persone che stanno tanto tempo in casa (con il vantaggio di sottrarre qualche ora alla televisione), o gli studenti, su suggerimento dei loro insegnanti.
+Forse questo è un sogno, perché di fatto la gente si interessa pochissimo e male di chi è solo una «trappola», di chi cioè non sa combinare niente di buono, come Anna. Forse è solo per mancanza di conoscenza... Ma con questo libro potrebbero almeno fare, per l’appunto, la conoscenza, di Anna.
+Anna è la figlia di Margherita; una figlia «diversa» che non percorre la strada normale della crescita, ma fin dai primissimi anni stupisce, addolora, confonde, scandalizza con i suoi comportamenti, il suo mutismo, il rifiuto netto che sembra opporre al mondo.
+Quando il libro inizia, Anna è già grande; vive sola con Margherita, da quando il papà è morto, «forse di crepacuore», da quando si è sposata Elena:. Elena, la sorella maggiore che tanto ha fatto da cuscinetto tra Anna e il mondo esterno (ci sembra di vederla, esasperata e piangente tornare dall’asilo tirandosi dietro la sorellina «diversa», causa di emarginazione anche per lei).
+Margherita non è riuscita a guarire Anna, a farla parlare, a farle condurre una vita «normale» desiderata con tutte le forze, e ora, in questa solitudine compie, secondo me, un piccolo grande miracolo. E come se desse nuova vita ad Anna, una nuova vita.
+Le presta la sua voce, ed ecco Anna si muove nelle pagine del libro, si racconta, ne emerge nitida, ci permette di seguire l’itinerario della sua esistenza; il suo sconcerto, l’incomprensione, il rifiuto, il turbamento... e infine una sorta di accettazione di una vita, la sua vita, che non si inserisce tra le altre.
+Sono di Anna o della sua mamma il dramma dello sconcerto e l'incomprensione per la sua vita diversa? O sono nostre, che le sentiamo penetrare nella mente e nel cuore mentre leggiamo?
+
+Le pagine si susseguono rapide, a volte piene di poesia, a volte di sdegno; piene di sofferenza, ma anche di umorismo. Vi sono raccontati episodi, incontri, piccole scene; si fanno valutazioni, commenti; riflessioni... il tutto in forma concisa ed immediata, che facilita la lettura e delinea perfettamente personaggi e scenario.
+Anna, dopo i primi turbolenti difficilissimi anni della sua vita si delinea nella giovinezza come chi alla fine ha trovato una sua pace, un suo assestamento. Quando l’ho vista, alla presentazione del libro era seduta composta e serena a gambe incrociate sulla sua sedia, tutta assorta nel gioco degli «stringhelli». Ciao Anna, le ho detto, ed ho visto apparire un fugace sorriso, proprio come se rispondesse al saluto.
+Del libro, non so perché, amo meno il capitolo sui politici, che del resto è brevissimo — non perché non siano vere le cose che vi sono scritte; ma, proprio perché troppo vere, quasi ovvie, non all'altezza degli altri capitoli e delle loro pagine disincantante, vivaci, struggenti, non ovvie, per niente, ma destinate a stupire e a piacere.
+Ciao Anna, come vorrei saper scrivere bene e convincere tanta gente a comprare il tuo libro, perché è il solo modo di conoscerti — e conoscerti è anche imparare a volerti bene.
+
+- *Lucia Bertolini*, 1996

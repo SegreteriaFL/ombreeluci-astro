@@ -1,0 +1,19 @@
+---
+title: Avete mai interpretato la grotta di Betlemme?
+date: 2020-06-03
+author: Laura Coccia
+slug: avete-mai-interpretato-la-grotta-di-betlemme
+lang: it
+wp_id: 19372
+original_url: "https://www.ombreeluci.it/?p=19372"
+cluster_id: 1
+has_comments: false
+tags:
+  - persone-con-disabilita
+umap_x: 7.3705925941467285
+umap_y: 8.882431983947754
+umap_z: 8.584202766418457
+issue_number: OEL-152
+---
+
+Èpassato quasi un quarto di secolo dalla mia recita della quarta elementare e il mondo è cambiato. Noi disabili eravamo ancora poveri handicappati da compatire. Non tutti la pensavano in questo modo, ma la mia maestra era ben radicata nella convinzione, che noi eravamo povere creature da non illudere, anzi, da educare alla dura realtà che ci circondava. La mia maestra si sentiva in dovere di impartirmi un insegnamento su tutti: doveva insegnarmi quale fosse il mio posto nel mondo, dietro le quinte a vivere di riflesso la vita degli altri. Non perdeva occasione per ricordarmelo, soprattutto dopo che in un tema dell’ottobre 1996 avevo rivelato che da grande avrei voluto partecipare alle Olimpiadi. Aveva fatto chiamare i miei genitori d’urgenza, spiegando loro che non avevo la percezione del mio limite e consigliava di farmi supportare da uno psicologo. Ma non aveva trovato sponda. L’occasione propizia le si presentò con la recita di Natale, quando decise i ruoli. Fremevamo nell’attesa e ognuno di noi cercava di immaginare di essere l’Arcangelo Gabriele, la Madonna o qualche pastorello. Io ho sempre sognato di avere un ruolo come i miei compagni, di condividere la scena. Quando è arrivato il momento di ricevere la parte ho preso il copione e… ho scoperto che quell’anno sarei stata la Grotta di Betlemme. Non capivo che ruolo fosse, allora, ho chiesto spiegazioni del perché mi fosse stata attribuita proprio quella parte e la mia maestra disse con estrema semplicità: «Così stai seduta e non si vede». La mia tetraparesi spastica doveva rimanere nascosta, era qualcosa di cui vergognarsi, una sorta di difetto di fabbrica che non doveva offendere gli sguardi degli spettatori. Credo avesse impiegato un bel po’ per trovare una recita che includesse quel ruolo. Tutti avevano un costume di scena e ce n’erano di bellissimi, il mio era fatto con la carta del presepe attaccata addosso, come una spessa coperta. Avevo 10 anni, ma quel senso di umiliazione lo ricordo ancora, dopo quell’esperienza giurai a me stessa che non mi sarei mai più piegata ai giudizi di nessuno. Quella recita ha lasciato in me una ferita che solo il tempo ha saputo rimarginare, le vittorie sportive e nella vita hanno dimostrato che avevo ragione io a sostenere di essere la protagonista della mia vita, eppure mi sono soffermata spesso a chiedermi perché la mia disabilità la spaventasse così tanto. Ci ho messo anni a capire. Capire non è giustificare, ma serve a inquadrare ciò che accade nella giusta dimensione rispetto a tutto il resto. Era una donna nata nel dopoguerra, cresciuta in una scuola fatta di classi speciali e bambini con le orecchie da asino, in una società dove la scalata sociale era l’obbiettivo principale, anche se avevi fatto il Sessantotto. Quando sono arrivata in prima elementare, nel 1992, era stata emanata la legge 104, una legge meravigliosa. Una legge che ci chiama “handicappati”. Perché quello eravamo. Probabilmente voleva proteggermi, facendomi sedere su quella sedia, o imponendomi di inghiottire i miei sogni, ma facendomi leggere Dante e Manzoni a 11 anni pensava che bastasse per farmi crescere bene. Voleva mostrarmi il mio angolo di mondo, senza illusioni. Io, invece, chiedevo solo di mettermi alla prova, affinché trovassi da sola i miei limiti e la strada per superarli. Ho vinto io. E questa è la mia vittoria più bella. Iscriviti e ricevila ogni quindici giorni

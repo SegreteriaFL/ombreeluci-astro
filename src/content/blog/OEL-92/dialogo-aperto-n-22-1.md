@@ -1,0 +1,53 @@
+---
+title: Dialogo Aperto n. 22
+date: 2005-12-23
+author: Redazione
+slug: dialogo-aperto-n-22-1
+lang: it
+numero_rivista: 92
+id_numero: OEL-92
+issue_number: OEL-92
+wp_id: 31264
+original_url: "https://www.ombreeluci.it/?p=31264"
+cluster_id: 11
+has_comments: false
+umap_x: 4.7205424308776855
+umap_y: 7.637380599975586
+umap_z: 10.809100151062012
+---
+
+### Dall'Honduras: Le tante voci di Dio
+
+Carissima Mariangela, ti scrivo due righe per salutarti e dirti che spero tu possa continuare il tuo lavoro di Ombre e Luci. Mi hai insegnato tantissimo sugli handicappati e su me stesso e come essere un buon amico con loro e genitori. Seguiamo sempre il gruppo di Tocoa e aumentiamo il numero di comunità in Honduras con la grazia di Dio. La sfida è trovare giovani aperti ad essere amiche ed amici dei ragazzi. Ti mando una riflessione sugli amici speciali qui in Centro America del mio confratello gesuita Miguel Vasquez. Saluti alla comunità di S. Silvia. Siamo uniti nella preghiera e nell'opera di Fede e Luce. Di nuovo grazie per la rivista. Animo. Che Dio vi benedica tutti nel vostro uffizio. Pace e bene.
+**P. Roberto Grimaldi**
+, gesuita
+
+---
+
+### La "ternura" di Dio con noialtri
+
+...La nascita di un bambino o bambina con limitazioni è accolta in modo speciale tra la gente indigena nella Americhe. L'etnia Ngobe-Buglé di Panama conserva molto della sua ricchezza spirituale. A noi che viviamo in un modo globalizzato sembra di andare indietro dall'ottica dello sviluppo e della civilizzazione dell'occidente. Hanno la forte convinzione che come Dio ha parlato al mondo dal mondo giudeo, Dio ha parlato in altri tempi al popolo Ngobe-Buglé. Gli ha mandato Profeti, Uomini e Donne per orientare e guidare. Per questa etnia Dio si è rivelato come Padre e Madre. Il profeta Mirono è l'immagine del profeta, simile a quella del liberatore Mosè della Bibbia. Però si descrive la figura umana di Mirono Kronomo come una specie di uomo con deformità del corpo e nella faccia simili ad un animale o ad uccello. Quando nasce in una famiglia un bambino o una bambina con deformazioni o limitazioni si vede come un segno di Dio. Fa parte di questa tradizione considerarli dei grandi comunicatori della tenerezza di Dio. Si radunano i vicini, la comunità, i vecchi e le vecchie della comunità. Le visite sono continue durante tutta la giornata e di notte si organizza una veglia. C'è il rito del bere cacao che è una bibita sacra, la bibita degli dei. Se la creatura riesce a sopravvivere è visto come un segno divino. Se muore sempre rimane la domanda e la riflessione di cosa voleva dire Dio per mezzo di questo messaggero — che è passato tra noi. Ho conosciuto nella comunità di Cerro Otoe un bambino col nome di Ildefonso Montezuma, conosciuto da tutti col nome di Ponto. Handicappato non poteva camminare né parlare. Però ogni volta che lo visitavo, balbettava e faceva lo sforzo per salutarmi e mi diceva: "Olà, Miguel, come va?" Rispondevo: "Bene, Ponto molto bene e tu?". E mi rispondeva "Bene. E la tua famiglia?" Questa era tutta la sua comunicazione. Niente di più. Poi balbettava un canto che aveva ascoltato sovente dai suoi nonni, "C'è un popolo che vive molto felice, questo popolo è il popolo di Dio", Stanco morto, dopo aver camminato sei ore per raggiungere questa comunità, "questa conversazione mi provocava un ricordo della mia famiglia e quel canto mi dava nuova vita. Ho conosciuto un altro bambino, Luisito Escalante nella comunità di Nombre de Jesus nel Salvador. Cammina, ti osserva, porge la mano: sua madre, Donna Concepcion de Escalante è l'unica che riesce a comuni care con lui nel suo idioma di Madre e figlio che è unico. Durante i dodici anni di guerra civile, la casa di Luisito era sempre un focolare speciale dove tanta gente che veniva giù dalla montagna in cerca di aiuto, incontrava sempre l'accoglienza, la gentilezza, un posto dove dormire, una ragione per continuare a vivere e a lottare. Adesso dopo dodici anni, quando la guerra armata è finita, quella casa è sempre una casa speciale. Luisito, adesso è un uomo, sempre con gli occhi fissi, camminando, osservando. Sua mamma, generosa adesso come prima, serve la comunità e la chiesa nei lavori pastorali. Tanta gente senza spiegarselo visita tuttavia la loro casa, perché c'è qualcosa di speciale lì. Tante volte ci sbagliamo e quando vediamo un bambino o una bambina così ci commuoviamo e sentiamo pietà, facciamo carità e poi via. E sbagliamo. Approfondendo un poco di più possiamo arrivare a ritrovare ciò che i nostri antenati hanno scoperto e che è segno nei nostri tempi: la "ternura" (tenerezza) di Dio con noi che riflettono i più deboli. Nel nostro sistema di disordine mondiale non abbiamo bisogno di loro per nulla. E perciò li escludiamo e non contano per nulla. Li eliminiamo come nel secolo passato per fare una razza selezionata che poi finisce per diventare molto selvaggia.
+**P. Miguel Vasquez**
+m gesuita
+
+---
+
+### Handicap in Germania
+
+Dopo tanti anni di lavoro con Ombre e Luci a Roma, ho dovuto trasferirmi in Germania. Dopo qualche mese le persone con handicap mi hanno raggiunto. Che bella serata, giorni fa ritrovarmi a teatro; sulla scena un gruppi misto di disabili e non. Ho ripensato all'Alveare di Roma, al suo "Cristoforo Colombo"... Di questo gruppo di "ar: tisti" conoscevo una partecipante, educatrice, alla quale ho subito chiesto se, dopo lo spettacolo, potevo farle qualche domanda. Il giorno dopo ci siamo ritrovate. Avevo preparato sei domande sul loro lavoro. Abbiamo passato insieme un'ora e ‘mezza. Devo precisare che questa giovane, Yasmin, è di madre tedesca e di padre afgano cioè mussulmano. La storia rappresentata era senz'altro fatta bene, ma mi aveva messo sulla difesa per la sua lontananza dalla realtà e la sua aggressività. Yasmin ha capito perfettamente le mie domande, le mie perplessità, le mie critiche. Le ho detto che avevo lavorato in Italia con un gruppo cattolico. Abbiamo discusso a lungo e alla fine, lei ha detto:" Avete ragione voi, se avessi un figlio con handicap preferirei vederlo nelle vostre mani". Non voglio che facciamo i superbi. Errori ne facciamo tutti ma ritrovarmi così d'accordo con Yasmin mi ha dato voglia di continuare a cercare contatti qui ad Amburgo, di capire come trovano il loro posto le persone con handicap nella società tedesca. Vi manderò le mie prossime scoperte e riflessioni.
+**Nicole Schulthes**
+
+---
+
+### Un "sogno" in premio
+
+Alle amiche di Ombre e Luci invio i miei più sinceri ringraziamenti per aver consentito a me e a mio marito Carlo di vivere una bellissima esperienza come ospiti presso il convento dei padri agostiniani a S. Gimignano, quale premio per il testo vincitore del concorso indetto dalla vostra rivista, dedicato alla nostra amatissima bambina "Ilaria" (che portiamo sempre nei nostri cuori!). Padre Brian è sicuramente una persona speciale e ci ha accolto subito come amici facendoci sentire parte della sua "famiglia". Ha molta stima di voi e degli amici dell'associazione "Fede e Luce"ed è sensibile ai problemi delle persone disabili...insomma un vero amico! Grazie di cuore per averci consentito di vivere un "sogno". Un abbraccio fraterno.
+**Donatella Marazzini**
+
+---
+
+### Io papà in una comunità di Fede e Luce
+
+S
+alve, sono Lello, il papà di Pasquale di 21 anni, diversabile mentale dall'età di 4 mesi. Apparteniamo alla comunità "Il Germoglio" di Cardito (NA). Riassumo in breve la mia esperienza in Fede e Luce. Fede e Luce io l'ho conosciuta per caso (anche se sono convinto che per caso non capita mai niente). Era la primavera del 2003 quando un'amica di famiglia si presentò a casa mia con un prete, don Giorgio, e prospettò la possibilità di far parte di una comunità di Fede e Luce, appena nata, appoggiata alla Parrocchia Sacro Cuore di Cardito. Mia moglie, da sempre "roccia insormontabile" della famiglia, fu subito entusiasta e accettò ed io nella più assoluta indifferenza non mi opposi. Per i primi mesi inventavo sempre una scusa per non partecipare agli incontri di comunità e quella volta che per forza dovevo partecipare, mi sentivo nel disagio più totale possibile mentre notavo che mia moglie e mio figlio ( ed anche un'altra figlia oggi di 17 anni) erano felicissimi come non mai. Dopo circa 6 mesi scattò la famosa scintilla per Fede e Luce: anche se a malincuore partecipai alla Festa della Vendemmia del 2003 premettendo a mia moglie che all'ora di pranzo sarei andato via; quando arrivarono le persone di tutte le comunità (erano più di 100) rimasi esterrefatto dalla naturalezza, amore, solidarietà e affetto che regnava nell'atmosfera e incominciai a chiedere chi fossero, che ruolo avessero, in che modo sarebbe trascorsa la giornata, ecc. Mi interrogai in questo modo: "vuoi vedere che l'unica persona anormale sono proprio io?". Vedevo che tutti, compreso la mia famiglia, si divertivano, socializzavano, si scambiavano cenni di affetto, sorridevano ed all'ora di pranzo lasciai tutti e me ne andai da solo come mi ero prefissato rassicurando mia moglie che sarei ritornato iN serata per prenderli alla fine della festa. Il viaggio di ritorno a casa fu un vero tormento: quanto più mi allontanavo più sentivo che tutte quelle persone mi mancavano ed avrei voluto subito ritornare da loro per gioire insieme e magari di chiedere anche perdono per la mia indifferenza fino a quel momento. Da allora mi sono tolto la "maschera" ed il Signore ha voluto che in quella Comunità oggi, insieme alla mia famiglia, sono diventato un icona di esempio per tutti, il "papà" di tutti i ragazzi; sono il referente de "IL GERMOGLIO" per le attività regionali e primo collaboratore dell'ottimo don Giorgio che non mi stancherò mai di ringraziarlo per quella volta che venne a casa ad offrirci l'amore, la solidarietà e l'affetto. Oggi posso affermare con assoluta certezza che Fede e Luce è una grande profezia, un dono immenso del Signore, una grande ‘invenzionÈ che attraverso essa ha restituito ai ragazzi ed ai propri genitori quella dignità ed amore che li aiuterà a superare tutti i momenti difficili che si presenteranno durante il cammino della propria esistenza. Grazie Fede e Luce, grazie Signore.
+**Lello Mele**

@@ -1,0 +1,31 @@
+---
+title: E aspettò che ci accorgessimo di lui!
+date: 1988-09-29
+author: Redazione
+slug: e-aspett-che-ci-accorgessimo-di-lui-1
+lang: it
+wp_id: 6745
+original_url: "https://www.ombreeluci.it/?p=6745"
+cluster_id: 14
+has_comments: false
+umap_x: 8.846630096435547
+umap_y: 10.684161186218262
+umap_z: 8.065271377563477
+issue_number: OEL-23
+id_numero: OEL-23
+---
+Il posto di mia figlia nella Chiesa di Monica Vaioli L’educazione alla fede dei nostri figli con h.m. di Henri Bissonier Come fare l’educazione religiosa O. et L. n. 44 QUESTIONARIO L’integrazione delle persone con handicap nelle parrocchie LIBRO — L’educazione religiosa dei ragazzi h. mentali Esperienza di preparazione di ragazzi h.m. all’eucarestia e cresima di Anna Maria Conte F.M.M. A braccia aperte di Cécile d’Ermitanis VITA DI FEDE E LUCE Che cosa può fare la comunità parrocchiale per le persone con handicap Per chiunque legge il Vangelo, Dio appare un Padre che vuole tutti salvi e non solo va alla ricerca della pecora smarrita, ma lascia la porta aperta del suo ovile a chiunque voglia ristorarsi. Noi sacerdoti, insieme alle comunità ecclesiali, abbiamo questo tremendo compito di non tradire le attese di Dio e le speranze di chi varca quella soglia per sperimentare e gustare la dolcezza della sua dimora. La nostra comunità parrocchiale da tre anni vive questo mistero di accoglienza di un giovane, ospite di una casa alloggio A.C.L.I. Pasquale entrò in chiesa, senza far rumore e aspettò che ci accorgessimo di lui. Carico di tanta sofferenza, dovuta alla violenza subita nell’infanzia e poi in un ospedale psichiatrico, egli non appariva attraente. Aveva perso dei denti, i lineamenti del viso erano ben marcati e geometrici, il suo linguaggio era spesso incomprensibile perché limitato e sillabato. Superate le impressioni puramente esteriori e spesso ingannatrici, Pasquale diventò per me una persona che sprizzava un bisogno enorme di tenerezza e di amore. Alcuni esempi lo testimoniano. Dopo la Messa del mattino io e il sacrista siamo soliti fare colazione al bar. Un giorno decidemmo di invitarlo. Fu tanta la gioia che, saltellando e sbattendo consapevolmente la testa contro un palo della luce, ci raggiunse ed esplose in espressioni indescrivibili di ilarità. Da allora, pian piano, Pasquale ha ricevuto accoglienza dal vicinato. Da essere sbeffeggiato e caricaturizzato è diventato il ragazzo che trasmette un’esigenza di gratuità e di gioco nel rapporto umano. In parrocchia aveva trovato subito il suo compito: si sentiva chiamato a fare il chierichetto. In poco tempo aveva imparato i movimenti e i gesti del servire la Messa tanto da sentirsi un esperto. La sua fedeltà lo portava a non perdere neppure una delle celebrazioni eucaristiche, pretendendo, alcune volte, di monopolizzare il suo ruolo nei confronti degli amici ministranti. I ragazzi del coro, i bambini del catechismo, le vecchiette che, a prima vista, avevano avuto da ridire, un po’ tutta la comunità si accorse di lui e, senza cadere nella deteriore compassione, lo accolsero così com’era con i suoi limiti ma anche con quel suo tendere le mani per allacciare alleanze, le uniche che possono soddisfare le esigenze profonde del cuore. Pasquale aveva conquistato i cuori di tutti quando interveniva, durante la preghiera dei fedeli, per pregare per i suoi parenti ppure con espressioni lineari, semplici ma sentite quali: «Preghiamo. Ascoltaci Signore. Amen». Il suo inserimento in parrocchia è possibile paragonarlo a una pianta che è rifiorita al calore dell'accoglienza e dell’amore che ha ricambiato attraverso episodi significativi. Una sera dal balcone della sua casa, situata dirimpetto alla chiesa, osò sgridare dei turisti che, incuranti del verde pubblico, si erano sdraiati su alcune piante ornamentali. Indimenticabile la scena di quel marocchino che mi veniva a trovare per essere aiutato a trovar lavoro. In un momento di sconforto ripensando alla sua patria e alla sua casa a questo immigrato veniva da piangere. Con intuito Pasquale intervenne a consolarlo con frasi come «I bambini piangono». Era un invito incoraggiante a sperare, nonostante l’evidenza negativa del presente. Diverse volte, senza che glielo chiedessi, Pasquale mi ha fatto compagnia davanti al SS. Sacramento. La sua fede semplice si nutriva della testimonianza della preghiera della comunità. L’esperienza che egli fa di Dio ruota su questa rete di legami che egli ha tessuto. Dio, per Pasquale, è «l’Amico» perché l’ha sperimentato come il buon samaritano ricurvo su di lui per lenire quelle ferite che gli uomini, nella sua storia, gli avevano procurato. E oggi, considerando la «Parabola storica» di Pasquale, mi accorgo di quanto bene una comunità parrocchiale può fare a questi piccoli quando non osa etichettarli, ma li accoglie con i loro limiti, condivide con essi i loro drammi, le loro ferite, osa sfidare un ambiente pigro e indifferente per svegliare nei cuori quella bontà e quella dignità che ci fanno essere persone umane. Dall’altra parte questi piccoli costituiscono un dono di Dio per la comunità. Pasquale ha preteso un posto nella Casa di Dio, si è conquistato la simpatia di tutti, non perché era bello ma perché ha manifestato il suo bisogno di trovare radici attraverso legami veri ed autentici di amicizia. Ha dato e dà testimonianza della fedeltà di Dio attraverso le piccole cose di ogni giorno. Grazie alla sua presenza è nata in parrocchia una comunità di «Fede e Luce». Come parroco dico grazie al Signore per avermi fatto incontrare Pasquale sulla strada del mio cammino sacerdotale. Egli è un segno dell’amore di Dio che ricostruisce la Chiesa attraverso l’umiltà dei mezzi umani e la grandezza della sua grazia. -
+*don Vito Palmisano*
+e la comunità parrocchiale di S. Maria Amalfitana di Monopoli (Bari)
+
+#### Articoli
+
+e aspettò che ci accorgessimo di lui! di *V. Palmisano* Il posto di mia figlia nella Chiesa di *Monica Vaioli* L’educazione alla fede dei nostri figli con h.m. di *Henri Bissonier* Come fare l’educazione religiosa Esperienza di preparazione di ragazzi h.m. all’eucarestia e cresima di *A. M. Conte* A braccia aperte di *C. d'Ermitanis* Che cosa può fare la comunità parrocchiale per le persone con handicap
+
+#### Rubriche
+
+Dialogo Aperto Vita Fede e Luce
+
+#### Libri
+
+L'educazione religiosa dei ragazzi con disabilità mentale

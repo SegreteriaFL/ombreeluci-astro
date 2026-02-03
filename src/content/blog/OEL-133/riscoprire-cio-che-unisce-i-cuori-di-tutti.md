@@ -1,0 +1,37 @@
+---
+title: "Riscoprire ciò che unisce i cuori di tutti"
+date: "2016-03-25"
+author: "Redazione"
+theme: "cluster-0"
+cluster_id: 0
+slug: "riscoprire-cio-che-unisce-i-cuori-di-tutti"
+lang: it
+wp_id: 39113
+has_comments: false
+tema_code: "T05"
+tema_label: "Fede, Chiesa e spiritualità della fragilità"
+categoria_menu: "Fede"
+issue_number: OEL-133
+id_numero: OEL-133
+---
+L’incontro del papa Francesco col patriarca di Mosca Cirillo a Cuba, anche se breve, è stato indubbiamente un evento storico, un incontro che ha suscitato speranze per l’unità e la concordia tra i cristiani. Da parte di Roma c’era da tempo un desiderio ardente di un incontro. Mosca però era diffidente. Perché? Davvero le cose adesso sono cambiate tra cattolici e ortodossi?
+
+Il mondo cattolico è stato mosso dagli anni ‘50 in poi da un desiderio di rinnovamento, di riconciliazione. Il mondo ortodosso non ha lo stesso atteggiamento; ha vissuto per molti secoli e vive ancora in un atteggiamento di resistenza per difendere e vivere la propria fede. Resistere contro i Turchi, i Musulmani, il comunismo, gli influssi occidentali, e anche la propaganda cattolica.
+
+Nella mentalità dei popoli le cose cambiano molto lentamente. Venti anni soltanto dopo il crollo del comunismo sovietico, l’atteggiamento dei popoli non può cambiare, e prevale un atteggiamento di difesa di fronte all’occidente e alla chiesa cattolica.
+
+Per i cattolici capire la Chiesa come un’entità mondiale, internazionale, radicata in molte nazioni e allo stesso tempo unita, che la persona del papa rappresenta ed esprime, è un’idea naturale. La Chiesa è universale e l’unità dei Cristiani è un compito di tutti. Invece bisogna capire che il mondo ortodosso è composto da chiese ortodosse costituite su base nazionale. Esiste la Chiesa della Grecia, quella della Bulgaria, quella della Russia ecc.; è così da secoli, anzi le chiese locali hanno avuto un ruolo essenziale per la formazione delle nazioni, e poi hanno difeso la loro nazione in periodi difficili. Dunque ogni chiesa nazionale deve occuparsi dei compiti suoi e non immischiarsi negli affari degli altri, perché il territorio nazionale è anche il territorio della chiesa nazionale. Interferire è un’offesa ed una contestazione. Perciò le comunità ortodosse disperse nel mondo (la diaspora ortodossa), sono organizzate secondo la nazione. A New York troveremo il vescovo degli ortodossi Greci, poi il vescovo degli ortodossi Russi, dei Romeni e così via. Esiste, certo, il concetto della chiesa universale, ma questo è teorico, astratto. Invece per un cattolico è molto concreto e reale. L’autorità papale unisce le chiese di ogni nazione. L’unità della chiesa universale non è un’urgenza per l’ortodosso medio.
+
+Gli Ortodossi non capiscono perché ci deve essere un papa, testa visibile di tutta la chiesa nel mondo. Loro hanno come modo di governo il sinodo. Tutte le decisioni importanti devono essere prese nel sinodo. Esiste un presidente il cui ruolo è di permettere al sinodo di lavorare: non conduce il sinodo (almeno in linea di principio) e non interviene nel territorio degli altri. Il sistema opposto per gli ortodossi è quello papale. Il mondo ortodosso ha sempre lottato contro il “papismo”, fin dallo scisma, nell’XI secolo.
+
+Dunque cominciamo a capire che il cammino verso l’unità dei cristiani non è una cosa semplice. Esiste una lunga storia di divisione, di opposizione, di conflitti, ecclesiali, ma anche nazionali, tra Polacchi e Russi o tra Tedeschi e Russi, ecc.
+
+In questo contesto cosa ci divide veramente e cosa ci unisce? La risposta, in breve, dipende dalla mentalità di chi la dà. Ci sono tante differenze che non sono un problema: nelle tradizioni liturgiche e nei costumi locali, le diverse lingue, i diversi riti di celebrazione, la diversa musica sacra, la diversa arte religiosa, l’architettura ecc. Ci sono costumi e regole diverse: clero sposato, pietà popolari intorno alle icone, le reliquie ecc. Molte differenze di tipo liturgico non sono un problema. Esiste la fede comune, in Cristo, nel Vangelo, al Dio unico e trino, abbiamo gli stessi sacramenti, la venerazione dei santi e della Madonna, la stessa struttura della chiesa con i monaci, i preti, i diaconi, i vescovi, le chiese locali e i sinodi. Ci riferiamo tutti alla Scrittura e alla Tradizione della Chiesa. Si tratta veramente della stessa fede, della stessa Chiesa.
+
+Però ci sono anche divergenze e opposizioni che vengono dalla storia e di natura teologica o ecclesiale. Dalla storia viene il sentimento degli ortodossi che sono stati vittime dell’espansionismo, o dell’imperialismo religioso di Roma. Sotto questo influsso, nel XVI secolo, alcune chiese ortodosse locali sono diventate cattoliche pur mantenendo le loro tradizioni orientali, come avvenne in Ucraina, in Romania e in altri posti. Sono le chiese dette Uniate, o dei Cattolici Orientali. Per gli ortodossi è sempre il risultato di aggressione romana. Cosa fare? Abolire queste chiese locali che contano dieci o dodici milioni fedeli? Impossibile. D’altronde questi cattolici sono stati anche loro perseguitati dagli ortodossi, hanno mantenuto il loro cattolicesimo con grandi sacrifici. La questione rimane una problema, soprattutto da parte ortodossa.
+
+Poi ci sono alcune differenze dottrinali. La più importante, quella del primato del papa di Roma, è la sola che conta. Per molti ortodossi il primo dei vescovi è quello di Roma secondo la tradizione di sempre. Ma la vera questione è: con quali poteri? Gli orientali non hanno mai conosciuto tutto questo centralismo cattolico e non sono disposti ad ammetterlo. Bisogna ripensare il funzionamento della Chiesa, e non è facile per nessuno.
+
+Malgrado le divergenze, i pastori delle chiese si incontrano non come nemici, ma come fratelli. Danno un’immagine di unità. Dopo secoli di separazione fanno dei passi l’uno verso l’altro. Sentono il bisogno di riconciliazione, di unirsi come discepoli di Cristo. Siamo in movimento e ci sono dei segni di una volontà di unione, la memoria di una fratellanza, la consapevolezza della volontà del Signore che ci vuole uniti. Allora nel cuore di tutti i Cristiani c’è consolazione e speranza.
+
+*Teodoro Kontidis sj*, Atene

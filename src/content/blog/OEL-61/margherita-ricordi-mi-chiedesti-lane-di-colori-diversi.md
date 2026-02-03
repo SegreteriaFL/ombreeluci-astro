@@ -1,0 +1,29 @@
+---
+title: Margherita - Ricordi? mi chiedesti lane di colori diversi
+date: 1998-03-04
+author: Redazione
+slug: margherita-ricordi-mi-chiedesti-lane-di-colori-diversi
+lang: it
+numero_rivista: 61
+id_numero: OEL-61
+issue_number: OEL-61
+wp_id: 12156
+original_url: "https://www.ombreeluci.it/?p=12156"
+cluster_id: 2
+has_comments: false
+umap_x: 4.798092365264893
+umap_y: 9.865057945251465
+umap_z: 11.659618377685547
+---
+
+Ricordi? Avrai avuto sette o otto anni quando arrivasti a Bari con la tua famiglia. Il lavoro di tuo padre vi aveva costretti a cambiare spesso il luogo di residenza. Ora abitavate di nuovo a Bari ed io, la tua madrina, ero felice del vostro arrivo. Ma andaste ad abitare lontano: ci vedevamo solo nelle grandi feste. Di quel periodo ricordo i tuoi grandi occhi scuri che mi guardavano pieni di curiosità e avidi di affetto. Ricordo che spesso venivi zittita quando incominciavi a parlare: il tuo modo di esprimerti era incomprensibile e insistente. Era evidente che c’era qualcosa che non andava e ne parlai con tua madre. Accettò di portarti da un terapeuta. Dopo poche visite lasciò andare: a scuola avevano scoperto che avevi un forte grado di sordità e le tue «stranezze» vennero attribuite a quello. Fosti operata! Ma i tuoi problemi rimasero.
+
+Avevi già sedici anni quando «ti ritrovai» aH’improvviso vicino a casa mia; avevi lo stesso sguardo attonito, gli stessi occhi che parlavano e chiedevano. Ora abitavi un piccolo appartamento poco distante da me, insieme a tua sorella che aveva incominciato a lavorare. Venni a trovarti. La casa era in un disordine indescrivibile. Tua sorella stava fuori tutto il giorno, tu uscivi la mattina presto per andare a una scuola lontana e tornavi alle tre. A casa non trovavi nessuno. Ricordo di averti vista un po’ affannata a stirare certe camicie e di aver notato, da una parte, una lunga sciarpa di lana tutta ingarbugliata che stavi lavorando. Mi chiedesti delle lane di colori diversi. Da quel giorno venisti a casa mia con una certa regolarità. Ti aspettavo in qualsiasi momento. Venivi, facevi merenda e, parlavi. Parlavi, parlavi, parlavi. Non era facile capirti, dicevi troppe cose e tutte a metà. Raccontavi la tua sofferenza. A volte andavamo a passeggiare sul lungomare; navi sconosciute passavano all’orizzonte e, nella lontananza, mi sembravano tanti punti interrogativi, gli stessi che ci riempivano il cuore.
+
+Fu l’inizio vero della nostra amicizia. Attraverso il tuo comportamento e le tue reazioni mi sembrava di capire ciò che chiedevi: la calma, la delicatezza, la disponibilità. Mi insegnavi i piccoli gesti affettuosi: volevi che restassi vicino all’ascensore e che non rientrassi subito in casa dopo averti salutata. Mi lasciavi poi, contenta di quell’ultimo gesto, continuando a chiamarmi e a salutarmi mentre scendevi in ascensore ai piani di sotto. Mi insegnavi che quando si dedica del tempo a qualcuno lo si fa totalmente e non sovrappensiero. Per te era semplice ciò che per me, che facevo tutto di corsa, era una complicazione. Mi forzavi alla lentezza, all’attenzione. Te ne sono grata. Ci furono anche difficoltà, piccola amica? Sì, le difficoltà ci furono. Perché tu, a tuo modo, mi divoravi. Le tue parole, per te così necessarie, mi riempivano, mi contagiavano, mi portavano via... Il tuo bisogno di parlare di te, di centrare tutto sulle tue esigenze, al di là di quelle ore che ti dedicavo, mi avrebbe distrutta. Per questo penso spesso con una tenerezza particolare alla tua famiglia, che ti ha accolta con tanta gioia quando sei nata e che poi si è sentita ferita, colpevolizzata e trasformata dal tuo male e dalle sue manifestazioni.
+
+Incominciasti poi a parlare con tutti, con i portieri fermi sulla strada, con la gente sconosciuta che incontravi e che ti dava ascolto. Ti innamoravi continuamente di uomini con i quali avevi scambiato appena poche parole. Vi furono alcuni episodi drammatici e dolorosi. Il tuo comportamento ti portava verso gravi pericoli. Fu allora che conoscesti gli amici di Fede e Luce. Furono il tuo punto fermo. Ti cercavano e ti aspettavano sempre, anche quando la tua irrequietezza ti spingeva verso altre direzioni. Ancora oggi sono i tuoi migliori amici. Verso i venti anni, di tua iniziativa incominciasti una terapia presso uno psicologo della ASL. Oggi ti segue ancora. Questo fu certo un bene per te: hai fatto qualche progresso, ti esprimi meglio e hai incominciato, a modo tuo, a gestire la tua vita. I tuoi genitori ti avevano tolta dalla scuola superiore dove studiavi con sempre maggior difficoltà. Frequentasti un istituto di addestramento professionale, alcune cooperative protette, passasti qualche mese in una casa famiglia. Ma poco tempo dopo avere iniziato queste esperienze, le hai sempre abbandonate: una parola sbagliata, un’atteggiamento sgarbato, un ambiente secondo te non adatto, ti hanno portata a rompere il rapporto. Nessuno è poi venuto da te per chiederti di tornare... Forse volevi troppo, forse c’era in te un’irrequietezza di fondo che esauriva presto le tue forze. Non lo so. Il fatto è che oggi hai trent anni, aspetti ancora di trovare un'attività e aspetti l’uomo della tua vita. Vai a fare qualche commissione per la tua mamma, porti fuori il cane, resti ore ed ore in camera tua ad ascoltare la musica e a seguire le telenovelas alla TV.
+
+Sei stata riconosciuta disabile al 50%. Certo questo è stato un punto di chiarezza. La tua famiglia ha capito che è necessario proteggerti e che, se spesso sei fastidiosa ed egocentrica, è necessario capirti. Ma fino a che punto dobbiamo limitarci a proteggere, capire e accettare? Come possiamo anche riuscire a convincerti a portare a termine un impegno, a non scoraggiarti quando sei davanti ad una difficoltà e a fare della tua vita una vita soddisfacente? In quali modi? Con l’aiuto di chi? Questo è il nostro problema e la nostra responsabilità.
+
+- *Francesca Rota* , 1998

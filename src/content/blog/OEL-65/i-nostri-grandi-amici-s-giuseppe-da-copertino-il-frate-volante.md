@@ -1,0 +1,19 @@
+---
+title: "I nostri grandi amici: S. Giuseppe da Copertino, il frate volante"
+date: 1999-06-16
+author: Redazione
+slug: i-nostri-grandi-amici-s-giuseppe-da-copertino-il-frate-volante
+lang: it
+numero_rivista: 65
+id_numero: OEL-65
+issue_number: OEL-65
+wp_id: 12589
+original_url: "https://www.ombreeluci.it/?p=12589"
+cluster_id: 3
+has_comments: false
+umap_x: 7.450786590576172
+umap_y: 9.390484809875488
+umap_z: 11.020544052124023
+---
+
+1. Giuseppe nasce da una famiglia molto povera mentre il padre è lontano e in pericolo. Nasce come Gesù in una stalla sulla paglia e si addormenta tra le braccia della sua mamma sola e in lacrime. 2. Giuseppe deve lavorare fin da bambino, ma non è molto intelligente e si distrae sempre. È cacciato anche dal calzolaio che gli insegnava il mestiere. “Non sa fare niente - dice alla madre - guarda sempre in alto e tutti lo prendono in giro”. 3. Giuseppe vuole entrare in convento per servire Gesù. La mamma gli dice che è impossibile perché lui non sa fare niente. Giuseppe risponde. “Non ti preoccupare, mamma, ci penserà Gesù: anche lui non era un falegname bravo come suo padre, ma è diventato Gesù per volontà di Dio”. 4. Giuseppe entra in convento e lavora tanto ma combina anche tanti pasticci perché pensa troppo a pregare e a cantare canzoni per Gesù. I monaci, scontenti, lo rimandano a casa. 5. Giuseppe è accolto nel convento della "Grottella" e per tre anni lavora nell'orto, bada alle bestie, prega e studia ma impara solo un po' a leggere e a scrivere. 6. Per diventare un vero frate e dire la messa deve fare un esame difficile con un vescovo venuto da Roma. Sa a memoria solo un piccolo brano del Vangelo ma Giuseppe prega: “Maria, so solo quel pezzo lì... nun me arrubbà la tonaca dalle spalle!”. 7. Il vescovo gli chiede proprio il pezzo di Vangelo che sapeva. Poi viene chiamato con urgenza da un fraticello: deve tornare subito a Roma. Il vescovo dice: “Siete tutti promossi... anche Giuseppe da Copertino”. E se ne va. Giuseppe grida: “Miracolo! la Madonna ha fatto frate un asino! '. 8. Frate Giuseppe è molto buono. Quando prega dimentica ogni cosa e, qualche volta, spinto dal suo amore per Gesù si solleva da terra. Tutti si meravigliano e cominciano a chiamarlo “il frate volante”.. 9. I suoi superiori non sono contenti di questo. Gli ordinano di cambiare convento e di fare penitenza. Giuseppe ubbidisce sorridendo e risponde: “Io de cervello ce ne ho poco... se non ci fosse Gesù a darmi una mano... lui ordina e io ubbidisco...”. 10. Tutti gli volevano bene perché era semplice e non si dava importanza. Spesso inventava delle canzonette che parlavano di Gesù e le ballava con i suoi fratelli più giovani e allegri. 11. Frate Giuseppe e frate Ludovico, suo amico, sono in viaggio verso Roma. Ludovico trova una monetina, è contento e dice: “A Roma ci compreremo un rosario o un panino se abbiamo fame”. Ma Giuseppe gli ordina: “Lasciala sopra un sasso per il primo povero che passa”. 12. Frate Giuseppe è ormai vecchio, malato e sta per morire. Dice al frati: “L'asinelio è arrivato in cima al monte, ora vuol solo riposare...”. Nel buio della cameretta gli appare la sua mamma sorridente. Anche Giuseppe sorride e dice: “Si mamma, pensaci tu, portami con te fino a Gesù”. 13. Giuseppe fa l'ultimo volo fino al cielo dove raggiunge finalmente il suo Gesù. 14. Giuseppe dal cielo protegge e aiuta gli studenti che hanno difficoltà a scuola e ... tutti quelli che volano: piloti, passeggeri, paracadutisti e astronauti!

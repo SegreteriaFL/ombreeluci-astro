@@ -1,0 +1,36 @@
+---
+title: "Anffas, ogni persona con disabilità è nostro figlio"
+date: "2013-06-10"
+author: "Cristina Tersigni"
+theme: "cluster-7"
+cluster_id: 7
+slug: "anffas-ogni-persona-con-disabilita-e-nostro-figlio"
+lang: it
+has_comments: false
+tema_code: "T02"
+tema_label: "Famiglie, genitori, fratelli"
+categoria_menu: "Famiglie"
+issue_number: OEL-124
+---
+
+Quale prospettiva indicate per una famiglia nel difficile momento in cui è necessario dover decidere del futuro del proprio figlio con una grave o gravissima disabilità?
+[Anffas](http://www.anffas.net/) è al fianco delle famiglie in molteplici ambiti della vita quotidiana. In questo particolare, vi è la “Fondazione Dopo di Noi” che, sin dalla sua nascita nel 1984, sta promuovendo non solo la realizzazione di adeguate strutture e servizi ma anche e soprattutto la concretizzazione del percorso di “presa in carico”, tramite l’assunzione di responsabilità da parte degli enti pubblici, il progetto globale di vita, la personalizzazione ed umanizzazione degli interventi, il mantenimento e sviluppo della persona con disabilità nel proprio contesto familiare e sociale, la garanzia dei diritti civili ed umani e della qualità di vita e Bene Essere.
+In particolare, l’obiettivo che si è posto la Fondazione non è stato soltanto quello del dopo di noi ma anche quello del durante noi, attraverso la possibilità di prendere in carico, in ambiente protetto, sia la persona con disabilità che, eventualmente, i suoi genitori.
+Riconoscimento giuridico del family caregiver e legge sul prepensionamento: cosa ne pensate?
+Il family caregiver è la persona che ha il carico e la responsabilità maggiore della persona con disabilità e che spesso deve lasciare il proprio lavoro per poter prestare quelle cure e quell’assistenza quotidiana e continuativa che lo Stato frequentemente non garantisce. Nonostante questo, purtroppo, al momento questa figura non gode di tutele e riconoscimenti giuridici (ad esempio non può usufruire di una copertura assicurativa e lasciando l’attività lavorativa non gode neanche più della copertura contributiva) a differenza di quanto accade invece in altri paesi europei. Come associazione di famiglie non possiamo che sostenere l’importanza e la necessità di un riconoscimento normativo, soprattutto di carattere economico-previdenziale, che consenta a queste persone di poter vivere in serenità una vita già sufficientemente complicata a causa delle tante difficoltà che ogni giorno deve affrontare per assistere e garantire i diritti di chi ha una disabilità.
+
+Per quanto concerne il prepensionamento, nonostante Anffas accolga favorevolmente ogni iniziativa volta al sostegno delle famiglie delle persone con disabilità, questo argomento va affrontato con cautela perché il nostro timore è che tramite il prepensionamento si arrivi a scaricare totalmente sulle spalle dei familiari il peso e la responsabilità della persone con disabilità mentre si ha bisogno di una rete integrata di servizi che supporti in maniera concreta i nuclei familiari per tutto l’arco della vita, soprattutto nelle fasi iniziali, sin dal momento dell’arrivo di un figlio con disabilità.
+Sulla questione del sostegno ai genitori ed alle famiglie, però, vogliamo evidenziare in maniera chiara che tutti i supporti agevolativi, pensionistici ed economici non devono mai essere una mera una monetizzazione del bisogno: devono essere infatti previsti anche aiuti e risorse aggiuntivi volti a contrastare in maniera diretta il processo di impoverimento che caratterizza da sempre, purtroppo, l’esistenza delle famiglie di persone con disabilità e di queste stesse, contribuendo al miglioramento della loro qualità di vita.
+Quali possibili miglioramenti per le attuali disposizioni legislative?
+In generale si dovrebbe fare di più per rispettare quella che dal 2009 è legge nel nostro paese, ossia la Convenzione Onu sui Diritti delle Persone con Disabilità, documento che copre ogni aspetto della vita delle persone con disabilità.
+In base alle segnalazioni che quotidianamente giungono ad Anffas, possiamo dire che inclusione lavorativa e scolastica sono due degli ambiti che richiedono maggiore attenzione.
+Molto sarebbe da fare anche relativamente al Progetto Individuale - ex art.14 L.328/2000 che stabilisce il diritto di ogni persona con disabilità, e di chi la rappresenta, di chiedere al Comune di scrivere il proprio progetto personalizzato di vita, d’intesa con l’ASL e con i diversi soggetti sociali e istituzionali che devono agire per realizzare la piena inclusione sociale - uno strumento che consente di avere degli interventi a sostegno della persona basati non più sul solo approccio sanitario ma anche e soprattutto dall’analisi del suo vissuto e delle sue condizioni.
+Intervistate???
+
+### Anffas per saperne di più
+
+ANFFAS onlus è nata nel 1958 con l’obiettivo primario di garantire alle persone con disabilità intellettiva e/o relazionale il diritto ad un vita indipendente, libera e tutelata. Conta ad oggi più di 160 strutture locali, più di 14.000 soci su tutto il territorio nazionale, 30.000 fruitori giornalieri (persone con disabilità intellettiva e/o relazionale e loro genitori e familiari) delle attività da noi realizzate e 5.000 tra collaboratori e professionisti che operano negli oltre 1.000 centri presenti nel paese.
+
+Fondamentale il grande apporto del volontariato di genitori, familiari ed amici, che rappresenta la principale risorsa dell’Associazione, insieme agli oltre 40 enti a marchio Anffas Onlus. Opera in diversi campi: sanitario, sociale, assistenziale, educativo, sportivo, ludico, motorio, della ricerca scientifica, della formazione, della beneficenza, della tutela dei diritti umani e civili.
+
+L’Associazione persegue iniziative in ambito legislativo, amministrativo e giudiziario, sollecitando la ricerca, la prevenzione, la cura, l’abilitazione e la riabilitazione sulla disabilità intellettiva e/o relazionale e assumendo, in ogni sede, la rappresentanza e la tutela dei diritti umani, sociali e civili, di cittadini che, per la loro particolare disabilità intellettiva e/o relazionale, da soli non sanno o non possono rappresentarsi.

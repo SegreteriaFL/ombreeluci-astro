@@ -1,0 +1,29 @@
+---
+title: A 37 anni Cati progredisce
+date: 1996-09-27
+author: Redazione
+slug: a-37-anni-cati-progredisce
+lang: it
+numero_rivista: 55
+id_numero: OEL-55
+issue_number: OEL-55
+wp_id: 10892
+original_url: "https://www.ombreeluci.it/?p=10892"
+cluster_id: 1
+has_comments: false
+umap_x: 6.181573390960693
+umap_y: 8.762450218200684
+umap_z: 7.1966118812561035
+---
+
+Cati è nata prematura. A tre mesi, sia che si abbandonasse fra le nostre braccia come una bambola di pezza, sia che si muovesse agitando braccia e gambe, ci ignorava totalmente. Il suo sguardo così bello e colmo di azzurro ci sfuggiva, ma esprimeva una vita intensa. Il Signore ce l’aveva confidata su questa terra. Noi dovevamo sistemarvela. Dovevamo anche prepararla all’altra vita che era la sua, quella del Cielo, quello dello Spirito. In realtà queste due missioni si fondevano. Bisognava adattarsi alle sue difficoltà e sviluppare in Cati ogni dimensione della sua persona: fisica, manuale, intellettuale, artistica e spirituale. Malgrado i pesanti problemi del suo comportamento abbiamo dato a Cati una educazione parallela a quella di cui beneficiano tutti gli altri bambini. Ci accompagna dappertutto. A sei anni ha imparato a leggere con il metodo Borel- Maisonny. Avevo deciso di parlarle normalmente e di darle spiegazioni su tutto, come facevo con i due fratelli maggiori. Si sarebbe poi visto se ci fossero stati risultati. Ho potuto constatare in seguito, quando imparò a leggere e a scrivere, che ciò aveva portato molto più frutti di quello che si credesse e spesso mi sono chiesta come aveva potuto imparare. Oggi possiede un vocabolario ricchissimo che nella vita quotidiana non adopera mai. Recentemente mentre leggevamo insieme la parola «claudicante» mi aspettavo che dicesse di non capirne il significato. Alla mia domanda rispose con il tono più naturale del mondo: «zoppicare».
+
+Molto tempo fa mio marito ed io facemmo un viaggio in Turchia. La persona incaricata di prendersi cura di Cati aveva attaccato alla lavagna la carta geografica della Turchia e le aveva fatto ritagliare le immagini dei vari luoghi che visitavamo. Cati le incollò sulla carta geografica esattamente al loro posto. Sapeva anche che Istambul e Costantinopoli erano nomi della stessa città. Al nostro ritorno interrogammo tutti per sapere chi l'avesse informata, ma ancora oggi non l'abbiamo capito. Come tutti provammo le terapie più in voga a quell'epoca. A sei anni la psicoanalisi, una catastrofe che provocò l'aggravamento delle condizioni di Cati. Il terapeuta non esitò a destabilizzare la nostra vita di coppia cercando di persuadere mio marito che io ero la causa dell’handicap. A dodici anni, i neurolettici: mi aiutarono a superare un esaurimento, ma Cati dovette pagarlo con quelli che vengono chiamati effetti secondari». Quando gradatamente sospendemmo i farmaci si manifestò uno stato di «rimbalzo», un pesante aggravamento dei disturbi, analogo allo stato di astinenza dalle droghe. Ma Cati tornò a vivere.
+
+### La sua relazione con il Signore
+
+Ha partecipato sempre alla Messa insieme a noi e a otto anni ha avuto il beneficio di una catechesi speciale. Questa si svolse inizialmente insieme a un gruppo, poi a quattr'occhi, con la catechista che seppe farle prendere coscienza della sua relazione con il Signore nella vita di tutti i giorni. Con disegni, canzoni e parole, il suo spirito venne orientato verso un'apertura al ringraziamento per tutta quella ricchezza spirituale che fino ad allora le era stata sconosciuta. Un giorno, all’inizio della riunione, Cati chiuse lentamente libri e quaderni, stese le mani sulla tavola, e tacque... ma tutti capimmo il suo messaggio: ne aveva abbastanza di questa presentazione infantile. Da allora «la catechesi» fu incorporata alla vita di tutti i giorni. Cati aveva rifiutato i libri del catechismo classico, ma le occasioni per leggere testi sulla vita di Gesù furono trovate ugualmente. Chiedeva di andare a Messa e vi trovava una comunità accogliente che l'aveva «adottata». Ancora oggi vi partecipa sempre intensamente. In occasione della cresima di un cugino manifestò il desiderio di fare la Comunione. Alle nostre domande sull'Eucarestia rispose scrivendo sul suo quaderno: «Si mangia un'ostia. È un pezzo di pane. Gesù viene in me». Ma per tre volte rifiutò l’ostia dopo aver fatto una corsa verso l'altare per riceverla. Continuammo a parlarne con lei e a rifletterne insieme a un sacerdote.
+
+### Senza lacrime
+
+Anche se il cammino è lento i progressi di Cati sono continui. A partire da un certo livello di conoscenze abbiamo visto nascere in lei numerose iniziative: assegna a se stessa compiti e responsabilità. Recentemente eravamo in vacanza in montagna. Cati sapeva che era l'ora del té e vide che non ci muovevamo. Mise a scaldare l'acqua, portò le tazze, i piattini, i cucchiai e lo zucchero; depose un sacchetto di tè in ogni tazza e versò l'acqua bollente. Si adatta senza difficoltà a nuovi compiti, a persone nuove. Riesce ad analizzare e a riassumere dei testi semplici. Comunica molto, anche se spesso in modo

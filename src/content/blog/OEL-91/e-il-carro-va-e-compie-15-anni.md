@@ -1,0 +1,35 @@
+---
+title: E il Carro va... e compie 15 anni!
+date: 2005-09-19
+author: Filippo Ascenzi
+slug: e-il-carro-va-e-compie-15-anni
+lang: it
+numero_rivista: 91
+id_numero: OEL-91
+issue_number: OEL-91
+wp_id: 31100
+original_url: "https://www.ombreeluci.it/?p=31100"
+cluster_id: 2
+has_comments: false
+tags:
+  - il-carro
+umap_x: 6.947959899902344
+umap_y: 8.093904495239258
+umap_z: 9.890378952026367
+---
+
+I l 3 Aprile 2005 abbiamo festeggiato . l'inaugurazione del Carro. Molti di voi già conoscono, direttamente o per sentito dire, questa piccola realtà di accoglienza, condivisione e ospitalità nata ormai quasi 15 anni fa dall’ispirazione e l’iniziativa di alcuni giovani. Tra di essi Matteo e Ivana ancora oggi, con la loro bella famiglia, rappresentano l’originalità la coerenza e la forza di quella scelta. E allora perchè, dopo 15 anni di storia, parliamo di "inaugurazione"? Ce lo facciamo raccontare da una volontaria che ho avuto il piacere di introdurre al Carro qualche anno fa e che ora ne costituisce una delle "colonne portanti" come dice Matteo; sto parlando di Costanza (mia moglie).
+**Buongiorno Costanza, lo so che sei imbarazzata per questa intervista ma è giusto che le nuove leve si facciano avanti e prendano le loro responsabilità. Per cominciare: perché parliamo di inaugurazione?**
+Perché il Carro ha deciso di rinnovarsi e crescere ponendosi progetti, obiettivi e diciamo pure sogni molto ambiziosi. E quest'anno abbiamo festeggiato il fatto che Stefano, Rita, Alberto e Carla hanno raggiunto Mimmo, Sabina e tutta la famiglia di Matteo e Ivana e sono andati ad abitare stabilmente in quella piccola, grande realtà che è il Carro e a costituire il primo nucleo delle tre case-famiglia che il progetto prevede.
+**Tre case-famiglia! Facci capire meglio...**
+Il progetto della nostra piccola, forse incosciente, ma coraggiosa associazione è arrivare proprio a quest’obiettivo: tre nuclei distinti di case-famiglia per poter accogliere fino a 18 ragazzi disabili mentali gravi senza più la famiglia di origine. Grazie alla fondazione "Francesco Gammarelli" che ha offerto al Carro il comodato gratuito di un terreno in via Laurentina, abbiamo traslocato da via Portuense a via Strampelli dove abbiamo tutti gli spazi per realizzare questo sogno.
+**E a che punto siamo del cammin di nostra vita?**
+Siamo alla prima tappa. Siamo riusciti a costruire con lo sforzo e l’aiuto di tanti i primi due edifici della futura struttura. Quelli che abbiamo "inaugurato" il 3 Aprile che hanno reso possibile il trasloco, come dicevamo prima del nucleo originale del Carro (Matteo, Ivana, Maria, Francesca, Anna, Mimmo e Sabina) e soprattutto le nuove quattro persone accolte che hanno riempito, in tutti i sensi, la prima casa. Uno dei pannelli che abbiamo preparato per l'inaugurazione è fatto con i primi piani di tutti gli "abitanti" del nuovo piccolo villaggio di via Strampelli. Ogni volto, ogni sorriso, ogni malinconia, ogni sguardo sono pietre fondanti del progetto del Carro. Il vocione di Stefano, la dolcezza di Carla ma anche la sua lentezza, l’attenzione agli altri di Rita e i suoi scatti di nervi, i silenzi di Alberto e i suoi improvvisi sorrisi sono le lanterne che guidano il nostro "Carretto" sulla strada che ormai da quasi 15 anni percorre con gioia e fatica, entusiasmo e preoccupazione, ma soprattutto con grande fede e convinzione di avere uno sguardo bonario e protettore dall'alto.
+**Quindi la prima casa è aperta. E ora?**
+E ora...mah, si va come sempre con la razionalità e l’incoscienza a braccetto. Lo spazio per aprire la seconda casa e soprattutto il desiderio fortissimo di vedere altri sorrisi, sguardi, volti nuovi entrare in questa grande famiglia ci spinge ad accelerare. a muoverci, ad accogliere, a dire di sì. Però le responsabilità sono molto alte, non abbiamo nessuna intenzione di dire di sì per poi renderci conto di non avere la possibilità di poter trasformare questo sì in quello che il Carro considera accoglienza. Dobbiamo crescere in forza, aiuti economici, numero di amici e volontari: questa è la scommessa.
+**Quindi c’è grande bisogno di forze nuove, ma cosa si può fare per aiutare il Carro?**
+Rispondo con un elenco per essere più chiara.
+- Intanto c'è la possibilità di diventare soci dell’associazione che ha bisogno di crescere nel numero e nel sostegno dei soci e per farlo basta fare richiesta ai riferimenti che mettiamo alla fine dell'intervista. - Abbiamo bisogno di qualcuno che metta a disposizione la sua professionalità come educatore di comunità, assistente domiciliare, o comunque di persona che abbia voglia di svolgere una professione al servizio degli altri e nello specifico di persone con handicap mentale grave. Dicevo prima che dobbiamo aprire altre due case-famiglia e per poterlo fare dobbiamo trovare le persone che al livello professionale e motivazionale possano occuparsi dei ragazzi accolti secondo lo stile di comunità e famiglia che è proprio del Carro. - Cè bisogno di chiunque abbia il tempo e la buona volontà di essere amico dell’associazione che vuol dire andare a trovare i ragazzi, partecipare alle feste e ai momenti di scambio, far parte dei vari gruppi che cercano di rendere ricca la vita dell’associazione organizzando messe, iniziative, raccolte fondi, momenti di formazione, strumenti di comunicazione come il sito internet o il depliant. Ognuno con i suoi tempi e i suoi doni può aiutare come meglio desidera. - Ovviamente ci sono le necessità economiche che sono le più pressanti per poter realizzare tutti i nostri obiettivi e stanno partendo tutte le possibili iniziative di finanziamento e autotassazione dei soci che ci sono venute in mente. - Infine ci sono all'orizzonte due nuove possibilità molto belle rivolte a giovani che abbiano voglia di fare un’'esperienza di volontariato o tirocinio formativo. Abbiamo attivato un progetto di servizio civile insieme alla Caritas che prevede l’impiego al Carro di 4 giovani fino ai 26 anni per un periodo di 10 mesi. È la possibilità per loro di fare una bella esperienza di volontariato a servizio degli altri e per il Carro di avere persone entusiaste e disponibili che possano avere il tempo di aiutare il progetto a camminare. In più sono stati avviati contatti con la terza università per poter far entrare il Carro nel l’elenco degli enti presso i quali è possibi le svolgere un tirocinio per i laureandi in scienza della formazione.
+Come vedi c’è tanto da fare e le possibilità di dare una mano sono moltissime. Noi, nel nostro piccolo, ci siamo definiti le "ruote di scorta" del Carro e stiamo cercando di fare quel che possiamo nei nostri "ritagli" di tempo, ma lo spazio c'è per tanti altri che vogliano condividere questo "stile di vita" che Matteo e Ivana con la loro famiglia allargata ci mostrano con il loro esempio.
+*Filippo e Costanza Ascenzi*
+, 2005 Per conoscere meglio Il Carro: www.ilcarro.org (il sito è all’inizio e ha bisogno dei vostri contributi) info@ilcarro.org 06-5069141

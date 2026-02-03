@@ -1,0 +1,49 @@
+---
+title: "Una soluzione per i malati mentali - \"Insieme si può\""
+date: "1997-03-25"
+author: "Redazione"
+theme: "cluster-0"
+cluster_id: 0
+slug: "una-soluzione-per-i-malati-mentali-insieme-si-puo"
+lang: it
+has_comments: false
+tema_code: "T04"
+tema_label: "Comunità, accoglienza e inclusione"
+categoria_menu: "Comunità"
+---
+
+Questa casa (e relativo laboratorio), per il recupero dei giovani (18-35 anni) malati mentali appare un caso esemplare di soluzione umana ed economica ai problemi angosciosi seguiti alla legge 180 sulla cura dei malati mentali e alla chiusura dei manicomi. Il modo migliore per descriverlo è con la sua storia.
+Base di partenza è la cooperativa «Insieme si può» con 630 soci a Conegliano (Treviso e province vicine). È una cooperativa sociale nata da 14 anni — spiega la presidente Rina Biz — che «fa solidarietà al suo interno, prima ancora che qualcuno all'esterno garantisca il suo lavoro». La descrizione e le informazioni che seguono vengono, oltre che dalla citata presidente della cooperativa, dalla psicologa direttrice del centro Patrizia Furlan, dalla musico-terapista Egle Bottega, oltre che da una visita al centro.
+
+Sapevamo che con il 96 si sarebbero dovuti chiudere gli ultimi manicomi. All’inizio del '95 Eugenio Rovignani, vescovo di Vittorio Veneto, ci chiamò. Disse che ogni giorno si rivolgevano a lui famiglie disperate che avevano in casa malati mentali che non riuscivano a gestire. Il dramma sarebbe cresciuto con la chiusura totale dei manicomi. «Voi che siete una realtà di ispirazione cristiana (la cooperativa ha origine nelle ACLI) e avete tra i vostri fini l’assistenza ai malati mentali, mettete su una iniziativa». Chiamò la parrocchia di S. Lucia di Piave che aveva costruito questa casa per ospitare anziani proponendole di darcela in affitto. Così abbiamo avviato questa attività terapeutica di recupero dove oggi sono 25 malati mentali assistiti da 15 operatori e 4 obiettori in servizio civile.
+
+Il lavoro è necessario per «curare» e possibilmente inserire giovani malati mentali nella società. Perciò abbiamo preso in affitto un capannone di 600 metri quadrati e lo abbiamo adattato e attrezzato per diverse tipologie di lavoro. Ed ecco il Centro Occupazionale IDEA LAVORO, seconda «gamba» di questa iniziativa.
+Il lavoro nel centro occupazionale è su due livelli: uno educativo, per abituare gli ospiti al lavoro; l'altro produttivo, benché protetto, per esempio, fatto con orario ridotto. I pazienti stanno qui dalle 9 alle 12 e dalla 14 alle 16. Lavoriamo per conto di aziende, con le quali cerchiamo di aprire rapporti. Di solito si tratta di semplici assemblaggi. Per ora sono fatti principalmente da soci della cooperativa (che fanno orari normali: le date delle consegne alle aziende vanno rispettate), ma già dei giovani malati mentali incominciano a passare dal lavoro «educativo» a quello produttivo.
+Presto avvieremo per loro un sistema di compensi con regolare libro paga.
+Il Centro Occupazionale è stato aperto nel luglio 1995. Il lavoro «educativo» è svolto secondo un progetto personalizzato fatto dallo psichiatra che segue il malato e dal nostro psicologo.
+
+> A mano a mano che l'ospite esce dalla patologia e recupera «segmenti di normalità» prende parte al lavoro non simulato.
+
+Oggi nel centro occupazionale ci sono giovani semplicemente «presenti» per abituarsi a un ambiente dove si vive e si lavora, e giovani capaci di fare un lavoro produttivo.
+
+Gli ambienti del centro sono ben messi. Un sistema di telecamere ben dissimulate permette un controllo attento degli
+A mano a mano che l’ospite esce dalla patologia e recupera «segmenti di normalità» prende parte al lavoro non simulato ospiti. Quando sono passato in cucina si stava preparando risotto al gorgonzola per pranzo: ecco l'origine di questo odore «particolare»!
+Gli ospiti sono sia residenziali che «in diurno» (vengono la mattina e tornano a casa la sera). Lavorano, mangiano insieme, fanno la loro terapia, la musico-terapia, espressione corporea, ecc. Quando avranno recuperato un equilibrio abbastanza stabile e saranno anche capaci di guadagnare qualcosa dovrebbero andare ad abitare da soli o in due-tre, in appartamenti con alcuni servizi centralizzati e un minimo di controllo esterno. Per trovare questi alloggi stiamo lavorando con altre realtà associative. In breve le tappe lungo la guarigione del malato mentale dovrebbero essere: comunità residenziale, laboratorio, borsa di lavoro, lavoro esterno guidato, lavoro esterno. Quante di queste tappe percorrerà ogni malato dipende dalle singole situazioni. Oggi abbiamo un ospite iscritto nelle liste di collocamento speciale, che lavora in una fabbrica qui vicina, e due ospiti con borsa lavoro: uno lavorerà in biblioteca, l'altro nel verde pubblico.
+
+In questa impresa la cooperativa ha investito circa 500 milioni per attrezzare i locali. La cooperativa è finanziata dai soci, mossi anche dalla «riconoscenza per stare bene in salute ed economicamente».
+Il vescovo ha messo una cinquantina di milioni (soldi dell'8 per mille). La AUSL 12 paga al centro una retta per gli ospiti che risiedono fissi (di circa 170 mila lire al giorno) e una retta per gli ospiti diurni: un terzo della retta è a carico del «sanitario», un terzo a carico del sociale, un terzo a carico della famiglia o del comune di provenienza del malato.
+Qui vengono anche malati (attualmente due) da altre zone, per i quali paga la rispettiva AUSL.
+Il punto critico di questa combinazione è la parte di retta a carico delle famiglie (circa 1.800.000 lire).
+
+> Il lavoro è necessario per «curare» e possibilmente inserire giovani malati mentali nella società.
+
+Le situazioni familiari della maggior parte degli ospiti sono molto difficili e per questi si evita il ritorno in famiglia per i fine-settimana: si pensa difatti che l’ambiente di provenienza sia una delle cause del loro disagio. I rapporti con le famiglie consistono in due incontri mensili degli operatori con i familiari (che in buona parte vengono).
+Quasi tutti questi giovani lasciati a sé sarebbero periodicamente destinati al TSO (trattamento sanitario obbligatorio) in ospedali dove sarebbero trattenuti un mese un mese e mezzo a un costo di 500-600 mila lire al giorno. Da quando è aperto il centro, solo un ospite ha avuto bisogno di un TSO. Questa iniziativa appare perciò anche economicamente conveniente.
+
+La gente del luogo come accoglie la presenza di questi malati mentali?
+Quando, una decina di anni fa, si cominciò a parlare di inserire qui un centro per malati mentali, la gente non li voleva. Poi, parroco, vescovo e sindaco hanno aiutato a cambiare l’atteggiamento della comunità. Ci sono varie occasioni di contatto. Gli ospiti frequentano la parrocchia, il gruppo scout viene qui ad animare serate. Gli ospiti vanno da soli a comprare il giornale, il pane, la verdura; vanno al bar nei momenti di ricreazione; usufruiscono dei servizi comunali. Di solito sono accolti bene, e poi non danno veramente nessun fastidio.
+I servizi pubblici riconoscono — cosa non proprio comune — che la cooperativa fa un’opera di buona qualità.
+
+- *Sergio Sciascia*, 1997
+
+[**Sergio Sciascia**](http://www.ombreeluci.it/author/sergio-sciascia/), nasce a Torino nel 1937 ma si trasferisce a Roma con la famiglia pochi anni dopo. Fin da piccolo manifesta una spiccata passione per lo scrivere e per il capire le cose che lo circondano, e di questi due aspetti farà il mestiere di una vita. Una collega, amica della primissima *Fede e Luce* romana, mette in contatto Sergio con Mariangela Bertolini e con l’idea di trasformare il ciclostilato “Insieme”che legava le poche comunità italiane di *Fede e Luce* in qualcosa di più. Era l’autunno del 1981. Nasceva *Ombre e Luci* e Sergio accettava di esserne il direttore responsabile.

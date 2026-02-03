@@ -1,0 +1,27 @@
+---
+title: Che bello prendere il treno!
+date: 2023-09-05
+author: Antonietta Pantone
+slug: che-bello-prendere-il-treno
+lang: it
+wp_id: 41009
+original_url: "https://www.ombreeluci.it/?p=41009"
+cluster_id: 0
+has_comments: false
+umap_x: 8.292084693908691
+umap_y: 5.870395183563232
+umap_z: 10.439708709716797
+issue_number: OEL-164
+---
+
+Viricordate che in uno degli [scorsi post](https://www.ombreeluci.it/2023/la-mia-esperienza-con-il-taxi-sociale-a-roma/) vi ho parlato del taxi? Vi avevo accennato al fatto che ho preso anche il treno. È successo il 3 aprile ma ho deciso di raccontarvela adesso perché ho dovuto mettere in chiaro, come spiegavo l'altra volta, dei dettagli del servizio. Ho preso il treno con Trenitalia dalla stazione di Potenza centrale. Però prima di dirvi come è andato il viaggio vi spiego la procedura da fare, perché è ben diversa da una persona normodotata.
+
+**Per fare la prenotazione dell'assistenza treno bisogna andare sul sito che si può trovare on line o bisogna fare un numero.** In questo caso io non avendo il numero ho fatto tutto on line. Bisogna andare sul [sito della Sala Blu](https://www.rfi.it/it/stazioni/pagine-stazioni/accessibilita/sale-blu.html) o sull'app. Nella Sala Blu bisogna specificare il vagone, che tipo di disabilità si ha (se sei in sedia a rotelle o se sei non vedente) e poi chiedono se hai più bagagli. Inoltre va specificato l'orario di partenza dalla stazione dove prendi il treno e l'orario di arrivo. Questo perché la Sala Blu non si trova in tutte le stazioni (sul sito di Trenitalia c'è [l'elenco completo](https://www.rfi.it/it/stazioni/pagine-stazioni/accessibilita/sale-blu/le-16-sale-blu-rfi.html) ). Io l'ho preso da Potenza per venire a Roma, la prenotazione è richiesta per non far trovare impreparati quelli che fanno l'assistenza; loro si potrebbero rifiutare di prendere più bagagli, ad esempio. Dopo aver prenotato Trenitalia ti da **un numero di riferimento da chiamare per avvisare se fai ritardo** . Io quel giorno ho dovuto avvertire, infatti, che arrivavo 5 minuti in ritardo.
+
+Vi racconto questo perché ho notato che di persone con disabilità che prendono il treno ce ne sono, però non so perché **di queste belle cose a nostro servizio non se ne parla proprio** . Si parla sempre di tutt'altro del mondo della disabilità. E questa cosa a me fa un po' rabbia, perché non si fa passaparola delle poche cose che sono attive per noi, sia al negativo che al positivo. Perché se noi siamo in silenzio non possiamo andare avanti. Io che non ero mai salita su un treno nei miei 33 anni, per la prima volta mi sono sentita che potevo. Come una persona normale. Una farfalla con le ali doppiamente aperte perché prima ho preso il taxi, adesso ho preso il treno da poco, quindi mi sento rinata. A volte è una lotta con i mezzi però noi andiamo avanti sempre con il sorriso e la voglia di scoprire il mondo ancora di più.
+
+Salgo sul treno, mi metto nel posto dedicato a noi, però ahimè non c'erano le cinte per bloccare la carrozzina. **Quindi mi sono fatta 5 ore di treno solo con i freni della carrozzina e mi sono tenuta al maniglione che era di fianco, al lato del finestrino** . Il primo assistente della Sala Blu è stato gentile e mi ha bloccato con le valigie: però diciamo di norma ci devono essere le cinte che bloccano le ruote, specialmente su questi mezzi. Quindi mi sono fatta questo viaggio e mi sono vista tutti i paesini. Siamo arrivati a Roma Termini più o meno alle dieci anche se dovevamo arrivare alle nove. Quando siamo arrivati il capotreno ha chiamato la Sala Blu per comunicare che noi dovevamo scendere. Dico noi perché con me c'era mia sorella Sara, mia mamma ed io. Quando siamo arrivati abbiamo dovuto aspettare che scendesse un sacco di gente perché in questi casi o scendi subito dal treno o sennò devi aspettare che scenda tutto il vagone. Poi arriva la Sala Blu con la pedana adatta. **È un carrello che ha la pedana sia con l'apertura dietro che con l'apertura avanti.** Si assicurano che la pedana sia a livello del treno e poi mi hanno fatto salire. Avevo un assistente davanti e uno dietro che hanno controllato la pedana e mi hanno fatto scendere.
+
+Siamo arrivati all'uscita della stazione Termini di Roma. All'inizio dovevamo andare all'uscita di via Marsala, quindi quella un po' più vicino (non so se avete presente, vicino al McDonalds), però poi dato che dovevamo prendere il taxi siamo andati all'uscita successiva. Arriviamo li e chiamiamo il taxi. Io già cercavo di prendere la linea dal treno, però il taxi mi aveva detto che non si poteva prenotare: dovevamo chiamare lì dal posto. Del disagio di quella sera [ne ho parlato qui](https://www.ombreeluci.it/2023/la-mia-esperienza-con-il-taxi-sociale-a-roma/) , se vi ricordate. E ancora tuttora stiamo cercando di farci mandare da Roma Mobilità una bella mappa delle strade che i taxi non possono fare perché la mia paura e quella di mia madre è che quando io chiamo il taxi e metti caso questo si rifiuta di venirmi a prendere, **io non avendo la macchina non posso tornare a casa.** Mia mamma come fa? Spero in uno dei prossimi post, di mandarvi una piccola intervista proprio al tassista. Un abbraccio e ci sentiamo presto, dalla vostra farfalla libera.
+
+English version: **[How good is to take the train!](https://www.ombreeluci.it/en/2023/09/05/how-good-it-is-to-take-the-train/)**

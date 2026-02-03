@@ -1,0 +1,46 @@
+---
+title: Magica apertura delle Special Olympics
+date: 2005-09-19
+author: Francesco Bertolini
+slug: magica-apertura-delle-special-olympics
+lang: it
+numero_rivista: 91
+id_numero: OEL-91
+issue_number: OEL-91
+wp_id: 31066
+original_url: "https://www.ombreeluci.it/?p=31066"
+cluster_id: 13
+has_comments: false
+tags:
+  - special-olympics
+  - sport
+umap_x: 8.947104454040527
+umap_y: 5.191425800323486
+umap_z: 8.988201141357422
+---
+
+Roma sta dando il meglio di sé questa sera. Allo Stadio dei Marmi, alle nove di sera, il caldo del giorno sta cedendo il posto all'atmosfera quasi incantata delle notti d’estate, e la sensazione d’incanto è accentuata dalla bellissima cornice di questo stadio, nel quale lo spettatore, alzando lo sguardo intorno a sé, vede il bianco dei marmi e delle grandi statue spiccare sul verde di Monte Mario, che si confonde poi in un cielo che, stasera, rimane limpido e terso mentre da blu si fa sempre più nero. Le gradinate dello stadio sono ricoperte da una moquette rossa che lascia avvertire in modo gradevole il calore del sole che il marmo ha immagazzinato nella lunga giornata.
+
+Insieme all’accuratezza dell’allestimento e alla ricchezza dei mezzi profusi, si avverte un'atmosfera rilassata e serena. Sono contento di trovarmi qui, questa sera, in occasione della cerimonia di apertura delle **[Special Olympics](https://www.ombreeluci.it/2005/special-olimpics-nessuno-si-deve-sentire-escluso/)** , la settimana di giochi per atleti disabili mentali che, a cura della Associazione omonima, si svolge ogni anno in una diversa città italiana, e nella quale culmina l’attività di preparazione sportiva che gli atleti, nelle diverse associazioni aderenti, svolgono nel corso dell’anno. Per questa edizione ne sono venuti circa 1500, insieme a moltissimi loro familiari, da quasi tutte le regioni italiane, ed ora, preso posto sulle gradinate, aspettiamo che inizino a sfilare raggruppati nelle diverse delegazioni regionali.
+
+Al centro dello stadio è posto un palco con un grande schermo di fronte al lato dello stadio dove siedono gli spettatori; fra di esso e le gradinate sono state messe numerose file di sedie. Gli atleti, dopo avere sfilato davanti agli spettatori per tutta la lunghezza della tribuna, andranno ad occuparle e presenziare così all'apertura dei Giochi.
+
+**Leggi anche: [Special Olimpics: Molto “È molto più bello fare il volontario che il Presidente”](https://www.ombreeluci.it/2005/e-molto-piu-bello-fare-il-volontario-che-il-presidente/)**
+
+La cerimonia si apre con i saluti ed i ringraziamenti degli organizzatori. Ci sono autorità civili e campioni sportivi del passato e del presente, che prendono la parola per testimoniare la loro partecipazione ed il loro incoraggiamento agli atleti dei giochi, ai loro familiari, ai loro tecnici, ai volontari che li accompagnano, agli organizzatori. C'è Gianni Rivera che dimostra nel suo saluto lo stesso stile che aveva in campo. Tra un saluto e l’altro gli altoparlanti diffondono musica che rende l'atmosfera ancora più festosa.
+
+Quando comincia la sfilata, gli atleti sono preceduti da diverse decine di volontari che passano davanti alle tribune sventolando ciascuno, in sincronia, una bandiera. Quando prendono posto a far da cornice ai settori riservati agli atleti, è finalmente la volta delle diverse delegazioni regionali in cui gli atleti sono raggruppati. Sbucano da un sottopassaggio e, con la musica che li accompagna; sono presentati delegazione per delegazione dall’altoparlante che ricorda anche le diverse associazioni sportive nelle quali gli atleti gareggiano. Ciascuna delegazione è accompagnata da un campione sportivo che è vicino agli atleti della Regione come "testimonial". Accompagnati e frammisti ai loro preparatori atletici ed ai volontari chi li affiancano, gli atleti si avvicinano alle tribune e passano davanti agli spettatori che applaudono ininterrottamente. Riuscirò a rendere la gioia ed anche a tratti — la commozione che si prova sugli spalti a vedere i visi luminosi ed allo stesso tempo compresi dei ragazzi che passano felici insieme ai loro accompagnatori davanti alle tribune? Ciascuno con il suo passo, chi saluta il pubblico, chi ricambia l'applauso al suo indirizzo, chi non riesce a contenere la gioia e sfila saltando. Non importa se si sfila da soli, oppure si dà la mano o si è aiutati dal proprio accompagnatore, anche lui con il viso disteso e sorridente: ciò che conta è la consapevolezza di essere al centro della festa, di essere i protagonisti degli avvenimenti che si susseguiranno nella settimana che sta iniziando, quando i migliori impianti sportivi della Capitale — lo stadio dei Marmi, la piscina olimpionica, il bellissimo ippodromo di Tor di Quinto, il Palazzetto dello Sport — con il loro personale, saranno aperti per gli atleti dei Giochi e tutti, organizzatori e volontari, si impegneranno per consentire lo svolgimento delle gare. La gioia che si legge negli sguardi di chi sfila stasera, è una gioia tangibile e contagiosa, che si irradia dalla pista alle tribune e conquista il cuore degli spettatori.
+
+Gli atleti delle diverse delegazioni prendono man mano posto nel parterre che è stato preparato subito di fronte al palco. Quando la sfilata è conclusa dal passaggio delle tre bandiere dei Giochi, quella italiana quella olimpica e quella di Special Olympics, l’attenzione si sposta sul palco. Organizzati dalle stesse società polisportive, vengono offerti agli atleti ed agli spettatori alcuni spettacoli di danza, mentre sullo schermo vengono proiettate immagini degli atleti delle diverse specialità tesi nello sforzo della competizione o rilassati e felici durante la fase delle premiazioni. Fra uno spettacolo e l’altro, ancora saluti di autorità e di personalità diverse. Viene invitato a dire due parole anche Massimiliano Rosolino, medaglia d'oro nel nuoto alle ultime olimpiadi, che conquista tutti aprendo con semplicità il suo cuore: fra tre giorni andrà ad allenarsi per i campionati del mondo e, dice, porterà con sé la grandissima carica ricevuta vedendo sfilare gli atleti di Special Olympics.
+
+Ma questa è solo una fase preparatoria del momento culminante dell'apertura vera e propria.
+
+Deve essere accesa la fiamma olimpica, deve essere pronunciato il giuramento e, solo allora, avverrà l'apertura ufficiale dei Giochi. Lo speaker annuncia che i tedofori, partiti dal Colosseo, sono in vista ormai dello Stadio dei Marmi. E’ uno dei momenti più emozionanti. Scortati da quattro motociclisti della Polizia di Stato — le cui lucette blu intermittenti vicino alle fiaccole dei corridori aggiungono magia alla magia della serata — quattro campioni dello sport giungono alla vista degli spettatori e, dopo aver compiuto un giro esterno, entrano nello stadio dove consegnano la fiaccola all’atleta dei Giochi prescelto. Questi compie il tragitto residuo fino al braciere, si pone diritto di fronte ad esso, e accende la fiamma olimpica, salutata da un lunghissimo applauso. Un altro atleta pronuncia con voce ferma e forte il giuramento dei giochi: "che io possa vincere, ma se non riuscissi, che io possa tentare con tutte le mie forze". I giochi possono essere ufficialmente aperti: E appena la madrina scelta per l'evento ha pronunciato la formula di apertura, il cielo si illumina per lunghi e bellissimi fuochi d'artificio.
+
+Gli scoppi accendono il cielo nero di luci colorate che sembrano ricadere sopra di noi, esprimendo la festa che è nei cuori di tutti. Non mi è mai capitato di vivere dei fuochi d'artificio come segno così forte di festa. E mi chiedo perché. Qual è il segreto della gioia, quale il motivo di tanta festa che accomuna in una stessa atmosfera semplice e rilassata i presenti?
+
+Penso ai campioni dello sport che hanno accompagnato gli atleti di Special Olympics durante la sfilata, ai campioni dello sport che hanno consegnato loro la fiamma olimpica. Sembrano il simbolo di due mondi contrapposti, destinati a non potersi incontrare mai. Ma stasera i campioni dello sport — e con essi l'umanità intera che in loro si rispecchia — si sono chinati sugli atleti di Special Olympics e quando, insieme ad essi, si sono rialzati, si sono trovati come innalzati ad un’altezza mai raggiunta.
+
+Tutti i presenti ne hanno gioito e la loro gioia è stata detta dai fuochi d'’artificio che hanno illuminato il cielo di una meravigliosa notte estiva romana.
+
+*Francesco Bertolini* , 2005
