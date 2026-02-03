@@ -1,0 +1,117 @@
+---
+/**
+ * ThemedSection.astro – Blocco tematico per la Home.
+ * Mostra un tema (es. Fede, Scuola) con 3 articoli correlati e un box laterale con descrizione.
+ */
+import ArticleCard from './ArticleCard.astro';
+
+interface ArticleItem {
+  title: string;
+  author: string;
+  date: Date;
+  slug: string;
+  image?: string | null;
+  categoriaMenu?: string;
+  issue?: string;
+  forma?: string;
+  ruoloEditoriale?: string;
+}
+
+const { sectionTitle, themeSlug, themeDescription, articles } = Astro.props;
+
+const displayLabel = sectionTitle ?? themeSlug ?? 'Tema';
+---
+
+<section class="themed-section" aria-labelledby={`themed-heading-${themeSlug ?? 'tema'}`}>
+  <div class="themed-section-inner">
+    <aside class="themed-sidebar">
+      <h2 id={`themed-heading-${themeSlug ?? 'tema'}`} class="section-title themed-section-title">
+        {displayLabel}
+      </h2>
+      {themeDescription ? (
+        <p class="themed-description">{themeDescription}</p>
+      ) : null}
+      {themeSlug ? (
+        <a href={`/categoria/${themeSlug}`} class="themed-link">Tutti gli articoli →</a>
+      ) : null}
+    </aside>
+    <div class="themed-articles">
+      {articles.slice(0, 3).map((article: ArticleItem) => (
+        <ArticleCard
+          title={article.title}
+          author={article.author}
+          date={article.date}
+          slug={article.slug}
+          image={article.image ?? undefined}
+          categoriaMenu={article.categoriaMenu}
+          issue={article.issue}
+          forma={article.forma}
+          ruoloEditoriale={article.ruoloEditoriale}
+        />
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .themed-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .themed-section-inner {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  @media (max-width: 768px) {
+    .themed-section-inner {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .themed-sidebar {
+    position: sticky;
+    top: 1.5rem;
+  }
+
+  .themed-section-title {
+    margin-bottom: 0.75rem;
+  }
+
+  .themed-description {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: var(--text-secondary);
+    margin: 0 0 1rem 0;
+  }
+
+  .themed-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  .themed-link:hover {
+    text-decoration: underline;
+  }
+
+  .themed-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 900px) {
+    .themed-articles {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .themed-articles {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

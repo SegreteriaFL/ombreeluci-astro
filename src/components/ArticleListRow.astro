@@ -1,0 +1,89 @@
+---
+const { title, author, slug, image, category, date } = Astro.props;
+function authorSlug(name: string) {
+  return String(name).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+const authorLinkSlug = authorSlug(author);
+const formattedDate = date ? new Intl.DateTimeFormat('it-IT', { year: 'numeric', month: 'long', day: 'numeric' }).format(date instanceof Date ? date : new Date(date)) : '';
+---
+
+<article class="article-list-row">
+  <a href={`/blog/${slug}`} class="article-list-row-link">
+    {image ? (
+      <div class="article-list-row-thumb">
+        <img src={image} alt="" loading="lazy" />
+      </div>
+    ) : null}
+    <div class="article-list-row-body">
+      {category ? <p class="article-list-row-cat">{category}</p> : null}
+      <h3 class="article-list-row-title">{title}</h3>
+      <p class="article-list-row-author">Di <a href={`/autori/${authorLinkSlug}`} class="author-link">{author}</a>{formattedDate ? ` · ${formattedDate}` : ''}</p>
+    </div>
+  </a>
+</article>
+
+<style>
+  .article-list-row {
+    border-bottom: 1px solid var(--border-color, #e8e6e3);
+  }
+  .article-list-row-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.875rem 0;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.2s ease;
+  }
+  .article-list-row-link:hover {
+    background: rgba(0,0,0,0.02);
+  }
+  .article-list-row-thumb {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    background: var(--bg-light, #f5f5f3);
+  }
+  .article-list-row-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .article-list-row-body {
+    min-width: 0;
+  }
+  .article-list-row-cat {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--accent-color, #c41e3a);
+    margin: 0 0 0.25rem 0;
+  }
+  .article-list-row-title {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--text-color, #2d2d2d);
+    margin: 0 0 0.25rem 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .article-list-row-author {
+    font-size: 0.875rem;
+    color: var(--text-secondary, #5c5c5c);
+    margin: 0;
+  }
+  .article-list-row-author .author-link {
+    color: var(--accent-color, #c41e3a);
+    text-decoration: none;
+  }
+  .article-list-row-author .author-link:hover {
+    text-decoration: underline;
+  }
+</style>

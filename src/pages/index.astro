@@ -1,333 +1,917 @@
 ---
+/**
+ * Home – Layout editoriale dinamico (ispirato a Vita.it).
+ * Sezioni: Hero (Primo Piano), I Diari, Blocchi tematici, Recensioni.
+ * Per ora featured/themed sono gli ultimi per categoria; preparato per flag frontmatter (es. featured: true).
+ */
 import { getCollection } from 'astro:content';
+import { ViewTransitions } from 'astro:transitions';
 import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import ArticleCard from '../components/ArticleCard.astro';
-import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
+import ArticleListRow from '../components/ArticleListRow.astro';
+import ThemedSection from '../components/ThemedSection.astro';
+import { getMegaclusterForArticle, getLabels, getCategoryBySlug } from '../config/taxonomy.js';
+import { DIARISTI } from '../data/diari.js';
 import megacluster from '../data/articoli_megacluster.json';
+import numeriData from '../data/numeri_consolidati.json';
+import placeholderImage from '../assets/placeholder1.webp';
+import '../styles/global.css';
 
-const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
-const autoriById = (megacluster as { autoriById?: Record<string, unknown> }).autoriById || {};
-// Debug: verifica caricamento megacluster in build
-console.log('[index.astro] Object.keys(megacluster.byId).length =', Object.keys(byId).length);
-console.log('[index.astro] Object.keys(megacluster.autoriById).length =', Object.keys(autoriById).length);
+type NumeroRecord = {
+  id_numero: string;
+  tipo_rivista: string;
+  numero_progressivo: number;
+  anno_pubblicazione: number;
+  display_title?: string;
+  titolo_numero?: string;
+  periodo_label?: string | null;
+  sommario_lancio?: string | null;
+  seo_description?: string | null;
+  descrizione_ai?: string | null;
+  copertina_url?: string | null;
+  [key: string]: unknown;
+};
+const numeri = numeriData as NumeroRecord[];
+const ultimoNumero = [...numeri]
+  .filter((n) => n.tipo_rivista === 'ombre_e_luci')
+  .sort((a, b) => {
+    const annoA = a.anno_pubblicazione ?? 0;
+    const annoB = b.anno_pubblicazione ?? 0;
+    if (annoA !== annoB) return annoB - annoA;
+    return (b.numero_progressivo ?? 0) - (a.numero_progressivo ?? 0);
+  })[0];
+const issueSlug = ultimoNumero ? ultimoNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : '';
 
-// Ottieni tutti gli articoli con gestione errori
-let allArticles = [];
-let errorMessage = null;
-let debugInfo = null;
+const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string; sottotitolo?: string | null }> }).byId || {};
+const autoriById = (megacluster as { autoriById?: Record<string, { foto_url?: string }> }).autoriById || {};
 
+let allArticles: Awaited<ReturnType<typeof getCollection<'blog'>>> = [];
 try {
-  console.log('[index.astro] Inizio caricamento articoli...');
   allArticles = await getCollection('blog');
-  console.log(`[index.astro] Articoli caricati: ${allArticles.length}`);
-  
-  // Valida che gli articoli abbiano i campi necessari
-  const invalidArticles = allArticles.filter(article => {
+} catch (e) {
+  console.error('[index.astro] getCollection error:', e);
+}
+
+const sortedArticles = allArticles
+  .filter((a) => {
     try {
-      // Verifica campi obbligatori
-      if (!article.data.title) return true;
-      if (!article.data.date) return true;
-      if (!article.data.author) return true;
+      return a.data.date instanceof Date && !isNaN(a.data.date.getTime());
+    } catch {
       return false;
-    } catch (e) {
-      return true;
     }
-  });
-  
-  if (invalidArticles.length > 0) {
-    console.warn(`[index.astro] Trovati ${invalidArticles.length} articoli con dati mancanti`);
-    debugInfo = `Articoli con dati mancanti: ${invalidArticles.length}`;
+  })
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+function articleSlug(article: (typeof sortedArticles)[0]): string {
+  return (article.data as { slug?: string }).slug ?? article.id.replace(/\.md$/, '').replace(/^.*\//, '');
+}
+
+function getArticleMeta(article: (typeof sortedArticles)[0]) {
+  const wpIdStr = String(article.data.wp_id ?? '');
+  const row = byId[wpIdStr];
+  const { categoria_menu, tema_label, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
+  const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+  const image = row?.img_copertina_url ?? article.data.image ?? (article.data as { copertina_url?: string }).copertina_url;
+  const date = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
+  const sommario = row?.sottotitolo ?? (article.data as { sommario?: string; description?: string }).sommario ?? (article.data as { description?: string }).description ?? undefined;
+  return {
+    slug: articleSlug(article),
+    title: article.data.title || 'Titolo mancante',
+    author: article.data.author || 'Autore sconosciuto',
+    date,
+    image,
+    sommario: sommario && sommario.trim() ? sommario.trim() : undefined,
+    categoria_menu: categoria_menu ?? undefined,
+    tema_label,
+    issue: article.data.issue_number,
+    forma: formal,
+    ruolo_editoriale: ruolo_editoriale ?? undefined,
+  };
+}
+
+// Featured: se in frontmatter c'è featured: true lo usiamo; altrimenti ultimo editoriale o ultimo articolo
+const editoriali = sortedArticles.filter((a) => getLabels(a.data.tags ?? [], a.data.wp_id).formal === 'Editoriale');
+const featuredByFlag = sortedArticles.find((a) => (a.data as { featured?: boolean }).featured === true);
+const featuredArticle = featuredByFlag ?? (editoriali.length > 0 ? editoriali[0] : sortedArticles[0]);
+const featuredMeta = featuredArticle ? getArticleMeta(featuredArticle) : null;
+
+// Latest: prossimi 3 (escludendo il featured)
+const latestArticles = featuredArticle
+  ? sortedArticles.filter((a) => a.id !== featuredArticle.id).slice(0, 3)
+  : sortedArticles.slice(0, 3);
+
+// Diari: ultimo articolo per ogni diario, escludendo Davide Passeri → 6 colonne
+const diaristiSenzaDavide = DIARISTI.filter((d) => d.nome !== 'Davide Passeri');
+const latestPerDiario = diaristiSenzaDavide
+  .map((diarista) => {
+    const arts = allArticles
+      .filter((a) => (a.data.author || '').trim() === diarista.nome)
+      .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+    const article = arts[0];
+    return article ? { diarista, article, meta: getArticleMeta(article) } : null;
+  })
+  .filter((x): x is NonNullable<typeof x> => x != null);
+
+// Temi per blocchi (slug categoria → descrizione). In futuro temi in CMS o frontmatter.
+const HOME_THEMES: { slug: string; sectionTitle: string; description: string }[] = [
+  { slug: 'fede-chiesa-e-spiritualita-della-fragilita', sectionTitle: 'FEDE', description: 'Chiesa, spiritualità e fragilità: il cammino di Fede e Luce e le storie che nascono dall\'incontro.' },
+  { slug: 'linguaggio-cultura-e-rappresentazioni', sectionTitle: 'CULTURA', description: 'Linguaggio, cultura e rappresentazioni: cinema, arte e narrazioni sulla disabilità e sulla dignità della persona.' },
+  { slug: 'educare-e-crescere-insieme', sectionTitle: 'SCUOLA', description: 'Educare e crescere insieme: scuola, inclusione e percorsi di crescita condivisi.' },
+];
+
+// Per tema: in futuro si potrà usare frontmatter (es. theme_highlight: true) per marcare articoli in evidenza
+function articlesForTheme(temaLabel: string) {
+  const byTema = sortedArticles.filter((a) => getMegaclusterForArticle(a.data.wp_id).tema_label === temaLabel);
+  const highlighted = byTema.filter((a) => (a.data as { theme_highlight?: boolean }).theme_highlight === true);
+  const list = highlighted.length >= 3 ? highlighted.slice(0, 3) : byTema.slice(0, 3);
+  return list.map((a) => getArticleMeta(a));
+}
+
+// Testimonianze: ultime 3 per sezione (col1: 2 articoli, col2: 1 con foto grande)
+const testimonianze = sortedArticles
+  .filter((a) => getLabels(a.data.tags ?? [], a.data.wp_id).formal === 'Testimonianza')
+  .slice(0, 3)
+  .map((a) => getArticleMeta(a));
+
+// Recensioni: ultime 5 per sezione a 5 colonne
+const recensioni = sortedArticles
+  .filter((a) => getLabels(a.data.tags ?? [], a.data.wp_id).formal === 'Recensione')
+  .slice(0, 5)
+  .map((a) => getArticleMeta(a));
+
+function formatDateItalian(d: Date): string {
+  return new Intl.DateTimeFormat('it-IT', { year: 'numeric', month: 'long', day: 'numeric' }).format(d);
+}
+
+/** Data relativa in italiano: "un mese fa", "3 mesi fa", ecc. */
+function formatDateRelative(d: Date): string {
+  const now = new Date();
+  const diffMs = now.getTime() - (d instanceof Date ? d : new Date(d)).getTime();
+  const days = Math.floor(diffMs / (24 * 60 * 60 * 1000));
+  if (days < 1) return 'oggi';
+  if (days === 1) return 'ieri';
+  if (days < 7) return `${days} giorni fa`;
+  if (days < 30) {
+    const weeks = Math.floor(days / 7);
+    return weeks === 1 ? 'una settimana fa' : `${weeks} settimane fa`;
   }
-} catch (error) {
-  errorMessage = `Errore caricamento articoli: ${error.message}`;
-  console.error('[index.astro] Errore getCollection:', error);
-  console.error('[index.astro] Stack:', error.stack);
-}
-
-// Ordina tutti gli articoli per data (più recenti prima)
-let sortedArticles = [];
-let currentPage = 1;
-const itemsPerPage = 20;
-
-// Leggi parametro pagina da query string
-if (Astro.url.searchParams.has('page')) {
-  const pageParam = parseInt(Astro.url.searchParams.get('page') || '1');
-  if (pageParam > 0) {
-    currentPage = pageParam;
+  if (days < 365) {
+    const months = Math.floor(days / 30);
+    return months === 1 ? 'un mese fa' : `${months} mesi fa`;
   }
+  const years = Math.floor(days / 365);
+  return years === 1 ? 'un anno fa' : `${years} anni fa`;
 }
 
-if (allArticles.length > 0) {
-  try {
-    sortedArticles = allArticles
-      .filter(article => {
-        // Filtra articoli con date valide
-        try {
-          return article.data.date instanceof Date && !isNaN(article.data.date.getTime());
-        } catch (e) {
-          console.warn(`[index.astro] Articolo con data non valida: ${article.id}`);
-          return false;
-        }
-      })
-      .sort((a, b) => {
-        try {
-          return b.data.date.getTime() - a.data.date.getTime();
-        } catch (e) {
-          console.warn(`[index.astro] Errore ordinamento per: ${a.id} o ${b.id}`);
-          return 0;
-        }
-      });
-    console.log(`[index.astro] Articoli ordinati: ${sortedArticles.length}`);
-  } catch (e) {
-    console.error('[index.astro] Errore durante ordinamento:', e);
-    errorMessage = `Errore durante ordinamento articoli: ${e.message}`;
-  }
-}
-
-// Calcola paginazione
-const totalPages = Math.max(1, Math.ceil(sortedArticles.length / itemsPerPage));
-const startIndex = (currentPage - 1) * itemsPerPage;
-const endIndex = startIndex + itemsPerPage;
-const paginatedArticles = sortedArticles.slice(startIndex, endIndex);
-
-// Assicurati che currentPage sia valido
-if (currentPage > totalPages) {
-  currentPage = totalPages;
-}
-if (currentPage < 1) {
-  currentPage = 1;
-}
-
-console.log(`[index.astro] Paginazione: pagina ${currentPage} di ${totalPages}, articoli ${paginatedArticles.length} su ${sortedArticles.length}`);
-console.log(`[index.astro] Debug paginazione: currentPage=${currentPage}, totalPages=${totalPages}, canGoNext=${currentPage < totalPages}`);
-console.log(`[index.astro] URL corrente: ${Astro.url.href}`);
-
-// Funzione per formattare la data in italiano
-function formatDateItalian(date: Date): string {
-  return new Intl.DateTimeFormat('it-IT', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  }).format(date);
+/** Label categoria da mostrare sopra il titolo (issue · forma · categoria_menu) */
+function getCategoryLabel(meta: { issue?: string; forma?: string; categoria_menu?: string }): string {
+  const issue = meta.issue || 'Online';
+  const forma = meta.forma && meta.forma !== 'Articolo' ? `${meta.forma} / ` : '';
+  const cat = meta.categoria_menu || '—';
+  return `${issue} · ${forma}${cat}`;
 }
 ---
 
 <html lang="it">
   <head>
+    <ViewTransitions />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Archivio Ombre e Luci</title>
-    <link rel="stylesheet" href="/src/styles/global.css" />
-    <style>
-      body {
-        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem;
-        line-height: 1.75;
+    <title>Ombre e Luci – Rivista</title>
+    <meta name="description" content="Ombre e Luci: storie, riflessioni e cultura sulla fragilità e sulla dignità della persona." />
+    <style is:global>
+      .home-main { max-width: 1440px; margin: 0 auto; padding: 3.5rem 0 0; overflow-x: hidden; }
+      @media (max-width: 768px) {
+        .home-main { padding-top: 2.5rem; }
       }
-      h1 {
-        color: #1a1a1a;
-        border-bottom: 2px solid #ff1053;
-        padding-bottom: 0.5rem;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-      }
-      .stats {
-        background: transparent;
-        padding: 1rem 0;
-        margin: 2rem 0;
-        border-bottom: 1px solid #e5e5e5;
-      }
-      .articles-grid {
+      .hero-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 32px;
-        margin: 2rem 0;
+        grid-template-columns: 1.85fr 1fr;
+        gap: 2.25rem;
+        margin-bottom: 2.5rem;
+        align-items: start;
+      }
+      @media (max-width: 900px) {
+        .hero-grid { grid-template-columns: 1fr; }
+      }
+      .hero-featured {
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+        aspect-ratio: 16/9;
+        min-height: 320px;
+        background: var(--bg-light);
+      }
+      .hero-featured a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: inherit;
+      }
+      .hero-featured img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .hero-featured-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 2rem 1.5rem;
+        background: linear-gradient(transparent, rgba(0,0,0,0.8));
+        color: #fff;
+      }
+      .hero-featured-badge {
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-bottom: 0.4rem;
+        color: rgba(255,255,255,0.9);
+      }
+      .hero-featured-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: clamp(1.5rem, 2.8vw, 2rem);
+        font-weight: 700;
+        line-height: 1.25;
+        margin: 0 0 0.35rem 0;
+        color: #fff;
+      }
+      .hero-featured-meta {
+        font-size: 0.85rem;
+        color: rgba(255,255,255,0.9);
+        margin: 0;
+      }
+      .hero-latest {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+      .hero-latest-first {
+        padding-bottom: 1.25rem;
+        border-bottom: 1px solid var(--border-color);
+        margin-bottom: 0.5rem;
+      }
+      .hero-latest-first a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+      }
+      .hero-latest-first-img {
+        width: 100%;
+        aspect-ratio: 16/10;
+        border-radius: 10px;
+        overflow: hidden;
+        background: var(--bg-light);
+        margin-bottom: 0.75rem;
+      }
+      .hero-latest-first-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .hero-latest-first-cat {
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--accent-color);
+        margin: 0 0 0.35rem 0;
+      }
+      .hero-latest-first-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--text-color);
+        margin: 0 0 0.4rem 0;
+      }
+      .hero-latest-first-meta {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        margin: 0;
+      }
+      .hero-latest-item {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: 1rem;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid var(--border-color);
+        align-items: flex-start;
+      }
+      .hero-latest-item:last-child { border-bottom: none; }
+      .hero-latest-item a {
+        text-decoration: none;
+        color: inherit;
+        display: contents;
+      }
+      .hero-latest-thumb {
+        width: 100px;
+        height: 66px;
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--bg-light);
+      }
+      .hero-latest-thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .hero-latest-item-body { min-width: 0; }
+      .hero-latest-cat {
+        font-size: 0.65rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--accent-color);
+        margin: 0 0 0.2rem 0;
+      }
+      .hero-latest-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.35;
+        color: var(--text-color);
+        margin: 0 0 0.25rem 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .hero-latest-meta {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        margin: 0;
+      }
+      .diari-band {
+        background-color: var(--bg-cream);
+        margin: 2.5rem 0;
+        padding: 2rem 0 2.5rem;
+      }
+      .diari-band-inner {
+        max-width: 1440px;
+        margin: 0 auto;
+      }
+      .diari-band-list {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 1.5rem;
+        margin-top: 1rem;
+      }
+      @media (max-width: 1024px) {
+        .diari-band-list { grid-template-columns: repeat(3, 1fr); }
+      }
+      @media (max-width: 600px) {
+        .diari-band-list { grid-template-columns: repeat(2, 1fr); }
+      }
+      .diari-band-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+        padding: 0;
+      }
+      .diari-band-item:hover .diari-band-diario-title { color: var(--accent-color); }
+      .diari-band-avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        flex-shrink: 0;
+        background: var(--border-color);
+        margin-bottom: 0.75rem;
+      }
+      .diari-band-avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .diari-band-diario-title {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--text-color);
+        margin: 0 0 0.35rem 0;
+        line-height: 1.3;
+      }
+      .diari-band-author {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        margin: 0 0 0.25rem 0;
+      }
+      .diari-band-date {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        margin: 0;
+      }
+      .recensioni-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1.25rem;
+      }
+      @media (max-width: 1024px) {
+        .recensioni-grid { grid-template-columns: repeat(3, 1fr); }
+      }
+      @media (max-width: 600px) {
+        .recensioni-grid { grid-template-columns: 1fr; }
+      }
+      .recensioni-card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        background: var(--bg-card);
+        border: 1px solid var(--border-color);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: border-color 0.2s, box-shadow 0.2s;
+      }
+      .recensioni-card:hover {
+        border-color: var(--accent-color);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      }
+      .recensioni-card-img {
+        width: 100%;
+        aspect-ratio: 16/10;
+        overflow: hidden;
+        background: var(--bg-light);
+      }
+      .recensioni-card-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .recensioni-card-body {
+        padding: 1rem;
+      }
+      .recensioni-card-cat {
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--accent-color);
+        margin: 0 0 0.35rem 0;
+      }
+      .recensioni-card-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--text-color);
+        margin: 0 0 0.4rem 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .recensioni-card-meta {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        margin: 0 0 0.2rem 0;
+      }
+      .recensioni-card-meta:last-child {
+        margin-bottom: 0;
+      }
+
+      /* Testimonianze: 4 colonne = 1fr 2fr 1fr */
+      .testimonianze-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 1.5rem;
+        margin-bottom: 2.5rem;
+      }
+      @media (max-width: 900px) {
+        .testimonianze-grid { grid-template-columns: 1fr; }
+      }
+      .testimonianze-col1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+      .testimonianze-card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        background: var(--bg-card);
+        border: 1px solid var(--border-color);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: border-color 0.2s, box-shadow 0.2s;
+      }
+      .testimonianze-card:hover {
+        border-color: var(--accent-color);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      }
+      .testimonianze-card-img-wrap {
+        width: 100%;
+        aspect-ratio: 16/10;
+        overflow: hidden;
+        background: var(--bg-light);
+      }
+      .testimonianze-card-img-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .testimonianze-card-body {
+        padding: 1rem;
+      }
+      .testimonianze-card-cat {
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--accent-color);
+        margin: 0 0 0.35rem 0;
+      }
+      .testimonianze-card-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1.05rem;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--text-color);
+        margin: 0 0 0.4rem 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .testimonianze-card-meta {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        margin: 0;
+      }
+      .testimonianze-card--no-photo .testimonianze-card-body {
+        padding-top: 1rem;
+      }
+      /* Col2: foto grande */
+      .testimonianze-card--featured .testimonianze-card-img-wrap {
+        aspect-ratio: 16/9;
+      }
+      .testimonianze-card--featured .testimonianze-card-title {
+        font-size: 1.25rem;
+        -webkit-line-clamp: 3;
+      }
+      /* CTA box */
+      .testimonianze-cta {
+        background: linear-gradient(160deg, var(--accent-color) 0%, var(--accent-hover) 100%);
+        border-radius: 12px;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 200px;
+      }
+      .testimonianze-cta-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #fff;
+        margin: 0 0 0.75rem 0;
+        line-height: 1.35;
+      }
+      .testimonianze-cta-text {
+        font-size: 0.95rem;
+        color: rgba(255, 255, 255, 0.95);
+        line-height: 1.5;
+        margin: 0 0 1.25rem 0;
+      }
+      .testimonianze-cta-btn {
+        display: inline-block;
+        padding: 0.65rem 1.25rem;
+        background: #fff;
+        color: var(--accent-color);
+        font-weight: 700;
+        font-size: 0.9rem;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .testimonianze-cta-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      /* Box Ultimo numero */
+      .ultimo-numero-box {
+        background: #d9cebd;
+        border-radius: 12px;
+        padding: 2rem 2.5rem;
+        margin-bottom: 2.5rem;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 2.5rem;
+        align-items: center;
       }
       @media (max-width: 768px) {
-        body { padding: 0.75rem; max-width: 100vw; overflow-x: hidden; }
-        h1 { font-size: 1.8rem; }
-        .articles-grid {
-          grid-template-columns: 1fr !important;
-          gap: 24px;
-        }
-        .articles-grid > * { min-width: 0; }
+        .ultimo-numero-box { grid-template-columns: 1fr; padding: 1.5rem 1.25rem; }
       }
-      .pagination {
+      .ultimo-numero-cover-col {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
-        margin: 2rem 0;
-        padding: 1rem;
       }
-      .pagination-button {
-        padding: 0.75rem 1.5rem;
-        background: #ff1053;
-        color: white;
+      .ultimo-numero-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--text-color);
+        margin: 0 0 0.75rem 0;
+      }
+      .ultimo-numero-riga {
+        width: 48px;
+        height: 3px;
+        background: var(--accent-color);
+        margin: 0 0 1rem 0;
+      }
+      .ultimo-numero-meta {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        margin: 0 0 0.35rem 0;
+      }
+      .ultimo-numero-titolo-numero {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 1.35;
+        color: var(--text-color);
+        margin: 0 0 0.75rem 0;
+      }
+      .ultimo-numero-sommario {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: var(--text-secondary);
+        margin: 0 0 1.25rem 0;
+      }
+      .ultimo-numero-link {
+        font-weight: 700;
+        color: var(--accent-color);
         text-decoration: none;
-        border-radius: 8px;
-        font-weight: 600;
-        text-transform: none;
-        transition: all 0.3s ease-in-out;
-        display: inline-block;
-        cursor: pointer;
-        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
       }
-      .pagination-button:hover {
-        background: #e00e4a;
-        transform: translateY(-1px);
-      }
-      .pagination-button:disabled,
-      .pagination-button.disabled {
-        background: #ccc;
-        cursor: not-allowed;
-        pointer-events: none;
-        color: #666;
-      }
-      .pagination-info {
-        color: #666;
-        font-size: 0.95rem;
-      }
-      .pagination-info small {
+      .ultimo-numero-link:hover { text-decoration: underline; }
+      .ultimo-numero-cover-wrap {
         display: block;
-        margin-top: 0.5rem;
+        width: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+        background: var(--bg-light);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .ultimo-numero-cover-wrap img {
+        width: 300px;
+        height: auto;
+        display: block;
+        aspect-ratio: 3/4;
+        object-fit: cover;
       }
     </style>
-    <script>
-      // Gestione paginazione con reload forzato
-      document.addEventListener('DOMContentLoaded', function() {
-        const paginationLinks = document.querySelectorAll('.pagination a[data-page]');
-        paginationLinks.forEach(link => {
-          link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const page = this.getAttribute('data-page');
-            const url = new URL(window.location.href);
-            url.searchParams.set('page', page);
-            console.log('Navigazione a:', url.toString());
-            window.location.href = url.toString();
-          });
-        });
-      });
-    </script>
   </head>
   <body>
     <Header />
-    
-    <div class="index-main" style="max-width: min(1200px, 100%); margin: 0 auto; padding: 0 2rem; overflow-x: hidden;">
-      <h1>Archivio Ombre e Luci</h1>
-    
-    {errorMessage ? (
-      <div style="background: #fee; padding: 1rem; border-radius: 8px; color: #c00; margin: 2rem 0;">
-        <strong>❌ Errore:</strong> {errorMessage}
-        {debugInfo && (
-          <div style="margin-top: 0.5rem; font-size: 0.9rem;">
-            <strong>Info debug:</strong> {debugInfo}
+    <main class="site-main">
+      <div class="home-main">
+        <!-- 1. Hero – Primo Piano -->
+        <h2 class="section-title">In primo piano</h2>
+        <div class="hero-grid">
+          <article class="hero-featured">
+            {featuredMeta ? (
+              <a href={`/blog/${featuredMeta.slug}`}>
+                <img
+                  src={featuredMeta.image || placeholderImage.src}
+                  alt=""
+                  loading="eager"
+                  width="800"
+                  height="500"
+                />
+                <div class="hero-featured-overlay">
+                  <p class="hero-featured-badge">
+                    {getCategoryLabel(featuredMeta)}
+                  </p>
+                  <h3 class="hero-featured-title">{featuredMeta.title}</h3>
+                  <p class="hero-featured-meta">Di {featuredMeta.author} · {formatDateItalian(featuredMeta.date)}</p>
+                </div>
+              </a>
+            ) : (
+              <div class="hero-featured-overlay" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;">
+                <p style="color: var(--text-secondary);">Nessun articolo in evidenza.</p>
+              </div>
+            )}
+          </article>
+          <div class="hero-latest">
+            {latestArticles.length > 0 && (() => {
+              const [first, ...rest] = latestArticles;
+              const firstMeta = getArticleMeta(first);
+              return (
+                <>
+                  <div class="hero-latest-first">
+                    <a href={`/blog/${firstMeta.slug}`}>
+                      <div class="hero-latest-first-img">
+                        {firstMeta.image ? (
+                          <img src={firstMeta.image} alt="" loading="lazy" />
+                        ) : (
+                          <div style="width:100%;height:100%;background:var(--border-color);" />
+                        )}
+                      </div>
+                      <p class="hero-latest-first-cat">{getCategoryLabel(firstMeta)}</p>
+                      <h3 class="hero-latest-first-title">{firstMeta.title}</h3>
+                      <p class="hero-latest-first-meta">Di {firstMeta.author} · {formatDateItalian(firstMeta.date)}</p>
+                    </a>
+                  </div>
+                  {rest.map((article) => {
+                    const meta = getArticleMeta(article);
+                    return (
+                      <div class="hero-latest-item">
+                        <a href={`/blog/${meta.slug}`}>
+                          <div class="hero-latest-thumb">
+                            {meta.image ? (
+                              <img src={meta.image} alt="" loading="lazy" />
+                            ) : (
+                              <div style="width:100%;height:100%;background:var(--border-color);" />
+                            )}
+                          </div>
+                          <div class="hero-latest-item-body">
+                            <p class="hero-latest-cat">{getCategoryLabel(meta)}</p>
+                            <h3 class="hero-latest-title">{meta.title}</h3>
+                            <p class="hero-latest-meta">Di {meta.author} · {formatDateItalian(meta.date)}</p>
+                          </div>
+                        </a>
+                      </div>
+                    );
+                  })}
+                </>
+              );
+            })()}
           </div>
-        )}
-        <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #fcc;">
-          <p><strong>Suggerimenti:</strong></p>
-          <ul style="margin: 0.5rem 0; padding-left: 1.5rem;">
-            <li>Controlla la console del server per dettagli</li>
-            <li>Verifica che tutti gli articoli abbiano i campi obbligatori (title, date, author)</li>
-            <li>Prova ad accedere a <a href="/test-status" style="color: #0066cc;">/test-status</a> per vedere lo stato</li>
-          </ul>
-        </div>
-      </div>
-    ) : (
-      <>
-        <div class="stats">
-          <strong>Totale articoli: {sortedArticles.length}</strong> | 
-          Pagina {currentPage} di {totalPages}
-          {currentPage < totalPages && (
-            <span style="margin-left: 1rem; color: #0066cc;">
-              (Prossima: <a href={`/?page=${currentPage + 1}`} style="color: #0066cc; text-decoration: underline;">pagina {currentPage + 1}</a>)
-            </span>
-          )}
         </div>
 
-        {paginatedArticles.length > 0 ? (
-          <>
-            <div class="articles-grid" style="align-items: start;">
-              {paginatedArticles.map((article, idx) => {
-                try {
-                  const articleSlug = article.data.slug || article.id.replace(/\.md$/, '').replace(/^.*\//, '');
-                  const articleDate = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
-                  const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
-                  const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
-                  const wpIdStr = String(article.data.wp_id ?? '');
-                  const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image || (article.data as { copertina_url?: string }).copertina_url;
-                  return (
-                    <div>
-                      <ArticleCard
-                        title={article.data.title || 'Titolo mancante'}
-                        slug={articleSlug}
-                        categoriaMenu={categoria_menu ?? undefined}
-                        issue={article.data.issue_number}
-                        forma={formal}
-                        author={article.data.author || 'Autore sconosciuto'}
-                        date={articleDate}
-                        image={articleImage}
-                      />
+        <!-- 2. I Diari -->
+        <section class="diari-band" aria-label="I Diari">
+          <div class="diari-band-inner">
+            <h2 class="section-title">I Diari</h2>
+            <div class="diari-band-list">
+              {latestPerDiario.map(({ diarista, meta }) => {
+                const fotoUrl = autoriById[diarista.authorSlug]?.foto_url || '';
+                return (
+                  <a href={`/blog/${meta.slug}`} class="diari-band-item">
+                    <div class="diari-band-avatar">
+                      {fotoUrl ? <img src={fotoUrl} alt={diarista.nome} loading="lazy" /> : null}
                     </div>
-                  );
-                } catch (e) {
-                  console.error(`[index.astro] Errore rendering articolo ${article.id}:`, e);
-                  return null;
-                }
+                    <p class="diari-band-diario-title">{diarista.titoloDiario}</p>
+                    <p class="diari-band-author">{diarista.nome}</p>
+                    <p class="diari-band-date">{formatDateRelative(meta.date)}</p>
+                  </a>
+                );
               })}
             </div>
-            
-            <div class="pagination">
-              {currentPage <= 1 ? (
-                <span class="pagination-button disabled">
-                  ← Indietro
-                </span>
-              ) : (
-                <a 
-                  href={`/?page=${currentPage - 1}`}
-                  class="pagination-button"
-                  data-page={currentPage - 1}
-                >
-                  ← Indietro
-                </a>
-              )}
-              <span class="pagination-info">
-                Pagina {currentPage} di {totalPages} | Articoli: {paginatedArticles.length} | Totale: {sortedArticles.length}
-                <br />
-                <small style="color: #666; font-size: 0.85rem;">
-                  {currentPage < totalPages ? (
-                    <>Link test: <a href={`/?page=${currentPage + 1}`} style="color: #0066cc;" data-page={currentPage + 1}>/?page={currentPage + 1}</a></>
-                  ) : (
-                    <>Ultima pagina raggiunta</>
-                  )}
-                </small>
-              </span>
-              {currentPage >= totalPages ? (
-                <span class="pagination-button disabled" title={`Sei già all'ultima pagina (${totalPages})`}>
-                  Avanti →
-                </span>
-              ) : (
-                <a 
-                  href={`/?page=${currentPage + 1}`}
-                  class="pagination-button"
-                  title={`Vai alla pagina ${currentPage + 1}`}
-                  data-page={currentPage + 1}
-                >
-                  Avanti →
-                </a>
-              )}
-            </div>
-          </>
-        ) : (
-          <div style="padding: 2rem; text-align: center; color: #666;">
-            Nessun articolo trovato o errore nel caricamento.
+            {latestPerDiario.length > 0 && (
+              <p style="margin-top: 1rem; font-size: 0.95rem;">
+                <a href="/sezioni/diari" style="font-weight: 600;">Tutti i Diari →</a>
+              </p>
+            )}
           </div>
+        </section>
+
+        <!-- Testimonianze -->
+        <h2 class="section-title">Testimonianze</h2>
+        <div class="testimonianze-grid">
+          <div class="testimonianze-col1">
+            {testimonianze[0] && (
+              <a href={`/blog/${testimonianze[0].slug}`} class="testimonianze-card">
+                <div class="testimonianze-card-img-wrap">
+                  {testimonianze[0].image ? (
+                    <img src={testimonianze[0].image} alt="" loading="lazy" />
+                  ) : (
+                    <div style="width:100%;height:100%;background:var(--border-color);" />
+                  )}
+                </div>
+                <div class="testimonianze-card-body">
+                  <p class="testimonianze-card-cat">{getCategoryLabel(testimonianze[0])}</p>
+                  <h3 class="testimonianze-card-title">{testimonianze[0].title}</h3>
+                  <p class="testimonianze-card-meta">Di {testimonianze[0].author} · {formatDateItalian(testimonianze[0].date)}</p>
+                </div>
+              </a>
+            )}
+            {testimonianze[1] && (
+              <a href={`/blog/${testimonianze[1].slug}`} class="testimonianze-card testimonianze-card--no-photo">
+                <div class="testimonianze-card-body">
+                  <p class="testimonianze-card-cat">{getCategoryLabel(testimonianze[1])}</p>
+                  <h3 class="testimonianze-card-title">{testimonianze[1].title}</h3>
+                  <p class="testimonianze-card-meta">Di {testimonianze[1].author} · {formatDateItalian(testimonianze[1].date)}</p>
+                </div>
+              </a>
+            )}
+          </div>
+          <div>
+            {testimonianze[2] && (
+              <a href={`/blog/${testimonianze[2].slug}`} class="testimonianze-card testimonianze-card--featured">
+                <div class="testimonianze-card-img-wrap">
+                  {testimonianze[2].image ? (
+                    <img src={testimonianze[2].image} alt="" loading="lazy" />
+                  ) : (
+                    <div style="width:100%;height:100%;background:var(--border-color);" />
+                  )}
+                </div>
+                <div class="testimonianze-card-body">
+                  <p class="testimonianze-card-cat">{getCategoryLabel(testimonianze[2])}</p>
+                  <h3 class="testimonianze-card-title">{testimonianze[2].title}</h3>
+                  <p class="testimonianze-card-meta">Di {testimonianze[2].author} · {formatDateItalian(testimonianze[2].date)}</p>
+                </div>
+              </a>
+            )}
+          </div>
+          <aside class="testimonianze-cta">
+            <h3 class="testimonianze-cta-title">Racconta la tua storia</h3>
+            <p class="testimonianze-cta-text">Hai una storia personale sul tuo incontro con la fragilità?</p>
+            <a href="mailto:ombreeluci@fedeeluce.it" class="testimonianze-cta-btn">Scrivici</a>
+          </aside>
+        </div>
+
+        <!-- 3. Blocchi tematici (Fede, Cultura) + box Ultimo numero dopo Cultura, poi Scuola -->
+        {HOME_THEMES.map((theme, i) => {
+          const cat = getCategoryBySlug(theme.slug);
+          const temaLabel = cat?.type === 'thematic' ? cat.label : null;
+          const articles = temaLabel ? articlesForTheme(temaLabel) : [];
+          const isCultura = theme.sectionTitle === 'CULTURA';
+          return (
+            <>
+              {articles.length > 0 && (
+                <ThemedSection
+                  sectionTitle={theme.sectionTitle}
+                  themeSlug={theme.slug}
+                  themeDescription={theme.description}
+                  articles={articles}
+                />
+              )}
+              {isCultura && ultimoNumero && (
+                <section class="ultimo-numero-box" aria-label="Ultimo numero">
+                  <div>
+                    <h3 class="ultimo-numero-title">Ultimo numero</h3>
+                    <div class="ultimo-numero-riga" aria-hidden="true" />
+                    <p class="ultimo-numero-meta">
+                      {ultimoNumero.periodo_label ?? `${ultimoNumero.anno_pubblicazione}`} · n.{ultimoNumero.numero_progressivo}
+                    </p>
+                    <h4 class="ultimo-numero-titolo-numero">{ultimoNumero.titolo_numero ?? ultimoNumero.display_title ?? `Ombre e Luci n. ${ultimoNumero.numero_progressivo}`}</h4>
+                    {(ultimoNumero.sommario_lancio ?? ultimoNumero.seo_description ?? ultimoNumero.descrizione_ai) && (
+                      <p class="ultimo-numero-sommario">
+                        {ultimoNumero.sommario_lancio ?? (ultimoNumero.seo_description ?? ultimoNumero.descrizione_ai ?? '').slice(0, 220)}
+                        {!ultimoNumero.sommario_lancio && (ultimoNumero.seo_description ?? ultimoNumero.descrizione_ai ?? '').length > 220 ? '…' : ''}
+                      </p>
+                    )}
+                    <a href={issueSlug ? `/archivio/${issueSlug}` : '/archivio'} class="ultimo-numero-link">Scopri contenuti →</a>
+                  </div>
+                  <div class="ultimo-numero-cover-col">
+                    <a href={issueSlug ? `/archivio/${issueSlug}` : '/archivio'} class="ultimo-numero-cover-wrap" aria-label={`Copertina ${ultimoNumero.titolo_numero ?? 'ultimo numero'}`}>
+                      {ultimoNumero.copertina_url ? (
+                        <img src={ultimoNumero.copertina_url} alt="" loading="lazy" width="300" />
+                      ) : (
+                        <div style="aspect-ratio: 3/4; width: 300px; background: var(--border-color); display: flex; align-items: center; justify-content: center; color: var(--text-secondary); font-size: 0.9rem;">Copertina</div>
+                      )}
+                    </a>
+                  </div>
+                </section>
+              )}
+            </>
+          );
+        })}
+
+        <!-- 4. Recensioni -->
+        {recensioni.length > 0 && (
+          <>
+            <h2 class="section-title">Recensioni</h2>
+            <div class="recensioni-grid">
+              {recensioni.map((r) => (
+                <a href={`/blog/${r.slug}`} class="recensioni-card">
+                  <div class="recensioni-card-img">
+                    {r.image ? (
+                      <img src={r.image} alt="" loading="lazy" />
+                    ) : (
+                      <div style="width:100%;height:100%;background:var(--border-color);" />
+                    )}
+                  </div>
+                  <div class="recensioni-card-body">
+                    <p class="recensioni-card-cat">{getCategoryLabel(r)}</p>
+                    <h3 class="recensioni-card-title">{r.title}</h3>
+                    <p class="recensioni-card-meta">Di {r.author}</p>
+                    <p class="recensioni-card-meta">{formatDateItalian(r.date)}</p>
+                  </div>
+                </a>
+              ))}
+            </div>
+            <p style="margin-top: 1rem;">
+              <a href="/categoria/recensioni" style="font-weight: 600;">Tutte le recensioni →</a>
+            </p>
+          </>
         )}
-      </>
-    )}
-    </div>
+
+        <p style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center;">
+          <a href="/archivio" style="font-weight: 600;">Archivio completo →</a>
+        </p>
+      </div>
+    </main>
+    <Footer />
   </body>
 </html>
-
