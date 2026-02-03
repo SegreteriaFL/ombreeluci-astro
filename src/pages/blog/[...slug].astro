@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
 import { ViewTransitions } from 'astro:transitions';
@@ -50,7 +51,7 @@ allArticles.forEach(article => {
 
 // Lo slug può essere:
 // 1. Solo il nome file (es. "ombre-e-luci")
-// 2. Percorso completo (es. "cluster-14/ombre-e-luci")
+// 2. Percorso completo (es. "OEL-86/ombre-e-luci")
 let articleBySlug = null;
 
 // Prima prova a cercare per slug nel frontmatter
@@ -64,9 +65,9 @@ if (!articleBySlug) {
 // Se non trovato, cerca per percorso completo
 if (!articleBySlug) {
   articleBySlug = allArticles.find(entry => {
-    // entry.id è il percorso completo relativo a src/content/blog (es. "cluster-14/ombre-e-luci.md")
+    // entry.id è il percorso completo relativo a src/content/blog (es. "OEL-86/ombre-e-luci.md")
     const entryPath = entry.id.replace(/\.md$/, ''); // Rimuovi .md
-    // Confronta con lo slug del parametro (può essere "cluster-14/ombre-e-luci" o solo "ombre-e-luci")
+    // Confronta con lo slug del parametro (può essere "OEL-86/ombre-e-luci" o solo "ombre-e-luci")
     return entryPath === slugParam || entryPath.endsWith(`/${slugParam}`);
   });
 }
@@ -127,7 +128,7 @@ const issueLink = issueSlug ? `/archivio/${issueSlug}` : null;
 // Funzione per estrarre excerpt dalle prime due righe del contenuto
 async function extractExcerpt(articleId: string): Promise<string | null> {
   try {
-    // articleId è il percorso relativo a src/content/blog (es. "cluster-14/ombre-e-luci.md")
+    // articleId è il percorso relativo a src/content/blog (es. "OEL-86/ombre-e-luci.md")
     const contentPath = join(process.cwd(), 'src', 'content', 'blog', articleId);
     const content = await readFile(contentPath, 'utf-8');
     const parts = content.split('---');
@@ -244,9 +245,6 @@ const relatedArticles = Array.from(relatedIds)
     <meta name="twitter:title" content={articleBySlug.data.title} />
     <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={typeof articleImage === 'string' ? articleImage : articleImage.src} />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <ViewTransitions />
     <style>
       * {
@@ -262,7 +260,7 @@ const relatedArticles = Array.from(relatedIds)
         left: 0;
         width: 0%;
         height: 3px;
-        background: #ff1053;
+        background: var(--accent-color, #c41e3a);
         z-index: 9999;
         transition: width 0.1s ease-in-out;
       }
@@ -271,8 +269,9 @@ const relatedArticles = Array.from(relatedIds)
         max-width: 100%;
         margin: 0 auto;
         padding: 0;
-        background: #fff;
+        background: var(--bg-card, #fdfcfb);
         min-height: 100vh;
+        color: var(--text-color, #2d2d2d);
       }
 
       /* Breadcrumbs - Nascoste */
@@ -305,7 +304,7 @@ const relatedArticles = Array.from(relatedIds)
 
       @media (max-width: 768px) {
         .article-container {
-          padding: 1.5rem 1rem; /* Più padding laterale su mobile */
+          padding: 1.5rem 1.25rem; /* Margini laterali ampi per lettura riposante */
         }
       }
 
@@ -396,11 +395,11 @@ const relatedArticles = Array.from(relatedIds)
 
       .article-title {
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-        font-size: 2.5rem;
-        font-weight: 800;
-        line-height: 1.2;
+        font-size: clamp(1.875rem, 4vw, 2.75rem);
+        font-weight: 700;
+        line-height: 1.25;
         letter-spacing: -0.02em;
-        color: var(--text-color, #1a1a1a);
+        color: var(--text-color, #2d2d2d);
         margin-bottom: 1.5rem;
         text-align: center;
       }
@@ -698,87 +697,66 @@ const relatedArticles = Array.from(relatedIds)
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
       }
 
-      /* Widget a comparsa - Bottom Right con animazione morbida */
+      /* Widget di navigazione: card standard in basso a destra */
       .floating-widget {
         position: fixed;
-        right: -400px;
+        right: -320px;
         bottom: 20px;
-        width: 320px;
-        background: white;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-        border-radius: 12px;
-        padding: 1.5rem;
+        width: 280px;
+        background: var(--bg-card, #fdfcfb);
+        border: 1px solid var(--border-color, #e8e6e3);
+        border-radius: 10px;
+        padding: 1.25rem;
         z-index: 1000;
-        transition: right 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease;
-        opacity: 0;
-        max-height: 400px;
-        overflow-y: auto;
+        transition: right 0.35s ease, box-shadow 0.35s ease;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       }
 
       .floating-widget.visible {
         right: 20px;
-        opacity: 1;
-      }
-
-      .floating-widget-image {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-        object-fit: cover;
-        display: block;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
       }
 
       .floating-widget h4 {
-        font-family: 'Raleway', system-ui, sans-serif;
-        font-size: 1.125rem;
+        font-size: 0.9375rem;
         font-weight: 600;
-        margin-bottom: 1rem;
-        color: #1a1a1a;
-      }
-
-      .floating-widget p {
-        font-size: 0.95rem;
-        color: #555;
-        margin-bottom: 1rem;
-        line-height: 1.6;
+        color: var(--text-color, #2d2d2d);
+        margin-bottom: 0.75rem;
       }
 
       .floating-widget .widget-link {
         display: inline-block;
-        padding: 0.75rem 1.5rem;
-        background: #ff1053;
-        color: white;
+        margin-top: 0.5rem;
+        padding: 0.5rem 0;
+        color: var(--accent-color, #c41e3a);
         text-decoration: none;
-        border-radius: 8px;
-        font-weight: 600;
-        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-        text-transform: none;
-        transition: all 0.3s ease-in-out;
+        font-size: 0.875rem;
+        font-weight: 500;
       }
 
       .floating-widget .widget-link:hover {
-        background: #e00e4a;
-        transform: translateY(-1px);
+        text-decoration: underline;
       }
 
       .floating-widget .close-btn {
         position: absolute;
-        top: 1rem;
-        right: 1rem;
+        top: 0.75rem;
+        right: 0.75rem;
         background: none;
         border: none;
-        font-size: 1.5rem;
-        color: #999;
+        font-size: 1.25rem;
+        color: var(--text-secondary, #5c5c5c);
         cursor: pointer;
         line-height: 1;
         padding: 0;
-        width: 24px;
-        height: 24px;
       }
 
       .floating-widget .close-btn:hover {
-        color: #333;
+        color: var(--text-color, #2d2d2d);
+      }
+
+      .floating-widget-image {
+        display: none;
       }
 
       .article-content :global(h1),
@@ -788,7 +766,7 @@ const relatedArticles = Array.from(relatedIds)
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
         margin-top: 2rem;
         margin-bottom: 1rem;
-        color: #1a1a1a;
+        color: var(--text-color, #2d2d2d);
       }
 
       .article-content :global(h1) {
@@ -804,7 +782,10 @@ const relatedArticles = Array.from(relatedIds)
       }
 
       .article-content :global(p) {
-        margin-bottom: 2rem; /* Spaziatura generosa tra paragrafi */
+        margin-bottom: 2rem;
+        line-height: 1.75;
+        font-size: 1.125rem;
+        color: var(--text-color, #2d2d2d);
       }
 
       .article-content :global(p + p) {
@@ -1060,7 +1041,7 @@ const relatedArticles = Array.from(relatedIds)
   </head>
   <body>
     <Header />
-    
+    <main class="site-main">
     {/* Reading Progress Bar */}
     <div class="reading-progress" id="reading-progress"></div>
     
@@ -1278,33 +1259,15 @@ const relatedArticles = Array.from(relatedIds)
         </div>
       </div>
 
-      {/* Widget a comparsa - Bottom Right */}
+      {/* Widget di navigazione: card standard, appare dopo scroll */}
       <div class="floating-widget" id="floating-widget">
         <button class="close-btn" id="close-widget" aria-label="Chiudi">×</button>
-        <img src={placeholderImage.src} alt={articleBySlug.data.title} class="floating-widget-image" />
-        <h4>{articleBySlug.data.title}</h4>
+        <h4>Naviga</h4>
         {articleBySlug.data.pdf_url ? (
-          <>
-            <p>Scopri tutti gli articoli di questo numero della rivista.</p>
-            <a href={articleBySlug.data.pdf_url} target="_blank" rel="noopener noreferrer" class="widget-link">
-              📄 Scarica PDF
-            </a>
-          </>
-        ) : issueLink ? (
-          <>
-            <p>Esplora gli altri articoli di questo numero.</p>
-            <a href={issueLink} class="widget-link">
-              Vai al numero
-            </a>
-          </>
-        ) : (
-          <>
-            <p>Scopri altri articoli della rivista.</p>
-            <a href="/archivio" class="widget-link">
-              Vai all'archivio
-            </a>
-          </>
-        )}
+          <a href={articleBySlug.data.pdf_url} target="_blank" rel="noopener noreferrer" class="widget-link">Scarica PDF</a>
+        ) : null}
+        {issueLink ? <a href={issueLink} class="widget-link">Vai al numero</a> : null}
+        <a href="/archivio" class="widget-link">Archivio</a>
       </div>
 
       {/* Sezione PDF e Copertina */}
@@ -1386,9 +1349,12 @@ Slug: {articleBySlug.slug}
         </section>
       )}
 
-      <a href="/" class="back-link">← Torna all'archivio</a>
+      <section class="article-nav-section" aria-label="Navigazione">
+        <a href="/" class="back-link">← Torna all'archivio</a>
+      </section>
     </div>
-
+    </main>
+    <Footer />
     <script define:vars={{ wpIdToSlugMap }}>
       // Mappa wp_id -> slug disponibile globalmente
     </script>

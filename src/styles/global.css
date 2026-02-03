@@ -55,8 +55,6 @@ body {
   background: var(--bg-light);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  z-index: 0;
 }
 
 /* Header: stesso stile su tutte le pagine; con ViewTransitions usa transition:persist per evitare salti */
@@ -126,19 +124,9 @@ a:hover {
 /* Main: sfondo crema. Il footer segue in flusso e si “rivela” scrollando in fondo. */
 .site-main {
   position: relative;
-  z-index: 2;
+  z-index: 10;
   background-color: var(--bg-light);
   min-height: 40vh;
-  isolation: isolate;
-}
-
-@media (min-width: 769px) {
-  .site-main::after {
-    content: '';
-    display: block;
-    height: var(--footer-height);
-    background-color: var(--bg-light);
-  }
 }
 
 img {
