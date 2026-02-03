@@ -1,27 +1,31 @@
 ---
 export interface Props {
-  active?: string; // path segment o slug della pagina corrente (es. 'la-rivista', 'contatti')
+  /** Slug della sezione attiva (per highlight), opzionale se usato con scroll-spy */
+  active?: string;
+  /** Se true, i link puntano a #anchor sulla stessa pagina (pagina unica Chi Siamo) */
+  useAnchors?: boolean;
 }
 
-const { active = '' } = Astro.props;
+const { active = '', useAnchors = true } = Astro.props;
 
 const links = [
-  { label: 'La Rivista', href: '/chi-siamo/la-rivista', slug: 'la-rivista' },
-  { label: 'La Redazione', href: '/chi-siamo/la-redazione', slug: 'la-redazione' },
-  { label: 'Redazione storica', href: '/chi-siamo/redazione-storica', slug: 'redazione-storica' },
-  { label: 'Collaboratori', href: '/chi-siamo/collaboratori', slug: 'collaboratori' },
-  { label: 'Hanno scritto per noi', href: '/chi-siamo/hanno-scritto-per-noi', slug: 'hanno-scritto-per-noi' },
-  { label: 'Contatti', href: '/chi-siamo/contatti', slug: 'contatti' },
+  { label: 'La Rivista', href: useAnchors ? '/chi-siamo#la-rivista' : '/chi-siamo/la-rivista', slug: 'la-rivista' },
+  { label: 'La Redazione', href: useAnchors ? '/chi-siamo#la-redazione' : '/chi-siamo/la-redazione', slug: 'la-redazione' },
+  { label: 'La Redazione storica', href: useAnchors ? '/chi-siamo#redazione-storica' : '/chi-siamo/redazione-storica', slug: 'redazione-storica' },
+  { label: 'Collaboratori', href: useAnchors ? '/chi-siamo#collaboratori' : '/chi-siamo/collaboratori', slug: 'collaboratori' },
+  { label: 'Hanno scritto per noi', href: useAnchors ? '/chi-siamo#hanno-scritto-per-noi' : '/chi-siamo/hanno-scritto-per-noi', slug: 'hanno-scritto-per-noi' },
+  { label: 'Info e contatti redazione', href: useAnchors ? '/chi-siamo#contatti' : '/chi-siamo/contatti', slug: 'contatti' },
 ];
 ---
 
-<nav class="about-sidebar" aria-label="Sezioni Chi siamo">
+<nav class="about-sidebar" id="chi-siamo-sidebar" aria-label="Sezioni Chi siamo">
   <ul class="about-sidebar-list">
     {links.map((item) => (
       <li>
         <a
           href={item.href}
           class={`about-sidebar-link ${active === item.slug ? 'about-sidebar-link--active' : ''}`}
+          data-section={item.slug}
         >
           {item.label}
         </a>
@@ -30,10 +34,57 @@ const links = [
   </ul>
 </nav>
 
+<script>
+  // Scroll-spy: evidenzia il link della sezione in viewport (solo su pagina unica con anchor)
+  const sidebar = document.getElementById('chi-siamo-sidebar');
+  if (!sidebar) return;
+  const links = sidebar.querySelectorAll('.about-sidebar-link[href^="/chi-siamo#"]');
+  if (links.length === 0) return;
+
+  const sectionIds = Array.from(links).map((a) => a.getAttribute('href')?.split('#')[1]).filter(Boolean);
+
+  function setActiveFromScroll() {
+    const scrollY = window.scrollY;
+    const headerH = 80;
+    let current = sectionIds[0];
+    for (const id of sectionIds) {
+      const el = document.getElementById(id);
+      if (!el) continue;
+      const top = el.getBoundingClientRect().top + scrollY - headerH;
+      if (scrollY >= top - 20) current = id;
+    }
+    links.forEach((a) => {
+      const slug = a.getAttribute('href')?.split('#')[1];
+      a.classList.toggle('about-sidebar-link--active', slug === current);
+    });
+  }
+
+  function setActiveFromHash() {
+    const hash = window.location.hash.slice(1);
+    if (hash && sectionIds.includes(hash)) {
+      links.forEach((a) => {
+        const slug = a.getAttribute('href')?.split('#')[1];
+        a.classList.toggle('about-sidebar-link--active', slug === hash);
+      });
+      return true;
+    }
+    return false;
+  }
+
+  window.addEventListener('scroll', () => requestAnimationFrame(setActiveFromScroll), { passive: true });
+  window.addEventListener('hashchange', () => setActiveFromHash() || setActiveFromScroll());
+  if (setActiveFromHash()) return;
+  setActiveFromScroll();
+</script>
+
 <style>
   .about-sidebar {
     flex-shrink: 0;
     width: 220px;
+    position: sticky;
+    top: calc(var(--header-height, 80px) + 5.5rem);
+    max-height: calc(100vh - var(--header-height, 80px) - 6rem);
+    overflow-y: auto;
   }
 
   .about-sidebar-list {
@@ -59,6 +110,7 @@ const links = [
   .about-sidebar-link:hover {
     color: var(--text-color);
     background: var(--border-color);
+    text-decoration: none;
   }
 
   .about-sidebar-link--active {
@@ -73,7 +125,9 @@ const links = [
 
   @media (max-width: 768px) {
     .about-sidebar {
+      position: static;
       width: 100%;
+      max-height: none;
       margin-bottom: 1.5rem;
       padding-bottom: 1rem;
       border-bottom: 1px solid var(--border-color);

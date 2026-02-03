@@ -4,6 +4,80 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import AboutSidebar from '../../components/AboutSidebar.astro';
 import '../../styles/global.css';
+import autoriStats from '../../data/autori_stats.json';
+
+// Manifesto hero
+const manifestoHero = `Ombre e Luci è una rivista che da oltre quarant'anni accompagna le persone con disabilità, le loro famiglie e le comunità che li accolgono, offrendo riflessioni, testimonianze e strumenti per vivere insieme la diversità come una ricchezza.`;
+
+// La Rivista – 4 blocchi (cliccabili, link a categorie)
+const blocchiRivista = [
+  { titolo: 'Testimonianze', descrizione: 'Voci e storie di chi vive la disabilità e l\'inclusione ogni giorno.', href: '/categoria/testimonianze' },
+  { titolo: 'Esperienze', descrizione: 'Percorsi condivisi di comunità, associazioni e famiglie.', href: '/categoria/interviste' },
+  { titolo: 'Riflessioni', descrizione: 'Approfondimenti su spiritualità, dignità e cultura dell\'accoglienza.', href: '/categoria/riflessioni' },
+  { titolo: 'Cultura', descrizione: 'Recensioni, interviste e sguardi sul mondo che ci circonda.', href: '/categoria/recensioni' },
+];
+
+// Timeline "Album di Famiglia" (link in formato piccolo sotto ogni descrizione)
+const timeline = [
+  { anno: '1977', titolo: "Nasce 'Insieme'", descrizione: "Il primo bollettino ciclostilato. Il desiderio di non restare soli.", linkTesto: 'Primo numero Insieme', linkUrl: '/archivio/ins-1' },
+  { anno: '1983', titolo: 'Ombre e Luci', descrizione: 'Esce il numero 1. Formato professionale, temi di vita, fede e inclusione.', linkTesto: 'Numero 1 (PDF)', linkUrl: 'https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf', linkPagina: '/archivio/oel-1' },
+  { anno: '2010', titolo: 'Web', descrizione: 'La rivista approda online.' },
+  { anno: '2018', titolo: 'Digitalizzazione', descrizione: "Inizia il recupero dell'archivio storico, un 'regalo' per i 40 anni della rivista.", linkTesto: 'Leggi', linkUrl: '/blog/digitalizzando-ombre-e-luci-come-un-album-di-famiglia' },
+  { anno: '2023', titolo: 'In English!', descrizione: 'Apertura internazionale con la versione inglese.', linkTesto: 'Leggi', linkUrl: '/blog/ombre-e-luci-in-inglese' },
+  { anno: '2025', titolo: 'Progetto AiOeL', descrizione: "L'intelligenza artificiale al servizio della memoria e delle voci dell'archivio.", linkTesto: 'Leggi', linkUrl: '/blog/intelligenza-artificiale-e-memoria-editoriale-il-mio-lavoro-con-ombre-e-luci' },
+];
+
+// Redazione: 4 colonne (foto, nome, ruolo, bio). Foto in /images/redazione/ (nome file con estensione: .webp, .png, .jpg ecc.).
+const redazioneChiave = [
+  { nome: 'Giulia Galeotti', ruolo: 'Direttore responsabile', slug: 'giulia-galeotti', foto: 'giulia-galeotti.webp', bioBreve: 'Dirige la rivista con uno sguardo attento alla qualità editoriale e ai temi dell\'inclusione e della spiritualità.' },
+  { nome: 'Cristina Tersigni', ruolo: 'Responsabile editoriale', slug: 'cristina-tersigni', foto: 'cristina-tersigni.webp', bioBreve: 'Coordina la redazione e i progetti editoriali di Ombre e Luci, curando il dialogo tra contenuti e comunità.' },
+  { nome: 'Matteo Cinti', ruolo: 'Grafica e design', slug: 'matteo-cinti', foto: 'matteo-cinti.png', bioBreve: 'Cura l\'identità visiva e la grafica della rivista, in carta e in digitale.' },
+  { nome: 'Franco Manuzio', ruolo: 'Area digital', slug: 'franco-manuzio', foto: 'franco-manuzio.jpg', bioBreve: 'Responsabile dell\'area digital, informatizzazione dell\'archivio cartaceo e progetti di intelligenza artificiale.' },
+];
+
+// Come lavoriamo (ispirato a "Progettare un nuovo numero")
+const comeLavoriamo = [
+  'Ascolto del territorio: ascoltiamo le comunità, le famiglie e i lettori per cogliere i temi che bruciano.',
+  'Scelta del tema: ogni numero prende forma attorno a un tema guida, declinato in testimonianze, riflessioni e cultura.',
+  'Cura del linguaggio: parole accessibili e rispettose, senza rinunciare alla profondità.',
+  'Apertura al dialogo: la rivista è un luogo di incontro tra voci diverse, in Italia e nel mondo.',
+];
+
+// Redazione storica: 5 colonne (foto, nome, ruolo, link autore). Foto in /images/redazione/
+const linkStoricaRedazione = '/archivio';
+const storica = [
+  { nome: 'Mariangela Bertolini', ruolo: 'Fondatrice', slug: 'mariangela-bertolini', foto: 'mariangela-bertolini.png' },
+  { nome: 'Nicole Schulthes', ruolo: 'Caporedattore', slug: 'nicole-schulthes', foto: 'nicole-schulthes.jpg' },
+  { nome: 'Sergio Sciascia', ruolo: 'Direttore responsabile', slug: 'sergio-sciascia', foto: 'sergio-sciascia.jpg' },
+  { nome: 'Natalia Livi', ruolo: 'Redazione', slug: 'natalia-livi', foto: 'natalia-livi.jpg' },
+  { nome: 'Maria Teresa Mazzarotto', ruolo: 'Redazione', slug: 'maria-teresa-mazzarotto', foto: 'maria-teresa-mazzarotto.jpg' },
+];
+
+// Collaboratori: 2 righe x 6 colonne (foto + nome). Foto in /images/redazione/ (iniziali se manca file).
+const collaboratori = [
+  { nome: 'Nicla Bettazzi', slug: 'nicla-bettazzi', foto: 'nicla-bettazzi.jpg' },
+  { nome: 'Don Marco Bove', slug: 'don-marco-bove', foto: 'don-marco-bove.jpg' },
+  { nome: 'Claudio Cinus', slug: 'claudio-cinus', foto: 'claudio-cinus.jpg' },
+  { nome: 'Benedetta Mattei', slug: 'benedetta-mattei', foto: 'benedetta-mattei.png' },
+  { nome: 'Rita Massi', slug: 'rita-massi', foto: 'rita-massi.png' },
+  { nome: 'Giovanni Grossi', slug: 'giovanni-grossi', foto: 'giovanni-grossi.png' },
+  { nome: 'Serena Sillitto', slug: 'serena-sillitto', foto: 'serena-sillitto.png' },
+  { nome: 'Silvia Camisasca', slug: 'silvia-camisasca', foto: 'silvia-camisasca.jpg' },
+  { nome: 'Silvia Gusmani', slug: 'silvia-gusmani', foto: 'silvia-gusmani.jpg' },
+  { nome: 'Alessandro De Simone', slug: 'alessandro-de-simone', foto: 'alessandro-de-simone.jpg' },
+  { nome: 'Laura Coccia', slug: 'laura-coccia', foto: 'laura-coccia.jpg' },
+  { nome: 'Enrica Riera', slug: 'enrica-riera', foto: 'enrica-riera.png' },
+];
+
+function iniziali(nome) {
+  return (nome || '')
+    .split(/\s+/)
+    .map((p) => p.charAt(0))
+    .join('')
+    .slice(0, 2)
+    .toUpperCase();
+}
+
 ---
 
 <html lang="it">
@@ -13,15 +87,168 @@ import '../../styles/global.css';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chi Siamo - Ombre e Luci</title>
   </head>
-  <body>
+  <body class="chi-siamo-page">
     <Header />
-    <main class="site-main">
-      <div class="about-layout container">
-        <AboutSidebar active="la-rivista" />
-        <div class="about-page-content">
-          <h1>Chi Siamo</h1>
-          <p>Ombre e Luci è una rivista che da oltre quarant'anni accompagna le persone con disabilità, le loro famiglie e le comunità che li accolgono.</p>
-          <p>Usa il menu a lato per scoprire la rivista, la redazione, i collaboratori e i contatti.</p>
+    <main class="site-main chi-siamo-main">
+      <div class="chi-siamo-layout container">
+        <AboutSidebar active="" useAnchors={true} />
+
+        <div class="chi-siamo-content">
+          <!-- Hero -->
+          <section class="chi-siamo-section chi-siamo-hero" id="hero">
+            <div class="chi-siamo-section-inner">
+              <h1 class="chi-siamo-title">Chi Siamo</h1>
+              <p class="chi-siamo-manifesto">{manifestoHero}</p>
+              <div class="chi-siamo-cta">
+                <a href="/" class="button">Leggi gli articoli</a>
+                <a href="/dona" class="button button-outline">Sostienici</a>
+              </div>
+            </div>
+          </section>
+
+          <!-- La Rivista -->
+          <section class="chi-siamo-section chi-siamo-section--cream" id="la-rivista">
+            <div class="chi-siamo-section-inner">
+              <h2 class="chi-siamo-h2">La Rivista</h2>
+              <p class="chi-siamo-lead">Rivista trimestrale che mette al centro l'inclusione e la dignità di ogni persona, attraverso testimonianze, esperienze e riflessioni.</p>
+              <div class="rivista-cards">
+                {blocchiRivista.map((b) => (
+                  <a href={b.href} class="rivista-card rivista-card-link">
+                    <h3 class="rivista-card-title">{b.titolo}</h3>
+                    <p class="rivista-card-desc">{b.descrizione}</p>
+                  </a>
+                ))}
+              </div>
+              <div class="timeline-wrap">
+                <h3 class="chi-siamo-h3">Album di Famiglia</h3>
+                <ol class="timeline">
+                  {timeline.map((t) => (
+                    <li class="timeline-item">
+                      <span class="timeline-anno">{t.anno}</span>
+                      <span class="timeline-titolo">{t.titolo}</span>
+                      <p class="timeline-desc">{t.descrizione}</p>
+                      {t.linkTesto && t.linkUrl && (
+                        <p class="timeline-link">
+                          <a href={t.linkUrl} target={t.linkUrl.startsWith('http') ? '_blank' : undefined} rel={t.linkUrl.startsWith('http') ? 'noopener noreferrer' : undefined}>{t.linkTesto}</a>
+                          {t.linkPagina && <span> · </span>}
+                          {t.linkPagina && <a href={t.linkPagina}>Vai al numero</a>}
+                        </p>
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </div>
+          </section>
+
+          <!-- La Redazione -->
+          <section class="chi-siamo-section" id="la-redazione">
+            <div class="chi-siamo-section-inner">
+              <h2 class="chi-siamo-h2">La Redazione</h2>
+              <div class="redazione-grid redazione-grid--4">
+                {redazioneChiave.map((r) => (
+                  <article class="redazione-card">
+                    <div class="redazione-card-photo redazione-card-photo--circle" aria-hidden="true">
+                      <img src={`/images/redazione/${r.foto || r.slug + '.jpg'}`} alt="" width="200" height="200" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+                      <span class="redazione-photo-fallback">{iniziali(r.nome)}</span>
+                    </div>
+                    <h3 class="redazione-card-nome"><a href={`/autori/${r.slug}`}>{r.nome}</a></h3>
+                    <p class="redazione-card-ruolo">{r.ruolo}</p>
+                    <p class="redazione-card-bio">{r.bioBreve}</p>
+                    <a href={`/autori/${r.slug}`} class="redazione-leggi-piu">Leggi di più</a>
+                  </article>
+                ))}
+              </div>
+              <div class="come-lavoriamo">
+                <h3 class="chi-siamo-h3">Come lavoriamo</h3>
+                <ul class="come-lavoriamo-list">
+                  {comeLavoriamo.map((item) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- La Redazione Storica -->
+          <section class="chi-siamo-section chi-siamo-section--cream" id="redazione-storica">
+            <div class="chi-siamo-section-inner">
+              <h2 class="chi-siamo-h2">La Redazione storica</h2>
+              <p class="chi-siamo-lead">I volti che hanno costruito Ombre e Luci dagli inizi fino a pochi anni fa. <a href={linkStoricaRedazione}>La storica redazione</a> →</p>
+              <div class="storica-grid storica-grid--5">
+                {storica.map((s) => (
+                  <article class="storica-card storica-card--solo-foto">
+                    <div class="storica-card-photo storica-card-photo--circle" aria-hidden="true">
+                      <img src={`/images/redazione/${s.foto || s.slug + '.jpg'}`} alt="" width="200" height="200" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+                      <span class="redazione-photo-fallback">{iniziali(s.nome)}</span>
+                    </div>
+                    <h3 class="storica-card-nome"><a href={`/autori/${s.slug}`}>{s.nome}</a></h3>
+                    <p class="storica-card-ruolo">{s.ruolo}</p>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <!-- Collaboratori -->
+          <section class="chi-siamo-section" id="collaboratori">
+            <div class="chi-siamo-section-inner">
+              <h2 class="chi-siamo-h2">Collaboratori</h2>
+              <p class="chi-siamo-lead">Giornalisti, traduttori e professionisti che contribuiscono alla rivista.</p>
+              <div class="collaboratori-grid collaboratori-grid--2x6">
+                {collaboratori.map((c) => (
+                  <a href={`/autori/${c.slug}`} class="collaboratore-card collaboratore-card--solo-foto">
+                    <div class="collaboratore-photo collaboratore-photo--circle" aria-hidden="true">
+                    <img src={`/images/redazione/${c.foto || c.slug + '.jpg'}`} alt="" width="80" height="80" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+                    <span class="redazione-photo-fallback">{iniziali(c.nome)}</span>
+                  </div>
+                    <span class="collaboratore-nome">{c.nome}</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <!-- Hanno scritto per noi -->
+          <section class="chi-siamo-section chi-siamo-section--cream" id="hanno-scritto-per-noi">
+            <div class="chi-siamo-section-inner">
+              <h2 class="chi-siamo-h2">Hanno scritto per noi</h2>
+              <p class="chi-siamo-lead hanno-scritto-testo">Negli anni oltre 400 autori, testimoni e ospiti hanno contribuito a raccontare la fragilità sulle pagine di Ombre e Luci. <a href="/autori">Vedi tutti gli autori</a>.</p>
+            </div>
+          </section>
+
+          <!-- Contatti -->
+          <section class="chi-siamo-section" id="contatti">
+            <div class="chi-siamo-section-inner">
+              <h2 class="chi-siamo-h2">Info e contatti redazione</h2>
+              <div class="contatti-grid">
+                <div class="contatti-card">
+                  <h3 class="contatti-card-title">Email</h3>
+                  <p><a href="mailto:redazione@ombreeluci.it">redazione@ombreeluci.it</a></p>
+                </div>
+                <div class="contatti-card">
+                  <h3 class="contatti-card-title">Telefono / WhatsApp</h3>
+                  <p><a href="tel:+390612345678">+39 06 12345678</a></p>
+                </div>
+                <div class="contatti-card contatti-card--mappa">
+                  <h3 class="contatti-card-title">Dove siamo</h3>
+                  <p>Viale di Valle Aurelia 92, Roma</p>
+                  <div class="mappa-placeholder" aria-hidden="true">
+                    <span>Mappa (inserire embed o link Google Maps)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="contatti-orari">
+                <h3 class="chi-siamo-h3">Orari</h3>
+                <table class="orari-table" aria-label="Orari di apertura">
+                  <tbody>
+                    <tr><th scope="row">Lun – Ven</th><td>10:00 – 13:00</td></tr>
+                    <tr><th scope="row">Mercoledì</th><td>10:00 – 16:00</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </main>
@@ -29,33 +256,674 @@ import '../../styles/global.css';
   </body>
 </html>
 
+
 <style>
-  .about-layout {
+  .chi-siamo-page {
+    scroll-behavior: smooth;
+  }
+
+  .chi-siamo-page .site-main {
+    background: #ffffff;
+  }
+
+  .chi-siamo-main {
+    padding-top: 0;
+  }
+
+  .chi-siamo-layout {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     align-items: flex-start;
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
 
-  .about-page-content {
+  .chi-siamo-content {
     flex: 1;
     min-width: 0;
+    font-family: 'Raleway', system-ui, sans-serif;
+    line-height: 1.8;
   }
 
-  .about-page-content h1 {
+  .chi-siamo-section {
+    background: #ffffff;
+    padding: 3rem 0;
+    scroll-margin-top: var(--header-height, 80px);
+  }
+
+  .chi-siamo-section--cream {
+    background: #FDFBF7;
+    padding: 2rem;
+  }
+
+  .chi-siamo-section-inner {
+  }
+
+  .chi-siamo-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
+  }
+
+  .chi-siamo-manifesto {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+  }
+
+  .chi-siamo-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .chi-siamo-cta .button {
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .button-outline {
+    background: transparent !important;
+    color: var(--accent-color) !important;
+    border: 2px solid var(--accent-color);
+  }
+
+  .button-outline:hover {
+    background: rgba(196, 30, 58, 0.08) !important;
+    border-color: var(--accent-hover);
+  }
+
+  .chi-siamo-h2 {
+    font-size: 1.75rem;
     margin-bottom: 1rem;
   }
 
-  .about-page-content p {
+  .chi-siamo-h3 {
+    font-size: 1.25rem;
+    margin: 2rem 0 0.75rem;
+  }
+
+  .chi-siamo-lead {
+    margin-bottom: 2rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+
+  /* Cards La Rivista (cliccabili, hover) */
+  .rivista-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .rivista-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .rivista-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .rivista-card-link:hover {
+    background: #f8f6f4;
+    border-color: var(--accent-color);
+    box-shadow: 0 2px 8px rgba(196, 30, 58, 0.08);
+    text-decoration: none;
+  }
+
+  .chi-siamo-section--cream .rivista-card {
+    background: #fff;
+  }
+
+  .chi-siamo-section--cream .rivista-card-link:hover {
+    background: #f8f6f4;
+  }
+
+  .rivista-card-title {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .rivista-card-desc {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+
+  /* Timeline */
+  .timeline-wrap {
+    margin-top: 2rem;
+  }
+
+  .timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--accent-color);
+  }
+
+  .timeline-item {
+    position: relative;
+    padding-bottom: 1.5rem;
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -1.5rem;
+    top: 0.25rem;
+    width: 10px;
+    height: 10px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+
+  .timeline-anno {
+    display: block;
+    font-weight: 700;
+    color: var(--accent-color);
+    font-size: 0.9375rem;
+  }
+
+  .timeline-titolo {
+    font-weight: 600;
+  }
+
+  .timeline-sottotitolo {
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+    margin-left: 0.5rem;
+  }
+
+  .timeline-desc {
+    margin-top: 0.25rem;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+
+  .timeline-link {
+    margin-top: 0.5rem;
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+  }
+
+  .timeline-link a {
+    font-weight: 600;
+  }
+
+  /* Redazione */
+  .redazione-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .redazione-grid--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .redazione-card-photo,
+  .storica-card-photo {
+    aspect-ratio: 1;
+    background: var(--border-color);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
     margin-bottom: 1rem;
-    line-height: 1.7;
+  }
+
+  .redazione-card-photo--circle,
+  .storica-card-photo--circle,
+  .collaboratore-photo--circle {
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-color);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .redazione-card-photo--circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .redazione-card-photo--circle .redazione-photo-fallback,
+  .storica-card-photo--circle .redazione-photo-fallback,
+  .collaboratore-photo--circle .redazione-photo-fallback {
+    display: none;
+    position: absolute;
+    inset: 0;
+    align-items: center;
+    justify-content: center;
+    background: var(--border-color);
+  }
+
+  .storica-card-photo--circle img,
+  .collaboratore-photo--circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .redazione-card-nome a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .redazione-card-nome a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+  }
+
+  .redazione-card-nome {
+    font-size: 1.125rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .storica-card-nome {
+    font-size: 0.9375rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .redazione-card-ruolo,
+  .storica-card-ruolo {
+    font-size: 0.875rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .redazione-card-bio,
+  .storica-card-bio {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+
+  .redazione-leggi-piu {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .storica-card-nome a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .storica-card-nome a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+  }
+
+  .come-lavoriamo {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+  }
+
+  .chi-siamo-section--cream .come-lavoriamo {
+    background: #fff;
+  }
+
+  .come-lavoriamo-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    line-height: 1.8;
+  }
+
+  .come-lavoriamo-list li {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Redazione storica */
+  .storica-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 2rem;
+  }
+
+  .storica-grid--5 {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.7rem;
+  }
+
+  .storica-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+  }
+
+  .storica-card--solo-foto .storica-card-photo {
+    margin-bottom: 0.75rem;
+  }
+
+  /* Collaboratori */
+  .collaboratori-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .filter-btn {
+    background: #fff;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    font-size: 0.9375rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+  .filter-btn:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    background: rgba(196, 30, 58, 0.06);
+  }
+
+  .filter-btn.active {
+    background: var(--accent-color);
+    color: #fff;
+    border-color: var(--accent-color);
+  }
+
+  .collaboratori-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+
+  .collaboratori-grid--2x6 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+  }
+
+  .collaboratore-card {
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .collaboratore-card:hover {
+    border-color: var(--accent-color);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .collaboratore-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .collaboratore-photo--circle {
+    font-weight: 700;
+    color: var(--text-color);
+    font-size: 1rem;
+  }
+
+  .chi-siamo-section:not(.chi-siamo-section--cream) .collaboratore-card {
+    background: #FDFBF7;
+  }
+
+  .collaboratore-nome {
+    display: block;
+    font-weight: 600;
+    font-size: 0.9375rem;
+  }
+
+  .hanno-scritto-testo {
+    margin-bottom: 0;
+  }
+
+  /* Hanno scritto per noi */
+  .autori-search-form {
+    margin-bottom: 2rem;
+  }
+
+  .autori-search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 1rem;
+  }
+
+  .autori-search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(196, 30, 58, 0.12);
+  }
+
+  .voci-evidenza-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .voci-evidenza-list a {
+    text-decoration: none;
+  }
+
+  .voci-evidenza-list a:hover {
+    text-decoration: underline;
+  }
+
+  .accordion-item {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+  }
+
+  .accordion-trigger {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .accordion-trigger:hover {
+    background: var(--bg-light);
+  }
+
+  .accordion-panel {
+    padding: 0 1rem 1rem;
+  }
+
+  .accordion-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .accordion-list li {
+    padding: 0.25rem 0;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  /* Contatti */
+  .contatti-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .contatti-card {
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+  }
+
+  .chi-siamo-section:not(.chi-siamo-section--cream) .contatti-card {
+    background: #FDFBF7;
+  }
+
+  .contatti-card-title {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .contatti-note {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+  }
+
+  .mappa-placeholder {
+    margin-top: 1rem;
+    min-height: 200px;
+    background: var(--border-color);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+  }
+
+  .contatti-orari {
+    margin-top: 2rem;
+  }
+
+  .orari-table {
+    width: 100%;
+    max-width: 320px;
+    border-collapse: collapse;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .orari-table th {
+    text-align: left;
+    padding: 0.5rem 1rem 0.5rem 0;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .orari-table td {
+    padding: 0.5rem 0;
+    color: var(--text-secondary);
+  }
+
+  @media (max-width: 1024px) {
+    .redazione-grid--4 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .storica-grid--5 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .collaboratori-grid--2x6 {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   @media (max-width: 768px) {
-    .about-layout {
+    .chi-siamo-layout {
       flex-direction: column;
       gap: 0;
+      padding-top: 1rem;
+    }
+
+    .chi-siamo-section {
+      padding: 2rem 0;
+    }
+
+    .chi-siamo-section--cream {
+      padding: 2rem;
+    }
+
+    .rivista-cards {
+      grid-template-columns: 1fr;
+    }
+
+    .redazione-grid--4 {
+      grid-template-columns: 1fr;
+    }
+
+    .storica-grid--5 {
+      grid-template-columns: 1fr;
+    }
+
+    .collaboratori-grid--2x6 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .chi-siamo-cta {
+      flex-direction: column;
+    }
+
+    .chi-siamo-cta .button {
+      display: block;
+      text-align: center;
     }
   }
 </style>

@@ -19,10 +19,11 @@ const ultimoNumero = numeriData
 
 const temi = getThemesWithSlugs();
 const sezioniForme = [
-  { nome: 'Editoriali', slug: 'editoriali' },
-  { nome: 'Testimonianze', slug: 'testimonianze' },
-  { nome: 'Interviste', slug: 'interviste' },
-  { nome: 'Recensioni', slug: 'recensioni' },
+  { nome: 'Editoriali', href: '/categoria/editoriali' },
+  { nome: 'Testimonianze', href: '/categoria/testimonianze' },
+  { nome: 'Interviste', href: '/categoria/interviste' },
+  { nome: 'Recensioni', href: '/categoria/recensioni' },
+  { nome: 'I Diari', href: '/sezioni/diari' },
 ];
 const archivioLinks = [
   { nome: 'Ultimi articoli', slug: '/' },
@@ -98,7 +99,7 @@ const archivioLinks = [
             <ul class="mega-menu-list">
               {sezioniForme.map((cat) => (
                 <li>
-                  <a href={`/categoria/${cat.slug}`} class="mega-menu-link">{cat.nome}</a>
+                  <a href={cat.href} class="mega-menu-link">{cat.nome}</a>
                 </li>
               ))}
             </ul>

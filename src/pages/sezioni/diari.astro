@@ -1,0 +1,83 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import { getCollection } from 'astro:content';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import '../../styles/global.css';
+import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import megacluster from '../../data/articoli_megacluster.json';
+
+const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
+const allArticles = await getCollection('blog');
+
+// Articoli che contengono "diario" o "diari" nel titolo o in un tag
+const articoliDiari = allArticles
+  .filter((a) => {
+    const title = (a.data.title || '').toLowerCase();
+    const tags = (a.data.tags || []).map((t) => String(t).toLowerCase());
+    return title.includes('diario') || title.includes('diari') || tags.some((t) => t.includes('diario') || t.includes('diari'));
+  })
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 12);
+
+const articoliMostrati = articoliDiari.length > 0 ? articoliDiari : allArticles.sort((a, b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 12);
+---
+
+<html lang="it">
+  <head>
+    <ViewTransitions />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Diari di Ombre e Luci - Ombre e Luci</title>
+    <meta name="description" content="I Diari: storie in prima persona, racconti di vita e di fragilità sulle pagine di Ombre e Luci." />
+  </head>
+  <body>
+    <Header />
+    <main class="site-main">
+      <div class="container" style="padding-top: 2rem; padding-bottom: 3rem;">
+        <header class="diari-header" style="margin-bottom: 2rem;">
+          <h1 class="chi-siamo-h2" style="margin-bottom: 0.75rem;">I Diari di Ombre e Luci</h1>
+          <p class="chi-siamo-lead" style="max-width: 720px; margin-bottom: 0;">
+            Storie in prima persona, racconti di vita e di fragilità: i Diari sono lo spazio dove autori e lettori condividono esperienze, riflessioni e incontri. Una finestra aperta sulla vita quotidiana, sulle comunità e sul cammino di Fede e Luce.
+          </p>
+        </header>
+        {articoliMostrati.length > 0 ? (
+          <section class="articles-section" aria-label="Articoli dai Diari">
+            <div class="articles-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem;">
+              {articoliMostrati.map((article) => {
+                const articleSlug = article.data.slug ?? article.slug;
+                const { tema_label, categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
+                const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+                const articleDate = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
+                const wpIdStr = String(article.data.wp_id ?? '');
+                const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+                return (
+                  <ArticleCard
+                    title={article.data.title}
+                    slug={articleSlug}
+                    categoriaMenu={categoria_menu ?? undefined}
+                    issue={article.data.issue_number}
+                    forma={formal}
+                    author={article.data.author}
+                    date={articleDate}
+                    image={articleImage}
+                    ruoloEditoriale={ruolo_editoriale ?? undefined}
+                  />
+                );
+              })}
+            </div>
+            <p style="margin-top: 2rem;">
+              <a href="/" class="button">Tutti gli articoli</a>
+            </p>
+          </section>
+        ) : (
+          <p class="chi-siamo-lead">
+            <a href="/">Esplora gli articoli di Ombre e Luci</a>
+          </p>
+        )}
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
