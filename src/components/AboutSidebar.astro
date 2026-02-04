@@ -35,46 +35,47 @@ const links = [
 </nav>
 
 <script>
-  // Scroll-spy: evidenzia il link della sezione in viewport (solo su pagina unica con anchor)
-  const sidebar = document.getElementById('chi-siamo-sidebar');
-  if (!sidebar) return;
-  const links = sidebar.querySelectorAll('.about-sidebar-link[href^="/chi-siamo#"]');
-  if (links.length === 0) return;
+  (function () {
+    // Scroll-spy: evidenzia il link della sezione in viewport (solo su pagina unica con anchor)
+    const sidebar = document.getElementById('chi-siamo-sidebar');
+    if (!sidebar) return;
+    const links = sidebar.querySelectorAll('.about-sidebar-link[href^="/chi-siamo#"]');
+    if (links.length === 0) return;
 
-  const sectionIds = Array.from(links).map((a) => a.getAttribute('href')?.split('#')[1]).filter(Boolean);
+    const sectionIds = Array.from(links).map((a) => a.getAttribute('href')?.split('#')[1]).filter(Boolean);
 
-  function setActiveFromScroll() {
-    const scrollY = window.scrollY;
-    const headerH = 80;
-    let current = sectionIds[0];
-    for (const id of sectionIds) {
-      const el = document.getElementById(id);
-      if (!el) continue;
-      const top = el.getBoundingClientRect().top + scrollY - headerH;
-      if (scrollY >= top - 20) current = id;
-    }
-    links.forEach((a) => {
-      const slug = a.getAttribute('href')?.split('#')[1];
-      a.classList.toggle('about-sidebar-link--active', slug === current);
-    });
-  }
-
-  function setActiveFromHash() {
-    const hash = window.location.hash.slice(1);
-    if (hash && sectionIds.includes(hash)) {
+    function setActiveFromScroll() {
+      const scrollY = window.scrollY;
+      const headerH = 80;
+      let current = sectionIds[0];
+      for (const id of sectionIds) {
+        const el = document.getElementById(id);
+        if (!el) continue;
+        const top = el.getBoundingClientRect().top + scrollY - headerH;
+        if (scrollY >= top - 20) current = id;
+      }
       links.forEach((a) => {
         const slug = a.getAttribute('href')?.split('#')[1];
-        a.classList.toggle('about-sidebar-link--active', slug === hash);
+        a.classList.toggle('about-sidebar-link--active', slug === current);
       });
-      return true;
     }
-    return false;
-  }
 
-  window.addEventListener('scroll', () => requestAnimationFrame(setActiveFromScroll), { passive: true });
-  window.addEventListener('hashchange', () => setActiveFromHash() || setActiveFromScroll());
-  if (setActiveFromHash()) return;
-  setActiveFromScroll();
+    function setActiveFromHash() {
+      const hash = window.location.hash.slice(1);
+      if (hash && sectionIds.includes(hash)) {
+        links.forEach((a) => {
+          const slug = a.getAttribute('href')?.split('#')[1];
+          a.classList.toggle('about-sidebar-link--active', slug === hash);
+        });
+        return true;
+      }
+      return false;
+    }
+
+    window.addEventListener('scroll', () => requestAnimationFrame(setActiveFromScroll), { passive: true });
+    window.addEventListener('hashchange', () => setActiveFromHash() || setActiveFromScroll());
+    if (!setActiveFromHash()) setActiveFromScroll();
+  })();
 </script>
 
 <style>
