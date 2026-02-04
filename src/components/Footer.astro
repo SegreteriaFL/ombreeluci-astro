@@ -1,6 +1,7 @@
 ---
 import logo from '../assets/logo.svg';
 import { getThemesWithSlugs } from '../config/taxonomy.js';
+import { RUNTS, CODICE_FISCALE } from '../config/support.ts';
 
 const temi = getThemesWithSlugs();
 const meta = Math.ceil(temi.length / 2);
@@ -126,7 +127,7 @@ const socialLinks = [
     </div>
     <div class="footer-bottom">
       <p class="footer-copy-cc"><span class="footer-copy-inline">(c) 1974-2026 Eccetto</span> dove diversamente indicato, il contenuto di questo sito è concesso in licenza <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it" target="_blank" rel="noopener noreferrer" class="footer-link">Creative Commons: Attribuzione – Non commerciale – Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0)</a>.</p>
-      <p class="footer-legal-bottom">Associazione Fede e Luce Aps – C.F. 96000680585 | Iscrizione al RUNTS n. 15031</p>
+      <p class="footer-legal-bottom">Associazione Fede e Luce Aps – C.F. {CODICE_FISCALE} | Iscrizione al RUNTS n. {RUNTS}</p>
     </div>
   </div>
   </footer>

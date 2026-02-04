@@ -1,0 +1,102 @@
+---
+import SupportBox from './SupportBox.astro';
+import { HERO_VARIANTS } from '../../config/support.ts';
+
+interface Props {
+  /** A = Luce, B = Classica */
+  variant: 'A' | 'B';
+  /** Path immagine hero (es. /images/dona1.webp) */
+  imageSrc: string;
+  imageAlt?: string;
+}
+const { variant, imageSrc, imageAlt = 'Ombre e Luci' } = Astro.props;
+const copy = HERO_VARIANTS[variant];
+---
+
+<header class="support-hero" id="top">
+  <div class="support-hero-inner">
+    <div class="support-hero-visual">
+      <img src={imageSrc} alt={imageAlt} width="800" height="533" class="support-hero-img" />
+    </div>
+    <div class="support-hero-content">
+      <p class="support-hero-eyebrow">{copy.eyebrow}</p>
+      <h1 class="support-hero-headline">Sostieni Ombre e Luci</h1>
+      <p class="support-hero-punchline">{copy.headline}</p>
+      <p class="support-hero-sub">{copy.sub}</p>
+      <SupportBox variant={variant} />
+    </div>
+  </div>
+</header>
+
+<style>
+  .support-hero {
+    background: var(--bg-cream);
+  }
+  .support-hero-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 420px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .support-hero-visual {
+    position: relative;
+    min-height: 320px;
+  }
+  .support-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  .support-hero-content {
+    padding: 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .support-hero-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin: 0 0 0.5rem 0;
+  }
+  .support-hero-headline {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0 0 0.35rem 0;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+  .support-hero-punchline {
+    font-family: Georgia, serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 0 0 0.75rem 0;
+    line-height: 1.3;
+  }
+  .support-hero-sub {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--text-color);
+    margin: 0 0 1.5rem 0;
+  }
+  @media (max-width: 900px) {
+    .support-hero-inner {
+      grid-template-columns: 1fr;
+      min-height: auto;
+    }
+    .support-hero-visual {
+      min-height: 240px;
+    }
+    .support-hero-content {
+      padding: 1.5rem 1.25rem;
+    }
+  }
+</style>

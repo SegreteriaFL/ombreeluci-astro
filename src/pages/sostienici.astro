@@ -1,0 +1,334 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import SupportHero from '../components/support/SupportHero.astro';
+import CopyField from '../components/support/CopyField.astro';
+import FaqAccordion from '../components/support/FaqAccordion.astro';
+import '../styles/global.css';
+import {
+  DEFAULT_HERO_VARIANT,
+  INTESTATARIO,
+  IBAN_RAW,
+  IBAN_DISPLAY,
+  CCP,
+  CCP_DISPLAY,
+  CF,
+  RUNTS,
+  EMAIL,
+  ABBONAMENTO_ANNO,
+  ABBONAMENTO_MESE,
+  NUMERI_ANNO,
+  HERO_VARIANTS,
+} from '../config/support.ts';
+
+// Variante da query param (build: non disponibile in static; gestita lato client)
+const url = Astro.url;
+const vParam = url.searchParams.get('v');
+const variantFromQuery = vParam === 'classica' ? 'B' : vParam === 'luce' ? 'A' : null;
+const variant: 'A' | 'B' = variantFromQuery ?? DEFAULT_HERO_VARIANT;
+
+const heroImage = '/images/dona1.webp';
+---
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sostieni Ombre e Luci – Donazione mensile, 5×1000, Abbonamento</title>
+    <meta name="description" content="Sostieni Ombre e Luci con una donazione mensile. Senza sponsor: la rivista vive grazie a chi la legge." />
+    <ViewTransitions />
+  </head>
+  <body class="support-page">
+    <Header />
+
+    <!-- Toast copy -->
+    <div id="support-toast" class="support-toast" role="status" aria-live="polite" aria-hidden="true">
+      <span class="support-toast-icon">✓</span>
+      <span class="support-toast-text">Copiato</span>
+    </div>
+
+    <!-- Sticky mobile CTA -->
+    <a href="#support-box" class="support-sticky-cta" id="support-sticky-cta" aria-label="Vai a dona">Dona ora</a>
+
+    <main class="site-main">
+      <SupportHero variant={variant} imageSrc={heroImage} imageAlt="Ombre e Luci" />
+
+      <div class="container">
+        <!-- Altri modi -->
+        <section class="support-altri-modi" aria-labelledby="altri-modi-title">
+          <h2 id="altri-modi-title" class="section-title">Altri modi</h2>
+          <div class="support-cards">
+            <div class="support-card" id="bonifico">
+              <h3 class="support-card-title">Bonifico (senza commissioni)</h3>
+              <p class="support-card-intestatario">{INTESTATARIO}</p>
+              <CopyField label="IBAN" value={IBAN_DISPLAY} copyValue={IBAN_RAW} trackId="support_copy_iban" />
+              <CopyField label="CCP" value={CCP_DISPLAY} copyValue={CCP} trackId="support_copy_ccp" />
+              <p class="support-card-hint">Puoi impostare un bonifico ricorrente dalla tua banca.</p>
+            </div>
+            <div class="support-card" id="cinquemille">
+              <h3 class="support-card-title">5×1000 (ti costa zero)</h3>
+              <CopyField label="Codice Fiscale" value={CF} trackId="support_copy_cf" />
+              <p class="support-card-hint">Firma nel riquadro «Sostegno del volontariato» e inserisci il CF.</p>
+              <p class="support-card-runts">RUNTS {RUNTS}</p>
+            </div>
+            <div class="support-card" id="abbonamento">
+              <h3 class="support-card-title">Abbonamento</h3>
+              <p class="support-card-abbonamento">{NUMERI_ANNO} numeri l'anno · {ABBONAMENTO_ANNO}€/anno oppure {ABBONAMENTO_MESE}€/mese</p>
+              <a href={`mailto:${EMAIL}?subject=Abbonamento Ombre e Luci`} class="support-card-link">Scopri abbonamento</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Trasparenza / Impatto -->
+        <section class="support-impatto" aria-labelledby="impatto-title">
+          <h2 id="impatto-title" class="section-title">Cosa rendi possibile</h2>
+          <ul class="support-impatto-list">
+            <li>Pubblicazione e lavoro editoriale</li>
+            <li>Sito e archivio</li>
+            <li>Stampa e spedizione dei numeri</li>
+            <li>Progetti e attività collegati a Fede e Luce</li>
+          </ul>
+          <p class="support-impatto-chiudi">Ogni euro va dove serve.</p>
+        </section>
+
+        <!-- FAQ -->
+        <section class="support-faq" aria-labelledby="faq-title">
+          <h2 id="faq-title" class="section-title">Domande frequenti</h2>
+          <FaqAccordion />
+        </section>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<script define:vars={{ HERO_VARIANTS_JSON: JSON.stringify(HERO_VARIANTS) }}>
+  (function () {
+    const HERO_VARIANTS = typeof HERO_VARIANTS_JSON !== 'undefined' ? JSON.parse(HERO_VARIANTS_JSON) : {};
+
+    function emit(name, detail) {
+      try {
+        window.dispatchEvent(new CustomEvent(name, { detail: detail || {} }));
+        if (typeof window.dataLayer !== 'undefined') {
+          window.dataLayer.push({ event: name, ...(detail || {}) });
+        }
+      } catch (_) {}
+      console.log('[support]', name, detail);
+    }
+
+    // Query param ?v=luce | ?v=classica
+    const params = new URLSearchParams(window.location.search);
+    const v = params.get('v');
+    if (v === 'luce' || v === 'classica') {
+      const variantKey = v === 'classica' ? 'B' : 'A';
+      const copy = HERO_VARIANTS[variantKey];
+      if (copy) {
+        const eyebrow = document.querySelector('.support-hero-eyebrow');
+        const punchline = document.querySelector('.support-hero-punchline');
+        const sub = document.querySelector('.support-hero-sub');
+        const cta = document.getElementById('support-paypal-cta');
+        if (eyebrow) eyebrow.textContent = copy.eyebrow;
+        if (punchline) punchline.textContent = copy.headline;
+        if (sub) sub.textContent = copy.sub;
+        if (cta) {
+          cta.textContent = copy.cta;
+          cta.setAttribute('data-cta-monthly', copy.cta);
+        }
+        emit('support_change_hero_variant', { variant: variantKey, source: 'query' });
+      }
+    }
+
+    // Copy buttons (CopyField)
+    function showToast() {
+      const toast = document.getElementById('support-toast');
+      if (!toast) return;
+      toast.setAttribute('aria-hidden', 'false');
+      toast.classList.add('support-toast-visible');
+      clearTimeout(window._supportToastTimeout);
+      window._supportToastTimeout = setTimeout(function () {
+        toast.classList.remove('support-toast-visible');
+        toast.setAttribute('aria-hidden', 'true');
+      }, 2000);
+    }
+
+    document.querySelectorAll('.copy-field-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        const value = btn.getAttribute('data-copy-value');
+        const trackId = btn.getAttribute('data-track-id');
+        if (!value) return;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(value).then(function () {
+            showToast();
+            if (trackId) emit(trackId, { value: value });
+          });
+        }
+        var orig = btn.textContent;
+        btn.textContent = 'Copiato';
+        setTimeout(function () { btn.textContent = orig; }, 2000);
+      });
+    });
+
+    // Smooth scroll per #support-box e sticky CTA
+    document.querySelectorAll('a[href="#support-box"]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var el = document.getElementById('support-box');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    // Sticky mobile CTA: mostra/nascondi
+    var stickyCta = document.getElementById('support-sticky-cta');
+    if (stickyCta) {
+      var supportBox = document.getElementById('support-box');
+      function onScroll() {
+        if (!supportBox) return;
+        var boxTop = supportBox.getBoundingClientRect().top;
+        stickyCta.classList.toggle('support-sticky-cta-visible', boxTop > window.innerHeight * 0.5);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    }
+  })();
+</script>
+
+<style>
+  .support-page {
+    padding-bottom: 2rem;
+  }
+
+  .support-toast {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(0.5rem);
+    background: var(--text-color);
+    color: #fff;
+    padding: 0.6rem 1.25rem;
+    border-radius: 10px;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s, transform 0.25s, visibility 0.25s;
+    z-index: 9999;
+  }
+  .support-toast.support-toast-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+  }
+  .support-toast-icon {
+    color: #86efac;
+  }
+
+  .support-sticky-cta {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: var(--accent-color);
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    z-index: 100;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+  }
+  .support-sticky-cta.support-sticky-cta-visible {
+    transform: translateY(0);
+  }
+  @media (min-width: 901px) {
+    .support-sticky-cta { display: none !important; }
+  }
+  @media (max-width: 900px) {
+    .support-sticky-cta { display: block; }
+  }
+
+  .support-altri-modi {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .support-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 1rem;
+  }
+  .support-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+  .support-card-title {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0 0 0.5rem 0;
+  }
+  .support-card-intestatario,
+  .support-card-abbonamento {
+    font-size: 0.9375rem;
+    color: var(--text-color);
+    margin: 0;
+  }
+  .support-card-hint {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    margin: 0.75rem 0 0 0;
+  }
+  .support-card-runts {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin: 0.5rem 0 0 0;
+  }
+  .support-card-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent-color);
+  }
+  .support-card-link:hover {
+    text-decoration: underline;
+  }
+
+  .support-impatto {
+    margin-bottom: 2rem;
+  }
+  .support-impatto-list {
+    font-size: 0.9375rem;
+    color: var(--text-color);
+    margin: 0.5rem 0 0 0;
+    padding-left: 1.25rem;
+  }
+  .support-impatto-list li {
+    margin-bottom: 0.25rem;
+  }
+  .support-impatto-chiudi {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    margin: 1rem 0 0 0;
+  }
+
+  .support-faq {
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 900px) {
+    .support-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

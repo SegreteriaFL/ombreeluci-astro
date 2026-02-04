@@ -1,0 +1,98 @@
+---
+import { EMAIL } from '../../config/support.ts';
+interface Item {
+  q: string;
+  a: string;
+}
+const items: Item[] = [
+  {
+    q: 'Ricevuta o detraibilità?',
+    a: `Siamo un ETS. Se ti serve attestazione scrivici a ${EMAIL}.`,
+  },
+  {
+    q: 'Donazione ricorrente senza PayPal?',
+    a: 'Puoi impostare un bonifico ricorrente dalla tua banca (mensile o altro).',
+  },
+  {
+    q: 'Dall\'estero?',
+    a: 'Contattaci e ti indichiamo il modo più semplice.',
+  },
+  {
+    q: 'Come disdire?',
+    a: 'Da PayPal (nel tuo account) o annullando il bonifico ricorrente in banca.',
+  },
+];
+---
+
+<div class="faq-accordion" role="region" aria-label="Domande frequenti">
+  {items.map((item, i) => (
+    <div class="faq-item" data-faq-index={i}>
+      <button type="button" class="faq-question" aria-expanded="false" aria-controls={`faq-answer-${i}`} id={`faq-q-${i}`}>
+        {item.q}
+      </button>
+      <div class="faq-answer" id={`faq-answer-${i}`} role="region" aria-labelledby={`faq-q-${i}`} hidden>
+        <p>{item.a}</p>
+      </div>
+    </div>
+  ))}
+</div>
+
+<script>
+  document.querySelectorAll('.faq-accordion .faq-question').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      const id = btn.getAttribute('aria-controls');
+      const panel = id ? document.getElementById(id) : null;
+      btn.setAttribute('aria-expanded', String(!expanded));
+      if (panel) {
+        panel.hidden = expanded;
+      }
+    });
+  });
+</script>
+
+<style>
+  .faq-accordion {
+    border-top: 1px solid var(--border-color);
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--border-color);
+  }
+  .faq-question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+  }
+  .faq-question::after {
+    content: '+';
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+  }
+  .faq-question[aria-expanded="true"]::after {
+    content: '−';
+  }
+  .faq-answer {
+    padding: 0 0 1rem 0;
+  }
+  .faq-answer p {
+    margin: 0;
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--text-color);
+  }
+  .faq-answer a {
+    color: var(--accent-color);
+  }
+</style>

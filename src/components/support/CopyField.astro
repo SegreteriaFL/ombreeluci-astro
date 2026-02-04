@@ -1,0 +1,66 @@
+---
+interface Props {
+  label: string;
+  value: string;
+  /** Per tracking: support_copy_iban | support_copy_cf */
+  trackId?: string;
+  /** Valore da copiare se diverso da value (es. IBAN senza spazi) */
+  copyValue?: string;
+}
+const { label, value, trackId, copyValue = value } = Astro.props;
+---
+
+<div class="copy-field">
+  <span class="copy-field-label">{label}</span>
+  <div class="copy-field-row">
+    <code class="copy-field-value" data-copy-value={copyValue}>{value}</code>
+    <button type="button" class="copy-field-btn" data-copy-value={copyValue} data-track-id={trackId} aria-label={`Copia ${label}`}>
+      Copia
+    </button>
+  </div>
+</div>
+
+<style>
+  .copy-field {
+    margin: 0.5rem 0 0 0;
+  }
+  .copy-field-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 0.25rem;
+  }
+  .copy-field-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .copy-field-value {
+    font-family: ui-monospace, monospace;
+    font-size: 0.9375rem;
+    background: var(--bg-light);
+    padding: 0.35rem 0.5rem;
+    border-radius: 6px;
+    color: var(--text-color);
+  }
+  .copy-field-btn {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    padding: 0.35rem 0.65rem;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .copy-field-btn:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+</style>

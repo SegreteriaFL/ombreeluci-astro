@@ -1,0 +1,52 @@
+---
+import { AMOUNT_CHIPS } from '../../config/support.ts';
+interface Props {
+  /** "monthly" | "once" per label */
+  frequency: 'monthly' | 'once';
+}
+const { frequency } = Astro.props;
+const suffix = frequency === 'monthly' ? '/ mese' : '';
+---
+
+<div class="amount-chips" role="group" aria-label="Scegli importo">
+  {AMOUNT_CHIPS.map((eur) => (
+    <button type="button" class="amount-chip" data-amount={eur} data-track="support_select_amount">
+      {eur}€{suffix}
+    </button>
+  ))}
+  <button type="button" class="amount-chip amount-chip-other" data-amount="other" data-track="support_select_amount">
+    Altro
+  </button>
+</div>
+
+<style>
+  .amount-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .amount-chip {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    padding: 0.5rem 0.9rem;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--bg-card);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s, color 0.2s;
+  }
+  .amount-chip:hover {
+    border-color: var(--accent-color);
+    background: var(--bg-light);
+  }
+  .amount-chip.active {
+    border-color: var(--accent-color);
+    background: var(--accent-color);
+    color: #fff;
+  }
+  .amount-chip-other {
+    border-style: dashed;
+  }
+</style>
