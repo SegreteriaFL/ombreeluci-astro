@@ -328,7 +328,7 @@ const relatedArticles = Array.from(relatedIds)
         width: 100%;
         aspect-ratio: 16 / 9;
         display: block;
-        background: linear-gradient(135deg, #ff1053 0%, #ff6b9d 100%);
+        background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-hover) 100%);
         position: relative;
       }
 
@@ -375,7 +375,7 @@ const relatedArticles = Array.from(relatedIds)
       }
 
       .article-badge-link {
-        color: #ff1053;
+        color: var(--accent-color);
         text-decoration: none;
         font-weight: 500;
       }
@@ -458,7 +458,7 @@ const relatedArticles = Array.from(relatedIds)
       }
 
       .author-link {
-        color: #ff1053;
+        color: var(--accent-color);
         text-decoration: none;
         transition: color 0.3s ease-in-out;
       }
@@ -488,7 +488,7 @@ const relatedArticles = Array.from(relatedIds)
         background: rgba(0, 0, 0, 0.08);
       }
 
-      /* Social Sticky Bar - Minimal monocolore #ff1053 */
+      /* Social Sticky Bar - icone condividi */
       .social-sticky {
         position: fixed;
         left: 0;
@@ -496,26 +496,17 @@ const relatedArticles = Array.from(relatedIds)
         transform: translateY(-50%);
         z-index: 100;
         background: transparent;
-        padding: 1rem 0.75rem;
+        padding: 0.5rem 0.4rem;
         display: flex;
         flex-direction: column;
-        gap: 0.75rem;
+        gap: 0.25rem;
       }
 
       .social-sticky-inner {
         display: flex;
         flex-direction: column;
-        gap: 0.75rem;
+        gap: 0.25rem;
         align-items: center;
-      }
-
-      .social-label {
-        font-size: 0.75rem;
-        color: #ff1053;
-        letter-spacing: 0.5px;
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
       }
 
       .social-link {
@@ -525,7 +516,7 @@ const relatedArticles = Array.from(relatedIds)
         width: 40px;
         height: 40px;
         border-radius: 0;
-        color: #ff1053;
+        color: var(--accent-color);
         text-decoration: none;
         transition: all 0.3s ease-in-out;
         background: transparent;
@@ -534,7 +525,7 @@ const relatedArticles = Array.from(relatedIds)
       }
 
       .social-link:hover {
-        color: var(--accent-color);
+        color: var(--accent-hover);
         transform: translateY(-2px);
       }
 
@@ -623,7 +614,7 @@ const relatedArticles = Array.from(relatedIds)
       }
 
       .author-bio-total a {
-        color: #ff1053;
+        color: var(--accent-color);
         text-decoration: none;
       }
 
@@ -651,7 +642,7 @@ const relatedArticles = Array.from(relatedIds)
       /* Box "Leggi anche" - Con risalto grafico */
       .read-also-box {
         background: rgba(255, 16, 83, 0.05);
-        border: 2px solid #ff1053;
+        border: 2px solid var(--accent-color);
         border-radius: 12px;
         padding: 2rem;
         margin: 3rem 0;
@@ -663,7 +654,7 @@ const relatedArticles = Array.from(relatedIds)
         font-size: 1rem;
         font-weight: 700;
         letter-spacing: 0.5px;
-        color: #ff1053;
+        color: var(--accent-color);
         margin-bottom: 1rem;
         text-transform: none;
       }
@@ -677,7 +668,7 @@ const relatedArticles = Array.from(relatedIds)
       }
 
       .read-also-box a {
-        color: #ff1053;
+        color: var(--accent-color);
         text-decoration: underline;
         font-weight: 600;
         transition: color 0.3s ease;
@@ -801,7 +792,7 @@ const relatedArticles = Array.from(relatedIds)
       }
 
       .article-content :global(a) {
-        color: #ff1053;
+        color: var(--accent-color);
         text-decoration: underline;
         transition: color 0.3s ease-in-out;
       }
@@ -811,7 +802,7 @@ const relatedArticles = Array.from(relatedIds)
       }
 
       .article-content :global(blockquote) {
-        border-left: 4px solid #ff1053;
+        border-left: 4px solid var(--accent-color);
         padding-left: 1.5rem;
         margin: 3rem 0;
         font-style: italic;
@@ -832,14 +823,19 @@ const relatedArticles = Array.from(relatedIds)
         margin-top: 0.5rem;
       }
 
+      .article-nav-section {
+        text-align: center;
+        padding-bottom: 4rem;
+      }
+
       .back-link {
         display: inline-block;
         margin-top: 4rem;
         padding: 0.75rem 1.5rem;
         background: transparent;
-        color: #ff1053;
+        color: var(--accent-color);
         text-decoration: none;
-        border: 1px solid #ff1053;
+        border: 1px solid var(--accent-color);
         border-radius: 8px;
         font-size: 0.875rem;
         font-weight: 600;
@@ -849,7 +845,7 @@ const relatedArticles = Array.from(relatedIds)
       }
 
       .back-link:hover {
-        background: #ff1053;
+        background: var(--accent-color);
         color: white;
         transform: translateY(-1px);
       }
@@ -917,7 +913,7 @@ const relatedArticles = Array.from(relatedIds)
       .pdf-link {
         display: inline-block;
         padding: 0.75rem 1.5rem;
-        background: #ff1053;
+        background: var(--accent-color);
         color: white;
         text-decoration: none;
         border-radius: 8px;
@@ -1025,11 +1021,6 @@ const relatedArticles = Array.from(relatedIds)
         .social-sticky-inner {
           flex-direction: row;
           justify-content: center;
-        }
-
-        .social-label {
-          writing-mode: horizontal-tb;
-          text-orientation: mixed;
         }
 
         .author-bio-wrapper {
@@ -1151,7 +1142,6 @@ const relatedArticles = Array.from(relatedIds)
       {/* Social Sticky Bar */}
       <div class="social-sticky" id="social-sticky">
         <div class="social-sticky-inner">
-          <span class="social-label">Condividi</span>
           <a 
             href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
             target="_blank"

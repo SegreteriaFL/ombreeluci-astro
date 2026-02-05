@@ -145,7 +145,7 @@ const autori = autoriStats.map((autore: { nome: string; slug: string; count_arti
       }
       .autori-search:focus {
         outline: none;
-        border-color: #ff1053;
+        border-color: var(--accent-color);
       }
       .autori-sort-wrap {
         display: flex;
@@ -183,7 +183,7 @@ const autori = autoriStats.map((autore: { nome: string; slug: string; count_arti
         transition: border-color 0.2s, box-shadow 0.2s;
       }
       .autori-card:hover {
-        border-color: #ff1053;
+        border-color: var(--accent-color);
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
       }
       .autori-card-image {
