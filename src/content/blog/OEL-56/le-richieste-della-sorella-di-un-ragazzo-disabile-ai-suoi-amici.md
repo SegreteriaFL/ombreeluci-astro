@@ -4,8 +4,8 @@ date: 1996-12-15
 author: Redazione
 slug: le-richieste-della-sorella-di-un-ragazzo-disabile-ai-suoi-amici
 lang: it
-numero_rivista: 56
-id_numero: OEL-56
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-56"
 issue_number: OEL-56
 wp_id: 11102
 original_url: "https://www.ombreeluci.it/?p=11102"
@@ -17,7 +17,6 @@ umap_x: 5.61607551574707
 umap_y: 10.290937423706055
 umap_z: 8.967638969421387
 ---
-
 Avolte è difficile avere una sorella disabile. Bisogna affrontare i sarcasmi, le domande strambe di alcuni e l’atteggiamento sorpreso, addirittura impaurito, di altri. Di altri ancora mi sembra di indovinare le ragioni del silenzio: temono di fare una gaffe. Ma allora, si deve oppure no parlarmi della mia sorellina? È vero che io stessa evito questo tema, anche se so che dovrei allontanare i timori parlando con naturalezza di Clara e delle sue difficoltà.
 
 > A poco a poco ha trasformato il mio sguardo e il mio cuore nei confronti dell'handicap. Ora il mio compito è fare da tramite fra lei e voi.

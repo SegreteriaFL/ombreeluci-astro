@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 Di "integrazione" si parla, si discute... è già una realtà! Una realtà che in questo momento riguarda tanti bambini, tante famiglie, tanti insegnati... non possiamo ignorarlo
 E non lo vogliamo neanche ignorare, perché chi, tra noi, non desidera con tutto il cuore che ciascuno trovi il suo posto, si senta a suo agio sempre, dappertutto, in una società che l'accolga così com'è?
 Non si tratta di fare teoria, si tratta di vedere i fatti.

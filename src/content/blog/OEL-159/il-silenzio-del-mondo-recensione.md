@@ -12,7 +12,8 @@ umap_x: 7.580625534057617
 umap_y: 11.014623641967773
 umap_z: 4.764199733734131
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 **La disabilità è in chi la vive o in chi la guarda? Il muro esclude o protegge? Cosa mi definisce?** Tre domande per tre donne - la nonna, la madre e la figlia - protagoniste di un romanzo che attraversa il Novecento, finendo per rappresentare molto più di quel che racconta. Oltre che parenti, Rosa, Laura e Francesca sono tutte sorde. Un denominatore comune che però si declina in modo talmente diverso che quasi ce se ne dimentica.
 

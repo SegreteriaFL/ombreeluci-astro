@@ -12,7 +12,8 @@ umap_x: 8.034039497375488
 umap_y: 7.601413249969482
 umap_z: 9.196951866149902
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 Il disagio personale, può avere spazio all’interno delle relazioni quotidiane? Ogni persona può vivere una relazione in cui sentirsi guardato e “preso sul serio” ... o il disagio “imprigiona” ad un’inevitabile emarginazione sociale? Abbiamo incontrato l’Associazione di volontariato “I SempreVivi”, all’interno della Parrocchia S. Pietro in Sala in piazza Wagner a Milano, associazione di accoglienza per persone affette da disagio psichico, ma forse... qualcosa di più. Lo abbiamo chiesto al fondatore Don Domenico Storri.
 

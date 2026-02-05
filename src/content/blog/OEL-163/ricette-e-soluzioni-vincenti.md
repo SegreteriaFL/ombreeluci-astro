@@ -12,7 +12,8 @@ umap_x: 6.66909646987915
 umap_y: 9.284747123718262
 umap_z: 7.338876724243164
 issue_number: OEL-163
-id_numero: OEL-163
+id_numero: "OEL-163"
+numero_rivista: "Ombre e Luci"
 ---
 Come tutti, il soggetto con disabilità intellettiva relazionale (Dir) nel corso della vita va incontro a problematiche relative alla sua salute fisica, quali carie dentarie, problemi oculistici (miopia, cataratta, ecc.), fratture o lesioni muscolo-tendinee, ernie inguinali, ecc. Gli ospedali tradizionali sono attrezzati poco e male per accogliere queste persone, soprattutto se caratterizzate da disturbi del comportamento. I problemi sono sia di tipo strutturale che di personale, generalmente poco o nulla abituato a relazionarsi con tali pazienti.
 

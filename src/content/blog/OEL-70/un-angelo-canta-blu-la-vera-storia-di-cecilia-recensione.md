@@ -12,7 +12,8 @@ umap_x: 6.9683074951171875
 umap_y: 11.098021507263184
 umap_z: 5.3006815910339355
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 “Cecilia è (anche se si dovrebbe dire, piuttosto: era) una ragazza sana, intelligente, solare. Un giorno, d’improvviso, s’ammala. Dapprima sembra un’inezia, destinata a scomparire senza conseguenze. Comincia, in realtà, uno stillicidio di visite specialistiche, di analisi contraddittorie. di diagnosi ambigue, di terapie inefficaci. Sino all’ultimo inesorabile strappo: la morte a soli vent’anni. In pochi attimi angosciosi, la madre di Cecilia, l’autrice di questo libro, vede sconvolta la sua esistenza, e la sua fede inchiodata a una croce, terribilmente simile a quella di Cristo.
 

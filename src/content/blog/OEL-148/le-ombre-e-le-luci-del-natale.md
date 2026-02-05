@@ -12,8 +12,9 @@ umap_x: 5.831026077270508
 umap_y: 6.167587757110596
 umap_z: 12.193563461303711
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 «D
 ato che la messa veniva celebrata insieme al reparto psichiatrico degli adulti, c’erano anche recite di Natale con delinquenti colpevoli di reati sessuali rinchiusi a vita, persino con assassini, per cui dietro a ogni pastore stava un infermiere gigantesco pronto a intervenire. E ho visto persino un Giuseppe in manette e la Vergine Maria nella camicia di forza»: ripercorrendo la sua infanzia nel geniale
 *Quando tutto tornerà a essere come non è mai stato*

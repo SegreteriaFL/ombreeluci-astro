@@ -4,8 +4,8 @@ date: 1996-06-14
 author: Jean Vanier
 slug: i-miei-30-anni-allarca
 lang: it
-numero_rivista: 54
-id_numero: OEL-54
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-54"
 issue_number: OEL-54
 wp_id: 10683
 original_url: "https://www.ombreeluci.it/?p=10683"
@@ -15,7 +15,6 @@ umap_x: 8.331697463989258
 umap_y: 12.078079223632812
 umap_z: 10.891658782958984
 ---
-
 Quando ho cominciato l'Arca, su ispirazione e incoraggiamento del Padre Thomas Philippe, non pensavo assolutamente di dar vita ad un movimento comunitario. Sapevo come si guida una portaerei, conoscevo Aristotele, ma non sapevo nulla sulle persone disabili. Non sapevo la differenza fra aspirina e gardenale. Quando ho cominciato l'Arca, un po’ ingenuo, un po’ testardo, non volevo nulla di particolare; volevo solo vivere con Raffaele e Filippo, nello spirito del Vangelo e nel nome di Gesù. «Chi accoglie uno di questi piccoli nel mio nome, accoglie me». E se fosse vero? Se fossero vere le parole di Gesù: «Quello che fate al più piccolo dei miei, è a me che lo fate?» Se fosse vero che accogliendo Luigi, Raffaele, Filippo, si accoglie Gesù? Se fosse vero? Se ci credessimo veramente, il mondo sarebbe diverso. Oggi mi commuovo nel constatare la distanza che c’è fra gli inizi dell'Arca nella povertà e le centocinque comunità di oggi; mi meraviglio. C’è il seme e poi l’albero con i frutti. L'albero resta fragile. Giorni fa, il nostro consiglio internazionale riuniva i coordinatori delle Comunità dell’Asia, d’Africa, delle due Americhe, d'Europa. Sempre di più, di fronte a tante fragilità, davanti alle nostre incapacità, abbiamo preso coscienza che una comunità che accoglie dei poveri, sarà sempre povera essa stessa: nell'insicurezza finanziaria, nell’insicurezza del ricambio degli assistenti, nell’insicurezza delle situazioni politiche. All’Arca, poco per volta, si fa chiaro per noi il mistero della lavanda dei piedi: «Gesù si alzò, depose la vesti...» Vi immaginate la faccia degli Apostoli; «Ma che cosa vuol fare?» Coperto solo dalle vesti dello schiavo, comincia a lavar loro i piedi. Essi non capiscono e noi neppure. Quando si commenta questo testo, si parla di Gesù che nasconde la sua Gloria. Abbiamo sempre il concetto di un Dio forte, Creatore del cielo e della terra, che risponde alle nostre richieste. Che cosa accadrà se la sua gloria fosse d’essere uno schiavo? Se la natura di Dio fosse di essere piccolo e che agendo in quel modo non nasconde la sua gloria ma la rivela? «Chi accoglie il più piccolo, accoglie me». Se mi domandaste che cosa ho imparato in trent’anni all’Arca, direi: la piccolezza, la vulnerabilità di Dio, Dio che si nasconde, Dio nascosto nel povero, Dio che piange, incatenato dai nostri rifiuti, dalla durezza dei nostri cuori; Gesù è come ancora appeso a una croce a causa delle nostre incapacità di accoglierlo.
 
 ### «Mi vuoi bene?»

@@ -12,7 +12,8 @@ umap_x: 7.190256595611572
 umap_y: 7.976355075836182
 umap_z: 9.596656799316406
 issue_number: OEL-105
-id_numero: OEL-105
+id_numero: "OEL-105"
+numero_rivista: "Ombre e Luci"
 ---
 Mi chiamo Francesca, ho quasi dieci anni; con le mie sorelle Maria e Anna e con i miei genitori vivo in una casa famiglia ( [Il Carro](https://www.ombreeluci.it/2005/e-il-carro-va-e-compie-15-anni/) ). Ci stanno 8 ragazzi disabili: Carla, Rita, Silvia, Sabina, Mimmo, Stefano, Pablo e Alberto. Tutte le mattine papà li accompagna a scuola insieme a me e ad Anna, mi vergogno un po’ perché dobbiamo scendere dal cofano del pulmino, per fortuna arriviamo molto presto. Pablo è convinto che mi porta sempre lui a scuola.
 

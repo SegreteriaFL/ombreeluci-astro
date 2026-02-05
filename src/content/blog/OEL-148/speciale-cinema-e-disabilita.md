@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 ## Gli altri siamo noi
 
 *di Alessandro de Simone*

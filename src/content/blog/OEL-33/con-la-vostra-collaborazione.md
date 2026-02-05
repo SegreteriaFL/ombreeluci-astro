@@ -12,7 +12,8 @@ umap_x: 5.172863483428955
 umap_y: 7.2044758796691895
 umap_z: 9.197283744812012
 issue_number: OEL-33
-id_numero: OEL-33
+id_numero: "OEL-33"
+numero_rivista: "Ombre e Luci"
 ---
 O
 mbre e Luci si rivolge soprattutto ai genitori di figli con handicap, con la speranza di essere per loro aiuto e sostegno. Vuole creare legami di amicizia là dove spesso c'è solitudine ed emarginazione; ascoltare i bisogni, ridare forza e coraggio, ravvivare la speranza, anche quando sembra perduta. Per questo abbiamo preferito, da sempre, presentare articoli rasserenanti, positivi, più che tragici e scandalistici, più le luci che le ombre. Di solito scegliamo argomenti che aiutino a conoscere meglio i vari tipi di handicap, con appropriati consigli educativi; riflessioni su temi generali comuni, alla luce dell’insegnamento evangelico; informazioni su iniziative e .servizi esistenti e tra questi segnaliamo quelli «buoni» perché siano di riferimento e rappresentino modelli da imitare nel caso che genitori o amici vogliano «creare» qualcosa di nuovo. Dopo otto anni di vita, abbiamo bisogno di fare con voi una verifica, sottoponendovi a un piccolo impegno, il cui risultato sarà per noi prezioso per continuare il nostro lavoro nella certezza che Ombre e Luci è utile e deve continuare a vivere.

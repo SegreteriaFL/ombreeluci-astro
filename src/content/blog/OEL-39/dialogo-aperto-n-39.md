@@ -12,7 +12,8 @@ umap_x: 4.559991836547852
 umap_y: 7.280453205108643
 umap_z: 10.488022804260254
 issue_number: OEL-39
-id_numero: OEL-39
+id_numero: "OEL-39"
+numero_rivista: "Ombre e Luci"
 ---
 ### Un progetto di comunità
 

@@ -12,7 +12,8 @@ umap_x: 9.402124404907227
 umap_y: 10.229732513427734
 umap_z: 8.642946243286133
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 S
 i è concluso il primo biennio di lavoro del nuovo «gruppo di studio» istituito presso l’Ufficio Catechistico Nazionale della Conferenza Episcopale Italiana per approfondire il tema della catechesi nei confronti delle persone disabili. Come esperto sul tema della disabilità mentale, è stato chiamato a collaborare il sottoscritto, psichiatra dell’Istituto Fatebenefratelli di Genzano, per apportare ai lavori la speciale esperienza dell’Ordine ospedaliero di san Giovanni di Dio. Il gruppo di studio è stato presieduto, con grandissima competenza e passione, da mons. Bassano Padovan, il quale, purtroppo, ora dovrà «lasciare», perché chiamato a un altro incarico di grande responsabilità: in questo momento è quindi molto opportuno redigere il bilancio dei due anni di lavoro svolto. L’attività finora realizzata ha interessato tre settori:

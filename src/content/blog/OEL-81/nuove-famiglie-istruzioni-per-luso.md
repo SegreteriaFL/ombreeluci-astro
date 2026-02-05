@@ -4,8 +4,8 @@ date: 2003-03-13
 author: Redazione
 slug: nuove-famiglie-istruzioni-per-luso
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26310
 original_url: "https://www.ombreeluci.it/?p=26310"
@@ -19,7 +19,6 @@ umap_x: 6.852980136871338
 umap_y: 8.918264389038086
 umap_z: 11.831254005432129
 ---
-
 Una nuova famiglia bussa alla nostra porta. Ha voglia di conoscerci, di uscire dall’isolamento. Come affrontare con discrezione un ragazzo nuovo e i suoi familiari bisognosi di aiuto?
 
 Andiamogli incontro senza imporgli la nostra presenza.

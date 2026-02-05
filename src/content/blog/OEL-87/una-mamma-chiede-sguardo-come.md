@@ -4,8 +4,8 @@ date: 2004-09-13
 author: Redazione
 slug: una-mamma-chiede-sguardo-come
 lang: it
-numero_rivista: 87
-id_numero: OEL-87
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-87"
 issue_number: OEL-87
 wp_id: 30343
 original_url: "https://www.ombreeluci.it/?p=30343"
@@ -17,7 +17,6 @@ umap_x: 4.968905448913574
 umap_y: 7.707594871520996
 umap_z: 9.166800498962402
 ---
-
 Nell'ultimo numero di Ombre e Luci abbiamo letto [una bellissima preghiera di una mamma polacca](https://www.ombreeluci.it/2004/grazie-per-questo-figlio-disabile/) che invitava ad avere uno sguardo non di compassione verso i figli diversi. Io condivido totalmente questo atteggiamento che ognuno di noi dovrebbe acquisire ma vorrei porre qualche domanda alle mamme ed ai papà con la speranza che loro ci possano ulteriormente illuminare (quante cose ci hanno già insegnato!) in tema di sguardi.
 
 Sono la mamma di quattro figli e tutta la nostra famiglia è attivamente coinvolta nella vita di Fede e Luce, quindi conosciamo un po' tutti il mondo dell'handicap. Ma anche con tutta la nostra “esperienza” non sono mancati i momenti in cui un primo sguardo è stato un momento di imbarazzo, di impaccio e di difficoltà per me.

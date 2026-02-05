@@ -4,8 +4,8 @@ date: 2002-06-15
 author: Mariangela Bertolini
 slug: vacanza-tempo-per-riposarsi-rilassarsi-ritemprarsi-rifiorire
 lang: it
-numero_rivista: 78
-id_numero: OEL-78
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-78"
 issue_number: OEL-78
 wp_id: 25022
 original_url: "https://www.ombreeluci.it/?p=25022"
@@ -15,7 +15,6 @@ umap_x: 7.097853183746338
 umap_y: 6.440130233764648
 umap_z: 10.39317512512207
 ---
-
 N on è per tutti così purtroppo, ma per i più l’estate porta con sé questo tempo, aspettato lungo l’anno, per riposarsi, rilassarsi, ritemprarsi, rifiorire.
 
 Non sempre si riesce, anche perché si inseguono luoghi di vacanza che finiscono per assomigliare alle città convulse che abbiamo lasciato: spiagge superaffollate, alberghi chiassosi, paesi invasi e pervasi da musiche e chiasso e traffico che quasi ci fanno sognare il quartiere cittadino.

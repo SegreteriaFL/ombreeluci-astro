@@ -14,7 +14,8 @@ umap_x: 9.505013465881348
 umap_y: 8.682503700256348
 umap_z: 12.168484687805176
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 Questo articolo è tratto da
 [Ombre e Luci n.14, 1986](http://www.ombreeluci.it/project/numero-14-speciale-assisi-1986-lasciarsi-scegliere/)

@@ -4,8 +4,8 @@ date: 2002-06-15
 author: Antonella Bulgheroni
 slug: la-norma-traviata-un-musical-delirante-recensione
 lang: it
-numero_rivista: 78
-id_numero: OEL-78
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-78"
 issue_number: OEL-78
 wp_id: 25003
 original_url: "https://www.ombreeluci.it/?p=25003"
@@ -17,7 +17,6 @@ umap_x: 9.044258117675781
 umap_y: 7.712639331817627
 umap_z: 9.079804420471191
 ---
-
 La sera del 25 marzo si è tenuto a Milano al **Teatro Smeraldo** l’evento teatrale **La Norma Traviata** , “un musical delirante”, interamente allestito, recitato, cantato e ballata da portatori di disagio psichico, psicofisico e sociale.
 
 **Si racconta la vicenda di una Milano post-atomica** in cui un pubblico “perbene” tenta invano di assistere a una replica di Norma in un Teatro alla Scala bombardato; i “permale” contestano, escono dai rifugi, avanzano verso il palcoscenico dalla platea ostentando i segni della loro sofferenza, con bendaggi e abiti laceri: tra loro c’è qualcuno con ali da angelo.

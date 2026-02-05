@@ -4,8 +4,8 @@ date: 1999-07-16
 author: Redazione
 slug: vita-fede-e-luce-n-65
 lang: it
-numero_rivista: 65
-id_numero: OEL-65
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-65"
 issue_number: OEL-65
 wp_id: 12564
 original_url: "https://www.ombreeluci.it/?p=12564"
@@ -15,7 +15,6 @@ umap_x: 7.086318016052246
 umap_y: 9.16144847869873
 umap_z: 12.963218688964844
 ---
-
 ### Il mio modo di intendere Fede e Luce
 
 Ho letto più volte l’articolo di Olga Burrows Gammarelli "Amici a Fede e Luce” (Ombre e Luci n° 62) e, dopo aver a lungo riflettuto, desidero fare anch’io qualche riflessione. Sono la mamma di Flaminia, cerebrolesa ora ventenne, che è entrata a far parte di [Fede e Luce](https://www.fedeeluce.it) a quattro anni. Comincio subito puntualizzando che non sono d’accordo con la distinzione schematica fatta nell'articolo sopracitato. Posso capire che può far sorridere chiamare **RAGAZZI** delle persone adulte (altre organizzazioni li chiamano "ammalati” e lo trovo molto più triste), per quanto riguarda però le altre due parole, **GENITORI** ed **AMICI** , sono per me termini che "normalmente nella vita quotidiana” hanno lo stesso significato che gli riconosco a Fede e Luce.

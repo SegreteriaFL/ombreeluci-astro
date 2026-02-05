@@ -15,7 +15,8 @@ umap_x: 4.788472652435303
 umap_y: 7.04937219619751
 umap_z: 9.486170768737793
 issue_number: OEL-21
-id_numero: OEL-21
+id_numero: "OEL-21"
+numero_rivista: "Ombre e Luci"
 ---
 Su più di 2.000 persone che ricevono **Ombre e Luci** (tra abbonati e diffusione) hanno risposto all’inchiesta **85 persone** : 57 femmine, 28 maschi.
 

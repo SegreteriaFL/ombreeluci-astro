@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "1500-grammi-di-cenere-cremazione-e-fede-cristiana-recensione"
 has_comments: false
+id_numero: "OEL-98"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

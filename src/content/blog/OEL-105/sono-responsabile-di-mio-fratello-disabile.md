@@ -14,7 +14,8 @@ umap_x: 5.593978404998779
 umap_y: 10.35184097290039
 umap_z: 8.992881774902344
 issue_number: OEL-105
-id_numero: OEL-105
+id_numero: "OEL-105"
+numero_rivista: "Ombre e Luci"
 ---
 *Non sarà per tutti così certamente, ma i testi che abbiamo ricevuto da sorelle e fratelli di persone disabili ci hanno lasciati piacevolmente sorpresi. Ecco alcune delle domande ricorrenti su questo tema:* - *Perché devo essere sempre migliore?* - *Dicono sempre che siamo tutti uguali... ma io mi vergogno di uscire con lui... e mi vergogno di vergognarmi* - *Perché devo portare con me mia sorella h alle feste dei miei amici?* - *Oh, come vorrei una vacanza senza di lei! »* - *Quando i miei genitori moriranno, doVai oa da ite parmi di lui?* - *Ogni volta che accenno all’idea di andare a vivere da solo scateno una tempesta nei miei genitori che mi ripetono: ma non pensi a tuo fratello?* *A seguire alcune delle testimonianze che abbiamo raccolto.* 
 

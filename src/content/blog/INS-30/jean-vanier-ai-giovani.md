@@ -12,8 +12,9 @@ umap_x: 8.411702156066895
 umap_y: 11.966564178466797
 umap_z: 10.778959274291992
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 *La sera del 19-4-1981*
 
 Comincio ad essere vecchio e la mia testimonianza è questa: viviamo in un mondo in cui l'inquietudine e l'angoscia sono grandi e nel cuore di ogni uomo c'è la paura.

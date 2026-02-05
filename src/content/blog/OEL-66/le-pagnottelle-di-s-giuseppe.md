@@ -4,8 +4,8 @@ date: 1999-06-12
 author: Mariangela Bertolini
 slug: le-pagnottelle-di-s-giuseppe
 lang: it
-numero_rivista: 66
-id_numero: OEL-66
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-66"
 issue_number: OEL-66
 wp_id: 12845
 original_url: "https://www.ombreeluci.it/?p=12845"
@@ -15,7 +15,6 @@ umap_x: 5.828190326690674
 umap_y: 8.612861633300781
 umap_z: 8.913069725036621
 ---
-
 «Sai Mariangela, è tre volte che mi sogno il papa che fa una carezza a Francesca». Francesca ha dieci anni, è quasi immobile sulla carrozzina. Abita con la mamma, il papà e il fratellino in un piccolo paese del Sud. «Vorrei tanto, ma non oso sperarlo, che Francesca potesse incontrare il papa...». Così, un mercoledì, la famigliola alle quattro di mattina, si è messa in viaggio, direzione Roma, appuntamento portone di bronzo. Lì cerano i biglietti pronti con i quattro nominativi. Un giovane di Roma aveva provveduto con sollecitudine a che il sogno si trasformasse in realtà. «Guarda che noi, dopo il papa, veniamo a conoscervi. Abbiamo il telefonino portatile, così ci indicherete la strada da S. Pietro a via Bessarione». Conosco la mamma di Francesca, Immacolata, da diversi anni, ma ci siamo parlate sempre solo per telefono: per informazioni, consigli, aiuti di vario genere. Dalla voce mi ero fatta un’idea: mamma combattiva, coraggiosa, piena di voglia di fare tutto il possibile per la vita della sua bambina. Un giorno, ricordo, era particolarmente triste, piangeva perché Francesca era caduta, si era fratturata un braccio... Non sapevo come consolarla. Non so più le parole che dissi, ma so che in quel momento nel mio cuore si era fatto uno spazio speciale per lei e per la sua famiglia, anche se non le avevo mai visti se non in fotografia.
 
 Mercoledì scorso, quindi, alle 13, ora in cui di solito la nostra équipe di redazione è già a casa, finalmente il cellulare del Sud si fa vivo: «Siamo qui, davanti al fioraio. Non troviamo via Bessarione!». Corriamo fuori, andiamo loro incontro. Accoglienza, saluti, festa, emozione, racconto dell'incontro con il papa, tutto in gran fretta perché loro devono subito ripartire, il viaggio è lunghissimo. «Mio marito domani deve lavorare». Vediamo intanto che Immacolata scarica dalla macchina grossi pacchi, uno per ognuna di noi e uno per il giovane che ha procurato l’udienza.

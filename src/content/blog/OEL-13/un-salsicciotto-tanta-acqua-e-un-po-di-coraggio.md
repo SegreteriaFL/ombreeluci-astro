@@ -16,7 +16,8 @@ umap_x: 7.288599014282227
 umap_y: 6.7160258293151855
 umap_z: 9.727640151977539
 issue_number: OEL-13
-id_numero: OEL-13
+id_numero: "OEL-13"
+numero_rivista: "Ombre e Luci"
 ---
 «Quando sono in piscina vivo l’unico momento in cui mi sento veramente libero, perché posso muovermi senza l’aiuto di nessuno». Così mi diceva un giorno un ragazzo, spastico grave, che a fatica riesce a farsi capire. Era un sabato, uno dei tanti in cui vado in piscina, per dare una mano a un gruppo di ragazzi di un centro di Roma. Con la sua ciambella e appoggiandosi alla meno peggio al bordo della piscina, riesce ad andare su e giù lungo la vasca. Penso che questo senso di libertà e quindi di gioia lo provino un po' tutti i ragazzi che frequentano la piscina in quell'ora a loro riservata. Anche i più gravi, se potessero parlare, direbbero lo stesso e sono proprio loro che ne traggono i maggiori benefici. Basta guardare i loro sguardi, i muscoli rilassati dei loro volti, o ascoltare le loro grida di gioia per capire come è importante per loro questo momento. Questo immergersi nell'acqua, perdere il peso del proprio corpo e fare contemporaneamente esercizi molto validi dal punto di vista motorio, è una terapia tra le più benefiche, sotto ogni punto di vista, anche per le persone più colpite, anzi per loro in modo particolare.
 > "In acqua mi sento veramente libero, perché posso muovermi senza l’aiuto di nessuno".

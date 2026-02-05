@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "ora-puo-riposare"
 lang: it
-numero_rivista: 63
-id_numero: OEL-63
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-63"
 issue_number: OEL-63
 wp_id: 12319
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T12"
 tema_label: "Progetto di vita, autonomia e dopo di noi"
 categoria_menu: "Diritti"
 ---
-
 La signora Angela è nata il mio stesso giorno e mese, per questo mi è più cara.
 Quando è venuta la prima volta in ambulatorio, Roberto era già un ragazzo, alto e robusto, ben curato, una bella faccia seria.
 Per questo erano più strani i saltelli, i battimani, le parole senza legami, i sorrisi da bambino nati da una filastrocca conosciuta sussurrata all’orecchio e le pose, naturalmente contegnose e compassate sulla sedia dell'ambulatorio, quasi una poltrona di congressista, durante i nostri incontri con la mamma, il padre, i fratelli e gli assistenti domiciliari, premurosi e attenti compagni. Lo sguardo e il pensiero altrove. Anche il mio a volte, dietro a un bambino che cerco di immaginare, con una mamma da trent’anni la stessa, gentile, dolce accento veneto, pensieri affettuosi, paura di disturbare, dignitosa, discreta, riservata, vestito di seta scura, golfino, capelli grigi, stanca, stanca.

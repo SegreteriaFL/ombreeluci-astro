@@ -12,8 +12,9 @@ umap_x: 9.406221389770508
 umap_y: 7.636957168579102
 umap_z: 2.650956153869629
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Daventicinque anni, il [**Far East Film Festival**](https://www.fareastfilm.com/) di Udine presenta al suo pubblico **il miglior cinema popolare dell’estremo oriente** , ma non manca mai di proporre anche film d’autore; una scelta particolarmente apprezzata dagli spettatori dell’edizione 2022 che hanno attribuito ben due premi al cinese *Terra e polvere* di Li Ruijun, proveniente dal concorso della Berlinale. Un’opera che si è fatta amare, in una selezione che privilegia film di genere, commedie e costosi blockbuster orientali, perché delicata e toccante: tanto che Tucker Film, la casa di distribuzione collegata al festival, ha finalmente deciso di portarlo nelle sale italiane.
 
 Ambientato nella provincia cinese del Gansu, in un’area rurale che il governo vorrebbe modernizzare, *Terra e polvere* è innanzi tutto una storia d’amore che si sviluppa, in modo inatteso, tra due persone che l’amore non l’avevano mai conosciuto. Ma Youtie è un contadino scapolo di mezza età, uomo semplice e umile che i suoi familiari vorrebbero sistemare; i suoi parenti si mettono d’accordo con la famiglia di Cao Guiying, anche lei non più giovanissima e che non ha trovato marito a causa di una malattia che la rende sterile, incontinente e con difficoltà di deambulazione. **Sembra che le due famiglie abbiano deciso di mettere assieme i rispettivi “scarti”** : già nella prima scena, i due personaggi ci appaiono come spettatori delle loro stesse vite, comparse senza volontà in una messinscena voluta da altri, incapaci persino di guardarsi. Non è così: c’è un iniziale gioco di sguardi segreti che permette ai due di studiarsi e capirsi senza parlarsi.

@@ -12,8 +12,9 @@ umap_x: 8.325054168701172
 umap_y: 6.133996486663818
 umap_z: 10.522075653076172
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 G
 ood afternoon, friends. At the end of October I attended a conference dedicated to Edith Stein, a twentieth-century philosopher. I’ll say right away that I was truly struck by it, because seeing that
 **even back then a humble person, with all her own difficulties, felt a desire to learn more about disability**

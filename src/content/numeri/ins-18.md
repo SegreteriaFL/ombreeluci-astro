@@ -1,15 +1,29 @@
 ---
 id: "INS-18"
-title: "Insieme n. 18 - Bollettino Fede e Luce - 1978"
+title: "Insieme n. 18 – Bollettino Fede e Luce – 1978"
 tipo: "insieme"
 numero: 18
-anno: "1978"
+sort_order: 18
+pubDate: "1978-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 1978"
 sommario: "Insieme n. 18 – Bollettino Fede e Luce – 1978 ultima modifica: 1978-09-20T15:39:37+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-18.webp"
 link_sfoglia: "https://archive.org/details/insieme-18/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-18/insieme%2018%20set%201978.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-18-bollettino-fede-e-luce-1978/"
+articoli:
+  - "quando-arrivano-le-vacanze"
+  - "ci-hanno-scritto-n-18"
+  - "un-po-di-provocazione"
+  - "per-la-nostra-riflessione"
+  - "per-la-loro-educazione-visita-allistituto-statale-romagnolo-per-non-vedenti"
+  - "esperienze-al-gruppo-fede-e-luce-la-mamma-di-massimo"
+  - "come-un-raggio-di-sole"
+  - "notiziario-fede-e-luce-n-18"
+  - "vita-dei-gruppi-fede-e-luce-1978"
+  - "festa-della-primavera-a-villa-pacis-1978"
+  - "la-casetta-cose-che-fini-ha-chi-la-frequenta"
+  - "letture-consigliate-n-18"
 ---
 
 ## Indice

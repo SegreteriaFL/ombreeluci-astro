@@ -14,7 +14,8 @@ umap_x: 7.874240875244141
 umap_y: 7.6925764083862305
 umap_z: 8.91855239868164
 issue_number: OEL-75
-id_numero: OEL-75
+id_numero: "OEL-75"
+numero_rivista: "Ombre e Luci"
 ---
 Dagli amici di Milano arriva la buona notizia: i «condomini solidali» nati tra Piemonte e Lombardia sono diventati dieci e forse, presto, saranno undici.
 

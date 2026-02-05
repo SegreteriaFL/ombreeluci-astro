@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Mentre ascolto la S. Messa insieme agli amici di Fede e Luce, mi sento distaccata completamente dalle preoccupazioni di ogni giorno ed entra in me un rapporto di fiducia, in special nodo mentre recitiamo quella bellissima preghiera che è il PADRE NOSTRO, tutti insieme, mani nelle mani e che ci unisce così spiritualmente. Allora sento veramente di non essere più sola.
 Ed è per me il momento più bello!

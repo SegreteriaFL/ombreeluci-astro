@@ -4,8 +4,8 @@ date: 1996-12-15
 author: Redazione
 slug: recensione-del-film-lottavo-giorno
 lang: en
-numero_rivista: 56
-id_numero: OEL-56
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-56"
 issue_number: OEL-56
 wp_id: 11067
 original_url: "https://www.ombreeluci.it/?p=11067"
@@ -15,7 +15,6 @@ umap_x: 8.912986755371094
 umap_y: 8.623400688171387
 umap_z: 3.087217092514038
 ---
-
 > «Non poteva proprio sottrarsi alle malevole interpretazioni e lo sapeva».
 
 Così una delle tante critiche — forse fra le più obiettive pubblicate — affronta l'ultima fatica del belga Jaco Van Dormael (quello del geniale *Toto le heros* ) che ci racconta l'ennesimo scontro-incontro fra il «normale» (Antoine Auteuil) e il «diverso» (Pascal Duquenne): **il primo** è il solito quarantenne in carriera, divorziato, con moglie e figlie che non lo amano più. La sua unica preoccupazione sembra essere solo quella di insegnare a giovani manager l’ipocrisia del mondo degli affari, e, a forza di fingere, ha perso la propria identità. **Il secondo** è un ragazzo *down* , orfano, solo e praticamente abbandonato in un centro per handicappati. Se la trama è facilmente intuibile, e non lascia spazio a riletture o innovazioni di quello che ormai può essere considerato un genere a sé stante ( *Il mio piede sinistro* , *Rain man* , per citare solo i più famosi), quello che forse colpisce di più è lo stile del regista, che in una commistione di atmosfere, attraversa innocentemente i generi più disparati; dal realismo del dramma, al surrealismo del sogno (il più interessante linguisticamente e visivamente), dal comico-grottesco (pericoloso e non sempre apprezzabile) alla poesia più facile e a volte banale che troppo spesso semplifica, sminuisce e cela la vera entità di alcune problematiche.

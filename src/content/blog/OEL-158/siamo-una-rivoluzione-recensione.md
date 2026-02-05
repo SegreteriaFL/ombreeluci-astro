@@ -12,7 +12,8 @@ umap_x: 8.279654502868652
 umap_y: 11.72979736328125
 umap_z: 5.951868057250977
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 Lei, una bomba: giornalista, fondatrice del movimento *The Catholic Worker* e del mensile omonimo, attivista, pacifista, anarchica, convertita da adulta, ragazza madre, odiata da cardinali e Fbi. Con picchetti, file per il pane e case dell’ospitalità, Dorothy Day (1897-1980) **ha cambiato sguardo e priorità della Chiesa e della società americane.** Ancora poco conosciuta in Italia, il libro di Giulia Galeotti ce la presenta in tutte le sue sfaccettature. Si legge come un romanzo questa biografia, che (su tutto) dimostra una verità semplice e difficilissima: se scegli di vivere il vangelo fino in fondo non puoi non mettere i fragili, gli ultimi, gli scartati al centro della tua vita. E molti di questi sono persone con disabilità e problemi mentali che Day ha voluto non solo accogliere, ma mettere in condizione di essere felici. **Veramente una donna “rivoluzionaria” che merita di essere conosciuta perché ha tanto da dire anche alla nostra coscienza e alla nostra vita.** Oggi serva di Dio, diventerà un giorno santa? Sarebbe un grande modello di cui «avremmo davvero bisogno», sostiene Galeotti, anche per la sua capacità di vedere le persone al di là dei loro (presunti) limiti. Ma la Chiesa è pronta per una santa così rivoluzionaria? La domanda resta aperta.
 

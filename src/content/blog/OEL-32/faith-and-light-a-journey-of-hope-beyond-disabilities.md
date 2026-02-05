@@ -18,8 +18,9 @@ umap_x: 7.494466304779053
 umap_y: 8.893806457519531
 umap_z: 13.000697135925293
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 **It is difficult to understand what Faith and Light is** , to grasp its originality if you don't know why this movement was born. Many, today, know how to put a face to the word “ *handicapped* ”, a term that designates a person with more or less serious difficulties (physical, sensorial, intellectual or psychological). Few, however, know what the presence of a disabled child or sister or brother means in a family.
 
 **Who knows, knows that words cannot express the difficulty** , suffering, discomfort, and the complex situation these families find themselves living, often for life. There are, today more than ever, many services that help people with disabilities and their families: rehabilitation, physiotherapy, home services, integration into school, work, special centers…

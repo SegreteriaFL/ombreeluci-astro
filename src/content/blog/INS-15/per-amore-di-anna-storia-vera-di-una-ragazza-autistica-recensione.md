@@ -12,8 +12,9 @@ umap_x: 7.194953918457031
 umap_y: 10.552907943725586
 umap_z: 4.8474955558776855
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Analisi
 
 Le prime pagine del libro ci presentano Anna come una ragazzina di sei anni, che si dondola con esasperante monotonia su una seggiola, che spalanca i suoi occhi azzurri sul mondo senza raccoglierne niente, che - pur essendo molto graziosa - è pronta a trasformarsi in un "iroso", urlante e sputacchiante animaletto".

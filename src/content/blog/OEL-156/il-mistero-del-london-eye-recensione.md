@@ -12,7 +12,8 @@ umap_x: 7.4036030769348145
 umap_y: 10.874638557434082
 umap_z: 4.381242752075195
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 Ted ha una famiglia affettuosa ma non ha amici: come dice lui stesso, ha un cervello con un «sistema operativo» differente. **Si intuiscono in lui i tratti della sindrome di Asperger** , mai nominata, con le sue difficoltà a interpretare i comportamenti sociali; eppure, è proprio grazie a queste difficoltà e capacità che Ted, insieme a sua sorella Kat – con la quale non va tanto d’accordo e quindi «non compresa nella categoria amici» – **troverà il modo di risolvere il mistero della scomparsa di suo cugino Salim.** Fratello e sorella ne usciranno con una rinnovata conoscenza reciproca che li renderà più legati e forti. Il noto e avvincente romanzo per ragazzi di Siobhan Dowd, prematuramente scomparsa nel 2007, si conferma **una lettura assolutamente consigliata dai 12 anni in su per l’approccio semplice ed efficace con cui affronta il tema della diversità legato alla disabilità e all’etnia.** Vincitore del Premio Andersen del 2012, è disponibile anche in un audiolibro (Emons-Uovonero) letto da Pietro Sermonti.
 

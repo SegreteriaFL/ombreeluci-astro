@@ -17,7 +17,8 @@ umap_x: 9.136143684387207
 umap_y: 10.320610046386719
 umap_z: 9.303706169128418
 issue_number: OEL-23
-id_numero: OEL-23
+id_numero: "OEL-23"
+numero_rivista: "Ombre e Luci"
 ---
 **Chiarire le motivazioni**
 : quello che si vuole è aiutare un bambino a scoprire, in Gesù, Dio Padre, Dio d’amore che l’ama e aspetta la sua risposta d’amore e che, per questo, manda il suo Santo Spirito che anima la comunità cristiana, la Chiesa.

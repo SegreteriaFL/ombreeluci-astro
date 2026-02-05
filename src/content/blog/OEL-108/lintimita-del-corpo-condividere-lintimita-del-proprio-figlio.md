@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-108
+id_numero: "OEL-108"
+numero_rivista: "Ombre e Luci"
 ---
-
 Perché bisogna dare importanza al momento della toilette, cioè al momento dell’intimità con il corpo del proprio figlio?
 L’intimità con il corpo dell’altro è, in realtà, fondamentale perché, se bene vissuto dà valore al corpo che ci è affidato. Per aiutare il ragazzo a condividere questo momento così delicato bisogna convincerlo a pensare che il suo corpo è bello, ha valore ed è quindi necessario prendersene cura. Anche se ferito o malato il suo corpo è “Tempio dello Spirito Santo” e quindi sempre degno di amore e rispetto. Il corpo è il prezioso scrigno della sua persona. Pensando a questo è normale volere custodire il suo corpo e insieme la sua dignità riflettendo sul senso dell’intimità.
 Come si può definire l’intimità?

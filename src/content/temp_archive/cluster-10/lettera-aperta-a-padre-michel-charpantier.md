@@ -7,6 +7,7 @@ cluster_id: 10
 image: "https://www.ombreeluci.it/wp-content/uploads/1976/09/insieme-11-ott-nov-dic-1976-def.jpg"
 slug: "lettera-aperta-a-padre-michel-charpantier"
 has_comments: false
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

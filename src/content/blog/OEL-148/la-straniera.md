@@ -12,7 +12,8 @@ umap_x: 7.73369026184082
 umap_y: 10.959689140319824
 umap_z: 4.894436836242676
 issue_number: OEL-148
-id_numero: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
 Era tanto che non ascoltavamo un modo così potente di parlare di disabilità. Che poi il libro sia un memoir, una biografia o un romanzo inventato è del tutto irrilevante. In *La straniera* (La nave di Teseo, 2019, pagine 285, euro 18), finalista al Premio Strega, la scrittrice e traduttrice Claudia Durastanti (classe 1984) ricostruisce la sua storia di «immigrata al contrario» (nata a Brooklyn, trapiantata a 6 anni in un paesino lucano «in cui c’erano più capi di bestiame che persone», università a Roma, vita adulta a Londra). Figlia di un padre e una madre sordi («Aveva scoperto che per tutta la vita era andato alla ricerca di un suo simile. Una persona che non voleva affrontare la disabilità con coraggio o dignità, ma con incoscienza»), sebbene sballottata, scossa, attonita a tratti, la protagonista non è mai veramente persa. Ed è sempre in grado di seminare, anche se anche viene (o si sente, dipende dalle ottiche) sradicata da luoghi, tempi e situazioni. «Parlo dei miei genitori con la nipote della donna che si è buttata dall’Arc de Triompe. Le spiego che non hanno mai voluto accettare di essere sordi e di arrendersi a questo limite. Lei chiede: “E perché avrebbero dovuto?”. Non perché erano sordi, ma perché erano giovani: nessuna persona dovrebbe limitare il proprio desiderio di essere altro». E se era davvero tanto che non ascoltavamo un modo così potente di parlare di disabilità è anche perché – in fondo – Claudia Durastanti la centra, ma la ignora.
 

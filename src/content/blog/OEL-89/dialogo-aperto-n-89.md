@@ -4,8 +4,8 @@ date: 2005-03-13
 author: Redazione
 slug: dialogo-aperto-n-89
 lang: it
-numero_rivista: 89
-id_numero: OEL-89
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-89"
 issue_number: OEL-89
 wp_id: 30805
 original_url: "https://www.ombreeluci.it/?p=30805"
@@ -15,7 +15,6 @@ umap_x: 4.643219470977783
 umap_y: 8.071849822998047
 umap_z: 10.568821907043457
 ---
-
 ### Voglia d'amare
 
 Sono un ragazzo di 33 anni e mi chiamo Andrea. Le mie parole, spero che le ragazze le capiscano e non facciano le indifferenti! Io sono un ragazzo sano (cammino regolare e tutto) ma ho un piccolo problema, cioè ho difficolta (lieve) alla parola e ne risento molto, specialmente con l'altro sesso per paura di essere respinto o per paura che mi dicano "ma tu non sei normale ecc.!” So di avere questo problema ma non voglio che le altre persone me lo facciano pesare o meglio che mi mettano i bastoni tra le ruote! Non capisco il loro atteggiamento nei mie confronti e non capisco perché facciano così! Tutti abbiamo i nostri diffetti, ma perché non accettare un ragazzo con problemi? lo sono tranquillo e sereno ma quando vedo per strada due morosi dico "Beati quelli che possono, se succedesse anche a me!" ed il cuore mio si rattrista e mi metto a piangere! Io ho avuto una storia con una ragazza che aveva problemi nel parlare (conosciuta tramite la chat di disabili), siamo stati assieme 5 mesi... lo ero felice ed entusiasta, ma il bello è che lei ha preso la decisione di lasciarmi ! Ma io mi sono reso conto una cosa: per me era pesantissima (dal modo che parlava e dal modo che camminava...) ognuno parliamo come parliamo! Io vorrei una ragazza sana che mi accettasse così Come sono perchè io ho dei veri sentimenti e non accetto che mi calpestano!!!

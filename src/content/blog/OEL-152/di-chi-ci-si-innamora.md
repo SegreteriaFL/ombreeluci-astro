@@ -12,8 +12,9 @@ umap_x: 9.38684368133545
 umap_y: 7.640215873718262
 umap_z: 2.6718180179595947
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Come tutti i festival del cinema primaverili, anche il Far East Film Festival di Udine ha dovuto decidere se saltare un’edizione o reinventarsi. Ha vinto la seconda opzione, con l’evento spostato in avanti di due mesi e i film resi disponibili online agli accreditati. In una manifestazione dedicata al cinema popolare dell’estremo oriente, c’è più spazio per prodotti spettacolari o di genere che per i temi sociali, anche se i film più votati dal pubblico – il cinese *Better Days* e il malese *Victim(s)* – trattano entrambi il tema del bullismo, purtroppo diffuso a tutte le latitudini.
 
 Tra le pellicole premiate troviamo anche un’opera presentata in anteprima mondiale, *I weirDO* (2020) di Liao Ming-yi, girata a Taiwan con un iPhone. Ormai non sono più una novità i film ripresi con un telefono, perciò non sorprende la qualità visiva di questa particolare storia romantica in cui sono particolarmente curati i dettagli di luci e scenografie con l’intento di descrivere anche visivamente le caratteristiche dei personaggi.

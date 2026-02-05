@@ -12,8 +12,9 @@ umap_x: 7.836988925933838
 umap_y: 1.402944803237915
 umap_z: 9.392779350280762
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sono al mare e faccio come mi pare e piace. Non ho niente da fare per questo ho tante cose da fare tutto il giorno, dalla mattina a mezzanotte fonda. Non ho tempo libero.
 
 Io mi sveglio presto e vado subito al mare da sola. Tanto è vicinissimo. Faccio colazione al bar sulla spiaggia. Mi prendo il cornetto e il cappuccino con tanta schiuma. I baristi mi fanno pure i cuoricino sulla schiuma perché io ci voglio il cacao. Nel cornetto a volte c'è la cioccolata, a volte c'è la nutella e a volte c'è un bel niente. Io mi porto tutto a tavolino e mi siedo e mangio in santa pace. Siccome io arrivo molto presto, o alle 8 o alle 8.30, non c'è nessuno e sto benissimo. Scherzo con Claudio il bagnino. Noi ci prendiamo in giro sempre e lui mi chiama «tocco di burro». Mi porto pure il libro di matematica con matita e gomma per far egli esercizi.

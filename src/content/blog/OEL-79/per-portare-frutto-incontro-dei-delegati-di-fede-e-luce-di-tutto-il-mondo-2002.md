@@ -4,8 +4,8 @@ date: 2002-09-01
 author: Redazione
 slug: per-portare-frutto-incontro-dei-delegati-di-fede-e-luce-di-tutto-il-mondo-2002
 lang: it
-numero_rivista: 79
-id_numero: OEL-79
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-79"
 issue_number: OEL-79
 wp_id: 25417
 original_url: "https://www.ombreeluci.it/?p=25417"
@@ -15,7 +15,6 @@ umap_x: 7.732899188995361
 umap_y: 8.726778030395508
 umap_z: 14.027831077575684
 ---
-
 Dal 22 al 29 settembre 250 delegati dalle comunità [Fede e Luce](https://www.fedeeluce.it/) di tutto il mondo hanno partecipato all’incontro internazionale di Fede e Luce che si è svolto al centro “Mondo Migliore” di Rocca di Papa, presso Roma. **Sono venuti da 75 paesi, in rappresentanza di circa 1.700 comunità** , con il desiderio in particolare di vivere una straordinaria esperienza di fede. In questa settimana hanno avuto modo di confrontarsi e crescere nella formazione, guidati dal passo del vangelo di Giovanni “V/i ho scelto affinché andiate e portiate frutto''. [Jean Vanier](https://www.ombreeluci.it/jeanvanier/) (fondatore di Fede e Luce insieme a [Marie Hélène Mathieu](https://www.ombreeluci.it/author/marielene-mathieu/) ) ha espresso così la prima ragione dell'incontro: “Siamo qui per rendere grazie a Gesù per aver trasformato le nostre lacrime in gioia”.
 
 > “Siamo qui per rendere grazie a Gesù per aver trasformato le nostre lacrime in gioia”

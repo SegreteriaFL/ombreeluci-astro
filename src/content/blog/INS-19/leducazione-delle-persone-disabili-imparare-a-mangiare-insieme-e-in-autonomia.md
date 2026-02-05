@@ -16,8 +16,9 @@ umap_x: 6.5499701499938965
 umap_y: 7.79429817199707
 umap_z: 7.733336925506592
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Tempo fa, sul numero 14 di Insieme abbiamo già trattato delle " [attività della vita quotidiana](https://www.ombreeluci.it/1977/leducazione-delle-persone-disabili-imparare-a-vestirsi/) ". Il nostro articolo riguardava, allora, l'abbigliamento. Oggi abbiamo pensato di toccare **un aspetto ancora più essenziale della vita quotidiana, e cioè i pasti** . Più essenziale non solo perché si prendono almeno tre volte al giorno, ma anche e sopratutto per ciò che essi rappresentano sul piano affettivo, educativo e sociale.
 
 Le riflessioni che seguono sono principalmente quelle di una educatrice[nota]Jany Boever: "Réflections après un stage d'éducateurs consacré à la vie quotidienne de l'enfant handicapé mental" - SESAME n° 44 Giugno 1977[/nota] che ha con sé una lunga esperienza di sforzi e di gioie in questo senso.

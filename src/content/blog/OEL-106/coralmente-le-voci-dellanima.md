@@ -12,7 +12,8 @@ umap_x: 8.560102462768555
 umap_y: 7.812041759490967
 umap_z: 9.65419864654541
 issue_number: OEL-106
-id_numero: OEL-106
+id_numero: "OEL-106"
+numero_rivista: "Ombre e Luci"
 ---
 C
 omunemente si ritiene che per cantare in un coro serva una gran bella voce, una certa cultura musicale, disciplina ecc. Servono, certo, ma a quanto pare non sono uniche prerogative per farne parte. Un gruppo di persone che si armano di buona volontà, capeggiate da un maestro (Livio Girgenti) e da un’insegnante di tecnica vocale (non si può mica improvvisare quando si fa sul serio!), possono formare un coro di tutto rispetto senza avere una grande esperienza musicale e non avendo, apparentemente, nulla in comune. Per di più è possibile che pazienti psichiatrici possano cantare in un coro vero. Stiamo parlando di “Coralmente”, il coro polifonico a cappella nato nell’ambito delle attività riabilitative promosse dal Dipartimento di Salute Mentale della ASL 6 di Palermo. Il progetto, ideato e diretto dal medico psichiatra Giuseppe Romano, prevede un incontro la settimana della durata di circa due ore e la partecipazione sia degli utenti dei servizi psichiatrici (degenti e non), familiari di utenti, operatori dei servizi di Salute Mentale e volontari. Il repertorio del coro è molto vasto, infatti è costituito da oltre 25 brani che spaziano dalla musica rinascimentale, alla gospel, ai canti natalizi e agli arrangiamenti per coro di musiche contemporanee. In 6 anni di attività concertistica conta ormai oltre 50 concerti svolti all'interno di numerose manifestazioni in ambito psichiatrico, ma anche in altre occasioni che hanno coinvolto scolaresche, istituzioni non psichiatriche e la cittadinanza in generale. Chiediamo al Dott. Romano il motivo per il quale al coro prendono parte anche alcuni familiari degli utenti.

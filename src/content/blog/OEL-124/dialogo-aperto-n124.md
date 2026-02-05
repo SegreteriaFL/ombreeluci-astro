@@ -12,8 +12,9 @@ umap_x: 4.998279094696045
 umap_y: 7.9018707275390625
 umap_z: 11.084735870361328
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Io non vi ho dimenticato
 
 Io adoro viaggiare, quando ho l’occasione, io sono felicissimo.Io sono un ragazzo di nome Giovanni, ho quasi 43 anni, l’idea di crescere mi piace, e mi spaventa anche perchè non posso più fare sbagli. Io sono della comunità del Girasole come molte persone che conosco, Norina, Emanuela, Alessandra, Sara, Antonia, Paola, Federica, Emanuele, Carlo e altri, io gli voglio bene, e penso che i miei silenzi valgono più di mille parole sbagliate. Anche le persone delle altre comunità mi conoscono, perchè hanno avuto l’occasione di vedermi e sentire la mia voce. Io quando salgo in macchina, sto in silenzio, lascio parlare chi è vicino a me, trovo difficile fare un discorso. Poi all’arrivo nel posto io sono loquace, scherzo, sorrido, e faccio le cose che sono in programma, canto le canzoni del libretto, la canzone che mi piace è al centro del mio cuore, e un milione di amici. Io sono stato a Penna in Teverina, il posto mi è familiare, perchè conosco le stanze, dove è la cucina e il piazzale d’avanti, dove giochiamo. Poi ho conosciuto un altro posto, la Bicoca, io ci sono stato, ci ho vissuto, per più di una occasione, nel capodanno, nel week end, e per un campo estivo. Mi è piaciuta la loro ospitalità e accoglienza, sono stato bene con tutti, attorno alla cascina c’è il verde, la piscina, i gatti, i galli che cantano. Io rispetto a tanti anni fa parlo di più, con l’età svanisce la timidezza, perchè se si vuole, si può migliorare, basta avere forza di volontà per fare tutto.

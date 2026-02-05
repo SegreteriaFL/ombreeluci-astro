@@ -12,7 +12,8 @@ umap_x: 7.73111629486084
 umap_y: 11.100898742675781
 umap_z: 5.750733852386475
 issue_number: OEL-38
-id_numero: OEL-38
+id_numero: "OEL-38"
+numero_rivista: "Ombre e Luci"
 ---
 Q
 uesto libro, scritto più di cinquanta anni fa e ormai diventato un classico della psicoanalisi delle psicosi, si legge d’un fiato ed è così affascinante da non potersene staccare. E la storia toccante di un lavoro svolto dall’autrice, infermiera e psicoanalista svizzera, nei primi anni della sua carriera fra le donne psicotiche del «reparto agitate» della

@@ -14,8 +14,9 @@ umap_x: 6.065029144287109
 umap_y: 9.037665367126465
 umap_z: 11.806925773620605
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 ***Luglio 2011, pellegrinaggio Loreto***
 Avevo solo 7 anni, Stefano già lo conoscevo e, per distinguerlo da mio papà, lo chiamavo Stefanone. Era una calda serata nella piazza di Loreto, era pieno di amici ed io ero stanchissimo. Ad un certo momento ho sentito tanti applausi; lui, essendo così alto, lo potevano vedere tutti: era proprio Stefano… Poco dopo alcune persone portarono una barca, piccola ma carina, tutta pitturata di bianco con una striscia azzurra in mezzo. Inizialmente non sapevo cosa significasse quella barca, poi ho capito che se la sarebbe portata con sé, come simbolo, per tutta la vita.
 ***Settembre 2011 Campo Marzocca, tema del campo pirati***

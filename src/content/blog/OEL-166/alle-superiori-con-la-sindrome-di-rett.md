@@ -12,7 +12,8 @@ umap_x: 6.277855396270752
 umap_y: 8.551606178283691
 umap_z: 6.815206527709961
 issue_number: OEL-166
-id_numero: OEL-166
+id_numero: "OEL-166"
+numero_rivista: "Ombre e Luci"
 ---
 Diversi anni fa, d’estate al mare, una bimba si è avvicinata a mia figlia chiedendomi se era autistica (la sindrome di Rett assomiglia molto all’autismo anzi, fino poco tempo fa, faceva parte delle malattie dello spettro autistico) e io le chiesi «Tu conosci l’autismo?» e lei mi ha risposto «Sì, in classe ho un amico autistico». E ha voluto giocare con Valentina, senza nessun pregiudizio. **Io vengo dalla Polonia dove, ancora oggi, mia figlia dovrebbe frequentare una scuola speciale in cui potrebbe confrontarsi solo con la disabilità.**
 

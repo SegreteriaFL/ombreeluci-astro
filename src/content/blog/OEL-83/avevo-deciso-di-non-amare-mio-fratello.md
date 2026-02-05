@@ -4,8 +4,8 @@ date: 2003-09-04
 author: Mariangela Bertolini
 slug: avevo-deciso-di-non-amare-mio-fratello
 lang: it
-numero_rivista: 83
-id_numero: OEL-83
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-83"
 issue_number: OEL-83
 wp_id: 26977
 original_url: "https://www.ombreeluci.it/?p=26977"
@@ -15,7 +15,6 @@ umap_x: 5.16234016418457
 umap_y: 10.081314086914062
 umap_z: 9.25711441040039
 ---
-
 Ero allora figlia unica, carina, coccolata, ma mi sentivo sola. Quando la mamma mi disse che aspettava un bambino, fui pazza di gioia. Ma immaginavo un fratellino straordinario che mi assomigliava e che non mi avrebbe mai lasciato. Quando Patrick è nato lo mostravo tutta fiera ai miei amici. Lo toccavamo, gli davano dei pizzichi, ma lui non reagiva. A cinque mesi qualche cosa cominciò a preoccupare la mamma. Sembrava così immobile, come intorpidito e il suono dei suoi pianti era strano, come quello di un gattino.
 
 **Abbiamo allora portato Patrick da numerosi dottori.** Il tredicesimo che lo esaminò in silenzio, disse che aveva la sindrome “cri du chat” (Vedi Ombre e Luci n. 73-2001. ). Chiesi che cosa volesse dire. Mi guardò con compassione e con molta delicatezza disse: “Tuo fratello non camminerà e non parlerà mai. È una malattia cromosomica che colpisce un bimbo su 50.000 e rende i bambini ritardati”. La mamma fu scossa, io furiosa. Pensavo che non era giusto.

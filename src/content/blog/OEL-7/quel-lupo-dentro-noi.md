@@ -12,7 +12,8 @@ umap_x: 8.347136497497559
 umap_y: 12.007667541503906
 umap_z: 10.668349266052246
 issue_number: OEL-7
-id_numero: OEL-7
+id_numero: "OEL-7"
+numero_rivista: "Ombre e Luci"
 ---
 Nella comunità dell’
 *Arche*

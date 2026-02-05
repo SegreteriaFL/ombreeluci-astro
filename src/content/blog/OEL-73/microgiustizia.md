@@ -12,7 +12,8 @@ umap_x: 4.946605682373047
 umap_y: 8.373827934265137
 umap_z: 8.67422866821289
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 Quando subiamo un torto, ci viene subito alle labbra: «Ma questo non è giusto!» Ci sdegnamo facilmente, a volte in modo sproporzionato. Si parlava, nel numero scorso, di «nostalgia di comunione» come di una speranza che ogni uomo conosce fin dal suo nascere. Ma, non c’è forse, in noi, strettamente legato a quella speranza, un urgente bisogno di giustizia?
 

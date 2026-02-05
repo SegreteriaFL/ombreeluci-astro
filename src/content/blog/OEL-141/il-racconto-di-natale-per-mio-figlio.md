@@ -12,7 +12,8 @@ umap_x: 5.779741287231445
 umap_y: 5.9627861976623535
 umap_z: 12.104032516479492
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 Èla vigilia di Natale, poco prima di pranzo. A un certo punto, per controllare l'ora, guardo il cellulare: l'icona di whatsapp ha un numero altissimo di messaggi non letti. Eppure non ho sentito alcuna vibrazione... Controllo, e realizzo che a essere bollente è la chat (silenziata) della mia comunità di Fede e Luce. **La mamma di un ragazzo è ricoverata in ospedale; è molto grave. Parte il tam tam: chi può farsi carico di lui? Chi può accoglierlo il 24 e il 25 dicembre, in attesa che la persona che a volte se ne occupa torni a lavorare?**
 

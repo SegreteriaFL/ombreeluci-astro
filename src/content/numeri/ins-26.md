@@ -1,15 +1,28 @@
 ---
 id: "INS-26"
-title: "Insieme n. 26 - Bollettino Fede e Luce - 1980"
+title: "Insieme n. 26 – Bollettino Fede e Luce – 1980"
 tipo: "insieme"
 numero: 26
-anno: "1980"
+sort_order: 26
+pubDate: "1980-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 1980"
 sommario: "Rivista Insieme di Fede e Luce: esperienze comunitarie, riflessioni spirituali e testimonianze dal movimento per l'integrazione di persone con disabilità e le loro famiglie."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-26-set-1980.webp"
 link_sfoglia: "https://archive.org/details/insieme-26_202309/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-26_202309/insieme%2026%20set%201980.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-26-bollettino-fede-e-luce-1980/"
+articoli:
+  - "uno-due-tre-stella"
+  - "ci-hanno-scritto-insieme-n-26"
+  - "dalla-parte-di-lazzaro"
+  - "5-anni-di-casetta"
+  - "andiamo-alla-casetta"
+  - "via-plinio-30"
+  - "consumare-lo-stesso-pasto"
+  - "telegramma-educarsi-insieme-crescere-con-gli-altri-per-il-bene-di-tutti"
+  - "vita-fede-e-luce-insieme-n-26"
+  - "letture-consigliate-n-26"
+  - "un-problema-che-non-so-risolvere"
 ---
 
 ## Indice

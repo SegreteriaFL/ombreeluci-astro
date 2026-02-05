@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 Il discorso della Montagna è il cuore del messaggio evangelico, tutto rivolto agli umili, ai poveri, ai deboli e alle persone vulnerabili: i piccoli, gli esseri insignificanti agli occhi di questo mondo, quelli che vengono sempre lasciati in disparte. È un messaggio di speranza, di amore e di guarigione. Le persone disabili, di fatto, con la loro semplice esistenza, annunciano Gesù e il messaggio del Vangelo. Gesù chiama i suoi discepoli a diventare servi e amici e non maestri; se sono amici suoi, devono diventare anche amici dei deboli e dei poveri. Li chiama a diventare “come bambini”: fiduciosi, aperti, pieni di stupore e di riconoscenza.
 

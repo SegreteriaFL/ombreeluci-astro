@@ -12,7 +12,8 @@ umap_x: 4.353780269622803
 umap_y: 7.751882553100586
 umap_z: 10.295019149780273
 issue_number: OEL-75
-id_numero: OEL-75
+id_numero: "OEL-75"
+numero_rivista: "Ombre e Luci"
 ---
 ### A proposito di Microgiustizia
 

@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-44
+id_numero: "OEL-44"
+numero_rivista: "Ombre e Luci"
 ---
-
 La Nostra Famiglia ha istituti fra i migliori in Italia, e probabilmente nel mondo, per sviluppare al massimo le possibilità dei bambini disabili, dai leggeri ai più gravi.
 In particolare ci interessa questa volta una esperienza di catechesi (1) che sfocia ogni anno in due sacre rappresentazioni, a Natale e Pasqua, e che coinvolge tutti i bambini e ragazzi e le persone che lavorano nell'istituto e anche altre del paese vicino, che è Conegliano in provincia di Treviso. Il particolare interesse è suscitato dal fatto che la sacra rappresentazione sarà portata al convegno sulla catechesi delle persone disabili mentali organizzato a Roma dalla Conferenza dei Vescovi Italiani (CEI) dal 26 al 29 gennaio.
 (1) Una esperienza di questo genere, per aiutare gli insegnanti a raggiungere questi risultati è descritto nel libro «[E la vita esploderà](http://www.ombreeluci.it/1993/e-la-vita-eplodera-itinerari-didattico-educativi-per-linsegnamento-della-religione-cattolica/)» di chiaromonte, M. G. Granbassi, R. Zanella (ed. Elle DiCi) che presentammo su [Ombre e Luci 3/93](http://www.ombreeluci.it/project/numero-43-quando-scende-la-sera/).

@@ -12,7 +12,8 @@ umap_x: 5.045475006103516
 umap_y: 7.878851413726807
 umap_z: 11.081388473510742
 issue_number: OEL-153
-id_numero: OEL-153
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
 ### Domenica è non star soli
 

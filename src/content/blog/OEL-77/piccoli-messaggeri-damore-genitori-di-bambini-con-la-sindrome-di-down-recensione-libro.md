@@ -4,8 +4,8 @@ date: 2002-03-08
 author: Cristina Pesci
 slug: piccoli-messaggeri-damore-genitori-di-bambini-con-la-sindrome-di-down-recensione-libro
 lang: it
-numero_rivista: 77
-id_numero: OEL-77
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-77"
 issue_number: OEL-77
 wp_id: 23753
 original_url: "https://www.ombreeluci.it/?p=23753"
@@ -17,7 +17,6 @@ umap_x: 6.25405740737915
 umap_y: 10.752533912658691
 umap_z: 5.923642635345459
 ---
-
 In un libro-album **"Piccoli Messaggeri d’amore”, genitori di bambini con la sindrome di down,** riuniti nel 1991 in un gruppo coordinato da Francesca Corneli dell’Equipe della [Nostra Famiglia di Vedano Olona](https://lanostrafamiglia.it/) , **raccontano l’esperienza del cammino percorso dal momento dello shok della nascita fino alla scoperta graduale e inattesa di questo figlio diverso, cosi facile da amare e così generoso, lui stesso, nel dare amore** .
 
 **Ma come è nato questo libro?** In quasi tutte le testimonianze portate inizialmente dai genitori all’interno del Gruppo venivano messi in evidenza due momenti particolarmente difficili: la grave crisi successiva alla comunicazione della diagnosi, e l’ansia, avvertita da subito e non soddisfatta, di “potersi in qualche modo prefigurare il futuro di un evento così disorientante” attraverso il confronto con famiglie che avevano già vissuto questa esperienza.

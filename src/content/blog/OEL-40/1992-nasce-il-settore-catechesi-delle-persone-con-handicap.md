@@ -12,8 +12,9 @@ umap_x: 9.401463508605957
 umap_y: 10.297319412231445
 umap_z: 8.63611888885498
 issue_number: OEL-40
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 Si è costituito il Gruppo Nazionale di coordinamento della catechesi nell’area dell’handicap. nato da persone che operano in specifici e vari settori dell’handicap. Il gruppo svolge funzioni di coordinamento, di riflessione e di animazione. In questa prima fase di attività si è ritenuto opportuno partire da una rilevazione sulla situazine mettendo in evidenza una serie di problemi che sarà necessario esaminare e ai quali occorre dare possibili soluzioni.
 - Un primo problema è l’evangelizzazione nell’area dell’handicap, nelle famiglie e nella comunità. - Il problema dell’ammissione ai sacramenti e della celebrazione dei sacramenti per le persone portatrici di handicap. Come fare la catechesi... - La sensibilizzazione dei sacerdoti anzitutto i parroci, formatori e guide delle loro comunità anche e soprattutto su questo problema; gli organismi parrocchiali e le persone responsabilizzate nell’attività pastorale, i catechisti, devono conoscere la «vocazione» e la «missione» dei sofferenti. - L'approfondimento di tematiche (la sofferenza, la croce, celebrazione dei sacramenti, testimonianza della carità...). - La formazione dei catechisti, anche sul campo... dove è possibile, aggiornamenti, *stages* ... - Altro problema è quello di promuovere la formazione alla famiglia, affermare il valore premine-:e della qualità della vita, cioè dello sviluppo dei valori con e oltre l’handicap, promuove-e educazione di tutta la società umana a rivedere la logica dell’efficientismo e del profitto posta oggi come valore fondamentale.
 È importante allora fare una costante azione catechistica.

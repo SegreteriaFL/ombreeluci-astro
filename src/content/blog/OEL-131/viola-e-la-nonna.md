@@ -12,7 +12,8 @@ umap_x: 3.5597665309906006
 umap_y: 10.346694946289062
 umap_z: 8.589317321777344
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 “La mamma questa volta si è proprio arrabbiata”, pensa Viola, “e dire che volevo solo starle vicina”. Eppure la mamma l’aveva avvertita.
 

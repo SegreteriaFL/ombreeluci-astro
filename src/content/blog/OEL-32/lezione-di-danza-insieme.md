@@ -12,8 +12,9 @@ umap_x: 8.736126899719238
 umap_y: 7.702497959136963
 umap_z: 9.4362211227417
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 S
 ono le 16,30 di una domenica. Siamo circa quaranta persone, riunite insieme nella sala della parrocchia. Aspettiamo una signora che abbiamo invitato perché ci insegni la danza. L’età media degli allievi è sui quarant’anni, ma c’è chi ne ha sette e chi ottanta. C’è chi sta bene diritto sulle gambe, c’è chi è provato dai dolori della vecchiaia, c’è chi ha qualche problema di deambulazione, c’è chi è un po’ irrequieto o instabile, c’è chi è un po' vergognoso e timido... La signora entra; al vederci sembra un po’ smarrita, ma non lo dà a vedere. Anzi, sistema il suo registratore sul tavolo, chiama al centro della sala i dodici fra noi che vogliano lanciarsi per primi. Si fanno avanti i più coraggiosi, ragazzi e ragazze sui vent’anni, disinibiti e disinvolti nel loro jeans e maglioni colorati. Fra loro c’è Viviana. Non me ne ero accorta subito. Viviana ha quarant'anni passati, è piccola di statura, è sempre elegante, ha un viso spiritoso; a volte allegra, più spesso un po’ scontrosa. Le piace stare per conto suo. Ha perso ambedue i genitori; vive con un’amica. Ha un notevole difetto all’anca, difetto che nasconde molto bene non parlandone mai e facendo come se non ci fosse. Così come non si cura di avere un cromosoma di troppo. I dodici si dispongono in quadrato, tre per lato: al centro di ogni terna c’è un «cavaliere» con accanto due «dame». La maestra spiega i passi da fare, le figure, il ritmo, gli scambi fra persone, gli inchini, la posizione delle mani.
 **Un clic del registratore dà il via alla musica e alla danza.**

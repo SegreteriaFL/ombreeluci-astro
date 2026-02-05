@@ -14,7 +14,8 @@ umap_x: 6.814425468444824
 umap_y: 7.91391658782959
 umap_z: 9.375885009765625
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 «Belvanie una volta mi ha detto: “Se non puoi amarmi tu, non potrà farlo nessun altro”. Fu una doccia fredda: significava che quelle che mi sembravano piccole cose insignificanti rappresentavano tutto per lei. Il percorso scolastico, l’alfabetizzazione di base passavano in secondo piano. **Una ragazza di 19 anni con una disabilità cognitiva importante, mi faceva capire che aveva sofferto qualcosa che non ci è concesso sapere** , che si spogliava di ogni muro protettivo e che c’era bisogno di qualcosa in più».
 

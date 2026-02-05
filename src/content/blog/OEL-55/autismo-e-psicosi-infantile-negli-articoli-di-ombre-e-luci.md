@@ -4,8 +4,8 @@ date: 1996-09-27
 author: Redazione
 slug: autismo-e-psicosi-infantile-negli-articoli-di-ombre-e-luci
 lang: it
-numero_rivista: 55
-id_numero: OEL-55
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-55"
 issue_number: OEL-55
 wp_id: 10890
 original_url: "https://www.ombreeluci.it/?p=10890"
@@ -15,7 +15,6 @@ umap_x: 6.405588626861572
 umap_y: 8.551698684692383
 umap_z: 6.469479084014893
 ---
-
 **[Ombre e Luci n.6, 1984](http://www.ombreeluci.it/project/numero-6-il-mistero-del-bambino-psicotico/)** [«Il mistero del bambino psicotico»](http://www.ombreeluci.it/1984/il-mistero-del-bambino-psicotico/) — Marie Hélène Mathieu [Figlio mio non credo](http://www.ombreeluci.it/1984/figlio-mio-non-credo/) — Delia Mitolo [È sempre stato rifiutato](http://www.ombreeluci.it/1984/e-sempre-stato-rifiutato/) — Lina Cusimano [La legge sull'integrazione](http://www.ombreeluci.it/1984/la-legge-sullintegrazione/) — Vincenzo e Irene Ruisi [“La riabilitazione nella scuole”. Ma la bambina non è tenuta in classe](http://www.ombreeluci.it/1984/la-riabilitazione-nella-scuole-ma-la-bambina-non-e-tenuta-in-classe/) — *L.N.* [Nessun uomo è una pietra](http://www.ombreeluci.it/1984/nessun-uomo-e-una-pietra/) — Yves Pelicier. « [Oltre la scienza, umanità e buon senso. Una comunità terapeutica](http://www.ombreeluci.it/1984/oltre-la-scienza-umanita-e-buon-senso-in-un-centro-per-la-cura-della-psicosi/) » — Nicole Schulthes, Sergio Sciascia.
 
 **[Ombre e Luci n.18, 1986](http://www.ombreeluci.it/project/numero-18-il-comportamento-un-messaggio/)** [Parla senza parole](http://www.ombreeluci.it/1987/parla-senza-parole/) — Delia Mitolo

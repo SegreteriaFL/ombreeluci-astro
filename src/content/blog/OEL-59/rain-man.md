@@ -4,8 +4,8 @@ date: 1997-09-19
 author: Redazione
 slug: rain-man
 lang: it
-numero_rivista: 59
-id_numero: OEL-59
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-59"
 issue_number: OEL-59
 wp_id: 11628
 original_url: "https://www.ombreeluci.it/?p=11628"
@@ -17,7 +17,6 @@ umap_x: 8.638653755187988
 umap_y: 8.701797485351562
 umap_z: 3.3103091716766357
 ---
-
 Rain man , (id.), 1988 , USA, B. Levinson - Un giovane si trova a dividere un’ingente eredità con il fratello autistico , di cui non sapeva nulla. Ritrovare un familiare che non aveva mai conosciuto sarà una vera scoperta sia per le difficoltà che per l’eccezionalità che il fratello manifesta in alcune occasioni. Un’esperienza che porta disordine e riflessione in una vita troppo arida e programmata. Rain man ha fatto conoscere al grosso pubblico il problema dell’autismo anche se forse negli aspetti più simpatici e anche stupefacenti. Eccezionale la interpretazione di Dustin Hoffman nella parte dell’autistico.
 
 **Hai trovato punti in comune tra tuo fratello e il protagonista?** Ho trovato molto simili le espressioni facciali, la ripetitività gestuale e la ripetizione di determinate frasi che perdono il loro significato reale. Anche Federico è molto abitudinario: come Ray ha bisogno di punti fermi durante il giorno, come la sicurezza di andare a scuola ogni mattina, e le sue abitudini non vanno modificate, o va in crisi.

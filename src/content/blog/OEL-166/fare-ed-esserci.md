@@ -12,7 +12,8 @@ umap_x: 9.113934516906738
 umap_y: 7.5307936668396
 umap_z: 10.320359230041504
 issue_number: OEL-166
-id_numero: OEL-166
+id_numero: "OEL-166"
+numero_rivista: "Ombre e Luci"
 ---
 Entrai a far parte di un gruppo scout *Agesci* a 8 anni. Una delle primissime cerimonie a cui partecipai fu la consegna del fazzolettone con i colori del mio gruppo: il capo fece due nodini alle estremità di questo importante simbolo, promemoria visivo delle buone azioni che avrei dovuto compiere quotidianamente per dimostrare di essere un bravo lupetto. Questo ricordo mi aiuta a sintetizzare un concetto fondamentale: **non si può parlare di scoutismo senza parlare di servizio.**
 

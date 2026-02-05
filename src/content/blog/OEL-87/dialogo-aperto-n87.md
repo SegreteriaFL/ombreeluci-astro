@@ -4,8 +4,8 @@ date: 2004-09-13
 author: Redazione
 slug: dialogo-aperto-n87
 lang: it
-numero_rivista: 87
-id_numero: OEL-87
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-87"
 issue_number: OEL-87
 wp_id: 30450
 original_url: "https://www.ombreeluci.it/?p=30450"
@@ -15,7 +15,6 @@ umap_x: 4.575196266174316
 umap_y: 8.010954856872559
 umap_z: 10.390124320983887
 ---
-
 ### Brava, namma!
 
 È stata una grande emozione ...Andrea, che temevo si offendesse per ciò che avevo detto anche con brutale franchezza si è complimentato dicendomi le testuali parole: “Sei vera, sincera, brava mamma!”...Luca, il figlio “sano”, ha esitato a leggerla e poi ha nascosto l'emozione dietro una battuta, ma ha fatto la fotocopia, e con il mio permesso, l'ha fatta leggere alla sua (spero per sempre) ragazza! Grazie, carissime, per questo momento di forte unione tra noi quattro che ci sentiamo e siamo sempre coinvolti da difficoltà di ogni genere! Ora con grande dolore penso ai miei genitori, a Roma, ben accuditi da una brava ragazza ucraina, ma pur sempre “poveri”: mio padre da tre anni trasformato dall'Alzheimer in una creatura bisognosa di tutto, fragile più di un neonato, perché ogni giorno peggiora anche la comunicazione e, se fino all'anno scorso, mi diceva “bella di papà” ora è inerte, apparentemente lontano da tutto, ma non dai baci e dalle carezze che gli vengono donate da Ada, sua moglie da 60 anni e da chi lo va a trovare. Nella sua umanità fatta appunto di Ombre e Luci, eravamo abituati a vedere, ingiustamente, in lui più i difetti che i suoi pregi e questo periodo di silenzio ci ha fatto capire la nostra durezza nel giudicarlo e la difficoltà di comunicare e di dirsi le cose belle e brutte in modo sereno. Anch'io ho capito di averlo sempre giudicato, e poco amato, quasi mi spettasse sempre dall'altro la comprensione perché il “mio grande dolore” era diventato il centro, il paravento per non accorgermi del dolore altrui cominciando dai limiti dei | miei genitori! È un gran mistero sia la sofferenza, sia l'Amore di Dio così infinito da perdercisi... Vi benedico perché attraverso il giornale mi aiutate a ricordare che la vita è fatta del quotidiano piccolo e ripetitivo, ma avvolto dalle braccia amorose di Dio Padre e Madre!...

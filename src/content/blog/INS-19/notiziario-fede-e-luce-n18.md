@@ -12,8 +12,9 @@ umap_x: 8.025907516479492
 umap_y: 8.086069107055664
 umap_z: 13.35184097290039
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Il 31 marzo, 1 e 2 aprile, 600 pellegrini Fede e Luce si sono ritrovati ad Assisi. Ecco gli echi dei nostri amici di...
 
 ### Cuneo

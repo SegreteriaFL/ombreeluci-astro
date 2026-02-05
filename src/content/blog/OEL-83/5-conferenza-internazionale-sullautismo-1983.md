@@ -4,8 +4,8 @@ date: 2003-09-03
 author: Elisabetta De Rino
 slug: 5-conferenza-internazionale-sullautismo-1983
 lang: it
-numero_rivista: 83
-id_numero: OEL-83
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-83"
 issue_number: OEL-83
 wp_id: 26905
 original_url: "https://www.ombreeluci.it/?p=26905"
@@ -15,7 +15,6 @@ umap_x: 7.066019535064697
 umap_y: 8.097973823547363
 umap_z: 6.667172431945801
 ---
-
 L
 a 5° Conferenza Internazionale sull’Autismo si è svolta a Pordenone il 22 marzo scorso, voluta ed organizzata dalla
 [Fondazione Bambini e Autismo](https://www.bambinieautismo.org/)

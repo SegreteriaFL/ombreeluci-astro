@@ -14,8 +14,9 @@ umap_x: 6.689487934112549
 umap_y: 8.291533470153809
 umap_z: 7.648752212524414
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Come nasce lo Yoga per Bambini e Adolescenti con Bisogni Speciali?
 
 Un giorno una mamma mi ha contattata con una richiesta che mai avrei immaginato: **praticare Yoga con Alessandro, il suo bambino cerebroleso di 6 anni** .

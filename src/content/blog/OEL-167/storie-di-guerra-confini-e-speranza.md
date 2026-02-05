@@ -12,7 +12,8 @@ umap_x: 8.968585014343262
 umap_y: 8.235001564025879
 umap_z: 3.4712977409362793
 issue_number: OEL-167
-id_numero: OEL-167
+id_numero: "OEL-167"
+numero_rivista: "Ombre e Luci"
 ---
 Vediamo sempre più spesso documentari in cui gli ospiti delle comunità psichiatriche sono i protagonisti: come se oggi si ritenesse più utile concentrarsi sulle persone anziché sul funzionamento delle strutture che li ospitano (cosa più sensata, a opinione di chi scrive, quando bisognava mettere in evidenza le implicazioni sociali dei manicomi, e poi della loro chiusura).
 

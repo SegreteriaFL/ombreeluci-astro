@@ -17,7 +17,8 @@ umap_x: 7.624386787414551
 umap_y: 7.7799506187438965
 umap_z: 9.198452949523926
 issue_number: OEL-11
-id_numero: OEL-11
+id_numero: "OEL-11"
+numero_rivista: "Ombre e Luci"
 ---
 **Com'è sorta la [*Casa di Gino*](http://casadigino.org) e perché si chiama così?** Nacque nel 1946 quando fu mandato qui un religioso guanelliano con sei ragazzi disadattati. C’erano ancora i coloni. Il terreno, 32 ettari, apparteneva a una famiglia benestante che l’aveva comperato per l’unico figlio, Gino, il quale però era morto in uno scontro aereo, durante l’ultima guerra. In suo ricordo i genitori avevano voluto donare il terreno a una congregazione che si dedicasse a giovani abbandonati. I guanelliani, tramite il parroco di Lora, avevano accettato la donazione. I primi ragazzi che vennero qui, erano solo disadattati; impararono a lavorare la terra e si inserirono poi nella vita. Quando qui si fa festa, vengono ancora a trovarci, anzi qualcuno di loro svolge attività tecnico-educativa con gli ospiti attuali.
 

@@ -12,7 +12,8 @@ umap_x: 7.8890156745910645
 umap_y: 7.281567573547363
 umap_z: 10.337336540222168
 issue_number: OEL-114
-id_numero: OEL-114
+id_numero: "OEL-114"
+numero_rivista: "Ombre e Luci"
 ---
 Ho iniziato ad andare al campo rom questo anno senza aver mai fatto un’esperienza di volontariato prima. Il campo si trova a Spinaceto ed è composto da prefabbricati, camper, roulotte e baracche, anche se il mese scorso hanno fatto sbaraccare tutti coloro che risiedevano in abitazioni non legali.
 

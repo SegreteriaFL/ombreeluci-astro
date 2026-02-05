@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 *"Il ritardato mentale ha diritto ad adeguate cure mediche, all'aiuto fisico e all'educazione, alla rieducazione e riabilitazione fisica tale da permettergli di sviluppare al massimo grado possibile le sue capacità, indipendentemente dalla gravità delle sue condizioni. Nessun ritardato mentale deve essere privato di tali cure per ragioni economiche".*
 Articolo n. 2 della Dichiarazione dei Diritti generali e speciali degli handicappati mentali**, adottata dalla Associazione della Lega Internazionale della Società per handicappati mentali. 24 ottobre 1968
 

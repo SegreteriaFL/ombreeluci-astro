@@ -12,8 +12,9 @@ umap_x: 8.109970092773438
 umap_y: 12.217560768127441
 umap_z: 11.062727928161621
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 Carissimo Jean, è da tempo che desideravo scriverti una lettera. Tu nemmeno mi conosci, anche se ci siamo incontrati qualche volta ma io conosco la tua storia, ti ho ascoltato in assemblee diverse volte e una volta ti ho baciato sulle guance, perciò permettimi di darti del “tu”. Nel 1993 ho sentito parlare per la prima volta di te ed ho partecipato ad una vacanza con alcuni ragazzi handicappati ed alcuni amici di Fede e Luce: avevo 18 anni.
 
 Vorrei, con questa lettera, ringraziarti della tua testimonianza e renderti partecipe di come Fede e Luce ha trasformato la mia vita e continua a darmi spunti per vivere meglio anche oggi. Ho molti ricordi, tanti episodi vissuti mi hanno donato qualcosa, mi hanno fatta riflettere, hanno agito nel mio intimo. Proverò a raccontarti una cosa; ci tengo perché spero e penso che ti faccia piacere, a questo punto della tua vita, poter conoscere i frutti del tuo lavoro, del tuo impegno, anche se tutto poi ti verrà rivelato… Ho sempre frequentato gruppi parrocchiali; prima di entrare in Fede e Luce facevo parte di un gruppo post-cresima. La mia catechista un giorno disse che era giunto il momento di mettere in pratica la Parola così il gruppo si sciolse e io, su invito di un amico che già era in Fede e Luce decisi di entrare in questo gruppo. Il mio intento era quello di “fare del bene a persone più sfortunate di me”. Avevo poi una particolare predilezione per le persone “più difficili”. Dopo non molto tempo però mi accorsi di come era faticoso, impegnativo e, a volte, non lo nascondo, fastidioso dover aiutare i ragazzi disabili a mangiare, a cambiarsi, asciugargli la bocca, accompagnarli nel camminare, insomma ben presto era divenuto proprio un sacrificio nonostante i canti, la festa. Non ero capace di guardare alle persone disabili come a persone con cui entrare in una vera relazione, da cui poter ricevere qualcosa. Da questa “attività” ricevevo la gratificazione di aver fatto “una buona azione”, ma qualcosa stonava...

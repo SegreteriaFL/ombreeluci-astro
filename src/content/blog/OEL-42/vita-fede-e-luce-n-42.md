@@ -12,7 +12,8 @@ umap_x: 7.654209136962891
 umap_y: 7.589053630828857
 umap_z: 12.601249694824219
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 ### San Benedetto del Tronto - Le nostre casette
 

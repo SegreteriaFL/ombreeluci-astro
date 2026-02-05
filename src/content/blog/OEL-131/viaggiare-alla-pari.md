@@ -14,7 +14,8 @@ umap_x: 9.1078462600708
 umap_y: 8.084181785583496
 umap_z: 12.124761581420898
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Ho avuto il piacere di accompagnare, in questo pellegrinaggio, il gruppo di Cesano Boscone e Rho. Mi sono trovato molto bene. Mi sono anche divertito. Ho fatto amicizie favolose, sia amici che
 *ragazzi*

@@ -7,6 +7,7 @@ cluster_id: 12
 image: "http://www.ombreeluci.it/wp-content/uploads/1985/03/sergio-sciascia.jpg"
 slug: "crescere-insieme"
 has_comments: false
+id_numero: "OEL-9"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

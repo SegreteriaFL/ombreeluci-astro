@@ -16,7 +16,8 @@ umap_x: 6.6519246101379395
 umap_y: 9.162025451660156
 umap_z: 6.741527080535889
 issue_number: OEL-21
-id_numero: OEL-21
+id_numero: "OEL-21"
+numero_rivista: "Ombre e Luci"
 ---
 Per scrivere questa testimonianza, ho cominciato col ricordare la lunga cronologia della malattia di Stefano, dai primi sintomi allarmanti verso l’età dei 15 anni: le nostre prime reazioni di rifiuto di fronte al suo comportamento incomprensibile, i nostri sensi di colpa spesso amplificati dalle parole degli psichiatri... I periodi di crisi alternati ai periodi di superamento, i passaggi da ospedali a centri di post-cura, i tentativi di ripresa nelle scuole superiori, il ritorno ad ambizioni più modeste. Dobbiamo riconoscere che dopo l’accumularsi di tante prove, ci sentivamo logorati, vulnerabili, irritabili, chiusi. Più difficile di tutto è senz’altro l’inquietudine continua quando Stefano sparisce per 15 giorni nei dintorni, quando troviamo pezzetti di carta su cui parla di suicidio; quando trasforma la casa in un campo di trincea, quando il medico dice: «È il prototipo dello schizofrenico», quando ci viene annunciata una serie di elettro-narcosi, quando ci viene detto: «Non possiamo far granché per lui; riprendetelo».
 

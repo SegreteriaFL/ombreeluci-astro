@@ -15,7 +15,8 @@ umap_x: 5.267295837402344
 umap_y: 7.865687370300293
 umap_z: 11.311661720275879
 issue_number: OEL-171
-id_numero: OEL-171
+id_numero: "OEL-171"
+numero_rivista: "Ombre e Luci"
 ---
 ### Sono contenta!
 

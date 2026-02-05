@@ -7,6 +7,7 @@ cluster_id: 1
 image: "https://www.ombreeluci.it/wp-content/uploads/2022/06/Edo-3.jpg"
 slug: "chiediamo-a-zampetta-e-romeo"
 has_comments: false
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Rappresentanti di Siria, Palestina, Egitto, Kenya, Haiti, Messico, Honduras, Filippine, Slovenia, Croazia, Polonia, Olanda, Ucraina, Lituania: con loro, in rappresentanza della comunità Il Chicco, ho partecipato dal 25 al 28 maggio sulla piattaforma Zoom a una formazione dell’Arca Internazionale. Un contesto veramente internazionale, tante differenze ma anche tanti elementi in comune. Tra questi sicuramente il fatto di aver condiviso l’esperienza di due tsunami che ci hanno travolto: i risultati dell’inchiesta su Jean Vanier e, quasi contemporaneamente, l’emergenza covid-19.
 
 Stephan Posner e Stacy Cates-Carney, i responsabili dell’Arca Internazionale, hanno guidato la formazione sostenendo ed incoraggiando le comunità nella ricerca di un nuovo terreno su cui poggiare i piedi per ritrovare stabilità. Ognuno di noi ha rivolto molte domande ai responsabili, per molti è stato difficile comunicare alla propria comunità ciò che è emerso dall’inchiesta e, ancor di più, elaborarlo. C’è chi esprime incredulità e smarrimento ancora oggi.

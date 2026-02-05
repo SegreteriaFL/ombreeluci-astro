@@ -14,8 +14,9 @@ umap_x: 6.933969974517822
 umap_y: 6.880351543426514
 umap_z: 7.06622838973999
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Secondo me dobbiamo essere realistici. Cioè: conosciamo i nostri figli meglio di ogni altra persona, più o meno colta di noi. Spetta infatti ai genitori innanzitutto saper osservare, annotare, riferire a chi deve impostare la rieducazione. **Nei ragazzi meno gravi riconosciamo la possibilità di frequentare la scuola normale** ; in tal caso è giusto che venga inserito. **Per gli altri più gravi invece la scuola differenziale** [nota]Le classi differenziali erano delle classi scolastiche destinate ad alunni diversamente abili o affetti da disturbi dell'apprendimento o problemi di socializzazione. Sono state abolite con legge 517 del 4 agosto 1977 (N.d.R)[/nota] **rimarrà sempre** .
 
 Non perché vogliamo il "ghetto" come qualcuno ci ha accusati (costoro non sanno quanto si soffre nel portare i nostri figli in una scuola diversa, quando, alla loro età, potrebbero frequentare quella dei fratelli).

@@ -4,8 +4,8 @@ date: 1999-12-17
 author: Redazione
 slug: proprio-una-normalissima-famiglia
 lang: it
-numero_rivista: 68
-id_numero: OEL-68
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-68"
 issue_number: OEL-68
 wp_id: 13044
 original_url: "https://www.ombreeluci.it/?p=13044"
@@ -17,7 +17,6 @@ umap_x: 6.925631523132324
 umap_y: 8.971009254455566
 umap_z: 11.792828559875488
 ---
-
 C'è sempre un po' di titubanza quando ci viene richiesto di raccontare la nostra esperienza di famiglia, comincerò quindi con una piccola presentazione, per poter poi parlare come tra amici; infatti io conosco Fede e Luce attraverso racconti, persone, Ombre e luci..., ma la maggior parte di voi non conosce noi: siamo una famiglia che vive a Piacenza, formata "al momento" da 9-10 persone - non siamo una casa-famiglia, una comunità o altro - proprio una normalissima famiglia con i ritmi e le esigenze tipici di tutte le famiglie: il lavoro di noi due genitori, la scuola dei figli, gli sport, la parrocchia, ecc.
 
 Perché allora ci viene chiesto di raccontarvi qualcosa di noi? Probabilmente perché degli otto bimbi e ragazzi che abbiamo in casa (più i due già grandi che ormai vivono da soli), solo cinque sono nostri figli, o perlomeno solo cinque sono nostri figli nel comune (e bellissimo) senso del termine. Gli altri sono quattro ragazzi e una bimba che, in tempi e con modalità diversi, hanno vissuto o vivono presso di noi in affidamento familiare. Allora ecco le domande, un po' di tutti i tipi: perché farlo? Ma i vostri figli cosa ne pensano? Poi come si fa a separarsi? È difficile organizzarsi? I servizi sociali aiutano? Come sono i rapporti con i genitori? C entra la fede?

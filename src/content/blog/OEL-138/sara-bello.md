@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-138
-id_numero: OEL-138
+id_numero: "OEL-138"
+numero_rivista: "Ombre e Luci"
 ---
 “Ho fatto una forte esperienza spirituale e pastorale, stimolato dalle provocazioni di papa Francesco. Durante gli esercizi spirituali riflettevo sullo scarto, di cui il papa sembrava parlare quasi fino alla nausea. Allora mi sono detto, cominciamo dalla parola di Dio: chi sono gli scartati nella Bibbia?”. Li trova ad esempio in Davide, Giuseppe… Gesù stesso. La sua riflessione si condensa in un libro “Gli scartagonisti” (recensione a p. 28) il cui fulcro è constatare come “gli scartati dagli uomini, Dio li renda protagonisti, diventando così suoi collaboratori nella salvezza altrui...Nel divino sei protagonista utilissimo collaboratore di Dio - come Maria con quel suo sì - nella realizzazione di un particolare progetto salvifico. Senza il mio sì, non ci sarà una salvezza specifica, di cui il Signore si serve con la mia unicità e diversità. Nasce così la mia idea di scartagonismo: scartati dagli uomini ma non da Dio”.
 

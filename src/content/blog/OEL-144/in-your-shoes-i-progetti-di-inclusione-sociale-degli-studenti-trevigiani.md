@@ -15,8 +15,9 @@ umap_x: 7.50119686126709
 umap_y: 6.844502925872803
 umap_z: 7.387270450592041
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Oltre 100 gli studenti coinvolti nel concorso “
 **In Your Shoes – camminiamo insieme per incontrarci**
 ” che, insieme ad alcune realtà tra associazioni e privato sociale, impegnate nel mondo della disabilità, hanno promosso progetti di inclusione sociale e di scambio tra giovani e persone con disabilità. Vincitore del concorso è stata la classe 4 TUR dell’istituto Lepido Rocco di Motta di Livenza, che ha presentato il progetto “

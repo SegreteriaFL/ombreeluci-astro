@@ -14,7 +14,8 @@ umap_x: 7.631186485290527
 umap_y: 8.881649017333984
 umap_z: 14.08903694152832
 issue_number: OEL-25
-id_numero: OEL-25
+id_numero: "OEL-25"
+numero_rivista: "Ombre e Luci"
 ---
 ### Consiglio di Fede e Luce
 

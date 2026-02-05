@@ -4,8 +4,8 @@ date: 2006-06-21
 author: Cristina Tersigni
 slug: sostegno-psicologico-in-gravidanza
 lang: it
-numero_rivista: 94
-id_numero: OEL-94
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-94"
 issue_number: OEL-94
 wp_id: 31834
 original_url: "https://www.ombreeluci.it/?p=31834"
@@ -17,7 +17,6 @@ umap_x: 7.177582740783691
 umap_y: 12.016744613647461
 umap_z: 5.261998653411865
 ---
-
 Al centro di questo libro si pone l'interesse per i vissuti psicologici ed emotivi che una donna in attesa di un bambino, e tutto il contesto familiare e relazionale in cui ella vive, sperimenta durante la gravidanza ed il ricovero nel reparto di ostetricia. Molto interessante soprattutto per chi opera nel settore, data l’alta specializzazione delle sue pagine, svela molte sfumature di complesse esperienze come la gravidanza ed il parto, in modo comunque lineare e comprensibile. Molto chiaro e puntuale anche nell'affrontare tematiche più difficili, quali quelle che emergono durante un decorso non più fisiologico della gestazione: aborto spontaneo, morte endouterina o interruzione volontaria di gravidanza oppure dei casi in cui una diagnosi prenatale rivela una patologia del nascituro e dei vissuti emotivi che ne conseguono. Situazioni nelle quali la psicologia può svolgere un ruolo veramente importante. Psicologi, psicoterapeuti, ginecologhe, ostetriche e neuropsichiatri infantili contribuiscono al testo attraverso la descrizione delle loro esperienze, teoriche e pratiche, attraverso esempi clinici sul divenire genitori, nella “volontà di comprendere la dialettica tra i diversi approcci per tentare di fissare un modus operandi ed un confronto comune”.
 *Cristina Tersigni*
 , 2006

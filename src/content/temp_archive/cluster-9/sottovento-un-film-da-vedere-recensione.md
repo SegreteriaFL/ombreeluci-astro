@@ -6,6 +6,7 @@ theme: "cluster-9"
 cluster_id: 9
 slug: "sottovento-un-film-da-vedere-recensione"
 has_comments: false
+id_numero: "OEL-75"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

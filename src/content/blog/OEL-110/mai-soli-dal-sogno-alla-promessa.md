@@ -12,7 +12,8 @@ umap_x: 7.842134475708008
 umap_y: 7.519569396972656
 umap_z: 9.527228355407715
 issue_number: OEL-110
-id_numero: OEL-110
+id_numero: "OEL-110"
+numero_rivista: "Ombre e Luci"
 ---
 Attraverso un articolo comparso su Famiglia Cristiana abbiamo saputo dell’esistenza di una associazione nel Canavese, vicino a Torino, dal nome promettente “Volare Alto” e di un suo progetto, “Mai soli”, che ci è parso interessante per tutti coloro che ruotano attorno al mondo di “Ombre e Luci”.
 

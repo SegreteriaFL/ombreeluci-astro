@@ -14,7 +14,8 @@ umap_x: 7.9437384605407715
 umap_y: 10.304935455322266
 umap_z: 6.137495040893555
 issue_number: OEL-27
-id_numero: OEL-27
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
 Èun’opera di riflessione lucida e stimolante sulla persona portatrice di handicap e di informazione su associazioni, gruppi e periodici che se ne occupano; è inoltre una guida aggiornata della legislazione nazionale e regionale su questa particolare fascia di cittadini. **Antonio Guidi, neuropsichiatra, è un osservatore privilegiato** : per dieci anni ha diretto un centro pubblico di riabilitazione nella Regione Marche; oggi è consulente del Ministero della Sanità e della RAI. Egli fa una valutazione dei passi enormi e positivi che sono stati compiuti negli ultimi decenni e di quanto cammino resta ancora da fare. La sua non è soltanto una verifica, ma è una denuncia delle frequenti ambiguità della situazione attuale e una proposta realistica ed originale di possibili vie di uscita.
 

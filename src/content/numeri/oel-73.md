@@ -1,15 +1,36 @@
 ---
 id: "OEL-73"
-title: "Numero 73 - Da un sentiero all’altro"
+title: "Numero 73 – Da un sentiero all’altro"
 tipo: "ombre-e-luci"
 numero: 73
-anno: "2001"
+sort_order: 172
+pubDate: "2001-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 2001"
 sommario: "Numero 73 – Da un sentiero all’altro ultima modifica: 2001-03-08T10:10:57+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_73_2001.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_73"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-73-da-un-sentiero-allaltro/"
+articoli:
+  - "microgiustizia"
+  - "come-separare-un-onda-dal-mare"
+  - "larma-vincente-nella-mia-vita"
+  - "quelle-ore-mi-hanno-segnata"
+  - "mi-hanno-aperto-gli-occhi"
+  - "quando-il-caso-non-e-un-caso"
+  - "spesso-di-notte-in-silenzio"
+  - "due-chiamate-speciali"
+  - "domenica-pomeriggio"
+  - "scout-a-lourdes"
+  - "e-li-ci-hanno-accolto-con-gioia-la-storia-di-unadozione-particolare"
+  - "dialogo-aperto-n-73"
+  - "conoscere-lhadicap-la-sindrome-cri-du-chat"
+  - "associazione-bambini-cri-du-chat"
+  - "assistenza-disabili-in-179-stazioni-ferroviarie"
+  - "poesie-per-francesca"
+  - "catechesi-delle-persone-disabili"
+  - "in-preparazione-del-pellegrinaggio-internazionale-a-lourdes-pasqua-12-16-aprile-2001"
+  - "centro-del-libro-parlato"
 ---
 
 ## Indice

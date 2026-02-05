@@ -12,8 +12,9 @@ umap_x: 9.010773658752441
 umap_y: 10.041285514831543
 umap_z: 9.218369483947754
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 *Pur ammettendo che la Fede degli handicappati mentali è vera, si è soliti credere che il contenuto è povero. Tale almeno era l'opinione di parecchi fra noi fino al giorno in cui l'équipe di LA GLANNE (Francia) decise di porre ad ognuna delle adolescenti ritardate mentali profonde di questa casa, la domanda:* ***"E tu, a che cosa credi?"** . * *Le ragazze - dal 14 ai 20 anni, divise in gruppetti di 8 - si sono espresse a loro modo, con piccole frasi, con qualche parola a volte appena sussurrata, in piena libertà. Le loro riflessioni venivano senza un ordine stabilito dalle diverse parti della tavola. Spesso un'idea ne chiamava un'altra; una giovane completava quello che la sua compagna aveva cominciato a dire. * *Ecco a quanto si è arrivati, prendendo così com'era, sotto dettatura, le parole di queste ragazze: abbiamo rispettato scrupolosamente la loro formulazione, abbiamo riunito le risposte in tre gruppi mettendovi un certo ordine. Vorremmo sottolineare che più della metà di queste giovani sono mongoloidi e che solo due di loro sanno appena leggere. Tuttavia partecipano ad una catechesi offerta sotto forma di "cerchio religioso".* **Henri Bissonier** (Tradotto dal francese - Ombres et Lumière n.50)
 
 Credo in Dio Credo che Dio esiste anche se non lo vediamo Credo che Dio è la luce Dio è grave Dio è onnipotente Dio è grande Dio ama tutti Dio vuole la pace Noi, preghiamo Dio Pensiamo a Lui

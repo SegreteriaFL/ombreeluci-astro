@@ -16,7 +16,8 @@ umap_x: 7.4385762214660645
 umap_y: 9.17949104309082
 umap_z: 12.816405296325684
 issue_number: OEL-19
-id_numero: OEL-19
+id_numero: "OEL-19"
+numero_rivista: "Ombre e Luci"
 ---
 ### Nel cuore del mondo
 

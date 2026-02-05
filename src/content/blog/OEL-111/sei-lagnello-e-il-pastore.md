@@ -14,7 +14,8 @@ umap_x: 8.496636390686035
 umap_y: 9.934863090515137
 umap_z: 10.148696899414062
 issue_number: OEL-111
-id_numero: OEL-111
+id_numero: "OEL-111"
+numero_rivista: "Ombre e Luci"
 ---
 *Dire che la fragilità conferma la funzione sacra del sacerdozio è una grande audacia. Il ministero della fede lo attesta, ama ricordare il padre Geffroy, così come la sua esperienza nei confronti delle persone di strada a Parigi.*
 S

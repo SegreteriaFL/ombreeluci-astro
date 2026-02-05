@@ -14,8 +14,9 @@ umap_x: 7.7359113693237305
 umap_y: 9.037206649780273
 umap_z: 7.769842624664307
 issue_number: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Cammina con le stampelle... cammina con più o meno difficoltà...
 
 **Per aiutarlo:**

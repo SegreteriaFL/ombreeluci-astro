@@ -15,7 +15,8 @@ umap_x: 7.105869770050049
 umap_y: 11.384032249450684
 umap_z: 4.652938365936279
 issue_number: OEL-125
-id_numero: OEL-125
+id_numero: "OEL-125"
+numero_rivista: "Ombre e Luci"
 ---
 Lecadute segnano il passo e i ricordi di un papà che trova nella paternità la filosofia del vivere e morire dell’uomo comune. Attraverso suggestioni surrealiste, in un percorso che ha del magico fatalismo sudamericano. La caduta del battito cardiaco del figlio Tito durante il travaglio, a causa di un intervento inadeguato del medico di turno, che lo avrebbe visto nascere con una paralisi cerebrale; le cadute che quotidianamente fa mentre passeggia e che il papà impedisce; le cadute di tanti personaggi della storia dell’arte e della letteratura, grandi e piccoli, discussi e amati; avvenimenti storici terribili, cadute della nostra umanità.
 

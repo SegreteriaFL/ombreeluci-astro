@@ -7,6 +7,7 @@ cluster_id: 2
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/cover-insieme-n-1.webp"
 slug: "la-vecchia-signora-brontolona"
 has_comments: false
+id_numero: "INS-10"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

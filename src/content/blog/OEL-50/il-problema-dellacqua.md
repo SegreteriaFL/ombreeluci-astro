@@ -14,8 +14,9 @@ umap_x: 9.17663288116455
 umap_y: 7.941202640533447
 umap_z: 12.960665702819824
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 **Domenica 26 ottobre**
 Giorno atteso e desiderato! Armato del mio migliore spirito di collaborazione e scortato da due giovani novizi gesuiti (uno del Madagascar, l’altro dell’Angola), più qualche giovane amico romano, arrivo puntuale, alle 8, alla stazione Tiburtina per accogliere i nostri amici francesi.
 Mi era stato detto: “fai tutto quello che ti dirà il sig. C. (il nostro grande organizzatore).

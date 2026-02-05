@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Così tu, signora anziana, nella comunità sei la prova concreta che Dio ha molta esperienza e molta pazienza:
 
 >

@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Mamma, ci sei?» è la voce di Eugenio che mi chiama distogliendomi dalla correzione dei compiti di matematica.
 Eugenio, 23 anni, 92 Kg. per 1,65 di altezza, affetto da [sindrome di Prader-Willi](http://www.ombreeluci.it/1999/la-sindrome-di-prader-willi/), è un simpatico ragazzo dallo sguardo furbo, capelli biondi e occhi celesti.
 Eugenio riempie tutta la nostra giornata. Appena si sveglia, è contento di andare a Scuola Viva, un centro per la rieducazione dei disabili che lui frequenta da settembre scorso. Accende il registratore che ha sul comodino, mettendo le canzoni che conosce di Venditti, Morandi, Jovannotti, Vianello; ma ancora di più ci diletta con le canzoni dello Zecchino d’oro. Sono queste le cantilene che per lui sono più facili da ripetere.

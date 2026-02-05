@@ -12,7 +12,8 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-130
-id_numero: OEL-130
+id_numero: "OEL-130"
+numero_rivista: "Ombre e Luci"
 ---
 Padre di un ragazzo autistico ormai diciottenne, Gianluca Nicoletti è un noto giornalista che da tempo non esita a mettersi in gioco in prima persona per affrontare questioni legate all’autismo.
 

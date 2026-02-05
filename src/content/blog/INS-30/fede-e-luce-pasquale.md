@@ -14,8 +14,9 @@ umap_x: 8.608781814575195
 umap_y: 8.33980941772461
 umap_z: 13.24919605255127
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 A lle Comunità di « Fede e Luce », in particolare a quanti ho avuto il piacere di incontrare nell’indimenticabile pellegrinaggio pasquale, a Lourdes, rivolgo un saluto con affetto nel Signore.
 
 Conservo il più grato ricordo di quelle luminose giornate. È stata, per me, tra le più emozionanti celebrazioni della passione e della risurrezione del Signore.

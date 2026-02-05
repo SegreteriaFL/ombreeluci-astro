@@ -6,6 +6,7 @@ theme: "cluster-2"
 cluster_id: 2
 slug: "la-mia-vita-a-santa-palomba"
 has_comments: false
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

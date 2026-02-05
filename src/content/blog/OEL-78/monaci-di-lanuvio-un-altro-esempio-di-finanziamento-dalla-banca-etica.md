@@ -4,8 +4,8 @@ date: 2002-06-14
 author: Redazione
 slug: monaci-di-lanuvio-un-altro-esempio-di-finanziamento-dalla-banca-etica
 lang: it
-numero_rivista: 78
-id_numero: OEL-78
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-78"
 issue_number: OEL-78
 wp_id: 24859
 original_url: "https://www.ombreeluci.it/?p=24859"
@@ -17,7 +17,6 @@ umap_x: 8.262365341186523
 umap_y: 7.270872116088867
 umap_z: 8.777713775634766
 ---
-
 Quando la comunità benedettina dei monaci di Lanuvio (sud di Roma) si è rivolta a **[Banca Etica](https://www.ombreeluci.it/2002/banca-etica-una-rivoluzione-e-entrata-in-silenzio-nel-mondo-della-finanza/)** per chiedere un finanziamento destinato alle due cooperative agricole della famiglia monastica, **la banca si è trovata di fronte ad una grave situazione finanziaria** : le cooperative, indebitatesi sul breve periodo, soffrivano forti carenze di liquidità e di conseguenti incapacità di pagamento dei fornitori.
 
 Convinta della validità intrinseca dell’iniziativa e della serietà dei proponenti, **Banca Etica ha tuttavia accolto la sfida, accettando di dare credito alle cooperative** (nel vero senso originario di dare fiducia). Tuttavia occorreva creare le premesse tecniche per un possibile intervento che altrimenti sarebbe stato vanificato dalla grave situazione finanziaria.

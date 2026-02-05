@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nella foto: festeggiamenti per i 40 anni di Fede e Luce a Lviv, Ucraina a cui hanno partecipato le comunità di Russia, Repubblica Ceca, Slovacchia, Lituania e Georgia nel 2012
 
 *Larysa segue la guerra che ha coinvolto il suo paese, l’Ucraina, da Napoli, città in cui vive ormai da molti anni insieme a suo figlio Igor. Ha conosciuto la comunità di Fede e Luce nel suo paese natale, dove di gruppi se ne contano circa trenta ([qui il suo racconto](https://www.ombreeluci.it/2015/un-affidamento-speciale/) di qualche anno fa). Abbiamo raccolto la sua voce -insieme a quella di G.- testimoni dello strazio di una guerra cui è impossibile trovare una ragione.*

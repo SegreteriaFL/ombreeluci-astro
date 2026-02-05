@@ -4,8 +4,8 @@ date: 2004-09-13
 author: Maria Teresa Mazzarotto
 slug: linserimento-lavorativo-delle-persone-con-sindrome-di-down
 lang: it
-numero_rivista: 87
-id_numero: OEL-87
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-87"
 issue_number: OEL-87
 wp_id: 30437
 original_url: "https://www.ombreeluci.it/?p=30437"
@@ -15,7 +15,6 @@ umap_x: 7.529149532318115
 umap_y: 8.05703353881836
 umap_z: 7.578954219818115
 ---
-
 Parliamo di lavoro... e più precisamente di un nuovo quaderno dell' [AIPD - Associazione italiana persone down](https://www.aipd.it) , dedicato all'inserimento lavorativo delle persone con sindrome di Down che offre in modo chiaro e sintetico una serie di intormazioni utili per aziende, lavoratori e famiglie.
 
 Le autrici, Alessandra Buzzelli e Anna Contardi, ricordano per prima cosa che la **Legge 12 marzo 1999, n. 68 “Norme per il diritto al lavoro dei disabili”** ha finalmente recepito il principio del “collocamento mirato” che prevede incentivi per l'accoglienza dei disabili considerati più gravi nelle strutture produttive e una rete di servizi a sostegno dei percorsi di inserimento. (AI contrario la Legge 482/68 prevedeva solo il collocamento obbligatorio e le Aziende spesso disattendevano il loro obbligo per paura delle difficoltà dell'inserimento e per timore che queste persone non potessero essere produttive).

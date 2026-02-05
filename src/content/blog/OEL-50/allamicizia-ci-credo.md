@@ -15,8 +15,9 @@ umap_x: 6.975169658660889
 umap_y: 8.9621000289917
 umap_z: 8.378159523010254
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sono una ragazza di 20 anni, anzi quasi 21, e mi chiamo Pina, La mia infanzia è trascorsa girando sempre per i collegi, dove venivo curata e dove ho incominciato per la prima volta a carminare. Perché io, ancora non ve l'ho detto, sono colpita ad una gamba dalla poliomielite.
 
 Ma non me la prendo. Sto bene anche così. Sono una ragazza come tutte le altre, **non mi manca niente; solo una cosa, la più importante: l’amore che io spero presto di dare al ragazzo che amo** .

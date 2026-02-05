@@ -4,8 +4,8 @@ date: 2007-09-09
 author: Cristina Marchese
 slug: musei-davvero-per-tutti-grazie-allassociazione-vami
 lang: it
-numero_rivista: 99
-id_numero: OEL-99
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-99"
 issue_number: OEL-99
 wp_id: 32729
 original_url: "https://www.ombreeluci.it/?p=32729"
@@ -15,7 +15,6 @@ umap_x: 8.469454765319824
 umap_y: 7.706318378448486
 umap_z: 7.931897163391113
 ---
-
 L'ingresso gratuito e l'assenza di barriere architettoniche non sempre bastano ad invogliare le persone disabili e i loro accompagnatori ad una visita al museo e non sempre i siti museali possono offrire servizi opportuni.
 
 Ecco allora che dobbiamo entrare in gioco noi, operatori didattici volontari, adeguatamente formati, per contribuire a raggiungere lo scopo.

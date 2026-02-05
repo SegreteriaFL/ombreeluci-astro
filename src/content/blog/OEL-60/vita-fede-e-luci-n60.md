@@ -4,8 +4,8 @@ date: 1997-12-15
 author: Redazione
 slug: vita-fede-e-luci-n60
 lang: it
-numero_rivista: 60
-id_numero: OEL-60
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-60"
 issue_number: OEL-60
 wp_id: 11781
 original_url: "https://www.ombreeluci.it/?p=11781"
@@ -15,7 +15,6 @@ umap_x: 7.623904705047607
 umap_y: 9.410511016845703
 umap_z: 13.171295166015625
 ---
-
 ### Non è un piccolo dono
 
 **Ritiro Internazionale FEDE E LUCE**

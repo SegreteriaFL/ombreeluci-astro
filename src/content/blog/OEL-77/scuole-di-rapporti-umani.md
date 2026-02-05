@@ -4,8 +4,8 @@ date: 2002-03-08
 author: Jean Vanier
 slug: scuole-di-rapporti-umani
 lang: it
-numero_rivista: 77
-id_numero: OEL-77
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-77"
 issue_number: OEL-77
 wp_id: 23803
 original_url: "https://www.ombreeluci.it/?p=23803"
@@ -15,7 +15,6 @@ umap_x: 8.276719093322754
 umap_y: 12.11335277557373
 umap_z: 10.908945083618164
 ---
-
 Dal discorso con cui Jean Vanier ha presentato, insieme con l’arcivescovo Paul J. Cordes, presidente del Pontificio Consiglio “Cor Unum”, il messaggio del Papa per la Quaresima.
 
 In questi ultimi 37 anni ho incontrato e accompagnato un grande numero di volontari giovani e meno giovani che sono venuti a L’Arche e a “Fede e Luce”. Nelle nostre 120 comunità dell’Arche essi condividono la vita di uomini e donne disabili, vivendo e operando quotidianamente con loro. Nelle 15.000 comunità di “Fede e Luce” incontrano regolarmente persone disabili e i loro genitori. Alcuni sono diventati amici fedeli di disabili. Posso testimoniare come questa amicizia con i deboli li abbia portati ad acquisire una maggiore maturità e interezza e ad aumentare la propria fede in Gesù.

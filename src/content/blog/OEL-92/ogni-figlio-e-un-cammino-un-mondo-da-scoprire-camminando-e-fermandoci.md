@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "ogni-figlio-e-un-cammino-un-mondo-da-scoprire-camminando-e-fermandoci"
 lang: it
-numero_rivista: 92
-id_numero: OEL-92
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-92"
 issue_number: OEL-92
 wp_id: 31286
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 In pochi giorni è la terza volta che ricomincio questo mio tentativo di condividere il cammino al quale mi ha chiamato la nascita di un figlio disabile.
 
 Il mio lavoro mi ha portato infatti, nell'arco di una settimana, a partecipare ad una sorta di flash back: dal convegno sui malati terminali e delle cure palliative a Piacenza a quello della Società di geriatria a Firenze per finire al lavoro su un progetto di suono-colore per un centro per disabili sentendo parlare del film "La marcia dei Pinguini". Fiorello, doppiatore della apprezzata versione italiana dice: "Questi pinguini sono coppie di fatto e quando si lasciano non chiedono alimenti. ( Il Venerdì de La Repubblica)." E ancora: "Noi uomini dovremmo prender esempio dai pinguini maschi che marciano venti giorni e notti a temperature impossibili per incontrare le loro compagne. (La Stampa)"

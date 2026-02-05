@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 David Maria Turoldo-da «Il Sesto Angelo»
 
 ### Il mattino di Natale

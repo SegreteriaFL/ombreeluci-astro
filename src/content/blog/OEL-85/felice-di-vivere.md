@@ -4,8 +4,8 @@ date: 2004-03-09
 author: Redazione
 slug: felice-di-vivere
 lang: it
-numero_rivista: 85
-id_numero: OEL-85
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-85"
 issue_number: OEL-85
 wp_id: 30002
 original_url: "https://www.ombreeluci.it/?p=30002"
@@ -17,7 +17,6 @@ umap_x: 5.5992431640625
 umap_y: 9.314444541931152
 umap_z: 9.922913551330566
 ---
-
 di
 *Myriam*
 (15 anni)

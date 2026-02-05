@@ -12,8 +12,9 @@ umap_x: 9.212442398071289
 umap_y: 7.868001461029053
 umap_z: 2.7125535011291504
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Non convince l’opera seconda di Ginevra Elkann, *Te l’avevo detto* , presentata alla Festa del Cinema di Roma nella sezione “Grand public”. Cast d’eccellenza (Alba Rohrwacher, Danny Huston, Greta Scacchi, Valeria Golino, Valeria Bruni Tedeschi, Riccardo Scamarcio) per un film che, dove vuole andare a parare? Cosa vuole dirci? Tutti peccano – Gianna è la “stalker” di una pornostar degli anni Ottanta che le rubò anni prima il marito; il sacerdote Bill cerca di aiutare gli altri a venir fuori dalle dipendenze ma è il primo ad averne; Caterina abbandona figlio e marito perché alcolizzata e via discorrendo – e nessuno sembra riuscire a salvarsi.
 
 **Troppe storie verso cui non si riesce a empatizzare e nei confronti delle quali neanche la regista sembra avere *pietas* .** Siamo tutti costretti alla solitudine? I personaggi, in una Roma devastata dal caldo anomalo di dicembre, hanno, di fatti, perso la strada e vagano alla ricerca di qualcosa o di qualcuno. Se troveranno via d’uscita non è dato sapere. Ma viste le premesse, sembrerebbe proprio di no.

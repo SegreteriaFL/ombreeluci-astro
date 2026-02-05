@@ -15,8 +15,9 @@ umap_x: 8.075552940368652
 umap_y: 7.027099132537842
 umap_z: 11.769635200500488
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Lo scopo del campeggio era: dimostrare che tra la vita in famiglia e la vita in un centro speciale, c’è un’altra possibilità: quella di una vita con gli amici.
 
 La preparazione è stata lunga e dettagliata. Innanzitutto: trovare la casa. Un’amica di Fede e Luce, mamma di quattro bambini, ci è venuta incontro offrendoci per il mese di luglio la sua bellissima casa ad Alfedena, in Abruzzo. Dieci letti, una cucina, tre bagni, un salone con caminetto, un gran giardino dove potevamo piantare cinque tende per gli amici e qualche ragazzo più autonomo. Casa situata al centro del paese, con tutte le necessità di prim’ordine, compresa la farmacia, il medico, i negozi…

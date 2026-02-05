@@ -14,8 +14,9 @@ umap_x: 7.353480339050293
 umap_y: 10.884437561035156
 umap_z: 6.77655029296875
 issue_number: OEL-140
+id_numero: "OEL-140"
+numero_rivista: "Ombre e Luci"
 ---
-
 La fragilità della persone vicina alla morte, rivela il senso profondo della dignità umana.
 **La dottoressa Richard, religiosa saveriana e responsabile di un centro di cure palliative, ci dice la sua esperienza vissuta accanto a persone morenti**
 : con ognuna di loro bisogna in tutti i modi cercare di mettersi in relazione. Sempre la relazione con l'altro dà gusto e significato alla nostra vita. Con un malato giunto in fin di vita però, diventa difficile stabilire un contatto: si è di fronte ad una persona che soffre ed è l'ascolto di questa sofferenza che rende possibile la relazione.

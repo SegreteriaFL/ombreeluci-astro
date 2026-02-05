@@ -14,8 +14,9 @@ umap_x: 7.404476642608643
 umap_y: 7.940008640289307
 umap_z: 8.8607816696167
 issue_number: OEL-51
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 Pubblichiamo un indice analitico di tutti i servizi per persone con handicap che Ombre e Luci ha visitato e descritto dal 1983 al 1995. Abbiamo potuto visitare queste realtà del mondo dell’handicap, studiarle e poi descriverle dandone una valutazione, perché molte ci sono state segnalate. Possiamo continuare questo servizio con il vostro aiuto. Se conoscete qualche realtà del genere specie case-famiglia e comunità alloggio, segnalatecele. Sarà un aiuto prezioso per tanti. Se qualcuno vuole conoscerli meglio, può richiedere il relativo numero arretrato o la fotocopia, scrivendo o telefonando alla redazione di Ombre e Luci — Via Bessarione 30 — 00165 Roma — Tel. 06/633402 — Orario di ufficio: Mart. Mere. Ven. dalle ore 9,30 alle 12,30.
 
 ### Case famiglia e Comunità alloggio

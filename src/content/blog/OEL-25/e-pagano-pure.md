@@ -16,7 +16,8 @@ umap_x: 8.088235855102539
 umap_y: 7.002615451812744
 umap_z: 11.759708404541016
 issue_number: OEL-25
-id_numero: OEL-25
+id_numero: "OEL-25"
+numero_rivista: "Ombre e Luci"
 ---
 Sarebbe più vero dire «accantonamento-campeggio», perché, come vedrete leggendo queste pagine, non si tratta di un campo sotto le tende per tutti; alcuni — di solito i più giovani — dormono sotto tenda, mentre gli altri — adulti e ragazzi anche molto gravi — alloggiano in casa.
 

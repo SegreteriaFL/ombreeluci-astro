@@ -12,8 +12,9 @@ umap_x: 5.61157751083374
 umap_y: 7.639673709869385
 umap_z: 11.116578102111816
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nei mesi scorsi, dopo essere stata informata da una lettrice di Ombre e Luci, mi sono messa in contatto con diverse associazioni, tra le quali [una fondazione *Paidea-Siblings*](https://fondazionepaideia.it/cosa-facciamo/supporto-dedicato-ai-fratelli-e-alle-sorelle/) di Torino.
 
 **Ho così avuto modo di partecipare a tre incontri online.** La media di partecipanti è stata di una cinquantina di fratelli e sorelle di persone con disabilità; giovani, ma soprattutto adulti, da diverse provenienze. Gli incontri hanno avuto semplicemente lo scopo di affrontare dei problemi, o meglio un vissuto personale, di condividerlo, parlarne.

@@ -12,8 +12,9 @@ umap_x: 4.205127239227295
 umap_y: 7.823043346405029
 umap_z: 10.24780559539795
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Commenti positivi e negativi
 
 Da tempo mi interesso di problematiche sociali. Sia per gli studi che ho concluso (sono laureata in Pedagogia), sia perché vivo l'esperienza del deficit fisico in prima persona. Ho letto molto attentamente alcuni numeri della vostra rivista. Desidererei evidenziare alcuni punti che mi hanno colpito in senso sia positivo che negativo.

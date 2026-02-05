@@ -12,7 +12,8 @@ umap_x: 6.53961181640625
 umap_y: 7.752243518829346
 umap_z: 9.333199501037598
 issue_number: OEL-162
-id_numero: OEL-162
+id_numero: "OEL-162"
+numero_rivista: "Ombre e Luci"
 ---
 «AlCentro *Tra Noi* la domenica montava il banchetto per esporre le sue creazioni ed era per me sempre un’occasione per scambiare due chiacchere, riannodare i fili spezzati dall’emigrazione attraverso la condivisione dei vissuti».
 

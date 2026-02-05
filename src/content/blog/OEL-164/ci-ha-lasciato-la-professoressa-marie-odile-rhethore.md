@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 La sua vocazione di medico è nata dal desiderio di curare. Grande ricercatrice, ha partecipato alla scoperta e alla descrizione di numerose patologie legate ad alterazioni cromosomiche. È stata eletta all'Accademia Nazionale di Medicina francese nel 1995. È stata collaboratrice e braccio destro del professor Lejeune per oltre quarant'anni ed è stata una dei tre fondatori dell'[Institut Jérôme Lejeune](https://www.institutlejeune.org/) nel 1998. Per sessant'anni si è dedicata alla cura delle migliaia di persone che ha visitato in consultazione. Con il suo sguardo amorevole ha avuto un impatto profondo sui pazienti e sulle famiglie che hanno incrociato il suo cammino.
 
 *Christel Quaix*, ombresetlumiere.fr - 20 aprile 2023

@@ -15,8 +15,9 @@ umap_x: 6.247852802276611
 umap_y: 5.917239189147949
 umap_z: 8.954879760742188
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Q
 uando la sera del 9 marzo 2020 il premier Conte ha esteso le misure limitative indispensabili per contrastare il COVID-19 a tutta Italia, lo stato di emergenza non ha più avuto confini. E il racconto di quanto stava accadendo nel nord (
 [newsletter n.11](https://www.ombreeluci.it/2020/newsletter-n-11-la-fatica-di-non-potersi-salutare/)

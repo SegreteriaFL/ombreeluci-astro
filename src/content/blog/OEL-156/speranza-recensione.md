@@ -12,7 +12,8 @@ umap_x: 7.815693378448486
 umap_y: 11.175053596496582
 umap_z: 4.877654552459717
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 Èuno scrigno, un genio vero, una di quelle persone che nel tempo impari ad apprezzare sempre un tantino in più. **Si chiama Gianni Rodari, e le storie, le filastrocche, le parole, le illuminazioni, le intuizioni che ci ha lasciato sono nutrimento vero per piccini e per adulti.** In occasione del duplice anniversario tondo della nascita e della morte (Rodari nacque nel 1920 e morì, a soli 59 anni, nel 1980), sono state veramente tante le iniziative editoriali volte a ricordare questo poeta della fantasia, dell’immaginazione, del rispetto e della pace. Ricordiamo qui *Speranza* , un albo illustrato per piccoli lettori che, con il vivace accompagnamento di **Francesca Ballarini** , riproduce una delle poesie contenute in *Filastrocche in cielo e in terra* del 1960. Al centro c’è una botteguccia che vende a buonissimo mercato una delle cose più preziose che esistano: la speranza. **Leggiamola e rileggiamola, specie nei momenti davvero difficili** , quelli in cui anche la più timida e fragile delle fiammelle sembra spenta per sempre.
 

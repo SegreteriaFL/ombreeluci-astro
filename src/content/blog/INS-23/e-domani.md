@@ -12,8 +12,9 @@ umap_x: 6.417057037353516
 umap_y: 9.1407470703125
 umap_z: 8.431524276733398
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Il mio ragazzo ha quasi trentaquattro anni, io ne ho veramente molti. Lui ha ancora bisogno di me, e questa è la preoccupazione maggiore. Come ognuno di noi, ha superato tutte le tappe dell'età: piccolo, ragazzo e ora uomo. Ho spesso baratto con me stessa, sapendo di farlo, per darmi coraggio ed insistere per cercare di migliorarlo. È abbastanza autonomo, di buon carattere ed ha molti amici che frequenta regolarmente.
 
 Cercando di guardare in faccia la realtà mi sono convinta che le cose più importanti per lui sono: l'amicizia e il lavoro. Per me: il FUTURO. Per più di dieci anni è stato occupato in un laboratorio cosiddetto "protetto", ed il risultato è stato che è in grado - sempre partendo dal presupposto: il posto adatto alla persona - di lavorare con profitto; ma, i dieci anni passati, ai fini di una qualifica, non sono serviti.

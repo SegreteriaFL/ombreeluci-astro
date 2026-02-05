@@ -12,8 +12,9 @@ umap_x: 6.9679131507873535
 umap_y: 11.002059936523438
 umap_z: 6.1389665603637695
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 ### **Il dolore innocente**
 
 *Un handicappato nella mia famiglia, di G.HOURDIN ed. Cittadella. L.3.500*

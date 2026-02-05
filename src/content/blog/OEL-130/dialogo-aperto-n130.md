@@ -12,7 +12,8 @@ umap_x: 4.733590602874756
 umap_y: 7.349923133850098
 umap_z: 10.474956512451172
 issue_number: OEL-130
-id_numero: OEL-130
+id_numero: "OEL-130"
+numero_rivista: "Ombre e Luci"
 ---
 ### Una grande gioia
 

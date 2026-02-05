@@ -4,8 +4,8 @@ date: 2005-03-16
 author: Giulia Galeotti
 slug: come-pietre-nel-fiume-recensione
 lang: it
-numero_rivista: 89
-id_numero: OEL-89
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-89"
 issue_number: OEL-89
 wp_id: 30697
 original_url: "https://www.ombreeluci.it/?p=30697"
@@ -15,7 +15,6 @@ umap_x: 7.75649881362915
 umap_y: 11.348284721374512
 umap_z: 4.788016319274902
 ---
-
 > “Da bambina Trudi Montag pensava che tutti sapessero che cosa passava per la testa degli altri. Questo accadeva prima che capisse la forza di essere diversa. L’agonia di essere diversa”
 
 C

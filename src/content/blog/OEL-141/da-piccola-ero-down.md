@@ -14,7 +14,8 @@ umap_x: 6.309515476226807
 umap_y: 10.786685943603516
 umap_z: 5.847971439361572
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 Ho scritto queste pagine “ *prima di tutto per me stessa, per mettere ordine nelle mie poche idee ma confuse* …”. “ *Poi per Valentina, la mia figlia maggiore, perché possa conoscere la storia della nascita della sorella…* ”. “ *Per Giulia, perché un domani possa ripercorrere la sua storia…* ”. *Per Francesco, mio marito…* ”, " *Per condividere questa mia esperienza con chi si trovasse in situazioni simili…* ”.
 

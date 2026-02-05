@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 Tante volte ho pensato e cercato di analizzare i problemi dei ragazzi che hanno un fratello handicappato. Forse perché io ho vissuto e vivo ancora certe situazioni in prima persona, ho sempre considerato questo un grosso argomento di discussione e di confronto; per tale motivo, quando mi hanno chiesto di scrivere un articolo per il giornalino, proprio su questo tema, ho accettato ben volentieri.
 
 Ho sempre dovuto constatare, e me ne dispiace, che i problemi sono solo di chi li vive; anche gli stessi genitori danno generalmente poca importanza a tale aspetto della questione, per paura, per comodo o anche solo perché oberati dai ben noti problemi quotidiani. Non credo però che siano solo i genitori ad affrontare in modo superficiale ed insoddisfacente l'argomento, anche gli stessi figli, mi pare, che gli dedichino poca attenzione, molto spesso infatti, li ho visti accettare situazioni troppo gravose o rifiutare drasticamente quella parte di compito, che altro non è se non semplice collaborazione tra chi vive uno stesso problema.

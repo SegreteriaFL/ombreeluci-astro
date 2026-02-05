@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-127
-id_numero: OEL-127
+id_numero: "OEL-127"
+numero_rivista: "Ombre e Luci"
 ---
 Il riso abbonda sulla bocca degli stolti? Siamo cresciuti con questo motto ripetuto da genitori e insegnanti. Soprattutto a scuola abbiamo represso spesso risate e sorrisetti perché era da indisciplinati o da maleducati ridere a scuola, quasi sempre ci rimproveravano perché ridevamo a sproposito, ma a quale proposito è lecito ridere?
 

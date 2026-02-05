@@ -4,8 +4,8 @@ date: 2002-03-08
 author: Redazione
 slug: dialogo-aperto-n77
 lang: it
-numero_rivista: 77
-id_numero: OEL-77
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-77"
 issue_number: OEL-77
 wp_id: 23986
 original_url: "https://www.ombreeluci.it/?p=23986"
@@ -15,7 +15,6 @@ umap_x: 4.828938961029053
 umap_y: 7.20782995223999
 umap_z: 10.445265769958496
 ---
-
 Vogliamo ringraziare tutti quelli che hanno risposto all'appello lanciato da Mariangela nell' [editoriale](https://www.ombreeluci.it/2001/vogliamo-andare-avanti/) del [n. 3/2001](https://www.ombreeluci.it/project/numero-75-vogliamo-andare-avanti/) . Molti di voi si sono fatti vivi con un segno tangibile: i ritardatari inviando un contributo arretrato, puntuali mandando un contributo più generoso e rinnovando quello già inviato. Grazie. Altri ci hanno fatto giungere per e-mail o per posta lettere affettuose piene di riconoscimento per il nostro lavoro, di osservazioni e consigli che speriamo di utilizzare nel modo migliore per il futuro. Starà a voi giudicare. Non sono mancate le critiche, anche molto severe, come quelle che potete leggere nella lettera della lettrice Maria Rosa Oneto. Della sua come delle altre abbia mo deciso di pubblicare qualche stralcio perché ci sembra giusto farle conoscere a tutti i lettori.A M.R. Oneto in particolare, vorremmo dire tante cose per farci conoscere e capire meglio perché abbiamo visto dai nostri schedari, che, in realtà, le è stato inviato in diffusione soltanto un numero di Ombre e Luci, quello con le foto di Lourdes. Speriamo che voglia leggere ancora qualche articolo prima di rendere definitivo il suo rifiuto. Per ora preferiamo risponderle attraverso altre lettere dei nostri lettori e speriamo voglia scriverci ancora.Noi faremo del nostro meglio per essere, come sempre, vicini e solidall. Vale a dire: NELLA STESSA BARCA! Un abbraccio a tutti e buona lettura.
 
 ---

@@ -14,8 +14,9 @@ umap_x: 9.37550163269043
 umap_y: 7.963106155395508
 umap_z: 2.552891492843628
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Seho aiutato qualcuno è fantastico (...) così come altri registi hanno aperto le porte a me (...) (Ma) non posso prendermene il merito, perché queste donne hanno la loro energia, stanno venendo fuori, vogliono realizzare le loro cose e condividerle».
 
 Sono parole di **Jane Campion, considerata una pioniera della regia al femminile nel mondo del cinema contemporaneo** . Le ha dette durante il **[77° Locarno Film Festival](https://www.locarnofestival.ch/it/home.html)** , che le ha assegnato il *Pardo d'onore Manor* , dove le è stato ricordato di essere stata un esempio per le donne che oggi si fanno apprezzare dal pubblico e vincono premi con i loro film; Campion è stata la prima regista a vincere la Palma d’Oro a Cannes e l’unica a essere stata candidata due volte agli Oscar per la migliore regia (ha vinto nel 2022).

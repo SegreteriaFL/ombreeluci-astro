@@ -12,7 +12,8 @@ umap_x: 4.494991302490234
 umap_y: 7.929312229156494
 umap_z: 10.222792625427246
 issue_number: OEL-143
-id_numero: OEL-143
+id_numero: "OEL-143"
+numero_rivista: "Ombre e Luci"
 ---
 ### Scegliamo con cura le parole
 

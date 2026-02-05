@@ -7,6 +7,7 @@ cluster_id: 0
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_76_2001-210x300.jpg"
 slug: "e-si-accende-una-stella"
 has_comments: true
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -4,8 +4,8 @@ date: 2006-09-27
 author: Maurizio Pilone
 slug: terapie-comportamentali-teacch-vs-aba
 lang: it
-numero_rivista: 95
-id_numero: OEL-95
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-95"
 issue_number: OEL-95
 wp_id: 32061
 original_url: "https://www.ombreeluci.it/?p=32061"
@@ -15,7 +15,6 @@ umap_x: 6.80526876449585
 umap_y: 8.43619441986084
 umap_z: 6.316947937011719
 ---
-
 **L’ABA (applied behavior analysis) cioè analisi applicata del comportamento** , nasce dagli studi sulle teorie dell’apprendimento all’interno del movimento di psicologia comportamentale prevalentemente nei paesi di lingua anglosassone
 
 Le terapie comportamentali solo successivamente (anni 60-80) si occupano di autismo e Loovas tra tutti è sicuramente il più conosciuto degli studiosi e terapeuti.

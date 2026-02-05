@@ -12,7 +12,8 @@ umap_x: 7.964320182800293
 umap_y: 11.182043075561523
 umap_z: 6.302507400512695
 issue_number: OEL-45
-id_numero: OEL-45
+id_numero: "OEL-45"
+numero_rivista: "Ombre e Luci"
 ---
 ### Psicologia e culto di sé - Studio critico
 

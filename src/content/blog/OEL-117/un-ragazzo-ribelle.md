@@ -12,7 +12,8 @@ umap_x: 5.729578971862793
 umap_y: 5.999934196472168
 umap_z: 12.322568893432617
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 8gennaio: Battesimo di Gesù per mano del Battista. Festa grande per gli Ortodossi, mi dicono, meno sentita tra i Cattolici, almeno così mi sembra. E invece quest’anno per me, è diventata occasione di riflessione nuova.
 

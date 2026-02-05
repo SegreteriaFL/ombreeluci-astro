@@ -10,15 +10,15 @@ wp_id: 2199
 has_comments: false
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
+id_numero: "OEL-4"
 ---
-
 Gli Autori sono il gruppo di lavoro organizzato dalla Pontificia Accademia delle Scienze che operò dal 3 al 6 novembre 1980. Sono scienziati a livello internazionale.
 
 Questo libro, nella maggior parte dei suoi capitoli, è di livello scientifico abbastanza difficile. Ma chi non è medico o non ha il tempo o il coraggio di lottare con complicate ricerche cromosomiche, biologiche o chimiche, con cifre e statistiche, può andare direttamente al capitolo VI dove Brinkworth espone il suo lavoro di intervento precoce (dalla nascita stessa) sui bambini Down. Racconta prima la sua storia personale come padre ed educatore, poi il suo lavoro scientifico quando estende la sua esperienza ad un numero sempre più vasto di bambini piccoli. I risultati esposti sono molto convincenti.

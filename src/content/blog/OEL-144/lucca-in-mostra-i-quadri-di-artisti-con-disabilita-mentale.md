@@ -12,8 +12,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 A Lucca, dal 29 maggio fino al 7 giugno, al **Palazzo Ducale**, sono in mostra le opere delle persone con disabilità mentale che frequentano i servizi della cooperativa sociale **La Mano Amica.
 
 Si chiama *art brut*, in inglese è conosciuta come *outsider art*, in Italia l’abbiamo ribattezzata *arte irregolare*: tanti nomi per descrivere un’espressione artistica unica, che racconta il mondo interiore di persone con problematiche mentali che hanno avuto modo di esprimersi in laboratori di arte figurative, nei centri diurni e nelle residenze di Lucca e della Versilia. 19 artisti le cui opere, più di un centinaio, sono state selezionate da **Nadia Buonamici**, psicoterapeuta e arte-terapeuta della cooperativa.

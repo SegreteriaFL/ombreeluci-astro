@@ -4,8 +4,8 @@ date: 2002-06-14
 author: André Roberti
 slug: il-cielo
 lang: it
-numero_rivista: 78
-id_numero: OEL-78
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-78"
 issue_number: OEL-78
 wp_id: 24648
 original_url: "https://www.ombreeluci.it/?p=24648"
@@ -15,7 +15,6 @@ umap_x: 4.831000328063965
 umap_y: 8.731201171875
 umap_z: 8.335368156433105
 ---
-
 «È andata in cielo» diciamo ai nostri bambini quando muore una persona. Ma poi ci fermiamo, non sappiamo cosa aggiungere, timorosi di dire cose sbagliate, sconcertati a volte dalle loro domande. Tra adulti poi, è ancora più difficile... Il cielo viene dopo la morte e della morte non si parla mai volentieri. Ma il gesuita padre Roberti, al contrario di noi, non ha paura di riflettere su questa «altra vita», di immaginare e di suggerirci immagini che possono prefigurare questo «mondo altro» che ci accoglierà e in cui speriamo perché Cristo che ha vinto la morte ce lo ha promesso.
 
 Davanti alla morte, ci si consola pensando al cielo, il non-spiegato perché inesplicabile. A volte si pensa al cielo, a volte alla terra. MA il cielo è talmente «altro» che spesso si tralascia il paragone e si guarda il cielo un po' come un ostacolo che farebbe mancare la vita vera.

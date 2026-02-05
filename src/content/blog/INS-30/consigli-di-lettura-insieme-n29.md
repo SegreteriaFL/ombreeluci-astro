@@ -12,8 +12,9 @@ umap_x: 8.481956481933594
 umap_y: 10.069765090942383
 umap_z: 6.341466903686523
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### "Lavoriamo insieme"
 
 Collana a cura di Santina Donghi, responsabile del Centro di Formazione Animatori per la Pastorale del tempo libero dei ragazzi, edita dalla LDC.

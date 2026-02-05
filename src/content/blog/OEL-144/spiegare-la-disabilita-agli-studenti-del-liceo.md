@@ -12,8 +12,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nell’àmbito dell’**Alternanza Scuola-Lavoro**, introdotta qualche tempo fa dalla riforma cosiddetta **la Buona Scuola**, appare particolarmente interessante il progetto avviato dal **Presidio UICI (Unione Italiana dei Ciechi e degli Ipovedenti)** di Sant’Anastasia e Paesi Vesuviani, vicino a Napoli, con il **Liceo Scientifico Torricelli di Somma Vesuviana**, collaborazione suggellata qualche settimana fa da una specifica convenzione, dopo la quale hanno preso il via varie attività.
 
 «Siamo stati entusiasti – sottolinea **Giuseppe Fornaro**, responsabile del Presidio UICI – di intraprendere questo percorso, che ci permette di evidenziare l’importanza di portare a conoscenza, soprattutto dei più giovani, il tema della disabilità, argomento spesso ignorato dall’Istituzione Scolastica. Alla fine dell’esperienza, infatti, gli studenti delle Classi Quarte disporranno delle conoscenze base relative alla disabilità visiva, attraverso un programma ben articolato e strutturato di attività teoriche e pratiche, da svolgere insieme a persone con disabilità, spaziando dalle differenze fra cecità e ipovisione al metodo Braille, dalla mobilità alle barriere, fino allo sport, in una molteplicità di temi che costituiranno un bagaglio di conoscenze essenziali, con l’augurio che si possano creare coscienze di giovani aperti ad accogliere le diversità».

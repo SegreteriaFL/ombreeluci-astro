@@ -14,7 +14,8 @@ umap_x: 6.268560409545898
 umap_y: 10.65965461730957
 umap_z: 6.018197536468506
 issue_number: OEL-25
-id_numero: OEL-25
+id_numero: "OEL-25"
+numero_rivista: "Ombre e Luci"
 ---
 L’Autore, con una solida conoscenza scientifica della materia, nei sette capitoli che compongono il libro, riferisce in modo molto realistico varie esperienze umane da lui vissute intensamente, riguardanti il mondo della Sindrome di Drown. Dal drammatico momento dell’impatto con la diagnosi, egli percorre tutto il difficile evolversi del doloroso problema nei suoi vari aspetti (familiare, psicologico, educativo, sessuale, sociale).
 

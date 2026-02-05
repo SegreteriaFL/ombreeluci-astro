@@ -15,7 +15,8 @@ umap_x: 5.084936618804932
 umap_y: 7.7799458503723145
 umap_z: 10.76925277709961
 issue_number: OEL-27
-id_numero: OEL-27
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
 ### Associazione steineriana a Roma
 

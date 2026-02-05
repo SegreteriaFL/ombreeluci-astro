@@ -1,15 +1,39 @@
 ---
 id: "OEL-54"
-title: "Ombre e Luci n. 54 - Anche loro hanno una propria storia"
+title: "Ombre e Luci n. 54 – Anche loro hanno una propria storia"
 tipo: "ombre-e-luci"
 numero: 54
-anno: "1996"
+sort_order: 153
+pubDate: "1996-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 1996"
 sommario: "Ombre e Luci n. 54 – Anche loro hanno una propria storia ultima modifica: 1996-06-14T09:42:30+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_54_1996.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_54"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-54-anche-loro-hanno-una-propria-storia/"
+articoli:
+  - "in-pizzeria"
+  - "i-miei-30-anni-allarca"
+  - "vocabolario-alcuni-termini-per-capire-meglio-lhandicap"
+  - "lascia-che-vada-a-vivere-fuori-di-casa"
+  - "formazione-morale-e-disabili"
+  - "anche-loro-hanno-una-propria-storia"
+  - "itaca-laboratorio-di-attivita-artistiche"
+  - "un-teatro-diverso"
+  - "dialogo-aperto-n-54"
+  - "terapia-della-realta-una-sfida-la-pedagogia-della-condivisione"
+  - "lettere-sul-dolore-uno-sguardo-sul-mistero-della-sofferenza"
+  - "attivita-didattiche-per-autistici-valutazione-e-trattamento-a-livello-individuale-per-autistici"
+  - "i-miei-30-anni-allarca"
+  - "vocabolario-alcuni-termini-per-capire-meglio-lhandicap"
+  - "lascia-che-vada-a-vivere-fuori-di-casa"
+  - "formazione-morale-e-disabili"
+  - "itaca-laboratorio-di-attivita-artistiche"
+  - "un-teatro-diverso"
+  - "lettere-sul-dolore-uno-sguardo-sul-mistero-della-sofferenza"
+  - "terapia-della-realta-una-sfida-la-pedagogia-della-condivisione"
+  - "attivita-didattiche-per-autistici-valutazione-e-trattamento-a-livello-individuale-per-autistici"
+  - "dialogo-aperto-n-54"
 ---
 
 ## Indice

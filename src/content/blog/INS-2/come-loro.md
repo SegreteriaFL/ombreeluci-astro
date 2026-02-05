@@ -12,8 +12,9 @@ umap_x: 6.94782829284668
 umap_y: 7.204920768737793
 umap_z: 12.50398063659668
 issue_number: INS-2
+id_numero: "INS-2"
+numero_rivista: "Insieme"
 ---
-
 Il primo sabato in cui ho partecipato anch'io alla festa di *Foi et Lumière* **avevo molta paura: paura per chi avrei incontrato, per come mi sarei dovuta comportare** , perché ogni mio gesto - credevo - sarebbe stato misurato dagli altri con sguardo critico.
 
 **Invece non è stato così.** Non ho tardato ad ambientarmi, ad instaurare un dialogo con tutti gli altri, senza differenza per l'età o per situazioni particolari. Ho ritrovato quel contatto umano e quel senso della vita che spesso ormai si sono persi nello svolgersi frenetico delle giornate degli esseri 'normali.

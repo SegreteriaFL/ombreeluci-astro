@@ -12,8 +12,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il progetto si chiama "**[DisAbuse: Disablist Bullying - Experience into Change, providing the right support services](http://www.disabuse.eu)**" ed è stato avviato in **quattro paesi europei** attraverso nuovi percorsi formativi per la prevenzione e il contrasto al bullismo in casi di disabilità. Attuato nell'ambito del programma Erasmus+ e promosso da Centro Anti-Bullismo dell'Università di Dublino (Irlanda), Fondazione Mondo Digitale (Italia), Istituto Dun Laoghaire di Arte, Design e Tecnologia (Irlanda), Istituto Universitario di Lisbona (Portogallo) e Università della Murcia (Spagna), il programma**ha dato risultati incoraggianti.
 Dopo aver partecipato al percorso, **più dell'80%** dei professionisti ha dimostrato di saper identificare casi di cyberbullismo e molestie nei confronti di persone con bisogni educativi speciali o disabilità e**il 96,7%** di riconoscere la differenza tra bullismo e conflitto. Se all'inizio del percorso il 42,7% degli studenti intervistati considerava "normale" il fenomeno, a conclusione del corso **la percentuale è scesa al 20,5%**, mentre è giunta all'85,9% quella degli studenti con disabilità che ha dichiarato di conoscere**le giuste misure da adottare per difendersi** da episodi di molestia.
 

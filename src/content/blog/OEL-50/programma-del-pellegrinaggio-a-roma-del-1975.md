@@ -14,8 +14,9 @@ umap_x: 9.075169563293457
 umap_y: 7.947195053100586
 umap_z: 12.996613502502441
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 > "Riconciliati, celebriamo nella gioia del Rinnovamento, l'Incontro con i nostri Fratelli."
 
 #### Domenica 26 ottobre 1975 - Andiamo verso San Pietro

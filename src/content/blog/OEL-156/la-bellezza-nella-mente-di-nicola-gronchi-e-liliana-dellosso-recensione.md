@@ -12,8 +12,9 @@ umap_x: 7.74599552154541
 umap_y: 11.222305297851562
 umap_z: 5.343864917755127
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Un libro dalle molteplici prospettive quello di Nicola Gronchi e Liliana Dall’Osso, *La bellezza nella mente* (Felici Editore, 2020), dal quale emerge la necessità di “declinare nella storia” qualsiasi evento o persona che il passato ci racconti. Le prospettive che l’obiettivo di una macchina fotografica può offrire insieme a quelle competenti di esperti del settore sono punti di forza che arricchiscono la questione al centro del bel volume fotografico di Gronchi.
 
 **Le istituzioni manicomiali hanno rappresentato un tema importante nella storia recente del nostro Paese, in particolare dal momento in cui divennero luoghi da cancellare** come radice della possibilità di alienazione di un essere umano. Ma in tempi come i nostri, in cui predominano la tentazione di leggere qualsiasi passato senza contestualizzarlo e l’idea di concentrarci nel presente cancellando tutto quello da cui è scaturito, in nome di seppur faticose conquiste civili, Dell’Osso suggerisce che questo significa “smarrire trame di senso” e perdere la possibilità di capire chi siamo veramente.

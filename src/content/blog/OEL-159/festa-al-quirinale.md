@@ -12,7 +12,8 @@ umap_x: 7.249042510986328
 umap_y: 2.1985011100769043
 umap_z: 9.790689468383789
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 «Oggi è un giorno di festa importante per l’Italia ed è più bello ancora per la vostra presenza… Siete i benvenuti qui, vi faccio i migliori auguri per il futuro». Ha colpito tutti l’accoglienza nei Giardini del Quirinale e **la disponibilità nelle parole e nei gesti del presidente Mattarella** per il pomeriggio trascorso da circa 150 persone delle comunità romane di [Fede e Luce](http://www.fedeeluce.it) e di altre realtà associative del terzo settore, ospitati in occasione della Festa della Repubblica. Il sentirsi scelti e accolti così come si è, ha reso lontani i tempi in cui le persone con disabilità erano considerate cittadini di serie B. Abbiamo sentito ogni componente dello staff felice di vederci lì, nonostante la fatica che, certo, l’organizzazione della giornata avrà comportato. Concreto segno dell’impegno a rimuovere gli ostacoli di ogni tipo che, limitando di fatto l’uguaglianza dei cittadini, ne impediscono la partecipazione alla vita sociale del Paese, auspicio dell’articolo 3 della nostra Costituzione. Ancora grati per questo invito, le voci e i volti di chi ha partecipato vi racconteranno il resto. *(Fabio Bronzini)*
 

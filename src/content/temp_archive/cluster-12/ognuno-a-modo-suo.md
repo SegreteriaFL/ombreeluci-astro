@@ -7,6 +7,7 @@ cluster_id: 12
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_64_1998.jpg"
 slug: "ognuno-a-modo-suo"
 has_comments: false
+id_numero: "OEL-64"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

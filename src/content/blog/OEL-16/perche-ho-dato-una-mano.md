@@ -12,8 +12,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 Anzitutto, che cosa ho fatto di così particolare da essere messo in risalto? Mi sono occupato di Emanuele negli ultimi tre anni, due volte la settimana di pomeriggio (una sola volta a settimana lo scorso anno). Se andiamo a stringere, non sono che alcune centinaia di ore nel corso dell’intero periodo.
 La caratteristica più notevole di questo mio impegno ritengo sia stata la continuità. Infatti nei giorni fissati, puntualmente, andavo a prendere Emanuele. La famiglia poteva contare su questo aiuto di per sé modesto, ma che consentiva di programmare per quei determinati giorni e quelle ore attività e impegni altrimenti di difficile attuazione.
 

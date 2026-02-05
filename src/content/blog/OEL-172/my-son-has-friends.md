@@ -16,8 +16,9 @@ umap_x: 8.141709327697754
 umap_y: 8.82770824432373
 umap_z: 12.826044082641602
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 W
 hat exactly are we celebrating in Pompei for the fiftieth anniversary of
 *Faith and Light*

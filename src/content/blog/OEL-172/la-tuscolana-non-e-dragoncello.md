@@ -12,8 +12,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Cari lettori, una settimana prima di S. Lucia sono stata a trovare mia sorella Sara a casa sua. Sono andata perché volevo vedere come si trovava nella casa che gli ha assegnato il S. Alessio, un centro fatto apposta per non vedenti: un centro che aiuta la persona a essere più autonoma nella vita.
 
 È stato bello perché **abbiamo passato un po’ di tempo insieme** andando in giro per negozi a fare shopping e anche una passeggiata. Sì, perché **la Tuscolana non è come Dragoncello. Mi spiego meglio: la Tuscolana è una zona che offre più accessibilità per le persone con disabilità non solo per quanto riguarda i negozi ma anche proprio per il fatto che c’è una parte pedonale per fare delle passeggiate.

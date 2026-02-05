@@ -12,14 +12,14 @@ pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
 archive_id: OmbreELuciN004
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 periodo_label: Ottobre, Novembre, Dicembre
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 umap_x: 7.6603193283081055
 umap_y: 8.77988338470459
 umap_z: 14.112534523010254
+id_numero: "OEL-4"
 ---
-
 **Ginevra 25-28 agosto**
 
 ### Incontro della zona Fede e Luce Sudeuropea

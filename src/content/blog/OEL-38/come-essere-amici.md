@@ -12,7 +12,8 @@ umap_x: 6.414030075073242
 umap_y: 8.742645263671875
 umap_z: 11.904169082641602
 issue_number: OEL-38
-id_numero: OEL-38
+id_numero: "OEL-38"
+numero_rivista: "Ombre e Luci"
 ---
 ### Chiara Ferrari Toniolo
 

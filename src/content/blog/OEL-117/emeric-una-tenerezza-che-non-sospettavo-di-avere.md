@@ -12,7 +12,8 @@ umap_x: 5.357665538787842
 umap_y: 10.188505172729492
 umap_z: 7.737854957580566
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 Ogni anno Bernard nonno e padrino di Emeric, un ragazzo Down di 24 anni, passa una decina di giorni, insieme a suo nipote… intrattenendo così una relazione eccezionale! Telefonata della mia adorata figlia Virginia, in lacrime: il suo secondo figlio è affetto da sindrome Down. Mi faccio prestare una macchina, attraverso la Francia per andarla a trovare in clinica e tentare di confortarla, non so con quali parole. Mia figlia mi blocca subito: “Papà taci”. Due parole che mi rimescolano ancora dentro. Ho capito allora che in certe situazioni, non si dice niente, si ascolta, si prende semplicemente la mano.
 

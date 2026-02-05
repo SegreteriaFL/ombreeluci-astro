@@ -12,8 +12,9 @@ umap_x: 6.5506415367126465
 umap_y: 6.050177097320557
 umap_z: 9.29052734375
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Tanti eventi hanno dovuto essere rimandati per le misure preventive contro il diffondersi del contagio di covid-19. Uno di questi è il giubileo per i trent’anni del Carro. La comunità di accoglienza di persone con disabilità di via Strampelli a Roma aveva progettato tre appuntamenti mensili di formazione, la domenica pomeriggio quando la comunità solitamente apre le porte agli amici per la celebrazione eucaristica e una cena conviviale. E poi una grande festa a giugno. I tre appuntamenti sarebbero stati arricchiti, per l’occasione, da un dibattito stimolato e moderato da un testimone esterno alla comunità. L’intento era quello di approfondire – insieme a quanti, più o meno assiduamente, circondano la comunità – le dimensioni dell’accoglienza nella fragilità, della condivisione in uno stile di vita familiare e della testimonianza nell’esser parte della Chiesa e del mondo.
 
 Poi è arrivato il covid-19 che ha scombussolato tutti i progetti... E il Carro, come altre realtà simili, ha dovuto mettersi in protezione e chiudersi all’esterno, come d’altronde tutte le famiglie. Chiudersi certo, non del tutto però… Matteo Mazzarotto e Ivana Perri– la coppia che con la propria famiglia ha da sempre accompagnato e seguito la comunità scegliendo di vivere a fianco delle persone accolte – hanno cominciato a inviare una cronaca settimanale della vita durante l’isolamento. Così la prima cosa che in tanti abbiamo scoperto è che la zona in cui è situata la casa famiglia è denominata “Montemigliore”: in effetti la campagna è molto bella e se la sua distanza dalla città è sempre stata una difficoltà, «mai come in questo momento – scrivono – riconosciamo il privilegio di vivere in questo posto, dove qualità e quantità degli spazi ci consentono di muoverci, stare all'aria aperta... e mantenere le distanze!».

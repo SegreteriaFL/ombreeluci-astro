@@ -14,7 +14,8 @@ umap_x: 7.454854965209961
 umap_y: 9.154104232788086
 umap_z: 12.857966423034668
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 > “Io? Proprio io?”.
 

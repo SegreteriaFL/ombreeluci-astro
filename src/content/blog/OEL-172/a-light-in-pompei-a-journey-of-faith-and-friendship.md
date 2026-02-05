@@ -12,8 +12,9 @@ umap_x: 8.855037689208984
 umap_y: 7.964179992675781
 umap_z: 12.309490203857422
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Good afternoon, my dear readers. In my [previous piece](https://www.ombreeluci.it/2025/che-bello-vedere-tanti-giovani/) , I mentioned that I would tell you how the trip to Pompei went. **Well, it went wonderfully!** Apart from a few hiccups that, in my opinion, could have been avoided — but all in all, everything turned out fine.
 
 In Pompei, there were all the Italian communities and even some from abroad. What struck me most was seeing my very first community again — and watching young people working side by side with the Scouts, many of whom were discovering Fede e Luce for the first time. Another beautiful moment was during the pastry workshop, which I absolutely loved because — as those who know me well can confirm — I really enjoy cooking. Preparing desserts or savory dishes for everyone made me feel useful, like I was giving something of myself to all the communities, not just to those who already knew me.

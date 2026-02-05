@@ -11,8 +11,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 7 Febbraio 2020
 
 Immagine di copertina: Memoriale per le vittime della clinica viennese di Spiegelgrund (Vienna, 2008)

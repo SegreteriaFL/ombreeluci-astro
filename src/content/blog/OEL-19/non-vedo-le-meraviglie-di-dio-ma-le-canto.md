@@ -17,7 +17,8 @@ umap_x: 7.524425029754639
 umap_y: 9.817594528198242
 umap_z: 9.414772033691406
 issue_number: OEL-19
-id_numero: OEL-19
+id_numero: "OEL-19"
+numero_rivista: "Ombre e Luci"
 ---
 Sono felice di essere al mondo. Sono cieco, ho trent’anni, lavoro a Parigi, sono sposato, abbiamo due figli. Sono nato nei Pirenei fra Lourdes e Garvanie. Handicappato, mi trovavo un po' solo in mezzo agli altri. Abitavamo in montagna; per questo ho dovuto farmi un piede da montanaro, imparare a cadere evitando di farmi male e sopportare un buon numero di cadute per ottenere giorno dopo giorno maggiore autonomia negli spostamenti. I miei genitori sono pastori. Mi hanno accolto come si accoglie la pioggia o il sole, senza fatalità, con una gran fiducia nella vita e nella natura. Più tardi ho capito quanto sia bello il lavoro dei miei genitori. È veramente un lavoro per l’uomo, a dimensione e a ritmo d’uomo. Se per molti la montagna vuol dire lusso, vacanza, sci, per noi è anche solitudine, lavoro senza mai vacanza, perché le pecore non fanno vacanza.
 > Non ho potuto sfuggire ai dolorosi «Perché io?» ma circondato dagli altri, ho potuto avanzare

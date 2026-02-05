@@ -17,7 +17,8 @@ umap_x: 8.71281623840332
 umap_y: 8.87884521484375
 umap_z: 3.2976315021514893
 issue_number: OEL-69
-id_numero: OEL-69
+id_numero: "OEL-69"
+numero_rivista: "Ombre e Luci"
 ---
 Nella stanza c’è silenzio assoluto e l'attenzione di tutte noi è così totale da generare quasi una sottile tensione, una corrente di sentimenti nuovi che un po’ ci fanno piacere e un po’ ci turbano. Sul piccolo schermo scorrono le immagini di ragazzi down, con i volti più o meno segnati dai caratteri tipici della trisomia 21, che passeggiano in coppia affettuosamente abbracciati lungo la riva del mare, che si scambiano tenerezze e dichiarazioni d’amore, che si preparano per la festa, che ballano in discoteca, che confidano la loro storia d’amore, i loro desideri per il futuro ma anche le loro incertezze e la consapevolezza dei propri limiti.
 

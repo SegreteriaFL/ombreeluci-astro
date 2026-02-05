@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
 archive_id: OmbreELuci_002
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 periodo_label: Aprile, Maggio, Giugno
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 umap_x: 6.896951675415039
 umap_y: 8.124927520751953
 umap_z: 7.09971284866333
+id_numero: "OEL-2"
 ---
-
 Nell’estate del 1977 eravamo in Irlanda in vacanza con la nonna e i nostri tre figli. Sally la nostra figlia Down, aveva allora 21 anni, e direi che prima di quella vacanza non aveva mai visto un cavallo. L’Irlanda è il paese del cavallo, e ce n’erano in tutti i prati a correre liberamente: uno spettacolo bellissimo. Venivano anche vicino a farsi accarezzare. Sally più di tutti noi era entusiasta di questo meraviglioso animale “così simmetrico e musicale”. Quindi al nostro ritorno a Milano l’abbiamo portata al
 **Centro Ippico Lombardo di San Siro**
 . All’inizio Sally ha avuto un po’ di paura, al momento di montare ma una volta superata la paura, l’andare a cavallo è diventato per lei il momento più gioioso della settimana.

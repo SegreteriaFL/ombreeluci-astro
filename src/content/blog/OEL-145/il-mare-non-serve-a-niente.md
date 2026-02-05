@@ -12,7 +12,8 @@ umap_x: 7.265236854553223
 umap_y: 11.034262657165527
 umap_z: 4.779719352722168
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Anna, che vive in un palazzo di cento pianti, sogna il mare. Non l’ha mai visto, lo ha scoperto nei libri, nutrendolo con la fantasia. Chiede ripetutamente ai genitori e alla nonna di portacela, ma ogni volta è no: “Il mare non fa per te”. Non per cattiveria, ma per paura: Anna è in carrozzina e gli adulti non riescono a gestire il suo desiderio. È prezioso il libro Il mare non serve a niente. Lo è grazie ai testi di Michele Rossi, direttore della narrativa Rizzoli, delicati sia nella descrizione dei limiti che in quella dei sogni; lo è grazie ai disegni de La Bigotta (nome d’arte di Anna Neudecker), nota tatuatrice che qui illustra la storia della bambina in un bellissimo gioco di bianco, nero e dettagli improvvisamente a colori. Lo è, infine, perché è veramente un libro scritto ad altezza di bambino. La carrozzina di Anna compare solo a pagina 24: i suoi sogni, come quelli di ogni piccolo, vengono prima. E a crederci davvero, possono avversarsi.
 

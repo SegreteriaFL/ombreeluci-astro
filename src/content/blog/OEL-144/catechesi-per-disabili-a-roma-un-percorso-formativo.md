@@ -12,8 +12,9 @@ umap_x: 9.368178367614746
 umap_y: 10.032837867736816
 umap_z: 8.603800773620605
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 A
 lla Chiesa di
 [Santa Maria Regina Pacis di Monteverde](http://reginapacismonteverde.it/)

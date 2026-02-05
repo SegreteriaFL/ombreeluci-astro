@@ -14,8 +14,9 @@ umap_x: 5.217695236206055
 umap_y: 9.158186912536621
 umap_z: 8.680800437927246
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 **Gerardo, puoi presentare la tua famiglia?**
 GERARDO: E composta di quattro persone: io, Gerardo, papà di Pablo e di Daniele e marito di Rita. Ho 53 anni e sono rappresentante di aziende dolciarie; Rita ne ha 48 e sta a casa, forse anche contro la sua volontà; Pablo ha 25 anni, va alla scuola Vaccari, Daniele ha 22 anni e fa scienze politiche all’università.
 **Rita, come passi la giornata e che posto occupa Pablo nella tua vita di oggi?**

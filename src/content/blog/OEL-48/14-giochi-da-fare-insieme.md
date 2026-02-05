@@ -14,8 +14,9 @@ umap_x: 9.000752449035645
 umap_y: 9.276144981384277
 umap_z: 6.299005031585693
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ecco una prima lista di giochi ( [qui la seconda](https://www.ombreeluci.it/1994/22-mini-giochi-da-fare-insieme/) ). Mandateci le vostre osservazioni e anche altri giochi che ritenete validi: faremo il prossimo anno un altro numero su attività e giochi di gruppo.
 **English Version: [14 Interactive Games for Unforgettable Group Fun](https://www.ombreeluci.it/en/1994/06/23/14-interactive-games-for-unforgettable-group-fun/)**
 

@@ -4,8 +4,8 @@ date: 1996-03-04
 author: Redazione
 slug: lo-sconforto-emotivo-esige-comprensione
 lang: it
-numero_rivista: 53
-id_numero: OEL-53
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-53"
 issue_number: OEL-53
 wp_id: 10528
 original_url: "https://www.ombreeluci.it/?p=10528"
@@ -17,7 +17,6 @@ umap_x: 5.39170503616333
 umap_y: 9.14083194732666
 umap_z: 7.67458438873291
 ---
-
 *Sheila Hollins, professore e consulente onorario nel servizio di psichiatria per le persone con handicap nell ospedale S. Giorgio a Londra, è madre di quattro figli, uno dei quali, Nigel, è disabile mentale.*
 Quando si pensa ai genitori, di solito si pensa alle gioie della paternità e della maternità. Di fatto, essere genitori è un misto agro-dolce di gioia e di dolore; il dolore del parto, il dolore di non sentirsi all’altezza del compito e il dolore di vedere il figlio soffrire; la gioia di ricevere l’amore dal figlio, la gioia di veder sbocciare una nuova personalità, la gioia di condividere i suoi successi.
 

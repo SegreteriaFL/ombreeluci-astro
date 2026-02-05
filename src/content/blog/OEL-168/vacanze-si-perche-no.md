@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Eccoci in partenza, andiamo a passare la Pasqua tra e con amici. Dopo due giorni di preparativi, con la mente piena di tutte le cose da prendere, lasciare, mettere in valigia, ausili vari, si parte. **Infiniti passi tra dentro casa e fuori in cortile dove c’è il pulmino per portare ogni cosa necessaria; e poi alla fine dimentico sempre qualcosa. Ogni volta che mi devo organizzare per una partenza con Giorgio e Cristina, mi chiedo se è proprio necessario e se ne vale la pena fare tanta fatica, preoccuparmi di mille cose per stare via pochi giorni quando potrei starmene tranquillamente a casa.
 Ma poi per fortuna vince la forza di volontà e la voglia di passare un po’ di tempo con amici che accolgono, comprendono e condividono.** E loro sanno che arrivo sempre stanca, perciò trovo subito delle mani aperte pronte ad aiutarmi. Ma anche quando facciamo gite giornaliere, da soli in montagna, ne vale la pena partire, ma di questo parlerò un'altra volta.
 

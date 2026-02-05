@@ -17,7 +17,8 @@ umap_x: 7.654408931732178
 umap_y: 8.885558128356934
 umap_z: 14.145818710327148
 issue_number: OEL-23
-id_numero: OEL-23
+id_numero: "OEL-23"
+numero_rivista: "Ombre e Luci"
 ---
 ### «Ho bisogno di te!»
 

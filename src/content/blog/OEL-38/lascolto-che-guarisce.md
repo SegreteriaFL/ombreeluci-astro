@@ -12,7 +12,8 @@ umap_x: 7.831071376800537
 umap_y: 10.883743286132812
 umap_z: 6.476130962371826
 issue_number: OEL-38
-id_numero: OEL-38
+id_numero: "OEL-38"
+numero_rivista: "Ombre e Luci"
 ---
 S
 e per l’essere umano la capacità di dialogo è fonte essenziale di comprensione e di scambio, per chi, come medico, psicoterapeuta, sacerdote, o semplicemente come amico, si pone di fronte all’altro per aiutarlo, essa rappresenta il fondamento della possibilità di una crescita, quella propria e quella dell’interlocutore. E la base di ogni guarigione. In questo senso tutti ne abbiamo provato il desiderio, tutti ne abbiamo sentito il valore. Ma come stimolare in noi questa capacità o come acquisirla? Partendo dal presupposto che il dialogo è formato da tre elementi ugualmente importanti, la parola, il silenzio e l’ascolto, alcuni psico-terapeuti e operatori sanitari e pastorali si sono incontrati alla

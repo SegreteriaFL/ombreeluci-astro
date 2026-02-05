@@ -18,8 +18,9 @@ umap_x: 6.529908657073975
 umap_y: 9.492287635803223
 umap_z: 10.563483238220215
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 **What impact has Sabina had on our lives?**
 Now that Sabina is 15, I answer this question differently than I would have when she was younger. There’s no doubt that this painful experience—more accurately, this drama—of having a severely disabled child changes your life, your plans, your actions, and your way of thinking as a family.
 **Speaking for myself, I believe my life can be divided into three distinct chapters.**

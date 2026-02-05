@@ -16,8 +16,9 @@ umap_x: 8.98129653930664
 umap_y: 5.171347618103027
 umap_z: 9.013864517211914
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sono oltre 3000 gli atleti, provenienti da tutta Italia, che si sfidano in
 **18 discipline sportive**
 :

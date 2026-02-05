@@ -12,7 +12,8 @@ umap_x: 7.99053955078125
 umap_y: 8.230647087097168
 umap_z: 13.085962295532227
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 Era un sabato pomeriggio di molti anni fa, il 2005 per la precisione. **Tutta Fede e Luce era confluita ad Assisi per ricordare l'anniversario della nascita italiana del movimento** . Era, se non ricordo male, un palazzetto dello sport, o comunque un grandissimo impianto sportivo capace di ospitarci tutti. Balli, canti, spettacoli, parole... Secondo alcuni, troppe parole. Troppi discorsi. Troppe testimonianze per un pubblico non capace di tenere a lungo l'attenzione. Non mi trovai allora d'accordo con queste critiche perché quel che successe ebbe, a mio avviso, dell'incredibile.
 

@@ -14,8 +14,9 @@ umap_x: 5.850045204162598
 umap_y: 6.701066493988037
 umap_z: 8.694316864013672
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 # Aiutaci a farci conoscere!
 
 ## Regala Ombre e Luci a soli 10€

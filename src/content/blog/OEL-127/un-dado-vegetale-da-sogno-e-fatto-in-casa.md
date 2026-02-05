@@ -15,7 +15,8 @@ umap_x: 7.785384178161621
 umap_y: 6.631382465362549
 umap_z: 11.210805892944336
 issue_number: OEL-127
-id_numero: OEL-127
+id_numero: "OEL-127"
+numero_rivista: "Ombre e Luci"
 ---
 Esiamo arrivati al sesto anno di seguito: pranzi comunitari, alleluia più o meno intonati, cerchi improvvisati con tante tante idee, scambi, risate, condivisioni. I campi alla Bicoca ci fanno crescere e con loro sta crescendo la nostra famiglia. Anche se il nostro piccolo mondo può sembrare (e lo è) un po’ a parte, il campo ci aiuta a staccare dalla quotidianità e cerchiamo insieme a tutti i partecipanti di imparare cose nuove, praticando delle attività di campagna, per valorizzare i prodotti della natura e il nostro ambiente circostante.
 

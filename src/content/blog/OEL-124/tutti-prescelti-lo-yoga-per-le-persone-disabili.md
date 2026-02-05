@@ -14,8 +14,9 @@ umap_x: 6.950374603271484
 umap_y: 8.437276840209961
 umap_z: 7.809789657592773
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 P
 **er raccontare la mia esperienza di insegnante di yoga devo incominciare a spiegare brevemente le motivazioni che mi hanno spinto ad iniziare**
 . Quando ero ancora giovane, andavo in terza media, ho iniziato a frequentare Fede e Luce e quindi a creare amicizia con persone “disabili”. Questa amicizia è stata per me molto importante, al punto da darmi la possibilità di tenere rapporti con persone “diverse”, con i loro parenti, e con persone “normali”.

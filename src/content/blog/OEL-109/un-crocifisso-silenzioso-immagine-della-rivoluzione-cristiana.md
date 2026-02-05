@@ -12,7 +12,8 @@ umap_x: 8.592875480651855
 umap_y: 9.86213207244873
 umap_z: 9.116463661193848
 issue_number: OEL-109
-id_numero: OEL-109
+id_numero: "OEL-109"
+numero_rivista: "Ombre e Luci"
 ---
 “Dicono che il crocifisso deve essere tolto dalle aule di scuola. Il nostro è uno stato laico e non ha il diritto d'imporre che nelle aule ci sia il crocifisso(...).. Però a me dispiace che il crocifisso scompaia per sempre da tutte le classi. Mi sembra una perdita. L’ora di religione è una prepotenza politica. È una lezione. Vi si spendono delle parole. La scuola è di tutti, cattolici e non cattolici. Perché vi si deve insegnare la religione cattolica? Ma il crocifisso non insegna nulla. Tace. L’ora di religione genera una discriminazione fra cattolici e non cattolici, fra quelli che restano nella classe in quell’ora e quelli che si alzano e se ne vanno. Ma il crocifisso non genera nessuna discriminazione. Tace.
 

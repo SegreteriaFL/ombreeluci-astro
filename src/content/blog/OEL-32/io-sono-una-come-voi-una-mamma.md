@@ -12,8 +12,9 @@ umap_x: 5.562943458557129
 umap_y: 9.126225471496582
 umap_z: 7.950516700744629
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 C
 arissime mamme, carissimi papà, vogliamo parlare un po' fra noi? Io sono una come voi. Cioè una mamma, alla quale un giorno, bruscamente, un medico disse che la bimba appena nata che tenevo fra le braccia con orgoglio e gioia era handicappata, era mongoloide. Chi ha avuto questa amara, dolorosa prova non può tralasciare di rivivere quel momento, anche se poi, col passare del tempo, col fare altre esperienze anche positive, tutto si calma, si ridimensiona. Ma ecco un po’ della mia storia. Dopo 13 anni di matrimonio, ai nostri tre figli si aggiunse un’altra creatura. Mio marito ed io avevamo 44 anni: io ero stupita e felice di diventare mamma un'altra volta; accogliemmo la notizia con grande entusiasmo, anche se la maternità si presentava difficile. Ricordo le cure, le attenzioni, l'attesa: i momenti dolcissimi della preparazione di un corredino tutto nuovo, aiutata dagli altri bambini ormai grandicelli. Tanti progetti facevamo tutti insieme, tante preghiere. I figli preparavano disegni che io ricalcavo per ricamarli su federe, lenzuo lini, ecc. Un momento di sole su tutta la casa. Il 13 maggio 1953 nacque la nostra Pia. Attorno a noi visi contenti di parenti e amici. Nessun medico né personale della clinica parlò. Seppi la verità solo qualche giorno dopo. Impossibile descrivere il dolore, anche fisico,che provai. Sorretta da qualche parola di conforto mi rifugiai in cappella e forse fu l'ultima volta che riuscii a piangere disperatamente, pur accettando la volontà di Dio. Anche mio marito seppe dire il suo SI. Sorvolo, perché sarebbe troppo lungo, su quegli anni e su tutti gli sforzi fatti per aiutare lo sviluppo della bambina. Col migliorare delle condizioni fisiche, si cercava tutti in famiglia di aiutare la piccola ad evolversi verso altri modi di vivere.
 > Teresa, si avvicina ai trentanni. Accettata con affetto educata con gran cura dalla famiglia, ha raggiunto quasi completa autonomia malgrado le sue difficoltà. Lavora nel reparto maternità di un grande ospedale

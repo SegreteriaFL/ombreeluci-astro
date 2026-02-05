@@ -16,8 +16,9 @@ umap_x: 7.552091121673584
 umap_y: 9.180397033691406
 umap_z: 13.61292552947998
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Olga Burrows Gammarelli, inglese naturalizzata italiana e mamma di Sabina, con una grave disabilità, racconta della settimana di formazione internazionale per i responsabili di comunità cui ha partecipato nel suo stile molto pragmatico. Ceili Horsburgh, scozzese, testimonia la sua esperienza familiare e comunitaria di ecumenismo.*
 
 ### Così non si fa!

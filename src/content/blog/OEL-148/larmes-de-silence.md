@@ -12,8 +12,9 @@ umap_x: 8.463334083557129
 umap_y: 12.252320289611816
 umap_z: 10.727763175964355
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Una delle foto più suggestive vede un bimbo in ciabatte, le braccia aperte come ali, che gioca a fare l’equilibrista sul muro di un edificio distrutto. In tante delle immagini in bianco e nero scattate da Jonathan Boulet–Groulx per accompagnare il libro domina proprio il contrasto tra rassegnazione e speranza, squallore e tenerezza, morte e vita. Nel libro infatti Vanier torna ad affidare alla poesia il racconto di un mondo spaccato: da una parte il dolore innocente di chi soffre malattie, guerra, povertà, vecchiaia, solitudine, dall’altra il malessere colpevole di quanti, restano «prigionieri di abitudini egoiste». Parole e ritratti d’amore si alternano così a pagine di denuncia in cui le lacrime silenziose sul volto dei bimbi o trattenute in occhi adulti sono conseguenza dell’ingiustizia che regola il mondo. «Cuori di pietra», sordi alle grida di dolore, sono immortalati nella loro condizione di monadi tristi che, telefono all’orecchio, camminano in strade affollate come fossero nel deserto. È a questi cuori che il libro parla, chiedendo uno sguardo nuovo che veda nella fragilità non una maledizione, ma un ponte verso l’altro.
 
 *Editoriale* ** ** [**Uomo del Regno**](https://www.ombreeluci.it/2019/uomo-del-regno/) di Giulia Galeotti

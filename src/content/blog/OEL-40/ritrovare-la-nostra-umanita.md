@@ -11,8 +11,9 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-40
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 Da molti anni Jean Vanier vive quotidianamente con persone ferite nel corpo e nella mente. Anche noi spesso le incontriamo, ma fuggiamo la loro sofferenza come fuggiamo la nostra. Jean Vanier ci invita a rispondere con la comunione e con l’amore alla chiamata di chi soffre. Ecco il suo «invito» tratto da una conferenza tenuta lo scorso anno a Parigi.
 La prima volta che incontrai uomini e donne con handicap fui colpito dalle loro domande. La prima era molto semplice: «Mi vuoi bene, vuoi essere mio amico?». La seconda non era formulata, ma era scritta sul loro viso: «Perché sono così? Perché?».
 Nella Bibbia, nelle pagine del profeta Osea, Dio dice della donna infedele caduta nella sofferenza e nella disperazione: «Io la sedurrò, la condurrò nel deserto e parlerò al suo cuore. Le renderò le sue vigne». E aggiunge: «Trasformerò la valle di Acor in una porta di speranza». (Osea 2, 16-18).

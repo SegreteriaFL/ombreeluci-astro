@@ -17,7 +17,8 @@ umap_x: 6.199223041534424
 umap_y: 10.629498481750488
 umap_z: 6.110879898071289
 issue_number: OEL-29
-id_numero: OEL-29
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
 Questo opuscolo (32 pagine) è il primo di dieci. È l’introduzione del corso e si svolge **ai genitori che hanno un figlio con sindrome di Down (da 0 a i 6/7 anni)** . Ecco i titoli dei nove capitoli, uno per ogni opuscolo.
 

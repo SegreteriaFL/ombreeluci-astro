@@ -4,8 +4,8 @@ date: 2002-06-15
 author: Lucia Bertolini
 slug: danzare-oh-ohohoo
 lang: it
-numero_rivista: 78
-id_numero: OEL-78
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-78"
 issue_number: OEL-78
 wp_id: 24979
 original_url: "https://www.ombreeluci.it/?p=24979"
@@ -17,7 +17,6 @@ umap_x: 8.783012390136719
 umap_y: 7.66096305847168
 umap_z: 9.387596130371094
 ---
-
 Danzare ci piace. Alcuni sono timidi, seri, a volte un po’ complessati e pensano di non amare la danza; ma si tratta di scoprire, far venire a galla questo antico desiderio. E bello muoversi, ondeggiare, saltellare, scivolare, trattenersi e lasciarsi andare al fascino della musica, al suono, al ritmo, alla melodia...
 
 Ed è bello soprattutto ballare insieme agli altri quando, al piacere del movimento, si aggiunge quello della vicinanza, dello scambio di gesti, sguardi, contatti che ci fanno sentire più amici.

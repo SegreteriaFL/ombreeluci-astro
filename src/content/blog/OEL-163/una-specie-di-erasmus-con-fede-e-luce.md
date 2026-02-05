@@ -12,7 +12,8 @@ umap_x: 8.747354507446289
 umap_y: 7.862249374389648
 umap_z: 11.6981840133667
 issue_number: OEL-163
-id_numero: OEL-163
+id_numero: "OEL-163"
+numero_rivista: "Ombre e Luci"
 ---
 «Visitare una città come Roma una volta nella vita è molto importante. Tutte le persone dovrebbero farlo. Mio papà mi ha dato un buon consiglio». Appassionato viaggiatore e collezionista di monumenti, con un’accezione tutta personale del significato di “monumento” compreso solo in seguito, **Samuèl Lopez Ruiz è atterrato a Roma il 9 maggio scorso.** Il suo arrivo era stato annunciato mesi fa: un’amica dalle numerose conoscenze sparse in Europa, Angela Grassi, aveva incontrato il padre di Samuel grazie a una conoscenza comune tra *Fe y Luz* e il gruppo per l’autismo all’interno dell’associazione Down che Samuèl frequenta a Santander («in Cantabria», sottolinea).
 

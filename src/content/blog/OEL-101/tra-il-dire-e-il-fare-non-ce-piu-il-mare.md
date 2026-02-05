@@ -7,8 +7,8 @@ cluster_id: 0
 slug: "tra-il-dire-e-il-fare-non-ce-piu-il-mare"
 lang: it
 anno_rivista: 2008
-numero_rivista: 101
-id_numero: OEL-101
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-101"
 issue_number: OEL-101
 wp_id: 33190
 has_comments: false
@@ -16,7 +16,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Tra il dire e il fare... Si dice così quando una cosa sembra quasi impossibile, difficile da realizzare, un'utopia.
 Invece noi abbiamo scoperto che non è sempre vero.
 

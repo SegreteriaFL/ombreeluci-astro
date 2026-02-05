@@ -12,7 +12,8 @@ umap_x: 9.143977165222168
 umap_y: 8.593694686889648
 umap_z: 12.037688255310059
 issue_number: OEL-50
-id_numero: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
 Nel pellegrinaggio di Assisi ci sono stati momenti che meritano di essere evidenziati, perché il loro valore rimarrà nel nostro cuore per sempre... ...Credo che l’aspetto della gioia sia da sottolineare in particolare, perché di aiuto, disponibilità, impegno si parla frequentemente, ma il sentimento gioia sembra che Il più delle volte sia precluso alle famiglie in queste situazioni. Si vedono le difficoltà, che sono reali, e quindi i sentimenti legati al negativo, come ansia, sofferenza, isolamento; riuscire ad uscire da questa condizione interiore e accorgersi che si può anche essere sereni, gioiosi, che si può far festa insieme, perché insieme ognuno di noi che è piccolo piccolo, come la formica può fare grandi cose per vivere il senso della vita, nell’umiltà e nell’amore, è acquisire forza d’animo, serenità, fiducia e speranza, è scoprire o vivere la fede dell’amore di Dio. Ad Assisi ho vissuto questi momenti con il cuore e nel cuore sono rimasti, così come sono vive le immagini della festa: lo sventolio di tanti
 *foulards*

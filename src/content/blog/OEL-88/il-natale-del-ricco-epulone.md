@@ -4,8 +4,8 @@ date: 2004-12-14
 author: Maria Teresa Mazzarotto
 slug: il-natale-del-ricco-epulone
 lang: it
-numero_rivista: 88
-id_numero: OEL-88
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-88"
 issue_number: OEL-88
 wp_id: 30623
 original_url: "https://www.ombreeluci.it/?p=30623"
@@ -17,7 +17,6 @@ umap_x: 5.708471298217773
 umap_y: 5.99938440322876
 umap_z: 12.281739234924316
 ---
-
 Ecco il Natale. Ancora una volta, come sempre più sensibili alle sirene del consumismo che alle campane di Natale, parleremo di regali e ci affanneremo per acquistarli, tanti o pochi, costosi o economici. **Ma NO, da quest’anno regaliamo qualcosa di diverso** : regaliamo a Natale e per tutto l’anno, il tempo, un po’ del nostro tempo e delle nostre capacità a persone in difficoltà, ad [associazioni o gruppi che lavorano gratuitamente per aiutare altri esseri umani](https://www.ombreeluci.it/2004/vorrei-fare-qualcosa-per-gli-altri-ma-cosa/) nei modi più diversi e negli ambienti più disperati. E se siamo già impegnati, ma stanchi, disillusi, sull’orlo di abbandonare ogni cosa, reagiamo con forza a questo stato d'animo e rinnoviamo la voglia di fare, nonostante la stanchezza o le disillusioni che a volte tanto pesano.
 
 **In questi tempi difficili mentre si moltiplicano in ogni parte del mondo drammi, problemi e sofferenze** , appare sempre più evidente anche l'impossibilità dei governi di farvi fronte in modo esauriente, per la complessità delle situazioni, per la scarsità dei finanziamenti a disposizione, per cento altri motivi. Di conseguenza diventa sempre più essenziale il contributo del volontariato e cresce la sensazione che questo contributo dovremo viverlo semplicemente come una risposta ad un debito che abbiamo con il resto dell’umanità, come un dovere civile, come un obbligo morale.

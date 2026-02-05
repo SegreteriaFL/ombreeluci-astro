@@ -4,8 +4,8 @@ date: 2002-03-10
 author: Mariangela Bertolini
 slug: andiamo-avanti
 lang: it
-numero_rivista: 77
-id_numero: OEL-77
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-77"
 issue_number: OEL-77
 wp_id: 23998
 original_url: "https://www.ombreeluci.it/?p=23998"
@@ -15,7 +15,6 @@ umap_x: 5.200246810913086
 umap_y: 6.957033157348633
 umap_z: 10.291899681091309
 ---
-
 Anche se non numerose come speravamo, le vostre risposte [alla nostra domanda](https://www.ombreeluci.it/2001/vogliamo-andare-avanti/) - a parole *e* in contributo economico – hanno diradato dubbi e incertezze. **"Andate avanti, non mollate!"** **Grazie per l'incoraggiamento. Ne avevamo bisogno** . Quando, circa venti anni fa, abbiamo cominciato a dialogare con voi su queste pagine, lo abbiamo fatto spinti dalla consapevolezza che molti genitori di figli disabili erano soli, smarriti, pieni di difficoltà e di amarezze. Volevamo creare una reta di solidarietà almeno a parole - con quanti desideravano sentirsi meno soli e meno abbandonati.
 
 **Poco alla volta e insieme, ci siamo confrontati, abbiamo espresso desideri e bisogni, dato sfogo, a volte, alle difficoltà che ci sembravano insormontabili** . Ci siamo aiutati spesso, andando a cercare notizie, luoghi, persone, centri, medici, servizi che potevano essere di aiuto all'uno o all'altro. Forse pochi hanno ricevuto questo aiuto concretamente, ma alcuni pare proprio di si. Abbiamo raccontato le esperienze positive vissute da alcuni per incoraggiare e stimolare quelli che si scontravano con momenti e crisi di segno negativo. Abbiamo dato spazio a riflessioni e ad esperienze di alcune persone che per tutta la vita si sono dedicate, in concreto, all'accompa gnamento e all'educazione delle persone disabili e dei loro genitori. Non so quanti dei nostri lettori giovani si sono ritrovati nel leggere Ombre e Luci. Da parte nostra li abbiamo tenuti presenti per rispondere alle loro richieste, ai consigli che ogni tanto ci chiedeva no. Nei limiti del poco spazio a disposizione, abbiamo accolto i loro racconti sulle scoperte inaspettate che facevano vivendo momenti di tempo libero di servizio, di vacanza con i loro coetanei disabili.

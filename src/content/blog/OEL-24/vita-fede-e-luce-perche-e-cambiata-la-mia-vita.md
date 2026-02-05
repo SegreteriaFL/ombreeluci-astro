@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 "Cosa è cambiato nella mia vita e cosa mi ha portato [Fede e Luce](https://www.ombreeluci.it/fede-e-luce/)?
 Oso rispondere così: Fede, Speranza, Carità. E mi spiego: quand’ero bambina, credevo che per essere cristiani bastava essere battezzati, fare la Comunione, la Cresima, andare a Messa la domenica, sapere a memoria il libretto di dottrina, recitare il rosario e la preghiera del mattino e della sera.
 Cresciuta, mi sono sposata (in Chiesa naturalmente) e con il desiderio di avere dei figli. Come cristiana ero tranquilla... Ma, per fortuna, il nostro Dio che è un Padre misericordioso, ha voluto farmi capire qualcosa di più tramite Carla. Dico per fortuna, perché quella serenità, quell’amore e comprensione di cui si ha bisogno quando c’è un handicappato in famiglia, l’ho trovata soltanto in FL.

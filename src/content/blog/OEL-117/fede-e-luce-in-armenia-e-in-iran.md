@@ -12,7 +12,8 @@ umap_x: 7.639383792877197
 umap_y: 9.357928276062012
 umap_z: 13.990025520324707
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 Ci sono tre comunità in Armenia e una in Iran che vivono Fede e Luce in legame con le altre comunità libanesi. Le comunicazioni però non sono molto facili; per questo sono molto desiderate le visite da parte di qualcuno. Carla Waked (coordinatrice della provincia) insieme a Makhoul (vice coordinatore) durante l’estate sono andati in questi due paesi e hanno ricevuto un’accoglienza calorosa. Si riuniranno per il pellegrinaggio in Libano (30 agosto – 2 settembre). Ecco il racconto di Carla
 

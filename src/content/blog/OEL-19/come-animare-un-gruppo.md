@@ -14,7 +14,8 @@ umap_x: 8.486002922058105
 umap_y: 10.149831771850586
 umap_z: 6.34956693649292
 issue_number: OEL-19
-id_numero: OEL-19
+id_numero: "OEL-19"
+numero_rivista: "Ombre e Luci"
 ---
 «Questo volume, scritto da tre specialisti nella educazione degli adulti e nella animazione dei gruppi, analizza tutte le condizioni che trasformano una riunione di gruppo in strumento efficace di progresso personale e sociale. Esso è destinato a tutti coloro che vivono l’esperienza di un lavoro fatto in comune: animatori principianti, animatori sperimentati che vogliono perfezionare il loro metodo e fare il punto sul lavoro svolto, membri di un gruppo di ricerca, ecc.» Bisogna precisare che il tutto si riferisce a situazioni di gruppi di discussione (e non per esempio di gruppi di gioco o di altre attività). Il libro è breve e chiaro. Per alcuni potrà sembrare troppo semplificato perché non ci sono teorie ma solo regole concrete. Per noi è proprio la sua semplicità a renderlo utile a chi si trova incaricato della responsabilità di animare o di coordinare un gruppo.
 **N.S.**

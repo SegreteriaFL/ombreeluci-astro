@@ -4,8 +4,8 @@ date: 1997-12-15
 author: Henri Bissonier
 slug: laiuto-spirituale-dei-nonni
 lang: it
-numero_rivista: 60
-id_numero: OEL-60
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-60"
 issue_number: OEL-60
 wp_id: 11820
 original_url: "https://www.ombreeluci.it/?p=11820"
@@ -17,7 +17,6 @@ umap_x: 4.76922082901001
 umap_y: 9.553574562072754
 umap_z: 8.572775840759277
 ---
-
 U
 na bella testimonianza ci viene da
 **Emanuela Laborit**

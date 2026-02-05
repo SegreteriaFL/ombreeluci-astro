@@ -12,8 +12,9 @@ umap_x: 8.017718315124512
 umap_y: 6.985455513000488
 umap_z: 11.450514793395996
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 *I [campeggi Fede e Luce Alfedena](https://www.ombreeluci.it/tag/alfedena/) sono cominciati dalla necessità di portare in vacanza alcuni ragazzi ospiti della ex scuola Serena, che, per la gravità del loro handicap erano nella impossibilità di partire. Quest'anno, per la prima volta, il centro Vojta (ex-Serena) ha organizzato un soggiorno estivo al mare con 60 dei suoi ospiti ed alcuni genitori, fratelli, sorelle ed alcuni operatori con i loro familiari. Un'esperienza significativa che ci sembrava giusto ospitare nelle nostre pagine. Il reportage è di ***Manuela Bartesaghi*** *
 
 Venti giorni al mare. Andata e ritorno in treno. Per qualcuno è stata la prima volta: la prima volta che saliva sul treno, o la prima volta che metteva i piedi nell'acqua salata, o la prima volta che dormiva in albergo, che aveva una camera tutta per sé, o con la doccia. E anche per tanti genitori è stata la prima volta che il proprio figlio partiva per le vacanze, vacanze un pò diverse dalla solita colonia, o dalla gita rella a Fregene. Dunque tante prime volte che rendevano ancora più emozionante l'idea della vacanza al mare.

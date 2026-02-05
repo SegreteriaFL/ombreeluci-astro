@@ -12,8 +12,9 @@ umap_x: 8.022224426269531
 umap_y: 8.020366668701172
 umap_z: 13.406549453735352
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Roma
 
 Sono stati vari i momenti trascorsi insieme in quest'ultimo periodo, molti forse ne saranno rimasti un pò al di fuori per un motivo o per un altro, tutti ne possono ritrovare qui i punti essenziali.

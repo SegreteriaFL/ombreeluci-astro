@@ -12,8 +12,9 @@ umap_x: 7.8378119468688965
 umap_y: 7.9370646476745605
 umap_z: 13.371362686157227
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 ### Com'è andata l'ultima [Festa della Luce](https://www.ombreeluci.it/1976/festa-della-luce-1976/) ?
 
 Chi fosse arrivato dai Frères prima che la festa iniziasse poteva credere di assistere ad un film, uno di quei vecchi film di Chaplin dove tutti corrono come trottole, tutti si affannano girando su se stessi... Rotoli di carta igienica di qua, giornali e stracci da un'altra parte... Strani pseudo-vestiti di carta colorata, bandiere da far invidia a una squadra navale...

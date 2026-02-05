@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 Cos’è bello? Chi definisce cosa sia bello e cosa brutto? “Bello” e “brutto” sono aggettivi qualificativi, che aggiungono qualità a ciò che si sta descrivendo dal punto di vista dell’osservatore, **esattamente come “alto” o “basso” dipendono dalla prospettiva di colui che verga il giudizio.
 

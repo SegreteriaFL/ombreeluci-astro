@@ -12,7 +12,8 @@ umap_x: 6.913351058959961
 umap_y: 9.009404182434082
 umap_z: 7.287759780883789
 issue_number: OEL-157
-id_numero: OEL-157
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
 Uninvito a cogliere il superpotere dentro ognuno di noi, a vedere oltre quelle barriere, oltre la disabilità, e a ingaggiare sempre una relazione con chi ci appare diverso o più fragile. Cece Bell è il nome di una scrittrice e illustratrice americana che nel 2014 ha raccontato la sua infanzia di bambina sorda in ***El Deafo* , un libro a fumetti di incredibile successo negli Stati Uniti che le è valso un Eisner Award** (prestigioso riconoscimento per i fumetti, al pari degli Oscar) come miglior pubblicazione per ragazzi. *El Deafo* è arrivato in Italia con il titolo di *Supersorda* (Piemme 2017, traduzione di Elena Orlandi), e da gennaio è diventato [una miniserie animata](https://tv.apple.com/it/show/supersorda/umc.cmc.775eomzc9ljfk7bop9shbu7m0) sulla piattaforma di streaming a pagamento Apple Tv+. Tre episodi di mezz’ora per raccontare la storia della piccola Cece: diventata sorda a 4 anni come conseguenza della meningite, per lei l’uso di quell’apparecchio acustico così ingombrante era persino più doloroso della sua stessa disabilità.
 

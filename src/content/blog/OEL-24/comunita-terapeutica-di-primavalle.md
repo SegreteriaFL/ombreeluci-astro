@@ -11,8 +11,9 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 Le persone colpite da malattia mentale devono spesso in un primo tempo — chiamato fase acuta della malattia — farsi curare presso i servizi specializzati in neuropsichiatria. Questa malattia però, in molti casi non finisce qui con guarigione completa. Di fatto, in molti di loro continuano, ritornano o rimangono gravi disturbi tali da rendere l'autonomia, la relazione in famiglia e naturalmente il lavoro più o meno impossibili. Si parla allora di cronicità.
 
 Abbiamo fatto un tentativo di vedere con i nostri occhi dove e come vivono queste persone.

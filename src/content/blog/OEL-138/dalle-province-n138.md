@@ -12,7 +12,8 @@ umap_x: 7.876418590545654
 umap_y: 9.774724960327148
 umap_z: 14.463241577148438
 issue_number: OEL-138
-id_numero: OEL-138
+id_numero: "OEL-138"
+numero_rivista: "Ombre e Luci"
 ---
 ### [Un fiume di Pace](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 

@@ -15,7 +15,8 @@ umap_x: 8.117646217346191
 umap_y: 7.010408878326416
 umap_z: 11.814166069030762
 issue_number: OEL-25
-id_numero: OEL-25
+id_numero: "OEL-25"
+numero_rivista: "Ombre e Luci"
 ---
 Questo è semplicemente un prontuario per il campo. Nasce dall'esperienza di molti campi e di molte persone: da errori e da buoni risultati, da dimenticanze e da soddisfazioni, da momenti di panico e di gioia e di amicizia. Tutto in queste righe è stato sperimentato.
 

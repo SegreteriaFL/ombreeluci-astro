@@ -12,8 +12,9 @@ umap_x: 7.494814395904541
 umap_y: 9.125508308410645
 umap_z: 12.496638298034668
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Un fulmine a ciel sereno
 
 Padre Mario Lucarelli, il sacerdote che ha sostenuto la nostra prima comunità in Puglia, diceva che la vita spirituale di ognuno di noi è storia sacra e la scrive il Signore stesso con ognuno di noi. Ci sono momenti nel corso della propria vita in cui si fa urgente quasi misteriosamente la ricerca del soprannaturale e, se non c’è resistenza in noi ma remissività, il Signore può far forza su di noi, “ci afferra”e si mette all’opera per lavorare in noi. Così è successo anche a me. Vorrei parlarvi della mia esperienza personale, che si intreccia strettamente e continua con l’esperienza della nascita delle comunità Fede e Luce della Puglia. Penso che il Signore afferra in tanti modi, per vie diverse. Un modo credo non raro in F. e L. è attraverso la sofferenza. Quando nel lontano 1980, come fulmine a ciel sereno il più grande dei miei quattro figli, allora tredicenne, ebbe bruscamente uno sconvolgimento psichico, nella mia sofferenza profonda capii perfettamente la gravità della situazione. Ma nel mentre mi rivolgevo ai colleghi, nel mio cuore di allora “tiepida credente” sentivo l’esigenza di rivolgermi più in alto, verso Qualcuno che non conoscevo bene, ma sapevo che poteva esserci per me e mio figlio. In quel momento questa mia posizione di fronte al dolore, la semplice apertura del cuore, la tensione verso chi è al disopra di noi aveva già stabilito l’aggancio a Lui: ora posso dire che proprio allora Egli mi aveva afferrato. Le cose andavano male con mio figlio, egli mi rifiutava con violenza, mi scacciava e con me anche il padre e i fratelli. Di fronte a questo dolore tremendo non c’era che da correre da Lui.

@@ -17,7 +17,8 @@ umap_x: 7.843493938446045
 umap_y: 8.557279586791992
 umap_z: 8.043111801147461
 issue_number: OEL-139
-id_numero: OEL-139
+id_numero: "OEL-139"
+numero_rivista: "Ombre e Luci"
 ---
 *L’accessibilità della rete è senz’altro uno degli elementi che la rende uno strumento molto utilizzato da tante persone. Essere connessi potenzialmente con il mondo intero, rappresenta una forte attrattiva per quanti cercano nuovi contatti. Come ci ricorda Antonietta, c’è bisogno di equilibrio e di alcune accortezze non sempre scontate. Roberta Speziale e Daniela Cannistraci dell’ANFFAS ci raccontano un percorso di autonomia e sicurezza pensato con le persone con disabilità mentale per rendere più consapevole la navigazione in rete. *
 

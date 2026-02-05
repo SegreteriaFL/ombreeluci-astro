@@ -15,8 +15,9 @@ umap_x: 6.788344383239746
 umap_y: 7.212126731872559
 umap_z: 7.216322422027588
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Disegno di Giulia Scimè, Vd, Scuola elementare Pistelli, Roma*
 
 Quell’anno avrei avuto un triennio nuovo, una classe piccola, soltanto venti alunni perché c’era una ragazza con disabilità. Disabile come? Avevo chiesto alla preside del liceo linguistico di Roma dove insegnavo. Era il 2007.

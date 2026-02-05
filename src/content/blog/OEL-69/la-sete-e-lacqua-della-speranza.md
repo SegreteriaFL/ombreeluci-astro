@@ -14,7 +14,8 @@ umap_x: 5.3377485275268555
 umap_y: 8.372235298156738
 umap_z: 8.431867599487305
 issue_number: OEL-69
-id_numero: OEL-69
+id_numero: "OEL-69"
+numero_rivista: "Ombre e Luci"
 ---
 C'è una parola nel cuore di ciascuno di noi che risuona sempre in modo profondo: è la speranza. La speranza ci sostiene quando dobbiamo affrontare la fatica o quando ci troviamo davanti a situazioni che generano in noi molta paura, la speranza ci spinge quando facciamo nuovi progetti, la speranza ci guida quando guardiamo al futuro e i nostri occhi ci chiedono di saper sognare.
 

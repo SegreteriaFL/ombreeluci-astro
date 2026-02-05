@@ -12,7 +12,8 @@ umap_x: 7.893910884857178
 umap_y: 7.93337869644165
 umap_z: 10.086326599121094
 issue_number: OEL-114
-id_numero: OEL-114
+id_numero: "OEL-114"
+numero_rivista: "Ombre e Luci"
 ---
 I
 l volontariato di tanti giovani e giovanissimi è un fenomeno che esiste, esiste realmente, e tra gli altri tantissimi meriti, ha anche quello di dare conforto e rinnovare la speranza di chi giovane non è più, e che, spesso triste e sfiduciato, si rincuora considerando l'esempio generoso di tanti ragazzi. Ma ora proprio a questi amici non più giovani, magari con qualche acciacco e tante ore da riempire solo di televisione, si rivolge. Prova ad elencare, come fece in televisione un noto scrittore: 10 buoni motivi per...fare volontariato. Quindi, faccio volontariato perché:

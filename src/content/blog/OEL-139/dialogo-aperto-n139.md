@@ -12,7 +12,8 @@ umap_x: 4.609654426574707
 umap_y: 8.370706558227539
 umap_z: 10.350388526916504
 issue_number: OEL-139
-id_numero: OEL-139
+id_numero: "OEL-139"
+numero_rivista: "Ombre e Luci"
 ---
 ### Un punto
 

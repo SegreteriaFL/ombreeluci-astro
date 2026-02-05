@@ -12,8 +12,9 @@ umap_x: 7.544890403747559
 umap_y: 8.047762870788574
 umap_z: 13.040716171264648
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 ### "Villa Patrizi" di Roma - di Enrica Nucci
 
 All'inizio dell'anno nel programmare l'attività del nostro gruppo ci è sembrato importante ottenere una più attiva presenza e partecipazione alle riunioni da parte di tutti i genitori. Questo perché ritenevamo importante che la partecipazione a Fede e Luce dovesse ottenere un modo nuovo di stare insieme tra amici, ma anche tra i membri della stessa famiglia.

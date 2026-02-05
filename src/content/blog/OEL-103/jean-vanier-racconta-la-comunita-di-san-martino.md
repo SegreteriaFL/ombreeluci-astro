@@ -12,7 +12,8 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: OEL-103
-id_numero: OEL-103
+id_numero: "OEL-103"
+numero_rivista: "Ombre e Luci"
 ---
 Eccomi in Kenia. Vi domanderete forse come mai mi trovi in questo stato africano così provato in questi ultimi anni. È una lunga storia. Nel 2006 mi trovavo a Bangalore per un ritiro. Qui c'era un giovane sacerdote italiano, padre Gabriele.
 

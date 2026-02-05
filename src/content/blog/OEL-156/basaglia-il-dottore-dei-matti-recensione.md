@@ -12,7 +12,8 @@ umap_x: 7.611696720123291
 umap_y: 9.362838745117188
 umap_z: 5.730203151702881
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 Una storia bella e difficile, piena di contraddizioni, di trasgressione, a volte di visionari, che mette in discussione tante certezze. Raccontata nel romanzo a fumetti di **Andrea Laprovitera** e **Armando Miron Polacco** , perfetto nel bianco e nero, è anche la storia familiare e professionale di Basaglia, dall’arrivo a Gorizia nel 1961, poi a Trieste dal 1971, fino all’approvazione della legge 180 del 13 maggio 1978. «E io non firmo»: con questo primo atto di ribellione formale contro l’odiosa pratica di legare al letto i degenti particolarmente agitati, Basaglia, neo direttore del manicomio di Gorizia, indica la strada che intende percorrere: **umanizzare quel luogo non luogo, atroce, buio, sporco, umiliante, in tutto simile al carcere dove era stato recluso per un mese durante la guerra, perché partigiano antifascista.** Nella prima pagina del libro c’è il disegno di un cuculo su un rametto secco, rivolto indietro; nell’ultima pagina, quel rametto è germogliato e l’uccellino ha preso il volo: splendido epilogo di speranza.
 

@@ -12,8 +12,9 @@ umap_x: 8.232987403869629
 umap_y: 5.958254337310791
 umap_z: 10.420130729675293
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Buongiorno a tutti. Vi avevo promesso che vi avrei parlato del taxi sociale ed eccomi qua. Prima di parlarvi di come funziona voglio ringraziare Vittorio Scelzo che ha parlato del taxi sociale a Giulia Cirillo che a sua volta mi ha girato l'informazione. Detto ciò, allora in cosa consiste?
 
 **La pratica per il taxi inizia andando allo sportello di Roma Mobilità e presentando la domanda** (con allegati l'ISEE, la 104, il verbale, il cartellino, il certificato di residenza e lo stato di famiglia). Si può consegnare a mano o via pec, però via pec ho riscontrato dei problemi quindi la domanda l'ho consegnata a mano alla fine. Tutto il materiale va messo in una busta chiusa con sopra l'indirizzo che trovate nell'ultima pagina della domanda. In seguito sono dovuta andare a fare un'integrazione perché ho avuto dei problemi con il cartellino della macchina. Detto questo, a livello burocratico vi dico pure che è meglio prepararsi per bene perché questa domanda va fatta ogni tre anni.

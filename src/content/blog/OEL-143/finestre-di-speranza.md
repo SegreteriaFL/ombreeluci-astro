@@ -12,7 +12,8 @@ umap_x: 5.002303600311279
 umap_y: 7.103692531585693
 umap_z: 9.356863975524902
 issue_number: OEL-143
-id_numero: OEL-143
+id_numero: "OEL-143"
+numero_rivista: "Ombre e Luci"
 ---
 “C
 *ome una fiamma accesa nel cuore dell’inverno, nel primo trimestre del 1968 apparve in bianco e nero e in 28 pagine, Ombres & Lumiére. Mossa dalle sofferenze dei più fragili, Marie Hélène Mathieu e la sua équipe, aprirono una finestra di speranza per migliaia di famiglie colpite dall’handicap e dai suoi pesi: la fatica, il rifiuto, la solitudine...*

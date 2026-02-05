@@ -12,7 +12,8 @@ umap_x: 7.526966571807861
 umap_y: 11.032486915588379
 umap_z: 4.250291347503662
 issue_number: OEL-133
-id_numero: OEL-133
+id_numero: "OEL-133"
+numero_rivista: "Ombre e Luci"
 ---
 Una giornata dell’amico più caro di Auggie - il ragazzino affetto da una sindrome che comporta gravi malformazioni del cranio e del volto- ormai lontano da lui dopo il trasloco in un’altra città. La lontananza non è tale però da far dimenticare il ruolo che ha avuto e ha l’essere amici di una persona con una faccia così “fenomenale”. Certe esperienze e certe amicizie segnano per sempre, soprattutto se valgono uno sforzo in più. -
 *Cristina Tersigni*

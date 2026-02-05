@@ -12,7 +12,8 @@ umap_x: 7.800356388092041
 umap_y: 9.708128929138184
 umap_z: 14.5310697555542
 issue_number: OEL-155
-id_numero: OEL-155
+id_numero: "OEL-155"
+numero_rivista: "Ombre e Luci"
 ---
 Per festeggiare **i cinquant’anni di Fede e Luce** , la provincia Un Fiume di Pace ha organizzato un pellegrinaggio che coinvolge tutte le sue comunità, dal Piemonte alla Galilea. Il percorso ricalca il fiume di pace che dà il nome alla provincia e che parte dalle sorgenti del Po, snodandosi attraverso il Mediterraneo fino al Giordano in Terra Santa.
 

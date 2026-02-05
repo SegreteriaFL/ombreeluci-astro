@@ -12,8 +12,9 @@ umap_x: 7.460921764373779
 umap_y: 10.991150856018066
 umap_z: 4.3050408363342285
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Giusy Versace è un’atleta paralimpica e ballerina conosciuta anche per la vittoria al programma televisivo *Ballando con le Stelle* di qualche anno fa. Dopo un primo libro autobiografico che raccontava il suo incidente, Giusy scrive questo piccolo racconto illustrato per bambini, WonderGiusy, in cui interpreta una supereroina speciale. Le protesi di WonderGiusy le permettono infatti di volare e di sfoderare tantissimi altri superpoteri, consentendole **non solo di oltrepassare i suoi limiti, ma anche di riscoprire quelle qualità** che vanno oltre la propria disabilità. Una storia semplice ma senz’altro efficace nel messaggio di ottimismo e positività che si impegna a raccontare, per insegnare ai più piccoli a non sbattere la testa sul muro del proprio limite ma a **guardare le infinite possibilità e alternative che la vita ci offre per essere felici.**
 
 ##### Acquista questo libro in uno dei siti del circuito **[Helpfreely](https://www.helpfreely.org/it/) .**

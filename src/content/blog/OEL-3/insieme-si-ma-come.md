@@ -10,15 +10,15 @@ wp_id: 328
 has_comments: false
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-707x1024.jpeg"
 pdf_url: "https://archive.org/download/OmbreELuci_003/Ombre-e-Luci-n.3.pdf"
-numero_rivista: 3
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-3
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-707x1024.jpeg"
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+id_numero: "OEL-3"
 ---
-
 La prima cosa da tener presente è che la vita comune esige - per noi stessi, per i nostri bambini, i nostri amici, handicappati e non - innanzitutto e sempre tolleranza e generosità. Senza queste due qualità umane e cristiane, chi tra noi potrebbe vivere in armonia con il proprio fratello?
 
 Ma questo non basta. Più membri di un gruppo, coloro che partecipano ad un’attività, sono differenti fra loro, più e meglio deve essere previsto lo svolgersi della giornata e devono essere strutturate le attività. E poiché qui parliamo di attività di tempo libero, i giochi devono essere accuratamente scelti e preparati, così come i canti e le attività musicali, perché non tutto sempre può essere adatto.

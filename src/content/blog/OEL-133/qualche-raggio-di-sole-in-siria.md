@@ -12,7 +12,8 @@ umap_x: 7.626011371612549
 umap_y: 9.334319114685059
 umap_z: 13.925341606140137
 issue_number: OEL-133
-id_numero: OEL-133
+id_numero: "OEL-133"
+numero_rivista: "Ombre e Luci"
 ---
 *Nonostante le tregue, la Siria continua ad essere martoriata e due ospedali sono stati bombardati ad Aleppo alla fine di aprile. Tra i civili e i medici morti c’era l’ultimo pediatra della città. Pubblichiamo questa lettera che Myrna, la coordinatrice delle comunità di Fede e Luce della Siria, aveva scritto in occasione della Festa della Luce nel febbraio scorso per far conoscere a tutte le comunità del mondo la situazione vissuta nel suo paese, riuscendo a parlarci anche di “raggi di sole”. Probabilmente le cose non sono affatto migliorate.*
 C

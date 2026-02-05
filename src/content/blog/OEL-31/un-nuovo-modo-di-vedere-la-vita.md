@@ -14,7 +14,8 @@ umap_x: 6.582966327667236
 umap_y: 9.444311141967773
 umap_z: 10.646672248840332
 issue_number: OEL-31
-id_numero: OEL-31
+id_numero: "OEL-31"
+numero_rivista: "Ombre e Luci"
 ---
 C
 he influenza ha avuto Sabina nella nostra vita? Oggi che Sabina ha 15 anni, rispondo a questa domanda in modo diverso da come avrei risposto quando mia figlia era più piccolina. Non vi è dubbio che questa dolorosa esperienza, — sarebbe più giusto chiamarla dramma — di avere un figlio gravemente handicappato cambia la vita, i programmi, il modo di agire e di pensare di tutta una famiglia. Per quello che mi riguarda penso che la mia vita possa dividersi in tre parti ben separate. La prima parte è stato rincontro con l’handicap, che nel mio caso è stato progressivo, non perché volessi rifiutarne l’evidenza, ma perché Sabina, al momento della nascita non aveva alcun segno che potesse far pensare ad un qualsiasi handicap. La presa di coscienza è venuta gradualmente: innanzi tutto gli occhi; 25 giorni dopo la nascita, ci dissero che era possibile salvarli con delle operazioni. Ma ahimè, non è stato così. A mano a mano che il tempo passava, mi rendevo conto che gli occhi erano irrimediabilmente perduti. E quando cominciavo a rassegnarmi ad avere una bambina cieca, cominciai a rendermi conto che Sabina non dava alcun segno di partecipazione a ciò che accadeva intorno a lei. Non poteva raddrizzarsi, sedersi, mangiare come fanno tutti gli altri bambini.

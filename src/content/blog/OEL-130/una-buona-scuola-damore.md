@@ -14,7 +14,8 @@ umap_x: 8.36058521270752
 umap_y: 12.045180320739746
 umap_z: 11.016582489013672
 issue_number: OEL-130
-id_numero: OEL-130
+id_numero: "OEL-130"
+numero_rivista: "Ombre e Luci"
 ---
 ### Inizi caotici
 

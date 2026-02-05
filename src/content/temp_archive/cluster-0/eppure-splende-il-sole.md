@@ -6,6 +6,7 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "eppure-splende-il-sole"
 has_comments: false
+id_numero: "OEL-106"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

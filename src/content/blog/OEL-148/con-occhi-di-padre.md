@@ -12,7 +12,8 @@ umap_x: 7.020222187042236
 umap_y: 11.328211784362793
 umap_z: 4.905374050140381
 issue_number: OEL-148
-id_numero: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
 Diario quasi decennale di una cresciuta consapevolezza nell’esser padre di Luna, bambina «senza tempo e senza avverbi»: con lei, che ha una disabilità dovuta alla sindrome di Angelmann, Igor scopre il suo essere padre, necessariamente, consapevolmente, diverso da quella di una madre. Nello stare con Luna, nel fare cose insieme - e non semplicemente “fatte fare” -, emerge la convinzione che «condividere un’esperienza sia il sale di ogni relazione, a maggior ragione per quella tra un genitore ed un figlio». Salomone, docente e consulente pedagogista, presta i suoi occhi di padre per accompagnarci in un incontro che, nell’intimità di pensieri difficili legati alla disabilità di un figlio, si allarga a temi universali sul nostro rapporto con l’educazione, il senso delle parole, il caso, il futuro, la rabbia, Dio, la libertà... riuscendo a far crescere anche il nostro di sguardo.
 

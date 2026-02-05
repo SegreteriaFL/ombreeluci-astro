@@ -15,7 +15,8 @@ umap_x: 6.341761112213135
 umap_y: 7.921313762664795
 umap_z: 8.432658195495605
 issue_number: OEL-11
-id_numero: OEL-11
+id_numero: "OEL-11"
+numero_rivista: "Ombre e Luci"
 ---
 ### Una mamma con una figlia adulta con handicap mentale grave
 

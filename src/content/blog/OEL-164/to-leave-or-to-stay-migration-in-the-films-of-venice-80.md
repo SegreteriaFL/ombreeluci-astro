@@ -12,8 +12,9 @@ umap_x: 9.44459056854248
 umap_y: 7.922318458557129
 umap_z: 2.480355739593506
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 The judges of the eightieth Venice International Film Festival found quite a lot of themes from important current events in the competing works they evaluated. There were few objections to the Golden Lion (the award for best film) going to the generally appreciated
 *Povere Creature!*
 by Yorgos Lanthimos, while there was more discontent aroused by the Coppe Volpi (awards for best actor and actress) going to the actors Cailee Spaeny in the film

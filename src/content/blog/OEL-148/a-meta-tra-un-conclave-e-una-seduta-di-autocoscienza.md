@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 La mia prima volta a San Roberto era una domenica di elezioni: «Non è proprio la casetta ideale per capire cos’è Fede e Luce ma tu vieni comunque a conoscere i ragazzi» mi disse Anastasia. Quella domenica scadeva il mandato di Marco, il vecchio responsabile, e bisognava eleggere il nuovo, come succede, venni poi a sapere, ogni tre anni in tutte le comunità di Fede e Luce sparse nel mondo.
 Quel giorno, dopo che tutti fummo seduti in cerchio, mi ritrovai ad assistere – un po’ stupita e un po’ rapita – a una via di mezzo tra un conclave e una seduta di autocoscienza a cui la comunità si sottoponeva per tirar fuori la sua nuova guida, che la Costituzione di Fede e Luce del 2008 preferisce chiamare “coordinatore di comunità”. Tutti a Fede e Luce siamo chiamati – scoprii dopo – alla responsabilità, sia come singoli individui sia come movimento ma poi c’è chi è chiamato a vivere un quid pluris, che il “quaderno del responsabile” spiega chiaramente nei termini di servizio alla visione, alla comunione e all’organizzazione.
 Quello del coordinatore è l’unico caso in cui la Costituzione di Fede e Luce parla esplicitamente di servizio: il carisma del nostro movimento è quello di “creare legami di fiducia e di amicizia fra i suoi membri, legami che si fondano e si compiono in Gesù” come dice la Charta, «non fare per ma stare con» direbbe Nicla, mamma di Massimiliano e amica della mia comunità (è una frase che ripeto spesso perché, a mio avviso, riassume alla perfezione Fede e Luce).

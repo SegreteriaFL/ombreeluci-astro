@@ -14,8 +14,9 @@ umap_x: 9.534194946289062
 umap_y: 7.97797155380249
 umap_z: 13.539217948913574
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Marzo 1981
 
 Non avere paura poiché io ti ho riscattato. Ti ho chiamato per nome, tu sei mio. Se attraverserai le acque, io sarò con te e le onde non ti sommergeranno. *(Isaia 43, 6)*

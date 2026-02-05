@@ -14,8 +14,9 @@ umap_x: 7.206574440002441
 umap_y: 6.413220405578613
 umap_z: 10.443398475646973
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 Le nostre vacanze... sono poi delle vacanze? Quanti fra noi non hanno più fatto una vera vacanza! Eppure avremmo un bisogno così grande di riposarci un po', sul serio.
 
 Se gli "altri" sapessero... Se gli "altri" capissero... Se gli "altri" mi dessero una mano...

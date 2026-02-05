@@ -12,8 +12,9 @@ umap_x: 4.8734049797058105
 umap_y: 8.130305290222168
 umap_z: 10.127127647399902
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 ## Dall'Italia
 
 ### A Cuneo

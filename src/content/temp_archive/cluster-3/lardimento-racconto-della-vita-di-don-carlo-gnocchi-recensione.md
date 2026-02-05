@@ -6,6 +6,7 @@ theme: "cluster-3"
 cluster_id: 3
 slug: "lardimento-racconto-della-vita-di-don-carlo-gnocchi-recensione"
 has_comments: false
+id_numero: "OEL-96"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -15,7 +15,8 @@ umap_x: 6.4011101722717285
 umap_y: 8.531301498413086
 umap_z: 6.4287238121032715
 issue_number: OEL-6
-id_numero: OEL-6
+id_numero: "OEL-6"
+numero_rivista: "Ombre e Luci"
 ---
 Dopo le testimonianze di alcuni genitori di figli psicotici ( [qui](http://www.ombreeluci.it/1984/figlio-mio-non-credo/) e [qui](http://www.ombreeluci.it/1984/e-sempre-stato-rifiutato/) , per esempio) e il parere di due illustri studiosi (quello del [prof. Pélicier](http://www.ombreeluci.it/1984/nessun-uomo-e-una-pietra/) e del [prof. Duché](http://www.ombreeluci.it/1984/psicosi-precoci-che-cosa-sono/) ) cerchiamo di tirare le somme dando alcuni consigli generali sulla gestione della psicosi infantile.
 

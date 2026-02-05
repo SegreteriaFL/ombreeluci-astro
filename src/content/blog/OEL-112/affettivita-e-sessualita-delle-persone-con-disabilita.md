@@ -11,8 +11,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 Con un gruppo di amici seguo in un centro di volontariato un gruppo di giovani e non più tanto giovani. Organizziamo con loro giochi, spettacoli teatrali, feste e insieme svolgiamo attività lavorativa di vario genere. Capita spesso che tra questi ragazzi, sono giovani donne e uomini, nascano simpatie, attrazioni, legami che a volte si protraggono nel tempo ma che è impensabile possano concludersi con un matrimonio. Tuttavia sono per loro storie importanti, spesso li coinvolgono fino in fondo, possono influire sul loro modo di essere e di stare con noi. A volte provocano anche problemi di comportamento, (litigi, gelosie, abbandoni, effusioni esagerate ecc) Mi chiedo: qual è il modo migliore di comportarsi? Farlarne con loro, sottolineare o ignorare? Incoraggiare i loro corteggiamenti , parlare dei loro problemi in proposito? Mi interesserebbe conoscere anche il parere di altre persone. Immagino che in ogni gruppo si verifichino situazioni del genere. Come vi comportate? Mi sembrano fatti importanti nella loro vita di relazione e vorremmo saperle gestire al meglio!!!
 *Anna Maria Cappabianca*
 

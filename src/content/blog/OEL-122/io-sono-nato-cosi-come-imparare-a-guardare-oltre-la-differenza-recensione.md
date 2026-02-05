@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 Il primo impatto, leggendo questo libro, è stato molto positivo: un piccolo diario ben scritto, veloce e chiaro. Le domande, le emozioni e i sentimenti che pervadono i genitori rispetto alla difficoltà del proprio figlio sono descritte molto efficacemente; le prospettive che suggerisce, senza imporle, per superare i momenti di difficoltà di una famiglia con un componente affetto da una disabilità, sono quelle che ci trovano tra i più fedeli assertori, avendo l’obiettivo di riuscire a non perdere la speranza e ritrovare un motivo per sorridere.
 L’autrice è la persona giusta: **una professionista nel settore del sostegno alle persone nei momenti di crisi**, mamma di un bambino con una malformazione ad un arto. Solo questo particolare, in fondo, mi fa avere, lo confesso, un secondo impatto: conosciamo situazioni ben più complicate di quelle qui descritte che comunque permettono alla mamma di dire che il proprio bambino potrà fare tantissime altre cose...

@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "chicchi-di-grano-dalla-bibbia"
 has_comments: false
+id_numero: "OEL-57"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

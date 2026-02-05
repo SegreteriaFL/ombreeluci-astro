@@ -7,6 +7,7 @@ cluster_id: 6
 image: "http://www.ombreeluci.it/wp-content/uploads/2018/04/oel030-019-1024x576.jpg"
 slug: "lhai-chiamata-per-portare-frutto"
 has_comments: false
+id_numero: "OEL-30"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

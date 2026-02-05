@@ -14,7 +14,8 @@ umap_x: 5.5973358154296875
 umap_y: 9.079219818115234
 umap_z: 8.348048210144043
 issue_number: OEL-69
-id_numero: OEL-69
+id_numero: "OEL-69"
+numero_rivista: "Ombre e Luci"
 ---
 Non li ha mai chiamati mamma e papà, non ha mai avuto per loro una semplice frase affettuosa ma Valeria e Giulio gli hanno dedicato la vita intera. Gianni è venuto al mondo diverso dagli altri bambini, con tanti gravi limiti destinati a durare e ad aggravarsi nel corso degli anni, e ha trovato un papà, una mamma e una sorellina pronti a dargli tutto l’amore possibile. Ci furono i momenti dello sgomento: "Ogni tanto ai giardinetti guardavo tutte quelle carrozzine e pensavo: perché non posso cambiare la mia con una di queste?" (così ricorda oggi Giulio sorridendo). Ci furono i soliti andirivieni tra illustri professori. Dopo un breve ricovero al Santa Maria della Pietà, per una ricerca ed una diagnosi che fu definitiva e non lasciò alcuna speranza per il futuro, erano gli anni intorno al 1950, Gianni fu solo di papà e mamma, della sorellina, del nonno che lo adorava. Nessun centro, nessuna scuola lo ha più ospitato, nessun’ altra persona lo ha accudito anche solo per un giorno. "Non ci piacevano i centri che ,in quegli anni lontani, poteva accoglierlo e poi...poi ci pareva inutile, rischioso, temevamo per le sue crisi epilettiche. Stava bene con noi e noi eravamo contenti di stare con lui.
 

@@ -14,8 +14,9 @@ umap_x: 7.676547050476074
 umap_y: 7.613807678222656
 umap_z: 13.00280475616455
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Cerco di scrivere con tutta la semplicità possibile poiché è con semplicità ed allegria che si è svolta domenica 27 maggio la "Festa della Primavera".
 
 È stato un obiettivo che abbiamo raggiunto unendo assieme tutto il nostro impegno, la nostra volontà e la nostra gioia. Gli sforzi collettivi si sono concentrati nel fare di questa festa un momento di distensione. e svago per genitori e ragazzi. Durante tutta la giornata di domenica abbiamo accolto un gruppo di amici francesi (40 persone dell'Arche "de la Merci") e abbiamo lavorato e giocato fino a sera.

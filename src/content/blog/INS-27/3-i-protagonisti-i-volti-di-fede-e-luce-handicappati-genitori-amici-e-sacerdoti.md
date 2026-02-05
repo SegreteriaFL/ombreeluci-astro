@@ -14,8 +14,9 @@ umap_x: 6.979755878448486
 umap_y: 8.680615425109863
 umap_z: 12.832962036132812
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 *Questo articolo fa parte dello **[Speciale Fede e Luce anatomia di una comunità di incontro](https://www.ombreeluci.it/1980/fede-e-luce-anatomia-di-una-comunita-di-incontro/) .***
 
 ## **Chi è l'altro**

@@ -12,8 +12,9 @@ umap_x: 6.993631362915039
 umap_y: 7.155514717102051
 umap_z: 12.55251693725586
 issue_number: INS-2
+id_numero: "INS-2"
+numero_rivista: "Insieme"
 ---
-
 **Ieri ho visto il film sul pellegrinaggio "Foi et Lumière"** 1971 a Lourdes. Questo film mi ha fatto riflettere su molte cose. Innanzi tutto ho capito veramente l’importanza del problema degli handicappati, di cosa abbia voluto dire per loro questo pellegrinaggio e il trovarsi insieme ad altri bambini o ragazzi più fortunati. Mi ha colpito maggiormente un momento del film: durante la mossa uno dei ragazzi era all’altare in veste di chierichetto; io l'ho visto con gli occhi chiusi e le mani giunte: questo vuol dire che con la sua piccola intelligenza capiva che in quel momento vicino a lui c'era il Signore. Un'altra cosa che ho capito dal film è che basta poco per dare dei momenti di felicità a questi ragazzi e noi, più fortunati di loro, dovremmo tutti collaborare per dare quel poco. **Anna** , 13 anni
 
 ---

@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "la-famiglia-messa-alla-prova-dalla-disabilita"
 lang: it
-numero_rivista: 92
-id_numero: OEL-92
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-92"
 issue_number: OEL-92
 wp_id: 31317
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Come padre di Gianluca e di due altre bambine ritengo necessario fare una premessa per poter rispondere a questa domanda ed essere comprensivo ai lettori che non conoscono il nostro caso.
 
 Gianluca è nato undici anni fa in Belgio dove mi trovavo, all'epoca, con la mia famiglia per ragioni professionali. Al momento della nascita Gianluca stava benissimo e anche per sua sorella Sofia, che aveva poco più di due anni, era sicuramente molto bello avere un fratellino.

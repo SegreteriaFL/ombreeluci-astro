@@ -14,7 +14,8 @@ umap_x: 6.796165943145752
 umap_y: 9.165781021118164
 umap_z: 8.121099472045898
 issue_number: OEL-113
-id_numero: OEL-113
+id_numero: "OEL-113"
+numero_rivista: "Ombre e Luci"
 ---
 **Chi sono?**
 Che strano rispondere a delle domande su se stessi, sono talmente abituata a fare io le interviste agli altri che questa è per me una situazione nuova. Mi chiamo Gaia Valmarin, e sono nata il 17 maggio del 1967. Ho frequentato le scuole come privatista e mi sono diplomata all'istituto Magistrale con 54/60; poi mi sono iscritta alla Lumsa alla facoltà di psicologia e mi sono laureata con 110 e lode. Dopo ho conseguito la seconda laurea in materie letterarie con la stessa votazione. Già da quando facevo l'università collaboravo con riviste e associazioni di tutela per i disabili. Dal 1999 ho iniziato a collaborare con la Uildm Sezione Laziale; questo dal 2001 è diventato un vero lavoro retribuito con la qualifica prima di responsabile delle ricerche e documentazioni poi come Caporedattore della rivista Finestra Aperta e aiuto responsabile dell’ufficio stampa e comunicazione.

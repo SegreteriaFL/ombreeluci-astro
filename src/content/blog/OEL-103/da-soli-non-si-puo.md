@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-103
-id_numero: OEL-103
+id_numero: "OEL-103"
+numero_rivista: "Ombre e Luci"
 ---
 È stato graziato il papà di Sergio(Per conoscere la sua storia potete trovare la recensione del libro che la racconta a p.26).
 Del caso non si è parlato molto forse perché un fatto doppiamente drammatico richiedeva rispettoso silenzio.

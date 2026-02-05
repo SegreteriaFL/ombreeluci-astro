@@ -14,8 +14,9 @@ umap_x: 9.222223281860352
 umap_y: 7.876492500305176
 umap_z: 12.980395317077637
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Per te ho visitato Roma! Il sole era caldo, il cielo blu. Camminando per le strade di Roma, pensavo a te. "Insieme" camnineremo per le vie di Roma. Sono andato a vedere il Palatino. Ho visto delle mura maestose e belle, in cima a una collina. Quasi un grande castello!
 
 Ho chiuso gli occhi e ho pensato all'Imperatore Romano e a tutti i suoi amici. Ho pensato ai soldati e ai cavalli, alle lance e alle spade. Ho immaginato la grande festa dell'Imperatore Romano, e ai suoi piedi, alla sua porta, i poveri che avevano fame.

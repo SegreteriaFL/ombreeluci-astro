@@ -14,8 +14,9 @@ umap_x: 6.938106060028076
 umap_y: 8.098860740661621
 umap_z: 7.107694149017334
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 > Ci è praticamente impossibile trattare in poche righe dell’esperienza fatta in Corsica, al "Centro St.Exupéry", dal 7 al 17 Luglio. Sono stati solo 10 giorni ma carichi di entusiasmo, di novità e vissuti in modo molto intenso".
 
 Queste righe sono state scritte da alcuni terapisti che hanno accompagnato un gruppo del centro A.L.M. (Associazione Laziale Motolesi) - 8 terapisti ed assistenti e una ventina di bambini e giovani.

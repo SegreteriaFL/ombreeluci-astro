@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 Da circa tre anni ho scelto di vivere presso le Piccole sorelle dei poveri in una struttura alloggio per persone anziane non autonome, restando così vicina alle persone malate e con disabilità che sono state il mio universo per quasi tutta la vita. In fondo al giardino di casa, si trova una grotta di Lourdes; ci vado spesso, ci andiamo tutti spesso. Si è attirati da Lourdes. Compirò 92 anni: la vita è davanti a me. **Ho avuto un periodo difficile, con un lungo confinamento ma, accendendo il mio mappamondo, mi ha aiutato molto riposarmi un poco con le comunità Fede e Luce, affidarle alla tenerezza di Gesù e di Maria.** Da molto tempo, non ho più incarichi ufficiali nelle strutture del movimento. Però resto vicina con il cuore.
 

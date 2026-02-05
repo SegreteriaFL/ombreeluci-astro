@@ -16,8 +16,9 @@ umap_x: 8.102352142333984
 umap_y: 7.088278770446777
 umap_z: 11.504705429077148
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 ### Francesca Mancini
 
 Ho passato qui al Alfedena, due settimane che sono state meravigliose. Io, come altre persone, abbiamo avuto esperienze nuove e anche se qualche volta avevamo la bocca storta per affrontarle, ci sono servite molto e sarà difficilissimo dimenticarla...

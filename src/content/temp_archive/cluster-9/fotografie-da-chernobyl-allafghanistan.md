@@ -7,6 +7,7 @@ cluster_id: 9
 image: "https://www.ombreeluci.it/wp-content/uploads/2022/07/My-sunny-maad.jpg"
 slug: "fotografie-da-chernobyl-allafghanistan"
 has_comments: false
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

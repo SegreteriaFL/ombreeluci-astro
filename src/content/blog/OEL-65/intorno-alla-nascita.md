@@ -4,8 +4,8 @@ date: 1999-06-16
 author: Nicole Schulthes
 slug: intorno-alla-nascita
 lang: it
-numero_rivista: 65
-id_numero: OEL-65
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-65"
 issue_number: OEL-65
 wp_id: 12595
 original_url: "https://www.ombreeluci.it/?p=12595"
@@ -19,7 +19,6 @@ umap_x: 5.462283134460449
 umap_y: 10.165654182434082
 umap_z: 7.1841630935668945
 ---
-
 Ci ha colpito quanto scrive una mamma su “ *Notizie - Servizio Consulenza pedagogica - Trento - dicembre 1998* ”. “Vorrei sottolineare la poca preparazione e l’imbarazzo dei medici nel comunicare ai genitori la diagnosi relativa alla sindrome di Down. Noi sapevamo a grandi linee che cosa fosse, ma non che cosa ‘fare’ e siamo stati lasciati soli. Dopo 3 giorni la dimissione dall’ospedale per me e per Vittoria, che fortunatamente non presentava altri problemi di salute, senza la minima indicazione su dove poterci rivolgere per un sostegno e un colloquio in merito, per saperne di più. Vittoria è nata all'ospedale di Niguarda a Milano...”. Per saperne di più ci siamo rivolti ad un’amica, infermiera da 20 anni al reparto di neonatologia dell’ospedale S. Camillo di Roma.
 
 ### Intervista

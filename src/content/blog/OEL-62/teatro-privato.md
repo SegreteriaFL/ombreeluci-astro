@@ -4,8 +4,8 @@ date: 1998-06-17
 author: Maria Teresa Mazzarotto
 slug: teatro-privato
 lang: it
-numero_rivista: 62
-id_numero: OEL-62
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-62"
 issue_number: OEL-62
 wp_id: 12224
 original_url: "https://www.ombreeluci.it/?p=12224"
@@ -17,7 +17,6 @@ umap_x: 9.12441349029541
 umap_y: 7.752591609954834
 umap_z: 8.776371002197266
 ---
-
 N
 el teatro della parrocchia N.S. di Coromoto (Roma), l’il febbraio 1998. Va in scena “Commedia senza attori”, interpretata dai ragazzi disabili del “Gruppo Amici", con la regia di Maria Antonietta Pieroni e delle sue collaboratrici. La piccola sala è gremita: parenti e amici continuano a giungere sorridenti e festosi, 1 ragazzi attori vanno e vengono, si affacciano eccitati da dietro la tenda rossa. Una allegra elettricità è nell’aria. Poi si inizia. Un giovane presentatore, elegante nel vestito e nel tratto, presenta di volta in volta i ragazzi che, da soli, a due o a piccoli gruppi, si alternano nelle esibizioni. Ce chi canta, chi declama versi, chi suona. Un ragazzo recita, per intero la lunga poesia di Totò: “ La livella”. Fabrizio suona al piano alcune canzoni attuali di grande successo, un altro canta con passione celebri branid'opera. Ancora: c’è chi recita una breve poesia e chi suona la fisarmonica, chi intona una vecchia canzone romana, cui il pubblico fa da coro e chi ci commuove cantando con passione: “Mamma son tanto felice...!” Ne viene fuori una specie di accademia, di spettacolo di fine d anno scolastico. L'allegria iniziale, in platea, si trasforma man mano in silenzio, in attenzione, in commozione, in riflessione, “...questi ragazzi, però come sono bravi....quanta fatica devono fare alcuni di loro....eppure quanta passione ci mettono... e poi sono così soddisfatti...” La signora Pieroni, insieme alla signorina Michela Borghese che accompagna al pianoforte, è sempre in scena. Dà la battuta, suggerisce, accompagna cantando il suono del piano o della fisarmonica, a volte quasi sostiene l’attore e sembra aiutarlo a tirar fuori la voce da una grande profondità, da spessi strati di silenzio.... Altre volte con un gesto frena una voce troppo acuta, una nota fuori posto. I ragazzi che si alternano sul palco sono colpiti anche gravemente. Si sente, tra gli spettatori che li conoscono, qualche commento a bassa voce: “Ma si, è proprio lei...recita e con noi quasi non parla....E’ lui? Non comunica quasi per la timidezza...ma come è intonato... Non sapevo che suonasse il piano....!” Si conclude. Riccardo, con una bella voce calda intona: “Penso che un giorno così non ritorni mai più” e il piccolo coro dei suoi amici riprende: “Volare, oh! oh!”. E’ un degno finale. Questi ragazzi oggi hanno volato sopra le loro difficoltà per dimostrarci quello che sanno e vogliono fare; hanno rivelato le loro abilità nascoste, il loro desiderio di intrattenerci, di essere applauditi. Pensiamo che “un giorno così” debba ritornare. Anche questo è teatro: un teatro importante. -
 *M.T.M.*

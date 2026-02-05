@@ -12,7 +12,8 @@ umap_x: 5.185828685760498
 umap_y: 8.408652305603027
 umap_z: 11.061436653137207
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 ### Tanti amici
 

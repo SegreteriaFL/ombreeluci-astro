@@ -15,8 +15,9 @@ umap_x: 8.297568321228027
 umap_y: 7.7355217933654785
 umap_z: 10.976679801940918
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Finalmente dopo una lunga attesa di gioia e di desiderio è arrivato il giorno in cui sono partita per passare circa un mese delle mie vacanze all' *Arche* di Trosly un paese della Francia vicino a Compiègne.
 
 Dal giorno in sono tornata fino ad oggi molte persone a cominciare dai miei e altri genitori fino ad alcuni amici e gente che conoscevo bene o male solo di vista mi hanno domandato che cosa è l'Arche.

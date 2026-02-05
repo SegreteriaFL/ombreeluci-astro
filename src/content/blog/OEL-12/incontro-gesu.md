@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-12
+id_numero: "OEL-12"
+numero_rivista: "Ombre e Luci"
 ---
-
 In ogni pagina si sprigiona l’amore di Gesù per noi. È la prima volta che ho fra le mani un libro dove l’amore si manifesta con tanta forza e larghezza.
 
 Troppo spesso, in passato, al catechismo ci è stata insegnata una legge sotto la quale bisognava decifrare l’amore: cosa difficile. Ora si tende piuttosto a far risaltare l’amore e il servizio del prossimo, e l’amore di Dio che ne è la fonte non ha più il primo posto. Il libro di Jean Vanier vuole innanzitutto farci capire che Gesù ci ama personalmente. Questo amore generoso di Gesù ci invade lungo le pagine. In cambio Egli ci chiede il nostro amore.

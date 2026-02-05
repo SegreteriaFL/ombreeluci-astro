@@ -1,15 +1,40 @@
 ---
 id: "OEL-10"
-title: "Numero 10 - Epilessia, una montagna di pregiudizi"
+title: "Numero 10 – Epilessia, una montagna di pregiudizi"
 tipo: "ombre-e-luci"
 numero: 10
-anno: "1952"
+sort_order: 109
+pubDate: "1952-10-01T00:00:00Z"
 data_pubblicazione: "Ottobre 1952"
 sommario: "In questo numero: l'epilessia e la comunità cooperativa Il Girasole, modello di integrazione tra pubblico e privato. Approfondimenti per ricordare alcuni degli scopi della nostra rivista: informare su cosa siano alcuni tipi di handicap per capire e accogliere meglio chi vive una condizione di disabilità e favorire il loro inserimento nella società e nella Chiesa."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_10_1985.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_010"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-10-epilessia-una-montagna-di-pregiudizi/"
+articoli:
+  - "vi-ricordiamo-perche-ombre-e-luci"
+  - "epilessia-una-malattia-che-imprime-un-marchio"
+  - "epilessia-una-malattia-neurologica-ancora-sconosciuta"
+  - "epilessia-indicazioni-di-primo-intervento"
+  - "esperienze-epilessia-in-famiglia-e-a-scuola"
+  - "vacanza-problema-e-risposte"
+  - "comunita-e-cooperativa-il-girasole"
+  - "dialogo-aperto-n-10"
+  - "amo-la-vita-malgrado-tutto"
+  - "uomo-e-donna-li-fece-per-una-vita-damore-autentico"
+  - "per-liberarci-dai-tabu-dellepilessia-plus-de-gym-pour-danny"
+  - "vi-ricordiamo-perche-ombre-e-luci"
+  - "epilessia-una-malattia-che-imprime-un-marchio"
+  - "epilessia-una-malattia-neurologica-ancora-sconosciuta"
+  - "epilessia-indicazioni-di-primo-intervento"
+  - "vacanza-problema-e-risposte"
+  - "esperienze-epilessia-in-famiglia-e-a-scuola"
+  - "comunita-e-cooperativa-il-girasole"
+  - "vita-fede-e-luce-n-10-ricordo-di-don-dario"
+  - "dialogo-aperto-n-10"
+  - "uomo-e-donna-li-fece-per-una-vita-damore-autentico"
+  - "amo-la-vita-malgrado-tutto"
+  - "per-liberarci-dai-tabu-dellepilessia-plus-de-gym-pour-danny"
 ---
 
 ## Indice

@@ -7,6 +7,7 @@ cluster_id: 6
 image: "http://www.ombreeluci.it/wp-content/uploads/2018/01/Copertina_OeL_140_2017-206x300.jpg"
 slug: "quello-che-non-ho-mai-detto-e-lisola-di-noi-recensione-di-due-libri-di-federico-de-rosa"
 has_comments: false
+id_numero: "OEL-140"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

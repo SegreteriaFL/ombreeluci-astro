@@ -12,7 +12,8 @@ umap_x: 5.204522132873535
 umap_y: 7.934012413024902
 umap_z: 11.200361251831055
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 ### Rappresentare una grande famiglia
 

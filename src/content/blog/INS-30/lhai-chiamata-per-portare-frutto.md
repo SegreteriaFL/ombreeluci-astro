@@ -15,7 +15,8 @@ umap_x: 6.438419342041016
 umap_y: 9.551653861999512
 umap_z: 10.152034759521484
 issue_number: INS-30
-id_numero: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
 Lorenza venne al mondo con grave difficoltà nel 1955: alla sua nascita furono necessarie quasi un’ora di rianimazione e cure intensive per alcune settimane. Ci dissero che **era stata salvata. Era la nostra prima figlia** . Non immaginavo allora che questa nascita difficile avrebbe avuto ripercussioni su tutta la vita. Era salva, tutto era in regola. Ci vollero tre mesi perché i familiari ci facessero prendere coscienza che le difficoltà di Lorenza erano anormali. La rivelazione dell’handicap fa **un male atroce** . Penso al vecchio Simeone quando dice a Maria che una spada le trapasserà il cuore. Anche lei, senza dubbio, non sapeva esattamente quale sarebbe stata la sofferenza che le veniva annunciata. È un po’ la situazione dei genitori dei figli gravemente handicappati: **una rivelazione che giorno dopo giorno sconvolgerà la loro vita** .
 

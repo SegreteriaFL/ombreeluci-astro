@@ -7,6 +7,7 @@ cluster_id: 6
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_119_2012.jpg"
 slug: "fai-bei-sogni-recensione"
 has_comments: false
+id_numero: "OEL-119"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

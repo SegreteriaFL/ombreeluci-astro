@@ -12,8 +12,9 @@ umap_x: 4.334933280944824
 umap_y: 7.793372631072998
 umap_z: 10.429474830627441
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Più natura
 
 Grazie per il vostro numero sulla natura. L’ho sempre apprezzata come la grande «terapista» dei nostri amici disabili e non. E grazie a Mariangela Bertolini che nel suo editoriale ne ha messo in luce il carattere tranquillizzante, la possibilità di essere strumento di comunicazione, di intima gioia, di espressione di sé. C’è nella natura qualcosa di lenitivo e materno. Penso in particolare ai disabili gravi cui un verde giardino, un gruppo di alberi antichi o anche soltanto un mazzo di fiori possono portare sollievo e piacere. Penso alla piccola fontana zampillante in mezzo al cortile della casa di Trosly — là dove è nata la prima comunità di Jean Vanier — penso alla bellezza del suo canto lieve e gioioso e al refrigerio che sparge intorno a sé. Le cose belle che provengono dalla natura sono le più belle che esistono; vorrei che negli ospedali, nei laboratori di analisi ci fossero — ben protetti a causa dell’igiene — più fiori, più foglie d’edera cascanti e magari, appunto, nel cortile accanto una fontana di acqua zampillante. Vorrei che tutti i nostri amici disabili, i malati di mente, le persone in difficoltà, potessero godere spesso del refrigerio del contatto con la natura.

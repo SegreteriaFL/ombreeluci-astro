@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-146
-id_numero: OEL-146
+id_numero: "OEL-146"
+numero_rivista: "Ombre e Luci"
 ---
 Per me Jean ha contato tanto. Veramente tanto. Era come un padre spirituale». Sono al Luna Park di Ostia, un posto molte volte incrociato ma mai veramente visto: se vi sono entrata per la prima volta, è grazie a Jean. Perché è qui che vive una sua grande amica, Geneviève Jeanningros. Francese, come lui ha profondi occhi celesti che si illuminano tutti quando sorride. E per fortuna questa Piccola Sorella di Gesù sorride spesso.
 

@@ -14,7 +14,8 @@ umap_x: 7.884688854217529
 umap_y: 8.005522727966309
 umap_z: 10.054227828979492
 issue_number: OEL-114
-id_numero: OEL-114
+id_numero: "OEL-114"
+numero_rivista: "Ombre e Luci"
 ---
 Laureato al politecnico, prete salesiano ed educatore specializzato, lavora sia sul territorio che a livello politico. Ha fondato ad Argenteuil(Val-d’Oise), l'associazione Le Valdocco che promuove la mediazione sociale. Tra disimpegno e sete di vivere, dov'è la gioventù di oggi? Ecco la risposta.
 **Si dice che i giovani sono restii ad impegnarsi, sono veramente così tiepidi?**

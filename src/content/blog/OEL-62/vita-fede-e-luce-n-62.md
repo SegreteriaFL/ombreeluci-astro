@@ -4,8 +4,8 @@ date: 1998-06-17
 author: Redazione
 slug: vita-fede-e-luce-n-62
 lang: it
-numero_rivista: 62
-id_numero: OEL-62
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-62"
 issue_number: OEL-62
 wp_id: 12185
 original_url: "https://www.ombreeluci.it/?p=12185"
@@ -17,7 +17,6 @@ umap_x: 6.943825721740723
 umap_y: 9.061591148376465
 umap_z: 12.855629920959473
 ---
-
 ### Amici a Fede e Luce
 
 Ci sono tre componenti in un gruppo Fede e Luce: i giovani portatori di handicap mentale, i loro genitori o familiari e gli amici. Per non ripetere troppo spesso epiteti sgradevoli e per dare l'idea che si fa per amicizia e non per pietismo, abbiamo usato tre parole che, normalmente, nella vita quotidiana hanno un significato un po’ diverso. **Ragazzi.** Spesso non lo sono più. Parecchi hanno vent anni o più. Sono adulti, ma rimangono bambini per molto tempo, per via dell'handicap. **Genitori.** Non intendiamo tutti quelli che hanno figli, ma soltanto quelli che hanno figli disabili. **Amici.** I giovani che vengono per darci una mano o per fare amicizia con noi. Ci accompagnano in quel pellegrinaggio che è la vita. Normalmente sono chiamati “volontari”.

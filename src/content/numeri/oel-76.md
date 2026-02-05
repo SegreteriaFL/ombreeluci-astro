@@ -1,15 +1,37 @@
 ---
 id: "OEL-76"
-title: "Numero 76 - Un natale difficile"
+title: "Numero 76 – Un natale difficile"
 tipo: "ombre-e-luci"
 numero: 76
-anno: "2001"
+sort_order: 175
+pubDate: "2001-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 2001"
 sommario: "Numero 76 – Un natale difficile ultima modifica: 2001-12-08T12:49:46+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_76_2001.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_76"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-76-un-natale-difficile/"
+articoli:
+  - "e-si-accende-una-stella"
+  - "la-lezione-di-un-clown-miloud-oukili"
+  - "la-locanda-dei-girasoli"
+  - "per-un-natale-con-qualche-cosa-in-piu"
+  - "comunita-il-roveto"
+  - "un-dono-di-poesia-il-regalo-delle-quattro-amiche-della-comunita-il-roveto"
+  - "noi-quattro-la-comunita-il-roveto"
+  - "famiglie-una-riflessione-di-padre-roberti"
+  - "stelle-doriente-qualche-immagine-dalle-comunita-fede-e-luce-del-medio-oriente"
+  - "novita-per-lhandicap"
+  - "lo-straniero"
+  - "la-seconda-occasione-recensione-libro"
+  - "la-bimba-delle-lumache-recensione-libro"
+  - "inno-alla-vita-recensione-libro"
+  - "nessuno-bambino-nasce-cattivo-recensione-libro"
+  - "la-lezione-di-un-clown-miloud-oukili"
+  - "isolato-ma-immerso-nella-vita"
+  - "centro-di-solidarieta-don-lorenzo-milani"
+  - "la-bimba-delle-lumache-recensione-libro"
+  - "dialogo-aperto-n-76"
 ---
 
 ## Indice

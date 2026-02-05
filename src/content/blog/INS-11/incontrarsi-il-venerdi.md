@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 "Mamma ! finalmente oggi è Venerdì! Dobbiamo andare S.Gioacchino, chi ci trovo? Cosa mi fanno fare?
 Questo è ciò che mi dice Carla.
 

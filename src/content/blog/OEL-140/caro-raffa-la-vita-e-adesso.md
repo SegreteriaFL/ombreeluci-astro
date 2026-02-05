@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-140
+id_numero: "OEL-140"
+numero_rivista: "Ombre e Luci"
 ---
-
 *A Genzano nell’ottobre scorso, i familiari e gli amici delle comunità Fede e Luce del Centro Italia (Kimata) si sono incontrati con alcuni esperti per approfondire gli argomenti e alcuni aspetti tecnici della legge sul Dopo di Noi in una Giornata di formazione dal titolo **Issate le vele!*
 La sala era piena, genitori, anche dei meno tradizionalmente presenti, e amici. Tanti. E di questo sono stata e sono felice. Perché la sfida che è stata lanciata, quella di dedicare una parte di un week end di formazione al delicato argomento del «dopo di noi» secondo me, basandomi non solo su idee quanto soprattutto sulla mia esperienza personale, doveva avere un uditorio composto anche di amici; quegli amici che non ti forniscono soluzioni ma sanno prenderti per mano nel momento in cui devi affrontarle. Va da sé che più le decisioni sono delicate o radicali più la mano deve essere forte e consapevole. Quel sabato mattina c’erano persone specializzate e profondamente competenti, per professione e ruolo, pronte a parlare. Come avrei potuto introdurle? Introdurre così, quasi a gamba tesa, un argomento che va a colpire le pieghe più profonde dell’animo delle nostre realtà familiare? Ho deciso di farlo così, da sorella, da amica, da figlia. Perché questo sono dentro la mia comunità e dentro Fede e Luce.
 

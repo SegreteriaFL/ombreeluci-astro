@@ -14,8 +14,9 @@ umap_x: 8.614825248718262
 umap_y: 9.437220573425293
 umap_z: 6.325737953186035
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nella scelta dei giochi e dei giocattoli, bisogna pensare allo scopo che è quello di insegnare al bambino disabile a giocare e quello di giocare con lui. Si tratta semplicemente di scegliere giochi normali, semplici, solidi , colorati. Ci si può far guidare dal desiderio del bambino. Se si tratta di un bambino con gravi difficoltà, bisogna cercare ciò che può risvegliare i suoi sensi e, se è possibile la sua intelligenza e la motricità.
 **Giochi di suoni:**
 - giochi musicali - carillons - sonagli, sonaglini (per piccoli) - tamburelli, maracas, bastoni musicali - xilofoni - cassette che riproducono i suoni della vita quotidiana (tombole sonore) - giradischi, magnetofoni

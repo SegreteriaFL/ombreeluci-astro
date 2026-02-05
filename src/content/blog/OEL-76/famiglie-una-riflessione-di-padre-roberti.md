@@ -12,8 +12,9 @@ umap_x: 5.225063800811768
 umap_y: 8.393048286437988
 umap_z: 9.279690742492676
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quando non si ha una famiglia la si sogna, ma anche vivendo in famiglia si può soffrire quando non si riesce a superare i conflitti, ad accettare le differenze, a rifiutare i confronti che possono verificarsi al suo interno. Sarebbe una buona cosa che ogni famiglia si fermasse, ogni tanto, per fare il bilancio dei suoi fallimenti e dei suoi successi, per analizzare le gioie e le pene che segnano il suo cammino.
 
 **Così forse ci accorgeremmo che Dio è là con noi** , per consolarci al momento della tristezza e per ridimensionare i motivi di orgoglio per i nostri apparenti successi.

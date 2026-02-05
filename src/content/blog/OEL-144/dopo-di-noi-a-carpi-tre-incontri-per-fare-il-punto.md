@@ -15,8 +15,9 @@ umap_x: 9.403267860412598
 umap_y: 7.808374404907227
 umap_z: 7.090703964233398
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 “Per il futuro delle persone con disabilità: la legge 112/2016 per il ‘dopo di noi’”: questo il filo conduttore di tre appuntamenti informativi, rivolti ai familiari di persone con disabilità, operatori del settore e cittadini, ospitati dalla Casa del Volontariato di Carpi. Il ciclo di incontri, organizzati da
 **Fondazione Progetto per la Vita onlus**
 ,

@@ -1,15 +1,30 @@
 ---
 id: "OEL-61"
-title: "Ombre e Luci n. 61 - Quella lieve disabilità"
+title: "Ombre e Luci n. 61 – Quella lieve disabilità"
 tipo: "ombre-e-luci"
 numero: 61
-anno: "1998"
+sort_order: 160
+pubDate: "1998-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1998"
 sommario: "Ombre e Luci n. 61 – Quella lieve disabilità ultima modifica: 1998-03-24T14:20:24+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_61_1998.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_61"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-61-quella-lieve-disabilita/"
+articoli:
+  - "quella-lieve-disabilita"
+  - "teresa"
+  - "benedetta-raccontata-da-sua-sorella"
+  - "margherita-ricordi-mi-chiedesti-lane-di-colori-diversi"
+  - "luigi-monza-una-storia-illustrata"
+  - "marco-e-daniela"
+  - "la-scelta-di-alessandra"
+  - "lassociazione-la-nostra-famiglia"
+  - "dialogo-aperto-n-61"
+  - "vita-fede-e-luce-n-61"
+  - "jean-vanier-e-larca-una-comunione-damore"
+  - "tre-racconti-dello-spirito-lettera-pastorale-per-verificarci-sui-doni-del-consolatore"
+  - "10-passi-verso-il-pensiero-positivo"
 ---
 
 ## Indice

@@ -12,7 +12,8 @@ umap_x: 4.604018688201904
 umap_y: 8.344573974609375
 umap_z: 10.32055950164795
 issue_number: OEL-22
-id_numero: OEL-22
+id_numero: "OEL-22"
+numero_rivista: "Ombre e Luci"
 ---
 ### Bisogna aprire le porte
 

@@ -16,8 +16,9 @@ umap_x: 6.291100978851318
 umap_y: 10.903158187866211
 umap_z: 5.889828205108643
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il 21 febbraio 2018 presso la
 [Comunità Il Chicco](http://www.larche-ilchicco.it/)
 ,

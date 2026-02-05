@@ -7,6 +7,7 @@ cluster_id: 3
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_135_2016.jpg"
 slug: "il-messaggio-del-giubileo-dialogo-con-mons-rino-fisichella"
 has_comments: false
+id_numero: "OEL-135"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

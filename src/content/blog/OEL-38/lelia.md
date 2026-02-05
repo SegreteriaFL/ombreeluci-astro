@@ -12,7 +12,8 @@ umap_x: 6.126447677612305
 umap_y: 8.793646812438965
 umap_z: 8.288331031799316
 issue_number: OEL-38
-id_numero: OEL-38
+id_numero: "OEL-38"
+numero_rivista: "Ombre e Luci"
 ---
 L
 elia ha quattro anni. Come potete vedere da queste fotografie è una bambina deliziosa. Ed è molto vivace, chiacchierina e gioiosa. E nata con la sindrome di Down, come si dice oggi. Ha già un passato colmo di tenerezze umane, ma anche di angosce, di problemi e di interventi terapeutici. Alla sua nascita il medico informò il padre pregandolo di non dire niente alla moglie. Fin dal primo giorno la bimba dovette essere ricoverata in ospedale, ma le spiegazioni alla madre furono scarse e poco convincenti. Dieci giorni dopo, quando la piccola fu riportata a casa, la sua mamma aveva già capito che qualcosa non andava per il suo verso. Ciononostante al momento in cui la verità le fu finalmente detta ella ne fu sconvolta, tanto più che il medico aveva consigliato di abbandonarla prospettando un futuro tra i più oscuri. Lelia tornò a casa con un papà depresso e una mamma estremamente angosciata. Quest’ultima cercò subito di avere informazioni dai libri e dai medici che conosceva. Ma i consigli le davano un senso di oppressione e non si sentiva capace di seguirli. Inoltre Lelia non inghiottiva bene ed era ipotonica, e il padre era sempre depresso.

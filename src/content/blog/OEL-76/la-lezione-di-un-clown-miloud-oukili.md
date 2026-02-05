@@ -12,8 +12,9 @@ umap_x: 7.525075912475586
 umap_y: 7.423752307891846
 umap_z: 9.37693977355957
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 Capita spesso di incontrare,inciampare quasi, su qualcuno che ha bisogno di noi. Capita ovunque ma è sopratutto sulla strada che questi incontri sono frequenti. Allora, a scelta: guardiamo e tiriamo avanti, allunghiamo una moneta vergognandoci un pò, affrettiamo il passo, lo scavalchiamo quando, quello dorme proprio davanti al negozio o alla banca che ci attende.
 
 **Invece Miloud Oukili, un ragazzo francese, musicista e clown per scelta** , visitando Bucarest da poco libera dalla dittatura nel 1992, **è inciampato in un ragazzino rumeno che usciva da un tombino di una fogna e si è fermato** .

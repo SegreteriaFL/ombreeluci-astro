@@ -12,8 +12,9 @@ umap_x: 8.256926536560059
 umap_y: 10.14358139038086
 umap_z: 6.178121566772461
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Le professioni della salute
 
 di Giacomina Lapenna, Libreria Internazionale della Famiglia, p.221, lire 4.000 Un libro guida sulle professioni nel campo sanitario, che interessa giovani, genitori, insegnanti ecc.

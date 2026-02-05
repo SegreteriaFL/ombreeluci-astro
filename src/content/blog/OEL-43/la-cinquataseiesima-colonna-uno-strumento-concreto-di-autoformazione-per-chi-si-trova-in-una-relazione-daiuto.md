@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-43
-id_numero: OEL-43
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
 Una comunità di malati di AIDS in fase terminale gestita dalle Ancelle della Carità con l’aiuto di volontari, e un piccolo chiostro quattrocentesco sono i protagonisti di questo libro illuminante e prezioso. Esso si rivolge a coloro che, negli ambiti più diversi, si trovano in una relazione di aiuto. In primo luogo a tutti i volontari.
 La cinquantaseiesima colonna è quella che nel chiostro della comunità a prima vista non è individuabile: sta dietro a un pilastro, bianca e solida, ad angolo. È una colonna nascosta; è una colonna portante. Nel chiostro, che è simbolo della comunità, dell’unione, della condivisione, la colonna bianca rappresenta la figura del volontario.

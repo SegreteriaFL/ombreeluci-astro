@@ -12,7 +12,8 @@ umap_x: 7.925747871398926
 umap_y: 8.387469291687012
 umap_z: 7.921282768249512
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 «Qui devo segnalare un elemento di strategia urbana». Possono assumere tanti volti queste strategie quando si tratta di esercitare il diritto alla socialità, all’uscire la sera, allo stare in compagnia oltre le mura domestiche. **Ma nel quotidiano, andare a mangiare fuori per una persona con disabilità cos’è?** Un diritto sacrosanto, un miraggio vicino ma inesistente, una fatica immane, una scelta complessa radicata nell’idea di cittadinanza e di comunità? O è tutto questo allo stesso tempo? Le risposte possono essere e sono diverse, come attestano i contributi di questo focus.
 

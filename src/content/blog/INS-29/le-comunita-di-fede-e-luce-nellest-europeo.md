@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-29
-id_numero: INS-29
+id_numero: "INS-29"
 anno_rivista: 1981
+numero_rivista: "Insieme"
 ---
 Quando sono capitata a [Fede e Luce](http://www.fedeeluce.it/) avevo 17 anni e non avevo mai incontrato in vita mia persone con handicap. Non ci avevo nemmeno mai pensato. Nel nostro Paese durante il regime comunista le sofferenze venivano nascoste come se non esistessero: cimiteri nascosti, orfanatrofi ed asili circondati da muri: muri di pietra e di silenzio.
 

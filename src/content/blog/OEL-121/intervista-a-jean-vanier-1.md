@@ -14,7 +14,8 @@ umap_x: 8.19204044342041
 umap_y: 11.857977867126465
 umap_z: 10.610228538513184
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 “Lamia vocazione è di essere felice e di vivere nel mezzo della mia comunità. È un privilegio vivere con delle persone fragili. Chi ha un handicap sicuramente ha bisogno di professionisti bravi, di medici che diano loro buone medicine, dei fisioterapisti, ma soprattutto ha bisogno di qualcuno che dica loro: amo vivere con te. **Amare vuol dire fare cose per una persona** , amare vuol dire rivelare dell’altro la sua bellezza, che è importante così come è.” Queste parole di Jean Vanier, pronunciate a Roma nel novembre scorso, ci hanno suggerito alcune domande.
 

@@ -7,6 +7,7 @@ cluster_id: 11
 image: "http://www.ombreeluci.it/wp-content/uploads/2019/10/OL-147-206x300.jpg"
 slug: "dialogo-aperto-n-147"
 has_comments: false
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

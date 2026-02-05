@@ -14,14 +14,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
 archive_id: OmbreELuci_002
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 periodo_label: Aprile, Maggio, Giugno
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 umap_x: 9.031427383422852
 umap_y: 10.617904663085938
 umap_z: 8.092447280883789
+id_numero: "OEL-2"
 ---
-
 I genitori, educatori e gli amici che avvicinano una persona affetta da carenze intellettive o che presenta disturbi della personalità, se non hanno avuto l’opportunità di conoscere le opere di
 [Henri Bissonier](http://www.ombreeluci.it/1983/difficolta-loro-o-nostra/)
 , dovrebbero leggere lo studio di Suor Maria di Gialleonardo che offre la possibilità di entrare facilmente in contatto con il messaggio dello psicologo francese che ha speso la sua vita per la normalizzazione di soggetti in difficoltà. È un messaggio di speranza, di grande speranza. “Il più modesto progresso di uno di questi piccoli, merita tutti i nostri sforzi”. Anche se è un lavoro difficile e lungo… c’è la speranza. Particolarmente preziosa è la parte che tratta in generale dell’atteggiamento di chi avvicina i soggetti in difficoltà, sia per individuare la situazione della persona, sia per scoprire la maniera di avvicinarla, fatta di rispetto, fiducia, stima, accoglienza e soprattutto amore. Doti, queste, che dovrebbero essere le caratteristiche dei rapporti con tutte le persone, ma che sono essenziali con quelle più deboli e più indifese (cap. I, pag. 20). Prima di entrare a parlare dell’educazione religiosa, sarebbe bene approfondire la parte che riguarda i mezzi di normalizzazione sul piano umano come il linguaggio o modo di espressione, la vita in comune soprattutto nei pasti presi insieme, il lavoro, il denaro, gli svaghi, che è trattata nel cap. III, pag. 86-90. Passando a trattare dell'educazione religiosa vorrei segnalare la constatazione che, dopo una lunga esperienza, l'autore fa e cioè che il ritardo mentale non è una barriera per l'influenza religiosa. Lo studio ci offre una metodologia, frutto dell'esperienza dell'educatore. E questo è veramente un arricchimento che qui in Italia non è stato offerto alle persone che volevano dedicarsi allo sviluppo della fede in soggetti con carenze intellettive. Per prima cosa è essenziale mettere il soggetto in contatto con una comunità cristiana vivente. A questo proposito penso con gioia alle comunità Fede e Luce che, con le loro celebrazioni liturgiche, sono catechesi viventi. La Liturgia, espone lo studio sulle opere dell’autore, è veramente efficace, concreta, fatta per essere capita, palpata; si dirige ai sensi, alla vista, all’udito, all’odorato, al gusto (pag. 105).

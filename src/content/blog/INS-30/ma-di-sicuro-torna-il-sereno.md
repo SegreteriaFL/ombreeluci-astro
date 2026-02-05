@@ -14,8 +14,9 @@ umap_x: 6.981795787811279
 umap_y: 9.176921844482422
 umap_z: 11.7406005859375
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 D omenica 10 gennaio, una data indimenticabile. Ancora oggi mi sento quasi sollevata da terra quando rivedo con il ricordo il Santo Padre celebrare il battesimo di mio figlio.
 
 Il Suo sguardo così profondo e mistico che trasmette luce, sembra voglia dire di aver fede, sempre di più, specialmente quando si è molto tristi e si devono superare prove più grandi di noi.

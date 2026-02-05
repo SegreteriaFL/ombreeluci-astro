@@ -14,7 +14,8 @@ umap_x: 9.085996627807617
 umap_y: 10.489579200744629
 umap_z: 8.7044677734375
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 È
 ormai un convincimento assodato, in linea di principio, che per la Chiesa le persone disabili non possono essere un peso o un ulteriore problema, ma i figli prediletti che le indicano, con la fragilità della loro esistenza, che Essa non ha altra via da percorrere che quella della croce e della povertà, nella prospettiva della risurrezione, non come corpo rianimato, bensì come pienezza di vita.

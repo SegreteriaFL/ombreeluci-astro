@@ -12,8 +12,9 @@ umap_x: 8.924029350280762
 umap_y: 8.182065963745117
 umap_z: 3.2806055545806885
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Isanti ritratti nelle chiese sono quasi tutti bianchi. Era così anche nella Church of the Advocate, una grande chiesa episcopale di Filadelfia eretta nel 1887. Il quartiere in cui si trova, però, è oggi abitato in prevalenza da persone di colore. E così, per compensare la presenza sulle grandi vetrate storiche di personaggi esclusivamente bianchi, la chiesa è diventata anche una sorta di museo di arte contemporanea grazie alla collezione di quattordici murali realizzati da Walter Edmonds negli anni Settanta che raffigurano l’esperienza della comunità nera negli Stati Uniti.
 
 Già questo aspetto così particolare della chiesa fa capire agli spettatori del film *Angels on Diamond Street* (2019) che ci troviamo all’interno di una congregazione che non ha mai avuto paura di sporcarsi le mani con la politica. L’altro ambiente in cui si muove la regia di Petr Lom, infatti, è l’Advocate Cafe situato proprio di fronte alla chiesa, che ogni giorno feriale offre il pranzo ai bisognosi, quasi tutti afro-americani.

@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 Vi racconto l’esperienza fatta in India. **Hanno costruito un asilo intitolato Fr. Massimo e noi siamo andati all’inaugurazione.
 Con un prete che si chiama Padre Raja siamo andati in un villaggio e lì ci hanno accolto con gioia. Padre Raja ha avuto un nipotino e i miei genitori hanno fatto da madrina e padrino al piccolino che si chiama Massimo.

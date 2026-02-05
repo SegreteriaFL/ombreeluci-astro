@@ -17,7 +17,8 @@ umap_x: 7.940192222595215
 umap_y: 7.750625133514404
 umap_z: 9.061266899108887
 issue_number: OEL-168
-id_numero: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
 *Tempo fa ci è arrivata in regalo una bottiglia di un buon vino. L’etichetta ci ha incuriosito e il racconto di chi ha contribuito a imbottigliarlo ancor di più.*
 

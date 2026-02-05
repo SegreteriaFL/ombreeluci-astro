@@ -4,8 +4,8 @@ date: 2005-06-17
 author: Maria Varoli
 slug: il-nostro-don-francesco
 lang: it
-numero_rivista: 90
-id_numero: OEL-90
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-90"
 issue_number: OEL-90
 wp_id: 30975
 original_url: "https://www.ombreeluci.it/?p=30975"
@@ -17,7 +17,6 @@ umap_x: 7.53929328918457
 umap_y: 9.12692642211914
 umap_z: 11.167919158935547
 ---
-
 Il 5 maggio Don Francesco Marchini è andato in Paradiso. Molti di noi lo ricordano come Assistente spirituale nazionale di Fede e Luce per alcuni anni. È difficile dire in poche parole il suo impegno senza riserve, la sua delicatezza e la sua vicinanza verso i genitori e i loro figli disabili. Preghiamo ora perché il suo esempio sia guida e sprone a tutti noi, e, in modo speciale, ai nostri sacerdoti che si impegnano in questa non facile santa accoglienza. Ecco come una mamma ricorda la sua presenza accanto a lei.
 
 ### Abbiamo imparato che i nostri figli sono persone vere

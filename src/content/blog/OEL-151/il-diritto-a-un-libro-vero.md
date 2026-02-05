@@ -12,7 +12,8 @@ umap_x: 6.104543209075928
 umap_y: 8.378233909606934
 umap_z: 7.945738315582275
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 «Un giorno Enza arrivò a casa e disse “Basta!”. Non ne poteva più dei materiali con cui lavorava quotidianamente, dedicati ai bambini con difficoltà nell’apprendimento o affetti da autismo. “Anche loro debbono poter andare in libreria per comprarsi un libro bello. Un libro vero”. È nato tutto da lì». E quello che è nato è Uovonero, la casa editrice che si rivolge a bambini e adolescenti con e senza difficoltà, promuovendo una cultura che nella differenza vede ricchezza. A raccontarci l’impresa è Sante Bandirali, editore, scrittore, traduttore nonché uno dei fondatori di Uovonero con Enza Crivelli e Lorenza Pozzo.
 

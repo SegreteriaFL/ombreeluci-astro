@@ -12,7 +12,8 @@ umap_x: 4.723607540130615
 umap_y: 7.556736469268799
 umap_z: 10.77384090423584
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 ### Lettera dall’Honduras
 

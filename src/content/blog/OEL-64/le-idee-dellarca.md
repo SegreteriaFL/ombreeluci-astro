@@ -4,8 +4,8 @@ date: 1998-12-10
 author: Redazione
 slug: le-idee-dellarca
 lang: it
-numero_rivista: 64
-id_numero: OEL-64
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-64"
 issue_number: OEL-64
 wp_id: 12409
 original_url: "https://www.ombreeluci.it/?p=12409"
@@ -17,7 +17,6 @@ umap_x: 8.395827293395996
 umap_y: 8.355083465576172
 umap_z: 10.874897956848145
 ---
-
 **Condividono l’esistenza** L’ARCA è un ambiente di vita e di lavoro dove le persone handicappate possono crescere, trovare un senso alla loro vita ed una speranza, insieme alle persone che ne condividono l'esistenza. Per alcuni la comunità rappresenta il luogo di permanenza definitiva, per altri solo un momento del proprio cammino di crescita verso una nuova autonomia.
 
 **Sviluppano le capacità** L’ARCA è un ambiente terapeutico e pedagogico dove l'handicappato riceve l'aiuto professionale di cui ha bisogno per ritrovare salute ed equilibrio psicologico ed acquisire quanto è necessario per sviluppare le sue capacità. Sono stati creati appositi laboratori sia per risvegliare le potenzialità dei bambini colpiti da handicap gravi che per permettere agli adulti di scoprire i propri talenti e metterli al servizio degli altri. .

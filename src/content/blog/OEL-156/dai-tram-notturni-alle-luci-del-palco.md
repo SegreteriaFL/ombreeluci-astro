@@ -12,7 +12,8 @@ umap_x: 8.740556716918945
 umap_y: 7.2232255935668945
 umap_z: 8.747635841369629
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 «Era il 2015, allora di notte conducevo i tram dell’Atm, l’azienda di trasporti di Milano, e di giorno, essendo fisioterapista, seguivo la Nazionale Italiana Artisti TV e l’associazione Colorado Charity Team: qui incrociai il mondo della comicità e quello dell’associazionismo» ricorda così Salvatore Ferrara l’incontro che lo ha portato a fondare, insieme ai comici Angelo Pintus e Stefano Chiodaroli, l’associazione Nic (Nazionale Italiana Comici) con base a Rozzano nel milanese, la squadra di calcio che ha come obiettivo raccogliere fondi attraverso lo sport. Uno sport inclusivo, in cui a scendere in campo sono adolescenti e giovani con disabilità.
 

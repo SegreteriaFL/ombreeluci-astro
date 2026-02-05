@@ -12,7 +12,8 @@ umap_x: 4.859605312347412
 umap_y: 7.985999584197998
 umap_z: 10.76974868774414
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 ### Francesca e la sua famiglia
 

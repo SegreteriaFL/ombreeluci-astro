@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-28
+id_numero: "OEL-28"
+numero_rivista: "Ombre e Luci"
 ---
-
 Finalmente l’ho trovata! Si chiama Casa della Carità. Anzi: Case della Carità, perché ora sono una trentina, compresa l’ultima aperta questo dicembre a Roma, nel quartiere della Magliana ([casadellacarita.it](http://www.casadellacarita.it/)).
 Il nome Casa della Carità non suona molto bene, ma la sua realtà è letteralmente rivoluzionaria. La Casa della Carità accoglie stabilmente, in una istituzione che è esattamente una famiglia numerosa, persone rifiutate che non hanno dove andare. La Casa è affidata alla parrocchia e alla responsabilità della comunità parrocchiale e ha come capofamiglia uno o due componenti della Congregazione Mariana delle Case della Carità.
 

@@ -1,15 +1,34 @@
 ---
 id: "INS-25"
-title: "Insieme n. 25 - Bollettino Fede e Luce - 1980"
+title: "Insieme n. 25 – Bollettino Fede e Luce – 1980"
 tipo: "insieme"
 numero: 25
-anno: "1980"
+sort_order: 25
+pubDate: "1980-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 1980"
 sommario: "Insieme n. 25 – Bollettino Fede e Luce – 1980 ultima modifica: 1980-06-20T15:39:37+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-25-giu-1980.webp"
 link_sfoglia: "https://archive.org/details/insieme-25/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-25/insieme%2025%20giu%201980.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-25-bollettino-fede-e-luce-1980/"
+articoli:
+  - "fratelli-e-sorelle-di-persone-con-disabilita-2"
+  - "jean-vanier-libano"
+  - "ci-hanno-scritto-insieme-n-23"
+  - "25-numero-6-anno"
+  - "io-mi-domando"
+  - "gli-altri-vostri-figli-lhanno-accettato"
+  - "perche-non-mi-capisci-2"
+  - "una-realta-esigente"
+  - "mia-sorella"
+  - "non-e-facile-esprimere"
+  - "una-lettera"
+  - "la-mia-vita"
+  - "vita-fede-e-luce"
+  - "alessandro-bertolini"
+  - "e-uscita-una-nuova-legge-sullassegno-di-accompagnamento-per-le-persone-totalmente-inabili"
+  - "letture-consigliate-la-vita-puo-ricominciare-recensione"
+  - "questionario-per-i-fratelli-e-sorrelle-di-persone-con-disabilita"
 ---
 
 ## Indice

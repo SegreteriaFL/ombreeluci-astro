@@ -4,8 +4,8 @@ date: 2006-06-21
 author: Redazione
 slug: con-la-forza-di-una-quercia-associazione-la-quercia-millearia
 lang: it
-numero_rivista: 94
-id_numero: OEL-94
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-94"
 issue_number: OEL-94
 wp_id: 31894
 original_url: "https://www.ombreeluci.it/?p=31894"
@@ -17,7 +17,6 @@ umap_x: 5.119420528411865
 umap_y: 9.330946922302246
 umap_z: 6.945666790008545
 ---
-
 Ma quando il nascituro è in una condizione di patologia tale da essere incompatibile con la vita? L'interrogativo che si pone per i genitori é straziante.
 
 Purtroppo non poche mamme e papà hanno vissuto questa esperienza e alcuni hanno deciso di portare avanti la gravidanza, fino al suo esito naturale, piuttosto che interromperla anticipatamente. Pensando di dare e far sentire al loro bimbo tutto l’amore che avevano per lui, di testimoniare il valore e la dignità di ogni vita, nel convincimento che, rispetto ad una gravidanza interrotta, “un lutto è molto più dolce da sopportare”.

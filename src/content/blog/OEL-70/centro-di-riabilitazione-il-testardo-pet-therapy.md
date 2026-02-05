@@ -14,7 +14,8 @@ umap_x: 6.935728549957275
 umap_y: 8.105521202087402
 umap_z: 7.117097854614258
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 Chi usa la parola “asino” per insultare il suo prossimo dovrebbe venire qui, al centro di riabilitazione II Testardo, e vedere come si comporta Socrate. Una volta, racconta Claire Holme, direttrice del centro, una bambina gli stava ripulendo uno zoccolo. Fece però una mossa sbagliata e cadde a terra. Socrate, un po’ sbilanciato, accennò il gesto di posare a sua volta lo zoccolo a terra, ma si accorse che così avrebbe fatto male alla bambina e subito lo sollevò. Un esempio di sensibilità di cui difficilmente sarebbe capace un cavallo.
 

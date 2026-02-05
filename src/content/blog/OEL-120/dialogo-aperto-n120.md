@@ -12,8 +12,9 @@ umap_x: 5.167296886444092
 umap_y: 7.859888553619385
 umap_z: 11.233209609985352
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Gocce
 
 A volte dimentichiamo il valore delle singole gocce che formano l’oceano... Vorremmo per questo condividere le parole di Stefano durante l’inizio delle attività di Fede e Luce a Roma. “Raffaele oggi compie 56 anni; Anna è in ospedale ma saluta tutti; Pina è rimasta a casa, la sua schiena non gli consente di partecipare ancora; Antonio sta cercando una nuova scuola; Tommaso è guarito; Alessandra si è portata dietro tutta la sua comunità in metropolitana; Ornella e la sua mamma in una giornata così bella proprio non potevano mancare; Cinzia ha cucinato per la sua comunità; Pippi ha fatto il giro di Roma in macchina con Marina; Antonio ha festeggiato, con la sua comunità, il suo matrimonio; Monica ha fatto un pellegrinaggio a Cipro; Massimiliano pensa al prossimo viaggio con i suoi amici; potremmo continuare all’infinito. Quello che voglio dire è che queste piccole storie, avvenimenti che sembrano così fragili, così piccoli, riempiono miracolosamente le nostre vite. Queste relazioni che abbiamo costruito sono come una rete, siamo tutti collegati, con le nostre gioie, le nostre preoccupazioni. In fondo Fede e Luce è questo, vivere di relazioni speciali, legami speciali fatti di amore. Vi auguro di continuare a tener fede a questi legami, alle nostre piccole storie. A voi tutti un nuovo buon anno di Fede e Luce. “

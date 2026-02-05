@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 Sono una ragazza di Roma,faccio parte di Fede e Luce e sono scout. Venendo a contatto con queste due realtà così diverse, e avendo avuto nel mio gruppo, prima ai lupetti poi in clan due ragazzi disabili, mi sono spesso chiesta il rapporto che ci potesse essere fra il metodo scout e il mondo dell’handicap.
 

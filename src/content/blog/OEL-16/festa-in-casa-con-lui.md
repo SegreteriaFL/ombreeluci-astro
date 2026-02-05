@@ -12,8 +12,9 @@ umap_x: 6.225849628448486
 umap_y: 8.794095993041992
 umap_z: 9.253142356872559
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 L’altro giorno eravamo tutti in festa: era il compleanno di zia Roberta. Pablo, come al solito, è stato l’ultimo a essere informato perché in queste occasioni gli prende una tale emozione che non riesce neanche a mangiare. Sono i giorni più felici per lui, anche per noi veramente, perché ci ritroviamo tutti insieme. Ormai Pablo ha una sua identità nell’ambito della famiglia; è amato, rispettato, accettato per quello che è. Certo è stato un lungo lavoro da parte di tutti; soprattutto grazie agli amici che per prima cosa hanno aiutato noi genitori facendoci capire che non eravamo gli unici ad amarlo e ad accettarlo, facendoci scoprire sempre nuovi tesori che aveva racchiusi in sé.
 > Sapevo solo che lui dipendeva da me e che lui aveva voglia di vivere
 

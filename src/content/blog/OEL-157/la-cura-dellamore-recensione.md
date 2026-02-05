@@ -12,7 +12,8 @@ umap_x: 7.503503799438477
 umap_y: 11.53597354888916
 umap_z: 5.256597995758057
 issue_number: OEL-157
-id_numero: OEL-157
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
 **S iamo tutti figli. È questo il denominatore che accomuna (nel bene o purtroppo nel male) da sempre il genere umano** , incarnando in sé il senso di dipendenza. Sulla dipendenza costruttiva, vitale, che dà pienezza al tempo e senso alla vita, è incentrato il libro di Eva Feder Kittay, che affronta i temi della vulnerabilità e della dipendenza in relazione a diverse forme di disabilità, muovendo l’analisi dalla prospettiva di quanti si prendono cura degli altri. Oggi quello di cura è un lavoro considerato di serie B, marginale, invisibile, proprio di chi non ha potere o competenze, mentre invece si tratta di un lavoro dall’enorme significato sociale, filosofico, economico, giuridico e morale. **Le riflessioni spaziano da un terreno più teorico a considerazioni più personali,** legate al racconto della sua maternità, della scoperta della grave disabilità della figlia maggiore, della capacità di trovare una via per relazionarsi con una bambina e poi donna che, per tutta la vita, sarà dipendente dal prossimo.
 

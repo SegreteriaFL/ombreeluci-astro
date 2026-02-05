@@ -15,8 +15,9 @@ umap_x: 6.634433746337891
 umap_y: 8.420934677124023
 umap_z: 12.169559478759766
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 *La cosa di cui abbiamo tutti bisogno è l’amicizia. Vivere con degli amici, con persone felici di condividere un po’ di tempo con noi. Questo è il motivo per cui la pedagogia dell’* Arca *consiste essenzialmente nel dirci reciprocamente: “Sono contento di vivere con te!”. Tutto qui, anche se non vuol dire che sia facile e che non ci sia nessun problema. Se uno viene all’Arca, con un senso di superiorità, volendo fare del bene, sicuramente tratterà l’altro, la persona disabile, da inferiore. Invece bisogna imparare, progressivamente e insieme, ad amare. Amare non vuol dire fare del bene. Amare significa fare all’altro una rivelazione: “Sei importante. Sei bello. Sei prezioso. Hai qualcosa da dare al mondo, alla comunità, alla nostra amicizia"* .
 
 (" *Chi risponde al grido?"* Jean Vanier, ed. La cittadella, 2015)

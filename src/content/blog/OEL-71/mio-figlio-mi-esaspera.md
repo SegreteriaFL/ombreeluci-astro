@@ -12,7 +12,8 @@ umap_x: 4.558285236358643
 umap_y: 9.020992279052734
 umap_z: 7.8239240646362305
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 > «Ci sono momenti in cui il vaso è troppo pieno. La misura è colma. Arrivo a non poter più sopportare il mio figlio maggiore! Le sue imperfezioni, incapacità, errori, goffaggini, tutto mi esaspera. Una sua parola gentile mi irrita; anche le sue manifestazioni di affetto mi infastidiscono. Questa sera, mentre mia moglie lavava i piatti, è venuto ad abbracciarmi con il suo grande sorriso e la sua semplice gioia. Io ho soffocato a fatica l'istinto di scostarlo. - *Un papà*
 

@@ -12,8 +12,9 @@ umap_x: 9.201908111572266
 umap_y: 8.396191596984863
 umap_z: 11.701041221618652
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Cari amici, se ho scelto di raccontare la storia della maglietta di Giovanni Paolo II è perché lui è stato il primo a farci credere in noi quando era ben consapevole che la sua malattia lo stava portando via. Ricordo ancora come se fosse ieri quando ha detto che avrebbe indetto un giubileo straordinario per noi, conosciuto poi come il “Giubileo della misericordia”. Fu aperto in seguito da Papa Francesco che, portando avanti il messaggio di Giovanni Paolo II fece sì che lui non venisse mai dimenticato nemmeno dai più piccoli.
 
 Con l’avvicinarsi del giubileo del 2025, che tutti aspettiamo con grande trepidazione, vorrei ricordare l’uomo che grazie anche alle sue fatiche e alla sua sofferenza ha fatto sì che oggi siamo diventati un punto fondamentale per la Chiesa Cattolica nonostante la nostra disabilità.

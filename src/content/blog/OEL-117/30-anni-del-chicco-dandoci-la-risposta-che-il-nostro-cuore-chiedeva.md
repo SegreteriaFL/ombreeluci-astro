@@ -14,7 +14,8 @@ umap_x: 7.915376663208008
 umap_y: 8.566022872924805
 umap_z: 9.478655815124512
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 *Come si fa ad accogliere dei ragazzi con un handicap mentale, e anche grave, e a vivere in casa con loro per tutta la vita? Come hanno fatto Guenda e Anne, giovani e belle ragazze a prendere la decisione e la responsabilità di formare una piccola famiglia con Fabio e Maria nel 1981? Come hanno fatto, negli anni, ad arrivare tante altre persone, assistenti e persone con disabilità, a vivere qui?*
 **[La comunità del Chicco](https://www.ombreeluci.it/tag/il-chicco/)**

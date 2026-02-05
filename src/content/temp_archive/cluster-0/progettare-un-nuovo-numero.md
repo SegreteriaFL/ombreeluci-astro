@@ -7,6 +7,7 @@ cluster_id: 0
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/05/Redazione-1024x555.jpg"
 slug: "progettare-un-nuovo-numero"
 has_comments: false
+id_numero: "OEL-161"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

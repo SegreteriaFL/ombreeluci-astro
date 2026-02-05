@@ -16,7 +16,8 @@ umap_x: 7.559322834014893
 umap_y: 9.024679183959961
 umap_z: 11.905920028686523
 issue_number: OEL-10
-id_numero: OEL-10
+id_numero: "OEL-10"
+numero_rivista: "Ombre e Luci"
 ---
 **«Non Ti chiediamo perché ce l'hai tolto, ma Ti ringraziamo perché ce l’hai donato»** Il 10 marzo scorso è morto Don Dario. A 31 anni. Aveva sofferto molto. Gli volevamo un gran bene. Ci ha dato tanto. Lo ricordiamo, pubblicando nella pagina seguente un suo scritto del gennaio 1981, che consideriamo la «teologia di Fede e Luce»
 

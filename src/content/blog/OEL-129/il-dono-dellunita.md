@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 In questa festa per i quarant’anni di Fede e Luce in Italia celebriamo il dono della vita, il dono dell’amicizia e della fratellanza, il dono della fede e dell’unità. Celebriamo il dono dell’unità intorno ai nostri fratelli con handicap mentale, intorno alle loro famiglie e agli amici; ma stiamo celebrando anche il dono dell’unità tra le nostre diverse Chiese cristiane. In altre parole, stiamo celebrando l‘ecumenismo, il cammino che ci porta alla piena comunione di tutti quelli che seguono e credono in Gesù.
 

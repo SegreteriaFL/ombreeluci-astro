@@ -12,7 +12,8 @@ umap_x: 8.201159477233887
 umap_y: 6.071340560913086
 umap_z: 9.71225357055664
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 Le piste ciclabili sono in forte espansione nelle nostre città ma non tutti possono percorrerle in sicurezza e autonomia. A Bari, ormai dai primi anni del Duemila, è sorto un bike park nel quartiere San Paolo, grazie alla Scuola di Ciclismo Franco Ballerini: un parco dedicato interamente alla bicicletta, con percorsi attrezzati per sperimentare attività di avviamento alle due ruote, anche agonistiche. Nel 2008, racconta il presidente Pino Marzano, venne l’idea di proporre un progetto sportivo integrato per le scuole, *Due ruote per sognare* . **Vennero coinvolti una decina di bambini con sindrome di Down e andò così bene che si decise di allargare la proposta anche a quanti non avevano ancora pensato di potersi avvicinare alla bicicletta.**
 

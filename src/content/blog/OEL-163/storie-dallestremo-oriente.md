@@ -12,7 +12,8 @@ umap_x: 9.391744613647461
 umap_y: 7.615302562713623
 umap_z: 2.688788414001465
 issue_number: OEL-163
-id_numero: OEL-163
+id_numero: "OEL-163"
+numero_rivista: "Ombre e Luci"
 ---
 AlFar East Film Festival di Udine, due film sulla fragilità degni di nota. Vedere qui pellicole popolari in Estremo oriente è un buon modo per notare le differenze con il cinema occidentale anche in tema di disabilità e inclusione sociale.
 

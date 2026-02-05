@@ -12,7 +12,8 @@ umap_x: 8.187971115112305
 umap_y: 11.609740257263184
 umap_z: 6.639148712158203
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 La lettura della Sacra Scrittura non può essere mai data per compiuta e tante continueranno ad essere le interpretazioni di testi originali in lingua ebraica antica, tanto ricca di sfumature e complessità. Il tentativo che compie Marmorini in questo saggio dedicato ad Isacco, è assolutamente degno di interesse. Tra i patriarchi della fede con cui Yahweh ha fondato la sua alleanza - Abramo, Isacco e Giacobbe - Isacco rimane il più sfuggente, quello intorno al quale troppi sono i silenzi, le assenze, i comportamenti difficili - a volte francamente impossibili - da comprendere. Marmorini si chiede se sia possibile riconoscere in Isacco l’imperfezione della disabilità psichica. E che ruolo questa possa avere nel “perfetto” disegno divino. L’autore ci conduce con una nuova consapevolezza su quel monte del sacrificio, in un crescendo anche emotivo che non sfugge alle mille domande che la presenza della disabilità nell’umanità pone ad ogni uomo ed in ogni tempo.
 

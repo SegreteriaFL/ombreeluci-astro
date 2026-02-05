@@ -6,8 +6,8 @@ theme: "cluster-4"
 cluster_id: 4
 slug: "i-fratelli-e-le-sorelle-di-ragazzi-con-disabilita-che-pensano-che-provano"
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26442
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Si parla sempre di “loro”, di quanto tempo ci portano via, di quante cure hanno bisogno, di quanto amore gli diamo. Ma mentre passiamo gli anni ad accompagnare i nostri figli a terapia, a gestire le situazioni più impegnative, rincorrendo i vari specialisti alla ricerca di soluzione al problema che si presenta volta per volta; man mano che “loro” crescono, mentre noi genitori siamo impegnati accanto a loro, dove sono i fratelli e le sorelle?
 
 Sono in un angolo che ascoltano e sopportano? cosa pensano e provano?

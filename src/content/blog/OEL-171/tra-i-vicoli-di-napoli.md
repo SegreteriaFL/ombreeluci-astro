@@ -16,7 +16,8 @@ umap_x: 8.42525577545166
 umap_y: 7.482972145080566
 umap_z: 9.455337524414062
 issue_number: OEL-171
-id_numero: OEL-171
+id_numero: "OEL-171"
+numero_rivista: "Ombre e Luci"
 ---
 1989 -2025: ha una [lunga storia](https://www.ombreeluci.it/2015/scintille-di-amicizia/) vissuta assieme La Scintilla, nata dal sogno di costruire un luogo di sostegno e presenza che non lasciasse indietro nessuno. Ispirata dall’esperienza delle comunità di *Fede e Luce* a Napoli, l’associazione, ospite del Pio Monte della Misericordia (storico palazzo nel centro della città), è frequentata da 40 persone con disabilità e dalle loro famiglie, 20 tra dipendenti e collaboratori, 20 volontari. **Due i progetti principali: un co-housing per il Dopo di noi per il futuro di 7 adulti e uno spazio quotidiano di formazione e autonomia per 30 persone. ** Sono tante le attività realizzate in ascolto dei desideri delle persone coinvolte: laboratori con artigiani per cuoio e pelletteria, creta, gioielleria, cucito; laboratori con maestri e artisti di teatro, percussioni, danza; attività motorie guidate da esperti di ginnastica e yoga; e, soprattutto, **percorsi di professionalizzazione per accompagnatori/trici turistici in cinque siti storici e museali** , come addetti/e di caffetteria e di vendita in fiere e mostre cittadine.
 

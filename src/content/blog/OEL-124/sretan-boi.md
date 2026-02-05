@@ -14,8 +14,9 @@ umap_x: 5.6140313148498535
 umap_y: 5.867341995239258
 umap_z: 12.40283489227295
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 InCroazia la festa del Natale si prepara già molto intensamente durante l’Avvento con la partecipazione alle messe dette «zornice», messe dell’aurora.
 
 **Le «zornice», messe del Tempo d’Avvento, si celebrano quotidianamente prima dell’alba** . Si va in chiesa quando è ancora notte e si ritorna a casa al primo chiarore! Spesso c’è già la neve... ma non fa niente! molta gente ci va. La chiesa si riempie e la liturgia è resa piu viva dai bei canti propri dell’Avvento che si cantano esclusivamente in questo periodo. Essi ricordano che Maria è la vera «aurora luminosa».

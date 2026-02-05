@@ -14,7 +14,8 @@ umap_x: 9.006093978881836
 umap_y: 8.460426330566406
 umap_z: 12.711836814880371
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Provate ad individuare cosa possa spingere ad organizzare un pellegrinaggio. Un Pellegrinaggio in
 *Fede e Luce*

@@ -15,8 +15,9 @@ umap_x: 9.07201862335205
 umap_y: 9.238100051879883
 umap_z: 6.296797275543213
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 Here’s a first selection of games ( [second list available here](https://www.ombreeluci.it/en/2025/22-fun-mini-games-to-play-together/) ). Send us your feedback and share any other group games you think are worth trying — next year we’ll publish another issue dedicated to activities and group play.
 14-1 en
 style="display:block" data-ad-client="ca-pub-2238371130141396" data-ad-slot="4949012648" data-ad-format="auto" data-full-width-responsive="true">

@@ -4,8 +4,8 @@ date: 1996-12-15
 author: Redazione
 slug: perch-non-mi-capisci
 lang: it
-numero_rivista: 56
-id_numero: OEL-56
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-56"
 issue_number: OEL-56
 wp_id: 11111
 original_url: "https://www.ombreeluci.it/?p=11111"
@@ -17,7 +17,6 @@ umap_x: 5.400687217712402
 umap_y: 10.108793258666992
 umap_z: 9.203912734985352
 ---
-
 La porta di casa si chiude rumorosamente dietro di me; sento un gonfiore sulle labbra, mi fa male; ma il dolore più forte è quello che è appena successo.
 
 Mi fanno sentir male quegli occhi che mi guardano spaventati al di là della porta accanto: quella dei miei vicini di casa! Sento le lacrime salirmi agli occhi; con la faccia di fuoco mi avvicino alla porta accanto per chiedere aiuto, sto per suonare, ma no! No! Loro non possono capire, io sono abituata a queste cose, a queste scenate, loro no! Non hanno mai visto un bambino trasformato in un «animale» che non riconosce più le persone che lo amano; non hanno mai visto il sangue grondare dalle braccia della propria madre senza poter far niente e vederla soffrire, piangere e pregare, senza poter fermare quel bambino che le si getta addosso senza darle tregua; non hanno mai provato la sensazione di odiare quell'essere che in un attimo ha potuto distruggere la propria casa, che è capace di picchiare la mamma, la persona più cara, l'unica persona che è in grado di rimanere giorni e notti sola con lui: mio fratello! Sì, il mio fratellino; ma lui non è come gli altri...è diverso! Diverso da tutti i bambini, lui i bambini li picchia, lui non mangia con noi e poi butta i piatti, le posate, i bicchieri, l'acqua, tutto per terra. Lui vuole tutte le cose che porto a casa: i giornali, i libri, le fotografie; non posso neanche dire che bella questa o quella cosa, senza che lui la voglia subito, se la prende con prepotenza e per non farmela prendere la porta nella sua camera, a letto.

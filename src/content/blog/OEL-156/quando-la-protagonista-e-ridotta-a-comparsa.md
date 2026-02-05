@@ -11,8 +11,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 È molto difficile giudicare serenamente un film che è stato travolto dalle polemiche ancor prima di essere visto, basandosi su poche informazioni e sui trailer. L’accesa controversia ha riguardato il personaggio che dà il titolo al debutto alla regia della musicista Sia: Music, una ragazza con autismo che secondo i critici fornisce una rappresentazione del suo stato offensiva, falsa e pericolosa.
 Music è interpretata dalla giovane Maddie Ziegler, che non ha nessuna forma di autismo; in questo caso, la polemica per non aver scelto un’attrice autistica è un po’ ingenerosa perché fingere di essere ciò che non si è rappresenta proprio il senso di essere attori. Pare che Sia non abbia trovato nessuna attrice adeguata al ruolo; la sua è una legittima scelta artistica che non dovrebbe essere considerata discriminante, anche se abbiamo esempi di registi che hanno fatto scelte opposte.
 L’altra questione sollevata da più parti è che il personaggio abbia una forma abbastanza grave di autismo: perlopiù non verbale (con alcuni elementi di ecolalia perché ripete solo alcune frasi fisse), con una routine ben definita, numerosi tic e sembra persa nel suo mondo anche a causa delle grandi cuffie che tiene sempre in testa. Tra gli innumerevoli disturbi dello spettro autistico, ne è stato scelto uno “cinematografico”, cioè ben visibile e comprensibile agli spettatori: una scelta criticabile, forse, ma non campata in aria e che non inventa dal nulla una malattia. **Molto più grave il fatto che venga considerato legittimo bloccare a terra con forza qualcuno che ha una crisi: anche se è un buon esempio del fatto che i protagonisti sono del tutto ignoranti su come trattare la condizione di Music, le sequenze sono così sbagliate e pericolose che la regista ha promesso di tagliarle.

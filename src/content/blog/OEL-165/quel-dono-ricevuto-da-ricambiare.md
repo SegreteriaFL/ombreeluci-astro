@@ -12,7 +12,8 @@ umap_x: 7.365164279937744
 umap_y: 9.006092071533203
 umap_z: 12.055729866027832
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 Ricordo che un giorno dicevo a Bruno le parole di una canzone di Ligabue «L’amore conta, l’amore conta, conosci un altro modo per fregar la morte?». Lui sorridendomi rispose «ripetile, ripetile lentamente». **Con amore e per amore Bruno ha vissuto le comunità di Fede e Luce.** Un amore reso tangibile anche dalle parole di Andrea Cervo, una persona con disabilità della sua comunità: «Bruno caro, non ti vedo con gli occhi ma ti sento sempre nel mio cuore come sento mio padre. Ricordo tante cose belle vissute con te! Resti il “mio professore” e il “mio maestro” di vita. Non ti potrò mai dimenticare perché quello che mi hai insegnato e donato sta tutto dentro di me come in una cassaforte, come un tesoro da custodire».
 

@@ -1,15 +1,34 @@
 ---
 id: "INS-21"
-title: "Insieme n. 21 - Bollettino Fede e Luce - 1979"
+title: "Insieme n. 21 – Bollettino Fede e Luce – 1979"
 tipo: "insieme"
 numero: 21
-anno: "1979"
+sort_order: 21
+pubDate: "1979-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 1979"
 sommario: "Insieme n. 21 – Bollettino Fede e Luce – 1979 ultima modifica: 1979-06-20T15:39:37+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-21-giu-1979.webp"
 link_sfoglia: "https://archive.org/details/insieme-21/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-21/insieme%2021%20giu%201979.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-21-bollettino-fede-e-luce-1979/"
+articoli:
+  - "lamore-non-basta"
+  - "ci-hanno-scritto-una-critica-allultimo-numero-di-insieme"
+  - "per-la-nostra-riflessione-prendete-e-mangiatene-tutti"
+  - "leducazione-dei-bambini-cosiddetti-lievi-si-ma-quale"
+  - "viviamo-una-vita-normale"
+  - "non-e-cosi-facile-essere-madre-di-una-bambina-non-grave"
+  - "si-e-allontanato-per-la-prima-volta"
+  - "ora-ha-un-mondo-suo-oltre-la-sua-famiglia"
+  - "in-vacanza-tutto-come-se-si-trattasse-di-un-gioco"
+  - "adesso-fa-la-quarta-sta-ancora-con-noi"
+  - "fu-in-tenda-che-mi-diede-il-benvenuto"
+  - "come-mettere-in-quattro-righe-oltre-10-anni-di-vita"
+  - "ci-hanno-scritto-n-21"
+  - "apriamo-il-sipario-oggi-si-recita"
+  - "il-ruolo-del-pediatra-nel-trattamento-del-bambino-handicappato"
+  - "notiziario-fede-e-luce-n-21"
+  - "letture-consigliate-il-piccolo-principe"
 ---
 
 ## Indice

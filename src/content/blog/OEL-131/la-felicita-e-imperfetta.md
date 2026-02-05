@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Il pellegrinaggio comincia molto prima della sua data effettiva, inizia nel cuore di ognuno di noi nel momento in cui ci poniamo due domande: “*Cosa ci faccio in Fede e Luce?*” e “*Perché ci resto?”.* *Fede e Luce* non è un impegno lavorativo, tanto meno un dovere prescritto da un dottore, ma un luogo in cui stare bene, con se stessi e con gli altri e, per questo, a volte, fa paura.
 

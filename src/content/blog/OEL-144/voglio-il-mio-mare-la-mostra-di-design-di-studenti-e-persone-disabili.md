@@ -12,8 +12,9 @@ umap_x: 8.834579467773438
 umap_y: 7.799895286560059
 umap_z: 7.83002233505249
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 D
 omenica 28 ottobre 2018, alle ore 18, all’Oratorio di Santa Chiara, in piazza Santa Chiara 1 a Palermo, è stata inaugurata la mostra “
 **Voglio il mio mare**

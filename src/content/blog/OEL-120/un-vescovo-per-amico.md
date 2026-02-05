@@ -14,8 +14,9 @@ umap_x: 10.295104026794434
 umap_y: 9.610669136047363
 umap_z: 11.859896659851074
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ormai il Cardinale Carlo Maria Martini è nella grande Gerusalemme celeste, da Lui desiderata durante la sua vita di studioso, di sacerdote della Chiesa universale, di pastore aperto al dialogo con ogni uomo e donna di buona volontà. Molte cose sono state scritte e molti ricordi sono stati espressi da persone a Lui vicine. Non sarà perciò un compito facile aggiungere qualcosa, ma lo faccio per il debito di riconoscenza per il grande dono che ho ricevuto avendo fatto parte di Fede e Luce per molti anni.
 
 **Quando nel 1982 Jean Vanier chiese a Francesco Gammarelli e a me** (all’epoca responsabili italiani di Fede e Luce) di fare dei passi per contattare il nuovo Vescovo di Milano S. Ecc. Carlo Maria Martini, mi sembrò, come spesso accadeva con le richieste di Jean Vanier, una delle sue solite richieste di “andare sulla luna”... Queste erano pressanti e necessitavano di una risposta positiva, perchè, ci disse: “le persone di Fede e Luce ne avevano estremamente bisogno”.

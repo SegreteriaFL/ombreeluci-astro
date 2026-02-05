@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-123
-id_numero: OEL-123
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
 Alcuni bambini di una scuola elementare ritirati da scuola per la presenza di un bambino autistico nella loro classe, l’avviso in una scuola privata che avverte della giornata dei disabili ed invita i genitori a tenere a casa i bambini per non farli impressionare, la nuova “dis-organizzazione” del sistema di trasporto scolastico degli alunni portatori di handicap nella capitale, una bambina con la sindrome di down in età prescolare tenuta all’oscuro di una gita scolastica.
 

@@ -12,7 +12,8 @@ umap_x: 9.038814544677734
 umap_y: 8.274807929992676
 umap_z: 13.394159317016602
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Pasqua 1971: a Lourdes si svolge il pellegrinaggio da cui nascerà *Fede e Luce* . A renderlo possibile un immenso cantiere che, in soli tre anni, portò alla partenza verso la grotta di ben dodicimila persone. Tanti, tantissimi, gli aspetti da organizzare: ricerca fondi, questioni pratiche legate a trasporto e ospitalità, animazione spirituale, assistenza medica, strategia comunicativa. Nell’ambito di quest’ultima emerse subito la necessità di individuare un logo distintivo capace di trasmettere con immediatezza il senso del pellegrinaggio e di rendere riconoscibili i partecipanti. Un logo che poi avrebbe accompagnato, in ogni occasione, Fede e Luce.
 

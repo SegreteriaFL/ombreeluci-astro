@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-43
-id_numero: OEL-43
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
 *Itinerari didattico educativi per l'insegnamento della religione cattolica nella scuola dell’obbligo, anche per alunni portatori di handicap*
 

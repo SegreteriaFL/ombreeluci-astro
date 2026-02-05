@@ -12,8 +12,9 @@ umap_x: 7.328220367431641
 umap_y: 8.800701141357422
 umap_z: 12.79210376739502
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Ivana e Matteo
 
 *Matteo Mazzarotto e Ivana Perri, della Comunità «Il Carro» si sono sposati il 2 luglio 1994, a Roma (1).*

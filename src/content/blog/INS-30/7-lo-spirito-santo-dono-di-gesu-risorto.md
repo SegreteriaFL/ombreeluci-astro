@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Maggio 1980
 
 "Se lo Spirito di Colui che ha risuscitato Gesù dai morti abita in voi, allora Colui che ha resuscitato Gesù dai morti, ridarrà la vita anche ai vostri corpi mortali per mezzo del suo Spirito che abita in voi.

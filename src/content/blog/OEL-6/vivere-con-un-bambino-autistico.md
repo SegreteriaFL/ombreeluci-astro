@@ -14,7 +14,8 @@ umap_x: 7.101994514465332
 umap_y: 10.212871551513672
 umap_z: 4.886900901794434
 issue_number: OEL-6
-id_numero: OEL-6
+id_numero: "OEL-6"
+numero_rivista: "Ombre e Luci"
 ---
 Frutto di un'esperienza di trent'anni accanto a bambini autistici nel centro creato dagli autori, questo libro ci sembra non soltanto interessante, ma utile. Questa coppia - lui medico, lei pedagogista - descrive i comportamenti autistici e attraverso questi cerca di capire e di far capire le difficoltà del bambino se non la malattia stessa (che fino ad oggi nessuno ha ancora potuto spiegare). Nel lungo capitolo dedicato alle famiglie e ai loro problemi, troviamo molti consigli pratici. Gli autori presentano con onestà i vari tipi di terapie e le diverse teorie che questo grave handicap ha suscitato. Essi però credono piuttosto a un'educazione adatta e ben impostata:
 - Insistono molto sulla necessità di un *ambiente strutturato* e di una *vita regolare* per offrire punti di riferimento indispensabili a questi bambini così facilmente sommersi dall'angoscia. - Vedono l'importanza di far *acquisire* al bambino delle conoscenze "come mezzi per attenuare sia il desiderio di immutabilità sia l'angoscia scatenata dei cambiamenti". - Da parte degli educatori richiedono un'osservazione finissima per poter scoprire i disagi dei bambini, spesso sproporzionati ai nostri occhi.

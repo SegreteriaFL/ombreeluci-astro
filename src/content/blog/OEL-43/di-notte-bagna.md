@@ -12,7 +12,8 @@ umap_x: 5.916848659515381
 umap_y: 9.589654922485352
 umap_z: 7.3115339279174805
 issue_number: OEL-43
-id_numero: OEL-43
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
 Come cercare di portare il bambino, che sia disabile oppure no, a non bagnarsi durante la notte? Questo tirocinio non può essere imposto, ma solo proposto e con misure diverse. In ogni caso è un tirocinio più difficile per chi non parla e non può mostrare ciò che ha capito. Il dott. Paul Lemoine è un pediatra padre di undici figli e autore di un bellissimo libro «Trasmettere Vamore, un'educazione all ascolto de! bambino». Qui egli ci insegna quali atteggiamenti bisogna avere di fronte a questo problema. Per gli adulti il problema è diverso e probabilmente ne riparleremo.
 È

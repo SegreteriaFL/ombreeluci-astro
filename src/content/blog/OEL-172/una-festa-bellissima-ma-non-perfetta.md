@@ -12,8 +12,9 @@ umap_x: 7.613256454467773
 umap_y: 7.62678861618042
 umap_z: 12.944735527038574
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Cari lettori, sono tornata! Il 25 maggio scorso si è tenuta la famosa Festa della Primavera: una festa molto importante per le comunità di Roma. Perché in questa festa non c'era solo la mia comunità San Gregorio, ma tutte le comunità di Roma di [Fede e Luce](http://fedeeluce.it) quindi è stata una bella festa dove le comunità si sono potute incontrare e ritrovare. **Non capita spesso di incontrarci in più comunità perché siamo tanti e non c'è uno spazio che può contenerci tutti!** Soprattutto considerando che bisogna scegliere uno spazio che sia adatto a tutte le nostre esigenze, ad esempio per chi sta in carrozzina come me.
 
 Questo è stato un incontro caloroso, tranquillo, pacifico. Il tema della festa della Primavera, che cambia ogni volta, quest'anno era la **pace** . Ma perché questa volta la pace? Perché il nostro caro Papa Leone nell'affacciarsi in Piazza San Pietro, la prima frase che disse è stata "Pace a voi", quindi ci siamo ispirati a quello che ha detto. Sì, perché Fede e Luce, lo dice la parola stessa, è un percorso integrativo per tutte le persone con disabilità nella società insieme alle nostre famiglie, ma soprattutto insieme alla Chiesa. Facciamo anche un percorso spirituale. **Però devo essere sincera, stavolta su questo aspetto la festa non è stata organizzata bene** , perché per quante persone eravamo (davvero tante) avevamo un solo sacerdote. E un solo sacerdote non può fare tutto da solo e c'è stata la grossa difficoltà di dare a tutti la comunione.

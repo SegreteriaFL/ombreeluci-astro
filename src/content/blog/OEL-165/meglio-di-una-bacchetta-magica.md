@@ -12,7 +12,8 @@ umap_x: 7.888542652130127
 umap_y: 8.42994213104248
 umap_z: 7.878274917602539
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 Uscire di casa è **un atto che costa molta fatica a una persona con disabilità** perché bisogna pensare a molte cose: le barriere architettoniche e sensoriali, la presenza di parcheggi e servizi, chi ci può accompagnare ma soprattutto essere pronti ad affrontare eventuali pregiudizi.
 

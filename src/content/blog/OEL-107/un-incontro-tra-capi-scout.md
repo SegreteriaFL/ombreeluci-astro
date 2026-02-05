@@ -14,7 +14,8 @@ umap_x: 9.097576141357422
 umap_y: 7.547259330749512
 umap_z: 10.308460235595703
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 L’anno scorso, a settembre, una mamma mi ha chiesto di far entrare nel gruppo scout la figlia, Giulia, di 12 anni (con problemi di tipo intellettivo e comportamentale). Ho incontrato Giulia e i suoi genitori ma ho valutato di non poterla inserire subito nelle attività perché i nostri capi sono pochi e molto giovani e ho proposto di poter conoscere meglio Giulia nel corso dell’anno, magari attraverso l’inserimento in un gruppo di Fede e Luce. Ciò non è stato possibile e i rapporti con la famiglia si sono interrotti. Questo fatto mi è dispiaciuto molto e così ho deciso di approfondire il discorso degli inserimenti “difficili” nel mondo scout attraverso la stampa associativa e l’esperienza di altri capi.
 

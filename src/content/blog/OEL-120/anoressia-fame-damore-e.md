@@ -12,8 +12,9 @@ umap_x: 7.848336696624756
 umap_y: 11.47523307800293
 umap_z: 5.340610027313232
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 Leggera come farfalla è il titolo dell’ultimo libro della filosofa Michela Marzano ( [vedi la recensione](https://www.ombreeluci.it/2012/volevo-essere-una-farfalla-recensione/) ). Si riferisce al peso piuma che l’autrice ha raggiunto quando si ammalò di anoressia o alla vera liberazione che ha conosciuto dopo la guarigione? Con l’articolo che segue ritorna sulla sua esperienza.
 
 **Pensavo che non ne avrei mai parlato. Era il mio segreto.** E non avevo nessuna intenzione di permettere a chiunque di avere accesso alle mie fragilità e alle mie mancanze. Poi poco a poco mi è venuta voglia di raccontare la mia storia. Perché l’anoressia non è qualcosa di cui vergognarsi. Non è un’infamia, non è una malattia come le altre.

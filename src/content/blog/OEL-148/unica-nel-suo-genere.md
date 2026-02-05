@@ -12,7 +12,8 @@ umap_x: 6.809919834136963
 umap_y: 8.583218574523926
 umap_z: 8.332249641418457
 issue_number: OEL-148
-id_numero: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
 «Enza all’anagrafe e questo è già un programma! Mi ritengo infatti un suffisso… mi ritrovo in tante parole: provvid-enza, suffici-enza, val-enza…! Ho 54 anni e sono professoressa al triennio di un liceo scientifico di matematica e fisica, discipline che amo e che mi sono servite spesso per vivere meglio».
 

@@ -17,14 +17,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
 archive_id: OmbreELuci_002
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 periodo_label: Aprile, Maggio, Giugno
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 umap_x: 6.887485980987549
 umap_y: 10.188105583190918
 umap_z: 6.361757755279541
+id_numero: "OEL-2"
 ---
-
 “
 *Intelligences Captives*
 ” è stato scritto per far conoscere i bambini colpiti da

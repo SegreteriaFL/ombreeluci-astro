@@ -14,7 +14,8 @@ umap_x: 7.143648147583008
 umap_y: 8.889579772949219
 umap_z: 12.710270881652832
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 «Fede e Luce è la nostra storia, la nostra vita, la nostra casa, alla quale abbiamo cercato di aggiungere, tramite il Carro, un tetto reale per la vita di ogni giorno. Ci auguriamo che questo inaspettato riconoscimento possa rappresentare per tutta Fede e Luce un incoraggiamento per l’impegno di fedeltà e responsabilità che ognuno di noi si sforza di vivere tra mille difficoltà nel proprio quotidiano». È davvero un grande incoraggiamento quello del presidente Mattarella **che [ha insignito](https://www.ombreeluci.it/2021/intervista-a-matteo-mazzarotto-e-ivana-perri/) della carica di Ufficiali al merito della Repubblica Matteo Mazzarotto e Ivana Perri** «per la loro dedizione all’inclusione e al sostegno per il dopo di noi delle persone con gravi disabilità cognitive-sensoriali» nella casa famiglia Il Carro. Un incoraggiamento che ci rammenta che i frutti della fedeltà, della responsabilità e soprattutto dell’amicizia vissuti a Fede e Luce rappresentano **una storia da custodire e raccontare** .
 

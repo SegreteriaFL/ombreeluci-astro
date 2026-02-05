@@ -12,8 +12,9 @@ umap_x: 5.688857555389404
 umap_y: 5.962893962860107
 umap_z: 12.305058479309082
 issue_number: OEL-116
+id_numero: "OEL-116"
+numero_rivista: "Ombre e Luci"
 ---
-
 “Natale, tempo di regali” orribile frase sfruttata o per motivi consumistici. In questo tempo di crisi particolarmente fuoriposto per moltissimi di noi. Eppure io, modestamente, alcuni regali vorrei davvero farli, regali speciali che non costano soldi ma certo fatica e impegno.
 
 Per esempio: Vorrei trovare **la frase giusta** che cancelli una volta per tutte e definitivamente, quell’antico inutile rancore che si trascina da anni tra me e... quella persona, rancore che non riusciamo a superare... e che fa male ad entrambi.

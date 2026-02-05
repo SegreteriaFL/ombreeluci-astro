@@ -12,8 +12,9 @@ umap_x: 6.393256187438965
 umap_y: 9.432426452636719
 umap_z: 8.230539321899414
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 ### **Li lasciamo parlare?**
 
 Troppo spesso, anche quando "lui" non è più un bambino, parliamo al suo posto. Troppo spesso, parliamo di "lui", anche in sua presenza, alla terza persona. Troppo spesso, il nostro "parla, ma parla insomma!" non fa che accentuare la sua angoscia di non essere capace di tenere il nostro ritmo. Troppo spesso ci esortiamo parlare e parlare di "lui" e di quanto lo riguarda, tagliando, soffocando, impedendo finché la parola che "lui" ha sulle labbra, possa fiorire.

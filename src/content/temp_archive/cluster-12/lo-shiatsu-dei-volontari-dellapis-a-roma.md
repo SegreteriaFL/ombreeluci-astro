@@ -6,6 +6,7 @@ theme: "cluster-12"
 cluster_id: 12
 slug: "lo-shiatsu-dei-volontari-dellapis-a-roma"
 has_comments: false
+id_numero: "OEL-85"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

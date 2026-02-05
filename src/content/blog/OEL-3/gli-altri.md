@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_003/Ombre-e-Luci-n.3.pdf"
 archive_id: OmbreELuci_003
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-707x1024.jpeg"
 periodo_label: Luglio – Agosto
-numero_rivista: 3
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-3
 umap_x: 5.377776145935059
 umap_y: 8.837091445922852
 umap_z: 7.777515411376953
+id_numero: "OEL-3"
 ---
-
 Fra le molte difficoltà quotidiane, ritorna spesso quella dell’atteggiamento degli “altri” verso i genitori di figli handicappati e dell’atteggiamento dei genitori di figli handicappati verso gli “altri”. Tre problemi sembrano ripresentarsi, soprattutto in vacanza, quando si è costretti ad incontrare persone nuove.
 ***"Cosa possiamo fare quando gli “altri”, incontrandoci, non sanno che cosa dire vedendo nostro figlio?"***
 **Proviamo a metterci al loro posto.**

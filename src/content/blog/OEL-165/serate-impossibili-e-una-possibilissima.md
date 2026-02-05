@@ -12,7 +12,8 @@ umap_x: 6.925381183624268
 umap_y: 6.183960914611816
 umap_z: 9.787322998046875
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 Non so che titolo avrà questo mio articolo *Le serate di Caterina* ? *Serate impossibili* ? Mi viene chiesto «Cosa fa Caterina la sera?». Cosa fanno i ragazzi a 22 anni di solito? Escono la sera con i loro amici o amiche, i fidanzati/e, vanno a farsi un aperitivo, un gelato, una pizza, vanno al cinema, o a ballare, vanno alle feste.
 

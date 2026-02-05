@@ -12,8 +12,9 @@ umap_x: 6.412006855010986
 umap_y: 8.207918167114258
 umap_z: 12.174362182617188
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 ### Incontro inatteso
 
 Se oggi sono amico di Fede e Luci è grazie alla conoscenza fortuita con Padre Roberti al Santuario di Banneux (Belgio) questa estate.

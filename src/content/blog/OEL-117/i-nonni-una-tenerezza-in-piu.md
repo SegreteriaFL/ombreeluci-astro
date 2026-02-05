@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 Sono tutte storie positive quelle presentate nel dossier: nipoti, tutti con sindrome Down, quasi sempre di facile accoglienza, di non difficile accompagnamento.
 

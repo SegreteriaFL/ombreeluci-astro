@@ -12,7 +12,8 @@ umap_x: 8.33846378326416
 umap_y: 5.88838005065918
 umap_z: 9.544354438781738
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 La sera prima della partita si dorme poco, soprattutto se si gioca di mattina: adrenalina? Ansia? Fretta? Allora ci si sveglia presto, in un orario che assomiglia a quello utile per andare in aeroporto per il primo volo di giornata. E questa giornata sarà proprio come un viaggio, un incontro con persone amiche e persone sconosciute, tutti un po’ sognatori impegnati nella seconda partita di campionato di baskin Puglia Molise per la nostra squadra, i *Delfini Baskin* di Monopoli.
 

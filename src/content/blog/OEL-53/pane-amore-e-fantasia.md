@@ -4,8 +4,8 @@ date: 1996-03-04
 author: Redazione
 slug: pane-amore-e-fantasia
 lang: it
-numero_rivista: 53
-id_numero: OEL-53
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-53"
 issue_number: OEL-53
 wp_id: 10515
 original_url: "https://www.ombreeluci.it/?p=10515"
@@ -15,7 +15,6 @@ umap_x: 7.6860761642456055
 umap_y: 7.977530479431152
 umap_z: 7.987068176269531
 ---
-
 L’integrazione nel lavoro è difficile. Richiede incentivo, pazienza, attenzione, di solito scarse negli enti pubblici «obbligati» ad assumere disabili: perciò i rapporti di lavoro che ne vengono sono ben poco dignitosi: un salario «regalato» in cambio di qualche saltuaria insignificante faccenda senza nessun tentativo di sviluppo e di impiegare le capacità della persona disabile. Perciò ci si sente emozionati quando si trova qualche esperienza di «vero» lavoro integrato, come questa, trovata per caso, a Roma. Passeggiando per il centro, infreddoliti e affamati, l’altra sera ci siamo rifugiati in un locale dal nome curioso vicino a piazza Santa Maria in Trastevere; l’interno, piccolo ma accogliente, non sembrava diverso da quello di molti altri pub della zona, ma l’atmosfera familiare che abbiamo notato appena entrati ci ha colpito. Mentre mangiavamo abbiamo scambiato due chiacchiere con Giuseppe, uno dei gestori del pub, che ci ha spiegato come è nato il locale: l’esigenza di risolvere il problema dei ragazzi con handicap ha spinto il parroco e alcuni membri della
 **comunità di sant Egidio**
 a sviluppare questo tipo di progetto. Dopo qualche comprensibile difficoltà iniziale, il risultato di quattro anni di lavoro (da parte di tutti), si è rivelato più che positivo; tanto che — come ci dice Giuseppe — già pensano a come ingrandire il locale. I quattro ragazzi che lavorano nel locale sono tutti disabili psichici e ognuno di loro svolge una mansione particolare:

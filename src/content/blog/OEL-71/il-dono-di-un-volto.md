@@ -12,7 +12,8 @@ umap_x: 8.96087646484375
 umap_y: 9.309358596801758
 umap_z: 10.587651252746582
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 «In occasione della Pasqua, abbiamo vissuto un momento di “Catechesi espressiva”. Attraverso gli occhi del Cireneo, abbiamo preso coscienza della strada che ci porta a scoprire chi siamo. Il Cireneo è un uomo come tanti altri, con una vita come tante altre alla quale tuttavia, manca qualcosa... Il Cireneo diventa un uomo diverso per un incontro non cercato al quale non può sottrarsi e la sua vita è resa bella da Chi può dare un senso a tutto. Il recital ha visto impegnati ospiti, educatori, operatori, volontari, frati».
 **Questa esperienza condotta da Barbara Migliavacca e P. Marco Fineo dellistituto “La Sacra Famiglia” di Cesano Boscone vuole ricordare l’importanza della CATECHESI ESPRESSIVA.**

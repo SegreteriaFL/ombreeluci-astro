@@ -18,8 +18,9 @@ umap_x: 4.69700813293457
 umap_y: 8.801715850830078
 umap_z: 7.766767978668213
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 I
 had walked from Salerno to Rome on foot and thought I had done the most I possibly could. But then one of the young men who works with me told me about the Camino de Santiago, and I realized this was something entirely different: despite having walked 276 km to reach Rome, it was nothing compared to the path that leads to Santiago de Compostela—whether from the last village in the Pyrenees or from the southern tip of Portugal.
 **I started walking because I have a child with autism**

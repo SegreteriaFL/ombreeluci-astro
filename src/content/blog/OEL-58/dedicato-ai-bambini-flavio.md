@@ -4,8 +4,8 @@ date: 1997-06-12
 author: Pennablù
 slug: dedicato-ai-bambini-flavio
 lang: it
-numero_rivista: 58
-id_numero: OEL-58
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-58"
 issue_number: OEL-58
 wp_id: 11530
 original_url: "https://www.ombreeluci.it/?p=11530"
@@ -15,7 +15,6 @@ umap_x: 5.142617702484131
 umap_y: 8.047637939453125
 umap_z: 8.696188926696777
 ---
-
 Queste quattro pagine sono bambini, piccoli e anche grandicelli, perché comincino a riflettere come possono su problemi e situazioni forse già presenti nella loro realtà. Sarebbe bello se queste piccole storie (facilmente staccabili) fossero magari lette anche a scuola con la maestra, nel gruppo di catechismo o in altre associazioni, sotto la guida di un adulto, perché tanti piccoli amici riflettano senza annoiarsi sul significato e sul valore della integrazione.
 
 Oggi in quarta B si lavora in gruppo. Il materiale per la ricerca è stato raccolto nel corso degli ultimi due mesi e oggi ogni gruppo comporrà alcune pagine complete di foto, illustrazioni, brevi testi che, uniti, formeranno il lavoro collettivo. C’è grande eccitazione mentre cinque ragazzi, indicati dall'insegnante, scelgono i compagni. I ragazzi scelti via via si avvicinano al capogruppo. — Vedremo se con questo sistema lavorerete meglio! — aveva detto l’insegnante cedendo alle richieste dei ragazzi. E le cose sembrano andare bene. Non ci sono lamentele o rifiuti mentre il gruppo dei ragazzi «da scegliere» si assottiglia sempre più. Ecco, ancora otto; ora sono solo quattro. Ma chi rimane per ultimo?

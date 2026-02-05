@@ -12,8 +12,9 @@ umap_x: 6.338259220123291
 umap_y: 7.779288291931152
 umap_z: 12.111212730407715
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 **Dall'italia**
 
 ### **Da Roma -** *Gruppo "Ascensione"*

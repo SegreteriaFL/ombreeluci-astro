@@ -14,8 +14,9 @@ umap_x: 9.0512113571167
 umap_y: 8.110943794250488
 umap_z: 13.020196914672852
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Eccezionale udienza in S. Pietro
 
 ***da "L'Avvenire" del 27 ottobre 1975***

@@ -12,7 +12,8 @@ umap_x: 7.569430351257324
 umap_y: 9.280770301818848
 umap_z: 8.800347328186035
 issue_number: OEL-119
-id_numero: OEL-119
+id_numero: "OEL-119"
+numero_rivista: "Ombre e Luci"
 ---
 Perché mettere vicine due entità così lontane, perché parlare di “bello” mentre parliamo di handicap fisico, mentale, psichico? **È un pensiero che mi tormenta da tanto tempo: da quando sono rimasta allibita al racconto di un’amica** che, già anziana, mi parlava di un episodio accadutole quando era solo una bambina. Faceva parte di una numerosa famiglia, tanti fratelli e sorelle, che nell’occasione del Natale si mettevano tutti lindi e lustri in posa per la fotografia dell’anno. Quell’anno però, al momento della foto, il suo papà le disse:” Tu, Erminia, vai in camera tua!” esclusa tout-court, senza spiegazioni.
 

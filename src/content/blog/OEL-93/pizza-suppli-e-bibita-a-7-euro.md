@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "pizza-suppli-e-bibita-a-7-euro"
 lang: it
-numero_rivista: 93
-id_numero: OEL-93
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-93"
 issue_number: OEL-93
 wp_id: 31484
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 ---
-
 È una giornata piovosa e fredda. Chiusi gli ombrelli, ci infiliamo in fretta urtandoci nella pizzeria davvero modesta ma poco cara e quindi adatta alle tasche di tutti i componenti del gruppo: anziani genitori, i loro figli disabili e un bel gruppetto di amici esuberanti e chiassosi come al solito.
 
 La “pizzata” è sempre un simpatico momento d'incontro, per ritrovarci, darci notizie, abboffarci e semplicemente stare un po’ insieme al calore di un'amicizia ormai più che decennale.

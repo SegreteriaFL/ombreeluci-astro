@@ -12,8 +12,9 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 È del 10 aprile il sopralluogo del vicesindaco di Riccione**Laura Galli** all’ex mattatoio comunale. L’obiettivo per lo spazio in disuso è di realizzare un **centro di socialità per il sostegno e l’aiuto alle persone con varie disabilità e alle loro famiglie.** *“Un progetto – *spiega la Galli *– che sarà aperto ad accogliere ed offrire supporto anche ad altre forme di disagio, in sinergia con associazioni o enti con esperienza nel settore”.*
 
 Si tratta di un edificio in via Bergamo, nel quartiere San Lorenzo, di 2.200 metri quadrati su un’area di oltre 6mila metri quadri. La chiusura totale della struttura risale al 2005. È un luogo servito da parcheggi di facile accesso, è vicino ai principali assi viari di collegamento della città e si inserisce in un quartiere supportato da altre strutture pubbliche, oltre ad essere vicino al polo scolastico di via Bergamo e ad un campo sportivo.

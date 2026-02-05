@@ -18,8 +18,9 @@ umap_x: 7.601924896240234
 umap_y: 9.009496688842773
 umap_z: 14.003335952758789
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Incontro comunità F.L. d’Italia
 
 *Lucia Bertolini nuova responsabile, P. Giuseppe Serighelli nuovo assistente*

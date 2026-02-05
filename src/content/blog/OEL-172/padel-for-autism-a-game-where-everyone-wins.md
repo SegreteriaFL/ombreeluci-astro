@@ -18,8 +18,9 @@ umap_x: 8.844929695129395
 umap_y: 5.225048065185547
 umap_z: 9.031917572021484
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 O
 n June 14–15, the Jubilee of Sport will be celebrated. What better time to conclude the
 *Padel Autism Tour*

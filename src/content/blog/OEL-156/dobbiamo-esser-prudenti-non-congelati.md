@@ -12,8 +12,9 @@ umap_x: 6.221150875091553
 umap_y: 6.442688941955566
 umap_z: 8.99365234375
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Siamo ancora tutti un po’ preoccupati, le cose non sembrano andare bene, lavoriamo tra disinformazione e drammi e, in tutto questo, le persone con disabilità sono abbastanza *non pensate* : bisogna riconoscere che sono state brave, pur pagando un alto prezzo». La preoccupazione che esprime don Luigi d’Errico risponde a una vocazione verso i più fragili che abbiamo avuto la gioia di vedere all'opera. Tante le attese che ha saputo riconoscere, incontrare e non lasciare sole, insieme alla sua parrocchia: una piccola realtà dalle grandi prospettive, un esempio da seguire. Per questo – [insieme ad altre 36 persone](https://www.quirinale.it/elementi/51460) che si sono come lui distinte per l’impegno civile quotidiano, la dedizione al bene comune e la testimonianza dei valori repubblicani – il presidente Mattarella lo ha appena insignito Commendatore dell’Ordine al Merito Civile della Repubblica italiana «per il suo quotidiano impegno a favore di una politica di reale inclusione delle persone con disabilità e per il contrasto alla povertà e marginalità sociale».
 
 Don Luigi d’Errico, 58 anni, dal 2007 è parroco della chiesa dei Santi Martiri d’Uganda nel quartiere Ardeatino di Roma, dove da tempo è stata avviata un’esperienza esemplare di catechesi per e con le persone con disabilità. Arrivato nella capitale dopo diversi anni in Svizzera, nel 2013 don Luigi raccontava a Ombre e Luci del suo impegno nel cercare *tutti* : «Gesù dice che dove c’è il povero c’è Dio. Non posso non andare a cercarlo e non impegnarmi per raggiungerlo… Se l’invito non fosse per tutti non saremmo più chiesa cattolica, davvero universale. Poi ognuno sarà libero di accettare o no».

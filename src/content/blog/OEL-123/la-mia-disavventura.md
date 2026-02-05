@@ -14,7 +14,8 @@ umap_x: 6.858819484710693
 umap_y: 7.38117790222168
 umap_z: 7.3495869636535645
 issue_number: OEL-123
-id_numero: OEL-123
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
 Michiamo Arianna, sono una ragazza disabile, affetta da tetraplegia spastico-distonica, ho 21 anni. Ho finito da poco il liceo pedagogico, ora frequento l’università. Vorrei raccontare la mia “avventura” scolastica, perché per noi ragazzi ormai andare a scuola è un’avventura, soprattutto per noi disabili.
 

@@ -12,6 +12,7 @@ umap_x: 8.124579429626465
 umap_y: 6.9860711097717285
 umap_z: 11.880420684814453
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 Dai campi di Fede e Luce di questa estate, accanto alle foto delle tavolate e dei pomeriggi in cerchio tutti insieme, ci sono arrivate anche foto dei giochi che abbiamo proposto nello scorso numero. E guardate quante belle copertine uniche!

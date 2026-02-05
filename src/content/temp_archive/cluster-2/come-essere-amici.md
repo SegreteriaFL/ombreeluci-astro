@@ -7,6 +7,7 @@ cluster_id: 2
 image: "http://www.ombreeluci.it/wp-content/uploads/2018/06/oel038-022.jpg"
 slug: "come-essere-amici"
 has_comments: false
+id_numero: "OEL-38"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

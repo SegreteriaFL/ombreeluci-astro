@@ -4,8 +4,8 @@ date: 1999-12-17
 author: Redazione
 slug: cecilia-vuole-una-casa
 lang: it
-numero_rivista: 68
-id_numero: OEL-68
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-68"
 issue_number: OEL-68
 wp_id: 13042
 original_url: "https://www.ombreeluci.it/?p=13042"
@@ -17,7 +17,6 @@ umap_x: 6.743271827697754
 umap_y: 8.182723999023438
 umap_z: 9.214021682739258
 ---
-
 P
 rovo un sentimento di sottile disperazione in questo periodo nei confronti di mia nipote Cecilia. Giorni fa ho parlato con l'assistente sociale che da circa sette anni si occupa di lei e cerca di aiutarla. Ho saputo che Cecilia, che vorrebbe avere un’attività fuori di casa, ha rifiutato sistematicamente ogni sua proposta e che l'unica che ha accettato è stato un lavoro di aiuto presso un maneggio: purtroppo questa iniziativa, che si trascinava da più di sei mesi, non ha ancora potuto essere attuata per ragioni burocratiche e probabilmente non lo sarà nel futuro. Cecilia ha ormai 34 anni, ha un lieve ritardo mentale e numerosi problemi di comportamento che, fra l'altro, si manifestano anche con violenza nell attacca- mento-rifiuto per la propria famiglia. Non ha un'attività precisa, fa qualche lavoretto in casa, passa ore e ore a guardare la televisione, a scrivere le sue riflessioni, a farne il riassunto e a dividerne le varie parti in argomenti e categorie. Parla molto di sé e dei propri problemi sia in famiglia che con chiunque le presti ascolto. Anche per la strada. Una lunga psico- terapia di sostegno l'ha aiutata a conoscere un poco i suoi limiti e capacità. Ieri, parlando con lei, ho di nuovo sentito quel senso di sottile e nascosta disperazione, che è anche esasperazione e scoraggiamento. Cecilia mi raccontava che un mese fa, alla stazione, aveva conosciuto un uomo e che lo aveva rivisto nel suo quartiere, sempre solo, ai giardinetti. Egli parlava male l'italiano, le aveva detto che faceva rimbianchino e aveva dimostrato simpatia verso di lei. Cecilia pensava di esserne innamorata. Le ho detto tutto quello che una zia, un'amica. può dire in questi casi; le ho ricordato anche alcuni episodi drammatici della sua vita che erano incominciati proprio in questo modo.
 > Sorrideva nel rispondermi, era un sorriso amaro ma, innocente

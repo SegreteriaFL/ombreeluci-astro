@@ -12,7 +12,8 @@ umap_x: 7.803623676300049
 umap_y: 9.000581741333008
 umap_z: 10.6242094039917
 issue_number: OEL-163
-id_numero: OEL-163
+id_numero: "OEL-163"
+numero_rivista: "Ombre e Luci"
 ---
 D
 al novembre 2015 sono parroco a San Rocco e a Madonna Bianca nella periferia di Trento. All’epoca Gabriele aveva poco più di 7 anni: era piccolo, velocissimo… ogni porta aperta, ogni varco aveva il solo scopo di essere attraversato senza nessun controllo. All’inizio il contatto con lui era limitato alle volte in cui Giada, la sorella maggiore, partecipava alle attività parrocchiali e alla messa domenicale dal primo banco, con la famiglia.

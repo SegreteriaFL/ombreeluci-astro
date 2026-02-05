@@ -4,8 +4,8 @@ date: 2004-03-10
 author: Silvia Gusmano
 slug: una-messa-poco-dignitosa
 lang: it
-numero_rivista: 85
-id_numero: OEL-85
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-85"
 issue_number: OEL-85
 wp_id: 30054
 original_url: "https://www.ombreeluci.it/?p=30054"
@@ -15,7 +15,6 @@ umap_x: 8.895428657531738
 umap_y: 10.13352108001709
 umap_z: 9.072062492370605
 ---
-
 Spesso, dall'altare, sguardi irritati, imbarazzati, compassionevoli si sono posati su di noi, rivelando l’umana incapacità di accogliere chi è diverso da sé. Molti sacerdoti sono stati messi in crisi dalla mia comunità, dagli amici che anche durante la messa parlano, camminano, saltano. Nessuno però ha avuto la reazione di don Carlo.
 
 Don Carlo celebra la funzione delle 12 in una parrocchia un po’ fuori Arcinazzo, accanto al convento che ci ha ospitati durante il ponte dell’Immacolata. La domenica che abbiamo preso posto tra i banchi della sua chiesa eravamo tutti stranamente calmi: le ore piccole la sera precedente e il gran freddo (attendevamo la neve) ci toglievano ogni energia. **L’unico a essere irrequieto, o meglio eccitato, era Massimiliano** . Non capita spesso a tredici anni di trascorrere un weekend fuori, senza genitori, con amici più grandi. La sua voce e le sue risate rimbombavano. Si sentivano i suoi “basta messa”, “niente mamma”, “e poi?” ancor prima dell'ingresso del parroco e l’occhiataccia che questi gli ha lanciato mentre faceva il segno della croce non poteva certo calmarlo. **Da subito è stato chiaro che Massimiliano non avrebbe fatto il faticoso tentativo di controllarsi** .

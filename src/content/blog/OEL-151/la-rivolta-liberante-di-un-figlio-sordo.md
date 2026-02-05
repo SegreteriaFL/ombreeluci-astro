@@ -12,7 +12,8 @@ umap_x: 7.534293174743652
 umap_y: 10.63824462890625
 umap_z: 4.789666652679443
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 Non un linguaggio ma una vera e propria lingua, quella dei segni: dotata di una sua sintassi, di una propria grammatica, in grado di veicolare significati. Stupisce a volte scoprire che paesi diversi abbiano lingue dei segni differenti… ma è quel che capita proprio alle vere lingue, di modificarsi in base ai luoghi in cui si vive. Eppure la Lingua dei segni ha una storia difficile: strumento essenziale e istintivo tra persone sorde eppure spesso osteggiata da chi, guarda caso, sordo non è. Un po’ per il timore di esserne esclusi o, al contrario, con la pretesa di non includere sufficientemente. Ma rinunciarvi, anzi ostacolarla apertamente per quest’ultimo motivo, ha significato rendere inaccessibile per decenni una libertà espressiva essenziale. Lasciando così la persona sorda senza mezzi naturali per esprimersi.
 

@@ -14,8 +14,9 @@ umap_x: 8.28833293914795
 umap_y: 8.265013694763184
 umap_z: 7.934281349182129
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 M
 ossi dalla generale preoccupazione sul futuro delle persone disabili, presentiamo un documento elaborato da un équipe di educatori. Questa équipe ha lavorato per 25 anni a creare e promuovere servizi per le persone disabili. Tale esperienza ha portato a una profonda conoscenza e sensibilità nei confronti della famiglia e delle necessità individuali di persone con handicap. Sulla base di questa esperienza, l’équipe professionale dà consigli competenti e aiuto pratico. Questa équipe CREAT (
 *Comunità Rehabilitation Education and Therapy*

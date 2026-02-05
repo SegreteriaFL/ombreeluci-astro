@@ -14,7 +14,8 @@ umap_x: 4.2777628898620605
 umap_y: 7.735939979553223
 umap_z: 10.282094955444336
 issue_number: OEL-36
-id_numero: OEL-36
+id_numero: "OEL-36"
+numero_rivista: "Ombre e Luci"
 ---
 ### La gente ha paura della sofferenza
 

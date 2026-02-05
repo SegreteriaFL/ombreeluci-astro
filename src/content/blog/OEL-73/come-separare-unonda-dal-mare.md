@@ -16,7 +16,8 @@ umap_x: 6.5694732666015625
 umap_y: 8.8825044631958
 umap_z: 12.302199363708496
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 Fedeltà, responsabilità, gratuità. Soprattutto in queste tre parole si può racchiudere secondo me il senso più prezioso della mia amicizia con le persone disabili. Un’amicizia cominciata ormai diversi anni fa (22) con l’arrivo di Fede e Luce nella mia vita, proseguita per tanti anni e rimasta anche oggi, presente nella mia vita di famiglia e di lavoro, anche se non frequento più Fede e Luce.
 

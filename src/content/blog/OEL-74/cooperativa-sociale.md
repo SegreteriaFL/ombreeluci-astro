@@ -15,7 +15,8 @@ umap_x: 8.33386516571045
 umap_y: 7.144555568695068
 umap_z: 8.447278022766113
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 **Avviso** Questo articolo è stato scritto nel 2001. Le informazioni in esso contenute potrebbero essere anacronistiche o non più valide. (n.d.r.)
 

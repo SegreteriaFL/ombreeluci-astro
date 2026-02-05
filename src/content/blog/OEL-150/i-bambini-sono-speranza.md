@@ -12,7 +12,8 @@ umap_x: 8.781537055969238
 umap_y: 9.319079399108887
 umap_z: 10.822989463806152
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 «Balla ed esprimi l’allegria che c’è nel tuo cuore. Balla adesso che sei un bambino, così non sarai troppo serio quando diventerai grande». Papa Francesco ama rivolgersi ai bambini, parlare con loro, ascoltarli, osservarli mentre davanti a lui si comportano con una libertà e una naturalezza che pochi adulti si sognerebbero di avere. Ed è a tutti gli effetti un regalo ai piccoli quello che Bergoglio ha fatto dedicando loro il libro *I bambini sono speranza* , un invito colorato e molto efficace alla condivisione e alla pace. Attraverso frasi semplici – raccolte da padre Antonio Spadaro, direttore de *La Civiltà Cattolica* – il Papa invita i bambini a essere generosi, a non aver paura di piangere, a fare del bene, a sorridere, fare squadra e sprigionare allegria. Un messaggio che diventa di accoglienza vera verso i piccoli anche grazie ai disegni di Sheree Boyd, illustratrice newyorkese nata in Italia: i bambini che popolano il volume del Papa sono di ogni razza, colore, tradizione, religione e abilità. Ecco, che in un libro come questo vi sia spazio anche per un bambino con disabilità, dà al messaggio di Francesco forza concreta. E apre le porte alla speranza.
 

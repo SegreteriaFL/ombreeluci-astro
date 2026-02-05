@@ -4,8 +4,8 @@ date: 2004-03-09
 author: Anna Aluffi Pentini
 slug: come-possiamo-accompagnare-piccole-e-grandi-crisi
 lang: it
-numero_rivista: 85
-id_numero: OEL-85
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-85"
 issue_number: OEL-85
 wp_id: 30028
 original_url: "https://www.ombreeluci.it/?p=30028"
@@ -15,7 +15,6 @@ umap_x: 7.13709831237793
 umap_y: 10.595341682434082
 umap_z: 6.871705055236816
 ---
-
 Quando parliamo di momenti di crisi nella vita di una persona pensiamo a degli eventi dolorosi o a dei periodi di fatica dovuti ad un problema particolare. Generalmente la persona in crisi è consapevole di non star bene e, se non sta troppo male, riesce a chiedere aiuto o almeno manifesta disagio e si lascia di buon grado aiutare. Eppure parliamo di crisi anche come tappe naturali, quasi fisiologiche, di rottura di uno stato di equilibrio consolidato: così il bambino è in crisi per la nascita di un fratellino, non è più solo, non è più il piccolo di casa; così l'adolescente non si riconosce davanti allo specchio e negli sguardi altrui e noi sorridiamo, quasi tranquillizati dal fatto che sia sopraggiunto un ingrato ma necessario periodo di crisi.
 
 Di fronte ad una persona alla quale vogliamo bene e che vediamo soffrire oscilliamo solitamente tra il desiderio di evitarle una crisi e la speranza che questa crisi porti ad una crescita e ad una maturazione. **Accompagnare la persona in crisi è tutto ciò che possiamo fare, starle vicino, sostenerla sapendo che non possiamo sostituirci a lei e che non possiamo definitivamente accollarci il suo dolore** . L'adulto maturo che sta vicino a chi soffre è chi si prende la responsabilità di stare accanto, senza cedere al desiderio di onnipotenza di accollarsi tutto il disagio altrui, di sostituirsi a chi é in crisi.

@@ -1,15 +1,41 @@
 ---
 id: "OEL-53"
-title: "Ombre e Luci N. 53 - Le nostre mani unite dai più piccoli"
+title: "Ombre e Luci N. 53 – Le nostre mani unite dai più piccoli"
 tipo: "ombre-e-luci"
 numero: 53
-anno: "1996"
+sort_order: 152
+pubDate: "1996-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1996"
 sommario: "Ombre E Luci N. 53 – Le nostre mani unite dai più piccoli ultima modifica: 1996-03-01T11:54:33+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_53_1996.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_53"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-53-le-nostre-mani-unite-dai-piu-piccoli/"
+articoli:
+  - "ai-genitori-e-agli-amici"
+  - "lo-sconforto-emotivo-esige-comprensione"
+  - "ce-un-problema-col-tuo-bambino"
+  - "pane-amore-e-fantasia"
+  - "comunita-alloggio-per-persone-con-handicap-intellettivo"
+  - "comunita-famiglia-di-endine"
+  - "i-fornelli-di-marta-e-matteo"
+  - "dialogo-aperto-n-53"
+  - "vita-fede-luce-53"
+  - "il-mio-nome-e-trappola-la-favola-di-anna"
+  - "oltre-lhandicap-esperienze-e-proposte-a-contatto-con-bambini-autistici-down-cerebrolesi-ipoacusici"
+  - "cambiare-il-cuore"
+  - "ai-genitori-e-agli-amici"
+  - "lo-sconforto-emotivo-esige-comprensione"
+  - "ce-un-problema-col-tuo-bambino"
+  - "pane-amore-e-fantasia"
+  - "comunita-alloggio-per-persone-con-handicap-intellettivo"
+  - "comunita-famiglia-di-endine"
+  - "dialogo-aperto-n-53"
+  - "i-fornelli-di-marta-e-matteo"
+  - "cambiare-il-cuore"
+  - "oltre-lhandicap-esperienze-e-proposte-a-contatto-con-bambini-autistici-down-cerebrolesi-ipoacusici"
+  - "il-mio-nome-e-trappola-la-favola-di-anna"
+  - "vita-fede-luce-53"
 ---
 
 ## Indice

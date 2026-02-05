@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "ogni-uomo-e-una-storia-sacra"
 lang: it
-numero_rivista: 56
-id_numero: OEL-56
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-56"
 issue_number: OEL-56
 wp_id: 11074
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 Vorremmo che tanti leggessero questo nuovo libro di Jean Vanier. Vorremmo che fosse letto dai medici, dagli assistenti sociali, dagli educatori e da tutti coloro che lavorano nel sociale. Vorremmo che fosse letto nelle comunità e nelle famiglie, nella solitudine della «pròpria cameretta» dove il Vangelo ci invita a rientrare per pregare e meditare, e nel cerchio di alcuni amici fidati, al momento della riflessione, dello scoraggiamento e della ripresa.
 Henri Bissonier definisce questo libro un compendio di antropologia cristiana. Jean Vanier pone sulla persona umana il suo sguardo carico di esperienza e di comprensione, ne delinea le fasi della vita e della crescita (psicologica e spirituale) le ferite e le difficoltà. Questa persona vive e cresce in un ambiente specifico, in mezzo agli altri, e non può essere felice indipendentemente da loro. Di qui il rilievo dato all'ambiente in cui si forma il bambino e l'importanza per tutti dell'appartenere a una terra, a un paese, a una famiglia, a una comunità. La comunità non è solo quella che uno ha scelto per realizzare il proprio ideale, ma può essere quella dove si vive o, dove si lavora o dove sono i propri affetti e le proprie radici. «La famiglia e la comunità sono i luoghi previlegiati in cui ci si impegna insieme per vivere, per condividere a livello personale e per sostenersi a vicenda. Sono i luoghi dell'incontro personale, i luoghi del cuore e dell'amore, i luoghi dove si diventa vulnerabili di fronte agli altri e dove si condividono i valori e l'esperienza della vita. Ci sono scuole e istituzioni che formano la testa; la comunità e la famiglia sono scuole del cuore, dell'amore e della fedeltà alle persone; sono scuole che aprono l’individuo agli altri, ai diversi, al perdono e all'amore universale».
 

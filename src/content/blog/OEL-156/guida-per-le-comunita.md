@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 La barca di [Fede e Luce](http://fedeeluce.it) vorrebbe salpare ma la particolare situazione provocata dal covid-19 frena il nostro entusiasmo. Tutto si fa più complicato e incerto. I coordinatori internazionali, Raul e Maria Silvia, ci richiamano alla prudenza e, al tempo stesso, ci ricordano che Gesù chiama anche oggi, per invitare ciascuno di noi a prenderci cura gli uni degli altri, con modalità nuove, da inventare.
 
 Il [Carnet de Route](https://www.fedeeluce.it/carnet2021/), che da tempo accompagna il cammino delle comunità, è pronto. Quest’anno è stato elaborato da tutta l’equipe di coordinamento internazionale, ciascuno dei vice-coordinatori ha preparato cioè uno dei dodici mesi dell’anno 2020/21. Così, attingendo da esperienze e tradizioni diverse, il nostro quaderno di bordo valorizza le variegate culture che arricchiscono la grande famiglia di Fede e Luce.

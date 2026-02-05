@@ -15,7 +15,8 @@ umap_x: 6.368100166320801
 umap_y: 7.385178565979004
 umap_z: 7.000058174133301
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 La dislessia mi ha creato problemi soprattutto a scuola. Ogni anno gli insegnanti chiedono chi è dislessico o disortografico nella classe. Lo fanno per aiutarci ma io, in queimomenti, mi sono sempre sentito un esserea parte, etichettato come “idiota”. Idiota come quando alle elementari dovevo copiareventi volte le sessanta parole che avevo scritto male nel dettato.
 

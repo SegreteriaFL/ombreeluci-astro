@@ -14,7 +14,8 @@ umap_x: 7.175205230712891
 umap_y: 9.251677513122559
 umap_z: 11.859180450439453
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 Negli schemi delle parole crociate, per definire «nato», si trova spesso «portato alla vita». Inizio, quindi, di un viaggio più o meno lungo, di un’avventura. Sono nata e cresciuta in una piccola famiglia composta dai miei genitori, da una sorella maggiore e da un fratello minore. Mio padre e mia madre erano ambedue colpiti da una brutta malattia rivelatasi incurabile. Mio padre si ammalò durante il servizio militare e, come invalido di guerra, ha potuto restare con i suoi familiari — trasferitisi in un villaggio di montagna — fino alla morte. Una famiglia, i cui membri sono colpiti da tubercolosi, inserita in un ambiente di persone sane, è costretta a subire molti affronti. La paura del contagio la rende indesiderata. Questa familiarità con la malattia, la vicinanza con la morte, la paura lancinante della separazione familiare, mi ha fatta maturare molto presto ed è qui che si situa il punto di partenza della mia vita di fede.
 

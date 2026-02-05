@@ -4,8 +4,8 @@ date: 2002-12-08
 author: Redazione
 slug: ma-come-fa-una-mamma
 lang: it
-numero_rivista: 80
-id_numero: OEL-80
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-80"
 issue_number: OEL-80
 wp_id: 25651
 original_url: "https://www.ombreeluci.it/?p=25651"
@@ -17,7 +17,6 @@ umap_x: 5.737290382385254
 umap_y: 9.054490089416504
 umap_z: 7.9657158851623535
 ---
-
 Fatima è una bambina di due anni, perfettamente intelligente, che vive grazie ad un respiratore, alla bombola dell’ossigeno, al tubicino che le porta la pappa direttamente nello stomaco. Fatima è così perché quando è nata, per un’errata manovra dell’ostetrico, ha subito una grave lesione del midollo. La gravità della sua situazione richiede una presenza qualificata 24 ore su 24 e la famiglia non è quindi in grado di assisterla. Fatima vive perciò in una piccola comunità che l’ha accolta all’inizio di quest’anno.
 
 Sono le cinque del mattino. Suona un allarme: bip, bip, bip. Questa volta è quello dell’indicatore dell’ossigeno. Fatima deve essere aspirata perché le secrezioni le impediscono di respirare bene. Prendo il sondino metto il guanto sterile, accendo l’aspiratore, tolgo il tubo dell’apparecchio che permette a Fatima di respirare e infilo il sondino nella cannula della trachea. Lei mi guarda con quegli occhioni che parlano quasi a chiedermi: uffa, ancora? **Questa notte è la quinta volta che l’aspiro. E la stessa manovra le sarà ripetuta per una dozzina di volte domani, nell’arco della giornata** .

@@ -12,7 +12,8 @@ umap_x: 5.54680061340332
 umap_y: 10.139410972595215
 umap_z: 6.878480911254883
 issue_number: OEL-106
-id_numero: OEL-106
+id_numero: "OEL-106"
+numero_rivista: "Ombre e Luci"
 ---
 La Fondazione Lejeune promuove più di 60 programmi internazionali di ricerca sulle malattie genetiche dell’intelligenza, prima fra tutte la Trisomia 21. Uno di questi, lanciato nel 2004, studia come inibire l'eccesso di enzima CBS responsabile, in parte, del ritardo mentale della Trisomia 21. La ricerca fa passi avanti nell’identificazione di una molecola capace di inibire l'enzima CBS.
 A

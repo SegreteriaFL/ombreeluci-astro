@@ -12,8 +12,9 @@ umap_x: 8.005884170532227
 umap_y: 1.741782546043396
 umap_z: 9.395917892456055
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Io sono molto brava a fare gol. **Gioco nella As Roma. Per questo mi hanno convocata a Trigoria per allenarmi.** Per prima cosa ho fatto colazione. Un bel cappuccino con il cornetto. Tutto molto buono.
 
 Io mi sono dovuta mettere tutte le cose della Roma perché noi giocatori dobbiamo vestirci tutti uguali per far contenti quelli della Roma. **Quando iniziamo a giocare a settembre ci danno tanta roba:** tante magliette con le maniche lunghe e corte, tute, pantaloncini, calzoncini corti che non mi piacciono proprio e pure due giacconi pesanti per il freddo. Pure le borse. Io non so che farci con tutte quelle cose.

@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-17
-id_numero: OEL-17
+id_numero: "OEL-17"
+numero_rivista: "Ombre e Luci"
 ---
 Roberto è un adulto. Vive in famiglia. Lavora in un laboratorio protetto. La sua situazione è simile a quella di molte persone portatrici di handicap mentale lieve alle quali è dedicato questo numero di Ombre e Luci.
 Lasciamo a lui la parola. I nostri lettori sapranno andare al di là delle parole e coglieranno la sensibilità, l'autenticità e la sofferenza che esse racchiudono, anche se la pagina scritta non può comunicare che le espressioni del viso, la voce che si abbassa per l'avvilimento, o che si alza per l'eccitazione del ricordare.

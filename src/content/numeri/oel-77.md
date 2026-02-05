@@ -1,15 +1,29 @@
 ---
 id: "OEL-77"
-title: "Ombre e Luci n. 77 - Lasciami diventare grande"
+title: "Ombre e Luci n. 77 – Lasciami diventare grande"
 tipo: "ombre-e-luci"
 numero: 77
-anno: "2002"
+sort_order: 176
+pubDate: "2002-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 2002"
 sommario: "Un numero pieno di spunti interessanti sulla tematica dell'età adulta, e con all'interno alcune belle illustrazioni di Luzzati."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_77_2002.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_77"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-77-lasciami-diventare-grande/"
+articoli:
+  - "andiamo-avanti"
+  - "un-libro-interessante-adolescenza-ragazzi-disabili-chi-sarei-se-potessi-esserebozza-automatica"
+  - "accettare-che-mi-lasci"
+  - "come-preparare-il-distacco-spunti-riflessioni-dopo-di-noi"
+  - "conoscere-lhandicap-la-sindrome-di-williams"
+  - "scuole-di-rapporti-umani"
+  - "storie-di-lavoro-chi-sarei-se-potessi-essere-la-condizione-adulta-del-disabile-mentale"
+  - "dialogo-aperto-n-77"
+  - "piccoli-messaggeri-damore-genitori-di-bambini-con-la-sindrome-di-down-recensione-libro"
+  - "nella-stessa-barca-quando-lhandicap-mentale-entra-in-famiglia-recensione-libro"
+  - "la-vita-di-daniele-interviste-dopo-la-lettura-del-libro-chi-sarei-se-potessi-essere"
+  - "i-miei-genitori-avevano-ragione"
 ---
 
 ## Indice

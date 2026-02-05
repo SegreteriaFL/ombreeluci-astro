@@ -6,6 +6,7 @@ theme: "cluster-3"
 cluster_id: 3
 slug: "francesca-cabrini-tralaterrae-il-cielo-recensione"
 has_comments: false
+id_numero: "OEL-87"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

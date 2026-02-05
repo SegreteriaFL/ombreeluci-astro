@@ -15,7 +15,8 @@ umap_x: 5.417077541351318
 umap_y: 10.31127643585205
 umap_z: 9.005708694458008
 issue_number: OEL-9
-id_numero: OEL-9
+id_numero: "OEL-9"
+numero_rivista: "Ombre e Luci"
 ---
 Si parla spesso della sofferenza dei genitori di un figlio con handicap. Si tace troppo spesso la sofferenza delle sorelle e dei fratelli di un bambino o di un giovane handicappato.
 **I fratelli e le sorelle sono spesso «trascurati» in questa loro pena segreta**

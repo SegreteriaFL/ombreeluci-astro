@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 Con uno stile semplice ma preciso e efficace, Fabien Toulmé si affaccia al mondo del fumetto per la prima volta con una storia intima e personale, raccontando l’arrivo della figlia Julia nella sua vita, una bambina con sindrome di Down.
 

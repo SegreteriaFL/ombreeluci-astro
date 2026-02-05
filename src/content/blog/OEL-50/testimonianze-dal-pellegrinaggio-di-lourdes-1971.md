@@ -14,8 +14,9 @@ umap_x: 9.35573673248291
 umap_y: 8.078485488891602
 umap_z: 13.248175621032715
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 **Una mamma** "Che abbiamo visto a Lourdes? Un Pellegrinaggio, sì, e molto di più. Una grande comunità cristiana formatasi in poche ore tra migliaia di persone che hanno potuto conoscersi tanto da potersi amare profondamente, perchè ignoravano le rivalità, le concorrenze, lo spirito di accaparramento e di sfruttamento."
 
 **Un sacerdote** "Partiremo da Lourdes come vi siamo giunti, con una croce sulle spalle; non andiamo là perchè essa ci sia tolta, ma per imparare insieme a portarla meglio."

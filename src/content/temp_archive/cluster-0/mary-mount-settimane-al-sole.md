@@ -7,6 +7,7 @@ cluster_id: 0
 image: "http://www.ombreeluci.it/staging/wp-content/uploads/2017/10/Copertina_OeL_10_1985-210x300.jpg"
 slug: "mary-mount-settimane-al-sole"
 has_comments: false
+id_numero: "OEL-15"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

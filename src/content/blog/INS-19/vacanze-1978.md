@@ -14,8 +14,9 @@ umap_x: 8.06987476348877
 umap_y: 7.119624137878418
 umap_z: 11.161959648132324
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 ### Terzo anno al Marymount
 
 Per la terza volta ci siamo ritrovati ne parco e nei locali del Marymount.

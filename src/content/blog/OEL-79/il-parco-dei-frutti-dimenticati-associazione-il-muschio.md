@@ -4,8 +4,8 @@ date: 2002-09-01
 author: Elisabetta De Rino
 slug: il-parco-dei-frutti-dimenticati-associazione-il-muschio
 lang: it
-numero_rivista: 79
-id_numero: OEL-79
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-79"
 issue_number: OEL-79
 wp_id: 25429
 original_url: "https://www.ombreeluci.it/?p=25429"
@@ -15,7 +15,6 @@ umap_x: 8.105696678161621
 umap_y: 7.151604652404785
 umap_z: 10.506152153015137
 ---
-
 Èuna bella giornata di sole, Carlo ed io partiamo prestissimo per raggiungere le montagne della Valtellina. Abbiamo appuntamento con Massimo, operatore dell’ [associazione «Il Muschio»](http://associazioni.provincia.so.it/Muschio/) di Morbegno, nella bassa valle. Ad Ombre e Luci hanno avuto notizia delle molte attività dei soci, impegnati nel promuovere l’integrazione di persone diversamente svantaggiate o disabili, con una grande attenzione per l’ambiente naturale.
 
 Salendo tra prati e boschi, con l’orizzonte occupato dalle cime dei monti ancora bianche di neve, **capisco come la Natura possa avere un ruolo molto importante nella vita e nei pensieri di queste persone** . Il luogo dell’appuntamento è un bellissimo paesino sulla costiera sud delle montagne; si chiama Cadelasso e davvero le case sono tutte di pietra, molte sono ristrutturate e adorne di fiori.

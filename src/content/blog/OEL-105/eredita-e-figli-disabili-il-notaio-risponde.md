@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-105
-id_numero: OEL-105
+id_numero: "OEL-105"
+numero_rivista: "Ombre e Luci"
 ---
 *La famiglia Rossi è composta da due genitori anziani e tre figli di cui il maggiore Francesco è portatore di una grave disabilità intellettiva e due fratelli minori: uno sposato con figli e quindi patrimonialmente indipendente, a differenza dell’altro che vive a casa con la famiglia.
 

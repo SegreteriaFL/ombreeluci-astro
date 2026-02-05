@@ -12,7 +12,8 @@ umap_x: 7.873889446258545
 umap_y: 9.636771202087402
 umap_z: 14.068177223205566
 issue_number: OEL-163
-id_numero: OEL-163
+id_numero: "OEL-163"
+numero_rivista: "Ombre e Luci"
 ---
 Quando si recita il Padre nostro in una ventina di lingue diverse, sale il rumore di un’orchestra che accorda prima di iniziare a eseguire. Eravamo 150 a Strasburgo, da 54 Paesi diversi (degli 86 in cui il movimento è presente), ed è capitato più volte di pregare insieme come Gesù ha insegnato, ciascuno nella propria lingua. Poi l’orchestra partiva. Ed era la musica gioiosa dei ragazzi delle comunità di Fede e Luce e dell’Arche di Strasburgo che sono venuti a trovarci. La piccola inarrestabile Lucia dalla risata scrosciante guidava il “trenino” fra le vie del centro della bella capitale alsaziana. Oppure era la musica vera delle chitarre guidate da Raul Izquierdo Garcia, nominato coordinatore internazionale per la seconda volta. Si canta e si balla sempre molto negli incontri di Fede e Luce, ed è stata Marie-Helène Mathieu, dall’alto dei suoi 94 anni (e che anni!), a sottolineare che la gioia è parte integrante del carisma del nostro movimento.
 

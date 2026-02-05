@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 Marco è arrivato a frequentare la prima media dopo un cambio di residenza che lo allontana da tutte le amicizie della scuola elementare. I primi giorni dell’anno scolastico appariva disorientato, ma mostrava un profondo bisogno di socializzare con i nuovi compagni.In alcune situazioni per facilitare l’accettazione negli altri descrive se stesso e la sua famiglia in maniera distorta: per esempio il padre da semplice operaio veniva trasformato in un avvocato di successo, lui da semplice spettatore diventa medaglia d’oro del nuoto. Tutto questo per sentirsi più adeguato ai compagni che, una volta scoperta la verità,hanno cominciato a deridere e lentamente ad isolarlo.
 

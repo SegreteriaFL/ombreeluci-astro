@@ -12,8 +12,9 @@ umap_x: 8.41702938079834
 umap_y: 12.201018333435059
 umap_z: 10.652297019958496
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Uscito nel 2015 negli Stati Uniti, Queriniana ha reso disponibile in italiano questo saggio di Jean Vanier: «un libro sul fare domande» che «non è un libro di risposte». Ultimo tra quelli pubblicati in italiano, assume ora, dopo la morte dell’autore all’età di 90 anni, una nuova luce. Se alcune tematiche erano già note dai suoi precedenti libri, la forma scelta in questa occasione consente l’emergere di un dialogo vivo con il lettore sulle profonde istanze dell’umana realtà. Capace di rendere vive e tangibili discipline come filosofia, psicologia e teologia senza farne pesare la presenza e la profonda e personale conoscenza dell’autore. Un uomo che ha messo a disposizione il suo denso cammino di vita – lungo all’epoca 86 anni – sapendo sollecitare la consapevolezza di dimensioni necessarie nell’esperienza di ciascuno come l’ascolto, la coscienza, l’angoscia, la ricerca della comunione in un profondo e costruttivo «pellegrinaggio di pensieri e di idee».
 
 ##### Acquista questo libro in uno dei siti del circuito **[Helpfreely](https://www.helpfreely.org/it/) .**

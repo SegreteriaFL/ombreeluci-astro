@@ -15,7 +15,8 @@ umap_x: 5.03930139541626
 umap_y: 6.964951515197754
 umap_z: 9.44129467010498
 issue_number: OEL-143
-id_numero: OEL-143
+id_numero: "OEL-143"
+numero_rivista: "Ombre e Luci"
 ---
 Può darci qualche spiegazione su cosa sia esattamente l’OCH – editore di Ombres et Lumière – su come funziona, chi sono e quante sono le persone che ci lavorano, ed anche sul ruolo del volontariato? L’OCH è una fondazione di pubblica utilità al servizio delle persone con handicap e delle loro famiglie. Non dipende dalla Chiesa, ma assume una identità cristiana e fedele al magistero cattolico. Oltre all’edizione della rivista, la mission dell’OCH è quella di organizzare conferenze sull’handicap, giornate destinate alle famiglie delle persone con disabilità; dispone inoltre di un centro di ascolto. In totale 24 persone lavorano per la fondazione, che vive essenzialmente di donazioni e lasciti ereditari.
 **Quante copie del vostro giornale vengono distribuite? La rivista viene venduta in edicola?**

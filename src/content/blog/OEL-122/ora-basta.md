@@ -12,7 +12,8 @@ umap_x: 8.799676895141602
 umap_y: 9.463294982910156
 umap_z: 10.688810348510742
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 Quante persone, sacerdoti, suore, laici, hanno visto in diretta – tramite la televisione nel giorno di Pasqua – **quell’abbraccio fra il Papa e il ragazzino spastico in piazza San Pietro** . Chi conosce un po’ da vicino questi ragazzi, non fatica a immaginare l’emozione e la corrente di simpatia che sono scaturite in quell’istante.
 

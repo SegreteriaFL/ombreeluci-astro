@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-146
-id_numero: OEL-146
+id_numero: "OEL-146"
+numero_rivista: "Ombre e Luci"
 ---
 Tutto potevo aspettarmi quando Giulia mi propose di accompagnarla a Trosly da Jean Vanier (allora ero anche uno dei due coordinatori della comunità di *Fede e Luce* di San Roberto a Roma, figuratevi che emozione!) ma mai al mondo avrei immaginato che quell’uomo, di cui avevo sentito così tanto parlare e di cui avevo letto qualche libro, potesse farci niente meno che da autista! In macchina, mentre andavamo alla messa di una comunità di un paesino vicino, Giulia stava seduta davanti accanto a Jean che guidava, mentre io da dietro gustavo la scena di un santo al volante che parlava di “people with disabilities”, Dio e comunità con la mia migliore amica.
 

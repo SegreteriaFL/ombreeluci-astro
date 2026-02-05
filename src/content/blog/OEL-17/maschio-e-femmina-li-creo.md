@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-17
-id_numero: OEL-17
+id_numero: "OEL-17"
+numero_rivista: "Ombre e Luci"
 ---
 Quando parliamo di persone adulte ritardate nell’intelligenza, viene spontaneo pensare al loro bisogno di amare e di essere riamate, perchè, come abbiamo detto altre volte, non sono ritardate nel cuore, nei sentimenti.
 È questo dell’affettività un argomento molto delicato, che non ha soluzioni o regole precise perchè ogni persona è diversa dall'altra ed è in ogni caso semplicistico ed errato, a mio avviso, parlare della sessualità dell’handicappato come se si trattasse di una malattia alla quale trovare una terapia, o di un bisogno fisico da saziare. Ma quando, se non in questo numero, dare un’indirizzo ai molti genitori ed educatori che devono affrontare questi problemi?

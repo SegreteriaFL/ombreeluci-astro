@@ -4,8 +4,8 @@ date: 2007-06-03
 author: Salvatore Anastasi
 slug: acondroplasia-scheda-informativa
 lang: it
-numero_rivista: 98
-id_numero: OEL-98
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-98"
 issue_number: OEL-98
 wp_id: 32618
 original_url: "https://www.ombreeluci.it/?p=32618"
@@ -17,7 +17,6 @@ umap_x: 5.443003177642822
 umap_y: 9.815892219543457
 umap_z: 7.179659843444824
 ---
-
 Il termine acondroplasia deriva dall’unione di tre parole di origine greca ( *a* = senza, *condros* = cartilagine, *plais* = formazione) ed indica un **mancato sviluppo armonico della cartilagine di accrescimento delle ossa lunghe degli arti** , cioè di quella parte dell’osso che nel bambino non è ancora saldata e che permette l'allungamento progressivo dell'osso stesso.
 
 **L'acondroplasia interessa circa un neonato su 20.000** e nel 90% dei casi si manifesta come carattere sporadico in seguito ad una mutazione nello spermatozoo o nell’ovulo di genitori non affetti: il soggetto acondroplasico nasce in questo caso da una coppia sana senza precedenti nelle famiglie di origine e la possibilità di un secondo figlio affetto è trascurabile. Nel restante 10% dei casi la patologia è ereditaria con un meccanismo di tipo autosomico dominante, cioè uno dei due genitori affetto da acondroplasia trasmette il gene responsabile della malattia ai propri figli con una probabilità del 50% per ogni gravidanza. Nel caso poi che entrambi i genitori siano affetti da questa patologia, c'è il 50% di possibilità che il bambino erediti da uno solo dei genitori il gene responsabile e quindi ne sia affetto (forma eterozigote); il 25% che lo erediti da entrambi i genitori e sia quindi affetto da una forma più complessa (omozigote); il 25% che non erediti il gene dai genitori e sia sano.

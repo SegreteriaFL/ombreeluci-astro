@@ -4,8 +4,8 @@ date: 2005-12-23
 author: Redazione
 slug: dialogo-aperto-n-22-1
 lang: it
-numero_rivista: 92
-id_numero: OEL-92
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-92"
 issue_number: OEL-92
 wp_id: 31264
 original_url: "https://www.ombreeluci.it/?p=31264"
@@ -15,7 +15,6 @@ umap_x: 4.7205424308776855
 umap_y: 7.637380599975586
 umap_z: 10.809100151062012
 ---
-
 ### Dall'Honduras: Le tante voci di Dio
 
 Carissima Mariangela, ti scrivo due righe per salutarti e dirti che spero tu possa continuare il tuo lavoro di Ombre e Luci. Mi hai insegnato tantissimo sugli handicappati e su me stesso e come essere un buon amico con loro e genitori. Seguiamo sempre il gruppo di Tocoa e aumentiamo il numero di comunità in Honduras con la grazia di Dio. La sfida è trovare giovani aperti ad essere amiche ed amici dei ragazzi. Ti mando una riflessione sugli amici speciali qui in Centro America del mio confratello gesuita Miguel Vasquez. Saluti alla comunità di S. Silvia. Siamo uniti nella preghiera e nell'opera di Fede e Luce. Di nuovo grazie per la rivista. Animo. Che Dio vi benedica tutti nel vostro uffizio. Pace e bene.

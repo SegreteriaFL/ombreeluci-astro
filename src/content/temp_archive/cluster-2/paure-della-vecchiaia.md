@@ -6,6 +6,7 @@ theme: "cluster-2"
 cluster_id: 2
 slug: "paure-della-vecchiaia"
 has_comments: false
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

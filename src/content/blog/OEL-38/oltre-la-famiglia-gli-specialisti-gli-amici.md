@@ -12,7 +12,8 @@ umap_x: 5.945300579071045
 umap_y: 7.946570873260498
 umap_z: 8.830068588256836
 issue_number: OEL-38
-id_numero: OEL-38
+id_numero: "OEL-38"
+numero_rivista: "Ombre e Luci"
 ---
 I
 protagonisti di questo numero sono:

@@ -12,8 +12,9 @@ umap_x: 8.12675952911377
 umap_y: 6.949441909790039
 umap_z: 11.601468086242676
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Un angolo di paradiso
 
 Io non ho avuto ancora la possibilità di andare almeno per un solo giorno ad Alfedena durante il campeggio, ma da quello che mi racconta mia figlia quando si torna a Roma, vedere le fotografie e parlare con gli amici, sono certa di non sbagliarmi se me lo immagino così. Un angolo di paradiso dove tutto è bello e tutto è grazia del Signore, dove la gioia di stare tutti insieme giunge al vertice, mentre le giornate volano via tra commenti, risate, canti, allegria, preghiere e buon umore su tutta la linea. Un angolo di paradiso che per un mese all'anno viene abitato dai nostri angeli (un po’ rumorosi) ma tutti tanto cari.

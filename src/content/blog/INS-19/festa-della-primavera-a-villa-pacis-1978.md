@@ -12,8 +12,9 @@ umap_x: 7.720755577087402
 umap_y: 7.55095100402832
 umap_z: 12.944303512573242
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 S
 otto il sole cocente di una bellissima domenica di maggio vediamo uscire dal gabinetto maschile per soli uomini della scuola Villa Pacis, Ugo, che corre sorreggendo coi suoi possenti muscoli un bastone con attaccati ben 15 pesciolini rossi. Non possiamo avvicinarci troppo per paura che l'olezzo corroda il microfono e tutta l'attrezzatura, ma possiamo dirvi con sicurezza che quei pesci serviranno tra non molto a divertire parecchie persone.
 **Entrando nel bagno vediamo Nanni chinato su un secchio**

@@ -7,40 +7,40 @@ import IssueNavPill from '../../components/IssueNavPill.astro';
 import { ViewTransitions } from 'astro:transitions';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
-import numeriData from '../../data/numeri_consolidati.json';
 import megacluster from '../../data/articoli_megacluster.json';
 
 const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
 
-// Genera tutti i percorsi statici
+// Genera tutti i percorsi statici dalla content collection numeri (stesso ordine sort_order asc per prev/next)
 export async function getStaticPaths() {
-  const numeri = numeriData as Array<{
-    id_numero: string;
-    tipo_rivista: string;
-    numero_progressivo: number;
-    anno_pubblicazione: number;
-    [key: string]: any;
-  }>;
-
-  // Ordina numeri per anno e numero progressivo (anno null = numeri sintetici, ordinati per numero)
-  const numeriOrdinati = [...numeri].sort((a, b) => {
-    const annoA = a.anno_pubblicazione ?? 0;
-    const annoB = b.anno_pubblicazione ?? 0;
-    if (annoA !== annoB) return annoA - annoB;
-    return (a.numero_progressivo ?? 0) - (b.numero_progressivo ?? 0);
+  const rawNumeri = await getCollection('numeri');
+  const numeriOrdinati = [...rawNumeri].sort((a, b) => {
+    const orderA = a.data.sort_order ?? 0;
+    const orderB = b.data.sort_order ?? 0;
+    return orderA - orderB;
   });
 
-  return numeriOrdinati.map((numero, index) => {
-    // Genera slug dal id_numero (es. "INS-10" -> "ins-10")
-    const slug = numero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-');
-    
-    // Trova numero precedente e successivo
-    const prevNumero = index > 0 ? numeriOrdinati[index - 1] : null;
-    const nextNumero = index < numeriOrdinati.length - 1 ? numeriOrdinati[index + 1] : null;
-    
-    const prevSlug = prevNumero ? prevNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
-    const nextSlug = nextNumero ? nextNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
-    
+  return numeriOrdinati.map((entry, index) => {
+    const slug = entry.slug;
+    const prevEntry = index > 0 ? numeriOrdinati[index - 1] : null;
+    const nextEntry = index < numeriOrdinati.length - 1 ? numeriOrdinati[index + 1] : null;
+    const prevSlug = prevEntry?.slug ?? null;
+    const nextSlug = nextEntry?.slug ?? null;
+    const numero = {
+      ...entry.data,
+      id: entry.data.id ?? entry.slug,
+      id_numero: entry.data.id ?? entry.slug,
+      tipo_rivista: entry.data.tipo === 'insieme' ? 'insieme' : 'ombre_e_luci',
+      numero_progressivo: entry.data.numero ?? entry.data.numero_progressivo,
+      anno_pubblicazione: entry.data.pubDate
+        ? (typeof entry.data.pubDate === 'string' ? new Date(entry.data.pubDate) : entry.data.pubDate).getFullYear()
+        : entry.data.anno_pubblicazione,
+      titolo_numero: entry.data.title ?? entry.data.titolo_numero ?? entry.data.display_title,
+      display_title: entry.data.display_title ?? entry.data.title ?? entry.data.titolo_numero,
+      copertina_url: entry.data.copertina ?? entry.data.copertina_url,
+      archive_view_url: entry.data.archive_view_url ?? entry.data.link_sfoglia,
+      pdf_url: entry.data.link_pdf ?? entry.data.archive_download_pdf_url,
+    };
     return {
       params: { issue: slug },
       props: { numero, prevSlug, nextSlug },
@@ -50,38 +50,24 @@ export async function getStaticPaths() {
 
 const { numero, prevSlug, nextSlug } = Astro.props;
 
-// Carica tutti gli articoli
 const allArticles = await getCollection('blog');
 
-// Filtra articoli per questo numero
-// Match usando issue_number (preferito) o numero_rivista + anno_rivista
-const articoliNumero = allArticles.filter(article => {
-  // Metodo 1: Usa issue_number se presente
-  const issueNumber = article.data.issue_number;
-  if (issueNumber === numero.id_numero) {
-    return true;
-  }
-  
-  // Metodo 2: Fallback su numero_rivista + anno_rivista
-  const artNumero = article.data.numero_rivista;
-  const artAnno = article.data.anno_rivista;
-  
-  const matches = artNumero === numero.numero_progressivo && 
-                  artAnno === numero.anno_pubblicazione;
-  
-  return matches;
-});
+// Articoli dal frontmatter del numero (array articoli = slug), ordinati per pubDate crescente (ordine indice)
+function findArticleBySlug(slug: string) {
+  return allArticles.find(
+    (a) => a.slug === slug || a.slug.endsWith('/' + slug) || a.slug.split('/').pop() === slug
+  );
+}
 
-// Debug logging durante la build con dettagli
-const articoliConNumero = allArticles.filter(a => a.data.numero_rivista !== undefined && a.data.numero_rivista !== null).length;
-const articoliConAnno = allArticles.filter(a => a.data.anno_rivista !== undefined && a.data.anno_rivista !== null).length;
-const articoliUrlCount = numero.articoli_urls?.length || 0;
-
-console.log(`[ARCHIVIO DEBUG] Numero ${numero.id_numero} (n.${numero.numero_progressivo}, ${numero.anno_pubblicazione}):`);
-console.log(`  - Articoli trovati con match: ${articoliNumero.length}`);
-console.log(`  - Articoli URL nel JSON: ${articoliUrlCount}`);
-console.log(`  - Totale articoli con numero_rivista: ${articoliConNumero}`);
-console.log(`  - Totale articoli con anno_rivista: ${articoliConAnno}`);
+const articoliSlugs = numero.articoli ?? [];
+const articoliNumero = articoliSlugs
+  .map((slug) => findArticleBySlug(slug))
+  .filter((a): a is NonNullable<typeof a> => a != null)
+  .sort((a, b) => {
+    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date);
+    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date);
+    return dateA.getTime() - dateB.getTime();
+  });
 
 // Determina URL per sfogliare online (Archive.org)
 const archiveViewUrl = numero.archive_view_url || null;
@@ -137,7 +123,7 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
         font-size: 18px;
         line-height: 1.7;
-        color: var(--text-color, #2d2d2d);
+        color: var(--text-color);
         background: var(--bg-light, #f5f5f3);
       }
 
@@ -187,7 +173,7 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
       .hero-badge {
         display: inline-block;
         background: rgba(0, 0, 0, 0.05);
-        color: #666;
+        color: var(--text-secondary);
         padding: 0.5rem 1rem;
         border-radius: 8px;
         font-size: 0.875rem;
@@ -201,7 +187,7 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
         font-size: clamp(1.75rem, 4vw, 2.5rem);
         font-weight: 700;
         line-height: 1.25;
-        color: var(--text-color, #2d2d2d);
+        color: var(--text-color);
         margin: 0;
       }
 
@@ -210,7 +196,7 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
         flex-wrap: wrap;
         gap: 1.5rem;
         font-size: 1.125rem;
-        color: #666;
+        color: var(--text-secondary);
       }
 
       .hero-meta-item {
@@ -221,13 +207,13 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
 
       .hero-meta-label {
         font-weight: 600;
-        color: #333;
+        color: var(--text-color);
       }
 
       .hero-description {
         font-size: 1rem;
         line-height: 1.7;
-        color: #555;
+        color: var(--text-secondary);
         margin-top: 0.5rem;
       }
 
@@ -243,7 +229,7 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
         align-items: center;
         gap: 0.5rem;
         padding: 0.875rem 1.5rem;
-        background: var(--accent-color, #c41e3a);
+        background: var(--accent-color);
         color: white;
         text-decoration: none;
         border-radius: 8px;
@@ -257,18 +243,18 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
       }
 
       .hero-button:hover {
-        background: var(--accent-hover, #a01930);
+        background: var(--accent-hover);
         transform: translateY(-2px);
       }
 
       .hero-button.secondary {
         background: transparent;
-        color: var(--accent-color, #c41e3a);
-        border: 1px solid var(--accent-color, #c41e3a);
+        color: var(--accent-color);
+        border: 1px solid var(--accent-color);
       }
 
       .hero-button.secondary:hover {
-        background: var(--accent-color, #c41e3a);
+        background: var(--accent-color);
         color: white;
       }
 
@@ -301,7 +287,7 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
       .articles-title {
         font-size: 1.5rem;
         font-weight: 700;
-        color: var(--text-color, #2d2d2d);
+        color: var(--text-color);
         margin-bottom: 0.5rem;
       }
       .articles-count {
@@ -325,7 +311,7 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
       .no-articles-title {
         font-size: 1.5rem;
         margin-bottom: 0.5rem;
-        color: var(--text-color, #2d2d2d);
+        color: var(--text-color);
       }
 
       /* Responsive */

@@ -15,7 +15,8 @@ umap_x: 8.36264705657959
 umap_y: 7.310525894165039
 umap_z: 9.383935928344727
 issue_number: OEL-41
-id_numero: OEL-41
+id_numero: "OEL-41"
+numero_rivista: "Ombre e Luci"
 ---
 ### Laboratori: che cosa sono
 

@@ -12,8 +12,9 @@ umap_x: 6.4969096183776855
 umap_y: 5.965297698974609
 umap_z: 9.249025344848633
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 È
 tempo sospeso, tempo diverso, tempo vuoto, tempo nuovo… tempo, comunque. Ci vuole tempo, attenzione, pazienza in queste settimane della serie
 **#iorestoacasa**

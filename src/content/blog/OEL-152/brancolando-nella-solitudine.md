@@ -12,8 +12,9 @@ umap_x: 8.857236862182617
 umap_y: 8.382707595825195
 umap_z: 3.0474894046783447
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 N
 on è facile la vita di Ma Xiang, adolescente cinese appartenente alla minoranza musulmana: i genitori si sono separati qualche tempo prima, non ha più alcun rapporto con la madre e il padre è in prigione. Non solo: l’uomo è anche indebitato e spetta a Ma Xiang provare a ripianarne i debiti in attesa che venga scarcerato. Al ragazzo non resta dunque che tentare la stessa strada di migliaia di altri giovani che, come lui, non hanno grandi prospettive: lasciata la campagna e gli studi, Ma Xiang va in città a lavorare in un ristorante di
 *noodles*

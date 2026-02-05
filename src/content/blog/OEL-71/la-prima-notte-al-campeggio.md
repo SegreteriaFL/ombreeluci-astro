@@ -14,7 +14,8 @@ umap_x: 8.074639320373535
 umap_y: 7.036770820617676
 umap_z: 11.772812843322754
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 Era il primo campeggio di Fede e Luce di Milano. Alcuni amici ci avevano preceduto e avevano sistemato la casa per accogliere il resto del gruppo, pulendo e preparando le camere, la cucina, la sala...All’arrivo nel pomeriggio, gli organizzatori ci assegnarono i nostri posti: mi trovai in una grande stanza con una dozzina di letti — sei da una parte e sei dall’altra — tutti riservati al «reparto maschile». Ero capitato accanto a un amico da me poco conosciuto ma ben noto nella zona della parrocchia soprattutto per il suo modo stravagante di camminare e per mille altre bizzarrie: a farla breve nel rione era considerato matto!
 

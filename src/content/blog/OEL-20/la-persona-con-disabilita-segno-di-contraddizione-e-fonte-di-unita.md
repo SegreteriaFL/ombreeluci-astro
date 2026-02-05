@@ -11,8 +11,9 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-20
+id_numero: "OEL-20"
+numero_rivista: "Ombre e Luci"
 ---
-
 La persona handicappata mentale ha un comportamento al quale non siamo abituati; il suo modo di ragionare spesso non è coerente, non è capace di un lavoro stabile, le manca una buona parte di autonomia e quindi resta sempre dipendente. La sua vita affettiva non raggiunge la maturità. Si possono trovare tante altre differenze. Ma queste differenze sono relative. Noi vediamo una differenza quando paragoniamo due valori. **Il nostro giudizio dipende allora dai valori che mettiamo in relazione.
 Noi diamo importanza essenziale a efficienza, intelligenza, forza, salute, ecc. Tutti le accettiamo come valori senza troppo riflettere. Penetrano in noi da ogni parte: dalla TV, dalla radio, dai giornali, attraverso i prodotti che acquistiamo, nell’ambiente in cui viviamo e lavoriamo.
 Facciamo parte di questo mondo che esclude i valori che non producono risultati immediati e utilizzabili direttamente nell’economia o nella politica. La persona che non risponde alle esigenze di queste categorie ben determinate è messa da parte, è considerata inutile, un grave peso sulle spalle della società. Per non ingombrarsi la coscienza, la società si protegge costruendo istituti per i non produttivi (malati, handicappati, anziani...) o raccogliendo fondi per i poveri. Ma tutte queste «opere di carità» rientrano nelle stesse categorie dei valori sopra ricordati, che sono all’origine della divisione e non unificano le persone tra loro. (Perché la guerra fra i paesi, perché i divorzi nelle famiglie, se non per le stesse ragioni?)

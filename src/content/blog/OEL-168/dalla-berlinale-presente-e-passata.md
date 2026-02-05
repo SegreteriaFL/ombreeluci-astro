@@ -12,8 +12,9 @@ umap_x: 9.381115913391113
 umap_y: 7.9141845703125
 umap_z: 2.5183639526367188
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Non è certo inusuale che un grande festival metta a disposizione degli accreditati con qualche forma di disabilità i servizi necessari per poter partecipare all’evento nel modo migliore possibile; ma, se la memoria non m’inganna, compilando la domanda per accreditarmi al Festival Internazionale del Cinema di Berlino per conto di *Ombre e Luci* **ho visto per la prima volta che le eventuali esigenze potessero essere segnalate prima, e non dopo, l’accreditamento.** Non mi ha sorpreso, perché la Berlinale, che si tiene nella capitale della Germania ogni febbraio da 74 edizioni, è un evento molto attento ai temi sociali: ad esempio, siccome alle proiezioni ci si può sedere dove si preferisce (arrivare presto è cruciale per ottenere un buon posto) viene garantito l’accesso prioritario a chi abbia una disabilità, specificando - non lo avevo mai notato in altre occasioni simili - che la possibilità **vale anche per chi abbia disabilità non visibili.**
 
 Bisogna dire che l’accessibilità, tema molto caro a chi organizza grandi eventi con una copertura stampa internazionale, sarà l’ultimo dei problemi di un festival che, proprio per la sua attenzione ai temi dell’inclusione e del dialogo, rischia spesso di essere travolto da polemiche politiche. Due, quest’anno, sono già scoppiate: l’invito (poi annullato) ad alcuni politici di estrema destra per la cerimonia inaugurale del 15 febbraio, perché i valori che la Berlinale vuole comunicare sono incompatibili con il razzismo e la violenza verbale delle note idee del loro partito; l’assenza di alcuni registi in polemica con la posizione equidistante della Berlinale sul conflitto israelo-palestinese in corso, in questo caso perché la volontà generica e pubblicamente espressa di dialogo tra le parti, anche attraverso momenti di dibattito appositi, viene considerata troppo sbilanciata a favore di Israele a causa delle ragioni storiche del rapporto tra la Germania e gli ebrei.

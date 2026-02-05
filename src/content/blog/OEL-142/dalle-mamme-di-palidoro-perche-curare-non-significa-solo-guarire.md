@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 Ormai, a nemmeno due anni, il piccolo Alfie Evans è morto ("Il mio gladiatore ha posato lo scudo ed è volato via alle 2.30" scriveva il giovane padre su Facebook il 28 aprile 2018), però a distanza di tempo – a polemiche sopite (probabilmente fino al prossimo doloroso, episodio) – vale la pena di ritornare su questo caso che ha diviso l'opinione pubblica internazionale. E di farlo riprendendo in mano la lettera che il 21 aprile un gruppodi mamme scrisse al direttore dell’ospedale pediatrico Alder Hey di Liverpool, dove Alfie era ricoverato, quando era ormai definitiva la decisione di sospendergli le cure (come effettivamente sarebbe avvenuto due giorni dopo).
 

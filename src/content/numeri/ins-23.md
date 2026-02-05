@@ -1,15 +1,33 @@
 ---
 id: "INS-23"
-title: "Insieme n. 23 - Bollettino Fede e Luce - 1979"
+title: "Insieme n. 23 – Bollettino Fede e Luce – 1979"
 tipo: "insieme"
 numero: 23
-anno: "1979"
+sort_order: 23
+pubDate: "1979-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 1979"
 sommario: "Questo numero di 'Insieme' ci porta a riflettere sul valore della dignità umana e sull'importanza dell'ascolto e della comprensione. Attraverso le testimonianze di persone con disabilità, genitori e amici, scopriamo la ricchezza che ognuno porta con sé e la forza dell'amicizia che ci unisce. Un invito ad aprirsi alla 'luce' che risplende in ogni persona e a costruire insieme un mondo più inclusivo."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-23-dic-1979.webp"
 link_sfoglia: "https://archive.org/details/insieme-23/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-23/insieme%2023%20dic%201979.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-23-bollettino-fede-e-luce-1979/"
+articoli:
+  - "perche-vi-chiamate-fede-e-luce"
+  - "adulti-lievemente-handicappati"
+  - "vuoi-essere-mio-amico"
+  - "saluta-la-tua-insegnante"
+  - "e-domani"
+  - "dialoghi-scomodi-amicizie-vere"
+  - "teresa-venti-anni-cambiamenti-disabilita"
+  - "amicizie"
+  - "al-rientro-dalle-vacanze-campeggi-campeggi-ancora-campeggi"
+  - "marymount-unestate-di-musica-e-sorrisi"
+  - "insieme-verso-la-pasqua-1981"
+  - "tema-dellanno-1980-lincontro"
+  - "letture-consigliate-n-23"
+  - "ci-hanno-scritto-n-23"
+  - "trovai-lavoro-in-una-casa-farmaceutica"
+  - "lordinazione-di-robert-michit"
 ---
 
 ## Indice

@@ -6,6 +6,7 @@ theme: "cluster-3"
 cluster_id: 3
 slug: "non-cercare-il-sale-nella-minestra"
 has_comments: false
+id_numero: "OEL-86"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

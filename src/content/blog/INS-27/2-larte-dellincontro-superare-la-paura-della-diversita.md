@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 *Questo articolo fa parte dello **[Speciale Fede e Luce anatomia di una comunità di incontro](https://www.ombreeluci.it/1980/fede-e-luce-anatomia-di-una-comunita-di-incontro/).*
 Spesso percorriamo la strada della vita come i passanti frettolosi che camminano sui marciapiedi delle nostre grandi città... Ognuno per conto suo. Ci si incrocia, ma non ci si incontra.
 Si tratta solo di accogliere l'altro? No.** È necessario anche lasciarsi accogliere da lui. Vi è un qualcosa di un po' paternalistico nel considerare l'accoglienza in modo troppo unilaterale; ci si china sull'altro "con una delicatezza di cui, soli, si conosce il segreto", lo si ascolta "con molta pazienza"...

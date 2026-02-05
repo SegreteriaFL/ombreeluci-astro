@@ -12,7 +12,8 @@ umap_x: 7.810795783996582
 umap_y: 10.20658016204834
 umap_z: 6.0134053230285645
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 V ittore Mariani, pedagogista, attualmente è supervisore per l'area handicap in Nord-Italia e Svizzera dell’Opera Don Orione e dell'Opera Don Guannella; è collaboratore del **Centro Studi e Ricerche sul Disagio e Disadattamento dell'Università Cattolica di Milano** e presidente dell’ANPE (Associazione Nazionale Pedagogisti). Di lui conosciamo già i due testi pubblicati agli inizi degli anni Novanta, "L'handicappato mentale adulto"(Elle Di Ci), Leuman (To), e "L’educazione sessuale delle persone handicappate" (Elle Di Ci). **Anche i due libri che oggi presentiamo nascono da una profonda competenza, da una lunga esperienza nei centri di accoglienza e da un'ammirevole sensibilità** .
 

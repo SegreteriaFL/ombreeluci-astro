@@ -5,8 +5,8 @@ author: Redazione
 slug: immaginate
 lang: it
 anno_rivista: 2008
-numero_rivista: 101
-id_numero: OEL-101
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-101"
 issue_number: OEL-101
 wp_id: 33170
 original_url: "https://www.ombreeluci.it/?p=33170"
@@ -16,7 +16,6 @@ umap_x: 7.781927108764648
 umap_y: 8.826456069946289
 umap_z: 13.95439338684082
 ---
-
 Dall’1 al4 Novembre scorsi si è svolto l’incontro di formazione nazionale di Fede e Luce con il titolo “Fede & Luce e l'alchimia delle nostre vite”. L’incontro si è svolto a Santa Severa, sul lido laziale, con amici, genitori e ragazzi provenienti da molte comunità di tutta Italia. Una partecipante ci racconta l’atmosfera di queste giornate.
 
 Chiudete gli occhi e immaginate un bel mare azzurro, c’è il sole, l’acqua brilla, anche se il calendario segna novembre. Continuate a tenere gli occhi chiusi e immaginate alcune paia di piedi, proprio lì, a riva, che si bagnano, pantaloni arrotolati alle caviglie...un paio di piedi, increduli di stare nell’acqua marina a Novembre, sono di Cuneo, un altro paio sono di Cesano Boscone, quelli accanto vengono da Cardito e più in là un paio di piedi di Mazara del Vallo si schizzano con dei piedi di Abano Terme. E lì dietro, sul bagnasciuga, piedi rilassati di Treviglio e di Monopoli giocano coi granelli di sabbia. Un pallone rotola veloce.... passano correndo un piede di Roma, uno di Monza e uno di Napoli. Due piedini di San Domenico Selvazzano si godono il sole....

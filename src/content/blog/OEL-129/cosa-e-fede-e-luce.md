@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 ### Chi siamo?
 

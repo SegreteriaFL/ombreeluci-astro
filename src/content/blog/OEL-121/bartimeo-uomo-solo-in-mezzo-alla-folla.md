@@ -15,7 +15,8 @@ umap_x: 9.130194664001465
 umap_y: 10.277926445007324
 umap_z: 8.819326400756836
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 Da
 alcuni anni il

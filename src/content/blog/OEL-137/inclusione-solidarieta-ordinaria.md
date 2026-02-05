@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-137
-id_numero: OEL-137
+id_numero: "OEL-137"
+numero_rivista: "Ombre e Luci"
 ---
 In una recente occasione formativa proposta dalla diocesi di Roma ai catechisti, con il titolo “Le abilità che includono”, religiosi e laici, professionisti e amici sottolineavano il valore della persona con disabilità all’interno della comunità cristiana e la necessaria solidarietà tra i componenti di una comunità che, proprio se cristiana, per principio non si scelgono, non si dividono per categorie, che sono solidali gli uni con gli altri anche in quanto fratelli nello stesso Battesimo.
 

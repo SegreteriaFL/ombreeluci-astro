@@ -7,6 +7,7 @@ cluster_id: 3
 image: "https://www.ombreeluci.it/wp-content/uploads/2020/05/02_Papa-Francesco-small-229x300.jpg"
 slug: "i-bambini-sono-speranza"
 has_comments: false
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

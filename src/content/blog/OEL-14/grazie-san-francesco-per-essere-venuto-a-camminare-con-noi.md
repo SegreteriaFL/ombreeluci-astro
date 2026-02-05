@@ -15,7 +15,8 @@ umap_x: 9.566741943359375
 umap_y: 8.717313766479492
 umap_z: 12.193389892578125
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 Dopo due pellegrinaggi ad Assisi (nel ’78 e ora nell’86), penso che dobbiamo considerare S. Francesco come particolarmente vicino a noi. Cerco di riassumerla in qualche punto, in cui vorrei esprimere anche la mia esperienza di Assisi ’86.
 

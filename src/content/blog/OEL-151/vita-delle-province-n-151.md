@@ -12,7 +12,8 @@ umap_x: 7.8821516036987305
 umap_y: 9.774004936218262
 umap_z: 14.629902839660645
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 ### Provincia online
 

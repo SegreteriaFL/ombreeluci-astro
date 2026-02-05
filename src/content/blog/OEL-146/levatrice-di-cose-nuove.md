@@ -12,7 +12,8 @@ umap_x: 8.288379669189453
 umap_y: 12.224940299987793
 umap_z: 11.149893760681152
 issue_number: OEL-146
-id_numero: OEL-146
+id_numero: "OEL-146"
+numero_rivista: "Ombre e Luci"
 ---
 A
 nnamaria De Rino, 87 anni, tra i testimoni degli inizi di

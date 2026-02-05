@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-127
-id_numero: OEL-127
+id_numero: "OEL-127"
+numero_rivista: "Ombre e Luci"
 ---
 Sono il papà di tre splendidi bambini. Matteo 9 anni, il primogenito, il “principe” di casa, colui che per me e mia moglie ha costituito il cambiamento del nostro matrimonio, allevato con cura a volte fin troppo maniacale. **Poi è arrivato Simone, che ora ha 6 anni, ed è affetto da una rara sindrome genetica** (gli abbiamo fatto un pezzo di cromosoma 15 in più) e la nostra vita è definitivamente cambiata.
 

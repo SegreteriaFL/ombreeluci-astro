@@ -15,8 +15,9 @@ umap_x: 8.923271179199219
 umap_y: 5.260852336883545
 umap_z: 8.917021751403809
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 **Diciassette nuovi centri SportHabile**
 che allargano ulteriormente la rete regionale, che adesso supera quota 60, dove persone con disabilità possono fare sport. Le nuove targhe sono state consegnate nella mattina del 10 aprile, in Sala Pegaso a Palazzo Strozzi Sacrati a Firenze, nel corso di una cerimonia alla quale hanno partecipato l’assessore regionale allo sport
 **Stefania Saccardi**

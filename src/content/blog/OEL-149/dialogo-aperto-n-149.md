@@ -12,7 +12,8 @@ umap_x: 4.624191761016846
 umap_y: 7.807589530944824
 umap_z: 10.658591270446777
 issue_number: OEL-149
-id_numero: OEL-149
+id_numero: "OEL-149"
+numero_rivista: "Ombre e Luci"
 ---
 ## Michelavoro
 

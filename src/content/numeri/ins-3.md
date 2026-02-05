@@ -3,13 +3,22 @@ id: "INS-3"
 title: "Insieme n.3"
 tipo: "insieme"
 numero: 3
-anno: "1974"
+sort_order: 3
+pubDate: "1974-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 1974"
 sommario: "Maria diede alla luce il figlio suo primogenito lo avvolse in fasce e lo adagiò in una mangiatoia, perché all'albergo, per loro, non c'era posto... (Lc 2,7)"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-n-3.webp"
 link_sfoglia: "https://archive.org/details/insieme-3_202309"
 link_pdf: "https://archive.org/download/insieme-3_202309/insieme%203.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-3/"
+articoli:
+  - "sono-tornato-stasera"
+  - "noris"
+  - "giovanissimi-n-3"
+  - "buon-natale-antico-corale-trascritto-da-un-bambino"
+  - "ci-ha-scritto-la-mamma-di-roberto"
+  - "avevano-bisogno-di-noi"
+  - "resoconti-degli-incontri-fede-e-luce"
 ---
 
 ## Indice

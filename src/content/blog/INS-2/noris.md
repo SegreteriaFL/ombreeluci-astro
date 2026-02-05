@@ -12,8 +12,9 @@ umap_x: 6.721705913543701
 umap_y: 7.116576194763184
 umap_z: 12.332622528076172
 issue_number: INS-2
+id_numero: "INS-2"
+numero_rivista: "Insieme"
 ---
-
 S
 ono la mamma della piccola Noris, la più grande delle mie bambine. Ho voluto anch'io, come tante altre mamme che mi hanno preceduto, parlarvi della mia creatura. Ve la presento:
 **dodici anni, capelli castani che fanno da cornice ad un faccino delicato**

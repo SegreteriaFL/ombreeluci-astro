@@ -12,7 +12,8 @@ umap_x: 6.0974884033203125
 umap_y: 9.304081916809082
 umap_z: 7.586862564086914
 issue_number: OEL-106
-id_numero: OEL-106
+id_numero: "OEL-106"
+numero_rivista: "Ombre e Luci"
 ---
 Siamo genitori di un bimbo di 5 anni a cui manca la mano destra, esattamente come a quella presentatrice inglese, Cerrie Burnell, che è stata contestata sulla BBC e così abbiamo pensato di cercare un’intervista che raccontasse un po’ di lei. Quando siamo stati sul suo sito, nostro figlio è rimasto muto a guardarla e abbiamo pensato che probabilmente rifletteva sull’effetto che poteva produrre sugli altri la sua menomazione, che tra l’altro lui per ora ha portato senza troppi problemi. Ci siamo poi tornati più volte e ormai anche lui non ci fa più caso, perché questo è stato sicuramente un piccolo esercizio di accettazione di sè che si è trovato a fare e, come emerge dall’intervista stessa, è sicuramente salutare per tutti abituarsi ad avere a che fare con l'handicap in tutti gli ambiti, anche in quelli un po’ patinati della televisione. In questo caso si può dire che il mezzo televisivo non solo non è un ostacolo ma addirittura diventa un aiuto nell’avvicinarsi alle cose vere della vita in modo naturale e quindi a crescere, che è ciò che deve stare a cuore a tutti coloro che si occupano di educazione. *Luciano e Maria Sole Bertolini* , 2009 
 

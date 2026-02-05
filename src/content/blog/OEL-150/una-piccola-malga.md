@@ -14,7 +14,8 @@ umap_x: 5.624156475067139
 umap_y: 8.848652839660645
 umap_z: 8.750697135925293
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 Nel quadro della memoria l’immagine dominante è l’abito che indossavo. Non so perché, ma ogni volta che ripenso a quel primo ottobre di più di vent’anni fa, mi rivedo nel tailleur di lino ecru. Forse perché con quell’abito mi riprendevo un ruolo, un senso, un essere, quasi persi nei quattro mesi trascorsi davanti all’incubatrice.
 

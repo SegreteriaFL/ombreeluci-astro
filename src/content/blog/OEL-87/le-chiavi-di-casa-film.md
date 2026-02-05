@@ -4,8 +4,8 @@ date: 2004-09-13
 author: Maria Teresa Mazzarotto
 slug: le-chiavi-di-casa-film
 lang: en
-numero_rivista: 87
-id_numero: OEL-87
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-87"
 issue_number: OEL-87
 wp_id: 30422
 original_url: "https://www.ombreeluci.it/?p=30422"
@@ -15,7 +15,6 @@ umap_x: 8.843894958496094
 umap_y: 8.459054946899414
 umap_z: 3.0253846645355225
 ---
-
 Ancora un film sul problema dell'handicap, ancora un ragazzo disabile che diventa attore, ancora una volta milioni di persone chiamate a confrontarsi con la sofferenza, l'amore ma anche la gioia che un figlio disabile porta con sé.
 
 Un grande regista, Gianni Amelio presenta in questi giomi al Festival cinematografico di Venezia “Le chiavi di casa?”, la storia di un giovane padre Kim Rossi Stuart — che incontra e “scopre” il figlio disabile quindicenne rifiutato al momento della nascita. La storia è liberamente ispirata al notissimo libro di Giuseppe Pontiggia “Nati due volte”; l'Autore, scomparso un anno fa, aveva dato al regista il consenso per il film.

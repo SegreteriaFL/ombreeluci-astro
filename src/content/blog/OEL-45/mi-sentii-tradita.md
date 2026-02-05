@@ -14,7 +14,8 @@ umap_x: 7.360937118530273
 umap_y: 9.427515029907227
 umap_z: 11.74332046508789
 issue_number: OEL-45
-id_numero: OEL-45
+id_numero: "OEL-45"
+numero_rivista: "Ombre e Luci"
 ---
 È
 passato tanto tempo eppure mi sembra quasi di toccare quei momenti, certe emozioni che mi facevano credere in Dio senza pormi delle domande; mi aspettavo di essere amata, accettata e protetta. Quando, all'età di tredici anni, feci la prima comunione, ero molto emozionata e nel momento in cui presi ( Eucarestia feci una grande promessa; non formulata a parole, ma con tutto il mio cuore mi affidavo a Lui. Poi mi sono sposata; avevamo deciso con mio marito di avere cinque bambini e quando seppi di essere incinta, ero felice ed il mio pensiero è volato a Lui come segno di ringraziamento. Poi tutto è precipitato, tutto si è stravolto; il mio bambino era sofferente: tre giri di cordone gli impedivano di nascere, era asfittico; tenuto sotto controllo per i primi due giorni, al quinto giorno dalla nascita, ci dimisero dicendo solo che era un po’ delicato: che dovevamo aiutarlo nell'alimentazione. Dopo due giorni a casa ebbe altre tre crisi cianotiche e tornammo di nuovo in ospedale per altri otto giorni. Fecero tante ricerche e ci rimandarono a casa con la solita diagnosi evasiva: non ci avevano capito niente.

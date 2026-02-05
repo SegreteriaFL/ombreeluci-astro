@@ -12,7 +12,8 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-10
-id_numero: OEL-10
+id_numero: "OEL-10"
+numero_rivista: "Ombre e Luci"
 ---
 A Tencarola, presso Padova, c’è una comunità e cooperativa di persone handicappate e non, che vale la pena di conoscere - era giunta notizia.
 Sono andato e ho visto e conosciuto la cooperativa [*Girasole* ](http://www.girasoleselvazzano.it/index.htm)che, per la storia della sua crescita, per i risultati raggiunti, per la qualità dei rapporti umani e politici, per la durata (ha compiuti sei anni), mi è sembrata veramente notevole. Ne descrivo in particolare la storia e gli aspetti organizzativi, perché ha molti elementi che le danno il carattere di modello e ispirazione per altre iniziative del genere.

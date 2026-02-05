@@ -18,14 +18,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
 archive_id: OmbreELuci_002
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 periodo_label: Aprile, Maggio, Giugno
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 umap_x: 7.900759220123291
 umap_y: 7.583168983459473
 umap_z: 8.581329345703125
+id_numero: "OEL-2"
 ---
-
 **Quando i ragazzi handicappati mentali escono dalla scuola dell’obbligo, bene o male che sia stato fatto, l’insegnamento finisce. E dopo? Le iniziative sono insufficienti sia per qualità che per numero. Perciò, quando ci hanno parlato del Centro di Vicenza come qualcosa di originale siamo andati subito a conoscerlo. Ve lo proponiamo perché sia modello, stimolo per aiutare a superare lo stato di passiva accettazione di quel che c’è. È possibile trovare in un centro per handicappati mentali spirito d’amore e insieme metodo scientifico?**
 Bruno è un ragazzo Down. Occhi azzurri, capelli biondi, ora serio, quasi impenetrabile, ora con la faccia illuminata in un gran sorriso.
 **“Vuoi mostrare come lavori?”**

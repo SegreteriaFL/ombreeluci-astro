@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 ### C'è una parte di noi stessi che conosciamo solo noi...
 

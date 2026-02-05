@@ -16,7 +16,8 @@ umap_x: 4.727151870727539
 umap_y: 8.223907470703125
 umap_z: 10.391327857971191
 issue_number: OEL-7
-id_numero: OEL-7
+id_numero: "OEL-7"
+numero_rivista: "Ombre e Luci"
 ---
 ### Un'insegnante: «Aiutatemi a sentirmi onesta verso questi ragazzi»
 

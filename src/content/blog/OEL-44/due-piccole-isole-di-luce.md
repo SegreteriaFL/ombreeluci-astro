@@ -15,8 +15,9 @@ umap_x: 7.530552387237549
 umap_y: 9.065279960632324
 umap_z: 6.330373287200928
 issue_number: OEL-44
+id_numero: "OEL-44"
+numero_rivista: "Ombre e Luci"
 ---
-
 C
 ome descrivere la cosa bella che ho visto questa mattina? È avvenuto in un ospedale psichiatrico: 650 malati , uomini e donne. Sì, gli ospedali psichiatrici esistono ancora. Anche se una legge ha decretato la loro abolizione e il loro nome è stato cancellato sulla porta d'entrata. Non è per questo, che con un colpo di bacchetta magica, tutte le persone che soffrono di malattia mentale hanno ritrovato la salute, una famiglia e una società pronte ad accoglierle. In questo parco senza nome, ben tenuto ma privo di vita, tra grandi padiglioni ben strutturati ma avvolti dal silenzio, abbiamo scoperto due piccole isole di luce. Parlo di luce perché è luce quella che ho visto nel laboratorio sul viso di quelle donne quando hanno alzato gli occhi dal loro lavoro di ricamo e di cucito. Avevano un aspetto modesto, un po' tipico delle case di riposo; donne anziane dal corpo ingrossato , spesso persino troppo, e vestite come si può esserlo quando il mondo di fuori vi ha abbandonato. Al di là di tutto questo e malgrado la malattia, vecchia compagna evidente in ognuna di loro, nel loro occhi c'era la vita che riemerge quando qualcuno vi guarda con uno sguardo umano. La stessa luce si vedeva negli occhi degli uomini che ci hanno mostrato con orgoglio il loro orto e il loro allevamento di conigli, tacchini e polli. Vivono insieme. Una comunità in mezzo a questa piccola fattoria! Ogni giorno puliscono il lungo abbeveratoio dei polli, altrimenti c'è la minaccia di malattie (la nostra guida ci racconta che due anni fa morirono tutti i polli) e si occupano dei lavori essenziali alla piccola cooperativa agricola. Forse non è che una piccolissima luce, ma rappresenta la differenza con l'oscurità, quello sguardo «morto» di chi sopravvive invece di vivere. Sono tutti malati gravi, ci spiega il dottore che ci accompagna.
 > Nei loro occhi la vita che riemerge quando qualcuno vi guarda con uno sguardo umano

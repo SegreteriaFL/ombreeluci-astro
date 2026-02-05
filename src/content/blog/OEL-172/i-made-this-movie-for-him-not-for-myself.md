@@ -12,8 +12,9 @@ umap_x: 8.909795761108398
 umap_y: 8.599640846252441
 umap_z: 3.374248743057251
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 “I made this movie for him, not for myself”. The documentary Bobò, which Pippo Delbono dedicated to his long-time friend and collaborator Vincenzo Cannavacciuolo, known as Bobò, who died in 2019 after playing for many years in his theatre company, is a declared act of pure love. **Their relationship was so intense that their separation was extremely painful, and it took five years before the director was able to watch the footage of him again and hear his voice** , finally giving shape to one of those incredible stories that are worth telling: Delbono had discovered Bobò's artistic talent in a psychiatric hospital.
 
 Although the Basaglia Law brought historic changes in Italy’s approach to mental illness, for some people, not much changed in the immediate term. **Bobò was one of those people “forgotten” by the progress of the Basaglia Law: born mute and with microcephaly, he had always lived in the Aversa asylum** , never leaving the institution for more than forty years nor having knowledge of the outside world. Delbono, during a difficult period in his life (due to depression and the discovery that he was HIV-positive, at a time when there was still no cure), met Bobò during a theatre workshop inside the asylum, and not only sensed his instinctive expressive talent, but also realised how good it was for his mental health to be around him. He immediately decided that he would involve him in his theatre work, but he had to wait for the death of Bobò’s guardian, who had always opposed any change in his lifestyle. Instead, Delbono, who imagined accompanying Bobò on a journey of discovery of the world and learning in turn to see the world with fresh eyes thanks to him, took him away and made him an integral part of his theather company, bringing him on Italian and foreign stages.

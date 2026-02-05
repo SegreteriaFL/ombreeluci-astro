@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il 75º Festival Internazionale del Cinema di Berlino, da tutti chiamato Berlinale, è iniziato in una città fredda e innevata; per le strade, si vedono i cartelli politici affissi per le elezioni parlamentari che si terranno in Germania il giorno dopo la premiazione. La campagna elettorale in corso è solo una delle questioni extra cinematografiche che potrebbero segnare questa edizione. Un anno dopo le polemiche sulle posizioni espresse dalla direzione del festival e da molti artisti sul conflitto israelo-palestinese, quel conflitto è ancora in corso; la guerra in Ucraina non è ancora terminata; l’elezione di Trump come presidente USA sta già creando ulteriori tensioni a livello internazionale.
 Nel tentativo di prevenire polemiche con gli artisti invitati, la nuova direttrice artistica Tricia Tuttle si è impegnata a garantire il rispetto della libertà di espressione di tutti,** ferma restando la necessità di rimanere nei limiti della correttezza. Nonostante ciò, anche un festival da sempre inclusivo e libero come la Berlinale ha recepito le nuove regole generali sul divieto di indossare simboli dal significato politico: alcuni lo hanno inteso come un divieto di indossare la kefiah a sostegno della causa palestinese. Restano ferme, per fortuna, tutte le altre forme di inclusione dei partecipanti. Con grande onestà, il festival ha ammesso che presentare film in anteprima mondiale significa che talvolta vengono terminati poco prima di essere proiettati e questo rende impossibile produrne copie accessibili. Tuttavia, alcuni film completamente accessibili sono in programma, con l’ausilio all’applicazione Greta per le audiodescrizioni.
 

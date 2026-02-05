@@ -14,8 +14,9 @@ umap_x: 7.829007625579834
 umap_y: 7.545272350311279
 umap_z: 7.556461334228516
 issue_number: OEL-51
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 D
 all’ingresso, in giardino, un’impressione positiva è data dall'
 **apparenza dei locali**

@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-39
-id_numero: OEL-39
+id_numero: "OEL-39"
+numero_rivista: "Ombre e Luci"
 ---
 «Ho sempre desiderato essere una suora, ma non potevo diventarlo perché non sapevo leggere... Ora sono consacrata a Gesù qui a Betania». Susanna è una delle oblate del Sacro Cuore di Gesù che vivono in una nuova comunità religiosa. Siamo andati a trovarla.
 Nel 1965 una piccola congregazione diocesana della Normandia, le suore del Sacro Cuore di Gesù, fondò a *Saint Aubin les Elbeuf*, a venti chilometri da Rouen, un centro di accoglienza per donne adulte handicappate mentali. Alcune di queste giovani manifestarono durante parecchi anni il desiderio di diventare religiose. Si cercò allora di capire se dal punto di vista spirituale questo era attuabile e fu iniziato un periodo di formazione di sette anni adatto alle loro esigenze. Sei di queste donne furono poi ammesse ai primi voti e diventarono «oblate del Sacro Cuore».

@@ -12,7 +12,8 @@ umap_x: 7.195122718811035
 umap_y: 6.369152069091797
 umap_z: 10.415435791015625
 issue_number: OEL-167
-id_numero: OEL-167
+id_numero: "OEL-167"
+numero_rivista: "Ombre e Luci"
 ---
 Tempo di vacanze; chi se le organizza prima, chi all’ultimo momento, chi coglie occasioni al volo e parte. Tempo di relax e divertimento, fuori dagli schemi e dalla routine quotidiana per giovani, adulti, bambini. Spesso questa cosa così banale, però, non è fattibile e non si riesce a farla per tutti. Non è facile per i ragazzi con disabilità e disturbi cognitivi comportamentali andare in giro e fare vacanze da soli, se non ci sono enti, cooperative o associazioni che si organizzino e soprattutto li invitino. I nostri ragazzi sono complicati, difficili da gestire a volte, ma comunque hanno gli stessi desideri e voglia di divertirsi che hanno tutti i ventenni: divertimento e vacanze tra amici, senza mamma e papà. **Ecco, per loro, che autonomi non saranno forse mai, le cose si complicano se non c’ è qualcuno che li segua e li accompagni.**
 

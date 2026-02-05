@@ -4,8 +4,8 @@ date: 1998-12-10
 author: Maria Teresa Mazzarotto
 slug: ognuno-a-modo-suo
 lang: it
-numero_rivista: 64
-id_numero: OEL-64
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-64"
 issue_number: OEL-64
 wp_id: 12393
 original_url: "https://www.ombreeluci.it/?p=12393"
@@ -19,7 +19,6 @@ umap_x: 8.3683500289917
 umap_y: 7.293530464172363
 umap_z: 9.216382026672363
 ---
-
 Dieci anni sono già trascorsi da quando ho iniziato con alcune amiche ad occuparmi del laboratorio L'Alveare. Da dieci anni, da ottobre a giugno, ogni giovedì dalla 16 alle 19 ci siamo ritrovati in 10, 15, 20 persone, amici e ragazzi disabili mentali, per stare insieme. Per ideare ed eseguire piccoli oggetti destinati ad essere esposti e venduti, per parlare insieme, per prendere il tè, ...ma soprattutto per lavorare. Ora è tempo di bilanci per noi amici assistenti e per gli amici disabili. In questi giorni ho fatto, per mio conto, per quanto mi riguarda un piccolo consuntivo personale ed ecco il risultato.
 
 Ho imparato:

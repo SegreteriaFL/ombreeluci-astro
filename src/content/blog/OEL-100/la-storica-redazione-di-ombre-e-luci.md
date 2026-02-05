@@ -4,8 +4,8 @@ date: 2007-12-29
 author: Cristina Ventura
 slug: la-storica-redazione-di-ombre-e-luci
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 3648
 original_url: "https://www.ombreeluci.it/?p=3648"
@@ -17,7 +17,6 @@ umap_x: 4.828038215637207
 umap_y: 6.607021331787109
 umap_z: 9.68834400177002
 ---
-
 *Tante altre persone lavorano o hanno lavorato negli anni rendendo possibile la preparazione dei numeri e arricchendoli con la loro personalità e il loro impegno.*
 
 ### Sergio Sciascia

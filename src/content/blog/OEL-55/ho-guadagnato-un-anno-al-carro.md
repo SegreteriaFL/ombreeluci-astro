@@ -4,8 +4,8 @@ date: 1996-09-22
 author: Filippo Ascenzi
 slug: ho-guadagnato-un-anno-al-carro
 lang: it
-numero_rivista: 55
-id_numero: OEL-55
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-55"
 issue_number: OEL-55
 wp_id: 10844
 original_url: "https://www.ombreeluci.it/?p=10844"
@@ -17,7 +17,6 @@ umap_x: 6.956406116485596
 umap_y: 8.104912757873535
 umap_z: 9.90584945678711
 ---
-
 Il 9 Giugno abbiamo celebrato al « [Carro](http://www.ilcarro.org/) » il battesimo di Maria, un momento che ha riunito intorno a lei, ai suoi genitori Matteo e Ivana, e alla comunità del «Carro» tutti gli amici, i parenti e le persone che, ognuna con il proprio modo e tempo libero, si sente vicina a quello che la comunità rappresenta. È stato un giorno reso ancora più importante dal fatto che, insieme al battesimo, si festeggiavano i cinque anni dalla nascita della comunità, quindi insieme a Maria si festeggiavano in particolare Sabina, Viviana e Mimmo, i tre ragazzi disabili che di questi cinque anni di storia rappresentano il significato e il frutto. Io ho fatto parte soltanto degli ultimi quindici mesi dell'esperienza del «Carro» e non sono in grado di tirare un bilancio o di descriverne l'evoluzione; posso però cercare di esprimere il contenuto di uno stile di vita e di una quotidianità molto particolari e piuttosto diversi da quello che si vive nelle famiglie «normali».
 
 **Il mio primo contatto con il «Carro» è stato abbastanza casuale** ; infatti non conoscevo i componenti della comunità né facevo parte di gruppi di Fede e Luce dove la comunità è conosciuta; stavo però attendendo la risposta alla mia domanda di obiezione di coscienza. Durante questa attesa si cercano i contatti con enti dove si vuole svolgere il proprio servizio civile ed io stavo cercando la possibilità di vivere un anno di esperienza di vita comunitaria, un'esperienza che mi ha sempre affascinato e che la chiamata obbligata al servizio civile mi dava l'opportunità e forse anche il coraggio di sperimentare. In questa fase, attraverso la conoscenza con Lucia Bertolini, ho saputo dell'esistenza del «Carro», ho telefonato a Matteo, responsabile della comunità e sono andato a parlare con lui della possibilità di fare questa esperienza; insieme abbiamo concordato che prima di prendere una decisione era meglio conoscersi e che anche per me era opportuno che la mia buona volontà si confrontasse con la realtà che si viveva nella comunità; in particolare il mio modo di rapportarmi con i ragazzi, un tipo di relazione di cui non avevo esperienza. Così ho deciso di andare al «Carro» una volta a settimana per quello che in altri enti si chiama «tirocinio» mentre nel mio caso era una ricerca di approfondire la conoscenza reciproca tra me e la comunità. Abbiamo deciso che la cosa si poteva fare e abbiamo avviato le pratiche burocratiche che, per fortuna senza imprevisti, hanno fatto in modo che la settimana di Pasqua del '95 iniziassi la mia esperienza comunitaria.

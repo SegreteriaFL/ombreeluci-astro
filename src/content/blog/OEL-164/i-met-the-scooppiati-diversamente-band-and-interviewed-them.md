@@ -15,8 +15,9 @@ umap_x: 8.067526817321777
 umap_y: 8.076202392578125
 umap_z: 9.153603553771973
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Today I’m accompanied by a musician, Daniele Ponziani, who has accepted to do an interview from me. Daniele is part of the group [**Scooppiati – diversamente band**](https://www.scooppiati.it/) , a band active since 2012, formed by people with disabilities. Their last single, *Un istante, came out last march, and tells of the terrible scenarios of war.*
 
 **Hi Daniele, thanks for accepting this interview. Tell us a little about who you are.** Thank you Antonietta. I’m part of the group Scooppiati, I’m the drummer. The group was formed through a cooperative called H Anno Zero, a cooperative dedicated to people with disabilities.

@@ -12,7 +12,8 @@ umap_x: 7.51435661315918
 umap_y: 10.82497501373291
 umap_z: 4.734123229980469
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 Labambina è Monic, le pile quelle che alimentano le sue protesi acustiche: una giovane donna sorda si racconta, disegnandosi bambina e trasmettendo con poche parole ed efficaci immagini cosa caratterizza il suo mondo. Un mondo che, pur senza suoni, vive di forti contrasti: le immagini in bianco e nero li trasmettono in modo essenziale evidenziando i disagi ma anche le possibilità di una bambina che, con una diagnosi di sordità profonda all’età di due anni, arriva a dieci ad avere l’impianto cocleare.
 

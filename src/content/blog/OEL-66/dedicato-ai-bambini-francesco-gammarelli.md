@@ -4,8 +4,8 @@ date: 1999-06-12
 author: Redazione
 slug: dedicato-ai-bambini-francesco-gammarelli
 lang: it
-numero_rivista: 66
-id_numero: OEL-66
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-66"
 issue_number: OEL-66
 wp_id: 12820
 original_url: "https://www.ombreeluci.it/?p=12820"
@@ -15,7 +15,6 @@ umap_x: 7.479310035705566
 umap_y: 9.437479019165039
 umap_z: 10.85372257232666
 ---
-
 Presentiamo Francesco Gammarelìi perché la sua vicenda breve e intensa, è stata importante per chi lo ha conosciuto. Il suo modo di vivere e partecipare a «Fede e Luce» è un esempio valido per sempre. Non possiamo dimenticare l'affetto e la dedizione che ha mostrato verso gli amici più deboli e i loro genitori.
 
  1 - Viveva Roma, era un signore alto e biondo. Faceva un lavoro speciale: era il sarto del papa!

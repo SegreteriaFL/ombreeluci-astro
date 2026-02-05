@@ -15,14 +15,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_003/Ombre-e-Luci-n.3.pdf"
 archive_id: OmbreELuci_003
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-707x1024.jpeg"
 periodo_label: Luglio – Agosto
-numero_rivista: 3
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-3
 umap_x: 7.442466735839844
 umap_y: 6.5900044441223145
 umap_z: 10.215465545654297
+id_numero: "OEL-3"
 ---
-
 *Questa possibilità - poco credibile per chi non ha mai fatto l’esperimento - è stata una sorpresa per molti che l’hanno provata. Anche questo scritto, come quelli di [Anna Cece](/1983/07/11/vacanze-con-la-differenza-nel-cuore/) e [Agnés Auschitzky](http://www.ombreeluci.it/1983/07/12/ed-e-stata-una-vera-vacanza/) , descrive questa “scoperta” e suggerisce come attuarla.*
 
 La nostalgia delle giornate passate insieme in un campeggio estivo ha spinto un gruppetto di amici di handicappati a tentare l’esperienza del campo anche nel periodo invernale. Le vacanze troppo brevi di Natale e di Pasqua, il clima spesso rigido dell’inverno, il lavoro e lo studio da mandare avanti sembravano essere d’ostacolo e scoraggiare il tentativo; ma il desiderio di vivere insieme le feste più belle con la preparazione e l’attesa che le contraddistinguono spingeva in senso contrario. Attirava anche l’idea di sperimentare di più la vita domestica, di casa, quando fuori piove e nevica, e inoltre si poteva tentare di organizzare così bene le giornate da trovare anche il tempo per lo studio per chi non voleva interromperlo.

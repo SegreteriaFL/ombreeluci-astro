@@ -15,8 +15,9 @@ umap_x: 9.090094566345215
 umap_y: 7.7723774909973145
 umap_z: 8.789786338806152
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 A
 mbiente francese qualche tempo fa al teatro Manzoni di Roma. In programma cera uno spettacolo presentato da una compagnia teatrale del nord della Francia, la compagnia «
 *L’Oiseau Mouche*

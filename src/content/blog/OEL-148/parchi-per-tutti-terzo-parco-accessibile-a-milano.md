@@ -15,8 +15,9 @@ umap_x: 8.345792770385742
 umap_y: 7.150692939758301
 umap_z: 7.749056816101074
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Un nuovo parco accessibile sarà inaugurato a Milano nei **Giardini Martinetti** . L’inaugurazione di questo spazio verde, prevista per **sabato 28 settembre alle ore 11.30** , è la terza tappa del progetto “ **Parchi per tutti** ”. Dopo il [Parco Montanelli](https://www.ombreeluci.it/2018/gioco-al-centro-milano-inaugura-un-parco-accessibile/) , nel 2018, e i Giardini di Villa Finzi nel giugno scorso, ora i bambini e le famiglie avranno un’altra area attrezzata e completamente accessibile per giocare.
 
 Alle 11.30 è previsto il taglio del nastro con la partecipazione dei rappresentanti del Comune di Milano e delle realtà che hanno reso possibile il progetto. Seguiranno momenti di gioco e di festa per tutti i bambini. **Marco Rasconi** , presidente nazionale [UILDM](http://uildm.org) , sarà presente all'evento. Il parco giochi, infatti, è stato reso possibile anche grazie a UILDM e al progetto “ **Giocando si impara** ”. L'inaugurazione dei Giardini Martinetti si inserisce nell'ambito della [**Milano Green Week**](https://milanogreenweek.eu) , manifestazione del Comune di Milano rivolta alla promozione del verde e alla diffusione della cultura “Green”.

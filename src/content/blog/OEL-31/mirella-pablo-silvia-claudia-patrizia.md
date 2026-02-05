@@ -14,7 +14,8 @@ umap_x: 6.755489349365234
 umap_y: 8.720850944519043
 umap_z: 12.35429859161377
 issue_number: OEL-31
-id_numero: OEL-31
+id_numero: "OEL-31"
+numero_rivista: "Ombre e Luci"
 ---
 Mi chiamo
 **Mirella**

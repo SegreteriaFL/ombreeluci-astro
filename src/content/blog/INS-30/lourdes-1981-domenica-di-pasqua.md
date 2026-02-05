@@ -14,8 +14,9 @@ umap_x: 9.568553924560547
 umap_y: 8.236538887023926
 umap_z: 13.492164611816406
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Programma della giornata
 
 **Mattino** ** ** I pellegrini celebreranno l'Eucaristia raggruppati per paese (le ore e i luoghi saranno indicati dai responsabili di comunità).

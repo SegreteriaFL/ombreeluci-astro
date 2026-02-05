@@ -14,7 +14,8 @@ umap_x: 7.4617462158203125
 umap_y: 9.130451202392578
 umap_z: 13.802655220031738
 issue_number: OEL-169
-id_numero: OEL-169
+id_numero: "OEL-169"
+numero_rivista: "Ombre e Luci"
 ---
 **D ue buone notizie, distanti trecento chilometri l’una dall’altra, rallegrano, negli ultimi mesi, la provincia di Fede e Luce Mari e Vulcani** , che riunisce le regioni Sicilia, Campania, Basilicata e Puglia. Le notizie sono la nascita di quelli che nel nostro movimento chiamiamo «semi». Sono i gruppi che iniziano a riunirsi seguendo il carisma di *Fede e Luce* e che presto, se proseguiranno nel cammino, potranno diventare nuove comunità.
 

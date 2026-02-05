@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 # Cinema e disabilità: i 3 film di Adriano Ercolani
 
 ## Abbiamo chiesto ad alcuni critici cinematografici di elencare 3 film che affrontano il tema della disabilità. Adriano Ercolani, che scrive, fra gli altri, su Coming Soon e Screenweek, ha scelto questi.

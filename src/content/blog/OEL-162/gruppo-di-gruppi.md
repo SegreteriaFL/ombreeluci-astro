@@ -12,7 +12,8 @@ umap_x: 8.15755558013916
 umap_y: 7.57928466796875
 umap_z: 9.045980453491211
 issue_number: OEL-162
-id_numero: OEL-162
+id_numero: "OEL-162"
+numero_rivista: "Ombre e Luci"
 ---
 Una comunità di «cattivi maestri». Una comunità aperta e accogliente, fatta di donne e uomini, in sedia a rotelle e in piedi, bisognosi di aiuto e allo stesso tempo desiderosi di aiutare. **Una comunità in grado di intervenire concretamente** sia davanti ai problemi individuali dei componenti interni (l’assistenza, la scuola, i costi della salute, i mezzi di trasporto) sia davanti alle questioni sociali che lasciano molti indifferenti (le disabilità, la sofferenza, i minori incarcerati, la pace, la resistenza alle mafie, le dipendenze da alcol e droghe, il bene comune).
 

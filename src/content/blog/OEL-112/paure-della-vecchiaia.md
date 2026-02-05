@@ -15,8 +15,9 @@ umap_x: 6.382381916046143
 umap_y: 9.22501277923584
 umap_z: 9.573198318481445
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 P
 er Anselmo Grun, monaco benedettino, la vecchiaia genera delle paure specifiche: di cadere nella follia, di vivere, di mancare del necessario, della dipendenza, della malattia, di cambiamenti improvvsi, di nuovi compiti da assolvere, di morire. Di fronte a queste difficoltà gli anziani adottano vari meccanismi di difesa, come spiega la geriatra Agnés Seraux: Il
 **bisogno di controllare tutto**

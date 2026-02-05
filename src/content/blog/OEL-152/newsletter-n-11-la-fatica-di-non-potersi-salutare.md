@@ -15,8 +15,9 @@ umap_x: 6.243396282196045
 umap_y: 5.943935871124268
 umap_z: 8.952628135681152
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 *6 Marzo 2020*
 
 Riflessioni in redazione: il coronavirus ci sta dando un’idea di cosa sia un quotidiano complicato e ridimensionato nelle relazioni che normalmente scandiscono la nostra vita, con e negli ambienti lavorativi, scolastici, amicali, aggregativi. Quelle complicazioni che affronta, in diversa misura ogni giorno, una persona con disabilità, considerando che ciò che determina la disabilità è anche la possibilità di relazionarsi con l’ambiente in cui si è inseriti. Dovremmo far tesoro di questa esperienza per ricordare che, in tempi normali, tanto si può fare per modificare positivamente le società in cui viviamo. E render la vita meno disabile (e meno deserta di opportunità) per tanti. Ma che disagi comporta la diffusione del virus nella vita delle persone con disabilità mentale o fisica, e delle loro famiglie? Due sguardi complementari ci arrivano sul tema: uno da Flora Atlante (foto sopra) che vive in una delle zone italiane dove [l’allerta è molto alta](https://www.ombreeluci.it/2020/che-gran-caos-coronavirs-persone-disabilita/) . L’altro da Veronica De Felice che da Roma ci manifesta chiara e netta [la fatica di non potersi salutare](https://www.ombreeluci.it/wp-content/uploads/2020/03/Veronica.mp4) , come sempre, tra vecchi amici. Soprattutto se c’è da augurare buon compleanno.

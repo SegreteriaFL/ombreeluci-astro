@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-44
+id_numero: "OEL-44"
+numero_rivista: "Ombre e Luci"
 ---
-
 L'ospedale psichiatrico «Maria Immacolata» di Guidonia (Roma), fondato da Don Uva nel 1955, è di proprietà della Congregazione Ancelle della Divina Provvidenza.
 Nel 1978, al momento dell'entrata in vigore della legge 180, l'ospedale ospitava 900 malati che in gran parte non furono dimessi a causa delle loro gravissime patologie. Da allora le nuove ammissioni sono state bloccate, ma circa 650 persone sono ancora lì, e alla malattia si è aggiunto per loro il peso dell’età.
 Sono più di 15 anni che il Prof. Ezio Maria Izzo, primario del II Padiglione dell'ospedale, per aiutare i malati destinati a vivere lì, nella solitudine e neH'immobilità, iniziò un’esperienza che per tanti medici e operatori rappresenta oggi un modello. Furono create due piccole cooperative di lavoro protetto all'interno dell'ospedale, ed in tempi diversi, nel corso di questi anni, circa 80 pazienti ne sono divenuti soci. Alcuni di loro (il 10% circa), grazie a questa esperienza riabilitativa, sono stati dimessi. Gli altri hanno trovato in questi lavori il loro definitivo spazio di recupero psico-sociale. La prima cooperativa comprende un luogo di ritrovo, un bar, un piccolo negozio e un laboratorio di ricamo e cucito.

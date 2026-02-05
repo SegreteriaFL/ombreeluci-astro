@@ -12,7 +12,8 @@ umap_x: 6.992734432220459
 umap_y: 9.135764122009277
 umap_z: 11.692009925842285
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 **C aro Clemente che ricordi hai dei giorni della tua infanzia quando ti portavamo con noi a passare insieme diverse domeniche ogni anno agli incontri di Fede e Luce? Certamente né a me né alla tua mamma veniva in mente di chiedere il tuo parere. In realtà il nostro pensiero implicito era che la comunità di Fede e Luce sarebbe stato un luogo di formazione per te e per la tua crescita. Non ne abbiamo mai parlato insieme e questa è l’occasione per chiederti oggi, per la prima volta, come vivevi quelle giornate. Che ricordi hai, quali sensazioni belle ti sono rimaste e quali invece quelle meno gradevoli?**
 

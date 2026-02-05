@@ -7,6 +7,7 @@ cluster_id: 3
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_117_2012.jpg"
 slug: "riscoprire-la-grazia-della-confessione"
 has_comments: false
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -12,8 +12,9 @@ umap_x: 7.542398929595947
 umap_y: 6.871628284454346
 umap_z: 10.191176414489746
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 È simpatico e piacevole trovarsi a pranzo, a cena con amici in casa di amici, ma a volte è divertente trovarsi tutti fuori in pizzeria. Immagino chi, leggendo queste righe, comincerà ad obiettare: ma io con mio figlio non posso...... mia figlia no, è troppo agitata...... con la carrozzina diventa un traffico, ecc. ecc.: tutte cose superate!
 
 Tutto è iniziato anni fa: i miei figli erano piccoli, agitati e spesso diventava una cosa faticosa l'andare in pizzeria....... finché non abbiamo trovato Sandro e sua moglie che fin dalla prima volta hanno accolto Luca, Andrea e Barbara, veramente a cuore aperto - come dovrebbero essere accolti tutti i bambini nei ristoranti. Per loro non era obbligatorio stare per forza seduti per tutto il pasto, anzi per tenerli occupati Mario - il pizzettaro - dava ad ognuno di loro un po' della pasta della pizza da manipolare (alla fine la pasta era diventata piuttosto scura - sul marrone - e senza dubbio la pizza fatta con quella pasta sarebbe stata insolita, forse più saporita); potevano andare alla cassa a fare l'aiuto cassiere.

@@ -12,14 +12,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf"
 archive_id: OmbreELuci_001
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/1983/03/Archivio-Num.-1-1983-1.png"
 periodo_label: Gennaio, Febbraio, Marzo
-numero_rivista: 1
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-1
 umap_x: 4.399140357971191
 umap_y: 7.48248291015625
 umap_z: 10.39432144165039
+id_numero: "OEL-1"
 ---
-
 La rubrica **Dialogo Aperto** , è per tutti voi, lettori conosciuti e sconosciuti. Non abbiate timore di [scriverci](mailto:ombreeluci@gmail.com) - insieme ai vostri suggerimenti, commenti, critiche, apprezzamenti per la rivista - i vostri problemi o le vostre domande. Così aiuterete altri che hanno i vostri stessi problemi e aiuterete anche noi a conoscere e capire sempre più profondamente il mondo dell'handicap del quale anche noi facciamo parte da molti anni. E noi faremo del nostro meglio per aiutarvi, e per farvi sentire il nostro vero interesse per quello che vivete con quanto di difficile esso comporta.
 
 #### Editoriale

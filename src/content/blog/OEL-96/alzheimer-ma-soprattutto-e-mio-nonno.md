@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "alzheimer-ma-soprattutto-e-mio-nonno"
 lang: it
-numero_rivista: 96
-id_numero: OEL-96
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-96"
 issue_number: OEL-96
 wp_id: 32232
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 ---
-
 Manlio ha 88 anni, ha sempre insegnato musica, più precisamente lo strumento della tromba. Ha una moglie, due figli, tre nipoti, una bella casa. Da qualche tempo però, tutti quelli che sono sempre stati i suoi punti di riferimento, sono diventate le sue paure, le sue angosce. Sua moglie non è più sua moglie, la sua casa non è più quella...tutta la giornata è vissuta alla ricerca delle certezze di una volta. Solo la musica gli è rimasta fedele, amica. E’ stato colpito dall’Alzheimer, conclamato ad un secondo stadio, su una scala che va da zero a sette. La sua famiglia non riesce ad aiutarlo, a gestirlo, ma non sono disposti a farlo neanche le strutture di competenza. “Quando sono arrivati a questo livello ve li dovete tenere a casa, organizzatevi dei turni...” si sono sentiti dire i suoi figli. E così hanno fatto.
 
 Da due mesi non dormono a casa propria, non vanno a fare una passeggiata, non vanno a cena fuori, non leggono un libro...

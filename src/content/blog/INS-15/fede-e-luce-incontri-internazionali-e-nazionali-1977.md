@@ -14,8 +14,9 @@ umap_x: 7.8552470207214355
 umap_y: 8.489588737487793
 umap_z: 13.83790111541748
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Madrid : Incontro Internazionale - Cuneo: Incontro Nazionale
 
 Fede e Luce è uno spirito, un'amicizia, un atteggiamento interiore. Ma... non basta dire "vogliamoci bene" per fare qualche passo in avanti. Riunioni, feste, incontri, giornalino, necessitano di preparazione. Per questo, di tanto in tanto, si fanno degli incontri di responsabili, sia sul piano internazionale che nazionale.

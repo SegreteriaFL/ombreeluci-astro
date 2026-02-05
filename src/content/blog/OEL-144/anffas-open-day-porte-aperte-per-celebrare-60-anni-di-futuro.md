@@ -15,8 +15,9 @@ umap_x: 9.186527252197266
 umap_y: 7.854403018951416
 umap_z: 7.351024150848389
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Dal comunicato ufficiale:*
 **Anche quest**
 **'anno, come ormai abitudine, Anffas apre le sue porte all'interà collettività**

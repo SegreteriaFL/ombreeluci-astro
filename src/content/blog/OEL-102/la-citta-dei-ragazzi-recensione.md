@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-102
-id_numero: OEL-102
+id_numero: "OEL-102"
+numero_rivista: "Ombre e Luci"
 ---
 Come sappiamo i bambini hanno un'abilità straordinaria ad individuare argomenti che noi accuratamente evitiamo di trattare perché ci sono scomodi e imbarazzanti. Uno di questi argomenti è Dio. Per molti non è facile misurarsi con le domande di un bambino, specialmente perché può tirar fuori questioni che non sono ben chiare neanche a noi stessi.
 

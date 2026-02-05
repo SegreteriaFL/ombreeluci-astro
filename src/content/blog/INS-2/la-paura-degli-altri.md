@@ -12,8 +12,9 @@ umap_x: 6.855533123016357
 umap_y: 7.163980960845947
 umap_z: 12.425450325012207
 issue_number: INS-2
+id_numero: "INS-2"
+numero_rivista: "Insieme"
 ---
-
 Èsciocco... è orgoglio... è sbagliato... lo so; farebbe bene alla bambina...lo so! So tante cose, pensate, rimuginate, sentite, sofferte. Devo portarla fuori, con gli altri, come gli altri, dove vado, in qualsiasi posto.
 
 Si fa presto a dire.

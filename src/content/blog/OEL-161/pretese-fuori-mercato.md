@@ -12,7 +12,8 @@ umap_x: 5.129015922546387
 umap_y: 6.951220512390137
 umap_z: 9.353804588317871
 issue_number: OEL-161
-id_numero: OEL-161
+id_numero: "OEL-161"
+numero_rivista: "Ombre e Luci"
 ---
 Centosessanta numeri nei quarant’anni di Ombre e Luci: 4500 tra articoli, lettere e recensioni; 500 circa gli autori, per la maggioranza genitori di persone con una disabilità intellettiva; circa 200 le testimonianze di chi ha una disabilità. Per il resto, un collante fatto dai racconti di altri familiari, amici, professionisti e associazioni che hanno colto la possibilità di confrontarsi con un mondo che, almeno fino a pochi lustri fa, faticava a uscire dal confino sociale rappresentato dal destino, inevitabilmente assegnato, di «infelice».
 

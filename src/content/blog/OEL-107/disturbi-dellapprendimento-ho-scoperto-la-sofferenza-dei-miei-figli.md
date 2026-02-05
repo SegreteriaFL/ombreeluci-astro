@@ -15,7 +15,8 @@ umap_x: 6.295515537261963
 umap_y: 7.4559783935546875
 umap_z: 6.970221042633057
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 Nella mia famiglia la dislessia è ereditaria:ne sono colpiti mio padre, due miei fratelli e tre dei miei figli. Ho scoperto che Arnaud, il maggiore, era dislessico quando era alle elementari. Eravamo a tavola e ha letto l’etichetta del vino a rovescio. Per lui è iniziata una lungo percorso di perdita di fiducia in se stesso. Nonostante due sedute a settimana dall’ortofonista, la sua ortografia rimaneva catastrofica. Passava ore a fare i compiti e poi, alle verifiche, tutti i voti che prendeva erano divisi per due a causa degli errori. Tutte le settimane sono stata convocata dalla maestra che, decisamente, non capiva niente di dislessia.
 

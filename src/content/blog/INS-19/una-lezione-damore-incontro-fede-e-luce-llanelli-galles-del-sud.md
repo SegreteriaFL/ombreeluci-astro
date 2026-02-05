@@ -12,8 +12,9 @@ umap_x: 6.62287712097168
 umap_y: 8.537849426269531
 umap_z: 12.195223808288574
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 **H ugh è un ragazzo inglese, colto, sui trenta anni.** Un giorno, camminando per le strade di Londra, incontra un barbone, sporco e pieno di pulci. Hugh ha subito un profondo senso di pietà per lui e cerca di farselo amico. Vuole insegnargli a vivere decentemente, in una casa come fanno gli altri e cosi gli suggerisce di andare a vivere insieme in un apparta mento.
 
 **Trovano un appartamento piccolo ed economico che fa al caso loro e così Hugh e questo barbone cominciano a vivere insieme** . Non è una cosa facile. Il barbone non è abituato ad una vita organizzata ed è quasi impossibile fargli pagare la sua parte delle spese e molto spesso Hugh deve pagare per tutti e due. Una volta uno dei vicini perse il portafoglio ed il barbone è accusato di averlo rubato.

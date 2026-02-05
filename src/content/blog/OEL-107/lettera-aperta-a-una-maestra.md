@@ -12,7 +12,8 @@ umap_x: 5.589372158050537
 umap_y: 7.977738857269287
 umap_z: 8.336560249328613
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 Anche se consapevole che questo mio scritto forse ti servirà poco, non posso fare a meno di buttar giù alcuni pensieri che mi girano in testa e nel cuore da un po’ di tempo.
 

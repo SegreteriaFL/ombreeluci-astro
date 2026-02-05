@@ -14,7 +14,8 @@ umap_x: 7.451556205749512
 umap_y: 7.925032615661621
 umap_z: 8.208146095275879
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 D a sempre noi di Ombre e Luci, consideriamo fondamentale nella vita dell’adolescente e dell'adulto disabile mentale, la possibilità di un lavoro realmente adeguato alle sue attitudini e capacità. Con altrettanta convinzione sosteniamo che è necessaria una preparazione accurata e una qualche forma di tutela o sostegno al disabile perché il suo lavoro sia veramente tale, porti cioè un suo frutto e conferisca dignità di lavoratore a chi lo svolge.
 

@@ -14,7 +14,8 @@ umap_x: 8.939144134521484
 umap_y: 8.24854850769043
 umap_z: 3.5887014865875244
 issue_number: OEL-162
-id_numero: OEL-162
+id_numero: "OEL-162"
+numero_rivista: "Ombre e Luci"
 ---
 Ilcinema ha offerto **alcune importanti occasioni di confronto con i temi del disagio mentale** suggerendo prospettive particolari: importanti sceneggiature e interpreti capaci hanno saputo dare contorni e spessore ad una dimensione possibile e non così improbabile dell’esistenza. Spesso, guardare una pellicola è divenuto mezzo e spunto di riflessione, pur non esaustivo, non solo per conoscere e immaginare esperienze forse apparentemente distanti da quelle quotidiane ma anche per confrontarsi con le proprie fragilità in ambiti comunitari e terapeutici. Nasceva così, quattordici anni fa, il progetto del Film Festival della Salute Mentale [Lo Spiraglio](https://www.lospiragliofilmfestival.org/) , in uno dei centri diurni della Asl Roma 1 frequentati da chi vive nel disagio psichico.
 

@@ -14,7 +14,8 @@ umap_x: 5.476344108581543
 umap_y: 10.259163856506348
 umap_z: 6.998289108276367
 issue_number: OEL-123
-id_numero: OEL-123
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
 ### 1. La sindrome Down è una malattia genetica ereditaria. FALSO
 

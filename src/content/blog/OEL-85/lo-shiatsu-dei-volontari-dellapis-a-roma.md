@@ -4,8 +4,8 @@ date: 2004-03-08
 author: Giulia Galeotti
 slug: lo-shiatsu-dei-volontari-dellapis-a-roma
 lang: it
-numero_rivista: 85
-id_numero: OEL-85
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-85"
 issue_number: OEL-85
 wp_id: 27501
 original_url: "https://www.ombreeluci.it/?p=27501"
@@ -15,7 +15,6 @@ umap_x: 6.458759307861328
 umap_y: 8.203572273254395
 umap_z: 7.50644063949585
 ---
-
 > Il cuore dello Shiatsu è come il puro affetto materno; la pressione delle mani fa scorrere le sorgenti della vita.
 
 È una frase di Tokujiro Namikoshi che dice Alberto Polidori mentre massaggia Emanuela. La schiena, le braccia, i polsi, le mani, le gambe... È il nocciolo del pensiero filosofico dello Shiatsu, continua, e mi racconta il progetto del loro impegno — chi sono, cosa fanno, come sono nati, i passi che li hanno portati qui, al corpo di Emanuela che si distende, si rilassa, che lentamente si scioglie. Shiatsu è una parola giapponese, composta da *shi* (dita) e *atsu* (pressione). Essa indica la pressione fatta con le dita, in particolare con il pollice, nel tentativo di ricomporre l'equilibrio tra mente e corpo del malato. Massaggiando secondo questa tecnica, che potrebbe quasi sembrare casuale ad un osservatore distratto ma che invece ha un sapere millenario alle spalle, si riesce a garantire stabilità nella pressione e - al contempo - grande sensibilità, arrecando alla persona che riceve il massaggio benefici concreti e tangibili.

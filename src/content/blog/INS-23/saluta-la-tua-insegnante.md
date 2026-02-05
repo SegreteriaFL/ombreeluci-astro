@@ -12,8 +12,9 @@ umap_x: 6.74678897857666
 umap_y: 7.07808780670166
 umap_z: 7.781250953674316
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Esperienze? Molte, più o meno buone. Quando ci è stata offerta la possibilità di inserire Agnese in un asilo-nido come tirocinante, non credevamo alla cosa. Ci sembrava di essere tornati ragazzi ai quali si offre un regalo gradito e desiderato.
 
 C'è stato sempre da lottare e tutt'ora è una lotta che ci affatica, perché l'ambiente è all'oscuro di tutte le necessità dei nostri ragazzi, non si rendono conto che hanno bisogno di amore con la "A" maiuscola, ossia non a parole ma con i fatti. (Intendiamoci, anche a noi genitori non essendo santi, a volte scappa la parolina... perdiamo le staffe, ma uno dei due fa ragionare l'altro col senno di poi, allora l'errore può trasformarsi in esperienza.)

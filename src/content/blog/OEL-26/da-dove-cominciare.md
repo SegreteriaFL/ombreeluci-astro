@@ -17,7 +17,8 @@ umap_x: 5.659507751464844
 umap_y: 8.091100692749023
 umap_z: 8.436978340148926
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 Carissimi genitori «di oltre cinquanta», vorrei tanto poter trovare parole che entrino nel vostro cuore come una goccia di pioggia benefica su terra assetata. Conosco l'amore con cui avete seguito da tanti anni la crescita dei vostri figli: un amore che ha conosciuto sacrifici, riununce, delusioni, frustrazioni, ma anche la gioia di averli potuto tenere vicini, di aver superato lotte e ostacoli, di aver visto i loro progressi, di aver gustato la loro delicatezza. Per alcuni di voi non sempre è andata così. Ora, avvicinandovi alla sera della vostra vita, siete avvolti da nuovo timore: doverlo lasciare, come, dove, a chi? Queste domande che martellano le vostre giornate e, alle volte, le vostre notti insonni, sono un vero problema che si ha paura di guardare in faccia, che si rimanda, che si cerca di dimenticare. Quale goccia benefica far scendere nel vostro cuore? Quali risposte dare a questo autentico tormento? Cerco di mettermi al vostro posto e cerco con voi di trovare alcuni suggerimenti che vi propongo nella speranza di non farvi del male; saprete accoglierli e farli vostri? E se non vi sembrano giusti o fattibili, vorrete perdonarmi di aver rimestato inutilmente nella piaga?
 

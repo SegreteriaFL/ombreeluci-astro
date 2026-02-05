@@ -12,7 +12,8 @@ umap_x: 4.8872904777526855
 umap_y: 7.574618816375732
 umap_z: 11.025994300842285
 issue_number: OEL-110
-id_numero: OEL-110
+id_numero: "OEL-110"
+numero_rivista: "Ombre e Luci"
 ---
 Cari amici di Ombre e Luci, sono contento di mandarvi un saluto ad un anno di distanza dalle mie vacanze in Italia, dove **ho potuto incontrare molti di voi e rinsaldare legami di amicizia** che, anche dopo tanto tempo non si erano allentati (…). Il mio rientro a Guangzhou è stato come rientrare a casa. Sono contento di essere entrato un po’ nella vita di questa gente e soprattutto che loro siano entrati nella mia vita. Non voglio dire che dopo tanti anni in Cina sono diventato uno di loro, perché noi missionari non potremo mai diventarlo del tutto. Infatti la nostra cultura di tanto in tanto riaffiora. Il credere di essere superiori in certe cose vorrebbe imporsi. Lo sforzo di tutti i giorni è di avvicinarsi quanto più possibile a loro come amici, come fratelli (…)
 

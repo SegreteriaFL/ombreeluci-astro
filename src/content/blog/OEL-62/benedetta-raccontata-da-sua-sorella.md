@@ -4,8 +4,8 @@ date: 1998-03-04
 author: Maria Teresa Mazzarotto
 slug: benedetta-raccontata-da-sua-sorella
 lang: it
-numero_rivista: 62
-id_numero: OEL-62
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-62"
 issue_number: OEL-62
 wp_id: 12160
 original_url: "https://www.ombreeluci.it/?p=12160"
@@ -17,7 +17,6 @@ umap_x: 5.248799800872803
 umap_y: 10.138699531555176
 umap_z: 8.995351791381836
 ---
-
 Abbiamo fatto qualche domanda a Marianna, sorella di Benedetta.
 
 **Marianna, all’interno di un gruppo tua sorella è subito facilmente individuabile come persona con problemi?** «No, al primo momento Benedetta non si differenzia dagli altri: nell’aspetto è assolutamente normale. Il suo comportamento può generare, forse qualche curiosità. Solo in seguito si comprendono le differenze reali».

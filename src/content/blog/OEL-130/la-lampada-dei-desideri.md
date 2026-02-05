@@ -14,7 +14,8 @@ umap_x: 7.708582401275635
 umap_y: 7.6201887130737305
 umap_z: 8.288713455200195
 issue_number: OEL-130
-id_numero: OEL-130
+id_numero: "OEL-130"
+numero_rivista: "Ombre e Luci"
 ---
 Ogni genitore accorto si preoccupa di individuare qualche attività che il proprio figlio possa svolgere al di fuori della scuola e si chiede quale possa essere il suo futuro quando la scuola l’avrà terminata. Sono domande ricorrenti, legittime, ma per la mamma e il papà di un ragazzo disabile questi sono però interrogativi che nascondono spesso un disagio e sottendono quasi inevitabilmente una richiesta di aiuto, a volte anche molto angosciata. Una realtà come quella de La Lampada dei Desideri nasce per rispondere almeno in parte a questa richiesta (qui la loro [pagina Facebook](https://www.facebook.com/lalampadadeidesideri.it) ).
 

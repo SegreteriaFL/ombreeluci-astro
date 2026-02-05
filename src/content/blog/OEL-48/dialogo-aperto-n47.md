@@ -12,8 +12,9 @@ umap_x: 4.7104034423828125
 umap_y: 7.425075054168701
 umap_z: 10.710265159606934
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Per non sentirsi soli
 
 Carissimi amici di Ombre e Luci, vi ringrazio per l’invio del vostro giornale che ho letto con molto interesse. Il pensiero della mia conoscente (suppongo chi sia!) di farmi conoscere « Ombre e Luci», è stata una buona iniziativa. Soprattutto in un momento come questo, il lutto per la perdita di mio figlio Philippe, sentivo il bisogno di testimonianze forti di persone o di genitori che esprimono così chiaramente le difficoltà, le gioie e le angosce che si attraversano con un figlio disadattato, come dite voi!. Ho capito che nella sofferenza ci sono molte cose che ci accomunano. E poter dividere le proprie esperienze con altri è molto importante, per non sentirsi soli al mondo a portare il proprio fardello! Saluti affettuosi e felicitazioni per il vostro altruismo. -

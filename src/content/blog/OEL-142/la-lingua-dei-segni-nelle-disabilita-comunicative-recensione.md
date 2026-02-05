@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 "Questo volume raccoglie le esperienze fin qui svolte in Italia di utilizzo della LIS come
 potenziamento allo sviluppo comunicativo dei bambini affetti da gravi disabilità comunicative

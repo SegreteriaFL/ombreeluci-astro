@@ -12,8 +12,9 @@ umap_x: 8.881107330322266
 umap_y: 8.478962898254395
 umap_z: 3.090613603591919
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Olivier Nakache e Éric Toledano sono due registi il cui nome forse è difficile da ricordare, ma che hanno una certa notorietà dovuta al successo di *Quasi amici* . Nel 2019 hanno avuto l’onore di chiudere il Festival di Cannes col loro nuovo film *The Specials - Fuori dal comune* , finalmente disponibile in streaming anche in Italia.
 
 — Leggi anche: **The Specials: raccontare la responsabilità del bene comune**

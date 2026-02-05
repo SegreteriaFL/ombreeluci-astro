@@ -12,7 +12,8 @@ umap_x: 6.299262523651123
 umap_y: 8.888635635375977
 umap_z: 8.0376615524292
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 *Conosco Nunzia da molti anni, da quando sua figlia Emanuela che ha superato da un po’ la trentina, di anni ne aveva solo sei ed era alle prese con la prima elementare.*
 

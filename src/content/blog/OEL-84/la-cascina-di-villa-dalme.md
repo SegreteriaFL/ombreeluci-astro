@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "la-cascina-di-villa-dalme"
 lang: it
-numero_rivista: 84
-id_numero: OEL-84
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-84"
 issue_number: OEL-84
 wp_id: 29020
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
-
 Abbiamo visitato la Comunità alloggio “La Cascina” di Villa d’Almè una mattina di fine agosto. Sebbene piovesse, la bellissima casa, risultato di una ristrutturazione di un vecchio cascinale, appariva ridente. **Marco Crippa, il coordinatore responsabile della Comunità**, ce ne ha parlato per l’ora intera che gentilmente ci ha messo a disposizione.
 
 Guardando il fabbricato e ascoltando come funziona l’organizzazione, uno si sentiva pervadere da un senso di gioia e di sorpresa perché tutto sembra davvero nato e finalizzato a offrire una qualità di vita buona e ricca.

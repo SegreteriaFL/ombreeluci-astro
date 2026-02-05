@@ -16,7 +16,8 @@ umap_x: 9.213637351989746
 umap_y: 10.352119445800781
 umap_z: 8.81857681274414
 issue_number: OEL-25
-id_numero: OEL-25
+id_numero: "OEL-25"
+numero_rivista: "Ombre e Luci"
 ---
 A questa inchiesta sulla integrazione delle persone con handicap mentale della parrocchia, hanno risposto 58 parroci delle seguenti province: 20 di Milano; 15 di Roma; 3 di Como; 2 di Ascoli, Bari, Napoli, Parma; 1 di altre province. 8 di queste risposte provengono da parrocchie dove esiste una comunità Fede e Luce.
 

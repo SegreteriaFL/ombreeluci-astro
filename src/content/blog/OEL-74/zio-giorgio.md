@@ -14,7 +14,8 @@ umap_x: 6.361193656921387
 umap_y: 8.986339569091797
 umap_z: 9.38782024383545
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 Lo zio Giorgio è venuto in agosto a passare qualche giorno da noi, nella casa di famiglia dove è cresciuto. Accolto da dimostrazioni d'affetto dei nipoti e dei cugini, il suo viso sottile incorniciato da capelli bianchi si è illuminato di un magico sorriso.
 

@@ -1,15 +1,33 @@
 ---
 id: "OEL-74"
-title: "Numero 74 - Invecchiando rivelo il mio carattere"
+title: "Numero 74 – Invecchiando rivelo il mio carattere"
 tipo: "ombre-e-luci"
 numero: 74
-anno: "2001"
+sort_order: 173
+pubDate: "2001-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 2001"
 sommario: "Numero 74 – “Invecchiando rivelo il mio carattere” ultima modifica: 2001-08-08T11:23:09+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_74_2001.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_74"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-74-invecchiando-rivelo-il-mio-carattere/"
+articoli:
+  - "la-presenza-dei-piu-piccoli"
+  - "il-lavoro"
+  - "cooperativa-sociale"
+  - "una-cooperativa-sul-mare"
+  - "spazio-aperto-una-cooperativa-di-servizi"
+  - "il-mio-amico-carlo"
+  - "quella-terza-preziosa-eta"
+  - "zio-giorgio"
+  - "mantenere-viva-la-giovinezza-nel-cuore"
+  - "sto-invecchiando"
+  - "progetto-calamaio"
+  - "dialogo-aperto-n-74"
+  - "non-ce-persona-piu-ricca-di-me-recensione-libro"
+  - "il-piano-educativo-riabilitativo-individualizzato-per-il-disabile-mentale-adulto"
+  - "la-forza-del-carattere-recensione-libro"
+  - "il-lavoro"
 ---
 
 ## Indice

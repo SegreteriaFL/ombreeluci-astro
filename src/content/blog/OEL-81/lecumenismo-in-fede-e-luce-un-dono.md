@@ -4,8 +4,8 @@ date: 2003-03-13
 author: Redazione
 slug: lecumenismo-in-fede-e-luce-un-dono
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26294
 original_url: "https://www.ombreeluci.it/?p=26294"
@@ -17,7 +17,6 @@ umap_x: 7.590230464935303
 umap_y: 9.489801406860352
 umap_z: 12.848426818847656
 ---
-
 ### Un dono
 
 Sono arrivato all’Arca, in Francia, dopo aver scoperto la fede cristiana nella Chiesa luterana svedese. Ho trovato che la tradizione cattolica dell’Arca era molto vicina a quello cui ero abituato: questo mi ha aiutato a sentirmi a mio agio. C’erano però alcune cose che facevo fatica a capire o che mi erano estranee. La cosa più dura per me era il modo con cui le persone parlavano di Maria, la madre di Gesù e di come la pregavano.

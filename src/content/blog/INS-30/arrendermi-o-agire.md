@@ -15,7 +15,8 @@ umap_x: 5.3515191078186035
 umap_y: 8.928897857666016
 umap_z: 8.388930320739746
 issue_number: INS-30
-id_numero: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
 Accingendomi a scrivere queste righe su mio figlio Antonio e sulla sua storia, sento d’essere in bilico tra il proponimento di attenermi alla fredda narrazione dei fatti — di per sé già tanto eloquenti — e la tensione emotiva che inevitabilmente rinasce nel trattare un argomento che così profondamente ha inciso nella mia vita. Mi pare che quella della lettera possa essere per me la forma migliore per raccontare la storia di **un rapporto doloroso all’inizio** e irto di impensabili difficoltà, risoltosi poi nel modo che dirò per la mia decisa volontà di non darmi per vinto e **di non lasciare nulla di intentato** , sperando anche contro ogni speranza.
 

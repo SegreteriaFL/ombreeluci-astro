@@ -12,7 +12,8 @@ umap_x: 4.917037487030029
 umap_y: 8.839763641357422
 umap_z: 8.197343826293945
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 Sopravvivere alla morte di una persona cara è uno degli eventi più terribili che si possa affrontare. **Quando si tratta di un figlio, il dolore, l’annichilimento e la percezione di fallimento sono soverchianti e incontenibili.**
 

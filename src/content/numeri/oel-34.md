@@ -1,15 +1,41 @@
 ---
 id: "OEL-34"
-title: "Numero 34 - Così noi lavoriamo con gli altri"
+title: "Numero 34 – Così noi lavoriamo con gli altri"
 tipo: "ombre-e-luci"
 numero: 34
-anno: "1991"
+sort_order: 133
+pubDate: "1991-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 1991"
 sommario: "Numero 34 – Così noi lavoriamo con gli altri ultima modifica: 1991-06-21T09:26:29+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_34_1991.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN.1"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-34-cosi-noi-lavoriamo-con-gli-altri/"
+articoli:
+  - "lavorare-con-gli-altri"
+  - "in-fabbrica-e-una-bella-fatica"
+  - "meglio-stanco-che-annoiato"
+  - "il-piu-popolare-al-velodromo"
+  - "sergio-e-un-buon-giardiniere"
+  - "oggi-e-dei-nostri"
+  - "e-sempre-disponibile"
+  - "primavalle-un-territorio-molti-progetti"
+  - "dialogo-aperto-n-34"
+  - "vita-fede-e-luce-n-34-che-settimana"
+  - "educare-al-servizio"
+  - "storia-di-un-filo-derba"
+  - "lavorare-con-gli-altri"
+  - "in-fabbrica-e-una-bella-fatica"
+  - "meglio-stanco-che-annoiato"
+  - "il-piu-popolare-al-velodromo"
+  - "sergio-e-un-buon-giardiniere"
+  - "oggi-e-dei-nostri"
+  - "e-sempre-disponibile"
+  - "primavalle-un-territorio-molti-progetti"
+  - "dialogo-aperto-n-34"
+  - "educare-al-servizio"
+  - "storia-di-un-filo-derba"
+  - "vita-fede-e-luce-n-34-che-settimana"
 ---
 
 ## Indice

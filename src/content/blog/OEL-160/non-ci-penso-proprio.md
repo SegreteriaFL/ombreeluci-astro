@@ -12,8 +12,9 @@ umap_x: 8.007973670959473
 umap_y: 1.7507171630859375
 umap_z: 9.392674446105957
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Iomi arrabbio perché la Roma fa gol sempre alla fine. **Devo aspettare tutta la partita che non succede niente** e poi alla fine quando io dico che sono arrabbiata e che non esco della stadio Olimpico fino a quando la Roma non fa gol, ecco che alla fine la Roma fa gol. Contro la Salernitana ne ha fatti pure due, uno dopo l’altro quando la partita sta per finire. Anche stavolta, come contro il Vitesse, **tutti mi hanno detto che devo tornare alla stadio perché porto fortuna** quando dico che io non esco finché la Roma non fa gol.
 
 Allo stadio mi diverto tanto perché c’è tanta gente. Arrivo presto perché sennò dopo non c’è il parcheggio per la macchina. Devo far vedere tante volte i documenti e il greenpass. Poi mi siedo e mi mangio un bel gelato, il cornetto Algida al cioccolato e la panna. Mi prendo pure un bicchierone d’acqua. Vado anche al bagno prima della partita. **Mi piace quando ci sono i cori.** Quelli della Salernitana hanno cantato sempre perché vincevano. Poi quando la Roma ha fatto i due gol alla fine, loro sono rimasti male ma cantavano lo stesso.

@@ -12,8 +12,9 @@ umap_x: 7.9667649269104
 umap_y: 7.507136344909668
 umap_z: 8.663958549499512
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Centro di diagnosi — Centro polivalente di riabilitazione e qualificazione professionale — Centro di lavoro guidato — Via Costa Alta — 31015 Conegliano Veneto (TV) — Tel. 0438/31542 dell'Associazione «La Nostra Famiglia» - Sito: [lanostrafamiglia.it](https://lanostrafamiglia.it/it/) - [Contatti](https://lanostrafamiglia.it/it/contatti)*
 P
 er conoscere bene un centro di lavoro e di vita come è questo di Conegliano bisognerebbe viverci almeno per un po’ di tempo altrimenti una visita è sempre un po’ come un mosaico: il quadro è fatto di piccoli pezzi giustapposti: volti di bambini, qualche parola, oggetti realizzati, materiale, angoli della casa, macchine, fotografie, terapisti al lavoro, ecc. Ma a Conegliano i pezzi del mosaico sono tutti colorati, brillano di vita e offrono ai nostri occhi un insieme di grande bellezza. Il senso di questo insieme ci è stato offerto da una delle assistenti sociali che ci ha accolto con calore, ci ha dato con pazienza spiegazioni e dettagli; ci ha condotto attraverso le classi, i corridoi e i laboratori all’incontro con i bambini e i giovani che sono — lo si vede subito — tutti e ognuno molto importanti per lei e per tutti i membri del personale. Più che con lunghi discorsi, vorremmo con qualche scheda e qualche fotografia presentarvi questo centro e darvi il desiderio di conoscerlo e di trarne insegnamento e ispirazione.

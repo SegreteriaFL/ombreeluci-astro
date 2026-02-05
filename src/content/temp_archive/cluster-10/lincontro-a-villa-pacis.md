@@ -7,6 +7,7 @@ cluster_id: 10
 image: "https://www.ombreeluci.it/wp-content/uploads/2020/06/insieme2-212x300.jpg"
 slug: "lincontro-a-villa-pacis"
 has_comments: false
+id_numero: "INS-4"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

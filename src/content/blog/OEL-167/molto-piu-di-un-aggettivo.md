@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-167
-id_numero: OEL-167
+id_numero: "OEL-167"
+numero_rivista: "Ombre e Luci"
 ---
 *Pubblichiamo ampi stralci dall’intervento tenuto a Bruxelles, con collegamenti in rete da tutta Europa, in occasione del lancio del manifesto dell’associazione Celebral Palsy Europe in vista delle elezioni del giugno 2024 per il rinnovo dell’Europarlamento.*
 

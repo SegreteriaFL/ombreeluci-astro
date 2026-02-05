@@ -14,7 +14,8 @@ umap_x: 7.8624067306518555
 umap_y: 8.987676620483398
 umap_z: 7.714021682739258
 issue_number: OEL-114
-id_numero: OEL-114
+id_numero: "OEL-114"
+numero_rivista: "Ombre e Luci"
 ---
 ### Handicap fisico o mentale: totale rispetto
 

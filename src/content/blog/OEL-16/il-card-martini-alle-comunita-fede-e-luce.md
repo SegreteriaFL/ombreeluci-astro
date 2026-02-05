@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Riportiamo alcuni passi della Omelia dell’Arcivescovo di Milano Carlo Maria Martini durante la messa del 25 aprile 1986. Le ultime parole di Nostro Signore prima di salire al cielo, secondo il Vangelo di Marco, sono state «...Andate in tutto il mondo e predicate il vangelo ad ogni creatura. Chi crederà e sarà battezzato sarà salvo, ma chi non crederà sarà condannato! E questi saranno i segni che accompagneranno quelli che credono: nel mio nome scacceranno i demoni, parleranno lingue nuove, prenderanno in mano i serpenti, e se berranno qualche veleno, non recherà loro danno; imporranno le mani ai malati e questi guariranno» (Mc 16, 15-70)*
 
 [...] E voi, carissimi amici, siete venuti qui ad Assisi come pellegrini proprio in nome della fede, una fede che cerca luce. È questo che ci ha condotto qui: credere, voler credere, cioè affidarsi a Dio, anche per le cose più difficili, per quelle che non possiamo capire, per quelle che ci fanno tanta difficoltà.

@@ -14,8 +14,9 @@ umap_x: 6.42340087890625
 umap_y: 9.104402542114258
 umap_z: 9.441287994384766
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 D
 a cosa si definisce la vecchiaia? lo direi da una sclerosi del corpo e dell'anima insieme, alla quale conducono diversi fattori, al primo posto dei quali, la salute. Ma non soltanto! Per esempio, la più anziana della casa dove vivo, a 104 anni, gode di tutte le facoltà mentali. È il corpo che si usura e non risponde più, Una sua assistente ogni giorno si occupa delle cure personali e la porta al ristorante a mezzogiorno. Anche se la sua vista e udito sono deficitari, lei riconosce tuttavia chi la saluta quando passa; per il timbro della voce che conosce bene e vi risponde chiamandovi per nome. Per contro, è difficile vederne alcune diminuire giorno per giorno, perdere i punti di riferimento, fino a cadere nella senilità e a volte nell’Alzheimer, il che ci costringe a domandarci come noi stessi vivremo la fine della vita. La dipendenza è infatti la grande prova della vecchiaia, che ognuno paventa non appena vede le forze diminuire e ogni sforzo diventare penoso. Si fa fatica a pensare di mettere tutto se stesso in mani sconosciute ed è questo fattore di ansia che non risparmia nessuno. La prova si addolcisce secondo la delicatezza di ogni accompagnatore. Bisogna rendere omaggio, grazie alle persone che vedo all'opera, a tutti coloro che fanno del loro lavoro un vero “servizio”. Ma è un cammino da preparare da ambo le parti.
 

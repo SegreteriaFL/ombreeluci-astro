@@ -4,8 +4,8 @@ date: 2003-09-04
 author: Redazione
 slug: medico-ho-imparato-a-consultare-il-mio-cuore-intervista-con-oleh-romanchuk
 lang: it
-numero_rivista: 83
-id_numero: OEL-83
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-83"
 issue_number: OEL-83
 wp_id: 26967
 original_url: "https://www.ombreeluci.it/?p=26967"
@@ -15,7 +15,6 @@ umap_x: 7.583401203155518
 umap_y: 9.558680534362793
 umap_z: 13.499078750610352
 ---
-
 *Oleh Romanchuk è uno di quegli uomini che sembrano dotati di più vite. A 29 anni, sposato da poco, neuropsichiatria infantile, scrittore, Oleh è coordinatore delle sei comunità Fede e Luce in Ucraina. Lavora a Lviv in un centro per ragazzi disabili.*
 
 **Ombre e Luci - Come è andato il suo primo incontro con le persone disabili, che cosa l’ha colpita in particolare?** **Oleh Romanchuk -** Sono andato a una prima riunione di FL invitato da un amico. Non è stato facile come inizio. Fare dei gesti cantando, darsi la mano, mi metteva molto a disagio... All’epoca facevo parte di un’associazione di studenti che combatteva con forza contro il comuniSmo per l’indipendenza dell’Ucraina. Inutile precisare che i modi di comunicare sono molto diversi nelle due situazioni. Mi ricordo di una festa durante un campeggio di Fede e Luce. All’inizio Mérone si limitava a guardarci, non parlava affatto e io pensavo che fosse uno dei suoi handicap. Se ne stava vicino a un muro; non partecipava. Poi mi ha chiesto: “Ma perché nessuno mi invita a ballare?» Io gli ho risposto: “Ma tu sei un uomo, Mérone, sei tu che devi invitare le ragazze: Va ad invitarne una!’’ E, quella sera, per la prima volta nella sua vita, lui ha ballato. Poco dopo mi ha detto una cosa che è rimasta per sempre impressa nel mio cuore “Ora la vita è bella”.

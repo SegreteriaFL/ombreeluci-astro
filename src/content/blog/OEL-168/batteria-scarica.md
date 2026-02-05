@@ -12,8 +12,9 @@ umap_x: 5.86787223815918
 umap_y: 8.422419548034668
 umap_z: 9.727563858032227
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Capita di essere messi alla prova, capita di sentirsi stanchi, sfiniti, perché la quotidianità ti assorbe totalmente, tanto che non trovi neppure il tempo per riposare, o trovare ristoro, o per chiedere. Capita di vivere periodi più impegnativi perché la fragilità umana è appesantita per tanti fattori.
 
 I miei Giorgio e Cristina hanno sofferto molto il caldo, soprattutto lei. Si sono sommati tanti problemi, e non c’è stato riposo. Già ai primi di agosto eravamo K.O., e con la chiusura per ferie del centro diurno è stato tutto proprio impegnativo. Dormivo poco, non c’era più notte e non c’era più giorno, mangiavo meno, inquietudine continua, lamenti, pianti: questa la cornice estiva.

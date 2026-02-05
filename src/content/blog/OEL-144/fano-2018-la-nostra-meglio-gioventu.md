@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 ##### Click here for english version
 
 Vieni e vedi. L’invito era semplice, ma di quelli che fai fatica ad accogliere. Invece settanta giovani provenienti da tutta Italia, da Galilea, Grecia, Cipro e Albania hanno detto sì e a Fano, dal 30 luglio al 5 agosto scorsi, hanno vissuto una settimana di formazione ricca di momenti di riflessione ma anche di conoscenza reciproca e divertimento. Fra testimonianze, occasioni di deserto e white party in riva al mare, i giovani si sono ascoltati e hanno ascoltato gli adulti che si sono rivolti a loro. Hanno lanciato proposte e chiesto fiducia. Sollecitano la possibilità di ripetere occasioni simili, completamente dedicate a loro e organizzate da loro coetanei, ma hanno anche capito che è nelle comunità che sono chiamati a portare la loro freschezza e la loro meravigliosa spontaneità. Sono felice di avere accompagnato, con Carla, Nives, Rosita e don Marco una équipe eccezionale. Noi adulti abbiamo portato a casa mille spunti, i giovani hanno adesso tutto un futuro da costruire, che a Fede e Luce donerà leggerezza e novità.

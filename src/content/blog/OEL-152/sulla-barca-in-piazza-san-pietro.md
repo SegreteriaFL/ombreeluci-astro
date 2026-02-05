@@ -12,8 +12,9 @@ umap_x: 8.605178833007812
 umap_y: 9.007842063903809
 umap_z: 11.99999713897705
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Un uomo solo in uno spazio urbano immenso. Un uomo solo, claudicante, sotto la pioggia nell’ora in cui il giorno lascia il campo alle tenebre. Un uomo solo accompagnato dall’accavallarsi di campane e ambulanze, fragile e fortissimo assieme nel portare a Dio il dolore del mondo, e la speranza della fede. Quando ha preso la parola – da principio affaticato per il cammino compiuto – quell’uomo ha citato un’immagine molto cara alle comunità di Fede e Luce.
 
 «Da settimane sembra che sia scesa la sera – ha detto Papa Francesco venerdì 27 marzo da una piazza San Pietro nuda come mai l’abbiamo vista e mai, probabilmente, la rivedremo – Fitte tenebre si sono addensate sulle nostre piazze, strade e città; si sono impadronite delle nostre vite riempiendo tutto di un silenzio assordante e di un vuoto desolante, che paralizza ogni cosa al suo passaggio: si sente nell’aria, si avverte nei gesti, lo dicono gli sguardi. Ci siamo trovati impauriti e smarriti. Come i discepoli del Vangelo siamo stati presi alla sprovvista da una tempesta inaspettata e furiosa. Ci siamo resi conto di trovarci sulla stessa barca, tutti fragili e disorientati, ma nello stesso tempo importanti e necessari, tutti chiamati a remare insieme, tutti bisognosi di confortarci a vicenda. Su questa barca… ci siamo tutti».

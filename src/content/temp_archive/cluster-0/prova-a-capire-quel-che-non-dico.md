@@ -6,6 +6,7 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "prova-a-capire-quel-che-non-dico"
 has_comments: false
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

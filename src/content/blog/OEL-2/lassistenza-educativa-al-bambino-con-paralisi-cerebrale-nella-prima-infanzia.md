@@ -14,14 +14,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
 archive_id: OmbreELuci_002
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 periodo_label: Aprile, Maggio, Giugno
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 umap_x: 6.722157001495361
 umap_y: 10.121736526489258
 umap_z: 6.421107769012451
+id_numero: "OEL-2"
 ---
-
 Questo libro, che a prima vista può apparire come un breve trattato per i medici o per gli "addetti a lavori”, è in realtà rivolto a una cerchia assai più estesa di lettori; in primo luogo alle mamme di bambini con paralisi cerebrale infantile, che potranno scoprirvi una miniera di spiegazioni, considerazioni e suggerimenti dati da un medico competente e che lavora anche con il cuore. La Grisoni Colli dedica la prima parte del libro ai colleghi pediatri, invitandoli a un esame attento di un bambino con lesioni cerebrali, fin dai primi giorni della nascita: tutto viene spiegato con chiarezza, alla luce di una lunga esperienza con lo scopo di farne una diagnosi accurata ed instaurare una rieducazione il più precoce possibile, che deve andare di pari passo con lo sviluppo del bambino. L’autrice invita il medico alla competenza, alla chiarezza verso i genitori; nello stesso tempo lo invita a non arrestarsi alla formulazione di una diagnosi. La seconda parte, esposta in linguaggio semplice e piano, si rivolge alla mamma, artefice principale dei progressi e della felicità del proprio figliolo, nonostante le limitazioni dell'handicap. Anche questa seconda parte del libro è ricca di chiarezza di speranza; i consigli sono pieni di buon senso e di esperienza, accessibili ad ogni mamma. Il desiderio di questo medico è che si sia
 **“pronti a fare tutto quello che umanamente è possibile fare, pronti a condividere il dolore e l’amore, pronti a prendere e sostenere la nostra responsabilità in un’opera concorde, continua, ostinata, fino ad avere raggiunto il massimo recupero, il massimo ottenibile… ciò che importa è non scoraggiarci, non rimanere passivi”**
 . Ogni bambino ha tanta vita dentro di sé; ed ogni vita ha il suo scopo ed il suo fine. Non è dato a noi spesso conoscere ogni destino: ciò che ci è dato dell’obbligo di aiutare, di dare la nostra opera, col massimo nostro sapere, a beneficio di chi ne ha bisogno. Questo libro è un prezioso mezzo di conoscenza e di speranza per il progresso di tanti bambini cerebrolesi. Questo articolo è tratto da

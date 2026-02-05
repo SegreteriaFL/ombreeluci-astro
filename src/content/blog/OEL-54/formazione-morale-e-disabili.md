@@ -4,8 +4,8 @@ date: 1996-06-14
 author: Redazione
 slug: formazione-morale-e-disabili
 lang: it
-numero_rivista: 54
-id_numero: OEL-54
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-54"
 issue_number: OEL-54
 wp_id: 10665
 original_url: "https://www.ombreeluci.it/?p=10665"
@@ -15,7 +15,6 @@ umap_x: 9.457204818725586
 umap_y: 10.166336059570312
 umap_z: 8.54409408569336
 ---
-
 Se ogni persona ha in sé tanti doni, uri insieme di persone che si riuniscono su un tema quale la catechesi a ragazzi disabili non può che fornire innumerevoli spunti di riflessione e stimoli per il cammino di ogni chiesa locale. Raccontare tutto ciò che è successo durante questo convegno non è quindi semplice: non ci sono state solo le relazioni o le tavole rotonde, ci sono stati anche gli interventi estemporanei, i momenti liturgici e di preghiera, la proiezione di audiovisivi, lo scambio e la consultazione di materiale utilizzato per la catechesi e, in ultima analisi, i volti di chi era vicino nei momenti di «riposo» (durante gli intervalli, a tavola, durante una passeggiata). L’atmosfera che si respirava scaturiva da una condivisa importanza e sensibilità nei confronti del tema del convegno e pur nella considerazione che il cammino da fare è lungo e faticoso, traspariva il desiderio che ogni chiesa locale fosse un luogo di accoglienza e di formazione cristiana per i soggetti disabili. L'aspetto formativo del convegno può essere espresso dai seguenti interventi:
 
 **Relazione su la persona disabile e la verità morale tenuta dal Padre Luigi Lorenzetti, docente di Morale all’Istituto Superiore di Scienze Religiose di Trento.** «Alla condizione di disabile si unisce quella di emarginazione che si verifica di fatto o come conseguenza di una cultura o ideologia». «Il disabile, come ogni altra persona aspira a una realizzazione piena». «La Chiesa è maestra di verità morale quando sa mostrare l'affascinante splendore di quella verità che è Cristo...sia con l’insegnamento che con la testimonianza».

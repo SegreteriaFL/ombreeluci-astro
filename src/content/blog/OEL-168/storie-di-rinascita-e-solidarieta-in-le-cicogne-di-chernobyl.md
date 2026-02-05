@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 C'è chi è riuscito a laurearsi, chi ha il sogno di aprire un panificio continuando a custodire i segreti della tradizione, chi vuole aiutare i più fragili e mettersi in ascolto degli altri. **I bambini di Chernobyl non sono più bambini. Sono donne e uomini che hanno prima attraversato e poi superato il trauma del distacco riscattando le loro vite.** Tutto questo non sarebbe stato possibile se non ci fosse stata la mano tesa e solidale di chi li ha accolti a braccia aperte.
 
 È questo che racconta *Le cicogne di Chernobyl*, il lungometraggio diretto da Karim Galici proiettato in anteprima nazionale venerdì 15 marzo alla Casa del cinema di Roma. Storie di rinascita e solidarietà. Si parte dal racconto del disastro nucleare alla centrale ucraina del 1986 - quello dove morirono ufficialmente 31 persone e a causa del quale si ebbero negli anni seguenti contaminazioni e ancora centinaia e centinaia di morti - e si arriva alle vicende personali dei protagonisti.

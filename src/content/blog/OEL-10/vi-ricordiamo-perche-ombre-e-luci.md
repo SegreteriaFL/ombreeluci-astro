@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-10
-id_numero: OEL-10
+id_numero: "OEL-10"
+numero_rivista: "Ombre e Luci"
 ---
 Perché un’altra rivista? Ce ne sono già troppe!
 Questa frase ce la siamo sentita dire quando si pensava di far uscire *Ombre e Luci*. E abbiamo esitato un po’, dubbiosi che ne valesse la pena.

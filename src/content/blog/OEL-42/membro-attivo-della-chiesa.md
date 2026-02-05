@@ -12,7 +12,8 @@ umap_x: 5.203597068786621
 umap_y: 8.672653198242188
 umap_z: 9.843644142150879
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 Non regolarmente, ma da molti anni, vado alla messa domenicale delle 11 e 30 in una parecchia vicino a casa. Al momento della comunione, fedelmente vedo una decina di adulti dirigersi verso l’altare. Fra loro un ragazzo, un uomo ormai, con i segni evidenti della sindrome Down. Premuroso e dignitoso, accompagna uno dei ministri; insieme scendono per distribuire la comunione in uno dei lati della chiesa. Lo vedo tenere il calice sempre con quella serietà e grande dignità che gli è propria. Si sente sicuramente un membro attivo della comunità parrocchiale; lo è certo molto più di me. E ogni volta è una gioia vederlo andare con il suo passo deciso verso l’altare e poi riscendere verso noi tutti, fratello, servitore, membro attivo della Chiesa. -
 *N.S.*

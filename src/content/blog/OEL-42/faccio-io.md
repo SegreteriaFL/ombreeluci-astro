@@ -12,7 +12,8 @@ umap_x: 5.588114261627197
 umap_y: 8.517730712890625
 umap_z: 8.96418285369873
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 Q
 uante volte ho sentito queste parole nascondere un desiderio profondo di autonomia, di indipendenza. E quante volte purtroppo è mancato il tempo o, peggio, la pazienza e l’attenzione per realizzare questo desiderio. E, al contrario, quante volte, avendo avuto un po’ di attenzione e di pazienza, abbiamo visto fiorire capacità insospettate o comunque facce soddisfatte per aver potuto finalmente «fare da solo»!

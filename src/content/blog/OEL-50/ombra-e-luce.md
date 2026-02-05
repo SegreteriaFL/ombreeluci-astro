@@ -12,8 +12,9 @@ umap_x: 7.027235984802246
 umap_y: 7.295868396759033
 umap_z: 12.58604907989502
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Abbiamo visto tutti, in questi giorni dopo la Pasqua, nelle nostre chiese il cero pasquale, simbolo della luce che il Signore con la sua parola, la sua vita, la sua morte per noi, ha portato nel mondo avvolto nelle tenebre. La notte del sabato Santo, abbiamo acceso la nostra candelina e abbiamo ripetute nella chiesa buia:
 
 > Tu, o Signore, sei la vera luce che illumina la nostra notte, la vita di tutti i giorni...

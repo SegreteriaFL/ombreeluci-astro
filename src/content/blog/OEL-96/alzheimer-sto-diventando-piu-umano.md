@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "alzheimer-sto-diventando-piu-umano"
 lang: it
-numero_rivista: 96
-id_numero: OEL-96
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-96"
 issue_number: OEL-96
 wp_id: 32241
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 ---
-
 “Mia moglie è diventata totalmente disabile. Non posso sopportare l’idea di finire la vita accanto a lei” (un marito). È vero, è una sofferenza insopportabile quando, per un incidente o per una grave malattia, un uomo non può più vivere come sposo ed essere un sostegno per la moglie o viceversa.
 
 La loro relazione d'amore e di fiducia reciproca si è spezzata perché l’altro è cambiato: “Non la riconosco più. Non è più lei”.

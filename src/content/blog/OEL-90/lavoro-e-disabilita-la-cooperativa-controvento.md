@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "lavoro-e-disabilita-la-cooperativa-controvento"
 lang: it
-numero_rivista: 90
-id_numero: OEL-90
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-90"
 issue_number: OEL-90
 wp_id: 30929
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
-
 *Ecco una iniziativa di formazione professionale, interessante e nuova, rivolta ad alcune categorie di portatori di handicap intellettivo. Ce ne parla il promotore di questa esperienza, Luigi Maria Loy. Per un paese come il nostro, con 8000 km di coste, chissà che non possa diventare suggerimento per qualcuno dotato di una sensibilità un po’... controvento!*
 
 L'esperienza “Controvento” è nata nella nostra cooperativa che opera principalmente nel settore dei servizi turistici oc‘cupandosi della gestione stagionale di numerose stazioni balneari lungo il litorale del Poetto Di Cagliari.

@@ -12,7 +12,8 @@ umap_x: 7.421942710876465
 umap_y: 9.060345649719238
 umap_z: 13.735123634338379
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 *Antonietta, Egiziana e Silvia si sono messe al lavoro per aggiornarci sulle loro due comunità, le più “settentrionali” della provincia Kimata: ai piedi delle Alpi Apuane, una rete di amicizia come quella delle comunità Fede e Luce può fare per molti la differenza. Comunità un po’ anziane, apparentemente fragili, apparentemente un po’ ruvide ma abituate a veder tirare fuori dal duro marmo opere d’arte meravigliose, dotate di generosità unica e grande voglia di fare, capaci di non arrendersi mai.* (Fabio Bronzini)
 

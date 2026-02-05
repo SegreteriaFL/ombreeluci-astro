@@ -12,8 +12,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 In concomitanza con [Lucca Comics](https://www.luccacomicsandgames.com/it/2018/home/), una **collaborazione valdese e cattolica** mette al centro il fumetto, l’illustrazione religiosa e la ricchezza della diversità. Dal 31 ottobre al 4 novembre, nel tempio valdese di via Galli Tassi e presso la chiesa di San Cristoforo, mostre e incontri all’insegna della letteratura disegnata, in collaborazione ecumenica.
 
 “Dopo il successo del 2017 con le esposizioni su Martin Lutero (in occasione dei 500 anni della Riforma) e Francesco d’Assisi, quest’anno il progetto ‘**Il fumetto: divertimento, cultura, ecumenismo’** affronta il tema della disabilità e, più in generale, della diversità da accogliere e considerare come una ricchezza” si legge nella presentazione dell’iniziativa organizzata dalla Chiesa evangelica valdese di Lucca insieme alla diocesi cattolica di Lucca grazie a un contributo dell’Otto per mille delle chiese metodiste e valdesi.

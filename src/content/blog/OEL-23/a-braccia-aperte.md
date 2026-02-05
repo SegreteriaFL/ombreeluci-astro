@@ -16,7 +16,8 @@ umap_x: 7.890408039093018
 umap_y: 7.762906074523926
 umap_z: 9.816944122314453
 issue_number: OEL-23
-id_numero: OEL-23
+id_numero: "OEL-23"
+numero_rivista: "Ombre e Luci"
 ---
 Il servizio che offre questa associazione è piccola cosa, ma viva, piena di forza: far uscire da un istituto, da un ospedale dei bambini handicappati per un week end o per un po' di vacanza; dare la possibilità a qualche famiglia di riprendere fiato. Lo offriamo ai nostri lettori come esempio e stimolo nella speranza che qualche gruppo parrocchiale e non, si senta invogliato ad intraprendere qualcosa del genere. È più produttivo «rimboccarsi le maniche» che criticare l’esistenza degli istituti o i genitori che sono costretti a ricorrervi. 
 

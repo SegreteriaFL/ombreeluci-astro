@@ -1,15 +1,36 @@
 ---
 id: "OEL-90"
-title: "Ombre e Luci n.90 - Buone vacanze!"
+title: "Ombre e Luci n.90 – Buone vacanze!"
 tipo: "ombre-e-luci"
 numero: 90
-anno: "2005"
+sort_order: 189
+pubDate: "2005-06-01T00:00:00Z"
 data_pubblicazione: "Giugno 2005"
 sommario: "Numero 90 – Buone vacanze! ultima modifica: 2005-06-19T21:30:04+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_90_2005.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_90"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-90-buone-vacanze/"
+articoli:
+  - "nel-mare-di-assisi"
+  - "giovanni-paolo-ii-non-sembrava-ne-prete-ne-papa"
+  - "io-e-karol"
+  - "giovanni-paolo-ii-visto-da-vicino"
+  - "il-regalo-di-giovanni-paolo-ii"
+  - "giovanni-paolo-il-e-le-persone-disabili"
+  - "il-nostro-don-francesco"
+  - "dedicato-a-don-francesco-trenta-anni-pieni-damore"
+  - "elena-e-il-mistero"
+  - "paradiso-infernale"
+  - "mi-vuoi-bene-lultima-domanda"
+  - "le-chiavi-di-casa-recensione-film"
+  - "lavoro-e-disabilita-la-cooperativa-controvento"
+  - "arte-e-disabilita-incontriamo-giotto"
+  - "qualche-idea-per-una-vacanza-senza-partire"
+  - "alla-mia-bambina"
+  - "dialogo-aperto-n-90"
+  - "il-mondo-delle-cose-senza-nome-recensione"
+  - "fratello-sole-sorella-down"
 ---
 
 ## Indice

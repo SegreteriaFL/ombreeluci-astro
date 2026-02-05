@@ -15,8 +15,9 @@ umap_x: 7.265820503234863
 umap_y: 8.775372505187988
 umap_z: 10.66480827331543
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 L’ultimo ricordo che ho dello “Spilungo” è all’Umberto I. Nonostante fosse visibilmente provato dalle cure, incoraggiava e teneva su di morale il vicino di stanza più anziano di lui... stava ”semplicemente” facendo quello che meglio gli riusciva: prendersi cura del prossimo, mettendo la propria vita in secondo piano.
 
 Mi piacerebbe ricordarlo attraverso “gli occhi trasparenti di un bambino”: non parlo di uno in particolare, ma di quelle decine e decine di bambini che come me hanno avuto la fortuna di essere presi in braccio da questo gigante buono alto “due metri e zero due”..

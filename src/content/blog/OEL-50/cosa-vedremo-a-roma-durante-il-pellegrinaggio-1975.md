@@ -14,8 +14,9 @@ umap_x: 9.27558708190918
 umap_y: 7.963319301605225
 umap_z: 12.997998237609863
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### La tomba di San Pietro
 
 Nella

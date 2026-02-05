@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 L'educatore australiano David Byrne che vive e lavora in Inghilterra, è venuto durante dieci giorni d'aprile a "Scuola Serena" per lavorare e vivere con i bambini, gli educatori, i genitori. È venuto a rompere l'isolamento: isolamento dei ragazzi handicappati gravi, incapaci apparentemente di comunicare con il mondo che li circonda, isolamento degli educatori (ciascuno di essi lavora nell'ambito della propria specializzazione) con alcuni dei quali ha saputo formare una équipe viva e operante, arricchita dalla partecipazione dei genitori.
 
 Tutto è cominciato con il ritorno di Sabina a Scuola Serena, dopo tre mesi di cura in una scuola speciale in Inghilterra dove lavora appunto David.

@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 Come nessun altro bambino avrebbe potuto fare, l’arrivo di Jamie con la sua sindrome di Down, porta nei suoi genitori nel suo fratellino una serie di vissuti, emozioni e riflessioni che ritroviamo molto ben descritti dal suo papà, Michael.
 

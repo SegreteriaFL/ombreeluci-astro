@@ -12,8 +12,9 @@ umap_x: 6.811977386474609
 umap_y: 11.35344409942627
 umap_z: 5.312245845794678
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Analisi
 
 Questo libro è il diario di una mamma il cui bambino si presenta come intellettualmente o psichicamente inferiore alla media comune, ma di una "deficienza" a dire il vero, mal precisata. Siamo informati nei minimi dettagli, del tormento che la venuta e la presenza del bambino causano alla mamma, così come dei problemi che pone in seno alla famiglia. Il padre sembra avere un ruolo molto marginale. Per contro, i fratelli e le sorelle sono presentati come molto collaboranti. Gli educatori extra-familiari hanno un compito tardivo e d'altra parte, l'allontanamento della famiglia sembra essere stato sempre una cosa molto difficile. Finalmente, il ragazzo in questione trova, in un ambiente protetto, una semi soluzione il cui bilancio appare positivo. Anche il problema dell'educazione religiosa è positivamente evocato.

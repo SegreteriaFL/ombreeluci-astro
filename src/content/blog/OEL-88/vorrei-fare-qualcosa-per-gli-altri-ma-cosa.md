@@ -4,8 +4,8 @@ date: 2004-12-14
 author: Redazione
 slug: vorrei-fare-qualcosa-per-gli-altri-ma-cosa
 lang: it
-numero_rivista: 88
-id_numero: OEL-88
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-88"
 issue_number: OEL-88
 wp_id: 30610
 original_url: "https://www.ombreeluci.it/?p=30610"
@@ -17,7 +17,6 @@ umap_x: 7.8350653648376465
 umap_y: 7.822195529937744
 umap_z: 9.982010841369629
 ---
-
 Alla CARITAS diocesana Settore Volontariato — si possono conoscere tutti i servizi di volontariato (mense, centri ascolto...) presenti nella città di residenza.
 
 Tramite i Servizi Sociali municipali si possono conoscere case famiglia (per minori, ragazze madri, disabili...), istituti residenziali per anziani presenti nel territorio, Misericordie. In questi luoghi è indispensabile e spesso carente il contributo del volontario.

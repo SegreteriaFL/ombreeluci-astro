@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-69
-id_numero: OEL-69
+id_numero: "OEL-69"
+numero_rivista: "Ombre e Luci"
 ---
 Mi chiamo Silvia Tamberi. Ho ventotto anni e sono affetta da una Tetraparesi-spastica con componente distonica. Mi sono laureata in Pedagogia Speciale presso l’Università di Parma, con una tesi sulla Famiglia problematica dal titolo "L’isola famigliare".
 Fin da piccola mi è sempre piaciuto scrivere poesie e nel 1989 grazie all’aiuto del [Centro AIAS di Massa Carrara](http://www.aias-onlus.it/) sono riuscita a pubblicare la mia prima raccolta dal titolo "Emozioni". Ora scrivo articoli sulle problematiche dell’handicap, e su vari argomenti e testi narrativi. Oltre alla scrittura mi piace molto leggere, ascoltare la musica ed essere circondata da amici simpatici e allegri. Faccio parte di una comunità Fede e Luce appena nata e dovrei iniziare a coordinare un Centro di Documentazione Handicap del Comune di Carrara.

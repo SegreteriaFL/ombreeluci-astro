@@ -17,7 +17,8 @@ umap_x: 7.634563446044922
 umap_y: 7.575230121612549
 umap_z: 8.980474472045898
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 Avevo in mente da tempo di visitare la **[comunità di S. Preix](http://perceval.ch/)** . La mia amica Irene me ne parlava da tanto: Oliviero, suo figlio, ci vive da più di dieci anni. Conobbi Oliviero quando aveva sei anni; era un bambino immerso nell’angoscia; non aveva alcuna autonomia, era molto instabile, aveva un comportamento asociale, gesti stereotipati, necessitava di continua sorveglianza. Le ricerche vane di un luogo che lo accogliesse a Roma, spinsero i suoi genitori, con la morte nel cuore, a separarsi da lui, dopo avere trovato la soluzione migliore possibile in un’altra località. Ho rivisto regolarmente Oliviero a casa sua, durante le vacanze, per i fine settimana, o a casa mia per un pomeriggio. L’ho visto diventare un giovane calmo e sorridente, capace di svolgere diverse attività. Sa apparecchiare la tavola e sparecchiare, aiutare in cucina, sa sciare, pattinare, andare in bicicletta. Sa vivere meglio con gli altri. Tutti questi miglioramenti mi hanno stupita e meraviglieranno anche voi, soprattutto chi fra voi conosce le difficoltà di cui ho parlato. Oliviero mi ha messo la voglia di conoscere i suoi educatori, educatori nel senso forte della parola, più che una semplice etichetta professionale. Quegli educatori con i quali vive da tanto tempo, con i quali è cresciuto, ha imparato tante cose e ha acquistato l’equilibrio attuale. Così, in settembre, ho avuto l’occasione di poterli conoscere: ho passato una giornata alla fondazione Perceval.
 

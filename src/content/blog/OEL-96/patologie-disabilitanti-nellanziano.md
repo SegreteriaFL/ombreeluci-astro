@@ -4,8 +4,8 @@ date: 2006-12-28
 author: Cristina Lo Jacono
 slug: patologie-disabilitanti-nellanziano
 lang: it
-numero_rivista: 96
-id_numero: OEL-96
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-96"
 issue_number: OEL-96
 wp_id: 32242
 original_url: "https://www.ombreeluci.it/?p=32242"
@@ -19,7 +19,6 @@ umap_x: 7.991734504699707
 umap_y: 12.7473726272583
 umap_z: 9.439628601074219
 ---
-
 ### La demenza: la malattia di Alzheimer
 
 È la più frequente forma di demenza degenerativa nell'anziano e costituisce una delle malattie maggiormente disabilitanti. Contraddistinta clinicamente da un deterioramento progressivo ed ingravescente delle capacità cognitive e dalla comparsa più o meno precoce di disturbi comportamentali, esordisce più frequentemente con un deficit di memoria, ma anche con disturbi del linguaggio, disorientamento temporospaziale, cambiamento di personalità, depressione.

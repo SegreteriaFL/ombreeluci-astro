@@ -14,8 +14,9 @@ umap_x: 7.396271705627441
 umap_y: 7.208815574645996
 umap_z: 12.332690238952637
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 Cercherò di descrivere come ha vissuto, da genitore, l'esperienza della "Casetta". La casetta era sorta dal desiderio degli amici di trascorrere insieme ai ragazzi una intera giornata e nello stesso tempo dare ai genitori un pò di riposo.
 
 Per il mio modo di vedere il problema, ho subito pensato che il riposo ai genitori era un episodio marginale e che sicuramente non poteva incidere sull'atteggiamento dei genitori verso i propri figli.

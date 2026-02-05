@@ -12,7 +12,8 @@ umap_x: 6.972161769866943
 umap_y: 5.083714962005615
 umap_z: 10.514212608337402
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 Nel periodo in cui siamo stati tutti chiusi per il virus, ho sentito la mancanza degli amici e anche dei colleghi di lavoro. Ora che quasi tutto è aperto con precauzioni ho l’occasione di uscire e vedere la natura che è sbocciata nell’orto biologico della Torre. Io ne ho approfittato per portare a casa qualche prodotto facendo contenta mia madre. L’ultima volta che vidi i capi ho sentito le loro idee di fare una gita ai monti, io ne sono contento perché sono sempre in città. Ho l’attrezzatura per fare passeggiate lunghe e porto con me la macchina fotografica e fare schizzi di paesaggi che preferisco; io suggerirò di andare in posti che già conosco e anche dove mangerò bene.
 

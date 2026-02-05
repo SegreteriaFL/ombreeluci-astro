@@ -12,7 +12,8 @@ umap_x: 4.547162055969238
 umap_y: 8.034329414367676
 umap_z: 10.351840019226074
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 ### Genitori forse troppo esigenti
 

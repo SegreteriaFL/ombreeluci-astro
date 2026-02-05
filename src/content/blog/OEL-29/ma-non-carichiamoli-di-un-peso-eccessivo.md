@@ -15,7 +15,8 @@ umap_x: 5.471009254455566
 umap_y: 10.362520217895508
 umap_z: 8.797115325927734
 issue_number: OEL-29
-id_numero: OEL-29
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
 «N**on so perché** , è stupido, e mi fa rabbia, ma **ancora me ne vergogno!** ». Così scriveva, anni fa, una sorellina di un ragazzo Down per dire che non riusciva ad invitare a casa a studiare i compagni di scuola. È giusto parlare di «vergogna» o non sarebbe **meglio parlare di disagio** , di timore che «gli altri» non sappiano capire quel legame così stretto e naturale che si è costruito fin da piccoli; o di paura della «presa in giro» che offenderebbe fin nel profondo lui e lei? La lettera e la testimonianza riportata esprimono solo in parte la situazione in cui si vengono a trovare f **ratelli e sorelle di persone portatrici di handicap** . Situazione che si aggrava quando in casa si è solo in due, uno «sano» e l’altro handicappato, perché allora il confronto è spontaneo e continuativo; le aspettative dei genitori verso il primo sono maggiori, tacite, ma evidenti e comprensibili. Il poterne parlare a cuore aperto è così difficile: «come vuoi che parli della mia pena e dei miei problemi **ai miei genitori** ? Loro hanno già sofferto abbastanza; io **non mi sento di caricarli** anche con le mie storie. E poi, non so se potrebbero capire... ».
 

@@ -11,8 +11,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 La Mostra del Cinema di Venezia ha celebrato la sua ottantesima edizione con il consueto ricco programma di film, stavolta accompagnati da meno star del solito per lo sciopero degli attori hollywoodiani. Nonostante ciò, il programma non ha subito conseguenze anche perché, quando parliamo di Mostra del Cinema, ci riferiamo a un evento che ne contiene tanti: dai concorsi ufficiali (Leone d’Oro a Povere creature! di Yorgos Lanthimos) alla selezione di film restaurati, dalle due sezioni autonome e parallele piene di eventi e ospiti (Giornate degli Autori e Settimana della Critica) alla sezione dei film in realtà virtuale Venice Immersive che si tiene interamente nella piccola isola del Lazzaretto Vecchio, a pochi minuti a piedi e poi in barca dal Palazzo del Cinema.
 
 Una sezione meno nota, quella virtuale, nella quale le esperienze visive sono quasi tutte individuali: un visore copre interamente il volto, si indossano cuffie per l’audio e, quando parte l’esperienza, ci si ritrova immersi in filmati a 360°. Sono molte le potenzialità di questo mezzo: ci sono videogiochi interattivi o film in cui lo spettatore viene completamente guidato alla visione senza poter in nessun modo intervenire, come in un film bidimensionale ma con una visione allargata. Tra le tante, si può vivere la sensazione di immedesimazione con qualcuno che abbia una malattia che lo spettatore non ha. Era capitato qualche anno fa con la schizofrenia, nel film premiato Goliath: Playing with Reality, ed è capitato anche in questa edizione con un paio di opere in concorso.

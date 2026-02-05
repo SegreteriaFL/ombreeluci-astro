@@ -12,7 +12,8 @@ umap_x: 8.648289680480957
 umap_y: 8.39283275604248
 umap_z: 3.504135847091675
 issue_number: OEL-171
-id_numero: OEL-171
+id_numero: "OEL-171"
+numero_rivista: "Ombre e Luci"
 ---
 Erano i primi di settembre del 2023 quando Margherita Tercon ha pubblicato un annuncio per una produzione cinematografica che cercava un attore autistico con un’età scenica di 30-40 anni. Bisognava inviare un videotape di presentazione a lei, che poi lo avrebbe girato alla produzione.
 

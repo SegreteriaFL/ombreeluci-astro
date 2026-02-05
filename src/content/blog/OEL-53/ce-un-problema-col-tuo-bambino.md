@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "ce-un-problema-col-tuo-bambino"
 lang: it
-numero_rivista: 53
-id_numero: OEL-53
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-53"
 issue_number: OEL-53
 wp_id: 10519
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Abbiamo pensato di presentarvi qualche consiglio sotto forma di test.
 Questi consigli potranno essere utili ad alcuni di voi, genitori, (ma anche educatori e amici), per quel duro lavoro quotidiano che è l'educazione, soprattutto dei bambini difficili.
 Disegni e testi (rimaneggiati) sono stati pensati e preparati da esperti educatori che da anni consacrano la loro competenza a bambini con gravi difficoltà.

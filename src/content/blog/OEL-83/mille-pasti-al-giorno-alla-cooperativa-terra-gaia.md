@@ -4,8 +4,8 @@ date: 2003-09-03
 author: Elisabetta De Rino
 slug: mille-pasti-al-giorno-alla-cooperativa-terra-gaia
 lang: it
-numero_rivista: 83
-id_numero: OEL-83
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-83"
 issue_number: OEL-83
 wp_id: 26934
 original_url: "https://www.ombreeluci.it/?p=26934"
@@ -19,7 +19,6 @@ umap_x: 8.183867454528809
 umap_y: 7.159334182739258
 umap_z: 8.862053871154785
 ---
-
 Veramente gentili alla **Cooperativa Terra Gaia** : “...per essere da noi alle 14 come concordato dovrebbe saltare il pasto, venga un po‘ prima e mangi con noi, cuciniamo bene!”. Contenta, più perché mi sembra il modo migliore per conoscere tutti ed evitare la freddezza di una visita guidata che per altro, parto in macchina affrontando le tangenziali milanesi alla volta di Gessate. **Mi accoglie una persona vestita da cuoco** - ovviamente - che inizia subito molto volentieri a rispondere alle mie domande, illustrandomi le foto di presentazione che ornano l’ingresso. Più tardi, a tavola, l’atmosfera è molto conviviale e fraterna, l’accoglienza è calorosa.
 
 **La Cooperativa è nata nell'89 con lo scopo di avviare al lavoro persone con disabilità tali da rendere molto problematico il loro inserimento in un contesto lavorativo tradizionale** . Sono partiti in tre amici con la passione per la cucina appoggiandosi ad una piccola struttura a Gorgonzola. Nel 2000 hanno inaugurato questo nuovo capannone moderno e molto bene attrezzato, che hanno acquistato con parziali finanziamenti della Fondazione Cariplo.

@@ -6,6 +6,7 @@ theme: "cluster-1"
 cluster_id: 1
 slug: "il-tempo-di-unave-maria"
 has_comments: false
+id_numero: "OEL-92"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

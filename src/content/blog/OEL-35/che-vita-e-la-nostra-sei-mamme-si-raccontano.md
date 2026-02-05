@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-35
-id_numero: OEL-35
+id_numero: "OEL-35"
+numero_rivista: "Ombre e Luci"
 ---
 Alcune mamme di giovani con gravi handicap si sono riunite in casa di Mariangela per ascoltare e commentare l’intervento alla trasmissione radiofonica ROMA 3131 di un’altra mamma come loro, Irma, che nella sua disperazione ed amarezza le aveva profondamente commosse. **Riportiamo qui alcune parti dell’intervento di Irma e dei commenti fatti in quell’occasione.
 

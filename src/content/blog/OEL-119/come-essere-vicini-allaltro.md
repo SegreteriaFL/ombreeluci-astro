@@ -14,7 +14,8 @@ umap_x: 6.561267375946045
 umap_y: 9.381954193115234
 umap_z: 8.385443687438965
 issue_number: OEL-119
-id_numero: OEL-119
+id_numero: "OEL-119"
+numero_rivista: "Ombre e Luci"
 ---
 A
 vrei voglia di dire, cosa che sembra evidente e non lo è: essendo presenti! Solo con il cuore si comprende e si accompagna bene qualcuno. Mio nipote a causa del suo handicap è rigido e poco capace di adattarsi agli altri. Tuttavia questa rigidità non gli ha impedito di sentire ciò di cui aveva bisogno una signora che conosceva che era malata e sola all’ospedale. A causa del suo stato di salute a questa donna erano state vietate tutte le visite. Una volta dimessa dall’ospedale, ha raccontato che mio nipote era entrato nella sua camera, si era seduto vicino a lei e le aveva detto: “Non avere paura, io sono qui.” Ed è rimasto così per ore, senza spostarsi. “Mi sono sentita al sicuro” - ha riferito questa donna molto ansiosa- “nessun altro aveva fatto questo per me”. Essere presenti non è dettato dall’emozione, ma dal desiderio di voler essere vicino all’altro in modo che egli possa sentirsi importante solo perché è lui e per nessun’altra ragione. Questo”lui” unico può contare solo se è una parte della nostra vita, se ci prendiamo cura di lui come carne della nostra carne.

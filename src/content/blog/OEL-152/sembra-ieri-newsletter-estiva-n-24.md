@@ -12,8 +12,9 @@ umap_x: 5.9591474533081055
 umap_y: 6.046902656555176
 umap_z: 8.867820739746094
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 S
 embra ieri, ma è passato quasi un anno dalla prima
 [newsletter](https://www.ombreeluci.it/newsletter/)

@@ -14,8 +14,9 @@ umap_x: 6.899435043334961
 umap_y: 8.895426750183105
 umap_z: 12.76096248626709
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 È facile trovare persone disposte ad occuparsi delle persone handicappate; molto più difficile è trovare persone che desiderino stabilire rapporti d’amicizia con loro e quindi disposte a chiedere loro qualcosa.
 
 Qualunque sia il grado di gravità di un handicap, abbiamo sempre qualcosa da imparare dalla persona handicappata non fosse altro che imparare a tacere.

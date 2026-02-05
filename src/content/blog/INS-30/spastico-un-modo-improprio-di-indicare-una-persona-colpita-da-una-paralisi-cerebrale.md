@@ -16,7 +16,8 @@ umap_x: 6.478422164916992
 umap_y: 9.892962455749512
 umap_z: 6.799699783325195
 issue_number: INS-30
-id_numero: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
 **Chi viene definito «spastico?»** Le persone colpite da **lesioni cerebrali cicatrizzate** , non evolutive.
 

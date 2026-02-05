@@ -6,6 +6,7 @@ theme: "cluster-12"
 cluster_id: 12
 slug: "un-luogo-dove-bello-vivere"
 has_comments: false
+id_numero: "OEL-104"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

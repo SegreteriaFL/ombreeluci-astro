@@ -16,7 +16,8 @@ umap_x: 6.049022197723389
 umap_y: 8.401070594787598
 umap_z: 7.93728494644165
 issue_number: OEL-18
-id_numero: OEL-18
+id_numero: "OEL-18"
+numero_rivista: "Ombre e Luci"
 ---
 ### Simone
 

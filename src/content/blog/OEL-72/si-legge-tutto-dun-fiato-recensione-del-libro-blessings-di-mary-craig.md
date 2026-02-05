@@ -14,8 +14,9 @@ umap_x: 7.061144828796387
 umap_y: 11.146018028259277
 umap_z: 5.429405689239502
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 La parola «blessings» significa “benedizioni”. Questo libro racconta la storia di una famiglia inglese che aveva tutto, un buon lavoro per i genitori, salute, agio di vita, istruzione e che alla nascita di due figli disabili sembrò andare alla deriva. Ciò che ne conseguì (avvenimenti, amicizie, crescita personale) deve essere letto: l’esperienza vissuta dall’autrice dimostra che la speranza e la serenità possono essere raggiunte anche nella sofferenza e che questa può essere mitigata o superata e trasformarsi in benedizione. Tutto diventa benedizione dice il sottotitolo del libro e non c’è dubbio che questo sia un cammino faticoso, pieno di difficoltà, e per alcuni di noi impossibile, ma è stato sperimentato da tanti e deve incoraggiarci. Nel percorrerlo non si è soli. Racconta questa mamma: «Mi sembrò all'improvviso che qualcuno mi tenesse ferma, impedendomi di cadere ulteriormente, mentre una voce dentro di me diceva: c’è un modo per uscirne, ma devi trovarlo fuori da te stessa. Ricorda che io sono qui, nell'oscurità. Non sei mai sola».
 
 **Leggi l'estratto dal libro: ["Blessings" di Mary Craig](https://www.ombreeluci.it/2000/blessings-tutto-diventa-benedizione-estratto-dal-libro/)**

@@ -4,8 +4,8 @@ date: 1998-03-04
 author: Redazione
 slug: teresa
 lang: it
-numero_rivista: 61
-id_numero: OEL-61
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-61"
 issue_number: OEL-61
 wp_id: 12163
 original_url: "https://www.ombreeluci.it/?p=12163"
@@ -15,7 +15,6 @@ umap_x: 6.9007487297058105
 umap_y: 8.735801696777344
 umap_z: 8.124944686889648
 ---
-
 T
 eresa fa parte di una categoria di disabili di cui si parla poco, anche se sono molto numerosi. Non è semplice delineare le loro difficoltà, perché fra un disabile lieve e un ragazzo normale non vi sono frontiere facilmente percepibili. E stato detto: «Sono così simili che abbiamo la tendenza a farli salire tutti sullo stesso treno. Dopo ci accorgiamo che i disabili lievi sono più sprovveduti e li pungoliamo» La mamma di Teresa, parlando di lei, dice che è «leggermente disabile» e con queste parole vuole esprimere tutto ciò che esse dicono di doloroso. Molti genitori preferiscono usare il termine «disabile lieve» ed è per questo che userò qui questa parola. Altri parlano di «ritardo mentale» perché ritengono che così si esprime meglio la possibilità di un progresso: a un ritardo si può porre rimedio, soprattutto quando si interviene con rapidità e in modo efficace.
 

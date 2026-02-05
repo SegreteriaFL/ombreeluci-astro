@@ -14,8 +14,9 @@ umap_x: 4.744810104370117
 umap_y: 9.912765502929688
 umap_z: 11.852644920349121
 issue_number: OEL-128
+id_numero: "OEL-128"
+numero_rivista: "Ombre e Luci"
 ---
-
 Eccomi, per la seconda volta, ad occupare il posto che avrei francamente desiderato fosse riempito ancora da lei. Evidente. Ma, almeno per questa volta, tutto il numero, doppio, è dedicato a Mariangela.
 
 Uno speciale attraverso il quale vorremmo far memoria delle cose vissute insieme a lei, fare spazio per altre nei nostri cuori, farla conoscere almeno un poco a chi l’ha solo sentita nominare o ne ha letto articoli sul nostro giornalino. Senza alcuna voglia di finire qua il discorso. Ma con l’idea di non lasciar dimenticare, troppo facilmente, quale messaggio ha testimoniato e quale strada abbia percorso e ci abbia mostrato. Forse troppo presto per molti di noi che l’hanno avuta vicina... ma ci abbiamo provato, raccogliendo qualcosa di ciò che ci ha scritto o detto e attraverso il ricordo di chi l’ha conosciuta. Ricordi più o meno lontani nel tempo, frammenti di vita ed esperienze dell’incontro personale di ciascuno con lei.

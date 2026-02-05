@@ -12,8 +12,9 @@ umap_x: 8.341525077819824
 umap_y: 12.198736190795898
 umap_z: 10.744574546813965
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Questo film è per tutti quelli vivono con sentimenti di solitudine, di angoscia, di sensi di colpa... Siete più belli di quanto pensate! Spero possiate scoprire la tenerezza, che non è voler giudicare o controllare l’altra persona o volerle far del bene..., ma il solo, vero e profondo incontro tra due esseri umani che si riconoscono pienamente *umani* , con una bellezza originaria interiore unica!».
 
 Questo l’abbraccio iniziale che ci sentiamo rivolgere da **[Jean Vanier](https://www.ombreeluci.it/author/jean-vanier/)** nel film a lui dedicato *Le sacrament de la tendresse* , fino a qualche mese fa oggetto di proiezioni e dibattiti in Francia e ora disponibile anche in dvd. Seppur sottotitolato ancora solo in lingua francese, offre una nuova, commovente occasione per conoscere o ritrovare il fondatore dell’Arche, morto il 7 maggio 2019, e di vedere realizzata quella tenerezza, di cui tanto ha parlato, nella sua lunga e feconda vita. La forma è quella di un docufilm in cui si alternano, sostanzialmente, tratti di una lunga intervista raccolta dalla regista e giornalista Frederique Bedos intorno al 2014, quando l’Arche celebrava il suo 50° anno di vita, e incontri con alcune comunità sparse nel mondo, quelle di Trosly, Betlemme e Calcutta. Film per la cui realizzazione sono stati necessari tre anni: in uno dei contenuti speciali del secondo dvd, la regista spiega che il progetto prevedeva solo una lunga intervista a Vanier. Ma che poi questi le abbia chiesto, tenendo in mano delle piccole figure di pecore in lana cotta realizzate in Palestina, di far conoscere l’amore universale che si prodiga all’Arche nel mondo e di visitare comunità come quella di Betlemme.

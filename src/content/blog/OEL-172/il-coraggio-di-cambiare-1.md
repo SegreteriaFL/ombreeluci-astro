@@ -12,8 +12,9 @@ umap_x: 8.826204299926758
 umap_y: 8.828829765319824
 umap_z: 11.87576961517334
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 L'equipe di preparazione del pellegrinaggio mi ha fatto la domanda del secolo: «Quale futuro abbiamo? Come rendere attuale il nostro carisma?». Se avessi la risposta, se la Chiesa avesse la risposta!
 
 Sicuramente avete ricevuto un dono e una missione nella Chiesa: però arriva un tempo in cui, come accade per ogni realtà, bisogna avere il coraggio di lasciarsi trasformare e di essere lievito. Ho avuto la grazia di girare all’estero e di incontrare altre comunità di Fede e Luce e, mi dicevo, l’Italia è diversa. In Italia le comunità sono nelle parrocchie, sono nei contesti. Se dovessi dare degli aggettivi di Fede e Luce direi casa e amicizia e, veramente, luogo di incontro. Ho pensato a due immagini da consegnarvi oggi. All’altare e alle tavole della vita.

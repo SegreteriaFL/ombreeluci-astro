@@ -12,8 +12,9 @@ umap_x: 9.282316207885742
 umap_y: 7.875704765319824
 umap_z: 2.655858278274536
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sorride Anna Magnani sul manifesto ufficiale della 18esima edizione della Festa del Cinema di Roma: la manifestazione interamente dedicata alla settima arte prende avvio oggi, all’Auditorium Parco della Musica “Ennio Morricone”.
 
 Ed è davvero una festa quella che vede Paola Malanga alla direzione artistica e Gian Luca Farinelli alla presidenza della Fondazione Cinema per Roma: coinvolgerà molti luoghi della città (dal Maxxi fino al Teatro Palladium), sarà caratterizzata da **mostre, musica e convegni e, oltre al concorso, conterà numerosissime sezioni non competitive.** Non solo, infatti, la gara *tout court* , ma anche diversi tipi di proiezioni.

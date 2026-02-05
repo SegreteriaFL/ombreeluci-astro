@@ -16,8 +16,9 @@ umap_x: 8.952983856201172
 umap_y: 5.166812419891357
 umap_z: 8.989006042480469
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 **Dal 18 al 24 marzo 2018**
 oltre
 **500 atleti**

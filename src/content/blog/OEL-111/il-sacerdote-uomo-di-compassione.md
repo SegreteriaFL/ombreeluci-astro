@@ -14,7 +14,8 @@ umap_x: 8.596519470214844
 umap_y: 9.992147445678711
 umap_z: 10.142489433288574
 issue_number: OEL-111
-id_numero: OEL-111
+id_numero: "OEL-111"
+numero_rivista: "Ombre e Luci"
 ---
 L
 a missione del sacerdote è di essere mediatore, un ponte che unisce e chepuò condurre l’uomo a Dio. Solo nel Cristo la. mediazione si realizza pienamente. Il prete deve essere di Dio, con Dio e essere completamente uomo. La Vera umanità è partecipare realmente alla sofferenza dell'essere umano, è essere un uomo di'compassione. Cioè mettersi al centro della passione umana, portare. concretamente con gli altri la loro sofferenza, le tentazioni delihostro tempo: “Dio, dove sei in questo mondo?” DI Così si realizza il sacerdozio, lafunzione di mediatore: trasportandosin sé la soffe© renza e la passione del mondo, trasformandola in‘grido. verso Dio, portandola davanti * agli occhi e fra le mani di Dio è portandola realmente così al momento della Redenzione. Il nostro sacerdozio hon gi limita all'atto di.culta, della Messa, neltquale tutto è rimesso fra le mani del Cristo, ma tutta la nostra compassione verso la*sofferenza di questo mondo così lontano da Dio, è ugualmente un atto sacerdotale, un'offerta.

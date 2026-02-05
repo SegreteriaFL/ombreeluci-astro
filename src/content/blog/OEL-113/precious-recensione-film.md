@@ -12,7 +12,8 @@ umap_x: 8.654303550720215
 umap_y: 9.081015586853027
 umap_z: 3.375016927719116
 issue_number: OEL-113
-id_numero: OEL-113
+id_numero: "OEL-113"
+numero_rivista: "Ombre e Luci"
 ---
 Di Precious, film di Lee Daniels tratto dal romanzo di Sapphire Push (Fandango) la trama è ormai nota. Nella Harlems cupa e povera di fine anni Ottanta, questa sedicenne obesa e di colore, abusata dal padre, umiliata dalla madre, semi-analfabeta, con due figli (la maggiore è down) nati dall’incesto e sieropositiva, riesce — quasi miracolosamente — a mettere insieme la sua vita, dandole una direzione. Così Precious si appropria di una dignità e di un’identità che, forse, nonostante il suo nome, non ha mai avuto nella sua vità breve, ma già profondamente ferita.
 

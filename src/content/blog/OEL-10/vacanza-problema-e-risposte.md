@@ -15,7 +15,8 @@ umap_x: 7.282145977020264
 umap_y: 6.491533279418945
 umap_z: 10.592373847961426
 issue_number: OEL-10
-id_numero: OEL-10
+id_numero: "OEL-10"
+numero_rivista: "Ombre e Luci"
 ---
 ### Per noi ci sono vacanze? Per molti le vacanze sono libertà, distensione, vita diversa, viaggio, casa in campagna o al mare, «far niente», «fare quel che mi va». Ma per noi? Quanti problemi! La scuola chiude. Che fare con Cristina, così instabile? Dove portarla? Prima la nonna la prendeva per un mese. Ma ora è diventata troppo vecchia. Come fare per salvare un po' di riposo e di vacanze per la famiglia? Cristina ne è parte integrante: non dobbiamo vivere le vacanze insieme a lei? Discussioni a non finire. Con Cristina, la mamma può avere una vacanza? E i fratelli e le sorelle che non ne possono più? L'atmosfera familiare diventa pesante. Non si va in vacanza? Spesso la decisione è imposta dalle circostanze: niente soggiorno estivo per lei... la nonna non se la sente di prenderla... la famiglia è bloccata. E allora? **I genitori di Cristina**
 

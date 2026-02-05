@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "dai-figli-non-si-divorzia-separarsi-e-rimanere-buoni-genitori-recensione"
 has_comments: false
+id_numero: "OEL-92"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

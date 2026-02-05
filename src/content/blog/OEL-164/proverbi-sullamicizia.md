@@ -12,8 +12,9 @@ umap_x: 6.586756706237793
 umap_y: 8.760198593139648
 umap_z: 12.447721481323242
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Sugli amici
 
 > Un amico vuole bene sempre, è nato per essere fratello nella sventura. Proverbi 17,17

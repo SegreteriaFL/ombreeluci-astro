@@ -17,7 +17,8 @@ umap_x: 7.712532043457031
 umap_y: 9.034906387329102
 umap_z: 7.721249580383301
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 ### Parole tabù
 

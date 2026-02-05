@@ -7,6 +7,7 @@ cluster_id: 7
 image: "https://www.ombreeluci.it/wp-content/uploads/2021/06/Copertina_OeL_154_2021-206x300.jpg"
 slug: "padel-una-parola-che-non-si-capisce"
 has_comments: false
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

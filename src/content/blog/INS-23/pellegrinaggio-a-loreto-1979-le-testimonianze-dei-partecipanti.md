@@ -14,8 +14,9 @@ umap_x: 9.136956214904785
 umap_y: 8.328145980834961
 umap_z: 13.037285804748535
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 ### La più bella esperienza della mia vita
 
 A dir la verità prima di affrontare il pellegrinaggio di Loreto non ne ero molto entusiasta perché ho sempre parecchio da fare con la scuola... (invece)... è stata forse la più bella esperienza della mia vita.

@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Del sussidiario delle elementari non ricordo quasi nulla, se non un’illustrazione che dominava – proprio a metà testo – due pagine: *Le età dell’uomo*. Mi affascinava quella trasformazione che seguiva dalla culla all’età-con-bastone le fasi della vita umana, e che accostavo a un meraviglioso filmato sull’evoluzione dei bruchi in farfalle visto a scuola. Crescendo, però, ho scoperto che quelle tappe che dovrebbero accompagnarci tutti, in realtà non lo fanno: c’è infatti chi non ha diritto alle “età dell’uomo” perché da quando nasce a quando muore viene intrappolato in una carta moschicida.
 
 In occasione della festa della mamma un noto quotidiano italiano dedicava un pezzo alle madri dei “figli eterni bambini”. Ho ripensato al sussidiario della mia infanzia e – ancora una volta (perché quel quotidiano, che per tante altre cose ha visione e coraggio, non è certo un’eccezione) – sono rimasta turbata da come le persone con disabilità vengono viste sempre uguali a se stesse, immutabili nel tempo.

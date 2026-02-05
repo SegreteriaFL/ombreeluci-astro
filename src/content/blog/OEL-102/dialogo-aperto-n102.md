@@ -12,7 +12,8 @@ umap_x: 4.357675075531006
 umap_y: 7.888621807098389
 umap_z: 10.341854095458984
 issue_number: OEL-102
-id_numero: OEL-102
+id_numero: "OEL-102"
+numero_rivista: "Ombre e Luci"
 ---
 ### Ma è sempre proprio così?
 

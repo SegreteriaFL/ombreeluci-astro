@@ -12,8 +12,9 @@ umap_x: 7.935776710510254
 umap_y: 6.854263782501221
 umap_z: 11.315224647521973
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 ### Viaggio in Belgio
 
 DOMENICA 6 GIUGNO preparati armi e bagagli, Maria e Luce (Biondi) è partita per il Belgio. Alcuni amici sono andati ad accompagnarla a Fiumicino, altri erano a prenderla all'aeroporto di Bruxelles.

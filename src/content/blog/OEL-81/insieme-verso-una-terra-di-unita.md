@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "insieme-verso-una-terra-di-unita"
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26288
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 A Fede e Luce abbiamo iniziato a camminare nell'ecumenismo per rispondere alle necessità delle persone con un handicap accolte all'interno delle nostre comunità e che appartengono a differenti tradizioni cristiane e religiose. Queste persone ci hanno chiamato a scoprire come aiutarle a integrarsi pienamente nella vita comunitaria, approfondendo la loro personale tradizione, e a scoprire anche come celebrare alcune feste tutti insieme, come una sola famiglia...
 
 La mia esperienza si è allargata in seguito a numerosi incontri e profonde amicizie con uomini e donne appartenenti a diverse confessioni religiose.

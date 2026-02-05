@@ -12,7 +12,8 @@ umap_x: 5.126557350158691
 umap_y: 7.713572978973389
 umap_z: 11.25165843963623
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 ### Una festa lunga 25 anni
 

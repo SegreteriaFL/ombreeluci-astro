@@ -11,8 +11,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 “C’era una volta la città dei matti”, la miniserie apparsa su Raiuno, è stata vista da cinque milioni e mezzo di persone: un risultato strepitoso dato l'argomento non proprio di intrattenimento leggero. In due sere abbiamo rivissuto la vicenda di Franco Basaglia “psichiatra dell'utopia”, interpretato da un bravissimo Fabrizio Gifuni. Non posso e non devo qui ricordare per intero tutta la sua storia, né i cambiamenti sopraggiunti nel campo della psichiatria dopo la sua esperienza umana e scientifica. E nemmeno voglio additare le innovazioni positive ma anche, gli errori e le leggerezze, commesse dopo l’applicazione della Legge180 e le recriminazioni e le condanne che ne sono derivate.
 
 Voglio solo ripensare a quest'uomo, un medico laico figlio del suo tempo, che per primo dopo secoli ha saputo intravedere dietro lo schermo pesante della follia, la sofferenza, il disagio e la miseria che spesso ne sono l'origine; che si è battuto perché al malato fosse riconosciuta contro ogni pregiudizio e paura, la sua identità di essere umano e quindi i suoi diritti e le sue esigenze primarie, indispensabili alla vita di ognuno. Halottato, contro convinzioni secolari, perché le persone che se ne occupano, dai medici più illustri agli inservienti, vedano innanzitutto nei malati mentali un loro simile, con sofferenze da alleviare, e dignità da preservare. Mi chiedo: che cosa c'è di più aderente di questa intuizione al messaggio cristiano? Chi prima di lui ha saputo guardare dietro alla barriera della follia che da sempre ci spaventa, con intelligenza e pietà così limpidi?

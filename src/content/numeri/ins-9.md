@@ -1,15 +1,26 @@
 ---
 id: "INS-9"
-title: "Insieme n. 9 - Bollettino Fede e Luce - 1976"
+title: "Insieme n. 9 – Bollettino Fede e Luce – 1976"
 tipo: "insieme"
 numero: 9
-anno: "1976"
+sort_order: 9
+pubDate: "1976-04-01T00:00:00Z"
 data_pubblicazione: "Aprile – Maggio 1976"
 sommario: "'Il Regno dei cieli è simile a un granellino di senapa, esso è il più piccolo di tutti i semi, ma una volta cresciuto è più grande degli altri!' Matteo 13,31"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/cover-insieme-n-1.webp"
 link_sfoglia: "https://archive.org/details/insieme-9/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-9/Insieme%209%20mag%20giu%20lug%201976.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/"
+articoli:
+  - "vedremo-mai-la-luce"
+  - "ci-hanno-scritto-2"
+  - "dove-lo-prendo-tanto-amore"
+  - "xavier-un-mio-un-nostro-nuovo-a-amico"
+  - "esperienze-un-week-end-fuori-dallordinario"
+  - "un-metodo-efficace-per-leducazione-dei-bambini-con-disabilita"
+  - "guidare-alla-luce-catechesi-sensoriale-per-una-vita-spirituale-inclusiva"
+  - "letture-consigliate-darti-la-vita-recensione"
+  - "notiziario-fede-e-luce-il-resoconto-dellultima-festa-della-luce-e-altre-notizie-dal-movimento"
 ---
 
 ## Indice

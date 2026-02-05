@@ -11,8 +11,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-20
+id_numero: "OEL-20"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Molti dei nostri ragazzi sono affascinati dalla chitarra. Spesso però si limitano a strimpellarla senza alcuna conoscenza e solo per gioco. **Con questo articolo, Giorgio Paci, spiega come è riuscito a fare lezione di chitarra ad alcuni di loro e ci dice le difficoltà e i risultati ottenuti. **Ci sono certamente altri strumenti più facili e più adatti, come lo xilofono, per esempio, e saremo contenti di ospitare altre iniziative di questo genere.*
 
 Prima del breve corso di chitarra che ho tenuto all’ABD (ora [AIPD](https://aipd.it/), *ndr*) nella scorsa primavera, avevo avuto poche esperienze con i bambini con sindrome di Down.

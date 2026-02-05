@@ -16,7 +16,8 @@ umap_x: 9.544169425964355
 umap_y: 10.31281566619873
 umap_z: 9.324041366577148
 issue_number: OEL-139
-id_numero: OEL-139
+id_numero: "OEL-139"
+numero_rivista: "Ombre e Luci"
 ---
 Philippine è battezzata e cresimata. Tutte le domeniche fa la comunione. Più volte ha ricevuto l’unzione degli infermi. Ma **per ciò che concerne il sacramento della confessione: perplessità** .
 

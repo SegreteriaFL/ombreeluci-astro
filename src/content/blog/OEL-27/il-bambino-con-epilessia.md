@@ -14,7 +14,8 @@ umap_x: 7.049160480499268
 umap_y: 10.434796333312988
 umap_z: 5.794281005859375
 issue_number: OEL-27
-id_numero: OEL-27
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
 Questo libro è destinato non solo ai giovani epilettici e alle loro famiglie, ma anche al personale educativo, agli infermieri, ai servizi sociali e a quanti quotidianamente si interrogano sui modi e sulle possibilità di aiutare i piccoli malati a superare la malattia. L’epilessia, per le sue radici storiche, è legata all’idea di una malattia incurabile o che almeno necessita di una terapia a vita. In realtà le epilessie nella maggioranza dei casi sono curabili. **Non esiste «una epilessia» ma «delle epilessie»** ; molte si risolveranno spontaneamente, per altre sarà necessaria una terapia adatta al caso, per altre ancora sarà comunque possibile ottenere rilevanti miglioramenti della qualità della vita del bambino.
 

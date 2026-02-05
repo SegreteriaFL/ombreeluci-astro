@@ -12,7 +12,8 @@ umap_x: 7.466588497161865
 umap_y: 9.128047943115234
 umap_z: 12.842581748962402
 issue_number: OEL-135
-id_numero: OEL-135
+id_numero: "OEL-135"
+numero_rivista: "Ombre e Luci"
 ---
 **“Senti, volevo parlarti: ho un’idea che sembra fatta apposta per te!”.** È così che è iniziato tutto, con una proposta buttata là quasi per caso dal nostro padre Valdeci, parroco di San Zenone, un brasiliano trapiantato a Terni a portare un po’ di allegria. Un progetto che, in quel dicembre, ci colse di sorpresa un po’ tutti. Però quando ci illustrò di che si trattava, sembrò a tutti la proposta giusta proprio perché mancava: una comunità formata dai ragazzi diversamente abili (i nostri ragazzi), dai loro familiari e dai loro amici, per condividere insieme gioie, preoccupazioni, risate, dolori e pensieri di questa pazza avventura che è la vita.
 

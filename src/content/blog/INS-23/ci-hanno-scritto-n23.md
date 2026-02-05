@@ -12,8 +12,9 @@ umap_x: 6.3633341789245605
 umap_y: 7.810884475708008
 umap_z: 12.165874481201172
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 ### Cari amici
 
 Tante grazie per tutti i numeri di "Insieme" che mi avete mandato. Ho trovato l'ultimo numero molto interessante. Due cose hanno fatto la mia gioia: la prima è la mappa d'Italia con tutti i gruppi "Fede e luce" esistenti o nascenti. La seconda è il grande numero di persone che firmano gli articoli, tanti nomi sconosciuti! Due fatti che sono per me il segno che la famiglia di "Fede e luce" cresce in minuta delle speranze infuse nei cuori. Come avevo lasciato Roma ed i gruppi esistenti in quel tempo, ho dovuto lasciare Pau ed il gruppo che era nato due anni fa. Tante persone mi hanno espresso la loro pena ma per fortuna c'è stata la riflessione di Didier, un ragazzo cosiddetto da noi "disadattato": "Non preoccuparti, Michel, noi ce la faremo." Nella speranza di lavorare alla nascita di un gruppo a Bayonne, vi assicuro tutti della mia amicizia.

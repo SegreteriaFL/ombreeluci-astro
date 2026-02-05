@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-39
-id_numero: OEL-39
+id_numero: "OEL-39"
+numero_rivista: "Ombre e Luci"
 ---
 Il convegno, promosso dall’Opera Don Guanella e dal B.I.C.E. (Bureau International Catholique de l’Enfance), si è svolto a Milano dal 3 al 5 maggio 1990.
 Gli obiettivi degli organizzatori erano tre in particolare:

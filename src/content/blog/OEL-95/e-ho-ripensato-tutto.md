@@ -4,8 +4,8 @@ date: 2006-09-27
 author: Cristiana Vigli
 slug: e-ho-ripensato-tutto
 lang: it
-numero_rivista: 95
-id_numero: OEL-95
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-95"
 issue_number: OEL-95
 wp_id: 32109
 original_url: "https://www.ombreeluci.it/?p=32109"
@@ -17,7 +17,6 @@ umap_x: 5.0830302238464355
 umap_y: 9.24301528930664
 umap_z: 6.969821453094482
 ---
-
 Interesse, ammirazione, imbarazzo, senso di inadeguatezza, a tratti rimorso, serenità e altri sentimenti ancora, diversi e contraddittori, hanno suscitato in me le pagine dello [**scorso numero di “Ombre e Luci**](https://www.ombreeluci.it/project/ombre-e-luci-n-94-unattesa-difficile/) su quella che la redazione ha definito “ [Un'attesa difficile](https://www.ombreeluci.it/tag/gravidanze-difficili/) ”.
 
 Ho vissuto la gravidanza come un periodo di incanto, un'esperienza stravolgente, unica pur se vissuta più volte, e che ogni volta, ad un tempo, mi ha fatto sentire la limitatezza della nostra condizione di creature e, insieme, percepire, seppure confusamente, un barlume di infinito, di quell'immagine di Dio che è in ciascuno di noi.

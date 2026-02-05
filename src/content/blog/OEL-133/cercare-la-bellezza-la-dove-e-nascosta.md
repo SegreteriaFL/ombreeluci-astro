@@ -12,7 +12,8 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-133
-id_numero: OEL-133
+id_numero: "OEL-133"
+numero_rivista: "Ombre e Luci"
 ---
 Incontrai (o mi scontrai!) per la prima volta con la realtà dell’handicap tanti anni fa quando, adolescente, partecipai a una colonia-servizio dell’Opera Don Orione. Con il cuore pieno di desiderio ma anche dell’ingenuità dei miei diciassette anni, vissi quindici giorni stupendi con questi “ragazzi”: fu molto bello, ma anche molto impegnativo; i ragazzi avevano anche gravi patologie e andavano assistiti in tutto, lavati, vestiti, imboccati.
 

@@ -7,6 +7,7 @@ cluster_id: 12
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/1-1-210x300.jpg"
 slug: "il-chicco-una-casa-per-fabio-e-maria"
 has_comments: false
+id_numero: "OEL-1"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

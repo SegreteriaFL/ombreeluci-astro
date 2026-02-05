@@ -12,7 +12,8 @@ umap_x: 7.789034366607666
 umap_y: 9.699247360229492
 umap_z: 14.1527099609375
 issue_number: OEL-119
-id_numero: OEL-119
+id_numero: "OEL-119"
+numero_rivista: "Ombre e Luci"
 ---
 ### [Nord - Un Fiume di Pace](https://www.fedeeluce.it/comunita-fl/marievulcani/)
 

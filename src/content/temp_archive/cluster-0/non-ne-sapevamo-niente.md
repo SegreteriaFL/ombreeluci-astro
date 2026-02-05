@@ -7,6 +7,7 @@ cluster_id: 0
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_111_2010.jpg"
 slug: "non-ne-sapevamo-niente"
 has_comments: false
+id_numero: "OEL-111"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -14,8 +14,9 @@ umap_x: 7.332740783691406
 umap_y: 8.379999160766602
 umap_z: 11.05245590209961
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 **N el 1967 eravamo giovani e pieni di entusiasmo** e iniziammo ad andare a Stella Mattutina (Villaggio Medico Pedagogico) una domenica al mese per giocare con i ragazzi e per fare del "bene al nostro prossimo".
 
 **Ci sentivamo molto bravi e tutto andò liscio per un po'** , poi l'entusiasmo sparì e pur senza tralasciare l'impegno, ci dedicammo allo sci e alle gite in montagna, ma ormai il nostro cuore era legato ai ragazzi e niente ci soddisfaceva; solo quando eravamo a Stella Mattutina con i nostri piccoli amici ci sentivamo felici.

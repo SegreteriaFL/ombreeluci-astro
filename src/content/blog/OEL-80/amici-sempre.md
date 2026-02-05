@@ -4,8 +4,8 @@ date: 2002-12-08
 author: Cristina Tersigni
 slug: amici-sempre
 lang: it
-numero_rivista: 80
-id_numero: OEL-80
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-80"
 issue_number: OEL-80
 wp_id: 25634
 original_url: "https://www.ombreeluci.it/?p=25634"
@@ -17,7 +17,6 @@ umap_x: 6.4091877937316895
 umap_y: 9.527496337890625
 umap_z: 9.336529731750488
 ---
-
 Cerco di ricordare se l’amicizia con la famiglia di Andrea e Silvia è cominciata quando ero già fidanzata con mio marito oppure prima, ma non ci riesco: comunque, circa dieci anni fa, lui aveva avuto modo di conoscerla tramite una loro vicina di casa e volle poi coinvolgere anche me.
 
 Sarebbe certamente un tentativo poco realistico quello di separare l’amicizia con Silvia e Andrea, sorella e fratello — scomparso qualche anno fa — affetti entrambi da un handicap molto grave, da quella con i loro genitori; la mamma è stata, di fatto, veicolo fondamentale per arrivare a loro; attraverso loro, però, l'amicizia con lei è stata molto diversa da quella che avrebbe potuto essere in qualsiasi altra situazione. In questa famiglia, più che in altre, emergeva la necessità concreta e non solo psicologica di essere quasi un unico corpo: infatti, per Silvia e Andrea era stato impossibile vivere autonomamente.

@@ -4,8 +4,8 @@ date: 1999-06-11
 author: Nicole Schulthes
 slug: sempre-io-christopher-reeve
 lang: it
-numero_rivista: 66
-id_numero: OEL-66
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-66"
 issue_number: OEL-66
 wp_id: 12804
 original_url: "https://www.ombreeluci.it/?p=12804"
@@ -18,7 +18,6 @@ umap_x: 7.287228584289551
 umap_y: 10.810599327087402
 umap_z: 5.796875476837158
 ---
-
 Un libro scritto con il cuore. Il percorso di un uomo di quarantacinque anni che, in un istante, cadendo da cavallo, lascia dietro di sé una brillante carriera di attore (fra l’altro ha impersonato Superman), lo sport (volo, equitazione, vela) e tutto il contesto di impegni nel quale ha vissuto fino a quel momento e inizia un’altra vita, durissima, totalmente diversa: la caduta gli ha provocato la frattura della spina dorsale ed è diventato tetraplegico. I due percorsi, che sono raccontati con vivacità e passione, fino nei dettagli, suscitano quell'interesse che deriva dalla conoscenza di un uomo che, nella malattia, tra alti e bassi, ha saputo mantenere la stessa vitalità, creatività e voglia di farcela, che nella prima parte della sua vita lo avevano portato all’apice del successo. Ora si tratta di scopi e possibilità diverse: mantenere, rinvigorire, gli affetti e i contatti con la sua famiglia, continuare a compiere un’attività creativa nel cinema (diventa regista), studiare e capire i danni prodotti dalla lesione subita, essere pronto a qualsiasi sperimentazione, a qualsiasi fatica, pur di raggiungere la massima autonomia possibile, mettersi al servizio di tutti i disabili.
 
 > "Che cosa è un eroe?" Ora so che è chi trova la forza di perseverare e resistere nonostante gli ostacoli"

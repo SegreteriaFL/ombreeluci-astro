@@ -4,8 +4,8 @@ date: 2006-09-27
 author: Laura Nardini
 slug: vita-fede-e-luce-hola-madrid
 lang: it
-numero_rivista: 95
-id_numero: OEL-95
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-95"
 issue_number: OEL-95
 wp_id: 32075
 original_url: "https://www.ombreeluci.it/?p=32075"
@@ -15,7 +15,6 @@ umap_x: 7.846525192260742
 umap_y: 8.7124605178833
 umap_z: 13.978989601135254
 ---
-
 ### Fe v Luz
 
 Fede e Luce in spagnolo... In quante lingue diverse lo abbiamo sentito dire io e Valerio lì a Madrid! Un incontro nazionale ha la sua importanza, ma partecipare ad uno internazionale è davvero un'esperienza unica. Ogni 4 anni Fede e Luce organizza un incontro per i coordinatori e gli assistenti spirituali di ogni paese (74) e il numero aumenta dato che alcuni paesi sono suddivisi in più zone. Un gran numero di persone quindi; 166 tra coordinatori e assistenti. L'invito era aperto a chi tra responsabili regionali, di comunità, amici e ragaz: zi desiderava partecipare, quindi non è stato difficile arrivare a 260 partecipan ti almeno! Senza contare l'equipe organizzativa spa gnola, interpreti, segretari e ospiti... Una vera comu: nità multietnica. Durante questi incontri si fa il pun: to della situazione della vi: ta di Fede e Luce nel mon do. Si affrontano temi più tecnici, come la situazione economica, momenti di formazione e confronto tra i partecipanti. Per i co ordinatori è l'occasione di avere uno scambio di esperienze, conoscere il movimento in tutte le sue sfaccettature culturali.

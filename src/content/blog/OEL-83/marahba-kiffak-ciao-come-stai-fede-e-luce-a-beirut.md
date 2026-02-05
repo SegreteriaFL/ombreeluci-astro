@@ -4,8 +4,8 @@ date: 2003-09-03
 author: Valentina Camomilla
 slug: marahba-kiffak-ciao-come-stai-fede-e-luce-a-beirut
 lang: it
-numero_rivista: 83
-id_numero: OEL-83
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-83"
 issue_number: OEL-83
 wp_id: 26924
 original_url: "https://www.ombreeluci.it/?p=26924"
@@ -15,7 +15,6 @@ umap_x: 7.687620639801025
 umap_y: 9.2842378616333
 umap_z: 14.097784996032715
 ---
-
 “Volevo farti sapere che il tuo nome è tra quelli emersi per far parte di un’equipe italiana che andrà a Beirut a fine luglio per una settimana di formazione di [Fede e Luce](https://www.fedeeluce.it/) . In quella occasione verrà anche eletto il nuovo responsabile del Continente”.
 
 **Tumulto. Non sono responsabile della mia Regione** , probabilmente non lo sarò mai e allora non è giusto togliere ad un altro la possibilità di vivere questa esperienza. Certo gli incontri Internazionali di Fede e Luce a cui ho partecipato in passato sono stati così belli e ricchi... proprio non ho voglia di dire di no. E poi cosa sono questi Continenti? E come sarà il Medio Oriente? I nostri amici di Fede e Luce lì saranno poi così diversi da noi?

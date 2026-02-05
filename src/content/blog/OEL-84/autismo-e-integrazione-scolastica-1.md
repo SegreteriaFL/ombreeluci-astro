@@ -4,8 +4,8 @@ date: 2003-12-22
 author: Davide Del Duca
 slug: autismo-e-integrazione-scolastica-1
 lang: it
-numero_rivista: 84
-id_numero: OEL-84
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-84"
 issue_number: OEL-84
 wp_id: 29019
 original_url: "https://www.ombreeluci.it/?p=29019"
@@ -17,7 +17,6 @@ umap_x: 6.915945053100586
 umap_y: 7.085373878479004
 umap_z: 6.978512287139893
 ---
-
 Come avevamo promesso (nel [numero 81 del 2003](https://www.ombreeluci.it/project/ombre-e-luci-n-82-parlami-damore/) ), pubblichiamo la riflessione di **Davide Del Duca** e le storie di due ragazzi autistici seguiti dalla Fondazione di cui è presidente. L’inserimento delle persone con handicap nella scuola è importante per loro e per i loro compagni normodotati che devono imparare ad accettare chi è diverso e avere una cultura dell’accoglienza. Per quanto riguarda l’autismo, senza solide conoscenze da parte degli operatori della scuola si rischia di fare grossi guai e soprattutto si rischia il pregiudizio di una ìngestibilità della persona autistica che, come in una profezia autoavverante diventa con il tempo realmente ingestibile se non si interviene con metodo e competenze. Che fare dunque? Poco tempo fa ho partecipato ad un convegno promosso dalla [CGIL Scuola](https://www.flcgil.it/scuola/) su questi temi dal titolo: “indietro non si torna”; bene! Non torniamo indietro, salviamo la legge, ma rendiamola funzionale.
 
 Se posso fare una ipotesi sulla quale aprire un dibattito devo dire che preso atto che per le persone con autismo la preparazione del personale educante è l’aspetto che fa la differenza si potrebbe pensare a scuole specializzate su questo handicap; ovvero scuole normali nelle quali però vengono indirizzati quei portatori di handicap che hanno la diagnosi di autismo. Questo farà si che le conoscenze, non dell’insegnante di sostegno, che può cambiare, ma dell’intera scuola compreso il personale ATA, sull’autismo divengano conoscenze sedimentate e certe e quindi competenze reali. In una piccola città basta che in un circolo didattico ci sia una scuola cosi attrezzata per ogni ordine e grado e sicuramente avremo risolto il problema di molte persone con autismo e dei loro familiari.

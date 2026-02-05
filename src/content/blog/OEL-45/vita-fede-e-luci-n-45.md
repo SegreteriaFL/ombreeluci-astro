@@ -12,7 +12,8 @@ umap_x: 7.558602809906006
 umap_y: 8.674667358398438
 umap_z: 12.770618438720703
 issue_number: OEL-45
-id_numero: OEL-45
+id_numero: "OEL-45"
+numero_rivista: "Ombre e Luci"
 ---
 ### Con affetto a un parroco
 

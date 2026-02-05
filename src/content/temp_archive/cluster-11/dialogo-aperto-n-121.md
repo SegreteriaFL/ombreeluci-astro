@@ -7,6 +7,7 @@ cluster_id: 11
 image: "https://www.ombreeluci.it/wp-content/uploads/2012/12/tanti-amici-Ombre-e-Luci-n.-121-2013-1024x576.webp"
 slug: "dialogo-aperto-n-121"
 has_comments: false
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

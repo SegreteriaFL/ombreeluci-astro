@@ -12,7 +12,8 @@ umap_x: 6.345497131347656
 umap_y: 7.883670330047607
 umap_z: 12.152338027954102
 issue_number: OEL-24
-id_numero: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
 ### Da Condé...
 

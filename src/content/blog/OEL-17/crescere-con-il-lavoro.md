@@ -16,7 +16,8 @@ umap_x: 7.991517543792725
 umap_y: 7.505364418029785
 umap_z: 8.659735679626465
 issue_number: OEL-17
-id_numero: OEL-17
+id_numero: "OEL-17"
+numero_rivista: "Ombre e Luci"
 ---
 C
 hi ha esperienza della lotta fra pubblico e privato infuriata nel campo del servizio sociale in questi anni, dovrebbe visitare questo Centro Sperimentale di Lavoro Guidato di S. Vito al Tagliamento (Pordenone). Istituito da

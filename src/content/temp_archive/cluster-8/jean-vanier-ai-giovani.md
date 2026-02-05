@@ -7,6 +7,7 @@ cluster_id: 8
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-29-giu-1981.webp"
 slug: "jean-vanier-ai-giovani"
 has_comments: false
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -12,8 +12,9 @@ umap_x: 9.401704788208008
 umap_y: 7.738182067871094
 umap_z: 2.2184550762176514
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 AlFestival Internazionale del Cinema di San Sebastián, che si tiene nella città costiera dei Paesi Baschi dal 1953, l'ordine delle lingue ha grande importanza. Tutte le comunicazioni, dagli avvisi proiettati sullo schermo alle introduzioni alle proiezioni, sono in tre lingue e sempre con questo ordine: basco, spagnolo, inglese. Gli spettatori e accreditati provenienti dall'estero devono fare molta attenzione al programma, perché non tutte le proiezioni (sempre in lingua originale) hanno i sottotitoli nelle tre lingue: può capitare che chi capisce solo l'inglese abbia la sfortuna di prenotare un posto per una proiezione coi sottotitoli in basco e spagnolo, o addirittura che uno spagnolo possa avere difficoltà per i film coi sottotitoli in inglese e basco! **È molto importante verificare tutte le informazioni sui film, prima di decedere cosa vedere e quando** ; oltre ai sottotitoli, è indicata anche la lingua in cui il film è parlato. Spiccano così le poche eccezioni in cui, tra le lingue del film del programma, compare **anche una lingua dei segni,** specificando quale: le due in calendario quest'anno erano le lingue dei segni inglese e spagnola.
 
 Nel film del concorso New Directors dal titolo ***The Son and the Sea*** , esordio della regista Stroma Cairns, la lingua dei segni indicata nel programma è inglese, ma sarebbe stato più corretto definirla britannica perché la storia si svolge quasi interamente in Scozia. Jonah è un giovane in crisi esistenziale che non sa cosa fare della sua vita e perciò decide, assieme all’amico Lee, di lasciare Londra per passare un po’ di tempo in un villaggio della costa nord-orientale scozzese, sistemandosi nell'alloggio lasciato libero da una prozia trasferitasi in una casa di cura a causa di una malattia degenerativa, che infatti non lo riconosce più quando la va a trovare. Appena arrivati, conoscono due gemelli sordi; con uno stringono subito un'amicizia sincera, l'altro è più scontroso e si mette nei guai.

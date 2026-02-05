@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-140
+id_numero: "OEL-140"
+numero_rivista: "Ombre e Luci"
 ---
-
 Con Massimiliano viaggiavamo sempre di notte, in cuccetta. Ma una volta non trovai posto e a Trieste ci andammo di giorno. Otto ore salvo ritardi. Una volta saliti, Massi attaccò subito a cantare: Romagna mia, La mula di Parenzo, Ci son due coccodrilli, Farfallone amoroso, Volare, Marcia turca, Vola vola. Anche gli altri viaggiatori, compreso il controllore, ne conoscevano parecchie: alla fine cori da gita fuori porta, tante grazie per il tempo che è volato, che meraviglioso bambino biondo.
 
 Massi è ancora molto bello, ma ha 28 anni e tenerezza ne fa un po’ meno. Anzi, una volta ci hanno impedito di salire — tra l’indifferenza totale degli altri passeggeri — sull’aereo, un volo Air France direzione Parigi. Il comandante ha temuto che la sua presenza avrebbe potuto turbare gli altri viaggiatori. L’ottusità del comandante, a onor del vero, ha una sua ragion d’essere: gli autistici esistono finché vanno a scuola. Da maggiorenni per lo più ghettizzati nei centri, sempre meno in giro diventano fantasmi e quando compaiono, sgomentano.

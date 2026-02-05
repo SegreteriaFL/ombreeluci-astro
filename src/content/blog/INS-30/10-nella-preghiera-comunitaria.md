@@ -14,8 +14,9 @@ umap_x: 9.57183837890625
 umap_y: 7.869132995605469
 umap_z: 13.616061210632324
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Settembre 1980
 
 "Venite a me"

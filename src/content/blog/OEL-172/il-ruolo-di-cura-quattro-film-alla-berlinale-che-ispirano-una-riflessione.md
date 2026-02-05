@@ -12,8 +12,9 @@ umap_x: 9.328193664550781
 umap_y: 7.978353977203369
 umap_z: 2.5559446811676025
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Iltitolo originale del romanzo *Come l'acqua che spezza la polvere* di Deborah Levy, finalista al prestigioso Booker Prize nel 2016, è *Hot Milk* : questo è anche il titolo del film che ne ha tratto la regista e sceneggiatrice Rebecca Lenkiewicz, in concorso alla 75ª Berlinale. Le due protagoniste sono britanniche, ma le troviamo in trasferta ad Almería, in Spagna: Sofia (Emma Mackey) accompagna in una clinica la madre Rose (Fiona Shaw) che spera in una cura per tornare a camminare. Il problema motorio della donna si manifesta fisicamente, ma forse è psicosomatico; **a subirne le conseguenze è anche la figlia, la cui insofferenza nei confronti della madre cresce di pari passo con la fatica di accudirla adeguatamente.**
 
 Prendersi cura dei propri cari malati può essere faticoso, ma il peso che Sofia sopporta invade anche i suoi incubi: talvolta immagina di essere bloccata nella sedia a rotelle come Rose, e forse persino il dolore causato dalle meduse che la pungono in acqua **è un modo di far provare al proprio corpo sensazioni molto forti** . Rispetto al romanzo, Rose è ritratta in modo più negativo: irritante, invadente, soffocante, come servisse a giustificare la sofferenza psicologica di Sofia, la figlia senza indipendenza. Queste caratterizzazioni più nette fanno perdere, in parte, quella sensazione di ambivalenza presente nei rapporti tra chi è malato e chi se ne prende cura: amore e odio che possono coesistere. Una semplificazione narrativa che rende troppo scontato il rapporto madre/figlia, come se le vere personalità delle due donne non abbiano il tempo di emergere prima che il film finisca.

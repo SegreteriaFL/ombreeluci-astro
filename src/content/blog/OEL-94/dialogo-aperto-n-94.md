@@ -4,8 +4,8 @@ date: 2006-06-21
 author: Redazione
 slug: dialogo-aperto-n-94
 lang: it
-numero_rivista: 94
-id_numero: OEL-94
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-94"
 issue_number: OEL-94
 wp_id: 31816
 original_url: "https://www.ombreeluci.it/?p=31816"
@@ -15,7 +15,6 @@ umap_x: 5.207241058349609
 umap_y: 7.848813533782959
 umap_z: 11.220651626586914
 ---
-
 ### Carissimo Ombre e Luci
 
 Scrivo per la prima volta a questo magnifico giornalino, per parlare della mia esperienza da “amica” in Fede e Luce, che non è migliore di tante altre, ma che a me ha dato un significato alle parole “amicizia”, “affetto” e “amore”. A 36 anni mi trovo a pensare al cammino che ho percorso: ho incominciato a frequentare la comunità di Fede e Luce “Amici insieme” all’età di 10 anni, trascinata da mia madre. In tutti questi anni, lungo la strada sono inciampata e caduta spesso, ho incontrato ostacoli, mi sono fermata a riposare, ma il Signore ha sempre avuto pazienza con me, mi ha sempre aiutato a rialzarmi e a trovare la spinta per ricominciare. Ho conosciuto genitori, ragazzi, amici provenienti dall’Italia e dal mondo che ho l’occasione, anche se raramente, di rivedere con tantissima gioia, e tanti altri che non ho più rivisto o che non rivedrò più. L’unico rimpianto che ho è che nei primi anni di comunità non ho vissuto a pieno Fede e Luce ed il suo vero significato, colpa la mia immaturità ed il mio carattere ribelle, difficile da domare (ancora oggi, ma ci lavoro tutti i giorni!). Poco alla volta ho iniziato ad ascoltare il Signore, ed accettare la sua chiamata, a lasciarmi andare. Ho aperto il mio cuore e donato i miei sentimenti a quei tesori di ragazzi che pazienti, rispettavano i miei momenti “no”. Tante volte ho combattuto con il Signore, e non sempre accettavo il suo amore, ma lui è sempre stato al mio fianco, pazientemente. Fede e Luce mi ha dato e mi da tanto: una lunga e importante amicizia con ragazzi stupendi, genitori con i quali scherzare, discutere, piangere... amici con cui confrontarmi, ai quali chiedere aiuto e ridere, ridere, che fa bene... Mi ha arricchito spiritualmente, mi ha aperto il cuore e gli occhi verso nuove realtà. Mi ha dato l’opportunità di conoscere tante persone stupende, una in particolare, Luciano. Luciano è stato mio grandissimo amico per tanti anni, poi il Signore mia ha fatto uno scherzo e me ne sono innamorata. Ci siamo sposati dopo 14 anni di amicizia ed uno di fidanzamento. Lui è il dono più bello che il Signore mi ha fatto. È la mia coscienza, la mia calma, la mia tenerezza, calore per la mia anima. È la mia completezza. Il nostro matrimonio è stato una festa, per la nostra e per le altre comunità Fede e Luce della nostra città, resa ancora più preziosa dai nostri testimoni, Mattia ed Amanda, due “piccoli”, perché è a loro che dobbiamo dire grazie per la nostra gioia. Il Signore ci ha dato due figli meravigliosi ed io lo ringrazio tutti i giorni per quello che mi ha dato e per quello che mi darà. I nostri figli sono ormai la mascotte della nostra comunità, sono coccolati ed amati da tutti. Ora è un po’ faticoso riuscire ad andare agli incontri, ma facciamo di tutto perché Emanuele ed Irene vivano Fede e Luce con naturalezza e semplicità come solo i bambini, i piccoli, sanno fare. Con amore.

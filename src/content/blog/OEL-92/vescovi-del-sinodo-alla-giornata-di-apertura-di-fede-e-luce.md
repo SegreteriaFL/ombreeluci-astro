@@ -4,8 +4,8 @@ date: 2005-12-23
 author: Valentina Calabresi
 slug: vescovi-del-sinodo-alla-giornata-di-apertura-di-fede-e-luce
 lang: it
-numero_rivista: 92
-id_numero: OEL-92
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-92"
 issue_number: OEL-92
 wp_id: 31261
 original_url: "https://www.ombreeluci.it/?p=31261"
@@ -15,7 +15,6 @@ umap_x: 7.652222156524658
 umap_y: 9.453946113586426
 umap_z: 13.167492866516113
 ---
-
 P
 er l'apertura di FL Roma era prevista, per il 9 ottobre una giornata di festa con le quindici comunità. Otto giorni prima, Marie Hélène Mathieu (fondatrice di Fede e Luce insieme a Jean Vanier) telefona a Maurizio (segretario di FL Italia) per informarci che Benedetto XVI l'aveva nominata uditrice al Sinodo dei Vescovi: "Che cosa ne pensate? Si potrebbero invitare i vescovi del sinodo a questo vostro incontro?" Di fatto potrebbe essere l'occasione per lo scambio di un dono straordinario. Ma le Comunità di Roma saranno d'accordo? Potremo in così poco tempo, modificare il programma? Un week-end passato al telefono per raggiungere ogni responsabile di comunità. Poi, lunedì sera, incontro al vertice. Si decide insieme di accettare la sfida. Il segretario del sinodo accetta di far avere un invito di Marie Hélène ai 250 padri sinodali. Purtroppo però, quasi tutti hanno già preso altri impegni per quel giorno, ma molti esprimono il loro grazie, il loro dispiacere per non poter essere presenti, il loro interesse per il movimento, sia che ne apprendano in quel momento l'esistenza sia che lo conoscano già attraverso le comunità Fede e Luce del loro paese. Quattro vescovi ci raggiungono quella domenica: quelli di Algeria, di Eritrea, di Etiopia e del Bangladesh. Quest'ultimo, Mons. Thetonius Gomes conosce FL da tredici anni, da quando proprio lui avviò il movimento nel suo paese. Viene accompagnato da sette suore del Bangladesh, d'India e della Birmania e da tre seminaristi del Bangladesh. Prima del loro arrivo, ero un po' inquieta. Avevo paura che i nostri ospiti si sentissero spaesati o imbarazzati o che si annoiassero. Al contrario, la giornata è stata una vera festa. Hanno condiviso il nostro pic-nic con molta semplicità. Hanno preso parte a tutte le attività previste e si sono mostrati attenti alle testimonianze di un giovane disabile, di un papà e di un amico. Ogni tanto sembravano sorpresi, ma mai a disagio. L'arrivederci finale ci ha fatto pensare e sperare che qualche sempre di FL fiorirà da qualche parte...
 *Valentina Calabresi*

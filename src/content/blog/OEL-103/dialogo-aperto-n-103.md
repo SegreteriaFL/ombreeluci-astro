@@ -12,7 +12,8 @@ umap_x: 4.577278137207031
 umap_y: 7.3013739585876465
 umap_z: 10.500535011291504
 issue_number: OEL-103
-id_numero: OEL-103
+id_numero: "OEL-103"
+numero_rivista: "Ombre e Luci"
 ---
 ### Creiamo una rete informale
 

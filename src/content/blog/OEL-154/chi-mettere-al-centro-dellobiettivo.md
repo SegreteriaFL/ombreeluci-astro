@@ -12,7 +12,8 @@ umap_x: 6.645654201507568
 umap_y: 7.96506929397583
 umap_z: 9.592170715332031
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 «Posso sentire le parti della macchina e **capire i problemi dei motori solo ascoltando i loro suoni.** Questo mi aiuta a realizzare un buon lavoro». Siamo a Trinidad, Cuba, è il 2016. Un meccanico sorride davanti al cofano sollevato di un’automobile, parcheggiata lungo un viale alberato. Oltre alla tuta da lavoro, l’uomo indossa occhiali scuri, che non lo proteggono soltanto dal sole. Col braccio destro s’appoggia a un bastone da orientamento.
 

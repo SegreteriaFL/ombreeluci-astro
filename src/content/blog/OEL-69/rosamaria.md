@@ -14,7 +14,8 @@ umap_x: 5.214444637298584
 umap_y: 7.701210975646973
 umap_z: 9.170092582702637
 issue_number: OEL-69
-id_numero: OEL-69
+id_numero: "OEL-69"
+numero_rivista: "Ombre e Luci"
 ---
 Davide ti ha insegnato il silenzio. È difficile farti parlare. Lo farò per te: per la stima e l’affetto che ti porto ma, soprattutto, per dire a te, a Franco e ai genitori come voi, che ci sentiamo un debito nei vostri confronti. Chissà quante volte, leggendo Ombre e Luci dove si parla di attività, di progressi, di autonomia conquistata, ti sei chiesta: "Ma io, ma Davide?
 

@@ -15,8 +15,9 @@ umap_x: 4.444286346435547
 umap_y: 7.85758113861084
 umap_z: 10.338038444519043
 issue_number: OEL-8
+id_numero: "OEL-8"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### I compagni, le famiglie, la scuola hanno contribuito alla sua crescita
 
 Sono la mamma di un ragazzo handicappato; ho letto e leggo sempre con molto interesse la vostra rivista «Ombre e Luci» che mi piace tanto nella sua forma e nei suoi contenuti; una rivista che tanta fede e tanta luce porta nelle nostre case. L’ultimo numero dedicato all’integrazione scolastica mi ha fatto decidere di scrivervi per farvi conoscere l’esperienza di Luca, mio figlio nella scuola. A mio parere è stata un’esperienza positiva, pur nei momenti difficili passati.

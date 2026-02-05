@@ -14,8 +14,9 @@ umap_x: 9.52782154083252
 umap_y: 7.891934871673584
 umap_z: 13.57542610168457
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Gennaio 1981
 
 "Io sono il pane di vita: chi viene a me non avrà più fame, chi crede in me non avrà più sete in eterno" (Giov.6,35).

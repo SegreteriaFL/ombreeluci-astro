@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: INS-30
-id_numero: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
 Se si riflettesse un attimo: tutta la vita è un disagio vista con ottica pessimista; è bella, vista con ottica ottimista: dipende dal soggetto.
 Io la vita la vedo con le due ottiche contrapposte, ma è prevalente quella ottimista. Voglio lanciare un messaggio. Se avete qualche progetto segreto, realizzatelo; date retta a me, se non danneggia nessuno, è giusto; se non c’è vero motivo per non farlo e siete convinti nel profondo del cuore, allora date sfogo al genio creativo che è in ognuno di noi, con tutto il vigore necessario, dopo vi sentirete realizzati sia nel corpo che nello spirito, ve lo assicuro!

@@ -12,7 +12,8 @@ umap_x: 5.352300643920898
 umap_y: 8.389472007751465
 umap_z: 8.633526802062988
 issue_number: OEL-43
-id_numero: OEL-43
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
 S
 ta calando la sera nel mio giardino afoso e silenzioso. Le ombre della sera: un altro giorno passato: ancora una volta, dopo tante ripetute volte, è l'ora di prepararsi per la notte. Quanti pensieri si affollano nel coricare il figlio «speciale»; ore dedicate a lui, quanti sacrifici, quante privazioni. Quante notti difficili e agitate, quanti momenti di tensione e di stanchezza. Vorrei che poteste trovare qualche luce che illumini le vostre notti. Dorme male? Non si tiene pulito? È agitato prima di dormire? Vuole che io sia sempre lì con lui? Si alza di continuo? Che cosa si può fare perché si adatti alla notte? Eccovi in questo numero alcune risposte. Serviranno ai genitori dei figli più piccoli, disabili o meno, o di adolescenti; ma qualche suggerimento sarà utile anche per i più grandi. Resta vero poi che alcune tensioni o insonnie sono dovute, in certi casi, all'atmosfera che il ragazzo e il bambino respirano durante il giorno e verso sera: rumori troppo forti, litigi in famiglia, sedute televisive a tinte troppo eccitanti; o anche, ad ansie che «sentono» con i loro «radar» speciali, nei genitori, nelle mamme sopraffatte. È il momento in cui alcuni genitori, avanti nell'età, pensano con ricorrenza quasi automatica, al domani che si presenta sempre così incerto e senza soluzioni... e senza accorgersene depongono sul viso del figlio tanto amato un bacio turbato e avvolto d’angoscia. Il giovane intuisce questa incertezza, e a lungo andare, è proprio di notte che anche in lui l’incertezza si fa strada, inconsciamente, certo. Romolo, fratello gemello di Remo, in questo numero

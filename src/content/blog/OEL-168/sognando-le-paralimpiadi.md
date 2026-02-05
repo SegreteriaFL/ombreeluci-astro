@@ -12,8 +12,9 @@ umap_x: 8.792647361755371
 umap_y: 5.182905673980713
 umap_z: 9.402440071105957
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Cari amici, se ho scelto di raccontare la storia delle Paralimpiadi è perché grazie al mondo dello sport ho avuto una seconda opportunità dalla vita, per crearmi il mio futuro. Non in porta se dovrò fare dei sacrifici, l’unica cosa che so è che al mio fianco ci sarà sempre la FINP. Lo so, sarà dura ma non voglio far chiudere le porte che il 28 febbraio del 2023 mi sono state aperte da Enrico Testa.
 
 Dopo aver conquistato la mia prima maglia d’oro nei 25mt dorso, ora più che mai punto alle mie prossime gare che si terranno sabato 8 giugno alle Tre Fontane n. 29 e domenica 9 giugno al Centro Federale di Pietralata, Via Achille de Zigno, 7, 00157 Roma RM.

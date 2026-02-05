@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-137
-id_numero: OEL-137
+id_numero: "OEL-137"
+numero_rivista: "Ombre e Luci"
 ---
 «L'idea che manca nella nostra cultura e nella società è che i ragazzi disabili, autistici, con sindrome di down… tutti, hanno bisogno di sentire di avere un ruolo nella società. Sentirsi utili. Svolgere un lavoro, qualcosa che sia alla pari con gli altri. Nessuno, se assistito, si sente parte della società: piuttosto si sente un reietto. È bello fare festa, divertirsi; a mio figlio piace molto fare festa, ma poi gli piace anche far vedere che sa fare qualcosa: gli piace mettere a posto, aiutare in cucina, partecipare come gli altri alle cose della vita o si annoia.»
 

@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-12
+id_numero: "OEL-12"
+numero_rivista: "Ombre e Luci"
 ---
-
 Viciomaggio. Un paesino presso Arezzo, con un centro scolastico e riabilitativo gestito dalle suore di S. Marta. Sul cancello una targa: Centro Medaglia Miracolosa (aggiornamenti sull'Istituto [qui](http://www.istitutommiracolosa.net/index.html), n.d.r.). La premessa non suona esaltante, perciò la sorpresa è tanto più grande: un centro e una scuola di questa qualità non li avevamo ancora visti.
 
 L’esperienza ci ha insegnato a cercare in una scuola, in un istituto, in un laboratorio che si occupa di ragazzi con difficoltà, oltre alla parte tecnica e professionale (preparazione degli operatori, qualità delle attrezzature, confortevolezza degli ambienti), la qualità umana. E abbiamo imparato a misurarla attraverso «segni» differenti che possono in genere apparire insignificanti. Un modo di comunicazione e di espansività dei bambini e ragazzi, percepibile anche dietro il velo della timidezza o la barriera dell’handicap; il modo di esprimersi degli operatori (assistenti, insegnanti, personale vario); l’arredamento che può anche essere di buona qualità, ma freddo; i quadri, i disegni gli ornamenti che definiscono la cultura di un centro meglio di lunghi discorsi; tanti altri elementi, perfino l’odore, possono descrivere la qualità umana di una scuola, di un istituto.

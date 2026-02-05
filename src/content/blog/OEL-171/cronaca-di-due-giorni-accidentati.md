@@ -15,7 +15,8 @@ umap_x: 8.933643341064453
 umap_y: 9.558441162109375
 umap_z: 10.693842887878418
 issue_number: OEL-171
-id_numero: OEL-171
+id_numero: "OEL-171"
+numero_rivista: "Ombre e Luci"
 ---
 Roma 28-30 aprile 2025: i **l Giubileo delle persone con disabilità si è tenuto in giorni feriali, a differenza di tanti altri eventi giubilari.** La scelta lasciava sinceramente perplessi: **giornate poco pratiche** per chi lavora o frequenta un centro; unico, a suo modo, insieme a quelli dedicati a sacerdoti, seminaristi e vescovi, e a quello per le Chiese Orientali. La disabilità come l’ordine sacro? Interessante.
 

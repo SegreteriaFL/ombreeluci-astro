@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Tabakalera è un centro di arte contemporanea di San Sebastián che si trova all'interno di una ex manifattura tabacchi ristrutturata. È la sede dove si tengono le conversazioni del Festival del Cinema di San Sebastián (SSIFF), in cui si affrontano varie questioni che riguardano l'industria del cinema. La conversazione dal titolo “Diversità e inclusione dentro e fuori lo schermo” è stata l'occasione per **riflettere sia sul tema della corretta rappresentatività delle disabilità sia nei film,** sia più in generale del contributo delle persone con disabilità alla realizzazione dei film.
 
 Il punto di vista sul tema è stato fortemente britannico, anche perché a condurre l'incontro ([disponibile integralmente in inglese](https://www.youtube.com/embed/UCSneCYM4SI)) è stata Clare Baines, che lavora per il BFI (British Film Institute) da quando, qualche anno fa, fu creato il ruolo di Disability Equality Lead (responsabile per l'uguaglianza delle persone con disabilità). Come si usa fare in questo tipo di incontri, per prima cosa ha fatto una breve descrizione di sé, per chi fosse cieco o ipovedente.

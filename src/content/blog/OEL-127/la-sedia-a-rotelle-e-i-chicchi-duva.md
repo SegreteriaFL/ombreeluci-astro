@@ -14,7 +14,8 @@ umap_x: 8.602081298828125
 umap_y: 10.30568790435791
 umap_z: 9.570789337158203
 issue_number: OEL-127
-id_numero: OEL-127
+id_numero: "OEL-127"
+numero_rivista: "Ombre e Luci"
 ---
 Ilracconto del paralitico (parola orribile che bisognerebbe cambiare) è un Vangelo che appartiene a tutti (Mc 2,1). Come sappiamo, alcuni uomini portano un malato sul suo lettino per avvicinarlo a Gesù. Per far questo aprono il tetto della casa e lo fanno discendere da lì. È una bella immagine di fede, anche se sembra strano che la folla non si sia spostata… L’arrivo di quest’uomo allettato ha pur dovuto toccare il cuore della folla.
 

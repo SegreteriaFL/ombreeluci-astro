@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-152
-id_numero: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
 Noi genitori che, sin dal nido, abbiamo cercato modalità, rapporti e persone che potessero aiutare i nostri figli a trovare un ambiente accogliente e inclusivo; noi che abbiamo incontrato nella scuola forse l’unica occasione di relazione con i loro pari per i nostri figli. Noi che sappiamo che nel “dopo scuola” per i ragazzi con disabilità mentale non c’è molto, forse nulla, se non centri diurni con lunghe liste di attesa che rischiano di compromettere tutto il lavoro svolto in precedenza, con la paura di vedere i nostri ragazzi regredire. Noi che sentiamo angosciante la domanda: «Cosa c’è per i nostri figli, dopo la scuola?».
 

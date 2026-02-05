@@ -16,8 +16,9 @@ umap_x: 8.167215347290039
 umap_y: 6.946541786193848
 umap_z: 11.607559204101562
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Cogne
 
 Il campeggio di Alfedena mi aveva fatto pensare alla casa di Cogne; all'appartamento che abbiamo noi in affitto e a quello sopra di mia sorella: 18 letti sicuri che con qualche sacco a pelo, potevano diventare 20, 22.

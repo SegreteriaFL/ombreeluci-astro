@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-11
-id_numero: OEL-11
+id_numero: "OEL-11"
+numero_rivista: "Ombre e Luci"
 ---
 ### 1. La Storia
 

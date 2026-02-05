@@ -11,8 +11,9 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 La famiglia ha bisogno di sentirsi accolta in una comunità cristiana, per capire il senso di una sofferenza così difficile da accettare.
 
 - Informarsi seriamente sulla complessa realtà degli handicappati;

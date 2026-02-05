@@ -4,8 +4,8 @@ date: 1997-12-15
 author: Maria Teresa Mazzarotto
 slug: i-suoi-nonni
 lang: it
-numero_rivista: 60
-id_numero: OEL-60
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-60"
 issue_number: OEL-60
 wp_id: 11834
 original_url: "https://www.ombreeluci.it/?p=11834"
@@ -17,7 +17,6 @@ umap_x: 4.752167701721191
 umap_y: 9.528810501098633
 umap_z: 8.54736042022705
 ---
-
 Isuoi nonni lo avevano capito in fretta ancora prima dei suoi genitori che bambino era Lui. Nella loro vita avevano visto troppe volte come si muovono, come piangono, come mangiano i bambini “normali". E avevano scoperto che Lui “normale” non era. Avevano pianto, ma soltanto da soli nella loro casa, avevano anche protestato e recriminato, come si fa, contro la sorte. Ma solo all'inizio. Poi basta. Poi lo avevano amato. La gioia con cui lo avevano atteso, la felicità di vederlo appena venuto al mondo, non era niente rispetto al sentimento che li legava a Lui man mano che i giorni passavano e il suo “essere diverso” diventava più chiaro. Inventarono da soli, senza psicologi e libri specializzati che allora erano assai più rari, un metodo nuovo per stare vicino ad un bambino “così” e ai genitori di un bambino “così”. La nonna era più ispirata ma il nonno era attentissimo e imparava presto. Lui era piccolo, un po’ troppo piccolo, ma loro proclamavano con fierezza: “È una miniatura perfetta!” E così... lui non piangeva, non urlava la sua fame, il suo mal di pancia perché “Lui era un bimbo buono, non voleva disturbare nessuno...”
 
 Lui prendeva il latte solo con il cucchiaino, addormentandosi, rifiutando di aprire la bocca... “perché aveva altro per la testa... chissà a cosa pensa...”

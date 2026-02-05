@@ -12,8 +12,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quando moda e disabilità si incontrano niente è impossibile! Domenica 29 settembre alle 19.30 nel **Teatro Di Costanzo** **–** **Mattiello** di Pompei si terrà la quinta edizione de**“L’altra faccia della moda…Impossible is nothing”**, una serata di moda e spettacolo organizzata dalla Sezione UILDM di Ottaviano (NA).
 
 «*L’idea è nata cinque anni fa da un gruppo di soci di **UILDM** Ottaviano per abbattere i pregiudizi e le barriere culturali. Anche una persona in sedia a rotelle può essere bella, elegante, avere una famiglia, un lavoro. Il messaggio che vogliamo trasmettere è che una vita normale è possibile e che la bellezza ha modi diversi di presentarsi*» spiega **Marilena Prisco**, organizzatrice della serata.

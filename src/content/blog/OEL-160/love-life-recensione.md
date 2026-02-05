@@ -12,8 +12,9 @@ umap_x: 9.443516731262207
 umap_y: 8.001558303833008
 umap_z: 2.543712615966797
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quest'anno la nuova sala delle conferenze stampa della Mostra del Cinema di Venezia è stata inaugurata anche da un evento notevole: un attore **ha risposto alle domande dei giornalisti con la lingua dei segni** , tradotta in simultanea. Sunada Atom infatti è sordo, ma questo non gli ha impedito di accompagnare in ogni attività promozionale — dagli incontri con la stampa, al passaggio sul tappeto rosso e fino in Sala Grande — il film *Love Life* , diretto da Kōji Fukada, in cui ha uno dei ruoli principali. Un attore che, con la sua interpretazione, ha cercato di fornire un quadro molto realistico e credibile della cultura e delle modalità di interazione sociale dei sordi.
 
 I due personaggi principali sono Taeko e Jirō, sposati da poco; Taeko aveva avuto un figlio dal precedente matrimonio, ma il primo marito li aveva abbandonati all'improvviso. Jirō si affeziona molto al figlio di Taeko e gli fa volentieri da padre. Sono i genitori di lui a non essere contenti del matrimonio: non perché non apprezzino Taeko, ma perché desiderano un nipote “vero” e non adottato, perciò avrebbero preferito che il figlio non sposasse una donna con un passato così ingombrante. In una delle prime scene, madre e figlio dialogano tra loro nella lingua dei segni, per non farsi sentire da Jirō. Dato che entrambi sono capaci di usare la voce, intuiamo che probabilmente usavano questo linguaggio con il padre quando era ancora lì con loro.

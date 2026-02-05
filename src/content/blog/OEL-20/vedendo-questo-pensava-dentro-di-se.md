@@ -11,8 +11,9 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-20
+id_numero: "OEL-20"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Luca, 7, 36-50*
 
 Un Fariseo lo invitò a mangiare da lui, ed essendo entrato nella sua casa prese posto sopra un divano a tavola. Or, ecco, una donna, che era conosciuta nella città come peccatrice, avendo saputo che egli era a tavola nella casa del Fariseo, venne portando un vaso d'alabastro pieno di profumo, e postasi dietro, vicino ai suoi piedi, piangendo, incominciò a bagnarglieli di lacrime, e li asciugava coi capelli del suo capo, poi li baciava e li ungeva di profumo.

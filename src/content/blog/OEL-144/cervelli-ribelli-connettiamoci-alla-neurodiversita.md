@@ -11,8 +11,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Molte date di proiezione in Italia, moltissime le scuole coinvolte per la visione di “Tommy e gli altri”, sold out dal 9 febbraio praticamente in ognuna delle venti località dove si è riusciti ad organizzarne. Del film, [una mamma ha già scritto nello scorso numero](https://www.ombreeluci.it/2017/gli-autistici-esistono-finche-vanno-a-scuola/). Ne riparliamo ancora perché, uscito nella scorsa primavera, il film è ora l’evento scatenante per proporre un nuovo approccio alla diversità e promuovere l’informazione, la riflessione e il dibattito sul tema “autismi”. I ragazzi nel film infatti danno bene l’idea della variabilità dello spettro autistico.
 
 Il risultato di partenza è molto soddisfacente, ci dice Michela Paparella che cura, con Kulta e Scuola Channel, tutta la piattaforma didattica di Cervelli Ribelli.

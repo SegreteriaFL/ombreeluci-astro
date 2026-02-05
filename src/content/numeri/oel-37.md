@@ -1,15 +1,37 @@
 ---
 id: "OEL-37"
-title: "Numero 37 - Pellegrinaggio a Lourdes 1991 - “Che siano una cosa sola”"
+title: "Numero 37 – Pellegrinaggio a Lourdes 1991 – “Che siano una cosa sola”"
 tipo: "ombre-e-luci"
 numero: 37
-anno: "1992"
+sort_order: 136
+pubDate: "1992-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1992"
 sommario: "Numero 37 – Pellegrinaggio a Lourdes 1991 – “Che siano una cosa sola” ultima modifica: 1992-03-05T07:08:00+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_37_1992.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_37"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-37-pellegrinaggio-a-lourdes-1991-che-siano-una-cosa-sola/"
+articoli:
+  - "per-capire-di-piu"
+  - "ora-manuela"
+  - "speciale-pellegrinaggio-a-lourdes-1991"
+  - "maria-de-la-soledad"
+  - "la-speranza-nella-vita-quotidiana-con-nostro-figlio-affetto-da-miopatia"
+  - "lettera-a-un-medico-per-la-nascita-di-un-bambino-disabile"
+  - "come-annunciare-un-bambino-down"
+  - "dialogo-aperto-n-37"
+  - "la-depressione"
+  - "il-vizio-di-vivere-ventanni-nel-polmone-dacciaio"
+  - "per-capire-di-piu"
+  - "ora-manuela"
+  - "speciale-pellegrinaggio-a-lourdes-1991"
+  - "maria-de-la-soledad"
+  - "la-speranza-nella-vita-quotidiana-con-nostro-figlio-affetto-da-miopatia"
+  - "lettera-a-un-medico-per-la-nascita-di-un-bambino-disabile"
+  - "dialogo-aperto-n-37"
+  - "come-annunciare-un-bambino-down"
+  - "la-depressione"
+  - "il-vizio-di-vivere-ventanni-nel-polmone-dacciaio"
 ---
 
 ## Indice

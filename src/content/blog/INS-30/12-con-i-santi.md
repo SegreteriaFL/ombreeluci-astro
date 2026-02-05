@@ -14,8 +14,9 @@ umap_x: 9.49934196472168
 umap_y: 7.953070640563965
 umap_z: 13.535826683044434
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Novembre 1980
 
 Al punto di partenza della nostra strada, c'è una promessa: "Renderò la tua discendenza numerosa come le stelle del cielo e la sabbia del mare" (Gen.22,17). Questa parola di Dio ad Abramo trova il suo compimento in Gesù Cristo. In lui, la folla immensa descritta dall'Apocalisse diventa una sola famiglia, il popolo di Dio.

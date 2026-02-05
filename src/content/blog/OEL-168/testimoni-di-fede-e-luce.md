@@ -12,8 +12,9 @@ umap_x: 7.060985088348389
 umap_y: 8.863171577453613
 umap_z: 13.129134178161621
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Buongiorno a tutti! **Siamo Antonietta e Federico, facciamo parte tutti e due della comunità chiamata San Gregorio** che fa parte di Fede e Luce. È un movimento internazionale, non è presente soltanto in Italia ma anche fuori. Fede e Luce ha l’obiettivo di aiutare le famiglie con persone con disabilità gravi e non gravi. **È presente in Italia da 50 anni e qui in parrocchia da 35.** Qua fuori c’è il mercatino natalizio fatto da noi di Fede e Luce, dalla nostra comunità.
 
 https://youtu.be/qFQU5syvabE?si=OucN4gdlKcRPsYOF

@@ -5,8 +5,8 @@ author: Redazione
 slug: dialogo-aperto-n101
 lang: it
 anno_rivista: 2008
-numero_rivista: 101
-id_numero: OEL-101
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-101"
 issue_number: OEL-101
 wp_id: 33156
 original_url: "https://www.ombreeluci.it/?p=33156"
@@ -16,7 +16,6 @@ umap_x: 4.416293144226074
 umap_y: 7.967077732086182
 umap_z: 10.289854049682617
 ---
-
 ### Il lavoro più bello
 
 Tanti anni fa sono stata abbonata al vostro giornalino, non so da chi. Ho già inviato il questionario compilato dell'ultimo numero, ma vorrei scrivervi per esprimervi tutta la mia stima e simpatia. Ora sono in pensione, ma per 40 anni ho insegnato ai ragazzi in difficoltà. Ho persino avuto le classi speciali; una esperienza ingiusta, ma tanto bella che ancora oggi ho rapporti con quei "bimbi" di allora. Dico sempre che ho fatto il lavoro più bello! Il vostro giornalino mi piace molto perché rispecchia le mie idee. Buon lavoro.

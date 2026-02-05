@@ -16,8 +16,9 @@ umap_x: 8.799962043762207
 umap_y: 8.409971237182617
 umap_z: 13.10629940032959
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Ai cari *handicappati* di «Fede e Luce» riuniti a Roma. Ai loro genitori. Ai loro amici.
 
 Ci rallegriamo con voi che avete voluto, come già tanti altri pellegrini, incontrarvi a Roma in questo Anno Santo, per chiedere a Dio un cuore nuovo, purificato e fortificato, e vivere da cristiani riconciliati, in una fraternità accresciuta e più estesa. A voi tutti che soffrite, noi ridiciamo la Buona Novella che l’Apostolo Pietro, prima di Noi, portò fino a Roma.

@@ -12,7 +12,8 @@ umap_x: 6.986741065979004
 umap_y: 7.548376560211182
 umap_z: 9.420742988586426
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 Non è proprio consueto sentir parlare un ragazzo di 13 anni con disinvoltura, e addirittura passione, delle principali opere e località d’arte d’Europa. Parlare al telefono con Matteo è un viaggio delle meraviglie, da Leonardo, passando per Van Gogh per finire poi, con i piedi finalmente per terra per la sua età, a Star Wars! Dice sua madre Francesca che «come la luce dello “spettro” – autistico ad alto funzionamento – ha una personalità dai colori intensi e sfumature diverse, più delicate e leggere. Matteo possiede un’ottima proprietà di linguaggio e una buona autonomia. Ha un carattere allegro e mite, il viso illuminato da un grande sorriso che regala generosamente a tutti, amici e sconosciuti. Buongustaio e sempre affamato, è scout e grande camminatore. E una delle sue caratteristiche più belle è la grande curiosità».
 

@@ -12,7 +12,8 @@ umap_x: 8.131848335266113
 umap_y: 6.5236406326293945
 umap_z: 10.308183670043945
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 Scendevamo per una strada sterrata e uno scoiattolo ha attraversato. “Guarda Yuri, uno scoiattolo!”. Lui non ha fatto in tempo a vederlo... “Me lo sono perso!”. Mi ha fatto riflettere: esperienze come queste riaccendono il desiderio di vedere le cose. Quel “me lo sono perso” non è una frase per lui solita in comunità, spesso rimane un po’ distaccato dalle cose intorno». Yuri è una delle persone con disabilità della comunità *L’arcobaleno* di Quarto Inferiore (Bologna), la seconda delle tre realtà dell’Arche per anzianità presente sul territorio italiano; Stefano, che racconta l’episodio, è uno degli assistenti. **L’esperienza che si vive all’Arche, residenziale o di laboratorio, mette costantemente al centro le persone: ognuna di queste – ospite, operatore o volontario, «nessuna perfetta, ma unica e irripetibile, con la sua storia e il suo essere qui e ora»** – è «fondamentale per costruire, giorno dopo giorno, un’esperienza di accoglienza e condivisione, fermento di crescita per tutti».
 

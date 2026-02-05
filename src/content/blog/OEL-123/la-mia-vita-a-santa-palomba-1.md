@@ -14,7 +14,8 @@ umap_x: 6.961617946624756
 umap_y: 8.739914894104004
 umap_z: 8.997360229492188
 issue_number: OEL-123
-id_numero: OEL-123
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
 Ciao, mi chiamo Pietro, Bigari Pietro. Sono nato nel 1945, anzi nel quarantacì… mese? settembre, settembre. Il giorno… eh, il quarantacì!! Che importanza ha il giorno, chissà perché tutti mi chiedete il giorno.
 

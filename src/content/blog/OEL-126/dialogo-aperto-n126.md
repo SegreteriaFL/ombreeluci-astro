@@ -12,7 +12,8 @@ umap_x: 8.588674545288086
 umap_y: 9.434626579284668
 umap_z: 10.829357147216797
 issue_number: OEL-126
-id_numero: OEL-126
+id_numero: "OEL-126"
+numero_rivista: "Ombre e Luci"
 ---
 ### Sedie a rotelle
 

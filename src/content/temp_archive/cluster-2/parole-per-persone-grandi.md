@@ -7,6 +7,7 @@ cluster_id: 2
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_112_2010.jpg"
 slug: "parole-per-persone-grandi"
 has_comments: false
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

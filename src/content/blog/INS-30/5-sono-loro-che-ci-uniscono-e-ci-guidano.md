@@ -14,8 +14,9 @@ umap_x: 9.401026725769043
 umap_y: 7.948022365570068
 umap_z: 13.472363471984863
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Marzo 1980
 
 "Dobbiamo ritornare ogni volta, senza stancarci, verso la luce che riceviamo dai più piccoli e deboli, da coloro che la società rifiuta o ignora e che sono al centro delle nostre comunità. Possiamo decidere di camminare insieme perché loro sono presenti ed abbiamo acconsentito a metterci alla loro scuola."

@@ -12,7 +12,8 @@ umap_x: 6.791954040527344
 umap_y: 6.166317462921143
 umap_z: 9.53799057006836
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 Ilcovid ha rallentato sicuramente le esperienze delle serate in pizzeria di piccoli gruppi o intere comunità, lasciando ancora oggi preoccupazioni, per qualcuno, nel ritrovarsi in luoghi affollati. **La nostra comunità è da tempo che non vive una serata in pizzeria o al ristorante o festeggiare un compleanno fuori, insomma, questo tipo di esperienza che esce dai canoni dei nostri incontri.**
 

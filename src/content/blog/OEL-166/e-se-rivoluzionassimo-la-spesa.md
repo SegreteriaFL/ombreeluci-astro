@@ -12,7 +12,8 @@ umap_x: 7.883744239807129
 umap_y: 7.643626689910889
 umap_z: 7.862683296203613
 issue_number: OEL-166
-id_numero: OEL-166
+id_numero: "OEL-166"
+numero_rivista: "Ombre e Luci"
 ---
 Un[**video di qualche anno fa**](https://www.youtube.com/watch?v=-ZBw7Xk0SLI) , facilmente recuperabile su YouTube, mostrava in meno di un minuto e mezzo cosa poteva far detonare una crisi comportamentale in un bambino autistico al centro commerciale con la madre, compresa la reazione, ben poco comprensiva, di qualche avventore nelle vicinanze. Al termine dello spot, il piccolo protagonista spiegava di «non essere maleducato ma autistico»: le informazioni erano eccessivamente numerose e sovrapposte per le sue possibilità sensoriali. Un vero caos insomma, frustrante e destabilizzante, che diventa autentica barriera architettonica.
 

@@ -12,7 +12,8 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-109
-id_numero: OEL-109
+id_numero: "OEL-109"
+numero_rivista: "Ombre e Luci"
 ---
 Doveva lasciare un segno per ricordare la sua amata sorella malata di una grave forma di epilessia. Aveva scelto di portare una sua collana sul K2, visto che amava la montagna. La fortuna, il caso, la provvidenza (scegliete voi...) ha voluto che si perdesse e che si ritrovasse in un villaggio sperduto del Kashmir.
 

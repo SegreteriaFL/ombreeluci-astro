@@ -12,7 +12,8 @@ umap_x: 4.562443256378174
 umap_y: 8.318154335021973
 umap_z: 10.267248153686523
 issue_number: OEL-34
-id_numero: OEL-34
+id_numero: "OEL-34"
+numero_rivista: "Ombre e Luci"
 ---
 ### Come può sentirsi utile
 

@@ -12,8 +12,9 @@ umap_x: 6.258906841278076
 umap_y: 7.890880107879639
 umap_z: 12.041244506835938
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 **Indice** - [Una meravigliosa esperienza](#esperienza) - [Il diario di Tobia](#tobia) - [Presenza solare](#presenza) - [Scuola e inserimento](#inserimento) - [La scuola dei diversi](#diversi) - [Orgogliosa nave](#nave) - [Ho passato un bellissimo Natale!](#passato) - [Domenica con voi](#domenica)
 
 ### Una meravigliosa esperienza

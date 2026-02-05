@@ -14,8 +14,9 @@ umap_x: 8.770034790039062
 umap_y: 7.809165954589844
 umap_z: 11.461085319519043
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Spes contra Spem organizza visite guidate per ri-vedere la Capitale da un'altra prospettiva. La dott.ssa
 **Sabrina Zottis,**
 archeologa medievista, condurrà i partecipanti a conoscere i siti archeologici più importanti del nostro patrimonio culturale.

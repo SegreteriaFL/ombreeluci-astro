@@ -12,7 +12,8 @@ umap_x: 7.224461078643799
 umap_y: 2.2155442237854004
 umap_z: 9.782478332519531
 issue_number: OEL-152
-id_numero: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
 Benedetta Mattei non ci fa mancare belle sorprese: [nella sua ultima rubrica](https://www.ombreeluci.it/2020/caro-presidente-sergio-mattarella/) aveva raccontato del suo immenso desiderio di tornare a scuola direttamente al Presidente della Repubblica, Sergio Mattarella. Il quale le ha risposto inviando il biglietto che potete leggere nel Dialogo Aperto ( [e sul nostro profilo Twitter](https://twitter.com/Ombre_Luci/status/1341350515993694209) ). Non possiamo fare a meno di ringraziare entrambi, con tutto il cuore: Benedetta per averci presentati al nostro Presidente; e il Presidente che, con quel biglietto scritto di suo pugno, mostra quanto importante sia non trascurare una sedicenne come Benedetta. Un’altra sedicenne, [Sevy Marie Eicher](https://www.instagram.com/sevymarieart/?hl=it) , emergente artista e autrice del disegno in quarta di copertina, ci introduce al focus dedicato alle adozioni, tema che avevamo affrontato in passato e che riprendiamo data l’importanza che riveste ai nostri occhi: raccontiamo ancora esperienze probabilmente folli agli occhi del mondo ma che, quando vissute consapevolmente, riconosciamo come azioni capaci di generare un cambiamento, in questo caso per la vita di un bambino. Cosa di più prezioso?
 

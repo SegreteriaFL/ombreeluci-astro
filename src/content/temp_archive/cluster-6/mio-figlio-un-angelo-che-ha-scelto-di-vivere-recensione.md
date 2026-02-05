@@ -7,6 +7,7 @@ cluster_id: 6
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_103_2008.jpg"
 slug: "mio-figlio-un-angelo-che-ha-scelto-di-vivere-recensione"
 has_comments: false
+id_numero: "OEL-103"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

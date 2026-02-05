@@ -11,8 +11,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il virus è arrivato all'improvviso. Ha spiazzato tutti. Subito sono stati presi provvedimenti drastici. Chiusura immediata di scuole, cinema, teatri, musei, locali e chiese. Stop a tutte le manifestazioni in programma. Blocco totale. Mezzi vuoti o quasi, per strada poca gente. Supermercati, però, pieni di persone che comprano all'impazzata di tutto svuotando i ripiani. Si ha paura. Non si esce. Ci viene detto di non frequentare posti affollati dove è alto il rischio di contagio… Situazione pazzesca che stiamo cercando di gestire ma che ha creato diversi disguidi. Per precauzione hanno chiuso alcuni dei centri diurni frequentati dai nostri ragazzi con disabilità; in altri casi i genitori hanno preferito non fare uscire i figli.
 
 Chi vive in casa famiglia, per precauzione e quando possibile, è stato rimandato a casa in presenza di sintomi da raffreddamento. Diversi ragazzi che lavorano in categorie protette non hanno potuto recarsi a lavoro, ad esempio quelli che sono impegnati nelle mense scolastiche o aziendali che hanno chiuso a causa del virus. Qualcuno è contento perché a casa si riposa, si rilassa; qualcun altro non lo è affatto perché non è abituato a stare senza far niente. In genere i ragazzi sono impegnati in attività sportive, ricreative e ludiche: aver fermato tutto di colpo non è stato bello. Non accettano facilmente la situazione. Si è cercato di spiegare loro cosa sta succedendo, ma non sempre comprendono, sono sensibili, suscettibili, vanno tutelati, difesi e salvaguardati; se fosse possibile anche per loro, sarebbe utile il telelavoro da casa: bisogna coinvolgerli in qualcosa, così si sentono impegnati.

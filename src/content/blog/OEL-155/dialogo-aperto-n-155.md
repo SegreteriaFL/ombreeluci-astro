@@ -12,7 +12,8 @@ umap_x: 5.086460113525391
 umap_y: 7.859628200531006
 umap_z: 11.225154876708984
 issue_number: OEL-155
-id_numero: OEL-155
+id_numero: "OEL-155"
+numero_rivista: "Ombre e Luci"
 ---
 # Una nuova reporter
 

@@ -12,7 +12,8 @@ umap_x: 6.087252140045166
 umap_y: 6.861898422241211
 umap_z: 9.915915489196777
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 Questo articolo è degli inizi dell'anno 2000. Le informazioni in esso contenute possono essere non più valide.
 I

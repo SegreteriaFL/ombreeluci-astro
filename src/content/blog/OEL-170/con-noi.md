@@ -12,7 +12,8 @@ umap_x: 8.815435409545898
 umap_y: 9.396316528320312
 umap_z: 10.899200439453125
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 Un uomo vestito di bianco con al collo una semplice croce di ferro: è questo il Papa che il mondo ha visto affacciarsi dalla Loggia delle benedizioni il 13 marzo 2013. Privo di oro, mozzetta e rocchetto, Jorge Mario Bergoglio, venuto «quasi dalla fine del mondo», **è diventato il nuovo vescovo di Roma assumendo un nome che mai prima nessuno aveva osato** . In quel tardo pomeriggio umido di pioggia, sentendo il nome scelto dal cardinale di Buenos Aires, abbiamo pensato ai poveri, all’essenzialità, alla pace, alla cura per il creato. Ma abbiamo pensato anche ad altro. Perché Francesco d’Assisi è stato anche il santo che ha lasciato una testimonianza splendida di cosa significhi la parola amicizia. Con chi è differente da noi per sesso, fede, cultura, capacità, linguaggi, sguardo sul mondo: amicizia è un cammino fatto assieme, in un percorso profondo, reciproco e paritario.
 

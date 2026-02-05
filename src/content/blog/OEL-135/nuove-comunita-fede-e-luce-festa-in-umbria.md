@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-135
-id_numero: OEL-135
+id_numero: "OEL-135"
+numero_rivista: "Ombre e Luci"
 ---
 Tante storie messe insieme costruiscono la trama di una storia più grande e complessa! E pensare che solo un anno fa non conoscevo nessuna di queste storie, invece adesso eccoci qui, a Terni, a condividere un pezzo di strada in occasione della Festa della Primavera. Come in tutti gli incontri di Fede e Luce, la giornata ha inizio con la celebrazione della messa cui segue la condivisione del pasto, simbolo del fare comunità attraverso le cose più semplici e apparentemente più piccole ma di renderci una grande famiglia. E poi canti, balli e l’immancabile mimo in un unico grande cerchio sotto un sole che finalmente si dona generoso a noi. Tutte le comunità mischiate in un allegro disordine: Il Tesoro Nascosto (Terni), Il Cammino (Perugia), Il Girasole (Roma) e poi noi La Perla Preziosa (Assisi, Santa Maria degli Angeli).
 

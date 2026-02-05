@@ -12,7 +12,8 @@ umap_x: 8.146347045898438
 umap_y: 12.154473304748535
 umap_z: 11.016789436340332
 issue_number: OEL-146
-id_numero: OEL-146
+id_numero: "OEL-146"
+numero_rivista: "Ombre e Luci"
 ---
 «T
 u sei prezioso». Un cartello colorato a mano, affisso alle travi. Quella frase che mi aveva colpito tanti anni fa campeggia sopra la bara in legno grezzo. Quante volte l’hai ripetuta a ogni persona che hai incontrato? Ora è come se tutti la ripetessero a te: «Tu sei prezioso per noi». Ora tu sei lì, carissimo Jean. Ed è strano pensarti senza più voce, senza i tuoi sguardi profondi, senza la danza delle tue mani che accompagna le parole. L’eco di quello che ci hai insegnato risuona nella mente. Poco fa ti abbiamo salutato in una stanza piena di fiori di campo. Sopra la bara, fabbricata per te dall’

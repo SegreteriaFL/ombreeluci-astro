@@ -4,8 +4,8 @@ date: 2003-09-03
 author: Vito Palmisano
 slug: lettera-a-mariangela-e-a-molti-altri
 lang: it
-numero_rivista: 83
-id_numero: OEL-83
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-83"
 issue_number: OEL-83
 wp_id: 26873
 original_url: "https://www.ombreeluci.it/?p=26873"
@@ -15,7 +15,6 @@ umap_x: 4.860705852508545
 umap_y: 10.09062385559082
 umap_z: 11.957386016845703
 ---
-
 Carissima Mariangela, martedì 24 giugno celebrerò in parrocchia a Noci il mìo 25° anniversario di ordinazione sacerdotale. In questi giorni di preparazione sto facendo memoria di tanti eventi vissuti, di persone incontrate, di parole dette e ascoltate. Sto cercando, mettendo insieme tanti tasselli, di scoprire il disegno di Dio sulla mia vita. Mentre vivi la quotidianità e l’evento singolo non osi guardare il tutto. È quello che invece sto facendo adesso. Mi accorgo che in tutte le esperienze pastorali fatte in questi anni Dio mi ha preso per mano e mi ha guidato anche per valli oscure dove mi ha acceso la lampada di Fede e Luce.
 
 **La tua testimonianza di mamma di Chicca** , di donna che ammira e vuole tanto bene ai sacerdoti mi ha edificato. Negli anni romani di formazione [Fede e Luce](https://www.fedeeluce.it/) mi ha fatto crescere in umanità. Mi è stato di grande aiuto ad aver stima di me, a superare la timidezza legata al mio carattere, a farmi uscire dalla solitudine. In fondo sono grato a FL per aver imparato la grammatica della vita comunitarià, pur vivendo un’esperienza di seminario che ha la sua ragion d’essere sulla comunità.

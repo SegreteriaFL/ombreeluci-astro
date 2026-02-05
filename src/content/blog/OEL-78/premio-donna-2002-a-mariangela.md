@@ -4,8 +4,8 @@ date: 2002-03-10
 author: Giulia Galeotti
 slug: premio-donna-2002-a-mariangela
 lang: it
-numero_rivista: 78
-id_numero: OEL-78
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-78"
 issue_number: OEL-78
 wp_id: 16709
 original_url: "https://www.ombreeluci.it/?p=16709"
@@ -15,7 +15,6 @@ umap_x: 4.524755954742432
 umap_y: 10.077170372009277
 umap_z: 12.003265380859375
 ---
-
 Mariangela era bellissima nel suo completo blu giovedì 7 marzo quando l'ho salutata, entrando nella sala del museo Boncompagni Ludovisi poco prima che le venisse consegnato il Premio Donna 2002. Premio annuale, è stato ideato e promosso dall' [Associazione nazionale reduci e prigionieri di guerra](http://www.anrp.it/associazione/) (ANRP) in ricordo delle donne che furono vicine con coraggio, solidarietà e generosità ai combattenti e alle loro famiglie. Destinato a tre italiane impegnatesi per il rispetto della vita e della dignità umana, con esso si riconosce il valore di un'attività concreta in favore del prossimo. Oltre al valore simbolico del riconoscimento, è stanziata una somma di denaro destinata a tutti - tranne che alle vincitrici. Lo scopo del premio è infatti quello di rendere le attività delle tre donne premiate lo strumento per aiutare specifiche realtà bisognose attraverso l'invio di aiuti ad organizzazioni umanitarie che operano a favore di bambini e donne nei paesi flagellati dalla guerra. Quest'anno verrà sostenuta l'attività dell' [HAWCA](http://www.hawca.org/) che si occupa dei bimbi e bimbe afgane, devolvendole una somma che consentirà a 20 di queste bambine di studiare per un anno.
 
 Il premio per altri, attraverso i gesti quotidiani delle vincitrici... Mariangela e i suoi trent'anni di [Fede e Luce](https://www.fedeeluce.it/) come ponte tra tanti ragazzi italiani che hanno cercato di vivere con gioia, consapevolezza e fede e venti bambine afgane nel loro sforzo quotidiano d'imparare. Mariangela e i suoi trent'anni portati cosi bene, con quella luce frizzante degli occhi che pizzica chi l'ascolta...

@@ -12,7 +12,8 @@ umap_x: 5.037898063659668
 umap_y: 7.7219038009643555
 umap_z: 11.213571548461914
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 ### Ora vedremo gli amici
 

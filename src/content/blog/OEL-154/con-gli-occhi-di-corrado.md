@@ -12,7 +12,8 @@ umap_x: 5.239609241485596
 umap_y: 9.981123924255371
 umap_z: 9.279973983764648
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 Quando ho iniziato a scrivere non sapevo da dove cominciare. Raccontare e mettere in ordine i pensieri, non sempre è facile. Ho deciso di chiudere gli occhi per qualche istante, e provare a cercare dentro di me un’immagine, **il ricordo più nitido che avevo dei meravigliosi occhi di mio fratello.** E quasi subito mi è venuta in mente una fotografia per associazione, una foto che non so più dov’è ma che ho guardato tante, tantissime volte, di noi due, seduti uno accanto all’altro nella stessa posizione sul brecciolino del viale di casa di mia nonna; lo stesso sorriso e lo stesso sguardo di due bambini poco più che seienni mano nella mano. E da quel momento sono cominciati alcuni ricordi.
 

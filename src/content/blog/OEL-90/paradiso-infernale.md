@@ -4,8 +4,8 @@ date: 2005-06-17
 author: Marta Pensi
 slug: paradiso-infernale
 lang: it
-numero_rivista: 90
-id_numero: OEL-90
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-90"
 issue_number: OEL-90
 wp_id: 30952
 original_url: "https://www.ombreeluci.it/?p=30952"
@@ -15,7 +15,6 @@ umap_x: 7.745157241821289
 umap_y: 7.171669006347656
 umap_z: 10.5630521774292
 ---
-
 D
 isfo le valigie alla conclusione del mio ottavo viaggio a Sighet, Transilvania, (Romania). Centinaia e centinaia di chilometri fatti ogni volta in pullman, seguendo fisicamente metro per metro tutta la strada, senza sostituirla con il trasporto "astratto" dell'aereo. Tanto comunque non servirebbe a nulla, visto che non ci sono aeroporti nel raggio di chilometri, a distanze di ore e ore di treno.
 **Mi faccio molte domande**

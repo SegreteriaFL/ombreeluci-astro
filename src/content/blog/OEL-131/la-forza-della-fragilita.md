@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Nella parola di Dio, ascoltata durante una messa domenicale, ho ascoltato questa frase: “Quando sono debole è allora che sono forte”. Queste parole e l’omelia a seguire mi hanno rimandato ad un momento del nostro Pellegrinaggio Roma – Assisi in occasione dei 40 anni di *Fede e Luce* in Italia.
 Eravamo ad Assisi, mattinata a piedi per le vie di Assisi; sono con Angelo nella Basilica di Santa Chiara ed entriamo a pregare davanti alla Croce di San Damiano. Angelo si sofferma a leggere in ginocchio tutte le preghiere poste sotto il crocifisso e io guardo questa meravigliosa icona, Gesù è rappresentato ferito e forte, Gesù trionfa sulla morte e qui lo vediamo dritto e non è morto. Da questa croce il Signore parlò a san Francesco e dalla croce gli chiese di andare a riparare la sua chiesa!

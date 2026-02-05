@@ -14,8 +14,9 @@ umap_x: 9.397436141967773
 umap_y: 8.012937545776367
 umap_z: 13.47500228881836
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Dicembre 1980
 
 "Ave o piena di grazia, il Signore è con te!"

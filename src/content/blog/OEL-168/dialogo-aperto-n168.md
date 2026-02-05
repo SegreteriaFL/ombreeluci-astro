@@ -15,7 +15,8 @@ umap_x: 5.471543788909912
 umap_y: 7.824194431304932
 umap_z: 11.176643371582031
 issue_number: OEL-168
-id_numero: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
 ### Una partita del cuore
 

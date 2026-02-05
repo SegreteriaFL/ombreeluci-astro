@@ -12,7 +12,8 @@ umap_x: 6.347092628479004
 umap_y: 7.542392730712891
 umap_z: 9.293167114257812
 issue_number: OEL-163
-id_numero: OEL-163
+id_numero: "OEL-163"
+numero_rivista: "Ombre e Luci"
 ---
 Paolo spinge la carrozzella di sua figlia Sara per correre insieme, i migranti Ansou Cisse, Jallow Buba e Charles Ampofo calpestano i fili d’erba con gli stessi piedi con cui sono fuggiti dalle brutture dei loro Paesi, la mamma ucraina Viktoria Gudyma trasforma la corsa in una vera e propria esperienza di pace.
 

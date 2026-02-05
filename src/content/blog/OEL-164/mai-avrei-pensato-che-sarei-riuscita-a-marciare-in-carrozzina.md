@@ -12,8 +12,9 @@ umap_x: 8.285981178283691
 umap_y: 5.927878379821777
 umap_z: 10.377457618713379
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Lapiccola marcia è stata un momento sensazionale. Vi dico così perché a livello di legami è stata forte! **Qui da Roma siamo partiti in sei, quando siamo arrivati lì abbiamo incontrato un sacco di gente nuova...** ma c'era già un legame di fratellanza e di amore! C'era già un legame, come dico io, "di famiglia" nonostante tutte le diversità.
 
 Se invece vogliamo guardare il punto di vista spirituale, per me la Piccola Marcia è stata molto forte perché quando ho iniziato a marciare, mi pare il giorno dopo che sono arrivata a Perugia, già da li sentivo qualcosa. Ad essere precisa ero a Ospedalicchio, dove c'è stata la prima sosta per sistemarci e poi partire per iniziare la nostra avventura.

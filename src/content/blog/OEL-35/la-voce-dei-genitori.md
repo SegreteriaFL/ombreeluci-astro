@@ -14,7 +14,8 @@ umap_x: 5.0457353591918945
 umap_y: 7.619935512542725
 umap_z: 9.107824325561523
 issue_number: OEL-35
-id_numero: OEL-35
+id_numero: "OEL-35"
+numero_rivista: "Ombre e Luci"
 ---
 Diamo, raggruppate, le prime risposte dei genitori all'inchiesta proposta nel F numero di Ombre e Luci di quest'anno. Daremo in un prossimo numero il risultato delle domande più significative nella speranza che in questi mesi arrivino molte altre risposte. Grazie intanto a queste prime 70 famiglie che ci hanno fatto giungere la loro voce! Grazie per avere aggiunto alle domande alcune annotazioni che qui riportiamo suddivise per argomenti! Sono utili, ci sembra, per sottolineare i bisogni e le richieste alle quali Ombre e Luci cercherà di rispondere nella misura del possibile. Il numero IV del 91, che uscirà a fine dicembre, sarà dedicato alle CASE FAMIGLIA: cercheremo, di dare consigli per come avviarle e di offrire una mappa di indirizzi di Case-famiglia funzionanti in Italia. Grazie in anticipo a chi ci vorrà segnalare indirizzi di Case-famiglia e comunità alloggio «riuscite» e rispondenti alla dignità delle persone handicappate accolte.
 

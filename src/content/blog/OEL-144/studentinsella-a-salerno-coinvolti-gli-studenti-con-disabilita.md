@@ -11,8 +11,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 L’ICS “G. Barra” di Salerno accoglie 1283 studenti di cui 52 diversamente abili, di cui 36 frequentano la scuola secondaria di primo grado. Sono alunni con bisogni speciali perché molti sono in situazione di handicap grave con problematiche di comportamento e apprendimento. L’attenzione e la cura rivolte alla galassia della diversabilità costituiscono un elemento connotativo della visione e dell’identità etica, culturale, sociale e progettuale dell’Istituto.
 
 "La nostra scuola è diventata sul territorio un punto di riferimento e di accoglienza per i ragazzi con bisogni educativi speciali, adottando da anni prassi inclusive e garantendo il diritto allo studio. L’integrazione degli alunni con svantaggio è un processo continuo, complesso, che richiede competenze, risorse e lavoro di coordinamento con i servizi pubblici, con le famiglie, con i docenti in una logica di interscambio di esperienze e di ricerca-azione.

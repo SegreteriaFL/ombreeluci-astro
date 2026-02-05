@@ -12,7 +12,8 @@ umap_x: 9.38967514038086
 umap_y: 9.974401473999023
 umap_z: 10.08624267578125
 issue_number: OEL-147
-id_numero: OEL-147
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
 «L'oratorio della mia parrocchia era un po’ in difficoltà nella Milano dei primi anni Settanta, e così il prete di noi ragazzi “si inventò” gli scout: mi ci buttai a capofitto». Chi parla è don Marco Bove, vera roccia per Fede e Luce: assistente spirituale nazionale dal 1999, da settembre 2019 è l’assistente spirituale internazionale del movimento. Il vero merito di don Marco, però, è quello di aver fatto proprio lo spirito di una comunità costruita sull’amicizia.
 

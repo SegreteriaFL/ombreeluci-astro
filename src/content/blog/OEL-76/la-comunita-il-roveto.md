@@ -11,8 +11,9 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quattro giovani donne, Francesca, Laura, Maria Grazia e Nunzia, da tempo avevano in cuore il desiderio di vivere una vita di consacrazione al Signore, pregando, riflettendo e aiutando le persone che avvicinano. Ora il loro desiderio si è avverato. Vivono in una piccola comunità, il Roveto appunto, in un’ala del Palazzo Ruscono Clerici, ceduta dalla parrocchia di Nerviano, insieme ad alcune persone che le assistono nelle loro necessità. **Perché queste giovani donne coraggiose sono disabili fisiche, obbligate a vivere e a spostarsi in carrozzella.
 
 Sotto la guida spirituale del sacerdote don Giuseppe Beretta, pregano, meditano, eseguono ricerche sui testi sacri al computer (l’unica attività che sono in grado di eseguire), accolgono bambini e adulti che vogliono conoscerle, parlare, ascoltare e con loro riflettere e pregare.

@@ -12,8 +12,9 @@ umap_x: 9.48185920715332
 umap_y: 10.19980525970459
 umap_z: 9.442501068115234
 issue_number: OEL-51
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ecco la storia di Giacomo, in una comunità dell'Arca. Quest'uomo di trent'anni, totalmente dipendente, vive con noi da diciotto anni. È per noi un mistero di silenzio. Né parola, né sorriso, arrivano mai a svelare il suo segreto. La sua presenza in mezzo a noi, soprattutto nei momenti di preghiera e dell'Eucarestia, può sembrare totalmente estranea a quanto viviamo.
 T
 utte le persone che seguono e accompagnano Giacomo, soprattutto al momento della messa, testimoniano con forza il senso nuovo di tutto ciò che è vissuto con lui... Pian piano sono sorte delle domande, via via sempre più intense, circa la sua partecipazione ai sacramenti... Giacomo è battezzato. È membro del Cristo e noi siamo insieme membra dello stesso corpo. La nostra vita quotidiana con lui esprime, per quanto è possibile, questa profonda e misteriosa solidarietà nell’Amore. E allora, perché Giacomo non sarebbe invitato al banchetto eucaristico, a quel sacramento che, precisamente, ci costituisce insieme corpo del Cristo? Abbiamo letto e riletto i capitoli 12 delle lettere ai Romani e ai Corinti. Ci ricordano che il corpo è fatto di diverse membra, molto diverse; che la membra più deboli sono necessarie, che le membra meno nobili sono trattate con maggior riguardo, poiché «Dio ha composto il Corpo in modo che venga dato più onore alle parti che non ne hanno. Cosi non ci sono divisioni nel Corpo: tutte le parti si preoccupano le une delle altre» (I Cor. 12, 24). La sofferenza o la gioia di un solo membro diventa quella di tutto il corpo... Che luce!

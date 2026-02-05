@@ -4,8 +4,8 @@ date: 2003-09-03
 author: Antonella Bulgheroni
 slug: caa-comunicazione-aumentativa-alternativa-nel-centro-benedetta-dintino
 lang: it
-numero_rivista: 83
-id_numero: OEL-83
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-83"
 issue_number: OEL-83
 wp_id: 26913
 original_url: "https://www.ombreeluci.it/?p=26913"
@@ -15,7 +15,6 @@ umap_x: 7.904655456542969
 umap_y: 7.7855224609375
 umap_z: 8.460314750671387
 ---
-
 Nel 1994, grazie al sostegno dell’omonima Fondazione, nasce a Milano il [**Centro Benedetta D’Intino**](https://www.benedettadintino.it/) per la cura ed il trattamento di bambini e adolescenti con disturbi psicologici, per il sostegno alle loro famiglie e per favorire la comunicazione e l’autonomia in bambini con disabilità di vario grado o privi di linguaggio orale.
 
 Oltre ai settori di intervento di psicoterapia e di affidi e adozioni, il Centro comprende anche il settore di **Comunicazione Aumentativa Alternativa** (C.A.A.) offrendone il primo servizio in Italia di valutazione, consulenza, formazione e supervisione sotto la direzione della Dott.ssa Aurelia Rivarola.

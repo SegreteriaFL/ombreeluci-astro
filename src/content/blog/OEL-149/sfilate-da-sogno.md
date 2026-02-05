@@ -12,7 +12,8 @@ umap_x: 8.198454856872559
 umap_y: 7.422870635986328
 umap_z: 8.38276195526123
 issue_number: OEL-149
-id_numero: OEL-149
+id_numero: "OEL-149"
+numero_rivista: "Ombre e Luci"
 ---
 Un gruppo di genitori di ragazzi con autismo a Roma si incontravano spesso in attesa alle terapie dei loro figli. Si confrontavano sul futuro e su quale attività proporre loro una volta terminata la scuola; cercavano qualcosa che riuscisse a coinvolgere dei giovani nella loro condizione e, allo stesso tempo, che li guidasse verso nuove conquiste. Un giorno Antonio, papà di Vincenzo, tornando a casa dalla piscina con il figlio, disse ridendo alla moglie Maria Carmela che una delle mamme sosteneva che i loro figli avrebbero potuto fare... i fotomodelli! Maria Carmela sorrise al pensiero ma, in fondo, quell’idea non le sembrò tanto assurda. Erano a Roma da qualche anno dopo aver vissuto in Basilicata fino ai 10 anni di Vincenzo. Si erano decisi faticosamente al trasferimento proprio per le scarse opportunità che avevano trovato lì.
 

@@ -12,7 +12,8 @@ umap_x: 4.348991870880127
 umap_y: 7.670399188995361
 umap_z: 10.284380912780762
 issue_number: OEL-23
-id_numero: OEL-23
+id_numero: "OEL-23"
+numero_rivista: "Ombre e Luci"
 ---
 ### Resterà una vana speranza?
 

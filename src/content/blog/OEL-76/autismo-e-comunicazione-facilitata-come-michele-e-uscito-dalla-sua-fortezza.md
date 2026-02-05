@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 Avviso
 La comunicazione facilitata non ha ottenuto all’interno della comunità scientifica e professionale, un giudizio unanime rispetto alla sua validità.
 

@@ -12,7 +12,8 @@ umap_x: 9.43991756439209
 umap_y: 7.764948844909668
 umap_z: 7.0425124168396
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 **Potete descriverci gli intenti di queste proposte e quali prospettive offrono?** La legge sul prepensionamento dovrebbe riconoscere il diritto del familiare, che svolge il doppio lavoro di cura di un congiunto con disabilità grave ed una diversa professione, di veder riconosciuta la condizione usurante di tale impegno. E’un processo di riconoscimento legislativo che riguarda però solo una contenuta platea dei familiari impegnati nel lavoro di cura. Quanto invece chiediamo ora, rispetto al family caregiver, è il riconoscimento dell’impegno, richiesto al familiare di una persona con disabilità grave, di garantire la sopravvivenza e la qualità di vita del proprio congiunto. Il lavoro di cura, quindi, non si esaurisce unicamente con la prestazione assistenziale continua ma comprende l’intera gamma di azioni necessarie al mantenimento di una condizione esistenziale dignitosa di chi ha una disabilità (rapporto con le istituzioni, continuità terapeutiche/riabilitative, supporto nella comunicazione, nella vita di relazione ecc ecc).
 

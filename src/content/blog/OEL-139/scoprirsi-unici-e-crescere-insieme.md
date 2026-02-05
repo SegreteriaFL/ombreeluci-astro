@@ -16,7 +16,8 @@ umap_x: 6.994218349456787
 umap_y: 6.933544158935547
 umap_z: 7.14438533782959
 issue_number: OEL-139
-id_numero: OEL-139
+id_numero: "OEL-139"
+numero_rivista: "Ombre e Luci"
 ---
 L’introduzione della musicoterapia nel contesto scuola non vuole aggiungere nuove strategie didattiche per fronteggiare l’emergenza, ma sottolineare la dimensione dialogica, nucleo del fenomeno educativo: è cercare l’incontro tra docente e discente, tra studente e studente, tra studente e classe. È l’inclusione del gruppo in un unico processo narrativo attivato dallo stesso evento-suono.
 

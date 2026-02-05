@@ -15,8 +15,9 @@ umap_x: 6.451850891113281
 umap_y: 9.410804748535156
 umap_z: 8.309508323669434
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 Mi ritrovo sola "a tu per tu" con un ragazzo handicappato: ho scelto io, deliberatamente, quel momento, da tempo atteso e temuto insieme. In lui soltanto gli occhi parlano, ed ogni volta, davanti a quegli occhi, io mi scopro inadeguata ed incapace, ma ora non c'è via d'uscita; senza quasi rendermene conto, incomincio a parlare.
 
 Le parole affiorano dapprima incerte e poi via via più intense: in quegli occhi io vedo, io "sento" una risposta che mi invade di stupore, perché porta in sé la forza di un annuncio. Ritengo irrepetibile quel momento, che invece ritroverò in tutta la sua intatta freschezza durante una celebrazione Fede e Luce, nello scorso novembre a Milano.

@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 CCara Mariangela, grazie della tua lettera che è giunta consolatrice di un dolore tanto grande e che è pur sempre il tuo dolore. Grazie del ricordo che fai di nostro figlio che è sempre con noi, caro al nostro cuore come la prima volta che fece udire il suo vagito.
 
 Dio, nella sua infinita misericordia, l'ha voluto con Sè proprio nel momento in cui Andrea aveva riscoperto la Sua Luce e per questo Gli rendiamo grazie. E Gli siamo grati anche perché ci ha fatto il dono grande di potere avere degli amici intorno che, con la forza della loro Fede, ci hanno insegnato a percorrere con serenità il nostro sentiero di spine per giungere fino a Lui.

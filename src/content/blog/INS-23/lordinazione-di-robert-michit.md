@@ -12,8 +12,9 @@ umap_x: 9.01445198059082
 umap_y: 7.985506534576416
 umap_z: 12.85496997833252
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Un gruppetto di noi è stato in Francia per assistere alla ordinazione sacerdotale di Robert Michit il 29 settembre e per testimoniargli l'affetto e l'amicizia di tutti.
 
 Dopo una accurata preparazione, una partenza incerta fino all'ultimo minuto, un viaggio pieno di smarrimenti e di ritrovamenti (di strade, macchine e persone), l'arrivo è stato pressocché ineccepibile: cinque minuti prima dell'inizio della cerimonia le due macchine, anche se da direzioni diverse, arrivano alla chiesa parrocchiale di Saint Remy de Provence.

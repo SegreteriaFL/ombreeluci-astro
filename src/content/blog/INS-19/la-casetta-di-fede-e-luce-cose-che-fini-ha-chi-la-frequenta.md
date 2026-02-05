@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 C'è gente che probabilmente ne ha già sentito parlare ma non ne sa nulla di preciso perciò, dovendo fare il punto della situazione, sarà forse bene dare anche qualche notizia precisa.
 
 La "casetta" vuole essere un'esperienza, sia pure breve, di vita in comune che si vive due volte al mese, all'istituto Nazareth dalle 10 di mattina alle 17 circa.

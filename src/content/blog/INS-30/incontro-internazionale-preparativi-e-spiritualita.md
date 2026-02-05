@@ -12,8 +12,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Presenti all'Incontro i delegati di 19 paesi del mondo, dall'America all'Australia. Presenti per la prima volta il Libano e la Svezia.
 Sono stati giorni di lavoro intenso, alleggerito da qualche visita alla Grotta e dall'accoglienza calorosa delle suore dell'Assunzione.
 

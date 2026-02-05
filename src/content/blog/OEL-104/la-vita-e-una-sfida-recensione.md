@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-104
+id_numero: "OEL-104"
+numero_rivista: "Ombre e Luci"
 ---
-
 Jerome Lejeune è il genetista francese che ha scoperto alla fine degli anni Cinquanta la trisomia 21. Professore universitario nella cattedra di Genetica fondamentale a Parigi a soli 38 anni, è nominato esperto francese sulle radiazioni atomiche presso le Nazioni Unite, scelto dal presidente Pompidou per far parte dell’assemblea dei Sapienti, membro e poi presidente della Pontificia Accademia delle Scienze nel 1974, messaggero di Papa Giovanni Paolo II in molti paesi del mondo. È automatico immaginarselo chino su un microscopio, con camice bianco, tra le quattro pareti di un laboratorio.
 
 Ma Jérome Lejeune, venuto a mancare nell’aprile del 1994, è stato un giovane ragazzo animato dal desiderio di aiutare “i piccoli”, è stato uno sposo, un padre, un amico, un cristiano. È stato le vacanze con figli e moglie in Danimarca, con tre giorni di viaggio al volante della “4CV” e l’odore dei pannolini che faceva desistere il doganiere più scrupoloso. È stato la preghiera serale con i suoi figli prima di andare a dormire. È stato un nonno che spiega al nipotino la storia di Pollicino (come lui chiama l'embrione umano) con le medesime parole che usa con presidenti e regnanti nelle sue missioni in giro per il mondo contro l'aborto. E’ stato la casa sempre aperta agli ospiti dell'ultima ora. E°stato la gentilezza di un medico che accompagna i genitori nell’accoglienza di un figlio speciale. È stato la regola che a casa il telefono può squillare anche di notte perchè “quando un genitore è preoccupato per la sorte del suo bambino malato non abbiamo il diritto di farlo aspettare”. È stato le lettere che scriveva alla moglie e la stanchezza della separazione tra loro nelle estati solitarie che lui passava in laboratorio mentre lei e i figli erano al mare. È stato l’aperitivo a casa con gli amici dopo la Messa domenicale. È stato la mano nella mano di suo papà mentre moriva.

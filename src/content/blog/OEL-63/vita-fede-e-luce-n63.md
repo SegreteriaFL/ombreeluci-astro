@@ -4,8 +4,8 @@ date: 1998-09-25
 author: Redazione
 slug: vita-fede-e-luce-n63
 lang: it
-numero_rivista: 63
-id_numero: OEL-63
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-63"
 issue_number: OEL-63
 wp_id: 12252
 original_url: "https://www.ombreeluci.it/?p=12252"
@@ -15,7 +15,6 @@ umap_x: 6.927724838256836
 umap_y: 9.03593921661377
 umap_z: 12.825959205627441
 ---
-
 ### Un ’amicizia «impossibile»
 
 Nell’ultimo numero di Ombre e Luci, Olga ha scritto (nel suo stile diretto molto simpatico) alcune considerazioni sull'amicizia a Fede e Luce. Le sue parole dicono tante cose vere e sagge da condividere e da ricordare; inducono inoltre ad altre riflessioni. Ora le mie parole non vogliono essere una risposta a Olga né una rettifica o un'aggiunta a quanto lei ha detto. Sono piuttosto una riproposta dello stesso tema sotto un'angolatura diversa. La cosa più naturale per me è vedere l’amicizia a Fede e Luce dal punto di vista degli amici (anche se non pretendo di parlare a loro nome). L’amico, anche il più giovane, che muove i primi passi a Fede e Luce, capisce molto presto che non è solo un aiuto che gli viene richiesto, ma che si tratta piuttosto di una amicizia. Si trova di fronte però ad un'amicizia molto diversa dalla solita, con caratteristiche anche in contrasto fra loro che lo sfidano, in un certo senso, e che non sa lui stesso bene come risolvere.

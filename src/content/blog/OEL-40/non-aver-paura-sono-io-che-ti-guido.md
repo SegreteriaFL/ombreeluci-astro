@@ -14,8 +14,9 @@ umap_x: 7.428074359893799
 umap_y: 9.726648330688477
 umap_z: 9.765472412109375
 issue_number: OEL-40
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 E
 ric Molinié ha sperimentato questa frase-chiave che rappresenta la filigrana di cui è intessuta la sua vita di ogni giorno. Eric ha 31 anni ed è il primo di quattro figli. E direttore in un’istituto finanziario, presidente dell’Associazione degli ex alunni della comunità cristiana dell’Istituto Studi Superiori di Commercio, tesoriere della Associazione Francese contro le Miopatie ed è affetto da miopatia dei cingoli. Eric ci insegna a vincere quella paura che facilmente invade i nostri cuori e a vivere la grazia dell’istante presente. Per prepararmi a scrivere queste righe avevo pensato di leggere in tranquillità l’enciclica di Giovanni Paolo II sul significato cristiano della sofferenza e altri testi intellettuali che avrebbero avuto lo scopo di farmi fare un bel tema filosofico. Invece ho dovuto occuparmi interamente della preparazione di TELETON (trasmissione Tv per raccogliere fondi per i miodistrofici). Non è un caso. Se avrò la capacità di darvi qualcosa sarà nel testimoniare quella serie di avvenimenti che poco a poco mi hanno portato a queste parole: «Non avere paura, sono Io che ti guido». Mi sono chiesto se questo titolo avrebbe urtato qualcuno: potrebbe dare l’impressione errata che per me tutto sia bello: «Dio mi conduce». E geniale! Nessun problema! In realtà questa frase è un invito ad assumere, malgrado ogni difficoltà, un atteggiamento interiore di fiducia su una strada che non finisce mai. Questo cammino per me ha avuto tre «capitoli»: un’infanzia assennata, un’adolescenza movimentata e una maturità fiduciosa.
 

@@ -12,8 +12,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Perché questo libretto
 
 È stato preparato su richiesta di diversi paesi e con la stretta collaborazione di alcuni di loro, per creare una più grande unità tra le diverse comunità Fede e Luce, e permettere a ciascuna di loro di preparare in modo concreto e spirituale, la via verso la Pasqua 1981. È destinato a tutti i membri della comunità, sia che vadano a Lourdes sia che celebrino la Pasqua nel proprio paese.

@@ -15,8 +15,9 @@ umap_x: 8.873115539550781
 umap_y: 8.063301086425781
 umap_z: 7.758689880371094
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Roma – Sarà una manifestazione ad inviti il
 **Disability Day**
 (DisDay) che si svolgerà

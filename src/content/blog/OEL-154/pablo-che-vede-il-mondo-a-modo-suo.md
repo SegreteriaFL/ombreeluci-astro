@@ -12,7 +12,8 @@ umap_x: 8.246004104614258
 umap_y: 8.337855339050293
 umap_z: 3.907994508743286
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 Si chiama Pablo, ha 5 anni, ama disegnare ed è **il protagonista di una nuova serie animata inglese** . È intelligente e molto sensibile, spesso smarrito di fronte a persone che non conosce, spaventato dalle feste affollate, turbato quando perde un oggetto.
 

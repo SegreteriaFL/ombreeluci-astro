@@ -16,7 +16,8 @@ umap_x: 7.478464603424072
 umap_y: 9.108680725097656
 umap_z: 13.897762298583984
 issue_number: OEL-9
-id_numero: OEL-9
+id_numero: "OEL-9"
+numero_rivista: "Ombre e Luci"
 ---
 ### Una nuova «regione» - Fede e Luce: il Sud
 

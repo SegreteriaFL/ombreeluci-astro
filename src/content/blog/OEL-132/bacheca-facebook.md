@@ -12,8 +12,9 @@ umap_x: 5.786365985870361
 umap_y: 9.371234893798828
 umap_z: 11.630504608154297
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 Non si è mai pronti abbastanza. E a volte sembra che le parole, le preghiere, i canti e i ricordi non bastino mai... Il fatto è che per noi non è cambiato molto. Per noi ci sei lo stesso. E c’è ancora, in modo forte, quello che eri. E ciò che eri è indelebile e vero. È il metro con cui misuravi questa vita che è stato un grande insegnamento per noi tutti, e una grande gioia... Ricordo quando in un momento di solitudine per la vostra mancanza, dopo l’arrivo in Germania, mi dicesti “…porta ciò che hai di *Fede e Luce* sempre con te e, donalo a tutti…” *— Laura Broccolo*
 
 Da ieri che mi tornano in mente tanti ricordi e ho ritrovato una foto: Il pranzo in riva al mare con i nostri amici ciprioti in terra turca e il famoso brindisi di Daniele ‘W la Turchia’... quanto abbiamo riso; Mi mancherà ridere con te, mi mancheranno la tua ironia sottile, le tue imitazioni, i nomi che inventavi per i nostri amici, lo scambio continuo di foto... *— Angela Gattulli*

@@ -12,8 +12,9 @@ umap_x: 6.7093329429626465
 umap_y: 8.285340309143066
 umap_z: 6.622742176055908
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 Inidi e gli asili accolgono oggi anche bambini con handicap e tra questi alcuni che vengono chiamati «autistici». \
 
 **Leggi anche: [Speciale Autismo](https://www.ombreeluci.it/autismo/)**

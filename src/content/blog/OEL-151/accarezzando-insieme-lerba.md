@@ -12,7 +12,8 @@ umap_x: 8.747060775756836
 umap_y: 8.71990966796875
 umap_z: 3.171119213104248
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 C'è un bambino in grado di volare: più si eleva, più appare strano agli occhi di chi rimane a terra. Un bambino che suscita quasi paura, oltre a molta incredulità, in suo padre, timoroso del giudizio degli altri genitori, i cui figli fanno cose considerate normali, tra le quali non figura di certo la possibilità di galleggiare nell’aria. È in *Float* (2019), emozionante cortometraggio di Pixar Animation Studios, attualmente disponibile in Italia sulla piattaforma streaming Disney+, che viene raccontata questa storia che ha che fare con la disabilità e che, in nove minuti, riesce a far luce con delicatezza e serietà su di essa, sulle preoccupazioni di un padre ritrovatosi da solo con un figlio che vuole soltanto essere accettato per ciò che è.
 

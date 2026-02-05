@@ -12,8 +12,9 @@ umap_x: 8.640663146972656
 umap_y: 12.132387161254883
 umap_z: 10.271414756774902
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 Mi sembra di non avere mai conosciuto una persona esente da questo desiderio di accoglienza totale, di accettazione incondizionata, che mi viene spontaneo chiamare **nostalgia di comunione** . Nostalgia perché all’inizio della nostra vita terrena c’è un grembo materno ad accoglierci e forse anche perché all’inizio del mistero senza confini di ogni vita umana c’è la comunione trinitaria di Dio. È dunque la nostra origine, fondata su una comunione, che noi inseguiamo sempre nella nostra vita e che cerchiamo di costruire nei nostri rapporti d’amore e di amicizia che ahimè, sono disseminati di difficoltà e spesso falliscono miseramente.
 
 Eppure niente riesce a spegnere del tutto la fiamma leggera di questo desiderio di comunione, una speranza che a volte ci sembra insensata ma insieme ci dice che sì, è proprio a questo che siamo destinati.

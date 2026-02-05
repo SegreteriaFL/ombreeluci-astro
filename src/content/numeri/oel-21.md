@@ -1,15 +1,39 @@
 ---
 id: "OEL-21"
-title: "Numero 21 - Rompere la solitudine del malato mentale"
+title: "Numero 21 – Rompere la solitudine del malato mentale"
 tipo: "ombre-e-luci"
 numero: 21
-anno: "1988"
+sort_order: 120
+pubDate: "1988-03-01T00:00:00Z"
 data_pubblicazione: "Marzo – 1988"
 sommario: "Incontrare un malato mentale è spesso difficile per diverse ragioni, sono tante le domande che pone questa condizione. Ma è importante che la persona e la sua famiglia non restino ai margini."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_21_1988.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_021"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-21-rompere-la-solitudine-del-malato-mentale/"
+articoli:
+  - "la-malattia-mentale"
+  - "la-mamma-anche-unaltra-persona"
+  - "comunita-terapeutica-primavalle"
+  - "cosa-detto-papa-sullepilessia"
+  - "saverio-nostro-fratello"
+  - "la-malattia-mentale"
+  - "boccati-nel-sogno"
+  - "addomesticare-la-malattia-mentale"
+  - "la-mamma-anche-unaltra-persona"
+  - "dove-come-vivono-persone-colpite-malattia-mentale"
+  - "villa-san-giovanni-di-dio"
+  - "comunita-terapeutica-primavalle"
+  - "risultato-dellinchiesta-aiutaci-migliorare-ombre-luci"
+  - "dialogo-aperto-n-21"
+  - "cosa-detto-papa-sullepilessia"
+  - "saverio-nostro-fratello"
+  - "bloccati-nel-sogno"
+  - "addomesticare-la-malattia-mentale"
+  - "dove-come-vivono-persone-colpite-malattia-mentale"
+  - "villa-san-giovanni-di-dio"
+  - "dialogo-aperto-n-21"
+  - "risultato-dellinchiesta-aiutaci-migliorare-ombre-luci"
 ---
 
 ## Indice

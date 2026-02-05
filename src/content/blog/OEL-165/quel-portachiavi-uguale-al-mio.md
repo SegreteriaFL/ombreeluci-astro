@@ -12,7 +12,8 @@ umap_x: 7.431588172912598
 umap_y: 8.127467155456543
 umap_z: 8.457858085632324
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 Benedetta Coppari ha 22 anni, è nello spettro autistico e da diversi anni frequenta alcuni amici del gruppo della parrocchia dei ss. Martiri d’Uganda a Roma. **Con loro e con altri compagni di tirocinio o di associazione, ogni occasione è buona perché il tempo libero diventi un’occasione per sperimentare momenti di autonomia, lontano da casa.** A cominciare dalla domenica, inizio della sua settimana. «Vado alla messa delle 10.30, canto e faccio parte del coro. Dopo la messa, stiamo insieme con gli amici. Qualche volta andiamo anche al bar *Caffè Dolcezze* . Mi prendo la ciambella e la cioccolata e passiamo un’oretta insieme». Quando chiedo a Benedetta se possono venire al bar anche la mamma e il papà – che assistono alla nostra chiacchierata – la risposta non concede dubbio: «No. Sto con gli amici. Mamma e papà è meglio che non vengano perché sto con gli amici». Le chiedo allora che differenza faccia stare con o senza di loro: «Che sono felice. Stare con gli amici e senza mamma e papà mi fa felice». Li elenca per nome e sono anche quelli con cui la domenica pomeriggio si gioca a basket: Annamaria, Roberto, Lorenzo, Margherita, Giampiero, Camilla, Stefano. E per il conto? «Ognuno paga per conto suo. Ho i miei soldi!»
 

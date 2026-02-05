@@ -14,7 +14,8 @@ umap_x: 7.727245807647705
 umap_y: 8.608285903930664
 umap_z: 8.040668487548828
 issue_number: OEL-115
-id_numero: OEL-115
+id_numero: "OEL-115"
+numero_rivista: "Ombre e Luci"
 ---
 In tanti anni di lavoro come assistente sociale, ho visto avvicendarsi leggi, riforme e controriforme, sia in ambito sanitario che in materia di assistenza sociale Una cosa molto importante a cui si è dato sempre grande rilievo la “centralità della persona” nel processo di aiuto. Questo principio ho cercato di tenerlo sempre ben presente, ma troppo spesso le gravi carenze organizzative (e non solo!) hanno rischiato di farlo smarrire.
 

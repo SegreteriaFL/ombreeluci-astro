@@ -15,8 +15,9 @@ umap_x: 4.7286763191223145
 umap_y: 10.034649848937988
 umap_z: 11.940093040466309
 issue_number: OEL-128
+id_numero: "OEL-128"
+numero_rivista: "Ombre e Luci"
 ---
-
 Miè sembrato molto particolare il fatto di avere avuto un incarico di redazione allargata non direttamente dalla tua voce allegra e squillante, Mariangela. Così come nuovo è questo percorso di vita in Fede e Luce, Ombre e Luci, Il Carro senza la tua presenza. **Per me e per tanti sei stata luce di riferimento, amica affettuosa e attenta, motivatrice** , fonte di idee dirompenti come di riflessioni struggenti, compagna di mille esperienze gioiose, uniche.
 
 Sai bene che uno (tra i tanti) dei miei limiti è la capacità di fare sintesi. Mi è veramente difficile riportare in poche righe le esperienze che come amico di Fede e Luce, responsabile di comunità, volontario e amico del Carro e come tuo amico mi porto nel cuore. **Ti assicuro infatti che in ognuna di queste esperienze ho scoperto esserci una tua “cicatrice” che mi ha cambiato forse in modo che neanche tu puoi renderti conto** .

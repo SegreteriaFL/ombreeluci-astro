@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-105
-id_numero: OEL-105
+id_numero: "OEL-105"
+numero_rivista: "Ombre e Luci"
 ---
 Non sarà per tutti così certamente, ma [i testi che abbiamo ricevuto da sorelle e fratelli di persone disabili](https://www.ombreeluci.it/2009/sono-responsabile-di-mio-fratello-disabile/) ci hanno lasciati piacevolmente sorpresi.
 

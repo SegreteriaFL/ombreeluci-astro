@@ -14,7 +14,8 @@ umap_x: 5.197930335998535
 umap_y: 9.481707572937012
 umap_z: 11.407315254211426
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 Cisiamo trovati varie volte a dover comunicare a un ospite la perdita di una persona cara. Abbiamo sempre preferito dirlo prima alla persona direttamente coinvolta e dopo, insieme, all’intero gruppo, per far sentire la persona circondata dall’affetto di tutti, per partecipare tutti al funerale.
 

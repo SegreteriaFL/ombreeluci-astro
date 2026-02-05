@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 L'ONU ha proclamato l'anno 1981, Anno Internazionale della Persona Handicappata. Il 1 gennaio scorso, il Papa si è fatto portavoce di un messaggio augurale che invita tutti gli uomini di buona volontà ad aprire cuore e braccia all'accoglienza, al sostegno, all'amore verso i fratelli e sorelle handicappati.
 
 Ha fatto anche un accenno, in questo messaggio, al pellegrinaggio a Lourdes … solo che - per informazione sbagliata - ha commesso un errore ed ha parlato dell'avvenuto pellegrinaggio '71 (nascita di Fede e Luce) invece di quello che avrà luogo a Pasqua '81.

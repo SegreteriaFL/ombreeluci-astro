@@ -11,8 +11,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Di pari passo con la ricerca di un maggiore realismo nella narrazione televisiva, anche la rappresentazione delle persone con disabilità in tv ha lentamente abbandonato i banali cliché e i pietismi tipici di un tempo, come spiega [**l’inchiesta di Superabile**](https://www.superabile.it/static-rivista/2017/10/superabile_magazine_201710.pdf?utm_source=Ombre+e+Luci&utm_campaign=94aee716b3-EMAIL_CAMPAIGN_DIC_2019_2&utm_medium=email&utm_term=0_efd099264d-94aee716b3-&ct=t(EMAIL_CAMPAIGN_DIC_2019_2)). Le case di produzione, quelle americane in prima fila, negli ultimi anni hanno reso il panorama delle serie tv molto interessante su questo tema.
 
 Oltreoceano, infatti, il terreno seriale è sempre molto fertile: è da poco uscita su Netflix la terza stagione di [**Atypical**](https://serial.everyeye.it/articoli/recensione-atypical-della-nuova-serie-netflix-34619.html?utm_source=Ombre+e+Luci&utm_campaign=94aee716b3-EMAIL_CAMPAIGN_DIC_2019_2&utm_medium=email&utm_term=0_efd099264d-94aee716b3-&ct=t(EMAIL_CAMPAIGN_DIC_2019_2)), la serie con protagonista un ragazzo autistico che tenta (con successo) di mostrare le sfide relazionali di un adolescente e della sua disabilità, svelando i diversi punti in comune di entrambe le sue nature. Apprezzatissima dalla critica, riesce a descrivere con semplicità e realismo quelle che sono le sfide quotidiane di una famiglia atipica.

@@ -12,8 +12,9 @@ umap_x: 7.5619683265686035
 umap_y: 8.142966270446777
 umap_z: 7.753403186798096
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Le barriere architettoniche esistono ancora? Chiedetelo a Samuele. Lui ha da poco compiuto 18 anni, convive con la **distrofia di Duchenne** - malattia genetica rara che provoca una progressiva degenerazione dei muscoli - e ogni giorno deve fare i conti con ostacoli di ogni tipo che gli impediscono di spostarsi in autonomia con la sua carrozzina. Così, un paio di anni fa, ha pensato di **costruirsi con la sua stampante 3D delle piccole pedane mobili in plastica** .
 
 « *Per chi si muove su una sedia a rotelle, anche un piccolo gradino è un grande ostacolo* — spiega —. *Ti arrabbi quando vorresti semplicemente mangiare una pizza insieme agli amici, o giocare a carte, ma non puoi entrare in un ristorante, in un bar, in un negozio perché non sono accessibili. La pedana dovrebbe averla l’esercizio commerciale, ma pochi ce l’hanno. Così, ogni volta che usciamo, i miei devono portare una rampa pieghevole che, come tutte quelle in commercio, è pesante (circa 15 chili) e non agevole da trasportare durante una passeggiata con gli amici. Anche la carrozzina elettrica pesa molto e non è facile sollevarla* ». Due anni fa, quando l’associazione [**Parent Project**](http://parentproject.it) (composta da pazienti e genitori con figli affetti da distrofia muscolare di Duchenne e Becker) gli propone di partecipare al progetto « [AutoNOImia](https://www.autonoimia.com) », finanziato dal ministero del Lavoro e mirato a favorire l’inclusione sociale dei ragazzi nelle comunità locali, Samuele decide di mettere in pratica la sua idea. « *Avendo una stampante 3D, una mia passione, ho pensato di progettare delle piccole rampe mobili in plastica, quindi leggere e facilmente trasportabili, che mi permettessero di superare quel gradino che mi separava da una buona pizza o da altre attività insieme agli amici* », racconta.

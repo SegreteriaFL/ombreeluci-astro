@@ -14,7 +14,8 @@ umap_x: 7.496769428253174
 umap_y: 8.935785293579102
 umap_z: 13.902840614318848
 issue_number: OEL-31
-id_numero: OEL-31
+id_numero: "OEL-31"
+numero_rivista: "Ombre e Luci"
 ---
 L
 e ottocento comunità Fede e Luce sono in 53 nazioni dei cinque con¬ tinenti. Sono raggruppate in otto zone: America del Nord, America Latina/ Caraibi, Europa del Nord, Europa Atlantica, Europa Alpina, Africa, Medio Oriente, Asia-Oceania. La fisionomia delle comunità Fede e Luce è la stessa in tutto il mondo. Sono un luogo di rispetto del più debole in società dove si vuole nascon¬ dere, perfino sopprimere la persona con handicap. Un luogo di perdono e di unità negli stati divisi dalla violenza politica come ad Haiti o in Irlanda. Un luogo di relazioni interpersonali profonde nei paesi come l’America del Nord dove in genere alle persone con handicap non manca nulla, eppure può « mancare l'essenziale ». Un luogo di gioia e di festa come a Manila, nelle Filippine, dove una comunità tiene gli incontri nel cortile di una prigione. Un luogo di amicizia ancora più vitale nei paesi dove il bambino con handicap è separato dai genitori fin dalla nascita e messo in istituto fino alla morte. Ma le comunità Fede e Luce sono anche un luogo che riflette la realtà sofferta del nostro mondo. In un paese sono così povere da non avere nem¬ meno qualche biscotto da condividere durante la festa. In un altro, c'è la sofferenza delle divisioni della Chiesa: non si può comunicare allo stesso pane di Cristo. Altrove gli incontri sono nascosti perché i cristiani non han¬ no il diritto di radunarsi. O ancora, riunioni o campi di vacanze sono continuamente annullati a causa dei bombardamenti. Ma in mezzo a questo mondo, esse vogliono essere segno di speranza. L'amore è più forte dell’odio, della povertà, della solitudine.

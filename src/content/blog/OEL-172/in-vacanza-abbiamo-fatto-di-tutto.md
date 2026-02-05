@@ -12,8 +12,9 @@ umap_x: 8.114243507385254
 umap_y: 5.9701619148254395
 umap_z: 10.721244812011719
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Miei cari lettori buon pomeriggio. Vi avevo lasciato con l’articolo della gara di beneficenza. Oggi invece vi parlo di una piccola vacanza fatta con Rita e Paola, iniziata il 6 luglio fino al 13 luglio in un bellissimo campeggio. **Un posto che vi consiglio caldamente perché a differenza di altri campeggi è attrezzatissimo per le persone con disabilità.** Poi va bene per tutte le età, perché ci sono veramente attività di ogni tipo, c’è il bosco, la piscina e il mare. Il campeggio si chiama **Europing** e si trova a Tarquinia.
 
 È stata una bella settimana costruttiva, e sono felice di provare posti nuovi per poi consigliarveli, e per darvi alcune accortezze. Si deve prenotare il bungalow e dare 100€ di caparra, che il campeggio si tiene fino a quando non si va via come assicurazione nel caso qualcosa venga danneggiato.

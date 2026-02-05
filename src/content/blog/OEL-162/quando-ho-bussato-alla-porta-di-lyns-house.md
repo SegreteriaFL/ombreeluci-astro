@@ -12,7 +12,8 @@ umap_x: 7.875803470611572
 umap_y: 8.026418685913086
 umap_z: 9.683902740478516
 issue_number: OEL-162
-id_numero: OEL-162
+id_numero: "OEL-162"
+numero_rivista: "Ombre e Luci"
 ---
 L*yn’s House* è una comunità di persone con e senza disabilità intellettive. Pur essendo cristiana, è aperta anche a membri di altre confessioni e a chi non ne professa alcuna. Siamo circa quaranta persone: tre giovani vivono insieme, gli altri risiedono nelle proprie case. La nostra vita di comunità consiste nel ritrovarci, a volte anche solo in piccoli gruppi; insieme mangiamo e preghiamo. **È tutto qua, non c’è altro: il motivo per cui stiamo insieme è donarci reciprocamente tempo e attenzione.** Siamo una realtà insolita per questo Paese: è raro che nel Regno Unito persone con e senza disabilità si incontrino e costruiscano relazioni, oltre a quelle familiari o al di fuori dal contesto di cura in cui ci si definisce in termini di assistente e assistito.
 

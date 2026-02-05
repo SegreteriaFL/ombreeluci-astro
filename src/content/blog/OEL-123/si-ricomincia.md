@@ -12,7 +12,8 @@ umap_x: 6.669333457946777
 umap_y: 7.039974212646484
 umap_z: 7.531622409820557
 issue_number: OEL-123
-id_numero: OEL-123
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
 Si ricomincia… ogni settembre segna l’inizio di un nuovo anno scolastico per i figli e ogni anno si ha l’impressione di non farcela più. Ogni bambino ha: o la nuova maestra, o i nuovi compagni, o i nuovi libri, o nuove materie…
 

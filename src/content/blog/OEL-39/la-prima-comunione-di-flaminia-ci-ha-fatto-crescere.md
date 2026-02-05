@@ -12,7 +12,8 @@ umap_x: 9.321730613708496
 umap_y: 10.097284317016602
 umap_z: 9.733846664428711
 issue_number: OEL-39
-id_numero: OEL-39
+id_numero: "OEL-39"
+numero_rivista: "Ombre e Luci"
 ---
 V
 i chiederete chi è Flaminia. Flaminia, detta anche Minni, ha ormai 14 anni, ha i capelli biondi e gli occhi azzurri. E’ molto carina e ispira una grande tenerezza. Cammina con un passo tutto suo, e questo sia in senso reale che metaforico. Non parla, non ama essere coccolata più di tanto e soprattutto non da tutti quelli a cui fa tenerezza: ha una su autonomia. Il suo affetto però lo sa dimostrare, e alle persone alle quali vuole bene fa dei grandi sorrisi. Anche se difficilmente mostra interesse per i giocattoli nuovi Flaminia è molto affezionata a quelli vecchi, e con loro è capace di stare a lungo da sola. Flaminia non dà mai fastidio, e, se a volte la sua presenza pud essere di qualche «disturbo», ciò accade veramente solo in quei luoghi, come la Chiesa durante la Messa, che richiedono di stare fermi e zitti molto a lungo. Ad alcuni sembrerà buffo, ma Flaminia è bene educata, e questa fatica supplementare dei suoi genitori le è stata e le è estremamente utile nel quotidiano, e alla fin fine ha rispar miato anche a loro fatiche e dispiaceri inutili. Flaminia sa farsi voler molto bene. L’accompagnamento di Flaminia all’incontro con il Signore nel giorno della sua prima Comunione è stato un momento forte nel cammino di fede di coloro che vi hanno partecipato direttamente o indirettamente. Io ho avuto la fortuna di farlo personalmente e sento di voler cercare di estrapolare dalla mia esperienza degli elementi riproponibili ad altri che si dovessero trovare a vivere una esperienza analoga.

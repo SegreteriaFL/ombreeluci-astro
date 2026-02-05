@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-8
+id_numero: "OEL-8"
+numero_rivista: "Ombre e Luci"
 ---
-
 Che cos'è, veramente, un'*istituto speciale*? La stessa parola, per molti, evoca un luogo terribile, che ad ogni costo dobbiamo risparmiare ai nostri figli. Imbarazzata e meravigliata ho voluto saperne di più. E per questo, che cosa potevo fare di meglio se non andarli a vedere?
 
 ### Don Guanella

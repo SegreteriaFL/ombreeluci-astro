@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
 archive_id: OmbreELuci_002
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 periodo_label: Aprile, Maggio, Giugno
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 umap_x: 7.545499324798584
 umap_y: 8.878379821777344
 umap_z: 13.894329071044922
+id_numero: "OEL-2"
 ---
-
 *Le notizie di Fede e Luce di questo numero riguardano la nostra grande famiglia internazionale. Attualmente (1983 N.d.R) le comunità Fede e Luce nel mondo sono 480 in 27 paesi. Hanno le caratteristiche più svariate: comunità piccole o grandi (dalle cinque alle 60 persone), con culture diverse, con problemi di diverse confessioni religiose, in situazioni politiche talora molto difficili. Ciò nonostante tutto sono molto simili per lo stesso spirito di semplicità e di gioia e sono legate le une alle altre da sentimenti di vera amicizia. I flash che seguono vorrebbero dare una breve panoramica degli incontri e della vita delle comunità Fede e Luce in alcune nazioni.*
 **Vedi anche [Le comunità Fede e Luce nel Mondo oggi](http://www.ombreeluci.it/2017/le-comunita-fede-e-luce-nel-mondo/)**
 

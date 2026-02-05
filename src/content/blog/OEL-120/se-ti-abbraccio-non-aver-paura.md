@@ -14,8 +14,9 @@ umap_x: 6.87061882019043
 umap_y: 11.028332710266113
 umap_z: 4.620500087738037
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 I
 l libro è il racconto di un lungo viaggio in America di un padre, Antonello e di suo figlio Andrea di 18 anni, autistico. Un viaggio non solo alla scoperta di paesaggi esotici, mozzafiato, carichi di luci, di malinconiae di una variegata e ricca umanità, ma è anche e soprattutto il viaggio di un padre alla scoperta del figlio, oltre il muro che sembra circondarlo, oltre ciò che appare, oltre le diagnosi, oltre i suoi abbracci, oltre il suo silenzio… attraverso il suo sorriso. Un itinerario senza bussola e senza consigli di viaggio che ha inizio già dal giorno in cui Antonello apprende che suo figlio probabilmente è autistico. Il romanzo èil raccontoche il padre ha fatto all’autore, Fulvio Ervas, il quale l’ha riportato fedelmente come un pittore che dipinga magistralmente ciò che vede, in questo caso, ciò che ha ascoltato, senza retorica o filtri. Il sorriso di Andrea è ciò che emerge e che resta dentro, sia a chi lo incontra durante il percorso, sia nel lettore ma emergono anche i sentimenti di Antonello verso il figlio: «
 *Tra me ed Andrea una perfetta sintonia, non c’è bisogno di altro, come quando senti l’amore che si diffonde ed ha il sapore di un liquido dolce*

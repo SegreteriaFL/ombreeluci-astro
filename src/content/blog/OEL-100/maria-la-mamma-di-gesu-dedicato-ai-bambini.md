@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "maria-la-mamma-di-gesu-dedicato-ai-bambini"
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32860
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 1. Maria è una giovane ragazza di Nazareth, piccola città della Galilea. È fidanzata con Giuseppe
 
 2. L'Angelo Gabriele è inviato a lei da Dio. È l'Annunciazione. Entra nella sua casa e le dice: “Ti saluto Maria, piena di grazia, il Signore è con te”

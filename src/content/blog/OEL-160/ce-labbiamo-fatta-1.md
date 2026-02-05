@@ -12,7 +12,8 @@ umap_x: 8.362992286682129
 umap_y: 5.741410732269287
 umap_z: 9.544151306152344
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 Un ciclista di Athletica Vaticana, la “squadra del Papa”, ha corso il Campionato del mondo, lo scorso 25 settembre, in Australia. Rien Schuurhuis è persino andato in fuga, suscitando simpatia e un calorosissimo tifo per le strade. Il giorno prima del Mondiale Rien, con altri tre rappresentanti di Athletica Vaticana-Vatican Cycling, **ha incontrato la comunità aborigena che sta vivendo un’esperienza di inclusione coordinata con Caritas Australia.**
 

@@ -16,7 +16,8 @@ umap_x: 5.724102020263672
 umap_y: 9.151217460632324
 umap_z: 8.71433162689209
 issue_number: OEL-21
-id_numero: OEL-21
+id_numero: "OEL-21"
+numero_rivista: "Ombre e Luci"
 ---
 Invitati ad una festa a casa delle zie, eravamo tutti e tre, mio fratello Giovanni, la mia sorellina ed io, molto contenti di andarvi. Alla fine del pomeriggio, passata la festa, la zia ci disse semplicemente: «Perché la mamma possa riposarsi un po’, per questa settimana starete qui da noi». Eravamo tristi di non tornare a casa quella sera, ma poiché eravamo insieme a zie, zii e cugini con cui stavamo molto bene, accettammo la cosa facilmente.
 

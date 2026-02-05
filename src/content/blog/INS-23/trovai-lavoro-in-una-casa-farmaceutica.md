@@ -12,8 +12,9 @@ umap_x: 7.073360919952393
 umap_y: 8.755646705627441
 umap_z: 8.309269905090332
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Sono una ragazza di Milano, nata con qualche imperfezione. Fin da piccola sono stata incoraggiata dai miei genitori a fare da sola per essere autosufficiente.
 
 Verso i sei anni sono stata in Ospedale a Pietra Ligure alcuni mesi per un intervento alle mani: allora ho avuto il primo contatto con la scuola elementare. Ritornata a Milano, in famiglia, una dottoressa consigliò i miei genitori di iscrivermi alla scuola Speciale per Mutolesi a Gorla. Così ho incominciato a frequentare le elementari a tempo pieno apprendendo varie attività: Ricamo, Cucito, Giardinaggio e Ceramica, attività quest'ultima in cui mi sono poi specializzata. Ho avuto la fortuna di avere bravissimi insegnanti, specie la maestra che ci ha seguito per tutto il ciclo delle elementari. A me hanno molto giovato, per la mia crescita, sia pure in modo decisamente diverso, le mie tre sorelle.

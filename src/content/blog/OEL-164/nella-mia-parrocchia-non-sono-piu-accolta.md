@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ben tornati sul mio blog. Oggi vi vorrei parlare della mia parrocchia e proverò a rispondere ad alcune domande che mi avete fatto via social, via mail e di persona. Dunque, per qualche anno ho servito la mia parrocchia in tutto e per tutto: facevo servizio Caritas, oratorio... e tutto quello che c'era da fare, l'ho fatto. Tre anni fa ho partecipato anche al centro estivo quindi ho fatto proprio di tutto. **Un bel giorno però cambia il nostro parroco: ma io questo lo sapevo, ero già pronta al cambiamento perché si sa che il parroco cambia dopo un certo tempo, solo che non pensavo che le cose sarebbero cambiate così.
 Con i primi due, ossia il parroco che è stato 12 anni e il secondo che è stato 3 anni, avevo un bellissimo rapporto. Mi chiamavano nonostante io avessi una disabilità, ed erano proprio loro due a spingermi a stare con tutti i parrocchiani perché era giusto così e mi dicevano che io ero uguale agli altri. Che se gli altri giovani servivano la parrocchia era giusto che lo facessi anch'io. Che per loro la carrozzina non era un problema, anzi. Con loro ho anche viaggiato: con il primo siamo andati a Guarcino (non vi so dire di preciso dov'è perché in geografia non sono brava!), con il secondo invece sono andata insieme agli altri ragazzi del Punto Giovani a Parma. Ci siamo divertiti tanto!
 

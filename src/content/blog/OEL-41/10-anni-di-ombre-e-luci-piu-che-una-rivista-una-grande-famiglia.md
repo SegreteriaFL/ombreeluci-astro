@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-41
-id_numero: OEL-41
+id_numero: "OEL-41"
+numero_rivista: "Ombre e Luci"
 ---
 Ho davanti a me i quaranta numeri finora pubblicati. Guardo le fotografie delle pagine di copertina: Manuela, allora bambina, ora è diciottenne: ha fatto molti progressi, non fa più disperare i suoi genitori. Gianluca, sorride dall’altalena; sembra dire: «Ricordate il primo campo di Alfedena». Elena, avvolta nel suo mistero ci ricorda i tanti interrogativi senza risposta dei genitori dei bambini autistici, psicotici... Andrea, già grande, eppure bisognoso di appoggio, scende con Barbara una delle tante scalette di Assisi. 1986, anno del pellegrinaggio così legato a Francesco Gammarelli, un grande papà, che da lì a poco ci avrebbe lasciati.
 Clelia, il giorno della sua prima Comunione! I genitori Arosio con i giovani disabili accolti nella bella casa-famiglia di Endine. Andrea, non vedente, che abbraccia il suo primo figlio insieme ad un agnellino. Claudia, dal comportamento così difficile. Antonio, felice fra due grandi amici, Francesco e Stefano, in vacanza al mare; e Miriam, sorridente alla festa della Primavera. Marco, come un vero artigiano, contempla un vasetto di ceramica dipinto con gusto e maestria. Gianni, stende la pasta della pizza: è ormai un provetto aiutante nella pizzeria della sorella. Flaminia, tra Anna e Giulio, nel giorno del loro matrimonio. Da Viviana trapela una gioia piena: ha finalmente la sua Casa famiglia .

@@ -14,7 +14,8 @@ umap_x: 7.324627876281738
 umap_y: 7.599109649658203
 umap_z: 11.845987319946289
 issue_number: OEL-22
-id_numero: OEL-22
+id_numero: "OEL-22"
+numero_rivista: "Ombre e Luci"
 ---
 Cantare, giocare, mangiare, pregare insieme: è questa in genere la sostanza delle feste tra noi. Bisogna però studiare in che modo fare queste cose. Secondo le circostanze, le persone, l’ambiente, il modo può cambiare di volta in volta: esso viene definito, preparando la festa.
 **In questo articolo non si indicano regole per preparare una festa, ma si descrive la nascita dell’idea e quindi l’attuazione di una particolare festa abbastanza complessa.**

@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "corso-per-corrispondenza-per-genitori-di-bambini-down"
 has_comments: false
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

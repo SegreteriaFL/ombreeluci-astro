@@ -12,8 +12,9 @@ umap_x: 8.565855979919434
 umap_y: 12.127954483032227
 umap_z: 10.402402877807617
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Recensire un libro così mi fa tremare di paura: sarebbe un po’ come recensire la Bibbia! Con le dovute proporzioni, lo si può infatti considerare la Bibbia della vita di comunità. Dopo averlo letto in gioventù, mi è stato assegnato come testo spirituale nel biennio teologico in Seminario: nella vita comunitaria ci vuole una mappa, altrimenti ci si perde. Purtroppo quel libro tanto usato non l’ho più: mi è stato rubato! Il che dimostra come la vita di comunità sia fatta anche di cose come il furto di un libro sgualcito. Vanier con la sua pluriennale esperienza di vita comunitaria ha scorto tesori dove altri non spolveravano più, ha rintracciato perle preziose dove molti sentivano solo odore di marcio. I suoi strumenti, le sue scoperte, le sue tecniche, i suoi stupori, le sue meditazioni sono raccolte in questo libro che va letto a piccole dosi. Tutti devono averlo: dalla piccola comunità domestica alla Comunità di accoglienza, alla grande casa Chiesa. Oggi ne ho due copie: ora forse intuite il perché.
 
 ##### Acquista questo libro in uno dei siti del circuito **[Helpfreely](https://www.helpfreely.org/it/) .**

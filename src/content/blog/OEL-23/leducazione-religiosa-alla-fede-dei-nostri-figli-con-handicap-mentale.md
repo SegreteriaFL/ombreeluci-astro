@@ -16,7 +16,8 @@ umap_x: 9.134003639221191
 umap_y: 10.572888374328613
 umap_z: 8.510939598083496
 issue_number: OEL-23
-id_numero: OEL-23
+id_numero: "OEL-23"
+numero_rivista: "Ombre e Luci"
 ---
 La libertà religiosa è un diritto essenziale di ogni persona umana, foss'anche la più handicappata.
 

@@ -15,7 +15,8 @@ umap_x: 8.054377555847168
 umap_y: 9.067605018615723
 umap_z: 7.933387279510498
 issue_number: OEL-13
-id_numero: OEL-13
+id_numero: "OEL-13"
+numero_rivista: "Ombre e Luci"
 ---
 *In generale possiamo dire che le persone che associano in sé varie minorazioni. Una loro definizione rimane comunque confusa e complessa, ma tentiamo lo stesso una descrizione, allo scopo di aiutarci a identificare il tipo di persone a cui ci riferiamo.*
 I vari deficit che si sommano sono di ordine:

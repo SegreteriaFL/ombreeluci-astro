@@ -12,7 +12,8 @@ umap_x: 4.885157108306885
 umap_y: 7.618645668029785
 umap_z: 11.052876472473145
 issue_number: OEL-113
-id_numero: OEL-113
+id_numero: "OEL-113"
+numero_rivista: "Ombre e Luci"
 ---
 ### Come acqua fresca ad un assetata...
 

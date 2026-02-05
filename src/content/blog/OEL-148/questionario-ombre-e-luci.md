@@ -12,5 +12,6 @@ umap_x: 4.657968044281006
 umap_y: 6.9488749504089355
 umap_z: 9.459979057312012
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-

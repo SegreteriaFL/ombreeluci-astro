@@ -15,7 +15,8 @@ umap_x: 6.620044231414795
 umap_y: 8.366402626037598
 umap_z: 8.59118938446045
 issue_number: OEL-34
-id_numero: OEL-34
+id_numero: "OEL-34"
+numero_rivista: "Ombre e Luci"
 ---
 R
 oberto ha 40 anni, vive a Roma con la madre. Il padre è mancato da qualche anno. Ha due so-relle sposate. Lavora da diversi anni in una ditta che fornisce il servizio di mensa a diverse pubbliche amministrazioni e grosse aziende private. Si alza tutti i giorni molto presto, e per raggiungere il lavoro deve prendere due autobus e la metropolitana. Lo incontro in un pomeriggio di una bella giornata di festa in occasione del matrimonio di due amici del gruppo. In una stanza riparata dalla festosa allegria degli altri. Roberto racconta del suo lavoro. Non so cosa è possibile trarre dalle sue risposte una volta trascritte. Sicuramente meno di quanto è stato possibile capire ascoltandolo rispondere con voce sempre tranquilla e quasi dimessa, ma piena di sfumature e intonazioni tanto più eloquenti perché espressione di una autenticità innata, che arricchivano il racconto di tutto quello che le parole potevano solo sottointendere. Ma, soprattutto, occorrerebbe potere vedere Roberto tornare a casa stanco la sera avendo compiuto il suo faticoso lavoro, di certo senza aver mai seriamente pensato di poter sottrarsi ad esso. Il suo atteggiamento di accettazione incondizionata e serena di questa che rimane comunque una realtà bella ma dura della nostra vita, credo sia in primo luogo una vera lezione per tutti quelli che l’hanno potuto conoscere.

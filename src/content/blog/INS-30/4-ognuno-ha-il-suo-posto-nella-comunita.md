@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Febbraio 1981
 
 Sono tornato stasera da una festa Fede e Luce… Tutte le nostre strade si sono incrociate; abbiamo partecipato ad una mensa, ed una festa; siamo diventati una comunità cristiana.

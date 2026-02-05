@@ -7,6 +7,7 @@ cluster_id: 1
 image: "http://www.ombreeluci.it/wp-content/uploads/2018/03/come-parlare-con-una-persona-sorda-01-1024x642.jpg"
 slug: "come-parlare-a-una-persona-sorda"
 has_comments: false
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

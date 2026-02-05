@@ -12,8 +12,9 @@ umap_x: 5.638358116149902
 umap_y: 9.228729248046875
 umap_z: 8.184925079345703
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Una mamma ci racconta
 
 Mi chiamo Iolanda, sono sposata da 13 anni ed ho cinque figli tra i quali una figlia spastica, Mariangela. Non ho mai avuto problemi ad accettare questa bambina nelle condizioni in cui si trovava: anche avendo altri quattro figli da guardare, tuttavia ho avuto le prime difficoltà quando mi sono accorta che la malattia di Mariangela non aveva nessun miglioramento.

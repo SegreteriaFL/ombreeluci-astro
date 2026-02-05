@@ -12,8 +12,9 @@ umap_x: 8.101373672485352
 umap_y: 12.002132415771484
 umap_z: 11.10884952545166
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 *7 Febbraio 2020*
 
 Immagine di copertina: Denise Turu da Who Is My Neighbor? (Flyaway Books 2019)

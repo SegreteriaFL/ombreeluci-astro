@@ -4,8 +4,8 @@ date: 1996-09-27
 author: Redazione
 slug: libri-per-conoscere-lautismo
 lang: it
-numero_rivista: 55
-id_numero: OEL-55
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-55"
 issue_number: OEL-55
 wp_id: 10864
 original_url: "https://www.ombreeluci.it/?p=10864"
@@ -18,7 +18,6 @@ umap_x: 7.091980457305908
 umap_y: 10.147233963012695
 umap_z: 4.891763687133789
 ---
-
 #### Documentazione
 
 L. Wing, *I bambini autistici Una guida per i genitori* Armando Armando Editore 1974 Michele Zappella *Non vedo non sento non parlo* Mondadori 1974 C.H. Delacato *Alla scoperta del bambino autistico* Armando Armando Editore 1975 Alfred e Francoise Brauner *Vivere con un bambino autistico* Ed. Giunti Barbera 1980 Michele Zappella *Il bambino nella luna* Feltrinelli Economica 1980 Ruth Miiller Garn *E io ti ho tenuto per mano* Città Nuova editrice 1980 Louise Wilson *Questo mio figlio «estraneo»* Città Nuova Editrice 1980

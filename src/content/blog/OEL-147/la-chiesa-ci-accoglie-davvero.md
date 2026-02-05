@@ -12,7 +12,8 @@ umap_x: 5.232793807983398
 umap_y: 8.555008888244629
 umap_z: 9.594032287597656
 issue_number: OEL-147
-id_numero: OEL-147
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
 «Quando i miei figli erano piccoli io e mia moglie ci ostinavamo a portarli a messa tutti e cinque insieme a noi. (…) Era un modo per testimoniare, per dire che fare figli, avere una bella famiglia fa parte dell’essere cristiani e arricchisce la comunità. E per dire che la comunità avrebbe dovuto rallegrarsi nel vedere tanti bambini in giro. I miei figli lo sapevano e facevano casino. Un giorno però al parroco girarono i maroni e dal pulpito sbottò, fissandomi: “Adesso porti fuori la bambina!”. Io non mossi un passo, un sordo che non vuol sentire, lo sguardo puntato dritto negli occhi del povero parroco che non riusciva a finire la predica per colpa di un bambino». Così scrive Alberto Porro in apertura di *Come sopravvivere alla Chiesa cattolica e non perdere la fede* (Bompiani 2019), breve e denso manuale di un credente ancora innamorato ma parecchio infastidito da un’istituzione sempre più incapace di dialogo e confronto con i suoi membri. Sebbene l’autore non ne faccia mai cenno, le sue considerazioni sono perfettamente mutuabili al rapporto tra Chiesa cattolica e disabilità. Perché dopo anni di esperienza sul campo, possiamo affermarlo con convinzione: la Chiesa ha un serio problema con le persone che presentano qualche disabilità. Rarissimamente infatti, nonostante i proclami, è stata ed è capace di accoglierle.
 

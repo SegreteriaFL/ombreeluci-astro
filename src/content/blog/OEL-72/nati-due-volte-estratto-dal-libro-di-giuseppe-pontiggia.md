@@ -14,8 +14,9 @@ umap_x: 5.91825532913208
 umap_y: 9.573224067687988
 umap_z: 7.072934627532959
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Tutto e niente
 
 «Parto distocico» mi dice il medico in corridoio, evitando di guardarmi. Obeso, il respiro affannoso sotto i baffi spioventi, le pupille fisse, sembra un grosso topo in procinto di fuggire. «Cioè?» «Distocico, gliel’ho detto». Alza gli occhi su di me, per avere la conferma che non ho capito. «Che complicazioni ci sono?» «Tutto e niente. Il rischio più grave è l’anossia». «Cioè che non respiri?» «In un certo senso» mi concede infastidito. «Comunque il battito è regolare, per ora non è il caso di intervenire.» «Intervenire come?» «Taglio cesareo. Però il vostro ginecologo non vuole. È contrario».

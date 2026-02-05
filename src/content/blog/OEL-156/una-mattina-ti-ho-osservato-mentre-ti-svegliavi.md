@@ -14,8 +14,9 @@ umap_x: 6.307260990142822
 umap_y: 8.663989067077637
 umap_z: 11.593538284301758
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Nella notte tra il 23 e il 24 dicembre 2020 Daniele Corrias è morto a Villa Alba a Fontenuova (Monterotondo), struttura dove viveva da un anno a seguito della scomparsa di sua madre Vittoria. Era nato il 16 settembre 1973 a Roma, dove da molti anni faceva parte della comunità di Fede e Luce di San Roberto.*
 
 Una mattina ti ho osservato mentre ti svegliavi. Hai aperto gli occhi. Per qualche secondo sei stato immobile, pensieroso. Tutto normale, proprio come una persona qualunque, pronta a vivere la sua giornata. Poi qualcosa è scattato: ancora disteso, le tue braccia si sono alzate e messe in quella posizione strana e fissa in cui ci hai abituato a vederti, leggermente separate e piegate davanti al tuo viso. In quel momento mi è sembrato di vederti calare, anche quel giorno, infaticabile, nel ruolo che la vita ti ha assegnato per ogni tua giornata. Intorno a te ho visto alzarsi la gabbia dell'autismo, quasi rappresentata dalla posizione statica delle tue braccia.

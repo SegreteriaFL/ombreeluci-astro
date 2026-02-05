@@ -12,7 +12,8 @@ umap_x: 4.62527322769165
 umap_y: 7.444725036621094
 umap_z: 10.63672924041748
 issue_number: OEL-43
-id_numero: OEL-43
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
 ### Un grande privilegio
 

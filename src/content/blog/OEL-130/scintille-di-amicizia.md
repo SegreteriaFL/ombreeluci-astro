@@ -14,7 +14,8 @@ umap_x: 8.429722785949707
 umap_y: 7.541873931884766
 umap_z: 9.41745662689209
 issue_number: OEL-130
-id_numero: OEL-130
+id_numero: "OEL-130"
+numero_rivista: "Ombre e Luci"
 ---
 Suonano alla porta. Sono le quattro in punto di martedì: non un minuto di ritardo! Rosa e Jennifer arrivano insieme: si tengono per mano e attraversano Forcella, quartiere difficile di una città complicata come Napoli. Vengono per il Coro Cherison: alla Scintilla, in collaborazione con l’associazione Gli Amici di Aldo, il martedì pomeriggio sotto la guida sapiente della maestra Fausta i ragazzi suonano e cantano in coro. Venerdì 29 maggio, il coro si è esibito nella Chiesa di Santa Chiara partecipando ad un’iniziativa di finanziamento contro la camorra del movimento scout cittadino.
 

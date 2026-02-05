@@ -12,8 +12,9 @@ umap_x: 5.925110340118408
 umap_y: 6.196761608123779
 umap_z: 12.151538848876953
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quando ero bambina, cioè tanti anni fa, sui quaderni di scuola rappresentavamo la Pasqua disegnando le campane che suonavano a festa, i rami di pesco fioriti e le rondini che volavano in cielo. Preparavamo con cura la letterina con gli auguri per i genitori, con questi tre simboli, che ancora oggi mi vengono alla mente quando la Pasqua è vicina.
 
 Non oso domandare ai miei nipotini se ancora oggi si disegnano in questo periodo, campane, fiori di pesco e rondini in volo. So che ne resterei delusa. Eppure, al di là della nostalgia, mi fa piacere pensare ciò che quei disegni rappresentano ancora oggi, quando le campane non suonano quasi più (almeno nelle grandi città), i rami di pesco li vediamo striminziti da qualche fioraio, e le rondini… ma ci sono ancora?

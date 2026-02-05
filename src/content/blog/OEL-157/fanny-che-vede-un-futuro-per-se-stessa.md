@@ -15,7 +15,8 @@ umap_x: 5.61991024017334
 umap_y: 10.141294479370117
 umap_z: 9.115036010742188
 issue_number: OEL-157
-id_numero: OEL-157
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
 Se non aveste più il dono della parola come vi sentireste? Io, sinceramente, mi sentirei persa. Gli esseri umani, d'altronde, si contraddistinguono dagli animali perché riescono a relazionarsi e a sfogarsi attraverso le parole con qualsiasi altro simile. Eppure, **se vi dicessi che anche senza avere il dono della parola possiamo sentirci parte di qualcosa e non totalmente persi?**
 

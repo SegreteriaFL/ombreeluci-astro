@@ -12,8 +12,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Albenga. Sono state posate sabato 6 luglio le prime stazioni del **percorso subacqueo archeologico e biologico** dell’isola Gallinara per **subacquei con disabilità fisica e non vedenti: un itinerario marino corredato anche di specifiche targhe in braille, riproduzioni delle anfore presenti sulla nave romana affondata nei fondali dell’isola e di alcune forme di vita tipiche.
 In occasione dell’undicesima edizione della “Grande festa della subacquea nessuno escluso” di Albenga, prende forma un progetto fortemente inclusivo e ricco in innovazione, realizzato da **HSA Italia**, in collaborazione con**Ingaunia Aqua Diving Albenga**, i palombari e gli incursori di **Comsubin** – **Marina Militare Italiana**, la **Nato**, la **Guardia Costiera** e la **Soprintendenza Archeologia, Belle Arti e Paesaggio di Genova**, con il supporto dei diving center HSA e delle associazioni del territorio e con il sostegno del Comune di Albenga, nell’ambito di OSO – Ogni Sport Oltre.
 

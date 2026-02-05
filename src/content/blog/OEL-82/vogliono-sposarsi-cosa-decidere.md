@@ -4,8 +4,8 @@ date: 2003-06-23
 author: Redazione
 slug: vogliono-sposarsi-cosa-decidere
 lang: it
-numero_rivista: 82
-id_numero: OEL-82
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-82"
 issue_number: OEL-82
 wp_id: 26735
 original_url: "https://www.ombreeluci.it/?p=26735"
@@ -17,7 +17,6 @@ umap_x: 7.3523173332214355
 umap_y: 10.164388656616211
 umap_z: 8.423768997192383
 ---
-
 Il "volere sposarsi" è un desiderio molto normale che è giusto ascoltare. Ma è anche spesso un "desiderio di normalità" squilibrato rispetto alla immaturità affettiva, alle difficoltà reali di conoscere la realtà, all’incapacità di divenire responsabili di se stessi. Le persone portatrici di una lieve disabilità soffrono molto. Non accettano la loro situazione.
 
 La vita insieme agli altri, in una casa-famiglia o in una comunità, in uno scambio ricco di relazioni, li può aiutare a trovare un loro equilibrio, ad accettarsi come uomini e donne diversi da ogni altro, con una loro vita sessuale, con qualcosa da dare e da ricevere, e, in questo modo è per loro possibile anche avviarsi verso una maturità più adulta. **Ci vuole tuttavia molto tempo prima di progettare e realizzare una vita di coppia...**

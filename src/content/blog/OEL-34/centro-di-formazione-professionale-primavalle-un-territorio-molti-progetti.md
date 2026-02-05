@@ -12,7 +12,8 @@ umap_x: 7.984709739685059
 umap_y: 7.52935791015625
 umap_z: 8.656303405761719
 issue_number: OEL-34
-id_numero: OEL-34
+id_numero: "OEL-34"
+numero_rivista: "Ombre e Luci"
 ---
 S
 iamo molto grate al Dr. Emmenegger per averci guidate in una visita entusiasmante ai vari laboratori del

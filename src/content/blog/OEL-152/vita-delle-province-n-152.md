@@ -12,8 +12,9 @@ umap_x: 6.994745254516602
 umap_y: 9.010272026062012
 umap_z: 12.698448181152344
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Un tesoro da condividere
 
 Nel libro del Siracide si legge: «Un amico fedele è rifugio sicuro: chi lo trova, trova un tesoro». È proprio vero! Noi di Fede e Luce ce ne siamo accorti proprio in occasione di questa pandemia, in cui abbiamo perso la cosa più preziosa che abbiamo: l’amicizia tra di noi, fatta del ritrovarci per pregare e stringere un legame sempre più forte con Gesù che ci ama così come siamo; un’amicizia che trova nella festa la sua espressione di gioia, un’amicizia fatta di gesti teneri, abbracci che dicono l’accoglienza reciproca perché ognuno si senta a casa. Questo tesoro ci è mancato nei mesi scorsi e come spesso capita si impara ad apprezzare quello che hai proprio quando ti viene a mancare. (...) Vogliamo vivere quest’anno per ridire alle nostre comunità questo messaggio bello. Abbiamo trovato un tesoro e questo tesoro è affidato a noi, che viviamo la comune fragilità. Questo tesoro non lo teniamo per noi ma lo condividiamo, anzitutto tra di noi con legami belli e accoglienti e con tutta la creatività che riusciremo a mettere in campo.

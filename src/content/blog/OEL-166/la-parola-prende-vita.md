@@ -12,7 +12,8 @@ umap_x: 8.868656158447266
 umap_y: 8.62957763671875
 umap_z: 10.610977172851562
 issue_number: OEL-166
-id_numero: OEL-166
+id_numero: "OEL-166"
+numero_rivista: "Ombre e Luci"
 ---
 Da veterano pedagogista, amico e fratello nelle comunità partenopee di Fede e Luce, [Bruno Galante](https://www.ombreeluci.it/2024/quel-dono-ricevuto-da-ricambiare/) sapeva **quanto efficace potesse essere un mimo del vangelo, un’azione di catechesi alla portata di tutti.** Chissà che gioia, quindi, al vedere membri delle comunità campane essere invitati a realizzare quella proposta, da lui tanto a lungo richiesta, in occasione della messa conclusiva per il convegno organizzato dall’ [Ufficio per la Pastorale delle Persone con disabilità della Cei](https://pastoraledisabili.chiesacattolica.it/) lo scorso aprile. Una gioia pienamente condivisa.
 

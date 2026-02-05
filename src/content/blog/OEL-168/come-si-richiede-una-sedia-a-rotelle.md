@@ -12,8 +12,9 @@ umap_x: 7.662774562835693
 umap_y: 8.95968246459961
 umap_z: 7.922347545623779
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Inparecchi mi avete chiesto come si fa a chiedere i nostri ausili: oggi vi spiego **come si fa a richiedere una carrozzina.** Per prima cosa bisogna distinguere la procedura di quando si è minorenne da quella per maggiorenni. Quando si è minorenne se si rompe la carrozzina si può chiedere a distanza di un anno, in base a quello che osserva il medico. Quando si è maggiorenne invece devono passare almeno 5 anni dal dall'ultima richiesta effettuata Perché senò la diciamo la richiesta della nuova carrozzina non vi viene accettata ma adesso prima di arrivare a questo vi spiego un po' tutta la procedura che bisogna fare allora per
 
 Partiamo dall'inizio, la prescrizione medica. Per richiedere la carrozzina (oppure le scarpe ortopediche) bisogna **andare dal medico curante che vi fa la richiesta per una visita fisiatrica.** Da lì poi dovete portare la ricetta della visita fisiatrica all'Asl di appartenenza passando per il CUP e fissare un appuntamento nella zona sanitaria di appartenenza. Dal fisiatra vi compileranno un foglio con i rispettivi codici in base alla patologia (perché ogni patologia ha dei codici differenti) per richiedere la carrozzina specifica. Al fisiatra bisogna comunicare la tipologia della carrozzina (io ad esempio mi ero informata prima in una farmacia ortopedica) e una volta compilata la prescrizione, va consegnata all'autofficina che ti fa poi il preventivo.

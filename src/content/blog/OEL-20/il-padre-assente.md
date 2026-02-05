@@ -15,8 +15,9 @@ umap_x: 4.457815647125244
 umap_y: 8.862866401672363
 umap_z: 7.4863362312316895
 issue_number: OEL-20
+id_numero: "OEL-20"
+numero_rivista: "Ombre e Luci"
 ---
-
 A volte poi il padre è assente. Ci sono due modi di essere assente.
 **Il primo**
 è quando il padre lascia la casa per andare a vivere altrove. Diceva un medico il quale ha dedicato la sua vita al mondo dei bambini con difficoltà, che quando nasce un bambino con disabilità, tra i genitori i rapporti inevitabilmente si modificano. L’intesa può diventare più profonda, quando intesa c’è già. Ma quando questa non è forte, finisce con l’incrinarsi definitivamente e spesso avviene che il padre lasci la famiglia. Taluni sostengono che una parte della responsabilità dell'abbandono è da attribuirsi anche alle madri le quali — colme di dolore e assorbite dal bambino — non trovano più il tempo o la forza per occuparsi del marito, almeno non come nei tempi precedenti alla nascita. Sarà.

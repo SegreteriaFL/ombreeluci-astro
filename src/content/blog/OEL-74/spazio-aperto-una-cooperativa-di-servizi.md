@@ -12,7 +12,8 @@ umap_x: 8.26170539855957
 umap_y: 7.1973466873168945
 umap_z: 8.405871391296387
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 Nella cooperativa sociale «Spazio Aperto», esistente a Milano dal 1985, svolgevano diverse attività lavorative, giovani disabili e normodotati. In seguito alla legge 381/91 la cooperativa esistente si è divisa in due cooperative sociali di tipo A e di tipo B.
 

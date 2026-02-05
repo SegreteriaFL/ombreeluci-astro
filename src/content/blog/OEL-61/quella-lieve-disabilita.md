@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "quella-lieve-disabilita"
 lang: it
-numero_rivista: 61
-id_numero: OEL-61
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-61"
 issue_number: OEL-61
 wp_id: 12166
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 ---
-
 Li incontriamo per la strada, a scuola, nel quartiere, in parrocchia, nei negozi, al lavoro; e non li riconosciamo. I segni esteriori delle loro disabilità sono, a prima vista, quasi impercettibili.
 Si stima che, nella società in cui viviamo, le persone definite disabili lievi, o leggermente ritardate siano il sei per cento.
 Si parla poco di loro, quasi che il tacere serva ad allontanare o a nascondere le loro difficoltà.

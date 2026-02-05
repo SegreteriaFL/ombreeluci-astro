@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-119
-id_numero: OEL-119
+id_numero: "OEL-119"
+numero_rivista: "Ombre e Luci"
 ---
 La mano di Silvia, che stringe forte la mia mentre mamma Paola e papà Claudio raccontano la sua fragilità e insieme la scoperta della sua bellezza. Le lacrime di Gianfranco e Daniela, che hanno compiuto il salto dal sentirsi messi alla prova da Dio all’amore accogliente verso il loro figlio Luca.
 

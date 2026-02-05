@@ -17,7 +17,8 @@ umap_x: 7.592451572418213
 umap_y: 7.8735032081604
 umap_z: 9.017862319946289
 issue_number: OEL-7
-id_numero: OEL-7
+id_numero: "OEL-7"
+numero_rivista: "Ombre e Luci"
 ---
 *Stabili, appoggiate da un gruppo impegnato a provvedere alle sue necessità, ben organizzate, le Case-famiglia dell'OAMI sono una soluzione umana e integrata nella società al problema delle persone handicappate (principalmente fisiche per ora) quando devono lasciare la loro casa*
 Siamo andati a conoscere una casa famiglia dell’OAMI. E' il nostro primo incontro con l’Opera Assistenza Malati Impediti. Vi portiamo a questo incontro prima di parlare dell’opera. L’indirizzo di Casa Jada è Via Pomeria 105, nella zona centrale di Prato in Toscana. Casa Jada è una delle tredici case dell’Opera: ha cominciato a vivere all'inizio del 1984. La casa, piacevole fuori, dentro è addirittura bella, ristrutturata, rifinita, e arredata in maniera funzionale, con gusto e senza lesinare. Potrebbe sembrare un lusso — spiega Giuditta, responsabile della casa, anticipando un commento evidentemente già sentito — ma in questi locali la «famiglia» trascorre quasi tutta la vita, perciò è giusto, quasi necessario al clima della casa, che sia funzionale, rasserenante, piacevole.

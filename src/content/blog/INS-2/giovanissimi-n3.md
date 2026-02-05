@@ -12,8 +12,9 @@ umap_x: 6.845030307769775
 umap_y: 7.127024173736572
 umap_z: 12.355957984924316
 issue_number: INS-2
+id_numero: "INS-2"
+numero_rivista: "Insieme"
 ---
-
 ### Ilaria, 14 anni
 
 L

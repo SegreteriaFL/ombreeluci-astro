@@ -12,8 +12,9 @@ umap_x: 5.692226886749268
 umap_y: 8.545001029968262
 umap_z: 9.227132797241211
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Sono un padre d’un piccirillo!», mi sentii dire al telefono da Abib quella mattina che arrivò alla stazione centrale di Milano. Gli risposi che Giovanna lo stava aspettando, che mi aveva già telefonato due volte perché non lo trovava e che stava abbordando tutti i giovani con Taria sperduta e più o meno tunisina. Dopo circa dieci minuti mi richiama Giovanna tutta contenta; si sono incontrati e riconosciuti. Che miracolo in mezzo a tutta quella gente! Mia sorella mi aveva chiamata da Roma qualche giorno prima, una sera d’ottobre dell’anno scorso per chiedermi se potevamo trovare da dormire ad un giovane tunisino che veniva dalla Sicilia per restare qualche giorno con la moglie. Una dottoressa di Trapani aveva, con molta premura, accompagnato la moglie di Abib con il suo bambino in aereo all’ospedale di S. Paolo, specializzato in malattie del metabolismo. Da una di queste malattie sembrava affetto molto gravemente il bambino. Abib era venuto pensando proprio di stare pochi giorni per sentire cosa dicevano i medici del suo bimbo, per confortare un po’ sua moglie e poi ritornare in Sicilia dove avevano un po’ di casa e un po’ di lavoro. Abib e Naima col piccolo Mohamed finalmente uscito dall'ospedale Ma la diagnosi dei medici fu molto dura: Mohamed avrebbe potuto vivere soltanto adottando una dieta rigorosissima, preparata in farmacia. Avrebbe dovuto restare due o tre mesi in ospedale con la mamma e poi, una volta dimesso, avrebbe dovuto sottostare a di controlli settimanali. Ricordo gli occhi neri e il Sorriso semplice e dolce di Naima, in quella stanza d’ospedale. Lo teneva sempre in braccio il suo Mohamed, tutto avvolto in un panno bianco, da dove spuntava solo un visino pallido pallido, con due grandi occhi spalancati. Abib decise di restare; disse che voleva cercare un lavoro e una casa per quando Naima e Mohamed sarebbero usciti dall’ospedale.
 > A noi sembravano miracolosi la fede e il coraggio di questa piccola famiglia mussulmana
 

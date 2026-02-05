@@ -4,8 +4,8 @@ date: 2006-09-27
 author: Redazione
 slug: dialogo-aperto-n-95
 lang: it
-numero_rivista: 95
-id_numero: OEL-95
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-95"
 issue_number: OEL-95
 wp_id: 32127
 original_url: "https://www.ombreeluci.it/?p=32127"
@@ -15,7 +15,6 @@ umap_x: 4.366596221923828
 umap_y: 7.709718704223633
 umap_z: 10.42786693572998
 ---
-
 ### Chi ha davvero bisogno
 
 Ho notato una cosa, che mi ha sbalordito completamente. Si tratta di una realtà, che esiste purtroppo. Le persone di Roma, si lamentano di come va la vita, ogni giorno. lo ho constatato che esiste chi sta peggio di noi, e vive sotto i ponti e vive mangiando quello che trova nella povertà. C’è anche chi sta lungo il Tevere, dove non li vede nessuno. Questo mi fa pensare che la politica non funziona, invece di arricchirci e fare scontri tra fazioni, destra o sinistra, cerchiamo di aiutare chi ne ha davvero bisogno. I cani abbandonati che hanno fame, — ogni giorno ne vedo uno — si affezionano a chi gli dà da mangiare —. I barboni che chiedono la carità ai quali io non riesco ad avvicinarmi è perché non voglio ammettere la verità... Nel trovate lavoro chi ci deve pensare a loro ? Una sistemazione civile. Ciao.

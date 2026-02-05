@@ -14,8 +14,9 @@ umap_x: 5.698847770690918
 umap_y: 5.982252597808838
 umap_z: 12.326217651367188
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 IlNatale, la sua Luce, i suoi riti, le sue tradizioni… le nostre contraddizioni. Per celebrare la nascita del Figlio di Dio, nato in una stalla tra la gente più umile e semplice, festeggiamo nelle nostre calde case spesso in un trionfo di cibo e regali. Ma festeggiamo anche nelle chiese tra canti e preghiere, nelle case più umili, accanto ai più deboli cercando di portare la Luce negli angoli in ombra per condividere il pane e la Gloria del Signore.
 
 **Se purtroppo è vero che il Natale rischia di ridursi sempre più ad un *business*** da cui noi stessi cristiani ci lasciamo tentare, è anche vero che la forza di questa festa sta proprio nella sua universalità, nella sua eterogeneità. Il fatto che da duemila anni si celebri la nascita di un Bambinello, fa pensare alla straordinaria forza di questo evento sovrannaturale. Il Natale arriva in tutto il mondo, anche lì dove ci sono pochissimi cristiani o in climi estivi non propriamente natalizi.

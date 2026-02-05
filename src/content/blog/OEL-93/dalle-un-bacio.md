@@ -4,8 +4,8 @@ date: 2006-03-30
 author: Redazione
 slug: dalle-un-bacio
 lang: it
-numero_rivista: 93
-id_numero: OEL-93
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-93"
 issue_number: OEL-93
 wp_id: 31534
 original_url: "https://www.ombreeluci.it/?p=31534"
@@ -15,7 +15,6 @@ umap_x: 5.415421009063721
 umap_y: 8.499153137207031
 umap_z: 9.213459968566895
 ---
-
 Q
 uanto è facile creare situazioni di rottura in una coppia! Discussioni sterili su cose banali. Il ritmo tra un rimprovero e l’altro incalzante, crescente. Eppure a volte basta una inezia a smorzare questo crescendo impazzito. Poco tempo fa ho assistito ad un episodio che mi ha profondamente toccato. Ero in macchina con una coppia di miei amici e la loro figlia Elena, una ragazzina Down di 11 anni. I due amici bisticciavano sulla strada più corta per tornare a casa: "Gira a destra, di là ci sono troppi semafori". "Preferisco andare dritta." "Arriveremo tardi se passi di qua...". E così via. Insomma, una situazione familiare alla maggior parte di noi...! All'improvviso Elena chiese a suo padre una carezza. Poi, non soddisfatta, aggiunse: "Dai una carezza anche alla mamma". L'atmosfera stava già rasserenandosi quando Elena incalzando disse: "Dalle anche un bacio". Il padre dà un bacio alla madre ed ecco la piccola Elena scoppiare in una risata contagiosa e piena di gioia, gridando: "Mamma e Papà si amano!". A quel punto in macchina non si senti vano altro che risate mentre ogni residuo di tensione svaniva come per incanto. L’allegria, o meglio l’amore, che si respirava nell’auto era quasi palpabile ed è durato a lungo... A volte il ricordo di quell'episodio basta a farmi pensare prima di agire e mi ricorda di sorridere più spesso e con maggior sincerità. Ho infatti la convinzione crescente che uno dei modi per rinsaldare un buon rapporto di coppia sia mantenere viva la tenerezza che emana da tali esperienze e il cui pensiero ci permette di vivere più serenamente con noi stessi e quindi con gli altri.
 *V. S.*

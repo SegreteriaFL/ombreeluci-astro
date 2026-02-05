@@ -4,8 +4,8 @@ date: 1998-12-10
 author: Manuela Bartesaghi
 slug: una-scuola-su-misura
 lang: it
-numero_rivista: 64
-id_numero: OEL-64
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-64"
 issue_number: OEL-64
 wp_id: 12418
 original_url: "https://www.ombreeluci.it/?p=12418"
@@ -18,7 +18,6 @@ umap_x: 6.866813659667969
 umap_y: 6.873290538787842
 umap_z: 7.055203914642334
 ---
-
 Angela va a scuola, perché ha sei anni, perché finalmente esiste la scuola su misura per lei, una scuola che non le farà pesare la sua grave disabilità mentale, l'assenza del linguaggio verbale e l’incapacità di compiere qualsiasi movimento volontario. È a Zingonia, in provincia di Bergamo. È una scuola elementare di un paese di periferia, abitato da operai, immigrati, piccola borghesia. Una scuola con i muri blu e il pavimento giallo, le finestre rosse e le aule con le porte sempre aperte. Anche i bambini sono... di tutti i colori. C'è il pachistano, la bimbetta senegalese, il cinese con i capelli diritti, la polacca bionda bionda e anche qualche bergamasco doc con i capelli rossi. Una scuola statale, multicolore, multietnica e “multi-intelligente”.
 
 Due aule e un bagno attrezzato sono riservati a sei bambini in età scolare, tre maschi e tre femmine, con deficit gravi e gravissimi. Con loro ci sono gli insegnanti, gli educatori professionali e gli assistenti educatori, questi ultimi, per la maggior parte obiettori di coscienza.

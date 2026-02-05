@@ -12,7 +12,8 @@ umap_x: 7.06171178817749
 umap_y: 7.934389591217041
 umap_z: 9.528789520263672
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 «Quando è stato tolto il telo dal quadro mi sono sentita bene, c’era tantissima gente, si sono sbalorditi: “Anvedi che bel quadro che ha fatto quella ragazza di Roma!”». È Carla, una delle persone con disabilità residenti presso la comunità Il Carro, a ricordare con nitidezza le sensazioni vissute alla loro prima Personale.
 

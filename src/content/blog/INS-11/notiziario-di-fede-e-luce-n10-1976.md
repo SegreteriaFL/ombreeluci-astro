@@ -12,8 +12,9 @@ umap_x: 7.911121368408203
 umap_y: 8.002691268920898
 umap_z: 13.431182861328125
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 ### Cuneo - da una lettera di Mimmo (aprile)
 
 Maria Grazia! Un tuffo nel passato, un'ondata di ricordi per me che di feste romane di "Fede e Luce" ne ho già viste due: così era come se qui tra noi fosse come una festa di Fede e Luce di Roma.

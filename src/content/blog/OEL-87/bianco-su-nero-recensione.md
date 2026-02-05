@@ -4,8 +4,8 @@ date: 2004-09-13
 author: Silvia Gusmano
 slug: bianco-su-nero-recensione
 lang: it
-numero_rivista: 87
-id_numero: OEL-87
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-87"
 issue_number: OEL-87
 wp_id: 30368
 original_url: "https://www.ombreeluci.it/?p=30368"
@@ -15,7 +15,6 @@ umap_x: 8.019569396972656
 umap_y: 11.384198188781738
 umap_z: 5.124432563781738
 ---
-
 “Come sempre nella vita, a un periodo bianco ne segue uno nero, dopo un successo vengono le delusioni. Tutto cambia e deve cambiare. Così dev'essere, così va il mondo. Lo so, non ho nulla in contrario, non mi resta altro che sperare. Sperare in un miracolo. Mi auguro sinceramente, desidero con tutte le mie forze che il mio periodo nero continui il più possibile, che non diventi bianco. **Non mi piace il bianco. Il bianco è il colore dell'impotenza e della dannazione,** il colore del soffitto d'Ospedale e delle sue lenzuola. Cura e tutela garantite, silenzio e quiete: il nulla. Il nulla della vita d'ospedale che scorre all'infinito. **Il nero è il colore della notte e della speranza** , il colore del cielo notturno, lo sfondo fermo e nitido dei sogni, delle brevi cause fra intervalli di ordini, bianchi e sterminati delle infermità fisiche. È il colore del sogno e della fiaba, il colore del mondo dietro le palpebre chiuse. Il colore della libertà, il colore che ho scelto per la mia sedia a rotelle elettrica”.
 
 Ribaltando le più comuni aspirazioni e prospettive umane, **Rubén Gallego si prefigge il nero come mèta da raggiungere** , come trofeo da conquistare. Tutta la sua vita, la sua storia raccontata in Bianco su nero (Adelphi, aprile 2004), è contrassegnata da verità rovesciate: “io scrivo del bene, scrivo di vittorie, gioie e amore. Delle vittorie e delle gioie che un bambino di origine spagnola, nato a Mosca nel 1968 può e riesce a vivere dopo essere stato separato dalla madre e destinato dalla Russia comunista agli orfanotrofi speciali (per disabili).

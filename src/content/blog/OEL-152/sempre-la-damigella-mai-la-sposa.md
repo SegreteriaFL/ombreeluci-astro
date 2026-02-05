@@ -12,8 +12,9 @@ umap_x: 5.442636013031006
 umap_y: 9.601658821105957
 umap_z: 7.083563804626465
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Perché Hillary era sempre la damigella e mai la sposa?» si chiede James Reston junior in *Fragile innocence. A Father’s Memoir of His Daughter’s Courageous Journey* (Three Rivers Press, 2007) il libro in cui racconta la storia della sua terzogenita.
 
 Nata a New York, fino a quasi due anni la bimba è vivace, socievole e chiacchierina. Improvvisamente però, nella primavera del 1983, tutto cambia. Hillary è colta da una febbre altissima e, tra grandi sofferenze, comportamenti incontrollati e crisi epilettiche, inizia un calvario di tre anni durante i quali il suo cervello verrà irrimediabilmente danneggiato: la disabilità grave è ormai parte della famiglia Reston. Le prove, però, non sono finite: dopo il cervello di Hillary, infatti, sono i suoi reni, intossicati dalle medicine, a collassare: la dialisi quotidiana complica una vita già complicata, fino a che, dopo altri lunghi anni di sofferenze, giunge il tanto atteso trapianto, che finalmente le restituirà il sorriso.

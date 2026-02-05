@@ -14,8 +14,9 @@ umap_x: 7.022294521331787
 umap_y: 8.265190124511719
 umap_z: 12.877235412597656
 issue_number: INS-2
+id_numero: "INS-2"
+numero_rivista: "Insieme"
 ---
-
 Alcune persone ci hanno scritto chiedendo informazioni sul movimento " [Fede e Luce](https://www.fedeeluce.it/) ”, più volte nominato nel nostro giornalino e del quale il giornalino stesso si considera un'emanazione. Contemporaneamente una lettrice, mamma di Alessandro, bambino handicappato di 8 anni, ci scriveva:
 
 " *...Le battaglie sostenute con me stessa, tanti anni fa, per accettarlo pienamente e per poterlo amare, sono state terribili, ma l'importante è averle superate, di questo non ho il minimo dubbio. Insuperate invece, sono le lotte per poterlo inserire nella comunità in cui vivo, per far capire agli altri che anche lui ha diritto, in quanto uomo, di essere rispettato, aiutato in ciò che e necessario o amato per quello che è, non per quello che non ha. Purtroppo la maggior parto dei genitori sfortunati come me, non riesce a comprendere che per amare veramente i propri figli, è necessario, indispensabile, direi, non isolarsi, ma partecipare ad una vita di gruppo.* *Solo così si potranno realizzare delle mete che, se si opera da isoli, riescono irraggiungibili.* "

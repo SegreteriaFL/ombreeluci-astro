@@ -4,8 +4,8 @@ date: 2002-09-01
 author: Alexandre Jollien
 slug: la-mia-vita-come-una-gioiosa-battaglia-alexandre-jollien
 lang: it
-numero_rivista: 79
-id_numero: OEL-79
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-79"
 issue_number: OEL-79
 wp_id: 25448
 original_url: "https://www.ombreeluci.it/?p=25448"
@@ -15,7 +15,6 @@ umap_x: 7.461170196533203
 umap_y: 11.248479843139648
 umap_z: 5.929267883300781
 ---
-
 Alexandre Jollien, colpito da paralisi cerebrale, dopo 17 anni trascorsi in un istituto, si appassiona alla filosofia. Il suo libro «Elogio della debolezza», è stato premiato dall’Accademia Francese. Nel testo che segue con semplicità e sincerità Alexandre confida il segreto del suo «gioioso combattimento».
 
 Nel Centro dove ho vissuto mi hanno insegnato a camminare, a parlare, ad annodarmi le scarpe, a tagliare la carne senza infilzare il mio vicino, a scrivere con il computer. Ma gli altri disabili che mi stavano intorno, considerati dalla società come dei «vegetali», sono stati i miei veri maestri. **Mi hanno insegnato che non ci si costruisce da soli** . È guardando gli altri, partecipando al loro modo di risolvere le situazioni, che si impara la maggior parte delle cose. Così ho visto come Dominique sdraiato sulla sedia a rotelle, riusciva a strappare un sorriso al suo corpo. Da lui ho imparato che **l’essenziale non è tanto ciò che sì fa o ciò che si ha ma ciò che si è** .

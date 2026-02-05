@@ -12,6 +12,7 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 Riceviamo e pubblichiamo con gioia le fotografia ricevute da alcune comunità medio-orientali che ce le hanno cortesemente invitate. Viva [Fede e Luce](http://fedeeluce.it/) nel mondo!

@@ -12,8 +12,9 @@ umap_x: 9.163081169128418
 umap_y: 7.960392951965332
 umap_z: 3.5073583126068115
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 *21 Febbraio 2020*
 
 ### Sulla regia non credente di *Lourdes*

@@ -14,7 +14,8 @@ umap_x: 6.9159650802612305
 umap_y: 9.369637489318848
 umap_z: 11.469223976135254
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 «Sono incinta!» – con queste due parole per la donna inizia una nuova vita piena di sogni e progetti. Ognuna di noi, in questi mesi di attesa, sogna un bellissimo futuro per la piccola creatura di Dio che sta portando sotto il proprio cuore. **Vogliamo che il nostro bimbo sia il più bello, il più intelligente, il più educato, il più dotato di altri.** Passano mesi, giorni, ore... «Eccomi!». È nato... Che felicità!
 

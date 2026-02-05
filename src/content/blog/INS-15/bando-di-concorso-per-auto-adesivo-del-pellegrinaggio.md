@@ -12,8 +12,9 @@ umap_x: 9.219823837280273
 umap_y: 8.301630973815918
 umap_z: 12.659419059753418
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 In occasione del pellegrinaggio, tutti siete invitati a partecipare al concorso di disegno per autoadesivo (il disegno può essere a colori o a penna).
 
 **Tema: Il Cantico delle creature - "Laudato si' mi Signore per...** ognuno sceglie la laude che preferisce: sole, l'aria, acqua, fuoco, fiori ecc.

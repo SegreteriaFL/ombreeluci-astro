@@ -12,7 +12,8 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 Sento la necessità di fare due considerazioni previe. Innanzitutto vi saluto con affetto e vi ringrazio perché in questo vostro pellegrinaggio in Assisi avete scelto come meta conclusiva questa celebrazione nella cattedrale che è il segno dell’unità della Chiesa che è in Assisi. **Vi ringrazio di questo gesto che avete voluto fare nei confronti della Chiesa di Dio che è qui.
 L’altra considerazione è che forse in questo momento io sto celebrando con voi la più bella Eucarestia. Eppure nei cinque anni e mezzo del mio episcopato qui ad Assisi, questa cattedrale ha visto tanti avvenimenti; ha visto anche folle maggiori, ha visto perfino il papa, che è stato qui. **L’offerta che ora sale a Dio**, è l'offerta in cui, dentro di voi come dentro di me, c’è tanta invocazione. **È un'offerta unica, fatta di difficoltà, di sacrifici, di momenti duri, di momenti aperti alla speranza. E poiché l'Eucarestia è l’offerta di Cristo al Padre, io credo che noi, unendo la nostra offerta così significativa, così diversa, in questo momento facciamo una grande Eucarestia.

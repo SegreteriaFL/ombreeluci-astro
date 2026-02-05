@@ -12,7 +12,8 @@ umap_x: 7.56833553314209
 umap_y: 10.992331504821777
 umap_z: 4.849226951599121
 issue_number: OEL-75
-id_numero: OEL-75
+id_numero: "OEL-75"
+numero_rivista: "Ombre e Luci"
 ---
 È
 un libro breve, ma straordinario! Una giovane donna autistica per lunghi anni è considerata disabile mentale grave, mentre in realtà è dotata di una intelligenza al di sopra della media e all’insaputa di tutti ha raggiunto una cultura straordinariamente sviluppata. Ma nessuno l’ha capito finché non ha potuto esprimersi attraverso la «comunicazione facilitata». In queste pagine Katja racconta la sua sofferenza, le sue gioie, i suoi desideri e, in uno stile molto personale, inventa delle fiabe. Nei capitoli finali, la testimonianza della madre è appassionante. Katja nel suo libro nomina più volte Dio e questa è una prova in più che non bisogna rinunciare ad accostare gli autistici all’esperienza religiosa. -

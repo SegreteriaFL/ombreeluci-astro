@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 Don Claudio Campa, colpito circa dieci anni fa da una malattia invalidante, continua a svolgere il suo incarico di Parroco e mantiene con determinazione i suoi impegni in favore delle persone disabili.
 Dall’amarezza, e dallo sconforto nel toccare con mano la propria debolezza egli trae una importante considerazione: quando siamo feriti abbiamo bisogno della presenza dell’altro, l’altro che conosce e condivide la nostra debolezza. Egli parla di “debolezza condivisa”, la fragilità quindi come luogo di incontro, di comunione e di dialogo.

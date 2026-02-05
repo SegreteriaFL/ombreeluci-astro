@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "abbiamo-fatto-alcune-delle-esperienze-di-solidarieta-che-abbiamo-raccontato"
 lang: it
-numero_rivista: 84
-id_numero: OEL-84
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-84"
 issue_number: OEL-84
 wp_id: 27732
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
-
 Ecco alcune delle iniziative di genitori e persone di buona volontà di cui abbiamo avuto notizia e che abbiamo presentato nella rivista.
 [La tenda](https://www.ombreeluci.it/2002/casa-famiglia-la-tenda-per-bambini-da-0-a-6-anni/)
 Via Portuense, 750-00153 Roma Casa famiglia per bambini da Oa 6 anni (O. L. n. 80 4/2002)

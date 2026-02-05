@@ -14,8 +14,9 @@ umap_x: 5.597806453704834
 umap_y: 5.8087005615234375
 umap_z: 12.435137748718262
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ipreparativi per Natale iniziano i primi di novembre quando cominciano ad apparire nelle case e nei negozi i primi pudding natalizi. **Il pudding è un dolce composto da un mix di frutta, spezie, farina e liquore.** Tutta la famiglia è coinvolta nella preparazione, è considerato un rito portafortuna. Dopo una cottura al vapore, viene lasciato riposare per circa 8 ore, riempiendo la casa con un meraviglioso aroma di frutta e spezie.
 
 **La domenica prima di Natale** tutti i membri della famiglia, madre, padre, figli e nipoti si riuniscono per mangiare e scambiarsi regali insieme. A Natale tutti restano a casa per passare del tempo insieme e i bambini ricevono i regali di Babbo Natale.

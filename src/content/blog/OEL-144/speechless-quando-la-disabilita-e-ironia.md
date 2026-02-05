@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Prende il via questa sera su **Tv2000** la prima stagione di **Speechless**, una serie tv comedy americana già andata in onda lo scorso anno sul satellite e nominata per diversi premi televisivi negli USA.
 
 La serie ha attirato l'attenzione fin dal 2016, anno della prima trasmissione americana, per la peculiarità delle vicende della famiglia Di Meo: uno dei tre figli è, infatti, un liceale con paralisi cerebrale – e non solo nella finzione: **Micah Flower**, l'attore che interpreta JJ, è realmente costretto sulla sedia a rotelle. Ciò che di *Speechless* viene apprezzato, sia dalla critica che dal pubblico, è l'intelligenza con cui gli autori hanno affiancato la comicità alla disabilità di JJ, senza banali retoriche e senza cadere nello squallido. Ognuno dei componenti della famiglia contribuisce a dare un'anima bizzarra (mai troppo volgare) alla serie ma JJ resta l'elemento centrale sul quale si è voluto dedicare più attenzione, rendendolo un personaggio sempre più ironico e meno drammatico nonostante la sua condizione, di solito sfruttata per generare un'esagerata compassione nello spettatore. *Speechless* intende invece divertire e alleggerire dei temi che nella vita reale sono estremamente sentiti, mettendo quindi in luce dinamiche controverse del mondo della disabilità.

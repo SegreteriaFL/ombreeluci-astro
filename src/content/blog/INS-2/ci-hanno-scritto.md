@@ -12,8 +12,9 @@ umap_x: 6.7678961753845215
 umap_y: 7.1290669441223145
 umap_z: 12.350272178649902
 issue_number: INS-2
+id_numero: "INS-2"
+numero_rivista: "Insieme"
 ---
-
 ### La mamma di...
 
 ... **Massimo** - appena 3 anni - è preso da tante imperfezioni, non ci vede per ora, non parla e comincia ora a fare i primi passi dopo otto mesi che lo porto a fare ginnastica al Centro Bambini spastici; lo porto tre-quattro volte alla settimana; per me è un grande traffico, perché devo prendere il pullman un pò scomodo e sempre con il bambi. no sulle braccia.

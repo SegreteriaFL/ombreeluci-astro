@@ -14,7 +14,8 @@ umap_x: 5.6798295974731445
 umap_y: 9.130156517028809
 umap_z: 8.097490310668945
 issue_number: OEL-13
-id_numero: OEL-13
+id_numero: "OEL-13"
+numero_rivista: "Ombre e Luci"
 ---
 Carissimi amici, ho letto la vostra lettera con molta emozione e mi ha colpito la vostra fiducia. Vi ringrazio di avermi espresso con naturalezza le tentazioni di disperazione o di rivolta contro la vostra prova, quella del vostro piccolo Umberto, che non vede, quasi non sente, che ha il cervello gravemente colpito e che senza dubbio non potrà mai camminare. Mi narrate anche di quanto poco siate stati aiutati in questa prova, una delle più pesanti che una famiglia possa affrontare. Il modo con cui il medico vi ha
 *assestato*

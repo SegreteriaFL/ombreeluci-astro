@@ -12,8 +12,9 @@ umap_x: 7.4341020584106445
 umap_y: 7.693755626678467
 umap_z: 7.693737983703613
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 Pensiamo di fare cosa gradita e utile a qualcuni di voi segnalando alcuni tipi di scuola che potrebbero permettere ai giovani di qualificarsi nel campo della "rieducazione". Saremo grati a chi ci invierà le notizie di altre scuole o corsi di cui forse è a conoscenza.
 
 ### 1. Fisioterapista e terapista della riabilitazione

@@ -15,7 +15,8 @@ umap_x: 8.543042182922363
 umap_y: 8.499253273010254
 umap_z: 3.4662625789642334
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 Di film sull’autismo ne esistono tantissimi. Da *Rain Man* (1988) di Barry Levinson con Dustin Hoffman, a *Il mio nome è Sam* (2001) con Sean Penn, fino a *A proposito di Luke* (2012) con Lou Taylor Pucci, il cinema ha raccontato l’autismo attraverso storie di personaggi spesso brillanti, particolari, ma sempre interpretati da attori neurotipici. Anche in Italia si trovano esempi come *Pulce non c’è* (2014) di Giuseppe Bonito o *Tutto il mio folle amore* (2019) di Gabriele Salvatores. **Ma questi film hanno davvero raccontato l’autismo? La verità è che nessuno di loro è riuscito a farlo pienamente.** Non perché i registi o gli attori non si siano impegnati, ma perché l’autismo non è solo un insieme di caratteristiche esteriori: è un modo di percepire il mondo, di muoversi, di comunicare, e questo è difficile da rendere per chi non lo vive direttamente.
 

@@ -4,8 +4,8 @@ date: 2004-03-09
 author: Cristina Tersigni
 slug: per-voi-e-per-tutti-alcuni-consigli-pratici-perch-nessuno-si-senta-rifiutato
 lang: it
-numero_rivista: 85
-id_numero: OEL-85
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-85"
 issue_number: OEL-85
 wp_id: 30038
 original_url: "https://www.ombreeluci.it/?p=30038"
@@ -15,7 +15,6 @@ umap_x: 9.134485244750977
 umap_y: 10.30355453491211
 umap_z: 8.977985382080078
 ---
-
 Parliamo di accoglienza delle persone disabili alla Messa nelle nostre parrocchie. Le esperienze possono essere molto diverse, soprattutto a seconda delle difficoltà proprie di ciascun handicap, ma diverse anche se si è in gruppo o se è la singola famiglia ad unirsi all'assemblea domenicale. Per una parte di queste persone non ci sono grosse difficoltà di partecipazione; pensiamo invece, ad esempio, alle persone con un handicap mentale più instabili o più incapaci di assistere in silenzio e che rischiano così di disturbare. **Premessa indispensabile da parte nostra è la convinzione che oltre l'handicap c’è una persona che Dio vuole incontrare e alla quale trasmettere il messaggio che Dio la ama così com'è** , e riflettere su quanti ragazzi non sono aiutati a scoprire l'accoglienza incondizionata di Colui che è venuto a cercare ognuno di noi, a cominciare dal più rifiutato, dal più disprezzato, dal più povero.
 
 Nonostante i grossi passi verso l'integrazione delle persone disabili nella società e nella Chiesa, purtroppo è ancora una pia illusione pensare che alcuni comportamenti non siano un disturbo, a volte un ostacolo, soprattutto se inattesi.

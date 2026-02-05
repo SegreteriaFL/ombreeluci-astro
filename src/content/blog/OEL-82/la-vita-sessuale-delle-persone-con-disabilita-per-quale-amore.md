@@ -6,8 +6,8 @@ theme: "cluster-1"
 cluster_id: 1
 slug: "la-vita-sessuale-delle-persone-con-disabilita-per-quale-amore"
 lang: it
-numero_rivista: 82
-id_numero: OEL-82
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-82"
 issue_number: OEL-82
 wp_id: 26779
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 ---
-
 Ombre e Luci - In poche parole, che cos’è la sessualità?
 Il termine "sessualità" riunisce cose diverse, sia sensazioni e gesti che piacere e funzioni. Io preferisco parlare di "vita sessuale", termine più ricco, perché sottintende la vita e il fatto che siamo sessuati, cioè differenti in quanto uomini e donne. Ogni persona sposata o celibe ha una vita sessuale.
 Le emozioni che proviamo, i desideri, ma anche le pulsioni, le fantasie, i sogni, fanno parte della nostra vita sessuale. Il fascino di una persona, il sua viso, la sua bellezza, la sua voce, i suoi occhi, il piacere di stare con lei, tutto questo fa parte della vita sessuale. Allo stesso modo ne fa parte il fatto di non avere relazioni sessuali con la prima persona che si incontra, il fatto di vivere nella continenza, cioè nella castità che è rispetto della differenza e distanza fra i corpi. La vita sessuale non è l’attività sessuale. Le due cose si confondono troppo facilmente.

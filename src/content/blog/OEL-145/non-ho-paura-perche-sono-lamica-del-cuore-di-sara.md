@@ -12,7 +12,8 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Ho un’amica del cuore. Si chiama Sara di nome e Vargetto di cognome. Che pensi? Ho 15 anni e l’amica del cuore ce l’ho pure io. La mia amica del cuore è bella, sorride e ride con me. **Sara mi fa sentire felice, sta attenta a me, parla, ascolta.** Quando siamo insieme non guarda il cellulare e non fa i giochi. Ogni volta la riempio di baci.
 

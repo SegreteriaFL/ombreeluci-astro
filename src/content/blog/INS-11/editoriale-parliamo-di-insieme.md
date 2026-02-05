@@ -12,8 +12,9 @@ umap_x: 6.646417617797852
 umap_y: 7.41672420501709
 umap_z: 12.136911392211914
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 C on questo numero, " [INSIEME](https://www.ombreeluci.it/project_category/insieme/) " esce un po' rinnovato. Ha fatto un po' di strada da quando era solo una lettera ciclostilata inviata a poche mamme, sparse nella penisola, che volevano sentirsi unite e sostenute in un compito difficile. In seguito è divenuto più di una lettera: giovani, bambini, genitori, educatori, hanno trovato posto per i loro pensieri, poesie, testimonianze, racconti.
 
 Ora, chi riceverà INSIEME, lo vedrà un po' cambiato: la copertina stampata vuole essere un augurio, che ci facciamo a vicenda, perché INSIEME sia veramente qualcosa che unisce tutti coloro che, vivendo accanto ad un bambino o giovane handicappato sentano il bisogno di sostegno, di amicizia, di informazione di consiglio.

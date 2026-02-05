@@ -14,8 +14,9 @@ umap_x: 5.756979465484619
 umap_y: 9.507903099060059
 umap_z: 7.06197452545166
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 **I genitori di un bambino handicappato hanno bisogno di avere un rapporto continuativo con qualcuno che sappia prendere in considerazione i loro problemi e quelli del loro bambino** . Il pediatra è colui che ha più dimestichezza con il bambino e la sua famiglia, anche in riferimento alle sue esigenze globali, e, per la sua adeguata conoscenza dello sviluppo infantile,della maturazione neurologica e affettiva, è in grado di svolgere un ruolo di supervisore longitudinale. Il bambino, infatti, non è un piccolo adulto e pertanto a mano a mano che cresce, il suo ambiente si modifica notevolmente, così che il suo handicap può avere diversi gradi di rilevanza a differenti età.
 
 **Perciò è il medico dell'età evolutiva** che può periodicamente riesaminare e rivedere il piano di trattamento, collegato a problemi dinamici che si modificano con lo sviluppo. Egli si deve naturalmente avvalere dell'ausilio di altri operatori sanitari e sociali, nonché di pedagogisti, di volta in volta e a seconda dei casi, coordinandone l'attività o dirigendone il lavoro di equipe.

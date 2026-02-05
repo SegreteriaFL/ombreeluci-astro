@@ -14,8 +14,9 @@ umap_x: 9.463349342346191
 umap_y: 10.10386848449707
 umap_z: 9.71407413482666
 issue_number: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 L'idea di progettare un itinerario di catechesi per preparare questi ragazzi all’incontro con il Signore nel sacramento della Cresima è nata nel gruppo dopo aver parlato con la mamma di Luca. Catechisti sono stati quattro giovani della comunità, aiutati da un sacerdote a individuare i temi su cui basare gli incontri. Insieme hanno affrontato questo cammino, convinti che l’amicizia che li lega a Michela e a Luca fosse un buon tramite per superare le difficoltà di dover comunicare «contenuti» di fede.
 
 La catechesi si è articolata in sei incontri, tenuti una volta la settimana nelle case dei due ragazzi. Ogni incontro si è concluso con una merenda, per sottolineare il clima di amicizia e condivisione tra tutti. Al centro della catechesi l’amore di Gesù da incontrare nel dono dello Spirito: si è parlato perciò di Gesù che vuole bene a tutti, che è vivo e dona la vita, di Gesù mio fratello (il battesimo), di Gesù che mi dona il suo amore, e mi invita alla sua festa. Una festa che continua anche dopo il momento del dono. Momenti comuni ad ogni incontro sono stati il canto e il disegno. La «canzone del fuoco» è stata cantata da tutti all’inizio e al termine di ogni incontro ed ha accolto Michela e Luca in chiesa il giorno della Cresima.

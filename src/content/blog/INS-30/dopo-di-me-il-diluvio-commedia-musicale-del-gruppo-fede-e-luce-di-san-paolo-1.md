@@ -14,8 +14,9 @@ umap_x: 9.225021362304688
 umap_y: 7.797358512878418
 umap_z: 9.061297416687012
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Appuntamento teatrale per i componenti di Fede e Luce di Roma, i loro parenti gli amici e per chiunque ne avesse voglia, sabato 21 e domenica 22 febbraio presso la sala dell'oratorio di San Paolo per assistere alla rappresentazione "Dopo di me il diluvio", liberamente tratto - molto liberamente tratto, hanno detto i realizzatori - dalla commedia musicale "Aggiungi un posto a tavola".
 
 Il successo della rappresentazione è stato veramente notevole, gli applausi a non finire, a volte anche a scena aperta per sottolineare i quadri meglio riusciti o di maggiore effetto. Come quando Goffredo (pardon, don Silvestro) alza una mano e come per incanto una ammicante luna sospesa nel cielo si accende di luce improvvisa; e sulle note di "Notte da non dormire…" i ragazzi a coppie, escono lentamente di scena. O come nella scena del diluvio dove un ingegnoso e validissimo effetto scenico ci ha convinti tutti che stava iniziando il… secondo diluvio universale.

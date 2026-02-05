@@ -4,8 +4,8 @@ date: 2003-06-23
 author: Mariangela Bertolini
 slug: quando-il-silenzio-fa-rumore
 lang: it
-numero_rivista: 82
-id_numero: OEL-82
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-82"
 issue_number: OEL-82
 wp_id: 26829
 original_url: "https://www.ombreeluci.it/?p=26829"
@@ -18,7 +18,6 @@ umap_x: 7.31645393371582
 umap_y: 10.12044620513916
 umap_z: 8.413058280944824
 ---
-
 Grazie Giovanni di avermi suggerito il titolo di questa chiacchierata che dedico a te e a tutti i giovani come te. Grazie di avermi permesso di citare le tue parole scritte per il bollettino telematico di FL del 13 maggio.
 
 > " **Nei mie sogni c’è qualcosa che mi turba** ... voglio qualcosa di nuovo... Mi piacerebbe avere amici che mi cercano e non si rassegnano quando io, per motivi oscuri, non li richiamo. **Cerco di suscitare interesse: chissà come si fa?** In certi momenti, quando sento dentro di me che è ora di avvicinarmi, mi siedo accanto a lei e aspetto... Io mi sento impotente di fronte a lei, non importa come si chiama, a me interessa il fatto che la amo... V **orrei far capire che anche se sono brutto, vado bene lo stesso** . Sono capace di fare tante cose, sono spiritoso, mi va di ridere e scherzare... Quando prendo il via non mi frena nessuno; se mi fermano dicendo che sono malato, mi arrabbio di brutto, dicendo tutte le parolacce che ho in mente, prima di andarmene da solo, verso il mio isolamento interiore... Nella mia stanza soffro in silenzio e vorrei urlare e non ci riesco perché sono timido. **Ma perché non mi telefona mai nessuno** ... sono da solo in compagnia del silenzio... L’Amore per me è importante... senza di esso sarei secco come una canna... Secondo me il silenzio fa rumore..."

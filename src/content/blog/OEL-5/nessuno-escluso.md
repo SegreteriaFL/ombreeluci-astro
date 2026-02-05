@@ -17,7 +17,8 @@ umap_x: 9.158344268798828
 umap_y: 10.41964054107666
 umap_z: 8.723094940185547
 issue_number: OEL-5
-id_numero: OEL-5
+id_numero: "OEL-5"
+numero_rivista: "Ombre e Luci"
 ---
 «
 *Le testimonianze raccolte in questo fascicolo ( [Ombre e Luci n. 5](http://www.ombreeluci.it/project/numero-5-chi-accoglie-voi-accoglie-me/) ) spingono le comunità cristiane ad approfondire sul piano teorico e pratico l’accoglienza verso gli handicappati*

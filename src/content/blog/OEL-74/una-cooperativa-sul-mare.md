@@ -14,7 +14,8 @@ umap_x: 8.256460189819336
 umap_y: 7.192768096923828
 umap_z: 8.62012004852295
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 I n una splendida giornata d'aprile abbiamo lasciato Roma e, in un'autostrada semideserta, fiancheggiata a tratti dagli Appennini bianchi e azzurri contro il cielo ancora più azzurro, abbiamo raggiunto Teramo, abbiamo proseguito per Giulianova. Il mare ci è apparso all'improvviso, proprio sotto la piazzetta dell'ospedale, anche lui azzurrissimo e terso. Lo abbiamo ignorato e girando a destra siamo entrati negli uffici amministrativi della **cooperativa sociale “Piccola Opera Caritas”** , derivazione e cuore della Fondazione omonima nata per la volontà e l’impegno del padre cappuccino Don Serafino Colangeli, trentotto anni fa.
 

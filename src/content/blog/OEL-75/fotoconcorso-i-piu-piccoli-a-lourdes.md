@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-75
-id_numero: OEL-75
+id_numero: "OEL-75"
+numero_rivista: "Ombre e Luci"
 ---
 Fotografie scelte dalla giuria composta da: Valentina Comand (grafica pubblicitaria) - M. Mercedes Graminger (pediatra) - Riccardo Guglielmin (docente di fotografia sociale) - Alessandra Tomei (giornalista) - Jens Schulthes (giornalista).
 

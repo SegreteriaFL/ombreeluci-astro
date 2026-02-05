@@ -7,6 +7,7 @@ cluster_id: 5
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-16.webp"
 slug: "vita-fede-e-luce-natale-1977-a"
 has_comments: false
+id_numero: "INS-16"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

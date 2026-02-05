@@ -4,8 +4,8 @@ date: 2004-12-14
 author: Redazione
 slug: una-settimana-da-dio-senza-nulla-togliere-al-film
 lang: en
-numero_rivista: 88
-id_numero: OEL-88
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-88"
 issue_number: OEL-88
 wp_id: 30578
 original_url: "https://www.ombreeluci.it/?p=30578"
@@ -15,7 +15,6 @@ umap_x: 7.791228771209717
 umap_y: 8.835478782653809
 umap_z: 13.213945388793945
 ---
-
 P
 erché non vieni alla settimana di formazione a Foligno in agosto? C'è un bellissimo programma...! Con queste parole Roberta, la mia coordinatrice regionale ha incuriosito il mio spirito che da 18 anni non partecipava ad una formazione Fede e Luce. Ho detto"sì", perché avevo proprio desiderio di ripetere l’esperienza fatta tanti ami prima; sono partita portando con me i miei bambini. La struttura che ci ha accolti era a misura di"formazione": tanto silenzio, il verde che riempiva gli occhi, gli spazi adatti ad ogni esigenza. E noi eravamo 130 da tutta Italia e di più, perché con gli ospiti di Libano, Slovenia e Cipro abbiamo completato la nostra zona; numerosi, diversi, ognuno con il suo bagaglio di gioie e incertezze, legati dalla voglia di scoprire"il seme gettato nella terra, seme che germoglia e cresce, come egli stesso non sa.." La settimana si è articolata con ritmi serrati ma necessari, seguendo un ricco programma che l’equipe nazionale aveva preparato con immensa cura, non trascurando alcuna nota esigenza del"Fedelucino doc": il nutrimento spirituale grazie alle riflessioni mattutine di don Marco, il nutrimento gioviale grazie alle schitarrate serali ed ai simpatici canti e balli che i ragazzi siciliani ci hanno insegnato, il nutrimento del cuore grazie alle testimonianze dei genitori presenti che hanno ci hanno permesso di condividere con loro il percorso a volte in salita della propria esperienza, il nutrimento del palato grazie alla serata conviviale dove ogni regione ci ha fatto dono di una specialità gastronomica che ha contribuito a farci sentire una grande affiatata (e affamata) famiglia! Ed infine la gita a Monteluco sulle orme di S.Francesco, quasi a benedire l’inizio del cammino che ci porterà ad Assisi in aprile. È stata una settimana a dir poco emozionante, dove ho ritrovato volti vecchi e nuovi, ho scoperto cuori che si sono lasciati scoprire, ho gustato momenti vissuti nel silenzio e nella preghiera nella totale condivisione, ho scoperto ancora una volta di essere accompagnata da una presenza silenziosa che mi chiede di accogliere nella semplicità del cuore e camminare accanto a chi non ha lo stesso mio passo... Un grazie particolare da parte dei miei figli Andrea e Francesco va a Estrelita e Carletto, perchè insieme a loro in questa settimana hanno assaporato che l'amicizia è un dono che ci si porta per sempre nel cuore!
 *Cinzia Baricella*

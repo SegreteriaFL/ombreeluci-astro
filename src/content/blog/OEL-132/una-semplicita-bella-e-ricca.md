@@ -11,8 +11,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 Martedì 23, con la mia comunità, [siamo](#primo) pronti a partire dalla stazione di Messina per il primo pellegrinaggio così lontano da casa. Poi l’arrivo a Roma, la gioia dei *ragazzi* nel dormire vicino a San Pietro. E l’indomani tutti in piazza, l’incontro con gli altri amici di *Fede e Luce* e io, insieme agli altri coordinatori di provincia, lasciamo le nostre comunità per salire sul sagrato… che dispiacere non poter vivere con loro quest’incontro, ma allo stesso tempo che gioia vedere tutta *Fede e Luce* insieme, compatta e, in prima fila, alcuni *ragazzi* con le loro mamme nell’attesa di essere salutati dal Papa.
 
 Il discorso del Papa ha aperto egregiamente il nostro pellegrinaggio, tocca le ferite della famiglia con mano, da accogliere e curare… un po’ quello che noi viviamo ogni giorno!

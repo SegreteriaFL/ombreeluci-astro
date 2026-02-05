@@ -12,8 +12,9 @@ tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 Per chi ancora non lo sapesse è uscita nel febbraio scorso la legge sull'assegno di accompagnamento per le persone totalmente inabili.
 
 *Pubblicata sulla Gazzetta Ufficiale n. 44 del 14.2.80, la legge n. 18 del 18.2.80 che prevede la concessione di una indennità di accompagnamento a favore dei mutilati e invalidi civili totalmente inabili per affezioni fisiche o psichiche di cui agli artt. 2 - 12 della legge 30.3.1971 n.118.

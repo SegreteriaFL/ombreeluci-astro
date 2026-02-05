@@ -12,7 +12,8 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-102
-id_numero: OEL-102
+id_numero: "OEL-102"
+numero_rivista: "Ombre e Luci"
 ---
 Apparentemente, la situazione di Valerio, un ragazzino di dodici anni, una mamma e un papà molto affezionati, era abbastanza stabile se si escludono alcuni periodi di assenza da scuola un po’ troppo prolungati. Questo fino all’arrivo alla scuola media quando per lui divenne praticamente impossibile uscire da casa, anche per andare a scuola: non contava lo sforzo dei genitori né quello di operatori appositamente mandati dai servizi sociali che lo seguivano. Il ragazzo passava la giornata nella sua stanza, in penombra, davanti lo schermo di un computer: la camera era piena di videogiochi, fumetti giapponesi e poster. Valerio non si muoveva da quella postazione, rimaneva lì tutto il giorno senza alzarsi neanche per mangiare: la mamma gli portava un vassoio in camera, spesso con hamburger e patatine del fast food, il cibo che mangiava più volentieri.
 

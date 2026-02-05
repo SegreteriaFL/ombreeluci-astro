@@ -4,8 +4,8 @@ date: 2007-06-03
 author: Redazione
 slug: il-figlio-terminale-recensione
 lang: it
-numero_rivista: 98
-id_numero: OEL-98
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-98"
 issue_number: OEL-98
 wp_id: 32533
 original_url: "https://www.ombreeluci.it/?p=32533"
@@ -15,7 +15,6 @@ umap_x: 7.031980037689209
 umap_y: 11.670625686645508
 umap_z: 5.288626670837402
 ---
-
 Dalla Prefazione: “quanto sarei felice se queste pagine entrassero in tante case e diventassero uno specchio di verità...”.
 
 > “Questo libro vuole essere il faro nella tempesta...”

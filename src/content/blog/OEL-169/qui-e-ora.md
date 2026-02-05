@@ -16,7 +16,8 @@ umap_x: 9.495627403259277
 umap_y: 8.627696990966797
 umap_z: 12.149442672729492
 issue_number: OEL-169
-id_numero: OEL-169
+id_numero: "OEL-169"
+numero_rivista: "Ombre e Luci"
 ---
 «Flavia, perché non vieni anche tu alla marcia di Assisi?» «Fra Paolo, ma stai scherzando???». Flavia Messina potrebbe aver risposto in maniera decisamente più colorita ma il senso era quello. Ce lo raccontava in una delle testimonianze che hanno arricchito le tre giornate estive verso Assisi insieme alla preghiera, alle meditazioni (fatte anche con segni molto concreti) alle quali ogni giorno siamo stati invitati all’inizio e al termine della tappa del pellegrinaggio. Flavia ricordava come si fosse trovata a seguire alcune catechesi e avesse fatto amicizia con fra Paolo Bergamaschi. Il quale, vista l’età e il carattere, non aveva esitato a invitarla per quella che da più di quarant’anni è un’occasione per tanti giovani tra i 18 e i 35 anni di arrivare nella cittadina umbra per il 2 agosto, ricorrenza della festa del Perdono di Assisi.
 

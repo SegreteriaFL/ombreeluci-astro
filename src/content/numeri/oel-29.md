@@ -1,15 +1,37 @@
 ---
 id: "OEL-29"
-title: "Numero 29 - Fratelli responsabili?"
+title: "Numero 29 – Fratelli responsabili?"
 tipo: "ombre-e-luci"
 numero: 29
-anno: "1990"
+sort_order: 128
+pubDate: "1990-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1990"
 sommario: "Numero interamente dedicato ai fratelli e sorelle delle persone con disabilità"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_29_1990.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_29"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-29-fratelli-responsabili/"
+articoli:
+  - "sentivo-crescere-la-mia-responsabilita"
+  - "ma-non-carichiamoli-di-un-peso-eccessivo"
+  - "radiografia-di-ombre-e-luci"
+  - "case-famiglia-iniziative-e-centri-di-accoglienza-per-disabili-1983-al-1989"
+  - "forse-e-per-mia-sorella-che-sono-cosi"
+  - "radiografia-di-ombre-e-luci"
+  - "bambini-autistici-scuola"
+  - "dialogo-aperto-n-29"
+  - "vita-fede-e-luce-n-29"
+  - "jean-vanier-un-profeta-del-nostro-tempo"
+  - "corso-per-corrispondenza-per-genitori-di-bambini-down"
+  - "ma-non-carichiamoli-di-un-peso-eccessivo"
+  - "forse-e-per-mia-sorella-che-sono-cosi"
+  - "case-famiglia-iniziative-e-centri-di-accoglienza-per-disabili-1983-al-1989"
+  - "sentivo-crescere-la-mia-responsabilita"
+  - "bambini-autistici-scuola"
+  - "dialogo-aperto-n-29"
+  - "corso-per-corrispondenza-per-genitori-di-bambini-down"
+  - "jean-vanier-un-profeta-del-nostro-tempo"
+  - "come-riconoscere-la-sordita-infantile"
 ---
 
 ## Indice

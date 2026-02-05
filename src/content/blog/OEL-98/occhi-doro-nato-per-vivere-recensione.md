@@ -4,8 +4,8 @@ date: 2007-06-03
 author: Anna Testa
 slug: occhi-doro-nato-per-vivere-recensione
 lang: it
-numero_rivista: 98
-id_numero: OEL-98
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-98"
 issue_number: OEL-98
 wp_id: 32537
 original_url: "https://www.ombreeluci.it/?p=32537"
@@ -15,7 +15,6 @@ umap_x: 6.99841833114624
 umap_y: 11.468228340148926
 umap_z: 5.397655010223389
 ---
-
 Questo libro è il diario di una “mamma speciale” che racconta, giorno per giorno, il lungo viaggio intrapreso insieme al figlio Nicola dal momento in cui si scopre che quest’ultimo ha la leucemia. Il giorno in cui ha iniziato il duro e doloroso viaggio della speranza verso la guarigione, ha deciso di mettere nero su bianco le palpitazioni del suo cuore.
 
 È riuscita molto bene a far rivivere tutte le emozioni che ti assalgono quando ricevi una notizia devastante che non ti saresti mai immaginata di sentirti dare. Ci si chiede perché proprio a mio figlio? È un bambino di appena un anno, ha tante cose da scoprire e da imparare!

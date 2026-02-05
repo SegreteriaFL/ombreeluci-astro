@@ -12,7 +12,8 @@ umap_x: 5.790616035461426
 umap_y: 8.662126541137695
 umap_z: 10.247589111328125
 issue_number: OEL-157
-id_numero: OEL-157
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
 «Era nel mondo degli odori che Flush passava la gran parte della vita. L’amore era soprattutto odore, la forma e il colore erano odore, la musica e l’architettura, il diritto, la politica e la scienza erano odore. Per lui anche la religione era odore». Con queste parole Virginia Woolf conclude la biografia del cane Flush. Era il 1933, non si trattava di un’esperta cinofila o veterinaria, eppure la scrittrice aveva colto qualcosa di eterno e profondo. **Questa capacità di relazionare contesti, odori, emozioni e il concretizzarsi poi in esperienza, in legame, in affettività** mi ha da sempre fatto sentire in grande empatia con il mondo “odoroso” dei cani, spontaneamente il mio.
 

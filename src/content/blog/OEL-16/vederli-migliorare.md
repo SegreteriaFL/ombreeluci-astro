@@ -17,8 +17,9 @@ umap_x: 8.112314224243164
 umap_y: 7.341335296630859
 umap_z: 8.456028938293457
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 *La fondatrice Carla Piccoli Dal Maso, insieme a Cristina Baso fisioterapista e a Laura Pettenò psicologa nel Centro, raccontano la storia e le caratteristiche della Cooperativa Intervento*
 Questa impresa nasce come volontariato negli anni ’70, fino a coinvolgere duecento ragazzi. Il movente generale è umano: aiutare questi bambini, vederli migliorare, vedere le famiglie riaprirsi. Ognuno poi ha la sua fede o il suo credo politico, ma questi non sono mai stati oggetto di discussione, e finora non è mai «andato via» nessuno. «Per me — dice Carla Piccoli — che sono mamma e nonna, un figlio è sempre un figlio, quale che sia la sua condizione. Credo che abbia in ogni caso diritto alla vita, a crescere in tutto quel che la vita gli ha dato. Rifiuto il “mollare”. Crediamo profondamente nel metodo che applichiamo, ci ha dato tanti risultati, spesso più di quelli che ci aspettassimo: è troppo importante per i bambini perché possiamo gestirlo con superficialità. Perciò lo difendiamo con le unghie e con i denti». Purtroppo — sottolineano — ci portiamo dietro il nome del metodo Doman, di «quelli delle dieci ore il giorno di lavoro». Il metodo Delacato invece è applicabilissimo come modi e tempi di lavoro. Alla nascita la cooperativa seguiva otto bambini. Il suo primo lavoro è stato portare nelle scuole quella parte del metodo che riguarda i problemi di apprendimento. La maggior difficoltà ci viene dalla incomprensione degli enti pubblici. Nessuno di noi, conoscendo fino in fondo i problemi di una famiglia toccata dall'handicap, può chiedere la somma che sarebbe logico chiedere. E pensare che con una convenzione come quelle fatte con un qualsiasi centro medico-psico-pedagogico, noi potremmo lavorare con tranquillità e con un così alto numero di bambini! Ma le difficoltà non hanno ridotto il nostro entusiasmo, anzi abbiamo voglia di ampliare, di conoscere sempre di più.
 **I nostri progetti e le speranze?**

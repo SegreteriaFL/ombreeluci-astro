@@ -12,8 +12,9 @@ umap_x: 8.6344633102417
 umap_y: 9.014349937438965
 umap_z: 3.2640764713287354
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 La lingua che apprendiamo da piccoli è definita lingua madre perché spesso, anche se non sempre, è la madre a tramandare il proprio linguaggio ai figli. La lingua madre dello scrittore Louis Wolfson è l’inglese: è nato a New York nel 1931. Eppure Wolfson ha pubblicato i suoi libri in francese e ne ha sempre impedito la traduzione in inglese.
 
 Da giovane gli fu diagnosticata una forma di schizofrenia che gli rendeva insopportabile ascoltare la voce e le parole della madre. Per adattarsi alla sua malattia, adattò innanzi tutto il suo linguaggio, attraverso un meccanismo molto sofisticato: studiò altre lingue per poter sostituire, nella sua testa, le parole inglesi che leggeva e ascoltava in parole simili scelte tra le altre lingue apprese. Questa strana bolla linguistica, portata avanti assieme a un fermo rifiuto nell’uso dell’inglese madrelingua, fu raccontata in un libro scritto in francese e pubblicato con un certo successo in Francia nel 1970, *Le Schizo et les langues* . Ma il successo non è mai stato un assillo o un obiettivo per Wolfson. Che fine abbia fatto oggi ce lo mostra Duccio Fabbri che dopo una lunga carriera come aiuto regista ha esordito nella regia con *Squizo* , in cui non solo prova a raccontare la vicenda umana dello scrittore, ma mette in scena anche la sua amicizia con lui; un rapporto che, dopo non pochi patemi, ha portato alla realizzazione del film.

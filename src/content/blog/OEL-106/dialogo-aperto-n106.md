@@ -12,7 +12,8 @@ umap_x: 5.191995620727539
 umap_y: 7.8166184425354
 umap_z: 10.905104637145996
 issue_number: OEL-106
-id_numero: OEL-106
+id_numero: "OEL-106"
+numero_rivista: "Ombre e Luci"
 ---
 ### Diversi modi di usare
 

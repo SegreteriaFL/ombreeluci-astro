@@ -12,8 +12,9 @@ umap_x: 7.454095363616943
 umap_y: 11.602300643920898
 umap_z: 5.308168411254883
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 D
 olore, rabbia, angoscia ma anche un po’ di calore. Sono diversi i sentimenti che provoca la lettura de
 *Il caso Potenzoni*

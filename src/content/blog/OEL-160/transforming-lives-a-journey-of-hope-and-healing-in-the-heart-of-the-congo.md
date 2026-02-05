@@ -18,8 +18,9 @@ umap_x: 7.047184467315674
 umap_y: 9.1314058303833
 umap_z: 8.962115287780762
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Belvanie once told me, “If you can't love me, no one else can”. It was a cold shower: it meant that what seemed to me to be small, insignificant things meant everything to her. Schooling and basic literacy took a back seat.
 **A 19-year-old girl with a significant cognitive disability made me understand that she had suffered something we are not allowed to know**
 , that she was stripping herself of every protective wall and that something more was needed. It is Emanuela Posa, 26 years old, who introduced us to Belvanie and, with her, the Democratic Republic of Congo (DRC), “still suffering from the terrible civil war that ended twenty years ago”. More than half the size of Europe, rich in raw materials and with an equatorial forest that is the second largest in the world,

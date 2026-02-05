@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 L'allungamento della vita media interessa positivamente le persone con disabilità intellettiva. Ma comporta anche, come per la popolazione generale, l’aumentata possibilità di un declino cognitivo patologico. **L’Anffas, nel suo ultimo convegno organizzato per la Giornata Internazionale delle persone con disabilità, il 3 dicembre, ha dedicato al tema uno dei sette workshop previsti.** Perché se già nella normalità di un invecchiamento alcune variabili possono fortemente incidere sulla qualità della vita, nella persona con disabilità la complessità aumenta notevolmente.
 

@@ -12,7 +12,8 @@ umap_x: 5.495957374572754
 umap_y: 8.946372032165527
 umap_z: 8.3936767578125
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 Mi chiamo Grazia Maria ho 77 anni e sto pensando ad **Alberto, il mio figlio speciale,** il mio bellissimo angelo che lo scorso aprile avrebbe compiuto 50 anni. Avrebbe, perché questo inverno è salito in Cielo.
 

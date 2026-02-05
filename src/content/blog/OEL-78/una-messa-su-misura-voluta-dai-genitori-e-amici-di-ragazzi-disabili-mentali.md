@@ -4,8 +4,8 @@ date: 2002-06-14
 author: Redazione
 slug: una-messa-su-misura-voluta-dai-genitori-e-amici-di-ragazzi-disabili-mentali
 lang: it
-numero_rivista: 78
-id_numero: OEL-78
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-78"
 issue_number: OEL-78
 wp_id: 24951
 original_url: "https://www.ombreeluci.it/?p=24951"
@@ -15,7 +15,6 @@ umap_x: 9.300341606140137
 umap_y: 10.284073829650879
 umap_z: 8.927872657775879
 ---
-
 Non ci conoscevamo ancora, ma condividevamo già il desiderio di dar vita ad un gruppo che potesse operare nelle nostre comunità accanto a coloro che sono segnati dall'handicap mentale. Le cose da fare, le idee, i progetti, non mancavano. Ma, siamo rimasti coi piedi per terra, fedeli al motto:
 
 > «Meglio una cosa fatta bene, che dieci fatte male!».

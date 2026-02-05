@@ -12,7 +12,8 @@ umap_x: 7.201087474822998
 umap_y: 11.159110069274902
 umap_z: 5.4958415031433105
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 Dopo aver letto su Ombre e Luci [l’articolo su Davide](https://www.ombreeluci.it/2000/rosamaria/) ho deciso di inviarvi questo mio libro. In esso narro la mia storia con mio figlio «diversamente abile» (dicono che ha un handicap grave). Per me questi ragazzi sono tutti **diversamente abili** e soprattutto quelli che sono più gravi, se li osserviamo, se gli stiamo vicino e se ascoltiamo le loro esigenze, anche quelle non dette, possiamo scoprire che hanno le abilità più grandi.
 

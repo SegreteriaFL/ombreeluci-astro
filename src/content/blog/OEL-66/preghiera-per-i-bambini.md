@@ -4,8 +4,8 @@ date: 1999-06-12
 author: Redazione
 slug: preghiera-per-i-bambini
 lang: it
-numero_rivista: 66
-id_numero: OEL-66
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-66"
 issue_number: OEL-66
 wp_id: 12830
 original_url: "https://www.ombreeluci.it/?p=12830"
@@ -17,7 +17,6 @@ umap_x: 5.212771892547607
 umap_y: 8.492796897888184
 umap_z: 9.231328010559082
 ---
-
 **Preghiamo per i bambini** che lasciano ditate di cioccolata, che adorano il solletico, che saltano nelle pozzanghere e rovinano i pantaloni nuovi, che rubano il lecca-lecca prima di cena, che fanno i buchi quando cancellano, che non trovano mai le scarpe.
 
 **E preghiamo per quelli** che fissano lo sguardo sul mondo da dietro il filo spinato, che non saltellano per la strada con le scarpe da ginnastica nuove, che non hanno imparato a contare i fagioli, che sono nati in luoghi dove non andremmo neppure morti, che non vanno mai al circo, che vivono in un mondo di ultima classe.

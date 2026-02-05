@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-115
-id_numero: OEL-115
+id_numero: "OEL-115"
+numero_rivista: "Ombre e Luci"
 ---
 Cari amici, Gesù è venuto a proporre un cammino di comunione e di pace ad un mondo attanagliato dalla rivalità e dalle divisioni, ad un mondo di odio e di guerra. Con la sua morte e resurrezione, è iniziato un piccolissimo sentiero di pace, offerto a qualche persona per annunciare che siamo chiamati all'amore e non alla rivalità e divisione. Sì, Dio vuol darci un'energia nuova, uno spirito nuovo, per rivelare l’amore.
 

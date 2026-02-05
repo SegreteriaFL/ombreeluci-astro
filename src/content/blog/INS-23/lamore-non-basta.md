@@ -12,8 +12,9 @@ umap_x: 5.854185104370117
 umap_y: 8.498169898986816
 umap_z: 8.16633415222168
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Inquesto numero parleremo insieme di quei bambini che, pur resi fragili da un handicap, sono capaci di esprimere in qualche modo la loro volontà. Per quanto piccola sia l'espressione di questa volontà, è doveroso riconoscerla e rispettarla
 
 **Di fronte a questi bambini si impone una domanda: è sufficiente amarli? ** Ci sembra di no; a meno che l'amore per loro già così vigilante e previdente da indurirci tutti - genitori, educatori, amici - a non perdere tempo prezioso nella presa di coscienza di chi è il bimbo da aiutare: non compatire, non piangere, non darsi per vinti, non confrontare sterilmente, non super-proteggere ma, con coraggio, con senso della realtà, intraprendere con l'aiuto di persone competenti il cammino con lui verso la sua più grande autonomia:

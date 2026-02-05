@@ -12,7 +12,8 @@ umap_x: 5.797060489654541
 umap_y: 8.193046569824219
 umap_z: 9.372570991516113
 issue_number: OEL-43
-id_numero: OEL-43
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
 L'
 autunno non è lontano. Guardiamo i bambini che nel nostro giardino si godono i pochi giorni che ancora restano delle vacanze estive. Nostra figlia Maria chiacchiera con degli amici. Il suo fratello gemello, Jimmy, si diverte moltissimo agli strilli delle ragazze quando scarta verso di loro con la sua bicicletta per poi rientrare sulla pista. Ci sentiamo appagati, come mai sei anni fa ci saremmo nemmeno sognati di poter essere. Adesso i bambini hanno otto anni. Maria frequenta la terza elementare e Jimmy è sempre più un ragazzino contento e responsabile. Nei primi quattro anni della sua vita era un bambino depresso e frustrato. Urla furiose, che talvolta duravano ore, interrompevano il suo silenzio altrimenti totale. Altri fatti di quegli anni: vetri rotti, oggetti scagliati all’improvviso; il fracasso continuo di pentole e coperchi; il letto scosso violentemente per tutta la notte; pannolini sporchi e biberon (non si riusciva a svezzarlo); oggetti che volavano sulle nostre teste; la tensione continua nel provare a vivere con quel bambino selvaggio, irraggiungibile e amatissimo, costituivano la sua vita di allora e la nostra con lui. Come siamo giunti a questo pomeriggio, felice e tranquillo? Guardando indietro, l'origine del cambiamento sembra essere stato il fatto che abbiamo imparato a tener testa al comportamento inaccettabile di Jimmy.

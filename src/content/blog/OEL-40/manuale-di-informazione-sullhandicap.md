@@ -12,8 +12,9 @@ umap_x: 7.885798454284668
 umap_y: 10.135494232177734
 umap_z: 6.250164985656738
 issue_number: OEL-40
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il volume è formato da dodici capitoli: i temi vanno dalla prevenzione al lavoro, all’assistenza, al trasporto, alle vacanze, ecc. Ogni capitolo presenta in breve il problema, la situazione attuale, le leggi interessate; offre i modelli di varie domande, indirizzi utili, normative, l’elenco delle associazioni di categoria ecc. Il tutto è presentato in maniera chiara e con illustrazioni utili e divertenti. Non risolve i problemi, ma offre elementi precisi e informazioni di base. Il manuale viene inviato gratuitamente a chi ne faccia richiesta. Scrivere al «Servizio di informazione al cittadino» - Dipartimento Informazione e Editoria - Presidenza del Consiglio - Via Po, 14 - 00198 Roma. Questo articolo è tratto da
 Ombre e Luci n.40, 1992
 

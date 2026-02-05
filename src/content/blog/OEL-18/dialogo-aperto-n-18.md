@@ -16,7 +16,8 @@ umap_x: 4.627068519592285
 umap_y: 8.381593704223633
 umap_z: 10.349104881286621
 issue_number: OEL-18
-id_numero: OEL-18
+id_numero: "OEL-18"
+numero_rivista: "Ombre e Luci"
 ---
 *"Abbiamo sempre fatto tutto da soli, io e mia moglie; non ci ha mai aiutato nessuno, non ci siamo mai arresi e ne abbiamo passate tante; non abbiamo mai scritto né parlato di questo con nessuno perché non ci serve la pietà e la curiosità della gente."*
 

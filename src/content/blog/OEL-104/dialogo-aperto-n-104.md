@@ -12,8 +12,9 @@ umap_x: 4.842953205108643
 umap_y: 8.411648750305176
 umap_z: 10.155537605285645
 issue_number: OEL-104
+id_numero: "OEL-104"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Andare a messa con mia figlia
 
 Le chiese della mia città sono accessibili alle carrozzelle, i sacerdoti sono sempre accoglienti eppure, tre volte su quattro, vado a messa senza Maria (mia figlia di 17 anni, plurihandicappata) mentre gli altri figli mi accompagnano). Questo semplicemente perché vivere con calma quell’ora è difficile: essere completamente presente a Maria perché stia calma; essere pronta in ogni momento a uscire con lei se si mette a urlare; che pazienza e dominio di sé bisogna avere per gestire tutto questo continuando a pregare! Anche se lo sguardo degli altri — dalla pietà all’ammirazione — è a volte pesante, quello che mi pesa è il mio stress. Eppure penso che sia importante per Maria essere presente, penso che abbia diritto a conoscere l’amore di Dio e questo avviene anche attraverso la sua presenza alla messa. Per fortuna abbiamo gli incontri mensili di Fede e Luce che terminano con una messa in parrocchia. I parrocchiani accettano la presenza della nostra comunità con più o meno entusiasmo, ma noi siamo portati dall’amicizia e dalla preghiera. Una volta all'anno invitiamo tutti i parrocchiani a una messa festiva che animiamo noi di Fede e Luce. Io ne resto sempre colpita profondamente e mi sento realmente accolta dalle persone che ci regalano la loro presenza.

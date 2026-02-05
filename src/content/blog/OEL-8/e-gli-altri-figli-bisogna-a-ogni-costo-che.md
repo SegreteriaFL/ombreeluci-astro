@@ -16,8 +16,9 @@ umap_x: 5.342729568481445
 umap_y: 10.383550643920898
 umap_z: 8.976324081420898
 issue_number: OEL-8
+id_numero: "OEL-8"
+numero_rivista: "Ombre e Luci"
 ---
-
 **Bisogna ad ogni costo evitare che**
 , ai fratelli e sorelle del bambino con handicap, la rivelazione della malattia sia fatta in modo maldestro - per non dire, cattivo - da un altro bambino. I genitori devono dire il nome della malattia, spiegarla con parole semplici, insistendo sul fatto che è nota, che i medici fanno quanto possono per curare il colpito e che si può aiutarlo. Se i bambini possono effettivamente aiutare molto un fratellino, semplicemente giocando con lui, cantando, parlandogli, bisogna
 **stare attenti a non chiedere loro troppo**

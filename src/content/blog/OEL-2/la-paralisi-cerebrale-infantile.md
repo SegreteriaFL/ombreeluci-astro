@@ -20,14 +20,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
 archive_id: OmbreELuci_002
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 periodo_label: Aprile, Maggio, Giugno
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 umap_x: 6.516210556030273
 umap_y: 9.897577285766602
 umap_z: 6.763551712036133
+id_numero: "OEL-2"
 ---
-
 La paralisi cerebrale infantile riguarda bambini, adolescenti o adulti colpiti da difficoltà o da impossibilità a eseguire movimenti volontari e/o mantenere le posizioni. Tali limitazioni risultano da una lesione cerebrale prodotta prima, durante, o poco dopo la nascita.
 > Le pagine che vi proponiamo sulla paralisi cerebrale infantile non hanno la pretesa di esaurire il vasto problema (medico, sociale, educativo) posto da tale grave handicap. Vogliono piuttosto aiutarci a schiudere la porta che ci separa dalle persone così spesso ingiustamente isolate da noi, perché tentiamo di penetrare con coraggio e senza sentimentalismi inutili nella loro vista.
 

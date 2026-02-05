@@ -12,7 +12,8 @@ umap_x: 8.544005393981934
 umap_y: 11.363402366638184
 umap_z: 6.756012439727783
 issue_number: OEL-148
-id_numero: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
 È
 il terzo libro per bambini firmato a quattro mani da Amy-Jill Levine e Sandy Eisenberg Sasso, scrittrici ebree statunitensi e grandi esperte di parabole (l’una è docente di Studi Neotestamentari, l’altra è rabbina emerita): con i disegni di Denise Turu, in

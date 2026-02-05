@@ -12,7 +12,8 @@ umap_x: 8.280905723571777
 umap_y: 6.17575740814209
 umap_z: 10.229715347290039
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 A luglio sono stato con gli amici
 

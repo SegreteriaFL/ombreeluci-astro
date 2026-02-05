@@ -12,7 +12,8 @@ umap_x: 8.161846160888672
 umap_y: 7.447092533111572
 umap_z: 8.931957244873047
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 Un piccolo gruppo ai ragazze, di cui due portatrici di handicap, hanno promosso, con l’incoraggiamento delle suore della Casa di Nazareth di Acerra, e in un locale della Casa messo a loro disposizione, un laboratorio di maglieria. L’orario di lavoro va dalle 9,30 alle 17,30. Alcune di loro si portano il pranzo da casa. Il lavoro è tanto: le ragazze sono ormai ben conosciute e molti si rivolgono a loro per la confezione di ogni tipo di abbigliamento. Sono amiche che hanno messo insieme le loro forze e le loro capacità. Nel guppo non c’è una responsabile: ognuna lavora per conto suo, ma insieme alle altre. Ringraziamo loro e le suore che le hanno incoraggiate e aiutate per l’esempio che ci danno di ua piccola comunità di lavoro, costruttiva e feconda. Ecco come una delle ragazze descrive l’inizio e l’atmosfera del laboratorio.
 Mi chiamo Piera, ho 38 anni. Sono affetta da tetraparesi spastica e lavoro in un piccolo laboratorio di maglieria nato circa undici anni fa dall’idea di suor Mariella, che ne ha proposto la realizzazione ad una mia amica e poi a me; e noi abbiamo aderito molto gioiosamente. In questi anni nel laboratorio si sono alternate diverse ragazze (mai più di 4) che hanno contribuito alla crescita interiore di ognuna di noi. Oggi siamo: Maddalena, Letizia, Claudia ed io. Ognuna di noi ha il suo compito ben preciso e nonostante i vari limiti si cerca sempre di portarlo avanti nel migliore dei modi. Lo scopo fondamentale di questo laboratorio è stato ed è, oltre al lavoro, l’accoglienza dell’altro e tra noi regna stima, rispetto, ma soprattutto amore, per cui posso dire che attualmente siamo una piccola comunità e così facendo speriamo di dimostrare che nonostante l’handicap possiamo condurre una vita normale. -

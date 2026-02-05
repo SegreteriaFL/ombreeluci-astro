@@ -14,8 +14,9 @@ umap_x: 8.708967208862305
 umap_y: 8.513572692871094
 umap_z: 13.068922996520996
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Ai cari handicappati di "Fede e Luce" riuniti a Lourdes, ai loro parenti e ai loro amici.
 
 Nel pensiero e nella preghiera, io mi unisco alla vostra grande riunione di pellegrini presso la grotta di Lourdes, in questi giorni che sono santi per tutta la Chiesa e che apportano a voi, nella via "via Crucis", una pace e una luce nuova.

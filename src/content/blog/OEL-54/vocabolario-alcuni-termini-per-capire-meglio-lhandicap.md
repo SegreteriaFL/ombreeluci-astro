@@ -4,8 +4,8 @@ date: 1996-06-14
 author: Redazione
 slug: vocabolario-alcuni-termini-per-capire-meglio-lhandicap
 lang: it
-numero_rivista: 54
-id_numero: OEL-54
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-54"
 issue_number: OEL-54
 wp_id: 10677
 original_url: "https://www.ombreeluci.it/?p=10677"
@@ -15,7 +15,6 @@ umap_x: 8.020581245422363
 umap_y: 9.008339881896973
 umap_z: 7.835647106170654
 ---
-
 In maniera schematica possiamo distinguere quattro tipi di handicap. Bisogna però stare attenti a non classificare le persone a partire da una «etichetta». Al di là delle parole ogni persona è un essere unico , con le sue ricchezze , la sua capacità di amare e di essere amato , di dare e di ricevere , qualsiasi sia la gravità del suo handicap.
 
 ### Malattie e handicap fisici

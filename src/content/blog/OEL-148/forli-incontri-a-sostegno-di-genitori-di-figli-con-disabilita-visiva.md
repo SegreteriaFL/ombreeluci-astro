@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Torna a Forlì l’appuntamento col ciclo di **incontri per genitori di figli con disabilità visiva. Il percorso di sostegno alla genitorialità è un progetto rivolto a tutte le famiglie del territorio, promosso e organizzato da**Uici (Unione Italiana dei Ciechi e degli Ipovedenti)** della sezione territoriale di Forlì e Cesena. Gli appuntamenti - previsti **dal 13 settembre al 6 dicembre** - si terranno nella sede di **Uici, in Piazzale della Vittoria 12. "*Obiettivo di questo progetto è offrire ai genitori uno spazio di dialogo e confronto in gruppo per favorire l’autonomia e la crescita armonica dei propri figli, e aumentare il benessere personale e familiare*", viene spiegato.
 
 A condurre gli incontri sarà **Sara Valerio**, psicologa-psicoterapeuta specializzata nell’area disabilità, sostegno alla genitorialità, esperta nella conduzione di interventi psicologici di gruppo. La dottoressa è aderente al coordinamento Emilia Romagna ed iscritta all’elenco nazionale degli psicologi formati nel progetto nazionale *Stessa strada per crescere insieme* (protocollo Uici e Cnop Consiglio Nazionale Ordine degli Psicologi) per il sostegno dei genitori di figli con disabilità visiva e pluridisabilità.

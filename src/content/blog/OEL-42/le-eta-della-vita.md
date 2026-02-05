@@ -12,7 +12,8 @@ tema_code: "T12"
 tema_label: "Progetto di vita, autonomia e dopo di noi"
 categoria_menu: "Diritti"
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 Romano Guardini, il noto sa¬ cerdote, teologo e scrittore tede¬ sco, titolare di cattedra universita¬ ria a Berlino, Tubinga e Monaco, scrisse questo libro a settantadue anni. Era stato perseguitato dai nazisti e costretto a interrompere l’insegnamento; dopo la guerra aveva ripreso la sua attività e la pubblicazione delle sue opere; ora, giunto alla vecchiaia, poteva guardare dietro di sè con distacco ed equilibrio e manifestare la qua¬ lità più bella e più desiderabile del¬ le persone anziane: la saggezza.
 Uomo di intensa ispirazione re¬ ligiosa, sempre intento a prospet¬ tare una concezione cattolica im¬ pegnata attivamente nelle proble¬ matiche del mondo moderno, in questo libro sembra voler dare il meglio della sua esperienza di vi¬ ta. Il suo pensiero e il suo stile so¬ no lucidi e chiari. La nostra im¬ pressione è che nulla vi sia di ec¬ cessivo o di mancante. Egli ci pro¬ pone l’osservazione delle qualità e del senso delle varie fasi della vita umana e ci presenta queste nella loro diversità, puntando lo sguar¬ do sul compito morale che è co¬ mune a tutte, la realizzazione del bene. «Ora, egli dice, il bene... non può venire realizzato in un modo qualsiasi, bensì ha bisogno di esplicitarsi e di determinarsi, e ciò avviene attraverso la situazio¬ ne concreta. Allora il bene com¬ pare nella sua particolare urgenza, così come lo si esige qui, ora, nel¬ le condizioni presenti, ed è un be¬ ne che possiamo conoscere, de¬ nominare, realizzare.»

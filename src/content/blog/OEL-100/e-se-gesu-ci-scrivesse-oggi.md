@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "e-se-gesu-ci-scrivesse-oggi"
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32858
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 ---
-
 Cari amici,
 Come voi sapete bene si avvicina la data del mio compleanno. Tutti gli anni c'è una grande festa in mio onore e penso che anche quest'anno non mancherà. In questo periodo tutti fanno shopping e comprano regali; la radio, la televisione, i grandi magazzini sono pieni di pubblicità e tutto questo cresce a dismisura, mentre il mio anniversario si avvicina.
 

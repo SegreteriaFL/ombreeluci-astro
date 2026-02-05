@@ -12,8 +12,9 @@ umap_x: 9.107251167297363
 umap_y: 8.208806991577148
 umap_z: 2.9862723350524902
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Appena qualche settimana prima dell’anteprima mondiale di *Houria* , film algerino scelto per il nuovo concorso Progressive Cinema della 17ª Festa del Cinema di Roma, Troy Kotsur ha annunciato di esserne diventato uno dei produttori esecutivi. Kotsur, vincitore di un Oscar per il suo ruolo di capofamiglia sordo in [*CODA*](https://www.ombreeluci.it/2021/coda-recensione/) , ha dichiarato che nell’opera seconda di Mounia Meddour ha riscontrato **una rappresentazione autentica e genuina dei sordi e in generale delle persone con disabilità.** Inoltre è rimasto colpito soprattutto da uno degli elementi più significativi della trama: la maniera in cui il linguaggio dei segni diventa uno strumento di espressione artistica.
 
 Houria è il nome della protagonista (Lyna Khoudri), giovane ballerina che una notte subisce un brutale tentativo di rapina: le conseguenze sono gravi per il suo corpo e la sua mente. Si frattura una caviglia e sebbene possa guarire, dovrà necessariamente rinunciare al sogno di una carriera da ballerina professionista; inoltre, a causa del trauma psicologico, smette di parlare. Durante la riabilitazione, conosce un gruppo di donne che, per vari motivi (autismo, traumi passati, problemi fisiologici), non parlano e comunicano tra loro con la lingua dei segni: anche Houria si lascerà includere, convinta dalla vitalità di un gruppo di persone che ha sofferto e soffre come lei ma ha trovato conforto nello stare insieme e nell’aiutarsi.

@@ -12,7 +12,8 @@ umap_x: 7.106570243835449
 umap_y: 7.952024936676025
 umap_z: 7.317087173461914
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 L'arteterapia è una disciplina che trova le sue radici già alla fine dell’ottocento con gli studi di diversi psichiatri che riconoscono, nelle produzioni artistiche spontanee dei pazienti ricoverati, un’eccezionale fonte di materiale diagnostico. E le esperienze sul campo di Friedl Dicker Brandeis (1898-1944), con i bambini del campo di transito di Terezin, e di Edith Kramer (1916-2014), nell’ambito del disagio psichico di bambini e adolescenti, dimostrano la valenza del processo creativo come strumento di acquisizione di consapevolezza di sé e delle proprie risorse. E di appropriazione di strumenti specifici per la trasformazione e lo sviluppo.
 

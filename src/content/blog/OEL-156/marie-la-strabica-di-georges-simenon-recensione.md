@@ -12,8 +12,9 @@ umap_x: 7.796509742736816
 umap_y: 11.198429107666016
 umap_z: 4.941418647766113
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Èuna ragazzina ebete Marie, secondo il mondo; brutta, timida, impaurita e con un difetto a un occhio. A scuola le compagne le dicono che ha il malocchio e le girano alla larga; da grande le cose migliorano un po’, si fa benvolere perché è una gran lavoratrice, ma si tratta dell’affetto che si vuole a chi parrebbe senza età, senza sesso, senza spessore.
 
 Invece la protagonista di *Marie la strabica* (Adelphi 2019, traduzione di Laura Frausin Guarino) – romanzo che Georges Simenon scrisse nel 1951, durante la lunga permanenza negli Stati Uniti – è una figura complessa. Marie che è arrendevole, ma quando da bambina il medico-macellaio (che già l’ha sfigurata) insiste per rioperarla di nuovo, si fa irremovibile; Marie che è capacissima di vedere il male, ma non sempre di valutarlo; che soffre per i tradimenti, ma non piange mai.

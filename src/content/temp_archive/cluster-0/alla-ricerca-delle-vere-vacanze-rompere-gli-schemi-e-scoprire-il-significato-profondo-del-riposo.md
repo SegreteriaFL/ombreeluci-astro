@@ -7,6 +7,7 @@ cluster_id: 0
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/cover-insieme-n-1.webp"
 slug: "alla-ricerca-delle-vere-vacanze-rompere-gli-schemi-e-scoprire-il-significato-profondo-del-riposo"
 has_comments: false
+id_numero: "INS-10"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

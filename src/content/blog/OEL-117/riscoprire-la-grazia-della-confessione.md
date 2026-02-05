@@ -12,7 +12,8 @@ umap_x: 9.53855037689209
 umap_y: 10.349737167358398
 umap_z: 9.250925064086914
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 **Un bambino-ragazzo con handicap mentale può avere il senso del perdono?** Alcuni sacerdoti e certi genitori non sostengono il sacramento della riconciliazione per un bambino con handicap mentale, perché pensano che non capisca. Mi piacerebbe rassicurarli: quel bambino è una persona; così come la dignità non è intaccata dall’handicap, la vita spirituale non è legata al livello di comprensione. Detto questo oserei dire che le persone che soffrono di un handicap mentale sanno chiedere e ricevere il perdono, meglio di noi. Le persone che accogliamo all’ Arca, corrono per venire a confessarsi. Alcune di loro mi abbracciano dopo aver ricevuto l’assoluzione: capiscono che in quanto prete, rappresento per loro la misericordia di Dio.
 

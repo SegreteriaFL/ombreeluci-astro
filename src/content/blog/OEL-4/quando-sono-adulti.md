@@ -17,8 +17,9 @@ umap_x: 5.8600239753723145
 umap_y: 10.153018951416016
 umap_z: 8.114686012268066
 issue_number: OEL-4
+id_numero: "OEL-4"
+numero_rivista: "Ombre e Luci"
 ---
-
 M
 i ha colpito spesso la tristezza di tanta gente normale. Un giorno, il signor
 *Normale*

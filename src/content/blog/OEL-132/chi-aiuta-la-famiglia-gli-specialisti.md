@@ -14,7 +14,8 @@ umap_x: 7.003108501434326
 umap_y: 7.950321197509766
 umap_z: 7.591131210327148
 issue_number: OEL-132
-id_numero: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
 **N.B.** : questo articolo risale al 1992. Tutte le informazioni riportate potrebbero essere non più valide.
 

@@ -12,7 +12,8 @@ umap_x: 8.126282691955566
 umap_y: 6.975588321685791
 umap_z: 11.903332710266113
 issue_number: OEL-148
-id_numero: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
 ### A tutto campo!
 

@@ -12,8 +12,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Partite le attività della **Colonia 2019 per persone con disabilità** del **Piano Sociale di Zona S3**, Eboli Comune capofila, in co-progettazione con l’**Associazione Pro Handicap Anche noi. Il tema di quest’anno è “**Sport – Natura – Cultura**” e si articolerà in 21 giorni di attività. Le attività della colonia marina, 9 giorni complessivi, si svolgeranno presso il lido “Mare per tutti” di Eboli e presso l’Hotel Sabbiadoro, in modalità residenziale.
 
 La prima parte delle attività della colonia montana ha previsto **dal 2 al 6 settembre**, delle escursioni presso Madonna di Avigliana e Casone della Cerreta, Oasi del WWF di Persano ed Ermice di Eboli.

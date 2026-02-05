@@ -1,15 +1,37 @@
 ---
 id: "OEL-8"
-title: "Numero 8 - Essere forti per loro"
+title: "Numero 8 – Essere forti per loro"
 tipo: "ombre-e-luci"
 numero: 8
-anno: "1984"
+sort_order: 107
+pubDate: "1984-03-01T00:00:00Z"
 data_pubblicazione: "marzo 1984"
 sommario: "In questo numero: Ritrovarsi genitori di un bambino con una disabilità: “… all’inizio non volevamo credere… La prima reazione è di non vedere questa realtà… Presto però bisogna affrontarla. E’ una rimessa in causa di se stessi, di tutta la scala dei valori che ci eravamo fissati, di tutti i piani stabiliti… Il nostro sconforto non colpisce noi, né voi, ma nostra figlia Caterina. Allora, bisogna reagire, bisogna essere forti per lei… Facciamo in modo che la nostra accettazione sia la vostra accettazione”."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_8_1984.jpg"
 link_sfoglia: ""
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-8-essere-forti-per-loro/"
+articoli:
+  - "ombre-e-luci-n-8-1984-sfogliabile"
+  - "ritrovarsi-genitore-di-un-bambino-handicappato"
+  - "essere-forti-per-lei"
+  - "ed-era-la-nostra-consolazione"
+  - "natale-del-mio-cuore"
+  - "so-quel-che-non-bisogna-fare"
+  - "e_gli_altri-_figli_consigli_per_-i_-genitori_di_bambino_disabile"
+  - "prima-che-sia-tardi"
+  - "dialogo-aperto-n-8"
+  - "vita-fede-e-luce-n-8-che-cosa-e-fede-e-luce"
+  - "quando-e-volontariato"
+  - "integrazione-a-scuola-una-verita-difficile-a-dirsi"
+  - "quel-lupo-dentro-noi"
+  - "un-uovo-due-uova"
+  - "li-fece-uomo-e-donna"
+  - "casa-jada"
+  - "il-nostro-cucciolo-di-due-metri-storia-di-un-adozione"
+  - "vita-fede-e-luce-n-7-il-convegno-interazionale"
+  - "dialogo-aperto-n-7"
+  - "classe-azzurro"
 ---
 
 ## Indice

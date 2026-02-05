@@ -15,8 +15,9 @@ umap_x: 5.690293788909912
 umap_y: 5.954793453216553
 umap_z: 12.333584785461426
 issue_number: OEL-116
+id_numero: "OEL-116"
+numero_rivista: "Ombre e Luci"
 ---
-
 “Carissimi, non obbedirei al mio dovere di vescovo se vi dicessi “Buon Natale” senza darvi disturbo. Io, invece, vi voglio infastidire. Non sopporto, infatti, l’idea di dover rivolgere auguri innocui, formali, imposti dalla routine di calendario. Mi lusinga addirittura l’ipotesi che qualcuno li respinga al mittente come indesiderati.
 
 Tanti auguri scomodi, allora, miei cari fratelli! Gesù che nasce per amore vi dia la nausea di una vita egoista, assurda, senza spinte verticali e vi conceda di inventarvi una vita carica di donazione, di preghiera, di silenzio, di coraggio. Il Bambino che dorme sulla paglia vi tolga il sonno e faccia sentire il guanciale del vostro letto dure come un macigno, finché non avrete dato ospitalità a uno sfrattato, a un marocchino, a un povero di passaggio.

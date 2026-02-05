@@ -15,8 +15,9 @@ umap_x: 5.697307109832764
 umap_y: 10.224335670471191
 umap_z: 7.933009147644043
 issue_number: OEL-40
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 V
 iviana nasce nel 1949, affetta da sindrome di Down. La famiglia, benestante, è composta da padre, madre e una sorella di 14 anni più grande. Al raggiungimento dell'età scolare l’istruzione di Viviana viene assicurata da una maestra specializzata , che la segue privatamente, in casa, avviandola verso la licenza media (che Viviana conseguirà però qualche anno più tardi). I suoi primi 20 anni li trascorre senza frequentare centri particolari, vivendo quasi esclusivamente con i suoi familiari. Dal 1969, quando Viviana ha 20 anni, viene inserita in un centro riabilitativo dell’ANFFAS, dove si trova ancora oggi.
 > «Ho tre case e sto bene con tutti, ho tanti amici e faccio tante cose!»

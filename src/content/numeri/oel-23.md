@@ -1,15 +1,38 @@
 ---
 id: "OEL-23"
-title: "Numero 23 - Pretendono un posto nella casa di Dio"
+title: "Numero 23 – Pretendono un posto nella casa di Dio"
 tipo: "ombre-e-luci"
 numero: 23
-anno: "1988"
+sort_order: 122
+pubDate: "1988-08-01T00:00:00Z"
 data_pubblicazione: "Agosto Settembre 1988"
 sommario: "Due sacerdoti, una mamma, una suora francescana. Sono loro le voci che chiedono un posto nella Chiesa per ciascun figlio di Dio, anche con disabilità, e che operano con fede per 'non tradire le attese di Dio e le speranze di chi varca la soglia' della Chiesa: la Buona Novella è per tutti!"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_23_1988.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN.23"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-23-pretendono-un-posto-nella-casa-dio/"
+articoli:
+  - "posto-mia-figlia-nella-chiesa"
+  - "cosa-puo-la-comunita-parrocchiale-le-persone-disabilita"
+  - "aspetto-ci-accorgessimo"
+  - "leducazione-religiosa-alla-fede-dei-nostri-figli-handicap-mentale"
+  - "come-fare-leducazione-religiosa"
+  - "farci-servizi-perche-alla-cresima-la-cugina-accattava-giovanni"
+  - "a-braccia-aperte"
+  - "diaologo-aperto-n-23"
+  - "vita-fede-luce-n-23"
+  - "leducazione-religiosa-degli-handicappati-mentali"
+  - "aspetto-ci-accorgessimo-2"
+  - "posto-mia-figlia-nella-chiesa"
+  - "farci-servizi-perche-alla-cresima-la-cugina-accattava-giovanni"
+  - "aspetto-ci-accorgessimo"
+  - "come-fare-leducazione-religiosa"
+  - "leducazione-religiosa-degli-handicappati-mentali"
+  - "a-braccia-aperte"
+  - "vita-fede-luce-n-23"
+  - "cosa-puo-la-comunita-parrocchiale-le-persone-disabilita"
+  - "leducazione-religiosa-alla-fede-dei-nostri-figli-handicap-mentale"
+  - "diaologo-aperto-n-23"
 ---
 
 ## Indice

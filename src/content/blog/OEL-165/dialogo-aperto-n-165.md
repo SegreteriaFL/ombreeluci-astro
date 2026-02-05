@@ -12,7 +12,8 @@ umap_x: 4.6963019371032715
 umap_y: 7.928998947143555
 umap_z: 10.753286361694336
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 ### Annamaria Mazzarotto
 

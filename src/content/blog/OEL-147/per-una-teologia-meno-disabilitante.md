@@ -12,7 +12,8 @@ umap_x: 9.02017879486084
 umap_y: 10.710808753967285
 umap_z: 8.324946403503418
 issue_number: OEL-147
-id_numero: OEL-147
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
 Cosa può rivelarci la disabilità su Dio e su noi stessi? È da questa domanda che può scaturire una teologia della disabilità. Una teologia che prende sul serio la disabilità come filtro interpretativo per capire meglio chi è la persona umana e chi è Dio. Se vogliamo esaminare la disabilità teologicamente, è importante anzitutto porsi la domanda filosofica di cosa sia la disabilità, realtà che molti danno per scontata ma che invece può venir concepita in svariati modi a seconda di diversi modelli interpretativi. Tra questi, la disabilità vista come patologia medica da curare (il modello medico); la disabilità come creazione sociale scaturita dall’insieme delle barriere socio-strutturali che disabilitano le persone con difficoltà (il modello sociale); la disabilità come identità culturale che accomuna un gruppo impegnato per la propria emancipazione (il modello della minoranza). Questi modelli possono aiutarci a esaminare la disabilità teologicamente incarnando le domande nei vari strati che compongono la disabilità, da quelli individuali a quelli collettivi. Possono anche creare diversi percorsi teologici.
 

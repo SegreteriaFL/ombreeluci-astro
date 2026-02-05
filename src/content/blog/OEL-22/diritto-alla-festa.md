@@ -16,7 +16,8 @@ umap_x: 7.250089645385742
 umap_y: 7.694833278656006
 umap_z: 12.02187728881836
 issue_number: OEL-22
-id_numero: OEL-22
+id_numero: "OEL-22"
+numero_rivista: "Ombre e Luci"
 ---
 «Mi piace stare insieme!» *.*
 

@@ -14,8 +14,9 @@ umap_x: 8.04045295715332
 umap_y: 7.028556823730469
 umap_z: 11.46685791015625
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 ## **Da cuneo**
 
 *Carissimi Mario e Betty,* *con un po' di ritardo rispondo alla vostra lettera, che, lo voglio dire subito, mi ha fatto un immenso piacere.* *Voi mi dite GRAZIE per quello che ho dato e ho fatto; ma tutto ciò che ho dato o ho fatto non è nulla in confronto a quello che il Signore mi ha dato attraverso voi e attraverso tutto il gruppo. * *Sono cambiate molte cose dopo il campeggio, in me: innanzi tutto vedo il gruppo sotto un altro punto di vista: ora non è più il "gruppo" ma sono gli amici con cui mi trovo il sabato. Ora Paola, Stefano, Maria-Rosa, Patrizio non sono i bambini che dovevo guardare, ma sono gli amici con cui scherzare, giocare, o parlare seriamente.* *Questo per me, vuol dire molto, perché ho sempre avuto pochi amici in vita mia.* *Quando sono entrata a Fede e Luce, poi, ero molto esaltata: vedevo tutto rose e fiori e cose del genere; in campeggio, mi sono accorta che ciascuno di noi ha i propri difetti e pregi, e lo stesso movimento ha difetti e difficoltà. Per questa ragione ora apprezzo finalmente quale è il gruppo, e per la prima volta dal novembre scorso, mi sento una vera componente del gruppo. * *Quando sono tornata dal campeggio mi sarei messa a piangere: dicevo al Signore che non era giusto e che non volevo tornare alla mia vita di ogni giorno. Poco a poco però ho capito quello che voleva dirmi: dovevo portare il messaggio di Fede e Luce nella mia vita di ogni giorno. * *Ecco è finito il mio discorso serio e concludo la mia lettera con un grosso saluto alla vostra "matta" famiglia.* *Ciao.*

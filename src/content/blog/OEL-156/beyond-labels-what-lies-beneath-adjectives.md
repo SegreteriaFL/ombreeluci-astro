@@ -18,8 +18,9 @@ umap_x: 7.517858028411865
 umap_y: 9.330747604370117
 umap_z: 8.60664176940918
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 What is beautiful? Who defines what is beautiful and what is ugly? “Beautiful” and “ugly” are qualifying adjectives, which add qualities to what is being described from the point of view of the observer,
 **exactly like “tall” or “short” depending on the perspective of the one who makes the judgment.**
 Being a woman with a disability is not easy, because you, too, are often a victim of double discrimination. On the one hand because you are a woman, and therefore subject to the differentiations that the feminist movements remind us with their important battles such as that against wage inequality, on the other hand because you are disabled and therefore

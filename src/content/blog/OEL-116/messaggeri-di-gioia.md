@@ -14,8 +14,9 @@ umap_x: 8.46374797821045
 umap_y: 8.686158180236816
 umap_z: 12.848644256591797
 issue_number: OEL-116
+id_numero: "OEL-116"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Tanta attesa, tanti incontri per preparare tutto e poi… quattro giorni vissuti davvero* *all’insegna della gioia: vera, palpabile, fatta di risate e sorrisi e mescolata talvolta alle lacrime. Il pellegrinaggio a Loreto è stato un momento molto ricco, forte. Restano nel cuore incontri, volti, piccole confidenze affidate in amicizia.* *È difficile dire a parole quanto abbiamo vissuto. Le foto e le frasi scritte da amici e genitori possono aiutare a cogliere qualche aspetto, ma solo il cuore può intuire cosa ha rappresentato questa esperienza vissuta quarant’anni dopo lo stupore di Lourdes 1971. Qualcosa di indimenticabile, qualcosa che porteremo sempre con noi. * **Angela**
 
 ### Scoprire le debolezze

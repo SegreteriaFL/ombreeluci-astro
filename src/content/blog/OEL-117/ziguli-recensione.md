@@ -12,7 +12,8 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 Ci concediamo uno strappo alla regola. Il libro lo impone. Lo abbiamo letto e per la sua recensione ognuno di noi ha detto la sua.
 

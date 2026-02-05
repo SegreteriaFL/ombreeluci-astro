@@ -11,8 +11,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Fa caldo, ma Jorit Ciro Cerullo, conosciuto più semplicemente come Jorit, continua a lavorare imperterrito. Dall’altissima impalcatura su cui si trova sta realizzando il suo ultimo murale, «la rappresentazione iconica – ci spiega in un secondo momento – dei velocisti statunitensi Tommie Smith e John Carlos che, nel 1968, sul podio dei Giochi Olimpici di Città del Messico, rivendicarono diritti sociali e politici, alzando il pugno chiuso al cielo». L’opera, completata in soli tre giorni, s’intitola 19,83 (chiaro riferimento al tempo record segnato da Smith durante la gara) ed è dipinta, con bomboletta spray alla mano, sulla facciata del palazzetto dello sport di un quartiere popolare di Rende, il piccolo centro calabrese che ha inserito la performance da vivo dell’artista di strada napoletano nel cartellone della manifestazione culturale “Settembre Rendese”.
 
 Quando Jorit, insieme agli aiutanti e colleghi Geremy e Salvatore, interrompe il suo lavoro per fare pausa pranzo è l’una passata. Il più quotato tra gli artisti italiani specializzati in arte urbana torna così a terra, saluta da lontano i fan curiosi e si siede sotto l’ombra di un grande pino. Noi siamo qui a disturbarlo perché, tra tutte, c’è una domanda che ci assilla. Ci chiediamo, insomma, perché, tra le sue opere dal profondo realismo, tra cui i ritratti di uomini e donne che hanno fatto la storia, lanciando messaggi sociali importantissimi, come Martin Luther King, Rosa Parks, Angela Davis e tantissimi altri ancora, ci sia anche quella di Niccolò, che è un bambino con autismo. Un bambino e basta.

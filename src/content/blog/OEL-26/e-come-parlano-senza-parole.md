@@ -14,7 +14,8 @@ umap_x: 8.899600982666016
 umap_y: 8.011917114257812
 umap_z: 9.436749458312988
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 Lo scorso aprile, su un palco approntato davanti l’altare maggiore della basilica di Sant’Antonio di Padova, una trentina di giovani minorati mentali, con alcuni assistenti, dell’Opera Francescana Charitas di Vicenza, hanno rappresentato «Chiara e Francesco». Guardando la rappresentazione che mi prendeva sempre più di scena in scena — e insieme a me anche il migliaio di persone che riempiva la chiesa restando in silenzio assoluto nelle scene ed esplodendo in applauso alla fine di ognuna — mi riempiva la mente la meravigliosa illogicità di quell’avvenimento. Quei giovani sul palco, senza o con poca parola, con i movimenti e gli atteggiamenti raccontavano, predicavano, e convincevano, tutte quelle persone in possesso di tutte le facoltà. E questo nel tempio del santo passato alla storia come grande sapiente e oratore che intere città venivano ad ascoltare: dote questa simboleggiata dalla reliquia della lingua conservata incorrotta a pochi metri da dove quei ragazzi senza parola, parlavano. Con che attenzione la gente seguiva il «discorso» del giovane «down» che rappresentava danzando la chiamata di San Francesco! Come erano tutti incantati dalla danza di Federica, con un ritardo mentale, che raccontava con il suo corpo la chiamata di Santa Chiara, con la controdanza della sua ombra proiettata sul sole luminoso che le faceva da sfondo! Quanto angosciosa era la danza di Francesco impaniato in una griglia di nastri, per dire il suo tormento interiore.
 

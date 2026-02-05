@@ -16,7 +16,8 @@ umap_x: 4.989272117614746
 umap_y: 8.801318168640137
 umap_z: 7.6965532302856445
 issue_number: OEL-139
-id_numero: OEL-139
+id_numero: "OEL-139"
+numero_rivista: "Ombre e Luci"
 ---
 S
 ono una mamma lavoratrice fiera di avere un lavoro e fiera soprattutto di essere una mamma, la mamma di due ragazzi Stefano ed Edoardo che ogni giorno mi fanno sentire quale è la missione per cui sono stata scelta. Accompagnavo Stefano all’asilo il giorno del suo terzo compleanno, avevo preparato la torta e le candeline per la festa con i suoi compagni quando si sono rotte le acque… Ma era troppo presto, mancavano ancora più di 14 settimane alla data presunta della nascita del suo fratellino…Non avremmo dovuto aspettare così a lungo per accoglierlo tra noi.

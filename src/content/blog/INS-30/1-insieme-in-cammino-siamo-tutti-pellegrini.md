@@ -14,8 +14,9 @@ umap_x: 9.381109237670898
 umap_y: 7.992835998535156
 umap_z: 13.358545303344727
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Novembre 1979
 
 Il pellegrinaggio non è solamente il fatto di un momento. Presuppone una lunga preparazione e avrà effetto anche dopo, nella vita di tutti i giorni. Molto prima di prendere la strada o il treno, ciascuno avrà fatto un primo passo, quello che consiste nel lasciare il piccolo universo delle sue piccole abitudini. Per partire ci si deve liberare di ciò che ci impedisce di andare avanti.

@@ -12,7 +12,8 @@ umap_x: 4.669229507446289
 umap_y: 7.920254707336426
 umap_z: 10.472049713134766
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 ### Noi operatori
 

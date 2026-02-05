@@ -14,7 +14,8 @@ umap_x: 9.109724044799805
 umap_y: 8.239954948425293
 umap_z: 12.180560111999512
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Ho partecipato, con mia figlia Benedetta e mio marito, al pellegrinaggio Roma-Assisi. Dalla nostra comunità eravamo più di venti pellegrini. Sono partita con entusiasmo e l’aspettativa di tornare sentendomi ancora più appartenente alla realtà di
 *Fede e Luce*

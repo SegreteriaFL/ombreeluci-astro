@@ -12,8 +12,9 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 È uno dei primi volumi della «**Biblioteca della Solidarietà**» che le edizioni Piemme hanno iniziato a pubblicare in collaborazione con la Caritas Italiana. La collana, composta da 37 volumi, sarà completata nel corso dei prossimi mesi. L’autore di «Volontariato» è un sacerdote, parroco di Larino (CB) e direttore della Caritas Diocesana. Da anni è impegnato in ricerche ed esperienze nel mondo del volontariato italiano. In questo libro egli punta lo sguardo su questa realtà complessa e variegata per riflettervi in profondità e per coglierne gli elementi essenziali. Ecco come egli delinea le tappe principali del suo lavoro:
 
 - che cosa è il volontariato: il tentativo di ritrovare un denominatore comune tra le varie definizioni che finora sono state elaborate;

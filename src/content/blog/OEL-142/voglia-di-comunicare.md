@@ -15,7 +15,8 @@ umap_x: 5.888636589050293
 umap_y: 8.869571685791016
 umap_z: 7.652928829193115
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 G
 ianluca è un ragazzo di 24 anni, udente e con un ritardo cognitivo, a quattro mesi gli hanno diagnosticato una sindrome di West ovvero delle piccole crisi di tipo epilettico che gli hanno causato un danno cerebrale principalmente nella parte del linguaggio (area di brocca) e dello sviluppo cognitivo (lobo frontale) con una prognosi di incapacità a comprendere e ad esprimersi in qualsiasi lingua. All’epoca vivevamo in Belgio e

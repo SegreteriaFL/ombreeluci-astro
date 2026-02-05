@@ -12,8 +12,9 @@ umap_x: 6.939059257507324
 umap_y: 8.924799919128418
 umap_z: 11.766432762145996
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Voglio condividere con voi un percorso lungo, la gioia e le emozioni di una giornata speciale in cui **mia figlia Adea ha ricevuto il sacramento della Cresima** nella cattedrale di San Paolo a Tirana.
 
 Adea Maria è nata il 19 febbraio del 1994 a Bilisht Kora; dalla maternità uscimmo senza avere un’idea chiara sull’andamento della bambina: non prendeva il latte, stava quasi sempre addormentata ed eravamo preoccupati per il parto prematuro. **Mentre cresceva si vedeva che lo sviluppo non era normale.** Abbiamo cominciato a fare visite, una dopo l’altra. Adea aveva un difetto nel tratto urinario e poi scoprimmo che aveva un rene più piccolo che non funzionava. Ci rimanemmo male, però dovevamo andare avanti. Quando la bambina compì due anni la dottoressa ci disse, dispiaciuta, che Adea aveva anche problemi dello sviluppo mentale: dovevamo andare da uno specialista. **In quel momento sentii tremare le gambe, era terribile sentirlo… cosa fare!?!** Era la prima persona che me lo diceva ma dovevo essere forte e andare avanti. Io e mio marito dovemmo affrontare tutto ciò che la vita ci proponeva. A quasi tre anni lo psichiatra diagnosticò ad Adea un ritardo mentale medio (a quel tempo il termine “autismo” non esisteva in Albania).

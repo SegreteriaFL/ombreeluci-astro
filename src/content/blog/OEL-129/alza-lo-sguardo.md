@@ -14,7 +14,8 @@ umap_x: 6.99943733215332
 umap_y: 9.187546730041504
 umap_z: 12.026543617248535
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 Spesso si dice “il vero valore di ciò che si ha lo si capisce nel momento in cui lo si perde”. Nella mia vita fortunatamente non è così: ho imparato, e ogni giorno devo ri-imparare, a riconoscere il valore di quello che mi è dato e chiedo che ogni giorno mi sia ridonato: Beniamino, un regalo immenso che ci è stato messo a fianco e che non può fare altro che sconvolgere positivamente e totalmente la nostra vita.
 

@@ -14,7 +14,8 @@ umap_x: 4.800386905670166
 umap_y: 6.65341854095459
 umap_z: 9.736422538757324
 issue_number: OEL-29
-id_numero: OEL-29
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
 ### La vostra opinione
 

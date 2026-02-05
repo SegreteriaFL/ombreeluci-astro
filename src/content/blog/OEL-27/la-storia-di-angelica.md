@@ -15,7 +15,8 @@ umap_x: 5.948850631713867
 umap_y: 9.157748222351074
 umap_z: 7.972168922424316
 issue_number: OEL-27
-id_numero: OEL-27
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
 Quando 13 anni fa Angelica, al suo secondo giorno di vita, fu colpita da setticemia neonatale cytomegalovirus, i dottori del reparto pensavano che non avrebbe potuto superare la notte. La calma con cui abbiamo affrontato quei momenti fu dovuta proprio alla grazia di Dio e alla solidarietà di tutti i fratelli del nostro gruppo di preghiera che pregarono per una notte intera per la salvezza della bimba. Decidemmo di farla battezzare subito. Il sacramento le venne somministrato dall’infermiera dentro l’incubatrice del reparto neonatale di terapia intensiva. Il giorno dopo, con grande gioia di tutti noi, la crisi acuta era superata e la bimba continuò a migliorare fino ad essere dimessa dopo venti giorni. Oggi è una ragazzina intelligente, simpatica, felice di vivere, anche se è rimasta sorda. Conduce una vita familiare normale e completa, ha stabilito con i fratelli maggiori (Veronica di 18 e Leonardo di 21 anni) un rapporto pieno di amore e di fiducia. I nostri figli infatti sono stati i primi e più importanti collaboratori, pazienti e soprattutto stimolanti nella lunga faticosa e a volte estenuante opera di rieducazione della parola fin dai primissimi anni di vita. Essi sono i suoi amici più cari, i suoi confidenti e compagni di gioco di sempre. Di tutto questo ringraziamo il Signore che ci ha consentito di affrontare volta per volta le varie difficoltà con serenità, e che ci conduce per mano in un cammino con momenti di buio e di luce, prendendo con calma decisioni importanti per la sua vita.
 

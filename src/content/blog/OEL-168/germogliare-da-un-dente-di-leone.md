@@ -12,8 +12,9 @@ umap_x: 7.921254634857178
 umap_y: 7.7587666511535645
 umap_z: 8.287027359008789
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nel corso di una riunione, Simona Zerilli, la mia responsabile, accenna a *Dandelion* , **un nuovo programma di assunzioni in DXC Technology** (l’azienda per cui lavoro) rivolto a persone nello spettro autistico. Visti i molti anni passati a Fede e Luce e i tanti amici che il movimento mi ha fatto incontrare, drizzo subito le orecchie: potrebbe essere una cosa interessante cui contribuire grazie alla mia esperienza. Chiamo Marco, il responsabile di *Dandelion* , e chiedo chiarimenti. Non faccio in tempo a finire la frase che mi dice «Vuoi partecipare anche tu? Facciamo insieme questa cosa?». Conosco Marco da un po’ di anni, è una persona sensibile e capace, in momenti lavorativi difficili mi è stato vicino, quindi accetto volentieri la proposta.
 
 Nato in Australia, dal 2014 *Dandelion* è operativo in diversi Paesi (Regno Unito, Polonia, Bulgaria e Filippine), e si sta operando per attivarlo anche negli Stati Uniti, Arabia Saudita e Vietnam. **Suo principale scopo è creare un ambiente lavorativo che consenta alle persone neurodivergenti di impiegare le loro peculiarità e potenzialità al servizio di un’azienda che offre servizi nell’ *Information Technology*** , per attività di testing e sviluppo software, acquisendo le competenze necessarie, crescendo così come dipendenti e come individui. Per le persone neurodivergenti, *Dandelion* di DXC è un’opportunità di sviluppo di competenze tecniche per ottenere un impiego lavorativo significativo a lungo termine in ambiente IT. Per le organizzazioni, invece, è un’opportunità per assicurarsi le capacità uniche che spesso si associano alla neurodiversità, come quelle del pensiero visuale, il conforto di attività di routine pianificate, l’accuratezza, l’onestà, la forte attenzione al dettaglio e la capacità di identificare errori, tutte caratteristiche di valore nel mondo dell’informatica.

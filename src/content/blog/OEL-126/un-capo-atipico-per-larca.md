@@ -14,7 +14,8 @@ umap_x: 8.406874656677246
 umap_y: 8.512482643127441
 umap_z: 10.861323356628418
 issue_number: OEL-126
-id_numero: OEL-126
+id_numero: "OEL-126"
+numero_rivista: "Ombre e Luci"
 ---
 Il
 passo svelto, lo sguardo penetrante, il tu immediato, Stephan Posner ci accoglie tra le pareti ovattate degli uffici parigini dell’Arca, al primo piano di una residenza del quindicesimo distretto. “Vuoi che ti racconti il mio itinerario? Sono arrivato all’Arca trent’anni fa, un po’ per caso”, piace ricordare a colui che dal 2011, dirige la federazione dell’Arca in Francia (31 comunità, 1200 persone accolte). A vent’anni, obiettore di coscienza, ha effettuato un tirocinio all’Arca di Lanzo di Vasto, una comunità rurale ispirata da Gandhi e dalla non violenza, quando un membro lo incita, di fronte alla sua scarsa voglia di lavorare il legno, a raggiungere l’altra Arca, quella di Jean Vanier…Il giovane atterra a Trosly-Breuil, quindi si inserisce nella comunità di Parigi. “Non avevo alcuna conoscenza delle persone con handicap, né delle comunità cristiane, ricorda questo ebreo impegnato. “Veramente non avevo idea… Per i due anni e mezzo in cui vive a tempo pieno nella comunità, confessa di aver vissuto “un’esperienza forte di relazione”, e scopre “un filo che valeva la pena di tirare”. A contatto con le persone con handicap non so se sono rimasto più colpito dalle differenze o dalle somiglianze…Può darsi per un insieme assai raro di entrambe!”. Confida quest’uomo acuto, che usa con facilità il paradosso.”Ho fatto esperienza di gioia là dove mai me lo sarei aspettato!” Dopo questa esperienza, rientra nell’impresa familiare, poi mette su famiglia - ha quattro ragazzi grandi e da allora resta membro amico della comunità.

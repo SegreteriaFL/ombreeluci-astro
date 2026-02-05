@@ -12,7 +12,8 @@ umap_x: 8.017467498779297
 umap_y: 10.588706016540527
 umap_z: 5.709768772125244
 issue_number: OEL-157
-id_numero: OEL-157
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
 Unlibro per far luce su tutti quei movimenti che, nel nostro Paese a partire dal 1968, rivendicano diritti fondamentali per le persone con disabilità. Come a dire che l’anno delle “rivoluzioni” non ha come protagonisti solo gli studenti o la classe operaia, ma pure **coloro che scendono in piazza per ottenere leggi a favore dei più fragili** , per portare a galla le condizioni in cui molti vivono (un esempio è quello delle barriere architettoniche) e, ancora, per scardinare gli atteggiamenti paternalistici che la società spesso adotta proprio nei confronti del mondo delle disabilità.
 

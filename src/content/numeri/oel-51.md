@@ -1,15 +1,41 @@
 ---
 id: "OEL-51"
-title: "Numero 51 - Liberarsi dalla depressione"
+title: "Numero 51 – Liberarsi dalla depressione"
 tipo: "ombre-e-luci"
 numero: 51
-anno: "1995"
+sort_order: 150
+pubDate: "1995-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 1995"
 sommario: "Numero 51 – Liberarsi dalla depressione ultima modifica: 1995-09-12T10:14:12+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_51_1995.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_51"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-51-liberarsi-dalla-depressione/"
+articoli:
+  - "cinque-pani-e-due-pesci"
+  - "depressione-chi-mi-libera"
+  - "gioco-educativo-per-tutti-pensiamo-le-risposte"
+  - "per-vivere-bene-con-le-persone-anziane"
+  - "sport-e-musica-per-crescere"
+  - "le-case-famiglia-gli-istituti-i-centri-esaminati-da-ombre-e-luci"
+  - "dialogo-aperto-n-51"
+  - "essere-adulti-essere-handicappati"
+  - "diversi-da-chi-normali-vite-con-handicap"
+  - "larte-di-costruire-giocattoli-creativi"
+  - "tenere-la-porta-aperta"
+  - "perche-ho-dato-una-mano"
+  - "festa-in-casa-con-lui"
+  - "tutto-quello-che-ha-fatto-per-noi"
+  - "prepariamolo-vivere-con-gli-altri"
+  - "lo-zio-jurgens"
+  - "ora-che-sono-sola-non-sono-piu-sola"
+  - "vederli-migliorare"
+  - "convento-una-seconda-famiglia-per-giampiero"
+  - "vivere-lultimo-istante"
+  - "quando-arrivano-fatti-coraggio"
+  - "come-i-cerchi-nellacqua"
+  - "vita-fede-luce-n-16-corso-formazione-ilkley"
+  - "dialogo-aperto-n-16"
 ---
 
 ## Indice

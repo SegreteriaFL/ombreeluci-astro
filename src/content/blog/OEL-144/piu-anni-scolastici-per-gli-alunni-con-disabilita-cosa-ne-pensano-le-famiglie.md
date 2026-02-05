@@ -11,8 +11,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Già negli anni ’70 il ministero dell’istruzione aveva stabilito che i bambini con disabilità devono essere iscritti alla Scuola dell’Infanzia a 3 anni e alla Scuola Primaria a 6 anni. Da allora, tutte le norme di riferimento hanno promosso politiche orientate alla *frequentazione dei pari*, limitando i trattenimenti nei diversi gradi solo a situazioni definite *eccezionali*. Questa tendenza non ha riguardato solo gli alunni con disabilità, ma tutti i bambini ed **oggi le situazioni in cui si decide una bocciatura sono diventate rare**, non solo nella Scuola dell’Infanzia, ma anche nella Primaria e in tutto il primo grado.
 
 Tuttavia, non sempre le famiglie dei bambini con disabilità sono sostenitrici di questo orientamento e non sono rari i casi in cui chiedano che i loro bambini vengano trattenuti un anno in più, soprattutto alla scuola dell’infanzia. Più in generale, i pareri dei genitori in merito appaiono piuttosto divisi e tendenzialmente orientati a scelte diverse in base alle specifiche situazioni riguardanti i singoli bambini.

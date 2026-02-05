@@ -4,8 +4,8 @@ date: 1996-09-22
 author: Henri Bissonier
 slug: prigioniero-di-me-stesso-viaggio-dentro-lautismo
 lang: it
-numero_rivista: 55
-id_numero: OEL-55
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-55"
 issue_number: OEL-55
 wp_id: 10830
 original_url: "https://www.ombreeluci.it/?p=10830"
@@ -15,7 +15,6 @@ umap_x: 7.079360485076904
 umap_y: 10.516942977905273
 umap_z: 4.612154483795166
 ---
-
 Michael Klonovshy è un giornalista che si trova, da un giorno all'altro, di fronte alla realtà di ciò che viene chiamato «autismo». Egli stesso ci dice, con semplicità, che quando ha incontrato Birger Sellin su tale argomento aveva tutto da imparare. Il giovane, dopo 17 anni di mutismo patologico, aveva suscitato la meraviglia di chi gli era vicino: grazie ad una nuova tecnica, la comunicazione facilitata, aveva rivelato la ricchezza del suo mondo interiore, delle sue conoscenze, della sua cultura. In una lunga introduzione Klonovsky, in maniera semplificata, ci parla di questa nuova tecnica, dell'autismo, delle sue manifestazioni, delle sue cause. Ma è tutta la storia di Birger Sellin che viene fuori nel suo insieme. Questo libro parla di lui anche attraverso i suoi «messaggi»: essi ci colpiscono per la loro profondità anche se a volte manifestano una certa incoerenza. I riferimenti di Birger alla dimensione religiosa sono rari. Eppure abbiamo saputo che la sua mamma è catechista. È vero che Michael Klonovsky dice di aver fatto una selezione fra gli scritti del giovane. Ci sembra in ogni caso che questo libro meriti la nostra attenzione.
 
 **Henri Bissonier**

@@ -4,8 +4,8 @@ date: 1999-12-17
 author: Sergio De Rino
 slug: io-prete-ho-adottato-valentino
 lang: it
-numero_rivista: 68
-id_numero: OEL-68
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-68"
 issue_number: OEL-68
 wp_id: 13034
 original_url: "https://www.ombreeluci.it/?p=13034"
@@ -18,7 +18,6 @@ umap_x: 4.551385402679443
 umap_y: 10.210602760314941
 umap_z: 7.707730770111084
 ---
-
 Cappellano del carcere minorile "Beccaria " di Milano e fondatore di "Comunità Nuova". In questi giorni si è parlato molto di lui perché ha ottenuto dai suoi superiori l’autorizzazione ad adottare il giovane Valentino, padre del piccolo Christian. E diventato così nello stesso momento padre e nonno.
 
 Grazie a Giuliana Compagnoni, da tempo amica attiva di Fede e Luce e segretaria della Fondazione che sostiene la "Comunità Nuova", ho incontrato Don Gino presso la sede della sua comunità: si tratta di pochi locali siti in un condominio popolare all’estrema periferia della città. Fra una telefonata e l’altra, spesso avvicinato dagli operatori della comunità con urgenti problemi da sottoporgli, raccolgo le risposte, date con sorridente affabilità, alle domande di "Ombre e Luci".

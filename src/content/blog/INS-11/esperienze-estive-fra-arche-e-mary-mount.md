@@ -15,8 +15,9 @@ umap_x: 8.276041984558105
 umap_y: 7.664312839508057
 umap_z: 10.983848571777344
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 ### L'Arche
 
 Alcune di noi questa estate sono andate all'"Arche" di Jean Vanier. Marina Blasotti, Maria Grazia Pennisi e Cecilia Baldi per 10 giorni hanno condiviso la vita di uno dei 7 "Foyer" di Trosly.

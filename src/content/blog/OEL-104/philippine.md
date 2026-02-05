@@ -12,7 +12,8 @@ umap_x: 5.752638816833496
 umap_y: 6.092914581298828
 umap_z: 12.271489143371582
 issue_number: OEL-104
-id_numero: OEL-104
+id_numero: "OEL-104"
+numero_rivista: "Ombre e Luci"
 ---
 Il Natale, come ogni anno, ci propone una riflessione sulla nascita di Gesù e sull’accoglienza che gli fecero i suoi genitori, gli angeli, i pastori, i Magi e via via gli uomini nel corso dei secoli. Natale è sempre attesa, accoglienza, dono.
 

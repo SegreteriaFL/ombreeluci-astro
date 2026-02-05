@@ -7,6 +7,7 @@ cluster_id: 12
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_74_2001.jpg"
 slug: "cooperativa-sociale"
 has_comments: false
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

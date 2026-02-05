@@ -4,8 +4,8 @@ date: 1999-12-18
 author: Mariangela Bertolini
 slug: se-qualcuno-bussa
 lang: it
-numero_rivista: 68
-id_numero: OEL-68
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-68"
 issue_number: OEL-68
 wp_id: 13049
 original_url: "https://www.ombreeluci.it/?p=13049"
@@ -15,7 +15,6 @@ umap_x: 6.8188371658325195
 umap_y: 7.839343547821045
 umap_z: 9.65385913848877
 ---
-
 "Sono Roberto, sono venuto a mangiare a casa tua! È domenica, ora di pranzo. La tavola è già apparecchiata. Oltre ai miei sono previsti quattro ospiti. Roberto è giù al portone e aspetta la mia risposta. Mi prende sempre alla sprovvista. Ho un bel dirgli che mi deve avvisare prima di venire. Roberto è un amico, lo conosco da vent anni: ha un lieve ritardo mentale. Abita qui vicino in una casa alloggio. Ha una certa libertà di movimento, una gran semplicità di cuore, non conosce le convenzioni: per lui, venire a mangiare da noi, è un regalo che ci fa, una sorpresa. Provo a dirgli: "Roberto, ho gente oggi..." il suo silenzio mi disarma. "Va bene, sali". Entra, saluta tutti come suoi amici, si siede a tavola senza alcun imbarazzo, felice di essere tra noi.
 
 "Posso fare tappa a casa vostra?" ho chiesto molti anni fa a don Francesco che abitava a Parma con la vecchia mamma e due sorelle.

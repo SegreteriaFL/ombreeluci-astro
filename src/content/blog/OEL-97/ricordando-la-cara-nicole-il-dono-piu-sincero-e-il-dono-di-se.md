@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "ricordando-la-cara-nicole-il-dono-piu-sincero-e-il-dono-di-se"
 lang: it
-numero_rivista: 97
-id_numero: OEL-97
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-97"
 issue_number: OEL-97
 wp_id: 32391
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 “Quando si è giovani, abbattuti e scoraggiati dal dolore per l’esperienza di un primo figlio disabile, solo un angelo è in grado di farti ritrovare la forza per affrontare con coraggio i giorni a venire. Nicole per noi è stata quell’angelo che ci ha aiutati e consigliati animata da un’amorevole dedizione ai bambini portatori di handicap.”
 Irene e Vincenzo
 

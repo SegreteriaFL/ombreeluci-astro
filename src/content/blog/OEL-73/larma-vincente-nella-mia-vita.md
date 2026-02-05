@@ -16,7 +16,8 @@ umap_x: 7.3339643478393555
 umap_y: 9.137372970581055
 umap_z: 11.957136154174805
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 In occasione del Giubileo del 1975, venticinque anni fa, feci il primo passo nel volontariato. Avevo quindici anni, andavo al liceo, facevo una vita normalissima come tante altre ragazze della mia età e non avrei mai pensato che quella Messa in Vaticano sarebbe stata l’inizio di una grande «avventura», la scintilla che doveva illuminare il mio cammino in tutti gli anni successivi.
 

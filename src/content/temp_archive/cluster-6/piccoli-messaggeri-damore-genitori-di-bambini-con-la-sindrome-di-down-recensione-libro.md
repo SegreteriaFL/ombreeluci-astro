@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "piccoli-messaggeri-damore-genitori-di-bambini-con-la-sindrome-di-down-recensione-libro"
 has_comments: false
+id_numero: "OEL-77"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -1,102 +1,161 @@
 ---
 import SupportBox from './SupportBox.astro';
-import { HERO_VARIANTS } from '../../config/support.ts';
 
 interface Props {
-  /** A = Luce, B = Classica */
-  variant: 'A' | 'B';
-  /** Path immagine hero (es. /images/dona1.webp) */
-  imageSrc: string;
+  /** Array di URL immagini per dissolvenza (timer 3s), tutte usate in sequenza */
+  imageSrcs: string[];
   imageAlt?: string;
 }
-const { variant, imageSrc, imageAlt = 'Ombre e Luci' } = Astro.props;
-const copy = HERO_VARIANTS[variant];
+const { imageSrcs, imageAlt = 'Ombre e Luci' } = Astro.props;
+const sources = imageSrcs.length >= 1 ? imageSrcs : [''];
 ---
 
-<header class="support-hero" id="top">
-  <div class="support-hero-inner">
-    <div class="support-hero-visual">
-      <img src={imageSrc} alt={imageAlt} width="800" height="533" class="support-hero-img" />
-    </div>
-    <div class="support-hero-content">
-      <p class="support-hero-eyebrow">{copy.eyebrow}</p>
-      <h1 class="support-hero-headline">Sostieni Ombre e Luci</h1>
-      <p class="support-hero-punchline">{copy.headline}</p>
-      <p class="support-hero-sub">{copy.sub}</p>
-      <SupportBox variant={variant} />
-    </div>
+<div class="support-page-layout" id="top">
+  <!-- Colonna sinistra: slider sticky (resta visibile finché la sezione è in view, poi esce con la sezione) -->
+  <div class="support-hero-visual support-hero-visual--sticky" aria-hidden="true">
+    {sources.map((src, i) => (
+      <img
+        src={src}
+        alt=""
+        width="800"
+        height="533"
+        class={`support-hero-img support-hero-img-${i} ${i === 0 ? 'support-hero-img-visible' : ''}`}
+        data-hero-index={i}
+      />
+    ))}
+    <div class="support-hero-overlay" aria-hidden="true"></div>
   </div>
-</header>
+
+  <!-- Colonna destra: tutto il contenuto scrollabile -->
+  <div class="support-hero-right">
+    <main class="site-main">
+      <div class="support-hero-content">
+        <h1 class="support-hero-h1">Sostieni Ombre e Luci</h1>
+        <h2 class="support-hero-h2">Aiutaci a tenere accesa la luce</h2>
+        <SupportBox />
+      </div>
+      <slot />
+    </main>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const visual = document.querySelector('.support-hero-visual');
+    const imgs = visual?.querySelectorAll('.support-hero-img');
+    if (!imgs || imgs.length < 2) return;
+
+    let current = 0;
+    const total = imgs.length;
+    const DURATION_MS = 3000;
+
+    function show(index) {
+      imgs.forEach(function (img, i) {
+        img.classList.toggle('support-hero-img-visible', i === index);
+      });
+    }
+
+    show(0);
+    const interval = setInterval(function () {
+      current = (current + 1) % total;
+      show(current);
+    }, DURATION_MS);
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) clearInterval(interval);
+    });
+  })();
+</script>
 
 <style>
-  .support-hero {
-    background: var(--bg-cream);
-  }
-  .support-hero-inner {
+  .support-page-layout {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-height: 420px;
-    max-width: 1200px;
-    margin: 0 auto;
+    background: var(--bg-cream);
   }
-  .support-hero-visual {
-    position: relative;
+
+  /* Sinistra: slider sticky → resta visibile mentre scrolli la sezione, quando la sezione esce entra il footer */
+  .support-hero-visual--sticky {
+    position: sticky;
+    top: var(--header-height, 72px);
+    align-self: start;
+    width: 100%;
+    height: calc(100vh - var(--header-height, 72px));
     min-height: 320px;
+    z-index: 0;
+    overflow: hidden;
   }
-  .support-hero-img {
+  .support-hero-visual--sticky .support-hero-img {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    display: block;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  .support-hero-visual--sticky .support-hero-img-visible {
+    opacity: 1;
+    z-index: 1;
+  }
+  .support-hero-visual--sticky .support-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.02) 100%);
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  /* Destra: contenuto in flow, scroll normale con la pagina */
+  .support-hero-right {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-height: 100vh;
+    background: var(--bg-cream);
   }
   .support-hero-content {
-    padding: 2rem 2.5rem;
+    padding: clamp(2rem, 4vw, 3rem) clamp(1.5rem, 3vw, 2.5rem);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
-  .support-hero-eyebrow {
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--text-secondary);
-    margin: 0 0 0.5rem 0;
-  }
-  .support-hero-headline {
+  .support-hero-h1 {
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
     font-weight: 700;
     color: var(--text-color);
     margin: 0 0 0.35rem 0;
     line-height: 1.2;
     letter-spacing: -0.02em;
   }
-  .support-hero-punchline {
-    font-family: Georgia, serif;
-    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  .support-hero-h2 {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: clamp(1.1rem, 2vw, 1.35rem);
     font-weight: 600;
-    color: var(--text-color);
-    margin: 0 0 0.75rem 0;
-    line-height: 1.3;
+    color: var(--text-secondary);
+    margin: 0 0 1.75rem 0;
+    line-height: 1.4;
   }
-  .support-hero-sub {
-    font-size: 0.9375rem;
-    line-height: 1.65;
-    color: var(--text-color);
-    margin: 0 0 1.5rem 0;
-  }
+
   @media (max-width: 900px) {
-    .support-hero-inner {
+    .support-page-layout {
       grid-template-columns: 1fr;
+    }
+    .support-hero-visual--sticky {
+      position: relative;
+      top: auto;
+      width: 100%;
+      height: 280px;
+      min-height: 280px;
+    }
+    .support-hero-right {
       min-height: auto;
     }
-    .support-hero-visual {
-      min-height: 240px;
-    }
     .support-hero-content {
-      padding: 1.5rem 1.25rem;
+      padding: 1.75rem 1.25rem;
     }
   }
 </style>

@@ -12,7 +12,8 @@ umap_x: 4.573965072631836
 umap_y: 7.254735946655273
 umap_z: 10.486007690429688
 issue_number: OEL-10
-id_numero: OEL-10
+id_numero: "OEL-10"
+numero_rivista: "Ombre e Luci"
 ---
 ### Benché sia difficile
 

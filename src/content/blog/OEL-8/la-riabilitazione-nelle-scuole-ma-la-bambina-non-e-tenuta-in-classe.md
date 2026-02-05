@@ -11,8 +11,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-8
+id_numero: "OEL-8"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quattro storie
 Chi ha avuto un figlio con turbe del comportamento, chi ha diviso la sua vita con un ragazzo psicotico, sa. Chi non ha vissuto questa esperienza non può sapere. Nulla può sostituire l'esperienza. Ammesso ciò, Ombre e Luci propone queste quattro esperienze, raccontate, dalle persone che le hanno vissute, senza fronzoli ne bravure stilistiche. Con un po’ di partecipazione affettiva e un po' di fantasia si può «leggere» che realtà ci sia dietro frasi e parole molto piane e usuali. Ci sembra questo il punto di partenza necessario del viaggio attraverso i problemi che sono intorno e dentro la psicosi infantile che questo Ombre e Luci ti propone.
 Mia figlia E., attualmente quindicenne, è nata immatura (kg. 1,500). Trasportata dalla Clinica all’Ospedale del Bambin Gesù senza alcun particolare accorgimento è stata un mese in incubatrice e un mese nel lettino, dove ha raggiunto il peso di 3 kg.

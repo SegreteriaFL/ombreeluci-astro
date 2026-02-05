@@ -12,7 +12,8 @@ umap_x: 7.616897106170654
 umap_y: 9.60245418548584
 umap_z: 13.56064510345459
 issue_number: OEL-162
-id_numero: OEL-162
+id_numero: "OEL-162"
+numero_rivista: "Ombre e Luci"
 ---
 Come tanti altri figli di rifugiati della diaspora ucraina, Boris Guziack sognava un’Ucraina finalmente libera. Quando nel 1991 finì l’oppressione sovietica, fece presto ritorno a Lviv per aiutare a ricostruire il suo Paese. Era nato negli Stati Uniti e, dopo aver studiato ad Harvard, era entrato in seminario nel collegio greco ortodosso a Roma. Aveva come padre spirituale Henry Nouwen, il famoso teologo olandese che trascorse dieci anni nella comunità dell’ *Arche* a Toronto; ogni volta che Guziack lo andava a trovare, rimaneva molto colpito dalle qualità umane degli ospiti con disabilità che incontrava. Guziack desiderava ricostruire, in sintonia con il patriarca ucraino Josyf Slipyj, un’università cattolica dove le persone potessero essere formate non più secondo gli schemi imposti dai sovietici, ma nei principi dell’antropologia cattolica. **Si rendeva conto però che, per essere un buon professionista, non bastava avere la testa piena di conoscenze, bisognava avere anche il cuore.** Ecco perché, fin dall’inizio, il vescovo Guziack cercò di realizzare il sogno di avere persone con disabilità intellettiva al cuore dell’università.
 

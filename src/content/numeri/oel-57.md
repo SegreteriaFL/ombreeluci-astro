@@ -1,15 +1,37 @@
 ---
 id: "OEL-57"
-title: "Ombre e Luci n.57 - Buona Pasqua"
+title: "Ombre e Luci n.57 – Buona Pasqua"
 tipo: "ombre-e-luci"
 numero: 57
-anno: "1997"
+sort_order: 156
+pubDate: "1997-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1997"
 sommario: "Ombre e Luci n.57 – Buona Pasqua ultima modifica: 1997-03-15T09:29:20+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_57_1997.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_57"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-57-buona-pasqua/"
+articoli:
+  - "quando-se-ne-vanno-prima-di-noi"
+  - "a-scuola-con-tre-insegnanti"
+  - "il-senso-di-luca-nella-tua-vita"
+  - "dedicato-ai-bambini"
+  - "igor-o-limprevisto-di-dio"
+  - "soluzione-per-malati-mentali-insieme-si-puo"
+  - "dialogo-aperto-n-57"
+  - "i-bambini-alla-scoperta-di-roma-antica"
+  - "il-libro-di-alice"
+  - "chicchi-di-grano-dalla-bibbia"
+  - "come-progettare-una-comunita"
+  - "quando-se-ne-vanno-prima-di-noi"
+  - "a-scuola-con-tre-insegnanti"
+  - "il-senso-di-luca-nella-tua-vita"
+  - "dedicato-ai-bambini"
+  - "igor-o-limprevisto-di-dio"
+  - "soluzione-per-malati-mentali-insieme-si-puo"
+  - "il-libro-di-alice"
+  - "i-bambini-alla-scoperta-di-roma-antica"
+  - "dialogo-aperto-n-57"
 ---
 
 ## Indice

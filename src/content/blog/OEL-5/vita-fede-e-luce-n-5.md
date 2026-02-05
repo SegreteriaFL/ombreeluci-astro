@@ -16,7 +16,8 @@ umap_x: 7.216894149780273
 umap_y: 9.24328899383545
 umap_z: 12.735896110534668
 issue_number: OEL-5
-id_numero: OEL-5
+id_numero: "OEL-5"
+numero_rivista: "Ombre e Luci"
 ---
 ### Come siamo cambiati con *Fede e Luce*
 

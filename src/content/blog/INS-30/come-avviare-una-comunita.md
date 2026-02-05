@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Le Comunità Fede e Luce sparse ormai qua e là nel mondo, sono quasi trecento e sono sorte per iniziativa di due o tre persone animate da buona volontà, un po’ di coraggio, un po’ di perseveranza… Ecco qualche esempio raccolto fra molti altri.
 
 ### Eravamo felici di aiutare

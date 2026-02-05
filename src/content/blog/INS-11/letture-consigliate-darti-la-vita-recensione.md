@@ -12,8 +12,9 @@ umap_x: 6.9805498123168945
 umap_y: 11.478890419006348
 umap_z: 5.502630233764648
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 ### Analisi
 
 Questo lavoro è il diario di una mamma, madre di un ragazzo colpito da

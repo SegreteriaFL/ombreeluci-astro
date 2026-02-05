@@ -12,7 +12,8 @@ umap_x: 7.814420223236084
 umap_y: 8.495319366455078
 umap_z: 12.908203125
 issue_number: OEL-38
-id_numero: OEL-38
+id_numero: "OEL-38"
+numero_rivista: "Ombre e Luci"
 ---
 ### Siamo la comunità S. Gaetano di Milano
 

@@ -12,7 +12,8 @@ umap_x: 5.679695129394531
 umap_y: 9.683809280395508
 umap_z: 7.018883228302002
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 #### **Perché molte famiglie di figli con handicap sono senza diagnosi?**
 

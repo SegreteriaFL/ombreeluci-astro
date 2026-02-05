@@ -12,7 +12,8 @@ umap_x: 7.838351726531982
 umap_y: 9.727655410766602
 umap_z: 14.579839706420898
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 ### [Un fiume di Pace – Nord](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 

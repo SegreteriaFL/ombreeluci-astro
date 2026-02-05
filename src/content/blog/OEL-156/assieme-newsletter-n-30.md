@@ -12,8 +12,9 @@ umap_x: 6.12938117980957
 umap_y: 6.011796951293945
 umap_z: 8.894868850708008
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### OL incontra...
 
 ---

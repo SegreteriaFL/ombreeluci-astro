@@ -11,8 +11,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 In Francia.il collettivo “Sessualità e Handicap” negli ultimi mesi si è molto impegnato per favorire la possibilità dell’assistenza sessuale per le persone portatrici di handicap, soprattutto curando la preparazione di professionisti: non è forse legittimo il diritto al piacere? Risponde alle nostre domande Marie-Christine Marguet, consulente coniugale e familiare al CLER.
 Cosa pensa lei di questa riflessione: “le persone handicappate hanno diritto ad una loro vita sessuale: perché privare di questo piacere proprio loro che sperimentano già tante frustrazioni?”**Tutta la nostra società oggi fa suo il modello “esibizione-eccitazione”. L’idea che la sessualità è un fondamentale diritto porta a credere che l’esercizio della sessualità sia il solo mezzo per appagare le tensioni per vivere il piacere, e addirittura per giungere alla felicità alla quale tutto il nostro essere aspira.
 

@@ -16,7 +16,8 @@ umap_x: 7.643372535705566
 umap_y: 8.913866996765137
 umap_z: 14.029702186584473
 issue_number: OEL-6
-id_numero: OEL-6
+id_numero: "OEL-6"
+numero_rivista: "Ombre e Luci"
 ---
 ### Incontro responsabili di Fede e luce di 33 nazioni
 

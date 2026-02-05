@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "perche-il-dolore-qualche-riflessione"
 lang: it
-numero_rivista: 98
-id_numero: OEL-98
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-98"
 issue_number: OEL-98
 wp_id: 32561
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 ---
-
 ### I
 
 Maria Rosaria è spastica, poliomielitica, ritardata, — ha 53 anni, ma è come se ne avesse 6 — è sorda e ha il cancro. **La mia “grande” fede è più fragile di quanto pensassi... così ho ricevuto anche un bell’insegnamento di umiltà.

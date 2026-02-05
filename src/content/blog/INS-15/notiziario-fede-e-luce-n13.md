@@ -15,8 +15,9 @@ umap_x: 7.855400085449219
 umap_y: 7.9260663986206055
 umap_z: 13.401301383972168
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Cuneo
 
 Ci siamo incontrati domenica 6 febbraio nei locali della Colonia di S.Antonio per festeggiare, in unione con gli altri gruppi di Fede e Luce del mondo, la festa della Luce. Volevamo preparare qualcosa di particolare, ma presi dall'impegno di preparare l'incontro del 19-20 marzo, non abbiamo combinato nulla e ci siamo limitati a ricordare tutti gli altri nella preghiera dei fedeli. Ci siamo trovati dapprima in un ampio salone dove abbiamo fatto dei giochi e abbiamo provato i canti per la messa. Fino alla volta scorsa eravamo soliti celebrare la messa nello stesso luogo dove facevamo i giochi e la merenda. Questa volta invece abbiamo colto l'occasione di avere a disposizione la cappella dell'Istituto che ci ospitava e lì vi abbiamo fatto la messa. Il tutto è terminato con molta allegria ed una abbondante merenda. Il prossimo incontro è fissato per mercoledì 23 per definire gli ultimi dettagli dell'incontro di S. Giuseppe.

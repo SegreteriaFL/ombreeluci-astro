@@ -6,6 +6,7 @@ theme: "cluster-1"
 cluster_id: 1
 slug: "alzheimer-il-passato-perduto-per-sempre"
 has_comments: false
+id_numero: "OEL-96"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

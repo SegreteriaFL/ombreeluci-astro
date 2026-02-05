@@ -14,8 +14,9 @@ umap_x: 8.703924179077148
 umap_y: 8.07817554473877
 umap_z: 13.199382781982422
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Questo bilancio va dal Giugno 1974 al Dicembre 1975.
 
 ### Entrate (in lire)

@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "gioco-come-questa-casa"
 lang: it
-numero_rivista: 68
-id_numero: OEL-68
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-68"
 issue_number: OEL-68
 wp_id: 13040
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
-
 Ecco i disegni di 9 case. Come sono queste case? Osservale bene e poi scrivi a ogni disegno la parola giusta,
 
 Questa casa è . 1 scegliendola dalla lista seguente.

@@ -14,8 +14,9 @@ umap_x: 7.322655200958252
 umap_y: 6.865540981292725
 umap_z: 7.302987098693848
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 C'
 è una scuola che funziona, ma che soprattutto
 **mette in pratica con iniziative concrete ciò che serve per aiutare chi ne ha bisogno**

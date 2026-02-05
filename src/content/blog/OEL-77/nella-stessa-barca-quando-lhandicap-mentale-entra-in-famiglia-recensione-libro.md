@@ -4,8 +4,8 @@ date: 2002-03-08
 author: Antonella Bulgheroni
 slug: nella-stessa-barca-quando-lhandicap-mentale-entra-in-famiglia-recensione-libro
 lang: it
-numero_rivista: 77
-id_numero: OEL-77
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-77"
 issue_number: OEL-77
 wp_id: 23771
 original_url: "https://www.ombreeluci.it/?p=23771"
@@ -15,7 +15,6 @@ umap_x: 7.6401753425598145
 umap_y: 10.45572566986084
 umap_z: 5.821763515472412
 ---
-
 Nella stessa barca - Quando l'handicap mentale entra in famiglia Autori vari - Edizioni Ancora, 2002, p. 153
 
 Ho letto “Nella stessa barca” d’un fiato, non potevo staccarmene. Premetto che **non conoscevo la vasta e pluriennale produzione di “Ombre e Luci”** da cui il libro è stato tratto con evidente acume e gusto nella scelta dei brani. **Il testo è composto di brevi affreschi biografici** , stesi con una scrittura piana e avvincente da autori che propongono la loro esperienza di vita con dolcezza, lievità e consapevole profondità al tempo stesso.

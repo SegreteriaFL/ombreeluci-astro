@@ -4,8 +4,8 @@ date: 2002-03-08
 author: Redazione
 slug: storie-di-lavoro-chi-sarei-se-potessi-essere-la-condizione-adulta-del-disabile-mentale
 lang: it
-numero_rivista: 77
-id_numero: OEL-77
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-77"
 issue_number: OEL-77
 wp_id: 23790
 original_url: "https://www.ombreeluci.it/?p=23790"
@@ -15,7 +15,6 @@ umap_x: 7.489901542663574
 umap_y: 8.32234001159668
 umap_z: 7.7590532302856445
 ---
-
 Per meglio chiarire ai nostri lettori il pensiero di **Enrico Montobbio** sul ruolo lavorativo del giovane down e sul progetto a lungo termine che lo deve precedere, riportiamo due brevi episodi tratti dal suo libro: “ [**Chi sarei se potessi essere**](https://www.lafeltrinelli.it/libri/carlo-lepri/chi-sarei-se-potessi-essere/9788882160753) ”. Le illustrazioni tratte dal libro sono del pittore e scenografo Emanuele Luzzati.
 
 ### Scuola materna

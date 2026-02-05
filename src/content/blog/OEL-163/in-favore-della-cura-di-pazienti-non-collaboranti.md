@@ -12,7 +12,8 @@ umap_x: 5.766991138458252
 umap_y: 8.958799362182617
 umap_z: 8.120655059814453
 issue_number: OEL-163
-id_numero: OEL-163
+id_numero: "OEL-163"
+numero_rivista: "Ombre e Luci"
 ---
 Ho79 anni, vivo a Roma e faccio parte dell’ [Ufha](http://www.ufha.org/) (Unione Famiglie Persone con Disabilità). Il 2 novembre 2020 è tornato al Padre Alberto, il nostro unico figlio, che quest’anno avrebbe compiuto 51 anni. Cerebroleso e gravemente disabile dalla nascita, quindi “paziente non collaborante”, [era stato ricoverato in ospedale](https://www.ombreeluci.it/2021/mio-figlio-che-non-voleva-vedermi-piangere/) per un intervento salvavita e lì, infettato dal covid, è deceduto. Non abbiamo potuto assisterlo e non lo abbiamo più visto né vivo né morto. Non debbo certo dire cosa significa perdere un figlio e, soprattutto, perderlo in tal modo: voglio, però, promuovere un’iniziativa per far sì che la morte di Alberto sia lo stimolo per cercare di migliorare la vita dei “pazienti non collaboranti”.
 

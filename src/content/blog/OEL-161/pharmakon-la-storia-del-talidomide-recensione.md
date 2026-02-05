@@ -12,7 +12,8 @@ umap_x: 7.269594192504883
 umap_y: 12.0674467086792
 umap_z: 5.506852626800537
 issue_number: OEL-161
-id_numero: OEL-161
+id_numero: "OEL-161"
+numero_rivista: "Ombre e Luci"
 ---
 Forse conosciamo le gravissime malformazioni che l’assunzione del farmaco talidomide in donne in gravidanza tra il 1957 e il 1961 ha comportato per i nascituri sopravvissuti (si calcola che gran parte delle gravidanze interessate dall’“epidemia” non sia arrivata a termine per complicazioni non compatibili con la vita). Forse, invece, **poco sappiamo quanto la vicenda sia stata decisiva per modificare e migliorare i protocolli di sicurezza nella commercializzazione di *ogni* farmaco.** E ancora troppo poco sappiamo di quanto alcuni di quei sopravvissuti (le cui storie particolari ascoltiamo narrate dai protagonisti, vite segnate ai loro inizi dal rifiuto, dall’abbandono, dalla vergogna, immersi come erano nel giudizio di una società che non vedeva possibile vite “felici” in quell’infelicità del corpo) ora sessantenni, ancora debbano combattere per avere un riconoscimento dallo stato italiano del danno subito.
 

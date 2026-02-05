@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "siamo-state-a-parigi-nella-redazione-di-ombres-et-lumiere"
 lang: it
-numero_rivista: 91
-id_numero: OEL-91
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-91"
 issue_number: OEL-91
 wp_id: 31087
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 Una visita a Parigi a vedere come si lavora a Ombres et Lumière, nostra "sorella maggiore"? Perché no?
 Certo, bisogna organizzarsi un po’ e lasciare marito e figli soli, poi convincersi profondamente che l’aereo nonostante tutto è il modo migliore di viaggiare su queste distanze... La lingua non è un problema, tanto c’è Hubi che sa tre lingue e in più mastica anche il francese. Prendiamo contatti con Anna Cece, una vecchia amica italiana, che è gentilissima e ci offre non solo ospitalità nella sua bella e accogliente casa vicino Parigi, ma anche un paio di incontri decisamente interessanti. D'altronde tre giorni a Parigi vanno ben sfruttati, poco purtroppo per vedere la città e molto però per incontrare realtà diverse dalla nostra e avere occasioni di confronto.
 

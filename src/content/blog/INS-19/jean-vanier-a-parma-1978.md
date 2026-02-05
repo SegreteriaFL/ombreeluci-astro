@@ -14,8 +14,9 @@ umap_x: 8.328864097595215
 umap_y: 12.22470760345459
 umap_z: 11.120695114135742
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Il mercoledì pomeriggio del primo Marzo 1978, la città di PARMA ha ricevuto la visita di Jean Vanier, il fondatore dell'"Arche" e di "Foi et Lumière" era stato invitato dal Vescovo di PARMA, Mgr Amilcare Pasini (il quale sarà con noi al pellegrinaggio di Assisi).
 
 L'invito, che già da tempo era stato diffuso nelle parrocchie e nella città, aveva come tema: "gli handicappati interrogano i cristiani di PARMA". Questo incontro si inseriva nell'ambito della preparazione al Convegno su "Evangelizzazione e Promozione Umana" che si terrà a Parma nel prossimo aprile.

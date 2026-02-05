@@ -4,8 +4,8 @@ date: 2003-03-13
 author: Mariangela Bertolini
 slug: che-cosa-fede-e-luce-1
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26493
 original_url: "https://www.ombreeluci.it/?p=26493"
@@ -17,7 +17,6 @@ umap_x: 7.21198034286499
 umap_y: 8.953442573547363
 umap_z: 13.08311939239502
 ---
-
 M
 olti (lettori, responsabili di
 [Fede e Luce](http://www.fedeeluce.it/)

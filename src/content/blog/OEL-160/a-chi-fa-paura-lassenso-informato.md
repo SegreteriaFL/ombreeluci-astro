@@ -14,8 +14,9 @@ umap_x: 5.495832920074463
 umap_y: 10.217308044433594
 umap_z: 7.0528364181518555
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 È,questa, una vicenda di donne e di consenso; di domande fatte e di domande che non si possono fare; di un principio giuridico fondamentale che una sorta di eugenetica moderna ripulita e garbata vorrebbe tacitare.
 
 Qualche tempo fa una donna francese in attesa di un figlio con trisomia 21 scrive a CoorDown (rete di associazioni di persone con sindrome di Down): non sa, non conosce e così chiede delucidazioni su come potrebbe essere il futuro della bimba che aspetta. In risposta, l’associazione realizza il corto *Dear Future Mom* (2014): 15 persone con questa anomalia genetica di diversi Paesi, pur senza minimizzare le difficoltà che incontrano, spiegano che la loro vita può essere felice e degna. Presentata alle Nazioni Unite e pluripremiata (grande bottino al festival di Cannes e vincitore de “L’Anello debole” al festival di Capodarco come miglior campagna sociale diffusa in Rete), questa sorta di lettera alle mamme in attesa intende informare su cosa significhi essere una persona con la sindrome di Down. E intende far riflettere, attraverso le voci degli stessi protagonisti, sui tanti pregiudizi che le ruotano attorno.

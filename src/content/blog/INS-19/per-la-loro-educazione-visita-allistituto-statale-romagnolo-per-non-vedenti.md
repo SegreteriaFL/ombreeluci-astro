@@ -14,8 +14,9 @@ umap_x: 7.097507953643799
 umap_y: 7.126692295074463
 umap_z: 7.808335781097412
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Eccomi stamane in visita ad un piccolo padiglione in mezzo a un prato tutto ricoperto di margherite e di sole. Forse è la consapevolezza di essere sola a "vederle", quelle margherite, che me le fa trovare così belle... Ma non sono sola a "conoscerle"e ad "apprezzarle".
 
 Il gruppo dei piccoli della scuola dei non-vedenti è lì sull'erba a cogliere fiori ed a godere il sole; uno dei primi soli della stagione quest'anno così uggiosa!

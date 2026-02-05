@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-5
-id_numero: OEL-5
+id_numero: "OEL-5"
+numero_rivista: "Ombre e Luci"
 ---
 Ci sarebbe molto da scrivere sul tema dell'accoglienza della persona handicappata nella Comunità Cristiana sia in positivo — infatti nella storia, la Chiesa si è molto prodigata in questo senso — che in negativo: nelle nostre chiese vediamo rare persone handicappate...
 Dobbiamo prenderne atto e con onestà chiedere perdono a tutti i nostri fratelli e sorelle che sono ancora fuori. Perché non si fanno avanti? Perché non vengono da soli? E’ pur vero che la porta della chiesa è aperta a tutti...

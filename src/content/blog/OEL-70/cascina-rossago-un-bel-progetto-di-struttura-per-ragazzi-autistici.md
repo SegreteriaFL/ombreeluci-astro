@@ -15,7 +15,8 @@ umap_x: 7.8758039474487305
 umap_y: 7.487260341644287
 umap_z: 7.754769325256348
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 N
 el maggio del 1998, dall’impegno patrimoniale di alcune famiglie di ragazzi autistici, è nata la

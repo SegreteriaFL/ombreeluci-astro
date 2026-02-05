@@ -12,8 +12,9 @@ umap_x: 6.485569477081299
 umap_y: 8.039999961853027
 umap_z: 12.325037956237793
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 ### Da Milano
 
 Ho ricevuto il vostro giornalino "Fede e Luce". Mi piace molto e mi farebbe piacere riceverlo ancora. Vorrei abbonarmi e vi prego sapermi dire come devo regolarmi. Se si può mi piacerebbe anche inviarvi qualche cosa scritta da me che sono un ragazzo molto infelice. Per ora vi ringrazio e rimango in attesa.... *- Luigi Raffaghello*

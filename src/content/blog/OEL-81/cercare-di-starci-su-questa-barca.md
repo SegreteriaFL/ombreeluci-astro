@@ -4,8 +4,8 @@ date: 2003-01-08
 author: Giulia Galeotti
 slug: cercare-di-starci-su-questa-barca
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 21184
 original_url: "https://www.ombreeluci.it/?p=21184"
@@ -17,7 +17,6 @@ umap_x: 7.836672782897949
 umap_y: 7.923410415649414
 umap_z: 12.020167350769043
 ---
-
 Tanto è stato scritto sui campi, tanto viene detto e ricordato. Raccontare del resto fa parte del gioco, anche se ci si accorge subito quanto sia difficile descrivere a parole le emozioni che dieci giorni passati insieme hanno suscitato e provocato. Emozioni che vanno oltre al fatto che dopo tanta organizzazione si sia partiti mischiandosi tra comunità (amici, ragazzi, qualche genitore); che si siano trascorsi dieci giorni insieme tra cerchi, giochi, preghiere e gite, tra pranzi cucinati, piatti lavati e bagni puliti a turno, sieste (più o meno tali), ospiti in visita… Il campo estivo è la cartina di tornasole di quello che è [*Fede e Luce*](http://fedeeluce.it) - nel bene e nel male. Come un matrimonio esiste nella buona e nella cattiva sorte, o un'amicizia profonda è tale solo se permette l'incontro nella gioia e nella paura: così un campo fa toccare con mano la bellezza, ma anche il dolore di essere una comunità, e di essere in una comunità. E se le comunità volano a volte, a volte inciampano - con il passo del singolo, ora intonato, ora che rischia di perdersi.
 
 Per tanti versi il campo è la continuazione di un anno vissuto insieme. Dopo gli incontri, qualche pizza, un po’ di passeggiate (più o meno frenetiche), tante visite, molte (troppe?) riunioni, si parte. Perché in vacanza si va con gli amici - ovvio, è stata una scoperta del crescere, improvvisamente liberi di scegliere con chi partire. Scegliere? Mmm… in realtà ti accorgi subito che, qualche differenza c’è, al di là di tante parole. Vabbè ormai-l’ho-detto-che-vado (...poche forse quelle riunioni!).

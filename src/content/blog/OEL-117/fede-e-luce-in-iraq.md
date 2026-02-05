@@ -12,7 +12,8 @@ umap_x: 7.660809516906738
 umap_y: 9.3501615524292
 umap_z: 13.967540740966797
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 Mirna, vice coordinatrice internazionale, accompagna la provincia del Medio Oriente. Recentemente è stata invitata a un incontro di comunità “AMORE E GIOIA” d’Irak, dove non c’è Fede e Luce per diverse ragioni; “Amore e Gioia” però segue gli stessi principi, ha la stessa spiritualità (Jean Vanier è passato di là). I contatti esistono con Imad, il coordinatore nazionale ed è lui che ha invitato Mirna al loro incontro nazionale che si è tenuto a Qaraqosh, nel nord del paese. Così racconta Mirna.
 

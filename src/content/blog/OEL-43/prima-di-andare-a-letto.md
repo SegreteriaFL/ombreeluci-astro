@@ -12,7 +12,8 @@ umap_x: 5.709958076477051
 umap_y: 9.628222465515137
 umap_z: 7.370424270629883
 issue_number: OEL-43
-id_numero: OEL-43
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
 La dottoressa M.O. Réthoré svolge la sua attività di medico in un grande ospedale pediatrico di Parigi; da anni dedita alla ricerca genetica, ha una grande esperienza sia di bambini Down sia di bambini con altri problemi. In questa intervista ci offre alcuni suoi consigli sulle difficoltà notturne.
 **Quali sono i maggiori problemi nel sonno dei bambini Down?**

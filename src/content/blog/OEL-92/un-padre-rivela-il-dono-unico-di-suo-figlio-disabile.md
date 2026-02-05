@@ -4,8 +4,8 @@ date: 2005-12-23
 author: Cyrill Donille
 slug: un-padre-rivela-il-dono-unico-di-suo-figlio-disabile
 lang: it
-numero_rivista: 92
-id_numero: OEL-92
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-92"
 issue_number: OEL-92
 wp_id: 31322
 original_url: "https://www.ombreeluci.it/?p=31322"
@@ -15,7 +15,6 @@ umap_x: 4.532889366149902
 umap_y: 8.8948974609375
 umap_z: 7.527482032775879
 ---
-
 **Quali reazioni provoca nel padre la nascita di un figlio disabile?**
 La reazione del padre è profondamente diversa da quella della madre, che ha portato il bambino nel grembo e che dal concepimento, ha tessuto un legame fisico e psicologico con lui. Il padre non diventa d'un tratto soltanto padre di un figlio disabile, ma si trova scosso nel suo essere, nella sua profonda identità. L'attesa di un figlio nutre naturalmente speranze immense che la scoperta, brutale o progressiva dell'handicap, viene a sconvolgere. Il bambino tanto sperato delude tutte le attese. Il mondo interiore e l'immagine di sé crollano insieme a tutti i punti di riferimento di sposo e di padre. Una distanza vertiginosa si apre con sua moglie perché il loro modo di sentire è così diverso, tale da impedire perfino la comunicazione proprio nel momento in cui questa è indispensabile per capirsi e sostenersi. Molteplici tentazioni invadono il padre: tentazione di rifiuto del figlio disabile così diverso dal bambino atteso; tentazione di onnipotenza che produce il desiderio di "normalizzare" il bambino costi quel che costi...tentazioni di fuggire questa situazione non voluta, insopportabile. Queste stesse tentazioni sono vissute con dolore e provocano un senso di vergogna e di colpevolezza. Il padre deve far fronte alla difficoltà di iscrivere il figlio nella propria storia, di farlo accettare dalla sua famiglia allargata. Vive una frustrazione nei confronti della trasmissione del suo nome, di una eredità famigliare, perfino a volte di uno stato professionale. La vita stessa del figlio introduce un sentimento potente di morte; morte del figlio il cui handicap è un segno premonitore, morte del genitore che la presenza del bambino e del suo avvenire interpella. "Che sarà di lui quando io non sarò più qui?". L'handicap sembra interdire ai genitori la morte. Il padre così si vede invaso da doveri che oltrepassano le sue forze e mettono a prova il suo coraggio.
 **Come uscire da tali sentimenti negativi?**

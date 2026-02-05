@@ -14,7 +14,8 @@ umap_x: 10.240043640136719
 umap_y: 9.63863468170166
 umap_z: 11.839608192443848
 issue_number: OEL-50
-id_numero: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
 **S arebbe stato bello ascoltare le testimonianze di ciascuno di voi** , perché ciascuno ha una storia diversa, problemi diversi, ma da quello che abbiamo ascoltato emerge già una grande varietà di situazioni che fanno il nido, per cosi' dire, sotto quell’albero che è Fede e Luce, che nasce dal granello di senapa del Vangelo. Sono davvero situazioni tanto diverse che sarebbe necessario dire qualcosa su ciascuna di esse, se avessimo il tempo. Mi limiterò a qualche osservazione.
 

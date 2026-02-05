@@ -12,7 +12,8 @@ umap_x: 7.806036472320557
 umap_y: 7.683111667633057
 umap_z: 8.184258460998535
 issue_number: OEL-105
-id_numero: OEL-105
+id_numero: "OEL-105"
+numero_rivista: "Ombre e Luci"
 ---
 Sappiamo che le famiglie con un bambino disabile vivono spesso una condizione di sfiducia di fronte ad una generalizzata mancanza di aiuto: la scuola, se pure l’insegnante di sostegno è motivato e preparato, raramente offre garanzie di continuità che sarebbero così importanti; alcune terapie riabilitative che deve seguire il bambino fuori dall’orario scolastico sono a carico dei genitori sia economicamente che per gli accompagnamenti; nel tempo libero, non è così facile trovare un luogo, come una ludoteca, dove poter serenamente lasciare il bambino con problemi... non c’è personale adatto e il genitore deve rimanere presente; quando sono a casa insieme, i genitori spesso devono dedicare tempo agli esercizi da far fare al bambino prescritti dai vari specialisti e occuparsi degli altri eventuali fratelli o sorelle; la vita di coppia, così importante da curare per il benessere dell’intera famiglia, risente fortemente della mancanza di momenti in cui mamma e papà ritrovano il loro essere marito e moglie.
 

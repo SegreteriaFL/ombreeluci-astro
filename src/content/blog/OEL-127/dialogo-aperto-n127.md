@@ -12,7 +12,8 @@ umap_x: 4.69286584854126
 umap_y: 7.852225303649902
 umap_z: 10.790050506591797
 issue_number: OEL-127
-id_numero: OEL-127
+id_numero: "OEL-127"
+numero_rivista: "Ombre e Luci"
 ---
 ### Vecchie amiche
 

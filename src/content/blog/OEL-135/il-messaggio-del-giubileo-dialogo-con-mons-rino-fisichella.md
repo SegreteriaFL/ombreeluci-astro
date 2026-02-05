@@ -14,7 +14,8 @@ umap_x: 8.87545394897461
 umap_y: 9.548247337341309
 umap_z: 10.798288345336914
 issue_number: OEL-135
-id_numero: OEL-135
+id_numero: "OEL-135"
+numero_rivista: "Ombre e Luci"
 ---
 *Sono passati tre mesi dalle giornate giubilare dedicate agli ammalati e alle persone con disabilità. L’eco delle parole del Santo Padre e dei suoi gesti così concreti continuano ad arrivare anche attraverso la voce dei tanti giornalini associativi che riceviamo e che raccontano quanto la giornata sia stata importante. Questo il nostro spirito per parlarne ancora con mons. Fisichella che, con il Pontificio Consiglio per la Nuova Evangelizzazione ha curato l’organizzazione dell’Anno Santo della Misericordia.*
 

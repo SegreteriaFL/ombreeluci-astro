@@ -4,8 +4,8 @@ date: 1998-06-17
 author: Mariangela Bertolini
 slug: aspettate-arrivo
 lang: it
-numero_rivista: 62
-id_numero: OEL-62
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-62"
 issue_number: OEL-62
 wp_id: 12208
 original_url: "https://www.ombreeluci.it/?p=12208"
@@ -15,7 +15,6 @@ umap_x: 6.771820068359375
 umap_y: 6.684095859527588
 umap_z: 10.197257995605469
 ---
-
 Se ci si attacca troppo alla sicurezza, alle abitudini di ogni giorno, chiudendosi in se stessi, ci si accorge di non vivere più. **La vita non ha bisogno solo di sicurezza, ma di avventura, di rischio, di novità, di dinamismo, di disponibilità agli altri** . Troppi ostacoli, a volte molto grandi, hanno sbarrato la strada al fluire gioioso della vita; le forze di un tempo se ne sono andate; ci sentiamo stanchi, incapaci di riprendere il cammino. Trasciniamo le nostre vite e quelle dei nostri cari per viuzze anguste, monotone, prive di sole. Sonnecchiamo nel tran tran di tutti i giorni, apatici e disillusi, delusi anche per gli insuccessi subiti, per lo scarso entusiasmo che vediamo attorno a noi. Ci sediamo. Ci sdraiamo. E chi ci è accanto e aspetta da noi quel soffio vitale di cui ha tanto bisogno, ci guarda smarrito, tace, si addormenta in una sorta di letargo autunnale.
 
 Quante volte mi è capitato di trovarmi in questo stato di dormiveglia interiore. L'ho giustificato spesso con l'esigenza di un meritato riposo: basta, ora proprio basta. Non vale la pena di incitare, organizzare, rivitalizzare, suscitare cambiamenti... Perché poi spetta sempre a me? Ci pensino un po' gli altri.

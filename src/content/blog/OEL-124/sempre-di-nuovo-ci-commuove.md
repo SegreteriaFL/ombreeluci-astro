@@ -14,8 +14,9 @@ umap_x: 5.755110740661621
 umap_y: 6.090708255767822
 umap_z: 12.269214630126953
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 > “Il Dio che si fa bambino, che si mette con delicatezza e rispetto nelle nostre mani affinché noi possiamo adorarlo, inginocchiandoci davanti alla sua piccolezza”
 
 C

@@ -12,8 +12,9 @@ umap_x: 7.75123929977417
 umap_y: 9.958261489868164
 umap_z: 5.891765594482422
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Quale logica induce a tenere in una prigione una persona con evidente disagio mentale, seppure reo di aver commesso un reato? E con quale scopo lo si affida a personale di sorveglianza privo delle competenze per un corretto trattamento, causando un ulteriore disagio agli assistenti penitenziari, costretti a fronteggiare problematiche per le quali non sono preparati, e per gli altri detenuti?». Sono precise le domande poste da Sergio Abis in *Chi sbaglia paga. La voce dei detenuti e l’esperienza di un carcere alternativo* (Chiarelettere 2020), in cui l’autore – presentando la comunità La Collina fondata nel 1994 da don Ettore Cannavera – riflette anche sul senso e lo scopo del carcere come è attualmente concepito.
 
 Aperta 27 anni fa a Serdiana nella campagna vicino Cagliari, La Collina ospita detenuti a cui il magistrato di sorveglianza ha concesso una misura alternativa al carcere. Seppur trattandosi di una prigione a tutti gli effetti, qui la vita è lavoro, esempio, ascolto, educazione, legalità e cultura; un carcere utile e sensato, insomma, il cui fine è realmente la rieducazione del condannato in netta contrapposizione con la galera segregativa ordinaria. Una galera illogica, inutile, costosissima e disumana. «Ci volevano duecentomila anni e l'appellativo di *sapiens* – scrive don Cannavera nel libro – per immaginare un’istituzione che anziché cercare di rieducare i colpevoli di reati e riconciliarli con la società, li immette in un sistema che, nella migliore delle ipotesi, li lascia come sono, ma in realtà li peggiora?». Basta un dato: mentre il 70 per cento dei detenuti che esce dal carcere tradizionale vi rientra avendo commesso nuovi reati, a La Collina la recidiva è del 4 per cento.

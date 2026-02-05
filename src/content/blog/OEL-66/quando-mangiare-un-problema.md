@@ -4,8 +4,8 @@ date: 1999-06-12
 author: Nicole Schulthes
 slug: quando-mangiare-un-problema
 lang: it
-numero_rivista: 66
-id_numero: OEL-66
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-66"
 issue_number: OEL-66
 wp_id: 12824
 original_url: "https://www.ombreeluci.it/?p=12824"
@@ -15,7 +15,6 @@ umap_x: 5.987405776977539
 umap_y: 8.579977035522461
 umap_z: 7.750172138214111
 ---
-
 Q
 uante volte ci succede di sentire dalle mamme di ragazzi disabili mentali frasi come: «..mangia troppo...deve stare a dieta ma non obbedisce...è ingrassato tanto negli ultimi anni..» e quante volte ci capita di vedere qualche nostro amico gettarsi sul cibo quasi con voracità, mangiare troppo racimolando tutto quello che c'è sul tavolo! Tutti noi sappiamo che «mantenersi in linea», in modo ragionevole naturalmente, senza sovraccaricare l'organismo con troppi chili in più del necessario, è importante per la salute, per potersi muovere e lavorare senza sforzo e anche.. .per affrontare più tranquillamente gli anni della seconda e terza età. Questa, per esempio, è una lettera che abbiamo ricevuto.
 *Cara Mariangela,*

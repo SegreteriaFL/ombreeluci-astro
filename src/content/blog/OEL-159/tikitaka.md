@@ -12,7 +12,8 @@ umap_x: 8.475942611694336
 umap_y: 7.382460117340088
 umap_z: 8.443726539611816
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 Il
 progetto TikiTaka equiliberi di essere parte da lontano. E con esso il mio coinvolgimento in un modello di lavoro che fonda le sue basi sul desiderio di comunità, nella convinzione che solo insieme – pubblico, privato sociale, famiglie, persone con disabilità, cittadini –

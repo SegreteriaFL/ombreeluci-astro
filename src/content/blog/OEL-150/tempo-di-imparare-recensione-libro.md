@@ -12,7 +12,8 @@ umap_x: 7.378184795379639
 umap_y: 11.131725311279297
 umap_z: 5.006128787994385
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 «Handicap non è una parola molto facile da far germogliare. Però curati ogni giorno di tenerla umida e coperta, per vedere cosa nasce». È il 2014 quando Valeria Parrella firma il meraviglioso romanzo *Tempo di imparare* in cui canta un percorso – accidentato ma ricco di calore e stupore – sulla scoperta e sull’incontro con la disabilità. Con la disabilità quando smette di essere il numero di una legge, una diatriba tra medici, una guerra tra *life* e *choice* , uno scontro tra troppo e troppo poco. Arturo deve imparare a maneggiare la penna e a salire le scale della scuola, sua madre – zainetto in spalla anche lei – deve imparare cos'è la disabilità; imparare a maneggiarla per renderla una presenza quotidiana.
 

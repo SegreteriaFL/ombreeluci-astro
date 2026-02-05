@@ -12,7 +12,8 @@ umap_x: 6.911174774169922
 umap_y: 8.433822631835938
 umap_z: 8.32181453704834
 issue_number: OEL-155
-id_numero: OEL-155
+id_numero: "OEL-155"
+numero_rivista: "Ombre e Luci"
 ---
 Ciao! **Mi chiamo Silvia, ho 29 anni,** abito a Locate Triulzi, ma da quasi tre anni vivo alla Casa Comune nel quartiere Isola di Milano insieme ad altre ragazze per l’esperienza del “dopo di noi”, ho due fratelli e due nipotini. **Lavoro già da un po’ al McDonald’s in un centro commerciale di Sesto San Giovanni.** Quando ho fatto il colloquio mi avevano chiesto se mi andava bene fare un lavoro ripetitivo che, mi hanno spiegato, vuol dire fare sempre le stesse cose. Così ho imparato a preparare le insalatone e le farciture dei toast. **Non è stato facile essere precisi, ma ci sono riuscita imparando una ricetta alla volta.** Poi la direttrice del mio negozio mi ha fatto lavorare al McCafè ad aiutare la mia collega quando c’è tanta gente: io carico e svuoto la lavastoviglie, così lei può servire i caffè.
 

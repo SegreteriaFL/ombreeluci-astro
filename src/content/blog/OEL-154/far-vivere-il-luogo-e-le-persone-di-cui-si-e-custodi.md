@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 Nelle campagne della Tuscia viterbese sorge **un’azienda agricola familiare che da quattro generazioni tiene testa allo spopolamento generale** della campagna e all’utilizzo esclusivo dei macchinari. Dal 2018 al suo interno ha preso vita [Volta la Terra](https://www.voltalaterra.it/), in una rete di condivisione, di scambio e reciprocità capace a sua volta di rendere partecipi persone ai margini della società. Lavorando la terra le persone ritrovano infatti il loro valore attraverso la cura di un territorio cui ci si accosta - insieme - in maniera più attenta e responsabile. Costanza Mestichelli, 45 anni, ne è la responsabile; vive qui con Filippo Ascenzi, il marito, e i tre figli (Giovanni, Marta e Sabina) e da qualche mese anche con l’amico Pietro, settantacinquenne con disabilità, per allontanarlo dal disagio di una dura periferia romana.
 Come comincia questa esperienza?

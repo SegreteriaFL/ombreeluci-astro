@@ -12,7 +12,8 @@ umap_x: 6.638581275939941
 umap_y: 7.107059001922607
 umap_z: 7.770054817199707
 issue_number: OEL-149
-id_numero: OEL-149
+id_numero: "OEL-149"
+numero_rivista: "Ombre e Luci"
 ---
 Quaranta occhi puntati su di te. Una lavagna super tecnologica, mai vista prima, alle tue spalle. Dieci ore a settimana, per nove mesi, da trascorrere con quei piccoli sconosciuti pieni di aspettative.
 

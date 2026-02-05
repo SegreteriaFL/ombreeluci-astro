@@ -15,7 +15,8 @@ umap_x: 7.2108564376831055
 umap_y: 9.131901741027832
 umap_z: 6.669905662536621
 issue_number: OEL-21
-id_numero: OEL-21
+id_numero: "OEL-21"
+numero_rivista: "Ombre e Luci"
 ---
 Le persone colpite da malattia mentale devono spesso in un primo tempo — chiamato fase acuta della malattia — farsi curare presso i servizi specializzati in neuropsichiatria. Questa malattia però, in molti casi non finisce qui con guarigione completa. Di fatto, in molti di loro continuano, ritornano o rimangono gravi disturbi tali da rendere l'autonomia, la relazione in famiglia e naturalmente il lavoro più o meno impossibili. Si parla allora di cronicità. Abbiamo fatto un tentativo di vedere con i nostri occhi dove e come vivono queste persone. Purtroppo sappiamo tutti, per averle incontrate, che molte di loro vivono per strada o in famiglia in situazioni molto difficili, e, talora, drammatiche. E gli altri?... I due servizi che presentiamo, presentano, in modo superficiale, le due realtà che abbiamo visitato, realtà che sono in netto cntrasto fra loro sotto tutti gli aspetti. Ci auguriamo di cuore che venga fatto molto, molto di più per trasformare la dolorosa e drammatica realtà dei nostri fratelli malati mentali.
 [**Villa S. Giovanni di Dio**](http://www.ombreeluci.it/1988/villa-san-giovanni-di-dio/)

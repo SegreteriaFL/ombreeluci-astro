@@ -4,8 +4,8 @@ date: 2002-06-15
 author: Maria Teresa Mazzarotto
 slug: allalveare-si-scopre-lamerica-e-il-teatro
 lang: it
-numero_rivista: 78
-id_numero: OEL-78
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-78"
 issue_number: OEL-78
 wp_id: 25009
 original_url: "https://www.ombreeluci.it/?p=25009"
@@ -18,7 +18,6 @@ umap_x: 9.030660629272461
 umap_y: 7.69415283203125
 umap_z: 8.8159818649292
 ---
-
 Sì, ce l'abbiamo fatta! Senza l'aiuto di esperti o di addetti ai lavori esterni, ragazzi e amici del laboratorio in un vero teatro, con veri costumi, davanti ad un pubblico pagante, abbiamo recitato "La scoperta dell'America" del poeta romanesco Cesare Pascarella. I nostri ragazzi sono disabili mentali di lieve o media gravità, pochissimi sanno parlare con sufficiente chiarezza e, imparare a memoria un testo anche breve, è per loro impossibile. Ci chiedono: come avete fatto? Cechiamo di spiegarlo.
 
 **Scelta del testo** : divertente, ma non fiabesco o infantile nel contenuti (i nostri amici disabili sono adulti), vivace ma non troppo complicato nell'intreccio. I Versi in romanesco rendevano più familiare il testo e la storia.

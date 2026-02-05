@@ -11,8 +11,9 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nato a Windhoek, in Namibia nel 1972 e cresciuto in Sudafrica, Justin Glyn convive con l’impossibilità visiva di mettere a fuoco (nistagmo), una potente miopia e uno strabismo parzialmente corretto dalla chirurgia. L'anomalo sviluppo di tessuto inutile che preme sul nervo ottico gli compromette pesantemente la vista, e pare sia anche la causa dell'epilessia tenuta a bada dai farmaci. Un insieme di elementi che lo costringono a orientarsi con un bastoncino bianco e due strani telescopi montati sugli occhiali.
 
 Trasferitosi nel 1998 in Nuova Zelanda, Glyn consegue un dottorato in diritto amministrativo e internazionale presso l’università di Auckland. Ultimati gli studi, si sente fortemente attratto dalla professione forense e dal sacerdozio ma gli viene consigliato di fare più esperienza nel mondo prima di intraprendere la vita religiosa. Decide quindi di concentrarsi sul lato legale in Sudafrica e Nuova Zelanda. Entrato nella famiglia dei Gesuiti, nell’agosto 2016 viene ordinato sacerdote. Si reca allora in Canada per studiare diritto canonico presso la St Paul University di Ottawa, dove consegue la Licenza.

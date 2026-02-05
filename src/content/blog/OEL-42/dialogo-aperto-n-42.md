@@ -12,7 +12,8 @@ umap_x: 4.633685111999512
 umap_y: 7.291632652282715
 umap_z: 10.565058708190918
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 ### Grazie a te
 

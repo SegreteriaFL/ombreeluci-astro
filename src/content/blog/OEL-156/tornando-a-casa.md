@@ -12,8 +12,9 @@ umap_x: 6.995402812957764
 umap_y: 4.8588690757751465
 umap_z: 10.638737678527832
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quando arriva il mercoledi, io arrivo alle ore 17.30 dal lavoro, salgo le scale della Rampa Massaciuccoli, e vedo i ragazzi che fumano o parlano, soprattutto le ragazze che parlano di calcio. **La vera sorpresa è che mio nipote Gabriele fa lezione online di religione.** Il professore che fa domande sulla vita di Gesù, l’ultima cena degli apostoli, l’argomento di san Tommaso, se non lo vedo non credo in lui. A turno i ragazzi rispondono alla domanda del catechista alzando la mano, per mezz’ora, poi salutano con la preghiera. Quando capita che chiede di lui per una risposta, gli dice io devo finire i compiti. Mia madre gli prepara la merenda e l’ultima volta era contento di mangiarsi la panna con la marmellata di albicocche. Mio fratello Ernesto che risiede in casa famiglia in via Morgagni, è tanto che non lo fanno uscire per via del covid. **Io sono contento del mio lavoro di imballaggio prodotti medicali reattivi** , i colleghi sono simpatici e mi offrono sempre qualcosina. Il datore di lavoro mi stima e mi dà indicazioni anche sulla pulitura del cortile.
 
 *Editoriale* ** ** [**Nove punti**](https://www.ombreeluci.it/2021/nove-punti/) di Cristina Tersigni

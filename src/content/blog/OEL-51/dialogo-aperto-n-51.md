@@ -12,8 +12,9 @@ umap_x: 5.06301736831665
 umap_y: 7.688873767852783
 umap_z: 11.120654106140137
 issue_number: OEL-51
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Riassaporando Assisi
 
 Grazie allo stupendo numero di Ombre e Luci ricco di foto e riflessioni e commenti su Assisi, ho potuto riassaporare la gioia e le emozioni per quei pochi, ma intensi giorni trascorsi con tutti voi. Non posso che ringraziare di cuore coloro che si sono adoperati per la buona riuscita di questo pellegrinaggio del quale non potranno che rimanermi stampati nel cuore solo momenti di pace, serenità e allegria veramente commoventi. Una vera boccata d’ossigeno per noi mamme con figli disabili che viviamo realtà spesso ben diverse da questo clima anche nella stessa Comunità dove facilmente incontriamo problemi di incomprensione e rivalità. Inoltre spero che questo pellegrinaggio sia anche servito ad incoraggiare tutte quelle persone da poco entrate in Fede e Luce e ancora titubanti e indecise. Ombre e Luci mi ha anche riservato una sorpresa; con grande stupore ho letto del libro che un papà, Redendore Ordan, ha dedicato a suo figlio disabile Francesco dal titolo: «FRANCESCO PORTATORE DI HANDICAP SORRIDE ALLA VITA». Io conosco bene questo ragazzo assieme alla sua famiglia, dato che vivono nel mio paese nativo: Villatora di Saonara (Padova) nel quale ho trascorso la mia giovinezza fino a 25 anni. Per qualche anno inoltre abbiamo trascorso le vacanze estive nella stessa località marina. Quasi ogni giorno ci aspettava accovacciato con le mani sulle ginocchia e un mazzo di carte da gioco sulla via per il mare e vedendoci arrivare si univa a noi per andare in spiaggia. Si passavano così alcune ore assieme a lui e al suo sorriso sincero e gratuito.

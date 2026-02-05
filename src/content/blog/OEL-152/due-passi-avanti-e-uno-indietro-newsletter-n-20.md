@@ -12,8 +12,9 @@ umap_x: 6.120717525482178
 umap_y: 5.995443820953369
 umap_z: 8.871997833251953
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 D**ue passi avanti e uno indietro… –** Domande e risposte, chiusure e aperture, orizzonti che si restringono e scenari che si spalancano: dopo mesi diversissimi da come avremmo potuto immaginarli, è esplosa l’estate – così familiare, eppure ancora piena di interrogativi, due passi avanti e uno indietro in un cammino che resta accidentato. Firmando un racconto profondo e buffo insieme, Serena Sillitto ci invita a percorrerne insieme un tratto, seguendo le tappe del timido [avvicinamento alla normalità](https://www.ombreeluci.it/2020/un-tempo-per-parlare-e-un-tempo-per-tacere/) delle comunità di *Fede e Luce* . Difficoltà e incertezze sono ancora qui, in «un surrogato di normalità» che certo non basta, ma sicuramente aiuta.
 
 Due passi avanti e uno indietro anche nel cammino tracciato dall’uomo che, segnando uno storico spartiacque, «ha traghettato la società italiana (e non solo) tra due epoche»: quarant’anni fa moriva Franco Basaglia, molto citato ma non sempre conosciuto. È Giulia Galeotti a farcene [un ritratto](https://www.ombreeluci.it/2020/storia-di-un-traghettatore/) , nella certezza che «c’è ancora molto da fare, ma tantissimo è stato fatto». Ritratto che Carlo Cinus arricchisce presentando [il documentario](https://www.ombreeluci.it/2020/la-potenza-delle-parole/) che (forse) ne ha meglio incarnato lo spirito e l’azione.

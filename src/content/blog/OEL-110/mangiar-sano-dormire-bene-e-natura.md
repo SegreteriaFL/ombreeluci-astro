@@ -15,7 +15,8 @@ umap_x: 7.393327713012695
 umap_y: 9.911011695861816
 umap_z: 8.184584617614746
 issue_number: OEL-110
-id_numero: OEL-110
+id_numero: "OEL-110"
+numero_rivista: "Ombre e Luci"
 ---
 I
 n talia alcuni operatori dell’Unità Operativa di Neuropsichiatria Infantile di Pomezia (R. Miletto, F. Magnaguagno, F. Cipparone

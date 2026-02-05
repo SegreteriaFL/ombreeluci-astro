@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il 22 febbraio scorso, una notizia terribile esplodeva sulle reti social come un fulmine a ciel sereno: Jean Vanier, il beneamato fondatore de *L’Arca* e di *Fede e Luce*, di cui avevamo fatto memoria qualche mese prima con molta emozione in occasione della sua morte, si era reso colpevole di atti riprovevoli rispetto ad alcune donne che accompagnava spiritualmente. Dopo una primo momento d’incredulità, abbiamo dovuto arrenderci all’evidenza. Non era una* fake news*, ma il risultato di una lunga indagine svolta su richiesta dell’equipe responsabile della Federazione internazionale delle comunità de *L’Arca*.
 
 Per caso (o provvidenzialmente?), la comunità di San Gaetano, della quale sono l’assistente spirituale, aveva proprio prevista una casetta il giorno seguente, una domenica, e il tema di questa riunione era… le maschere che portiamo! Non a causa del covid-19, che non sembrava ancora una minaccia a quell’epoca, ma perché quella domenica era la domenica di Carnevale, quando tanti mettono delle maschere per travestirsi. Retrospettivamente, questo tema si è rivelato veramente profetico per affrontare il tema doloroso del lato oscuro della vita di Jean Vanier.

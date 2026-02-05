@@ -15,8 +15,9 @@ umap_x: 7.039211750030518
 umap_y: 6.996891975402832
 umap_z: 7.313108444213867
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 **Avviso ** Questo articolo è stato scritto molti anni fa. Nella lettura potresti incontrare termini ormai desueti o sgradevoli per la sensibilità attuale. Abbiamo scelto di mantenerli per non tradire il contesto in cui sono stati scritti.
 
 Prima di visitare questa scuola e i bambini che la frequentano, vorremmo parlare un po', senza nessuna pretesa scientifica, della parola "spastico" che si sente spesso ma che il più delle volte è usata in senso inesatto.

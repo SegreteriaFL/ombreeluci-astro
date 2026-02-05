@@ -12,7 +12,8 @@ umap_x: 7.606877326965332
 umap_y: 9.313716888427734
 umap_z: 14.061613082885742
 issue_number: OEL-125
-id_numero: OEL-125
+id_numero: "OEL-125"
+numero_rivista: "Ombre e Luci"
 ---
 C
 he sia una risposta alla richiesta del papa di andare verso le periferie? Per la presidenza del movimento, Fede e Luce ha in ogni caso scelto i limiti del mondo abitato: la Nuova Zelanda. Eletta durante l’assemblea generale a Leeds (Inghilterra) nel luglio scorso per sostituire il canadese Henry Major alla testa del consiglio di amministrazione, AnneMarie Pike vive a Christchurch, la seconda città del paese tristemente conosciuta per il terremoto del 2011. Ma se abita ai confini del planisfero, Anne Marie vive nel cuore di Fede e Luce e del mondo dell’handicap da numerosi anni. E’ madre di tre bambini dei quali John, down, è stato adottato. Fondatrice delle comunità FL della sua città negli anni 80, ha assunto delle responsabilità a livello nazionale prima di essere responsabile della zona Asia-Pacifico in questi ultimi anni. “Vista la lontananza non pensavo che mi avrebbero affidato delle responsabilità internazionali! Ma, la mia filosofia di vita mi fa dire che quando Dio chiama, non ci sono buone ragioni di non volerlo ascoltare…” ci confida colei che aveva pensato – durante la fanciullezza – di diventare missionaria. Una croce di Taizé attorno al collo, un piccolo piercing sul naso, lo sguardo determinato, Anne-Marie Pike offre una testimonianza di abbandono edificante. Il suo impegno ha origine negli anni 70. “Alla morte di mio padre, poco prima del mio matrimonio con Roger, mia madre ha cominciato ad accogliere dei ragazzi senza genitori, alcuni dei quali erano handicappati. Noi abitavamo nelle vicinanze. Fu così che cominciai ad incontrare delle persone con handicap”, ci confida. Nel 1977,la giovane donna è molto colpita dall’incontro con Jean Vanier quando passò per la Nuova Zelanda.

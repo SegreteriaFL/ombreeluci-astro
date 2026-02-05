@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "agricoltura-e-disabilita-il-campo-sperimentale-splende-il-sole"
 lang: it
-numero_rivista: 86
-id_numero: OEL-86
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-86"
 issue_number: OEL-86
 wp_id: 30198
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
-
 Un giorno chiacchierando al telefono, Marco mi disse che gli stava balenando in testa l’idea di far provare a ragazzi con handicap la vita e il lavoro in campagna | nella sua azienda vicino Latina.
 Lui da tempo si occupa di allevamento di mucche e bufale per il latte, ha terra da coltivare e molto spazio da poter sfruttare per diverse attività.
 

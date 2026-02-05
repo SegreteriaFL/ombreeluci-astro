@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### È sufficiente che ci sia incontro perché ci sia Comunità?
 
 È possibile creare un tessuto comunitario restando ognuno nel proprio ambiente? È la sfida che fa Fede e Luce.

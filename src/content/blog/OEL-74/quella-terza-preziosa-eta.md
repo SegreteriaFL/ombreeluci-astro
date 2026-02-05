@@ -12,7 +12,8 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 Cari amici di Ombre e Luci,
 *Sono stata abbonata ad “Ombres et Lumière" durante gli anni in cui ero catechista e mi occupavo in particolare di ragazzi molto difficili. Ora sono qui in casa di riposo nei pressi di Rouen da ormai nove anni. Io stessa ho parecchi problemi di salute e mi trovo a confrontarmi con tanti handicap. Le persone anziane quali siamo noi, ne mettono insieme veramente parecchi: gli occhi, le orecchie, la deambulazione e soprattutto la testa...*

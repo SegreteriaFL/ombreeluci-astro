@@ -12,7 +12,8 @@ umap_x: 6.927117824554443
 umap_y: 9.278841972351074
 umap_z: 8.419086456298828
 issue_number: OEL-110
-id_numero: OEL-110
+id_numero: "OEL-110"
+numero_rivista: "Ombre e Luci"
 ---
 ### In caso di emergenza
 

@@ -12,8 +12,9 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-51
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 Vorremmo che questa rubrica rimanesse presente in ogni numero di Ombre e Luci, per portare un contributo — grande o piccolo — a questo edificio vitale per voi genitori, per voi, amici, bisognosi di una vita da adulti a misura vostra; di una casa che sia più di un semplice tetto, ma un luogo dove trovare sicurezza e calore. Nell’ultimo numero abbiamo fatto l’elenco delle comunità alloggio da noi visitate e presentate per la loro qualità. Oggi, ecco un piccolo decalogo da meditare e da mettere in pratica per poter creare dei veri «luoghi di vita» per i nostri figli più grandi.
 
 ### Per creare un «luogo di vita» bisogna:

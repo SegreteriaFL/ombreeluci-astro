@@ -12,7 +12,8 @@ umap_x: 8.317468643188477
 umap_y: 11.607367515563965
 umap_z: 5.886806964874268
 issue_number: OEL-43
-id_numero: OEL-43
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
 **È la biografia di Dietrich Bonhoeffer, pastore luterano** , **nato a Breslavia nel 1906 e morto nel campo di concentramento di Flossenburg, nel 1945** ; un libro-testimonianza per chi si interessa al movimento ecumenico, alla storia del cristianesimo, alla storia contemporanea.
 

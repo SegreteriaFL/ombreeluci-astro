@@ -16,7 +16,8 @@ umap_x: 5.289140224456787
 umap_y: 10.263957023620605
 umap_z: 9.057636260986328
 issue_number: OEL-9
-id_numero: OEL-9
+id_numero: "OEL-9"
+numero_rivista: "Ombre e Luci"
 ---
 **Sento talvolta in voi un imbarazzo fatto di pudore, ma forse anche di vergogna, di rivolte o anche di avversione verso chi si prende tutte le attenzioni ed è un carico troppo pesante da portare.**
 Mio fratello minore era handicappato mentale lieve; era anche epilettico. Abitavamo in una fattoria, in campagna. A quell’epoca non esistevano quasi scuole né centri per handicappati, cosicché i nostri genitori furono costretti a tenerlo sempre a casa. Era molto sereno. Gli avevamo affidato diversi compiti: prendere le uova nel pollaio, dare il fieno ai cavalli, tagliare la legna. Era molto fiero di questi lavori e ne era sempre soddisfatto. Chiedeva solo un po’ di incoraggiamento e qualche soldo che conservava fino al giorno in cui poteva andare in città. Era perfettamente accettato dai vicini e andava a trovarli ogni volta che lo desiderava. Se a casa a pranzo c’era qualcosa che non gli piaceva, andava a mangiare in un’altra famiglia. Gli animali gli si erano affezionati in maniera sorprendente: spesso rientrava in casa seguito da una processione di gatti e di cani che non sempre erano bene accolti.

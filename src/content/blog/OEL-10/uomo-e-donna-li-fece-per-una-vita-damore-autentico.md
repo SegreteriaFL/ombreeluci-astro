@@ -12,7 +12,8 @@ umap_x: 8.243267059326172
 umap_y: 11.89257526397705
 umap_z: 10.160547256469727
 issue_number: OEL-10
-id_numero: OEL-10
+id_numero: "OEL-10"
+numero_rivista: "Ombre e Luci"
 ---
 In quest’opera Jean Vanier pone il problema dell’amore e della sessualità ad un livello molto profondo. Qual’è il senso della vita della persona handicappata? A quale fecondità può essere chiamata? Come accompagnarla e sostenerla, sia nel celibato che nel matrimonio? L’autore non offre facili soluzioni, ma sottolinea l’importanza di una vera educazione, che spesso passa per la sofferenza, per giungere ad una liberazione, una pace, un'unità interiore. L’autore ha una grande esperienza poiché da vent'anni vive quotidianamente con adulti handicappati mentali ed è all'origine di 67 comunità dell’
 [*Arche*](http://www.ombreeluci.it/1985/la-sfida-dellarca-recensione/)

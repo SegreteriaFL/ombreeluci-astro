@@ -1,15 +1,38 @@
 ---
 id: "OEL-93"
-title: "Ombre e Luci n. 93 - La forza della tenerezza"
+title: "Ombre e Luci n. 93 – La forza della tenerezza"
 tipo: "ombre-e-luci"
 numero: 93
-anno: "2006"
+sort_order: 192
+pubDate: "2006-03-01T00:00:00Z"
 data_pubblicazione: "Marzo 2006"
 sommario: "Ombre e Luci n. 93 – La forza della tenerezza ultima modifica: 2006-03-19T22:05:38+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_93_2006.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_93"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-93-la-forza-della-tenerezza/"
+articoli:
+  - "la-forza-della-tenerezza-lincanto-si-e-rotto"
+  - "le-mollette-di-roberto"
+  - "la-ragazzina-nuova"
+  - "dalle-un-bacio"
+  - "in-carcere"
+  - "pizza-suppli-e-bibita-a-7-euro"
+  - "la-tenerezza-di-dio-2"
+  - "questo-bambino-lo-amo"
+  - "counseling-in-rima"
+  - "come-in-trasparenza-diario-di-un-malato-di-parkinson-recensione"
+  - "il-parkinson-una-scheda-per-saperne-di-piu"
+  - "gli-amici-che-non-ti-aspetti"
+  - "cartelli-divertenti-letti-sulle-porte-delle-parrocchie"
+  - "ne-giusto-ne-sbagliato-recensione"
+  - "credere-e-curare-recensione"
+  - "la-disabilita-non-e-un-limite-se-mi-ami-costringimi-a-cambiare-recensione"
+  - "il-vangelo-per-tutti-i-disabili-mentali-e-la-domenica-nella-comunita-ecclesiale"
+  - "dopo-di-noi-insieme-a-noi-famiglie-e-servizi-nella-cura-dei-disabili-adulti"
+  - "gli-oggetti-raccontano-storie-straordinarie-di-oggetti-comuni-recensione"
+  - "dialogo-aperto-n-93"
+  - "una-sera-a-roma-stadio-dei-marmi-special-olympics"
 ---
 
 ## Indice

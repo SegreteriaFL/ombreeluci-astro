@@ -12,8 +12,9 @@ umap_x: 8.310178756713867
 umap_y: 7.355454921722412
 umap_z: 8.226402282714844
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 A Vignola, nel modenese, è attivo dallo scorso giugno il progetto #Socialavoratori che coinvolge 16 persone con disabilità in attività di operatore di sala e aiuto cuoco. L’iniziativa ha il supporto della regione e del Csv e coinvolge una rete di associazioni locali
 
 Entri e ti accolgono tutti con un bel sorriso, il sorriso di chi è fiero e orgoglioso di quello che sta facendo, perché lo sta facendo bene. Ci troviamo a Vignola, nel Modenese, all’interno del locale “ **The Square – American grill & lounge bar** ” dove dallo scorso giugno è attivo il progetto “# **Socialavoratori** **– dall’inclusione all’autonomia** ” che coinvolge **16 persone con disabilità, di età compresa tra i 20 e i 55 anni,** in attività di operatore di sala e aiuto cuoco.

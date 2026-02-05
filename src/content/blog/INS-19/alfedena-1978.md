@@ -15,8 +15,9 @@ umap_x: 8.173787117004395
 umap_y: 6.983439922332764
 umap_z: 11.601835250854492
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Per la terza volta ad [Alfedena](https://www.ombreeluci.it/tag/alfedena/) un gruppo di amici si è ritrovato per vivere fraternamente qualche settimana in comunione.
 
 Le eco entusiaste che seguono, dicono a che punto l'esperienza è stata positiva. Ma non dobbiamo dimenticare che queste tre settimane di vacanze sono state rese possibili da una preparazione e un'organizzazione minuziosa.

@@ -15,14 +15,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_003/Ombre-e-Luci-n.3.pdf"
 archive_id: OmbreELuci_003
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-707x1024.jpeg"
 periodo_label: Luglio – Agosto
-numero_rivista: 3
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-3
 umap_x: 7.398077487945557
 umap_y: 6.601414203643799
 umap_z: 10.197449684143066
+id_numero: "OEL-3"
 ---
-
 Il tempo delle vacanze può essere il più difficile e logorante per la famiglia dell’handicappato. Quando non possiede una casa adatta, deve uscire dal suo ambiente, dove si sono stabiliti una certa simpatia, un minimo di solidarietà e dove la curiosità e l‘imbarazzo sono ormai attutiti; per andare in un altro luogo dove spesso i rifiuti, pregiudizi, pietà e curiosità offensive sono il prezzo intollerabile di una “villeggiatura”. Un modo per rendere possibile una vacanza, un breve tempo di rifiato a famiglie di persone con handicap, è aprir loro le case inutilizzate del tutto, o per gran parte del tempo. Alcuni lo fanno.
 
 Francesca Biondi da sette anni presta nel mese di luglio la sua casa ad Alfedena nel Parco Nazionale d’Abruzzo.

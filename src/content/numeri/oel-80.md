@@ -3,13 +3,27 @@ id: "OEL-80"
 title: "Ombre e Luci n.80"
 tipo: "ombre-e-luci"
 numero: 80
-anno: "2002"
+sort_order: 179
+pubDate: "2002-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 2002"
 sommario: "Ombre e Luci n. 80 ultima modifica: 2002-12-28T12:57:10+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_80_2002.jpg"
 link_sfoglia: "https://archive.org/details/ombreelucin_80"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-80/"
+articoli:
+  - "ci-e-stato-dato-un-figlio"
+  - "solo-un-trattino"
+  - "lettera-da-una-mamma-del-molise"
+  - "ma-come-fa-una-mamma"
+  - "che-cosa-fare-con-loro-la-casa-del-sole-e-il-centro-di-solidarieta"
+  - "amici-sempre"
+  - "incontri"
+  - "natale-nel-mio-cuore"
+  - "la-scopa-incantata-una-fiaba-per-natale"
+  - "casa-famiglia-la-tenda-per-bambini-da-0-a-6-anni"
+  - "la-fola-de-nadae-la-favola-di-natale-in-dialetto-veneto"
+  - "lettere-di-natale-alla-madre-recensione-libro"
 ---
 
 ## Indice

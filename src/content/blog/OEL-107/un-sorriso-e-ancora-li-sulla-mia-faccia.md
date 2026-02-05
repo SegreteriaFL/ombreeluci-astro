@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 Ieri sono tornato a casa dopo un weekend di ritiro con tutte le comunità del mio paese. Che meravigliosa esperienza è stata!Sento dentro, ancora, il calore dell’incontro ed un sorriso è ancora lì sulla mia faccia. Mi sembra che in questo stato in cui mi sento, potrei cambiare il mondo.
 

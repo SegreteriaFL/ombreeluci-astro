@@ -12,7 +12,8 @@ umap_x: 8.781059265136719
 umap_y: 9.580852508544922
 umap_z: 10.671610832214355
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 “Amici portatori di handicap, voi siete preziosi per la Chiesa. Nella vostra prossimità con Gesù e Maria siete testimoni privilegiati dell’amore di Dio per ciascuno di noi. Che Dio vi benedica”.
 

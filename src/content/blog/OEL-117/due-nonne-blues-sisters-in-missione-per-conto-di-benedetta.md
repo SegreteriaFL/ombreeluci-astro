@@ -12,7 +12,8 @@ umap_x: 4.84765625
 umap_y: 9.976089477539062
 umap_z: 8.776329040527344
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 Va subito chiarita una verità: non è Benedetta ad aver bisogno di noi nonne; siamo noi ad aver bisogno di Benedetta. Non è un’affermazione retorica o buonista. E’ la pura e semplice verità, constatata quotidianamente in questi otto anni. Sì, fin dal primo istante, noi nonne non ci siamo mai tirate indietro e, pur con tutti i nostri limiti e le nostre debolezze, ci siamo rimboccate le maniche e ci siamo buttate a capofitto in questa incredibile, bellissima - ma a tratti anche dolorosa - avventura unica e irrepetibile che Benedetta ci ha prepotentemente chiamate a vivere. Senza che ci fossimo preparate. Già, non esistono “corsi per nonne con nipotine che hanno la sindrome di Down”. O qualsiasi altra disabilità.
 

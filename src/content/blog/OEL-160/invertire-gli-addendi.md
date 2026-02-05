@@ -12,7 +12,8 @@ umap_x: 6.617351531982422
 umap_y: 8.530280113220215
 umap_z: 7.35634708404541
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 Edoardo Savoia dimostra 13 dei suoi 19 anni: è rimasto piccino per una serie di difficoltà alla nascita e altre non ancora individuate (nonostante le tante ricerche fatte), ha tratti di autismo non verbale e si muove parecchio per l’iperattività. **Da tempo il papà Umberto cercava qualche attività fisica, alternativa alle camminate, per condividere il tempo libero a Prato.** Aveva pensato alla bicicletta ma, superata l’età e il peso per i seggiolini, non c’era mezzo, neanche il tandem, che offrisse le giuste garanzie di sicurezza.
 

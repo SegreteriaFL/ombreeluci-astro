@@ -12,7 +12,8 @@ umap_x: 6.786408424377441
 umap_y: 9.320501327514648
 umap_z: 7.591922760009766
 issue_number: OEL-164
-id_numero: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
 Tutti indistintamente, in qualsiasi condizione siano, **hanno diritto di stare bene** . Eppure, anche se Milano è una città all’avanguardia per la sanità, purtroppo spesso noi disabili facciamo fatica a trovare la struttura giusta. Per quello che mi riguarda, diversi anni fa ho avuto problemi a trovare una struttura preparata, sia dal punto di vista del personale che delle attrezzature, adatta a farmi un esame.
 

@@ -17,7 +17,8 @@ umap_x: 7.346626281738281
 umap_y: 8.97451114654541
 umap_z: 6.755720615386963
 issue_number: OEL-169
-id_numero: OEL-169
+id_numero: "OEL-169"
+numero_rivista: "Ombre e Luci"
 ---
 Appartenere a una comunità capace di prendersi cura può renderci cittadini migliori? Per indagare questo tema – cioè come la scelta di coltivare relazioni di cura potrebbe renderci persone più attente e accoglienti – ho visitato Geel in Belgio. Da secoli gli abitanti di questa città ospitano nelle loro case persone con malattie mentali, in una relazione di parentela: i familiari affidatari si prendono cura degli ospiti fragili e costoro, a loro volta, si prendono cura delle loro famiglie affidatarie.
 

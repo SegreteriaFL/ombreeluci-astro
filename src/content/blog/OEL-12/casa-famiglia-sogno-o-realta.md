@@ -11,8 +11,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-12
+id_numero: "OEL-12"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ogni mamma e ogni papà vivono con trepidazione e spesso con angoscia il futuro del proprio figliolo handicappato, soprattutto quando i capelli si fanno bianchi.
 E’ un problema grosso e non è certo scrivendo un giornalino che si può risolvere. Ne siamo coscienti.
 Ci ha spinto a questo passo, proprio il fatto che tutti ci interpellano: i genitori più dinamici e quelli più rassegnati, i più giovani e i più anziani. Vorremmo avere una risposta concreta, pronta, qui sul tavolo: qualche indirizzo, qualche casa, qualche comunità. Purtroppo non c'è quasi niente...

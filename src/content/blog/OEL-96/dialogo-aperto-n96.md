@@ -4,8 +4,8 @@ date: 2006-12-28
 author: Redazione
 slug: dialogo-aperto-n96
 lang: it
-numero_rivista: 96
-id_numero: OEL-96
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-96"
 issue_number: OEL-96
 wp_id: 32273
 original_url: "https://www.ombreeluci.it/?p=32273"
@@ -15,7 +15,6 @@ umap_x: 4.348881244659424
 umap_y: 7.99333381652832
 umap_z: 10.317121505737305
 ---
-
 ### Stando al loro fianco
 
 Sono una mamma di due ragazzi sani, non ho particolari problemi nella vita ed ho conosciuto circa venti anni fa la vostra rivista quando ero ancora una ragazza. Sono stata sensibilizzata da un’amica, Annette Devreux, al mondo dei diversamente abili, che per me era sconosciuto. Non mi ha fatto paura, io ero alla ricerca di una Risposta ad ogni cosa che la vita mi proponeva, e questa era un’altra occasione, una nuova esperienza. Lavoro ormai da diciotto anni all'Istituto Don Orione di Milano e posso dire che l'Amore di Dio si rivela ogni giorno anche in mezzo a loro, gli ospiti del Don Orione e attraverso di loro. Non nascondo, dicendo questo, tutte le fatiche e le sofferenze che si vivono ogni giorno stando al loro fianco e assistendoli. Deve entrare in gioco il meccanismo (o la Grazia) dell’Amore Gratuito, sennò è troppo pesante accettare e condividere certe realtà di limite fisico e psichico. Per favore, vi chiedo di segnalarmi, se c'è, qualche realtà di Fede e Luce a Milano... Ho il desiderio di avvicinare anche i miei figli a opere di volontariato presso qualche struttura come la vostra, fatemi sapere se è possibile secondo le modalità adatte per la loro età...

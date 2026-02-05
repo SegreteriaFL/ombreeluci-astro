@@ -12,7 +12,8 @@ umap_x: 7.85516881942749
 umap_y: 11.061553001403809
 umap_z: 5.089505195617676
 issue_number: OEL-110
-id_numero: OEL-110
+id_numero: "OEL-110"
+numero_rivista: "Ombre e Luci"
 ---
 Ho letto diversi libri di Marisa e Giancarlo, alcuni per bambini, altri più tecnici, alcuni decisamente autobiografici, altri di narrativa. Ho scelto di presentare questo forse perché nel titolo compaiono le i aquile, che mi hanno sempre affascinata, o forse perché nella brevità e simpatica leggerezza dello svolgimento ho trovato moltissimi spunti di riflessione e idee guida forti, utili per tutti, non solo per chi Valerio Editore ha a che fare con un handicap.
 

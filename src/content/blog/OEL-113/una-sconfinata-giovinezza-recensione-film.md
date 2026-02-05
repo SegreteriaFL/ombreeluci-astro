@@ -12,7 +12,8 @@ umap_x: 8.624755859375
 umap_y: 9.300552368164062
 umap_z: 3.611304998397827
 issue_number: OEL-113
-id_numero: OEL-113
+id_numero: "OEL-113"
+numero_rivista: "Ombre e Luci"
 ---
 I
 n questi ultimi anni abbiamo iniziato a conoscere e ad avere familiarità con la malattia di

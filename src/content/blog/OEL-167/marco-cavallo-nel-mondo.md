@@ -15,7 +15,8 @@ umap_x: 7.61157751083374
 umap_y: 9.093589782714844
 umap_z: 5.886353015899658
 issue_number: OEL-167
-id_numero: OEL-167
+id_numero: "OEL-167"
+numero_rivista: "Ombre e Luci"
 ---
 Durante la visita a Trieste il 7 luglio scorso per la Settimana sociale dei cattolici, anche Papa Francesco lo ha incontrato di persona. Del resto in questo anno del centenario basagliano di Marco Cavallo se ne sono visti tanti e nuovi. Uno, ad esempio, a San Salvi, l’ex manicomio di Firenze: l’11 marzo i Chille de la balanza (compagnia di teatro fondata da Claudio Ascoli) hanno donato alla città un Marco Cavallo ispirato al modello progettato da Leonardo da Vinci per gli Sforza, alto 5 metri e lungo 8, in plastica riciclata; reso possibile anche grazie ai tanti sottoscrittori del progetto Produzioni dal basso-Banca Etica, è stato collocato nel prato che costeggia la linea ferroviaria Roma-Firenze. Uno spettacolare Marco Cavallo era apparso poco prima tra i carri del Carnevale di Viareggio: in cartapesta, cosparso di fiori luminosi (oltre 100 rose e 6mila foglie) firmato da Carlo e Lorenzo Lombardi, intitolato *Il profumo delle rose nelle spine* ; non accanto alle spine, ma nelle spine, cioè nel dolore e nelle fragilità. Ma chi sono e a chi si richiamano questi grandi destrieri?
 

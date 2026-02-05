@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 Mi presento: sono Maddalena, una capo dell'Associazione Italiana Guide e Scouts d'Europa Cattolici (FSE). Ho cominciato la mia vita scout come Coccinella, nel 1972:potete immaginare quanti anni ho. Sono Sposata con Roberto, anche lui con un’esperienza scout e di capo FSE.
 Il nostro matrimonio è stato benedetto con l'arrivo di due figlie: Veronica, che ora ha 18 anni, e Maria, che ne ha 13, e che ha la Sindrome di Down.

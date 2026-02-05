@@ -12,7 +12,8 @@ umap_x: 9.465606689453125
 umap_y: 7.755273818969727
 umap_z: 7.026675224304199
 issue_number: OEL-138
-id_numero: OEL-138
+id_numero: "OEL-138"
+numero_rivista: "Ombre e Luci"
 ---
 **Oltre al finanziamento del fondo per l'assistenza alle persone con disabilità grave prive del sostegno familiare, agli sgravi nella successione per i beni conferiti in trust, alla detraibilità delle polizze...quali sono le reali novità in questa legge? (ad esempio, lo strumento del trust era già disponibile, o la possibilità di costituire gruppi appartamento non esisteva già?)** L’istituto del trust che significa, di fatto, “contratto di fiducia” e proviene da norme di origine anglosassone. In precedenza in Italia non era normato ma lo stesso si poteva applicare in quanto riconosciuto a livello europeo. Con la legge 112 (come ANFFAS avremmo preferito che si provvedesse con separata norma), il legislatore ha introdotto una norma che consente di istituire, tra l’altro, il trust in favore di persone con disabilità gravi certificate ai sensi della legge 104/’92 art. 3 comma 3, usufruendo delle previste agevolazioni.
 

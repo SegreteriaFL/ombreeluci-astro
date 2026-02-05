@@ -15,8 +15,9 @@ umap_x: 9.335615158081055
 umap_y: 7.813168048858643
 umap_z: 7.175727367401123
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Dal 1° marzo 2022 sulla busta paga dei lavoratori scompariranno gli assegni al nucleo familiare (ANF) e le detrazioni per figli a carico fino a 21 anni, somme quindi che i dipendenti non vedranno più attribuirsi già dalla busta paga di marzo.
 
 Contemporaneamente le misure di sostegno per figli a carico in vigore **saranno sostituite dall’assegno unico e universale** , erogato mensilmente **direttamente dall’INPS** ai nuclei familiari, per il periodo compreso tra marzo di ciascun anno e febbraio dell’anno successivo. Potranno richiederlo tutti i nuclei familiari: sia coloro che hanno un rapporto di lavoro dipendente o pensione, sia coloro che percepiscono (ad esempio) un reddito di lavoro autonomo o privi di reddito.

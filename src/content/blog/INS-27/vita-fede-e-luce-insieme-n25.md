@@ -12,8 +12,9 @@ umap_x: 7.490071773529053
 umap_y: 8.235726356506348
 umap_z: 12.944889068603516
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 ### A Marzocca
 
 Siamo state chiamate… Abbiamo risposto Sì. Questo servizio di incontro l'abbiamo iniziato invocando lo Spirito Santo ad aiutarci a dare sempre e dovunque, a chi avvicinerà, un raggio di *luce* confortati dalla *fede* in Cristo Gesù. Mi è difficile riuscire ad esprimere concisamente questa esperienza ma ci proverò.

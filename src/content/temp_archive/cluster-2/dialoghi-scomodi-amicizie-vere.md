@@ -7,6 +7,7 @@ cluster_id: 2
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-23-dic-1979.webp"
 slug: "dialoghi-scomodi-amicizie-vere"
 has_comments: false
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

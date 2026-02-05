@@ -4,8 +4,8 @@ date: 1997-09-19
 author: Mariangela Bertolini
 slug: la-loro-vita-nei-film
 lang: en
-numero_rivista: 59
-id_numero: OEL-59
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-59"
 issue_number: OEL-59
 wp_id: 11640
 original_url: "https://www.ombreeluci.it/?p=11640"
@@ -17,7 +17,6 @@ umap_x: 8.773959159851074
 umap_y: 8.203547477722168
 umap_z: 3.2591867446899414
 ---
-
 O
 ra che il cinema , attraverso la televisione è entrato nelle nostre case, si ripropone, più di prima, come nuovo modo di divertire, ma anche di conoscere e di sapere. Come nella letteratura, gli argomenti più disparati si prestano a diventare film: avventura, fantasia, storia, viaggi, cronaca; guerra e idilli, amori e conflitti; invenzione e realtà. Da anni, ormai, alcuni registi si sono cimentati nell'affrontare il mondo dell’handicap, della diversità, del disagio, dell'emarginazione. Vincendo la paura di vedere le sale vuote, la gente allontanarsi da immagini poco gradite, hanno osato presentare al pubblico storie vere, vissute, scomode. C’è chi è riuscito a farne dei capolavori, ottenendo successi imprevisti. C’è chi è riuscito solo in parte e ha fatto fiasco. Ci sono state critiche positive, reazioni violente, soprattutto agli inizi. Ci è sembrato interessante parlarne su Ombre e Luci per vari motivi. Innanzi tutto perché il repertorio è ormai consistente ed è opportuno sapersi orientare nella scelta di temi che toccano da vicino molti nostri amici. Perché guardando una pellicola si ha l’occasione di confrontarsi, parlare insieme, criticare ed approvare. Si può imparare a conoscere aspetti atteggiamenti, pedagogie, e terapie sconosciute. Per domandarsi infine, come e quanto questi film incidano su chi li vede, soprattutto sulle persone direttamente coinvolte in situazioni analoghe e simili. È un tentativo, un primo approccio. Per quattro film più noti abbiamo chiesto le reazioni di altrettante persone che vivono la situazione rappresentata: due giovani disabili, una mamma ed una sorella. Le risposte sono dettate da quanto loro hanno provato. Le loro reazioni sono soggettive e interessanti; forse non possono essere condivise da tutti. Li ringraziamo di averci aiutato a cominciare un dialogo con i nostri lettori su un tema non facile ma certo ricco di sviluppi importanti nel futuro. -
 *Mariangela Bertolini*

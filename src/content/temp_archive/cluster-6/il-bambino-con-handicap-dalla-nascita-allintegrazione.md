@@ -7,6 +7,7 @@ cluster_id: 6
 image: "http://www.ombreeluci.it/wp-content/uploads/1989/12/nicoleschulthes.jpg"
 slug: "il-bambino-con-handicap-dalla-nascita-allintegrazione"
 has_comments: false
+id_numero: "OEL-56"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

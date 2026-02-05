@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "noi-papa-di-figli-disabili-un-modo-diverso-di-amare"
 lang: it
-numero_rivista: 92
-id_numero: OEL-92
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-92"
 issue_number: OEL-92
 wp_id: 31321
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Sono spesso criticati o presi in giro dalle mamme per la loro incompetenza nell'accudire un figlio appena nato; sono giudicati severamente dalle mogli più buone quando, invece di rimproverare, si fanno partecipi del chiasso o del disordine al momento di andare a tavola. E quando, invece di ubbidire ai richiami muliebri, si allontanano con una scusa, o si mettono a leggere il giornale... apriti cielo!
 
 Poveri papà, così poco capiti e "compatiti"!

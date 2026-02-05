@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 Ci siamo trovati dentro per caso! Un pomeriggio Mariangela parlava di pentole da trovare, di fornelli da impiantare, di tavolini da pitturare e piatti, cartelloni, bicchieri e posate, tappeti fuori uso, giochi da inventare, marmellata per la merenda, detersivi, pennelli, "chi viene a mettere a posto?", "il riso lo fai tu?", "avete preso l'acquaragia?". Per chi la conosce non è una novità.
 
 Si può star tranquilli che nessuno berrà l'acquaragia e non si incolleranno i cartelloni con la marmellata. Ma il problema resta quello di capire cosa c'è sotto.

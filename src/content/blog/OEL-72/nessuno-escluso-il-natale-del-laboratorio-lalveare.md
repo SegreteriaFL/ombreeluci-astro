@@ -14,8 +14,9 @@ umap_x: 8.939634323120117
 umap_y: 7.554044246673584
 umap_z: 8.938068389892578
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 È possibile raccontare una storia con una sequenza di fotografie e poche righe di spiegazione? I ragazzi del laboratorio l'Alveare, coraggiosamente, hanno tentato l’esperimento e ci offrono una storia che è la storia di Natale ma anche una storia dei nostri giorni.
 
 **Testo** : Penna blu **Foto** : Bice Dinale **Organizzazione** : tutti gli amici del Laboratorio. **Attori** : tutti i ragazzi del Laboratorio.

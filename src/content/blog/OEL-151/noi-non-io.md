@@ -12,7 +12,8 @@ umap_x: 7.364512920379639
 umap_y: 9.013833045959473
 umap_z: 12.643998146057129
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 Ho il sospetto che molte persone che fanno parte attiva del variegatissimo movimento di [Fede e Luce](http://fedeeluce.it) ne conoscano poco le fonti scritte. La prima sono io che, solo anni dopo il mio ingresso in comunità, ho sentito prima il bisogno (quando sono diventata coordinatrice) e poi il desiderio (quando ho cominciato a sentirmi filo di un arazzo) di saperne di più. Di entrare con più consapevolezza nel cuore di quella piccola scintilla accesa ufficialmente a Lourdes nella Pasqua del 1971 e che brilla da quasi cinquant’anni nelle storie e nelle giornate di tante persone nel mondo.
 

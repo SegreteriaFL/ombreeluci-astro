@@ -17,7 +17,8 @@ umap_x: 9.206661224365234
 umap_y: 7.949600696563721
 umap_z: 3.5936477184295654
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 Tra le tante prime volte dei film prodotti dai fratelli Lumière, ci sono anche i primi pellegrini immortalati da una cinepresa, nei pressi del Santo Sepolcro a Gerusalemme. Poi, **nel settembre 1897, fu proiettato un intero spettacolo dedicato a Lourdes** : una sequenza di sette corti con i primi filmati dell’assistenza ai malati non autosufficienti e delle processioni dei pellegrini, scene che si ripetono ancora oggi a distanza di più di un secolo.
 

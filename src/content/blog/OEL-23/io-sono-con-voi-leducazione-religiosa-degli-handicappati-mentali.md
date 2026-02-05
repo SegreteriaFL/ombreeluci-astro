@@ -15,7 +15,8 @@ umap_x: 8.969894409179688
 umap_y: 10.768091201782227
 umap_z: 7.887907028198242
 issue_number: OEL-23
-id_numero: OEL-23
+id_numero: "OEL-23"
+numero_rivista: "Ombre e Luci"
 ---
 Dalla prefazione del libro: «Le persone con handicap mentale sono capaci, a modo loro, di conoscere e di amare. Perciò ciascuno, secondo la propria capacità, può ricevere un’educazione religiosa; e noi abbiamo il dovere di dargliela. Ma in che modo possiamo dare questa educazione religiosa agli handicappati mentali? Centinaia di genitori, insegnanti e sacerdoti si chiedono con ansia a chi rivolgersi per avere una guida. Questo libro è un tentativo di risposta. È stato redatto su richiesta della Conferenza episcopale d’Inghilterra e Galles, più come prima che come ultima parola sull'argomento. Sappiamo bene che si tratta di esplorare un terreno nuovo. Speriamo che altri si sentano incoraggiati a entrare in questo campo, dove c'è tanto da imparare e dove c'è un reale bisogno di aiuto».
 

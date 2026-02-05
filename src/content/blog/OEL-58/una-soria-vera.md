@@ -4,8 +4,8 @@ date: 1997-06-12
 author: Maria Teresa Mazzarotto
 slug: una-soria-vera
 lang: it
-numero_rivista: 58
-id_numero: OEL-58
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-58"
 issue_number: OEL-58
 wp_id: 11538
 original_url: "https://www.ombreeluci.it/?p=11538"
@@ -15,7 +15,6 @@ umap_x: 6.4069294929504395
 umap_y: 9.385754585266113
 umap_z: 10.276556015014648
 ---
-
 Questa è una storia vera che potrebbe iniziare così: c era una volta... C'era una volta una bella bambina bruna di nome Sabina che viveva felice con i genitori e i fratelli in una grande casa di un piccolo paese: San Benedetto dei Marsi in provincia di Aquila. Una vecchia fotografia ci mostra Sabina, a cinque o sei anni, con il vestitino della domenica, seria attenta mentre tiene per mano saldamente la sorellina più piccola. Entrambe sono in piedi, su due seggiole vicine, guardano il fotografo, un po' preoccupate per l’insolito avvenimento: la fotografia ufficiale. È l'anno 1922, o il 1923: bisogna guardarla con attenzione questa piccola Sabina, bisogna scrutare i suoi occhi seri, luminosi e intensi perché li vediamo qui per l'ultima volta. Infatti la storia continua così: Quando ha sette anni, nel 1924, Sabina è colpita da una grave malattia: meningite. Era il lunedì della settimana santa e così racconterà lei stessa quei giorni ai suoi amici del «Mondo silente» tanti anni più tardi: «...il giovedì santo sera gettai intorno l'ultimo sguardo nella camera, la mattina dopo udii l'ultimo grido, seguito da una sbattuta di porta: da allora niente più». Perde conoscenza e si ritrova, dopo una settimana dall'inizio della malattia, sola in un lettino del policlinico Umberto I di Roma. Sabina è disorientata, non sa cosa le succeda. Tenta di scavalcare la finestra per fuggire ma, come racconta la sorella: «fu ripresa in tempo dall’infermiera che “delicatamente» la legò al lettino perché non scappasse, anziché tenerla, magari, in braccio».
 
 Sabina torna a casa dopo due mesi: ha solo sette anni, ha interrotto la seconda elementare e il suo banco resterà vuoto. È ancora Sabina che così ricorda quel momento di vita: «...Quel po' di luce distinta che percepivo ancora bastava a favorirmi l'illusione di vedere, come pure il ronzio nelle orecchie contribuiva a farmi credere di sentire rumori e voci: pure sapevo di non cogliere le forme e i colori, né le parole, ma non volevo dirmelo». Le vicine vengono a trovare la piccola ammalata, il fratello gliele indica e la invita a dirne il nome: Sabina non ne riconosce nessuna... C'era una volta una bambina molto coraggiosa che, invece di piangere e disperarsi, disse allora al fratellino:

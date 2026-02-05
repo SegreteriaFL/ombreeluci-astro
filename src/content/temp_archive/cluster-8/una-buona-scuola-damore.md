@@ -7,6 +7,7 @@ cluster_id: 8
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_130_2015.jpg"
 slug: "una-buona-scuola-damore"
 has_comments: false
+id_numero: "OEL-130"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

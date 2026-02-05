@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 Lourdes - Domenica di Pasqua
 Nel piazzale antistante la basilica c’era un po’ di confusione, come in ogni grande festa. **Eravamo lì, sedicimila persone, di ogni età, di ogni razza, cristiani di professioni diverse. Di settantacinque paesi, di cinque continenti.

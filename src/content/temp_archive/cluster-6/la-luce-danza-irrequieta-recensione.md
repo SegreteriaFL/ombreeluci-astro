@@ -7,6 +7,7 @@ cluster_id: 6
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/07/Ombre_e_Luci_162_2023-206x300.jpg"
 slug: "la-luce-danza-irrequieta-recensione"
 has_comments: false
+id_numero: "OEL-162"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

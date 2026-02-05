@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf"
 archive_id: OmbreELuci_001
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/1983/03/Archivio-Num.-1-1983-1.png"
 periodo_label: Gennaio, Febbraio, Marzo
-numero_rivista: 1
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-1
 umap_x: 5.526395320892334
 umap_y: 9.229522705078125
 umap_z: 7.442680835723877
+id_numero: "OEL-1"
 ---
-
 Le ombre le conosciamo bene, noi. La scoperta brutale o progressiva dell’handicap del nostro bambino, l’andirivieni da un medico all’altro, da uno specialista all’altro; la ricerca delle cause: eredità di una famiglia o dell’altra? Negligenza dell’ostetrico? Dell’infermiera?
 
 L’incubo dell’avvenire: e dopo la nostra morte? Chi si occuperà di lui? I soldi messi da parte, a che cosa serviranno? I fratelli, le sorelle: fino a che punto è giusto contare su di loro? Si può lasciar pesare sulla famiglia questa presenza dolorosa? La risposta da trovare quando lui, in età adulta, ci parla del suo desiderio di sposarsi; la rivolta, ogni tanto: la rivolta contro Dio, il dubbio sulla sua bontà, sulla sua esistenza; il “sì" così dolorosamente pronunciato e presto rimesso in questione.

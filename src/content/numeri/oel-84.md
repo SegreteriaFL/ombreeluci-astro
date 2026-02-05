@@ -1,15 +1,32 @@
 ---
 id: "OEL-84"
-title: "Ombre e Luci n. 84 - Lettere di Natale"
+title: "Ombre e Luci n. 84 – Lettere di Natale"
 tipo: "ombre-e-luci"
 numero: 84
-anno: "2003"
+sort_order: 183
+pubDate: "2003-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 2003"
 sommario: "Ombre e Luci n. 84 – Lettere di Natale ultima modifica: 2003-12-01T16:26:37+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_84_2003.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_84"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-84-lettere-di-natale/"
+articoli:
+  - "in-trepidante-attesa"
+  - "un-presepe-a-fede-e-luce"
+  - "lettere-di-natale-un-dialogo-speciale-con-i-lettori-di-ombre-e-luci"
+  - "la-cascina-di-villa-dalme"
+  - "autismo-e-integrazione-scolastica"
+  - "grazie-madre-pantanella"
+  - "abbiamo-fatto-alcune-delle-esperienze-di-solidarieta-che-abbiamo-raccontato"
+  - "diritti-delle-persone-disabili"
+  - "il-nostro-autismo-quotidiano-storie-di-genitori-e-figli-recensione"
+  - "per-il-weekend-vado-in-villa-recensione"
+  - "la-comunita-di-famiglie-recensione"
+  - "mi-preparo-alla-messa-recensione"
+  - "cantilena-dei-re-magi"
+  - "gesu-per-amico-un-percorso-evangelico-per-disabili-mentali"
+  - "diritti-delle-persone-disabili-secondo-onu"
 ---
 
 ## Indice

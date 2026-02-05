@@ -7,6 +7,7 @@ cluster_id: 5
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_129_2015.jpg"
 slug: "occasioni-per-stare-al-passo"
 has_comments: false
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

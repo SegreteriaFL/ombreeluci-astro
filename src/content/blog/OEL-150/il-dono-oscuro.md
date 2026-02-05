@@ -12,7 +12,8 @@ umap_x: 7.838500499725342
 umap_y: 10.917266845703125
 umap_z: 5.340986728668213
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 Ci sono storie capaci di spalancarci davanti mondi inimmaginabili, come fa lo strepitoso diario di John M. Hull (1935-2015), appena ripubblicato da Adelphi, in cui il teologo australiano ripercorre la sua lenta discesa verso la cecità totale a quarant’anni. Nei tanti punti affrontati da Hull (dai gesti quotidiani al linguaggio tarato sulle immagini visive), v’è l’esperienza di una persona che, oltrepassando il confine tra mondo dei vedenti e mondo dei non vedenti, vive la totale trasformazione di sé, della sua storia e delle sue relazioni, arrivando a una nuova comprensione di cosa una persona sia. È un percorso affrontato con sofferenza, ironia e socievolezza quello di Hull, e della sua famiglia (meravigliose le pagine finali scritte dalla moglie).
 

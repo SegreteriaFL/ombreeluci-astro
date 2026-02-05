@@ -12,8 +12,9 @@ umap_x: 5.98919153213501
 umap_y: 8.644105911254883
 umap_z: 11.53916072845459
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 **Gianluca: 11 giugno 1967 - 25 gennaio 1978**
 
 Il mondo potrà forse dire che incontrare Gianluca al campeggio, la sua partenza è stata una liberazione dalle sofferenze, dalla fatica. Ma in noi rimane un gran vuoto: avremmo voluto avere Gianluca qui con noi, con le sue difficoltà, ma con la sua semplicità, il suo sorriso, le sue corse.

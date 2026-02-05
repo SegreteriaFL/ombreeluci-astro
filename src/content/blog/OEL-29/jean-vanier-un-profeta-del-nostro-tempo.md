@@ -12,7 +12,8 @@ umap_x: 8.499967575073242
 umap_y: 12.160405158996582
 umap_z: 10.466965675354004
 issue_number: OEL-29
-id_numero: OEL-29
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
 Questo libro rappresenta una sfida. Meglio, questo libro rappresenta una consolazione. È una sfida perché ci induce, con parole aperte e forti, al riconoscimento di tutte le nostre fragilità, di tutte le nostre limitazioni, di tutti i nostri egoismi, ed è una consolazione perché, proprio di questo riconoscimento, fa la condizione di un cammino di crescita, di fratellanza, di amore. Questo cammino Jean Vanier l’ha percorso insieme agli handicappati, insieme alle «persone ferite», come lui li chiama: egli ne ha imparato con loro e attraverso loro, tutte le particolarità, gli ostacoli, ed anche le dolcezze; questo cammino ha rappresentato per lui e per tanti che hanno lavorato con lui l'incontro con Gesù, il Dio nascosto nel cuore della povertà e della sofferenza umana. Il piccolo è rivelazione di Dio. Jean Vanier dice: «Nella sua povertà radicale, nella sua ferita evidente, si trova nascosto il mistero della presenza di Dio» ( *La communauté lieu du pardon et de la fète* , pag. 47). L’autore, un teologo laureato a Montreal e attualmente insegnante nella scuola Saint-Sacrament di Torrebonne, ha vissuto per vari mesi presso l’Arca di Haiti e ha lavorato a lungo vicino a Jean Vanier coinvolto nella sua causa a favore degli handicappati e immerso nello spirito che l’anima. In questo libro egli ripercorre, tappa dopo tappa, la vita e l’opera di Jean Vanier approfondendone i punti salienti e l’originalità del pensiero con estrema precisione ed estrema chiarezza.
 

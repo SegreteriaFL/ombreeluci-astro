@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-134
-id_numero: OEL-134
+id_numero: "OEL-134"
+numero_rivista: "Ombre e Luci"
 ---
 Quando era stato annunciato il Giubileo delle persone disabili e degli ammalati nel giugno appena passato, l’accostamento tra disabilità e malattia, due esperienze che naturalmente sovrapponiamo ma che in tanti mi hanno insegnato a distinguere mi aveva lasciato un po’ perplessa: e mi dava tanto l’idea di un recinto, di una separazione tra i normali sani fortunati e gli sfortunati malati e disabili...
 

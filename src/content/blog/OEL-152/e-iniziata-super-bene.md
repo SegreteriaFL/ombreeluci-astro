@@ -12,8 +12,9 @@ tema_code: "T10"
 tema_label: "Educare e crescere insieme"
 categoria_menu: "Crescere"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 La scuola è iniziata SUPER BENE! Ho cominciato lunedì 14 settembre alle 8.30. Siccome io sono al terzo anno dell’alberghiero e ho scelto ricevimento mi hanno fatto cambiare sede e non vado più a via dei Genovesi ma a via della Paglia. Però mi hanno detto che devo entrare da dietro, da vicolo del Cedro che è una strada piccolina, molto bella, con tanto verde e mi piace tanto camminarci. Vicino c’è pure via del Leopardo che è un nome che mi piace tanto per una via.
 
 Secondo me la scuola a via della Paglia è meglio di via dei Genovesi. È più piccola e le scale sono più belle e io le salgo meglio perché sono più facili. La mia classe, la 3A, è al secondo piano, proprio in cima alle scale a sinistra. Il mio banco è vicino al muro, l’ho scelto io. Nella mia classe ci sono 8 compagni dell’anno scorso e sono molto contenta che sono con me. Ho conosciuto pure i nuovi compagni che sono quasi tutte femmine e sono simpatiche. I professori dell’anno scorso sono venuti a trovarmi in classe e due mi hanno telefonato al cellulare e io sono stata molto contenta.

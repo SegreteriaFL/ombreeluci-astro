@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 L'Anffas onlus di Cagliari ha organizzato il **Seminario "La nuova longevità nella disabilità intellettiva: problematiche e prospettive"** che si terrà il **21 Marzo 2018**, dalle**9 alle 13, presso il**T Hotel**, in **Via Dei Giudicati, 66 a Cagliari.
 
 Dalla brochure:

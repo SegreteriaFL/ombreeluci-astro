@@ -15,7 +15,8 @@ umap_x: 5.974498748779297
 umap_y: 9.49599838256836
 umap_z: 7.335586071014404
 issue_number: INS-30
-id_numero: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
 **Avete saputo subito dell'handicap di Domenico?** Quando aspettavo Domenico, all’ottavo mese, mi sentii un po’ inquieta: sentivo che il bambino si muoveva solo da un lato. Seppi poi che aveva il cordone ombelicale attorno al collo e un piedino incastrato. **Alla sua nascita vidi e capii subito che qualcosa non andava** e con mio marito scegliemmo di conoscere tutti i rischi cui sarebbe andato incontro in futuro. Devo ringraziare il vecchio medico di famiglia che ci disse: «La medicina farà tutto quanto potrà, ma nulla sostituirà le braccia dei genitori.»
 

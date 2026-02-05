@@ -15,8 +15,9 @@ umap_x: 6.649984836578369
 umap_y: 9.145788192749023
 umap_z: 11.727460861206055
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Abbiamo una comunità tripartita, con persone handicappate di ogni età, amici di ogni generazione e i genitori. Una volta al mese, ci incontriamo per un pomeriggio. I giovani, handicappati e non, si ritrovano per cantare, giocare, ballare. Nessun problema per loro. Ma noi, genitori, abbiamo faticato un bel po’ per trovare un programma che ci soddisfacesse.
 
 All’inizio, alcuni genitori venivano solo per accompagnare e riprendere i figli. Altri, restavano, ma si mettevano a parlare dei loro problemi. Non c’era niente di veramente costruttivo. Ognuno voleva raccontare la sua storia, le preoccupazioni che il figlio poneva ogni giorno… la casa che non dava serenità a nessuno.

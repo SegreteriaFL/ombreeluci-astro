@@ -14,7 +14,8 @@ umap_x: 5.564385414123535
 umap_y: 7.685619831085205
 umap_z: 9.169852256774902
 issue_number: OEL-45
-id_numero: OEL-45
+id_numero: "OEL-45"
+numero_rivista: "Ombre e Luci"
 ---
 Scrivici la tua storia di prove, di sforzi, di fallimenti e di successi. Questa pagina aspetta la tua esperienza. Sarà utile ad altri.
 P

@@ -14,8 +14,9 @@ umap_x: 5.392930507659912
 umap_y: 8.480293273925781
 umap_z: 7.807117938995361
 issue_number: OEL-136
+id_numero: "OEL-136"
+numero_rivista: "Ombre e Luci"
 ---
-
 Un
 piccolo e semplice trimestrale arriva da molto tempo nella nostra redazione. In copertina una foto in bianco e nero ritrae la manina di un bambino molto piccolo che si appoggia, sembra spingere, sul palmo della mano della mamma a sua volta appoggiata al palmo della mano del papà. Si chiama Notizie, da 32 anni è il giornale dei genitori iscritti ai Corsi per Corrispondenza del Servizio di Consulenza Pedagogica di Trento. Il notiziario raccoglie le lettere che i genitori inviano al Servizio, commentando i passi e i progressi che vedono nei loro figli accompagnati dai Corsi per Corrispondenza e dalle Settimane Residenziali che il Servizio organizza. Sono lettere molto belle, a volte semplici resoconti a volte riflessioni più approfondite che narrano la vita di questi bambini - di cui spesso conosciamo anche il volto grazie alle foto inviate dai genitori - che vivono un’esperienza comune anche a centinaia di km di distanza. Capita anche di trovarvi lettere come quella di una ragazza con sindrome di Down, ormai cresciuta che scrive di suo pugno di non aver più bisogno di leggere il notiziario... una bella conquista, oppure di un genitore in grossa difficoltà per il quale cercare e suggerire possibili nuovi approcci. Esistono corsi specifici per genitori di bambini sordi, per genitori di bambini ciechi, per genitori di bambini sordociechi e con sindrome di Down.
 > Abbiamo aspettato molto questa Settimana. Trascorrere con nostro figlio tutto il tempo possibile era una cosa di cui avevamo bisogno e che a causa del lavoro non era stato mai possibile

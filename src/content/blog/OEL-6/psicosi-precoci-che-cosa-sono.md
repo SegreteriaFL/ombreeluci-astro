@@ -15,7 +15,8 @@ umap_x: 6.498392105102539
 umap_y: 8.474169731140137
 umap_z: 6.428447246551514
 issue_number: OEL-6
-id_numero: OEL-6
+id_numero: "OEL-6"
+numero_rivista: "Ombre e Luci"
 ---
 Sintomi, cause, diagnosi e cura dell'autismo e delle psicosi infantili in un quadro aggiornato di Jacques Didier Duché, professore di clinica psichiatrica infantile e adolescenziale e medico nell’ospedale Salpètrière di Parigi.
 Prima di affrontare il problema delle psicosi precoci, è bene dare la definizione del termine «psicosi» che, classicamente, riguarda tutte le malattie mentali. Oggi è usato in senso più limitato e si applica alle malattie mentali maggiori che alterano la personalità, portano a un’alterazione della coscienza di sè e del senso della realtà, all’assenza di critica e a turbe del comportamento, del quale emergono stranezza e incoerenza. Le psicosi precoci, appaiono prima dei sei anni di età. Quest’età limite, un pò arbitraria, può essere presa in considerazione perchè corrisponde a una realtà clinica. Difatti, nella prima infanzia e fino alla prima elementare, il bambino prende coscienza poco per volta della propria autonomia e progressivamente si distingue dagli altri. Adopriamo il termine «psicosi precoce» nei bambini che non giungono a questa differenziazione. La loro personalità, in via di elaborazione, si costruisce nel senso di una non-strutturazione o di una strutturazione disarmonica.

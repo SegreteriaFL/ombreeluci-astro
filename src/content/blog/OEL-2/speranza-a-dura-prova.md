@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
 archive_id: OmbreELuci_002
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 periodo_label: Aprile, Maggio, Giugno
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 umap_x: 6.4602274894714355
 umap_y: 9.754935264587402
 umap_z: 6.973644256591797
+id_numero: "OEL-2"
 ---
-
 Probabilmente sono fra i nostri figli o amici handicappati, i più conosciuti e i più sconosciuti. Parliamo delle persone colpite da paralisi celebrale: bambini o ragazzi dai gesti bizzarri che abbiamo incontrato per strada, o quelli in carrozzina che non riusciamo a capire quando ci parlano… e poi quel vocabolo “spastico”, usato a proposito e a sproposito. Sì, li conosciamo di vista; ne abbiamo incontrati, ma abbiamo spesso distolto lo sguardo in fretta, perché ci mettono a disagio, ci fanno “paura”… Ci è sembrato giusto e utile, in questo
 [secondo numero di Ombre e Luci](http://www.ombreeluci.it/project/numero-2-la-paralisi-cerebrale-infantile/)
 - attraverso

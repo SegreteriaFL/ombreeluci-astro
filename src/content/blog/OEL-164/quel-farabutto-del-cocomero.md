@@ -12,7 +12,8 @@ umap_x: 6.826209545135498
 umap_y: 9.453034400939941
 umap_z: 7.348133563995361
 issue_number: OEL-164
-id_numero: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
 Èdifficile convivere con la mia salute ma ci convivo. **La dialisi ti mette davanti a dure prove.** Sento discorsi assurdi anche da persone che dovrebbero conoscere me e la mia situazione. Sento tanto banalizzare alcune difficoltà: un’amica mi ha chiesto recentemente perché non mi sono organizzato per andare a un ritiro a Camaldoli al quale avrebbero partecipato anche i miei genitori. Possibile che ancora non capiscano? «Perché non fissi la dialisi lì vicino?». **Ma, dico io, secondo te è possibile fissare un giorno per l’altro una dialisi dove pare a me?** Tra l’altro, nel periodo di due giorni previsto dal ritiro, sarebbe anche sproporzionato il tempo che dovrei star fuori. se mi viene anche risposto che «se non ti organizzi, non ti interessa». Capirete che mi fa molta rabbia soprattutto quando a dirlo è una che si dice mia amica.
 

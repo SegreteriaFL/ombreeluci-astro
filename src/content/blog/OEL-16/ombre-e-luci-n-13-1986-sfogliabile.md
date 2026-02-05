@@ -12,6 +12,7 @@ umap_x: -1.9918022155761719
 umap_y: 4.076981544494629
 umap_z: 9.522361755371094
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 <iframe src="https://archive.org/embed/OmbreELuci_010_201712?ui=embed" width="100%" height="630" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>

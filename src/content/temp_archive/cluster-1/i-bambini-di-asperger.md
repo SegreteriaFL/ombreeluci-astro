@@ -7,6 +7,7 @@ cluster_id: 1
 image: "http://www.ombreeluci.it/wp-content/uploads/2019/01/bambini-asperger-195x300.jpg"
 slug: "i-bambini-di-asperger"
 has_comments: false
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

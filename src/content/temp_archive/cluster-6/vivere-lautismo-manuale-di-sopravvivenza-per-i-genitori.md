@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "vivere-lautismo-manuale-di-sopravvivenza-per-i-genitori"
 has_comments: false
+id_numero: "OEL-65"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

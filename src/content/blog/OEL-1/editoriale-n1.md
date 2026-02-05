@@ -12,14 +12,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf"
 archive_id: OmbreELuci_001
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/1983/03/Archivio-Num.-1-1983-1.png"
 periodo_label: Gennaio, Febbraio, Marzo
-numero_rivista: 1
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-1
 umap_x: 5.33791446685791
 umap_y: 8.914423942565918
 umap_z: 7.676301002502441
+id_numero: "OEL-1"
 ---
-
 Una delle prove più difficili è l’essere feriti in quel che si ha di più caro: il proprio figlio. Una delle frustrazioni più forti è sentirsi impotenti di fronte alla impossibilità che nostro figlio sia quello che speravamo. Uno dei dolori più grandi è sapere che il segno dell’handicap che lo ha colpito, innocente, sarà per tutta la vita. Così duramente provati,
 **i genitori del figlio [tooltip text="Ci dispiace usare questo termine, ormai entrato nell'uso comune della lingua italiana, per riassumere la varietà dei limiti fisici o intellettivi lasciati da un trauma o da una malattia. Come esprimersi altrimenti senza creare confusione? (ndr.1983)"] handicappato[/tooltip], oscillano tra due atteggiamenti**
 :

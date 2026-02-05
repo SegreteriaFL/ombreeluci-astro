@@ -1,15 +1,30 @@
 ---
 id: "OEL-69"
-title: "Numero 69 - La sua vita nelle mani dei genitori"
+title: "Numero 69 – La sua vita nelle mani dei genitori"
 tipo: "ombre-e-luci"
 numero: 69
-anno: "2000"
+sort_order: 168
+pubDate: "2000-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 2000"
 sommario: "Numero 69 – La sua vita nelle mani dei genitori ultima modifica: 2000-03-23T15:08:27+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_69_2000.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_69"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-69-la-sua-vita-nelle-mani-dei-genitori/"
+articoli:
+  - "rosamaria"
+  - "gli-siamo-grati-per-questo-la-testimonianza-dei-genitori-di-gianni"
+  - "la-sete-e-lacqua-della-speranza"
+  - "coraggio-immacolata"
+  - "mettersi-in-gioco-la-solidarieta-secondo-silvia-tamberi"
+  - "a-proposito-di-sentimenti-parliamo-del-film-di-daniele-segre-con-alcune-mamme-e-sorelle-di-ragazzi-down"
+  - "villaggio-senza-barriere-un-luogo-di-accoglienza-insolito"
+  - "liberi-di-vivere-come-tutti-prima-conferenza-nazionale-delle-politiche-sull-handicap"
+  - "la-sofferenza"
+  - "dialogo-aperto-n-69"
+  - "vita-fede-e-luce-n-69"
+  - "il-libro-di-johann-io-vi-ho-amati-tu-recensionetti"
+  - "clara-va-al-mare-recensione"
 ---
 
 ## Indice

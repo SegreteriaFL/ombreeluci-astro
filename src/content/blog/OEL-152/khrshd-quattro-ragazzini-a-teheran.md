@@ -12,8 +12,9 @@ umap_x: 8.929737091064453
 umap_y: 8.321059226989746
 umap_z: 3.06011700630188
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Unfilm dedicato alle migliaia di bambini costretti al lavoro minorile. Questo, per il regista iraniano Majid Majidi, è il suo “Khōrshīd” ( *Sun Children* nella versione internazionale). L’ispirazione per raccontare le difficili condizioni dei bambini di strada di Teheran gli è venuta quando ha scoperto l’esistenza di un istituto scolastico, sovvenzionato da donazioni private, che forniva un’istruzione e qualche prospettiva futura a chi altrimenti avrebbe dovuto trascorrere l’intera infanzia soltanto a lavorare. Sono bambini scaltri per necessità, che vivono perlopiù per strada; hanno genitori in galera o drogati, o addirittura morti. Il regista adotta un doppio registro: uno neorealista per mostrare il funzionamento della scuola e di chi ci lavora con impegno, uno “di genere” per richiamare in parte i film di evasione, in parte i film avventurosi per ragazzi. Un gruppo di quattro bambini, una vera e propria banda di strada, riceve da un anziano criminale il compito di scavare un tunnel proprio sotto quella scuola, per poter recuperare un fantomatico “tesoro”; i ragazzi pertanto fanno di tutto per farsi ammettere - non perché interessati a studiare ma per poter scavare il tunnel - e vengono aiutati dal vicepreside che ne ammira (e ne equivoca) la perseveranza. La parte realistica è un po’ didascalica, per quanto narrata con un sincero intento di divulgazione sociale; ma funziona abbastanza bene l’abbinamento con la parte “di genere” che ricorda tante storie di fughe dalle prigioni o tentativi avventurosi di furti, qui con il valore aggiunto della freschezza dei bambini protagonisti; ai quali capita davvero un’occasione di migliorare la propria vita, almeno se si accorgeranno che quell’occasione non è sotto terra, ma dentro un’aula.
 
 # Gli altri film di Venezia 77:

@@ -1,15 +1,35 @@
 ---
 id: "OEL-97"
-title: "Ombre e Luci n. 97 - Iperattività"
+title: "Ombre e Luci n. 97 – Iperattività"
 tipo: "ombre-e-luci"
 numero: 97
-anno: "2007"
+sort_order: 196
+pubDate: "2007-03-01T00:00:00Z"
 data_pubblicazione: "Marzo 2007"
 sommario: "Ombre e Luci n. 97 – Iperattività ultima modifica: 2007-03-19T22:32:03+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_97_2007.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_97"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-97-iperattivita/"
+articoli:
+  - "campane-a-festa-2"
+  - "iperattivita-un-bambino-complicato"
+  - "cose-liperattivita"
+  - "come-in-trappola-storia-di-bambino-con-deficit-attenzione-senza-iperattivita"
+  - "problematiche-delleta-evolutiva-incontrarsi-sul-dojo"
+  - "come-far-comportare-bene-mio-figlio"
+  - "questi-bambini-sono-intoccabili"
+  - "dialogo-aperto-n-97"
+  - "sul-tetto-del-mondo-senza-muovere-un-passo"
+  - "un-atto-di-gioia-in-prosa-e-altro"
+  - "ricordando-la-cara-nicole-il-dono-piu-sincero-e-il-dono-di-se"
+  - "elogio-alla-bruttezza-recensione"
+  - "brutta-recensione"
+  - "lamico-speciale-uno-strumento-per-parlare-di-autismo-ai-bambini-piu-piccoli-recensione"
+  - "la-scoperta-dellalba-recensione"
+  - "la-stanza-dellorso-e-dellape-recensione"
+  - "giochi-per-ridere-educare-gli-adolescenti-divertendosi-recensione"
+  - "campane-a-festa-2"
 ---
 
 ## Indice

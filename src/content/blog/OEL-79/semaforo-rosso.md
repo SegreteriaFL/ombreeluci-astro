@@ -4,8 +4,8 @@ date: 2002-09-01
 author: André Roberti
 slug: semaforo-rosso
 lang: it
-numero_rivista: 79
-id_numero: OEL-79
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-79"
 issue_number: OEL-79
 wp_id: 25424
 original_url: "https://www.ombreeluci.it/?p=25424"
@@ -17,7 +17,6 @@ umap_x: 5.436378479003906
 umap_y: 8.551939964294434
 umap_z: 9.784980773925781
 ---
-
 Era una di quelle giornate in cui «niente va bene». Le nuvole erano basse, l’umore triste, stanchezza. Un mucchio di contrarietà al lavoro: telefonate urgenti, clienti insoddisfatti. Sapere che malgrado la migliore volontà del mondo, non si potrà accontentarli. In breve, un giorno come ne conosciamo tutti. E per colmo della scontentezza, imbottigliamenti sulla strada. E maximbottigliamenti per lavori sull’autostrada. Un gran numero di incroci da attraversare.
 
 Al primo, il semaforo è rosso. Al secondo, il semaforo è rosso. Al terzo, il semaforo è rosso.

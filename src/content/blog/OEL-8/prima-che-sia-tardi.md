@@ -16,8 +16,9 @@ umap_x: 5.538357734680176
 umap_y: 9.474178314208984
 umap_z: 7.191620349884033
 issue_number: OEL-8
+id_numero: "OEL-8"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quel dolore cade sui genitori in maniera diversa. Il modo varia con la natura dell’handicap del loro figlio appena nato. Quando i difetti sono evidenti e chiaramente diagnosticabili, il colpo è di necessità repentino, spietato, per quanta attenzione e pietà usino il medico, l’ostetrica o l’assistente sociale ai quali tocca informare la madre o il padre. In questi casi il problema è semplificato benché terribile. E’ invece molto più complicato quando il male del nuovo figlio non è evidente, lascia margine a dubbi, talvolta sfugge agli esami inadeguati del pediatra che esamina il piccino prima che lasci la maternità. In questi casi il medico che scopre che «qualcosa non va», a seconda della sua preparazione e del carattere, segue diverse vie comprese fra il non allarmare i genitori, lasciarli tranquilli «ancora un po’», e il dire chiaramente l’handicap del bambino.
 > Il colpo ai genitori è duro, ma benefico perché mette fine all'angoscia dell'incertezza
 

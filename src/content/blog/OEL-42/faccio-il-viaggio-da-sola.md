@@ -12,7 +12,8 @@ umap_x: 5.793808460235596
 umap_y: 8.443375587463379
 umap_z: 9.49002456665039
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 *"Mamma sono due anni che prendo l'autobus da sola per andare al laboratorio con Franca. Le prime volte mi hanno insegnato come si faceva a prendere l'autobus. Mi accompagnava Matteo e qualche volta pure Cecilia e facevamo finta di non conoscerci. Piano piano ho imparato a prenderlo da sola; almeno per uscire da casa. Adesso mi accompagnano alla fermata, faccio il viaggio da sola nell'autobus. A me questo fa molto felice e contenta."*
 

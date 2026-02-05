@@ -10,15 +10,15 @@ wp_id: 2218
 has_comments: false
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+id_numero: "OEL-4"
 ---
-
 Io non sono capace di scrivere un articolo perché ho fatto solo gli studi elementari e questo fa un po' male quando bisogna smuovere queste cose. Ma se si tratta di aiutare altre famiglie a lottare, mi faccio forza.
 
 Dopo tre figli, Monica 13 anni, Elisabetta 12, Francesco 2, pieni di vita, è arrivata Beatrice, diversa dagli altri. Il dottore ci ha detto: «E’ mongoloide».

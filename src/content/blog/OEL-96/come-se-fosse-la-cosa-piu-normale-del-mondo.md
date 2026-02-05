@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "come-se-fosse-la-cosa-piu-normale-del-mondo"
 lang: it
-numero_rivista: 96
-id_numero: OEL-96
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-96"
 issue_number: OEL-96
 wp_id: 32284
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 ---
-
 Quando veniva a casa nostra e mi chiamava “professore”.
 
 Il Mary Mount. Mi sembra ieri. Quando ci passava a prendere, me e Mattia, sulla opel bianca, e chiacchieravamo di tutto e di più, in quelle calde estati romane di uno dei periodi più felici della mia vita.

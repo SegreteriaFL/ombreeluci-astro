@@ -12,8 +12,9 @@ umap_x: 9.437907218933105
 umap_y: 10.159207344055176
 umap_z: 9.411432266235352
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 P
 artiamo dal segno concreto: il nome di Gesù Cristo, il pane viene condiviso e distribuito a tutti; ugualmente per il vino. Si tratta dunque di un dono fatto - o almeno offerto - a tutti i presenti. Qualcuno dà qualche cosa a qualcuno! Chi dà, che cosa dà, a chi dà?
 

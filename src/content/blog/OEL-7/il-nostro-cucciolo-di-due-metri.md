@@ -16,7 +16,8 @@ umap_x: 7.288322448730469
 umap_y: 8.471726417541504
 umap_z: 11.098422050476074
 issue_number: OEL-7
-id_numero: OEL-7
+id_numero: "OEL-7"
+numero_rivista: "Ombre e Luci"
 ---
 Tanti anni fa (ne avevo 18 o 19), iniziai con [Mario](https://www.ombreeluci.it/author/mario-collino/) ad andare a *Stella Mattutina* (un istituto psico-medico pedagogico) di Cuneo, una domenica il mese per far giocare i bambini e aprire un rapporto di amicizia con loro. Mi sentivo molto brava e presa dall'entusiasmo della «buona azione» verso quei poveri bambini malati: avevo il morale alle stelle.
 

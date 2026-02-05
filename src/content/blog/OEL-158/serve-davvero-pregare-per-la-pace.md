@@ -12,7 +12,8 @@ umap_x: 7.808628082275391
 umap_y: 9.76652717590332
 umap_z: 14.3001070022583
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 Sono giorni davvero difficili e carichi di angoscia per la guerra scoppiata in Ucraina e ogni giorno ci giungono notizie di scontri armati, morte e distruzione. È un’angoscia che ci prende pensando alle popolazioni civili, a tante persone che stanno soffrendo e che, da un giorno all’altro, hanno visto la loro vita completamente stravolta.
 

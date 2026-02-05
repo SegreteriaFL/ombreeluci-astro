@@ -14,8 +14,9 @@ umap_x: 9.048432350158691
 umap_y: 8.074474334716797
 umap_z: 12.965386390686035
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Mercoledì 22 ottobre
 
 Cosa si può fare al Quartier Generale di un pellegrinaggio Fede e Luce? Non ne so proprio nulla, ma sono qui. L’équipe di Parigi arriva con carte, orari, riunioni, problemi, preghiere, appuntamenti, traduzioni, sorrisi, preoccupazioni, suggerimenti...

@@ -12,8 +12,9 @@ umap_x: 9.373661994934082
 umap_y: 10.342073440551758
 umap_z: 8.980618476867676
 issue_number: OEL-51
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 M
 i è stato domandato di introdurre l'argomento dei sacramenti in rapporto alle persone colpite da handicap diversi. L'argomento è talmente vasto e i suoi aspetti così vari che sarò costretto a limitarmi a qualche riflessione fondamentale. Innanzi tutto mi tornano alla memoria le parole di uno dei miei insegnanti di teologia. Ci diceva: «I sacramenti sono i gesti di Cristo che si prolungano fino a noi attraverso la sua Chiesa». Questo dice tutta la loro importanza.
 

@@ -11,8 +11,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il Festival Internazionale del Cinema di San Sebastián, che nella sua storia lunga settantatré edizioni ha sempre celebrato il grande cinema, non ha paura delle piattaforme, e infatti ha scelto un film di Netflix per l'apertura dell'edizione del 2025. Se si va a vedere il paese di produzione, però, la decisione è più sensata di quanto sembri: un film argentino – anche per celebrare la storica vicinanza del festival spagnolo alle cinematografie dell'America Latina – sapendo che negli ultimi anni il presidente ultra-liberista Milei ha sostanzialmente azzerato i contributi pubblici all'industria culturale. **Se il cinema argentino continua a produrre opere di valore è grazie agli investimenti privati.
 Lo svantaggio della minore circolazione nelle sale è compensato dalla diffusione mondiale: **27 notti** (27 noches) di Daniel Hendler, dopo l'anteprima riservata agli spettatori presenti a San Sebastián nel giorno d'apertura, potrà essere visto da tutti gli abbonati a Netflix a distanza di un solo mese. **E per chi la vedrà, sarà una piacevole scoperta**, questa commedia drammatica sulla terza età e sull'autosufficienza degli anziani, tratta da un romanzo a sua volta ispirato a un caso di cronaca (riguardante l'ottantottenne artista argentina Natalia Kohen) accaduto prima che nel 2010 venisse approvata una nuova legge sulla salute mentale.
 

@@ -12,8 +12,9 @@ umap_x: 7.912193298339844
 umap_y: 8.426386833190918
 umap_z: 10.555493354797363
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nel villaggio di Kipengere, tra le foreste lussureggianti della regione di Njombe, nel sud della Tanzania, opera la missione cattolica di “baba” (padre in lingua swali) Camillo, il frate trentino che, coadiuvato da padre Guido Douglas e da un nugolo di suore benedettine, coordina le attività delle scuole e dell’orfanotrofio di una comunità di 35 mila anime: qui, a oltre 2200 metri di altitudine, tra gli immensi altopiani dell’Africa orientale, non solo tutto ciò di cui la comunità (dedita ad agricoltura, pastorizia, artigianato, baratto) necessita, viene prodotto, ma sono state costruite scuole, alloggi per insegnanti e studenti, spazi ricreativi per i più piccoli, due asili nido e un presidio ospedaliero. Non è stato facile. Prima dell’arrivo di padre Camillo, i bambini e i ragazzi del villaggio, non potendo frequentare la scuola, non imparavano né a leggere né a scrivere: i sentieri da percorrere, le asperità delle alture e le lunghe distanze rendevano impossibile raggiungere gli istituti a valle, insieme a tutti gli altri coetanei.
 
 Nel suo peregrinare per migliaia di chilometri in visita alle comunità locali, baba Camillo, missionario della Consolata di Torino che da oltre cinquant’anni vive in Africa, incontra gli alpini di Bolzano e racconta a Claudio Maccagnan, capogruppo delle penne nere altoatesine, aneddoti e storie di vita di queste terre. La tenacia e la grandissima umanità del sacerdote – che con la comunità di Kipengere è riuscito a portare laddove nulla c’era un’azienda agricola, una fabbrica di stufe a legna e officine di falegnameria, idraulica, saldatura e meccanica – tocca a tal punto la sensibilità degli alpini da far nascere una collaborazione che dura da oltre 35 anni. Dopo i primi viaggi, Claudio comprende che ciò che serve è garantire l’accesso allo studio, per lo meno elementare, ai minori.

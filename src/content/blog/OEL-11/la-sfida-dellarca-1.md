@@ -12,7 +12,8 @@ umap_x: 8.367151260375977
 umap_y: 8.430577278137207
 umap_z: 10.834816932678223
 issue_number: OEL-11
-id_numero: OEL-11
+id_numero: "OEL-11"
+numero_rivista: "Ombre e Luci"
 ---
 Questo libro è una testimonianza davvero straordinaria dello sforzo fatto e delle realizzazioni compiute dal movimento internazionale dell’Arche (55 foyers nel 1981). Tutto il libro è scritto con quel calore, quella sincerità e quella umiltà che si vorrebbe trovare in tutti i libri o testi che parlano di persone handicappate mentali adulte e del loro bisogno di una vita autenticamente umana e cristiana. Scritto da più persone, questo testo ci conduce, per strade ed esperienze diverse, a quello che resta mistero che Fede e Amore rischiarano. Vivere insieme fraternamente, le persone handicappate con quelle dette normali, in un’alleanza autentica e nel rispetto reciproco appare come una cosa profondamente desiderabile. Ed è possibile; infatti, con la grazia di Dio, questo avviene un po’ in tutto il mondo. Recensione di
 *H. Bissonier*

@@ -4,8 +4,8 @@ date: 1997-09-19
 author: Redazione
 slug: lottavo-giorno
 lang: it
-numero_rivista: 59
-id_numero: OEL-59
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-59"
 issue_number: OEL-59
 wp_id: 11631
 original_url: "https://www.ombreeluci.it/?p=11631"
@@ -18,7 +18,6 @@ umap_x: 8.867257118225098
 umap_y: 8.689505577087402
 umap_z: 3.0618836879730225
 ---
-
 L'ottavo giorno, (Le huitième jour), 1996, Belgio, J. Vari Dormelì - George, il ragazzo afflitto da sindrome di Down, ha chiuso tutto il suo mondo in una valigia ed è alla ricerca dei suoi sogni; Harry è un manager in disarmo, che insegna ai carrieristi come essere invincibili, ma poi sperimenta sulla propria pelle quanto è facile perdere tutto a cominciare dall’affetto della famiglia. Due esseri umani alla deriva, ognuno, a modo suo, che finiscono per incontrarsi. Film da vedere per la bravura dei due protagonisti, e perché pone l’attenzione sulla vita dei disabili dopo la scomparsa dei genitori.
 
 >Ho visto «L'ottavo giorno» tre volte e ogni volta l'emozione è stata grande. Quando il film fu premiato a Cannes fui piacevolmente sorpresa perché mi sembrava importante che a una persona portatrice di handicap venisse riconosciuta una professionalità pari a quella di una persona «normale». Temevo che il film fosse «lagrimoso», che ispirasse compassione e pietà. Invece George risulta essere un personaggio altamente positivo, capace di comprendere il dolore e insegnare che l'amore verso tutto ciò che ci circonda è la cosa più importante. Il regista forse ha estremizzato i due ruoli: da una parte il bene e dall'altra il male; forse non è così, però chi vive con i ragazzi Down ha ritrovato in George molto delle loro caratteristiche: non solo amore e dolcezza ma anche la caparbietà’ nel portare avanti le loro idee, il desiderio di abbandonarsi a un mondo magico tutto loro e la volontà di vivere la realtà che li circonda senza permettere a nessuno di travolgerli in un ritmo di vita che non gli appartiene. Henry, l’altro protagonista, rappresenta il mondo in cui viviamo, ma soprattutto il “modo” in cui viviamo. Non ci basta un buon lavoro, vogliamo far carriera, non ci basta la casa, vogliamo la villa con piscina, e allora corriamo e non ci fermiamo davanti a nulla sacrificando la parte migliore di noi stessi.

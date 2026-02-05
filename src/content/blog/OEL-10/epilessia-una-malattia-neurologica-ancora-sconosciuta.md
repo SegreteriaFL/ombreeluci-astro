@@ -16,7 +16,8 @@ umap_x: 6.651681423187256
 umap_y: 9.917096138000488
 umap_z: 7.060006141662598
 issue_number: OEL-10
-id_numero: OEL-10
+id_numero: "OEL-10"
+numero_rivista: "Ombre e Luci"
 ---
 L’epilessia è una malattia del sistema nervoso che può colpire persone di tutte le età e perfettamente normali, caratterizzata dalla comparsa di improvvise, inaspettate, brevi manifestazioni critiche di vario tipo. Esse possono accompagnarsi a compromissione della coscienza ma anche prodursi senza alcuna modificazione di essa. Per comprendere come un tale evento possa realizzarsi bisogna rifarsi al normale funzionamento del nostro «cervello». Esso nella sua parte più evoluta è formato dalla cosiddetta corteccia cerebrale, insieme complesso di cellule, che a seconda delle zone o lobi cerebrali presiede e controlla le diverse funzioni del nostro organismo. Il movimento, la vista, l’udito, il gusto, il linguaggio, la memoria, il pensiero ecc. dipendono dal corretto funzionamento della corteccia cerebrale.
 **Un transitorio e anormale funzionamento di alcune zone per un improvviso eccitamento delle sue cellule può produrre una manifestazione strettamente legata al tipo di funzione da esse presieduta.**

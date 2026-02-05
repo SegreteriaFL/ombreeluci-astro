@@ -16,7 +16,8 @@ umap_x: 8.895639419555664
 umap_y: 5.19485330581665
 umap_z: 8.992635726928711
 issue_number: OEL-135
-id_numero: OEL-135
+id_numero: "OEL-135"
+numero_rivista: "Ombre e Luci"
 ---
 *Dal 7 al 18 settembre si sono svolte a Rio le Paralimpiadi: più di 4000 atleti si sono sfidati in 23 discipline sportive. Anche questa edizione si è tenuta separatamente rispetto alle Olimpiadi “normali”, con un distacco di ben tre settimane. Il messaggio di sport accessibile e inclusivo di cui le paralimpiadi si fanno portavoce prende quindi una dimensione un po’ contraddittoria, visto che oltre alla separazione netta tra gli atleti disabili e non, vi è anche una minore eco mediatica. Polemiche a parte, quest’edizione ha saputo regalare splendidi momenti, emozionanti in egual modo sia per il mondo dello sport che della disabilità. La nostra lettrice Marta de Rino ci ha inviato una sua riflessione.*
 > “Quando mi sono svegliato senza gambe ho guardato la metà che era rimasta, non quella che era andata persa”. Alex Zanardi

@@ -14,7 +14,8 @@ umap_x: 7.8740034103393555
 umap_y: 7.208349704742432
 umap_z: 10.55945110321045
 issue_number: OEL-75
-id_numero: OEL-75
+id_numero: "OEL-75"
+numero_rivista: "Ombre e Luci"
 ---
 8agosto 1998, ore 8:00, piazzale della chiesa San Giuseppe da Copertino all’Eur. Siamo tutti in trepida attesa: tra poco si partirà per le vacanze estive, destinazione Casar- go, vicino Lecco... Ha inizio così la mia avventura alla scoperta dei ragazzi disabili.
 

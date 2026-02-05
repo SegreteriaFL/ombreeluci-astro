@@ -12,7 +12,8 @@ umap_x: 7.524095058441162
 umap_y: 8.86326789855957
 umap_z: 13.967767715454102
 issue_number: OEL-18
-id_numero: OEL-18
+id_numero: "OEL-18"
+numero_rivista: "Ombre e Luci"
 ---
 ### **Notizie di *Fede e Luce* nel mondo**
 

@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Nel teatro integrato non conta l’età, non conta la conformazione fisica, la struttura mentale, le prestazioni, non c’è giudizio. È un percorso che stimola ognuno a superare i propri limiti, mette in luce le risorse di ognuno, in cui ognuno si sente accolto e parte attiva del gruppo. E nel quale dall’io si passa al noi.*
 *Elisa ce lo racconta nell’esperienza della figlia Veronica con suo marito Alessandro.*
 

@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "giovanni-paolo-ii-non-sembrava-ne-prete-ne-papa"
 lang: it
-numero_rivista: 90
-id_numero: OEL-90
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-90"
 issue_number: OEL-90
 wp_id: 31008
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 Nicolina, Claudio, Vincenza e Daniele conoscono Fede e Luce durante uno dei campeggi organizzati nel 1980 dagli amici delle comunità ad Alfedena. Abitano a Pescasseroli; là vicino, hanno un ristorante ed è lì che la comitiva un po’ speciale di Fede e Luce li incontra, durante una passeggiata. Nasce un'intensa amicizia con questa famiglia stretta intorno al piccolo Daniele, bambino anche lui un po’ speciale. Quanto segue è il ricordo, dalla voce di Nicolina, dell’incontro con Giovanni Paolo II.
 
 Nel 1981 abbiamo partecipato al pellegrinaggio internazionale a Lourdes, anche se Daniele fino all'ultimo sembrava non potesse venire. Sul treno, durante il lungo viaggio, si stringono amicizie importanti e noi ne abbiamo vissuta una con i genitori di Manuela, Massimo e Brunella.

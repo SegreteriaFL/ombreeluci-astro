@@ -9,15 +9,15 @@ lang: it
 has_comments: false
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
+id_numero: "OEL-2"
 ---
-
 Più volte sono stata invitata a raccontare la mia esperienza: esser madre di una figlia profondamente handicappata.
 Ho accettato di farlo perché mi sembra molto importante far conoscere i nostri figli, in modo che gli altri abbiano un comportamento diverso nei loro confronti e perché spero che venga loro riconosciuto il posto di cui hanno bisogno.
 Questa testimonianza può essere fatta in modi diversi.

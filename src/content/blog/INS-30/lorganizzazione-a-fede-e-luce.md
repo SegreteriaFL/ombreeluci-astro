@@ -14,8 +14,9 @@ umap_x: 7.163671970367432
 umap_y: 8.820287704467773
 umap_z: 13.287246704101562
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Ogni movimento, se vuole rimanere aderente alla realtà, deve darsi un minimo di organizzazione pratica. È importante però che l’organizzazione rimanga sempre al servizio delle persone e non soffochi mai lo spirito che ispira il movimento.
 
 Per garantire il giusto atteggiamento nell’aiuto e nel rispetto reciproco fra le tre componenti della comunità, è necessario l’impegno di alcune persone che cercano di rimanere fedeli allo spirito e agli scopi espressi nella «Charta» del movimento internazionale Fede e Luce.

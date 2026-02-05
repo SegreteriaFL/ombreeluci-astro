@@ -7,6 +7,7 @@ cluster_id: 6
 image: "http://www.ombreeluci.it/wp-content/uploads/2018/09/bio-tea.jpg"
 slug: "diversi-da-chi-normali-vite-con-handicap"
 has_comments: false
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

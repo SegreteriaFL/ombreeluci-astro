@@ -12,8 +12,9 @@ umap_x: 8.302497863769531
 umap_y: 11.435440063476562
 umap_z: 5.560055732727051
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 L
 ettere da dissidenti incarcerati: ai nomi di Antonio Gramsci, Rosa Luxenburg, Nelson Mandela, Dorothy Day, Wole Soyinka, Vaclav Havel o Aleksandr Solgenicyn, in questi anni Duemila va sicuramente aggiunto quello di Alaa Abd el-Fattah. Sebbene cambino secolo, tecnologia, regimi, strumenti di comunicazione (meno quelli di oppressione…), la richiesta dei prigionieri è sempre la stessa. «Carta e penna. Non più di questo. Non meno di questo. Nell’era egemonizzata da Internet e dalla dimensione virtuale, un informatico, un attivista digitale, un dissidente che ha segnato l’opposizione egiziana nel decennio precedente alla rivoluzione di piazza Tahrir del 2011, chiede ai magistrati e ai suoi carcerieri carta e penna. Lo chiede con costanza.
 **Non si dimentica mai di chiedere carta e penna mentre pretende verità e giustizia, dignità, fine delle torture e delle umiliazioni per tutti i prigionieri egiziani**

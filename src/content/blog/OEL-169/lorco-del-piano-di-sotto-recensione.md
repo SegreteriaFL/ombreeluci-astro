@@ -12,7 +12,8 @@ umap_x: 8.12967300415039
 umap_y: 11.47197437286377
 umap_z: 4.775343418121338
 issue_number: OEL-169
-id_numero: OEL-169
+id_numero: "OEL-169"
+numero_rivista: "Ombre e Luci"
 ---
 V
 uole essere

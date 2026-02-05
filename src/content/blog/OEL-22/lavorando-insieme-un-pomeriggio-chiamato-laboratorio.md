@@ -14,7 +14,8 @@ umap_x: 8.296245574951172
 umap_y: 7.466516971588135
 umap_z: 9.746101379394531
 issue_number: OEL-22
-id_numero: OEL-22
+id_numero: "OEL-22"
+numero_rivista: "Ombre e Luci"
 ---
 Sono Francesca, ho quasi 18 anni, e da quattro faccio parte della grande famiglia di
 *[Fede e Luce](http://fedeeluce.it)*

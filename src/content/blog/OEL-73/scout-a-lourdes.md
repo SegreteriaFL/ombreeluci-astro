@@ -14,7 +14,8 @@ umap_x: 9.4391450881958
 umap_y: 8.16154670715332
 umap_z: 13.286680221557617
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 Quando sono stato a Lourdes una delle tante attività che ho svolto era quella dello Scout nel gruppo barellieri. Questa, era per me un’esperienza che mi ha fatto conoscere un mondo di affetto e aiuto per le persone carrozzate e per quelle nel barellato. Il viaggio verso Lourdes era di grande soddisfazione perché io personalmente ho aiutato un collega barelliere a trasportare per tutti gli scompartimenti del treno sia il pranzo che la cena fino a raggiungere il vagone riservato per le vivande per prendere le altre confezioni di cibo e continuare il servizio.
 

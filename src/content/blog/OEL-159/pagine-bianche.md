@@ -12,7 +12,8 @@ umap_x: 6.957681179046631
 umap_y: 8.088164329528809
 umap_z: 10.972034454345703
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 Fine giugno, mini-campo di Fede e Luce: una dodicenne con sindrome di Down frequenta la comunità senza i genitori, potendo lì godere di **uno spazio di amicizia, autonomo e protetto, oltre la famiglia.** Mamma e papà arrivano però una sera, visto che proprio in quei giorni la ragazzina compie gli anni. In cerchio, finalmente tutti riuniti per le chiacchiere e i giochi della sera, la sua voce però si alza, forte e decisa, e reclama vivace, «Dovevate restare a casa!».
 

@@ -15,7 +15,8 @@ umap_x: 5.437866687774658
 umap_y: 9.99560546875
 umap_z: 7.5527496337890625
 issue_number: OEL-38
-id_numero: OEL-38
+id_numero: "OEL-38"
+numero_rivista: "Ombre e Luci"
 ---
 Q
 uando

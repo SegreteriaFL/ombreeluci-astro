@@ -14,7 +14,8 @@ umap_x: 4.869100093841553
 umap_y: 8.120684623718262
 umap_z: 10.714895248413086
 issue_number: OEL-133
-id_numero: OEL-133
+id_numero: "OEL-133"
+numero_rivista: "Ombre e Luci"
 ---
 ### Dalla Cina
 

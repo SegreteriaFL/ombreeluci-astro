@@ -12,8 +12,9 @@ umap_x: 8.037020683288574
 umap_y: 6.942971229553223
 umap_z: 11.423693656921387
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 **Estate 1980.** Parole? No, fatti
 
 ### Quando?

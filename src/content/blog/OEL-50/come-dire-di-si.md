@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Questa è la domanda che ai siamo posti nell'ultimo incontro di Fede e Luce.
 La recente festa dell'Annunciazione, il "SI'" di Maria, ci è stato di stimolo e di guida. E perché tutti potessimo più facilmente rispondere, esprimendo il nostro modo di dire di "sì" al volere di Dio, o il nostro modo di andare incontro agli altri, ci siamo divisi in gruppi misti formati da genitori, ragazzi handicappati e amici.
 Abbiamo avuto la gioia di constatare che, ognuno al proprio livello, ha partecipato e detto quello che pensava.

@@ -14,8 +14,9 @@ umap_x: 9.385244369506836
 umap_y: 8.146039962768555
 umap_z: 13.424135208129883
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Maria
 
 *Questa notte abbiamo dormito nelle cuccette del treno e si riposava abbastanza bene. A me piace andare sul treno perché mi fa dondolare.*

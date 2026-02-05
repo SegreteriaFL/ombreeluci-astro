@@ -7,6 +7,7 @@ cluster_id: 13
 image: "http://www.ombreeluci.it/wp-content/uploads/2019/01/Copertina_OeL_144_2018-206x300.jpg"
 slug: "anffas-60-anni-di-futuro"
 has_comments: false
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

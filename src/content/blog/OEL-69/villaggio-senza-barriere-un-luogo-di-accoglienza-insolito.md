@@ -12,7 +12,8 @@ umap_x: 8.061663627624512
 umap_y: 7.565657138824463
 umap_z: 8.752077102661133
 issue_number: OEL-69
-id_numero: OEL-69
+id_numero: "OEL-69"
+numero_rivista: "Ombre e Luci"
 ---
 Il Villaggio Senza Barriere è un vero e proprio piccolo villaggio di soggiorno per persone con deficit, le loro famiglie, amici, giovani, gruppi, obiettori, associazioni... e tanti bambini! Sì, tanti bambini; ci sono diverse famiglie che donano un po’ del loro tempo, e lo donano con la loro famiglia... i bambini sono spesso «terapeuti» e «animatori» delle situazioni della vita del Villaggio.
 

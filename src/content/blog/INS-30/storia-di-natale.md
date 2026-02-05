@@ -12,8 +12,9 @@ umap_x: 6.175656795501709
 umap_y: 6.482463359832764
 umap_z: 12.330700874328613
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Dominique e Eric presero posto tra i bambini, nelle prime file; io e Marc ci sedemmo nei posti centrali. I bambini dell'asilo cantavano sul palco. Marc non riusciva a vedere fra loro i fratelli e continuava a lamentarsi sulle mie ginocchia. Faceva caldo in quella palestra trasformata per l'occasione in sala da festa. Ero a disagio e dissi a Marc:
 
 "Senti, siediti sulla sedia vicina oppure ti porto fra gli altri bambini; non ti posso più tenere in braccio, sei troppo pesante!".

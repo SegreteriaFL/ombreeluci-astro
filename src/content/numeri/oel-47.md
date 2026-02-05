@@ -1,15 +1,33 @@
 ---
 id: "OEL-47"
-title: "Numero 47 - Non escludiamoli dalla nostra vita"
+title: "Numero 47 – Non escludiamoli dalla nostra vita"
 tipo: "ombre-e-luci"
 numero: 47
-anno: "1994"
+sort_order: 146
+pubDate: "1994-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 1994"
 sommario: "Ombre e Luci n. 47 – Non escludiamoli dalla nostra vita ultima modifica: 1994-09-03T14:37:24+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_47_1994.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_47"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-47-non-escludiamoli-dalla-nostra-vita/"
+articoli:
+  - "ferie-dagosto"
+  - "un-fardello-pesante"
+  - "non-vuole-piu-andare-a-messa"
+  - "catechesi-disabilita-confessione"
+  - "come-costruire-il-futuro-delle-persone-disabili"
+  - "per-tutte-le-sabine-del-mondo"
+  - "dialogo-aperto-n-47"
+  - "vita-fede-e-luce-n-47"
+  - "confessione"
+  - "vita-fede-e-luce-n-47"
+  - "ferie-dagosto"
+  - "un-fardello-pesante"
+  - "non-vuole-piu-andare-a-messa"
+  - "come-costruire-il-futuro-delle-persone-disabili"
+  - "per-tutte-le-sabine-del-mondo"
+  - "dialogo-aperto-n-47"
 ---
 
 ## Indice

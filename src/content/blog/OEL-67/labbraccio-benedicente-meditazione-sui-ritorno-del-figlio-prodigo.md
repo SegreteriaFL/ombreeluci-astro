@@ -4,8 +4,8 @@ date: 1999-09-13
 author: Henri Bissonier
 slug: labbraccio-benedicente-meditazione-sui-ritorno-del-figlio-prodigo
 lang: it
-numero_rivista: 67
-id_numero: OEL-67
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-67"
 issue_number: OEL-67
 wp_id: 12896
 original_url: "https://www.ombreeluci.it/?p=12896"
@@ -15,7 +15,6 @@ umap_x: 8.652950286865234
 umap_y: 12.132285118103027
 umap_z: 10.280543327331543
 ---
-
 Henri Nouwen è un sacerdote di origine olandese che, dopo aver insegnato nelle più note università americane e aver molto viaggiato, è diventato l’assistente spirituale di un’ [Arca](http://www.arca-it.org) presso a Toronto. Ha scritto numerose opere di spiritualità tra le quali questo libro che è uno dei più belli che io abbia letto nella mia lunga vita. L’autore racconta come un giorno rimase colpito da una riproduzione del celebre quadro del suo compatriota Rembrandt raffigurante «il ritorno del figlio prodigo». Ne fu cosi profondamente colpito che fece un viaggio a San Pietroburgo per andare a contemplare l'originale al Museo dell'Hermitage. Questa meditazione, abbinata naturalmente a quella sulla parabola evangelica, proseguì poi a lungo dopo il viaggio.
 
 Henri Nouwen scopre così le ricchezze straordinarie del quadro (che troppo spesso viene riprodotto solo in parte), lo studia in tutti i suoi aspetti e ci fa partecipare alle lezioni di vita che vi sono nascoste. In conseguenza ogni personaggio e ogni dettaglio non solo diventano profondamente significativi, ma ci invitano ad una vera «conversione».

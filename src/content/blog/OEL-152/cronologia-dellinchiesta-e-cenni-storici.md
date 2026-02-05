@@ -12,8 +12,9 @@ umap_x: 8.429971694946289
 umap_y: 12.317732810974121
 umap_z: 11.129678726196289
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Una cronologia completa degli eventi che hanno visto Jean Vanier e padre Thomas Philippe al centro delle indagini avviate dall'Arca Internazionale.
 
 **1946:** Padre Thomas Philippe crea L’Eau Vive, un centro di formazione internazionale a Soisy-sur-Seine.

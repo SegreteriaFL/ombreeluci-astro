@@ -12,7 +12,8 @@ umap_x: 7.214633941650391
 umap_y: 11.418072700500488
 umap_z: 4.938808917999268
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 Se la tendenza dei padri alla fuga è una costante nella storia umana, la fuga dei padri di figli con disabilità è ancor più frequente e repentina. Ci sono, però, eccezioni che rinfrancano. In pagine sincere, lucide e a tratti poetiche, direttamente o attraverso un personaggio, lo scrittore giapponese Kenzaburō Ōe, premio Nobel per la letteratura nel 1994, ha narrato spesso la paternità di un figlio con disabilità. Hikari, infatti, il suo maggiore, nato con una gravissima lesione cerebrale, è affetto da autismo ed epilessia, il che non gli ha impedito, anche grazie alla tenacia dei genitori, di diventare uno dei compositori più noti in Giappone.
 

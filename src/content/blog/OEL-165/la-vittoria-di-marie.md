@@ -12,7 +12,8 @@ umap_x: 5.758337497711182
 umap_y: 9.242406845092773
 umap_z: 10.295480728149414
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 L​​a Seconda guerra mondiale imperversa. È il 1944 e la parigina Marie, lontana da suo padre, si nasconde nella casa sul mare degli zii a Saint-Malo, in Bretagna. Da qui viola la legge di Hitler, trasmettendo via radio messaggi in codice agli Alleati: la giovane legge col sistema Braille *Ventimila leghe sotto i mari* , il capolavoro di Jules Verne, e così facendo gli americani capiscono quali sono i bersagli da attaccare per liberare le città sotto scacco e vincere finalmente la guerra.
 

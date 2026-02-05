@@ -4,8 +4,8 @@ date: 1996-09-22
 author: Redazione
 slug: dialogo-aperto-n55
 lang: it
-numero_rivista: 55
-id_numero: OEL-55
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-55"
 issue_number: OEL-55
 wp_id: 10835
 original_url: "https://www.ombreeluci.it/?p=10835"
@@ -15,7 +15,6 @@ umap_x: 4.937869548797607
 umap_y: 8.088215827941895
 umap_z: 10.045855522155762
 ---
-
 ### Anche mio figlio andrà via
 
 Carissimi, ho ricevuto il giornalino e, come sempre, l'ho letto con piacere. La mia attenzione è stata presa sopratutto dall'articolo «Lascia che vada fuori di casa». Questo mi ha fatto tornare indietro quando mio figlio aveva circa otto anni e per la prima volta andava fuori casa senza di me. lo con mille paure: gli sarebbero stati vicino, l'avrebbero accudito come facevo io? Per lui è stato più semplice: appena lo affidai a due ragazzi che lo portavano a un campo FL lui si fidò subito di loro, e gli faceva grandi sorrisi. Al campo, nel vestirlo, ci sono state forse delle scarpe messe a rovescio, ma in cambio stava avendo quello che desiderava: la gioia, l'allegria, i canti e le scorazzate per i monti. Insomma, tutto quello che potevano dargli dei giovani amici con tanta voglia di vivere e di stare insieme a lui. Questo è stato l'inizio. Ora sono passati circa venti anni e la richiesta è stata sempre più pressante. Con le sue tante difficoltà motorie e intellettive mio figlio desidera qualcosa di diverso da quello che gli proponiamo noi in famiglia. E questo mi fa molto pensare. Gli altri figli in un certo momento della loro vita vanno a vivere fuori casa, e perché non lui? Perché farlo poi nel modo più drammatico quando saremo noi a lasciarlo? Perché non aiutarlo a distaccarsi e ad avere una vita affettiva e pratica più autonoma possibile? Se veramente amo mio figlio devo aiutarlo ad andare, e se questo un giorno avverrà dovrò ricordarmi sempre che lui sta vivendo la sua vita, la sua storia. E questo mi farà immensamente felice anche stando lontana da lui. Vi abbraccio come sempre.

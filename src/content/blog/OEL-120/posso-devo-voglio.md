@@ -14,8 +14,9 @@ umap_x: 4.61385440826416
 umap_y: 10.19532585144043
 umap_z: 7.713750839233398
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 Inizio subito col dire, da mamma adottiva di Andrea, che riaccoglierei Andrea, e con me mio marito Antonio e il resto della truppa (gli altri quattro figli) non una ma dieci volte, e con grande convinzione. La storia del suo arrivo in famiglia l’ho già raccontata ( [n° 100 "Da quattro a cinque figli"](https://www.ombreeluci.it/2007/la-grande-famiglia/) ); ora Andrea ha sette anni e ha iniziato la prima elementare: col sostegno, con un anno di ritardo, ma adesso era proprio pronto. Grande commozione di tutti alle prime pagine di A portate a casa da scuola: scritte tutte storte in caratteri giganti, ma pur sempre, chiaramente, delle bellissime A.
 
 ### Perché complicarsi l’esistenza?

@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 Mio marito è morto di infarto durante una sua trasferta di lavoro all’estero. Aveva 53 anni e niente ci aveva preparato a vederlo andar via così presto. Quando ho comuni cato la notizia a Charles, ho iniziato col dire che era successo qualcosa di grave. Egli mi ha risposto subito “Mamma, Papà è morto.” La sua intuizione mi ha lasciata stupefatta. Quando io ho confermato, la sua successiva reazione è stata quella di domandarmi preoccupato: “E chi mi accompagnerà in piscina sabato?” Quindi è corso nella sua stanza e non si è più fatto vedere fino a sera.
 
 Non so se Charles ha compreso che la morte del padre è qualcosa di irreversibile. Inizialmente ha reagito pensando alle conseguenze immediate della sua assenza senza proiettarsi nel futuro.

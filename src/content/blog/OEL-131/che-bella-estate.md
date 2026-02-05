@@ -12,7 +12,8 @@ umap_x: 8.21385669708252
 umap_y: 8.359207153320312
 umap_z: 12.49618911743164
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Questa estate la nostra Comunità ha vissuto grandi momenti di gioia vera con la celebrazione di anniversari veramente importanti.
 

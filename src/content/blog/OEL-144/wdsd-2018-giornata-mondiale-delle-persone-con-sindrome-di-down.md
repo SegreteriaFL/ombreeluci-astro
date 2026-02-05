@@ -15,8 +15,9 @@ umap_x: 5.61979866027832
 umap_y: 10.200103759765625
 umap_z: 6.997340202331543
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il 21 marzo 2018 è la tredicesima Giornata mondiale della sindrome di Down (World Down Syndrome Day – WDSD). Il tema di quest’anno è
 **#WhatIBringToMyCommunity,**
 ovvero come le persone con sindrome di Down possono dare un contributo significativo in ogni ambito della loro vita: scuola, lavoro, comunità, vita politica, cultura, media, tempo libero e sport. https://www.youtube.com/embed/wH_QO3w5n5E

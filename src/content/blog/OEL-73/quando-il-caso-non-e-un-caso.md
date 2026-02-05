@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 Parlare di Fede e Luce significa, per me, ritornare indietro di molto tempo, ritrovare le radici della mia fede e dei miei vent’anni. Sono don Paolo, sacerdote dal 1996, e compio quest’anno 37 anni. Non posso dire di aver cercato Fede e Luce. L’incontro è stato casuale ma allo stesso tempo carico della presenza di Dio. Un incontro nato così: un po’ improvvisamente, grazie a qualche amica del Gruppo Fede e Luce, ho avuto la possibilità di portare in parrocchia il desiderio che il Signore stava seminando nel mio cuore: parlare ad altri, dopo averlo ascoltato io, del fatto che ogni uomo è importante e che Dio è molto più grande e misericordioso di ogni essere vivente.
 Leggi anche: [Spesso di notte in silenzio](https://www.ombreeluci.it/2001/spesso-di-notte-in-silenzio/)

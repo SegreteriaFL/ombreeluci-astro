@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 *La vendita è finita. Siamo stanchi ma soddisfatti. È stato un successo inaspettato, e per merito di tutti voi. Tutti avete risposto al mio appello fatto agli inizi di Ottobre. Tante persone hanno aiutato, alcune delle quali non impegnate di solito in F. e L. e sarebbe impossibile ringraziare tutti uno ad uno.*
 *Solo agli inizi di ottobre si è stabilito che le responsabili della vendita fossimo: Maria Posani ed io. Non in quale maniera siamo restate incastrate. Io pensavo che Maria avesse un po' di esperienza in questo campo e lei pensava lo stesso di me. Invece eravamo due dilettanti inconscienti! Non avevamo la minima idea di quanto lavoro c'era da fare né sapevamo come cominciare.*
 *Abbiamo ricevuto una montagna di roba usata che non sapevamo più dove mettere. La roba arrivava in continuazione e tutto era da esaminare, dividere, catalogare, sistemare ecc.*

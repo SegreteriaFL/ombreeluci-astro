@@ -12,7 +12,8 @@ umap_x: 5.404717445373535
 umap_y: 9.548425674438477
 umap_z: 7.101360321044922
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 *Abbiamo estratto dal libro di Lynda Johnson Vitali " [Chiamami Alex](https://www.ombreeluci.it/2013/chiamami-alex-recensione/) ", alcune pagine sull’argomento.*
 

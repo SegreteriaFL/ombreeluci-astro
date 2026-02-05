@@ -17,8 +17,9 @@ umap_x: 8.399932861328125
 umap_y: 7.5806379318237305
 umap_z: 7.818924427032471
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Dopo aver introdotto gradualmente negli ultimi anni la possibilità di verificare accessibilità dei luoghi pubblici grazie alla collaborazione con le
 [Local Guides](https://maps.google.com/localguides)
 , Google Maps ha aggiunto una nuova funzione alle app per Android e iOS, grazie alla quale gli utenti potranno scegliere

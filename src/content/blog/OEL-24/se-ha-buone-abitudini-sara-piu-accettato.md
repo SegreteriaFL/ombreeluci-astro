@@ -11,8 +11,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nei primi cinque o sei anni di vita di un bambino i genitori sono le sue guide quasi esclusive. Se a questo compito sarà dedicato cura e impegno, se ne vedranno i frutti.
 
 Nel bambino con ritardo di sviluppo (intellettivo - psichico - motorio...) l’educazione è fatta soprattutto dalle abitudini. Le buone abitudini hanno un ruolo importante nella vita di ogni uomo, ma assumono un’importanza speciale in chi non ha la capacità di giudicare da solo quello che è giusto e bene da quello che è sbagliato o fuori posto.

@@ -12,7 +12,8 @@ umap_x: 8.64622688293457
 umap_y: 9.632617950439453
 umap_z: 6.244953632354736
 issue_number: OEL-22
-id_numero: OEL-22
+id_numero: "OEL-22"
+numero_rivista: "Ombre e Luci"
 ---
 ### BIBLIOGRAFIA PER I GIOCHI
 

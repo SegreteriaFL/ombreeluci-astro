@@ -1,15 +1,32 @@
 ---
 id: "OEL-95"
-title: "Ombre e Luci n. 95 - Domande sulla persona “Down”"
+title: "Ombre e Luci n. 95 – Domande sulla persona “Down”"
 tipo: "ombre-e-luci"
 numero: 95
-anno: "2006"
+sort_order: 194
+pubDate: "2006-09-01T00:00:00Z"
 data_pubblicazione: "Settembre 2006"
 sommario: "Ombre e Luci n. 95 – Domande sulla persona “Down” ultima modifica: 2006-09-19T22:18:43+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_95_2006.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_95"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-95-domande-sulla-persona-down/"
+articoli:
+  - "irradiare-la-pace-come-fanno-loro"
+  - "se-avessi-ascoltato-la-mia-disperazione"
+  - "e-ho-ripensato-tutto"
+  - "bambini-e-autismo-mosaico-della-pace"
+  - "domande-sulle-persone-down"
+  - "come-reagire-allindifferenza-di-chi-e-vicino"
+  - "il-mio-primo-campo-fede-e-luce"
+  - "vita-fede-e-luce-hola-madrid"
+  - "terapie-corpontamentali-teacch-vs-aba"
+  - "dialogo-aperto-n-95"
+  - "e-li-chiamano-disabili-recensione"
+  - "mio-figlio-mi-divora-recensione"
+  - "donne-nel-respiro-di-ruah-il-protagonismo-delle-donne-nella-morte-e-resurrezione-di-gesu-recensione"
+  - "obiettivo-decrescita-recensione"
+  - "ii-barattolo-di-maionese-e-caffe"
 ---
 
 ## Indice

@@ -12,8 +12,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Da settembre sono iscritta a un corso di design del gioiello e oreficeria a Firenze. In questo periodo di lezioni sospese ci hanno chiesto di realizzare due oggetti al giorno utilizzando qualunque materiale disponibile in casa. Gli oggetti dovevano in parte prendere spunto dall’artista che abbiamo scelto come fonte di ispirazione per realizzare una collezione di gioielli, in parte esprimere le emozioni che stiamo vivendo in questo momento coì particolare, cercando una sintesi di questi due aspetti.
 Quanto agli oggetti che ho realizzato per la scuola e la collezione di gioielli che ne scaturirà, ve ne parlerò a fine anno (se vorrete!); qui vorrei invece lanciare qualche spunto perché anche voi possiate divertirvi come mi sono divertita io.
 

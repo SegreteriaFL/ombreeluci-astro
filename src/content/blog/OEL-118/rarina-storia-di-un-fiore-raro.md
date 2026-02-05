@@ -14,7 +14,8 @@ umap_x: 6.141329288482666
 umap_y: 9.443228721618652
 umap_z: 7.271227836608887
 issue_number: OEL-118
-id_numero: OEL-118
+id_numero: "OEL-118"
+numero_rivista: "Ombre e Luci"
 ---
 Perché raccontare la storia di Rarina? La sua è una vicenda talmente “rara”, anzi speriamo unica, nel suo genere. Chi potrebbe ritrovarsi nella vita di questo esserino così fragile e così isolato, ma pure tanto tenace e paradossalmente sempre in compagnia? Forse nessuno! ma Rarina è una di noi, è una di quelle creature a cui Gesù alludeva, quando ci esortava ad accogliere i bambini e a prenderci cura di tutte le sue creature.
 

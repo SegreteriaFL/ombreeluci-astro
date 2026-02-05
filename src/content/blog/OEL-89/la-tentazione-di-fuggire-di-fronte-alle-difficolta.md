@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "la-tentazione-di-fuggire-di-fronte-alle-difficolta"
 lang: it
-numero_rivista: 89
-id_numero: OEL-89
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-89"
 issue_number: OEL-89
 wp_id: 30824
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 Questo testo del vangelo di Giovanni ci suggerisce una domanda: che senso ha il nostro cammino di Fede e Luce? Cosa significa l’invito di Gesù “Seguimi”? E anche: “Venite a mangiare”?
 I fatti che qui Giovanni ci racconta avvengono dopo la Pasqua, cioè dopo la morte e la risurrezione di Gesù. Noi siamo abituati a pensare alla Pasqua come ad un momento di rinascita e di nuovo inizio per i discepoli, ma prima di essere un momento di ricarica per loro è invece un momento di crisi. **La parola ‘Pasqua’ significa passaggio, crisi. Siamo invitati dunque anche noi a chiederci a quale passaggio siamo chiamati.
 

@@ -12,7 +12,8 @@ umap_x: 7.113633155822754
 umap_y: 8.962669372558594
 umap_z: 8.247675895690918
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 Non sempre sono riuscita a vivermi bene: ho 34 anni e una disabilità motoria. **Nonostante i miglioramenti nell’autonomia grazie a tanta fisioterapia, rimango comunque fisicamente dipendente dagli altri.** Mi riconosco molto in quello che mi dissero alcuni amici che vivono la mia stessa condizione: con la disabilità puoi imparare a conviverci, puoi prendere consapevolezza che un limite non è necessariamente del tutto negativo, ma che può, anzi, aiutarti a scoprire potenzialità che non immaginavi di avere e che invece sono dentro di te pronte per uscire. **Nonostante questo, però, è difficile accettare totalmente questa situazione, farci pace in maniera definitiva.**
 

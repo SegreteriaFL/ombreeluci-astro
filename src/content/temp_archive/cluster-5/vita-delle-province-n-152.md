@@ -7,6 +7,7 @@ cluster_id: 5
 image: "https://www.ombreeluci.it/wp-content/uploads/2020/11/Copertina_OeL_152_2020-206x300.jpg"
 slug: "vita-delle-province-n-152"
 has_comments: false
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

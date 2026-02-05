@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 È nato otto anni fa ma è ancora unico nel suo genere. [**Morgan's Wonderland**](http://www.morganswonderland.com) è un parco divertimenti creato appositamente per bambini con disabilità sia fisiche che mentali.
 
 Nasce a**San Antonio, in Texas**, da un ricco imprenditore edile, Gordon Hartman, come "regalo" per la figlia con disabilità. Il parco si sviluppa su 10 ettari di terreno ed ospita delle attrazioni create su misura per bambini e ragazzi con disabilità, come percorsi sensoriali, piscine con temperatura regolabile, altalene che alloggiano sedie a rotelle o zone di gioco sulla sabbia con strumenti speciali.

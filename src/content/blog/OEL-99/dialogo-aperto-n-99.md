@@ -4,8 +4,8 @@ date: 2007-11-09
 author: Redazione
 slug: dialogo-aperto-n-99
 lang: it
-numero_rivista: 99
-id_numero: OEL-99
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-99"
 issue_number: OEL-99
 wp_id: 32756
 original_url: "https://www.ombreeluci.it/?p=32756"
@@ -15,7 +15,6 @@ umap_x: 4.710146427154541
 umap_y: 8.415304183959961
 umap_z: 10.390181541442871
 ---
-
 ### Perché, si, perché?
 
 Nostro figlio Vincenzo, di undici anni, l’altro giorno tornava con noi da una visita specialistica e in treno continuava a ripeterci: "Ma papà, cosa vuol dire daun?". Cercavamo di trovare una risposta adeguata, ma lui con ostinata tenacia continuava a ripetere: "Mannaggia, papà, che cos'è daun?". La vera domanda era: "Perché quando andiamo ai giardini, i bambini con cui gioco mi guardano in modo strano? Perché quella mamma ha richiamato quella bambina alla quale mi ero avvicinato?". È facile dire che siamo tutti più o meno handicappati. È anche facile far capire a Vincenzo la sua diversità dovuta a un maledetto cromosoma di troppo. Che noi siamo a volte handicappati di cuore quando non sappiamo sorridere, perdonare, amare. Quello che non è facile è spiegare ad un preadolescente Down il "perché"? Perché lui e non un altro? Perché questo si vede sul suo viso? Perchè tanta gente si ferma alla sua apparenza? Certo, quando tutto va bene, ci sembra facile rispondere che questi ragazzi hanno la vocazione di salvare il mondo, che la loro preghiera è preziosa agli occhi del Signore, e come sanno toccare il cuore di chi li avvicina con amore... Ma come dirlo nei momenti di scoraggiamento, di estrema fatica... Che cosa potevo dire la prima volta che ho preso tra le braccia Vincenzo? Non sapevo che ripetere: Perché, perché, come farà lui più tardi. Ripetere questo grido del povero che non capisce, quel grido che Dio sa amare... (OL n. 158).

@@ -14,8 +14,9 @@ umap_x: 5.5569939613342285
 umap_y: 8.823296546936035
 umap_z: 8.770186424255371
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 H
 o acquistato per la mia Antonella, fin da piccola, i più bei vestitini che potessero esporre in vetrina. Non era importante che la bambina fosse seduta sul passeggino, a ombrello pieghevole; io e il suo papà con tanta gioia la portavamo a passeggio sul bellissimo lungomare di Reggio Calabria. Bisognava però pensare a farla socializzare, cercammo un asilo disposto ad accoglierla con le sue limitazioni. Sono stata fortunata nella ricerca: ho avuto accanto un personale sensibile e preparato che ha saputo coinvolgerla in qualsiasi attività dell'asilo; appena si presentava un problema venivo interpellata, e insieme trovavamo una soluzione.
 Ricordo benissimo il primo carnevale. Premetto che Antonella, finché i giochi si facevano al tavolo rimaneva seduta sul passeggino, ma se si svolgevano per terra o in giro per la stanza, veniva messa a gattino e si univa liberamente al gruppo dei bimbi. Così partecipava ai vari giochi. Ricordo, dicevo, il primo carnevale: sempre in concerto con le maestre, decidemmo di acquistare la maschera da tigre così Antonella, sempre a gattino, poteva seguire le altre maschere che si esibivano davanti a tutti i genitori. Negli anni successivi ha sempre indossato la maschera di un animale a quattro zampe. Ricordo quanto era bella, sorridente con il vestito del giaguaro e della pantera rosa.

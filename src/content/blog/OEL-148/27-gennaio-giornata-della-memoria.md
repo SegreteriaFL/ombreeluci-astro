@@ -16,8 +16,9 @@ umap_x: 8.739836692810059
 umap_y: 9.747584342956543
 umap_z: 4.073583602905273
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 74anni fa, **l’apertura dei cancelli del campo di concentramento di Auschwitz** alla fine della Seconda guerra mondiale. Gli orrori del progetto di sterminio nazista vennero infine mostrati e la necessità, ora, è non dimenticarli. “ [Fino a quando la mia stella brillerà](http://www.ombreeluci.it/2019/fino-a-quando-la-mia-stella-brillera/) ” un libro scritto da **Daniela Palumbo** sulla testimonianza di vita di **Liliana Segre** ci aiuta a conoscere e ricordare l’introduzione delle leggi razziali in Italia e la deportazione nel campo di concentramento in Gemania attraverso le memorie della Segre, la piccola Liliana, che lì perderà il suo papà e un po’ di se stessa... [ma non la sua umanità](http://www.ombreeluci.it/2018/il-nostro-incontro-con-liliana-segre/) .
 
 27 gennaio è anche necessità di ricordare gli orrori legati al progetto di **eliminazione di tutte le “vite indegne di essere vissute”** secondo l’ideologia nazista. Quelle di tantissimi bambini e persone disabili, prima ricoverate in maniera coatta poi sottoposte ad eutanasia. Il particolare aspetto di come “zelanti professionisti”, anche fuori dalla Germania, abbiano dato realizzazione a questo progetto viene descritto in un libro, [“I bambini di Asperger”](http://www.ombreeluci.it/2019/i-bambini-di-asperger/) di **Edith Sheffer** . Della terribile operazione nazista di sterminio, denominata Action T4, precorritrice di quello degli ebrei, si occupa un evento organizzato da Anffas Nord Milano e L-Inc, con [**una mostra ed un seminario**](https://labilita.org/notizie/27-gennaio-non-basta-il-ricordo/) .

@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Giorni fa, sono stato invitato ad una « giornata per i malati ». Dopo la Messa ci siamo ritrovati nella sala parrocchiale, circa 150 persone; vecchi, ciechi, malati, quelli che si è soliti chiamare « i poveri ».
 
 Per animare la festa c’erano dei giovani che hanno suonato, cantato, presentato uno spettacolo. Era bello ma molto triste: il ragazzino cieco non vedeva niente; una vecchia signora di circa 90 anni, non capiva gran ché delle scenette; una ragazzina in sedia a rotelle, era lì, spettatrice passiva.

@@ -12,8 +12,9 @@ umap_x: 7.70231294631958
 umap_y: 7.660344123840332
 umap_z: 9.568214416503906
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 “Amici di Simone” è un’Associazione di volontariato di ispirazione cattolica, iscritta nel registro regionale e, quindi, Onlus di diritto. La sua nascita, nel dicembre 2006, si deve all’esperienza di vita e di fede di Simone, un ragazzo vissuto nella parrocchia di S. Giustino (quartiere Alessandrino,Roma).
 
 Morto nel giorno di Natale del 2005, a soli 29 anni, Simone lascia in eredità la testimonianza del vivere con entusiasmo e gioia un’esistenza piena,anche tra le difficoltà e le sofferenze. La sua rara malattia genetica nel tempo lo ho portato ad una disabilità motoria totale, ma Simone l’ha accolta e vissuta incontrando giornalmente Gesù nell’Eucarestia; circondato sempre da tanti amici della comunità ai quali, pur senza parlare, ma anche solo con lo sguardo, riusciva a trasmettere la gioia di vivere nonostante tutto. Intorno a quel letto prendeva forma quella che sarebbe diventata l’Associazione “Amici di Simone”. Essa si prefigge infatti di sostenere i giovani disabili e le loro famiglie presenti nel territorio, favorendone l’integrazione nel contesto sociale.

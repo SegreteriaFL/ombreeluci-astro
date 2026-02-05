@@ -12,7 +12,8 @@ umap_x: 4.953792572021484
 umap_y: 8.93451976776123
 umap_z: 8.196730613708496
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 John, un uomo con la sindrome di Down, aspettava fuori da un cimitero. Gli era stato detto che la mamma era partita, e lui la stava aspettando. **La verità era che la mamma era morta ma nessuno aveva avuto il coraggio di dirglielo.** Di conseguenza, non aveva perso solo la mamma ma anche la possibilità di capire perché non la vedeva più. La sua solitudine non aveva modo di essere espressa, ma si risolveva soltanto in un’eterna attesa.
 

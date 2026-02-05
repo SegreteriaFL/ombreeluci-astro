@@ -16,8 +16,9 @@ umap_x: 5.410812854766846
 umap_y: 10.273597717285156
 umap_z: 7.615258693695068
 issue_number: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 Èsempre molto difficile, almeno per me, presentarsi ma molto semplicemente vi dico che sono la mamma di Paolo e di Chiara. Paolo ha venticinque anni e Chiara ne avrà quattro nel prossimo dicembre; entrambi sono affetti da Sindrome di Down. Certamente la cosa farà meraviglia a molti dei lettori, pensando che il caso si sia ripetuto nella stessa famiglia. Sì, si è ripetuto perché voluto e ve lo spiegherò qui di seguito. Inizio da Paolo che ormai è un uomo. Quando Paolo è nato io avevo ventitré anni e a tutto ero preparata fuorché ad una prova del genere, anche perché onestamente non sapevo quasi che esistessero.
 
 Oltre alla mia inesperienza ricordo anche la scarsa conoscenza in materia da parte dei medici stessi. Escluso quel poco che sapevano i medici, altro non c’era.

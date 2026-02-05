@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
 archive_id: OmbreELuciN004
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 periodo_label: Ottobre, Novembre, Dicembre
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 umap_x: 5.551819801330566
 umap_y: 10.247962951660156
 umap_z: 7.2808837890625
+id_numero: "OEL-4"
 ---
-
 “
 *Il nostro primo figlio ha qualche minuto di vita. Mio marito, subito, sa che è mongoloide. Solo qualche ora dopo anche io apprendo il verdetto. La mia prima reazione è che Dio ce lo manda e che noi sapremo amarlo così com’è.*
 *Poi, comincia per me una lotta terribile: da un lato un istinto materno mi fa desiderare con tutte le forze di avere vicino il bambino che ho appena messo al mondo (al quale stanno prestando cure speciali).*

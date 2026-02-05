@@ -6,8 +6,8 @@ theme: "cluster-4"
 cluster_id: 4
 slug: "la-forza-della-tenerezza-lincanto-si-e-rotto"
 lang: it
-numero_rivista: 93
-id_numero: OEL-93
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-93"
 issue_number: OEL-93
 wp_id: 31514
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Così mi raccontò la mamma. Ci eravamo accorti che Antonio era un po’ più lento del fratello minore Carlo. Con mio marito abbiamo pensato di metterli in classe insieme, così che il fratello lo potesse aiutare e proteggere. Finché sono stati piccoli tutto è andato bene. Ero orgogliosa del loro affiatamento e compiaciuta dei progressi (piccoli invero) di Antonio.
 
 Divenuti adolescenti (Carlo sempre più alto, più bello, più forte) non ho voluto dividerli anche se vedevo che la classe che frequentavano non era adatta ad Antonio, che cominciava a non seguire per niente certe materie nonostante il "doposcuola" generoso di Carlo. Mi sono detta: "Meglio che continuino insieme, perché così Antonio soffrirà di meno". Però...

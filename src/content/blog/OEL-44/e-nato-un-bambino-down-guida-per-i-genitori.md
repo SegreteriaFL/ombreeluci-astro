@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-44
+id_numero: "OEL-44"
+numero_rivista: "Ombre e Luci"
 ---
-
 L’istituto Italiano di Medicina Sociale ha pubblicato nello scorso mese di luglio una guida per l’orientamento e l'informazione delle famiglie con bambini Down che rappresenta uno strumento in grado di fornire delle risposte a quei problemi che una famiglia si trova ad affrontare al momento della nascita e durante tutto il percorso di crescita del proprio bambino. La conoscenza dei vari aspetti dell'handicap è una premessa indispensabile per l'accettazione della malattia e per la conoscenza delle reali potenzialità e dei limiti del proprio figlio.
 La guida è studiata per dare un supporto informativo e conoscitivo dei vari aspetti della sindrome, da quelli strettamente medico-sanitari alle implicazioni psicologiche e sociali nonché a fornire valide informazioni di ordine pratico.
 Il libro ripercorre le tappe di crescita del bambino Down sottolineando di volta in volta gli aspetti e le problematiche che la famiglia si trova ad affrontare durante le diverse età del figlio. Un capitolo a sé tratta gli aspetti socio-assistenziali con la descrizione delle agevolazioni sanitarie e fiscali e con le indicazioni pratiche per accedervi.

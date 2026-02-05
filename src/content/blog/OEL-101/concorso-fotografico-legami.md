@@ -5,8 +5,8 @@ author: Redazione
 slug: concorso-fotografico-legami
 lang: it
 anno_rivista: 2008
-numero_rivista: 101
-id_numero: OEL-101
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-101"
 issue_number: OEL-101
 wp_id: 33179
 original_url: "https://www.ombreeluci.it/?p=33179"
@@ -16,7 +16,6 @@ umap_x: 6.057253360748291
 umap_y: 7.311179161071777
 umap_z: 9.247844696044922
 ---
-
 La giuria composta da Flavio Bielloni (grafico), Anadrea Panegrossi (fotografo professionista), Francesca Sauro (psicologa), Riccardo Guglielmin (fotografo), ha valutato le foto, prive di firma dell’autore, e ha assegnato i premi a:
 
 - 1° classificato: Valentina Calabresi (roma), foto in copertina - 2° classificato: Ludovico Bonaventura Gammarelli, (Fregene), foto in IV di copertina - 3° classificato: Suor antonella Casa della Carità (Piacenza)

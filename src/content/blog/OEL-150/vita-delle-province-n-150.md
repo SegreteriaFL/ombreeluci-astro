@@ -12,7 +12,8 @@ umap_x: 7.857536315917969
 umap_y: 9.794343948364258
 umap_z: 14.656112670898438
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 ### Visita, prega, impara
 

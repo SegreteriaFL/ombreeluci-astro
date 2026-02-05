@@ -12,8 +12,9 @@ umap_x: 8.828357696533203
 umap_y: 8.21351146697998
 umap_z: 3.2084243297576904
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 # Gli altri siamo noi
 
 ## Il cinema e la disabilità, una riflessione

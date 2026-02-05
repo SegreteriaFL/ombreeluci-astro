@@ -4,8 +4,8 @@ date: 2002-03-10
 author: Maria Teresa Mazzarotto
 slug: un-libro-interessante-sulladolescenza-dei-ragazzi-disabili-chi-sarei-se-potessi-essere
 lang: it
-numero_rivista: 77
-id_numero: OEL-77
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-77"
 issue_number: OEL-77
 wp_id: 23974
 original_url: "https://www.ombreeluci.it/?p=23974"
@@ -18,7 +18,6 @@ umap_x: 7.661890506744385
 umap_y: 10.128012657165527
 umap_z: 6.02794885635376
 ---
-
 Così si intitola il libro di Enrico Montobbio pubblicato di recente dalle Edizioni Del Cerro. Il sottotitolo spiega più chiaramente di cosa si tratta: **la condizione adulta del disabile mentale** . L’autore immagina il divenire adulto del ragazzo down e in genere del disabile mentale, come un viaggio imperfetto ostacolato da insufficienze, barriere e limiti. Tuttavia — sostiene l’autore — se questo viaggio “seguirà un itinerario nella realtà cercando spazi di vita accettabili ed equilibri corretti fra competenze e limiti”, lo porterà ad essere un adulto, un uomo semplice, a volte molto semplice, ma non più un bambino, con un suo status attivo, cioè con un ruolo lavorativo preciso che gli riconosce diritti e doveri, che lo collega ai meccanismi sociali in modo autentico. La meta non è facilmente raggiungibile e l’autore sollecita genitori, educatori ma anche la società civile nel suo complesso a guardare al ragazzo disabile con occhio e mente rinnovati evitando nei suoi confronti atteggiamenti e iniziative che anziché aiutarlo in questo viaggio in salita, lo arrestano in modi di vivere infantili o falsi.
 
 **Due interi capitoli del libro sono dedicati al problema dell’adolescenza.** Secondo l’autore l’impossibilità di vivere una vera e propria adolescenza rende particolarmente difficile la crescita del disabile mentale. Questo tratto di vita, quando il giovane matura una nuova identità superando schemi e attitudini di tipo infantile, è un percorso difficile per tutti ma a lui è vietato. Cerchiamo di capire il perché.

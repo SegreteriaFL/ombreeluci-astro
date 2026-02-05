@@ -12,8 +12,9 @@ umap_x: 5.227468967437744
 umap_y: 8.79539680480957
 umap_z: 11.271255493164062
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Carissimi amici e amiche, l’11 settembre è stato un giorno di particolare commozione: è mancato Aldo della nostra Comunità San Giuseppe della Pace.
 
 È stata una persona davvero speciale che pur nella malattia in questo periodo di covid, sapendoci tutti lontani, non ha mai fatto mancare a tutto il gruppo un suo pensiero quotidiano di speranza. Ha frequentato la nostra Comunità per 13 anni.

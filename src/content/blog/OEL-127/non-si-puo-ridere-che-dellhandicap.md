@@ -12,7 +12,8 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-127
-id_numero: OEL-127
+id_numero: "OEL-127"
+numero_rivista: "Ombre e Luci"
 ---
 Qual è l’utilità del ridere nelle nostre vite?
 Il ridere non è utile. E’ per questo che è indispensabile, vitale. Oggi ridiamo molto meno di ieri, perche siamo portati a ricercare le cose utili. Il ridere mostra che qualcosa è stato trasmesso, che una complicità è stata stabilita.

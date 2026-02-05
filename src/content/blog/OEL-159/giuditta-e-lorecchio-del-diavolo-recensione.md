@@ -12,7 +12,8 @@ umap_x: 7.888277053833008
 umap_y: 11.280250549316406
 umap_z: 4.54539155960083
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 Labambina è cieca. Ed è ebrea. Una doppia “tara” negli anni bui della Seconda guerra mondiale, quando la caccia all’impuro, al diverso ha assunto un volto mostruoso di odio e di morte. **Ma Giuditta vede quello che è invisibile ai più: parla con gli animali, dialoga con la natura, ascolta il mondo senza filtri, senza mai sentirsi sconfitta.**
 

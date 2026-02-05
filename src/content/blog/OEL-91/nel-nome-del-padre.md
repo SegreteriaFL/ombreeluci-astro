@@ -4,8 +4,8 @@ date: 2005-09-19
 author: Mariangela Bertolini
 slug: nel-nome-del-padre
 lang: it
-numero_rivista: 91
-id_numero: OEL-91
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-91"
 issue_number: OEL-91
 wp_id: 31148
 original_url: "https://www.ombreeluci.it/?p=31148"
@@ -17,7 +17,6 @@ umap_x: 4.63379430770874
 umap_y: 8.806584358215332
 umap_z: 7.607284069061279
 ---
-
 Tutti si sono accorti di **quanto si parli poco dei papà nel mondo dell'handicap** . Come diceva mio marito, perfino Ombre e Luci si dimentica troppo spesso di loro.
 
 **È vero, ma era vero di più nei tempi passati, quando i papà si facevano indietro** , troppo indietro a volte, fino a sparire del tutto in certi casi; lasciando così la grave incombenza alla mamma.

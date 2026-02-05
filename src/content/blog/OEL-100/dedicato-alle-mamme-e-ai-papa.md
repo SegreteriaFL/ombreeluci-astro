@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "dedicato-alle-mamme-e-ai-papa"
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32869
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 Ad ogni Santo Natale rifletto e mi interrogo sull’Emmanuele il “Dio con noi”. Lo stesso nome deciso per mio figlio diversamente abile, un’ora prima che venisse alla luce.
 
 Ho percepito subito in lui qualcosa di grande: lasciai scorrere prima l’amore e parlare il cuore, affinché nella ragione sussultasse la meraviglia e lo stupore.

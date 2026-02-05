@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 È proprio l'impressione predominante, fin dall’arrivo a San Silvestro, entrando nel giardino, nella casa principale (una villa da fiaba), in ogni aula, perfino al «Centro di solidarietà», piccola casa per i più gravi: un luogo per vivere più che un centro, un luogo per sbocciare e fiorire, più che una scuola. Come far passare, a voi che leggete queste righe, un’impressione così forte? Vien voglia di dire: «Andate a vedere voi stessi, è la sola cosa da fare». È quello che hanno fatto molte famiglie, alcune giunte da molto lontano, perfino dalla Sicilia. È quello che ha spinto alcune famiglie, a trasferirsi dal paese d’origine per venire a vivere vicino a Mantova, scegliendo per il proprio figliolo la scuola della «fioritura».
 
 Son dovuti venire ad abitare vicino alla Casa del Sole perché — è una delle idee di base della fondatrice — il bambino non deve essere mai separato dalla famiglia; la famiglia, infatti, è la fonte viva dei suoi bisogni affettivi — bisogni di ogni bambino — ma ancora di più di chi ha un handicap mentale. Questi bisogni affettivi sono la base e la fonte di ogni sviluppo.

@@ -4,8 +4,8 @@ date: 2002-12-08
 author: Redazione
 slug: solo-un-trattino
 lang: it
-numero_rivista: 80
-id_numero: OEL-80
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-80"
 issue_number: OEL-80
 wp_id: 25652
 original_url: "https://www.ombreeluci.it/?p=25652"
@@ -15,7 +15,6 @@ umap_x: 6.621177673339844
 umap_y: 9.171834945678711
 umap_z: 11.479643821716309
 ---
-
 Da tempo, da qualche mese, porto dentro un pensiero speciale per i genitori. Per i genitori di Fede e Luce ma anche per tutti i genitori che all’improvviso comprendono che il loro figlio non crescerà nella stessa maniera degli altri bambini...
 
 Questo pensiero è nato in particolare ascoltando una mamma che fra le lacrime diceva: «A volte la guardo seduta lì e soffro. Cosa penserà, mi chiedo. E soffro»

@@ -12,8 +12,9 @@ umap_x: 7.889070510864258
 umap_y: 7.882255554199219
 umap_z: 13.440536499023438
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 - Incontriamo il gruppo Fede e Luce di Condè (Francia) DOMENICA 14 OTTOBRE con la S.Messa alle ore 16,30 al NAZARETH (ingresso da V.Plinio 25) iniziando così un nuovo anno. - INCONTRO dei genitori con Jean Vanier. Collegio Leoniano Via Pompeo Magno, 21 (vicino al Nazareth). - Festa della luce Domenica 3 FEBBRAIO - Festa della Primavera Domenica 4 MAGGIO
 
 ### **Crescere insieme**

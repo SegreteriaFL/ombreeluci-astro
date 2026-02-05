@@ -12,7 +12,8 @@ umap_x: 7.95292329788208
 umap_y: 10.64871597290039
 umap_z: 5.628429412841797
 issue_number: OEL-152
-id_numero: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
 Due torinesi, entrambi in carrozzina dopo un incidente, uniscono le forze in un progetto alla scoperta delle bellezze dell’Italia accessibile. Viaggio Italia around the world inizia nel 2015 e continua ancora oggi, raccontando con coraggio e positività che la vita di una persona con disabilità può essere non solo autonoma ma anche emozionante e persino estrema! Con l’aiuto delle matite di Marcello Restaldi, Ragona e Paiardi prendono vita in un fumetto che riassume alcune delle loro imprese: parapendio sul Monte Avena (Feltre), sci nautico a Recetto (Novara), arrampicata su parete a Marina di Ravenna, handbike in un percorso ciclabile tra Torino e Venezia, rafting in Calabria... Tutte esperienze per mettere alla prova i propri limiti per poi riscoprirsi, invece, più liberi di quel che si crede.
 

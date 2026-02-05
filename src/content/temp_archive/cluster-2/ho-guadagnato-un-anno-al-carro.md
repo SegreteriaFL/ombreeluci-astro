@@ -7,6 +7,7 @@ cluster_id: 2
 image: "http://www.ombreeluci.it/wp-content/uploads/2018/12/oel055-022.jpg"
 slug: "ho-guadagnato-un-anno-al-carro"
 has_comments: false
+id_numero: "OEL-55"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

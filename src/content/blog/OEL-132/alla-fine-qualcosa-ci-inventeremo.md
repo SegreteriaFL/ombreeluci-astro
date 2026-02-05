@@ -17,8 +17,9 @@ umap_x: 6.95998477935791
 umap_y: 10.764615058898926
 umap_z: 4.622786521911621
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 Padre di un ragazzo autistico ormai diciottenne,
 **Gianluca Nicoletti**
 è un noto giornalista che da tempo non esita a mettersi in gioco in prima persona per affrontare questioni legate all’autismo. L’affermazione nel titolo del suo secondo libro è forse spiazzante ma la sua lettura ne illustra le sfaccettature e le implicazioni. Nicoletti si confronta con quello che ogni genitore di ragazzo con handicap vive con grossa apprensione: a chi affidare il proprio figlio quando non sarà più il genitore in grado di occuparsi di lui. Trovare un luogo, costruirlo forse, che rispetti a pieno la sua persona, gli voglia bene, lo lasci e lo spinga ad esprimere nelle sue possibilità.

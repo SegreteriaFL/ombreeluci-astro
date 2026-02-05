@@ -16,7 +16,8 @@ umap_x: 6.655949115753174
 umap_y: 9.16317367553711
 umap_z: 7.606557846069336
 issue_number: OEL-27
-id_numero: OEL-27
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
 Michel e Laure sono sposati da tre anni e hanno un bambino di due anni. Michel non sente, ma legge perfettamente sulle labbra. Laure e Michel ci comunicano qui le difficoltà che possono sorgere durante un pranzo e suggeriscono alcune soluzioni... Questo scritto è di Laure, ma esprime il desiderio di entrambi.
 Q

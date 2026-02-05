@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-125
-id_numero: OEL-125
+id_numero: "OEL-125"
+numero_rivista: "Ombre e Luci"
 ---
 L’Associazione, nata nel 1903 per accompagnare i malati a Lourdes e negli altri santuari internazionali, da sempre cerca di percorrere tutte le strade che mettono le persone sofferenti nella condizione di vivere e incontrare pienamente il Cristo redentore.
 

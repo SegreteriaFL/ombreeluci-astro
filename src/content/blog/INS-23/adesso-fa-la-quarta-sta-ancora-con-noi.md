@@ -14,8 +14,9 @@ umap_x: 6.633826732635498
 umap_y: 7.353440284729004
 umap_z: 7.966188907623291
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 **Il primo giorno di scuola, appena arrivati in classe, tutti notarono una bambina più alta di noi che parlava male** . Questa bambina si mise a tirare i capelli a tutti, perfino alla maestra che è molto paziente e le spiegò che non bisognava far così e lei cessò.
 
 Ma solo per un periodo di tempo perché poi iniziò di nuovo a tirare i capelli, a prendere le cose degli altri e addirittura scappava dalla classe.

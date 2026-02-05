@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "le-testimonianze-dei-genitori-quando-mio-figlio-disabile-mi-piace-di-piu"
 lang: it
-numero_rivista: 88
-id_numero: OEL-88
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-88"
 issue_number: OEL-88
 wp_id: 30592
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 ### Daniele
 Sono Stefano, il papà di Daniele, un ragazzo dolcissimo che non comunica. Noi lo capiamo con una cosa che chiamiamo empatia cioè lo capiamo in base a una conoscenza quotidiana fatta di piccoli segnali e abitudini.
 

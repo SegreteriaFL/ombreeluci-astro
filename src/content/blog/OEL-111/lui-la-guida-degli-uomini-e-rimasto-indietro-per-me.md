@@ -12,7 +12,8 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-111
-id_numero: OEL-111
+id_numero: "OEL-111"
+numero_rivista: "Ombre e Luci"
 ---
 Per due anni l’ho incontrato regolarmente: era cappellano degli studenti. Mi ci è voluto del tempo prima di rincontrarlo veramente. Con la sua presenza, i piedi saldi sulla terraferma, quel sacerdote mi impressionava. Non era di quelli che dicevano facilmente le proprie emozioni.
 

@@ -14,7 +14,8 @@ umap_x: 6.661996364593506
 umap_y: 9.925393104553223
 umap_z: 6.645318031311035
 issue_number: INS-30
-id_numero: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
 *Il testo che segue è tratto dall’ormai famoso libro autobiografico di Christofer Nolan « **Sotto l'occhio dell’orologio** », ( [qui la nostra recensione](http://www.ombreeluci.it/1990/christopher-nolan-sotto-locchio-dellorologio/) ). Ci sembra introduca bene nel cuore di questo numero dedicato alle persone colpite da paralisi cerebrale (persone erroneamente definite «spastiche»). La varietà e la minore o maggiore gravità dei danni provocati prima, durante, o dopo la nascita, impediscono di offrire testimonianze che descrivono ogni situazione. **In questo numero perciò abbiamo lasciato maggiormente la parola a chi poteva in prima persona parlare delle difficoltà, dei superamenti, delle frustrazioni e dei successi che si possono avere in una vita così gravemente messe alla prova da un fisico che imprigiona e a volte, annienta la comunicazione, l’autonomia, la libertà.** Siamo grati a chi ci ha aiutato, parlando di sé, a capire un po’ meglio le enormi difficoltà che presentano le persone colpite da paralisi cerebrale. A queste chiediamo di continuare ad aiutare tutti noi a trovare il modo giusto, la pazienza e la delicatezza per saperli incontrare nel loro profondo al di là dell’apparenza a volte così mortificante per loro.*
 

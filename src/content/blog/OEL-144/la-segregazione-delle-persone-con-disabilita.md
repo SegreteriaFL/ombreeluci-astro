@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nel 1978 l’Italia chiude definitivamente i manicomi e svuota le scuole definite “speciali”. Quarant’anni dopo, la qualità della vita delle persone con disabilità è innegabilmente migliorata, quanto meno sono aumentati i diritti civili e le tutele. La ricerca a cura di Merlo e Tarantino, voluta in collaborazione con la FISH, fa emergere però**una realtà drammatica di alcuni “manicomi nascosti”**, che, sotto le spoglie di RSA e case di riposo, fanno dei diritti e della dignità della persona l’ultimo dei loro obiettivi. Testimonianze dirette e accurate indagini disegnano un quadro piuttosto preoccupante, in cui appare evidente che nuovi decreti legge e maggiori finanziamenti pubblici non sono la risposta al mantenimento della dignità della persona con disabilità; piuttosto**bisogna tornare a prendersi cura dell’altro con coscienza e responsabilità** estinguendo quell’impostazione “sanitaria” di chi vuole semplicemente risolvere un problema senza comprenderlo.
 
 #####

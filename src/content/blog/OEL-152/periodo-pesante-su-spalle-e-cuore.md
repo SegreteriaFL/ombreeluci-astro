@@ -12,7 +12,8 @@ umap_x: 4.985004901885986
 umap_y: 7.961465835571289
 umap_z: 10.259342193603516
 issue_number: OEL-152
-id_numero: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
 Cara Redazione, sono la mamma di Francesco, da tanti anni ormai legata con affetto a voi e ai nostri amici. Quest’estate il saggio consiglio pronunciato dai responsabili di non poter fare una settimana di vacanza tra amici e ragazzi, mi aveva alquanto rattristato… Capivo la decisione ma il lungo periodo appena trascorso senza la vicinanza né del Centro Diurno né del sollievo degli amici per qualche mezza giornata, pesava sulle mie spalle e sul mio cuore. E credo anche su quello del mio figliolo, che non avrà capito un bel niente di questo fuggi fuggi di tante persone. Ma ecco che due cari amici fedelucini, attenti e affettuosi da moltissimi anni, trovano una soluzione nel rispetto della situazione concreta: Chicca e il marito Claudio con mio figlio Francesco decidono di andare a trascorrere una settimana in un cascinale in campagna isolato da tutto e tutti. Una settimana con Francesco, che necessita di un’assistenza e di una cura continua, non è soltanto faticosa, ma per nulla divertente! Un comune amico, saputa la cosa, mi ha detto: «Non lo sai che gli amici di [Fede e Luce](http://fedeeluce.it) sono anche coraggiosi?» Dal cuore mi è venuta la risposta: «Sono sicuri di non essere soli.» Conclusione: «Eh già, Lui non abbandona mai nessuno».
 

@@ -12,7 +12,8 @@ umap_x: 4.557218551635742
 umap_y: 7.354594707489014
 umap_z: 10.548967361450195
 issue_number: OEL-137
-id_numero: OEL-137
+id_numero: "OEL-137"
+numero_rivista: "Ombre e Luci"
 ---
 ### Purtroppo...
 

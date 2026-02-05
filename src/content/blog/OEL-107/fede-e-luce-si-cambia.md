@@ -12,7 +12,8 @@ umap_x: 7.517271518707275
 umap_y: 9.154682159423828
 umap_z: 13.890979766845703
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 Nel numero 104 di OL, Enza Gucciardo, coordinatrice nazionale uscente di Fede e Luce Italia, ha descritto i cambiamenti radicali proposti per il Movimento Internazionale di Fede e Luce, che vedono ridisegnati i paesi componenti e i diversi livelli di rappresentanza (che potete trovare meglio descritti nel numero sopra indicato).
 

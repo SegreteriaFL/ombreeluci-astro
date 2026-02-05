@@ -4,8 +4,8 @@ date: 2007-09-09
 author: Mariangela Bertolini
 slug: da-meditare-senza-fretta
 lang: it
-numero_rivista: 99
-id_numero: OEL-99
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-99"
 issue_number: OEL-99
 wp_id: 32763
 original_url: "https://www.ombreeluci.it/?p=32763"
@@ -15,7 +15,6 @@ umap_x: 5.657581329345703
 umap_y: 8.313610076904297
 umap_z: 8.669707298278809
 ---
-
 Una mamma, Rita, [ci racconta in modo sincero e pieno di sottointesi dolorosi](https://www.ombreeluci.it/2007/un-terremoto-a-ciel-sereno/) , il distacco del figlio disabile dalla famiglia per andare a vivere in una comunità di accoglienza. Passo importante tanto desiderato quanto temuto per lei, per il marito e per il figlio. Passo che alcuni genitori hanno già vissuto e che altri si devono preparare a compiere.
 
 > Ci stava arrivando un aiuto, da sempre sperato, come soluzione a quando non ci saremo stati più". "...questa notizia mi trovava impreparata. Stava avvenendo un terremoto che sconvolgeva tutte le mie certezze

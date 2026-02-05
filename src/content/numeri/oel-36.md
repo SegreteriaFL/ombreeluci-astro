@@ -1,15 +1,35 @@
 ---
 id: "OEL-36"
-title: "Numero 36 - Il desiderio di tanti: casa-familgia"
+title: "Numero 36 – Il desiderio di tanti: casa-familgia"
 tipo: "ombre-e-luci"
 numero: 36
-anno: "1991"
+sort_order: 135
+pubDate: "1991-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 1991"
 sommario: "Numero 36 – Il desiderio di tanti: casa-famiglia ultima modifica: 1991-12-24T09:57:38+00:00 da Matteo Cinti"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_36_1991.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN.36"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-36-il-desiderio-di-tanti-casa-famiglia/"
+articoli:
+  - "il-dopo-di-noi"
+  - "domande-e-risposte-sul-domani-dei-nostri-figli"
+  - "possiamo-fare-qualcosa-noi-genitori"
+  - "esempi-di-comunita-alloggio-5-comunita"
+  - "casa-famiglia-ancora"
+  - "dialogo-aperto-n-36"
+  - "una-vita-possibile-handicap-mentale-e-famiglia"
+  - "effata-apriti"
+  - "la-comunita-luogo-del-perdono-e-della-festa"
+  - "il-dopo-di-noi"
+  - "domande-e-risposte-sul-domani-dei-nostri-figli"
+  - "possiamo-fare-qualcosa-noi-genitori"
+  - "esempi-di-comunita-alloggio-5-comunita"
+  - "casa-famiglia-ancora"
+  - "una-vita-possibile-handicap-mentale-e-famiglia"
+  - "effata-apriti"
+  - "la-comunita-luogo-del-perdono-e-della-festa"
+  - "dialogo-aperto-n-36"
 ---
 
 ## Indice

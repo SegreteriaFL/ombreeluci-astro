@@ -12,7 +12,8 @@ umap_x: 5.52008581161499
 umap_y: 10.106873512268066
 umap_z: 7.035334587097168
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 La gratuità degli esami diagnostici prenatali favorisce ulteriormente la ricerca e l’individuazione precoce delle anomalie genetiche, di cui la più nota è la sindrome di Down. Consequenziale è il ricorso all’aborto, diffusissimo nei Paesi del nord Europa, in alcuni dei quali le persone con sindrome di Down sono quasi sparite. Anche in alcune zone dell’Italia settentrionale sono alte in questi casi le percentuali di aborti. **Non si può più nascondere la deriva eugenetica** , promossa da leggi che creano mentalità e condizionano le scelte; e pure dalle sempre più sofisticate tecniche di indagine, con recente riferimento al cosiddetto Nipt (Non Invasive Prenatal Testing), definito un test di screening innovativo e non invasivo.
 

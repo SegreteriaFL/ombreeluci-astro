@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-29
-id_numero: OEL-29
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
 Avevo sei anni quando è nata Anna Maria. La gioia di avere una sorella con cui giocare e crescere in allegria fu presto funestata dalla coscienza che la sua malattia non sarebbe stata qualcosa di transitorio, ma l'avrebbe accompagnata per tutta la vita.
 Le sue difficoltà di crescita e di comunicazione ben presto cominciarono a **condizionare la nostra vita familiare.

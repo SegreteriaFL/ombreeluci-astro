@@ -12,7 +12,8 @@ umap_x: 7.9200439453125
 umap_y: 10.920988082885742
 umap_z: 5.764729022979736
 issue_number: OEL-147
-id_numero: OEL-147
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
 Èun libro sorprendente Amore caro: oggi che non ci si vergogna più di nulla tranne che della disabilità, non è affatto scontato che nomi noti di tv e cinema, giornalismo, letteratura, musica e politica siano disposti a rivelare i propri legami con la disabilità fisica e mentale. In pagine molto varie, gli autori raccontano il loro essere padri, madri, fratelli, parenti acquisiti o figli di persone fragili, o fragili loro stessi. “Aprendo quell’armadio – scrive Sereni – hanno compiuto uno sforzo di confessione mai facile”. Sono parole (coraggiose, umili, rispettose, deboli, un po’ arroganti, superbe, gioiose, ottimiste, preoccupate) che rivelano un volto diverso del personaggio noto. E a fine lettura ci si ritrova piacevolmente confusi: non si capisce bene quali siano, tra voci narranti e voci narrate, le persone davvero fragili.
 

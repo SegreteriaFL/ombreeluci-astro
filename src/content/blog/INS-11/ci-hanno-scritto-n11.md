@@ -12,8 +12,9 @@ umap_x: 9.020230293273926
 umap_y: 7.8834099769592285
 umap_z: 13.157808303833008
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 *Mario Parisi ci ha lasciato improvvisamente il 15 agosto. Partecipò a Lourdes al grande pellegrinaggio "Foi et Lumière" nella Pasqua del '71 e da allora affiancò il movimento e ne fu entusiasta cooperatore così che con gioia ne vide l'espandersi in Italia. Il 15 settembre, nella chiesa della Mercede dove ha tanto desiderato che sorgesse un gruppo di Fede e Luce, molti di noi erano presenti per dirgli il nostro grazie. Ed ora siamo certi che dal cielo continua ad incoraggiarci nel nostro cammino»*
 
 ### A voi tutti

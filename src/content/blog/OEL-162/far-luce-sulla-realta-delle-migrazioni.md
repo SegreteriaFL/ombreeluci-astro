@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-162
-id_numero: OEL-162
+id_numero: "OEL-162"
+numero_rivista: "Ombre e Luci"
 ---
 Progetto culturale dedicato a unire arte e scienza sul tema della salute mentale, il festival [Lo Spiraglio](https://www.lospiragliofilmfestival.org/) dal 13 al 15 aprile ha offerto **proiezioni gratuite a Roma presso lo spazio SCENA gestito dalla Regione Lazio e del MAXXI** sulle due sponde del Tevere, luoghi centrali e complementari, ben scelti per aggregare le varie anime del festival che «fin dalla nascita, ha avuto l’ambizione di rivolgersi e coinvolgere un pubblico indifferenziato di appassionati e cinefili».
 Significativo è il rilievo dato ai film sulle migrazioni**, un tema che evidenzia come la mente umana possa essere stravolta e traumatizzata dal dover cambiare, per necessità e non per scelta, il proprio ambiente geografico e sociale: un aspetto spesso trascurato nel racconto di questo fenomeno sempre più complesso e inarrestabile che trova qui il suo attento spazio grazie al Premio Samifo (Salute Migranti Forzati).

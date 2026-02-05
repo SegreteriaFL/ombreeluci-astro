@@ -12,7 +12,8 @@ umap_x: 6.81760835647583
 umap_y: 11.014138221740723
 umap_z: 5.024317264556885
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 L'autrice ripercorre trent’anni di vita del figlio Alex, affetto dalla sindrome di Down, secondo di tre figli. Sulla beata felicità di una normale famiglia cade un fulmine a ciel sereno. Ma questo fulmine presto, nella madre, si trasforma in energia, data dall’amore e da un profondo, radicato e pragmatico senso di giustizia e di volontà.
 

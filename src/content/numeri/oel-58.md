@@ -1,15 +1,31 @@
 ---
 id: "OEL-58"
-title: "Ombre e Luci n.58 - È Possibile!"
+title: "Ombre e Luci n.58 – È Possibile!"
 tipo: "ombre-e-luci"
 numero: 58
-anno: "1997"
+sort_order: 157
+pubDate: "1997-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 1997"
 sommario: "Ombre e Luci n.58 – È Possibile! ultima modifica: 1997-06-15T09:23:56+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_58_1997.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_58"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-58-e-possibile/"
+articoli:
+  - "come-fare-una-buona-vacanza"
+  - "una-soria-vera"
+  - "sordo-cecita-conoscere-per-prevenire"
+  - "un-hamburger-fatto-bene"
+  - "dedicato-ai-bambini-flavio"
+  - "come-progettare-una-comunita"
+  - "dialogo-aperto-n-58"
+  - "vita-fede-e-luce-n58-1997"
+  - "come-fare-una-buona-vacanza"
+  - "una-soria-vera"
+  - "un-hamburger-fatto-bene"
+  - "dedicato-ai-bambini-flavio"
+  - "dialogo-aperto-n-58"
+  - "vita-fede-e-luce-n58-1997"
 ---
 
 ## Indice

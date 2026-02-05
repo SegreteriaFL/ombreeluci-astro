@@ -15,8 +15,9 @@ umap_x: 8.871173858642578
 umap_y: 8.973729133605957
 umap_z: 10.714507102966309
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 U na croce ritagliata dalla carta smerigliata e incollata su un cartoncino. Una manina docile, molle, racchiusa nella mia mano percorre, con l'indice e il medio, prima il lato lungo poi quello corto. Una volta; due volte... Dalla passività alla sorpresa; al primo accenno di sorriso due parole: "crocifisso, segno di croce". Il dialogo è iniziato.
 
 Quando poi si ripete il segno di croce sul proprio corpo, con lentezza, serietà e dolcezza, alle parole: "Nel nome del..." scatta una scintilla di partecipazione e gioia. Questo l'inizio di un lavoro ripetuto e portato avanti con un programma dove è incluso l'Antico e Nuovo Testamento, suddiviso e presentato nei tempi dell'anno liturgico, Avvento, Natale, Pasqua, Pentecoste.

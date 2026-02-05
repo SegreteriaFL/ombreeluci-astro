@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 Non è facile esprimere e far capire in poche righe cosa significhi per me avere una sorella non normale. Oltretutto non sono il tipo di ragazza cui piaccia sfogare per iscritto i propri problemi; questa volta sento quasi doveroso farlo perché so che la mia esperienza può servire ad altri miei coetanei, i quali trovandosi nella mia situazione, tentino di migliorare il rapporto di vita in comune che hanno con i rispettivi "fratelli" o "sorelle".
 
 Sembrerà un paradosso, eppure se non avessi accanto ogni giorno Lei, la mia vita mi apparirebbe di colpo insignificante.

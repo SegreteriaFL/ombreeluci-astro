@@ -12,7 +12,8 @@ umap_x: 5.555165767669678
 umap_y: 9.51310920715332
 umap_z: 9.282241821289062
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 «Rimango a fissarmi nello specchio di papà per forse venti minuti. Non capisco. A me sembra di essere carina. **Perché gli altri non vedono ciò che vedo io?** » si chiede la tredicenne Maleeka, protagonista di [*The Skin I’m In. Il colore della mia pelle*](https://www.giunti.it/catalogo/the-skin-im-in-il-colore-della-mia-pelle-9788809884144) di Sharon G. Flake (traduzione di Maria Bastanzetti, Giunti 2021). Già, perché? Che poi, cosa vediamo noi quando guardiamo? Qualche giorno fa, mia madre mi ha dato il ritaglio da una rivista che aveva messo in serbo per me: era la pubblicità di un marchio di moda con una modella con la sindrome di Down. Io, per strada, avevo incrociato quell’invito agli acquisti, ma non avevo notato il cromosoma in più di una delle giovani ritratte: avevo visto troppo, o troppo poco? Sono un’osservatrice distratta o ho dato prova di una ricca nozione di normalità?
 

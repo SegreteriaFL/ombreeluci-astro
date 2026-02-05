@@ -14,14 +14,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
 archive_id: OmbreELuci_002
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 periodo_label: Aprile, Maggio, Giugno
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 umap_x: 8.45386028289795
 umap_y: 12.079896926879883
 umap_z: 10.512911796569824
+id_numero: "OEL-2"
 ---
-
 Molti sanno come e quanto l'autore di questo libro ha fatto e fa nei confronti delle persone handicappate mentali. Ma non tutti sanno quanto proprio le persone handicappate, con la loro debolezza e fragilità, con la loro tenerezza e semplicità, hanno fatto penetrare Jean Vanier “nel cuore della buona novella di Gesù e del suo messaggio di speranza per il nostro mondo”. In queste pagine
 **Jean Vanier testimonia la sua conoscenza della parola di Dio e insieme quanto i suoi fratelli e sorelle più fragili gli hanno permesso di vivere quelle parole**
 . Questo libro può, deve forse, essere meditato. È come un'eco del cuore del Cristo e del suo amore per i più poveri. Ci rivela, in una parola, che il bisogno più profondo di ogni uomo è il bisogno di amare e di essere amato. Acquista su:

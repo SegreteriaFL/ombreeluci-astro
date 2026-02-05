@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 «A me interessa il cinema che riesce a sostenere lo sguardo della diversità in genere e anche della disabilità con tutto quello che questo comporta» così spiega Andrea Romeo, fondatore e direttore artistico del Biografilm Festival, [a colloquio con Alessandro De Simone](https://www.ombreeluci.it/2020/intervista-ad-andrea-romeo-su-cinema-e-disabilita/). Giunto alla 15ª edizione, il festival che ogni anno a Bologna porta in rassegna il cinema biografico, [è stato seguito](https://www.ombreeluci.it/2020/biografilm-festival-2020/) da Claudio Cinus – che si è soffermato in particolare su alcune storie legate alla fragilità (come [Sqizo](https://www.ombreeluci.it/2020/sqizo/), ma ce ne sono altre su cui torneremo molto presto). L'intento del festival è di celebrare le vite attraverso la grande capacità divulgativa del cinema. Con le sue immagini immediate non racconta sempre e solo storie di amori e di eroi, ma permette anche di scoprire i percorsi più invisibili, di vite nascoste, allontanate o marginali. Film e programmi tv possono così restituire al grande pubblico delle storie autentiche, e celebrare anche le vite che non riescono a farsi ascoltare con altri mezzi.
 Ieri e oggi** – Mentre sfogliavamo [l'archivio](https://www.ombreeluci.it/archivio/) di Ombre e Luci, ci siamo imbattuti in [un articolo del 2000](https://www.ombreeluci.it/2000/nessuna-pieta-che-immagine-trasmettono-dellhandicap-i-mezzi-di-comunicazione-di-massa/) in cui Vito Giannulo riassumeva le criticità emerse da "Nessuna pietà", studio che indagava il tipo di rappresentazione della disabilità trasmessa dai mezzi di comunicazione di massa italiani. Vent'anni dopo, abbiamo chiesto a Vito di ritornare sul tema per individuare eventuali passi avanti compiuti da allora. Da quella che era una fotografia polarizzata tra il "malato" e il "supereroe", la situazione [è cambiata di molto?](https://www.ombreeluci.it/2020/guarda-ce-sam/)
 

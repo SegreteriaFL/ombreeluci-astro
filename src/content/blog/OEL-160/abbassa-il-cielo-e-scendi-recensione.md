@@ -12,7 +12,8 @@ umap_x: 6.9379987716674805
 umap_y: 11.051685333251953
 umap_z: 5.025116920471191
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 Due fratelli e una malattia mentale. Il minore (l’io narrante) vede Bruno, rientrato prima del tempo dal seminario, gremito dai tentacoli della schizofrenia in un abbraccio che lo accompagnerà per tutta la vita. *Abbassa il cielo e scendi* racconta così oltre mezzo secolo di storia – quella familiare, intima di Bruno e dei suoi, e quella con la S maiuscola, dal Dopoguerra agli anni Duemila. Mezzo secolo di tentativi, di salite (e qualche discesa); di manicomi prima lager, poi sconvolti da Basaglia e infine tornati a situazioni troppo simili al pre-rivoluzione; di solitudini a tratti squarciate; di possibili soluzioni intraviste, ma non sempre inseguite. **Un romanzo forte, poetico e spietato; un romanzo consapevole di come storia personale e grande Storia non sempre si intersechino quando si parla di disabilità, perché le persone con gravi disturbi mentali sono sempre rimaste ai margini del dibattito e della scena politica e sociale.** C’è ancora tanto da fare per Bruno e per noi. Facciamolo assieme.
 

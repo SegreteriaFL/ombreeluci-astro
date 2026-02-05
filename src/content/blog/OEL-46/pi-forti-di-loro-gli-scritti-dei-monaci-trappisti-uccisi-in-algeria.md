@@ -4,8 +4,8 @@ date: 1999-06-16
 author: Natalia Livi
 slug: pi-forti-di-loro-gli-scritti-dei-monaci-trappisti-uccisi-in-algeria
 lang: it
-numero_rivista: 46
-id_numero: OEL-46
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-46"
 issue_number: OEL-46
 wp_id: 12528
 original_url: "https://www.ombreeluci.it/?p=12528"
@@ -15,7 +15,6 @@ umap_x: 8.445333480834961
 umap_y: 11.448097229003906
 umap_z: 6.146498680114746
 ---
-
 N
 ella notte del 26 marzo 1996, in Algeria, sette monaci trappisti vengono rapiti dal GIÀ (Gruppo Islamico Armato) nel loro monastero di Tibhirine. Dopo quasi due mesi i fondamentalisti islamici annunciano: “Ai monaci abbiamo tagliato la gola". Come sono stati da loro vissuti questi due mesi? Cosa hanno sentito, provato, questi uomini al culmine della tragedia e di una vita dedicata alla testimonianza? Non possiamo saperlo. Possiamo solo intuire qualcosa attraverso il modo in cui hanno vissuto e ciò che hanno testimoniato fino a quel momento. Questo libro, attraverso lettere circolari, omelie, conferenze, pagine di diario, ci affida il loro messaggio. È il messaggio di una comunità che a poco a poco prende coscienza dell’altissimo rischio di morte che comporta la sua presenza a Tibhirine e che riafferma giorno dopo giorno la propria vocazione e la propria fedeltà. Questi monaci testimoniano che l'amore è possibile, sempre, fino a dare la vita per esso. Tra le pagine più belle ci sono quelle del testamento spirituale del priore, Frère Christian, che termina così: "È anche per te, amico dell'ultimo minuto, che non avrai saputo quello che facevi. Sì, anche per te voglio questo grazie e questo a Dio profilatosi con te. E che ci sia dato di ritrovarci, ladroni beati, in paradiso, se piace a Dio, Padre nostro, di tutti e due".
 > È anche per te, amico dell'ultimo minuto, che non avrai saputo quello che facevi. Sì, anche per te voglio questo grazie e questo a Dio

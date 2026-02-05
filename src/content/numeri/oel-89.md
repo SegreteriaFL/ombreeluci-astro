@@ -3,13 +3,29 @@ id: "OEL-89"
 title: "Ombre e Luci n. 89"
 tipo: "ombre-e-luci"
 numero: 89
-anno: "2004"
+sort_order: 188
+pubDate: "2004-10-01T00:00:00Z"
 data_pubblicazione: "ottobre 2004"
 sommario: "Ombre e Luci n. 89 ultima modifica: 2005-01-19T21:20:46+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_89_2005.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_89"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-89/"
+articoli:
+  - "pasqua-significa-passaggio"
+  - "la-tentazione-di-fuggire-di-fronte-alle-difficolta"
+  - "autismo-un-altro-modo-di-percepire-il-mondo"
+  - "convegno-il-bambino-autistico"
+  - "autismo-la-storia-di-oliviero"
+  - "curare-lautismo-a-casa-un-opera-damore"
+  - "giorgio-e-sam-una-madre-due-figli-autistici-e-il-racconto-di-unintensa-quotidianita-recensione"
+  - "autismo-che-fare-per-questi-figli"
+  - "date-ai-figli-cose-diverse"
+  - "dialogo-aperto-n-89"
+  - "film-un-silenzio-particolare"
+  - "ii-padre-e-lo-straniero-recensione"
+  - "come-pietre-nel-fiume-recensione"
+  - "pasqua-significa-passaggio"
 ---
 
 ## Indice

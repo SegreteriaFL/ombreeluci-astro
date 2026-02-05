@@ -14,8 +14,9 @@ umap_x: 6.904214382171631
 umap_y: 8.10640811920166
 umap_z: 9.838987350463867
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Èuna calda sera di inizio giugno. Sto riordinando le ultime cose prima di andare a coricarmi, al termine di una lunga giornata. Domani, come al solito, ci saranno tante cose cui pensare: i lavori che devono cominciare in uno degli edifici del “Carro”, la contemporanea partenza di tutta la casa-famiglia per un soggiorno al mare, i protocolli anti-Covid da aggiornare, ... e le tante incombenze quotidiane, famigliari o comunitarie, che riempiono la mia vita di ogni giorno.
 
 **All’improvviso, un messaggio sul telefono: “Roberto è volato in cielo....” è sua sorella Mariangela che mi scrive!** Il respiro si ferma per un attimo, tanto la notizia giunge imprevista e dolorosa. Mentre gli occhi mi si riempiono di lacrime, in un istante torno all’inizio del 1978.

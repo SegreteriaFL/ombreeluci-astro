@@ -16,7 +16,8 @@ umap_x: 7.210971832275391
 umap_y: 10.458267211914062
 umap_z: 5.871888160705566
 issue_number: INS-30
-id_numero: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
 Pubblicato in Inghilterra nel 1987 racconta — in prima persona — la storia di un ragazzo nato spastico a causa di un parto difficile. Nasce con lesioni cerebrali motorie, ma benedetto da un’intelligenza di molto superiore alla normale. Proprio questa intelligenza lo porta a rompere le barriere sociali e culturali che lo imprigionano nella etichetta «spastico, uguale deficiente mentale». Lui lancia in questo libro una sfida alla società. **Come un nuovo don Chisciotte maldestro intraprende la lotta in difesa di tanti esseri umani come lui, trascurati per secoli da una società troppo occupata al benessere dei suoi membri ricchi, belli e sani; una società incapace di vedere e ascoltare le grida silenziose di angosciata paura e di profonda tristezza di questi suoi figli di un dio minore.**
 

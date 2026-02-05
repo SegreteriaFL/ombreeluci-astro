@@ -12,7 +12,8 @@ umap_x: 8.434054374694824
 umap_y: 8.050270080566406
 umap_z: 8.01867961883545
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 C'èuna biblioteca a Bologna che è **la più fornita d’Italia sui temi della disabilità** e che ha sede nel rione periferico e multiculturale del Pilastro. La biblioteca è il cuore del Centro Documentazione Handicap, nato nel 1981 in seno all’Aias (Associazione Italiana Assistenza Spastici) divenuto autonomo nel 1996. Erano anni in cui la legge sull’integrazione scolastica dava i suoi primi frutti e cresceva la consapevolezza sui temi legati alla disabilità. In quel contesto, quattro ragazzi con gravi disabilità fisiche ragionavano su cosa avrebbero potuto fare dopo la scuola, ponendosi una domanda ancora difficile: «Come può un disabile grave diventare una risorsa per la società e non solo qualcuno da assistere e di cui aver pietà?». Dei quattro faceva parte Claudio Imprudente, poi giornalista, scrittore e tra i promotori delle esperienze che seguirono quella domanda.
 

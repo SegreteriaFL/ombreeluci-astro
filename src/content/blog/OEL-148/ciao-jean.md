@@ -12,8 +12,9 @@ umap_x: 8.330168724060059
 umap_y: 12.261682510375977
 umap_z: 11.168963432312012
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Cari amici, oggi, 7 maggio, siamo profondamente rattristati nel condividere con voi che Jean Vanier, fondatore dell'Arca e co-fondatore di Fede e Luce, è mancato questa notte alle 2:10 a Parigi, circondato dalle persone a lui più care.
 
 J

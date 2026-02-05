@@ -14,8 +14,9 @@ umap_x: 9.012453079223633
 umap_y: 8.137770652770996
 umap_z: 12.943750381469727
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 **IL FUOCO** : illumina, purifica, trasforma. **GESU' CRISTO** : Luce del mondo **IL SUO SPIRITO** : è il "Fuoco di Dio"
 
 ### Andare verso la luce

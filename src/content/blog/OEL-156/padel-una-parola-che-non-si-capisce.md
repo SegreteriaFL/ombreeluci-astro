@@ -12,8 +12,9 @@ umap_x: 7.981416702270508
 umap_y: 1.7556241750717163
 umap_z: 9.394975662231445
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Io non ho capito perché chiamano padel i racchettoni. Quando mi hanno invitata ad andare a vedere il torneo di padel di Athletica Vaticana io non capivo che cosa era, che cosa facevano e che cosa dovevo fare io. **Io padel non sapevo cosa voleva dire.** Quando mi invitano io vado sempre perché mi piace andare in giro e mi piace vedere le cose e quelle nuove che conosco pure di più. Così io sono andata a vedere. Ho capito subito che il padel sono i racchettoni solo che non si gioca sulla spiaggia, al mare. Ma in un campo che se cadi per terra ti fai molto male. Ti sbucci le ginocchia e ti esce il sangue. A me non è successo ma a qualcuno si. Invece se cadi quando giochi a racchettoni sulla spiaggia non ti fai male per niente, anzi è pure tanto divertente. E puoi giocare pure dentro l’acqua, che pure meglio quando fa tanto caldo perché stai con le gambe al fresco.
 
 **Io ho chiesto a tutti subito perché lo chiamano padel. Non si capisce. Io non avevo capito.** Se dici racchettoni invece si capisce. Giocare è facile devi colpire la pallina con il racchettone e mandarla all’altra persona. Facile. Non si capisce bene chi vince ma a me non me ne importa proprio un bel niente. Quando vedo che l’altro vuole fare la partita quella vera e non giocare e basta io ogni volta che la pallina cade per terra grido “ieeeee” oppure “aleeee” oppure “evvaiiiiii” oppure “edaiiii” così sembra che ho vinto io. Anche se non lo so. Il gioco è divertente. Ogni tanto a me piace tirare super fortissimo e lontano. E qualche volta tiro la palla in altissimo. **Secondo me è divertente fare così.** Mi piace pure che non c’è l’arbitro come nel calcio. A racchettoni si può giocare pure in 4 ma a me non piace tanto perché si fa confusione e non so quando devo tirare io perché tocca a me. Io al mare gioco tantissimo a racchettoni e chiedo a tutti di giocare con me. Quando uno si stanca vado a chiederlo a un altro. Comunque al mare io dico che gioco a racchettoni. Non a padel che è una parola che non si capisce.

@@ -12,7 +12,8 @@ umap_x: 8.201746940612793
 umap_y: 7.491436004638672
 umap_z: 9.082344055175781
 issue_number: OEL-134
-id_numero: OEL-134
+id_numero: "OEL-134"
+numero_rivista: "Ombre e Luci"
 ---
 D
 opo qualche tempo dalla nascita della comunità Maria Immacolata di Pantigliate, dicembre 2007, ci siamo chiesti come rispondere al bisogno di alcuni disabili di occupare un po’ del loro tempo libero visto che non avevano alcuna attività durante la giornata Abbiamo pensato ad uno spazio di intrattenimento, di socializzazione, anche se per poche ore la settimana, ed è scaturita l’idea di allestire un piccolo laboratorio creativo, Noi, genitori ed amici, ci siamo attivati per avere informazioni su realtà esistenti nel nostro territorio e ci siamo fatti aiutare da alcuni operatori per avere qualche input su cosa fare con i nostri ragazzi. Piano piano la realtà ha preso corpo. Inizialmente abbiamo utilizzato lo spazio messoci a disposizione dal parroco, due volte la settimana per un paio d’ore, e ci siamo subito resi conto di quanto questa iniziativa fosse molto gratificante per le persone disabili, in modo particolare per Giovanni e Lorenzo. Dopo poco ci è stata segnalata Valentina, una giovane affetta da sclerosi e abbiamo invitato anche lei a partecipare al laboratorio. Per un paio d’anni siamo stati operativi in parrocchia ma poi ci siamo spostati in uno spazio comunale, in comodato d’uso, che a tutt’oggi stiamo utilizzando. Cosa dire di questo laboratorio? Che è una bella occasione per socializzare, per stare insieme in amicizia e serenità. Anche noi volontari stiamo bene, sia fra di noi che mettendoci a disposizione dei ragazzi: li vediamo sorridenti e questo ci basta!!! Facciamo due o tre volte l’anno dei mercatini per proporre i nostri prodotti come cestini in midollino, sacchetti profumati, cornici realizzate con materiali di recupero, decorazioni su legno e altro che man mano la fantasia ci suggerisce. Ecco cosa dicono alcuni di noi:

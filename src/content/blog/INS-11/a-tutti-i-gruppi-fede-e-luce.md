@@ -12,8 +12,9 @@ umap_x: 7.448249816894531
 umap_y: 7.862946510314941
 umap_z: 12.84896469116211
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 Malgrado la dispersione geografica dei nostri gruppi, pensiamo che una linea di programma comune possa farci sentire più uniti. Ogni gruppo poi, ha una sua vita indipendente.
 
 **Natale** : ogni gruppo, nella misura del possibile, troverà il modo di unirsi ad un altro gruppo per vivere insieme la festa.

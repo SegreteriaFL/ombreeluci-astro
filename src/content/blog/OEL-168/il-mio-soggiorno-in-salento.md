@@ -12,8 +12,9 @@ umap_x: 7.924343109130859
 umap_y: 7.131650447845459
 umap_z: 10.999309539794922
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 DaSabato 27 luglio a sabato 10 agosto sono andata con l’ [Associazione Giuliaparla](https://www.giuliaparla.it/) (che si occupa di persone autistiche) a Gallipoli, in Puglia insieme ad altri 7 ragazzi/ragazze del Gruppo Asperger, alcuni dei quali venivano anche agli aperitivi del venerdì pomeriggio presso il locale "Latta Fermenti e Miscele" di Roma.
 
 Durante questo soggiorno, ho alloggiato insieme a loro e a 4/5 operatori (operatrici nella prima settimana) presso il Complesso Via Doria, una bellissima villa monofamiliare sita all’interno di un lido, che tutti noi ragazzi abbiamo gestito egregiamente. **Tutti i giorni andavamo in spiaggia sia la mattina che il pomeriggio,** nonché uscivamo quasi tutte le sere, a parte quando rimanevamo a casa e facevamo vari giochi di società e cantavamo varie canzoni famose. I venerdì sera, visto che molti ragazzi della settimana precedente l’indomani, ossia il sabato mattina, dovevano rientrare a Roma, andavamo a cena fuori per poi andare a trascorrere delle **fantastiche serate in spiaggia, dove restavamo fino alle 2 del mattino.**

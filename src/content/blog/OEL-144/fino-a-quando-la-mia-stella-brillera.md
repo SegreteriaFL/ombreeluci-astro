@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nel 1990 Liliana Segre ha cominciato la sua opera di testimone della Shoah. La ascoltammo ad Assisi nel 2005 in occasione del pellegrinaggio per i 30 anni del movimento di *Fede e Luce* in Italia.
 Quando questo libro è stato pubblicato, sembrava fosse giunto per lei il momento di ritirarsi dall’impegno di testimone pubblico: il desiderio di essere vicina al nipote, come lo erano stati i suoi nonni con lei, sembrava più forte. Nel gennaio del 2018 è tornata sui suoi passi, accettando l’incarico di Senatrice a vita conferitole dal Presidente Mattarella. Come lei stessa ha sottolineato, “**coltivare la Memoria è ancora oggi un vaccino prezioso contro l’indifferenza e ci aiuta, in un mondo così pieno di ingiustizie e di sofferenze, a ricordare che ciascuno di noi ha una coscienza e la può usare**”.
 Ad 80 anni dall’approvazione delle leggi razziali in Italia, la lettura di questo libro è consigliato -dagli 11 anni- a chiunque crede che sia importante continuare a tener viva la nostra memoria.

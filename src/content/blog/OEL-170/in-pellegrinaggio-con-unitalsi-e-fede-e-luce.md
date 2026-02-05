@@ -16,7 +16,8 @@ umap_x: 9.061259269714355
 umap_y: 8.41141414642334
 umap_z: 12.688796043395996
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 «Pellegrinàggio (ant. peregrinàggio) s. m. – 1. a. Pratica devozionale consistente nel recarsi, da soli o in gruppo, a un santuario o a un luogo sacro per compiervi speciali atti di religione, sia a scopo di pietà, sia a scopo votivo o penitenziale (…). 2. Ant., peregrinazione, esilio; è tuttavia ancora viva, nel linguaggio mistico, l’espressione p. terreno, la vita; nella Bibbia traduce, in questo stesso senso, il lat. Peregrinatio».
 

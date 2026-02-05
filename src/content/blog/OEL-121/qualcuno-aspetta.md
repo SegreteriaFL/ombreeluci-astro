@@ -15,7 +15,8 @@ umap_x: 7.916656017303467
 umap_y: 8.784857749938965
 umap_z: 11.075896263122559
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 > “Il mio compito è annunciare il Vangelo a tutti”.
 

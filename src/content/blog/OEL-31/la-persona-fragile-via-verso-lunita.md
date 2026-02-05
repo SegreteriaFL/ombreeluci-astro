@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-31
-id_numero: OEL-31
+id_numero: "OEL-31"
+numero_rivista: "Ombre e Luci"
 ---
 Fede e Luce è nata in terra cattolica, a Lourdes, vicino a Maria. Il movimento si è esteso in certi paesi dove la maggior parte delle persone proviene da altre chiese cristiane.
 In Svizzera, in Inghilterra, nei paesi scandinavi, negli Stati Uniti, in Canada, in Australia, in India, in Sudafrica, sono sorte comunità anglicane, protestanti. Altre sono interconfessionali.

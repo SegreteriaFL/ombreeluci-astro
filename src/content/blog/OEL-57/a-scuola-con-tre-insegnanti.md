@@ -4,8 +4,8 @@ date: 1997-03-26
 author: Redazione
 slug: a-scuola-con-tre-insegnanti
 lang: it
-numero_rivista: 57
-id_numero: OEL-57
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-57"
 issue_number: OEL-57
 wp_id: 11470
 original_url: "https://www.ombreeluci.it/?p=11470"
@@ -17,7 +17,6 @@ umap_x: 6.778954029083252
 umap_y: 7.043184757232666
 umap_z: 7.453159332275391
 ---
-
 S
 iamo Lucia, Paola e Carla, tre colleghe di sostegno che da anni operano insieme in una Scuola Media della provincia di Parma. Mentre ci sentiamo sollecitate a riportare qualche tratto della nostra esperienza, non neghiamo che spesso, nell'affrontare il lavoro quotidiano, cogliamo tutto il nostro limite, unitamente ad una sensazione di impotenza che a volte ci assale e provoca ripensamenti, interrogativi, discussioni tra noi e con i colleghi. Ammettiamo che l’inserimento dei ragazzi portatori di handicap nella scuola dell'obbligo, è stato inizialmente molto problematico, che è migliorato nel corso degli anni ed ha rappresentato un’occasione di crescita per i ragazzi che abbiamo finora incontrato e seguito. Certo, a volte, ci sentiamo ferite dalla superficialità con cui vengono affrontati alcuni problemi, d’altra parte ci sembra migliorato il livello di competenza degli insegnanti, e la sensibilità e r attenzione di parecchi di loro nei confronti dei ragazzi in difficoltà. Da parte nostra:
 - crediamo negli alunni che ci sono affidati; - siamo convinte che abbiano sempre, nel tempo, potenzialità nascoste da liberare; - cogliamo che il cammino di 3-4 anni percorso insieme, cambia noi e loro; - siamo certe che la loro presenza nella scuola rappresenti uno stimolo, o meglio una provocazione reale a rapporti più umani, alla riflessione e alla ricerca di strategie nuove, valide poi, per tutti.

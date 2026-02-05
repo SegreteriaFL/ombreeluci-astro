@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "amore-e-disabilita-veronica-e-alessandro-si-sono-sposati"
 lang: it
-numero_rivista: 82
-id_numero: OEL-82
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-82"
 issue_number: OEL-82
 wp_id: 26824
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 ---
-
 Veronica, trent’anni e Alessandro, trentacinque, hanno celebrato il loro matrimonio alla presenza di parenti e amici. Ce l’hanno fatta!
 Si sono conosciuti alla scuola professionale**, si sono scelti, frequentati, messi insieme, accompagnati e sostenuti dai familiari e da alcune coppie sposate di Fede e Luce.
 

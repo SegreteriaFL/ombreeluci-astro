@@ -12,8 +12,9 @@ umap_x: 8.845921516418457
 umap_y: 8.233014106750488
 umap_z: 3.611001968383789
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Neppure le restrizioni causate dalla pandemia hanno potuto fermare la forza creativa di Dario D’Ambrosi, impegnato da anni col suo Teatro Patologico a coniugare percorsi artistici e terapeutici di persone con disabilità mentali. Impossibilitato a svolgere l’attività teatrale, è riuscito a traslocare interamente online il suo 11° Festival del Cinema Patologico, votato al cinema che lavora sul disagio mentale e sull’emarginazione sociale.
 
 Diviso in due sezioni, lungometraggi e cortometraggi tutti visionabili su YouTube, il Festival aveva un solo vero lungometraggio in concorso. Si tratta di *Affittasi vita* di Stefano Usardi, vincitore del premio assegnato dagli attori della Compagnia Stabile del Teatro Patologico e dagli allievi del corso universitario di “Teatro Integrato dell’Emozione”. Il film narra la vicenda di un pittore in crisi artistica e personale che ritrova slancio e voglia di vivere grazie a una combriccola di personaggi marginali e stravaganti, dei quali il regista ha tratteggiato i caratteri badando più alla fantasia che alla verosimiglianza.

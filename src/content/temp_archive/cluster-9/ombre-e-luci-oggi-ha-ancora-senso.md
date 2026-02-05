@@ -7,6 +7,7 @@ cluster_id: 9
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_65_1999.jpg"
 slug: "ombre-e-luci-oggi-ha-ancora-senso"
 has_comments: false
+id_numero: "OEL-65"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

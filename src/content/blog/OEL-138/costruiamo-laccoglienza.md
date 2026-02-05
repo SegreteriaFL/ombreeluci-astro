@@ -16,7 +16,8 @@ umap_x: 6.396728992462158
 umap_y: 7.441804885864258
 umap_z: 9.008008003234863
 issue_number: OEL-138
-id_numero: OEL-138
+id_numero: "OEL-138"
+numero_rivista: "Ombre e Luci"
 ---
 Una mamma, ad un seminario sul Dopo di noi organizzato dalla CEI con il settore della catechesi nella disabilità, condivideva la sua preoccupazione per il futuro della figlia.
 

@@ -12,7 +12,8 @@ umap_x: 5.273130893707275
 umap_y: 7.9653215408325195
 umap_z: 11.200729370117188
 issue_number: OEL-125
-id_numero: OEL-125
+id_numero: "OEL-125"
+numero_rivista: "Ombre e Luci"
 ---
 ### Ho scelto di fare il chierichetto
 

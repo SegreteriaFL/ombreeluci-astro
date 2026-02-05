@@ -14,8 +14,9 @@ umap_x: 5.826995372772217
 umap_y: 10.159507751464844
 umap_z: 8.938570976257324
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 Accettazione, integrazione, socializzazione… sono parole che abbiamo udito spesso in questi ultimi anni. A volte a proposito, a volte a sproposito. Per alcuni sono rimaste parole, per altri sono divenute esperienze coraggiose e positive. Mi pare però, che troppo poco si è pensato a come, prima di essere parole esse sono state problemi da affrontare quotidianamente dai genitori nei confronti dei fratelli e sorelle di un bambino o ragazzo con difficoltà.
 
 Molto si è scritto per aiutare i genitori; poco o nulla per i fratelli e sorelle: soli, a volte troppo piccoli, spesso paurosi di parlare per non aumentare la ferita, sono stati - dobbiamo riconoscerlo - e lo sono, i grandi dimenticati. A Fede e Luce, alcuni di loro si sono trovati sostenuti da affetto ed attenzione. Ma questo è poco; è importante far loro spazio e lasciarli parlare.

@@ -12,7 +12,8 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-135
-id_numero: OEL-135
+id_numero: "OEL-135"
+numero_rivista: "Ombre e Luci"
 ---
 Ombre scure forti di una vita di devianza, luci che rischiarano il cammino di una vita difficile e danno speranza per una rinascita. Il libro di Salvatore Striano ci invita a non arrendersi mai nella vita, non credere mai di doverla vivere su dei binari già segnati. Tutto è possibile, anche il destino di un giovane, malavitoso fin dall’infanzia, “testa matta”, camorrista, può riscattarsi. Può cambiare radicalmente.
 

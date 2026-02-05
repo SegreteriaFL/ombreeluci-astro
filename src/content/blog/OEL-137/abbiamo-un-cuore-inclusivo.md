@@ -14,7 +14,8 @@ umap_x: 8.217143058776855
 umap_y: 8.73115062713623
 umap_z: 7.941179275512695
 issue_number: OEL-137
-id_numero: OEL-137
+id_numero: "OEL-137"
+numero_rivista: "Ombre e Luci"
 ---
 Da
 ormai quasi mezzo secolo a questa parte si è cominciato a parlare di integrazione delle persone disabili, definite via via in vario modo: invalidi, handicappati, disabili, diversamente abili… quasi mai anteponendo una parola semplice e chiara: persone. Questo termine non è un preziosismo verbale ma è fondamentale per riconoscere prima di ogni altra specificazione che un essere umano è persona come tutti gli altri, con pari dignità e pari diritti come figlio di Dio e come cittadino. Oggi, superando il termine integrazione, parliamo di inclusione. Anche in questo caso non si tratta di un aggiornamento lessicale, bensì di una nuova frontiera verso la quale dobbiamo tendere. Includere ha il significato di contenere in sé, essere compreso, essere permeabili gli uni agli altri. Ricordando le parole di Papa Francesco: «Dio, nel suo disegno d’amore, non vuole escludere nessuno, ma vuole includere tutti (...) mediante il Battesimo, ci fa suoi figli in Cristo, membra del suo corpo che è la Chiesa. E noi cristiani siamo invitati a usare lo stesso criterio: la misericordia è quel modo di agire, quello stile, con cui cerchiamo di includere nella nostra vita gli altri, evitando di chiuderci in noi stessi e nelle nostre sicurezze egoistiche».

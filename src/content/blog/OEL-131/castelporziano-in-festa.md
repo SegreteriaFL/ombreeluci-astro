@@ -12,7 +12,8 @@ umap_x: 7.987974166870117
 umap_y: 7.033528804779053
 umap_z: 10.977211952209473
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Cari amici, l’11 settembre 2015 alle 16,30 circa, stavo alla residenza estiva del Presidente della Repubblica con amici di *Fede e Luce* e vari rappresentanti di vari istituti.
 

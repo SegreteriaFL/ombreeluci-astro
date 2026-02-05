@@ -12,8 +12,9 @@ umap_x: 5.545105934143066
 umap_y: 7.8388237953186035
 umap_z: 11.2500581741333
 issue_number: OEL-116
+id_numero: "OEL-116"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ho scoperto Ombre e Luci da pochissimo tempo, anche se da tanti anni conosco l’ associazione Fede e Luce e ne condivido lo spirito ed i principi portanti che caratterizzano la sua essenza. Sono stata sempre sensibile al problema dei più deboli e indifesi e ho maturato la ferma convinzione del loro diritto al rispetto totale come persona completa nella sua interezza e del loro diritto all’amore, sempre.
 
 **Mi disturba l’idea che qualcuno possa considerare gli individui più fragili un peso per la società e per la famiglia** . Ho accettato con gratitudine l’invito a scrivere su questa rivista perché sento il bisogno di condividere con i suoi lettori una mia esperienza vissuta in Messico nello scorso agosto: ho toccato con mano il significato delle parole accoglienza del più debole e amore.

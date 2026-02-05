@@ -15,8 +15,9 @@ umap_x: 8.179884910583496
 umap_y: 7.0242180824279785
 umap_z: 11.656024932861328
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 E
 ra il 1976 e Alfedena rappresentò un'esperienza fondante per le comunità di Fede e Luce. Un nuovo modo di far vacanza, unico per alcuni dei partecipanti. La casa fu messa a disposizione da Francesca Biondi che, sul numero 11/1976 di
 *Insieme*

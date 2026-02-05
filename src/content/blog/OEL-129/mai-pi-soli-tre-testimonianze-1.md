@@ -15,7 +15,8 @@ umap_x: 7.047152519226074
 umap_y: 9.063164710998535
 umap_z: 12.142264366149902
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 ### Sensazioni
 

@@ -12,7 +12,8 @@ umap_x: 7.90605354309082
 umap_y: 11.669587135314941
 umap_z: 5.187261581420898
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 Ipappagalli verdi di cui parla questo libro sono le mine antiuomo che vengono lanciate a migliaia dagli elicotteri in zone di guerra: “dieci centimetri in tutto, due ali con al centro un piccolo cilindro. Sembra una farfalla più che un pappagallo”. Scompaiono nell’erba o fra le case dei centri abitati. Camminarci sopra inavvertitamente, toccarle, significa esserne dilaniati, mutilati, oppure morire. Accade soprattutto ai bambini. Dice l’autore: “A me non è mai successo, tra gli sventurati feriti di queste mine che mi è capitato di operare, di trovarne uno adulto. Neanche uno, in più di dieci anni, tutti rigorosamente bambini.” Nel 1999 il “Premio Viareggio Internazionale” è stato assegnato a Gino Strada. Insieme a lui si è voluto premiare l’attività di EMERGENCY, un’organizzazione apolitica e apartitica da lui fondata nel 1994, che ha lo scopo di aiutare le popolazioni civili vittime della guerra. Nel 1997 questo gruppo ha contribuito all’approvazione della messa in bando in Italia della produzione delle mine antiuomo. Quest’anno l’atto è entrato ufficialmente in vigore sul piano internazionale. Ne fanno parte 64 paesi fra i quali purtroppo non ci sono gli Stati Uniti, la Russia e la Cina.
 

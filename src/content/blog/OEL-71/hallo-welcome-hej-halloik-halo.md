@@ -14,7 +14,8 @@ umap_x: 5.601513385772705
 umap_y: 7.72077751159668
 umap_z: 11.214646339416504
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 Accendo di fretta il mio computer per vedere se mi ha già scritto qualcuna delle persone che ho conosciuto a Chianciano, trovo invece una mail che mi chiede se sarei disposta a raccontare 1’incontro per Ombre e Luci... accetto subito con entusiasmo, basta che sia in italiano... adesso vi spiego perché.
 

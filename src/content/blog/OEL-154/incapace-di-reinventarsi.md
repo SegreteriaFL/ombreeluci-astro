@@ -12,7 +12,8 @@ umap_x: 8.8292818069458
 umap_y: 8.393125534057617
 umap_z: 3.0447447299957275
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 Un batterista perde gran parte dell’udito all’improvviso: i suoni diventano ovattati, si sente come separato dal resto del mondo. Sarebbe destabilizzante per chiunque, **ma per chi usa l’udito per lavoro è un colpo durissimo** . Ruben (Riz Ahmed) ha un atteggiamento di completa negazione: fa finta di niente finché può, si convince che sia una cosa temporanea. Quando infine ammette che qualcosa non va, si immagina che esista una qualche soluzione. Non è così, o comunque **l’intervento chirurgico che lui crede possa essere miracoloso costa troppo** ; perciò deve imparare ad adattarsi alla sua nuova condizione e, come prima cosa, deve abbandonare l’attività musicale.
 

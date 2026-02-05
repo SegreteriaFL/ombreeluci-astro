@@ -18,8 +18,9 @@ umap_x: 9.195084571838379
 umap_y: 7.955565929412842
 umap_z: 3.5933661460876465
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 A
 mong the many cinematic firsts by the Lumière brothers, we also find the first pilgrims ever captured on film—near the Church of the Holy Sepulchre in Jerusalem. Then,
 **in September 1897, an entire screening was dedicated to Lourdes**

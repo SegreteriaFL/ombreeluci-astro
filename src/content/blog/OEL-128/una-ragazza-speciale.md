@@ -14,8 +14,9 @@ umap_x: 4.630314350128174
 umap_y: 10.091827392578125
 umap_z: 11.855039596557617
 issue_number: OEL-128
+id_numero: "OEL-128"
+numero_rivista: "Ombre e Luci"
 ---
-
 Siamo nel 1946. L’Italia esce dalla guerra con le ossa rotte. Lutti ancora freschi, rancori, tanto da ricostruire. E tanta speranza, tanta voglia di fare. Il referendum ha appena stabilito che sarà repubblica. Il papa è Pio XII. Ma perché questo salto indietro di settanta anni? È l’anno che incontro Mariangela.
 
 Frequento da qualche anno l’Istituto Nazareth e mi sono iscritta alla terza media. Il gruppo dell’anno scorso si è ricostituito al primo giorno di scuola. Ma ecco apparire tra noi la nuova alunna. Ha le trecce annodate dietro la nuca ed un accento marcatamente veneto. Una certa ilarità pervade noi tutte, romane. Ma come parla?

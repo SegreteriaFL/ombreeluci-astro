@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "iperattivita-un-bambino-complicato"
 lang: it
-numero_rivista: 97
-id_numero: OEL-97
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-97"
 issue_number: OEL-97
 wp_id: 32450
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Siamo i genitori di tre bambini, il più grande dei quali si chiama Alberto di 9 anni, affetto sin dalla nascita dalla Neurofibromatosi-NF1 e ADHD. Gli altri due, senza nessuna patologia, si chiamano Anna di 7 anni e Paolo di 5. Sin dalla diagnosi della patologia di mio figlio (all’età di 18 mesi) siamo stati seguiti dall’equipe del reparto di Neurologia del Policlinico di Modena dove periodicamente ci rechiamo per sottoporlo ai periodici controlli previsti dal protocollo diagnostico. Per questa patologia e per le sue crisi epilettiche, assume quotidianamente un farmaco con buoni risultati.
 
 Nostro figlio è stato, sin dai primi anni della scuola materna, un bambino “complicato”, con caratteristiche caratteriali e comportamentali complesse (difficoltà di apprendimento, urla senza senso, movimenti inconsulti e ripetitivi, aggressività notevole, irrequietezza motoria, impulsività spiccata ecc.).

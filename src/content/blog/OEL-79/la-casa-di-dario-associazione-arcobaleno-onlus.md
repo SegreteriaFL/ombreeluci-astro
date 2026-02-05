@@ -4,8 +4,8 @@ date: 2002-09-01
 author: Carlo Maria Fornari
 slug: la-casa-di-dario-associazione-arcobaleno-onlus
 lang: it
-numero_rivista: 79
-id_numero: OEL-79
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-79"
 issue_number: OEL-79
 wp_id: 25436
 original_url: "https://www.ombreeluci.it/?p=25436"
@@ -15,7 +15,6 @@ umap_x: 7.5270676612854
 umap_y: 8.024198532104492
 umap_z: 9.398853302001953
 ---
-
 Quando molti anni fa, era il 1979, mia moglie Irma, Paolo ed io entrammo a far parte del Movimento di [Fede e Luce](https://www.fedeeluce.it/) **non avremmo mai pensato di ricevere un Seme così grande** , che poi negli anni successivi avrebbe dato tanti frutti alla nostra famiglia. Il principale è stato sicuramente quello di aver conosciuto tante persone motivate ad accoglierci come se fossimo già grandi amici da molti anni.
 
 Inoltre le riflessioni fatte in Comunità, aiutati da stupendi sacerdoti quali don Pierangelo Sequeri e don Dario Madaschi, hanno stravolto la nostra vita, facendo maturare in noi **il grande desiderio di ricambiare tutto il bene ricevuto dai tanti amici del movimento** .

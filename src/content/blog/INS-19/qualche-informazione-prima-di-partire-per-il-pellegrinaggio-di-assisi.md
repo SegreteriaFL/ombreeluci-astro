@@ -15,8 +15,9 @@ umap_x: 9.530867576599121
 umap_y: 8.565260887145996
 umap_z: 12.303836822509766
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Assisi si trova in Umbria, sulla sommità di una collina (m. 424) e vi potrà ancora far freddo: sarà bene avere un pullover pesante e un impermeabile.
 
 Vi ricordiamo di segnare il proprio nome (nome e cognome - gruppo originario di appartenenza - Fede e Luce "Cittadella") su valigie, borse, carrozzelle e quanto altro potrebbe andare smarrito o confuso.

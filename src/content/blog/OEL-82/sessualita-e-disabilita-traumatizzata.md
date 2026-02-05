@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "sessualita-e-disabilita-traumatizzata"
 lang: it
-numero_rivista: 82
-id_numero: OEL-82
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-82"
 issue_number: OEL-82
 wp_id: 26782
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 ---
-
 Laura, una giovane down fine e graziosa, è divenuta presto capace di attirare gli sguardi dei ragazzi ma anche fragile per i suoi attaccamenti affettivi. A diciassette anni, di ritorno dalle vacanze, non ha smesso di reclamare per settimane intere la presenza di un ragazzo della fattoria vicina.
 Frequenta un Centro diurno dove le relazioni tra gli ospiti sono forti e non controllate.** Decido di consultare un medico, cristiano, che segue Laura dal tempo della sua nascita. Lui raccomanda una protezione sicura, indispensabile per le persone che non possono da sole garantirsi da una gravidanza né valutarne le conseguenze.
 

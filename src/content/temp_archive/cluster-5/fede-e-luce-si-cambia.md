@@ -6,6 +6,7 @@ theme: "cluster-5"
 cluster_id: 5
 slug: "fede-e-luce-si-cambia"
 has_comments: false
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

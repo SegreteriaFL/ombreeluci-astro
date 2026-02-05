@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-12
+id_numero: "OEL-12"
+numero_rivista: "Ombre e Luci"
 ---
-
 I bambini con handicap e non, vivono e studiano insieme e ognuno impara e cresce secondo le proprie capacità.
 
 Questo potrebbe sembrare naturale e normale, ma per chi invece di accontentarsi di parole si impegna nell'azione, non lo è per niente. Come mai?

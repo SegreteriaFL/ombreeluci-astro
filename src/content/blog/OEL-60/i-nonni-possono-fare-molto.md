@@ -4,8 +4,8 @@ date: 1997-12-15
 author: Redazione
 slug: i-nonni-possono-fare-molto
 lang: it
-numero_rivista: 60
-id_numero: OEL-60
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-60"
 issue_number: OEL-60
 wp_id: 11826
 original_url: "https://www.ombreeluci.it/?p=11826"
@@ -17,7 +17,6 @@ umap_x: 4.767144680023193
 umap_y: 9.595192909240723
 umap_z: 8.508679389953613
 ---
-
 La dottoressa **Marie Odile Réthoré** incontra ogni giorno diversi genitori nel suo consultorio per bambini e giovani con malattie o disabilità genetiche. Può succedere, però, che sia un nonno ad accompagnare da lei il nipotino. A volte riceve una telefonata che rivela inquietudine e sconforto da parte di una nonna...
 N
 on posso dimenticare quel nonno che mi chiedeva di riceverlo con urgenza per parlarmi della nipotina di 17 anni disabile mentale. “Stefania sta bene - mi diceva - ma sua madre si sta esaurendo. Si crea un mucchio di problemi. Come possiamo aiutarla?” Mi accorsi subito, ascoltando quest'uomo venuto a Parigi tra due treni solo per parlarmi, che in realtà era lui che non sopportava più di farsi le domande che, da 17 anni, restavano senza risposta. Era necessario e urgente che potesse parlarne trovando comprensione.

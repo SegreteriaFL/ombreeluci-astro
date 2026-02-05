@@ -11,8 +11,9 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 Era un caldo pomeriggio di primavera del 1988, mia figlia Julie era appena nata. Assaporavo quella gioia, quando un medico mi annunciò che mia figlia era probabilmente affetta da trisomia 21. Mi sentii svenire. Un sentimento di collera mi invase: «Che cosa ho fatto al buon Dio per meritare questo?» La sera la diagnosi era confermata. Prima di uscire dalla stanza, un medico si chinò sulla culla: «Penso che nella tua vita tu sarai molto felice perché hai dei genitori che hanno l’aria di essere in gamba». Queste parole mi erano sembrate ispirate. Hanno avuto, comunque, l’effetto di un elettroshock! Julie aveva bisogno che mia moglie ed io ci occupassimo di lei senza che per questo ci piangessimo addosso.
 
 Mio padre, militare, mi ha trasmesso una «religione da cavaliere», di servizio, a difesa della vedova e dell’orfano. Mi ha insegnato l’attenzione verso gli altri. Tuttavia la mia fede, per molto tempo, è rimasta tiepida, fondata più sulla tradizione che sulla convinzione. Nel 1982 avevo tutto per definirmi felice: una moglie e quattro figli meravigliosi, un buon lavoro… Tuttavia sentivo che in fondo al cuore mi mancava qualcosa.

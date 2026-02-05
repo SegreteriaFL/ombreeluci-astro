@@ -11,8 +11,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Airbnb** si schiera in prima linea, a tutela dei disabili. A fronte del moltiplicarsi di fenomeni poco positivi nei confronti di alcuni host disabili, l’azienda ha deciso di prendere le opportune contromisure, acquisendo [Accomable](https://accomable.com/), una startup specializzata nell’**organizzazione di viaggi per disabili**, che ha costruito una rete di alloggi privi di barriere architettoniche, in oltre 60 paesi nel mondo. Nei prossimi mesi, gli alloggi di Accomable saranno inseriti nel database Airbnb, sarà quindi possibile visionare con esattezza le caratteristiche di una location, comprendendo ad esempio se la casa è completamente a misura di disabile o solo l’ingresso risulta essere regolare.
 
 Grazie alle liste di controllo, gli host potranno compilare dei questionari, dove avranno occasione di indicare le caratteristiche precise di ciascun alloggio (quindi, ad esempio, se l’entrata è abbastanza larga da far passare una sedia a rotelle). L’app Airbnb è già stata integrata sulla versione web e nei prossimi mesi dovrebbe essere inserita in quella mobile.

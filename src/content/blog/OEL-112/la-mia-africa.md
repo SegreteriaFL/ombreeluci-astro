@@ -14,8 +14,9 @@ umap_x: 7.804542064666748
 umap_y: 7.4697980880737305
 umap_z: 11.462366104125977
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 Parlare di sé è sempre molto complicato specialmente se si devono trasmettere emozioni, affetti e sentimenti personalissimi che mi hanno portato a scelte non esattamente “normali”.
 
 Mi chiamo Lena (Maddalena) Antonioli, sono nata nel 1938, sposata con Giuseppe Botta, nato nel 1937, abitiamo a Milano ed abbiamo due figli, un maschio e una femmina, anche loro sposati che ci hanno regalato tre splendidi nipoti.

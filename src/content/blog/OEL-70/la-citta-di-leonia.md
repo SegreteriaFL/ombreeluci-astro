@@ -12,7 +12,8 @@ tema_code: "T11"
 tema_label: "Giovani, futuro, speranza e cambiamento"
 categoria_menu: "Crescere"
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 *«La città di Leonia rifa se stessa tutti i giorni: ogni mattina la popolazione si risveglia tra lenzuola fresche, si lava con saponette appena sgusciate dall’involucro, indossa vestaglie nuove fiammanti, estrae dal più perfezionato frigorifero barattoli di latta ancora intonsi, ascoltando le ultime filastrocche dall’ultimo modello di apparecchio. Sui marciapiedi, avviluppati in tersi socchi di plastica, i resti della Leonia di ieri aspettano il carro dello spazzaturaio (...)
 Il risultato è questo: che più Leonia espelle roba , più ne accumula».*

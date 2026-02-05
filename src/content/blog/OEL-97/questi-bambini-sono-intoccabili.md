@@ -4,8 +4,8 @@ date: 2007-03-02
 author: Immacolata Casullo
 slug: questi-bambini-sono-intoccabili
 lang: it
-numero_rivista: 97
-id_numero: OEL-97
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-97"
 issue_number: OEL-97
 wp_id: 32448
 original_url: "https://www.ombreeluci.it/?p=32448"
@@ -15,7 +15,6 @@ umap_x: 5.455026149749756
 umap_y: 9.377148628234863
 umap_z: 7.477904319763184
 ---
-
 H
 a suscitato scalpore il caso di Ashley, una bambina di 9 anni di Seattle (USA) affetta da una rara malattia cerebrale, l’encefalopatia statica. Su decisione dei genitori è stata sottoposta ad intervento chirurgico e farmacologico per bloccarle lo sviluppo fisico e sessuale, impedendole di crescere. Immacolata, madre di Francesca, affetta da sindrome Lemox-Gastaut, ci scrive le sue riflessioni.
 H

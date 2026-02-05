@@ -6,6 +6,7 @@ theme: "cluster-7"
 cluster_id: 7
 slug: "zia-giuliana-il-carrellino-della-nonna-e-le-mie-domande"
 has_comments: false
+id_numero: "OEL-167"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

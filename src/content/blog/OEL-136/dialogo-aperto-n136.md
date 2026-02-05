@@ -12,8 +12,9 @@ umap_x: 4.503165245056152
 umap_y: 7.870846748352051
 umap_z: 10.435325622558594
 issue_number: OEL-136
+id_numero: "OEL-136"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### “Sai, noi siamo i più belli”
 
 Cari amici, questo piccolo articolo vuole essere una piccola riflessione e considerazione in merito alle emozioni che io provo ogni giorno in seno alla mia famiglia. Ho una figlia di 47 anni cerebropatica e poiché sono abbonato da diversi anni a Ombre e Luci, trovo nel giornale la forza di tirare avanti. Voglio ricordare in questa occasione la figura di una grande donna ed una cara amica di Fede e Luce, Mariangela Bertolini. Leggevo sempre i suoi editoriali e nelle sue parole trovavo stimoli che mi incoraggiavano e rafforzavano la volontà a superare le difficoltà quotidiane. Un articolo che lei ha scritto e che ricordo con vero piacere è: Bellezza e disabilità, ove ci spiega bene la relazione che intercorre e unisce la bellezza alla disabilità. Bellezza intesa come gratitudine e riconoscenza verso l’amore profuso nell’aiuto alle persone in difficoltà. L’articolo termina con le domande che fa una ragazza down alla propria mamma: Mamma perché tutti per la strada ci guardano? La mamma con una piccola lacrima risponde: Sai noi siamo i più belli. Le parole della mamma emozionata tendono a far coraggio alla figliola. Anch’io ho provato emozioni un po’ diverse con mia figlia. Stavo seduto a leggere un giornale, quando mia figlia si avvicinava e mi dava delle pacchette sulla spalla. La cosa si è ripetuta diverse volte e ad un certo punto con serenità le dico: Peppuccia sei monella. Son passati pochi secondi che è venuta ad abbracciarmi e le sue labbra non si staccavano dal mio viso. Qui sta la bellezza, nel riconoscimento che lei ha valutato per le cure e l’assistenza che diamo, e col bacio ha voluto riparare. Bellezza nella disabilità è gratitudine e affetto che riceviamo e ciò ci rafforza lo spirito e aumenta il sentimento della fede.

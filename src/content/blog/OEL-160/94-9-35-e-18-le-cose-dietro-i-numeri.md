@@ -12,8 +12,9 @@ umap_x: 7.726833820343018
 umap_y: 1.4991577863693237
 umap_z: 9.654437065124512
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Hofatto tante cose e altre sono successe e io non le ho fatte. **Mia nonna ha compiuto 94 anni il 28 giugno. Io l’ho aiutata a spengere le candeline che erano due.** Una era il numero 9 e una il numero 4. Lei non ce la faceva. La torta era buona, anzi erano due. Poi però, qualche giorno dopo, nonna è dovuta andare in ospedale perché non stava bene. Lei non sta bene da tantissimo. Io spero che presto torna a casa. Dico sempre la preghiera e la chiamo con la videochiamata su whatsapp.
 
 La pagella a scuola è andata bene. Però hanno rimandato 9 compagni di classe. Io ho preso 9 in accoglienza, accoglienza turistica e comportamento. Otto in inglese, francese, matematica, arte e territorio, educazione civica e scienze dell’alimentazione. Sette in italiano. Sei in storia e ginnastica. Ottimo in religione. **Abbiamo anche fatto la pizza di classe. Non c’erano i professori. Sono stata molto contenta.**

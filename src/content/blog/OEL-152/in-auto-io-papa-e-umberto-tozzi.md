@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sono già stata cinque volte in pizzeria. Vado pure al parco e in gelateria. La scuola non l’hanno riaperta più. Neppure la palestra. Mi hanno detto che devo aspettare settembre. Allora vuol dire che aspetterò settembre. Ma ci vuole pazienza e io non ho più pazienza. L'ho tutta finita.
 
 Quando esco mi metto sempre la mascherina ma poi vedo che sono pochi quelli che hanno la mascherina. Io la metto perché sennò ho paura che mi dicono che non posso uscire e io a casa non ci voglio più stare. In pizzeria si sta bene. Io ci vado volentierissimo. Non devi prenotare perché non ci sono tante persone. Anche i camerieri sono pochi. Io penso che sarebbe bello pure andare in palestra. Se vado in pizzeria perché non vado in palestra? Non lo so proprio.

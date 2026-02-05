@@ -12,8 +12,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Giunge alla giornata conclusiva il progetto che ha coinvolto gli studenti del veneziano per sensibilizzarli alla diversità e alla disabilità.
 
 Avvicinare alla **diversità** fin da piccoli è la chiave per far sì che ciò che ci circonda venga accolto e considerato, percepito e vissuto come del tutto ovvio, normale. E’ questo approccio quello che può contribuire a ridurre la diffidenza e la distanza anche verso la disabilità. Ed è questo l’approccio che ha guidato il progetto veneziano **Play Day 2018**, nato per **sensibilizzare i bambini** rispetto ai temi della diversità e della disabilità, coinvolgendoli in**progetti creativi, stimolanti e all’insegna dello sport.

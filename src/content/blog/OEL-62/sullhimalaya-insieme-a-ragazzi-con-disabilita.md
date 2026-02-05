@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "sullhimalaya-insieme-a-ragazzi-con-disabilita"
 lang: it
-numero_rivista: 62
-id_numero: OEL-62
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-62"
 issue_number: OEL-62
 wp_id: 12192
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 ---
-
 Aurelia, Maria Laura, Nicola, Toubi, Michele, Oliviero, Natalia: sette adolescenti dagli undici ai sedici anni, per lo più Down, affidati e “gemellati” ad Antonio, Bakour, Michele, Manuele, Marco, Tahar, Stefano. Kevin: giovani in situazione scolastica molto precaria, sono partiti per un mese di trekking nel Nepal.
 
 L'idea è stata di due educatori che hanno saputo mobilitare le forze necessarie e relativo finanziamento: insegnanti, accompagnatori di *Nouvelles frontières*, militari di alta montagna, *sherpa* nel Nepal, ecc.

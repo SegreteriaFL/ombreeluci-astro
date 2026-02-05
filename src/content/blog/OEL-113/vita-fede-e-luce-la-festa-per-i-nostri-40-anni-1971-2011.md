@@ -12,7 +12,8 @@ umap_x: 8.099998474121094
 umap_y: 8.912694931030273
 umap_z: 12.858057022094727
 issue_number: OEL-113
-id_numero: OEL-113
+id_numero: "OEL-113"
+numero_rivista: "Ombre e Luci"
 ---
 ### Messina
 

@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-126
-id_numero: OEL-126
+id_numero: "OEL-126"
+numero_rivista: "Ombre e Luci"
 ---
 Non voglio usare molte parole mie per iniziare questo racconto. Potrei riportare tante motivazioni ma la verità è che ci sono percorsi che vengono “sospinti” da una voce, talvolta fievole talvolta più forte, che ti indica una direzione, una strada da percorrere, un “luogo” a cui è meglio appartenere.
 

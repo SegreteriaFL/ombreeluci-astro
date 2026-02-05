@@ -12,8 +12,9 @@ umap_x: 6.786574363708496
 umap_y: 7.249344348907471
 umap_z: 12.231743812561035
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 E
 cco… cosa sia stato “INSIEME” per tutte le persone che lo hanno conosciuto e letto, cosa abbia significato e gli effetti che ha procurato, non è semplice qui dirlo. Molti di essi saranno sicuramente nascosti o rimasti chiusi negli animi di varie persone… ma spero forse, leggendo questo articolo, si sentano stimolati a contribuire e a condividere il loro pensiero. Posso dire, almeno per me, che è stato un “racconto di vita comunitaria”, un “incontro tra le persone”, un “conoscere un mondo sconosciuto”, un “condividere esperienze personali e di gruppo”. Ma in effetti sono così tanti i significati che il Bollettino “INSIEME” ha rappresentato per ogni genitore, ragazzo, amico, educatore, assistente, medico… che qualsiasi parola rischia di essere superflua, inesatta ma soprattutto insufficiente. Mi permetto però di aver nel frattempo trovato un termine per definirlo un po' più chiaramente: visto che il simbolo di “Fede e Luce” è rappresentato da una barchetta con delle persone a bordo, potrei dire che il Bollettino “INSIEME” sia stato un vero e proprio “Diario di bordo”, ed è così che mi piace immaginarlo, un libro aperto di vissuti, che ha aperto la visuale ad un mondo nuovo, diverso! In esso vi è un concentrato di contributi ad ogni livello, tutti partiti e scaturiti dal cuore! Ognuno… genitore, ragazzo, fratello, bambino, amico, scrivendo, raccontando, disegnando o semplicemente inserendo una foto, ha voluto aprire il proprio cuore, la propria anima profonda. Sono cuori a volte o spesso feriti per lunghissimo tempo, rimasti inascoltati o addirittura muti. Si è aperta una breccia, ha dato fiducia e forza ai timidi a mettersi in gioco e da all’ora, senza più paura di essere giudicati – uno dei pericoli più grandi di questa società – ognuno ha potuto trovare il proprio spazio, ognuno ha potuto ritrovare la propria voce e finalmente poter avere qualcuno che la potesse ascoltare…
 > Da una voce muta, a una voce con l’eco di ritorno Essere e sentirsi ascoltati… non si è più soli!

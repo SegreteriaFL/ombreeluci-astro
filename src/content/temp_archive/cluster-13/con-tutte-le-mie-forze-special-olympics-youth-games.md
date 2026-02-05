@@ -6,6 +6,7 @@ theme: "cluster-13"
 cluster_id: 13
 slug: "con-tutte-le-mie-forze-special-olympics-youth-games"
 has_comments: false
+id_numero: "OEL-96"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

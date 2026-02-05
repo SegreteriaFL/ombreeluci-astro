@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### A Cuneo
 
 Intorno ai bambini che frequentano "Stella Mattutina", un gruppo di [Fede e Luce](https://www.fedeeluce.it) sta sorgendo.

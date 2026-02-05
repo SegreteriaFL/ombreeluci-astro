@@ -15,7 +15,8 @@ umap_x: 7.734230041503906
 umap_y: 8.671975135803223
 umap_z: 7.995999813079834
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 **S ono una assidua frequentatrice di Facebook e utilizzo molto WhatsApp.** Entrambi hanno sicuramente migliorato il mio modo di informarmi e di comunicare. Sia nel lavoro che nella vita privata.
 

@@ -12,7 +12,8 @@ umap_x: 7.079624652862549
 umap_y: 9.256061553955078
 umap_z: 12.60898494720459
 issue_number: OEL-41
-id_numero: OEL-41
+id_numero: "OEL-41"
+numero_rivista: "Ombre e Luci"
 ---
 ### Noi cristiani avventisti in Fede e Luce
 

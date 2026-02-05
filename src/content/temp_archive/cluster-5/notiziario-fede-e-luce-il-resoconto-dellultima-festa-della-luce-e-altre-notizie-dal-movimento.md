@@ -7,6 +7,7 @@ cluster_id: 5
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/cover-insieme-n-1.webp"
 slug: "notiziario-fede-e-luce-il-resoconto-dellultima-festa-della-luce-e-altre-notizie-dal-movimento"
 has_comments: false
+id_numero: "INS-9"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

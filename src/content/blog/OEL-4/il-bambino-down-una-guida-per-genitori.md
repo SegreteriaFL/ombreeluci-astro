@@ -12,14 +12,14 @@ pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
 archive_id: OmbreELuciN004
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 periodo_label: Ottobre, Novembre, Dicembre
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 umap_x: 6.175571441650391
 umap_y: 10.617681503295898
 umap_z: 6.170889854431152
+id_numero: "OEL-4"
 ---
-
 "Questo libro è stato scritto per nuovi genitori di bambini con sindrome di Down, per i loro problemi angoscianti, per le loro domande inquietanti. Speriamo di poter dar loro, qui, alcune risposte". Così presentano il libro gli stessi autori. Sono un gruppo di specialisti che lavorano insieme ad un progetto educativo in America. Prologo ed epilogo sono scritti da una madre che partecipa anch'essa al progetto. Di tutti quanti non possiamo che lodare il loro approccio concreto, la semplicità del linguaggio (nessuna parola complicata, nessun discorso scientifico difficile) ed il tono caloroso. Dovrebbe essere un libro utile per i consigli semplici di vita quotidiana e per la speranza che anima gli autori: non parlano di miracoli o di cure straordinarie ma di educazione. Mettono bene in evidenza l'importanza dell'intervento precoce, soprattutto su due piani: stimolazione ed educazione positiva del comportamento per sviluppare fin dall'inizio le radici di una vera socializzazione. Numerose fotografie simpatiche arredano il libro. Peccato che la bibliografia selezionata e le fonti per i genitori siano solo in lingua inglese. Un libro utile anche per terapisti, educatori, insegnanti e non solo quelli dei bambini Down.
 **N.S.**
 **Nicole Marie Therese Tirard**

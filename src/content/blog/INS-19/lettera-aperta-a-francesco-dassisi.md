@@ -15,8 +15,9 @@ umap_x: 9.521479606628418
 umap_y: 8.694692611694336
 umap_z: 12.227747917175293
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Latua vita di "Pazzo di Dio", la tua vita d'amore e di gioia mi farebbe venir voglia di seguirti, se potessi capire perché tu chiedi una povertà così assoluta.
 
 Tu, che per la tua famiglia, la tua educazione, eri destinato ad essere, secondo il tuo capriccio, ricco mercante, allegro poeta, mecenate illustre o brillante cavaliere, hai scelto la più stretta povertà e la mendicità.

@@ -14,8 +14,9 @@ umap_x: 9.1591215133667
 umap_y: 8.26969051361084
 umap_z: 2.962529182434082
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 “K**airos** ”, di Paul Barakat, è il film **vincitore della XXII edizione del Tertio Millennio Film Fest** , festival del dialogo interreligioso che quest’anno ha avuto come tema “ *I giorni della rivolta. Guerra, rivoluzione e riscatto* ”.
 
 Al documentario “ **Mother Fortress** ”, di Maria Luisa Forenza, menzione speciale. La premiazione si è tenuta il 15 dicembre a Roma presso il cinema Trevi. I riconoscimenti sono stati assegnati dalla giuria interreligiosa presieduta da Claudia Di Giovanni.

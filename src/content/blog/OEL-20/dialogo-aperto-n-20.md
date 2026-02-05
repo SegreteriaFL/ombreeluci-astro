@@ -16,8 +16,9 @@ umap_x: 5.298710823059082
 umap_y: 8.37487506866455
 umap_z: 10.608180046081543
 issue_number: OEL-20
+id_numero: "OEL-20"
+numero_rivista: "Ombre e Luci"
 ---
-
 *"Ora F. è contento: ha un programma, una ragione per uscire di casa, si sente utile e incontra della gente. E posso assicurare che F. è molto bravo nel rendersi utile: la spasticità e l’handicap mentale lievi da cui è colpito, gliene lasciano la possibilità eil suo carattere di estrema gentilezza fa di lui un simpatico collaboratore".*
 
 ### Le cose sono cambiate

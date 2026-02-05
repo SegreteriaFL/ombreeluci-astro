@@ -14,7 +14,8 @@ umap_x: 5.699913024902344
 umap_y: 10.282907485961914
 umap_z: 7.8662543296813965
 issue_number: OEL-106
-id_numero: OEL-106
+id_numero: "OEL-106"
+numero_rivista: "Ombre e Luci"
 ---
 **Ciao, vuoi presentarti?**
 Sono Cristina, ho quasi 37 anni, sono nata da una coppia molto in gamba ed è questo che mi ha salvato. Vivo in Valtellina e sono ausiliaria di cucina in una scuola materna. Tre anni fa mi sono consacrata nell’Ordo Virginum nella diocesi di Como, insieme ad un’altra ragazza che si chiama Anna. Vivo in famiglia con mamma, papà e mio fratello; mia sorella è sposata ed ha due figlie bellissime, Ines di 3 anni e Martina di 8. Abbiamo un cane che si chiama Squot, viene dall'Olanda ed è di mio fratello...ma io ne vorrei uno tutto per me.

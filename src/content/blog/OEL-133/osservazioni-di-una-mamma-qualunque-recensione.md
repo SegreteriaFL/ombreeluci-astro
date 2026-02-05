@@ -12,7 +12,8 @@ umap_x: 7.432247638702393
 umap_y: 11.923210144042969
 umap_z: 5.041859149932861
 issue_number: OEL-133
-id_numero: OEL-133
+id_numero: "OEL-133"
+numero_rivista: "Ombre e Luci"
 ---
 P
 ost e articoli di una giovane donna raccolti in un libro acquistabile on line sul sito della casa editrice. Le riflessioni di una vita “qualunque” in ricerca, nei passi quotidiani e ordinari di moglie, madre, quando possibile lavoratrice, nel cuore sempre figlia di Dio. La seguiamo nel turbinio dei suoi pensieri e considerazioni: ogni occasione del quotidiano è utile e proficua per confrontarsi con la Buona Notizia, anche quando il buono fa fatica a trovarsi. Momenti di vita gioiosi e dolorosi, rabbiosi ma da affidare... soprattutto nel confronto con il mistero del dolore innocente, vissuto nella grave malattia di uno dei suoi quattro figli. Qualcuno ne ha scritto che, leggendolo, si ride e si piange: certamente, si vive.

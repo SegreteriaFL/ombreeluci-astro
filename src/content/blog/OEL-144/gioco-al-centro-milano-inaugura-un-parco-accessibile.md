@@ -15,8 +15,9 @@ umap_x: 8.3489351272583
 umap_y: 7.216287136077881
 umap_z: 7.7655720710754395
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sabato 21 aprile a partire dalle ore 11.30 si inaugurerà un parco giochi accessibile ai Giardini Montanelli di Milano. Si chiama Gioco al centro l’evento promosso dal
 **Comitato Promotore della Fondazione di Comunità Milano**
 e da

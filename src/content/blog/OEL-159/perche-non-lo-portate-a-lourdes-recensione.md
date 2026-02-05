@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 Lourdes è mille cose insieme. Mille cose difficili da raccontare. Si rischia il sentimentalismo, l'isteria, la pietistica, si rischia di diventare aggressivi perché non si capisce o perché si è oscurati dal disincanto. Oppure si può fare quello che ha fatto Lorenzo Amurri (1971-2016), scrittore in sedia a ruote non credente, che - per sfida, dopo l'invito di una sconosciuta ai familiari di portarlo lì per cercare il miracolo - parte a bordo del treno bianco dell'Unitalsi. **Il risultato è un libro ironico, sincero, spietato e profondo insieme, capace di cogliere quel mistero radicale e delicato che è Lourdes.** Amurri parte con il pregiudizio un po' intellettuale (per nulla esclusiva dei non credenti) di chi guarda una religiosità che suona tanto di superstizione, e torna con il rispetto silenzioso e commosso di chi ha sentito la potenza di un luogo che resta un mistero. Come tanti credenti.
 

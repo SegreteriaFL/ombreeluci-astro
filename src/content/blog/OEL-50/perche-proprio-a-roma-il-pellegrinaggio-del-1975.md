@@ -12,8 +12,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 I nostri fratelli handicappati, che verranno in [pellegrinaggio](https://www.ombreeluci.it/project/insieme-n-6/), non potranno apprezzare tutte le ricchezze della storia e dell'antichità che Roma offre agli spiriti colti, anche se l'esperienza dimostra che sono capaci di afferrare il significato delle Catacombe, del Colosseo, delle grandi basiliche, molto più di quel che pensiemo. Ma saranno attirati da altre cose.
 
 Nella semplicità del loro cuore, andranno direttamente all'essenziale: Roma è il Papa, è la persona del Papa attuale, è Paolo VI.

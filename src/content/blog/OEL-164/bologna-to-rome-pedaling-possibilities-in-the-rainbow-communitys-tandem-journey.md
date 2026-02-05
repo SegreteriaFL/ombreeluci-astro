@@ -18,8 +18,9 @@ umap_x: 8.168611526489258
 umap_y: 6.404067516326904
 umap_z: 10.183481216430664
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 We were going down a dirt road and a squirrel crossed. “Look Yuri, a squirrel!”. He didn't have time to see it… “I missed it!”. He made me think: experiences like these rekindle the desire to see things. That “I missed it” is not a usual phrase for him in the community, he often remains a little detached from things around him. Yuri is one of the people with disabilities from the Rainbow Community in Quarto Inferiore (Bologna), the second of the three arch entities present in Italy by seniority; Stefano, who narrates the episode, is one of the assistants. **“The experience lived at The Arch, whether residential or laboratory, constantly puts people at the center: each of these- guest, operator or volunteer, none perfect, but unique and unrepeatable, with its history and its beginning here and now”** - is “fundamental to build, day after day, and experience of hospitality and sharing, a catalyst for growth for everyone”.
 
 A growth that is experienced in everyday adventures but also in some decidedly extraordinary ones: that of the second week of october is an example. The dirt road where Yuri lost the squirrel is a stretch of Francigena traveled in tandem by a group of the community: they left Bologna, destination Rome in 8 days to celebrate the twenty years of life of The Rainbow and reach the community of Chicco di Ciampino, the first Italian reality of the international association born in France.

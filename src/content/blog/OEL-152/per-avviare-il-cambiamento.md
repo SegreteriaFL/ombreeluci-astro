@@ -12,8 +12,9 @@ umap_x: 8.88484001159668
 umap_y: 7.849099636077881
 umap_z: 8.10549545288086
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Le immagini parlano spesso ben più delle parole: ce ne siamo resi conto seguendo il Festival dei Diritti Umani di Milano (quinta edizione) dedicata al tema della disabilità. Il titolo scelto *Da vicino nessuno è disabile* è stato esplorato da esperti e testimoni invitati a farsi conoscere e a sfatare luoghi comuni, per riflettere insieme su una delle categorie di persone maggiormente discriminata nei suoi diritti primari (salute, lavoro, mobilità, istruzione, voto, libera scelta di vita…). Il festival ha una vocazione fortemente educativa che si realizza in un coinvolgimento diretto degli studenti di alcune scuole superiori e dell’Università Statale di Milano; avrebbe dovuto svolgersi in sedi diverse e in tempi più lunghi ma l’emergenza covid ha costretto gli organizzatori a riprogrammarlo in una versione ridotta e solo online. Purtroppo gravi problemi tecnici ne hanno impedito una fluida fruizione nella prima giornata e in parte della seconda. Problemi ai quali si è deciso di supplire con una giornata supplementare di incontri. Resta comunque un [sito](https://festivaldirittiumani.it/) abbastanza ricco di stimoli e lo streaming per chi volesse rivedere alcune conversazioni.
 
 Una riserva va espressa, secondo noi, nella scelta di toccare anche temi legati ad altre marginalità esistenziali (come la malattia mentale, l’immigrazione, l’istituzione segregante carceraria) che rischiano di fare poca chiarezza sulla condizione di disabilità così come intesa anche dalla [Convenzione Onu](https://www.unicef.it/Allegati/Convenzione_diritti_persone_disabili.pdf) che dal 2006 è riferimento imprescindibile per i diritti delle persone con disabilità.

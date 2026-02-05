@@ -12,7 +12,8 @@ umap_x: 4.677647590637207
 umap_y: 7.766348838806152
 umap_z: 10.836581230163574
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 ## Finalmente si torna a lavoro
 

@@ -12,7 +12,8 @@ umap_x: 5.800504684448242
 umap_y: 6.218303203582764
 umap_z: 12.240042686462402
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 C
 ari amici, vorrei provare a guardare al Natale con gli occhi di Giuseppe di Nazaret. A Natale gli occhi di tutti sono fissi sul Bambino e sua Madre, perciò

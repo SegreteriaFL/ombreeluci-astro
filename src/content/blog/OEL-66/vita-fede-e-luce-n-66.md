@@ -4,8 +4,8 @@ date: 1999-06-11
 author: Redazione
 slug: vita-fede-e-luce-n-66
 lang: it
-numero_rivista: 66
-id_numero: OEL-66
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-66"
 issue_number: OEL-66
 wp_id: 12768
 original_url: "https://www.ombreeluci.it/?p=12768"
@@ -17,7 +17,6 @@ umap_x: 7.655727863311768
 umap_y: 8.948580741882324
 umap_z: 13.949226379394531
 ---
-
 ### Chianciano - Incontro internazionale
 
 L’incontro dei responsabili, che si è tenuto a Chianciano dal 5 all’8 dicembre scorso, si è rivelato per me e — sono certa — anche per gli altri partecipanti, un momento di confronto e di condivisione molto proficuo. In pace, serenamente, abbiamo parlato, abbiamo dato e ricevuto consigli, conforto, ci siamo scambiati esperienze non solo e non tanto individuali, ma soprattutto di comunità. Abbiamo pregato, con la guida di don Vito; abbiamo ancora una volta «sentito» che siamo una grande comunità. Certamente tutte le persone e tutte le comunità sono diverse l una dall'altra, per fortuna. Allo stesso tempo c’è un qualcosa che tutti accomuna, che fa le situazioni ed i problemi di ciascuno e di ogni gruppo simili o analoghi a quelli degli altri. Tra i momenti più coinvolgenti, vorrei ricordare l’intervento di Mariangela. Ha raccontato la storia di [Fede e Luce](https://fedeeluce.it) insieme alla sua storia personale, interrompendosi di tanto in tanto per un canto e per la lettura di testimonianze e articoli tratti da «Ombre e Luci», che si conferma sempre essere una preziosa sorgente (troppo spesso dimenticata) da cui attingere materiale ed idee. Ancora una volta sono stata sorpresa dalla efficacia della semplicità. Quanto è importante ricordare e ricordarsi sempre da dove veniamo per capire meglio dove vogliamo andare! Quanto è prezioso il dono di sapersi rinnovare con un po’ di fantasia, senza andare in cerca però di una sfrenata e spesso incompresa originalità! L’insegnamento profondo che ne ho tratto mi ricorda che Fede e Luce è una parte della nostra vita. Solo così Fede e Luce conserva la sua essenza e la sua ragion d’essere, solo così le nostre sono vere comunità.

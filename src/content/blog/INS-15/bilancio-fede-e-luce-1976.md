@@ -14,8 +14,9 @@ umap_x: 8.207744598388672
 umap_y: 8.06124210357666
 umap_z: 13.38480281829834
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Entrate
 
 Contributi giornalino L. 661.000 Offerte per aiuti a persona con difficoltà L. 471.000 Offerte varie L. 461.000 Specifiche per Campeggio e "Casetta" L. 156.000

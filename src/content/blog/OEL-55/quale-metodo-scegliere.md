@@ -4,8 +4,8 @@ date: 1996-09-27
 author: Redazione
 slug: quale-metodo-scegliere
 lang: it
-numero_rivista: 55
-id_numero: OEL-55
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-55"
 issue_number: OEL-55
 wp_id: 10872
 original_url: "https://www.ombreeluci.it/?p=10872"
@@ -15,7 +15,6 @@ umap_x: 6.6590399742126465
 umap_y: 8.427177429199219
 umap_z: 6.459445953369141
 ---
-
 Igenitori che hanno ricevuto per il figlio una diagnosi di autismo incominciano quel «tragico pellegrinaggio» che Gloria Laxer ha descritto così: «Andranno da un servizio pubblico all’altro, da un medico all'altro, per anni, senza ricevere una risposta chiara né sulle cause degli attacchi di cui soffre il figlio, né sui metodi che potrebbero essere più efficaci». I metodi terapeutici e educativi utilizzati maggiormente in Europa possono essere divisi in due grandi categorie: quella d’ispirazione psicoanalitica e quella che si basa su trattamenti «comportamentali». **L’approccio psicoanalitico** fu raccomandato fin dagli anni quaranta da Bruno Bettelheim. Egli considerava l'autismo come una malattica mentale la cui origine stava probabilmente in una «difficile interazione» tra il bambino e i suoi genitori. L’obiettivo fondamentale di questo metodo è di aiutare il bambino a «costruirsi una storia personale coerente» per «aprirlo al rapporto con gli altri». Gli psicoanalisti non fanno per lui diagnosi premature che potrebbero dare illusioni per il futuro. L'apprendimento scolare viene affrontato con prudenza fin tanto che il bambino non è in grado di esprimere i suoi desideri profondi. Questo tipo di presa in carico, che era molto diffuso negli anni sessanta e settanta, si fermava a vent’anni.
 
 ### Recenti esperienze sui metodi educativi

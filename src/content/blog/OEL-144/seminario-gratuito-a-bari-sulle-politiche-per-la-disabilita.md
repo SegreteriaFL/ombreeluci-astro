@@ -12,8 +12,9 @@ tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il Seminario si propone in un momento in cui sulla disabilità si moltiplicano attenzioni ma rimangono punti interrogativi: un laboratorio aperto che intercetta una quota importante di bisogno, ma dove una quota altrettanto importante di esigenze assistenziali e di accompagnamento rimane fuori, in balìa del welfare familiare e di tutele fai da te.
 
 ### L'Appuntamento:

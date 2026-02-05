@@ -14,8 +14,9 @@ umap_x: 5.183259010314941
 umap_y: 10.156176567077637
 umap_z: 9.153948783874512
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 La nascita di mia sorella è stata senz'altro una "rivoluzione" nella vita della mia famiglia. In primo luogo i miei genitori, dopo i figli maschi, aspettavano la "reginetta", ma di certo non prevedevano che questa sarebbe stata handicappata. Deve essere stato per loro come un fulmine a ciel sereno.
 
 In un primo tempo specialmente mia madre, cercava nelle azioni della bambina un segno che le dimostrasse che non poteva essere vero, che si era sbagliata, che "lei", la piccola, era come "gli altri". Purtroppo le estenuanti visite mediche che seguirono non poterono fare altro che rimarcare i timori che tutti noi in famiglia avevamo: "tua sorella è grave, non possiamo nemmeno dire se farà progressi!".

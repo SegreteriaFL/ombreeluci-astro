@@ -12,8 +12,9 @@ umap_x: 6.195043087005615
 umap_y: 8.536450386047363
 umap_z: 8.33348560333252
 issue_number: OEL-40
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 D
 aniela mi insegnava a ritrovare la speranza e il buonumore. La guardavo trotterellare, cercavo invano sul suo viso una espressione d’insofferenza e l’ascoltavo parlare senza mai sorprendere nella sua voce la minima mancanza di dolcezza. Dalla cuffia bianca e inamidata spuntavano due ciuffi di capelli neri e la sua pelle dichiarava l’origine di isole lontane, molto lontane: oltremare. Quasi un sogno, o perlomeno qualcosa di molto originale: una persona singolare, persa in una folla di persone completamente diverse per natura e comportamento: gentilezza in mezzo aH’insensibilità, simpatia nell’indifferenza. Là dove i medici e il personale ospedaliero che avevo conosciuto si lasciavano trascinare dal ritmo di un servizio senza dubbio difficile, come fossero stati operai addetti a un’immensa catena di montaggio, Daniela svolgeva un incarico «artigianale», cercando di alleviare le pene dove poteva, come poteva, con qualche servizio gratuito, qualche gesto in apparenza senza importanza, ma che per un malato è come una carezza al cuore: poche parole rivolte a un essere umano. In definitiva quasi niente; un sorriso, una mano tesa, due o tre parole che equivalgono a una lunga lettera scritta a un esiliato. Questo articolo è tratto da
 Ombre e Luci n.40, 1992

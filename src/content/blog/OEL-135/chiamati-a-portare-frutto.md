@@ -12,7 +12,8 @@ umap_x: 7.735500812530518
 umap_y: 9.11269474029541
 umap_z: 13.716309547424316
 issue_number: OEL-135
-id_numero: OEL-135
+id_numero: "OEL-135"
+numero_rivista: "Ombre e Luci"
 ---
 > “Ti ringrazio, Signore, per aver incontrato Marco. Da allora Fede e Luce è entrata a far parte della mia vita e io mi sento parte di essa”.
 

@@ -12,7 +12,8 @@ umap_x: 5.7738542556762695
 umap_y: 8.539554595947266
 umap_z: 7.3517327308654785
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 **Nostro figlio Simone aveva tre anni quando ci hanno fatto notare il suo comportamento diverso.** Sollecitati a fare delle ricerche, ci siamo fermati, sostenuti dal medico di famiglia che ci aveva sempre consigliato di lasciarlo crescere in pace. Ed è ciò che abbiamo fatto!
 

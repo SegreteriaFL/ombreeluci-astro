@@ -12,7 +12,8 @@ umap_x: 8.21851634979248
 umap_y: 7.367694854736328
 umap_z: 8.658454895019531
 issue_number: OEL-157
-id_numero: OEL-157
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
 «C'èuna compagnia che fa bene a tutti, anche a chi per sue caratteristiche tende all’isolamento. **Il contesto agricolo, il ritmo delle stagioni… aiutano chi ha problemi relazionali, psichiatrici, intellettivi.** Il percorso di recupero nelle competenze è davvero importante. Anche nella ristorazione. Soprattutto per quelle famiglie che la sera vedono i loro figlioli impegnati: si cambiano e con l’uniforme da cameriere vanno a fare il loro servizio al ristorante dalle 19 all’una». Il caldo accento toscano di Laura Capantini accompagna l’emozione con cui racconta i bei riscontri vissuti tra gli avventori di Casa Ilaria – della cui fondazione è l’attuale presidente – «una casa per tutti e a cui tutti possono portare qualcosa». Un progetto nato nel 2013 dalla constatazione che nel territorio pisano mancava una risposta per quei giovani adulti che, con le loro differenti fragilità intellettive, psichiatriche o sociali, **terminata l’esperienza scolastica, rimanevano senza possibilità di inserimento** sia in un centro diurno che in un normale contesto lavorativo.
 

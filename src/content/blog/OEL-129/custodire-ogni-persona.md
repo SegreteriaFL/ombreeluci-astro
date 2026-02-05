@@ -14,7 +14,8 @@ umap_x: 7.847158908843994
 umap_y: 9.042266845703125
 umap_z: 12.765763282775879
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 C
 arissimi amici di Fede e Luce, volentieri colgo l’occasione del vostro 40° anniversario per porgervi un cordiale saluto e condividere con voi alcune considerazioni su temi che ci stanno profondamente a cuore. Vorrei condividere innanzitutto “un dono”, la ricchezza dei nostri preziosi Orientamenti: Incontriamo Gesù. La parola “disabilità” è apparentemente poco presente, tanto da far pensare a una dimenticanza. Se invece si legge attentamente il documento, ci si accorge del nuovo sguardo che i Vescovi propongono a tutta la realtà ecclesiale su questo tema. Infatti, l’idea pervasiva del documento, è di ripensare alla catechesi in un’ottica inclusiva, dove l’appartenenza alla dimensione ecclesiale coinvolge tutti quindi anche le persone disabili e le loro famiglie. Una realtà questa che è possibile ritrovare in maniera trasversale in vari punti del documento: nella descrizione delle realtà fragili, nell’attenzione e cura pastorale, nei poveri e negli esclusi, ma anche nella nuova visione di protagonismo della catechesi e dell’annuncio della fede e, infine, nella partecipazione piena alla vita della comunità delle persone disabili. Questo rinnovamento della catechesi intende coinvolgere, in un ampio lavoro di rete, la realtà delle famiglie, le Aggregazioni laicali, le Congregazioni religiose e tutte le altre alleanze educative (n. 93). Quindi voi! Faremo 4 passi insieme.

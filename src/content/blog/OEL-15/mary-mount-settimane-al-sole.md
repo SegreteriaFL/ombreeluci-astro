@@ -17,7 +17,8 @@ umap_x: 8.072310447692871
 umap_y: 7.159855842590332
 umap_z: 11.092720985412598
 issue_number: OEL-15
-id_numero: OEL-15
+id_numero: "OEL-15"
+numero_rivista: "Ombre e Luci"
 ---
 Da 11 anni passano due settimane di vacanza insieme. Persone diverse e varie fra loro: bambini e giovani con handicap, amici, mamme, che vivono a Roma ma che provengono da ogni angolo della terra, quindi di razza, di cultura, di religione e di lingue le più svariate. Molti partecipanti, prima di questa vacanza, non avevano mai visto una persona handicappata. «Siete pazzi!» «Non ce la farete!» ci dicevano fin dall’inizio. Eppure ogni anno ricominciamo; ogni anno gli amici dicono: «Ritornerò!». I genitori ci dicono: «Continuate!». I bambini ci salutano «All’anno prossimo!» e perfino «A domani!» «Settimane di sole» — come le chiamiamo ora — sono nate per iniziativa di una mamma straniera, residente a Roma, che era stata costretta a separarsi dal proprio figlio handicappato e che voleva esprimere alle altre mamme la sua solidarietà. Ha trovato delle amiche, ha trovato delle suore che hanno messo a disposizione il giardino, la piscina, qualche aula della loro scuola. Le mamme amiche hanno portato i figli più piccoli perché non potevano lasciarli a casa; hanno chiesto ai figli più grandi di dare una mano. Ed ecco, il gruppo si è formato, è durato; e si è scoperto, anno dopo anno, un luogo di incontro un po’ eccezionale. «A me è piaciuta molto la settimana con le persone handicappate. Di solito i giovani sono imbarazzati di fronte a loro. Qui è tutto il contrario. Gli handicappati imparano a fare le cose come noi. Davvero mi sono trovata molto bene. La gente era simpatica e ci siamo divertiti molto. A me stare con le persone handicappate mi ha dato soddisfazione e gioia». Così una bambina si esprime dopo un soggiorno al Marymount.
 

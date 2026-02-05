@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 La lingua dei segni - non linguaggio, “lingua” mi fa notare un'amica che ha studiato a lungo il repertorio teatrale della comunità sorda francese - ha una dimensione performativa ancora tutta da esplorare, ma già intuita da chi, in campo artistico, ha avuto le antenne più sensibili, nella seconda metà del Novecento. La traduzione di The man I love di Gershwin, ad esempio, eseguita nella celeberrima coreografia Nelken (Garofani) attraverso una essenziale, struggente partitura di ideogrammi disegnati nello spazio dai movimenti delle mani che contagia progressivamente tutti i danzatori sul palco in un vorticoso, coreografico abbraccio, è ormai un classico del genere.
 

@@ -11,8 +11,9 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-40
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quando ho conosciuto Marco nella parrocchia romana di Santa Teresa, la prima cosa che ha cercato di dirmi è stata il suo desiderio di fare la cresima. All’inizio ho provato un po’ di difficoltà a decifrare il suo codice espressivo ma, con l’aiuto dei suoi genitori, alla fine ci siamo accordati che lui si sarebbe preparato bene ed io avrei invocato su di lui lo Spirito Santo.
 Destate seguente, durante un campo di Fede e Luce, con molta gioia di tutti, il sogno di Marco si è avverato.
 Ho sempre incoraggiato i miei confratelli parroci ad accogliere i portatori di handicap nei gruppi cresima perché sono convinto che anzitutto è un loro diritto ricevere lo Spirito Santo come tutti gli altri, ma in più ho l’esperienza del grande bene che ne viene alla Comunità stessa dei cresimandi e della parrocchia.

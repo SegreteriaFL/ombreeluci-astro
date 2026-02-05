@@ -12,7 +12,8 @@ umap_x: 7.702314853668213
 umap_y: 11.489340782165527
 umap_z: 5.197943687438965
 issue_number: OEL-134
-id_numero: OEL-134
+id_numero: "OEL-134"
+numero_rivista: "Ombre e Luci"
 ---
 Cosa fare quando non si è più completamente autonomi, quando l’età avanza portando con sé piccoli o grandi problemi di autonomia? Il libro, attraverso la storia di due anziane donne, storia in verità un po’ semplicistica e con alcuni luoghi comuni, pone un problema oggi molto sentito dalle persone anziane e dalle loro famiglie: Restare a casa propria è il desiderio di molti, ma la nostra società è ormai in profonda trasformazione, non esiste più la famiglia patriarcale in cui ci si aiuta uno con l’altro e figli - quando si hanno dei figli- non sempre sono in grado di offrire la necessaria assistenza e vicinanza. Cosa fare allora? Qual è la scelta migliore per vivere dignitosamente l’ultimo tratto di strada?
 

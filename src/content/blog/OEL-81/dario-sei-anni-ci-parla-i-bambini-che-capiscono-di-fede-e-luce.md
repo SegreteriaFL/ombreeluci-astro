@@ -4,8 +4,8 @@ date: 2003-03-13
 author: Vito Giannulo
 slug: dario-sei-anni-ci-parla-i-bambini-che-capiscono-di-fede-e-luce
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26371
 original_url: "https://www.ombreeluci.it/?p=26371"
@@ -19,7 +19,6 @@ umap_x: 7.026334762573242
 umap_y: 9.154109001159668
 umap_z: 11.705957412719727
 ---
-
 Il primo miracolo è che Dario non scappa via, appena finito di mangiare, per andare a vedere la televisione. Dobbiamo scrivere “una cosa per Mariangela” e abbiamo bisogno di fargli qualche domanda su [Fede e Luce](https://www.fedeeluce.it/) . È pronto? Si stringe nelle spalle come fa quando vuole dire si senza mostrare troppo entusiasmo e nascondere un po’ di paura per i suoi sei anni che si inorgogliscono davanti a domande difficili, ma non sono proprio sicuri di riuscire a rispondere. È pronto? Via.
 
 Qual è il tuo primo ricordo a Fede e Luce, chiediamo io e Mara quasi in coro.

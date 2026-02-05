@@ -7,6 +7,7 @@ cluster_id: 6
 image: "https://www.ombreeluci.it/wp-content/uploads/2019/04/a-good-perfect-girl-194x300.jpg"
 slug: "a-good-and-perfect-gift"
 has_comments: false
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

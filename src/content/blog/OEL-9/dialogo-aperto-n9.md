@@ -16,7 +16,8 @@ umap_x: 5.238831520080566
 umap_y: 7.917922019958496
 umap_z: 11.323495864868164
 issue_number: OEL-9
-id_numero: OEL-9
+id_numero: "OEL-9"
+numero_rivista: "Ombre e Luci"
 ---
 ### E ho capito che bisogna andare oltre l’apparenza
 

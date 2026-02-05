@@ -14,7 +14,8 @@ umap_x: 4.569204807281494
 umap_y: 7.824603080749512
 umap_z: 10.5325345993042
 issue_number: OEL-115
-id_numero: OEL-115
+id_numero: "OEL-115"
+numero_rivista: "Ombre e Luci"
 ---
 Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande
 

@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "dai-nonni-una-tenerezza-in-piu"
 lang: it
-numero_rivista: 60
-id_numero: OEL-60
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-60"
 issue_number: OEL-60
 wp_id: 11838
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 *“Se almeno avessi mia madre...”*
 *“Quando c'era mia suocera, tutto andava meglio!”*
 *“Meno male che ogni tanto i nonni se lo prendono con sé...”*

@@ -11,8 +11,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 La nostra parrocchia di San Giuseppe a via Nomentana, Roma, sin dal 2008 ha cominciato ad accogliere bambini sordi nei gruppi di catechesi di bambini udenti e provare a portare avanti un percorso di fede integrato. Ci era stato richiesto da alcuni genitori di bambini sordi, essendo la parrocchia ubicata vicino alla scuola statale dell’infanzia, primaria e media dell’ISISS (Istituto Statale di Istruzione Specializzata per Sordi) in Via Nomentana, dove viene già attuato un percorso scolastico di integrazione e pari opportunità fra bambini sordi e udenti.
 La catechista, è affiancata da un’assistente alla comunicazione LIS o Interprete, volontario, che segna tutti i vari momenti dell’incontro di catechesi.
 I percorsi di fede che si continuano a seguire sono quelli tradizionali che vengono però modificati ed adattati ai bambini sordi. Ci aiutiamo con le immagini, prepariamo diversi power point con i quali possiamo rendere visibili i concetti che per loro rimarrebbero astratti perché difficili anche da segnare (parabole, spiegazioni sacramenti, verità di fede, ecc…).

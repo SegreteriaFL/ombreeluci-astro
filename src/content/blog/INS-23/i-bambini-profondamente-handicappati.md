@@ -12,8 +12,9 @@ umap_x: 6.013782978057861
 umap_y: 8.70789909362793
 umap_z: 8.08549690246582
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Perché questo titolo? Perché vorrebbe essere il tema di riflessione delle pagine che seguono: attraverso esperienze, contatti, scambi, capiamo quanto diversi sono i problemi in funzione globale di ogni famiglia, di ogni situazione, affettiva, finanziaria, ecc. Ma, riconosciamolo, anche in funzione dell'età: un bambino trova il suo posto in una famiglia in modo tutto diverso da un adulto, a maggior ragione se è handicappato. E se è profondamente handicappato, reazioni, problemi, vita pratica, preoccupazioni, avvenire, ecc, si pongono in termini tutti diversi.
 
 **Ma di chi parliamo quando diciamo: profondamente handicappati? ** Pensiamo a tutti quei piccoli che sono totalmente dipendenti sul piano delle cure fisiche: mangiare, lavarsi, tenersi puliti, spostarsi e che, in più, mostrano poco o per nulla segno di conoscenza o di comunicazione. E ancora, questi bambini, già molto colpiti nel loro corpo, hanno spesso altre difficoltà oltre all'handicap mentale. Molti infatti vedono e sentono poco o male o per niente. Possono essere colpiti da paralisi più o meno importante.

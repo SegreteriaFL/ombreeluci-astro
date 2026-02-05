@@ -15,7 +15,8 @@ umap_x: 9.420952796936035
 umap_y: 7.726527214050293
 umap_z: 2.2334721088409424
 issue_number: OEL-168
-id_numero: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
 Tabakalera è un centro di arte contemporanea di San Sebastián che si trova all’interno di una ex manifattura tabacchi ristrutturata. È la sede dove si tengono le conversazioni del Festival del Cinema di San Sebastián (SSIFF), in cui si affrontano varie questioni che riguardano l’industria del cinema. **La conversazione dal titolo *Diversità e inclusione dentro e fuori lo schermo* è stata l’occasione per riflettere sul tema della corretta rappresentatività delle disabilità nel cinema, e più in generale del contributo delle persone con disabilità alla realizzazione dei film.**
 

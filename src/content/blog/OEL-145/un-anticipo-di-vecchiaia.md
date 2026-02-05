@@ -12,7 +12,8 @@ umap_x: 5.093173503875732
 umap_y: 9.850139617919922
 umap_z: 9.464346885681152
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Mio fratello Ernesto è nato a ottobre, il 20, è della Bilancia. **Quando è nato non mi ricordo come era, dopo anni mia madre scopre che è autistico.** Mio fratello Ernesto sa parlare, sa camminare, quando vede qualcosa che gli interessa la vuole avere. I fogli da scrivere con i nomi e cognomi che ricorda, dei posti dove è stato, dei compagni, di Fede e Luce, e altri. Io impallidisco quando dice il cognome di chi non vediamo da anni, perché noi abbiamo altri amici, quelli che frequentiamo sono pochi, però li vediamo solo nel dato posto.
 

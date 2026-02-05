@@ -12,7 +12,8 @@ umap_x: 7.7461957931518555
 umap_y: 11.708406448364258
 umap_z: 5.561347961425781
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 Che cosa significa invecchiare? In questa sua recentissima opera James Hillman ripercorre con noi il senso di un’età troppo spesso considerata triste o inutile e troppo spesso paragonata negativamente ad altri periodi della vita.
 

@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 Che Maria Francesca potesse mangiare da sola non l’avevo mai sperato e neppure immaginato.
 A dodici anni compiuti, doveva essere imboccata, con la testa riversa sul braccio ed era una lotta per farla deglutire. Un giorno, con l’aiuto, la competenza e la costanza di un educatore straniero, è avvenuto il «miracolo». Da quel giorno non ho più pensato che noi genitori, da soli, possiamo educare i nostri figli.

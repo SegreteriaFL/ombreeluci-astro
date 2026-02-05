@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 È una storia d’amore per il calcio, inteso quale momento di socialità e aggregazione, ma anche di solidarietà e unione straordinaria. A raccontarla è uno dei suoi protagonisti, Mariano Iusi, 39enne cosentino, convivente con l’atrofia muscolare spinale e, dunque, costretto a muoversi in carrozzella. Tifoso del club calcistico della sua città – il Cosenza Calcio per l’appunto –, Mariano non ha mai pensato che la sua condizione potesse privarlo della gioia di andare la domenica a vedere la partita.
 

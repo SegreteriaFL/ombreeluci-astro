@@ -14,7 +14,8 @@ umap_x: 4.941699028015137
 umap_y: 8.006621360778809
 umap_z: 10.69289493560791
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 Come promesso (vedi
 [lettera delle insegnanti nel n° 72 di Ombre e Luci](https://www.ombreeluci.it/2000/dialogo-aperto-n-72/)

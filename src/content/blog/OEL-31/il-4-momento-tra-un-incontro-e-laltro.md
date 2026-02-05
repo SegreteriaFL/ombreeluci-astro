@@ -14,7 +14,8 @@ umap_x: 7.19381046295166
 umap_y: 8.90599536895752
 umap_z: 12.80567741394043
 issue_number: OEL-31
-id_numero: OEL-31
+id_numero: "OEL-31"
+numero_rivista: "Ombre e Luci"
 ---
 Nella vita di Fede e Luce ci siamo resi conto a un certo punto che, accanto alla vita dei gruppi e all’attività negli incontri, nasceva e si sviluppava pian piano fra le persone una nuova forma di relazione che aveva una diversa natura. Man mano che i rapporti di amicizia crescevano, all’interno delle comunità, varie persone trovavano naturale cercarsi anche durante la settimana, dopo la scuola o il lavoro, per passare insieme alcune ore, come si usa fare tra amici: cenando insieme in famiglia o in un locale, andando al cinema, riunendosi intorno a una pagina della Scrittura, passando qualche tempo in preghiera... Tutto ciò avveniva sia spontaneamente, senza alcuna organizzazione, sia sulla spinta delle persone
 **Leggi anche: [Incontro di una comunità di Fede e Luce](http://www.ombreeluci.it/1990/incontro-di-una-comunita-di-fede-e-luce/)**

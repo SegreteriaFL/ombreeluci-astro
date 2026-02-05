@@ -12,7 +12,8 @@ umap_x: 6.758822917938232
 umap_y: 8.242497444152832
 umap_z: 7.161707401275635
 issue_number: OEL-157
-id_numero: OEL-157
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
 Osservare un bambino che interagisce con un animale è una delle cose più tenere del mondo, perché **sembra che parlino la stessa lingua.** Come spesso accade ai bambini con disabilità, nel corso della mia infanzia mi sono stati proposti diversi tipi di fisioterapia, tra questi non poteva mancare l’ippoterapia ovvero la terapia più bella del mondo. Per me.
 

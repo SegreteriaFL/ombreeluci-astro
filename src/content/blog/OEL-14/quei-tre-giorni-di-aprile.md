@@ -14,7 +14,8 @@ umap_x: 9.516464233398438
 umap_y: 8.647696495056152
 umap_z: 12.15694808959961
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 Questa cronaca è un filo che unisce queste pagine. Serve per raccontare sommariamente a chi non c’era quei tre giorni ad Assisi. Serve a cucire insieme i momenti maggiori (con
 [Jean Vanier](http://www.ombreeluci.it/1986/scendere-le-scale/)

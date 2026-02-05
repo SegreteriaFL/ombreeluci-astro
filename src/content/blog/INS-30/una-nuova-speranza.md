@@ -14,8 +14,9 @@ umap_x: 9.133992195129395
 umap_y: 8.2512788772583
 umap_z: 13.39459228515625
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Adesso non abbiamo più grandi progetti sul piano internazionale ma abbiamo ricevuto una nuova speranza e una nuova forza per quanto è essenziale in Fede e Luce: la vita nelle nostre piccole comunità.
 
 Il pellegrinaggio avrà raggiunto il suo scopo se ogni comunità si sforzerà di vivere secondo la carta e la costituzione che si sono delineate poco per volta in questi dieci anni. Ne conoscete l'essenziale:

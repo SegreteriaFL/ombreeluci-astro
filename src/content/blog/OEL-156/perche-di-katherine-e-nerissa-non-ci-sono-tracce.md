@@ -11,8 +11,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Si chiamano Katherine e Nerissa Bowes-Lyon. Sono le cugine, in primo grado, della regina d’Inghilterra, Elisabetta II. Scomparse (rispettivamente) nel 2014 a 88 anni e nel 1986 a 67, per il mondo non sono mai esistite. O meglio, secondo il libro d’oro della nobiltà – il *Burke’s Peerage & Baronetage* –, la loro morte sarebbe avvenuta prematuramente, nel 1940 (Katherine) e nel 1961 (Nerissa). Perché, dunque, le date e gli eventi relativi a queste due donne non coincidono? Perché di Katherine e Nerissa non ci sono tracce? A svelarlo è il settimo episodio della serie televisiva* [The Crown 4](https://www.netflix.com/it/title/80025678)* (creata dallo sceneggiatore inglese Peter Morgan e disponibile da 15 novembre 2020 su Netflix) che porta a galla una storia, legata alla corona britannica, pressoché sconosciuta o, dai più, frettolosamente dimenticata.
 
 Quando, nel 1923, la futura regina madre Elisabeth Bowes-Lyon sposa re Giorgio VI, l’idea, sostenuta da chi approva quest’unione, è che il sangue della ragazza possa finalmente portare stabilità alla razza reale: del resto, i Windsor – con Edoardo VIII che abdica al trono per seguire la donna amata e lo stesso, balbuziente, Giorgio VI – vengono, dall’opinione del tempo, considerati uomini assai «eccentrici». **Così, per il bene della discendenza al trono, Katherine e Nerissa, figlie di John Herbert Bowes-Lyon, uno dei fratelli maggiori della futura regina madre, vengono letteralmente rinchiuse e nascoste, perché ragazzine nello [spettro autistico](https://www.ombreeluci.it/autismo/), in un ospedale psichiatrico del Surrey.

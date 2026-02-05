@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "festeggiamo-la-nascita-di-un-bambino-genitori-di-ragazzi-con-disabilita"
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26481
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 Le feste natalizie sono passate. Come ogni anno ci voltiamo indietro e sentiamo che in questa ricorrenza siamo un po’ travolti da tante cose senza molta importanza. L’ansia dei regali, l’organizzazione dei pranzi e delle cene, i giochi, la confusione, la pubblicità, le luci abbaglianti. E tutto coinvolgente e anche bello, ma sentiamo che questo vortice rischia di distoglierci dal principio di tutto.
 
 Da così tanti anni ci riuniamo nelle nostre case e ci raccogliamo attorno al mistero del Natale che la sua incomprensibilità forse ha finito per risultarne po’ ovattata e addolcita. Perché non provare a tornare indietro per mettersi nei panni dei nostri “fratelli maggiori”?

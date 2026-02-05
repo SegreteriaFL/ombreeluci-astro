@@ -4,8 +4,8 @@ date: 2004-03-09
 author: Maria Teresa Mazzarotto
 slug: piovono-mucche-e-altri-nuovi-libri
 lang: it
-numero_rivista: 85
-id_numero: OEL-85
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-85"
 issue_number: OEL-85
 wp_id: 30014
 original_url: "https://www.ombreeluci.it/?p=30014"
@@ -15,7 +15,6 @@ umap_x: 8.1619873046875
 umap_y: 10.911392211914062
 umap_z: 4.871294021606445
 ---
-
 ### Piovono mucche
 
 “Piovono mucche”, ha osservato un giorno divertito Massimo, uno dei ragazzi che vivono nella Comunità Capodarco di Roma. “Piovono mucche”, gli ha risposto dopo quasi dieci anni con un film comico, commovente, vero, uno dei suoi obiettori di coscienza, il regista Luca Vendruscolo. Realizzando un progetto e un sogno, Luca è tornato a Capodarco, ha coinvolto attori professionisti e persone della comunità e ha raccontato gli interminabili “turni” con Renato, paralizzato a causa di un incidente, dedito a traffici più o meno leciti e tutt'altro che affabile; gli sforzi fatti per imparare ad ascoltare Lela, una ragazzina quindicenne, vivacissima, tetraspastica, che non parla ma vuole e riesce a dire tutto; la delicata intimità che si crea con Alex, quando si è costretti per la prima volta a lavarlo e cambiarlo; l’amore per Beatrice, bella e attraente sulla sua carrozzina. “Piovono mucche” è la storia, raccontata a tratti con un tono volutamente paradossale, di un mistero e di un innamoramento. È la storia dei fortissimi legami che una comunità difficile è riuscita a creare con tanti ospiti intimoriti, spesso riluttanti. I protagonisti, Matteo e gli altri ragazzi del servizio civile, si lasciano coinvolgere da una quotidianità surreale e lentamente vi riconoscono le stesse regole del mondo di fuori. Per un anno partecipano della vita di persone che non avevano mai visto e che non hanno scelto e da esse ricevono un insegnamento che porteranno sempre dentro: il valore del rispetto per ogni essere umano e per la sua autonomia.

@@ -7,6 +7,7 @@ cluster_id: 12
 image: "https://www.ombreeluci.it/wp-content/uploads/2021/06/00-25-Ombre-e-Luci-n.80-2002-1024x576.jpg"
 slug: "casa-famiglia-la-tenda-per-bambini-da-0-a-6-anni"
 has_comments: false
+id_numero: "OEL-80"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

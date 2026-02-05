@@ -14,7 +14,8 @@ umap_x: 6.225205898284912
 umap_y: 9.786297798156738
 umap_z: 8.76120662689209
 issue_number: OEL-39
-id_numero: OEL-39
+id_numero: "OEL-39"
+numero_rivista: "Ombre e Luci"
 ---
 *Anna ha quaran'tanni. Ha difficoltà motorie e intellettive e una deficienza visiva piuttosto grave. Da qualche mese lavora in un laboratorio protetto e vive in una piccola comunità dell’Arca. E la quarta di sette figli ed è stata sempre perfettamente integrata nella sua famiglia.*
 M

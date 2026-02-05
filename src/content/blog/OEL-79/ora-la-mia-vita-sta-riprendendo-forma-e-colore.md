@@ -4,8 +4,8 @@ date: 2002-09-01
 author: Redazione
 slug: ora-la-mia-vita-sta-riprendendo-forma-e-colore
 lang: it
-numero_rivista: 79
-id_numero: OEL-79
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-79"
 issue_number: OEL-79
 wp_id: 25469
 original_url: "https://www.ombreeluci.it/?p=25469"
@@ -17,7 +17,6 @@ umap_x: 7.615602970123291
 umap_y: 10.588387489318848
 umap_z: 6.741540908813477
 ---
-
 Molti di noi conosciamo, più o meno da vicino, «una persona che soffre di depressione», perché questa patologia colpisce un numero crescente di persone, compresi giovani e bambini. Abbiamo imparato che si tratta di una vera e propria malattia, che non ha niente a che vedere con il comune «sentirsi giù di corda», o «essere a terra» che ogni tanto tutti noi proviamo. Sappiamo che è difficile aiutare a guarire le persone depresse; che per farlo bisogna essere dei veri competenti e che sono necessari dei tempi lunghi. Eppure, anche queste persone hanno bisogno di vicinanza affettuosa e rispettosa, di una disponibilità alVascolto che non è facile offrire. Per capire un po' meglio il disagio della persona depressa, come starle vicino, e anche per offrire, speriamo, un piccolo aiuto a chi di questo male sta soffrendo, riportiamo Vesperienza di una nostra amica.
 
 Una delle impressioni più dolorose, ma che si sta trasformando in qualcosa di ricco e utile, della mia malattia, è quella di non potermi fidare di me stessa. Fai un programma e poi ti trovi a non poterlo realizzare perchè stai male... **A poco a poco sto mettendo in conto che non posso sapere come starò un’ora dopo** , non parliamo poi del giorno dopo, e sto imparando che ne ho già abbastanza da vivere quanto posso e come posso il momento presente, che sta rivelando una ricchezza e una pienezza quale prima, tutta proiettata a preoccuparmi del futuro, non riuscivo a cogliere.

@@ -12,7 +12,8 @@ umap_x: 8.285916328430176
 umap_y: 7.4026970863342285
 umap_z: 8.468941688537598
 issue_number: OEL-125
-id_numero: OEL-125
+id_numero: "OEL-125"
+numero_rivista: "Ombre e Luci"
 ---
 ### Gli inizi
 

@@ -12,7 +12,8 @@ umap_x: 7.9989447593688965
 umap_y: 7.591064453125
 umap_z: 7.926653861999512
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Ho visto per caso la puntata di Masterchef andata in onda il 21 febbraio 2019 su Sky. Mi sono fermata a guardarla perché è iniziata con la presentazione di Emanuele, Giacomo, Giovanni e Luca, ragazzi con sindrome di Down, appassionati di cucina. Per loro cucinare vuol dire trasmettere “amore e amicizia”. Emanuele, Giacomo, Giovanni e Luca hanno gareggiato con le due brigate. **È stato molto bello vedere come i ragazzi si siano sentiti subito parte del gruppo, lavorando con grande passione.** Quando lo chef Barbieri ha chiesto a Giovanni “come va?”, lui ha risposto: “Bene mi sento come loro!”. Barbieri ha controbattuto esclamando: “Ma tu sei come loro!”.
 

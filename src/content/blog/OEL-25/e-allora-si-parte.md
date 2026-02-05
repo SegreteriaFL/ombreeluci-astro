@@ -16,7 +16,8 @@ umap_x: 7.4632887840271
 umap_y: 7.847865104675293
 umap_z: 11.243959426879883
 issue_number: OEL-25
-id_numero: OEL-25
+id_numero: "OEL-25"
+numero_rivista: "Ombre e Luci"
 ---
 **Puoi descriverti e dire qualcosa sulla tua famiglia?** Io sono casalinga. A 23 anni ho avuto il primo bambino che è... spastico. Da qui è cominciato un po' tutto. Dopo tre anni è nato il secondo bambino e ho vissuto per anni chiusa in casa. Pensavo in qualche modo di proteggerlo questo mio figlio da tutte le cose, dagli sguardi delle persone che potevano dire: «Hai un figlio diverso!». Anche se lui in quel periodo non poteva capire, ero io che mi preservavo da questi sguardi indiscreti. Sono stata molti anni chiusa in casa per questo.
 

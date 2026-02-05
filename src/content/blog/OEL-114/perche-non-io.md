@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-114
-id_numero: OEL-114
+id_numero: "OEL-114"
+numero_rivista: "Ombre e Luci"
 ---
 In occasione dei 40 anni di Fede e Luce, ci siamo posti alcune domande fra le quali una che ci sembra importante: che cosa ha spinto alcuni di noi, giovani o adulti a far parte di Fede e Luce? Ed a farlo non soltanto per un'estate o per un campeggio estivo, per un anno... Molti di noi sono entrati a far parte di una comunità da bambini o da adolescenti ed ora sposati, padri e madri di 2, 3 figli, continuano a mantenere (al meglio possibile) l'impegno nelle comunità.
 

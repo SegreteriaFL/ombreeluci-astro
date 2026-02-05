@@ -16,8 +16,9 @@ umap_x: 7.863342761993408
 umap_y: 7.809741973876953
 umap_z: 7.788849353790283
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Prosegue la collaborazione tra
 **Abilitando**
 e il

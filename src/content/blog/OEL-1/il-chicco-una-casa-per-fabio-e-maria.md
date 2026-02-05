@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf"
 archive_id: OmbreELuci_001
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/1983/03/Archivio-Num.-1-1983-1.png"
 periodo_label: Gennaio, Febbraio, Marzo
-numero_rivista: 1
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-1
 umap_x: 8.055155754089355
 umap_y: 8.253408432006836
 umap_z: 9.521524429321289
+id_numero: "OEL-1"
 ---
-
 *In occasione della preparazione di un campeggio estivo di Fede e Luce ci fu segnalata la presenza di alcuni bambini handicappati al brefotrofio di Roma. Li andammo a conoscere. Erano otto, allora, dai due a sei anni. La loro situazione era anomala: cosa facevano lì fra i neonati di pochi mesi? e che cosa aspettavano? Alcuni, i meno gravi, erano stati adottati; gli altri aspettavano una famiglia… e se questa non arrivava?*
 *Decidemmo di portare due di loro in vacanza con noi. Alla fine del campo, mentre tutti gli altri bambini ritornavano in famiglia, capimmo quanto era duro per loro e per noi riportarli in istituto. Fu allora che Guenda disse: “Bisogna ad ogni costo trovare una casa per loro”.*
 L’itinerario è stato lungo e non facile, ma nulla fermava Guenda: Fabio e Maria aspettavano, uno con la sua irrequietezza e il suo desiderio di vivere nonostante il suo aspetto duramente segnato dal morbo: malformazioni congenite al viso, alle mani, ai piedi; Maria che si rifugiava sempre più nel suo isolamento, definito “autismo”, e si aggirava sperduta fra i lettini in cerca di solitudine. Ora, da un anno vivono al Chicco. Fabio e Maria sono venuti verso di noi - non siamo state noi a sceglierli - rispondendo a un forte desiderio dei nostri cuori: formare una “piccola famiglia” con dei bambini segnati da un handicap, fra i più poveri; quelli che vivono in brefotrofio. Li abbiamo aspettati… Ma questo non significava stare con le mani in mano, bensì cercare una casa, prepararla, trovare aiuto, infine accoglierli; Fabio e Maria. Siamo felici di vivere al “Chicco” e abbiamo voglia di dire: “venite e vedete!”. Dirlo soprattutto ai giovani che, forse, hanno inespresso questo desiderio di dividere la loro vita con i più piccoli. È possibile, basta crederci. Una piccola casa bianca, costruita con semplicità, circondata da un terreno abbastanza grande, spazio meraviglioso per ognuno, anche per dei pulcini e per un piccolo cane nero di Fabio, diventa l’11 dicembre del 1981 la casa di Fabio e Maria. Poco alla volta hanno imparato a conoscerla in tutti i suoi angoli, ad amarla come la “loro” casa, ad accogliervi amici e visitatori. Semplicemente hanno imparato a viverci. Molti sforzi e molta pazienza sono stati necessari perché ognuno imparasse a vivere con gli altri tre… È semplice ma non è facile… bisogna imparare a perdonare molte volte, ed ad essere perdonati. All’inizio, ci sono stati i piatti lanciati in aria come palloni da Fabio, le urla di Maria che non sapeva ancora se veramente fosse la “sua” casa e non ci voleva nessuno dentro, e le nostre due diverse sensibilità che cercavano un accordo. Ma in fondo c’era sempre quel desiderio forte di sceglierci, di imparare a vivere insieme. E così, poco alla volta, il desiderio prende forma di rispetto vicendevole, di pazienza, di perdono.

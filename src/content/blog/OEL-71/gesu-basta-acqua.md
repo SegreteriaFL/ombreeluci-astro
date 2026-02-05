@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 Scendo dall’autobus a Maderno e arrivo alla grande, fresca villa, dove stanno quelli di Fede e Luce. Arrivo che è sera, una sera afosa, tante nuvole grigie all'orizzonte. Arrivo che la cena è a metà, c’è tanta gente, conosco Luigi, Renato, Carlo... Ritrovo Marco, Mariangela, un secondo Luigi, Annamaria, Silvia... Per me è la prima volta, qui e a Fede e Luce. Ma per l’atmostera che regna qua dentro, mi sento subito a casa mia.
 

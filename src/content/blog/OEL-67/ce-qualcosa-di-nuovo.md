@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "ce-qualcosa-di-nuovo"
 lang: it
-numero_rivista: 67
-id_numero: OEL-67
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-67"
 issue_number: OEL-67
 wp_id: 12956
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Sono andata a cercare un libro da leggere nella biblioteca di un paese di villeggiatura. Aspettando il mio turno, ammiravo l’efficienza della persona incaricata della distribuzione: seria, ma cordiale; competente, disinvolta e carina. Ho visto poi che sedeva su una sedia a rotelle. Porgeva i libri riconsegnati ad una ragazzina che si muoveva con agilità, andava e veniva sorridente e composta. Poche le parole fra di loro, dette a mezza voce, come si fa in una biblioteca. La ragazzina passando mi ha urtata leggermente; ha chiesto scusa sorridendo. Quando ho capito che era una persona down, volevo congratularmi con lei. Mi sono subito ripresa. Lei era lì, al suo lavoro e non aveva assolutamente bisogno del mio paternalistico intervento. Sono uscita col mio libro e qualcosa mi cantava dentro.
 
 Mi sono incamminata sotto la pioggia, ripensando alla strada fatta in questi vent’anni. Non più chiusi in casa, superprotetti, ma liberi di stare con gli altri, di vivere le proprie qualità, senza nascondere le mancanze. Chi di noi non ne ha?

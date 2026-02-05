@@ -14,8 +14,9 @@ umap_x: 7.926408290863037
 umap_y: 8.095540046691895
 umap_z: 13.507296562194824
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Provo ad immaginare cosa succedeva a Cuneo nei giorni antecedenti l'incontro nazionale di fine aprile? Liliosa, sommersa da fogli e foglietti, liste e contro-liste, cerca di riordinare le idee, di compilare elenchi definitivi.
 
 - "No, non ce la farai mai a sapere chi siamo e in quanti siamo!" - e si sforza di tener dietro ai cambiamenti che si susseguono vorticosamente, alle pressioni, alle domande che le giungono da oggi parte.

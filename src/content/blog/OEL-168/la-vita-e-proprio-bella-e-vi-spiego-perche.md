@@ -12,8 +12,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 La vita è proprio proprio bella. Direi. Io nella mia vita sto veramente bene perché è bella, divertente con tante cose sempre nuove e sempre vecchie da fare.
 Lavorare come cameriera a Merè è fantastico!** Ora sono in vacanza ma a settembre riprendo e ho due belle novità, cari miei: la prima è che imparerò finalmente a fare il cappuccino con la macchina del bar perché io so fare solamente il caffè. La seconda novità è che sarò anche in cucina perché devo imparare a fare la pasta a mano perché nel nuovo menù c’è questa novità e la mia capa Carla mi ha detto che dovrò dare una mano. **Io sono molto felice perché loro mi sanno insegnare bene a fare le cose.
 La vita è bella perché sto al mare e mi diverto. Ieri sera sono andata a un Luna Park con 15 amici che lavorano nel bar e ristorante Sirena. Mi hanno invitata. Prima abbiamo mangiato la pizza sulla spiaggia e poi con 3 macchine siamo andati al Luna Park.

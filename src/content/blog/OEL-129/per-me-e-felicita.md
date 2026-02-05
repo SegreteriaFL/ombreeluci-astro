@@ -12,7 +12,8 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 Miei cari amici del cuore (di solito da bambino scrivevo a Babbo Natale per chiedere il regalo che più mi sarebbe piaciuto ricevere). Quest’anno invece ho deciso di scrivere a voi amici che siete bravi ma allo stesso tempo pazienti con me per dire cose che ho dentro da tantissimo tempo e che la mia timidezza mi impedisce di esprimere ad alta voce.
 

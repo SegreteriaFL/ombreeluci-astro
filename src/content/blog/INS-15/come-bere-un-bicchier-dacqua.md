@@ -14,8 +14,9 @@ umap_x: 6.63715124130249
 umap_y: 7.7773566246032715
 umap_z: 7.791056156158447
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 Ogni giorno facciamo dei gesti senza renderci conto che li stiamo facendo. Sembra addirittura che, più li facciamo, meno prestiamo attenzione. Sono gesti divenuti normali, come la vita. Eppure li rifacciamo ogni giorno, come se fossero sempre nuovi.
 
 **Come bere un bicchier d'acqua,** per esempio!

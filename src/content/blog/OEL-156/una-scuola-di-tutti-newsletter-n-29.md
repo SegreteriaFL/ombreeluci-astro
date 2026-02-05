@@ -12,8 +12,9 @@ umap_x: 5.912078857421875
 umap_y: 6.317636013031006
 umap_z: 8.754485130310059
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### OL incontra... un passato che speravamo sepolto
 
 ---

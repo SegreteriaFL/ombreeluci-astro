@@ -12,8 +12,9 @@ umap_x: 8.721475601196289
 umap_y: 9.761114120483398
 umap_z: 4.068319797515869
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Gente come te non ha il diritto di vivere»: l’operazione T4, e cioè lo sterminio delle persone con disabilità messo a punto e praticato dal nazismo, fa capolino anche nello splendido *Mai più. Per non dimenticare* (Giunti 2020, traduzione di Angela Ragusa), primo libro a fumetti di R.J. Palacio, autrice della saga di Wonder.
 
 Sara, la protagonista, vive felice con i genitori in un villaggio nel cuore della Francia finché non arriva il nazismo a sconvolgerne per sempre l’esistenza. Prima sono piccole esclusioni, poi la marea cresce, quindi le SS irrompono a scuola per prelevare tutti gli studenti ebrei come lei. La ragazzina riesce però a dileguarsi: a salvarla, nascondendola per oltre un anno nel fienile di casa, sarà il compagno di classe bullizzato e scansato da tutti. Soprannominato Tourteau, granchio, a causa della sua andatura claudicante dovuta alla poliomielite, nessuno ne conosce in realtà il nome di battesimo, tanta è l’indifferenza e l’esclusione che caratterizza le sue giornate a scuola. Nemmeno Sara sa come si chiama davvero quel compagno di classe che le siede accanto da anni, a cui non ha mai dedicato nemmeno uno sguardo.

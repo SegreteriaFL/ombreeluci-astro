@@ -4,8 +4,8 @@ date: 2005-06-17
 author: Laura Nardini
 slug: qualche-idea-per-una-vacanza-senza-partire
 lang: it
-numero_rivista: 90
-id_numero: OEL-90
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-90"
 issue_number: OEL-90
 wp_id: 30906
 original_url: "https://www.ombreeluci.it/?p=30906"
@@ -17,7 +17,6 @@ umap_x: 7.179555416107178
 umap_y: 6.40712833404541
 umap_z: 10.406234741210938
 ---
-
 D
 a quanti mesi sognamo l'estate? La temperatura calda, le giornate belle, lunghe, luminose e, perché no, anche interrompere il tran tran quotidiano con una gita fuori porta, con una visita ad amici o parenti che abitano lontano o magari una vacana. Non è detto che vacanza sia per forza partire, a volte è anche rimanere nella propria città, nella propria casa, ma avere più tempo da dedicare alle cose che vengono tralasciate nella vita frenetica di tutti i giorni. Vacanze a tutti gli effetti o vacanze “cittadine” possono essere arricchite con gite di gruppo che, organizzate con alcuni criteri, potrebbero rivelarsi splendide esperienze da ripetere.
 

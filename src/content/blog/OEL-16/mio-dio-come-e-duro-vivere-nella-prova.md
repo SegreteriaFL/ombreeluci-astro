@@ -11,8 +11,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sono la mamma di Sofia, la terza dei nostri sei figli; una bambina molto gravemente handicappata.
 Durante i suoi vent’anni di vita, è sempre rimasta a casa con noi. Non camminava, non parlava, non si teneva pulita; ma noi pensavamo che spesso ci sorridesse attraverso le sue grida o le sue risa o i suoi gesti incontrollati...
 Ora, liberata dal suo handicap terreno, Sofia è certamente nella gloria dì Dio e — ne sono certa — è lei che ci dà la mano nel cammino della vita.

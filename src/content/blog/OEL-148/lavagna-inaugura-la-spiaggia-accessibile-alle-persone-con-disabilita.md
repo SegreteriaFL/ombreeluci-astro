@@ -12,8 +12,9 @@ tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il Comune di Lavagna ha inaugurato la spiaggia libera accessibile ai disabili antistante il Parco del Tigullio.
 
 Il Sindaco Gian Alberto Mangiante ha avviato una convenzione con il **Villaggio del Ragazzo** e l**’Anffas Tigullio Est Onlus. Grazie alla loro esperienza specifica nella gestione di attività turistico-ricettive a carattere assistenziale a favore di persone con difficoltà motorie e sensoriali, garantiranno la presenza di operatori preparati a supportare persone non autosufficienti o con disabilità ed aiutarli nell’utilizzo delle attrezzature a loro disposizione. Le dotazioni che il Comune attualmente garantisce sono due passatoie per raggiungere la battigia, cinque moduli in materiale plastico atti allo stanziamento, quattro sedie da “regista”, altrettante sdraio del tipo rialzato, una sedia “sand&sea” oltre agli ombrelloni e un W.C. chimico mentre sono in corso di acquisizione ulteriori attrezzature.

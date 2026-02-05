@@ -12,8 +12,9 @@ tema_code: "T10"
 tema_label: "Educare e crescere insieme"
 categoria_menu: "Crescere"
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Filippo ha 25 anni e viene da Roma. Dal 2016 vive l’esperienza di servizio della realtà cottolenghina a Torino nella Piccola Casa della Divina Provvidenza, prima come volontario del servizio civile, ora come dipendente. La sua testimonianza è una bella finestra su una realtà solitamente identificata come mero ricovero per persone fragili.*
 
 Inizialmente la mia idea e le mie conoscenze sul Cottolengo si fermavano alla concezione desueta di semplice luogo d’accoglienza e mantenimento per tutti coloro che si trovavano ai margini della società e che non avevano nulla con cui sperare di sopravvivere. In realtà, anche se questa è in effetti la base della creazione del Cottolengo, il suo operato e la sua ideologia di servizio verso il prossimo si sono evoluti in molteplici direzioni e tipologie di aiuto: dalle RSA e l’ospedale, passando per la scuola e le sue attività sportive come mezzo di inclusione, fino ad arrivare alla mensa dei poveri, che oltre a fornire pasti a chi ne fa richiesta, distribuisce vestiario, coperte e altri beni di prima necessità a tutti coloro che non se li possono permettere.

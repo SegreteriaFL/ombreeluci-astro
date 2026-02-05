@@ -6,6 +6,7 @@ theme: "cluster-2"
 cluster_id: 2
 slug: "bacheca-facebook"
 has_comments: false
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

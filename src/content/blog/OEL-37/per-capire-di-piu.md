@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-37
-id_numero: OEL-37
+id_numero: "OEL-37"
+numero_rivista: "Ombre e Luci"
 ---
 Cari lettori di Ombre e Luci,
 questo numero dovrebbe arrivarvi — intoppi tipografici e postali permettendo — per Pasqua.

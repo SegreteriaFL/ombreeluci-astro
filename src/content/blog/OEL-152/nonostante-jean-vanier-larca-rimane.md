@@ -12,8 +12,9 @@ umap_x: 8.340364456176758
 umap_y: 12.286770820617676
 umap_z: 11.1658296585083
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Cari amici, da quando sono state rese note le terribili rivelazioni riguardanti Jean Vanier, in molti mi avete manifestato la vostra simpatia e condiviso le vostre reazioni. Vi ringrazio molto per la vostra amicizia e per le vostre preghiere. Sono io stesso sbalordito e prima ancora profondamente rattristato per le persone che hanno subito violenza da parte di Jean e per le comunità dell’ *Arca* colpite dallo scandalo e dalle quali molto ho ricevuto.
 
 Rendo omaggio alle donne, che hanno avuto il coraggio di parlare affinché *L’Arca* trovi un cammino giusto e vero ed eviti così simili derive. Penso alle loro sofferenze. Sono edificato da quanto hanno fatto e scritto i responsabili dell’ *Arca* , Stéphane Posner, Stacy Cates-Carney, Pierre Jacquand e mons. d’Ornellas, affinché emerga la verità. *L’Arca* sarà così più libera.

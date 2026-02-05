@@ -14,7 +14,8 @@ umap_x: 5.4001383781433105
 umap_y: 9.015491485595703
 umap_z: 7.845827102661133
 issue_number: OEL-109
-id_numero: OEL-109
+id_numero: "OEL-109"
+numero_rivista: "Ombre e Luci"
 ---
 M
 ia figlia è handicappata. Di chi è la colpa? Ho bisogno di sapere chi è il colpevole perché ho dei conti personali da regolare con lui. Mi serviranno buoni avvocati perché sono in uno stato furioso di accusa. Ecco detto. Ora devo confessare che questa ricerca del colpevole è dolorosa, dannosa, e che vorrei uscire da questo tribunale interiore. Questo desiderio è recente perché recente è la mia presa di coscienza. Devo riconoscere che da qualche mese un po’ d’ordine dentro di me s'impone. Ecco ora solo qualche aspetto di quanto ne posso dire. Quando, durante la gravidanza, ho saputo dell'handicap di Philippine, mi son chiesta quale imprudenza potevo aver fatto per provocare tale catastrofe: una medicina? Una paura? Oppure ero davvero troppo stanca ed esaurita per concepire e portare un bambino. Era stata irresponsabilità da parte nostra? Mi sono poi ricordata di una lite fra me e mio marito: possibile che quello scontro mi avesse tanto stravolta da nuocere al bambino? (Maniera sottile di accusare mio marito). La ricerca del colpevole è stata dunque presente in me fin dall’inizio e si è installata al cuore della nostra coppia e della mia maternità. Tentativo destinato al fallimento quello di rifare il corso degli avvenimenti per dominare il male o per dimostrare che avrebbe potuto essere evitato. Ho nascosto subito queste cose sotto convinzioni sempliciste. Mi sono convinta razionalmente che non ero colpevole, né io né altri, né soprattutto Dio che è buono. La mia sofferenza era tinta di volontarismo o di dolorismo e progressivamente ha vacillato.

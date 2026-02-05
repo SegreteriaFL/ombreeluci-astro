@@ -15,7 +15,8 @@ umap_x: 7.6328935623168945
 umap_y: 10.97469425201416
 umap_z: 4.894606113433838
 issue_number: OEL-168
-id_numero: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
 Ha al centro la disabilità, l’ultimo romanzo tradotto in italiano della neo vincitrice del premio Nobel per la letteratura 2024: *L’ora di greco* della sudcoreana Han Kang racconta infatti il legame che, attorno alla lingua di Atena, viene a crearsi tra una donna muta e un uomo non-vedente. **Siamo a Seoul: lei ha perso la parola per un trauma, lui** – rientrato in patria dopo essere emigrato in Germania da ragazzo – **sta scivolando nella cecità a causa di una malattia.** Caldo e solitudine sono atroci in città («Cammina per non dover ossessivamente raccogliere e ricomporre i cocci dei ricordi nel niente dell’alba»), ma una brezza di vita può essere ritrovata. A patto, però, di cercarla insieme, ci sussurra Han Kang, confermando la sua prosa attenta, lenta. Quasi lirica.
 

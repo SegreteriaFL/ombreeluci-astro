@@ -4,8 +4,8 @@ date: 2004-09-13
 author: Giulia Galeotti
 slug: francesca-cabrini-tralaterrae-il-cielo-recensione
 lang: it
-numero_rivista: 87
-id_numero: OEL-87
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-87"
 issue_number: OEL-87
 wp_id: 30359
 original_url: "https://www.ombreeluci.it/?p=30359"
@@ -15,7 +15,6 @@ umap_x: 8.119107246398926
 umap_y: 11.715228080749512
 umap_z: 6.191919326782227
 ---
-
 Èla biografia di una donna che ha saputo vivere la sua vita e dare corpo al suo sogno con tenacia, passione e amore. Perché la santa patrona di tutti gli emigranti (molto conosciuta all'estero ma, misteriosamente, poco in Italia) è stata innanzitutto una maestrina lombarda dell'Ottocento di salute molto cagionevole, che ha incontrato nel quotidiano tante difficoltà fuori e dentro la Chiesa, ma che — tenace e straordinaria — ha attraversato per ben 28 volte l'Atlantico per realizzare il suo progetto.
 
 **“Una donna dalla fede tradizionalissima** e insieme innamorata della modernità, che pratica l'umiltà e l'obbedienza ma che è capace d''investire ingenti capitali in opere gigantesche fidando solo nelle proprie forze, (...) dolcissima e animata da un inesauribile amore per il prossimo, ma capace di essere dura e intransigente con chi intralcia le iniziative volute — lei ne ha la certezza dallo Spirito santo”. Così scrive Lucetta Scaraffia che ne racconta la storia senza mai fare dell'agiografia apologetica o catechetica, ma descrivendo al contrario in modo avvincente e appassionato vicende degne della più battagliera tra le donne, della più appassionata tra i santi, e — perché no — della più capace e lungimirante tra le imprenditrici.

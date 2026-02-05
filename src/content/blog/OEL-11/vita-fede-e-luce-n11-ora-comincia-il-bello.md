@@ -14,7 +14,8 @@ umap_x: 8.111699104309082
 umap_y: 7.00795841217041
 umap_z: 11.70400333404541
 issue_number: OEL-11
-id_numero: OEL-11
+id_numero: "OEL-11"
+numero_rivista: "Ombre e Luci"
 ---
 Trentacinque persone (9 ragazzi h.m. anche gravi, 4 mamme, 1 sacerdote, amici, compresi bambini problema), due casette incastrate l’una nell'altra, un bosco di castagni e lo splendido panorama dei Castelli Romani: questi alcuni degli elementi per un campeggio estivo. «Trentacinque persone? non siete un po’ troppi?» commentavano dubbiosi quanti assistevano ai lavori di preparazione. Noi ci guardavamo negli occhi e cambiavamo discorso, confidando negli altri amici, sicuri della loro maturità ed esperienza. «Ma quelle casette... non sono un pò scomode? Tutte quelle scale, il giardino con quei vialetti tortuosi, con tutte le carrozzine che avete?!» Stessa occhiata d’intesa, cambiavamo discorso confidando nelle spalle e nelle braccia dei più robusti fra noi. «E per l'organizzazione della giornata, avete pensato, per esempio, cosa significa preparare da mangiare per tutti?» si tirava fuori la lista di mamme (ben quattro) con credenziali di tutto rispetto. Fra un'occhiata e l’altra, arrivò anche il giorno di partire per davvero: per partire, si partì, per l’arrivo, invece, si ebbe qualche problema. Gli amici erano lì già dal mattino, mentre i ragazzi arrivarono nel pomeriggio, e questo sistema degli arrivi differenziati risolse molti problemi pratici. Il campo si presentò subito nella sua realtà più piena, senza negare colpi di scena ed imprevisti e ci accorgemmo presto che si doveva lavorare bene tutti quanti se si voleva andare avanti. Con uno schema che deriva ormai da quasi 10 anni di esperienza, la mattina, dopo il cerchio, si facevano i servizi che si svolgono quotidianamente in ogni famiglia. A turno, se possibile con i
 *ragazzi*

@@ -15,7 +15,8 @@ umap_x: 7.324698448181152
 umap_y: 9.137176513671875
 umap_z: 12.022367477416992
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 Sono un’educatrice professionale: ho terminato gli studi nel 1989 e, dall’anno seguente, lavoro in un Centro di Riabilitazione a Roma. Qualche anno prima non pensavo che questa professione mi avrebbe scelta: dopo il liceo infatti, mi ero iscritta all’università, ma non ero soddisfatta: era il 1984, avevo vent’anni e una grande confusione in testa.
 

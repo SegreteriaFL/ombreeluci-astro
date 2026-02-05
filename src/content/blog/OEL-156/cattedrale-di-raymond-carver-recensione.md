@@ -12,8 +12,9 @@ umap_x: 7.921932220458984
 umap_y: 11.5896577835083
 umap_z: 5.4070515632629395
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Vi può piacere o non piacere Raymond Carver, può addirittura lasciarvi indifferenti lo scrittore e poeta statunitense considerato il padre del minimalismo letterario, ma davvero vi invitiamo a leggere (o a rileggere) il racconto *Cattedrale* , ora incluso nella densa raccolta *Racconti Spirituali* (Einaudi 2020) a cura di Armando Buonaiuto.
 
 Da poco rimasto vedovo, un vecchio amico della moglie del protagonista verrà in visita fermandosi per una notte: l’uomo-narratore non è affatto contento, né fa nulla per nascondere il suo disappunto. Bastano poche pennellate per inquadrarlo: misantropo, non ha amici (o almeno di questo lo accusa la moglie), è amaro, imbottito di luoghi comuni e certo il fatto che l’ospite sia non vedente rende tutto ancor più “sgradevole”. Il fatto stesso che il narratore si prenda la briga di farci conoscere il nome di Robert, il cieco, solo alla sesta pagina del racconto è illuminante del suo sguardo inceppato.

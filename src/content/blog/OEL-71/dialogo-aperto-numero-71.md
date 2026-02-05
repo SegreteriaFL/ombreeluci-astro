@@ -12,7 +12,8 @@ umap_x: 4.591551303863525
 umap_y: 7.7525858879089355
 umap_z: 10.752208709716797
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 ### Splendida per tutti
 

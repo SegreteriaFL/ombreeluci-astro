@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Decidere cosa mangiare, spostarsi da soli, organizzarsi la giornata, un sogno d’indipendenza che per le persone con disabilità si infrange sulle difficoltà quotidiane. Per questo, sabato 21 settembre, l’associazione **Terra Libera Tutti** ha inaugurato a Zero Branco il primo progetto veneto di *social housing*, per l’autonomia delle persone con disabilità, attraverso il lavoro della terra.
 Le prime coinquiline ad aderire al progetto, nato in collaborazione con i servizi sociali del Comune, sono due signore di 50 anni: Anna, che lavora in una scuola dell’infanzia, e Debora, assunta in un caseificio; in arrivo poi c’è Maria, 30 anni, diplomata al Liceo delle Scienze Umane a Scorzè. Due di loro hanno una disabilità grave, che per la legge richiede «un intervento assistenziale permanente, continuativo e globale» ed è esclusa dai progetti di autonomia tradizionali, destinati a disabilità più lievi. Per ora le tre donne sono sempre seguite da un educatore, ma l’obiettivo è limitarlo a un’ora sola al giorno, per aiutare nell’igiene e nella preparare la cena.
 «Le persone con disabilità subiscono a lungo la relazione di cura, da parte dei genitori e degli assistenti, e non sono abituati ad autodeterminarsi, a fare delle scelte - spiega **Andrea Gambardella**, 30 anni, uno dei fondatori di **Terra Libera Tutti** – ma quando tu dai loro il potere di prendersi cura di un altro essere vivente, le vedi cambiare, con risposte ottime».

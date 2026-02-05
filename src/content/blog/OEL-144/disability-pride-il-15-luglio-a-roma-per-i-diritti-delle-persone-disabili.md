@@ -15,8 +15,9 @@ umap_x: 8.927752494812012
 umap_y: 8.008922576904297
 umap_z: 7.794013023376465
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Disability Pride onlus e Fondazione Anmil "Sosteniamoli subito" hanno presentato la manifestazione in programma domenica 15 luglio in piazza del Popolo a Roma che si aprirà con un corteo e si chiuderà con uno spettacolo. All'iniziativa attesi tra gli altri la sindaca di Roma Virginia Raggi e il ministro per la Famiglia e le disabilità Lorenzo Fontana.*
 Rivendicare con orgoglio il diritto di avere le stesse opportunità dei normodotati. Questo uno dei obiettivi del “Disability Pride Italia” 2018 dedicato alle persone con disabilità. E si annuncia come una manifestazione straordinaria quella di domenica 15 luglio che si svolgerà a Roma, in piazza del Popolo, presentata il 9 luglio in Campidoglio e resa possibile grazie al Patrocinio e alla disponibilità innanzitutto del Comune di Roma. L’iniziativa organizzata dalla
 [“Disability Pride Onlus”](http://disabilityprideitalia.org/)

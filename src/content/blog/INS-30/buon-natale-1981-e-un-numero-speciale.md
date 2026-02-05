@@ -12,8 +12,9 @@ umap_x: 6.101315975189209
 umap_y: 6.589783668518066
 umap_z: 12.130847930908203
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Carissimi, Buon Natale a tutti e ad ognuno in particolare. Che esso sia pieno di pace serena per ognuno di noi.
 
 Non volevamo lasciar passare questa data senza inviarvi qualche pagina - un Insieme ridotto - per sentirci una volta di più uniti nella grande famiglia Fede e Luce.

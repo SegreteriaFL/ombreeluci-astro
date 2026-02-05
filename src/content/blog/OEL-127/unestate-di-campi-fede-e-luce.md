@@ -14,7 +14,8 @@ umap_x: 8.105181694030762
 umap_y: 6.938665390014648
 umap_z: 11.878352165222168
 issue_number: OEL-127
-id_numero: OEL-127
+id_numero: "OEL-127"
+numero_rivista: "Ombre e Luci"
 ---
 ### Saint-Oyen
 

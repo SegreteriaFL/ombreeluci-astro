@@ -12,7 +12,8 @@ umap_x: 9.248188972473145
 umap_y: 8.295856475830078
 umap_z: 13.37413501739502
 issue_number: OEL-169
-id_numero: OEL-169
+id_numero: "OEL-169"
+numero_rivista: "Ombre e Luci"
 ---
 Lourdes
 

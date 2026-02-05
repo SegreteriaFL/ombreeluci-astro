@@ -12,8 +12,9 @@ umap_x: 7.703887939453125
 umap_y: 6.699246406555176
 umap_z: 11.235424995422363
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 https://youtu.be/UOQg-xLx85M
 
 Federico è un ragazzo della comunità Fede e Luce di San Gregorio (Roma). È anche un asso delle polpette e ha deciso di condividere con noi la sua ricetta per realizzarne un tipo classico e gustoso.

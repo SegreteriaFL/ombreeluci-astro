@@ -12,8 +12,9 @@ umap_x: 5.641096115112305
 umap_y: 7.326748371124268
 umap_z: 11.600664138793945
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Anche quest’anno abbiamo fatto festa a casa nostra il 6 gennaio con alcuni amici del gruppo [Raggi di Sole](https://www.fedeeluce.it/project/raggi-di-sole/) . **È un appuntamento annuale che si ripete ormai da più di vent’anni.** Iniziato un po’ così, solo come occasione di ritrovo, per stare insieme mangiando qualcosa in famiglia, e poi nel tempo diventata, con la presenza e coinvolgimento pieno della mamma, la festa della befana. Festa che ha alimentato in molte persone passate una attesa e una richiesta per condividere una serata in allegria.
 
 La nostra mamma Maria, generosa nel far ridere e divertire si è lasciata facilmente coinvolgere nel ruolo di befana, (la prima a divertirsi era lei). Per lei era una grande soddisfazione mascherarsi nella parte, e con allegria e grandi risate avvicinarsi a tutti con un sacco pesante di calze e calzette, e scherzi per chi meritava. Guardando le foto delle varie edizioni si trovano tanti volti, persone che sono passate, che oggi non ci sono più, come i volti dei bambini un po’ spaventati nel vedere la brutta vecchia, ma anche contenti di ricevere qualcosa e con timore e un sorriso davano un bacio alla befana.

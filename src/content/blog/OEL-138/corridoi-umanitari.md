@@ -14,7 +14,8 @@ umap_x: 6.47229528427124
 umap_y: 7.368763446807861
 umap_z: 9.110008239746094
 issue_number: OEL-138
-id_numero: OEL-138
+id_numero: "OEL-138"
+numero_rivista: "Ombre e Luci"
 ---
 Sempre nuove forme di povertà si affacciano al nostro orizzonte e in questo momento non si può fare a meno di annoverare una nuova categoria di poveri, di ultimi: i profughi. La situazione di chi scappa dalle zone di guerra, di chi lascia la propria casa, il proprio paese non per cercare una vita migliore, ma per poter avere ancora vita, appare quanto mai drammatica. Per di più in contesti sociali non più floridi, l’unica risposta alle varie richieste di aiuto sembra essere solo quella economica: non possiamo permettercelo! E si assume così una posizione di difesa, quando non di attacco, verso queste persone che ripongono nella vicina Europa le loro speranze di sopravvivenza.
 

@@ -12,7 +12,8 @@ umap_x: 6.8350982666015625
 umap_y: 8.19633960723877
 umap_z: 7.026311874389648
 issue_number: OEL-157
-id_numero: OEL-157
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
 Il
 primo incontro con un cavallo di mio figlio Massimiliano [giovane romano con autismo] era stato da piccolo, con un pony a Villa Borghese.

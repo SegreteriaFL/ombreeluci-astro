@@ -12,7 +12,8 @@ umap_x: 7.514296054840088
 umap_y: 11.688573837280273
 umap_z: 5.326396465301514
 issue_number: OEL-147
-id_numero: OEL-147
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
 "Sono passati cinquantun anni, due mesi e otto giorni dall’ultima volta che siamo state qui”: giornalista di successo, vedova e nonna orgogliosa, Märit sta tornando controvoglia nella nativa Norrköping per festeggiare con il gemello Jonas il settantesimo compleanno, quando un impulso irresistibile le stravolge i programmi. Quasi suo malgrado, infatti, scende dal treno a Lund: quel che cerca è la tomba del fratello Lars, morto nel grande manicomio cittadino. È un romanzo durissimo La tua vita e la mia di Majgull Axelsson, scrittrice, drammaturga e giornalista svedese che, dopo essersi fatta conoscere per le sue inchieste, è passata alla letteratura senza smettere di denunciare ingiustizie e disagio. In questo suo secondo romanzo, con una prosa magistrale, affronta una pagina lunga e oscura nella storia della Svezia moderna, quella che ha visto bambini e adulti con disabilità mentale privati dei più elementari diritti: rinchiusi, sterilizzati, usati come cavie, seviziati, uccisi.
 

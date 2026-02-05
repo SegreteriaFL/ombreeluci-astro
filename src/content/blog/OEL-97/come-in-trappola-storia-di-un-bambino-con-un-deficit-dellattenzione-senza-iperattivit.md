@@ -4,8 +4,8 @@ date: 2007-03-02
 author: Redazione
 slug: come-in-trappola-storia-di-un-bambino-con-un-deficit-dellattenzione-senza-iperattivit
 lang: it
-numero_rivista: 97
-id_numero: OEL-97
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-97"
 issue_number: OEL-97
 wp_id: 32427
 original_url: "https://www.ombreeluci.it/?p=32427"
@@ -18,7 +18,6 @@ umap_x: 5.799553871154785
 umap_y: 7.967761993408203
 umap_z: 6.761651515960693
 ---
-
 C
 he nostro figlio fosse un po’ speciale l'abbiamo sicuramente pensato quando è nato (come succede a quasi tutti i genitori). Che fosse un po’ diverso dagli altri, ce lo hanno fatto notare già alla scuola materna. E che fosse un po’ difficile alle elementari. Che fosse un po’ diverso dagli altri, ce lo hanno fatto notare già alla scuola materna. E che fosse un po’ difficile alle elementari.
 **Alle scuole medie era diventato un po’ problematico e settoriale**

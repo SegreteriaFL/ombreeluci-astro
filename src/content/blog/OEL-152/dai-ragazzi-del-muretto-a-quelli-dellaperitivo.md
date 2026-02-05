@@ -12,8 +12,9 @@ umap_x: 6.819270610809326
 umap_y: 8.266942977905273
 umap_z: 12.015129089355469
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 La voglia di rivederci è stata tanta... Belle le videochiamate, belli i giochi su wazzup, belle tutte le iniziative per sentirci o vederci per farci compagnia. Ma ci è tanto mancato il non poterci vedere e stare assieme. Ne abbiamo sofferto ma abbiamo cercato di sostenerci a vicenda. Però appena è stato possibile, abbiamo superato i dubbi, le incertezze e ci siamo ritrovati con un primo gruppetto.
 
 Ci siamo incontrati con tutte le precauzioni del caso: mascherina, distanza sociale e finalmente eccoci… wow che spettacolo! Non ci siamo baciati e abbracciati (non si può ancora) ma salutati con il gomito. Chiacchiere e tante chiacchiere. Sorrisi. Visi luminosi (anche dietro le mascherine) occhi sorridenti che sprizzavano contentezza; così abbiamo colmato un po' quel vuoto che c'era stato per tanti mesi di lontananza. L'emozione, la gioia sono state tante nel rivedere tanti amici e qualche lacrimuccia è scesa. Il nostro desiderio si è avverato: ci siamo organizzati per vederci e, superati i dubbi e le incertezze, ce l'abbiamo fatta. Obiettivo raggiunto!

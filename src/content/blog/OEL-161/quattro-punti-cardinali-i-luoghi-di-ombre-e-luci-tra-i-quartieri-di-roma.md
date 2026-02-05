@@ -14,7 +14,8 @@ umap_x: 4.929282188415527
 umap_y: 6.718319416046143
 umap_z: 9.879776000976562
 issue_number: OEL-161
-id_numero: OEL-161
+id_numero: "OEL-161"
+numero_rivista: "Ombre e Luci"
 ---
 Il
 tavolo di una sala da pranzo; un seminterrato; la stanza di un ufficio; un ex magazzino. Le cose e i luoghi – annotava Carla Simons, scrittrice e giornalista ebrea uccisa ad Auschwitz – prendono vita se gli diamo vita (

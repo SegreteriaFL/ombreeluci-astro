@@ -4,8 +4,8 @@ date: 2004-06-11
 author: Redazione
 slug: dialogo-aperto-n-86
 lang: it
-numero_rivista: 86
-id_numero: OEL-86
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-86"
 issue_number: OEL-86
 wp_id: 30169
 original_url: "https://www.ombreeluci.it/?p=30169"
@@ -15,7 +15,6 @@ umap_x: 4.66970157623291
 umap_y: 8.070146560668945
 umap_z: 10.53982162475586
 ---
-
 ### Qui all’Huiling
 
 Carissimi amici qualche volta, qui all’Huiling, guardando in volto le persone che portano una disabilità mentale e fisica, mi viene spontaneo dire: portate pazienza con me che non vi so rispettare, servire e amare a sufficienza! È già da nove anni che lavoro in Cina e sento la fatica di tante provocazioni della fatica quotidiana e di tante lotte per i diritti dei più piccoli, ammalati e poveri. Non vi nascondo però che anche i buoni risultati sono tanti. L'organizzazione dove lavoro sta già servendo centinaia di disabili in diverse città della Cina. Moltissime sono le persone che collaborano e in tanti modi, pregando forte, donando il proprio tempo e risorse anche come volontari. Il più bel dono che abbiamo ricevuto all’Huiling è stato l’arrivo di un nuovo missionario, p. Mario Marazzi; ora lui opera in una casa famiglia a poche decine di chilometri da me. Il suo aiuto spirituale, il suo coraggio (ha già 76 anni) e la sua saggezza, illumina tutti noi, incoraggiandoci a operare meglio e con tanto amore soprattutto verso i più deboli. Se riusciamo ad avere questa forza fino all’anzianità, è perché il Signore, con la sua storia di salvezza, passione e risurrezione, ci ha marchiato nel cuore che “Forte è il suo amore per noi e la sua fedeltà dura in eterno” (Sal 116). Sia questo anche l’augurio pasquale più fiducioso e incoraggiante che la Pasqua del Signore, 0ggi e sempre, infonde nei nostri cuori. Fraternamente

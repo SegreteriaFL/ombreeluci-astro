@@ -15,8 +15,9 @@ umap_x: 9.063054084777832
 umap_y: 8.433180809020996
 umap_z: 12.743577003479004
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 ### Perché un pellegrinaggio?
 
 Gli incontri hanno un posto importante nella vita di Fede e Luce: ci ritroviamo regolarmente per vivere insieme momenti d'amicizia e di preghiera. Ma essere insieme non basta. Dobbiamo anche avanzare insieme. Così, giorno dopo giorno, facciamo un po' di strada, i legami si approfondiscono e il gruppo diventa una vera famiglia dove ognuno si sente accolto e amato.

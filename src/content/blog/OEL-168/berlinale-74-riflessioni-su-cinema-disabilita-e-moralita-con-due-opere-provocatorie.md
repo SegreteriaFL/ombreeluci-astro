@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Le temperature, nei primi giorni della Berlinale 74, sono state quasi primaverili; il clima è cambiato, ma solo per quanto riguarda il meteo. **Si attendeva un clima acceso in termini di dibattito politico e così è stato, a partire dalla prima conferenza stampa in cui la giuria ha parlato più di guerra e razzismo che di cinema.** E anche il film inaugurale, in effetti, ha affrontato temi sociali rilevanti, ma a catturare l’attenzione è stato soprattutto il protagonista Cillian Murphy, in piena corsa per l’Oscar come interprete di *Oppenheimer*. A Berlino, invece, è protagonista di *Small Things Like These*: un attore irlandese per una storia profondamente irlandese, sebbene diretta dal belga Tim Mielans. Tra tutte le brutture dell’Irlanda di metà anni Ottanta in cui si imbatte il personaggio di Bill Furlong, commerciante di carbone, ci sono povertà diffusa e situazioni familiari difficili (che hanno riguardato anche lui, come si scopre nei flashback), ma anche le Case Magdalene, i conventi in cui venivano recluse contro la loro volontà le ragazze ritenute “immorali” e ripudiate dalle famiglie (l’ultima Casa è stata chiusa nel 1996).
 Il personaggio di Murphy sembra incarnare un senso di colpa collettivo su tanti mali che hanno riguardato il novecento irlandese: è un uomo che non nasconde i suoi sentimenti, soffre visibilmente e il suo dolore è scolpito in un volto reso tagliente dalla fotografia oscura e deprimente. Rappresenta un esempio di carità inizialmente solo immaginata, che ha bisogno di una scossa per trasformarsi in azione; purtroppo il film soffre di questa titubanza, perdendosi in troppe ripetizioni quando il messaggio che si vorrebbe comunicare diventa evidente troppo presto.
 

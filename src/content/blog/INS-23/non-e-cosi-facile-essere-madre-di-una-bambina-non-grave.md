@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Per me, mamma di R., non è facile parlare della mia esperienza di madre di una bambina cosiddetta "non grave".** Non è facile per quel naturale riserbo che ci suggerisce di tenere per noi le nostre più intime e profonde esperienze. Proverò comunque a fare la cronaca.
 La mia bambina è nata prematura** (peso: 1 kg alla nascita), ma dopo quattro mesi di incubatrice, è venuta finalmente a casa, accolta da suo padre e sua madre con una gran festa. Sono seguiti alcuni mesi di gioia perché la bambina, anche se lentamente e attraverso varie difficoltà, cresceva come crescono tutti i bambini. Poi una domenica sera la crisi: corsa a trombe spiegate verso l'ospedale, ore di attesa pietrificata e poi il medico che di persona viene a dire: "Ce l'ha fatta!".
 Ma a quale prezzo! La bambina ha ricominciato tutto da capo**, questa volta con difficoltà tali da sembrare a volte insormontabili: non imparava più spontaneamente come tutti i bambini, ogni cosa doveva esserle insegnata e veniva appresa dopo lunghissimi esercizi di addestramento. Giorni, mesi, anni passati a parlare ad una bambina che sembrava non stesse a sentire, a ripetere giochi che sembrava non seguire, a metterle in mano oggetti che lasciava regolarmente cadere, a reggerla perché si tenesse seduta, ad aiutarla perché si muovesse rotolando sul pavimento ed infine perché camminasse.

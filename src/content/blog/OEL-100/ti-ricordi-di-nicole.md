@@ -4,8 +4,8 @@ date: 2007-12-29
 author: Redazione
 slug: ti-ricordi-di-nicole
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 3650
 original_url: "https://www.ombreeluci.it/?p=3650"
@@ -17,7 +17,6 @@ umap_x: 4.796065330505371
 umap_y: 6.609480857849121
 umap_z: 9.702285766601562
 ---
-
 **Conversazione al telefono tra Natalia e Tea**
 **Natalia:**
 E come potrei non ricordarla? Quando sono entrata ad Ombre e Luci lei era già lì da diversi anni, con Mariangela aveva proprio dato inizio alla rivista. La consideravo una sorella maggiore che doveva guidarmi. Mi viene in mente una cosa che mi ha detto una volta, mentre confezionavamo con spago e carta grossi pacchi di riviste: "Sai, a me questo lavoro al giornale piace tanto proprio perché è cosi vario, diverso sempre. Un giorno devi fare pacchi o attaccare francobolli, il giorno dopo devi andare ad un convegno, o visitare un Centro, o incontrare dei genitori, o scrivere un articolo...". Non ho più dimenticato queste parole perché descrivono bene il lavoro a Ombre e Luci e ... come era Nicole.

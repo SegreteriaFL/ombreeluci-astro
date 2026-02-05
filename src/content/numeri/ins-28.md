@@ -1,15 +1,26 @@
 ---
 id: "INS-28"
-title: "Insieme n. 28 - Bollettino Fede e Luce - 1981"
+title: "Insieme n. 28 – Bollettino Fede e Luce – 1981"
 tipo: "insieme"
 numero: 28
-anno: "1981"
+sort_order: 28
+pubDate: "1981-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1981"
 sommario: "Insieme n. 28 – Bollettino Fede e Luce – 1981 ultima modifica: 1981-03-20T15:39:37+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-28-mar-1981.webp"
 link_sfoglia: "https://archive.org/details/insieme-28/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-28/insieme%2028%20mar%201981.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-28-bollettino-fede-e-luce-1981/"
+articoli:
+  - "la-dove-tu-ci-vuoi-ogni-giorno"
+  - "ci-hanno-scritto-insieme-n-28"
+  - "il-loro-credo"
+  - "i-nostri-figli-con-disabilita-a-scuola"
+  - "dal-sostegno-alla-partecipazione-esperienze-di-educazione-inclusiva-per-bambini-con-difficolta"
+  - "scuola-viva-un-modello-di-inclusione-attiva-per-bambini-con-disabilita"
+  - "vita-fede-e-luce-insieme-n-28"
+  - "la-vendita-di-novembre-impegno-e-solidarieta"
+  - "incontro-internazionale-preparativi-e-spiritualita"
 ---
 
 ## Indice

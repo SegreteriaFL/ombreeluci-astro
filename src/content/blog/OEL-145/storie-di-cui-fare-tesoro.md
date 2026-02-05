@@ -12,7 +12,8 @@ umap_x: 6.6991682052612305
 umap_y: 8.576972007751465
 umap_z: 9.22796630859375
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Pietro ha 73 anni. **Vive solo da almeno trenta.** Da circa dieci anni, dopo aver dovuto lasciare la casa in affitto a Roma dove aveva abitato fin da bambino prima con sua mamma e poi da solo, ha avuto l’assegnazione di una casa popolare in un ambiente “difficile” e, soprattutto, decisamente troppo distante dalle zone a lui note o dai familiari che gli sono rimasti. Ha un lieve ritardo mentale ma è sempre stato molto autonomo. Continua a spostarsi abbastanza bene con i mezzi pubblici. Una volta a settimana, con un viaggio decisamente articolato ma ormai assimilato e difficile da modificare, raggiunge la sua vecchia parrocchia dove passa qualche ora in un laboratorio per attività che spaziano dal teatro al piccolo artigianato. Due volte a settimana, una cognata e una nipote (che abitano all’altro capo della città e non hanno un mezzo proprio) lo seguono nella cura personale e della casa, attività in cui Pietro non ha mai avuto l’attenzione necessaria. Ci sono alcuni amici che spesso lo ospitano per le feste, altri che lo aspettano per gli incontri di Fede e Luce una o due volte al mese o per un paio di settimane di vacanza d’estate… **Ma, nella quotidianità, sono tutti molto distanti, fisicamente, da lui.** Continua ad avere l’aspetto di dieci, quindici anni fa… a volte si rischia di non riconoscere la sua età reale. Come preservare questa sua possibile e concreta autonomia?
 

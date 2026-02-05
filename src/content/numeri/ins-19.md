@@ -1,15 +1,28 @@
 ---
 id: "INS-19"
-title: "Insieme n. 19 - Bollettino Fede e Luce - 1978"
+title: "Insieme n. 19 – Bollettino Fede e Luce – 1978"
 tipo: "insieme"
 numero: 19
-anno: "1978"
+sort_order: 19
+pubDate: "1978-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 1978"
 sommario: "Insieme n. 19 – Bollettino Fede e Luce – 1978 ultima modifica: 1978-12-20T15:39:37+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-19.webp"
 link_sfoglia: "https://archive.org/details/insieme-19/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-19/insieme%2019%20dic%201978.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-19-bollettino-fede-e-luce-1978/"
+articoli:
+  - "avete-mai-provato"
+  - "ci-hanno-scritto-n-19"
+  - "quattordici-anni-con-loro"
+  - "per-la-loro-educazione-bilancio-di-unestate"
+  - "alfedena-1978"
+  - "vacanze-1978"
+  - "una-lezione-damore-incontro-fede-e-luce-llalelli-galles-del-sud"
+  - "soggiorno-allarche-1978"
+  - "sono-andata-a-bruxelles-a-fare-volontariato"
+  - "katimavik-una-parola-escquimese-che-vuol-dire-incontro"
+  - "katimavik-una-parola-eschimese-che-vuol-dire-incontro"
 ---
 
 ## Indice

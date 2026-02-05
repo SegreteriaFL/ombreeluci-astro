@@ -7,6 +7,7 @@ cluster_id: 2
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_43_1993.jpg"
 slug: "io-grido-verso-te"
 has_comments: false
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -4,8 +4,8 @@ date: 1999-12-17
 author: Huberta Pott
 slug: con-le-porte-sempre-aperte
 lang: it
-numero_rivista: 68
-id_numero: OEL-68
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-68"
 issue_number: OEL-68
 wp_id: 13026
 original_url: "https://www.ombreeluci.it/?p=13026"
@@ -17,7 +17,6 @@ umap_x: 6.945034980773926
 umap_y: 7.902099132537842
 umap_z: 9.618785858154297
 ---
-
 Ho fatto la mia telefonata notturna ad una famiglia che vive nel nord d'Italia. La "famiglia base’’ è composta da 6 persone, dico "famiglia base" perché in realtà gli abitanti della casa sono sempre di più, visto che le porte sono aperte a persone in difficoltà, che vengono ospitate anche per molti mesi. Attualmente è ospite, già da due anni, una ragazza rumena. Erika e Piero hanno quattro figli, di cui una figlia con lievi problemi e 1 figlia adottiva con problemi più seri. Inoltre la loro casa è sempre piena di gente di tutti i tipi: giovani sacerdoti perseguitati, tunisini incontrati sotto un ponte, in fuga dalla guerra, tossicodipendenti in attesa di entrare in comunità... Mi ha molto colpito quando ho conosciuto Erika e Piero, la loro serenità, semplicità e naturalezza. Come si fa ad essere così SPECIALI e allo stesso tempo così NORMALI? Cercherò di scoprire la ricetta!
 
 **Avevate già una figlia con problemi. Come è nato in voi il desiderio di adottare una bimba con handicap?** Anni fa frequentavamo un gruppo di coppie in parrocchia e il parroco ci parlava molto dell'affidamento di bambini con problemi e così nostra figlia ha trovato la sorella. Poco a poco l'accoglienza di chi è in difficoltà è diventato il "Leitmotiv"della nostra famiglia. Soprattutto per mio marito questo costituiva il modo migliore di educare il figli. Oggi si parla tanto della necessità di insegnare la rinuncia, il sacrificio ai nostri figli: in casa nostra questa rinuncia è venuta spontanea. Certo non potevamo andare spesso al ristorante o in viaggio, ma questa era una necessità più che una rinuncia.

@@ -14,7 +14,8 @@ umap_x: 7.735293388366699
 umap_y: 9.138184547424316
 umap_z: 8.061641693115234
 issue_number: OEL-115
-id_numero: OEL-115
+id_numero: "OEL-115"
+numero_rivista: "Ombre e Luci"
 ---
 ### Attacchi alla dignità della persona
 

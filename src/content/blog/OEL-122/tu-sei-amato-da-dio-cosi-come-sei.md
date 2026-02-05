@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 Sessanta partecipanti provenienti dalle comunità della provincia si sono ritrovati intorno al tema Tu sei amato da Dio, così come sei. Testimoni Miguel Reyes e sua moglie Musky, dalla provincia Iberatlantica, Cesarina Bertin, dalla provincia Un Fiume di Pace, Lucia Casella in rappresentanza del Consiglio Internazionale.
 

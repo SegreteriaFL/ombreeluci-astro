@@ -12,8 +12,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 *«Fede e Luce è creazione di legami, di comunità, di amore; è persone in relazione le une con le altre, persone impegnate verso le altre (cosa straordinaria nel nostro mondo di infedeltà); Fede e Luce è legame, non solo tra persone che sono forti, sane, in buona salute, ma legame con chi è più debole, legame con chi è normalmente rifiutato.
 Questo è il dono di Fede e Luce: noi siamo legati da vincoli di amicizia gli uni agli altri, esiste un’alleanza tra coloro che sono più deboli e chi è stato chiamato a vivere con loro.
 Questa è l’essenza di Fede e Luce».

@@ -12,7 +12,8 @@ umap_x: 7.638956069946289
 umap_y: 9.73659896850586
 umap_z: 11.337762832641602
 issue_number: OEL-103
-id_numero: OEL-103
+id_numero: "OEL-103"
+numero_rivista: "Ombre e Luci"
 ---
 F
 orse tutti noi dobbiamo scoprire che questo passaggio dell’Apocalisse (c. 21 v. 5) “Ecco, io faccio nuove tutte le cose” è un po’ scandaloso. Ci sono dei momenti che mi ricordano questa affermazione:

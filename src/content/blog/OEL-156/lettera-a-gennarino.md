@@ -15,8 +15,9 @@ umap_x: 5.44832706451416
 umap_y: 9.287078857421875
 umap_z: 11.315661430358887
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Affidiamo alle parole del padre il ricordo del nostro amico Gennaro Gagliotta, morto a Napoli il 2 settembre 2020.*
 
 Caro Gennarino la tua nascita è stata la felicità immensa che può donare un figlio, ma, come in tutta la nostra vita, tu sei stato di più! Sin dal principio hai portato grandi cambiamenti, come quando sul mio cammino ho fatto la conoscenza del professor Federico Marsico, il tuo cardiologo. Da subito gli ho chiesto di farmi assumere nell'ambito ospedaliero, non per garantirmi uno stipendio fisso - allora avevo un lavoro redditizio anche se incerto - ma soprattutto per garantire la mia presenza e sostenerti nelle tante cure di cui avevi bisogno. Fu proprio il professore a decidere le tue operazioni in Sudafrica nel '73 e a Boston nell' 82. Lì abbiamo conosciuto persone meravigliose che si sono umilmente messe al tuo servizio, ed erano l'eccellenza della cardiochirurgia. La tua schiettezza, la semplicità, l'amore per la vita e per gli altri ci hanno travolti e portati ad incontrare altre stelle luminose come te e tanti nuovi amici. Più di 30 anni fa incominciammo la bella esperienza in [Fede e Luce](http://fedeeluce.it) , dove abbiamo conosciuto amicizia, condivisione e fede. La tua voglia di imparare, conoscere cose nuove ti ha portato all'Istituto Antoniano dove tanti operatori ti hanno formato professionalmente. Tutte persone meravigliose: li ringrazio tutti, ma in particolare voglio abbracciare forte Nicola e fare un galante baciamano a Luisa come avresti fatto tu.

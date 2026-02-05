@@ -12,8 +12,9 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-51
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 ## Ombre e Luci n. 5 - 1984
 
 ### Nessuno è escluso

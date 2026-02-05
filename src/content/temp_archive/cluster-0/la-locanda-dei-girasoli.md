@@ -7,6 +7,7 @@ cluster_id: 0
 image: "https://www.ombreeluci.it/wp-content/uploads/2020/09/locanda-il-girasole-1024x576.jpg"
 slug: "la-locanda-dei-girasoli"
 has_comments: false
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

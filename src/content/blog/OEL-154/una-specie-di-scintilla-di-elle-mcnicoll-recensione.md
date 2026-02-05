@@ -12,7 +12,8 @@ umap_x: 7.751733779907227
 umap_y: 11.207931518554688
 umap_z: 4.39006233215332
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 In un paese della provincia scozzese, Addie, una bambina di 11 anni con la passione per i libri sugli squali scopre, durante una lezione a scuola, **l’antica vicenda delle tante donne indicate come streghe, per qualche loro stranezza o per la tendenza ad isolarsi dagli altri** , e per questo torturate e condannate a morte. Combatte allora per ottenere una simbolica riparazione a quell’ingiustizia seppur lontana perché sente che la sua condizione autistica, anche se relativamente lieve, la mette in condizioni di un simile rifiuto anche nel presente. È infatti qualcosa che deve camuffare e nascondere e che le impone sforzi di adattamento non sempre compresi pienamente dagli altri, neppure da Nina, sua sorella neurotipica. Come gli altri romanzi della collana *I geodi* – dal nome che, come si legge sul loro sito, richiama quei “sassi, inutili e tondeggianti, che al loro interno nascondono tesori di cristallo colorato, se si sa come aprirli” – questa storia offre “uno sguardo diverso sul mondo che ci circonda: uno sguardo curioso, aperto, interessato, mai spaventato”.
 

@@ -4,8 +4,8 @@ date: 2005-12-23
 author: Vito Giannulo
 slug: la-lotta-del-padre-cittadino-per-far-vivere-meglio-i-nostri-figli-disabili
 lang: it
-numero_rivista: 92
-id_numero: OEL-92
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-92"
 issue_number: OEL-92
 wp_id: 31287
 original_url: "https://www.ombreeluci.it/?p=31287"
@@ -15,7 +15,6 @@ umap_x: 4.532046318054199
 umap_y: 8.886740684509277
 umap_z: 7.557372570037842
 ---
-
 "Dopo che è nata Valeria mi sono detto: ma è così facile fare il padre?". Prima infatti per Antonio Bini, 53 anni, di Monopoli, era stato difficile, molto difficile. Prima vuol dire Anita. Anita ha 20 anni, quattro più della sorella Valeria. A causa di un''asfissia al momento del parto è affetta da un ritardo psicomotorio piuttosto grave, ha frequentato la scuola pubblica solo fino alla quinta elementare e sempre controvoglia per l'impossibilità di adattarsi ad orari e disciplina. "Il rapporto con la scuola è per me una ferita ancora aperta — racconta il papà — alle elementari il problema principale era l'orario d'ingresso. Anita non sopporta di alzarsi presto, perciò avevo proposto al suo medico di chiedere al direttore della scuola il permesso di farla entrare più tardi. Il medico ha risposto che Anita doveva abituarsi a fare come gli altri e le cose sono andate sempre peggio. Resto convinto che un tentativo si poteva fare".
 
 Tutta la vita di Antonio è un tentativo di far stare meglio Anita. "Oggi per me il problema non è l'handicap di mia figlia perché quello l'ho accettato. E anzi noi siamo stato fortunati perché la scoperta del suo problema è stata graduale, non abbiamo avuto lo choc improvviso che hanno ad esempio i genitori dei bambini down. Ma a volte mi prende lo sconforto quando cerco di uscire con Anita, vedere gente, fare cose, insomma avere una vita normale e lei non vuole. Se dice no è no. Allora mi viene di pensare che il problema non è l'handicap, ma il suo essere pigra, abulica". Insomma Anita fa le cose che le va di fare e solo quelle. Suo padre invece le fa tutte. "Quando hai un problema come quello che ho io, lo cancelli dalla mente e ti butti nelle cose da fare".

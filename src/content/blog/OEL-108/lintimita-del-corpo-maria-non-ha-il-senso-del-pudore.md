@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-108
+id_numero: "OEL-108"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quando il corpo di Maria ha cominciato a trasformarsi in maniera evidente le ho spiegato che anche lei, come già le sue sorelle, stava diventando una giovane donna. Ma per il suo handicap mentale (Maria è Down) ha rifiutato i mutamenti del suo corpo e ha stabilito conseguentemente il suo modo di comportarsi.
 
 Noi familiari ci sentiamo dunque responsabili in diversi momenti della vita quotidiana: igiene, sonno, gesti di affetto, e, negli ultimi tempi, l’attrazione sessuale. Senza dubbio la prima difficoltà consiste nel fatto che, fin da piccola, Maria non ha manifestato nessuna forma di pudore.

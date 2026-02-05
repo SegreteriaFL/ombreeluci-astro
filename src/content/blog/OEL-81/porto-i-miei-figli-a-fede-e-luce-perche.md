@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "porto-i-miei-figli-a-fede-e-luce-perche"
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26376
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 - non so a chi lasciarli,
 
 - non voglio perderli di vista,

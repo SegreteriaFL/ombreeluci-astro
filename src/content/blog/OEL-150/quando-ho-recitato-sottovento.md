@@ -12,7 +12,8 @@ umap_x: 8.666020393371582
 umap_y: 8.538101196289062
 umap_z: 3.4258155822753906
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 Tutto è cominciato quando frequentavo l’associazione down di Roma, era l’anno 2000. Sono stato convocato insieme ad altri ragazzi dal regista Stefano Vicario, che cercava un ragazzo down per il suo film ambientato su una bellissima barca a vela. Sono stato scelto per le mie competenze nel campo della vela, perché avevo frequentato la scuola navale Morosini di Venezia. Sono stato contentissimo di essere stato scelto, per me è stata una grande emozione. Il cast era formato da attori conosciuti – Claudio Amendola, Anna Valle e Mariano Rigillo – e attori emergenti tra cui Francesco Venditti, figlio del famoso cantante Antonello.
 

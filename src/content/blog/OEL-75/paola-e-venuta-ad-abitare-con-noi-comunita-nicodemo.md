@@ -12,7 +12,8 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-75
-id_numero: OEL-75
+id_numero: "OEL-75"
+numero_rivista: "Ombre e Luci"
 ---
 La nostra comunità si è ispirata a Nicodemo, personaggio poco conosciuto del Vangelo di Giovanni. **Nicodemo sta bene, ma non completamente*. È in ricerca, pronto a lasciarsi coinvolgere. Rischiando la propria reputazione, di notte si alza e va a cercare Gesù per «interrogarlo». Per un po’ non si sbilancia... ma quando Gesù è deposto dalla croce, Nicodemo porta personalmente l’olio profumato per ungerne il corpo. Un vaso molto costoso e molto, molto pesante... E così che esce allo scoperto, giocandosi in prima persona...
 

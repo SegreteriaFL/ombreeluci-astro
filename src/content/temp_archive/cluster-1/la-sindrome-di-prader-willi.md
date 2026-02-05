@@ -6,6 +6,7 @@ theme: "cluster-1"
 cluster_id: 1
 slug: "la-sindrome-di-prader-willi"
 has_comments: false
+id_numero: "OEL-66"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

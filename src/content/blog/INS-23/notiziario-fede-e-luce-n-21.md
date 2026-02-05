@@ -12,8 +12,9 @@ umap_x: 7.845697402954102
 umap_y: 7.970815181732178
 umap_z: 13.40323257446289
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Sabato 3 marzo ci siamo trovati per un allegro pomeriggio di carnevale; la gioia di tutti era grande. Per noi è stata la seconda volta che ci riunivamo alla grande famiglia di Fede e Luce milanese: la prima, di cui serbiamo un ricordo bellissimo, fu a Natale.
 
 Siamo un piccolo gruppo di Fede e Luce che sta nascendo nella parrocchia dei SS. Silvestro e Martino. Anche se non ci si conosceva tutti, ci si è voluto bene da subito, abbiamo provato reciprocamente calore umano, simpatia e gioia vera e ci siamo sentiti a nostro agio.

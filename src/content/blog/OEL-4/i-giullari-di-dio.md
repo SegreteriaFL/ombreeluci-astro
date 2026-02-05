@@ -12,14 +12,14 @@ pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
 archive_id: OmbreELuciN004
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 periodo_label: Ottobre, Novembre, Dicembre
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 umap_x: 7.105465888977051
 umap_y: 11.517114639282227
 umap_z: 5.7798752784729
+id_numero: "OEL-4"
 ---
-
 «So cosa sta pensando. Ha bisogno di un segno. Quale segno migliore potrei dare, se non risanare questa piccola? Potrei: ma non lo farò. Io sono il Signore, non un mago. Ho dato a questa piccola un dono che ho negato a tutti voi... l’eterna innocenza. A voi appare imperfetta... ma per me è impeccabile, come il bocciolo che muore senza schiudersi, come l'uccellino che cade dal nido e viene divorato dalle formiche. Lei non mi offenderà mai, come avete fatto voi tutti. Non pervertirà e non distruggerà mai l’opera delle mani di mio Padre. Vi è necessaria. Evocherà la bontà che vi fa rimanere umani. La sua infermità vi farà provare gratitudine per la vostra fortuna... e c’è di più! Vi ricorderà ogni giorno che io sono chi sono, che le mie vie non sono le vostre, che la più piccola particella di polvere turbinante nello spazio più buio non cade dalla mia mano. Io vi ho scelti. Non siete stati voi a scegliere me. Questa piccola è il segno che io vi do. Serbatela come un tesoro».
 
 Questa «piccola» è mongoloide. Chi dice queste parole è Cristo tornato sulla terra alla fine del nostro secolo.

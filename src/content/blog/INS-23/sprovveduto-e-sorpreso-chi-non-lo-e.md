@@ -12,8 +12,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 *Questo articolo fa parte del **[Focus: gli adulti profondamente handicappati, alcune testimonianze](https://www.ombreeluci.it/1979/focus-gli-adulti-profondamente-handicappati-alcune-testimonianze/)*
 Ti ricordi Maurizio, quando ci alzavamo molto prima degli altri? Il sole spuntava appena e lasciava filtrare qualche raggio attraverso i rami... Ti vedo a carponi, cercare quei punti luminosi e trovare piacere nel lasciarti bagnare dalla loro luce. Cosa cercavi? Cosa c'è dentro di te che io non ho capito? Questo segreto resterà il tuo segreto.
 

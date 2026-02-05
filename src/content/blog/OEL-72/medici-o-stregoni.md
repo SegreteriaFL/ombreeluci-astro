@@ -15,8 +15,9 @@ umap_x: 5.592535972595215
 umap_y: 9.28352165222168
 umap_z: 7.201706409454346
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 Èuna domanda che può sembrare provocatoria, ma vuole essere solo un modo per sottolineare quel diaframma, talvolta molto sottile, che separa nei desideri di un genitore in cerca di risposte la figura del medico, così come viene intesa nella nostra cultura occidentale, da quella dello stregone. In realtà per molto tempo, e ancora oggi in quelle culture definite spregiativamente «primitive», il ruolo dello stregone all'interno della comunità è stato quello di accogliere in sé, empaticamente, il dolore del malato e dei suoi familiari.
 
 Nel corso degli anni, mi sono sorpresa ad immaginare un rapporto con i medici che presentasse anche questa caratteristica, oscillando fra l'attesa di risposte scientificamente attendibili e di un «padre» che si facesse carico della mia angoscia. Spesso non ho trovato né l'una né l’altro, imparando a mie spese, e purtroppo a quelle della mia bambina, che una spiegazione all'imponderabilità della natura non sempre può esserci, ma è importante diventare interlocutori consapevoli nel rapporto con il medico.

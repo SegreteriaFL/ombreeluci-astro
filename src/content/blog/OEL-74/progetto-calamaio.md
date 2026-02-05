@@ -14,7 +14,8 @@ umap_x: 8.10367488861084
 umap_y: 7.858856201171875
 umap_z: 8.744165420532227
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 I l «Progetto Calamaio» è una iniziativa del Centro di Documentazione sull’Handicap di Bologna. Ideata da Claudio Imprudente nel 1986. Spiega Claudio Imprudente; «Il suo scopo è creare una ‘cultura’ basata sull’accettazione della diversità, che si può chiamare ‘Nuova Cultura dell’Handicap’, che si antepone ad una ‘vecchia’ fondata sul rifiuto e anche sulla negazione di tali diversità.
 

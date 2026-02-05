@@ -12,5 +12,6 @@ umap_x: 7.4368767738342285
 umap_y: 9.068655967712402
 umap_z: 12.681584358215332
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---

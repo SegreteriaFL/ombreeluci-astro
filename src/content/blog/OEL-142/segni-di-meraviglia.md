@@ -12,7 +12,8 @@ umap_x: 5.668670177459717
 umap_y: 8.296853065490723
 umap_z: 8.063714981079102
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 "S
 *e un bambino deve tenere vivo il suo senso innato di meraviglia, ha bisogno della compagnia di almeno un adulto con cui condividerla, riscoprendo con lui la gioia, l’eccitazione e il mistero del mondo in cui viviamo.*

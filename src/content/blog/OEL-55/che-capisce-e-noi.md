@@ -4,8 +4,8 @@ date: 1996-09-27
 author: Redazione
 slug: che-capisce-e-noi
 lang: it
-numero_rivista: 55
-id_numero: OEL-55
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-55"
 issue_number: OEL-55
 wp_id: 10903
 original_url: "https://www.ombreeluci.it/?p=10903"
@@ -15,7 +15,6 @@ umap_x: 6.714395046234131
 umap_y: 8.532698631286621
 umap_z: 6.2744035720825195
 ---
-
 Arme-Marguerite Vexian è ortofonista. Quindici anni fa si è specializzata nella rieducazione dei giovani autistici. Questa esperienza la rende particolarmente adatta a presentarci la persona autistica e il suo comportamento. [Qui](http://www.ombreeluci.it/1996/quale-metodo-scegliere/) troverete una breve spiegazione sulla «comunicazione facilitata», il metodo da lei portato dal VAustralia.
 
 Il piccolo autistico è spesso un bel bambino. Il suo comportamento incuriosisce e sconcerta perché sembra che sia indifferente alla vostra presenza. Vi si avvicina e vi tira i capelli oppure non risponde quando gli parlate. Non vi guarda negli occhi; se parla, si esprime in maniera strana: usa il pronome «tu» per dire «io» o ripete come un pappagallo quello che gli dite. Qualcuno emette grida stridenti e può avere terribili momenti di collera. Conosco giovani autistici che si tappano le orecchie, altri che si dondolano per ore avanti e indietro... Spesso hanno reazioni inaspettate e a volte violente. Questi bambini possono mordersi, picchiarsi la testa, oppure essere aggressivi nei confronti degli altri. Ultimamente ho ricevuto da un ragazzo un colpo di testa così forte che mi sono fratturata il naso. Il mio è un mestiere a rischio!

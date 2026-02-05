@@ -15,8 +15,9 @@ umap_x: 7.348792552947998
 umap_y: 10.116959571838379
 umap_z: 8.388449668884277
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ogni martedì su
 **Real Time**
 il nuovo docu-reality

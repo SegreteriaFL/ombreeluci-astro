@@ -12,7 +12,8 @@ umap_x: 7.752293586730957
 umap_y: 11.001100540161133
 umap_z: 4.798431396484375
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 Che succede se la gallina fa un uovo nero? Nessuno lo compra e la contadina lo porta al re; e se dall’uovo esce un galletto indisponente? Il re e la regina lo adottano; e se lui continua a essere quello che è, cioè indisponente?
 

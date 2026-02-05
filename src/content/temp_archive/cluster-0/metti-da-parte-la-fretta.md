@@ -7,6 +7,7 @@ cluster_id: 0
 image: "https://www.ombreeluci.it/wp-content/uploads/2020/08/Boccioni-e-Marilena.jpg"
 slug: "metti-da-parte-la-fretta"
 has_comments: false
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

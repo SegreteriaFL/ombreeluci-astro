@@ -7,6 +7,7 @@ cluster_id: 5
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_114_2011.jpg"
 slug: "storia-di-un-segreto-dio-mi-ha-parlato-tramite-i-miei-amici-speciali"
 has_comments: false
+id_numero: "OEL-114"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

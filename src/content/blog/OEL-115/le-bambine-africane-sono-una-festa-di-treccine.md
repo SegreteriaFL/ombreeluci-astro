@@ -14,7 +14,8 @@ umap_x: 6.8239288330078125
 umap_y: 7.103093147277832
 umap_z: 7.379600524902344
 issue_number: OEL-115
-id_numero: OEL-115
+id_numero: "OEL-115"
+numero_rivista: "Ombre e Luci"
 ---
 Ogni giorno accompagno i bambini a scuola: A. alla scuola dell’infanzia e M. alla primaria, che, per chi è un po’ più in là con gli anni, sono la scuola materna e le elementari. I nomi sono cambiati nella scuola ma sono le situazioni che possono fare la differenza. Non è cambiando nome che si realizzano ambienti migliori.
 

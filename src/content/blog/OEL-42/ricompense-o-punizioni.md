@@ -12,7 +12,8 @@ umap_x: 6.17751407623291
 umap_y: 8.433202743530273
 umap_z: 6.9621782302856445
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 A
 bbiamo ricevuto questa lettera di una mamma: «In uno dei centri dove è stata accolta Carlotta, la nostra bambina affetta da autismo, c’era la tendenza a lasciar fare i ragazzi senza intervenire; in un altro invece si puniva spesso... Ci sembra che, nei due casi, non si chiedesse sufficientemente ai giovani di assumere le loro responsabilità. Sia per Carlotta che per gli altri nostri figli ci aiuterebbe sapere la vostra opinione in proposito. » Abbiamo chiesto a Padre Bissonier qualche riflessione su questo tema. Nell’educazione il problema delle punizioni presenta una molteplicità di aspetti diversi ed è una grossa impresa volervi rispondere in poche righe. Il problema è ancora più delicato quando si tratta di ottenere un progresso o di frenare il comportamento di un bambino la cui inerzia e i cui disturbi sono dovuti a una causa patologica.

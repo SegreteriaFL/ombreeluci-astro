@@ -10,15 +10,15 @@ wp_id: 330
 has_comments: false
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-707x1024.jpeg"
 pdf_url: "https://archive.org/download/OmbreELuci_003/Ombre-e-Luci-n.3.pdf"
-numero_rivista: 3
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-3
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-707x1024.jpeg"
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+id_numero: "OEL-3"
 ---
-
 *Agnese racconta questi giorni aggiungendo qualche consiglio per chi volesse intraprendere una simile iniziativa.*
 
 A me e a mio marito importava soprattutto che quei giorni fossero delle vere vacanze. Non si trattava dunque né di dedizione né di terapia. Oltre alla presenza della nostra famiglia, che penso abbia contribuito all'equilibrio del gruppo, il numero dei ragazzi e delle ragazze era uguale. Molto presto la distinzione, fra handicappati e non, sparì dal nostro vocabolario e dal nostro atteggiamento; anzi spesso gli uni e gli altri richiedevano la stessa delicatezza psicologica e la stessa attenzione. Alla fine del soggiorno, ognuno si è reso conto fino a che punto quella vita insieme, talvolta esigente, vissuta con lo stesso spirito, lo avesse arricchito.

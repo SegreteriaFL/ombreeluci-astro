@@ -7,6 +7,7 @@ cluster_id: 1
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_79_2002.jpg"
 slug: "ora-la-mia-vita-sta-riprendendo-forma-e-colore"
 has_comments: false
+id_numero: "OEL-79"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

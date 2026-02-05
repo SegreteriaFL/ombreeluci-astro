@@ -12,6 +12,7 @@ umap_x: -1.953075647354126
 umap_y: 4.0682525634765625
 umap_z: 9.543732643127441
 issue_number: OEL-4
+id_numero: "OEL-4"
+numero_rivista: "Ombre e Luci"
 ---
-
 <iframe src="https://archive.org/stream/OmbreELuci_002?ui=embed" width="100%" height="460" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>

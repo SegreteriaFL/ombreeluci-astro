@@ -16,7 +16,8 @@ umap_x: 4.681685447692871
 umap_y: 8.809313774108887
 umap_z: 7.770003318786621
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 Ero stato da Salerno a Roma a piedi e pensavo di aver fatto il massimo che potessi fare. Quando poi uno dei ragazzi che lavora con me mi disse che esisteva il Cammino di Santiago mi resi conto che si trattava di una cosa totalmente diversa: nonostante avessi fatto 276 km per arrivare a Roma, questo non aveva nulla a che vedere con il cammino che dall’ultimo paese dei Pirenei, o dall’estremo sud del Portogallo, arriva fino a Santiago di Compostela.
 

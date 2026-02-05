@@ -12,7 +12,8 @@ umap_x: 3.443143844604492
 umap_y: 10.409825325012207
 umap_z: 8.569951057434082
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 Viola è felice. Il caldo ancora tarda a venire, ma la scuola si appresta ad avviarsi al suo ultimo periodo dell’anno, quello in cui c’è un’aria più rilassata, quasi di festa per le vacanze imminenti. Ma Viola è felice anche perché le sembra che finalmente le persone attorno a lei e alla sua sorellina abbiano trovato il modo per ascoltarle e comprenderle entrambe, ognuna con le sue particolarità. Mimosa è così bella, e così accolta. Innanzitutto in famiglia.
 

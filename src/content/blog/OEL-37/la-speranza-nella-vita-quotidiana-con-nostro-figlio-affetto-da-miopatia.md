@@ -12,7 +12,8 @@ umap_x: 5.5149383544921875
 umap_y: 9.297754287719727
 umap_z: 7.8896331787109375
 issue_number: OEL-37
-id_numero: OEL-37
+id_numero: "OEL-37"
+numero_rivista: "Ombre e Luci"
 ---
 Q
 uesto è il titolo che Lionel e Monique Héron hanno dato a una loro conferenza nella quale raccontano la loro esperienza. Con loro e con i loro sei figli, fra i quali Thibaut — di cui in un giorno di giugno si venne brutalmente a sapere che era affetto da una terribile malattia —, impariamo a vivere la nostra vita come un «pellegrinaggio»: ogni giorno ha la sua tappa e la sua grazia.

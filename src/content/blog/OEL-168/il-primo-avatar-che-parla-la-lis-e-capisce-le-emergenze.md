@@ -12,8 +12,9 @@ umap_x: 8.567631721496582
 umap_y: 9.026649475097656
 umap_z: 7.91074800491333
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sviluppato dall'azienda senese QuestIt in sinergia con la torinese Regola, arriva **il primo avatar che risponde alle richieste di emergenza del 112 utilizzando la lingua italiana dei segni.** Chiamando il numero 800 800 112, l'utente non udente che deve segnalare un'emergenza riceverà un link sul proprio smartphone, che gli darà accesso ad una stanza virtuale in cui potrà interagire con l'assistente automatico. L'avatar, sempre dando informazioni con la lingua dei segni e con delle opzioni interattive sul display riconoscerà l'emergenza ed attiverà il protocollo richiesto, interpellando a quel punto un operatore in carne e ossa.
 
 Si legge su ANSA: «La prima sperimentazione è pronta a partire nella Casa delle Tecnologie Emergenti (Cte Next) di Torino, finanziata dal Ministero delle Imprese e del Made in Italy. " **Crediamo che qualsiasi servizio digitale debba essere inclusivo** , e dunque pronto tecnologicamente per supportare gli utenti nella lingua più idonea alle loro esigenze", afferma Ernesto Di Iorio, amministratore delegato di QuestIt. "Per questo motivo, riteniamo che termini come innovazione ed inclusività siano chiamati a correre uno al fianco dell'altro".»

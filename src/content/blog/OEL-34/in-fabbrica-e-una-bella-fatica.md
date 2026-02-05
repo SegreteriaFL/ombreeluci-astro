@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-34
-id_numero: OEL-34
+id_numero: "OEL-34"
+numero_rivista: "Ombre e Luci"
 ---
 Daniela è una simpatica ragazza di 28 anni, bruna, ricciolina con un bellissimo sorriso. Mi accoglie sorridente, anche se come al solito sono in ritardo e mi fa entrare nella sua nuova casa dove vive ormai da quasi un anno con suo marito Vito.
 Daniela è nata con paresi spastica alle gambe e ha difficoltà a camminare; quando si trova all’esterno infatti, su strade scivolose, o quando deve fare dei gradini cammina con il bastone o, meglio ancora, per mano a un amico; in casa sua invece si muove tranquillamente e sa bene dove appoggiarsi.

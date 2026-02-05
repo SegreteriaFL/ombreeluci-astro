@@ -7,6 +7,7 @@ cluster_id: 12
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/07/Lyns-House-2.jpg"
 slug: "quando-ho-bussato-alla-porta-di-lyns-house"
 has_comments: false
+id_numero: "OEL-162"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

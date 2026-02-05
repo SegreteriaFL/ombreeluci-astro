@@ -14,7 +14,8 @@ umap_x: 8.612603187561035
 umap_y: 9.123369216918945
 umap_z: 3.403921127319336
 issue_number: OEL-50
-id_numero: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
 ### La trama del film
 

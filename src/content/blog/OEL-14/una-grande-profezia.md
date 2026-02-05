@@ -14,7 +14,8 @@ umap_x: 8.164694786071777
 umap_y: 8.72188949584961
 umap_z: 12.932211875915527
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 ### Non me ne sono più andato
 

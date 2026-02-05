@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-49
-id_numero: OEL-49
+id_numero: "OEL-49"
+numero_rivista: "Ombre e Luci"
 ---
 I genitori sono più o meno preoccupati del passaggio del proprio figlio all'età adulta.
 Hanno sempre un po' di ritegno di parlare all'adolescente della trasformazione del suo corpo al momento della pubertà, dei suoi primi passi verso l'amore...

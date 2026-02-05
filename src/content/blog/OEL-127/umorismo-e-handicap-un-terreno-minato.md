@@ -14,7 +14,8 @@ umap_x: 8.689815521240234
 umap_y: 9.37299633026123
 umap_z: 7.239075183868408
 issue_number: OEL-127
-id_numero: OEL-127
+id_numero: "OEL-127"
+numero_rivista: "Ombre e Luci"
 ---
 **Che posto ha l’umorismo nella vostra famiglia?** Mi sembra che l’umorismo o almeno il ridere ha sempre avuto posto nella nostra famiglia e mi pare ancora di più dopo la nascita di nostro figlio. L’umorismo ci ha fatto prendere le distanze rispetto a ciò che vivevamo, liberando il riso di cui avevamo bisogno per sfuggire ogni tanto alla realtà dell’handicap. Come un respiro profondo che evita l’asfissia e che permette di ritrovare le forze. Questo modo di trattare alla leggera cose gravi o pesanti ci ha permesso di non rinchiuderci in noi stessi, di mettere un po’ a distanza la sofferenza, di decomprimere semplicemente. L’umorismo non è legato per forza alla gioia, ma non è separabile dal comico, da cui proviene il suo aspetto terapeutico. Il riso libera le tensioni, lo stress, le angosce. È universale e comunicativo. Con Sebastiano ci ha aiutato spesso a trasformare una certa inerzia legata alla sua lentezza, dai suoi rituali, inconfondibili, dalle difficoltà di comprensione.
 

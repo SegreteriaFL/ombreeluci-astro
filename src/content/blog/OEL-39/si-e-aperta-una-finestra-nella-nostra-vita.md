@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-39
-id_numero: OEL-39
+id_numero: "OEL-39"
+numero_rivista: "Ombre e Luci"
 ---
 Siamo i genitori di Marco e vorremmo, con queste righe, farvi partecipi di quello che abbiamo provato il 28 luglio deiranno scorso, durante la [Cresima impartita dal caro Vescovo, Mons. Salvatore Boccaccio al nostro figliolo](http://www.ombreeluci.it/1992/cresima-marco/) durante il campo di Fede e Luce a Magnano.
 Da circa 20 anni stiamo passando attraverso tutte le prove d esame della vita, e voi ci capite. La nascita e la crescita di Marco aveva fatto chiudere la nostra vita e la nostra famiglia «a riccio»; lo abbiamo accettato e lo amiamo, ma è tutto e solo nostro, nostro il dolore, nostre le lacrime, nostre le pochissime gioie ed i suoi baci.

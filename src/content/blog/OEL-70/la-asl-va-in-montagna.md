@@ -12,7 +12,8 @@ umap_x: 7.51223611831665
 umap_y: 6.6788811683654785
 umap_z: 10.458756446838379
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 Chi ha fatto escursioni in montagna sicuramente ricorda ancora la sensazione bellissima di raggiungere il traguardo, di avercela fatta dopo tante fatiche. La soddisfazione è grande, ci si sente in pace con se stessi, si gode il panorama, la compagnia e un particolare senso di libertà. Ebbene, queste sensazioni che ci ricaricano hanno lo stesso effetto e diventano terapeutiche per le persone affette da malattie mentali e da disabilità psicofisiche.
 

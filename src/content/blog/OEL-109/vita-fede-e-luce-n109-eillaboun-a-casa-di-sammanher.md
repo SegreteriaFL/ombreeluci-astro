@@ -12,7 +12,8 @@ umap_x: 7.6287689208984375
 umap_y: 9.304189682006836
 umap_z: 14.041844367980957
 issue_number: OEL-109
-id_numero: OEL-109
+id_numero: "OEL-109"
+numero_rivista: "Ombre e Luci"
 ---
 L’Italia è stata divisa, dal movimento internazionale di Fede e Luce, in tre province: Nord, Centro e Sud. Al Nord è stata abbinata la provincia della Galilea. Per questo Angela Grassi, coordinatrice della provincia Nord, e Marco Bove, assistente spirituale, sono stati accompagnati da Lucia Casella, vice-coordinatrice internazionale del movimento, in Galilea dall’11 al 18 Gennaio u.s. per incontrare la comunità nascente di Fede e Luce e per creare nuovi e inaspettati legami di amicizia.
 C

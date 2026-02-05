@@ -4,8 +4,8 @@ date: 2003-12-22
 author: Redazione
 slug: cantilena-dei-re-magi
 lang: it
-numero_rivista: 84
-id_numero: OEL-84
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-84"
 issue_number: OEL-84
 wp_id: 28951
 original_url: "https://www.ombreeluci.it/?p=28951"
@@ -18,7 +18,6 @@ umap_x: 5.724045753479004
 umap_y: 6.11081075668335
 umap_z: 12.286059379577637
 ---
-
 In questa cantilena natalìzia, nata non si sa dove e da chi, sono mescolate poesia, religiosità, ingenuità e nostalgia. Basta leggerla a voce per sentirlo.
 
 È spuntata la Stella Cometa Con la coda di luce e di seta, Domattina verranno i Re Magi Maestosi ricchissimi e saggi.

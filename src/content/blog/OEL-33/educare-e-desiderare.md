@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-33
-id_numero: OEL-33
+id_numero: "OEL-33"
+numero_rivista: "Ombre e Luci"
 ---
 «Non siamo fatti per essere genitori di un figlio handicappato».
 Ho sentito questa frase due volte, questa settimana. La prima volta era pronunciata da un papà. Disperato, aveva appena saputo che la sua bambina di due giorni aveva una lesione al cervello. La seconda volta, da una coppia. Il loro figlio, Guglielmo, di otto anni, presenta turbe del comportamento che sconvolgono completamente l'atmosfera familiare. Travolti dalla situazione, schiacciati dalla scienza degli psicologi del centro dov'è accolto il bambino, erano senza speranza.

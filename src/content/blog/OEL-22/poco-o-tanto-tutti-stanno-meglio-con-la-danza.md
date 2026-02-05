@@ -14,7 +14,8 @@ umap_x: 8.826231956481934
 umap_y: 7.711608409881592
 umap_z: 9.004773139953613
 issue_number: OEL-22
-id_numero: OEL-22
+id_numero: "OEL-22"
+numero_rivista: "Ombre e Luci"
 ---
 Maria Fux è una specialista di danza terapia di fama mondiale. Cittadina argentina, di famiglia ebrea russa, era danzatrice classica.
 

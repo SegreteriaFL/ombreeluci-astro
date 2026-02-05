@@ -12,7 +12,8 @@ umap_x: 4.869753360748291
 umap_y: 6.736961841583252
 umap_z: 9.910887718200684
 issue_number: OEL-166
-id_numero: OEL-166
+id_numero: "OEL-166"
+numero_rivista: "Ombre e Luci"
 ---
 Sono quasi quaranta le firme lasciate sulla lavagna della nostra redazione, quella che di solito usiamo per buttare giù schemi e idee sui prossimi numeri. Stavolta, invece, è servita per scrivere **i nomi di chi è venuto a trovarci, sabato 6 aprile, per festeggiare i quarant’anni di Ombre e Luci** . Dalle mani storiche di Sergio Sciascia, il primo direttore della rivista, o di Paola e Maria Monica Gammarelli, che hanno ospitato la redazione nella loro palazzina per più di trent’anni, alle mani più giovani di Enrica Riera, collaboratrice preziosa da qualche anno, e delle nostre nuovissime vicine di condominio, Manuela e la figlia Elena, che vediamo spesso affacciarsi dalla finestra del piano di sopra. A queste, si sono aggiunte una nutrita rappresentanza romana di Fede e Luce, amici e ragazzi da Napoli e Milano, infine i reporter e blogger di Ombre e Luci. **Tutti hanno arricchito la festa con emozioni e ricordi.**
 

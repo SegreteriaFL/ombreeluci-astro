@@ -28,11 +28,11 @@
   src: url('/fonts/raleway-latin.woff2') format('woff2');
 }
 
-/* Colori: contrasto elevato, niente bianco ottico, grigio antracite per testi */
+/* Colori: tema centralizzato; modificando qui si aggiorna tutto il sito */
 :root {
-  --accent-color: #c41e3a;
-  --accent-hover: #a01930;
-  --text-color: #2d2d2d;
+  --accent-color: #008b8b;
+  --accent-hover: #007070;
+  --text-color: #142f2f;
   --text-secondary: #5c5c5c;
   --bg-color: #fafaf8;
   --bg-light: #f5f5f3;

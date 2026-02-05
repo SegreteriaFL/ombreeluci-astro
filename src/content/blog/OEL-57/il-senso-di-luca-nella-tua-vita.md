@@ -4,8 +4,8 @@ date: 1997-03-26
 author: Redazione
 slug: il-senso-di-luca-nella-tua-vita
 lang: it
-numero_rivista: 57
-id_numero: OEL-57
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-57"
 issue_number: OEL-57
 wp_id: 11467
 original_url: "https://www.ombreeluci.it/?p=11467"
@@ -15,7 +15,6 @@ umap_x: 6.97592306137085
 umap_y: 9.211052894592285
 umap_z: 11.770864486694336
 ---
-
 Riportiamo le parole che un padre benedettino — Dominio Milroy — ha detto a S. Anselmo a Roma durante la messa di saluto a Luca; un giovane di 22 anni «la cui vita sembrava (a noi) avere così poco significato». Ci sembrano parole profonde, vere, difficili da dirsi e da ascoltarsi, forse. Proprio per questo le proponiamo a tutti coloro che vogliono imparare il linguaggio della vera «compassione», del soffrire insieme a chi ha bisogno di consolazione rispettosa e non banale.
 
 Quando mi hai chiesto al telefono se il dolore se ne andrà, dissi di no, che non se ne andrà. Vorrei cercare di spiegarmi meglio. La risposta semplice è «Sì, non ti preoccupare, le cose andranno meglio, col tempo guarirai». Ciò significa che il dolore è solo per oggi, e che domani comincerai a dimenticare. Prima o poi la vita continuerà come se niente fosse successo. Ma questo è negare la verità. La verità è che ciò che ti è accaduto è una cosa assoluta, centrale, irreversibile. La presenza di Luca nella tua vita — e adesso la sua assenza — è stata definitiva. Non un incidente da sopportare, un inconveniente da accettare, un peso da sorreggere coraggiosamente. E neanche un «mistero» della Provvidenza, né una sfida alla «condizione umana». Tutte queste cose, sì, ma molto di più.

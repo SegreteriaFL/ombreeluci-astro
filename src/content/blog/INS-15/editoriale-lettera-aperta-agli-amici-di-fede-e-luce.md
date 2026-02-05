@@ -12,8 +12,9 @@ umap_x: 6.571526050567627
 umap_y: 8.371745109558105
 umap_z: 12.22806167602539
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 Grazie Signore; è la prima volta che un ragazzo ha cantato e suonato una canzone tutta per me. La musica mi è piaciuta, le parole io le ho capite poco, ma ai miei genitori avrebbero fatto tanto piacere:
 
 *"È una bella mattina, ed è qui con noi una bella bambina; è festa oggi, ed è venuta a mangiare con noi M., una simpatica bambina." *

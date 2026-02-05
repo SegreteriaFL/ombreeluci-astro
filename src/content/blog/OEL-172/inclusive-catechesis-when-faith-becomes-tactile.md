@@ -18,8 +18,9 @@ umap_x: 9.265469551086426
 umap_y: 10.266674995422363
 umap_z: 8.860041618347168
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 **“But why would you want him to receive Communion? He can’t even tell a supermarket from a communion wafer.”**
 
 These harsh words, said by a priest to the mother of an autistic boy, were shared in a comment by one of our readers—a religion teacher—under [an article from 1976](https://www.ombreeluci.it/1976/guidare-alla-luce-catechesi-sensoriale-per-una-vita-spirituale-inclusiva/) published in *Insieme* . A harsh judgment that ignores the ability of people with disabilities to live their faith authentically—even if with different tools and timelines. The teacher didn’t give up: she wants to create a **tactile book** designed for her student, because she rightly believes that every child can be guided on a spiritual journey.

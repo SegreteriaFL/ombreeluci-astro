@@ -6,6 +6,7 @@ theme: "cluster-12"
 cluster_id: 12
 slug: "case-famiglia-iniziative-e-centri-di-accoglienza-per-disabili-1983-al-1989"
 has_comments: false
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

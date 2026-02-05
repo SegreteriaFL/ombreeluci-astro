@@ -12,7 +12,8 @@ umap_x: 7.734662055969238
 umap_y: 9.393304824829102
 umap_z: 14.157699584960938
 issue_number: OEL-149
-id_numero: OEL-149
+id_numero: "OEL-149"
+numero_rivista: "Ombre e Luci"
 ---
 ### «Fede e Luce è Chiesa!»
 

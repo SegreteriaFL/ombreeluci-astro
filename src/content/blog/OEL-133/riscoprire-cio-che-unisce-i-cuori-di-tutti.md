@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-133
-id_numero: OEL-133
+id_numero: "OEL-133"
+numero_rivista: "Ombre e Luci"
 ---
 L’incontro del papa Francesco col patriarca di Mosca Cirillo a Cuba, anche se breve, è stato indubbiamente un evento storico, un incontro che ha suscitato speranze per l’unità e la concordia tra i cristiani. Da parte di Roma c’era da tempo un desiderio ardente di un incontro. Mosca però era diffidente. Perché? Davvero le cose adesso sono cambiate tra cattolici e ortodossi?
 

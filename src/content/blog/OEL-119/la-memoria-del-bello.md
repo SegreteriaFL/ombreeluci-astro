@@ -15,7 +15,8 @@ umap_x: 7.990805625915527
 umap_y: 12.76000690460205
 umap_z: 9.43907642364502
 issue_number: OEL-119
-id_numero: OEL-119
+id_numero: "OEL-119"
+numero_rivista: "Ombre e Luci"
 ---
 “Lamemoria del bello” è un progetto dedicato ai pazienti con malattia di **[Alzheimer](https://www.ombreeluci.it/tag/alzheimer/)** e prevede una serie di visite guidate per i pazienti e i loro *caregivers* (familiare/accompagnatore che si prende cura della persona malata).
 

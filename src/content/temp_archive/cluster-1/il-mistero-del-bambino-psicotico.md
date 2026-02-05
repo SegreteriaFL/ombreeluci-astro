@@ -7,6 +7,7 @@ cluster_id: 1
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/6-1-209x300.jpg"
 slug: "il-mistero-del-bambino-psicotico"
 has_comments: false
+id_numero: "OEL-6"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

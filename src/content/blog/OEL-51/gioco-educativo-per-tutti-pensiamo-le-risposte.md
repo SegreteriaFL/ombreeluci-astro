@@ -12,8 +12,9 @@ umap_x: 5.635129451751709
 umap_y: 7.875720500946045
 umap_z: 8.107009887695312
 issue_number: OEL-51
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 Abbiamo ripreso in mano un testo di Maria Montessori; «Il segreto dell’infanzia», pubblicato da Garzanti nel ‘50: un libro che ci ha affascinato per la luce che, in forma poetica e scientifica insieme, questa grande educatrice getta sulla vita del bambino nei primi anni di vita. Molti non sanno che Maria Montessori ha cominciato il suo lavoro di educatrice con i bambini disabili. Forse per questo nelle pagine di questo libro ci siamo ritrovati. Infatti, quanto l’autrice ci dice del bimbo «normale», del suo bisogno vitale di essere «capito» dagli adulti per essere accompagnato con intelligenza nel suo sviluppo, ci ha fatto intravedere come e quanto lo stesso bisogno vitale, in modo leggermente diverso, si trova nei nostri ragazzi disabili. Abbiamo pensato di scegliere otto episodi narrati nel libro e di usarli per mettervi alla prova: giovani e adulti, educatori e genitori, nonne e nonni compresi, chi è alle prese con bimbi piccoli e con persone disabili. Ve li proponiamo come un test; provate a vedere se siete «educatori», più o meno validi almeno in potenza. Scoprirete pure che il segreto dell’infanzia è anche il segreto dei nostri amici con handicap intellettivo o con disturbi di comportamento. Al lavoro, e magari scriveteci per dirci com’è andata.
 U
 n giorno presi parte a un gioco di bambini di pochi anni di età che gridavano battendo le mani festosamente perché avevano trovato il compagno nascosto dietro la porta. Mi vennero incontro e mi dissero: «Gioca con noi, nasconditi». Accettai. Tutti corsero fuori fedelmente come quando ci si allontana per non vedere dove l’altro si nasconderà. Io, invece di mettermi dietro la porta, mi misi in un angolo nascosta dietro un armadio. Quando i piccoli rientrarono, andarono tutti insieme a cercarmi dietro la porta. Io attesi un po' di tempo e finalmente, constatando che non mi cercavano, venni fuori dal mio nascondiglio. 1 bambini erano disillusi e tristi e mi chiesero:...

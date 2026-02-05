@@ -12,7 +12,8 @@ umap_x: 7.516844749450684
 umap_y: 10.198277473449707
 umap_z: 6.1070556640625
 issue_number: OEL-13
-id_numero: OEL-13
+id_numero: "OEL-13"
+numero_rivista: "Ombre e Luci"
 ---
 «L’opera vuol essere un contributo di pensiero e di esperienza al difficile compito che la scuola e la famiglia in particolare si sono assunte e che la società va oggi riscoprendo in termini drammatici e su posizioni non risolutive». Libro indiscutibilmente interessante e utile. Gli autori fondano la loro osservazione e il loro lavoro su «una convinzione scientifica e allo stesso tempo morale, secondo cui, oltre la barriera elevata dalla pluri-minorazione e dalla cecità tra noi e il bambino, esiste e vive un bambino con insospettate potenzialità delle quali una piccola percentuale ci è dato di trarre fuori per gli scarsi mezzi connessi con la nostra conoscenza del problema, con la povertà delle strutture inadeguate per compiti così delicati e complessi...». Una volta espressa questa convinzione comune, ognuno dei quattro autori presenta i frutti della propria esperienza, chi a titolo di medico, chi a titolo di insegnante-educatore. I capitoli sono di interesse diverso secondo la categoria del lettore, il quarto capitolo è senza dubbio più interessante perché A. Passaro presenta programmi di terapia educativa che riguardano l’autonomia, il controllo degli sfinteri, il comportamento; si occupa quindi di problemi prioritari che interesseranno e gli insegnati e i genitori. Gli altri capitoli mi sembrano scritti con un pensiero e un vocabolario tali da interessare soprattutto i professionisti e gli psicologi. di
 *Nicole Schultes*

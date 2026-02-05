@@ -16,8 +16,9 @@ umap_x: 6.36393928527832
 umap_y: 5.959786891937256
 umap_z: 8.666213989257812
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Prof, ci fa vedere il gatto?». Si erano passati la voce, mi dice l’amica insegnante. Il giorno precedente, mentre faceva lezione a una prima, il suo gatto era salito sulla cattedra: e adesso anche quelli della terza volevano vederlo. Perché no, in fondo che male fa: «Eccovelo!». Applausi, tripudio. Dagli altoparlanti. Dai rettangolini del mosaico sullo schermo.
 
 Perché avrete capito che la cattedra in realtà era il tavolo di sala nella casa della mia amica, e la lezione era telematica.

@@ -12,7 +12,8 @@ umap_x: 6.442388534545898
 umap_y: 8.629778861999512
 umap_z: 8.838667869567871
 issue_number: OEL-106
-id_numero: OEL-106
+id_numero: "OEL-106"
+numero_rivista: "Ombre e Luci"
 ---
 U
 na comunità che ospita bambini con gravi patologie non nasce ‘imparata’. Come qualsiasi altra famiglia, impara dalla realtà, dall'esperienza e dagli esempi. Ciò che all’inizio spaventa col tempo diventa routine. Ma ci vogliono stimoli e testimoni. È ciò che è successo a noi con Fatima. Quando è arrivata in comunità aveva diciotto mesi e un corredo di ventilatore-aspiratore-ossigeno-peg-sondini e quant'altro. Da professionisti non osavamo sgarrare di un millimetro dalle indicazioni del medico rianimatore che la seguiva a domicilio. Era il tempo dei guanti sterili per l'aspirazione, del ‘fermi tutti, si deve usare l’ambu

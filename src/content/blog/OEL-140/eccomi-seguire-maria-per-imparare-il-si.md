@@ -11,8 +11,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-140
+id_numero: "OEL-140"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### L'Eccomi di Maria: inizio di una nuova storia
 
 “Eccomi sono la serva del signore, avvenga in me quello che hai detto”: con queste parole pronunciate da Maria inizia una nuova, fondamentale pagina nella storia dell’umanità e nel cammino di salvezza. Sono parole piene di significato, ognuna di esse è fonte di riflessione per ogni cristiano chiamato a confrontarsi con la propria vocazione, e in particolare noi giovani che in questi anni della nostra vita siamo chiamati a compiere scelte importanti, scelte che dovrebbero essere coerenti con la fede che professiamo.

@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "come-far-nascere-una-nuova-comunita-fede-e-luce"
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26308
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 Quando ero viceparroco nel Vallese (Svizzera) ho avuto la grazia immeritata e la grande gioia di rispondere alla prima ‘chiamata’ per fondare una comunità “Fede e Luce” per Lourdes 1981. Da questa ne sono ‘nate’ quattro altre di lingua francese.
 Trasferito al Passo del Sempione nella parte tedesca del Vallese, ho messo due anni per trovare genitori ed amici per fondare la prima comunità svizzera di lingua tedesca nel 1985.
 A Lourdes 1991 abbiamo benedetto la bandiera della quinta comunità. Trasferito in Valle d’Aosta ho di nuovo vissuto due anni di ‘deserto’ prima di mettere in piedi la comunità ‘Saint Bernard d’Aoste in preparazione di Lourdes 2001.

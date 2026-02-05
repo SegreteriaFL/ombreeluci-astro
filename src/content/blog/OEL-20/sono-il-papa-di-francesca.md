@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-20
+id_numero: "OEL-20"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sono il papà di Francesca**, post-matura con la derivante manifestazione di ritardo psichico. Quando è nata ho provato un’emozione e una tenerezza indicibili pur consapevole delle difficoltà che avrei dovuto affrontare in un futuro non certo agevole.
 Ero infuriato contro i medici che non erano intervenuti in tempo, inspiegabilmente increduli che il termine fosse scaduto. Sin da allora sono alla ricerca persistente di nuove risorse, di un nome illustre, di un’autorità, di un’équipe di rilievo nel campo medico, sottoponendo Francesca a esami e visite, rivolgendomi ovunque e a chiunque secondo le informazioni percepite e partecipando a congressi per trovare un’indicazione.
 Io, medico tradizionale**, ho frequentato corsi di omeopatia ed agopuntura per trovare nuove strade non tralasciando nulla intentato. Ininterrottamente proteso ad accogliere suggerimenti e nuove proposte ho tra le altre, per lungo tempo, praticato ipnosi e pranoterapia oltre ai metodi consigliatimi sia da Delacato che da Doman di Philadelphia.

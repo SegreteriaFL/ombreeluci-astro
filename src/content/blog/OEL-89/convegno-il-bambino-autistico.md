@@ -4,8 +4,8 @@ date: 2005-03-16
 author: Laura Nardini
 slug: convegno-il-bambino-autistico
 lang: it
-numero_rivista: 89
-id_numero: OEL-89
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-89"
 issue_number: OEL-89
 wp_id: 30756
 original_url: "https://www.ombreeluci.it/?p=30756"
@@ -15,7 +15,6 @@ umap_x: 6.83214807510376
 umap_y: 8.30081558227539
 umap_z: 6.476039409637451
 ---
-
 N
 el convegno si voleva fare il punto sulle attuali conoscenze delle cause dell’autismo e sulle possibilità terapeutiche e riabilitative. Era rivolto in particolare alle professioni impegnate nella ricerca, nella clinica e nella terapia dei pazienti autistici in età evolutiva (medici, psicologi, pedagogisti, educatori e terapisti della neuromotricità). Per questo sono stati presentati e discussi temi strettamente tecnici poco accessibili a chi, come me, ha solo un'idea generale sull’autismo. Comunque questo non mi ha impedito, in due giorni di convegno, di capire e riportare a voi gli argomenti che i relatori hanno in particolare trattato.
 

@@ -12,8 +12,9 @@ umap_x: 9.340364456176758
 umap_y: 10.217135429382324
 umap_z: 8.93156623840332
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 Lamia esperienza risale a una quindicina di anni fa, quando mi affidarono alcuni bambini diversi da preparare alla Prima Comunione.
 
 Nonostante la mia formazione pedagogica, mi trovai sconcertata. Testi e sussidi mancavano completamente. Mi accinsi al lavoro con molto amore, ma senza preparazione.

@@ -4,8 +4,8 @@ date: 1996-12-15
 author: Tommaso Bertolini
 slug: il-nostro-cammino
 lang: it
-numero_rivista: 56
-id_numero: OEL-56
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-56"
 issue_number: OEL-56
 wp_id: 5879
 original_url: "https://www.ombreeluci.it/?p=5879"
@@ -17,7 +17,6 @@ umap_x: 9.312126159667969
 umap_y: 10.022202491760254
 umap_z: 9.95945930480957
 ---
-
 Quando ho visto il modo in cui il Vescovo ci accoglieva durante la cerimonia e come, dopo, tranquillamente scherzava con tutti, ho capito che il cerchio si era realmente chiuso e che tutto era andato bene; meglio forse di quanto avremmo potuto sperare. Assistendo alla scena di gioia semplice e di comunanza di quegli amici attorno all' altare ho pensato a tutto il cammino che aveva portato a quel giorno. Le discussioni, gli incontri di preghiera e di preparazione, le esortazioni, i dubbi, gli scherzi, la soddisfazione. E così mentre il piccolo Stefano impugnava con orgoglio e divertimento la pastorale e mentre il Vescovo salutava con attenzione e semplicità Elena, Mario ed Enzo mi sono tornate in mente le prime volte che tra noi abbiamo parlato della cresima e del progetto di prepararci insieme nel nostro gruppo. Tutto è cominciato quando un giorno ci siamo accorti che un po' di noi nel gruppo dovevano ancora cresimarsi: qualcuno da poco si era riavvicinato alla Chiesa, qualcuno non ci aveva mai pensato, qualcuno aveva «promesso» prima di sposarsi, qualcuno progettava di sposarsi, qualcuno rimandava, rimandava. E così è venuto naturale proporre: perché non a Fede e Luce, insieme? tutti? Abbiamo poi scoperto che molti di noi pensavano: «Se non la faccio a Fede e Luce probabilmente non la farò mai». Chissà se accade qualcosa di simile anche negli altri gruppi, ma da noi al gruppo del Don Orione per molti questa prospettiva di preparazione comunitaria è stata la molla decisiva per intraprendere questo cammino. Questo fatto mi sembra proprio una cosa bella e tipica di Fede e Luce: a volte si va per aiutare e spesso ci si trova non si sa bene come spinti ed aiutati. Nel corso dei nostri incontri spesso ci chiedevamo come coinvolgere di più nelle preghiere e nella preparazione i ragazzi, ma ora riguardando indietro ci troviamo a constatare che probabilmente sono stati loro i primi a coinvolgerci in tutta questa storia.
 **C'è un programma sperimentato**
 La prima riunione organizzativa vera e propria si è svolta con diversi gruppi di Roma che avevano avuto la stessa nostra intenzione di prepararsi alla cresima. Questo primo incontro ci ha permesso di chiarirci un po' le idee sulle precedenti esperienze di preparazione per la cresima già presenti nella storia di Fede e Luce. In questa sede abbiamo scoperto l'esistenza di un programma alla cresima, frutto di un anno di lavoro di alcuni amici di Fede e Luce di Roma già utilizzato con altre persone nell'ambito di alcune comunità. Questo programma, che con noi sembra aver funzionato molto bene, indica in lunghe linee gli argomenti da trattare in una serie di nove incontri; alcuni consigli sono dati anche in relazione ai brani della Bibbia da leggere ed alle modalità con cui svolgere gli incontri. Non esistevano invece, o almeno qui a Roma non ci è risultato, esperienze di preparazione di un gruppo così numeroso di ragazzi e amici. A questo proposito ci siamo chiesti in che modo riuscire a preparare alla cresima con uno stesso cammino persone con caratteristiche diverse. Persone che sanno leggere e persone che non lo sanno? Persone che sanno parlare ed altre che non lo sanno? Come conciliare nella preparazione le nostre diversità e il nostro bisogno di affrontare questo cammino insieme?

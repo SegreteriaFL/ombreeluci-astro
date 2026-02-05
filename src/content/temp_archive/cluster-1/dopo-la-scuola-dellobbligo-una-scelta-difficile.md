@@ -7,6 +7,7 @@ cluster_id: 1
 image: "https://www.ombreeluci.it/wp-content/uploads/2020/04/oel071-010-893x1024.jpg"
 slug: "dopo-la-scuola-dellobbligo-una-scelta-difficile"
 has_comments: false
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -15,7 +15,8 @@ umap_x: 7.0729522705078125
 umap_y: 9.142070770263672
 umap_z: 12.932815551757812
 issue_number: OEL-168
-id_numero: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
 In quel pomeriggio, Mariangela Bertolini raccontava la sua esperienza di mamma di Chicca, che era nata affetta da una grave disabilità, e di come la sua vita di donna, sposa e madre era stata rimodellata da questo evento. Fondatrice di *Fede e Luce* in Italia, condivideva con noi lo stupore per la fecondità di vita di questa grande famiglia. Ero stata invitata a una formazione a in via Cola di Rienzo, più di vent’anni fa. Le sue parole mi avevano portato a contatto con le profondità della mia coscienza, come solo sa fare la verità, come quando traspare all’improvviso che tutta la nostra vita è tessuta nel mistero pasquale. Durante la pausa mi avvicinai a Mariangela e le confessai con dolore: «Sa… ho 21 anni, sono tornata a frequentare la Chiesa da circa un anno e sto vivendo con gioia la bellezza di appartenere a *Fede e Luce* . Amo i “ragazzi”, ma ho anche paura… se sapessi di portare in grembo un figlio con disabilità, forse abortirei». Lei mi guardò con amore e mi disse: **«La disabilità non è una cosa buona, non è desiderabile. Comprendo il tuo pensiero e se accadesse ciò che dici, non potrei giudicarti. Ti chiedo solo una cosa. Ricordati, se mai accadesse e non ce la fai… se tu volessi comunque farlo nascere… se vuoi, lo prenderò io». Le sue parole mi trafissero.**
 

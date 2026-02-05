@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-146
-id_numero: OEL-146
+id_numero: "OEL-146"
+numero_rivista: "Ombre e Luci"
 ---
 Anche se sappiamo bene che egli dal cielo sorriderà per queste parole, nondimeno è certamente vero che [Jean Vanier](https://www.ombreeluci.it/jeanvanier/) ha avuto una rilevanza tale nella comunità cristiana e nel mondo che meriterebbe di essere insignito di qualcosa di ben più significativo di un Premio Nobel per la pace. Anche se i principali quotidiani italiani non hanno nemmeno riportato la notizia della sua morte.
 

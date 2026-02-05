@@ -7,6 +7,7 @@ cluster_id: 6
 image: "https://www.ombreeluci.it/wp-content/uploads/2021/06/00.-13-Ombre-e-Luci-n.-79-2002-1024x576.jpg"
 slug: "la-mia-vita-come-una-gioiosa-battaglia-alexandre-jollien"
 has_comments: false
+id_numero: "OEL-79"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

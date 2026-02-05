@@ -12,7 +12,8 @@ umap_x: 7.791591167449951
 umap_y: 7.0291056632995605
 umap_z: 11.677953720092773
 issue_number: OEL-123
-id_numero: OEL-123
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
 ### Chi trova un amico trova un tesoro
 

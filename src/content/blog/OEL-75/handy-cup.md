@@ -12,7 +12,8 @@ umap_x: 7.953159332275391
 umap_y: 7.036211013793945
 umap_z: 9.513411521911621
 issue_number: OEL-75
-id_numero: OEL-75
+id_numero: "OEL-75"
+numero_rivista: "Ombre e Luci"
 ---
 *“Come il capitano e l’equipaggio governano una barca in mezzo ad una burrasca e la riconducono nella tranquillità del porto, così l’Io dell’adolescente deve fronteggiare le burrasche interiori tipiche dell’età, mostrando di saper sempre più prendere in mano il timone della propria vita”.*
 

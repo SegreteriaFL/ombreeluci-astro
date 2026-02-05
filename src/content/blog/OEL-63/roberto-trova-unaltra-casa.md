@@ -4,8 +4,8 @@ date: 1998-09-28
 author: Redazione
 slug: roberto-trova-unaltra-casa
 lang: it
-numero_rivista: 63
-id_numero: OEL-63
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-63"
 issue_number: OEL-63
 wp_id: 12322
 original_url: "https://www.ombreeluci.it/?p=12322"
@@ -18,7 +18,6 @@ umap_x: 7.417102813720703
 umap_y: 8.142888069152832
 umap_z: 8.694912910461426
 ---
-
 Si può mettere in piedi una comunità, una struttura pubblica, che accolga adulti con più o meno gravi difficoltà psico-intellettive? Le leggi lo permettono, i soldi, pare non costituiscano un problema insormontabile. Allora? In realtà, per far muovere il tutto, ci vogliono persone coraggiose e determinate. Nel caso del «Melograno», sono due grandi donne che hanno acceso il fuoco!
 S
 ettembre ’96: Roberto entra in Comunità, una struttura comunale sovvenzionata dallo stesso comune, gestita dalla ASL e dagli stessi operatori della cooperativa che per dieci anni lo hanno assistito a casa. Il posto è bello, dentro il centro abitato ma con un bel giardino alberato attorno e un melograno, da cui la casa ha preso il nome, nel mezzo. Tutto bene, mi ritengo fortunata di aver trovato questo aiuto; chi ha vissuto trentatré anni con un figlio autistico, conosce la fatica ed io in questo periodo sono stressata anche perché sono rimasta vedova, ho problemi per la mia salute e altre preoccupazioni. Quindi dicevo: sono contenta, si è realizzato il mio desiderio di vedere dove starà mio figlio con persone che lo conoscono; in cuor mio ringrazio chi mi ha aiutato a ottenere tutto questo. La comunità è vicina a casa mia, a due fermate di autobus, ma, per chi piace camminare, è una bella passeggiata. Potrò andare a trovarlo spesso, starò lì qualche oretta del pomeriggio, porterò il gelato o le pastarelle per tutti i compagni (come a una festa). Forse potrò riordinargli la stanza e i cassetti della biancheria. Non voglio abbandonarlo. Purtroppo non sarà così, c’è un’altra prova dura da affrontare. Mi dicono di non andare: è meglio per Roberto che non mi faccia vedere lì. Più avanti — mi dicono — potrò prenderlo a casa quanto vorrò. Si chiude il cancello. Così ci siamo separati madre e figlio.

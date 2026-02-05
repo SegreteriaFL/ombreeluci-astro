@@ -12,7 +12,8 @@ umap_x: 8.425783157348633
 umap_y: 10.684239387512207
 umap_z: 10.57875919342041
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 Le testimonianze di Mariangela Bertolini, Chiara Amirante, suor Monica Bano, Anna e Massimo La veroni, Mariagrazia Labbate, Luigina e Luciano Navone e Carla Zichetti danno nuovo senso al **MAGNIFICAT** nel nostro tempo, in questo video della durata di 45 minuti che può essere acquistato nei negozi specializzati o richiesto direttamente agii editori.
 

@@ -14,7 +14,8 @@ umap_x: 6.365201473236084
 umap_y: 10.759905815124512
 umap_z: 5.766707420349121
 issue_number: OEL-130
-id_numero: OEL-130
+id_numero: "OEL-130"
+numero_rivista: "Ombre e Luci"
 ---
 Lozaino che Emma dovrà portare per tutta la vita sulle spalle, è la sindrome di Down. Percorrerà il suo cammino, riuscirà a fare le cose che fanno i suoi fratelli, ma sempre con più fatica degli altri perché ha questo fardello sulle spalle; i suoi genitori e tante altre persone possono aiutarla, ma non possono portare quello zaino per lei.
 

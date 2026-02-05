@@ -12,7 +12,8 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-9
-id_numero: OEL-9
+id_numero: "OEL-9"
+numero_rivista: "Ombre e Luci"
 ---
 Questi libretti sono i primi due di una collana di sussidi per la riflessione di gruppo e per stimolare l’impegno personale. Sono ben curati, eleganti e costano poco.
 

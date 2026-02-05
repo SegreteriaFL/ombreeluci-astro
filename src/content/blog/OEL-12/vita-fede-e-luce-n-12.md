@@ -16,8 +16,9 @@ umap_x: 7.709988594055176
 umap_y: 9.070538520812988
 umap_z: 14.016783714294434
 issue_number: OEL-12
+id_numero: "OEL-12"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Due incontri di formazione internazionale: nel desiderio di crescere insieme, con l'obiettivo di migliorare il modo di stare in comunità, affrontando le sfide che inevitabilmente si pongono... e scoprire che diventano occasione per superare le proprie paure.*
 
 ### Versailles - Incontro della zona Sud Europa

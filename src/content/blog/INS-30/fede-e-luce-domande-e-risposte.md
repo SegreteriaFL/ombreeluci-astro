@@ -14,8 +14,9 @@ umap_x: 7.093729496002197
 umap_y: 8.784443855285645
 umap_z: 13.289491653442383
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Daotto anni, da quando è cominciato a svilupparsi in Italia il movimento [Fede e Luce](https://www.fedeeluce.it/) , ci viene chiesto da più parti, chi siamo, cosa facciamo, dove, quando, perché?
 
 E queste domande si son fatte più numerose in questi ultimi anni. Ora da una mamma che vive nel nord, ora da un amico che ne ha sentito parlare, ora da un sacerdote incontrato per caso... Leggendo queste pagine, speriamo e ce lo auguriamo, si capirà perché è difficile rispondere per telefono o per lettera a queste domande.

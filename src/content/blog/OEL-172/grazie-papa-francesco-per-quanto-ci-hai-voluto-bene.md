@@ -14,8 +14,9 @@ umap_x: 8.788351058959961
 umap_y: 9.296963691711426
 umap_z: 10.922263145446777
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ilcuore è colmo di tristezza per la morte di papa Francesco, avvenuta questa mattina, Lunedì dell'Angelo dell'anno giubilare 2025.
 
 Vogliamo ricordarlo accanto ai ragazzi della comunità dell'Arca di Ciampino, in una di quelle occasioni di incontro da lui fortemente volute e assai significative che avvenivano nei [venerdì della Misericordia](https://www.ombreeluci.it/2016/papa-francesco-al-chicco-qui-mi-avete-toccato-il-cuore/) del 2016.

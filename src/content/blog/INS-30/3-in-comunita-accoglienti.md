@@ -12,8 +12,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Gennaio 1980
 
 Rispondendo all'appello di Lourdes, scopriamo di avere le mani vuote e talvolta anche il cuore senza maschere o etichette. Va bene essere così come siamo, siamo abbastanza attenti agli altri?

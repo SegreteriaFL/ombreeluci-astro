@@ -12,7 +12,8 @@ umap_x: 5.79728889465332
 umap_y: 7.984158039093018
 umap_z: 9.15137767791748
 issue_number: OEL-43
-id_numero: OEL-43
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
 Romolo e suo fratello gemello Remo sono due ragazzi da molti anni appartenenti alla comunità F. L. San Francesco. Da alcuni anni vivono da soli in un piccolo appartamento di case popolare. Abbiamo parlato a lungo con Romolo , poco dopo il matrimonio di due amici Fede e Luca: Antonio e Cristiana.
 **Da quanto conosci Antonio e Cristiana?**

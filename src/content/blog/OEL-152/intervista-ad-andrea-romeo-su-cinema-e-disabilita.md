@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 # Intervista ad Andrea Romeo su cinema e disabilità
 
 ## Abbiamo fatto una chiaccherata con Andrea Romeo, giornalista e presidente del Biografilm Festival e fondatore di "I Wonder Pictures" e "Pop Up Cinema", sul tema della disabilità al cinema.

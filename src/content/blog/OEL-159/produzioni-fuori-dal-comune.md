@@ -12,7 +12,8 @@ umap_x: 8.984756469726562
 umap_y: 8.242626190185547
 umap_z: 3.1722426414489746
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 «In
 Canada alla proiezione di un nostro cortometraggio, una ragazza ci disse che si era proprio dimenticata di aver difronte una persona con disabilità… Questo è quello che cerchiamo di ottenere con ogni nostra produzione:

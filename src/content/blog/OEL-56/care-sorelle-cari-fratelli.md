@@ -4,8 +4,8 @@ date: 1996-12-15
 author: Mariangela Bertolini
 slug: care-sorelle-cari-fratelli
 lang: en
-numero_rivista: 56
-id_numero: OEL-56
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-56"
 issue_number: OEL-56
 wp_id: 11121
 original_url: "https://www.ombreeluci.it/?p=11121"
@@ -17,7 +17,6 @@ umap_x: 4.861566066741943
 umap_y: 7.1963114738464355
 umap_z: 10.178228378295898
 ---
-
 Grazie di cuore a quanti di voi hanno risposto ai questionari con lettere e testimonianze. Grazie a quelli che sono venuti alla riunione di settembre. I vostri contributi ci hanno permesso di mettere insieme questo numero di Ombre e Luci, il terzo dedicato a voi ( [qui](http://www.ombreeluci.it/project/numero-9-fratelli-sorelle/) e [qui](http://www.ombreeluci.it/project/numero-29-fratelli-responsabili/) i precedenti).
 
 Sì, è vero, come sostengono alcuni di voi, **non è facile raccontare quanto di intimo si ha nel cuore, ciò che si è vissuto, spesso da soli** ; è perfino impossibile parlare di certe cose. Eppure, il silenzio, da parte nostra, potrebbe sembrare disinteresse, paura di sbagliare nel toccare certe corde, di offendere o semplicemente paura di farvi del male col «frugare» là dove preferite non si metta mano.

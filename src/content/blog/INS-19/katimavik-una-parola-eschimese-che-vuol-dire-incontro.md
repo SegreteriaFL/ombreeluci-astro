@@ -14,8 +14,9 @@ umap_x: 7.99595832824707
 umap_y: 7.2536821365356445
 umap_z: 11.944805145263672
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 *Il 14, 15, 16 Luglio si è tenuto un [Katimavik](https://www.ombreeluci.it/1979/che-cose-un-katimavic/) al quale al quale erano invitati i partecipanti del campeggio di Alfedena e alcuni rappresentanti dei gruppi Fede e Luce d'Italia.*
 
 *Insieme abbiano cercato di:*

@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 È finalmente arrivato agosto. In Calabria il caldo è opprimente e la famiglia di Silvia, ormai in vacanza, si gode un tempo insieme: mamma, papà e i tre figli. Vivono a Roma da diversi anni, ma è in Calabria che hanno i parenti più stretti e gli amici più cari. Solo pochi minuti, una manciata di minuti, e il papà una notte si sente male; arriva l’ambulanza, ma l’uomo muore prima di giungere in ospedale. **Sono tutti attoniti, Silvia ha visto suo padre andare via, in ambulanza, il suono forte della sirena ancora nelle orecchie.
 Silvia è tornata a Roma ed è dopo questa traumatica esperienza che, verso la fine di settembre, si riaffaccia a [Guscio di Noce](https://www.associazionegusciodinoce.it/). Aveva iniziato a frequentare il nostro centro diurno alcuni mesi prima, stupendoci per la sua capacità di disegnare e di acconciarsi i capelli. Silvia è una ragazza autistica.

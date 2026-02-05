@@ -12,7 +12,8 @@ umap_x: 5.525774002075195
 umap_y: 9.391520500183105
 umap_z: 8.931989669799805
 issue_number: OEL-153
-id_numero: OEL-153
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
 Questa è la storia di una donna che ha commesso un crimine che l’umanità non perdona. Ha rifiutato il ruolo di vittima. Eva Rodrigues aveva tutti i requisiti per meritare questa sentenza. Era donna: una disgrazia. Era negra: una disgrazia. Era povera: una disgrazia. E, come se non bastasse, era nata da un parto complicato. Aveva una paralisi cerebrale. Tremava tutta, rovesciava il mangiare, camminava a fatica, la goffaggine fatta persona. A Eva, il mondo riservava un solo destino: quello di essere una disgraziata. Avrebbe giusto potuto tendere la mano e chiedere l’elemosina. E ricevere sguardi di profonda pena. In cambio di quella moneta, avrebbe restituito al donatore non soltanto il sollievo della carità, ma un altro, segreto: la garanzia che la deformità, come la pazzia, riguarda sempre l’altro.
 

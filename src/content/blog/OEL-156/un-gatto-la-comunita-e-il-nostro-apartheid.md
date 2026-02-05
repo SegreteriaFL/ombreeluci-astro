@@ -11,8 +11,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Può addirittura capitare che ti piova in testa una vita nuova che tu proprio non ti aspettavi per nessun motivo al mondo». È impaziente di raccontare la sua storia Akin, uno dei protagonisti di *Vi stupiremo con difetti speciali* (Giunti 2020), il libro di Patrizia Rinaldi e Francesca Assirelli che racconta ai piccoli le storie di tre bimbi – Alba, Huang e, appunto, Akin. Come in una fiaba, le voci narranti presentano **un vissuto capace di ribaltare la non accettazione in amore e accoglienza. Il percorso è a ostacoli, e non solo all’inizio quando i genitori rifiutano i nati perché non sono come li avrebbero voluti, ma la certezza sottostante ogni parola e ogni illustrazione è che l’amore «va dove gli pare». E un’altra storia è possibile.
 Ad aprire il libro è Alba, che ha 18 mesi, un gatto, un papà e la sindrome di Down. La sua storia i lettori adulti l’hanno conosciuta qualche anno fa attraverso i giornali e, soprattutto, attraverso *Nata per te* (Einaudi 2018) il libro in cui, con Luca Mercadante, Luca Trapanese ha raccontato la storia di sua figlia.
 

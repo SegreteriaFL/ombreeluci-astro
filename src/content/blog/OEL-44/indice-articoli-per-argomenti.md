@@ -15,8 +15,9 @@ umap_x: 6.747193813323975
 umap_y: 9.864869117736816
 umap_z: 7.5272345542907715
 issue_number: OEL-44
+id_numero: "OEL-44"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Testimonianze di persone con disabilità
 
 [Con loro sono salito sul monte Méta](http://www.ombreeluci.it/1983/con-loro-sono-salito-sul-monte-meta/)

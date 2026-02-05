@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-34
-id_numero: OEL-34
+id_numero: "OEL-34"
+numero_rivista: "Ombre e Luci"
 ---
 Franco è un ragazzo Down. Ha 37 anni e da circa 15 lavora, come giardiniere, al Velodromo di Roma.
 Non è stato facile raggiungere questo traguardo e l’episodio che ci fece capire che era potenzialmente capace di fare molto di più di quello che speravamo, accadde molti anni fa.

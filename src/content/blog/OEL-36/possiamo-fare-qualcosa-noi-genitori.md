@@ -15,7 +15,8 @@ umap_x: 5.861870765686035
 umap_y: 7.948007106781006
 umap_z: 8.452393531799316
 issue_number: OEL-36
-id_numero: OEL-36
+id_numero: "OEL-36"
+numero_rivista: "Ombre e Luci"
 ---
 C
 erto che sì, anzi mi pare indispensabile. È possibile cominciare, tenendo presente che non è una cosa da poco, che molti ostacoli si porranno davanti, con delusioni e difficoltà di ogni genere. In questo numero potrete leggere il cammino percorso da alcune persone, le mète da loro raggiunte, qualche esperienza che può dirsi riuscita. Questi esempi ci permettono di mettere in luce qualche suggerimento da seguire per non trovarsi di fronte ad una sconfitta.

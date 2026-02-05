@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 L’analisi** – Come tutti, anche le persone con disabilità nascono, crescono e invecchiano, il che significa che (come tutti) anche i loro bisogni, tempi e desideri cambiano negli anni. Ovvio? Purtroppo no: la solita retorica degli eterni bambini, infatti, intrappola chi ha una disabilità in un’enorme «carta moschicida», nota Giulia Galeotti (che [ci racconta](https://www.ombreeluci.it/2020/le-eta-della-vita-per-molti-ma-non-per-tutti/) anche le volte in cui il suo sguardo è stato sfuocato o sbagliato).
 La testimonianza** – Da un lato del palco [una bambina di dieci anni](https://www.ombreeluci.it/2020/avete-mai-interpretato-la-grotta-di-betlemme/) ricoperta dalla carta del presepe, dall’altro [una giovane donna](https://www.ombreeluci.it/2020/il-teatro-e-gioco-e-nel-gioco-non-si-smette-mai-di-crescere/) che trova finalmente la chiave per relazionarsi con il mondo: partendo da posizioni ben diverse, vanno lette con attenzione le esperienze teatrali che hanno reso Laura Coccia e Veronica le donne che sono. Sempre in tema di spettacoli, vi proponiamo una recensione di ieri e una di oggi: il racconto (datato 1981) del [«secondo diluvio universale della storia»](https://www.ombreeluci.it/1981/dopo-di-me-il-diluvio-commedia-musicale-gruppo-fede-luce-san-paolo/) tratto da *Insieme* (il ciclostile diventato poi la rivista *Ombre e Luci*) e i giorni del [Festival del Cinema Patologico](https://www.ombreeluci.it/2020/quando-il-cinema-viene-in-soccorso-del-teatro/), seguiti per noi da Claudio Cinus.
 La ricetta** – C’è chi li impasta, chi li frigge, chi li porta in tavola, e c’è chi fa lo scatto della pantera: a voi, da Bari, [i segreti dei migliori panzerotti pugliesi](https://www.ombreeluci.it/2020/lo-scatto-della-pantera/).

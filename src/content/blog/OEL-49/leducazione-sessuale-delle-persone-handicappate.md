@@ -12,7 +12,8 @@ umap_x: 8.170270919799805
 umap_y: 11.701539993286133
 umap_z: 9.831096649169922
 issue_number: OEL-49
-id_numero: OEL-49
+id_numero: "OEL-49"
+numero_rivista: "Ombre e Luci"
 ---
 Qui di seguito proponiamo alcuni brani del libro di Vittore Mariani "L’educazione sessuale delle persone handicappate" (Editrice Elle Di Ci) che abbiamo recensito [qui](http://www.ombreeluci.it/1995/leducazione-sessuale-delle-persone-handicappate-un-libro-risponde/) .
 L'

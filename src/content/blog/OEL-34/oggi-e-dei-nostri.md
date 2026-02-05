@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-34
-id_numero: OEL-34
+id_numero: "OEL-34"
+numero_rivista: "Ombre e Luci"
 ---
 *Per spirito di solidarietà una piccola impresa di pezzi staccati dove lavorano nove persone ha assunto cinque anni fa un giovane con disturbi del comportamento. Il proprietario racconta. *
 

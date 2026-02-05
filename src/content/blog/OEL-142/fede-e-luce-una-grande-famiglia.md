@@ -12,7 +12,8 @@ umap_x: 6.969569683074951
 umap_y: 9.370549201965332
 umap_z: 11.483804702758789
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 Michiamo Éric, ho 10 anni, tra poco 11, sono nato con la trisomia 21, Ho due fratelli Irénée, 8 anni, Xavier 6 anni e una sorella Maïlys che ha 3 anni. Il mio papà si chiama Luc e la mia mamma Amélie.
 

@@ -14,8 +14,9 @@ umap_x: 6.323791027069092
 umap_y: 9.336029052734375
 umap_z: 8.154679298400879
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Ècosì naturale tenere fra le braccia un neonato... Così come è un gesto naturale tenere fra le braccia un bambino handicappato. Ma, un adulto... Ascoltare i balbettii di un bambino è una cosa, cercare di interpretare quelli di un adulto... è tutt'altro. Dar da mangiare ad un bambino, anche un po' cresciuto è una cosa, ma dover imboccare un uomo, è tutt'altro. È naturale dover provvedere alle cure igieniche di un bambino; ma fare questo servizio ad un adulto, non è poi così naturale.
 
 Lavare, nutrire, cullare,portare, spingere, un bambino piccolo, per una mamma giovane, è una cosa spontanea. Ma tutto questo, ad un adulto, quando per di più non si hanno più vent'anni, è tutta un'altra cosa.

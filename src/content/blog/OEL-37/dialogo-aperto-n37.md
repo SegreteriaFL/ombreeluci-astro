@@ -12,7 +12,8 @@ umap_x: 5.396107196807861
 umap_y: 7.8895673751831055
 umap_z: 11.243606567382812
 issue_number: OEL-37
-id_numero: OEL-37
+id_numero: "OEL-37"
+numero_rivista: "Ombre e Luci"
 ---
 ### Noi mamme al Sempione
 

@@ -1,15 +1,33 @@
 ---
 id: "OEL-63"
-title: "Ombre e Luci n. 63 - Il Melograno"
+title: "Ombre e Luci n. 63 – Il Melograno"
 tipo: "ombre-e-luci"
 numero: 63
-anno: "1998"
+sort_order: 162
+pubDate: "1998-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 1998"
 sommario: "Ombre e Luci n. 63 – Il Melograno ultima modifica: 1998-09-24T15:27:20+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_63_1998.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_63"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-63-il-melograno/"
+articoli:
+  - "sapersi-meravigliare"
+  - "roberto-trova-unaltra-casa"
+  - "ora-puo-riposare"
+  - "roberto-chi-sei"
+  - "giorno-di-festa-al-melograno"
+  - "comunicazione-facilitata-impossibile-tacere"
+  - "isolamento-infranto"
+  - "comunicazione-facilitata-sinceramente-increduli"
+  - "catechesi-facilitata"
+  - "maria-teresa-di-calcutta-dedicato-ai-bambini"
+  - "congresso-mondiale-dei-movimenti-ecclesiastici-1998"
+  - "hikari-una-famiglia"
+  - "dialogo-aperto-n-63-1998"
+  - "vita-fede-e-luce-n-63"
+  - "vita-fede-e-luce-n-63"
+  - "congresso-mondiale-dei-movimenti-ecclesiastici-1998"
 ---
 
 ## Indice

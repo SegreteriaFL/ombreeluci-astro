@@ -14,8 +14,9 @@ umap_x: 4.4830708503723145
 umap_y: 10.120980262756348
 umap_z: 12.028376579284668
 issue_number: OEL-128
+id_numero: "OEL-128"
+numero_rivista: "Ombre e Luci"
 ---
-
 **E ravamo 10 fratelli. Mariangela era, nell’ordine, la quarta dopo due maschi e una bambina.** Dopo di lei venivo io e posso quindi ben dire che abbiamo vissuto infanzia e adolescenza in stretto contatto. Ora, a distanza di tanto tempo se penso agli anni dell’infanzia, la rivedo così: una presenza importante, attiva, partecipe, interessata. Attiva nei giochi, nelle competizioni e nelle avventure sui prati (eravamo sfollati in una casa di campagna), ma anche, al contrario di me, più attenta e partecipe al mondo degli adulti, curiosa di quanto avveniva tra di loro, pronta a intercettare i loro discorsi, interessata ai rapporti tra le persone “grandi”, tesa a capire anche quello che non veniva detto davanti a noi…
 
 Era curiosità, infantile voglia di impicciarsi (le dicevo io), ma anche, e l’ho capito in seguito, interesse autentico, aspirazione a farsi coinvolgere dai problemi della vita adulta. Infatti **era poi la più pronta e in grado di aiutare, organizzare e risolvere i piccoli problemi** che mia madre con tanti bambini e tanti parenti intorno, doveva giornalmente risolvere: e, a lei, mia madre faceva spesso riferimento. Un altro suo tratto caratteristico era quello di non concedersi mai fino in fondo ai nostri giochi più infantili, di fantasia – diceva lei con una punta di superiorità - ma di preferire quelli più aderenti al mondo reale: guardare da vicino, esplorare, sperimentare cose nuove.

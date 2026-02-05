@@ -15,7 +15,8 @@ umap_x: 8.409480094909668
 umap_y: 11.879889488220215
 umap_z: 10.807229042053223
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 Nella vita, siamo spesso guidati dalla paura: paura di non essere amati, di essere abbandonati, paura della delusione, della sofferenza, della morte. Nel Vangelo c’è una parola straordinaria di Gesù:
 **«Amate i vostri nemici!» «Fate del bene a chi vi odia!» «Pregate per chi vi perseguita!», perché è facile amare chi ci vuol bene**

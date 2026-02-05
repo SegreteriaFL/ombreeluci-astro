@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "la-disabilita-non-e-un-limite-se-mi-ami-costringimi-a-cambiare-recensione"
 lang: it
-numero_rivista: 93
-id_numero: OEL-93
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-93"
 issue_number: OEL-93
 wp_id: 31431
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 ---
-
 A molti lettori potranno non risultare nuovi questi tre autori, da ormai più di trent'anni impegnati nel consolidamento del metodo approntato da Reuven Feuerstein.
 
 Il metodo si fonda su tre principi di fondo: la teoria della **modificabilità cognitiva strutturale, la valutazione dinamica per la propensione all’apprendimento, il programma di arricchimento strumentale. Parole apparentemente difficili ma che offrono un modo diverso, e decisamente ottimista, per avvicinarsi alle persone affette da ritardo mentale. E ben illustrato dal sottotitolo del libro che, ad un primo impatto, può sembrare poco tollerante delle persone con handicap: non si è sempre detto che amare è accettare ciascuno con i propri limiti e difficoltà, soprattutto se dovuti ad un handicap? Gli autori sono convinti di questo: quel che non dobbiamo accettare, piuttosto, è il suo handicap. E quindi fare di tutto per migliorare e potenziare le capacità cognitive del bambino, dedicandovi anche più attenzione di quella che più facilmente si presta per il recupero delle funzioni motorie.

@@ -4,8 +4,8 @@ date: 2007-06-03
 author: Redazione
 slug: dialogo-aperto-n98
 lang: it
-numero_rivista: 98
-id_numero: OEL-98
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-98"
 issue_number: OEL-98
 wp_id: 32601
 original_url: "https://www.ombreeluci.it/?p=32601"
@@ -15,7 +15,6 @@ umap_x: 4.3625922203063965
 umap_y: 8.084466934204102
 umap_z: 10.311673164367676
 ---
-
 ### Il mio sogno più grande
 
 La mamma di un ragazzo Down

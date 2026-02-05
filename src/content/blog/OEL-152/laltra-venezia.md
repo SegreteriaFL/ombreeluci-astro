@@ -12,8 +12,9 @@ umap_x: 9.48854923248291
 umap_y: 8.037984848022461
 umap_z: 2.5779104232788086
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Aveva ragione la regista Emma Dante, quando diceva che respirare con le mascherine ci dava consapevolezza di non essere sani, pur non essendo malati. Per undici giorni la 77ª Mostra del Cinema di Venezia è stata il primo grande evento internazionale in presenza nell’epoca della pandemia; affinché si potesse svolgere in completa sicurezza è stato necessario implementare un vasto sistema di regole sanitarie, tra cui l’uso obbligatorio della mascherina durante la visione dei film e anche in alcune aree all’aperto. Altro cambiamento importante, l’obbligo della prenotazione del posto in sala per tutti gli accreditati. Il sistema ha funzionato bene, anche se in maniera inutilmente più macchinosa per chi usava una sedia a rotelle: tutte le sale risultavano accessibili alle persone con disabilità, ma per prenotare i posti era necessario inviare una email e attendere risposta, anziché scegliere il posto nella piantina con un paio di clic come poteva fare chiunque altro.
 
 La novità principale è stata sicuramente la scomparsa dalla vista del tappeto rosso, nascosto da una specie di barriera: le poche star presenti non hanno potuto sfilare davanti al solito pubblico di appassionati. È stata un’edizione con meno lustrini e feste, molto più attenta alla promozione dei film. Poco coraggiosa la vittoria di *Nomadland* : una pellicola amata dalla critica straniera, che però ha lasciato qualche dubbio sulla maniera non troppo approfondita in cui ha raccontato la vita dei nuovi nomadi, costretti a girare per gli Stati Uniti in cerca di lavoro, anche perché non sempre ha funzionato a dovere l’integrazione tra le persone reali e l’attrice professionista Frances McDormand.

@@ -4,8 +4,8 @@ date: 2002-06-14
 author: Redazione
 slug: la-quadriglia-istruzioni-per-luso
 lang: it
-numero_rivista: 78
-id_numero: OEL-78
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-78"
 issue_number: OEL-78
 wp_id: 24980
 original_url: "https://www.ombreeluci.it/?p=24980"
@@ -18,7 +18,6 @@ umap_x: 8.792661666870117
 umap_y: 7.684394836425781
 umap_z: 9.419025421142578
 ---
-
 La quadriglia è una danza popolare e tradizionale italiana, diffusa su tutto il territorio nazionale, particolarmente nel centro-sud, anche se non mancano esempi nei repertori emiliani, romagnoli e altoatesini. Secondo la Treccani, era una danza francese in voga nei secoli 18° e 19°, derivata dalla contraddanza: veniva eseguita da quattro coppie di danzatori (o multipli di quattro), disposti frontalmente o in quadrato. Nell'epoca napoleonica raggiunse il momento di maggior diffusione, in seguito sostituita dalla polka; nella versione più comune era composta di cinque figure dette, con terminologia francese, Pantalon, été, poule, pastourelle, finale, che si svolgevano con movimento vivace e in tempo di 6/8 o 2/4 (per la q. dei lancieri, v. lanciere, n. 3). Per estensione, la musica con cui si balla la quadriglia, generalmente tratta da motivi popolari e arie d’opera (autore particolarmente fertile di quadriglie fu Johann Strauss junior, che ne compose circa settanta). Memorabile quella condotta magistralemnte da Totò, nel finale di San Giovanni decollato.
 
 E allora partiamo proprio dalla musica per capire come organizzare una bellissima quadriglia.

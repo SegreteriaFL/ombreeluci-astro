@@ -4,8 +4,8 @@ date: 2002-12-08
 author: Redazione
 slug: lettera-da-una-mamma-del-molise
 lang: it
-numero_rivista: 80
-id_numero: OEL-80
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-80"
 issue_number: OEL-80
 wp_id: 25686
 original_url: "https://www.ombreeluci.it/?p=25686"
@@ -17,7 +17,6 @@ umap_x: 5.621428966522217
 umap_y: 8.931193351745605
 umap_z: 8.190767288208008
 ---
-
 Sono le ore 15 di domenica pomeriggio e finalmente mi sono potuta sedere un attimo per buttar giù queste righe. C’è paura: anche stanotte siamo scappati fuori dopo la scossa delle 0,30, molto forte. Stiamo con un piede dentro e uno fuori e Francesca sta di nuovo male.
 
 **M i rivolgo alle mamme che hanno figli disabili che non parlano** : **è qui che ho molta rabbia e dolore insieme** . Francesca si vede che ha male da qualche parte. Pensavamo di averlo individuato dopo avere escluso tante probabili cause che gli esami avevano smentito. Durante l’ultimo ricovero, l’ho portata che piangeva e me la sono riportata a casa che piangeva.

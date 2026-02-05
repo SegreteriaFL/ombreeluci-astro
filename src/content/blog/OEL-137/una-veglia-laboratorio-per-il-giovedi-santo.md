@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-137
-id_numero: OEL-137
+id_numero: "OEL-137"
+numero_rivista: "Ombre e Luci"
 ---
 Il testo “Eterna è la sua Misericordia” (ed. Paoline, 2016) del monaco benedettino Fratel Michael Davide è stato il punto di riferimento per la nostra veglia. **Il modo in cui Fratel Michael Davide interroga la Parola di Dio promuove una riflessione personale, favorisce una personale “presa di controllo” nei confronti della Parola e genera consapevolezza.
 

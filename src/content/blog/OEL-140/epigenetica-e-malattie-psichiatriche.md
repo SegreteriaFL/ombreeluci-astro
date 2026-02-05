@@ -16,8 +16,9 @@ umap_x: 5.811987400054932
 umap_y: 9.84126091003418
 umap_z: 6.880591869354248
 issue_number: OEL-140
+id_numero: "OEL-140"
+numero_rivista: "Ombre e Luci"
 ---
-
 **Cosa causa una malattia?**
 Le nostre malattie riconoscono diverse cause: quelle genetiche propriamente dette, causate da alterazioni del nostro DNA (mutazioni in senso stretto di uno o più geni) come la maggior parte delle forme di disabilità intellettiva tra cui la sindrome di Down o la sindrome della X fragile; quelle ambientali come le malattie causate da traumi o altri eventi accidentali; e quelle, di gran lunga più numerose, dette multifattoriali, causate da un’interazione tra predisposizione genetica, determinata a sua volta da una serie di modeste mutazioni del nostro DNA, ciascuna per sé incapace di generare una malattia, e fattori ambientali nocivi. Tra queste possiamo includere la grande maggioranza delle malattie psichiatriche, molte malattie degenerative quali il cancro o numerose patologie cardiovascolari, le forme più comuni di diabete e tante altre ancora. Alcuni fattori ambientali sono nocivi per tutti gli esseri umani (basti pensare alle sostanze inquinanti, alle radiazioni), altre solo per chi ne è “predisposto”, come è il caso del glutine per la celiachia. Tuttavia molti fattori esterni considerati genericamente nocivi per tutti, come il fumo di sigaretta o gli agenti infettivi, sortiscono effetti dannosi diversi in funzione delle individuali capacità, geneticamente determinate, di eliminare le sostanze cancerogene o di resistere ad un determinato agente infettivo. Lo stesso vale per tutti quei fattori ambientali nocivi che è noto esercitano un effetto negativo sulla salute psichica.
 

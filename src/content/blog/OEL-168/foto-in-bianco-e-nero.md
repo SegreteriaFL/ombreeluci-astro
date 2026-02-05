@@ -12,8 +12,9 @@ umap_x: 5.159697532653809
 umap_y: 6.7429280281066895
 umap_z: 9.941884994506836
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Atutti capita ogni tanto di sfogliare l’album delle foto, e così ricordare i vari momenti della vita, propria e di famiglia. **Ci può capitare di trovarsi tra le mani foto di 50/60 e più anni fa** (secondo la mia età). Foto in bianco e nero, anche sfuocate, con contorni e localizzazioni molto rurali.
 
 Ma essendo così poche le foto di quei tempi (almeno così lo è per me) le si tengono molto care, perché legate ad un passato prezioso, e immortalano quei pochi momenti del vissuto di una famiglia. **Conservo con gelosia quelle foto, fatte da chissà chi** , da un fotografo di passaggio, da un parente, o amico di famiglia. Sono preziose, del passato è rimasto solo queste.

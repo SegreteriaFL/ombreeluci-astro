@@ -14,8 +14,9 @@ umap_x: 8.841289520263672
 umap_y: 9.45984935760498
 umap_z: 10.848699569702148
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 *«L a pace sia con tutti voi»: così Papa Robert Francis Prevost si è presentato al mondo e alla storia, affacciandosi l’8 maggio 2025 dalla Loggia delle Benedizioni. Nato a Chicago, agostiniano, ha scelto il nome di Leone XIV. Se già questa decisione è interessante, illuminanti sono state le parole pronunciate del Pontefice: parole dense, parole di attenzione e cura. Le vogliamo ricordare e meditare, con voi.*
 
 «"La pace sia con tutti voi!".

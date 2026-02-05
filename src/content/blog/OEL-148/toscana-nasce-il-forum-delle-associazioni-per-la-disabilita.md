@@ -12,8 +12,9 @@ tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nasce in Toscana il **Forum delle associazioni delle persone con disabilità. Lo costituisce una delibera presentata dall'assessore al Diritto alla Salute e al Welfare **Stefania Saccardi** e approvata dalla giunta nel corso dell'ultima seduta. Al Forum potranno partecipare **tutte le associazioni di persone con disabilità attive in Toscana. Per la sua costituzione verranno individuate forme e modalità adeguate per garantire la massima partecipazione dei rappresentanti delle associazioni. Il Forum sarà presieduto e convocato dal presidente della Regione, e si riunirà due volte l'anno per un confronto sullo stato di attuazione delle politiche sulla disabilità. Nell'ambito del Forum, i rappresentanti delle associazioni eleggeranno **i componenti della Consulta regionale per la disabilità.
 
 "In Toscana portiamo avanti da tempo politiche per i diritti, l'autonomia, l'accessibilità, l'inclusione delle persone con disabilità - commenta l'assessore **Stefania Saccardi** - E per farlo, cerchiamo sempre di coinvolgere le persone disabili, per capire direttamente dalle loro esperienze quali possono essere le scelte migliori e più adeguate. La costituzione del Forum sicuramente ci consentirà di fare un ulteriore passo avanti in questa direzione, grazie al confronto con le associazioni e all'ascolto dei rappresentanti delle persone disabili".

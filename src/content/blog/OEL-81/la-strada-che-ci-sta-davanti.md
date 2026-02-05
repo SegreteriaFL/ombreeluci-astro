@@ -4,8 +4,8 @@ date: 2003-03-13
 author: Marco Bove
 slug: la-strada-che-ci-sta-davanti
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26344
 original_url: "https://www.ombreeluci.it/?p=26344"
@@ -18,7 +18,6 @@ umap_x: 7.916465759277344
 umap_y: 9.007343292236328
 umap_z: 12.638669967651367
 ---
-
 Edopo trent’anni? Dopo tutto il cammino percorso sin qui, dove dobbiamo andare? Verso quali passi il Signore ci sta chiamando? Come questa nostra “famiglia” di Fede e Luce è chiamata a crescere per restare fedele alla sua vocazione?
 
 **Credo anzitutto che il Signore ci chieda di guardare con gioia e gratitudine al cammino sin qui percorso** e a leggere senza angoscia o tristezza anche il momento presente, che per alcuni di noi e per una parte delle nostre comunità è il tempo della “maturità”.

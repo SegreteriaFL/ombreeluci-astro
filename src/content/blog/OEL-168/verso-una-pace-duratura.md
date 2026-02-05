@@ -15,7 +15,8 @@ umap_x: 7.2461395263671875
 umap_y: 9.20151138305664
 umap_z: 12.158550262451172
 issue_number: OEL-168
-id_numero: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
 Credo profondamente che le luci e le ombre, ovvero quelle difficoltà che sono insite nelle fragilità fisiche, psichiche e interiori, appartengono a tutti noi: bambini, ragazzi, amici, genitori, adulti… chiunque, nessuno escluso!
 

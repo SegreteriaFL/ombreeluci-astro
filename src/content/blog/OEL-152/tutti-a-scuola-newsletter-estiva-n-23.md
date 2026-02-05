@@ -14,8 +14,9 @@ umap_x: 6.953920841217041
 umap_y: 6.824995040893555
 umap_z: 7.145164966583252
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Denunciando la grave emarginazione subita dagli alunni con disabilità o con disturbi dell’apprendimento a cui era proibito l’accesso alla vita scolastica ordinaria, su *Insieme* n. 4 del 1975 Angela Cusimano [rifletteva](https://www.ombreeluci.it/1975/integrazione-nelle-scuole-pro-e-contro/) su come poter migliorare le famigerate classi differenziali in cui costoro erano rinchiusi. Due anni dopo la legge 517/1977 le avrebbe finalmente abolite, tentando così di arginare (almeno sulla carta) la ghettizzazione di questi alunni. Ma da quel 4 agosto di quarantatré anni fa il dibattito sull’integrazione non si è mai placato: la ricerca di soluzioni capaci di garantire a ciascuno studente un percorso scolastico veramente inclusivo è tutt’ora aperta. Ombre e Luci ha spesso affrontato l’argomento, raccontando di realtà che hanno provato ad abbattere i muri dell’emarginazione. Come [l'esempio dell'Istituto Medaglia Miracolosa](https://www.ombreeluci.it/1985/integrazione-non-parola/) , in provincia di Arezzo, che negli anni Ottanta univa un centro scolastico a uno riabilitativo; o l’iniziativa nata nel bergamasco nel 1993 di [un istituto ibrido](https://www.ombreeluci.it/1998/una-scuola-su-misura/) tra Scuola Potenziata e Centro Socio-Educativo (attivo [ancora oggi](https://www.icverdellino.edu.it/le-nostre-scuole/plesso-potenziato/25-anni-ptz) ).
 
 ---

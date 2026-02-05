@@ -12,8 +12,9 @@ umap_x: 7.501896858215332
 umap_y: 11.31878662109375
 umap_z: 4.537716388702393
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 La malattia ovviamente resta lì, ma è completamente cambiato il modo di affrontarla: è questo – ridotto all’osso – il senso di *Dove crescono i cocomeri* ( [HarperCollins Italia](https://www.harpercollins.it/9788869056635/dove-crescono-i-cocomeri/) , 2020, traduzione di Giulia Bertoldo) , romanzo per i giovani lettori che anche gli adulti farebbero bene a leggere. Perché il racconto – acuto e complesso, delicato e mai banale – della quasi tredicenne Della alle prese con la schizofrenia della madre, porta a riflettere sull’impatto della malattia mentale sulla vita di una bambina e di tutta la sua famiglia. Sulla difficoltà di porsi domande, di chiedere aiuto, di superare lo stigma che il disagio psichico conduce con sé. Per piccoli passi, scivolando e rialzandosi, sbagliando e riprendendosi, la quasi tredicenne (come gli adulti che la circondano) si accorge che poi, in fin dei conti, sentirsi diversi non è di pochi. La schizofrenia è lì, ma sua madre – la donna, non la malata – anche. Un romanzo vero e rinfrancante.
 
  ### Dove crescono i cocomeri **Autore** : Cindy Baldwin **Editore:** HarperCollins Italia **Pubblicato:** 3 settembre 2020 **Traduzione:** Giulia Bertoldo **Pagine:** 300 ** ** **Prezzo:** 14€ **ISBN:** 9788869056635 

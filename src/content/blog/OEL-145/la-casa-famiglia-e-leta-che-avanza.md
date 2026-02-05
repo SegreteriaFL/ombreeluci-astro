@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Carla ha 65 anni. **Vive nella casa-famiglia del Carro di Roma da circa vent’anni, dopo che la sua famiglia non ha potuto più seguirla come era giusto per lei.** Carla è molto estroversa, ha la battuta pronta e una grande memoria: quando ci si incontra – anche tra una marea di gente – il saluto personale ed esclusivo con lei è un vero rito. Ti mette al corrente delle novità, fa notare il suo abbigliamento, i suoi accessori... spesso è occasione di riepilogo dei nomi di tutti i congiunti in quel momento assenti, da salutare appena possibile da parte sua. A volte anche il ricordo di familiari che non ci sono più, sempre con grande, immenso, affetto. Il tutto, tenendo stretta la mano fino a che il rito non sia concluso.
 

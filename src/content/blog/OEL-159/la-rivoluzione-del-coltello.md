@@ -12,7 +12,8 @@ umap_x: 8.119209289550781
 umap_y: 7.486169338226318
 umap_z: 7.973860740661621
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 Lochef Antonio De Benedetto vuole rivoluzionare il mondo attraverso il cibo. E il mondo di Nicola, Mirco, Jessica, Nicolò e altri, lo ha decisamente capovolto. Lo racconta un bel film documentario distribuito recentemente in alcune sale cinematografiche italiane: *Le ricette dello chef Antonio per la rivoluzione* con la regia di Trevor Graham. Una produzione italo-australiana perché l’idea dell’ [Albergo Etico](https://www.albergoetico.it/) è arrivata pure nelle Blue Mountains dell’emisfero australe e lì hanno pensato bene che la sua storia dovesse essere raccontata e fare il giro del mondo.
 

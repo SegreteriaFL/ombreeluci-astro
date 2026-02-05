@@ -16,7 +16,8 @@ umap_x: 8.208793640136719
 umap_y: 8.868124961853027
 umap_z: 12.7072172164917
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 C
 osa festeggeremo a Pompei per il cinquantennale del movimento di

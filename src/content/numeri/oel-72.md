@@ -1,15 +1,31 @@
 ---
 id: "OEL-72"
-title: "Numero 72 - Vi annuncio una grande gioia!"
+title: "Numero 72 – Vi annuncio una grande gioia!"
 tipo: "ombre-e-luci"
 numero: 72
-anno: "2000"
+sort_order: 171
+pubDate: "2000-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 2000"
 sommario: "Numero 72 – Vi annuncio una grande gioia! ultima modifica: 2000-12-23T15:21:38+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_72_2000.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_72"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-72-vi-annuncio-una-grande-gioia/"
+articoli:
+  - "un-natale-speciale"
+  - "medici-o-stregoni"
+  - "perche-non-ci-capiamo"
+  - "nati-due-volte-estratto-libro-giuseppe-pontiggia"
+  - "blessings-tutto-diventa-benedizione-estratto-dal-libro"
+  - "nessuno-escluso-il-natale-del-laboratorio-lalveare"
+  - "oggi-la-famiglia"
+  - "casablu-un-condominio-speciale"
+  - "nessuna-pieta-che-immagine-trasmettono-dellhandicap-i-mezzi-di-comunicazione-di-massa"
+  - "la-tragedia-giovanni-chiara"
+  - "tutto-e-possibile-lettera-di-chiara"
+  - "dialogo-aperto-n-72"
+  - "nostalgia-di-comunione-nuovi-movimenti-sette-cristiane-o-segni-dello-spirito"
+  - "si-legge-tutto-dun-fiato-recensione-del-libro-blessings-di-mary-craig"
 ---
 
 ## Indice

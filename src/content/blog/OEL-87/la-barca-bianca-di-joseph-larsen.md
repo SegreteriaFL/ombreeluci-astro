@@ -4,8 +4,8 @@ date: 2004-09-13
 author: Silvia Gusmano
 slug: la-barca-bianca-di-joseph-larsen
 lang: it
-numero_rivista: 87
-id_numero: OEL-87
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-87"
 issue_number: OEL-87
 wp_id: 30409
 original_url: "https://www.ombreeluci.it/?p=30409"
@@ -15,7 +15,6 @@ umap_x: 8.144765853881836
 umap_y: 7.835088729858398
 umap_z: 10.960001945495605
 ---
-
 U
 na barca bianca. Settanta metri di legno e fiori colorati che galleggiano sulla Senna alle porte di Parigi. Chi, all'inizio del secolo, l'ha costruita per trasportar carbone non immaginava che negli anni Trenta sarebbe diventata un centro di accoglienza sociale, dimora per coloro che, da tutte le parti del mondo, arrivano in terra francese senza il permesso, senza un letto. Non immaginava che un equipaggio di trenta clandestini avrebbe trovato a bordo, oltre a una cuccetta e al caloroso invito a rimanere, una cappella di legno profumato, una sala comune per condividere storie o silenzi, pasti e canti, e quattro capitani a cui affidarsi sicuri.
 **Uno di loro è padre Joseph Larsen**

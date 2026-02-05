@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "storia-dellaborto-i-molti-protagonisti-e-interessi-di-una-lunga-vicenda-recensione"
 has_comments: false
+id_numero: "OEL-86"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

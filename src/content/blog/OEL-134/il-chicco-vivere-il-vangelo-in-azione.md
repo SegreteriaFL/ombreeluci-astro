@@ -14,7 +14,8 @@ umap_x: 8.52713680267334
 umap_y: 8.722675323486328
 umap_z: 10.355178833007812
 issue_number: OEL-134
-id_numero: OEL-134
+id_numero: "OEL-134"
+numero_rivista: "Ombre e Luci"
 ---
 P
 er il secondo anno nella comunità “Il Chicco” di Ciampino, comunità appartenente alla federazione dell’Arca, proponiamo, una volta al mese, degli incontri speciali per vivere il Vangelo: la “drammatizzazione biblica” o “incontro del Vangelo attraverso metodi attivi”. Viviamo insieme la Parola di Dio in azione.

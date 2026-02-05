@@ -16,7 +16,8 @@ umap_x: 7.835878849029541
 umap_y: 7.881302356719971
 umap_z: 8.882257461547852
 issue_number: OEL-29
-id_numero: OEL-29
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
 [**Il chicco una casa per Fabio e Maria**](http://www.ombreeluci.it/1983/il-chicco-una-casa-per-fabio-e-maria/) Una [casa famiglia](https://www.larche-ilchicco.it/) per bambini handicappati senza famiglia Via Ancona, 1 - 00043 Ciampino
 

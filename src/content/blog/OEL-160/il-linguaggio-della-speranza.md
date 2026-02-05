@@ -12,8 +12,9 @@ umap_x: 7.826688289642334
 umap_y: 8.816203117370605
 umap_z: 13.52434253692627
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Qual è la differenza tra istruzione e formazione? Se tramite l’istruzione si possono apprendere informazioni e nozioni di vario tipo, **la formazione pone l’enfasi sul processo di crescita e di sviluppo umano.** Quando istruzione e formazione avvengono assieme, allora il processo educativo può portare a uno sviluppo individuale e sociale di ampio respiro.
 
 Nel corso di teologia sulla Chiesa e le culture globali che insegno al John Felice Rome Center, campus romano dell'università gesuita [Loyola University Chicago](https://www.luc.edu/rome/index.shtml) , gli studenti sono invitati a conoscere ed esplorare i temi del corso (con un focus particolare sul rapporto tra Chiesa e cultura della disabilità), ma hanno anche **l’opportunità di conoscere personalmente realtà del territorio** che promuovono l’importanza dell’incontro, il valore della comunità, il bisogno di una società più giusta e pacifica.

@@ -16,8 +16,9 @@ umap_x: 7.549747943878174
 umap_y: 8.008354187011719
 umap_z: 12.860479354858398
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 La festa è certamente il momento in cui esplode la nostra gioia. Ogni gesto, ogni canzone, è nello stesso tempo un'esperienza vissuta insieme e l'espressione della gioia che questo incontrarci suscita in ciascuno di noi.
 
 È indispensabile dunque, che tutti abbiano la possibilità di esprimersi, di partecipare; non c'è gioia infatti se non si è tutti protagonisti, se non si è tutti al tempo stesso attori e spettatori; non si può comunicare se ognuno di noi non è assieme ascolto e parola.

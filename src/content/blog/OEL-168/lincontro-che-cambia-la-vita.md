@@ -15,7 +15,8 @@ umap_x: 6.8623366355896
 umap_y: 8.87138843536377
 umap_z: 10.141143798828125
 issue_number: OEL-168
-id_numero: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
 Ci sono incontri nella vita che non programmi, che semplicemente accadono, ti travolgono senza farti percepire la portata che avranno sul domani. Solo dopo anni, guardando indietro ci si trova a riconoscere proprio lì quel bivio in cui la vita ha preso la direzione che ci conduce a essere quel che si è oggi. La bellezza di questi incontri sta nel fatto che non si esauriscono in se stessi, ne portano altri e altri ancora, sono il primo anello di una catena che dà un senso nuovo alla vita. Il mio incontro ha un giorno e un luogo: 27 dicembre 2000, *Piccola Casa della Divina Provvidenza* (ovvero Cottolengo) di Firenze. Soprattutto però ha dei nomi e dei volti, delle mani e dei sorrisi che mi hanno accolta con semplicità disarmante, conducendomi a quello che è stato il Capodanno più bello e speciale della mia vita.
 

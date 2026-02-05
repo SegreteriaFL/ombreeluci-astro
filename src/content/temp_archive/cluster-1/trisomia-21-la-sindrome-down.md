@@ -7,6 +7,7 @@ cluster_id: 1
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/4-1-209x300.jpg"
 slug: "trisomia-21-la-sindrome-down"
 has_comments: false
+id_numero: "OEL-4"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

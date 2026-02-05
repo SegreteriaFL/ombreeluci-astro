@@ -7,6 +7,7 @@ cluster_id: 5
 image: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_81_2003-208x300.jpg"
 slug: "cercare-di-starci-su-questa-barca"
 has_comments: false
+id_numero: "OEL-81"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

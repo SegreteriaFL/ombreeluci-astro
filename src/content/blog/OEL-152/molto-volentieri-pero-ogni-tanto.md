@@ -12,8 +12,9 @@ tema_code: "T10"
 tema_label: "Educare e crescere insieme"
 categoria_menu: "Crescere"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sono dovuta tornare a Roma, un giorno, a agosto, per farmi prendere le misure per la divisa da reception per la scuola che inizia a settembre. Ma io sono ancora arrabbiata perché l’hanno chiusa presto quest’anno. Io a settembre cambio sede della scuola. Il mio Istituto alberghiero sta a Trastevere e ha due sedi. Per i primi due anni io sono andata nella sede di via dei Genovesi. Ora devo andare nella sede di via della Paglia perché i tre anni per “ricevimento” li fanno lì. La sede di via della Paglia io già lo conosco. È più piccola. Però ho visto già che vicino ci sono i bar per fare la colazione prima di andare in classe, come facevo a via dei Genovesi. Io mi sono divertita a farmi prendere le misure per la divisa. Ci hanno messo poco. Per fortuna perché faceva tanto tanto caldo. Poi sono ripartita subito e sono tornata al mare.
 
 Però al mare io continuo a studiare. Con Giorgia, che è l’assistente che ho a scuola, io faccio le videolezioni due volte la settimana. E sono pure lunghe. Mi hanno chiesto se volevo farle anche al mare e io ho detto subito sì. A me piace molto fare le videolezioni con Giorgia. Facciamo matematica, italiano, inglese, francese. Facciamo tutto tutto. Però devo dire una cosa. Molto importante. Io le videolezioni le faccio molto volentieri però ogni tanto. A settembre io voglio andare in classe con i miei compagni e con i miei professori. Ogni tanto mi va bene la videolezione. Ma solo ogni tanto. Quando sto al mare va bene. Ma quando sto a Roma non va bene.

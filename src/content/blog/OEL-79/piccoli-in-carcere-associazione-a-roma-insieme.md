@@ -4,8 +4,8 @@ date: 2002-09-01
 author: Redazione
 slug: piccoli-in-carcere-associazione-a-roma-insieme
 lang: it
-numero_rivista: 79
-id_numero: OEL-79
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-79"
 issue_number: OEL-79
 wp_id: 25460
 original_url: "https://www.ombreeluci.it/?p=25460"
@@ -15,7 +15,6 @@ umap_x: 7.926599025726318
 umap_y: 7.397782802581787
 umap_z: 10.221244812011719
 ---
-
 Ecco il pullman, mi batte un po' il cuore. Si apre la porta e saliamo. C'è l’autista, sorridente, che ci saluta; anche lui passa la giornata insieme ai bambini con molta disponibilità. Ai primi posti si vedono faccette vispe, con occhi attenti e spalancati, pieni di curiosità: sono quelle dei bambini con più esperienza, perciò più sicuri.
 
 Raggiungo un sedile più arretrato. Un po' casualmente e un po’ attratta **mi siedo vicino ad una bambinetta di circa due anni con un caschetto giallo** , sembra un pulcino; è un po' spaurita, piagnucola, però piano piano la distraggo con le «bocche» dell'aria condizionata. In piedi sul sedile comincia a chiuderle e ad aprirle. Si sta divertendo. Le chiedo, anche se penso non mi risponda, dove andiamo e con mia grande sorpresa mi dice battendo le manine «andamo a giocae». Ad un certo momento inizia ad indicare ripetutamente un bel bambino più piccolo chiamandolo per nome; poco dopo capisco che indica il fratellino. Scopro così che parla molto; anzi, rispetto agli altri bambini tutti molto silenziosi, moltissimo.

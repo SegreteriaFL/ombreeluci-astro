@@ -17,8 +17,9 @@ umap_x: 7.383896350860596
 umap_y: 8.935796737670898
 umap_z: 6.8003435134887695
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 **Can participating in a community of care make us better citizens?**
 To examine this question—and how cultivating caring relationships might be able to make us more caring citizens—I turned to the city of Geel in Belgium.
 **In Geel, for centuries, people in the town have been welcoming adults with mental illness into their homes in kin-like relationships.**

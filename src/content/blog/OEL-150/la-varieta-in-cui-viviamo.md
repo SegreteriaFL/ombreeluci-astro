@@ -12,7 +12,8 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 Nel bel mezzo della crisi globale scatenata dal covid-19, abbiamo dovuto ripensare temi e argomenti di Ombre e Luci: ciò che avevamo preparato sarebbe stato stonato in questo tempo sospeso, difficile e nuovo. E abbiamo ritenuto che immergerci nei racconti di queste settimane non avrebbe probabilmente lenito quel bisogno di conforto di cui abbiamo tutti, almeno un po’, bisogno.
 

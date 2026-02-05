@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-7
-id_numero: OEL-7
+id_numero: "OEL-7"
+numero_rivista: "Ombre e Luci"
 ---
 Volontariato** è una parola relativamente nuova e molto alla moda ma invero è una realtà antica.
 Vecchia quanto l’uomo! Grazie a Dio ci sono sempre stati cuori generosi che vanno verso gli altri, i più deboli, i più anziani, i malati ecc.

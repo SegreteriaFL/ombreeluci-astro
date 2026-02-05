@@ -12,7 +12,8 @@ umap_x: 9.564682960510254
 umap_y: 8.273204803466797
 umap_z: 13.507596015930176
 issue_number: OEL-37
-id_numero: OEL-37
+id_numero: "OEL-37"
+numero_rivista: "Ombre e Luci"
 ---
 Durante [il pellegrinaggio di Lourdes](http://www.ombreeluci.it/project/numero-37-pellegrinaggio-a-lourdes-1991-che-siano-una-cosa-sola/) (del 1991 N.d.R.), il Sabato Santo padre Brian Lowery ha parlato di Maria ai genitori italiani. Ecco le parti più significative della sua riflessione.
 O

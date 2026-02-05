@@ -12,8 +12,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 O forse, si dovrebbe dire, per tutti coloro che sono interessati al pellegrinaggio di Lourdes Aprile '81, sia coloro che intendono andarci, sia coloro che non possono, ma che saranno presenti nello spirito.
 
 Dato che andare a Lourdes sarà molto costoso per la maggior parte di noi, dobbiamo tutti insieme fare salti mortali, cercando più denari possibile onde diminuire la quota di tutti.

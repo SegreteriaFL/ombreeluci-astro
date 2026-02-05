@@ -11,8 +11,9 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Pubblichiamo di seguito il Messaggio che Papa Francesco ha inviato in occasione della Giornata mondiale delle persone con disabilità, che ricorre oggi, martedì 3 dicembre, e che quest’anno ha per tema “Il futuro è accessibile”:
 
 ## Messaggio di Papa Francesco

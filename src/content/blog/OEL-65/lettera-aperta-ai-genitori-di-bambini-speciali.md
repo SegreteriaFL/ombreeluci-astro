@@ -4,8 +4,8 @@ date: 1999-06-16
 author: Redazione
 slug: lettera-aperta-ai-genitori-di-bambini-speciali
 lang: it
-numero_rivista: 65
-id_numero: OEL-65
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-65"
 issue_number: OEL-65
 wp_id: 12598
 original_url: "https://www.ombreeluci.it/?p=12598"
@@ -15,7 +15,6 @@ umap_x: 5.551912784576416
 umap_y: 8.458077430725098
 umap_z: 8.038506507873535
 ---
-
 “Se non ci fosse stata la bambina più grande — mi diceva mio marito — mi sarei ammazzato”. Questo lo stralcio di una conversazione colta per caso in un Ospedale diurno di Riabilitazione Psicologica, dove i piccoli pazienti, generalmente in età prescolare, sono affetti da disturbi del linguaggio e dell’apprendimento e non da patologie gravi. La frase mi è risuonata dentro per diverso tempo. Quante volte, mi sono chiesta, è capitato anche a me di pensare una cosa simile? Quanto è comune, silenziosamente o gridata, la sensazione di “non farcela” in tanti genitori? Quali possono essere le strategie per affrontare la vita con un figlio disabile?
 
 Non ci sono, credo, ricette vincenti. Molto dipende dalle risorse individuali, che spesso si scoprono davvero solo quando si è costretti a misurarsi con un evento straordinario, mai desiderato, quale è la nascita di un figlio con handicap. Si può trovare conforto nella fede, aiuto nella famiglia, oggi anche nelle psicoterapie e negli antidepressivi. Il lavoro serve talvolta da rifugio, anestetizzando dalle preoccupazioni e dal senso di inadeguatezza. Le reazioni sono molteplici e scavalcano differenze culturali e sociali, ma hanno tutte un denominatore comune: la necessità di raggiungere un equilibrio, da rinegoziare negli anni, che riscopra il significato profondo di una vita “diversa" insieme al nostro bambino “diverso".

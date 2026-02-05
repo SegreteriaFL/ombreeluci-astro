@@ -15,7 +15,8 @@ umap_x: 10.106305122375488
 umap_y: 9.460394859313965
 umap_z: 11.90778923034668
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 ### Una mamma: Quali parole più belle?
 

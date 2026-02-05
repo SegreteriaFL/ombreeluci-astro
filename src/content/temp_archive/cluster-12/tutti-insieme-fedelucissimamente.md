@@ -6,6 +6,7 @@ theme: "cluster-12"
 cluster_id: 12
 slug: "tutti-insieme-fedelucissimamente"
 has_comments: false
+id_numero: "OEL-99"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

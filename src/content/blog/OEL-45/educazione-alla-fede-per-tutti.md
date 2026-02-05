@@ -12,7 +12,8 @@ umap_x: 9.45832347869873
 umap_y: 10.158707618713379
 umap_z: 8.54083251953125
 issue_number: OEL-45
-id_numero: OEL-45
+id_numero: "OEL-45"
+numero_rivista: "Ombre e Luci"
 ---
 S
 i è tenuto a Roma, dal 27 al 29 gennaio, il primo convegno nazionale per i responsabili diocesani della catechesi nell'area dell’handicap sul tema «L’educazione alla fede del disabile nella comunità cristiana», promosso dalla Commissione Episcopale per la dottrina della fede e la catechesi della Cei. Circa 200 i partecipanti in rappresentanza di oltre 50 diocesi e delle diverse associazioni che operano in questo specifico ambito. Mons. Sergio Pintor, vicedirettore dell'Ufficio Catechistico Nazionale, riassume così le indicazioni emerse dall’incontro. «In questo convegno non c’è stato spazio per la retorica. Le esperienze pastorali hanno costantemente ricondotto all'essenziale dell'educazione alla fede. Per questo sono venute indicazioni non solo per una catechesi dei disabili, ma anche e inseparabilmente messaggi e impegni per la pastorale e l'educazione alla fede di ogni comunità cristiana. Tra gli altri, con particolare forza, sembrano essere emersi i seguenti messaggi:

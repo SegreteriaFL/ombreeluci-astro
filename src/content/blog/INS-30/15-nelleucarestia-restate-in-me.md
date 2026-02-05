@@ -14,8 +14,9 @@ umap_x: 9.605644226074219
 umap_y: 7.813114643096924
 umap_z: 13.64102554321289
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Febbraio 1981
 
 "Chi mangia la mia carne e beve il mio sangue, rimane in me ed io in lui" (Giov.6,56)

@@ -11,8 +11,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-20
+id_numero: "OEL-20"
+numero_rivista: "Ombre e Luci"
 ---
-
 Maria Francesca ha avuto nei suoi sedici anni di vita uno sviluppo totalmente anomalo: non parlava, non camminava, mangiava con grande difficoltà; non partecipava alla vita di relazione, e il suo fisico è stato sempre notevolmente al di sotto della norma...
 
 Curiosamente, si parla sempre molto poco dei papà, anche nei libri e negli scritti dedicati alla famiglia e ai suoi problemi. L’interesse degli autori si rivolge infatti soprattutto alle mamme. C’è poco spazio per la figura del padre anche nei discorsi di quanti, pur non scrivendo né libri né saggi, si occupano e trattano della famiglia e dei suoi problemi: medici, psicologi, pedagogisti, assistenti sociali, giornalisti e, perché no? Sacerdoti ed uomini di Chiesa. Anche il loro interesse si rivolge soprattutto alle donne.

@@ -15,7 +15,8 @@ umap_x: 7.897999286651611
 umap_y: 7.2335710525512695
 umap_z: 11.25759506225586
 issue_number: OEL-25
-id_numero: OEL-25
+id_numero: "OEL-25"
+numero_rivista: "Ombre e Luci"
 ---
 Ormai da molti anni trascorro parte delle vacanze con le persone handicappate. Le incontro ai campeggi di Fede e Luce. Ma prima ancora che Fede e Luce venisse in Italia, la mia famiglia già passava le vacanze in modo diverso. **Il papà e la mamma dovevano infatti conciliare i miei bisogni con quelli di Chicca, mia sorella maggiore, profondamente colpita.**
 

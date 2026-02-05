@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Il 10 gennaio 2019 Sergio Sciascia ha scritto una lettera in cui comunicava la decisione di lasciare la direzione responsabile di *Ombre e Luci*, tenuta fin dall’origine “e con piacere visto il gran numero di persone di valore” conosciute e frequentate. Poche righe in cui il giornalista ringraziava per ciò che aveva ricevuto in quasi quattro decadi di lavoro.
 Nato a Torino nel 1937 e trasferitosi da piccolo a Roma, Sciascia manifestò da subito una spiccata passione per la scrittura e un’acuta curiosità per la realtà attorno a lui, un binomio che diverrà il suo mestiere. Mentre lavora per il *Messaggero di Sant’Antonio* e per il quindicinale *Messaggero dei Ragazzi* (“con loro non c’è fidelizzazione che valga: devi essere interessante nei testi, nelle titolazioni, nelle illustrazioni, nei fumetti, sennò ti mollano”), Sciascia viene messo in contatto con Mariangela Bertolini: il tramite è Manuela Bartesaghi, amica della neonata [Fede e Luce](http://fedeeluce.it). Bertolini voleva trasformare il ciclostilato *Insieme*, che legava le ancora poche comunità italiane del movimento, in una rivista strutturata, ma legalmente serviva come direttore responsabile un giornalista professionista che portasse nella neonata redazione le sue competenze professionali. È l’autunno del 1981: Sciascia accetta. **Un anno e mezzo dopo nasce Ombre e Luci.

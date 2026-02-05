@@ -12,8 +12,9 @@ umap_x: 7.692888259887695
 umap_y: 8.309917449951172
 umap_z: 12.927203178405762
 issue_number: OEL-136
+id_numero: "OEL-136"
+numero_rivista: "Ombre e Luci"
 ---
-
 Lanostra [comunità Edelweiss di Messina](https://www.fedeeluce.it/project/edelweiss/) ha già vissuto due feste, ad entrambe sono arrivati dei giovani, inaspettati. All’ultimo incontro abbiamo accolto un gruppetto di giovani che stanno facendo qui l’Erasmus provenienti da diverse parti del mondo e che si sono sentiti coinvolti e integrati, tanto che uno di loro, dell’Algeria, ha un fratello down, che viene ogni mese con la famiglia a trovarlo, e ci ha chiesto se può invitarlo la prossima volta.
 
 Mentre al primo incontro un’amica della comunità ha portato due sue amiche di cui una, Jessica, ha scritto una bellissima testimonianza di quanto ha vissuto e che vi riporto:

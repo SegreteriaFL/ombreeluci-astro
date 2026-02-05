@@ -12,8 +12,9 @@ umap_x: 7.128303050994873
 umap_y: 9.156513214111328
 umap_z: 11.960577011108398
 issue_number: OEL-116
+id_numero: "OEL-116"
+numero_rivista: "Ombre e Luci"
 ---
-
 Mi chiamo Silvia, ho 15 anni e sono entrata a Fede e Luce ancora prima di nascere. Questo però non vuol dire che io sia un’esperta, anzi spesso non ho la minima idea di cosa fare quando mi trovo di fronte a situazioni nuove. Non amo le Feste di apertura o quelle di primavera, insomma tutte le grandi adunate di gruppo, e spesso le evito, mi invento scuse per non sembrare davvero un’asociale come dice mia madre. In realtà non ci vado non perché ami la solitudine, ma perché ho paura.
 
 **Paura del nuovo, di ciò che è diverso, perché i ragazzi della mia comunità li conosco e so come prenderli** , ma gli altri sono degli estranei, e ho paura di essere messa alla prova, perché sono troppo orgogliosa per accettare le critiche. Quindi è chiaro che quando mi è stato detto di Loreto per poco non sono svenuta al pensiero di 400 persone tutte nello stesso posto per una settimana.

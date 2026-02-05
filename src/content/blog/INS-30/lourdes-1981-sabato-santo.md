@@ -14,8 +14,9 @@ umap_x: 9.551697731018066
 umap_y: 8.195035934448242
 umap_z: 13.492684364318848
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Programma della giornata
 
 **Mattino**

@@ -4,8 +4,8 @@ date: 2007-06-03
 author: Laura Nardini
 slug: ho-12-anni-faccio-la-cubista-mi-chiamano-principessa-storie-di-bulli-lolite-e-altri-bimbi
 lang: it
-numero_rivista: 98
-id_numero: OEL-98
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-98"
 issue_number: OEL-98
 wp_id: 32495
 original_url: "https://www.ombreeluci.it/?p=32495"
@@ -15,7 +15,6 @@ umap_x: 8.06232738494873
 umap_y: 11.380504608154297
 umap_z: 4.9460368156433105
 ---
-
 Ancora una volta la realtà supera di gran lunga la fantasia... È un’inchiesta, una denuncia, una testimonianza diretta di quanto succede oggi ad adolescenti insospettabili per mettere in guardia genitori e tutti quelli che vivono intorno a loro. **Mai sentito parlare delle discoteche pomeridiane?**
 
 **L'autrice di questo libro, giornalista e inviata speciale del Messaggero, racconta di adolescenti di età compresa tra gli 11 e 14 anni** che frequentano la scuola media inferiore. Ragazzine che uscite di casa con abiti normali, e con scuse più varie, entrano in di scoteca e si trasformano in provocanti cubiste che ballano davanti ai coetanei che con i cellulari fanno foto e filmini.

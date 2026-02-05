@@ -15,7 +15,8 @@ umap_x: 5.842554569244385
 umap_y: 8.32111644744873
 umap_z: 7.3377366065979
 issue_number: OEL-18
-id_numero: OEL-18
+id_numero: "OEL-18"
+numero_rivista: "Ombre e Luci"
 ---
 ##### **Come un figlio normale**
 

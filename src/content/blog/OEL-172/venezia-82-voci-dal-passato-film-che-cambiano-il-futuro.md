@@ -16,8 +16,9 @@ umap_x: 9.511980056762695
 umap_y: 8.021947860717773
 umap_z: 2.545313835144043
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 E
 ccoci alla seconda selezione di film da Venezia 82 (
 [qui la prima parte](https://www.ombreeluci.it/2025/da-venezia-82-per-la-mostra-del-cinema/)

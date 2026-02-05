@@ -4,8 +4,8 @@ date: 2007-12-10
 author: Redazione
 slug: la-grande-famiglia
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32890
 original_url: "https://www.ombreeluci.it/?p=32890"
@@ -15,7 +15,6 @@ umap_x: 6.165820121765137
 umap_y: 9.150045394897461
 umap_z: 8.925721168518066
 ---
-
 ### Ho vissuto
 
 Ho vissuto il senso di stupore al primo impatto di una triste realtà che ci fa esclamare: ma perché proprio a me doveva capitare? Ho vissuto il senso di rifiuto che ci fa lottare nella spesso purtroppo vana ricerca di un rimedio, quasi a voler cancellare con un colpo di spugna un incubo che ci tormenta. Ho vissuto la rinunzia di una vita normale, di una libertà comune agli altri, degli amici e di una quiete a cui pensavamo aver diritto, che ci fanno dimenticare troppo spesso la sofferenza vera dei nostri cari. Un senso di egoismo ci pervade, attaccati come siamo al mondo che ci circonda con le sue lusinghe di benessere che non ci portano ad accettare sacrifici e rinunzie. Ci domandiamo se vale la pena vivere una vita così faticosa, abbandonati spesso dai nostri parenti, incompresi dagli amici, isolati dal resto del mondo. La commiserazione dei nostri guai spesso ci benda gli occhi e non vediamo oltre il naso del nostro tornaconto. Troppo spesso cerchiamo distrazioni che ci allontanino dai nostri gravosi compiti, a danno di chi tende le mani alla ricerca di affetto e protezione. Non ci rendiamo conto di ricevere più di quanto umanamente possiamo dare. I nostri compiti sono gravosi, la nostra è una vita di rinunzie, ma guardiamo i nostri figli che ci sorridono, guardiamo la gioia che i loro occhi sprigiona, guardiamo la gratitudine che ci riserbano.

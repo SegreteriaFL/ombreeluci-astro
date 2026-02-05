@@ -1,15 +1,33 @@
 ---
 id: "INS-20"
-title: "Insieme n. 20 - Bollettino Fede e Luce - 1979"
+title: "Insieme n. 20 – Bollettino Fede e Luce – 1979"
 tipo: "insieme"
 numero: 20
-anno: "1979"
+sort_order: 20
+pubDate: "1979-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1979"
 sommario: "Insieme n. 20 – Bollettino Fede e Luce – 1979 ultima modifica: 1979-03-20T15:39:37+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-20-mar-1979.webp"
 link_sfoglia: "https://archive.org/details/insieme-20/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-20/insieme%2020%20mar%201979.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-20-bollettino-fede-e-luce-1979/"
+articoli:
+  - "i-bambini-profondamente-handicappati"
+  - "7-testimonianze-di-genitori-e-amici-di-bambini-profondamente-handicappati"
+  - "momenti-misteriosi"
+  - "la-forestiere-vita-comunitaria-con-i-piu-gravi-allarche"
+  - "notiziario-fede-e-luce-n-20"
+  - "che-cose-un-katimavic"
+  - "letture-consigliate-lo-svantaggiato-quale-educazione"
+  - "bilancio-fede-e-luce-1979"
+  - "i-bambini-profondamente-handicappati"
+  - "ci-hanno-scritto-n-20"
+  - "cecilia-una-esperienza"
+  - "giovanissimi"
+  - "come-fai-a-credere-alla-madonna"
+  - "lettera-ai-giovani"
+  - "la-paura-degli-altri"
+  - "fede-e-luce"
 ---
 
 ## Indice

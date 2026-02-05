@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Moltissime persone pensano che gli autistici siano incapaci di fare certe cose ma invece questo progetto dimostra che è l’esatto opposto e, come dico sempre, **noi autistici non ci arrenderemo mai! **». Elisa parla con voce forte e sicura: è finita un’altra lunga giornata di cammino, tappa di un viaggio che volge al termine. Intorno a un fuoco che illumina una campagna altrimenti buia, insieme a Elisa, ognuna delle circa venticinque persone che formano un variegato gruppo contribuisce a tener viva la fiamma.
 
 È una delle scene della parte finale del bel documentario *Sul sentiero blu,* con la regia di Gabriele Vacis e la produzione di Michele Fornasero per Indyca Film, il cui obiettivo, riuscito, è stato quello di **documentare per il grande pubblico il progetto [Con-tatto](https://www.associazione-contatto.org/) in collaborazione con la Asl di Torino.

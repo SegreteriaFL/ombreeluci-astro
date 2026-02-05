@@ -12,7 +12,8 @@ umap_x: 7.8108296394348145
 umap_y: 11.323382377624512
 umap_z: 4.797516822814941
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 Sognare ci rende sempre felici o invece, specie quando la realtà si fa più dolorosa, c’è il rischio di crearsi un mondo alternativo separato? È questo uno dei temi affrontati dalla sgargiante e originale storia di Olga, edicolante sovrappeso protagonista de *Il chiosco* (Jaca Book 2019, traduzione di Alba Zara) di Anete Melece.
 

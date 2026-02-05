@@ -12,7 +12,8 @@ umap_x: 7.013244152069092
 umap_y: 4.744459629058838
 umap_z: 10.66916561126709
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Io vado poco a Teatro, perché costa, ma quando ci vado è una bella cosa; e ho poco tempo libero, quando sono in vena ci entro, perché mi serve per acquisire modo di fare nel palco. **È stata una serata molto lieta, io ho visto che non era da ridere, e c’è silenzio e una serietà e non volava una mosca,** questo è consono al mio carattere ed è meglio così! Il teatro Quirino ha le poltrone in tutti i piani, io e mia madre siamo nel piano superiore al centro. Io nello stesso teatro ho visto altre attrici come la Pandolfi e Caprioglio. C’era un pubblico vasto, io e Paola Pisenti in silenzio andiamo d’accordo, e non mi piace quando è arrabbiata la mattina. La sera lei vede le soap opera, gli attori li ho visti in varie puntate, interminabili.
 

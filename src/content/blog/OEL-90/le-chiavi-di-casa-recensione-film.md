@@ -4,8 +4,8 @@ date: 2005-06-17
 author: Rosa Maria Sonzini
 slug: le-chiavi-di-casa-recensione-film
 lang: en
-numero_rivista: 90
-id_numero: OEL-90
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-90"
 issue_number: OEL-90
 wp_id: 30943
 original_url: "https://www.ombreeluci.it/?p=30943"
@@ -15,7 +15,6 @@ umap_x: 8.775280952453613
 umap_y: 8.768563270568848
 umap_z: 3.059972047805786
 ---
-
 L'handicap è stato raccontato [in vari film](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/) , ma non mi risulta che il cinema italiano abbia mai parlato della tetraparesi spastica, da cui sono affetta. Perciò vorrei riparlare del film di Gianni Amelio
 
 In questo film vengono affrontati problemi attuali, importanti, che nascono, intorno all’handicap, in una società arrivista come quella odierna. E poi c’è un altro tema su cui riflettere: un genitore scopre in un figlio disabile tanti problemi che non sa risolvere.

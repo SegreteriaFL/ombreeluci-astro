@@ -12,8 +12,9 @@ umap_x: 7.964859485626221
 umap_y: 7.993431091308594
 umap_z: 13.242618560791016
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 ### 10 Giugno: pochi spettatori allo spettacolo teatrale "Il cieco nato"
 
 Domenica 10 Giugno di quest'anno (1979) il Gruppo "Fede e Luce" di S.Paolo ha messo in scena "Il Cieco nato", un collage di brani tratti dal Vangelo di Giovanni attraverso i quali si voleva mettere in evidenza il cammino che, guidati da Gesù (o che Gesù stesso), gli Apostoli e quanti credettero in Lui compirono passando dalle tenebre dell'ignoranza e del peccato alla luce della conoscenza e della redenzione. Gli attori sono stati bravissimi: molto affiatati nelle scene di insieme, precisi e chiari nella dizione, agili e armoniosi nei movimenti.

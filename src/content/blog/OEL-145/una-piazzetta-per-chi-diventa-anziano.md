@@ -12,7 +12,8 @@ umap_x: 6.726335048675537
 umap_y: 8.365744590759277
 umap_z: 9.184494972229004
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 A67 anni **Maria è dovuta rimanere a casa con la sorella Miranda** , ma non si è arresa pacificamente: ha preteso un appuntamento con l’Assessore alle Politiche Sociali chiedendo con forza di essere reinserita in un Centro Socio Educativo («a casa con Miranda non podevo più… fa questo, fa quel, solo pulir e sistemar. Mi me piasi l’allegria, me piasi girar per città, ballar, farò la muffa a casa»).
 

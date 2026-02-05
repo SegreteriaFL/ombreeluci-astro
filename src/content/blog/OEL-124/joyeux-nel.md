@@ -14,8 +14,9 @@ umap_x: 5.674368858337402
 umap_y: 5.902531147003174
 umap_z: 12.35135269165039
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nella Repubblica di Mauritius il Natale è diventata una festa nazionale per tutti, benché noi viviamo in un paese multiculturale e multirazziale. Durante l’Avvento viene distribuito un foglio a tutti i fedeli come guida per prepararsi a vivere il Natale... I cristiani mettono molta enfasi sulla venuta del Bambino Gesù per vivere veramente la spiritualità del Natale. In tutte le chiese c’è un grande presepe messo su dai fedeli che poi vanno di chiesa in chiesa per l’adorazione.
 
 **La messa delle ventiquattro non è più a mezzanotte** , ma alle venti e trasmessa in diretta televisiva, il 25 viene poi diffusa per radio. Il Vescovo invia un messaggio alla nazione per televisione e per radio. **Il giorno di Natale c’è il tradizionale pranzo in famiglia e nel pomeriggio quasi tutti vanno al mare** .

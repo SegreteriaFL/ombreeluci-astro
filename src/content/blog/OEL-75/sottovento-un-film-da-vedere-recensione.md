@@ -12,7 +12,8 @@ umap_x: 8.673460006713867
 umap_y: 8.83159065246582
 umap_z: 3.346705198287964
 issue_number: OEL-75
-id_numero: OEL-75
+id_numero: "OEL-75"
+numero_rivista: "Ombre e Luci"
 ---
 Un famoso psichiatra è alle prese con le famiglie di alcuni ragazzi con problemi psicologici di disadattamento e si trova nella difficoltà di non sapere che strada prendere per curare i loro figli, quando ha un’intuizione: fare di loro l’equipaggio di una barca a vela che ha come obiettivo quello di raggiungere entro i termini di tempo molto stretti alcuni porti del Mediterraneo. Decide allora di affidare l’equipaggio e la barca ad uno skipper dal grande passato velico ma caduto in disgrazia, che riesce a coinvolgere promettendogli, in caso di compimento della missione, la barca stessa.
 

@@ -12,8 +12,9 @@ umap_x: 8.596906661987305
 umap_y: 5.339079856872559
 umap_z: 9.9473237991333
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 HHello again, my dear readers. Here I am! I already gave you a heads-up in my last piece that I’d soon share an update about the June 7th competition — and here it is: third medal, and once again, first place.
 
 This medal means even more to me than the previous two. It’s the confirmation I didn’t know I needed — because this year, swimming hasn’t been smooth sailing. It’s been a real ride, full of ups and downs. But the real breakthrough came as the race got closer. That’s when I knew: I wasn’t ready to quit.

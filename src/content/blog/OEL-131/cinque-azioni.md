@@ -12,7 +12,8 @@ umap_x: 6.634653568267822
 umap_y: 9.43144702911377
 umap_z: 10.817554473876953
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 “Sabina tramite
 *Fede e Luce*

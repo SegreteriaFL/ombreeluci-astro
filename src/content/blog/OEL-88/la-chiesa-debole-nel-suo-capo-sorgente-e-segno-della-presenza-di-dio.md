@@ -4,8 +4,8 @@ date: 2004-12-14
 author: Fabienne Clinquart
 slug: la-chiesa-debole-nel-suo-capo-sorgente-e-segno-della-presenza-di-dio
 lang: it
-numero_rivista: 88
-id_numero: OEL-88
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-88"
 issue_number: OEL-88
 wp_id: 30510
 original_url: "https://www.ombreeluci.it/?p=30510"
@@ -17,7 +17,6 @@ umap_x: 9.483443260192871
 umap_y: 8.169536590576172
 umap_z: 13.294364929199219
 ---
-
 Sono appena tornata da Lourdes insieme ai giovani della nostra diocesi di Malines Bruxelles. Abbiamo abbiamo partecipato alle celebrazioni presiedute dal Papa. Al fianco di ognuno di noi stava un malato della ‘ nostra diocesi che noi accompagnavamo.
 
 Sono tornata con tre scene scolpite nel cuore:

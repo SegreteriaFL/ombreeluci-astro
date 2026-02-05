@@ -16,8 +16,9 @@ umap_x: 6.620409965515137
 umap_y: 7.090965747833252
 umap_z: 7.734303951263428
 issue_number: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ciò che è bello nel lavoro dell’insegnante è, a mio parere, la varietà. Ogni gruppo-classe è diverso da quello del corso precedente e, all’interno del gruppo, nel corso dell’anno si evidenziano il ragazzo timido e quello sicuro di sé, il tipo cordiale e lo scontroso, il volenteroso e l’indolente, lo studente «sveglio» ma sfaticato e quello «lento» ma costante e diligente; c’è chi apprezza e gode anche delle piccole cose e chi è indifferente a tutto. Ci sono ragazzi non belli e non intelligenti che ti conquistano con il loro affetto e la loro disponibilità; ci sono bambini belli, svegli e pieni di salute che sono insopportabili perché abituati a considerarsi il centro del mondo che li circonda.
 
 **Ora mi chiedo:** in queste sicuramente generiche classificazioni, in queste «categorie» di comportamento, possono essere inclusi i ragazzi con handicap che ho avuto nei miei gruppi-classe, che ho seguito individualmente con il sostegno, che ho conosciuto e frequentato in altre circostanze?

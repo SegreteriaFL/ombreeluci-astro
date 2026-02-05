@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 La festa è certamente il momento più bello della vita di Fede e Luce; è il più significativo poiché è il luogo privilegiato d'incontro, di condivisione, di comunione ed è soprattutto il tempo in cui esplode la nostra gioia.
 
 Ogni gesto, ogni canzone, è nello stesso tempo un'esperienza vissuta assieme e l'espressione della gioia che questo incontrarci suscita in ciascuno di noi.

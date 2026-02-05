@@ -7,6 +7,7 @@ cluster_id: 8
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_49_1995.jpg"
 slug: "voglio-sposarmi"
 has_comments: false
+id_numero: "OEL-49"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

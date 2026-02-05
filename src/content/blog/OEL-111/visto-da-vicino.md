@@ -12,7 +12,8 @@ umap_x: 5.77510404586792
 umap_y: 8.673222541809082
 umap_z: 7.729596138000488
 issue_number: OEL-111
-id_numero: OEL-111
+id_numero: "OEL-111"
+numero_rivista: "Ombre e Luci"
 ---
 ### Manuel
 

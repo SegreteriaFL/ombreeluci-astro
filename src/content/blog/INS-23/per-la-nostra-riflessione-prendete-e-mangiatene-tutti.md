@@ -12,8 +12,9 @@ umap_x: 7.811670780181885
 umap_y: 8.042141914367676
 umap_z: 12.847784996032715
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Lacelebrazione dell'Eucaristia ha un posto importante negli incontri Fede e Luce. Assume aspetti alquanto diversi tra loro a seconda delle circostanze. Ricordo le messe celebrate in occasione dei grandi raduni di Roma, Lourdes o Assisi... O ancora messe all'aria aperta su un altare di fortuna ove ciascuno aveva portato la sua pietra. Messe di gruppi in una cappella o in un locale parrocchiale, Messe al capezzale di un amico incapace di muoversi.
 
 Le occasioni sono diverse, ma l'evento celebrato è evidentemente unico. In ogni circostanza, l'Eucaristia ci invita a " **offrire il sacri ficio di tutta la chiesa per la gloria di dio e la salvezza del mondo** ",

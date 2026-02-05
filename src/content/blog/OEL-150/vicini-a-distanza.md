@@ -12,7 +12,8 @@ umap_x: 7.112430572509766
 umap_y: 8.716779708862305
 umap_z: 12.614142417907715
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 Il primo giorno, quel benedetto 21 febbraio, ho subito scoperto che un abbraccio potesse essere pericoloso. Qui, vicino a Milano, a molti capita di andare per lavoro in altre province. Anche nel Basso Lodigiano. Ecco, persone care erano state proprio lì. Come fare a salutarle? Stare a distanza? Purtroppo sì, ma che fatica!
 

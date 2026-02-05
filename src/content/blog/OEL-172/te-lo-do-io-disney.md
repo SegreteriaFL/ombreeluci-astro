@@ -12,8 +12,9 @@ umap_x: 8.046757698059082
 umap_y: 6.250729560852051
 umap_z: 11.129158020019531
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quest'anno ho fatto il campo alla [Bicoca](https://www.bicoca.it/casaletti-dei-pastori/) tardi, in passato lo facevo in agosto. **Io non lo so perché io adoro andare ai campi, dove io posso stare a contatto degli altri** : quelli di quest'anno non me li ricordo, con alcuni mi sono trovato bene, in un posto accogliente con i padroni di casa, con chi c'è mi sono trovato bene.
 
 Il tema del campo è *Te lo do io Disney* , che consiste nel **dare un finale diverso** , e durante il cerchio abbiamo letto i fogli scritti da tutti noi, il personaggio dove ho partecipato è Stitch e io la sera dormivo e aspettavo il momento di andare a dormire.

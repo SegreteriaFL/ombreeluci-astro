@@ -7,6 +7,7 @@ cluster_id: 12
 image: "http://www.ombreeluci.it/wp-content/uploads/2018/04/oel030-024A-1024x1002.jpg"
 slug: "il-bene-va-fatto-bene"
 has_comments: false
+id_numero: "OEL-30"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

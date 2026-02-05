@@ -14,7 +14,8 @@ umap_x: 8.341041564941406
 umap_y: 12.263906478881836
 umap_z: 11.06479549407959
 issue_number: OEL-146
-id_numero: OEL-146
+id_numero: "OEL-146"
+numero_rivista: "Ombre e Luci"
 ---
 Jean Vanier nasce nel 1928 da genitori canadesi a Ginevra, dove il padre (generale) è Consigliere militare presso la Società delle Nazioni. A soli 12 anni, sconvolto dalla seconda guerra mondiale, decide di entrare nel Royal Naval College di Dortmouth. Abbandonata la marina nel 1950, il ventiduenne Vanier crede di vedere nel sacerdozio la sua vera vocazione e per questo va a vivere a L’Eau Vive, comunità cristiana di studenti fondata dal domenicano Thomas Philippe nella periferia povera di Parigi, vicino al convento domenicano Le Saulchoir. Un anno dopo l’arrivo di Vanier, padre Thomas abbandona la direzione e gliela affida. Il cambio provoca una frattura con il convento: i domenicani non sono contenti che la guida passi a un laico. Seguiranno tempi difficili, finché il vescovo locale chiederà a Jean di dare le dimissioni da direttore. L’espulsione lascia Vanier in uno stato d’incertezza e solitudine simile a quella in cui si era trovato, 7 anni prima, uscendo dalla marina. Jean decide quindi di non finire il suo ultimo anno di preparazione al sacerdozio e trascorre un periodo nella trappa di Bellefontaine, poi va a vivere da solo in una piccola fattoria e infine passa anni in una casetta a Fatima. Ottenuta la laurea in filosofia nel 1962, accetta il posto di professore di filosofia morale al Saint Michael’s College di Toronto.
 

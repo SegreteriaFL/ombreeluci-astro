@@ -12,7 +12,8 @@ umap_x: 7.09328556060791
 umap_y: 9.131516456604004
 umap_z: 7.846648216247559
 issue_number: OEL-167
-id_numero: OEL-167
+id_numero: "OEL-167"
+numero_rivista: "Ombre e Luci"
 ---
 Ne
 abbiamo letto tanto, lo abbiamo visto e ascoltato – parole sue o su di lui; documentari in bianco e nero della Rai, registrazioni audio della sua voce, speciali e sceneggiati a puntate che ne hanno ripercorso la vita. Ma se anche dalle pagine di questa rivista dedicata a fragilità e disabilità abbiamo deciso di parlare di Franco Basaglia, cogliendo l’occasione del centenario dalla nascita che cade in questo complicato 2024, è perché il medico italiano è riuscito in un’impresa veramente storica: smettere di tenere «i matti» – categoria eterogenea per definizione, per stereotipo e per ignoranza – separati e lontani dalla vista dei «sani». Le prime cose da fare sono due: «Ascoltare e parlare». La chiave per l’incontro, per il rispetto e, addirittura, per lo scambio e l’arricchimento reciproco è una sola: la conoscenza. E attraverso l’emanazione della legge 180 che ha portato alla chiusura dei manicomi in Italia, esattamente questo Basaglia ha permesso: che le persone con disturbi mentali, con forme diverse e articolate di disabilità, persone scomode, difficili o caotiche, venissero finalmente viste. E quindi pensate, ascoltate, accompagnate. Un percorso difficile e accidentato che le ha portate dalla condizione di indesiderati a quella di cittadini. Basaglia si sofferma sul controllo che la psichiatria esercita sulla popolazione, soprattutto su quella povera, sulle masse di “indesiderabili” dal punto di vista economico, sociale e politico, in quanto non producono, non seguono l’ordine sociale, non obbediscono.

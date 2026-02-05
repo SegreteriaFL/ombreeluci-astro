@@ -15,8 +15,9 @@ umap_x: 4.435587406158447
 umap_y: 8.788936614990234
 umap_z: 7.471770763397217
 issue_number: OEL-20
+id_numero: "OEL-20"
+numero_rivista: "Ombre e Luci"
 ---
-
 Tre domande sul ruolo specifico del padre nella famiglia, a Maria Odile Réthoré, medico con un 'ampia esperienza di famiglia con persone con handicap mentale.
 **Come può un papà che vive molto tempo fuori casa aiutate sua moglie?**
 Molto spesso la madre è tutto il giorno sola con il suo figliolo. E’ preoccupata per lui... lotta per trovare una soluzione...piange forse. Se, rientrando dal lavoro, il papà si rivolge alla moglie solo in funzione di quel figlio, la famiglia è in pericolo. L’uomo che va fuori a lavorare, non deve avere dei «complessi» perché è a casa solo raramente — è il suo dovere di capo famiglia. Non è centrando l’interesse unicamente sul figlio handicappato che può sperare di compensare il tempo in cui è assente da casa. Pur rispettando le preoccupazioni e la fatica di sua moglie e prestandole attento ascolto, l’uomo, rientrando a casa, deve saper portare una boccata d’aria fresca. Tocca a lui proporre — con insistenza se ce n’è bisogno — di affidare il figlio ad un parente o a un amico, per uscire qualche ora tutti e due insieme o per partire qualche giorno; al ritorno si ritrova il figlio con maggior tenerezza. Sento ancora nelle orecchie la riflessione di un papà che mi portava il figlio già adulto per la prima volta allo studio:«Siamo gli ostaggi di nostro figlio». Marito e moglie erano arrivati a detestarsi...

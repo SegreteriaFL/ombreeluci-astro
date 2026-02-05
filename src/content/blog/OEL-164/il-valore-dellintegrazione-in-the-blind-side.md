@@ -12,8 +12,9 @@ umap_x: 8.761146545410156
 umap_y: 8.386409759521484
 umap_z: 3.1022231578826904
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Unfilm che mi è piaciuto molto che ho visto di recente è stato *The blind side* . La trama può sembrare pesante, narra **la storia di un ragazzo di colore che per problemi di droga della madre, viene allontanato dalla stessa, per proteggerlo** . Ma questo porta Michael ad uno stato di crisi. Una famiglia della scuola frequentata da Michael, lo accoglie in casa inizialmente per qualche giorno; poi però la "madre adottiva" vorrebbe che rimenesse con loro, e nonostante il parere contrario del padre e dei fratelli, il ragazzo resta nella famiglia.
 
 La famiglia adottiva è molto attiva nello sport, i genitori sono entrambi coach, e i figli sono giocatori di football. Anche Michael viene inserito nella stessa squadra dei fratelli, e grazie ad uno di loro che lo allena, diventa un bravo giocatore. Questo film insegna che pur essendo "diverso", Michael trova chi lo ama e un'altra famiglia che lo aiuta ad integrarsi nella la società. **Non bisogna MAI arrendersi anche quando sembra non ci sia una via d'uscita o abbiamo paura.** Inoltre ci insegna una cosa a volte molto difficile da capire per alcuni: **saper chiedere e saper accettare l'aiuto che ci viene dato.**

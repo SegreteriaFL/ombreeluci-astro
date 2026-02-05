@@ -12,8 +12,9 @@ tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Anche quest’anno l’**associazione VAL PESCARA - Protezione Civile**, affiliata PROCIV ARCI, aderendo al progetto **“Anch’io sono la protezione civile**”, ha organizzato il**5° campo scuola dal 21 al 27 luglio**, nell’oasi verde dell’Istituto Don Orione in Via Aterno a Pescara.
 Ventisette ragazze e ragazzi dai 10 ai 16 anni**, di cui **cinque con disabilità cognitiva**, hanno avuto la possibilità di accrescere insieme le loro conoscenze a tutela dell’ambiente, del territorio e della collettività. L'inclusione dei ragazzi con specifiche necessità è stata resa possibile grazie ad un percorso di attenzione al tema della disabilità, che l'associazione Val Pescara promuove ormai da diversi anni, e al coinvolgimento diretto dei volontari dell'Associazione Psicologi per i Popoli Abruzzo.
 

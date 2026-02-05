@@ -1,38 +1,35 @@
 ---
 import AmountChips from './AmountChips.astro';
-import { PAYPAL_DONATE_URL, HERO_VARIANTS } from '../../config/support.ts';
-
-interface Props {
-  variant: 'A' | 'B';
-}
-const { variant } = Astro.props;
-const variantCopy = HERO_VARIANTS[variant];
+import { PAYPAL_DONATE_URL } from '../../config/support.ts';
 ---
 
 <div class="support-box" id="support-box">
+  <p class="support-box-label">Scelta importo rapida</p>
   <AmountChips frequency="monthly" />
-  <div class="support-box-toggle" role="group" aria-label="Frequenza">
+  <p class="support-box-modi-label">Due modalità</p>
+  <div class="support-box-toggle" role="group" aria-label="Modalità donazione">
     <button type="button" class="support-toggle-btn active" data-frequency="monthly" data-track="support_toggle_frequency">
-      Mensile
+      Donazione mensile
     </button>
     <button type="button" class="support-toggle-btn" data-frequency="once" data-track="support_toggle_frequency">
-      Una tantum
+      Donazione singola
     </button>
   </div>
   <a
     href={PAYPAL_DONATE_URL}
     target="_blank"
     rel="noopener noreferrer"
-    class="support-box-cta"
+    class="support-box-cta support-box-cta-primary"
     id="support-paypal-cta"
     data-track="support_click_paypal"
-    data-cta-monthly={variantCopy.cta}
-    data-cta-once="Dono ora"
+    data-cta-monthly="Dona"
+    data-cta-once="Dona"
   >
-    {variantCopy.cta}
+    Dona
   </a>
-  <p class="support-box-note">Puoi scegliere l'importo anche su PayPal.</p>
-  <a href="#bonifico" class="support-box-bonifico">Preferisci evitare commissioni? Usa il bonifico</a>
+  <a href="#bonifico" class="support-box-bonifico" id="support-bonifico-scroll" data-track="support_click_bonifico_scroll">
+    Preferisci il bonifico (senza commissioni)
+  </a>
 </div>
 
 <script>
@@ -44,8 +41,8 @@ const variantCopy = HERO_VARIANTS[variant];
 
     if (!cta) return;
 
-    const ctaMonthly = cta.getAttribute('data-cta-monthly') || 'Sostengo ogni mese';
-    const ctaOnce = cta.getAttribute('data-cta-once') || 'Dono ora';
+    const ctaMonthly = cta.getAttribute('data-cta-monthly') || 'Dona';
+    const ctaOnce = cta.getAttribute('data-cta-once') || 'Dona';
 
     function emit(name, detail) {
       try {
@@ -54,7 +51,6 @@ const variantCopy = HERO_VARIANTS[variant];
           window.dataLayer.push({ event: name, ...(detail || {}) });
         }
       } catch (_) {}
-      console.log('[support]', name, detail);
     }
 
     toggleBtns?.forEach((btn) => {
@@ -77,6 +73,13 @@ const variantCopy = HERO_VARIANTS[variant];
     });
 
     cta.addEventListener('click', () => emit('support_click_paypal'));
+
+    const bonificoLink = document.getElementById('support-bonifico-scroll');
+    if (bonificoLink) {
+      bonificoLink.addEventListener('click', (e) => {
+        emit('support_click_bonifico_scroll', { target: 'bonifico' });
+      });
+    }
   })();
 </script>
 
@@ -84,14 +87,30 @@ const variantCopy = HERO_VARIANTS[variant];
   .support-box {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
-    border-radius: 12px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: 1.75rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  }
+  .support-box-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin: 0 0 0.75rem 0;
+  }
+  .support-box-modi-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin: 1.25rem 0 0.5rem 0;
   }
   .support-box-toggle {
     display: flex;
     gap: 0.5rem;
-    margin: 1rem 0;
+    margin: 0 0 1rem 0;
   }
   .support-toggle-btn {
     flex: 1;
@@ -119,30 +138,30 @@ const variantCopy = HERO_VARIANTS[variant];
     display: block;
     text-align: center;
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 1.125rem;
     font-weight: 700;
     padding: 1rem 1.5rem;
-    border-radius: 10px;
+    border-radius: 12px;
     background: var(--accent-color);
     color: #fff;
     text-decoration: none;
-    margin: 1rem 0 0.5rem 0;
+    margin: 0 0 1rem 0;
     transition: background 0.2s, transform 0.2s;
+  }
+  .support-box-cta-primary {
+    font-size: 1.25rem;
+    padding: 1.15rem 1.75rem;
+    box-shadow: 0 4px 16px rgba(196, 30, 58, 0.25);
   }
   .support-box-cta:hover {
     background: var(--accent-hover);
     color: #fff;
     transform: translateY(-2px);
   }
-  .support-box-note {
-    font-size: 0.8125rem;
-    color: var(--text-secondary);
-    margin: 0 0 0.75rem 0;
-  }
   .support-box-bonifico {
     font-size: 0.875rem;
     color: var(--accent-color);
     text-decoration: none;
+    display: inline-block;
   }
   .support-box-bonifico:hover {
     text-decoration: underline;

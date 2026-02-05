@@ -11,8 +11,9 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il tema che Valeria e gli altri collaboratori responsabili mi hanno dato per questa sera è molto, molto difficile, tale che io non avrei neanche osato trattare perché non mi sento capace. Ciò che mi spinge a trattarlo è il desiderio di chi me l’ha proposto ed anche il fatto che siete in pellegrinaggio e siamo quindi in un clima molto forte di fede. In un momento di grande fede possiamo chiedere al Signore che ci aiuti anche a trattare problemi difficili che certe volte si vorrebbe lasciare da parte. Spero di essere abbastanza breve perché siete tutti piuttosto stanchi, avete delle giornate molto intense e quindi vogliamo semplicemente esprimere qualche pensiero spirituale che ci aiuti a chiudere questa giornata così bella.
 Mi è stato chiesto di commentare i primi due versetti del cap. 9 del Vangelo secondo S. Giovanni là dove, raccontando la guarigione del cieco nato, si dice così: **«Passando Gesù, vide un uomo cieco dalla nascita e i suoi discepoli lo interrogarono: "Rabbì, chi ha peccato, lui o i suoi genitori perché egli nascesse cieco?" Rispose Gesù: "Né lui ha peccato né i suoi genitori ma è così perché si manifestassero in lui le opere di Dio"».
 

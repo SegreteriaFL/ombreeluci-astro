@@ -14,8 +14,9 @@ umap_x: 5.343947887420654
 umap_y: 9.364459991455078
 umap_z: 11.573533058166504
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Quest’anno, in settembre, ci ha lasciato il nostro amico Angelo e mi è tanto dispiaciuto. Io ho pregato il Signore e la Madonna al funerale per lui e i suoi famigliari, ricordarlo mi dà un grande dolore.* **Paola**
 
 *Di Angelo mi rimane la sua semplicità, quando cantava, il suo modo di essere. Lui è arrivato e con il suo gesto è proprio “arrivato”.* **Graziella**

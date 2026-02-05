@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-169
-id_numero: OEL-169
+id_numero: "OEL-169"
+numero_rivista: "Ombre e Luci"
 ---
 Io la notte dormo poco, sono agitato dal pensiero che devo lavorare per forza, e il giorno dopo prendo la prima metropolitana direzione Rebibbia, per andare verso il raccordo anulare di Tivoli.
 A me non importa quanto mi danno a fine mese, so soltanto che io tengo molto ad andare a lavorare, con il ricordo dei morti e con i vivi io condivido ogni attimo, quello che mi danno da fare lo faccio tutta la settimana, e quando finisce l’anno io sento dentro di me, meno male è finito l’anno e ce l’ho fatta a superare ogni problema. Le persone che vedo lavorano, creano gli strumenti e io e Franco li spediamo, e poi io non vedo l’ora di pranzare; io ogni giorno mangio la pasta, le fettuccine, la carne il pollo e la cicoria oppure i piselli ripassati portati dal catering.

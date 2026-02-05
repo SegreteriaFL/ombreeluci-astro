@@ -6,6 +6,7 @@ theme: "cluster-2"
 cluster_id: 2
 slug: "e-il-carro-va-e-compie-15-anni"
 has_comments: false
+id_numero: "OEL-91"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

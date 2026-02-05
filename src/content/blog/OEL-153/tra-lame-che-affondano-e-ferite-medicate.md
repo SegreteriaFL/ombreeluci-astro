@@ -12,7 +12,8 @@ umap_x: 7.337186813354492
 umap_y: 11.781832695007324
 umap_z: 5.046648025512695
 issue_number: OEL-153
-id_numero: OEL-153
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
 Ora che la separazione della morte mette la distanza necessaria per poterlo fare, Federica Sgaggio parla con sua madre e ce la racconta. Donna dall’«intuito spietato, violento e primitivo», la figura di Rosa Sammarco emerge potentemente dalle schegge di un passato carico di tutto quel che la vita può comportare e dei segni che lascia come eredità nel presente.
 

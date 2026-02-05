@@ -4,8 +4,8 @@ date: 1996-03-03
 author: Redazione
 slug: vita-fede-e-luce-n53
 lang: it
-numero_rivista: 53
-id_numero: OEL-53
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-53"
 issue_number: OEL-53
 wp_id: 10461
 original_url: "https://www.ombreeluci.it/?p=10461"
@@ -17,7 +17,6 @@ umap_x: 7.834644794464111
 umap_y: 9.920576095581055
 umap_z: 13.079752922058105
 ---
-
 ### Jean Vanier, un vero costruttore dell’unità religiosa
 
 Persone di otto confessioni cristiane hanno preso parte a Lvov (Leopoli), in Ucraina, a un ritiro di tre giorni con il fondatore dell’Arca e di Fede e Luce. Vi hanno preso parte circa settecento persone che rappresentavano otto delle nove confessioni cristiane presenti nella regione. Esse si sono riunite in una sede «neutrale», ['Accademia Veterinaria di Lvov. 11 progetto aveva ricevuto l’approvazione da parte delle rispettive autorità religiose, purché il ritiro si mantenesse sulla spiritualità, terreno comune fra le diverse confessioni. Erano presenti tre denominazioni ortodosse (Patriarcato di Mosca, Patriarcato di Kiev e Autocefali), tre denominazioni protestanti (Battisti, Pentecostali Avventisti del 7° giorno), due riti cattolici (Romano e Bizantino) e gli Armeni. Si era deciso che il terreno comune sarebbe stato costituito da alcuni canti di Taizé (tradotti per l’occasione in lingua ucraina), dal Padre Nostro e dai Salmi, e che nei gruppi non ci si sarebbe mai scostati dal tema della misericordia e dell’amore per i poveri. Queste condizioni coincidevano con lo Spirito dell’Arca dove si impara a «scendere la scala» per seguire Gesù.

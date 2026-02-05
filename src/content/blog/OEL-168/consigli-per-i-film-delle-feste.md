@@ -12,8 +12,9 @@ umap_x: 8.751813888549805
 umap_y: 8.345565795898438
 umap_z: 3.0820343494415283
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Spesso le feste di fine anno sono un buon momento per guardare dei film in compagnia. Ecco allora alcuni suggerimenti che hanno poco di natalizio nei temi, ma propongono storie che fanno bene al cuore.
 
 Melody Brooks è un'adolescente con paralisi cerebrale: si muove su una sedia rotelle e non può parlare, eppure in questo film si rivolge al pubblico con una voce narrante, prendendo "in prestito" quella della sua attrice preferita, Jennifer Aniston. Questo trucco cinematografico non toglie che lei abbia davvero il desiderio di comunicare i suoi pensieri; siamo negli anni Novanta e si stanno sviluppando sistemi di assistenza vocale che le potrebbero finalmente permettere di esprimersi più facilmente con familiari e compagni di scuola, per farla sentire più inclusa nella società. La debuttante Phoebe-Rae Taylor offre un'interpretazione convincente come attrice, ma anche un modello onesto di rappresentazione della sua condizione come persona: raramente si era visto un film così attento nel raccontare, con un ruolo da protagonista, un'adolescenza così poco rappresentata eppure così universale.

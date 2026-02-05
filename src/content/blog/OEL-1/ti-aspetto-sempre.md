@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf"
 archive_id: OmbreELuci_001
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/1983/03/Archivio-Num.-1-1983-1.png"
 periodo_label: Gennaio, Febbraio, Marzo
-numero_rivista: 1
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-1
 umap_x: 8.271744728088379
 umap_y: 11.96904182434082
 umap_z: 10.384204864501953
+id_numero: "OEL-1"
 ---
-
 L'argomento che affrontiamo è particolarmente delicato: dobbiamo, infatti, entrare un po' nel mistero del cuore umano, la parte più sensibile del nostro essere, la più fragile, la più vulnerabile. Solo con grandissimo rispetto possiamo dunque abbordare questo tema.
 
 ### “Ti aspetto sempre”

@@ -4,8 +4,8 @@ date: 2003-09-02
 author: Redazione
 slug: dialogo-aperto-n-83
 lang: it
-numero_rivista: 83
-id_numero: OEL-83
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-83"
 issue_number: OEL-83
 wp_id: 26899
 original_url: "https://www.ombreeluci.it/?p=26899"
@@ -15,7 +15,6 @@ umap_x: 4.403860092163086
 umap_y: 7.6225175857543945
 umap_z: 10.33276653289795
 ---
-
 ### Sessualità e handicap
 
 Salve a tutti voi della redazione. In questi giorni ho ricevuto il [numero di ''Ombre e Luci''](https://www.ombreeluci.it/project/ombre-e-luci-n-82-parlami-damore/) e devo farvi i miei complimenti per come avete trattato il tema della sessualità ed handicap. L'avete fatto con molta tenerezza e molto equilibrio, qualità non comuni. Questo tema mi interessa molto sia come persona disabile sia a livello professionale ed ho letto con piacere tutto il numero. **Silvia Tamberi**

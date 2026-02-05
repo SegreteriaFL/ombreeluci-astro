@@ -16,7 +16,8 @@ umap_x: 8.24031925201416
 umap_y: 7.214677810668945
 umap_z: 8.591083526611328
 issue_number: OEL-27
-id_numero: OEL-27
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
 Lavorare non è solo un mezzo per guadagnarsi da vivere. È anche un modo per mettere alla prova le proprie capacità e per far nascere nuovi rapporti umani. Ne sono profondamente convinti coloro che hanno dato vita alla [Cooperativa «Spazio Aperto»](http://spazioaperto.coop/) , nata cinque anni fa a Milano con lo scopo di facilitare l'inserimento nella vita attiva e lavorativa di persone con carenze psico-fisiche.
 

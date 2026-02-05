@@ -12,7 +12,8 @@ umap_x: 8.780465126037598
 umap_y: 10.9197998046875
 umap_z: 7.308077812194824
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 V
 olete una vacanza o una meta veramente diversa per il vostro turismo, un turismo non dispersivo, ma interiormente ricco e intelligentemente aperto ai valori dello spirito, della cultura, della socialità? C’è la guida che vi proponiamo, “Itinerari”, dell’Editoriale Italiana, di cui esce in questi giorni la terza edizione, ricca di suggerimenti assai stimolanti in questo senso. Sono quasi 3000 indirizzi, spesso arricchiti da fotografie a colore, di centri e servizi di ospitalità, accoglienza e soggiorno. Dopo il successo delle due precedenti edizioni questa guida torna a proporsi, proprio per questo giubileo, ampiamente aggiornata con circa 500 nuove schede. È una guida preziosa per singoli, famiglie, gruppi, associazioni, parrocchie e indica strutture e servizi di accoglienza che, grazie all’ispirazione religiosa, assicurano un ambiente familiare e una grande accessibilità sia economica, sia, in molti casi, in termini di abbattimento di barriere architettoniche per ospitare al meglio anziani e disabili.

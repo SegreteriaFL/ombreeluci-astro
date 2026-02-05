@@ -3,13 +3,27 @@ id: "OEL-65"
 title: "Numero 65"
 tipo: "ombre-e-luci"
 numero: 65
-anno: "1999"
+sort_order: 164
+pubDate: "1999-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1999"
 sommario: "In questo numero: Ha ancora senso Ombre e Luci? Lettera ai bambini speciali. Casa Famiglia Oikos. Intorno alla nascita. Recensioni - Anno XVII – Numero 1 – Gennaio – Febbraio – Marzo 1999 -"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_65_1999.jpg"
 link_sfoglia: "https://archive.org/details/ombreelucin_64_201906"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-65/"
+articoli:
+  - "ombre-e-luci-oggi-ha-ancora-senso"
+  - "lettera-aperta-ai-genitori-di-bambini-speciali"
+  - "intorno-alla-nascita"
+  - "la-preghiera-con-maria-teresa"
+  - "i-nostri-grandi-amici-san-giuseppe-da-copertino"
+  - "la-mamma-e-il-teologo"
+  - "dialogo-aperto-n-65"
+  - "vita-fede-e-luce-n-65"
+  - "vivere-lautismo-manuale-di-sopravvivenza-per-i-genitori"
+  - "un-fratello-da-nascondere"
+  - "piu-forti-di-loro-scritti-monaci-trappisti-uccisi-algeria-1999"
+  - "una-nuova-casa-famiglia-oikos"
 ---
 
 ## Indice

@@ -12,8 +12,9 @@ umap_x: 7.792507648468018
 umap_y: 1.297786831855774
 umap_z: 9.184033393859863
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 I
 film non mi piacciono proprio. Per me possono pure non farli proprio. Al cinema non mi piace andarci. Troppo buio. Bisogna stare zitti zitti. Se parli, c'è sempre qualcuno che mi dice “zitta”. Cosa c'è di divertente quando è cosi? Poi si alza il volume all'improvviso e a me non piace quando lo fanno. I film sono finti. Non ci sono le persone vere. Non si toccano. Tu devi stare fermo e zitto a guardare, senza dire nulla. E' molto molto noioso. Loro, quelle del film, gli attori, non ci sono al cinema. Mandano il video come quelli che arrivano sul cellulare.
 > I film sono finti. Non ci sono le persone vere. Non si toccano. Tu devi stare fermo e zitto a guardare, senza dire nulla.

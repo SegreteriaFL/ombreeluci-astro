@@ -12,7 +12,8 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-164
-id_numero: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
 Una manifestazione inclusiva. E che ha saputo raccontare le nostre fragilità. Si è chiusa il 29 ottobre la 18esima edizione della Festa del Cinema di Roma, dopo due settimane circa di proiezioni, incontri con autori e mostre. Non solo i “grandi” titoli, quelli che hanno avuto più risonanza tra il pubblico (e la critica), ma anche “piccoli” gioielli da non perdere per le tematiche trattate e la delicatezza che li contrassegna mentre lo fanno.
 

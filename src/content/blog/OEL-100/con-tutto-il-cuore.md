@@ -4,8 +4,8 @@ date: 2007-12-10
 author: Marie Hélène Mathieu
 slug: con-tutto-il-cuore
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32908
 original_url: "https://www.ombreeluci.it/?p=32908"
@@ -15,7 +15,6 @@ umap_x: 5.257336139678955
 umap_y: 7.2331013679504395
 umap_z: 9.266037940979004
 ---
-
 Carissima Mariangela, mi hai chiesto un articolo per il n° 100 di Ombre e Luci. Desideravi che affrontassi i punti fondamentali per un’educazione globale della persona disabile perché possa svilupparsi in tutte le sue capacità”. Tema vasto, che meriterebbe un lungo sviluppo che non posso trattare qui. Così ti scrivo semplicemente questa lettera con tutto il cuore per dire ciò che ho scoperto in varie decine di anni accanto alle persone con handicap e alle loro famiglie, grazie all'OCH (Ufficio cristiano persone handicappate) e a Fede e Luce internazionale. Sai quanto — fra tutte le famiglie che ho incontrate —tu sei stata per me un importante punto d'appoggio grazie alla tua fiducia e alle tue confidenze. Conoscevi nella tua carne la prova dovuta a una figlia profondamente disabile. Molto spesso, nei miei scritti e nelle conferenze, il tuo nome mi è ritornato come un punto di riferimento. Con vocazioni diverse, abbiamo camminato insieme. Un primo pellegrinaggio a Lourdes nel 1968 offrì l'occasione di sentire il grido silenzioso della vostra bambina: “Mi vuoi bene?” Per te, per Chicca, per Paolo. tuo marito, per Nanni ed Emanuele, i vostri due figli, da allora una piccola luce è entrata nella vostra vita. Poi ci siamo rincontrate a Roma nel 1974, quando hai accettato di impegnarti nella promozione di Fede e Luce, in Italia prima, poi in tutta l'Europa del Sud e dell'Est. Nelle nostre rispettive missioni, molto vicine sono state e sono le nostre convinzioni. Per quanto mi riguarda, tre certezze mi hanno animato e si sono via via approfondite.
 
 ### Ogni persona è una storia sacra

@@ -14,7 +14,8 @@ umap_x: 6.897083759307861
 umap_y: 6.466684341430664
 umap_z: 10.402477264404297
 issue_number: OEL-15
-id_numero: OEL-15
+id_numero: "OEL-15"
+numero_rivista: "Ombre e Luci"
 ---
 L’estate è finita. La pioggia scende copiosa su tutta la penisola. Fichi e uva, cartelle e libri, schiudono la porta all'autunno. Siamo entrati rinfrancati dal mare o dalla montagna, ma giornali e televisione ogni giorno ci annunciano catastrofi, terrorismo, massacri... che vengono a stringere il cuore di tutti noi già colpiti dal dolore per la perdita delle persone care che ci hanno lasciato.
 **Dove trovare la forza, la serenità per ricominciare un nuovo anno?**

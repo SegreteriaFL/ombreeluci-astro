@@ -4,8 +4,8 @@ date: 2006-06-21
 author: Redazione
 slug: genitori-e-medici-davanti-allannuncio-dellhandicap
 lang: it
-numero_rivista: 94
-id_numero: OEL-94
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-94"
 issue_number: OEL-94
 wp_id: 31860
 original_url: "https://www.ombreeluci.it/?p=31860"
@@ -17,7 +17,6 @@ umap_x: 5.479188442230225
 umap_y: 9.585216522216797
 umap_z: 7.06702184677124
 ---
-
 **Che cosa accade al momento dell’annuncio dell’handicap?**
 Per i medici specialisti dell'handicap, questo annuncio è il primo atto terapeutico per il bambino e la sua famiglia. Bisogna consacrarci tempo, disponibilità, pazienza e molta comprensione. Perché il modo con cui verrà fatto segnerà a lungo la famiglia. Attualmente medici ed equipe sono meglio formati eppure, per tutti i genitori, il ricordo del momento in cui l'annuncio dell’handicap è stato fatto resta sempre segnato da un grande dolore. All'improvviso si deve realizzare che tutto quanto si era previsto e sperato per il bambino viene sconvolto. In un istante, tutto cambia.. L’incognita della malattia, l'incerto avvenire spaventano. Per il medico, la preoccupazione sarà di attenuare lo choc dell’annuncio, spiegare, rassicurare, informare, sostenere fermo restando che anche per lui è grande la sofferenza di pronunciare la diagnosi. Anche il medico sogna per i genitori un bambino il più sano possibile, anche lui si sente personalmente implicato nel dolore dei genitori. Spesso partecipa con grande dolore all’handicap che colpisce il bambino.
 **E i genitori che sentimenti provano?**

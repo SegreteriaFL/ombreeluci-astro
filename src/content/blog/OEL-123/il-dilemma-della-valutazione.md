@@ -14,7 +14,8 @@ umap_x: 6.907135009765625
 umap_y: 7.1188178062438965
 umap_z: 7.284316062927246
 issue_number: OEL-123
-id_numero: OEL-123
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
 Daun po’ di anni a questa parte studenti disabili scelgono (o meglio spesso scelgono le famiglie al loro posto) di frequentare i licei: il classico, lo scientifico, e via dicendo, forse perché ambienti più protetti delle scuole professionali.
 

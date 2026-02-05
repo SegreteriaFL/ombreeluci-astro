@@ -12,7 +12,8 @@ umap_x: 5.903212070465088
 umap_y: 9.573371887207031
 umap_z: 7.291929721832275
 issue_number: OEL-43
-id_numero: OEL-43
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
 Il prof. Laplane, neurologo , papà di un bambino disabile , ci presenta le principali anomalie del sonno: insonnia, ipersonnia, apnee, russamenti, terrori notturni, sonnambulismo. Che la persona sia handicappata o meno, i problemi che questi turbamenti arrecano, sono molto simili.
 **LE INSONNIE**

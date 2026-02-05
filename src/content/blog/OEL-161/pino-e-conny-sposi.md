@@ -12,7 +12,8 @@ umap_x: 7.253938674926758
 umap_y: 8.867897987365723
 umap_z: 12.77957820892334
 issue_number: OEL-161
-id_numero: OEL-161
+id_numero: "OEL-161"
+numero_rivista: "Ombre e Luci"
 ---
 Èuna bella mattina di sole di qualche mese fa. E sta per accadere un fatto che vorremmo con tutto il cuore che in futuro accadesse sempre di più, che diventasse «normale», come diciamo con questa parola la cui ambiguità e inadeguatezza a Fede e Luce risaltano più chiaramente che altrove.
 

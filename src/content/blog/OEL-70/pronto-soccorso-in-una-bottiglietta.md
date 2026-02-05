@@ -15,7 +15,8 @@ umap_x: 5.38193416595459
 umap_y: 8.530403137207031
 umap_z: 7.91632080078125
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 Questo articolo è del giugno 2000. Le informazioni riportate non sono consigli medici e potrebbero non essere accurate. I contenuti hanno solo fine illustrativo e non sostituiscono il parere medico
 

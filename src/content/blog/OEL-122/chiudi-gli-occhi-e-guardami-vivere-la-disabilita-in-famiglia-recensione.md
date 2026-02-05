@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 Antonio Galdo introduce questo libro definendolo un libro sull’amore, sul bisogno della relazione con l’altro, partendo dall’affermazione di Aristotele che “non si può essere felici da soli”
 L’altruismo è un gene presente nell’uomo (e negli animali) fin dall’infanzia. Per decenni però abbiamo messo al centro dei nostri comportamenti l’io, disconoscendo l’energia che si sprigiona all’interno di una comunità che interagisce. Tuttavia la crisi economica sta dimostrando che l’egoismo non funziona come strumento di progresso e di benessere di una società.

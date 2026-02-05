@@ -7,6 +7,7 @@ cluster_id: 1
 image: "https://www.ombreeluci.it/wp-content/uploads/2020/04/oel070-011-300x169.jpg"
 slug: "centro-di-riabilitazione-il-testardo-pet-therapy"
 has_comments: false
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

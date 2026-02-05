@@ -12,7 +12,8 @@ umap_x: 5.0532732009887695
 umap_y: 7.745973587036133
 umap_z: 11.283873558044434
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 # Tre festeggiate e... tre gatti!
 

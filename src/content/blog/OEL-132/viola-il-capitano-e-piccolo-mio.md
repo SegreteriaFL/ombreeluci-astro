@@ -15,8 +15,9 @@ umap_x: 3.447343111038208
 umap_y: 10.410353660583496
 umap_z: 8.579678535461426
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 “Piccolo mio, l’universo è di Dio”. Canta Viola, e gli occhi – fino a quel momento asciutti e attoniti – le si riempiono di lacrime. Un fiume in piena, silenzioso e inarrestabile. Canta Viola, e non può fare altrimenti, perché
 *Piccolo mio*
 è una canzone che fa parte della sua vita da sempre. Della sua vita; di quella di Giorgia, la figlia dell’autore (“Il giorno stesso che papà scrisse le parole di

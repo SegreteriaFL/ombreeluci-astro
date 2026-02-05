@@ -12,7 +12,8 @@ umap_x: 7.577624320983887
 umap_y: 8.956012725830078
 umap_z: 5.901522159576416
 issue_number: OEL-166
-id_numero: OEL-166
+id_numero: "OEL-166"
+numero_rivista: "Ombre e Luci"
 ---
 F
 u un buon vento quello del 1968, su cui soffiarono e confluirono correnti straordinarie come

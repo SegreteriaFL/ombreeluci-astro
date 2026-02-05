@@ -12,7 +12,8 @@ umap_x: 7.880080699920654
 umap_y: 9.735508918762207
 umap_z: 11.298117637634277
 issue_number: OEL-147
-id_numero: OEL-147
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
 Leggendo e rileggendo tutti i capitoli della Genesi che riguardano Abramo e Isacco sono rimasto colpito dalla fragilità e dalla debolezza di Isacco. Allo stesso modo le reazioni prima di Abramo e poi di Sara alla nascita di Isacco mi hanno lasciato pieno di domande. Perché Abramo non esprime sentimenti e non dice neanche una parola quando gli nasce questo figlio così lungamente atteso? E perché Sara pronuncia parole così difficili: «Dio ha riso di me e chiunque lo saprà riderà di me?». La traduzione italiana ufficiale interpreta questa risata di Dio traducendo «motivo di lieto riso mi ha dato Dio e chiunque lo saprà riderà lietamente di me», ma di tutta questa letizia nel testo ebraico non c’è traccia.
 

@@ -14,7 +14,8 @@ umap_x: 9.197637557983398
 umap_y: 10.271066665649414
 umap_z: 8.816837310791016
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 Per i 30 anni di Ombre e Luci e in occasione dell’Anno della Fede dedichiamo questo numero al tema dell’accoglienza delle persone disabili nelle nostre parrocchie. Nel 1971 a Lourdes, dove si trovavano insieme per la prima volta ragazzi con handicap mentale, i loro genitori e amici, future comunità di Fede e Luce, Jean Vanier rispondeva così alla loro domanda su come dare un senso a quell’esperienza: “ **continuare fino a che ogni persona con handicap non avrà incontrato una comunità dove -senza essere specialisti ma semplicemente cristiani – si impari a scoprire e a vivere insieme la straordinaria Buona Novella di Gesù** ”.
 

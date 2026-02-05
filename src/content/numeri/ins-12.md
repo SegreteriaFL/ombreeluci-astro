@@ -1,15 +1,26 @@
 ---
 id: "INS-12"
-title: "Insieme n. 12 - Bollettino Fede e Luce - 1977"
+title: "Insieme n. 12 – Bollettino Fede e Luce – 1977"
 tipo: "insieme"
 numero: 12
-anno: "1977"
+sort_order: 12
+pubDate: "1977-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1977"
 sommario: "Studiammo molte parole d'amore. Creammo molte parole d'amore. Partiti, infine, dal mondo, lasciamo, non dette, troppe parole d'amore. Ghàlib Asadu'llah"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/1976/12/Insieme-n-12.webp"
 link_sfoglia: "https://archive.org/details/insieme-12/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-12/insieme%2012%20gen%20mar%201977-def.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/"
+articoli:
+  - "editoriale-lettera-aperta-agli-amici-di-fede-e-luce"
+  - "ci-hanno-scritto-n-12"
+  - "cose-un-sacramento-cose-leucaristia-cose-la-confessione"
+  - "un-figlio-handicappato"
+  - "visitiamo-con-maria-laura-il-c-b-i-m-c-centro-belga-per-infermi-motori-mentali"
+  - "come-nata-la-prima-casetta-fede-e-luce-storie-di-pennelli-e-appendiciti"
+  - "notiziario-fede-e-luce-n-12-marzo-1977"
+  - "mio-figlio-emanuele-la-straordinaria-esperienza-di-una-madre-recensione"
+  - "bilancio-fede-e-luce-1976"
 ---
 
 ## Indice

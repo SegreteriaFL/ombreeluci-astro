@@ -15,7 +15,8 @@ umap_x: 7.6355180740356445
 umap_y: 9.275830268859863
 umap_z: 5.773156642913818
 issue_number: OEL-169
-id_numero: OEL-169
+id_numero: "OEL-169"
+numero_rivista: "Ombre e Luci"
 ---
 «S**arebbe possibile realizzare la legge Basaglia oggi?»** , si domanda, un po’ sconsolata, Giulia Galeotti durante la presentazione del libro sulla nuova vita degli ex manicomi italiani, da lei curato: *L’impossibile diventa possibile* (Castelvecchi 2024) è il titolo che riprende una frase di Franco Basaglia alla cui rivoluzione il testo è dedicato. Anche la vivace platea intervenuta scuote la testa… I tempi che stiamo vivendo – riflette Galeotti – sembrano **ripensare traguardi che pensavamo di poter dare per scontati per i nostri figli** : ci dobbiamo piuttosto preparare e reagire a vere e proprie marce indietro. Come quella denunciata quello stesso giorno da Massimo Gramellini nel suo *Caffè* quotidiano sul Corriere della Sera, in cui commentava quanto accadeva in Argentina, con il presidente Milei che impone il ritorno di termini come idiota, ritardato, imbecille per descrivere il grado di disabilità cognitiva.
 

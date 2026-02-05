@@ -16,8 +16,9 @@ umap_x: 5.238768577575684
 umap_y: 9.023581504821777
 umap_z: 7.598913192749023
 issue_number: OEL-8
+id_numero: "OEL-8"
+numero_rivista: "Ombre e Luci"
 ---
-
 Essere padre, essere madre non è mai semplice. È un'esperienza alla quale nessuna scuola prepara veramente. A pensarci bene, occuparsi, soprattutto la prima volta, di un altro essere umano, di un bambino piccolo, da il capogiro... Ma c'è la fiducia, c'è l'amore, c’è la speranza! La maggioranza degli sposi divengono genitori «spontaneamente», senza troppe difficoltà, il che non esclude gli errori di ogni giorno... dovuti all’inesperienza. Il discorso è diverso per coloro i quali, senza che alcuna forza e preparazione particolare, si ritrovano un giorno padre e madre di un bambino segnato da un handicap fisico o mentale, sia in seguito a una malattia, sia per un incidente. Le reazioni che seguono una così dolorosa presa di coscienza sono diverse. Ma una tentazione sopravviene spessissimo: sentirsi meno responsabili di un bimbo il quale invece esigerà nello stesso tempo più rinunzie e più competenza. Si presenta ora che ci si sente feriti nella speranza e frustrati nella gioia immaginata di un bambino che ci assomigliasse, che addirittura fosse migliore di noi. Sentirsi meno responsabili! Le situazioni che ci chiedono un impegno che non possiamo dare generano solitamente questo sentimento di rivolta parziale. E' un po' come se Dio ci avesse dato troppo poco per un compito troppo grande. E’ come se la Provvidenza ci avesse messo in una condizione ingiusta e noi rivoltandoci contro questa ingiustizia, ci considerassimo meno partecipi, meno «madre vera», meno «padre vero».
 > Allora si cerca di fuggire. Fughe discrete, nascoste a volte dalla coscienza stessa
 

@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "un-aiuto-per-i-prossimi-responsabili-di-fede-e-luce-responsabilita-si-o-no"
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26302
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 Nell'Associazione Fede e Luce gli incarichi sono elettivi, diversi ed essenziali per il buon cammino della Comunità. Spesso, ahimè, c’è la tentazione di evitarli come sempre si tende a fare davanti ad un impegno in più. Su questo argomento, abbiamo raccolto le riflessioni di molti amici.
 
 Le elenchiamo come un piccolo aiuto per i prossimi “responsabili!”

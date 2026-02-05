@@ -1,15 +1,29 @@
 ---
 id: "INS-24"
-title: "Insieme n. 24 - Bollettino Fede e Luce - 1980"
+title: "Insieme n. 24 – Bollettino Fede e Luce – 1980"
 tipo: "insieme"
 numero: 24
-anno: "1980"
+sort_order: 24
+pubDate: "1980-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1980"
 sommario: "Insieme n. 24 – Bollettino Fede e Luce – 1980 ultima modifica: 1980-03-20T15:39:37+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-24-mar-1980.webp"
 link_sfoglia: "https://archive.org/details/insieme-26"
 link_pdf: "https://archive.org/download/insieme-26/insieme%2024%20mar%201980.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-24-bollettino-fede-e-luce-1980/"
+articoli:
+  - "di-nuovo-in-cammino"
+  - "1-introduzione-fede-e-luce-anatomia-di-una-comunita-di-incontro"
+  - "2-fede-e-luce-larte-dellincontro-per-superare-la-paura-della-diversita"
+  - "3-i-protagonisti-i-volti-di-fede-e-luce-persona-con-disabilita-genitori-amici-e-sacerdoti"
+  - "4-vita-comunitaria-costruire-comunita-tre-pilastri-fede-luce"
+  - "5-creascere-insieme-guidare-una-comunita-fede-e-luce-principi-e-pratica"
+  - "ci-hanno-scritto-insieme-n-24"
+  - "vita-fede-e-luce-n-24"
+  - "andiamo-tutti-in-pizzeria"
+  - "1-introduzione-fede-e-luce-anatomia-di-una-comunita-di-incontro"
+  - "2-fede-e-luce-larte-dellincontro-per-superare-la-paura-della-diversita"
+  - "5-creascere-insieme-guidare-una-comunita-fede-e-luce-principi-e-pratica"
 ---
 
 ## Indice

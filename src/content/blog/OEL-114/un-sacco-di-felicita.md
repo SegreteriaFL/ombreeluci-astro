@@ -12,7 +12,8 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-114
-id_numero: OEL-114
+id_numero: "OEL-114"
+numero_rivista: "Ombre e Luci"
 ---
 Per molto tempo mi sono colpevolizzata per aver ricevuto molto, per essere nata in una famiglia numerosa dove ho ricevuto amore e fede: in una parola, in una culla dorata. Colpita dal passo del Vangelo “A quelli che hanno ricevuto molto, molto sarà chiesto”, mi sono detta: “Adesso, cerca di dare come puoi”.
 

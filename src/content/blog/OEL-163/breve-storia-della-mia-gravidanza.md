@@ -12,7 +12,8 @@ umap_x: 5.295986175537109
 umap_y: 9.222054481506348
 umap_z: 7.000223159790039
 issue_number: OEL-163
-id_numero: OEL-163
+id_numero: "OEL-163"
+numero_rivista: "Ombre e Luci"
 ---
 Nello scrivere questo articolo una premessa è d’obbligo: racconterò un’esperienza precedente di qualche mese la pandemia di covid-19. La mia gravidanza è stata tutta diversa a partire dal fatto che io sia una donna con una paralisi cerebrale e spasticità, e che non ci sia letteratura scientifica né nazionale né internazionale a questo riguardo. Con i medici che mi seguivano abbiamo un po’ osservato gli eventi, controllando anche tutti i rischi comuni di una gravidanza. Gli studi medici per le visite di controllo, i prelievi e tutti i controlli di routine presentavano sempre una serie infinita di barriere per la mia disabilità e la mia pancia che cresceva sempre di più.
 

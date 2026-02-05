@@ -12,7 +12,8 @@ umap_x: 9.096485137939453
 umap_y: 8.293503761291504
 umap_z: 13.41220760345459
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 Tra i pochi italiani che parteciparono a quel primo pellegrinaggio a Lourdes nel 1971, oltre ad alcune famiglie legate alla realtà dell’Anffas, c’erano suor Ida Maria Ferri, canonichessa di Sant’Agostino a Roma e don Renzo del Fante, cappellano di un istituto di ricovero per anziani e disabili. La religiosa era impegnata nella catechesi per bambini con disabilità, anche grazie all’adattamento del metodo montessoriano del Buon Pastore ideato da Sofia Cavalletti con la quale collaborava nella diffusione di questo interessante approccio al potenziale religioso di ogni bambino. **Suor Ferri e don del Fante presero parte alla riunione internazionale del settembre 1973 volta a decidere se Fede e Luce avrebbe organizzato un pellegrinaggio a Roma in occasione dell’Anno Santo del 1975 oppure se le nascenti comunità si sarebbero semplicemente aggregate alle varie iniziative diocesane.** Decisivo fu l’intervento di suor Ida, descritta da chi la conosceva – è il caso di Enrica Nucci – come «donna di poche parole ma di molti fatti», e – nell’aggiunta di Letizia Lanzetta, allora bambina – «con le caramelle sempre in tasca». Fu proprio il suo accorato appello a far cambiare idea ai delegati che invece sembravano ormai convinti dell’eccessiva difficoltà di organizzare un altro pellegrinaggio.
 

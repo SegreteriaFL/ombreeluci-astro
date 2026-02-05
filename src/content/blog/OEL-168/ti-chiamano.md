@@ -16,8 +16,9 @@ umap_x: 7.526596546173096
 umap_y: 9.164889335632324
 umap_z: 13.273818969726562
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sono nata ad Aosta il 31 gennaio 1940, ultima di sei figli. Appartengo alla congregazione delle Suore di San Giuseppe d’Aosta. Ho incontrato *Fede e Luce* attraverso padre Klaus Sarbach. Ero rientrata dalla missione in Sardegna dove avevo lavorato una decina di anni sia nella scuola media statale sia nelle opere parrocchiali, in una zona molto popolosa di giovani famiglie che provenivano dai vari paesi della Sardegna e dal continente. I ragazzi che incontravo nelle 18 classi di 25 alunni erano quasi tutti della mia parrocchia di nuova fondazione. Partecipavo pure a un coro polifonico a Olbia. Quindi il richiamo in valle fu un po’ doloroso anche perché terminare così la nostra missione in quella amata terra dove qualcuno dice che «si arriva a piangendo e si parte piangendo».
 
 Un giorno una sorella mi dice «Ti chiamano in parlatorio». Mi aspettava un sacerdote molto cordiale che non conoscevo. Per farla breve mi disse che la sua congregazione lasciava Chateau Verdun, luogo molto conosciuto e apprezzato, e ritornava Svizzera, ma che **in Valle vi era bisogno di un animatore spirituale per *Fede e Luce* .** Io l’ho ascoltato e gli ho detto «Si rivolga al vescovo!». Ma la risposta fu che non aveva sacerdoti. Continuava affermando di aver interpellato la mia madre generale: «Chieda a suor Teresita, altrimenti io non posso aiutarla». Ho fatto ancora resistenza perché, pur avendo avuto sin da bambina un’attenzione particolare per i poveri, non mi sentivo all’altezza. **Però davanti alle parole «Se non accetta il gruppo si scioglierà» e fidandomi della bontà misericordiosa di Dio, accettai ed eccomi ancora qua.** Anche se penso sia giunto il momento di passare le consegne.

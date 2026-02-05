@@ -12,8 +12,9 @@ umap_x: 6.147665500640869
 umap_y: 8.593818664550781
 umap_z: 11.523656845092773
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il 31 Ottobre scorso, dopo aver assistito ad un concerto, noi giovani amici ci eravamo ritrovati attorno a un tavolo di una birreria e facevamo progetti per il Capodanno di [Fede e Luce](https://www.fedeeluce.it/) 2.000, con Chiara e Giovanni naturalmente. Poco meno di 20 ore dopo la sera del 1 Novembre, Giovanni veniva ucciso e Chiara gravemente ferita; erano sulla macchina di Giovanni quell’auto che tanto ci era tornata utile al campeggio per le gite e per trasportare il grande quantitativo di materiale per l’animazione che aveva preparato Chiara. Sono stati colpiti a bruciapelo da un “non so chi” sbucato dalle tenebre, e tuttora pare un incubo terribile da cui ci si vorrebbe risvegliare.
 
 Giovanni e Chiara erano proprio una bella coppia che irradiava una luce di gioia e di amore alle persone che condividevano la loro amicizia.

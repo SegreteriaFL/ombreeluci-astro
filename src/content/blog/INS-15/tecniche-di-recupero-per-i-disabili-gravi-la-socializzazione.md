@@ -12,8 +12,9 @@ umap_x: 8.696187019348145
 umap_y: 7.712830543518066
 umap_z: 8.617372512817383
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 Un
 piccolo gruppo di genitori e di amici di Fede e Luce ha potuto seguire recentemente il corso di aggiornamento che la regione Lazio e il Ministero della Pubblica Istruzione hanno finanziato e patrocinato a vantaggio delle maestre delle scuole elementari di Roma. Corso tenuto da un'équipe inglese di 4 specialisti (medico-audiologo, neuropsichiatra infantile, ortofonista educatore [nota]Quello stesso educatore venuto l'anno scorso per fare un corso di qualche giorno in una scuola speciale di Roma. Vedi
 [Insieme n.9 1976](https://www.ombreeluci.it/1976/un-metodo-efficace-per-leducazione-dei-bambini-con-disabilita/)

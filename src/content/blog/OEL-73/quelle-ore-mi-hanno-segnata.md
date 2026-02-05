@@ -16,7 +16,8 @@ umap_x: 7.3123779296875
 umap_y: 9.115716934204102
 umap_z: 12.302702903747559
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 *“Esiste un grande eppur quotidiano mistero. Tutti gli uomini ne partecipano ma pochissimi si fermano a rifletterci. Quasi tutti si limitano a prenderlo come viene e non se ne meravigliano affatto. Questo Mistero è il tempo. Esistono calendari e orologi per misurarlo, misure di ben poco significato perché tutti sappiamo che talvolta un’unica ora ci può sembrare un’eternità e un’altra passa in un attimo...dipende da quel che viviamo in quest’ora. Perché il tempo è vita. E la vita dimora nel cuore...”*
 

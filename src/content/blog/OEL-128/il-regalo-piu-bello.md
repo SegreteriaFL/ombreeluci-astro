@@ -12,8 +12,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-128
+id_numero: "OEL-128"
+numero_rivista: "Ombre e Luci"
 ---
-
 Conobbi Mariangela dopo una delle prime casette che si facevano al Nazareth intorno al 1980. In verità andavo a riprendere Elena, mia sorella: a quel tempo trovavo inspiegabile che si trovasse bene dopo gli incontri ai quali io non partecipavo.
 
 Diverse volte nelle parrocchie in quegli anni ero stato “consigliato” di non disturbare le funzioni pertanto non capivo ancora lo spirito di Fede e Luce. Ricordo che Mariangela mi si avvicinò insieme a due mamme e cominciò con molta discrezione ad interessarsi di Elena e a coinvolgere piano piano anche me.

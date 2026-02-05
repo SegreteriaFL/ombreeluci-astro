@@ -4,8 +4,8 @@ date: 2007-09-09
 author: Redazione
 slug: tutti-insieme-fedelucissimamente
 lang: it
-numero_rivista: 99
-id_numero: OEL-99
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-99"
 issue_number: OEL-99
 wp_id: 32719
 original_url: "https://www.ombreeluci.it/?p=32719"
@@ -17,7 +17,6 @@ umap_x: 9.173100471496582
 umap_y: 7.843647480010986
 umap_z: 9.004280090332031
 ---
-
 Comunità di Fede e Luce, ottobre, riunione di inizio anno: cosa possiamo fare? Quali attività coinvolgono, bene e insieme, i ragazzi disabili, i loro genitori e qualche amico più o meno giovane e i numerosi bambini? Rita si lancia: una recita mi sembra l’idea più adatta! Riprenderemo una vecchia tradizione della nostra comunità: molti saranno coinvolti come attori, e chi non ha voglia di salire sul palcoscenico o è bravo in altro, può aiutare per i costumi, le musiche, le scene...
 
 A dicembre cominciamo l'avventura con una riduzione (davvero molto ridotta) di "Tutti insieme appassionatamente" che ci permette canti e balletti. Ci occorrono due prove al mese più gli incontri in comunità. Arriviamo ad aprile abbastanza stanchi e convinti di non essere ancora pronti per una rappresentazione. Rita ed Angela però, le nostre registe, non sentono ragione: si va in scena il 14 aprile per la Giornata di Annuncio e Condivisione!

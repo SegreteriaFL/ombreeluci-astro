@@ -14,8 +14,9 @@ umap_x: 6.5865478515625
 umap_y: 6.136748313903809
 umap_z: 9.430878639221191
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 *«Mi vieni a trovare, Serena? Perché non vieni a trovarmi?»*
 
 *«Franci, te l’ha spiegato Andrea che c'è il virus e che non possiamo vederci?»*

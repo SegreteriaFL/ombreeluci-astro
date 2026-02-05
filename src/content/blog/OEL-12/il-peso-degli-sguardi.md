@@ -16,8 +16,9 @@ umap_x: 5.354613780975342
 umap_y: 9.759407997131348
 umap_z: 9.176020622253418
 issue_number: OEL-12
+id_numero: "OEL-12"
+numero_rivista: "Ombre e Luci"
 ---
-
 Lo sguardo di un bianco che squadra un negro... Lo sguardo di uno alto su di un nano, di un adulto su un bambino, o di un bambino su un adulto... Lo sguardo del padre sul figlio, del figlio sul padre... Lo sguardo d'un superiore sul dipendente, dell'operaio sul principale... Lo sguardo di un giovane su un vecchio, di un vecchio su un giovane... Lo sguardo di un uomo su una donna e viceversa... Tutti questi sguardi di che cosa sono carichi? Riescono a essere il riflesso dello sguardo di Dio che contempla nell'altro il proprio viso?
 
 ### Chi viene ignorato

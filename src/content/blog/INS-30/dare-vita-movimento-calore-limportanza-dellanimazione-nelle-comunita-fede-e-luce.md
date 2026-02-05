@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Il timore più grosso, nello stendere queste righe, è quello di ripetere cose già dette, di riprendere concetti già svolti. Ma "ripetita iuvant", si usa dire, e inoltre potrebbe servire per qualcuno che si avvicina solo adesso a FEDE E LUCE, e queste cose ancora non è riuscito ad approfondirle.
 
 Chiesto scusa, dunque, a chi è già navigato, veniamo al punto. È importante l'animazione nei nostri Gruppi? La risposta è sì e vediamo di chiarirne i motivi.

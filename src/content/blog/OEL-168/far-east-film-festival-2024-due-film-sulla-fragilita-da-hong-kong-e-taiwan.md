@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il Far East Film Festival ha un forte legame col cinema di Hong Kong: la scintilla da cui nacque la prima edizione del 1999 fu una rassegna di film hongkonghesi. Ma ha ancora senso parlare di cinema di Hong Kong, oggi che la specificità di quel luogo è stata cancellata dal governo cinese? Il FEFF continua a indicare i film di Hong Kong separatamente rispetto a quelli cinesi e riesce ancora a scovare qualcosa di interessante.
 
 È il caso di *In Broad Daylight* di Lawrence Kan, ispirato a inchieste giornalistiche pubblicate nel 2016 in una Hong Kong dove c’era ancora libertà di stampa. In città, le case di cura autorizzate sono in numero grandemente insufficiente rispetto alla richiesta di posti letto, perciò ne sono state aperte molte altre private ed esentate dall’autorizzazione; in una di queste, che accoglie anziani e persone con disabilità fisiche e intellettive, una giornalista finge di essere la nipote di un anziano ospite e inizia la sua indagine tramite osservazione, ascolto dei racconti dei pazienti, raccolta di prove fotografiche e video. Scopre una quantità di abusi tale da far rabbrividire, ma non sempre la verità da rivelare all’opinione pubblica coincide con la giustizia. **La sceneggiatura, con una piccola forzatura narrativa, offre qualche dilemma etico in più rispetto ai classici film di giornalismo d'inchiesta: si può sospettare che la giornalista sia alla ricerca di uno scoop e non del benessere dei pazienti... ma il suo interesse appare sincero; il gestore del centro, il “cattivo” della storia, è ipovedente e può sostenere, nonostante le prove contro di lui, di essere legato ai suoi pazienti perché li può capire. È apprezzabile che gli abusi non vengano mostrati in modo esplicito: riprendendoli indirettamente, risulta più chiaro perché sia difficile portarli prima alla luce e poi in tribunale, senza esserne testimoni diretti.

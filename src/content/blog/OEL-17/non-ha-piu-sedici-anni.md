@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-17
-id_numero: OEL-17
+id_numero: "OEL-17"
+numero_rivista: "Ombre e Luci"
 ---
 *Appunti di Anna Cece da una conferenza del [prof. G. Moretti](http://www.emedea.it/editoria/medea_scientifica/riabilitazione_integrazione.htm), per il convegno «Non ha più 16 anni», promosso dalla associazione *[La Nostra Famiglia](http://lnf.cilea.it/index.php/it/)*, tenuto il 14-15 giugno 1986 a Molveno, pubblicato sul *Notiziario Informazione Amici Don Luigi Monza, n. 3/86*.*
 

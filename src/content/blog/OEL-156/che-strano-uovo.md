@@ -12,8 +12,9 @@ umap_x: 7.769182205200195
 umap_y: 11.040623664855957
 umap_z: 4.838546276092529
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Che strano uovo – disse la Regina. Accettò con qualche esitazione l'uovo nero dal Re, ma fece come questi chiedeva e lo covò nel seno». Nascerà un pulcino un po' spennacchiato che diventerà sì un bel galletto, ma troppo indisponente: corre tutto il giorno per il castello rovinando ogni cosa e, peggio ancora, non la smette mai di fare chicchirichì giorno e notte.
 
 Niente pare raddrizzare il galletto protagonista de *L'uovo nero* – albo illustrato di Sante Bandirali e Alicia Baladan (Uovonero edizioni 2020), tratto da una fiaba di Luigi Capuana – e addirittura, come ultimo tentativo, il re in persona si reca dalla fata Morgana per chiedere aiuto. Grazie al becchime speciale prescritto della fata, il gallettaccio si trasforma in un bel ragazzo robusto ma «con addosso una grande tristezza. [...] Ma cosa voleva per essere felice?». Il re e la regina che hanno smesso di temere le sue stravaganze e gli vogliono bene, organizzano per lui situazioni adeguate, dove può esprimersi , muoversi con le sue modalità e far emergere il meglio di sé, senza forzature. nel rispetto dei suoi talenti. Infatti alla fine della fiaba, e con soddisfazione anche della giovane sposa, un bel chicchirichì libera tutti.

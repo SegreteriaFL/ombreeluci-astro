@@ -12,8 +12,9 @@ umap_x: 7.940896034240723
 umap_y: 8.003788948059082
 umap_z: 13.425346374511719
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Calendario dell'anno
 
 **Natale** : ogni gruppo festeggia di propria iniziativa.

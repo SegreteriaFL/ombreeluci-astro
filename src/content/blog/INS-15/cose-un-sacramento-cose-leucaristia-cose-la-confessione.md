@@ -12,8 +12,9 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 Non si potrà dire tutto su tutto" Questo contributo vuol essere un'introduzione che lascia a ciascuno il compito di pensarci sopra, di riflettere e discutere, di cercare ed approfondire.
 
 Per capire cos'è un sacramento bisogna notare due cose:

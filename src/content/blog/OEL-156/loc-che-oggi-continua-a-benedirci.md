@@ -12,7 +12,8 @@ umap_x: 7.02414608001709
 umap_y: 9.377252578735352
 umap_z: 11.47387409210205
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 L
 oïc è l’unico membro della famiglia Proffit ancora in vita. Oggi ha 65 anni e vive all’Arca a Trosly. I suoi genitori, Camille e Gérard, erano agricoltori e vivevano nel dipartimento della Somme, nella Francia del Nord. Si erano sposati nel 1955 e sognavano una famiglia numerosa. Sono nati, prima Loïc e poi Thaddée,

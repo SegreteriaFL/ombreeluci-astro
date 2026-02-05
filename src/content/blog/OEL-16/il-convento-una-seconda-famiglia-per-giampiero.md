@@ -17,8 +17,9 @@ umap_x: 5.939906120300293
 umap_y: 10.057445526123047
 umap_z: 8.24633502960205
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 Giampiero ha 33 anni, ha la sindrome di Down ed è l'ultimo di cinque figli. La fede dei suoi genitori è divenuta la sua fede a mano a mano che cresceva. Quando i suoi genitori hanno cominciato a chiedersi quale sarebbe stato il posto più adatto per Giampiero adulto, egli ha espresso il desiderio chiaro di condividere con altri una vita di preghiera. Per questo essi hanno cercato un luogo dove vita di lavoro (un lavoro vero e a sua misura) e vita di preghiera fossero realmente legati insieme. Un monastero di carmelitane da ormai più di dieci anni ha accolto Giampiero come aiuto agricolo. La suora che si occupa della fattoria e che gli è stata vicina nei primi anni, ha accettato di scriverci la vita di Giampiero divisa fra casa e convento.
 
 ### Al lavoro!

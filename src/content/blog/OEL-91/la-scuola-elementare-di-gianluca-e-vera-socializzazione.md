@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "la-scuola-elementare-di-gianluca-e-vera-socializzazione"
 lang: it
-numero_rivista: 91
-id_numero: OEL-91
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-91"
 issue_number: OEL-91
 wp_id: 31128
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Mi è stata chiesta una testimonianza sull’integrazione di mio figlio Gianluca a scuola e devo dire onestamente che trovo quest'argomento alquanto difficile da trattare. La testimonianza diretta della nostra esperienza non può infatti servire come "esempio", come sono convinta non lo può nessun'altro "caso", senza rischiare di ricadere in quello che considero il più grosso problema delle leggi che tutelano i bambini disabili. Ognuno di essi è UNICO e necessita di risposte individualizzate, di soluzioni diversificare, di poter scegliere tra sistemi diversi. L’integrazione scolastica può essere per alcuni, o per lo stesso bambino, un'opportunità di crescita meravigliosa o rivelarsi una fonte di frustrazione e regressione. Dipende molto dal tipo di Handicap, dagli insegnanti di ruolo, dagli insegnanti di sostegno, dai genitori degli altri bambini e da noi stessi. Dalla nostra capacità in primis di accettare le diversità dei nostri figli, le difficoltà quotidiani, gli sguardi insofferenti perché danno noia o perché non fanno cose come gli altri. Credo che dipenda molto da come noi riusciamo a farli risplendere nel nostro cuore e in quelli degli altri.
 
 Gianluca ad esempio ha un ritardo considerato medio grave e adesso si esprime con suoni e innumerevoli gesti tratti da un linguaggio simbolico che gli indiani d'America usavano durante la guerra e dal LYS il linguaggio più usato dai muti.

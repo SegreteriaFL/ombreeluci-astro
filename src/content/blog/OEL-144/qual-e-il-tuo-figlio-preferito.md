@@ -12,5 +12,6 @@ tema_code: "T11"
 tema_label: "Giovani, futuro, speranza e cambiamento"
 categoria_menu: "Crescere"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-

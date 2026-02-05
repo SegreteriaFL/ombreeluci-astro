@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 È un evento comune, durante un festival, che regista e attori presenti in sala all'anteprima del loro film si alzino durante i titoli di coda per ricevere l'applauso del pubblico. Alla 18° [Festa del Cinema di Roma](https://www.ombreeluci.it/2023/festa-del-cinema-roma-2023/) **l'accoglienza è stata stupita ed emozionante, quando si sono accese le luci del Teatro Studio Borgna al termine di *Kripton* di Francesco Munzi,** non appena compreso che in sala c'erano alcuni dei volti appena visti sul grande schermo: giovani con disturbi mentali e comportamentali, i quali hanno acconsentito a farsi filmare e intervistare per molti mesi mentre accettavano volontariamente l'assistenza di strutture mediche che favoriscono un reinserimento graduale nella società.
 
 I loro disturbi, che si sommano a quelli comuni della giovinezza, sono a volte invisibili ed evidenziati solo da racconti simili a deliri a occhi aperti, altre volte ben marchiati su volti e corpi (come può fare l'anoressia). **Proprio questa apparente invisibilità, che solo il cinema può ribaltare, è il motivo principale per cui i disturbi mentali sono stati storicamente sottovalutati** nonostante ne soffrano milioni di italiani. Per ragionare sul fatto che ogni famiglia potrebbe esserne coinvolta, Munzi ha intervallato le storie dei suoi protagonisti con brevi spezzoni anonimi di filmini domestici del passato: immagini di bambini e genitori sconosciuti e felici che vogliono suggerire quanto spesso il male psicologico si sviluppi già nell’infanzia, quando la vita sembra riservare solo gioie; ma se resta inespresso, non viene né riconosciuto né affrontato per tempo.

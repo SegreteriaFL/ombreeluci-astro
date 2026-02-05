@@ -14,8 +14,9 @@ umap_x: 9.167118072509766
 umap_y: 8.304080963134766
 umap_z: 13.055279731750488
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Quando il gruppo S.Silvia chiese a Francesco di organizzare una gita per il 1979 nessuno immaginava quale sarebbe stato il risultato di questo incarico. Eravamo tutti invitati ad una piccola riunione a casa di Lucia senza sapere di cosa si trattasse.
 
 Erano presenti poche persone fra le più attive. **Noi non avevamo, allora, alcuna responsabilità in "Fede e Luce"** ; anzi eravamo abbastanza nuovi e restammo un po' sorpresi dinnanzi a questa proposta del tutto inaspettata. Né Francesco né io avevamo alcuna esperienza in questo campo. Eravamo stati tra i presenti al pellegrinaggio di Assisi lo scorso anno; ma piuttosto come ospiti e osservatori.

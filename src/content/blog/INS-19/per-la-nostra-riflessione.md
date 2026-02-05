@@ -15,8 +15,9 @@ umap_x: 6.162446022033691
 umap_y: 8.609682083129883
 umap_z: 11.263721466064453
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 **Ascolta questa storia.**
 
 È successa ieri a Gallarate vicino a Milano. Luciana Baroffi di 36 anni teneva la figlia Cristina di 16 anni a dormire in balcone. Ieri faceva meno cinque gradi. **I vicini hanno chiamato la polizia.**

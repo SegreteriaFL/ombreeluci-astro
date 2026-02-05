@@ -1,15 +1,41 @@
 ---
 id: "OEL-27"
-title: "Numero 27 - I bambini sordi"
+title: "Numero 27 – I bambini sordi"
 tipo: "ombre-e-luci"
 numero: 27
-anno: "1989"
+sort_order: 126
+pubDate: "1989-01-01T00:00:00Z"
 data_pubblicazione: "1989"
 sommario: "Cosa significa non udire, vivere nel silenzio? E se udiamo, come ascoltiamo? Siamo sicuri di mettere a frutto questo sommo bene? Come sempre, ci aiutano a farci un’idea le testimonianze delle persone che vivono questa condizione o di chi sta loro giorno dopo giorno (una mamma, una moglie, una sorella, un’insegnante). Proviamo a mettere in pratica i piccoli suggerimenti per avvicinare e parlare con una persona sorda perché, se pure sono tanti i progressi fatti per venire incontro alle difficoltà dei sordi, tanto «dipende da noi, parenti, amici, conoscenti...». Infine, la visita alla cooperativa sociale Spazio Aperto a Milano: una realtà che cerca, tra possibilità e difficoltà, di inserire persone con disabilità mentale in diversi campi di lavoro manuale."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_27_1989.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_027"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-27-i-bambini-sordi/"
+articoli:
+  - "come-ascoltare-veramente"
+  - "anche-se-non-ho-voce-anche-se-non-sento"
+  - "la-storia-di-angelica"
+  - "a-tavola-con-una-persona-sorda"
+  - "ho-fratello-e-sorella-sordi"
+  - "dal-silenzio-alla-comunicazione"
+  - "come-parlare-a-una-persona-sorda"
+  - "cooperativa-spazio-aperto"
+  - "come-riconoscere-la-sordita-infantile"
+  - "dialogo-aperto-n-27"
+  - "vita-fede-e-luce-n-27"
+  - "laltra-gente-convivere-con-lhandicap"
+  - "il-bambino-con-epilessia"
+  - "anche-se-non-ho-voce-anche-se-non-sento"
+  - "come-ascoltare-veramente"
+  - "la-storia-di-angelica"
+  - "dal-silenzio-alla-comunicazione"
+  - "a-tavola-con-una-persona-sorda"
+  - "come-parlare-a-una-persona-sorda"
+  - "ho-fratello-e-sorella-sordi"
+  - "cooperativa-spazio-aperto"
+  - "laltra-gente-convivere-con-lhandicap"
+  - "il-bambino-con-epilessia"
+  - "dialogo-aperto-n-27"
 ---
 
 ## Indice

@@ -12,7 +12,8 @@ umap_x: 5.5764007568359375
 umap_y: 7.468887805938721
 umap_z: 9.187593460083008
 issue_number: OEL-41
-id_numero: OEL-41
+id_numero: "OEL-41"
+numero_rivista: "Ombre e Luci"
 ---
 Gli articoli di
 [questo numero](http://www.ombreeluci.it/project/numero-41-10-anni-di-ombre-e-luci-piu-che-una-rivista-una-grande-famiglia/)

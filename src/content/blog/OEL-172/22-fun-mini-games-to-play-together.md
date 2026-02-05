@@ -14,8 +14,9 @@ umap_x: 9.080902099609375
 umap_y: 9.228353500366211
 umap_z: 6.295320510864258
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Second part of our game selection ( [first list available here](https://www.ombreeluci.it/en/1994/interactive-games-unforgettable-group-fun/) ). Send us your feedback and any other great group games you know — next year we’ll publish another issue focused on activities and group games.
 style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2238371130141396" data-ad-slot="3935313878">
 

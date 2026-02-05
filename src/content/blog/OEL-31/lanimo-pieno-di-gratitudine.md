@@ -14,7 +14,8 @@ umap_x: 6.907042503356934
 umap_y: 9.018752098083496
 umap_z: 11.763677597045898
 issue_number: OEL-31
-id_numero: OEL-31
+id_numero: "OEL-31"
+numero_rivista: "Ombre e Luci"
 ---
 Ho l'animo ancora pieno di gratitudine verso quegli amici di Fede e Luce che si sono sostituiti a noi genitori nell’accudire per un periodo di quattro giorni il nostro figliolo Francesco che è un ragazzino tutt’altro che facile e amabile. È successo così: mesi orsono ero stata informata che a maggio si sarebbe tenuto il ritiro nazionale di Fede e Luce a Triuggio con la partecipazione di Jean Vanier. Grande era il mio desiderio di prendervi parte e di trovare un po’ di riposo e di pace tra quegli amici. Ma, a chi lasciare Francesco? A malincuore, come al solito, dovevo rinunciare; e, invece, con tanta generosità e spontaneità, un gruppetto di sei amici ha organizzato una mini vacanza (non per loro) nella casa di Broni, portando con sé il mio figliolo. Nemmeno i famigliari più vicini a noi avrebbero fatto un tale gesto di generosità! Ho goduto appieno di quella libertà regalatami e grande è la mia riconoscenza. Inoltre, e questo lo dico alle altre mamme che come me vivono una esperienza difficile e hanno timore a lasciare i loro figlioli, Francesco con questi amici si è comportato meglio di come si comporta di solito con noi genitori ed è tornato più sereno. -
 *E.S.*

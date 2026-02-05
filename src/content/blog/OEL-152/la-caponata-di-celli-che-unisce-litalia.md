@@ -12,8 +12,9 @@ umap_x: 6.999014854431152
 umap_y: 5.804831027984619
 umap_z: 10.564146995544434
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 La caponata di melanzane che propongo è unica: questa ricetta non la troverete in rete perché non è la classica, più nota, siciliana e nemmeno la calabrese. È la caponata di mia mamma, Celli, che l’aveva imparata da mia nonna, sua suocera, Anna.
 
 Celli, nata a Fiume nel 1927 e cresciuta a polenta, crauti, gulash, kifeletti e strudel, dopo una rocambolesca fuga, come quella di tanti altri italiani d’Istria, ripara a Roma, dove conosce e poi sposa un giovane calabrese, della leva del 1916, Pietro, figlio di Anna che, sposatasi prestissimo e di famiglia all’epoca abbiente, aveva avuto come mentore un cuoco che oggi definiremmo “stellato” che le aveva trasmesso tutti i segreti e trucchi dell’arte culinaria.

@@ -12,7 +12,8 @@ umap_x: 8.25764274597168
 umap_y: 8.624422073364258
 umap_z: 12.672069549560547
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Finalmente, dopo un anno di preparazione, soprattutto spirituale, è arrivato il momento della partenza per Roma e poi Assisi, per festeggiare un compleanno molto importante: i nostri primi 40 anni.
 

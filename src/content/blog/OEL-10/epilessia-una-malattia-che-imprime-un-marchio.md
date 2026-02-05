@@ -16,7 +16,8 @@ umap_x: 6.685822010040283
 umap_y: 9.910131454467773
 umap_z: 7.220225811004639
 issue_number: OEL-10
-id_numero: OEL-10
+id_numero: "OEL-10"
+numero_rivista: "Ombre e Luci"
 ---
 «
 *Ho 34 anni, una moglie adorata ed una splendida bambina, eppure per molto tempo la mia vita è stata un inferno; soltanto adesso comincio a migliorare*

@@ -4,8 +4,8 @@ date: 2006-06-21
 author: Redazione
 slug: tecniche-di-diagnosi-prenatale
 lang: it
-numero_rivista: 94
-id_numero: OEL-94
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-94"
 issue_number: OEL-94
 wp_id: 31916
 original_url: "https://www.ombreeluci.it/?p=31916"
@@ -17,7 +17,6 @@ umap_x: 5.37886381149292
 umap_y: 9.604146957397461
 umap_z: 6.971037864685059
 ---
-
 Presentiamo una breve sintesi delle tecniche che esistono ad oggi per la diagnosi prenatale di patologie del feto. Tutte queste tecniche devono però includere come primo passo una corretta informazione dei genitori per rendere loro possibile una scelta, compresa quella di non eseguire nessun test. Per questo è necessario spiegare, oltre agli aspetti pratici dei test, le possibili scelte e implicazioni legate al risultato.
 
 ### Tecniche non invasive

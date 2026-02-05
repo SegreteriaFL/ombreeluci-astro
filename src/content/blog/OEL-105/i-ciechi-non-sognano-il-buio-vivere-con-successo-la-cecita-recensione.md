@@ -12,7 +12,8 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-105
-id_numero: OEL-105
+id_numero: "OEL-105"
+numero_rivista: "Ombre e Luci"
 ---
 La sintesi di questo prezioso testo è data dall’augurio che Ferdinando Ceccato, presidente dell’Unione dei Ciechi e degli Ipovedenti, scrive nell’introduzione: "...che al cieco questo libro sappia dare fiducia e il segno concreto di cosa sia possibile raggiungere se a guidarlo sono speranza, ingegno e caparbia volontà di riuscire. Al lettore potrà risultare più facile sapere di noi, scoprire che, prima ancora che ciechi, siamo qualcos’altro che ci vede, pur nelle differenze, uguali a tutti gli esseri umani".
 

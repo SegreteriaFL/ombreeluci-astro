@@ -14,8 +14,9 @@ umap_x: 4.679050445556641
 umap_y: 10.057860374450684
 umap_z: 11.965595245361328
 issue_number: OEL-128
+id_numero: "OEL-128"
+numero_rivista: "Ombre e Luci"
 ---
-
 **M ariangela e la parrocchia di Santa Silvia** : Fede e Luce, l’Alveare, la Caritas, il Consiglio Pastorale, e tanto altro. Un filo conduttore: l’ascolto, a più livelli. Ascolto delle necessità dei più deboli e dimenticati, e ascolto della Parola di Dio, stimolo, conforto, pungolo per la propria vita e per ogni iniziativa. Entrata a San Silvia con Fede e Luce, quasi da una porta secondaria, con il passare del tempo Mariangela era diventata per molti, per esempio per i membri del Consiglio parrocchiale, un punto di riferimento. Pronta prima a intervenire su ogni tema importante (dopo aver brontolato per il tempo perso su argomenti marginali) e poi a consigliare, organizzare, farsi carico dei problemi in prima persona.
 
 **Circa quarant’anni fa, Mariangela e Paolo chiesero al parroco don Antonino di ospitare nei locali di Santa Silvia gli incontri mensili di una comunità di [Fede e Luce](https://www.fedeeluce.it/)** . Don Antonino, con l’apertura e l’attenzione verso tutti che lo distinguevano, mise inizialmente a disposizione una sala per le riunioni, ma fu presto così coinvolto da partecipare personalmente a ogni “festa”, diventando, potremmo dire, il primo amico e consigliere della nostra comunità.

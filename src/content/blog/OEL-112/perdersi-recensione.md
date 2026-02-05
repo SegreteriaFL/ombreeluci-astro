@@ -12,8 +12,9 @@ umap_x: 7.614687919616699
 umap_y: 11.774345397949219
 umap_z: 4.770448684692383
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 L’autrice è americana, laureata in neuropsichiatria; ha dedicato la | vita allo studio della depressione, del morbo di Parkinson e a quello . di Alzheimer.
 
 In questo suo primo romanzo, commovente e delicato, ma pieno di realismo, racconta la storia di Alice, professoressa di scienze psicologiche all’università, sposata con un professore di chimica, con tre figli. | Alle prime perdite della memoria, ai primi smarrimenti per le strade co°. nosciute, alle prime parole che non vengono durante una conferenza... via via fino allo sgretolamento della sua ricca personalità, alla consapevolezza della malattia di Alzheimer, Alice reagisce con enorme coraggio e determinazione.

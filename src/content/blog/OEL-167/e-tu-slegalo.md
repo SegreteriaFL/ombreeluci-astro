@@ -12,7 +12,8 @@ umap_x: 7.606010437011719
 umap_y: 9.061934471130371
 umap_z: 5.839433193206787
 issue_number: OEL-167
-id_numero: OEL-167
+id_numero: "OEL-167"
+numero_rivista: "Ombre e Luci"
 ---
 Avanti e indietro, avanti e indietro: Franco Basaglia fatica star fermo difronte alla telecamera di Sergio Zavoli nel documentario I Giardini di Abele del 1968. Sono due le telecamere che devono seguirlo e staccare seccamente per non perderlo di vista mentre lo psichiatra spiega il suo punto di vista sulla malattia mentale, anzi sul malato, quello che gli interessa davvero: «Non saprei proporre niente di psichiatrico in un manicomio tradizionale… nessuna terapia credo possa dare giovamento a persone costrette in un clima di sudditanza e cattività da chi li deve curare». La rivoluzione dello sguardo era cominciata: nessun uomo o donna saranno ancora legati e trattati come animali (a pensarci oggi, anche peggio) perché vengano curati, sotto la sua direzione al manicomio di Gorizia.
 

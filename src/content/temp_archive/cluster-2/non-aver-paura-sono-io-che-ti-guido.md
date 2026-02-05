@@ -7,6 +7,7 @@ cluster_id: 2
 image: "http://www.ombreeluci.it/wp-content/uploads/2018/06/oel040-011.jpg"
 slug: "non-aver-paura-sono-io-che-ti-guido"
 has_comments: false
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

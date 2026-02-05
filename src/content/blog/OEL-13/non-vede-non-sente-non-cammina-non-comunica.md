@@ -12,7 +12,8 @@ umap_x: 5.703813552856445
 umap_y: 9.044879913330078
 umap_z: 7.669876575469971
 issue_number: OEL-13
-id_numero: OEL-13
+id_numero: "OEL-13"
+numero_rivista: "Ombre e Luci"
 ---
 Affrontiamo in questo numero un argomento fra i più gravi. Avere un figlio che non vede, non sente, non cammina, non comunica... è una delle prove più traumatizzanti per dei genitori e per tutta la famiglia. Casi rari, per fortuna, ma che esistono, purtroppo.
 

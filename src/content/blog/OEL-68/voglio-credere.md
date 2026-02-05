@@ -4,8 +4,8 @@ date: 1999-12-17
 author: Redazione
 slug: voglio-credere
 lang: it
-numero_rivista: 68
-id_numero: OEL-68
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-68"
 issue_number: OEL-68
 wp_id: 13047
 original_url: "https://www.ombreeluci.it/?p=13047"
@@ -17,7 +17,6 @@ umap_x: 9.049677848815918
 umap_y: 9.955160140991211
 umap_z: 10.283991813659668
 ---
-
 Dom Helder Càmara è morto lo scorso 27 agosto all’età di novant'anni. È stato arcivescovo della diocesi di Recife, in Brasile, e ha speso la sua vita per i più poveri vivendo da povero. Lo chiamavano "il vescovo rosso ma lui diceva: "Non ho bisogno del marxismo: il Vangelo mi dà tutto ciò che il marxismo potrebbe darmi... Inutile allarmarsi. Non predico I odio, predico l’amore. "Ha scritto questo credo .
 
 Non credo al diritto del più forte al linguaggio delle armi, alla potenza dei potenti. Voglio credere al diritto dell’uomo, alla mano aperta, alla potenza dei non-violenti.

@@ -12,7 +12,8 @@ umap_x: 5.933403968811035
 umap_y: 9.020522117614746
 umap_z: 10.136272430419922
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Mi è capitato spesso, soprattutto in una certa fase della vita, di trovare strade in salita, salite ripide, faticose, non occasionali ma di quelle che ti fanno dubitare della risorsa più preziosa: te stesso. È stato allora che ho avuto la grazia, la fortuna e forse anche il talento di avere persone attorno a me, soprattutto l’amico del cuore, benedetto amico del cuore, ma non solo lui. E allora ha ragione Enrico, un altro amico, quando dice che se Giulietta avesse avuto un’amica la storia avrebbe avuto un altro finale. Insomma, **in qualche passaggio cruciale mi sono salvata solo perché qualcuno ha creduto in me e anche su quella fiducia ho costruito la mia.**
 

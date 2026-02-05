@@ -14,7 +14,8 @@ umap_x: 8.357784271240234
 umap_y: 7.606715202331543
 umap_z: 9.133757591247559
 issue_number: OEL-130
-id_numero: OEL-130
+id_numero: "OEL-130"
+numero_rivista: "Ombre e Luci"
 ---
 Ilgruppo d’arte I Mille Volti accoglie al suo interno una decina di persone, dai 27 ai 56 anni, disabili e non - un bel gruppo sociale misto quindi, come nella nostra vita di tutti i giorni… - liberamente collegate in un percorso laboratoriale di scrittura creativa in poesia e prosa.
 

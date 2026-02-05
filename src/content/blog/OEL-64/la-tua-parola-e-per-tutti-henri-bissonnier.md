@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "la-tua-parola-e-per-tutti-henri-bissonnier"
 lang: it
-numero_rivista: 64
-id_numero: OEL-64
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-64"
 issue_number: OEL-64
 wp_id: 12388
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 ---
-
 Se è vero che al cuore della missione affidata alla Chiesa si trova, fin dalle origini, il compito di proteggere e curare resistenza dei suoi figli più fragili, è anche vero, purtroppo, che ben poco di questa preoccupazione è trapelato e trapela nella vita dei suoi fedeli, almeno di quelli che si riuniscono nelle parrocchie. Ignoranza, paura, egoismo? Non è questo il luogo né il tempo di analizzare il fenomeno; è invece il tempo di far festa perché qualcosa sta cambiando: la superficie di tante situazioni rese patinate e false dagli uomini, si sta incrinando in più punti mentre vengono alla luce - insieme alle incertezze, ai possibili sbagli e a un pò di confusione - la verità e la bellezza della parola di Dio che ci dice, e mentre ci dice è, la tenerezza e l’ansia per i suoi figli più piccoli.
 
 Se infatti qualcosa di terribile c’è, a volte, nelle voci che si intrecciano nei luoghi di culto, è il vuoto che si cela, anzi è visibile, dietro le parole: l’uso vano della parola.

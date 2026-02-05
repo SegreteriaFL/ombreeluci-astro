@@ -4,8 +4,8 @@ date: 2005-09-19
 author: Laura Nardini
 slug: integrazione-scolastica-come-la-viviamo-noi-compagni-di-classe
 lang: it
-numero_rivista: 91
-id_numero: OEL-91
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-91"
 issue_number: OEL-91
 wp_id: 31104
 original_url: "https://www.ombreeluci.it/?p=31104"
@@ -18,7 +18,6 @@ umap_x: 6.858470916748047
 umap_y: 6.84123420715332
 umap_z: 6.71968936920166
 ---
-
 S
 hakespeare, con la sua capacità senza tempo di raccontare e descrivere la grande vastità dei sentimenti e delle emozioni umane, ha rappresentato per Bob Smith la chiave di volta per riscrivere la trama della sua esistenza. È infatti riuscito, Shakespeare, a “parlare” a Bob come nessuno aveva fatto nella sua vita: riconoscendo e dando dignità ai contrapposti sentimenti di un giovane estremamente legato, nel bene e nel male, alla sua famiglia — una mamma sempre sull'orlo della depressione, un papà per lui troppo assente, una amatissima sorella, Carolyn, gravemente handicappata e dei nonni, particolarmente importanti e affettuosi, ma poco adatti, a volte, alle esigenze di un bambino.
 

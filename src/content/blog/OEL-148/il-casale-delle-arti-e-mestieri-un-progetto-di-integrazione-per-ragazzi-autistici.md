@@ -12,8 +12,9 @@ umap_x: 7.7869110107421875
 umap_y: 7.5709638595581055
 umap_z: 7.421412467956543
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 D
 al 2 aprile, in concomitanza con la Giornata Mondiale per la consapevolezza dell'Autismo, parte finalmente il progetto “
 [**Il casale delle arti e dei mestieri**](http://casale.cervelliribelli.it/)

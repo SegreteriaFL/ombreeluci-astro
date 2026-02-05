@@ -12,8 +12,9 @@ umap_x: 6.084875106811523
 umap_y: 6.595159530639648
 umap_z: 12.150409698486328
 issue_number: OEL-128
+id_numero: "OEL-128"
+numero_rivista: "Ombre e Luci"
 ---
-
 Questo articolo è uscito nel [numero 20 di Insieme nel 1979](https://www.ombreeluci.it/project/insieme-n-20-bollettino-fede-e-luce-1979/)
 > “Turbata da quelle parole, ella si domandava cosa potesse significare un tale saluto” (Lc. 1-29)
 

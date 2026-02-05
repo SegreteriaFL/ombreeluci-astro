@@ -15,7 +15,8 @@ umap_x: 8.198050498962402
 umap_y: 7.519288539886475
 umap_z: 8.994306564331055
 issue_number: OEL-164
-id_numero: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
 Don Mario Campidori entrava nelle case delle persone con disabilità, per incontrarle, conoscerle e farle uscire fuori dalle mura all’interno delle quali vivevano, troppo spesso in solitudine. Le invitava ad andare con lui nelle parrocchie e, fatte le dovute presentazioni, non si poteva più pensare che quelle persone non esistessero: andavano cercate e accolte nella comunità parrocchiale. **Nel 1973 diede vita al movimento [*Simpatia e amicizia,*](https://www.fondazionecampidori.it/) la cui prima iniziativa fu quella di costruire un villaggio senza barriere: nacque così il *Pastor Angelicus* a 40 chilometri da Bologna** per tempi di vacanza accessibili a tutti. Più recentemente lo spirito di quel villaggio ha trovato casa in città, in un edificio all’interno del terreno del seminario arcivescovile, ristrutturato grazie ai fondi ricavati dalla gestione della Faac, nota ditta produttrice di automatismi per cancelli.
 

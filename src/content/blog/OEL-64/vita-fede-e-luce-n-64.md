@@ -4,8 +4,8 @@ date: 1998-12-10
 author: Redazione
 slug: vita-fede-e-luce-n-64
 lang: it
-numero_rivista: 64
-id_numero: OEL-64
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-64"
 issue_number: OEL-64
 wp_id: 12379
 original_url: "https://www.ombreeluci.it/?p=12379"
@@ -17,7 +17,6 @@ umap_x: 8.916738510131836
 umap_y: 8.595172882080078
 umap_z: 10.521014213562012
 ---
-
 ### II mimo - Momento di preghiera a F.L
 
 Questa forma di drammatizzazione la ritroviamo addirittura come unica forma di linguaggio per comunicare presso i primi uomini quando non avendo un linguaggio verbale abbastanza evoluto per esprimere i propri bisogni, i propri sentimenti, i propri desideri, utilizzavano il linguaggio del corpo, la cosiddetta mimica corporea. Già i Greci e i romani conobbero spettacoli muti, nei quali si esprimevano solo per mezzo del gesto; nel cinquecento gli attori potevano esercitare pericolosamente la satira politica attraverso la pantomima.

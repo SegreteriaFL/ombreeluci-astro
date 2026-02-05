@@ -4,8 +4,8 @@ date: 2002-03-09
 author: Maria Teresa Mazzarotto
 slug: la-vita-di-daniele-interviste-dopo-la-lettura-del-libro-chi-sarei-se-potessi-essere
 lang: it
-numero_rivista: 77
-id_numero: OEL-77
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-77"
 issue_number: OEL-77
 wp_id: 23854
 original_url: "https://www.ombreeluci.it/?p=23854"
@@ -17,7 +17,6 @@ umap_x: 6.220418930053711
 umap_y: 8.209321022033691
 umap_z: 8.20327377319336
 ---
-
 Èsorto in noi, dopo la lettura di “Chi sarei se potessi essere” il desiderio di parlare con qualche amico e amica che sta vivendo questo momento della vita, così importante e così diffìcile. Ci siamo riusciti grazie alla disponibilità di Titti, una nostra amica di vecchia data, mamma di Daniele, un bel ragazzo, down, di 26 anni.
 
 ### La mamma

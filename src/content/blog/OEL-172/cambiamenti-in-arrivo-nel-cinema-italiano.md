@@ -14,8 +14,9 @@ umap_x: 8.612548828125
 umap_y: 8.415118217468262
 umap_z: 3.4456076622009277
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Negli ultimi anni, anche in Italia qualcosa sta cambiando nella scelta degli attori per un ruolo come quello di un personaggio con autismo.
 
 *Le Ali Invisibili* è un cortometraggio intenso e coinvolgente che affronta il tema dell'autismo con uno sguardo autentico e toccante. La storia segue il percorso di Alessio, un giovane autistico che sogna di diventare un attore professionista e si scontra con i pregiudizi e le barriere comportamentali dei registi teatrali, che invece di valorizzarlo finiscono per ostacolarlo. Un’esperienza che ho vissuto personalmente molte volte.

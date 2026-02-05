@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ripetete con me: «Adelia Antartico Imperatore e Papua, Adelia Antartico Imperatore e Papua». Fatto? Bene, siete entrati nel magico mondo di *Atypical*. Dove conoscerete Sam, il protagonista della serie di Netflix che racconta la vita di un ragazzo che si trova “on the spectrum”, cioè nello spettro dell’autismo.
 
 Sam è quello che noi definiremmo un “autistico ad alto funzionamento”. Sa fare delle cose (ad esempio memorizzare elenchi o numeri) molto meglio della media degli uomini ma è completamente inadatto a gestire altre situazioni di stress soprattutto emotivo.

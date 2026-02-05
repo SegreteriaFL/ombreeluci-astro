@@ -1,15 +1,26 @@
 ---
 id: "INS-29"
-title: "Insieme n. 29 - Bollettino Fede e Luce - 1981"
+title: "Insieme n. 29 – Bollettino Fede e Luce – 1981"
 tipo: "insieme"
 numero: 29
-anno: "1980"
+sort_order: 29
+pubDate: "1980-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 1980"
 sommario: "Questo numero di 'Insieme' è interamente dedicato al tema dell'animazione nelle comunità di Fede e Luce. Dall'organizzazione delle celebrazioni liturgiche alla gestione delle feste, dall'uso della musica al teatro, gli articoli offrono esperienze concrete e suggerimenti pratici per rendere vivi e significativi i momenti comunitari. Particolare attenzione è dedicata al coinvolgimento delle persone con disabilità, valorizzando i talenti di ciascuno per creare autentici momenti di condivisione e gioia.Gli autori - tra cui Jean Vanier, fondatore delle comunità dell'Arca - condividono riflessioni e metodologie sperimentate sul campo, fornendo strumenti utili per chi si occupa di animazione in contesti inclusivi. Il numero si completa con una rassegna di libri sul tema e la presentazione di due comunità che possono essere fonte di ispirazione."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-29-giu-1981.webp"
 link_sfoglia: "https://archive.org/details/insieme-29/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-29/insieme%2029%20giu%201981.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-29-bollettino-fede-e-luce-1981/"
+articoli:
+  - "perche-un-numero-dedicato-allanimazione"
+  - "animare-una-messa-e-renderla-viva-facendo-lunita"
+  - "principi-di-azione-per-una-equipe-di-animazione"
+  - "dare-vita-movimento-calore-limportanza-dellanimazione-nelle-comunita-fede-e-luce"
+  - "dopo-di-me-il-diluvio-commedia-musicale-del-gruppo-fede-e-luce-di-san-paolo"
+  - "la-festa-uno-dei-momenti-essenziale-della-comunita-fede-e-luce"
+  - "unora-di-musica-con-suor-maria"
+  - "comunita-di-fede-e-luce"
+  - "consigli-di-lettura-insieme-n-29"
 ---
 
 ## Indice

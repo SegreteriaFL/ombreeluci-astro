@@ -12,7 +12,8 @@ umap_x: 7.729247570037842
 umap_y: 9.44002914428711
 umap_z: 14.344175338745117
 issue_number: OEL-123
-id_numero: OEL-123
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
 D
 al 21 al 27 luglio le delegazioni delle tre province italiane (Un fiume di pace: Angela Grassi, Mario Ferrini, Roberto Bertin, Angelo Volpi; Kimata: Stefano Di Franco, Daniela Guglietta, Alessandra Ruggeri, Daniele Cogliandro; Mari e Vulcani: Carlo Gazzano, Francesco Famiglietti, Ivana Malerba, Larysa Grygor’yeva) e il nostro presidente nazionale Paolo Tantaro hanno rappresentato il nostro Paese all’Assemblea internazionale di Fede e Luce a Leeds, in Inghilterra. Con loro, la vice coordinatrice internazionale Lucia Casella. Il discernimento ha portato a rieleggere come coordinatore internazionale Ghislain Du Chené, mentre il nuovo Consiglio di amministrazione è ora presieduto da Anne-Marie Pike, della Nuova Zelanda, e composto da Hoda El Turk (Libano, vicepresidente), Artkin Muvishi (Zimbabwe), Tim e Maria-Cecilia Buckley (Usa-Brasile).

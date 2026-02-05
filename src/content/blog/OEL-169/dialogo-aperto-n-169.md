@@ -16,7 +16,8 @@ umap_x: 5.460971832275391
 umap_y: 7.9483160972595215
 umap_z: 11.333858489990234
 issue_number: OEL-169
-id_numero: OEL-169
+id_numero: "OEL-169"
+numero_rivista: "Ombre e Luci"
 ---
 ### **Al concerto di un amico**
 

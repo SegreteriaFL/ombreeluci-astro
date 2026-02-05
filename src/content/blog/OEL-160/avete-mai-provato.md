@@ -12,7 +12,8 @@ umap_x: 6.942410469055176
 umap_y: 7.535757064819336
 umap_z: 12.435547828674316
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 *Questo articolo è apparso sul **[numero 19 di Insieme](https://www.ombreeluci.it/project/insieme-n-19-bollettino-fede-e-luce-1978/)** nel 1978*
 

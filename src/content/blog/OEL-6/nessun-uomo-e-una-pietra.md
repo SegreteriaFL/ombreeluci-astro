@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-6
-id_numero: OEL-6
+id_numero: "OEL-6"
+numero_rivista: "Ombre e Luci"
 ---
 Le persone psicotiche, quanto sono simili a noi? Che cosa sentono? Di che hanno bisogno? Di che cosa soffrono?
 Yves Pélicier, professore di medicina a Parigi, medico dell'Ospedale Necker, risponde in questo articolo chiaro e umano.

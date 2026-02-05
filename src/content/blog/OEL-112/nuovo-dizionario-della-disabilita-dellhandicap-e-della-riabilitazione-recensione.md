@@ -11,8 +11,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il “Dizionario della disabilità, dell'handicap e della riabilitazione”, in questa seconda edizione è stato ampliato con centinaia di nuove voci. Offrendo delle possibili chiavi di collegamento tra il mondo delle normali abilità e quello delle diverse abilità, L'Autore guarda alla disabilità non più come a una deviazione da un presunto modello di sanità, ma dal punto di vista di un “continuum” che guarda al maggiore o minor grado di benessere dell’individuo nel suo rapporto con la società. www.armando.it
 
 Chi lo vuole lo può acquistare in libreria o richiedere all’editore. Nella presentazione ci sono considerazioni della presidente nazionale Comm. Ida Collu, riprese dalla prima edizione.[Ombre e Luci n.109](https://www.ombreeluci.it/project/numero-109-essere-mamma/)

@@ -7,6 +7,7 @@ cluster_id: 0
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_23_1988-207x300.jpg"
 slug: "a-braccia-aperte"
 has_comments: false
+id_numero: "OEL-23"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

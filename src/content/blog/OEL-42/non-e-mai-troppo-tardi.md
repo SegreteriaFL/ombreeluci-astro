@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 Da due anni vivo con Federica. E’ una simpatica donnina di 44 anni. Quando l’ho conosciuta, la sua autonomia appariva buona rispetto alla sua età e al suo handicap (Down).
 Oggi mi meraviglio nel constatare come, pur così adulta, sia riuscita a crescere in tante piccole cose.

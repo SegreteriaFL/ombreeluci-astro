@@ -12,8 +12,9 @@ umap_x: 8.752257347106934
 umap_y: 8.195147514343262
 umap_z: 3.332139492034912
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Alcuni mesi fa mi fu chiesto di scrivere qualcosa a proposito di come il cinema abbia affrontato la disabilità nel corso dei suoi cento e più anni di vita. Lo feci. L’ho riletto per preparare quest’altro articolo. Sembra essere passato davvero un secolo.
 
 Scrivo nel giorno dei 919 decessi, il 27 marzo 2020. Una data che molti, purtroppo, ricorderanno bene. E mi rendo conto che quando, speriamo presto, sapendo che il tempo sarà quello necessario e non quello che ci auguriamo, tutto questo sarà finito, saremo diversi.

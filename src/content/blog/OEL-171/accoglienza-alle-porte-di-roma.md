@@ -16,7 +16,8 @@ umap_x: 7.775352954864502
 umap_y: 8.766197204589844
 umap_z: 11.324929237365723
 issue_number: OEL-171
-id_numero: OEL-171
+id_numero: "OEL-171"
+numero_rivista: "Ombre e Luci"
 ---
 «Nella parrocchia alla Montagnola viene anche una comunità di Fede e Luce. Hanno un bel modo di stare insieme, con persone in situazione anche di grave disabilità: insieme, alcuni di loro, hanno messo in gioco la vita con l’esperienza della casa famiglia [Il Carro](https://www.ombreeluci.it/2014/il-carro-una-casa-famiglia-per-tutti/) ». Conosciamo don Luigi D’Errico da circa dodici anni e, quando parla di «giocarsi la vita» per qualcuno, sappiamo come lo abbia vissuto in prima persona.
 

@@ -11,8 +11,9 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 Tutto quello che è stato detto sui pluri, poli, multi handicappati, mi spinge a porre una domanda che mi tormenta sempre di più: si fa qualcosa e, in caso affermativo, che cosa si fa per il loro risveglio religioso?
 Ponendo questa domanda penso a quei ragazzi afflitti da handicap multipli e a quelli che si dicono «ritardati gravi», o ai grandi psicotici, a tutti quegli esseri che non parlano e quasi non reagiscono pur essendo esseri umani come noi, fratelli nostri. Anche loro sono amati da Dio, padre nostro.
 Anche per loro Gesù ha dato la vita. Sono, **anche loro, chiamati ad essere templi viventi dello Spirito Santo. Perché allora non dovrebbero aver diritto all’educazione religiosa di cui sono capaci e al nostro sforzo di ricercare con intelligenza e con amore la via da prendere per arrivare fino a loro? **Perché non dovrebbero aver diritto a quella che si chiama «iniziazione cristiana» e che conferisce i tre sacramenti: Battesimo, Cresima e Eucaristia?

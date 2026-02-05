@@ -12,8 +12,9 @@ umap_x: 6.669943809509277
 umap_y: 7.116657733917236
 umap_z: 12.256108283996582
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Come ho abituato i miei bambini a incontrarsi con bambini disabili senza che ne rimanessero in qualche modo impressionati o che non fossero naturali nel trattare con loro?
 
 Mi sembra di scrivere cose banali perché, secondo me, è molto semplice per una mamma spiegare questo ai propri figli, la cosa importante per me è solo preparare il bambino alla realtà; non dirgli: "è come te; non ci fare caso”, No. "È un bimbo particolare; sii con lui affettuoso; vedi come la sua mamma si comporta nei suoi confronti, o come faccio io e sii naturale”.

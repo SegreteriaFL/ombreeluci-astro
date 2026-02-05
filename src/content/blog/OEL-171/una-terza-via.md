@@ -16,7 +16,8 @@ umap_x: 8.342316627502441
 umap_y: 8.172834396362305
 umap_z: 9.771982192993164
 issue_number: OEL-171
-id_numero: OEL-171
+id_numero: "OEL-171"
+numero_rivista: "Ombre e Luci"
 ---
 Si chiamava Giulia. La incontrai per la prima volta una domenica nell’oratorio di Carugate, dove mi trovavo dal 2000, quando ero arrivato come prete novello, pieno di entusiasmo e voglia di fare. A presentarmela fu una coordinatrice della Fondazione Don Gnocchi di Pessano, che mi rivolse una richiesta esplicita: «È possibile inserire Giulia per qualche ora nelle attività ricreative domenicali dell’oratorio?». E subito dopo aggiunse: «Così da dare anche un po’ di respiro alla mamma».
 

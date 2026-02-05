@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-128
+id_numero: "OEL-128"
+numero_rivista: "Ombre e Luci"
 ---
-
 Nel libro Mai più soli ricordo il mio primo incontro con Mariangela a Roma, dopo il suo determinante pellegrinaggio a Lourdes. Rimasi subito conquistata dalla sua personalità, tanto da proporle di diventare responsabile di Fede Luce in Italia.
 “La prima decisione che prendemmo a Roma fu scegliere un responsabile di Fede e Luce per l’Italia, che doveva occuparsi anche dell’organizzazione del pellegrinaggio (a Roma in occasione dell’Anno Santo,n.d.r.).
 

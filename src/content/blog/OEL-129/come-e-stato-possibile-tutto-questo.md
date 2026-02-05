@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 Nel 1990 feci un’esperienza che mi turbò profondamente. La presidente di un’associazione favorevole alla soppressione dei neonati con handicap grave desiderava incontrarmi. Molto incuriosita e colpita dalla sua richiesta, chiesi a Pierre Caubel, un generale dell’aeronautica in pensione, che collaborava come volontario alla redazione di Ombres et Lumiere, se poteva essere presente all’incontro. Pierre e la moglie Suzon avevano una figlia, Marie, affetta da una malattia renale molto rara. Avevano anche adottato Jérome, un bimbo con un handicap gravissimo, che aveva fatto progressi straordinari da quando era arrivato nella famiglia, che contava già sette figli.
 

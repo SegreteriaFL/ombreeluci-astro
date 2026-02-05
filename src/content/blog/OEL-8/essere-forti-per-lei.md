@@ -12,8 +12,9 @@ umap_x: 5.459821701049805
 umap_y: 9.778114318847656
 umap_z: 7.554317474365234
 issue_number: OEL-8
+id_numero: "OEL-8"
+numero_rivista: "Ombre e Luci"
 ---
-
 **La felicità della nascita, la prima paura, il colpo della diagnosi, il tormento e il conforto dei rapporti con gli altri, la ricerca sull’handicap, la volontà di riprendere. La madre e il padre raccontano l'esperienza della nascita di un figlio «Down».**
 
 ### Una nascita felice

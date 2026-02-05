@@ -7,6 +7,7 @@ cluster_id: 1
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_136_2016.jpg"
 slug: "leducazione-attraverso-lesempio"
 has_comments: false
+id_numero: "OEL-136"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

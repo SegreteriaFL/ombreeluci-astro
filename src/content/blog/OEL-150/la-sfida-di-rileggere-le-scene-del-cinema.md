@@ -12,7 +12,8 @@ umap_x: 8.795247077941895
 umap_y: 8.274072647094727
 umap_z: 3.301025152206421
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 Che il sesso sia argomento di dibattito a Ombre e Luci lo sappiamo bene, ancor più quando si va a fondo nelle dinamiche affettive delle persone con disabilità. Emerge spesso la convinzione che una disabilità fisica o cognitiva non possa convivere con l’erotismo e il desiderio, come se le persone con disabilità fossero asessuate o asessuali. Armanda Salvucci, presidente dell’Associazione “Nessuno Tocchi Mario”, ha ideato [*Sensuability*](https://sensuability.it/) (crasi di *sensuality* e *disability* ) proprio con l’intento di sfatare questo mito e di provare a superare certi stereotipi attraverso le arti.
 

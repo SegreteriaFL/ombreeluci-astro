@@ -16,8 +16,9 @@ umap_x: 9.099637985229492
 umap_y: 10.13310432434082
 umap_z: 9.867140769958496
 issue_number: OEL-28
+id_numero: "OEL-28"
+numero_rivista: "Ombre e Luci"
 ---
-
 nella suaPubblichiamo due parti e la lettera di introduzione di un documento del Cardinale Joseph Bernardin, presidente della Conferenza Episcopale Americana, che meritano la lettura e la meditazione dei genitori, degli amici, soprattutto dei sacerdoti.
 
 Miei cari amici, desidero scrivere una lettera speciale per voi, che siete chiamati ora handicappati psichici, ora disabili di mente. Desidero che voi sappiate che Dio vi ama moltissimo e che **appartenete** al popolo di Dio. Desidero che i vostri genitori, fratelli e sorelle, gli amici sappiano che voi siete membri della Chiesa a pieno diritto. Con il Battesimo e la Confermazione voi avete nella Chiesa un posto di cui nessuno può privarvi. Alcuni di voi vivono con le proprie famiglie. Altri vivono in piccole comunità o in istituti molto grandi. Ma tutti appartenete alla famiglia di Gesù. Accludo alla presente un documento con il quale affermo che si devono trovare i modi perché voi possiate andare in Chiesa a ricevere la Santa Comunione. Tutte le persone che vengono in Chiesa devono essere vostri amici. Desidero che voi sappiate di avere un posto alla Mensa del Signore.

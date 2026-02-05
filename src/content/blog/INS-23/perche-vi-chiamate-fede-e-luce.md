@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 È forse utile, soprattutto per i nuovi amici, rispondere a questa domanda che ci siamo fatti e che ci viene fatta spesso.
 È difficile definire uno spirito e molto, forse il più, è inesprimibile perché l'importante non è parlarne o discuterne ma viverlo: questo, non è sempre facile.
 In queste due parole è racchiuso lo spirito che deve essere l'animatore di ogni incontro Fede e Luce.

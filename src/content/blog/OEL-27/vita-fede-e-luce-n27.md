@@ -14,7 +14,8 @@ umap_x: 7.48560905456543
 umap_y: 9.017682075500488
 umap_z: 13.861224174499512
 issue_number: OEL-27
-id_numero: OEL-27
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
 ### In Ungheria Fede e Luce esce dalla clandestinità
 

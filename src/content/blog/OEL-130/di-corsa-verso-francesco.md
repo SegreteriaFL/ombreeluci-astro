@@ -12,7 +12,8 @@ umap_x: 3.460207462310791
 umap_y: 10.397750854492188
 umap_z: 8.559252738952637
 issue_number: OEL-130
-id_numero: OEL-130
+id_numero: "OEL-130"
+numero_rivista: "Ombre e Luci"
 ---
 La
 notizia è deliziosa – pensa Viola, leggendo un articolo sull’Osservatore Romano. Uno di quei fuori programma che tanto piacciono alla sua sorellina Mimosa: “Due bimbette corrono tra le braccia del Papa dopo avere suonato per lui. Non è normale, il protocollo non lo prevede. Ma i giovani dell’

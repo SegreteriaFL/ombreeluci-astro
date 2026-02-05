@@ -12,7 +12,8 @@ umap_x: 4.909614086151123
 umap_y: 6.6938042640686035
 umap_z: 9.606825828552246
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Tra quanti permisero che Ombre e Luci si avviasse alla veste non più di ciclostile ma di rivista trimestrale, fondamentale e profondamente discreto è stato, da sempre, il suo direttore responsabile, Sergio Sciascia che, con questo numero, lascia il suo ruolo nelle mani di Giulia Galeotti. Non possiamo che essergli grati per la grande fiducia con la quale ci ha sempre sostenuto, la disponibilità al confronto e l’attenzione a non lasciarci sguarniti del suo riferimento professionale. Abbiamo la sicurezza che non stia preparando a ritirarsi a vita troppo privata: non mancherà di seguire con passione e curiosità ciascuna delle cose che fa e ciascuna delle persone che incontra. Grazie anche alla disponibilità di Giulia che raccoglie il testimone da Sergio avendo già collaborato con noi in passato. La sua rubrica Viola e Mimosa da questo numero lascia spazio alle voci di due persone molto speciali che ci racconteranno, dai loro personalissimi punti di vista, pezzi della loro vita e dei loro pensieri. Grazie allora anche a Giovanni Grossi e Benedetta Mattei! La nuova veste grafica speriamo sia in grado di raccogliere e raccontare al meglio le storie e le sfide che qui condividiamo. In questo numero, l’allungamento della vita: una conquista e una sfida di cui prenderci attenta cura soprattutto per quanti, con una disabilità mentale, vanno incontro a vedere ridotti i servizi che fino ai 65 anni li hanno accompagnati, in una condizione che comunque è maggiormente a rischio di declino cognitivo patologico. E la nuova sezione dall’archivio: un repertorio degli articoli che negli anni ci sembra utile rileggere. Fateci sapere le vostre preziose impressioni!
 

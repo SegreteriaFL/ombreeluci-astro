@@ -14,7 +14,8 @@ umap_x: 5.684882164001465
 umap_y: 10.359200477600098
 umap_z: 9.028271675109863
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 «Si può fare rete con fratelli e sorelle di persone con disabilità?». A formulare la domanda è la voce di una sorella che conosciamo dal 1991, Luciana Spigolon. «Vivo a sud della provincia di Padova con mio fratello Giorgio, di 62 anni, e mia sorella Cristina, che ne ha 57. Entrambi con una invalidità gravissima, in carrozzina. Anche se, in qualche modo, mi sono sempre curata di loro, dalla morte di nostra mamma nel 2012, me ne occupo totalmente». Nel 1991 avevamo pubblicato un questionario per capire il bisogno di case famiglia: Luciana – che ora ha 61 anni – cercava di mettere i suoi genitori in contatto con le associazioni «ma loro non avevano la predisposizione ad andare oltre la famiglia e il territorio. In quel periodo i miei fratelli erano ancora a casa, non avevamo rapporti esterni. Hanno cominciato a frequentare il centro diurno nel 1998, dopo che ho bussato a tante porte. I miei erano di una realtà contadina, semplice, non avevano risorse economiche o culturali. Ed eravamo circondati da una grande chiusura e dal giudizio altrui. Era ed è ancora così. L’unica proposta arrivò negli anni Sessanta per portare uno dei tre figli (uno dei tre, quindi avrebbero dovuto scegliere) in un istituto. Quando hanno visto il posto, hanno detto “No, ci teniamo i figli a casa”. Da parte del parroco, del sindaco, di chi aveva interesse, a quel tempo la reazione fu: “Noi vi aiutiamo e voi rifiutate questa opportunità!”. L’hanno pagato caro i miei genitori il rifiuto di mettere in istituto uno di tre figli (uno dei fratelli, Enzo, è morto all’età di quindici anni, ndr). Ma, in quel momento, hanno scelto la cosa migliore: salvare la vita e tenerla qui».
 

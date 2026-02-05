@@ -1,15 +1,34 @@
 ---
 id: "OEL-62"
-title: "Ombre e Luci n. 62 - Teatro e altre invenzioni"
+title: "Ombre e Luci n. 62 – Teatro e altre invenzioni"
 tipo: "ombre-e-luci"
 numero: 62
-anno: "1998"
+sort_order: 161
+pubDate: "1998-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 1998"
 sommario: "Ombre e Luci n. 62 – Teatro e altre invenzioni ultima modifica: 1998-06-24T14:52:38+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_62_1998.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_62"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-62-teatro-e-altre-invenzioni/"
+articoli:
+  - "aspettate-arrivo"
+  - "cirano-insegna"
+  - "teatro-in-piazza"
+  - "teatro-in-un-gruppo-fede-e-luce"
+  - "teatro-privato"
+  - "maria-e-i-delfini"
+  - "approfittiamo-delle-vacanze-per-imparare"
+  - "sullhimalaya-insieme-a-ragazzi-con-disabilita"
+  - "creativita-al-servizio-dell-handicap"
+  - "dedicato-ai-bambini-e-a-tutti-noi-alice"
+  - "dialogo-aperto-n-62"
+  - "vita-fede-e-luce-n-62"
+  - "giulia-non-e-bella"
+  - "fiorangela-un-inno-alla-vita"
+  - "se-mi-vuoi-bene-dimmi-di-no-regole-e-potere-positivo-per-aiutare-i-figli-a-crescere"
+  - "benedetta-raccontata-da-sua-sorella"
+  - "lassociazione-la-nostra-famiglia"
 ---
 
 ## Indice

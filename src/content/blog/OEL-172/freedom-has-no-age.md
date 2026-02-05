@@ -12,8 +12,9 @@ umap_x: 9.426963806152344
 umap_y: 7.662594795227051
 umap_z: 2.173178195953369
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 The San Sebastián International Film Festival, which has always celebrated great cinema throughout its 73-year history, is not afraid of streaming media services, and has in fact selected a Netflix film to open the 2025 edition. However, considering the country of production, the decision makes more sense than it seems: an Argentine film – also to celebrate the Spanish festival's historic closeness to Latin American cinema – knowing that in recent years, the ultra-liberal president Milei has essentially eliminated public funding for the cultural industry.
 **If Argentine cinema continues to produce works of value, it is thanks to private investment.**
 The disadvantage of limited circulation in theaters is offset by worldwide distribution: Daniel Hendler's

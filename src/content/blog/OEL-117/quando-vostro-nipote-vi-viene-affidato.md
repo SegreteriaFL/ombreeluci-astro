@@ -12,7 +12,8 @@ umap_x: 5.360281944274902
 umap_y: 9.600811004638672
 umap_z: 7.352032661437988
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 Qualche consiglio pratico dalla professoressa Marie-Odile Réthoré, membro dell’Accademia nazionale di medicina e direttore medico dell’Istituto Jérome Lejeune.
 

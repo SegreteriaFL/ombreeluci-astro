@@ -18,8 +18,9 @@ umap_x: 6.264004230499268
 umap_y: 9.340947151184082
 umap_z: 8.499726295471191
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 If you no longer had the gift of words, how would you feel? I, honestly, would feel lost. Human beings, on the other hand, are distinguished from animals because they are able to lash out with words at any other like-minded person. And yet,
 **what if I told you, that even without having the gift of words, we can still feel part of something and not totally lost?**
 The living evidence is Fanny, my younger sister who is on the autism spectrum. She doesn't have the gift of words, she can say a little something like “mom, dad, Mimi” (my nickname) and a few other things, but no more. However, she didn't feel lost even though she couldn't speak because she found her way to communicate.

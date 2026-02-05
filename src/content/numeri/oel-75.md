@@ -1,15 +1,30 @@
 ---
 id: "OEL-75"
-title: "Numero 75 - Vogliamo andare avanti?"
+title: "Numero 75 – Vogliamo andare avanti?"
 tipo: "ombre-e-luci"
 numero: 75
-anno: "2001"
+sort_order: 174
+pubDate: "2001-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 2001"
 sommario: "Numero 75 – Vogliamo andare avanti? ultima modifica: 2001-08-08T12:47:20+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_75_2001.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_75"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-75-vogliamo-andare-avanti/"
+articoli:
+  - "vogliamo-andare-avanti"
+  - "autismo-e-comunicazione-facilitata-come-michele-e-uscito-dalla-sua-fortezza"
+  - "parliamo-di-comunicazione-facilitata"
+  - "fotoconcorso-i-piu-piccoli-a-lourdes"
+  - "i-miei-piccoli-principi"
+  - "i-condomini-solidali"
+  - "paola-e-venuta-ad-abitare-con-noi-comunita-nicodemo"
+  - "sottovento-un-film-da-vedere-recensione"
+  - "grazie-ingrid-non-ti-dimenticheremo"
+  - "dialogo-aperto-n-75"
+  - "la-ragazza-porcospino-recensione-libro"
+  - "parliamo-di-comunicazione-facilitata-intervista-francesca-benassi"
+  - "handy-cup"
 ---
 
 ## Indice

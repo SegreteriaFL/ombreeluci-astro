@@ -12,7 +12,8 @@ umap_x: 5.630252838134766
 umap_y: 10.153292655944824
 umap_z: 7.459478855133057
 issue_number: OEL-149
-id_numero: OEL-149
+id_numero: "OEL-149"
+numero_rivista: "Ombre e Luci"
 ---
 Le avvisaglie che qualcosa di bello stava per accadere si sono avute a fine novembre 2017: sulla copertina di Vogue Olanda – per la prima volta nella storia dell’autorevole testata di moda – faceva la sua comparsa una persona con sindrome di Down. Era Micah, un bimbo biondo di tre anni in posa con la sua bionda mamma, di professione modella e attrice. «Che onore» scrisse lei, Amanda Booth, su Instagram.
 

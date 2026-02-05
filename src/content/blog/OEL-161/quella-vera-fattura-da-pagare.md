@@ -14,7 +14,8 @@ umap_x: 4.887438774108887
 umap_y: 6.717265605926514
 umap_z: 9.86152458190918
 issue_number: OEL-161
-id_numero: OEL-161
+id_numero: "OEL-161"
+numero_rivista: "Ombre e Luci"
 ---
 Siamo in festa perché Ombre e Luci compie quarant’anni. È giusto e bello essere in festa ma è anche bene voltarsi indietro e vedere la storia di questi quarant’anni, i primi passi, gli antenati.
 

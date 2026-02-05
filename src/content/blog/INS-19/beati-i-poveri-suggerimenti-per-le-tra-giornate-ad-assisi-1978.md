@@ -15,8 +15,9 @@ umap_x: 9.563729286193848
 umap_y: 8.6008939743042
 umap_z: 12.284343719482422
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Ascolteremo questa parola di Gesù e cercheremo di rispondervi come S.Francesco, mettendo l'accento su:
 
 - la povertà (venerdì) - Maria (sabato) - la Chiesa (domenica)

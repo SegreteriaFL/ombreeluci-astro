@@ -12,7 +12,8 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-109
-id_numero: OEL-109
+id_numero: "OEL-109"
+numero_rivista: "Ombre e Luci"
 ---
 Vale la pena leggere questo “romanzo”. L'autrice (sui vent'anni) l’ha scritto partendo dai diari che scriveva fin da quand’era ragazzina. Ha una sorella minore autistica, soprannominata Pulce. j
 

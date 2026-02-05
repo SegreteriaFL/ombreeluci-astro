@@ -7,6 +7,7 @@ cluster_id: 9
 image: "https://www.ombreeluci.it/wp-content/uploads/2025/07/Lourdes-2009-di-Jessica-Hausner-300x150.jpg"
 slug: "pellegrinaggi-al-cinema"
 has_comments: false
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

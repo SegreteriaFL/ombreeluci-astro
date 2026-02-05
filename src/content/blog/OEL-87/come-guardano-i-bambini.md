@@ -4,8 +4,8 @@ date: 2004-09-13
 author: Redazione
 slug: come-guardano-i-bambini
 lang: it
-numero_rivista: 87
-id_numero: OEL-87
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-87"
 issue_number: OEL-87
 wp_id: 30319
 original_url: "https://www.ombreeluci.it/?p=30319"
@@ -17,7 +17,6 @@ umap_x: 5.255610466003418
 umap_y: 9.574957847595215
 umap_z: 9.089950561523438
 ---
-
 “Ibambini ci guardano” si intitolava un vecchio bellissimo film di Vittorio De Sica, ed è vero: ci guardano, si sa, ma in maniera diversa a seconda della loro breve o brevissima età.
 
 **Dai primi mesi di vita** fino ai due, tre anni loro ci guardano, esaminano tutto il mondo che capita loro incontro con lo stesso intenso, entusiastico interesse. E non si limiterebbero a guardarlo: se potessero lo annuserebbero e lo leccherebbero tutto. Guardano ogni cosa con avidità e innocenza, non fanno distinzione.

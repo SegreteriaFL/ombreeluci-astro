@@ -7,6 +7,7 @@ cluster_id: 1
 image: "https://www.ombreeluci.it/wp-content/uploads/2021/03/OL-153-sd-206x300.jpg"
 slug: "marco-cavallo"
 has_comments: false
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -12,7 +12,8 @@ umap_x: 8.583389282226562
 umap_y: 8.276590347290039
 umap_z: 3.324155569076538
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 D
 a poco disponibile in Italia, la serie tv

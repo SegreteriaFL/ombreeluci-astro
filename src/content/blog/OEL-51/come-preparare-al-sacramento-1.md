@@ -12,8 +12,9 @@ umap_x: 9.435015678405762
 umap_y: 10.222840309143066
 umap_z: 9.196371078491211
 issue_number: OEL-51
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 Vogliamo dare una traccia comune per il
 **cammino di catechesi**
 proposto sia agli amici che ai ragazzi disabili interessati a ricevere il Sacramento della confermazione. Questo vuole essere un cammino comune , nella speranza che questa comunanza sia un ulteriore motivo profondo di crescita e condivisione.

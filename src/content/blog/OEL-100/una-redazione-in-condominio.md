@@ -4,8 +4,8 @@ date: 2007-12-10
 author: Redazione
 slug: una-redazione-in-condominio
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32920
 original_url: "https://www.ombreeluci.it/?p=32920"
@@ -18,7 +18,6 @@ umap_x: 4.847161769866943
 umap_y: 6.601275444030762
 umap_z: 9.702508926391602
 ---
-
 Un quarto di secolo può sembrare un tempo da libri di storia, invece mi sembra ieri quando vedemmo il primo numero della rivista degli amici di Fede e Luce. Quello che rese particolare l’evento fu che la redazione aveva sede nella nostra palazzina.
 
 Adesso vede la “luce” il numero 100 di Ombre e Luci.

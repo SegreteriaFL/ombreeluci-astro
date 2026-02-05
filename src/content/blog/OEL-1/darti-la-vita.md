@@ -12,14 +12,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf"
 archive_id: OmbreELuci_001
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/1983/03/Archivio-Num.-1-1983-1.png"
 periodo_label: Gennaio, Febbraio, Marzo
-numero_rivista: 1
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-1
 umap_x: 6.970116138458252
 umap_y: 11.431930541992188
 umap_z: 5.6238789558410645
+id_numero: "OEL-1"
 ---
-
 È il diario della madre di un ragazzo colpito da miopatia progressiva. Mamma e figlio, sostenuti dal loro coraggio e dalla fede cristiana, aiutati dall’ambiente amico che li circonda, lottano contro il male invadente. Sarà fatto l’impossibile perché il bambino viva la sua vita tanto a lungo quanto potrà essergli concesso e nella maniera più normale e più piena che si possa immaginare. L’accento è messo particolarmente sulla volontà di presenza nel mondo, mondo degli altri bambini, mondo degli altri esseri imani. E mentre si vede crescere inesorabile il male fisico, si vede crescere, anche la vita dello spirito che dà finalmente il sentimento di una vittoria, che non sarà pagata troppo cara, sulla morte. Raramente, per quanto ci risulta, un libro ha dato una tale risonanza cristiana. Questa mamma operaia non nasconde nulla delle sue tristezza interiori, delle sue difficoltà familiari, delle sue tentazioni di scoraggiamento. Ma la speranza, fondata su una visione allo stesso tempo umanamente illuminata, finisce per essere sempre la più forte. Lo stile è semplice e gradevole, accessibile a tutti. Ammirevole è che questo libro, duro e che termina con il peggioramento perssocchè finale del male del bambino, dia malgrado tutto una impressione profondamente tonica, tale da lasciare nel cuore di chi legge una indistruttibile allegrezza. Lo raccomandiamo vivamente.
 
 #### Editoriale

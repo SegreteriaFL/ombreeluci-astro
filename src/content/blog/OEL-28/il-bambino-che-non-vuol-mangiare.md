@@ -16,8 +16,9 @@ umap_x: 5.816156387329102
 umap_y: 8.506662368774414
 umap_z: 7.81951379776001
 issue_number: OEL-28
+id_numero: "OEL-28"
+numero_rivista: "Ombre e Luci"
 ---
-
 È
 impossibile trattare in poche pagine un argomento nel quale si sommano tanti problemi psichici, affettivi e dietetici. Eppure, pensando alle migliaia di bambini che ho visitato la cui mancanza di appetito ha messo in crisi tante mamme ed ha avvelenato l’atmosfera di tante famiglie, voglio provare a riassumere in poche parole l’essenziale di questa «anoressia da opposizione» così frequente. Questa incomincia spesso verso i sei mesi: il bambino vorrebbe lasciare qualcosa nel biberon, ma i genitori vogliono che lo finisca; il pasto si prolunga e dura sempre più a lungo. Oppure un alimento nuovo, come la verdura, viene introdotta troppo bruscamente: il bambino ne è sorpreso e sputa questo «corpo estraneo». Tutto andrà bene se la madre non insisterà e riproverà alcuni giorni dopo con qualche piccolissimo pezzo di verdura, solo per dargliene il gusto; altrimenti il bambino sputerà ad ogni tentativo e comincerà l’opposizione sistematica, prima verso questo alimento poi verso altri. All’inizio si tratta di un rifiuto calmo: il bambino non inghiottisce e respinge il cibo con la lingua... poi il pasto sembra diventare eterno nell’alternarsi delle suppliche e delle minacce, delle punizioni e delle distrazioni più diverse. Spesso subentra il vomito e tanti sforzi sembrano essere stati inutili: disperazione per la madre e soddisfazione per il bambino!
 > Il rifiuto del bambino durante i pasti... susciterà in altri momenti capricci di tipo ben diverso

@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 *Questo articolo fa parte dello **[Speciale Fede e Luce anatomia di una comunità di incontro](https://www.ombreeluci.it/1980/fede-e-luce-anatomia-di-una-comunita-di-incontro/).*
 Per terminare il nostro approfondimento su cos'è Fede e Luce, consideriamo i punti proprii della comunità Fede e Luce in quanto comunità di incontro. Fra gli altri si possono rilevare i seguenti punti:
 

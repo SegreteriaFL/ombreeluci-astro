@@ -12,7 +12,8 @@ umap_x: 5.379359245300293
 umap_y: 7.157068729400635
 umap_z: 9.234822273254395
 issue_number: OEL-49
-id_numero: OEL-49
+id_numero: "OEL-49"
+numero_rivista: "Ombre e Luci"
 ---
 D
 a anni ci chiedevamo se OMBRE e LUCI fosse in grado di affrontare il tema dell’affettività e della sessualità delle persone con handicap intellettivo. Abbiamo rimandato perché non è facile entrare in questo campo con il rispetto e la delicatezza dovuti. Perché ci accingiamo ora a dare il nostro piccolo contributo su questo tema? — Perché siamo sollecitati dalle domande che ci vengono poste sia da genitori, sia da amici che frequentano i loro figli...

@@ -19,8 +19,9 @@ umap_x: 8.243047714233398
 umap_y: 8.709558486938477
 umap_z: 12.95510482788086
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 F
 ifty years of history—a long journey that has continued in Italy since 1975. A beautiful adventure, carried forward despite the struggles of these complicated times, yet kept alive by the bonds woven along the way, across many regions and communities.
 **The journey of *Faith and Light* began with the great pilgrimage to Lourdes in 1971.**

@@ -12,14 +12,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf"
 archive_id: OmbreELuci_001
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/1983/03/Archivio-Num.-1-1983-1.png"
 periodo_label: Gennaio, Febbraio, Marzo
-numero_rivista: 1
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-1
 umap_x: 6.9306745529174805
 umap_y: 11.124316215515137
 umap_z: 5.91483211517334
+id_numero: "OEL-1"
 ---
-
 Gli Hourdin, cui la vita sembrava non dovesse rifiutare nulla, perdono in un incidente durante la guerra la figlia maggiore e si ritrovano bruscamente posti davanti al dolore dell’handicap mentale al momento della nascita di Marie-Anne, una bambina mongoloide. Georges Hourdin descrive, in uno stile semplice e pieno di sensibilità, la lunga battaglia condotta passo dopo passo con sua moglie ed alcuni amici, per far accogliere Marie- Anne nella comunità umana. Rivela gioie e dolori al ritmo dei suoi ricordi, e pone nello stesso tempo agli uomini alcune domande cruciali che tale sofferenza gli impone. Una sopra tutte: qual è l’ordine del mondo?
 **Online su**
 [Amazon](https://www.amazon.it/DOLORE-INNOCENTE-HANDICAPPATO-NELLA-FAMIGLIA/dp/B00P2H835K/ref=sr_1_6?s=books&ie=UTF8&qid=1508876463&sr=1-6&keywords=IL+DOLORE+INNOCENTE)

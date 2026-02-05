@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-137
-id_numero: OEL-137
+id_numero: "OEL-137"
+numero_rivista: "Ombre e Luci"
 ---
 *Suor Veronica Donatello, responsabile del Settore per la catechesi delle persone disabili dell’Ufficio Catechistico nazionale della Cei, è tra le quaranta personalità, alle quali il presidente della Repubblica, Sergio Mattarella, ha conferito onorificenze al Merito della Repubblica Italiana nel 2016.
 

@@ -7,6 +7,7 @@ cluster_id: 6
 image: "https://www.ombreeluci.it/wp-content/uploads/2020/05/03_Diversi-small-201x300.jpg"
 slug: "diversi"
 has_comments: false
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

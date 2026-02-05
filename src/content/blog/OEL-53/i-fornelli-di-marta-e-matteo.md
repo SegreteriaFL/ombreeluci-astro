@@ -4,8 +4,8 @@ date: 1996-03-03
 author: Redazione
 slug: i-fornelli-di-marta-e-matteo
 lang: it
-numero_rivista: 53
-id_numero: OEL-53
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-53"
 issue_number: OEL-53
 wp_id: 10490
 original_url: "https://www.ombreeluci.it/?p=10490"
@@ -17,7 +17,6 @@ umap_x: 7.648550510406494
 umap_y: 10.600774765014648
 umap_z: 6.694901466369629
 ---
-
 Questa è la storia di una psicoterapeuta francese che curava i pazienti in depressione con il metodo Vittoz. La depressione isola chi ne è colpito vive in un cerchio. E necessario che egli apra questo cerchio con dolcezza e impari di nuovo a sentire la vita, a vedere gli altri e ad accettare se stesso. Perché non in cucina?
 Q
 uando la depressione è grave, o quando una persona è particolarmente fragile può succedere che occorra un ricovero in clinica psichiatrica. È una malattia sconvolgente: abbiamo visto crescere un bambino, lo abbiamo visto studiare bene e persino brillantemente, abbiamo fatto sogni e progetti su di lui. Ed ecco che tutto crolla. La convalescenza sarà lunga e dolorosa; ci saranno ricadute, fasi di scoraggiamento, momenti di incertezza per il futuro. Nel 1989 avevo in cura due giovani di circa trent'anni. Uno era ingegnere commerciale, l'altro aveva studiato fino agli esami di maturità. Entrambi avevano passato parecchi periodi in clinica psichiatrica e non mi sarebbe stato possibile aiutarli veramente con una seduta di un’ora alla settimana. Bisognava che fossero occupati con mani, testa e cuore. Sappiamo da Vittoz che il cervello e il sistema nervoso sono in stato di riposo quando un lavoro manuale assorbe la percezione dei cinque sensi. Perché allora non considerare la cucina come 1 occupazione giusta dove il gusto, l’odorato, la vista, l’udito e il tatto sono sollecitati in modo costante? Cucinare significa mettersi in contatto con la vita, condividerla con altri e imparare a concentrarsi: una disattenzione può procurare tagli e bruciature.

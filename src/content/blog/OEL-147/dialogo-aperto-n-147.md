@@ -12,7 +12,8 @@ umap_x: 5.291906356811523
 umap_y: 7.846385478973389
 umap_z: 11.208744049072266
 issue_number: OEL-147
-id_numero: OEL-147
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
 ### Mettetevi in contatto con noi!
 

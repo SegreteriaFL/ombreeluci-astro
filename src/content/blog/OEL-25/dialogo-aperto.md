@@ -16,7 +16,8 @@ umap_x: 4.490135192871094
 umap_y: 7.543880939483643
 umap_z: 10.338913917541504
 issue_number: OEL-25
-id_numero: OEL-25
+id_numero: "OEL-25"
+numero_rivista: "Ombre e Luci"
 ---
 ### Medico e volontario
 

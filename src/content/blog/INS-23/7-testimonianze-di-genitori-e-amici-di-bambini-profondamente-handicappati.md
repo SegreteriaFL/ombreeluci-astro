@@ -12,8 +12,9 @@ umap_x: 5.741222381591797
 umap_y: 9.152801513671875
 umap_z: 8.165861129760742
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 ### 1. La voce della mamma di Angelo
 
 Perché si lotta per questo? C'è da lottare, C'è da lottare per un benessere di. questi bambini. Io non nascondo niente, che vedano, che vedano! **Perché dovrei nascondere quello che è mio, che Dio mi ha dato.**

@@ -12,7 +12,8 @@ umap_x: 9.441855430603027
 umap_y: 10.074019432067871
 umap_z: 9.79811954498291
 issue_number: OEL-39
-id_numero: OEL-39
+id_numero: "OEL-39"
+numero_rivista: "Ombre e Luci"
 ---
 D
 esidererei raccontarvi una bella avventura che ho iniziato alcuni anni fa. Nella mia parrocchia (Stella Mattutina, Roma) in genere dopo la cresima i ragazzi possono scegliere se dedicarsi a qualche attività e molti scelgono di insegnare catechismo ai più piccini. Era quello che anch'io desideravo tanto fare. L'unico problema era che avendo io un gravissimo deficit fisico temevo di non essere accettata come catechista. Con molto coraggio, qbbandonando la mia timidezza adolescenziale, proposi la mia idea al nostro parroco e alla signora che organizza tutta la vita di parrocchia. Con immensa sorpresa la mia proposta fu accettatata con entusiasmo e così iniziai con i bambini più piccoli della prima comunione.

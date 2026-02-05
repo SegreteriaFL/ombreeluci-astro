@@ -4,8 +4,8 @@ date: 2006-06-21
 author: Redazione
 slug: lo-shock-della-diagnosi-prenatale
 lang: it
-numero_rivista: 94
-id_numero: OEL-94
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-94"
 issue_number: OEL-94
 wp_id: 31931
 original_url: "https://www.ombreeluci.it/?p=31931"
@@ -17,7 +17,6 @@ umap_x: 5.210589408874512
 umap_y: 9.3798189163208
 umap_z: 6.958392143249512
 ---
-
 **Elena:**
 Mi trovo sola di fronte al medico che mi esamina; mio marito è stato trattenuto da un impegno di lavoro. Resta completamente in silenzio, poi lascia andare: “c’è un problema di chiarezza alla nuca; scenda a pagare, poi le spiegherò...”. Dopo aver pagato, aspetto... ma quel medico (“coraggio, filiamo!”) non verrà mai. Una segretaria mi prende in carico e mi fa fretta perché prenda un nuovo appuntamento per esami complementari. “Quali esami?” — “Esami... complementari'“Vuol dire un'amniocentesi?”“Si” — “Ma ci si può rifiutare, vorrei parlarne prima con mio marito”. Si presenta allora la dottoressa responsabile delle amniocentesi che, davanti alla resistenza, vocifera in piena sala d'attesa: “Lei è un’irresponsabile, una trisomia 21 è molto pesante, bisogna sapere subito per decidere in fretta. Stupore, sideramento di fronte ad una decisione medica già presa (l'aborto) senza aver avuto né spiegazioni, né ascolto, né conforto. Riesco a fuggire senza aver preso l'appuntamento (istinto materno animale, istinto di sopravvivenza).
 **Francesco:**

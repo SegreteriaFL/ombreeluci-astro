@@ -12,8 +12,9 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Il nome di Capodarco è già conosciuto da molti di noi; forse è stato solo sentito nominare come indicativo della speranza e della novità che contiene e suggerisce.
 Vale dunque la pena di saperne qualcosa di più; ed è per avviare questa conoscenza che vi diamo le notizie che abbiamo raccolto da **don Franco Rubianesi** in una rapida visita al centro di via Lungro.
 Prima di tutto Capodarco vuol dire comunità: vuol dire mettersi insieme, essere solidali, non sentirsi e non lasciare soli.

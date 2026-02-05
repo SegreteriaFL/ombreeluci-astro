@@ -12,8 +12,9 @@ umap_x: 8.574104309082031
 umap_y: 12.10157585144043
 umap_z: 10.301379203796387
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Consigliamo questa volta due libri di Jean Vanier di importanza fondamentale per la nostra crescita personale e comunitaria. Purtroppo non sono editi in italiano ma tutti quelli che possono dovrebbero fare uno sforzo per leggerli e magari - perché no? - comunicarne i punti salienti agli amici più vicini. Potete procurarvi questi libri presso le maggiori libreria cattoliche ed a Roma certamente presso la libreria San Paolo di Via della Conciliazione; se ne trova anche una copia in visione presso la segreteria di Fede e Luce.
 
 ### La communauté lieu du pardon et de la fête

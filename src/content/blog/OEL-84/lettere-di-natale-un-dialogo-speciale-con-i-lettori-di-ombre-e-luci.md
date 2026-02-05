@@ -4,8 +4,8 @@ date: 2003-12-22
 author: Redazione
 slug: lettere-di-natale-un-dialogo-speciale-con-i-lettori-di-ombre-e-luci
 lang: it
-numero_rivista: 84
-id_numero: OEL-84
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-84"
 issue_number: OEL-84
 wp_id: 29030
 original_url: "https://www.ombreeluci.it/?p=29030"
@@ -15,7 +15,6 @@ umap_x: 4.7955121994018555
 umap_y: 7.604928016662598
 umap_z: 10.380057334899902
 ---
-
 ### Cara “Mamma"
 
 Ti scrivo la letterina di Natale perchè avevo voglia chiederti un po' di attenzione e di farti un paio di domande su questioni che per me sono molto importanti e a cui solo tu puoi rispondere. Penso spesso che io e te rispetto a molti degli aspetti che ci legano e ci tengono uniti, stiamo proprio su due diverse sponde dello stesso fiume, soprattutto riguardo a quello che è ed è stato tuo figlio per te e per me. Per me è stata una scoperta straordinaria, un incontro che mi ha cambiato, mi ha aperto gli occhi, una fonte di gioia e di speranza, un amico sincero. Anche per te è stata una scoperta straordinaria e un incontro che ti ha cambiato ma vedo dalla tua vita di tutti i giorni che è stato ed è ancora di più oggi anche fonte di preoccupazione e ansia per il futuro, fatica quotidiana e stanchezza.

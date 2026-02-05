@@ -15,7 +15,8 @@ umap_x: 6.64315128326416
 umap_y: 9.931011199951172
 umap_z: 7.014415264129639
 issue_number: OEL-10
-id_numero: OEL-10
+id_numero: "OEL-10"
+numero_rivista: "Ombre e Luci"
 ---
 ### Crisi parziali complesse (temporali o psicomotorie)
 

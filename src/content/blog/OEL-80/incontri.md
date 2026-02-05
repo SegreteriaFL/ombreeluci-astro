@@ -4,8 +4,8 @@ date: 2002-12-08
 author: Nanni Bertolini
 slug: incontri
 lang: it
-numero_rivista: 80
-id_numero: OEL-80
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-80"
 issue_number: OEL-80
 wp_id: 25616
 original_url: "https://www.ombreeluci.it/?p=25616"
@@ -17,7 +17,6 @@ umap_x: 6.47325325012207
 umap_y: 9.565567970275879
 umap_z: 9.357967376708984
 ---
-
 Forse non ce ne rendiamo conto ma spesso quello che cambia la nostra vita non sono gli avvenimenti ma gli incontri. **Mi hanno chiesto, Silvia, di raccontare qualcosa della nostra amicizia** : io, tu, Andrea tuo fratello e Cristina, che ora è mia moglie. Non volevo scrivere niente, sai, perché mi sento in colpa con te e con i tuoi genitori. È tanto tempo che non mi faccio sentire. Da quando vi siete trasferiti, non sono più venuto a trovarvi. Per fortuna che c’è Cristina a mantenere i contatti. Insomma, mi sembra di avervi un po’ abbandonato. **Ma molti ricordi sono vivi e, col tuo permesso, proverò a richiamarne alcuni** .
 
 **Mi vengono in mente piccole cose** . **Il mio iniziale imbarazzo di fronte alla dura realtà vissuta dai tuoi genitori con fierezza e senza nessuna autocommiserazione** . Mi sono spesso sentito disarmato, senza argomenti, preparandomi prima di venire a trovarvi. Anche per questo, ho cercato di presentarmi sempre in compagnia, prima di Elisabetta, mia cugina, poi di Cristina. Ma sapevo che era importante venire, esserci, anche con la mia iniziale timidezza. E Nadia e Giulio, i tuoi genitori, sono sempre stati bravissimi nel metterci a nostro agio, chiedendoci notizie della nostra vita, prendendoci un po’ in giro, parlando di fatti di cronaca.

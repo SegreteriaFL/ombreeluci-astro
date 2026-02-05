@@ -12,7 +12,8 @@ umap_x: 6.705914497375488
 umap_y: 7.694252967834473
 umap_z: 9.863123893737793
 issue_number: OEL-35
-id_numero: OEL-35
+id_numero: "OEL-35"
+numero_rivista: "Ombre e Luci"
 ---
 Se un amico ti accoglie sorridendo, Se un figlio ti corre incontro per abbracciarti, Se sai cantare in mezzo al traffico, Se sai ancora divertirti giocando a pallone, Se sai bussare alla porta del vicino di casa, Se sai raccontare le storie ai bambini, Se prepari gli spaghetti per chi arriva all’improvviso, Se sai meravigliarti delle piccole cose, Se il brutto tempo non ti rende malinconico, Se non ti lasci stancare dai gesti quotidiani, Se sai dare e ricevere senza far storie, Se non ti credi migliore degli altri, Se riconosci che sei amato da Dio, Allora per te oggi, la gioia è possibile!Anche noi siamo persone
 Mi avete chiamato, scientificamente, nel 1930 «cretino» nel 1940 «minorato» nel 1960 «subnormale» nel 1980 «handicappato» ora mi chiamate «disabile» Come vedete mi sono sempre adattato al vostro gusto per le definizioni: la mia situazione mi ha dato sufficiente pazienza per aspettare con curiosità e interesse la vostra prossima definizione. Vorrei però che ci ricordassimo, voi e io, che sono sempre stato «una persona» irripetibile e sacra nella sua dignità, che mi piacerebbe essere chiamato solo con il nome e cognome e che quando è stato detto: «...ogni individuo ha il diritto di raggiungere il massimo delle proprie potenzialità...» valeva anche per me! O no? La prossima volta che sei preoccupato per gli esami, per un appuntamento, per una festa con amici, per i tuoi figli o perché devi prendere la patente, pensa che c'è qualcuno che non è abbastanza fortunato per avere i tuoi stessi problemi. E se desideri renderti utile:

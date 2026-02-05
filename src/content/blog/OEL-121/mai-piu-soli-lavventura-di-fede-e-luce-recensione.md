@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 La storia di Fede e Luce scandita al ritmo dei pellegrinaggi internazionali: dal 1968 (ma anche prima, nelle pagine sulla formazione professionale di Jean Vanier e Marie Hélène) al 2011, pure chi ha seguito in prima persona le vicende del movimento internazionale, trova una grande quantità di spunti, utili sia sotto il profilo spirituale sia sotto un profilo strettamente storico.
 Interessantissime le citazioni, dai commenti della stampa, ai ricordi dei grandi e piccoli protagonisti. Nell’edizione italiana, una ricca collezione di fotografie dagli albori ai pellegrinaggi del 2011.

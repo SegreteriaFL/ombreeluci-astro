@@ -14,7 +14,8 @@ umap_x: 7.733749866485596
 umap_y: 9.700336456298828
 umap_z: 13.327054977416992
 issue_number: OEL-31
-id_numero: OEL-31
+id_numero: "OEL-31"
+numero_rivista: "Ombre e Luci"
 ---
 U
 n piccolo appartamento privato nel centro di Mosca. Un salotto di quattro o cinque metri senza mobili, una cinquantina di persone stipate, altre nell’ingresso. Eppure c’è un grande silenzio. Si ascolta una voce chiara in francese con la traduzione simultanea. Jean Vanier predica il suo primo ritiro in Unione Sovietica. Ci dividiamo poi in gruppetti di riflessione: due nel salotto, uno in una camera, uno in cucina, e ancora uno in bagno. Gli altri escono a parlare nelle strade. Davanti a noi, l’immenso mausoleo di Lenin. Con i miei amici russi riflettiamo sul tema: «Come Gesù ha cambiato la mia vita? In che modo mi dà la sua libertà?».

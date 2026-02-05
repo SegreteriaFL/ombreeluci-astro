@@ -12,8 +12,9 @@ umap_x: 6.324154853820801
 umap_y: 6.505582332611084
 umap_z: 11.149946212768555
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 Until September 11, there was talk of too much well-being, exaggerated consumerism, excessive liberty...
 
 **After the live viewing of that terrible attack on the skyscrapers of Manhattan** – a symbol for many of an inviolable civilization – **we found ourselves, suddenly, afraid.**

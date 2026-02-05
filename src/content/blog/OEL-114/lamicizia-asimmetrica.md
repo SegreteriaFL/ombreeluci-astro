@@ -12,7 +12,8 @@ umap_x: 6.018280029296875
 umap_y: 8.946762084960938
 umap_z: 11.757786750793457
 issue_number: OEL-114
-id_numero: OEL-114
+id_numero: "OEL-114"
+numero_rivista: "Ombre e Luci"
 ---
 M
 i ricordo di una giornata passata a Fede e Luce. C'erano due ragazzini che passarono tutto il pomeriggio a giocare insieme: Andrea con la sindrome di Down e Fiorenzo no. Alla sera quest’ultimo parlò della gioia che aveva provato a stare con Andrea. Gli chiesi dei loro giochi, del loro modo di viverli insieme, sorpreso che la diversità di Andrea non fosse venuta fuori. Dopo avere raccontato tutto il loro pomeriggio insieme, con cento dettagli, Fiorenzo ad un tratto mi disse:”Ma Andrea ha qualcosa di diverso...sai cosa?”

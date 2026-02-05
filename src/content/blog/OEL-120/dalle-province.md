@@ -12,8 +12,9 @@ umap_x: 7.838812351226807
 umap_y: 9.818061828613281
 umap_z: 14.658123016357422
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### [Un fiume di Pace - Nord](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 
 Un viaggio tra i pianeti, in un cielo blu totale. Così i bambini hanno pensato il tema del nostro campo estivo a Cesenatico. Da anni le comunità di Rho, Cesano Boscone, Gratosoglio e Milano centro vivono insieme una settimana di vacanza in luglio. Ciascuno è benvenuto, andiamo dai 3 agli 84 anni. Quest’anno i bimbi hanno avuto una parte tutta speciale. Se la sono ritagliata loro, lanciando idee e animando i momenti serali in comune: hanno ideato un viaggio su pianeti (Tandentopoli, Cocomerandia, etc.) in cui si incontravano personaggi particolari, cui Fede e Luce insegnava condivisione, gioia, speranza, amicizia e pace. I ragazzini hanno costituito anche una vera redazione: in essa hanno realizzato “La Gazzetta di Fede e Luce”. Lorenzo, Alessandro, Mattia, Marta, Chiara, Gabriele, Matteo, Lorenzo grande, Pietro e Cosimo si sono dati molto da fare. Hanno intervistato alcuni amici, scattato foto e prodotto video. I frutti sono notevoli e la “Gazzetta” (che potete leggere nel Dialogo Aperto) promette un grande futuro.

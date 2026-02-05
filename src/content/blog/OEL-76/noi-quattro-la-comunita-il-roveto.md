@@ -12,8 +12,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 Come ogni persona ha la propria storia e il proprio cammino, così ognuna di noi quattro.
 Siamo, M.Grazia Micheli di Mandello Lario (CO), M. Francesca Cinguetti di Cremona, Laura Galasso di Asnago Cantù (Co) e Nunzia Lo Schiavo di Vibo Valenza vicino a Catanzaro in Calabria. **Ognuna di noi ha percepito la chiamata di Dio, in modo diverso e in tempi diversi.
 Con nostro grande stupore, ci siamo trovate a custodire dentro di noi, questa misteriosa chiamata di Dio.

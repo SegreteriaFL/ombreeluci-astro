@@ -16,7 +16,8 @@ umap_x: 7.549039840698242
 umap_y: 9.322007179260254
 umap_z: 13.495594024658203
 issue_number: OEL-168
-id_numero: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
 **«I responsabili della mia comunità mi dissero che ovunque sarei andata, avrei fatto *Fede e Luce* »**
 . Con un bel sorriso, suor Camelia El Khoury, 52 anni, libanese in Terra Santa da ventidue, ricorda, nella nostra conversazione a Roma qualche settimana fa, la sua prima comunità di Beirut, a San Michele, vicino al porto che ancora porta i segni della terribile esplosione dell’agosto 2020. Se ne andò da lì quando la superiora le chiese di trasferirsi in Galilea «perché c’era bisogno di me. Cominciai con il catechismo ai bambini ma continuavo ad avere la chiamata a

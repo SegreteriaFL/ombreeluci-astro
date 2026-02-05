@@ -14,8 +14,9 @@ umap_x: 8.717119216918945
 umap_y: 5.180725574493408
 umap_z: 9.672566413879395
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Era il 28 febbraio di questo 2023 quando, per la prima volta, sono entrata nella piscina delle Tre Fontane nel quartiere Eur di Roma. Ad accogliermi c’era il Tecnico Nazionale Enrico Testa.
 
 **Da quel bel giorno la vita è cambiata! In questi cinque mesi, e grazie al Team della FINP, è come se avessi iniziato a vivere una favola.** Ora sono impegnata due pomeriggi a settimana e, ogni volta, torno felicemente stanca morta a casa.

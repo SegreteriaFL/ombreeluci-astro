@@ -12,7 +12,8 @@ umap_x: 5.207709789276123
 umap_y: 9.124536514282227
 umap_z: 8.316425323486328
 issue_number: OEL-33
-id_numero: OEL-33
+id_numero: "OEL-33"
+numero_rivista: "Ombre e Luci"
 ---
 S
 ono un genitore; vorrei parlare di me e del mio rapporto con Paola. Per gli altri sarà senza dubbio completamente diverso, date le caratteristiche individuali di ciascuno che ben ci distinguono. La mia voce non fa legge, né regola. Mi sposai a 21 anni, nel 1950. Nel 51 nacque la mia prima figlia, Silvia e nel 54 la seconda, Rita. Eravamo una classica famiglia serena, «definita» nel quartiere e in Parrocchia una delle migliori famiglie. L’abitudine di mettere etichette è sempre esistita. Nel 1959 nacque Paola. Il parto, all’ottavo mese di gravidanza, si presentò podalico e fu vissuto da parte mia in modo tutto diverso da quelli precedenti. All’uscita dalla clinica mi furono dette queste semplici parole: «Sa, dover tirare fuori la testa, averla dovuta tirare, ha certamente fatto soffrire la bimba.

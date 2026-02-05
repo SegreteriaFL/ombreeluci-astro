@@ -15,7 +15,8 @@ umap_x: 7.021811008453369
 umap_y: 9.21435832977295
 umap_z: 7.497097015380859
 issue_number: OEL-27
-id_numero: OEL-27
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
 Non dimenticate: il sordo non vi sente e non si sente. Il sordo si trova facilmente isolato tra gli udenti e troppo spesso ha l’impressione di essere «rifiutato». Pensateci se lo incontrate e dedicategli un po’ d’attenzione. Fate in modo che prenda parte alla vita informandolo su ciò che avviene e si dice attorno. In particolare, non dimenticate i seguenti semplici consigli.
 

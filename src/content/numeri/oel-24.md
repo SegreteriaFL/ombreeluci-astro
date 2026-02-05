@@ -1,15 +1,37 @@
 ---
 id: "OEL-24"
-title: "Numero 24 - Fin dai primi passi"
+title: "Numero 24 – Fin dai primi passi"
 tipo: "ombre-e-luci"
 numero: 24
-anno: "1988"
+sort_order: 123
+pubDate: "1988-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 1988"
 sommario: "Se non mancano le ombre della fatica e della rabbia di fronte alla disabilità di un figlio, come leggiamo nelle lettere del Dialogo Aperto, cerchiamo di non far mancare luci di speranza: dei genitori che ci sono passati, dell’esperienza amorevole di un’insegnante che indica quanto sia necessaria, oltre l’apprendimento, una serena vita di gruppo; di un’associazione -La Casa del Sole- che da anni è impegnata in una presa in carico globale di bambini con disabilità senza dimenticare di dar forza alle famiglie. E qualche piccolo spunto di aiuto per chi vuol farsi attivamente prossimo nelle vite delle famiglie con disabilità."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_24_1988.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN.24_678"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-24-fin-dai-primi-passi/"
+articoli:
+  - "dialogo-aperto-n-24"
+  - "paolo-e-chiara"
+  - "dalla-scuola-amore"
+  - "casa-del-sole-casa-della-serenita"
+  - "comportarvi-incontrate-persona-portatrice-handicap"
+  - "non-solo-leggere"
+  - "paolo-e-chiara"
+  - "dalla-scuola-amore"
+  - "buone-abitudini-sara-piu-accettato"
+  - "casa-del-sole-casa-della-serenita"
+  - "comportarvi-incontrate-persona-portatrice-handicap"
+  - "dialogo-aperto-n-24"
+  - "un-cammino-insieme"
+  - "perche-cambiata-la-mia-vita"
+  - "non-solo-leggere"
+  - "buone-abitudini-sara-piu-accettato"
+  - "un-cammino-insieme"
+  - "perche-cambiata-la-mia-vita"
+  - "di-nuovo-in-cammino"
+  - "ci-hanno-scritto-insieme-n-24"
 ---
 
 ## Indice

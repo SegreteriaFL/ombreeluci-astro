@@ -12,7 +12,8 @@ umap_x: 7.804919242858887
 umap_y: 9.381121635437012
 umap_z: 14.264202117919922
 issue_number: OEL-147
-id_numero: OEL-147
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
 ### La formazione che ci fa muovere
 

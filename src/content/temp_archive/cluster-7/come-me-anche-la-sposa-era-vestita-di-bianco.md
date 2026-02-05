@@ -6,6 +6,7 @@ theme: "cluster-7"
 cluster_id: 7
 slug: "come-me-anche-la-sposa-era-vestita-di-bianco"
 has_comments: false
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -12,7 +12,8 @@ umap_x: 4.642045497894287
 umap_y: 7.817296504974365
 umap_z: 10.656843185424805
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 # Dottoressa Arianna
 

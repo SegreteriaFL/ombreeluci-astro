@@ -12,7 +12,8 @@ umap_x: 6.971867561340332
 umap_y: 9.770366668701172
 umap_z: 8.648995399475098
 issue_number: OEL-49
-id_numero: OEL-49
+id_numero: "OEL-49"
+numero_rivista: "Ombre e Luci"
 ---
 A
 vevamo notato che la maggior parte degli uomini e delle donne delle nostre case famiglia non conoscevano affatto il funzionamento, il ruolo e il significato del loro corpo. Un gruppo di educatori propose allora un breve seminario sul tema «che una vuol dire essere uomo o donna». Quattro incontri, preparati nei minimi dettagli, portarono progressivamente i partecipanti a scoprire:

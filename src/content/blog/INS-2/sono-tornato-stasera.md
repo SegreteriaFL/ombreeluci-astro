@@ -12,8 +12,9 @@ umap_x: 6.95499324798584
 umap_y: 7.226291656494141
 umap_z: 12.548569679260254
 issue_number: INS-2
+id_numero: "INS-2"
+numero_rivista: "Insieme"
 ---
-
 Sono tornato stasera, dopo aver partecipato a una festa "FEDE e LUCE", dopo aver vissuto ciò che diventa ogni giorno, sempre più, una "Comunità cristiana".
 
 Allora mi sono detto: Chi sei e cosa fai, tu, fratello handicappato, che mi guardi e mi sorridi, tu che non puoi parlare ma ti fai capire, tu che hai occhi puri e cuore aperto?

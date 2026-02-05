@@ -14,8 +14,9 @@ umap_x: 4.67603063583374
 umap_y: 8.843515396118164
 umap_z: 7.955119609832764
 issue_number: OEL-8
+id_numero: "OEL-8"
+numero_rivista: "Ombre e Luci"
 ---
-
 Avete mai visto un vecchietto che, al bordo di una stradina abbastanza solitaria nei pressi di una fontanella, lava la sua vecchia e stanca «850»? Lustra, pulisce, ripara le ammaccature, ripassa quanto ha pulito un momento prima, quindi si sposta un poco cercando di inquadrarla tutta per vedere a colpo d’occhio se ha sbavature o parti non lustrate bene. Compie questa operazione con amore, con fervore ma anche con grande lavoro e fatica, tanto che ad opera compiuta è assai stanco ma contento. Contento di aver mantenuto alta la dignità della sua utilitaria pensando oltrettutto che così fatto — macchina e autista — potranno tener testa alle altre macchine, più nuove e scattanti ma principalmente più sane. Ecco, questo è quanto un genitore deve fare e fa per tenere alta la dignità del proprio figlio o figlia portatore di handicap. Lava, pulisce, cambia, cerca sempre — giorno e notte — di migliorare le possibilità che ha, perché sa che il giorno dopo i sani scarterebbero quell’utilitaria umana se non fosse alla loro altezza o se desse loro fastidio con una presenza sbavata e non dignitosamente presentabile e concorrenziale. Spesso ci si abitua ad avere un figlio con problemi; capita pure di vedere chi si adagia su questa disgrazia, che si commisera e chi è talmente «tiepido» da fare un danno incommensurabile al portatore di handicap. Per questa tiepidezza non si dà l’aiuto necessario all’inserimento nella società, si preclude la promozione per raggiungere quanto è possibile raggiungere, si esclude qualsiasi possibilità di autonomia, necessità primaria per continuare a vivere, soprattutto quando la fonte di sostegno della persona handicappata viene a mancare. Ed è per questo che un genitore, quando fa tutto il necessario, è genitore due volte, perché vive anche l’«altra parte della vita».
 > Le circostanze che ero costretto a combattere ottenebravano la mia consapevolezza della felicità
 

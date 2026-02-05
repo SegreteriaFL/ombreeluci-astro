@@ -14,8 +14,9 @@ umap_x: 5.750056266784668
 umap_y: 9.180618286132812
 umap_z: 11.732999801635742
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Edè stata proprio una bella storia di amicizia, quella mia con Angelo, iniziata nell’agosto del 2003, alla mia prima esperienza con Fede e Luce ad un campo. **Fino ad allora ho sempre vissuto con molto distacco la disabilità** , pur avendo un fratello in casa con una leggera disabilità mentale. Ho sempre considerato mio fratello normale: ci sono cresciuto assieme, giocando e andando alla scuola ma, fuori dalle mura di casa, rimanevo lontano dalle persone con disabilità. Conoscere Angelo e gli altri ragazzi della comunità Raggi di Sole mi ha pian piano aperto e aiutato ad incontrare i “diversi” ai miei occhi. In questo mio cammino, **l’amicizia con Angelo è stata di quelle che ti trasformano la vita senza che te ne accorgi** e, solo ora che lui è volato in cielo con la sua mamma, mi trovo a ripercorrere tutti questi anni passati assieme e vedere tutto quello che ho ricevuto da questo amico.
 
 Molto è stato detto e scritto nei giorni passati; volevo scrivervi di alcuni aspetti che mi hanno segnato in modo particolare. Il primo di questi riguarda la spiritualità di Angelo. A volte ci permettiamo di dubitare o criticare la bellissima relazione che hanno i nostri ragazzi con il Signore. Ci sono molte strade di spiritualità e Angelo aveva la sua, proprio il suo nome gli indicava il cammino. I nostri incontri in comunità sono caratterizzati, tra le altre cose, dalla lettura e dal mimo del Vangelo, dai gruppi di condivisione e dalla preghiera. Osservando la partecipazione di Angelo a questi momenti, ti veniva da commentare che c’era poco interesse in lui; c’erano momenti in cui non partecipava attivamente o se ne usciva con monologhi senza tanto senso.

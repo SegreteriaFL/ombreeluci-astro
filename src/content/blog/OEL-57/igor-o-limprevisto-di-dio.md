@@ -4,8 +4,8 @@ date: 1997-03-25
 author: Redazione
 slug: igor-o-limprevisto-di-dio
 lang: it
-numero_rivista: 57
-id_numero: OEL-57
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-57"
 issue_number: OEL-57
 wp_id: 11454
 original_url: "https://www.ombreeluci.it/?p=11454"
@@ -15,7 +15,6 @@ umap_x: 5.252388000488281
 umap_y: 9.29521369934082
 umap_z: 8.196843147277832
 ---
-
 Michel e Mary sono i genitori di cinque figli. Tra questi Igor ha una grave disabilità mentale. Michel e Mary, attori di professione, hanno messo in scena insieme «Il Paese di Igor», uno spettacolo ispirato dalla loro storia. Ripensando alle loro vite, hanno capito quanto la venuta di Igor tra loro li aveva condotti a un «viaggio nell’imprevisto» e che Dio, con la sua delicatezza, li aveva preparati a questa avventura.
 
 **Michel** Mary, mia moglie, è inglese, nata in una famiglia cattolica irlandese. I suoi genitori l'hanno spinta a viaggiare e ad aprirsi al mondo. Così ha conosciuto Taizé, dove ha «capito» per la prima volta che Gesù era risuscitato. Nella sua vita fu un punto di svolta. I suoi genitori erano attori e anche lei ha voluto iscriversi ad una scuola di teatro a Parigi dove ha imparato a mettere in scena le sue opere. È lì che ci siamo incontrati.

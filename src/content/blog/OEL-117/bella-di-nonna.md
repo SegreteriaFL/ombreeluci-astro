@@ -12,7 +12,8 @@ umap_x: 4.763549327850342
 umap_y: 9.560663223266602
 umap_z: 8.585712432861328
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 Maria e Rino hanno quattro nipoti: Daniele di undici anni, Eleonora di quasi sei, e poi Gian Luca di otto e Gaia di cinque e mezzo. Dei primi due, figli della loro figlia Paola, si occupano quotidianamente, li vanno a prendere a scuola, li fanno mangiare, poi riposino, gioco, judo, compiti finché la loro mamma non viene a prenderli verso le cinque del pomeriggio per portarli a casa o in piscina… insomma la normale ruotine comune a tanti nonni di oggi che in tal modo aiutano i figli durante il loro orario di lavoro, come infatti fanno i nonni materni di Gian Luca e Gaia. Perché allora ho voluto incontrare Maria e Rino, due nonni bravissimi, ma assolutamente normali? Il motivo è legato ad una qualità specifica di Eleonora, che è appunto una bambina Down. Ho cercato di capire con loro se qualcosa differenziava il loro rapporto con Eleonora da quello con gli altri nipoti.
 

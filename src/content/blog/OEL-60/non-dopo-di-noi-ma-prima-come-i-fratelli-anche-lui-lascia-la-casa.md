@@ -4,8 +4,8 @@ date: 1997-12-15
 author: Nicole Schulthes
 slug: non-dopo-di-noi-ma-prima-come-i-fratelli-anche-lui-lascia-la-casa
 lang: it
-numero_rivista: 60
-id_numero: OEL-60
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-60"
 issue_number: OEL-60
 wp_id: 11792
 original_url: "https://www.ombreeluci.it/?p=11792"
@@ -15,7 +15,6 @@ umap_x: 5.780264377593994
 umap_y: 8.614094734191895
 umap_z: 9.707219123840332
 ---
-
 Al numero 89 della Via Acqua Acetosa, in un luminoso mattino d'ottobre, prendiamo una strada che sale leggermente tra le vigne e i prati. Dopo aver parcheggiato l'automobile, scendiamo e volgiamo lo sguardo al di là delle case color arancione per contemplare il vasto orizzonte delle colline laziali: è come una boccata d'aria benefica, ci dà il senso dello spazio e della bellezza. C'è un pergolato per arrivare alla casa. Alla nostra sinistra, da un pollaio, giunge il suono festoso dei suoi abitatori. Due cani ci vengono incontro con fare amichevole, e, dopo di loro, Giovanni insieme a un educatore. L'intera struttura, la casa, le terrazze, il giardino, il portico, le fontane e gli edifici più piccoli sono là davanti a noi in tutto il loro fascino rustico ed elegante insieme. L'interno della casa conferma questa impressione.
 
 ### La casa

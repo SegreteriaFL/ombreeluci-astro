@@ -1,15 +1,31 @@
 ---
 id: "OEL-17"
-title: "Numero 17 - Quando sono adulti"
+title: "Numero 17 – Quando sono adulti"
 tipo: "ombre-e-luci"
 numero: 17
-anno: "1987"
+sort_order: 116
+pubDate: "1987-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 1987"
 sommario: "Tanto si è fatto - e si fa - in tema di prevenzione, diagnosi precoce, riabilitazione, inserimento scolastico per quanto riguarda i bambini con disabilità… ma quando non hanno più sedici anni? Quali prospettive ci sono per la vita adulta delle persone con una disabilità mentale, per la possibilità di una vita affettiva e lavorativa rispettosa della dignità di ciascuno?"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_17_1987.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_017/mode/2up?view=theater"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-17-quando-sono-adulti/"
+articoli:
+  - "cose-un-handicap-non-lo-so"
+  - "non-ha-piu-sedici-anni"
+  - "maschio-e-femmina-li-creo"
+  - "teresa-una-storia-di-lavoro-integrato"
+  - "questa-casa-famiglia-e-una-risposta"
+  - "crescere-con-il-lavoro"
+  - "dialogo-aperto-n-17"
+  - "dialogo-aperto-n-17"
+  - "cose-un-handicap-non-lo-so"
+  - "non-ha-piu-sedici-anni"
+  - "maschio-e-femmina-li-creo"
+  - "teresa-una-storia-di-lavoro-integrato"
+  - "questa-casa-famiglia-e-una-risposta"
+  - "crescere-con-il-lavoro"
 ---
 
 ## Indice

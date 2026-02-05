@@ -12,8 +12,9 @@ umap_x: 7.752762794494629
 umap_y: 7.956683158874512
 umap_z: 13.336377143859863
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Castagne, fiocchi, festa a Cuneo
 
 La giornata mensile dedicata alla festa e che richiama ogni volta molte persone, tra familiari ed amici di Fede e Luce, è destinata oggi 16 novembre, alla "castagnata". Sono molti giorni che ognuno di noi pensa all'organizzazione per rendere questo ulteriore momento di vita insieme più bello e più gioioso.

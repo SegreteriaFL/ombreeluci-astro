@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "e-poi-cosa-ne-sara-di-loro-le-domande-sul-dopo-di-noi"
 lang: it
-numero_rivista: 79
-id_numero: OEL-79
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-79"
 issue_number: OEL-79
 wp_id: 25443
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 Sono uno degli amici di una delle tante comunità di [Fede e Luce](https://www.fedeeluce.it/) presenti in Italia. Ho conosciuto F&L quasi quattro anni fa. In questo periodo **mi sono state regalate più emozioni di quante io ricordi di averne vissute in passato: mi ritrovo spesso a pensare e a ricordare, ed i molti dei ricordi più belli sono quasi tutti per i campi con i ragazzi, per le gite o anche solo per alcuni canti di Fede e Luce.
 
 È un po’ di tempo però che la mia gioia e la mia serenità sono offuscate. **Mi arrovello su un problema che mi incupisce e al quale non so dare risposta: che cosa accade ai ragazzi quando vengono a mancare entrambi i genitori?

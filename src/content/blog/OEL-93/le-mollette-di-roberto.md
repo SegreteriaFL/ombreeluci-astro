@@ -4,8 +4,8 @@ date: 2006-03-30
 author: Redazione
 slug: le-mollette-di-roberto
 lang: it
-numero_rivista: 93
-id_numero: OEL-93
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-93"
 issue_number: OEL-93
 wp_id: 31506
 original_url: "https://www.ombreeluci.it/?p=31506"
@@ -15,7 +15,6 @@ umap_x: 6.780779838562012
 umap_y: 8.348677635192871
 umap_z: 8.57849407196045
 ---
-
 **Nome?**
 Roberto
 **Anni?**

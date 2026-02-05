@@ -12,7 +12,8 @@ umap_x: 6.932180404663086
 umap_y: 10.945877075195312
 umap_z: 4.629062652587891
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 Gianluca Nicoletti, giornalista e speaker radiofonico, racconta in questo libro la vita quotidiana con suo figlio Tommy, autistico. Un libro che l’autore ha definito “un racconto allegro, tutt’altro che triste”, in realtà mostra diversi momenti di difficoltà che ci fanno ben allontanare dall’allegria.
 

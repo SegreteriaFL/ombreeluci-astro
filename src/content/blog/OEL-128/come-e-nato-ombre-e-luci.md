@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-128
+id_numero: "OEL-128"
+numero_rivista: "Ombre e Luci"
 ---
-
 “Non ricordo più quando ho avuto tra le mani, per la prima volta, Ombres et Lumière. Può darsi nel 1971, Chicca aveva una decina d’anni, viveva in casa e noi eravamo in un abisso che molti genitori conoscono.
 
 Era il silenzio, le lacrime segrete nella notte, accanto al suo letto. Io cercavo di capire il mistero della sua presenza, il senso della sua vita. La grazia ha fatto il suo cammino poco a poco senza che ce ne rendessimo conto. Dopo la luce di Lourdes, c’è stata Fede e Luce con il pellegrinaggio a Roma, gli amici che si sono uniti a noi.

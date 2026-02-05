@@ -14,8 +14,9 @@ umap_x: 7.800793170928955
 umap_y: 9.187445640563965
 umap_z: 12.250722885131836
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Ho in mano una lettera che mi ha fatto riflettere. Eccone qualche passo: « Fra i ricordi luminosi di questa manifestazione così impressionante, ricordo un fatto che mi ha particolarmente colpito: la gioia che emanava e si comunicava da parte di centinaia di sacerdoti che, con i giovani, circondavano le persone handicappate e i loro genitori… Mi sono poi chiesto come mai, di fronte a tanta miseria, fatica e difficoltà d’ogni genere, i sacerdoti fossero così profondamente sereni. Davano letteralmente l’impressione di camminare sulle acque, trasportati da una gioia indicibile… ». Perché? Forse perché i sacerdoti amano la miseria o la sofferenza?
 
 Al contrario, esse sono un male. Quando si conoscono le persone handicappate mentali, quello che ci meraviglia come sacerdoti, non è la sofferenza ma il loro modo di accoglierci. È un segno caratteristico in molti di loro: « Ciao, come ti chiami? ». La gioia di incontrarci non per ciò che facciamo ma per quello che siamo: un prete, Francesco o Pietro.

@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "re-33-e-i-suoi-33-bottoni-doro-recensione"
 has_comments: false
+id_numero: "OEL-96"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

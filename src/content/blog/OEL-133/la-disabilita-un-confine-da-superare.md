@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-133
-id_numero: OEL-133
+id_numero: "OEL-133"
+numero_rivista: "Ombre e Luci"
 ---
 “Ve lo dico subito: questo libro è bellissimo. E non potrei dire altrimenti perché Patrizia è una mia amica e guai a chi me la tocca. Ho seguito queste 188 pagine ancora prima che fossero pubblicate partecipando al crowdfunding con cui è stata finanziata la pubblicazione. E quando finalmente ho avuto in mano il libro arancione l’ho letto tutto di un fiato. Ho riso, mi sono commossa, ho pensato, mi sono stupita e mi è sembrato di camminare insieme a lei attraverso la sua incredibile vita. Leggere la sua storia è stato per me come entrare in punta di piedi nella sua “stanza” e scoprirne i segreti. Patrizia non si è risparmiata niente, ha voluto provare tutto, con forza e determinazione ha superato le sue oggettive difficoltà. E porta a chiederci: ma poi in fondo che cosa è la disabilità? Ciò che ci può rendere difficile la vita a o il modo come gli altri ci guardano?“ (Monica Leggeri)
 Abbiamo così intervistato Patrizia Ciccani dopo aver letto il suo libro, incoraggiati dalla nostra comune amica. Trovate la recensione nella rubrica Libri.

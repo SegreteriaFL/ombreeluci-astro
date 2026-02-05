@@ -12,7 +12,8 @@ umap_x: 7.190054416656494
 umap_y: 8.908125877380371
 umap_z: 9.003655433654785
 issue_number: INS-30
-id_numero: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
 P
 er ogni impresa umana occorre una filosofia. Il termine “filosofia" non spaventi: ogni uomo è filosofo anche se non lo sa; infatti ciascuno ha una propria visione dell’uomo, dei suoi valori, della vita e della società. La nostra filosofia, cioè la nostra visione dell’uomo, è quella della fede, che ci indica come valore prioritario assoluto l’uomo, la cui dignità è tanto grande da trascenderlo. Perciò ogni sforzo, ogni energia spesa per garantire anche un solo grado di questa dignità, per consentire all’uomo, visto nella sua globalità e unità, una libertà sempre maggiore da qualsiasi impedimento e da qualsiasi forma di condizionamento, non hanno prezzo.

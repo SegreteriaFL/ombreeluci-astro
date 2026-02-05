@@ -4,8 +4,8 @@ date: 2005-06-17
 author: Valentina Gallo
 slug: mi-vuoi-bene-lultima-domanda
 lang: it
-numero_rivista: 90
-id_numero: OEL-90
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-90"
 issue_number: OEL-90
 wp_id: 30950
 original_url: "https://www.ombreeluci.it/?p=30950"
@@ -15,7 +15,6 @@ umap_x: 9.118605613708496
 umap_y: 10.016472816467285
 umap_z: 10.091567993164062
 ---
-
 *Abbiamo recentemente pregato per i Cardinali riuniti in Conclave per la scelta del successore di Pietro, nell’ascolto dello Spirito Santo. Durante le votazioni, il Cardinale Ratzinger, come ha detto in seguito, intuendo dove l'avrebbe condotto la volontà dello Spirito Santo, pregava Dio affinché gli risparmiasse un compito tanto difficile. Ma è stato scelto ed ha accettato di seguire la volontà di Gesù. Ci sembrano quindi particolarmente indicate le riflessioni di don Antonio Torresin sul brano del vangelo di Giovanni che seguono quelle di don Marco Bove pubblicate sull’ultimo Ombre e Luci.*
 > Quand'ebbero mangiato, Gesù disse a Simon Pietro: «Simone di Giovanni, mi vuoi bene tu più di costoro”. Gli rispose: «Certo, Signore, tu lo sai che ti voglio bene». Gli disse: «Pasci i miei agnelli». Gli disse di nuovo: «Simone di Giovanni, mi vuoi bene”. Gli rispose: «Certo, Signore, tu lo sai che ti voglio bene». Gli disse: «Pasci le mie pecorelle». Gli disse per la terza volta: «Simone di Giovanni, mi vuoi bene”. Pietro rimase addolorato che per la terza volta gli dicesse: Mi vuoi bene?, e gli disse: «Signore, tu sai tutto; tu sai che ti voglio bene». Gli rispose Gesù: «Pasci le mie pecorelle. In verità, in verità ti dico: quando eri più giovane ti cingevi la veste da solo, e andavi dove volevi; ma quando sarai vecchio tenderai le tue mani, e un altro ti cingerà la veste e ti porterà dove tu non vuoi». Questo gli disse per indicare con quale morte egli avrebbe glorificato Dio. E detto questo aggiunse: «Seguimi»
 

@@ -14,7 +14,8 @@ umap_x: 8.403669357299805
 umap_y: 11.864317893981934
 umap_z: 10.851654052734375
 issue_number: OEL-135
-id_numero: OEL-135
+id_numero: "OEL-135"
+numero_rivista: "Ombre e Luci"
 ---
 ### Tutto sgorga dall’amore
 

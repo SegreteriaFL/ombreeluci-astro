@@ -12,8 +12,9 @@ umap_x: 6.012088298797607
 umap_y: 8.380778312683105
 umap_z: 11.594202995300293
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 ### Roma, 30 gennaio 1978
 
 Domenica avevo tanto desiderio di rivedervi e l'ho fatto. Cosa rara per me uscire sola, ma dovevo farlo, perché sapevo che vedere tutti voi mi avrebbe consolato del dolore che avevo.

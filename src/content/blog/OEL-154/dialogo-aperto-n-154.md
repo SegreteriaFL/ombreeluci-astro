@@ -12,7 +12,8 @@ umap_x: 4.774649143218994
 umap_y: 7.800942420959473
 umap_z: 10.892029762268066
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 ## Prenotata e vaccinata
 

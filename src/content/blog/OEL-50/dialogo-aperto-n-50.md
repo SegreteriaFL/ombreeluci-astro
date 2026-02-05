@@ -12,7 +12,8 @@ umap_x: 5.269439697265625
 umap_y: 7.923039436340332
 umap_z: 11.199786186218262
 issue_number: OEL-50
-id_numero: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
 ### La scoperta
 

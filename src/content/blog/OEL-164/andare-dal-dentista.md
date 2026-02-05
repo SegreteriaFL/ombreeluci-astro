@@ -12,7 +12,8 @@ umap_x: 6.62381649017334
 umap_y: 9.347490310668945
 umap_z: 7.282474994659424
 issue_number: OEL-164
-id_numero: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
 «Sulla poltrona del dentista, un paziente con disabilità poco collaborante e un altro senza disabilità ma odontofobico, non sono poi così diversi. **Fondamentali, per trattare entrambi, rimangono una certa predisposizione d’animo e la possibilità di una relativa collaborazione da parte del paziente per affrontare ogni tipo di terapia dentale.** Anche con mia sorella Silvia [che ha una disabilità intellettiva, ndr] non è sempre facile, nonostante la familiarità e l’abitudine: se pure abbastanza collaborante, non è così strano che cominci a parlare proprio mentre ho l’ago in mano!».
 

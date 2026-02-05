@@ -14,7 +14,8 @@ umap_x: 7.485681533813477
 umap_y: 7.934506416320801
 umap_z: 8.84372329711914
 issue_number: OEL-15
-id_numero: OEL-15
+id_numero: "OEL-15"
+numero_rivista: "Ombre e Luci"
 ---
 Spesso ci viene chiesto se *Ombre e Luci* è per l’integrazione nelle scuole normali o per le scuole speciali; è per le case famiglia o per gli istituti; è per il privato o per il pubblico? Non ci schieriamo per l’una o per l’altra di queste posizioni perché siamo convinti che è un bene molto prezioso scegliere quello che si ritiene migliore per il proprio figlio; che migliore vuol dire adatto a lui così come egli è; migliore vuol dire talvolta il non-peggiore; migliore vuol dire quello di cui in questo momento la mia famiglia ha bisogno per sopravvivere... Ci sembra giusto sottolineare la nostra posizione, anche perché si fa un gran parlare intorno a questo argomento. Frasi del tipo: «Meglio che muoia piuttosto che metterlo in un istituto!» «Preferisco che rimanga con i fratelli piuttosto che...», non ci sembrano né realistiche né giuste nei confronti di tante persone che offrono la loro intera vita e la loro opera per accogliere migliaia di persone che non sanno dove andare. Siamo convinti che il luogo migliore per un figlio con handicap sia la famiglia. Ma la famiglia non basta né per la riabilitazione, né per l’educazione, né per il tempo libero, né per l'avviamento al lavoro, né — soprattutto — per quando i genitori o vengono a mancare o, non possono tenere il figlio. Ci sembra doveroso far conoscere i servizi, pubblici o privati,confessionali o meno, purché siano ben gestiti, ben funzionanti, diretti con amore e competenza, senza speculazioni. Forse un giorno questa conoscenza servirà a qualcuno e ringraziamo il cielo che qualcosa esista, pur con i difetti e i pregi di ogni opera umana.
 *Abbiamo ricevuto la documentazione e le foto che seguono dalla direttrice della «CASA SACRA FAMIGLIA» situata a FRATTA POLESINE (RO), gestita dalle Suore del Don Guanella.*

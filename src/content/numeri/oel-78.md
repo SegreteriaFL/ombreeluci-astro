@@ -1,15 +1,35 @@
 ---
 id: "OEL-78"
-title: "Ombre e Luci n. 78 - Buone vacanze!"
+title: "Ombre e Luci n. 78 – Buone vacanze!"
 tipo: "ombre-e-luci"
 numero: 78
-anno: "2002"
+sort_order: 177
+pubDate: "2002-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 2002"
 sommario: "Ombre e Luci n. 78 – Buone vacanze! ultima modifica: 2002-06-28T12:45:07+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_78_2002.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_78"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-78-buone-vacanze/"
+articoli:
+  - "vacanza-tempo-per-riposarsi-rilassarsi-ritemprarsi-rifiorire"
+  - "allalveare-si-scopre-lamerica-e-il-teatro"
+  - "la-norma-traviata-un-musical-delirante-recensione"
+  - "danzare-oh-oh-ohoo"
+  - "una-messa-su-misura-voluta-dai-genitori-e-amici-di-ragazzi-disabili-mentali"
+  - "il-kinnor-un-coro-di-disabili-mentali-e-normali-anima-le-messe-domenicali"
+  - "handicap-e-liturgia-novita-nel-dizionario-di-liturgia-per-sacerdoti-e-catechisti"
+  - "banca-etica-una-rivoluzione-e-entrata-in-silenzio-nel-mondo-della-finanza"
+  - "il-cielo"
+  - "carlo-maria-martini-noi-il-lavoro-oggi"
+  - "premio-donna-2002-a-mariangela"
+  - "dialogo-aperto-n-78"
+  - "le-parole-del-corpo-tecniche-e-giochi-per-lanimazione-attraverso-il-linguaggio-corporeo-recensione"
+  - "giochi-per-lestate-recensione-libro"
+  - "la-quadriglia-istruzioni-per-luso"
+  - "citta-futura-un-esempio-di-finanziamento-dalla-banca-etica"
+  - "monaci-di-lanuvio-finanziamento-banca-etica"
+  - "dialogo-aperto-n-78"
 ---
 
 ## Indice

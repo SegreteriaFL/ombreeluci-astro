@@ -6,6 +6,7 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "non-sono-abituato-a-fare-lo-zaino"
 has_comments: false
+id_numero: "OEL-167"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -4,8 +4,8 @@ date: 2002-12-08
 author: Camille Proffit
 slug: natale-nel-mio-cuore
 lang: it
-numero_rivista: 80
-id_numero: OEL-80
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-80"
 issue_number: OEL-80
 wp_id: 25621
 original_url: "https://www.ombreeluci.it/?p=25621"
@@ -20,7 +20,6 @@ umap_x: 5.795567512512207
 umap_y: 6.139517784118652
 umap_z: 12.21484088897705
 ---
-
 Natale in tutte le strade splendenti di luce! Natale in tutte le vetrine; perfino in quella del macellaio, del fornaio, della Coop, sfavillano ghirlande e palline colorate. Natale, festa della luce, della gioia, festa della famiglia; è quello che vedo, che sento, che tocco.
 
 **E io? Io mi sento come una bambina povera** , le mani vuote e il cuore freddo davanti a questa «vetrina di Natale» che è l’ambiente che mi circonda: luccicante e inaccessibile.

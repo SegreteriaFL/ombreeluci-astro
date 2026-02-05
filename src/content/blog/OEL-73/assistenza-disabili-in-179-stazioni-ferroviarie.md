@@ -12,7 +12,8 @@ umap_x: 7.901897430419922
 umap_y: 8.94206714630127
 umap_z: 7.616862773895264
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 I centri di accoglienza sono il punto di riferimento per tutte le esigenze di viaggio in treno della persona disabile. Su richiesta del cliente, organizzano l’assistenza per il viaggio nelle stazioni di partenza e in quella di arrivo e dispongono i servizi per le informazioni, le prenotazioni dei posti ordinari e attrezzati; l’eventuale messa a disposizione della sedia a rotelle; la guida in stazione e l’accompagnamento al treno, all’uscita o ad altro treno coincidente; la salita e discesa con carrelli elevatori.
 

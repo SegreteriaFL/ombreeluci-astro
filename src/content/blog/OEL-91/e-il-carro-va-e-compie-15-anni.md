@@ -4,8 +4,8 @@ date: 2005-09-19
 author: Filippo Ascenzi
 slug: e-il-carro-va-e-compie-15-anni
 lang: it
-numero_rivista: 91
-id_numero: OEL-91
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-91"
 issue_number: OEL-91
 wp_id: 31100
 original_url: "https://www.ombreeluci.it/?p=31100"
@@ -17,7 +17,6 @@ umap_x: 6.947959899902344
 umap_y: 8.093904495239258
 umap_z: 9.890378952026367
 ---
-
 I l 3 Aprile 2005 abbiamo festeggiato . l'inaugurazione del Carro. Molti di voi già conoscono, direttamente o per sentito dire, questa piccola realtà di accoglienza, condivisione e ospitalità nata ormai quasi 15 anni fa dall’ispirazione e l’iniziativa di alcuni giovani. Tra di essi Matteo e Ivana ancora oggi, con la loro bella famiglia, rappresentano l’originalità la coerenza e la forza di quella scelta. E allora perchè, dopo 15 anni di storia, parliamo di "inaugurazione"? Ce lo facciamo raccontare da una volontaria che ho avuto il piacere di introdurre al Carro qualche anno fa e che ora ne costituisce una delle "colonne portanti" come dice Matteo; sto parlando di Costanza (mia moglie).
 **Buongiorno Costanza, lo so che sei imbarazzata per questa intervista ma è giusto che le nuove leve si facciano avanti e prendano le loro responsabilità. Per cominciare: perché parliamo di inaugurazione?**
 Perché il Carro ha deciso di rinnovarsi e crescere ponendosi progetti, obiettivi e diciamo pure sogni molto ambiziosi. E quest'anno abbiamo festeggiato il fatto che Stefano, Rita, Alberto e Carla hanno raggiunto Mimmo, Sabina e tutta la famiglia di Matteo e Ivana e sono andati ad abitare stabilmente in quella piccola, grande realtà che è il Carro e a costituire il primo nucleo delle tre case-famiglia che il progetto prevede.

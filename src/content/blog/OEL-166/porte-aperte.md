@@ -12,7 +12,8 @@ umap_x: 8.15062141418457
 umap_y: 7.3374924659729
 umap_z: 8.71284294128418
 issue_number: OEL-166
-id_numero: OEL-166
+id_numero: "OEL-166"
+numero_rivista: "Ombre e Luci"
 ---
 O
 gnuno di noi ha passioni che vuole coltivare; spesso riusciamo anche a trovare il modo per metterle a disposizione degli altri nella vita di tutti i giorni. E perché no, a farne proprio un lavoro. La cooperativa

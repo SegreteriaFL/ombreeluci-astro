@@ -15,8 +15,9 @@ umap_x: 7.835294246673584
 umap_y: 8.54401969909668
 umap_z: 13.96121883392334
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Dal 13 al 15 gennaio '78, si è tenuta a Bruxelles una Riunione Internazionale dei delegati di Fede e Luce, **80 persone di 16 paesi** [nota]Canada, Stati Uniti, Portogallo, Spagna, Francia, Italia, Svizzera, Austria, Germania, Lussemburgo, Danimarca, Belgio, Inghilterra; Scozia, Irlanda, Polonia; il Brasile non è potuto venire, per la distanza[/nota], **si sono ritrovate per un tempo intenso di scambio e di preghiera** .
 
 Dato il numero dei paesi rappresentati e la ricchezze degli scambi, l'incontro ha avuto un'importanza particolare per la crescita di Fede e Luce. Quanto è stato vissuto in quei tre giorni dovrebbe alimentare la vita dei gruppi Fede e Luce, tenuto conto della personalità di ogni paese.

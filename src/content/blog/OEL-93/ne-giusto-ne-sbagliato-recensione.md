@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "ne-giusto-ne-sbagliato-recensione"
 lang: it
-numero_rivista: 93
-id_numero: OEL-93
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-93"
 issue_number: OEL-93
 wp_id: 31439
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Morgan Collins ha tre anni quando lo incontriamo per la prima volta: passa il tempo a leggere qualunque tipo di libro gli passi per mano, che siano testi di medicina oppure vecchi giornali conservati dal papà; a giocare con articolati programmi numerici al computer, dato che già sa fare le operazioni; a trovare sempre nuove combinazioni per le carte degli innumerevoli mazzi che i suoi genitori sono costretti a comprare ogni volta che lui ne adocchia uno in un negozio e lo fa subito suo.
 
 È un bambino felice, amato e seguito da mamma e papà e da un caro e vecchio amico di famiglia che passa con lui quasi tutti i pomeriggi.

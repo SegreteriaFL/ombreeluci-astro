@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "cose-liperattivita"
 lang: it
-numero_rivista: 97
-id_numero: OEL-97
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-97"
 issue_number: OEL-97
 wp_id: 32441
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 ### Cos’è l’ADHD
 
 Si tratta di un disturbo di origine biologica della corteccia prefrontale e dei gangli basali diffuso circa nel 4% della popolazione scolastica, con prevalenza maschile (in media 4 a 1), che comporta: difficoltà nel controllo dell'impulso e del movimento, difficoltà di concentrazione, un’alterazione nella percezione degli stimoli ambientali e nell’elaborazione delle risposte ad essi.

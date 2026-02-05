@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 Lo scorso anno Giulia, mia figlia, con sindrome di Down di 14 anni, ha perduto il nonno a cui era molto attaccata. Mi sembrava molto difficile spiegarle della sua morte, ma tutto sommato l’ha vissuta in modo molto naturale. Le abbiamo parlato in modo molto semplice, senza nascondere nulla, spiegandole che il nonno non sarebbe stato più presente sulla terra, ma che era felice “lassù”.
 Tuttavia il giorno del funerale, Giulia, non ha proprio realizzato ciò che stava accadendo. Penso che si sia bloccata di fronte alle nostre emozioni ed a quelle dei suoi fratelli e sorelle che piangevano. Non abbiamo nascosto il nostro dolore: abbiamo pianto tutti insieme.
 Ciò che l’ha turbata molto per contro, è stato che si potesse mettere il corpo del nonno in una bara! Non smetteva mai di dire: “Non è possibile che possa entrare in questa scatola!”. Di ritorno dalla messa, l’ho vista allungarsi sul divano, con le braccia serrate lungo il corpo e ci ha detto: "Mi alleno per vedere si posso entrare nella scatola”. Questa cosa ci ha fatto ridere tutti.

@@ -4,8 +4,8 @@ date: 1996-12-15
 author: Redazione
 slug: genitori-non-fateci-arrabbiare
 lang: it
-numero_rivista: 56
-id_numero: OEL-56
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-56"
 issue_number: OEL-56
 wp_id: 11104
 original_url: "https://www.ombreeluci.it/?p=11104"
@@ -17,7 +17,6 @@ umap_x: 5.121265888214111
 umap_y: 10.084845542907715
 umap_z: 9.0508394241333
 ---
-
 La festa dei 18 anni di Rosita fra le due sorelle ogni volta (o quasi) che parlo con mia sorella Lucia nostra madre interviene: «Cosa c'è? Lasciala stare!» Sembra quasi che le mie parole possano uccidere la figlia. Se io fossi un estraneo, e quindi un potenziale molestatore, il suo comportamento potrebbe anche essere comprensibile. Ma io sono l'unico fratello di Lucia e perciò devo avere un ottimo dialogo con lei, anche perché quando i miei genitori non ci saranno più (speriamo il più tardi possibile!!) sarò io ad occuparmene. Come potrò farle capire qualcosa se mi vedrà con diffidenza? Ma la cosa che più mi fa rabbia è che quando io e mia sorella siamo soli andiamo molto d'accordo e ci divertiamo sempre: la pigrizia che nei ragazzi Down è una componente di base, sembra dissolversi come per incanto e le mie parole diventano quasi un comandamento: quando invece assisto ai dialoghi tra la mamma e Lucia, noto che quest'ultima si sente quasi autorizzata a disobbedire, come se pensasse: «Di quello che dice mamma non mi importa niente, tanto lei dopo mi perdona sempre!». Purtroppo sono tanti anni che lotto (da ariete quale sono) contro questo problema che si ripete in quasi tutte le famiglie. I genitori non riescono ad avere polso con questi ragazzi e finiscono con il sottostare a ogni loro più piccolo capriccio, naturalmente per eccessivo amore.
 
 A questa affermazione molti genitori rispondono: «Avrei voluto vedere te cosa avresti fatto con un dolore così grande!» Ed io replico: «Credete che noi fratelli invece ne siamo contenti?!» Questo fardello un giorno passerà sulle nostre spalle e i genitori hanno l'obbligo di renderlo leggero.

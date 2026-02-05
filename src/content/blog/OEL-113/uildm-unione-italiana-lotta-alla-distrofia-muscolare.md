@@ -14,7 +14,8 @@ umap_x: 7.168972492218018
 umap_y: 9.36268138885498
 umap_z: 7.868703365325928
 issue_number: OEL-113
-id_numero: OEL-113
+id_numero: "OEL-113"
+numero_rivista: "Ombre e Luci"
 ---
 ### Cosè?
 

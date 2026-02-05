@@ -15,7 +15,8 @@ umap_x: 8.061776161193848
 umap_y: 6.974990367889404
 umap_z: 11.767931938171387
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 Cosa ci si aspetta da una vacanza? Riposare, divertirsi, fare le cose che ci piacciono, stare in compagnia, ridere e scherzare. E magari - perché no? - anche trovare l’occasione per fermarsi e staccare la spina, dedicando tempo a se stessi e al proprio rapporto con Dio.
 

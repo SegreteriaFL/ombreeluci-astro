@@ -12,8 +12,9 @@ umap_x: 8.898514747619629
 umap_y: 8.427529335021973
 umap_z: 3.3095905780792236
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Ilfilm l’ho fatto per lui, non per me». È un atto dichiarato di puro amore, il documentario *Bobò* che Pippo Delbono ha dedicato a un suo amico e collaboratore di lunga data, Vincenzo Cannavacciuolo detto Bobò, morto nel 2019 dopo avere lavorato per anni nella sua compagnia teatrale. **Il loro rapporto è stato così intenso da rendere dolorosissima la separazione e ci sono voluti cinque anni prima che il regista riuscisse a rivederne le immagini e risentirne la voce** , e finalmente ha potuto dare forma a una di quelle storie incredibili che vale la pena raccontare: Delbono, infatti, aveva scoperto il talento artistico di Bobò all’interno di un ospedale psichiatrico.
 
 Nonostante la [legge Basaglia](https://www.ombreeluci.it/project/numero-167-fare-la-storia-per-ridare-la-vita/) abbia portato cambiamenti epocali nel rapporto del nostro paese con la gestione delle malattie mentali, per qualcuno nell’immediato non cambiò molto. **Bobò era una di quelle persone “dimenticate” dai progressi della legge Basaglia: nato muto e con microcefalia, aveva sempre vissuto nel manicomio di Aversa** , per più di quarant’anni non era mai uscito dall’istituto né aveva alcuna conoscenza del mondo esterno. Delbono, in un periodo difficile della sua vita (a causa della depressione e della scoperta della sieropositività, in un epoca in cui non c’erano ancora cure), incontrò Bobò durante un laboratorio teatrale, e non solo ne intuì il talento espressivo istintivo, ma capì quanto stargli vicino facesse bene alla sua salute mentale. Decise subito che lo avrebbe coinvolto nella sua attività teatrale, ma dovette aspettare la morte della tutrice, che si oppose sempre a ogni cambiamento. Invece Delbono, che immaginava di accompagnare Bobò alla scoperta del mondo e di imparare a sua volta a rivedere il mondo con occhio vergine grazie a lui, lo porto via con sé e lo rese parte integrante della sua compagnia, facendolo salire sui palchi teatrali italiani e stranieri.

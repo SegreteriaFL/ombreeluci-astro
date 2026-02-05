@@ -18,7 +18,8 @@ umap_x: 8.801702499389648
 umap_y: 5.293928146362305
 umap_z: 9.046553611755371
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 Il 14 e 15 giugno sarà celebrato il Giubileo dello sport. Quale data migliore per fare terminare il *Padel Autism Tour* ? Paola Nicoletti presidente di [*Siamo Delfini – Impariamo l’Autismo*](https://www.ombreeluci.it/2024/benvenuti-al-sud/) ci racconta come è nata l’idea. **L’associazione ha organizzato per due anni un torneo di padel per semiprofessionisti intitolato *Padel For Autism* .** In entrambi i tornei era previsto un momento finale di condivisione dei giocatori professionisti con i ragazzi e le ragazze dell’associazione per insegnare i primi rudimenti della disciplina.
 

@@ -15,7 +15,8 @@ umap_x: 5.4176530838012695
 umap_y: 10.276867866516113
 umap_z: 9.024567604064941
 issue_number: OEL-27
-id_numero: OEL-27
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
 Mi avete chiesto di scrivere un episodio della mia fanciullezza vissuto con i miei due fratelli non udenti. Mi spiace, non sono riuscita a farlo; eccovi, comunque qualche pensiero... è sempre qualcosa che ho vissuto intensamente e mi è piaciuto trasmetterlo. Gli anni della mia infanzia sono stati i più belli, come sorella, come figlia e come bambina. Ho un fratello e una sorella, Michele e Francesca, che non sentono; ambedue diplomati in ragioneria, lavorano, sono sposati e hanno tre bimbe: Giovanna e Giuseppina sono le piccole di Michele, Liliana è di Francesca. Ricordo spesso quando eravamo bambini: cinque pesti che inventavano giochi in casa, tra i quali quello della famiglia, Michele ed io eravamo i capofamiglia; oppure il gioco del castello magico che costruivamo con coperte e servendoci di letti, sedie e ogni sorta di oggetti. **Ricordo ancora, ma con amarezza, le volte in cui accompagnavo mio padre a Moffetta, dove c'è un istituto, l’Apicella, che, a quei tempi, era riservato ai non udenti** . In principio ci recavamo tutti, solo in visita, la domenica; poi ci permisero di portare a casa i miei fratelli per il fine settimana. Dunque il sabato, dopo la scuola, mio padre ed io partivamo e giunti all’Apicella, sentivo un gran peso sul cuore perché sapevo che mio padre mi avrebbe mandata in avanguardia a cercare i miei fratelli. Nella corsia maschile tutti i ragazzini mi circondavano e mi osservavano: mi ritenevo fortunata se erano impegnati a fare una partita di pallone. Nel reparto femminile, invece, erano tutte piuttosto timide e si limitavano a scrutarmi dai loro nascondigli, tranne qualcuna che sembrava più decisa a conoscermi.
 

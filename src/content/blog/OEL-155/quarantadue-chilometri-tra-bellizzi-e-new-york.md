@@ -12,7 +12,8 @@ umap_x: 8.601508140563965
 umap_y: 5.31058931350708
 umap_z: 9.502044677734375
 issue_number: OEL-155
-id_numero: OEL-155
+id_numero: "OEL-155"
+numero_rivista: "Ombre e Luci"
 ---
 Staten Island, Brooklyn, Queens, Manhattan, Bronx: sono cinque i distretti di New York da dover attraversare per vincere **la maratona più partecipata al mondo** , tra le corse maggiormente importanti degli Stati Uniti. È questo il sogno dei due fratelli Leo che ogni giorno, a Bellizzi (Salerno), si allenano per farlo diventare realtà. **Dario, 38 anni, è infatti pronto a spingere la carrozzella su cui Franco, 52, gareggerà** alla cinquantesima edizione della competizione newyorkese, il 7 novembre prossimo, dimostrando a tutti che «se lo vuoi, puoi farlo». «A mio fratello Franco, che da quando è nato convive con la tetraparesi spastica, gli oltre 42 chilometri da percorrere, secondo l’itinerario previsto dalla gara, non fanno paura – spiega Dario Leo –. Per lui è importante affrontare questa sfida anche e soprattutto per donare speranza ad altre persone, giovani magari, che hanno un desiderio e credono, a causa delle più svariate difficoltà, di non poterlo realizzare».
 

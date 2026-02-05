@@ -12,7 +12,8 @@ umap_x: 8.910102844238281
 umap_y: 8.316164016723633
 umap_z: 3.506913423538208
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 C
 on le serie tv e i film che parlano di fragilità, la sfida più impegnativa è sempre quella di restituire un’immagine realistica del tema che si sceglie di raccontare. La tentazione di cadere nello stereotipo è enorme poiché spezzare le convinzioni degli spettatori rischia di allontanare invece di coinvolgere.

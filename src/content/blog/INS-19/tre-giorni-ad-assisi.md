@@ -15,8 +15,9 @@ umap_x: 9.51344108581543
 umap_y: 8.545842170715332
 umap_z: 12.294061660766602
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Questi tre giorni saranno ciò che noi li faremo essere: dipende da ciascuno di noi che siano un momento intenso di preghiera e di scambio vicino a S.Francesco.
 
 Sia che andiamo ad Assisi, sia che rimaniamo a casa, siamo tutti coinvolti dal pellegrinaggio, prima, durante e dopo... A pochi giorni dalla partenza; raccogliamoci nella preghiera e negli ultimi preparativi.

@@ -14,8 +14,9 @@ umap_x: 6.148502826690674
 umap_y: 8.95987606048584
 umap_z: 11.913865089416504
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 Te lo ricordi frate’ come ci siamo incontrati? Tanto tempo è trascorso, credo fosse una Festa della Primavera ed era il 1979. Mi pare che io fossi con Elena o forse Paola ed ecco Anna venne a presentarmi un suo compagno di classe venuto a scoprire qualcosa di più su
 *Fede e Luce*
 . Fu sufficiente un secondo, una tua battuta sagace ed un pò pungente e due calci ad un pallone... Te lo ricordi Stè il Pellegrinaggio dell’81? “Ludres” perché Fausta lo chiamava così. Il viaggio in treno con la fascia del servizio d’ordine, che ti costringeva a scendere ad ogni stazione per controllare che nessuno restasse giù. E la puzza di brodo per tutto il viaggio, unita alle chitarre che cantarono per quasi tutta la notte. Era la prima volta che andavamo separati da S. Gioacchino, con lo stendardo nuovo di S. Anna che cucirono Fausta e Rina. Tanto ci saremmo incontrati di nuovo quasi tutti a Marzocca. Te lo ricordi Stè in cucina, nella casa di Padre Danilo: Guenda e Francesco che fumano e i gavettoni al brodo tirati dalla terrazza, la mattina seguente, giù sulla testa di coloro che arrivarono il giorno dopo, con calma... E i materassi lanciati dal balcone? Uno rimase agganciato ad una persiana, dondolando sulla testa di Danilo, uscito in giardino; con Guenda che lo distraeva e noi che tentavamo di tirarlo su. Io, te e “Maranelli”, per chiamarlo alla Papalla, sempre insieme, uniti come dei fratelli. Te li ricordi i primi tempi al

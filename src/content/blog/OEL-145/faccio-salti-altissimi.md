@@ -12,7 +12,8 @@ umap_x: 7.344963073730469
 umap_y: 10.72884464263916
 umap_z: 5.41876220703125
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Iacopo Melio, insignito della medaglia di Cavaliere della Repubblica dal presidente Mattarella, è nato con una rara sindrome genetica, dai sintomi più diversi. I medici gli avevano predetto un futuro brevissimo e invece a 26 anni scrive libri e lancia campagne che influiscono sulle decisioni politiche. *Faccio salti altissimi* è la storia di un ragazzo come tanti, con la testa piena di progetti e speranze. Attraverso un linguaggio semplice e ironico, l’autore spinge a non arrendersi nelle difficoltà, a trasformare le condanne apparenti in punti di partenza verso la rinascita, nei ringraziamenti finali scrive “Grazie a chi, in mezzo al temporale, non smetterà mai di cercare l’arcobaleno.” Melio nei suoi libri e nel suo impegno civile si mette sempre dalla parte degli ultimi, abbattendo categorie e pregiudizi. Il suo è un libro in difesa della libertà di essere se stessi, nel rispetto dell’unicità di ciascuno e nel superamento di quell’idea che per essere “normali” dovremmo essere tutti uguali.
 

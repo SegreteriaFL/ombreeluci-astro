@@ -7,6 +7,7 @@ cluster_id: 2
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_130_2015.jpg"
 slug: "il-senso-della-festa"
 has_comments: false
+id_numero: "OEL-130"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -4,8 +4,8 @@ date: 2004-03-10
 author: Redazione
 slug: dialogo-aperto-n85
 lang: it
-numero_rivista: 85
-id_numero: OEL-85
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-85"
 issue_number: OEL-85
 wp_id: 30061
 original_url: "https://www.ombreeluci.it/?p=30061"
@@ -15,7 +15,6 @@ umap_x: 4.714508533477783
 umap_y: 8.236745834350586
 umap_z: 10.385852813720703
 ---
-
 ### Questi 15 anni sono stati duri
 
 *Riportiamo in questa pagina stralci da una lunga lettera che Immacolata ha scritto a Mariangela ma anche a tutti noi. Immacolata, i nostri lettori la conoscono già, è la mamma di Francesca, una bambina quindicenne plurihandicappata. Qui ci racconta le sue ultime vicende: il viaggio a Bosisio, dove i medici dell’Istituto “La Nostra Famiglia” hanno visitato e osservato Francesca nella speranza di individuare una nuova cura per la sua schiena e per altri problemi che la fanno soffrire, la visita al Cimitero di San Giuliano e infine le sue riflessioni più generali sulla vita sua e della sua famiglia...*

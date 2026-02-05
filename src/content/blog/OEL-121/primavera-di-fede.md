@@ -14,7 +14,8 @@ umap_x: 8.977368354797363
 umap_y: 10.610222816467285
 umap_z: 8.569458961486816
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 Inuno degli ultimi libri pubblicati con i testi del cardinale Martini “ *Famiglie in esilio* ”, c’è un capitolo intitolato “L’immagine di Dio nei figli” di cui voglio riprendere un paragrafo. “ *Un particolare problema si pone allorché si tratta di riconoscere l’immagine di Dio anche sul volto di un figlio nato con un handicap fisico o psichico o con entrambi. Occorre allora una grazia straordinaria dello Spirito Santo e l’aiuto affettuoso e perseverante della comunità cristiana (vengono alla mente i gruppi di “Fede e Luce” e altre iniziative simili) per fare in modo che una grande prova — tale da indurre a una diuturna amarezza e anche a una vera e propria disperazione — appaia invece un’occasione nuova e sorprendente per comprendere come Dio abiti nel cuore di questi piccoli e li faccia evangelizzatori efficaci della comunità e degli stessi genitori* ”.
 

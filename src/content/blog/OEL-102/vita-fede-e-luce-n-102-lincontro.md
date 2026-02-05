@@ -12,7 +12,8 @@ umap_x: 7.595820903778076
 umap_y: 8.624600410461426
 umap_z: 12.950446128845215
 issue_number: OEL-102
-id_numero: OEL-102
+id_numero: "OEL-102"
+numero_rivista: "Ombre e Luci"
 ---
 La parrocchia di San Giuseppe della Pace è stata la prima ad accogliere Fede e Luce a Milano, quasi trenta anni fa. Un legame con la comunità parrocchiale che non si è mai interrotto ma che ha vissuto negli anni - come tutti i rapporti di lunga data - momenti di alti e bassi.
 

@@ -7,6 +7,7 @@ cluster_id: 4
 image: "https://www.ombreeluci.it/wp-content/uploads/2024/07/Guestbook-OL.jpg"
 slug: "se-un-pomeriggio-dura-quarantanni"
 has_comments: false
+id_numero: "OEL-166"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

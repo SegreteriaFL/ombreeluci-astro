@@ -1,15 +1,28 @@
 ---
 id: "INS-4"
-title: "Insieme n.4 - Bollettino Fede e Luce"
+title: "Insieme n.4 – Bollettino Fede e Luce"
 tipo: "insieme"
 numero: 4
-anno: "1975"
+sort_order: 4
+pubDate: "1975-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio 1975"
 sommario: "Prima di Ombre e Luci c'era Insieme, il primo bollettino di Fede e Luce, nato nel 1974."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/1975/02/insieme4.jpg"
 link_sfoglia: "https://archive.org/details/insieme-04"
 link_pdf: "https://archive.org/download/insieme-04/insieme-04.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-4-bollettino-fede-e-luce/"
+articoli:
+  - "pellegrinaggio-a-roma-con-foi-et-lumiere"
+  - "integrazione-nelle-scuole-pro-e-contro"
+  - "poesie-visages-volti"
+  - "il-momento-piu-bello"
+  - "lincontro-a-villa-pacis"
+  - "allamicizia-ci-credo"
+  - "giovanissimi-io-e-mio-fratello"
+  - "qua-e-la-per-litalia"
+  - "sabato-1-febbraio-1975"
+  - "una-mamma-di-bambini-normali"
+  - "il-momento-piu-bello"
 ---
 
 ## Indice

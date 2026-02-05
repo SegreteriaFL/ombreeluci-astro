@@ -16,7 +16,8 @@ umap_x: 5.6069512367248535
 umap_y: 10.276814460754395
 umap_z: 7.9580464363098145
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 Piero ha 35 anni, è Down, è mio fratello, uno dei miei fratelli. È l'ultimo di cinque, io sono la penultima. Siamo cresciuti insieme, vicini, perciò posso dire come e quanto, secondo me, i nostri genitori lo hanno aiutato nella sua crescita. A casa ognuno di noi sapeva che a Piero veniva chiesto tutto quello che poteva fare; aveva il suo lavoro anche lui, lo sapevamo bene!
 

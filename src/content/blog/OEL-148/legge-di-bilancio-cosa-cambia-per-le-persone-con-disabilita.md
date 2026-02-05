@@ -12,8 +12,9 @@ tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Novità, conferme, incertezze, rinvii e anche un rilievo non proprio incoraggiante: è quanto emerge dall’ampia analisi condotta dal [servizio HandyLex.org sulla Legge di Bilancio per il 2019](https://www.altalex.com/documents/leggi/2019/01/02/legge-di-bilancio-2019-il-testo-pubblicato-in-gazzetta), pubblicata il 31 dicembre in Gazzetta Ufficiale, rispetto alle varie parti che più direttamente interessano **le persone con disabilità e le loro famiglie.
 
 Accenniamo qui alcune conclusioni, partendo proprio dal rilievo finale sul fatto che il **Programma di Azione biennale per la promozione dei diritti e l’integrazione delle persone con disabilità** (Decreto del Presidente della repubblica del 12 ottobre 2017) è un atto che «**nemmeno in questa Legge di Bilancio viene mai richiamato**».

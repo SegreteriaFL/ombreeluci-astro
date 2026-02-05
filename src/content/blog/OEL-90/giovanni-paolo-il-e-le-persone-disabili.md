@@ -4,8 +4,8 @@ date: 2005-06-17
 author: Redazione
 slug: giovanni-paolo-il-e-le-persone-disabili
 lang: it
-numero_rivista: 90
-id_numero: OEL-90
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-90"
 issue_number: OEL-90
 wp_id: 30985
 original_url: "https://www.ombreeluci.it/?p=30985"
@@ -17,7 +17,6 @@ umap_x: 9.07201099395752
 umap_y: 10.455501556396484
 umap_z: 8.850239753723145
 ---
-
 **La qualità di vita**
 all’interno di una comunità si misura in buona parte dall'impegno nell’assistenza ai più deboli e ai più bisognosi e nel rispetto della loro dignità di uomini e di donne (...) Soltanto se vengono riconosciuti i diritti dei più deboli una società può dire di essere fondata sul diritto e sulla giustizia (...)
 **Al riconoscimento dei diritti deve pertanto seguire un impegno sincero**

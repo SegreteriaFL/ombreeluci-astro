@@ -11,8 +11,9 @@ tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Fra le molte novità introdotte dalla cosiddetta *“Riforma Madia”* sulla pubblica amministrazione ci sono anche alcune misure che riguardano l’occupazione delle persone con disabilità. L’intento è quello di favorirne sia l’effettiva assunzione nella pubblica amministrazione, rispettando quindi in modo più puntuale la vigente normativa sul collocamento mirato, sia di migliorare la qualità dell’inclusione dei lavoratori con disabilità.
 
 Oltre all’adozione di criteri e strumenti di monitoraggio e della previsione di un responsabile dei processi di inserimento delle persone con disabilità presso le amministrazioni pubbliche con più di 200 dipendenti, la riforma (decreto legislativo 25 maggio 2017, n. 75, art. 10) prevede espressamente la costituzione della *Consulta nazionale per l’integrazione in ambiente di lavoro delle persone con disabilità.*

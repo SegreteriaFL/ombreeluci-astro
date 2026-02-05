@@ -12,8 +12,9 @@ umap_x: 9.510188102722168
 umap_y: 8.031220436096191
 umap_z: 2.531101942062378
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Lagiuria dell’ottantesima Mostra del Cinema di Venezia ha trovato parecchi temi di urgente attualità nelle opere in concorso da valutare. Poche contestazioni sul Leone d’oro a *Povere Creature!* Di Yorgos Lanthimos, generalmente apprezzato, mentre qualche malumore in più hanno suscitato le Coppe Volpi agli attori (Cailee Spaeny in Priscilla e Peter Sarsgaard in Memory. La scelta più forte della giuria guidata dal regista Damien Chazelle è l’aver voluto tra i premiati, entrambi i film sul tema delle migrazioni: i due film, proiettati a distanza di un giorno l’uno dall’altro e tematicamente simili, sono apparsi da subito molto diversi.
 
 ### Un confine mai raccontato: *Zielona granica* di Holland

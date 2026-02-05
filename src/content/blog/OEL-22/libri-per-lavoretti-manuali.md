@@ -12,7 +12,8 @@ umap_x: 8.36031436920166
 umap_y: 10.149592399597168
 umap_z: 6.223758697509766
 issue_number: OEL-22
-id_numero: OEL-22
+id_numero: "OEL-22"
+numero_rivista: "Ombre e Luci"
 ---
 ### Collana «Lavoriamo insieme»
 

@@ -12,7 +12,8 @@ umap_x: 7.447021007537842
 umap_y: 8.04622745513916
 umap_z: 9.336472511291504
 issue_number: OEL-153
-id_numero: OEL-153
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
 Nel 1979 vivevamo a Milano nel rione della parrocchia San Giuseppe della Pace. La famiglia a quell’epoca era composta da me, mia moglie Irma e nostro figlio Paolo, un ragazzo con sindrome di Down di 16 anni. Uscendo dalla messa ci si avvicinò una signora, Giovanna Carozzi, che ci chiese se conoscevamo il movimento di [Fede e Luce](http://fedeeluce.it) . Ci raccontò in poche parole cosa faceva quel gruppo. Per noi fu un segno della Provvidenza: a Fede e Luce, genitori, figli e amici si sentono davvero tutti uguali scambiandosi le loro esperienze e sostenendosi a vicenda in una strada, difficile ma tanto entusiasmante, da percorrere insieme.
 

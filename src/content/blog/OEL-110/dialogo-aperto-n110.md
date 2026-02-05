@@ -12,7 +12,8 @@ umap_x: 4.917766571044922
 umap_y: 7.646915435791016
 umap_z: 11.03883171081543
 issue_number: OEL-110
-id_numero: OEL-110
+id_numero: "OEL-110"
+numero_rivista: "Ombre e Luci"
 ---
 ### Passaggio-Pasqua in Cina
 

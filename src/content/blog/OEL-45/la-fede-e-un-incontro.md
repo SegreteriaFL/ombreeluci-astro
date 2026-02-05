@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-45
-id_numero: OEL-45
+id_numero: "OEL-45"
+numero_rivista: "Ombre e Luci"
 ---
 1942: Una granata scoppia fra le mani di Jacques Lebreton, 20 anni soldato nel deserto della Libia.
 D'ora in poi dovrà far fronte a un'esistenza senza occhi e senza mani. Dopo una vita di impegno, di lavoro professionale e di lotta spirituale oggi, con la maturità dovuta agli anni, egli ci descrive le tappe della presa di coscienza del suo handicap.

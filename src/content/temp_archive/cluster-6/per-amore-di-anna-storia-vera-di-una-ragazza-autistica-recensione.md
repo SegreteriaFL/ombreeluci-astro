@@ -7,6 +7,7 @@ cluster_id: 6
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-15.webp"
 slug: "per-amore-di-anna-storia-vera-di-una-ragazza-autistica-recensione"
 has_comments: false
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -12,7 +12,8 @@ umap_x: 8.915116310119629
 umap_y: 8.28643798828125
 umap_z: 3.154243230819702
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 Nato in Unione Sovietica, per inseguire il sogno di diventare regista Kirill Mikhanovsky si è trasferito negli Stati Uniti, a Milwaukee, mantenendosi attraverso vari lavori, tra cui l’autista di un pulmino per persone con disabilità. Questa duplice esperienza di vita e di lavoro è confluita nel film *Give Me Liberty* (2019). Il protagonista è infatti un giovane autista di origine russa che durante il turno in cui deve trasportare alcune persone con difficoltà motorie attraverso una città quasi bloccata, si trova costretto a stipare nel suo pulmino un nutrito e rumoroso gruppo di anziani russi bisognosi di un passaggio.
 

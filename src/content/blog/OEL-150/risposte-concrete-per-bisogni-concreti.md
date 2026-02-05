@@ -12,7 +12,8 @@ umap_x: 7.998165607452393
 umap_y: 8.601984977722168
 umap_z: 10.318400382995605
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 Questa è la storia di don Giacomo Panizza, prete operaio oggi settantatreenne che nel 1976 decide di lasciare la Lombardia per trasferirsi in Calabria, senza tornare mai più indietro. «Mi trovavo in visita – racconta con leggero accento bresciano – alla comunità di Capodarco nelle Marche, stavo realizzando una tesina su catechesi e disabilità e mi imbattei in sacerdoti e scout che speravano nella possibilità di accogliere, appunto nella comunità marchigiana, alcuni calabresi in carrozzina abbandonati a se stessi. A quel punto mi son detto: “Perché spostarli? Facciamo qualcosa in Calabria coi calabresi”; e così, neanche trentenne e quasi per caso, sono arrivato nel profondo sud».
 

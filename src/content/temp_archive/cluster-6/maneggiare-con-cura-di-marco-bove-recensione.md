@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "maneggiare-con-cura-di-marco-bove-recensione"
 has_comments: false
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

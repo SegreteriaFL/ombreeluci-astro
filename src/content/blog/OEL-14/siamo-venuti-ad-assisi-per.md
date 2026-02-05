@@ -14,7 +14,8 @@ umap_x: 9.45579719543457
 umap_y: 8.626925468444824
 umap_z: 12.119878768920898
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 ### Per capire San Francesco
 

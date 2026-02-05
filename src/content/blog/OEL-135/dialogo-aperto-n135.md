@@ -12,7 +12,8 @@ umap_x: 8.814725875854492
 umap_y: 9.525240898132324
 umap_z: 10.833990097045898
 issue_number: OEL-135
-id_numero: OEL-135
+id_numero: "OEL-135"
+numero_rivista: "Ombre e Luci"
 ---
 ### Che cos’è il Giubileo?
 

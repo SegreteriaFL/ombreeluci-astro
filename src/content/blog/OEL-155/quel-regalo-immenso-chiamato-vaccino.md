@@ -12,7 +12,8 @@ umap_x: 5.718956470489502
 umap_y: 8.912802696228027
 umap_z: 7.413722991943359
 issue_number: OEL-155
-id_numero: OEL-155
+id_numero: "OEL-155"
+numero_rivista: "Ombre e Luci"
 ---
 *Ho 16 anni, una rara sindrome genetica, una montagna di riccioli castani e un paio di occhi dolcissimi. Non uso il linguaggio verbale, la scienza mi qualifica come minore disabile gravissimo, ma ho un’immensa capacità di amare e di sorridere agli altri. **Il covid ha stravolto la mia vita, togliendomi il dono più grande che ho: la socialità.** Da un giorno all’altro, mi sono ritrovato in casa isolato dal mondo, circondato solo dai miei cari. Non sono più andato a scuola, non ho più nuotato in piscina, non ho più visto i miei cavallini, non ho più fatto musicoterapia. Il mio unico contatto con l’esterno è diventato uno schermo del pc in cui comparivano, come per magia, i visi delle maestre, dei terapisti, degli zii, dei nonni e meravigliosi concerti di musica classica. In casa ho avvertito una strana sensazione di costante paura e di tensione. Quando uscivo in strada vedevo tutti i visi coperti da strane mascherine e la mia mamma mi tirava sempre a sé quando tentavo di avvicinarmi a con qualcuno. Pure molto più tardi, quando ho ricominciato lentamente a rivedere la mia tata, i nonni che abitano a Napoli, gli assistenti che sono miei amici e poi le maestre e i compagni di classe, i terapisti, erano tutti bardati e **non ho potuto più ricevere un bacio, non ho potuto più sedermi in braccio e farmi fare le coccole.** Solo la mia mamma ha cercato di colmare questo immenso vuoto.* (Riccardo De Micco)
 

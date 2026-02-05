@@ -12,7 +12,8 @@ umap_x: 4.692171096801758
 umap_y: 7.145778656005859
 umap_z: 10.305787086486816
 issue_number: OEL-162
-id_numero: OEL-162
+id_numero: "OEL-162"
+numero_rivista: "Ombre e Luci"
 ---
 # Un sentiero lungo quarant'anni
 

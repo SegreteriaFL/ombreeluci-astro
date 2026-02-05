@@ -1,15 +1,35 @@
 ---
 id: "OEL-35"
-title: "Numero 35 - Ascoltiamo i “genitori”"
+title: "Numero 35 – Ascoltiamo i “genitori”"
 tipo: "ombre-e-luci"
 numero: 35
-anno: "1991"
+sort_order: 134
+pubDate: "1991-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 1991"
 sommario: "Numero 35 – Ascoltiamo i “genitori” ultima modifica: 1991-09-22T09:10:43+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_35_1991.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN.35"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-35-ascoltiamo-i-genitori/"
+articoli:
+  - "il-momento-di-capire"
+  - "che-vita-e-la-nostra-sei-mamme-si-raccontano"
+  - "anche-noi-siamo-persone"
+  - "al-primo-posto"
+  - "la-voce-dei-genitori"
+  - "dialogo-aperto-n-35"
+  - "imparo-a-vestirmi-da-solo"
+  - "strategie-educative-nellautismo"
+  - "storie-vere-di-bambini-autistici"
+  - "il-momento-di-capire"
+  - "che-vita-e-la-nostra-sei-mamme-si-raccontano"
+  - "al-primo-posto"
+  - "anche-noi-siamo-persone"
+  - "la-voce-dei-genitori"
+  - "storie-vere-di-bambini-autistici"
+  - "strategie-educative-nellautismo"
+  - "dialogo-aperto-n-35"
+  - "imparo-a-vestirmi-da-solo"
 ---
 
 ## Indice

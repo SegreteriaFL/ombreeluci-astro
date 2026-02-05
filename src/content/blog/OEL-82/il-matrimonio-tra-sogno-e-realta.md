@@ -6,8 +6,8 @@ theme: "cluster-1"
 cluster_id: 1
 slug: "il-matrimonio-tra-sogno-e-realta"
 lang: it
-numero_rivista: 82
-id_numero: OEL-82
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-82"
 issue_number: OEL-82
 wp_id: 26804
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 ---
-
 Passeggiano nel cortile del Centro, mano nella mano. Sembrano molto felici, come se non temessero niente al mondo. Pascal e Nathalie si conoscono da tanto tempo: si amano e sperano, un giorno, di vivere in coppia, di potersi sposare, forse. Ma nello stesso tempo questo pensiero fa loro un po’ paura. Nathalie mi confida: "Quando vedo Francoise (un’amica del Centro) lei sta male con i suoi due bambini, piange spesso, è sgridata...
 Io non credo che saprei occuparmi di un bambino.** Non avrei il coraggio di tenerlo per tanto tempo tra le braccia. Se poi cade... Ci sarebbero altre persone ad occuparsene. E questo non va bene... Pascal, lui sì potrebbe occuparsene perché sa fare un mucchio di cose. Sì, ma quando lavorerà sarà troppo stanco".
 

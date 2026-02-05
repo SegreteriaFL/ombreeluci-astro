@@ -11,8 +11,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 F
 estival dei Diritti Umani –**Avanzando qualche riserva, Cristina Tersigni [ci racconta](https://www.ombreeluci.it/2020/festival-diritti-umani/) il festival dei Diritti Umani edizione 2020 (Da vicino nessuno è disabile) appena conclusosi a Milano, e trasmesso rigorosamente on-line. Quattro giorni che hanno brillato soprattutto per la selezione di foto, corti e documentari (Claudio Cinus ce ne racconta due: *[When We Walk](https://www.ombreeluci.it/2020/raccontare-la-malattia-in-presa-diretta/)* e *[À l’école des Philosophes](https://www.ombreeluci.it/2020/lumanita-delle-persone/)*). Si poteva fare meglio, ma è comunque un primo passo per un Paese come l’Italia che – lo ha sottolineato Luigi Manconi – sembra avere una “ostinatissima arretratezza nel senso civile” nei confronti delle persone con disabilità.
 Pranzi di pianerottolo –**Emanuela il mercoledì sera tira fuori le patate e la farina: il giorno dopo sua madre non deve dimenticare di preparare gli gnocchi. Per loro e per i dentisti amici di pianerottolo. Anche ora, tra guanti e mascherine. “Senza assistenza domiciliare e centro diurno per restare al riparo dall’epidemia di coronavirus, cucino ben più del solito”, [racconta Nunzia Giancola](https://www.ombreeluci.it/2020/giovedi-gnocchi/) (dandoci qualche suggerimento, anche se sarà dura senza Emanuela a farci da promemoria).

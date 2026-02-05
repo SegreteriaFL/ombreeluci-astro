@@ -14,7 +14,8 @@ umap_x: 8.990838050842285
 umap_y: 9.305826187133789
 umap_z: 6.321015357971191
 issue_number: OEL-125
-id_numero: OEL-125
+id_numero: "OEL-125"
+numero_rivista: "Ombre e Luci"
 ---
 ### Preparazione del gioco
 

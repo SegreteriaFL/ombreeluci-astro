@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-167
-id_numero: OEL-167
+id_numero: "OEL-167"
+numero_rivista: "Ombre e Luci"
 ---
 «Il mio 25 aprile, la mia liberazione, è il 13 maggio. Quel giorno, nel 1978, fu approvata la legge 180. Basaglia è il mio liberatore». Il trentasettenne Niccolò Scarnato è sul palco del festival *Aut Art* al Teatro degli Eroi di Roma con le braccia legate da una camicia di forza, **quella che immagina lo avrebbe contenuto se fosse nato decenni fa, considerato il suo autismo.** Nel film *E tu Slegalo*, realizzato per ricordare Franco Basaglia e la sua impresa rivoluzionaria che presentiamo nel focus (in occasione del centenario dalla nascita del medico veneziano), un’infermiera mostra le piccole camicie utilizzate per contenere quei cosiddetti bambini irrequieti»: Niccolò, e tanti altri in sala come lui, avrebbero davvero potuto essere quei bimbi. Il festival, promosso dall’associazione *Siamo delfini* di cui ci scrive Monica Leggeri, ha come scopo raccontare e raccontarsi, per conoscere l’autismo. Conoscere… Scarnato continua il suo monologo raccontando come sia ancora prigioniero di tanti pregiudizi su chi come lui vive nella condizione autistica ed evoca lo spettro di nuove contenzioni e separazioni.
 

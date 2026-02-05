@@ -12,7 +12,8 @@ umap_x: 7.688650131225586
 umap_y: 1.4718616008758545
 umap_z: 9.31323528289795
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 Scrivere Shakespeare ci impiego tutto il giorno. E sbaglio. Ma come si è fatto chiamare questo qui? Io mi chiamo Benedetta! È facile scrivere Benedetta. Questo qui invece non si sa come scrivere e poi quando lo leggi devi dire un altro nome. Non ho capito ancora perché. Però la professoressa mi ha detto che ora che sto a casa devo fare una ricerca su questo qui. È pure morto da tantissimo. Io ho imparato a dire «O Romeo, Romeo perché sei tu Romeo?». Ma non ho capito manco chi è Romeo. Però lo devo fare perché voglio un bel voto a scuola. Romeo era innamorato di Giulietta. E io sono innamorata di Elia. Ma mica mi metto a dire «O Elia, Elia, perché sei tu Elia?». Io dico: «Elia, a bello, ti amo!». Ma quando dico «O Romeo, Romeo perché sei tu Romeo?» metto la mano avanti come gli attori quando vado al teatro. Questo qui che non so scrivere il nome era inglese. Conosceva il re. Scriveva tante cose. Poi ho fatto pure la ricerca sul teatro della commedia dell’arte. Io so che gli attori stavano per strada e non leggevano ma improvvisavano. E c’erano pure le donne. Si mettevano le maschere come a carnevale.
 

@@ -12,7 +12,8 @@ umap_x: 7.499619007110596
 umap_y: 11.29548454284668
 umap_z: 4.633026599884033
 issue_number: OEL-153
-id_numero: OEL-153
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
 Noel ama gli AC/DC, la chitarra, arrostire (bruciandoli) i marshmallows e la sua mamma, con cui vive a Berlino. Un giorno però irrompe la tragedia e così, improvvisamente, tutto muta nella vita del ragazzino. Un signore con la barba lo porta in una struttura molto speciale: per Noel, che è estremamente abitudinario, il mondo intero cambia forma. L’arrivo a Neuerkerode, comunità evangelica nel nord della Germania, è l’inizio di un nuovo cammino: non più protetto dalle mura domestiche, Noel si ritrova a vivere insieme a operatori e altri giovani con disabilità di vario tipo. Affrontare il mondo esterno significa scontrarsi con delusioni d’amore, lutti, abbandoni, dolori di tanti tipi ed enormi difficoltà, ma per il ragazzino è anche l’occasione per nuovi confronti, risate, amicizie. E per provare a costruire una propria idea di felicità.
 

@@ -4,8 +4,8 @@ date: 1996-06-14
 author: Redazione
 slug: un-teatro-diverso
 lang: it
-numero_rivista: 54
-id_numero: OEL-54
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-54"
 issue_number: OEL-54
 wp_id: 10627
 original_url: "https://www.ombreeluci.it/?p=10627"
@@ -15,7 +15,6 @@ umap_x: 8.954133033752441
 umap_y: 7.756531715393066
 umap_z: 8.867746353149414
 ---
-
 Questa esperienza di teatro è molto diversa da quelle che siamo abituati ad attuare e vedere negli incontri dei nostri gruppi e associazioni, fatte alla buona per far festa ed esprimere sentimenti. Il linguaggio, le intenzioni e l'impegno sono diversi da quelli che ci sono abituali. Ma è interessante questa integrazione in un teatro professionale di persone disabili mentali che non sono «usate» in qualcosa che non capiscono, ma sono parte vera di questo spettacolo e di quel che vuole rappresentare. «Fare teatro con i portatori di handicap è un'esperienza bellissima: basta lasciarli agire, perché loro sanno muoversi con spontaneità sul palcoscenico in forza di un’estrema sensibilità». Così dice Enzo Toma, regista di «Vangelio». rappresentazione liberamente tratta dal «Vangelo secondo Matteo» di Pier Paolo Pasolini, e portata in scena dal «Teatro Kismet Opera», una formazione mista composta di attori portatori di handicap e di attori professionisti.
 
 «L’incontro artistico» — come lo definisce lo stesso regista — di Enzo Toma con i portatori di handicap, risale a circa dieci anni fa, anche se la collaborazione con l’associazione barese A.R.C.Ha. (associazione ricreativa culturale handicappati) ha preso il via solo da sei anni. «L’Archa, cercava dei volontari che avviassero con i suoi ragazzi un progetto di laboratorio teatrale» prosegue Toma «ed io, che avevo già avuto modo di lavorare con persone handicappate, ho accolto l’idea ben volentieri. Conoscevo, infatti, la capacità espressiva in campo teatrale dei portatori di handicap, le grandi possibilità di queste sensibilità «altre»; quella che mi offriva l’Archa è stata dunque solo l’occasione per compiere un progetto nel quale già credevo e che avevo già potuto sperimentare».

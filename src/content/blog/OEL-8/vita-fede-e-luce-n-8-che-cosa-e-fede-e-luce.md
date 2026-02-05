@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-8
+id_numero: "OEL-8"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Che cosa è «Fede e Luce»?
 
 In ogni numero di questa rivista qualche pagina è dedicata al movimento [*Fede e Luce*](http://www.ombreeluci.it/fede-e-luce/). Per i lettori che non lo conoscono descriviamo le idee essenziali e l’attività di *Fede e Luce*

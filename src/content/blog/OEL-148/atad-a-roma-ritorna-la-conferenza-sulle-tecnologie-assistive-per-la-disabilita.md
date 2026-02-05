@@ -12,8 +12,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 La **Seconda Conferenza Internazionale sullo studio delle Tecnologie Assistive per persone con disabilità intellettive e multiple** si svolgerà per tre giorni nella cornice suggestiva di Roma.
 
 La tecnologia ha un ruolo predominante nella vita quotidiana. Questa è ampiamente applicata in ambito della disabilità, racchiudendo quelle che vengono definite le tecnologie assistive, ovvero un insieme di tutte le innovazioni, gli ausili e i sussidi finalizzate a favorire l'autonomia delle persone con disabilità plurime.

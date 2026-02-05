@@ -12,7 +12,8 @@ umap_x: 7.607565402984619
 umap_y: 9.277531623840332
 umap_z: 13.670442581176758
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 «Due settimane fa (primi di aprile, ndr) ho chiamato la mia amica Valentina della comunità di Santa Silvia di Roma per chiedere come stavano nella mia amatissima Italia. Ero al mercato per la spesa settimanale e per un po’ di scorte, perché non si sa mai. L’indomani doveva esserci la nostra casetta. “Niente casette, state tutti a casa - mi ha detto Valentina perentoria - prima vi abituate all’idea, meglio è”. Ho scrollato le spalle e ho pensato: “Ma non esageriamo!”. Quando sono tornata a casa ho scoperto che avevano chiuso le scuole e anche il Centro dove si svolgono le nostre casette. Ora, eccoci qua, a casa, a incontrarci ogni sera alle 8 su Zoom, per raccontarci come ce la passiamo, assistere all’arrivo delle candeline sulla torta e cantare “tanti auguri” (ma riesce malissimo!)».
 

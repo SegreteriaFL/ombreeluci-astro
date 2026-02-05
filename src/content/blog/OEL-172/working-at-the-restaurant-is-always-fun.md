@@ -12,8 +12,9 @@ umap_x: 7.823723793029785
 umap_y: 1.152690052986145
 umap_z: 9.536188125610352
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ilike working as a waitress and doing other things at the restaurant. But when I’m on holiday in Castiglione della Pescaia, I’m really on holiday. **Still, sometimes I’m very happy to help my friends at the seaside restaurants.** But here’s the important part: I absolutely don’t want to be paid. I do it because I’m a friend, and because it feels like an internship. With no money involved.
 
 I wash the glasses and put them away. Then I set up the cutlery—the fork and the knife—inside the napkin, so everything is ready for the table to be set properly. I really enjoy doing it and have fun. At home too, I wash the dishes, glasses, and cutlery. Even the pots. Then I dry them and put them back in place. Where I work, at “Merè” in Rome, there’s also a dishwasher because there are so many things to wash. At home, it’s just a few.

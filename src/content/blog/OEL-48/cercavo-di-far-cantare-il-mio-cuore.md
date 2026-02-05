@@ -14,8 +14,9 @@ umap_x: 5.431762218475342
 umap_y: 9.135371208190918
 umap_z: 7.656098365783691
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 S
 pesso l’intellettuale è particolarmente vulnerabile di fronte alla minorazione che colpisce il figlio nella mente. Emanuel Mounier, filosofo e pensatore cristiano, uno dei maggiori intellettuali francesi tra gli anni Trenta e Sessanta, ebbe la figlia di pochi mesi colpita da una encefalite che la lasciò tale che «bisogna trattenersi disperatamente per non chiedere a Dio di riprenderla». La moglie Paulette, che ringraziamo, ha permesso di riprodurre alcuni passi di lettere del marito (pubblicate in «Mounier e la sua generazione», Seuil 1956) che parlano della loro prova, ma anche della loro profonda fede e speranza.
 **1938 - 7 MAGGIO**

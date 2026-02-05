@@ -16,7 +16,8 @@ umap_x: 7.831531524658203
 umap_y: 8.489227294921875
 umap_z: 8.06621265411377
 issue_number: OEL-139
-id_numero: OEL-139
+id_numero: "OEL-139"
+numero_rivista: "Ombre e Luci"
 ---
 Gira in rete da qualche mese il [video di un antropologo statunitense, Simon Sinek](https://youtu.be/hER0Qp6QJNU) , che credo in tanti avranno visto. In poco più di quindici minuti sottolinea **alcune delle fragilità più evidenti della generazione tra i 18 e i 34 anni, detta dei *millenials* ,** spesso etichettata come pigra, ripiegata su di sé, vanitosa, iperconnessa. Quelli che la compongono, sono descritti da Sinek come giovani ai quali durante la crescita non è stato permesso di affrontare frustrazioni, incapaci di intessere relazioni sociali stabili e significative, impazienti, desiderosi di lasciare il segno nell’ambiente in cui vivono, che cercano e ottengono gratificazioni, immediate grazie alle moderne tecnologie.
 

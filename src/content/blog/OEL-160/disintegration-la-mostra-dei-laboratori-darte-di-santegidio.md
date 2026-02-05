@@ -12,8 +12,9 @@ umap_x: 8.979501724243164
 umap_y: 7.806509494781494
 umap_z: 8.076817512512207
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Energia sincera» quella sprigionata dalle opere dei Laboratori d’arte della comunità di Sant’Egidio, secondo il commento di Paolo Virzì alla presentazione ufficiale della mostra DIS Integration. Un’energia che, secondo il regista toscano, «proviene dal profondo del mistero dell’umano»: da «collega» - quale si sente rispetto agli artisti **le cui opere sono esposte presso l’Aula Magna dell’Università Roma Tre fino al 16 dicembre** - ha saputo pienamente cogliere la necessità di un incontro con un’espressione artistica dallo sguardo diverso, motivo e frutto di quei laboratori.
 
 Nei Laboratori d’Arte di Sant’Egidio le opere nascono attraverso un percorso particolare: **si scelgono dei temi sociali e politici di attualità e impatto sulla vita di ciascuno (le migrazioni, la guerra, le discriminazioni, l’accoglienza, l’integrazione, le disuguaglianze…). Su quei temi si legge e si discute insieme.** I laboratori, una decina a Roma, sono frequentati da persone con disabilità (gli *amici* di Sant’Egidio) e volontari della comunità, una volta a settimana. Nei locali in cui si svolgono, spesso si propongono anche altri tipi di attività come la preparazione dei pasti per le persone senza fissa dimora, oppure laboratori musicali. Il collettivo artistico, dopo aver maturato una riflessione e una consapevolezza nuova su quei temi, si impegna sulla realizzazione di un’opera che li rappresenti affinché lascino emergere emozioni e pensieri nello spettatore. Gli artisti, individualmente e collettivamente, utilizzano tecniche che si confanno ciascuno alle proprie possibilità; tecniche molto creative e moderne, che permettono di esprimere un pezzo di quell’infinito mistero.

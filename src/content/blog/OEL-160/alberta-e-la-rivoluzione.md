@@ -12,7 +12,8 @@ umap_x: 6.642542839050293
 umap_y: 8.530938148498535
 umap_z: 7.657464504241943
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 Questa è una storia che racchiude tante altre storie. È una storia di amicizia, di bullismo, di disabilità e di normalità (o di disabilità che può essere normalità), di scuola che accoglie, di madri che sanno ascoltare e di madri impermeabili, di donne che immaginano. E che trovano soluzioni.
 

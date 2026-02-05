@@ -14,7 +14,8 @@ umap_x: 8.019478797912598
 umap_y: 6.433624267578125
 umap_z: 11.281846046447754
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Io l’estate l’ho passata dal 7 al 21 agosto a Nettuno, dove ho fatto le passeggiate, in riva al mare e al Borgo.Io conosco il luogo, perché è da 4-5 anni che ci vado, a Pasqua e a Natale, per passare le ferie. Io sono in attesa trepidante perché voglio fare un campo alla Bicoca, ho dei pensieri: riuscirò a mangiare? Io mangio da un lato, ci sarà posto?
 

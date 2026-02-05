@@ -1,15 +1,35 @@
 ---
 id: "OEL-70"
-title: "Numero 70 - Quando la natura fa rivivere"
+title: "Numero 70 – Quando la natura fa rivivere"
 tipo: "ombre-e-luci"
 numero: 70
-anno: "2000"
+sort_order: 169
+pubDate: "2000-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 2000"
 sommario: "Un numero 'ecologico', tutto dedicato alla natura, alle piante, agli animali e al nostro pianeta terra: quante volte ci dimentichiamo di quanto è importante per noi e per la nostra salute fisica e mentale."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_70_2000.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_70"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-70-quando-la-natura-fa-rivivere/"
+articoli:
+  - "quando-la-natura-da-rivivere"
+  - "la-asl-va-in-montagna"
+  - "pronto-soccorso-in-una-bottiglietta"
+  - "cascina-rossago-un-bel-progetto-di-struttura-per-ragazzi-autistici"
+  - "centro-di-riabilitazione-il-testardo-pet-therapy"
+  - "dal-prato-alla-parete"
+  - "il-profumo-della-menta"
+  - "la-citta-di-leonia"
+  - "la-nostra-parte"
+  - "visto-con-il-cuore"
+  - "dialogo-aperto-n-70"
+  - "stramonio-recensione-libro"
+  - "un-angelo-canta-blu-la-vera-storia-di-cecilia-recensione"
+  - "pappagalli-verdi-cronache-di-un-chirurgo-di-guerra-recensione"
+  - "itinerari-guida-annuario-accoglienza-cattolica-italia-2000-recensione"
+  - "due-videocassette-utili-per-incontri-di-riflessione-e-di-preghiera"
+  - "la-logica-dellutopia-quando-nacque-la-comunita-di-capodarco-recensione"
+  - "cosicomesei-diario-di-bordo-di-un-neuropsichiatra-infantile-recensione"
 ---
 
 ## Indice

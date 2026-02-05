@@ -11,8 +11,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-40
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### I. Animare una messa è renderla viva...
 
 Come rendere viva una celebrazione dove chi agisce per primo è Dio stesso? Ecco ciò che dicono, a volte, dei cristiani che ci ricordano che una messa è una messa, che non è necessario fare un sacco di cose per darle vita perché, al contrario, è proprio il Signore che ci dà vita. E vero: la messa è innanzitutto azione di Dio ma è anche azione di uomini e donne che vivono in un tempo e in uno spazio ben determinati. La celebrazione eucaristica, come ogni celebrazione, è una festa. E come tale, deve rispondere a certe esigenze e a certe condizioni.

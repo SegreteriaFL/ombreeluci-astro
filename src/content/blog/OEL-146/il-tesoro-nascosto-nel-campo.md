@@ -12,7 +12,8 @@ umap_x: 8.337843894958496
 umap_y: 12.132424354553223
 umap_z: 10.783135414123535
 issue_number: OEL-146
-id_numero: OEL-146
+id_numero: "OEL-146"
+numero_rivista: "Ombre e Luci"
 ---
 Qualche mese fa sembrava che Armando fosse per l’ennesima volta in punto di morte: non sapendo cosa fosse meglio per lui, Marco, il suo tutore, decise di sentire Jean. E Jean non ebbe dubbi: Marco doveva considerare la vita di Armando non secondo i suoi parametri, ma secondo quelli di Armando. E per lui anche qualche ora di vita in più tra la sua comunità poteva avere un grande significato. Armando è ancora al *Chicco* , che lo accoglie ormai da 33 anni, lui che di anni ne ha 38.
 

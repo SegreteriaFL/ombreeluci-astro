@@ -14,8 +14,9 @@ umap_x: 6.37488317489624
 umap_y: 7.586991786956787
 umap_z: 9.573463439941406
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 Lo straniero Facile da pronunciare e difficile da accettare, facile da dire, difficile da vivere. Sulla terra, da millenni, ancora sospettiamo lo straniero.
 
 **Lo straniero** **Non è sempre** **chi viene da lontano.** Purtroppo, le sue attitudini ci alterano le abitudini. Il colore della pelle, una diversa educazione, hanno il dono di spaventarci, fa venire i brividi.

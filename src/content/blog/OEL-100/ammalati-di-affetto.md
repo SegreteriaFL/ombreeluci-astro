@@ -4,8 +4,8 @@ date: 2007-12-10
 author: Redazione
 slug: ammalati-di-affetto
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32856
 original_url: "https://www.ombreeluci.it/?p=32856"
@@ -15,7 +15,6 @@ umap_x: 5.651298999786377
 umap_y: 9.0809326171875
 umap_z: 11.532142639160156
 ---
-
 O
 ggi sono andato dal parrucchiere. C'era Giorgio, il ragazzo di bottega, si diceva un tempo. Come sempre mi ha salutato con affetto, mi ha fatto una delle sue dichiarazioni da esperto di calcio, o meglio, da esperto della Roma. Giorgio è affetto da sindrome di Down. Io non so perché si dica “affetto da sindrome di Down”. Affezione significa malattia e sindrome, concorso di sintomi che caratterizzano una malattia. Ma Giorgio non si è ammalato, non si può curare, non può guarire. E inutile cercare una eziopatogenesi. Di lui ci si può solo prendere cura perché ha una mancanza: Giorgio è nato con un difetto congenito, è nato così. Va solo amato come si devono amare tutti gli esseri umani nati da donna.
 **Ombre e Luci, due belle parole**

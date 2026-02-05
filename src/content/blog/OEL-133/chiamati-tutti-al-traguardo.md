@@ -12,7 +12,8 @@ umap_x: 7.365598201751709
 umap_y: 8.787834167480469
 umap_z: 7.844096660614014
 issue_number: OEL-133
-id_numero: OEL-133
+id_numero: "OEL-133"
+numero_rivista: "Ombre e Luci"
 ---
 Anni fa un libro intitolato [*Chi sarei se potessi essere*](https://www.ombreeluci.it/2002/un-libro-interessante-adolescenza-ragazzi-disabili-chi-sarei-se-potessi-esserebozza-automatica/) (OL n.77/2002) offriva riflessioni importanti su come la disabilità di un certo “Signor Down” divenga motivo per limitare le aspettative di un suo ruolo sociale attivo.
 

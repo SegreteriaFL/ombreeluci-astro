@@ -12,7 +12,8 @@ umap_x: 4.419400215148926
 umap_y: 8.010281562805176
 umap_z: 10.348350524902344
 issue_number: OEL-49
-id_numero: OEL-49
+id_numero: "OEL-49"
+numero_rivista: "Ombre e Luci"
 ---
 ### Delusione ed esperienze positive
 

@@ -7,6 +7,7 @@ cluster_id: 12
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/cover-insieme-n-1.webp"
 slug: "esperienze-un-week-end-fuori-dallordinario"
 has_comments: false
+id_numero: "INS-9"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

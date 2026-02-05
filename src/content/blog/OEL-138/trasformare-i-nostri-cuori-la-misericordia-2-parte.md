@@ -12,7 +12,8 @@ umap_x: 8.360074996948242
 umap_y: 11.975556373596191
 umap_z: 10.819913864135742
 issue_number: OEL-138
-id_numero: OEL-138
+id_numero: "OEL-138"
+numero_rivista: "Ombre e Luci"
 ---
 [*- Vai alla prima parte*](https://www.ombreeluci.it/2016/la-misericordia/)
 

@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "la-missione-del-sacerdote-nella-comunita-fede-e-luce"
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26332
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 ---
-
 “Lo Spirito del Signore è su di me; per questo mi ha consacrato con l’unzione e mi ha mandato a portare il lieto annunzio ai miseri, a fasciare le piaghe dei cuori spezzati, promulgare l’anno di misericordia, a consolare tutti gli affitti”. Applicando a sé le parole del profeta Isaia, Gesù si è presentato come l’inviato del Padre, venuto a porsi accanto a chi soffre ed è nel dolore.
 
 Mi piace pensare la missione del sacerdote che condivide il cammino della comunità Fede e Luce come un prolungamento della missione di Gesù nel nostro tempo, come un ministero della consolazione.

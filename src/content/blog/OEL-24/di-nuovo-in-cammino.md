@@ -12,7 +12,8 @@ umap_x: 6.441958904266357
 umap_y: 7.417383193969727
 umap_z: 11.985135078430176
 issue_number: OEL-24
-id_numero: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
 Questo numero speciale di "Insieme", che avevamo preparato perché uscisse prima del dovuto, si è fatto attendere parecchio. Ci scusiamo con voi tutti, amici vecchi e nuovi, e vi preghiamo di credere che la causa di questo ritardo è stata solo tecnica: l'impossibilità di usare il ciclostile, finora messo a nostra disposizione, ci ha costretti prima a cercarne invano un altro, e poi a "trovare" i soldi per acquistare una macchina off-set. Il tutto ha richiesto più tempo del previsto.
 

@@ -12,7 +12,8 @@ umap_x: 8.980372428894043
 umap_y: 8.362363815307617
 umap_z: 3.0045700073242188
 issue_number: OEL-155
-id_numero: OEL-155
+id_numero: "OEL-155"
+numero_rivista: "Ombre e Luci"
 ---
 Arrivò nelle sale l’11 settembre 2002, il film ideato appositamente per commemorare la data fatidica di un anno prima, 11 settembre 2001: **composto da 11 cortometraggi della durata di 11 minuti 9 secondi e un fotogramma,** per i quali ogni regista selezionato potè lavorare in piena autonomia.
 

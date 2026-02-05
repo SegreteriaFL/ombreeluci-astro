@@ -4,8 +4,8 @@ date: 1997-06-12
 author: Redazione
 slug: dialogo-aperto-n58
 lang: it
-numero_rivista: 58
-id_numero: OEL-58
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-58"
 issue_number: OEL-58
 wp_id: 11526
 original_url: "https://www.ombreeluci.it/?p=11526"
@@ -15,7 +15,6 @@ umap_x: 5.00771951675415
 umap_y: 9.125018119812012
 umap_z: 9.566253662109375
 ---
-
 ### Appello ai genitori
 
 Sono la più piccola di tre fratelli. Roby, il più grande, ha 39 anni: è cerebroleso. La mia famiglia e la mia vita ha sempre girato intorno a Roby, anche se io lo capisco solo da poco tempo. Era normale uscire una domenica sì e una no per fare i turni con mia sorella per non lasciar soli i miei con Roby; era normale frequentare [Fede e Luce](http://www.ombreeluci.it) (così non ero sola con lui); è stato ovvio diventare operatrice per gli handicappati, è stato scontato cercare lavoro in una scuola per portatori di handicap. Oggi mi accorgo che il mio (anche il tuo) passato e futuro è stato gestito e ipotecato in modo egoistico dai nostri genitori. Io adoro Roby ( lui è un angelo che cerca solo persone sorridenti). Amo Roby, soffro maledettamente per lui per quello che non potrà mai conoscere, per quello che non potrà mai fare, per essere costretto a far scegliere agli altri come disporre dei suoi diritti ed è stata una scelta ingiusta quella fatta dai miei (dei tuoi) genitori di non pensare al futuro dei loro figli sani e non. I genitori quando scoprono di avere un bambino così particolare, prima si disperano, poi lo amano troppo e ipocritamente (senza cattiveria) pensano: «Vivrà felice fino a che io ci sarò, poi...» Ma poi cosa? Sono forse loro in grado di dire per quanto tempo potranno badare a lui? E un impegno che loro prendono in piena coscienza e che devono rispettare col nostro aiuto, ma l’impegno è il loro. Quando loro non sono più in grado di provvedere al bambino, ragazzo e poi uomo, il figlio sano provveder a loro e al ragazzo, poi solo al ragazzo, come se questo figlio-fratello fosse stato concepito con questo compito prestabilito. Il sano cresce ereditando ogni giorno che passa questo futuro dovere senza neanche osare ribellarsi perché ormai dovrebbe combattere contro se stesso e sa che perderebbe amore e voglia di vivere. Quando il sano comincia a vivere la sua vita? Quando le sue scelte saranno mirate prima al suo bene e poi alla famiglia? E quando il genitore muore all’improvviso, senza avere provveduto né a parole (perché è sempre stato sottinteso che ci avresti pensato tu), né a fatti (pensando a fare domande presso istituti, creando un fondo economico) al futuro del figlio malato e tu ti trovi a dover decidere che cosa fare? Vuoi non far soffrire Roby perché lui ormai conosce solo la vita domestica e nessun istituto (se esiste) ti sembra appena accettabile né idoneo ad evitare a Roby la tragedia del distacco da casa, da noi. Vuoi dedicarti ai tuoi figli, dando loro tutto il tuo tempo perché sai, per esperienza, che indietro non si torna e ogni attimo con loro è insostituibile. Tuo marito credeva di essere conscio quando ti ha sposata, di quanto la presenza di Roby sia importante per te e di quanto avrebbe inciso sulla vita in comune. Ma non fino a questo punto. Hai avuto la sensazione di un mattone sul cuore quando il giudice tutelare ha detto: Sei responsabile e insostituibile per lui; fai le scelte giuste». Come sarebbe stata la mia vita e quella di Roby e quella dei miei genitori (papà sarebbe morto meno angosciato?) se Roby fosse cresciuto presso una casa-famiglia, una istituzione? Probabilmente ora non subirebbe tanti traumi ed io non lancerei questo appello agli altri genitori.

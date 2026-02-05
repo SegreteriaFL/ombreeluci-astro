@@ -12,8 +12,9 @@ umap_x: 8.292084693908691
 umap_y: 5.870395183563232
 umap_z: 10.439708709716797
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Viricordate che in uno degli [scorsi post](https://www.ombreeluci.it/2023/la-mia-esperienza-con-il-taxi-sociale-a-roma/) vi ho parlato del taxi? Vi avevo accennato al fatto che ho preso anche il treno. È successo il 3 aprile ma ho deciso di raccontarvela adesso perché ho dovuto mettere in chiaro, come spiegavo l'altra volta, dei dettagli del servizio. Ho preso il treno con Trenitalia dalla stazione di Potenza centrale. Però prima di dirvi come è andato il viaggio vi spiego la procedura da fare, perché è ben diversa da una persona normodotata.
 
 **Per fare la prenotazione dell'assistenza treno bisogna andare sul sito che si può trovare on line o bisogna fare un numero.** In questo caso io non avendo il numero ho fatto tutto on line. Bisogna andare sul [sito della Sala Blu](https://www.rfi.it/it/stazioni/pagine-stazioni/accessibilita/sale-blu.html) o sull'app. Nella Sala Blu bisogna specificare il vagone, che tipo di disabilità si ha (se sei in sedia a rotelle o se sei non vedente) e poi chiedono se hai più bagagli. Inoltre va specificato l'orario di partenza dalla stazione dove prendi il treno e l'orario di arrivo. Questo perché la Sala Blu non si trova in tutte le stazioni (sul sito di Trenitalia c'è [l'elenco completo](https://www.rfi.it/it/stazioni/pagine-stazioni/accessibilita/sale-blu/le-16-sale-blu-rfi.html) ). Io l'ho preso da Potenza per venire a Roma, la prenotazione è richiesta per non far trovare impreparati quelli che fanno l'assistenza; loro si potrebbero rifiutare di prendere più bagagli, ad esempio. Dopo aver prenotato Trenitalia ti da **un numero di riferimento da chiamare per avvisare se fai ritardo** . Io quel giorno ho dovuto avvertire, infatti, che arrivavo 5 minuti in ritardo.

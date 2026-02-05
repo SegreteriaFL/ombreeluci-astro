@@ -1,15 +1,33 @@
 ---
 id: "OEL-71"
-title: "Numero 71 - Accostarsi alla verità"
+title: "Numero 71 – Accostarsi alla verità"
 tipo: "ombre-e-luci"
 numero: 71
-anno: "2000"
+sort_order: 170
+pubDate: "2000-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 2000"
 sommario: "Un numero tosto dedicato a un tema enorme: la verità, di fronte alla quale non possiamo che rimanere umili e abbassare il capo come dice Mariangela nell'editoriale, e continuare a interrogarci col cuore e con la razionalità, come suggerisce Jean Vanier. Accostarsi alla verità vuol dire fare i conti con se stessi, genitori e figli, ecco allora gli interventi sulla gestione della frustrazione nei confronti dei figli adolescenti e la paura per le scelte da fare dopo la scuola dell'obbligo. Chiudono le tante recensioni e una allegra carrellata di Vita Fede e Luce"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_71_2000.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_71"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-71-accostarsi-alla-verita/"
+articoli:
+  - "accostarsi-alla-verita"
+  - "mio-figlio-mi-esaspera"
+  - "dopo-la-scuola-dellobbligo-una-scelta-difficile"
+  - "prova-a-capire-quel-che-non-dico"
+  - "il-dono-di-un-volto"
+  - "per-cercare-la-verita"
+  - "le-a-della-vita-recensione-libro"
+  - "un-giorno-dopo-laltro-recensione-libro"
+  - "il-disabile-nella-societa-prospettive-di-integrazione-recensione-libro"
+  - "dialogo-aperto-numero-71"
+  - "la-rivincita-di-tommi"
+  - "la-prima-notte-al-campeggio"
+  - "gesu-basta-acqua"
+  - "a-galla-sulla-camera-daria"
+  - "si-chiude"
+  - "hallo-welcome-hej-hallozik"
 ---
 
 ## Indice

@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
 archive_id: OmbreELuciN004
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 periodo_label: Ottobre, Novembre, Dicembre
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 umap_x: 5.540702819824219
 umap_y: 10.27049446105957
 umap_z: 7.7006940841674805
+id_numero: "OEL-4"
 ---
-
 *Forse la nostra testimonianza potrà aiutare altri « nuovi » genitori, scoraggiati, delusi davanti alla culla del loro bambino.*
 **Un articolo per Ombre e Luci?**
 Sì, certo, dal momento che nostro figlio Saverio, di tre anni e mezzo, è un bambino con trisomia 21 e che il prossimo numero sarà dedicato a questo handicap... Sì, certamente... Ma che cosa dire? Come dire? E perché dire?

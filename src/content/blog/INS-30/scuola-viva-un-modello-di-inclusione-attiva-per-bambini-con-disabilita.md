@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Alla **Scuola Viva** i bambini handicappati sono accolti con maggior facilità [nota]con delle regole strette di non più di due per classe e con dei limiti nella gravità dell'handicap (2) Diario di bordo, in "Scuola Viva" 1972, [/nota]. Questa facilità risulta dall'impostazione filosofica e pedagogica di questa scuola.
 
 Mi spiego: questa associazione privata è stata creata dalla volontà di trasformare la scuola in una "società attiva", per questo "sono necessari l'assemblea, la stampa, il teatro, il cinema, il lavoro, la partecipazione a turni organizzativi i piani di lavoro, il giornale di bordo, le visite ai musei, le gite, la ginnastica, lo sport, la musica, la corrispondenza, i rapporti con i teorici dell'educazione, con gli amministratori e gli enti locali..." [nota]Diario di bordo, in "Scuola Viva" 1972, pag.5[/nota]

@@ -4,8 +4,8 @@ date: 2002-09-01
 author: Redazione
 slug: dialogo-aperto-n79
 lang: it
-numero_rivista: 79
-id_numero: OEL-79
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-79"
 issue_number: OEL-79
 wp_id: 25474
 original_url: "https://www.ombreeluci.it/?p=25474"
@@ -15,7 +15,6 @@ umap_x: 4.877247333526611
 umap_y: 8.301207542419434
 umap_z: 10.42343521118164
 ---
-
 ### Un bambino che ci aiuta a crescere
 
 È difficile riassumere in poche righe gli eventi che ci hanno portato all’accoglienza di Francesco, i sentimenti, le emozioni, gli interrogativi, le soddisfazioni, le preoccupazioni che ci stanno accompagnando in questa esperienza. Riguardo agli eventi siamo comunque convinti che certe esperienze che abbiamo vissuto, certi fatti che sono accaduti e che, in un primo momento sembravano insignificanti o semplici coincidenze, si sono poi rivelati come legati da un filo che sta accompagnando la nostra storia. Sicuramente all’adozione di Francesco hanno concorso due fattori importanti:

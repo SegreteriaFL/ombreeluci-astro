@@ -15,7 +15,8 @@ umap_x: 5.838987350463867
 umap_y: 9.566977500915527
 umap_z: 8.559938430786133
 issue_number: OEL-23
-id_numero: OEL-23
+id_numero: "OEL-23"
+numero_rivista: "Ombre e Luci"
 ---
 Sono la mamma di una ragazza portatrice di handicap grave. Quando è nata Monica, nonostante si fosse presentata a noi già con dei problemi gravi, l’abbiamo accolta con gioia perché era un’altra vita che entrava nella nostra famiglia e noi siamo sempre stati convinti che un figlio è una benedizione del Signore. Avevamo già un figlio, Andrea, che ci aveva dato dei problemi appena nato, però visto che nel giro di pochi mesi si erano risolti, così si pensava che sarebbe stato anche per Monica. Certamente col passare del tempo ci sarebbero stati dei miglioramenti e poi sarebbe arrivata la guarigione. Questa era la nostra convinzione. Invece non fu così.
 

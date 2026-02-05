@@ -4,8 +4,8 @@ date: 2006-06-21
 author: Redazione
 slug: agli-amici-vicini-siate-disponibili
 lang: it
-numero_rivista: 94
-id_numero: OEL-94
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-94"
 issue_number: OEL-94
 wp_id: 31896
 original_url: "https://www.ombreeluci.it/?p=31896"
@@ -17,7 +17,6 @@ umap_x: 5.214452743530273
 umap_y: 9.402256965637207
 umap_z: 7.048219203948975
 ---
-
 Può accadere che nonne, amiche, cognate siano spesso depositarie di confidenze da parte di una coppia che aspetta un bimbo probabilmente disabile e che perciò si trova a dover fare una scelta drammatica. Che cosa dire? Che cosa fare?
 
 ### Da evitare

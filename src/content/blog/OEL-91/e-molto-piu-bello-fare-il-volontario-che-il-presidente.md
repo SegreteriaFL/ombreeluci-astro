@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "e-molto-piu-bello-fare-il-volontario-che-il-presidente"
 lang: it
-numero_rivista: 91
-id_numero: OEL-91
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-91"
 issue_number: OEL-91
 wp_id: 31034
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 ---
-
 Volevo proprio vedere i ragazzi gareggiare e quindi ho assistito sia alle gare ippiche sia a qualche gara di atletica, manifestazioni svoltesi in posti bellissimi (Tor Di Quinto e lo Stadio della Farnesina). Ho così assistito a prestazioni sportive di alto livello, ma più ancora mi ha colpito l'atmosfera che si respirava intorno. Un’organizzazione molto professionale e pressoché perfetta, pensata nei minimi dettagli in una cornice allo stesso tempo rilassata, gioiosa e spumeggiante.
 
 I ragazzi si impegnano al massimo, i genitori assistono orgogliosi e i volontari accompagnano, incitano e gioiscono con gli atleti.

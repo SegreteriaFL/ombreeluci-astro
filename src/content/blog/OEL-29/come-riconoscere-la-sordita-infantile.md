@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-29
-id_numero: OEL-29
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
 Per qualcuno può essere un fatto improvviso dopo una grave malattia. Ma se il bambino, entro gli uno o due anni di vita, dopo aver ciangottato» e perfino pronunciato qualche parola, sembra non progredire più e anzi smette anche i ciangotta, allora bisogna preoccuparsi. Il carattere può diventare più difficile e il bambino può mostrarsi violento e molto instabile.
 È più delicato riconoscere la sordità di un lattante. Ne sono segni, la sua mancanza di interesse a quel che accade intorno a lui, in particolare la mancanza di reazione alle voci familiari, specialmente della madre, e ai rumori abituali, di cucina, di biberon...

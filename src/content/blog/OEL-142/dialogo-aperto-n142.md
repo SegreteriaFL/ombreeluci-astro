@@ -12,7 +12,8 @@ umap_x: 4.708775520324707
 umap_y: 8.083404541015625
 umap_z: 10.265342712402344
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 ### La domanda
 

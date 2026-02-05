@@ -14,7 +14,8 @@ umap_x: 6.985355854034424
 umap_y: 11.51331615447998
 umap_z: 5.524805068969727
 issue_number: OEL-113
-id_numero: OEL-113
+id_numero: "OEL-113"
+numero_rivista: "Ombre e Luci"
 ---
 *“Qualche volta la forza di volontà riesce a cambiare le cose più in fretta di quanto crediamo” (Puccio).*
 

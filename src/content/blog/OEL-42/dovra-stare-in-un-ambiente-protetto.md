@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-42
-id_numero: OEL-42
+id_numero: "OEL-42"
+numero_rivista: "Ombre e Luci"
 ---
 Jean Vanier, direttore di una comunità di vita e laboratorio protetto scrive a due genitori questa lettera che riguarda un caso specifico, ma per la chiarezza e l’onestà del giudizio, per il rispetto e l’amore verso la persona disabile in questione, può far luce sul modo di guardare i nostri figli. Certamente non va secondo l’ideologia corrente, «integrare ad ogni costo». Con parole forti e delicate insieme, può aiutarci a chiarire le nostre idee, i sogni, le angosce nelle scelte da fare nei loro confronti. Mette in luce la priorità sulla quale siamo tutti d’accordo: «che loro siano felici e pieni di vita ».
 Gentili Signori,

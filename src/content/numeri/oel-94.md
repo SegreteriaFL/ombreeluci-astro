@@ -1,15 +1,35 @@
 ---
 id: "OEL-94"
-title: "Ombre e Luci n. 94 - Un’attesa difficile"
+title: "Ombre e Luci n. 94 – Un’attesa difficile"
 tipo: "ombre-e-luci"
 numero: 94
-anno: "2006"
+sort_order: 193
+pubDate: "2006-06-01T00:00:00Z"
 data_pubblicazione: "Giugno 2006"
 sommario: "Ombre e Luci n. 94 – Un’attesa difficile ultima modifica: 2006-06-19T22:11:00+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_94_2006.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_94"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-94-unattesa-difficile/"
+articoli:
+  - "una-scelta-difficile"
+  - "lo-shock-della-diagnosi-prenatale"
+  - "ad-ogni-marzo-che-passa"
+  - "io-non-sapevo"
+  - "tecniche-di-diagnosi-prenatale"
+  - "genitori-e-medici-davanti-allannuncio-dellhandicap"
+  - "agli-amici-vici-siate-disponibili"
+  - "fanha-famiglie-accoglienti-nascituri-handicappati"
+  - "amare-un-errore-patricia-bauer"
+  - "dialogo-aperto-n-94"
+  - "lamniocentesi-di-stato-e-la-grande-colpa-di-noi-madri-selvagge-recensione"
+  - "sostegno-psicologicologico-in-gravidanza"
+  - "culla-di-parole-come-accogliere-gli-inizi-difficili-della-vita"
+  - "hai-mutato-il-mio-lamento-in-danza-una-maternita-dalla-morte-alla-resurrezione-recensione"
+  - "la-luna-nuova-di-casa-betania"
+  - "valeria-risponde-alla-lettera-di-monica-del-n-93"
+  - "nonno-e-cosi-brutto-essere-diversi"
+  - "con-la-forza-di-una-quercia-associazione-la-quercia-millearia"
 ---
 
 ## Indice

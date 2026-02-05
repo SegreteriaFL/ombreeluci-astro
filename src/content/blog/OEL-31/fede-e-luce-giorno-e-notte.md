@@ -14,7 +14,8 @@ umap_x: 7.983295917510986
 umap_y: 7.20240592956543
 umap_z: 11.720601081848145
 issue_number: OEL-31
-id_numero: OEL-31
+id_numero: "OEL-31"
+numero_rivista: "Ombre e Luci"
 ---
 Domani si parte, domani si torna a Roma. Non ne ho voglia assolutamente dopo questi giorni così belli... È molto tardi. Prima di andare a dormire tuttavia esco in giardino a godermi il fresco della notte in campagna, con il suo silenzio, i suoi rumori, i suoi profumi. I miei amici sono tutti a letto ora, ma so che in qualche stanza, sottovoce, si bisbigliano le ultime frasi, si trattengono le risate, cercando di restare svegli per non perdere neanche un momento di questa vacanza. I miei amici... Mi siedo su una panchina, distendo le gambe e poggio la testa sul muro di pietre, che lentamente restituisce il calore della giornata di sole. Nella mia mente si compone un quadro, fatto di cento immagini, una vicina all’altra: tanti frammenti di quello che abbiamo vissuto durante questo campeggio.
 

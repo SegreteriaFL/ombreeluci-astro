@@ -7,6 +7,7 @@ cluster_id: 9
 image: "https://www.ombreeluci.it/wp-content/uploads/2022/06/Cece-Bell.jpg"
 slug: "e-se-essere-sordi-fosse-un-superpotere"
 has_comments: false
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

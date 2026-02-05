@@ -12,8 +12,9 @@ umap_x: 7.9094014167785645
 umap_y: 5.9684929847717285
 umap_z: 10.891142845153809
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 L'appuntamento per la partenza era alle 8 alla chiesa di Sant'Anna. La sera precedente con mia madre abbiamo preparato la valigia, cercando di far entrare tutto il necessario per questi quattro giorni in una piccola valigia perché c'era poco posto nella macchina, ma noi ce l'abbiamo fatta.
 
 **28 luglio.** Mio padre mi ha accompagnato, puntuale come sempre, e mi hanno fatto andare con la sorella di Giacomo. In macchina con noi c'erano anche Marcella e il marito di Enza. Il viaggio non è stato lungo ma molto bello, il cielo era sereno e c'erano tanti uccelli che volavano. Arrivati a Tricase abbiamo trovato anche altri gruppi, tanti ragazzi e ragazze. Per prima cosa abbiamo sgombrato la valigia e preparato il letto e poi siamo andati in piscina a fare la prima nuotata mentre le cameriere preparavano i tavoli per il pranzo che è stato molto interessante, spaghetti alla carbonara e pollo. Nel pomeriggio siamo stati impegnati con vari giochi.

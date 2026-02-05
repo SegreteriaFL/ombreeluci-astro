@@ -4,8 +4,8 @@ date: 2007-09-09
 author: Gianluigi Visentini
 slug: parlami-di-lui-limportanza-del-raccontare-gli-altri-e-del-raccontarsi-agli-altri
 lang: it
-numero_rivista: 99
-id_numero: OEL-99
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-99"
 issue_number: OEL-99
 wp_id: 32743
 original_url: "https://www.ombreeluci.it/?p=32743"
@@ -15,7 +15,6 @@ umap_x: 6.101774215698242
 umap_y: 8.431652069091797
 umap_z: 8.045825958251953
 ---
-
 ### Daniele
 
 È pomeriggio, sono in una scuola materna nuova di zecca. Siamo attorno ad un tavolo per parlare di Daniele, un bambino di tre anni che ha appena iniziato la scuola materna. È un bambino grave (con una importante patologia motoria) che spesso piange e si lamenta. Appena la mamma inizia a parlare è un fiume in piena: ci racconta i suoi tre anni di vita con Daniele, le notti non dormite, i tanti tentativi di dare un nome e un senso a quel pianto, l'angoscia di non sapere che fare e di poterlo solo tenere in braccio: unico luogo, unico spazio, unico tempo dove il bambino ritrova un qualche benessere, una serenità. Non ci sono cose da dire, siamo lì per ascoltare e perché questa mamma trovi anche lei un luogo, uno spazio, un tempo dove essere presa, dove poter consegnare all’altro la propria storia, raccontare a se stessa per poter condividere frammenti di esperienza che sono vivi e doloranti dentro di lei... A poco a poco iniziamo a parlare del futuro di Daniele. Ha iniziato la scuola e questo porterà dei cambiamenti, non sappiamo quali ma è l’irrompere di un pensiero che guarda ad un futuro diverso. Dentro di noi ora Daniele ha un'immagine molto più chiara e nitida, è un insieme di flash: il Daniele che piange, il Daniele in braccio, alcune scene raccontate dalla madre...Il bambino che avevamo visto (io durante una fisioterapia, le insegnanti a scuola con la mamma) era un bambino che iniziava ad avere una storia anche dentro di noi. Alcune immagini che la mamma portava dentro di sé erano diventate anche nostre e il Daniele dentro di noi si era fatto più vivo, più vicino, più ricco e vibrante.

@@ -4,8 +4,8 @@ date: 1999-06-16
 author: Redazione
 slug: vivere-lautismo-manuale-di-sopravvivenza-per-i-genitori
 lang: it
-numero_rivista: 65
-id_numero: OEL-65
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-65"
 issue_number: OEL-65
 wp_id: 12572
 original_url: "https://www.ombreeluci.it/?p=12572"
@@ -18,7 +18,6 @@ umap_x: 7.105808258056641
 umap_y: 10.116718292236328
 umap_z: 4.974124431610107
 ---
-
 Èun manuale scritto anzitutto per i genitori. È anche una proposta di stretta collaborazione tra genitori e operatori. È infine un libro che non presenta guarigioni miracolose, ma ha lo scopo di migliorare la vita di tutta la famiglia. Nei vari capitoli l'autore, invece di parlare di teorie ricercate ed astratte riflette sulla realtà difficile vissuta dalle famiglie con figli autistici: comportamenti ripetitivi, comunicazione, gioco e tempo libero, aggressività, igiene, pasti, sonno. Ogni capitolo, dopo una breve presentazione della difficoltà trattata, propone alcuni raccontini che descrivono l’esperienza di genitori che sono riusciti, con mezzi semplici e concreti, a superare alcuni ostacoli frequenti nella vita quotidiana.
 
 Eccone alcuni esempi:

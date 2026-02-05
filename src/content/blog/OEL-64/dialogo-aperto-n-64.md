@@ -4,8 +4,8 @@ date: 1998-07-10
 author: Redazione
 slug: dialogo-aperto-n-64
 lang: it
-numero_rivista: 64
-id_numero: OEL-64
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-64"
 issue_number: OEL-64
 wp_id: 12385
 original_url: "https://www.ombreeluci.it/?p=12385"
@@ -17,7 +17,6 @@ umap_x: 5.195557594299316
 umap_y: 8.320356369018555
 umap_z: 10.85477352142334
 ---
-
 ### “Lo sapevo in mani sicure”
 
 Vi mando la foto di mio figlio Corrado con Roberto Ferrari, suo responsabile in Cooperativa, centro diurno per disabili. Gradirei vederla pubblicata su “Ombre e Luci", come segno di gratitudine a Roberto, perché lo ha seguito sempre con tanto amore (15 anni). A sua volta Corrado gli era talmente affezionato che al mattino, quando Roberto arrivava col pulmino a prenderlo, correva felice da lui senza nemmeno salutarmi e ciò mi rendeva felice perché ero tranquilla sapendolo in mani sicure. Mio marito e io avevamo fatto un accordo con Roberto, che lo avrebbe seguito sempre anche se fosse rimasto solo, “dopo di noi". Purtroppo Corrado ci ha lasciati soli, dopo appena quattro giorni di sofferenza, il 27 aprile 1998, senza che i medici avessero capito che malattia aveva. E stato un dramma per tutti coloro che lo frequentavano, perché si faceva amare per il suo carattere cordiale e scherzoso; hanno pianto tutti con noi: i ragazzi della Coop., gli operatori, gli obiettori e tutti gli amici dei gruppi “Condivisione” e “Sicomoro” facenti parte di “Fede e Luce". Con il parroco Lino Castellani hanno preparato quella che è stata la “Festa funebre" per dare l’ultimo addio sulla terra e la partenza per il Paradiso a Corrado con campane che suonavano a festa e cantando, mentre piangevano tutti, gli inni sacri che tanto gli piacevano. Tutta Fidenza si è stretta intorno a noi, la chiesa grande era stracolma e tutti ci hanno voluto abbracciare con tanto affetto e commossi che io ero incredula e non mi venivano le lagrime. Purtroppo nella nostra casa c’è un vuoto incolmabile perché il grande amore che gli abbiamo dato per tutta la vita, ce lo ha restituito centuplicato.

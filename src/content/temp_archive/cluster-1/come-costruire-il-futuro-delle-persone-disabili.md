@@ -7,6 +7,7 @@ cluster_id: 1
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_47_1994.jpg"
 slug: "come-costruire-il-futuro-delle-persone-disabili"
 has_comments: false
+id_numero: "OEL-47"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

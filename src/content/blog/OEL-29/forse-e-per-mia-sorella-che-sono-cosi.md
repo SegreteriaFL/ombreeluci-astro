@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-29
-id_numero: OEL-29
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
 Ho tanto tardato a scrivervi perché... **ho dovuto trovare il coraggio** per farlo. Quando trovi persone che ti capiscono, si stenta a crederci e comunque poi ti accorgi che ti sveli troppo, rendendo note la tua fragilità e la tua sensibilità. Oggi è pericoloso scoprirsi, **si può facilmente essere calpestati.
 Forse è colpa mia; **pretendo che gli altri si facciano avanti quando io stessa ho paura di fare il primo passo**, ma per me è difficile; il pericolo di non essere accettata mi spaventa troppo!

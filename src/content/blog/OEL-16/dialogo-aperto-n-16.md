@@ -17,8 +17,9 @@ umap_x: 5.483957767486572
 umap_y: 7.876199722290039
 umap_z: 11.142128944396973
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 *"Posso dire di essere cresciuta al Mary Mount: da piccola giocavo... giocavo... giocavo, in un’atmosfera piena di gioia, poi piano piano ho cominciato a dare il mio piccolo contributo con un senso di responsabilità sempre maggiore"..."Una foto bella ed appropriata può dire veramente di più della parola."*
 
 ### Marymount

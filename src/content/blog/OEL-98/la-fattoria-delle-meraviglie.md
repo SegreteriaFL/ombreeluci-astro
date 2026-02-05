@@ -4,8 +4,8 @@ date: 2007-06-03
 author: Laura Nardini
 slug: la-fattoria-delle-meraviglie
 lang: it
-numero_rivista: 98
-id_numero: OEL-98
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-98"
 issue_number: OEL-98
 wp_id: 32580
 original_url: "https://www.ombreeluci.it/?p=32580"
@@ -15,7 +15,6 @@ umap_x: 8.205543518066406
 umap_y: 7.258293628692627
 umap_z: 8.718957901000977
 ---
-
 La Fattoria di Alice è nata cinque anni fa dal risultato della collaborazione tra la Cooperativa Sociale Alice e l’Associazione familiari e sostenitori psichici della Tuscia (A.fe.SO .psi.t.).
 
 La fattoria è gestita dalla Cooperativa Alice ed è composta da: 5 soci svantaggiati (assunti regolarmente con contratto), 1 psicologa, 1 operaio agricolo, 1 operatore, 5 volontari del servizio civile.

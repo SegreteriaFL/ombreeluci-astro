@@ -7,6 +7,7 @@ cluster_id: 10
 image: "http://www.ombreeluci.it/wp-content/uploads/2018/01/oel14-siamo-venuti-ad-asissi-perche-01.jpg"
 slug: "siamo-venuti-ad-assisi-per"
 has_comments: false
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

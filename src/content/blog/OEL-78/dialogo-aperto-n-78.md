@@ -4,8 +4,8 @@ date: 2002-06-01
 author: Redazione
 slug: dialogo-aperto-n-78
 lang: it
-numero_rivista: 78
-id_numero: OEL-78
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-78"
 issue_number: OEL-78
 wp_id: 25016
 original_url: "https://www.ombreeluci.it/?p=25016"
@@ -15,7 +15,6 @@ umap_x: 4.345365047454834
 umap_y: 7.936131954193115
 umap_z: 10.30558967590332
 ---
-
 ### Sene A e serie B?
 
 Non ce l’ho con voi: mi rendo conto che i disabili mentali devono essere più numerosi di chi invece ha capacità di comprensione ma ha impossibilità di movimento e di parola. Mia figlia (36 anni) per una grave asfissia neonatale ha una tetraparesi spastico-distonica per cui non può camminare, non può dare nessun «aiuto», né grande né piccolo in casa, perché non sa, non può usare le mani. Capisce al volo ogni espressione, ogni frase detta o sussurrata, dà la sua approvazione o la sua disapprovazione con brontolii vari, ma senza poter articolare discorsi o semplici parole... lo trovo sulla vostra rivista tanti articoli su ragazzi Down e sui ritardati mentali, ma pochissimi sui disabili come mia figlia. Quali possono essere i consigli per una sua autonomia? Non vuole essere una critica ma una constatazione che mi dà una certa amarezza. Anche fra i disabili esiste la serie A e la serie B? Scusate lo sfogo e grazie comunque per il vostro impegno.

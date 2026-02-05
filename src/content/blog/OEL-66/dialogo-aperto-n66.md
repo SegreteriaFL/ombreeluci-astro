@@ -4,8 +4,8 @@ date: 1999-06-11
 author: Redazione
 slug: dialogo-aperto-n66
 lang: it
-numero_rivista: 66
-id_numero: OEL-66
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-66"
 issue_number: OEL-66
 wp_id: 12799
 original_url: "https://www.ombreeluci.it/?p=12799"
@@ -15,7 +15,6 @@ umap_x: 4.478573799133301
 umap_y: 8.08601188659668
 umap_z: 10.219018936157227
 ---
-
 ### A proposito di «Mamma e teologo»
 
 Vi scrivo la mia esperienza per quanto riguarda l'articolo dell’ultimo numero: «La mamma e il teologo». Ho svolto il mio lavoro di terapista della riabilitazione per la quasi totalità con bambini cerebrolesi. La mia fortuna è stata quella di aver scelto questo lavoro da piccola e sono riuscita a svolgerlo per 26 anni fino a quando per ragioni di salute ho dovuto andare in pensione ma sono sempre nel volontariato e ora in una piccola associazione di genitori che vuole pensare al "dopo". Il problema del dolore e della sofferenza e una certa spiegazione di esso alla luce di Cristo mi ha sempre accompagnato. Poco o quasi nulla è stato l’aiuto ricevuto dai sacerdoti o chi per loro. È vero che tutti si riferiscono alla Croce e poi basta. Ho sempre rifiutato in cuor mio questo. Tantissimo aiuto l’ho avuto dai libri di

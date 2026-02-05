@@ -18,7 +18,8 @@ umap_x: 8.847167015075684
 umap_y: 8.281907081604004
 umap_z: 10.943313598632812
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 ### Costruiamo insieme: fai un regalo per...
 

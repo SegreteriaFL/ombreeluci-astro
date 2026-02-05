@@ -15,7 +15,8 @@ umap_x: 7.658573627471924
 umap_y: 10.197413444519043
 umap_z: 5.962413311004639
 issue_number: OEL-13
-id_numero: OEL-13
+id_numero: "OEL-13"
+numero_rivista: "Ombre e Luci"
 ---
 Gli autori di questo breve e prezioso testo hanno rielaborato, arricchendolo della loro esperienza di educatori di soggetti gravissimi, il libro di due americani (Fox e Azrin). Come dice il titolo, vogliono insegnare ai genitori e ad altri educatori, come ottenere che il bambino impari a «tenersi pulito», anche se colpito da handicap severo, eliminando così il disagio del pannolino e tanta fatica per i genitori. Il testo presenta varie situazioni, disegni che illustrano le tappe di apprendimento, tabelle che servono per superare queste tappe, quiz cui rispondere, tutto in modo facile e chiaro. Non sarà certo altrettanto facile mettere in pratica questi consigli, ma invitiamo i genitori ad armarsi di buona volontà e di santa pazienza; lo stimolo può .venire dall’e- norme beneficio che ne potranno ricavare. Allora perché non tentare? di
 *Mariangela Bertolini*

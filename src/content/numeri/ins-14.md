@@ -1,15 +1,29 @@
 ---
 id: "INS-14"
-title: "Insieme n. 14 - Bollettino Fede e Luce - 1977"
+title: "Insieme n. 14 – Bollettino Fede e Luce – 1977"
 tipo: "insieme"
 numero: 14
-anno: "1977"
+sort_order: 14
+pubDate: "1977-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 1977"
 sommario: "Insieme n. 14 – Bollettino Fede e Luce – 1977 ultima modifica: 1977-09-19T15:39:37+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-14.webp"
 link_sfoglia: "https://archive.org/details/insieme-14/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-14/insieme%2014%20lug%20aho%20set%201977.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-14-bollettino-fede-e-luce-1977/"
+articoli:
+  - "editoriale-vacanze"
+  - "ci-hanno-scritto-n-14"
+  - "inno-alla-vita-di-una-handicappata"
+  - "per-nostra-riflessione-milano-vederci-piu-chiaro"
+  - "leducazione-delle-persone-disabili-imparare-a-vestirsi"
+  - "cosa-si-fa-nelle-casette-di-fede-e-luce-le-risposte-di-chi-ce-stato"
+  - "attivita-di-fine-stagione-del-gruppo-san-paolo-di-roma"
+  - "notiziario-fede-e-luce-n-14"
+  - "parliamo-di-ri-educazione"
+  - "letture-consigliate-n-13"
+  - "come-nata-la-prima-casetta-fede-e-luce-storie-di-pennelli-e-appendiciti"
+  - "letture-consigliate-n-14"
 ---
 
 ## Indice

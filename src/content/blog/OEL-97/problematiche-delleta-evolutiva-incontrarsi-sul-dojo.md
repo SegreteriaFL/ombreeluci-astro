@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "problematiche-delleta-evolutiva-incontrarsi-sul-dojo"
 lang: it
-numero_rivista: 97
-id_numero: OEL-97
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-97"
 issue_number: OEL-97
 wp_id: 32418
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Per affrontare alcune problematiche dell’età evolutiva e adolescenziale — come l’ADHD, l’autismo, le fobie sociali, alcuni disturbi emotivi, aggressività e comportamenti di esternalizzazione — Mark Palermo e Massimo di Luigi, rispettivamente neuropsichiatria e maestro di karate 7° DAN, indicano una strada nel Dojo, la palestra del karate e ce ne spiegano il motivo.
 
 Le competenze utilizzate e sviluppate nel karate sono molto affini a quelle necessarie ad una vita di relazione con il mondo e con sé stessi.

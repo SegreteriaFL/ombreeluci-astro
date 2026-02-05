@@ -16,8 +16,9 @@ umap_x: 8.476319313049316
 umap_y: 7.695051670074463
 umap_z: 7.873489856719971
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 In occasione del
 [XXXI Salone del Libro di Torino](http://www.salonelibro.it/it/)
 torna la mostra di libri accessibili

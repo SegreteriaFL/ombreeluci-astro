@@ -14,7 +14,8 @@ umap_x: 8.46557331085205
 umap_y: 8.17556095123291
 umap_z: 7.813536167144775
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 Per i non vedenti o ipovedenti centro internazionale del libro parlato Previo pagamento della quota di iscrizione, potete avere: il catalogo suddiviso per materie (9000 opere registrate in cassetta, disponibili anche su floppy-disk). Potrete inoltre richiedere la registrazione su nastro di un’opera da voi scelta. Per ulteriori informazioni, rivolgersi al centro per telefono, fax, e-mail.
 **Aggiornamento giugno 2020**

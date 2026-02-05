@@ -7,6 +7,7 @@ cluster_id: 1
 image: "http://www.ombreeluci.it/wp-content/uploads/1989/12/nicoleschulthes.jpg"
 slug: "centro-sperimentale-per-lautismo"
 has_comments: false
+id_numero: "OEL-52"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

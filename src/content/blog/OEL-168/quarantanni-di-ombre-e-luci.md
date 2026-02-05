@@ -12,8 +12,9 @@ umap_x: 4.880547046661377
 umap_y: 6.680464267730713
 umap_z: 9.833343505859375
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Come dimenticare quel 6 Aprile? **Quel sabato è stato speciale perché mi sono recata in redazione in viale di Valle Aurelia per festeggiare i 40 anni di un giornale speciale.** Dico così perché Ombre e Luci è un giornale che da voce a delle persone speciali e da voce anche ai loro familiari. Un giornale nato con la voglia di condividere le emozioni di quando una famiglia si incontra con un'altra. Di condividere i problemi di una famiglia che poi diventano di tutti, in modo da risolverli insieme.
 
 Ma torniamo per un attimo a quel giorno. Per me è stato speciale perché avendo da poco aperto un blog, grazie alla redazione, non solo il mio sogno è diventato reale, ma ho potuto notare che anche se scrivo piccoli pezzi tratti dalla mia realtà e dalla mia quotidianità, ho la certezza che qualcuno li legge e mi comprende.

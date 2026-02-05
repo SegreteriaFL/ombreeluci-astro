@@ -14,8 +14,9 @@ umap_x: 8.393449783325195
 umap_y: 12.319626808166504
 umap_z: 11.189428329467773
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 "L**a carità è buona, ma non abbastanza!"** Questo è il messaggio di Jean Vanier, fondatore dell'Arca, così come di Fede e Luce, che celebra oggi il suo 90° compleanno. "A volte quelli di noi che hanno più potere, più denaro, più tempo o più conoscenza si piegano a quelli con meno potere, meno conoscenza o meno ricchezza; c'è un movimento dal *superiore* all' *inferiore* . Quando le persone sono generose, hanno il controllo. Se vedi una persona che cade lungo la strada, puoi aiutarla ad alzarsi. Poi però succede qualcosa:" prosegue Jean Vanier " **...l'Amicizia!** ."
 
 L'ascolto apre la porta a qualcosa di molto più radicale della carità: mutua trasformazione, mutua dignità. " **Mentre ascolti quella persona ne diventi amica.** Forse scopri che vive in miseria e ha pochi soldi. Non sei solo generoso, stai entrando in una relazione che cambierà la tua vita. Non hai più il controllo. Sei diventato vulnerabile; sei arrivato ad amare quella persona... "

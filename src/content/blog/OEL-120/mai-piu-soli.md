@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 Questa frase così azzeccata per parlare della storia di Fede e Luce, vuol essere un augurio prima di ogni cosa. "Mai più soli" vuol esprimere con tre parole la sostanza più vera di *Fede e Luce*, anche se molti ancora non ne fanno parte.
 Quando ci viene chiesto, da chi non ne sa nulla, “ma voi, a Fede e Luce, che cosa fate?”**, a me verrebbe sempre da rispondere: “non facciamo proprio niente”, che è poi la verità. Non siamo nati per fare qualcosa per le persone disabili, ma per essere al loro fianco, per metterci vicino a loro e ai loro genitori, per non lasciarli soli!
 Mi piacerebbe parlare della bella frase che il Cardinal Martini dedica a *Fede e Luce* nella prefazione del libro “[Mai più soli](https://www.ombreeluci.it/2013/mai-piu-soli-lavventura-di-fede-e-luce-recensione/)”:** “Fede e Luce è una pagina del Vangelo che lo Spirito ha scritto e continua a scrivere per gli uomini e le donne del nostro tempo”… Mi piacerebbe commentare le parole scelte da J. Vanier per la sua introduzione: “chiamati alla gioia”… Mi piacerebbe citare le tante persone, cominciando da Marie-Hélène, che hanno dedicato parte della loro vita a far si che *Fede e Luce* viva in tanti paesi del mondo… Ricordare la dedizione di numerosi seminaristi, sacerdoti e vescovi che hanno dato prova di dare senza risparmiarsi, con coraggio e spesso controcorrente.

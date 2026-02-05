@@ -12,8 +12,9 @@ umap_x: 5.046482086181641
 umap_y: 8.5601224899292
 umap_z: 8.474512100219727
 issue_number: OEL-116
+id_numero: "OEL-116"
+numero_rivista: "Ombre e Luci"
 ---
-
 Chi, adulto, giovane o bambino di fronte ad un neonato non esclama: mio Dio com’è piccolo! E non è solo piccolo di proporzioni, è piccolo perché sembra impossibile che possa vivere, farsi avanti, crescere, riconoscere, sorridere… Ahimè la cosa che colpisce di più tutti è che sa piangere e bene anche!
 
 C’è chi si commuove davanti a lui; c’è chi si intenerisce; c’è chi sbalordisce perché pochi minuti prima non c’era ed ora è qui…

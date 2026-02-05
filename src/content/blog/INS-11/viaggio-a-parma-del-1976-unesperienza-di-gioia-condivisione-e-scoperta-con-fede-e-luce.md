@@ -14,8 +14,9 @@ umap_x: 8.081655502319336
 umap_y: 8.50169849395752
 umap_z: 13.097753524780273
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 F
 ede e Luce! Due parole così semplici e così piene per noi dello Spirito di Dio.
 **E a Parma le abbiamo vissute in profondità e Gioia:**

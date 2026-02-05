@@ -12,7 +12,8 @@ umap_x: 8.575102806091309
 umap_y: 11.238091468811035
 umap_z: 6.951562404632568
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 Il mistero del Regno di Dio è alla portata dei bambini? È giusto introdurli fin dai tre anni circa, a temi che riguardano la salvezza in un’ottica cristiana? O, se non cristiani, riconoscere ai bambini una dimensione spirituale che prenda in considerazione le grandi inevitabili domande sull’esistenza?
 

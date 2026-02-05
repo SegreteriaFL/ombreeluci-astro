@@ -12,8 +12,9 @@ umap_x: 7.081107139587402
 umap_y: 8.845791816711426
 umap_z: 12.960234642028809
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il*distanziamento sociale* , nel suo aspetto meramente materiale di *distanza fisica* tra le persone, è l’antitesi perfetta dei rapporti umani che si vivono a Fede e Luce, dove il dialogo vive poco di verbalizzazione e invece molto di parole abbracciate, sorrise o camminate. Nella sua ragion d’essere, ovvero la protezione reciproca, il *distanziamento sociale* , paradossalmente, si sposa invece con l’essenza più vera e più profonda del nostro movimento, la fedeltà e la costanza delle relazioni tra ragazzi, genitori e amici, il «reciproco custodirsi», rubo le parole dall'omelia d'inizio pontificato di Papa Francesco, «nella confidenza, nel rispetto e nel bene».
 
 A Fede e Luce abbiamo imparato, sperimentato e inventato i modi e i tempi più disparati del verbo custodire: di certo il covid-19 ce ne ha tolti tanti, certamente i più belli, ma ce ne ha anche regalati di nuovi, magari meno avvolgenti perché più tecnologici, ma comunque efficaci. Anzi, se proprio vogliamo dirla tutta, in questo lunghissimo anno, la nostra rete umana ha retto proprio grazie alla Rete.

@@ -12,8 +12,9 @@ umap_x: 8.550093650817871
 umap_y: 7.8278489112854
 umap_z: 13.17219066619873
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Irappresentanti di [Fede e Luce](https://www.fedeeluce.it/) di Inghilterra, Francia, Belgio, Danimarca, Svizzera, Spagna, U.S.A., Italia (Milano, Padova, Cuneo, Vercelli, Panna, Reggio Emilia, Roma), si sono riuniti a Roma per preparare il Pellegrinaggio del 26-29 Ottobre 1975.
 
 Nel prossimo numero di "INSIEME" daremo notizie dettagliate circa il programma e le modalità di iscrizione.

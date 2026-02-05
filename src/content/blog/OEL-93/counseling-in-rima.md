@@ -4,8 +4,8 @@ date: 2006-03-30
 author: Antonella B.
 slug: counseling-in-rima
 lang: it
-numero_rivista: 93
-id_numero: OEL-93
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-93"
 issue_number: OEL-93
 wp_id: 31479
 original_url: "https://www.ombreeluci.it/?p=31479"
@@ -15,7 +15,6 @@ umap_x: 5.32814884185791
 umap_y: 8.302021026611328
 umap_z: 8.089673042297363
 ---
-
 Il *counseling* rivolto ai genitori ha come scopo, questo è ormai provato, di sostenere a casa ed anche fuori, del terapista lo sforzo e l'operato
 
 È inutile, si dice giustamente, che al bambino si faccia terapia se poi in famiglia, inesorabilmente, di più si aggrava la patologia

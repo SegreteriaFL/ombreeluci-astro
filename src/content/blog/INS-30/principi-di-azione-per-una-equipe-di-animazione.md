@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ## Ritrovarsi regolarmente
 
 Prima cosa: bisogna che le stesse persone si incontrino regolarmente e che la riunione cominci puntuale. Un'équipe muore quando alcuni arrivano con mezz'ora o un'ora di ritardo. Bisogna inoltre sapere in anticipo quanto tempo, grosso modo, durerà la riunione. Quando gli incontri non sono regolari quando durano all'infinito, o al contrario, quando, senza sapere perché, sono accorciati, le persone si scoraggiano. Bisogna che tutti sappiano che si comincerà alle 9 e alle 9 precise bisogna mettersi al lavoro. Se si è previsto la fine per le 16.30, bisogna che alle 16.15 tutto sia finito. Se lasciamo che le cose si trascinino presto ci sarà scoraggiamento… Più i partecipanti vengono da lontano, più questo primo principio è indispensabile.

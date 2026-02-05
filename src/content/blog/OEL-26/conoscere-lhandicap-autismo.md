@@ -15,7 +15,8 @@ umap_x: 6.75643253326416
 umap_y: 8.334637641906738
 umap_z: 6.475080490112305
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 ### Difficoltà generali riscontrate nel soggetto «autistico»
 

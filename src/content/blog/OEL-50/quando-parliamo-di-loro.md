@@ -12,8 +12,9 @@ umap_x: 6.728649139404297
 umap_y: 7.089199542999268
 umap_z: 12.33094596862793
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Visita dal medico, incontro con l'educatore, contatti con i vicini... ci sono mille occasioni per i genitori di parlare con terze persone del loro figliolo: "Otto giorni dopo la sua nascita, il medico ci ha detto che **non c'era nulla da fare** ." "Quante preoccupazioni ci ha dato! Notti insonni... Pasti durante i quali **pensavo di diventare pazza** ..." " **Guardatelo: non reagisce, non parla** .E intanto si pensa che sia intelligente. Pare ci sia stato un blocco quando aveva due anni, il giorno in cui..."
 
 **Il bambino è presente.** Si dice: "non importa, non capisce", o se rischia di capire la conversazione basta usare alcuni termini un po' più complicati e sapienti, È vero che il senso esatto delle parole gli sfugge, ma parecchie cose gli sono comprensibili. Innanzitutto coglie che si tratta di lui. Senza volerlo l'abbiamo guardato. Il tono della nostra voce è cambiato, e lui percepisce un senso di tenerezza che lo avvolge. Insomma... egli sa.

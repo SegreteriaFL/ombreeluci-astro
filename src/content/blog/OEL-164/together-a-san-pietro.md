@@ -12,7 +12,8 @@ umap_x: 8.225651741027832
 umap_y: 8.770082473754883
 umap_z: 12.73098087310791
 issue_number: OEL-164
-id_numero: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
 Le strade del centro di Roma sono state inondate da condivisione e amore, lo scorso 30 settembre. Invitati dalla comunità di Taizé, giovani provenienti da tutta Europa e da tutte le realtà ecclesiali hanno condiviso un momento di fede. Tra le realtà che hanno risposto all’invito per *Together. Raduno del popolo di Dio* , [c’era anche Fede e Luce](https://www.fedeeluce.it/2023/11/22/together-una-magnifica-esperienza-tutti-insieme/) .
 

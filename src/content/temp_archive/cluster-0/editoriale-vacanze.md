@@ -7,6 +7,7 @@ cluster_id: 0
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-14.webp"
 slug: "editoriale-vacanze"
 has_comments: false
+id_numero: "INS-14"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

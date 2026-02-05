@@ -12,8 +12,9 @@ umap_x: 7.7563157081604
 umap_y: 7.501197338104248
 umap_z: 12.913405418395996
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Vi sono momenti di Grazia. L'Avvento che ci rivela tutto il desiderio di Dio di entrare appieno nell'Umanità, la preparazione lontana di un pellegrinaggio che ormai si avvicina, ci hanno fatto vivere a Roma un momento intenso di [Fede e Luce](https://www.fedeeluce.it/) . **Eravamo 250 riuniti quella domenica a Villa Pacis sul Monte Mario.** Era Bello. Dei tre gruppi di Fede e Luce di Roma, uno aveva avuto il suo incontro il sabato, gli altri due gruppi lo hanno realizzato quella domenica. **Piccoli e grandi avevano risposto all'invito** , mescolati, aiutati; felici di quell'accoglienza che tutti hanno saputo offrire.
 
 **C'è stato un incontro per i genitori** con il Padre Roberti, venuto dal Belgio, pronto a dividere tutta la sua gioia di vivere insieme lo spirito di Fede e Luce. C'è stata la Messa celebrata dal Padre Michel.

@@ -14,7 +14,8 @@ umap_x: 5.4670562744140625
 umap_y: 9.846735954284668
 umap_z: 7.197195053100586
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 L’Associazione Bambini Cri du chat (A.B.C.) è una associazione nazionale costituitasi nell’ottobre 1995 per l’impegno dei genitori di un bambino Cri du chat di 5 anni. Le prime tre lettere dell’alfabeto rappresentano per questi bambini una speranza per l’acquisizione della parola. La malattia non è curabile farmacologicamente, ma è indispensabile iniziare un trattamento terapeutico con fisioterapia, psicomotricità e logopedia, affinché il bambino raggiunga un migliore livello intellettivo. L’Associazione si propone di:
 

@@ -16,8 +16,9 @@ umap_x: 7.484340190887451
 umap_y: 6.926395893096924
 umap_z: 10.193558692932129
 issue_number: OEL-28
+id_numero: "OEL-28"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ci mettiamo a tavola tre volte il giorno, più di mille volte l’anno. Molta routine. Qualche festa. Mangiare è bello, piace a tutti ritrovarsi a tavola, fa bene.
 
 **A tavola per nutrirsi** Mangiare è necessario per vivere, e lo facciamo più volte il giorno. Chi non mangia, o non mangia abbastanza perché il cibo gli manca (come accade nei paesi più poveri) o perché non ha mai fame (come capita a qualche persona con handicap) sa che sta male o che starà male. Ogni mamma è preoccupata che il suo bimbo, fin dai primi giorni di vita, si nutra e si nutra bene. Non è un lusso o un capriccio: il cibo è vita. Si mangia perché è vitale, ma molto presto si mangia perché si prova piacere; quando si ha fame, si apprezza il cibo e si sa quale cibo è buono, quale ci piace di più. Basta guardare un bambino (e non solo un bambino) divorare una banana o un pezzo di pizza ancora calda. Il gesto primordiale dell’allattamento crea da subito tra madre e figlio il primo legame, si potrebbe dire il primo passo della comunicazione: dialogo silenzioso e bello che continuerà e si prolungherà più tardi attorno alla tavola famigliare.

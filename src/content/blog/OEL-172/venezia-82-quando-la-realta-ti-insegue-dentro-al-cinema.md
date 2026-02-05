@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Partecipare alla Mostra del Cinema di Venezia significa stare per qualche giorno al di fuori della realtà per entrare in tanti universi cinematografici: nel 2025 è stato più difficile del solito, perché**la realtà delle guerre e delle tragedie in giro per il mondo ci ha inseguito anche dentro i cinema. Per questo si pensava che la giuria avrebbe fatto delle scelte diverse: ha assegnato il Leone d'Argento - Gran Premio della Giuria, secondo premio per importanza, a *The Voice of Hind Rajab* che riguarda la questione palestinese, ma ha scelto come Leone d'Oro un piccolo film intimista che tratta di rapporti familiari, *Father Mother Sister Brother* di Jim Jarmusch. Consapevole di ciò, Jarmusch stesso ha ricordato che anche i film non espressamente politici possono avere un valore altrettanto importante: "L'arte non deve affrontare direttamente la politica, per essere politica: può generare empatia e connessioni tra noi, il che è il primo passo per risolvere i problemi". Ecco la terza parte della selezione, dopo la [prima](https://www.ombreeluci.it/2025/da-venezia-82-per-la-mostra-del-cinema/) e la [seconda](https://www.ombreeluci.it/2025/venezia-82-voci-dal-passato-cambiamo-futuro/) già pubblicate.
 
 ### The Voice of Hind Rajab

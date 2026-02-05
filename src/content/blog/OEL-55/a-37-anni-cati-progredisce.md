@@ -4,8 +4,8 @@ date: 1996-09-27
 author: Redazione
 slug: a-37-anni-cati-progredisce
 lang: it
-numero_rivista: 55
-id_numero: OEL-55
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-55"
 issue_number: OEL-55
 wp_id: 10892
 original_url: "https://www.ombreeluci.it/?p=10892"
@@ -15,7 +15,6 @@ umap_x: 6.181573390960693
 umap_y: 8.762450218200684
 umap_z: 7.1966118812561035
 ---
-
 Cati è nata prematura. A tre mesi, sia che si abbandonasse fra le nostre braccia come una bambola di pezza, sia che si muovesse agitando braccia e gambe, ci ignorava totalmente. Il suo sguardo così bello e colmo di azzurro ci sfuggiva, ma esprimeva una vita intensa. Il Signore ce l’aveva confidata su questa terra. Noi dovevamo sistemarvela. Dovevamo anche prepararla all’altra vita che era la sua, quella del Cielo, quello dello Spirito. In realtà queste due missioni si fondevano. Bisognava adattarsi alle sue difficoltà e sviluppare in Cati ogni dimensione della sua persona: fisica, manuale, intellettuale, artistica e spirituale. Malgrado i pesanti problemi del suo comportamento abbiamo dato a Cati una educazione parallela a quella di cui beneficiano tutti gli altri bambini. Ci accompagna dappertutto. A sei anni ha imparato a leggere con il metodo Borel- Maisonny. Avevo deciso di parlarle normalmente e di darle spiegazioni su tutto, come facevo con i due fratelli maggiori. Si sarebbe poi visto se ci fossero stati risultati. Ho potuto constatare in seguito, quando imparò a leggere e a scrivere, che ciò aveva portato molto più frutti di quello che si credesse e spesso mi sono chiesta come aveva potuto imparare. Oggi possiede un vocabolario ricchissimo che nella vita quotidiana non adopera mai. Recentemente mentre leggevamo insieme la parola «claudicante» mi aspettavo che dicesse di non capirne il significato. Alla mia domanda rispose con il tono più naturale del mondo: «zoppicare».
 
 Molto tempo fa mio marito ed io facemmo un viaggio in Turchia. La persona incaricata di prendersi cura di Cati aveva attaccato alla lavagna la carta geografica della Turchia e le aveva fatto ritagliare le immagini dei vari luoghi che visitavamo. Cati le incollò sulla carta geografica esattamente al loro posto. Sapeva anche che Istambul e Costantinopoli erano nomi della stessa città. Al nostro ritorno interrogammo tutti per sapere chi l'avesse informata, ma ancora oggi non l'abbiamo capito. Come tutti provammo le terapie più in voga a quell'epoca. A sei anni la psicoanalisi, una catastrofe che provocò l'aggravamento delle condizioni di Cati. Il terapeuta non esitò a destabilizzare la nostra vita di coppia cercando di persuadere mio marito che io ero la causa dell’handicap. A dodici anni, i neurolettici: mi aiutarono a superare un esaurimento, ma Cati dovette pagarlo con quelli che vengono chiamati effetti secondari». Quando gradatamente sospendemmo i farmaci si manifestò uno stato di «rimbalzo», un pesante aggravamento dei disturbi, analogo allo stato di astinenza dalle droghe. Ma Cati tornò a vivere.

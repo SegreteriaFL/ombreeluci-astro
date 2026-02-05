@@ -12,8 +12,9 @@ umap_x: 5.612786293029785
 umap_y: 9.291996955871582
 umap_z: 9.01362133026123
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 *O Signore,*
 *la malattia ha bussato alla porte della mia vita*
 *mi ha sradicato dal mio lavoro*

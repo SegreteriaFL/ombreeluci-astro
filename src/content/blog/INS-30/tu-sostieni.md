@@ -15,8 +15,9 @@ umap_x: 6.420712471008301
 umap_y: 9.221454620361328
 umap_z: 11.249933242797852
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Tu sei là, davanti a me, con il tuo corpicino ogni giorno più lungo, in fiore, come è la natura in quest’epoca, ma che ancora non dimostra la tua adolescenza.
 
 Con lo sguardo attratto da ogni cosa meccanica o lucente come una piccola gazza, con il dito eternamente in bocca ed il mento umido di saliva…

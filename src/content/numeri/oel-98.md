@@ -1,15 +1,34 @@
 ---
 id: "OEL-98"
-title: "Ombre e Luci n. 98 - Concorso fotografico “Legàmi”"
+title: "Ombre e Luci n. 98 – Concorso fotografico “Legàmi”"
 tipo: "ombre-e-luci"
 numero: 98
-anno: "2007"
+sort_order: 197
+pubDate: "2007-06-01T00:00:00Z"
 data_pubblicazione: "Giugno 2007"
 sommario: "Ombre e Luci n. 98 – Concorso fotografico “Legàmi” ultima modifica: 2007-06-19T22:39:22+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_98_2007.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_98"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-98-concorso-fotografico-legami/"
+articoli:
+  - "mamme-coraggio-e-oltre"
+  - "salvatore-medico-pediatra-acondroplasico"
+  - "acondroplasia-scheda-informativa"
+  - "la-fattoria-delle-meraviglie"
+  - "la-mia-pazienza-ha-dei-limiti"
+  - "santa-pazienza"
+  - "perche-il-dolore-qualche-riflessione"
+  - "dialogo-aperto-n-98"
+  - "1500-grammi-di-cenere-cremazione-e-fede-cristiana-recensione"
+  - "occhi-doro-nato-per-vivere-recensione"
+  - "nellintimo-delle-madri-luci-e-ombre-della-maternita-recensione"
+  - "la-luce-e-la-letizia-recensione"
+  - "il-figlio-terminale-recensione"
+  - "ho-12-anni-faccio-la-cubista-mi-chiamano-principessa-storie-di-bulli-lolite-e-altri-bimbi"
+  - "lettera-alla-tua-famiglia-recensione"
+  - "labbraccio-di-lorella"
+  - "e-sempre-pasqua-il-macigno"
 ---
 
 ## Indice

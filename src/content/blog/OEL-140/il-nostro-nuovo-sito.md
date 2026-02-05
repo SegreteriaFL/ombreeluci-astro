@@ -12,8 +12,9 @@ umap_x: 5.378377914428711
 umap_y: 6.7699174880981445
 umap_z: 10.0741605758667
 issue_number: OEL-140
+id_numero: "OEL-140"
+numero_rivista: "Ombre e Luci"
 ---
-
 Questo lunedì è partito, volutamente in sordina... tremanti al pensiero che qualcosa non funzionasse. Relativamente tranquilli - io, Emanuele e Matteo - che solo noi avremmo visto eventuali disastri che, grazie al cielo, non ci sono stati... almeno non irrimediabili. Due giorni dopo cominciamo davvero... il 22 novembre era un giorno troppo importante per non dare il giusto rilievo
 [ai contenuti che raccontavano di Stefano](http://www.ombreeluci.it/ciao-stefano-di-franco/)
 su

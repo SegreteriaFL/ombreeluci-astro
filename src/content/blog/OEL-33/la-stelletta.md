@@ -12,7 +12,8 @@ umap_x: 8.215699195861816
 umap_y: 7.209184169769287
 umap_z: 9.311583518981934
 issue_number: OEL-33
-id_numero: OEL-33
+id_numero: "OEL-33"
+numero_rivista: "Ombre e Luci"
 ---
 S
 iamo in pieno centro della vecchia Roma: ecco un negozietto accanto a tanti altri. Ha la vetrina piena di fiori e di ceramiche dipinte con allegria e ingenuità. Vicino, un piccolo portico rotondo. Su una targa c’è scritto: LABORATORIO CERAMICA. Suoniamo il campanello. La porta si apre e saliamo per tre piani una vecchia scala. La Signora Fiumi ci accoglie calorosamente sulla porta. Eravamo attese e siamo ricevute come amiche. L’ingresso è pieno di scaffalature cariche di ceramiche di vario tipo: alcune sono in cotto, altre bianche, altre dipinte. Mentre ci inoltriamo nell’appartamento intravediamo un ambiente dove è istallato un forno per la ceramica. Eccoci ora in una delle due stanze adibite a laboratorio. Marco e Alessandra lavorano intorno a una grande tavola: sono calmi e impegnati ma non manca il suono di un leggero chiacchiericcio. Altre persone girano qua e là. Tra le due finestre c’è un pianoforte aperto, bellissime fotografie sono attaccate ai muri, qua e là sono sparsi disegni e vasi pieni di colore per la pittura. Un laboratorio come tanti altri. La direttrice ci riceve, ci presenta e ci spiega. «Ci troviamo nel laboratorio di ceramica

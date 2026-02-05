@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 In questo libro, viene fatto il punto sulla situazione del disabile nella nostra società partendo da un’analisi generale del problema fino ad arrivare al racconto delle proprie esperienze personali. L’autore è nato cerebroleso e può dunque parlare del disabile nella società sotto un’ottica nuova e personale.
 

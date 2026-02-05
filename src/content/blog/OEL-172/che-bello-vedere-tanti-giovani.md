@@ -12,8 +12,9 @@ umap_x: 8.269673347473145
 umap_y: 5.880304336547852
 umap_z: 10.583038330078125
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 B
 uon pomeriggio, miei cari lettori. Vi avevo lasciato con il
 [pezzo precedente](https://www.ombreeluci.it/2025/alla-piccola-marcia-di-assisi/)

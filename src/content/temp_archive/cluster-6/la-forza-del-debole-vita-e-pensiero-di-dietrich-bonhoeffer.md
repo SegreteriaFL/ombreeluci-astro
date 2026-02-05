@@ -7,6 +7,7 @@ cluster_id: 6
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_43_1993.jpg"
 slug: "la-forza-del-debole-vita-e-pensiero-di-dietrich-bonhoeffer"
 has_comments: false
+id_numero: "OEL-43"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

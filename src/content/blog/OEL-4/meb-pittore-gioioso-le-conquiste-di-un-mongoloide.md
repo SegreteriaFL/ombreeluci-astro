@@ -12,14 +12,14 @@ pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
 archive_id: OmbreELuciN004
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 periodo_label: Ottobre, Novembre, Dicembre
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 umap_x: 5.886938095092773
 umap_y: 10.28122329711914
 umap_z: 6.993372440338135
+id_numero: "OEL-4"
 ---
-
 «Dal punto di vista cromosomico Meb non si distingue affatto dall’immensa maggioranza dei trisomici 21... Oltre a mille altre particolarità, Meb è anche pittore... Questa vena artistica che si sviluppa malgrado la deficienza mentale non è poi così sorprendente dopotutto. L’intelligenza astratta e raziocinante misurabile e definibile dai test, questa logica ammirevole e quasi meccanica si trova menomata presso i trisomici. Nessuno di loro può pretendere di avere una mente matematica oltre un certo livello. Ma in quell’altra
 *ragione*
 che risiede più vicina al cuore, là dove le emozioni si avvicinano alla realtà, là dove si dice che abitino i sentimenti e la verità, in quel campo più intimo e più privilegiato, i trisomici 21 non trovano maggiori ostacoli degli altri. In questa zona dello spirito in cui si incontrano i fanciulli, gli innamorati e i poeti essi sono liberi come noi, come gli uomini possono esserlo». Così si esprime il Prof.

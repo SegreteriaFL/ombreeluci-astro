@@ -125,14 +125,14 @@ const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
         font-family: 'Raleway', sans-serif;
         font-size: 2.5rem;
         font-weight: 700;
-        color: #1a1a1a;
+        color: var(--text-color);
         margin-bottom: 1rem;
       }
 
       .author-bio {
         font-size: 1.125rem;
         line-height: 1.7;
-        color: #666;
+        color: var(--text-secondary);
         margin-bottom: 1rem;
       }
       .author-bio-content i,
@@ -149,7 +149,7 @@ const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
         gap: 2rem;
         margin-top: 1.5rem;
         font-size: 1rem;
-        color: #666;
+        color: var(--text-secondary);
       }
 
       .author-stats-item {
@@ -174,13 +174,13 @@ const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
       .articles-title {
         font-size: 2rem;
         font-weight: 700;
-        color: #1a1a1a;
+        color: var(--text-color);
         margin-bottom: 0.5rem;
       }
 
       .articles-count {
         font-size: 1rem;
-        color: #666;
+        color: var(--text-secondary);
       }
 
       .articles-grid {

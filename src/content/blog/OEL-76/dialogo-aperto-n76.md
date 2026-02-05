@@ -12,8 +12,9 @@ umap_x: 4.69085168838501
 umap_y: 7.937375068664551
 umap_z: 10.722579002380371
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 Eva è una giovane di 32 anni, affettuosa e simpatica. Di solito, è di buona compagnia, chiacchiera volentieri con tutti e tira fuori delle battute incredibili, ma se è in giornata storta glielo si legge subito in faccia. È amica mia e della mia famiglia da qualche anno e frequenta assiduamente la nostra casa. **Alcuni mesi fa, espresse con me il desiderio di ricevere la Cresima** che, per una serie di circostanze, era sempre stata rinviata. Ne parlammoconlasuamamma e con il parrocco, che approvarono con gioia, ed iniziammo subito il cammino di preparazione. **Eva si è dedicata con profonda serietà alla catechesi** ; lasciava a casa mia il libretto ed il quaderno per non rischiare di dimenticarseli e, ogni volta che mi veniva a trovare, studiava un capitolo e magari rimaneva anche a cena (le piacesempreunsacco essere invitata a cena!). **La sera del 4 agosto, quando è stata celebrata la Cresima** , erano presenti in chiesa tutti gli amici di Èva, nonostante l’afa di quei giorni. C’ero anch’io, naturalmente, ed ero proprio al suo fianco, perché mi aveva chiesto di essere la sua madrina. Èva era elegantissima e molto emozionata, addirittura commossa dopo aver ricevuto lo Spirito Santo. La partecipazione dei presenti è stata davvero calorosa ed è culminata in un forte applauso e in saluti e auguri a non finire. **Poi, tutti fino a tardi nel giardino di Eva** , dove la suamammaavevaorganizzato uno splendido rinfresco. Èva era piena di entusiasmo e di gioia per tutto ciò che stava vivendo quella sera, per il dono ricevuto, per la festa intorno a lei; io ero felice di vederla così e di esserle accanto.
 
 - **Stefania Greganti** - Senigallia, 2001

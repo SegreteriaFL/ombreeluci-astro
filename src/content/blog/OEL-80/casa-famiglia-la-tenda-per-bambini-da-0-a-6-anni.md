@@ -4,8 +4,8 @@ date: 2002-12-08
 author: Redazione
 slug: casa-famiglia-la-tenda-per-bambini-da-0-a-6-anni
 lang: it
-numero_rivista: 80
-id_numero: OEL-80
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-80"
 issue_number: OEL-80
 wp_id: 25587
 original_url: "https://www.ombreeluci.it/?p=25587"
@@ -17,7 +17,6 @@ umap_x: 7.617070198059082
 umap_y: 7.682514190673828
 umap_z: 9.422761917114258
 ---
-
 ARoma, in via Portuense, (dietro la Casa generalizia delle suore figlie del Crocefisso) sorge una vasta casa circondata da giardino. Si entra attraverso una porta vetrata e ci si trova in un locale luminoso e colorato tra lettini, giocattoli, contenitori vari, tricicli e seggioline. Una bimba piccolissima sta facendo fisioterapia, un’altra fa merenda, una terza ci viene incontro e ci fa da scorta. Siamo nel cuore della «Tenda» la Casa Famiglia per bambini dai 0 ai 6 anni voluta da Angelo e Maria Grazia. Questa coppia di giovani amici si sono sposati 17 anni orsono con un’idea ben chiara in mente: non limitarsi alla vita famigliare, non chiudersi a difesa del proprio privato ma restare aperti e disponibili a quanto accade intorno, considerando possibile campo d’azione la realtà che li circonda.
 
 ### Ieri

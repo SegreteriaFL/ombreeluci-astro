@@ -4,8 +4,8 @@ date: 2006-03-30
 author: Redazione
 slug: questo-bambino-lo-amo
 lang: it
-numero_rivista: 93
-id_numero: OEL-93
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-93"
 issue_number: OEL-93
 wp_id: 31481
 original_url: "https://www.ombreeluci.it/?p=31481"
@@ -17,7 +17,6 @@ umap_x: 5.438384056091309
 umap_y: 9.504172325134277
 umap_z: 7.621453762054443
 ---
-
 I
 sabelle de Mézerac e suo marito aspettano il loro quinto figlio, quando, al terzo mese di gravidanza, i medici annunciano che il bambino è colpito da trisomia 18, un handicap fatale. Decidono di accompagnare Emmanuel fino alla fine della sua vita. La diagnosi era senza appello. Il bambino che aspettavo sarebbe nato per morire. Mi sono ritrovata in uno stato di sofferenza inimmaginabile. Non sapevo assolutamente più a che punto ero, né cosa fare. Mi trovavo in una situazione di vulnerabilità e di dipendenza totale dalle parole degli altri. Il dolore era talmente intenso che volevo solo liberarmene. L'unica proposta fatta dai medici era di interrompere la gravidanza. Il risultato di questa risposta è stata di aggiungere altro dolore. Il medico aveva avuto la grande onestà di aggiungere: "Vi avviso, la maggior parte delle coppie si riprendono molto difficilmente dall’interruzione di gravidanza". La situazione era talmente insopportabile che mi sono detta: no, forse c’è qualche cosa d’altro da fare, non so cosa, ma forse... E piano piano dal mio cuore si è atfacciata un’altra decisione. Si presentava nella mia testa come dei flash, come dei lampi. Mi sono detta: se dovessi affrontare una situazione simile con uno dei miei altri figli, per una leucemia fulminante per esempio, cosa farei? Senza l’ombra di dubbio l’accompagnerei fino in fondo, e vorrei approfittare di tutto il tempo che ci resta da vivere insieme per dirci tutto e conoscerci. Nel profondo soffrivo della scoperta della malattia del mio bambino, ma non volevo precipitare nella sua morte. Allora perché anticiparla? Tutte queste idee tornavano regolarmente e hanno portato me e mio marito alla decisione che ho presentato al medico il giorno dopo: "Desidero proseguire la gravidanza!" Non sapevo se era possibile... e per mio marito non lo era. Ebbene sì! Il medico mi ha immediatamente proposto di seguirmi durante il resto della gravidanza. Il suo atteggiamento è stato estremamente rispettoso, pieno di umanità, nell’accompagnarci nella nostra decisione. Questo ha avuto un grosso impatto su di me poiché ero riconsiderata prima di tutto come una mamma incinta e questo mi ha rasserenato. Dopo aver preso la decisione insieme, mio marito mi ha pienamente sostenuta. Appena era al lavoro non ci pensava più, era preso dalla sua vita; ma io non potevo astrarmi neanche un attimo da quello che stavo vivendo. Un giorno ho chiesto a mio marito: Soffri?" Mi ha risposto: "Soffro ogni volta che ti vedo." Abbiamo condiviso lo stesso dolore con la stessa intensità anche se in noi due si esprimeva diversamente. Mio marito soffriva ma in un modo completamente diverso che non riuscivo a capire pienamente. Alcune persone mi hanno rimproverato: "Si rende conto della sofferenza che ha imposto ai suoi figli?" Ma non sono io che ho provocato questa sofferenza, si è imposta a noi così come ai nostri figli. Non volevamo questa sofferenza, ma forse la possiamo vivere in modo diverso da quello che ci propongono oggi. Nello stesso modo, i medici non mi hanno imposto una sofferenza inutile, si è imposta anche a loro. Preferiscono seguire dei bambini che stanno bene. Anche per loro annunciare una diagnosi di questo tipo è una sofferenza. "E perché sei cattolica che fai questo?" mi hanno detto. Allora mi arrabbiavo: "No! Non avete capito niente, lo amo questo bambino."
 

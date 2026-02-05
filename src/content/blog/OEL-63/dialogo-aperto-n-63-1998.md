@@ -4,8 +4,8 @@ date: 1998-09-28
 author: Redazione
 slug: dialogo-aperto-n-63-1998
 lang: it
-numero_rivista: 63
-id_numero: OEL-63
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-63"
 issue_number: OEL-63
 wp_id: 12279
 original_url: "https://www.ombreeluci.it/?p=12279"
@@ -15,7 +15,6 @@ umap_x: 4.658474445343018
 umap_y: 7.764621257781982
 umap_z: 10.520125389099121
 ---
-
 ### Un uomo in bilico
 
 In genere, non sopporto il fluviale magnetofono delle chiacchiere che hanno lo scopo di incoraggiarti, ma esse invano costituiscono solo delle ininfluenti gocce d’acqua su un marmoreo piano inclinato. Talvolta, oberato dallo sconforto mi pare si stacchino ad uno ad uno tutti i fili che mi legano alla vita e questa disperante situazione cataloga senza fine la propria impotenza di fronte a frustranti tentativi. Nell’attuale periodo di avviluppante inquietudine e di inesausta malinconia cerco di raccontare in questo periodico, per accenni, la mia personale storia di dolore. Sono il padre di una ragazza ventisettenne, Lia, affetta da quindici anni da disagi psichici. È inutile analizzare la via accidentata e faticosa trascorsa tra strutture pubbliche e professionisti privati, con tentativi inconcludenti e delusioni patite. Esperienza ovviamente non incoraggiante, con professionisti quasi sempre inadeguati e spesso privi perfino di quel pizzico di umanità che dovrebbe essere pregiudizialmente garantita in questa delicata attività. Tra l’altro, ho constatato sulla pelle l’impreparazione di psicologi che ormai considero al metro del tanto a chilo, tale è la mia radicata disistima nei loro confronti. Un’opportuna menzione alla malfamata legge 180, nelle intenzioni degli utopici legislatori avrebbe dovuto almeno alleviare le condizioni dei disabili psichici; purtroppo questa normativa, alla luce di una tremenda e sperimentata realtà ha aggravato molte volte le condizioni dei malati e talvolta ha arrecato disperazione e perfino morte ai familiari, privati di una assistenza indispensabile ed unica. Mancanza di strutture adeguate, di case di cura efficienti e possibilmente accessibili non soltanto a rampanti miliardari. Case-famiglia per una permanenza confacente a soggetti con specifici problemi intermedi. Ed i *cahiers de doleance* potrebbero continuare, di contro me ne astengo in questa sede. Ma questa personale storia intessuta e protratta da smorfie di dolore vissute vorrebbe avere uno sbocco propositivo, al fine di tentare di aiutare tutti gli interessati lettori di questo periodico. In tale disarmata situazione, si sa, noi tutti viviamo chiusi in una bolla di solitudine senza scampo. Queste mie note non vogliono avere perciò l’intento di una lamentosa disamina di un vissuto scarnificante, ma con proposito costruttivo vorrei lanciare un invito che, tra l’altro, potrebbe avere l’intento di lasciare tra le persone che mi leggono, un varco, una porta, uno spazio utile a tutti. La proposta è la seguente: sprono tutti i lettori a raccontare la personale sinfonia di affanni, le esperienze sofferte macerate nel corso degli anni. Le nostre esperienze descritte possono sì avere un valore esiguo, metaforicamente scritte su una carta velina spesso lisa, però impreziosite e quindi ricamate perché sgorgano da patite esperienze. Inoltre queste storie potrebbero avere anche il significato di un sacrosanto sfogo per manifestare, da straordinari testimoni, la disperazione e la rabbia, la stanchezza ed il disagio opprimente, la lacerazione interna. In un secondo tempo, garante la direttrice di OMBRE E LUCI, potremmo riunirci per tentare di costituire magari un’associazione, foriera di utili, futuri sviluppi. Mi auguro che questa modesta proposta abbia un seguito ed intanto spero che siano meno stressanti le vacillanti tinte del mio crepuscolo. **Franco**

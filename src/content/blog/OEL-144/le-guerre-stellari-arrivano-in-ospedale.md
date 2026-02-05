@@ -12,8 +12,9 @@ umap_x: 6.709986209869385
 umap_y: 8.420690536499023
 umap_z: 6.648814678192139
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 **Thomas**
 è un ragazzino di 15 anni con un ritardo cognitivo dai
 **tratti autistici**

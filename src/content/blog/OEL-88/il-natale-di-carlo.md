@@ -4,8 +4,8 @@ date: 2004-12-14
 author: Luci0 Colombaro
 slug: il-natale-di-carlo
 lang: it
-numero_rivista: 88
-id_numero: OEL-88
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-88"
 issue_number: OEL-88
 wp_id: 30503
 original_url: "https://www.ombreeluci.it/?p=30503"
@@ -17,7 +17,6 @@ umap_x: 5.750136852264404
 umap_y: 6.051395893096924
 umap_z: 12.219173431396484
 ---
-
 I
 l Natale è la ricorrenza meglio tramandata nelle famiglie dove il senso della cristianità è stato il baricentro intorno a cui siamo cresciuti, senza per questo essere immuni, purtroppo, oggi dalla sfrenatezza del consumismo natalizio. Ma ormai il Natale è anche questo! Infatti i preparativi iniziano con le martellanti pubblicità sin dalla fine di ottobre e continuano senza soste fino a Natale inoltrato. Così, un po’ tutti, incominciamo a programmare la nostra vita in attesa della santa ricorrenza. Nella nostra famiglia la cadenza delle cose da fare e di come farle è dettata da nostro figlio Carlo che in mille modi riesce a farci capire l’importanza del vivere insieme a tutta la famiglia la festa di Natale. Innanzitutto dobbiamo riunire tutti, o quasi tutti, icomponenti la famiglia e questo lui incomincia a programmarlo anche più di un mese prima che arrivi il Natale facendone addirittura una sorta di elenco e si badi bene, nessuno deve sottrarsi al suo invito che ripete continuamente. Segue con particolare attenzione ogni gesto e ogni discorso che abbia qualsiasi riferimento al3l’evento esprimendo tutta la sua contentezza con grida di gioia e salti dalla carrozzella. Per lui il collegamento inverno-Natale significa, anche, accendere il caminetto e stare intorno ad esso per meglio seguire tutta la fase organizzativa della festività. In contemporanea, seguendo discorsi e spot pubblicitari, ci ricorda che è l’ora di addobbare l’albero di Natale, solitamente con molto anticipo rispetto alla tradizione (8 dicembre) per riporlo il giorno dell’Epifania (6 gennaio). L’addobbo dell’albero, non è fine a se stesso ma traguardo a un altro evento che percepisce con una gioia ansiosa: I REGALI! Giorno dopo giorno guarda contento i pacchetti-regalo che si accumulano sotto l’albero e che nessuno deve toccare fino al giorno di Natale. Quando finalmente arriva questo giorno, di buon mattino, tutta la famiglia è chiamata a far festa tra mille trambusti di nastri e carte. A lui non importa quanti e quali regali; è importante che tutti insieme, a volte ancora assonnati, esprimiamo la gioia della sorpresa. Alla fine siamo tutti soddisfatti, non solo dei regali che spesso sono solo simbolici, ma soprattutto del valore più importante che Carlo riesce a trasmetterci:"vivere tutti insieme anche le piccole gestualità della festa del Santo Natale".
 *Lucio Colombaro*

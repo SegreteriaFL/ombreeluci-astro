@@ -14,7 +14,8 @@ umap_x: 10.203934669494629
 umap_y: 9.6626558303833
 umap_z: 11.831830024719238
 issue_number: OEL-50
-id_numero: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
 ### Michela ha segnato la nostra vita
 

@@ -12,7 +12,8 @@ umap_x: 8.767725944519043
 umap_y: 9.401596069335938
 umap_z: 10.839282035827637
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 Ilmio personale ricordo di Papa Francesco è in uno dei tanti doni che mi ha lasciato Pippi (Emanuela), frammenti di quella luce con cui sapeva «contagiare» tutto ciò che la circondava. Era il 2015, il giorno del Giubileo dedicato alle persone con disabilità. Io e Marina accompagnavamo Pippi, quando le Guardie Svizzere ci separarono dal resto della comunità per farci posizionare tra le prime file. Non avevamo idea che da lì a poco avremmo incontrato il Papa! Quando arrivò, Francesco per prima cosa ebbe la premura di far rimettere a Pippi il cappellino per proteggerla dal sole, e pensare che noi lo avevamo tolto per farle ricevere la benedizione! Poi, sempre con grande naturalezza, ci domandò il nome di Pippi e se una di noi fosse la mamma. Sorrise quando rispondemmo che eravamo solo tre amiche.Ci benedisse tutte e ci salutò con una dolcezza che scaldava il cuore. Fu un incontro semplice. Il tono era quello di un qualunque sacerdote che incontra un suo parrocchiano la domenica al termine della messa. In fondo lui era semplicemente il Papa.
 

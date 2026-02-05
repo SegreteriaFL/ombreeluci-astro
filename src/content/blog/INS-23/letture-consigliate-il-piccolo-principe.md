@@ -12,8 +12,9 @@ umap_x: 7.870806694030762
 umap_y: 10.748699188232422
 umap_z: 4.905621528625488
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 **Un guasto al motore e un aviatore si ritrova improvvisamente solo in mezzo al deserto** : per compagni solo la sabbia, il silenzio, le stelle...
 
 **Ad un tratto sente una voce accanto a lui** e una strana domanda "Mi disegni una pecora?". È il Piccolo Principe, un ragazzino venuto da un lontano piccolo pianeta che con la sua presenza ed i suoi racconti - ingenui ma pieni di filosofia - gli tiene compagnia fino a che l'aereo non è pronto per ripartire.

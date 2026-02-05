@@ -14,8 +14,9 @@ umap_x: 9.080120086669922
 umap_y: 7.781174659729004
 umap_z: 8.881438255310059
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 **N ei gruppi "Fede e Luce" spesso si fa teatro.** Uomini e donne, mamme e papà, bambini piccolissimi e amici alti due metri, diventano improvvisamente attori pronti ad affrontare qualsiasi ruolo, tragico o comico sotto la guida di un regista altrettanto improvvisato. E intorno al palcoscenico ci si dividono gli altri compiti: ci sono i costumisti, gli scenografi, gli elettricisti, i trovarobe. Tutto avviene come nei teatri veri, ma con maggiore entusiasmo ed eccitazione. Potrebbe sembrare un passatempo come un altro, un modo per fare festa, un gioco e anche per noi all'inizio era soltanto questo. Poi, pian piano abbiamo scoperto quanto è importante questo passatempo e quante scoperte permette di fare questo gioco.
 
 **Prima di tutto: la gioia.** Anche i ragazzi di solito seri, e un po' chiusi in se stessi, sono felici di travestirsi, di cambiare aspetto, di diventare un altro da se stesso, un altro che fa ridere, o che fa paura, o che è potente, bello, importante.... a seconda di quello che si desidera essere in quel momento.

@@ -1,15 +1,39 @@
 ---
 id: "OEL-38"
-title: "Numero 38 - Chi aiuta la famiglia? Terapisti, amici, educatori"
+title: "Numero 38 – Chi aiuta la famiglia? Terapisti, amici, educatori"
 tipo: "ombre-e-luci"
 numero: 38
-anno: "1992"
+sort_order: 137
+pubDate: "1992-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 1992"
 sommario: "I protagonisti di questo numero sono: Lelia, Giacomo, Roberta e Viviana. Le loro quattro brevi presentazioni dicono quanto può essere fatto per offrire un’esistenza serena e fruttuosa a chi, come loro, parte svantaggiato"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_38_1992.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuci_039"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-38-chi-aiuta-la-famiglia-terapisti-amici-educatori/"
+articoli:
+  - "oltre-la-famiglia-gli-specialisti-gli-amici"
+  - "lelia"
+  - "giacomo"
+  - "roberta"
+  - "viviana"
+  - "come-essere-amici"
+  - "chi-aiuta-la-famiglia-gli-specialisti"
+  - "dialogo-aperto-n-39"
+  - "la-pazzia-e-lamore-un-cammino-verso-lanima-del-malato-di-mente"
+  - "ascolto-che-guarisce"
+  - "giobbe-perche-dialogo-di-una-madre"
+  - "quando-la-crisi-insegna-a-vivere-esperienza-positiva-del-dolore"
+  - "oltre-la-famiglia-gli-specialisti-gli-amici"
+  - "come-essere-amici"
+  - "lelia"
+  - "giacomo"
+  - "roberta"
+  - "vita-fede-e-luce-n-38"
+  - "la-pazzia-e-lamore-un-cammino-verso-lanima-del-malato-di-mente"
+  - "ascolto-che-guarisce"
+  - "giobbe-perche-dialogo-di-una-madre"
+  - "quando-la-crisi-insegna-a-vivere-esperienza-positiva-del-dolore"
 ---
 
 ## Indice

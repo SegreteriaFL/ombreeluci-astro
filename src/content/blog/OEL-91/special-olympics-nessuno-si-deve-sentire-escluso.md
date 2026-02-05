@@ -4,8 +4,8 @@ date: 2005-09-19
 author: Huberta Pott
 slug: special-olympics-nessuno-si-deve-sentire-escluso
 lang: it
-numero_rivista: 91
-id_numero: OEL-91
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-91"
 issue_number: OEL-91
 wp_id: 31031
 original_url: "https://www.ombreeluci.it/?p=31031"
@@ -18,7 +18,6 @@ umap_x: 8.948507308959961
 umap_y: 5.175257682800293
 umap_z: 9.012106895446777
 ---
-
 Special Olympics è stato fondato nel 1968 da Eunice Kennedy Shriver, sorella del presidente americano John F. Kennedy ed è riconosciuto dal Comitato Olimpico Internazionale. In Italia è riconosciuto dal CONI come Associazione Benemerita.
 
 [Special Olympics](https://www.specialolympics.it/) è un programma internazionale di allenamento sportivo e di competizioni atletiche per ragazzi e adulti con disabilità intellettiva senza limiti di età. * E' presente in più di 160 paesi del mondo e, secondo i dati che fornisce, conta più di un milione di ragazzi aderenti. In ciascun paese ogni anno si svolgono alcuni giorni di gare — appunto le Special Olympics — alle quali partecipano tutti gli atleti del paese stesso. Queste gare rappresentano l’obiettivo nel quale culmina la preparazione dell’anno. A Roma nel 2006 si svolgeranno, per la prima volta, Giochi Europei, ai quali parteciperanno delegazioni provenienti da molti paesi dell'Europa, anche orientale.

@@ -1,15 +1,28 @@
 ---
 id: "OEL-68"
-title: "Numero 68 - “Per loro non c’è posto”"
+title: "Numero 68 – “Per loro non c’è posto”"
 tipo: "ombre-e-luci"
 numero: 68
-anno: "1999"
+sort_order: 167
+pubDate: "1999-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 1999"
 sommario: "Ombre e Luci n. 68 – Per loro non c’è posto ultima modifica: 1999-12-28T16:46:43+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_68_1999.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_68/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/OmbreELuciN_68/oel-68.pdf"
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-68-per-loro-non-ce-posto/"
+articoli:
+  - "se-qualcuno-bussa"
+  - "voglio-credere"
+  - "proprio-una-normalissima-famiglia"
+  - "cecilia-vuole-una-casa"
+  - "gioco-come-questa-casa"
+  - "irene-e-i-suoi-in-casa-maria-grazia"
+  - "io-prete-ho-adottato-valentino"
+  - "comunita-il-ricino-di-giona"
+  - "con-le-porte-sempre-aperte"
+  - "consigli-per-una-casa-aperta"
+  - "dialogo-aperto-n-68"
 ---
 
 ## Indice

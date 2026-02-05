@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "comunita-alloggio-per-persone-con-handicap-intellettivo"
 lang: it
-numero_rivista: 53
-id_numero: OEL-53
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-53"
 issue_number: OEL-53
 wp_id: 10511
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
-
 Intervento di [Mariangela Bertolini](http://www.ombreeluci.it/author/mariangela-bertolini/), a nome di [Fede e Luce](http://www.fedeeluce.it/), al convegno su «Handicap e residenzialità protetta» tenuto dalla CGIL a Roma il 26 ottobre 1995.
 Scopo del mio intervento è dare un po’ di speranza concreta alle migliaia di genitori in Roma che aspettano con angoscia la creazione di Comunità alloggio per i loro figli adulti con handicap intellettivo più o meno grave.
 I miei suggerimenti, perciò, non si riferiscono alle persone con handicap fisico o sensoriale e neppure alle persone che, per loro condizione, richiedono attrezzature, strutture e personale specificatamente sanitario (R.S.A.) (1).

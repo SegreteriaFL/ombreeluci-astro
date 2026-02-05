@@ -14,7 +14,8 @@ umap_x: 5.520887851715088
 umap_y: 10.186834335327148
 umap_z: 7.127410888671875
 issue_number: OEL-37
-id_numero: OEL-37
+id_numero: "OEL-37"
+numero_rivista: "Ombre e Luci"
 ---
 *Qual’è il modo giusto per annunciare ai genitori che il loro figlio appena nato è un bambino Down? Ecco le regole definite, dopo tanti errori e sofferenze, da cinque istituzioni particolarmente interessate:*
 - Armonia di qualità diverse; - Associazione bambini Down; - Università cattolica del Sacro Cuore, Roma; - Università «La Sapienza», Roma; - Università degli Studi di Perugia.

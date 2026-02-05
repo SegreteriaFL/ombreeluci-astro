@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Perché risponde a un bisogno: incontri, momenti "insieme" richiedono organizzazione (cosa fare? dove? quando?) [nota]Ricordiamo che gli incontri - piccoli o grandi - delle comunità Fede e Luce prevedono tre momenti: 1. di conoscenza (accoglienza, scambio, approfondimento...) 2. di festa (giochi, canti, mimi, merenda) 3. di preghiera (riflessione sul Vangelo, silenzio, celebrazione eucaristica, veglia...).[/nota] ma anche "animazione" di quanto è stato previsto.
 
 "Animazione", cioè far partecipare è un ruolo che sappiamo fare tutti poco o niente. -Siamo timidi, impacciati...non so farlo... io non l'ho mai fatto...- E allora ci affidiamo alla buona volontà e alla spontaneità, supponendo importanti dell'animazione che richiede però qualche principio di base per essere fatta meglio.

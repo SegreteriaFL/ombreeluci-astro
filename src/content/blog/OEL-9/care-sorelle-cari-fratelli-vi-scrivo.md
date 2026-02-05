@@ -16,7 +16,8 @@ umap_x: 5.282024383544922
 umap_y: 10.25548267364502
 umap_z: 9.118708610534668
 issue_number: OEL-9
-id_numero: OEL-9
+id_numero: "OEL-9"
+numero_rivista: "Ombre e Luci"
 ---
 Cari amici, vi incontro, molto spesso, in ambulatorio dove accompagnate vostro fratello o vostra sorella e mi avrebbe fatto piacere parlarvi e, soprattutto, ascoltarvi di più. Nel vostro sguardo scorgo tanti interrogativi che hanno paura a venir fuori. Il vostro atteggiamento testimonia, il più delle volte, un’immensa tenerezza per questo fratello maggiore o più piccolo, così limitato nei movimenti o nell'espressione, ma spesso straripante di vita...
 > Il nostro cuore di uomini, a volte così generoso, ha molte difficoltà a voler bene giorno dopo giorno.

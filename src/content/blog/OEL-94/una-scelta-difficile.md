@@ -4,8 +4,8 @@ date: 2006-07-21
 author: Mariangela Bertolini
 slug: una-scelta-difficile
 lang: it
-numero_rivista: 94
-id_numero: OEL-94
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-94"
 issue_number: OEL-94
 wp_id: 31934
 original_url: "https://www.ombreeluci.it/?p=31934"
@@ -17,7 +17,6 @@ umap_x: 5.076523780822754
 umap_y: 9.1846923828125
 umap_z: 7.109557151794434
 ---
-
 Come trovare le parole giuste e delicate per parlare di un argomento così impegnativo? Non si tratta infatti di proclamare una volta di più diritti e doveri, del resto molto noti e ‘sui quali si è tanto parlato. L'attesa di un bimbo è uno dei momenti più delicati per la vita di due sposi che, il più delle volte, quel bimbo hanno desiderato con amore, sognato come coronamento al loro donarsi l’un l’altro. Con quanta trepidazione si aspettano i primi segnali della sua presenza; con quale tenerezza gli si comincia a parlare perché sappia fin da subito che è già amato e che non si vede l’ora di ammirarne il volto, gli occhi, il sorriso. Si spera, si sogna, si attende. Qualche volta però un esame, una visita, un'ecografia vengono a turbare, a sconvolgere la speranza, i sogni, l'attesa. C'è qualcosa che non va! C'è un piccolo problema... Comincia allora un lungo calvario di analisi e controanalisi, di detto e non detto, di chiaro e confuso. Se i medici non sanno accompagnare con competenza e con saggezza questo momento così drammatico; se non sono capaci di spiegare con semplicità e con partecipazione quello che sta succedendo a quell’esserino in formazione; se non sanno mettersi nei panni di chi sta ascoltando — mamma e papà confusi e preoccupati — per aiutarli a capire fino in fondo che al di là della diagnosi c'è un figlio che aspetta di conoscerli e di lasciarsi amare e coccolare così com'è. Se chi è vicino — parenti e amici — non sono pronti a condividere la pena, a offrire tutto il loro sostegno incondizionato; se i due genitori, invece di stringersi ancor più nell’amore promesso, si allontanano uno dall’altro perché troppo feriti o incapaci di far fronte all'evento; allora è molto facile cadere nel panico, nell’angoscia, nel terrore di non farcela. E si sprofonda nel vuoto e nella notte. Oppure... Le pagine che seguono vorrebbero solo aiutare a capire un po’ meglio e certamente non in modo esaustivo, come sia importante per tutti — non solo per chi ci si trova dentro — conoscere, informarsi, accompagnare e sostenere in concreto e con grande affetto chi si trova ad affrontare un'attesa difficile perché possa glielo auguriamo di cuore — tenere fra le braccia il suo bambino che, comunque sarà, saprà riversare il suo amore su chi ha avuto la forza e l’eroismo di amarlo fino in fondo.
 *Mariangela Bertolini*
 , 2006

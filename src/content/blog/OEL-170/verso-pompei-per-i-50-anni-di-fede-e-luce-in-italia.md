@@ -18,7 +18,8 @@ umap_x: 8.27104663848877
 umap_y: 8.753381729125977
 umap_z: 12.936518669128418
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 Cinquant’anni di storia, una lunga avventura che prosegue in Italia dal 1975. Una bella avventura, che viene portata avanti con tutte le fatiche di questi nostri tempi complicati, ma che rimane viva grazie ai legami tessuti in questo cammino, che tocca tante regioni, tante comunità.
 

@@ -16,8 +16,9 @@ umap_x: 8.97305679321289
 umap_y: 7.984042167663574
 umap_z: 7.762659072875977
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Dopo le stazione di Milano Centrale e di Torino Porta Nuova, la mostra AbiliOltre arriva alla stazione di Roma Ostiense per 3 giorni, in occasione della
 **Giornata Mondiale del Servizio sociale**
 .

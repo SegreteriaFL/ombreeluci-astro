@@ -4,8 +4,8 @@ date: 2003-06-23
 author: Redazione
 slug: amore-e-disabilit-facile-preda
 lang: it
-numero_rivista: 82
-id_numero: OEL-82
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-82"
 issue_number: OEL-82
 wp_id: 26810
 original_url: "https://www.ombreeluci.it/?p=26810"
@@ -18,7 +18,6 @@ umap_x: 7.305669784545898
 umap_y: 10.167752265930176
 umap_z: 8.429662704467773
 ---
-
 Molto instabile e influenzabile, Cristiano ha perduto la capacità di autocontrollo. Le emozioni lo invadono completamente. **Nel campo sessuale le pulsioni sono esasperate e lui è preda di chiunque** , il che lo mette nelle situazioni più scabrose. Per esempio: un automobilista gli propone di salire in macchina. Lui accetta. L’automobilista si rivela omosessuale. Gli sfruttatori lo riconoscono come una preda facile. Una donna molto più anziana lo attira in un legame passionale. Lui appaga le sue esigenze sessuali improvvise, bene o male, con delle prostitute.
 
 **Cristiano ci parla volentieri delle sue difficoltà e questo ci permette di rimediare alle situazioni.** Grazie ai nostri colloqui il peggio, spesso, è evitato.

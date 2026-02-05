@@ -14,8 +14,9 @@ umap_x: 6.883181571960449
 umap_y: 7.93226957321167
 umap_z: 9.821940422058105
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il
 primo a chiamarli appena diffusa la notizia del
 [riconoscimento del Presidente della Repubblica](https://www.quirinale.it/elementi/60983)

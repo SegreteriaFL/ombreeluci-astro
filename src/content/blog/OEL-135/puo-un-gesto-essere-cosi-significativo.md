@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-135
-id_numero: OEL-135
+id_numero: "OEL-135"
+numero_rivista: "Ombre e Luci"
 ---
 Quando Antonino ha messo addosso a Papa Francesco il foulard di Fede e Luce, durante il giubileo di giugno 2016, ho sentito una forte emozione. Le lacrime sono scese giù da sole… Perché? …anch’io mi sono chiesta.
 

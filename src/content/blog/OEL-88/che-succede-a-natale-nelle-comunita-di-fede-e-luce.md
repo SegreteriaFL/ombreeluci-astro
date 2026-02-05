@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "che-succede-a-natale-nelle-comunita-di-fede-e-luce"
 lang: it
-numero_rivista: 88
-id_numero: OEL-88
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-88"
 issue_number: OEL-88
 wp_id: 30593
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 ### A Conselve (Padova)
 
 La comunità"Raggi di Sole" dà inizio alla celebrazione due settimane prima partecipando al"Mercatino Caritas", vendendo in una bancarella oggetti preparati dal Gruppo e da amici vicini. Il ricavato è destinato ad alcuni progetti nel terzo Mondo e l'adesione del gruppo serve per sensibilizzare la Comunità al bisogno di altri, per partecipare a una iniziativa della parrocchia, per far conoscere la realtà di Fede e Luce...

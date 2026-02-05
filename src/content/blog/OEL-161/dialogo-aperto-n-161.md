@@ -12,7 +12,8 @@ umap_x: 8.593050956726074
 umap_y: 9.433180809020996
 umap_z: 10.845690727233887
 issue_number: OEL-161
-id_numero: OEL-161
+id_numero: "OEL-161"
+numero_rivista: "Ombre e Luci"
 ---
 ### Lavorare al Sinodo, chiamati da Papa Francesco
 

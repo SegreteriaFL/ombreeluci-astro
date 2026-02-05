@@ -4,8 +4,8 @@ date: 1996-06-14
 author: Natalia Livi
 slug: lettere-sul-dolore-uno-sguardo-sul-mistero-della-sofferenza
 lang: it
-numero_rivista: 54
-id_numero: OEL-54
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-54"
 issue_number: OEL-54
 wp_id: 10615
 original_url: "https://www.ombreeluci.it/?p=10615"
@@ -15,7 +15,6 @@ umap_x: 7.857972145080566
 umap_y: 11.198934555053711
 umap_z: 6.251649379730225
 ---
-
 wp:divi/placeholder
 
 Tra il 1930 e il 1950 Emmanuel Mounier fu una personalità di spicco nell’ambito del pensiero filosofico cattolico conosciuto sotto il nome di «Personalismo». Fu amico di Maritain, di Danielou e di altri grandi pensatori del suo tempo ed ebbe una vita breve (appena 45 anni) ma ricchissima di attività e di studio. Il Personalismo combatteva sia l'individualismo astratto che il collettivismo assolutista e vedeva «la persona» come centro di una relazione verticale (con Dio) e orizzontale (con gli uomini) in armonia fra loro. Il «Cristo vivente al centro della propria vita» fu dunque la concezione di base di Emmanuel Mounier e ad essa egli ispirò la sua vicenda quotidiana. Il libro che presentiamo è un'antologia dei suoi pensieri sul tema del dolore tratti dalle lettere e dai diari. Di fronte a una vita cosi variegata, così travagliata per le difficoltà di lavoro, l'ambiente non sempre consono ai suoi ideali, la guerra, e in modo particolare, la malattia e la morte di una figlia profondamente colpita, noi non possiamo che affidare queste pagine alla riflessione dei nostri lettori perché ne raccolgano il messaggio con delicatezza e gratitudine.

@@ -12,8 +12,9 @@ umap_x: 8.316231727600098
 umap_y: 5.853890419006348
 umap_z: 10.543255805969238
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Buon pomeriggio, miei cari lettori. Vi ricordate che tempo fa nell'ultimo pezzo vi ho detto che vi aggiornavo sulla [Piccola Marcia](https://www.fedeeluce.it/2023/08/08/piccola-marcia-assisi-2023/) ? Beh, anche quest'anno l’ho fatta, però è stata un po' diversa, anche perché, tra l'altro, prima di partire ho fatto una sosta al Giubileo dei Giovani.
 
 Detto questo, il giorno dopo siamo partiti per la Piccola Marcia. **È stato un po' strano perché quest'anno non c'era il nostro caro Pietro.** Ossia l'aiutante in cucina, no? Però è stata anche un po' diversa perché non abbiamo fatto gli stessi chilometri di cammino, e non c'erano le altre marce nell'entrata nella chiesa di San Francesco. Però è anche vero che è stata una Piccola Marcia sentita. Questo è il terzo anno di seguito in cui partecipo anche se mi hanno detto che la Piccola Marcia si può fare solo un anno. Ma la Piccola Marcia è come se con San Francesco ci cammini a fianco, no? E questo cammino va fatto tante volte.

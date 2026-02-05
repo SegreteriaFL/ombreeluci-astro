@@ -15,8 +15,9 @@ umap_x: 8.976173400878906
 umap_y: 5.143211841583252
 umap_z: 9.004292488098145
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Dal 13 al 18 gennaio oltre 500 atleti sono stati protagonisti dei **Giochi Nazionali Invernali Special Olympics** che nel 2019 segnano un bel traguardo: la **XXX edizione** . Dopo la bellissima esperienza vissuta a marzo del 2018 i comuni di Bardonecchia e Valsusa si sono fortemente riproposti per ospitare ancora i Giochi Special Olympics. La ridente località non è nuova ai grandi eventi sportivi; ricordiamo che nel Febbraio 2006 è stata una delle sedi dei XX Giochi olimpici invernali, per i quali ha ospitato le gare di snowboard; è stata anche sede di uno dei tre villaggi olimpici.
 
 Gli atleti in gara si sfidano come sempre in diverse specialità sportive: dallo **sci alpino** allo **sci di fondo** , dalla **corsa con le racchette da neve** allo **snowboard** . **La disabilità intellettiva lascia dunque il passo alle capacità** che gli atleti Special Olympics sanno mettere in pista quando si tratta di tener fede al loro Giuramento: “ *Che io possa vincere, ma se non riuscissi, che io possa tentare con tutte le mie forze* ” .

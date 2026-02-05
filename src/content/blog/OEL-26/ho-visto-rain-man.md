@@ -15,7 +15,8 @@ umap_x: 8.508907318115234
 umap_y: 8.708941459655762
 umap_z: 3.4531984329223633
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 Un giovane statunitense rampante scopre, alla morte del padre, di avere un fratello autistico ospite da tanti anni di un istituto per persone handicappate, al quale il padre ha lasciato praticamente tutto. Mosso esclusivamente dall’avidità, il giovane rapisce suo fratello sperando, ottenuta la tutela, di diventare beneficiario dell’enorme eredità. Ma i diversi giorni passati insieme portano i due fratelli a conoscersi e a riconoscersi, attraverso vaghi ricordi d’infanzia e pian piano si instaura fra loro un rapporto che li porta a non voler rinunciare l’uno all’altro. Questa, in sintesi, la trama di Rain Man, un bellissimo film che ha, appunto, come protagonisti due fratelli di cui uno colpito da un tipo di autismo che non conosco personalmente, con fissazioni e deficit da una parte ma anche capacità mnemoniche e algebriche fuori dal comune. La mancanza di familiarità con questo handicap mi ha condizionato in alcuni passaggi del film, nei quali il personaggio mi è sembrato poco realistico perché troppo reattivo ai dialoghi e alle situazioni. Ciò che invece mi ha assolutamente conquistato è la straordinaria delicatezza con cui Dustin Hoffman interpreta questo personaggio, senza «caricaturizzarlo» o renderlo ridicolo per suscitare la risposta dello spettatore.
 

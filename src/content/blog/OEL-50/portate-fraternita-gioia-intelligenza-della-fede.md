@@ -12,7 +12,8 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: OEL-50
-id_numero: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
 Carissimi amici di Fede e Luce, sono molto lieto di potervi incontrare in questo vostro pellegrinaggio ad Assisi nel ventesimo del vostro cammino in Italia. Questo pellegrinaggio me ne ricorda un altro avvenuto ormai parecchi anni fa, sempre con voi e credo che parecchi di quelli che sono qui lo ricordino: era stato anch'esso un momento molto bello del cammino di Fede e Luce in Italia. Oggi ci ritroviamo qui, a vent anni dall'inizio del vostro servizio di carità e di amore nella nostra penisola e ci domandiamo, celebrando questo ventennio, di che cosa è stato composto, quali sono stati i frutti, i doni che lo Spirito ha suscitato in voi; frutti e doni che emergono anche in un pellegrinaggio come questo che richiede tanta fatica nella preparazione, tanta cura, tanto amore, tanta pazienza, tanta dedizione.
 

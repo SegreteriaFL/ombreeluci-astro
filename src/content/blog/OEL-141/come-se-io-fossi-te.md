@@ -12,7 +12,8 @@ umap_x: 6.9657440185546875
 umap_y: 11.009623527526855
 umap_z: 4.680894374847412
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 Andrea Caschetto è un ragazzo incredibile. Ha viaggiato in cinque continenti diversi per vivere e condividere i sorrisi di ogni popolo che ha incontrato. Ha incantato le Nazioni Unite con un discorso straordinario e ha scritto un libro in cui racconta il viaggio negli orfanotrofi di tutto il mondo ( *Dove nasce l’arcobaleno* ).
 

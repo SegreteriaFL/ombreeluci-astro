@@ -6,8 +6,8 @@ theme: "cluster-7"
 cluster_id: 7
 slug: "una-nuova-legge-lamministratore-di-sostegno-per-le-persone-con-disabilita"
 lang: it
-numero_rivista: 86
-id_numero: OEL-86
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-86"
 issue_number: OEL-86
 wp_id: 30232
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
 ---
-
 ### Una nuova legge per chi?
 
 La legge n. 6 del 9/1/2004 istituisce la figura dell’amministratore di sostegno con il compito di assistere chi “per effetto di infermità o menomazione fisica o psichica si trova nell’impossibilità anche parziale o temporanea di provvedere ai propri interessi”.

@@ -12,7 +12,8 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-106
-id_numero: OEL-106
+id_numero: "OEL-106"
+numero_rivista: "Ombre e Luci"
 ---
 “Il regista sostiene il peso di un'idea che lo tormenta e che sente il bisogno di realizzare. Ma non può farlo senza l’aiuto degli attori. Non è teatralmente indipendente come un disabile non lo è nella vita quotidiana. L’unica moneta di scambio che possiede è la sua capacità di proiezione”. Quella capacità per Dimitri, significa poter vivere, anche, attraverso il palcoscenico. Attraverso il teatro, che diventa come una prosecuzione di sé, l'estensione del proprio immaginario. E del proprio corpo.
 

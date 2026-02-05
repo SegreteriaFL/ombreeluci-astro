@@ -15,7 +15,8 @@ umap_x: 5.218651294708252
 umap_y: 8.966267585754395
 umap_z: 8.230243682861328
 issue_number: OEL-123
-id_numero: OEL-123
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
 Nel numero del dicembre scorso avete dato spazio alla voce delle mamme. Nel leggere le singole esperienze non ho potuto non pensare alla mia mamma: **una donna grande, una mamma veramente speciale** , come lo sono tante altre mamme di bambini, ragazzi, adulti a loro volta speciali.
 

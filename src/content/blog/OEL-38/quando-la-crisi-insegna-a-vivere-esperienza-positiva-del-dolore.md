@@ -12,7 +12,8 @@ umap_x: 7.6419677734375
 umap_y: 10.710699081420898
 umap_z: 6.004061698913574
 issue_number: OEL-38
-id_numero: OEL-38
+id_numero: "OEL-38"
+numero_rivista: "Ombre e Luci"
 ---
 Q
 uesto libro raccoglie una selezione di dodici autobiografie di persone «handicappate» e «disabili», scelte inizialmente da un dossier di 131 scritti, poi ampliatosi ad oltre 250.

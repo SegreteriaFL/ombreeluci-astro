@@ -7,6 +7,7 @@ cluster_id: 1
 image: "http://www.ombreeluci.it/wp-content/uploads/1990/12/oel032-009.jpg"
 slug: "accogliere-un-bambino-autistico"
 has_comments: false
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

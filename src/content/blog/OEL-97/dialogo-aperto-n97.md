@@ -4,8 +4,8 @@ date: 2007-03-02
 author: Redazione
 slug: dialogo-aperto-n97
 lang: it
-numero_rivista: 97
-id_numero: OEL-97
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-97"
 issue_number: OEL-97
 wp_id: 32387
 original_url: "https://www.ombreeluci.it/?p=32387"
@@ -15,7 +15,6 @@ umap_x: 4.5762176513671875
 umap_y: 7.664092540740967
 umap_z: 10.691521644592285
 ---
-
 ### Numero coraggioso!
 
 Vi abbraccio tutti con par- ticolare affetto e una fitta al cuore per la scomparsa di Ni- cole.... Il numero ultimo è vera- mente coraggioso perché parlare esclusivamente delle gravi malattie degli anziani è sinonimo di apertura, capaci- tà di stare di fronte a questi grandi drammi, senza negarli o sminuire la portata; ma per poterli vivere e condividere con la convinzione che non siamo soli, che Cristo è vicino a “loro” e a noi e che non dobbiamo “temere” ma te- nerci per mano e volerci be- ne, perché questa è la medici- na indispensabile per vivere e poi ... se ci fidiamo qualcuno ci dà la forza, la tenacia, la fi- ducia ogni giorno. Scriverlo è facile, special- mente in una bella mattina piena di sole di fronte al pa- norama di una bella collina, ma vivere questa fede nell’a- more provvidenziale di Dio non mi riesce quasi mai... So- no sempre rigida e troppo ambiziosa nei confronti del mio figliolone (quasi 30 anni). Vorrei che Andrea fosse “ec- cellente” in qualcosa che compensasse, in fondo, il mio orgoglio ferito di madre anco- ra troppo egocentrica... Que- sto finale lo dimostra bene! Grazie ancora per il bene che diffondete e un grande abbraccio a tutti. **Silvana Zamperoni**

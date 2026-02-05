@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 Ecco da alcuni giorni Benedetto XVI ci ha lasciato… si è ritirato. Probabilmente quando leggerete queste righe avremo un nuovo pastore, ma come mai il Papa Emerito ha fatto un gesto così clamoroso? Quanto ha meditato per deciderlo? Che cosa l’ha messo su questa strada?
 

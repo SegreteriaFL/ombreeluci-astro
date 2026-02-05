@@ -4,8 +4,8 @@ date: 1998-06-17
 author: Redazione
 slug: dialogo-aperto-n-62
 lang: it
-numero_rivista: 62
-id_numero: OEL-62
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-62"
 issue_number: OEL-62
 wp_id: 12187
 original_url: "https://www.ombreeluci.it/?p=12187"
@@ -15,7 +15,6 @@ umap_x: 4.631801605224609
 umap_y: 7.377158164978027
 umap_z: 10.650884628295898
 ---
-
 ### Non posso fare di più
 
 Vi mando un secondo elenco di offerte a

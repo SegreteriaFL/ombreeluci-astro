@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-121
-id_numero: OEL-121
+id_numero: "OEL-121"
+numero_rivista: "Ombre e Luci"
 ---
 Avevo già avuto la gioia di incontrare Jean Vanier negli anni di seminario. Ricordo che fu un momento bello, per tutti i seminaristi, con la consapevolezza di un confronto con un “gigante” della carità, grande perché piccolo. Ricordo la sua testimonianza che risplendeva proprio di questo: “occorre farsi piccoli, farsi bambini”, perché con semplicità possiamo incontrarci nella verità e nell’amore.
 Sempre in quegli anni avevo letto il suo testo “La comunità, luogo del perdono e della festa”. Mi piaceva quello stile di vita, quelle indicazioni che, partendo dall’Arche, erano valide per ogni comunità umana e cristiana. Ho cercato di trarre già da allora alcuni spunti che avrei voluto ritrovare o proporre nelle comunità cui sarei stato mandato. E quando ho conosciuto “Fede e Luce” - ancor prima di arrivare a S. Silvia, dai racconti di una mia cugina che ne faceva parte – ho visto non solo un gruppo, ma una famiglia in cui nessuno è estraneo, nessuno si sente fuori posto. Tutti danno il loro contributo in umanità, piccoli e grandi, e questo fa risplendere la bellezza della Chiesa.

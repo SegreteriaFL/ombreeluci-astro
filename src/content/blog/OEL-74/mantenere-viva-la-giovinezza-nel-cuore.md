@@ -15,7 +15,8 @@ umap_x: 7.0655598640441895
 umap_y: 9.062226295471191
 umap_z: 8.422399520874023
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 P er lungo tempo le limitazioni e **le sofferenze dovute all’handicap sono state per me un incitamento** . Con l’entusiasmo che mi è naturale e un con un po' di coraggio sono riuscita a vivere intensamente e mi sono così interessata a tante cose che la coscienza della mia infermità è sempre rimasta in secondo piano.
 

@@ -12,8 +12,9 @@ umap_x: 6.909248352050781
 umap_y: 7.187695503234863
 umap_z: 12.452371597290039
 issue_number: INS-2
+id_numero: "INS-2"
+numero_rivista: "Insieme"
 ---
-
 «Faccio bene ad andare, non darò fastidio.... non mi giudicheranno importuna...», pensavo mentre mi dirigevo ad un incontro di mamme che ancora non conoscevo, e dei loro bambini handicappati, organizzato a Roma da *Foi et Lumière* . Ed anche appena giunta, nei primi incontri il disagio non cessava. Guardavo gli occhi di quelle mamme che mi interrogavano e mi sentivo a disagio. Mi sembrava dicessero: *Perché sei qui? * *Cosa credi di poter fare per noi?*
 
 Guardavo le gambine di un bambino costretto in carrozzella e pensavo a quelle sempre in movimento dei miei figli. E mi vergognavo. Poi è iniziata la Messa... il Vangelo, Zaccheo piccolo e curioso sull'albero. Gesù lo chiama, va a casa sua, Zaccheo cambia vita, è salvo. Il celebrante spiegava: ogni bambino, ogni adulto, "diverso" dagli altri è il prediletto di Gesù, è quello che Gesù cerca. Ma io pensavo: anche io sono Zaccheo, piccolo di idee, di amore. E l'albero è quello della paura, dell'egoismo, delle scuse: cosa posso fare? Non sono capace... Stiamo quassù a vedere. Ma Gesù dice: «Cosa stai a fare lassù? Scendi. Ed entra con me nella vita».

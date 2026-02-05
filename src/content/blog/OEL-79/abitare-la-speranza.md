@@ -4,8 +4,8 @@ date: 2002-09-10
 author: Mariangela Bertolini
 slug: abitare-la-speranza
 lang: it
-numero_rivista: 79
-id_numero: OEL-79
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-79"
 issue_number: OEL-79
 wp_id: 16698
 original_url: "https://www.ombreeluci.it/?p=16698"
@@ -15,7 +15,6 @@ umap_x: 6.961022853851318
 umap_y: 6.475579738616943
 umap_z: 10.343254089355469
 ---
-
 Al ritorno dalle vacanze, si rientra nella quotidianità: abbiamo lasciato dietro di noi giorni di sole, scoperte di luoghi nuovi, viaggi, gite, passeggiate, tuffi in piscina, campeggi pieni di imprevisti... Ora riprendiamo la vita di sempre e ci sembra spenta quella carica elettrica che caratterizza il tempo di vacanza. Bando alla nostalgia e guardiamo avanti per scoprire, insieme, come dare una tintarella solare ai giorni autunnali e invernali che verranno.
 
 Mi pare che, per vincere la monotonia dei giorni sempre uguali di lavoro, di studio, di far da mangiare ecc. , ci sia un ingrediente spesso dimenticato, messo da parte: la speranza. **Non voglio fare un sermone su questa virtù che tiene l'uomo in piedi da sempre: altri lo hanno fatto meglio di me** . Vorrei solo scoprire i doni preziosi che da essa derivano.

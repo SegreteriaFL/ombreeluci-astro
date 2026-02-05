@@ -4,8 +4,8 @@ date: 2003-03-01
 author: Jean Vanier
 slug: i-deboli-di-pace
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 25842
 original_url: "https://www.ombreeluci.it/?p=25842"
@@ -17,7 +17,6 @@ umap_x: 8.363214492797852
 umap_y: 11.933144569396973
 umap_z: 10.864252090454102
 ---
-
 Ideboli non chiamano forse i forti a divenire più umani, a trasformare la loro sete di potere e di riuscita orientandola verso la relazione, l’ascolto e la compassione? II cammino della pace si apre quando mettiamo le nostre competenze al servizio della saggezza, della bontà e della riconciliazione.
 
 Per i discepoli di Gesù, **le persone più deboli** non portano solo equilibrio fra i bisogni di potere e i desideri del cuore, fra forza e debolezza, ma **rivelano anche il piano di Dio: rivelano il viso di Dio** .

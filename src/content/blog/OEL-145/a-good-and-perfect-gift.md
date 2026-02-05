@@ -12,7 +12,8 @@ umap_x: 6.611409664154053
 umap_y: 11.000332832336426
 umap_z: 5.577689170837402
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 Madre di tre figli, la maggiore dei quali con sindrome di Down (“una condizione che tua figlia ha, non quello che è”), in *A Good and Perfect Gift* Amy Julia Becker racconta Penny in quella che, di fatto, è la storia di una scoperta. Quando la bimba nasce lo shock è grande: la donna è travolta da angoscia e senso di colpa (“la sola traccia di peccato che vedo nella nascita di Penny – le dice la madre – è il modo in cui ci relazioniamo con lei”). Conoscendola e mettendosi in discussione, Becker scopre che Penny non è una punizione, un premio, il frutto della biologia o una lezione da imparare: è lei e basta. “Non è una figlia perfetta, ma nemmeno i suoi fratelli lo sono. Non siamo una famiglia perfetta, né lo saremo mai, almeno non secondo gli standard che io stessa avrei fissato per noi qualche anno fa. Ma ci stiamo avvicinando alla nostra vera perfezione perché stiamo imparando cosa significa essere umani”.
 

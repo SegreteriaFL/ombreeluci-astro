@@ -14,8 +14,9 @@ umap_x: 7.79585075378418
 umap_y: 7.983427047729492
 umap_z: 13.425992965698242
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 ### Natale '77 a Santa Silvia
 
 Sono Lorenza del [gruppo di Santa Silvia](https://www.fedeeluce.it/project/santa-silvia/) e voglio raccontarvi la festa di Natale che si è svolta nei locali della Parrocchia.

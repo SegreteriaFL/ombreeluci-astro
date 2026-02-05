@@ -12,7 +12,8 @@ umap_x: 8.035857200622559
 umap_y: 12.1878662109375
 umap_z: 11.109850883483887
 issue_number: OEL-111
-id_numero: OEL-111
+id_numero: "OEL-111"
+numero_rivista: "Ombre e Luci"
 ---
 *L’idea di Annick: perché Ombre e Luci non propone di raccogliere una serie di lettere rivolte a Jean Vanier da parte di genitori, amici, sacerdoti, ecc. per ringrazarlo e testimoniargli la riconoscenza di quanto ricevuto? Annick con questa lettera dà inizio alla raccolta che speriamo sarà copiosa e variegata.*
 Roma 23 Maggio 2010, Pentecoste.

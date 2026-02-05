@@ -12,7 +12,8 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 *«Signore, fa di me uno strumento della tua pace! Signore fa di me uno strumento del tuo amore!» *
 Strumento di pace e di amore**, ecco la realtà in cui ho vissuto i giorni di Assisi. Strumento, e sottolineo la parola, perché qualche volta io personalmente, dimentico di essere strumento. È quello il momento in cui, se da un lato scopro i miei infiniti limiti e il mio non essere niente, dall’altro lato scopro l’infinita grandezza di Dio e il suo essere tutto.

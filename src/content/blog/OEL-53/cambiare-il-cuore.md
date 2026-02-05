@@ -4,8 +4,8 @@ date: 1996-03-03
 author: Natalia Livi
 slug: cambiare-il-cuore
 lang: it
-numero_rivista: 53
-id_numero: OEL-53
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-53"
 issue_number: OEL-53
 wp_id: 10488
 original_url: "https://www.ombreeluci.it/?p=10488"
@@ -15,7 +15,6 @@ umap_x: 8.409955978393555
 umap_y: 11.310885429382324
 umap_z: 6.865611553192139
 ---
-
 U
 n lungo dialogo tra l’Arcivescovo di Milano e uno scrittore: il primo, disponibile a parlare della sua vita, del suo cammino di religioso, della sua visione del mondo, il secondo, pieno di interrogativi, di curiosità e di quel desiderio di capire di più e di vivere meglio, che è il desiderio di ognuno di noi. Gli argomenti sono numerosissimi e dei più vari: dalla fede cristiana (cosa è? come viverla? come nutrirla e testimoniarla?) agli interrogativi sul male, sulla violenza e sulla guerra: dalla vita interiore alle relazioni con gli altri e alla capacità di comunicare e di sciogliere i nodi che ci impediscono l'autenticità; dal ruolo della Chiesa ai rapporti con le altre religioni e con i non credenti; dalla vita quotidiana alla trascendenza di un Dio che è qui in mezzo a noi, ma sta anche «oltre», là dove è la vetta cui tendiamo. Questi non sono che pochi esempi, ma il filo che corre lungo tutto il libro e che lega una risposta a quella successiva è la trasformazione del cuore: la figura di Cristo è presente in ogni pagina e la sua Vita e le sue Parole sono la risposta ad ogni interrogativo. Il Cardinale suggerisce di accostarsi ogni giorno al Vangelo e alle Sacre Scritture e ogni giorno dedicare del tempo alla preghiera e al silenzio, aumentandolo «nella misura in cui le sollecitazioni crescono». Il silenzio è fatto di abbandono, di ascolto, di attesa. «Occorre pertanto dare spazio alla riflessione e non lasciarsi stordire dal chiasso, dai troppi rumori. Occorre, secondo la parola del Vangelo, chiudere la propria porta su di sé. Senza tempi di raccoglimento non ci può essere vita cosciente e profonda». E ancora: «Non ritengo utile, invece, quel silenzio in cui si continua a pensare girando su se stessi, lasciandosi prendere dalla girandola dei sogni». È impossibile trasmettere tutto il conforto, il sostegno e la speranza che le parole del Cardinale comunicano. Non possiamo che consigliare a tutti di leggere attentamente questo libro così profondo e così sincero. In queste pagine c’è forza e c’è chiarezza. L'Autore ci dà fiducia. Le metafore che si ripetono ci riportano alla vita nella natura dove c’è fatica, ma anche bellezza, dove c’è un cammino e un impegno, ma anche la vetta e l’infinità del cielo. E continueremo a salire su quella «montagna» che è la nostra vita, su quella «parete scoscesa», e ci terremmo «attaccati alla roccia», oltrepasseremo quei «banchi di nebbia» seguendo le «traccie del sentiero» «La complessità del reale, come le onde contro una scogliera», può far tremare, afferma l’autore, ma più alta può risuonare in noi — deve risuonare in noi — la voce forte e misericordiosa del Padre.
 *Natalia Livi*

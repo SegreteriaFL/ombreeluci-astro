@@ -11,8 +11,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quale prospettiva indicate per una famiglia nel difficile momento in cui è necessario dover decidere del futuro del proprio figlio con una grave o gravissima disabilità?
 [Anffas](http://www.anffas.net/) è al fianco delle famiglie in molteplici ambiti della vita quotidiana. In questo particolare, vi è la “Fondazione Dopo di Noi” che, sin dalla sua nascita nel 1984, sta promuovendo non solo la realizzazione di adeguate strutture e servizi ma anche e soprattutto la concretizzazione del percorso di “presa in carico”, tramite l’assunzione di responsabilità da parte degli enti pubblici, il progetto globale di vita, la personalizzazione ed umanizzazione degli interventi, il mantenimento e sviluppo della persona con disabilità nel proprio contesto familiare e sociale, la garanzia dei diritti civili ed umani e della qualità di vita e Bene Essere.
 In particolare, l’obiettivo che si è posto la Fondazione non è stato soltanto quello del dopo di noi ma anche quello del durante noi, attraverso la possibilità di prendere in carico, in ambiente protetto, sia la persona con disabilità che, eventualmente, i suoi genitori.

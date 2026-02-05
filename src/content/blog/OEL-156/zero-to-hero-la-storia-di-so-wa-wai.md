@@ -12,8 +12,9 @@ umap_x: 9.401511192321777
 umap_y: 7.647946834564209
 umap_z: 2.657426595687866
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Per il secondo anno consecutivo il **Far East Film Festival, principale appuntamento europeo con il cinema popolare asiatico** , è stato spostato in avanti di un paio di mesi, a fine giugno. Come sono stati spostati in avanti, di ben un anno, i [Giochi Paralimpici di Tokyo](https://olympics.com/tokyo-2020/en/paralympics/) . Il doppio spostamento ha permesso al festival udinese di ottenere con tempismo quasi perfetto l’anteprima mondiale di *Zero to Hero* , biografia del campione paralimpico hongkonghese So Wa Wai.
 
 Spesso le biografie degli atleti paralimpici nascondono storie notevoli e **il film del 2021 di Jimmy Wan non fa eccezione: racconta una storia affascinante e meritevole di attenzione** , seppur con un’enfasi forse esagerata per il nostro gusto occidentale.

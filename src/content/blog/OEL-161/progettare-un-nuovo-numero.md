@@ -12,7 +12,8 @@ umap_x: 6.103508949279785
 umap_y: 7.183380126953125
 umap_z: 9.842582702636719
 issue_number: OEL-161
-id_numero: OEL-161
+id_numero: "OEL-161"
+numero_rivista: "Ombre e Luci"
 ---
 Tutto inizia con una **riunione di redazione** , in cui si buttano giù idee sul tema del prossimo numero, magari ispirandosi a un qualche evento recente.
 

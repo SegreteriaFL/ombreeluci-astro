@@ -12,8 +12,9 @@ umap_x: 6.377726078033447
 umap_y: 7.685810565948486
 umap_z: 12.004443168640137
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### **Da Cuneo**
 
 *…Tutti volgiamo sovente lo sguardo al cielo nelle notti serene e abbacinati da tanta grandezza, fissiamo di preferenza lo sguardo su una stella più brillante delle altre; non le contiamo ma, ad un certo punto, ci accorgiamo che qualcosa è cambiato nel cielo: la stella più brillante è tramontata e non c'è più… È anche tra gli uomini è così.*

@@ -12,8 +12,9 @@ umap_x: 8.305414199829102
 umap_y: 12.109296798706055
 umap_z: 10.650834083557129
 issue_number: OEL-51
+id_numero: "OEL-51"
+numero_rivista: "Ombre e Luci"
 ---
-
 Jean Vanier ha incontrato molta gente che sembrava «imprigionata», come immersa in una tristezza immensa che non riusciva a capi re. Spesso è stato colpito dalla sofferenza sui volti anonimi che osservava nella metropolitana, per le strade, nei negozi. Da una conferenza su questa sua esperienza e riflessione è tratto questo testo. Ha scritto anche un breve libro che può aiutare a capire meglio la prova della depressione e a ritrovare a poco a poco, risalendo la china, la gioia di vivere.
 S
 e oso aprire, (dice Jean Vanier), uno spiraglio sui l’argomento per parlare della depressione, è perché ho ascoltato molti, troppi uomini e donne, handicappati o no, che soffrono di questo dramma interiore e lo vivono come un incubo. Tutti costoro hanno la dolorosa certezza che nessuno possa capirli e amarli.

@@ -14,7 +14,8 @@ umap_x: 4.929112434387207
 umap_y: 6.718164920806885
 umap_z: 9.846953392028809
 issue_number: OEL-161
-id_numero: OEL-161
+id_numero: "OEL-161"
+numero_rivista: "Ombre e Luci"
 ---
 Almeno fino a pochi anni fa era un’esperienza comune a tutti. Con l’avvento delle fotocamere digitali prima e dei cellulari poi capita sempre più raramente: aprire un vecchio album di famiglia, sfogliarlo con calma e rivivere gli attimi di vita quotidiana immortalati nel tempo sul supporto fotografico, magari in compagnia di un parente più anziano che meglio ricorda le cose passate o di uno più giovane ignaro di tutto. Pranzi, compleanni, vacanze, viaggi, si animano e prendono vita in un viaggio emotivo che ci permette di capire chi siamo e da dove veniamo.
 

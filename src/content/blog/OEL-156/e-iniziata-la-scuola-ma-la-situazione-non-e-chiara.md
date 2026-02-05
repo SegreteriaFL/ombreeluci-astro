@@ -12,8 +12,9 @@ tema_code: "T11"
 tema_label: "Giovani, futuro, speranza e cambiamento"
 categoria_menu: "Crescere"
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 È iniziata la scuola. Io ancora non so che dire. Non ho capito nulla. Sono molto molto dispiaciuta che tanti professori sono cambiati anche questo anno. **A me dispiace sempre quando cambiano perché ci dobbiamo conoscere con quelli nuovi.** E a me quelli che c’erano prima mi piacevano e mi trovavo molto bene. Ci scherzavo ed ero tranquilla.
 I compagni sono gli stessi. C’è una compagna in più. Si chiama Sara. La classe è la stessa. Ma per ora non ci capisco ancora niente. Anche l’orario è strano. Entro alle 9.40 e non è che sono contenta. Vorrei entrare prima. Il primo giorno di scuola sono uscita alle 13.50. Poi sento che cambiano orario e che faranno pure i gruppi in presenza. Non lo so. Poi vediamo nei prossimi giorni quello che succede.
 

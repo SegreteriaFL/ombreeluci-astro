@@ -17,8 +17,9 @@ umap_x: 6.520650863647461
 umap_y: 7.351944446563721
 umap_z: 9.066339492797852
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Vivere in un campo per i rifugiati, al confine con il Libano, è ancora più difficile se si ha una disabilità. È una storia di rispetto, solidarietà e mutualità, quella tra
 **Souhour**
 , giovane disabile siriana, e la famiglia di

@@ -4,8 +4,8 @@ date: 2005-03-16
 author: Sergio Sciascia
 slug: autismo-che-fare-per-questi-figli
 lang: it
-numero_rivista: 89
-id_numero: OEL-89
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-89"
 issue_number: OEL-89
 wp_id: 30724
 original_url: "https://www.ombreeluci.it/?p=30724"
@@ -15,7 +15,6 @@ umap_x: 6.7297682762146
 umap_y: 8.36272144317627
 umap_z: 6.532135486602783
 ---
-
 Non è facile far capire, a chi non ha conoscenza diretta, quali siano i problemi che quotidianamente si debbano affrontare con ragazzi che contrappongono ad una apparente “normalità” d’aspetto — spesso si rimarca quanto siano tutti belli una così grave compromissione delle facoltà relazionali.
 
 Può sembrare ovvio, ma quando si vive in condizioni di difficoltà come accade per le famiglie con ragazzi autistici, anche **i piccoli intoppi di procedure e di burocrazia minano la condizione di equilibrio difficilmente raggiunta** : occorrerebbe grande sensibilità e grande senso di responsabilità da parte di tutti gli operatori coinvolti nei servizi sociali, nei centri di diagnosi, nelle strutture sanitarie di base, nel mondo della scuola, mentre invece troppo spesso si trattano i “casi” alla stregua di pratiche catastali.

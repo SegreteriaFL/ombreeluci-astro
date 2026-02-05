@@ -12,7 +12,8 @@ umap_x: 7.9090576171875
 umap_y: 7.073343276977539
 umap_z: 9.54312515258789
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 Imparare e frequentare un'attività creativa e manuale non è mai un occupare il tempo come oggi spesso si pensa. Il concetto di hobby legato al fare qualcosa viene nobilitato dal fatto che il processo creativo, anche se i risultati possono sembrare poca cosa, coinvolge anima e corpo creando un legame tra il pensato ed il concreto. E questa è già una forma di terapia che allena la mente a concretizzare quello che si immagina. L’arte-terapia, per sua intrinseca funzione, non bada al risultato ma al percorso concentrandosi alle varie fasi che rappresentano il vero fine terapeutico e quindi creativo.
 

@@ -12,7 +12,8 @@ umap_x: 7.81171989440918
 umap_y: 1.5530086755752563
 umap_z: 9.53022289276123
 issue_number: OEL-146
-id_numero: OEL-146
+id_numero: "OEL-146"
+numero_rivista: "Ombre e Luci"
 ---
 Mercoledì e venerdì sono i miei pomeriggi preferiti perché vado in palestra a fare ginnastica ritmica. La mia insegnante Camilla è molto brava, quasi come me. Io le do retta così faccio bene gli esercizi e miglioro. Mi piace tantissimo fare la verticale e la ruota e poi mi diverto a fare le coreografie con le mie amiche. Tutte abbiamo un compito che ci dice Camilla. Ma alcuni passi sono uguali per tutte e dobbiamo stare attente a farli insieme, guardarci. Questo mi piace tanto. Il sabato mattina vado a giocare a calcio con la mia squadra, la As Roma. Sono attaccante e faccio tanti gol. E dico “tiè” al portiere. I mister mi gridano di tornare in difesa ma io mi stanco a correre e resto sempre in attacco. Preferisco giocare vicino alla linea bianca di lato perché c’è l’ombra e non sudo. Ogni tanto coi miei compagni vado allo stadio a vedere la Roma, anche se non vince mai. E che ci vuoi fare? Dovrei giocare io! Lo sport che più mi diverte è l’atletica, correre e saltare. Ho tanti amici campioni delle Fiamme Gialle che vanno alle Olimpiadi. Margherita Magnani corre forte e mi sta simpatica. Mi piace anche Giulia Alessandra. Io quando le vedo in tv faccio il tifo per loro e urlo “Maggiee Magnaniiiiii!”. Sono amicissima anche di Filippo Tortu e di Gimbo Tamberi che salta in alto ma proprio in alto alto. Lui mi insegna come si salta e mi dice che non devo butare giù l’asticella. Io passo sotto che è meglio. Lui invece passa sopra però è molto più difficile passare sopra. Lo sport mi piace perché non mi annoio, è una novità sempre, non lo faccio mai dai sola, ma sempre con qualcuno e così rido e conosco tanti nuovi amici, soprattutto quando vado con papà alle maratone. Sono tutti matti, mi danno i baci e il cinque e dicono “daje Benedetta” e io rispondo “daje tu, bello!”.
 

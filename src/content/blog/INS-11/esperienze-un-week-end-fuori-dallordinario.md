@@ -14,8 +14,9 @@ umap_x: 8.238298416137695
 umap_y: 7.558791637420654
 umap_z: 10.926490783691406
 issue_number: INS-11
+id_numero: "INS-11"
+numero_rivista: "Insieme"
 ---
-
 Abbiamo approfittato del lungo ponte di San Giuseppe e siamo partiti in sedici dai 10 agli 80 anni (una vera Arche!) con pacchi, pacchetti, carrozzella, flauto e chitarra per andare a conoscere la famosa Marzocca. Famosa? Non tanto in verità: non la si trova nemmeno sulla carta geografica ma... è la nuova parrocchia di Padre Danilo!!
 
 Ci siamo divertiti un mondo, abbiamo portato un turbine di vita nel grande convento dei Padri Redentoristi che in quei giorni hanno desiderato invano un pò di quiete, magari solo notturna, ed abbiano potuto constatare quanto sia possibile la amicizia, la vita in comune se ricercata con semplicità e spontaneità.

@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-111
-id_numero: OEL-111
+id_numero: "OEL-111"
+numero_rivista: "Ombre e Luci"
 ---
 In quattro brevi episodi, l’autore ci racconta quattro momenti della sua ecc Vita da bambino, impreziositi da brevi e utili consigli sul comportamento che devono avere i genitori in quella specifica situazione. Quattro storie raccontate e scritte dal punto di vista di un bambino, il che rende tutto molto più coinvolgente, anche se, bisogna dirlo, alcuni dei termini utilizzati sono tutt'altro che infantili.
 

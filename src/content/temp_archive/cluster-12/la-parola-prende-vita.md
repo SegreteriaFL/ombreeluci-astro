@@ -7,6 +7,7 @@ cluster_id: 12
 image: "https://www.ombreeluci.it/wp-content/uploads/2024/07/Copertina_OeL_166_2024-206x300.jpg"
 slug: "la-parola-prende-vita"
 has_comments: false
+id_numero: "OEL-166"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

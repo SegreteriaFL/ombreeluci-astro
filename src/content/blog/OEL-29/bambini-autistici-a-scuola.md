@@ -16,7 +16,8 @@ umap_x: 6.796737194061279
 umap_y: 7.720811367034912
 umap_z: 6.728457450866699
 issue_number: OEL-29
-id_numero: OEL-29
+id_numero: "OEL-29"
+numero_rivista: "Ombre e Luci"
 ---
 Alessandro, Guendalina e Magalì hanno sette anni e, come tutti i bambini di questa età, suscitano tenerezza. Magalì, però, non sa fare le scale da sola; Alessandro non sopporta che una persona che non conosce entri nella sua sfera personale; Guendalina, quando riempie un bicchier d’acqua da una caraffa, «dimentica» di raddrizzare quest'ultima e così tutto il contenuto va sulla tovaglia... Tutti e tre hanno grandi **problemi di comunicazione con il mondo esterno** ; insieme a qualche migliaio di francesi, sono affetti dall'handicap detto « [autismo](http://www.ombreeluci.it/autismo/) ».
 

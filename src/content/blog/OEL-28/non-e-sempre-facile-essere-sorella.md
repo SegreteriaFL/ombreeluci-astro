@@ -11,8 +11,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-28
+id_numero: "OEL-28"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Maria Cristina parla delle gioie e delle sofferenze dei fratelli e delle sorelle; ci dice quanto abbiano bisogno di aiuto e di sostegno.*
 *Cogliamo l’occasione per ricordare ai fratelli e sorelle di persone con handicap, di scrivere a Ombre e Luci le loro pene, i disagi, le sofferenze, senza riguardo e paura (si possono usare pseudomini, o scrivere lettere personali da non pubblicare).*
 

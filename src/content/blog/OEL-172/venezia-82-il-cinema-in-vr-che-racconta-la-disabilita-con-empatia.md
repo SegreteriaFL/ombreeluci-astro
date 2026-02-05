@@ -11,8 +11,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quando i mezzi di informazione raccontano la Mostra del Cinema di Venezia, spesso si ha la percezione che siano interessati alle star (e i loro vestiti, le loro acconciature), alle polemiche politiche, infine anche ai film più importanti. Partecipare per conto di *Ombre e Luci* non significa evitare tutto ciò, perché fa parte integrante di un grande evento, ma richiede un impegno a cercare anche le opere che abbiano un valore artistico, morale ed estetico di cui valga la pena scrivere. Come prima selezione ([qui trovate la seconda](https://www.ombreeluci.it/2025/venezia-82-voci-dal-passato-cambiamo-futuro/)), nei giorni inaugurali dell’82ª edizione, ecco i film in realtà virtuale, da guardare con un visore (talvolta scomodo) in testa. Alcuni di questi film sono come installazioni artistiche ma altri, dopo i festival, si possono trovare nei siti dei produttori dei visori stessi o nelle piattaforme online dedicate ai prodotti in realtà virtuale.
 
 ### Mirage

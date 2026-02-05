@@ -12,8 +12,9 @@ umap_x: 6.0433030128479
 umap_y: 6.076605796813965
 umap_z: 8.834271430969238
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 N
 azione di nazioni, per dirla con Lyndon Johnson; immensa terra di contraddizioni così profonde che fatichiamo a credere possano convivere nella stessa casa. Invece è ciò che sappiamo succedere da decenni, da quando cioè gli Stati Uniti sono diventati punto di riferimento imprescindibile per tutti – in positivo e in negativo (non necessariamente in alternativa). Luci e ombre emerse anche in questi complessi giorni. Da un lato Netflix ci propone il racconto di un momento che ha segnato la storia della contemporaneità, quando si è finalmente iniziato a pensare che i diritti civili riguardassero anche le persone con disabilità; dall’altro, però, davanti alla crisi scatenata dal covid-19 sono riesplose tutte le ingiustizie e le discriminazioni che vivono indisturbate (o poco disturbate) all’interno degli Usa. Pensiamo a poveri, persone con disabilità, afroamericani, senza fissa dimora… È Carlo Cinus
 [a presentare](https://www.ombreeluci.it/2020/mai-da-soli/)

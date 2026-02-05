@@ -11,8 +11,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Dall'idea di un imprenditore bretone, con il sostegno di tanti (compresi i vip), il [**Cafè Joyeux**](http://joyeux.fr/) continua il suo progetto: dare un lavoro a persone disabili e regalare sorrisi ai propri clienti.
 Carole Bouquet** ha deciso di appoggiare la loro causa, **Brigitte Macron** li sostiene con forza, ma sono molti, nel quartiere dell’Opera, a Parigi, il centro finanziario della capitale francese, ad averli adottati, come fornitori ufficiali di colazione e pranzi veloci, per la simpatia e forse per la fragilità della loro situazione.
 

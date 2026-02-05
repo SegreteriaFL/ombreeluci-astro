@@ -4,8 +4,8 @@ date: 2006-06-21
 author: Redazione
 slug: amare-un-errore-da-unintervista-a-patricia-bauer
 lang: it
-numero_rivista: 94
-id_numero: OEL-94
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-94"
 issue_number: OEL-94
 wp_id: 31869
 original_url: "https://www.ombreeluci.it/?p=31869"
@@ -17,7 +17,6 @@ umap_x: 5.399466037750244
 umap_y: 10.155628204345703
 umap_z: 7.298935413360596
 ---
-
 **Patricia Bauer** , una giornalista americana, è mamma di Margaret, 21 anni nata con la sindrome di Down. Sul New York Times ha scritto un articolo rivelando “quanto sia doloroso sentir chiamare qualcuno che si ama un tragico errore”. In questo articolo denuncia come “ **la società imponga, più o meno esplicitamente, l’aborto per i disabili, da quando i test genetici ne permettono l’identificazione in gravidanza** e di come sia stata così epurata un'intera categoria di persone considerate non degne di esistere e del conseguente marchio di infamia per i disabili che vengono comunque al mondo... I test prenatali non sono accompagnati dalla necessaria educazione delle donne e dei medici che esprimono valutazioni piene di pregiudizi: chi si preoccupa che le donne ricevano informazioni giuste prima di prendere una decisione sul futuro dei loro figli?
 
 Nessun bambino nasce con la garanzia soddisfatti o rimborsati. Il desiderio di controllare il destino dei nostri figli è normale, ma deve essere bilanciato dal realismo... La mia preoccupazione è che ci portino a pensare ai bambini come a un prodotto che può e che deve essere perfezionato e questo cambia totalmente il rapporto genitore-figlio, mettendo completamente a rischio il concetto di amore incondizionato dovuto ad un bambino... Si vedono tante donne fare un esame dopo l’altro perché lo fanno tutti: si fermano mai a riflettere a che cosa farebbero se uno di questi esami desse un risultato sbagliato? E che non esiste la garanzia di avere un figlio perfetto?... Avere un figlio è un atto di fede”.

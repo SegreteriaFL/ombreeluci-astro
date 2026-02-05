@@ -12,8 +12,9 @@ umap_x: 7.353397846221924
 umap_y: 11.677281379699707
 umap_z: 5.11884069442749
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Finire il liceo e diplomarsi, dare una casa alla piccola e immensamente amata, fragile famiglia, trovare un lavoro con cui sostenerla e pagare quanto indispensabile per la piccola Maria, nata prematura e con una grossa difficoltà in più… **è il sogno di una vita normale che Rosario Altieri, appena maggiorenne, custodisce e per il quale combatte con tutte le sue forze.**
 
 Il protagonista che prende vita dalla penna di Dario Levantino, nel libro appena uscito *La violenza del mio amore* edito da Fazi, **veste appieno i panni dell’eroe di un’epica lotta contro un destino segnato dall’impossibilità di riscatto.** Perché il sogno di Rosario è incastonato tra le spine dell’amato - perché è «il nostro» e «nessuno ne può parlare male» se non chi lo abita - e difficile, difficilissimo, quartiere di Brancaccio a Palermo. Come una pietra preziosa, Rosario protegge quel sogno con tutto se stesso, in una situazione che lo vede invece completamente disarmato: custodirlo e amarlo è l’unico raggio di luce in un orizzonte che sembra davvero non offrire nulla.

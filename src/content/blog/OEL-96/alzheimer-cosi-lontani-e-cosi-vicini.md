@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "alzheimer-cosi-lontani-e-cosi-vicini"
 lang: it
-numero_rivista: 96
-id_numero: OEL-96
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-96"
 issue_number: OEL-96
 wp_id: 32227
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T09"
 tema_label: "Corpo, salute, cura e assistenza"
 categoria_menu: "Cura"
 ---
-
 “Buongiorno Maria!” come al solito Maria mi guarda un po’, qualche secondo e poi senza rispondere comincia a raccontarmi qualcosa, qualcosa senza un principio, senza una fine, qualcosa che sicuramente la agita molto. Maria ha 53 anni, è giovanissima, ma l'Alzheimer, le rende impossibile prendersi cura di se stessa e della figlia poco più che adolescente.
 
 Io sono Manrica, la terapista occupazionale, quella ragazzona che tutte le mattine arriva alle 8 e la porta nel suo reparto, una stanza piccola dotata di una cucina semplice, anzi per meglio dire semplificata. Quando si ha l'Alzheimer, i gesti quotidiani come fare un caffè, diventano impossibili: troppe cose da ricordare. Nel reparto di terapia occupazionale abbiamo 2 soli pensili con delle figure attaccate che aiutano ad identificare quello che contengono. Il mio compito è quello di semplificare ogni gesto scomponendolo, per esempio, in piccole fasi successive indicate dalla grafica o dal dialogo col terapista. Il mio lavoro con le persone affette da questa terribile malattia è tanto semplice quanto complesso; a chi mi chiede “ma ci può essere una riabilitazione?”, io rispondo “si” con sicurezza ma poi ho difficoltà a spiegare a parole. Per esempio dopo un paio di mesi di terapia, Maria mi riconosce anche se non ricorda il mio nome (peraltro poco comune e piuttosto complicato!), mi riconosce perché ogni giorno il setting (cioè lo spazio e il tempo) della terapia occupazionale è sempre rigorosamente lo stesso e questo è fondamentale ed importante quando le tue capacità di ricordare, di organizzarsi e di risolvere problemi sono ridotte al minimo. Mi viene in mente Paolo, un ingegnere elettronico, che un giorno si è reso conto di non essere più capace di girare per la sua città, è sceso dalla macchina, ha chiesto aiuto e col suo stesso cellulare sono riusciti a chiamare suo figlio che si è sentito dire: “Ciao, sono papà. Vienimi a prendere, è arrivato il momento che il neurologo aveva previsto: non potrò più guidare, forse neanche spostarmi da solo”. In realtà la vita di Paolo è stata per diverso tempo ancora molto attiva, la famiglia si è rivolta a personale specializzato, è stata istruita su come semplificare la vita a Paolo allo scopo di renderlo autonomo il più a lungo possibile. Quando ho incontrato questa famiglia la prima fase era già stata superata, eravamo nel pieno della cosiddetta seconda fase: quando si evidenzia il calo di memoria, soprattutto a breve termine, e appare una modificazione globale della personalità. L'attenzione, la critica e la capacità di risolvere problemi si riducono rapidamente e in misura tale da far scadere le prestazioni lavorative. I familiari notano una ridotta partecipazione agli avvenimenti e l'incertezza o il rifiuto di prendere decisioni o fare scelte. Tutti gli interessi di Paolo sembravano ripiegarsi su di lui, sulle sue difficoltà che comunque tendeva a minimizzare, tollerando sempre meno qualsiasi frustrazione. Anche la vita affettiva si stava turbando fino a sfociare in evidenti stati depressivi o in un marcato stato ansioso con irritabilità e disforia fino a crisi d'ira anche violente.

@@ -12,7 +12,8 @@ umap_x: 4.717168807983398
 umap_y: 7.577319145202637
 umap_z: 10.436973571777344
 issue_number: OEL-118
-id_numero: OEL-118
+id_numero: "OEL-118"
+numero_rivista: "Ombre e Luci"
 ---
 ### Dolci saluti
 

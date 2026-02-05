@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ## I. Animare una messa è renderla viva…
 
 Come rendere viva una celebrazione dove chi agisce per primo è Dio stesso? Ecco ciò che dicono, a volte, dei cristiani che ci ricordano che una messa è una messa, che non è necessario fare un sacco di cose per darle vita perché, al contrario, è proprio il Signore che ci dà vita.

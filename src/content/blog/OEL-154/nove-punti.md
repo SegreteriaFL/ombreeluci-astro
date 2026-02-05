@@ -12,7 +12,8 @@ umap_x: 6.6377997398376465
 umap_y: 7.573648452758789
 umap_z: 10.033062934875488
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 Nove punti disposti su tre linee a distanza regolare devono essere uniti da un massimo di quattro righe senza mai alzare la matita dal foglio (conoscete la risposta? Provate prima di proseguire). Nella maggior parte dei casi, chi cerca una soluzione a questo gioco (proposto originariamente dalla scuola di psicologia della Gestalt e ricordato da Angelo Lascioli in “Italian Journal of Special Education for Inclusion” 2, 2016) vede i nove punti formare un quadrato e nel tracciare le linee prova sempre a restarci dentro. **La soluzione invece sta proprio nel riuscire ad andare oltre: quel quadrato è uno stratagemma del nostro cervello che prova a incasellare gli stimoli indefiniti dell’ambiente in qualcosa di noto.** Per un effetto simile capita di non riuscire ad uscire da uno schema che abbiamo impresso in mente: difronte ad una persona con disabilità vediamo la menomazione o la malattia o la sindrome, che quella disabilità hanno provocato, e non la persona nella sua interezza. Lo schema di essere umano che abbiamo in mente non contempla movimenti incontrollati, malformazioni, limitazioni fisiche o strani comportamenti… la disabilità diventa una categoria a parte, con tutto quel che ne consegue, e non una possibilità dovuta alla complessità della vita nella quale tutti dovremmo riconoscerci.
 

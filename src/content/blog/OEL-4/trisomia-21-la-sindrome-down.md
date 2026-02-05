@@ -19,14 +19,14 @@ pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
 archive_id: OmbreELuciN004
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 periodo_label: Ottobre, Novembre, Dicembre
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 umap_x: 5.513179779052734
 umap_y: 10.209258079528809
 umap_z: 6.906081676483154
+id_numero: "OEL-4"
 ---
-
 **Trisomia 21** *Jerome Lejeune, scopritore della causa del Mongolismo, medico e genetista; dal 1965 professore di genetica presso la facoltà di Medicina di Parigi. Autore di numerose ricerche di genetica umana; nel 1959 scoprì, in collaborazione con N. Turpin, che il mongolismo è dovuto alla presenza di un cromosoma suprannumerario nella coppia n.21 (* trisomia 21 *). Da tale osservazione ebbe origine una serie di importanti ricerche, tuttora in corso in vari laboratori, sulle anomalie della distribuzione dei cromosomi nell'uomo e sulle conseguenti sindromi morbose. Il prof. Léjeune fa qui una sintesi dello stato attuale (1983 N.d.R) delle conoscenze su questa malattia.*
 
 ### Il bambino trisomico 21

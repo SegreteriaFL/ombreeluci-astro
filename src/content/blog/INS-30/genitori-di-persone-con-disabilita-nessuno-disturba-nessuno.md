@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Prima di parlare della lezione di speranza che ho ricevuto dai genitori, dovrei evocare la loro sofferenza. Ma non mi sento autorizzato a parlare al loro posto della paternità e maternità ferite. Preferisco che siano essi stessi a dire cosa è stata la scoperta dell’handicap del loro figlio, quale solitudine hanno provato, poi, nel più profondo di loro stessi, e nella vita che, spesso, sono stati costretti a vivere.
 
 È una solitudine spesso drammatica. A volte dura anni interi. Per conoscerne le conseguenze bisognerebbe averla provata. È difficile porre un termine a questa solitudine e molti genitori finiscono per rassegnarsi a tal punto che sembra loro impossibile che le cose possano cambiare.

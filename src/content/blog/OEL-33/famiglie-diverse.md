@@ -12,7 +12,8 @@ umap_x: 5.1688618659973145
 umap_y: 9.249595642089844
 umap_z: 8.105880737304688
 issue_number: OEL-33
-id_numero: OEL-33
+id_numero: "OEL-33"
+numero_rivista: "Ombre e Luci"
 ---
 *G. e M. Labrousse, genitori di tre figli, tra cui Paolo, portatore di handicap, ripercorrono un pò della loro storia umana, simile a quella di tante famiglie, anche se unica. I genitori che hanno conosciuto la stessa prova, si ritroveranno in queste riflessioni e nel loro atteggiamento.*
 I

@@ -11,8 +11,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Teresa ha 21 anni, è trisonica, di media gravità, sembra una piccola adolescente anche se pretende essere adulta e indipendente.
 
 Ha, come tutta la famiglia, doppia cultura, doppia nazionalità, franco-italiana.

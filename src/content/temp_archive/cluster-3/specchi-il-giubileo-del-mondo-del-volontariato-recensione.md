@@ -6,6 +6,7 @@ theme: "cluster-3"
 cluster_id: 3
 slug: "specchi-il-giubileo-del-mondo-del-volontariato-recensione"
 has_comments: false
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

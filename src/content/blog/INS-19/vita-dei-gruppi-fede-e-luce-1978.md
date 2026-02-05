@@ -12,8 +12,9 @@ umap_x: 7.844209671020508
 umap_y: 7.990448951721191
 umap_z: 13.340067863464355
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 ### San Cirillo - Roma
 
 Oggi 22 aprile 1978 è nato un nuovo gruppo di Fede e Luce, il gruppo S. Cirillo. Dopo un violento acquazzone è uscito il sole come per incoraggiarci ancora di più ad andare incontro ai nuovi amici. Veramente mi sentivo un po' in apprensione, ma man mano che ci vedevamo e che gli amici degli altri gruppi venivano a trovarci, mi sono sentita come sempre, cioè bene e ho pensato fra me come mai prima mi sentivo un po' agitata. Invece, rivedere tutti...

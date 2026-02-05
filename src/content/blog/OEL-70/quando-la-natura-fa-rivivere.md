@@ -12,7 +12,8 @@ umap_x: 7.091803073883057
 umap_y: 6.445276737213135
 umap_z: 10.362361907958984
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 > "... e questa siepe, che da tanta parte dell’ultimo orizzonte il guardo esclude”
 

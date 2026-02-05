@@ -4,8 +4,8 @@ date: 2004-06-11
 author: Redazione
 slug: come-guardiamo-le-persone-diverse-da-noi-le-riflessioni-di-alexandre-jollien
 lang: it
-numero_rivista: 86
-id_numero: OEL-86
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-86"
 issue_number: OEL-86
 wp_id: 30249
 original_url: "https://www.ombreeluci.it/?p=30249"
@@ -17,7 +17,6 @@ umap_x: 7.355766773223877
 umap_y: 11.341569900512695
 umap_z: 6.317220211029053
 ---
-
 È uscito un secondo libro di Alexandre Jollien, **“Il mestiere di uomo”** edito da Qigajon. Leggendolo e rileggendo [il suo primo libro, **“Elogio della debolezza”**](https://www.ombreeluci.it/2002/la-mia-vita-come-una-gioiosa-battaglia-alexandre-jollien/) , si rimane colpiti dalle sue riflessioni sull'importanza dello sguardo che posiamo sulle persone, in qualunque modo diverse da noi. Le frasi che riportiamo sono un invito a leggere con attenzione questi suoi due testi, preziosi per tutti noi che vorremmo avere, come suggerisce la mamma polacca nella sua lettera pubblicata nel "Dialogo aperto" , “occhi nuovi, non di stupore o di commiserazione, ma occhi disinvolti, di simpatia verso ogni disabile”.
 
 L'ho percepito, sono un anormale... I movimenti degli occhi che esaminano ogni parcella del mio essere me lo insegnano: uno sguardo fissa il mio, poi scende e si fissa dove si trova la prova che sta cercando: “l’handicappato”.

@@ -12,7 +12,8 @@ umap_x: 8.711263656616211
 umap_y: 8.285248756408691
 umap_z: 3.3036811351776123
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 N
 ell’Antica Grecia era vietato alle donne fare le attrici, ed erano perciò gli uomini a interpretare i ruoli femminili. Se qualcuno piombasse sulla nostra terra in questo 2020 potrebbe facilmente credere che un analogo divieto viga in tema di schermo e disabilità: nella stragrande maggioranza dei casi, infatti, sono attori e attrici normodotati a interpretare personaggi ciechi, sordi, autistici o con altre forme di disabilità. È esattamente la volontà di scardinare questo distorto e assurdo non-detto a guidare le attività della Ruderman Family Foundation che si batte per la reale ed effettiva inclusione delle persone con disabilità nel mondo del cinema. “Sono convinto che l’intrattenimento popolare influenzi la cultura – ha dichiarato al Jerusalem Post Jay Ruderman, l’avvocato israelo-americano che ne è il presidente – E proprio perché è così influente, è cruciale apportare cambiamenti in questo ambito trattandosi di una via che può davvero mutare il modo di pensare”. L’appello è affinché tutti gli studi e le produzioni si impegnino in questa direzione: solo così si potranno avere un cinema e una televisione capaci di rappresentare “la diversità nella quale viviamo”. Un passaggio questo che potrebbe finalmente aiutare la società a normalizzare la disabilità. “Quando la società non è inclusiva, la disabilità viene trattata come un caso di beneficenza, come

@@ -4,8 +4,8 @@ date: 2005-06-17
 author: Redazione
 slug: dialogo-aperto-n90
 lang: it
-numero_rivista: 90
-id_numero: OEL-90
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-90"
 issue_number: OEL-90
 wp_id: 30898
 original_url: "https://www.ombreeluci.it/?p=30898"
@@ -15,7 +15,6 @@ umap_x: 4.916881084442139
 umap_y: 8.393285751342773
 umap_z: 10.423925399780273
 ---
-
 ### Piccola grande storia di Maria
 
 In questi anni abbiamo vissuto il “calvario” della piccola Maria, una bambina che avrebbe dovuto vivere cinque anni, che è arrivata a dodici ed è diventata “maestra dei ragazzi e degli adulti “abili”. Da due anni frequentava con i suoi genitori la nostra comunità Fede e Luce di Saint Bernarde d'Aoste. Era figlia di genitori divorziati (la mamma convive adesso con un divorziato che ha “adottato” Maria come fosse sua figlia). La sua sepoltura è stata una bella “festa” nella quale la gente e i bambini hanno dato testimonianza del suo valore. Maria ha frequentato la scuola dall’asilo alla prima media, dove è sempre stata accolta dalle maestre e dai compagni i quali, quattro giorni prima della sua morte, le hanno fatto visita in ospedale. Ecco qui di seguito alcune loro riflessioni: “Maria riesce a vivere grazie alla forza dei genitori che le stanno sempre vicino” “È fortunata ad avere un papà e una mamma che le vogliono tanto bene e che riescono a sorridere anche se si capisce che dentro sono tristi”. “Con il loro coraggio riescono a rendere allegro anche l’ospedale”.. “Maria ha resistito tanti anni. Penso che abbia un cuore pieno di forza, è come se fossimo noi a darle un po’ di forza per vivere ancora”. “Ho pensato a quanto era bello quando poteva ancora venire in classe e godere delle ossa la tua vita continuare ad essere una luce in mezzo a questo mondo spesso tanto scuro. Grazie, Maria !”

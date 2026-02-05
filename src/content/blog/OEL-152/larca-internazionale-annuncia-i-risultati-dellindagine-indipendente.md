@@ -12,8 +12,9 @@ umap_x: 8.42320728302002
 umap_y: 12.324728012084961
 umap_z: 11.177530288696289
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Con una lettera indirizzata il 22 febbraio 2020 a tutta la Federazione presente in 38 paesi, i responsabili de *L’Arca* Internazionale hanno pubblicato le conclusioni dell'indagine che avevano affidato ad un organismo indipendente. L'inchiesta riguardava in particolare testimonianze che mettevano in discussione il suo fondatore, Jean Vanier, e il suo legame storico con padre Thomas Philippe, che (Jean Vanier) indicava suo padre spirituale.
 
 L'indagine è stata condotta da GCPS, un gruppo con sede nel Regno Unito specializzato nel miglioramento delle procedure per la segnalazione e la prevenzione di abusi sessuali. Inoltre, *L’Arca* Internazionale ha istituito un Comitato di supervisione indipendente composto da due ex alti funzionari pubblici francesi, per valutare l'integrità e l'affidabilità delle procedure d’inchiesta e delle relative conclusioni. *L’Arca* Internazionale ha consegnato il rapporto finale di GCPS, così come il lavoro di ricerca storica, alla Commissione indipendente sugli abusi sessuali nella Chiesa (CIASE). Questa commissione è incaricata di fare luce sulle situazioni di abuso nella Chiesa in Francia.

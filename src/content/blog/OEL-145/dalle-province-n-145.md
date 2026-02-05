@@ -12,7 +12,8 @@ umap_x: 7.885461807250977
 umap_y: 9.813149452209473
 umap_z: 14.665716171264648
 issue_number: OEL-145
-id_numero: OEL-145
+id_numero: "OEL-145"
+numero_rivista: "Ombre e Luci"
 ---
 ### Festa della Luce
 

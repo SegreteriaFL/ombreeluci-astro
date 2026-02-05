@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "con-cristo-sulle-strade-del-mondo-riflessioni-a-tema-missionario-recensione"
 has_comments: false
+id_numero: "OEL-109"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

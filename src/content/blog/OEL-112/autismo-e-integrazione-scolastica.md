@@ -14,8 +14,9 @@ umap_x: 6.912932395935059
 umap_y: 7.040053367614746
 umap_z: 6.963133811950684
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 L'inserimento delle persone con handicap nella scuola è importante per loro e per i loro compagni normodotati che devono imparare ad accettare chi è diverso e avere una cultura dell'accoglienza. Per quanto riguarda l'autismo, senza solide conoscenze da parte degli operatori della scuola si rischia di fare grossi guai e soprattutto si rischia il pregiudizio di un'ingestibilità della persona autistica che, come in una profezia auto-avverante diventa con il tempo realmente ingestibile se non si interviene con metodo e competenze. Che fare dunque? Poco tempo fa ho partecipato ad un convegno promosso dalla CGIL Scuola su questi temi dal titolo: "indietro non si torna"; bene! Non torniamo indietro, salviamo la legge, ma rendiamola funzionale. Se posso fare una ipotesi sulla quale aprire un dibattito devo dire che, preso atto che per le persone con autismo la preparazione del personale educante è l'aspetto che fa la differenza, si potrebbe pensare a scuole specializzate su questo
 *handicap*
 ; ovvero scuole normali nelle quali però vengono indirizzati quei portatori di

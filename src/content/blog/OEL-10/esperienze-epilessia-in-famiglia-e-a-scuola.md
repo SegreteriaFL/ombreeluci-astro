@@ -16,7 +16,8 @@ umap_x: 6.295653820037842
 umap_y: 9.5362548828125
 umap_z: 7.368471622467041
 issue_number: OEL-10
-id_numero: OEL-10
+id_numero: "OEL-10"
+numero_rivista: "Ombre e Luci"
 ---
 ## Sdrammatizzare la situazione
 

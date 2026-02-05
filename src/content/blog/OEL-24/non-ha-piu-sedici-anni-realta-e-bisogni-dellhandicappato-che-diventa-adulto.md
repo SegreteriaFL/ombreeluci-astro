@@ -11,8 +11,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-24
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 Realtà e bisogni dell’handicappato che diventa adulto. Atti del Convegno - Bosisio Parini - 14-15 giugno 1986 Associazione genitori «La Nostra Famiglia».
 
 «La pubblicazione di questi atti vuole essere un servizio offerto a chi si occupa di questi problemi a qualunque titolo, nell'intendimento di incoraggiare la più efficace presa in carico di un problema che anche a noi sta particolarmente a cuore», dice la Presidente dell’Associazione [La Nostra Famiglia](https://www.ombreeluci.it/1998/lassociazione-la-nostra-famiglia/) nell'introduzione del volume. E di fatto è un vero servizio perché raggiunge i suoi scopi di informazione su ciò che esiste, di confronto di esperienze, di riflessione sulla nuova cultura dell’assistenza e di scambio di indirizzi e di contatti fra quelli che lavorano o vogliono lavorare nel campo.

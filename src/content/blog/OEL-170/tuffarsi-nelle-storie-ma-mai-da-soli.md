@@ -16,7 +16,8 @@ umap_x: 5.5868754386901855
 umap_y: 10.40392780303955
 umap_z: 7.4327192306518555
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 «M**i chiamo Francesca Pellegrini.** Vivo nel comune di Montepulciano in provincia di Siena che è in Toscana con il babbo, la mamma e mio fratello Tommaso che ha 22 anni. Ho la Sindrome di Down, cioè tre cromosomi della coppia 21. **Non sopporto le persone che mi trattano ancora come una bambina** ». Ha le idee chiare, 19 anni e più di una passione, Francesca: su tutte quella di tuffarsi nelle storie. E, come vedrete, mai da sola.
 

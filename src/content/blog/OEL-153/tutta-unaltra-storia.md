@@ -12,7 +12,8 @@ umap_x: 5.669171333312988
 umap_y: 7.1010894775390625
 umap_z: 9.277278900146484
 issue_number: OEL-153
-id_numero: OEL-153
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
 L'uomo ha bisogno di storie quasi come del cibo, ricordava Papa Francesco nel messaggio per la Giornata delle Comunicazioni sociali del 2020; e a Ombre e Luci crediamo fermamente nella necessità di raccontare, nel bene possibile, storie e riflessioni intorno al mondo della fragilità e della disabilità. «Abbiamo bisogno di respirare la verità delle storie buone – diceva Francesco – storie che edifichino, non che distruggano; storie che aiutino a ritrovare le radici e la forza per andare avanti insieme (…). Abbiamo bisogno di una narrazione che riveli l’intreccio dei fili coi quali siamo collegati gli uni agli altri». Più recentemente il Papa ha rinnovato la richiesta agli operatori della comunicazione di raccontare la verità della vita che si fa *storia* uscendo «dalla comoda presunzione del già saputo», del pregiudizio, mettendosi in movimento anche là dove nessuno vuole andare, «di comunicare incontrando le persone dove e come sono».
 

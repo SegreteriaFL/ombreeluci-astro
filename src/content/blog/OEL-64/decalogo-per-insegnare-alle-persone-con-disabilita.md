@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "decalogo-per-insegnare-alle-persone-con-disabilita"
 lang: it
-numero_rivista: 64
-id_numero: OEL-64
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-64"
 issue_number: OEL-64
 wp_id: 12395
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 ---
-
 - Imposta il tuo rapporto sulla serenità, il rispetto, l'affetto.
 
 - Esigi che intorno a lui ci sia ordine e tranquillità: la confusione e il chiasso gli impediscono di concentrarsi.

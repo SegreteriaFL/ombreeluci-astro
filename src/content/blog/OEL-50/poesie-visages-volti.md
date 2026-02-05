@@ -15,8 +15,9 @@ umap_x: 6.8616414070129395
 umap_y: 9.080544471740723
 umap_z: 8.305231094360352
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Helene, venuta a Roma per la festa del 1° febbraio, ci ha lasciato questa sua poesia per i nostri anici. Hélène ha 22 anni, è I.M.C. (paralisi cerebronotoria). Scrive usando con fatica una macchina elettronica. Vive a Bruxelles, al "Toit" di P. Roberti.
 
 ### Visages

@@ -12,7 +12,8 @@ umap_x: 7.311741352081299
 umap_y: 6.476260662078857
 umap_z: 10.446223258972168
 issue_number: OEL-167
-id_numero: OEL-167
+id_numero: "OEL-167"
+numero_rivista: "Ombre e Luci"
 ---
 Arrivando per la prima volta a Trieste in un’estate dei primi anni Settanta, la bella sorpresa fu che d’impatto tutto corrispondeva al mio immaginario di giovane studentessa. Trieste, splendida, emanava il fascino di una capitale europea, algida, elegante, multietnica, in più a dimensione umana. In contrasto, però, con l’immagine gaia, esuberante, tollerante, di sano benessere che la città offriva, colpivano, non poco, l’insofferenza verso quegli «s’chavi maledeti» che affollavano per lo più la piazza davanti alla stazione centrale, il numero elevatissimo di persone anziane.
 

@@ -14,7 +14,8 @@ umap_x: 7.864537239074707
 umap_y: 8.913841247558594
 umap_z: 7.810969829559326
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 *Immaginate una persona con disabilità. Come la disegnereste? Provate a farlo…”* *“Quante persone con disabilità conosci? Di quante sai dire il nome?”*
 

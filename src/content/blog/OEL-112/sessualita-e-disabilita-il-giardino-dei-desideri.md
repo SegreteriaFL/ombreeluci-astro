@@ -11,8 +11,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 Avere accettato la mia condizione di disabile non significa che non avverta più le sofferenze e i disagi che essa comporta. Ad esempio, per l'aspetto affettivo. Il mio corpo, le mie emozioni, sono vivi dentro di me e in certi momenti esplodono in un modo che non riesco a controllare. (...)
 
 Devo ringraziare mia madre e mia nonna, soprattutto mia nonna, che con meno imbarazzo di quanto ne ho parlando con mia madre, mi spiegò cosa avviene tra un uomo e una donna fisicamente, quando provano attrazione reciproca, e mi spiegò che le sensazioni che provavo quando ero ancora adolescente erano più che normali e non dovevo vergognarmene. Non dovevo vergognarmi di aver voglia di baciare, di sentire dentro di me il desiderio di essere bella e desiderabile nei confronti di un uomo, nonostante la mia disabilità. Rita, mi disse un giorno seduta sulla sua poltrona in sala, dove di solito dispensava i consigli più importanti " non c'è niente di cui ti debba vergognare: ormai, anche se sei ancora una ragazzina, nel corpo sei già una donna. È giusto che tu senta certe cose: la vicinanza di un uomo, il rossore delle guance, la voglia di abbracciarlo, di sentirti desiderabile ai suoi occhi. Sarebbe sbagliato se ciò non accadesse.

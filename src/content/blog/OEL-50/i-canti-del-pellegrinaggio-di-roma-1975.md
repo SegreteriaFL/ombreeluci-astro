@@ -15,8 +15,9 @@ umap_x: 9.213741302490234
 umap_y: 7.8784003257751465
 umap_z: 12.996479034423828
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Come è Bello
 
 Introduzione:

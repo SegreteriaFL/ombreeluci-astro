@@ -17,8 +17,9 @@ umap_x: 6.615755081176758
 umap_y: 8.496452331542969
 umap_z: 7.677327632904053
 issue_number: OEL-132
+id_numero: "OEL-132"
+numero_rivista: "Ombre e Luci"
 ---
-
 Eravamo quelle delle gonne a fiori, degli zoccoli, degli zainetti stracolmi, delle lotte per il diritto all’uguaglianza tra uomo e donna, all’autodeterminazione e tanto ancora. Quando la mia amica Marta mi propose di lavorare con lei come assistente in una tipografia per ragazzi ipodotati — si chiamavano proprio così — organizzata dal padre tipografo di uno di loro, accettai subito. Fu il mio primo impatto con la disabilità: Genova, primavera 1977. Avevo ventotto anni. Erano una decina di ragazzi con tratti autistici (ora lo so), ma allora né io né Marta avevamo idea di quale fosse la tipologia dei loro problemi. Non ci furono incontri con i medici, e le famiglie le vedevamo solo quando li accompagnavano e li riprendevano. Il papà tipografo insegnava loro l’uso dei macchinari, a noi venne in mente di organizzare una mensa autogestita: andare insieme a fare la spesa, cucinare, apparecchiare, stare bene a tavola, mettere a posto, rendere tutto pronto per il giorno dopo. Per diversi motivi non andò avanti molto, ma per me — e non solo — fu il vero primo passo importante verso la consapevolezza che la lotta per le pari opportunità partiva proprio da lì. Seguirono anni importanti, dodici. Le gonne a fiori c’erano ancora, ma più spesso i jeans, più comodi per rincorrere treni e corriere, e arrivare in scuole sperdute. Tanto lavoro, studio, fatiche, gratificazioni, ma soprattutto il bello di sentirmi nelle mie mani.
 > Poi la scoperta che mi avrebbe cambiato la vita: il bambino che aspettavo avrebbe avuto dei problemi.
 

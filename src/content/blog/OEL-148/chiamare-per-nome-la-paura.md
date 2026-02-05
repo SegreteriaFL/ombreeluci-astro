@@ -12,7 +12,8 @@ umap_x: 7.81789493560791
 umap_y: 8.253495216369629
 umap_z: 12.675195693969727
 issue_number: OEL-148
-id_numero: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
 Il
 10 marzo scorso la comunità Edelweiss di Messina ha festeggiato i suoi venticinque anni di vita. E lo ha fatto mettendo in scena lo spettacolo Orchestra di Cuori a colori allo scopo di raccontare la trasformazione che ognuno di noi vive entrando a far parte di Fede e Luce. I primi a salire sul palco sono stati i genitori dei ragazzi della comunità che hanno raccontato l’oscurità in cui si trovavano quando sono arrivati a Fede e Luce. E lo hanno fatto attraverso la poesia Oscurità, nata da un confronto avvenuto tra loro sul tema della trasformazione: «La strada della paura conduce alla notte. / Se la situazione sfugge di mano ci si sente sconfitti, / Sconfitti dalla mia stessa “forza”. / La paura mi fa fermare davanti alla difficoltà e non mi fa andare oltre / La paura non mi fa vedere cosa c’è oltre l’ostacolo. / Ho Paura di rimanere da solo! / Ho Paura del futuro! / Se questa paura non è affrontata genera diffidenza e porta alla morte. / Il non chiamare per nome la paura, la mancanza di fiducia negli altri, il non accettare l’aiuto, / l’essere sopraffatti dall’ansia / porta alla sconfitta. / Il mondo finisce in un burrone!». Gli amici hanno quindi ballato sulle note di Io credo nel noi dei Gen Verde: al centro il genitore con i suoi dubbi e le sue paure, che si consegna reciprocamente senza essere un supereroe, ma donando amicizia sincera. I ragazzi della comunità sono quindi andati tra il pubblico, come Gesù che passa e sta in mezzo a noi. Saliti sul palco, costituitisi in orchestra, hanno suonato e cantato Il ragazzo di Fede e Luce, scritta dalla comunità sulle note de Il ragazzo della via Gluk, in un momento di musica e di racconto di sé e del riscoprirsi in comunità.

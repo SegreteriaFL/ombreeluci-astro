@@ -1,15 +1,38 @@
 ---
 id: "OEL-7"
-title: "Numero 7 - Scuola del fare"
+title: "Numero 7 – Scuola del fare"
 tipo: "ombre-e-luci"
 numero: 7
-anno: "1984"
+sort_order: 106
+pubDate: "1984-03-01T00:00:00Z"
 data_pubblicazione: "marzo 1984"
 sommario: "In questo numero: Alcune esperienze concrete e le domande sulle criticità dell’integrazione scolastica. Ma anche una riflessione di Jean Vanier per ciascuno di noi: cerchiamo di non aver paura di scoprire il povero che è in noi. Infine, due storie di vita insieme: una famiglia che adotta e una casa-famiglia."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_7_1984.jpg"
 link_sfoglia: ""
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-7-scuola-del-fare/"
+articoli:
+  - "ombre-e-luci-n-7-1984-sfogliabile"
+  - "una-verita-difficile-a-dirsi"
+  - "un-uovo-due-uova"
+  - "classe-azzurro"
+  - "quel-lupo-dentro-noi"
+  - "il-volontariato"
+  - "storia-di-unadozione"
+  - "casa-jada"
+  - "dialogo-aperto-n-7"
+  - "vita-fede-e-luce-n-7-il-convegno-interazionale"
+  - "li-fece-uomo-e-donna"
+  - "quando-e-volontariato"
+  - "integrazione-a-scuola-una-verita-difficile-a-dirsi"
+  - "quel-lupo-dentro-noi"
+  - "un-uovo-due-uova"
+  - "li-fece-uomo-e-donna"
+  - "casa-jada"
+  - "il-nostro-cucciolo-di-due-metri-storia-di-un-adozione"
+  - "vita-fede-e-luce-n-7-il-convegno-interazionale"
+  - "dialogo-aperto-n-7"
+  - "classe-azzurro"
 ---
 
 ## Indice

@@ -14,8 +14,9 @@ umap_x: 4.62092399597168
 umap_y: 10.196906089782715
 umap_z: 7.72316312789917
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 Lanostra scelta di accogliere Cristina in famiglia parte da lontano perché, da quando siamo sposati, cerchiamo di tenere la porta di casa un poco aperta all’accoglienza di altre persone: sia amici che ragazzi che altri ancora. Per cui arrivare all’idea di prendere in affidamento un bambino con handicap è stato un percorso graduale e di tutta la famiglia; perché quando apri la porta di casa è tutta la famiglia che accoglie, compresi i figli che hai già ed anzi se non avessimo avuto i figli molto probabilmente non avremmo accolto né Cristina né altri.
 
 **Quando nell’autunno 2006 ci fu proposto di accogliere Cristina** (bambina down di 7 anni) ci è stato subito chiaro che, con questo affidamento familiare, sarebbe diventata nostra figlia. Appena ascoltata la proposta si sono affollati nelle nostre teste pensieri e timori che abbiamo sentito molte volte da tanti genitori di FL; quale sarà il suo futuro dopo di noi? Come l’accoglieranno i nostri figli (oggi piccoli e domani adulti)? Ce la faremo ad essere genitori di tutti? Ci rendiamo conto che lei sarà sempre “piccola”? Avremo abbastanza forza e pazienza per combattere con tutti quelli che ruotano intorno a lei (scuola, terapisti, assistenti sociali, Usl, giudici, neurologi, ecc.)?

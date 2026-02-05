@@ -15,8 +15,9 @@ umap_x: 4.816821575164795
 umap_y: 8.063057899475098
 umap_z: 10.290884017944336
 issue_number: OEL-28
+id_numero: "OEL-28"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### La casa che sogno
 
 Questa mattina mi sento triste. Sono sola in casa. Roberto è uscito con l’assistente. Mentre lavoro nelle faccende di casa, sprofondo nei miei pensieri e vago con i ricordi tristi e lieti. Più tristi che lieti, per la verità. Penso all’avvenire... Che ne sarà? Allora mi vengono le idee più bizzarre. Vorrei realizzare qualcosa per Roberto, al più presto perché ho fretta. Ho 53 anni e non c’è più tanto tempo davanti; almeno poter cominciare... Nei miei pensieri mi vedo comprare una casa, una «casa-famiglia», bella, capiente, per poter ospitare, insieme a mio figlio, altri ragazzi in difficoltà che abbiano bisogno di una casa, assistiti da persone che vogliano lavorare per loro. All’inizio si potrebbe provare col fare le vacanze, due o tre volte l’anno, fino a farla stabile. Questo è nel mio cuore, s'intende, ma come realizzarla? Quando e dove, lo sa solo Dio. Mentre sto mettendo insieme tutte queste cose e perfino facendo i calcoli della cifra che occorrerebbe, sento squillare il telefono. «Pronto Lina, sono Matteo. Ti volevo fare una proposta: un campeggio con Roberto. Stasera vengo da te e ne parliamo». Caro, dolce amico Matteo, che da tanti anni sei rimasto fedele, dopo tante lotte e difficoltà, non ti sei arreso mai. Nei momenti più difficili sei apparso come l’angelo custode a darci una mano e sei bravissimo nel farlo. Lavori senza farti notare e non sai quanta speranza hai portato nel mio cuore. A farmi credere che per mio figlio c’era ancora qualcosa di vero, sei stato tu. Grazie Matteo. Metto giù il telefono. Continuo il mio pensiero... Una grande casa, con un piccolo giardino... Chissà! Forse resterà solo un pensiero, ma rimarrà un motivo per continuare a vivere.

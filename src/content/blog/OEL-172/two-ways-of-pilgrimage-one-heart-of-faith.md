@@ -18,8 +18,9 @@ umap_x: 9.041550636291504
 umap_y: 8.389100074768066
 umap_z: 12.688556671142578
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 “P
 ilgrimage” (from the older form “peregrinàggio”): noun – 1. a. A devotional practice consisting in traveling, alone or in a group, to a sanctuary or sacred place to carry out special acts of worship, whether out of piety, as a vow, or for penance (…). 2. Archaic: wandering, exile; yet still present in mystical language in the expression “earthly pilgrimage,” meaning life itself; in the Bible, it translates the Latin “peregrinatio.” There’s a whole universe within this Treccani dictionary entry. Because
 **a pilgrimage is a journey you make both outwardly and inwardly**

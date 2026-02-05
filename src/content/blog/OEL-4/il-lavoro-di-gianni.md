@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
 archive_id: OmbreELuciN004
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 periodo_label: Ottobre, Novembre, Dicembre
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 umap_x: 7.324370861053467
 umap_y: 8.3284912109375
 umap_z: 7.705316066741943
+id_numero: "OEL-4"
 ---
-
 E dopo? Dopo di questi ragazzi — chiamali *mongoloidi* all’antica, Down alla nuova, o trisomici alla scientifica: la realtà non cambia col nome — dopo la scuola o l’istituto specializzato, dopo, che possono fare?
 
 Gianni lavora in una pizzeria, mi avevano detto, vacci a parlare. Ma è un lavoro protetto? avevo domandato. Bé, un po’ sì, la pizzeria è della sorella. Ah, è della sorella.

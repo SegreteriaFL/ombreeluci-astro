@@ -7,6 +7,7 @@ cluster_id: 2
 image: "https://www.ombreeluci.it/wp-content/uploads/2020/02/ceramiche-792x1024.jpg"
 slug: "tranquilla-e-soddisfatta-di-me-stessa"
 has_comments: true
+id_numero: "OEL-149"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

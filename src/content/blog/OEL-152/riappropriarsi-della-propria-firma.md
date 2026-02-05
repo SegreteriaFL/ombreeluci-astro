@@ -12,7 +12,8 @@ umap_x: 7.086986541748047
 umap_y: 8.529158592224121
 umap_z: 7.754541873931885
 issue_number: OEL-152
-id_numero: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
 Trentasette secondi senza respirare sono stati i primi della vita di Yuma, causandole una paralisi cerebrale infantile con le cui conseguenze, ormai ventiquattrenne, convive in maniera apparentemente serena. Abita con la madre, affettuosa e apprensiva, ed è sufficientemente autonoma da riuscire a muoversi da sola per Tokyo sulla sedia a rotelle elettrica. Lavora come disegnatrice di manga, ma a firmare le sue opere è la cugina prestanome e sono proprio la volontà di vedere riconosciuto il suo talento e la necessità di vivere nuove avventure da riversare nell’arte a spingerla a uscire dai confini della sua esistenza protetta. Ed è così che Yuma scopre ciò che la madre aveva sempre provato a celarle, nel tentativo di proteggerla. È la debuttante Mei Kayama, realmente affetta da paralisi cerebrale, a interpretare Yuma.
 

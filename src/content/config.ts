@@ -116,6 +116,9 @@ const numeri = defineCollection({
     articoli_ids: z.array(z.string()).optional(),
     articoli_urls: z.array(z.string()).optional(),
     issues: z.array(z.unknown()).optional(),
+    sort_order: z.union([z.number(), z.string().transform(s => parseInt(s, 10) || 0)]).optional(),
+    pubDate: z.union([z.string(), z.date()]).optional(),
+    articoli: z.array(z.string()).optional(),
   }).passthrough(),
 });
 

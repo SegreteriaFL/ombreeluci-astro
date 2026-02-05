@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-153
-id_numero: OEL-153
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
 «Rabbi, chi ha peccato lui o i suoi genitori?»: nel vangelo di Giovanni (9, 1-7) i discepoli rivolgono a Gesù questa domanda davanti a un uomo nato cieco. È una domanda che giunge fino a noi, con tutta la forza e i dubbi che contiene. In effetti in essa c’è una convinzione molto radicata al tempo di Gesù, ma credo anche oggi: certe “disgrazie” o malattie sono una specie di punizione; se hai peccato Dio ti punisce facendoti capitare qualcosa di male. Invece Dio non punisce nessuno, perché col peccato l’unica cosa che Dio sa fare è usare misericordia, cioè perdonare. Siamo noi con i nostri sensi di colpa che pensiamo di essere stati puniti o di essere la causa della disabilità o della malattia di qualcuno.
 

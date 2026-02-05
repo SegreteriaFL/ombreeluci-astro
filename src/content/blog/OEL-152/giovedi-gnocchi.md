@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quasi ogni sera Emanuela trova il modo di farmi sapere che cosa vuole mangiare il giorno dopo. Se vuole i cannelloni lascia il forno aperto. Oppure tira fuori dal pensile il tonno e i piselli. Se vuole gli gnocchi, la sera prima tira fuori le patate e la farina… e il giorno dopo, chiaramente giovedì, gnocchi!
 
 Io ho 72 anni e mia figlia Emanuela ne ha 43. Emanuela non parla e con pochi gesti fa capire quel che occorre. Soprattutto vuole vedermi lavorare in casa: cucinare, piegare i panni, far la lavatrice… preparare una valigia per essere pronta a partire! Praticamente una “suocera”: non posso stare a lungo seduta a far niente. La cosa incredibile è che Emanuela sa perfettamente i giorni della settimana (non sembra aver la possibilità di esserne consapevole ma chi la conosce sa che capisce tutto quel che le capita intorno) e sa che il martedì e il giovedì ci sono i dentisti che hanno lo studio nel nostro pianerottolo: non manca mai di andare a salutarli – anche ora tra mascherine e guanti. Spesso preparo loro il pranzo e gli gnocchi sono tra i preferiti il giovedì. Con il sugo alle spuntature (o con i quattro formaggi come li faccio a mio figlio quando viene a trovarmi dalla Francia). Così Emanuela il mercoledì sera tira fuori, se ne ha voglia, la farina con le patate perché il giorno dopo non dimentichi di preparare gli gnocchi per tutti e quattro, noi due e i dentisti amici vicini. Senza assistenza domiciliare e centro diurno per restare al riparo dall’epidemia di coronavirus, ho continuato a cucinare ben più del solito. Oggi gnocchi anche per voi!

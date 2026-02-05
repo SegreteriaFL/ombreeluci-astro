@@ -12,8 +12,9 @@ umap_x: 8.049341201782227
 umap_y: 1.7943620681762695
 umap_z: 9.364466667175293
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 *In copertina: Benedetta con Duccio Degl'Innocenti, capitano dell'Empoli e della Nazionale U19*
 
 Sono andata a vedere la partita di calcio Primavera della Roma – Primavera dell’Empoli perché il mio amico Duccio Degl’Innocenti gioca nella Primavera dell’Empoli. Lui è figlio di Luciano Degl’Innocenti e di Catiuscia Ortichi, fratello di Daniele e nipote di Loretta. Al mare, a Castiglion della Pescaia, al Bagno Sirena, sta vicino al mio ombrellone in prima fila, a destra. Duccio è molto simpatico e gentile. È amico di Elia e di Olmo. È molto bravo a giocare a pallone anche sulla spiaggia al mare. La partita alle Tre Fontane è finita 2-2. Duccio ha fatto i due gol e poi è venuto di corsa dove stavamo noi e con la mano mi ha dedicato i gol. **Io sono stata molto contenta. Ho urlato «Gol, Duccio, primavera dell’Empoli!».** Vicino c’erano le persone che si sono arrabbiate perché Duccio ha fatto 2 gol. Dicevano parolacce e pure dicevano «siete venuti da Empoli a rubare la partita». Ma io ero venuta da viale Marconi anzi dalla stazione Ostiense perché ero andata a prendere Catiuscia che è venuta apposta per vedere la partita di suo figlio Duccio a Roma con me. Al mare io faccio sempre il bagno con Catiuscia. Poi dopo la partita Duccio è venuto a salutarmi. Io l’ho abbracciato e abbiamo fatto le foto. C’era pure un giocatore della Roma molto alto che è amico di Duccio. Poi sono andata a pranzo al ristorante.

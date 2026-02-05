@@ -12,7 +12,8 @@ tema_code: "T12"
 tema_label: "Progetto di vita, autonomia e dopo di noi"
 categoria_menu: "Diritti"
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 La storia dell’amicizia con Massimiliano è iniziata più di dieci anni fa. Frequentavo la comunità di San Roberto già da qualche mese, ma il mio approccio timido alla scoperta di nuove socialità, unito alla ponderatezza con cui Massi stesso sonda il terreno prima di lanciare segnali di simpatia, aveva fatto sì che osservassi solo da lontano il dondolio di quel ragazzone biondo, che amava starsene nella zona di confine tra isolamento e partecipazione.
 

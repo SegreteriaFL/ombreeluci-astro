@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-114
-id_numero: OEL-114
+id_numero: "OEL-114"
+numero_rivista: "Ombre e Luci"
 ---
 “Ci sarebbe questa Comunità di **[Fede e Luce](https://www.fedeeluce.it/)** che avrebbe bisogno di una mano, perché è un po’ in difficoltà”. Così è partita la mia lunga avventura a Fede e Luce, con queste 20 scarne parole, dette dal mio viceparroco di allora, Don Filippo Morlacchi, nel 2000. La comunità di S.Croce si era da poco trasferita nella mia Parrocchia, al Preziosissimo Sangue, e Don Filippo era appena diventato il suo assistente spirituale. Io e mia moglie Ilaria eravamo appena tornati dal nostro viaggio di nozze e cercavamo un servizio di volontariato da fare insieme.
 Avevamo già sentito parlare di Fede e Luce da alcuni amici** che la frequentavano da tempo e avevamo anche già incontrato la comunità di S.Croce in occasioni diverse: lei insieme ad un'amica, io quando la comunità s’insediò in Parrocchia e, in quanto responsabile della Caritas, ero lì ad accoglierla.

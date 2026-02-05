@@ -14,7 +14,8 @@ umap_x: 6.4239182472229
 umap_y: 8.748971939086914
 umap_z: 11.923983573913574
 issue_number: OEL-74
-id_numero: OEL-74
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
 H
 o conosciuto Carlo nel lontano gennaio del 1982. Già allora io e mio marito Paolo con i nostri figli facevamo parte del

@@ -16,8 +16,9 @@ umap_x: 9.143864631652832
 umap_y: 7.96644401550293
 umap_z: 3.5223991870880127
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 I
 l
 [Comitato Disabilità Municipio X](https://www.comitatodisabilitam10.it)

@@ -15,7 +15,8 @@ umap_x: 6.3748931884765625
 umap_y: 7.8082098960876465
 umap_z: 8.473140716552734
 issue_number: OEL-36
-id_numero: OEL-36
+id_numero: "OEL-36"
+numero_rivista: "Ombre e Luci"
 ---
 Il futuro dei portatori di handicap mentale, giovani o già adulti fa paura: quello che si desidera per loro — un luogo dove possano continuare a vivere come in famiglia — è ancora quasi sconosciuto, nonostante alcune iniziative di questo tipo già realizzate e che non hanno tuttavia posti disponibili.
 

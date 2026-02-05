@@ -7,7 +7,6 @@ import CopyField from '../components/support/CopyField.astro';
 import FaqAccordion from '../components/support/FaqAccordion.astro';
 import '../styles/global.css';
 import {
-  DEFAULT_HERO_VARIANT,
   INTESTATARIO,
   IBAN_RAW,
   IBAN_DISPLAY,
@@ -19,70 +18,57 @@ import {
   ABBONAMENTO_ANNO,
   ABBONAMENTO_MESE,
   NUMERI_ANNO,
-  HERO_VARIANTS,
 } from '../config/support.ts';
 
-// Variante da query param (build: non disponibile in static; gestita lato client)
-const url = Astro.url;
-const vParam = url.searchParams.get('v');
-const variantFromQuery = vParam === 'classica' ? 'B' : vParam === 'luce' ? 'A' : null;
-const variant: 'A' | 'B' = variantFromQuery ?? DEFAULT_HERO_VARIANT;
-
-const heroImage = '/images/dona1.webp';
+const heroImages = ['/images/dona1.webp', '/images/dona2.webp', '/images/dona3.webp', '/images/dona4.webp', '/images/dona7.webp'];
 ---
 
 <html lang="it">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sostieni Ombre e Luci – Donazione mensile, 5×1000, Abbonamento</title>
-    <meta name="description" content="Sostieni Ombre e Luci con una donazione mensile. Senza sponsor: la rivista vive grazie a chi la legge." />
+    <title>Sostieni Ombre e Luci – Donazione, 5×1000, Abbonamento</title>
+    <meta name="description" content="Sostieni Ombre e Luci con una donazione. Senza sponsor: la rivista vive grazie a chi la legge." />
     <ViewTransitions />
   </head>
   <body class="support-page">
     <Header />
 
-    <!-- Toast copy -->
     <div id="support-toast" class="support-toast" role="status" aria-live="polite" aria-hidden="true">
       <span class="support-toast-icon">✓</span>
       <span class="support-toast-text">Copiato</span>
     </div>
 
-    <!-- Sticky mobile CTA -->
     <a href="#support-box" class="support-sticky-cta" id="support-sticky-cta" aria-label="Vai a dona">Dona ora</a>
 
-    <main class="site-main">
-      <SupportHero variant={variant} imageSrc={heroImage} imageAlt="Ombre e Luci" />
-
-      <div class="container">
-        <!-- Altri modi -->
-        <section class="support-altri-modi" aria-labelledby="altri-modi-title">
-          <h2 id="altri-modi-title" class="section-title">Altri modi</h2>
+    <SupportHero imageSrcs={heroImages} imageAlt="Ombre e Luci">
+      <div class="container support-container">
+        <section class="support-section support-altri-modi" id="altri-modi" aria-labelledby="altri-modi-label">
+          <span id="altri-modi-label" class="support-section-label">Altri modi per sostenerci</span>
           <div class="support-cards">
             <div class="support-card" id="bonifico">
-              <h3 class="support-card-title">Bonifico (senza commissioni)</h3>
+              <span class="support-card-label">Bonifico</span>
               <p class="support-card-intestatario">{INTESTATARIO}</p>
               <CopyField label="IBAN" value={IBAN_DISPLAY} copyValue={IBAN_RAW} trackId="support_copy_iban" />
               <CopyField label="CCP" value={CCP_DISPLAY} copyValue={CCP} trackId="support_copy_ccp" />
               <p class="support-card-hint">Puoi impostare un bonifico ricorrente dalla tua banca.</p>
             </div>
             <div class="support-card" id="cinquemille">
-              <h3 class="support-card-title">5×1000 (ti costa zero)</h3>
+              <span class="support-card-label">5×1000</span>
+              <p class="support-card-hint">Ti costa zero. Firma nel riquadro «Sostegno del volontariato» e inserisci il codice fiscale.</p>
               <CopyField label="Codice Fiscale" value={CF} trackId="support_copy_cf" />
-              <p class="support-card-hint">Firma nel riquadro «Sostegno del volontariato» e inserisci il CF.</p>
               <p class="support-card-runts">RUNTS {RUNTS}</p>
             </div>
             <div class="support-card" id="abbonamento">
-              <h3 class="support-card-title">Abbonamento</h3>
+              <span class="support-card-label">Abbonamento</span>
               <p class="support-card-abbonamento">{NUMERI_ANNO} numeri l'anno · {ABBONAMENTO_ANNO}€/anno oppure {ABBONAMENTO_MESE}€/mese</p>
               <a href={`mailto:${EMAIL}?subject=Abbonamento Ombre e Luci`} class="support-card-link">Scopri abbonamento</a>
             </div>
           </div>
         </section>
 
-        <!-- Trasparenza / Impatto -->
-        <section class="support-impatto" aria-labelledby="impatto-title">
-          <h2 id="impatto-title" class="section-title">Cosa rendi possibile</h2>
+        <section class="support-section support-impatto" aria-labelledby="impatto-label">
+          <span id="impatto-label" class="support-section-label">Cosa rendi possibile</span>
           <ul class="support-impatto-list">
             <li>Pubblicazione e lavoro editoriale</li>
             <li>Sito e archivio</li>
@@ -92,21 +78,18 @@ const heroImage = '/images/dona1.webp';
           <p class="support-impatto-chiudi">Ogni euro va dove serve.</p>
         </section>
 
-        <!-- FAQ -->
-        <section class="support-faq" aria-labelledby="faq-title">
-          <h2 id="faq-title" class="section-title">Domande frequenti</h2>
+        <section class="support-section support-faq" aria-labelledby="faq-label">
+          <span id="faq-label" class="support-section-label">Domande frequenti</span>
           <FaqAccordion />
         </section>
       </div>
-    </main>
+    </SupportHero>
     <Footer />
   </body>
 </html>
 
-<script define:vars={{ HERO_VARIANTS_JSON: JSON.stringify(HERO_VARIANTS) }}>
+<script>
   (function () {
-    const HERO_VARIANTS = typeof HERO_VARIANTS_JSON !== 'undefined' ? JSON.parse(HERO_VARIANTS_JSON) : {};
-
     function emit(name, detail) {
       try {
         window.dispatchEvent(new CustomEvent(name, { detail: detail || {} }));
@@ -114,32 +97,8 @@ const heroImage = '/images/dona1.webp';
           window.dataLayer.push({ event: name, ...(detail || {}) });
         }
       } catch (_) {}
-      console.log('[support]', name, detail);
     }
 
-    // Query param ?v=luce | ?v=classica
-    const params = new URLSearchParams(window.location.search);
-    const v = params.get('v');
-    if (v === 'luce' || v === 'classica') {
-      const variantKey = v === 'classica' ? 'B' : 'A';
-      const copy = HERO_VARIANTS[variantKey];
-      if (copy) {
-        const eyebrow = document.querySelector('.support-hero-eyebrow');
-        const punchline = document.querySelector('.support-hero-punchline');
-        const sub = document.querySelector('.support-hero-sub');
-        const cta = document.getElementById('support-paypal-cta');
-        if (eyebrow) eyebrow.textContent = copy.eyebrow;
-        if (punchline) punchline.textContent = copy.headline;
-        if (sub) sub.textContent = copy.sub;
-        if (cta) {
-          cta.textContent = copy.cta;
-          cta.setAttribute('data-cta-monthly', copy.cta);
-        }
-        emit('support_change_hero_variant', { variant: variantKey, source: 'query' });
-      }
-    }
-
-    // Copy buttons (CopyField)
     function showToast() {
       const toast = document.getElementById('support-toast');
       if (!toast) return;
@@ -169,7 +128,6 @@ const heroImage = '/images/dona1.webp';
       });
     });
 
-    // Smooth scroll per #support-box e sticky CTA
     document.querySelectorAll('a[href="#support-box"]').forEach(function (a) {
       a.addEventListener('click', function (e) {
         e.preventDefault();
@@ -178,7 +136,14 @@ const heroImage = '/images/dona1.webp';
       });
     });
 
-    // Sticky mobile CTA: mostra/nascondi
+    document.querySelectorAll('a[href="#bonifico"]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var el = document.getElementById('bonifico');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
     var stickyCta = document.getElementById('support-sticky-cta');
     if (stickyCta) {
       var supportBox = document.getElementById('support-box');
@@ -190,12 +155,40 @@ const heroImage = '/images/dona1.webp';
       window.addEventListener('scroll', onScroll, { passive: true });
       onScroll();
     }
+
+    var bonificoEl = document.getElementById('bonifico');
+    if (bonificoEl && typeof IntersectionObserver !== 'undefined') {
+      var bonificoObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            emit('support_scroll_bonifico', { visible: true });
+            bonificoObs.disconnect();
+          }
+        });
+      }, { rootMargin: '0px', threshold: 0.3 });
+      bonificoObs.observe(bonificoEl);
+    }
   })();
 </script>
 
 <style>
+  /* Footer in flow quando finisce la sezione (niente fixed) */
+  :global(.support-page) :global(.footer-reveal-wrap) :global(.reveal-spacer) {
+    height: 0 !important;
+  }
+  :global(.support-page) :global(.site-footer) {
+    position: static !important;
+    left: auto !important;
+    bottom: auto !important;
+  }
+
   .support-page {
     padding-bottom: 2rem;
+  }
+
+  .support-container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .support-toast {
@@ -254,28 +247,41 @@ const heroImage = '/images/dona1.webp';
     .support-sticky-cta { display: block; }
   }
 
+  .support-section {
+    margin-bottom: 3rem;
+  }
+  .support-section-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 1.25rem;
+  }
   .support-altri-modi {
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
+    margin-top: 0;
   }
   .support-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem;
-    margin-top: 1rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
   .support-card {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
-    border-radius: 10px;
-    padding: 1.25rem;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   }
-  .support-card-title {
-    font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.9375rem;
+  .support-card-label {
+    font-size: 0.8125rem;
     font-weight: 700;
-    color: var(--text-color);
-    margin: 0 0 0.5rem 0;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    display: block;
+    margin-bottom: 0.5rem;
   }
   .support-card-intestatario,
   .support-card-abbonamento {
@@ -284,9 +290,10 @@ const heroImage = '/images/dona1.webp';
     margin: 0;
   }
   .support-card-hint {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--text-secondary);
     margin: 0.75rem 0 0 0;
+    line-height: 1.5;
   }
   .support-card-runts {
     font-size: 0.75rem;
@@ -304,31 +311,30 @@ const heroImage = '/images/dona1.webp';
     text-decoration: underline;
   }
 
-  .support-impatto {
-    margin-bottom: 2rem;
-  }
   .support-impatto-list {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     color: var(--text-color);
     margin: 0.5rem 0 0 0;
     padding-left: 1.25rem;
+    line-height: 1.7;
   }
   .support-impatto-list li {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.35rem;
   }
   .support-impatto-chiudi {
     font-size: 0.9375rem;
     color: var(--text-secondary);
-    margin: 1rem 0 0 0;
+    margin: 1.25rem 0 0 0;
   }
 
-  .support-faq {
-    margin-bottom: 2rem;
+  .support-faq .support-section-label {
+    margin-bottom: 1rem;
   }
 
   @media (max-width: 900px) {
-    .support-cards {
-      grid-template-columns: 1fr;
+    .support-container {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
     }
   }
 </style>

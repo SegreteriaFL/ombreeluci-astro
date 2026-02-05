@@ -12,8 +12,9 @@ umap_x: 5.280569076538086
 umap_y: 7.887240886688232
 umap_z: 11.36520004272461
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### - Accorgetevi di me
 
 Io appartengo al gruppo Fede e Luce da nove anni circa. In questo tempo è nata una grande amicizia fra noi. Io mi trovo bene con tutti i membri del mio gruppo, "L’Arcipelago", composto da tante persone che vengono o no agli incontri, ma quello che mi preme più di tutto è sottolineare che Fede e Luce ha un significato molto profondo nella società in cui viviamo: con i suoi pregi e i suoi difetti si cerca di migliorarci. Per me l’amicizia è importante con tutti, anche l’inserimento nella società di tutti i giorni, con tutto quello che comporta. Bisogna sapersi accettare per quello che si è. Spero che nel mio futuro io riesca ad ottenere ciò che voglio, anche se è impossibile. Ognuno di noi ambisce a qualcosa nel lavoro, nell’amore, e in altre cose più gratificanti che diano un cambiamento. Vorrei tanto esser considerato di più, ma io più cresco e più rimango come ero prima. Se qualcuno vuole posso continuare a scrivere, affinché gli altri si accorgano di me, per quello che vorrei avere dalla vita. Io sbaglio a pensarci sempre, perché diventa un'ossessione, però io ci conto che si avveri. Ciao

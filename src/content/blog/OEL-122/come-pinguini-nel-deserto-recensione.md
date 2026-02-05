@@ -12,7 +12,8 @@ umap_x: 6.306436061859131
 umap_y: 10.76574993133545
 umap_z: 5.854561805725098
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 Illibro raccoglie una serie di testimonianze di genitori di figli con sindrome di Down scritte tra il 2003 e il 2005 su un forum della rete, dove decine di madri e padri hanno condiviso le loro paure, le difficoltà e le speranze su diversi momenti che accompagnano la crescita del figlio.
 

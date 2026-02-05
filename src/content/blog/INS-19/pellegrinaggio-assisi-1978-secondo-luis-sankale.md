@@ -11,8 +11,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: INS-19
+id_numero: "INS-19"
+numero_rivista: "Insieme"
 ---
-
 Ancora ieri, "Assisi" era un mormorio, un ardente desiderio condiviso da alcuni gruppi "Fede e Luce" in diversi paesi. Ed secco che all'inizio di quest'anno 1978, il mormorio diviene appello. **È possibile ora riconoscere la voce di coloro che vengono verso di noi e aspettano che noi si faccia un passo verso di loro. Siamo pronti?
 Le notizie che ci giungono dal Belgio, dalla Svizzera e da altre parti ci dicono che anche lì, si prepara questo pellegrinaggio con fiducia e entusiasmo.
 Partire per Assisi, è avanzare insieme, umilmente e poveramente seguendo [l'esempio di S. Francesco](https://www.ombreeluci.it/1978/lettera-aperta-a-francesco-dassisi/); è cercare di capirsi gli uni gli altri; è incontrarsi per condividere le proprie esperienze; per dialogare, per esprimere la gioia di essere insieme.

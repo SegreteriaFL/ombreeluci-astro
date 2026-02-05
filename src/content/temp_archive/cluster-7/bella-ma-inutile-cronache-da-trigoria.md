@@ -7,6 +7,7 @@ cluster_id: 7
 image: "https://www.ombreeluci.it/wp-content/uploads/2021/05/Benedetta-Roma-3.jpg"
 slug: "bella-ma-inutile-cronache-da-trigoria"
 has_comments: false
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

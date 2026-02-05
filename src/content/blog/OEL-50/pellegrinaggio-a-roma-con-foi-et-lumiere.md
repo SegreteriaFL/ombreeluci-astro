@@ -12,8 +12,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 Fede e Luce internazionale, sta preparando un pellegrinaggio a Roma per le famiglie e gli amici degli handicappati mentali.
 
 Perché, questo pellegrinaggio? **Non soltanto per far prendere coscienza al mondo che l'handicappato mentale è figlio di Dio e capace di vivere una vita di fede, di speranza, di carità. Questo è uno scopo, ma non l'essenziale.

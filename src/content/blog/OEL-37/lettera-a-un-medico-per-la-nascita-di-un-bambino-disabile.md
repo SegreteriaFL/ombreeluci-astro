@@ -12,7 +12,8 @@ umap_x: 5.474518775939941
 umap_y: 9.930831909179688
 umap_z: 7.208717346191406
 issue_number: OEL-37
-id_numero: OEL-37
+id_numero: "OEL-37"
+numero_rivista: "Ombre e Luci"
 ---
 C
 aro collega, lei ha appena saputo che una mamma ha messo al mondo un bimbo affetto da

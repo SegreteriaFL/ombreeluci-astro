@@ -12,7 +12,8 @@ umap_x: 6.980075359344482
 umap_y: 8.366366386413574
 umap_z: 7.957066535949707
 issue_number: OEL-155
-id_numero: OEL-155
+id_numero: "OEL-155"
+numero_rivista: "Ombre e Luci"
 ---
 Non hanno avuto dubbi i genitori di Silvia a scommettere sul bene che la figlia avrebbe potuto ottenere chiedendo di rivedere la sua categoria di inabilità al lavoro data dalla certificazione di invalidità al 100%. **Qualche dubbio in più, hanno ammesso, lo hanno avuto quando si sono ritrovati a decidere dove Silvia avrebbe lavorato.** In ballo c’erano la distanza da casa con «un’ora e un quarto di durata del viaggio prendendo treno, metropolitana, autobus, più un tratto a piedi e il fatto che il negozio si trovasse all’interno di un centro commerciale, potenzialmente rumoroso e stancante». Per arrivare all’importante decisione «è stata fatta una riunione di famiglia» nella volontà costante «di coinvolgere i fratelli nei momenti decisionali». E hanno optato, tutti insieme, per la destinazione raggiungibile con i mezzi pubblici anche se più distante.
 

@@ -4,8 +4,8 @@ date: 1996-09-27
 author: Redazione
 slug: ma-costanza-danza-col-vento
 lang: it
-numero_rivista: 55
-id_numero: OEL-55
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-55"
 issue_number: OEL-55
 wp_id: 10904
 original_url: "https://www.ombreeluci.it/?p=10904"
@@ -15,7 +15,6 @@ umap_x: 6.1740922927856445
 umap_y: 8.78529167175293
 umap_z: 7.191213130950928
 ---
-
 Ènata una bimba! In un giorno caldo di Aprile. Tutto è passato: la sofferenza del parto, l’attesa di questa quarta figlia sognata e amata, eccola qui tra le mia braccia, la guardo, la scruto, controllo che abbia tutto a posto. No!!! Qualcosa non va, è diversa dalle altre figlie! subito un pensiero si insinua nella mente: non è normale! lo scaccio subito terrorizzata. Rivado con la mente al parto, a quelle ore terribili, a quelle facce stravolte di studenti e infermieri che assistevano alla nascita di Costanza, al pianto che non ho sentito, all’attesa di due giorni prima che me la facessero vedere. Gli esperti dell’ospedale mi assicurano che Costanza «sta bene, è solo una bimba molto tranquilla». Costanza nella culla non piange mai «beata te»!!! Costanza non vuole mangiare, Costanza non sorride, Costanza non sente, Costanza non vede, Costanza non si muove, Costanza non vuole essere toccata, neanche da me, dalla sua mamma. Costanza è bellissima, biondissima, il suo sguardo non ti guarda.
 
 Il mio dolore è grande quanto la speranza. Arrivano giorni, mesi, anni tra ospedali, neurologi di grande fama alla ricerca del perché, alla ricerca di una speranza. Arrivano mille diagnosi diverse, ma nessun aiuto, arrivano terapie piene di prospettive regolarmente disilluse. Arriva l’asilo, le mie lotte con il personale, con i genitori degli altri bambini «normali», arriva la scuola elementare pubblica carica di promesse: «Costanza ha diritto all’insegnante di sostegno con rapporto uno a uno, ha diritto all’assistente specializzata», sono per me lotte, corse al provveditorato, lunghe anticamere per parlare con funzionari e dirigenti «Signora non possiamo fare niente, non possiamo cambiare noi il pannolino a sua figlia, non abbiamo personale». Costanza passeggia per il corridoio della scuola affidata alla pietà di qualche bidello, Costanza ha la «cacca» fino sopra la schiena, sulle mani, da chissà quanto tempo, non c’è nessuno che la cambia «non spetta a me» dicono.

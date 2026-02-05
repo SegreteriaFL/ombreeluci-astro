@@ -6,6 +6,7 @@ theme: "cluster-6"
 cluster_id: 6
 slug: "cosicomesei-diario-di-bordo-di-un-neuropsichiatra-infantile-recensione"
 has_comments: false
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

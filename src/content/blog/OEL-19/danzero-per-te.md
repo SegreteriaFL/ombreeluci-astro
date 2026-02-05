@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-19
-id_numero: OEL-19
+id_numero: "OEL-19"
+numero_rivista: "Ombre e Luci"
 ---
 Chi avrebbe immaginato che la piccola Mireille — che a due anni aveva avuto un piedino schiacciato in un ascensore — sarebbe diventata, a forza di entusiasmo e di coraggio, prima ballerina all’Opera di Parigi?
 

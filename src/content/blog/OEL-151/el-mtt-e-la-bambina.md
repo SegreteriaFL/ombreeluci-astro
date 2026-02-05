@@ -12,7 +12,8 @@ umap_x: 7.6281585693359375
 umap_y: 11.326128005981445
 umap_z: 4.814411163330078
 issue_number: OEL-151
-id_numero: OEL-151
+id_numero: "OEL-151"
+numero_rivista: "Ombre e Luci"
 ---
 Da un lato un uomo che sembra così diverso – e che in parte probabilmente lo è; dall’altro una comunità così terribilmente umana e per questo fluttuante – che lo accoglie, lo respinge, lo riaccoglie…
 

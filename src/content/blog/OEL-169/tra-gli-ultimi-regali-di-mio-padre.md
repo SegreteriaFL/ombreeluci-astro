@@ -15,7 +15,8 @@ umap_x: 8.980622291564941
 umap_y: 8.393796920776367
 umap_z: 13.010074615478516
 issue_number: OEL-169
-id_numero: OEL-169
+id_numero: "OEL-169"
+numero_rivista: "Ombre e Luci"
 ---
 **F ra le mani ho un libretto azzurro** , tascabile, **con la copertina logorata dall’uso: *Avignon à Lourdes - Manuel du pèlerin*** , finito di stampare ( *achevé d’imprimer* ) a Bourges, Francia, nel 1967. È il manuale che veniva dato ai partecipanti dei pellegrinaggi che la Diocesi di Avignone organizzava a Lourdes, appunto. Ci sono notizie e documenti storici, spunti di riflessione e preghiere, canti e il testo della messa in latino e in francese. **È uno degli ultimi regali che mio padre, già malato, ha voluto lasciarmi.** Me lo ha affidato come uno dei ricordi più preziosi della sua vita. Non l’orologio d’oro, non l’argenteria: quel libretto, consumato e con le pagine ingiallite. Ne ha affidato uno a me, e uno a mio fratello, Emanuele. È un **ricordo tangibile del piccolo grande miracolo: fa’, Signore, che che Mariangela ritrovi il sorriso; fa’ Signore, che Chicca dorma la notte.** Questa la preghiera che aveva fatto nel suo cuore il papà, alla processione del Santissimo Sacramento, durante il primo pellegrinaggio della nostra famiglia a Lourdes, agosto 1969, insieme alla Diocesi di Avignone.
 

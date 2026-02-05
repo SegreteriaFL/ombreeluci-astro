@@ -11,8 +11,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 “Ho appreso con grande tristezza, leggendo la newsletter dell’associazione l’Abilità, che l’altalena per disabili inaugurata lo scorso 21 aprile ai giardini Montanelli è stata danneggiata e al momento non utilizzabile, perché dei genitori hanno fatto salire i propri bambini incuranti delle istruzioni e a causa del peso eccessivo l’avrebbero danneggiata.
 
 Ho chiesto un giorno di ferie per sabato 21 aprile per presenziare all’inaugurazione del parco giochi e accompagnare mio figlio Lorenzo affetto da disabilità per fargli provare l’altalena e gli altri giochi disponibili. Nel pomeriggio, raggiunto lo spazio dei giochi in un clima di festa e allegria ci siamo mischiati agli altri presenti e aspettato il nostro turno per salire sull’altalena. Parlando con i volontari che ci hanno aiutato a posizionarci sulla pedana per provare l’ebrezza della velocità, ho saputo di quanta difficoltà abbiano avuto fin dal mattino a contrastare commenti e aggressioni verbali da genitori e bambini che “ rivendicavano il diritto di salire sull’altalena” parlando di “discriminazione al contrario” verso i bambini normo dotati. Ho faticato a comprendere quello che mi raccontavano perché non credevo che potessero esserci delle tensioni per l’uso di giochi destinati a chi è obbligato a muoversi su una sedia a rotelle; quanta gioia ed entusiasmo hanno provato i bambini che usandola, avevano la sensazione di volare!

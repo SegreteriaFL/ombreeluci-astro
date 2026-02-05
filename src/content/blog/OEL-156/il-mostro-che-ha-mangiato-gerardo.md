@@ -12,8 +12,9 @@ umap_x: 5.887599468231201
 umap_y: 6.0730085372924805
 umap_z: 8.887776374816895
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 N
 el 1533 l’imperatore Inca Atahualpa venne catturato dai
 *conquistadores*

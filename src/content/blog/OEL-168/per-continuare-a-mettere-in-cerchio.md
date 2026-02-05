@@ -12,8 +12,9 @@ umap_x: 7.4097208976745605
 umap_y: 9.289713859558105
 umap_z: 12.896234512329102
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Loscorso giugno Pietro Vetro è stato eletto presidente dell’associazione Fede e Luce onlus. Avendo io ricoperto il ruolo nei due mandati precedenti, Ombre e Luci mi ha chiesto di intervistarlo. Ne è nata una riflessione sul suo cammino, e su quello di Fede e Luce; sul futuro, sull’apertura al mondo, sulla responsabilità, sulla Chiesa.
 
 **Quali sono gli obiettivi per il quadriennio?** Sicuramente la raccolta dei dati anagrafici degli associati, una delle difficoltà per tutti i precedenti CdA, e l’iscrizione al Runts, un lavoro in corso… con altre difficoltà. Poi vorrei riuscire ad avere i soldi per portare avanti tutte le iniziative: quella della raccolta fondi attraverso bandi è un’attività che abbiamo fatto partire nel mandato precedente, e che è un po’ il nostro punto debole. Aumentare i rapporti con la Chiesa, con l’Arca, con le istituzioni della società civile.

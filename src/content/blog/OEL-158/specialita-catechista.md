@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 In un messaggio giunto in occasione della Giornata internazionale delle persone con disabilità, sentii papa Francesco parlare della possibilità di affidare anche alle persone con disabilità dei ministeri, come quello di chierichetto o di catechista, per essere protagonisti attivi nella comunità cristiana.
 

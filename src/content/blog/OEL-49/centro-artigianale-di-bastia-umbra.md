@@ -12,7 +12,8 @@ umap_x: 8.113752365112305
 umap_y: 7.511616230010986
 umap_z: 8.739082336425781
 issue_number: OEL-49
-id_numero: OEL-49
+id_numero: "OEL-49"
+numero_rivista: "Ombre e Luci"
 ---
 N el presentare questo Centro vogliamo incoraggiare chi ha l’intenzione di creare strutture dello stesso genere, perché sono laboratori che rispondono in pieno ai bisogni di tante e tante persone disabili, ragazzi e ragazze, uomini e donne, come ne conosciamo tutti. Questi laboratori ci sembrano inoltre rappresentare la giusta collaborazione fra una gestione di attività svolta da privati e un’amministrazione pubblica. È stato a Roma, in un incontro avvenuto per caso, che abbiamo saputo dell’esistenza di questo Centro Artigianale di Bastia Umbra. Si trattava di un servizio pubblico? Ci sembrava proprio così, ma ciò che colpiva particolarmente la nostra curiosità era la collaborazione, indicata sul dépliant, tra il Centro Artigianale, una cooperativa A.S.A.D., la ULSS «Valle Umbra Nord». Questa collaborazione era reale: ce ne siamo accorti subito quando abbiamo visto i quattro laboratori luminosi e moderni di Bastia che si affacciano sulla strada e sono situati uno accanto all’altro in un edificio moderno di un quartiere costruito di recente. Dal di fuori si vede un insieme estremamente simpatico, grazioso e sereno. Oltrepassata la soglia abbiamo trovato un’accoglienza anch’essa simpatica e un’organizzazione, un’attrezzatura, e una produzione di alta qualità. Abbiamo salutato un pò tutti ed è stato un piacere sentire intorno a noi l’atmosfera di un lavoro concentrato e sereno. Abbiamo parlato con la responsabile dei laboratori che, insieme ad alcune altre, fa parte di una comunità cristiana laica arrivata dal Brasile una ventina di anni fa.Il testo che segue, tratto dal pieghevole del Centro, mette in luce in poche parole la storia e l’organizzazione del Centro.
 

@@ -12,8 +12,9 @@ umap_x: 7.86774206161499
 umap_y: 1.5345408916473389
 umap_z: 9.464999198913574
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ora la lezione la faccio io. Faccio la professoressa e la guida turistica. Ho studiato molto bene e so tutto a memoria benissimo. **Così posso accompagnare io i turisti e spiegare bene tutte le cose.**
 
 Il Velabro era una zona molto importante anche nell’antica Roma, situata tra il Foro romano e il fiume Tevere, proprio davanti all’Isola tiberina. Ci sono tante cose importanti da vedere perché questa zona era molto importante per la città data la vicinanza con il Tevere e il ruolo del commercio.

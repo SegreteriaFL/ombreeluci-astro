@@ -12,8 +12,9 @@ umap_x: 5.805172920227051
 umap_y: 7.759584426879883
 umap_z: 5.823183059692383
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Recentemente ho visto un film molto bello intitolato *Qua la zampa* tratto dal romanzo *Dalla parte di Bailey.* Ambientato negli Stati Uniti, la vicenda si svolge dal 1962 circa al 2017 e racconta la storia di un cane, un piccolo Golden Retriever, molto speciale che ha il dono della reincarnazione.
 
 In una delle sue innumerevoli vite, incontra per caso Ethan, che vorrebbe tenerlo. Il padre, una figura decisamente negativa, invece è contrario.

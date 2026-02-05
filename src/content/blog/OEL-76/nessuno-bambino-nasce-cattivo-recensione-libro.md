@@ -12,8 +12,9 @@ umap_x: 7.887936592102051
 umap_y: 11.461783409118652
 umap_z: 5.967325687408447
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 L’autore ci presenta l’esperienza di una comunità per bambini e adolescenti con svariati problemi, anche molto gravi, di disagio fisico e psicologico, di cui si occupa da più di vent’anni.
 **La comunità di Gugliano**
 intende fornire ai suoi piccoli ospiti quell’affetto e quell’educazione al rispetto delle regole che non hanno potuto ricevere dalla famiglia d’origine. In questo senso una delle componenti più importanti per l’attenuazione delle loro difficoltà è vista nell’influenza dell’ambiente, altrettanto importante dell’eredità biologica nella formazione della personalità individuale.

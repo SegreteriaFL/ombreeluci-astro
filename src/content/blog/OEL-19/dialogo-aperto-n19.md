@@ -16,7 +16,8 @@ umap_x: 4.566220283508301
 umap_y: 8.31251335144043
 umap_z: 10.40052318572998
 issue_number: OEL-19
-id_numero: OEL-19
+id_numero: "OEL-19"
+numero_rivista: "Ombre e Luci"
 ---
 ### Ecco la nostra esperienza
 

@@ -15,7 +15,8 @@ umap_x: 4.796309947967529
 umap_y: 8.393959045410156
 umap_z: 10.465290069580078
 issue_number: OEL-17
-id_numero: OEL-17
+id_numero: "OEL-17"
+numero_rivista: "Ombre e Luci"
 ---
 *"Ero stanca di provare, parlare, ricominciare ed introdurre mio figlio Francesco, nato con sindrome Down, di 15 anni.* *Un bel giorno così vi abbiamo conosciuto...". "Con mio marito cerchiamo di aprirci agli altri, incontriamo tanta sofferenza intorno a noi, il più delle volte causata da ingiustizia, e cerchiamo di dare amore." *
 

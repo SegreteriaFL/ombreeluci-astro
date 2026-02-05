@@ -12,7 +12,8 @@ umap_x: 4.600493431091309
 umap_y: 7.739426136016846
 umap_z: 10.753870010375977
 issue_number: OEL-157
-id_numero: OEL-157
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
 #### Poesia di Claudio Moriggia
 

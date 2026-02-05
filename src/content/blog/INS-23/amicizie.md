@@ -14,8 +14,9 @@ umap_x: 8.082008361816406
 umap_y: 7.027894496917725
 umap_z: 11.51209545135498
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Al campo ho imparato a credere che con i nostri amici più deboli si può spesso fare molto di più di quanto ci aspettiamo.
 
 Così M. Rosaria, nonostante la stanchezza, è voluta ritornare a dormire fuori, e lo ha detto con un sorriso e una decisione tali che sembravano sottindere: "Vi siete proprio sbagliati se pensate che io resti qua!" La sofferenza si tramuta in gioia: per Maria-Rosaria è tanta grande la gioia di stare insieme a noi, di provare un'esperienza nuova che le è stata negata per tutta la vita che non la trattengono la stanchezza, il sonno, la scomodità di una tenda, il freddo... E ha dimostrato di avere una propria volontà che va rispettata.

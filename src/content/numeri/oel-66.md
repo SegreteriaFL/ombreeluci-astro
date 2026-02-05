@@ -1,15 +1,31 @@
 ---
 id: "OEL-66"
-title: "Numero 66 - Mangiare è un problema?"
+title: "Numero 66 – Mangiare è un problema?"
 tipo: "ombre-e-luci"
 numero: 66
-anno: "1999"
+sort_order: 165
+pubDate: "1999-05-01T00:00:00Z"
 data_pubblicazione: "Maggio – Giugno 1999"
 sommario: "Ombre e Luci n. 66 – Mangiare è un problema ultima modifica: 1999-06-28T16:31:58+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_66_1999.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_66"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-66-mangiare-e-un-problema/"
+articoli:
+  - "le-pagnottelle-di-s-giuseppe"
+  - "in-casa-nostra-la-cucina-e-chiusa-a-chiave"
+  - "la-sindrome-di-prader-willi"
+  - "preghiera-per-i-bambini"
+  - "dedicato-ai-bambini-francesco"
+  - "quando-mangiare-e-un-problema-intervista-con-marie-odile-rethore"
+  - "a-tavolaaaa"
+  - "dialogo-aperto-n-66"
+  - "vita-fede-e-luce-n-66"
+  - "io-sono-una-donna-perche-mi-chiami-andicappata"
+  - "e-francesca-e-basta"
+  - "sempre-io-christopher-reeve"
+  - "con-clara-siamo-in-sei"
+  - "dedicato-ai-bambini-francesco-gammarelli"
 ---
 
 ## Indice

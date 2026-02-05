@@ -12,7 +12,8 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-149
-id_numero: OEL-149
+id_numero: "OEL-149"
+numero_rivista: "Ombre e Luci"
 ---
 Thomas Clements è un autore autistico inglese. Il suo è un autismo “ad alto funzionamento”, la cosiddetta sindrome di Asperger: come tanti nella sua condizione, si definisce un Aspie, e rappresenta una delle tante sfaccettature dell’ancora più vasta sindrome dello spettro autistico. Nella sua condizione può parlare per se stesso e raccontare, come altri in passato, la sua esperienza e le difficoltà, più o meno grandi, che incontra. La medesima diagnosi lo accomuna a suo fratello più giovane, Jack, che però vive in una condizione molto più disabilitante della sua. Suo fratello, come tanti altri, non può parlare per se stesso, ha bisogno di qualcuno che gli stia costantemente vicino, ha scarse autonomie e poca possibilità verbale.
 

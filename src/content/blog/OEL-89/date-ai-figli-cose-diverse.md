@@ -4,8 +4,8 @@ date: 2005-03-16
 author: Sergio Sciascia
 slug: date-ai-figli-cose-diverse
 lang: it
-numero_rivista: 89
-id_numero: OEL-89
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-89"
 issue_number: OEL-89
 wp_id: 30715
 original_url: "https://www.ombreeluci.it/?p=30715"
@@ -17,7 +17,6 @@ umap_x: 5.262350559234619
 umap_y: 8.14297103881836
 umap_z: 8.262271881103516
 ---
-
 Igenitori che non sono stati imbambolati. dalla strapotente macchina Pubblicità-apparire-consumare-successo, **risposte a quelle domande ne hanno molte e diverse** . Quelle risposte nascono da varie ragioni: morali, politiche, religiose, psicologiche, economiche.
 
 **Il problema è che quelle ragioni, frutto di maturità, nate da esperienze, osservazioni, ragionamenti, è difficile trasmetterle ai bambini** . E se anche si riesce a trasmetterle, quelle ragioni nella mente dei figli non possono competere con l’insistente spettacolare scientifico adescamento che il nostro sistema economico mediatico mette in atto di continuo.

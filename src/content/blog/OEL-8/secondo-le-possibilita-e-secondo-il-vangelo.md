@@ -11,8 +11,9 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-8
+id_numero: "OEL-8"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il contributo che le persone consacrate al Signore possono offrire ai più deboli, ai più fragili, ai più diseredati resta insostituibile.
 La società rifiuta in modo crescente il diritto all'esistenza delle persone gravemente handicappate: a passo a passo avanza la legalizzazione dell’aborto eugenetico e dell’eutanasia.
 

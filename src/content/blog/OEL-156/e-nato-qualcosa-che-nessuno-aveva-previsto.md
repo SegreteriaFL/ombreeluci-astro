@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 Quando il nostro coordinatore internazionale, Raul Izquierdo Garcia, al termine del suo discorso, ha salutato il Papa dicendogli che, a nome delle comunità di tutto il mondo, lo abbracciava «come solo i nostri ragazzi con disabilità mentale sanno fare», Bergoglio sapeva già tutto. **Era già stato abbracciato (come vedete in foto) da Antonio che per un pelo non passava alla storia facendolo cadere.** Mentre noi amici eravamo ingessati dall’emozione e intimiditi da affreschi, velluti e uniformi, ancora una volta i ragazzi ci hanno indicato il cuore dell’evento: abbracciare il Papa. E il Papa ha abbracciato noi: Antonio, Gianni, Franco e tutti gli altri.
 

@@ -12,8 +12,9 @@ umap_x: 7.660179138183594
 umap_y: 6.9856157302856445
 umap_z: 11.547481536865234
 issue_number: OEL-116
+id_numero: "OEL-116"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Mal di Mare
 
 Quest' anno io e i miei fratelli abbiamo avuto modo di partecipare a un campo vela a Pescia Romana al campeggio “Club degli amici con la scuola di vela “Mal di Mare”. Nella settimana in cui sono andata eravamo 11 ragazzi: 3 femmine, 9 maschi e 4 erano gli istruttori, tutti molto simpatici. La base era strutturata in modo carino. C'erano quattro tende ma noi ne abbiamo occupate due: una per i maschi e una per le femmine. Poi c'è una casetta con la cucina e una sala dove mangiavamo coperta da un tendone. La sveglia la mattina era alle 7.30, si faceva colazione e poi alle 8.30 si scendeva giù in spiaggia attraversando un sentiero nella macchia. I ragazzi dai 12 anni in su andavano sulle barche più grandi (laser 1; laser 13; 4.20; varienne) e i più giovani sulle barche piccole (optimist). Verso mezzogiorno ritornavamo alla base per mangiare e verso le tre si riscendeva in spiaggia per terminare alle sei. Fra l'altro c'era la comandata ossia tre ragazzi a turno che apparecchiano, sparecchiano e lavano i piatti. Questa scuola ospitava anche ragazzi disabili. Nella settimana in cui sono andata c'era Nicola di 14 anni che amava moltissimo la musica. Lui cantava con il sorriso stampato in faccia e cantava molto bene. Gli piace molto Ligabue. In barca cantava, ti teneva contento e non ti faceva pensare al negativo. Quando mi abbracciava mi sentivo come se mi passasse un po' della sua tanta felicità… in parole povere era simpaticissimo. La barca a vela a lui piaceva molto e appena saliva su una barca tirava tutte le scotte (corde) dicendo: “Io cazzo tutte le vele!” Cazzo in termine sportivo significa tirare. Ed era molto contento quando imparò a timonare e andava fortissimo. Lui stava con noi ragazzi, gli stavamo simpatici. Con lui mi sono trovata benissimo e spero di ritrovarlo l'anno prossimo. Io con lui mi sentivo bene e sollevata e secondo me se non ci fosse stato sarebbe stato diverso cioè noioso. Io gli voglio tanto bene. **Sara Bertolini**

@@ -12,6 +12,7 @@ umap_x: -1.9833751916885376
 umap_y: 4.081851482391357
 umap_z: 9.516717910766602
 issue_number: OEL-20
+id_numero: "OEL-20"
+numero_rivista: "Ombre e Luci"
 ---
-
 <iframe src="https://archive.org/stream/OmbreELuci_017?ui=embed" width="100%" height="530" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>

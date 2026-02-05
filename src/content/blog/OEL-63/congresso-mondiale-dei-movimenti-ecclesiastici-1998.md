@@ -4,8 +4,8 @@ date: 1998-09-25
 author: Delia Mitolo
 slug: congresso-mondiale-dei-movimenti-ecclesiastici-1998
 lang: it
-numero_rivista: 63
-id_numero: OEL-63
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-63"
 issue_number: OEL-63
 wp_id: 12248
 original_url: "https://www.ombreeluci.it/?p=12248"
@@ -15,7 +15,6 @@ umap_x: 7.797011852264404
 umap_y: 8.707533836364746
 umap_z: 13.994523048400879
 ---
-
 Delia Mitolo ha partecipato a questo convegno come rappresentante di
 [Fede e Luce](https://www.fedeeluce.it/)
 . I movimenti rappresentati erano 56, con carismi, esperienze, finalità diverse, ma tutti con un comune punto di incontro: ricercare e testimoniare la presenza di Cristo nel mondo. Delia è stata colpita dall’accoglienza sincera e coinvolgente della Chiesa ufficiale; dalla fratellanza e reale volontà di comunicare fra laici e consacrati; dallo sforzo dei rappresentanti di capirsi l’uno con l’altro e di approfondire la conoscenza reciproca. Dopo questa esperienza Delia ci ha inviato alcune sue riflessioni utili per

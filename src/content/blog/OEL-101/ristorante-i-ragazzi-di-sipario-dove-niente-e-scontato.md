@@ -7,8 +7,8 @@ cluster_id: 0
 slug: "ristorante-i-ragazzi-di-sipario-dove-niente-e-scontato"
 lang: it
 anno_rivista: 2008
-numero_rivista: 101
-id_numero: OEL-101
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-101"
 issue_number: OEL-101
 wp_id: 33197
 has_comments: false
@@ -16,7 +16,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Dicono che le persone con “handicap” sono persone “speciali”; e le loro famiglie sono speciali? Noi famiglie di ragazzi con handicap — mai avremmo pensato e trovato il tempo (sempre più compresso al giorno d’oggi) per fondare un’associazione, per organizzare corsi ed attività varie, inventarci feste ed occasioni di incontro tra di noi e con gli altri, se non avessimo avuto delle risorse “speciali” grazie ai nostri figli!
 
 Chi, se non famiglie sostenute da una speranza “speciale”, avrebbero solo pensato di mettere su un corso di ristorazione, di coinvolgere altri genitori, di entusiasmarsi insieme per un nuovo progetto — a detta di tutti ambiziosissimo e alla fine lanciarsi insieme con i propri figli in quest'avventura: aprire un ristorante ovviamente “speciale”?

@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Sono Arianna, faccio parte della Comunità di Fatima a Milano. Sono una ragazza tetraplegica, qualcuno si chiederà, cosa vuol dire?
 Lo spiego in poche parole, non posso fare nulla senza l’aiuto di una persona, in questo caso della mia famiglia oppure degli amici, in particolare di Fede e Luce, durante gli incontri.
 

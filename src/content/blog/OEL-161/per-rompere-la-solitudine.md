@@ -12,7 +12,8 @@ umap_x: 4.834442138671875
 umap_y: 6.621263027191162
 umap_z: 9.684150695800781
 issue_number: OEL-161
-id_numero: OEL-161
+id_numero: "OEL-161"
+numero_rivista: "Ombre e Luci"
 ---
 Ricordo l’emozione di tenere fra le mani il primo numero di *Ombre e Luci* appena uscito dalla tipografia. Ricordo quanto lavoro c’era stato dietro, per la scelta dei contenuti, degli articoli, delle fotografie. Ma quella prima volta c’erano stati importanti preliminari lavori in più. A cominciare dalla scelta del titolo della rivista, che si sarebbe dovuto depositare in tribunale (autorizzazione del Tribunale di Roma n. 19/83).
 

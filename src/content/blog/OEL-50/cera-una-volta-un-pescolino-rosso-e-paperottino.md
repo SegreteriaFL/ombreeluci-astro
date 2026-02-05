@@ -12,7 +12,8 @@ umap_x: 7.323225975036621
 umap_y: 11.135533332824707
 umap_z: 5.102316856384277
 issue_number: OEL-50
-id_numero: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
 ### C'era una volta ... Paperottino
 

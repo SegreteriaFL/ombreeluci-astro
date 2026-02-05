@@ -12,8 +12,9 @@ umap_x: 8.573851585388184
 umap_y: 8.402647018432617
 umap_z: 3.554081439971924
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 It was early September 2023 when Margherita Tercon posted a casting call for a film production looking for an autistic actor with a stage age between 30 and 40. Applicants had to send her an audition tape, which she would then forward to the production team.
 
 To my surprise, I was contacted right away. **They sent me a script to perform in another audition tape, and shortly after I received a phone call: they wanted me in Rome the very next day** , at the Tiburtina studios, for a live audition for *La Vita Grandi* ( [available on Netflix](https://www.netflix.com/it/title/81774954) ). They covered my public transport ticket, picked me up at the station, and once at the studios I met the director herself, Greta Scarano. I had no idea who she was. You know about “special interests”? Well, the same thing happened later [when I worked](https://www.ombreeluci.it/2025/cambiamenti-in-arrivo-nel-cinema-italiano/) with Lorenzo Flaherty in *Le Ali Invisibili* ( [available on Rai Play](https://www.tulipanidisetanera.rai.it/dl/portali/site/articolo/ContentItem-2778e383-3122-4a3d-94c6-50053d33389a.html) ): I didn’t know him before working together. The upside was that I felt no pressure.

@@ -14,7 +14,8 @@ umap_x: 9.389608383178711
 umap_y: 8.622835159301758
 umap_z: 12.324533462524414
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Assisi per
 *Fede e Luce*

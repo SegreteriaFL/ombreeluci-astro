@@ -12,7 +12,8 @@ umap_x: 7.639893054962158
 umap_y: 11.09915542602539
 umap_z: 4.242131233215332
 issue_number: OEL-163
-id_numero: OEL-163
+id_numero: "OEL-163"
+numero_rivista: "Ombre e Luci"
 ---
 Siamo nell’Inghilterra di metà Ottocento travolta dalla passione per il circo. Fra acrobati, maghi, domatori, animali esotici e “meraviglie umane”, la concorrenza è spietata, il pubblico è famelico, la posta in gioco è alta nella battaglia a colpi di nani, giganti, esseri particolari. Nelle maglie di questo ring finisce la piccola Nell con il suo corpo cosparso di voglie. Venduta dal padre a un impresario avido e privo di scrupoli, ben presto la bambina si trasforma nella celebre *Nelly Moon* , adorata da tutti.
 

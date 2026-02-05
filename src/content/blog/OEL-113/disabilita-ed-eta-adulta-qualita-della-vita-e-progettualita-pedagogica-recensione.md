@@ -12,7 +12,8 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-113
-id_numero: OEL-113
+id_numero: "OEL-113"
+numero_rivista: "Ombre e Luci"
 ---
 “Non bisogna lasciare che siano la trascuratezza, l'abbandono e la solitudine a decretare una vita indegna di essere vissuta”. È quello che dice il presidente di Ass. Ital. Scler. Lat. Amiotr. nell’introduzione al libro, un testo complesso ma è estremamente importante per approfondire temi al nocciolo del nostro vivere ‘ sociale.
 

@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Una delle migliori qualità del Locarno Film Festival è l'attenzione a ogni tipo di pubblico, talvolta ideando alcuni riusciti collegamenti tra essi. A Locarno 76 è capitato con l'interazione tra il settore “Sostenibilità, diversità e inclusione” dedicato a rendere il festival e i film accessibili a tutti, e la struttura Locarno Kids rivolta ai più giovani (dai bambini agli adolescenti), con la proiezione del documentario *We Have a Dream* di Pascal Plisson. Il film è approdato finalmente anche nelle sale italiane in occasione della Giornata internazionale dei diritti delle persone con disabilità.
 
 Plisson, regista sempre attento ai temi sociali, ha intervistato Maud, una ragazza francese che racconta la sua quotidianità di adolescente, il rapporto con la sorella e gli amici, lo studio, la passione per la danza, insomma una vita che ci appare ordinaria nonostante, per un problema durante il parto, sia priva di una gamba e necessiti di un apparecchio acustico. Poi lei stessa fa una riflessione: in altre parti del mondo, i bambini e i ragazzi con qualche forma di disabilità hanno avuto tutto l'affetto e tutte le opportunità che ho avuto io? La risposta arriva, a lei e a noi, da un viaggio attraverso i continenti che mostra le storie di Nirmala e Khendo, due amiche nepalesi che hanno bisogno di una protesi per camminare; di Charles, aspirante corridore keniota non vedente; di Xavier, bambino ruandese il cui albinismo lo ha reso molto riconoscibile sin dalla nascita; di Antonio, adottato e poi cresciuto con amore dai suoi genitori brasiliani che non lo hanno respinto neppure quando hanno appreso della sua forma di autismo.

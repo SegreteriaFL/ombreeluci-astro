@@ -7,6 +7,7 @@ cluster_id: 10
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-18.webp"
 slug: "esperienze-al-gruppo-fede-e-luce-la-mamma-di-massimo"
 has_comments: false
+id_numero: "INS-18"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

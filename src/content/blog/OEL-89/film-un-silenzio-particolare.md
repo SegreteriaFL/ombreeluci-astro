@@ -4,8 +4,8 @@ date: 2005-03-16
 author: Maria Teresa Mazzarotto
 slug: film-un-silenzio-particolare
 lang: en
-numero_rivista: 89
-id_numero: OEL-89
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-89"
 issue_number: OEL-89
 wp_id: 30714
 original_url: "https://www.ombreeluci.it/?p=30714"
@@ -15,7 +15,6 @@ umap_x: 8.73064136505127
 umap_y: 8.88771915435791
 umap_z: 3.334681272506714
 ---
-
 > “Volevo far conoscere la Comunità del Sole che io e mia moglie Clara Sereni abbiamo fondato per promuovere progetti che coinvolgono disabili. Ho girato il film nel corso di due anni, nei weekend: c’è la vita nei casolari, ma anche la mia, quella di Clara e di nostro figlio. Questa parte ha preso il sopravvento: è diventata un diario privato (...) Il film, da un'esperienza che poteva avere un senso per me e la mia famiglia, è diventato qualcosa di più universale: lo sguardo dall'interno su una ‘famiglia parti colarÈ.”
 
 C

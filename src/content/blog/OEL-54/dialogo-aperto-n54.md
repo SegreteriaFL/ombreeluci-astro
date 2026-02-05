@@ -4,8 +4,8 @@ date: 1996-06-14
 author: Redazione
 slug: dialogo-aperto-n54
 lang: it
-numero_rivista: 54
-id_numero: OEL-54
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-54"
 issue_number: OEL-54
 wp_id: 10688
 original_url: "https://www.ombreeluci.it/?p=10688"
@@ -15,7 +15,6 @@ umap_x: 5.071479320526123
 umap_y: 9.81875991821289
 umap_z: 9.406530380249023
 ---
-
 ### È difficile capire mio fratello
 
 Avevo solo un anno quando è nato Mario e della nostra infanzia ricordo molto poco: ricordo i miei pianti alla stazione Tiburtina guardando lui che saliva sul treno per Lourdes in braccio alla mamma, ricordo le notti in cui mi alzavo dal lettino per controllare se Mario dormisse nel lettone dei miei genitori, ricordo la sera in cui Mario si stava soffocando con un pezzetto di parmigiano che aveva ingoiato intero e ricordo i tentativi di emularlo con la mela. Fino alla mia adolescenza Mario fu per me un estraneo che aveva rubato tutti i miei affetti: non era solo il fratello più piccolo, era anche ammalato gravemente ed io non riuscivo a sopportarlo. Non sopportavo di dire a nessuno che avevo un fratello handicappato perché la gente, pensavo, provava solo una falsa pietà ed io non ne avevo bisogno. Poi ho iniziato a conoscerlo piano piano e a capire che non era colpa sua, che non era venuto per togliermi ma per darmi qualcosa. Non so quando questo sia accaduto ma so che, quando è morto nostro padre, pensavo che Mario fosse l’unico a capire come potessi sentirmi. Per la prima volta ho pensato di avere un fratello e non un malato. Da allora è stato un susseguirsi di piccoli momenti di conoscenza, di comuni scontri fraterni e di dolcezza infinita. A volte penso di non essermi occupata abbastanza di lui, di essere stata superficiale nel nostro rapporto, ma credo che questo succeda un po’ a tutti e non solo a noi per la pecularietà della nostra situazione. Ora Mario è cresciuto ed è più violento: chi ha assaporato i suoi pizzichi o i suoi morsi non lo dimentica. Non è facile capirlo, e meno facile è percepire il suo assenso o il suo disprezzo, la sua gioia, il suo dolore. È impossibile vedere le sue lacrime e questo per chi gli A Dicembre uscirà un numero speciale dedicato ai fratelli e sorelle di p.h. Perciò sta accanto è terribile; è sempre come se avessimo accanto un bambino che si affaccia alla vita e i suoi piccoli slanci diventano grandi conquiste. Quando finiscono i giorni funesti dove regna solo il silenzio e la violenza, i suoi «bip, bip» suonano meglio di una musica soave per le nostre orecchie e un suo sorriso vale più di mille parole. Fede e Luce è entrata nella nostra famiglia una decina di anni fa e devo dire che è stata accolta con molta diffidenza da tutti noi; ma per fortuna gli amici sono stati più ostinati di quanto lo fosse la nostra famiglia e piano piano si sono conquistati un posto insostituibile nella nostra vita. Ammetto di essere latitante agli incontri di Fede e Luce, ma non lo faccio per disinteresse; è perché mi piace pensare che Mario abbia degli amici che gli vogliono bene, che sono i suoi amici che ha presentato a me. Lo so che è difficile da capire ma qualsiasi persona che abbia un fratello più piccolo ve lo potrà spiegare. **Donatella Dominici**

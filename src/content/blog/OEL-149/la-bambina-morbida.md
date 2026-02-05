@@ -12,7 +12,8 @@ umap_x: 8.155095100402832
 umap_y: 11.52522087097168
 umap_z: 6.394558429718018
 issue_number: OEL-149
-id_numero: OEL-149
+id_numero: "OEL-149"
+numero_rivista: "Ombre e Luci"
 ---
 A
 vvicinarsi al mistero della sofferenza, consapevoli di entrare in un terreno sacro e farlo a piedi nudi, come Mosè quando dialogò la prima volta con Javhé: così ricordava Papa Francesco parlando dell’incontro con la famiglia nella prova. Le esperienze vissute per via di Beatrice, morbida bambina tremendamente fragile, rendono nettamente percebile questa necessità. Vengono raccolte e condivise da Maria Cristina quando la figlia Beatrice, morta nel 2012 a 13 anni, avrebbe raggiunto la maggiore età. Proprio come volendola consegnare nella maturità al mondo, raccontandone la vita e i legami, consapevole di quanto la sua esistenza insegni sull’esistenza. Un libro estremamente sintetico ma capace di entrare nelle pieghe più profonde della famiglia e di ogni suo componente: una lettura da suggerire a quanti, anche medici e professionisti, vorranno incontrare, sostenere, non lasciar soli nella disperazione genitori e bambini come Beatrice e la sua famiglia.

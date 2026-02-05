@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "lamico-speciale-uno-strumento-per-parlare-di-autismo-ai-bambini-piu-piccoli-recensione"
 lang: it
-numero_rivista: 97
-id_numero: OEL-97
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-97"
 issue_number: OEL-97
 wp_id: 32367
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 ---
-
 Una simpatica filastrocca per raggiungere i bambini che non sanno ancora leggere e far loro avvicinare in modo costruttivo il mondo del bambino affetto da autismo che hanno come compagno di classe. Filastrocca accompagnata da una breve, chiara, con- creta guida per insegnanti e genitori che possono inquadrare meglio la problematica autistica con spunti precisi per la realizzazione del lavoro educativo e didattico. E, per chi volesse approfondire, una bibliografia completa e aggiornata.
 
 >

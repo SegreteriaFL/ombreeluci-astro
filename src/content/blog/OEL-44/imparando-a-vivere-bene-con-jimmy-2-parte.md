@@ -14,8 +14,9 @@ umap_x: 5.510819435119629
 umap_y: 8.133122444152832
 umap_z: 8.083911895751953
 issue_number: OEL-44
+id_numero: "OEL-44"
+numero_rivista: "Ombre e Luci"
 ---
-
 **Continua dalla**
 [**Prima parte**](http://www.ombreeluci.it/1993/imparando-a-vivere-bene-con-jimmy/)
 S

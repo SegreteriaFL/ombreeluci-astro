@@ -12,8 +12,9 @@ umap_x: 5.013069152832031
 umap_y: 8.098867416381836
 umap_z: 10.332459449768066
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 ### Non c'e’ niente di più vero
 
 Vi sono degli strani giorni in cui, senza alcun apparente motivo, dentro di me non c'è che silenzio e buio. Non so più pregare, ascolto la musica senza sentirla, sono insofferente, non mi sopporto più. Ma se, all'improvviso, una mamma disperata mi telefona per dividere con me la sua angoscia, se un ragazzo ha bisogno di aiuto, ritrovo me stessa e rispondo alla chiamata con calore.

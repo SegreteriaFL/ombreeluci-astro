@@ -14,8 +14,9 @@ umap_x: 7.960397720336914
 umap_y: 7.21683931350708
 umap_z: 11.515143394470215
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 **Ho conosciuto Maurizio ad [Alfedena](https://www.ombreeluci.it/1978/alfedena-1978/) .** Arrivai al campo nel primo pomeriggio di una splendida giornata di luglio. Pian piano i volti degli amici, che avevo fatto rivivere nella mia immaginazione durante il viaggio, diventavano realtà.
 
 A quelli che già conoscevo si aggiunsero dei nuovi. Fu in tenda che Maurizio mi diede il benvenuto con quella curiosità che caratterizza l'accoglienza di un nuovo arrivato.

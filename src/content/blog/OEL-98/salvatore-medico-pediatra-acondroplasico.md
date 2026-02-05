@@ -4,8 +4,8 @@ date: 2007-06-03
 author: Salvatore Anastasi
 slug: salvatore-medico-pediatra-acondroplasico
 lang: it
-numero_rivista: 98
-id_numero: OEL-98
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-98"
 issue_number: OEL-98
 wp_id: 32586
 original_url: "https://www.ombreeluci.it/?p=32586"
@@ -15,7 +15,6 @@ umap_x: 5.4119768142700195
 umap_y: 9.817893028259277
 umap_z: 7.277592658996582
 ---
-
 V
 iviamo in una società che si affida all’immagine e a concetti e modelli di omologazione, ma contemporaneamente sempre più multiculturale e multietnica. In questo contesto sociale, l’acondroplasia (
 [qui una scheda informativa su questa patologia](https://www.ombreeluci.it/2022/acondroplasia-scheda-informativa/)

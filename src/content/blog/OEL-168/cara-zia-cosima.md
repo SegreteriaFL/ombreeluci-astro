@@ -12,8 +12,9 @@ umap_x: 7.576111316680908
 umap_y: 5.789487838745117
 umap_z: 10.994675636291504
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 L'altro giorno, nel pomeriggio, mentre mamma e papà riposavano, ho deciso di rimettere un po’ di ordine nella mia cameretta. **Ho trovato un grande contenitore con tante foto di quando io, mia sorella e mio fratello eravamo piccoli…** Quanti ricordi! Non posso fare a meno di ringraziare una delle mie zie che sostituiva la mia mamma quando questa era impegnata per lavoro.
 
 Cara “seconda mamma” zia Cosima, grazie per averci cresciuti quando eravamo piccoli nella casa della nonna che ci ricorda tanti momenti belli della nostra infanzia. **Quando avevamo la fortuna di dormire da voi, quante dolcezze…** ci cantavate la ninna nanna per poterci addormentare e al mattino invece: Branca, Branca, Branca, Leon, Leon, Leon, l' *Armata Brancaleone* doveva far presto e prepararsi per andare a scuola…

@@ -4,8 +4,8 @@ date: 1997-03-25
 author: Redazione
 slug: dialogo-aperto-n-57
 lang: it
-numero_rivista: 57
-id_numero: OEL-57
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-57"
 issue_number: OEL-57
 wp_id: 11475
 original_url: "https://www.ombreeluci.it/?p=11475"
@@ -15,7 +15,6 @@ umap_x: 5.1489129066467285
 umap_y: 7.777021884918213
 umap_z: 11.224616050720215
 ---
-
 ### Altri gruppi
 
 Ho letto or ora [«Ombre e Luci» (n. 55)](http://www.ombreeluci.it/project/ombre-e-luci-n-55-il-mistero-del-bambino-autistico/) e ancora una volta ammiro la puntuale serietà e semplicità con la quale sapete affrontare gli argomenti anche più ostici. Poco prima di Natale ho avuto la gioia di un appuntamento festoso con il gruppo FEDE E LUCE di Abano: davvero numeroso e vivo, fresco di iniziative e ricco di presenze di tutte le età. Ringrazio il Signore! E mi piacerebbe (e lo vado dicendo) che anche altrove, in città e in diocesi, altri gruppi potessero accendersi (ne esiste solo un secondo a Conselve). **Mons. Franco Costa**

@@ -14,8 +14,9 @@ umap_x: 9.219080924987793
 umap_y: 7.855361461639404
 umap_z: 7.295421600341797
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il28 marzo del 1958 infatti si costituiva l’Associazione Nazionale delle Famiglie di Fanciulli Minorati Psichici (le denominazioni sono poi cambiate nel corso degli anni, fino al 2005 in cui leggiamo Associazione Nazionale Famiglie di Persone con Disabilità intellettiva e/o relazionale- ANFFAS) grazie all’impegno di un gruppo di genitori di ragazzi con disabilità intellettive radunatasi attorno ad una mamma: Maria Luisa Ubershag Menogotto. Con la disponibilità di un tavolo nello studio di un amico legale, in un locale in via di ristrutturazione, cominciava l’impegno dei familiari, associati a livello nazionale per la prima volta in Italia, diretti interessati nella volontà di cambiare la situazione ghettizzante e colpevolizzante che li colpiva insieme ai loro figli. Tanto da vedersi con molta fatica accettare la pubblicazione - scriveva la Menogotto - di una lettera dal settimanale Epoca: “vigeva nella stampa un veto ad affrontare un problema tanto angoscioso e tanto negletto”, e così pure in politica. Il destino di un figlio con una disabilità mentale era normalmente il ricovero in un istituto.
 
 Se l’accenno al passato è davvero doveroso, significativo è stato il fatto che Anffas Onlus abbia scelto di non concentrarsi su questo per l’impianto del Convegno, se non con un video e con alcuni approfondimenti nel materiale informativo. Come ha sottolineato il presidente nazionale, Roberto Speziale, ANFFAS “non è mai rimasta immobile ma si è costantemente evoluta, consapevole dell’importanza di essere sempre al passo con i tempi, sempre in prima linea nella difesa dei diritti delle persone con disabilità e dei loro familiari”, impegnandosi a “costruire futuro, non accontentandosi di quanto è disponibile nel presente ma volgendo costantemente lo sguardo a quanto ancora sia possibile migliorare, innovare, trasformare per rendere la vita delle persone con disabilità, quella delle loro famiglie e quelle delle comunità in cui vivono, una vita di Qualità”.

@@ -14,7 +14,8 @@ umap_x: 8.671102523803711
 umap_y: 9.886470794677734
 umap_z: 6.464242935180664
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 In questo numero abbiamo scelto un elenco di libri più consistente delle altre volte per due motivi: — riceverete, speriamo, questo numero all’inizio delle vacanze estive, quando è bene procurarsi un po’ di libri da leggere per rendere fruttuoso il meritato riposo; — la scelta è varia; i primi tre sono libri di facile lettura, alla portata di tutti, suscettibili, in alcune parti, di essere raccontati ai figli disabili, dal contenuto incoraggiante: si leggono infatti con il cuore aperto alla vicenda narrata; fa bene, a volte, seguire il cammino di speranza vissuto da altri in situazioni difficili; si impara così a non soffermarsi troppo sul proprio dolore e ad aprirsi alla condivisione.
 

@@ -12,8 +12,9 @@ umap_x: 7.058894634246826
 umap_y: 7.222943305969238
 umap_z: 12.616602897644043
 issue_number: INS-2
+id_numero: "INS-2"
+numero_rivista: "Insieme"
 ---
-
 Stavamo partendo per Lourdes e nel salutare, uno dei nostri parenti mi prese in disparte e mi disse: "Ti auguro un buon viaggio, ma non capisco come fai ancora a credere alla Madonna."
 
 **Si partiva con poca convinzione o almeno non profonda** , da veri credenti. Nei tre giorni di viaggio in macchina, si recitò qualche giaculatoria ma di quelle dette più per convenienza che per amore.

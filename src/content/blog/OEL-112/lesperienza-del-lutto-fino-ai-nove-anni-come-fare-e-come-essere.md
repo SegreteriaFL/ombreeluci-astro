@@ -17,8 +17,9 @@ umap_x: 5.189269065856934
 umap_y: 8.983305931091309
 umap_z: 7.90180778503418
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 A seconda della sua età e dello sviluppo psicogenetico, il bambino ha delle concezioni diverse della morte. Se finora non ci sono studi specifici per i bambini con disabilità mentale, conoscere le diverse tappe di questo sviluppo può aiutare a raggiungere il bambino al suo livello, in funzione delle sue capacità di comprensione.
 
 ##### Da 0 a 3 anni

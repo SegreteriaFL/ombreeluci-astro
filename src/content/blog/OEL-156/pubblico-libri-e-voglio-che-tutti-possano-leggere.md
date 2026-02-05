@@ -12,8 +12,9 @@ umap_x: 6.491146087646484
 umap_y: 8.292122840881348
 umap_z: 7.899612903594971
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Secondo la Costituzione italiana **i diritti e i doveri non conoscono diversità di sesso, religione, appartenenza politica e condizione sociale.** Chi immaginò e lavorò per porre a fondamento della nostra vita comunitaria questi paletti irremovibili e lungimiranti, sapeva di certo che segnava i percorsi delle persone tutte che, in quanto profondamente diverse le une dalle altre, avrebbero dovuto avere fondamenta certe per agire pienamente il loro diritto (e dovere) di cittadinanza. Aggrappandoci a questo principio e provando ad esplicitarlo anche nel mondo della cultura, abbiamo dato vita al progetto *[Lettori alla Pari](https://bit.ly/progetto_LettoriAllaPari)* , lo abbiamo candidato a un bando pubblico della Regione Puglia - che finanziava festival, attività di spettacolo e culturali con l’obiettivo dell’inclusione - lo abbiamo vinto e abbiamo cominciato a realizzarlo con l’idea di un progetto di welfare culturale che ribaltasse le logiche pubbliche e **mettesse al centro di ogni politica culturale la differenza come processo di inclusione per tutti.**
 
 Di mestiere faccio l’editore. Che significa che pubblico libri. La casa editrice che dirigo, le [*Edizioni La Meridiana*](https://www.lameridiana.it/) , è nata alla fine degli anni Ottanta in un lembo del Paese, la Puglia, e in un fazzoletto della provincia di Bari dove l’esperienza di un vescovo conciliare come don Tonino Bello ci ha portato a crescere e impegnarci nell’idea che il Samaritano a cui guardare è quello dell’ora prima, quello cioè che agisce socialmente e culturalmente perché le condizioni di diaspora sociale e di permanente difficoltà e disparità tra le persone siano ‘rimosse’. Rimuovere: **per la Costituzione, lo Stato deve rimuovere le condizioni che creano disuguaglianza.** In quegli anni siamo cresciuti nell’idea che anche la cultura abbia il compito di agire questa rimozione. E che farlo sia azione di ogni cittadino in quanto parte della comunità che è lo Stato.

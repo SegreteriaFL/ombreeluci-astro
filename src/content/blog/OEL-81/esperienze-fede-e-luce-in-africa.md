@@ -4,8 +4,8 @@ date: 2003-03-13
 author: Redazione
 slug: esperienze-fede-e-luce-in-africa
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 26264
 original_url: "https://www.ombreeluci.it/?p=26264"
@@ -18,7 +18,6 @@ umap_x: 7.315728187561035
 umap_y: 9.050235748291016
 umap_z: 13.182441711425781
 ---
-
 Durante la sua vita pubblica Gesù mostra il suo affetto particolare per le persone più “colpite”. Il malato, il cieco, il ferito vanno da lui perché c’è in lui una forza risanatrice che li cura. Duemila anni dopo, la Chiesa che Egli ha creato segue le orme del suo Maestro. Così è nata [**Fede e Luce**](http://www.fedeeluce.it/) e si è diffusa nel mondo.
 
 **Il continente africano ne è un buon esempio** . Le prime comunità sono create da missionari che hanno conosciuto questo movimento in Europa. Si è sparsa la voce e l’esempio: le comunità si sono moltiplicate.

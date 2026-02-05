@@ -17,8 +17,9 @@ umap_x: 9.053584098815918
 umap_y: 9.202742576599121
 umap_z: 6.315832614898682
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 In questi giorni di "ritiro forzato" in casa a causa del [coronavirus](https://www.ombreeluci.it/2020/che-gran-caos-coronavirs-persone-disabilita/) , abbiamo molto tempo libero tanto che a volte non sappiamo come trascorrerlo. Qui di seguito vi ri-proponiamo qualche gioco che nel corso degli anni abbiamo raccolto grazie all'esperienza di [Fede e Luce](https://www.fedeeluce.it/) . Abbiamo selezionato quelli da fare al chiuso ovviamente sperando che possano aiutarvi ad affrontare con un sorriso questo periodo difficile. Se volete potete raccontarci i vostri espedienti per come trascorrete le vostre giornate in maniera un po' diversa. Fatecelo sapere nei commenti o via email. 
 
 ### Indovina chi è

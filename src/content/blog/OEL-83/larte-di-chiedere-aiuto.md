@@ -4,8 +4,8 @@ date: 2003-09-04
 author: Redazione
 slug: larte-di-chiedere-aiuto
 lang: it
-numero_rivista: 83
-id_numero: OEL-83
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-83"
 issue_number: OEL-83
 wp_id: 26973
 original_url: "https://www.ombreeluci.it/?p=26973"
@@ -15,7 +15,6 @@ umap_x: 5.629116058349609
 umap_y: 8.644949913024902
 umap_z: 9.062268257141113
 ---
-
 Non mi piace domandare aiuto: è come se io dicessi ad alta voce che sono povero, nel bisogno, un po’ incapace. Ora, io vorrei presentarmi come una persona forte, indipendente e piena di capacità. Mi dico: “È meglio che mi faccia in quattro, che mi affatichi e che salti un pasto”. E tutto questo per non dire: “Ho bisogno di te”. Quanto deve cambiare il mio cuore! Domandare aiuto significa in realtà vivere nella solidarietà, sviluppare lo spirito di comunione, stare bene con gli altri. Dunque, accetta di abbassarti un poco. Non essere onnipotente, troppo capace; non avere paura di diventare povero, di aprire le mani e soprattutto sii semplice. La tavola è una buona scuola per imparare a domandare. E il posto migliore per stare attento agli altri. Cerchi il ketchup.
 
 Prima di tutto guarda dove sta la bottiglia rossa, poi chiama la persona più vicina: “Elena!”. Lei ti guarda. È il momento di dire: “Elena mi passi il ketchup, per favore”. Ciò crea un legame ed è un legame magico!

@@ -12,7 +12,8 @@ umap_x: 5.307596206665039
 umap_y: 7.863363742828369
 umap_z: 11.098153114318848
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 ### Coinvolti, che bellezza!
 

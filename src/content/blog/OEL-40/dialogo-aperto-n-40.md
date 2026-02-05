@@ -12,8 +12,9 @@ umap_x: 4.543679237365723
 umap_y: 8.314391136169434
 umap_z: 10.28940486907959
 issue_number: OEL-40
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Aiutateci a cercare
 
 Siamo i genitori di Arnaldo, un ragazzo con problemi fin dalla nascita. Attualmente risiediamo a Carrara (Ms.) dove abbiamo acquistato una casetta ora totalmente ristrutturata, con giardino e spazi confortevoli per Arnaldo. 11 nostro giovanotto (ormai ha 27 anni) da circa nove anni frequenta il Centro delPA.N.F.F.A.S. di Carrara, mentre per il passato era stato ospite dell’Istituto «Angelo Custode» presso Bergamo. Con il trasferimento di dieci anni fa, da Monza a Carrara pensavamo di aver dato una soluzione positiva al futuro di nostro figlio. Purtroppo la realtà in cui ci siamo trapiantati non soddisfa, ci sentiamo più isolati di prima, anche perché tutte le persone a noi legate risiedono a Monza. Chiederemmo perciò di poter contattare o «Case Famiglia» o «Piccole C ooperative» o altro dove appoggiarci e, nell’eventualità di improvvisi avvenimenti, garantire il domani di nostro figlio. Non intendiamo affatto di liberarci di Arnaldo, ma solamente legalizzare la sua posizione. Saremmo anche disposti, se necessario, a trasferirci per un periodo di prova. E logico che quanto possediamo è di Arnaldo e quindi di coloro che se ne faranno carico in avvenire. Noi ci auguriamo di poter continuare a lungo la nostra presenza accanto a nostro figlio in quanto siamo ancora nel pieno delle forze. Il passo che vorremmo fare è solo suggerito da prudenza. Ci siamo dimenticati di aggiungere che la ricerca vorremmo fosse effettuata in alta Italia e possibilmente tra Milano, Varese, Bergamo e Como. Auguriamo una diffusone crescente a «Ombre e L uci», che dà speranza a tutti coloro che si dibattono per uscire dall’isolamento. Grazie per il lavoro che fate.

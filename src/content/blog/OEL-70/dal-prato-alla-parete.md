@@ -14,7 +14,8 @@ umap_x: 7.69410514831543
 umap_y: 6.956523895263672
 umap_z: 9.553362846374512
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 Che fare nei pomeriggi invernali per ricordare il sole, i colori, i fiori della bella stagione? Con i nostri amici del laboratorio abbiamo imparato, attraverso una serie di gesti semplici e precisi a comporre piccoli quadri con i fiori pressati.
 1. Disporre foglie e fiori tra coppie di fogli di carta assorbente. Interporre cartoni tra le coppie e lasciare in pressa o sotto dei volumi.

@@ -14,8 +14,9 @@ umap_x: 5.615471363067627
 umap_y: 5.871591567993164
 umap_z: 12.406453132629395
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 La
 celebrazione della Nascita di Gesù prende ogni anno un posto rilevante nella società del Benin. La causa, non è affatto da imputare all’aspetto “marketing” come tentano di far credere alcune opinioni poco accorte. Piuttosto, la costante crescita dell’atmosfera natalizia traduce lo slancio di una comunità appassionata ai valori della condivisione e della gioia.
 **La vicinanza degli uni verso gli altri in questa Festa si manifesta attraverso l’azione della grazia di Dio**

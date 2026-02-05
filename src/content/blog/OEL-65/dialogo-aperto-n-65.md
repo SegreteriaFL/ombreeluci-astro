@@ -4,8 +4,8 @@ date: 1999-06-16
 author: Redazione
 slug: dialogo-aperto-n-65
 lang: it
-numero_rivista: 65
-id_numero: OEL-65
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-65"
 issue_number: OEL-65
 wp_id: 12570
 original_url: "https://www.ombreeluci.it/?p=12570"
@@ -15,7 +15,6 @@ umap_x: 5.153001308441162
 umap_y: 8.192850112915039
 umap_z: 10.632685661315918
 ---
-
 ### Feci un salto nel buio verso la luce
 
 Anche prima di conoscere il Cottolengo avevo dentro di me il desiderio di vivere accanto a persone disabili. Mentre frequentavo la Scuola Magistrale Ortofrenica, dovevo svolgere un determinato numero di ore di tirocinio. Già allora mi sembrava poca cosa stare solo a scuola con i ragazzi disabili e perciò andavo a trovarli, ad aiutarli a fare i compiti, nelle loro case o istituti. Qualcuno di loro venne anche a casa mia. Tutto ciò, però, non mi bastava. Mi sembrava di dover fare qualcosa di più. Mi chiedevo, sempre più intensamente, quale fosse il significato della mia vita, se davvero ero chiamata a sposarmi... Continuai il mio cammino, intensificando la preghiera, la partecipazione quotidiana alla Santa Messa, il silenzio, ecc. Trovai un direttore spirituale che mi fece conoscere una Casa di Preghiera. Frequentavo questa Casa sempre più spesso, finché ci andai a vivere per un anno, poiché mi sembrava di cogliere la chiamata del Signore a questo tipo di vita. Dopo più di un anno, mentre stavo in adorazione davanti all’Eucarestia, mi è sorta dentro questa domanda: “Perché non fai un anno di volontariato al Cottolengo?...”. Così, superando parecchie resistenze dentro di me, partii per vivere l’esperienza dell'anno come cammino di fede e di amore. Dopo circa sei mesi mi trovai a leggere alcuni scritti del Santo Cottolengo e con gioia e meraviglia scoprii questa figura di santo e mi accorsi che anche in me era sempre più forte questa ricerca/sete di Dio e desiderio/bisogno di amarlo nelle persone povere e bisognose di aiuto. Così compresi di essere chiamata dal Signore a diventare Suora di San Giuseppe Benedetto Cottolengo e, dopo molte resistenze in me, mi fidai di Dio, feci un salto nel buio verso la luce, e cominciai il mio cammino di formazione. Vorrei concludere con una espressione del Santo Cottolengo: “State tranquilli e non abbiate paura; NOI TUTTI siamo figli di un buon Padre, che più pensa Egli a noi, di quanto noi stessi pensiamo a Lui”. A tutti voi di “Ombre e Luci” dico grazie per la vostra presenza. **Suor Maria**

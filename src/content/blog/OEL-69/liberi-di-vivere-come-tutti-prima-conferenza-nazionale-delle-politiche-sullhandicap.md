@@ -12,7 +12,8 @@ umap_x: 8.604652404785156
 umap_y: 8.691153526306152
 umap_z: 7.669589519500732
 issue_number: OEL-69
-id_numero: OEL-69
+id_numero: "OEL-69"
+numero_rivista: "Ombre e Luci"
 ---
 La Conferenza è stata un grande successo, perché per la prima volta in Italia il problema dell’Handicap è apparso nella sua drammatica globalità. Fino a ieri governo e istituzioni erano ben lontani dall’avere preso coscienza e quindi dal rispondere ai bisogni reali, così diversificati, dei cittadini disabili. Osserva giustamente **Edoardo Cernuschi** , presidente della [LEDHA - Lega per i diritti degli handicappati](https://www.ledha.it/) : "Si dice handicap e si pensa sempre all'handicap fisico, allo spastico, al paralitico in carrozzella. Invece ci sono tanti handicap oltre a quello fisico, e tanti gradi diversi: quello mentale, quello sensoriale, quello fatto di un leggero ritardo. E ogni tipo di disabilità ha problemi diversi da affrontare...)
 

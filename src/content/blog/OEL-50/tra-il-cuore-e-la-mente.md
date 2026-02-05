@@ -12,7 +12,8 @@ umap_x: 7.415761470794678
 umap_y: 10.95569133758545
 umap_z: 5.374719619750977
 issue_number: OEL-50
-id_numero: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
 È
 una raccolta di poesie cariche di entusiasmo e di vitalità. È la coraggiosa testimonianza di un giovane che unisce alla sua particolare sensibilità poetica una inesauribile voglia di lottare per raggiungere sempre nuovi traguardi. Daniele La Barbera è nato a Firenze nel 1971. Attualmente risiede a Quarrata (Pistoia). Ha conseguito il diploma di perito industriale nel 1989. Nel 1992, a seguito di un incidente, ha perso l’uso degli arti inferiori: da qui i voli letterari sfociati in questo libro a simbolo della sua ripresa morale e fisica. Ecco una delle sue poesie.

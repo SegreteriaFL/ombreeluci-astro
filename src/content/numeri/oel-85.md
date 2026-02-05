@@ -1,15 +1,28 @@
 ---
 id: "OEL-85"
-title: "Ombre e Luci n. 85 - Ecco, faccio nuove tutte le cose"
+title: "Ombre e Luci n. 85 – Ecco, faccio nuove tutte le cose"
 tipo: "ombre-e-luci"
 numero: 85
-anno: "2004"
+sort_order: 184
+pubDate: "2004-02-01T00:00:00Z"
 data_pubblicazione: "Febbraio – Marzo 2004"
 sommario: "Ombre e Luci n. 85 – Ecco, io faccio nuove tutte le cose ultima modifica: 2004-03-19T18:59:30+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_85_2004.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_88"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-85-ecco-io-faccio-nuove-tutte-le-cose/"
+articoli:
+  - "convivenza-non-coesistenza"
+  - "una-mamma-scrive-ai-vescovi"
+  - "una-messa-poco-dignitosa"
+  - "per-voi-e-per-tutti-consigli-pratici-perche-nessuno-venga-rifiutato"
+  - "come-possiamo-accompagnare-piccole-e-grandi-crisi"
+  - "era-difficile-perche-pensavo-sempre-a-lui"
+  - "filippide-correre-insieme-dal-tibet-al-polo-nord"
+  - "lo-shiatsu-dei-volontari-dellapis-a-roma"
+  - "felice-di-vivere"
+  - "dialogo-aperto-n-85"
+  - "piovono-mucche-e-altri-nuovi-libri"
 ---
 
 ## Indice

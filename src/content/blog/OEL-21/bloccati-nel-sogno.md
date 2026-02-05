@@ -15,7 +15,8 @@ umap_x: 8.296422004699707
 umap_y: 11.878008842468262
 umap_z: 10.699094772338867
 issue_number: OEL-21
-id_numero: OEL-21
+id_numero: "OEL-21"
+numero_rivista: "Ombre e Luci"
 ---
 L’esperienza che ho della persona malata mentale è certo incompleta ma è reale. Da molto tempo incontro genitori che hanno un figlio malato mentale e che cercano per lui un posto d’accoglienza. D’altro canto, un certo numero di giovani, con l’equilibrio psichico perturbato, vengono all’
 [*Arche*](http://www.ombreeluci.it/1987/che-cosa-e-larche/)

@@ -1,15 +1,23 @@
 ---
 id: "INS-8"
-title: "Insieme n.8 - Bollettino Fede e Luce - 1976"
+title: "Insieme n.8 – Bollettino Fede e Luce – 1976"
 tipo: "insieme"
 numero: 8
-anno: "1976"
+sort_order: 8
+pubDate: "1976-01-01T00:00:00Z"
 data_pubblicazione: "Gennaio – Febbraio 1976"
 sommario: "'AMARE è accettare l'altro così com'è, lasciarsi investire da lui ... in ultima agnalisi, credere in lui. Si tratta di aver fede in una ricchezza al di là delle apparenze, È una lotta, un duello... credere in lui o credere in me!- Dalla parte di un medico"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/cover-insieme-n.webp"
 link_sfoglia: "https://archive.org/details/insieme-8/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-8/insieme%208%20gen%20feb%201976.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-8-bollettino-fede-e-luce/"
+articoli:
+  - "i-piu-difficili"
+  - "mi-sento-in-crisi"
+  - "festa-della-luce-1976"
+  - "pennellate-dai-centri-fede-e-luce"
+  - "incontrarsi-il-venerdi"
+  - "resoconto-della-riunione-internazionale-di-fede-e-luce"
 ---
 
 ## Indice

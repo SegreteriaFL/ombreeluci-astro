@@ -7,6 +7,7 @@ cluster_id: 3
 image: "https://www.ombreeluci.it/wp-content/uploads/2022/12/Copertina_OeL_160_2022-206x300.jpg"
 slug: "a-sua-immagine-recensione"
 has_comments: false
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -14,8 +14,9 @@ umap_x: 4.707479953765869
 umap_y: 10.047525405883789
 umap_z: 7.842867374420166
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 > I tuoi figli non sono figli tuoi, sono i figli e le figlie della vita stessa. (Khalil Gibran)
 
 Ènaturale e lecito immaginare e desiderare un figlio sano, intelligente, nel quale magari potersi riconoscere e che possibilmente realizzi quei sogni che non si è riusciti a trasformare in realtà.

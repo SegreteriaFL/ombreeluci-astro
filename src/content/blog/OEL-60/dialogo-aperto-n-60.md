@@ -4,8 +4,8 @@ date: 1997-12-15
 author: Redazione
 slug: dialogo-aperto-n-60
 lang: it
-numero_rivista: 60
-id_numero: OEL-60
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-60"
 issue_number: OEL-60
 wp_id: 11787
 original_url: "https://www.ombreeluci.it/?p=11787"
@@ -15,7 +15,6 @@ umap_x: 5.293398857116699
 umap_y: 7.6704511642456055
 umap_z: 11.34337329864502
 ---
-
 ### Lettera alla Befana
 
 Lo scorso 6 gennaio sono andata a trovare i miei amici del

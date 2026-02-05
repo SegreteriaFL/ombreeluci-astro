@@ -4,8 +4,8 @@ date: 2003-03-02
 author: Redazione
 slug: incontri-1
 lang: it
-numero_rivista: 81
-id_numero: OEL-81
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-81"
 issue_number: OEL-81
 wp_id: 25892
 original_url: "https://www.ombreeluci.it/?p=25892"
@@ -18,7 +18,6 @@ umap_x: 7.376582145690918
 umap_y: 9.122234344482422
 umap_z: 12.64657211303711
 ---
-
 > Mi torna spesso in mente la frase, che è il nostro motto “Meglio accendere una luce che maledire Voscurìtà” e penso che tante volte neanche si ha la forza di accendere una luce e neppure di maledire l’oscurità. Ma la cosa peggiore è restare paralizzati nell'oscurità. **Enza Gucciardo**
 
 https://youtu.be/shVBkBWQHrk

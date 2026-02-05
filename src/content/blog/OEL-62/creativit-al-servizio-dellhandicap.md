@@ -4,8 +4,8 @@ date: 1998-06-17
 author: Redazione
 slug: creativit-al-servizio-dellhandicap
 lang: it
-numero_rivista: 62
-id_numero: OEL-62
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-62"
 issue_number: OEL-62
 wp_id: 12189
 original_url: "https://www.ombreeluci.it/?p=12189"
@@ -15,7 +15,6 @@ umap_x: 8.420355796813965
 umap_y: 8.115044593811035
 umap_z: 7.916681289672852
 ---
-
 **Libro parlato** A Feltre, in provincia di Belluno, è stato istituito il Centro del Libro Parlato: I non vedenti possono inviare i libri che desiderano vengano registrati su cassette o trascritti in braille o memorizzati su floppy-disc. I testi vengono esaminati per essere inviati a donatore di voce che abbia la cultura più idonea al caso. Le spedizioni vengono effettuate in franchigia, per decreto del Presidente della Repubblica. Per saperne di più telefonare al n° o439/333214. (da “Dritto dal cuore” di G.P.Fontana - ed. RA1-ERI)
 
 **Ciclomotori per emergenze** E' nata a Roma l’Unità Mobile di Assistenza al Cittadino: 20 ciclomotori guidati da volontari della Croce Rossa, sono al servizio di anziani, handicappati, malati cronici, persone sole con difficoltà motoria, per piccole necessità (Acquisto e consegna a domicilio di medicinali e generi di prima necessità, consegna documenti e piccole emergenze). Il servizio risponde al numero telefonico: 65743293, è operativo tutti i giorni compresi sabato e domenica dalle h.8 alle h.20. (da “Roma Città solidale).

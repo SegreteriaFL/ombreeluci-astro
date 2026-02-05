@@ -14,7 +14,8 @@ umap_x: 8.354598999023438
 umap_y: 7.2981181144714355
 umap_z: 9.25156021118164
 issue_number: OEL-41
-id_numero: OEL-41
+id_numero: "OEL-41"
+numero_rivista: "Ombre e Luci"
 ---
 ### Il laboratorio del martedì
 

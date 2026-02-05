@@ -12,9 +12,9 @@ umap_x: 4.5945820808410645
 umap_y: 8.280755996704102
 umap_z: 10.343603134155273
 issue_number: OEL-68
-id_numero: OEL-68
+id_numero: "OEL-68"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Anni duri, ma è cresciuto un seme
 
 Scrivo a tutti per comunicare la bellissima gioia che ho nel cuore, dono di Dio, una gioia che si chiama SPERANZA. E'cresciuta in me negli ultimi anni di vita accanto ad Alessandro, un figlio bellissimo con una tremenda psicopatia che chiamano autismo. ...Durante la mia esistenza il sentimento dell'amore. del vero amore, è stato abbastanza vivo in me. La mia casa l ho sempre concepita crocevia di gente e così è stata. Ma da quando è venuto al mondo Alessandro siamo rimasti soli, veramente soli. Alla mia tavola ormai si siede solo qualche extracomunitario di passaggio. Sono stati anni sicuramente duri, che non mi sono tanto dispiaciuti, perché mi hanno donato una bella fede ed è cresciuto più forte in me il senso dell'amore, del donarsi, dell'accoglienza. Io sono convinto che in tutte le famiglie ove si è vissuta l'esperienza che ho vissuto insieme a mia moglie e mia figlia ora sta germogliando un seme, più o meno consapevole, un bel seme che è la SPERANZA. **Giovanni Battista de Cola**

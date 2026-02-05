@@ -12,8 +12,9 @@ umap_x: 6.487917423248291
 umap_y: 7.344540119171143
 umap_z: 9.075618743896484
 issue_number: OEL-140
+id_numero: "OEL-140"
+numero_rivista: "Ombre e Luci"
 ---
-
 *New forms of poverty have been always on the horizon and in this moment, we cannot help but see a new category of poverty, the last ones: the refugees. The situation of fleeing war zones and those who leave their homes and country to seek a better life, but still want to have a normal life, appears extremely dramatic. Moreover, in no longer thriving social contexts, the only answer seems to be solely economic: which is what we cannot afford! And so, a position of defense when there is no attack, is taken towards these people who place their hope and survival in nearby Europe.*
 
 ***Whatever our political position is in the face of this phenomenon, it constitutes a problem for Italy and Europe, and likewise it is a tragedy for those experiencing it.** Whatever our degree of intolerance or empathy for these people, it is still a problem to which we cannot in any ways close our eyes.*

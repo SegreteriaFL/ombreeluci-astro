@@ -16,7 +16,8 @@ umap_x: 7.925591945648193
 umap_y: 8.388344764709473
 umap_z: 11.030878067016602
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 Tutto è iniziato più di un anno fa quando **Padre Theodoros** (assistente spirituale della provincia *Kimata* ), ha comunicato a **Pietro Vetro** (coordinatore provinciale *Kimata* ) di aver conosciuto alcune famiglie albanesi con figli disabili. Il "gancio" di questa conoscenza è **Bertrand** , responsabile de *Il sassolino bianco* dell' [*Arca* di Bretagna](https://www.larche.org/) che da anni frequenta Tirana e ha stretto rapporti di amicizia con genitori e ragazzi con diverse capacità (così definiscono la disabilità gli albanesi). In Albania non c'è niente per i ragazzi disabili e le loro famiglie. Alcuni genitori si vergognano dei figli e li tengono chiusi in casa. Per fortuna non tutti la pensano così e le famiglie incontrate da Padre Theodoros fin da subito si sono mostrate interessate ed incuriosite da *[Fede e Luce](http://fedeeluce.it)* . Con Pietro abbiamo così raccolto l'invito di andare a Tirana per farci conoscere. L'incontro si è concluso fissando una "casetta" per il mese successivo! A maggio del 2017 abbiamo vissuto a Tirana il primo incontro di *Fede e Luce* .
 

@@ -18,8 +18,9 @@ umap_x: 5.601812839508057
 umap_y: 10.366127967834473
 umap_z: 7.4529547691345215
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 **"My name is Francesca Pellegrini."**
 I live in Montepulciano, in the province of Siena, Tuscany, with my dad, my mom, and my brother Tommaso, who's 22. I have Down syndrome—meaning I have three chromosomes in pair 21.
 **I can’t stand it when people still treat me like a little girl.**

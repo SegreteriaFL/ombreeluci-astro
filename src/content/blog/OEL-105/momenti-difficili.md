@@ -14,7 +14,8 @@ umap_x: 6.118182182312012
 umap_y: 8.731719970703125
 umap_z: 7.189907550811768
 issue_number: OEL-105
-id_numero: OEL-105
+id_numero: "OEL-105"
+numero_rivista: "Ombre e Luci"
 ---
 Ci siamo conosciute al parco, tanti anni fa Marisa ed io. Lei era una giovane bella signora, con i capelli castani ondulati, la bocca ben disegnata dal rossetto, gli occhi scuri e fieri. Con lei la sua bambina,
 **Stella, un piccolo elfo di sei o sette anni**

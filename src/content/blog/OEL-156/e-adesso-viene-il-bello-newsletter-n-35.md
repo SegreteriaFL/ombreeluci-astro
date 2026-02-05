@@ -12,8 +12,9 @@ umap_x: 8.899991989135742
 umap_y: 5.176559925079346
 umap_z: 8.972034454345703
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Paralympian* del collettivo giapponese GOO CHOKI PAR è il poster ufficiale delle Paralimpiadi di Tokyo. Il trio di artisti ha realizzato anche [altri 22 poster](https://gcp.design/works/paralympic/) , uno per ogni disciplina paralimpica.
 
 ### Dall'archivio

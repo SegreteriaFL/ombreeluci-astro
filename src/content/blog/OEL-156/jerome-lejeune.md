@@ -12,7 +12,8 @@ umap_x: 5.537957668304443
 umap_y: 10.159933090209961
 umap_z: 6.887871265411377
 issue_number: OEL-156
-id_numero: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
 Un
 ruolo importante in vista del pellegrinaggio lo giocò Jérôme Lejeune, il genetista noto per

@@ -12,8 +12,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-116
+id_numero: "OEL-116"
+numero_rivista: "Ombre e Luci"
 ---
-
 Vive a Bruxelles, lavora in una rete di lobby etica cristiana, Christine Dupuis ha avvertito l’angoscia delle persone che soffrono di disturbi psichici e quella dei loro parenti. Insieme ad altre persone ha fondato una casa per giovani adulti schizofrenici in Belgio.
 
 Nel corso della sua vita c’è stata un’ esperienza determinante – un prima e un dopo – vissuta in un foyer dell’Arche in Bretagne. Durante un anno Christine ha frequentato la comunità e ha partecipato all’animazione di laboratori creativi! “C’era lì una tale gioia! Ci dice. Jean vanier ha avuto una visione profetica: i rifiutati, quelli che si vogliono nascondere, diventano occasione di irradiazione spirituale e fraterna della vita locale. Sapevo che avrei fatto qualcosa in questo settore”.

@@ -7,6 +7,7 @@ cluster_id: 0
 image: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-30-set-1981.webp"
 slug: "buon-natale-1981-e-un-numero-speciale"
 has_comments: false
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

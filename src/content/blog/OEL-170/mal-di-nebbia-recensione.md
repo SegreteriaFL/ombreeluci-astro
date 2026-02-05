@@ -14,7 +14,8 @@ umap_x: 7.929263114929199
 umap_y: 11.50152587890625
 umap_z: 4.612178802490234
 issue_number: OEL-170
-id_numero: OEL-170
+id_numero: "OEL-170"
+numero_rivista: "Ombre e Luci"
 ---
 D
 urante la Grande guerra, dodici soldati preferirono gettarsi nel fiume piuttosto che tornare al fronte. Da allora il loro fantasma incombe come una maledizione sul paesino nativo, seminando morte e terrore. Sveglia e caparbia,

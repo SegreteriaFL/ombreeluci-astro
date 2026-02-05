@@ -12,8 +12,9 @@ umap_x: 8.119393348693848
 umap_y: 7.446865558624268
 umap_z: 7.75380277633667
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Già dall’ingresso si evince quanto sia diverso dagli altri il nuovo SuperStore Coop che ha aperto lo scorso 10 settembre in via Marsala a Monza. Le due quinte verdi sulla facciata principale, il giardino verticale che si sviluppa sul tetto, l’illuminazione a tecnologia led ad alta efficienza energetica sono tutti elementi che non lasciano dubbi circa l’attenzione alla sostenibilità e all’impronta ecologica della struttura. Ma c’è di più.
 
 Entrando nel negozio, infatti, se ne può apprezzare la vera originalità: siamo nel primo supermercato d’Italia pensato per le persone affette da autismo. L’idea parte dalle fondatrici della onlus [***Alla3***](https://www.facebook.com/Alla3-100415778470298) , associazione che nasce dall’incontro di tre mamme di bambini autistici in un gruppo di mutuo-aiuto; l’intuizione del progetto è arrivata durante il lockdown, l’entusiasmo della Coop nel realizzarlo subito dopo.

@@ -16,7 +16,8 @@ umap_x: 6.438643932342529
 umap_y: 8.531776428222656
 umap_z: 6.45559549331665
 issue_number: OEL-6
-id_numero: OEL-6
+id_numero: "OEL-6"
+numero_rivista: "Ombre e Luci"
 ---
 La comunicazione di una persona con un'altra ci appare primaria, spontanea, naturale: senza problemi. Una mamma parla al suo bimbo fin dalle prime ore di vita. Lo guarda con l'amore che viene dal cuore e che si esprime nello sguardo, nel sorriso. Un’infermiera le mette il bambino fra le braccia o glielo riprende; tutte e due son d'accordo che i loro gesti di grande dolcezza corrispondano al mistero di conoscenza e di amore racchiuso in quella minuscola persona. Il bambino, fin dal seno materno, percepisce benessere e sofferenza. Dalla nascita, pur senza rendersene conto, entra in contatto con il mondo esterno, per mezzo dei sensi, dell’affettività, e in un secondo tempo, senza preavviso, per mezzo dell’intelligenza, che si risveglia. Ancor di più, percepisce l’angoscia e l'amore. Nella sua vulnerabilità può crescere e svilupparsi solo se fra lui e chi lo circonda si stabilisce una comunione vitale. Eppure capita che questa relazione fra persona e persona fallisca, diventi impossibile. Succede che dei bambini, a volte fin dal primo mese di vita, sembrino sordi. Non lo sono. Vedono tutto, sentono tutto. I cinque sensi sono intatti. Tuttavia non entrano in relazione con il mondo circostante. I genitori scoprono progressivamente che il bambino è come murato in se stesso. Il cuore, l'affettività sembrano non esser mai stati risvegliati. Ora silenzioso e freddo, perfino ostile, ora aggressivo, come straniero a se stesso (parla spesso di sè dicendo «lui» o «lei»), utilizza solo alcune parole che preferisce, cresce come se il suo mondo immaginario fosse il mondo reale, riducendo quasi a nulla la vita di relazione con chi lo circonda.
 > I genitori scoprono progressivamente che il bambino è come murato in se stesso

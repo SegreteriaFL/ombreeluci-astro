@@ -16,7 +16,8 @@ umap_x: 4.937196731567383
 umap_y: 8.420692443847656
 umap_z: 10.386384963989258
 issue_number: OEL-5
-id_numero: OEL-5
+id_numero: "OEL-5"
+numero_rivista: "Ombre e Luci"
 ---
 ### Lui mi ha sorriso con dolcezza
 

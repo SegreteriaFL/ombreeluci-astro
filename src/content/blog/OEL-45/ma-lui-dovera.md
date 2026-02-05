@@ -14,7 +14,8 @@ umap_x: 6.548556804656982
 umap_y: 9.329397201538086
 umap_z: 8.302471160888672
 issue_number: OEL-45
-id_numero: OEL-45
+id_numero: "OEL-45"
+numero_rivista: "Ombre e Luci"
 ---
 N
 on mi è facile parlare della mia reazione all’esplosione dell'handicap di Michela. Quel periodo è ancora per me molto buio; le sensazioni troppo forti, confuse e sicuramente anche irrazionali agli occhi di quanti incontravo allora. Ero un animale ferito: rigettavo il dolore odiando i sani. Mi era intollerante sentire qualche «mammina» preoccupata della modesta rinite del suo piccolo, quando mia figlia entrava ed usciva dagli ospedali; mi veniva in mente quanto disse il medico della clinica universitaria De Marchi in quel drammatico 12 agosto 1967 alla fine di quella disgraziata giornata. Seppure il tono era molto rispettoso di noi il contenuto era brutale, Michela ci avrebbe fatto tribolare per tutta la vita! La rabbia di non essere stati ascoltati da specialisti più volte interpellati sui nostri dubbi. Cosa aveva giovato preoccuparsi ancor prima di sposarsi? Che senso aveva avuto il non prendere neanche un’aspirina durante la gravidanza? Eravamo piombati nel tunnel dell'handicap e ci abbracciavamo piangendo. I conoscenti ci dicevano «poverini»... lo zio prete ti confida che sei stato molto provato. Qualche amico rimane addirittura infastidito della tua vicenda, quasi temendo di venire contagiato. Dio in tutto questo dove stava?

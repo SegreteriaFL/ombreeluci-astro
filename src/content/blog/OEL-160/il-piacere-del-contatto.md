@@ -12,7 +12,8 @@ umap_x: 8.504037857055664
 umap_y: 7.751221179962158
 umap_z: 8.04809284210205
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 L'anno prossimo per il Museo tattile Omero di Ancona saranno trent’anni di vita. Trent’anni contrassegnati da cambiamenti, trasformazioni, evoluzioni. «Quando siamo nati, nel 1993, ci chiamavano pazzi, eravamo l’unica realtà a voler sovvertire quell’aprioristico concetto di “vietato toccare”, tuttora presente nei luoghi dell’arte italiani, europei e internazionali. Non che oggi spazi simili al nostro esistano in gran numero, ma c’è da dire che qualcosa, in termini di sensibilità, sta muovendosi». Parola del professor Aldo Grassini, presidente del suo “Omero” che, nella sede della Mole Vanvitelliana, è passato a essere, da museo comunale, vero e proprio museo statale. «E non museo per ciechi, ma museo per tutti: dove chiunque, vedente o non vedente, può fare esperienza dell’arte tramite il tatto che, diciamolo, non è sostitutivo della vista, bensì un ulteriore modo per fruire della bellezza, per conoscere la realtà e viverla sia da un punto di vista estetico sia da un punto di vista emotivo».
 

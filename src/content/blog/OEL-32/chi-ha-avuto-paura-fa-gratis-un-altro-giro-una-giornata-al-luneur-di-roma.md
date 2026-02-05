@@ -12,8 +12,9 @@ umap_x: 8.37808609008789
 umap_y: 7.4271416664123535
 umap_z: 8.16908073425293
 issue_number: OEL-32
+id_numero: "OEL-32"
+numero_rivista: "Ombre e Luci"
 ---
-
 D
 irettore, proprietari, lavoratori del
 **Luna Park dell'EUR**

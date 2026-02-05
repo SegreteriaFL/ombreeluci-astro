@@ -7,6 +7,7 @@ cluster_id: 10
 image: "https://www.ombreeluci.it/wp-content/uploads/1975/12/insieme-n-6.webp"
 slug: "i-canti-del-pellegrinaggio-di-roma-1975"
 has_comments: false
+id_numero: "INS-6"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

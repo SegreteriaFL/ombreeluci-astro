@@ -12,7 +12,8 @@ umap_x: 7.390835285186768
 umap_y: 11.045987129211426
 umap_z: 4.808448791503906
 issue_number: OEL-41
-id_numero: OEL-41
+id_numero: "OEL-41"
+numero_rivista: "Ombre e Luci"
 ---
 È
 un bambino magico, un bambino fatato? E’un bambino sofferente, angosciato, spesso molto bello, che, incapace di prendere contatto con la realtà, se ne costruisce una tutta sua, dove vive come in una «fortezza vuota», da solo. Tutto questo indica le difficoltà e l’appassionato entusiasmo che hanno spinto i due autori, medici ed educatori dei centri specializzati di Saint-Mandé vicino a Parigi, ad occuparsi dei bambini autistici. In Italia esistono le traduzioni di altre loro opere importanti: sul ritardo mentale (Educazione del bambino subnormale. Guida per genitori e gli educatori, edizioni Armando) e sullo stesso tema di questo libro (Vivere con un bambino autistico, edizioni Giunti Barbera; Il linguaggio verbale e non verbale del bambino psicotico, edizioni Armando). Qui

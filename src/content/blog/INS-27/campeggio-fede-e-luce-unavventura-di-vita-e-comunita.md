@@ -12,8 +12,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 Campeggio è...
 ...riunirsi a maggio-giugno e, viste le proporzioni (o meglio le sproporzioni) fra le tre componenti, dirci un pò sbigottiti: "Qui, se qualcuno non guarda giù, sarà difficile farcela"
 ...decidere, in luglio, che nonostante tutto si può e si deve partire. E si parte!

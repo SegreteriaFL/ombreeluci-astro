@@ -12,8 +12,9 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 Il [numero 25 di Insieme](https://www.ombreeluci.it/project/insieme-n-25-bollettino-fede-e-luce-1980/) proponeva all'attenzione di tutti noi un argomento spesso trascurato. Questo argomento è la situazione particolare in cui si trovano a vivere, "[senza alcuna scelta iniziale](https://www.ombreeluci.it/1980/una-realta-esigente/)"(1) i fratelli e le sorelle di un ragazzo che un qualche tipo di handicap rende diverso dai suoi coetanei.
 
 Sappiamo tutti che, anche nelle famiglie più fortunate, più aiutate o più coraggiose, si crea, almeno all'inizio, un'atmosfera di tensione e di angoscia ed ogni giorno si presentano nuovi, gravissimi problemi. Come reagisce un bambino o un ragazzo a questa situazione? Un essere ancora in crescita, non protagonista ma neppure semplice spettatore del dramma che si svolge sotto i suoi occhi?

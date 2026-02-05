@@ -12,7 +12,8 @@ umap_x: 6.506345748901367
 umap_y: 6.819159507751465
 umap_z: 10.002570152282715
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Giornali, telegiornali, news, ci mostrano continuamente un mondo dove sembra difficile abitare. La valanga di notizie negative rischia di creare in noi uno stato di depressione e di tristezza, al punto che non riusciamo quasi più a vedere le cose belle e buone, che pure ci sono. Allora mi sono proposto di fare più attenzione a quelle cose positive che io chiamerei “scampoli di paradiso”. “Scampoli”, cioè piccoli ritagli, piccoli spazi o momenti nei quali, se il tuo cuore è preparato, puoi già vedere qualcosa di quello che sarà il paradiso. “Paradiso” è il luogo, o meglio, lo stato della piena e duratura felicità, quella che si ha con Dio, che è la somma di ogni bene. Dio però non è mai solo, perché in Lui ci sono anche le cose da lui create, e in primo luogo le persone. Il paradiso non è dunque una felicità solitaria, ma di “comunione”, dove incontri Dio (Padre, Figlio e Spirito Santo) e dove incontri gli altri, che sono gli angeli e i santi, e prima di tutti la Beata Vergine Maria. Dire “incontro” è troppo poco, perché la comunione del paradiso è un “dimorare” reciproco l’uno nell’altro. Non faccio della poesia. Devo soltanto attivare le antenne che mi permettono di captare le onde del paradiso già qui sulla terra. Lo so che questo mondo è malvagio, e finché gli uomini e le donne nasceranno con il peccato originale e finché il diavolo avrà il permesso di tentarci, la malvagità non scomparirà dalla terra. A volte sembra che prevalga, ma non è vero: il paradiso è già iniziato qui sulla terra, basta solo avere gli occhi puliti per vederlo. Allora ho fatto una breve rassegna degli ultimi “scampoli di paradiso” che ho vissuto in queste vacanze.
 *Scampoli di paradiso*

@@ -14,7 +14,8 @@ umap_x: 5.607659816741943
 umap_y: 10.360411643981934
 umap_z: 9.040989875793457
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 In passato abbiamo dato voce alle loro esperienze e riflessioni [le trovate nel [N.9 del 1985](https://www.ombreeluci.it/project/numero-9-fratelli-e-sorelle/) e tramite tag [fratelli e sorelle](https://www.ombreeluci.it/tag/fratelli-e-sorelle/) ]: ve ne riproponiamo alcune per sottolineare il loro ruolo fondamentale all’interno della famiglia.
 Mia sorella è per me un riferimento grande, mi ha insegnato sul campo che la preziosità della vita sta nelle piccole cose e nelle conquiste quotidiane e soprattutto che le diversità più le allontaniamo da noi più ci fanno paura. Spero di riuscire a tenere sempre nella mente questi insegnamenti e a passarli con amore alle mie figlie.

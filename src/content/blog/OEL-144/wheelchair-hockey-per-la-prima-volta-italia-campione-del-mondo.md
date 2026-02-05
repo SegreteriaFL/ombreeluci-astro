@@ -14,8 +14,9 @@ umap_x: 8.895785331726074
 umap_y: 5.171280860900879
 umap_z: 9.056150436401367
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 L'
 Italia è campione del mondo di
 **wheelchair hockey**

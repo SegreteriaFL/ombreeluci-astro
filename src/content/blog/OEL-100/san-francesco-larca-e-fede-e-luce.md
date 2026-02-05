@@ -4,8 +4,8 @@ date: 2007-12-10
 author: Jean Vanier
 slug: san-francesco-larca-e-fede-e-luce
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32884
 original_url: "https://www.ombreeluci.it/?p=32884"
@@ -15,7 +15,6 @@ umap_x: 8.376012802124023
 umap_y: 11.88440227508545
 umap_z: 10.992965698242188
 ---
-
 D
 a più di otto secoli Francesco d’Assisi ha toccato e ispirato il cuore di molti, uomini e donne. Ha indicato una strada per fare della nostra terra una terra di amore, di vita e di pace. Ha mostrato che e possibile vivere il Vangelo. Con la sua vita e il suo esempio, in un mondo di guerre e di competizioni, S. Francesco rifulse senza cercare di arricchirsi, di avere potere o di vincere. Rifulse per la sua umiltà e la sua povertà, per la sua vita semplice e vicina alla natura. Rifulse per la sua audacia rimanendo un uomo di pace. Rifulse vivendo con una comunità di “fratelli” e annunciando un nuovo modo di vivere. S. Francesco sapeva che le sue comunità erano nate da Dio, erano condotte da Dio; che la vita dei suoi frati era una vita di relazione che trasformava i cuori e per questo diventava un segno per il mondo. Anche noi, insieme, abbiamo scoperto che le comunità dell'Arca e di Fede e Luce sono nate da Dio e sono condotte da Dio; che sono luoghi di relazione, una relazione che ci trasforma e per questo vorrebbero essere un segno nel mondo. Francesco era un giovane del suo tempo: amava la vita, amava guadagnare, spendere, far buoni affari. Gli piaceva ballare e fare follie. Desiderò essere un cavaliere e partecipò a una guerra: volle dimostrare le sue abilità militari combattendo contro i perugini che lo fecero prigioniero. La società nella quale Francesco viveva era divisa fra ricchi e poveri, una minoranza che aveva troppo e una maggioranza che non aveva lo stretto necessario. C'erano soprattutto molti emarginati: lebbrosi che vivevano in villaggi di cui era vietato l’accesso. Si dice che in Europa, allora, ci fossero ventimila di questi villaggi. Da quali avvenimenti il cuore di questo giovane fu trasformato e fu portato a fondare le sue comunità? La trasformazione avvenne poco per volta. Ci furono dapprima un incontro, poi una chiamata e infine la missione.
 

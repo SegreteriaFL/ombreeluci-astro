@@ -12,8 +12,9 @@ umap_x: 8.7797212600708
 umap_y: 8.229214668273926
 umap_z: 3.100961685180664
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 A
 nche quest’anno, per sfruttare al meglio il tempo libero durante le feste, ecco
 **qualche suggerimento su cosa guardare al cinema o sulle piattaforme**

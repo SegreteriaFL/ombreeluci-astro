@@ -18,7 +18,8 @@ umap_x: 7.943075180053711
 umap_y: 8.614537239074707
 umap_z: 13.869349479675293
 issue_number: OEL-143
-id_numero: OEL-143
+id_numero: "OEL-143"
+numero_rivista: "Ombre e Luci"
 ---
 ##### [Torna alla versione italiana](http://www.ombreeluci.it/2018/fano2018/)
 

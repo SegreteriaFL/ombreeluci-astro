@@ -4,8 +4,8 @@ date: 2004-03-10
 author: Tina Turrini
 slug: una-mamma-scrive-ai-vescovi
 lang: it
-numero_rivista: 85
-id_numero: OEL-85
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-85"
 issue_number: OEL-85
 wp_id: 30049
 original_url: "https://www.ombreeluci.it/?p=30049"
@@ -15,7 +15,6 @@ umap_x: 5.564560890197754
 umap_y: 9.114468574523926
 umap_z: 8.009489059448242
 ---
-
 “... **lo sono la voce dell’handicap grave** , intellettivo e fisico, un handicap che ha un bisogno estremo degli altri per uscire dall’isolamento e dall’emarginazione; altre famiglie che come me soffrono e si chiudono nella loro prova, appassiscono e si inaridiscono perché si sentono impotenti a modificare la situazione. Ma io no, credo nei cambiamenti, nella crescita... credo nel cuore dei “sani” e nella loro capacità di aiuto. Da 20 anni la famiglia si è fatta carico dei figli “diversi”. Ma non può trasformarsi in luogo protetto: ha bisogno di una comunità, di gruppi di persone sensibili e motivate: e dove trovarle se non nelle parrocchie e nelle diocesi?
 
 In un mondo che vuole rimuovere la sofferenza e neppure vederla, quale posto i nostri figli possono trovare?

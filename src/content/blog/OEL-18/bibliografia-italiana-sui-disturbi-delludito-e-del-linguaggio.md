@@ -12,7 +12,8 @@ umap_x: 7.834461212158203
 umap_y: 10.14744758605957
 umap_z: 5.9735517501831055
 issue_number: OEL-18
-id_numero: OEL-18
+id_numero: "OEL-18"
+numero_rivista: "Ombre e Luci"
 ---
 I nuovi libri e articoli pubblicati tra l’85 e l'86 presentati in questo decimo volume sono 374. Sono tutti scritti in italiano o tradotti in italiano tranne tre volumi. II volume comprende le testate dei periodici che si occupano dei disturbi dell’udito e del linguaggio, della vista e dei problemi della cecità; riviste che si occupano dei problemi di handicap mentale e motorio. Le istituzioni (suddivise in scuole di specializzazione, centri per la diagnosi e la riabilitazione, Associazioni e Protesisti) con relativi indirizzi, sono divisi per regioni, provincie e comuni. Chi desidera richiederlo può farlo a:
 ***Servizio di Consulenza Pedagogica***

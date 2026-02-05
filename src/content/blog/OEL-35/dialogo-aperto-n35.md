@@ -12,7 +12,8 @@ umap_x: 4.594206809997559
 umap_y: 8.201242446899414
 umap_z: 10.170207977294922
 issue_number: OEL-35
-id_numero: OEL-35
+id_numero: "OEL-35"
+numero_rivista: "Ombre e Luci"
 ---
 ### Date ai miei figli un po’ di questo mondo
 

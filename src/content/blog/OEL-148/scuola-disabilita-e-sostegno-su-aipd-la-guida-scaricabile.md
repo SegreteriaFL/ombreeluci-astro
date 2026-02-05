@@ -12,8 +12,9 @@ tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
 issue_number: OEL-148
+id_numero: "OEL-148"
+numero_rivista: "Ombre e Luci"
 ---
-
 Dall’Osservatorio Scolastico di AIPD [un utile vademecum](https://aipd.it/scuola/) per famiglie e operatori.
 
 L[**’AIPD** (Associazione Italiana Persone Down)](https://aipd.it) da tempo si occupa, attraverso il suo Osservatorio Scolastico, di offrire consulenza specifica sul tema dell’inclusione scolastica degli alunni con sindrome di Down (ma anche con altri tipo di disabilità). Frutto anche di questa lunga esperienza è la stesura della nuova Guida all’inclusione scolastica, che l’AIPD ha realizzato e messo a disposizione gratuitamente online a tutti gli utenti che volessero scaricarla. Grazie al formato elettronico, la guida può essere scaricata o consultata facilmente e sempre a portata di mano, così da rappresentare, per le famiglie ma anche per gli operatori, un utile vademecum per orientarsi nella materia.

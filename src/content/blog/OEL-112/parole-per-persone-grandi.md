@@ -15,8 +15,9 @@ umap_x: 6.622633934020996
 umap_y: 9.294601440429688
 umap_z: 9.770748138427734
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 Eil Signore soggiunse: «...Ma il Figlio dell'uomo, quando verrà, troverà la fede sulla terra?».
 
 Questa domanda contenuta nel Vangelo dello scorso 17 ottobre e la successiva omelia di un anziano, ma guarda un po', ancora gagliardo sacerdote, mi hanno fatto riflettere molto: “la fede non si sceglie una volta per tutte nella vita, ma si vive e rinnova ogni giorno” ... “se noi insegniamo ai nostri figli ad avere paura di tutto e degli altri, come faranno a fidarsi, affidarsi, avere fede?” ... “la razionalità, il ragionamento non aiuta a spiegare la fede, ma è l'amore che ci avvicina a capire” ... “l'amore e la preghiera sono per la fede come l'acqua e il nutrimento di una pianta, se mancano rischia di seccarsi”.

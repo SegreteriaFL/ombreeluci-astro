@@ -12,7 +12,8 @@ umap_x: 8.79881763458252
 umap_y: 11.021827697753906
 umap_z: 7.444189548492432
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 Appartiene o no la persona con disabilità al popolo di Dio? Ha, la persona con disabilità, un ruolo nel cammino che questo popolo è chiamato a fare? Nelle dense pagine di questo saggio corale (e provvidenzialmente sinodale) si avvia un dialogo che deve sempre più farsi familiare per la nostra vita cristiana per affrontare - e finalmente vivere – questi temi. Un dialogo che prende le sue mosse a partire dalla traduzione di un approfondimento di Justin Glyn sull’assenza di una teologia della disabilità, [già affrontato due anni fa ne La Civiltà Cattolica](https://www.laciviltacattolica.it/articolo/noi-non-loro-la-disabilita-nella-chiesa/) . Glyn, gesuita e non vedente, rimarca il senso della mancata riflessione nei protagonisti assenti; constatando, a partire dalla propria disabilità, il profondo e spesso non riconosciuto senso di separazione tra quel “noi” e “loro” che ha contraddistinto la percezione e l’azione cristiana nei confronti delle persone con disabilità. Rivendicando ora l’attiva condizione di peccatore, e non solo passiva di assistito, con lo stesso desiderio e bisogno di salvezza e cambiamento che caratterizza ogni cammino cristiano.
 

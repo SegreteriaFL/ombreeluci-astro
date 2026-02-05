@@ -16,7 +16,8 @@ umap_x: 7.103672981262207
 umap_y: 8.045807838439941
 umap_z: 7.22228479385376
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 “Si chiama **Horticultural Therapy** , HT per gli addetti ai lavori, giardino-terapia per gli italiani. E stata ideata dallo psichiatra inglese **Benjamin Rush** , e si propone di curare problemi psicologici, disturbi cognitivi e difficoltà motorie con piante e fiori. Americani ed inglesi sono i più grandi esperti in materia. La studiano e la applicano da anni. Da noi invece è una novità: l unico centro che si occupa della divulgazione dei principi teorici e della formazione di operatori professionali è HT Italia e si trova a Castellamonte, vicino a Torino". Così leggo nel supplemento di un noto quotidiano e penso tra me e me che allora i responsabili dell'Istituto [Don Guanella Femminile](http://www.casasantamariaroma.it/) di via della Nocetta sono stati davvero dei precursori per aver ideato e realizzato circa venti anni orsono, il cosiddetto “ **Laboratorio di giardino** ”, che ho visitato con Nicole proprio questa mattina.
 

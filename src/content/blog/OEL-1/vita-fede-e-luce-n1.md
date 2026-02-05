@@ -14,14 +14,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf"
 archive_id: OmbreELuci_001
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/1983/03/Archivio-Num.-1-1983-1.png"
 periodo_label: Gennaio, Febbraio, Marzo
-numero_rivista: 1
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-1
 umap_x: 8.100837707519531
 umap_y: 7.065741539001465
 umap_z: 11.95162296295166
+id_numero: "OEL-1"
 ---
-
 ### Campeggi estivi
 
 *Anche quest’anno, almeno per alcune comunità, la vita Fede e Luce è visibilmente continuata anche durante l’estate: da ogni città gruppi più o meno numerosi sono partiti in campeggio per condividere qualche giorno di vacanza, imparare a vivere insieme ed approfondire il senso di questa “vita insieme”.*

@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-106
-id_numero: OEL-106
+id_numero: "OEL-106"
+numero_rivista: "Ombre e Luci"
 ---
 Sono nato cieco a Lourdes (non sempre a Lourdes i miracoli sono quelli che si desiderano!)... I miei genitori sono pastori in alta montagna e questo credo abbia aperto il mio cuore al ringraziamento e alla contemplazione. A soli sei anni lascio la famiglia (genitori e quattro sorelle) per frequentare una scuola per ciechi. Mi sento lontano da loro. Più tardi sono integrato in una classe normale e poiché amo molto la musica entro al conservatorio di Bordeaux. In questo periodo mi sento inquieto, mi pongo molte domande sul senso della vita.
 

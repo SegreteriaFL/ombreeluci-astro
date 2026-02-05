@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "catalogo-ragionato-di-film-dedicati-al-tema-della-disabilita"
 lang: en
-numero_rivista: 59
-id_numero: OEL-59
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-59"
 issue_number: OEL-59
 wp_id: 11619
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 ---
-
 Questa prima lista di film è stata fatta da due studenti di cinematografia per Ombre e Luci.
 
 ### Fiction

@@ -4,8 +4,8 @@ date: 1997-03-26
 author: Pennablù
 slug: dedicato-ai-bambini
 lang: it
-numero_rivista: 57
-id_numero: OEL-57
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-57"
 issue_number: OEL-57
 wp_id: 11461
 original_url: "https://www.ombreeluci.it/?p=11461"
@@ -17,7 +17,6 @@ umap_x: 5.089773654937744
 umap_y: 7.821486473083496
 umap_z: 8.945083618164062
 ---
-
 U na giovane mamma di tre bambini, fedele lettrice di Ombre e Luci, ci ha chiesto, già da qualche tempo, di dedicare un piccolo spazio della rivista ai bambini più piccoli ed anche ai più grandicelli, perché possano condividere con i genitori la lettura dello stesso giornale e perché comincino a riflettere, in modo adeguato all’età, su problemi e situazioni forse già presenti nella loro realtà. La richiesta ci è sembrata interessante anche se non di facile realizzazione, e per questo abbiamo riflettuto parecchio prima di prendere la nuova iniziativa. Poi abbiamo deciso... sperando di poter dare davvero un piccolo aiuto anche in un campo così delicato! Su questo primo numero di Ombre e Luci dell’anno ’97 e su ciascuno degli altri che seguiranno nel corso dell’anno, comparirà un racconto breve, scritto in lingua semplice, ambientato nella scuola, che avrà per protagonisti bambini veri, attuali, a volte molto diversi tra loro, come accade in una scuola integrata. Vorremmo che tutti i figli, i nipoti, i piccoli amici dei nostri lettori leggessero queste poche pagine, illustrate da una bambina come loro, vorremmo che ne fossero interessati e che si divertissero anche un po’. Vorremmo anche che il papà, la mamma o uno dei nonni leggesse con loro e, se necessario, li aiutasse a capire il testo fino in fondo. Sarebbe molto bello se queste piccole storie (pubblicate come un inserto facilmente staccabile al centro della rivista) venissero, per una volta, lette anche a scuola con la maestra, nel gruppo di catechismo o in altre associazioni, sotto la guida di un adulto, perché tanti piccoli amici riflettano , senza annoiarsi, sul significato e sul valore dell’integrazione. E così per ora non ci resta che augurarvi «buona lettura», abbracciando in un unico grande abbraccio tutti i nostri futuri, numerosi, carissimi piccoli lettori, restando in attesa (ansiosa) dei commenti che vorranno mandarci.
 
 ### Marta

@@ -12,7 +12,8 @@ umap_x: 6.667392730712891
 umap_y: 9.146881103515625
 umap_z: 11.380016326904297
 issue_number: OEL-153
-id_numero: OEL-153
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
 «Ho pensato – racconta Eufemia – che ti devono bastonare veramente forte perché qualcuno si accorga di te. Non basta essere un po’ in ansia per i propri figli, la depressione non è contemplata, non è sufficiente alzarsi di cattivo umore per sperare che si fermi qualche samaritano». Eufemia Capobianco Giuliani, 74 anni, è stata uno degli attori del mimo della parabola del Buon Samaritano che ha illustrato il Vangelo letto durante la celebrazione online della Giornata mondiale della disabilità il 3 dicembre scorso. Ricorderete il mega-convegno sul web, voluto dalla [Cei](https://www.chiesacattolica.it/) , al quale hanno partecipato in Italia e all’estero migliaia di persone. Quello di preparare il mimo era stato uno dei compiti assegnati dagli organizzatori a Fede e Luce. Bisognava trovare un gruppo di persone che, in quanto conviventi, potessero recitare senza mascherina.
 

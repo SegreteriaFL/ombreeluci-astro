@@ -15,7 +15,8 @@ umap_x: 9.381425857543945
 umap_y: 8.205387115478516
 umap_z: 13.366055488586426
 issue_number: OEL-37
-id_numero: OEL-37
+id_numero: "OEL-37"
+numero_rivista: "Ombre e Luci"
 ---
 Queste pagine sono un ricordo per chi era a Lourdes e una testimonianza per chi non c'era. **Quattordicimila, tra persone con handicap mentali, genitori, amici sono venuti a Lourdes per la Settimana Santa 1991** . Sono venuti la maggior parte dall’Europa dell’Ovest e dell’Est, e anche dagli altri continenti. Sono venuti, molti, al prezzo di grande fatica, di sacrifici e in condizioni difficili. Sono venuti per sperimentare con gioia e per testimoniare l’unità dei cristiani, e dell’umanità: l’unità attorno ai «più piccoli» nello spinto delle Beatitudini, secondo la parola di Dio. Sono venuti a Lourdes perché qui venti anni prima era nata Fede e Luce, e perché è santuario di quella donna che duemila anni prima aveva risposto Sì a quel figlio così diverso dagli altri, così difficile da capire, già destinato a un grande patimento. Quel Sì che molti genitori continuano a dire, ogni giorno, malgrado tutto, fidando nella parola di Dio.
 

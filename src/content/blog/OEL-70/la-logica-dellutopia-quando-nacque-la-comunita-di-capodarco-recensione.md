@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 È noto l’impegno delle comunità di Capodarco non solo nel mondo dell’handicap, ma in ogni contesto dove l’uomo si pone interrogativi sulla sofferenza provocata dalle ingiustizie umane e si sente spinto a lottare perché la mentalità distorta dell’indifferenza e della separazione possa trasformarsi in giustizia e in collaborazione.
 

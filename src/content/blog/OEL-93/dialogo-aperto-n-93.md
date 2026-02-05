@@ -4,8 +4,8 @@ date: 2006-03-30
 author: Redazione
 slug: dialogo-aperto-n-93
 lang: it
-numero_rivista: 93
-id_numero: OEL-93
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-93"
 issue_number: OEL-93
 wp_id: 31442
 original_url: "https://www.ombreeluci.it/?p=31442"
@@ -15,7 +15,6 @@ umap_x: 4.425161361694336
 umap_y: 7.777181148529053
 umap_z: 10.482871055603027
 ---
-
 ### Quel 6 al SuperEnalotto!
 
 ...In questo paese non c'è un gruppo di volontari (anzi c'è un gruppo della Croce Rossa e sapete una cosa, lo scorso agosto che è entrato in funzione le signore prima di mettersi la divisa sono andate dal parrucchiere). Mia figlia non è affetta da nessun tipo di malattia infettiva, ma qui è come se lo fosse con queste persone e con il resto della popolazione perché io mi batto sempre per aver riconosciuto un suo diritto (al Comune mi chiamano. la "rompipalle" scusate il termine), perché vado sempre a chiedere qualcosa della quale ho saputo di aver diritto. Ma io vado avanti e conto solo sulle mie forze e quelle di mio marito e di mio figlio che è talmente legato a sua sorella che guai a chi gliela tocca a parole o a gesti. A volte sogno ad occhi aperti quel 6 al SuperEnalotto e allora non penso di aiutare nessuno del mio paese: al primo posto ci sono le amiche di Ombre e Luci a cui darei molti soldi così potrebbero aiutare persone come me che si trovano spesso in difficoltà. Ma questo è e resta un sogno. Però, chissà...!

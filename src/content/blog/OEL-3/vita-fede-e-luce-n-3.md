@@ -18,14 +18,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_003/Ombre-e-Luci-n.3.pdf"
 archive_id: OmbreELuci_003
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-707x1024.jpeg"
 periodo_label: Luglio – Agosto
-numero_rivista: 3
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-3
 umap_x: 7.838980197906494
 umap_y: 8.51865005493164
 umap_z: 13.69365406036377
+id_numero: "OEL-3"
 ---
-
 Indice: 1. [Incontri per una formazione comunitaria](#incontri) 2. [Siamo andati a Czestochowa](#Czestochowa) 3. [Roma Festa di Primavera](#Primavera) 4. [Ponte Lambro](#Lambro) 5. [Noi in colonna tutti giallo taxi](#Carovana)
 
 ### 1. Incontri per una formazione comunitaria

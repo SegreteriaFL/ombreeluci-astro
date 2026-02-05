@@ -6,6 +6,7 @@ theme: "cluster-2"
 cluster_id: 2
 slug: "quando-parliamo-di-loro"
 has_comments: false
+id_numero: "INS-5"
+numero_rivista: "Insieme"
 ---
-
 <!-- Contenuto da aggiungere -->

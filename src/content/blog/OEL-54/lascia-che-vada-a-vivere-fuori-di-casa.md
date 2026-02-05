@@ -4,8 +4,8 @@ date: 1996-06-14
 author: Redazione
 slug: lascia-che-vada-a-vivere-fuori-di-casa
 lang: it
-numero_rivista: 54
-id_numero: OEL-54
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-54"
 issue_number: OEL-54
 wp_id: 10671
 original_url: "https://www.ombreeluci.it/?p=10671"
@@ -15,7 +15,6 @@ umap_x: 5.576220512390137
 umap_y: 8.269834518432617
 umap_z: 8.852265357971191
 ---
-
 I genitori italiani troveranno in queste pagine frasi che forse li irriteranno, soprattutto perché le case famiglia restano un sogno... Eppure, crediamo che la lettura di queste riflessioni, scritte da una mamma, potranno almeno preparare lo stato d'animo che permetta di lasciare andare il proprio figlio o la propria figlia via da casa. E questo non all’ultimo momento... E forse, lo speriamo, aiuteranno quelli più intraprendenti, a decidere che è da loro che deve partire l’iniziativa, anche per smuovere chi dovrà provvedere in prima persona...
 
 Martino ha ventiquattro anni. E affetto da trisomia 21. Da bambino era vivacissimo, ma molto facile. Quando giunse all'adolescenza sapeva lavarsi e vestirsi. Lo sorvegliavo un po', ma non c’era bisogno d'altro. Ogni anno Martino ci lasciava per una quindicina di giorni. Mio marito ed io ne eravamo rattristati e poco entusiasti, ma imparavamo a vivere una rottura molto necessaria. Martino, per fortuna, affrontava bene queste separazioni. Non porta alcun beneficio tenere a casa nostro figlio, anche se sembra felice; per di più questo non ci prepara per il futuro. I figli normali a volte trascorrono il week end da una zia: perché non dovrebbero farlo i ragazzi disabili? Alla morte di mio marito avevo sessantacinque anni: soltanto allora mi resi conto che un giorno avrei dovuto affidare Martino ad altri. Sentii parlare di una casa famiglia e andai a una riunione dove avrei potuto ricevere qualche informazione. Non so quel che mi prese, ma domandai: «Potreste iscrivere Martino? Non subito, ma nei prossimi cinque anni». Mi fu risposto che c'era una lunghissima lista di attesa. Dissi: «Allora, se è possibile, iscrivetelo immediatamente». Non potevo più far marcia indietro. Piansi, quando tornai a casa. Avevo agito d’impulso, ma in realtà tutto questo stava nel mio subcosciente da anni e anni. Una parte di me sperava che Martino non sarebbe stato accettato e un’altra parte diceva: «Mio Dio, che farei se non me lo prendessero?» Mi sentivo in colpa. Non era come lasciarlo senza difesa? Mentalmente è ancora un bambino.

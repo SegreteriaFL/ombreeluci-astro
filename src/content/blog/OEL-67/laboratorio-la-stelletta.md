@@ -4,8 +4,8 @@ date: 1999-09-13
 author: Redazione
 slug: laboratorio-la-stelletta
 lang: it
-numero_rivista: 67
-id_numero: OEL-67
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-67"
 issue_number: OEL-67
 wp_id: 12905
 original_url: "https://www.ombreeluci.it/?p=12905"
@@ -18,7 +18,6 @@ umap_x: 8.355158805847168
 umap_y: 7.332064628601074
 umap_z: 9.445134162902832
 ---
-
 ### Per esempio Leggendo le riflessioni di [Jean Vanier](https://www.ombreeluci.it/jeanvanier/) su questa particolare maturità ci rendiamo conto che, per come li conosciamo, i ragazzi disabili intellettivi in generale, non sono in maggiori difficoltà ma quasi più pronti di noi ad intraprendere il cammino indicato. Questi ragazzi sanno, infatti, più di noi accettarsi serenamente con i loro limiti, senza porsi traguardi impossibili; sanno dare e ricevere l'amicizia che considerano un bene prezioso, l’unico quasi indispensabile. Si aprono agli altri senza infingimenti e riserve perché non conoscono rivalità e arrivismo. Pochi sanno come loro apprezzare le piccole cose e dimostrare gratitudine per le attenzioni che ricevono. Se questi modi di essere sono già quasi una loro naturale attitudine non è sbagliato pensare che nell'ambiente idoneo, guidati da persone attente e rispettose delle loro identità, possano a loro modo percorrere il cammino verso quella completezza della persona che Jean Vanier giudica come l’unica valida. Quasi per un augurio di buon anno lavorativo e per chiarire meglio cosa intendiamo per «luoghi di crescita» qui di seguito parliamo della «Stelletta», laboratorio di ceramica e varie attività.
 E
 ccoci di nuovo in Via della Stelletta dove, oltre al piccolo negozio con la vetrina multicolore, si apre oggi sul lato opposto della piazzetta il laboratorio di decorazione della ceramica e del legno, di

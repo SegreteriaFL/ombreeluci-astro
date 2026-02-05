@@ -12,7 +12,8 @@ umap_x: 7.09242057800293
 umap_y: 11.507198333740234
 umap_z: 5.080721378326416
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 Tanto veloce e forte appare la ripresa nonostante la nascita prematura che Sirio viene dimesso in anticipo di un mese rispetto al raggiungimento del peso minimo necessario (due chili). Dopo una sola settimana a casa però, ha un arresto cardiaco: manca il battito per 17 minuti. Minuti lunghissimi, terribili e devastanti in cui il papà, correndo all’ospedale più vicino, insuffla aria nei suoi piccoli polmoni e massaggia il torace microscopico. Lo insegue la madre (l’autrice, Valentina Perniciaro) cui «la morte continua ad apparire nei pochi sguardi che incrocia, prima che scappino». **Alla morte però viene strappato, tra le mani di una rianimatrice** che avverte subito i genitori: «Probabilmente non vi ho fatto un favore… – dice, e non consola – il danno cerebrale è quasi certamente devastante».
 

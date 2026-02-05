@@ -12,7 +12,8 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-36
-id_numero: OEL-36
+id_numero: "OEL-36"
+numero_rivista: "Ombre e Luci"
 ---
 ### ANFFAS
 

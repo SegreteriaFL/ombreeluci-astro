@@ -12,8 +12,9 @@ umap_x: 5.662195205688477
 umap_y: 7.322866916656494
 umap_z: 11.574434280395508
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Doveva essere una festa a sorpresa, e invece è stata **una sorpresa di festa.** Uno staff costituito per l’occasione, ha dato il meglio di sè, tanto da stupire al massimo i festeggiati.
 
 Parliamo di Alessandro e Lucia che in questo maggio hanno fatto il 25esimo di matrimonio. Sono volti conosciuti all’interno di Fede e Luce. Presenze importanti per il gruppo [***Raggi di sole* di Conselve (PD)**](https://www.fedeeluce.it/project/raggi-di-sole/) , da sempre promotori, animatori e per un periodo anche responsabili. Ma ritorniamo alla festa: come staff **volevamo fare qualcosa per loro, per far sentire la nostra presenza, amicizia, stima e affetto.** Nella semplicità, senza esagerazioni perché conosciamo i tipi, senza cerimoniali che per loro potevano dare disagio; doveva essere sobrio, bello e gioioso.

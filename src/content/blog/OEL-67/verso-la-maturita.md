@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "verso-la-maturita"
 lang: it
-numero_rivista: 67
-id_numero: OEL-67
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-67"
 issue_number: OEL-67
 wp_id: 12908
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 ---
-
 Da qualche anno a questa parte, ricercando legittimamente il benessere per le persone con un handicap, si parla molto della loro «normalizzazione». Se questo termine significa aiutarle ad andare in piscina, al cinema, in parrocchia, a comperare i loro vestiti e anche a vivere in un piccolo appartamento, può essere una cosa molto buona. Ma se «normalizzazione» significa che l'obiettivo primo è che divengano «autonomi» e «come tutti gli altri», si può allora avanzare qualche riserva.
 
 Ora siamo nel campo della filosofia che riguarda l'uomo, dell'antropologia. E sicuramente a questo proposito le opinioni divergono.

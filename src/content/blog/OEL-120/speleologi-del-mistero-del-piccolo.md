@@ -12,8 +12,9 @@ umap_x: 7.705604076385498
 umap_y: 9.098115921020508
 umap_z: 13.913554191589355
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il28 aprile di quest’anno presso il Collegio agostiniano di Santa Monica a Roma si è tenuta una giornata di formazione per gli assistenti spirituali di Fede e Luce. Sono intervenuti assistenti spirituali di diverse comunità della provincia Kimata ma anche di Mari e Vulcani, nonché altri religiosi legati in passato a FL.
 
 **L’esperto don Massimo Boarotto** (preziosissima anima consacrata dell’organizzazione insieme allo splendido anfitrione padre Alberto Bochatey) ci aveva avvisato: “I preti non amano molto essere formati perché lo fanno e lo hanno fatto molto”. Invece, evidentemente, lo spirito con cui questi quindici uomini e una donna si sono accostati all’incontro è stato diverso.

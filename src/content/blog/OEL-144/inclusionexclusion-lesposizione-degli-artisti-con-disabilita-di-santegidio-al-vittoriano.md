@@ -11,8 +11,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 In occasione della giornata internazionale delle persone con disabilità e in chiusura dell’Anno Europeo del Patrimonio Culturale, la Comunità di Sant’Egidio e il MIBAC inaugurano il 7 dicembre 2018 nelle Gallerie Sacconi del Vittoriano INCLUSION/EXCLUSION, una mostra che invita il pubblico a riflettere anche attraverso l’arte su una delle questioni emergenti nel mondo contemporaneo: quella dei processi contrapposti di esclusione e inclusione: isolamento / integrazione, indifferenza / solidarietà, respingimento / accoglienza, paure / dialogo.
 
 César Meneghetti e 52 artisti dei [Laboratori d’Arte della Comunità di Sant'Egidio](https://www.santegidio.org/pageID/30120/langID/it/ARTE-E-DISABILIT%C3%80.html) fanno giungere la loro voce su temi che inquietano e che interessano non solo l’Italia ma il mondo intero.

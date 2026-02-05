@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Non si arrendono e continuano ad allenarsi [i fratelli Dario e Franco Leo](https://www.ombreeluci.it/2021/quarantadue-chilometri-tra-bellizzi-e-new-york/), di cui oggi si racconta la storia pure attraverso le immagini. Il prossimo 7 novembre avrebbero dovuto percorrere in maniera assai particolare –**è Dario a spingere la carrozzella su cui Franco risulta prontissimo a gareggiare** – gli oltre 42 chilometri della maratona di New York; ma non avevano proprio messo in conto il perdurare delle restrizioni governative riguardanti tutti i cittadini dell’area Schengen e, quindi,**l’impossibilità di varcare i confini alla volta della Grande Mela.
 
 https://youtu.be/2iVS6H5S8Gw

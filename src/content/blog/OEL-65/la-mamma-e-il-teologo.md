@@ -4,8 +4,8 @@ date: 1999-06-16
 author: Manuela Bartesaghi
 slug: la-mamma-e-il-teologo
 lang: it
-numero_rivista: 65
-id_numero: OEL-65
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-65"
 issue_number: OEL-65
 wp_id: 12576
 original_url: "https://www.ombreeluci.it/?p=12576"
@@ -17,7 +17,6 @@ umap_x: 5.614320755004883
 umap_y: 9.28551197052002
 umap_z: 8.582196235656738
 ---
-
 Manuela, una mamma con un figlio già adulto, vive da diversi anni in una comunità che accoglie in affidamento bambini piccoli con gravissime disabilità ( [ce ne aveva parlato qui](https://www.ombreeluci.it/1997/la-nostra-casa/) ). Le parole “liberatrici” di un teologo, da lei ascoltate durante un convegno, ci invitano a rivedere, al seguito di Gesù, il nostro atteggiamento nei confronti del dolore innocente.
 
 Andavo a Montecatini al seminario di studio sulla “famiglia con il bambino sofferente” organizzato dal [**Bice**](https://bice.org/en/) ( *Bureau International Catholique de l’Enfance* ) e macinando i chilometri in autostrada cercavo di mettere a fuoco che cosa aspettarmi. L’anonimo bambino sofferente del seminario di studi per me aveva un volto ed un nome: due occhi azzurri, una zazzera bionda, due anni di speranze vissute giorno dopo giorno tra gioie e angosce. E Samuele. La comunità in cui vivo l’aveva accolto alla nascita e ci è stato dato di condividere la sua avventura fino al giorno della sua morte, qualche mese fa.

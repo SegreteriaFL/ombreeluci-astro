@@ -14,7 +14,8 @@ umap_x: 5.9357008934021
 umap_y: 10.092021942138672
 umap_z: 8.213106155395508
 issue_number: OEL-133
-id_numero: OEL-133
+id_numero: "OEL-133"
+numero_rivista: "Ombre e Luci"
 ---
 *Riconosciuta dalla Chiesa, questa fondazione atipica pone delle domande sul livello di consapevolezza della vocazione di una persona con disabilità mentale. Madre Lina, la superiora, e dom Jean Pateau, abate di Fontgombault e assistente spirituale della comunità, ci danno alcuni parametri di riferimento.*
 

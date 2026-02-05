@@ -14,7 +14,8 @@ umap_x: 6.734733581542969
 umap_y: 9.12550163269043
 umap_z: 11.614999771118164
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 Scrive la giovane mamma di un bambino autistico che non conosce Fede e Luce: “ *È il dono più difficile che la vita poteva darmi, ma senza chiedere mi dà tanto... Anche se ho avuto un altro destino di mamma, quello che conta è non sentirsi sole mai... Da mamma spero solo che il suo domani sia fatto di persone con un grande cuore* ”.
 

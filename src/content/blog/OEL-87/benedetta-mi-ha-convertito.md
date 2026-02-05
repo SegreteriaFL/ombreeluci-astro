@@ -4,8 +4,8 @@ date: 2004-09-13
 author: Redazione
 slug: benedetta-mi-ha-convertito
 lang: it
-numero_rivista: 87
-id_numero: OEL-87
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-87"
 issue_number: OEL-87
 wp_id: 30439
 original_url: "https://www.ombreeluci.it/?p=30439"
@@ -15,7 +15,6 @@ umap_x: 6.653342247009277
 umap_y: 9.583122253417969
 umap_z: 10.288437843322754
 ---
-
 Benedetta è entrata a casa dopo aver vissuto i suoi primi cinquanta giorni di vita in ospedale. Non tutto è stato risolto e non tutto potrà essere risolto. Ma va benissimo così! Provo a raccontare — piuttosto confusamente e con una serie di emozioni affastellate — una piccola storia di fede e di fedeltà. Benedetta — secondo i criteri oggi dominanti — non sarebbe dovuta nascere. La sua vita è ancor di più dono, speranza, verità, amore. Queste righe sono una “confidenza spirituale”,in amicizia.
 
 **Siamo abituati a pensare che le persone deboli, fragili, piccole, malate, abbiano bisogno di avere accanto uomini e donne forti in tutto e per tutto** . Ho fatto una scoperta: non è vero. L'esperienza mi ha insegnato, mordendomi la carne, che sono io ad avere bisogno di una persona debole, fragile, piccola, malata. Questa persona ha un volto e una storia. Il suo nome è Benedetta. È mia figlia.

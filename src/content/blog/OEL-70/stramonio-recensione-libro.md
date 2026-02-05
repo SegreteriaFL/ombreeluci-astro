@@ -14,7 +14,8 @@ umap_x: 7.578049659729004
 umap_y: 11.349457740783691
 umap_z: 5.314643859863281
 issue_number: OEL-70
-id_numero: OEL-70
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
 Seduto sul davanzale di una finestra, un ragazzo parla a due piccioni: è la finestra di un ospedale e i piccioni sono gli unici ad ascoltare la sua storia di piccolo uomo diverso dagli altri, da chi ha prestanza fisica, “ragazze e palloni” e pare possedere le cose, mentre lui legge, osserva e “sta con sé”, aprendo il suo sguardo stupito su un mondo che~gli si rivela pieno di incongruenze, alla ricerca della sua maturità. E di un lavoro, che sarà quello che nessuno vuole svolgere: la pulizia della città. Attraverso i rifiuti dell’esistenza degli altri si compie il suo percorso di crescita, perché lui vuole diventare uomo e conoscere il mondo. Lo aiutano gli amici della squadra, soprattutto il signor Lupo, suo capo e istruttore, un vero maestro di vita, ruvido e tenero, profondamente onesto, che gli darà il suo “nome da uomo”. Non più Paolino (“Che roba è? Vi sembra un nome da essere umano?”) ma Stramonio, lo stesso della pianta che cresce accanto ai rifiuti.
 

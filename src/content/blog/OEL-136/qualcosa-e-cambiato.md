@@ -12,8 +12,9 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-136
+id_numero: "OEL-136"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ricorrono anniversari importanti quest’anno per i diritti delle persone con disabilità: 25 anni della legge 104 in Italia “sull’assistenza, l’integrazione sociale e i diritti delle persone handicappate” e 10 anni dalla Convenzione dell’ONU sui diritti delle persone con disabilità. La strada sembra segnata e chiara perché le persone con disabilità possano trovare reale inclusione nella nostra società. Eppure constatiamo ancora molte difficoltà. Vittorio Scelzo, grazie alla lunga esperienza della Comunità di Sant’Egidio, condivide con noi alcune osservazioni molto importanti per avviare una riflessione sull’argomento, che vorremmo continuare nei prossimi numeri con l’aiuto di chi nel mondo della disabilità lavora e/o vive.
 
 Quali cambiamenti vediamo ancora necessari? Per alcuni genitori il concetto di assistenza deve essere superato in quello di esistenza: una persona non sente concretamente di poter essere membro attivo di una società, di una comunità, se il suo ruolo costituzionale è quello di essere solo e sempre un “assistito”. Così l’associazione Vedere Oltre lavora nel dialogo e nella formazione convinta della necessità di guardare ai bisogni delle persone con disabilità immaginandone l’intero arco della vita. Persone che, se pur dipendenti da altri, dovrebbero sempre poter realizzare loro stessi al meglio delle possibilità che hanno. Possibilità che i genitori devono poter essere aiutati a riconoscere.

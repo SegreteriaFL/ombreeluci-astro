@@ -12,7 +12,8 @@ umap_x: 6.262559413909912
 umap_y: 7.5353288650512695
 umap_z: 9.390783309936523
 issue_number: OEL-157
-id_numero: OEL-157
+id_numero: "OEL-157"
+numero_rivista: "Ombre e Luci"
 ---
 «Da anni viviamo accanto a persone che con la loro fragilità ci hanno insegnato ad avere verso gli altri uno sguardo diverso; loro ci hanno guidato alla ricerca non del merito della persona, ma dell’accoglienza di ognuno per quello che è, diverso da noi, certamente, difficile da capire… **Ci hanno insegnato a non fermarci alle apparenze, a schierarci in difesa della comprensione e del dialogo, a diffidare dei pregiudizi** », scriveva Mariangela Bertolini nel 2011.
 

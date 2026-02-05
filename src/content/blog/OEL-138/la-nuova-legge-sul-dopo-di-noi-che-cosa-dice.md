@@ -12,7 +12,8 @@ umap_x: 9.448549270629883
 umap_y: 7.765236854553223
 umap_z: 7.037818908691406
 issue_number: OEL-138
-id_numero: OEL-138
+id_numero: "OEL-138"
+numero_rivista: "Ombre e Luci"
 ---
 La Legge n. 112/2016 “Disposizioni in materia di assistenza in favore delle persone con disabilità grave prive del sostegno familiare”, cosiddetta “Legge del Dopo di Noi” è una buona legge nei principi e nelle finalità ma, visto anche il decreto attuativo del 23/11/2016, risulta manchevole nel fornire sufficienti strumenti di realizzazione.
 

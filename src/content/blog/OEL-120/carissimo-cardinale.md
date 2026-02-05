@@ -14,8 +14,9 @@ umap_x: 10.261871337890625
 umap_y: 9.651451110839844
 umap_z: 11.838054656982422
 issue_number: OEL-120
+id_numero: "OEL-120"
+numero_rivista: "Ombre e Luci"
 ---
-
 C
 arissimo Cardinale Martini, quanti discorsi si sono letti e sentiti su di te in questi giorni! Sono stati ricordati uno per uno episodi e scelte della tua vita, tante tue riflessioni sono apparse su quotidiani e riviste. Ora che un po’ di silenzio si è fatto nei media intorno alla tua persona, da questo piccolo giornale ci rivolgiamo a te con affetto e semplicità per dirti anche il nostro grazie.
 **Grazie per come ci hai accolto e ascoltato**

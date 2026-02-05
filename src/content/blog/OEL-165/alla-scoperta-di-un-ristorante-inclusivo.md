@@ -12,7 +12,8 @@ umap_x: 8.195985794067383
 umap_y: 7.241756439208984
 umap_z: 9.17666244506836
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 Era una domenica di aprile, il gruppo Fede e Luce di Cesano Boscone [*Messaggeri di gioia*](https://www.fedeeluce.it/project/messaggeri-di-gioia/) si trovava in oratorio San Giustino per il classico pomeriggio insieme. Mentre si davano gli avvisi al gruppo, Nives ci propone di andare a pranzo da **[*PizzAut*](https://www.pizzaut.it/)** . L’invito è allettante e diciamo subito di sì quindi Paolo si collega al sito delle prenotazioni e la prima data utile era… domenica 1 ottobre 2023! **Gli diciamo subito: blocca! Prenota per 15 persone! Poi si vedrà.** Il nostro stupore è stato che abbiamo prenotato con ben cinque mesi di anticipo: è proprio un posto rinominato e ricercato.
 

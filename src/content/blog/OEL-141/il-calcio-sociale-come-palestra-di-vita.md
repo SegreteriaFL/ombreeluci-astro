@@ -12,7 +12,8 @@ umap_x: 8.453822135925293
 umap_y: 6.046030044555664
 umap_z: 9.294443130493164
 issue_number: OEL-141
-id_numero: OEL-141
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
 Roma. Periferia di Corviale: un edificio di edilizia popolare alto 10 piani, lungo un chilometro, che ospita circa 4000 persone con centinaia di alloggi abusivi e altrettanti inquilini non autorizzati dall’ATER, l’ente che lo amministra. **Proprio qui, un luogo ad altissima tensione sociale, un gruppo di amici hanno accettato la sfida di portare una testimonianza di accoglienza, bellezza, spiritualità e sport. Tanto sport.**
 

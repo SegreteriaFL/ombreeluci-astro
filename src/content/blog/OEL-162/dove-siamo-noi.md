@@ -12,7 +12,8 @@ umap_x: 7.336941719055176
 umap_y: 6.750381946563721
 umap_z: 9.702341079711914
 issue_number: OEL-162
-id_numero: OEL-162
+id_numero: "OEL-162"
+numero_rivista: "Ombre e Luci"
 ---
 Un ideale giro per l’Europa, attraverso **tre esperienze di vita comunitarie accomunate dalla presenza di persone con disabilità intellettive,** è il viaggio che vi invitiamo a compiere con i tre articoli che compongono il focus di questo numero: da Cambridge a Lamezia Terme passando per Lviv… Quali caratteristiche le accomunano? Cosa propongono di tanto sconcertante per il mondo? Possono lasciarci intravedere una possibile declinazione di realtà finalmente lontana da distopie tanto alla moda o da preoccupanti scenari che vedono estinto il genere umano a causa dell’intelligenza artificiale?
 

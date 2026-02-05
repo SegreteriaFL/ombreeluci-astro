@@ -14,7 +14,8 @@ umap_x: 4.695552349090576
 umap_y: 8.179986953735352
 umap_z: 10.339978218078613
 issue_number: OEL-109
-id_numero: OEL-109
+id_numero: "OEL-109"
+numero_rivista: "Ombre e Luci"
 ---
 ### Chiamare per nome
 

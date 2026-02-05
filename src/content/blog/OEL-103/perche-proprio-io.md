@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-103
-id_numero: OEL-103
+id_numero: "OEL-103"
+numero_rivista: "Ombre e Luci"
 ---
 Mi ricordo molto bene il giorno in cui ho veramente preso coscienza del mio handicap. Mi trovavo nel giardino della ricreazione e una ragazza mi ha spinta in mezzo agli zainetti ammucchiati per terra, per vedere se sarei riuscita a rialzarmi. Tutti mi guardavano. Ero piena di vergogna. All’improvviso, la mia identità, il mio “io profondo”, ricevevano un colpo.
 

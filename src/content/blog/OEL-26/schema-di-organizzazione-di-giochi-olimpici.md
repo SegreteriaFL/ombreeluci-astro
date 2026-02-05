@@ -17,7 +17,8 @@ umap_x: 9.022980690002441
 umap_y: 9.252384185791016
 umap_z: 6.309712886810303
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 ### Il luogo
 

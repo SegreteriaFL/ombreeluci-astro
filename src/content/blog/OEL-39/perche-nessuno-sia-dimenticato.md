@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-39
-id_numero: OEL-39
+id_numero: "OEL-39"
+numero_rivista: "Ombre e Luci"
 ---
 Quanti bambini e ragazzi sono lasciati da parte perché considerati «non adatti» per il catechismo e non vengono aiutati a scoprire l’accoglienza incondizionata di Colui che è venuto a cercare ognuno di noi, a cominciare dal più rifiutato, dal più disprezzato, dal più povero?
 Di chi intendiamo parlare?

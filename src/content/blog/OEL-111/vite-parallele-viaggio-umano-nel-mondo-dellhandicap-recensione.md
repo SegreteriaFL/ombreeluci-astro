@@ -12,7 +12,8 @@ umap_x: 7.83006477355957
 umap_y: 10.48568344116211
 umap_z: 5.80966854095459
 issue_number: OEL-111
-id_numero: OEL-111
+id_numero: "OEL-111"
+numero_rivista: "Ombre e Luci"
 ---
 D
 enis Biondi è un educatore professionale che da quasi 20 anni ì lavora nel mondo dell'handicap. Questo libro è la testimonianza del i suo cammino professionale che intraprende con entusiasmo e serio | impegno. Affronta con semplicità e immediatezza ogni aspetto del lavoro con le persone disabili riflettendo in una maniera che sembre- na # rebbe scontata, ma in realtà è ricca perché frutto di anni di esperienza diretta sul campo. La preziosità di questo breve saggio (appena 133 pagine) è quella di fare una riflessione sull’attività quotidiana dell’educatore professionale; chi è nel settore sa bene come sia difficile “fermarsi e pensare” perché c'è sempre “troppo da fare”.

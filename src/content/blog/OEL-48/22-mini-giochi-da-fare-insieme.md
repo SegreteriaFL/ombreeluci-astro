@@ -14,8 +14,9 @@ umap_x: 9.015313148498535
 umap_y: 9.27479076385498
 umap_z: 6.30596399307251
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 Gioco1
 style="display:block" data-ad-client="ca-pub-2238371130141396" data-ad-slot="7382524354" data-ad-format="auto" data-full-width-responsive="true">
 Seconda parte di giochi ( [qui la prima](http://www.ombreeluci.it/1994/14-giochi-da-fare-insieme/) ) Mandateci le vostre osservazioni e anche altri giochi che risultino validi: faremo il prossimo anno un altro numero su attività e giochi di gruppo.

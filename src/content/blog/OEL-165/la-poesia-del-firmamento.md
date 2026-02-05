@@ -12,6 +12,7 @@ umap_x: 5.518301010131836
 umap_y: 9.04671573638916
 umap_z: 9.810566902160645
 issue_number: OEL-165
-id_numero: OEL-165
+id_numero: "OEL-165"
+numero_rivista: "Ombre e Luci"
 ---
 > *La poesia del firmamento* *io la faccio in un momento!* *Quando posso già cantare* *sono qui a reclamare* *la preghiera della sera* *è arrivata in corriera...*

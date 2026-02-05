@@ -14,7 +14,8 @@ umap_x: 6.905799865722656
 umap_y: 7.4301042556762695
 umap_z: 7.262744903564453
 issue_number: OEL-152
-id_numero: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
 «Ilmio compagno di banco» è il titolo del tema che quest’anno a scuola non verrà assegnato. La novità di questo autunno 2020, stravolto dal covid-19, da un’interruzione forzata della frequenza in persona, dalla scoperta della didattica a distanza e del progresso della tecnologia è rappresentata dai banchi monoposto. Per quest’anno niente tentativi di copiare, nessuna formula sussurrata a mezza bocca o scritta rapidamente a matita sul banco, niente pacche sulle spalle dopo un’interrogazione andata male o abbracci per un compito ben riuscito. Sarà una sensazione nuova, strana, che caratterizzerà questa “generazione covid”, ma non per tutti sarà una novità.
 

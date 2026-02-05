@@ -12,8 +12,9 @@ umap_x: 7.180340766906738
 umap_y: 8.100268363952637
 umap_z: 6.721107006072998
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 *La ricorrenza, istituita nel 2007 dall'Onu, si celebra con un'illuminazione speciale dei monumenti di tutto il pianeta. Lo scopo è aumentare la consapevolezza su una malattia le cui diagnosi sono ancora difficili e che crea difficoltà nell'inclusione di chi ne è affetto*
 Il 2 aprile il mondo si tinge di blu per la Giornata mondiale della consapevolezza sull’autismo,
 [istituita dalle Nazioni Unite nel 2007](http://www.un.org/en/events/autismday/)

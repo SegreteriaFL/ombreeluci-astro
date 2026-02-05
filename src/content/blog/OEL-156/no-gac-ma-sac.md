@@ -12,8 +12,9 @@ umap_x: 7.471085548400879
 umap_y: 8.262395858764648
 umap_z: 12.860909461975098
 issue_number: OEL-156
+id_numero: "OEL-156"
+numero_rivista: "Ombre e Luci"
 ---
-
 Tradizione vuole che ogni comunità dedichi una giornata all’anno a far conoscere Fede e Luce con attività o eventi particolari (vendita di torte, concerti, rappresentazioni teatrali, partite di calcio…), la cosiddetta GAC, un acronimo che a me non piace molto e che preferisco per esteso: **Giornata di Annuncio e Condivisione.** Si raccoglie in questo modo anche qualche contributo a sostegno del gruppo, di altre comunità sparse nel mondo e del movimento stesso. Quest’anno, come potete immaginare, non è stata possibile questa attività di “pubbliche relazioni” e con dispiacere abbiamo rinunciato all’autofinanziamento: addio nuove conoscenze e *new entries* in comunità; **addio fondi per organizzare un week end tutti insieme; addio sostegno per chi non riesce a pagare il campo estivo; addio raccolta per il grande pellegrinaggio a Lourdes per festeggiare i 50 anni di Fede e Luce Italia** .
 
 Ma un bel giorno, una mamma della comunità ha avuto la grande idea – anche un po’ pazza - di chiedere alla preside e all‘insegnante di sostegno della figlia, se fosse possibile organizzare **una distribuzione di uova di Pasqua all’interno della scuola** . È da qualche anno che la comunità si autofinanzia comprando in fabbrica uova di cioccolato per poi proporle agli amici, ma ora Celine suggeriva di farlo per tutta una scuola composta da ben tre plessi. Celine conosceva la grande sensibilità e apertura della Preside, io no. Con mia grande sorpresa, la preside, dott.ssa Vitaliano, non solo ha sposato di buon grado questo progetto ma, insieme alla prof.ssa Gaeta, referente degli insegnanti di sostegno, si è messa subito in moto e ha inviato una circolare ufficiale ai rappresentanti di tutti i tre plessi della scuola (Nitti, Ferrante Aporti e Mengotti), accompagnata da un messaggio scritto da Celine con la presentazione di Fede e Luce e della comunità di San Gaetano.

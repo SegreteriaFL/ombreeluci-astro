@@ -14,7 +14,8 @@ umap_x: 6.999302387237549
 umap_y: 9.18819522857666
 umap_z: 7.967895030975342
 issue_number: OEL-118
-id_numero: OEL-118
+id_numero: "OEL-118"
+numero_rivista: "Ombre e Luci"
 ---
 **Ciao Pietro, ti presenti ai nostri lettori?** Sono un invalido civile di 42 anni, menomato da un grave handicap motorio. Sono infatti affetto da artrogriposi congenita, artrosi, artriti, osteoporosi, fibromialgia, rilascio anomalo di calcio dalle ossa, tendinopatie e molteplici ‘esiti’ da poli-traumi della strada. Abito a Trieste e, salute permettendo, faccio attività di volontariato dal 1987 riconoscendomi nella sensibilità, nei valori e nella metodologia d’azione nonviolenta del Nuovo Umanesimo siloista. Da due anni promuovo la nondiscriminazione, specialmente tra i normo-considerati e gli handicappati, attraverso iniziative locali ma con almeno un evento annuale capace di attrarre l’attenzione delle Istituzioni, delle associazioni, dei media e sopratutto delle persone. Il resto del tempo mi vede impegnato a curarmi ed a partecipare e organizzare iniziative di informazione e sensibilizzazione a Trieste ed in Regione.
 

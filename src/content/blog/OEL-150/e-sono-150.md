@@ -12,7 +12,8 @@ umap_x: 4.954832077026367
 umap_y: 6.713265895843506
 umap_z: 9.566691398620605
 issue_number: OEL-150
-id_numero: OEL-150
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
 C
 entocinquanta numeri di Ombre e Luci, tappa da segnare in un viaggio speriamo ancora lungo e ricco di incontri. Storie, parole, linguaggi e immagini che cerchiamo con cura per ogni numero della rivista, per raccontare quanto sia necessario essere in relazione, nella convinta volontà di non lasciare indietro alcuno. Ombre e Luci

@@ -14,7 +14,8 @@ umap_x: 8.024426460266113
 umap_y: 7.1692070960998535
 umap_z: 11.898761749267578
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 Eravamo in tanti. Fede e Luce a Milano era nata da poco, ma l’amicizia si era creata subito e si stava bene assieme. La sistemazione era di fortuna (non parliamo di letti o di materassi), ma il giardino e la spiaggia privata proprio sul lago erano bellissimi.
 

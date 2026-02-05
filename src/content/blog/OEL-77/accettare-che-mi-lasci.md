@@ -4,8 +4,8 @@ date: 2002-03-09
 author: Marie Hélène Mathieu
 slug: accettare-che-mi-lasci
 lang: it
-numero_rivista: 77
-id_numero: OEL-77
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-77"
 issue_number: OEL-77
 wp_id: 23844
 original_url: "https://www.ombreeluci.it/?p=23844"
@@ -17,7 +17,6 @@ umap_x: 6.19231653213501
 umap_y: 8.118240356445312
 umap_z: 8.658415794372559
 ---
-
 Anna, una vecchia amica, mi ha chiesto un appuntamento urgente. L’ho sentita molto angosciata. **Domani dovrà prendere una decisione che le spezzerà il cuore** : dire sì o no all’ingresso di Michele in una comunità alloggio per adulti disabili mentali dove aveva fatto domanda tre anni fa: c’era una lunga lista d’attesa. Finalmente un posto si è liberato. Il direttore della casa propone un primo soggiorno di prova per la settimana prossima. Anna dovrebbe esser contenta. Invece è piena di angoscia.
 
 **Michele ha quarant’anni. Non ha mai lasciato la casa** . Dopo la morte del papà, nonostante difficoltà e sofferenze, è diventato la consolazione della mamma. La sua presenza è piena di affetto. I suoi gesti sono spesso maldestri. Ma il suo desiderio di rendersi utile è veramente commovente, come quando va a prendere un piatto in cucina perché la mamma non si debba alzare. A volte ha il broncio o un momento di collera, ma passano subito. Ogni sera, è lui che prende sempre l’iniziativa: “Adesso, preghiera!” Accende una candela. Spesso comincia con dieci Ave Maria. Poi, sciorina le sue intenzioni. Anche Anna ne aggiunge qualcuna, ma non dice mai quella che le sta più a cuore: l’avvenire di Michele quando lei non ci sarà più. Da tanto tempo questa cosa la tormenta. Praticamente dalla nascita del figlio.

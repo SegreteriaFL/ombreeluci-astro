@@ -1,15 +1,23 @@
 ---
 id: "INS-5"
-title: "Insieme n.5 - Bollettino Fede e Luce"
+title: "Insieme n.5 – Bollettino Fede e Luce"
 tipo: "insieme"
 numero: 5
-anno: "1975"
+sort_order: 5
+pubDate: "1975-04-01T00:00:00Z"
 data_pubblicazione: "Aprile – Maggio 1975"
 sommario: "Insieme n.5 – Bollettino Fede e Luce ultima modifica: 1975-05-03T10:29:55+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/1975/05/insieme5.jpg"
 link_sfoglia: "https://archive.org/details/insieme-05_202008"
 link_pdf: "https://archive.org/download/insieme-05_202008/insieme-5.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-5-bollettino-fede-e-luce/"
+articoli:
+  - "ombra-e-luce"
+  - "gli-amici-dei-bimbi-reparto-gesu-bambino-istituto-santeusebio-vercelli"
+  - "giovanissimi-insieme-n-5"
+  - "quando-parliamo-di-loro"
+  - "programma-del-pellegrinaggio-a-roma-del-1975"
+  - "come-dire-di-si"
 ---
 
 ## Indice

@@ -12,8 +12,9 @@ tema_code: "T09"
 tema_label: "Corpo, salute, cura e assistenza"
 categoria_menu: "Cura"
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 *Geriatra a l’ospedale Saint-Germanen-Laye, specialista nei problemi della memoria, la dottoressa Béatrix Paillot, ci consegna il frutto della sua esperienza di cura delle persone anziane, esperienza illuminata dalla sua fede.*
 Qual è la cosa più importante per la qualità della cura?
 L'ascolto è un punto essenziale. Degli studi americani hanno mostrato che in media un medico lascia esprimere una persona anziana per diciotto secondi, prima di interromperla. Si sa bene che queste persone sono lente nel parlare, questo tempo sembra veramente poco.

@@ -12,8 +12,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ho incontrato Susi, sorella di Maurizio, deceduto 3 anni fa: **il fratello era il tutto per lei, anche se si è fatta una famiglia propria. Ha dato e fatto tutto quello che ha potuto, senza riserve.** E improvvisamente se ne é andato lasciando un grande vuoto in lei. Mi ha confidato poco tempo fa un fatto, che le è successo dopo la morte di Maurizio; ha trovato una persona che, con poca delicatezza le ha detto: «Adesso sei libera, cosa fai?»
 
 *Adesso sei libera*. È vero che con Susi ho parlato poco negli anni, anche se ci conosciamo da sempre, ma**non mi risultava fosse prigioniera del fratello Maurizio! **Quella frase mi ha fatto molto pensare, e l’ho anche applicata a me, chiedendomi se appunto mi sento prigioniera nel mio essere sorella di Giorgio e Cristina. Ma mi sono anche chiesta: che cos’è la libertà? Cosa rende liberi? E la persona che ha detto quella frase a Susi, sapeva di cosa parlava? Conosceva veramente? O ha semplicemente parlato trasmettendo un sentimento proprio, cioè che lei stessa vivrebbe con fatica insieme ad una persona con disabilità? Non importa, e non sta a me dire ciò che è giusto o sbagliato nella sua espressione, e quali possono essere stati i suoi sentimenti veri.

@@ -12,7 +12,8 @@ umap_x: 7.001986503601074
 umap_y: 11.143393516540527
 umap_z: 4.7109198570251465
 issue_number: OEL-154
-id_numero: OEL-154
+id_numero: "OEL-154"
+numero_rivista: "Ombre e Luci"
 ---
 Èil diario di un padre che scopre suo figlio? Di una madre che, timidamente, impara a conoscerlo? O è forse **la storia di un undicenne con autismo che riesce finalmente a entrare – a suo modo – in comunicazione con il mondo?** In realtà, dice la terza di copertina, il romanzo in oggetto è il thriller con cui, a dieci anni dall’uscita di *Uomini che odiano le donne* , il giornalista e scrittore svedese David Lagercrantz si lancia nella ambiziosa sfida di proseguire la ormai celebre saga di Stieg Larsson, prematuramente scomparso. Non che sia scontato mettersi sulla scia di uno dei più clamorosi fenomeni editoriali degli ultimi anni, con oltre 80 milioni di copie vendute nel mondo, eppure si può sostanzialmente dire che a Lagercrantz e al suo *Quello che non uccide* (Marsilio 2015, traduzione di Laura Cangemi e Katia De Marco) l’impresa riesca.
 

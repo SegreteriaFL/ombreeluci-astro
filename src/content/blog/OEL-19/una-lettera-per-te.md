@@ -16,7 +16,8 @@ umap_x: 5.099770545959473
 umap_y: 7.343591690063477
 umap_z: 9.344136238098145
 issue_number: OEL-19
-id_numero: OEL-19
+id_numero: "OEL-19"
+numero_rivista: "Ombre e Luci"
 ---
 A te, mamma, papà, fratello, sorella, amico, sacerdote, suora, dottore, terapista... che leggi abitualmente
 *Ombre e Luci*

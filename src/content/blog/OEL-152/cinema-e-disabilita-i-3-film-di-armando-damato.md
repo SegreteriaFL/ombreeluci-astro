@@ -12,8 +12,9 @@ tema_code: "T14"
 tema_label: "Cinema e disabilità"
 categoria_menu: "Cultura"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 # Cinema e disabilità: i 3 film di Armando D'Amato
 
 ## Abbiamo chiesto ad alcuni critici e appassionati di cinema di elencare 3 film che affrontano il tema della disabilità. Armando D'Amato ha scelto questi.

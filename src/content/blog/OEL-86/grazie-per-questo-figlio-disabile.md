@@ -4,8 +4,8 @@ date: 2004-06-13
 author: Redazione
 slug: grazie-per-questo-figlio-disabile
 lang: it
-numero_rivista: 86
-id_numero: OEL-86
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-86"
 issue_number: OEL-86
 wp_id: 30347
 original_url: "https://www.ombreeluci.it/?p=30347"
@@ -15,7 +15,6 @@ umap_x: 5.34473180770874
 umap_y: 9.06572437286377
 umap_z: 8.802248001098633
 ---
-
 Q
 uante volte a noi, genitori di figli disabili, è
 *scappata*

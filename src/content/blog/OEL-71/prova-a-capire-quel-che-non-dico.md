@@ -14,7 +14,8 @@ umap_x: 5.684271812438965
 umap_y: 9.030717849731445
 umap_z: 9.49279499053955
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 Puoi ascoltare quello che non dico? Te ne prego, in nome di Dio. Non farti ingannare dal mio aspetto perché io indosso mille maschere diverse e nessuna rappresenta il mio vero io. Non lasciarti ingannare, in nome di Dio, te ne prego.
 

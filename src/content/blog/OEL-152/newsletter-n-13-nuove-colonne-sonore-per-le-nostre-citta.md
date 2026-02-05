@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Nulla è più punitivo che dare a una malattia un significato – perché quel significato sarà invariabilmente moralistico» scriveva Susan Sontag nel lontano 1978. Nel bel mezzo di questa crisi sanitaria globale che travolgendo il nostro presente sta allungando la sua ombra sul nostro futuro, le parole dell’intellettuale statunitense tornano a interrogarci. Ora che stanno cambiando tante cose, innanzitutto le colonne sonore delle nostre città, e delle nostre preghiere – [compresa quella storica](https://www.ombreeluci.it/2020/sulla-barca-in-piazza-san-pietro/) del Papa il 27 marzo che Giulia Galeotti commenta.
 
 Dal nord, i racconti sono di un silenzio irreale squarciato di continuo dalle sirene delle ambulanze; dal sud, nella plastica quiete si spandono suoni (come il rintocco delle campane o il cinguettio degli uccellini) fino a ieri inghiottiti dal caos. Difficilmente avremmo immaginato di sentire passare auto con il megafono accesso che non fosse il fastidioso arrotino: eppure, quanto daremmo per sentirlo di nuovo nel suo anacronistico appello, al posto della voce metallica che ci intima (giustamente) di non uscire.

@@ -14,7 +14,8 @@ umap_x: 5.642882347106934
 umap_y: 9.898442268371582
 umap_z: 7.642864227294922
 issue_number: OEL-45
-id_numero: OEL-45
+id_numero: "OEL-45"
+numero_rivista: "Ombre e Luci"
 ---
 «Chicco è davvero un bambino fortunato»! Queste parole dette qualche tempo fa dal mio medico di famiglia mi spingono ad esprimere qualche riflessione sulla mia esperienza di mamma di un ragazzo con handicap. Sì, Chicco, il bambino «fortunato», è un ragazzo sedicenne con sindrome di Down, una malformazione alla mano destra e problemi dovuti a una cardiopatia congenita. Se il medico si fosse espresso così 16 anni fa, lo avrei preso per pazzo e forse avrei reagito con violenza, perché anch’io, come tutti i genitori che scoprono di avere un figlio «diverso», ho attraverato periodi di sconforto e di ribellione. Oggi però, dopo 16 anni di lungo cammino insieme a lui, comprendo il significato di questa frase, perché Chicco è oggi un ragazzo sereno che vive in una famiglia serena. Ha i suoi impegni e i suoi interessi, è socievole con tutti e certo non gli mancano gli amici. In famiglia si vive una vita «normale»: il papà lavora come dirigente industriale, io insegno nella scuola media, i due fratelli frequentano l’università, Chicco frequenta un centro-servizi delle ACLI. Quando facciamo un viaggio o una vacanza, Chicco è sempre con noi; al ristorante, in albergo, in casa di amici o conoscenti sta con noi senza problemi. Per noi Chicco oggi è un figlio, non un problema quotidiano da affrontare con sofferenza.
 > Chicco è un ragazzo sereno, è socievole con tutti e non gli mancano gli amici

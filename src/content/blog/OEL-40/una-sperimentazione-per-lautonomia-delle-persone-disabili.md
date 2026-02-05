@@ -12,8 +12,9 @@ umap_x: 7.90831995010376
 umap_y: 10.246223449707031
 umap_z: 6.118173599243164
 issue_number: OEL-40
+id_numero: "OEL-40"
+numero_rivista: "Ombre e Luci"
 ---
-
 Con la consapevolezza dell’importanza degli ausili tecnici nel vasto e complesso processo di riabilitazione e integrazione sociale delle persone con le disabilità più gravi il Servizio Informazioni e Valutazioni Ausili (SIVA) presenta i risultati di un progetto di sperimentazione per la fornitura, la personalizzazione e l’addestramento all’uso di tali ausili nel proprio domicilio. «Il SIVA è nato nel 1980 da una collaborazione tra la Fondazione Pro Juventute Don Carlo Gnocchi di Milano, il Centro di Bioingegneria ed il Centro Studi e Consulenza Invalidi, con il patrocinio della Regione Lombardia. La sua équipe interdisciplinare svolge un servizio di consulenza aperta a persone disabili ed a operatori del settore sulle soluzioni di adattamento dell’ambiente di vita e sulla scelta degli ausili tecnici più appropriati ai singoli casi. Ha creato e gestisce una banca dati computerizzata sugli ausili tecnici esistenti sul mercato, sulle aziende, centri e associazioni che operano nel settore della disabilità, sulle normative in favore delle persone disabili e su una selezionata bibliografia del settore».
 
 #### Articoli

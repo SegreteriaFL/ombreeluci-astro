@@ -14,7 +14,8 @@ umap_x: 9.495731353759766
 umap_y: 8.804158210754395
 umap_z: 12.115851402282715
 issue_number: OEL-14
-id_numero: OEL-14
+id_numero: "OEL-14"
+numero_rivista: "Ombre e Luci"
 ---
 Siamo venuti qui ad Assisi per seguire San Francesco.
 **Il segreto di Francesco è di scendere le scale, per incontrare la persona più povera.**

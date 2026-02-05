@@ -14,8 +14,9 @@ umap_x: 9.175662994384766
 umap_y: 7.945549964904785
 umap_z: 12.9775390625
 issue_number: OEL-50
+id_numero: "OEL-50"
+numero_rivista: "Ombre e Luci"
 ---
-
 *D opo la presentazione del P. Michel Charpentier sono intervenuti la sig.na Francesca Cremonesi (direttrice di un centro per gravi di Piacenza) la sig.na Valeria Levi della Vida (studentessa in medicina), la sig.ra Menegottio (mamma di un ragazzo handicappato), il Dott. Sergo (specialista neuro psichiatra), il sig. Jean Vanier (fondatore di Fede e Luce).* *Non potendo trascrivere qui per intero tutti gli interventi, riportiamo in parte quello di Valeria Levi e di Jean Vanier.*
 
 ### Valeria

@@ -12,8 +12,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: INS-23
+id_numero: "INS-23"
+numero_rivista: "Insieme"
 ---
-
 Che cos'è un Katimavic? È un momento di incontro fra tutti coloro che cercano, a diversi livelli, e che si mettono insieme per ascoltare il Signore e il suo insegnamento.
 
 Infatti, siamo tutti invitati al vero incontro con Gesù, fonte d'amore:

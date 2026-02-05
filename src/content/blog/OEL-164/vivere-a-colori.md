@@ -12,8 +12,9 @@ umap_x: 8.218884468078613
 umap_y: 5.997464656829834
 umap_z: 10.715362548828125
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quest'anno l'esperienza del campo l'ho vissuta in modo diverso. Forse perché ero reduce da un'esperienza molto forte (ossia la [Piccola Marcia](https://www.ombreeluci.it/2023/piccola-marcia/) ) e già le emozioni che avevo vissuto erano fortissime... ma il campo è stato soltanto una piccola conferma di sensazioni già provate. Dal 3 al 9 settembre ho vissuto questo bellissimo campo e ho ritrovato tutti quelli che una volta erano bambini come adulti e sono rimasta basita. Non pensavo, conoscendo il modo di vedere degli adolescenti di oggi, che un giorno avrebbero fatto loro un campo senza adulti. Quando mi sono resa conto che il campo era gestito da loro e di adulti c'erano soltanto Costanza, Filippo e Massimo (c'era anche Michela in effetti, però diciamo era soltanto perché aveva le bambine piccole), mi ha colpito molto. Vedere queste persone che una volta erano bambini, crescere e maturare la consapevolezza che c'è bisogno di loro.
 
 Bisogna dare più fiducia ai giovani e lasciarli fare, fargli conoscere il mondo della disabilità. Il nostro campo aveva come titolo "Vivere a colori" quindi volevamo togliere tutto questo grigio e nero che c'è intorno a noi. La maggior parte delle volte leggiamo sui titoli di cronaca cose brutte, cose che non ci piacciono, e quindi con il titolo "Vivere a colori" si voleva dare una speranza nuova. E questi adolescenti sono davvero una speranza: non me la sarei aspettata di vedere proprio loro che si rendevano utili per cambiare la società di oggi. Mi ha veramente stupito vederli con i loro i primi affidamenti e le loro prime responsabilità.

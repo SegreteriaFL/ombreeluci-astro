@@ -12,8 +12,9 @@ umap_x: 5.892297744750977
 umap_y: 6.188007831573486
 umap_z: 8.80351734161377
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 D
 opo quel lungo pianto, mi sono sentita svuotata di tutto, persa, sola. Ma alla sera presi una decisione»: con parole forti e poetiche insieme, nel 1974 Mariangela Bertolini raccontava
 [il suo passaggio](https://www.ombreeluci.it/1974/la-paura-degli-altri/)

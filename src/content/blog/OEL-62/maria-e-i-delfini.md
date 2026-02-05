@@ -4,8 +4,8 @@ date: 1998-06-17
 author: Nicole Schulthes
 slug: maria-e-i-delfini
 lang: it
-numero_rivista: 62
-id_numero: OEL-62
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-62"
 issue_number: OEL-62
 wp_id: 12196
 original_url: "https://www.ombreeluci.it/?p=12196"
@@ -15,7 +15,6 @@ umap_x: 6.773984909057617
 umap_y: 8.250165939331055
 umap_z: 7.010979652404785
 ---
-
 Idelfini possiedono veramente la capacità di aiutare a far fronte ad alcuni gravi disturbi psichici, quali l'autismo e la depressione? Da qualche anno, il delfinario di Rimini accoglie - in periodi e orari determinati e sotto la direttiva di personale specializzato - bambini autistici e persone con gravi depressioni. L'idea di far nuotare queste persone in compagnia dei delfini è venuta, per caso, quindici anni fa, negli Stati Uniti. E’ apparso, infatti, da subito, che questi animali intelligenti, amanti del gioco e amici dell'uomo, con la loro presenza, i loro movimenti, il loro approccio, avevano un effetto benefico sulle persone in grave situazione di isolamento e di tensione. Questa osservazione ha portato a mettere in atto e a sviluppare questa pratica e le nuove osservazioni continuano a confermare le prime impressioni. Perché?, Come mai? In che modo?
 
 Nessuno sa ancora spiegare con precisione che cosa accade tra i delfini e le persone in difficoltà; ma l'effetto di distensione, la sensazione di benessere, l'impressione di rivitalizzazione sembrano elementi validi per sussidiare terapie generalmente difficili. Maria è andata a Rimini a nuotare con i delfini. Maria, 23 anni, è molto chiusa nel suo autismo e sembra costantemente in preda alla tensione e alla paura, che la portano spesso a crisi di urla e di auto-aggressività. Ci son voluti tre giorni a Maria per entrare nel bacino con i delfini. Sa nuotare da molto tempo, ma...la novità, le paure, qualche cos’altro...aveva bisogno di tempo.

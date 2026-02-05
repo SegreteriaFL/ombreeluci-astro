@@ -15,7 +15,8 @@ umap_x: 8.14089584350586
 umap_y: 7.436161041259766
 umap_z: 9.048595428466797
 issue_number: OEL-9
-id_numero: OEL-9
+id_numero: "OEL-9"
+numero_rivista: "Ombre e Luci"
 ---
 *Crescere insieme*
 è il nome dell’associazione. Vive presso la parrocchia di Cristo Re in Viale Mazzini a Roma. Il primo incontro con loro però è in una casa privata. Lì troviamo una decina di donne giovani e mature, portatrici di handicap, con sei sette stoffe, fili e lane, oggetti artigianali. Intanto scherzano, scambiano battute, si prendono allegramente in giro. Il clima è cordiale, ognuna fa secondo quel che può, nessuna è lasciata da parte. Più tardi faranno merenda. Si incontrano qui tutti i venerdì alle 17. I lavori fatti durante l’anno vanno in una mostra-mercato che si tiene in parrocchia la prima o seconda domenica dopo Pasqua. Il ricavato della vendita è impiegato in un piccolo salario uguale per tutte quelle che hanno lavorato: è un piccolo ma significativo aspetto educativo. Ne viene inoltre l’occasione di un contatto con la comunità parrocchiale, non molto interessata alla presenza delle persone handicappate, le quali per altro vengono quasi tutte da altri quartieri.

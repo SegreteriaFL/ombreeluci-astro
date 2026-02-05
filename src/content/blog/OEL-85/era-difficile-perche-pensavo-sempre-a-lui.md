@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "era-difficile-perche-pensavo-sempre-a-lui"
 lang: it
-numero_rivista: 85
-id_numero: OEL-85
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-85"
 issue_number: OEL-85
 wp_id: 30022
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
-
 Giulio è un po' più grande di me, che ho quarant'anni. Siamo amici da tanto tempo, ma quando suo papà è morto io l’ho saputo molto dopo, perchè da un po', loro due così importanti per il gruppo di Fede e Luce, non venivano più agli incontri. Così quando mi hanno chiesto di scrivere un articolo per Ombre e Luci ho subito pensato a Giulio; ho pensato che avrebbe avuto qualcosa di importante da dire e in un tranquillo pomeriggio di inverno abbiamo fatto una grande chiacchierata dalla quale sono nati questi suoi pensieri. (A.A.P.)
 
 Da molto giovane ho imparato da lui come dovevo fare per guidare una barca a motore, una lunga barca a motore con motore *Seagull*. Negli anni successivi abbiamo continuato ad andare al Circeo nella nostra casa che ci aveva regalato il nonno. Poi abbiamo avuto anche una barca a vela e così una barca da pesca mio padre aveva.

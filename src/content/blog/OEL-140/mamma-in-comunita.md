@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-140
+id_numero: "OEL-140"
+numero_rivista: "Ombre e Luci"
 ---
-
 Essere una mamma di Fede e Luce, non significa essere la mamma del proprio figlio con cui si frequenta un gruppo di Fede e Luce, ma divenire un po’ alla volta una mamma per tutti i ragazzi, specie per quelli che, per sopraggiunti limiti di età ed acciacchi, la loro mamma l’hanno persa in questo mondo, ma la ritroveranno nell’altro. Sono 12 anni che frequento Fede e Luce e, senza accorgermene, è divenuta una famiglia allargata… Mamma per i ragazzi, ma anche loro amica e confidente; amica degli amici, ma anche loro sorella e mamma; amica delle altre mamme, sostegno e conforto reciproco, senza veli e pudori. Qualche tempo fa una di loro un po’ più avanti negli anni, ha dovuto prendere atto di non essere più in grado di dare assistenza al proprio figlio perché non riusciva neanche più a provvedere a sé stessa. Aveva gli occhi colmi di lacrime, mentre confessava la sua incapacità, quasi a volersi giustificare affinché nessuno potesse pensare che lo stava abbandonando. Era un po’ come vedersi proiettati in un futuro prossimo e neanche poi tanto lontano...
 
 È inevitabile, in questi casi, pensare a cosa succederà al proprio figlio, dopo... e neanche, a questo punto, quando il Signore vorrà, ma anche inevitabilmente, quando il nostro orologio biologico comincerà inesorabilmente a perdere colpi.

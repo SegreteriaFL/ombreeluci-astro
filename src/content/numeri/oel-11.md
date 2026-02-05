@@ -1,15 +1,27 @@
 ---
 id: "OEL-11"
-title: "Numero 11 - Casa famiglia. Sogno o realtà?"
+title: "Numero 11 – Casa famiglia. Sogno o realtà?"
 tipo: "ombre-e-luci"
 numero: 11
-anno: "1985"
+sort_order: 110
+pubDate: "1985-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 1985"
 sommario: "Casa famiglia, sogno o realtà? Per ogni genitore di un figlio con disabilità, il pensiero di quando non saranno più in grado di seguire i loro figli è causa di angoscia e trepidazione. Alcuni genitori condividono con noi le loro speranze per il futuro. E scopriamo alcune esperienze già avviate (Cascina Nibai, Villa Olmo, Villa Pizzone, La casa di Gino) per immaginare una strada possibile per alcuni. Ricordando che non tutto è buono per tutti."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_11_1985.jpg"
 link_sfoglia: ""
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-11-casa-famiglia-sogno-realta/"
+articoli:
+  - "ombre-luci-n-11-1986-sfogliabile"
+  - "casa-famiglia-sogno-realta"
+  - "come-sogni-il-futuro-dei-tuoi-figli-alcuni-genitori-rispondono"
+  - "cascina-nibai-cooperativa-fraternita"
+  - "villa-olmo-abitando-insieme-sette-ragazze-suora"
+  - "villa-pizzone-cancello-aperto"
+  - "la-casa-gino-interessante-colonia-agricola"
+  - "la-sfida-dellarca"
+  - "vita-fede-e-luce-n-11-un-campeggio-rocca-papa-ora-comincia-bello"
+  - "la-sfida-dellarca-recensione"
 ---
 
 ## Indice

@@ -12,8 +12,9 @@ umap_x: 7.159966945648193
 umap_y: 10.375445365905762
 umap_z: 4.787269592285156
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Èdifficile spiegare a parole cos’è l’autismo. **A volte il modo migliore per capire una cosa è sporcarsi le mani** … E allora gira pagina, ti aspetta un mese pieno di sfide!». Il libro spinge ad agire, partendo da uno splendido excursus sulla neurodiversità, nella consapevolezza che una buona comunicazione aiuti a comprendere e ossigeni l’empatia.
 
 **30 giorni per mettersi nei panni di una persona con autismo** , confrontarsi con le sfide quotidiane, ma anche capirne peculiarità e risorse, cominciando dal chiedersi come lei veda il mondo: se andando a scuola tutto cominciasse a smontarsi a pezzi, per terra un pezzetto di semaforo, una briciola di nuvola e il vigile a cui ci rivolgiamo sembrasse un dipinto di Picasso? Cosa accadrebbe se all’improvviso la nostra faccia svanisse da tutte le fotografie?

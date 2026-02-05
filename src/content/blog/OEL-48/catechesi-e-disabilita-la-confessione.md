@@ -11,8 +11,9 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-48
+id_numero: "OEL-48"
+numero_rivista: "Ombre e Luci"
 ---
-
 Carissimi , come promesso vi mando una piccola relazione sulle nostre cerimonie penitenziali. Continuo la mia ricerca di catechesi in questo mondo «psichico» particolare che mi affascina e mi fa scoprire tante cose.
 Per la Cresima ho deciso di continuare la preparazione su due anni per rendere più responsabili i ragazzi.
 Tana Pelagallo** - suora di Nazareth ([Comunità Emanuel di Fede e Luce ad Acerra](http://www.fedeeluce.it/comunita/emanuel/))

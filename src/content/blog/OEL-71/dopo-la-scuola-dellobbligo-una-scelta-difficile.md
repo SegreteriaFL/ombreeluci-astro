@@ -12,7 +12,8 @@ umap_x: 6.90794563293457
 umap_y: 7.260079860687256
 umap_z: 7.606975555419922
 issue_number: OEL-71
-id_numero: OEL-71
+id_numero: "OEL-71"
+numero_rivista: "Ombre e Luci"
 ---
 Settembre, ottobre, novembre... mesi importanti, che segnano l’inizio di un nuovo anno lavorativo o scolastico. Anche per tante famiglie dei nostri amici disabili è il momento di scegliere. I ragazzi che hanno concluso nel giugno scorso il ciclo della scuola dell’obbligo ed hanno 15, 16, o più anni, devono compiere un altro grande passo verso la vita da adulto, la vita di tutti....
 

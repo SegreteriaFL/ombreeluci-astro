@@ -7,6 +7,7 @@ cluster_id: 6
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_53_1996.jpg"
 slug: "oltre-lhandicap-esperienze-e-proposte-a-contatto-con-bambini-autistici-down-cerebrolesi-ipoacusici"
 has_comments: false
+id_numero: "OEL-53"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

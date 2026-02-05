@@ -4,8 +4,8 @@ date: 1996-03-04
 author: Mariangela Bertolini
 slug: ai-genitori-e-agli-amici
 lang: it
-numero_rivista: 53
-id_numero: OEL-53
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-53"
 issue_number: OEL-53
 wp_id: 10532
 original_url: "https://www.ombreeluci.it/?p=10532"
@@ -15,7 +15,6 @@ umap_x: 5.311863899230957
 umap_y: 8.373876571655273
 umap_z: 8.105379104614258
 ---
-
 Una famiglia «così» ha bisogno, più delle altre, di aiuto e di un aiuto speciale. Questa, in sintesi, la tesi presentata da una mamma nel primo articolo di questo numero e dal racconto-testimonianza di un’altra mamma intitolatogli tuo nome è trappola», uno dei libri che consigliamo questa volta. È quasi una tesi banale, pensavo, per i lettori di Ombre e Luci, e forse qualcuno potrà dire: «E con questo? Forse che non lo sappiamo? Il guaio è che rimangono solo parole e basta!» È vero, può sembrare un tema scontato, dopo anni che lo ripetiamo. Ma è proprio vero che questo aiuto non c’è? Le famiglie con un figlio disabile in casa, anni fa, non stavano molto peggio? Mi pare che molte cose siano cambiate. Alcune, come l’assistenza domiciliare, hanno arrecato un notevole servizio ai genitori che ne possono usufruire. La gente, ha cominciato ad avere un po’ più di attenzione verso i disabili, anche per merito dell’integrazione scolastica che certamente va curata di più. Convegni, dibattiti, trasmissioni televisive e film, che parlano e fanno parlare di questi problemi, si sono moltiplicati e, pian piano, fanno strada a una cultura diversa. Eppure, ai genitori, questi cambiamenti sembrano sempre poca cosa. Forse si aspettavano, giustamente, una trasformazione più rapida e più concreta; forse sono assillati dal problema del futuro per il loro figlio, e non si accorgono di queste novità; alcuni, forse si sentono sfiniti perché continuano a portare un peso troppo gravoso, da troppi anni; altri mostrano di non accorgersi degli aiuti che vengono loro offerti, a volte gratuitamente.
 
 Mi vengono in mente tanti giovani di Fede e Luce e di altre associazioni, che da anni ormai hanno imparato a condividere con i loro amici un po’ diversi, qualche giornata, qualche serata, un po’ di giorni di vacanza. A loro, per una volta, voglio mandare il mio affettuoso saluto. Non un ringraziamento; di questo non ne vogliono sentir parlare: ma sento forte il bisogno di dir loro: non fermatevi, non stancatevi, non abbandonate il campo. Il vostro piccolo aiuto, è importante quanto voi non potete immaginare. Ricordo — per chi non lo sapesse o lo avesse dimenticato — che anni fa, quando inventammo i primi campeggi Fede e Luce, non esistevano i soggiorni estivi promossi dai comuni, e non esisteva ancora l’integrazione scolastica. Le vostre coraggiose «vacanze insieme», sono ricordate tuttora come una delle invenzioni pionieristiche. Qualche mamma lo sa bene.

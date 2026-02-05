@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-34
-id_numero: OEL-34
+id_numero: "OEL-34"
+numero_rivista: "Ombre e Luci"
 ---
 Luisa è una donna calma e dolce, un carattere mite, dice suo padre. E’ lei che viene ad aprirci la porta dell’asilo nido del comune di Roma, dove lavora da dieci anni. Fa piacere vedere come Luisa ci si senta a casa! Fa piacere anche sentire come le altre parlano di lei. In cucina, la cuoca dice che è la migliore delle sue aiutanti: «E ne giro di scuole!» aggiunge. «Lava la frutta, prepara i piatti, mi fa tante cose..»
 

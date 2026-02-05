@@ -14,8 +14,9 @@ umap_x: 5.909121513366699
 umap_y: 6.218281269073486
 umap_z: 12.23316478729248
 issue_number: OEL-12
+id_numero: "OEL-12"
+numero_rivista: "Ombre e Luci"
 ---
-
 Attraversavo ieri in macchina la strada che da Nuova Gorizia porta a Lubiana dove mi aspettavano un centinaio di persone (genitori, i loro figli con handicap, gli amici): le comunità di
 *Fede e Luce*
 di Slovenia, per una grande festa di celebrazione. Il paesaggio che mi circondava era quello tipico delle cartoline di Natale del Nord: la neve copriva i tetti spioventi, i pini imbiancati, le radure dove qua e là spuntavano pezzi di roccia bianca. Non potevo non pensare al Natale che si avvicina. Non potevo non pensare alle guerre che quella terra ha visto crudeli fra Italiani e Austriaci prima, fra Italiani e Iugoslavi poi. Non potevo non pensare a questo strano miracolo che i nostri figli, per noi così limitati nell'intelligenza, stanno compiendo un po' in tutto il mondo: gli odii, le barriere, i pregiudizi cadono. Ci siamo ritrovati attorno all'altare, persone sconosciute, diverse. Non parliamo la stessa lingua, ma ci capiamo ugualmente. I nostri sguardi dicono quello che le parole non sanno dire. Davanti a me, una giovanissima mamma: fra le sue braccia una bimba di circa sei anni, gravemente colpita. Per tutta la messa non ho potuto che fissare quel visino tormentato. Il mio cuore batteva forte. Volevo dirle: «Conosco una bambina come te, a Parma!...» Alla fine della celebrazione ho visto questa mamma alzarsi, avviarsi col suo pesante fardello al microfono. Ha parlato in sloveno per pochi secondi. « ... grazie Mariangela, di essere venuta fra noi... » mi traduceva a bassa voce un giovane. Non ho sentito il resto... Papà, mamme, fratelli e sorelle, amici, come non cantare insieme un canto di Natale per ringraziare i nostri figlioli che ci spingono passo passo a vivere e a capire, attraverso la sofferenza, l'annuncio fatto dagli angeli ai pastori duemila anni fa: «Pace agli uomini di buona volontà!» -

@@ -12,7 +12,8 @@ umap_x: 7.343827247619629
 umap_y: 6.6209588050842285
 umap_z: 9.881508827209473
 issue_number: OEL-159
-id_numero: OEL-159
+id_numero: "OEL-159"
+numero_rivista: "Ombre e Luci"
 ---
 «Pagine diverse dal solito, cari lettori. In questa estate 2022, che sembra di ripresa anche se foschi avvenimenti non la rendono ancora serena quanto vorremmo, abbiamo accettato e condiviso la sfida di una storica collaboratrice della rivista, con esperienza di attività con persone con disabilità intellettive e fisiche in un laboratorio che, nella parrocchia di Santa Silvia al Portuense a Roma, opera dagli anni Ottanta: **proporre giochi e passatempi non troppo complicati per un’attività diversa dal solito.** Soprattutto giochi da fare in compagnia, magari in un campo di vacanza, in un incontro…
 

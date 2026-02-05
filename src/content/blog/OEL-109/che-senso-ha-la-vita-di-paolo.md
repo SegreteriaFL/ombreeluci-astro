@@ -14,7 +14,8 @@ umap_x: 6.1374616622924805
 umap_y: 8.659486770629883
 umap_z: 7.246148109436035
 issue_number: OEL-109
-id_numero: OEL-109
+id_numero: "OEL-109"
+numero_rivista: "Ombre e Luci"
 ---
 ### Paolo
 

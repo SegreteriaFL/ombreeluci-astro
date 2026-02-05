@@ -12,8 +12,9 @@ umap_x: 6.322904109954834
 umap_y: 7.8660664558410645
 umap_z: 12.133224487304688
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 ## Dall'Italia
 
 ### Da Parma

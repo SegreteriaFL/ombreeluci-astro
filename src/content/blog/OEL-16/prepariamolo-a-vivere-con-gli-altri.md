@@ -16,8 +16,9 @@ umap_x: 6.007149696350098
 umap_y: 8.033145904541016
 umap_z: 7.495675563812256
 issue_number: OEL-16
+id_numero: "OEL-16"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quando vi accorgete o venite a sapere che vostro figlio è ritardato nell’intelligenza è ben magra consolazione sapere che non siete i soli ad avere un figlio così. Nei primi anni pensate che nessuna coppia ha incontrato una simile disgrazia e per questo vi sentite esclusi dalla cerchia dei genitori di figli normali. Infatti, prima della nascita di questo figlio, probabilmente non avevate mai notato che la debilità mentale può apparire in ogni famiglia, che esiste in ogni paese del mondo, in seno a ogni razza, fra i ricchi e i poveri, fra potenti e fra gli umili, fra i colti e gli analfabeti. Quando poco per volta vi rendete conto di ciò, allora vi vien di pensare che una situazione così è più facilmente accettabile da famiglie diverse dalla vostra. Se avete una posizione sociale in vista, penserete che persone più semplici possono sopportare più facilmente che loro figlio sia mentalmente deficiente perché loro non hanno le ambizioni che voi avete per lui. Se siete di quelli per i quali la sola scuola è stata la vita, penserete che le persone colte troveranno più facilmente una risposta a tutti i «perché» che vi angosciano a proposito di vostro figlio. Se vivete in campagna o in un piccolo centro, penserete che i problemi da risolvere sono più facili per chi vive in città, perché là certamente ci sono maggiori possibilità per aiutarlo. Se vivete in città, penserete che un bambino limitato è senz’altro più a suo agio in un ambiente agricolo. Se fino ad oggi avete trascorso la vita senza la Fede, penserete che è più facile per chi è «pio» accettare un simile colpo dalla sorte; se invece appartenete alla gente «religiosa», che un ateo capirà meglio una tale «punizione»...
 > Se riusciremo a renderlo contento, calmo, ben educato... la gente lo accoglierà più facilmente e con piacere
 

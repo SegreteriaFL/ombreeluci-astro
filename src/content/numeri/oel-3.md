@@ -1,15 +1,40 @@
 ---
 id: "OEL-3"
-title: "Numero 3 - Vacanze: tempo privilegiato per l’integrazione"
+title: "Numero 3 – Vacanze: tempo privilegiato per l’integrazione"
 tipo: "ombre-e-luci"
 numero: 3
-anno: "1983"
+sort_order: 102
+pubDate: "1983-01-01T00:00:00Z"
 data_pubblicazione: "1983"
 sommario: "In questo numero: Vacanze con chi ha una disabilità mentale, lontano dalla propria famiglia. Il momento migliore per l’integrazione tra gli altri: più tempo, il contatto con la natura, i ritmi più lenti… per scoprire che “entrando nel cuore di ognuno si può apprezzare il tesoro che è in lui e che spesso rimane nascosto"
-copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-707x1024.jpeg"
+copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-2.jpg"
 link_sfoglia: ""
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-3-vacanze-tempo-privilegiato-per-lintegrazione/"
+articoli:
+  - "ombre-e-luci-n-3-1983-sfogliabile"
+  - "gli-altri"
+  - "con-loro-sono-salito-sul-monte-meta"
+  - "vita-fede-e-luce-n-3"
+  - "quando-il-dolore-bussa-forte"
+  - "un-caso-di-coscienza"
+  - "storia-di-un-padre"
+  - "e-non-disse-nemmeno-una-parola"
+  - "gli-altri"
+  - "vacanze-con-la-differenza-nel-cuore"
+  - "con-loro-sono-salito-sul-monte-meta"
+  - "nessuno-aveva-pensato-che-patrick-avrebbe-preso-parte-alla-gita"
+  - "per-la-prima-volta-lontano-da-me"
+  - "insieme-si-ma-come"
+  - "ed-e-stata-una-vera-vacanza"
+  - "unaltra-proposta-di-vacanze-con-persone-disabili-i-soggiorni-invernali"
+  - "ogni-luglio-presto-una-casa"
+  - "vita-fede-e-luce-n-3"
+  - "dialogo-aperto-numero-3"
+  - "e-non-disse-nemmeno-una-parola"
+  - "storia-di-un-padre"
+  - "un-caso-di-coscienza"
+  - "quando-il-dolore-bussa-forte"
 ---
 
 ## Indice

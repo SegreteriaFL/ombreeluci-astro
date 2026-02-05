@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "a-natale-alberto-stara-in-famiglia-lontano-da-noi"
 lang: it
-numero_rivista: 88
-id_numero: OEL-88
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-88"
 issue_number: OEL-88
 wp_id: 30579
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 Descrivere i pensieri e le sensazioni che si affacciano dopo avere avuto la conferma che Alberto è stato accettato in una casa famiglia dovrebbe essere facile, considerato che pensieri e sensazioni sono innumerevoli, variabili e ricorrenti. Invece no! È di una difficoltà indescrivibile. Ho iniziato mille volte e mille volte ho smesso, dicendo ogni volta a me stessa che non potevo farlo, che non lo avrei fatto, per riprovare poi visto che di pensieri e sensazioni ne avevo e ne ho tanti.
 Mi è sempre piaciuto scrivere**, mettere sulla carta sentimenti, idee, emozioni, un po’ di me insomma; a volte mi è servito per esternare, almeno in parte, ciò che avevo dentro in così grande quantità da darmi la sensazione di non poter assorbire altro, quasi fossi lì lì per"scoppiare".
 Questa volta non è così: è una faccenda molto complessa.** Non la più grave o la più dolorosa fra le tante vissute fino ad oggi, ma certamente una delle più difficili da affrontare, da superare e, poi, da vivere. Perché? Me lo sono chiesto e continuo a chiedermelo ... qualche volta mi do anche alcune possibili risposte ma, forse, una parte di me ancora non vuole affrontare a fondo la questione: forse è proprio questa l’occasione per iniziare. Quando, più di un anno fa, abbiamo saputo che la casa famiglia"Il Carro" stava operando per ampliare la struttura ed aprire a nuovi ospiti, Giacomo ed io abbiamo subito pensato che fosse l’occasione giusta per il futuro di Alberto.

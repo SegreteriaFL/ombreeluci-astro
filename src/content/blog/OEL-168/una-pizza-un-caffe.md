@@ -12,8 +12,9 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 issue_number: OEL-168
+id_numero: "OEL-168"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ormai da poco più di undici anni, in questa casa siamo rimasti solo noi tre. **Dopo la morte della mamma tutto è più vuoto, non solo perché lei non c’è, ma anche perché non c’è più nessuno che viene a prendere un caffè e fare una chiacchierata. **Mia mamma, una donna molto aperta, vivace, allegra, di compagnia non perdeva occasione per dire agli altri: «vieni a bere un caffè, vieni a trovarmi!». E c’era un piccolo gruppo di persone che veniva, e se passava troppo tempo, si attaccava al telefono e chiamava il mondo.
 
 Lei non c’è più, e io posso contare sulle dita di una mano le persone che vengono a trovarmi o, meglio ancora, a trovarci e stare un po’ di tempo con noi.

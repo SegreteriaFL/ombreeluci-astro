@@ -12,8 +12,9 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-116
+id_numero: "OEL-116"
+numero_rivista: "Ombre e Luci"
 ---
-
 Il tascabile raccoglie i veloci contributi di una rubrica psicologica che Ada Fonzi ha tenuto in tre anni per il Messaggero di Sant’Antonio, intitolata Le età della vita.
 
 Con la sua grande esperienza nella psicologia dello sviluppo e una narrazione che sa adattare anche il punto di vista della psicologia clinica e sociale, l’autrice offre uno sguardo competente, lieve e concreto su “piccoli e grandi accadimenti, piccoli e grandi interrogativi del vivere quotidiano”.

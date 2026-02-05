@@ -4,8 +4,8 @@ date: 1996-12-15
 author: Redazione
 slug: dondolando-tra-lamore-e-lodio
 lang: it
-numero_rivista: 56
-id_numero: OEL-56
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-56"
 issue_number: OEL-56
 wp_id: 11120
 original_url: "https://www.ombreeluci.it/?p=11120"
@@ -17,7 +17,6 @@ umap_x: 5.302186489105225
 umap_y: 10.042720794677734
 umap_z: 9.183265686035156
 ---
-
 Una macchina che slitta deve essere riportata sulla «retta via» con manovre «dolci». Così, in questi anni ho acquisito, superando il terreno impervio dell'emotività, un certo equilibrio. Ho cercato di analizzare le mie reazioni spesso impulsive, e di meglio comprendere i sentimenti contrastanti che da sempre mio fratello suscita in me. Non è facile vivere «dondolando» tra l’amore e l'odio, tra la comprensione e la condanna, e affrontare una «tempesta del dubbio» ogni quindici giorni: questa non è vita. Crescendo, le tante paure e fragilità si sono trasformate in forza e tutto questo mi ha aiutato moltissimo nel mio rapporto con lui.
 
 **Io sono Daniele, ho ventiquattro anni e sono il fratello di Pablo** , ragazzo affetto da spasticità e da ritardo mentale. Il mio rapporto con lui è fatto di piccole complicità, di grandi litigate, di lunghi silenzi spesso sereni, ricchi più di mille parole.

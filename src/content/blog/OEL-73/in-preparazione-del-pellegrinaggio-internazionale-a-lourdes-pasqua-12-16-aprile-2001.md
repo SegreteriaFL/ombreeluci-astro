@@ -12,7 +12,8 @@ umap_x: 8.99427318572998
 umap_y: 8.335930824279785
 umap_z: 13.354096412658691
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 Dal 12 al 16 aprile 12.000 persone, bambini, giovani, adulti con disabilità mentale, le loro famiglie, i loro amici, provenienti da 75 nazioni dei cinque continenti. [Fede e Luce](https://www.fedeeluce.it/) è un movimento ecumenico che crea comunità di incontro (amicizia, preghiera, festa, celebrazione...). È stato fondato nel 1971 da Jean Vanier e da Marie-Helene Mathieu. Chi vuole dar vita ad una comunità Fede e Luce, può rivolgersi per informazioni alla [Segreteria Nazionale](https://www.fedeeluce.it/chi-siamo/contatti/) . 
 

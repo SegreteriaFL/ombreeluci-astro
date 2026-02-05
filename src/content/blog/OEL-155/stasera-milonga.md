@@ -12,7 +12,8 @@ umap_x: 8.52403736114502
 umap_y: 7.40123987197876
 umap_z: 8.462944984436035
 issue_number: OEL-155
-id_numero: OEL-155
+id_numero: "OEL-155"
+numero_rivista: "Ombre e Luci"
 ---
 «Mi fai ballare un tango?». Una diciassettenne di Latina, Elisa Pascali, chiedeva così di provare, per la prima volta, il famoso *abrazo* e mostrava un vero talento nel muovere passi e adorni. Dando a Roberto Nicchiotti, educatore socio-pedagogico e papà di un ragazzo con disabilità **, l’idea di proporre la sua passione da maestro di tango a persone come lei, con la sindrome di Down, o con altre disabilità.** Dal 2015 in tanti hanno cominciato a praticarlo aderendo all’iniziativa [**L’Oltre Tango**](https://www.facebook.com/profile.php?id=100066675462396) (una scuola, un metodo registrato e insegnato, adatto a persone con disabilità cognitiva, fisica, motoria e neurodegenerativa) apprezzando le possibilità, anche terapeutiche, di una vera e propria arte che con la sua musica evoca emozioni diverse e con i suoi riti e la sua etichetta ha una forte componente socializzante.
 

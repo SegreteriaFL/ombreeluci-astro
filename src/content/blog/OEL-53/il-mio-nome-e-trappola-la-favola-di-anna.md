@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "il-mio-nome-e-trappola-la-favola-di-anna"
 lang: it
-numero_rivista: 53
-id_numero: OEL-53
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-53"
 issue_number: OEL-53
 wp_id: 10475
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 ---
-
 Quello che mi dispiace, mentre mi accingo a scrivere qualche parola di presentazione per questo libro, è che, comunque, troppo poche persone lo leggeranno. Io vorrei invece che lo leggessero in tanti; non per fare un piacere a Margherita, che lo ha scritto (anche se certamente ne sarebbe felice, non ultimo per le «entrate»), ma perché è un bel libro. Vorrei che lo leggessero i ragazzi e le ragazze che viaggiano (trovandolo a mille lire nelle edicole della stazione), le persone che stanno tanto tempo in casa (con il vantaggio di sottrarre qualche ora alla televisione), o gli studenti, su suggerimento dei loro insegnanti.
 Forse questo è un sogno, perché di fatto la gente si interessa pochissimo e male di chi è solo una «trappola», di chi cioè non sa combinare niente di buono, come Anna. Forse è solo per mancanza di conoscenza... Ma con questo libro potrebbero almeno fare, per l’appunto, la conoscenza, di Anna.
 Anna è la figlia di Margherita; una figlia «diversa» che non percorre la strada normale della crescita, ma fin dai primissimi anni stupisce, addolora, confonde, scandalizza con i suoi comportamenti, il suo mutismo, il rifiuto netto che sembra opporre al mondo.

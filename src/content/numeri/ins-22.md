@@ -1,15 +1,34 @@
 ---
 id: "INS-22"
-title: "Insieme n. 22 - Bollettino Fede e Luce - 1979"
+title: "Insieme n. 22 – Bollettino Fede e Luce – 1979"
 tipo: "insieme"
 numero: 22
-anno: "1979"
+sort_order: 22
+pubDate: "1979-08-01T00:00:00Z"
 data_pubblicazione: "Agosto – Settembre 1979"
 sommario: "Questo numero di 'Insieme' ci porta in un viaggio attraverso le esperienze di vita e fede condivise dalle famiglie di Fede e Luce. Attraverso lettere, racconti e resoconti di eventi, si scopre come l'incontro con la disabilità trasformi la vita, aprendo a nuove prospettive di amore, accettazione e speranza. Dalle vacanze condivise alle gite in montagna, dalla festa della primavera al pellegrinaggio a Loreto, ogni pagina trasmette la gioia di una comunità che celebra la vita in tutte le sue sfumature."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-22-set-1979.webp"
 link_sfoglia: "https://archive.org/details/insieme-22/mode/2up?view=theater"
 link_pdf: "https://archive.org/download/insieme-22/insieme%2022%20set%201979.pdf"
 wp_url: "https://www.ombreeluci.it/project/insieme-n-22-bollettino-fede-e-luce-1979/"
+articoli:
+  - "aria-di-vacanze"
+  - "ci-hanno-scritto-n-22"
+  - "un-compleanno-al-capezzale-di-un-amico"
+  - "mattone-su-mattone"
+  - "focus-gli-adulti-profondamente-handicappati-alcune-testimonianze"
+  - "non-avrei-mai-pensato"
+  - "siamo-stati-dei-buoni-genitori"
+  - "un-antidoto-alla-disperazione"
+  - "mio-fratello-marco"
+  - "sprovveduto-e-sorpreso-chi-non-lo-e"
+  - "incontro-internazionale-a-cuneo-28-29-aprile-1979"
+  - "pellegrinaggio-a-loreto-1979-olga-gammarelli"
+  - "pellegrinaggio-a-loreto-18-20-maggio-1979-testimonianze-partecipanti"
+  - "23-maggio-1979-festa-della-primavera"
+  - "gita-ad-argegno-3-giugno-1979"
+  - "vita-fede-e-luce-n-22-1979"
+  - "letture-consigliate-n-22"
 ---
 
 ## Indice

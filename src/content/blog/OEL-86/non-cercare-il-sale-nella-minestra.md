@@ -4,8 +4,8 @@ date: 2004-06-11
 author: Maria Teresa Mazzarotto
 slug: non-cercare-il-sale-nella-minestra
 lang: it
-numero_rivista: 86
-id_numero: OEL-86
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-86"
 issue_number: OEL-86
 wp_id: 30220
 original_url: "https://www.ombreeluci.it/?p=30220"
@@ -17,7 +17,6 @@ umap_x: 8.899386405944824
 umap_y: 10.202110290527344
 umap_z: 9.650501251220703
 ---
-
 "S
 ono stato per diversi anni viceparroco. Il parroco mio superiore non sopportava i bambini e aveva un grandissimo amore per i cani. Da allora io nutro una grande avversione per i cani e un grandissimo amore per i bambini”. Lo dice ridendo Don Romano — parroco di S. Maria di Coromoto. In realtà, a parte i cani, l’attenzione e l’amore per i bambini e per “più piccoli” in generale, caratterizzano davvero la sua azione pastorale. Da 11 anni il Gruppo “Amici S. Giovanni di Dio”, formato da circa 40 ragazzi disabili e 60/70 volontari, si riunisce regolarmente per svolgere attività di laboratorio tre volte alla settimana nelle due grandi sale dell’oratorio. Don Romano lo ha voluto e protetto fin dall'inizio: ha sollecitato e continua a richiedere l’aiuto dei volontari, ha invitato esperti per la loro formazione e per l’organizzazione del lavoro e delle attività, ha seguito personalmente con lezioni di catechesi fondamentale il gruppo al completo — ragazzi, genitori e volontari. Sono all'ordine del giorno i suoi incontri con genitori in difficoltà o volontari in crisi. Le grandi mostre / vendita dei lavori sono eventi di tutto rispetto nella vita della comunità parrocchiale. Quando gli chiediamo, riferendoci alla
 [lettera della mamma ai Vescovi](https://www.ombreeluci.it/2004/una-mamma-scrive-ai-vescovi/)

@@ -6,8 +6,8 @@ theme: "cluster-1"
 cluster_id: 1
 slug: "amore-e-disabilita-in-casa-famiglia"
 lang: it
-numero_rivista: 82
-id_numero: OEL-82
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-82"
 issue_number: OEL-82
 wp_id: 26743
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
 ---
-
 Con i responsabili della casa riflettiamo continuamente sulle relazioni affettive che le persone disabili stabiliscono tra loro e se è più giusto lasciare che si sviluppino o impedirle. Ci chiediamo: **con quale diritto ne parliamo e interveniamo?** Perché ci intromettiamo in questo campo così importante, della sessualità? Noi abbiamo un potere su queste persone, e c’è sempre il rischio di abusarne. Per questo i nostri criteri nello scegliere come comportarci non dovranno mai essere: "faccio così perché per me è più facile, e mi evito qualsiasi rischio".
 
 ### Scelta di partenza

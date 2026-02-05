@@ -12,8 +12,9 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 *“Siamo qui perché non c’è alcun rifugio dove nasconderci da noi stessi. Finché una persona non confronta se stessa negli occhi e nei cuori degli altri, scappa. Fino a che non permette loro di condividere i suoi segreti, non ha scampo da questi. Timorosa di essere conosciuta, né può conoscere se stessa, né gli altri, sarà sola.
 Dove altro se non nei nostri punti comuni possiamo trovare un tale specchio?
 Qui, insieme, una persona può alla fine manifestarsi chiaramente a se stessa, non come il gigante dei suoi sogni, né il nano delle sue paure, ma come un uomo, parte di un tutto, con il suo contributo da offrire. Su questo terreno noi possiamo tutti mettere radici e crescere non più soli come nella morte, ma vivi a noi stessi e agli altri”.*

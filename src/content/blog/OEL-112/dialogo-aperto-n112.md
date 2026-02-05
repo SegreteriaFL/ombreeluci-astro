@@ -14,8 +14,9 @@ umap_x: 4.6924543380737305
 umap_y: 8.138015747070312
 umap_z: 10.533368110656738
 issue_number: OEL-112
+id_numero: "OEL-112"
+numero_rivista: "Ombre e Luci"
 ---
-
 ### Il Battesimo di Giovanni
 
 Nel numero

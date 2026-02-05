@@ -16,7 +16,8 @@ umap_x: 6.685851573944092
 umap_y: 9.152142524719238
 umap_z: 7.508744716644287
 issue_number: OEL-27
-id_numero: OEL-27
+id_numero: "OEL-27"
+numero_rivista: "Ombre e Luci"
 ---
 Ènoto che gran parte dei ragazzi sordi conserva una certa percentuale di udito che, attraverso la rieducazione e l’uso dei moderni amplificatori, serve come importante complemento alla percezione dei linguaggio orale: questo purtroppo non è il caso di Nicoletta. Essa è affetta da sordità profonda senza alcun residuo uditivo; vive in un mondo di assoluto silenzio, silenzio profondo, difficilmente concepibile da noi udenti e dagli stessi sordi dotati di residui. Questi casi così gravi esistono purtroppo -anche se non in alta percentuale ed allora si hanno a disposizione solo la percezione visiva e l’aiuto di apparecchi vibro-tattili.
 

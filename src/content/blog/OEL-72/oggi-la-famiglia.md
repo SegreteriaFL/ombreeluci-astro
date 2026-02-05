@@ -12,8 +12,9 @@ umap_x: 5.200771808624268
 umap_y: 8.293575286865234
 umap_z: 9.258925437927246
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 Da un’inchiesta sui valori ai quali i giovani restano più fedeli, la famiglia è risultata essere il più importante. Ma, ai nostri giorni questa famiglia tanto evocata, è anche malridotta e rinnegata. E allora non è forse da riscoprire questa famiglia?. Ci sono ragazzi, oggi, che hanno fratelli e sorelle nati da una nuova unione del padre o della madre e li amano come se fossero figli di entrambi i genitori: lo stesso sangue non è più un valore assoluto? Anche l’importanza del cognome è rimessa in discussione.
 
 Che cosa dobbiamo scoprire ancora di questo mondo sconosciuto che è oggi la famiglia tradizionale? Si sogna di essere nati in una famiglia, si desidera creare una famiglia e a volte ci si rinuncia per una scelta personale. Certamente la famiglia è una delle prime realtà di cui l’uomo ha bisogno e i giovani hanno ben ragione di aggrapparvisi, di credervi e di evocarla. Per meglio valutarne la bellezza non basta constatare la sofferenza di tutti quelli che non ne hanno una o che non sanno nemmeno cosa essa sia? Genitori, fratelli e sorelle ma anche zii e zie, tutti quelli che ritroviamo in occasione di un lutto o di una festa di famiglia, ci sono di grande sostegno.

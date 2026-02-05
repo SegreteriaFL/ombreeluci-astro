@@ -12,7 +12,8 @@ umap_x: 8.660239219665527
 umap_y: 8.832277297973633
 umap_z: 3.2287795543670654
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 Èuscito l’anno scorso al cinema ed è da poco disponibile in dvd/blu-ray, La Forma della Voce è un film d’animazione giapponese del 2016. Tratto dal fumetto di Yoshitoki Ōima, la storia vede protagonisti un ragazzo universitario, Shoya, e una coetanea sorda, Shoko. I due si sono conosciuti alle medie, dove Shoko ha subito per diversi anni atti di bullismo proprio per la sua sordità, alcuni perpetrati dallo stesso Shoya, al tempo non in grado di comprendere la disabilità della compagna.
 

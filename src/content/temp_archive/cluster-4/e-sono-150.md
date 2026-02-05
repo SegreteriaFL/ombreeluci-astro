@@ -7,6 +7,7 @@ cluster_id: 4
 image: "https://www.ombreeluci.it/wp-content/uploads/2020/05/OL-150-small-206x300.jpg"
 slug: "e-sono-150"
 has_comments: false
+id_numero: "OEL-150"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -7,6 +7,7 @@ cluster_id: 6
 image: "http://www.ombreeluci.it/wp-content/uploads/2018/05/Come-se-io-fossi-te-201x300.jpg"
 slug: "come-se-io-fossi-te"
 has_comments: false
+id_numero: "OEL-141"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

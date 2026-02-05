@@ -12,8 +12,9 @@ tema_code: "T06"
 tema_label: "Pellegrinaggi, cammini e vita comunitaria in movimento"
 categoria_menu: "Fede"
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 ### Dicembre 1979
 
 Sia che andiamo a Lourdes, sia che restiamo a casa, siamo tutti interessati al pellegrinaggio, prima, durante e dopo il suo svolgimento…

@@ -4,8 +4,8 @@ date: 2006-06-21
 author: Sergio Sciascia
 slug: la-luna-nuova-di-casa-betania
 lang: it
-numero_rivista: 94
-id_numero: OEL-94
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-94"
 issue_number: OEL-94
 wp_id: 31807
 original_url: "https://www.ombreeluci.it/?p=31807"
@@ -15,7 +15,6 @@ umap_x: 7.69072151184082
 umap_y: 7.68526029586792
 umap_z: 9.377634048461914
 ---
-
 C
 asa Betania accoglie mamme in situazioni precarie e i bambini che nascono e crescono. Quindi aiuta le mamme con i loro figli a procedere verso una vita autonoma. Casa Betania accoglie anche bambini gravati da minorazioni che le mamme non ce la fanno a tenere. Per questo una parte grande delle energie e risorse di Casa Betania è impiegata a far crescere e sostenere la disponibilità all'accoglienza, che in pratica si traduce in adozioni, affidi, casefamiglia. Dalla nascita, nel 1993, in casa Betania sono passati circa centoquaranta bambini e hanno lavorato più di settecento volontari. Col passare degli anni sono sempre più le mamme in difficoltà “extracomunitarie”, con o senza permesso di soggiorno, senza casa e lavoro o, al più, con un lavoro saltuario. Molte sono “ferite” da uomini nel cui affetto avevano creduto, da esperienza traumatiche, dal disprezzo e dallo spaesamento che stordisce un profugo molto giovane e senza protezione. Giuseppe e Silvia Dolfini, con i loro quattro figli, posero nel 1983 il primo seme di Casa Betania accogliendo in famiglia una ragazza con il suo neonato. Con loro e con altre famiglie aperte all’accoglienza sì formò la Cooperativa Sociale “L'Accoglienza”. La congregazione delle suore Calasanziane nel 1992 diede in comodato gratuito un edificio scolastico tra Primavalle e Pineta Sacchetti, nella periferia occidentale di Roma. L'edificio fu del tutto ristrutturato. Uno dei volontari che vi lavorò molto fu don Antonino Ruffolo, prete operaio e sacerdote della comunità S. Francesco di Fede e Luce. Molti lo ricordano — morì infatti di tumore nel 1993 per la sua radicalità evangelica, i modi ruvidi, l’amore non filosofeggiato ma vero per le persone più “ferite”.
 

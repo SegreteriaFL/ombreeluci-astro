@@ -12,7 +12,8 @@ umap_x: 8.835573196411133
 umap_y: 7.636852741241455
 umap_z: 10.271574020385742
 issue_number: OEL-107
-id_numero: OEL-107
+id_numero: "OEL-107"
+numero_rivista: "Ombre e Luci"
 ---
 ### Primo allarme
 

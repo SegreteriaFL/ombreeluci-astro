@@ -12,7 +12,8 @@ umap_x: 6.620112895965576
 umap_y: 7.428626537322998
 umap_z: 8.06397533416748
 issue_number: OEL-117
-id_numero: OEL-117
+id_numero: "OEL-117"
+numero_rivista: "Ombre e Luci"
 ---
 ### Sa fare l’amica
 

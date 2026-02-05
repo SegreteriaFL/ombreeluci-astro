@@ -12,7 +12,8 @@ umap_x: 5.7628302574157715
 umap_y: 9.12743091583252
 umap_z: 10.170437812805176
 issue_number: OEL-149
-id_numero: OEL-149
+id_numero: "OEL-149"
+numero_rivista: "Ombre e Luci"
 ---
 Sedicenne, incontrai Maria in oratorio. Era con la mia catechista Carla, aveva 25 anni e un viso un po’... insolito. «Lei è Maria – mi disse Carla sorridendo – si è appena rimessa da un intervento al volto». È stato questo l’inizio dell’amicizia tra una ragazzina di Milano cresciuta nella bambagia e una ragazza che di bambagia ne aveva vista e vissuta ben poca.
 

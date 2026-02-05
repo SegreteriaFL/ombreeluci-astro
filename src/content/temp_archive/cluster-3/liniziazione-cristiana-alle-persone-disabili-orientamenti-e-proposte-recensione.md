@@ -6,6 +6,7 @@ theme: "cluster-3"
 cluster_id: 3
 slug: "liniziazione-cristiana-alle-persone-disabili-orientamenti-e-proposte-recensione"
 has_comments: false
+id_numero: "OEL-92"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

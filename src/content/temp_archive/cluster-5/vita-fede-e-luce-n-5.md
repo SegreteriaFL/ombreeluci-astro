@@ -7,6 +7,7 @@ cluster_id: 5
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/5-1-209x300.jpg"
 slug: "vita-fede-e-luce-n-5"
 has_comments: false
+id_numero: "OEL-5"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

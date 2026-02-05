@@ -4,8 +4,8 @@ date: 1997-06-12
 author: Redazione
 slug: vita-fede-e-luce-n-58
 lang: it
-numero_rivista: 58
-id_numero: OEL-58
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-58"
 issue_number: OEL-58
 wp_id: 11517
 original_url: "https://www.ombreeluci.it/?p=11517"
@@ -15,7 +15,6 @@ umap_x: 7.739850997924805
 umap_y: 8.792441368103027
 umap_z: 14.020424842834473
 ---
-
 ### Incontro regionale Fede e Luce Centro
 
 Dall'11 al 13 Aprile si è svolto a Pescasseroli rincontro dei rappresentanti delle comunità di Roma e del Centro. L’occasione di riunirsi a Pescasseroli è stata offerta insieme ad un’ospitalità generosa e accogliente dai genitori di Daniele di Pirro — e dalla data del 10° anniversario della sua morte. L’incontro — come ogni incontro di [Fede e Luce](http://www.fedeeluce.it/) - è stato bello e faticoso, organizzato nei dettagli e scombussolato da un tempo bizzarro. **Huberta e Francesco Bertolini** hanno passato la responsabilità delle tre nuove regioni ai tre nuovi eletti: **Luca Zaccarian** (Roma 1° e Perugia), **Silvia Poleggi** (Roma 2° e Marzocca), **Settimio Pucci** / **Giulietta Rossetti** (Roma 3° e S. Benedetto). Ai primi un grazie pieno di riconoscenza, ai secondi un augurio di buon lavoro! Tutti i partecipanti si sono stretti intorno alla famiglia Di Pirro con affetto e gratitudine per la loro accoglienza a « **Le Vecchie Arcate** » e per ricordare commossi

@@ -12,7 +12,8 @@ umap_x: 5.255606651306152
 umap_y: 9.083236694335938
 umap_z: 11.313825607299805
 issue_number: OEL-122
-id_numero: OEL-122
+id_numero: "OEL-122"
+numero_rivista: "Ombre e Luci"
 ---
 ### Pino
 

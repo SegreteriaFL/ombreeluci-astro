@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "mio-padre-e-un-chicco-di-grano-recensione"
 lang: it
-numero_rivista: 87
-id_numero: OEL-87
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-87"
 issue_number: OEL-87
 wp_id: 30367
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
-
 La scrittrice, Luana De Vita, racconta in dieci capitoli, poco più di 120 pagine, la sua vicenda familiare di figlia di un uomo paziente psichiatrico. Narra senza un ordine ben preciso, ma intorno ad'alcuni temi portanti, circa quaranta anni di vita passati tra depressione e manie, eccessi di violenza ed alcolismo di un padre fortemente amato ed odiato.
 Dall'analisi cruda di chi ha vissuto sulla propria pelle questo dramma** tra commissariati, cliniche e pronto soccorsi, emergono l'indifferenza e l'ignoranza della società, l'arroganza e la non accoglienza del sistema sanitario italiano verso la famiglia oltre che verso il malato.
 La famiglia gioca un ruolo determinante**, tutto le viene praticamente affidato, consegnato, senza che le venga mai ufficialmente e formalmente riconosciuto qualcosa se non le responsabilità: “*Quando non siamo la causa siamo assenti. Se non siamo assenti, siamo poco disponibili. Se non siamo disponibili siamo radicali. Comunque non esistiamo se non per scaricare colpe e responsabilità*”.

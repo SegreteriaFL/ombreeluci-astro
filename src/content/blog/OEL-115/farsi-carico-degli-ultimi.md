@@ -14,7 +14,8 @@ umap_x: 7.738590717315674
 umap_y: 8.651067733764648
 umap_z: 8.060303688049316
 issue_number: OEL-115
-id_numero: OEL-115
+id_numero: "OEL-115"
+numero_rivista: "Ombre e Luci"
 ---
 Il rispetto della dignità della persona, in qualsiasi condizione di svantaggio si trovi, è un punto di partenza Strategico, antropologico ed etico, che ha una grande incidenza sulla società, su tutta l’organizzazione sociale e sul modo con il quale si pensa ad una città. Una politica che costruisce il bene comune a partire dalla fragilità, dalla debolezza e dalla vunerabilità, deve cogliere questo rispetto della dignità della persona come un valore imprescindibile. La disabilità fisica richiama con forza questa dimesione. Consideriamo ad esempio cosa significhi il tema dell'abbattimento delle barriere architettoniche sia negli edifici pubblici che privati. Tutto ciò non riguarda solo le persone portatrici di handicap, ma tutta la comunità. Occuparsi di queste problematiche comporta migliorare la qualità della vita all’interno di una città.
 

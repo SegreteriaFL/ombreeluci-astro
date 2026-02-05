@@ -12,7 +12,8 @@ umap_x: 5.689235687255859
 umap_y: 9.84096908569336
 umap_z: 6.9506049156188965
 issue_number: OEL-137
-id_numero: OEL-137
+id_numero: "OEL-137"
+numero_rivista: "Ombre e Luci"
 ---
 La nuova tecnica di intervento sul genoma umano, CRISPR Cas9, se impiegata per fini terapeutici apre la speranza per la cura di gravi malattie genetiche. Un risvolto morale inquietante viene però dalla possibilità di impiegare questa tecnica anche nella manipolazione delle cellule riproduttrici e dell’embrione. Riprendiamo da O&L l’intervista di Cyril Douillet alla scienziata Mirelle Leduc, già insegnante e ricercatore presso l’Université Paris XI, Orsay. Q
 **uali promesse terapeutiche dietro questi progressi?**

@@ -14,7 +14,8 @@ umap_x: 6.740310192108154
 umap_y: 7.431915283203125
 umap_z: 7.201132774353027
 issue_number: OEL-123
-id_numero: OEL-123
+id_numero: "OEL-123"
+numero_rivista: "Ombre e Luci"
 ---
 Sono la mamma di Omar,un ragazzo di 27 anni affetto da idrocefalo, distonia, ipovedenza, epilessia e ritardo mentale.
 

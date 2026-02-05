@@ -4,8 +4,8 @@ date: 2007-12-10
 author: Redazione
 slug: dialogo-aperto-n-100
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32896
 original_url: "https://www.ombreeluci.it/?p=32896"
@@ -15,7 +15,6 @@ umap_x: 4.436246395111084
 umap_y: 7.672600746154785
 umap_z: 10.39988899230957
 ---
-
 ### L’ho letto di un fiato
 
 Ieri ho ricevuto il nuovo n.3/07 della vostra rivista, direi nostra, “Ombre e Luci”, ricca, mi pare più di altre, di tanta luce, quella luce che dà speranza sul futuro, nonostante le difficoltà che ogni famiglia con un disabile ha. Solitamente la leggo, nei pochi ritagli di tempo che trovo. E dopo averla sfogliata velocemente, questa mattina iniziando da “

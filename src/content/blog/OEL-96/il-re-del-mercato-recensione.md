@@ -4,8 +4,8 @@ date: 2006-12-28
 author: Redazione
 slug: il-re-del-mercato-recensione
 lang: it
-numero_rivista: 96
-id_numero: OEL-96
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-96"
 issue_number: OEL-96
 wp_id: 32188
 original_url: "https://www.ombreeluci.it/?p=32188"
@@ -15,7 +15,6 @@ umap_x: 7.327916622161865
 umap_y: 10.653752326965332
 umap_z: 4.555739879608154
 ---
-
 È
 un libro di 32 pagine dove si descrive la vita quotidiana di un bambino autistico in modo molto semplice e simpatico. E’ destinato a fratelli e compagni di classe di bambini con autismo. Visto l'interesse suscitato presso le scuole Ticinesi, abbiamo deciso di far conoscere il testo anche in Italia e abbiamo chiesto a due bambini di leggerlo e di scriverci le loro impressioni.
 **Che ne pensa Clemente**

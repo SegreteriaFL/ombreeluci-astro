@@ -12,7 +12,8 @@ umap_x: 9.120893478393555
 umap_y: 8.159460067749023
 umap_z: 11.95502758026123
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 In questo caleidoscopio di eventi provo a fissare solo singoli momenti personali, consapevole che non possono dare una descrizione esaustiva di tutto quello che abbiamo passato.
 

@@ -6,8 +6,8 @@ theme: "cluster-1"
 cluster_id: 1
 slug: "amore-e-disabilita-ho-diritto-anchio-allamore"
 lang: it
-numero_rivista: 82
-id_numero: OEL-82
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-82"
 issue_number: OEL-82
 wp_id: 26816
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 ---
-
 Anna rientra in casa e mi dice: "Mamma, io voglio fare l’amore con Roberto", (suo cognato).
 "È impossibile, cara, Roberto è sposato con tua sorella".
 "Allora voglio fare l’amore con te perché io ti amo, tu anche mi ami ed io desidero un innamorato". "Anna, si può fare l’amore solo quando si ama un uomo".

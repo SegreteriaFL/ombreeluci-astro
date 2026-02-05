@@ -15,7 +15,8 @@ umap_x: 5.327616214752197
 umap_y: 8.9638032913208
 umap_z: 8.243444442749023
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 Ilgruppo Nain si incontra una volta al mese a Romena, in Toscana, per intraprendere un cammino di trasformazione. I genitori che lo desiderano possono piantare un mandorlo in ricordo del proprio figlio. Qui, l’aspetto più importante è stato quello di incontrare dei genitori che hanno perso, come me, i figli da suicidio, e **rendermi conto di non essere una mamma così diversa rispetto a chi non ha provato il nostro stesso dolore** , e capendo che non abbiamo nulla di sbagliato.
 

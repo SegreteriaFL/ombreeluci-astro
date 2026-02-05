@@ -6,6 +6,7 @@ theme: "cluster-4"
 cluster_id: 4
 slug: "ombre-e-luci-n-7-1984-sfogliabile"
 has_comments: false
+id_numero: "OEL-7"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

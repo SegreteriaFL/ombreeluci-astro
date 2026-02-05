@@ -4,8 +4,8 @@ date: 1996-09-27
 author: Mariangela Bertolini
 slug: sono-molti-ad-aspettare
 lang: it
-numero_rivista: 55
-id_numero: OEL-55
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-55"
 issue_number: OEL-55
 wp_id: 10915
 original_url: "https://www.ombreeluci.it/?p=10915"
@@ -15,7 +15,6 @@ umap_x: 5.471294403076172
 umap_y: 8.35835075378418
 umap_z: 8.522994995117188
 ---
-
 Non parlano quasi più, non gridano più. Non hanno più niente da dire. Continuano a vivere la loro vita di ogni giorno, trascinando le incombenze mille volte ripetute. Sono mamme e papà anziani, logorati da una vita difficile; vivono da sempre con un lui o una lei che non si sa come e a chi lasciare in affido. Il tempo passa, gli anni sulle spalle si fanno troppi per non pensare al giorno in cui si dovrà partire, per sempre. Alcuni sono rimasti senza l'altra metà, così importante per condividere questa attesa snervante. Spesso, quasi sempre, sono le madri, che, come si sa, vivono più a lungo. La vedovanza le ha rese ancor più silenziose, incapaci di pensare a una soluzione. In fondo al loro animo non più battagliero come un tempo, ma ormai rassegnato, c'è, come scolpita, una domanda non espressa: «Ci sarà pure, alla fine, qualcuno che ci penserà!» Così capita che l'ultimo dei due se ne vada, in silenzio, e che le figlie, già spose con figli, corrano a destra e a manca per trovare rimedio: «Capisci, devo sistemare nonna che ha 93 anni e mio fratello che ne ha 38! Dove vado, a chi mi rivolgo? Possibile che non ci sia un posto?» Il posto, all’improvviso non si trova, né per la nonna, né per il fratello. Chi saprà ascoltare il vostro silenzio chiuso nelle pareti delle case, dove ormai lui o lei si sono fin troppo bene abituati...? Chi potrà recarvi la buona notizia che aspettate da 35, 40 anni e più: «È pronta per tuo figlio (tua figlia) una bella comunità di vita, proprio adatta a lui; puoi portarcelo quando credi e sarà al sicuro per sempre!» A chi imputare questa mancanza di risposta a un bisogno che si fa sempre più urgente e che riguarda migliaia di famiglie? Queste domande che ci facciamo a «Ombre e Luci», con la speranza di trovare soluzioni per i casi urgenti che arrivano sempre più spesso, le rivolgiamo anche a voi, genitori e amici, educatori e religiosi, membri di associazioni e di gruppi di volontariato.
 
 Non sarà giunto il momento che ognuno di noi si faccia carico di queste attese che conosciamo tutti molto bene e che bussano con insistenza alle porte del nostro cuore? Non sarà forse un po' nostra responsabilità, parlare attorno a noi, svegliare chi fa finta di non sapere, chi accantona il problema perché ci sono appelli più urgenti, chi promette e non mantiene, chi si riempie la bocca di parole inutili?... Non sarà nostro dovere, almeno, sollecitare risposte presentando con forza questo bisogno dei nostri fratelli e sorelle che da soli non possono né fare manifestazioni, né andare a gridare sotto qualche ufficio sordo e dimentico di questa sua responsabilità? Ecco allora qualche suggerimento concreto di cui farsi carico; ognuno può scegliere quello che più si confà ai suoi impegni e alle sue possibilità:

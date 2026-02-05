@@ -12,8 +12,9 @@ umap_x: 7.985783100128174
 umap_y: 6.819616317749023
 umap_z: 11.024535179138184
 issue_number: OEL-172
+id_numero: "OEL-172"
+numero_rivista: "Ombre e Luci"
 ---
-
 M
 y dear readers, good afternoon. Last time I wrote about the charity race. Today I want to tell you about a short holiday I took with Rita and Paola, from July 6 to July 13, in a wonderful campsite.
 **A place I highly recommend because, unlike many others, it is fully equipped for people with disabilities.**

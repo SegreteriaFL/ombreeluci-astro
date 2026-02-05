@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-108
+id_numero: "OEL-108"
+numero_rivista: "Ombre e Luci"
 ---
-
 Ho davanti a me un’altalena per bimbi piccoli, gialla e verde, che dondola tristemente vuota. La guardo da qualche giorno con una grande mestizia perché mi fa pensare ai tanti bambini non nati, ai milioni di bambini che muoiono per fame nel nostro povero mondo (uno ogni tre minuti), ai genitori che li desiderano e non li possono avere, a quelli che non li vogliono perché non è ancora il momento, a quei bambini che vorrebbero tanto un’altalena e che sono costretti a giocare fra l’immondizia, a quelli maltrattati e abusati...
 
 E ripenso alla nascita del Bambino che presto festeggeremo (o abbiamo appena festeggiato) in quel modo sempre più superficiale e lontano da quello che Lui è venuto a insegnarci e a portarci come buona notizia.

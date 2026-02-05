@@ -15,7 +15,8 @@ umap_x: 7.682797908782959
 umap_y: 8.883498191833496
 umap_z: 14.08552074432373
 issue_number: OEL-15
-id_numero: OEL-15
+id_numero: "OEL-15"
+numero_rivista: "Ombre e Luci"
 ---
 Nel luglio scorso a Santo Domingo (Rep. Dominicana) si è tenuto un incontro internazionale di *Fede e Luce* . Vi hanno partecipato 120 persone da tutti gli angoli del mondo. Ecco le prime impressioni di Marianna Mihelcic, scritte per il foglio «Lucka» di *Fede e Luce* jugoslava.
 

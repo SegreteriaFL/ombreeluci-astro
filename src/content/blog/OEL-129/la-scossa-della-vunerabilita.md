@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-129
-id_numero: OEL-129
+id_numero: "OEL-129"
+numero_rivista: "Ombre e Luci"
 ---
 Cari Amici, sono veramente lieto di aggiungermi al coro festoso di voci che celebrano insieme con voi i 40 anni dell’Associazione Fede e Luce in Italia. Mi unisco idealmente invitandovi a continuare la vostra navigazione nel mare della sofferenza, apparentemente tempestoso, in realtà colmo di epifanie di fede e luce. Bisogna, però, attrezzarsi per questo viaggio ritrovando la purezza di mente e di cuore e la libertà dagli stereotipi, riconquistando la capacità di stupirci perché, come ammoniva già Chesterton, «il nostro mondo non perirà certo per mancanza di meraviglie, bensì di meraviglia».
 

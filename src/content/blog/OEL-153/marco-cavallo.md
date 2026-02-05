@@ -12,7 +12,8 @@ umap_x: 7.607451438903809
 umap_y: 9.102932929992676
 umap_z: 5.862329006195068
 issue_number: OEL-153
-id_numero: OEL-153
+id_numero: "OEL-153"
+numero_rivista: "Ombre e Luci"
 ---
 *Nella foto: Uno dei nipoti di Marco Cavallo che “vive” ancora al San Giovanni di Trieste (fotografia di Serena Sillitto)*
 

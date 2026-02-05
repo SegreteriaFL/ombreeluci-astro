@@ -6,6 +6,7 @@ theme: "cluster-12"
 cluster_id: 12
 slug: "il-dente-del-giudizio-e-il-servizio-civile-volontario"
 has_comments: false
+id_numero: "OEL-86"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

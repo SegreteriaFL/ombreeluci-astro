@@ -14,8 +14,9 @@ umap_x: 7.554631233215332
 umap_y: 7.989879131317139
 umap_z: 9.068902015686035
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 Èstato un vero piacere conoscere una [casa famiglia](https://www.ombreeluci.it/tag/casa-famiglia/) che è nata anche grazie a un articolo di Ombre e Luci di tanti anni fa, ma soprattutto grazie ad un gruppo di amici «speciali» e la volontà di Luigi Vittorio Berliri. La decisione era stata presa molti anni fa, le difficoltà furono tante e sono ancora presenti, ma con tenacia e pazienza questo piccolo gruppo di amici è riuscito qualche mese fa a inaugurare **Casablu** .
 
 La sorpresa è stata piacevolissima: Casablu non è una casa a sé stante, lontana da un centro abitato, ma si trova in una bella zona del quartiere Nuovo Salario a Roma, in un elegante condominio.

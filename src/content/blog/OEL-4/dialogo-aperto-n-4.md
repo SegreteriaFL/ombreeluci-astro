@@ -12,14 +12,14 @@ pdf_url: "https://archive.org/download/OmbreELuciN004/Ombre-e-Luci-n.4.pdf"
 archive_id: OmbreELuciN004
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/3-1.jpg"
 periodo_label: Ottobre, Novembre, Dicembre
-numero_rivista: 4
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-4
 umap_x: 4.374340057373047
 umap_y: 7.564168930053711
 umap_z: 10.353004455566406
+id_numero: "OEL-4"
 ---
-
 Trovo il giornale molto interessante: testimonianze, articoli. Fate bene a parlare degli handicappati: la loro sofferenza esiste in ogni attimo, anche se a volte si cerca di nasconderla. Continuate così, il vostro giornale mi sembra ben fatto. **A.I.**
 
 Con tanto piacere ho ricevuto Ombre e Luci. Mi piace molto. E’ interessante e aiuta sempre più a comprendere come si deve trattare con gli handicappati. **G.B.**

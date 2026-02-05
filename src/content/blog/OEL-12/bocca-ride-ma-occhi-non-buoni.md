@@ -12,8 +12,9 @@ umap_x: 5.375259876251221
 umap_y: 9.693902969360352
 umap_z: 9.17692756652832
 issue_number: OEL-12
+id_numero: "OEL-12"
+numero_rivista: "Ombre e Luci"
 ---
-
 Che cos'è lo sguardo? È la finestra sul mondo attraverso la quale ci formiamo un’immagine interiore. Ma è anche più di questo. Quando scopriamo un viso addolorato, impaurito o indurito, il nostro sguardo non accoglie solo le emozioni dell’altro, ma diviene anche espressione delle nostre reazioni. Dice l’atteggiamento del nostro cuore. Esprime allora la paura di soffrire? Resta indifferente? Si indurisce? È toccato dalla compassione (nel senso forte di soffrire con)? Gli occhi sono rivelatori dell’animo... Nelle lettere che riceviamo a
 *Ombre e Luci*
 , ritorna spesso la questione sullo sguardo degli altri. «Mia figlia ha una profonda angoscia affettiva che i medici non hanno saputo curare. Mangia in continuazione. Pesa più di cento chili. Non ha più il coraggio di uscire. Dovunque vada non vede che sguardi di scherno o di pietà. Non lo sopporta. È un circolo vizioso. Sola e avvilita, si gonfia sempre di più». E ancora: «Cerco una comunità che mi accolga così come sono, sconquassato dalla vita che ho fatto, droga, avventure di ogni tipo... Non ho voglia di tornare dai miei. L’ultima volta che mi sono trovato faccia a faccia con mio padre, mi ha accolto con una tale esplosione di collera che sono scappato, forse per sempre». C'è poi lo sguardo di chi non vede, troppo preso dalle proprie faccende. Il ricco Epulone forse non si era nemmeno accorto che Lazzaro era alla porta della sua casa, a mangiare i bocconi dati ai cani. Quante volte, leggendo le testimonianze o le lettere che giungono a

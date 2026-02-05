@@ -12,7 +12,8 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 issue_number: OEL-9
-id_numero: OEL-9
+id_numero: "OEL-9"
+numero_rivista: "Ombre e Luci"
 ---
 Sono nato tre anni prima di mio fratello Carlo e ho conosciuto la sua situazione verso i sette, otto anni. Comunque a casa non ne abbiamo mai fatto una tragedia, né ci siamo mai vergognati di Carlo. Ho sempre portato volentieri aiuto ai miei genitori, pur tra difficoltà crescenti.
 

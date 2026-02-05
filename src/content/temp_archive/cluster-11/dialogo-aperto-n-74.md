@@ -6,6 +6,7 @@ theme: "cluster-11"
 cluster_id: 11
 slug: "dialogo-aperto-n-74"
 has_comments: false
+id_numero: "OEL-74"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

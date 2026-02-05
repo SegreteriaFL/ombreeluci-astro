@@ -12,7 +12,8 @@ umap_x: 8.936369895935059
 umap_y: 8.287952423095703
 umap_z: 3.480473756790161
 issue_number: OEL-158
-id_numero: OEL-158
+id_numero: "OEL-158"
+numero_rivista: "Ombre e Luci"
 ---
 L'energia nucleare è un tema che divide l’opinione pubblica da anni. Forse proprio per questo il documentario *I’m So Sorry* , passato a Cannes nel 2021, è stato quasi ignorato da noi, con l’eccezione dell’Across Asia Film Festival di Cagliari che ne ha proposto l’anteprima nazionale.
 

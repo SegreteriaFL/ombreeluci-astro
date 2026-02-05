@@ -15,7 +15,8 @@ umap_x: 7.93655252456665
 umap_y: 7.10237979888916
 umap_z: 11.28478717803955
 issue_number: OEL-25
-id_numero: OEL-25
+id_numero: "OEL-25"
+numero_rivista: "Ombre e Luci"
 ---
 A me l’esperienza del campeggio è piaciuta perché abbiamo fatto tante bellissime cose interessanti. Il primo giorno abbiamo fatto il mimo del «Magnificat» che è il canto di gioia della Madonna. Io, con la danza ho rappresentato la Madonna che ballava. Le persone, a vedermi ballare così bene, si sono commossi tutti e sono rimasti contenti. Anche Marina era tanto commossa ed ha detto: «Sono senza parole». Don Vito, quando stavo a ballare, in quel momento, mi ha scattato una fotografia per ricordo di questa ballerina così bravissima, per far vedere alle altre persone, quando vanno nel posto.
 

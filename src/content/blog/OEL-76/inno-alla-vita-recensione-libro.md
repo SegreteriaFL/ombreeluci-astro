@@ -12,8 +12,9 @@ umap_x: 7.265512943267822
 umap_y: 11.348052024841309
 umap_z: 5.297199726104736
 issue_number: OEL-76
+id_numero: "OEL-76"
+numero_rivista: "Ombre e Luci"
 ---
-
 In questo libro sono raccolti i temi e le poesia di Erika, scritti durante la sua breve ma assai intensa vita. Erika infatti è stata, come tanti altri, vittima della strada.
 
 Ciò che più mi ha colpito di questo libro è la maturità che lei dimostra nei suoi scritti sin dalla prima elementare, in cui ammira le meraviglie del creato, commenta una giornata passata con un’amica o un bel dono ricevuto, quando molte altre persone considerano tutto ciò scontato.

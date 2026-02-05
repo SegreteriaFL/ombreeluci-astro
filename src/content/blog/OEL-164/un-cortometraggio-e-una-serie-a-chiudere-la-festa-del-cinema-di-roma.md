@@ -12,8 +12,9 @@ umap_x: 9.332677841186523
 umap_y: 7.827835559844971
 umap_z: 2.658247232437134
 issue_number: OEL-164
+id_numero: "OEL-164"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Abbiamo un problema: sei grassa». La protagonista (Carolina Crescentini) di *Unfitting* , il cortometraggio di Giovanna Mezzogiorno presentato alla 18esima edizione della Festa del Cinema di Roma, è un’attrice che sente ripetersi in continuazione questa frase. Glielo dice un produttore, una regista, una costumista, un ufficio stampa e chi più ne ha più ne metta. Il risultato? **La donna, nonostante sia brava e con una solida carriera alle spalle, è quasi costretta a smettere di lavorare.**
 
 Una narrazione autobiografica quella di Mezzogiorno che, a seguito della nascita dei due figli, ha subito quello che oggi viene chiamato *body shaming* e altro non è che vero e proprio bullismo da parte di una società dove vige la dittatura dell’estetica. Tutto deve essere perfetto, patinato, taglia 38. Altrimenti per i giudici dei social network e di altri certi mondi sei uno scarto e non vali nulla.

@@ -4,8 +4,8 @@ date: 2005-03-16
 author: Laura Nardini
 slug: ii-padre-e-lo-straniero-recensione
 lang: it
-numero_rivista: 89
-id_numero: OEL-89
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-89"
 issue_number: OEL-89
 wp_id: 30699
 original_url: "https://www.ombreeluci.it/?p=30699"
@@ -15,7 +15,6 @@ umap_x: 7.243659973144531
 umap_y: 11.439735412597656
 umap_z: 4.915788173675537
 ---
-
 L
 a lettura di questo romanzo è scorrevole e il suo intreccio accattivante. Il protagonista e il coprotagonista sono entrambi padri di due bambini gravemente handicappati. Diego è un impiegato con un carattere mite, con una vita monotona, un matrimonio fragile e un figlio con il quale ha un rapporto superficiale. La sua vita viene improvvisamente sconvolta dall'incontro con un uomo mediorientale, anche lui padre di un bambino handicappato. Fra i due nasce un'amicizia profonda perché ad unirli è la condivisione del dolore. Diego, per la prima volta nella sua vita, sente di essere compreso e riesce a condividere con qualcuno tutto il suo disagio e la sua sofferenza. Grazie a questa amicizia riesce a far emergere l'amore per il figlio e a mettere da parte la vergogna, ma si ritrova coinvolto in un'avventura intessuta di sparatorie, agguati e oscure trame. Deve molto a quest'uomo del quale non conosce la vera identità, ma conosce profondamente il suo essere, così in nome di quest'amicizia sarà pronto a sacrificare la sua famiglia e la sua stessa vita. E in nome dell'amicizia e della condivisione riuscirà a guardare con rinnovata speranza il futuro.
 *Laura Nardini*

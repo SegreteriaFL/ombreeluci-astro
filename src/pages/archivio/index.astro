@@ -1,36 +1,31 @@
 ---
+import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import IssueCard from '../../components/IssueCard.astro';
 import { ViewTransitions } from 'astro:transitions';
 import '../../styles/global.css';
-import numeriData from '../../data/numeri_consolidati.json';
 
-// Carica i dati dei numeri (tutti i 197)
-const numeri = numeriData as Array<{
-  id_numero: string;
-  tipo_rivista: string;
-  numero_progressivo: number;
-  display_title: string;
-  titolo_numero: string;
-  anno_pubblicazione: number;
-  periodo_label?: string;
-  copertina_url?: string;
-  [key: string]: any;
-}>;
-
-// Estrai anni unici per il filtro
-const anni = Array.from(new Set(numeri.map((n) => n.anno_pubblicazione)))
-  .filter((y) => y != null)
-  .sort((a, b) => b - a);
-
-// Ordina i numeri per data (più recenti prima) di default
-const numeriOrdinati = [...numeri].sort((a, b) => {
-  const annoA = a.anno_pubblicazione ?? 0;
-  const annoB = b.anno_pubblicazione ?? 0;
-  if (annoA !== annoB) return annoB - annoA;
-  return (b.numero_progressivo ?? 0) - (a.numero_progressivo ?? 0);
+// Carica i numeri dalla content collection e ordina per sort_order discendente (ultimo uscito primo, es. OEL-172)
+const rawNumeri = await getCollection('numeri');
+const numeriOrdinati = [...rawNumeri].sort((a, b) => {
+  const orderA = a.data.sort_order ?? 0;
+  const orderB = b.data.sort_order ?? 0;
+  return orderB - orderA;
 });
+
+// Deriva anno da pubDate per filtro e card
+function annoFromNumero(entry: (typeof rawNumeri)[0]): number {
+  const pub = entry.data.pubDate;
+  if (!pub) return 0;
+  const d = typeof pub === 'string' ? new Date(pub) : pub;
+  return d.getFullYear();
+}
+
+// Estrai anni unici per il filtro (dal più recente)
+const anni = Array.from(new Set(numeriOrdinati.map((n) => annoFromNumero(n))))
+  .filter((y) => y != null && y > 0)
+  .sort((a, b) => b - a);
 ---
 
 <html lang="it">
@@ -50,7 +45,7 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
       body {
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
         line-height: 1.6;
-        color: var(--text-color, #2d2d2d);
+        color: var(--text-color);
         background: var(--bg-light, #f5f5f3);
       }
 
@@ -67,13 +62,13 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
       .archivio-title {
         font-size: 2.5rem;
         font-weight: 700;
-        color: #1a1a1a;
+        color: var(--text-color);
         margin-bottom: 0.5rem;
       }
 
       .archivio-subtitle {
         font-size: 1.125rem;
-        color: #666;
+        color: var(--text-secondary);
         margin-bottom: 2rem;
       }
 
@@ -96,7 +91,7 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
       .filter-label {
         font-size: 0.875rem;
         font-weight: 400;
-        color: #666;
+        color: var(--text-secondary);
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
       }
 
@@ -106,7 +101,7 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
         border-radius: 8px;
         font-size: 0.9375rem;
         background: rgba(0, 0, 0, 0.05);
-        color: #333;
+        color: var(--text-color);
         cursor: pointer;
         transition: all 0.2s ease;
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
@@ -125,7 +120,7 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
       .results-count {
         margin-left: auto;
         font-size: 0.9375rem;
-        color: #666;
+        color: var(--text-secondary);
         font-weight: 500;
       }
 
@@ -142,13 +137,13 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
       .no-results {
         text-align: center;
         padding: 4rem 2rem;
-        color: #666;
+        color: var(--text-secondary);
       }
 
       .no-results-title {
         font-size: 1.5rem;
         margin-bottom: 0.5rem;
-        color: #333;
+        color: var(--text-color);
       }
 
       .no-results-text {
@@ -212,7 +207,7 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
       <div class="filters-container">
         <div class="filter-group">
           <label for="filter-anno" class="filter-label">Anno</label>
-          <select id="filter-anno" class="filter-select">
+          <select id="filter-anno" class="filter-select" data-filter-year>
             <option value="">Tutti gli anni</option>
             {anni.map(anno => (
               <option value={anno}>{anno}</option>
@@ -222,9 +217,9 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
 
         <div class="filter-group">
           <label for="filter-testata" class="filter-label">Testata</label>
-          <select id="filter-testata" class="filter-select">
+          <select id="filter-testata" class="filter-select" data-filter-type>
             <option value="">Tutte</option>
-            <option value="ombre_e_luci">Ombre e Luci</option>
+            <option value="ombreeluci">Ombre e Luci</option>
             <option value="insieme">Insieme</option>
           </select>
         </div>
@@ -238,30 +233,36 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
         </div>
 
         <div class="results-count" id="results-count">
-          {numeri.length} numeri
+          {numeriOrdinati.length} numeri
         </div>
       </div>
 
       <div class="issues-grid" id="issues-grid">
-        {numeriOrdinati.map(numero => (
-          <div
-            class="issue-card-wrapper"
-            data-id={numero.id_numero}
-            data-anno={numero.anno_pubblicazione ?? ''}
-            data-tipo={numero.tipo_rivista}
-            data-numero={numero.numero_progressivo ?? 0}
-          >
-            <IssueCard
-              cover_url={numero.copertina_url}
-              titolo_numero={numero.titolo_numero}
-              numero={numero.numero_progressivo}
-              anno={numero.anno_pubblicazione}
-              periodo_label={numero.periodo_label}
-              tipo_rivista={numero.tipo_rivista}
-              id_numero={numero.id_numero}
-            />
-          </div>
-        ))}
+        {numeriOrdinati.map((entry) => {
+          const d = entry.data;
+          const anno = annoFromNumero(entry);
+          const tipoFilter = d.tipo === 'insieme' ? 'insieme' : 'ombreeluci';
+          const tipoRivista = d.tipo === 'insieme' ? 'insieme' : 'ombre_e_luci';
+          return (
+            <div
+              class="issue-card-wrapper"
+              data-id={d.id ?? entry.slug}
+              data-year={anno || ''}
+              data-type={tipoFilter}
+              data-numero={d.numero ?? d.numero_progressivo ?? 0}
+            >
+              <IssueCard
+                cover_url={d.copertina ?? d.copertina_url}
+                titolo_numero={d.title ?? d.titolo_numero ?? d.display_title ?? ''}
+                numero={d.numero ?? d.numero_progressivo ?? 0}
+                anno={anno}
+                periodo_label={d.periodo_label ?? d.data_pubblicazione}
+                tipo_rivista={tipoRivista}
+                id_numero={d.id ?? entry.slug}
+              />
+            </div>
+          );
+        })}
       </div>
 
       <div class="no-results" id="no-results" style="display: none;">
@@ -283,23 +284,23 @@ const numeriOrdinati = [...numeri].sort((a, b) => {
         var wrappers = Array.from(issuesGrid.querySelectorAll('.issue-card-wrapper'));
 
         function filterAndSort() {
-          var annoFiltro = filterAnno.value;
-          var testataFiltro = filterTestata.value;
+          var annoFiltro = filterAnno.value.trim();
+          var testataFiltro = filterTestata.value.trim();
           var ordineFiltro = filterOrdine.value;
 
           wrappers.forEach(function(w) {
-            var anno = w.getAttribute('data-anno');
-            var tipo = w.getAttribute('data-tipo');
-            var matchAnno = !annoFiltro || anno === annoFiltro;
-            var matchTipo = !testataFiltro || tipo === testataFiltro;
-            w.style.display = matchAnno && matchTipo ? '' : 'none';
+            var year = String(w.getAttribute('data-year') || '');
+            var type = String(w.getAttribute('data-type') || '');
+            var matchYear = !annoFiltro || year === annoFiltro;
+            var matchType = !testataFiltro || type === testataFiltro;
+            w.style.display = matchYear && matchType ? '' : 'none';
           });
 
           var visible = wrappers.filter(function(w) { return w.style.display !== 'none'; });
 
           visible.sort(function(a, b) {
-            var annoA = parseInt(a.getAttribute('data-anno') || '0', 10);
-            var annoB = parseInt(b.getAttribute('data-anno') || '0', 10);
+            var annoA = parseInt(a.getAttribute('data-year') || '0', 10);
+            var annoB = parseInt(b.getAttribute('data-year') || '0', 10);
             var numA = parseInt(a.getAttribute('data-numero') || '0', 10);
             var numB = parseInt(b.getAttribute('data-numero') || '0', 10);
             if (annoA !== annoB) return ordineFiltro === 'desc' ? annoB - annoA : annoA - annoB;

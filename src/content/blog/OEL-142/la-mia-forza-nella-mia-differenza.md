@@ -12,7 +12,8 @@ umap_x: 7.295086860656738
 umap_y: 8.96701717376709
 umap_z: 8.043278694152832
 issue_number: OEL-142
-id_numero: OEL-142
+id_numero: "OEL-142"
+numero_rivista: "Ombre e Luci"
 ---
 **Lei è uno dei rari eletti regionali, portatore di handicap. Vive questo come una vittoria? Il suo handicap le è stato di freno nel suo percorso? ** Il mio impegno politico non è legato al mio handicap. Mi sono impegnato nel desiderio di mettermi al servizio degli altri. Un desiderio rinforzato lavorando come neuropsicologo nel servizio pubblico ospedaliero. Inoltre amo molto la mia città, Boulogne e desidero investire nella vita della mia città. Il mio handicap non è stato di ostacolo nel mio percorso. Ho cercato di fare della mia differenza una forza. In politica è sempre utile essere riconosciuti e distinguersi dagli altri. Dal momento che ho un handicap evidente, questo avviene automaticamente. Per la strada la gente mi interpella perché sono facilmente riconoscibile attraverso il notiziario del municipio. Quanto alle mie limitazioni fisiche, l’impegno politico mi spinge ad andare oltre. La mia patologia è fluttuante, ci sono dei giorni in cui mi sento bene e altri un po’ meno. Con tutti i miei impegni, la politica mi incoraggia a superare me stesso. Delle volte sono fiero di riuscire a fare più degli altri. Nello sguardo degli altri posso leggere dei dubbi sulla mia capacità di assumere delle responsabilità e di svolgere delle attività a ritmo sostenuto. Mi sforzo allora di dimostrare che la differenza, in questo caso, fisica, non mi limita nel lavoro e nella competenza. Spero che ciò possa far cambiare mentalità in questo ambito. Essendo io stesso disabile, spesso il solo, attorno ad un tavolo di lavoro, nelle riunioni alle quali posso partecipare, porto un punto di vista particolare sulla disabilità in ogni campo.
 

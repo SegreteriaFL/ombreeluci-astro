@@ -7,6 +7,7 @@ cluster_id: 6
 image: "http://www.ombreeluci.it/wp-content/uploads/2019/10/la-tua-vita-e-la-mia-cop-148x300.jpg"
 slug: "la-tua-vita-e-la-mia"
 has_comments: false
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

@@ -14,7 +14,8 @@ umap_x: 8.110739707946777
 umap_y: 8.665987968444824
 umap_z: 7.857131481170654
 issue_number: OEL-152
-id_numero: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
 «Sono un difensore dei diritti umani». Così si presenta Giampiero Griffo, attivo fin dal 1972 nell’associazionismo legato alla disabilità. Colpito dalla poliomielite a un anno («Allora non c’erano vaccini»), ha lavorato come bibliotecario alla Nazionale di Napoli e ora è in pensione. In pensione per modo di dire: «Opero per sostenere e promuovere i diritti umani delle persone con disabilità in vari contesti nazionali e internazionali». Membro del consiglio mondiale di *Disabled People’s International* , del consiglio dell’ [*European Disability Forum*](https://www.edf-feph.org/) (Edf), della Federazione Italiana per il Superamento dell’Handicap e del Comitato economico e sociale coordinato da Vincenzo Colao, Griffo è presidente della Rete italiana disabilità e sviluppo e coordinatore del Comitato Tecnico-scientifico dell’Osservatorio nazionale sulla condizione delle persone con disabilità.
 

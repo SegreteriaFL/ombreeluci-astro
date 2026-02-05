@@ -12,8 +12,9 @@ umap_x: 6.174234390258789
 umap_y: 6.4928083419799805
 umap_z: 9.044169425964355
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 «Labuona notizia è che qualcosa si muove… che si riesca ad approdare a qualcosa di concreto è ancora una speranza lontana. Intanto si muove l’affetto, con le numerose attestazioni di solidarietà. Le istituzioni sembra abbiano preso a cuore la nostra vicenda, e lo dico con tutta la prudenza necessaria sapendo che ancora non abbiamo una risposta certa. Ci auguriamo che invece di una disfatta questa cosa rappresenti un’opportunità».
 
 All’inizio di questa storia, capirete, c’è stata una brutta notizia. Ma andiamo per gradi. C’è una scuola di vela a Pescia Romana che si chiama Mal di Mare e che è stata fondata nel 1995 da Mauro Pandimiglio. È una scuola aperta in via privilegiata a bambini e giovani fino ai 18 anni che, dal 1999, ha la sua cifra costitutiva nell’inclusione concreta a tutte le differenti abilità: un luogo in cui ognuno trova uno spazio a quel che è, così come è. A parte il non saper nuotare, la partecipazione alle settimane residenziali insieme agli altri non è preclusa da sindromi di vario genere, paralisi cerebrali, disturbi della comunicazione, della relazione e dell’attenzione, disagi sociali o psichiatrici... In un ambiente particolare come la riva del mare – la spiaggia, un confine naturale in cui due mondi si incontrano ed è naturalmente più facile incontrare anche gli altri – si scoprono e imparano cose importanti non solo del mare ma anche di se stessi. Un sostegno che per molti giovani è stato fondamentale soprattutto nel momento delicato della pandemia che ha visto il disagio psicologico dei giovani crescere vertiginosamente.

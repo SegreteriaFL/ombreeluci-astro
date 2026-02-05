@@ -12,7 +12,8 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-138
-id_numero: OEL-138
+id_numero: "OEL-138"
+numero_rivista: "Ombre e Luci"
 ---
 *Incontriamo la comunità a pranzo e approfondiamo la conoscenza con il presidente Gaspare Ferella e Anna Romano, responsabile della progettazione sociale.*
 

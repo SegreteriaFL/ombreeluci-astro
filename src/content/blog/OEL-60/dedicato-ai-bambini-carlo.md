@@ -4,8 +4,8 @@ date: 1997-12-15
 author: Pennablù
 slug: dedicato-ai-bambini-carlo
 lang: it
-numero_rivista: 60
-id_numero: OEL-60
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-60"
 issue_number: OEL-60
 wp_id: 11824
 original_url: "https://www.ombreeluci.it/?p=11824"
@@ -18,7 +18,6 @@ umap_x: 5.124607563018799
 umap_y: 8.180964469909668
 umap_z: 8.687536239624023
 ---
-
 P
 uò un bambino di nove anni scegliere di tacere sempre? Può fingere di non vedere i compagni, la maestra, i banchi, le finestre e tutto quello che esiste in una classe numerosa di quarta elementare? Può scegliere di non sentire, o fingere di non sentire, i discorsi, i richiami, gli inviti, le urla, le risate e tutti i rumori che durante le lezioni e la ricreazione risuonano intorno a lui? Questo si chiedono i compagni di Carlo e non capiscono. Non capiscono come possa, questo loro compagno, così simile fisicamente a tutti loro, restare assorto per tanto tempo, girando fra le mani un lungo spago colorato o spezzettando la carta in minutissimi frammenti. Vorrebbero almeno sapere “se è triste” o “è arrabbiato” o “se fosse in un altro posto sarebbe più contento?" “È timido?" “È annoiato?". Poi capita che, un giorno, all'improvviso, sia attratto irresistibilmente da qualcosa di nuovo: le matite colorate, un cartellone diverso, un temperamatite insolito. Ed eccolo, allora, proteso, con gli occhi imploranti, con piccole grida prepotenti. Anche i compagni più disinvolti sono intimiditi e chi ha provato tante volte a parlargli, è scoraggiato. “Maestra, non ci guarda proprio! “Non gliene importa niente di nessuno!
 > "Dai, non fare così... Io sto peggio se piangi”.

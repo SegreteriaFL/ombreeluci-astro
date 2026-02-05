@@ -14,8 +14,9 @@ umap_x: 6.783120632171631
 umap_y: 10.958953857421875
 umap_z: 5.711358070373535
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 Quando venne il nostro turno e mi fu detto di attendere l’arrivo del medico scolastico, mi piegai all’ineluttabile. Dopotutto era solo una visita di routine. Ma non fu come mi aspettavo. Ho spesso sperato che il medico scolastico che venne a vedere Paul quel giorno non fosse tipico del suo genere. Stava lì sull’uscio di casa: una donna corpulenta, pesante, in abiti sportivi, con l’ampio petto addirittura fremente per l’eccitazione. Non ci eravamo mai viste prima, ma lei si dispensò dalle presentazioni. Avevo fatto appena in tempo ad aprire la porta che mi annunciò con grande fervore: «Non vedo l’ora di esaminare suo figlio. Lei pensa che possa essere cretino?” Fui travolta da una rabbia cieca, e non so cosa avrei dato per sbattere la porta o, meglio ancora, il mio pugno serrato sul suo viso allegro.
 
 **Leggi anche ["Si legge tutto d'un fiato -](https://www.ombreeluci.it/2000/si-legge-tutto-dun-fiato-recensione-del-libro-blessings-di-mary-craig/) [la recensione del libro «Blessings»"](https://www.ombreeluci.it/2000/si-legge-tutto-dun-fiato-recensione-del-libro-blessings-di-mary-craig/)**

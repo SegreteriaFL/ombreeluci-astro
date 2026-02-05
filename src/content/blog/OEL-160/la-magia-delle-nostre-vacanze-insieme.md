@@ -14,8 +14,9 @@ umap_x: 8.059700012207031
 umap_y: 6.930318355560303
 umap_z: 11.552994728088379
 issue_number: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 Equipe intensive. Telefonate interminabili. Liste accuratissime. Messaggi su messaggi. Preparazione mimo, balli, canti. Gioia a mille. Conto alla rovescia. E poi, finalmente, il gran giorno! **Il momento più atteso da tutti noi amici di Fede e Luce: l’inizio del Campo!** Viene organizzato tutto nel dettaglio, ma credo che si faccia per scoprire, una volta iniziato tutto, che molte delle cose previste non saranno mai come le avevamo pensate. L’arrivo in struttura è l’attimo più emozionante. Molti di noi svolgono il campo nella stessa struttura ormai da anni, ma penso che tutti condividiamo la stessa euforia nel momento in cui incanaliamo la strada che ci porta lì.
 
 All’arrivo baci e abbracci riempiono le stanze, sembra di non esserci visti per un’eternità, ci riconosciamo, ci ripresentiamo e ci salutiamo, come se quello fosse un nuovo momento, un nuovo inizio... come ogni anno! Nella mia comunità le dinamiche sono sempre le stesse: alcuni sono occupati nel prendere tutte le valigie dalle macchine, altri svuotano il furgone pieno di cibo e riempiono la cucina di tante bontà, altri sono addetti all’accoglienza (tendenzialmente sono i più bravi ad abbracciare e non riescono a farne a meno), le giovani leve sono in giro per la struttura a terminare l’organizzazione delle stanze, c’è chi appena arriva si mette a lavare stanza e bagno e poi c’è chi chiede, dopo un minuto, quando si andrà in piscina.

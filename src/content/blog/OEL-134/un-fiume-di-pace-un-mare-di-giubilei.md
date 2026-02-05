@@ -14,7 +14,8 @@ umap_x: 8.852617263793945
 umap_y: 9.550086975097656
 umap_z: 11.00900650024414
 issue_number: OEL-134
-id_numero: OEL-134
+id_numero: "OEL-134"
+numero_rivista: "Ombre e Luci"
 ---
 Se
 il cristianesimo è, come crediamo, l’incontro con una persona, il Cristo risorto e vivente, il Giubileo è un’occasione preziosa per vivere la sua vicinanza e il suo perdono. In quest’anno dedicato alla misericordia, mentre molti si preparavano al pellegrinaggio a Roma per le giornate dedicate ai malati e alle persone disabili, come Un Fiume di Pace abbiamo deciso di affrontare questa esperienza gioiosa unendo le comunità in giornate di riflessione e preghiera. Alcuni gruppi hanno già vissuto minipellegrinaggi in qualche Porta Santa, ma abbiamo anche voluto condividere giornate intere secondo i diversi territori del Nord Italia.

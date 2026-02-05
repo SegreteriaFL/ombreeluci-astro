@@ -7,6 +7,7 @@ cluster_id: 11
 image: "http://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_24_1988-210x300.jpg"
 slug: "dialogo-aperto-n-24"
 has_comments: false
+id_numero: "OEL-24"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

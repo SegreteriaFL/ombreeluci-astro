@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-36
-id_numero: OEL-36
+id_numero: "OEL-36"
+numero_rivista: "Ombre e Luci"
 ---
 Effatà, apriti.
 Carlo Maria martini - Ed. Centro Ambrosiano Milano. Pag. 108 - L. 6.000

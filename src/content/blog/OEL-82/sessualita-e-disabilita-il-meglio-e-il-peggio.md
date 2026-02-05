@@ -6,8 +6,8 @@ theme: "cluster-1"
 cluster_id: 1
 slug: "sessualita-e-disabilita-il-meglio-e-il-peggio"
 lang: it
-numero_rivista: 82
-id_numero: OEL-82
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-82"
 issue_number: OEL-82
 wp_id: 26762
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 ---
-
 Noi, esseri umani, viviamo una contraddizione fondamentale. Da un lato siamo assetati d’infinito, non siamo mai soddisfatti. Dall’altro siamo nel limite, nel finito. Si vuole l’amore e si ha paura dell’amore; si desidera essere amati ma si ha paura di impegnarsi nell’amore. Si vuole un amore incondizionato ma, allo stesso tempo, si vuol essere liberi di far ciò che si vuole.
 
 ### Il tesoro dell'umanità

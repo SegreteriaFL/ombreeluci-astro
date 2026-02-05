@@ -12,7 +12,8 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-147
-id_numero: OEL-147
+id_numero: "OEL-147"
+numero_rivista: "Ombre e Luci"
 ---
 Quando è troppo, è troppo: Rospella, la bambina tutta da rifare (secondo la mamma e il medico Tiriparo) a un certo punto dice basta. “Io li guardo e mi domando: / ‘Ma tra noi chi è da curare?’. / E scafandro tubi e benda / vado subito a levare”. È meraviglioso il libro di Anna Sarfatti, accompagnato dagli splendidi disegni di Eleonora Marton, che racconta le amorevoli e infinte torture subite dalla piccola fino al giorno della ribellione. Capace di aver uno sguardo sano su di sé, Rospella scopre che i suoi difetti non solo sono tollerabili, ma possono essere addirittura valorizzati. Insegnando agli amici – un po’ da rifare anche loro (come tutto il genere umano, a guardar bene) – il segreto per vivere felici. “Ed i panni del rospetto / butto via senza rimpianto / e allo specchio mi presento: / SON ROSPELLA E ME NE VANTO!”.
 

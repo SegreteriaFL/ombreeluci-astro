@@ -11,8 +11,9 @@ tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 issue_number: OEL-144
+id_numero: "OEL-144"
+numero_rivista: "Ombre e Luci"
 ---
-
 Le [**Paralimpiadi invernali di PyeongChang**](https://www.wired.it/attualita/media/2018/03/08/paralimpiadi-2018-azzurri/) – appurato che l’appeal rispetto alle versioni estive è drasticamente più basso e questo vale anche per i Giochi olimpici – aiuteranno la **disabilità** ad entrare dalla porta principale nella quotidianità degli italiani anziché obbligarla ad alternare piedistalli dorati alle cantine più buie, senza un’apparente via di mezzo? Alle persone con disabilità, in particolar modo quelle che fanno sport, manca soltanto di essere accostati all’aggettivo “santi”. Sì, perché da “coraggiosi”, “poverini” e, per completare il quadro, “eroi”, già sono affiancati da sempre. Tutto parte dall’idea che la mancata perfezione (una gamba in meno per esempio) oppure che un fatto di per sé sfortunato (un incidente), possano porre una persona al di sopra della normalità. Una posizione che si espone inevitabilmente al giudizio altrui, buono o cattivo che sia.
 
 E allora la persona con disabilità diventa sempre “*altro*”, diventa qualcuno che un tempo bisognava nascondere, per vergogna o protezione, a seconda dei casi, e che, oggi, per contrasto netto e naturale dovuto ai tempi che cambiano e dovuto soprattutto allo sport, è diventato un “altro” **positivo**, **esagerato**, **eroico**, appunto.

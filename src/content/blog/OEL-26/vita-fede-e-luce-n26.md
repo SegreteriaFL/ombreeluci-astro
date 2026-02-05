@@ -18,7 +18,8 @@ umap_x: 8.079715728759766
 umap_y: 7.05025577545166
 umap_z: 12.019558906555176
 issue_number: OEL-26
-id_numero: OEL-26
+id_numero: "OEL-26"
+numero_rivista: "Ombre e Luci"
 ---
 ### Torneo Fede e Luce a Roma
 

@@ -10,15 +10,15 @@ wp_id: 76
 has_comments: false
 image: "https://www.ombreeluci.it/wp-content/uploads/1983/03/Archivio-Num.-1-1983-1.png"
 pdf_url: "https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf"
-numero_rivista: 1
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-1
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/1983/03/Archivio-Num.-1-1983-1.png"
 tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
+id_numero: "OEL-1"
 ---
-
 ### Che cosa è la Messa?
 
 La Messa è, intorno a Gesù e in Lui, la cena di famiglia dei figli di Dio, nella casa del Padre. Con Gesù e in Lui, stessi si offrono con le loro gioie e le loro pene a questo Dio Padre. Questo dono è qualcosa di sacro: un "sacrificio" vissuto nell’amore filiale e fraterno.

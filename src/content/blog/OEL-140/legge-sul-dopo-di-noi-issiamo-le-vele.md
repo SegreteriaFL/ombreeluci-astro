@@ -16,8 +16,9 @@ umap_x: 9.45715045928955
 umap_y: 7.761724948883057
 umap_z: 7.032385349273682
 issue_number: OEL-140
+id_numero: "OEL-140"
+numero_rivista: "Ombre e Luci"
 ---
-
 *A Genzano nell’ottobre scorso, i familiari e gli amici delle comunità Fede e Luce del Centro Italia (Kimata) si sono incontrati con alcuni esperti per approfondire gli argomenti e alcuni aspetti tecnici della legge sul Dopo di Noi in una Giornata di formazione dal titolo **Issate le vele!***
 
 Sembra un paradosso, ma mentre ascoltavo le perfette spiegazioni dei relatori ho pensato a una rivoluzione copernicana. Con la legge 112/2016 si parte dalla centralità della persona con disabilità, dal riconoscimento che non può essere deportata dall'oggi al domani in una struttura lontana dal suo tessuto sociale e veder interrotto tutto il percorso di vita costruito fino a quel momento. Non viene presa in considerazione solo la sopravvivenza, ma la vita relazionale, affettiva, ludica.

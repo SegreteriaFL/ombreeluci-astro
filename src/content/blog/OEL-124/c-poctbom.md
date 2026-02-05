@@ -14,8 +14,9 @@ umap_x: 5.622737407684326
 umap_y: 5.8806328773498535
 umap_z: 12.383035659790039
 issue_number: OEL-124
+id_numero: "OEL-124"
+numero_rivista: "Ombre e Luci"
 ---
-
 Prima di tutto devo dire che nella nostra Chiesa la festa principale con tante tradizioni, cibo speciale, riti speciali, auguri speciali è la Pasqua. Nel paese invece, quello che unisce credenti di tutte le regioni e non credenti è il Capodanno. Siccome dopo la rivoluzione del 1917 i festeggiamenti natalizi furono aboliti, vennero poi riprodotti laicizzati in riferimento al Capodanno.
 
 **Il Babbo Natale con la nipotina Nevicella vengono per il Capodanno** , l’albero viene addobbato per il Capodanno, i doni, montagne di doni e il cenone che dura tutta la notte e cosi via... Inoltre c’è il problema del calendario: la nostra Chiesa vive secondo il calendario giuliano, il paese invece secondo quello gregoriano. Cioe il Natale “ortodosso” arriva il 7 gennaio, dopo il Capodanno, il che rappresenta un gran problema per quelli che seguono il digiuno dell’Avvento che è quasi altrettanto rigoroso come quello di Quaresima: niente carne, latte, uova.

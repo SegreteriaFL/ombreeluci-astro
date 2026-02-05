@@ -12,7 +12,8 @@ umap_x: 7.629373073577881
 umap_y: 9.748350143432617
 umap_z: 5.405176639556885
 issue_number: OEL-160
-id_numero: OEL-160
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
 Mentre la giunta leghista sfratta a Muggia la statua di Marco Cavallo (simbolo della rivoluzione di Basaglia), mentre il disagio mentale cresce in modo esponenziale (tra pandemia, guerra e crisi economica), questo gioiellino compie 10 anni. **A raccontare la storia è Paolo, il figlio della lavandaia del San Giovanni, l’unico bambino a vivere nel manicomio di Trieste, dove il parco è recintato, le finestre sbarrate, le porte chiuse a chiave: i matti non possono uscire.** Oltre al nonno e a Ernesto («Saba», compagno di scuola), l’unico vero amico di Paolo è Marco, l’anziano ronzino addetto al trasporto di biancheria, scarti di cibo e roba vecchia. Improvvisamente due eventi rompono la routine: la minaccia della macellazione che incombe su Marco e l’arrivo di un nuovo dottore («Matto come un cavallo e ostinato come il vento») che vuole abbattere quelle cancellate. Nel gioco di ombre e di colori, è un libro in cui linguaggi, tempi e scenari del manicomio si trasformano nel linguaggio, nel tempo e nello scenario di una favola.
 

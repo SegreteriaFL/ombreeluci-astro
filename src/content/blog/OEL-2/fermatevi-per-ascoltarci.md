@@ -16,14 +16,14 @@ pdf_url: "https://archive.org/download/OmbreELuci_002/Ombre-e-Luci-n.2.pdf"
 archive_id: OmbreELuci_002
 copertina_url: "https://www.ombreeluci.it/wp-content/uploads/2017/10/2-1.jpg"
 periodo_label: Aprile, Maggio, Giugno
-numero_rivista: 2
+numero_rivista: "Ombre e Luci"
 anno_rivista: 1983
 issue_number: OEL-2
 umap_x: 6.8542399406433105
 umap_y: 9.63109016418457
 umap_z: 7.596464157104492
+id_numero: "OEL-2"
 ---
-
 Patrick: “Non potete immaginare la mia gioia quando mi vedo considerato come una persona relativamente normale. La gente ignora le nostre facoltà intellettive, perché abbiamo un viso segnato e difficoltà a esprimerci.
 **Se prendessero il tempo per fermarsi**
 , per ascoltarci, per trovare il nostro cuore al di là della nostra apparenza, non avrebbero più paura e

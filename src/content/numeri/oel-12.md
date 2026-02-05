@@ -1,15 +1,39 @@
 ---
 id: "OEL-12"
-title: "Numero 12 - Perché mi guardi"
+title: "Numero 12 – Perché mi guardi"
 tipo: "ombre-e-luci"
 numero: 12
-anno: "1985"
+sort_order: 111
+pubDate: "1985-01-01T00:00:00Z"
 data_pubblicazione: "1985"
 sommario: "Lo sguardo, “quella finestra sul mondo attraverso la quale ci formiamo un’immagine interiore” dice Marie Hélène Mathieu. Il nostro sguardo è una forza potente, l’inizio semplice ed evidente di una comunione al di là di ogni parola, di ogni gesto. Ancora: l’istituto Medaglia Miracolosa di Arezzo, un esempio di scuola integrata in un istituto religioso."
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_12_1985.jpg"
 link_sfoglia: ""
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/numero-12-perche-mi-guardi/"
+articoli:
+  - "ombre-luci-n-12-1985-sfogliabile"
+  - "natale-a-lubiana"
+  - "bocca-ride-ma-occhi-non-buoni"
+  - "il-peso-degli-sguardi"
+  - "quella-fredda-domenica-dinverno"
+  - "integrazione-non-parola"
+  - "le-condizioni-per-una-scuola-cosi"
+  - "il-bambino-difficile"
+  - "dialogo-aperto-n-12"
+  - "vita-fede-luci-n-12"
+  - "incontro-gesu"
+  - "natale-a-lubiana"
+  - "bocca-ride-ma-occhi-non-buoni"
+  - "integrazione-non-parola"
+  - "il-peso-degli-sguardi"
+  - "quella-fredda-domenica-dinverno"
+  - "il-bambino-difficile"
+  - "incontro-gesu"
+  - "112-suggerimenti-un-corretto-rapporto-gli-handicappati"
+  - "vita-fede-luci-n-12"
+  - "dialogo-aperto-n-12"
+  - "le-condizioni-per-una-scuola-cosi"
 ---
 
 ## Indice

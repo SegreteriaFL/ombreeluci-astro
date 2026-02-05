@@ -12,7 +12,8 @@ umap_x: 8.07800006866455
 umap_y: 9.743464469909668
 umap_z: 10.219283103942871
 issue_number: OEL-73
-id_numero: OEL-73
+id_numero: "OEL-73"
+numero_rivista: "Ombre e Luci"
 ---
 «Dammi, o Signore, un'ala di riserva», recita una, ormai celebre, preghiera di don Tonino Bello. C’è chi di ali ne ha una sola e per giunta ammaccata, segnata, ferita, eppure con quella riesce, spesso meglio di altri, ad aiutare i fratelli e a far funzionare la propria ala «impigliata» negli scogli della vita. Nel pianeta della solidarietà e dell’amore non si è sottoposti alle rigide e perverse regole di una corrente mentalità, secondo la quale produce di più chi è efficiente, svelto, potente, vicino all’immagine patinata della perfezione.
 

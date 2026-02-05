@@ -4,8 +4,8 @@ date: 2007-12-10
 author: Redazione
 slug: fede-e-luce-larca-ombre-e-luci
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32785
 original_url: "https://www.ombreeluci.it/?p=32785"
@@ -15,7 +15,6 @@ umap_x: 7.865104675292969
 umap_y: 9.937578201293945
 umap_z: 12.931193351745605
 ---
-
 ### Fede e luce
 
 Movimento fondato nel 1971 in Francia da Jean Vanier e Marie-Hélène Mathieu e promosso dal 1974 da Mariangela Bertolini e Madre Ida. Comunità di incontro che riuniscono persone disabili mentali, le loro famiglie e i loro amici

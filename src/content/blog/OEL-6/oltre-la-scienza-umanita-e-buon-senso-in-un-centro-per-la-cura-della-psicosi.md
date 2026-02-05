@@ -12,7 +12,8 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 issue_number: OEL-6
-id_numero: OEL-6
+id_numero: "OEL-6"
+numero_rivista: "Ombre e Luci"
 ---
 «Mi pareva di avere un mostro. Il mio bambino è rinato adesso. L’ho odiata perché mio figlio voleva più bene a lei che a me! Ora me l’ha restituito!» Nel ricordo appassionante di queste parole dettele per telefono da una madre, la voce di Piera Toschi si è alzata sul tono pacato con cui racconta momenti di una vita dedicata a capire, aiutare e curare, bambini psicotici.
 Siamo a Firenze, via Lungo l’Affrico n. 246. Qui c’è un Centro Specializzato per Psicotici; sembra che sia una rarità, perciò siamo venuti a conoscerlo.

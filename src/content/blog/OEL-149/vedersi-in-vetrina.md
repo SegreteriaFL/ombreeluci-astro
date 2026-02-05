@@ -12,7 +12,8 @@ umap_x: 7.30224084854126
 umap_y: 9.215485572814941
 umap_z: 8.165021896362305
 issue_number: OEL-149
-id_numero: OEL-149
+id_numero: "OEL-149"
+numero_rivista: "Ombre e Luci"
 ---
 Essere liberi di scegliere un capo di abbigliamento, decidere se privilegiare la comodità o l’eleganza nella scelta di un *outfit* , potrebbe sembrare piccola cosa di fronte a condizioni di salute che determinano in modo significativo la vita di una persona. Eppure proprio con questa pretesa la Uildm (Unione Italiana Lotta alla Distrofia Muscolare) nel 2018 ha promosso un progetto teso a sollecitare una maggiore inclusione sociale nel campo della moda. Sono state coinvolte quattro scuole del settore per disegnare e creare abiti non solo comodi e a misura ma anche eleganti e perché no con un tocco di frivolezza, per donne che, come quelle con la distrofia muscolare, hanno difficoltà motorie e si muovono in sedia a rotelle.
 

@@ -4,8 +4,8 @@ date: 2007-06-03
 author: Jean Marie Petitclerc
 slug: la-mia-pazienza-ha-dei-limiti
 lang: it
-numero_rivista: 98
-id_numero: OEL-98
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-98"
 issue_number: OEL-98
 wp_id: 32578
 original_url: "https://www.ombreeluci.it/?p=32578"
@@ -15,7 +15,6 @@ umap_x: 4.831393718719482
 umap_y: 9.051175117492676
 umap_z: 8.353644371032715
 ---
-
 Un bambino in perpetua agitazione che fa cadere un oggetto che vi è caro. Un preadolescente che vi importuna, che vi pone per l'ennesima colta la domanda alla quale avete gia risposto negativamente. Allora esplodete — come ultimo avvertimento — con una specie di autorizzazione che vi date di ricorrere alla violenza: “La mia pazienza ha dei limiti!”. E la scena sta per degenerare in crisi e pianti.
 
 Bisogna porre dei limiti alla pazienza? Quella di Dio non è forse infinita nei nostri confronti?

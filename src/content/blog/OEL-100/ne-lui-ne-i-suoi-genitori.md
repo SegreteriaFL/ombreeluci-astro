@@ -6,8 +6,8 @@ theme: "cluster-0"
 cluster_id: 0
 slug: "ne-lui-ne-i-suoi-genitori"
 lang: it
-numero_rivista: 100
-id_numero: OEL-100
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-100"
 issue_number: OEL-100
 wp_id: 32883
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 ---
-
 > “Passando Gesù, vide un uomo cieco dalla nascita e i suoi discepoli lo interrogarono: Rabbì, chi ha peccato, lui o i suoi genitori perché egli nascesse cieco?”
 Rispose Gesù: “Né lui ha peccato né i suoi genitori ma è così perché si manifestassero in lui le opere di Dio"
 (Gv, IX 3)

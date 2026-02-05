@@ -12,8 +12,9 @@ umap_x: 7.668938159942627
 umap_y: 8.137046813964844
 umap_z: 13.095118522644043
 issue_number: INS-27
+id_numero: "INS-27"
+numero_rivista: "Insieme"
 ---
-
 ### Nella casa di dio, a loro il primo posto...
 
 Domenica 25 Novembre c'è stata la prima Messa che abbiamo celebrato nella Parrocchia dell'Ascensione. Alle ore 11 è arrivato un grande gruppo di Fede e Luce, eravamo amici da ogni parte di Roma, ci siamo uniti alle altre persone per celebrare l'Eucaristia. Forse le altre persone saranno rimaste un po' sconcertate, nel vedere o sentire questi nostri bambini un po' movimentati. Ma pensiamo che ormai basta farsi degli scrupoli per portare i nostri figli in Chiesa per paura di disturbare la quiete degli altri, loro ci sono e ci devono essere anche nella casa di Dio, anzi a loro il primo posto che sono più disponibili, senza problemi a riceverlo.

@@ -14,8 +14,9 @@ umap_x: 7.842630863189697
 umap_y: 9.998125076293945
 umap_z: 12.877884864807129
 issue_number: INS-30
+id_numero: "INS-30"
+numero_rivista: "Insieme"
 ---
-
 Nel 1965, insieme alle persone delle case dell’« Arche » e del « Val Fleuri » che mi erano state affidate, siamo andati per la prima volta in pellegrinaggio a Lourdes. Eravamo, se ben ricordo, circa una quarantina. Ero allora completamente nuovo in questa vita di condivisione con le persone handicappate. Alcuni di quelli che erano con noi, erano persone molto agitate. Eppure sono rimasto meravigliato dalla gioia, dal dinamismo, dalla speranza che hanno contraddistinto questo pellegrinaggio. Il viaggiare, fare lunghi tratti di strada insieme, vivere in modo diverso dal solito ed in condizioni precarie, ci hanno fortemente unito. Sono stato colpito anche dalla sensibilità dimostrata dagli uomini dell’Arche nei confronti dell’atmosfera di Lourdes, profondamente mistica ed evangelica. Vi sono a Lourdes tanti segni e simboli che risvegliano i nostri cuori: l’acqua che sgorga dalla fonte, che guarisce e purifica, la fiamma delle candele che illumina e sale verso il cielo come una preghiera, le processioni nelle quali camminavamo insieme verso la « terra promessa », la Grotta ove ci si rifugia per pregare, la tangibile speranza degli ammalati, ed infine tutta questa folla innumerevole, venuta da tutti i Paesi del mondo, che canta e prega. La Chiesa universale ed apostolica diventa qui una realtà.
 
 Al rientro ho notato una trasformazione nell’atmosfera di vita dell’Arche: c’era un qualcosa di più caloroso e di più leggero nell’aria. L’anno dopo siamo andati a La Salette, poi a Fatima, a Bannoux, a Beauring. Ogni pellegrinaggio portava i suoi frutti ed ovunque ritrovavamo gli stessi simboli.

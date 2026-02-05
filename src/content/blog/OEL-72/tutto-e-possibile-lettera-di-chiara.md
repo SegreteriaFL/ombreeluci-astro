@@ -12,8 +12,9 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 issue_number: OEL-72
+id_numero: "OEL-72"
+numero_rivista: "Ombre e Luci"
 ---
-
 Carissimi fratelli e sorelle di [Fede e Luce](https://www.fedeeluce.it/), sono Chiara e vi scrivo dalla mia camera d'ospedale, di fronte alla finestra su di un mondo che prima o poi, con coraggio, dovrò affrontare.
 È impossibile descrivere la sofferenza che provo, le ferite esterne provocate dai proiettili che mi hanno colpita sono nulla in confronto a quelle interne, del cuore.
 

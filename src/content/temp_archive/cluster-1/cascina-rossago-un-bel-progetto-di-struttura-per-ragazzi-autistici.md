@@ -7,6 +7,7 @@ cluster_id: 1
 image: "https://www.ombreeluci.it/wp-content/uploads/2000/06/rossago_go-1024x387.jpg"
 slug: "cascina-rossago-un-bel-progetto-di-struttura-per-ragazzi-autistici"
 has_comments: false
+id_numero: "OEL-70"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

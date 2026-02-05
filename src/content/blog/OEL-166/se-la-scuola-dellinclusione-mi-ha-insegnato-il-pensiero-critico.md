@@ -12,7 +12,8 @@ umap_x: 7.0080366134643555
 umap_y: 6.791938781738281
 umap_z: 7.0073394775390625
 issue_number: OEL-166
-id_numero: OEL-166
+id_numero: "OEL-166"
+numero_rivista: "Ombre e Luci"
 ---
 Sedue luminari come Ernesto Galli Della Loggia e Roberto Vannacci mettono in discussione il «mito dell’inclusione» scolastica, forse è venuto il momento di cambiare prospettiva. Visto che quello italiano «è un caso unico al mondo» e «il risultato lo conosciamo», ma la scuola dell’inclusione mi ha insegnato il pensiero critico, cercherò di seguire il loro ragionamento.
 

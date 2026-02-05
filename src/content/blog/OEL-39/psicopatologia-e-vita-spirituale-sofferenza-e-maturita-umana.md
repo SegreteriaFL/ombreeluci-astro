@@ -12,7 +12,8 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 issue_number: OEL-39
-id_numero: OEL-39
+id_numero: "OEL-39"
+numero_rivista: "Ombre e Luci"
 ---
 È molto difficile parlare in modo esauriente di questo libro dal tema così complesso, un libro così denso di insegnamento e di pensiero. Non si può che invitare caldamente a leggerlo tutti coloro che soffrono o che si sentono chiamati ad essere vicini a chi soffre.
 E l’opera più recente di Padre Henri Bissonnier docente di psicopatologia e di psicopedagogia all’Università di Lovanio e presso l’Istituto Cattolico di Parigi, uno dei pionieri della catechesi per gli handicappati. E un uomo che ha conosciuto da vicino la sofferenza sia per averla vissuta personalmente sia per aver dedicato a chi soffre la sua vita intera.

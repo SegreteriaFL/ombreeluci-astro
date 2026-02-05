@@ -15,7 +15,8 @@ umap_x: 8.974617958068848
 umap_y: 7.645112037658691
 umap_z: 8.856697082519531
 issue_number: OEL-169
-id_numero: OEL-169
+id_numero: "OEL-169"
+numero_rivista: "Ombre e Luci"
 ---
 Partire per un viaggio speciale, senza bagagli e senza meta, e farne ritorno con una valigia piena di emozioni intense e riconcilianti. Per di più a ritmo di musica e a passo di danza. Tanta roba che ha colto di sorpresa i fortunati spettatori della performance di teatro-danza con cui è stata chiusa la rassegna sull’alfabeto delle emozioni tenutasi a Viterbo a fine novembre. La singolare rappresentazione è stata curata dalla *Compagnia della mia misura* , promotrice a Roma di un laboratorio di inclusione che persegue l’integrazione delle disabilità, aperto a tutti coloro che vogliono mettere in gioco le proprie diverse abilità.
 

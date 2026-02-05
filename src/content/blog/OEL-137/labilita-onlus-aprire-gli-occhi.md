@@ -12,7 +12,8 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 issue_number: OEL-137
-id_numero: OEL-137
+id_numero: "OEL-137"
+numero_rivista: "Ombre e Luci"
 ---
 Il gioco di due parole dalla medesima pronuncia spiega l’essenza di questa associazione milanese nata nel 1998, grazie ad un gruppo di genitori di bambini molto piccoli, con gravi e complesse disabilità, e di operatori che hanno unito i loro intenti per dare risposte concrete a bisogni comuni. Così labilità descrive la condizione di fragilità e di spaesamento vissuta dal bambino con disabilità e dalla sua famiglia e l’abilità è la nuova condizione da raggiungere attraverso un percorso di crescita e autonomia sostenuto dai progetti e dalle attività dell’associazione. Al centro dei servizi e dei progetti c’è il bambino con disabilità, il suo benessere e la sua famiglia nella promozione continua e instancabile di una nuova cultura della disabilità.
 

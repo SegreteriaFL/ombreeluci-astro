@@ -6,8 +6,8 @@ theme: "cluster-7"
 cluster_id: 7
 slug: "lamministratore-di-sostegno-per-le-persone-con-disabilita-parla-il-giudice-tutelare"
 lang: it
-numero_rivista: 86
-id_numero: OEL-86
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-86"
 issue_number: OEL-86
 wp_id: 30221
 has_comments: false
@@ -15,7 +15,6 @@ tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
 ---
-
 Quali i pregi e quali i difetti della nuova normativa rispetto alla legislazione sull’interdizione e l’inabilitazione?
 Primo e fondamentale pregio della normativa sull’amministratore di sostegno è la possibilità di presentare il ricorso all'Ufficio del Giudice Tutelare senza l'assistenza di un avvocato.
 In secondo luogo, questa legge consente a tutti coloro che sono contraddistinti da limitazioni, anche di carattere temporaneo, di avvalersi di un sostegno senza, tuttavia, dovere perdere la capacità di agire con una pronuncia di interdizione. La normativa prevede, infatti, la possibilità per il beneficiario di agire per tutti gli atti che non richiedano la rappresentanza esclusiva o l’assistenza necessaria dell'amministratore e, comunque, la possibilità di compiere tutti gli atti necessari a soddisfare le esigenze della vita quotidiana.

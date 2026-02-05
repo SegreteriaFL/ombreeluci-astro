@@ -15,7 +15,8 @@ umap_x: 7.640032768249512
 umap_y: 8.862849235534668
 umap_z: 14.114371299743652
 issue_number: OEL-7
-id_numero: OEL-7
+id_numero: "OEL-7"
+numero_rivista: "Ombre e Luci"
 ---
 **Dopo l'incontro Internazionale di Roma**
 **Come promesso sull'ultimo numero pubblichiamo alcune immagini dell’Incontro Internazionale di Roma (19-25 marzo 1984) che ha visto riuniti delegati delle Comunità Fede e Luce di più di trenta paesi.**

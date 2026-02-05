@@ -12,7 +12,8 @@ umap_x: 5.5011491775512695
 umap_y: 8.092743873596191
 umap_z: 11.454401016235352
 issue_number: OEL-131
-id_numero: OEL-131
+id_numero: "OEL-131"
+numero_rivista: "Ombre e Luci"
 ---
 Ho conosciuto *Fede e Luce* attraverso Mariangela, lei è stato il mio primo determinante tramite e, insieme al Carro, mi ha aperto una finestra su questo mondo che, fin dal primo momento, mi è apparso speciale e sorprendente al contempo.
 

@@ -4,8 +4,8 @@ date: 1998-12-10
 author: Mariangela Bertolini
 slug: fausta
 lang: it
-numero_rivista: 64
-id_numero: OEL-64
+numero_rivista: "Ombre e Luci"
+id_numero: "OEL-64"
 issue_number: OEL-64
 wp_id: 12425
 original_url: "https://www.ombreeluci.it/?p=12425"
@@ -15,7 +15,6 @@ umap_x: 6.492895603179932
 umap_y: 8.30524730682373
 umap_z: 10.021230697631836
 ---
-
 C
 i sono persone che, per essere ricordate, non hanno bisogno del cognome. Ti sei fatta chiamare così da tutti, semplicemente, come una di casa. Non avevi nemmeno bisogno di aggiungere “la mamma di Carla”, perché questa apposizione era ovvia: dovunque tu fossi o andassi, qualche passo avanti a te, c’era lei, la tua grande “bambina”, che ti annunciava come un maggiordomo: “C’è mamma, la vedi?”. Sei stata una delle prime mamme di Fede e Luce a Roma. Dal lontano '74 - quando abbiamo cominciato a camminare insieme e a gettare i primi semi di questa “cosa” che non sapevamo bene cosa fosse, - fino a ieri - quando ci hai lasciato per il Cielo, hai vissuto nel modo più totale lo spirito e la concretezza di Fede e Luce. In parole semplici, ti sei data anima e corpo.
 

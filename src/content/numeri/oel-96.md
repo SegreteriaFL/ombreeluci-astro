@@ -1,15 +1,34 @@
 ---
 id: "OEL-96"
-title: "Ombre e Luci n. 96, 2006 - Così lontani, così vicini"
+title: "Ombre e Luci n. 96, 2006 – Così lontani, così vicini"
 tipo: "ombre-e-luci"
 numero: 96
-anno: "2006"
+sort_order: 195
+pubDate: "2006-11-01T00:00:00Z"
 data_pubblicazione: "Novembre – Dicembre 2006"
 sommario: "Ombre e Luci n. 96, 2006 – Così lontani, così vicini ultima modifica: 2006-09-19T22:28:47+00:00 da Redazione"
 copertina: "https://www.ombreeluci.it/wp-content/uploads/2017/10/Copertina_OeL_96_2006.jpg"
 link_sfoglia: "https://archive.org/details/OmbreELuciN_96"
 link_pdf: ""
 wp_url: "https://www.ombreeluci.it/project/ombre-e-luci-n-96-2006-cosi-lontani-cosi-vicini/"
+articoli:
+  - "cara-nicole"
+  - "come-se-fosse-la-cosa-piu-normale-del-mondo"
+  - "il-bambinello-di-marija"
+  - "alzheimer-il-passato-perduto-per-sempre"
+  - "alzheimer-il-grande-amore-di-sua-sorella-marta"
+  - "alzheimer-sto-diventando-piu-umano"
+  - "patologie-disabilitanti-nellanziano"
+  - "alzheimer-ma-soprattutto-e-mio-nonno"
+  - "alzheimer-cosi-lontani-e-cosi-vicini"
+  - "alzheimer-ancora-sempre-per-mano"
+  - "con-tutte-le-mie-forze-special-olympics-youth-games"
+  - "dialogo-aperto-n-96"
+  - "in-gita-per-il-calendario-dell-associazion-italiana-persone-down"
+  - "re-33-e-i-suoi-33-bottoni-doro-recensione"
+  - "il-re-del-mercato-recensione"
+  - "lardimento-racconto-della-vita-di-don-carlo-gnocchi-recensione"
+  - "don-zeno-obbedientissimo-ribelle-recensione"
 ---
 
 ## Indice

@@ -6,6 +6,7 @@ theme: "cluster-7"
 cluster_id: 7
 slug: "fiera-di-me-stessa"
 has_comments: false
+id_numero: "OEL-160"
+numero_rivista: "Ombre e Luci"
 ---
-
 <!-- Contenuto da aggiungere -->

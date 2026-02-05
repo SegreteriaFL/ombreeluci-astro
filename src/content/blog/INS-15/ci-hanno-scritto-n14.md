@@ -12,8 +12,9 @@ umap_x: 6.53360652923584
 umap_y: 8.369975090026855
 umap_z: 12.21423625946045
 issue_number: INS-15
+id_numero: "INS-15"
+numero_rivista: "Insieme"
 ---
-
 ### Il dono dell'amicizia
 
 Quattro anni fa sono entrata insieme a mio figlio (minorato fisico mentale) a far parte della grande famiglia di Fede e Luce. A me ha fatto bene inserirmi in questa catena simile a una corona di una grande Rosario.

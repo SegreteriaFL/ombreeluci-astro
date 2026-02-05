@@ -12,8 +12,9 @@ umap_x: 9.20272159576416
 umap_y: 7.9950032234191895
 umap_z: 2.777670383453369
 issue_number: OEL-152
+id_numero: "OEL-152"
+numero_rivista: "Ombre e Luci"
 ---
-
 Èstato uno degli ultimi grandi eventi cinematografici internazionali svoltisi prima delle restrizioni provocate dal codiv-19 il Sundance Film Festival. Ma se, causa pandemia, il destino distributivo di molti dei film presentati lì (e poi a Berlino) è ancora incerto, Netflix può invece giocare d’anticipo presentando ai suoi abbonati una produzione originale che ha vinto il premio del pubblico nella sezione dei documentari. Parliamo di Crip Camp (2020), coprodotto dai coniugi Obama, che ricostruisce l’ascesa del movimento americano dei diritti civili per le persone con disabilità, movimento molto meno noto rispetto a quello dei neri o delle donne.
 
 James Lebrecht, che ha diretto il film assieme a Nicole Newnham, è anche uno dei narratori della storia, nonché uno dei protagonisti. “Sono nato con la spina bifida. Non pensavano che vivessi più di un paio d’ore. A quanto pare, avevo altri piani” racconta all’inizio di Crip Camp mentre scorrono le immagini della sua infanzia.
