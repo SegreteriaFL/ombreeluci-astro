@@ -5,7 +5,7 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
-import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle } from '../../config/taxonomy.js';
+import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
 import megacluster from '../../data/articoli_megacluster.json';
 
 const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
@@ -29,7 +29,18 @@ export async function getStaticPaths() {
         return formal === label;
       }
       return false;
-    }).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+    }).sort((a, b) => {
+      const timeA = a.data.date.getTime();
+      const timeB = b.data.date.getTime();
+      if (timeA !== timeB) {
+        return timeB - timeA;
+      }
+      const roleA = getMegaclusterForArticle(a.data.wp_id).ruolo_editoriale;
+      const roleB = getMegaclusterForArticle(b.data.wp_id).ruolo_editoriale;
+      const weightA = getRoleWeight(roleA);
+      const weightB = getRoleWeight(roleB);
+      return weightB - weightA;
+    });
     return {
       params: { categoria },
       props: { articoli, categoryLabel: displayLabel },

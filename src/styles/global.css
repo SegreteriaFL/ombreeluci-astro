@@ -173,3 +173,26 @@ img {
     padding: 0 1.25rem;
   }
 }
+
+/* Badge ruolo editoriale – usato in card e pagina dettaglio */
+.article-badge-role {
+  display: inline-block;
+  margin-right: 0.35rem;
+  font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: #ccc;
+  border-radius: 3px;
+  padding: 2px 5px 0;
+}
+
+.article-badge-role--portante,
+.article-badge-role--strutturale,
+.article-badge-role--laterale,
+.article-badge-role--trasversale {
+  /* Stesso stile per tutti i ruoli; classi mantenute solo per eventuali usi futuri */
+}

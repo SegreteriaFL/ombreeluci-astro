@@ -29,6 +29,32 @@ export const FORMAL_FALLBACK = 'Articolo';
 export const THEMATIC_FALLBACK = 'Attualità';
 
 /**
+ * Pesi gerarchia editoriale:
+ * - portante: 4
+ * - strutturale: 3
+ * - laterale: 2
+ * - trasversale: 1
+ */
+export const EDITORIAL_WEIGHTS = {
+  portante: 4,
+  strutturale: 3,
+  laterale: 2,
+  trasversale: 1,
+};
+
+/**
+ * Restituisce il peso numerico associato a un ruolo editoriale.
+ * Ruoli sconosciuti o assenti restituiscono 0.
+ * @param {string|null|undefined} role
+ * @returns {number}
+ */
+export function getRoleWeight(role) {
+  if (!role) return 0;
+  const key = String(role).toLowerCase();
+  return EDITORIAL_WEIGHTS[key] ?? 0;
+}
+
+/**
  * Alias per label lunghe: nome breve da usare in menu e UI.
  * Chiave = tema_label completo, valore = label accorciata.
  */

@@ -3,7 +3,6 @@
 import placeholderImage from '../assets/placeholder1.webp';
 
 const { title, author, date, issue, slug, image, categoriaMenu, forma, ruoloEditoriale } = Astro.props;
-const isPortante = ruoloEditoriale === 'portante';
 const hasIssue = issue != null && String(issue).trim() !== '';
 const displayIssue = hasIssue ? issue : "Pubblicato online";
 const imageSrc = image || placeholderImage.src;
@@ -12,6 +11,28 @@ const formalPart = forma && forma !== 'Articolo' ? `${forma} / ` : '';
 const badgeText = hasIssue
   ? `${displayIssue} • ${formalPart}${categoriaMenu || '—'}`
   : (categoriaMenu ? categoriaMenu : 'Pubblicato online');
+
+let roleLabel: string | null = null;
+if (ruoloEditoriale === 'portante') {
+  roleLabel = 'Portante';
+} else if (ruoloEditoriale === 'strutturale') {
+  roleLabel = 'Strutturale';
+} else if (ruoloEditoriale === 'laterale') {
+  roleLabel = 'Laterale';
+} else if (ruoloEditoriale === 'trasversale') {
+  roleLabel = 'Trasversale';
+}
+
+const roleClassName =
+  ruoloEditoriale === 'portante'
+    ? ' article-badge-role--portante'
+    : ruoloEditoriale === 'strutturale'
+      ? ' article-badge-role--strutturale'
+      : ruoloEditoriale === 'laterale'
+        ? ' article-badge-role--laterale'
+        : ruoloEditoriale === 'trasversale'
+          ? ' article-badge-role--trasversale'
+          : '';
 
 function authorSlug(name: string): string {
   return String(name)
@@ -31,13 +52,20 @@ const formattedDate = new Intl.DateTimeFormat('it-IT', {
 const authorLinkSlug = authorSlug(author);
 ---
 
-<div class={`article-card${isPortante ? ' article-card--portante' : ''}`}>
+<div class="article-card">
   <a href={`/blog/${slug}`} class="article-link">
     <div class="article-image-wrap">
       <img src={imageSrc} alt={title} loading="lazy" />
     </div>
     <div class="article-meta">
-      <p class={badgeText === 'Pubblicato online' ? 'article-badge article-badge-muted' : 'article-badge'}>{badgeText}</p>
+      <p class={badgeText === 'Pubblicato online' ? 'article-badge article-badge-muted' : 'article-badge'}>
+        {roleLabel && (
+          <span class={`article-badge-role${roleClassName}`}>
+            {roleLabel}
+          </span>
+        )}
+        <span class="article-badge-text">{badgeText}</span>
+      </p>
       <h3 class="article-title">{title}</h3>
     </div>
   </a>
@@ -52,14 +80,6 @@ const authorLinkSlug = authorSlug(author);
     flex-direction: column;
     width: 100%;
     gap: 4px;
-  }
-
-  .article-card--portante .article-title {
-    font-size: 1.35rem;
-  }
-
-  .article-card--portante .article-image-wrap {
-    aspect-ratio: 16/10;
   }
 
   .article-link {
@@ -120,6 +140,11 @@ const authorLinkSlug = authorSlug(author);
     width: fit-content;
     text-transform: none;
   }
+
+  .article-badge-text {
+    display: inline;
+  }
+
 
   .article-title {
     margin: 4px 0;

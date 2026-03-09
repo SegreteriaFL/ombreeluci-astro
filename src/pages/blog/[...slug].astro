@@ -185,6 +185,24 @@ const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
 // Badge: [Numero] • [Forma] / [categoria_menu] (label cliccabili)
 const showPubblicatoOnline = !hasIssue;
 
+// Ruolo editoriale per meta articolo
+const { ruolo_editoriale } = getMegaclusterForArticle(articleBySlug.data.wp_id);
+let roleLabel: string | null = null;
+let roleClassName = '';
+if (ruolo_editoriale === 'portante') {
+  roleLabel = 'Portante';
+  roleClassName = ' article-badge-role--portante';
+} else if (ruolo_editoriale === 'strutturale') {
+  roleLabel = 'Strutturale';
+  roleClassName = ' article-badge-role--strutturale';
+} else if (ruolo_editoriale === 'laterale') {
+  roleLabel = 'Laterale';
+  roleClassName = ' article-badge-role--laterale';
+} else if (ruolo_editoriale === 'trasversale') {
+  roleLabel = 'Trasversale';
+  roleClassName = ' article-badge-role--trasversale';
+}
+
 // Calcola tempo di lettura (circa 200 parole al minuto)
 async function calculateReadingTime(articleId: string): Promise<number> {
   try {
@@ -248,12 +266,6 @@ const relatedArticles = Array.from(relatedIds)
     <meta name="twitter:image" content={typeof articleImage === 'string' ? articleImage : articleImage.src} />
     <ViewTransitions />
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
       /* Reading Progress Bar */
       .reading-progress {
         position: fixed;
@@ -1104,6 +1116,11 @@ const relatedArticles = Array.from(relatedIds)
           <div class="article-meta-item">
             {readingTime} min di lettura
           </div>
+          {roleLabel && (
+            <div class="article-meta-item">
+              <span class={`article-badge-role${roleClassName}`}>{roleLabel}</span>
+            </div>
+          )}
         </div>
       </header>
 

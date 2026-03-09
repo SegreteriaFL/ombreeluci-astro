@@ -1,0 +1,256 @@
+---
+import { getCollection } from 'astro:content';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import '../../styles/global.css';
+import { getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
+
+const allArticles = await getCollection('blog');
+
+const buckets: Record<string, typeof allArticles> = {
+  portante: [],
+  strutturale: [],
+  laterale: [],
+  trasversale: [],
+};
+
+for (const article of allArticles) {
+  const { ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
+  const role = (ruolo_editoriale || '').toLowerCase();
+  if (role && buckets[role]) {
+    buckets[role].push(article);
+  }
+}
+
+function sortByDateThenWeight(list: typeof allArticles) {
+  return [...list].sort((a, b) => {
+    const timeA = a.data.date instanceof Date ? a.data.date.getTime() : new Date(a.data.date as unknown as string).getTime();
+    const timeB = b.data.date instanceof Date ? b.data.date.getTime() : new Date(b.data.date as unknown as string).getTime();
+    if (!Number.isNaN(timeA) && !Number.isNaN(timeB) && timeA !== timeB) {
+      return timeB - timeA;
+    }
+    const roleA = getMegaclusterForArticle(a.data.wp_id).ruolo_editoriale;
+    const roleB = getMegaclusterForArticle(b.data.wp_id).ruolo_editoriale;
+    const weightA = getRoleWeight(roleA);
+    const weightB = getRoleWeight(roleB);
+    return weightB - weightA;
+  });
+}
+
+const portanti = sortByDateThenWeight(buckets.portante);
+const strutturali = sortByDateThenWeight(buckets.strutturale);
+const laterali = sortByDateThenWeight(buckets.laterale);
+const trasversali = sortByDateThenWeight(buckets.trasversale);
+---
+
+<html lang="it">
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audit gerarchia editoriale - Ombre e Luci</title>
+    <meta
+      name="description"
+      content="Debug interno per la gerarchia editoriale (Portanti, Strutturali, Laterali, Trasversali) basata sul Megacluster."
+    />
+    <style>
+      .audit-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 3rem;
+      }
+      .audit-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+      .audit-subtitle {
+        font-size: 0.95rem;
+        color: var(--text-secondary);
+        margin-bottom: 2rem;
+      }
+      .audit-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 24px;
+        align-items: flex-start;
+      }
+      @media (max-width: 1024px) {
+        .audit-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (max-width: 640px) {
+        .audit-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .audit-column {
+        background-color: #ffffff;
+        border-radius: 12px;
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        padding: 1rem 1rem 1.25rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+      }
+      .audit-column-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-bottom: 0.75rem;
+      }
+      .audit-column-title {
+        font-size: 1.05rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      .audit-column-count {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+      }
+      .audit-column-description {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        margin: 0 0 0.75rem 0;
+        line-height: 1.6;
+      }
+      .audit-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        max-height: 70vh;
+        overflow-y: auto;
+      }
+      .audit-item {
+        font-size: 0.9rem;
+        padding: 0.35rem 0;
+        border-bottom: 1px dashed rgba(0, 0, 0, 0.04);
+      }
+      .audit-item:last-child {
+        border-bottom: none;
+      }
+      .audit-item a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .audit-item a:hover {
+        text-decoration: underline;
+      }
+      .audit-item-meta {
+        display: block;
+        font-size: 0.78rem;
+        color: var(--text-secondary);
+        margin-top: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main class="site-main">
+      <div class="audit-container">
+        <h1 class="audit-title">Audit gerarchia editoriale</h1>
+        <p class="audit-subtitle">
+          Vista di debug interna per verificare la distribuzione dei ruoli editoriali (Portanti, Strutturali, Laterali, Trasversali)
+          secondo il Megacluster.
+        </p>
+
+        <section class="audit-grid" aria-label="Colonne per ruolo editoriale">
+          <article class="audit-column">
+            <header class="audit-column-header">
+              <h2 class="audit-column-title">Portanti</h2>
+              <span class="audit-column-count">{portanti.length} articoli</span>
+            </header>
+            <p class="audit-column-description">
+              Articoli che definiscono un tema: rappresentativi, citabili, forti per contenuto e taglio. Vanno mostrati per primi.
+            </p>
+            <ul class="audit-list">
+              {portanti.map((article) => (
+                <li class="audit-item">
+                  <a href={`/blog/${(article.data.slug ?? article.slug).replace(/\.md$/, '')}`}>
+                    {article.data.title || article.slug}
+                  </a>
+                  <span class="audit-item-meta">
+                    {article.data.issue_number ? `Numero ${article.data.issue_number} • ` : ''}{' '}
+                    {article.data.date instanceof Date ? article.data.date.toISOString().slice(0, 10) : String(article.data.date)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </article>
+
+          <article class="audit-column">
+            <header class="audit-column-header">
+              <h2 class="audit-column-title">Strutturali</h2>
+              <span class="audit-column-count">{strutturali.length} articoli</span>
+            </header>
+            <p class="audit-column-description">
+              Articoli coerenti che rafforzano il tema nel tempo. Solidi e affidabili, ottimi per approfondire.
+            </p>
+            <ul class="audit-list">
+              {strutturali.map((article) => (
+                <li class="audit-item">
+                  <a href={`/blog/${(article.data.slug ?? article.slug).replace(/\.md$/, '')}`}>
+                    {article.data.title || article.slug}
+                  </a>
+                  <span class="audit-item-meta">
+                    {article.data.issue_number ? `Numero ${article.data.issue_number} • ` : ''}{' '}
+                    {article.data.date instanceof Date ? article.data.date.toISOString().slice(0, 10) : String(article.data.date)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </article>
+
+          <article class="audit-column">
+            <header class="audit-column-header">
+              <h2 class="audit-column-title">Laterali</h2>
+              <span class="audit-column-count">{laterali.length} articoli</span>
+            </header>
+            <p class="audit-column-description">
+              Articoli che toccano il tema in modo non pieno (per esempio un paragrafo pertinente in un pezzo su altro).
+            </p>
+            <ul class="audit-list">
+              {laterali.map((article) => (
+                <li class="audit-item">
+                  <a href={`/blog/${(article.data.slug ?? article.slug).replace(/\.md$/, '')}`}>
+                    {article.data.title || article.slug}
+                  </a>
+                  <span class="audit-item-meta">
+                    {article.data.issue_number ? `Numero ${article.data.issue_number} • ` : ''}{' '}
+                    {article.data.date instanceof Date ? article.data.date.toISOString().slice(0, 10) : String(article.data.date)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </article>
+
+          <article class="audit-column">
+            <header class="audit-column-header">
+              <h2 class="audit-column-title">Trasversali</h2>
+              <span class="audit-column-count">{trasversali.length} articoli</span>
+            </header>
+            <p class="audit-column-description">
+              Articoli multidisciplinari (editoriali, riflessioni ampie) che collegano più temi.
+            </p>
+            <ul class="audit-list">
+              {trasversali.map((article) => (
+                <li class="audit-item">
+                  <a href={`/blog/${(article.data.slug ?? article.slug).replace(/\.md$/, '')}`}>
+                    {article.data.title || article.slug}
+                  </a>
+                  <span class="audit-item-meta">
+                    {article.data.issue_number ? `Numero ${article.data.issue_number} • ` : ''}{' '}
+                    {article.data.date instanceof Date ? article.data.date.toISOString().slice(0, 10) : String(article.data.date)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </article>
+        </section>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
+
