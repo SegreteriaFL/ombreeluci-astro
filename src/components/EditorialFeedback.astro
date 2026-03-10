@@ -3,14 +3,14 @@ interface Props {
   wpId?: number | string | null;
   title: string;
   currentRole?: string | null;
+  url: string;
 }
 
-const { wpId, title, currentRole } = Astro.props;
+const { wpId, title, currentRole, url } = Astro.props;
 
 // Mostra il box sempre in build; la visibilità ambiente-specifica
 // può essere gestita con variabili d'ambiente lato deploy.
 const show = true;
-const url = Astro.url.href;
 ---
 
 {show && (
