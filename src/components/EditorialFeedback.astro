@@ -7,10 +7,10 @@ interface Props {
 
 const { wpId, title, currentRole } = Astro.props;
 
-const isDev = import.meta.env.DEV;
+// Mostra il box sempre in build; la visibilità ambiente-specifica
+// può essere gestita con variabili d'ambiente lato deploy.
+const show = true;
 const url = Astro.url.href;
-const isStaging = url.includes('staging');
-const show = isDev || isStaging;
 ---
 
 {show && (
@@ -84,6 +84,7 @@ const show = isDev || isStaging;
     if (!form) return;
 
     const endpoint =
+      import.meta.env.PUBLIC_EDITORIAL_FEEDBACK_ENDPOINT ||
       'https://script.google.com/macros/s/AKfycbwZiEo6gfYAlTi-Vd26oiPeDlkCJAWf5iXEhPSZC7DwT6TX8y1hwQGOAgDeAdDQnT5amg/exec';
 
     form.addEventListener('submit', async function (event) {
