@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import EditorialFeedback from '../../components/EditorialFeedback.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
 import { ViewTransitions } from 'astro:transitions';
 import { readFile } from 'fs/promises';
@@ -1265,6 +1266,12 @@ const relatedArticles = Array.from(relatedIds)
             </div>
           </div>
         </div>
+
+        <EditorialFeedback
+          wpId={articleBySlug.data.wp_id}
+          title={articleBySlug.data.title}
+          currentRole={ruolo_editoriale}
+        />
       </div>
 
       {/* Widget di navigazione: card standard, appare dopo scroll */}

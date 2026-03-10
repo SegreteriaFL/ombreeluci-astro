@@ -1,0 +1,253 @@
+---
+interface Props {
+  wpId?: number | string | null;
+  title: string;
+  currentRole?: string | null;
+}
+
+const { wpId, title, currentRole } = Astro.props;
+
+const isDev = import.meta.env.DEV;
+const url = Astro.url.href;
+const isStaging = url.includes('staging');
+const show = isDev || isStaging;
+---
+
+{show && (
+  <aside class="editorial-feedback" aria-label="Box revisione editoriale">
+    <div class="editorial-feedback-header">
+      <span class="editorial-feedback-title">BOX REVISIONE EDITORIALE</span>
+    </div>
+    <form
+      id="editorial-feedback-form"
+      class="editorial-feedback-form"
+      method="post"
+    >
+      <div class="editorial-feedback-row">
+        <label for="proposed_role" class="editorial-feedback-label">
+          Ruolo proposto
+        </label>
+        <select
+          id="proposed_role"
+          name="proposed_role"
+          class="editorial-feedback-select"
+        >
+          <option value="">Nessun cambio</option>
+          <option value="portante">portante</option>
+          <option value="strutturale">strutturale</option>
+          <option value="laterale">laterale</option>
+          <option value="trasversale">trasversale</option>
+        </select>
+      </div>
+
+      <div class="editorial-feedback-row">
+        <label for="notes" class="editorial-feedback-label">
+          Note per la redazione
+        </label>
+        <textarea
+          id="notes"
+          name="notes"
+          class="editorial-feedback-textarea"
+          rows={3}
+        />
+      </div>
+
+      <input type="hidden" id="wp_id" name="wp_id" value={wpId ?? ''} />
+      <input type="hidden" id="title" name="title" value={title} />
+      <input
+        type="hidden"
+        id="current_role"
+        name="current_role"
+        value={currentRole ?? ''}
+      />
+      <input type="hidden" id="url" name="url" value={url} />
+
+      <div class="editorial-feedback-row editorial-feedback-actions">
+        <button type="submit" class="editorial-feedback-submit">
+          Invia
+        </button>
+        <p id="feedback-status" class="editorial-feedback-status" hidden>
+          Inviato con successo!
+        </p>
+      </div>
+    </form>
+  </aside>
+)}
+
+<script>
+  (function () {
+    const form = document.getElementById('editorial-feedback-form');
+    const statusEl = document.getElementById('feedback-status');
+    const submitButton = form
+      ? (form.querySelector('.editorial-feedback-submit') as HTMLButtonElement)
+      : null;
+    if (!form) return;
+
+    const endpoint =
+      'https://script.google.com/macros/s/AKfycbwZiEo6gfYAlTi-Vd26oiPeDlkCJAWf5iXEhPSZC7DwT6TX8y1hwQGOAgDeAdDQnT5amg/exec';
+
+    form.addEventListener('submit', async function (event) {
+      event.preventDefault();
+
+      try {
+        const formData = new FormData(form);
+        const params = new URLSearchParams();
+        params.append('wp_id', String(formData.get('wp_id') ?? ''));
+        params.append('title', String(formData.get('title') ?? ''));
+        params.append(
+          'current_role',
+          String(formData.get('current_role') ?? '')
+        );
+        params.append(
+          'proposed_role',
+          String(formData.get('proposed_role') ?? '')
+        );
+        params.append('notes', String(formData.get('notes') ?? ''));
+        params.append('url', String(formData.get('url') ?? ''));
+
+        if (statusEl) {
+          statusEl.textContent = 'Invio in corso...';
+          statusEl.hidden = false;
+        }
+
+        if (submitButton) {
+          submitButton.disabled = true;
+        }
+
+        console.log("Dati pronti per l'invio", params.toString());
+
+        await fetch(endpoint, {
+          method: 'POST',
+          mode: 'no-cors',
+          body: params.toString(),
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+        });
+
+        form.reset();
+
+        if (statusEl) {
+          statusEl.textContent = 'Inviato con successo!';
+          statusEl.hidden = false;
+          setTimeout(() => {
+            statusEl.hidden = true;
+          }, 5000);
+        }
+
+        if (submitButton) {
+          setTimeout(() => {
+            submitButton.disabled = false;
+          }, 3000);
+        }
+      } catch (error) {
+        console.error('Errore durante invio feedback editoriale', error);
+        if (statusEl) {
+          statusEl.textContent =
+            "Errore durante l'invio (controlla la connessione).";
+          statusEl.hidden = false;
+        }
+
+        if (submitButton) {
+          submitButton.disabled = false;
+        }
+      }
+    });
+  })();
+</script>
+
+<style>
+  .editorial-feedback {
+    margin-top: 2.5rem;
+    padding: 0.75rem 1rem 0.9rem;
+    background: #fffbe6;
+    border: 1px dashed #e0c94f;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+    font-size: 0.8rem;
+    color: var(--text-secondary, #5c5c5c);
+  }
+
+  .editorial-feedback-header {
+    margin-bottom: 0.35rem;
+  }
+
+  .editorial-feedback-title {
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.78rem;
+    color: #b38b00;
+  }
+
+  .editorial-feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .editorial-feedback-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.15rem;
+    color: #6b5a00;
+  }
+
+  .editorial-feedback-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .editorial-feedback-select {
+    max-width: 14rem;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #e0c94f;
+    border-radius: 3px;
+    background: #fffdf0;
+    font: inherit;
+    font-size: 0.8rem;
+  }
+
+  .editorial-feedback-textarea {
+    width: 100%;
+    min-height: 3.25rem;
+    padding: 0.35rem 0.5rem;
+    border: 1px solid #e0c94f;
+    border-radius: 3px;
+    background: #fffdf0;
+    font: inherit;
+    font-size: 0.8rem;
+    resize: vertical;
+  }
+
+  .editorial-feedback-actions {
+    margin-top: 0.4rem;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .editorial-feedback-submit {
+    align-self: flex-start;
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid #d3b53e;
+    background: #fff5b0;
+    font: inherit;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #6b5a00;
+    cursor: pointer;
+  }
+
+  .editorial-feedback-submit:hover {
+    background: #ffef8a;
+  }
+
+  .editorial-feedback-status {
+    font-size: 0.75rem;
+    color: #6b5a00;
+  }
+</style>
