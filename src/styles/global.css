@@ -156,6 +156,14 @@ img {
   object-fit: cover;
 }
 
+/* Nasconde eventuali box correlati nei corner/margini provenienti da widget esterni */
+.read-also-corner,
+.related-corner,
+.corner-related,
+.related-box-corner {
+  display: none !important;
+}
+
 /* Margini laterali ampi su mobile per lettura riposante */
 @media (max-width: 768px) {
   body {

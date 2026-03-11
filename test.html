@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+	<meta charset="UTF-8" />
+			
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://www.ombreeluci.it/xmlrpc.php" />
+
+		<!--[if lt IE 9]>
+	<script src="https://www.ombreeluci.it/wp-content/themes/Divi/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,600');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+</style>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><style id="et-builder-googlefonts-cached-inline">/* Original: https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic|PT+Serif:regular,italic,700,700italic|Ultra:regular|PT+Sans:regular,italic,700,700italic|Abel:regular&#038;subset=latin,latin-ext&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Abel';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BOA.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWVAexQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAexQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkWVAexQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWVAexQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWVAexQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWVAexQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0B4gaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4gaVc.ttf) format('truetype');}@font-face {font-family: 'PT Sans';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/ptsans/v18/jizYRExUiTo99u79D0e0x8mN.ttf) format('truetype');}@font-face {font-family: 'PT Sans';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/ptsans/v18/jizdRExUiTo99u79D0e8fOydLxUY.ttf) format('truetype');}@font-face {font-family: 'PT Sans';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/ptsans/v18/jizaRExUiTo99u79D0KEwA.ttf) format('truetype');}@font-face {font-family: 'PT Sans';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/ptsans/v18/jizfRExUiTo99u79B_mh0O6tKA.ttf) format('truetype');}@font-face {font-family: 'PT Serif';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/ptserif/v19/EJRTQgYoZZY2vCFuvAFT_r21dw.ttf) format('truetype');}@font-face {font-family: 'PT Serif';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/ptserif/v19/EJRQQgYoZZY2vCFuvAFT9gaQZynfpQ.ttf) format('truetype');}@font-face {font-family: 'PT Serif';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/ptserif/v19/EJRVQgYoZZY2vCFuvAFWzro.ttf) format('truetype');}@font-face {font-family: 'PT Serif';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/ptserif/v19/EJRSQgYoZZY2vCFuvAnt66qSVy4.ttf) format('truetype');}@font-face {font-family: 'Ultra';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/ultra/v25/zOLy4prXmrtY-uT9wrc.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Abel';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=MwQ5bhbm2POE2V9BOw&skey=bf47258294911e6d&v=v18) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWVAexg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAexg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkWVAexg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWVAexg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWVAexg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWVAexg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0B4gaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4gaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'PT Sans';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=jizYRExUiTo99u79D0e0x8mO&skey=cef7fd018888390e&v=v18) format('woff');}@font-face {font-family: 'PT Sans';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=jizdRExUiTo99u79D0e8fOydLxUb&skey=2b38b88a40bdc8ec&v=v18) format('woff');}@font-face {font-family: 'PT Sans';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=jizaRExUiTo99u79D0KEww&skey=fd0b32f0f3e6a1fc&v=v18) format('woff');}@font-face {font-family: 'PT Sans';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=jizfRExUiTo99u79B_mh0O6tKw&skey=a45e760d002c9b10&v=v18) format('woff');}@font-face {font-family: 'PT Serif';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=EJRTQgYoZZY2vCFuvAFT_r21dA&skey=caf1b69f1774cae7&v=v19) format('woff');}@font-face {font-family: 'PT Serif';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=EJRQQgYoZZY2vCFuvAFT9gaQZynfpg&skey=8c21167c941ad566&v=v19) format('woff');}@font-face {font-family: 'PT Serif';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=EJRVQgYoZZY2vCFuvAFWzrk&skey=e37119e9cd703ddf&v=v19) format('woff');}@font-face {font-family: 'PT Serif';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=EJRSQgYoZZY2vCFuvAnt66qSVy0&skey=f3f4fc2f289c7d5b&v=v19) format('woff');}@font-face {font-family: 'Ultra';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=zOLy4prXmrtY-uT9wrQ&skey=1443103a749670a&v=v25) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Abel';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWVAewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkWVAewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWVAewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWVAewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWVAewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0B4gaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4gaVI.woff2) format('woff2');}@font-face {font-family: 'PT Sans';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/ptsans/v18/jizYRExUiTo99u79D0e0x8mI.woff2) format('woff2');}@font-face {font-family: 'PT Sans';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/ptsans/v18/jizdRExUiTo99u79D0e8fOydLxUd.woff2) format('woff2');}@font-face {font-family: 'PT Sans';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/ptsans/v18/jizaRExUiTo99u79D0KExQ.woff2) format('woff2');}@font-face {font-family: 'PT Sans';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/ptsans/v18/jizfRExUiTo99u79B_mh0O6tLQ.woff2) format('woff2');}@font-face {font-family: 'PT Serif';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/ptserif/v19/EJRTQgYoZZY2vCFuvAFT_r21cg.woff2) format('woff2');}@font-face {font-family: 'PT Serif';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/ptserif/v19/EJRQQgYoZZY2vCFuvAFT9gaQZynfoA.woff2) format('woff2');}@font-face {font-family: 'PT Serif';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/ptserif/v19/EJRVQgYoZZY2vCFuvAFWzr8.woff2) format('woff2');}@font-face {font-family: 'PT Serif';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/ptserif/v19/EJRSQgYoZZY2vCFuvAnt66qSVys.woff2) format('woff2');}@font-face {font-family: 'Ultra';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/ultra/v25/zOLy4prXmrtY-uT9wrI.woff2) format('woff2');}</style><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" href="https://www.ombreeluci.it/2026/io-a-pompei/" hreflang="it" />
+<link rel="alternate" href="https://www.ombreeluci.it/en/2026/me-in-pompei/" hreflang="en" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v27.1.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Io a Pompei - Ombre e Luci</title>
+	<meta name="description" content="Un breve riassunto dell&#039;esperienza di pellegrinaggio con Fede e Luce" />
+	<link rel="canonical" href="https://www.ombreeluci.it/2026/io-a-pompei/" />
+	<meta property="og:locale" content="it_IT" />
+	<meta property="og:locale:alternate" content="en_GB" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Io a Pompei - Ombre e Luci" />
+	<meta property="og:description" content="Un breve riassunto dell&#039;esperienza di pellegrinaggio con Fede e Luce" />
+	<meta property="og:url" content="https://www.ombreeluci.it/2026/io-a-pompei/" />
+	<meta property="og:site_name" content="Ombre e Luci" />
+	<meta property="article:publisher" content="https://www.facebook.com/OmbreeLuciRivista/" />
+	<meta property="article:published_time" content="2026-01-30T11:50:04+00:00" />
+	<meta property="article:modified_time" content="2026-01-30T11:52:29+00:00" />
+	<meta property="og:image" content="https://www.ombreeluci.it/wp-content/uploads/2026/01/Padre-Benoit-Pompei-2-scaled.jpg" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1440" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Giovanni Grossi" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@Ombre_Luci" />
+	<meta name="twitter:site" content="@Ombre_Luci" />
+	<meta name="twitter:label1" content="Scritto da" />
+	<meta name="twitter:data1" content="Giovanni Grossi" />
+	<meta name="twitter:label2" content="Tempo di lettura stimato" />
+	<meta name="twitter:data2" content="2 minuti" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://www.ombreeluci.it/2026/io-a-pompei/#article","isPartOf":{"@id":"https://www.ombreeluci.it/2026/io-a-pompei/"},"author":{"name":"Giovanni Grossi","@id":"https://www.ombreeluci.it/#/schema/person/6249caf6757cb0cfa1374e181a938609"},"headline":"Io a Pompei","datePublished":"2026-01-30T11:50:04+00:00","dateModified":"2026-01-30T11:52:29+00:00","mainEntityOfPage":{"@id":"https://www.ombreeluci.it/2026/io-a-pompei/"},"wordCount":253,"commentCount":0,"publisher":{"@id":"https://www.ombreeluci.it/#organization"},"image":{"@id":"https://www.ombreeluci.it/2026/io-a-pompei/#primaryimage"},"thumbnailUrl":"https://www.ombreeluci.it/wp-content/uploads/2026/01/Padre-Benoit-Pompei-2-scaled.jpg","articleSection":["N. 172","Senza Filtro"],"inLanguage":"it-IT","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://www.ombreeluci.it/2026/io-a-pompei/#respond"]}]},{"@type":"WebPage","@id":"https://www.ombreeluci.it/2026/io-a-pompei/","url":"https://www.ombreeluci.it/2026/io-a-pompei/","name":"Io a Pompei - Ombre e Luci","isPartOf":{"@id":"https://www.ombreeluci.it/#website"},"primaryImageOfPage":{"@id":"https://www.ombreeluci.it/2026/io-a-pompei/#primaryimage"},"image":{"@id":"https://www.ombreeluci.it/2026/io-a-pompei/#primaryimage"},"thumbnailUrl":"https://www.ombreeluci.it/wp-content/uploads/2026/01/Padre-Benoit-Pompei-2-scaled.jpg","datePublished":"2026-01-30T11:50:04+00:00","dateModified":"2026-01-30T11:52:29+00:00","description":"Un breve riassunto dell'esperienza di pellegrinaggio con Fede e Luce","breadcrumb":{"@id":"https://www.ombreeluci.it/2026/io-a-pompei/#breadcrumb"},"inLanguage":"it-IT","potentialAction":[{"@type":"ReadAction","target":["https://www.ombreeluci.it/2026/io-a-pompei/"]}]},{"@type":"ImageObject","inLanguage":"it-IT","@id":"https://www.ombreeluci.it/2026/io-a-pompei/#primaryimage","url":"https://www.ombreeluci.it/wp-content/uploads/2026/01/Padre-Benoit-Pompei-2-scaled.jpg","contentUrl":"https://www.ombreeluci.it/wp-content/uploads/2026/01/Padre-Benoit-Pompei-2-scaled.jpg","width":2560,"height":1440,"caption":"La veglia durante il pellegrinaggio di Fede e Luce a Pompei"},{"@type":"BreadcrumbList","@id":"https://www.ombreeluci.it/2026/io-a-pompei/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ombreeluci.it/"},{"@type":"ListItem","position":2,"name":"Io a Pompei"}]},{"@type":"WebSite","@id":"https://www.ombreeluci.it/#website","url":"https://www.ombreeluci.it/","name":"Ombre e Luci","description":"Oltre la disabilità","publisher":{"@id":"https://www.ombreeluci.it/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.ombreeluci.it/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"it-IT"},{"@type":"Organization","@id":"https://www.ombreeluci.it/#organization","name":"Ombre e Luci","url":"https://www.ombreeluci.it/","logo":{"@type":"ImageObject","inLanguage":"it-IT","@id":"https://www.ombreeluci.it/#/schema/logo/image/","url":"https://www.ombreeluci.it/wp-content/uploads/2017/11/logo-ombre-e-luci.jpg","contentUrl":"https://www.ombreeluci.it/wp-content/uploads/2017/11/logo-ombre-e-luci.jpg","width":480,"height":480,"caption":"Ombre e Luci"},"image":{"@id":"https://www.ombreeluci.it/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/OmbreeLuciRivista/","https://x.com/Ombre_Luci","https://www.youtube.com/channel/UCypEHP-N_RaUiz1BcBsplVQ"]},{"@type":"Person","@id":"https://www.ombreeluci.it/#/schema/person/6249caf6757cb0cfa1374e181a938609","name":"Giovanni Grossi","image":{"@type":"ImageObject","inLanguage":"it-IT","@id":"https://www.ombreeluci.it/#/schema/person/image/","url":"https://www.ombreeluci.it/wp-content/uploads/2023/03/giovanni-grossi-96x96.jpg","contentUrl":"https://www.ombreeluci.it/wp-content/uploads/2023/03/giovanni-grossi-96x96.jpg","caption":"Giovanni Grossi"},"description":"Sono nato a Roma nel 1970, da Lorenzo Grossi e Paola Pisenti. Ho fatto l’asilo a Milano ed a Pomigliano D’Arco, le elementari e la prima media a Pomigliano D’Arco e poi ho fatto le medie a Roma nella scuola Esopo quando ancora era in via Fogliano, adesso è diventata una casa qualsiasi. Poi il liceo artistico al Sant’Orsola in via Livorno presso piazza Bologna, lì disegnavo male e facevo scena muta, per anni io non parlavo per niente, perché ho sofferto di solitudine e rimanevo spesso da solo. Ho fatto lo scout fino al clan e anche Fede e Luce; io ho iniziato andando a villa patrizi, poi a sant’Angela Merici, e altre chiese, a sant’Ippolito e sant’Agnese fuori le mura oggi. Ho conosciuto tante persone che frequento ancora in comunità. Faccio la formazione professionale da alberghi e il ministero della marina mercantile, e adesso sono alla Biotecnica Instruments S.p.A. a lavorare e anche alla Torre, dal 2005. Sono il primogenito, dopo di me c’è Ernesto e Ludovico con la sua famiglia.","url":"https://www.ombreeluci.it/author/giovanni-grossi/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.ombreeluci.it/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ombreeluci.it%2F2026%2Fio-a-pompei%2F&#038;lang=it" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.ombreeluci.it/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ombreeluci.it%2F2026%2Fio-a-pompei%2F&#038;format=xml&#038;lang=it" />
+<meta content="OelTheme v." name="generator"/><link rel='stylesheet' id='divi-style-parent-css' href='https://www.ombreeluci.it/wp-content/themes/Divi/style-static.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpo_min-header-1-css' href='https://www.ombreeluci.it/wp-content/cache/wpo-minify/1773063541/assets/wpo-minify-header-divi-style1736520911.min.css' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.ombreeluci.it/wp-content/cache/wpo-minify/1773063541/assets/wpo-minify-header-57f82080.min.js" id="wpo_min-header-0-js"></script>
+<link rel="https://api.w.org/" href="https://www.ombreeluci.it/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.ombreeluci.it/wp-json/wp/v2/posts/15769090" />        <style>
+            #related_posts_thumbnails li {
+                border-right: 1px solid #ffffff;
+                background-color: #ffffff            }
+
+            #related_posts_thumbnails li:hover {
+                background-color: #ffffff;
+            }
+
+            .relpost_content {
+                font-size: 15px;
+                color: #42a2c8;
+            }
+
+            .relpost-block-single {
+                background-color: #ffffff;
+                border-right: 1px solid #ffffff;
+                border-left: 1px solid #ffffff;
+                margin-right: -1px;
+            }
+
+            .relpost-block-single:hover {
+                background-color: #ffffff;
+            }
+        </style>
+
+        <style type="text/css" id="et-bloom-custom-css">
+					.et_bloom .et_bloom_optin_1 .et_bloom_form_content { background-color: #f3f3f3 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_container .et_bloom_form_header { background-color: #ffffff !important; } .et_bloom .et_bloom_optin_1 .carrot_edge .et_bloom_form_content:before { border-top-color: #ffffff !important; } .et_bloom .et_bloom_optin_1 .carrot_edge.et_bloom_form_right .et_bloom_form_content:before, .et_bloom .et_bloom_optin_1 .carrot_edge.et_bloom_form_left .et_bloom_form_content:before { border-top-color: transparent !important; border-left-color: #ffffff !important; }
+						@media only screen and ( max-width: 767px ) {.et_bloom .et_bloom_optin_1 .carrot_edge.et_bloom_form_right .et_bloom_form_content:before { border-top-color: #ffffff !important; border-left-color: transparent !important; }.et_bloom .et_bloom_optin_1 .carrot_edge.et_bloom_form_left .et_bloom_form_content:after { border-bottom-color: #ffffff !important; border-left-color: transparent !important; }
+						}.et_bloom .et_bloom_optin_1 .et_bloom_form_content button { background-color: #42a2c8 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content .et_bloom_fields i { color: #42a2c8 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content .et_bloom_custom_field_radio i:before { background: #42a2c8 !important; } .et_bloom .et_bloom_optin_1.et_bloom_optin .et_bloom_border_letter { background: repeating-linear-gradient( 135deg, #42a2c8, #42a2c8 10px, #fff 10px, #fff 20px, #f84d3b 20px, #f84d3b 30px, #fff 30px, #fff 40px ) !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content button { background-color: #42a2c8 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_container h2, .et_bloom .et_bloom_optin_1 .et_bloom_form_container h2 span, .et_bloom .et_bloom_optin_1 .et_bloom_form_container h2 strong { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; }.et_bloom .et_bloom_optin_1 .et_bloom_form_container p, .et_bloom .et_bloom_optin_1 .et_bloom_form_container p span, .et_bloom .et_bloom_optin_1 .et_bloom_form_container p strong, .et_bloom .et_bloom_optin_1 .et_bloom_form_container form input, .et_bloom .et_bloom_optin_1 .et_bloom_form_container form button span { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; } 
+				</style><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="preload" href="https://fonts.googleapis.com/css?family=PT+Sans%7CPT+Serif&amp;display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans%7CPT+Serif&amp;display=swap" rel="stylesheet">
+<meta name="google-adsense-account" content="ca-pub-2238371130141396">
+<meta name="google-site-verification" content="CHp0QtH-sw0M_ZYVjj6LRqHxV-4Z72IoYR_aiX9c6ZE">
+
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id=GTM-P92QKKXK'+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P92QKKXK');
+</script>
+<!-- End Google Tag Manager -->
+
+
+<script async type="text/javascript" src="downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">
+  window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"00c5dad63480d9601563b5692","lid":"efd099264d","uniqueMethods":true}) })
+</script>
+
+<!-- Iubenda 27 marzo 2025 -->
+<script type="text/javascript">
+var _iub = _iub || [];
+_iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"countryDetection":true,"enableFadp":true,"enableLgpd":true,"enableTcf":true,"enableUspr":true,"floatingPreferencesButtonDisplay":"bottom-right","googleAdditionalConsentMode":true,"lgpdAppliesGlobally":false,"perPurposeConsent":true,"preferenceCookie":{"expireAfter":180},"siteId":1433329,"tcfPurposes":{"2":"consent_only","7":"consent_only","8":"consent_only","9":"consent_only","10":"consent_only","11":"consent_only"},"cookiePolicyId":66379072,"banner":{"acceptButtonCaptionColor":"#FFFFFF","acceptButtonColor":"#0073CE","acceptButtonDisplay":true,"backgroundColor":"#FFFFFF","closeButtonRejects":true,"customizeButtonCaptionColor":"#4D4D4D","customizeButtonColor":"#DADADA","customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"ownerName":"fedeeluce.it","position":"float-top-center","rejectButtonCaptionColor":"#FFFFFF","rejectButtonColor":"#0073CE","rejectButtonDisplay":true,"showPurposesToggles":true,"showTitle":false,"showTotalNumberOfProviders":true,"textColor":"#000000"}};
+_iub.csLangConfiguration = {"it":{"cookiePolicyId":66379072},"en":{"cookiePolicyId":53976128}};
+</script>
+<script type="text/javascript" src="https://cs.iubenda.com/autoblocking/1433329.js"></script>
+<script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
+<script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/safe-tcf-v2.js"></script>
+<script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
+<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+<!-- FINE IUBENDA -->
+
+
+<script>
+  jQuery(function($){
+  $('.et_pb_toggle_title').click(function(){
+    var $toggle = $(this).closest('.et_pb_toggle');
+    if (!$toggle.hasClass('et_pb_accordion_toggling')) {
+      var $accordion = $toggle.closest('.et_pb_accordion');
+      if ($toggle.hasClass('et_pb_toggle_open')) {
+        $accordion.addClass('et_pb_accordion_toggling');
+        $toggle.find('.et_pb_toggle_content').slideToggle(700, function() {
+          $toggle.removeClass('et_pb_toggle_open').addClass('et_pb_toggle_close');
+        });
+      }
+      setTimeout(function(){
+        $accordion.removeClass('et_pb_accordion_toggling');
+      }, 750);
+    }
+  });
+  });
+</script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function(){
+    var item = document.querySelector('.et_pb_slider .et_pb_slides');
+    if(item!=null){
+      for (var i = item.children.length; i >= 0; i--) {
+        item.appendChild(item.children[Math.random() * i | 0]);
+      }
+    }
+  });
+</script>
+
+<script>
+  jQuery(document).ready(function(){
+    //For mobile Screens
+    if (window.matchMedia('(max-width: 767px)').matches) {
+        var initial_show_article = 10;
+      var article_reveal = 12;
+      jQuery(".pa-blog-load-more article").not( ":nth-child(-n+"+initial_show_article+")" ).css("display","none");
+      jQuery("#pa_load_more").on("click", function(event){
+        event.preventDefault();
+        initial_show_article = initial_show_article + article_reveal;
+        jQuery(".pa-blog-load-more article").css("display","block");
+        jQuery(".pa-blog-load-more article").not( ":nth-child(-n+"+initial_show_article+")" ).css("display","none");
+        var articles_num = jQuery(".pa-blog-load-more article").not('[style*="display: block"]').length
+          if(articles_num == 0){
+            jQuery(this).css("display","none");
+          }
+      })
+    } else {
+      //For desktop Screens
+      var initial_row_show = 10;
+      var row_reveal = 12;
+      var total_articles = jQuery(".pa-blog-load-more article").length;
+      jQuery(".pa-blog-load-more article").not( ":nth-child(-n+"+initial_row_show+")" ).css("display","none");
+
+      jQuery("#pa_load_more").on("click", function(event){
+          event.preventDefault();
+          initial_row_show = initial_row_show + row_reveal;
+          jQuery(".pa-blog-load-more article").css("display","block");
+          jQuery(".pa-blog-load-more article").not( ":nth-child(-n+"+initial_row_show+")" ).css("display","none");
+          var articles_num = jQuery(".pa-blog-load-more article").not('[style*="display: block"]').length
+          if(articles_num == 0){
+          jQuery(this).css("display","none");
+          }
+      })
+    }
+  })
+</script>
+
+<meta name="google-adsense-account" content="ca-pub-2238371130141396"><link rel="icon" href="https://www.ombreeluci.it/wp-content/uploads/2017/10/favicon-OL-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.ombreeluci.it/wp-content/uploads/2017/10/favicon-OL.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.ombreeluci.it/wp-content/uploads/2017/10/favicon-OL.png" />
+<meta name="msapplication-TileImage" content="https://www.ombreeluci.it/wp-content/uploads/2017/10/favicon-OL.png" />
+<style id="et-divi-customizer-global-cached-inline-styles">body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_link_content a.et_link_main_url,.et_pb_column_1_3 .et_quote_content blockquote cite,.et_pb_column_3_8 .et_quote_content blockquote cite,.et_pb_column_1_4 .et_quote_content blockquote cite,.et_pb_blog_grid .et_quote_content blockquote cite,.et_pb_column_1_3 .et_link_content a.et_link_main_url,.et_pb_column_3_8 .et_link_content a.et_link_main_url,.et_pb_column_1_4 .et_link_content a.et_link_main_url,.et_pb_blog_grid .et_link_content a.et_link_main_url,body .et_pb_bg_layout_light .et_pb_post p,body .et_pb_bg_layout_dark .et_pb_post p{font-size:16px}.et_pb_slide_content,.et_pb_best_value{font-size:18px}body{color:#000000}h1,h2,h3,h4,h5,h6{color:#000000}#et_search_icon:hover,.mobile_menu_bar:before,.mobile_menu_bar:after,.et_toggle_slide_menu:after,.et-social-icon a:hover,.et_pb_sum,.et_pb_pricing li a,.et_pb_pricing_table_button,.et_overlay:before,.entry-summary p.price ins,.et_pb_member_social_links a:hover,.et_pb_widget li a:hover,.et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active,.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active,.et_pb_gallery .et_pb_gallery_pagination ul li a.active,.wp-pagenavi span.current,.wp-pagenavi a:hover,.nav-single a,.tagged_as a,.posted_in a{color:#42a2c8}.et_pb_contact_submit,.et_password_protected_form .et_submit_button,.et_pb_bg_layout_light .et_pb_newsletter_button,.comment-reply-link,.form-submit .et_pb_button,.et_pb_bg_layout_light .et_pb_promo_button,.et_pb_bg_layout_light .et_pb_more_button,.et_pb_contact p input[type="checkbox"]:checked+label i:before,.et_pb_bg_layout_light.et_pb_module.et_pb_button{color:#42a2c8}.footer-widget h4{color:#42a2c8}.et-search-form,.nav li ul,.et_mobile_menu,.footer-widget li:before,.et_pb_pricing li:before,blockquote{border-color:#42a2c8}.et_pb_counter_amount,.et_pb_featured_table .et_pb_pricing_heading,.et_quote_content,.et_link_content,.et_audio_content,.et_pb_post_slider.et_pb_bg_layout_dark,.et_slide_in_menu_container,.et_pb_contact p input[type="radio"]:checked+label i:before{background-color:#42a2c8}a{color:#42a2c8}#main-header,#main-header .nav li ul,.et-search-form,#main-header .et_mobile_menu{background-color:#42a2c8}.nav li ul{border-color:#8fb7c6}.et_secondary_nav_enabled #page-container #top-header{background-color:#1980a6!important}#et-secondary-nav li ul{background-color:#1980a6}.et_header_style_centered .mobile_nav .select_page,.et_header_style_split .mobile_nav .select_page,.et_nav_text_color_light #top-menu>li>a,.et_nav_text_color_dark #top-menu>li>a,#top-menu a,.et_mobile_menu li a,.et_nav_text_color_light .et_mobile_menu li a,.et_nav_text_color_dark .et_mobile_menu li a,#et_search_icon:before,.et_search_form_container input,span.et_close_search_field:after,#et-top-navigation .et-cart-info{color:#ffffff}.et_search_form_container input::-moz-placeholder{color:#ffffff}.et_search_form_container input::-webkit-input-placeholder{color:#ffffff}.et_search_form_container input:-ms-input-placeholder{color:#ffffff}#top-menu li a{font-size:12px}body.et_vertical_nav .container.et_search_form_container .et-search-form input{font-size:12px!important}#top-menu li a,.et_search_form_container input{font-weight:bold;font-style:normal;text-transform:uppercase;text-decoration:none}.et_search_form_container input::-moz-placeholder{font-weight:bold;font-style:normal;text-transform:uppercase;text-decoration:none}.et_search_form_container input::-webkit-input-placeholder{font-weight:bold;font-style:normal;text-transform:uppercase;text-decoration:none}.et_search_form_container input:-ms-input-placeholder{font-weight:bold;font-style:normal;text-transform:uppercase;text-decoration:none}#top-menu li.current-menu-ancestor>a,#top-menu li.current-menu-item>a,#top-menu li.current_page_item>a{color:#f2f2f2}#main-footer .footer-widget h4,#main-footer .widget_block h1,#main-footer .widget_block h2,#main-footer .widget_block h3,#main-footer .widget_block h4,#main-footer .widget_block h5,#main-footer .widget_block h6{color:#42a2c8}.footer-widget li:before{border-color:#42a2c8}.footer-widget,.footer-widget li,.footer-widget li a,#footer-info{font-size:13px}.footer-widget .et_pb_widget div,.footer-widget .et_pb_widget ul,.footer-widget .et_pb_widget ol,.footer-widget .et_pb_widget label{line-height:1.5em}#footer-widgets .footer-widget li:before{top:6.75px}body .et_pb_button{font-size:14px}body.et_pb_button_helper_class .et_pb_button,body.et_pb_button_helper_class .et_pb_module.et_pb_button{}body .et_pb_button:after{font-size:22.4px}h1,h2,h3,h4,h5,h6,.et_quote_content blockquote p,.et_pb_slide_description .et_pb_slide_title{font-weight:bold;font-style:normal;text-transform:none;text-decoration:none;line-height:1.3em}body.home-posts #left-area .et_pb_post .post-meta,body.archive #left-area .et_pb_post .post-meta,body.search #left-area .et_pb_post .post-meta,body.single #left-area .et_pb_post .post-meta{line-height:1.7em}body.home-posts #left-area .et_pb_post h2,body.archive #left-area .et_pb_post h2,body.search #left-area .et_pb_post h2,body.single .et_post_meta_wrapper h1{line-height:1.2em}@media only screen and (min-width:981px){.et_pb_section{padding:5% 0}.et_pb_fullwidth_section{padding:0}#main-footer .footer-widget h4,#main-footer .widget_block h1,#main-footer .widget_block h2,#main-footer .widget_block h3,#main-footer .widget_block h4,#main-footer .widget_block h5,#main-footer .widget_block h6{font-size:16px}.et_header_style_left #et-top-navigation,.et_header_style_split #et-top-navigation{padding:25px 0 0 0}.et_header_style_left #et-top-navigation nav>ul>li>a,.et_header_style_split #et-top-navigation nav>ul>li>a{padding-bottom:25px}.et_header_style_split .centered-inline-logo-wrap{width:50px;margin:-50px 0}.et_header_style_split .centered-inline-logo-wrap #logo{max-height:50px}.et_pb_svg_logo.et_header_style_split .centered-inline-logo-wrap #logo{height:50px}.et_header_style_centered #top-menu>li>a{padding-bottom:9px}.et_header_style_slide #et-top-navigation,.et_header_style_fullscreen #et-top-navigation{padding:16px 0 16px 0!important}.et_header_style_centered #main-header .logo_container{height:50px}#logo{max-height:36%}.et_pb_svg_logo #logo{height:36%}.et_header_style_centered.et_hide_primary_logo #main-header:not(.et-fixed-header) .logo_container,.et_header_style_centered.et_hide_fixed_logo #main-header.et-fixed-header .logo_container{height:9px}.et_header_style_left .et-fixed-header #et-top-navigation,.et_header_style_split .et-fixed-header #et-top-navigation{padding:25px 0 0 0}.et_header_style_left .et-fixed-header #et-top-navigation nav>ul>li>a,.et_header_style_split .et-fixed-header #et-top-navigation nav>ul>li>a{padding-bottom:25px}.et_header_style_centered header#main-header.et-fixed-header .logo_container{height:50px}.et_header_style_split #main-header.et-fixed-header .centered-inline-logo-wrap{width:50px;margin:-50px 0}.et_header_style_split .et-fixed-header .centered-inline-logo-wrap #logo{max-height:50px}.et_pb_svg_logo.et_header_style_split .et-fixed-header .centered-inline-logo-wrap #logo{height:50px}.et_header_style_slide .et-fixed-header #et-top-navigation,.et_header_style_fullscreen .et-fixed-header #et-top-navigation{padding:16px 0 16px 0!important}.et_fixed_nav #page-container .et-fixed-header#top-header{background-color:#1980a6!important}.et_fixed_nav #page-container .et-fixed-header#top-header #et-secondary-nav li ul{background-color:#1980a6}.et-fixed-header #top-menu a,.et-fixed-header #et_search_icon:before,.et-fixed-header #et_top_search .et-search-form input,.et-fixed-header .et_search_form_container input,.et-fixed-header .et_close_search_field:after,.et-fixed-header #et-top-navigation .et-cart-info{color:#ffffff!important}.et-fixed-header .et_search_form_container input::-moz-placeholder{color:#ffffff!important}.et-fixed-header .et_search_form_container input::-webkit-input-placeholder{color:#ffffff!important}.et-fixed-header .et_search_form_container input:-ms-input-placeholder{color:#ffffff!important}.et-fixed-header #top-menu li.current-menu-ancestor>a,.et-fixed-header #top-menu li.current-menu-item>a,.et-fixed-header #top-menu li.current_page_item>a{color:#f2f2f2!important}.et-fixed-header#top-header a{color:rgba(255,255,255,0.5)}}@media only screen and (min-width:1350px){.et_pb_row{padding:27px 0}.et_pb_section{padding:67px 0}.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper{padding-top:81px}.et_pb_fullwidth_section{padding:0}}h1,h1.et_pb_contact_main_title,.et_pb_title_container h1{font-size:35px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:30px}h3{font-size:25px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:21px}h5{font-size:18px}h6{font-size:16px}.et_pb_slide_description .et_pb_slide_title{font-size:53px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:18px}@media only screen and (max-width:980px){body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_link_content a.et_link_main_url,.et_pb_column_1_3 .et_quote_content blockquote cite,.et_pb_column_3_8 .et_quote_content blockquote cite,.et_pb_column_1_4 .et_quote_content blockquote cite,.et_pb_blog_grid .et_quote_content blockquote cite,.et_pb_column_1_3 .et_link_content a.et_link_main_url,.et_pb_column_3_8 .et_link_content a.et_link_main_url,.et_pb_column_1_4 .et_link_content a.et_link_main_url,.et_pb_blog_grid .et_link_content a.et_link_main_url{font-size:17px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_content,.et_pb_best_value{font-size:19px}.et_pb_section{padding:0px 0}.et_pb_section.et_pb_fullwidth_section{padding:0}.et_pb_row,.et_pb_column .et_pb_row_inner{padding:39px 0}}@media only screen and (max-width:767px){body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_link_content a.et_link_main_url,.et_pb_column_1_3 .et_quote_content blockquote cite,.et_pb_column_3_8 .et_quote_content blockquote cite,.et_pb_column_1_4 .et_quote_content blockquote cite,.et_pb_blog_grid .et_quote_content blockquote cite,.et_pb_column_1_3 .et_link_content a.et_link_main_url,.et_pb_column_3_8 .et_link_content a.et_link_main_url,.et_pb_column_1_4 .et_link_content a.et_link_main_url,.et_pb_blog_grid .et_link_content a.et_link_main_url{font-size:16px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_content,.et_pb_best_value{font-size:18px}h1{font-size:24px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:20px}h3{font-size:17px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:14px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description .et_pb_slide_title{font-size:36px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:12px}h5{font-size:12px}h6{font-size:11px}.et_pb_row,.et_pb_column .et_pb_row_inner{padding:0px 0}}	h1,h2,h3,h4,h5,h6{font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif}body,input,textarea,select{font-family:'PT Serif',Georgia,"Times New Roman",serif}.et_pb_button{font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif}#main-header,#et-top-navigation{font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif}#top-header .container{font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif}.et_pb_slider_fullwidth_off .et_pb_slide_description .et_pb_slide_title{font-size:27px}.et_pb_column_1_3 .et_pb_slider_fullwidth_off .et_pb_slide_description .et_pb_slide_title{font-size:15.260869557px}.et_pb_column_1_4 .et_pb_slider_fullwidth_off .et_pb_slide_description .et_pb_slide_title{font-size:15.260869557px}.lang-icon>a::before{content:"\f1ab";font-family:"Font Awesome 5 Free";font-weight:900;margin-right:6px;font-size:1em}a{text-decoration:none!important}[id$="-megamenu"]{display:none;position:absolute;top:100%;left:0;width:100%;background-color:white;z-index:999;box-shadow:0 10px 30px rgba(0,0,0,0.15);padding:40px calc((100vw - 1076px) / 2)!important;opacity:0;transform:translateY(-10px);transition:opacity 0.3s ease,transform 0.3s ease}[id$="-megamenu"].show{display:block;opacity:1;transform:translateY(0)}@media (max-width:980px){[id$="-megamenu"]{display:none!important}}.BtnDona>a{background-color:#ff1053;color:#ffffff!important;padding:8px 16px!important;border-radius:6px;font-weight:700;text-transform:lowercase;font-size:14px;letter-spacing:0.5px;display:inline-block;line-height:1;transition:background-color 0.3s ease,color 0.3s ease;border:solid 1px white}.BtnDona>a:hover{background-color:#c2185b;color:#ffffff!important}.menu-icon>a{position:relative;padding-right:26px!important;display:inline-block}.menu-icon>a::after{content:" 三";font-size:18px;position:absolute;right:0;top:50%;transform:translateY(-50%) rotate(0deg);transition:transform 0.3s ease,content 0.3s ease;color:inherit;line-height:1;padding-left:10px}.menu-icon.active>a::after{content:"✕";transform:translateY(-50%) rotate(180deg)}body:not(.et-tb) #main-content .container,body:not(.et-tb-has-header) #main-content .container{padding-top:20px}#left-area .post-meta{padding-bottom:5px}.BoxInfoAutore{margin:.5rem 0 1.3rem}.BoxAvatar{float:left;margin-right:15px}.BoxAvatar img{width:35px}.AutoreDettagli{font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;font-size:13px;padding:3px 0 0}.AutoreNome{}.AutoreNome a{color:#999}.AutoreBio{display:none}#left-area ul.elenco-autori{list-style-type:none;padding:0;margin:2rem 0}.elenco-autore{list-style:none;margin:0 0 2rem}.autore-avatar{float:left;margin-right:30px}.avatar{border-radius:100%}.autore-dettagli{margin-left:111px}p.autore-bio{padding-bottom:0}p.autore-link{font-size:80%}h3.autore-nome{margin:0}h3.autore-nome a{color:#42a2c8}.HdColDiari h3 a{color:crimson}.HdColDiari h3 a:hover{color:black}#left-area ol,.entry-content ol,.et-l--body ol,.et-l--footer ol,.et-l--header ol{list-style-type:decimal;list-style-position:inherit;padding:0px 20px 20px}h2.relpost_card_title{color:#42a2c8}.BoxGrigio{background:#f3f3f3;padding:4%;margin:2rem 0}.BoxGrigio h3{font-size:1.3rem;font-weight:600;padding:0}.InfoFondoPagina h3{font-size:1rem;font-weight:600;padding:0}.evidenziazione{padding:1em 2em 1em 0;border-top:solid 2px #42a2c8;border-bottom:solid 2px #42a2c8;margin:1em 0 2em;color:#42a2c8;font-weight:bold;text-align:center;font-size:1.4rem;line-height:1.5em}.icon-menu-dona>a:after{font-family:'ETMODULES';content:'\e089';text-align:center;vertical-align:middle;margin-right:0px;margin-left:5px;color:#D63638;font-size:1.1em;transition:all .3s ease}#top-header a{color:#fff;font-weight:400!important}h1,h2,h3,h4,h5,h6,.et_quote_content blockquote p,.et_pb_slide_description .et_pb_slide_title{font-weight:900}h1{padding-bottom:5px;margin-top:0.2em}h2{padding-bottom:5px}.et_pb_post h2{font-size:20px}h2.tit2{margin:0 0 0;font-weight:normal;font-size:22px;line-height:30px}h3{margin:1.3em 0 0.5em}h3:first-child{margin-top:0}h3.nomargin{margin:0;padding:0}h4.titoletto{text-transform:uppercase;font-weight:200;font-size:13px}h4.widgettitle{font-size:1em;font-weight:400;padding-bottom:8px;text-transform:uppercase}.post-meta,.post-meta-top{font-family:"Open Sans";text-transform:uppercase;line-height:15px;padding-top:0.4em;margin:0}.post-meta{font-size:10px}.post-meta-top{font-size:13px;font-weight:600;padding-bottom:1em}body.project-template-default p.post-meta{font-size:12px}.post-meta a,.post-meta-top a,body.project-template-default h2 a{color:#42a2c8;text-decoration:none;transition:all 0.2s ease}.post-meta a:hover{color:black;border-bottom:solid 1px}.post-meta .category{font-weight:900}.post-meta .category a{color:#42a2c8!important}.post-meta .date{text-transform:capitalize;font-weight:300;letter-spacing:0}.post-meta .date:before{margin:auto 12px;content:"";border-right:1px solid #9f9f9f;height:.875rem}.IndiceArticolo{font-size:80%;font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;border:solid 1px #ccc;padding:1rem 1rem 0;margin:0 0 2rem}.MetaDati{margin:1em 0;font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;display:flex}.avatar-tondo{margin-right:15px}.avatar-tondo img{border-radius:200px;width:45px}.dati{line-height:21px}.autore{font-size:0.9em}.autore a{font-weight:600}.data-categorie{color:#555;font-size:0.8em}.BoxRecensione{background:aliceblue;padding:2em;margin-bottom:2rem}.BoxRecensione p{font-size:1rem}.BoxEvidente{background:#e9f4f9;padding:2rem;border-radius:5px;color:#0b1f27;margin:2rem 0 3rem}.BoxAlert{background:blanchedalmond;padding:2rem;border:2px solid orange;margin-bottom:2rem}.BoxBorderOrange{padding:2em;border:2px solid orange;margin:1em 0 2em;font-style:italic}.BoxSostienici{max-width:550px;margin:20px auto 40px;padding:24px;box-sizing:border-box;border:2px solid rgb(18,18,18)}.BoxStep{margin:20px 0 40px}.BoxDiarioBlog h1{font-family:'Ultra',Georgia,"Times New Roman",serif}.BoxDiarioBlog p{padding-bottom:0.5em}.BoxDiarioBlog p.small{line-height:25px;font-size:80%}.et_pb_posts_nav .nav-previous,.et_pb_posts_nav .nav-next{position:fixed;top:50%}.et_pb_posts_nav .nav-previous{left:-20px;float:right}.et_pb_posts_nav .nav-next{right:-20px;float:right}.et_pb_posts_nav .nav-previous a::before,.et_pb_posts_nav .nav-next a::before{font-family:'ETmodules';font-size:38px;z-index:100;color:white;background:#42a2c8}.BoxAutoreOri img{width:70px}.BoxAutoreVert img{width:100px}.BoxAutoreOri p,.BoxAutoreVert p{padding:0 0 5px;margin:0}.VecchiArticoli{background-color:#D97706;color:#fff;text-transform:uppercase;padding-block:0;padding-inline:0.5rem;font-weight:600;display:inline;font-family:'Open Sans',sans-serif;font-size:0.8rem;border-radius:3px;margin:8px 0 0;display:inline-block}.post-meta .category-date-wrapper{display:inline;margin-right:10px}@media (max-width:767px){.post-meta .category-date-wrapper{display:block;width:100%;margin-bottom:0.5em}}.PreTitolo{margin-bottom:15px}.PreTitolo .categoria a{text-transform:uppercase;color:black;font-weight:bold;margin:0 0 0 10px}.PreTitolo .data{color:#999;margin:0 10px}.PreTitolo .data::before{margin:auto 10px auto 0;content:"";border-right:1px solid #9f9f9f;display:inline-block;height:14px}.cc{text-align:center;background:#42a2c8;padding:1.5rem;margin-bottom:2rem}.cc img{width:62px;height:62px}blockquote{font-size:1.25rem;line-height:1.6em;position:relative;margin:4rem 1rem 3rem 6rem;max-width:500px;border:0 none}blockquote:before{content:"\201C";position:absolute;font-size:5rem;left:-.5em;top:-.1em;color:#42a2c8}blockquote p{font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;font-weight:300;font-style:italic}blockquote small{text-transform:uppercase;font-style:normal}span.capolettera{font-family:"Open Sans",Arial,sans-serif;font-weight:900;display:inline-block;float:left;font-size:100px;line-height:100px;color:#000;margin:0 30px 0 0}.relpost-thumb-wrapper{margin:0 auto}.relpost-block-single{margin:0 20px 0 0;padding:0;text-align:left;border:0 none}.relpost-block-single div{height:270px;width:310px}.relpost-block-single div .relpost-block-single-image{height:200px}.relpost-block-single-text{font-weight:bold;margin-top:15px}#et-secondary-menu{float:none;text-align:right}#et-secondary-nav a{font-weight:300}.mobile_menu_bar:before{color:white}.et_search_form_container input{font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif}body.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header,body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header{top:64px}.et_fixed_nav.et_show_nav.et_secondary_nav_enabled #page-container,.et_non_fixed_nav.et_transparent_nav.et_show_nav.et_secondary_nav_enabled #page-container{padding-top:92px}.et_pb_blog_0_tb_body{box-shadow:0px 0px 0px 0px rgba(255,255,255,0)}.EvidenziazioneSupport{background-color:#ffe500;font-weight:bold;padding:0.125rem}.custom_caption{font-size:.75rem;line-height:1.2rem;color:#999;font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;margin-top:5px;display:block;text-align:left;padding:0}.credito img{vertical-align:bottom}.PageCatDescription{font-size:85%}.MenuNumero p{font-size:1rem;line-height:1.3rem}.MenuNumero h4,.SideBarArtNum h4{font-size:14px;text-transform:uppercase;font-weight:600;padding:0 0 0px}.promo{background:gold;padding:2rem;font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif}.StepNum{font-family:"Open Sans",Arial,sans-serif;font-weight:900;display:inline-block;float:left;font-size:40px;line-height:40px;color:#000;margin:0 15px 0 0;-webkit-font-smoothing:antialiased}.TagHP{font-size:120%}.TagHP p{padding-bottom:1em}.TagHP a{color:white;font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif}.TagHP a:hover{color:yellow}.tornasu{font-size:60%;font-weight:bold;float:right}#iubenda-pp{z-index:999999}.et_pb_text_inner{font-size:1.25rem;line-height:1.825rem}.et_pb_post_search{margin-top:2em;padding-bottom:2em;border-width:0 0 4px 0;border-bottom-color:#42a2c8;border-style:solid}.entry-title-search{color:#43a2c8;font-size:22px;padding-top:1em;line-height:26px}.SideBarArtNum p{font-size:75%;line-height:1.4em}.SideBarArtNum img{width:100%}.give-btn{border-radius:2px;transition:background-color 100ms,color 100ms,border-color 100ms,box-shadow 100ms;background-color:#f8f9fa;color:#222;border:1px solid #a2a9b1}.give-btn:hover,.give-btn:active{background-color:#2a4b8d;color:#fff;border-color:#2a4b8d}a.bianco{color:white;vertical-align:top;text-shadow:1px 1px 2px #000}table.small tr{font-size:80%}.BlogDiario.et_pb_module.et_pb_posts .et_pb_post{display:flex;flex-direction:column}.BlogDiario.pa-blog-list .entry-featured-image-url{order:1}.BlogDiario.et_pb_module.et_pb_posts .et_pb_post .post-meta{order:2}.BlogDiario.et_pb_module.et_pb_posts .et_pb_post .entry-title{order:3}.BlogDiario.et_pb_module.et_pb_posts .et_pb_post .post-content{order:4}.invisibile{display:none}.hatom-extra{display:none}span.BoxFondoPagina{margin-bottom:1em;display:block;text-transform:uppercase;font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;font-size:.8rem}.small,p.small,span.small{line-height:20px;font-size:80%}.nobullet{list-style:none}span.BoxFondoPagina{margin-bottom:1em;display:block;text-transform:uppercase}hr{background:#eee;border:0;height:1px;margin:2rem 0}hr.blu{min-width:100%;border-top-width:5px;border-top-style:solid;border-top-color:#4CAAD8;border-collapse:collapse}.sharethis-inline-share-buttons{margin:auto;max-width:1080px}#st-1.st-has-labels .st-btn,#st-2.st-has-labels .st-btn{max-width:40px!important}#st-1 .st-btn,#st-2 .st-btn{background-color:#ddd!important}#st-1 .st-btn>span,#st-2 .st-btn>span{color:#000!important}#st-1 .st-btn>img,#st-2 .st-btn>img{filter:invert(1)!important}.authors-list-item-title a{font-size:16px}.authors-list-item-thumbnail img{border-radius:200px}.authors-list-item-excerpt{display:none}.WrapperDiari .et_pb_posts_nav .nav-previous{left:0}.WrapperDiari .et_pb_posts_nav .nav-next{right:0}.et_pb_posts_nav .nav-label,.et_pb_posts_nav .meta-nav{display:none}.et_pb_posts_nav.et_pb_post_nav_0 span.nav-previous a,.et_pb_posts_nav.et_pb_post_nav_0 span.nav-next a{border-width:0;border-style:none;padding:5px 15px;margin-bottom:10px}.et_pb_filterable_portfolio .et_pb_portofolio_pagination{border:0}.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul{list-style-type:none;text-align:center;margin:0 0 1em 0;padding:0}.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li{padding:10px 4px}.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a{font-size:16px;line-height:16px;color:#999;font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;padding:.5em .8em;background:#eee;border:1px solid #eee}.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a:hover{border-color:#42a2c8}.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active{background:#42a2c8;color:#fff;border-color:#42a2c8}.more-link{display:none}.wp-caption,.wp-caption-text{max-width:100%;margin-bottom:2rem!important;padding:0;border:0;background-color:#fff;text-align:center;font-size:12px!important;line-height:1.7!important;color:#999}#post-12284 .wp-caption p.wp-caption-text{font-size:1em;padding:0 4px 5px;margin:0 0 20px;text-align:left;line-height:1.5em}body.home .et_pb_post{margin-bottom:30px}.HdColDiari .et_pb_post .entry-featured-image-url{margin-bottom:15px}body.home .et_pb_post .post-meta{padding-top:.1em}.BoxAutoreOri ul.et_pb_member_social_links,.BoxAutoreVert ul.et_pb_member_social_links{padding:5px 0 0;margin:0}.BoxAutoreOri ul.et_pb_member_social_links a,.BoxAutoreVert ul.et_pb_member_social_links a{font-size:13px}.BoxAutoreOri h4.et_pb_module_header{padding-top:0}@media only screen and (max-width:600px){blockquote{margin:3rem 1rem 3rem 2rem;font-size:1.1rem}}@media only screen and (max-width:767px){h3{font-size:25px}.et_pb_row{padding-top:1em}}@media (min-width:767px){.pa-blog-list .entry-featured-image-url{width:30%;float:left;margin-bottom:0}.pa-blog-list .entry-title,.pa-blog-list .post-meta,.pa-blog-list .post-content{width:70%;float:left;padding-left:30px}}@media only screen and (min-width:981px){.et_pb_pagebuilder_layout.single.et_full_width_page:not(.et-tb-has-body) .et_post_meta_wrapper{margin:0 auto 1em;padding-top:1%}}@media only screen and (min-width:1350px){.et_pb_section{padding:0px 0}}@media all and (min-width:1100px) and (max-width:1404px){}@media all and (min-width:980px) and (max-width:1099px){}@media all and (min-width:768px) and (max-width:979px){}@media all and (min-width:320px) and (max-width:767px){}@media all and (max-width:479px){#left-area .post-meta{padding-top:8px}div#disqus_thread{padding:0;background:white}}@media only screen and (min-width:981px){.et-fixed-header#top-header a{color:inherit}.et-fixed-header#top-header,.et-fixed-header#top-header #et-secondary-nav li ul{background-color:#1980a6}}@media only screen and (max-width:980px){.et_header_style_left .et-search-form,.et_header_style_split .et-search-form{max-width:40%}}@media screen and (max-width:48em){body{line-height:24px}.et_pb_post h2.tit2,h2.tit2{font-size:20px;line-height:24px}}select{display:block;font-size:16px;font-family:sans-serif;font-weight:700;color:#444;line-height:1.3;padding:.6em 1.4em .5em .8em;width:100%;max-width:100%;box-sizing:border-box;margin:0;border:1px solid #ccc;border-radius:.5em;appearance:none;background-color:#fff;background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),linear-gradient(to bottom,#ffffff 0%,#e5e5e5 100%);background-repeat:no-repeat,repeat;background-position:right .7em top 50%,0 0;background-size:.65em auto,100%}select:hover{border-color:#888}select:focus{border-color:#aaa;box-shadow:0 0 1px 3px rgba(59,153,252,.7);outline:none}.et_pb_posts_nav .nav-previous{float:right;position:fixed;left:-20px;top:50%}.et_pb_posts_nav .nav-next{float:right;top:50%;position:fixed;right:-20px}.WrapperDiari .et_pb_posts_nav .nav-previous{left:0px}.WrapperDiari .et_pb_posts_nav .nav-next{right:0px}.et_pb_posts_nav .nav-previous a::before,.et_pb_posts_nav .nav-next a::before{font-family:'ETmodules';font-size:38px!important;z-index:100;color:white;background:#42a2c8}.et_pb_posts_nav .nav-next a::before{border-radius:100px 0px 0px 100px}.et_pb_posts_nav .nav-previous a::before{border-radius:0 100px 100px 0}.et_pb_posts_nav .nav-next a::before{content:'5'}.et_pb_posts_nav .nav-previous a::before{content:'4'}.et_pb_posts_nav .nav-label,.et_pb_posts_nav .meta-nav{display:none}.et_pb_posts_nav.et_pb_post_nav_0 span.nav-previous a,.et_pb_posts_nav.et_pb_post_nav_0 span.nav-next a{border-width:0px;border-style:none;padding-top:5px;padding-right:15px;padding-bottom:5px;padding-left:15px;margin-bottom:10px}h1#comments{font-size:1.1em}.comment_avatar img{width:60px}ul.autori-grid{display:grid;grid-template-columns:1fr;gap:0.5em;padding:0;margin:1em 0;list-style:none}ul.autori-grid li{margin:0}ul.autori-grid a{text-decoration:none;color:#333}@media (min-width:768px){ul.autori-grid{grid-template-columns:repeat(3,1fr)}}.box_border{border-top:solid 1px #eee;margin:1rem 0 1rem;padding:1rem 0 0}@media (min-width:981px){.content600{max-width:600px!important;margin:2rem auto;padding:0}body.single-post .content600 .et_pb_row.et_pb_equal_columns.et_pb_row_0{display:flex;flex-direction:column;gap:2rem}body.single-post .content600 .et_pb_column_2_3{width:100%!important}body.single-post .content600 .et_pb_column_1_3{width:100%!important}body.single-post .content600 .et_post_meta_wrapper,body.single-post .content600 .et_pb_row_0{width:100%!important;margin:0}body.single-post .content600 .SideBarArtNum img{vertical-align:bottom;max-width:50%;box-shadow:0px 12px 18px -6px rgba(0,0,0,0.3)}body.single-post .content600 .SideBarArtNum{margin:50px 0;margin-bottom:50px;padding:30px;background:aliceblue}.entry-content.content600 .SideBarArtNum p,body.single-post .content600 .et_pb_testimonial_description p{font-size:16px;line-height:24px}body.single-post .et_pb_section.et_pb_footer .et_pb_row{display:flex;flex-direction:row!important;width:100%!important;max-width:none!important}body.single-post .et_pb_section.et_pb_footer .et_pb_column{width:33.333%!important}}.entry-content.content600 p{font-size:20px;line-height:30px}</style><style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wpo_min-footer-0-css' href='https://www.ombreeluci.it/wp-content/cache/wpo-minify/1773063541/assets/wpo-minify-footer-et_bloom-css1617324133.min.css' type='text/css' media='all' />
+
+</head>
+<body class="wp-singular post-template-default single single-post postid-15769090 single-format-standard wp-theme-Divi wp-child-theme-OelTheme et-tb-has-template et-tb-has-header et-tb-has-body et-tb-has-footer et_bloom et_pb_button_helper_class et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_divi_theme et-db">
+	<div id="page-container">
+<div id="et-boc" class="et-boc">
+			
+		<header class="et-l et-l--header">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_1_tb_header et_pb_sticky_module et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0_tb_header">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_header et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><a href="https://www.ombreeluci.it/"><img decoding="async" src="https://www.ombreeluci.it/wp-content/uploads/2017/10/logo-testata-300x61.png" alt="Logo Ombre e Luci" class="wp-image-273 alignnone size-medium" width="130" height="auto" srcset="https://www.ombreeluci.it/wp-content/uploads/2017/10/logo-testata-300x61.png 300w, https://www.ombreeluci.it/wp-content/uploads/2017/10/logo-testata.png 630w" sizes="(max-width: 300px) 100vw, 300px" /></a>  <a href="https://www.ombreeluci.it/i-diari-di-ombre-e-luci/" class="bianco">Diari</a></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_2_tb_header et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_1_tb_header BoxDiarioBlog">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_testimonial et_pb_testimonial_0_tb_header et_clickable clearfix  et_pb_text_align_left et_pb_bg_layout_light et_pb_icon_off et_pb_testimonial_no_image">
+				
+				
+				
+				
+				<div style="background-image:url(https://www.ombreeluci.it/wp-content/uploads/2023/03/giovanni-grossi-96x96.jpg)" class="et_pb_testimonial_portrait"></div>
+				<div class="et_pb_testimonial_description">
+					<div class="et_pb_testimonial_description_inner"></div>
+					<span class="et_pb_testimonial_author"><a href="https://www.ombreeluci.it/n-172/">N. 172</a> | <a href="https://www.ombreeluci.it/diario-di-giovanni/">Senza Filtro</a></span>
+					<p class="et_pb_testimonial_meta"><span class="et_pb_testimonial_position">di Giovanni Grossi</span></p>
+				</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</header>
+	<div id="et-main-area">
+	
+    <div id="main-content">
+    <div class="et-l et-l--body">
+			<div class="et_builder_inner_content et_pb_gutters3"><div class="et_pb_section et_pb_section_0_tb_body WrapperDiari et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0_tb_body">
+				<div class="et_pb_column et_pb_column_2_3 et_pb_column_0_tb_body  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_post_title et_pb_post_title_0_tb_body et_pb_bg_layout_light  et_pb_text_align_left"   >
+				
+				
+				
+				
+				
+				<div class="et_pb_title_container">
+					<h1 class="entry-title">Io a Pompei</h1><p class="et_pb_title_meta_container"><span class="published">30 Gen 2026</span> | <a href="https://www.ombreeluci.it/n-172/" rel="category tag">N. 172</a>, <a href="https://www.ombreeluci.it/diario-di-giovanni/" rel="category tag">Senza Filtro</a> | <span class="comments-number"><a href="https://www.ombreeluci.it/2026/io-a-pompei/#respond">0 commenti</a></span></p>
+				</div>
+				<div class="et_pb_title_featured_container"><span class="et_pb_image_wrap"><img fetchpriority="high" decoding="async" width="2560" height="1440" src="https://www.ombreeluci.it/wp-content/uploads/2026/01/Padre-Benoit-Pompei-2-scaled.jpg" alt="La veglia durante il pellegrinaggio di Fede e Luce a Pompei" title="La veglia durante il pellegrinaggio di Fede e Luce a Pompei" srcset="https://www.ombreeluci.it/wp-content/uploads/2026/01/Padre-Benoit-Pompei-2-scaled.jpg 2560w, https://www.ombreeluci.it/wp-content/uploads/2026/01/Padre-Benoit-Pompei-2-1280x720.jpg 1280w, https://www.ombreeluci.it/wp-content/uploads/2026/01/Padre-Benoit-Pompei-2-980x551.jpg 980w, https://www.ombreeluci.it/wp-content/uploads/2026/01/Padre-Benoit-Pompei-2-480x270.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2560px, 100vw" class="wp-image-15769059" /></span></div>
+			</div><div class="et_pb_module et_pb_post_content et_pb_post_content_0_tb_body">
+				
+				
+				
+				
+				<div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters3"><div class="et_pb_section et_pb_section_0 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span class="capolettera">Io</span> al principio non ero sicuro di partire perché ho avuto problemi nel mangiare, io ho viaggiato da Roma con un pullman fatto apposta per noi. Ognuno di noi aveva una valigia e veniamo sistemati in un albergo, che serve per passare la notte e la mattina noi facciamo colazione e poi durante il giorno c’era un programma della giornata. Da giovedì alla domenica c’è stato un susseguirsi di cose. <strong>Mi è difficile scrivere cosa dicevano nei momenti di scambio. Tutto improntato sul vangelo e sul tema del giorno <em>Grandi cose ha fatto il Signore per noi</em></strong>, e poi vediamo gli scavi è stato bello guardare il posto. Il giorno dopo si prega e si discute sul <em>magnificat</em>, io non sapevo cosa dire, e ho cercato di essere in tema, insomma è stato un modo di stare assieme, il giorno più lungo è quello in cui c’era la veglia e nel santuario si legge il vangelo. Poi si cammina per i negozi nel bar e si torna nel proprio luogo.</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="hatom-extra"><span class="entry-title">Io a Pompei</span>
+		ultima modifica: <span class="updated">2026-01-30T11:50:04+00:00</span> 
+		da <span class="author vcard"><span class="fn">Giovanni Grossi</span></span></div>
+		</div>
+	</div>
+	<span class="et_bloom_bottom_trigger"></span>
+			</div><div class="et_pb_module et_pb_post_nav_0_tb_body et_pb_posts_nav nav-single">
+								<span class="nav-previous"
+									>
+					<a href="https://www.ombreeluci.it/2026/sono-molto-brava-a-cantare/" rel="prev">
+												<span class="meta-nav">&larr; </span><span class="nav-label">Sono molto brava a cantare</span>
+					</a>
+				</span>
+							<span class="nav-next"
+									>
+					<a href="https://www.ombreeluci.it/2026/la-costituzione-dei-poveri-recensione/" rel="next">
+												<span class="nav-label">La costituzione dei poveri | Recensione</span><span class="meta-nav"> &rarr;</span>
+					</a>
+				</span>
+			
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_3 et_pb_column_1_tb_body  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_body  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><a href="https://www.ombreeluci.it/i-diari-di-ombre-e-luci/">I Diari di Ombre e Luci</a></h3></div>
+			</div><div class="et_pb_module et_pb_testimonial et_pb_testimonial_0_tb_body BoxDiarioBlog et_clickable et_pb_section_video_on_hover clearfix  et_pb_text_align_left et_pb_bg_layout_light et_pb_icon_off et_pb_testimonial_no_image">
+				
+				
+				
+				
+				<div style="background-image:url(https://www.ombreeluci.it/wp-content/uploads/2023/03/Arianna-Giuliano.jpeg)" class="et_pb_testimonial_portrait"></div>
+				<div class="et_pb_testimonial_description">
+					<div class="et_pb_testimonial_description_inner"></div>
+					<span class="et_pb_testimonial_author">NasoMano</span>
+					<p class="et_pb_testimonial_meta"><span class="et_pb_testimonial_position">di Arianna Giuliano</span></p>
+				</div>
+			</div><div class="et_pb_module et_pb_testimonial et_pb_testimonial_1_tb_body BoxDiarioBlog et_clickable clearfix  et_pb_text_align_left et_pb_bg_layout_light et_pb_icon_off et_pb_testimonial_no_image">
+				
+				
+				
+				
+				<div style="background-image:url(https://www.ombreeluci.it/wp-content/uploads/2022/10/Bendetta-Ottobre-2022-3.jpg)" class="et_pb_testimonial_portrait"></div>
+				<div class="et_pb_testimonial_description">
+					<div class="et_pb_testimonial_description_inner"></div>
+					<span class="et_pb_testimonial_author">Benedetta Ragazza!</span>
+					<p class="et_pb_testimonial_meta"><span class="et_pb_testimonial_position">di Benedetta Mattei</span></p>
+				</div>
+			</div><div class="et_pb_module et_pb_testimonial et_pb_testimonial_2_tb_body BoxDiarioBlog et_clickable clearfix  et_pb_text_align_left et_pb_bg_layout_light et_pb_icon_off et_pb_testimonial_no_image">
+				
+				
+				
+				
+				<div style="background-image:url(https://www.ombreeluci.it/wp-content/uploads/2023/03/giovanni-grossi.jpg)" class="et_pb_testimonial_portrait"></div>
+				<div class="et_pb_testimonial_description">
+					<div class="et_pb_testimonial_description_inner"></div>
+					<span class="et_pb_testimonial_author">Senza Filtro</span>
+					<p class="et_pb_testimonial_meta"><span class="et_pb_testimonial_position">di Giovanni Grossi</span></p>
+				</div>
+			</div><div class="et_pb_module et_pb_testimonial et_pb_testimonial_3_tb_body BoxDiarioBlog et_clickable clearfix  et_pb_text_align_left et_pb_bg_layout_light et_pb_icon_off et_pb_testimonial_no_image">
+				
+				
+				
+				
+				<div style="background-image:url(https://www.ombreeluci.it/wp-content/uploads/2023/03/Efrem.jpg)" class="et_pb_testimonial_portrait"></div>
+				<div class="et_pb_testimonial_description">
+					<div class="et_pb_testimonial_description_inner"></div>
+					<span class="et_pb_testimonial_author">Articolo 1</span>
+					<p class="et_pb_testimonial_meta"><span class="et_pb_testimonial_position">di Efrem Sardella</span></p>
+				</div>
+			</div><div class="et_pb_module et_pb_testimonial et_pb_testimonial_4_tb_body BoxDiarioBlog et_clickable clearfix  et_pb_text_align_left et_pb_bg_layout_light et_pb_icon_off et_pb_testimonial_no_image">
+				
+				
+				
+				
+				<div style="background-image:url(https://www.ombreeluci.it/wp-content/uploads/2023/03/Antonietta-min.jpg)" class="et_pb_testimonial_portrait"></div>
+				<div class="et_pb_testimonial_description">
+					<div class="et_pb_testimonial_description_inner"></div>
+					<span class="et_pb_testimonial_author">Il giardino che nessuno sa</span>
+					<p class="et_pb_testimonial_meta"><span class="et_pb_testimonial_position">di Antonietta Pantone</span></p>
+				</div>
+			</div><div class="et_pb_module et_pb_testimonial et_pb_testimonial_5_tb_body BoxDiarioBlog et_clickable clearfix  et_pb_text_align_left et_pb_bg_layout_light et_pb_icon_off et_pb_testimonial_no_image">
+				
+				
+				
+				
+				<div style="background-image:url(https://www.ombreeluci.it/wp-content/uploads/2024/02/davide-passeri.webp)" class="et_pb_testimonial_portrait"></div>
+				<div class="et_pb_testimonial_description">
+					<div class="et_pb_testimonial_description_inner"></div>
+					<span class="et_pb_testimonial_author">Il mondo ascoltato da me</span>
+					<p class="et_pb_testimonial_meta"><span class="et_pb_testimonial_position">di Davide Passeri</span></p>
+				</div>
+			</div><div class="et_pb_module et_pb_divider_0_tb_body et_pb_space et_pb_divider_hidden"><div class="et_pb_divider_internal"></div></div><div class="et_pb_module et_pb_testimonial et_pb_testimonial_6_tb_body BoxDiarioBlog et_clickable et_pb_section_video_on_hover clearfix  et_pb_text_align_left et_pb_bg_layout_light et_pb_icon_off et_pb_testimonial_no_image">
+				
+				
+				
+				
+				<div style="background-image:url(https://www.ombreeluci.it/wp-content/uploads/2024/04/Luciana-Spigolon.jpg)" class="et_pb_testimonial_portrait"></div>
+				<div class="et_pb_testimonial_description">
+					<div class="et_pb_testimonial_description_inner"></div>
+					<span class="et_pb_testimonial_author">Vite preziose</span>
+					<p class="et_pb_testimonial_meta"><span class="et_pb_testimonial_position">di Luciana Spigolon</span></p>
+				</div>
+			</div><div class="et_pb_module et_pb_testimonial et_pb_testimonial_7_tb_body BoxDiarioBlog et_clickable clearfix  et_pb_text_align_left et_pb_bg_layout_light et_pb_icon_off et_pb_testimonial_no_image">
+				
+				
+				
+				
+				<div style="background-image:url(https://www.ombreeluci.it/wp-content/uploads/2026/02/Valeria-Antonucci.webp)" class="et_pb_testimonial_portrait"></div>
+				<div class="et_pb_testimonial_description">
+					<div class="et_pb_testimonial_description_inner"></div>
+					<span class="et_pb_testimonial_author">Scorribande</span>
+					<p class="et_pb_testimonial_meta"><span class="et_pb_testimonial_position">di Valeria Antonucci</span></p>
+				</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_1_tb_body">
+				<div class="et_pb_column et_pb_column_1_2 et_pb_column_2_tb_body  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_comments_0_tb_body et_pb_comments_module et_pb_bg_layout_light">
+				
+				
+				
+				
+				
+
+<section id="comment-wrap">
+	<h1 id="comments" class="page_title">0 commenti</h1>
+		   <div id="comment-section" class="nocomments">
+		  
+		  	   </div>
+					<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"><span>Invia un commento</span> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2026/io-a-pompei/#respond" style="display:none;">Annulla risposta</a></small></h3><form action="https://www.ombreeluci.it/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Il tuo indirizzo email non sarà pubblicato.</span> <span class="required-field-message">I campi obbligatori sono contrassegnati <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Commento <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Nome <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required="required" /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required="required" /></p>
+<p class="comment-form-url"><label for="url">Sito web</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200" autocomplete="url" /></p>
+<p class="form-submit"><button name="submit" type="submit" id="et_pb_submit" class="submit">Invia commento</button> <input type='hidden' name='comment_post_ID' value='15769090' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+		</section>
+
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_2 et_pb_column_3_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_cta_0_tb_body et_pb_promo  et_pb_text_align_center et_pb_bg_layout_dark">
+				
+				
+				
+				
+				<div class="et_pb_promo_description"><h2 class="et_pb_module_header">Sostieni Ombre e Luci</h2><div>Se ti piacciono i contenuti che pubblichiamo, aiutaci a mantenerli vivi. Basta un contributo, anche piccolo.</div></div>
+				<div class="et_pb_button_wrapper"><a class="et_pb_button et_pb_promo_button" href="https://www.paypal.com/donate/?hosted_button_id=MUYSEJFU7CL9G&#038;locale.x=it_IT">Vai</a></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</div>
+	    </div>
+    
+	<footer class="et-l et-l--footer">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0_tb_footer et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0_tb_footer">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_0_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_footer pdp  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Ombre e Luci</h3>
+<p>Organo dell&#8217;Associazione Fede e Luce Aps</p>
+<p>Viale di Valle Aurelia, 92,<br />00167 Roma RM [<a href="https://www.google.com/maps/dir//ombre+e+luci/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x132f600ca2ec54e3:0x7eb219b04a6a29e7?sa=X&amp;ved=2ahUKEwiXwqinmOb1AhWL7KQKHaolD7kQ9Rd6BAgrEAU" target="_blank" rel="noopener">vedi mappa</a>]</p>
+<p>Email: <a href="mailto:ombreeluci@fedeeluce.it">ombreeluci@fedeeluce.it</a><br />Tel.: +39 334 3454998</p>
+<p>Fondatrice: <a href="https://www.ombreeluci.it/author/mariangela-bertolini/"><strong>Mariangela Bertolini</strong></a><br />Direttrice responsabile: <a href="https://www.ombreeluci.it/author/giulia-galeotti/"><strong>Giulia Galeotti</strong></a></p></div>
+			</div><div class="et_pb_module et_pb_code et_pb_code_0_tb_footer">
+				
+				
+				
+				
+				<div class="et_pb_code_inner"><a href="https://www.iubenda.com/privacy-policy/66379072" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+
+<a href="https://www.iubenda.com/privacy-policy/66379072/cookie-policy" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+
+<a href="https://www.iubenda.com/termini-e-condizioni/66379072" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe " title="Termini e Condizioni ">Termini e Condizioni</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_3 et_pb_column_1_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_1_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Ass. Fede e Luce aps</h3>
+<p>Viale di Valle Aurelia, 92,<br />00167 Roma RM [<a href="https://www.google.com/maps/dir//ombre+e+luci/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x132f600ca2ec54e3:0x7eb219b04a6a29e7?sa=X&amp;ved=2ahUKEwiXwqinmOb1AhWL7KQKHaolD7kQ9Rd6BAgrEAU" target="_blank" rel="noopener">vedi mappa</a>]</p>
+<p>Sito: <a href="http://www.fedeeluce.it/" target="_blank" rel="noopener">fedeeluce.it<br /></a>E-mail: <a class="nonblock" href="mailto:info@fedeeluce.it">info@fedeeluce.it</a><br />Tel. +39 334 3454998</p>
+<div class="et_pb_blurb_container">
+<div class="et_pb_blurb_description">
+<p>&nbsp;</p>
+</div>
+</div></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_3 et_pb_column_2_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Orari</h3>
+<p><strong>Redazione e Segreteria Nazionale Fede e Luce<br /></strong>Lunedì: 10:00 -13:00<br />Mercoledì: 10:00 &#8211; 16:00<br />Venerdì: 10:00 &#8211; 13:00</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_3_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Seguici</h3></div>
+			</div><ul class="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_0_tb_footer clearfix  et_pb_bg_layout_light">
+				
+				
+				
+				
+				<li
+            class='et_pb_social_media_follow_network_0_tb_footer et_pb_social_icon et_pb_social_network_link  et-social-facebook'><a
+              href='https://www.facebook.com/OmbreeLuciRivista'
+              class='icon et_pb_with_border'
+              title='Segui su Facebook'
+               target="_blank"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Segui</span></a></li><li
+            class='et_pb_social_media_follow_network_1_tb_footer et_pb_social_icon et_pb_social_network_link  et-social-twitter'><a
+              href='https://twitter.com/Ombre_Luci'
+              class='icon et_pb_with_border'
+              title='Segui su X'
+               target="_blank"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Segui</span></a></li><li
+            class='et_pb_social_media_follow_network_2_tb_footer et_pb_social_icon et_pb_social_network_link  et-social-tiktok et-pb-social-fa-icon'><a
+              href='https://www.tiktok.com/@ombre_luci'
+              class='icon et_pb_with_border'
+              title='Segui su TikTok'
+               target="_blank"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Segui</span></a></li>
+			</ul>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_1_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_3_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_4_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it" target="_blank" rel="noopener"><img decoding="async" src="https://www.ombreeluci.it/en/wp-content/uploads/2023/09/cc-svg.png" alt="" style="width: 100px; display: block; margin-bottom: 10px;" /></a></p>
+<p>Eccetto dove diversamente indicato, il contenuto di questo sito è concesso in licenza <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it" target="_blank" rel="noopener">Creative Commons: Attribuzione &#8211; Non commerciale &#8211; Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0)</a></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_1_tb_footer et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_2_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_4_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_5_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><strong>Associazione Fede e Luce Aps</strong> – C.F. <strong>96000680585</strong> | Iscrizione al RUNTS n. <strong>150312</strong><br /><strong>Ombre e Luci</strong> – Iscrizione al Tribunale di Roma n. 1 del 16 gennaio 2020</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</footer>
+		</div>
+
+			
+		</div>
+		</div>
+
+			<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/OelTheme/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div class="et_bloom_popup et_bloom_optin et_bloom_resize et_bloom_optin_1 et_bloom_auto_popup" data-delay="30" data-cookie_duration="10">
+							<div class="et_bloom_form_container et_bloom_popup_container et_bloom_form_bottom with_edge carrot_edge et_bloom_with_border et_bloom_border_letter et_bloom_border_position_full et_bloom_rounded et_bloom_form_text_dark et_bloom_animation_fadein">
+								
+			<div class="et_bloom_form_container_wrapper clearfix">
+				<div class="et_bloom_header_outer">
+					<div class="et_bloom_form_header split et_bloom_header_text_dark">
+						<img width="120" height="86" src="https://www.ombreeluci.it/wp-content/uploads/2020/03/icon-nl-oel-1.png" class=" et_bloom_image_slideup et_bloom_image" alt="" decoding="async" loading="lazy" />
+						<div class="et_bloom_form_text">
+						<h2>Ombre e Luci ha anche una newsletter</h2><p>Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.</p>
+<p>Se prima vuoi farti un'idea <a href="../newsletter/">qui trovi l'archivio di quelle passate</a>.</p>
+					</div>
+						
+					</div>
+				</div>
+				<div class="et_bloom_form_content et_bloom_3_fields et_bloom_bottom_stacked">
+					
+					
+					<form method="post" class="clearfix">
+						<div class="et_bloom_fields">
+							<p class="et_bloom_popup_input et_bloom_subscribe_name">
+								<input placeholder="Nome" maxlength="50">
+							</p>
+									<p class="et_bloom_popup_input et_bloom_subscribe_last">
+										<input placeholder="Cognome" maxlength="50">
+									</p>
+							<p class="et_bloom_popup_input et_bloom_subscribe_email">
+								<input placeholder="Email">
+							</p>
+							
+							<button data-optin_id="optin_1" data-service="mailchimp" data-list_id="efd099264d" data-page_id="15769090" data-account="Ombre E Luci" data-ip_address="true" class="et_bloom_submit_subscription">
+								<span class="et_bloom_subscribe_loader"></span>
+								<span class="et_bloom_button_text et_bloom_button_text_color_light">Iscriviti</span>
+							</button>
+						</div>
+					</form>
+					<div class="et_bloom_success_container">
+						<span class="et_bloom_success_checkmark"></span>
+					</div>
+					<h2 class="et_bloom_success_message">Ti sei iscritto. Grazie e a presto... anzi alla prossima newsletter ;) 
+Se ti va, quando la ricevi, facci sapere che ne pensi. Ci farebbe molto piacere.</h2>
+					
+				</div>
+			</div>
+			<span class="et_bloom_close_button"></span>
+							</div>
+						</div>	<script type="text/javascript">
+				var et_link_options_data = [{"class":"et_pb_text_0_tb_header","url":"https:\/\/www.ombreeluci.it\/i-diari-di-ombre-e-luci\/","target":"_self"},{"class":"et_pb_testimonial_0_tb_header","url":"https:\/\/www.ombreeluci.it\/diario-di-giovanni","target":"_self"},{"class":"et_pb_testimonial_0_tb_body","url":"https:\/\/www.ombreeluci.it\/diario-di-arianna\/","target":"_self"},{"class":"et_pb_testimonial_1_tb_body","url":"https:\/\/www.ombreeluci.it\/diario-di-benedetta\/","target":"_self"},{"class":"et_pb_testimonial_2_tb_body","url":"https:\/\/www.ombreeluci.it\/diario-di-giovanni","target":"_self"},{"class":"et_pb_testimonial_3_tb_body","url":"https:\/\/www.ombreeluci.it\/diario-di-efrem\/","target":"_self"},{"class":"et_pb_testimonial_4_tb_body","url":"https:\/\/www.ombreeluci.it\/diario-di-antonietta\/","target":"_self"},{"class":"et_pb_testimonial_5_tb_body","url":"https:\/\/www.ombreeluci.it\/diario-di-davide\/","target":"_self"},{"class":"et_pb_testimonial_6_tb_body","url":"https:\/\/www.ombreeluci.it\/diario-di-luciana\/","target":"_self"},{"class":"et_pb_testimonial_7_tb_body","url":"https:\/\/www.ombreeluci.it\/diario-di-davide\/","target":"_self"}];
+			</script>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P92QKKXK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+jQuery(document).ready(function($){
+	
+	// CREATE THE SELECT DROPDOWN, ASSIGNING THE CATEGORY SLUG VALUE TO THE VALUE OF EACH OPTION
+	$('.et_pb_portfolio_filters ul').each(function() {
+        var $select = $('<select />');
+
+        $(this).find('.et_pb_portfolio_filter a').each(function() {
+            var $option = $('<option />');
+            $option.attr('value', $(this).attr('data-category-slug')).html($(this).html());
+            $select.append($option);
+        });
+
+        $(this).prepend($select);
+        
+    });
+    
+    // EMULATE CLICKING ON THE ORIGINAL FILTERS, TRIGGERING THE CLICK WITH THE CORRECT FILTER AND OPTION
+	$('.et_pb_portfolio_filters select').each(function() {
+		$(this).on('change', function() {
+			var selectedFilter = $(this).val();
+			$(this).siblings().find("[data-category-slug='"+selectedFilter+"']").trigger('click');
+		});
+	});
+	
+	// HIDE THE ORIGINAL FILTERS
+	$('.et_pb_portfolio_filters ul li').hide();
+    	
+});
+</script>
+
+<!-- Twitter universal website tag code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','o5eld');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code --><script>
+var wpo_server_info_css = {"user_agent":"axios\/1.13.6"}
+    var wpo_min32451df1=document.createElement("link");wpo_min32451df1.rel="stylesheet",wpo_min32451df1.type="text/css",wpo_min32451df1.media="async",wpo_min32451df1.href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700&display=swap",wpo_min32451df1.onload=function() {wpo_min32451df1.media="all"},document.getElementsByTagName("head")[0].appendChild(wpo_min32451df1);
+</script>
+<script type="text/javascript" id="pll_cookie_script-js-after">
+/* <![CDATA[ */
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=it; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+
+//# sourceURL=pll_cookie_script-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.ombreeluci.it/wp-content/cache/wpo-minify/1773063541/assets/wpo-minify-footer-64f9074f.min.js" id="wpo_min-footer-0-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" id="wpo_min-footer-1-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https://www.ombreeluci.it/wp-admin/admin-ajax.php","images_uri":"https://www.ombreeluci.it/wp-content/themes/Divi/images","builder_images_uri":"https://www.ombreeluci.it/wp-content/themes/Divi/includes/builder/images","et_frontend_nonce":"2d11811ed3","subscription_failed":"Si prega di verificare i campi di seguito per assicurarsi di aver inserito le informazioni corrette.","et_ab_log_nonce":"5a812f4668","fill_message":"Compila i seguenti campi:","contact_error_message":"Per favore, correggi i seguenti errori:","invalid":"E-mail non valido","captcha":"Captcha","prev":"Indietro","previous":"Precedente","next":"Accanto","wrong_captcha":"Hai inserito un numero errato nei captcha.","wrong_checkbox":"Casella di controllo","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"15769090","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":"https://www.ombreeluci.it/wp-content/themes/Divi/includes/builder/frontend-builder/assets/vendors","accent_color":"#42a2c8","waypoints_options":[]};
+var et_pb_box_shadow_elements = [];
+var bloomSettings = {"ajaxurl":"https://www.ombreeluci.it/wp-admin/admin-ajax.php","pageurl":"https://www.ombreeluci.it/2026/io-a-pompei/","stats_nonce":"d0c7649963","subscribe_nonce":"dc7874b817","is_user_logged_in":"not_logged"};
+var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
+var et_pb_sticky_elements = {"et_pb_section_1_tb_header":{"id":"et_pb_section_1_tb_header","selector":".et_pb_section_1_tb_header","position":"top","topOffset":"0px","bottomOffset":"0px","topLimit":"none","bottomLimit":"none","offsetSurrounding":"on","transition":"on","styles":{"module_alignment":{"desktop":"","tablet":"","phone":""},"positioning":"relative"},"stickyStyles":{"position_origin_r":"top_left","horizontal_offset":"","vertical_offset":""}}};
+//# sourceURL=wpo_min-footer-1-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.ombreeluci.it/wp-content/cache/wpo-minify/1773063541/assets/wpo-minify-footer-36656c2d.min.js" id="wpo_min-footer-1-js"></script>
+<style id="et-builder-module-design-tb-35470-tb-35471-tb-40816-15769090-cached-inline-styles">.et_pb_section_0_tb_header{min-height:40px}.et_pb_section_0_tb_header.et_pb_section{padding-top:0px;padding-bottom:0px;margin-top:0px;margin-bottom:0px}.et_pb_section_1_tb_header{min-height:40px;margin-top:0px;margin-bottom:0px}.et_pb_section_1_tb_header.et_pb_section{padding-top:0px;padding-bottom:0px;background-color:#42A2C8!important}.et_pb_row_0_tb_header.et_pb_row{padding-top:1px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important;padding-top:1px;padding-bottom:0px}.et_pb_text_0_tb_header{line-height:2em;font-family:'Ultra',Georgia,"Times New Roman",serif;font-size:20px;line-height:2em;padding-top:0px!important;padding-bottom:0px!important;margin-top:6px!important;margin-bottom:0px!important}.et_pb_section_2_tb_header.et_pb_section{padding-top:1em;padding-bottom:1em;background-color:RGBA(66,162,200,0.21)!important}.et_pb_row_1_tb_header.et_pb_row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important;padding-top:0px;padding-bottom:0px}.et_pb_testimonial_0_tb_header.et_pb_testimonial .et_pb_testimonial_author{font-family:'Ultra',Georgia,"Times New Roman",serif;text-transform:uppercase;font-size:23px;color:#42A2C8!important;line-height:1.5em}.et_pb_testimonial_0_tb_header.et_pb_testimonial .et_pb_testimonial_position,.et_pb_testimonial_0_tb_header.et_pb_testimonial .et_pb_testimonial_separator{font-family:'PT Sans',Helvetica,Arial,Lucida,sans-serif}.et_pb_testimonial_0_tb_header.et_pb_testimonial .et_pb_testimonial_company,.et_pb_testimonial_0_tb_header.et_pb_testimonial .et_pb_testimonial_company a{font-style:italic;font-size:15px}.et_pb_testimonial_0_tb_header.et_pb_testimonial{background-color:rgba(255,255,255,0);padding-top:0px!important;padding-right:0px!important;padding-bottom:0px!important;padding-left:0px!important;margin-top:0px!important;margin-bottom:0px!important;background-color:rgba(255,255,255,0)}.et_pb_testimonial_0_tb_header.et_pb_testimonial .et_pb_testimonial_portrait{float:left;margin:0 15px 0 0}.et_pb_testimonial_0_tb_header .et_pb_testimonial_portrait{width:90px!important;height:90px!important}.et_pb_testimonial_0_tb_header.et_pb_testimonial:before{font-family:ETmodules!important;font-weight:400!important;content:"\6a"!important}.et_pb_column_0_tb_header{padding-right:0px}@media only screen and (max-width:980px){.et_pb_testimonial_0_tb_header.et_pb_testimonial .et_pb_testimonial_author{font-size:23px}}@media only screen and (max-width:767px){.et_pb_testimonial_0_tb_header.et_pb_testimonial .et_pb_testimonial_author{font-size:20px}}.et_pb_section_0_tb_body.et_pb_section{padding-top:0px;margin-top:0px;margin-bottom:0px}.et_pb_row_0_tb_body.et_pb_row{padding-top:1em!important;padding-top:1em}.et_pb_row_0_tb_body,body #page-container .et-db #et-boc .et-l .et_pb_row_0_tb_body.et_pb_row,body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_0_tb_body.et_pb_row,body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_0_tb_body.et_pb_row{width:100%}.et_pb_post_title_0_tb_body .et_pb_title_container .et_pb_title_meta_container,.et_pb_post_title_0_tb_body .et_pb_title_container .et_pb_title_meta_container a{font-family:'PT Sans',Helvetica,Arial,Lucida,sans-serif;text-transform:uppercase;font-size:13px}.et_pb_post_title_0_tb_body .et_pb_title_meta_container{margin-bottom:.5rem}.et_pb_post_title_0_tb_body .et_pb_title_featured_container img{height:auto;max-height:none}.et_pb_post_content_0_tb_body{padding-top:0px;padding-right:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-left:0px}.et_pb_text_0_tb_body{font-family:'Ultra',Georgia,"Times New Roman",serif}.et_pb_testimonial_0_tb_body.et_pb_testimonial .et_pb_testimonial_author,.et_pb_testimonial_1_tb_body.et_pb_testimonial .et_pb_testimonial_author,.et_pb_testimonial_2_tb_body.et_pb_testimonial .et_pb_testimonial_author,.et_pb_testimonial_3_tb_body.et_pb_testimonial .et_pb_testimonial_author,.et_pb_testimonial_4_tb_body.et_pb_testimonial .et_pb_testimonial_author,.et_pb_testimonial_5_tb_body.et_pb_testimonial .et_pb_testimonial_author,.et_pb_testimonial_6_tb_body.et_pb_testimonial .et_pb_testimonial_author,.et_pb_testimonial_7_tb_body.et_pb_testimonial .et_pb_testimonial_author{font-family:'Abel',Helvetica,Arial,Lucida,sans-serif;text-transform:uppercase;font-size:23px;color:#42A2C8!important}.et_pb_testimonial_0_tb_body.et_pb_testimonial .et_pb_testimonial_position,.et_pb_testimonial_0_tb_body.et_pb_testimonial .et_pb_testimonial_separator,.et_pb_testimonial_1_tb_body.et_pb_testimonial .et_pb_testimonial_position,.et_pb_testimonial_1_tb_body.et_pb_testimonial .et_pb_testimonial_separator,.et_pb_testimonial_2_tb_body.et_pb_testimonial .et_pb_testimonial_position,.et_pb_testimonial_2_tb_body.et_pb_testimonial .et_pb_testimonial_separator,.et_pb_testimonial_3_tb_body.et_pb_testimonial .et_pb_testimonial_position,.et_pb_testimonial_3_tb_body.et_pb_testimonial .et_pb_testimonial_separator,.et_pb_testimonial_4_tb_body.et_pb_testimonial .et_pb_testimonial_position,.et_pb_testimonial_4_tb_body.et_pb_testimonial .et_pb_testimonial_separator,.et_pb_testimonial_5_tb_body.et_pb_testimonial .et_pb_testimonial_position,.et_pb_testimonial_5_tb_body.et_pb_testimonial .et_pb_testimonial_separator,.et_pb_testimonial_6_tb_body.et_pb_testimonial .et_pb_testimonial_position,.et_pb_testimonial_6_tb_body.et_pb_testimonial .et_pb_testimonial_separator,.et_pb_testimonial_7_tb_body.et_pb_testimonial .et_pb_testimonial_position,.et_pb_testimonial_7_tb_body.et_pb_testimonial .et_pb_testimonial_separator{font-family:'PT Sans',Helvetica,Arial,Lucida,sans-serif}.et_pb_testimonial_0_tb_body.et_pb_testimonial .et_pb_testimonial_company,.et_pb_testimonial_0_tb_body.et_pb_testimonial .et_pb_testimonial_company a,.et_pb_testimonial_1_tb_body.et_pb_testimonial .et_pb_testimonial_company,.et_pb_testimonial_1_tb_body.et_pb_testimonial .et_pb_testimonial_company a,.et_pb_testimonial_2_tb_body.et_pb_testimonial .et_pb_testimonial_company,.et_pb_testimonial_2_tb_body.et_pb_testimonial .et_pb_testimonial_company a,.et_pb_testimonial_3_tb_body.et_pb_testimonial .et_pb_testimonial_company,.et_pb_testimonial_3_tb_body.et_pb_testimonial .et_pb_testimonial_company a,.et_pb_testimonial_4_tb_body.et_pb_testimonial .et_pb_testimonial_company,.et_pb_testimonial_4_tb_body.et_pb_testimonial .et_pb_testimonial_company a,.et_pb_testimonial_5_tb_body.et_pb_testimonial .et_pb_testimonial_company,.et_pb_testimonial_5_tb_body.et_pb_testimonial .et_pb_testimonial_company a,.et_pb_testimonial_6_tb_body.et_pb_testimonial .et_pb_testimonial_company,.et_pb_testimonial_6_tb_body.et_pb_testimonial .et_pb_testimonial_company a,.et_pb_testimonial_7_tb_body.et_pb_testimonial .et_pb_testimonial_company,.et_pb_testimonial_7_tb_body.et_pb_testimonial .et_pb_testimonial_company a{font-style:italic;font-size:15px}.et_pb_testimonial_0_tb_body.et_pb_testimonial,.et_pb_testimonial_6_tb_body.et_pb_testimonial{background-color:#FFFFFF;padding-top:0px!important;padding-right:0px!important;padding-bottom:0px!important;padding-left:0px!important;margin-bottom:0px!important;transition:background-color 300ms ease 0ms,background-image 300ms ease 0ms;background-color:#FFFFFF}.et_pb_testimonial_0_tb_body.et_pb_testimonial:hover,.et_pb_testimonial_6_tb_body.et_pb_testimonial:hover{background-image:initial;background-color:RGBA(66,162,200,0.21);background-color:RGBA(66,162,200,0.21)}.et_pb_testimonial_0_tb_body.et_pb_testimonial .et_pb_testimonial_portrait,.et_pb_testimonial_1_tb_body.et_pb_testimonial .et_pb_testimonial_portrait,.et_pb_testimonial_2_tb_body.et_pb_testimonial .et_pb_testimonial_portrait,.et_pb_testimonial_3_tb_body.et_pb_testimonial .et_pb_testimonial_portrait,.et_pb_testimonial_4_tb_body.et_pb_testimonial .et_pb_testimonial_portrait,.et_pb_testimonial_5_tb_body.et_pb_testimonial .et_pb_testimonial_portrait,.et_pb_testimonial_6_tb_body.et_pb_testimonial .et_pb_testimonial_portrait,.et_pb_testimonial_7_tb_body.et_pb_testimonial .et_pb_testimonial_portrait{float:left;margin:0 15px 0 0}.et_pb_testimonial_0_tb_body .et_pb_testimonial_portrait,.et_pb_testimonial_1_tb_body .et_pb_testimonial_portrait,.et_pb_testimonial_2_tb_body .et_pb_testimonial_portrait,.et_pb_testimonial_3_tb_body .et_pb_testimonial_portrait,.et_pb_testimonial_4_tb_body .et_pb_testimonial_portrait,.et_pb_testimonial_5_tb_body .et_pb_testimonial_portrait,.et_pb_testimonial_6_tb_body .et_pb_testimonial_portrait,.et_pb_testimonial_7_tb_body .et_pb_testimonial_portrait{width:90px!important;height:90px!important}.et_pb_testimonial_0_tb_body.et_pb_testimonial:before,.et_pb_testimonial_1_tb_body.et_pb_testimonial:before,.et_pb_testimonial_2_tb_body.et_pb_testimonial:before,.et_pb_testimonial_3_tb_body.et_pb_testimonial:before,.et_pb_testimonial_4_tb_body.et_pb_testimonial:before,.et_pb_testimonial_5_tb_body.et_pb_testimonial:before,.et_pb_testimonial_6_tb_body.et_pb_testimonial:before,.et_pb_testimonial_7_tb_body.et_pb_testimonial:before{font-family:ETmodules!important;font-weight:400!important;content:"\6a"!important}.et_pb_testimonial_1_tb_body.et_pb_testimonial,.et_pb_testimonial_2_tb_body.et_pb_testimonial,.et_pb_testimonial_3_tb_body.et_pb_testimonial,.et_pb_testimonial_4_tb_body.et_pb_testimonial,.et_pb_testimonial_5_tb_body.et_pb_testimonial,.et_pb_testimonial_7_tb_body.et_pb_testimonial{background-color:#FFFFFF;padding-top:0px!important;padding-right:0px!important;padding-bottom:0px!important;padding-left:0px!important;margin-bottom:0px!important;background-color:#FFFFFF}.et_pb_cta_0_tb_body.et_pb_promo{background-color:#42a2c8}@media only screen and (max-width:767px){.et_pb_post_title_0_tb_body .et_pb_title_container h1.entry-title,.et_pb_post_title_0_tb_body .et_pb_title_container h2.entry-title,.et_pb_post_title_0_tb_body .et_pb_title_container h3.entry-title,.et_pb_post_title_0_tb_body .et_pb_title_container h4.entry-title,.et_pb_post_title_0_tb_body .et_pb_title_container h5.entry-title,.et_pb_post_title_0_tb_body .et_pb_title_container h6.entry-title{font-size:24px}.et_pb_section .et_pb_post_title_0_tb_body.et_pb_post_title{margin-right:2rem!important;margin-left:2rem!important}.et_pb_column_0_tb_body{padding-top:0em}.et_pb_column_1_tb_body{padding-right:2rem;padding-left:2rem}}footer p{font-size:.7em;line-height:1.5em;font-family:'PT Sans',Helvetica,Arial,Lucida,sans-serif}.et_pb_section_0_tb_footer.et_pb_section{padding-top:2em;padding-bottom:2em;background-color:#222222!important}.et_pb_text_0_tb_footer.et_pb_text,.et_pb_text_1_tb_footer.et_pb_text,.et_pb_text_2_tb_footer.et_pb_text,.et_pb_text_3_tb_footer.et_pb_text{color:#FFFFFF!important}.et_pb_text_0_tb_footer,.et_pb_text_2_tb_footer,.et_pb_text_3_tb_footer,.et_pb_text_4_tb_footer{font-family:'PT Sans',Helvetica,Arial,Lucida,sans-serif;font-size:13px}.et_pb_text_0_tb_footer h3,.et_pb_text_1_tb_footer h3,.et_pb_text_2_tb_footer h3,.et_pb_text_3_tb_footer h3,.et_pb_text_4_tb_footer h3{color:#42A2C8!important}.et_pb_social_media_follow_0_tb_footer{filter:saturate(103%);backface-visibility:hidden}html:not(.et_fb_edit_enabled) #et-fb-app .et_pb_social_media_follow_0_tb_footer:hover{filter:saturate(103%)}.et_pb_social_media_follow_0_tb_footer li.et_pb_social_icon a.icon:before{color:#FFFFFF}.et_pb_text_4_tb_footer.et_pb_text,.et_pb_text_5_tb_footer.et_pb_text{color:rgba(255,255,255,0.71)!important}.et_pb_section_1_tb_footer.et_pb_section{padding-top:1em;padding-bottom:1em;background-color:#000000!important}.et_pb_social_media_follow_network_0_tb_footer a.icon{background-color:#3b5998!important}.et_pb_social_media_follow_network_1_tb_footer a.icon{background-color:#000000!important}.et_pb_social_media_follow_network_2_tb_footer a.icon{background-color:#fe2c55!important}</style>	
+	</body>
+</html>

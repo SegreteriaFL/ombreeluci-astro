@@ -1,0 +1,94 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  image: string;
+  excerpt?: string | null;
+}
+
+const { href, title, image, excerpt } = Astro.props;
+---
+
+<article class="incontent-related-card">
+  <a href={href} class="incontent-related-link">
+    <div class="incontent-related-image-wrapper">
+      <img src={image} alt={title} loading="lazy" />
+    </div>
+    <div class="incontent-related-content">
+      <span class="incontent-related-label">LEGGI ANCHE</span>
+      <h3 class="incontent-related-title">{title}</h3>
+      {excerpt && <p class="incontent-related-excerpt">{excerpt}</p>}
+    </div>
+  </a>
+</article>
+
+<style>
+  .incontent-related-card {
+    display: block;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 1.75rem;
+    background: #ffffff;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease, transform 0.15s ease;
+  }
+
+  .incontent-related-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .incontent-related-image-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+    background: #f3f3f3;
+  }
+
+  .incontent-related-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .incontent-related-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .incontent-related-label {
+    font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #b0b0b0;
+    margin-bottom: 0.35rem;
+  }
+
+  .incontent-related-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #000000;
+  }
+
+  .incontent-related-excerpt {
+    font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  .incontent-related-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+  }
+</style>

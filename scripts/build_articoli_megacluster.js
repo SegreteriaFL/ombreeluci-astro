@@ -99,7 +99,7 @@ for (const id of Object.keys(byId)) {
   }
 }
 
-// Merge media (img_copertina_url, sottotitolo) da media_articoli.csv se presente
+// Merge media (img_copertina_url, sottotitolo, didascalia_copertina) da media_articoli.csv se presente
 let mediaByArticle = {};
 try {
   const mediaRaw = fs.readFileSync(MEDIA_CSV_PATH, 'utf8');
@@ -109,23 +109,43 @@ try {
     const idxId = mediaHeader.indexOf('id_articolo');
     const idxImg = mediaHeader.indexOf('img_copertina_url');
     const idxSottotitolo = mediaHeader.indexOf('sottotitolo');
+    const idxDidascalia = mediaHeader.indexOf('didascalia_copertina');
     const idxAutore = mediaHeader.indexOf('id_autore');
     if (idxId >= 0 && idxImg >= 0 && idxSottotitolo >= 0) {
       for (let i = 1; i < mediaLines.length; i++) {
         const row = parseCSVLine(mediaLines[i]);
-        const maxCol = Math.max(idxId, idxImg, idxSottotitolo, idxAutore >= 0 ? idxAutore : 0);
+        const maxCol = Math.max(
+          idxId,
+          idxImg,
+          idxSottotitolo,
+          idxDidascalia >= 0 ? idxDidascalia : 0,
+          idxAutore >= 0 ? idxAutore : 0
+        );
         if (row.length <= maxCol) continue;
         const id = String(row[idxId]).trim();
         const img = (row[idxImg] || '').trim();
         const sottotitolo = (row[idxSottotitolo] || '').trim();
+        const didascalia_copertina =
+          idxDidascalia >= 0 ? (row[idxDidascalia] || '').trim() : '';
         const id_autore = idxAutore >= 0 ? (row[idxAutore] || '').trim() : '';
-        if (id) mediaByArticle[id] = { img_copertina_url: img || null, sottotitolo: sottotitolo || null, id_autore: id_autore || null };
+        if (id)
+          mediaByArticle[id] = {
+            img_copertina_url: img || null,
+            sottotitolo: sottotitolo || null,
+            didascalia_copertina: didascalia_copertina || null,
+            id_autore: id_autore || null,
+          };
       }
       for (const id of Object.keys(byId)) {
         if (mediaByArticle[id]) {
           byId[id].img_copertina_url = mediaByArticle[id].img_copertina_url;
           byId[id].sottotitolo = mediaByArticle[id].sottotitolo;
-          if (mediaByArticle[id].id_autore) byId[id].id_autore = mediaByArticle[id].id_autore;
+          if (mediaByArticle[id].didascalia_copertina != null) {
+            byId[id].didascalia_copertina =
+              mediaByArticle[id].didascalia_copertina;
+          }
+          if (mediaByArticle[id].id_autore)
+            byId[id].id_autore = mediaByArticle[id].id_autore;
         }
       }
       // Articoli solo in media (es. recenti dall'harvester): aggiungi a byId (ID sempre stringa, nessun conflitto)
@@ -138,9 +158,11 @@ try {
             categoria_menu: null,
             ruolo_editoriale: null,
             forma: null,
-            img_copertina_url: m && m.img_copertina_url || null,
-            sottotitolo: m && m.sottotitolo || null,
-            id_autore: m && m.id_autore || null,
+            img_copertina_url: (m && m.img_copertina_url) || null,
+            sottotitolo: (m && m.sottotitolo) || null,
+            didascalia_copertina:
+              (m && m.didascalia_copertina) || null,
+            id_autore: (m && m.id_autore) || null,
           };
         }
       }

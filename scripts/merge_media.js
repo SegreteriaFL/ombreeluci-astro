@@ -96,15 +96,21 @@ try {
     const iId = h.indexOf('id_articolo');
     const iImg = h.indexOf('img_copertina_url');
     const iSott = h.indexOf('sottotitolo');
+    const iDida = h.indexOf('didascalia_copertina');
     const iAut = h.indexOf('id_autore');
     for (let i = 1; i < lines.length; i++) {
       const row = parseCSVLine(lines[i]);
-      if (row.length <= Math.max(iId, iImg, iSott, iAut >= 0 ? iAut : 0)) continue;
+      if (
+        row.length <=
+        Math.max(iId, iImg, iSott, iDida >= 0 ? iDida : 0, iAut >= 0 ? iAut : 0)
+      )
+        continue;
       const id = String(row[iId]).trim();
       if (!id) continue;
       mediaById[id] = {
         img_copertina_url: (row[iImg] || '').trim(),
         sottotitolo: (row[iSott] || '').trim(),
+        didascalia_copertina: (iDida >= 0 ? (row[iDida] || '').trim() : '') || '',
         id_autore: (iAut >= 0 ? (row[iAut] || '').trim() : '') || '',
       };
     }
@@ -125,9 +131,17 @@ if (fs.existsSync(PHP_JSON_PATH)) {
   for (const a of articoli) {
     const id = String(a.id_articolo || '').trim();
     if (!id) continue;
-    if (!mediaById[id]) mediaById[id] = { img_copertina_url: '', sottotitolo: '', id_autore: '' };
+    if (!mediaById[id])
+      mediaById[id] = {
+        img_copertina_url: '',
+        sottotitolo: '',
+        didascalia_copertina: '',
+        id_autore: '',
+      };
     if (a.img_copertina_url) mediaById[id].img_copertina_url = a.img_copertina_url;
     if (a.sottotitolo) mediaById[id].sottotitolo = a.sottotitolo;
+    if (a.didascalia_copertina)
+      mediaById[id].didascalia_copertina = a.didascalia_copertina;
     if (a.id_autore) mediaById[id].id_autore = a.id_autore;
   }
   const fromPhp = articoli.filter((a) => (a.img_copertina_url || '').trim()).length;
@@ -150,7 +164,13 @@ for (let i = 0; i < idsSenzaImg.length; i++) {
   }
   try {
     const imgUrl = await fetchWpMediaForPost(id);
-    if (!mediaById[id]) mediaById[id] = { img_copertina_url: '', sottotitolo: '', id_autore: '' };
+    if (!mediaById[id])
+      mediaById[id] = {
+        img_copertina_url: '',
+        sottotitolo: '',
+        didascalia_copertina: '',
+        id_autore: '',
+      };
     if (imgUrl) {
       mediaById[id].img_copertina_url = imgUrl;
       apiOk++;
@@ -166,22 +186,39 @@ for (let i = 0; i < idsSenzaImg.length; i++) {
 console.log('API: immagini recuperate', apiOk, ', errori', apiErr);
 
 // 5) Costruisci righe finali: una per ogni V5, dati da mediaById
-const header = ['id_articolo', 'titolo', 'url_articolo', 'img_copertina_url', 'sottotitolo', 'id_autore'];
+const header = [
+  'id_articolo',
+  'titolo',
+  'url_articolo',
+  'img_copertina_url',
+  'sottotitolo',
+  'didascalia_copertina',
+  'id_autore',
+];
 const lines = ['\uFEFF' + header.map(escapeCsv).join(',')];
 let withImage = 0;
 for (const r of v5Rows) {
   const id = r.id_articolo;
-  const m = mediaById[id] || { img_copertina_url: '', sottotitolo: '', id_autore: '' };
+  const m =
+    mediaById[id] || {
+      img_copertina_url: '',
+      sottotitolo: '',
+      didascalia_copertina: '',
+      id_autore: '',
+    };
   const img = (m.img_copertina_url || '').trim();
   if (img) withImage++;
-  lines.push([
-    id,
-    r.titolo,
-    r.url_articolo,
-    img,
-    (m.sottotitolo || '').trim(),
-    (m.id_autore || '').trim(),
-  ].map(escapeCsv).join(','));
+  lines.push(
+    [
+      id,
+      r.titolo,
+      r.url_articolo,
+      img,
+      (m.sottotitolo || '').trim(),
+      (m.didascalia_copertina || '').trim(),
+      (m.id_autore || '').trim(),
+    ].map(escapeCsv).join(',')
+  );
 }
 
 fs.mkdirSync(DATA, { recursive: true });
