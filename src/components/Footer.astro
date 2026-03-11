@@ -2,6 +2,13 @@
 import logo from '../assets/logo.svg';
 import { getThemesWithSlugs } from '../config/taxonomy.js';
 import { RUNTS, CODICE_FISCALE } from '../config/support.ts';
+import { getLangFromUrl, t } from '../utils/i18n';
+
+interface Props {
+  pathname?: string;
+}
+const { pathname = '/' } = Astro.props;
+const lang = getLangFromUrl(pathname);
 
 const temi = getThemesWithSlugs();
 const meta = Math.ceil(temi.length / 2);
@@ -9,26 +16,26 @@ const temiCol1 = temi.slice(0, meta);
 const temiCol2 = temi.slice(meta);
 
 const sezioniFormali = [
-  { nome: 'Editoriali', slug: 'editoriali' },
-  { nome: 'Recensioni', slug: 'recensioni' },
-  { nome: 'Interviste', slug: 'interviste' },
-  { nome: 'Testimonianze', slug: 'testimonianze' },
+  { nome: t(lang, 'footer_editorials'), slug: 'editoriali' },
+  { nome: t(lang, 'footer_reviews'), slug: 'recensioni' },
+  { nome: t(lang, 'footer_interviews'), slug: 'interviste' },
+  { nome: t(lang, 'footer_testimonials'), slug: 'testimonianze' },
 ];
 
 const aboutLinks = [
-  { nome: 'Chi siamo', slug: '/chi-siamo' },
-  { nome: 'La Redazione', slug: '/chi-siamo#la-redazione' },
-  { nome: 'La Redazione storica', slug: '/chi-siamo#redazione-storica' },
-  { nome: 'Collaboratori', slug: '/chi-siamo#collaboratori' },
-  { nome: 'Hanno scritto per noi', slug: '/chi-siamo#hanno-scritto-per-noi' },
-  { nome: 'I Diari', slug: '/sezioni/diari' },
-  { nome: 'Info e contatti redazione', slug: '/chi-siamo#contatti' },
+  { nome: t(lang, 'footer_about'), slug: '/chi-siamo' },
+  { nome: t(lang, 'footer_redaction'), slug: '/chi-siamo#la-redazione' },
+  { nome: t(lang, 'footer_redaction_history'), slug: '/chi-siamo#redazione-storica' },
+  { nome: t(lang, 'footer_collaborators'), slug: '/chi-siamo#collaboratori' },
+  { nome: t(lang, 'footer_wrote_for_us'), slug: '/chi-siamo#hanno-scritto-per-noi' },
+  { nome: t(lang, 'footer_diari'), slug: '/sezioni/diari' },
+  { nome: t(lang, 'footer_contacts'), slug: '/chi-siamo#contatti' },
 ];
 
 const legalLinks = [
-  { nome: 'Privacy Policy', url: 'https://www.iubenda.com/privacy-policy/placeholder' },
-  { nome: 'Cookie Policy', url: 'https://www.iubenda.com/cookie-policy/placeholder' },
-  { nome: 'Termini e Condizioni', url: 'https://www.iubenda.com/terms-and-conditions/placeholder' },
+  { nome: t(lang, 'footer_privacy'), url: 'https://www.iubenda.com/privacy-policy/placeholder' },
+  { nome: t(lang, 'footer_cookies'), url: 'https://www.iubenda.com/cookie-policy/placeholder' },
+  { nome: t(lang, 'footer_terms'), url: 'https://www.iubenda.com/terms-and-conditions/placeholder' },
 ];
 
 const socialLinks = [
@@ -50,9 +57,9 @@ const socialLinks = [
         <a href="/" class="footer-logo-link">
           <img src={logo.src} alt="Ombre e Luci" class="footer-logo" width="160" height="55" />
         </a>
-        <p class="footer-tagline">Dal 1974 al 2026</p>
+        <p class="footer-tagline">{t(lang, 'footer_tagline')}</p>
         <p class="footer-editor">
-          Edito da <a href="https://www.fedeeluce.it" target="_blank" rel="noopener noreferrer" class="footer-link">Associazione Fede e Luce A.P.S.</a>
+          {t(lang, 'footer_edited_by')} <a href="https://www.fedeeluce.it" target="_blank" rel="noopener noreferrer" class="footer-link">Associazione Fede e Luce A.P.S.</a>
         </p>
         <p class="footer-legal">Rivista trimestrale. Testata registrata presso il Tribunale di Roma, iscrizione n. 1 del 16 gennaio 2020. Direzione, redazione e amministrazione: Via dei Cessati Spiriti 3, 00185 Roma.</p>
         <div class="footer-social" aria-label="Seguici">
@@ -70,7 +77,7 @@ const socialLinks = [
 
       <!-- Colonna 2: Chi siamo -->
       <div class="footer-col">
-        <h3 class="footer-title">Chi siamo</h3>
+        <h3 class="footer-title">{t(lang, 'footer_about')}</h3>
         <ul class="footer-list">
           {aboutLinks.map((item) => (
             <li>
@@ -82,7 +89,7 @@ const socialLinks = [
 
       <!-- Colonna 3: Temi (due colonne, una sola intestazione) -->
       <div class="footer-col footer-col-temi">
-        <h3 class="footer-title">Temi</h3>
+        <h3 class="footer-title">{t(lang, 'nav_themes')}</h3>
         <div class="footer-temi-grid">
           <ul class="footer-list">
             {temiCol1.map((cat) => (
@@ -103,7 +110,7 @@ const socialLinks = [
 
       <!-- Colonna 4: Sezioni -->
       <div class="footer-col">
-        <h3 class="footer-title">Sezioni</h3>
+        <h3 class="footer-title">{t(lang, 'nav_sections')}</h3>
         <ul class="footer-list">
           {sezioniFormali.map((cat) => (
             <li>
@@ -115,7 +122,7 @@ const socialLinks = [
 
       <!-- Colonna 5: Info & Privacy -->
       <div class="footer-col">
-        <h3 class="footer-title">Info & Privacy</h3>
+        <h3 class="footer-title">{t(lang, 'footer_info_privacy')}</h3>
         <ul class="footer-list">
           {legalLinks.map((item) => (
             <li>

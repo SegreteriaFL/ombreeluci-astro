@@ -1,0 +1,103 @@
+---
+/**
+ * Blog EN – Indice articoli in inglese (src/content/blog/en/).
+ * Route: /blog/en
+ */
+import { getCollection } from 'astro:content';
+import { ViewTransitions } from 'astro:transitions';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import { t } from '../../utils/i18n';
+import megacluster from '../../data/articoli_megacluster.json';
+import placeholderImage from '../../assets/placeholder1.webp';
+import '../../styles/global.css';
+
+const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
+
+const allArticles = await getCollection('blog');
+const englishArticles = allArticles
+  .filter((e) => e.id.startsWith('en/') || e.data?.lang === 'en')
+  .filter((a) => {
+    try {
+      return a.data.date instanceof Date && !isNaN(a.data.date.getTime());
+    } catch {
+      return false;
+    }
+  })
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{t('en', 'english_articles')} – Ombre e Luci</title>
+    <meta name="description" content="Articles in English from Ombre e Luci." />
+    <ViewTransitions />
+    <style>
+      .en-page {
+        min-height: 100vh;
+        background: var(--bg-light, #f5f5f3);
+      }
+      .en-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+      .en-title {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: var(--text-color);
+        margin-bottom: 0.5rem;
+      }
+      .en-intro {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin-bottom: 2rem;
+      }
+      .en-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+      .en-grid > * {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body class="en-page">
+    <Header pathname={Astro.url.pathname} />
+    <main class="site-main">
+      <div class="en-container">
+        <h1 class="en-title">{t('en', 'english_articles')}</h1>
+        <p class="en-intro">Articles from Ombre e Luci available in English.</p>
+        <div class="en-grid">
+          {englishArticles.map((article) => {
+            const slug = article.slug;
+            const wpId = String(article.data.wp_id ?? '');
+            const meta = byId[wpId] || {};
+            const image = meta.img_copertina_url || article.data.image || placeholderImage.src;
+            const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
+            const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+            return (
+              <ArticleCard
+                title={article.data.title}
+                slug={slug}
+                categoriaMenu={categoria_menu ?? undefined}
+                issue={article.data.issue_number}
+                forma={formal}
+                author={article.data.author}
+                date={article.data.date}
+                image={image}
+              />
+            );
+          })}
+        </div>
+      </div>
+    </main>
+    <Footer pathname={Astro.url.pathname} />
+  </body>
+</html>
