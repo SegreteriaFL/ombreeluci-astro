@@ -280,6 +280,10 @@ const relatedArticles = Array.from(relatedIds)
   .map((id) => allArticles.find((a) => a.id === id))
   .filter(Boolean);
 
+const currentSlug =
+  (articleBySlug.data as { slug?: string }).slug ||
+  articleBySlug.slug;
+
 // Mappa slug -> metadati articolo per i box correlati in-content (read-also-box)
 const inContentRelatedMap: Record<
   string,
@@ -288,6 +292,9 @@ const inContentRelatedMap: Record<
     image: string;
     excerpt: string | null;
     href: string;
+    category?: string | null;
+    lang?: string;
+    isItalian?: boolean;
   }
 > = {};
 
@@ -311,11 +318,21 @@ for (const article of allArticles) {
     (article.data.tema_label || '').trim() ||
     null;
 
+  const lang = ((article.data as { lang?: string }).lang || 'it').toLowerCase();
+  const isItalian = lang !== 'en' && !article.id.startsWith('en/');
+  const category =
+    (article.data as { categoria_menu?: string }).categoria_menu ||
+    (relMegacluster as { categoria_menu?: string }).categoria_menu ||
+    ((article.data.tags as string[] | undefined)?.[0] ?? null);
+
   inContentRelatedMap[slug] = {
     title: article.data.title,
     image: typeof rawImage === 'string' ? rawImage : rawImage.src,
     excerpt: subtitle,
     href: `/blog/${slug}`,
+    category,
+    lang,
+    isItalian,
   };
 }
 ---
@@ -1529,7 +1546,7 @@ Slug: {articleBySlug.slug}
     </div>
     </main>
     <Footer />
-    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap }}>
+    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug }}>
       // Mappa wp_id -> slug disponibile globalmente
     </script>
     <script>
@@ -1552,9 +1569,62 @@ Slug: {articleBySlug.slug}
       window.addEventListener('scroll', updateReadingProgress);
       updateReadingProgress();
 
-      // Box \"Leggi anche\" generico disabilitato: usiamo solo box editoriali reali presenti nel testo
+      let readAlsoInserted = false;
+
+      // Inserisce automaticamente un box \"Leggi anche\" in base alla categoria
       function insertReadAlsoBox() {
-        return;
+        if (readAlsoInserted || !articleContent || !inContentRelatedMap) return;
+
+        const currentMeta = currentSlug ? inContentRelatedMap[currentSlug] : null;
+        const currentCategory = currentMeta && currentMeta.category ? currentMeta.category : null;
+
+        const allEntries = Object.entries(inContentRelatedMap);
+
+        let candidates = allEntries.filter(([slug, meta]) => {
+          if (slug === currentSlug) return false;
+          if (!meta || meta.isItalian === false) return false;
+          if (currentCategory && meta.category) {
+            return meta.category === currentCategory;
+          }
+          return true;
+        });
+
+        // Fallback: se nessun articolo nella stessa categoria, qualsiasi articolo italiano
+        if (currentCategory && candidates.length === 0) {
+          candidates = allEntries.filter(([slug, meta]) => {
+            if (slug === currentSlug) return false;
+            return !!meta && meta.isItalian !== false;
+          });
+        }
+
+        if (!candidates.length) return;
+
+        const randomIndex = Math.floor(Math.random() * candidates.length);
+        const [chosenSlug] = candidates[randomIndex];
+
+        const box = document.createElement('div');
+        box.className = 'read-also-box';
+        box.dataset.slug = chosenSlug;
+
+        const paragraphs = Array.from(articleContent.querySelectorAll('p'));
+        let inserted = false;
+
+        if (paragraphs.length > 4) {
+          // Inserisci dopo il 2° o 3° paragrafo (più dinamico se il testo è lungo)
+          const targetIndex = paragraphs.length > 8 ? 2 : 1; // 0-based: 2 => dopo il terzo, 1 => dopo il secondo
+          const targetP = paragraphs[Math.min(targetIndex, paragraphs.length - 1)];
+          if (targetP && targetP.parentNode) {
+            targetP.parentNode.insertBefore(box, targetP.nextSibling);
+            inserted = true;
+          }
+        }
+
+        // Fallback: in fondo al contenuto
+        if (!inserted) {
+          articleContent.appendChild(box);
+        }
+
+        readAlsoInserted = true;
       }
 
       // Trasforma i div.read-also-box in card correlate con dati reali articoli
@@ -1566,68 +1636,69 @@ Slug: {articleBySlug.slug}
         if (!boxes.length) return;
 
         boxes.forEach((box) => {
-          const links = box.querySelectorAll('a[href]');
-          if (!links.length) return;
-
           const cards = [];
 
-          links.forEach((link) => {
-            const href = link.getAttribute('href');
-            if (!href) return;
+          let slug = box.dataset.slug || null;
 
-            let slug = null;
+          // Se non abbiamo data-slug, proviamo comunque a dedurlo da eventuali link presenti
+          if (!slug) {
+            const links = box.querySelectorAll('a[href]');
+            links.forEach((link) => {
+              const href = link.getAttribute('href');
+              if (!href || slug) return;
 
-            // 1) Link WordPress ?p=ID
-            const wpMatch = href.match(/[?&]p=(\d+)/);
-            if (wpMatch && wpIdToSlugMap) {
-              const wpId = parseInt(wpMatch[1]);
-              slug = wpIdToSlugMap[wpId] || null;
-            }
-
-            // 2) Link tipo /blog/slug o assoluti
-            if (!slug) {
-              try {
-                const url = new URL(href, window.location.origin);
-                const segments = url.pathname.split('/').filter(Boolean);
-                const blogIndex = segments.indexOf('blog');
-
-                if (blogIndex !== -1 && segments.length > blogIndex + 1) {
-                  slug = segments.slice(blogIndex + 1).join('/');
-                } else if (segments.length > 0) {
-                  slug = segments[segments.length - 1];
-                }
-              } catch (e) {
-                // URL non valido: ignora
+              // 1) Link WordPress ?p=ID
+              const wpMatch = href.match(/[?&]p=(\d+)/);
+              if (wpMatch && wpIdToSlugMap) {
+                const wpId = parseInt(wpMatch[1]);
+                slug = wpIdToSlugMap[wpId] || null;
               }
-            }
 
-            if (!slug) return;
+              // 2) Link tipo /blog/slug o assoluti
+              if (!slug) {
+                try {
+                  const url = new URL(href, window.location.origin);
+                  const segments = url.pathname.split('/').filter(Boolean);
+                  const blogIndex = segments.indexOf('blog');
 
-            const meta = inContentRelatedMap[slug];
-            if (!meta) return;
+                  if (blogIndex !== -1 && segments.length > blogIndex + 1) {
+                    slug = segments.slice(blogIndex + 1).join('/');
+                  } else if (segments.length > 0) {
+                    slug = segments[segments.length - 1];
+                  }
+                } catch (e) {
+                  // URL non valido: ignora
+                }
+              }
+            });
+          }
 
-            const card = document.createElement('article');
-            card.className = 'incontent-related-card';
+          if (!slug) return;
 
-            const hrefFinal = meta.href || `/blog/${slug}`;
-            const safeTitle = meta.title || link.textContent?.trim() || '';
-            const safeExcerpt = meta.excerpt || '';
+          const meta = inContentRelatedMap[slug];
+          if (!meta || meta.isItalian === false) return;
 
-            card.innerHTML = `
-              <a href="${hrefFinal}" class="incontent-related-link">
-                <div class="incontent-related-image-wrapper">
-                  <img src="${meta.image}" alt="${safeTitle}" loading="lazy" />
-                </div>
-                <div class="incontent-related-content">
-                  <span class="incontent-related-label">LEGGI ANCHE</span>
-                  <h3 class="incontent-related-title">${safeTitle}</h3>
-                  ${safeExcerpt ? `<p class="incontent-related-excerpt">${safeExcerpt}</p>` : ''}
-                </div>
-              </a>
-            `;
+          const card = document.createElement('article');
+          card.className = 'incontent-related-card';
 
-            cards.push(card);
-          });
+          const hrefFinal = meta.href || `/blog/${slug}`;
+          const safeTitle = meta.title || '';
+          const safeExcerpt = meta.excerpt || '';
+
+          card.innerHTML = `
+            <a href="${hrefFinal}" class="incontent-related-link">
+              <div class="incontent-related-image-wrapper">
+                <img src="${meta.image}" alt="${safeTitle}" loading="lazy" />
+              </div>
+              <div class="incontent-related-content">
+                <span class="incontent-related-label">LEGGI ANCHE</span>
+                <h3 class="incontent-related-title">${safeTitle}</h3>
+                ${safeExcerpt ? `<p class="incontent-related-excerpt">${safeExcerpt}</p>` : ''}
+              </div>
+            </a>
+          `;
+
+          cards.push(card);
 
           if (cards.length > 0) {
             box.innerHTML = '';
@@ -1669,12 +1740,13 @@ Slug: {articleBySlug.slug}
       
       window.addEventListener('scroll', checkScrollForWidget);
       
-      // (Il box "Leggi anche" generico è disabilitato: vengono usati solo box editoriali reali presenti nel testo)
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', () => {
+          insertReadAlsoBox();
           enhanceReadAlsoBoxes();
         });
       } else {
+        insertReadAlsoBox();
         enhanceReadAlsoBoxes();
       }
 
