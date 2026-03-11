@@ -1,0 +1,57 @@
+---
+/**
+ * LanguageSelector – switch IT | EN stile fedeeluce.it.
+ * Se siamo su un articolo e esiste la versione nell'altra lingua (stesso wp_id), il link punta lì; altrimenti / (IT) o /blog/en (EN).
+ */
+import { getLangFromUrl } from '../utils/i18n';
+
+interface Props {
+  pathname: string;
+  alternateArticleUrl?: string | null;
+}
+
+const { pathname, alternateArticleUrl = null } = Astro.props;
+const lang = getLangFromUrl(pathname);
+
+const hrefIt = lang === 'en' && alternateArticleUrl ? alternateArticleUrl : '/';
+const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/blog/en';
+---
+
+<div class="lang-selector" aria-label="Selezione lingua">
+  <a href={hrefIt} class="lang-link" class:list={[lang === 'it' && 'is-active']}>IT</a>
+  <span class="lang-sep" aria-hidden="true">|</span>
+  <a href={hrefEn} class="lang-link" class:list={[lang === 'en' && 'is-active']}>EN</a>
+</div>
+
+<style>
+  .lang-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--text-secondary, #5c5c5c);
+  }
+
+  .lang-link {
+    color: inherit;
+    text-decoration: none;
+    padding: 0.2rem 0.1rem;
+    transition: color 0.2s ease;
+  }
+
+  .lang-link:hover {
+    color: var(--accent-color);
+  }
+
+  .lang-link.is-active {
+    color: var(--accent-color);
+    font-weight: 600;
+  }
+
+  .lang-sep {
+    color: var(--text-secondary, #5c5c5c);
+    opacity: 0.7;
+    user-select: none;
+  }
+</style>

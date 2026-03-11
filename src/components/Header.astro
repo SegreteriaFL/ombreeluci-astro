@@ -3,6 +3,15 @@ import logo from '../assets/logo.svg';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { getThemesWithSlugs } from '../config/taxonomy.js';
+import { getLangFromUrl, t } from '../utils/i18n';
+import LanguageSelector from './LanguageSelector.astro';
+
+interface Props {
+  pathname?: string;
+  alternateArticleUrl?: string | null;
+}
+const { pathname = '/', alternateArticleUrl = null } = Astro.props;
+const lang = getLangFromUrl(pathname);
 
 // Carica numeri rivista
 const numeriPath = join(process.cwd(), 'scripts_and_data', 'datasets', 'numeri_rivista', 'numeri_wp_FINAL.json');
@@ -19,16 +28,16 @@ const ultimoNumero = numeriData
 
 const temi = getThemesWithSlugs();
 const sezioniForme = [
-  { nome: 'Editoriali', href: '/categoria/editoriali' },
-  { nome: 'Testimonianze', href: '/categoria/testimonianze' },
-  { nome: 'Interviste', href: '/categoria/interviste' },
-  { nome: 'Recensioni', href: '/categoria/recensioni' },
-  { nome: 'I Diari', href: '/sezioni/diari' },
+  { nome: t(lang, 'footer_editorials'), href: '/categoria/editoriali' },
+  { nome: t(lang, 'footer_testimonials'), href: '/categoria/testimonianze' },
+  { nome: t(lang, 'footer_interviews'), href: '/categoria/interviste' },
+  { nome: t(lang, 'footer_reviews'), href: '/categoria/recensioni' },
+  { nome: t(lang, 'footer_diari'), href: '/sezioni/diari' },
 ];
 const archivioLinks = [
-  { nome: 'Ultimi articoli', slug: '/' },
-  { nome: 'Archivio completo', slug: '/archivio' },
-  { nome: 'Autori', slug: '/autori' },
+  { nome: t(lang, 'nav_latest'), slug: '/' },
+  { nome: t(lang, 'nav_archive_full'), slug: '/archivio' },
+  { nome: t(lang, 'nav_authors'), slug: '/autori' },
 ];
 ---
 
@@ -39,17 +48,17 @@ const archivioLinks = [
         <img src={logo.src} alt="Ombre e Luci" class="logo" />
       </a>
 
-      <form class="search-form" action="/search" method="get" aria-label="Cerca nel sito">
-        <label for="header-search" class="search-label">Cerca nel sito</label>
+      <form class="search-form" action="/search" method="get" aria-label={t(lang, 'search_label')}>
+        <label for="header-search" class="search-label">{t(lang, 'search_label')}</label>
         <input
           id="header-search"
           type="search"
           name="q"
-          placeholder="Cerca nel sito..."
+          placeholder={t(lang, 'search_placeholder')}
           class="search-input"
-          aria-label="Cerca nel sito"
+          aria-label={t(lang, 'search_label')}
         />
-        <button type="submit" class="search-button" aria-label="Cerca nel sito">
+        <button type="submit" class="search-button" aria-label={t(lang, 'search_label')}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <circle cx="11" cy="11" r="8"></circle>
             <path d="m21 21-4.35-4.35"></path>
@@ -58,12 +67,13 @@ const archivioLinks = [
       </form>
 
       <div class="header-end">
+        <LanguageSelector pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
         <nav class="header-nav" aria-label="Servizi e utilità">
-          <a href="/chi-siamo" class="header-link">Chi siamo</a>
-          <a href="/#newsletter" class="header-link">Newsletter</a>
+          <a href="/chi-siamo" class="header-link">{t(lang, 'nav_about')}</a>
+          <a href="/#newsletter" class="header-link">{t(lang, 'nav_newsletter')}</a>
         </nav>
-        <a href="/sostienici" class="header-cta">Contribuisci</a>
-        <button type="button" class="menu-trigger" id="menu-trigger" aria-label="Apri menu" aria-expanded="false" aria-controls="mega-menu">
+        <a href="/sostienici" class="header-cta">{t(lang, 'nav_contribute')}</a>
+        <button type="button" class="menu-trigger" id="menu-trigger" aria-label={t(lang, 'nav_menu_open')} aria-expanded="false" aria-controls="mega-menu" data-label-open={t(lang, 'nav_menu_open')} data-label-close={t(lang, 'nav_menu_close')}>
           <span class="menu-trigger-icon" aria-hidden="true">
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
@@ -74,7 +84,7 @@ const archivioLinks = [
               <path d="M18 6 6 18M6 6l12 12"/>
             </svg>
           </span>
-          <span class="menu-trigger-label">Menù</span>
+          <span class="menu-trigger-label">{t(lang, 'nav_menu')}</span>
         </button>
       </div>
     </div>
@@ -85,7 +95,7 @@ const archivioLinks = [
       <div class="mega-menu-container">
         <div class="mega-menu-grid">
           <div class="mega-menu-block">
-            <h3 class="mega-menu-title">Temi</h3>
+            <h3 class="mega-menu-title">{t(lang, 'nav_themes')}</h3>
             <ul class="mega-menu-list mega-menu-list--grid">
               {temi.map((cat) => (
                 <li>
@@ -95,7 +105,7 @@ const archivioLinks = [
             </ul>
           </div>
           <div class="mega-menu-block">
-            <h3 class="mega-menu-title">Sezioni</h3>
+            <h3 class="mega-menu-title">{t(lang, 'nav_sections')}</h3>
             <ul class="mega-menu-list">
               {sezioniForme.map((cat) => (
                 <li>
@@ -105,15 +115,15 @@ const archivioLinks = [
             </ul>
           </div>
           <div class="mega-menu-block">
-            <h3 class="mega-menu-title">Strumenti redazione</h3>
+            <h3 class="mega-menu-title">{t(lang, 'nav_editorial_tools')}</h3>
             <ul class="mega-menu-list">
               <li>
-                <a href="/debug/audit-editoriale" class="mega-menu-link">Audit gerarchia editoriale</a>
+                <a href="/debug/audit-editoriale" class="mega-menu-link">{t(lang, 'nav_audit_editorial')}</a>
               </li>
             </ul>
           </div>
           <div class="mega-menu-block">
-            <h3 class="mega-menu-title">Archivio</h3>
+            <h3 class="mega-menu-title">{t(lang, 'nav_archive')}</h3>
             <ul class="mega-menu-list">
               {archivioLinks.map((item) => (
                 <li>
@@ -123,7 +133,7 @@ const archivioLinks = [
             </ul>
           </div>
           <div class="mega-menu-block mega-menu-last-issue">
-            <h3 class="mega-menu-title">Ultimo Numero</h3>
+            <h3 class="mega-menu-title">{t(lang, 'nav_last_issue')}</h3>
             {ultimoNumero ? (
               <div class="last-issue-inner">
                 <a href={`/archivio/${String(ultimoNumero.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-')}`} class="last-issue-cover-wrap">
@@ -140,11 +150,11 @@ const archivioLinks = [
                   <p class="last-issue-label">Numero {ultimoNumero.numero_progressivo ?? ''} · {ultimoNumero.anno_pubblicazione ?? ''}</p>
                   <h4 class="last-issue-title">{ultimoNumero.titolo_numero}</h4>
                   {ultimoNumero.periodo_label && <p class="last-issue-period">{ultimoNumero.periodo_label}</p>}
-                  <a href="/sostienici" class="mega-menu-cta">Sostieni Ombre e Luci →</a>
+                  <a href="/sostienici" class="mega-menu-cta">{t(lang, 'nav_support')}</a>
                 </div>
               </div>
             ) : (
-              <a href="/sostienici" class="mega-menu-cta">Sostieni Ombre e Luci →</a>
+              <a href="/sostienici" class="mega-menu-cta">{t(lang, 'nav_support')}</a>
             )}
           </div>
         </div>
@@ -649,12 +659,15 @@ const archivioLinks = [
     const megaMenu = document.getElementById('mega-menu');
     let isOpen = false;
 
+    const labelClose = trigger?.getAttribute('data-label-close') || 'Close menu';
+    const labelOpen = trigger?.getAttribute('data-label-open') || 'Open menu';
+
     function openMenu() {
       if (isOpen) return;
       isOpen = true;
       megaMenu?.setAttribute('aria-hidden', 'false');
       trigger?.setAttribute('aria-expanded', 'true');
-      trigger?.setAttribute('aria-label', 'Chiudi menu');
+      trigger?.setAttribute('aria-label', labelClose);
       document.body.style.overflow = 'hidden';
     }
 
@@ -663,7 +676,7 @@ const archivioLinks = [
       isOpen = false;
       megaMenu?.setAttribute('aria-hidden', 'true');
       trigger?.setAttribute('aria-expanded', 'false');
-      trigger?.setAttribute('aria-label', 'Apri menu');
+      trigger?.setAttribute('aria-label', labelOpen);
       document.body.style.overflow = '';
     }
 

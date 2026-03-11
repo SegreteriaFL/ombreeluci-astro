@@ -5,6 +5,7 @@ import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
+import { getLangFromUrl, t } from '../../utils/i18n';
 import { ViewTransitions } from 'astro:transitions';
 import { readFile } from 'fs/promises';
 import { join } from 'path';
@@ -12,6 +13,9 @@ import placeholderImage from '../../assets/placeholder1.webp';
 import autoriStats from '../../data/autori_stats.json';
 import megacluster from '../../data/articoli_megacluster.json';
 import '../../styles/global.css';
+
+const pathname = Astro.url.pathname;
+const locale = getLangFromUrl(pathname);
 
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 const megaclusterData = megacluster as {
@@ -283,6 +287,18 @@ const relatedArticles = Array.from(relatedIds)
 const currentSlug =
   (articleBySlug.data as { slug?: string }).slug ||
   articleBySlug.slug;
+
+// Articolo nella stessa lingua per language switcher (stesso wp_id, altra lingua)
+const isCurrentEn = articleBySlug.id.startsWith('en/');
+const alternateArticle = articleBySlug.data.wp_id != null
+  ? allArticles.find(
+      (a) =>
+        a.data.wp_id === articleBySlug.data.wp_id &&
+        a.id !== articleBySlug.id &&
+        (a.id.startsWith('en/') ? !isCurrentEn : isCurrentEn)
+    )
+  : null;
+const alternateArticleUrl = alternateArticle ? `/blog/${alternateArticle.slug}` : null;
 
 // Mappa slug -> metadati articolo per i box correlati in-content (read-also-box)
 const inContentRelatedMap: Record<
@@ -1220,7 +1236,7 @@ for (const article of allArticles) {
     </style>
   </head>
   <body>
-    <Header />
+    <Header pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
     <main class="site-main">
     {/* Reading Progress Bar */}
     <div class="reading-progress" id="reading-progress"></div>
@@ -1228,7 +1244,7 @@ for (const article of allArticles) {
     <div class="article-container">
       {/* Breadcrumbs */}
       <nav class="breadcrumbs">
-        <a href="/archivio">Archivio</a>
+        <a href={locale === 'en' ? '/blog/en' : '/archivio'}>{t(locale, 'nav_archive')}</a>
         {issueNumber && (
           <>
             {' > '}
@@ -1257,7 +1273,7 @@ for (const article of allArticles) {
             {categoryLink ? (
               <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>
             ) : (
-              'Pubblicato online'
+              t(locale, 'published_online')
             )}
           </div>
         )}
@@ -1290,7 +1306,7 @@ for (const article of allArticles) {
             {formatDateItalian(articleBySlug.data.date)}
           </div>
           <div class="article-meta-item">
-            {readingTime} min di lettura
+            {readingTime} {t(locale, 'min_read')}
           </div>
           {roleLabel && (
             <div class="article-meta-item">
@@ -1434,11 +1450,11 @@ for (const article of allArticles) {
                 {authorBio ? (
                   <div set:html={authorBio} />
                 ) : (
-                  `Autore di articoli pubblicati su Ombre e Luci.`
+                  t(locale, 'author_bio_fallback')
                 )}
               </div>
               <p class="author-bio-total">
-                In totale <a href="/autori">{totalAutori} autori</a> hanno collaborato con Ombre e Luci.
+                {t(locale, 'author_total_prefix')} <a href="/autori">{totalAutori} {t(locale, 'author_total')}</a>
               </p>
             </div>
           </div>
@@ -1454,20 +1470,20 @@ for (const article of allArticles) {
 
       {/* Widget di navigazione: card standard, appare dopo scroll */}
       <div class="floating-widget" id="floating-widget">
-        <button class="close-btn" id="close-widget" aria-label="Chiudi">×</button>
-        <h4>Naviga</h4>
+        <button class="close-btn" id="close-widget" aria-label={t(locale, 'widget_close')}>×</button>
+        <h4>{t(locale, 'widget_navigate')}</h4>
         {articleBySlug.data.pdf_url ? (
-          <a href={articleBySlug.data.pdf_url} target="_blank" rel="noopener noreferrer" class="widget-link">Scarica PDF</a>
+          <a href={articleBySlug.data.pdf_url} target="_blank" rel="noopener noreferrer" class="widget-link">{t(locale, 'widget_download_pdf')}</a>
         ) : null}
-        {issueLink ? <a href={issueLink} class="widget-link">Vai al numero</a> : null}
-        <a href="/archivio" class="widget-link">Archivio</a>
+        {issueLink ? <a href={issueLink} class="widget-link">{t(locale, 'widget_go_to_issue')}</a> : null}
+        <a href={locale === 'en' ? '/blog/en' : '/archivio'} class="widget-link">{t(locale, 'nav_archive')}</a>
       </div>
 
       {/* Sezione PDF e Copertina */}
       {(articleBySlug.data.pdf_url || articleBySlug.data.copertina_url) && (
         <div class="numero-rivista-section">
           {articleBySlug.data.numero_rivista && articleBySlug.data.anno_rivista && (
-            <h3>Numero Rivista</h3>
+            <h3>{t(locale, 'issue_number')}</h3>
           )}
           {articleBySlug.data.copertina_url && (
             <div class="copertina-container">
@@ -1487,7 +1503,7 @@ for (const article of allArticles) {
                 rel="noopener noreferrer"
                 class="pdf-link"
               >
-                📄 Scarica PDF del numero
+                📄 {t(locale, 'download_pdf_issue')}
               </a>
             </div>
           )}
@@ -1517,7 +1533,7 @@ Slug: {articleBySlug.slug}
       {/* Sezione Articoli Correlati - Fascia Larga max-width: 1200px */}
       {relatedArticles.length > 0 && (
         <section class="related-articles-section">
-          <h2 class="related-articles-title">Articoli Correlati</h2>
+          <h2 class="related-articles-title">{t(locale, 'related_articles')}</h2>
           <div class="related-articles-grid">
             {relatedArticles.map((article) => {
               const articleSlug = article.data.slug || article.slug;
@@ -1543,12 +1559,12 @@ Slug: {articleBySlug.slug}
       )}
 
       <section class="article-nav-section" aria-label="Navigazione">
-        <a href="/" class="back-link">← Torna all'archivio</a>
+        <a href={locale === 'en' ? '/blog/en' : '/'} class="back-link">← {t(locale, 'back_to_home')}</a>
       </section>
     </div>
     </main>
-    <Footer />
-    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug }}>
+    <Footer pathname={pathname} />
+    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel: t(locale, 'read_also') }}>
       // Mappa wp_id -> slug disponibile globalmente
     </script>
     <script>
@@ -1677,7 +1693,7 @@ Slug: {articleBySlug.slug}
         article.className = 'incontent-related-card';
         article.innerHTML = `
           <a href="${hrefFinal}" class="incontent-related-link">
-            <span class="incontent-related-label">LEGGI ANCHE</span>
+            <span class="incontent-related-label">${readAlsoLabel}</span>
             <div class="incontent-related-image-wrapper">
               <img src="${meta.image}" alt="${safeTitle}" loading="lazy" />
             </div>
