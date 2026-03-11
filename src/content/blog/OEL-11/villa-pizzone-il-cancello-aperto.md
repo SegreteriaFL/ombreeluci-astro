@@ -1,4 +1,5 @@
 ---
+
 title: Villa Pizzone, il cancello aperto
 date: 1985-09-28
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-11
 id_numero: "OEL-11"
 numero_rivista: "Ombre e Luci"
 ---
+
 *È l’ora del tramonto: varchiamo un cancello enorme, arrugginito, aperto. Un cortile ampio, disordinato, pieno di vita, animato da una musica jazz che proviene da due altoparlanti posti su due balconi del primo piano; sei giovani attorno ad un tavolo di ping pong; molti bambini di ogni età si rincorrono e giocano. E proprio una bimbetta ci fa strada verso la casa dei coniugi Volpi, che ci accolgono con una tazzina di caffè nella loro ampia e simpatica cucina. Parliamo con loro come con degli amici di vecchia data, interrotti ogni tanto da un figlio piccolo che si avvicina alla mamma, da un giovane, da una ragazza, seduta a lavorare a ferri vicino a noi. Il tavolo intorno al quale siamo seduti è enorme: accoglie per i pranzi e le cene 13 persone: mamma e papà Volpi, i loro figli e gli altri loro figli, quelli che sono stati accolti in più. Le enormi pentole appese, brillano e lo testimoniano. Questa è una delle famiglie della [Comunità](http://www.comunitaefamiglia.org) ; ce ne sono altre, più o meno come questa. Insieme vivono a*
 Villa Pizzone
 *(Piazza Villa Pizzone 3 - 20156 Milano). Per darvi un’idea di questa iniziativa, preferiamo dare la parola a chi la vive.*

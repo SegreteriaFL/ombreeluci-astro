@@ -1,4 +1,5 @@
 ---
+
 title: Mirella, Pablo, Silvia, Claudia, Patrizia
 date: 1990-09-26
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-31
 id_numero: "OEL-31"
 numero_rivista: "Ombre e Luci"
 ---
+
 Mi chiamo
 **Mirella**
 e al gruppo di Fede e Luce mi diverto con tutti gli amici che mi vogliono bene e stare tutti quanti insieme, ci fanno fare dei bel- h giochi, e cantiamo anche e balliamo, e anche per parlare insieme; insomma mi trovo tanto bene. Fede e Luce è molto importante perché ci sono dei genitori con ragazzi con problemi e handicap. Anche papà veniva sempre a Fede e Luce, perché ha trovato tanti amici. Vorrei ringraziare per tutti gli amici che mi sono stati vicini quando è morto papà. Al campeggio quest'anno mi sono trovata tanto bene e sono stati i belli giorni della mia vita, peccato che sono volati.

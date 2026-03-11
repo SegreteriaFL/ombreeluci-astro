@@ -1,4 +1,5 @@
 ---
+
 title: "Disturbi dell'apprendimento: Una bambina “disprattica”"
 date: 2009-09-10
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 7.000058174133301
 issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Camilla è una bambina “disprattica”, Una parola, fino a due anni fa, sconosciuta a me, come a molte altre persone"
 ---
+
 La dislessia mi ha creato problemi soprattutto a scuola. Ogni anno gli insegnanti chiedono chi è dislessico o disortografico nella classe. Lo fanno per aiutarci ma io, in queimomenti, mi sono sempre sentito un esserea parte, etichettato come “idiota”. Idiota come quando alle elementari dovevo copiareventi volte le sessanta parole che avevo scritto male nel dettato.
 
 Ci sono anche dei professori che leggono a voce alta i compiti per dimostrare chi è un“fuori tema” mentre tutta la classe ride e si diverte. A me capitava sempre di capire male una parola del tema assegnato e il risultato era completamente estraneo. Fra gli esercizi che si sbagliano perché si è letta male la domanda, gli innumerevoli zero in ortografia, i pessimi voti, ero condannato ad essere fra gli ultimi della classe. Dopo le medie, sono stato indirizzato ad un corso tecnologico(dove ci sono molti lavori pratici): ho sperato di far parte dei primi tre della classe.

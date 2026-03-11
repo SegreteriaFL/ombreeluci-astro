@@ -1,4 +1,5 @@
 ---
+
 title: "La scossa della vunerabilità"
 date: "2015-03-19"
 author: "Gianfranco Ravasi"
@@ -14,7 +15,10 @@ categoria_menu: "Fede"
 issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il card. Ravasi, in occasione dei festeggiamenti per i 40 anni di Fede e Luce, parte da Chesterton: «il nostro mondo non perirà certo per mancanza di meraviglie, bensì di meraviglia»"
 ---
+
 Cari Amici, sono veramente lieto di aggiungermi al coro festoso di voci che celebrano insieme con voi i 40 anni dell’Associazione Fede e Luce in Italia. Mi unisco idealmente invitandovi a continuare la vostra navigazione nel mare della sofferenza, apparentemente tempestoso, in realtà colmo di epifanie di fede e luce. Bisogna, però, attrezzarsi per questo viaggio ritrovando la purezza di mente e di cuore e la libertà dagli stereotipi, riconquistando la capacità di stupirci perché, come ammoniva già Chesterton, «il nostro mondo non perirà certo per mancanza di meraviglie, bensì di meraviglia».
 
 E la prima, dominante e sconcertante meraviglia che ci viene incontro è quella della “vulnerabilità” della creatura umana, coi suoi corollari di debolezza, di fragilità, di vergogna, di morte. Essa diventa nelle persone handicappate quasi un emblema che si trasforma in un richiamo e persino in una scossa per la nostra superficialità perché – come scriveva un’importante filosofa francese, Julia Kristeva – è «il loro sguardo a perforare la nostra ombra». Essere vulnerabili significa semplicemente essere umani e quindi non possiamo sentirci estranei o relegare questa dimensione solo a una determinata categoria di persone. Purtroppo ci imponiamo spesso una censura per paura o inerzia o banalità. La società contemporanea rigetta il peso delle domande che fioriscono su questo terreno; la scienza cerca di rimandare al domani ciò che oggi è senza rimedio.

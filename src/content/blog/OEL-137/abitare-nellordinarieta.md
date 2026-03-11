@@ -1,4 +1,5 @@
 ---
+
 title: "Abitare nell'ordinarietà"
 date: "2017-03-16"
 author: "Cristina Tersigni"
@@ -15,6 +16,7 @@ issue_number: OEL-137
 id_numero: "OEL-137"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Suor Veronica Donatello, responsabile del Settore per la catechesi delle persone disabili dell’Ufficio Catechistico nazionale della Cei, è tra le quaranta personalità, alle quali il presidente della Repubblica, Sergio Mattarella, ha conferito onorificenze al Merito della Repubblica Italiana nel 2016.
 
 Suor Veronica l’ha ricevuta “Per il suo contributo nella piena inclusione delle persone con disabilità". Romana, 42 anni, religiosa nella Congregazione delle Suore Francescane Alcantarine, è impegnata, sia come docente sia come membro di commissioni tecnico-scientifiche, nell’inclusione e partecipazione attiva delle persone con disabilità. È esperta in comunicazione aumentativa alternativa e Lis per l’accessibilità dei testi. Le abbiamo rivolto alcune domande.

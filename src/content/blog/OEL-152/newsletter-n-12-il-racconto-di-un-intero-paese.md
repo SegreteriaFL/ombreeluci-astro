@@ -1,4 +1,5 @@
 ---
+
 title: Newsletter n. 12 — Il racconto di un intero Paese
 date: 2020-03-20
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Q
 uando la sera del 9 marzo 2020 il premier Conte ha esteso le misure limitative indispensabili per contrastare il COVID-19 a tutta Italia, lo stato di emergenza non ha più avuto confini. E il racconto di quanto stava accadendo nel nord (
 [newsletter n.11](https://www.ombreeluci.it/2020/newsletter-n-11-la-fatica-di-non-potersi-salutare/)
@@ -31,6 +33,7 @@ Giovanni Grossi e della nostra blogger Benedetta) ma anche con sorprendente uman
 [la cronaca della consegna](https://www.ombreeluci.it/2002/premio-donna-2002-a-mariangela/)
 a Roma del Premio Donna 2002 assegnato a Mariangela Bertolini. Rileggere questo articolo diciotto anni dopo è un bellissimo modo per ricordare colei che, oltre ad aver portato Fede e Luce in Italia, ha fondato Ombre e Luci. E un modo per capire perché una donna schiva e poco amante dei riconoscimenti – «un acquedotto romano – solido, necessario, un monumento senza pretendere di esserlo» – avesse sorprendentemente accettato di riceverlo.
 
+
 ---
 
 **Testimonianza –**
@@ -40,6 +43,7 @@ Quando un bambino, con tanta incubatrice e diverse operazioni sulle piccole spal
 [al sorriso](https://invececoncita.blogautore.repubblica.it/articoli/2020/03/11/abbiate-fiducia-nei-vostri-figli/)
 di Maurizio, tutte le volte che ce n’è stato bisogno.
 
+
 ---
 
 ### [**Il blog di Benedetta**](https://www.ombreeluci.it/il-blog-di-benedetta/)
@@ -48,6 +52,7 @@ di Maurizio, tutte le volte che ce n’è stato bisogno.
 
 Io non lo so se mi piace fare shopping. Non lo so proprio. Non ho proprio capito. Boh. Tutti mi dicono prendi qualche soldo e vai nel negozio a comprare. Ma perché io lo devo fare? Non lo so. Però alla fine io ci vado.
 [Continua a leggere...](https://www.ombreeluci.it/2020/deve-finire-prima-di-subito/)
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Quel che ti scava dentro – Newsletter n. 32
 date: 2021-05-18
 author: Redazione
@@ -15,7 +16,9 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### OL incontra...
+
 
 ---
 
@@ -23,11 +26,13 @@ Ci sono frasi che ti scavano dentro, inseguendoti fino a quasi toglierti il fiat
 
 ### Il libro del mese
 
+
 ---
 
 Ci sono anche dopocena che ti scavano dentro, come accade al protagonista del racconto di Raymond Carver, *Cattedrale* , ora incluso in *Racconti Spirituali* (Einaudi 2020) a cura di Armando Buonaiuto. L’uomo, “costretto” dalla moglie a ospitare un vecchio amico di lei, cieco, uscirà da quel dopocena trasformato. Completamente e positivamente scompaginato. Il [consiglio di lettura](https://www.ombreeluci.it/2021/cattedrale-raymond-carver-recensione/) è di Giulia Galeotti.
 
 ### Dibattito attorno a Bruno, e a The Specials
+
 
 ---
 
@@ -35,11 +40,13 @@ Positivamente scompaginato – nel suo caso, però, perché è incapace di negar
 
 ### Dibattito attorno a Bruno, e a The Specials
 
+
 ---
 
 Speriamo vi scavi un po’ dentro e vi scompagini positivamente il nuovo Ombre e Luci in viaggio verso le vostre case. Ricco di contenuti, *Guardami, questa/questo sono io* contiene tra l’altro un focus che riflette sullo sguardo. Lo sguardo della persona con disabilità su di sé, lo sguardo dei suoi familiari, degli estranei e anche il non-sguardo (articoli di Laura Coccia, Giorgia Fontani, Giulia Galeotti, Vittore Mariani ed Enrica Riera). Apre il numero l’intervista di Cristina Tersigni a Costanza Mestichelli, imprenditrice agricola nel Viterbese, la cui vita e la cui azienda coinvolgono persone poste ai margini della società; conosceremo così anche Adama Traoré, un ragazzo del Mali, e Pietro Bigari, settantacinquenne con disabilità che nella casa di Mestichelli ha trovato sollievo dalla dura periferia romana in cui viveva. Tra gli altri articoli del numero, [la recensione](https://www.ombreeluci.it/2021/maneggiare-con-cura-di-marco-bove-recensione/) al nuovo libro di Marco Bove, *Maneggiare con cura* (Edb 2021), “il diario intimo e profondo di un sacerdote che – scrive Giulia Galeotti – sa di cosa parla quando parla di fragilità, disabilità e limiti, più o meno apparenti”.
 
 ### Sboccia la primavera!
+
 
 ---
 
@@ -47,11 +54,13 @@ Nella scorsa newsletter vi avevamo invitato a condividere con noi le immagini di
 
 ### FantasticHandicap: libera la fantasia
 
+
 ---
 
 È giunto alla diciannovesima edizione il Premio Letterario Nazionale *FantasticHandicap* , indetto dal Centro Documentazione Handicap del Comune di Carrara. Il concorso premia racconti inediti in tema di disabilità. Due le sezioni: adulti e ragazzi. C'è tempo fino al 5 luglio 2021. [Il regolamento è sul sito del CDH](http://www.cdhcarrara.it/xix-edizione-del-premio-letterario-nazionale-fantastichandicap/) .
 
 ### Il blog di Benedetta
+
 
 ---
 
@@ -60,6 +69,7 @@ Nella scorsa newsletter vi avevamo invitato a condividere con noi le immagini di
 Ora la lezione la faccio io. Faccio la professoressa e la guida turistica. Ho studiato molto bene e so tutto a memoria benissimo. Così posso accompagnare io i turisti e spiegare bene tutte le cose. [**Continua a leggere...**](https://www.ombreeluci.it/2021/vi-porto-a-conoscere-roma/)
 
 ### Il post del mese
+
 
 ---
 

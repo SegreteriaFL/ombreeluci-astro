@@ -1,4 +1,5 @@
 ---
+
 title: "Che cosa è Fede e Luce"
 date: "2003-03-13"
 author: "Mariangela Bertolini"
@@ -16,6 +17,7 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
+
 Molti (lettori, responsabili di [Fede e Luce](http://www.fedeeluce.it/), educatori e operatori nel mondo della disabilità) hanno chiesto di dedicare un numero speciale di questa rivista ale Comunità FEDE E LUCE.
 
 Per farlo ci siamo rivolti a quanti, da anni, si impegnano nel movimento F.L. (genitori, sacerdoti, ragazzi, amici) sollecitandoli a inviarci testimonianze, riflessioni, relazioni, per far meglio capire, a quanti ci leggeranno, dove va, quanto serve e che senso ha Fede e Luce oggi.

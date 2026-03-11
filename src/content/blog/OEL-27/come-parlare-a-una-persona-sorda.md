@@ -1,4 +1,5 @@
 ---
+
 title: Come parlare a una persona sorda
 date: 1989-06-21
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-27
 id_numero: "OEL-27"
 numero_rivista: "Ombre e Luci"
 ---
+
 Non dimenticate: il sordo non vi sente e non si sente. Il sordo si trova facilmente isolato tra gli udenti e troppo spesso ha l’impressione di essere «rifiutato». Pensateci se lo incontrate e dedicategli un po’ d’attenzione. Fate in modo che prenda parte alla vita informandolo su ciò che avviene e si dice attorno. In particolare, non dimenticate i seguenti semplici consigli.
 
 **1) Molti sordi vi comprendono leggendo sulle vostre labbra.** - In una riunione, una conferenza, ecc. fate che il sordo sia ben piazzato. In classe il bambino sordo, o che non sente bene, deve essere messo nelle prime file. - Articolate bene le parole, senza esagerare, senza gridare. Parlate più lentamente.

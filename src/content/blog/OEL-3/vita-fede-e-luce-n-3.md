@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 3
 date: 1983-09-30
 author: Redazione
@@ -26,6 +27,7 @@ umap_y: 8.51865005493164
 umap_z: 13.69365406036377
 id_numero: "OEL-3"
 ---
+
 Indice: 1. [Incontri per una formazione comunitaria](#incontri) 2. [Siamo andati a Czestochowa](#Czestochowa) 3. [Roma Festa di Primavera](#Primavera) 4. [Ponte Lambro](#Lambro) 5. [Noi in colonna tutti giallo taxi](#Carovana)
 
 ### 1. Incontri per una formazione comunitaria

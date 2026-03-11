@@ -1,4 +1,5 @@
 ---
+
 title: "Tra incontri nel riconoscimento dell'altro puoi ritrovare fiducia"
 date: 2011-09-04
 author: Rita Massi
@@ -16,7 +17,10 @@ umap_z: 8.040668487548828
 issue_number: OEL-115
 id_numero: "OEL-115"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Vedete... in effetti non ha bisogno di parlare, basta saperlo ascoltare!"
 ---
+
 In tanti anni di lavoro come assistente sociale, ho visto avvicendarsi leggi, riforme e controriforme, sia in ambito sanitario che in materia di assistenza sociale Una cosa molto importante a cui si è dato sempre grande rilievo la “centralità della persona” nel processo di aiuto. Questo principio ho cercato di tenerlo sempre ben presente, ma troppo spesso le gravi carenze organizzative (e non solo!) hanno rischiato di farlo smarrire.
 
 Si può infatti smarrire la persona quando devi dire alla mamma che il suo bimbetto con un ritardo di linguaggio dovrà aspettare un anno per una valutazione, o quando si ristrutturano le sedi di servizi pubblici senza prevedere un agevole accesso per i disabili o quando ti accorgi che agli extracomunitari si dà sempre del tu, quando per certi bambini o ragazzi troppo gravi non c'è mai posto per le terapie, quando si introducono innovazioni troppo tecnologiche per cui diventa complicato per molti anche solo presentare una domanda, quando un assistente sociale deve fare oltre trenta colloqui di accoglienza in una mattinata!!!

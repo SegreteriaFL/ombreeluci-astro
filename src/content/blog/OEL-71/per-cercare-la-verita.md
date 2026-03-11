@@ -1,4 +1,5 @@
 ---
+
 title: "Per cercare la verità"
 date: "2000-09-28"
 author: "Jean Vanier"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-71
 id_numero: "OEL-71"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La verità si nasconde in noi e nel nostro rapporto con l’altro, nelle nostre debolezze e nei nostri limiti — come il Verbo ha scelto di incarnarsi"
 ---
+
 #### Avviso
 
 Questo articolo di Jean Vanier fa parte dell'archivio di Ombre e Luci ed è stato pubblicato diversi anni fa. Il 22 febbraio 2020 nel corso di un'inchiesta promossa dall'Arca internazionale sono state accertate gravi responsabilità di Jean Vanier nei confronti di sei donne. Qui il [comunicato](https://www.larche.org/news/-/asset_publisher/mQsRZspJMdBy/content/inquiry-statement-test?_101_INSTANCE_mQsRZspJMdBy_redirect=https%3A%2F%2Fwww.larche.org%2Fnews%3Fp_p_id%3D101_INSTANCE_mQsRZspJMdBy) che condanna senza riserve queste azioni «in totale contraddizione con i valori che Vanier sosteneva» e con «i principi fondamentali delle nostre comunità». Sia l’Arca che Fede e Luce - seppur sgomente, addolorate e con molte questioni da affrontare - continuano salde nel loro impegno per realizzare società più umane e inclusive.

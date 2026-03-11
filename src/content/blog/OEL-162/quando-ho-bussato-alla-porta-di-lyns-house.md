@@ -1,4 +1,5 @@
 ---
+
 title: "Quando ho bussato alla porta di Lyn's House"
 date: 2023-07-18
 author: Carole Irwin
@@ -14,7 +15,10 @@ umap_z: 9.683902740478516
 issue_number: OEL-162
 id_numero: "OEL-162"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "A Cambridge dal 2013 un'insolita comunità ponte"
 ---
+
 L*yn’s House* è una comunità di persone con e senza disabilità intellettive. Pur essendo cristiana, è aperta anche a membri di altre confessioni e a chi non ne professa alcuna. Siamo circa quaranta persone: tre giovani vivono insieme, gli altri risiedono nelle proprie case. La nostra vita di comunità consiste nel ritrovarci, a volte anche solo in piccoli gruppi; insieme mangiamo e preghiamo. **È tutto qua, non c’è altro: il motivo per cui stiamo insieme è donarci reciprocamente tempo e attenzione.** Siamo una realtà insolita per questo Paese: è raro che nel Regno Unito persone con e senza disabilità si incontrino e costruiscano relazioni, oltre a quelle familiari o al di fuori dal contesto di cura in cui ci si definisce in termini di assistente e assistito.
 
 Quattro anni fa mi sono ritrovata a *Lyn’s House* perché non vivevo bene il contesto accademico in cui lavoravo, non trovandovi né pienezza né integrità: sono arrivata qui perché ero io ad aver bisogno. Non è facile raccontare la mia esperienza, ma ci provo presentando due incontri – quello con Lucia e quello con Domenico – che, forse, possono dare il senso del mio stare a *Lyn’s House* .

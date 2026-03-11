@@ -1,4 +1,5 @@
 ---
+
 title: Estemporanea e personale
 date: 2020-09-02
 author: Giorgiana Tinazzo
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Quando è stato tolto il telo dal quadro mi sono sentita bene, c’era tantissima gente, si sono sbalorditi: “Anvedi che bel quadro che ha fatto quella ragazza di Roma!”». È Carla, una delle persone con disabilità residenti presso la comunità Il Carro, a ricordare con nitidezza le sensazioni vissute alla loro prima Personale.
 
 Due anni fa, per l’annuale festa del Carro, abbiamo deciso di organizzare una mostra con tele realizzate da tutti i nostri ospiti. I quadri sono stati presentati in modo scenografico: coperte da un drappo e appese con fili sottili lungo tutto il perimetro della sala polifunzionale, le tele venivano scoperte annunciando, uno per volta, gli artisti che le avevano realizzate. Come casa famiglia, è stata la prima volta che ci siamo cimentati in qualcosa di così elaborato. Spesso, in passato, avevamo usato tempere e acrilici per dipingere su materiale vario, come un’infinità di vasetti, oggetti di legno o creta, stoffe, striscioni, cartelloni, ovviamente tantissimi fogli e quaderni… ma anche mobili!

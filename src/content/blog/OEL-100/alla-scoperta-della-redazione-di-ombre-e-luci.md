@@ -1,4 +1,5 @@
 ---
+
 title: Alla scoperta della Redazione di Ombre e Luci
 date: 2007-12-29
 author: Redazione
@@ -17,6 +18,7 @@ umap_x: 4.850519180297852
 umap_y: 6.593726634979248
 umap_z: 9.6779203414917
 ---
+
 *Hanno evitato, hanno abilmente svincolato l'incontro, hanno addotto scuse dubbie, ma la nostra "iena” non le ha mollate, le ha rincorse e, seppur reticenti, infine hanno ceduto. E si sono raccontate. In occasione del 100simo numero le redattrici di Ombre e Luci si concedono in un'intervista, non doppia, ma addirittura quadrupla! N.B. Le redattrici sono state intervistate separatamente una dall'altra.*
 **Nome e Cognome**
 Cristina Tersigni Huberta Pott Laura Nardini Mariangela Bertolini

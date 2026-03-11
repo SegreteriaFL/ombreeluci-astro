@@ -1,4 +1,5 @@
 ---
+
 title: La mia principessa Gilda
 date: 2023-05-10
 author: Antonietta Pantone
@@ -14,7 +15,10 @@ umap_z: 5.867040157318115
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il rapporto speciale tra me e la mia amica a quattro zampe"
 ---
+
 Quando nella tua casa entra un amico a quattro zampe, la tua vita cambia. Specialmente se nella tua casa ci sono persone con disabilità: lo so per esperienza diretta… da cinque anni ho a casa un bellissimo labrador di nome Gilda.
 
 **Lei, per me, è la mia salvezza in alcuni momenti e, quando io non riesco a capire quello che mi succede intorno, con uno sguardo o un gesto delicato e dolce appoggia il suo muso sulle mie gambe mi fa capire che lei sa come calmarmi e come farmi ridere.** Io la chiamo la mia principessa perché da cinque anni mi ha arricchito le giornate

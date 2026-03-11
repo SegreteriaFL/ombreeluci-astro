@@ -1,4 +1,5 @@
 ---
+
 title: Possibile che Gabriele non abbia un posto?
 date: 2023-10-11
 author: Michele Vulcan
@@ -14,7 +15,10 @@ umap_z: 10.6242094039917
 issue_number: OEL-163
 id_numero: "OEL-163"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Storia del chierichetto-capo di due parrocchie a Trento"
 ---
+
 D
 al novembre 2015 sono parroco a San Rocco e a Madonna Bianca nella periferia di Trento. All’epoca Gabriele aveva poco più di 7 anni: era piccolo, velocissimo… ogni porta aperta, ogni varco aveva il solo scopo di essere attraversato senza nessun controllo. All’inizio il contatto con lui era limitato alle volte in cui Giada, la sorella maggiore, partecipava alle attività parrocchiali e alla messa domenicale dal primo banco, con la famiglia.
 **Gabriele, che ha la sindrome di Down, non è un bambino di tante parole ma ha trovato il modo di comunicare il suo desiderio di essere protagonista:**

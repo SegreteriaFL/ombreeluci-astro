@@ -1,4 +1,5 @@
 ---
+
 title: Autismo e integrazione scolastica
 date: 2003-12-22
 author: Davide Del Duca
@@ -16,12 +17,17 @@ tags:
 umap_x: 6.915945053100586
 umap_y: 7.085373878479004
 umap_z: 6.978512287139893
+
+subtitle: "Pubblichiamo la riflessione di Davide Del Duca e le storie di due ragazzi autistici seguiti dalla Fondazione di cui è presidente"
 ---
+
 Come avevamo promesso (nel [numero 81 del 2003](https://www.ombreeluci.it/project/ombre-e-luci-n-82-parlami-damore/) ), pubblichiamo la riflessione di **Davide Del Duca** e le storie di due ragazzi autistici seguiti dalla Fondazione di cui è presidente. L’inserimento delle persone con handicap nella scuola è importante per loro e per i loro compagni normodotati che devono imparare ad accettare chi è diverso e avere una cultura dell’accoglienza. Per quanto riguarda l’autismo, senza solide conoscenze da parte degli operatori della scuola si rischia di fare grossi guai e soprattutto si rischia il pregiudizio di una ìngestibilità della persona autistica che, come in una profezia autoavverante diventa con il tempo realmente ingestibile se non si interviene con metodo e competenze. Che fare dunque? Poco tempo fa ho partecipato ad un convegno promosso dalla [CGIL Scuola](https://www.flcgil.it/scuola/) su questi temi dal titolo: “indietro non si torna”; bene! Non torniamo indietro, salviamo la legge, ma rendiamola funzionale.
 
 Se posso fare una ipotesi sulla quale aprire un dibattito devo dire che preso atto che per le persone con autismo la preparazione del personale educante è l’aspetto che fa la differenza si potrebbe pensare a scuole specializzate su questo handicap; ovvero scuole normali nelle quali però vengono indirizzati quei portatori di handicap che hanno la diagnosi di autismo. Questo farà si che le conoscenze, non dell’insegnante di sostegno, che può cambiare, ma dell’intera scuola compreso il personale ATA, sull’autismo divengano conoscenze sedimentate e certe e quindi competenze reali. In una piccola città basta che in un circolo didattico ci sia una scuola cosi attrezzata per ogni ordine e grado e sicuramente avremo risolto il problema di molte persone con autismo e dei loro familiari.
 
 - *Davide Del Duca* , 2003 Presidente della Fondazione Bambini e Autismo ONLUS
+
+
 
 ---
 
@@ -36,6 +42,8 @@ Negli anni della scuola materna, nonostante lo sforzo della Fondazione e della f
 Alla scuola elementare, scuola che E. tuttora frequenta, pur essendo arrivato solo alla quarta elementare ha già cambiato una decina di insegnanti di sostegno oltre a quelle curriculari come i suoi compagni. Nell’ultimo anno in forza dei tagli del Ministro gli è stato tolto il sostegno in rapporto 1 a 1 (quasi fosse guarito dal suo autismo), le ore che non passava più con l’insegnante di sostegno (supplente) sono state affidate ad educatrici pagate dal Comune di residenza di E. e formate dalla Fondazione.
 
 **Se possiamo trarre un bilancio della presenza di E. nella scuola fino ad oggi** con queste premesse dovremmo dire che il suo permanere è stato solo negativo e invece, nonostante tutto, si può ritenere positivo. Infatti E. è ben inserito nella scuola, ben voluto dai compagni, è un gran lavoratore, fa somme e sottrazioni, scrive e legge semplici parole, cerca di controllare le sue stereotipie e soprattutto osserva il comportamento dei suoi coetanei cercando di imitarli. A chi si deve allora questo successo? Non certo all’istituzione scolastica o al Ministro, ma in maggior parte ad E. che ha imparato sulla sua pelle con fatica e con stress indicibile a gestire i moltissimi imprevisti che nella scuola gli sono capitati.
+
+
 
 ---
 

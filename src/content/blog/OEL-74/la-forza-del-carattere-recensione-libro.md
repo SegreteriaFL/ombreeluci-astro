@@ -1,4 +1,5 @@
 ---
+
 title: La forza del carattere - Recensione libro
 date: 2001-06-17
 author: Natalia Livi
@@ -14,7 +15,10 @@ umap_z: 5.561347961425781
 issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "James Hillman Ed. Adelphi, pp. 322"
 ---
+
 Che cosa significa invecchiare? In questa sua recentissima opera James Hillman ripercorre con noi il senso di un’età troppo spesso considerata triste o inutile e troppo spesso paragonata negativamente ad altri periodi della vita.
 
 Quelli dell’invecchiamento sono invece anni preziosi in cui può esserci rivelato ciò che per tanto tempo abbiamo trascurato o sfuggito: la forza del nostro carattere, la nostra unicità, svelandoci chi veramente siamo e ciò cui veramente aspiriamo, al di là delle nostre azioni e di ciò che tentiamo di apparire. Il libro è il racconto da leggersi con calma e riflessione di una possibile, lunga e gioiosa ricerca, ricca di etica e di saggezza, sul sentiero della conoscenza e della comprensione di noi stessi e perciò degli altri.

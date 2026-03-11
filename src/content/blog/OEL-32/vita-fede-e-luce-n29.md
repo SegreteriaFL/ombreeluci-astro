@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.29
 date: 1990-03-20
 author: Redazione
@@ -20,7 +21,10 @@ umap_z: 14.003335952758789
 issue_number: OEL-32
 id_numero: "OEL-32"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il diario di una comunità in cammino fra esperienze, racconti e testimonianze: incontro nazionale, sacramenti a Marzocca, in una comunità dell'Arche in Honduras"
 ---
+
 ### Incontro comunità F.L. d’Italia
 
 *Lucia Bertolini nuova responsabile, P. Giuseppe Serighelli nuovo assistente*

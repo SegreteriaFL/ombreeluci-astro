@@ -1,4 +1,5 @@
 ---
+
 title: Il Natale di Massimo
 date: 2004-12-14
 author: Mariangela Bertolini
@@ -16,10 +17,15 @@ tags:
 umap_x: 5.774379730224609
 umap_y: 6.094831466674805
 umap_z: 12.133687019348145
+
+subtitle: "Certamente Massimo nella sua famiglia ha proclamato quell’Amore che i suoi grandi genitori hanno vissuto in pieno con lui e per lui"
 ---
+
 Dice la sua mamma:
 
 > "Natale è bello, ma per me è un giorno come un altro perché sono sola, con lui. Massimo è triste perché il suo papà se n’è andato, due anni fa. Io non riesco a parlargli come faceva lui. Massimo aspetta di vederlo apparire all’improvviso, come faceva spesso, per coccolarlo:"Bello di papà, tu c’hai l’occhi blu!". Rideva Massimo e aspettava che ancora e ancora lui lo facesse ridere con le sue battute. Ora io guardo la sua fotografia, sopra la grande carrozzella di Massimo e mi vien da dirgli:"Pensaci tu! Prega il Signore che mi dia ancora la forza per assisterlo per il futuro." Ho trovato un aiuto buono, perché da sola con gli acciacchi della vecchiaia, non potrei farcela. Sono una coppia dell'Ecuador; vivono qui con noi, sono affettuosi, cercano di esserci vicini... ma a Natale forse vanno a pranzo da una sorella. Così noi due in quel bel giorno aspetteremo una visita, chissà — un nipote, qualche amico di Fede e Luce. Sai, i parenti della mia età son tutti in cielo ormai. Sono rimasta io sola. M'’affido al Signore, gli dico sempre, quel che tu vuoi."
+
+
 
 ---
 

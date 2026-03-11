@@ -1,4 +1,5 @@
 ---
+
 title: Centro del Libro Parlato
 date: 2001-03-09
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 7.813536167144775
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dedicato ai non vedenti e agli ipovedenti, un'ottimo progetto per accedere ad un vastissimo archivio di opere letterarie e non solo"
 ---
+
 Per i non vedenti o ipovedenti centro internazionale del libro parlato Previo pagamento della quota di iscrizione, potete avere: il catalogo suddiviso per materie (9000 opere registrate in cassetta, disponibili anche su floppy-disk). Potrete inoltre richiedere la registrazione su nastro di un’opera da voi scelta. Per ulteriori informazioni, rivolgersi al centro per telefono, fax, e-mail.
 **Aggiornamento giugno 2020**
 Come funziona il servizio: <0l>

@@ -1,4 +1,5 @@
 ---
+
 title: Le case-famiglia, gli istituti, i centri esaminati da Ombre e Luci
 date: 1995-09-12
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-51
 id_numero: "OEL-51"
 numero_rivista: "Ombre e Luci"
 ---
+
 Pubblichiamo un indice analitico di tutti i servizi per persone con handicap che Ombre e Luci ha visitato e descritto dal 1983 al 1995. Abbiamo potuto visitare queste realtà del mondo dell’handicap, studiarle e poi descriverle dandone una valutazione, perché molte ci sono state segnalate. Possiamo continuare questo servizio con il vostro aiuto. Se conoscete qualche realtà del genere specie case-famiglia e comunità alloggio, segnalatecele. Sarà un aiuto prezioso per tanti. Se qualcuno vuole conoscerli meglio, può richiedere il relativo numero arretrato o la fotocopia, scrivendo o telefonando alla redazione di Ombre e Luci — Via Bessarione 30 — 00165 Roma — Tel. 06/633402 — Orario di ufficio: Mart. Mere. Ven. dalle ore 9,30 alle 12,30.
 
 ### Case famiglia e Comunità alloggio
@@ -66,6 +68,7 @@ una coppia di educatori vive con 13 giovani con disabilità fisiche e motorie e 
 **Comunità-Alloggio «La Torre»**
 3 gruppi: ognuno è formato da una decina di adulti con hm, 4 educatori, 4 assistenti e un obiettore di coscienza. La comunità è inserita in un centro diurno Anfas. Progetto di residenza per genitori anziani, insieme al loro figlio disabile, in 30 appartamenti. «La Torre — 10086 Rivarolo Canavese TO Per informazioni: Prof.sa Rosina Zandano Sezione Anfas Tigullio Ovest Salita Banchi, 20 — 16035 Rapallo GE — Tel. 0185-289478 fax: 0185-289191
 
+
 ---
 
 ### Istituti
@@ -78,6 +81,7 @@ Via della Nocetta, 23 — 00164 Roma — Tel. 066258744 - 6258853 Due istituti t
 istituto medico-psicopedagogico per donne con handicap intellettivo. Gestito da suore del Don Guanella. Casa Sacra Famiglia — 45025 Fratta Polesine (RO) — Tel. 0425-68550
 **Villa S. Giovanni di Dio**
 istituto psichiatrico, 346 ospiti di sesso maschile, 5 religiosi, 180 operatori. Ospiti: malati mentali e handicappati mentali adulti e molti anziani. Via Fatebenefratelli, 2 — 00045 Genzano di ROMA — Tel. 06-9396000 - 939611
+
 
 ---
 
@@ -104,6 +108,7 @@ laboratorio di ceramica, Cooperativa di produzione e lavoro, per persone con han
 **Un Territorio, molti progetti**
 «Il Magazzino»; cooperativa sociale un centro di formazione professionale dell'Enaip per giovani svantaggiati. Via Borromeo 67-00168 ROMA —Tel. 06-6144451
 
+
 ---
 
 ### Scuola
@@ -115,6 +120,7 @@ scuola speciale, servizio scolastico e riabilitativo per bambini cerebrolesi da 
 **Casa Loic**
 una scuola laboratorio artigianale. Una dozzina di ragazzi e ragazze (fra 14 e 21 anni) con handicap mentale o con disturbi della personalità, ma con una certa autonomia. 5 operatori preparati secondo la pedagogia di Rudolf Steiner. I ragazzi sono impegnati in attività di lavoro artigianale (essitura, legno, orto ecc.) in attività artistiche (pittura, euritmia, musica) e attività scolastiche Località Capotosto 00060 Capena RM - Tel. 069032850.
 
+
 ---
 
 ### Riabilitazione
@@ -124,6 +130,7 @@ una scuola laboratorio artigianale. Una dozzina di ragazzi e ragazze (fra 14 e 2
 cooperativa di intervento e centro di consulenza, terapia e riabilitazione per bambini con lesione cerebrale, danni genetici, ritardi mentali. Via Felisatti 62 F — 30175 MESTRE;
 **La nostra famiglia di Conegliano**
 Centro di diagnosi, di riabilitazione, qualificazione professionale, centro di lavoro guidato. Alta professionalità e qualità umana. Via Costa Alta — 31015 Conegliano Veneto (TV) — Tel. 0438-4141.
+
 
 ---
 

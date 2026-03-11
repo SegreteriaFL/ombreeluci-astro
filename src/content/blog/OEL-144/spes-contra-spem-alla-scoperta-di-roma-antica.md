@@ -1,4 +1,5 @@
 ---
+
 title: Spes contra Spem alla scoperta di Roma antica
 date: 2018-03-19
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Spes contra Spem organizza visite guidate per ri-vedere la Capitale da un'altra prospettiva. La dott.ssa
 **Sabrina Zottis,**
 archeologa medievista, condurrà i partecipanti a conoscere i siti archeologici più importanti del nostro patrimonio culturale.

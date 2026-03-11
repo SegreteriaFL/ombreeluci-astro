@@ -1,4 +1,5 @@
 ---
+
 title: "Avere un posto nella società"
 date: "2017-03-16"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: OEL-137
 id_numero: "OEL-137"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "A colloquio con Mariangela Lopizzo, moglie di Vincenzo, mamma di Carlo (nella sindrome dello spettro autistico) e Chiara, e insegnante di sostegno polivalente in una scuola media romana"
 ---
+
 «L'idea che manca nella nostra cultura e nella società è che i ragazzi disabili, autistici, con sindrome di down… tutti, hanno bisogno di sentire di avere un ruolo nella società. Sentirsi utili. Svolgere un lavoro, qualcosa che sia alla pari con gli altri. Nessuno, se assistito, si sente parte della società: piuttosto si sente un reietto. È bello fare festa, divertirsi; a mio figlio piace molto fare festa, ma poi gli piace anche far vedere che sa fare qualcosa: gli piace mettere a posto, aiutare in cucina, partecipare come gli altri alle cose della vita o si annoia.»
 
 Comincia così il colloquio con Mariangela Lopizzo, moglie di Vincenzo, mamma di Carlo (nella sindrome dello spettro autistico) e Chiara, e insegnante di sostegno polivalente in una scuola media romana. Sorella di Ruggero, mancato qualche anno fa, con problemi di autismo.

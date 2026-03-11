@@ -1,4 +1,5 @@
 ---
+
 title: Epilessia, una malattia che imprime un marchio
 date: 1985-06-29
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-10
 id_numero: "OEL-10"
 numero_rivista: "Ombre e Luci"
 ---
+
 «
 *Ho 34 anni, una moglie adorata ed una splendida bambina, eppure per molto tempo la mia vita è stata un inferno; soltanto adesso comincio a migliorare*
 ». È la confessione di Luigi, impiegato in un ente finanziario, alto, una precoce calvizie, apparentemente un romano come tanti che si incontrano sulla metropolitana che da Cinecittà scarica ogni mattina migliaia di lavoratori nel centro cittadino. Ma Luigi non si sente come gli altri, ha pensato (e tentato) il suicidio, continua una lunga cura presso uno psicologo. La ragione? È malato di epilessia. Nessuno se ne accorge, a meno di non far caso ad una specie di lievissimo tic, ad una brevissima interruzione dei movimenti e della parola, a una leggera «assenza», che avviene di quando in quando e sfugge a un osservatore che non sia molto attento. Eppure fin dall’infanzia gli è stato stampigliato addosso il marchio di «epilettico», è stato considerato la vergogna della famiglia, mentre è una persona assolutamente normale, dolce e spigolosa, grosso modo come ognuno di noi. «Per parecchi anni, in ufficio, ho portato sempre gli occhiali neri, senza levarmeli durante il lavoro, sperando che i colleghi non si accorgessero delle mie «assenze, di quando rimango con gli occhi fissi», spiega.

@@ -1,4 +1,5 @@
 ---
+
 title: "Lettera di speranza alle mamme e ai papà"
 date: "1990-06-21"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
+
+subtitle: "Invito all'ottimismo: Marco scrive ai genitori di ragazzi con disabilità"
 ---
+
 Se si riflettesse un attimo: tutta la vita è un disagio vista con ottica pessimista; è bella, vista con ottica ottimista: dipende dal soggetto.
 Io la vita la vedo con le due ottiche contrapposte, ma è prevalente quella ottimista. Voglio lanciare un messaggio. Se avete qualche progetto segreto, realizzatelo; date retta a me, se non danneggia nessuno, è giusto; se non c’è vero motivo per non farlo e siete convinti nel profondo del cuore, allora date sfogo al genio creativo che è in ognuno di noi, con tutto il vigore necessario, dopo vi sentirete realizzati sia nel corpo che nello spirito, ve lo assicuro!
 Ora, cari papà e care mamme, vi vorrei far riflettere su alcune questioni sulle quali forse non vi siete soffermati. Ora voi prendete il vostro ragazzo come una punizione mandata da Dio, ma non vi siete mai minimamente accorti che potrebbe essere magari l’opposto?** Vostro figlio ha mai menato qualcuno senza motivo? Ha mai scippato? Oppure si è mai drogato? Ha compiuto atti di teppismo? Ha preso parte a organizzazioni sovversive? Ed ecco qua che siete già un po’ avvantaggiati... Io preferirei avere mille piccoli disagi quotidiani che un figlio criminale o tossicodipendente.

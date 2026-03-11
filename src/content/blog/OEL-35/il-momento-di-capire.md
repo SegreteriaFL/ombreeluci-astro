@@ -1,4 +1,5 @@
 ---
+
 title: Il momento di capire
 date: 1991-09-22
 author: Mariangela Bertolini
@@ -17,6 +18,7 @@ issue_number: OEL-35
 id_numero: "OEL-35"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Proporre, non imporre Chiedere, non esigere Accompagnare, non aiutare Vegliare, non sorvegliare Tendere, non pretendere Confermare, non rimproverare prediligere, non superproteggere Capire, non punire...*
 Si potrebbe continuare. Ma per oggi può bastare. Non è un esercizio «verbale» come può sembrare a prima vista. Sono atteggiamenti da scegliere al posto di altri che ci sono più connaturali, in ogni situazione in cui veniamo a trovarci, come educatori: maestri, professori, catechisti e soprattutto genitori e, ancor di più, se genitori di figli con problemi, con handicap, con difficoltà di ogni tipo. Possono essere gli elementi di base per fare fra noi un esame, una verifica sul come ci comportiamo con i nostri figlioli, per ricominciare da capo, ogni giorno, con infinita pazienza, a esercitare quel compito così difficile al quale non siamo stati preparati, ma al quale dobbiamo dedicare il meglio di noi stessi, sempre, senza mai stancarci. Grazie alla nostra educazione, infatti, ogni figlio, anche se handicappato, sarà più accetto agli altri, potrà inserirsi fra gli altri, sarà più benvoluto, proprio perché avrà fatto tutto il possibile rispetto alle sue capacità. Dicevo prima che ci è connaturale rimproverare, esigere, super-proteggere, aiutare, punire... Forse perché siamo stati educati così; forse perché verso il nostro figliolo «difficile» e «più fragile» ci sembra spontaneo comportarci come l’istinto - non il cuore - ci detta. Quante volte sento dire: «Bisogna pretendere da lui, altrimenti non fa niente!» «Con lui, ci vorrebbero due buoni schiaffoni!» «Se fossi io sua madre, gli farei vedere io come si fa!» «Se non gli sbuccio l’arancia, lui non me la mangia!» e voi potreste continuare con esempi a non finire. È anche vero che non si può generalizzare e che ogni caso è un caso a sé, e ogni figlio ha le sue esigenze diverse.
 **Si fa presto a dire: «Deve imparare a tagliarsi la carne da solo!»**

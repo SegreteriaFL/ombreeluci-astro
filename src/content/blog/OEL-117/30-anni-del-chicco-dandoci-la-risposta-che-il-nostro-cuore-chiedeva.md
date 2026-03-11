@@ -1,4 +1,5 @@
 ---
+
 title: "30 anni del Chicco: “Dandoci la risposta  che il nostro cuore chiedeva”"
 date: 2012-03-16
 author: Annik Donelli
@@ -16,7 +17,10 @@ umap_z: 9.478655815124512
 issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Come si fa ad accogliere dei ragazzi con un handicap mentale, e anche grave, e a vivere in casa con loro per tutta la vita?"
 ---
+
 *Come si fa ad accogliere dei ragazzi con un handicap mentale, e anche grave, e a vivere in casa con loro per tutta la vita? Come hanno fatto Guenda e Anne, giovani e belle ragazze a prendere la decisione e la responsabilità di formare una piccola famiglia con Fabio e Maria nel 1981? Come hanno fatto, negli anni, ad arrivare tante altre persone, assistenti e persone con disabilità, a vivere qui?*
 **[La comunità del Chicco](https://www.ombreeluci.it/tag/il-chicco/)**
 l’11 dicembre 2011 ha compiuto 30 anni e il 18 dicembre, accogliendo parenti e tanti, tantissimi amici, li ha festeggiati.

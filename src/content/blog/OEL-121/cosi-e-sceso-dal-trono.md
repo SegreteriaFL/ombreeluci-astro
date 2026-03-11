@@ -1,4 +1,5 @@
 ---
+
 title: "Così è sceso dal trono"
 date: "2013-03-10"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ categoria_menu: "Fede"
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Benedetto XVI si è dimesso ed è cosa ben ardua pensare di potere noi interpretare, capire, essergli accanto in questa sua decisione. Ma ci ha lasciato un esempio."
 ---
+
 Ecco da alcuni giorni Benedetto XVI ci ha lasciato… si è ritirato. Probabilmente quando leggerete queste righe avremo un nuovo pastore, ma come mai il Papa Emerito ha fatto un gesto così clamoroso? Quanto ha meditato per deciderlo? Che cosa l’ha messo su questa strada?
 
 È cosa ben ardua pensare di potere noi interpretare, capire, essergli accanto in questa sua decisione.

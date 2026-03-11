@@ -1,4 +1,5 @@
 ---
+
 title: Quel giorno pioveva
 date: 1978-06-15
 author: Pierre Debergé
@@ -18,6 +19,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 Quel giorno ad Assisi pioveva. La nebbia nascondeva la vallata e grosse nubi pesavano sulla città. Tutto sembrava smentire i cartelloni pubblicitari. Anche i "Giotto" e i "Lorenzetti" non potevano porvi rimedio e gli appassionati d'arte, infagottati nei loro pesanti cappotti, erravano qua e là come ingannati.
 
 Ero forse anch'io uno di loro, personaggio insolito sperduto per le strade stranamente prive di turisti? La cittadina sorridente delle guide turistiche aveva lasciato il posto alla tristezza e all'amarezza di un Assisi che non si riconosceva più.

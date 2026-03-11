@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 38
 date: 1992-06-06
 author: Redazione
@@ -15,10 +16,12 @@ issue_number: OEL-38
 id_numero: "OEL-38"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Siamo la comunità S. Gaetano di Milano
 
 Carissimi tutti della redazione di «Ombre e Luci», in un numero di due anni fa molto gradito a noi tutti, vi siete presentati ai vostri lettori; ora anche noi vogliamo presentarci, almeno in parte, a voi con queste righe e queste fotografie. Siamo della comunità Fede e Luce di S. Gaetano di Milano; le fotografie che vi mandiamo le abbiamo scattate durante la «casetta» dello scorso mese di dicembre, quando ci siamo riuniti per preparare insieme la vicina festa di Natale. Fare la «casetta», stare cioè tutta la giornata insieme, è sempre un’occasione di gioia, di condivisione tra tutti noi ed anche un momento di inserimento nella nostra comunità parrocchiale. In questa occasione infatti riusciamo a partecipare tutti insieme alla S. Messa in Parrocchia e durante il pomeriggio i bambini dell’oratorio vengono a fare un momento di festa e di merenda. Ma ora è tempo di presentarci! Nella fotografia n. 1 ci sono, in primo piano, Mauro, Massimo e Giulio intenti a costruire il Presepe, sullo sfondo vedete invece altri amici che si dedicano a lavori di taglio, pittura e varie! Maria Francesca si impegna con un disegno (2), le fa compagnia Emilia. C’è chi lavora e chi... gioca a dama... Fiore, il nostro amico senior... è imbattibile (3), nemmeno l’esimio ing. Marco e l’altrettanto esimio dott. Luigi riescono mai a batterlo!... Chissà cosa si stanno dicendo Nora e Massimo (4), certo è che sono amici e che si vogliono bene. C’è ancora chi invece di lavorare preferisce godersi il pallido sole di dicembre: è Pietro, il gigante buono (5)... sarà difficile convincerlo a lavorare, ma di affettuosi come lui, non se ne trovano tanto facilmente! Dulcis ih fundo c’è il nostro Carlo, il Cadetto nazionale. Carlo vive nel quartiere da quando è nato, tutti lo conoscono e gli vogliono bene. Chiudiamo con un CIAO affettuoso a tutti voi. Vi accludiamo il testo di una « Lettera da un amico di Fede e Luce » comparsa nel nostro bollettino parrocchiale; siccome ci sembra bella e significativa vogliamo farvene partecipi.
 **Un grazie speciale ai membri delle Comunità di Fede e Luce (Italia e Canton Ticino) che sostengono Ombre e Luci con il loro abbonamento, le loro testimonianze, le loro fotografie.**
+
 
 ---
 
@@ -26,11 +29,13 @@ Carissimi tutti della redazione di «Ombre e Luci», in un numero di due anni fa
 
 Incontro europeo di Fede e Luce Dal 6 al 12 Agosto 1992 si terrà nei dintorni di Budapest (Ungheria) un incontro internazionale di Fede e Luce al quale parteciperanno i rappresentanti di Austria, Italia, Romania, Slovenia, Svizzera, Ungheria.
 
+
 ---
 
 ### Lettera: FEDE E LUCE NELLA NOSTRA PARROCCHIA
 
 Caro parrocchiano, sono ormai passati dieci anni dalla nascita della comunità di Fede e Luce nella nostra parrocchia di S. Gaetano. E difficile riassumere in poche righe la storia di questo decennio e sarebbe riduttivo farlo. Allora preferisco raccontarti del «perché» è nata e continua a vivere. Questa comunità è nata nella parrocchia di S. Gaetano per accogliere persone con handicap mentale, le loro famiglie e i loro amici giovani e meno giovani. Ho usato il verbo «accogliere», e lo ho sottolineato, per esprimerti il modo e le finalità dello stare insieme di queste persone tanto diverse tra di loro, sia per età che per estrazione sociale. Avrei potuto usare il.verbo «aiutare», oppure «assistere» o anche «incontrare» e non ti avrei detto bugie, ma «accogliere» esprime meglio l’atteggiamento di comunione, di apertura di cuore, di eguaglianza e di unità che vuole essere, o almeno tenta di essere, proprio delle persone che fanno parte di questa comunità. «Accogliere» nella comunità di Fede e Luce vuole dire principalmente riconoscere la diversità dell’altro, amico con handicap o meno, accettarlo e amarlo proprio per come egli è, senza avere la pretesa di cambiarlo. Chi nella vita non ha mai fatto esperienza di diversità? Chi cioè non si è mai trovato di fronte a un muro di incomprensione e di mistero nell’incontro con gli altri? Accogliere è quindi accettare e amare se stessi e gli altri proprio perché si è diversi e solo così si può scoprire la nostra complementarietà con gli altri e riconoscere i doni che essi ci possono fare. Questi dieci anni di vita comunitaria non sono stati segnati da grandi avvenimenti, ma da tanti piccoli gesti di accoglienza. I forzieri della comunità sono pieni di tanti ricordi, di volti di persone che sono passate e hanno lasciato qualcosa di se stesse, di sguardi e sorrisi donati, di parole di amore e di gratitudine non udite, ma lette negli occhi di chi non ha voce per esprimerle. E questo il tesoro che sostiene la comunità nei momenti oscuri e la fa andare avanti, per continuare a essere una occasione di accoglienza per tante persone e per invitarti, caro parrocchiano, a fare l’esperienza di una vera accoglienza come accettazione ed amore per la diversità, nella tua famiglia, sul lavoro; con lextracomunitario che incontrerai per strada, con il fratello con handicap che, goffamente, con gesti inconsueti e parole difficili da comprendere, vorrà farti capire che ha bisogno di te, del tuo amore e della tua amicizia.
+
 
 ---
 

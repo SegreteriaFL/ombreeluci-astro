@@ -1,4 +1,5 @@
 ---
+
 title: "Dopo di Noi: i nodi da sciogliere della nuova legge"
 date: 2017-04-02
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-140
 id_numero: "OEL-140"
 numero_rivista: "Ombre e Luci"
 ---
+
 Abbiamo intervistato Roberto Speziale, presidente nazionale dell'ANFFAS Onlus, per capire alcuni aspetti della legge 112/2016 sul Dopo di Noi.
 
 **Oltre al finanziamento del fondo per l'assistenza alle persone con disabilità grave prive del sostegno familiare, agli sgravi nella successione per i beni conferiti in trust, alla detraibilità delle polizze...quali sono le reali novità in questa legge? (ad esempio, lo strumento del trust era già disponibile, o la possibilità di costituire gruppi appartamento non esisteva già?)**

@@ -1,4 +1,5 @@
 ---
+
 title: "Comunità Tau: la nostra casa"
 date: "1997-09-19"
 author: "Manuela Bartesaghi"
@@ -15,6 +16,7 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
+
 Ad Arcene, un paese della bassa bergamasca, abitiamo in una piccola porzione di casa chiamata «Stallo della Madonnina» che ci è stata messa a disposizione dal Comune due anni fa, all’inizio della nostra avventura. Una casa come tutte le altre, un arredo semplice, un clima familiare. In due camere, mini cucina, mini bagno e (per fortuna) un grande soggiorno viviamo con Angela, Manuel, Samuele e Valentina.
 Angela**, sempre con i codini, è la nostra madre fondatrice. Ha quattro anni e mezzo; non cammina (ma ci spinge ad andare lontano) non parla (ma con il suo silenzio dice tante cose sagge), apparentemente sembra non capire (ma capisce che le vogliamo bene e sorride.)
 È la prima bambina che abbiamo accolto in comunità ed è colei che ci invita a guardare lontano, a prevedere le soluzioni per il suo futuro.

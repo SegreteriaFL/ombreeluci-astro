@@ -1,4 +1,5 @@
 ---
+
 title: Doposcuola al campo Rom
 date: 2011-06-04
 author: Flaminia Cabras
@@ -14,7 +15,10 @@ umap_z: 10.337336540222168
 issue_number: OEL-114
 id_numero: "OEL-114"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Flaminia racconta la sua prima esperienza di volontariato in un campo rom di Spinaceto in cui aiuta una bambina di 12 anni con l'inglese e la matematica"
 ---
+
 Ho iniziato ad andare al campo rom questo anno senza aver mai fatto un’esperienza di volontariato prima. Il campo si trova a Spinaceto ed è composto da prefabbricati, camper, roulotte e baracche, anche se il mese scorso hanno fatto sbaraccare tutti coloro che risiedevano in abitazioni non legali.
 
 **Il mio servizio consiste nel fare il dopo scuola a una bambina di 12 anni** , che si chiama Monica e fa per la seconda volta la prima media, è una ragazza molto sveglia per la sua età ma non vede alcuna utilità nel sapere l'inglese e la matematica. Ho provato a spiegarle di quanto sia importante la cultura e il proseguimento degli studi almeno fino alla terza media, ma lei già sa che il suo unico futuro è simile a quello delle sorelle: sposate a 14 e 15 anni. Mi ha spiegato che le sue sorelle maggiori non sono state obbligate a sposarsi, è stata una loro scelta pensata, infatti, poiché la figlia più grande dentro casa si deve dare da fare anche per i fratelli più piccoli, hanno pensato bene di prendere al volo le proposte di matrimonio.

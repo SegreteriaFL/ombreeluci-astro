@@ -1,4 +1,5 @@
 ---
+
 title: "Quest'estate faremo..."
 date: 1976-09-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 11.315224647521973
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Oltre i confini e dentro il cuore, esperienze di viaggio, gioia, e comunità fraterna."
 ---
+
 ### Viaggio in Belgio
 
 DOMENICA 6 GIUGNO preparati armi e bagagli, Maria e Luce (Biondi) è partita per il Belgio. Alcuni amici sono andati ad accompagnarla a Fiumicino, altri erano a prenderla all'aeroporto di Bruxelles.
@@ -27,6 +31,8 @@ Comunque sarà lei a parlare di ciò che ha visto e fatto in questo mese, portan
 
 - *Lucia Pennisi, 1976 *
 
+
+
 ---
 
 ### Quattro Giorni di Gioia e Integrazione a Grottaferrata
@@ -38,6 +44,8 @@ Alcuni hanno risposto sì! E così, con una ventina di persone, passeremo quattr
 Faremo "tutto" insieme: cucina, piatti, apparecchiare la tavola, giochi, piccoli lavori, preghiera! una vera integrazione di "tutti" a tutti!
 
 Gli uni impareranno a fare “come i grandi”, gli altri ritroveranno la loro anima di bimbi, si renderanno conto che la gioia è possibile se sì vive in una comunità fraterna.
+
+
 
 ---
 
@@ -56,6 +64,8 @@ Speriamo che questo soggiorno che interessa direttamente solo alcuni, possa esse
 A nome di tutti i giovani e gli amici che ci aiuteranno, vorrei ringraziare le famiglie che ci faranno fiducia aiutandoci così a realizzare questo progetto.
 
 - *Michel Charpentier* , 1976
+
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Zio Giorgio
 date: 2001-06-17
 author: Nicole Schulthes
@@ -16,7 +17,10 @@ umap_z: 9.38782024383545
 issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Lo zio Giorgio è venuto in agosto a passare qualche giorno da noi, nella casa di famiglia dove è cresciuto."
 ---
+
 Lo zio Giorgio è venuto in agosto a passare qualche giorno da noi, nella casa di famiglia dove è cresciuto. Accolto da dimostrazioni d'affetto dei nipoti e dei cugini, il suo viso sottile incorniciato da capelli bianchi si è illuminato di un magico sorriso.
 
 **Lo zio Giorgio ha ottant'anni e da almeno cinquanta vive in una casa famiglia per persone disabili** . Racconta volentieri la sua vita, parla con vivacità dei ricordi familiari. Lo accompagna un educatore attento ai suoi bisogni (lo zio Giorgio ha problemi di coordinamento, linguaggio e memoria), rispettoso dei suoi desideri e della sua autonomia; lo interpella e parla di lui sempre come il Signor K. Lo zio Giorgio è un uomo rispettato.

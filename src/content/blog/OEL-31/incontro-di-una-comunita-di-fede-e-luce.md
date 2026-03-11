@@ -1,4 +1,5 @@
 ---
+
 title: "Incontro di una comunità di Fede e Luce"
 date: "1990-09-26"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-31
 id_numero: "OEL-31"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il tempo di prendere Giampaolo al centro e arriviamo alla parrocchia che ci accoglie ogni mese per rincontro della comunità. Entrare nella sala, come ogni volta, è una sorpresa accompagnata da grida di gioia e di benvenuto. Maria Teresa e Andrea con la figlia Isabella hanno preparato le tavole (è il loro turno).
 La mamma di Cristoforo ha preparato due mazzetti di anemoni. Io accendo quattro candele.
 

@@ -1,4 +1,5 @@
 ---
+
 title: Vita delle province n. 149
 date: 2020-02-28
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-149
 id_numero: "OEL-149"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### «Fede e Luce è Chiesa!»
 
 Cosi ci diceva l’arcivescovo cipriota Mons. Youssef Antoine Soueif nella formazione degli assistenti spirituali. Le comunità lombarde hanno incontrato il nostro arcivescovo Mario Delpini in Duomo a Milano: un’attenzione che la Chiesa di Milano vuole avere nei confronti delle persone con disabilità. Fede e Luce ha uno spazio particolare nel cuore del vescovo, che ci ha più volte citato. Sull’altare c’erano anche i nostri Don Mauro Santoro e Don Marco Bove.Ma anche in altre zone della provincia il legame tra vescovi e comunità è stretto. A Cuneo Mons. Del Bosco; a Biella Mons. Farinella; a Mondovi il vescovo Miragoli ha fatto il cenone di capodanno con la comunità. Anche in Veneto, Mons. Marangoni è informato puntualmente della vita di comunità e partecipa alle feste quando può. In Galilea il legame con il vescovo maronita è stretto. Ma cosa chiedono i nostri vescovi? Di pregare per loro perché sanno bene che le preghiere dei piccoli vengono ascoltate. Invito tutta la provincia a ricordarsi dei propri preti e pastori, perché attraverso il legame con loro la Chiesa sia Madre accogliente per tutti.

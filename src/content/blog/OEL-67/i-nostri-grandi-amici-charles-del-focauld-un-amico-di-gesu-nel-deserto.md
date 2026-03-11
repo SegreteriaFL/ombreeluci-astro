@@ -1,4 +1,5 @@
 ---
+
 title: "I nostri grandi amici: Charles del Focauld - Un amico di Gesù nel deserto"
 date: "1999-09-13"
 author: "Redazione"
@@ -15,6 +16,7 @@ tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 ---
+
 Carlo de Foucauld si faceva chiamare «frateI Carlo di Gesù». Molti giovani, uomini e donne, hanno seguito il suo esempio. Oggi nel mondo vi sono aU'incirca 1400 donne e 250 uomini che vivono sul suo esempio in piccole fraternità, adorano Gesù nell'Eucarestia e sono vicini ai poveri, ai lontani, soprattutto tra i musulmani. Anche loro si chiamano «piccoli fratelli e sorelle di Gesù». Sono molto vicini all'[Arca](http://www.arca-it.org) e a [Fede e Luce](https://fedeeluce.it) e hanno aiutato e ospitato spesso Jean Vanier, nei suoi viaggi per fondare le comunità di accoglienza per le persone disabili.
 
 1 - Carlo nacque a Strasburgo nel 1858. Aveva solo sei anni e Maria, la sorellina, tre quando i loro genitori morirono. Carlo soffre molto e si rinchiude in se stesso. Il nonno lo accoglie con la sorellina nella sua casa di Nancy.

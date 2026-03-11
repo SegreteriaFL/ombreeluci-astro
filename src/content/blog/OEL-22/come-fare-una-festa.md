@@ -1,4 +1,5 @@
 ---
+
 title: Come fare una festa
 date: 1988-06-28
 author: Mario Collino
@@ -17,6 +18,7 @@ issue_number: OEL-22
 id_numero: "OEL-22"
 numero_rivista: "Ombre e Luci"
 ---
+
 Cantare, giocare, mangiare, pregare insieme: è questa in genere la sostanza delle feste tra noi. Bisogna però studiare in che modo fare queste cose. Secondo le circostanze, le persone, l’ambiente, il modo può cambiare di volta in volta: esso viene definito, preparando la festa.
 **In questo articolo non si indicano regole per preparare una festa, ma si descrive la nascita dell’idea e quindi l’attuazione di una particolare festa abbastanza complessa.**
 Crediamo che questa descrizione possa suggerire un modo di concepire e attuare una festa. Naturalmente questa è stata fatta in una comunità dotata di particolari abilità manuali. La festa può anche essere più semplice e riuscire benissimo.

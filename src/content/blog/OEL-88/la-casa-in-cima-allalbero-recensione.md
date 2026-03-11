@@ -1,4 +1,5 @@
 ---
+
 title: "La casa in cima all'albero - Recensione"
 date: 2004-12-14
 author: Laura Nardini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.550010681152344
 umap_y: 11.254424095153809
 umap_z: 4.555947303771973
+
+subtitle: "Holly Kennedy, Sonzogno Editore, 2004"
 ---
+
 L
 a protagonista, Kenly, racconta in un lungo flashback la sua vita. Era un'adolescente irrequieta cresciuta con un padre alcoli sta. Un giorno nel loro peregrinare arrivano in un piccolo centro della provincia canadese. Qui conosce un ragazzo che e affetto dalla nascita da una grave malattia che gli deforma il viso e che l’ha già condannato. Subito è stregata da lui. Lui vive ogni giorno della vita come se fosse l’ultimo senza mai lamentarsi della sua condizione e donando agli altri tutto se stesso. L’aiuta ad inserirsi in quella comunità chiusa; la esorta ad accettare il padre per quello che è facendole capire che la speranza non deve spegnersi mai e che bisogna andare oltre l'apparenza per amare davvero. Nasce un'amicizia speciale che lei non dimenticherà mai neanche quando lascerà il Canada e si farà una famiglia. Specialmente perché con lei porterà sempre un segreto che non ha mai svelato a nessuno...
 *Laura Nardini*

@@ -1,4 +1,5 @@
 ---
+
 title: Le A della vita - Recensione libro
 date: 2000-09-28
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 5.4958415031433105
 issue_number: OEL-71
 id_numero: "OEL-71"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Questo libro è un sunto del mio diario, in esso ripercorro tutte le fasi e scopro le A che mi hanno ridato la voglio di dire io non mi arrendo"
 ---
+
 Dopo aver letto su Ombre e Luci [l’articolo su Davide](https://www.ombreeluci.it/2000/rosamaria/) ho deciso di inviarvi questo mio libro. In esso narro la mia storia con mio figlio «diversamente abile» (dicono che ha un handicap grave). Per me questi ragazzi sono tutti **diversamente abili** e soprattutto quelli che sono più gravi, se li osserviamo, se gli stiamo vicino e se ascoltiamo le loro esigenze, anche quelle non dette, possiamo scoprire che hanno le abilità più grandi.
 
 In questo libro molte mamme si sono ritrovate, e mi hanno pregato di divulgarlo perché in esso sono citati i veri aspetti dell’handicap. Io non sono in grado di valutarne la bontà, so solo che l’effetto che sta avendo nelle realtà dove è stato diffuso, è stato molto positivo. L’ANFFAS di Crema si sta attivando in vari settori e i nostri ragazzi sono sempre più presenti e accettati nel nostro territorio. Io ho sofferto e soffro ancora ma la condivisione dei problemi con chi ci può capire è una cosa molto importante. Mi piacerebbe dire a tutte le mamme «Non sentitevi sole» — e se qualcuno vi trascura non permetteteglielo, imponetevi.

@@ -1,4 +1,5 @@
 ---
+
 title: Intervista a Jean Vanier
 date: 2013-03-10
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 10.610228538513184
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Amare vuol dire fare cose per una persona, amare vuol dire rivelare dell’altro la sua bellezza, che è importante così come è"
 ---
+
 “Lamia vocazione è di essere felice e di vivere nel mezzo della mia comunità. È un privilegio vivere con delle persone fragili. Chi ha un handicap sicuramente ha bisogno di professionisti bravi, di medici che diano loro buone medicine, dei fisioterapisti, ma soprattutto ha bisogno di qualcuno che dica loro: amo vivere con te. **Amare vuol dire fare cose per una persona** , amare vuol dire rivelare dell’altro la sua bellezza, che è importante così come è.” Queste parole di Jean Vanier, pronunciate a Roma nel novembre scorso, ci hanno suggerito alcune domande.
 
 **Credi che le parrocchie dedichino il giusto interesse all’accoglienza del debole?** La realtà attuale purtroppo è che nelle parrocchie non c’è una vera consapevolezza che le persone con disabilità siano qualcosa di prezioso. Le persone con disabilità possiedono una semplicità e una capacità di amare in così tanti modi che possono cambiare i nostri cuori. La Chiesa è la prima casa per il debole e il povero, ma nonostante questo per moltissimi anni le persone con disabilità furono (e talvolta sono) ben lontane dall’essere considerate esseri umani. Prima di realtà come l’Arca o Fede e Luce, prima di persone come Mariangela, la sola idea di avere un figlio con handicap mentale era una tragedia. Ciò che possiamo fare è quindi continuare a lottare. Lottare non solo per le persone disabili mentalmente, ma soprattutto per insegnare l’amore alle persone, fuori e dentro le parrocchie.

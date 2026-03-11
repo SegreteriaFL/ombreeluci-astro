@@ -1,4 +1,5 @@
 ---
+
 title: "Tema dell'anno 1980: l'incontro"
 date: 1979-12-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.440536499023438
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Il cammino di Fede e Luce attraverso incontri, celebrazioni e momenti di condivisione comunitaria"
 ---
+
 - Incontriamo il gruppo Fede e Luce di Condè (Francia) DOMENICA 14 OTTOBRE con la S.Messa alle ore 16,30 al NAZARETH (ingresso da V.Plinio 25) iniziando così un nuovo anno. - INCONTRO dei genitori con Jean Vanier. Collegio Leoniano Via Pompeo Magno, 21 (vicino al Nazareth). - Festa della luce Domenica 3 FEBBRAIO - Festa della Primavera Domenica 4 MAGGIO
 
 ### **Crescere insieme**

@@ -1,4 +1,5 @@
 ---
+
 title: Quella vera fattura da pagare
 date: 2023-05-08
 author: Maria Grazia Pennisi
@@ -16,7 +17,10 @@ umap_z: 9.86152458190918
 issue_number: OEL-161
 id_numero: "OEL-161"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "È giusto e bello essere in festa ma è anche bene voltarsi indietro e vedere la storia di questi quarant’anni, i primi passi, gli antenati"
 ---
+
 Siamo in festa perché Ombre e Luci compie quarant’anni. È giusto e bello essere in festa ma è anche bene voltarsi indietro e vedere la storia di questi quarant’anni, i primi passi, gli antenati.
 
 **Insieme era nato subito, scaturito già dai primi incontri dal bisogno di sentirci vicini trenta giorni al mese** , di raccontarci impressioni, cose ed eventi della nostra vita insieme, conteneva gli echi straordinari dei [primi campi estivi ad Alfedena](https://www.ombreeluci.it/1983/ogni-luglio-presto-una-casa/) come l’entusiasmo di Patrick che, nonostante la sua tetra paresi spastica, in una pseudo barella costruita lì per lì era riuscito «con loro» a salire sul Monte Meta, nella catena del Gran Sasso. Insieme alimentava e fortificava l’entusiasmo e la gioia nelle giornate più buie.

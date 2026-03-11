@@ -1,4 +1,5 @@
 ---
+
 title: "Celebriamo la Pasqua 1981 nella comunità Fede e Luce"
 date: "1981-12-16"
 author: "Marie Hélène Mathieu"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Pasqua 1981, pellegrinaggio internazionale a Lourdes: ci ritroveremo ai piedi della Vergine di Massabielle, arriveranno da almeno 23 paesi, bambini, adolescenti, adulti handicappati mentali, circondati dai loro genitori e dai loro amici. Tutti quelli che non potranno intraprendere questo lungo viaggio si metteranno anch'essi in cammino verso un luogo del loro paese dove più si senta la presenza di Dio.
 
 Molte comunità, nuove e vecchie, desideravano questo pellegrinaggio per rendere grazie delle meraviglie realizzatesi in "Fede e Luce" da dieci anni, e per rinnovarsi nella speranza. Il gruppo internazionale ha deciso di rispondere a questo desiderio, malgrado le obiezioni che si presentavano: il costo e la lunghezza del viaggio, le forze mobilitate per preparare ed organizzare, il pericolo di ritardare l'integrazione della persona handicappata e delle loro famiglie nelle comunità esistenti. Ma se questo proposito corrisponde veramente a un desiderio di Dio, Lui ci darà la forza per superare gli ostacoli e i rischi.

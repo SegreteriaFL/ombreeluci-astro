@@ -1,4 +1,5 @@
 ---
+
 title: Riannodare il filo
 date: 2022-08-08
 author: Chiara Gatti
@@ -15,6 +16,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sopravvivere alla morte di una persona cara è uno degli eventi più terribili che si possa affrontare. **Quando si tratta di un figlio, il dolore, l’annichilimento e la percezione di fallimento sono soverchianti e incontenibili.**
 
 Sopravvissuti. Così vengono definiti i genitori, i figli, i fratelli, le sorelle, i partner di coloro che hanno deciso di porre fine alla propria esistenza in modo traumatico e violento: improvvisamente catapultati in una realtà inimmaginabile, non riescono neppure a mettere a fuoco come superare la giornata, stare in piedi, mangiare, parlare, sopravvivere appunto, dopo quanto accaduto.

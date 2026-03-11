@@ -1,4 +1,5 @@
 ---
+
 title: 7 idee sulla sindrome di Down
 date: 2013-09-13
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 6.998289108276367
 issue_number: OEL-123
 id_numero: "OEL-123"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ecco le risposte del dott. A. Ravel, pediatra e direttore del servizio di consultazione all’Istituto Jérome Lejeune (Parigi) che da trenta anni cura bambini e giovani Down"
 ---
+
 ### 1. La sindrome Down è una malattia genetica ereditaria. FALSO
 
 La sindrome Down o trisomia 21, così chiamata per la presenza di tre cromosomi 21, è una malattia genetica prodotta da un’anomalia al momento della separazione dei cromosomi durante la meiosi, processo che produce i gameti. Quindi non ereditaria. Non esistono dei gradi di gravità nella trisomia 21, le sue manifestazioni, per contro, sono più o meno importanti a seconda del bambino.

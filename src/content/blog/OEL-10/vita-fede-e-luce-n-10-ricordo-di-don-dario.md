@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 10 - Ricordo di Don Dario
 date: 1985-06-28
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-10
 id_numero: "OEL-10"
 numero_rivista: "Ombre e Luci"
 ---
+
 **«Non Ti chiediamo perché ce l'hai tolto, ma Ti ringraziamo perché ce l’hai donato»** Il 10 marzo scorso è morto Don Dario. A 31 anni. Aveva sofferto molto. Gli volevamo un gran bene. Ci ha dato tanto. Lo ricordiamo, pubblicando nella pagina seguente un suo scritto del gennaio 1981, che consideriamo la «teologia di Fede e Luce»
 
 ### Fede e luce: un tesoro in vasi di creta

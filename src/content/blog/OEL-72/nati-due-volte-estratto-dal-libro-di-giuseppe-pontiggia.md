@@ -1,4 +1,5 @@
 ---
+
 title: Nati due volte - Estratto dal libro di Giuseppe Pontiggia
 date: 2000-10-26
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 7.072934627532959
 issue_number: OEL-72
 id_numero: "OEL-72"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un padre scrittore racconta la sue esperienza con i medici"
 ---
+
 ### Tutto e niente
 
 «Parto distocico» mi dice il medico in corridoio, evitando di guardarmi. Obeso, il respiro affannoso sotto i baffi spioventi, le pupille fisse, sembra un grosso topo in procinto di fuggire. «Cioè?» «Distocico, gliel’ho detto». Alza gli occhi su di me, per avere la conferma che non ho capito. «Che complicazioni ci sono?» «Tutto e niente. Il rischio più grave è l’anossia». «Cioè che non respiri?» «In un certo senso» mi concede infastidito. «Comunque il battito è regolare, per ora non è il caso di intervenire.» «Intervenire come?» «Taglio cesareo. Però il vostro ginecologo non vuole. È contrario».

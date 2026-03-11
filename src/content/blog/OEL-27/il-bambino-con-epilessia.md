@@ -1,4 +1,5 @@
 ---
+
 title: Il bambino con epilessia
 date: 1989-06-20
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-27
 id_numero: "OEL-27"
 numero_rivista: "Ombre e Luci"
 ---
+
 Questo libro è destinato non solo ai giovani epilettici e alle loro famiglie, ma anche al personale educativo, agli infermieri, ai servizi sociali e a quanti quotidianamente si interrogano sui modi e sulle possibilità di aiutare i piccoli malati a superare la malattia. L’epilessia, per le sue radici storiche, è legata all’idea di una malattia incurabile o che almeno necessita di una terapia a vita. In realtà le epilessie nella maggioranza dei casi sono curabili. **Non esiste «una epilessia» ma «delle epilessie»** ; molte si risolveranno spontaneamente, per altre sarà necessaria una terapia adatta al caso, per altre ancora sarà comunque possibile ottenere rilevanti miglioramenti della qualità della vita del bambino.
 
 Il libro si divide in tre parti: **nella prima** gli autori ci danno nozioni generali riguardo alla malattia e al meccanismo delle crisi epilettiche. **Nella seconda** se ne analizzano gli aspetti clinici a seconda dell’età del bambino e si parla dell’importanza della diagnosi e della terapia. **Nella terza** si approfondiscono gli aspetti psicologici e sociali e si dimostra che la maggioranza dei casi di epilessia non ha niente a che vedere con debolezza né con malattia mentale. Il libro termina con un capitolo a cura del prof. Raffaele Canger riguardante la legislazione italiana nel campo dell’epilessia e risponde a quesiti come l’orientamento professionale, la scelta del lavoro, la pensione di inabilità ed altri. Non si può concludere senza rilevare il rigore professionale degli autori e l’amore consapevole e intelligente che dimostrano di sentire per i bambini e i loro problemi.

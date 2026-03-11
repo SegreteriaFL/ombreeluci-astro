@@ -1,4 +1,5 @@
 ---
+
 title: Tandem in Trentino
 date: 2023-01-20
 author: Andrea Posa
@@ -14,7 +15,10 @@ umap_z: 10.229715347290039
 issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una vacanza di Andrea, 17 anni, in comunicazione aumentativa alternativa"
 ---
+
 A luglio sono stato con gli amici
 
 della scuola in Trentino in tandem.

@@ -1,4 +1,5 @@
 ---
+
 title: Gennaio 2003, Trosly
 date: 2003-01-07
 author: Jean Vanier

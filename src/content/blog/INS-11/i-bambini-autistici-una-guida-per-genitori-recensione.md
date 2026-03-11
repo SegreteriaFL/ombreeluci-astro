@@ -1,4 +1,5 @@
 ---
+
 title: I Bambini autistici, una guida per genitori - Recensione
 date: 1976-12-20
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 4.841291904449463
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Lorna Wing - Armando Editore, 175 pagine - Lire 2.500"
 ---
+
 Un libro scritto de un medico che sembra conoscere bene i bambini autistici, le loro famiglie, le loro difficoltà.
 
 **Nella prima parte** l'autore descrive i vari aspetti del comportamento dei bambini autistici e molti genitori riconosceranno dei problemi che purtroppo sono già loro noti. Le diverse teorie sulle cause dell'autismo sono presentate brevemente ed onestamente criticate.

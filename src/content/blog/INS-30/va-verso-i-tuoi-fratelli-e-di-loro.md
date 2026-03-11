@@ -1,4 +1,5 @@
 ---
+
 title: "Va verso i tuoi fratelli e dì loro…"
 date: "1981-09-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Vogliamo vivere ora, la storia di Maria Maddalena. È venuta nella notte a piangere il suo amico, Gesù. E là, dove riposava Gesù, ha visto la LUCE.
 
 Anche noi a Lourdes abbiamo osato guardare le nostre miserie, i nostri limiti, le nostre sofferenze. Quando Gesù è presente con le sue ferite non possiamo più nascondere le nostre piaghe: piaghe nelle mani, piaghe nelle gambe e soprattutto piaghe nel cuore. Non possiamo più tappare gli occhi, ma guardiamo in modo diverso, con amore: e questo cambia tutto.

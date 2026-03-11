@@ -1,4 +1,5 @@
 ---
+
 title: Microgiustizia
 date: 2001-03-09
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 8.67422866821289
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Che cosa sono i nostri piccoli torti quotidiani, di fronte a chi, fin dalla tenera età, ha avuto il «torto» di trovarsi in una situazione di enorme disagio?"
 ---
+
 Quando subiamo un torto, ci viene subito alle labbra: «Ma questo non è giusto!» Ci sdegnamo facilmente, a volte in modo sproporzionato. Si parlava, nel numero scorso, di «nostalgia di comunione» come di una speranza che ogni uomo conosce fin dal suo nascere. Ma, non c’è forse, in noi, strettamente legato a quella speranza, un urgente bisogno di giustizia?
 
 Che cosa sono i nostri piccoli torti quotidiani, di fronte a chi, fin dalla tenera età, ha avuto il «torto» di trovarsi in una situazione di enorme disagio? L’elenco si farebbe interminabile ed è proprio perché le situazioni di disagio — innocente o provocato — sono così numerose, che cresce intorno a noi l’imperativo bisogno di porvi rimedio. Noi che stiamo bene, noi che abbiamo tutto, che siamo amati e rispettati, circondati di benessere e di amici... non possiamo rimanere indifferenti verso questi «torti» che altri subiscono impotenti.

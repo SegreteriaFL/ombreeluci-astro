@@ -1,4 +1,5 @@
 ---
+
 title: "Trasformare i nostri cuori: la misericordia (2° parte)"
 date: 2017-06-28
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-138
 id_numero: "OEL-138"
 numero_rivista: "Ombre e Luci"
 ---
+
 [*- Vai alla prima parte*](https://www.ombreeluci.it/2016/la-misericordia/)
 
 Lamisericordia sgorga dal più profondo del cuore di una persona. Gesù è misericordia, dona e si dona; è vicino ad ognuno di noi, in particolare ai reietti, per risollevarli e comunicare loro la gioia di essere amati. È invece ferito da coloro che pensano di essere a posto, pensano di non aver bisogno della sua grazia e cercano solo la propria rispettabilità. Queste persone tendono a disprezzare coloro che sono detenuti, mendicanti lungo le strade, prostitute, etc.

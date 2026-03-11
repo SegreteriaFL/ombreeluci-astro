@@ -1,4 +1,5 @@
 ---
+
 title: Dove siamo noi?
 date: 2023-07-17
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 9.702341079711914
 issue_number: OEL-162
 id_numero: "OEL-162"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un viaggio in Europa, uno spiraglio di cinema e la storia di una migrazione"
 ---
+
 Un ideale giro per l’Europa, attraverso **tre esperienze di vita comunitarie accomunate dalla presenza di persone con disabilità intellettive,** è il viaggio che vi invitiamo a compiere con i tre articoli che compongono il focus di questo numero: da Cambridge a Lamezia Terme passando per Lviv… Quali caratteristiche le accomunano? Cosa propongono di tanto sconcertante per il mondo? Possono lasciarci intravedere una possibile declinazione di realtà finalmente lontana da distopie tanto alla moda o da preoccupanti scenari che vedono estinto il genere umano a causa dell’intelligenza artificiale?
 
 Intravedere… come da uno spiraglio. Quello stesso che un utente di un centro di salute mentale di Roma, quattordici anni fa, ha immaginato per dare rappresentazione a un impegno collettivo che vedeva lui e il gruppo del suo centro alla ricerca dei film giusti per raccontare (e raccontarsi) il disagio vissuto. Cominciarono condividendo pensieri su quelle pellicole in un gruppo terapeutico che lavora con il metodo della psicoanalisi multifamiliare; approccio che, coinvolgendo diversi pazienti con i parenti di vario grado e gli operatori, lascia emergere dinamiche molto significative di “virtualità sana” tra famiglie che si rispecchiano in altre. Ma non bastava: c’era una comunità più estesa da coinvolgere e con cui incontrarsi. **Nasceva così [Lo Spiraglio film Festival](https://www.lospiragliofilmfestival.org/) della Salute Mentale** , che raccontiamo anche attraverso due dei film proiettati nella sua ultima edizione, uno dei quali legato a quel disagio che, come per le capoverdiane di cui racconta Galeotti nell’intervista ad Alicia Lopes Araújo, è dovuto allo strappo dalla propria terra natale.

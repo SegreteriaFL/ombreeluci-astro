@@ -1,4 +1,5 @@
 ---
+
 title: Fuori dalle catacombe - Fede e Luce in Europa Orientale
 date: 1990-09-26
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-31
 id_numero: "OEL-31"
 numero_rivista: "Ombre e Luci"
 ---
+
 U
 n piccolo appartamento privato nel centro di Mosca. Un salotto di quattro o cinque metri senza mobili, una cinquantina di persone stipate, altre nell’ingresso. Eppure c’è un grande silenzio. Si ascolta una voce chiara in francese con la traduzione simultanea. Jean Vanier predica il suo primo ritiro in Unione Sovietica. Ci dividiamo poi in gruppetti di riflessione: due nel salotto, uno in una camera, uno in cucina, e ancora uno in bagno. Gli altri escono a parlare nelle strade. Davanti a noi, l’immenso mausoleo di Lenin. Con i miei amici russi riflettiamo sul tema: «Come Gesù ha cambiato la mia vita? In che modo mi dà la sua libertà?».
 

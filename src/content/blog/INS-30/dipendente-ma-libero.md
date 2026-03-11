@@ -1,4 +1,5 @@
 ---
+
 title: Dipendente ma libero
 date: 1990-06-21
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 7.335586071014404
 issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
+
+subtitle: "Intervista Domenico e ai suoi genitori: il sostegno di genitori, fratelli, amici e fede"
 ---
+
 **Avete saputo subito dell'handicap di Domenico?** Quando aspettavo Domenico, all’ottavo mese, mi sentii un po’ inquieta: sentivo che il bambino si muoveva solo da un lato. Seppi poi che aveva il cordone ombelicale attorno al collo e un piedino incastrato. **Alla sua nascita vidi e capii subito che qualcosa non andava** e con mio marito scegliemmo di conoscere tutti i rischi cui sarebbe andato incontro in futuro. Devo ringraziare il vecchio medico di famiglia che ci disse: «La medicina farà tutto quanto potrà, ma nulla sostituirà le braccia dei genitori.»
 
 **Quali sostegni avete avuto?** In tutti questi anni, quello che mi ha aiutato di più è stata l’educazione forte ricevuta dai miei. La mia famiglia era di origine contadina. I figli dovevano ubbidire e far quello che dovevano fare. Questo mi è servito in seguito. Non ci si disperava per poco, si imparava a tener duro. **Domenico imparò a leggere e a far di conto a casa.** Mio marito gli aveva fabbricato un alfabeto di legno. A sei anni andò in una scuola speciale. In quinta entrò in un collegio con bambini normali grazie a un direttore oratoriano che aveva convinto i professori a tentare l’esperimento. Gli sono stata vicina lungo tutti i suoi studi, in classe come «segretaria». All’inizio, ero un problema per i professori: la mia presenza li metteva un po’ a disagio. Cercai di essere molto discreta e alla fine diventai un appoggio anche per loro.

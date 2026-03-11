@@ -1,4 +1,5 @@
 ---
+
 title: "Voci dal pellegrinaggio Lourdes 1981: frammenti di vita e di fede"
 date: 1981-09-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 *"Ho avuto la dimostrazione che non sono sola, ma che molti mi aiutano con comprensione e sollecitudine a superare i vari ostacoli; infatti sono stata circondata da simpatia, da incoraggiamenti, da calore umano e soprattutto da un'amicizia sicura e sincera in tutti i momenti del pellegrinaggio."* **una mamma**
 
 *"Bisogna decidersi a condividere la sofferenza anche se non mi sento capace. È una questione di cuore, non di ragione. Ho visto che il cristianesimo è l'unico fatto storico che può dare una speranza alle persone."* **giovane 21 anni**

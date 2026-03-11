@@ -1,4 +1,5 @@
 ---
+
 title: Di pagella (e mascherina)
 date: 2020-06-17
 author: Benedetta Mattei
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Se per uscire senza che mi fanno storie mi devo mettere la mascherina, mi metto la mascherina. Però tante persone che incontro non mettono la mascherina. Io non ho ancora capito un bel niente. Comunque a scuola non sono più andata. La scuola è rimasta chiusa. Ci siamo salutati nelle videolezioni e questo a me non è piaciuto.
 
 Poi io il prossimo anno cambio la sede della scuola perché al terzo anno dell'Alberghiero si sceglie un indirizzo e io ho scelto Ricevimento e Ricevimento all'Istituto Gioberti lo fanno nella sede a via della Paglia e non nella sede a via dei Genovesi dove sono stata finora. Sono tutte e due vicine ma è un altro palazzo, sempre a Trastevere. Ci sono 10 compagni di classe che hanno scelto Ricevimento. Io ho preso 10 quest’anno a Ricevimento che noi chiamiamo Sala. La pagella si vede sul computer.

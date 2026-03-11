@@ -1,4 +1,5 @@
 ---
+
 title: A braccia aperte
 date: 1988-09-20
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-23
 id_numero: "OEL-23"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il servizio che offre questa associazione è piccola cosa, ma viva, piena di forza: far uscire da un istituto, da un ospedale dei bambini handicappati per un week end o per un po' di vacanza; dare la possibilità a qualche famiglia di riprendere fiato. Lo offriamo ai nostri lettori come esempio e stimolo nella speranza che qualche gruppo parrocchiale e non, si senta invogliato ad intraprendere qualcosa del genere. È più produttivo «rimboccarsi le maniche» che criticare l’esistenza degli istituti o i genitori che sono costretti a ricorrervi. 
 
 Sabato mattina, ore 8.45: un gruppetto di giovani sono lì all'appuntamento. Con Tugdual Derville (26 anni) che ha creato l’associazione due anni fa, Sophie (23 anni) e Cécile (24 anni) montiamo sul pulmino «A braccia aperte»; accompagniamo Pierre, un bambino di nove anni, gravemente handicappato, molto agitato; a stento riusciamo a non fargli togliere le scarpe. Partiamo verso un centro specializzato dove dobbiamo prendere Hocine e Emmanuel.

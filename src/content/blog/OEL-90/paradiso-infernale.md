@@ -1,4 +1,5 @@
 ---
+
 title: Paradiso infernale
 date: 2005-06-17
 author: Marta Pensi
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.745157241821289
 umap_y: 7.171669006347656
 umap_z: 10.5630521774292
+
+subtitle: "Un’amica di Fede e Luce ci racconta l’esperienza singolare, che ha vissuto in un cronicario “molto particolare” in Romania"
 ---
+
 D
 isfo le valigie alla conclusione del mio ottavo viaggio a Sighet, Transilvania, (Romania). Centinaia e centinaia di chilometri fatti ogni volta in pullman, seguendo fisicamente metro per metro tutta la strada, senza sostituirla con il trasporto "astratto" dell'aereo. Tanto comunque non servirebbe a nulla, visto che non ci sono aeroporti nel raggio di chilometri, a distanze di ore e ore di treno.
 **Mi faccio molte domande**

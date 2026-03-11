@@ -1,4 +1,5 @@
 ---
+
 title: "Tra il dire e il fare, non c’è più il mare"
 date: "2007-12-12"
 author: "Manuela Bartesaghi"
@@ -15,7 +16,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Si dice così quando una cosa sembra quasi impossibile, difficile da realizzare, un'utopia.Invece noi abbiamo scoperto che non è sempre vero. Parliamo di scuola"
 ---
+
 Tra il dire e il fare... Si dice così quando una cosa sembra quasi impossibile, difficile da realizzare, un'utopia.
 Invece noi abbiamo scoperto che non è sempre vero.
 

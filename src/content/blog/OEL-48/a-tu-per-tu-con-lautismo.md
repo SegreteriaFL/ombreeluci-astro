@@ -1,4 +1,5 @@
 ---
+
 title: "A tu per tu con l'autismo"
 date: 1994-12-19
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-48
 id_numero: "OEL-48"
 numero_rivista: "Ombre e Luci"
 ---
+
 N
 el
 [numero di «Ombre e Luci» dedicato ai giochi](http://www.ombreeluci.it/project/ombre-e-luci-n-46-andiamo-a-giocare/)

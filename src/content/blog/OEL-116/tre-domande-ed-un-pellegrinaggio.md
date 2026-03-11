@@ -1,4 +1,5 @@
 ---
+
 title: Tre domande ed un pellegrinaggio
 date: 2011-12-04
 author: Valentina Camomilla
@@ -14,7 +15,10 @@ umap_z: 12.561466217041016
 issue_number: OEL-116
 id_numero: "OEL-116"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "“Perché vieni a Fede e Luce se dici di non credere in Dio? Secondo me non dovresti essere qui”."
 ---
+
 Perché vieni a Fede e Luce se dici di non credere in Dio? Secondo me non dovresti essere qui”. Tanti anni fa, ad un fine settimana tra diverse comunità, questa domanda mi inchiodò alla sedia per la sua violenza e perché mi lasciò senza parole.
 
 I miei amici di Fede e Luce mi hanno accolto con tutte le mie specificità, come io cerco di fare con ciascuno di loro (e come non fece la persona che mi inchiodò alla sedia) e con loro amo canticchiare sarete suoi amici se vi amate tra di voi e questo è tutto il suo Vangelo senza dover credere che quello che farete al più piccolo tra voi l’avrete fatto a lui (però amo il Suo dono per la sintesi!).

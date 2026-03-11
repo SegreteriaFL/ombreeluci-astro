@@ -1,4 +1,5 @@
 ---
+
 title: "Disabilità ed età adulta. Qualità della vita e progettualità pedagogica - Recensione"
 date: "2011-03-04"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-113
 id_numero: "OEL-113"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Martateresa Cairo, Vittore Mariani, Regina Zeni Confalonieri, Ed. Vita e Pensiero"
 ---
+
 “Non bisogna lasciare che siano la trascuratezza, l'abbandono e la solitudine a decretare una vita indegna di essere vissuta”. È quello che dice il presidente di Ass. Ital. Scler. Lat. Amiotr. nell’introduzione al libro, un testo complesso ma è estremamente importante per approfondire temi al nocciolo del nostro vivere ‘ sociale.
 
 Ci confrontiamo attraverso la disabilità con questioni di alto spessore etico, educativo, organizzativo che riguardano il valore che diamo alla vita delle x * persone, di sul ana qualunque sia la sua condizione di salute, o Lc. 3 ginalità sociale, e di risposta possiamo dare perché ogni percorso di vita Ed. Vita e Pensiero possa compiersi in pienezza.

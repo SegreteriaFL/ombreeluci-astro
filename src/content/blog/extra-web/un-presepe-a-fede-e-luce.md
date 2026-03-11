@@ -1,4 +1,5 @@
 ---
+
 title: Un presepe a Fede e Luce
 date: 2003-12-22
 author: Nanni Bertolini
@@ -11,6 +12,8 @@ has_comments: false
 umap_x: 7.352070331573486
 umap_y: 9.017354965209961
 umap_z: 12.673686027526855
+
+subtitle: "In un articolo qualcuno ha sostenuto che non avrebbe senso la partecipazione di persone non credenti a Fede e Luce. Io non la penso così."
 ---
 
 Rileggevo un articolo pubblicato su Ombre e Luci sul significato della presenza a Fede e Luce di persone non credenti. Qualcuno ha sostenuto che non avrebbe senso la loro partecipazione a Fede e Luce.

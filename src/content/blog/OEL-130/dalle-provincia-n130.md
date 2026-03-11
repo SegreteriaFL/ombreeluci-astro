@@ -1,4 +1,5 @@
 ---
+
 title: Dalle provincia n.130
 date: 2015-03-19
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-130
 id_numero: "OEL-130"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### [Un fiume di Pace – Nord](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 
 Domenica 10 maggio 2015 c’è stata una ricorrenza da celebrare: il gruppo Fede e Luce Stella di S. Lorenzo di Feltre ha festeggiato i suoi primi dieci anni! Dieci anni di vita di comunità e di continua attività, con costruzione di legami di amicizia tra amici, familiari e persone con disabilità. Hanno partecipato alla festa il gruppo al gran completo, con i responsabili Antonio e Paolo, gli attuali assistenti spirituali Padre Luciano e suor Reginetta, come anche Padre Andrea che ha fondato il gruppo e Padre Gianluigi che l’ha consolidato. Momento centrale e intenso della giornata è stata sicuramente la messa parrocchiale: Padre Andrea nell’omelia ha sottolineato con forza, chiarezza e passione che la Chiesa ha bisogno della nostra piccolezza, semplicità e del nostro essere diretti senza maschere. Tutte cose che si imparano in Fede e Luce! Tutti noi siamo chiamati a testimoniare che la persona disabile è un dono e il vero tesoro non dipende da ciò che uno possiede o dalle abilità che ha ma dall’amore che Dio ha per ciascuno. Gesù ci invita ad andare, a non restare fermi nelle proprie fatiche: è quel movimento che ci fa uscire da noi stessi, accorgendoci degli altri per sostenerci a vicenda e portare insieme i pesi più pesanti. In Gesù troviamo ristoro, accoglienza, pace, sollievo… Auguriamo alla comunità di Feltre nel cammino futuro, di vivere nella gioia come in questi primi dieci anni!

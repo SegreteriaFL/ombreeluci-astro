@@ -1,4 +1,5 @@
 ---
+
 title: Eliminarli dalla nostra vista
 date: 2021-08-05
 author: Vittore Mariani
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 La gratuità degli esami diagnostici prenatali favorisce ulteriormente la ricerca e l’individuazione precoce delle anomalie genetiche, di cui la più nota è la sindrome di Down. Consequenziale è il ricorso all’aborto, diffusissimo nei Paesi del nord Europa, in alcuni dei quali le persone con sindrome di Down sono quasi sparite. Anche in alcune zone dell’Italia settentrionale sono alte in questi casi le percentuali di aborti. **Non si può più nascondere la deriva eugenetica** , promossa da leggi che creano mentalità e condizionano le scelte; e pure dalle sempre più sofisticate tecniche di indagine, con recente riferimento al cosiddetto Nipt (Non Invasive Prenatal Testing), definito un test di screening innovativo e non invasivo.
 
 «Accade non poche volte – scriveva Giovanni Paolo II nella *Evangelium vitae* (1995) – che queste tecniche siano messe al servizio di una mentalità eugenetica, che accetta l’aborto selettivo, per impedire la nascita dei bambini affetti da vari tipi di anomalie. **Una simile mentalità è (…) quanto mai riprovevole, perché pretende di misurare il valore di una vita umana soltanto secondo parametri di “normalità” e di benessere fisico»** . E nella Evangelii gaudium (2013) Papa Francesco ci ricorda che «la difesa della vita nascente è intimamente legata alla difesa di qualsiasi diritto umano. Suppone la convinzione che un essere umano è sempre sacro e inviolabile, in qualsiasi situazione e in ogni fase del suo sviluppo. È un fine in se stesso e mai un mezzo».

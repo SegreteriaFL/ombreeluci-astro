@@ -1,4 +1,5 @@
 ---
+
 title: Il cinema spagnolo al Festival di San Sebastián
 date: 2024-10-11
 author: Claudio Cinus
@@ -14,7 +15,10 @@ umap_z: 2.2128524780273438
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Tardes de soledad vince la Concha de Oro, ma in concorso c'erano tante altre storie ugualmente meritevoli"
 ---
+
 Il72° Festival del Cinema di San Sebastián (SSIFF) è stato una vetrina importante per il cinema in lingua spagnola: dei 16 film in concorso, ben 6 erano parlati in spagnolo. Ma non c'è dubbio che la Concha de Oro (il premio più importante) assegnato al documentario *Tardes de soledad* del catalano Albert Serra sia meritata, nonostante le polemiche che lo hanno preceduto.
 
 I gruppi animalisti ne avevano chiesto l'esclusione dal concorso temendo che celebrasse la tauromachia, ma quello di Serra non è un film a favore o contro. Nel mostrare il torero peruviano Andrés Roca, Serra usa uno stile preciso e ripetitivo: quando si sposta in auto lo filma sempre dallo stesso punto di vista frontale, quando è nell’arena lo filma puntando sempre su di la macchina da presa (mentre sta aspettando o mentre sta toreando) evitando i campi lunghi. Possiamo ammirarne gestualità ed espressività da vero attore, ne vediamo arroganza e dolore; persino la vestizione in hotel è come una cerimonia.

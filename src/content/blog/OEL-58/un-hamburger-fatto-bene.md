@@ -1,4 +1,5 @@
 ---
+
 title: Un hamburger fatto bene
 date: 1997-06-12
 author: Nicole Schulthes
@@ -17,6 +18,7 @@ umap_x: 7.19633674621582
 umap_y: 7.626540184020996
 umap_z: 8.561899185180664
 ---
+
 Una mattina di aprile sono stata una cliente un po’ diversa al McDonald di Piazza di Spagna. Avevo appuntamento con Giovanni Lodico, da tre anni coordinatore del personale e incaricato della formazione alla «Food Italia» che raggruppa i cinque McDonald di Roma. Sono 300 gli operatori dell’azienda fra i quali 12 sono persone con handicap. (Cinque affette da sindrome Down, una è sordomuta, una affetta da X fragile e cinque altre hanno un ritardo mentale di diverso tipo) Giovanni è responsabile della formazione e dell’accompagnamento sul lavoro di questi ultimi che sono stati presentati all'Azienda dall’Associazione Persone Down e dall’Ufficio di collocamento. L’inserimento al lavoro delle persone con handicap non è l’unica politica sociale attuata dalla McDonald, la quale negli Stati Uniti mette una cifra in bilancio per l’aiuto di case-famiglia per l’infanzia in pericolo. Qui a Roma l’inserimento lavorativo è iniziato un po’ per caso tre anni fa, ma è chiaro che per proseguirlo è stata necessaria **una chiara volontà dell’Azienda** che insieme ad **alcune caratteristiche dell’organizzazione del lavoro** e al **ruolo del coordinatore** hanno reso esemplare questo inserimento.
 
 - La giovane età di tutto il personale (20-30 anni); - la composizione internazionale ed inter-etnica del complesso degli operatori - il tipo di lavoro diviso in mansioni numerose e ben definite; - le regole aziendali precise e rigorose (non si mangia durante il lavoro, la puntualità deve essere assoluta...); - l’uso di gratificazioni extra stipendio (spille, orologio, ecc.) per premiare la qualità del lavoro

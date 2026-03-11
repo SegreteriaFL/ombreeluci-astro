@@ -1,4 +1,5 @@
 ---
+
 title: "Quando la vita è così difficile"
 date: "1983-12-29"
 author: "Redazione"
@@ -19,6 +20,7 @@ tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 id_numero: "OEL-4"
 ---
+
 Io non sono capace di scrivere un articolo perché ho fatto solo gli studi elementari e questo fa un po' male quando bisogna smuovere queste cose. Ma se si tratta di aiutare altre famiglie a lottare, mi faccio forza.
 
 Dopo tre figli, Monica 13 anni, Elisabetta 12, Francesco 2, pieni di vita, è arrivata Beatrice, diversa dagli altri. Il dottore ci ha detto: «E’ mongoloide».

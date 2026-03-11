@@ -1,4 +1,5 @@
 ---
+
 title: Cosa ti aspetti?
 date: 2016-09-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-135
 id_numero: "OEL-135"
 numero_rivista: "Ombre e Luci"
 ---
+
 **“Senti, volevo parlarti: ho un’idea che sembra fatta apposta per te!”.** È così che è iniziato tutto, con una proposta buttata là quasi per caso dal nostro padre Valdeci, parroco di San Zenone, un brasiliano trapiantato a Terni a portare un po’ di allegria. Un progetto che, in quel dicembre, ci colse di sorpresa un po’ tutti. Però quando ci illustrò di che si trattava, sembrò a tutti la proposta giusta proprio perché mancava: una comunità formata dai ragazzi diversamente abili (i nostri ragazzi), dai loro familiari e dai loro amici, per condividere insieme gioie, preoccupazioni, risate, dolori e pensieri di questa pazza avventura che è la vita.
 
 Poi una *escalation* di entusiasmo: la prima riunione tra di noi, con l’aiuto degli amici di Roma, Daniela e Pietro; il primo incontro organizzato anche con il loro sostegno; la scelta del nome “Il Tesoro Nascosto” (perché tutti nascondiamo un tesoro che può far ricchi gli altri); la prima uscita fuori dai nostri confini per l’incontro regionale con gli amici perugini ed assisani; le successive casette con un numero sempre maggiore di partecipanti; la Festa della Primavera organizzata qui da noi... le Messe, il laboratorio ed i giochi organizzati dal giovanissimo trio Valeria, Beatrice e Giulia, le testimonianze, gli abbracci. E poi Simone che “è una vergogna”, l’entusiasmo di Francesco, la saggezza di Valerio (uno che lavora in banca e gestisce 3 strutture per ragazzi disabili in Toscana…giusto per capire il tipo), la dolcezza di Tommaso e le risate di Matteo, i “cinque” battuti da Samuele (che soffre il solletico come pochi), gli occhioni splendidi di Jacopo, le risposte pronte di Marco, la gioia di noi tutti. La gioia, ma anche il rimpianto per Salvo, vera anima del gruppo che ha scelto di servire il prossimo in altri modi. Tutti splendidamente unici, tutti splendidamente imperfetti e per questo bellissimi, tutti splendidamente fratelli. Ma cosa ne pensano, alcuni di questi fratelli?

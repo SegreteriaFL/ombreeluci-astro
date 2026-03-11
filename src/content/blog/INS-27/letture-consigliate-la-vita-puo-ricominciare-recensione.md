@@ -1,4 +1,5 @@
 ---
+
 title: "Letture consigliate: La vita può ricominciare - Recensione"
 date: "1980-06-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 "6 Aprile 1972 - Un colpo di pistola: una pallottola partita accidentalmente si conficca nella colonna vertebrale di Patrick Segal e lo inchioda a terra, senza scampo. In quell'attimo un ragazzo nel pieno delle forze - ha 24 anni - sportivo, si vede come tagliato fuori dal mondo delle persone normali".
 
 Ma un anno dopo, su una sedia a rotelle, solo, Patrick parte per la Cina: vuol tentare l'agopuntura. Non riacquista l'uso degli arti inferiori. Ma d'istinto intuisce che le vittorie nascono partendo dalla testa. E nonostante il suo handicap decide di vivere con rinnovato entusiasmo.

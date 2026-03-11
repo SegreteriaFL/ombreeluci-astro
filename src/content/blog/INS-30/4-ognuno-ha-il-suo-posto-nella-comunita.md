@@ -1,4 +1,5 @@
 ---
+
 title: "4. Ognuno ha il suo posto nella comunità"
 date: "1981-12-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Febbraio 1981
 
 Sono tornato stasera da una festa Fede e Luce… Tutte le nostre strade si sono incrociate; abbiamo partecipato ad una mensa, ed una festa; siamo diventati una comunità cristiana.

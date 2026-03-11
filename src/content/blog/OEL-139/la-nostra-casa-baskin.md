@@ -1,4 +1,5 @@
 ---
+
 title: La nostra casa Baskin
 date: 2017-09-06
 author: Nadia Pastori
@@ -19,6 +20,7 @@ issue_number: OEL-139
 id_numero: "OEL-139"
 numero_rivista: "Ombre e Luci"
 ---
+
 S
 ono una mamma lavoratrice fiera di avere un lavoro e fiera soprattutto di essere una mamma, la mamma di due ragazzi Stefano ed Edoardo che ogni giorno mi fanno sentire quale è la missione per cui sono stata scelta. Accompagnavo Stefano all’asilo il giorno del suo terzo compleanno, avevo preparato la torta e le candeline per la festa con i suoi compagni quando si sono rotte le acque… Ma era troppo presto, mancavano ancora più di 14 settimane alla data presunta della nascita del suo fratellino…Non avremmo dovuto aspettare così a lungo per accoglierlo tra noi.
 **Sono stata ricoverata immediatamente e, dopo 5 giorni, Edoardo è nato, come una meteora, scombussolando tutti i nostri progetti, i nostri sogni, la vita mia, di papà Marco e di Stefano.**

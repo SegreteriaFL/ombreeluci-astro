@@ -1,4 +1,5 @@
 ---
+
 title: Sapersi meravigliare
 date: 1998-09-30
 author: Mariangela Bertolini
@@ -15,6 +16,7 @@ umap_x: 7.07440710067749
 umap_y: 6.521148204803467
 umap_z: 10.30722427368164
 ---
+
 Sono seduta sulla terrazza del Miravalle, un ristorante di montagna dove sono venuta per prendere un aperitivo con mio marito. Sono in vacanza, in un paesino dolomitico; il nome «Miravalle» mi invita a contemplare la bellezza che mi sta davanti: cielo, montagne, nuvole, fieno, fiori e voci di bimbi e silenzio.
 
 Poi, all’improvviso le nubi, grandi, bianche su un cielo terso, si addensano, si fanno scure: il sole e il cielo sono spariti. La pioggia prima appena accennata, si fa copiosa e la valle si copre di nero. Come accade nelle nostre vite; spensierati, sereni, tranquilli, i nostri animi all’improvviso si coprono di una nera caligine che si trasforma in lacrime a stento trattenute e in pianto, un pianto che sembra non aver fine: avviene così per l’annuncio dell’handicap del figlio, di una grave malattia, di una morte, di un distacco imprevisto...

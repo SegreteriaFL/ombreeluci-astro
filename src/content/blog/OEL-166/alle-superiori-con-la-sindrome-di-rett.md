@@ -1,4 +1,5 @@
 ---
+
 title: Alle superiori con la sindrome di Rett
 date: 2024-08-26
 author: Elzbieta Steczkiewicz
@@ -14,7 +15,10 @@ umap_z: 6.815206527709961
 issue_number: OEL-166
 id_numero: "OEL-166"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Valentina raccontata dalla mamma"
 ---
+
 Diversi anni fa, d’estate al mare, una bimba si è avvicinata a mia figlia chiedendomi se era autistica (la sindrome di Rett assomiglia molto all’autismo anzi, fino poco tempo fa, faceva parte delle malattie dello spettro autistico) e io le chiesi «Tu conosci l’autismo?» e lei mi ha risposto «Sì, in classe ho un amico autistico». E ha voluto giocare con Valentina, senza nessun pregiudizio. **Io vengo dalla Polonia dove, ancora oggi, mia figlia dovrebbe frequentare una scuola speciale in cui potrebbe confrontarsi solo con la disabilità.**
 
 La scuola italiana ha deciso di inserire ragazzi con diverse disabilità nella scuola normale; senza essere veramente pronta, grazie alla legislazione e alla buona volontà di molte persone, si stanno risolvendo diverse difficoltà. **Oggi mi rendo conto che ho faticato non poco perché ho dovuto fare ricorsi al Tar per avere le ore giuste di sostegno per mia figlia** , insistere sempre a far rispettare i diritti di Vale. Ma ne è valsa la pena: adesso mi godo il risultato delle fatiche passate e spero che prosegua così, per noi e per tutti gli altri ragazzi.

@@ -1,4 +1,5 @@
 ---
+
 title: Jean-Christophe Parisot, un cercatore di Dio
 date: 2013-03-10
 author: Florence Chatel
@@ -16,7 +17,10 @@ umap_z: 9.697004318237305
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Jean-Christophe Parisot ha 45 anni e affetto da tetraplegia. E’ incaricato per i problemi dell’emarginazione ed è il funzionario, con handicap, al più alto livello in Francia."
 ---
+
 **Da dove nasce il suo impegno?** La fede cristiana è la fonte del mio impegno nel servizio pubblico come alto funzionario e nella Chiesa come diacono. Essere cittadino del cielo è legato al fatto di essere un cittadino impegnato sulla terra. Vivere per l’incontro con l’altro, e del tutt’Altro, vuol dire esporsi al cambiamento e a liberarsi delle rappresentazioni, secondo le norme che impediscono alla persona diversa di esistere così com’è (questo vale per l’handicap come per ogni altra minorazione). Un giorno in cui mi trovavo a Lourdes, seduto sulla mia carrozzina elettrica, nella basilica San Pio X, un organizzatore è venuto a dirmi che avevo disturbato la processione! Ho risposto: “ Ma io faccio parte della processione.” Bisogna saper privilegiare l’ordine dell’amore all’amore dell’ordine. Altrimenti siamo persi! E’ inoltre importante sapersi liberare da un rapporto malsano, triste, nei confronti della sofferenza. E’ l’amore che ci salva, vissuto anche nella sofferenza e non il contrario.
 
 Dio non è un Nerone che dall’alto delle nubi ci manda le disgrazie. Egli vuole la nostra felicità. Certamente la Chiesa è cambiata su questo punto. Ma ancora troppo spesso si fa “per” i malati e non “con” i malati. Per questo ho accettato l’invito ad un pellegrinaggio del Rosario a condizione di poter fare io l’omelia, perché non deve essere sempre chi sta bene ad insegnare ai malati. Non lo faccio con spirito di rivendicazione, ma di pacificazione. Sarò all’altare e questo è un segno molto più forte di una testimonianza.

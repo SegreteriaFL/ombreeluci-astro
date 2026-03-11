@@ -1,4 +1,5 @@
 ---
+
 title: Inizio dell’Anno della Tigre
 date: 2010-01-17
 author: Padre Mario Marazzi
@@ -15,6 +16,7 @@ issue_number: OEL-110
 id_numero: "OEL-110"
 numero_rivista: "Ombre e Luci"
 ---
+
 Cari amici di Ombre e Luci, sono contento di mandarvi un saluto ad un anno di distanza dalle mie vacanze in Italia, dove **ho potuto incontrare molti di voi e rinsaldare legami di amicizia** che, anche dopo tanto tempo non si erano allentati (…). Il mio rientro a Guangzhou è stato come rientrare a casa. Sono contento di essere entrato un po’ nella vita di questa gente e soprattutto che loro siano entrati nella mia vita. Non voglio dire che dopo tanti anni in Cina sono diventato uno di loro, perché noi missionari non potremo mai diventarlo del tutto. Infatti la nostra cultura di tanto in tanto riaffiora. Il credere di essere superiori in certe cose vorrebbe imporsi. Lo sforzo di tutti i giorni è di avvicinarsi quanto più possibile a loro come amici, come fratelli (…)
 
 **Da più di sei anni vivo in una casa-famiglia abitata da sei persone con disabilità mentale.** Il quartiere alla periferia di Guangzhou dove è collocata la casa che mi ospita è ben differente dal mio paese sul lago di Como. Ma essere qui con queste persone semplici è un’esperienza preziosa. Ogni giorno ringrazio Dio di questa chiamata, dell’occasione che mi è data di crescere come uomo e come cristiano. La “mamma” (una donna che ha lasciato i figli al lontano villaggio per venire a lavorare in città) mi è di esempio per la pazienza e l’amore con cui tratta i nostri ragazzi, per il senso del risparmio nelle spese ridotte al necessario. Sempre sorridente, accoglie con cordialità tutti coloro che vengono a trovarci. (…)

@@ -1,4 +1,5 @@
 ---
+
 title: "E se Gesù ci scrivesse oggi..."
 date: "2007-12-10"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
+
+subtitle: "Succede ogni anno a Natale. La gente si ricorda solo di quello che ha bevuto e mangiato, dei regali che ha ricevuto e quasi nessuno pensa a me"
 ---
+
 Cari amici,
 Come voi sapete bene si avvicina la data del mio compleanno. Tutti gli anni c'è una grande festa in mio onore e penso che anche quest'anno non mancherà. In questo periodo tutti fanno shopping e comprano regali; la radio, la televisione, i grandi magazzini sono pieni di pubblicità e tutto questo cresce a dismisura, mentre il mio anniversario si avvicina.
 

@@ -1,4 +1,5 @@
 ---
+
 title: Un natale speciale
 date: 2000-10-26
 author: Mariangela Bertolini
@@ -16,7 +17,10 @@ umap_z: 12.201624870300293
 issue_number: OEL-72
 id_numero: "OEL-72"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Vorrei tanto poter sedermi accanto a ciascuno di voi, la sera di questo Natale e ascoltare il vostro cuore, così provato e coraggioso"
 ---
+
 Se rileggiamo con cura il racconto di san Luca sulla nascita di Gesù, ci accorgiamo delle gravi difficoltà nelle quali si sono trovati Maria e Giuseppe. È un susseguirsi di segni di gioia e di timore, di esultanza e di sgomento, di chiamate e di risposte, di esitazioni e di coraggio.
 
 Ogni volta che rileggo queste pagine, non posso fare a meno di vedervi riflessi i segni che accompagnano, da sempre, le nascite dei figli un po’ speciali.

@@ -1,4 +1,5 @@
 ---
+
 title: "Come in trappola: storia di un bambino con un deficit dell’attenzione senza iperattività"
 date: 2007-03-02
 author: Redazione
@@ -17,7 +18,10 @@ tags:
 umap_x: 5.799553871154785
 umap_y: 7.967761993408203
 umap_z: 6.761651515960693
+
+subtitle: "Che nostro figlio fosse un po’ speciale l'abbiamo pensato quando è nato. Che fosse un po’ diverso dagli altri, ce lo hanno fatto notare già alla scuola materna"
 ---
+
 C
 he nostro figlio fosse un po’ speciale l'abbiamo sicuramente pensato quando è nato (come succede a quasi tutti i genitori). Che fosse un po’ diverso dagli altri, ce lo hanno fatto notare già alla scuola materna. E che fosse un po’ difficile alle elementari. Che fosse un po’ diverso dagli altri, ce lo hanno fatto notare già alla scuola materna. E che fosse un po’ difficile alle elementari.
 **Alle scuole medie era diventato un po’ problematico e settoriale**

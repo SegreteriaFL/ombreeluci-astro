@@ -1,4 +1,5 @@
 ---
+
 title: "Perché ho avuto fiducia"
 date: "2014-12-15"
 author: "Mariangela Bertolini"
@@ -15,6 +16,7 @@ issue_number: OEL-128
 id_numero: "OEL-128"
 numero_rivista: "Ombre e Luci"
 ---
+
 Parlare della fiducia non è affatto possibile. La fiducia si vive e si conserva per sempre.** Spesso perdiamo stabilità. Come mantenere allora fiducia in se stessi, in Dio e negli altri? La fiducia e la speranza sono un po’ la stessa cosa. Nascono nei momenti bui, nei momenti intollerabili da vivere. In quei momenti, sentiamo qualcosa che ci sovrasta e ci fa resistere.
 È una forza, ma non si sa da dove viene.** Credo che ci arrivi attraverso le persone che conosciamo: genitori, amici e qualcun altro che è Colui che vive in noi. Anche quando non ne vogliamo sapere più di Lui, Egli ci sostiene e ci dice: “Vai avanti non aver paura”.
 

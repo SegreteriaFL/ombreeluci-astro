@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 23
 date: 1988-09-20
 author: Redazione
@@ -20,6 +21,7 @@ issue_number: OEL-23
 id_numero: "OEL-23"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### «Ho bisogno di te!»
 
 *Testimonianza - Io e Fede e Luce*

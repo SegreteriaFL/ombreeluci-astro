@@ -1,4 +1,5 @@
 ---
+
 title: Fede e Luce - Tutti a Leeds!
 date: 2013-09-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-123
 id_numero: "OEL-123"
 numero_rivista: "Ombre e Luci"
 ---
+
 D
 al 21 al 27 luglio le delegazioni delle tre province italiane (Un fiume di pace: Angela Grassi, Mario Ferrini, Roberto Bertin, Angelo Volpi; Kimata: Stefano Di Franco, Daniela Guglietta, Alessandra Ruggeri, Daniele Cogliandro; Mari e Vulcani: Carlo Gazzano, Francesco Famiglietti, Ivana Malerba, Larysa Grygor’yeva) e il nostro presidente nazionale Paolo Tantaro hanno rappresentato il nostro Paese all’Assemblea internazionale di Fede e Luce a Leeds, in Inghilterra. Con loro, la vice coordinatrice internazionale Lucia Casella. Il discernimento ha portato a rieleggere come coordinatore internazionale Ghislain Du Chené, mentre il nuovo Consiglio di amministrazione è ora presieduto da Anne-Marie Pike, della Nuova Zelanda, e composto da Hoda El Turk (Libano, vicepresidente), Artkin Muvishi (Zimbabwe), Tim e Maria-Cecilia Buckley (Usa-Brasile).
 **Nei racconti dei tre coordinatori, il senso di giornate ricche di emozioni.**
@@ -26,6 +28,7 @@ e di quella signora che mi si è avvicinata essendo fiera di essere stata sposat
 **Mi porto anche dentro il volto felice di una mamma**
 a testimonianza che la gioia e la sofferenza possono coesistere. Credo di sentirmi fortunato e voglio ringraziare i nostri ragazzi per avermi donato questa opportunità. Senza loro non avrei mai potuto vivere questi incontri che mi trasformano, mi arricchiscono.
 *Carlo*
+
 
 ---
 
@@ -40,6 +43,7 @@ Portiamo con noi una bandiera italiana e lo stendardo della provincia con i simb
 **Fede e Luce è una splendida quarantenne**
 e che l’avventura continua... e farne parte è un dono incredibile
 **[Stefano Di Franco](https://www.ombreeluci.it/author/stefano-di-franco/)**
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Tornare ad Assisi passando da Roma
 date: 2015-09-22
 author: Marco Bove
@@ -17,6 +18,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 Assisi per
 *Fede e Luce*
 è sempre un luogo un po’ speciale, per tanti motivi. Anzitutto perché lì si respira il clima dell’esperienza spirituale di Francesco, un uomo che ha scelto di affidare a Dio la sua vita, nell’umiltà e nella povertà, un uomo che ha scelto di farsi “piccolo” e per questo lo sentiamo così vicino alla nostra esperienza a

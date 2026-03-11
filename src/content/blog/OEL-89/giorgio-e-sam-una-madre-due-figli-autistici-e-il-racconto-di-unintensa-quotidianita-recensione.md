@@ -1,4 +1,5 @@
 ---
+
 title: "Giorgio e Sam: una madre, due figli autistici e il racconto di un'intensa quotidianità - Recensione"
 date: "2005-03-15"
 author: "Maria Teresa Mazzarotto"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Charlotte Moore, Editore Corbaccio, 2005"
 ---
+
 Circola un'aria nuova in questo saggio/romanzo di Charlotte Moore pubblicato in Italia da Corbaccio un’aria nuova che si avverte fin dalle prime pagine. Tenterò di spiegarne la ragione.
 
 George e Sam, insieme al fratello minore Jake cui il libro è dedicato, sono i figli dell’Autrice. In questo libro la madre li osserva, esamina in modo acuto e senza nessun sentimentalismo il loro comportamento riuscendo a catturare la nostra attenzione, a divertirci in qualche modo e ad informarci sul mondo dell’autismo, perché George e Sam sono entrambi autistici. E il loro fratello minore è l’indispensabile pietra di paragone, fratello solidale per sempre, e non come scrive la Moore né ora né in futuro, auspicabile baby-sitter.

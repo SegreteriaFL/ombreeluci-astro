@@ -1,4 +1,5 @@
 ---
+
 title: "Chiudi gli occhi e guardami. Vivere la disabilità in famiglia - Recensione"
 date: "2013-06-10"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
 ---
+
 Antonio Galdo introduce questo libro definendolo un libro sull’amore, sul bisogno della relazione con l’altro, partendo dall’affermazione di Aristotele che “non si può essere felici da soli”
 L’altruismo è un gene presente nell’uomo (e negli animali) fin dall’infanzia. Per decenni però abbiamo messo al centro dei nostri comportamenti l’io, disconoscendo l’energia che si sprigiona all’interno di una comunità che interagisce. Tuttavia la crisi economica sta dimostrando che l’egoismo non funziona come strumento di progresso e di benessere di una società.
 L’autore ci presenta storie e situazioni diverse** in cui l’altruismo e la possibilità di relazione tra le persone sono centrali: nella progettazione di una città, nei trasporti, nel modo di abitare di utilizzare e condividere gli spazi, negli orti urbani... Ma anche nel modo di lavorare e di scambiare le idee.

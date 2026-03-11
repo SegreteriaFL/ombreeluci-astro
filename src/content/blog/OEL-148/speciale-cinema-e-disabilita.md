@@ -1,4 +1,5 @@
 ---
+
 title: "Speciale: Cinema e disabilità"
 date: "2019-11-16"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Cultura"
 issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Come viene affrontato il tema della disabilità nel cinema? Con questo speciale proviamo a fare il punto anche con il contributo di alcuni esperti del settore"
 ---
+
 ## Gli altri siamo noi
 
 *di Alessandro de Simone*

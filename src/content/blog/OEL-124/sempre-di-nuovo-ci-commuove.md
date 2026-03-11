@@ -1,4 +1,5 @@
 ---
+
 title: Sempre di nuovo ci commuove
 date: 2013-12-15
 author: Mariangela Bertolini
@@ -16,7 +17,10 @@ umap_z: 12.269214630126953
 issue_number: OEL-124
 id_numero: "OEL-124"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Pensando al Natale quest'anno mi sono venuti al cuore tre motivi importanti da condividere per celebare questa grande festa"
 ---
+
 > “Il Dio che si fa bambino, che si mette con delicatezza e rispetto nelle nostre mani affinché noi possiamo adorarlo, inginocchiandoci davanti alla sua piccolezza”
 
 C

@@ -1,4 +1,5 @@
 ---
+
 title: Notiziario di Fede e Luce n.10, 1976
 date: 1976-09-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.431182861328125
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Alcune delle lettere ricevute in questi mesi dalle comunità: in questo caso due da Cuneo e una da Milano"
 ---
+
 ### Cuneo - da una lettera di Mimmo (aprile)
 
 Maria Grazia! Un tuffo nel passato, un'ondata di ricordi per me che di feste romane di "Fede e Luce" ne ho già viste due: così era come se qui tra noi fosse come una festa di Fede e Luce di Roma.

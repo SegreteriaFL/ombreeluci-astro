@@ -1,4 +1,5 @@
 ---
+
 title: Il pittore che aveva capito tutto
 date: 2019-02-02
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-145
 id_numero: "OEL-145"
 numero_rivista: "Ombre e Luci"
 ---
+
 Pasqua 1971: a Lourdes si svolge il pellegrinaggio da cui nascerà *Fede e Luce* . A renderlo possibile un immenso cantiere che, in soli tre anni, portò alla partenza verso la grotta di ben dodicimila persone. Tanti, tantissimi, gli aspetti da organizzare: ricerca fondi, questioni pratiche legate a trasporto e ospitalità, animazione spirituale, assistenza medica, strategia comunicativa. Nell’ambito di quest’ultima emerse subito la necessità di individuare un logo distintivo capace di trasmettere con immediatezza il senso del pellegrinaggio e di rendere riconoscibili i partecipanti. Un logo che poi avrebbe accompagnato, in ogni occasione, Fede e Luce.
 
 Allo scopo fu indetto un concorso, riservato a persone con disabilità mentale. I risultati, però, furono assai deludenti. Qualcuno propose allora di rivolgersi a Meb, un pittore trentacinquenne di una certa notorietà (si manteneva con il proprio lavoro!), esponente della cosiddetta *Art Brut et Singulier* , con la sindrome di Down. Meb aveva iniziato a dipingere da adolescente e subito le sue opere – una miscela di arabeschi, luce brillante e combinazioni cromatiche di sapore spagnoleggiate – avevano suscitato l’interesse di parenti e conoscenti. Grande successo riscosse in Francia nel 1963 la sua prima esposizione. Allora Eugène Ionesco scrisse: «Ho visto le opere d’un ragazzo, di un uomo, che chiamano handicappato. (…) Dovete vedere quanto è ricco, inquietante, singolare il suo mondo. Non è possibile tracciare una linea di demarcazione tra il normale e l’anormale. Non esiste. Oppure siamo tutti pazzi, siamo degli esseri congenitamente alienati poiché non possiamo capire nulla di questa ondata, dal momento che il più grande scienziato sa poco più del più ignorante. (…) [Meb] è indifeso come noi, ma in modo diverso». Su Marc Eberschweiler (in arte Meb) uscì poco dopo un libro in Francia, tradotto poi in italiano con il titolo di *Meb, pittore gioioso* (Città Nuova 1983). In esso l’autrice, Marie-Louise Eberschweiler, raccontava la vita del figlio, la sua crescita, la scoperta del suo talento, gli ostacoli e le gioie. Persona allegra e colorata, Meb morirà nel 1988, a soli 52 anni.

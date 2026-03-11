@@ -1,4 +1,5 @@
 ---
+
 title: Un incontro tra capi scout
 date: 2009-09-10
 author: Rita Di Nale
@@ -16,7 +17,10 @@ umap_z: 10.308460235595703
 issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il resoconto di un momento di formazione per l'inserimento di una dodicenne con disabilità intellettiva"
 ---
+
 L’anno scorso, a settembre, una mamma mi ha chiesto di far entrare nel gruppo scout la figlia, Giulia, di 12 anni (con problemi di tipo intellettivo e comportamentale). Ho incontrato Giulia e i suoi genitori ma ho valutato di non poterla inserire subito nelle attività perché i nostri capi sono pochi e molto giovani e ho proposto di poter conoscere meglio Giulia nel corso dell’anno, magari attraverso l’inserimento in un gruppo di Fede e Luce. Ciò non è stato possibile e i rapporti con la famiglia si sono interrotti. Questo fatto mi è dispiaciuto molto e così ho deciso di approfondire il discorso degli inserimenti “difficili” nel mondo scout attraverso la stampa associativa e l’esperienza di altri capi.
 
 Ho trovato molte linee guida nell’opuscolo di Maddalena Fanti “Lo scout disabile” sul quale ho incontrato una riunione di formazione per i capi del gruppo di cui sono responsabile, il Roma 25. Dopo averne letto insieme un riassunto abbiamo condiviso con gli altri le nostre idee ed esperienze.

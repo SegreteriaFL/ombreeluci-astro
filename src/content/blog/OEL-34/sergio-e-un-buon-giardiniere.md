@@ -1,4 +1,5 @@
 ---
+
 title: "Sergio è un buon giardiniere"
 date: "1991-06-21"
 author: "Nicole Schulthes"
@@ -15,6 +16,7 @@ issue_number: OEL-34
 id_numero: "OEL-34"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sergio ha ventiquattro anni. Lavora come giardiniere al servizio manutenzione giardini del Comune di Roma. E’ felice della sua attività e della vita in generale.
 Abita con i suoi genitori. Le due sorelle hanno lasciato la casa ma sono rimaste nel quartiere e si vedono spesso con Sergio e con i genitori.
 Sergio fa ancora parte del gruppo scout che frequenta da tanti anni: va alle riunioni settimanali, alle uscite e ai campeggi.

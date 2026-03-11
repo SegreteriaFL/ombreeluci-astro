@@ -1,4 +1,5 @@
 ---
+
 title: Nicola Pintus e il progetto Filippide
 date: 2004-12-05
 author: Huberta Pott
@@ -11,6 +12,8 @@ has_comments: false
 umap_x: 7.311563968658447
 umap_y: 8.290005683898926
 umap_z: 7.893439292907715
+
+subtitle: "Ci eravamo conosciuti durante una trasmissione televisiva dove mi aveva fatto un’impressione particolare. Mi è sembrato subito una persona un po’ speciale e mi è venuta voglia di conoscerlo meglio. Così è nata questa intervista."
 ---
 
 **Parliamo di Nicola Pintus.** Mi trovo un po' in difficoltà a dire chi è e cosa fa. È un atleta, un operatore, un idealista che vuole sfidare il mondo dell’handicap intellettivo, un fratello, un amico, un "papà" di ben 25 ragazzi autistici o con la "'sindrome X fragile" che può causare leggeri problemi nell'apprendimento fino a gravi ritardi mentali. Lui stesso si definisce un dirigente sportivo, ma si intuisce che si sente stretto in questa definizione.

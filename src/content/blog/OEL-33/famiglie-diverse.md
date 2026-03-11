@@ -1,4 +1,5 @@
 ---
+
 title: Famiglie diverse?
 date: 1991-03-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-33
 id_numero: "OEL-33"
 numero_rivista: "Ombre e Luci"
 ---
+
 *G. e M. Labrousse, genitori di tre figli, tra cui Paolo, portatore di handicap, ripercorrono un pò della loro storia umana, simile a quella di tante famiglie, anche se unica. I genitori che hanno conosciuto la stessa prova, si ritroveranno in queste riflessioni e nel loro atteggiamento.*
 I
 l momento nel quale l'handicap di nostro figlio ci viene annunciato, prima o dopo la nascita, — handicap di ogni tipo e di ogni gravità — è il momento della prova brutale alla quale nessuna di noi è preparato. Tutto sembra fermarsi. Ogni progetto di vita sognato e sperato a due, al momento del matrimonio, ogni speranza ambiziosa che tutti i genitori ripongono sul bambino che nasce e che cresce, tutto sembra precipitare di colpo.

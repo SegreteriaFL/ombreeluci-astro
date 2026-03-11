@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.44
 date: 1993-12-23
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-44
 id_numero: "OEL-44"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Suggerimenti
 
 Sono la mamma di Tamara, una ragazzina dolcissima, con dei tratti autistici (forse) perché una diagnosi ben precisa non è mai stata fatta da chi la segue. Vorrei darvi qualche suggerimento riguardo alla rivista Ombre e Luci, per me è già molto interessante, ma sempre suscettibile di miglioramenti. Per prima cosa mi piacerebbe che si parlasse più a fondo della sofferenza dei nostri ragazzi e di come la società (quella più sensibile) potrebbe fare per aiutare di più le famiglie che troppo e spesso sono lasciate sole a se stesse. Poi vorrei si parlasse di autismo più spesso, ed in modo che questa realtà, poco conosciuta avesse un riconoscimento, come tante altre malattie sono già conosciute dai mass-media. Poi sarebbe bello per i genitori conoscere i nomi di centri dove i nostri ragazzi potessero soggiornare durante le vacanze estive, insieme con i coetanei senza problemi. Perché non parlare anche delle grosse difficoltà che hanno le famiglie e i bambini, quando ogni anno la scuola assegna sempre insegnanti di sostegno diversi, senza alcuna preparazione per questi problemi, e quindi inadeguati ai loro compiti di educatori, così importanti negli anni di crescita. Certa della vostra attenzione, chiudo la lettera allegando i nomi di persone che, spero, vorranno aderire al vostro abbonamento. Auguri per la vostra bella rivista; mi piacerebbe diventasse mensile.

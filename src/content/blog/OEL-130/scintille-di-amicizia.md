@@ -1,4 +1,5 @@
 ---
+
 title: Scintille di amicizia
 date: 2015-03-19
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 9.41745662689209
 issue_number: OEL-130
 id_numero: "OEL-130"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "L’Associazione La Scintilla è formata da giovani/adulti con disabilità intellettiva, dai loro familiari ed amici ed è nata dall’esigenza di realizzare un percorso di crescita, di inclusione sociale e di vita indipendente"
 ---
+
 Suonano alla porta. Sono le quattro in punto di martedì: non un minuto di ritardo! Rosa e Jennifer arrivano insieme: si tengono per mano e attraversano Forcella, quartiere difficile di una città complicata come Napoli. Vengono per il Coro Cherison: alla Scintilla, in collaborazione con l’associazione Gli Amici di Aldo, il martedì pomeriggio sotto la guida sapiente della maestra Fausta i ragazzi suonano e cantano in coro. Venerdì 29 maggio, il coro si è esibito nella Chiesa di Santa Chiara partecipando ad un’iniziativa di finanziamento contro la camorra del movimento scout cittadino.
 
 Dopo 25 anni [La Scintilla](https://www.lascintillaonlus.org/) è anche questo: occasione di festa ma anche di solidarietà in cui i ragazzi sono protagonisti, in un impegno quotidiano a metà strada tra la professionalità ed il dono di sé.

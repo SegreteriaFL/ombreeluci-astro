@@ -1,4 +1,5 @@
 ---
+
 title: "Punti di incontro: servire, giocare, lavorare, riflettere..."
 date: 1986-06-24
 author: Redazione
@@ -21,6 +22,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Costruiamo insieme: fai un regalo per...
 
 Manualità per chi vuole. Infatti i ragazzi non ne hanno nessuna voglia. Il lavoro proposto dal conduttore è abbastanza semplice e ha buon rendimento. Ci sono quadrati e rettangoli di spesso cartone grigio, quadrati e rettangoli un po’ più piccoli di carta marrone (ritagli regalati da una tipografia), molte foglie essiccate di forme e misure diverse, cellophane. Si fermano sul cartone con una toccata di colla le foghe singole o in composizione; volendo si incolla prima la carta marrone sul cartone grigio per avere un effetto cornice. Si stende sopra un pezzo di cellophane, incollandolo sul retro del cartone. Si passa poi il tutto faccia in giù su una fiamma (lì si usava alcool e ovatta, ma è meglio il fornello a gas) in modo che il cellophane si tenda bene. L’interesse maggiore dei ragazzi pare sia toccare con energia le fragili foglie appiattite. Per fortuna l’attenzione cresce alla frase: «facciamo un regalo per...».

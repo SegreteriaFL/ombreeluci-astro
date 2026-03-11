@@ -1,4 +1,5 @@
 ---
+
 title: Associazione “Invitati alla festa”
 date: 2004-09-13
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 8.180312156677246
 umap_y: 7.279876232147217
 umap_z: 9.270898818969727
+
+subtitle: "A Besancon in Francia, l'Associazione “Invitati alla Festa” ha creato un luogo che è insieme di vita, di attività e di sostegno per malati psichiatrici."
 ---
+
 “Buongiorno, posso avere un bicchiere di Schweppes?” domanda Benoit con tono gentile, avvicinandosi al banco del bar. Gerard, gilet grigio e occhiali, prende una bottiglia dal frigorifero, con il sottofondo di una musica della radio. Poi Benoit va a sedersi ad uno dei piccoli tavoli del locale dove sono seduti Arturo, Cristiano e gli altri, davanti a un succo di frutta o ad un caffé, mai all'alcool. Ci si scambia qualche parola, qualche sorriso di amicizia.
 
 **Questo non è un locale come un altro** ma è il bar degli “Invitati alla festa”, un luogo sperimentale di accoglienza, al centro di Besancon. Gerard, come Arturo e Benoit, ha un handicap psichico. Ha dovuto lasciare il lavoro da qualche anno in seguito ad una grave depressione. Da un mese viene qui tutti i martedì pomeriggio e infila la divisa da barman, tranquillamente. “Questo mi permette di incontrare altre persone — sorride — e mi sento meno solo”.

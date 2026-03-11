@@ -1,4 +1,5 @@
 ---
+
 title: Scegliere di lasciarsi scegliere
 date: 1981-12-20
 author: Luis Sankalé
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 *Chi è l'altro?* *L'altro sei tu per me, ed io per te.* *È ogni persona.* *È colui che viene messo in mostra e colui che viene nascosto.* *L'altro, non è chi mi attira, ma chi incontro e che mi salva, perché fa sorgere in me l'ascolto e la fiducia.*
 
 Alla radice di ogni razzismo, di ogni settarismo, di ogni odio e di ogni violenza, c'è il rifiuto dell'altro, diverso da me.

@@ -1,4 +1,5 @@
 ---
+
 title: Un pellegrinaggio significativo
 date: 2025-11-04
 author: Antonietta Pantone
@@ -14,7 +15,10 @@ umap_z: 10.636009216308594
 issue_number: OEL-172
 id_numero: "OEL-172"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La mia esperienza a Pompei con Fede e Luce"
 ---
+
 Buon pomeriggio, i miei cari lettori, nell' [ultimo pezzo](https://www.ombreeluci.it/2025/che-bello-vedere-tanti-giovani/) vi avevo accennato che avrei detto come sarebbe andato il viaggio a Pompei. **Beh, è andato benissimo!** A parte qualche intoppo che per come la vedo io si poteva evitare, però va bene così.
 
 A Pompei c'erano tutte le comunità italiane e alcune estere, ma soprattutto una cosa che mi ha colpito è stata rivedere la mia prima comunità. E vedere i giovani che collaboravano con gli scout, che per la prima volta conoscevano Fede e Luce. Un'altra cosa bellissima è stato vedere come tutti quanti si sono messi in gioco ad esempio durante il laboratorio di pasticceria che ho adorato tanto perché, chi mi conosce bene lo sa, a me piace molto cucinare. Fare dei dolci o cucinare il salato per tutti mi ha fatto sentire utile, diciamo, per le varie comunità. Ho dato qualcosa di me a tutti quanti, non solo a chi mi conosce.

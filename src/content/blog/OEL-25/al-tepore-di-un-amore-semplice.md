@@ -1,4 +1,5 @@
 ---
+
 title: Al tepore di un amore semplice
 date: 1989-03-22
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-25
 id_numero: "OEL-25"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ad un campeggio estivo si arriva per svariati motivi: l'invito di un amico, la propria curiosità, il desiderio di rendersi utili, l'incapacità di opporre un «no» deciso. Ma, sempre è Gesù che ci propone questa insolita vacanza accanto alla persona ferita: nell’intelligenza, certo, ma anche nel cuore. Perché? Cosa vuole il Signore da noi? Gesù ci chiede soprattutto di ascoltare. Ci ha messo accanto i suoi amici più semplici proprio perché parlino di Lui con semplicità alle nostre teste dure. «Le affido a voi, amici miei — avrà detto loro — confido che possiate spuntarla con questi testoni: io ho tentato con le parole e con i gesti. Voi tentate con il silenzio». E il campeggio è un luogo e un periodo di silenzio. Il silenzio degli impegni, della fretta, delle «ho mille cose da fare». Soprattutto il silenzio di noi stessi, che in continuazione, senza accorgercene, ci ripetiamo: «Sono intelligente, atletico, simpatico, attivo».
 
 > II campeggio è anche «un luogo e un periodo di silenzio. Il silenzio degli impegni, del “ho mille cose da fare”!»

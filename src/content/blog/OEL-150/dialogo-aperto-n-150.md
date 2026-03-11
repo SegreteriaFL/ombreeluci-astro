@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 150
 date: 2020-04-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Coinvolti, che bellezza!
 
 Chiamati nel dicembre scorso a testimoniare la realtà del gruppo di Fede e Luce presso la nostra parrocchia, per sensibilizzare i giovani alla questione della disabilità, non ci siamo fatti pregare, noi Messaggeri della gioia! I ragazzi con disabilità della nostra comunità sono campioni di gioia e lo scambio con i giovani che abbiamo potuto incontrare, bellissimo e reciproco. A Cesano Boscone abbiamo la fortuna di avere tre parrocchie e ogni volta che contattiamo il parroco e i nostri don non troviamo ostacoli, sono disponibili e ci mettono a disposizione lo spazio necessario. Li invitiamo insieme al diacono, le suore, i seminaristi: a volte riescono a partecipare e seguire il momento di preghiera. A volte è il don che invita noi per farci conoscere ai gruppi parrocchiali. Per i nostri incontri mettiamo l’avviso sul foglio informativo della parrocchia e nella bacheca così, chi vuole, può partecipare È proprio bello essere accettati e coinvolti, sia per i ragazzi che per noi amici ma soprattutto per le loro famiglie.

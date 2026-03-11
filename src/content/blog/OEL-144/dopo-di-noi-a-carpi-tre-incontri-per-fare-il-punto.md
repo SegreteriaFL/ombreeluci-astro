@@ -1,4 +1,5 @@
 ---
+
 title: "Dopo di noi: a Carpi tre incontri per fare il punto"
 date: 2018-03-30
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 “Per il futuro delle persone con disabilità: la legge 112/2016 per il ‘dopo di noi’”: questo il filo conduttore di tre appuntamenti informativi, rivolti ai familiari di persone con disabilità, operatori del settore e cittadini, ospitati dalla Casa del Volontariato di Carpi. Il ciclo di incontri, organizzati da
 **Fondazione Progetto per la Vita onlus**
 ,

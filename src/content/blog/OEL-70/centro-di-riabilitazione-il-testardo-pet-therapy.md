@@ -1,4 +1,5 @@
 ---
+
 title: "Centro di riabilitazione \"Il Testardo\" - Pet Therapy"
 date: 2000-06-20
 author: Ruggero Leonardi
@@ -16,7 +17,10 @@ umap_z: 7.117097854614258
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "È una lezione per tutti vedere come gli asini accettino la diversità, a differenza di tanti uomini"
 ---
+
 Chi usa la parola “asino” per insultare il suo prossimo dovrebbe venire qui, al centro di riabilitazione II Testardo, e vedere come si comporta Socrate. Una volta, racconta Claire Holme, direttrice del centro, una bambina gli stava ripulendo uno zoccolo. Fece però una mossa sbagliata e cadde a terra. Socrate, un po’ sbilanciato, accennò il gesto di posare a sua volta lo zoccolo a terra, ma si accorse che così avrebbe fatto male alla bambina e subito lo sollevò. Un esempio di sensibilità di cui difficilmente sarebbe capace un cavallo.
 
 Socrate è il senatore del gruppo. Ha 17 o 18 anni, che sono molti rispetto agli altri asini del centro, ma non troppi per un quadrupede che può raggiungere e superare i 40. Gira fra uomini e animali, affratellati in questo “strano” luogo al centro di Verona, come se fosse lui il padrone di casa. Si ferma per vedere le pulizie che la signora pratica a una cavalla, gradisce allo stesso modo mele e carezze, si inserisce fra gli umani per partecipare alla conversazione. E sì che ne avrebbe, di ragioni, per diffidare della specie uomo. Viene dalla Romania, dove trasportava bombole di gas e altri carichi pesanti che avevano reso la sua schiena, come si dice in gergo, penosamente “insellata”. Invece è un esempio di equilibrio per i consimili del centro: la dolce Grisette, lo stallone Filippo della preziosa razza d’Amiata, l’Angeletta di 5 mesi che tanto incuriosisce il mastino napoletano Tequila.

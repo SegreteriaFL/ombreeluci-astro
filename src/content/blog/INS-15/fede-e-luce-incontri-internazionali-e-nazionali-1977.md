@@ -1,4 +1,5 @@
 ---
+
 title: Fede e Luce incontri internazionali e nazionali 1977
 date: 1977-06-20
 author: Mariangela Bertolini
@@ -16,7 +17,10 @@ umap_z: 13.83790111541748
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "Fede e Luce è amicizia ma non basta dire vogliamoci bene per fare quelche passo in avanti. Per questo, di tanto in tanto, si fanno degli incontri di responsabili, sia sul piano internazionale che nazionale"
 ---
+
 ### Madrid : Incontro Internazionale - Cuneo: Incontro Nazionale
 
 Fede e Luce è uno spirito, un'amicizia, un atteggiamento interiore. Ma... non basta dire "vogliamoci bene" per fare qualche passo in avanti. Riunioni, feste, incontri, giornalino, necessitano di preparazione. Per questo, di tanto in tanto, si fanno degli incontri di responsabili, sia sul piano internazionale che nazionale.

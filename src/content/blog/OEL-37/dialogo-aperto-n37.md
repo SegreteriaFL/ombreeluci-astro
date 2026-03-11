@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.37
 date: 1992-03-05
 author: Redazione
@@ -15,11 +16,13 @@ issue_number: OEL-37
 id_numero: "OEL-37"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Noi mamme al Sempione
 
 Mi piace raccontare dell’esperienza vissuta al Sempione in occasione di una settimana di formazione per «Fede e Luce», alla quale, per grazia di Dio, ho partecipato. E’ venuta alla fine di agosto, quando appagata la voglia di «vacanza», si ha il bisogno di stare con se stessi. E il luogo era ideale: intorno all’antico e straordinario Simplon Hospiz, dove alloggiavamo, facevano corona le nevi eterne dei ghiacciai che davano vita a ruscelli ricchi di acqua freschissima i quali, quando erano stanchi di capriolare in numerose cascatelle, si adagiavano in comode conche formando caratteristici laghi alpini... Ero circondata da tanti giovani accomunati da un unico denominatore: la grande voglia di vivere ma anche la determinatezza nel voler coinvolgere in quel loro turbine gioioso anche coloro che da soli non ce la potrebbero fare. Che bellezza! E’ questa la capacità di gustare il giusto sapore della vita. C’eravamo noi, cinque mamme impegnate a mantenere con disinvoltura il ritmo sostenuto con cui erano programmate le varie attività della giornata: dirò che non ci siamo tirate indietro neanche di fronte alla scalata della cima più alta (o quasi), nè di fronte alle danze più sostenute o ai canti dei tardi dopocena. Eravamo simpatiche, modestamente noi mamme! Sempre con il sorriso sulle labbra e con dentro l’immagine più felice dei nostri figli lontani. Ma soprattutto c’era la «parola» dei relatori, pacata ma sicura, forte ma dolce, con la quale siamo daccordo nel credere come sia necessario rinnovarsi ma anche come ciò sia possibile solo se alla base c’è una realtà che si fa storia, radice e per ciò stesso si fa maestra e nutrimento.
 
 - **Vittoria Episcopiello** - Bari
+
 
 ---
 
@@ -28,6 +31,7 @@ Mi piace raccontare dell’esperienza vissuta al Sempione in occasione di una se
 Ciao a tutti voi, amici dai mille volti e mille storie. Rileggendo le vecchie pagine di Ombre e Luci, mi è venuta la voglia di farmi conoscere. Sono Luciana, una giovane come tante che vive l’esperienza dell’handicap in famiglia e al lavoro. Ho 29 anni e ho avuto la fortuna di avere tre tesori di fratelli: Enzo, il maggiore, salito al Padre diciotto anni fa. Giorgio di 31, e Cristina di 25. Tutti e tre handicappati gravissimi in seguito ad una encefalite postnatale. La loro presenza è preziosa, ricca di significato, di umanità e di mistero. Sono i maestri più in gamba che abbia conosciuto. tante volte, guardandomi attorno, mi sono sentita soffocare dalla tristezza, dalla solitudine, dal dolore. Tante volte una domanda mi martellava dentro: perché così tanti? Perché proprio a me la salute? Domande che hanno trovato risposta solo nella fede, solo nella preghiera e nell’ascolto della parola di Dio. Quante volte ho gridato a loro: «Perché non parlate?». Ma la luce della fede mi ha fatto udire la loro voce: sì, Giorgio e Cristina sono oggi per me il Vangelo incarnato. Persone dolci, sensibili, innocenti, gioiose, che accolgono la vita come un dono, e condividono a braccia aperte la croce di Cristo. Non pronunciano parole con la bocca, ma parlano con tutto il corpo, con sorrisi, sguardi, affetto; non cammino, ma aiutano a camminare coloro che umilmente si avvicinano, donando serenità e semplicità; non corrono, ma seguono con lo sguardo attento, profondo e umile; non si nutrono, ma danno cibo di umanità sincera a chi si siede al loro fianco; non piangono, ma soffrono in silenzio da una vita intera abbracciando un letto o una carrozzella. Certo che la vita di questi ragazzi, come di moltissimi altri, è lunga da narrare e un libro non basterebbe, perché ogni giorno è ricco di sofferenza e di gioia, di sacrifici, di rinunce e di conquiste. La vita, così paralizzata, vista e letta sotto un’ottica di perfezionismo e di successo, può essere solo un fallimento e un’inutilità, ma guardata con Gesù, acquista significato pieno, diventa Beatitudine. «Beati gli afflitti, perché saranno consolati, beati i miti... beati quelli che hanno fame e sete di giustizia, beati i puri di cuore perché vedranno Dio».
 
 - **Luciana Spigolon**
+
 
 ---
 
@@ -39,6 +43,7 @@ E’ passato tanto tempo da quando ho ricevuto la vostra gradita lettera e vi av
 
 *Possono i nostri lettori continuare a scrivere a Lucia e a Luigi , a mandar loro delle belle cartoline? Noi continueremo a cercare una soluzione concreta d’aiuto per lei, carissima amica, e per i suoi figli.*
 
+
 ---
 
 ### Villaggio per vacanze di persone handicappate
@@ -49,6 +54,7 @@ Un caldo saluto a tutti voi di Ombre e Luci. Mi ha fatto molto piacere ricevere 
 
 *Per chi fosse interessato, ecco alcune note sul Villaggio.* *Villaggio senza barriere Pastor Angelicus, voluto per le persone che portano handicap, bambini, giovani, anziani, per le loro famiglie, amici e accom pagnatori. Indirizzo: Frazione Portolani di Savigno (BO) - Tel. 051/670.61.42. È sul'Appennino bolognese a mt. 700. Sede di Bologna: Via Barberia, 24 - Tel 051/32.25.81.* *Lospitalità al Villaggio viene data per tempi brevi a rotazione in ogni tempo delTanno in appartamenti arredati, con cucina, soggiorno, e servizi, nei quali gli ospiti si autogestiscono, con la possibilità di servirsi del ristorante. In particolare i soggiorni sono organizzati dalla Comunità del Villaggio nei mesi estivi e nelle feste natalizie e di Capodanno. In questi periodi si accolgono campi di scuole che condividono la vita del Villaggio.*
 
+
 ---
 
 ### Scrivetemi: sono sola
@@ -58,6 +64,7 @@ Ciao a tutti, sono Michela, una bambina di undici anni; io non sono malata di me
 - **Michela Napoleoni**
 
 *Cara Michela, grazie per la tua lettera sincera: manifesti bene la tua delusione per avere poche visite di amici della tua età. Io penso che ne verranno altre ma solo se saprai accettare gli altri con i loro limiti e i loro difetti. Nessuno è perfetto. Spero che qualche lettore giovane si faccia vivo con te.*
+
 
 ---
 

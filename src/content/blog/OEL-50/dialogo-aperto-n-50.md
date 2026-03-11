@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 50
 date: 1995-06-02
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### La scoperta
 
 Sono trascorsi due giorni dalla fine del pellegrinaggio e ancora mi sembra di sentire nell’aria i canti di Assisi. Mi ricordo quando Testate di tre anni fa, vi dissi che mi avrebbe fatto piacere conoscere la vita di Fede e Luce; mi esortaste a tener presente che molti giovani che si avvicinano a questo mondo, dopo poco se ne allontanano. Mi rendo conto che anch'io, all'inizio, non avevo compreso fino in fondo il significato di ciò che facevo: lo percepivo con la mente, ma ancora non lo sentivo col cuore. Forse perché a volte trascuravo l'essenziale soffermandomi troppo su ciò che era visibile, guardavo lontano per trovare le parole e i comportamenti più giusti invece di scavare dentro di me per tirar fuori ciò che avevo da dare. Col tempo ho scoperto la gioia autentica degli incontri in comunità. Il divertimento di una serata trascorsa in pizzeria a scherzare con gli amici spesso finisce nel momento in cui si torna a casa; l'allegria di Fede e Luce invece riesco a incamerarla nel cuore e rimane con me a lungo infondendomi serenità. La sera della veglia nella Basilica di Assisi vedevo la luce blu della notte che filtrava dal rosone della facciata, sentivo quel canto sottile e corale; mi ha invaso una pace vera e profonda, ero come se conoscessi tutti coloro che erano lì. Giancarlo mi guardava, credo che anche lui provasse le stesse sensazioni.

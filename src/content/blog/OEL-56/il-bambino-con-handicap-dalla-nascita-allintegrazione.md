@@ -1,4 +1,5 @@
 ---
+
 title: "Il bambino con handicap - Dalla nascita all'integrazione"
 date: 1996-12-15
 author: Nicole Schulthes
@@ -15,6 +16,7 @@ umap_x: 7.568244934082031
 umap_y: 10.275705337524414
 umap_z: 5.98434591293335
 ---
+
 La foto sulla copertina del libro è parlante: rappresenta con grande evidenza un dialogo, uno scambio, una connivenza tra il bambino e l'adulto. In questo consiste lo spirito del libro e l'Autrice lo dice chiaramente: «Il bambino piccolo, con handicap o meno, si pone, fin dall'nizio, come partner attivo nello scoprire il mondo e nel costruire la sua personalità». Ma bisogna aiutarlo. Questa convinzione ha portato l'autrice, fisioterapista di lunga esperienza, a fondare Centri di Assistenza Educativa per i piccolissimi (C.A.E.). Questi Centri sono prima di tutto luoghi di accoglienza per i genitori: genitori colpiti dal dolore davanti al bambino «inatteso», disorientati, in gran parte, proprio a causa di questa sofferenza. «Aiutiamoli ad andare avanti, con le nostre mani, con il nostro sapere, con il nostro cuore». E questo approccio concreto, questo sapere e questa convinzione, che animano il personale dei CAE. Viene dedicata ogni cura al primo appuntamento con i genitori: il rispetto e l'accoglienza sono fatti anche di piccoli dettagli!
 
 Da quel primo momento i genitori vengono coinvolti in tutto ciò che si fa per il bambino e sono aiutati anche, se è necessario, ad inserire il bambino nel modo migliore, nell'asilo nido e nella scuola materna.

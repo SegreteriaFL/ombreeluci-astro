@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 113
 date: 2011-03-04
 author: Redazione
@@ -14,13 +15,18 @@ umap_z: 11.052876472473145
 issue_number: OEL-113
 id_numero: "OEL-113"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Come acqua fresca ad un assetata...
 
 ...così una buona notizia dai un paese lontano. Questa frase in inglese campeggia all’interno dell’ufficio postale centrale di Hong Kong. Scolpita su una tavola di legno, era collocata nel vecchio edificio delle Poste, quando le lettere impiegavano tempo ad arrivare a destinazione. Ora non è più così. Mi auguro comunque che questa mia lettera agli amici italiani giunga ugualmente come acqua fresca, porti cioè un messaggio di gioia e di speranza. Potrebbe essere l’ultima circolare che mando. Nessuna meraviglia. Come ha recentemente scritto agli amici Jean Vanier: “Questo è il ciclo della vita, siamo programmati per crescere, ma anche per indebolire e poi morire”. (...) Poco dopo essere diventato prete arrivai a Hong Kong. Fu come se la mia famiglia, la mia parrocchia di origine, il seminario del PIME dove sono stato formato, mi avessero consegnato ai cattolici di Hong Kong, dicendo: “Adesso tocca a voi prendervi cura di P. Mario”. (...) Li ringrazio per avermi accolto, aiutato e sostenuto in tanti modi. E quando sette anni fa ebbe inizio la mia presenza nella Cina continentale, il rapporto di amicizia si è esteso ai disabili mentali e agli assistenti di Huiling, ai cristiani (e preti e suore) della Chiesa di Guangzhou e tanti altri. (...) In particolare ringrazio le persone di Mandello (e quelle che volessero ancora fare qualcosa) per il completamento della sistemazione della scuola materna integrativa di Huiling già bene avviata grazie all'aiuto concreto della scuola Sandro Pertini nel Natale 2009. Qualcuno si domanderà: perché mandare soldi in Cina, una nazione che è ormai la seconda potenza economica del mondo? La risposta è che del benessere del Paese, sempre più in aumento, non beneficiano tutti in modo equo. Ci sono grandi masse che vivono ancora ai margini della società. E così le Onlus come la nostra non ricevono regolari sussidi dallo Stato. Huiling pareggia il suo bilancio attraverso modeste rette versate jdai familiari, le adozioni a distanza, e altri contributi offerti da enti o da singoli individui. (...) Da quando vivo nell’interno della Cina ho più tempo a mia disposizione e riesco a tenermi in contatto con tante persone attraverso la posta elettronica. Se qualcuno mi manda un'e-mail, rispondo. Scrivere una breve lettera in cinese, col computer non è poi così difficile. Ora che non lavoro più in una parrocchia vera e propria, con le persone con cui sono in corrispondenza si è formata una specie di “parrocchia virtuale”. (...) Penso spesso alle difficoltà dei preti che in Italia devono affrontare la sfida di una società malata che ha perso il gusto del Vangelo. La mia opera qui è invece fatta di piccole cose: vivere assieme ad un gruppetto di disabili cercando di offrire loro un po’ di affetto, dare un po’ di impegno di assistenza e riabilitazione, salutare e sorridere alle persone che incontro lungo la giornata... Piccole cose che mi sforzo di fare con amore, convinto che “a Dio servono piccoli uomini, con i loro difetti e le loro carenze, per dare serenità”. A tutti i fratelli e sorelle di fede sparsi nel mondo il Papa Benedetto XVI chiede di pregare per i cristiani cinesi. Penso che a noi presenti in Cina è chiesto qualcosa di più. Intercedere non vuol dire semplicemente “pregare per qualcuno” come solitamente pensiamo. Significa “fare un passo in mezzo”, mettersi in mezzo a qualcuno, per camminare assieme. Far sentire ai cristiani cinesi la nostra amicizia e solidarietà, stare con loro condividendo gioie e sofferenze, offrire il nostro incoraggiamento ed aiuto là dove è possibile: è il nostro piccolo contributo che possiamo dare a questa Chiesa che ci accoglie e di cui siamo lieti di far parte. Auguri per il vostro prezioso servizio. Con affetto,
 **P.Mario Marazzi**
 
 (PIME Guangzhouo)
+
+
 
 ---
 

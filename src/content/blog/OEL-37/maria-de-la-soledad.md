@@ -1,4 +1,5 @@
 ---
+
 title: Maria de la Soledad
 date: 1992-03-05
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-37
 id_numero: "OEL-37"
 numero_rivista: "Ombre e Luci"
 ---
+
 Durante [il pellegrinaggio di Lourdes](http://www.ombreeluci.it/project/numero-37-pellegrinaggio-a-lourdes-1991-che-siano-una-cosa-sola/) (del 1991 N.d.R.), il Sabato Santo padre Brian Lowery ha parlato di Maria ai genitori italiani. Ecco le parti più significative della sua riflessione.
 O
 ggi è Sabato Santo. Questo giorno liturgicamente è sempre un giorno piuttosto «vacante», messo fra la forte drammaticità della passione di Gesù di Venerdì Santo e la Veglia Pasquale di stanotte. Invece, in alcuni luoghi della Spagna, qua vicino, Sabato Santo è un giorno molto sentito. Lì si ricorda Maria, col titolo della Vergine della Soledad, Maria in solitudine. L’immagine venerata è di Maria, sola, senza la compagnia di Gesù, che è già seppellito dietro la pietra. Per lei Sabato Santo era un giorno completamente vuoto e privo di consolazione. Io immagino Maria, in quel giorno, così. Sta pensando tra sé: che cosa è successo? Come mai Dio ha fatto finire così il suo piano d’amore, che l’angelo ha annunziato a me 30 anni prima? Perché è stata troncata la vita di mio figlio con quell’atroce tortura, quell’umiliazione, l’abbandono degli amici e la morte da criminale?

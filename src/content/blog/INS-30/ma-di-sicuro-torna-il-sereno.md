@@ -1,4 +1,5 @@
 ---
+
 title: Ma di sicuro torna il sereno
 date: 1981-12-20
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 D omenica 10 gennaio, una data indimenticabile. Ancora oggi mi sento quasi sollevata da terra quando rivedo con il ricordo il Santo Padre celebrare il battesimo di mio figlio.
 
 Il Suo sguardo così profondo e mistico che trasmette luce, sembra voglia dire di aver fede, sempre di più, specialmente quando si è molto tristi e si devono superare prove più grandi di noi.

@@ -1,4 +1,5 @@
 ---
+
 title: "Una nuova Casa Famiglia: OIKOS"
 date: 1999-06-16
 author: Nicole Schulthes
@@ -18,6 +19,7 @@ umap_x: 7.698851108551025
 umap_y: 7.883578300476074
 umap_z: 9.077563285827637
 ---
+
 Ai primi di novembre 1998, la casa famiglia dell’Associazione “OIKOS” (casa) ha aperto le sue porte a cinque giovani adulti con disabilità gravissima, di tipo psicotico-autistico. Non è nostra abitudine presentare servizi al loro sorgere. Di regola, preferiamo aspettare che progetti così essenziali diano le prove della loro solidità nel tempo. Le ragioni che ci spingono a parlare della casa OIKOS sono le seguenti:
 
 - Il fatto che la convenzione con il Comune di Roma sia già firmata vuol dire non solo idoneità del progetto ma anche sicurezza finanziaria - La natura dell’iniziativa: una mamma ancora giovane l’ha ideata, si è unita ad altri genitori, ha combattuto con forza superando i numerosi ostacoli - Questa mamma non ha aspettato, per l'urgenza del suo bisogno, per dar vita a questa casa: sua figlia di 14 anni vive ancora a casa con lei - Il funzionamento della casa è frutto di una stretta collaborazione tra presidente dell’Associazione, gruppo di genitori e operatori - La casa funziona con un progetto pedagogico preciso (1) ideato e sperimentato per questo tipo di disabilità, portato avanti da personale specializzato in questo metodo, appoggiato da esperti.

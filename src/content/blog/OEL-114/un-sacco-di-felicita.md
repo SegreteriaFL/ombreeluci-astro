@@ -1,4 +1,5 @@
 ---
+
 title: "Un sacco di felicità"
 date: "2011-06-04"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Relazioni"
 issue_number: OEL-114
 id_numero: "OEL-114"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Priscilla nel 2008 è partita per il Vietnam con il MEP (Missioni Estere Praigi) dove si è occupata soprattutto di bambini dai 2 ai 9 anni. Oggi lavora in un centro di protezione per l'infanzia nella periferia parigina"
 ---
+
 Per molto tempo mi sono colpevolizzata per aver ricevuto molto, per essere nata in una famiglia numerosa dove ho ricevuto amore e fede: in una parola, in una culla dorata. Colpita dal passo del Vangelo “A quelli che hanno ricevuto molto, molto sarà chiesto”, mi sono detta: “Adesso, cerca di dare come puoi”.
 
 Ho finito gli studi sociali a 21 anni. Col diploma in tasca, prima di lanciarmi nella vita attiva, ho sentito il bisogno di fermarmi. Sapevo che avrei lavorato in Francia perciò ho preferito partire all’estero e lasciare l'Europa.

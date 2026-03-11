@@ -1,4 +1,5 @@
 ---
+
 title: Arrendermi o agire?
 date: 1990-06-21
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 8.388930320739746
 issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
+
+subtitle: "La storia di Antonio attraverso le parole del padre Giuseppe: la spasticità a seguito di una febbre, l'impegno in AIAS e le tappe di una rinascita"
 ---
+
 Accingendomi a scrivere queste righe su mio figlio Antonio e sulla sua storia, sento d’essere in bilico tra il proponimento di attenermi alla fredda narrazione dei fatti — di per sé già tanto eloquenti — e la tensione emotiva che inevitabilmente rinasce nel trattare un argomento che così profondamente ha inciso nella mia vita. Mi pare che quella della lettera possa essere per me la forma migliore per raccontare la storia di **un rapporto doloroso all’inizio** e irto di impensabili difficoltà, risoltosi poi nel modo che dirò per la mia decisa volontà di non darmi per vinto e **di non lasciare nulla di intentato** , sperando anche contro ogni speranza.
 
 Una lettera che potrebbe essere scritta così.

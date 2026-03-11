@@ -1,4 +1,5 @@
 ---
+
 title: Il nostro cucciolo di due metri
 date: 1984-09-29
 author: Betty Collino
@@ -19,6 +20,7 @@ issue_number: OEL-7
 id_numero: "OEL-7"
 numero_rivista: "Ombre e Luci"
 ---
+
 Tanti anni fa (ne avevo 18 o 19), iniziai con [Mario](https://www.ombreeluci.it/author/mario-collino/) ad andare a *Stella Mattutina* (un istituto psico-medico pedagogico) di Cuneo, una domenica il mese per far giocare i bambini e aprire un rapporto di amicizia con loro. Mi sentivo molto brava e presa dall'entusiasmo della «buona azione» verso quei poveri bambini malati: avevo il morale alle stelle.
 
 **La direttrice dell’istituto decise di affidarci un gruppo di 28 bambini** (i *Passeri* e gli *Scoiattoli)* che abitavano la casetta chiamata: «Il bosco». L’istituto si compone di sei casette uguali, ognuna delle quali ospita due gruppi di bambini e le rispettive educatrici. Così diventammo «Gli amici del bosco». Quando ci vedevano arrivare alla domenica era una gran festa, per loro e per noi. Presto quelle visite divennero quindicinali.

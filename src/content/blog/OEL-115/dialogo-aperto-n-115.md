@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 115
 date: 2011-09-04
 author: Redazione
@@ -16,13 +17,18 @@ umap_z: 10.5325345993042
 issue_number: OEL-115
 id_numero: "OEL-115"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande
 
 ### È nato!
 
 C'è stato un lieto evento in comunità e lo vorrei condividere con tutta FEDE e LUCE attraverso il prossimo numero della vs splendida e sempre più incisiva rivista. Il 27 aprile 2011 alle ore 10.45 io, responsabile della comunità “Il Germoglio” e mia moglie Mena abbiamo avuto dal Signore un altro dono altrettanto grande. Infatti siamo diventati nonni per la nascita del piccolo Raffaele da nostra figlia Imma e suo marito Tanio entrambi pure loro facenti parte della comunità. Pertanto nostro figlio Pasquale (ragazzo) è diventato “zio Pasqualino”: grande è stata la sua gioia nel vedere il piccolino appena nato. Quando ho comunicato a casa la nascita di Raffaele, ho sentito dal telefono le sue urla di gioia che dicevano: È FINITA, È FINITA, È NATO, È NATO come se stesse allo stadio. La sua felicità si palpava e tutt’ora i suoi occhi brillano di gioia. Per quel che ci riguarda possiamo testimoniare che è stata un'esperienza di gioia indescrivibile che solo il Signore può donare ed auguriamo a tutti di viverla intesamente come l'abbiamo vissuta noi. Grazie Signore per quel che riesci a darci giorno per giorno ed auguriamo al piccolo Raffaele ed ai neo genitori Tanio ed Imma lunga vita insieme e tanta felicità nel segno del grande amore di Dio.
 **Lello**
+
+
 
 ---
 

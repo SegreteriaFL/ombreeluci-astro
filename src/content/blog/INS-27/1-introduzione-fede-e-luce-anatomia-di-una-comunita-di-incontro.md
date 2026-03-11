@@ -1,4 +1,5 @@
 ---
+
 title: "1. Introduzione - Fede e Luce: anatomia di una comunità di incontro"
 date: "1980-03-16"
 author: "Luis Sankalé"
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 ## Il pellegrinaggio internazionale
 
 Il pellegrinaggio internazionale che Fede e Luce farà a Lourdes nel 1981 non dovrà essere una riedizione di quello del 1971.

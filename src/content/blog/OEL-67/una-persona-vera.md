@@ -1,4 +1,5 @@
 ---
+
 title: Una persona vera
 date: 1999-09-13
 author: Lucia Bertolini
@@ -15,6 +16,7 @@ umap_x: 7.636484146118164
 umap_y: 11.135199546813965
 umap_z: 4.901002407073975
 ---
+
 Èquesto un libro bello e drammatico che racconta in prima persona la storia di una vita vissuta all'insegna della diversità e della sofferenza fino all'approdo, conseguito nell'età adulta, ad una situazione di consapevolezza e di pace. Gunilla è una bambina molto intelligente che vive in un clima di inquietudine e di sofferenza. Inquietudine e sofferenza nascono da particolari sintomi che Gunilla percepisce e patisce acutamente e che il mondo esterno sembra ignorare: una persistente dolorosa sensibilità ai denti, alla nuca, alla colonna vertebrale, sulla pelle una enorme fatica a formulare le parole che limita il suo linguaggio al concreto e all'essenziale; la difficoltà a governare i movimenti del suo corpo; una sensibilità acuta per i rumori che affollano senza possibilità di discernimento i suoi timpani; l’avversione profonda a mescolarsi con gli altri bambini e con la gente in genere.
 
 Queste ed altre sono le difficoltà che la bambina patisce mentre avverte la sua diversità nel paragone con gli altri: mentre sperimenta l'intolleranza che «gli altri» dimostrano di fronte ai suoi tentativi di alleviare la sua sofferenza fisica ed esistenziale perché sfociano in stereotipie giudicate insopportabili, in attacchi di violenza: Gunilla li vive come «panico» e gli altri come «rabbia».

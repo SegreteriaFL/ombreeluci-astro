@@ -1,4 +1,5 @@
 ---
+
 title: E se rivoluzionassimo la spesa?
 date: 2024-08-26
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 7.862683296203613
 issue_number: OEL-166
 id_numero: "OEL-166"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Margareth Martino presenta il progetto «Noi siamo amici di ScopriAMO l’autismo»"
 ---
+
 Un[**video di qualche anno fa**](https://www.youtube.com/watch?v=-ZBw7Xk0SLI) , facilmente recuperabile su YouTube, mostrava in meno di un minuto e mezzo cosa poteva far detonare una crisi comportamentale in un bambino autistico al centro commerciale con la madre, compresa la reazione, ben poco comprensiva, di qualche avventore nelle vicinanze. Al termine dello spot, il piccolo protagonista spiegava di «non essere maleducato ma autistico»: le informazioni erano eccessivamente numerose e sovrapposte per le sue possibilità sensoriali. Un vero caos insomma, frustrante e destabilizzante, che diventa autentica barriera architettonica.
 
 «L’autismo rimane una disabilità un po’ invisibile: chi assiste pensa che il bambino sia capriccioso, non comprendendo che le possibilità di risoluzione del comportamento problematico non possono essere quelle normalmente utilizzabili con altri minori» ci spiega Margareth Martino, medica chirurga e vice presidente dell’associazione [*ScopriAMO l’autismo*](https://www.scopriamolautismo.it/) . «Certo, nel corso della vita queste difficoltà cambiano – prosegue Martino –, i bambini presentano una difficoltà maggiore rispetto agli adulti, che sono in grado di adattarsi a realtà più caotiche. Però le energie fisiche e mentali necessarie sono veramente alte. Sono loro stessi a raccontare che, tornati dalla spesa, devono riposare e che preferiscono non svolgere altre attività, per darsi un tempo di ripresa».

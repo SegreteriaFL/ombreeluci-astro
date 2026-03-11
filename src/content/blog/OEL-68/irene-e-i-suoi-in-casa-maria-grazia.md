@@ -1,4 +1,5 @@
 ---
+
 title: "Irene e i suoi  in \"Casa  Maria Grazia\""
 date: 1999-12-17
 author: Redazione
@@ -18,6 +19,7 @@ umap_x: 7.242321968078613
 umap_y: 7.826382160186768
 umap_z: 9.36959171295166
 ---
+
 Sappiamo tutti come la riuscita di una "buona" casa famiglia dipende, più che dal denaro o dai titoli di studio, da come sono i responsabili della casa. Per questo abbiamo voluto conoscere da vicino ed ascoltare Irene che insieme a Michael dirige la Casa Maria Grazia.
 
 **Perché hai scelto questa professione?** Quando ero più giovane lavoravo in un ufficio. II primo passo verso questa scelta è stata una mia riflessione durante la gravidanza: se avessi saputo che il bimbo portava una disabilità lo avrei tenuto ugualmente. Dopo la nascita di Anna ho smesso di lavorare e ho frequentato, all’estero, il corso di formazione *steinariana* con il desiderio di portare poi in Italia quello che andavo imparando.

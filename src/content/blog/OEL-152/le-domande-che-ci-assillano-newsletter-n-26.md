@@ -1,4 +1,5 @@
 ---
+
 title: Le domande che ci assillano – Newsletter n. 26
 date: 2020-11-13
 author: Redazione
@@ -15,7 +16,9 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### OL incontra...
+
 
 ---
 
@@ -25,6 +28,7 @@ numero_rivista: "Ombre e Luci"
 
 ### Quando la scuola accoglie davvero
 
+
 ---
 
 È la scrittrice Giulia Alberico a raccontarci
@@ -32,6 +36,7 @@ numero_rivista: "Ombre e Luci"
 , presentandoci Francesca, l’alunna «disarmonica» conosciuta al liceo linguistico nel 2007, senza che – di fatto – nessuno gliela abbia presentata. Caparbia, attenta, scrupolosa, Alberico trova la sua via per relazionarsi con la ragazza, un percorso non sempre facile ma estremamente fruttuoso, ennesima dimostrazione che le cose funzionano grazie a persone intelligenti e di cuore. Ma che ne è degli alunni con difficoltà privi di questa grande fortuna?
 
 ### Il libro del mese
+
 
 ---
 
@@ -42,6 +47,7 @@ E con una domanda inizia anche la conoscenza di Cristina Tersigni con Andrea Bon
 ​
 
 ### Nel prossimo numero di Ombre e Luci
+
 
 ---
 
@@ -63,11 +69,13 @@ di questo numero accoglie
 
 ### 0-13
 
+
 ---
 
 Disegno di Annachiara, 12 anni e mezzo, terza media a Cuneo.
 
 ### Il blog di Benedetta
+
 
 ---
 
@@ -78,9 +86,11 @@ Io mi sono arrabbiatissima. Ho detto tante parolacce. E ho pure urlato. Ho prote
 
 ### Il post del mese
 
+
 ---
 
 ### Vita Fede e Luce
+
 
 ---
 

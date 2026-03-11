@@ -1,4 +1,5 @@
 ---
+
 title: La scrittura non va in esilio
 date: 2019-11-03
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 Facendo parte della giuria del concorso *La scrittura non va in esilio* per le scuole superiori, abbiamo scoperto che tra i 32 racconti finalisti in gara, tre avevano per protagonista la disabilità nella migrazione: **Io amo la vita** di Carlotta Bandini (Roma), **Io sono Rayan** di Carlotta Greppi (Milano) e il bellissimo **L’odore della terra** di Damiano Chiarello (Tricase, Lecce) rivelano un’attenzione per persone e temi spesso ignorati quando si parla delle disperate fughe verso l’Europa.
 
 **Io amo la mia vita** - *Carlotta Bandini*

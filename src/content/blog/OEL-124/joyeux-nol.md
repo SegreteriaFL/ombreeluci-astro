@@ -1,4 +1,5 @@
 ---
+
 title: Joyeux Noël!
 date: 2013-12-14
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-124
 id_numero: "OEL-124"
 numero_rivista: "Ombre e Luci"
 ---
+
 La
 celebrazione della Nascita di Gesù prende ogni anno un posto rilevante nella società del Benin. La causa, non è affatto da imputare all’aspetto “marketing” come tentano di far credere alcune opinioni poco accorte. Piuttosto, la costante crescita dell’atmosfera natalizia traduce lo slancio di una comunità appassionata ai valori della condivisione e della gioia.
 **La vicinanza degli uni verso gli altri in questa Festa si manifesta attraverso l’azione della grazia di Dio**

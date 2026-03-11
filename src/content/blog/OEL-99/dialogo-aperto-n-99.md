@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 99
 date: 2007-11-09
 author: Redazione
@@ -14,11 +15,16 @@ has_comments: false
 umap_x: 4.710146427154541
 umap_y: 8.415304183959961
 umap_z: 10.390181541442871
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Perché, si, perché?
 
 Nostro figlio Vincenzo, di undici anni, l’altro giorno tornava con noi da una visita specialistica e in treno continuava a ripeterci: "Ma papà, cosa vuol dire daun?". Cercavamo di trovare una risposta adeguata, ma lui con ostinata tenacia continuava a ripetere: "Mannaggia, papà, che cos'è daun?". La vera domanda era: "Perché quando andiamo ai giardini, i bambini con cui gioco mi guardano in modo strano? Perché quella mamma ha richiamato quella bambina alla quale mi ero avvicinato?". È facile dire che siamo tutti più o meno handicappati. È anche facile far capire a Vincenzo la sua diversità dovuta a un maledetto cromosoma di troppo. Che noi siamo a volte handicappati di cuore quando non sappiamo sorridere, perdonare, amare. Quello che non è facile è spiegare ad un preadolescente Down il "perché"? Perché lui e non un altro? Perché questo si vede sul suo viso? Perchè tanta gente si ferma alla sua apparenza? Certo, quando tutto va bene, ci sembra facile rispondere che questi ragazzi hanno la vocazione di salvare il mondo, che la loro preghiera è preziosa agli occhi del Signore, e come sanno toccare il cuore di chi li avvicina con amore... Ma come dirlo nei momenti di scoraggiamento, di estrema fatica... Che cosa potevo dire la prima volta che ho preso tra le braccia Vincenzo? Non sapevo che ripetere: Perché, perché, come farà lui più tardi. Ripetere questo grido del povero che non capisce, quel grido che Dio sa amare... (OL n. 158).
 **F.S.**
+
+
 
 ---
 
@@ -27,12 +33,16 @@ Nostro figlio Vincenzo, di undici anni, l’altro giorno tornava con noi da una 
 Nei primi mesi del 2007 le comunità Fede e Luce della Lombardia sono state tutte profondamente segnate dalla perdita di carissimi amici che sin dall'inizio, oltre trent'anni fa, hanno partecipato all’avvio e all'attività del Movimento. Li ricordiamo: Luciano Carrozzi (marito di Giovanna Testa per anni tesoriera nazionale di Fede e Luce), Orazio Goffi (papà di Maria che tutti conosciamo), Beatrice Pezzoli(Trixi) e Olga Sargentoni. Siamo certi che il Signore ha accolto questi amici fra le sue braccia: ora contemplano il suo volto assieme a tutti gli altri amici che ci hanno preceduto nella Gerusalemme Celeste. Ai loro cari va il nostro affettuoso abbraccio.
 **Fede e Luce Lombardia**
 
+
+
 ---
 
 ### Mi sento confuso
 
 Io mi sono svegliato presto, e mi sento confuso, e penso perché si sposano; come avrà fatto a convincerla Agnese. lo ci sono andato, assieme a mia madre Paola Pisenti; vestito in giacca scura, con la . cravatta, e con le scarpe nere, che fanno male se non si è abituati a portarle. La messa era divertente. Ci sono andato volentieri in chiesa ed anche al rinfresco che era verso Monterotondo. C'erano tutti gli amici di Fede e Luce, in parte li conosco solo di vista. Sono convinto che è una cosa egoistica; uno poi sta da solo con lei e poi fa il viaggio, a me manca una cosa simile, una persona che mi segua e che mi dica: "Questo lo puoi fare! Questo no! Non fare colpi di testa e non essere geloso! Non nascondo che mi piacerebbe assai vivere una storia d'amore con una ragazza, ma non so se è possibile o mi è stato vietato. So soltanto che entrambi sono miei amici e vorrei sapere cosa pensano di me. L'argomento si trova, il giardinaggio, la musica, le spiritosaggini ecc. È andato tutto bene insomma, mi piace che continui ad andare bene nel lavoro e nel seguito in comunità. Ciao da
 **Giovanni Grossi**
+
+
 
 ---
 
@@ -42,6 +52,8 @@ Io mi sono svegliato presto, e mi sento confuso, e penso perché si sposano; com
 **Immacolata Guardalfiera**
 Campobasso
 
+
+
 ---
 
 ### Lettera a mia figlia cerebrolesa
@@ -49,6 +61,8 @@ Campobasso
 Cara Pinuccia, bambina senza sogni e senza speranza, le tue piccole mani non hanno potuto scrivere i tuoi sogni di bambina come tutte le altre. Sei cresciuta nella sofferenza, non hai potuto esprimere le tue speranze, quello che ognuno di noi sogna di fare. Non hai potuto progettare i tuoi sogni di bambina, di ragazza e d’adolescente. Non hai potuto avere le ali per far volare i tuoi desideri, i tuoi pensieri. Sei come un angelo. Non so cosa passa nella tua mente, per cosa batte il tuo cuore, non hai scopo nella vita. Sei come perduta in mezzo ad un mondo che non s'interessa dei problemi, delle tue paure e del tuo dramma. Le tue mani non hanno potuto mai raccogliere un fiore, non hai avuto la gioia di veder volare un uccellino. Ora anche i tuoi occhi stanno perdendo la luce e non puoi vedere le cose che ti circondano. Chi ti prenderà per mano un giorno quando non ci saranno più i tuoi genitori? Pinuccia cara, non potrai mai capire queste parole che sto scrivendo con tanto dolore. Se un giorno qualcuno ti leggerà questa mia lettera, tu non capirai, vivi in un mondo irreale, lontano dalle cose normali, non appartieni agli esseri normali. Tu sei un angelo. Speriamo che un giorno anche tu potrai avere ali per volare insieme a tutti gli angeli di Dio verso la luce eterna. La tua mamma
 **Maria Antonia De Simone**
 Nuovo Germoglio — Fede e Luce Mazara del Vallo
+
+
 
 ---
 

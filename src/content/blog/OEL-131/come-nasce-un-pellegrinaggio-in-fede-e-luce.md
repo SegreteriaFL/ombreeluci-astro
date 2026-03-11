@@ -1,4 +1,5 @@
 ---
+
 title: Come nasce un pellegrinaggio in Fede e Luce
 date: 2015-09-22
 author: Paolo Tantaro
@@ -17,6 +18,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 Provate ad individuare cosa possa spingere ad organizzare un pellegrinaggio. Un Pellegrinaggio in
 *Fede e Luce*
 . Un’iniziativa così rappresenta sempre un fenomeno positivo, coraggioso, che nasce da spinte e motivazioni diverse: la storia di un movimento, la sua appartenenza, la ricerca di momenti di comunione. Il nostro movimento nacque proprio da un pellegrinaggio a Lourdes, nella Pasqua del 1971. Le motivazioni che portarono ad organizzarlo furono essenzialmente tre:

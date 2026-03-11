@@ -1,4 +1,5 @@
 ---
+
 title: "Liberi di vivere come tutti: Prima Conferenza Nazionale delle politiche sull’handicap"
 date: 2000-03-28
 author: Cecilia Cattaneo Barbieri
@@ -14,7 +15,10 @@ umap_z: 7.669589519500732
 issue_number: OEL-69
 id_numero: "OEL-69"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le considerazioni di Cecilia Cattaneo Barbieri, Presidente dell’Unione Famiglie Handicappati che ha partecipato alla conferenza tenutasi a Roma nel dicembre del 1999"
 ---
+
 La Conferenza è stata un grande successo, perché per la prima volta in Italia il problema dell’Handicap è apparso nella sua drammatica globalità. Fino a ieri governo e istituzioni erano ben lontani dall’avere preso coscienza e quindi dal rispondere ai bisogni reali, così diversificati, dei cittadini disabili. Osserva giustamente **Edoardo Cernuschi** , presidente della [LEDHA - Lega per i diritti degli handicappati](https://www.ledha.it/) : "Si dice handicap e si pensa sempre all'handicap fisico, allo spastico, al paralitico in carrozzella. Invece ci sono tanti handicap oltre a quello fisico, e tanti gradi diversi: quello mentale, quello sensoriale, quello fatto di un leggero ritardo. E ogni tipo di disabilità ha problemi diversi da affrontare...)
 
 Chi scrive, con la sua piccola combattiva Associazione trentennale ( [Unione Famiglie Handicappati](http://www.ufha.org/) ) da decenni sosteneva che in realtà il peso vero dell’handicap italiano gravava, caso unico in Europa, totalmente sulle famiglie, inascoltate e non prese in considerazione non si sa perché da nessuno. E che erano le famiglie italiane, dal Nord al Sud le uniche vere esperte dei vari handicap che dovevano organizzarsi e far sentire la propria voce, altrimenti la realtà del Paese non sarebbe mai emersa. Noi eravamo convinti che tutte le centomila Associazioni non rappresentavano altro che piccole parti di un tutto che sfuggiva nella sua interezza al legislatore.

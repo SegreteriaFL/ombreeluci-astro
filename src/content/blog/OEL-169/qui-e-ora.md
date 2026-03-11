@@ -1,4 +1,5 @@
 ---
+
 title: Qui e ora
 date: 2025-05-14
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 12.149442672729492
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il racconto della Piccola Marcia verso Assisi, un pellegrinaggio inclusivo nato per accogliere giovani con disabilità, dove il cammino diventa esperienza di fraternità, fede e riconciliazione."
 ---
+
 «Flavia, perché non vieni anche tu alla marcia di Assisi?» «Fra Paolo, ma stai scherzando???». Flavia Messina potrebbe aver risposto in maniera decisamente più colorita ma il senso era quello. Ce lo raccontava in una delle testimonianze che hanno arricchito le tre giornate estive verso Assisi insieme alla preghiera, alle meditazioni (fatte anche con segni molto concreti) alle quali ogni giorno siamo stati invitati all’inizio e al termine della tappa del pellegrinaggio. Flavia ricordava come si fosse trovata a seguire alcune catechesi e avesse fatto amicizia con fra Paolo Bergamaschi. Il quale, vista l’età e il carattere, non aveva esitato a invitarla per quella che da più di quarant’anni è un’occasione per tanti giovani tra i 18 e i 35 anni di arrivare nella cittadina umbra per il 2 agosto, ricorrenza della festa del Perdono di Assisi.
 
 **Il Perdono di Assisi ha una storia davvero lontana** : Francesco lo ottenne nel 1216 da Onorio III. Questa possibilità, si racconta, si realizzò grazie a una preghiera del santo nella quale chiedeva al Redentore di poter salvare anime attraverso la visita alla piccola chiesa da lui tanto amata. Quando fu di fronte al pontefice, Francesco spiegò la richiesta e il papa chiese «Per quanti anni?». «Anime, non anni», fu la risposta. Continuiamo così a poter godere del privilegio ogni 2 agosto, giorno in cui il Poverello annunciò alla folla che si era radunata difronte alla cappella da poco riparata che chiunque, «con buona disposizione di cuore e pentito» si fosse recato pellegrino alla Porziuncola, avrebbe ottenuto l’indulgenza per ogni peccato: voleva proprio tutti in Paradiso.

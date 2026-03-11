@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.137
 date: 2017-03-16
 author: Redazione
@@ -14,12 +15,17 @@ umap_z: 10.548967361450195
 issue_number: OEL-137
 id_numero: "OEL-137"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Purtroppo...
 
 Purtroppo sono anni un po' duri per tutti, le tredicesime se ne vanno per pagare assicurazioni varie, bollette ecc. La rivista Ombre e Luci quando ho tempo la leggo sempre volentieri e se posso la faccio anche girare. Ho letto con piacere gli articoli su Mariangela Bertolini, ne conservo un caro ricordo, anche per tutto l'interesse che ha avuto per il gruppo di incontro di Abano S. Lorenzo, che però non è approdato a niente. Oggi tutti siamo molto impegnati e ognuno di noi ha un problema a casa: genitori anziani da accudire, figli disabili o nipoti da seguire, quando non è lui stesso ammalato e bisognoso di cure, come sta succedendo a me in questo periodo. A Natale ho fatto fatica ad organizzare un incontro di Fede e Luce qui ad Abano, adesso qualcuno non vuole più pregare, per qualcuno è diventata una moda definirsi laico. Vi saluto cordialmente. 
 
 **Paola Spadati**
+
+
 
 ---
 
@@ -42,6 +48,8 @@ Sapevi consigliare gli altri con semplicità, distinguere con vera saggezza ciò
 A me ricorda che un vero maestro è una persona che rimane aperta, sempre in cammino, perché consapevole che quello che ha imparato, nella vita e dalla vita, è poco rispetto a ciò che può ancora imparare e trasmettere agli altri fino all’ultimo giorno. Così è stato per te, vera maestra di vita. Grazie, Mamma! Rendo grazie a Dio per te e per Papà, insieme a tutti coloro che vi hanno conosciuto ed amato! Dal profondo del cuore 
 
 **Suor Maria Chiara** , la più piccola! Pralormo, 21 luglio 2016
+
+
 
 ---
 

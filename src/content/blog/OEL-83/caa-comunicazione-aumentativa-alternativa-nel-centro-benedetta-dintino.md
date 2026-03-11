@@ -1,4 +1,5 @@
 ---
+
 title: C.A.A. - Comunicazione aumentativa alternativa nel centro Benedetta D’Intino
 date: 2003-09-03
 author: Antonella Bulgheroni
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.904655456542969
 umap_y: 7.7855224609375
 umap_z: 8.460314750671387
+
+subtitle: "Cosa è la C.A.A. Comunicazione aumentativa alternativa e come viene applicata nel  Centro  Benedetta D’Intino"
 ---
+
 Nel 1994, grazie al sostegno dell’omonima Fondazione, nasce a Milano il [**Centro Benedetta D’Intino**](https://www.benedettadintino.it/) per la cura ed il trattamento di bambini e adolescenti con disturbi psicologici, per il sostegno alle loro famiglie e per favorire la comunicazione e l’autonomia in bambini con disabilità di vario grado o privi di linguaggio orale.
 
 Oltre ai settori di intervento di psicoterapia e di affidi e adozioni, il Centro comprende anche il settore di **Comunicazione Aumentativa Alternativa** (C.A.A.) offrendone il primo servizio in Italia di valutazione, consulenza, formazione e supervisione sotto la direzione della Dott.ssa Aurelia Rivarola.

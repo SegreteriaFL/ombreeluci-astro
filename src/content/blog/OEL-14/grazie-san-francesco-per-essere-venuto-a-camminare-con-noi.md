@@ -1,4 +1,5 @@
 ---
+
 title: Grazie San Francesco per essere venuto a camminare con noi
 date: 1986-06-24
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 Dopo due pellegrinaggi ad Assisi (nel ’78 e ora nell’86), penso che dobbiamo considerare S. Francesco come particolarmente vicino a noi. Cerco di riassumerla in qualche punto, in cui vorrei esprimere anche la mia esperienza di Assisi ’86.
 
 ### I. Spiritualità dei poveri

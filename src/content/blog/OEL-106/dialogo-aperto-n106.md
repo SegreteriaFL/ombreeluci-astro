@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n.106
 date: 2009-06-10
 author: Redazione
@@ -14,10 +15,15 @@ umap_z: 10.905104637145996
 issue_number: OEL-106
 id_numero: "OEL-106"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Diversi modi di usare
 
 Dall’Istituto Edith Stein, Associazione privata di fedeli per Formazione in Scienze umane nella Vita Consacrata e Comunità Educative Ecclesiali, ci scrivono che: “Stiamo constatando come l’inserire elementi formativi (di conoscenza di sé e dell'altro, di riflessione per relazionarsi con se stessi, con gli altri e con il Signore, di approfondimento graduale, ecc.) tratti anche dalla vostra rivista, possa aiutare le persone, che percorrono l’anno sabbatico, ad andare verso una positiva ri-motivazione delle scelte già effettuate, superando i momenti complessi della loro Vita Consacrata”.
+
+
 
 ---
 
@@ -26,6 +32,8 @@ Dall’Istituto Edith Stein, Associazione privata di fedeli per Formazione in Sc
 Ho conosciuto casualmente Ombre e Luci, anche se non ho mai creduto alle ‘casualità’ nella mia vita. Ogni volta che lo leggo, e poi rileggo, mi sembra di dialogare con chi si scontra con la realtà, nel bene e nel male; da questa realtà nessuno è esente, solo chi finge o si impone di esserlo. Per riportare una frase di mia madre: “Il male, cioè la malattia, è appunto male non è bene e come tale noi dobbiamo porci il problema alla luce della fede che può farci intravedere come, dove è più dura la lotta con il male. Il bene costruisce una impalcatura, un sostegno per crescere”. Ecco l’amore, la solidarietà, l’aiuto costruiscono questa impalcatura, si fanno avanti e traspirano dalle pagine di Ombre e Luci, dalle persone, famiglie e comunità che vi ruotano intorno e che io in effetti NON conosco! C'è condivisione, storie di uomini, rubriche utili alla conoscenza, cronache di giornate, recensioni di libri, pensieri, c’è tutto questo nella nostra rivista che mi dà spesso spunto di pensiero quotidiano, come un piccolo punto di riferimento di arrivo o di partenza. È come parlare con un’amica dialogando sulla quotidianità a 360° condividendo gioie e progressi ma altresì affrontando più approfonditamente di volta in volta le problematiche che ci circondano e ci coinvolgono anche direttamente. Spesso trovo risposte esplicite, spesso trovo interrogativi impliciti nei testi, "rubo" l'energia trasmessa e la faccio mia, serve sempre! E cerco di imparare anche come relazionarmi con le persone rese fragili. Questo e tanto di più mi dona Ombre e Luci.
 **Francesca**
 
+
+
 ---
 
 ### La fede, sostegno o anestetico nelle prove della vita?
@@ -33,12 +41,16 @@ Ho conosciuto casualmente Ombre e Luci, anche se non ho mai creduto alle ‘casu
 Sollecitato e incuriosito dalla recensione apparsa sul n. 104 di Ombre e Luci, ho letto d’un fiato il libro di Sophie Chevillard Lutz, La forza di una vita fragile. Storia di una bambina che non doveva nascere. La nascita di un figlio affetto da handicap non può non far gridare ai genitori: “Perché? Perché a noi? Che cosa abbiamo fatto di male?”. Domande angoscianti, che possono portare alla rivolta e al rifiuto di Dio, ritenuto responsabile della malattia del figlio — e allora ci si allontana dalla preghiera e dalla pratica religiosa (ma non sarà anche questa presa di posizione una scelta “religiosa”?). Oppure, come è avvenuto in Sophie, l’esperienza sconvolgente e dolorosa di una figlia così gravemente disabile può indurre ad aggrapparsi ancora di più a Dio, per dare un senso alla propria vita e alla vita della propria creatura. “Il mistero” di Philippine, come lo chiama Sophie, la sua totale impotenza e fragilità hanno portato il cuore della madre a incontrarsi con il cuore di Gesù crocifisso: “La mia fede si concentra su Gesù crocifisso... Io credo in un Dio che soffre, che muore davanti a sua madre, in una impotenza totale. Non sono sola. Dio non è lontano da me”. Capisce che Dio, in Gesù, “non è venuto per togliere la sofferenza o per spiegarla, ma per assumerla e riempirla della sua presenza”. “Philippine, scrive Sophie, mi fa scegliere di nuovo Gesù come colui che più mi è necessario per trovare un senso a ciò che vivo con lei. Gesù è Dio che assume su di sé la mia condizione e si annulla per me, per ognuno di noi”. Una fede che semplifica tutto, allora? Non c'è il rischio di fare della fede un anestetico? Sophie si rende ben conto che credere non significa pensare che la fede risolva i problemi o apra le porte al miracolo. Non bisogna “spiritualizzare” la fede, ripete. La fede non toglie la sofferenza e l’angoscia della figlia, rese ancora più drammatiche dalla difficoltà di capirla; non risparmia dalle notti di insonnia e dalle tante ore buie, né cancella le paure di fronte ai nuovi problemi che le condizioni della bambina pongono, ma le dà la certezza che Dio è vicino e che non viene meno nel suo amore e nella sua fedeltà. “Credere, afferma, vuol dire trovare Dio là dove non avrei mai creduto che ci fosse”, nella sua piccola, nella concretezza delle cure che deve prendersi di lei, senza evasione alcuna. Con grande saggezza scrive ancora: “Occorre non smettere di credere nell’onnipotenza di Dio che può sconfiggere il male e allo stesso tempo riconoscere la necessità di attraversare la sofferenza per conoscere il passaggio, la Pasqua di Gesù, il mistero del suo annullamento prima della gioia della vittoria”. La fede grande di questa mamma è davvero una luce e una testimonianza per tutti.
 **p. Carlo Vecchiato**
 
+
+
 ---
 
 ### Mio fratello Ernesto
 
 Vorrei raccontarvi di mio fratello Ernesto, è un ragazzo di 34 anni che parla ad alta voce, io lo sento quando sta nella sua stanza e canta giocando con i numeri, e ritaglia i giornalini, solo quelli vecchi sennò mi da fastidio, perché io sono molto geloso delle mie cose e delle amicizie preziose, perché io confido molto in loro anche se ci vediamo poco. Mio fratello è simpatico, è autistico però io dico che non è vero. E un ragazzo come tutti gli altri, io sto bene con lui, poche volte perché non ho pazienza di stare con lui, solo quando gli faccio la barba, è calmo e non vola una mosca. Nel suo posto di lavoro r.i. r.e.i. fa tante cose, e si guadagna la stima sul campo. Ama le sue compagne ed i ragazzi con cui sta a contatto. Va al parco di Roma, e spazza per terra, io sono geloso se viene trattato male, perché ho poca calma nel mio corpo, e faccio presto a ribellarmi dai cattivi.
 **Ciao da Giovanni Grossi**
+
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Villaggio senza barriere. Un luogo di accoglienza insolito
 date: 2000-03-27
 author: Mascia Lenzi
@@ -14,7 +15,10 @@ umap_z: 8.752077102661133
 issue_number: OEL-69
 id_numero: "OEL-69"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un villaggio senza alcuna barriera architettonica psicologica e culturale, dove poter condividere momenti di vita insieme"
 ---
+
 Il Villaggio Senza Barriere è un vero e proprio piccolo villaggio di soggiorno per persone con deficit, le loro famiglie, amici, giovani, gruppi, obiettori, associazioni... e tanti bambini! Sì, tanti bambini; ci sono diverse famiglie che donano un po’ del loro tempo, e lo donano con la loro famiglia... i bambini sono spesso «terapeuti» e «animatori» delle situazioni della vita del Villaggio.
 
 Come avete potuto notare non ho parlato di VOLONTARI...questa parola non mi piace, là siamo tutti Amici con la A maiuscola (o almeno ci proviamo), ognuno dona all’altro tempo, **Simpatia** e **Amicizia** , due parole che rimbalzano in ogni parete del Villaggio. Sono le parole chiave del progetto e dell’idea del fondatore, **Don Mario Campidori** . Egli vive da tanti anni la condizione di portatore di deficit, a causa di una malattia, e in lui nacque l’idea di fare qualcosa per e con le persone handicappate. Il suo progetto iniziò nel 1974, circondato da giovani amici intraprendenti. La prima proposta fu quella di dare un'attenzione speciale e di condividere momenti di preghiera e gioco, coinvolgendo tutti.

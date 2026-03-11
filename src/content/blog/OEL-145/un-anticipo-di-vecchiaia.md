@@ -1,4 +1,5 @@
 ---
+
 title: Un anticipo di vecchiaia
 date: 2019-01-27
 author: Giovanni Grossi
@@ -15,6 +16,7 @@ issue_number: OEL-145
 id_numero: "OEL-145"
 numero_rivista: "Ombre e Luci"
 ---
+
 Mio fratello Ernesto è nato a ottobre, il 20, è della Bilancia. **Quando è nato non mi ricordo come era, dopo anni mia madre scopre che è autistico.** Mio fratello Ernesto sa parlare, sa camminare, quando vede qualcosa che gli interessa la vuole avere. I fogli da scrivere con i nomi e cognomi che ricorda, dei posti dove è stato, dei compagni, di Fede e Luce, e altri. Io impallidisco quando dice il cognome di chi non vediamo da anni, perché noi abbiamo altri amici, quelli che frequentiamo sono pochi, però li vediamo solo nel dato posto.
 
 Io lo capisco Ernesto, ha i suoi problemi di testa. **Ci sono i problemi quando dobbiamo portarlo dal dentista perché non è facile fargli aprire la bocca e operarlo.** Ci devono stare tante persone che lo tengono fermo. Anche Giovanni Grossi ha paura del dentista, se non è capace e mi sente tossire mi manda a casa. Per me è brutto non avere i denti, averne pochi, perché mi servono per masticare la carne, la pasta, le torte. È un anticipo di vecchiaia.

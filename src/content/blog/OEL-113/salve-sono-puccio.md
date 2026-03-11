@@ -1,4 +1,5 @@
 ---
+
 title: “Salve, sono Puccio!”
 date: 2011-03-04
 author: Rita Massi
@@ -16,7 +17,10 @@ umap_z: 5.524805068969727
 issue_number: OEL-113
 id_numero: "OEL-113"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un libro di Mary Cruz Rodriguez Maccione"
 ---
+
 *“Qualche volta la forza di volontà riesce a cambiare le cose più in fretta di quanto crediamo” (Puccio).*
 
 Mary Cruz racconta, nel libro “Salve sono Puccio”, la breve, intensa vita del suo primogenito, colpito dalla distrofia muscolare .

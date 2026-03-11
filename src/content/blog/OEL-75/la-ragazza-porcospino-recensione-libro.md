@@ -1,4 +1,5 @@
 ---
+
 title: La ragazza  porcospino - Recensione libro
 date: 2001-09-20
 author: Henri Bissonier
@@ -14,7 +15,10 @@ umap_z: 4.849226951599121
 issue_number: OEL-75
 id_numero: "OEL-75"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Katja Rohde - Edizioni Corbaccio, 2001"
 ---
+
 È
 un libro breve, ma straordinario! Una giovane donna autistica per lunghi anni è considerata disabile mentale grave, mentre in realtà è dotata di una intelligenza al di sopra della media e all’insaputa di tutti ha raggiunto una cultura straordinariamente sviluppata. Ma nessuno l’ha capito finché non ha potuto esprimersi attraverso la «comunicazione facilitata». In queste pagine Katja racconta la sua sofferenza, le sue gioie, i suoi desideri e, in uno stile molto personale, inventa delle fiabe. Nei capitoli finali, la testimonianza della madre è appassionante. Katja nel suo libro nomina più volte Dio e questa è una prova in più che non bisogna rinunciare ad accostare gli autistici all’esperienza religiosa. -
 *P. Henri Bissonier, 2001*

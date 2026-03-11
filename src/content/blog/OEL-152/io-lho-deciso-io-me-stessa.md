@@ -1,4 +1,5 @@
 ---
+
 title: "Io l'ho deciso. Io, me stessa"
 date: 2020-10-12
 author: Benedetta Mattei
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Io non voglio proprio parlare delle vacanza al mare. Non mi va, punto e basta così. Tutti mi chiedono «Benedetta che hai fatto al mare?». Ma io non voglio rispondere. Non mi va. Come lo devo dire che non mi va? Ecco! Qui da Roma ho deciso io di fare videochiamate con il cellulare a 2. Io l'ho deciso. Io, me stessa. Punto. E non voglio storie stupide.
 
 La scuola va bene. Mi piace tutto. Pure la classe in cima alle scale è bella. Mi piace che faccio colazione nel bar a piazza San Cosimato. Trovo i professori e i compagni pure al bar. E mi diverto perché scherziamo mentre facciamo colazione. I professori nuovi sono tutti simpatici e bravi. Io mi trovo molto bene e sono molto contenta. Quando ancora non c'erano tutti i professori nelle ore di buco mi addormentavo sul banco. E mi lasciavano dormire in santa pace.

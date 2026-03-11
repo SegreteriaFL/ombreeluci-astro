@@ -1,4 +1,5 @@
 ---
+
 title: "Per una storia della disabilità"
 date: "2021-04-21"
 author: "Giulia Galeotti"
@@ -15,6 +16,7 @@ issue_number: OEL-153
 id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
+
 ## L'esame di Ludovica
 
 Qualche mese fa arrivò una lettera in redazione: era la nonna di Ludovica che ci raccontava, con grande (e fondato!) orgoglio, l’esame di terza media della nipote, reso incerto e difficile “a causa del coronavirus”.

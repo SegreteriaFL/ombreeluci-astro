@@ -1,4 +1,5 @@
 ---
+
 title: I pellegrinaggi di Fede e Luce
 date: 2025-03-01
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.37413501739502
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una cronologia sintetica attraverso più di cinquant'anni di movimento"
 ---
+
 Lourdes
 
 ## Vivere la Pasqua nella Fede e nella Luce

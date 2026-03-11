@@ -1,4 +1,5 @@
 ---
+
 title: Per me lo scoutismo
 date: 2009-09-10
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 10.316191673278809
 issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Alice racconta il suo percorso all’interno di un gruppo scout"
 ---
+
 Non è stata una scelta “spontanea”: la decisione di iscrivermi al mio gruppo attuale, il“Busnago I°”, è stata dei miei genitori, che avevano avuto esperienze giovanili con le associazioni della zona. Per ragioni di età non ho percorso per intero il cammino scout: essendo entrata nel gruppo all’inizio delle scuole medie, sono partita subito a far parte del riparto.
 
 In particolare la Promessa è stata una sorta di iniziazione: come già ero la nuova arrivata, l’estranea non ancora integrata completamente nel gruppo, dopo aver pronunciato la Promessa è stato come diventare grande di colpo, accettata dalle altre come "nuova sorella". Attualmente sono Aiuto Capo nel Cerchio.

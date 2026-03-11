@@ -1,4 +1,5 @@
 ---
+
 title: Psicologia e culto di se - La psicologia aiuta a credere
 date: 1994-03-16
 author: Natalia Livi
@@ -15,6 +16,7 @@ issue_number: OEL-45
 id_numero: "OEL-45"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Psicologia e culto di sé - Studio critico
 
 Paul Vitz, Edizioni EDB
@@ -22,6 +24,7 @@ Paul Vitz, Edizioni EDB
 ### La psicologia aiuta a credere
 
 a cura di Peter Raab - Cittadella Editrice L. 20.000
+
 
 ---
 

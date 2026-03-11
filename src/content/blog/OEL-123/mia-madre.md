@@ -1,4 +1,5 @@
 ---
+
 title: Mia madre
 date: 2013-09-13
 author: Luciana Spigolon
@@ -18,6 +19,7 @@ issue_number: OEL-123
 id_numero: "OEL-123"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nel numero del dicembre scorso avete dato spazio alla voce delle mamme. Nel leggere le singole esperienze non ho potuto non pensare alla mia mamma: **una donna grande, una mamma veramente speciale** , come lo sono tante altre mamme di bambini, ragazzi, adulti a loro volta speciali.
 
 Mia mamma, Maria, è stata chiamata in paradiso lo scorso anno. Era un periodo sereno e gioioso, anche se aveva tanti problemi di salute, aveva trovato un suo equilibrio e stabilità. E dopo una serata passata in allegria con gli amici di [*Raggi di sole* (comunità di Fede e Luce ndr)](https://www.fedeeluce.it/project/raggi-di-sole/) , ecco all’improvviso il suo sorriso si è trasformato in dolore, per spegnersi definitivamente dopo sei giorni.

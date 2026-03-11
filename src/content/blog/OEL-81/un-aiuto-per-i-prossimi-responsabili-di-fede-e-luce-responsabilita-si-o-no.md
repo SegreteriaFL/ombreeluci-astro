@@ -1,4 +1,5 @@
 ---
+
 title: "Un aiuto per i prossimi responsabili di Fede e Luce. Responsabilità”: Sì o No?"
 date: "2003-03-13"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Nell'Associazione Fede e Luce gli incarichi sono elettivi, diversi ed essenziali per il buon cammino della Comunità. Ma non sempre è facile accettare la responsabilità"
 ---
+
 Nell'Associazione Fede e Luce gli incarichi sono elettivi, diversi ed essenziali per il buon cammino della Comunità. Spesso, ahimè, c’è la tentazione di evitarli come sempre si tende a fare davanti ad un impegno in più. Su questo argomento, abbiamo raccolto le riflessioni di molti amici.
 
 Le elenchiamo come un piccolo aiuto per i prossimi “responsabili!”

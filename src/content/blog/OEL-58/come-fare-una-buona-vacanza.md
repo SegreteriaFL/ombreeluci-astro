@@ -1,4 +1,5 @@
 ---
+
 title: Come fare una buona vacanza
 date: 1997-06-12
 author: Mariangela Bertolini
@@ -15,6 +16,7 @@ umap_x: 7.201578617095947
 umap_y: 6.48167610168457
 umap_z: 10.28835678100586
 ---
+
 ### Una vacanza per sé
 
 È sacrosanto che, dopo un anno di lavoro e di impegni, ci si ritagli una settimana o quindici giorni per fare un po’ di vacanza. Anche i genitori di figli disabili, ormai quasi tutti, hanno la possibilità di affidare i loro giovani a soggiorni èstivi del comune, dei centri, o di Fede e Luce. Capita però che, troppo stanchi per prendere iniziative, finiscano per far passare i pochi giorni a disposizione imbiancando le pareti di casa, mettendo in ordine e intanto il tempo vola. Ecco allora alcuni suggerimenti che vi invito a seguire per ritrovarvi pronti, veramente riposati e rinfrancati nello spirito, a riprendere il vostro figlio e a ricominciare il solito trantran.

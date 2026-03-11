@@ -1,4 +1,5 @@
 ---
+
 title: La nostra buona novella
 date: 1975-12-03
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 12.96683120727539
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Nell'ultimo numero di Insieme abbiamo parlato del pellegrinaggio che si doveva tenere a Roma dal 26 al 29 Ottobre. Si può dire che durante tutta l'estate è continuata la preparazione di questo grande incontro. Contavamo i giorni alla rivescia e infine il giorno G è arrivato"
 ---
+
 All'Hotel Columbus, vicino a San Pietro, era sistemato il Comitato Internazionale con gli organizzatori. Fin dal 24 i gruppi sono cominciati ad arrivare. Gli argentini silenziosi, attenti, con le loro cappe caratteristiche e il desiderio di gustare tutto; gli americani, chiassosi e simpatici, con una bravissima cantante nera che ha più volte interpretato degli spirituals; i danesi, seri e riservati...
 
 Il 25 sono arrivati i canadesi con un aereo di 400 posti e hanno avuto l'onore di sbarcare all'uscita di Fiumicino riservata alle autorità; i belgi, numerosi, gran parte dei quali vivono già in comunità; gli inglesi, organizzatissimi, tanto da prevedere i fornelletti a gas per non rinunciare al loro thé; gli irlandesi simpatici e compatti; i tedeschi ordinati e gioiosi, felici di avere una guida-interprete italiana a loro disposizione!

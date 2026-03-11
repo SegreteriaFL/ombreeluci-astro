@@ -1,4 +1,5 @@
 ---
+
 title: "Gli amici dei bimbi del Reparto “Gesù Bambino” all’Istituto S. Eusebio - Vercelli"
 date: "1975-05-03"
 author: "Redazione"
@@ -14,6 +15,7 @@ issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
 ---
+
 Tempo addietro e su altro bollettino, ero andata facendo alcune riflessioni sul senso dell’amicizia ed alcune riflessioni su un gruppo di giovani amici dei bimbi ospiti nel **Reparto "Gesù Bambino” all’Istituto S. Eusebio.
 Eravamo allora agli inizi di una esperienza nuova, senza termini di confronto non solo in Vercelli, ma anche altrove: o perlomeno, se altre esperienze similari venivano condotte, di esse nulla si conosceva. Era, per ciascun gruppo e per ciascun giovane impegnato, una esperienza- scoperta, sofferta e maturata prima nel segreto del proprio spirito, svolta quindi senza pubblicità alcuna, silenziosamente.
 

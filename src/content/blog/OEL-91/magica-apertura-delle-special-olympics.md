@@ -1,4 +1,5 @@
 ---
+
 title: Magica apertura delle Special Olympics
 date: 2005-09-19
 author: Francesco Bertolini
@@ -17,7 +18,10 @@ tags:
 umap_x: 8.947104454040527
 umap_y: 5.191425800323486
 umap_z: 8.988201141357422
+
+subtitle: "Sono andato alla serata inaugurale dei giochi per atleti disabili mentali che si svolge ogni anno in una diversa città italiana"
 ---
+
 Roma sta dando il meglio di sé questa sera. Allo Stadio dei Marmi, alle nove di sera, il caldo del giorno sta cedendo il posto all'atmosfera quasi incantata delle notti d’estate, e la sensazione d’incanto è accentuata dalla bellissima cornice di questo stadio, nel quale lo spettatore, alzando lo sguardo intorno a sé, vede il bianco dei marmi e delle grandi statue spiccare sul verde di Monte Mario, che si confonde poi in un cielo che, stasera, rimane limpido e terso mentre da blu si fa sempre più nero. Le gradinate dello stadio sono ricoperte da una moquette rossa che lascia avvertire in modo gradevole il calore del sole che il marmo ha immagazzinato nella lunga giornata.
 
 Insieme all’accuratezza dell’allestimento e alla ricchezza dei mezzi profusi, si avverte un'atmosfera rilassata e serena. Sono contento di trovarmi qui, questa sera, in occasione della cerimonia di apertura delle **[Special Olympics](https://www.ombreeluci.it/2005/special-olimpics-nessuno-si-deve-sentire-escluso/)** , la settimana di giochi per atleti disabili mentali che, a cura della Associazione omonima, si svolge ogni anno in una diversa città italiana, e nella quale culmina l’attività di preparazione sportiva che gli atleti, nelle diverse associazioni aderenti, svolgono nel corso dell’anno. Per questa edizione ne sono venuti circa 1500, insieme a moltissimi loro familiari, da quasi tutte le regioni italiane, ed ora, preso posto sulle gradinate, aspettiamo che inizino a sfilare raggruppati nelle diverse delegazioni regionali.

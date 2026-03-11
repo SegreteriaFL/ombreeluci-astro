@@ -1,4 +1,5 @@
 ---
+
 title: Visitiamo con Maria Laura il Centro Belga per Infermi Motori Mentali (C.B.I.M.C.)
 date: 1977-03-20
 author: Nicole Schulthes
@@ -17,7 +18,10 @@ umap_z: 7.313108444213867
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "L'estate scorsa Maria Laura è stata in Belgio per conoscere i bambini di questa scuola straordinaria diretta dal dottor Louis Yasse. Ecco le sue impressioni"
 ---
+
 **Avviso ** Questo articolo è stato scritto molti anni fa. Nella lettura potresti incontrare termini ormai desueti o sgradevoli per la sensibilità attuale. Abbiamo scelto di mantenerli per non tradire il contesto in cui sono stati scritti.
 
 Prima di visitare questa scuola e i bambini che la frequentano, vorremmo parlare un po', senza nessuna pretesa scientifica, della parola "spastico" che si sente spesso ma che il più delle volte è usata in senso inesatto.

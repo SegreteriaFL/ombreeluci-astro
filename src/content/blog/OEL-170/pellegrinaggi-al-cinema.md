@@ -1,4 +1,5 @@
 ---
+
 title: Pellegrinaggi al cinema
 date: 2025-07-29
 author: Claudio Cinus
@@ -19,7 +20,10 @@ umap_z: 3.5936477184295654
 issue_number: OEL-170
 id_numero: "OEL-170"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un viaggio attraverso la storia dei pellegrinaggi nel cinema a partire dai fratelli Lumiere, passando per Vittorio De Sica fino ad oggi"
 ---
+
 Tra le tante prime volte dei film prodotti dai fratelli Lumière, ci sono anche i primi pellegrini immortalati da una cinepresa, nei pressi del Santo Sepolcro a Gerusalemme. Poi, **nel settembre 1897, fu proiettato un intero spettacolo dedicato a Lourdes** : una sequenza di sette corti con i primi filmati dell’assistenza ai malati non autosufficienti e delle processioni dei pellegrini, scene che si ripetono ancora oggi a distanza di più di un secolo.
 
 Pur essendo uno dei luoghi più famosi al mondo, **nel santuario sui Pirenei sono stati girati pochi film di finzione** . Fu una **notevole eccezione *Lourdes*** **diretto nel 2009 da Jessica Hausner** , girato nei luoghi reali con stile asciutto e documentaristico in ossequio a una realtà che non poteva semplicemente essere ricostruita.

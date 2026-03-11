@@ -1,4 +1,5 @@
 ---
+
 title: Prova a capire quel che non dico
 date: 2000-09-28
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 9.49279499053955
 issue_number: OEL-71
 id_numero: "OEL-71"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Non farti ingannare dal mio aspetto perché io indosso mille maschere diverse e nessuna rappresenta il mio vero io."
 ---
+
 Puoi ascoltare quello che non dico? Te ne prego, in nome di Dio. Non farti ingannare dal mio aspetto perché io indosso mille maschere diverse e nessuna rappresenta il mio vero io. Non lasciarti ingannare, in nome di Dio, te ne prego.
 
 Do l’impressione di essere sicuro di me, pieno di fiducia e di tranquillità. Uno che non ha bisogno di nessuno. Non mi credere. Nascosto sotto la maschera c’è il mio vero io, confuso, timoroso, isolato.

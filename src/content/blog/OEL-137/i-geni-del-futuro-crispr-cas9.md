@@ -1,4 +1,5 @@
 ---
+
 title: I geni del futuro... CRISPR Cas9
 date: 2017-03-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 6.9506049156188965
 issue_number: OEL-137
 id_numero: "OEL-137"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Riprendiamo da O&L l’intervista di Cyril Douillet alla scienziata Mirelle Leduc, sulle implicazioni della nuova tecnica di intervento sul genoma umano, CRISPR Cas9"
 ---
+
 La nuova tecnica di intervento sul genoma umano, CRISPR Cas9, se impiegata per fini terapeutici apre la speranza per la cura di gravi malattie genetiche. Un risvolto morale inquietante viene però dalla possibilità di impiegare questa tecnica anche nella manipolazione delle cellule riproduttrici e dell’embrione. Riprendiamo da O&L l’intervista di Cyril Douillet alla scienziata Mirelle Leduc, già insegnante e ricercatore presso l’Université Paris XI, Orsay. Q
 **uali promesse terapeutiche dietro questi progressi?**
 È veramente una rivoluzione al livello del genoma umano, nella misura in cui è un sistema semplice da utilizzare e poco costoso. Rimette in gioco la terapia genica che aveva sollevato grandi speranze alcuni anni orsono, ma non aveva dato i risultati attesi. CRISPR-Cas9 è molto più semplice e funziona su tutti i genomi: umani, vegetali e animali. Per quanto riguarda la terapia genica con CRISPR-Cas9 sono state effettuate delle manipolazioni per esempio per la mucoviscidosi e la miopatia di Duchenne. Per la mucoviscidosi alcuni ricercatori hanno prelevato delle cellule intestinali da due malati e le hanno convertite in cellule IPS, vale a dire in cellule staminali pluripotenti. Queste cellule, sviluppandosi insieme, formano ciò che si chiama un “organoide”, mimando ciò che può succedere a livello di un organo, in questo caso l’intestino. Gli autori hanno utilizzato CRISPR-Cas9 per eliminare la mutazione che genera la mucoviscidosi ed hanno ottenuto la riparazione totale di queste cellule. È un fatto straordinario, ma si tratta per il momento di un’azione a livello cellulare non ancora a livello di un intero organo. Èuna prima tappa importante che permetterà forse un giorno di riparare tutte le cellule malate di un organo, e passare così ad uno stadio clinico, ma devono essere condotte ancora molte ricerche per arrivare fin lì. Lo stesso tipo di sperimentazione è stato fatta con cellule affette dalla miopatia di Duchenne. Altre applicazioni vengono attualmente realizzate a livello di alcuni tipi di cancro la cui causa è virale ed anche a livello di cellule infettate da HIV. Tutto ciò apre delle grandi prospettive cliniche.

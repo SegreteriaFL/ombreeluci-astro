@@ -1,4 +1,5 @@
 ---
+
 title: Vacanze 1978
 date: 1978-12-21
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 ### Terzo anno al Marymount
 
 Per la terza volta ci siamo ritrovati ne parco e nei locali del Marymount.

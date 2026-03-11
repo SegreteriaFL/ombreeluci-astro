@@ -1,4 +1,5 @@
 ---
+
 title: Spazio Aperto - Una cooperativa di servizi
 date: 2001-06-17
 author: Vittorio Paoli
@@ -14,7 +15,10 @@ umap_z: 8.405871391296387
 issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dopo più di 10 anni torniamo a trovare gli amici di questa importante cooperativa di servizi. Ce ne parla Vittorio Paoli, uno dei responsabili."
 ---
+
 Nella cooperativa sociale «Spazio Aperto», esistente a Milano dal 1985, svolgevano diverse attività lavorative, giovani disabili e normodotati. In seguito alla legge 381/91 la cooperativa esistente si è divisa in due cooperative sociali di tipo A e di tipo B.
 
 **La cooperativa di tipo A «Spazio Aperto Servizi»** ha fatto proprio il settore del supporto al disabile nella scuola e via via si è dedicata a servizi educativi assistenziali e residenziali. **Oggi gestisce i seguenti servizi:**

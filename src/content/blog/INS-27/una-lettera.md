@@ -1,4 +1,5 @@
 ---
+
 title: Una lettera
 date: 1980-06-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 Mia cara, dopo averti parlato al telefono accettando di scrivere qualche considerazione personale sul tema "Mio fratello ha deciso per me" ogni giorno ho meditato molto, ma non sono stata capace di esprimere alcuna riflessione.
 
 Dopo tanti impegni vissuti e sofferti con la vita attuale, non sono più in grado di concretizzare una riflessione utile per gli altri. Certamente è ancora il tempo del silenzio e della preghiera.

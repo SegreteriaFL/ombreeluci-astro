@@ -1,4 +1,5 @@
 ---
+
 title: Le donne e gli uomini della seconda fila
 date: 2022-02-17
 author: Giovanni Intini
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 C
 ari amici, vorrei provare a guardare al Natale con gli occhi di Giuseppe di Nazaret. A Natale gli occhi di tutti sono fissi sul Bambino e sua Madre, perciò
 **san Giuseppe rischia di diventare un protagonista secondario, se non proprio una comparsa.**

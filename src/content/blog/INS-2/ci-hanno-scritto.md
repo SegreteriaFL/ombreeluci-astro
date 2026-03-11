@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto...
 date: 1974-01-27
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.350272178649902
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Insieme nasce dal desiderio di comunicare con voi.Tutti, grandi e piccoli, siete calorosamente invitati a collaborare con semplicità, con lettere, disegni e testimonianze"
 ---
+
 ### La mamma di...
 
 ... **Massimo** - appena 3 anni - è preso da tante imperfezioni, non ci vede per ora, non parla e comincia ora a fare i primi passi dopo otto mesi che lo porto a fare ginnastica al Centro Bambini spastici; lo porto tre-quattro volte alla settimana; per me è un grande traffico, perché devo prendere il pullman un pò scomodo e sempre con il bambi. no sulle braccia.
@@ -28,6 +32,8 @@ Lui non vedendo, non gioca con nessun giocattolo, ascolta tutto, lo tengo dentro
 Certo che alle volte si hanno anche momenti di scoraggiamento, specialmente quando sentono delle persone che ci dicono: «Avete una croce da portare!» Ed io ne soffro a sentire questo perché non la penso una croce ma una prova, un volere di Dio e mi sento costantemente presa da una fede che incoraggia a superare anche i momenti più duri.
 
 *- la mamma di massimo* , 1979
+
+
 
 ---
 

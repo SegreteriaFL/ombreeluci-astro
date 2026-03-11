@@ -1,4 +1,5 @@
 ---
+
 title: "Parole in libertà - Diario semiserio della madre di un disabile - Recensione"
 date: "2013-12-14"
 author: "Matteo Cinti"
@@ -14,7 +15,10 @@ categoria_menu: "Cultura"
 issue_number: OEL-124
 id_numero: "OEL-124"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Laura Previdi, Ed. Paoline, pp. 224"
 ---
+
 Laura è una donna sui sessant’anni, pensionata, che vive con suo marito e Marco, un figlio faticoso da gestire tanto da bambino, quanto da adulto, in tutti i suoi 40 anni: Marco è autistico.
 
 Parole in libertà è un titolo che descrive perfettamente la struttura di questo libro: Laura narra la quotidianità della vita con suo figlio trascrivendo quasi letteralmente i suoi pensieri, in una struttura libera, a formare un lungo flusso di concetti e dialoghi. Pensieri sinceri e vulnerabili che enfatizzano il carattere lunatico di Laura. Pensieri non sempre chiari e pensieri fuori luogo; pensieri cattivi, talvolta noiosi, talvolta frivoli.

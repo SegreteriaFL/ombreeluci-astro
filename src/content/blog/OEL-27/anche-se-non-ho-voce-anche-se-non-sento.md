@@ -1,4 +1,5 @@
 ---
+
 title: «Anche se non ho voce, anche se non sento...»
 date: 1989-06-22
 author: Mariangela Bertolini
@@ -17,6 +18,7 @@ issue_number: OEL-27
 id_numero: "OEL-27"
 numero_rivista: "Ombre e Luci"
 ---
+
 Le coincidenze non finiscono di stupirmi. Eravamo alle prese con gli articoli da presentare in questo numero dedicato alle persone che non sentono. Un giorno di agosto, ho trovato sul tavolo della redazione un libro dalla copertina verde e nera: «Una giornata con me — Vita di un insegnante sordo» di Renato Pigliacampo, edito dalla Claudiana di Torino. La lettera che lo accompagnava, chiedeva di presentarlo su Ombre e Luci.
 
 L’ho letto d’un fiato. Avevo fra le mani una testimonianza scritta in prima persona da chi vive un’esperienza di cui quasi tutti noi, udenti, non abbiamo la più pallida idea. Sono entrata con tutta me stessa in queste pagine che ci parlano in diretta di cosa significhi «non udire», vivere nel silenzio, essere privi di questo sommo bene che è la parola per ascoltare e comunicare con i nostri simili.

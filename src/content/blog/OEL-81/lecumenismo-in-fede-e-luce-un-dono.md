@@ -1,4 +1,5 @@
 ---
+
 title: "L’ecumenismo in Fede e Luce: un dono"
 date: 2003-03-13
 author: Redazione
@@ -16,7 +17,10 @@ tags:
 umap_x: 7.590230464935303
 umap_y: 9.489801406860352
 umap_z: 12.848426818847656
+
+subtitle: "Avevo paura di perdere la fede"
 ---
+
 ### Un dono
 
 Sono arrivato all’Arca, in Francia, dopo aver scoperto la fede cristiana nella Chiesa luterana svedese. Ho trovato che la tradizione cattolica dell’Arca era molto vicina a quello cui ero abituato: questo mi ha aiutato a sentirmi a mio agio. C’erano però alcune cose che facevo fatica a capire o che mi erano estranee. La cosa più dura per me era il modo con cui le persone parlavano di Maria, la madre di Gesù e di come la pregavano.

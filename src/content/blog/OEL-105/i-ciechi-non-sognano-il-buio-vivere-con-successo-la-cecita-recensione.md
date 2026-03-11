@@ -1,4 +1,5 @@
 ---
+
 title: "I ciechi non sognano il buio: Vivere-con successo la cecità - Recensione"
 date: "2009-03-08"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Cultura"
 issue_number: OEL-105
 id_numero: "OEL-105"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Mauro Marcantoni, Ed. F. Angeli — 2008 pp. 238"
 ---
+
 La sintesi di questo prezioso testo è data dall’augurio che Ferdinando Ceccato, presidente dell’Unione dei Ciechi e degli Ipovedenti, scrive nell’introduzione: "...che al cieco questo libro sappia dare fiducia e il segno concreto di cosa sia possibile raggiungere se a guidarlo sono speranza, ingegno e caparbia volontà di riuscire. Al lettore potrà risultare più facile sapere di noi, scoprire che, prima ancora che ciechi, siamo qualcos’altro che ci vede, pur nelle differenze, uguali a tutti gli esseri umani".
 
 La parte più interessante del libro sono senza dubbio le ottanta testimonianze-interviste nelle quali persone cieche o ipovedenti raccontano i "successi" ottenuti nonostante la cecità. Si alternano nei racconti giornalisti, scultori, atleti e pittori, fotografi e musicisti, insegnanti e terapisti e chi ne ha più ne metta. Si resta sbalorditi nel "vedere" all’opera persone (uomini e donne, giovani e anziani) cimentarsi nella realizzazione dei loro sogni che tali non rimangono, ma diventano esempi sorprendenti e inimmaginabili.

@@ -1,4 +1,5 @@
 ---
+
 title: "La nuova legge sul \"Dopo di Noi\": nodi da sciogliere"
 date: 2017-06-28
 author: Stefano Pescosolido
@@ -15,6 +16,7 @@ issue_number: OEL-138
 id_numero: "OEL-138"
 numero_rivista: "Ombre e Luci"
 ---
+
 **Oltre al finanziamento del fondo per l'assistenza alle persone con disabilità grave prive del sostegno familiare, agli sgravi nella successione per i beni conferiti in trust, alla detraibilità delle polizze...quali sono le reali novità in questa legge? (ad esempio, lo strumento del trust era già disponibile, o la possibilità di costituire gruppi appartamento non esisteva già?)** L’istituto del trust che significa, di fatto, “contratto di fiducia” e proviene da norme di origine anglosassone. In precedenza in Italia non era normato ma lo stesso si poteva applicare in quanto riconosciuto a livello europeo. Con la legge 112 (come ANFFAS avremmo preferito che si provvedesse con separata norma), il legislatore ha introdotto una norma che consente di istituire, tra l’altro, il trust in favore di persone con disabilità gravi certificate ai sensi della legge 104/’92 art. 3 comma 3, usufruendo delle previste agevolazioni.
 
 Quindi la novità è che, in base alla legge 112/2016 (che “ospita” all’art. 6 questo istituto), se il trust stesso ha come destinataria una persona con grave disabilità, in possesso della certificazione prima indicata, usufruisce delle agevolazioni indicate nella legge stessa.

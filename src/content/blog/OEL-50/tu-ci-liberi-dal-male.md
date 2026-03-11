@@ -1,4 +1,5 @@
 ---
+
 title: Tu ci liberi dal male
 date: 1995-06-02
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
 ---
+
 I
 l desiderio che sta alla base di questa veglia di preghiera è quello di utilizzare diversi canali di comunicazione (la parola, le immagini, le luci, i suoni, i simboli) perché tutti possano comprendere il messaggio fondamentale che essa vuole rivelare: il Signore ci libera dal male. La vita dell’uomo è segnata dalla paura, da molte paure diverse, che l’uomo cerca di combattere e che rendono la sua vita triste, priva di luce.
 > «Per rischiarare quelli che stanno nelle tenebre e nell’ombra della morte» (Le. 1,79)

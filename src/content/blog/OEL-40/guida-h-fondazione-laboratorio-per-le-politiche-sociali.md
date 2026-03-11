@@ -1,4 +1,5 @@
 ---
+
 title: Guida H - Fondazione Laboratorio per le politiche sociali
 date: 1992-12-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-40
 id_numero: "OEL-40"
 numero_rivista: "Ombre e Luci"
 ---
+
 È uscita la Guida H, supplemento di «in-FORMAZIONE», n. 4-5, luglio-ottobre 1992, della Fondazione Laboratorio per le Politiche Sociali (LABOS). Sono quattro dispense dedicate all’aggiornamento degli operatori dei servizi per l’handicap. Si rivolgono anche agli amministratori ed ai responsabili degli interventi (Regioni, USL, Comuni, cooperative di servizi, scuola, mondo del lavoro, volontariato), al disabile e alla sua famiglia. Le prime due offrono indicazioni sull’organizzazione e la gestione dei servizi, la terza è dedicata all’inserimento lavorativo dei disabili, la quarta rappresenta uno strumento per orientarsi nella complessità dei diritti e dei servizi cui possono accedere. Le dispense possono essere richieste alla LABOS - Viale Liegi, 14 - 00198 Roma. Una copia L. 6 . 000 . Questo articolo è tratto da
 Ombre e Luci n.40, 1992
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Sprovveduto e sorpreso... chi non lo è?"
 date: "1979-09-16"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Relazioni"
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "L'incontro con diversi giovani con disabilità: una lezione di comprensione, pazienza e speranza... dall'imparare i linguaggi unici di ciascuno alla scoperta che nella ricerca della gioia e nella capacità di meravigliarsi siamo tutti ugualmente fragili e bisognosi di tenerezza"
 ---
+
 *Questo articolo fa parte del **[Focus: gli adulti profondamente handicappati, alcune testimonianze](https://www.ombreeluci.it/1979/focus-gli-adulti-profondamente-handicappati-alcune-testimonianze/)*
 Ti ricordi Maurizio, quando ci alzavamo molto prima degli altri? Il sole spuntava appena e lasciava filtrare qualche raggio attraverso i rami... Ti vedo a carponi, cercare quei punti luminosi e trovare piacere nel lasciarti bagnare dalla loro luce. Cosa cercavi? Cosa c'è dentro di te che io non ho capito? Questo segreto resterà il tuo segreto.
 

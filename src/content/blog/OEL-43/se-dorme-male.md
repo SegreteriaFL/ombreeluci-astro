@@ -1,4 +1,5 @@
 ---
+
 title: Se dorme male
 date: 1993-09-09
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-43
 id_numero: "OEL-43"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il prof. Laplane, neurologo , papà di un bambino disabile , ci presenta le principali anomalie del sonno: insonnia, ipersonnia, apnee, russamenti, terrori notturni, sonnambulismo. Che la persona sia handicappata o meno, i problemi che questi turbamenti arrecano, sono molto simili.
 **LE INSONNIE**
 devono essere considerate come patologiche quando sono accompagnate da fatica e sonnolenza durante la giornata. Altrimenti possono essere costituzionali, spesso sono familiari: i bisogni di sonno sono molto variabili secondo gli individui. La media di 7-8 ore per giorno non deve essere considerata come una norma. Le perdite di sonno (tempo del sonno accorciato rispetto alla abitudine) possono essere dovute a malattie concomitanti, più spesso a stati d’ansia (nel caso di difficoltà a prender sonno) o di depressione (risvegli troppo precoci). È in questa linea che va cercata la causa delle insonnie patologiche la cui diagnosi è spesso difficile con le persone che hanno scarse possibilità di comunicare. Bisogna anche ricercare segni indiretti o capire certi comportamenti. Le insonnie minori, le difficoltà a prender sonno, possono curarsi con misure igieniche semplici: esercizio fisico durante il giorno, vita equilibrata, rituali prima di dormire (tisana sedativa), soppressione di tensioni psicologiche. La prescrizione di tranquillanti o di sonniferi, non deve mai essere automatica.

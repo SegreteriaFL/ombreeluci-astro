@@ -1,4 +1,5 @@
 ---
+
 title: Ora ha un mondo suo oltre la sua famiglia
 date: 1979-06-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 > "Non dobbiamo fare tardi perché devo fare la comunione" "Quanto mi farebbe piacere se Sabina venisse a casa mia!" "Oggi ho fatto una bellissima chiacchierata con..."
 
 **Un anno e mezzo fa Georgina non avrebbe potuto dire queste frasi.** Che differenza poi fra tornare a casa con lei da una riunione di Fede e Luce o da una festa di bambini normali" dove magari nessuno ha avuto il coraggio di rivolgerle la parola!.

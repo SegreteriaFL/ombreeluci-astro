@@ -1,4 +1,5 @@
 ---
+
 title: Paure della vecchiaia
 date: 2010-12-03
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 9.573198318481445
 issue_number: OEL-112
 id_numero: "OEL-112"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Di fronte alle tante difficoltà della terza età gli anziani adottano vari meccanismi di difesa, come spiega la geriatra Agnés Seraux"
 ---
+
 P
 er Anselmo Grun, monaco benedettino, la vecchiaia genera delle paure specifiche: di cadere nella follia, di vivere, di mancare del necessario, della dipendenza, della malattia, di cambiamenti improvvsi, di nuovi compiti da assolvere, di morire. Di fronte a queste difficoltà gli anziani adottano vari meccanismi di difesa, come spiega la geriatra Agnés Seraux: Il
 **bisogno di controllare tutto**

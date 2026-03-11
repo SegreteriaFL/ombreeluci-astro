@@ -1,4 +1,5 @@
 ---
+
 title: Essere padrino ha cambiato la sua vita
 date: 1992-09-07
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-39
 id_numero: "OEL-39"
 numero_rivista: "Ombre e Luci"
 ---
+
 E
 manuele ha trentatre anni. Quando aveva un 1 anno, dopo un coma di sei settimane, diventò epilettico. Oggi è impiegato nellamministrazione di una piccola impresa. La sorella Carole ci racconta l’avvenimento che cambiò la sua vita. Emanuele non ha molti amici della sua età. Sono piuttosto i bambini che gli vogliono bene e che cercano la sua compagnia. Gli adulti a volte lo ascoltano soltanto con orecchio distratto mentre già cercano con lo sguardo la persona con la quale potranno avere una conversazione ai loro occhi degna di questo nome. Quando non si sente ascoltato e accettato Emanuele decide di tacere. Mi spiega: «sai, non ho niente da dire che interessi gli altri». Vorrebbe sposarsi, avere bambini, gli dispiace di non avere nipotini e spesso parla di questo.
 > Era poco dopo Natale. Emanuele commosso fece la conoscenza del suo figlioccio

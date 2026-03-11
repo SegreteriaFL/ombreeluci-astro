@@ -1,4 +1,5 @@
 ---
+
 title: "Il futuro di Insieme... una catena che diventa sempre più grande"
 date: "1981-09-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Come lo esprime bene il disegno della copertina, INSIEME - come Fede e Luce - è una catena aperta.
 
 Aperta e che vuole prolungarsi sempre di più a tanti fratelli, a tante famiglie, in piccoli paesi o in grandi città dell'Italia.

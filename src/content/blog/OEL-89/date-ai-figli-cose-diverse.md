@@ -1,4 +1,5 @@
 ---
+
 title: Date ai figli “cose diverse”
 date: 2005-03-16
 author: Sergio Sciascia
@@ -16,7 +17,10 @@ tags:
 umap_x: 5.262350559234619
 umap_y: 8.14297103881836
 umap_z: 8.262271881103516
+
+subtitle: "Che cosa è bene “dare” ai figli bambini e ragazzi? Quali Sì e quali No è giusto dire?"
 ---
+
 Igenitori che non sono stati imbambolati. dalla strapotente macchina Pubblicità-apparire-consumare-successo, **risposte a quelle domande ne hanno molte e diverse** . Quelle risposte nascono da varie ragioni: morali, politiche, religiose, psicologiche, economiche.
 
 **Il problema è che quelle ragioni, frutto di maturità, nate da esperienze, osservazioni, ragionamenti, è difficile trasmetterle ai bambini** . E se anche si riesce a trasmetterle, quelle ragioni nella mente dei figli non possono competere con l’insistente spettacolare scientifico adescamento che il nostro sistema economico mediatico mette in atto di continuo.

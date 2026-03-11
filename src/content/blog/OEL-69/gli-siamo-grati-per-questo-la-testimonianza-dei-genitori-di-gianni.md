@@ -1,4 +1,5 @@
 ---
+
 title: "\"Gli siamo grati per questo\" - La testimonianza dei genitori di Gianni"
 date: 2000-03-28
 author: Maria Teresa Mazzarotto
@@ -16,7 +17,10 @@ umap_z: 8.348048210144043
 issue_number: OEL-69
 id_numero: "OEL-69"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Non li ha mai chiamati mamma e papà e non ha mai avuto per loro una frase affettuosa. Ma Valeria e Giulio gli hanno dedicato la vita intera"
 ---
+
 Non li ha mai chiamati mamma e papà, non ha mai avuto per loro una semplice frase affettuosa ma Valeria e Giulio gli hanno dedicato la vita intera. Gianni è venuto al mondo diverso dagli altri bambini, con tanti gravi limiti destinati a durare e ad aggravarsi nel corso degli anni, e ha trovato un papà, una mamma e una sorellina pronti a dargli tutto l’amore possibile. Ci furono i momenti dello sgomento: "Ogni tanto ai giardinetti guardavo tutte quelle carrozzine e pensavo: perché non posso cambiare la mia con una di queste?" (così ricorda oggi Giulio sorridendo). Ci furono i soliti andirivieni tra illustri professori. Dopo un breve ricovero al Santa Maria della Pietà, per una ricerca ed una diagnosi che fu definitiva e non lasciò alcuna speranza per il futuro, erano gli anni intorno al 1950, Gianni fu solo di papà e mamma, della sorellina, del nonno che lo adorava. Nessun centro, nessuna scuola lo ha più ospitato, nessun’ altra persona lo ha accudito anche solo per un giorno. "Non ci piacevano i centri che ,in quegli anni lontani, poteva accoglierlo e poi...poi ci pareva inutile, rischioso, temevamo per le sue crisi epilettiche. Stava bene con noi e noi eravamo contenti di stare con lui.
 
 Ma avete dovuto rinunciare a tante cose, viaggi, divertimenti...amici.. Eh sì, sorride Valeria, eppure eravamo tipi avventurosi prima. Ci piaceva viaggiare..pensi siamo venuti a Roma dall’Istria in viaggio di nozze per la prima volta nel '42... c’era l’oscuramento...in pensione ci davano la fettina nascosta sotto l’insalata....E anche dopo sposati andavamo a sciare, a ballare ....prima. "E dopo, con Gianni da seguire giorno per giorno, non avete potuto fare più niente, niente di quello che vi piaceva fare". "Era la nostra vita, l’abbiamo accettata: ci siamo detti: Gianni è nostro figlio, è come è, noi lo amiamo e lo ameremo per sempre così come è". Giulio non sembra avere troppi rimpianti, in realtà. "Abbiamo comprato la macchina proprio per lui, per portarlo in gita. D’estate andavamo a Santa Marinella, avevamo preso in affitto un appartamento, un attico molto bello. Eravamo contenti. Dalla terrazza ci godevamo il mare, anche senza scendere in spiaggia e Gianni ci stava così bene...." Gianni, naturalmente, è presente al nostro colloquio. È seduto sul divano, vicino al papà. Ci guarda con attenzione, sembra voglia studiarci per capire chi siamo e come siamo. Ogni tanto, silenziosamente, infila il suo braccio sotto quello del papà e resta così.

@@ -1,4 +1,5 @@
 ---
+
 title: Fede e Luce in Armenia e in Iran
 date: 2012-03-16
 author: Carla Waked
@@ -14,7 +15,10 @@ umap_z: 13.990025520324707
 issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Carla Waked, vice coordinatrice internazionale di Fede e Luce, ci racconta come Fede e Luce viene vissuto nelle tre comunità presenti in Armenia e l'unica, per ora, in Iran"
 ---
+
 Ci sono tre comunità in Armenia e una in Iran che vivono Fede e Luce in legame con le altre comunità libanesi. Le comunicazioni però non sono molto facili; per questo sono molto desiderate le visite da parte di qualcuno. Carla Waked (coordinatrice della provincia) insieme a Makhoul (vice coordinatore) durante l’estate sono andati in questi due paesi e hanno ricevuto un’accoglienza calorosa. Si riuniranno per il pellegrinaggio in Libano (30 agosto – 2 settembre). Ecco il racconto di Carla
 
 Con Makhoul abbiamo passato tre giorni in Armenia con le tre comunità riunite per il campo estivo: nuova e ricca esperienza! Il campo era sotto le tende, circondato da una natura gradevole. Devo confessare che la situazione logistica non era semplice, soprattutto perché ha piovuto… Tuttavia vedere l’entusiasmo degli amici, tutti gli sforzi adoprati con amore e coraggio, i visi sorridenti di tutti i nostri fratelli disabili e vedere la motivazione dei genitori soprattutto delle mamme sempre pronte per ogni genere di aiuto, non poteva che procurare molta gioia! Un< evento ci ha molto colpiti: la celebrazione di un battesimo mentre noi eravamo presenti. Due persone sono state battezzate e Makhoul è stato il padrino di Emanuele. Momenti di condivisione, di preghiera, giochi, pasti, serate… indimenticabili!

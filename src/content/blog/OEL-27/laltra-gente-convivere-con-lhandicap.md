@@ -1,4 +1,5 @@
 ---
+
 title: "L'altra gente. Convivere con l’handicap"
 date: 1989-06-20
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-27
 id_numero: "OEL-27"
 numero_rivista: "Ombre e Luci"
 ---
+
 Èun’opera di riflessione lucida e stimolante sulla persona portatrice di handicap e di informazione su associazioni, gruppi e periodici che se ne occupano; è inoltre una guida aggiornata della legislazione nazionale e regionale su questa particolare fascia di cittadini. **Antonio Guidi, neuropsichiatra, è un osservatore privilegiato** : per dieci anni ha diretto un centro pubblico di riabilitazione nella Regione Marche; oggi è consulente del Ministero della Sanità e della RAI. Egli fa una valutazione dei passi enormi e positivi che sono stati compiuti negli ultimi decenni e di quanto cammino resta ancora da fare. La sua non è soltanto una verifica, ma è una denuncia delle frequenti ambiguità della situazione attuale e una proposta realistica ed originale di possibili vie di uscita.
 
 Il suo punto di partenza, che segue poi il filo del discorso lungo tutto il libro, è l’urgenza e **il dovere della società di modificare l’atteggiamento che spinge i portatori di handicap in un mondo a parte, estraneo** . In realtà quel mondo è parte integrante del mondo in cui viviamo e tanto più esso sarà consapevolmente accettato e compreso tanto più, nel concreto, sarà possibile per gli operatori di **migliorare le condizioni di coloro che hanno lo stesso diritto di tutti gli altri a vivere con dignità, a potenziare le proprie capacità e soprattutto ad avere sempre più serenità** .

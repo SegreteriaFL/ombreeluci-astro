@@ -1,4 +1,5 @@
 ---
+
 title: In viaggio verso Lourdes
 date: 1981-09-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Maria
 
 *Questa notte abbiamo dormito nelle cuccette del treno e si riposava abbastanza bene. A me piace andare sul treno perché mi fa dondolare.*

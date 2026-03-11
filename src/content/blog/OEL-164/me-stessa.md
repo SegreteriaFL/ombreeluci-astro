@@ -1,4 +1,5 @@
 ---
+
 title: Me stessa
 date: 2023-12-02
 author: Benedetta Mattei
@@ -14,7 +15,10 @@ umap_z: 9.60246753692627
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal lavoro in hotel al nuovo impiego nella merenderia: i tanti impegni di Benedetta"
 ---
+
 Ioora lavoro anche nella merenderia che si chiama [**Mere’**](https://www.mereroma.it/) . Oltre che alla reception dell’Hotel American Palace Eur a via Laurentina dove c’è la fermata della metro. Una volta a settimana devo andare al Centro professionale che è quasi come una scuola e sta a via Boccea. Ho tanto da fare tutti i giorni. La merenderia è a via Nomentana. **Per andare in questi posti io giro tanto per Roma, il più vicino a casa è l’albergo che sta all’Eur.**
 
 La merenderia è una novità e mi piace molto. Mi trovo tanto bene. A me piace lavorare tanto e sono contenta. Imparo tante cose e poi sto sempre insieme a tante persone anche che non conosco. Alla merenderia io faccio tutto quello che serve. E anche questo mi piace ed è pure molto divertente. La padrona della merenderia si chiama Carla ed è simpaticissima e molto dolce con me e con tutti. Lei mi parla sempre con una bella voce e mi racconta le cose come vanno fatte.

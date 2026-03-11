@@ -1,4 +1,5 @@
 ---
+
 title: "Quando il caso non è un caso"
 date: "2001-03-09"
 author: "Don Paolo"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Parlare di Fede e Luce significa, per me, ritornare indietro di molto tempo, ritrovare le radici della mia fede e dei miei vent’anni"
 ---
+
 Parlare di Fede e Luce significa, per me, ritornare indietro di molto tempo, ritrovare le radici della mia fede e dei miei vent’anni. Sono don Paolo, sacerdote dal 1996, e compio quest’anno 37 anni. Non posso dire di aver cercato Fede e Luce. L’incontro è stato casuale ma allo stesso tempo carico della presenza di Dio. Un incontro nato così: un po’ improvvisamente, grazie a qualche amica del Gruppo Fede e Luce, ho avuto la possibilità di portare in parrocchia il desiderio che il Signore stava seminando nel mio cuore: parlare ad altri, dopo averlo ascoltato io, del fatto che ogni uomo è importante e che Dio è molto più grande e misericordioso di ogni essere vivente.
 Leggi anche: [Spesso di notte in silenzio](https://www.ombreeluci.it/2001/spesso-di-notte-in-silenzio/)
 Abbiamo aperto così, un nuovo gruppo nella mia comunità di appartenenza, San Giustino in Cesano Boscone. Da lì a qualche mese sono entrato in Seminario. Non ho avuto più la possibilità di frequentare le attività del Gruppo, ma Fede e Luce e Jean Vanier sono entrati ancora di più di prima, paradossalmente, nella mia vita. La dignità dei fratelli incontrati in Fede e Luce mi è stata di grande stimolo per pensare che il mio essere sacerdote significa restituire ad ogni ragazzo la dignità che da sempre Dio ha pensato per Lui.

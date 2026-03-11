@@ -1,4 +1,5 @@
 ---
+
 title: Consumare lo stesso pasto
 date: 1980-09-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 Cercherò di descrivere come ha vissuto, da genitore, l'esperienza della "Casetta". La casetta era sorta dal desiderio degli amici di trascorrere insieme ai ragazzi una intera giornata e nello stesso tempo dare ai genitori un pò di riposo.
 
 Per il mio modo di vedere il problema, ho subito pensato che il riposo ai genitori era un episodio marginale e che sicuramente non poteva incidere sull'atteggiamento dei genitori verso i propri figli.

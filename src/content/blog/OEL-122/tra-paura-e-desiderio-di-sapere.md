@@ -1,4 +1,5 @@
 ---
+
 title: Tra paura e desiderio di sapere
 date: 2013-06-10
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 7.3517327308654785
 issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Alla ricerca di una diagnosi e di soluzioni per aiutare il figlio Simone, 10 anni, Virginia e il marito hanno esplorato tutte le possibilità, L’aspetto più duro: non sapere contro che cosa battersi"
 ---
+
 **Nostro figlio Simone aveva tre anni quando ci hanno fatto notare il suo comportamento diverso.** Sollecitati a fare delle ricerche, ci siamo fermati, sostenuti dal medico di famiglia che ci aveva sempre consigliato di lasciarlo crescere in pace. Ed è ciò che abbiamo fatto!
 
 **All’inizio della scuola, le difficoltà divennero più evidenti:** per questo ci siamo messi a cercare in tutte le direzioni: genetica, gastroenterologia, per un problema di incontinenza. Psicologi e pedopsichiatri hanno fatto delle valutazioni per l’ortofonia e la psicomotricità. Simone è disarmonico, ci hanno detto, cosa che può significare tutto e niente.

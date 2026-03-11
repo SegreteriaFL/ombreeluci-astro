@@ -1,4 +1,5 @@
 ---
+
 title: Storie di guerra, confini e speranza
 date: 2024-11-26
 author: Claudio Cinus
@@ -14,7 +15,10 @@ umap_z: 3.4712977409362793
 issue_number: OEL-167
 id_numero: "OEL-167"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Tre film dal Biografilm Festival"
 ---
+
 Vediamo sempre più spesso documentari in cui gli ospiti delle comunità psichiatriche sono i protagonisti: come se oggi si ritenesse più utile concentrarsi sulle persone anziché sul funzionamento delle strutture che li ospitano (cosa più sensata, a opinione di chi scrive, quando bisognava mettere in evidenza le implicazioni sociali dei manicomi, e poi della loro chiusura).
 
 *Che ore sono* di Marta Basso e Tito Puglielli (Premio Hera “Nuovi Talenti” per la migliore opera prima italiana al Biografilm Festival di Bologna) è girato in una comunità psichiatrica di Palermo ma il cuore del film sono le vite di tre ospiti: le vicende di Giuseppe, Ursula e Bianca sono lo spunto per mettere in luce quanto siano lunghi, tortuosi, quasi infiniti, i percorsi di recupero per i pazienti.

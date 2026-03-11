@@ -1,4 +1,5 @@
 ---
+
 title: Domande e risposte su Fede e Luce
 date: 1990-09-26
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-31
 id_numero: "OEL-31"
 numero_rivista: "Ombre e Luci"
 ---
+
 **1. Come si può formare una comunità Fede e Luce?**
 Alcune persone (genitore di figlio con handicap mentale, qualche amico/a, un sacerdote o seminarista...) armate di buona volontà e determinazione, ne invitano altre (suscettibili di essere interessate) per un incontro (in una famiglia, in parrocchia, soprattutto se si ha l'appoggio del parroco, o in altro luogo...). In questo primo incontro si parlerà dello scopo che ci si prefigge: perché incontrarsi, fare conoscenza, esprimere i propri desideri e bisogni, dare le proprie disponibilità di tempo, esprimere le proprie capacità...; si farà un po’ di festa (giochi, merenda, canti, preghiera...); ci si darà un nuovo appunta¬ mento. Poi, da cosa nasce cosa. Chi vuole iniziare una comunità, sarà facilitato se si metterà in contatto con i membri o i responsabili di una comunità vicina, se frequenterà per un certo periodo gli incontri di quella comunità, oppure se si rivolgerà alla segreteria nazionale che fornirà aiuto e testi per conoscerne lo spirito e l’organizzazione (carta e costituzione).
 **2. Come vive finanziariamente Fede e Luce?**

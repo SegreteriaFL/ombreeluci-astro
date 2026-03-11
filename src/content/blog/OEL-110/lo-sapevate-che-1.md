@@ -1,4 +1,5 @@
 ---
+
 title: Lo sapevate che...?
 date: 2010-06-17
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 8.419086456298828
 issue_number: OEL-110
 id_numero: "OEL-110"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Curiosità, spunti, consigli per scoprire cose nuove sulla disabilità e non solo. Inviateci le vostre"
 ---
+
 ### In caso di emergenza
 
 Gli operatori delle ambulanze hanno segnalato che molto spesso, in occasione di incidenti stradali, i feriti hanno con loro un telefono cellulare, ma gli operatori non sanno chi contattare tra la lista interminabile dei numeri salvati nella rubrica. Gli operatori delle ambulanze hanno lanciato l’idea che ciascuno metta, nella lista dei suoi contatti, la persona da contattare in caso d’urgenza sotto uno pseudonimo predefinito. Lo pseudonimo internazionale conosciuto è ICE (In Case of Emergency). È sotto questo nome che bisognerebbe segnare il numero della persona che operatori delle ambulanze, polizia, pompieri o primi soccorritori potrebbero contattare. In caso vi fossero più persone da contattare si può utilizzare la definizione ICE], ICE2, ICE3... Facile da fare, non costa niente e può essere molto utile. È una buona idea ed è anche promossa dalle autorità preposte al soccorso. Fate circolare la notizia in modo È che questo comportamento diventi un’abitudine diffusa.

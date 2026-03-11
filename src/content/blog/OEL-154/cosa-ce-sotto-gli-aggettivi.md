@@ -1,4 +1,5 @@
 ---
+
 title: "Cosa c'è sotto gli aggettivi"
 date: "2021-07-30"
 author: "Laura Coccia"
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 Cos’è bello? Chi definisce cosa sia bello e cosa brutto? “Bello” e “brutto” sono aggettivi qualificativi, che aggiungono qualità a ciò che si sta descrivendo dal punto di vista dell’osservatore, **esattamente come “alto” o “basso” dipendono dalla prospettiva di colui che verga il giudizio.
 
 Essere una donna con disabilità non è semplice, perché si è troppo spesso vittime di una doppia discriminazione. Da un lato perché donna e quindi soggetta alle differenziazioni che i movimenti femministi ci ricordano con le loro importanti battaglie come quella contro la disparità salariale, dall’altro lato perché disabili e quindi **considerate universalmente incapaci di raggiungere un obbiettivo**, svolgere un lavoro, eccetera.

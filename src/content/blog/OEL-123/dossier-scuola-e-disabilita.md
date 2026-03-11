@@ -1,4 +1,5 @@
 ---
+
 title: "Dossier: Scuola e disabilità"
 date: "2013-09-13"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-123
 id_numero: "OEL-123"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La scuola è parte della vita con il ruolo fondamentale che svolge nella crescita, nell’educazione e nella socializzazione dei nostri figli, portatori o meno di handicap o di bisogni educativi speciali"
 ---
+
 Alcuni bambini di una scuola elementare ritirati da scuola per la presenza di un bambino autistico nella loro classe, l’avviso in una scuola privata che avverte della giornata dei disabili ed invita i genitori a tenere a casa i bambini per non farli impressionare, la nuova “dis-organizzazione” del sistema di trasporto scolastico degli alunni portatori di handicap nella capitale, una bambina con la sindrome di down in età prescolare tenuta all’oscuro di una gita scolastica.
 
 E ancora, le economie forzose cui la scuola è sottoposta (con un’ insegnante di sostegno che confessa che lavorare nella scuola ora assomiglia molto ad un’attività di volontariato), i nuovi indirizzi dettati dal MIUR in materia di alunni con bisogni educativi speciali, interessanti sulla carta ma forse poco praticabili in una realtà dove manca la formazione degli insegnanti curricolari... Solo alcuni flash di cronaca nazionale e familiare che ci hanno raggiunto in questi giorni e negli ultimi mesi.

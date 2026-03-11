@@ -1,4 +1,5 @@
 ---
+
 title: "Esempi di comunità-alloggio: 5 comunità"
 date: "1991-12-28"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-36
 id_numero: "OEL-36"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### ANFFAS
 
 #### Milano

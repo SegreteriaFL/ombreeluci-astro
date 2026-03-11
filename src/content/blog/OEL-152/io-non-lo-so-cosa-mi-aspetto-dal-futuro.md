@@ -1,4 +1,5 @@
 ---
+
 title: Io non lo so cosa mi aspetto dal futuro
 date: 2021-03-02
 author: Giovanni Grossi
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Io sono un ragazzo che sta per compiere 50 anni. Durante l’anno che vivo io sono in ansia e attesa perché ogni giorno che mi sveglio è uguale a quello passato. Dal lunedì al venerdì fino all’avvicinarsi del giorno prefissato. Io non lo so cosa mi aspetto dal futuro. Mantenere il posto di lavoro, avere buoni rapporti con tutti quanti, avere uno stipendio ogni mese è importante per me. L’amore non è una mia priorità anche se ogni tanto ci penso, ma non ho un riscontro.
 
 Per me è una vita bella quella che conduco anche se non so se il passare del tempo sia positivo per tutto. Io ho una frequenza positiva per i posti. Vado al teatro, l’orto la domenica e ogni tanto frequentare gli amici, le casette di fede e luce, i campi me li ricordo, anche se invecchio e mi ricordo di tutti dal nome, dove li ho conosciuti, e dalle parole dette o ascoltate. Io non ho aspettative, il cambiamento è positivo per me, fare cose nuove, imparare un mestiere che deve diventare il mio fare bene. Io auguro a tutti belle cose, anche se va male non disperatevi tutto prima o poi volge al positivo!

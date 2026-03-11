@@ -1,4 +1,5 @@
 ---
+
 title: Vedremo mai la luce?
 date: 1976-05-20
 author: Michel Charpentier
@@ -14,7 +15,10 @@ umap_z: 10.185012817382812
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "L'editoriale di Michel Charpantier"
 ---
+
 Non vedremo mai la luce!? Guai dopo guai, problemi dopo problemi... sofferenze dopo sofferenze. Quando non è la terra che seppellisce vite umane, è la morte che ruba un padre ai suoi figli, un figlio alla madre, un amico all'amico... Oppure sarà il lavoro poco sicuro o perduto, la vita familiare resa infernale, le relazioni tese che non lasciano un momento di pace. Sarà l'ambiente economico o politico che si giudica rovinato, sarà l'avvenire dei figli che si vede compromesso o senza speranza, sarà... sarà...
 
 Ognuno di noi può allungare questa lista, questo ritratto nero che ogni uomo fa regolarmente della sua vita e di quella degli altri...

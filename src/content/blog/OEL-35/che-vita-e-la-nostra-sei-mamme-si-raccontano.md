@@ -1,4 +1,5 @@
 ---
+
 title: "Che vita è la nostra!? Sei mamme si raccontano"
 date: "1991-09-22"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-35
 id_numero: "OEL-35"
 numero_rivista: "Ombre e Luci"
 ---
+
 Alcune mamme di giovani con gravi handicap si sono riunite in casa di Mariangela per ascoltare e commentare l’intervento alla trasmissione radiofonica ROMA 3131 di un’altra mamma come loro, Irma, che nella sua disperazione ed amarezza le aveva profondamente commosse. **Riportiamo qui alcune parti dell’intervento di Irma e dei commenti fatti in quell’occasione.
 
 Irma:** Quando sento la frase (è questa che mi ha fatto scattare, se no non avrei telefonato) «questi ragazzi ci danno tanto» a me questa frase fa venire il voltastomaco perché «questi ragazzi ci danno tanto» è una frase senza senso, è una frase che riempie la bocca, ma non dà niente. **10 a un convegno ho sentito anche dire: «gli handicappati sono importanti perché rendono umana una società che non ha più niente di umanità»...

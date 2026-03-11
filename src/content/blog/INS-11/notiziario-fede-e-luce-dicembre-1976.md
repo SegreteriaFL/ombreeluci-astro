@@ -1,4 +1,5 @@
 ---
+
 title: Notiziario Fede e Luce - dicembre 1976
 date: 1976-12-20
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 13.666350364685059
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Notizie e aggiornamenti dalle comunità di Fede e Luce di tutta Italia"
 ---
+
 ### Sull'incontro internazionale Parma 25-26 novembre 1976
 
 Sabato 25 e Domenica 26 settembre si è tenuto a Parma un convegno di rappresentanti Fede e Luce dei seguenti paesi: Spagna, Francia, Belgio, Svizzera, Germania e Italia.

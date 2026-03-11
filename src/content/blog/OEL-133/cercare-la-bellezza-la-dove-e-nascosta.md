@@ -1,4 +1,5 @@
 ---
+
 title: "Cercare la Bellezza là dove è nascosta"
 date: "2016-03-25"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-133
 id_numero: "OEL-133"
 numero_rivista: "Ombre e Luci"
 ---
+
 Incontrai (o mi scontrai!) per la prima volta con la realtà dell’handicap tanti anni fa quando, adolescente, partecipai a una colonia-servizio dell’Opera Don Orione. Con il cuore pieno di desiderio ma anche dell’ingenuità dei miei diciassette anni, vissi quindici giorni stupendi con questi “ragazzi”: fu molto bello, ma anche molto impegnativo; i ragazzi avevano anche gravi patologie e andavano assistiti in tutto, lavati, vestiti, imboccati.
 
 A volte provavano sentimenti di angoscia e violenza verso sé stessi o gli altri, che mi lasciavano confuso e impacciato. Ma anche gesti di grande tenerezza e desiderio di comunione, che mi allargavano il cuore. Alla fine dell’esperienza, un desiderio si faceva strada nell’animo: dedicare la mia vita a queste persone così speciali. Passano gli anni con tante esperienze di volontariato e gli studi di pedagogia, e scelgo di iniziare la mia esperienza di lavoro occupandomi proprio di educazione speciale nell’Opera Don Guanella. Dopo altri anni di esperienza e discernimento, eccomi oggi religioso fra i Servi della Carità, dove continuo il mio apostolato fra i nostri “buoni figli” occupandomi soprattutto, con altri confratelli, di offrire loro percorsi di catechesi speciale e vivendo con loro momenti di preghiera e la celebrazione domenicale dell’Eucaristia.

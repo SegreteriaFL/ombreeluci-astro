@@ -1,4 +1,5 @@
 ---
+
 title: Gli Altri. Un figlio subnormale - Recensione Libro
 date: 1977-06-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 5.101132392883301
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "di Lucia Roselli, Ed. Feltrinelli, 1976, pag. 264, lire 3.200"
 ---
+
 Èquesto un libro che può interessare parecchie persone anche se bisogna dire che, essendo molto particolareggiato, certe pagine possono risultare pesanti e che l'atteggiamento mentale dell'autrice ci è, per alcuni versi, piuttosto lontano.
 
 Proverbi agonista del libro è Paolo, il secondo figlio dell'autrice, che a quattro anni è diagnosticato subnormale ed epilettico. Da questo momento egli trascina la madre, quasi tenendola per mano, nel mondo de "gli altri", i subnormali. È la madre che scrive, agisce, lotta e lavora ma è Paolo che illumina le pagine del libro con il suo sorriso allegro e con i suoi capelli biondi.

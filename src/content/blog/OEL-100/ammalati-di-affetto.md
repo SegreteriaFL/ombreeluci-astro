@@ -1,4 +1,5 @@
 ---
+
 title: Ammalati... di affetto
 date: 2007-12-10
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.651298999786377
 umap_y: 9.0809326171875
 umap_z: 11.532142639160156
+
+subtitle: "La parola a chi, dopo tutto il lavoro di scrittura e redazione, poi alla fine stampa Ombre e Luci: il direttore tecnico della Tipografia Quintily"
 ---
+
 O
 ggi sono andato dal parrucchiere. C'era Giorgio, il ragazzo di bottega, si diceva un tempo. Come sempre mi ha salutato con affetto, mi ha fatto una delle sue dichiarazioni da esperto di calcio, o meglio, da esperto della Roma. Giorgio è affetto da sindrome di Down. Io non so perché si dica “affetto da sindrome di Down”. Affezione significa malattia e sindrome, concorso di sintomi che caratterizzano una malattia. Ma Giorgio non si è ammalato, non si può curare, non può guarire. E inutile cercare una eziopatogenesi. Di lui ci si può solo prendere cura perché ha una mancanza: Giorgio è nato con un difetto congenito, è nato così. Va solo amato come si devono amare tutti gli esseri umani nati da donna.
 **Ombre e Luci, due belle parole**

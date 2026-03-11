@@ -1,4 +1,5 @@
 ---
+
 title: Ricordi e speranze dai questionari sul pellegrinaggio a Roma del 1975
 date: 1975-12-03
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Alla fine di questa lettura, cerchiamo di fare un po' di silenzio dentro di noi per immaginare le parole che avrebbero voluto scrivere tutti quelli che non sanno parlare o scrivere. I più poveri fra di noi ma di gran lunga i più importanti, perché ci insegnano, con il loro silenzio misterioso, a penetrare nel mistero di Dio.*
 
 ### I ragazzi

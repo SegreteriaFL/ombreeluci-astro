@@ -1,4 +1,5 @@
 ---
+
 title: Piccole cronache dalla Lunigiana
 date: 2021-08-12
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Antonietta, Egiziana e Silvia si sono messe al lavoro per aggiornarci sulle loro due comunità, le più “settentrionali” della provincia Kimata: ai piedi delle Alpi Apuane, una rete di amicizia come quella delle comunità Fede e Luce può fare per molti la differenza. Comunità un po’ anziane, apparentemente fragili, apparentemente un po’ ruvide ma abituate a veder tirare fuori dal duro marmo opere d’arte meravigliose, dotate di generosità unica e grande voglia di fare, capaci di non arrendersi mai.* (Fabio Bronzini)
 
 La nostra comunità di [San Pietro d’Avenza](http://www.fedeeluce.it/project/san-pietro-di-avenza/) **vive questo difficile tempo come se attraversasse un deserto.** Sotto la guida attenta di Dio, e con lo Spirito Santo che illumina il nostro cammino, viviamo incontri online, sicuramente diversi rispetto alle casette, che hanno aperto uno sguardo più ampio sull’essere comunità. Ognuno mette a disposizione i propri doni e le proprie capacità artistiche rasserenando, per quanto possibile, il momento che stiamo vivendo. La diversa modalità di stare insieme ha anche contribuito ad abbattere i nostri pregiudizi e il rifiuto verso le nuove tecnologie. **Abbiamo scoperto che l’importante è stare insieme, fare comunità.**

@@ -1,4 +1,5 @@
 ---
+
 title: Tre tappe nella mia vita
 date: 1981-12-20
 author: Francesco Gammarelli
@@ -17,7 +18,10 @@ umap_z: 10.725600242614746
 issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
+
+subtitle: "Il cambiamento attraverso l’amore: la storia di Sabina e della nostra famiglia"
 ---
+
 **Che influenza ha avuto Sabina nella nostra vita?** Oggi che Sabina ha 15 anni, rispondo a questa domanda in modo diverso da come avrei risposto quando mia figlia era più piccolina. Non vi è dubbio che questa dolorosa esperienza, — sarebbe più giusto chiamarlo dramma, — di avere un figlio gravemente handicappato cambia la vita, i programmi, il modo di agire e di pensare di tutta una famiglia. **Per quello che mi riguarda penso che la mia vita possa dividersi in tre parti ben separate.**
 
 **La prima parte è stato l’incontro con l’handicap** , che nel mio caso è stato progressivo, non perché Sabina, al momento della nascita non aveva alcun segno che potesse far pensare ad un qualsiasi handicap. La presa di coscienza è venuta gradualmente: innanzi tutto gli occhi, 25 giorni dopo la nascita; ci dissero che era possibile salvarli con delle operazioni. Ma ahimè, non è stato così. A mano a mano che il tempo passava, mi rendevo conto che gli occhi erano irrimediabilmente perduti. E quando cominciavo a rassegnarmi ad avere una bambina cieca, cominciai a rendermi conto che Sabina non dava alcun segno di partecipazione a ciò che accadeva intorno a lei. Non poteva raddrizzarsi, sedersi, mangiare come fanno tutti gli altri bambini. Consulto di altri specialisti: « Non si preoccupi, un po’ di fisioterapia e la bambina guarirà ». A questo punto posi tutte le speranze nella fisioterapia, come in una ricetta magica, ma anche la fisioterapia non dette altri risultati che illusioni e frustrazioni.

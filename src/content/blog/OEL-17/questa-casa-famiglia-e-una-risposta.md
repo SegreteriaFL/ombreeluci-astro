@@ -1,4 +1,5 @@
 ---
+
 title: "Questa casa famiglia è una risposta"
 date: "1987-03-21"
 author: "Nicole Schulthes"
@@ -15,6 +16,7 @@ issue_number: OEL-17
 id_numero: "OEL-17"
 numero_rivista: "Ombre e Luci"
 ---
+
 Siamo arrivati una mattina d’inverno a Endine. Il lago era gelato. L’aria pungente. L’accoglienza calorosa. Appena arrivati ci è stato offerto da uno dei ragazzi un caffè ben presentato su un vassoio. Il sorriso della madre di famiglia, la gentilezza di ogni persona ci hanno fatto sentire veramente accolti in casa. Abbiamo condiviso il pranzo insieme a tutti e abbiamo goduto dell’atmosfera calda e simpatica di una famiglia molto numerosa.
 I responsabili della casa, i coniugi Venerio e Vittoria Arosio, così raccontano l’origine di questa famiglia.
 

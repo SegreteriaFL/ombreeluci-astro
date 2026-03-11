@@ -1,4 +1,5 @@
 ---
+
 title: "Newsletter n. 8 - Quando il buio è totale"
 date: "2020-01-24"
 author: "Redazione"
@@ -14,6 +15,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 7 Febbraio 2020
 
 Immagine di copertina: Memoriale per le vittime della clinica viennese di Spiegelgrund (Vienna, 2008)

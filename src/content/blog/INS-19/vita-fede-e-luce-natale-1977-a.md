@@ -1,4 +1,5 @@
 ---
+
 title: "Vita Fede e Luce: Natale 1977 a..."
 date: 1978-03-04
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 ### Natale '77 a Santa Silvia
 
 Sono Lorenza del [gruppo di Santa Silvia](https://www.fedeeluce.it/project/santa-silvia/) e voglio raccontarvi la festa di Natale che si è svolta nei locali della Parrocchia.
@@ -51,6 +53,7 @@ Il punto centrale stato comunque la messa, introdotta da una scenetta mimata mol
 
 Un ultimo strascico il 26; quando una divertente tombolata ha riunito molti tra quanti erano rimasti a Roma.
 
+
 ---
 
 ### A San Paolo
@@ -72,6 +75,7 @@ Ed ora veniamo al giorno della "prima." Grande folla: circa trenta persone. Gran
 Per ciò che riguarda le attività dal 1° gennaio in poi, uscirà prossimamente un articolo.
 
 AUGURI A TUTTI, anche se un po' in ritardo, per il nuovo anno!
+
 
 ---
 

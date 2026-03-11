@@ -1,4 +1,5 @@
 ---
+
 title: "Pagine Aperte - Esperienze di Solidarietà a Parma e Provincia negli anni '90."
 date: "1993-06-20"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-42
 id_numero: "OEL-42"
 numero_rivista: "Ombre e Luci"
 ---
+
 Questo libro è un elenco di 200 realtà associative sul territorio di Parma, in 14 diversi settori:
 
 - aiuto ai malati

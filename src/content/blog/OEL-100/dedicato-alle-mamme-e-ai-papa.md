@@ -1,4 +1,5 @@
 ---
+
 title: "Dedicato alle mamme e ai papà"
 date: "2007-12-10"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Ad ogni Santo Natale rifletto e mi interrogo sull’Emmanuele il “Dio con noi”, lo stesso nome deciso per mio figlio diversamente abile prima che nascesse"
 ---
+
 Ad ogni Santo Natale rifletto e mi interrogo sull’Emmanuele il “Dio con noi”. Lo stesso nome deciso per mio figlio diversamente abile, un’ora prima che venisse alla luce.
 
 Ho percepito subito in lui qualcosa di grande: lasciai scorrere prima l’amore e parlare il cuore, affinché nella ragione sussultasse la meraviglia e lo stupore.

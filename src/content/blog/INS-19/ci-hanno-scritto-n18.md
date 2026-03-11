@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto n.18
 date: 1978-09-19
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 ### Roma, 30 gennaio 1978
 
 Domenica avevo tanto desiderio di rivedervi e l'ho fatto. Cosa rara per me uscire sola, ma dovevo farlo, perché sapevo che vedere tutti voi mi avrebbe consolato del dolore che avevo.

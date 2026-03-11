@@ -1,4 +1,5 @@
 ---
+
 title: Come sogni il futuro di tuo figlio?
 date: 1985-09-29
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-11
 id_numero: "OEL-11"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Una mamma con una figlia adulta con handicap mentale grave
 
 Per ora non c’è una necessità immediata. Se la dovessi sistemare adesso, mi piacerebbe poter visitare il posto dove potrebbe andare, vedere le persone che vivranno con lei e avere la sicurezza che alcune di queste persone sono permanenti. Vorrei essere sicura di una certa continuità. Non mi piacerebbe rischiare che E. possa essere tenuta per un breve periodo per poi essere mandata da un’altra parte e dover soffrire per il cambiamento. (Perché sono sicura che, nella migliore delle ipotesi, un po’ soffrirà in ogni caso). Preferirei qualcosa di piccolo, di misura familiare, dove ci siano dei contatti personali e che E. abbia la stessa persona che si occupa di lei tutti i giorni, aiutata, secondo le circostanze, da qualcun altro. In ogni caso, la piccola casa sarebbe bello che facesse parte di un’organizzazione più grande (l’

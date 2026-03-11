@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.110
 date: 2010-06-17
 author: Redazione
@@ -14,12 +15,17 @@ umap_z: 11.03883171081543
 issue_number: OEL-110
 id_numero: "OEL-110"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Passaggio-Pasqua in Cina
 
 Vi raggiungo dalla lontana Cina per scambiare gli auguri di Buona Pasqua e per esprimervi la mia riconoscenza per le vostre preghiere, incoraggiamenti e aiuti materiali che date a tanti missionari. (...) La Pasqua conferma e celebra la risurrezione di Gesù che è un evento che dà valore a tutta la vita. Da giovane ho sentito la vocazione ad annunciare questa straordinaria notizia di salvezza! Venticinque anni fa sono stato ordinato sacerdote e ho avuto la gioia di iniziare un’esperienza di condivisione di fede e di annuncio missionario fino ad arrivare qui in Cina. Ringrazio il Signore che mi ha sempre preceduto e illuminato il cammino. Anche quest’anno nella notte di Pasqua, Lui ci farà un grande dono: la responsabile generale dell’Huiling, dopo una decina d’anni di lavoro insieme, ha deciso di fare il catecumenato e di ricevere i sacramenti del Battesimo, della Cresima, della Comunione e della Riconciliazione! Si tratta di un “passaggio-Pasqua” che segna la vita di una persona che ha tanto amato e lavorato instancabilmente per le persone più svantaggiate. Ora il Signore l’ha chiamata più vicina a Sé e potrà partecipare ai sacramenti che nella famiglia della Chiesa custodiscono e rinvigoriscono la nostra fede e l’impegno gioioso di amarci come fratelli e sorelle. L’annuncio e la celebrazione del Signore risorto porti fiducia, speranza, tanto calore umano e carità anche nella vostra casa e comunità.
 *padre Fernando*
 da Hong Kong
+
+
 
 ---
 
@@ -29,12 +35,16 @@ Grazie a tutti per le parole di incoraggiamento che ci sono giunte da ogni parte
 **Eveline Barin Verdier**
 - Presidente del C.A. dell’Arca Haiti
 
+
+
 ---
 
 ### Come ritrovarsi attorno a un tavolo
 
 Nello scorso numero di Ombre e Luci (n.1/2010) in Dialogo Aperto ho letto la lettera intitolata “Volete farci mancare tutto questo?” a proposito della fatica che accusa la Redazione a proseguire nella sua attività. Condivido le riflessioni riportate e vorrei aggiungere questi pensieri. In questi ultimi anni si è un po’ avvertita la difficoltà da parte dei componenti dei gruppi FL a continuare a portare avanti con assiduità le occasioni di incontro. Infatti siamo a conoscenza che le nuove “leve” sono poche e che i vecchi amici a volte faticano a dividersi fra i loro impegni di famiglia e di lavoro, e i “genitori” sono invecchiati. Per tutto questo, ancora di più non potete non continuare ad esserci vicino e a ricordarci che FL, nonostante le difficoltà, è vivissima e va avanti. La vostra bella pubblicazione ci tiene uniti e, quando la si riceve, è come se ci sedessimo attorno ad un tavolo per ritrovarci e scambiarci il sostegno che un gruppo affiatato sa dare ai singoli componenti! Un affettuosissimo saluto
 **Elisa Sturlese Milano**
+
+
 
 ---
 

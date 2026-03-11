@@ -1,4 +1,5 @@
 ---
+
 title: La difficile storia di Enrico
 date: 2009-09-10
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 10.271574020385742
 issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una testimonianza, per conoscere e capire la complessità del disagio mentale"
 ---
+
 ### Primo allarme
 
 Metà anni sessanta: in una famiglia unita da reciproco affetto, senza gravi problemi economici, sensibile al bene comune in una comunione di fede nel Signore, un figlio adolescente che chiameremo Enrico, comincia a presentare dei problemi. Il sacerdote responsabile degli scout, dopo un primo campeggio, ci consiglia di non insistere nello scoutismo perché viene vissuto dal ragazzo con sofferenza, come un obbligo.Un altro sacerdote, nostro amico che lo prepara insieme alla sorella di poco maggiore al sacramento della Comunione,ci fa presente che Enrico si carica di scrupoli eccessivi e ci consiglia di consultare uno psicologo. Negli studi, pur essendo dotato di una buona intelligenza, si mostra privo di interesse e va sostenuto e incitato.

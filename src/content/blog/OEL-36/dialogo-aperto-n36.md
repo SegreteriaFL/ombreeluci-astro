@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.36
 date: 1991-12-24
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-36
 id_numero: "OEL-36"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### La gente ha paura della sofferenza
 
 Ho ricevuto la vostra lettera e un saggio della vostra rivista. La vostra iniziativa mi piace. Non voglio parlare di rifiuto, disprezzo, indifferenza, verso le persone handicappate, malate, disadattate. Non parlerei neanche di egoismo vero e proprio nei confronti di queste persone. Secondo me la gente ha paura della sofferenza, per cui cerca di non vederla, e di non pensarci nemmeno. Si pensa agli ammalati, ai disadattati, solo come disgraziati, sfortunati. Ma questo atteggiamento mi sembra ingiustificato, perché il mondo della sofferenza è molto più ricco di quello dei sani, molto più maturo e più vicino a Dio. La scienza ha moltiplicato i mezzi per combattere il dolore, nello stesso tempo la persona di oggi appare sempre più spiritualmente fragile e indifesa di fronte a se stessa. È inevitabile che sia così, in una mentalità diffusa che vede solo come valori spirituali il benessere fisico, la bellezza, il piacere, il successo mentre percepisce la sofferenza come una realtà da evadere al più presto con ogni mezzo. Questo di certo non è maturità. Un vero amore per la vita porta ad accettare come parte integrante di essa anche il dolore, imparando l’arte difficile e sublime di far scaturire anche da esso il progresso dell’uomo nei valori che elevano e appagano l’animo umano. Cordiali saluti.

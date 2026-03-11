@@ -1,4 +1,5 @@
 ---
+
 title: Il tesoro nascosto nel campo
 date: 2019-08-07
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-146
 id_numero: "OEL-146"
 numero_rivista: "Ombre e Luci"
 ---
+
 Qualche mese fa sembrava che Armando fosse per l’ennesima volta in punto di morte: non sapendo cosa fosse meglio per lui, Marco, il suo tutore, decise di sentire Jean. E Jean non ebbe dubbi: Marco doveva considerare la vita di Armando non secondo i suoi parametri, ma secondo quelli di Armando. E per lui anche qualche ora di vita in più tra la sua comunità poteva avere un grande significato. Armando è ancora al *Chicco* , che lo accoglie ormai da 33 anni, lui che di anni ne ha 38.
 
 Armando è una delle 20 persone con disabilità mentali e fisiche più gravi accolte nella comunità dell’ *Arca* di Ciampino, *Il Chicco* , di cui Marco Veronesi è responsabile; e Jean è quel Jean Vanier che 55 anni fa diede per primo testimonianza di come fosse possibile restituire una vita degna e ricca a chi, fino a quel momento, viveva relegato a margine della società, spesso in istituzioni manicomiali anche senza una patologia psichiatrica. Jean, attraverso uno stile di vita molto semplice e quotidiano, ispirò molti a condividere quel tipo di esperienza; persone che, nel mondo, si lasciarono interrogare da quell’idea, e capovolsero le loro vite per realizzare concretamente quell’incontro che è alla base dell’approccio dell’ *Arca* nel quale ognuno riconosce le proprie fragilità e mette a disposizione i propri doni, nel rispetto di ogni diversità. Jean diceva di non aver fondato nulla... aveva, insieme a Raphael e Philippe, solo aperto le porte di casa per condividere e testimoniare.

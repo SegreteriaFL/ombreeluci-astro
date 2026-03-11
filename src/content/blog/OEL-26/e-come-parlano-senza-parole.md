@@ -1,4 +1,5 @@
 ---
+
 title: "E come \"parlano\" senza parole!"
 date: 1989-06-16
 author: Sergio Sciascia
@@ -17,6 +18,7 @@ issue_number: OEL-26
 id_numero: "OEL-26"
 numero_rivista: "Ombre e Luci"
 ---
+
 Lo scorso aprile, su un palco approntato davanti l’altare maggiore della basilica di Sant’Antonio di Padova, una trentina di giovani minorati mentali, con alcuni assistenti, dell’Opera Francescana Charitas di Vicenza, hanno rappresentato «Chiara e Francesco». Guardando la rappresentazione che mi prendeva sempre più di scena in scena — e insieme a me anche il migliaio di persone che riempiva la chiesa restando in silenzio assoluto nelle scene ed esplodendo in applauso alla fine di ognuna — mi riempiva la mente la meravigliosa illogicità di quell’avvenimento. Quei giovani sul palco, senza o con poca parola, con i movimenti e gli atteggiamenti raccontavano, predicavano, e convincevano, tutte quelle persone in possesso di tutte le facoltà. E questo nel tempio del santo passato alla storia come grande sapiente e oratore che intere città venivano ad ascoltare: dote questa simboleggiata dalla reliquia della lingua conservata incorrotta a pochi metri da dove quei ragazzi senza parola, parlavano. Con che attenzione la gente seguiva il «discorso» del giovane «down» che rappresentava danzando la chiamata di San Francesco! Come erano tutti incantati dalla danza di Federica, con un ritardo mentale, che raccontava con il suo corpo la chiamata di Santa Chiara, con la controdanza della sua ombra proiettata sul sole luminoso che le faceva da sfondo! Quanto angosciosa era la danza di Francesco impaniato in una griglia di nastri, per dire il suo tormento interiore.
 
 La ricchezza espressiva e la complessità di movimenti, complicati e rapidi eppure senza urti e incertezze di tutti i giovani nella danza dei Poveri e dei Ricchi, dei Lebbrosi, della Violenza in Gubbio, e la magica sequenza delle «mani danzanti», erano motivo di stupore per chi conosce l’impaccio fisico, l'incertezza, la difficoltà a «star bene col proprio corpo» delle persone ferite nella mente. Rivelavano quanto lungo e sapiente è il cammino fatto nell’Opera Francescana Charitas di Vicenza sulla via della comunicazione non verbale (la presentammo in uno dei primi numeri di Ombre e Luci).

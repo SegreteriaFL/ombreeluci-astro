@@ -1,4 +1,5 @@
 ---
+
 title: "Pizza, supplì e bibita a 7 euro!"
 date: "2006-03-30"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
+
+subtitle: "La pizzata è sempre un simpatico momento d'incontro, per ritrovarci, darci notizie, abboffarci e semplicemente stare un po’ insieme al calore di un'amicizia ormai più che decennale"
 ---
+
 È una giornata piovosa e fredda. Chiusi gli ombrelli, ci infiliamo in fretta urtandoci nella pizzeria davvero modesta ma poco cara e quindi adatta alle tasche di tutti i componenti del gruppo: anziani genitori, i loro figli disabili e un bel gruppetto di amici esuberanti e chiassosi come al solito.
 
 La “pizzata” è sempre un simpatico momento d'incontro, per ritrovarci, darci notizie, abboffarci e semplicemente stare un po’ insieme al calore di un'amicizia ormai più che decennale.

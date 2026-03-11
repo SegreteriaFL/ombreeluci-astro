@@ -1,4 +1,5 @@
 ---
+
 title: "Il teatro è gioco e nel gioco non si smette mai di crescere"
 date: "2020-06-04"
 author: "Elisa De Felice"
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Nel teatro integrato non conta l’età, non conta la conformazione fisica, la struttura mentale, le prestazioni, non c’è giudizio. È un percorso che stimola ognuno a superare i propri limiti, mette in luce le risorse di ognuno, in cui ognuno si sente accolto e parte attiva del gruppo. E nel quale dall’io si passa al noi.*
 *Elisa ce lo racconta nell’esperienza della figlia Veronica con suo marito Alessandro.*
 

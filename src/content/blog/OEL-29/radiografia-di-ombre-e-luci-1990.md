@@ -1,4 +1,5 @@
 ---
+
 title: Radiografia di Ombre e Luci (1990)
 date: 1990-03-20
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 9.736422538757324
 issue_number: OEL-29
 id_numero: "OEL-29"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La redazione del 1990 si racconta e spiega i motivi dell'impegno nella rivista Ombre e Luci"
 ---
+
 ### La vostra opinione
 
 O*gni numero di* Ombre e Luci *ci permette, nelle pagine dedicate alle lettere, in* Dialogo Aperto *, uno scambio di idee sulle nostre riflessioni, sulle nostre speranze e sulle nostre attività. Qui i lettori imparano a conoscersi reciprocamente e, in questo senso, a sentirsi più uniti. * È per questa ragione che vogliamo mettere tutti al corrente, per quanto lo spazio ci concede, su alcuni dei risultati dell’inchiesta che facemmo tempo fa fra i lettori della nostra rivista. Avevamo bisogno di sapere quale fosse la loro opinione su di essa, come migliorarla, cosa approfondire e **come continuare il nostro lavoro** tenendo presenti le risposte ricevute.

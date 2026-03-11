@@ -1,4 +1,5 @@
 ---
+
 title: Indice articoli per argomenti
 date: 1993-03-13
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-44
 id_numero: "OEL-44"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Testimonianze di persone con disabilità
 
 [Con loro sono salito sul monte Méta](http://www.ombreeluci.it/1983/con-loro-sono-salito-sul-monte-meta/)

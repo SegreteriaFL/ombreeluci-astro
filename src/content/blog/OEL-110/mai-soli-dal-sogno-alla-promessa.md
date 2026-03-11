@@ -1,4 +1,5 @@
 ---
+
 title: Mai soli. Dal Sogno alla promessa
 date: 2010-06-17
 author: Elisabetta De Rino
@@ -14,7 +15,10 @@ umap_z: 9.527228355407715
 issue_number: OEL-110
 id_numero: "OEL-110"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Associazione di volontariato che aiuta le persone con disabilità nella realizzazione di un progetto abitativo adeguato"
 ---
+
 Attraverso un articolo comparso su Famiglia Cristiana abbiamo saputo dell’esistenza di una associazione nel Canavese, vicino a Torino, dal nome promettente “Volare Alto” e di un suo progetto, “Mai soli”, che ci è parso interessante per tutti coloro che ruotano attorno al mondo di “Ombre e Luci”.
 
 MAI SOLI ha lo scopo di fiancheggiare e sostenere le persone con disabilità nella realizzazione di un progetto abitativo adeguato, presso la famiglia di origine, soli, oppure in coabitazione con altri, al fine di raggiungere la maggior autonomia possibile.

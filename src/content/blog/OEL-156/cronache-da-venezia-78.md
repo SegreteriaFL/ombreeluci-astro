@@ -1,4 +1,5 @@
 ---
+
 title: Cronache da Venezia 78
 date: 2021-09-15
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 Era stata unica ma non irripetibile, la 77ma edizione della Mostra del Cinema di Venezia dello scorso anno. **A Venezia 78 abbiamo ritrovato le stesse regole sanitarie di un anno fa** : controllo della temperatura, distanziamento e mascherine nelle sale, tappeto rosso coperto alla vista da un muro e l’aggiunta del green pass obbligatorio. È andata bene anche stavolta, con solo tre casi di positività. Filato tutto liscio sul piano organizzativo e sanitario, **sono stati i film a prendersi giustamente la scena.**
 
 Il direttore Alberto Barbera aspirava ad individuare un tema portante nei film della selezione ufficiale, per questo aveva affermato che molte opere avrebbero trattato della condizione femminile. Alla fine è stato più centrale il tema della maternità, a partire dal film di apertura ***Madres Paralelas* di Pedro Almodóvar** : due madri partoriscono lo stesso giorno nello stesso ospedale e, da allora, la loro vita si intreccia in modo inestricabile. È Penélope Cruz ad interpretare una di loro, vincendo il premio per la migliore attrice. Nel film il regista ragiona sull’importanza dei rapporti di sangue e sull’affetto altrettanto forte che si può provare per qualcuno con cui non si hanno legami genetici.

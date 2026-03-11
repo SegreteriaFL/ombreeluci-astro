@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto, Insieme n.26
 date: 1980-09-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 **Dall'italia**
 
 ### **Da Roma -** *Gruppo "Ascensione"*
@@ -26,6 +28,7 @@ Cogliendo l'occasione di dover scrivere le nostre impressioni sul giornalino Ins
 
 Carissimi amici, Ho letto di voi sull'ultimo numero di "Progetto". Io ho 19 anni, frequento il primo anno della Facoltà di Medicina, e risiedo qui a Genova da non molto tempo. Da tempo mi interesso di spiritualità, e faccio parte di un ordine ecumenico e non violento, l'Arca, fondato da un cattolico, Lanza del Vasto (discepolo di Gandhi). Personalmente non mi sono mai impegnato in un discorso di servizio vero e proprio, un pò per vari dubbi, un pò perché non ho mai trovato uno "spazio" adatto. Leggendo l'articolo però, ho provato un desiderio di conoscervi, e mi è sembrato insomma di trovare, almeno in linea teorica, un accordo con il nostro cammino. Per cui vorrei sapere come potrei entrare in contatto con le vostre attività, naturalmente se possibile, qui a Genova. Spero ciò sia possibile, e altrimenti datemi voi indicazioni e informazioni varie. Vi ringrazio e attendo vostre notizie. A voi tutti, ora e sempre: Pace, Forza Gioia
 **Marco Alessandrini**
+
 
 ---
 

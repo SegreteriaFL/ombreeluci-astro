@@ -1,4 +1,5 @@
 ---
+
 title: Un gioco da fare quando fuori piove
 date: 2014-03-29
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 6.321015357971191
 issue_number: OEL-125
 id_numero: "OEL-125"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Fuori piove. Abbiamo già fatto merenda e vogliamo stare tutti insieme. Questa che segue è una proposta di gioco in comune che ha riscosso un discreto successo nel nostro laboratorio"
 ---
+
 ### Preparazione del gioco
 
 - Ci si divide in due grandi squadre di 8 - 10 persone comprensive di amiche, amici, ragazzi, bambini, gatti e cagnolini se ce ne sono. - Una o due persone restano a dirigere il gioco. - Il Direttore di gioco avrà tante strisce di carta con il titolo delle scenette che avrà pensato e scritto in precedenza. - Un rappresentante per squadra sceglierà una striscia tra quelle che, rigorosamente coperte, il direttore gli offrirà. - Ciascuna delle due squadre in due posti differenti allestirà come meglio saprà la scenetta indicata.

@@ -1,4 +1,5 @@
 ---
+
 title: Essere padrino di Mario
 date: 1996-12-15
 author: Stefano Artero
@@ -18,6 +19,7 @@ umap_x: 6.293100357055664
 umap_y: 10.069609642028809
 umap_z: 9.194659233093262
 ---
+
 È stata probabilmente un'esperienza religiosa unica. Nove persone, giovani con handicap mentali molto gravi, sorelle e amici, quasi tutti adulti, si sono preparati insieme per la cresima, con un lavoro e un «cammino di fede» insolito e profondo. Quindi hanno ricevuto la cresima insieme agli altri ragazzi nella parrocchia romana di San Gioacchino.
 Q
 uando Tommaso mi ha fatto leggere il suo articolo sulla cresima la domanda è sorta spontanea «

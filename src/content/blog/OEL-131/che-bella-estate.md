@@ -1,4 +1,5 @@
 ---
+
 title: Che bella estate!
 date: 2015-09-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 Questa estate la nostra Comunità ha vissuto grandi momenti di gioia vera con la celebrazione di anniversari veramente importanti.
 
 In molti abbiamo partecipato ai festeggiamenti dei quarant’anni di Fede e Luce in Italia.

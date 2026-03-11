@@ -1,4 +1,5 @@
 ---
+
 title: Un crocifisso silenzioso immagine della rivoluzione cristiana
 date: 2010-03-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-109
 id_numero: "OEL-109"
 numero_rivista: "Ombre e Luci"
 ---
+
 “Dicono che il crocifisso deve essere tolto dalle aule di scuola. Il nostro è uno stato laico e non ha il diritto d'imporre che nelle aule ci sia il crocifisso(...).. Però a me dispiace che il crocifisso scompaia per sempre da tutte le classi. Mi sembra una perdita. L’ora di religione è una prepotenza politica. È una lezione. Vi si spendono delle parole. La scuola è di tutti, cattolici e non cattolici. Perché vi si deve insegnare la religione cattolica? Ma il crocifisso non insegna nulla. Tace. L’ora di religione genera una discriminazione fra cattolici e non cattolici, fra quelli che restano nella classe in quell’ora e quelli che si alzano e se ne vanno. Ma il crocifisso non genera nessuna discriminazione. Tace.
 
 È l’immagine della rivoluzione cristiana, che ha sparso per il mondo l’idea dell'uguaglianza fra gli uomini, fino allora assente. La rivoluzione cristiana ha cambiato il mondo. Vogliamo forse negare che ha cambiato il mondo? Sono quasi duemila anni che diciamo: “prima di Cristo” e “ dopo di Cristo”. O vogliamo forse ora smettere di dire così? Il crocifisso non genera nessuna discriminazione. È la muto e silenzioso. C'è statò sempre. Per i cattolici è un simbolo religioso. Per gli altri, può essere niente, una parte del muro. E infine per qualcuno, per una minoranza minima, 0 magari per un solo bambino, può essere qualcosa di particolare, che suscita pareri contrastanti. I diritti delle minoranze vanno rispettati.

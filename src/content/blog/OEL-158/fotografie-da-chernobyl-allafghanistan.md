@@ -1,4 +1,5 @@
 ---
+
 title: "Fotografie da Chernobyl all'Afghanistan"
 date: 2022-07-14
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 L'energia nucleare è un tema che divide l’opinione pubblica da anni. Forse proprio per questo il documentario *I’m So Sorry* , passato a Cannes nel 2021, è stato quasi ignorato da noi, con l’eccezione dell’Across Asia Film Festival di Cagliari che ne ha proposto l’anteprima nazionale.
 
 Offrendo allo spettatore **più riflessioni che informazioni** , secondo lo stile poetico e visivamente molto curato che ha reso Liang Zhao una delle figure più note tra i documentaristi cinesi, la pellicola ci porta vicino a Chernobyl, dove vivono in solitudine alcune persone che hanno scelto di non andarsene; nei pressi di Fukushima, negli alloggi in cui si sono sistemati sfollati le cui case sono ancora intatte nonostante l’incidente nucleare; in Germania, dove invece una centrale nucleare viene smantellata.

@@ -1,4 +1,5 @@
 ---
+
 title: Il lavoro
 date: 2001-06-20
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 8.208146095275879
 issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Da sempre consideriamo fondamentale il lavoro nella vita dell’adolescente e dell'adulto disabile mentale: adeguato alle sue attitudini e alle sue capacità"
 ---
+
 D a sempre noi di Ombre e Luci, consideriamo fondamentale nella vita dell’adolescente e dell'adulto disabile mentale, la possibilità di un lavoro realmente adeguato alle sue attitudini e capacità. Con altrettanta convinzione sosteniamo che è necessaria una preparazione accurata e una qualche forma di tutela o sostegno al disabile perché il suo lavoro sia veramente tale, porti cioè un suo frutto e conferisca dignità di lavoratore a chi lo svolge.
 
 Pensiamo che, nel presente, la coperativa sociale di tipo B rappresenti una valida esperienza rispondendo a questi fondamentali requisiti.

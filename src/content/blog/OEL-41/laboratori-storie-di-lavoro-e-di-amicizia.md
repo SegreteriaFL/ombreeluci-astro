@@ -1,4 +1,5 @@
 ---
+
 title: "Laboratori: storie di lavoro e di amicizia"
 date: 1993-03-18
 author: Maria Teresa Mazzarotto
@@ -18,6 +19,7 @@ issue_number: OEL-41
 id_numero: "OEL-41"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Laboratori: che cosa sono
 
 Si sentiva spesso dai ragazzi e dai loro genitori la richiesta di qualche «incontro in più», di attività che riempissero gli spazi lasciati vuoti dalla scuola e dalle altre organizzazioni, di incontri sostenuti anche da esperienze da portare avanti insieme, nel tempo. Per rispondere a queste esigenze ed insieme anche al desiderio di alcune amiche, per lo più signore giovani e meno giovani, di dedicare qualche ora del loro tempo ai ragazzi disabili offrendo e ricevendo amicizia, si è pensato ad un luogo, ad una grande stanza con servizi, presso una scuola, una parrocchia o in una casa privata, facilmente raggiungibile dagli interessati, dove riunirsi un pomeriggio alla settimana per stare insieme operando.

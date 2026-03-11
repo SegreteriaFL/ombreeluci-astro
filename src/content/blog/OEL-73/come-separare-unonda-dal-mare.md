@@ -1,4 +1,5 @@
 ---
+
 title: "Come separare un'onda dal mare"
 date: 2001-03-09
 author: Antonio Mazzarotto
@@ -18,7 +19,10 @@ umap_z: 12.302199363708496
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "L'incontro con le persone disabili e la mia vita adulta"
 ---
+
 Fedeltà, responsabilità, gratuità. Soprattutto in queste tre parole si può racchiudere secondo me il senso più prezioso della mia amicizia con le persone disabili. Un’amicizia cominciata ormai diversi anni fa (22) con l’arrivo di Fede e Luce nella mia vita, proseguita per tanti anni e rimasta anche oggi, presente nella mia vita di famiglia e di lavoro, anche se non frequento più Fede e Luce.
 
 L’importanza della fedeltà nei rapporti con gli altri, la capacità di assumermi delle responsabilità, e il desiderio di vivere e testimoniare la gratuità, sono tre insegnamenti che ho ricevuto e che cerco umilmente di rivivere nelle scelte della mia vita, importanti o quotidiane che siano.

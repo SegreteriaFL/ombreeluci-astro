@@ -1,4 +1,5 @@
 ---
+
 title: I genitori commentano le parole del cardinal Martini
 date: 1986-06-25
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Una mamma: Quali parole più belle?
 
 Reputo

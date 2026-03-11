@@ -1,4 +1,5 @@
 ---
+
 title: "8. Nutrirsi di Gesù attraverso la Parola"
 date: "1981-12-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Giugno 1980
 
 Come infatti la pioggia e la neve scendono dal cielo e non vi ritornano senza avere irrigato la terra, senza averla fecondata e fatta germogliare, perché dia il seme al seminatore e pane da mangiare, così sarà della parola uscita dalla mia bocca: non ritornerà a me senza effetto senza aver operato ciò che desidero e senza aver compiuto ciò per cui l'ho mandata. (Isaia 55, 10 - 11)

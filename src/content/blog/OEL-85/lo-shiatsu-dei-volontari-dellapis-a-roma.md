@@ -1,4 +1,5 @@
 ---
+
 title: Lo shiatsu dei volontari dell’APIS a Roma
 date: 2004-03-08
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.458759307861328
 umap_y: 8.203572273254395
 umap_z: 7.50644063949585
+
+subtitle: "Il cuore dello Shiatsu è come il puro affetto materno; la pressione delle mani fa scorrere le sorgenti della vita."
 ---
+
 > Il cuore dello Shiatsu è come il puro affetto materno; la pressione delle mani fa scorrere le sorgenti della vita.
 
 È una frase di Tokujiro Namikoshi che dice Alberto Polidori mentre massaggia Emanuela. La schiena, le braccia, i polsi, le mani, le gambe... È il nocciolo del pensiero filosofico dello Shiatsu, continua, e mi racconta il progetto del loro impegno — chi sono, cosa fanno, come sono nati, i passi che li hanno portati qui, al corpo di Emanuela che si distende, si rilassa, che lentamente si scioglie. Shiatsu è una parola giapponese, composta da *shi* (dita) e *atsu* (pressione). Essa indica la pressione fatta con le dita, in particolare con il pollice, nel tentativo di ricomporre l'equilibrio tra mente e corpo del malato. Massaggiando secondo questa tecnica, che potrebbe quasi sembrare casuale ad un osservatore distratto ma che invece ha un sapere millenario alle spalle, si riesce a garantire stabilità nella pressione e - al contempo - grande sensibilità, arrecando alla persona che riceve il massaggio benefici concreti e tangibili.

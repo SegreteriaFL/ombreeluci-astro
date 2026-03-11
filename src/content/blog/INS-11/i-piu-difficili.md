@@ -1,4 +1,5 @@
 ---
+
 title: "I più difficili"
 date: "1976-02-20"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Questo numero è dedicato in modo particolare ai bambini e ragazzi più diversi, più difficili. Quelli di fronte ai quali la scienza è più impotente che mai"
 ---
+
 Abbiamo già dettto che questo bollettino ha come scopo di mantenere vivi i legami fra noi tutti per divenire, poco alla volta, "insieme" una cosa sola. **Questo numero è dedicato in modo particolare ai bambini e ragazzi più diversi, più difficili.** Quelli di fronte aiiquali la scienza è più impotente che mai: "non sa neppure dire quale genere di malattia li abbia colpiti; non sa portarvi rimedio, non sa consigliare i genitori. Quelli che i centri speciali fanno fatica ad accettare, quelli che le maestre non sanno da che parte prendete... quelli che all'apparenza sono "normali"; quelli che le femiglie non sanno come fare a seguire, a capire, a educare, spesso a tenere con sè...
 
 Cosa fare allora? Prenderselaon loro? Di che cosa hannoolpa? Arrabbiarsi? Prendersela con Dio? La tentazione è forte.

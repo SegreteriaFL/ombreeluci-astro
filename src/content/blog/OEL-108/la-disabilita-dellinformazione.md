@@ -1,4 +1,5 @@
 ---
+
 title: "La disabilità dell’informazione"
 date: "2009-12-10"
 author: "Elisabetta De Rino"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-108
 id_numero: "OEL-108"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Riflessioni sul seminario svoltosi nell'ottobre scorso a Torino"
 ---
+
 Sono entrata nella sede della Fondazione CRT (Cassa di Risparmio di Torino), a Torino, come “inviata” di Ombre e Luci, per partecipare a un seminario per giornalisti dal titolo “La disabilità dell’informazione”. S
 
 ono contenta di aver avuto questa opportunità, ne sono rimasta piacevolmente sorpresa e vi dico perché. Il palazzo sede dell’evento, come molti altri nel centro di Torino, ispira una solida consapevolezza di potere e stabilità finanziaria; mi sarei sentita fuori posto se non avessi visto entrare, frammiste ai completi grigi e ai gessati, molte persone vestite normalmente come me (si sa che anche i giornalisti e specialmente i più giovani praticanti in questo periodo non se la passano troppo bene). Ho subito notato, inoltre, alcune persone che si spostavano con l’ausilio di una carrozzina entrare con grande disinvoltura, come fossero di casa.

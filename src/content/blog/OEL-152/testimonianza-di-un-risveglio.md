@@ -1,4 +1,5 @@
 ---
+
 title: Testimonianza di un risveglio
 date: 2020-07-21
 author: Pier Giorgio Trancossi
@@ -17,6 +18,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Marzo 2020: il trauma procede spedito, come pure i contagi da Covid-19, i bollettini dei telegiornali sono rossi. Ho vissuto altri traumi, ma questo è particolare; ti prende una specie di intontimento e non riesci più a ragionare. Finalmente decido di telefonare alla persona che tiene le fila di alcuni progetti solidali, tra cui uno che mi sta particolarmente a cuore.
 
 Dal confronto arriva il *risveglio* : non si può e non si deve buttare alle ortiche un progetto regionale già programmato da tempo. Un progetto che coinvolge in un corso di cucina sedici ragazzi appartenenti a quattro associazioni: *Diversabili Fede Luce* di Fidenza, [*Associazione Nazionale genitori soggetti autistici*](http://angsa.it/) , [*Il Faro 23*](https://www.facebook.com/Associazione-Il-faro-23-306542749400767/) di Salsomaggiore, [*Fuori di Teatro*](https://www.traattori.it/fuori-di-teatro/) di Fidenza.

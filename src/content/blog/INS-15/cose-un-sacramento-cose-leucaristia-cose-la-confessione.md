@@ -1,4 +1,5 @@
 ---
+
 title: "Cos'è un sacramento? Cos'è l'eucaristia? Cos'è la confessione?"
 date: "1977-03-20"
 author: "Michel Charpentier"
@@ -14,7 +15,10 @@ categoria_menu: "Fede"
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "Con questo primo testo vogliamo cominciare una serie di tre articoli che avranno lo scopo di farci capire meglio i sacramenti"
 ---
+
 Non si potrà dire tutto su tutto" Questo contributo vuol essere un'introduzione che lascia a ciascuno il compito di pensarci sopra, di riflettere e discutere, di cercare ed approfondire.
 
 Per capire cos'è un sacramento bisogna notare due cose:

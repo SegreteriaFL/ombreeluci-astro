@@ -1,4 +1,5 @@
 ---
+
 title: "L’Abbé Pierre - Una mano tesa agli emarginati"
 date: "1985-03-28"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-9
 id_numero: "OEL-9"
 numero_rivista: "Ombre e Luci"
 ---
+
 Tutti conosciamo il nome dell’abbé Pierre, ma pochi fra noi conoscono quest’uomo e la sua vita straordinaria. Un prete come vorremmo che ce ne fossero tanti soprattutto per questo suo schierarsi dalla parte dei più poveri.
 Leggendo attentamente questa lunga intervista, si potranno cogliere via via, non solo le tappe della sua vita e del suo impegno (tale da far dire a Giovanni XXIII quando era nunzio a Parigi: «Venga a scaldarmi: lei è il mio carbone ardente»), ma soprattutto il suo grande amore per Dio che ispira senza tregua la sua azione di lotta e di creatività in favore dei fratelli più abbandonati.
 Questa azione lo vedrà partecipe della Resistenza, impegnato nel salvataggio di ebrei fatti passare in Svizzera, deputato della Quarta Repubblica, amico personale del Gen. De Gaulle e di altri personaggi politici.

@@ -1,4 +1,5 @@
 ---
+
 title: Giacomo
 date: 1992-06-06
 author: Maria Teresa Mazzarotto
@@ -18,6 +19,7 @@ issue_number: OEL-38
 id_numero: "OEL-38"
 numero_rivista: "Ombre e Luci"
 ---
+
 Q
 uando
 **Giacomo**

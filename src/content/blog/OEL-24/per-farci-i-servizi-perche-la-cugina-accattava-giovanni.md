@@ -1,4 +1,5 @@
 ---
+
 title: "«Per farci i servizi, perché la cugina accattava Giovanni!»"
 date: "1988-09-28"
 author: "Redazione"
@@ -14,6 +15,7 @@ issue_number: OEL-24
 id_numero: "OEL-24"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Io ti rendo lode, Padre, Signore del cielo e della terra, che hai nascosto queste cose ai dotti e ai sapienti e le hai rivelate ai piccoli. Sì, Padre, perché così a te è piaciuto» (L. 10, 21-22).
 Più volte ho ripetuto nel mio cuore questa frase, quando, in seguito alla richiesta dei genitori, ho iniziato il cammino di fede in preparazione al Sacramento dell'Eucarestia e Cresima con dei ragazzi di Mazara, portatori di handicap mentale.
 

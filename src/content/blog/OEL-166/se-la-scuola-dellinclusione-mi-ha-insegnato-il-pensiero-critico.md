@@ -1,4 +1,5 @@
 ---
+
 title: Se la scuola dell’inclusione mi ha insegnato il pensiero critico
 date: 2024-08-26
 author: Laura Coccia
@@ -14,7 +15,10 @@ umap_z: 7.0073394775390625
 issue_number: OEL-166
 id_numero: "OEL-166"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ecco come smonto pezzo per pezzo ragionamenti distorti"
 ---
+
 Sedue luminari come Ernesto Galli Della Loggia e Roberto Vannacci mettono in discussione il «mito dell’inclusione» scolastica, forse è venuto il momento di cambiare prospettiva. Visto che quello italiano «è un caso unico al mondo» e «il risultato lo conosciamo», ma la scuola dell’inclusione mi ha insegnato il pensiero critico, cercherò di seguire il loro ragionamento.
 
 Dunque, basta alunni e alunne con disabilità nelle classi dei normodotati! Perché i normodotati, **pur non avendo alcun merito specifico** , sono nati sani, con tutti i pezzi al loro posto, nella parte «giusta» e ricca del mondo e parlano la lingua che parla la maggior parte della comunità. Quindi, sono destinati alla formazione migliore, che li prepari a ricoprire gli incarichi più prestigiosi della società, lasciando agli sfigati il resto dei lavori.

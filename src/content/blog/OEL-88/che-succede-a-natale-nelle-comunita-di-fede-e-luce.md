@@ -1,4 +1,5 @@
 ---
+
 title: "Che succede a Natale nelle comunità di Fede e Luce?"
 date: "2004-12-14"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Come si celebra questa festa tra ragazzi, genitori e amici? Lo abbiamo chiesto ai responsabili e alcuni, di particolare buona volontà, ci hanno risposto."
 ---
+
 ### A Conselve (Padova)
 
 La comunità"Raggi di Sole" dà inizio alla celebrazione due settimane prima partecipando al"Mercatino Caritas", vendendo in una bancarella oggetti preparati dal Gruppo e da amici vicini. Il ricavato è destinato ad alcuni progetti nel terzo Mondo e l'adesione del gruppo serve per sensibilizzare la Comunità al bisogno di altri, per partecipare a una iniziativa della parrocchia, per far conoscere la realtà di Fede e Luce...

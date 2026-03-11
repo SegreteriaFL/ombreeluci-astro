@@ -1,4 +1,5 @@
 ---
+
 title: "Storie dall'Estremo Oriente"
 date: 2023-12-12
 author: Claudio Cinus
@@ -14,7 +15,10 @@ umap_z: 2.688788414001465
 issue_number: OEL-163
 id_numero: "OEL-163"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Abang Adik e Plan 75 al Far East Film Festival di Udine"
 ---
+
 AlFar East Film Festival di Udine, due film sulla fragilità degni di nota. Vedere qui pellicole popolari in Estremo oriente è un buon modo per notare le differenze con il cinema occidentale anche in tema di disabilità e inclusione sociale.
 
 Il primo rappresenta un record: dopo 25 edizioni vince un film della Malaysia, *Abang Adik* , scritto e diretto da Jin Ong. Abang e Adik sono fratelli malesi pur non avendo un legame di sangue, entrambi privi di documenti d’identità. Apolidi, hanno gli stessi problemi degli immigrati clandestini con i quali condividono l’ambiente sociale poverissimo. Abang ha una disabilità uditiva eppure, nel rapporto di interdipendenza reciproca, è Adik ad avere più bisogno di aiuto. Kang Ren Wu, che interpreta Abang, è un modello udente che ha imparato il linguaggio dei segni: la sordità è una soluzione narrativa. Si potrebbe pensare che sia un modo per sottolineare l’isolamento del giovane dall’ambiente sociale, invece costui è dotato di un ottimo apparecchio acustico fuori luogo nel contesto di miseria in cui vive. Non è un problema che un attore udente interpreti un non udente, ma la scelta dovrebbe essere giustificata dalla trama o dal talento dell’interprete, anziché sembrare un modo per aumentare il carico emotivo del film. Peccato perché *Abang Adik* ha comunque il merito di proporci un ritratto encomiabile degli invisibili della società malese, che si somigliano in tutto il mondo.

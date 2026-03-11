@@ -1,4 +1,5 @@
 ---
+
 title: "Maria, la mamma di Gesù - Dedicato ai bambini"
 date: "2007-12-10"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Una storia illustrata - Testi e disegni di Maïte Roche"
 ---
+
 1. Maria è una giovane ragazza di Nazareth, piccola città della Galilea. È fidanzata con Giuseppe
 
 2. L'Angelo Gabriele è inviato a lei da Dio. È l'Annunciazione. Entra nella sua casa e le dice: “Ti saluto Maria, piena di grazia, il Signore è con te”

@@ -1,4 +1,5 @@
 ---
+
 title: "La vita di Daniele: interviste dopo la lettura del libro \"Chi sarei se potessi essere!\""
 date: 2002-03-09
 author: Maria Teresa Mazzarotto
@@ -16,7 +17,10 @@ tags:
 umap_x: 6.220418930053711
 umap_y: 8.209321022033691
 umap_z: 8.20327377319336
+
+subtitle: "Sul dopo di noi: la testimonianze di una mamma, insegnante e amica di Fede e Luce, e di suo figlio, un bel ragazzo di 26 anni"
 ---
+
 Èsorto in noi, dopo la lettura di “Chi sarei se potessi essere” il desiderio di parlare con qualche amico e amica che sta vivendo questo momento della vita, così importante e così diffìcile. Ci siamo riusciti grazie alla disponibilità di Titti, una nostra amica di vecchia data, mamma di Daniele, un bel ragazzo, down, di 26 anni.
 
 ### La mamma

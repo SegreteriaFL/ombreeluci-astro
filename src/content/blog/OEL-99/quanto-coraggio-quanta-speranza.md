@@ -1,4 +1,5 @@
 ---
+
 title: Quanto coraggio! Quanta speranza!
 date: 2007-09-09
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.6468706130981445
 umap_y: 9.243904113769531
 umap_z: 14.015732765197754
+
+subtitle: "Corinne Chatain, segretaria generale del movimento Fede e Luce, ci racconta la sua esperienza al Consiglio Internazionale di Madrid"
 ---
+
 D
 i fronte alla crescita di Fede e Luce nei paesi del Medio-Oriente, si è formata una nuova zona durante il Consiglio Internazionale a Madrid nel 2006. Corinne Chatain, segretaria generale del movimento, invitata a fine marzo ad Amman (Giordania) per animare il discernimento e l'elezione del coordinatore di zona, ci racconta le sue scoperte. Libano, Giordania, Armenia, Kuwait... tante nazionalità rappresentate per eleggere il nuovo coordinatore della zona Medio-Oriente. Dopo i resoconti dei vari paesi e il tempo di discernimento, il libanese Roni Jalkh è stato eletto. In questa occasione, solo i corrispondenti dell'Iran e della Palestina non avevano ottenuto i visti. Come è tutto facile nei nostri paesi occidentali... Ne abbiamo preso l'abitudine. È bello e duro insieme rendersi conto nel concreto di tutte le difficoltà che incontrano i nostri amici nel mondo. In
 **Libano**

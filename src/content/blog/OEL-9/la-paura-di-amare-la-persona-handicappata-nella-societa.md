@@ -1,4 +1,5 @@
 ---
+
 title: "La paura di amare - La persona handicappata nella società"
 date: "1985-03-28"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-9
 id_numero: "OEL-9"
 numero_rivista: "Ombre e Luci"
 ---
+
 Questi libretti sono i primi due di una collana di sussidi per la riflessione di gruppo e per stimolare l’impegno personale. Sono ben curati, eleganti e costano poco.
 
 "**La paura di amare**" è un’analisi fatta in modo inconsueto del rapporto d’amore, non necessariamente con handicappati o emarginati. Dentro ogni persona c’è un «bambino» degno di essere amato, ma davanti a questo bambino c’è un muro fatto di incomprensioni, delusioni, impressioni negative precedenti. Per poter amare veramente bisogna abbattere questo muro ma, e qui sta l’inconsuetudine, «occorre anche rispettare lo spazio di cui le persone hanno bisogno intorno a loro», cioè colui che ama deve farlo con molta umiltà, senza imporre il proprio amore e, cosa più importante, una volta che l'amore si è instaurato, deve essere capace di restare fedele.

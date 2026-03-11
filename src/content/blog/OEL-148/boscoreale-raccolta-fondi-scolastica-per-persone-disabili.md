@@ -1,4 +1,5 @@
 ---
+
 title: "Boscoreale: raccolta fondi scolastica per persone disabili"
 date: 2019-01-11
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 C'
 è una scuola che funziona, ma che soprattutto
 **mette in pratica con iniziative concrete ciò che serve per aiutare chi ne ha bisogno**

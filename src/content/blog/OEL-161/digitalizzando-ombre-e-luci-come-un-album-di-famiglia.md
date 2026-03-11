@@ -1,4 +1,5 @@
 ---
+
 title: Digitalizzando Ombre e Luci, come un album di famiglia
 date: 2023-05-05
 author: Lars Porsenna
@@ -16,7 +17,10 @@ umap_z: 9.846953392028809
 issue_number: OEL-161
 id_numero: "OEL-161"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un lavoro lungo e faticoso ma anche pieno di sorprese e spunti di riflessione. Siamo quasi arrivati alla fine e questo è un primo bilancio delle varie attività svolte"
 ---
+
 Almeno fino a pochi anni fa era un’esperienza comune a tutti. Con l’avvento delle fotocamere digitali prima e dei cellulari poi capita sempre più raramente: aprire un vecchio album di famiglia, sfogliarlo con calma e rivivere gli attimi di vita quotidiana immortalati nel tempo sul supporto fotografico, magari in compagnia di un parente più anziano che meglio ricorda le cose passate o di uno più giovane ignaro di tutto. Pranzi, compleanni, vacanze, viaggi, si animano e prendono vita in un viaggio emotivo che ci permette di capire chi siamo e da dove veniamo.
 
 Qui in redazione, proviamo qualcosa di simile ogni volta che ci rimettiamo a lavorare sulla digitalizzazione dei vecchi numeri di Ombre e Luci. Ormai quasi da quattro anni stiamo portando avanti [questo impegnativo progetto](https://www.ombreeluci.it/archivio/) che punta a rendere disponibili online, a più persone possibile, tutti gli articoli pubblicati nel corso degli anni sulle pagine della rivista cartacea.

@@ -1,4 +1,5 @@
 ---
+
 title: La poesia del firmamento
 date: 2024-07-19
 author: Claudio Moriggia
@@ -14,5 +15,8 @@ umap_z: 9.810566902160645
 issue_number: OEL-165
 id_numero: "OEL-165"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le poesie di Claudio Moriggia"
 ---
+
 > *La poesia del firmamento* *io la faccio in un momento!* *Quando posso già cantare* *sono qui a reclamare* *la preghiera della sera* *è arrivata in corriera...*

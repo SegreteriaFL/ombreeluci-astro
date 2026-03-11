@@ -1,4 +1,5 @@
 ---
+
 title: Festa della Luce 1976
 date: 1976-02-20
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
 ---
+
 La festa avrà luogo Domenica 28 Marzo 1976, dalle ore 15 alle ore 19:00 presso la Casa Generalizia dei Fratelli delle scuole cristiane, Via Aurelia 476, gentilmente messa a disposizione.
 
 Ore 15:00 - 15:30 Accoglienza Ore 15:00 Festa

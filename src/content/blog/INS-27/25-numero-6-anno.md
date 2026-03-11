@@ -1,4 +1,5 @@
 ---
+
 title: 25° Numero… 6° anno
 date: 1980-06-16
 author: Nicole Schulthes
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 "Insieme" è cresciuto, ha preso colore, ha curato il suo aspetto. Sono apparse le fotografie. Il suo ultimo progresso è stato un progresso tecnico, dovuto all'acquisto di una macchina OFF-SET, manovrata da una equipe piccola ma ....dinamica!
 
 Vi sarete accorti - lo speriamo! - che Insieme è cresciuto anche per il suo contenuto... E questa crescita deve continuare - siamo solo agli inizi! E questa crescita dipende da tutti noi, da tutti voi! L'abbiamo detto altre volte e lo ripetiamo ancora: dovete essere voi gli autori degli articoli; critiche, suggerimenti, testimonianze.... Fateceli pervenire dunque! con fotografie, disegni ecc... Procurateveli anche intorno a voi, nel vostro ambiente!

@@ -1,4 +1,5 @@
 ---
+
 title: Vita delle province - n. 151
 date: 2020-08-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Provincia online
 
 Abbiamo vissuto un tempo strano, faticoso, inverosimile. Tutte le abitudini sono state modificate. Prudenza, impossibilità di incontrarsi dal vivo. E allora, che fare? In Provincia si è scatenata la fantasia. Chat WhatsApp, video-chiamate: semplici ma efficaci per vedersi come le casette via Zoom e Meet. Qualcuno ha regalato il proprio ricettario a tutte le comunità (Rho). Qualcun altro ha proseguito l’uso del carnet con riflessioni fatte a gruppi virtuali (Gratosoglio). E tutti abbiamo imparato! Una vera crescita come comunità. Anche a chi è mancato, Antonellina e 3 genitori, siamo stati vicini con la preghiera. Cosi come con la preghiera abbiamo sostenuto un amico in ospedale, medici e infermieri. Gli incontri Skype non sono mancati, per sostenere e connettere. Ora un grande gioco di unione sta occupando la provincia. Ciascuno sta facendo una mano con delle parole sulla voglia di rincontrarsi e la foto del suo volto. La nostra Nicoletta le raccoglierà tutte e le unirà in un unico elaborato. La voglia di essere comunità con tanta Fede non è venuta a mancare anche in questi tempi terribili.

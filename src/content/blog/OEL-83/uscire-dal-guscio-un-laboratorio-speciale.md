@@ -1,4 +1,5 @@
 ---
+
 title: Uscire dal guscio - Un laboratorio speciale
 date: 2003-09-03
 author: Nicole Schulthes
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 8.234392166137695
 umap_y: 7.263853073120117
 umap_z: 9.433797836303711
+
+subtitle: "Un laboratorio di falegnameria che accoglie le persone disabili per una formazione professionale particolare"
 ---
+
 Nel vecchio centro di Capena lasciamo la macchina in una piccola piazza e a pochi passi troviamo la bottega di Gianfranco, un falegname molto speciale. Siamo attese ed accolte con grande calore. Dieci persone sono al lavoro in questo bel locale dal soffitto a volte, che in passato è stato il frantoio del paese. L’odore del legno insieme all’atmosfera di applicazione ci dà subito l’impressione di pace e insieme di vero, buon lavoro. Ciascuno davanti al suo banco concentrato in un lavoro preciso: i pezzi di legno sono stati tagliati nel laboratorio retrostante dove trovano posto tutte le macchine. Qui davanti sono rifiniti i vari pezzi: si intaglia, si scartavetra, si smeriglia alla perfezione. Il montaggio più complesso sarà eseguito nel laboratorio retrostante.
 
 Angelo lavora alle pareti destinate alle casette degli uccelli; Roberto è, in questo momento, lo specialista delle cornici e dei taglieri per il pane; Sergio scolpisce basi di lampade da tavolo con bellissimi pezzi di legno d’olivo.

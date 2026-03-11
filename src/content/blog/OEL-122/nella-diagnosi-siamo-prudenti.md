@@ -1,4 +1,5 @@
 ---
+
 title: Nella diagnosi  siamo prudenti
 date: 2013-06-10
 author: Charlotte Lernount
@@ -14,7 +15,10 @@ umap_z: 7.018883228302002
 issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Charlotte Lernount segue bambini da zero a sei anni che presentano soprattutto un disagio psicomotorio. Ci spiega perché a questa età può essere difficile fare una diagnosi"
 ---
+
 #### **Perché molte famiglie di figli con handicap sono senza diagnosi?**
 
 La prima ragione che mi pare la più evidente, è che le conoscenze sono limitate. Oggi ancora per il 30/50% delle persone con deficit intellettivo, non se ne capisce la causa anche in età adulta.

@@ -1,4 +1,5 @@
 ---
+
 title: Dietro le quinte
 date: 1975-12-03
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 12.965386390686035
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Cronoca romana dal quartier generale dove si è organizzato tutto il pellegrinaggio del 1975"
 ---
+
 ### Mercoledì 22 ottobre
 
 Cosa si può fare al Quartier Generale di un pellegrinaggio Fede e Luce? Non ne so proprio nulla, ma sono qui. L’équipe di Parigi arriva con carte, orari, riunioni, problemi, preghiere, appuntamenti, traduzioni, sorrisi, preoccupazioni, suggerimenti...

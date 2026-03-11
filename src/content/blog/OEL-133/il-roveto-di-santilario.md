@@ -1,4 +1,5 @@
 ---
+
 title: Il Roveto di Sant’Ilario
 date: 2016-03-25
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 8.154485702514648
 issue_number: OEL-133
 id_numero: "OEL-133"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La testimonianza di Maria Grazia, ragazza in carrozzina che, trent’anni fa, chiese all’Istituto Secolare Piccole Apostole della Carità di poter entrare nel loro ordine"
 ---
+
 *Ci sono persone che di fronte alla propria disabilità non si arrendono e man mano che crescono imparano a lottare per gli ideali in cui credono; è una vocazione. La vocazione di seguire Cristo in castità, povertà e obbedienza. Trent’anni fa Maria Grazia, ragazza in carrozzina chiese all’Istituto Secolare Piccole Apostole della Carità di poter entrare nel loro ordine per essere anche lei alla sequela di Cristo. Per 30 anni l’istituto ha resistito alla richiesta, ma alla fine si è convinta della sua vocazione e nel 2001 a Sant’Ilario di Nerviano in provincia di Milano è stato aperto il Roveto, una casa senza barriere, che ospita quattro donne in carrozzina affette da tetraparesi spastica (Maria Grazia, Laura, Nunzia e Francesca) ed altre consorelle che hanno deciso di intraprendere questa vocazione. Di loro ci parla oggi la consorella Anna Maria.*
 
 Vivo a Nerviano (Mi) nella Comunità dell’Istituto Secolare delle Piccole Apostole della Carità, insieme ad otto “sorelle”, delle quali quattro sono portatrici di disabilità motoria severa: si spostano su carrozzina elettrica e utilizzano il computer per scrivere e comunicare, servendosi di ausili informatici sofisticati. La loro storia viene da lontano ed è molto interessante: nella Chiesa sono le uniche persone portatrici di disabilità motoria grave, accolte in un Istituto di Consacrate secolari e che vivono in comunità. Grazie all’Associazione “La Nostra Famiglia”, dove tre di loro sono state riabilitate e hanno respirato la spiritualità del Fondatore, il Beato don Luigi Monza, fondata sulla carità dei primi cristiani e sulla “Piccolezza” del chicco di grano, hanno avvertito, per opera dello Spirito Santo, la consapevolezza di essere chiamate a donare la propria vita al Signore con i voti di povertà, castità ed ubbidienza.

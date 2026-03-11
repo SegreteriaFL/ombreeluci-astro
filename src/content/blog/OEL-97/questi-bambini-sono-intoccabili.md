@@ -1,4 +1,5 @@
 ---
+
 title: "\"Questi bambini sono intoccabili”"
 date: 2007-03-02
 author: Immacolata Casullo
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.455026149749756
 umap_y: 9.377148628234863
 umap_z: 7.477904319763184
+
+subtitle: "Sindrome Lemox-Gastaut: la mamma di Francesca, affetta da sindrome Lemox-Gastaut, ci scrive le sue riflessioni"
 ---
+
 H
 a suscitato scalpore il caso di Ashley, una bambina di 9 anni di Seattle (USA) affetta da una rara malattia cerebrale, l’encefalopatia statica. Su decisione dei genitori è stata sottoposta ad intervento chirurgico e farmacologico per bloccarle lo sviluppo fisico e sessuale, impedendole di crescere. Immacolata, madre di Francesca, affetta da sindrome Lemox-Gastaut, ci scrive le sue riflessioni.
 H

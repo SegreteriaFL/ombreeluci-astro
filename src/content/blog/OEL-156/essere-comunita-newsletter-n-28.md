@@ -1,4 +1,5 @@
 ---
+
 title: "Essere comunità – Newsletter n. 28"
 date: "2021-01-15"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### OL incontra...
 
 Un uomo che fa, e che pensa. Soprattutto un uomo che fa entrambe le cose benissimo: questo mese [O&L incontra Luigi d’Errico](https://www.ombreeluci.it/2021/ol-incontra-luigi-derrico/), sacerdote davvero vicino ai più fragili e neo Commendatore dell’Ordine al Merito Civile della Repubblica Italiana che, con Cristina Tersigni, parla dei grandi temi all’ordine del giorno: povertà, covid, persone con disabilità, impegno e responsabilità della Chiesa (e dello Stato). Un uomo, don Luigi, che, mentre parla, costruisce la comunità.

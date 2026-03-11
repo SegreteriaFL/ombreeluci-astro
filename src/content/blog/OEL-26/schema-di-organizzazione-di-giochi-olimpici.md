@@ -1,4 +1,5 @@
 ---
+
 title: "Schema di organizzazione di \"Giochi Olimpici\""
 date: 1989-06-16
 author: Redazione
@@ -20,6 +21,7 @@ issue_number: OEL-26
 id_numero: "OEL-26"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Il luogo
 
 - Uno spazio ampio, per es. un campo di calcio. - Un po' d’ombra intorno (può essere indispensabile nella buona stagione). - Recintato o comunque limitato, per concentrare l’attenzione di tutti sui giochi.

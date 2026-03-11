@@ -1,4 +1,5 @@
 ---
+
 title: Dal diario di un’insegnante
 date: 1987-06-28
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-18
 id_numero: "OEL-18"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Simone
 
 Faccia tonda da bambino, capelli biondi a caschetto, corporatura rotondetta; Simone sembrerebbe il classico «pacioccone» se non fosse per gli occhi. Le pupille castane girano continuamente irrequiete: in alto, in basso, a destra, a sinistra, e poi di nuovo in alto, in basso... sono il segnale della costante irrequietudine interna che si manifesta anche con improvvisi scoppi di collera, proteste ad alta voce, gesti inconsulti. Ma ciò che rende più difficile la sua carriera di studente è l’impossibilità di Simone a concentrarsi, di seguire il filo di un ragionamento appena un po’ complesso. Sembra capire in un lampo, ma un lampo dopo è di nuovo assente, incapace di riprendere il filo, di fare ordine fra le sue idee, di scegliere la risposta giusta. Appare rilassato e del tutto sereno solo quando può disegnare ciò che gli piace, quando prepara la storia per i burattini. Un giorno, nel tentativo di capirlo meglio, gli ho detto che volevo parlare con sua madre. Ha subito preso nota nel suo diario ma, durante la ricreazione mi si è avvicinato. «Professoressa, io mia madre gliela mando (sic!) ma non faccia caso se dice cose strane perché ogni tanto lei deve andare in casa di cura».

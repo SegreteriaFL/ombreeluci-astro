@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto n.14
 date: 1977-09-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.21423625946045
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "Pubblichiamo le lettere e le notizie che ci arrivano dalle comunità di Fede e Luce in Italia"
 ---
+
 ### Il dono dell'amicizia
 
 Quattro anni fa sono entrata insieme a mio figlio (minorato fisico mentale) a far parte della grande famiglia di Fede e Luce. A me ha fatto bene inserirmi in questa catena simile a una corona di una grande Rosario.
@@ -28,6 +32,8 @@ Ogni giorno, più o meno faticoso della mia vita, conosco sempre di più queste 
 Così semplicemente con tanta gratitudine voglio ringraziarli tutti, anche quelle persone che pur non conoscendoci personalmente hanno inviato un'offerta in dono a mio figlio; anche a quelle che ci sono state vicino con il pensiero.
 
 *Una mamma*
+
+
 
 ---
 
@@ -51,6 +57,8 @@ Uniti nel stesso servizio delle stesse persone.
 
 *Michel Charpantier* , 1977
 
+
+
 ---
 
 ### Amore
@@ -69,6 +77,8 @@ Bisogna amare tutti, anche quelli che con noi sono asciutti.
 
 *Maria Rosa Sonzini* - Milano
 
+
+
 ---
 
 ### Se noi riusciamo
@@ -82,6 +92,8 @@ Certe volte nelle persone ci sono dei momenti chiusi, ma non preoccuparti perch�
 Chi trova la strada di Dio è come se avesse trovato l'ora in cui vede l'arcobaleno.
 
 *Luigi Raffaghello*
+
+
 
 ---
 

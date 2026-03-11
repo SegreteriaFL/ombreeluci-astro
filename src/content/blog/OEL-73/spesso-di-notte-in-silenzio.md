@@ -1,4 +1,5 @@
 ---
+
 title: Spesso di notte in silenzio
 date: 2001-03-09
 author: Yvette Bonvin
@@ -16,7 +17,10 @@ umap_z: 11.859180450439453
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Yvette racconta il suo incontro con Fede e Luce: Continuo il mio viaggio dopo quell'esperienza inestimabile"
 ---
+
 Negli schemi delle parole crociate, per definire «nato», si trova spesso «portato alla vita». Inizio, quindi, di un viaggio più o meno lungo, di un’avventura. Sono nata e cresciuta in una piccola famiglia composta dai miei genitori, da una sorella maggiore e da un fratello minore. Mio padre e mia madre erano ambedue colpiti da una brutta malattia rivelatasi incurabile. Mio padre si ammalò durante il servizio militare e, come invalido di guerra, ha potuto restare con i suoi familiari — trasferitisi in un villaggio di montagna — fino alla morte. Una famiglia, i cui membri sono colpiti da tubercolosi, inserita in un ambiente di persone sane, è costretta a subire molti affronti. La paura del contagio la rende indesiderata. Questa familiarità con la malattia, la vicinanza con la morte, la paura lancinante della separazione familiare, mi ha fatta maturare molto presto ed è qui che si situa il punto di partenza della mia vita di fede.
 
 Trent’anni fa, a metà strada della mia vita, ho intuito la chiamata di Dio nella vita della mia famiglia, a partire da grossi problemi che aveva nostra figlia, problemi legati alla sua malattia: l’epilessia. È stato in quel periodo che ho capito che avevo qualcosa da offrire, ma anche che avevo molto da ricevere e da imparare dalle persone deboli, diverse.

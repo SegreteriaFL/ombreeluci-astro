@@ -1,4 +1,5 @@
 ---
+
 title: "E la vita eploderà - Itinerari didattico educativi per l'insegnamento della religione cattolica"
 date: "1993-09-09"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-43
 id_numero: "OEL-43"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Itinerari didattico educativi per l'insegnamento della religione cattolica nella scuola dell’obbligo, anche per alunni portatori di handicap*
 
 Chi lavora nel campo della riabilitazione dei bambini disabili, non solo con competenza professionale, ma con amore, con capacità di attesa, con pazienza e speranza, molto spesso arriva a risultati inattesi sorprendenti.

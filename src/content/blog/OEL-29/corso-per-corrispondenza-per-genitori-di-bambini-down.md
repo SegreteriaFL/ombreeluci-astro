@@ -1,4 +1,5 @@
 ---
+
 title: Corso per corrispondenza per genitori di bambini Down
 date: 1990-03-19
 author: Redazione
@@ -19,7 +20,10 @@ umap_z: 6.110879898071289
 issue_number: OEL-29
 id_numero: "OEL-29"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il Corso per corrispondenza per genitori di bambini con sindrome di Down a cura di Salvatore Lagati"
 ---
+
 Questo opuscolo (32 pagine) è il primo di dieci. È l’introduzione del corso e si svolge **ai genitori che hanno un figlio con sindrome di Down (da 0 a i 6/7 anni)** . Ecco i titoli dei nove capitoli, uno per ogni opuscolo.
 
 1. Sviluppo motorio - Imparare a comunicare. 2. Sviluppo dei movimenti fini - Conoscere se stessi e capire l’ambiente. 3. La vita di ogni giorno - Sviluppo cognitivo. 4. Chi insegna in pratica al vostro bambino - Tutti possono essere di aiuto. 5. Il concetto che il bambino ha di se stesso - Un ambiente adatto e dei limiti precisi. 6. Lo sviluppo sociale - Quando si comincia ad imparare. 7. Verso l’indipendenza - I sentimenti del vostro bambino. 8. La sicurezza in casa e fuori casa - La salute del bambino. 9. Il vostro bambino come membro della società - Il vostro bambino e la scuola.

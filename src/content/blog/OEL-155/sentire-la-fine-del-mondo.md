@@ -1,4 +1,5 @@
 ---
+
 title: Sentire la fine del mondo
 date: 2021-10-13
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-155
 id_numero: "OEL-155"
 numero_rivista: "Ombre e Luci"
 ---
+
 Arrivò nelle sale l’11 settembre 2002, il film ideato appositamente per commemorare la data fatidica di un anno prima, 11 settembre 2001: **composto da 11 cortometraggi della durata di 11 minuti 9 secondi e un fotogramma,** per i quali ogni regista selezionato potè lavorare in piena autonomia.
 
 Claude Lelouch scelse di muoversi nei territori a lui cari della storia d’amore, ambientata interamente in un appartamento newyorchese: una coppia in crisi discute animatamente, forse per l’ultima volta, proprio la mattina di quell’11 settembre indimenticabile. **Un litigio doloroso ma senza rumore: la donna infatti è sorda.** Giunta a New York come turista, si era innamorata della guida: un amore intenso e inatteso che però, passato ormai del tempo, la riempie di dubbi.

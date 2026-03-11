@@ -1,4 +1,5 @@
 ---
+
 title: Lettera a un medico per la nascita di un bambino disabile
 date: 1992-03-05
 author: Marie-Odile Réthoré
@@ -15,6 +16,7 @@ issue_number: OEL-37
 id_numero: "OEL-37"
 numero_rivista: "Ombre e Luci"
 ---
+
 C
 aro collega, lei ha appena saputo che una mamma ha messo al mondo un bimbo affetto da
 [trisomia 21](http://www.ombreeluci.it/1983/trisomia-21-la-sindrome-down/)

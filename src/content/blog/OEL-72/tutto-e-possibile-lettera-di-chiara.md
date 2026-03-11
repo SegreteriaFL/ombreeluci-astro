@@ -1,4 +1,5 @@
 ---
+
 title: "Tutto è possibile - Lettera di Chiara"
 date: "2000-10-26"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-72
 id_numero: "OEL-72"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Carissimi fratelli e sorelle di Fede e Luce, sono Chiara e vi scrivo dalla mia camera d'ospedale, di fronte alla finestra su di un mondo che prima o poi, con coraggio, dovrò affrontare"
 ---
+
 Carissimi fratelli e sorelle di [Fede e Luce](https://www.fedeeluce.it/), sono Chiara e vi scrivo dalla mia camera d'ospedale, di fronte alla finestra su di un mondo che prima o poi, con coraggio, dovrò affrontare.
 È impossibile descrivere la sofferenza che provo, le ferite esterne provocate dai proiettili che mi hanno colpita sono nulla in confronto a quelle interne, del cuore.
 

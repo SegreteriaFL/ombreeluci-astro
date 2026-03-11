@@ -1,4 +1,5 @@
 ---
+
 title: "Notiziario Fede e Luce: calendario del prossimo anno"
 date: 1977-12-03
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.425346374511719
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "Calendario 1978: ecco tutti i prossimi appuntamenti per i gruppi Fede e Luce"
 ---
+
 ### Calendario dell'anno
 
 **Natale** : ogni gruppo festeggia di propria iniziativa.
@@ -28,6 +32,8 @@ Vi parteciperanno i gruppi Fede e Luce d'Italia, un gruppo dalla Svizzera, uno d
 La quota di partecipazione sarà di lire 20.000.
 
 **Maggio** : Festa della Primavera
+
+
 
 ---
 

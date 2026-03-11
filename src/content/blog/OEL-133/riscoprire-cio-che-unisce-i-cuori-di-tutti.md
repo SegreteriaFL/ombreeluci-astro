@@ -1,4 +1,5 @@
 ---
+
 title: "Riscoprire ciò che unisce i cuori di tutti"
 date: "2016-03-25"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Fede"
 issue_number: OEL-133
 id_numero: "OEL-133"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "L’incontro del papa Francesco col patriarca di Mosca Cirillo a Cuba, anche se breve, è stato indubbiamente un evento storico"
 ---
+
 L’incontro del papa Francesco col patriarca di Mosca Cirillo a Cuba, anche se breve, è stato indubbiamente un evento storico, un incontro che ha suscitato speranze per l’unità e la concordia tra i cristiani. Da parte di Roma c’era da tempo un desiderio ardente di un incontro. Mosca però era diffidente. Perché? Davvero le cose adesso sono cambiate tra cattolici e ortodossi?
 
 Il mondo cattolico è stato mosso dagli anni ‘50 in poi da un desiderio di rinnovamento, di riconciliazione. Il mondo ortodosso non ha lo stesso atteggiamento; ha vissuto per molti secoli e vive ancora in un atteggiamento di resistenza per difendere e vivere la propria fede. Resistere contro i Turchi, i Musulmani, il comunismo, gli influssi occidentali, e anche la propaganda cattolica.

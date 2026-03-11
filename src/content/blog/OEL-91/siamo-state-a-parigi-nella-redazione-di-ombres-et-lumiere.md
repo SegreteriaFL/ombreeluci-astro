@@ -1,4 +1,5 @@
 ---
+
 title: "Siamo state a Parigi nella redazione di Ombres et Lumiére"
 date: "2005-09-19"
 author: "Cristina Tersigni"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Abbiamo organizzato un viaggio nella capitale francese per capire come funziona la rivista che è un po' la nostra sorella maggiore"
 ---
+
 Una visita a Parigi a vedere come si lavora a Ombres et Lumière, nostra "sorella maggiore"? Perché no?
 Certo, bisogna organizzarsi un po’ e lasciare marito e figli soli, poi convincersi profondamente che l’aereo nonostante tutto è il modo migliore di viaggiare su queste distanze... La lingua non è un problema, tanto c’è Hubi che sa tre lingue e in più mastica anche il francese. Prendiamo contatti con Anna Cece, una vecchia amica italiana, che è gentilissima e ci offre non solo ospitalità nella sua bella e accogliente casa vicino Parigi, ma anche un paio di incontri decisamente interessanti. D'altronde tre giorni a Parigi vanno ben sfruttati, poco purtroppo per vedere la città e molto però per incontrare realtà diverse dalla nostra e avere occasioni di confronto.
 

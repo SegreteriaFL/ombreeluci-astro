@@ -1,4 +1,5 @@
 ---
+
 title: La differenza tra Shakespeare e Insinna
 date: 2020-06-24
 author: Benedetta Mattei
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 Scrivere Shakespeare ci impiego tutto il giorno. E sbaglio. Ma come si è fatto chiamare questo qui? Io mi chiamo Benedetta! È facile scrivere Benedetta. Questo qui invece non si sa come scrivere e poi quando lo leggi devi dire un altro nome. Non ho capito ancora perché. Però la professoressa mi ha detto che ora che sto a casa devo fare una ricerca su questo qui. È pure morto da tantissimo. Io ho imparato a dire «O Romeo, Romeo perché sei tu Romeo?». Ma non ho capito manco chi è Romeo. Però lo devo fare perché voglio un bel voto a scuola. Romeo era innamorato di Giulietta. E io sono innamorata di Elia. Ma mica mi metto a dire «O Elia, Elia, perché sei tu Elia?». Io dico: «Elia, a bello, ti amo!». Ma quando dico «O Romeo, Romeo perché sei tu Romeo?» metto la mano avanti come gli attori quando vado al teatro. Questo qui che non so scrivere il nome era inglese. Conosceva il re. Scriveva tante cose. Poi ho fatto pure la ricerca sul teatro della commedia dell’arte. Io so che gli attori stavano per strada e non leggevano ma improvvisavano. E c’erano pure le donne. Si mettevano le maschere come a carnevale.
 
 Al mio amico Flavio Insinna che fa l’attorone gli ho detto che purtroppo non posso andare a vedere il suo spettacolo perché non si può uscire di casa. Lui mi ha detto che pure lui sta chiuso dentro casa. Gli ho raccontato che faccio la ricerca sulla commedia dell’arte e lui mi ha detto che devo aggiungere alla ricerca una cosa importante. Lui mi ha detto che quando lui improvvisa prima ha studiato bene sennò fa una brutta figura davanti a tutti. Io ho dato retta a Flavio e per questo sto studiando tanto. Le ricerche, che ho scritto al computer, già le ho mandate alla professoressa. E lo sa perché glielo dico sempre quando facciamo la videolezione con tutti i miei compagni che sono felice di vederli sul computer. E la sera poi mi chiamano al telefono e facciamo pure la videochiamata senza i professori. Nella ricerca però il nome di quello che dice «O Romeo, Romeo, perché sei tu Romeo?» ci ho messo due ore a scriverlo. Invece a scrivere Flavio Insinna ho fatto presto.

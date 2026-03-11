@@ -1,4 +1,5 @@
 ---
+
 title: "Tutta la vita davanti. Dedicato a chi vive la terza e quarta età - Recensione"
 date: "2010-12-03"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Crescere"
 issue_number: OEL-112
 id_numero: "OEL-112"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Henri Bissonnier, Edizioni Effatà"
 ---
+
 Un'età della vita non donata a tutti, fatta di grandi contrasti che ne rendono ardua la comprensione. Un lungo passato alle spalle, nel quale non posso più intervenire (quello che ho fatto, ho fatto). davanti un futuro problematico anche da misurare: crepuscolo della mia esistenza durante il quale restituisco a poco a poco quello che dell'esistenza costituisce la ricchezza.
 
 Una grande sorpresa riserba l'età avanzata: l'anima non è sog Ed. Effatà getta allo stesso declino del corpo e posso ancora cambiare. Per il mio Dio non è mai troppo tardi. In quali aspetti devo correggermi? La mia tendenza al pessimismo. Il timore inquietante che la misericordia di Dio sia un inganno, il ripiegamento su me stesso, il mutismo, quella tendenza a trascurare il mio comportamento, l'aspetto e la dignità del mio corpo. Perché vincere tutto questo? Per cooperare alla grazia divina a beneficio di me stesso e dei miei fratelli con un cuore nuovo è uno spirito nuovo.

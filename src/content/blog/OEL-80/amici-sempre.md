@@ -1,4 +1,5 @@
 ---
+
 title: Amici. Sempre.
 date: 2002-12-08
 author: Cristina Tersigni
@@ -16,7 +17,10 @@ tags:
 umap_x: 6.4091877937316895
 umap_y: 9.527496337890625
 umap_z: 9.336529731750488
+
+subtitle: "Cristina racconta la sua amicizia con la famiglia di Andrea e Silvia entrambi affetti da una disabilità molto grave"
 ---
+
 Cerco di ricordare se l’amicizia con la famiglia di Andrea e Silvia è cominciata quando ero già fidanzata con mio marito oppure prima, ma non ci riesco: comunque, circa dieci anni fa, lui aveva avuto modo di conoscerla tramite una loro vicina di casa e volle poi coinvolgere anche me.
 
 Sarebbe certamente un tentativo poco realistico quello di separare l’amicizia con Silvia e Andrea, sorella e fratello — scomparso qualche anno fa — affetti entrambi da un handicap molto grave, da quella con i loro genitori; la mamma è stata, di fatto, veicolo fondamentale per arrivare a loro; attraverso loro, però, l'amicizia con lei è stata molto diversa da quella che avrebbe potuto essere in qualsiasi altra situazione. In questa famiglia, più che in altre, emergeva la necessità concreta e non solo psicologica di essere quasi un unico corpo: infatti, per Silvia e Andrea era stato impossibile vivere autonomamente.

@@ -1,4 +1,5 @@
 ---
+
 title: La rivolta (liberante) di un figlio sordo
 date: 2020-09-07
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 Non un linguaggio ma una vera e propria lingua, quella dei segni: dotata di una sua sintassi, di una propria grammatica, in grado di veicolare significati. Stupisce a volte scoprire che paesi diversi abbiano lingue dei segni differenti… ma è quel che capita proprio alle vere lingue, di modificarsi in base ai luoghi in cui si vive. Eppure la Lingua dei segni ha una storia difficile: strumento essenziale e istintivo tra persone sorde eppure spesso osteggiata da chi, guarda caso, sordo non è. Un po’ per il timore di esserne esclusi o, al contrario, con la pretesa di non includere sufficientemente. Ma rinunciarvi, anzi ostacolarla apertamente per quest’ultimo motivo, ha significato rendere inaccessibile per decenni una libertà espressiva essenziale. Lasciando così la persona sorda senza mezzi naturali per esprimersi.
 
 Troviamo un prezioso e originale sguardo sulle alterne vicende di questa lingua, che hanno letteralmente *segnato* il mondo dei sordi, in *Malintesi* (2020) scritto da Bertrand Leclair ed edito da Quodlibet. «È la storia del figlio ribelle ma è anche la storia (di una famiglia) devastata dalla sordità e più precisamente dall’ostinazione di un padre a riparare l’errore inammissibile della lotteria genetica: un’assurdità, senz’altro un’assurdità». Attraverso il dramma singolare di una famiglia benestante, nella provincia francese degli anni Sessanta, Leclair narra le plurali, terribili e reali limitazioni vissute dalle persone sorde e le loro lotte per affermare la propria dignità attraverso l’utilizzo della lingua dei segni.

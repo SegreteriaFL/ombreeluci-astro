@@ -1,4 +1,5 @@
 ---
+
 title: Voglia di comunicare
 date: 2018-06-30
 author: Maria Valeria Spinola
@@ -18,6 +19,7 @@ issue_number: OEL-142
 id_numero: "OEL-142"
 numero_rivista: "Ombre e Luci"
 ---
+
 G
 ianluca è un ragazzo di 24 anni, udente e con un ritardo cognitivo, a quattro mesi gli hanno diagnosticato una sindrome di West ovvero delle piccole crisi di tipo epilettico che gli hanno causato un danno cerebrale principalmente nella parte del linguaggio (area di brocca) e dello sviluppo cognitivo (lobo frontale) con una prognosi di incapacità a comprendere e ad esprimersi in qualsiasi lingua. All’epoca vivevamo in Belgio e
 **Gianluca ha avuto la fortuna di iniziare dall’età di due anni un programma sperimentale utilizzato con i bambini Down che prevedeva l’inserimento di un linguaggio gestuale fin da molto piccoli.**

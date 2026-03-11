@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 4
 date: 1983-12-29
 author: Redazione
@@ -20,6 +21,7 @@ umap_y: 8.77988338470459
 umap_z: 14.112534523010254
 id_numero: "OEL-4"
 ---
+
 **Ginevra 25-28 agosto**
 
 ### Incontro della zona Fede e Luce Sudeuropea

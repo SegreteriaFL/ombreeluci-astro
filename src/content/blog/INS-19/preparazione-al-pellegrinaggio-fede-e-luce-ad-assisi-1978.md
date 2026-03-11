@@ -1,4 +1,5 @@
 ---
+
 title: Preparazione al pellegrinaggio Fede e Luce ad Assisi 1978
 date: 1978-06-20
 author: Mariangela Bertolini
@@ -18,6 +19,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 ### Perché un pellegrinaggio?
 
 Gli incontri hanno un posto importante nella vita di Fede e Luce: ci ritroviamo regolarmente per vivere insieme momenti d'amicizia e di preghiera. Ma essere insieme non basta. Dobbiamo anche avanzare insieme. Così, giorno dopo giorno, facciamo un po' di strada, i legami si approfondiscono e il gruppo diventa una vera famiglia dove ognuno si sente accolto e amato.

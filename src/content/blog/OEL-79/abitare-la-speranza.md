@@ -1,4 +1,5 @@
 ---
+
 title: Abitare la speranza
 date: 2002-09-10
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.961022853851318
 umap_y: 6.475579738616943
 umap_z: 10.343254089355469
+
+subtitle: "Non voglio fare un sermone su questa virtu, altri lo hanno fatto meglio e prima di me. Vorrei solo scoprire i doni preziosi che da essa derivano"
 ---
+
 Al ritorno dalle vacanze, si rientra nella quotidianità: abbiamo lasciato dietro di noi giorni di sole, scoperte di luoghi nuovi, viaggi, gite, passeggiate, tuffi in piscina, campeggi pieni di imprevisti... Ora riprendiamo la vita di sempre e ci sembra spenta quella carica elettrica che caratterizza il tempo di vacanza. Bando alla nostalgia e guardiamo avanti per scoprire, insieme, come dare una tintarella solare ai giorni autunnali e invernali che verranno.
 
 Mi pare che, per vincere la monotonia dei giorni sempre uguali di lavoro, di studio, di far da mangiare ecc. , ci sia un ingrediente spesso dimenticato, messo da parte: la speranza. **Non voglio fare un sermone su questa virtù che tiene l'uomo in piedi da sempre: altri lo hanno fatto meglio di me** . Vorrei solo scoprire i doni preziosi che da essa derivano.

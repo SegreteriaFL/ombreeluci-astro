@@ -1,4 +1,5 @@
 ---
+
 title: Dario, sei anni ci parla - I bambini, che capiscono di Fede e Luce?
 date: 2003-03-13
 author: Vito Giannulo
@@ -18,7 +19,10 @@ tags:
 umap_x: 7.026334762573242
 umap_y: 9.154109001159668
 umap_z: 11.705957412719727
+
+subtitle: "Dario si stringe nelle spalle come fa quando vuole dire sì senza mostrare troppo entusiasmo e nascondere un po’ di paura. È pronto? Via."
 ---
+
 Il primo miracolo è che Dario non scappa via, appena finito di mangiare, per andare a vedere la televisione. Dobbiamo scrivere “una cosa per Mariangela” e abbiamo bisogno di fargli qualche domanda su [Fede e Luce](https://www.fedeeluce.it/) . È pronto? Si stringe nelle spalle come fa quando vuole dire si senza mostrare troppo entusiasmo e nascondere un po’ di paura per i suoi sei anni che si inorgogliscono davanti a domande difficili, ma non sono proprio sicuri di riuscire a rispondere. È pronto? Via.
 
 Qual è il tuo primo ricordo a Fede e Luce, chiediamo io e Mara quasi in coro.

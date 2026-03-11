@@ -1,4 +1,5 @@
 ---
+
 title: Cosa vedremo a Roma durante il pellegrinaggio (1975)
 date: 1975-07-03
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 12.997998237609863
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Quattro giorni, a Roma, per vedere tutto, sono pochi! Il nostro tempo sarà allora consacrato alla visita dei luoghi essenziali, quelli che - in seguito - ci aiuteranno ad essere pellegrini migliori per le strade di Roma ogni giorno."
 ---
+
 ### La tomba di San Pietro
 
 Nella
@@ -33,6 +37,8 @@ Gesù, quando viveva su questa terram, non è mai andato fuori dal suo Paese, la
 
 La terra sulla quale è costruita Roma può essere facilmente scavata. I primi cristiani ne hanno approfittato per costruire nel sottosuolo dei lunghi corridoi nelle cui pareti scavavano dei ripiani chiamati "loculi" sopra i quali deponevano i loro morti. Questi sotterrenei hanno preso il nome di CATACOMBE. I cristiani andavano nelle Catacombe per celebrare l'Eucaristia sulle tombe dei loro morti che "vivevano" ormai la vita del Cristo Risorto. La loro Fede si traduceva sulla pietra: infatti, vicino al nome del defunto erano tracciate queste parole: "EGLI VIVE". La morte, per i cristiani, non porta alla tristezza, ma alla serenità, alla pace, perchè Cristo èrisorto e anche noi risorgeremo, Quando gli imperatori perseguitarono i cristiani e li fecero morire perchè restavano fedeli a Gesù, questi furono sepolti nelle Catacombe: morendo per Cristo, ne erano stati i testimoni coraggiosi e fedeli. Ora, sulla terra, ci sono ancora cristiani che devono scegliere: o dire che non sono amici di Gesù, e allora saranno lasciati tranquilli, o dire che sono cristiani e vogliono vivere come cristiani, e allora saranno perseguitati: non possono andare nelle scuole con gli altri, sono privati dei loro averi, non possono trovare lavoro... Bisogna pregare molto per questi cristiani perseguitati, perchè siano ripieni della forza dello Spirito Santo e perchè Gesù li colmi della Sua Pace. Anche noi dobbiamo vivere di queste parole di Gesù: "Beati sarete voi, quando vi perseguiteranno per causa mia". E dobbiamo chiedere allo Spirito Santo di non avere mai paura di dire che amiamo Gesù, e di accettare con coraggio e anche con gioia le difficoltà e le pene di ogni giorno.
 *PAX*
+
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: La Locanda dei Girasoli
 date: 2001-12-25
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 10.131855964660645
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Avete fame? Questo il posto per voi: un accogliente ristorante-pizzeria che  coniuga l’amore per la cucina di qualità con l’inclusione sociale e lavorativa"
 ---
+
 ARoma in via dei Sulpici 117, da poco più di un anno ha aperto i battenti un nuovo ristorante-pizzeria: “ **La locanda dei girasoli** ”, che resta chiusa il lunedì, e funziona tutte le sere (per aggiornamenti su giorni di aperture e orari fare riferimento al [sito](https://www.lalocandadeigirasoli.it/) , n.d.r.).
 
 **Dotata di un forno a legna** , di tre stanze interne, di spazio all’aperto per i mesi estivi, in grado di fornire cucina saporita ed accurata a prezzi economici, è l’ideale per ospitare piccoli e grandi gruppi per una bella serata mangereccia.

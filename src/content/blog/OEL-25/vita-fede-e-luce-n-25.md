@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 25
 date: 1989-03-20
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-25
 id_numero: "OEL-25"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Consiglio di Fede e Luce
 
 Il 24-25 settembre 1988 si è riunito a Ginevra il Consiglio internazionale di Fede e Luce. Erano presenti alcuni delegati delle 12 comunità svizzere, il consiglio nazionale e l'équipe di coordinamento nazionale. Questo incontro è stato vissuto dai partecipanti come una grazia di luce e una scoperta della realtà della grande famiglia Fede e Luce nel mondo alla quale appartengono di cuore e in spirito. Le parole sempre così ricche di significato di Jean Vanier, di Marie Hélène, di Mariangela, di Marcin hanno toccato i cuori di molti ed ognuno si è sentito interpellato e scosso anche dalle testimonianze così vere dei membri della comunità internazionale. La presenza di Mons. Lacroix ha arricchito rincontro e permesso scambi fruttuosi.

@@ -1,4 +1,5 @@
 ---
+
 title: "Seminario gratuito a Bari sulle politiche per la disabilità"
 date: "2018-09-03"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il Seminario si propone in un momento in cui sulla disabilità si moltiplicano attenzioni ma rimangono punti interrogativi: un laboratorio aperto che intercetta una quota importante di bisogno, ma dove una quota altrettanto importante di esigenze assistenziali e di accompagnamento rimane fuori, in balìa del welfare familiare e di tutele fai da te.
 
 ### L'Appuntamento:

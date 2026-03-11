@@ -1,4 +1,5 @@
 ---
+
 title: In vacanza... tutto come se si trattasse di un gioco
 date: 1979-06-16
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 L'esperienza di lavorare, giocare, partecipare ogni cosa con i bambini handicappati nei due [campeggi estivi di Alfedena](https://www.ombreeluci.it/tag/campi-fede-e-luce/) è stata per me fondamentale. Primo perché è raro avere un'esperienza di comunità con loro, secondo perché credo che un rapporto costruttivo con i bambini, tentando di stare insieme rispettando la loro crescita e le loro esigenze, sia molto difficile da attuarsi.
 
 **La prima cosa che ho notato** , anche nei più piccoli, è stata un'estrema disponibilità ed apertura e gioia nell'inventare, fare, ognuno nei limiti delle proprie possibilità.

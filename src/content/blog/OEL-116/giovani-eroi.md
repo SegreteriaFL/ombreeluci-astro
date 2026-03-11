@@ -1,4 +1,5 @@
 ---
+
 title: Giovani eroi
 date: 2011-12-04
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 8.474512100219727
 issue_number: OEL-116
 id_numero: "OEL-116"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il periodo della vita però che ci lascia oggi molto più di ieri smarriti, confusi e spesso impotenti è il  tempo in cui il bambino si forma nel grembo materno."
 ---
+
 Chi, adulto, giovane o bambino di fronte ad un neonato non esclama: mio Dio com’è piccolo! E non è solo piccolo di proporzioni, è piccolo perché sembra impossibile che possa vivere, farsi avanti, crescere, riconoscere, sorridere… Ahimè la cosa che colpisce di più tutti è che sa piangere e bene anche!
 
 C’è chi si commuove davanti a lui; c’è chi si intenerisce; c’è chi sbalordisce perché pochi minuti prima non c’era ed ora è qui…

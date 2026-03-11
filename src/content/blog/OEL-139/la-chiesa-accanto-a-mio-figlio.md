@@ -1,4 +1,5 @@
 ---
+
 title: La Chiesa accanto a mio figlio
 date: 2017-09-06
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 9.326181411743164
 issue_number: OEL-139
 id_numero: "OEL-139"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Isabelle è la madre di Adrien, 28 anni. Ci racconta di un momento particolarmente emozionante vissuto con suo figlio, a Lourdes nel 2007"
 ---
+
 Nel programma di un pellegrinaggio a Lourdes con Adrien, **nostro figlio con disabilità grave, era proposto il sacramento della Riconciliazione** . Ci trovavamo in una Cappellina all’interno del Santuario, in un posto molto laterale e confortevole con la moquette per terra, dettaglio che ha la sua importanza perché Adrien e Alessandra, un’altra persona con disabilità grave che partecipava al pellegrinaggio, hanno potuto essere messi a terra quando si erano stancati di stare sulla sedia a rotelle. Dopo un momento di preghiera comunitario, è venuto il momento dell’incontro individuale con il sacerdote, il quale si è rivolto verso di me e mi ha domandato: “Che debbo fare?” - ho risposto: “Penso che tu lo saprai, stai un po’ con loro.”
 
 **L’incontro tra Adrien e il prete si è svolto in un dialogo muto.** Al momento giusto Adrien si è allungato per terra e, per restare al livello dei suoi occhi, il sacerdote ha fatto lo stesso. Concluso il sacramento della Riconciliazione, il sacerdote ha riconosciuto che in fondo non era stata una cosa complicata. E anni dopo ho saputo che dava testimonianza di questo particolare incontro con altri sacerdoti.

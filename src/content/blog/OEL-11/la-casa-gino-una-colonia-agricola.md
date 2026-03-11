@@ -1,4 +1,5 @@
 ---
+
 title: La Casa Gino, una colonia agricola
 date: 1985-09-27
 author: Redazione
@@ -20,6 +21,7 @@ issue_number: OEL-11
 id_numero: "OEL-11"
 numero_rivista: "Ombre e Luci"
 ---
+
 **Com'è sorta la [*Casa di Gino*](http://casadigino.org) e perché si chiama così?** Nacque nel 1946 quando fu mandato qui un religioso guanelliano con sei ragazzi disadattati. C’erano ancora i coloni. Il terreno, 32 ettari, apparteneva a una famiglia benestante che l’aveva comperato per l’unico figlio, Gino, il quale però era morto in uno scontro aereo, durante l’ultima guerra. In suo ricordo i genitori avevano voluto donare il terreno a una congregazione che si dedicasse a giovani abbandonati. I guanelliani, tramite il parroco di Lora, avevano accettato la donazione. I primi ragazzi che vennero qui, erano solo disadattati; impararono a lavorare la terra e si inserirono poi nella vita. Quando qui si fa festa, vengono ancora a trovarci, anzi qualcuno di loro svolge attività tecnico-educativa con gli ospiti attuali.
 
 **Chi sono ora gli ospiti della casa?** Nel 1960 abbiamo cominciato ad accogliere ragazzi con handicap lievi o medio-lievi. Dal 1970 ospitiamo ragazzi più gravi e la loro permanenza qui si fa sempre più lunga: 9-10 anni. La casa, infatti, si propone di educare i ragazzi con difficoltà a sviluppare le proprie capacità e la personalità, per poter accedere alla vita sociale, al lavoro fuori. Ma ora ci troviamo di fronte a difficoltà più grandi di prima: qui i ragazzi sono in un ambiente protetto ed è difficile trovare dove inserirli una volta dimessi. La casa è sorta come comunità- alloggio più che casa famiglia.

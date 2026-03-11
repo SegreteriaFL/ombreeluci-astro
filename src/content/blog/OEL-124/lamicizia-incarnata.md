@@ -1,4 +1,5 @@
 ---
+
 title: L’amicizia incarnata
 date: 2013-12-14
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 10.288445472717285
 issue_number: OEL-124
 id_numero: "OEL-124"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Quando parlo dell’amore di Gesù per i malati, io che sono tetraplegico tracheotomizzato, in sedia a rotelle, vedo nello sguardo dei miei interlocutori diverse reazioni"
 ---
+
 Ungiorno, durante una messa a Lourdes, mi trovai seduto accanto ad una signora, la cui lingua usciva dalla bocca senza potervi rientrare. Era molto impressionante guardare quel viso dal quale uscivano tubi e tubicini. Ogni tanto emetteva dei gridolini ed io mi chiedevo: “Perché Signore, permetti tutto ciò?”. I passanti distoglievano lo sguardo. Al momento della comunione ho visto alzarsi una suora con una siringa in mano che conteneva Ostia polverizzata e in tal modo la signora poté tranquillamente comunicarsi.
 
 **Allora mi sono detto: “È dunque questo, condividere il pasto del vero Amore!”** Gesù viene a visitare ciascuno grazie alla tenerezza e all’inventiva delle nostre comunità. Capivo, grazie a quella donna chi era il Dio che si fa piccolo.

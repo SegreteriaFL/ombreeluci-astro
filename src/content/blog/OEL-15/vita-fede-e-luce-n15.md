@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.15
 date: 1986-09-25
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-15
 id_numero: "OEL-15"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nel luglio scorso a Santo Domingo (Rep. Dominicana) si è tenuto un incontro internazionale di *Fede e Luce* . Vi hanno partecipato 120 persone da tutti gli angoli del mondo. Ecco le prime impressioni di Marianna Mihelcic, scritte per il foglio «Lucka» di *Fede e Luce* jugoslava.
 
 ### Uniti in Fede e Luce

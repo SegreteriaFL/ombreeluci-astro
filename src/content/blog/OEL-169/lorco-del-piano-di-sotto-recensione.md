@@ -1,4 +1,5 @@
 ---
+
 title: L’orco del piano di sotto | Recensione
 date: 2025-05-20
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 4.775343418121338
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Per i più piccoli, un'ode ai Giusti rimasti anonimi (Ed. Uovonero, 2025)"
 ---
+
 V
 uole essere
 **un’ode ai tanti Giusti tra le nazioni rimasti anonimi**

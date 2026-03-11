@@ -1,4 +1,5 @@
 ---
+
 title: Guardavano, guardavano!
 date: 1989-03-20
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-25
 id_numero: "OEL-25"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ormai da molti anni trascorro parte delle vacanze con le persone handicappate. Le incontro ai campeggi di Fede e Luce. Ma prima ancora che Fede e Luce venisse in Italia, la mia famiglia già passava le vacanze in modo diverso. **Il papà e la mamma dovevano infatti conciliare i miei bisogni con quelli di Chicca, mia sorella maggiore, profondamente colpita.**
 
 A casa tutto andava bene: Chicca aveva la sua cameretta e i suoi giocattoli. Io avevo imparato a capire quando potevo stare con lei, e se era calma ero contento di starle accanto. Avevo anche imparato quando invece era meglio lasciarla sola: bastava uno sguardo della mamma e io sapevo di dover uscire. Sentivo poi le grida di Chicca ed il suo particolare modo di piangere. Sentivo mia mamma che, come ogni mamma, cercava in tutti i modi, con dolcezza o con durezza, di farla calmare. Se era in casa, il papà prendeva in braccio Chicca per coccolarla oppure veniva da me a giocare: per distrami, io penso. Se il papà era al lavoro e la situazione era più pesante del solito, la mamma mi mandava al piano di sopra, dalla zia Tea, con una campanella d’argento in mano per farmi aprire: era piccolo e non arrivavo al campanello di casa. **E tutto andava bene. Quella era la mia casa, quella la mia famiglia. Quella era mia sorella: e le volevo bene.** I problemi per me cominciavano quando bisogna uscire, per fare un viaggio, o per andare in vacanza, ad esempio.

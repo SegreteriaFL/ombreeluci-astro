@@ -1,4 +1,5 @@
 ---
+
 title: Alfedena 1978
 date: 1978-12-21
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 Per la terza volta ad [Alfedena](https://www.ombreeluci.it/tag/alfedena/) un gruppo di amici si è ritrovato per vivere fraternamente qualche settimana in comunione.
 
 Le eco entusiaste che seguono, dicono a che punto l'esperienza è stata positiva. Ma non dobbiamo dimenticare che queste tre settimane di vacanze sono state rese possibili da una preparazione e un'organizzazione minuziosa.
@@ -55,6 +57,7 @@ Mi sono accorta che Cristo era con noi ogni momento per condividere gioie e diff
 
 *Lucia Pennisi*
 
+
 ---
 
 ### Una presenza tangibile
@@ -72,6 +75,7 @@ Ad Alfedena l'amicizia che già ci legava o che ha unito persone mai incontrate 
 Cosi che risate parlare con Patrick, il quale il più delle volte, dopo avermi ripetuto per la quinta volta la stessa frase, mi diceva "cre - ti - na" e scoppiava a ridere... e con Settimio che durante la siesta ci ammorbava strimpellando la chitarra e storpiando tutte le canzoni intervallandole con "sta zitto e dormi" rivolto a Roberto...
 
 *Francesca Speranza*
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: "\"Io ordino con te\", il servizio per bambini con disabilità e difficoltà linguistiche"
 date: "2019-07-26"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 L’idea è quella di utilizzare **simboli e immagini per facilitare la comunicazione** dei bambini con disabilità e difficoltà nella comunicazione, nonché con poca conoscenza della lingua italiana, per agevolarli in uno dei momenti più importanti per la loro socialità, quello conviviale del pasto, sia a scuola che in occasioni extrascolastiche.
 
 Si tratta dell’iniziativa “**Io ordino con te**”, pensata dalla cooperativa **Vivere Insieme** nell’ambito del Servizio comunale per l’Integrazione scolastica e sociale extrascolastica per gli alunni con disabilità nell’Ambito territoriale di Barletta.

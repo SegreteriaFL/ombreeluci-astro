@@ -1,4 +1,5 @@
 ---
+
 title: "Il più popolare al velodromo"
 date: "1991-06-21"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-34
 id_numero: "OEL-34"
 numero_rivista: "Ombre e Luci"
 ---
+
 Franco è un ragazzo Down. Ha 37 anni e da circa 15 lavora, come giardiniere, al Velodromo di Roma.
 Non è stato facile raggiungere questo traguardo e l’episodio che ci fece capire che era potenzialmente capace di fare molto di più di quello che speravamo, accadde molti anni fa.
 Franco aveva allora sette anni e un mattino di un giorno qualunque Carla si dava da fare in cucina per preparargli la colazione perché dopo poco si sarebbe alzato, affamato, come sempre. Non si accorse che invece era già in piedi e la stava osservando appoggiato alla porta.

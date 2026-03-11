@@ -1,4 +1,5 @@
 ---
+
 title: "Autismo e comunicazione facilitata: Come Michele è uscito dalla sua \"fortezza\""
 date: "2001-09-27"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Da 7 anni Michele segue la Comunicazione Facilitata. Ricordo con emozione la prima volta che lo vidi scrivere al computer il mio nome, quello del fratello e della sua insegnante di sostegno"
 ---
+
 Avviso
 La comunicazione facilitata non ha ottenuto all’interno della comunità scientifica e professionale, un giudizio unanime rispetto alla sua validità.
 

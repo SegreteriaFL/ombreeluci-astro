@@ -1,4 +1,5 @@
 ---
+
 title: Come fai a credere alla Madonna?
 date: 1974-06-28
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.616602897644043
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "A Lourdes ho sentito cantare il dolore, ho capito e visto con i miei occhi che si può patire fiduciosamente senza disperarsi od abbattersi"
 ---
+
 Stavamo partendo per Lourdes e nel salutare, uno dei nostri parenti mi prese in disparte e mi disse: "Ti auguro un buon viaggio, ma non capisco come fai ancora a credere alla Madonna."
 
 **Si partiva con poca convinzione o almeno non profonda** , da veri credenti. Nei tre giorni di viaggio in macchina, si recitò qualche giaculatoria ma di quelle dette più per convenienza che per amore.

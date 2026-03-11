@@ -1,4 +1,5 @@
 ---
+
 title: Lucrezia e il Marco di ieri e di oggi
 date: 2019-10-17
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 10.08624267578125
 issue_number: OEL-147
 id_numero: "OEL-147"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Intervista a don Marco Bove, vera roccia per Fede e Luce, assistente spirituale nazionale e poi internazionale del movimento con il grande merito di aver fatto proprio lo spirito di una comunità costruita sull’amicizia"
 ---
+
 «L'oratorio della mia parrocchia era un po’ in difficoltà nella Milano dei primi anni Settanta, e così il prete di noi ragazzi “si inventò” gli scout: mi ci buttai a capofitto». Chi parla è don Marco Bove, vera roccia per Fede e Luce: assistente spirituale nazionale dal 1999, da settembre 2019 è l’assistente spirituale internazionale del movimento. Il vero merito di don Marco, però, è quello di aver fatto proprio lo spirito di una comunità costruita sull’amicizia.
 
 **Come era Marco bambino?** Frequentavo gli scout, avevo 15 anni, e un bel giorno ci vengono a dire che c’è una famiglia che ha bisogno di volontari per fare ginnastica a una bimba con disabilità. In quattro demmo la disponibilità: il mio primo incontro con la disabilità nacque attraverso il programma di stimolazione del dottor Doman! Conobbi così Lucrezia, che per tutti era chiamata col diminutivo Teta, e frequentai per anni la sua casa. Arrivato all’università, la mamma mi chiese se volessi fare l’insegnante di sostegno per la figlia (allora la legge richiedeva come condizione per esserlo la sola iscrizione all’università). Rifiutai, ma l’anno dopo tornò alla carica e io cedetti: in quell’anno non studiai molto, ma iniziai a riflettere sulla mia vita... La bimba iniziò la quarta elementare, io continuai a frequentare la famiglia, ma passai a insegnare religione in un’altra scuola: fu l’anno in cui presi contatto con il seminario. Interruppi l’università e partii. Il bello fu che la sera in cui finii di dare gli esami del primo anno, mentre già pregustavo il ritorno a casa, mi chiamò il rettore: l’indomani ci sarebbe stata una festa e serviva aiuto. Avrei voluto rispondere no, invece mi ritrovai a preparare una festa di Fede e Luce. Era giugno 1983: una folgorazione.

@@ -1,4 +1,5 @@
 ---
+
 title: "Un dono di poesia: il regalo delle quattro amiche della Comunità il Roveto"
 date: "2001-12-25"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Maria Grazia, Maria Francesca, Laura e Nunzia della Comunità il Roveto ci hanno fatto un regalo, con tanta poesia."
 ---
+
 David Maria Turoldo-da «Il Sesto Angelo»
 
 ### Il mattino di Natale

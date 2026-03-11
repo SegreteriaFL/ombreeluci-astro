@@ -1,4 +1,5 @@
 ---
+
 title: Ti aspetto sempre
 date: 1983-03-20
 author: Jean Vanier
@@ -24,6 +25,7 @@ umap_y: 11.96904182434082
 umap_z: 10.384204864501953
 id_numero: "OEL-1"
 ---
+
 L'argomento che affrontiamo è particolarmente delicato: dobbiamo, infatti, entrare un po' nel mistero del cuore umano, la parte più sensibile del nostro essere, la più fragile, la più vulnerabile. Solo con grandissimo rispetto possiamo dunque abbordare questo tema.
 
 ### “Ti aspetto sempre”

@@ -1,4 +1,5 @@
 ---
+
 title: Alla scoperta di un ristorante inclusivo
 date: 2024-06-20
 author: Flora Atlante
@@ -14,7 +15,10 @@ umap_z: 9.17666244506836
 issue_number: OEL-165
 id_numero: "OEL-165"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Io e i miei amici da PizzAut a Milano"
 ---
+
 Era una domenica di aprile, il gruppo Fede e Luce di Cesano Boscone [*Messaggeri di gioia*](https://www.fedeeluce.it/project/messaggeri-di-gioia/) si trovava in oratorio San Giustino per il classico pomeriggio insieme. Mentre si davano gli avvisi al gruppo, Nives ci propone di andare a pranzo da **[*PizzAut*](https://www.pizzaut.it/)** . L’invito è allettante e diciamo subito di sì quindi Paolo si collega al sito delle prenotazioni e la prima data utile era… domenica 1 ottobre 2023! **Gli diciamo subito: blocca! Prenota per 15 persone! Poi si vedrà.** Il nostro stupore è stato che abbiamo prenotato con ben cinque mesi di anticipo: è proprio un posto rinominato e ricercato.
 
 **Vi spiego brevemente che cos’è *PizzAut* : «È la prima pizzeria gestita interamente da ragazzi autistici…** – scrive il sito ufficiale – che insieme a Nico, fondatore di *PizzAut* e papà di un bimbo autistico, sta costruendo un grande progetto di inclusione, una grande opportunità per il futuro per i ragazzi autistici. È l’occasione per molti ragazzi autistici di guadagnare dignità, indipendenza e autonomia attraverso il lavoro, perché tutti insieme possiamo nutrire l’inclusione. Perché la pizza? Perché è semplice, è genuina, è familiare, ti permette di liberare la fantasia ed è veloce da preparare. Sono un gruppo di sognatori che pensa si possa costruire un mondo migliore… tutti insieme anche grazie a noi.»

@@ -1,4 +1,5 @@
 ---
+
 title: "L'educazione sessuale delle persone handicappate - Un libro risponde"
 date: 1995-03-16
 author: Natalia Livi
@@ -15,6 +16,7 @@ issue_number: OEL-49
 id_numero: "OEL-49"
 numero_rivista: "Ombre e Luci"
 ---
+
 L
 e
 [domande che avete letto nella pagina precedente](http://www.ombreeluci.it/1995/domande-e-osservazioni-dei-genitori/)

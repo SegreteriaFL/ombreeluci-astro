@@ -1,4 +1,5 @@
 ---
+
 title: "Ci ha fatto vedere ciò che non avevamo ancora visto"
 date: "2019-07-31"
 author: "Andrea Lonardo"
@@ -15,6 +16,7 @@ issue_number: OEL-146
 id_numero: "OEL-146"
 numero_rivista: "Ombre e Luci"
 ---
+
 Anche se sappiamo bene che egli dal cielo sorriderà per queste parole, nondimeno è certamente vero che [Jean Vanier](https://www.ombreeluci.it/jeanvanier/) ha avuto una rilevanza tale nella comunità cristiana e nel mondo che meriterebbe di essere insignito di qualcosa di ben più significativo di un Premio Nobel per la pace. Anche se i principali quotidiani italiani non hanno nemmeno riportato la notizia della sua morte.
 
 Chi lo ha conosciuto sa bene di aver incontrato un santo, di avere attraversato la vita di qualcuno che sarà un giorno canonizzato. Perché i santi esistono anche oggi ed il Vangelo è talmente vero che si mostra in prodigi e segni anche oggi. Chi ha accolto la sua testimonianza sa bene che egli è stato, insieme, una figura laica che ha contribuito in maniera decisiva ad uno sguardo diverso sulla vita nelle diverse nazioni dei diversi continenti. La sua umiltà non permetteva di cogliere immediatamente il ruolo che egli ha giocato nella storia del mondo, ma ciò non vuol dire che egli non lo abbia svolto. Ai “piccoli” Dio concede di agire nella storia in maniera ben più efficace e duratura dei potenti. Jean era a casa propria in ogni continente, atteso e benedetto ovunque.

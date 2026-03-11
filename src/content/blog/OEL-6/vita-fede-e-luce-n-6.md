@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 6
 date: 1984-06-29
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-6
 id_numero: "OEL-6"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Incontro responsabili di Fede e luce di 33 nazioni
 
 Nella settimana dal 19 al 25 marzo (1984,

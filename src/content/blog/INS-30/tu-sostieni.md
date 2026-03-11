@@ -1,4 +1,5 @@
 ---
+
 title: Tu sostieni
 date: 1981-12-20
 author: Maria Grazia Pennisi
@@ -18,6 +19,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Tu sei là, davanti a me, con il tuo corpicino ogni giorno più lungo, in fiore, come è la natura in quest’epoca, ma che ancora non dimostra la tua adolescenza.
 
 Con lo sguardo attratto da ogni cosa meccanica o lucente come una piccola gazza, con il dito eternamente in bocca ed il mento umido di saliva…
@@ -33,5 +35,6 @@ In te la forza dei trascinatori silenziosi di folle…
 Con la tua vita, apparentemente senza valore, ci conduci, mi conduci a credere e vivere la fratellanza e l’amore e quando ti tengo tra le mie braccia sei tu in realtà che sostieni il peso di tutte e due.
 
 *Maria Grazia Pennisi*
+
 
 ---

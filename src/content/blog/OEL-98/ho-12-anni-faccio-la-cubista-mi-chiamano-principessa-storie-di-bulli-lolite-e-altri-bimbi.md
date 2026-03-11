@@ -1,4 +1,5 @@
 ---
+
 title: Ho 12 anni faccio la cubista. Mi chiamano principessa Storie di bulli, lolite e altri bimbi
 date: 2007-06-03
 author: Laura Nardini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 8.06232738494873
 umap_y: 11.380504608154297
 umap_z: 4.9460368156433105
+
+subtitle: "Mi chiamano principessa Storie di bulli, lolite e altri bimbi - Maria Lombardo Pijola, Ed. Bompiani"
 ---
+
 Ancora una volta la realtà supera di gran lunga la fantasia... È un’inchiesta, una denuncia, una testimonianza diretta di quanto succede oggi ad adolescenti insospettabili per mettere in guardia genitori e tutti quelli che vivono intorno a loro. **Mai sentito parlare delle discoteche pomeridiane?**
 
 **L'autrice di questo libro, giornalista e inviata speciale del Messaggero, racconta di adolescenti di età compresa tra gli 11 e 14 anni** che frequentano la scuola media inferiore. Ragazzine che uscite di casa con abiti normali, e con scuse più varie, entrano in di scoteca e si trasformano in provocanti cubiste che ballano davanti ai coetanei che con i cellulari fanno foto e filmini.

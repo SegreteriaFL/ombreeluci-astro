@@ -1,4 +1,5 @@
 ---
+
 title: "\"Dopo di me, il diluvio\": commedia musicale del gruppo Fede e Luce di San Paolo"
 date: 1981-01-03
 author: Nicole Schulthes
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Appuntamento teatrale per i componenti di [Fede e Luce](https://www.fedeeluce.it/) di Roma. I loro parenti, gli amici e per chiunque ne avesse voglia, sabato 21 e domenica 22 febbraio (1981, n.d.r.) presso la sala dell'oratorio di San Paolo per assistere alla rappresentazione " **Dopo di me il diluvio** ", liberamente tratto - molto liberamente tratto, hanno detto i realizzatori – della commedia musicale “ **Aggiungi un posto a tavola** ”. Il successo della rappresentazione è stato davvero notevole, gli applausi a non finire, a volte anche a scena aperta per sottolineare i quadri meglio riusciti o di maggiore effetto. Come quando Goffredo (pardon, don Silvestro) alza una mano e come per incanto una ammiccante luna sospesa nel cielo si accende di luce improvvisa; e sulle note di Notte da non dormire…” i ragazzi a coppie escono lentamente di scena. O come nella scena del diluvio dove un ingegnoso e validissimo effetto scenico ci ha convinti tutti che stava iniziando …il secondo diluvio universale. I complimenti sono andati copiosi a tutti, e sono stati unanimemente positivi, festeggiatissima Clementina, cioè Adriana. All’uscita si sentiva ripetere de tutte le parti: “Bravi, veramente bravi”. Peccato non poter aggiungere, così come si è soliti dire al termine di una recensione teatrale… “si replica”. *(Enrica Cofano)*
 
 ## Intervista agli amici

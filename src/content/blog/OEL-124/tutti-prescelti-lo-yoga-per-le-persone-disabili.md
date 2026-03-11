@@ -1,4 +1,5 @@
 ---
+
 title: Tutti prescelti - Lo yoga per le persone disabili
 date: 2013-12-14
 author: Andrea Cesarini
@@ -16,7 +17,10 @@ umap_z: 7.809789657592773
 issue_number: OEL-124
 id_numero: "OEL-124"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Lo Yoga, una pratica millenaria che da qualche anno è utilizzata anche come terapia riabilitativa alternativa per le persone disabili. Andrea Cesarini da Milano ci racconta la sua esperienza come maestro di Yoga"
 ---
+
 P
 **er raccontare la mia esperienza di insegnante di yoga devo incominciare a spiegare brevemente le motivazioni che mi hanno spinto ad iniziare**
 . Quando ero ancora giovane, andavo in terza media, ho iniziato a frequentare Fede e Luce e quindi a creare amicizia con persone “disabili”. Questa amicizia è stata per me molto importante, al punto da darmi la possibilità di tenere rapporti con persone “diverse”, con i loro parenti, e con persone “normali”.

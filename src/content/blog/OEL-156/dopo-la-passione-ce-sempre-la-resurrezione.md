@@ -1,4 +1,5 @@
 ---
+
 title: "Dopo la passione c'è sempre la resurrezione"
 date: "2021-03-12"
 author: "Luciana Spigolon"
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando si entra in un tunnel, si vede solo buio, ombre, e più è lungo più ci può assalire la paura, l'angoscia, la solitudine, la tensione, il panico, l'ombra della morte; ma appena si intravvede un po' di luce alla fine del tunnel tutto diventa energia per correre, correre e uscire alla luce.
 
 Il 2020 per me è stato così; ma lo è stato per milioni di persone, secondo il luogo di vita, il contesto familiare e sociale.

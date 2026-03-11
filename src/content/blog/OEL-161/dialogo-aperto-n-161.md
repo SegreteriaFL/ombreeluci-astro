@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 161
 date: 2023-05-08
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 10.845690727233887
 issue_number: OEL-161
 id_numero: "OEL-161"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Lavorare al Sinodo, chiamati da Papa Francesco
 
 Cari Fratelli e Sorelle della Comunità di Fede e Luce, dopo più di un mese dal mio incontro con Papa Francesco, dopo aver assaporato dentro di me la gioia e il piacere di potergli consegnare (anche a nome di tutte le altre persone con disabilità che hanno lavorato alla stesura del testo assieme a me) il nostro documento di proposte per migliorare l'inclusione dei disabili nella chiesa in occasione del sinodo, voglio ora condividere le sensazioni che questa esperienza mi ha lasciato con tutti/e voi.
@@ -33,11 +37,15 @@ Tra l’altro lo stesso Papa Francesco non ha nascosto la sua forte perplessità
 
 Per concludere: non credo si possa auspicare un reale cambio di prospettiva privo di preconcetti, pregiudizi e discriminazioni verso il variegato popolo di Dio se non si parte per prima cosa dalla conoscenza effettiva delle peculiari e tutte diverse storie delle persone (da custodire come ricchezza), piuttosto che da discorsi puramente astratti e totalmente avulsi dalla contingenza del reale. Buon cammino! **Giulia Cirillo (Roma)**
 
+
+
 ---
 
 ### Pronto?
 
 Volevamo sapere se fosse possibile partecipare ad un campo estivo di Fede e Luce. Facevo parte della comunità di Santa Melania a Roma. Ora la comunità non si riunisce più ma, anche se ci siamo sciolti, con alcuni siamo amici da 30 anni e continuiamo a sentirci. Per ora non mi interessa frequentare un’altra comunità ma vorrei davvero tanto partecipare ad un campo. **Silvia Pontesilli (Roma)**
+
+
 
 ---
 
@@ -45,11 +53,15 @@ Volevamo sapere se fosse possibile partecipare ad un campo estivo di Fede e Luce
 
 Sono Paola, madre di Giovanni, Ernesto e Ludovico Grossi; sono nonna, però non ho più tempo di stare con loro salvo il week end. Ho preso un percorso di passatempo data la mia età di 81 anni. Ora la mia vita è cambiata grazie all’iscrizione al centro anziani Girasole. Sono attiva e mi dicono che sono un fringuello, canto al coro assieme agli altri utenti e faccio ginnastica dolce on line. Al rientro aspetto il catering tutti i giorni. Voglio solo aggiungere solo una cosa: Giovanni mi preme non per questioni di salute, ma perché ha bisogno di qualcosa che gli riempia la vita, ossia amici sinceri. **Paola Pisenti (Roma)**
 
+
+
 ---
 
 ### Tutto ruota
 
 Un sabato di novembre ci ha visti riuniti davanti al Teatro Nazionale a Milano per vedere il musical Sister Act, euforici, contenti ed entusiasti per la voglia di uscire e di andare a passare qualche ora spensierata insieme. Eravamo una sessantina di amici di Fede e Luce da vari gruppi: Cesano Boscone, Rho, Gratosoglio, Milano e Carugate. Tutto ruota attorno ai nostri ragazzi con disabilità ed è importante valutare tanti aspetti. I posti e i percorsi per le carrozzine, ma anche gestire i mezzi di trasporto: chi può prende i mezzi, ma la cerchia degli amici si attiva per cercare di accontentare tutti. Insomma, un gran lavoro di organizzazione, certo, però poi c’è tanta soddisfazione per il divertimento di tutti, facendo cose che ci piacciono: la musica trascina, è vita, adrenalina… Ogni tanto ci vuole musica per ricarburare e rigenerare. Ogni incontro poi diviene sempre festa e occasione per fare nuove amicizie: accogliamo tutti a braccia aperte! **Flora Atlante (Milano)**
+
+
 
 ---
 
@@ -57,11 +69,15 @@ Un sabato di novembre ci ha visti riuniti davanti al Teatro Nazionale a Milano p
 
 Domenica 16 ottobre la comunità Fede e Luce San Pietro di Avenza ha vissuto il suo momento di rinnovamento, con l’elezione della nuova équipe e della nuova responsabile. Accompagnati dall’esperienza di Lucia Casella e dalla vicecoordinatrice di Kimata, Egiziana Cenderelli, tutti i componenti della comunità si sono ripresentati gli uni gli altri, raccontando il proprio percorso di fede e la propria esperienza in Fede e Luce. La scelta è caduta sulla nostra cara amica Tiziana, con noi da quasi vent’anni. Ha accolto il suo mandato con tanta gioia, con ansia e agitazione come suo solito, ma anche con il desiderio di provare e di impegnarsi nella custodia di tutti. Abbiamo ringraziato il Signore e Maria per il dono di questo rinnovamento, dal quale tutta la comunità trarrà nuova linfa per il suo cammino. Un ringraziamento speciale è andato ad Antonella, responsabile uscente, che per oltre dieci anni ha guidato e custodito la comunità come una sua famiglia, facendola crescere e crescendo con lei. **Silvia Tamberi (Avenza)**
 
+
+
 ---
 
 ### Il giorno del mio 63° compleanno
 
 Ho ricevuto tantissimi auguri sia su WhatsApp che Facebook, veramente tantissimi! Mi sono sentita coccolata. Nel pomeriggio ho avuto tre amiche che mi sono venute a trovare, la prima intorno alle 15 con i torroncini (e una bella chiacchierata!) e le altre due alle 16.20. Un orario non a caso, dato che sono nata alle 16.30, e, tocco finale, proprio alle 16.30 una videochiamata con Flora e altre amiche. La mia gioia è stata grande abbiamo fatto delle foto ricordo, poi è iniziata la mia festa insieme spegnendo la candelina e mangiando la torta abbiamo chiacchierato un po’. Poi intorno alle 18.30 se ne sono andate. Ma non è finita qui! La sera, Paolo Lucchi con Nives hanno messo un link sul gruppo giochi perché dovevano spiegarci delle cose importanti. Ci siamo collegati, eravamo tantissimi e poter sapere la questione, tutti pronti e… la riunione era per farmi una bella sorpresa! Tanti amici per regalarmi una serata magica; io ho raccontato un po’ della mia storia. Sapete, ancora oggi mi sento emozionata, circondata da amici. La famiglia di Fede Luce è una prova di grande amore, dove tutti si riuniscono e ti danno quella forza di sorridere e la voglia di stare insieme. Grazie a questa riunione ho avuto un compleanno meraviglioso! **Nora Buccheri (Milano)**
+
+
 
 ---
 

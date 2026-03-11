@@ -1,4 +1,5 @@
 ---
+
 title: Come sei cresciuto?
 date: 2015-03-19
 author: Stefano Marchetti
@@ -15,6 +16,7 @@ issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
 ---
+
 **C aro Clemente che ricordi hai dei giorni della tua infanzia quando ti portavamo con noi a passare insieme diverse domeniche ogni anno agli incontri di Fede e Luce? Certamente né a me né alla tua mamma veniva in mente di chiedere il tuo parere. In realtà il nostro pensiero implicito era che la comunità di Fede e Luce sarebbe stato un luogo di formazione per te e per la tua crescita. Non ne abbiamo mai parlato insieme e questa è l’occasione per chiederti oggi, per la prima volta, come vivevi quelle giornate. Che ricordi hai, quali sensazioni belle ti sono rimaste e quali invece quelle meno gradevoli?**
 
 Diciamo che di quando ero piccolo non mi ricordo moltissimo. Ora tutte le persone che mi incontrano delle varie comunità dicono: “Oh come sei cresciuto! Io ti ricordo quando eri piccolo piccolo”. Bene, ora vi dirò io: non mi ricordo di voi. I primi ricordi che ho di Fede e Luce risalgono a quando ero gia abbastanza grande per tirare calci a un pallone. Infatti i primi ricordi sono le casette a San Valentino, quando io passavo il tempo fuori, al campo da calcio a fare tutto il giorno porta porta con Emanuele Manfucci. Perennemente ci chiudevano fuori e stavamo le ore ad aspettare che ci aprissero. Una volta entrati mi ritrovavo in un posto che per me era formato da gente speciale, come se avessero avuto dei super poteri. C’era Monicona che ti faceva sempre sorridere con i suoi abbraccioni, c’era Gerry che sembrava sempre arrabbiato ma in realta voleva giocare, Corrado che guai se gli davi la palla (per ripassartela ci metteva una vita ed era sempre indeciso a chi passarla); infine c’era Danielino, che camminava sempre, non si fermava mai, sembrava sempre in ansia, poi però veniva da te e ti dava un abbraccione come per dire: “Tranquillo, io sto bene, non ti preoccupare per me”. Insomma io ho vissuto Fede e Luce, e lo vivo tuttora, come un luogo dove stare con persone che a modo loro ti fanno stare bene. Molti dicono che noi facciamo molto per loro: a queste persone risponderei che, al contrario, i ragazzi fanno più per me che io per loro.

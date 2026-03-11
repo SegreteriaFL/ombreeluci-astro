@@ -1,4 +1,5 @@
 ---
+
 title: UILDM Unione Italiana Lotta alla Distrofia Muscolare
 date: 2011-03-04
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 7.868703365325928
 issue_number: OEL-113
 id_numero: "OEL-113"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Fondata nel 1961, opera da cinquant'anni come associazione di riferimento per le persone affette da distrofie e altre malattie neuromuscolari, fornendo assistenza e sostegno"
 ---
+
 ### Cosè?
 
 UILDM è l’acronimo di Unione Italiana Lotta alla Distrofia Muscolare. Fondata nel 1961, opera da cinquant'anni come associazione di riferimento per le persone affette da distrofie e altre malattie neuromuscolari, fornendo assistenza e sostegno, e impegnandosi nell’informazione sanitaria e nella ricerca scientifica; promuovendo e favorendo l'integrazione sociale delle persone con disabilità.

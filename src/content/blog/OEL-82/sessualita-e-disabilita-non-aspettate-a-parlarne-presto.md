@@ -1,4 +1,5 @@
 ---
+
 title: "Sessualità e disabilità: non aspettate a parlarne presto"
 date: "2003-06-23"
 author: "Marie-Odile Réthoré"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Consultata da molti anni per il suo sapere e la sua pedagogia, la professoressa Marie Odile Réthoré ha visto passare molte famiglie colpite dall'handicap (soprattutto dalla sindrome down). In questa intervista offre punti d'appoggio concreti indispensabili per i genitori."
 ---
+
 L’adolescenza è sempre un momento critico per le persone disabili
 Sì, si tratta veramente di una crisi. Tutti i genitori di figli "con problemi" la temono e vorrebbero negarla. "Manifestazioni sessuali? Desideri? Ma non ne ha! È un bambino! una bambina!".
 Invece questi figli sono come tutti. Le ragazze hanno il ciclo mestmale e possono sognare di avere un marito, un figlio. I ragazzi trovano le ragazze belle e, in generale, hanno buon gusto. Vogliono accarezzare. Hanno erezioni ed eiaculazioni. La loro vita sessuale è, quasi sempre solitaria; la masturbazione è sempre frequente e si protrae più a lungo in proporzione alla gravità del deficit mentale.

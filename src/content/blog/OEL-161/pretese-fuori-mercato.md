@@ -1,4 +1,5 @@
 ---
+
 title: Pretese fuori mercato
 date: 2023-05-08
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 9.353804588317871
 issue_number: OEL-161
 id_numero: "OEL-161"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "In questo numero ripercorriamo i passi di «un progetto un po’ arduo, audace, ma che risponde a delle attese espresse o taciute di molte persone che vivono ancora in solitudine»"
 ---
+
 Centosessanta numeri nei quarant’anni di Ombre e Luci: 4500 tra articoli, lettere e recensioni; 500 circa gli autori, per la maggioranza genitori di persone con una disabilità intellettiva; circa 200 le testimonianze di chi ha una disabilità. Per il resto, un collante fatto dai racconti di altri familiari, amici, professionisti e associazioni che hanno colto la possibilità di confrontarsi con un mondo che, almeno fino a pochi lustri fa, faticava a uscire dal confino sociale rappresentato dal destino, inevitabilmente assegnato, di «infelice».
 
 **Per noi una vera e propria famiglia allargata** che emerge in parte [nelle speciali due pagine dedicate al Dialogo Aperto](https://www.ombreeluci.it/2023/dialogo-aperto-n-161/) . Per chi non sa o non ricorda come tutto sia cominciato, ripercorriamo in questo numero i passi di «un progetto un po’ arduo, audace, ma che risponde a delle attese espresse o taciute di molte persone che vivono ancora in solitudine», scrivevano nell’ultimo numero del ciclostile [*Insieme*](https://www.ombreeluci.it/insieme/) del 1981, per annunciare il nuovo impegno nella veste attesa di Ombre e Luci.

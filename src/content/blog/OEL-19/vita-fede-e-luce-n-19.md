@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 19
 date: 1987-09-20
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-19
 id_numero: "OEL-19"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Nel cuore del mondo
 
 Se mi fermo a cercare le radici della mia vocazione, posso dire che ogni «passo» ha favorito e preparato il terreno al successivo, fino ad avvicinarmi alla vita contemplativa. Ciò che conta, io credo, in ogni scelta è lo spazio che si dà alla Luce che vuole guidarci, nonostante i progetti personali e le nostre resistenze. Io mi trovavo, ad un certo punto della mia vita, conclusi gli studi universitari, nella possibilità di lavorare come psicologa, di iniziare, quindi, una professione che avevo sognato di esercitare e per cui avevo faticato; ma, insieme, maturava e prendeva sempre più spazio dentro di me l'esigenza, l’urgenza, direi, esistenziale, di rispondere a un appello che si alzava dal più profondo del cuore: rispondere al grido del povero. E questo povero, tante volte incontrato, ero io stessa quando mi mettevo davanti al Signore. Poco la volta cominciavo a scoprire che prima di essere il grido di chi avevo accanto (della persona ferita mentalmente o handicappata fisica), esso era il mio gemito nascosto, che, forte della sua debolezza, non taceva e mi avvicinava ogni sofferenza umana. Il disagio, e cioè l’insoddisfazione, che talvolta provavo per la mia misura personale nelle vicende umane, nella partecipazione alla soluzione dei problemi esistenziali, ad esempio della solitudine e dell’emarginazione, ha, in qualche modo, aperto uno spiraglio nella mia vita che mi ha portato fino a qui, non fuori, ma nel cuore del mondo. E qui, in monastero, in quella che è ora la mia famiglia e la mia realtà quotidiana, io porto dentro di me come tesoro prezioso le persone che ho incontrato ed amato, specie i più piccoli, anche quanti non conosco che misteriosamente, ma realmente, sono visitati dalla nostra preghiera.

@@ -1,4 +1,5 @@
 ---
+
 title: Rarina, storia di un fiore raro
 date: 2012-03-16
 author: Rita Massi
@@ -16,7 +17,10 @@ umap_z: 7.271227836608887
 issue_number: OEL-118
 id_numero: "OEL-118"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La storia di Rarina, nata tredici anni fa, affetta dalla sindrome di Freeman Sheldon"
 ---
+
 Perché raccontare la storia di Rarina? La sua è una vicenda talmente “rara”, anzi speriamo unica, nel suo genere. Chi potrebbe ritrovarsi nella vita di questo esserino così fragile e così isolato, ma pure tanto tenace e paradossalmente sempre in compagnia? Forse nessuno! ma Rarina è una di noi, è una di quelle creature a cui Gesù alludeva, quando ci esortava ad accogliere i bambini e a prenderci cura di tutte le sue creature.
 
 **Rarina è nata tredici anni fa, affetta dalla sindrome di Freeman Sheldon** ; sono stata una dei tanti operatori sociali e sanitari che hanno avuto la… fortuna di incontrarla fin dai primissimi mesi della sua vita e all’inizio mi vergognavo di ammettere che non conoscevo la sua patologia. Quando nel corso di una riunione sentii due medici confessarsi di aver cercato sull’enciclopedia medica notizie su questa sindrome, mi rasserenai un po’ sulla mia ignoranza, ma mi preoccupai un po’di più per il destino di Rarina.

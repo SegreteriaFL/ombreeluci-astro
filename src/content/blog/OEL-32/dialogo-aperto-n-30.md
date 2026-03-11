@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 30
 date: 1990-06-19
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 10.24780559539795
 issue_number: OEL-32
 id_numero: "OEL-32"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Commenti positivi e negativi
 
 Da tempo mi interesso di problematiche sociali. Sia per gli studi che ho concluso (sono laureata in Pedagogia), sia perché vivo l'esperienza del deficit fisico in prima persona. Ho letto molto attentamente alcuni numeri della vostra rivista. Desidererei evidenziare alcuni punti che mi hanno colpito in senso sia positivo che negativo.
@@ -35,6 +39,8 @@ Concludendo vi ringrazio per l'onestà con la quale accettate anche le critiche 
 
 - *che la filosofia che sta dietro la rivista è una pedagogia di speranza: preferiamo sottolineare, fra le ombre, le luci che sono presenti sempre se si vogliono guardare le situazioni con ottimismo;* - *che dal punto di vista solo umano certe situazioni sono di per sé invivibili. Per questo spesso alcuni scrittori si appoggiano sul Vangelo delle Beatitudini, che sono promesse anche qui sulla terra;* - *che i posti di accoglienza, da noi visitati e presentati, sono solo quelli (fra gli altri) che presentano una qualità di vita notevole per chi è obbligato o costretto dalle situazioni famigliari a vivere fuori della famiglia. Per molte persone purtroppo, la famiglia non è il luogo migliore per fiorire; per alcuni la famiglia non esiste affatto;* - *che quanto a toccare argomenti importanti della vita delle ph ci sembra di fare del nostro meglio perché il centro di tutto sia sempre la persona portatrice di handicap, con i suoi bisogni, i suoi diritti, il rispetto che le è dovuto.*
 
+
+
 ---
 
 ### Perché leggo Ombre e Luci
@@ -46,6 +52,8 @@ Ci ho pensato per molti giorni, camminando per le colline di Saluzzo con mio fig
 Perché leggo queste pagine? È vero, gli argomenti sono scelti con cura; viene dato il giusto spazio a testimonianze, recensioni, temi monografici sempre nuovi e trattati esaurientemente. Ma c'è qualche cosa di più: il vostro, il nostro Giornale è un grande segno di vita, e di vita gioiosa. Per questo sono contenta che esista.
 
 *- E.D.R.*
+
+
 
 ---
 
@@ -63,6 +71,8 @@ Forse la spesa per mantenere in vita il giornale è forte, però è bene, magari
 
 - *Maria Rosa G.*
 
+
+
 ---
 
 ### Sono usciti in Italia
@@ -70,6 +80,8 @@ Forse la spesa per mantenere in vita il giornale è forte, però è bene, magari
 [IL CORPO SPEZZATO](https://www.ombreeluci.it/1990/il-corpo-spezzato/) , di Jean Vanier, Ed. Jaca Book, L. 18.000. [IL MIO PIEDE SINISTRO](https://www.ombreeluci.it/1991/il-mio-piede-sinistro/) di C. Brown Ed. Mondadori, L. 10.000
 
 Per mancanza di spazio abbiamo rinviato le recensioni ai prossimi numeri.
+
+
 
 ---
 

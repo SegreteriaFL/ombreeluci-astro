@@ -1,4 +1,5 @@
 ---
+
 title: "Tu sei amato da Dio così come sei"
 date: "2013-06-10"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Nel novembre scorso si è svolta, in provincia di Cosenza, la formazione dei coordinatori di comunità della provincia Mari e Vulcani"
 ---
+
 Sessanta partecipanti provenienti dalle comunità della provincia si sono ritrovati intorno al tema Tu sei amato da Dio, così come sei. Testimoni Miguel Reyes e sua moglie Musky, dalla provincia Iberatlantica, Cesarina Bertin, dalla provincia Un Fiume di Pace, Lucia Casella in rappresentanza del Consiglio Internazionale.
 
 Arrivo tardi la sera della veglia. Ho finito di lavorare alle 18 e la veglia inizia alle 21,30. Poco male, direte voi, ma mi trovo a 300 km di distanza dal luogo dell’incontro. Cerco di fare presto e, come mi hanno insegnato in comunità, non mi perdo d’animo. So che vado in un posto dove ci sono persone, come me, chiamate a far parte della comunità di Fede e Luce. Arrivo alle 21.00, dopo aver percorso un’impervia e solitaria strada di montagna. Mi aspettavano e sono accolto con la gioia di sempre. Sono emozionato nel ritrovare la mia famiglia di *Fede e Luce*. Comincia la formazione.

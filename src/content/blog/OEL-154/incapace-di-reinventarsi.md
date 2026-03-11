@@ -1,4 +1,5 @@
 ---
+
 title: Incapace di reinventarsi
 date: 2021-09-06
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 Un batterista perde gran parte dell’udito all’improvviso: i suoni diventano ovattati, si sente come separato dal resto del mondo. Sarebbe destabilizzante per chiunque, **ma per chi usa l’udito per lavoro è un colpo durissimo** . Ruben (Riz Ahmed) ha un atteggiamento di completa negazione: fa finta di niente finché può, si convince che sia una cosa temporanea. Quando infine ammette che qualcosa non va, si immagina che esista una qualche soluzione. Non è così, o comunque **l’intervento chirurgico che lui crede possa essere miracoloso costa troppo** ; perciò deve imparare ad adattarsi alla sua nuova condizione e, come prima cosa, deve abbandonare l’attività musicale.
 
 Entrando controvoglia a contatto con una comunità sorda, si trova di fronte a un modo di affrontare la vita opposto al suo: la comunità è molto orgogliosa, autosufficiente, trova soluzioni efficaci per ogni aspetto della vita senza rimpiangere l’udito che non si ha più (e che molti non hanno mai avuto). Ruben invece ragiona come qualcuno che ha perso temporaneamente qualcosa di fondamentale, e così **non riesce ad adeguarsi al cambiamento drastico** . Il rapporto col suo nuovo mentore Joe (Paul Raci) è viziato da questo conflitto da sanare: Joe vorrebbe aiutarlo a iniziare una nuova vita piena di inattese opportunità, Ruben non abbandona la speranza di tornare al passato e non riesce a sviluppare quell’orgoglio che gli altri attorno a lui possiedono.

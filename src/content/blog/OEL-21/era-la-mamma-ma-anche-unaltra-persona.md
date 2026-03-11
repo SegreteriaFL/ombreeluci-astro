@@ -1,4 +1,5 @@
 ---
+
 title: "Era la mamma ma anche un'altra persona"
 date: 1988-03-28
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-21
 id_numero: "OEL-21"
 numero_rivista: "Ombre e Luci"
 ---
+
 Invitati ad una festa a casa delle zie, eravamo tutti e tre, mio fratello Giovanni, la mia sorellina ed io, molto contenti di andarvi. Alla fine del pomeriggio, passata la festa, la zia ci disse semplicemente: «Perché la mamma possa riposarsi un po’, per questa settimana starete qui da noi». Eravamo tristi di non tornare a casa quella sera, ma poiché eravamo insieme a zie, zii e cugini con cui stavamo molto bene, accettammo la cosa facilmente.
 
 Otto giorni dopo, accompagnati dalla zia, andammo a trovare la mamma in ospedale per la prima volta. Fu un po’ impressionante.

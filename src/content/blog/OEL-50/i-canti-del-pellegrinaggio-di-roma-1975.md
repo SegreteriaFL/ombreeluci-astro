@@ -1,4 +1,5 @@
 ---
+
 title: I canti del Pellegrinaggio di Roma 1975
 date: 1975-07-03
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 12.996479034423828
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Alcuni canti del Pellegrino che avremo la gioia di cantare insieme"
 ---
+
 ### Come è Bello
 
 Introduzione:

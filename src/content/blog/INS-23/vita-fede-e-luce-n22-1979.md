@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.22, 1979
 date: 1979-09-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.242618560791016
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Notizie dalla comunità Fede e Luce: spettacolo teatrale Il cieco nato, ordinazione sacerdotale di Robert Michit, ricordo e condoglianze, esperienze dei campi estivi e dell'incontro nazionale."
 ---
+
 ### 10 Giugno: pochi spettatori allo spettacolo teatrale "Il cieco nato"
 
 Domenica 10 Giugno di quest'anno (1979) il Gruppo "Fede e Luce" di S.Paolo ha messo in scena "Il Cieco nato", un collage di brani tratti dal Vangelo di Giovanni attraverso i quali si voleva mettere in evidenza il cammino che, guidati da Gesù (o che Gesù stesso), gli Apostoli e quanti credettero in Lui compirono passando dalle tenebre dell'ignoranza e del peccato alla luce della conoscenza e della redenzione. Gli attori sono stati bravissimi: molto affiatati nelle scene di insieme, precisi e chiari nella dizione, agili e armoniosi nei movimenti.
@@ -23,11 +27,15 @@ Non vogliamo fare nomi perché tutti dovrebbero essere nominati ma dobbiamo rico
 
 *Il gruppo teatrale "Fede a Luce"*
 
+
+
 ---
 
 ### Robert Michit verrà ordinato Sacerdote
 
 "Il Signore fa giustizia all0orfano e alla vedova, ama il forestiero e gli dà pane e vesti" (Dt. 10,18) Sabato 29 Settembre 1979, ore 15.30 nella chiesa di Saint Rémy de Provence **Robert Michit** verrà ordinato Sacerdote. La sua famiglia e i suoi amici, la Comunità cristiana di St. Rémy vi invitano a condividere la loro gioia nell'amicizia e la preghiera. 2 Rue Daniel Milmaud, 13210 St. Rémy
+
+
 
 ---
 
@@ -35,11 +43,15 @@ Non vogliamo fare nomi perché tutti dovrebbero essere nominati ma dobbiamo rico
 
 Cari amici, improvvisamente è mancato il papà della nostra Rosy, che alcuni di voi conoscono personalmente e altri attraverso i suoi scritti. Più che mai ora vogliamo bene a lei, alla sua mamma. Preghiamo insieme affinché questo loro grande dolore fortifichi l'amore che li unisce.
 
+
+
 ---
 
 ### Diploma di campeggiatore
 
 Alfedena 7-14 Luglio 1976 Diploma di campeggiatore al sig. Claudio al merito di Cantante! Grazie Claudio per la tua semplicità, il tuo sorriso, la tua gioia che hai sempre portato con te, negli incontri, durante i campeggi, alle casette donandola a tutti noi. Grazie. *"Lasciate che i fanciulli vengano a me e non lo impedite; perché il regno di Dio è per quelli che rassomigliano a loro..." (Lc. 18,16)*
+
+
 
 ---
 

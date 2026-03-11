@@ -1,4 +1,5 @@
 ---
+
 title: "Oggi è dei nostri"
 date: "1991-06-21"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-34
 id_numero: "OEL-34"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Per spirito di solidarietà una piccola impresa di pezzi staccati dove lavorano nove persone ha assunto cinque anni fa un giovane con disturbi del comportamento. Il proprietario racconta. *
 
 Quando accogliemmo Nicola nella nostra azienda volevamo soprattutto aiutare suo zio. Nicola era orfano. Vagabondava per le strade, tornava a casa quando voleva e il vecchio zio temeva che potesse diventare un accattone. Malgrado i suoi sforzi non aveva trovato una struttura che accogliesse Nicola che era affetto da una leggera debolezza mentale e da disturbi del comportamento. Quando si mise in contatto con noi e ci domandò di assumerlo come apprendista non fummo entusiasti: da una parte ci sembrava di non averne bisogno, dall’altra non avevamo mezzi sufficienti.

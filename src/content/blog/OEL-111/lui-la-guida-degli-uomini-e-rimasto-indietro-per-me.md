@@ -1,4 +1,5 @@
 ---
+
 title: "Lui, la guida degli uomini è rimasto indietro per me"
 date: "2010-09-30"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Relazioni"
 issue_number: OEL-111
 id_numero: "OEL-111"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Elena, colpita da paralisi cerebrale, ricorda un sacerdote incontrato durante i suoi studi, per il quale ha grande stima e affetto filiale"
 ---
+
 Per due anni l’ho incontrato regolarmente: era cappellano degli studenti. Mi ci è voluto del tempo prima di rincontrarlo veramente. Con la sua presenza, i piedi saldi sulla terraferma, quel sacerdote mi impressionava. Non era di quelli che dicevano facilmente le proprie emozioni.
 
 Il primo passo del nostro incontro avvenne durante un pellegrinaggio. Come al solito, mi ero lasciata oltrepassare dagli altri studenti che camminavano con passo allegro, e come al solito restai indietro sudata e grondante. Lui, il conduttore di uomini, restò indietro, per me.

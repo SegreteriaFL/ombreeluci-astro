@@ -1,4 +1,5 @@
 ---
+
 title: Scintilla bellissima
 date: 2025-07-23
 author: Monica Leggeri
@@ -20,7 +21,10 @@ umap_z: 9.046553611755371
 issue_number: OEL-170
 id_numero: "OEL-170"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le tappe del Padel Autism Tour verso il Giubileo dello sport"
 ---
+
 Il 14 e 15 giugno sarà celebrato il Giubileo dello sport. Quale data migliore per fare terminare il *Padel Autism Tour* ? Paola Nicoletti presidente di [*Siamo Delfini – Impariamo l’Autismo*](https://www.ombreeluci.it/2024/benvenuti-al-sud/) ci racconta come è nata l’idea. **L’associazione ha organizzato per due anni un torneo di padel per semiprofessionisti intitolato *Padel For Autism* .** In entrambi i tornei era previsto un momento finale di condivisione dei giocatori professionisti con i ragazzi e le ragazze dell’associazione per insegnare i primi rudimenti della disciplina.
 
 Il momento è stato coinvolgente tanto da ripeterlo in modo più sistematico, facendo proseguire lo scambio tra il mondo del padel e il mondo dell’autismo. Fondamentale la collaborazione di [*Athletica Vaticana*](https://www.ombreeluci.it/2023/se-io-diventa-noi/) , del suo presidente e soprattutto di Fabrizio Peloni, campione di padel e segretario generale di Vatican Padel per *Athletica Vaticana* . [*Siamo Delfini-Impariamo l’Autismo*](https://www.ombreeluci.it/2024/una-prospettiva-degna-della-nostra-umanita/) ha reclutato maestri e atleti di padel, a titolo gratuito, e circa venti ragazzi/ bambini e bambine interessati a questa disciplina. *Athletica Vaticana* , in collaborazione con il Villa Pamphili Padel Club di Roma, ha selezionato alcuni circoli disponibili a concedere a titolo gratuito i campi, per fare giocare questo gruppo così diversamente costituito. La risposta è stata grande.

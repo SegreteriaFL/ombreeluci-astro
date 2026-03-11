@@ -1,4 +1,5 @@
 ---
+
 title: "Irradiare la pace come fanno \"loro\""
 date: 2006-09-27
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.207849979400635
 umap_y: 7.919992446899414
 umap_z: 9.194756507873535
+
+subtitle: "Dedichiamo questo numero alle persone affette dalla sindrome di Down, nella speranza di imparare da loro l'equilibrio e la fiducia che riescono ad infondere in chi soffre"
 ---
+
 Cristina, giovane down di 33 anni, si fa suora. La Repubblica del 3 agosto scorso ne dà la notizia accompagnata dalla sua storia. Una frase dell’articolo mi ha fatto molto riflettere: “Quello che tutti, anche i , più diffidenti, finiscono per apprezzare in lei è l'equilibrio e la fiducia che riesce ad infondere in chi soffre”. Non è poco per una suora, e c'è da augurarsi che le suore e tutti noi con un giusto numero di cromosomi, riusciamo a fare altrettanto. Questa bella qualità di Cristina, non è solo sua, ma di molti suoi simili che, se pur catalogati troppo frettolosamente come “ritardati mentali”, possiedono una capacità in più rispetto a noi: sanno essere, senza rendersene conto, portatori di pace.
 
 Rivado spesso con la mente, quando sono accanto a uno di loro che mi scuote per il suo atteggiamento di bontà, alla prima Beatitudine proclamata da Gesù: “Beati i poveri in spirito perché di essi è il regno dei cieli”.

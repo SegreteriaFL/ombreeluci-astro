@@ -1,4 +1,5 @@
 ---
+
 title: Quando la natura fa rivivere
 date: 2000-06-20
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 10.362361907958984
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "L’estate è alle porte; non lasciamoci sfuggire l’occasione per vincere la pigrizia o la paura che ci fa tener lontani i nostri figli o nipoti dall’esperienza della natura e cantiamo con San Francesco: “Laudato sii, Signore, per tutte le tue creature”"
 ---
+
 > "... e questa siepe, che da tanta parte dell’ultimo orizzonte il guardo esclude”
 
 Anche noi vorremmo avere come Leopardi solo una siepe che ci impedisce la contemplazione del creato. Noi dobbiamo uscire dalle nostre città, percorrere chilometri in macchina per immergerci nella natura. Dobbiamo creare mini-fattorie per portare i bimbi delle elementari a conoscere i pulcini, i conigli, le mucche, che hanno visto solo sui libri o alla televisione. Non facciamo altro che parlare di salvaguardia dell’ambiente, di lotta contro l’inquinamento, di aria irrespirabile, mentre il desiderio di vita agreste e di ritorno alla natura ci sembra sempre più irraggiungibile.

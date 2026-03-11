@@ -1,4 +1,5 @@
 ---
+
 title: "\"Counseling\" in rima"
 date: 2006-03-30
 author: Antonella B.
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.32814884185791
 umap_y: 8.302021026611328
 umap_z: 8.089673042297363
+
+subtitle: "Antonella Bianchi, psicologa, psicoterapeuta, servizio Counseling per i genitori, Istituto di Ortofonologia, Roma"
 ---
+
 Il *counseling* rivolto ai genitori ha come scopo, questo è ormai provato, di sostenere a casa ed anche fuori, del terapista lo sforzo e l'operato
 
 È inutile, si dice giustamente, che al bambino si faccia terapia se poi in famiglia, inesorabilmente, di più si aggrava la patologia

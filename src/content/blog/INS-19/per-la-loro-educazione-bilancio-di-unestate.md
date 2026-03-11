@@ -1,4 +1,5 @@
 ---
+
 title: "Per la loro educazione: bilancio di un'estate"
 date: 1978-12-22
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 Anche quest'anno abbiamo avuto la gioia di trascorrere otto giorni in campeggio a Cogne. È stata un'esperienza diversa da quella dell'anno scorso perché mancavano molti amici alle prese con gli esami di maturità. Si aggiunga anche in disposizione della nostra cara Anna Maria che, nonostante tutto, ci ha voluto mettere a disposizione la casa di Cogne.
 
 Essendo in pochi, abbiamo avito modo di conoscerci meglio, di parlare dei nostri problemi, delle nostre difficoltà di varia natura e di diversa entità.

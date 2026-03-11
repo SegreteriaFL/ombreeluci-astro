@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.117
 date: 2012-03-16
 author: Redazione
@@ -14,11 +15,16 @@ umap_z: 11.12589168548584
 issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Dolci saluti
 
 Una domenica mattina piena di sole Alessandro è venuto a prendermi in comunità e giunti a Monselice abbiamo preso il treno per Venezia, il treno era strapieno di persone. Arrivati a Venezia sono sceso con il montacarichi e anche la città brulicava di persone. Attraverso stradine e soprattutto ponti siamo arrivati ai Frari, là ci aspettavano insieme a Cesarina gli amici di Feltre e tutti i rappresentanti delle regioni di Fede e Luce d’Italia; di loro già ne conoscevo qualcuno. Dopo i saluti c’è stata la Messa con Padre Gianluigi. Il pranzo è stato stupendo, sono venute a mangiare vicino a me delle giovanissime amiche di Fede e Luce di Roma e della Sicilia. Seduto vicino a queste nuove amiche mi sentivo felice per la calorosa attenzione ma ero anche un po’ imbarazzato per la difficoltà a comprenderci. Dolci sono stati i saluti con l’arrivederci. Nel pomeriggio con gli amici di Raggi di Sole e di Abano abbiamo fatto una lunga passeggiata per Venezia. Avevamo in programma di passare a salutare mia zia suora ma l’ora di prendere il treno del ritorno è arrivata in fretta e così siamo tornati a casa. È stata una giornata bellissima ed ero felice per aver conosciuto nuove amiche che spero di sentire presto.
 **Samuele**
+
+
 
 ---
 
@@ -29,6 +35,8 @@ Questo è un testo un po’ particolare che mi ha dato un’amica. E’ stato tr
 *“Se i tuoi figli non vogliono andare a messa, non dire: “Non hanno più fede!” Dì solamente: “Non vanno a messa”. Chi ti ha incaricato infatti di determinare il grado di fede degli altri? Non dimenticare mai il Vangelo! E’ davanti alla pagana cananea o al centurione romano idolatra che Gesù non può fare a meno di esclamare con gioia: “Mai ho visto una simile fede in Israele!” Se tua figlia vive con qualcuno senza essere sposata, non dire: “Vive nel peccato!”, ma dì: “Mia figlia vive con un compagno”. Dio ti ha forse incaricato di organizzare il giudizio universale? Se i tuoi nipoti non sono battezzati o non vanno al catechismo, non dire: “Rifiutano la Chiesa e i sacramenti…”. Che ne sai tu degli incontri segreti che Dio può avere con i tuoi nipoti? Delle sconvolgenti sorprese di cui nessuno conosce né il giorno né l’ora? Sai che non ci sono mai stati tanti battesimi di adulti come in questi tempi? Accetta che la fede dei tuoi nipoti non sia riposta solo nelle tue mani e non dipenda solo da te. Ma è perché io so che tu soffri di tutto ciò e che rischi di soffrirne ancor di più nel corso delle prossime riunioni di famiglia che io vorrei poter illuminare il tuo sguardo con una stella. Diventare capaci di guardare l’altro come un figlio di Dio e non come un non praticante, guardarlo con la stessa tenerezza di Dio, ascoltare l’altro come qualcuno da amare e non come un presunto colpevole, è il segno più concreto che è vero che Dio si è fatto uomo”*
 **Padre Jean-Claude Brulhart**
 
+
+
 ---
 
 ### Ancora messaggeri di gioia
@@ -36,6 +44,8 @@ Questo è un testo un po’ particolare che mi ha dato un’amica. E’ stato tr
 …Ricordo ancora con emozione il 2 febbraio festeggiato lo scorso anno a Lourdes attorno a un grande fuoco che fu l’inizio del nostro quarantesimo compleanno. Questo fuoco ha illuminato tutti i pellegrinaggi che hanno avuto luogo nel 2011. Questo fuoco ha illuminato ugualmente molti altri eventi importanti, non direttamente legati ai quarant’anni di Fede e Luce: la nostra partecipazione alla giornata di Assisi in ottobre, la visita di Benedetto XVI al Benin in novembre e altri ancora… Il libro di Marie-Hélène Mathieu è stato un bel regalo di compleanno, bisogna continuare a farlo conoscere, è uno «strumento» molto importante per rileggere la nostra storia e continuare a vivere le energie degli esordi. Dall’anno scorso abbiamo anche un sito internet bello e nuovo, frutto del lavoro di una segreteria eccezionale. Che il grande fuoco di Lourdes continui a illuminare i pellegrinaggi che avranno luogo nel 2012! I messaggeri della gioia continueranno ancora quest’anno a diffondere il loro entusiasmo nel mondo. A fine febbraio, con l’équipe di coordinamento internazionale, considereremo l’intero cammino già percorso e vedremo come questo slancio possa continuare a portare frutti in futuro. Allora, andiamo tutti avanti, continuiamo ancora a farci conoscere, ad invitare nuove famiglie, nuovi amici! Non dimentichiamo nelle nostre preghiere tutte le comunità che si trovano in Paesi di cui i giornali ci parlano troppo spesso quando si tratta di difficoltà, conflitti, guerre. Non mi abituerò mai a questo genere di notizie drammatiche e affido tutti i nostri amici in sofferenza alle vostre preghiere.
 **Ghislain du Chéné**
 - Coordinatore internazionale Fede e Luce
+
+
 
 ---
 

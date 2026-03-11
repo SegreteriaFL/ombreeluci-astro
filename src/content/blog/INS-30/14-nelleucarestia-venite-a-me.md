@@ -1,4 +1,5 @@
 ---
+
 title: "14. Nell'Eucarestia venite a me"
 date: 1981-12-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Gennaio 1981
 
 "Io sono il pane di vita: chi viene a me non avrà più fame, chi crede in me non avrà più sete in eterno" (Giov.6,35).
@@ -38,6 +40,7 @@ Nell'Eucarestia, Gesù si presenta a noi come colui che non "fa" niente, non par
 Egli è figlio di Dio e io mi aggrappo a questa realtà. Ecco perché l'Eucarestia è così importante, per noi che ci lasciamo formare dai nostri fratelli feriti. Scopriamo che prima di agire, bisogna essere, e che prima di donarsi bisogna ricevere.
 
 *Padre Andrea Roberti* *(Belgio)*
+
 
 ---
 

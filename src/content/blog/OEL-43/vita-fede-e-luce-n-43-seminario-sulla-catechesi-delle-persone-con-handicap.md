@@ -1,4 +1,5 @@
 ---
+
 title: "Vita Fede e Luce n. 43: Seminario sulla catechesi delle persone con handicap"
 date: 1993-09-02
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-43
 id_numero: "OEL-43"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il 29 e 30 gennaio 1993 si è svolto a Roma il Seminario su **«La persona disabile , soggetto attivo di evangelizzazione e fermento di cambiamento ecclesiale»** , organizzato dall' *Ufficio Catechistico Nazionale* , settore catechesi nell’area dell’handicap. Il seminario si colloca nell'ambito dell’itinerario di lavoro comune avviato tra l’Ufficio catechistico nazionale e le associazioni, istituzioni e movimenti, compresa Fede e Luce, per promuovere nella comunità ecclesiale una nuova coscienza e sensibilità rispetto al tema della partecipazione delle persone disabili alla vita della comunità cristiana stessa, a partire dal momento dell’educazione alla fede. [**Fede e Luce**](http://www.fedeeluce.it/) vi ha partecipato con alcuni suoi rappresentanti: P. Enrico Cattaneo (NA), Don Vito Palmisano (BA) Don Enrico Colombo (MI), Lucia e Mariangela Bertolini, Anna e Giulio De Rita (RM), Sr. Lauretana Pelagallo (NA). Riportiamo una sintesi dei lavori curata da Mario Narni Mancinelli e da P. Damiano Lanzone pubblicata dalla rivista «Luce e Amore» del MAC (Movimento Apostolico Ciechi).
 La prima relazione è stata tenuta dal teologo
 **don Pierangelo Sequeri**

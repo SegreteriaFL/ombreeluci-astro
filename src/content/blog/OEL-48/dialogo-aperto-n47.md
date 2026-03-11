@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.47
 date: 1994-09-02
 author: Redazione
@@ -15,11 +16,13 @@ issue_number: OEL-48
 id_numero: "OEL-48"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Per non sentirsi soli
 
 Carissimi amici di Ombre e Luci, vi ringrazio per l’invio del vostro giornale che ho letto con molto interesse. Il pensiero della mia conoscente (suppongo chi sia!) di farmi conoscere « Ombre e Luci», è stata una buona iniziativa. Soprattutto in un momento come questo, il lutto per la perdita di mio figlio Philippe, sentivo il bisogno di testimonianze forti di persone o di genitori che esprimono così chiaramente le difficoltà, le gioie e le angosce che si attraversano con un figlio disadattato, come dite voi!. Ho capito che nella sofferenza ci sono molte cose che ci accomunano. E poter dividere le proprie esperienze con altri è molto importante, per non sentirsi soli al mondo a portare il proprio fardello! Saluti affettuosi e felicitazioni per il vostro altruismo. -
 **M. Assunta Thalmann**
 - (Svizzera)
+
 
 ---
 
@@ -31,6 +34,7 @@ Sono Giulia Zazzera, amica di Fede e Luce sin dall’inizio; dovrei dire «vecch
 **Giulia Zazzera**
 Ombre e Luci vive solo di contributi e di lavoro volontario. Ringraziamo i lettori che hanno provveduto a sostenere Ombre e Luci
 
+
 ---
 
 ### Ce una comunità vicino a te...
@@ -39,6 +43,7 @@ Ho passato un periodo di tempo in ospedale per un serio intervento chirurgico ch
 [Fede e Luce](http://www.fedeeluce.it/)
 , questi sono i semini piantati venti anni fa, quando gli amici erano tutti studenti; ora, ognuno di loro ha una occupazione di lavoro che, all’occorrenza, mette a disposizione di chi ha bisogno, nei limiti del possibile in virtù dell’amicizia che ci lega. Ringrazio Dio di averci messo nel cuore questo sentimento. Ma lasciatemi dire un grazie amichevole a tutti anche da parte di mia figlia e il mio « Brava Carla!» per aver aiutato così da vicino la sua mamma che spera tanto di poter avere ancora tanta energia per affrontare le battaglie della vita. -
 **Fausta Guglielmi**
+
 
 ---
 
@@ -54,6 +59,7 @@ Ciao, questo è l’elenco che vi avevo promesso per telefono. Vi prego di manda
 *Spes contra spem*
 »; stiamo preparando infatti un giornalino che sia collegamento per le varie parrocchie della zona, sul tema dell’handicap. L’estate poi facciamo un campeggio di una settimana in un paesino in Abruzzo, sull’Altipiano delle Rocche. Scusatemi se vi ho tediato con questa lunga lettera, mi sono seduto per scrivere due righe... e non mi sono fermato. Vorrei raccontarvi ancora un sacco di cose, della gioia di ogni incontro, della presenza forte di Cristo nel volto di ogni persona, che traspare in modo particolare dietro gli occhi di chi soffre, che è però contemporaneamente un testimone gioioso di Cristo Risorto... Mi riprometto di riscrivervi! PS. Conoscete Tonino Bello? ha scritto delle cose bellissime, in particolare una lettera «a coloro che soffrono nel corpo» pubblicata in «Pietre di Scarto» ed. La Meridiana. Se non lo avete ve lo posso mandare (mi ero scordato di dirvi che con il gruppo CIAO ogni 15 giorni vendiamo i libri... e finanziamo il giornalino!). -
 **Luigi Vittorio Berliri**
+
 
 ---
 

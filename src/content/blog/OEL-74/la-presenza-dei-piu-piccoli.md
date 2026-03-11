@@ -1,4 +1,5 @@
 ---
+
 title: "La presenza dei più piccoli"
 date: "2001-06-20"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Mai si erano visti tanti bambini, alcuni disabili con i loro genitori: la loro presenza allargava il cuore a una speranza insperata anni addietro"
 ---
+
 Lourdes - Domenica di Pasqua
 Nel piazzale antistante la basilica c’era un po’ di confusione, come in ogni grande festa. **Eravamo lì, sedicimila persone, di ogni età, di ogni razza, cristiani di professioni diverse. Di settantacinque paesi, di cinque continenti.
 Ci distinguevano gli stendardi** che sventolavano al vento i loro dipinti o ricami colorati. Dicevano il nome della comunità e del paese d’origine: Svezia, Canada, Brasile, Martinica, Giappone, Costa d’Avorio... ma anche le città: Praga, Bari, Mosca, Roma, Oslo... e i paesi: Abano, Monopoli...

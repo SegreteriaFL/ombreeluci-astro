@@ -1,4 +1,5 @@
 ---
+
 title: "7 testimonianze di genitori e amici di bambini \"profondamente handicappati\""
 date: 1979-03-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 ### 1. La voce della mamma di Angelo
 
 Perché si lotta per questo? C'è da lottare, C'è da lottare per un benessere di. questi bambini. Io non nascondo niente, che vedano, che vedano! **Perché dovrei nascondere quello che è mio, che Dio mi ha dato.**
@@ -37,6 +39,7 @@ Io chiedo una grazia al Signore: prima che raccolga me, mi deve raccogliere ques
 
 I miei figli? Vogliono bene a loro. Siamo tutti riuniti, è la cosa più bella che posso dire. Ho delle sofferenze, ho dei figli che mi danno una grande soddisfazione. Da un lato, dolore; da un lato, felicità. La pensione che mi danno, perché è minorenne, serve a pagare l'istituto della ragazza.
 
+
 ---
 
 ### 2. Dalla parte di un sacerdote
@@ -50,6 +53,7 @@ E poi l'estate scorsa, tu ti sei preso cura di me per due settimane ad Alfedena.
 Angelo, ho conosciuto l'altro giorno un ragazzo di Marsiglia, che mi chiede anche lui di farmi piccolo, Chissà se vi incontrerete un giorno? Il suo nome è Ghislain.
 
 **[Louis Sankalé](https://www.ombreeluci.it/author/luis-sankale/)** , 1979
+
 
 ---
 
@@ -69,6 +73,7 @@ Ho potuto constatare che, in questo tempo di materialismo e di violenza, la bont
 
 **Anna Maria Zampardi** , 1979 ** **
 
+
 ---
 
 ### 4. Ascoltarli per me è importante
@@ -82,6 +87,7 @@ Mi capita spesso di trascorrere un pomeriggio con questi amici e a volte non son
 Questi nostri amici ci insegnano una grande cosa: accettare l'altro così com'è e andargli incontro scarichi del nostro mondo e disponibili ad accoglierlo. Penso che sia l'insegnamento più importante che ci proviene dai nostri amici più feriti, da quelli che più sconvolgono le nostre aspettative. Ma non dimentichiamoci che lo scambio di doni deve essere reciproco, perciò penso che dobbiamo continuare a comunicare insieme aumentando sempre più la nostra amicizia fino a che il gruppo diventi veramente una famiglia in cui ognuno porta il suo contributo e viene accolto con gioia per quello che è. Insomma sento che dobbiamo camminare poco a poco oltre la casetta, forse verso l'Arche.
 
 **Anna Cece**
+
 
 ---
 
@@ -117,6 +123,7 @@ Mi attaccavo all'idea che in futuro la scienza medica con i suoi progressi avreb
 
 **Rosa Maria Stafforti** , 1979
 
+
 ---
 
 ### 6. Il cammino che ci mostrano
@@ -130,6 +137,7 @@ Forse e sicuramente perché noi non possiamo seguire Gesù Cristo che essendo fe
 È nella misura in cui ci lasceremo prendere dallo Spirito Santo, da Maria Francesca, Sabina , Massimo... noi saremo aperti al servizio degli uomini.
 
 **Pierre Debergé** , 1979
+
 
 ---
 

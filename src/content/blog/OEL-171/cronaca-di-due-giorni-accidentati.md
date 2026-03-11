@@ -1,4 +1,5 @@
 ---
+
 title: Cronaca di due giorni accidentati
 date: 2025-11-17
 author: Cristina Tersigni
@@ -17,7 +18,10 @@ umap_z: 10.693842887878418
 issue_number: OEL-171
 id_numero: "OEL-171"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Giubileo delle persone con disabilità 2025: tra momenti di spiritualità e occasioni di incontro, le domande sono tante"
 ---
+
 Roma 28-30 aprile 2025: i **l Giubileo delle persone con disabilità si è tenuto in giorni feriali, a differenza di tanti altri eventi giubilari.** La scelta lasciava sinceramente perplessi: **giornate poco pratiche** per chi lavora o frequenta un centro; unico, a suo modo, insieme a quelli dedicati a sacerdoti, seminaristi e vescovi, e a quello per le Chiese Orientali. La disabilità come l’ordine sacro? Interessante.
 
 **Comunque** , quando Pietro chiama, s **i fa il possibile per esserci.** Così, da ogni angolo d’Italia e del mondo, migliaia di persone – 400 di Fede e Luce nel mondo – hanno risposto all’invito con il cuore. E proprio l’occasione giubilare dava la possibilità di incontrare persone di tante provenienze e alimentato l’attesa di Larysa e suo figlio Igor da Napoli o di Egiziana da Carrara che scrive: «Ho incontrato amici che non vedevo da tempo, provenienti da altre comunità da ogni parte del mondo… Questo mescolarsi di realtà tangibili e solide ha fatto sì che l’empatia si avvertisse nell’aria».

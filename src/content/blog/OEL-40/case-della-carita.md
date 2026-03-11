@@ -1,4 +1,5 @@
 ---
+
 title: "Case della Carità"
 date: "1992-12-13"
 author: "Sergio Sciascia"
@@ -15,6 +16,7 @@ issue_number: OEL-40
 id_numero: "OEL-40"
 numero_rivista: "Ombre e Luci"
 ---
+
 Enrica ha 54 anni, ma una mente di bambina, talvolta anche disturbata. Sua mamma Iolanda ha 81 anni, suo papà è morto. Ha anche un fratello e una sorella, sposati; ma abitano in un altro quartiere.
 Iolanda ha voluto tenere con sè «la sua bambina». Le tiene la mano per farla addormentare quando si coricano insieme sul letto matrimoniale. Ma col passare degli anni le sue forze si sono esaurite. E i «capricci » di Enrica si son fatti più clamorosi, più tirannici, più assillanti. Il televisore non può mai essere spento, le tapparelle devono essere abbassate, addosso porta centinaia di ornamentini e straccetti che non toglie mai... e son sempre nuovi «capricci». Guai a non soddisfarli prontamente: gli urli fanno tremare le pareti. Iolanda si sente imbarazzata con i vicini,...
 

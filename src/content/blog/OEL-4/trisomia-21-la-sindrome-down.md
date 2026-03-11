@@ -1,4 +1,5 @@
 ---
+
 title: "Trisomia 21: la sindrome Down"
 date: 1983-12-29
 author: Redazione
@@ -27,6 +28,7 @@ umap_y: 10.209258079528809
 umap_z: 6.906081676483154
 id_numero: "OEL-4"
 ---
+
 **Trisomia 21** *Jerome Lejeune, scopritore della causa del Mongolismo, medico e genetista; dal 1965 professore di genetica presso la facoltà di Medicina di Parigi. Autore di numerose ricerche di genetica umana; nel 1959 scoprì, in collaborazione con N. Turpin, che il mongolismo è dovuto alla presenza di un cromosoma suprannumerario nella coppia n.21 (* trisomia 21 *). Da tale osservazione ebbe origine una serie di importanti ricerche, tuttora in corso in vari laboratori, sulle anomalie della distribuzione dei cromosomi nell'uomo e sulle conseguenti sindromi morbose. Il prof. Léjeune fa qui una sintesi dello stato attuale (1983 N.d.R) delle conoscenze su questa malattia.*
 
 ### Il bambino trisomico 21

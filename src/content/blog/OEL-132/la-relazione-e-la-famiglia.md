@@ -1,4 +1,5 @@
 ---
+
 title: La relazione e la famiglia
 date: 2015-06-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-132
 id_numero: "OEL-132"
 numero_rivista: "Ombre e Luci"
 ---
+
 “Relazione” è la parola che risuona sulle bocche di coloro che hanno incontrato l’Arca sul proprio cammino, “famiglia” è la parola che aggiungerei io dal momento che ci siamo incontrati con “Fede e Luce”.
 
 Era l’inizio del mese di giugno quando, da Bologna, ci siamo messi in viaggio verso Roma per iniziare un breve pellegrinaggio di fiducia:fiducia in ciò che sarebbe nato e di cui, a distanza, respiravamo solo il profumo, fiduciain chi ci avrebbe guidati, fiducia nel seme che sarebbe stato posto in noi per essere coltivato, insieme alla comunità che ci aspettava al ritorno.

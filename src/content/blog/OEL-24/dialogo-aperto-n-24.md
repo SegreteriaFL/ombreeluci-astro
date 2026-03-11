@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 24
 date: 1988-12-20
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-24
 id_numero: "OEL-24"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Ci sentiamo molto soli
 
 Cara Ombre e Luci. È la prima volta che ti scriviamo, ti abbiamo letto molte volte grazie alla signora Aquini Franca di Udine e così ci siamo abbonati. Siamo genitori di una bambina, dal nome Nella, nata pretermine e cioè alla 32a settimana di gestazione. La madre ha avuto una gestosi gravidica con coma della durata di tre giorni. La gravidanza fino allora era minacciata da aborto e parto prematuro. La bambina nata da taglio cesareo urgente pesava kg 1,4 con asfissia. Ha avuto anche una emorragia cerebrale causando ulteriori danni. Sono stati fatti vari E.E.G. e due T.A.C. dimostrando lo stato molto grave del cervello. Diagnosi «Tetraparesi spastica, atrofia cerebrale diffusa». Adesso ha quattro anni e mezzo essendo nata il 18-2-84. Lo stato neurologico della figlia attualmente si dimostra sempre compromesso e non presenta segnali positivi. È seguita dalla «Nostra Famiglia» di Pasian di Prato Udine. Ha molte crisi epilettiche e per questo prende dei farmaci giornalmente (Luminalette e Tegretol).

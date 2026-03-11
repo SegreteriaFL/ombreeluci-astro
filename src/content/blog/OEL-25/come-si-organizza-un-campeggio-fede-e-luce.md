@@ -1,4 +1,5 @@
 ---
+
 title: Come si organizza un campeggio Fede e Luce
 date: 1989-03-21
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-25
 id_numero: "OEL-25"
 numero_rivista: "Ombre e Luci"
 ---
+
 Questo è semplicemente un prontuario per il campo. Nasce dall'esperienza di molti campi e di molte persone: da errori e da buoni risultati, da dimenticanze e da soddisfazioni, da momenti di panico e di gioia e di amicizia. Tutto in queste righe è stato sperimentato.
 
 La ovvia prima condizione è che un certo numero di persone voglia fare il campo nello stesso periodo! Se possibile alcuni assumono fin dall’inizio la responsabilità tecnico-organizzativa.

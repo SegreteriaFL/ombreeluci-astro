@@ -1,4 +1,5 @@
 ---
+
 title: "È nato qualcosa che nessuno aveva previsto"
 date: "2022-03-30"
 author: "Vito Giannulo"
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando il nostro coordinatore internazionale, Raul Izquierdo Garcia, al termine del suo discorso, ha salutato il Papa dicendogli che, a nome delle comunità di tutto il mondo, lo abbracciava «come solo i nostri ragazzi con disabilità mentale sanno fare», Bergoglio sapeva già tutto. **Era già stato abbracciato (come vedete in foto) da Antonio che per un pelo non passava alla storia facendolo cadere.** Mentre noi amici eravamo ingessati dall’emozione e intimiditi da affreschi, velluti e uniformi, ancora una volta i ragazzi ci hanno indicato il cuore dell’evento: abbracciare il Papa. E il Papa ha abbracciato noi: Antonio, Gianni, Franco e tutti gli altri.
 
 Ha dato l’impressione di voler bene davvero a Fede e Luce e, proprio come accade nelle nostre comunità, ha trasmesso questa impressione molto più con i gesti e con i sorrisi che con le parole. Si è avvicinato prima e dopo il suo discorso a Marie-Hélène Mathieu, le ha stretto forte le mani e le ha accarezzato il capo più volte. E tutti noi abbiamo pensato che era «la carezza del Papa» a tutti gli uomini e le donne che hanno fatto la storia di Fede e Luce nel mondo.

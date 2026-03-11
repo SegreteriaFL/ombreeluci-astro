@@ -1,4 +1,5 @@
 ---
+
 title: La ASL va in montagna
 date: 2000-06-20
 author: Huberta Pott
@@ -14,7 +15,10 @@ umap_z: 10.458756446838379
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un progetto nato in una struttura pubblica, che propone la montagna alle persone in difficoltà come strumento terapeutico e riabilitativo"
 ---
+
 Chi ha fatto escursioni in montagna sicuramente ricorda ancora la sensazione bellissima di raggiungere il traguardo, di avercela fatta dopo tante fatiche. La soddisfazione è grande, ci si sente in pace con se stessi, si gode il panorama, la compagnia e un particolare senso di libertà. Ebbene, queste sensazioni che ci ricaricano hanno lo stesso effetto e diventano terapeutiche per le persone affette da malattie mentali e da disabilità psicofisiche.
 
 Vogliamo presentarvi un progetto nato in una struttura pubblica, che propone la montagna alle persone in difficoltà come strumento terapeutico e riabilitativo. Abbiamo parlato con **Giulio Scoppola** , psicoterapeuta, psicologo, istruttore di alpinismo del Club Alpino Italiano. Lavora presso il Dipartimento di Salute Mentale della ASL RM E ed è stato l'iniziatore del progetto “Corpo-mente-ambiente”. Dice Giulio Scoppola: “Il paesaggio naturale di alta montagna può essere definito come un ambiente a tre dimensioni che, meglio di altri luoghi tradizionalmente psico-riabilitativi, ben rispecchia alcune dinamiche interne del funzionamento mentale dell’essere umano.” Il progetto “Corpo-Mente-Ambiente” consiste in attività che cominciavano in piscina, continuavano in palestra e infine nella natura. Il lavoro fatto nella fase iniziale pone le basi necessarie a raggiungere poi un AMBIENTE NON COSTRUITO DALL’UOMO qual è la montagna. Tutti, chi più chi meno, abbiamo dei blocchi, delle paure da superare e andare in montagna ne facilita lo smantellamento e aiuta ad elaborali. È proprio la natura, l'ambiente non modificato dall’uomo, che dà la possibilità alle persone “ferite” nel passato di affrontare la sofferenza e di viverla fino a capire che può essere superata.

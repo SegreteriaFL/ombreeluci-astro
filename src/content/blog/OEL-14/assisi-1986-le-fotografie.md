@@ -1,4 +1,5 @@
 ---
+
 title: Assisi 1986, le fotografie
 date: 1986-06-24
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 Questo articolo è tratto da
 [Ombre e Luci n.14, 1986](http://www.ombreeluci.it/project/numero-14-speciale-assisi-1986-lasciarsi-scegliere/)
 

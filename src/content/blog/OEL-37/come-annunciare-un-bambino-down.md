@@ -1,4 +1,5 @@
 ---
+
 title: Come annunciare un bambino down
 date: 1992-03-05
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-37
 id_numero: "OEL-37"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Qual’è il modo giusto per annunciare ai genitori che il loro figlio appena nato è un bambino Down? Ecco le regole definite, dopo tanti errori e sofferenze, da cinque istituzioni particolarmente interessate:*
 - Armonia di qualità diverse; - Associazione bambini Down; - Università cattolica del Sacro Cuore, Roma; - Università «La Sapienza», Roma; - Università degli Studi di Perugia.
 Dopo una breve rassicurazione sull'’andamento del parto, organizzare con calma tempi, luoghi e modalità di comunicazione. Sistemare la puerpera in una camera tranquilla, affidarle il bambino, prima possibile. Facilitare i contatti tra i due, con i parenti. Coordinare con i colleghi responsabili dei reparti, (Ginecologo, Pediatra) un’unica comunicazione concorde, insieme, con tempo disponibile, in un luogo ove non si sia disturbati. Comunicare la diagnosi accertata, in presenza del bambino, contemporaneamente ai due genitori ed a familiari stretti. Usare un linguaggio semplice e comprensibile. Dare tutte le spiegazioni richieste senza soffermarsi sui segni, né recriminare. Precisare i limiti, ma evidenziare le potenzialità, prognosi a tempi molto lunghi non sono utili. Comunicare resistenza di strutture di supporto, centri specialistici, associazioni di genitori. Organizzare contatti della famiglia con le strutture per evitare che si chiuda in sè stessa. Comprendere ogni reazione della famiglia, aiutandola in ogni modo, specie psicosociale. Dimettere insieme madre e bambino. Ricontattare, magari telefonicamente la famiglia dopo la dimissione. Questo articolo è tratto da

@@ -1,4 +1,5 @@
 ---
+
 title: Il mio curriculum
 date: 2021-02-13
 author: Benedetta Mattei
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ascuola mi hanno chiesto di fare il mio curriculum ma io non avevo proprio capito cosa dovevo fare, cosa dovevo scrivere ma poi per fortuna i miei compagni mi hanno spiegato bene e ho capito che devo scrivere le cose che so fare così chi legge sa cosa so fare e mi può dire cosa io devo fare.
 
 Però io non sapevo proprio da dove cominciare allora io ho chiesto ai miei compagni cosa scrivere e loro mi hanno detto «innanzitutto descrivi come sei». E io allora ho scritto che sono bella ma poi ho cancellato perché sennò non vale perché me lo devono dire loro. Ma ho scritto che sono bassa perché io sono bassa e ho i capelli lunghissimi ma castani. E sono molto belli i miei capelli.

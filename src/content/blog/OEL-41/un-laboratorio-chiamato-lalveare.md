@@ -1,4 +1,5 @@
 ---
+
 title: Un laboratorio chiamato l’Alveare
 date: 1993-03-18
 author: Maria Teresa Mazzarotto
@@ -17,6 +18,7 @@ issue_number: OEL-41
 id_numero: "OEL-41"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Il laboratorio del martedì
 
 In questa stanza, o in una meno bella ed organizzata inizialmente, si riuniva, già 5 anni orsono, un gruppo di signore e ragazzi disabili, che si dedicavano soprattutto al lavoro di cucito, alla maglia, al bricolage. Utilizzando stoffe di recupero o tessuti più importanti regalati da tappezzieri amici, più raramente acquistando tele particolarmente adatte, si confezionavano ed ancora si confezionano: sacchetti colorati di tutte le dimensioni e per tutti gli usi (porta-scarpe, portabiancheria, porta-oggetti), borse ecologiche per la spesa, asciuga-piatti e grembiuli, speciali cuscinetti imbottiti che facilitano la stiratura, cuscini, e piccole tovagliette, centri e centrini di ogni genere. In questi lavori i ragazzi si inseriscono nel ciclo di produzione, disfando ciò che è da recuperare, imbastendo, levando le imbastiture, infilando elastici, eseguendo piccole cuciture a mano.

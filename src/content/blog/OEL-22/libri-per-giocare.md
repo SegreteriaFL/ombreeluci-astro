@@ -1,4 +1,5 @@
 ---
+
 title: Libri per giocare
 date: 1988-06-28
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-22
 id_numero: "OEL-22"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### BIBLIOGRAFIA PER I GIOCHI
 
 ### Giocare ogni giorno con fantasia

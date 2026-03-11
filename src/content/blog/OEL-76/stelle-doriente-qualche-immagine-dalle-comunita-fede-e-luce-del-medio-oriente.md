@@ -1,4 +1,5 @@
 ---
+
 title: "Stelle d'oriente - Qualche immagine dalle comunità Fede e Luce del Medio Oriente"
 date: "2001-12-25"
 author: "Redazione"
@@ -14,5 +15,8 @@ categoria_menu: "Storia"
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Fra le stelle che danno un po’ di luce al cielo buio del Natale di quest’anno, ecco alcune immagini di Comunità Fede e Luce del Medio Oriente."
 ---
+
 Riceviamo e pubblichiamo con gioia le fotografia ricevute da alcune comunità medio-orientali che ce le hanno cortesemente invitate. Viva [Fede e Luce](http://fedeeluce.it/) nel mondo!

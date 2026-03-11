@@ -1,4 +1,5 @@
 ---
+
 title: Una Piazzetta per chi diventa anziano
 date: 2019-01-27
 author: Matteo Cinti
@@ -15,6 +16,7 @@ issue_number: OEL-145
 id_numero: "OEL-145"
 numero_rivista: "Ombre e Luci"
 ---
+
 A67 anni **Maria è dovuta rimanere a casa con la sorella Miranda** , ma non si è arresa pacificamente: ha preteso un appuntamento con l’Assessore alle Politiche Sociali chiedendo con forza di essere reinserita in un Centro Socio Educativo («a casa con Miranda non podevo più… fa questo, fa quel, solo pulir e sistemar. Mi me piasi l’allegria, me piasi girar per città, ballar, farò la muffa a casa»).
 
 Alcune persone non hanno avuto la possibilità di dire la loro, non hanno avuto il sostegno di una famiglia o la fortuna di un amministratore di sostegno preparato. Hanno subito passivamente le scelte che altri hanno operato per loro. Alberto è stato dimesso a 67 anni; dopo pochi mesi il suo tutore lo ha tolto anche dalla comunità in cui viveva e inserito in una casa di riposo, dove dopo due anni è morto, di disperazione più che di malattia. Battistina è una signora 79enne che frequenta l’Anffas di Trieste praticamente da quando è stata fondata. Al compimento dei 65 anni, le è stata caldeggiata una dimissione e un passaggio al servizio anziani. Per fortuna, il suo comune, Muggia, non si è imposto in modo tanto duro; Battistina è tenace e ancora oggi slitta con forza l’età del riposo forzato.

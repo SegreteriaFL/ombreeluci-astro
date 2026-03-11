@@ -1,4 +1,5 @@
 ---
+
 title: Si ricomincia
 date: 2013-09-13
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 7.531622409820557
 issue_number: OEL-123
 id_numero: "OEL-123"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Si ricomincia… ogni settembre segna l’inizio di un nuovo anno scolastico per i figli e ogni anno si ha l’impressione di non farcela più. Ecco i pochi suggerimenti che mi sento di proporvi per non farsi sopraffare"
 ---
+
 Si ricomincia… ogni settembre segna l’inizio di un nuovo anno scolastico per i figli e ogni anno si ha l’impressione di non farcela più. Ogni bambino ha: o la nuova maestra, o i nuovi compagni, o i nuovi libri, o nuove materie…
 
 Ogni mattino, al momento di preparare la colazione si ha l’impressione di dovere entrare in un vortice di “cose” da fare, da ricordare, da sperimentare… tutto sembra congiurare contro la pianificazione facendo sorgere in continuazione nuovi problemi ed esperienze mai provate, che mettono quindi in agitazione.

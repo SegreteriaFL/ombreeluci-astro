@@ -1,4 +1,5 @@
 ---
+
 title: "Perché lontano da Dio"
 date: "1984-03-31"
 author: "Mariangela Bertolini"
@@ -15,6 +16,7 @@ issue_number: OEL-5
 id_numero: "OEL-5"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ci sarebbe molto da scrivere sul tema dell'accoglienza della persona handicappata nella Comunità Cristiana sia in positivo — infatti nella storia, la Chiesa si è molto prodigata in questo senso — che in negativo: nelle nostre chiese vediamo rare persone handicappate...
 Dobbiamo prenderne atto e con onestà chiedere perdono a tutti i nostri fratelli e sorelle che sono ancora fuori. Perché non si fanno avanti? Perché non vengono da soli? E’ pur vero che la porta della chiesa è aperta a tutti...
 Perché vengano a partecipare alla «festa» alla quale Gesù ha invitato tutti è necessario che qualcuno li vada a cercare, faccia loro capire che sono aspettati, che anzi — lo diciamo così spesso tanto bene — il primo posto è per loro.

@@ -1,4 +1,5 @@
 ---
+
 title: "La lingua dei segni nelle disabilità comunicative - Recensione"
 date: "2018-06-30"
 author: "Cristina Tersigni"
@@ -15,6 +16,7 @@ issue_number: OEL-142
 id_numero: "OEL-142"
 numero_rivista: "Ombre e Luci"
 ---
+
 "Questo volume raccoglie le esperienze fin qui svolte in Italia di utilizzo della LIS come
 potenziamento allo sviluppo comunicativo dei bambini affetti da gravi disabilità comunicative
 anche se udenti (tra le altre, l’autismo, le disprassie verbali, la sindrome di Landau Kleffner, la

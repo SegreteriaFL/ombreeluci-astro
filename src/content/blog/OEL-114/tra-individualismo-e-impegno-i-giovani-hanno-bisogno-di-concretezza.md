@@ -1,4 +1,5 @@
 ---
+
 title: "Tra individualismo e impegno: i giovani hanno bisogno di concretezza"
 date: 2011-06-04
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 10.054227828979492
 issue_number: OEL-114
 id_numero: "OEL-114"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Jean-Marie Petitclerc ha consacrato la sua vita ai giovani dei quartieri cosiddetti “difficili”."
 ---
+
 Laureato al politecnico, prete salesiano ed educatore specializzato, lavora sia sul territorio che a livello politico. Ha fondato ad Argenteuil(Val-d’Oise), l'associazione Le Valdocco che promuove la mediazione sociale. Tra disimpegno e sete di vivere, dov'è la gioventù di oggi? Ecco la risposta.
 **Si dice che i giovani sono restii ad impegnarsi, sono veramente così tiepidi?**
 I giovani di oggi mi appaiono generosi così come i loro genitori, ma provano una maggiore difficoltà ad impegnarsi in una istituzione. Non si vogliono mobilitare per la causa degli stranieri immigrati, ma se c’è nella loro classe una ragazza che rischia di essere espulsa, si mobilitano subito al fianco della loro compagna. Ugualmente ci sono degli scouts pronti a dedicare tempo, energie e danaro per andare a costruire un pozzo in un villaggio africano, ma sono meno pronti a mobilitarsi per una campagna del CCFD (Comitato cattolico contro la fame e per lo sviluppo). È in ciò che si vede il cambiamento. Se non vedono i risultati delle loro decisioni, i giovani tendono a ripiegarsi su se stessi e ad agire in maniera individualista. Ma quando si confrontano direttamente con la sofferenza, li vedo capaci di mobilitarsi come i loro genitori. Ciò che si è modificato è il rapporto con il tempo, centrato sull’immediatezza. lo lo vedo come una conseguenza di una perdita di fiducia, di una difficoltà a proiettarsi nel futuro. Quando i discorsi degli adulti si riassumono in: “Ieri era bello, oggi è difficile, domani sarà una catastrofe”, non mi stupisco certo che i giovani facciano fatica a concepire le cose a lungo termine. Il cambiamento è in rapporto al tempo vissuto nel registro del tutto e subito.

@@ -1,4 +1,5 @@
 ---
+
 title: Notiziario Fede e Luce n.14
 date: 1977-09-20
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
 ---
+
 ### Roma
 
 Sono stati vari i momenti trascorsi insieme in quest'ultimo periodo, molti forse ne saranno rimasti un pò al di fuori per un motivo o per un altro, tutti ne possono ritrovare qui i punti essenziali.
@@ -39,6 +41,7 @@ Poi, pranzo in comune e grandi giochi fino a sera.
 
 **A Nazareth** , oltre alla gioia dell'incontro o allo scambio di auguri, durante la messa abbiamo commentato il Vangelo del giorno con della diapositive: esperimento graditissimo, a giudicare dall'attenzione, dal silenzio reverenziale che l'ha accompagnato.
 
+
 ---
 
 ### Cuneo
@@ -54,6 +57,7 @@ Quello che mi ha colpito di più nella giornata trascorsa insieme è stata la gi
 Io penso che se ciascuno dei partecipanti alla gita ha avuto qualche momento di serenità o di allegria, l'esperienza che abbiamo vissuto insieme è stata positiva.
 
 *Marilena Fiandrino*
+
 
 ---
 
@@ -99,6 +103,7 @@ Avevo tanto bisogno di una giornata piena di gioie e d'allegria, per poter esser
 
 *Maria di Milano*
 
+
 ---
 
 ### Ancora su Milano!
@@ -112,6 +117,7 @@ La cena poi è stata più che luculliana: noi che come specialità abbiano "pizz
 I fiori per la messa avevano solo colori troppo naturali per poter essere... veri; il cartellone di "mattone su mattone" doveva essere stato progettato da un ingegneri in carne od cesa, e le medaglie per i giochi finali che vi credete voi? non di vile cartone, ma di stoffa pseudo seta...
 
 Beh, certo! Di un gruppo che non funziona, non ha idee, non sa trasmettere agli altri la carica di amicizia che fermenta sotto, voi di Milano avete... tutto il contrario!
+
 
 ---
 

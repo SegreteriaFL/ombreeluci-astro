@@ -1,4 +1,5 @@
 ---
+
 title: Il mio Pato, che si fa sempre trovare
 date: 2022-06-06
 author: Simona Greco
@@ -15,6 +16,7 @@ issue_number: OEL-157
 id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando sono da sola, **il mio cane Pato mi fa compagnia** . Quando sta male, lo porto dal veterinario. Mi dà un senso occuparmene, lo accudisco: significa occuparsi di lui, farlo giocare, dargli da mangiare. Lo faccio giocare con un ossicino di plastica. Io ci tengo tanto a Pato! Quando torno dall’ *Impronta* [un centro diurno, ndr] si fa trovare vicino alla porta pronto per uscire. A volte, lo porto a lavare. **Avere un cane è anche un modo per uscire!**
 
 È affettuosissimo con me, mi dà molta energia. Mi aiuta a star meglio psicologicamente. Quando ho l’ansia si mette vicino a me, oppure mi chiama quando non mi siedo a tavola. Si accorge quando non mi sento bene… Quando mamma mi rimprovera, a volte le ringhia. O quando ho una discussione con papà che mi fa innervosire, non mi lascia sola fino a che non ho finito… mi ascolta. Anche quando gli dico di non abbaiare alle persone, mi ascolta.

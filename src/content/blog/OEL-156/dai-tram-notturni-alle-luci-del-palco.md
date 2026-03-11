@@ -1,4 +1,5 @@
 ---
+
 title: Dai tram notturni alle luci del palco
 date: 2022-02-17
 author: Silvia Camisasca
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Era il 2015, allora di notte conducevo i tram dell’Atm, l’azienda di trasporti di Milano, e di giorno, essendo fisioterapista, seguivo la Nazionale Italiana Artisti TV e l’associazione Colorado Charity Team: qui incrociai il mondo della comicità e quello dell’associazionismo» ricorda così Salvatore Ferrara l’incontro che lo ha portato a fondare, insieme ai comici Angelo Pintus e Stefano Chiodaroli, l’associazione Nic (Nazionale Italiana Comici) con base a Rozzano nel milanese, la squadra di calcio che ha come obiettivo raccogliere fondi attraverso lo sport. Uno sport inclusivo, in cui a scendere in campo sono adolescenti e giovani con disabilità.
 
 In pochi anni la partecipazione, non solo delle famiglie, cresce a tal punto da diversificare le iniziative in altre manifestazioni, perché più si conoscono le diverse abilità e più si scoprono energie latenti, insospettabili doti, che attendono solo occasioni per emergere e scorrere. «A fine ottobre inauguriamo la sesta stagione del progetto Diversamente Comici, a cui parteciperanno ragazze e ragazzi con disabilità di tutta Italia. Chiamati ad interagire sul palco da comici professionisti, saranno direttamente loro i protagonisti degli spettacoli teatrali, i cui incassi verranno, come ad ogni stagione, direttamente devoluti, già tra il primo e il secondo tempo, alle famiglie dei nostri mattatori o alle associazioni no profit quotidianamente impegnate a loro fianco. Dal 2015 abbiamo sostenuto 22 associazioni!» racconta con orgoglio Salvatore.

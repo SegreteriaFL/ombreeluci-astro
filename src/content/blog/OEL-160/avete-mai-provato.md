@@ -1,4 +1,5 @@
 ---
+
 title: Avete mai provato...
 date: 2023-01-18
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 12.435547828674316
 issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Senza speranza, la vita è senza senso"
 ---
+
 *Questo articolo è apparso sul **[numero 19 di Insieme](https://www.ombreeluci.it/project/insieme-n-19-bollettino-fede-e-luce-1978/)** nel 1978*
 
 Avete mai provato ad accendere un cerino in una stanza buia? È piccolo un cerino, la sua fiamma pure, eppure… il buio non è più buio. Un cerino acceso può accendere una candela, un cero e così via, fino a che nella stanza buia si fa luce. Avete mai provato a sorridere ad una scolaresca intimorita, silenziosa? Non importa parlare; poco alla volta, un sorriso risponde e poi un altro e poi si finisce tutti per sorridere insieme. **Un sorriso è poca cosa, ma dice molte cose: racconta, parla rischiara, fa luce.**

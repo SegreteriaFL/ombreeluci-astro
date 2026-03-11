@@ -1,4 +1,5 @@
 ---
+
 title: Le nostre gambe - Newsletter Estiva n. 22
 date: 2020-08-21
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 D
 opo quel lungo pianto, mi sono sentita svuotata di tutto, persa, sola. Ma alla sera presi una decisione»: con parole forti e poetiche insieme, nel 1974 Mariangela Bertolini raccontava
 [il suo passaggio](https://www.ombreeluci.it/1974/la-paura-degli-altri/)
@@ -30,6 +32,7 @@ di Maria Grazia Pennisi che, da un’altra ottica, invitava a non sottovalutare 
 [lo racconta ancora](https://www.ombreeluci.it/2020/diario-di-bordo/)
 Stefano Guarino) «fiducia e forza ai timidi», trasformando il mutismo in eco.
 
+
 ---
 
 ### **I Grandi Classici... di un'estate fa**
@@ -43,6 +46,7 @@ a Fede e Luce? È amicizia, vicinanza e
 »; è condivisione da lasciare sgomenti: ne scriveva Mariangela Bertolini in un editoriale del 1989 raccontando lo stupore di un medico in visita a un campo:
 [«E pagano pure per venire qui!»](https://www.ombreeluci.it/1989/e-pagano-pure/)
 
+
 ---
 
 ### **Visti per noi da Claudio Cinus**
@@ -53,6 +57,7 @@ di Petr Lom; e le tre protagoniste del documentario
 [This Train I Ride](https://www.ombreeluci.it/2020/vagabonde-sui-treni-damerica/)
 , che saltano in solitudine tra i tetti dei treni lungo gli Stati Uniti cercando di capire sé stesse, e il loro posto nel mondo.
 
+
 ---
 
 ### [**Il blog di Benedetta**](https://www.ombreeluci.it/il-blog-di-benedetta/)
@@ -62,12 +67,14 @@ di Petr Lom; e le tre protagoniste del documentario
 Sono dovuta tornare a Roma, un giorno, a agosto, per farmi prendere le misure per la divisa da reception per la scuola che inizia a settembre. Ma io sono ancora arrabbiata perché l’hanno chiusa presto quest’anno. Io a settembre cambio sede della scuola. Il mio Istituto alberghiero sta a Trastevere e ha due sedi.
 [Continua a leggere...](https://www.ombreeluci.it/2020/molto-volentieri-pero-ogni-tanto/)
 
+
 ---
 
 **Il questionario**
 – Insistiamo, cari lettori, ma per noi è importante: ringraziando i tanti che hanno già risposto al questionario, invitiamo chi non l'abbia ancora fatto a compilarlo. Bastano due minuti!
 
 [Rispondi al sondaggio](https://us17.list-manage.com/survey?u=00c5dad63480d9601563b5692&id=2f375568ec)
+
 
 ---
 

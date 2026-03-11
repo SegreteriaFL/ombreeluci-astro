@@ -1,4 +1,5 @@
 ---
+
 title: "Non è te che aspettavo"
 date: "2018-03-26"
 author: "Matteo Cinti"
@@ -15,6 +16,7 @@ issue_number: OEL-141
 id_numero: "OEL-141"
 numero_rivista: "Ombre e Luci"
 ---
+
 Con uno stile semplice ma preciso e efficace, Fabien Toulmé si affaccia al mondo del fumetto per la prima volta con una storia intima e personale, raccontando l’arrivo della figlia Julia nella sua vita, una bambina con sindrome di Down.
 
 Per una serie di motivi, papà e mamma non vengono a conoscenza della condizione di Julia se non dopo diversi giorni dalla nascita, quando i medici chiariscono i dubbi di Fabien al riguardo, che si era reso conto della particolare fisionomia della figlia. In questo scenario, quindi, entrambi i genitori elaborano la notizia dell’handicap con una difficoltà ancora maggiore rispetto al normale, visto che fino a quel momento, esami alla mano, ogni possibilità che Julia nascesse con la sindrome di Down era stata esclusa.

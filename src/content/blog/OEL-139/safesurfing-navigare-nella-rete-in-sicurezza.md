@@ -1,4 +1,5 @@
 ---
+
 title: "Safesurfing: Navigare nella rete in sicurezza"
 date: 2017-09-06
 author: Redazione
@@ -19,7 +20,10 @@ umap_z: 8.043111801147461
 issue_number: OEL-139
 id_numero: "OEL-139"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Antonietta, un’amica in sedia a rotelle, ci scrive: Internet va bene fino ad un certo punto. Ma, se viene usato esageratamente, danneggia il modo di agire con il mondo che ti circonda… specialmente facebook"
 ---
+
 *L’accessibilità della rete è senz’altro uno degli elementi che la rende uno strumento molto utilizzato da tante persone. Essere connessi potenzialmente con il mondo intero, rappresenta una forte attrattiva per quanti cercano nuovi contatti. Come ci ricorda Antonietta, c’è bisogno di equilibrio e di alcune accortezze non sempre scontate. Roberta Speziale e Daniela Cannistraci dell’ANFFAS ci raccontano un percorso di autonomia e sicurezza pensato con le persone con disabilità mentale per rendere più consapevole la navigazione in rete. *
 
 SafeSurfing è un progetto promosso da Inclusion Europe, associazione di persone con disabilità intellettiva europea a cui Anffas Onlus aderisce, che ha visto la collaborazione di quattro associazioni europee di Italia, Spagna, Inghilterra, Polonia (rispettivamente Anffas Onlus, Plena Inclusion, Mencap, PSOUU) e che ha avuto come obiettivo la formazione delle persone con disabilità intellettiva in materia di protezione dei dati sul Web.

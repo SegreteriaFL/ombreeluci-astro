@@ -1,4 +1,5 @@
 ---
+
 title: Notiziario Fede e Luce n.20
 date: 1979-03-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 ### San Cirillo
 
 Tutto si è trasformato nel giro di poco tempo: S. Cirillo si è incontrato per la prima volta a Settembre. La gioia, l'amicizia, la semplicità creatasi in quell'incontro, ha fatto sentire in noi la necessità di rincontrarci molto presto. Nella vita del gruppo ci siamo resi conto della difficoltà di inserimento delle persone nuove, di quelle famiglie, di quei giovani, che per la prima volta sono venuti o solo affacciati, alcuni per sentito dire di Fede e Luce, altri per sola curiosità. Ora come comportarci? È difficile, ma nello stesso tempo è anche facile, perché in noi esiste quell'amore, quella gioia di stare insieme, di camminare insieme con semplicità

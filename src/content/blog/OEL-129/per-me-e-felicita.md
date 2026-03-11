@@ -1,4 +1,5 @@
 ---
+
 title: "Per me è felicità"
 date: "2015-03-19"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
 ---
+
 Miei cari amici del cuore (di solito da bambino scrivevo a Babbo Natale per chiedere il regalo che più mi sarebbe piaciuto ricevere). Quest’anno invece ho deciso di scrivere a voi amici che siete bravi ma allo stesso tempo pazienti con me per dire cose che ho dentro da tantissimo tempo e che la mia timidezza mi impedisce di esprimere ad alta voce.
 
 Per questo posso sembrarvi freddo. Voglio dirvi che siete davvero speciali per me in quanto non vi siete mai comportati da amici autoritari, siete sempre stati responsabili nei miei riguardi. Io vi voglio un mondo di bene e vi ammiro per la forza che avete. Mi avete aiutato nei momenti di sconforto della mia vita. Voi amici ci siete stati per me.

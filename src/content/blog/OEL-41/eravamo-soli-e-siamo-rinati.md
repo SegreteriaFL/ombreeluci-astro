@@ -1,4 +1,5 @@
 ---
+
 title: Eravamo soli e... siamo rinati
 date: 1993-03-18
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-41
 id_numero: "OEL-41"
 numero_rivista: "Ombre e Luci"
 ---
+
 Gli articoli di
 [questo numero](http://www.ombreeluci.it/project/numero-41-10-anni-di-ombre-e-luci-piu-che-una-rivista-una-grande-famiglia/)
 presentano le esperienze di

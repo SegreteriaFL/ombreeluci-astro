@@ -1,4 +1,5 @@
 ---
+
 title: In diretta da Locarno
 date: 2022-08-09
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
 ---
+
 Come ogni grande evento cinematografico, anche il Locarno Film Festival, arrivato alla prestigiosa 75ª edizione, fornisce **un’utile mappa per capire come il mondo del cinema contemporaneo sia capace di rappresentare le diversità e le problematiche sociali.** Se spesso ci si concentra sui contenuti, vale invece la pena raccontare qualcosa del percorso virtuoso che Locarno sta mettendo in pratica per potenziare altri due aspetti altrettanto rilevanti: l’accessibilità alle proiezioni e l’accessibilità all’industria audiovisiva.
 
 Anche a Locarno la maggior parte dei luoghi di proiezione è accessibile a chi ha mobilità ridotta, come ormai indispensabile in ogni grande evento che si rispetti; spostarsi per la città può essere più complicato, soprattutto nelle strade con ciottolati, ma i bus gratuiti che spostano tra i vari luoghi del festival fortunatamente sono anch'essi accessibili. Nel loro sito internet, la cui sezione sull’accessibilità è ben curata, ci sono informazioni complete, fotografie, e un numero da chiamare per chi abbia necessità un aiuto pratico. **L’accessibilità quindi è non solo garantita, ma anche ben dettagliata per chi ne abbia bisogno.**

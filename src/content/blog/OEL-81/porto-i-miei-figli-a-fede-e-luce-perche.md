@@ -1,4 +1,5 @@
 ---
+
 title: "Porto i miei figli a Fede e Luce perché..."
 date: "2003-03-13"
 author: "Alessandra Zezza"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Ma devono restare chiare le diverse esigenze"
 ---
+
 - non so a chi lasciarli,
 
 - non voglio perderli di vista,

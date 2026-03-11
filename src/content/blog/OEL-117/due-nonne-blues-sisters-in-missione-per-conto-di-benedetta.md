@@ -1,4 +1,5 @@
 ---
+
 title: Due nonne blues sisters in missione per conto di Benedetta!
 date: 2012-03-16
 author: Edda e Maria Teresa
@@ -15,6 +16,7 @@ issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
 ---
+
 Va subito chiarita una verità: non è Benedetta ad aver bisogno di noi nonne; siamo noi ad aver bisogno di Benedetta. Non è un’affermazione retorica o buonista. E’ la pura e semplice verità, constatata quotidianamente in questi otto anni. Sì, fin dal primo istante, noi nonne non ci siamo mai tirate indietro e, pur con tutti i nostri limiti e le nostre debolezze, ci siamo rimboccate le maniche e ci siamo buttate a capofitto in questa incredibile, bellissima - ma a tratti anche dolorosa - avventura unica e irrepetibile che Benedetta ci ha prepotentemente chiamate a vivere. Senza che ci fossimo preparate. Già, non esistono “corsi per nonne con nipotine che hanno la sindrome di Down”. O qualsiasi altra disabilità.
 
 L’incontenibile vitalità di Benedetta, la sua pazzesca voglia di vivere e di esserci sempre e comunque, ci ha costrette a imparare presto a fare i conti con realtà che neppure immaginavamo. Per farla breve, abbiamo dovuto imparare al volo a fare le nonne “speciali” perché “speciale” è Benedetta. Siamo state presenti innanzitutto, sentinelle della speranza, nei lunghi ricoveri in ospedale: soprattutto per l’operazione al suo terzo giorno di vita per la ricostruzione dell’intestino e, a due anni, per la leucemia. Ma, non sembri paradossale, anche in quelle occasioni così di frontiera è stata Benedetta ad aiutarci ad avere la forza di sperare e andare avanti. Per noi era straziante non poterla vedere, non poterle stare accanto, soprattutto quando era ricoverata nella stanza d’isolamento. Nel reparto potevano entrare solo i genitori, sempre presenti giorno e notte. Noi cercavamo di sostenerli. Ma soprattutto abbiamo pregato tanto e così intensamente come mai nella vita. La notizia della sua completa guarigione ci ha dato ancora più gioia della sua nascita. Davvero, come si dice, Benedetta è nata due volte. Oggi è per noi una gioia infinita vederla piena di energie, di impegni e di amicizie, inserita alla grande in seconda elementare, persino già in grado di leggere e scrivere. Soprattutto vederla felice. Sempre allegra, sorridente, capace di gesti di tenerezza che ci spiazzano. Come quando ci obbliga, letteralmente, ad andare dal parrucchiere per farci belle, come dice lei!

@@ -1,4 +1,5 @@
 ---
+
 title: Buon Natale 1981... e un numero speciale
 date: 1981-09-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Carissimi, Buon Natale a tutti e ad ognuno in particolare. Che esso sia pieno di pace serena per ognuno di noi.
 
 Non volevamo lasciar passare questa data senza inviarvi qualche pagina - un Insieme ridotto - per sentirci una volta di più uniti nella grande famiglia Fede e Luce.

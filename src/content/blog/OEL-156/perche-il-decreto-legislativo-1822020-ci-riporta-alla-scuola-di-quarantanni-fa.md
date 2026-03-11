@@ -1,4 +1,5 @@
 ---
+
 title: "Perché il decreto legislativo 182/2020 ci riporta alla scuola di quarant’anni fa"
 date: "2021-02-13"
 author: "Laura Coccia"
@@ -14,6 +15,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 Leggo e rileggo. Non ci posso credere. Il 2020 ci ha lasciato come ultimo ricordo un decreto dal sapore antico e sgradito, una roba che riporta ad un tempo che pensavamo fosse stato consegnato definitivamente ai libri di storia. Invece no. Il decreto legislativo 182/2020 prevede che il consiglio di classe possa decretare l’esonero di un alunno con disabilità da alcune materie curricolari per “impedimenti oggettivi o incompatibilità”. Leggo e rileggo e non capisco.
 
 In realtà capisco troppo bene e queste parole mi bruciano come sale su una ferita aperta, perché io so che vuol dire perché ci sono passata e so qual è il rischio che si corre quando la legge prevede di poter escludere un alunno arbitrariamente dalle attività del resto della classe.

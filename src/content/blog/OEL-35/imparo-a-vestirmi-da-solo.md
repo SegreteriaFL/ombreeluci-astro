@@ -1,4 +1,5 @@
 ---
+
 title: Imparo a vestirmi da solo
 date: 1991-09-20
 author: Nicole Schulthes
@@ -15,6 +16,7 @@ issue_number: OEL-35
 id_numero: "OEL-35"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il testo offre una guida dettagliata ed ampiamente illustrata delle tecniche di vestizione standard e delle loro opportune modificazioni, corredata da informazioni sulla sequenza normale di sviluppo delle abilità di vestirsi e svestirsi, descrizioni complete dei metodi di insegnamento più efficaci e suggerimenti per l’impiego di ausili e materiali didattici. Per la valutazione del grado di sviluppo delle abilità e per la pianificazione dei programmi di insegnamento settimanali ed individualizzati vengono fornite schede e moduli fotocopiabili insieme alla descrizione di una serie di giochi e di attività preparatorie che si possono svolgere in classe. Di fatto è un libro che può essere utile all’insegnante di sostegno, al terapista della riabilitazione, all’educatore e al genitore. I numerosi disegni sono chiari e divertenti. Un libro, dunque, «praticissimo». -
 *Nicole Schulthes*
 , 1991

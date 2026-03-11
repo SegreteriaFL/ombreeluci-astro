@@ -1,4 +1,5 @@
 ---
+
 title: "Forse una ragione c'è"
 date: "2020-07-02"
 author: "Stefano Nasuti"
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 La storia dell’amicizia con Massimiliano è iniziata più di dieci anni fa. Frequentavo la comunità di San Roberto già da qualche mese, ma il mio approccio timido alla scoperta di nuove socialità, unito alla ponderatezza con cui Massi stesso sonda il terreno prima di lanciare segnali di simpatia, aveva fatto sì che osservassi solo da lontano il dondolio di quel ragazzone biondo, che amava starsene nella zona di confine tra isolamento e partecipazione.
 
 Quel giorno, all’improvviso, ci siamo ritrovati vis-a-vis in uno dei suoi angoli d’elezione, ci siamo guardati, mi ha fatto uno dei suoi sorrisoni solari, che poi mi sarebbero diventati così familiari. “Come ti chiami?”. “Massimiliaaanoo”, altro sorriso: era cominciato il nostro percorso di amicizia che non si è più interrotto.

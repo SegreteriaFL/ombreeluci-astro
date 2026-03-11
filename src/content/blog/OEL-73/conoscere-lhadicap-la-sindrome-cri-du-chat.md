@@ -1,4 +1,5 @@
 ---
+
 title: "Conoscere l'hadicap: la sindrome \"Cri Du Chat\""
 date: 2001-03-09
 author: Valeria Levi della Vida
@@ -14,7 +15,10 @@ umap_z: 7.262856483459473
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una mamma, attraverso la sua tesimonianza, ci offre l'occasione di parlare di una sidrome poco conosciuta. Abbiamo chiesto il parere di due medici."
 ---
+
 Grazie, Anna Maria di averci avvicinato a una sindrome così poco conosciuta, di aver avviato un rapporto di dialogo e amicizia con Ombre e Luci. Speriamo che altri genitori trovino il coraggio di segnalarci nuove scoperte e iniziative su sindromi rare e poco conosciute.
 
 ### La lettera di una mamma

@@ -1,4 +1,5 @@
 ---
+
 title: Una nuova speranza
 date: 1981-09-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Adesso non abbiamo più grandi progetti sul piano internazionale ma abbiamo ricevuto una nuova speranza e una nuova forza per quanto è essenziale in Fede e Luce: la vita nelle nostre piccole comunità.
 
 Il pellegrinaggio avrà raggiunto il suo scopo se ogni comunità si sforzerà di vivere secondo la carta e la costituzione che si sono delineate poco per volta in questi dieci anni. Ne conoscete l'essenziale:

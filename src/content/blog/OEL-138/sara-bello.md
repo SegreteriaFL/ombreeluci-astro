@@ -1,4 +1,5 @@
 ---
+
 title: "\"Sarà bello\""
 date: "2017-06-28"
 author: "Cristina Tersigni"
@@ -15,6 +16,7 @@ issue_number: OEL-138
 id_numero: "OEL-138"
 numero_rivista: "Ombre e Luci"
 ---
+
 “Ho fatto una forte esperienza spirituale e pastorale, stimolato dalle provocazioni di papa Francesco. Durante gli esercizi spirituali riflettevo sullo scarto, di cui il papa sembrava parlare quasi fino alla nausea. Allora mi sono detto, cominciamo dalla parola di Dio: chi sono gli scartati nella Bibbia?”. Li trova ad esempio in Davide, Giuseppe… Gesù stesso. La sua riflessione si condensa in un libro “Gli scartagonisti” (recensione a p. 28) il cui fulcro è constatare come “gli scartati dagli uomini, Dio li renda protagonisti, diventando così suoi collaboratori nella salvezza altrui...Nel divino sei protagonista utilissimo collaboratore di Dio - come Maria con quel suo sì - nella realizzazione di un particolare progetto salvifico. Senza il mio sì, non ci sarà una salvezza specifica, di cui il Signore si serve con la mia unicità e diversità. Nasce così la mia idea di scartagonismo: scartati dagli uomini ma non da Dio”.
 
 Questa meditazione personale non rimane inchiostro sulle pagine...si è incarnata nella sua missione pastorale, nel tessuto comunitario della sua parrocchia e lo ha portato ad avviare un progetto particolare. Dice ancora don Maurizio: “Anche oggi la logica di Dio funziona così e i protagonisti attivi ora sono alcuni ragazzi con disabilità con genitori anziani che piangono al pensiero per il dopo di loro”.

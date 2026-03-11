@@ -1,4 +1,5 @@
 ---
+
 title: FANHA - Famiglie Accoglienti Nascituri Handicappati
 date: 2006-06-21
 author: Redazione
@@ -16,7 +17,10 @@ tags:
 umap_x: 5.376844882965088
 umap_y: 9.410429000854492
 umap_z: 7.107120037078857
+
+subtitle: "È un'associazione che prova a dare una risposta concreta a chi si sente drammaticamente solo e incapace di gestire ed accettare una gravidanza e soprattutto un figlio malato."
 ---
+
 Alcune famiglie ritengono che da sole non potrebbero sopportare il peso e la sofferenza di avere bimbi handicappati” e così, spiega Livio Lucà Trombetta, è sorto il progetto [FANHA](https://federvitapiemonte.it/progetto-fanha-livio-e-liliana-luca-trombetta/) - Famiglie Accoglienti Nascituri Handicappati - avviato nel 1996 a Messina, per tentare di salvare da un aborto eugenetico un bambino, affiancando alla famiglia naturale tre famiglie affidatarie. Tre famiglie perché una possa accogliere in adozione o in affido il , bambino, le altre due per sostenere e sostituire la prima quando impegni esterni lo richiedano.
 
 L'obiettivo è dare una risposta concreta a chi si sente drammaticamente solo e incapace di gestire ed accettare una gravidanza e soprattutto un figlio malato.

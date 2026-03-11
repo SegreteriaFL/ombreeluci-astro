@@ -1,4 +1,5 @@
 ---
+
 title: "Samusà di Virginia Raffaele"
 date: "2024-03-25"
 author: "Davide Passeri"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Davide racconta lo spettacolo teatrale che ha seguito al Teatro Brancaccio di Roma"
 ---
+
 Davide racconta lo spettacolo teatrale Samusà di Virginia Raffaele che ha seguito al Teatro Brancaccio di Roma.
 
 https://open.spotify.com/show/46LTP36kTzv3KyP37rCZZW

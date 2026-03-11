@@ -1,4 +1,5 @@
 ---
+
 title: "Agricoltura e disabilità: il campo sperimentale “Splende il Sole”"
 date: "2004-06-11"
 author: "Laura Nardini"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
+
+subtitle: "Perché non far provare a ragazzi con disabilità la vita e il lavoro in campagna? Un'idea divenuta realtà in un'azienda agricola in provincia di Latina"
 ---
+
 Un giorno chiacchierando al telefono, Marco mi disse che gli stava balenando in testa l’idea di far provare a ragazzi con handicap la vita e il lavoro in campagna | nella sua azienda vicino Latina.
 Lui da tempo si occupa di allevamento di mucche e bufale per il latte, ha terra da coltivare e molto spazio da poter sfruttare per diverse attività.
 

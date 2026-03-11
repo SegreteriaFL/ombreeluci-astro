@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 157
 date: 2022-06-22
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-157
 id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
+
 #### Poesia di Claudio Moriggia
 
 *Con le* *piante* *nel terreno* *io sorrido* *in un* *baleno!* *Siamo* *sempre in* *libertà e* *la pace tornerà!*

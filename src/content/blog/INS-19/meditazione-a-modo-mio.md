@@ -1,4 +1,5 @@
 ---
+
 title: Meditazione a modo mio
 date: 1978-06-13
 author: Nicole Schulthes
@@ -18,6 +19,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 "PELLEGRINAGGIO: una parola di ieri forse, ma forse anche una necessità di oggi!" dicevo fra me l'altro giorno mettendo in ordine le pagine di "Insieme".
 
 Congressi, giornate di studio, *simposium* , tavole rotonde, seminari, dibattiti di ogni genere! Quale professione, quale formazione politica, quale gruppo non ha i suoi giorni di incontro; sono regionali, nazionali, internazionali, mondiali!

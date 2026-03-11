@@ -1,4 +1,5 @@
 ---
+
 title: Noris
 date: 1974-12-28
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.332622528076172
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Sono la mamma della piccola Noris, la più grande delle mie bambine.Ho voluto anch'io, come tante altre mamme che mi hanno preceduto, parlarvi della mia creatura."
 ---
+
 S
 ono la mamma della piccola Noris, la più grande delle mie bambine. Ho voluto anch'io, come tante altre mamme che mi hanno preceduto, parlarvi della mia creatura. Ve la presento:
 **dodici anni, capelli castani che fanno da cornice ad un faccino delicato**
@@ -31,6 +35,8 @@ La seconda delle mie bambine, Sabrina, arriva al punto di anticipare i miei dove
 provati per tanti anni da un dolore più grande di noi stessi. Sono proprio queste due piccole creature ad offrire un valido aiuto, un esemplare incoraggiamento per amare, apprezzare e rispettare tutti i bambini Noris. -
 *Maria Pia Papetti*
 , 1975
+
+
 
 ---
 

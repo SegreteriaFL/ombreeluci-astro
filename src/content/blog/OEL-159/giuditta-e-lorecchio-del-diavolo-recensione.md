@@ -1,4 +1,5 @@
 ---
+
 title: "Giuditta e l'orecchio del diavolo — Recensione"
 date: 2022-10-17
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 4.54539155960083
 issue_number: OEL-159
 id_numero: "OEL-159"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La storia di una bambina cieca negli anni bui della Seconda guerra mondiale (Giunti, 2022)"
 ---
+
 Labambina è cieca. Ed è ebrea. Una doppia “tara” negli anni bui della Seconda guerra mondiale, quando la caccia all’impuro, al diverso ha assunto un volto mostruoso di odio e di morte. **Ma Giuditta vede quello che è invisibile ai più: parla con gli animali, dialoga con la natura, ascolta il mondo senza filtri, senza mai sentirsi sconfitta.**
 
 Sola sì, specie da quando i nazisti hanno deportato tutta la sua famiglia e lei è stata accolta in un paesino di montagna da Caterina, moglie di Sandokan, il capo della banda partigiana che nell’autunno del 1944 dà filo da torcere agli occupanti. **È un romanzo che parla di guerra, di discriminazione, di dolore, raccontando però, di pari passo, la gratuità, il calore inatteso, l’impegno in nome della coscienza.** L’invito è ad attraversare la vita dandole un senso.

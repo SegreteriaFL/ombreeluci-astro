@@ -1,4 +1,5 @@
 ---
+
 title: In trepidante attesa
 date: 2003-12-22
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.060779571533203
 umap_y: 9.011452674865723
 umap_z: 7.2872772216796875
+
+subtitle: "Occhi azzurri velati da lacrime trattenute. Un bel sorriso aperto con labbra un po' tremanti. Le mani sul grembo in attesa. Ma c'è qualcosa che non va."
 ---
+
 Occhi azzurri intensi, velati da lacrime trattenute; un bel sorriso aperto con labbra un po’ tremanti. Le mani dolcemente accarezzano il grembo in attesa. “Sto bene, sì sì, sto bene!” Stiamo per salutarci, dopo un incontro di lavoro. Esito a fare una domanda che mi pare di dover fare: “C’è qualcosa che non va?”
 
 **Quante volte mi sono trovata così a mezza strada, fra il timore di invadere la sfera personale di chi mi è davanti** e l’impulso provocato dal mio intuito. So per esperienza che, quando abbiamo in noi un’ansia che vogliamo serbare nel cuore speriamo solo che qualcuno capisca il nostro silenzio. Vorremmo parlare ma temiamo di non essere capiti, di suscitare chiacchiere inutili, di fare peggio e di stare poi peggio di prima... “C’è qualcosa che non va?”, sussurro timorosa e spero di essermi sbagliata. “Sono stata a fare una visita di controllo... dicono che c’è qualcosa che potrebbe essere segno di un’alterazione...” Le lacrime ora sono evidenti e vengono subito ricacciate. “La bimba potrebbe risentirne se io mi preoccupo... Io spero che si sbaglino, ma sembrano così sicuri...”.

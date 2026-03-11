@@ -1,4 +1,5 @@
 ---
+
 title: Letture consigliate n.22
 date: 1979-09-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 10.301379203796387
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Due libri di Jean Vanier: la comunità come luogo di perdono e festa, superare la paura per un nuovo inizio"
 ---
+
 Consigliamo questa volta due libri di Jean Vanier di importanza fondamentale per la nostra crescita personale e comunitaria. Purtroppo non sono editi in italiano ma tutti quelli che possono dovrebbero fare uno sforzo per leggerli e magari - perché no? - comunicarne i punti salienti agli amici più vicini. Potete procurarvi questi libri presso le maggiori libreria cattoliche ed a Roma certamente presso la libreria San Paolo di Via della Conciliazione; se ne trova anche una copia in visione presso la segreteria di Fede e Luce.
 
 ### La communauté lieu du pardon et de la fête

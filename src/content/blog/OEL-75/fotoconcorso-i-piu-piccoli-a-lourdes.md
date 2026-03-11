@@ -1,4 +1,5 @@
 ---
+
 title: "Fotoconcorso: I più piccoli a Lourdes"
 date: "2001-09-27"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Cultura"
 issue_number: OEL-75
 id_numero: "OEL-75"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ecco le migliori fotografie dedicate ai bambini scattate a Lourdes scelte dalla giuria di Ombre e Luci"
 ---
+
 Fotografie scelte dalla giuria composta da: Valentina Comand (grafica pubblicitaria) - M. Mercedes Graminger (pediatra) - Riccardo Guglielmin (docente di fotografia sociale) - Alessandra Tomei (giornalista) - Jens Schulthes (giornalista).
 
 Clicca sulle immagini per sfogliare la galleria

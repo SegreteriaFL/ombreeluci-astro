@@ -1,4 +1,5 @@
 ---
+
 title: "Migrati: diverse fragilità si incontrano"
 date: "2017-06-28"
 author: "Cristina Tersigni"
@@ -15,6 +16,7 @@ issue_number: OEL-138
 id_numero: "OEL-138"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Incontriamo la comunità a pranzo e approfondiamo la conoscenza con il presidente Gaspare Ferella e Anna Romano, responsabile della progettazione sociale.*
 
 24 luglio di 37 anni fa: è il giorno della prima vacanza al mare per un gruppo di persone con disabilità mentale e un gruppo di giovani scout. Vista la positività di quell’esperienza, la realtà si consolida e viene fondata la Comunità 24luglio, Handicappati E Non, sostegno nella vita quotidiana di alcune famiglie attraverso un centro diurno.

@@ -1,4 +1,5 @@
 ---
+
 title: Philippine
 date: 2021-12-07
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 12.271489143371582
 issue_number: OEL-104
 id_numero: "OEL-104"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il Natale è attesa, accoglienza, dono. Queste tre parole sono risuonate in me alla lettura del piccolo libro “La forza di una vita fragile"
 ---
+
 Il Natale, come ogni anno, ci propone una riflessione sulla nascita di Gesù e sull’accoglienza che gli fecero i suoi genitori, gli angeli, i pastori, i Magi e via via gli uomini nel corso dei secoli. Natale è sempre attesa, accoglienza, dono.
 
 Queste tre parole sono risuonate in me alla lettura del piccolo libro “ [La forza di una vita fragile](https://www.ombreeluci.it/2008/la-forza-di-una-vita-fragile-storia-di-una-bambina-che-non-doveva-nascere/) ". Storia di una bambina che non doveva nascere” scritto dalla sua mamma.

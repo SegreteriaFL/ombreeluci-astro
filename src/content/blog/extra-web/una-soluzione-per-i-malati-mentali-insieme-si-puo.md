@@ -1,4 +1,5 @@
 ---
+
 title: "Una soluzione per i malati mentali - \"Insieme si può\""
 date: "1997-03-25"
 author: "Redazione"

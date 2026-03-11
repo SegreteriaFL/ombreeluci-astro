@@ -1,4 +1,5 @@
 ---
+
 title: "Una Messa “su misura”: voluta dai genitori e amici di ragazzi disabili mentali"
 date: 2002-06-14
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 9.300341606140137
 umap_y: 10.284073829650879
 umap_z: 8.927872657775879
+
+subtitle: "Non una Messa di «serie B» o una «quasi Messa», ma una vera e propria celebrazione liturgico-eucaristica, adattata ai bisogni di comprensione e di partecipazione della persona disabile mentale"
 ---
+
 Non ci conoscevamo ancora, ma condividevamo già il desiderio di dar vita ad un gruppo che potesse operare nelle nostre comunità accanto a coloro che sono segnati dall'handicap mentale. Le cose da fare, le idee, i progetti, non mancavano. Ma, siamo rimasti coi piedi per terra, fedeli al motto:
 
 > «Meglio una cosa fatta bene, che dieci fatte male!».

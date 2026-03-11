@@ -1,4 +1,5 @@
 ---
+
 title: "Alla fine qualcosa ci inventeremo. Che ne sarà di mio figlio autistico quando non sarò più al suo fianco - Recensione"
 date: "2015-03-19"
 author: "Cristina Tersigni"
@@ -15,6 +16,7 @@ issue_number: OEL-130
 id_numero: "OEL-130"
 numero_rivista: "Ombre e Luci"
 ---
+
 Padre di un ragazzo autistico ormai diciottenne, Gianluca Nicoletti è un noto giornalista che da tempo non esita a mettersi in gioco in prima persona per affrontare questioni legate all’autismo.
 
 L’affermazione nel titolo del suo secondo libro è forse spiazzante ma la sua lettura ne illustra le sfaccettature e le implicazioni. Nicoletti si confronta con quello che ogni genitore di ragazzo con handicap vive con grossa apprensione: a chi affidare il proprio figlio quando non sarà più il genitore in grado di occuparsi di lui.

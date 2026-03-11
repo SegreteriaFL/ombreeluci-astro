@@ -1,4 +1,5 @@
 ---
+
 title: Felice di vivere
 date: 2004-03-09
 author: Redazione
@@ -16,7 +17,10 @@ tags:
 umap_x: 5.5992431640625
 umap_y: 9.314444541931152
 umap_z: 9.922913551330566
+
+subtitle: "Una poesia di Myriam (15 anni)"
 ---
+
 di
 *Myriam*
 (15 anni)

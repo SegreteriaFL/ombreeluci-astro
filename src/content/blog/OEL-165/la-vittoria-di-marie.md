@@ -1,4 +1,5 @@
 ---
+
 title: La vittoria di Marie
 date: 2024-08-16
 author: Enrica Riera
@@ -14,7 +15,10 @@ umap_z: 10.295480728149414
 issue_number: OEL-165
 id_numero: "OEL-165"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La recensione della miniserie Tutta la luce che non vediamo"
 ---
+
 L​​a Seconda guerra mondiale imperversa. È il 1944 e la parigina Marie, lontana da suo padre, si nasconde nella casa sul mare degli zii a Saint-Malo, in Bretagna. Da qui viola la legge di Hitler, trasmettendo via radio messaggi in codice agli Alleati: la giovane legge col sistema Braille *Ventimila leghe sotto i mari* , il capolavoro di Jules Verne, e così facendo gli americani capiscono quali sono i bersagli da attaccare per liberare le città sotto scacco e vincere finalmente la guerra.
 
 *Tutta la luce che non vediamo* , miniserie in quattro episodi disponibile su Netflix, è una grande storia. Grazie a Marie, interpretata dall’esordiente Aria Mia Loberti, **suggerisce che proprio dietro a ciò che diamo per scontato si nascondono le grandi verità di cui abbiamo bisogno** . Marie, del resto, non solo dirama i messaggi in codice, ma è un esempio di quanto sia necessario credere in se stessi. Nata con una malattia degenerativa agli occhi, è completamente cieca eppure «non ha mai vissuto nell’oscurità».

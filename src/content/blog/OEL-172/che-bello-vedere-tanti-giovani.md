@@ -1,4 +1,5 @@
 ---
+
 title: Che bello vedere tanti giovani!
 date: 2025-10-28
 author: Antonietta Pantone
@@ -14,7 +15,10 @@ umap_z: 10.583038330078125
 issue_number: OEL-172
 id_numero: "OEL-172"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il campo Bicoca 2 è stato emozionante anche per la presenza di tanti giovani sensibili e volenterosi!"
 ---
+
 B
 uon pomeriggio, miei cari lettori. Vi avevo lasciato con il
 [pezzo precedente](https://www.ombreeluci.it/2025/alla-piccola-marcia-di-assisi/)

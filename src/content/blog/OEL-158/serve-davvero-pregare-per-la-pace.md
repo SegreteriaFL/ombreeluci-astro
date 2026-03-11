@@ -1,4 +1,5 @@
 ---
+
 title: Serve davvero pregare per la pace?
 date: 2022-07-14
 author: Marco Bove
@@ -15,6 +16,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sono giorni davvero difficili e carichi di angoscia per la guerra scoppiata in Ucraina e ogni giorno ci giungono notizie di scontri armati, morte e distruzione. È un’angoscia che ci prende pensando alle popolazioni civili, a tante persone che stanno soffrendo e che, da un giorno all’altro, hanno visto la loro vita completamente stravolta.
 
 **Ma tutto questo ci tocca anche perché ci rispecchiamo in quelle persone** : potremmo essere noi al loro posto, potrebbero essere i nostri bambini quelli che vediamo o di cui sentiamo tutte queste notizie. Dentro di noi c’è un misto di solidarietà e di paura: solidarietà che tantissimi hanno mostrato, offrendo accoglienza, denaro, medicinali; ma anche paura, perché la domanda, non detta ma sentita, potrebbe essere: «E se arriva anche da noi la guerra? E se domani dovessi scappare anch’io e lasciare tutto?». E ci sentiamo impotenti, perché davanti a una minaccia di questo genere non abbiamo difese, e fare qualcosa per aiutare chi sta scappando dalla guerra è già qualcosa ma non basta, perché non fa finire una guerra che consideriamo una follia e che papa Francesco ha definito un sacrilegio.

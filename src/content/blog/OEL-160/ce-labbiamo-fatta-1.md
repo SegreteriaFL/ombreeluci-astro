@@ -1,4 +1,5 @@
 ---
+
 title: «Ce l’abbiamo fatta!»
 date: 2023-01-31
 author: Giampaolo Mattei
@@ -14,7 +15,10 @@ umap_z: 9.544151306152344
 issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ciclisti non vedenti da Papa Francesco"
 ---
+
 Un ciclista di Athletica Vaticana, la “squadra del Papa”, ha corso il Campionato del mondo, lo scorso 25 settembre, in Australia. Rien Schuurhuis è persino andato in fuga, suscitando simpatia e un calorosissimo tifo per le strade. Il giorno prima del Mondiale Rien, con altri tre rappresentanti di Athletica Vaticana-Vatican Cycling, **ha incontrato la comunità aborigena che sta vivendo un’esperienza di inclusione coordinata con Caritas Australia.**
 
 Un gesto semplice che ha sorpreso il mondo dello sport internazionale e attirato le attenzioni dei mass media, affascinati dalla storia del primo “ciclista del Papa” a un Mondiale. In realtà non c’è nulla di nuovo: fin dall’inizio, l’associazione sportiva ufficiale vaticana non pensa solo all’attività sportiva ma la unisce, con naturalezza, a un abbraccio solidale di ascolto e di fraternità con le persone più fragili. Facendo ricorso al linguaggio universale dello sport, coinvolgente e a tutti comprensibile. E così non è retorica affermare che per i ciclisti vaticani le pedalate solidali hanno lo stesso valore del Mondiale. Anzi, persino di più.

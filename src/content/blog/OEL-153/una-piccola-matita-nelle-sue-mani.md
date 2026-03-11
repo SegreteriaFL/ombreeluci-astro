@@ -1,4 +1,5 @@
 ---
+
 title: Una piccola matita nelle sue mani
 date: 2021-04-12
 author: Vito Giannulo
@@ -15,6 +16,7 @@ issue_number: OEL-153
 id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Ho pensato – racconta Eufemia – che ti devono bastonare veramente forte perché qualcuno si accorga di te. Non basta essere un po’ in ansia per i propri figli, la depressione non è contemplata, non è sufficiente alzarsi di cattivo umore per sperare che si fermi qualche samaritano». Eufemia Capobianco Giuliani, 74 anni, è stata uno degli attori del mimo della parabola del Buon Samaritano che ha illustrato il Vangelo letto durante la celebrazione online della Giornata mondiale della disabilità il 3 dicembre scorso. Ricorderete il mega-convegno sul web, voluto dalla [Cei](https://www.chiesacattolica.it/) , al quale hanno partecipato in Italia e all’estero migliaia di persone. Quello di preparare il mimo era stato uno dei compiti assegnati dagli organizzatori a Fede e Luce. Bisognava trovare un gruppo di persone che, in quanto conviventi, potessero recitare senza mascherina.
 
 La provincia di [Fede e Luce](http://fedeeluce.it) , Mari e Vulcani (che raggruppa una ventina di comunità nelle regioni del Sud Italia), ha pensato a una famiglia di Monopoli, in provincia di Bari, i Giuliani: Eufemia, la mamma, Cosimo, il papà e i tre figli, tutti portatori di disabilità psichiche, Antonio (42 anni), Daniela (44), e Manila (46). Eufemia ha la dote rara dell’ironia. Per dono divino o per necessità o per entrambe le cose, ha sviluppato il talento di prendere con leggerezza una vita difficile almeno quanto il viaggio dell’uomo «che scendeva da Gerusalemme a Gerico. Quando ho visto Antonio a terra bastonato dal padre – dice Eufemia - ho pensato che di samaritani noi ne abbiamo incontrati tanti, nel momento in cui le botte erano così forti da lasciarci tramortiti al suolo. Come ho detto, se non stai male veramente, tu non chiedi aiuto e gli altri non si accorgono di te. Non ne faccio una colpa a nessuno. È così, è la vita. Ma quando arrivano i briganti, accade proprio come nel Vangelo. All’inizio incontri la gente che ti rifiuta e i rifiuti ti bloccano lì per terra. Non hai né forza, né voglia di alzarti. Poi arriva il samaritano».

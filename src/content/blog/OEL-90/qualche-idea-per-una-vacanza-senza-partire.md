@@ -1,4 +1,5 @@
 ---
+
 title: Qualche idea per una vacanza senza partire
 date: 2005-06-17
 author: Laura Nardini
@@ -16,7 +17,10 @@ tags:
 umap_x: 7.179555416107178
 umap_y: 6.40712833404541
 umap_z: 10.406234741210938
+
+subtitle: "Anche restando in città si possono organizzare piccole gite di gruppo e attività che, organizzate con alcuni criteri, possono rivelarsi splendide esperienze da ripetere"
 ---
+
 D
 a quanti mesi sognamo l'estate? La temperatura calda, le giornate belle, lunghe, luminose e, perché no, anche interrompere il tran tran quotidiano con una gita fuori porta, con una visita ad amici o parenti che abitano lontano o magari una vacana. Non è detto che vacanza sia per forza partire, a volte è anche rimanere nella propria città, nella propria casa, ma avere più tempo da dedicare alle cose che vengono tralasciate nella vita frenetica di tutti i giorni. Vacanze a tutti gli effetti o vacanze “cittadine” possono essere arricchite con gite di gruppo che, organizzate con alcuni criteri, potrebbero rivelarsi splendide esperienze da ripetere.
 

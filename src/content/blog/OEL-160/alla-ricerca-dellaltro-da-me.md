@@ -1,4 +1,5 @@
 ---
+
 title: "Alla ricerca dell'altro da me"
 date: 2023-01-13
 author: Giulia Cirillo
@@ -14,7 +15,10 @@ umap_z: 8.247675895690918
 issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ho 34 anni, una gemella diversissima e una disabilità motoria"
 ---
+
 Non sempre sono riuscita a vivermi bene: ho 34 anni e una disabilità motoria. **Nonostante i miglioramenti nell’autonomia grazie a tanta fisioterapia, rimango comunque fisicamente dipendente dagli altri.** Mi riconosco molto in quello che mi dissero alcuni amici che vivono la mia stessa condizione: con la disabilità puoi imparare a conviverci, puoi prendere consapevolezza che un limite non è necessariamente del tutto negativo, ma che può, anzi, aiutarti a scoprire potenzialità che non immaginavi di avere e che invece sono dentro di te pronte per uscire. **Nonostante questo, però, è difficile accettare totalmente questa situazione, farci pace in maniera definitiva.**
 
 Il contesto familiare in cui sono cresciuta mi ha aiutata a rasserenarmi, favorendomi in uno sviluppo emotivo equilibrato, nonostante io abbia dei tratti ansiosi che (in alcune fasi della vita e in alcuni contesti) tendono a prevalere. Sostanzialmente posso dire di essere soddisfatta della persona che sono. Riconosco le mie cadute; non sono pochi in me difetti caratteriali e punti da migliorare, **ma se (nonostante tutto) ho sviluppato la gioia di vivere, lo devo non solo all’aiuto dei genitori, dello psicologo e agli studi di filosofia, ma soprattutto al bel rapporto con la mia amata sorella gemella Silvia** e alla forza che mi viene dalla sete di ricerca spirituale.

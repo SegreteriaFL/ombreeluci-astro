@@ -1,4 +1,5 @@
 ---
+
 title: "Un esperto di disabilità nella task force per la fase 2 dell’emergenza Coronavirus: Giampiero Griffo"
 date: "2020-04-12"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Diritti"
 issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il Comitato avrà il compito di elaborare e proporre misure necessarie a fronteggiare l'emergenza e per una ripresa graduale nei diversi settori delle attività sociali, economiche e produttive"
 ---
+
 C'è chi ha scritto che il numero degli esperti ha superato quello dei guariti, e chi ha commentato che le donne – come da tradizioni che nemmeno la pandemia riesce a smantellare – sono le grandi escluse. Resta però che almeno una notizia importante c’è: tra i 17 componenti del **Comitato di esperti** in materia economica e sociale a cui il presidente del Consiglio Conte ha affidato il compito di elaborare e proporre la strategia per una ripresa graduale nei diversi settori delle attività sociali, economiche e produttive, troviamo anche **Giampiero Griffo**, coordinatore del Comitato tecnico-scientifico dell’Osservatorio nazionale sulla condizione delle persone con disabilità.
 
 ### Chi è Giampiero Griffo

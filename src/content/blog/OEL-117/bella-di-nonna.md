@@ -1,4 +1,5 @@
 ---
+
 title: Bella di nonna
 date: 2012-03-16
 author: Rita Massi
@@ -14,7 +15,10 @@ umap_z: 8.585712432861328
 issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Intervista ai due nonni di Eleonora, bambina con la sindrome di Down"
 ---
+
 Maria e Rino hanno quattro nipoti: Daniele di undici anni, Eleonora di quasi sei, e poi Gian Luca di otto e Gaia di cinque e mezzo. Dei primi due, figli della loro figlia Paola, si occupano quotidianamente, li vanno a prendere a scuola, li fanno mangiare, poi riposino, gioco, judo, compiti finché la loro mamma non viene a prenderli verso le cinque del pomeriggio per portarli a casa o in piscina… insomma la normale ruotine comune a tanti nonni di oggi che in tal modo aiutano i figli durante il loro orario di lavoro, come infatti fanno i nonni materni di Gian Luca e Gaia. Perché allora ho voluto incontrare Maria e Rino, due nonni bravissimi, ma assolutamente normali? Il motivo è legato ad una qualità specifica di Eleonora, che è appunto una bambina Down. Ho cercato di capire con loro se qualcosa differenziava il loro rapporto con Eleonora da quello con gli altri nipoti.
 
 **Cosa fate di specifico con Eleonora?** *Maria:* dopo mangiato la porto a letto, le racconto le storie, talvolta cantiamo le canzoncine, a lei piacciono tanto quelle di Nemo e della Sirenetta; ad Eleonora piace tanto ballare, ma sa giocare anche da sola; ad esempio gioca a fare l’aerosol alla bambola, le mette un cucchiaio davanti alla bocca e dice: “bella di mamma tira su come per odorare i fiori”! Poi cerca anche di aiutarmi a raccogliere i panni e in altre piccole mansioni. Anche il nonno, gioca spesso con i suoi nipoti, ma è addetto specificatamente agli accompagnamenti.

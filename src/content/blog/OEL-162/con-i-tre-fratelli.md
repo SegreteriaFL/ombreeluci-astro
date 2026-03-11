@@ -1,4 +1,5 @@
 ---
+
 title: Con i tre fratelli
 date: 2023-08-16
 author: Matteo Cinti
@@ -14,7 +15,10 @@ umap_z: 14.270142555236816
 issue_number: OEL-162
 id_numero: "OEL-162"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Weekend di formazione per i vicecoordinatori e i giovani di Fede e Luce"
 ---
+
 O
 gni anno i coordinatori provinciali con i loro vice e il cda di Fede e Luce si radunano per l’assemblea nazionale. Solitamente l’incontro si sviluppa in tre giorni con un programma densissimo: discussione e approvazione del bilancio, condivisione delle ultime novità dalle comunità, resoconti dalla redazione di Ombre e Luci, pianificazione degli eventi per il prossimo anno, ecc. Pur con tutto quel che c’è da fare,
 **si arriva all’incontro con i cuori colmi di emozione all’idea di rivedersi dopo un anno (o più!).**

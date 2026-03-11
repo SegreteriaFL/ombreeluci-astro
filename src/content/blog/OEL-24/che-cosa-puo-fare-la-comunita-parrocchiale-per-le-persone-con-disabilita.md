@@ -1,4 +1,5 @@
 ---
+
 title: "Che cosa può fare la comunità parrocchiale per le persone con disabilità"
 date: "1988-09-20"
 author: "Redazione"
@@ -14,6 +15,7 @@ issue_number: OEL-24
 id_numero: "OEL-24"
 numero_rivista: "Ombre e Luci"
 ---
+
 La famiglia ha bisogno di sentirsi accolta in una comunità cristiana, per capire il senso di una sofferenza così difficile da accettare.
 
 - Informarsi seriamente sulla complessa realtà degli handicappati;

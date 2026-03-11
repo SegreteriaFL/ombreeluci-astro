@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n.168
 date: 2025-02-07
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 11.176643371582031
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Qui si parla di calcio inclusivo, della calma in comunità Fede e Luce, della morte di un amico."
 ---
+
 ### Una partita del cuore
 
 Dopo la meravigliosa intensissima giornata della **Kimata Cup** , il risveglio è pieno di un miscuglio di sensazioni… La mente corre e vede scorrere i **volti sorridenti di tutti, dei ragazzi albanesi, ciprioti, italiani che hanno partecipato al torneo** , dei tanti amici di *Fede e Luce* e non, che hanno assistito emozionandosi sugli spalti. Dalla panchina ho visto caricarsi un’energia positiva che esplode in campo, ma sempre con il più giusto e corretto atteggiamento puramente sportivo che vuole vincere e che rispetta il compagno e l’avversario, che aiuta chi sta più indietro. Come quando i calciatori e l’allenatore albanesi hanno incitato la nostra Cristina anche loro facendole attraversare il campo, libera per tirare in porta. E lo stesso abbiamo fatto noi con un giocatore cipriota con meno abilità. E **questa carica fa tirare fuori energie e abilità inaspettate a ragazzi che forse in passato raramente avevano giocato a calcio** … Anche chi ci è venuto a vedere ha contribuito a creare un clima di festa che resterà nei nostri cuori. Grazie a tutti! *Paolo Catapano - Roma*

@@ -1,4 +1,5 @@
 ---
+
 title: "Attività di tempo libero e vita comunitaria"
 date: "1976-12-20"
 author: "Nicole Schulthes"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Come organizzare le attività di gruppi composti da persone di età e abilità eterogenee? Qualche consiglio."
 ---
+
 *Quanto segue vorrebbe essere una riflessione sulle attività di tempo libero svolte in gruppi e, per essere più precisi, in gruppi di età abbastanza diverse e con possibilità o handicap più diversi ancora, come sono i gruppi che quest'estate Fede e Luce ha animato a Roma o fuori Roma.
 Le piccole esperienze di quel periodo hanno provato che questo tipo di attività, di svago, è veramente eccellente per l'integrazione dei ragazzi e anche che la vita di tipo comunitario familiare è possibile per tutti. Ma queste conclusioni non devono far dimenticare a quali condizioni tutto ciò è stato possibile.*
 La prima cosa da tener presente è che la vita comune esige - per noi stessi, per i nostri bambini, i nostri amici, handicappati o non - innanzitutto e sempre tolleronza e generosità. Senza queste due qualità umane e cristiane, chi, tra noi, potrebbe vivere in armo- nia con il proprio fratello, sia esso un santo o il più piccolo dei poverelli?

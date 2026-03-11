@@ -1,4 +1,5 @@
 ---
+
 title: "La forza della tenerezza: l'incanto si è rotto"
 date: "2006-03-30"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Ci eravamo accorti che Antonio era un po’ più lento del fratello minore Carlo. Con mio marito abbiamo pensato di metterli in classe insieme, così che il fratello lo potesse aiutare e proteggere"
 ---
+
 Così mi raccontò la mamma. Ci eravamo accorti che Antonio era un po’ più lento del fratello minore Carlo. Con mio marito abbiamo pensato di metterli in classe insieme, così che il fratello lo potesse aiutare e proteggere. Finché sono stati piccoli tutto è andato bene. Ero orgogliosa del loro affiatamento e compiaciuta dei progressi (piccoli invero) di Antonio.
 
 Divenuti adolescenti (Carlo sempre più alto, più bello, più forte) non ho voluto dividerli anche se vedevo che la classe che frequentavano non era adatta ad Antonio, che cominciava a non seguire per niente certe materie nonostante il "doposcuola" generoso di Carlo. Mi sono detta: "Meglio che continuino insieme, perché così Antonio soffrirà di meno". Però...

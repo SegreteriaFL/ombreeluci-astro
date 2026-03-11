@@ -1,4 +1,5 @@
 ---
+
 title: "Autismo e disabilità grave: il \"Modello L'Aquila\""
 date: "2018-04-11"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 In occasione della [giornata mondiale per la sensibilizzazione dell’Autismo](http://www.ombreeluci.it/2018/giornata-mondiale-dellautismo-il-mondo-si-tinge-di-blu/) le associazioni **Autismo Abruzzo Onlus**, **Prima L’Aquila**, **L’Aquila che vorrei** e **Benvenuto Presente** hanno organizzato un evento che si terrà Giovedi 12 Aprile 2018, alle ore 17.00, nella Sala conferenze del rettorato del GSSI.
 
 ### L’Appuntamento:

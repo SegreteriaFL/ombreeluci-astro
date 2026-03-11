@@ -1,4 +1,5 @@
 ---
+
 title: La mostra AbiliOltre arriva alla stazione Roma Ostiense
 date: 2018-03-16
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Dopo le stazione di Milano Centrale e di Torino Porta Nuova, la mostra AbiliOltre arriva alla stazione di Roma Ostiense per 3 giorni, in occasione della
 **Giornata Mondiale del Servizio sociale**
 .

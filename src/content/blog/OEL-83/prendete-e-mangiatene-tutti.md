@@ -1,4 +1,5 @@
 ---
+
 title: Prendete e mangiatene tutti
 date: 2003-09-03
 author: Silvia Tamberi
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 9.325998306274414
 umap_y: 10.132116317749023
 umap_z: 9.356343269348145
+
+subtitle: "Spesso mi chiedo da dove nascano e da dove derivino tutte le nostre usanze e credenze religiose, a volte così diverse e lontane dalle loro vere origini."
 ---
+
 Spesso mi chiedo da dove nascano e da dove derivino tutte le nostre usanze e credenze religiose, a volte così diverse e lontane dalle loro vere origini. **Mi domando da dove nasca l’usanza di ricevere l’Eucarestia nelle mani o sulla lingua** , di portarla direttamente e delicatamente al palato ed aspettare che si sciolga da sola. Chissà quale sacerdote, suora o catechista l’ha insegnata ai miei nonni, loro ai miei genitori e quest’ultimi a me, che nel periodo della Prima Comunione mi hanno spiegato e ripetuto mille volte il delicato e rispettoso procedimento.
 
 **Molto probabilmente anch’io se non avessi avuto problemi, non mi sarei soffermata a riflettere su questo aspetto** , continuando a compiere questi gesti abituali e consueti, tramandandoli ed insegnandoli a mia volta. Infatti, essendo affetta da una tetra-paresi spastica con distonia, per me risulta molto difficile e problematico compiere tutto quel particolare e delicato procedimento, dovendo al contempo mantenere una postura il più possibile corretta nella fila dei fedeli, fare i conti con tempi ristretti, con sacerdoti, a volte, troppo frettolosi, fare attenzione a non inciampare, a non cadere e cosi via...

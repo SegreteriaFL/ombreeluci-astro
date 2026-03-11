@@ -1,4 +1,5 @@
 ---
+
 title: Le richieste della sorella di un ragazzo disabile ai suoi amici
 date: 1996-12-15
 author: Redazione
@@ -17,6 +18,7 @@ umap_x: 5.61607551574707
 umap_y: 10.290937423706055
 umap_z: 8.967638969421387
 ---
+
 Avolte è difficile avere una sorella disabile. Bisogna affrontare i sarcasmi, le domande strambe di alcuni e l’atteggiamento sorpreso, addirittura impaurito, di altri. Di altri ancora mi sembra di indovinare le ragioni del silenzio: temono di fare una gaffe. Ma allora, si deve oppure no parlarmi della mia sorellina? È vero che io stessa evito questo tema, anche se so che dovrei allontanare i timori parlando con naturalezza di Clara e delle sue difficoltà.
 
 > A poco a poco ha trasformato il mio sguardo e il mio cuore nei confronti dell'handicap. Ora il mio compito è fare da tramite fra lei e voi.

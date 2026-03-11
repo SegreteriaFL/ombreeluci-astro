@@ -1,4 +1,5 @@
 ---
+
 title: "L'umana resistenza"
 date: 2004-06-11
 author: Silvia Gusmano
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 8.717885971069336
 umap_y: 10.079988479614258
 umap_z: 10.007352828979492
+
+subtitle: "Ho chiesto a don David, parroco di Sant’ Angela Merici a Roma, quale fosse la sua posizione, nei confronti delle persone con disabilità mentale"
 ---
+
 Il prete è un uomo. È un luogo comune, ormai. Un monito, che ci ricorda che accanto ai pregi troviamo i difetti, che oltre ai simpatici esistono gli antipatici, oltre ai grandi di cuore, i piccoli. Anche in questa categoria. Eppure, l'umanità dei sacerdoti, punto di forza di ogni discorso che voglia spiegare i loro limiti o giustificare i loro errori, è una realtà tanto vaga quanto difficile da accettare. **Dove finisce la comprensibile debolezza umana e dove comincia l’inadeguatezza alla missione sacerdotale?** Quando l’indulgenza deve lasciare il posto al rimprovero, se non all’indignazione?
 
 Nella nostra lunga chiacchierata, don David Maccarri, che non avevo mai incontrato prima, non ha risposto a queste domande (non avrebbe potuto) ma se le è poste con grande intelligenza. Ha aperto il suo cuore con coraggio e fiducia e questo ha fatto sì che ora, ripensando alle frasi che mi hanno infastidita o alle idee che non mi hanno trovata d'accordo, non posso non ripensare anche alle ragioni e ai vissuti da cui sono nate. **Comprensione e disappunto convivono.**

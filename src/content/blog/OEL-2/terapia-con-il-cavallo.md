@@ -1,4 +1,5 @@
 ---
+
 title: Terapia con il cavallo
 date: 1983-06-29
 author: Sara Mc Allister
@@ -24,6 +25,7 @@ umap_y: 8.124927520751953
 umap_z: 7.09971284866333
 id_numero: "OEL-2"
 ---
+
 Nell’estate del 1977 eravamo in Irlanda in vacanza con la nonna e i nostri tre figli. Sally la nostra figlia Down, aveva allora 21 anni, e direi che prima di quella vacanza non aveva mai visto un cavallo. L’Irlanda è il paese del cavallo, e ce n’erano in tutti i prati a correre liberamente: uno spettacolo bellissimo. Venivano anche vicino a farsi accarezzare. Sally più di tutti noi era entusiasta di questo meraviglioso animale “così simmetrico e musicale”. Quindi al nostro ritorno a Milano l’abbiamo portata al
 **Centro Ippico Lombardo di San Siro**
 . All’inizio Sally ha avuto un po’ di paura, al momento di montare ma una volta superata la paura, l’andare a cavallo è diventato per lei il momento più gioioso della settimana.

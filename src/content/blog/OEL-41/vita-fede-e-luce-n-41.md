@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 41
 date: 1993-03-18
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-41
 id_numero: "OEL-41"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Noi cristiani avventisti in Fede e Luce
 
 Molto spesso tendiamo ad essere pessimisti; pensiamo che la gioventù di oggi sia tutta da condannare! Per fortuna ci sbagliamo. Vi parlo per esperienza personale. Sono la mamma di una ragazza di 45 anni, nata con una paresi spastica, operata di encefalo-meningocele seguita da idrocefalia. Il dolore è stato grande! Mi sono rivolta al Signore: ho rimesso tutto nelle sue mani e, nonostante i miei demeriti, posso dire che mi ha molto aiutata. Circa tredici anni fa, una mia cara amica mi parlò di una comunità chiamata Fede e Luce, dove i nostri figli potevano trovare dei giovani disponibili, pieni di amore, pronti a farli sentire felici. Io faccio parte della Chiesa Cristiana Avventista e prima di condurre mia figlia a Fede e Luce, ci abbiamo pensato su: avevamo timore che, non appartenendo alla stessa chiesa, non sarebbe stata accolta con piacere. Mia figlia spesso piangeva perchè voleva stare in mezzo ai giovani, partecipare alla vita dei sani. Una domenica mi sono decisa e insieme a mio marito l'abbiamo condotta a

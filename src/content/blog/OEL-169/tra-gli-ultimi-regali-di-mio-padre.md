@@ -1,4 +1,5 @@
 ---
+
 title: Tra gli ultimi regali di mio padre
 date: 2025-05-12
 author: Nanni Bertolini
@@ -17,7 +18,10 @@ umap_z: 13.010074615478516
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un libretto consunto, un sorriso ritrovato, un’amicizia che cambia tutto: così nasce Fede e Luce e un pellegrinaggio diventa speranza condivisa."
 ---
+
 **F ra le mani ho un libretto azzurro** , tascabile, **con la copertina logorata dall’uso: *Avignon à Lourdes - Manuel du pèlerin*** , finito di stampare ( *achevé d’imprimer* ) a Bourges, Francia, nel 1967. È il manuale che veniva dato ai partecipanti dei pellegrinaggi che la Diocesi di Avignone organizzava a Lourdes, appunto. Ci sono notizie e documenti storici, spunti di riflessione e preghiere, canti e il testo della messa in latino e in francese. **È uno degli ultimi regali che mio padre, già malato, ha voluto lasciarmi.** Me lo ha affidato come uno dei ricordi più preziosi della sua vita. Non l’orologio d’oro, non l’argenteria: quel libretto, consumato e con le pagine ingiallite. Ne ha affidato uno a me, e uno a mio fratello, Emanuele. È un **ricordo tangibile del piccolo grande miracolo: fa’, Signore, che che Mariangela ritrovi il sorriso; fa’ Signore, che Chicca dorma la notte.** Questa la preghiera che aveva fatto nel suo cuore il papà, alla processione del Santissimo Sacramento, durante il primo pellegrinaggio della nostra famiglia a Lourdes, agosto 1969, insieme alla Diocesi di Avignone.
 
 **La nascita di Chicca, mia sorella, aveva stravolto la vita dei miei.** E d’estate cercavano rifugio, qualche settimana, nella foresteria di in un piccolo convento di un paesino della Provenza francese, Bedoin, nella diocesi di Avignone. E il miracolo si è realizzato attraverso Friquette Heyndrickx, un’altra mamma di una ragazza profondamente disabile, Sophie, prima ancora che nascesse *Fede e Luce* . Grazie a questo primo incontro a Lourdes e con i successivi annuali pellegrinaggi alla Grotta, mia madre ha ritrovato il sorriso e la forza, accanto a mio padre, per iniziare a tessere la tela che porterà alla costituzione, con tante altre famiglie e amici, dell’associazione *Fede e Luce* in Italia e al pellegrinaggio a Roma del 1975.

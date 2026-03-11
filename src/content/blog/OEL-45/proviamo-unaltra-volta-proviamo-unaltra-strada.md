@@ -1,4 +1,5 @@
 ---
+
 title: "Proviamo un'altra volta. Proviamo un'altra strada"
 date: 1994-03-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-45
 id_numero: "OEL-45"
 numero_rivista: "Ombre e Luci"
 ---
+
 Scrivici la tua storia di prove, di sforzi, di fallimenti e di successi. Questa pagina aspetta la tua esperienza. Sarà utile ad altri.
 P
 roviamo un'altra strada? Qualcuno l'ha provata per la nostra rivista, per Ombre e Luci. Al reparto di medicina dell'Ospedale Civile di Gissi (Chieti) un gruppo di persone che ci conosceva e che sapeva, o immaginava, che il bilancio della nostra rivista si regge sempre in pari, ma è sempre dipendente dalla buona volontà di tutti, ha pensato per noi qualcosa di diverso, un'altra strada appunto.

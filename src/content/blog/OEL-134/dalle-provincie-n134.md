@@ -1,4 +1,5 @@
 ---
+
 title: Dalle provincie n.134
 date: 2016-06-16
 author: Redazione
@@ -14,12 +15,17 @@ umap_z: 14.64612102508545
 issue_number: OEL-134
 id_numero: "OEL-134"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Aggiornamenti dalle comunità di Fede e Luce"
 ---
+
 ### [Un fiume di Pace – Nord](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 
 Io e la mia socia Silvana, con la complicità di don Mauro, siamo riuscite ad organizzare un pomeriggio alla piscina idro-terapica della Fondazione don Gnocchi – Centro Peppino Vismara a Milano. L’iniziativa è stata molto apprezzata: subito abbiamo avuto diverse adesioni, quindi è stato necessario organizzare dei turni in piscina per dare la possibilità a tutti, ragazzi, genitori ed amici, di godere appieno di questa festa. Trattandosi di una piscina utilizzata per riabilitazione, avevamo a disposizione tutto ciò che era necessario per far divertire i nostri ragazzi: salvagente, tubi in gomma, cerchio, etc; oltre alla temperatura dell’acqua, circa 33°, che rendeva piacevole la permanenza in ammollo. Le nostre fatiche sono state appagate; i dubbi e le incertezze sono state superate: vedere i ragazzi allegri, sorridenti che si divertono non ha prezzo, ti ricarica alla grande e ti spinge ad andare avanti. Infatti, sull’onda del successo riscontrato, stiamo organizzando un altro pomeriggio in piscina, tutto come la prima volta e, ovviamente, ci aspettiamo, oltre gli affezionati della precedente occasione, delle new entry che possano beneficiare di una così bella opportunità. Il primo ringraziamento va a don Mauro che, con la sua supervisione, ci ha permesso di fare tutto ciò; poi agli amici e ai loro suggerimenti, e non ultimo un ringraziamento va a Silvana e Flora, (noi due) le due ideatrici ed organizzatrici, che ci siamo incoraggiate e sostenute a vicenda.
 
 **Flora e Silvana**
+
+
 
 ---
 
@@ -28,6 +34,8 @@ Io e la mia socia Silvana, con la complicità di don Mauro, siamo riuscite ad or
 Perché partecipare a questo Giubileo? È quello che vogliamo? Nella sua bolla Misericordiae Vultus Papa Francesco scrive: “Come desidero che gli anni a venire siano intrisi di misericordia per andare incontro ad ogni persona portando la bontà e la tenerezza di Dio!”. Jean parla spessissimo della tenerezza e chi meglio dei nostri ragazzi e dei nostri genitori può portare un messaggio di tenerezza? Ricordo la carezza del Papa a Pippi il giorno dell’udienza a Piazza S. Pietro, l’abbraccio di Federico ad un uomo che l’aveva sgridato a Messa perché faceva troppo rumore e Filippo che fa la barba a Franco sotto un albero. Quante immagini di tenerezza! Quanto siamo stati privilegiati e fortunati a incontrare un amico che ci ha detto: “Vieni! Ma dai, vieni! Eh dai…”. A Fede e Luce cerchiamo di vivere insieme la tenerezza, con fatica, con mille difficoltà, perché siamo sempre fragili, ma è questa fragilità, questa tenerezza che ci fa restare insieme. E allora mostriamola al mondo, condividiamola con gli altri e ringraziamo il Signore perché ci ha reso uomini e donne fortunati. Mettiamoci in cammino anche in questa nuova avventura del Giubileo della Misericordia nella giornata degli ammalati e dei disabili il prossimo giugno, con Stefano, il nostro Capitano – che a questo Giubileo ha lavorato fino all’ultimo – le nostre comunità, i nostri ragazzi, i nostri genitori, i nostri amici, i nostri bambini, la nostra Chiesa.
 
 **Pietro Vetro**
+
+
 
 ---
 

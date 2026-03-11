@@ -1,4 +1,5 @@
 ---
+
 title: Una redazione... in condominio
 date: 2007-12-10
 author: Redazione
@@ -17,7 +18,10 @@ tags:
 umap_x: 4.847161769866943
 umap_y: 6.601275444030762
 umap_z: 9.702508926391602
+
+subtitle: "La parola a chi ha ospitato la redazione da tutti questi anni"
 ---
+
 Un quarto di secolo può sembrare un tempo da libri di storia, invece mi sembra ieri quando vedemmo il primo numero della rivista degli amici di Fede e Luce. Quello che rese particolare l’evento fu che la redazione aveva sede nella nostra palazzina.
 
 Adesso vede la “luce” il numero 100 di Ombre e Luci.

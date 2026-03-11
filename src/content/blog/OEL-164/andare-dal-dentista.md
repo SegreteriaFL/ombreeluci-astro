@@ -1,4 +1,5 @@
 ---
+
 title: Andare dal dentista
 date: 2024-02-19
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 7.282474994659424
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dialogo con Paolo Magnanelli"
 ---
+
 «Sulla poltrona del dentista, un paziente con disabilità poco collaborante e un altro senza disabilità ma odontofobico, non sono poi così diversi. **Fondamentali, per trattare entrambi, rimangono una certa predisposizione d’animo e la possibilità di una relativa collaborazione da parte del paziente per affrontare ogni tipo di terapia dentale.** Anche con mia sorella Silvia [che ha una disabilità intellettiva, ndr] non è sempre facile, nonostante la familiarità e l’abitudine: se pure abbastanza collaborante, non è così strano che cominci a parlare proprio mentre ho l’ago in mano!».
 
 Come odontoiatra e fratello di una persona con disabilità, Paolo Magnanelli conosce i grossi limiti imposti proprio dalla collaborazione dei pazienti per decidere il percorso terapeutico da fare. « **Per ogni caso che mi si presenta, devo saper trovare un compromesso tra velocità dell’intervento e accuratezza necessaria per la sua effettiva realizzabilità secondo i protocolli prescritti.** E quando non ottengo una collaborazione anche minima, eventualmente con il supporto di un familiare, l’unica alternativa diventa la sala operatoria. I limiti e i costi di questa soluzione però non sono così imprevedibili. Soprattutto, devo decidere quale sia il tempo disponibile per effettuare un tipo di terapia o un’altra. Se il problema è acuto, la soluzione è più immediata. Ma se l’indicazione fosse in ambito protesico, allora una seduta probabilmente non sarà sufficiente e dovrò decidere di conseguenza: non è un caso che tante persone con disabilità adulte abbiano denti mancanti. Non posso proprio ipotizzare una riabilitazione protesica nel tempo dato da una seduta in sedazione».

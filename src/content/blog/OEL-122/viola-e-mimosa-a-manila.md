@@ -1,4 +1,5 @@
 ---
+
 title: Viola e Mimosa. A Manila
 date: 2013-06-10
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 8.569951057434082
 issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Viola è felice. Il caldo ancora tarda a venire, ma la scuola si appresta ad avviarsi al suo ultimo periodo dell’anno..."
 ---
+
 Viola è felice. Il caldo ancora tarda a venire, ma la scuola si appresta ad avviarsi al suo ultimo periodo dell’anno, quello in cui c’è un’aria più rilassata, quasi di festa per le vacanze imminenti. Ma Viola è felice anche perché le sembra che finalmente le persone attorno a lei e alla sua sorellina abbiano trovato il modo per ascoltarle e comprenderle entrambe, ognuna con le sue particolarità. Mimosa è così bella, e così accolta. Innanzitutto in famiglia.
 
 **Per questo Viola è rimasta colpita da una notizia che ha sentito per caso alla radio** , un pomeriggio in cui Stella, la mamma di Bianca, le stava portando a musica in macchina. Si raccontava una storia che era triste e bella allo stesso tempo. Diceva infatti la voce che nelle Filippine vivono oggi molti disabili fisici e mentali, tanti adulti e tanti bambini, la gran parte dei quali è rifiutata, innanzitutto dalle famiglie che, vergognandosene, li rinchiudono in casa.

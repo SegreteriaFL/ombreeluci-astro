@@ -1,4 +1,5 @@
 ---
+
 title: "Esperienze estive... fra \"Arche\" e \"Mary Mount\""
 date: 1976-12-20
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 10.983848571777344
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Questa estate c'è chi è andato a vivere qualche giorno all'Arche e chi è stato ospite delle suore del Mary Mount per una bella e rilassante vacanza"
 ---
+
 ### L'Arche
 
 Alcune di noi questa estate sono andate all'"Arche" di Jean Vanier. Marina Blasotti, Maria Grazia Pennisi e Cecilia Baldi per 10 giorni hanno condiviso la vita di uno dei 7 "Foyer" di Trosly.

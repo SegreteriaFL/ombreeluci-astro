@@ -1,4 +1,5 @@
 ---
+
 title: La scelta di Geel
 date: 2025-05-07
 author: Lorraine McCrary
@@ -19,7 +20,10 @@ umap_z: 6.755720615386963
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Sorprendente vita di una cittadina belga e delle sue famiglie affidatarie"
 ---
+
 Appartenere a una comunità capace di prendersi cura può renderci cittadini migliori? Per indagare questo tema – cioè come la scelta di coltivare relazioni di cura potrebbe renderci persone più attente e accoglienti – ho visitato Geel in Belgio. Da secoli gli abitanti di questa città ospitano nelle loro case persone con malattie mentali, in una relazione di parentela: i familiari affidatari si prendono cura degli ospiti fragili e costoro, a loro volta, si prendono cura delle loro famiglie affidatarie.
 
 **È una tradizione antica, cominciata nel XIV secolo con il pellegrinaggio alla chiesa locale di Santa Dymphna.** E la storia di costei risale ancora più indietro nel tempo, nell’Irlanda del VI o VII secolo: si narra che la giovane Dymphna fuggì dalla sua terra quando il padre, rimasto vedovo, decise di volerla sposare. Un incesto inammissibile, folle, raccontato anche dall’arte: l’uomo è spesso raffigurato con un demone sulla spalla, che è il modo in cui la follia era intesa all’epoca. Dymphna fuggì dunque nell’attuale Belgio. Il padre riuscì ad acciuffarla: quando lei rifiutò nuovamente la richiesta di matrimonio, la decapitò. Dymphna venne dunque ricordata come una vergine martire capace di resistere alle richieste peccaminose del padre, che era anche il suo re.

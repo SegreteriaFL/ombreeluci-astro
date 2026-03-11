@@ -1,4 +1,5 @@
 ---
+
 title: Nonostante alcune delusioni
 date: 2015-06-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sono rimasta un po’ delusa dell’udienza in piazza San Pietro. Accompagnavo mio figlio Marco in carrozzina. Quando siamo entrati in piazza, a noi accompagnatori di disabili in carrozzina hanno fatto fare un percorso preferenziale e siamo stati sistemati in fila a lato. Avevo chiesto di andare davanti ai gradini, alla scalinata dove c’erano già altri disabili, ma mi è stato detto di no. Altre persone dopo di me le hanno fatte passare... Comunque da dov’eravamo si vedeva bene e avevamo il maxi schermo vicino. Il papa sulla sua papa mobile ci è passato davanti per ben due volte. Mi aspettavo che si fermasse, scendesse dall’auto e desse una carezza, una benedizione ai nostri *ragazzi* . È passato, ha salutato tutti, ha benedetto tutti. Avevo un entusiasmo per quest’udienza, ero così carica! Speravo un po’ piu’ di attenzione...
 
 Ad Assisi dormivamo in un albergo ma per la colazione, il pranzo e la cena dovevamo andare da un’altra parte, in un altro albergo molto grande. C’era tanta coda da fare all’unico ascensore per raggiungere il posto per mangiare. Questo andare avanti e indietro mi ha dato fastidio, non tanto ai *ragazzi* ma a noi accompagnatori.

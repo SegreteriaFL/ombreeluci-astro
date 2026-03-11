@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto - Insieme n.24
 date: 1980-03-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-24
 id_numero: "OEL-24"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Da Condé...
 
 Gli amici incontrati in casetta il 14 ottobre, ci scrivono per ringraziarci dell'accoglienza "... malgrado la lingua diversa, l'incontro e la comprensione sono facili fra tutti a Fede e Luce... è difficile dire tutto quello che ci ha colpito: bisogna averlo vissuto come noi lo abbiamo fatto, insieme *mano nella mano* ... certo il momento culminante del nostro pellegrinaggio è stato quando il Papa ha preso fra le braccia il nostro piccolo Christophe..."

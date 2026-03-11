@@ -1,4 +1,5 @@
 ---
+
 title: Io sono una donna. Perché mi chiami handicappata?
 date: 1999-06-12
 author: Redazione
@@ -18,6 +19,7 @@ umap_x: 6.390521049499512
 umap_y: 10.747963905334473
 umap_z: 5.826147079467773
 ---
+
 *Nel libro «I AM A WOMAN» (Io sono una donna) Annette Miinch, una giovane signora con la sindrome di Down che vive in una piccola comunità ad Elsinore in Danimarca, ci parla di sé, della sua vita, della comunità in cui vive. Le sue parole sono riportate con grande fedeltà da Jorgen Hviid, sacerdote cattolico, psicologo e uno dei membri fondatori dell’Arca in cui vive Annette. Incontriamo così una giovane donna di grande vitalità, che rivela indipendenza di giudizio e desiderio di assumere responsabilmente la direzione della sua vita. Sceglie di vivere nella comunità che arricchisce con i suoi doni, aiuta le persone che incontra a conoscere e ad apprezzare le qualità di chi chiamiamo «handicappato». Il libro non è ancora stato tradotto in italiano. (N.S.)*
 
 ### La mia nuova casa

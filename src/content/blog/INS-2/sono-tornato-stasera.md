@@ -1,4 +1,5 @@
 ---
+
 title: Sono tornato stasera
 date: 1974-12-28
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.548569679260254
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Tutte le nostre strade si sono incontrate; abbiamo partecipato a una messa, a una festa; siamo diventati una comunità cristiana."
 ---
+
 Sono tornato stasera, dopo aver partecipato a una festa "FEDE e LUCE", dopo aver vissuto ciò che diventa ogni giorno, sempre più, una "Comunità cristiana".
 
 Allora mi sono detto: Chi sei e cosa fai, tu, fratello handicappato, che mi guardi e mi sorridi, tu che non puoi parlare ma ti fai capire, tu che hai occhi puri e cuore aperto?

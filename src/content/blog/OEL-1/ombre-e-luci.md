@@ -1,4 +1,5 @@
 ---
+
 title: Ombre e luci?
 date: 1983-03-31
 author: Marie Hélène Mathieu
@@ -24,6 +25,7 @@ umap_y: 9.229522705078125
 umap_z: 7.442680835723877
 id_numero: "OEL-1"
 ---
+
 Le ombre le conosciamo bene, noi. La scoperta brutale o progressiva dell’handicap del nostro bambino, l’andirivieni da un medico all’altro, da uno specialista all’altro; la ricerca delle cause: eredità di una famiglia o dell’altra? Negligenza dell’ostetrico? Dell’infermiera?
 
 L’incubo dell’avvenire: e dopo la nostra morte? Chi si occuperà di lui? I soldi messi da parte, a che cosa serviranno? I fratelli, le sorelle: fino a che punto è giusto contare su di loro? Si può lasciar pesare sulla famiglia questa presenza dolorosa? La risposta da trovare quando lui, in età adulta, ci parla del suo desiderio di sposarsi; la rivolta, ogni tanto: la rivolta contro Dio, il dubbio sulla sua bontà, sulla sua esistenza; il “sì" così dolorosamente pronunciato e presto rimesso in questione.

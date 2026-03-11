@@ -1,4 +1,5 @@
 ---
+
 title: "Giovanni Paolo II... non sembrava né prete né papa"
 date: "2005-06-17"
 author: "Cristina Tersigni"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "L'attenzione e la tenerezza di Giovanni Paolo II per i nostri ragazzi disabili"
 ---
+
 Nicolina, Claudio, Vincenza e Daniele conoscono Fede e Luce durante uno dei campeggi organizzati nel 1980 dagli amici delle comunità ad Alfedena. Abitano a Pescasseroli; là vicino, hanno un ristorante ed è lì che la comitiva un po’ speciale di Fede e Luce li incontra, durante una passeggiata. Nasce un'intensa amicizia con questa famiglia stretta intorno al piccolo Daniele, bambino anche lui un po’ speciale. Quanto segue è il ricordo, dalla voce di Nicolina, dell’incontro con Giovanni Paolo II.
 
 Nel 1981 abbiamo partecipato al pellegrinaggio internazionale a Lourdes, anche se Daniele fino all'ultimo sembrava non potesse venire. Sul treno, durante il lungo viaggio, si stringono amicizie importanti e noi ne abbiamo vissuta una con i genitori di Manuela, Massimo e Brunella.

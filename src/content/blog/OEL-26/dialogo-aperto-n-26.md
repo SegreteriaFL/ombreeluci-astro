@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 26
 date: 1989-06-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-26
 id_numero: "OEL-26"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Noi operatori
 
 Da quando quei due occhi neri sono entrati nella mia vita non posso più far finta di niente; sento che mi si chiede qualche cosa di più grande della mia misera affermazione personale; sì, so che in questi miei desideri c’è una molla egoistica, ma ora, avverto anche che è giunto il momento di far camminare parallele le mie aspirazioni professionali e il mio essere figlia dell’Amore. Scusatemi per arricchire, sostanziare la mia prossima laurea, perché io possa, nel futuro, dedicarmi all’insegnamento dei bambini, ragazzi, inabili. Mi sono finalmente decisa a scrivervi perché ho avuto l’impressione, leggendo gli ultimi numeri della vostra rivista, che la vostra attenzione si era particolarmente rivolta ai cosiddetti operatori e a coloro (cioè noi «sani» o «normali») che siamo i veri inabili, incapaci, di fronte a questa esperienza di vita. Non sapete quanto vi siamo grati per farci sentire «coinvolti» e non ai margini; continuate ad aiutarci! Non penso che per essere partecipi bisogna sentire il problema (ma lo è?) solo perché tocca qualche congiunto o amico; e questo soprattutto se si crede alla visione universale dell’essere tutti la grande famiglia di Dio. Aiutatemi a dare un senso più profondo alla mia vita e grazie perché ci aiutate ad amare. P.S. Vi sarò grata se vorrete ampliare l’angolo bibliografico e fornire utili consigli a chi vuole essere dentro e non più fuori.

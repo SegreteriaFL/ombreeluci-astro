@@ -1,4 +1,5 @@
 ---
+
 title: Forse per questo non sono andato via
 date: 1985-03-30
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-9
 id_numero: "OEL-9"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ho due fratelli miopatici, più grandi di me e due sorelle più piccole. Fin dai primi ricordi, trovavo del tutto normale che i miei fratelli non corressero come gli altri, salissero le scale con difficoltà; era naturale come è naturale l'intero universo. Prima tristezza, prima angoscia: qualche parola sfuggita durante una conversazione dei miei genitori in una stanza vicina. Senza capire esattamente quello che dicevano, capivo che parlavano di me, che mi paragonavano ai miei fratelli. La parola «sintomo» ritornava spesso. Da allora, mi è capitato di provare del panico al pensiero che le mie forze, la mia agilità potessero diminuire come le loro. Lo temevo e avevo vergogna di temerlo.
 > Ho scoperto poi che non c’è famiglia che non passi per la prova.
 

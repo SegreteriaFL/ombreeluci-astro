@@ -1,4 +1,5 @@
 ---
+
 title: L’aiuto spirituale dei nonni
 date: 1997-12-15
 author: Henri Bissonier
@@ -17,6 +18,7 @@ umap_x: 4.76922082901001
 umap_y: 9.553574562072754
 umap_z: 8.572775840759277
 ---
+
 U
 na bella testimonianza ci viene da
 **Emanuela Laborit**

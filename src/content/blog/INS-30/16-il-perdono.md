@@ -1,4 +1,5 @@
 ---
+
 title: 16. Il perdono
 date: 1981-12-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Marzo 1981
 
 Non avere paura poiché io ti ho riscattato. Ti ho chiamato per nome, tu sei mio. Se attraverserai le acque, io sarò con te e le onde non ti sommergeranno. *(Isaia 43, 6)*

@@ -1,4 +1,5 @@
 ---
+
 title: I geni del passato... HandiCHE?!?
 date: 2017-03-16
 author: Emanuele Mendola
@@ -15,6 +16,7 @@ issue_number: OEL-137
 id_numero: "OEL-137"
 numero_rivista: "Ombre e Luci"
 ---
+
 A
 pprofonditi studi condotti dall’archeologa Penny Spikins (del dipartimento di Archeologia dell’Università di York, in Inghilterra), hanno riscontrato la totale assenza dei geni chiave dell'autismo sia nel genoma dei Neanderthal, che in quello dell'homo di Denisova, entrambi nostri “vicini” parenti. C’è poi un salto, uno scalino nell’evoluzione umana, che finora gli studiosi non sono riusciti a spiegare: la teoria dell’archeologa sostiene che nell’età della pietra alcune disfunzioni del comportamento potrebbero essere state veicolo di innovazione e creatività. L’elevata concentrazione, la scarsità di empatia, l’attitudine a focalizzarsi unicamente sull'analisi, sulla teorizzazione, sullo studio e comprensione di argomenti spesso tecnici e difficili, l’assiduità, la perseveranza e la metodicità sono proprio alcune delle caratteristiche tipiche di persone con autismo ad alto funzionamento (o sindrome di Asperger). Invece, un pensiero molto creativo si può facilmente riscontrare anche nei disturbi del tono dell'umore di tipo bipolare, tipico delle persone che sviluppano allucinazioni. Secondo l’interessante studio della dr.ssa Spikins, intitolato
 *The stone age origins of autism*

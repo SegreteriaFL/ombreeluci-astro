@@ -1,4 +1,5 @@
 ---
+
 title: "Paola è venuta ad abitare con noi - Comunità Nicodemo"
 date: "2001-09-27"
 author: "Beatrice Ghislandi"
@@ -14,7 +15,10 @@ categoria_menu: "Comunità"
 issue_number: OEL-75
 id_numero: "OEL-75"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La vita semplice di una famiglia che si arrabatta a cercare la propria strada ogni giorno, ma che in questa ricerca decide di aprirsi al confronto con altre famiglie, scoprendo che dalla condivisione e dalla vicinanza nascono nuove energie e potenzialità per ciascuno, grande o piccolo che sia."
 ---
+
 La nostra comunità si è ispirata a Nicodemo, personaggio poco conosciuto del Vangelo di Giovanni. **Nicodemo sta bene, ma non completamente*. È in ricerca, pronto a lasciarsi coinvolgere. Rischiando la propria reputazione, di notte si alza e va a cercare Gesù per «interrogarlo». Per un po’ non si sbilancia... ma quando Gesù è deposto dalla croce, Nicodemo porta personalmente l’olio profumato per ungerne il corpo. Un vaso molto costoso e molto, molto pesante... E così che esce allo scoperto, giocandosi in prima persona...
 
 «Spendere» tutto, «giocarsi in prima persona»... è il progetto di noi famiglie che scegliamo la comunità.

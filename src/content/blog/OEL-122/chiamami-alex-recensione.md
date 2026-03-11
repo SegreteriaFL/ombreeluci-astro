@@ -1,4 +1,5 @@
 ---
+
 title: Chiamami Alex - Recensione
 date: 2013-06-10
 author: Rita Massi
@@ -14,7 +15,10 @@ umap_z: 5.024317264556885
 issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Lynda Johnson Vitali - Edizioni “Leggere per cambiare”  nov .2012, pagg.164"
 ---
+
 L'autrice ripercorre trent’anni di vita del figlio Alex, affetto dalla sindrome di Down, secondo di tre figli. Sulla beata felicità di una normale famiglia cade un fulmine a ciel sereno. Ma questo fulmine presto, nella madre, si trasforma in energia, data dall’amore e da un profondo, radicato e pragmatico senso di giustizia e di volontà.
 
 **Alex oggi è un ragazzo autonomo con un lavoro ed una fidanzata** , in grado anche di sapersi rammaricare della sua disabilità. Le sue risorse e le sue capacità sono state incentivate ed ha potuto realizzare i suoi sogni. Ha praticato con successo vari sport, ha frequentato la scuola, ha condiviso esperienze con i fratelli.

@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 147
 date: 2019-10-29
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-147
 id_numero: "OEL-147"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### La formazione che ci fa muovere
 
 Da tempo il consiglio provinciale desiderava un weekend di formazione e a fine marzo, finalmente, lo abbiamo realizzato. Presenti i responsabili di Piemonte, Veneto e Lombardia. Mancavano purtroppo i responsabili della Galilea (in Israele chi insegna non si può allontanare dal Paese fino a Luglio). Porteremo questa formazione andandoci. La figura di Pietro ci ha introdotto alla responsabilità con una performance teatrale di Sergio tratta da ‘’Il Mio Nome è Pietro’’ e nella Veglia abbiamo potuto ricordare la nostra chiamata in Fede e Luce. Pietro ci ha condotto anche il Sabato, sotto la guida di Don Mauro. Ci siamo poi affidati a dei testimoni d’eccellenza, Raul, il nostro coord. internazionale, e Jean Vanier, per avviare i gruppi di scambio. Al cuore la chiamata di Gesù per ciascuno di noi, alla responsabilità per servire. Ma farsi Servo per amore richiede un lavoro su di sè, di attaccamento a Gesù. La chiamata alla responsabilità è una chiamata alla felicità, che ci rende uomini e donne migliori. Gli scambi, la conoscenza reciproca, i racconti si sono snodati nelle giornate. Domenica, Angela Grassi ci ha condotto magistralmente ad approfondire la Carta, le nostre radici. La gioia di aver accettato questa sfida era palpabile, sia tra i partecipanti che tra gli organizzatori. Questa formazione ci farà muovere veramente. Una nota va data per il luogo, “Da vicino nessuno è normale”, ex manicomio convertito dalla Cooperativa Olinda. Antonio ci ha parlato di questa storia e della bella testimonianza sulla salute mentale.

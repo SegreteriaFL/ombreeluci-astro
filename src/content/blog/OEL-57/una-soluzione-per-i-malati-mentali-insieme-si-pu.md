@@ -1,4 +1,5 @@
 ---
+
 title: "Una soluzione per i malati mentali - \"Insieme si può\""
 date: 1997-03-25
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 7.492889881134033
 umap_y: 9.001063346862793
 umap_z: 6.37605619430542
 ---
+
 Questa casa (e relativo laboratorio), per il recupero dei giovani (18-35 anni) malati mentali appare un caso esemplare di soluzione umana ed economica ai problemi angosciosi seguiti alla legge 180 sulla cura dei malati mentali e alla chiusura dei manicomi. Il modo migliore per descriverlo è con la sua storia. Base di partenza è la cooperativa «Insieme si può» con 630 soci a Conegliano (Treviso e province vicine). È una cooperativa sociale nata da 14 anni — spiega la presidente Rina Biz — che «fa solidarietà al suo interno, prima ancora che qualcuno all'esterno garantisca il suo lavoro». La descrizione e le informazioni che seguono vengono, oltre che dalla citata presidente della cooperativa, dalla psicologa direttrice del centro Patrizia Furlan, dalla musico-terapista Egle Bottega, oltre che da una visita al centro.
 
 Sapevamo che con il 96 si sarebbero dovuti chiudere gli ultimi manicomi. All’inizio del '95 Eugenio Rovignani, vescovo di Vittorio Veneto, ci chiamò. Disse che ogni giorno si rivolgevano a lui famiglie disperate che avevano in casa malati mentali che non riuscivano a gestire. Il dramma sarebbe cresciuto con la chiusura totale dei manicomi. «Voi che siete una realtà di ispirazione cristiana (la cooperativa ha origine nelle ACLI) e avete tra i vostri fini l’assistenza ai malati mentali, mettete su una iniziativa». Chiamò la parrocchia di S. Lucia di Piave che aveva costruito questa casa per ospitare anziani proponendole di darcela in affitto. Così abbiamo avviato questa attività terapeutica di recupero dove oggi sono 25 malati mentali assistiti da 15 operatori e 4 obiettori in servizio civile.

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 145
 date: 2019-04-08
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-145
 id_numero: "OEL-145"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Rappresentare una grande famiglia
 
 Amici carissimi, sabato per me è stato un giorno speciale per me perché nella mia parrocchia dedicata a s. Cirillo e Metodio ci è venuto a trovare il cardinale vicario di Papa Francesco, Mons. Angelo De Donatis. Un giorno molto importante perché in quella occasione ho consegnato al cardinale il carnet di Fede e Luce. Non è semplice descrivere le emozioni vissute perché sono emozioni indescrivibili. Già stare lì e viverle in prima persona... poi metteteci il fatto di rappresentare una grande famiglia come quella di Fede e luce nella mia parrocchia - unica in Italia con il nome S. Cirillo e Metodio- dove spero tanto di cominciare una comunità... è stato un motivo in più per portare con me tutto quello che mi trasmette ogni persona di Fede e luce. Grazie mille a tutti.

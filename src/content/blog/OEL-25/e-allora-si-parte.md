@@ -1,4 +1,5 @@
 ---
+
 title: E allora si parte?
 date: 1989-03-21
 author: Rita Ozzimo
@@ -19,6 +20,7 @@ issue_number: OEL-25
 id_numero: "OEL-25"
 numero_rivista: "Ombre e Luci"
 ---
+
 **Puoi descriverti e dire qualcosa sulla tua famiglia?** Io sono casalinga. A 23 anni ho avuto il primo bambino che è... spastico. Da qui è cominciato un po' tutto. Dopo tre anni è nato il secondo bambino e ho vissuto per anni chiusa in casa. Pensavo in qualche modo di proteggerlo questo mio figlio da tutte le cose, dagli sguardi delle persone che potevano dire: «Hai un figlio diverso!». Anche se lui in quel periodo non poteva capire, ero io che mi preservavo da questi sguardi indiscreti. Sono stata molti anni chiusa in casa per questo.
 
 **Quando e come hai cambiato atteggiamento verso tuo figlio e verso gli altri?** Il primo cambiamento è stato quando ho visto che qualcuno guardava mio figlio in modo diverso da come lo guardavano per la strada. Qualcuno è andato oltre l’apparenza, ha visto lui internamente. Mi hanno chiesto di affidarlo non perché era capace di fare cose, di parlare, di mangiare, di tenersi pulito; l’hanno voluto per quel che era e io ho visto le cose in un altro modo, ho ritrovato fiducia.

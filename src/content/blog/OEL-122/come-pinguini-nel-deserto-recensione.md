@@ -1,4 +1,5 @@
 ---
+
 title: Come pinguini nel deserto - Recensione
 date: 2013-06-10
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
 ---
+
 Illibro raccoglie una serie di testimonianze di genitori di figli con sindrome di Down scritte tra il 2003 e il 2005 su un forum della rete, dove decine di madri e padri hanno condiviso le loro paure, le difficoltà e le speranze su diversi momenti che accompagnano la crescita del figlio.
 
 **In seguito alla chiusura del forum** , alcune persone che lo animavano hanno deciso di farlo rivivere su un nuovo dominio ( [pianetadown.org](https://www.pianetadown.org/) ) e di riportare le testimonianze più significative in questa raccolta voluminosa, suddivisa per argomenti specifici: si va dalla diagnosi alle terapie, passando per il comportamento e l’integrazione sociale.

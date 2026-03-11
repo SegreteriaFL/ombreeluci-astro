@@ -1,4 +1,5 @@
 ---
+
 title: Noi, non io
 date: 2020-09-15
 author: Serena Sillitto
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ho il sospetto che molte persone che fanno parte attiva del variegatissimo movimento di [Fede e Luce](http://fedeeluce.it) ne conoscano poco le fonti scritte. La prima sono io che, solo anni dopo il mio ingresso in comunità, ho sentito prima il bisogno (quando sono diventata coordinatrice) e poi il desiderio (quando ho cominciato a sentirmi filo di un arazzo) di saperne di più. Di entrare con più consapevolezza nel cuore di quella piccola scintilla accesa ufficialmente a Lourdes nella Pasqua del 1971 e che brilla da quasi cinquant’anni nelle storie e nelle giornate di tante persone nel mondo.
 
 Se dovessi chiedere a ogni ragazzo, genitore o amico il motivo del suo stare a Fede e Luce, immagino che la risposta più gettonata avrebbe a che fare con la libertà, l’amicizia e l’inclusione: in comunità si è liberi di essere sé stessi, di stare con i propri amici e di volersi bene. E in effetti è proprio così: la storia di Fede e Luce parla di libertà e di amicizia, di rispetto per la persona e per le sue infinite fragilità, parla di relazioni umane, parla di Gesù.

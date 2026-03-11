@@ -1,4 +1,5 @@
 ---
+
 title: Diritto alla festa
 date: 1988-06-30
 author: Mariangela Bertolini
@@ -19,6 +20,7 @@ issue_number: OEL-22
 id_numero: "OEL-22"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Mi piace stare insieme!» *.*
 
 «È bello, mi piace!».

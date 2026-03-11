@@ -1,4 +1,5 @@
 ---
+
 title: #IoRestoACasa, stavolta come tutti
 date: 2020-03-19
 author: Lucina Spaccia
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 È
 tempo sospeso, tempo diverso, tempo vuoto, tempo nuovo… tempo, comunque. Ci vuole tempo, attenzione, pazienza in queste settimane della serie
 **#iorestoacasa**

@@ -1,4 +1,5 @@
 ---
+
 title: Il caso Potenzoni di Federica Sciarelli – Recensione
 date: 2021-10-20
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 D
 olore, rabbia, angoscia ma anche un po’ di calore. Sono diversi i sentimenti che provoca la lettura de
 *Il caso Potenzoni*

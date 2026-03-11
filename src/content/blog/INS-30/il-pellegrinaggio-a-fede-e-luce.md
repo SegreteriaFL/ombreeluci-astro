@@ -1,4 +1,5 @@
 ---
+
 title: Il pellegrinaggio a Fede e Luce
 date: 1981-12-20
 author: Mariangela Bertolini
@@ -18,6 +19,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Il pellegrinaggio è un gesto concreto per manifestare il desiderio di avanzare insieme in un cammino di fede, di speranza e di amore. Invitare ad un pellegrinaggio può sembrare un gesto audace. La stessa parola — così poco in uso ai nostri giorni — ricorda una manifestazione fuori moda, che non fa più per noi. Eppure il pellegrinaggio è un avvenimento importante.
 
 Per andare in pellegrinaggio bisogna lasciare il proprio paese, la propria città, la propria casa, le piccole abitudini. Si tratta di rispondere ad una chiamata che ci spinge ad uscire da noi stessi per incontrare l’Altro. La nostra risposta è vera nella misura in cui esige un cambiamento del cuore. Il pellegrinaggio è un cammino che ci impegna personalmente. Per questo, al momento di partire, sentiamo in noi un misto di entusiasmo e di inquietudine.

@@ -1,4 +1,5 @@
 ---
+
 title: "Costruiamo l'accoglienza"
 date: 2017-06-28
 author: Cristina Tersigni
@@ -18,7 +19,10 @@ umap_z: 9.008008003234863
 issue_number: OEL-138
 id_numero: "OEL-138"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Non ci sono dubbi: se c’è una strada di salvezza…ogni essere umano prova a percorrerla. Non stanchiamoci di far domande e costruiamo l’accoglienza"
 ---
+
 Una mamma, ad un seminario sul Dopo di noi organizzato dalla CEI con il settore della catechesi nella disabilità, condivideva la sua preoccupazione per il futuro della figlia.
 
 Ad un anno dall’approvazione del [**Dopo di noi**](https://www.ombreeluci.it/2017/la-nuova-legge-sul-dopo-di-noi-che-cosa-dice/) , in questo numero cominciamo a parlarne cercando risposte alle varie perplessità che la legge ci pone. Quella mamma sottolineava che lo Stato interviene, sì, ma come finanziatore insufficiente. Non voleva certo censurare i tanti interventi privatistici auspicati dalla legge... ma, si domandava, dove le risorse non ci sono, cosa accade?

@@ -1,4 +1,5 @@
 ---
+
 title: In cammino… con te
 date: 2024-11-26
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 13.123283386230469
 issue_number: OEL-167
 id_numero: "OEL-167"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La formazione dei giovani a Lignano Sabbiadoro"
 ---
+
 «Poter vivere una formazione è vitale per i giovani perché è l’occasione per capire che sono parte di una comunità più estesa. Le comunità di Fede e Luce sono ovunque, condividono gioie simili e affrontano sfide simili. Nel nostro incontro impariamo che non siamo soli e insieme possiamo condividere esperienze e soluzioni». Lovro Krpan dalla Croazia spiega bene la necessità che ha spinto a organizzare una settimana formativa per i giovani di Fede e Luce della regione coordinata da Angela Grassi, che comprende Albania, Cipro, Croazia, Galilea, Grecia, Italia, Slovenia e Svizzera. L’ultima occasione per gli italiani risaliva al 2018 a Fano e, ancor prima, ad Alicante in Spagna per giovani con e senza disabilità provenienti dalle comunità di tutto il mondo.
 
 L’intento di queste formazioni è quello di incontrare e sostenere il cammino di quanti sotto i trent’anni si avvicinano alle comunità di Fede e Luce: sono il futuro e, ognuno a suo modo, può dare nuovo impulso ai legami di amicizia che sperimentiamo nelle comunità.

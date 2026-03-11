@@ -1,4 +1,5 @@
 ---
+
 title: Chi ha avuto paura, fa gratis un altro giro - Una giornata al Luneur di Roma
 date: 1990-12-27
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-32
 id_numero: "OEL-32"
 numero_rivista: "Ombre e Luci"
 ---
+
 D
 irettore, proprietari, lavoratori del
 **Luna Park dell'EUR**

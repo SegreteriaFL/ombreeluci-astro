@@ -1,4 +1,5 @@
 ---
+
 title: Incontri
 date: 2003-03-02
 author: Redazione
@@ -17,7 +18,10 @@ tags:
 umap_x: 7.376582145690918
 umap_y: 9.122234344482422
 umap_z: 12.64657211303711
+
+subtitle: "La nostra presenza ha un valore e può dare la vita a chi è stato profondamente ferito e ha il diritto di sapere che è amato"
 ---
+
 > Mi torna spesso in mente la frase, che è il nostro motto “Meglio accendere una luce che maledire Voscurìtà” e penso che tante volte neanche si ha la forza di accendere una luce e neppure di maledire l’oscurità. Ma la cosa peggiore è restare paralizzati nell'oscurità. **Enza Gucciardo**
 
 https://youtu.be/shVBkBWQHrk

@@ -1,4 +1,5 @@
 ---
+
 title: Io prete ho adottato Valentino
 date: 1999-12-17
 author: Sergio De Rino
@@ -17,7 +18,10 @@ tags:
 umap_x: 4.551385402679443
 umap_y: 10.210602760314941
 umap_z: 7.707730770111084
+
+subtitle: "Intervista con Don Gino Rigoldi : sacerdote, padre adottivo e nonno, un esempio di accoglienza e amore incondizionato"
 ---
+
 Cappellano del carcere minorile "Beccaria " di Milano e fondatore di "Comunità Nuova". In questi giorni si è parlato molto di lui perché ha ottenuto dai suoi superiori l’autorizzazione ad adottare il giovane Valentino, padre del piccolo Christian. E diventato così nello stesso momento padre e nonno.
 
 Grazie a Giuliana Compagnoni, da tempo amica attiva di Fede e Luce e segretaria della Fondazione che sostiene la "Comunità Nuova", ho incontrato Don Gino presso la sede della sua comunità: si tratta di pochi locali siti in un condominio popolare all’estrema periferia della città. Fra una telefonata e l’altra, spesso avvicinato dagli operatori della comunità con urgenti problemi da sottoporgli, raccolgo le risposte, date con sorridente affabilità, alle domande di "Ombre e Luci".

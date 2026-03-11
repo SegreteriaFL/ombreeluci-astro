@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 100
 date: 2007-12-10
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 4.436246395111084
 umap_y: 7.672600746154785
 umap_z: 10.39988899230957
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### L’ho letto di un fiato
 
 Ieri ho ricevuto il nuovo n.3/07 della vostra rivista, direi nostra, “Ombre e Luci”, ricca, mi pare più di altre, di tanta luce, quella luce che dà speranza sul futuro, nonostante le difficoltà che ogni famiglia con un disabile ha. Solitamente la leggo, nei pochi ritagli di tempo che trovo. E dopo averla sfogliata velocemente, questa mattina iniziando da “
@@ -30,11 +34,15 @@ Cioè per lui erano tutti preferiti nel momento del bisogno. Ma quello che è ma
 **Lina Cusimano**
 , Mamma di Roberto, Roma
 
+
+
 ---
 
 Era mio desiderio portare la foto di Augusta personalmente anche per rivedere la signora Mariangela Bertolini conosciuta a Lourdes nel 1968, ma gli impegni come nonna me lo hanno impedito. Il nostro angelo è volato in cielo già da undici anni lasciando in noi tutti un doloroso rimpianto. La invio, quindi, con gli auguri di ogni bene per voi redazione e per la grande famiglia di “Ombre e Luci”.
 **Adriana Lunghi**
 , Mamma di Augusta, Roma
+
+
 
 ---
 
@@ -42,11 +50,15 @@ Grazie che “come vecchia affezionata” vi unite a me nella “rimembranza” 
 **Maria Antonella Bianchi**
 , Alba Adriatica (TE)
 
+
+
 ---
 
 Vi ringrazio che vi siete ricordati di Maurizio con piacere vi spedisco due foto sperando di vederne una nel prossimo numero. Cari saluti a tutti.
 **Liliana Tomassoli**
 , Perugia
+
+
 
 ---
 
@@ -54,11 +66,15 @@ Ho ricevuto la vostra gentile richiesta: ricordo con nostalgia la mia prima visi
 **Francesca Grimaldi**
 , Roma
 
+
+
 ---
 
 Ti invio la foto di Michele, che risale pressappoco al primo periodo di Fede e Luce. Nel ricordo sempre vivo e affettuoso di tutte le persone che mi sono state vicine.
 **Delia Mitolo**
 , Bari
+
+
 
 ---
 
@@ -66,11 +82,15 @@ Mi fa piacere che per festeggiare il 100° numero raccogliate le foto dei nostri
 **Carla Perozzi**
 , Roma
 
+
+
 ---
 
 Vi mando alcune foto di Giuliana scattate nei primi anni di Fede e Luce a Bari... Un caro saluto a tutta la redazione con stima ed affetto, anche a nome di Irene.
 **Renato Loiudice**
 , Bari
+
+
 
 ---
 
@@ -78,17 +98,23 @@ Sono molto lusingata della richiesta della foto di mio figlio Roberto Masci nato
 **Vittoria Masci D’Orazio**
 , Roma
 
+
+
 ---
 
 Con gioia ho ricevuto la vostra lettera. Gli anni passano, ho 87 anni ma per me vi ho sempre nel mio cuore. Ricordo che ero disperata quando Roberto era piccolo, ma trovarmi con voi mi dette la forza di superare tante tristezze. Ricordo che Madre Ida preparò Roberto per fare la Prima Comunione. Fravamo come una grande famiglia. Ora Roberto è in Collegio Raggio di Sole e viene sabato e domenica a casa. Un caro saluto a tutti P.S. Roberto ormai è un giovanotto bravo, malgrado non sa leggere e scrivere. Lo fa solo a modo suo.
 **Anna Rosa Casinghini**
 , Roma
 
+
+
 ---
 
 Anche se così lontani, vi seguo sempre con grande affetto. Non appena ho ricevuto la vostra lettera mi sono trovata a riguardare con tanta nostalgia le foto delle numerose feste e pellegrinaggi che abbiamo vissuto insieme. Uso il termine “vissuto” perché, secondo me, a Fede e Luce non si partecipa semplicemente, ma si vive un’emozione che poi ti accompagna per il resto della tua esistenza, qualsiasi cosa poi la vita ti porti a fare. Mi sono persa tra una miriade di ricordi, amici che non vedo da tanto tempo o che semplicemente non ci sono più. Tra le tante foto ne ho trovata una (p. 2) del vecchio gruppo “Ascensione” che abbiamo scattato durante un weekend a Fiuggi... Spero tanto di riuscire presto ad abbracciarvi magari in occasione della prossima Festa della Primavera, chissà! Le vie del Signore sono infinite, anche se a volte vanno un po’ troppo in salita. Un grande saluto a tutti voi da
 **Rosa Staforte S.Ippolito**
 (PS)
+
+
 
 ---
 

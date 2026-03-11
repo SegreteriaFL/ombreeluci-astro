@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 12
 date: 1985-12-15
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-12
 id_numero: "OEL-12"
 numero_rivista: "Ombre e Luci"
 ---
+
 *"Ho letto l’ultimo numero di Ombre e Luci tutto di un fiato. Sono rimasta affascinata dalla molteplicità dei modi con cui si può fare la casa famiglia..."; "Mariangela ha ragione! Non possiamo aspettarci tutto dallo Stato. Incominciamo a muoverci tutti come una grande famiglia..."*
 
 ### Usiamo i nostri talenti

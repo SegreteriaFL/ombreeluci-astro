@@ -1,4 +1,5 @@
 ---
+
 title: "La pazzia e l’amore - Un cammino verso l'anima del malato di mente"
 date: 1992-06-06
 author: Natalia Livi
@@ -15,6 +16,7 @@ issue_number: OEL-38
 id_numero: "OEL-38"
 numero_rivista: "Ombre e Luci"
 ---
+
 Q
 uesto libro, scritto più di cinquanta anni fa e ormai diventato un classico della psicoanalisi delle psicosi, si legge d’un fiato ed è così affascinante da non potersene staccare. E la storia toccante di un lavoro svolto dall’autrice, infermiera e psicoanalista svizzera, nei primi anni della sua carriera fra le donne psicotiche del «reparto agitate» della
 *Clinica Psichiatrica dell’Università di Vienna*

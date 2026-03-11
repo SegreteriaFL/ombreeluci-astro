@@ -1,4 +1,5 @@
 ---
+
 title: "I pasti di Francesca: un rito e una avventura"
 date: 1989-12-26
 author: Redazione
@@ -20,6 +21,7 @@ issue_number: OEL-28
 id_numero: "OEL-28"
 numero_rivista: "Ombre e Luci"
 ---
+
 Francesca ha ventiquattro anni. È nata sorda e quasi cieca in seguito a una rosolia contratta dalla madre durante la gravidanza. Non parla, ma comunica con noi attraverso un linguaggio molto limitato, tutto fatto di gesti: per dire «mamma» per esempio, si incrociano le braccia e si fa il gesto di cullare. Per dire «bere» si fa finta di vuotare un bicchiere. L’interesse principale di Francesca è rappresentato dai gesti che hanno qualche rapporto con il nutrimento.
 
 ### Come una porcellana

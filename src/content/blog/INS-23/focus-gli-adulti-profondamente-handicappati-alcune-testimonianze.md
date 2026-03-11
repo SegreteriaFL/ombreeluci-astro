@@ -1,4 +1,5 @@
 ---
+
 title: "Focus: gli adulti profondamente handicappati, alcune testimonianze"
 date: 1979-09-16
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 8.154679298400879
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Abbiamo raccolto diverse voci e testimonianze che i problemi e le difficoltà nell'accudimento e la cura di un adulto con disabiltità"
 ---
+
 Ècosì naturale tenere fra le braccia un neonato... Così come è un gesto naturale tenere fra le braccia un bambino handicappato. Ma, un adulto... Ascoltare i balbettii di un bambino è una cosa, cercare di interpretare quelli di un adulto... è tutt'altro. Dar da mangiare ad un bambino, anche un po' cresciuto è una cosa, ma dover imboccare un uomo, è tutt'altro. È naturale dover provvedere alle cure igieniche di un bambino; ma fare questo servizio ad un adulto, non è poi così naturale.
 
 Lavare, nutrire, cullare,portare, spingere, un bambino piccolo, per una mamma giovane, è una cosa spontanea. Ma tutto questo, ad un adulto, quando per di più non si hanno più vent'anni, è tutta un'altra cosa.

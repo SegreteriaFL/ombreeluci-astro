@@ -1,4 +1,5 @@
 ---
+
 title: "«C'è un problema». E lo affrontiamo."
 date: "2020-12-14"
 author: "Monica Leggeri"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ho conosciuto Anna Claudia Cartoni tanti anni fa. Era la sorella di un mio amico, Roberto, affetto da autismo che frequentava con me gli scout"
 ---
+
 # Aiutaci a farci conoscere!
 
 ## Regala Ombre e Luci a soli 10€

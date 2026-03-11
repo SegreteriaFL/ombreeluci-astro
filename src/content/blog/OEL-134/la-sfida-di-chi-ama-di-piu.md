@@ -1,4 +1,5 @@
 ---
+
 title: "La sfida di chi ama di più"
 date: "2016-06-16"
 author: "Cristina Tersigni"
@@ -14,7 +15,10 @@ categoria_menu: "Fede"
 issue_number: OEL-134
 id_numero: "OEL-134"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Quando era stato annunciato il Giubileo delle persone disabili e degli ammalati nel giugno appena passato, l’accostamento tra disabilità e malattia mi aveva lasciato un po’ perplessa..."
 ---
+
 Quando era stato annunciato il Giubileo delle persone disabili e degli ammalati nel giugno appena passato, l’accostamento tra disabilità e malattia, due esperienze che naturalmente sovrapponiamo ma che in tanti mi hanno insegnato a distinguere mi aveva lasciato un po’ perplessa: e mi dava tanto l’idea di un recinto, di una separazione tra i normali sani fortunati e gli sfortunati malati e disabili...
 
 La necessità di rimettere la Misericordia Divina al centro della nostra vita cristiana - in qualsiasi luogo ci si trovi- finalmente consapevoli di poterci affidare alle Sue mani per dare nuova luce alle nostre fragilità e alle nostre quotidiane cadute, era la premessa con cui era stato indetto questo Giubileo straordinario. Forse ognuno avrebbe potuto partecipare con la sua parrocchia o con la sua comunità ad un evento che coinvolge ogni battezzato nel cammino di ricerca di Misericordia di cui tanto, tutti, abbiamo bisogno: sani, disabili, malati, parte di un popolo di Dio che è davvero completo se non lascia a casa nessuno che voglia partecipare. Anche perchè camminare in un pellegrinaggio giubilare a fianco di chi non vive situazioni proprio facili e che con grande umiltà chiede misericordia, può dare la giusta prospettiva per una vita cristiana più consapevole. Ma così forse malati e disabili sarebbero rimasti in molti a casa... Santa Madre Chiesa conosce i suoi figli e ha preso le giuste misure.

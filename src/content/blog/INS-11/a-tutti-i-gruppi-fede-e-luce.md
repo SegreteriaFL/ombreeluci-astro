@@ -1,4 +1,5 @@
 ---
+
 title: A tutti i gruppi Fede e Luce
 date: 1976-12-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.84896469116211
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Traccia di lavoro per l'anno 1976/77"
 ---
+
 Malgrado la dispersione geografica dei nostri gruppi, pensiamo che una linea di programma comune possa farci sentire più uniti. Ogni gruppo poi, ha una sua vita indipendente.
 
 **Natale** : ogni gruppo, nella misura del possibile, troverà il modo di unirsi ad un altro gruppo per vivere insieme la festa.

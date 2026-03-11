@@ -1,4 +1,5 @@
 ---
+
 title: Umorismo e handicap un terreno minato
 date: 2014-09-29
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 7.239075183868408
 issue_number: OEL-127
 id_numero: "OEL-127"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ridere è un segno di vita ma che posto ha l’umorismo in una famiglia dove c’è una persona con handicap? Si può ridere sull’handicap? Isabelle, mamma di un giovane down, si racconta..."
 ---
+
 **Che posto ha l’umorismo nella vostra famiglia?** Mi sembra che l’umorismo o almeno il ridere ha sempre avuto posto nella nostra famiglia e mi pare ancora di più dopo la nascita di nostro figlio. L’umorismo ci ha fatto prendere le distanze rispetto a ciò che vivevamo, liberando il riso di cui avevamo bisogno per sfuggire ogni tanto alla realtà dell’handicap. Come un respiro profondo che evita l’asfissia e che permette di ritrovare le forze. Questo modo di trattare alla leggera cose gravi o pesanti ci ha permesso di non rinchiuderci in noi stessi, di mettere un po’ a distanza la sofferenza, di decomprimere semplicemente. L’umorismo non è legato per forza alla gioia, ma non è separabile dal comico, da cui proviene il suo aspetto terapeutico. Il riso libera le tensioni, lo stress, le angosce. È universale e comunicativo. Con Sebastiano ci ha aiutato spesso a trasformare una certa inerzia legata alla sua lentezza, dai suoi rituali, inconfondibili, dalle difficoltà di comprensione.
 
 **Riuscite a ridere con Sebastiano del suo handicap?** È successo qualche volta… per farlo reagire su se stesso, per fargli prendere un po’di distanza dalle sue piccole “manie”, ma è un terreno delicato che facilmente può ferire. Tutto sta nel modo di fare… Sebastiano, a causa di apnee che possono sopraggiungere durante il sonno, da un po’ di anni, è obbligato a portare una maschera sulla bocca e sul naso per essere collegato ad una macchina. All’inizio non è stato facile da accettare, ma con lui abbiamo potuto ridere paragonandolo al suo supereroe Spiderman che aveva anche lui una maschera. Credo che questo l’abbia aiutato a sopportarla meglio! La difficoltà ad esprimersi oralmente ed a farci capire certe parole con tutta la pazienza di cui è capace, ci hanno portato a veri scoppi di risa anche in un cerchio familiare allargato a cugini della sua età! È così bello vedere questa complicità con delle persone che sanno amarlo così com’è, nonostante il suo handicap. Sebastiano è capace di ridere, di avere scoppi di risa, ha senso dell’umorismo… non lo credevo possibile. È una grande gioia per noi ridere con lui.

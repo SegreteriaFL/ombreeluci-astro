@@ -1,4 +1,5 @@
 ---
+
 title: "Un po' alla volta"
 date: 1999-09-17
 author: Huberta Pott
@@ -15,6 +16,7 @@ umap_x: 5.568925857543945
 umap_y: 8.6477689743042
 umap_z: 9.11296272277832
 ---
+
 D opo aver letto la lettera della maestra, mi è venuta in mente la piccola grande famiglia di una cittadina vicino Roma. Papà, mamma e figlia vivono la stessa situazione, secondo me, in modo particolare ed esemplare. Ho fatto una lunga chiacchierata per telefono con questo papà la cui giovane moglie ha la sclerosi multipla, e insieme hanno una figlia di dieci anni.
 
 **Quando si è manifestato il male?** Mia moglie ha cominciato ad avere problemi subito dopo la nascita di nostra figlia durante l'allattamento. Temevamo un tumore, invece era la sclerosi multipla ed eravamo quasi sollevati dalla notizia, anche perché all’inizio non sapevamo che malattia fosse.

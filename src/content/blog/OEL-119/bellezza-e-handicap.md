@@ -1,4 +1,5 @@
 ---
+
 title: Bellezza e handicap
 date: 2012-09-16
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 8.800347328186035
 issue_number: OEL-119
 id_numero: "OEL-119"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Perché mettere vicine due entità così lontane, perché parlare di “bello” mentre parliamo di handicap fisico, mentale, psichico?"
 ---
+
 Perché mettere vicine due entità così lontane, perché parlare di “bello” mentre parliamo di handicap fisico, mentale, psichico? **È un pensiero che mi tormenta da tanto tempo: da quando sono rimasta allibita al racconto di un’amica** che, già anziana, mi parlava di un episodio accadutole quando era solo una bambina. Faceva parte di una numerosa famiglia, tanti fratelli e sorelle, che nell’occasione del Natale si mettevano tutti lindi e lustri in posa per la fotografia dell’anno. Quell’anno però, al momento della foto, il suo papà le disse:” Tu, Erminia, vai in camera tua!” esclusa tout-court, senza spiegazioni.
 
 Il motivo? La bambina durante una corsa in macchina con il suo papà, in un incidente, ebbe la gambina destra rovinata e deturpata per sempre! “ Per questo, vedi, io porto sempre i calzoni!”

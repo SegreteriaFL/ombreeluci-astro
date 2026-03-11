@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 70
 date: 2000-06-20
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Lettera dall’Honduras
 
 Ho ricevuto la vostra rivista che leggo sempre con piacere. Ogni tanto riconosco un volto o due di voialtri a Roma di Fede e Luce. Questo mi fa ricordare le belle esperienze durante il mio soggiorno fra voi. Quell’anno a Roma è stato una grazia per me e un incontro con tanti amici di Fede e Luce. Ho poi partecipato alla riunione di Quebec dove ho conosciuto tanti nuovi amici di tutto il mondo, dieci giorni nella felicità, nella semplicità. Forse in settembre farò una scappata in Italia: siamo gemellati con una parrocchia della Sardegna, a Villacidro e ci vado ogni volta che sono in Europa per animarli nei progetti e rivedere amici cari. Fede e Luce va bene in Honduras e cresce a poco a poco. Mi hanno mandato ad un’altra parrocchia nella stessa mia vallata e sono qui da un mese. C’è un gruppo di “cursillistas”, giovani che sono interessati a Fede e Luce. Ho dato loro informazioni sulla nostra spiritualità e modo di procedere. Spero che fra un mese o due si potrà formare un gruppo di Fede e Luce qui in parrocchia. Porto Fede e Luce nel cuore, grazie a tutti voi. La mia parrocchia contiene la metà della città, o zona urbana, più una zona in campagna che visito come sempre in bicicletta. La strada statale è pavimentata e ci vado con piacere. Ma c’è da lottare contro l’indifferenza religiosa e il materialismo. Che Dio vi benedica con la creatività nella rivista e ispirazione negli articoli!

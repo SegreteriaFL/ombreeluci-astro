@@ -1,4 +1,5 @@
 ---
+
 title: Gli altri siamo noi
 date: 2019-11-17
 author: Alessandro De Simone
@@ -14,7 +15,10 @@ umap_z: 3.2084243297576904
 issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Quando il cinema racconta bene la disabilità di Alessandro de Simone"
 ---
+
 # Gli altri siamo noi
 
 ## Il cinema e la disabilità, una riflessione

@@ -1,4 +1,5 @@
 ---
+
 title: L’esperienza della solitudine
 date: 1983-03-22
 author: Jacqueline e Henri Faivre
@@ -25,6 +26,7 @@ umap_y: 8.929481506347656
 umap_z: 7.744163513183594
 id_numero: "OEL-1"
 ---
+
 Tutti i genitori con figli handicappati sanno per esperienza cos’è la solitudine.
 
 Al trauma causato dalla scoperta dell’handicap del proprio figlio si aggiunge subito il senso di una rottura, di una separazione dagli “altri”. Solitudine che padre o madre possono sentire nella propria famiglia se l’altro coniuge si rifiuta di ammettere l’handicap del bambino o quando uno dei due, ad esempio, per motivi più personali che educativi vuole sistemarlo in un istituto. Solitudine possono provare i genitori a contatto con quelli ai quali è necessario ricorrere e nei quali si pone ogni speranza: medici, specialisti, educatori che, a volte, si meravigliano che il bambino sia stato chiamato all’esistenza, tenuto conte dei rischi incorsi, e fanno allusione all’aborto come alla soluzione cui si sarebbe dovuto ricorrere. E questo in nome di una morale sociale di fronte alla quale le convinzioni religiose dovrebbero inchinarsi. La sentono tra le persone vicine, quelle dalle quali si sperava naturale trovare un appoggio. Ma sono, talvolta, le persone della strada, a infliggere le ferite più vive, con commenti sbagliati e a volte crudeli, o con gesti o sguardi maldestri e impacciati. Indifferenza e cinismo non sono forse conseguenze dello choc che provoca la vista di un handicappato così come lo sono le reazioni incoscienti suscitate dalla sua presenza?

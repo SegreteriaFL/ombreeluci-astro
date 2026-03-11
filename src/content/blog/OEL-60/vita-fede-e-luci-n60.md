@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luci n.60
 date: 1997-12-15
 author: Redazione
@@ -15,11 +16,13 @@ umap_x: 7.623904705047607
 umap_y: 9.410511016845703
 umap_z: 13.171295166015625
 ---
+
 ### Non è un piccolo dono
 
 **Ritiro Internazionale FEDE E LUCE**
 La mia partecipazione al ritiro FEDE E LUCE tenuto da Jean Vanier, su un piano strettamente personale, ha avuto come motivazione fondamentale il desiderio e il bisogno di avvicinarmi di più al cuore del messaggio di Fede e Luce-, senza altre aspettative almeno iniziali. La presenza di Jean, di Marie Hélène, dell'équipe che ha preparato il ritiro e di tutti i partecipanti si è subito trasformata in un generale clima di comunione che, attraverso le tappe che ci sono state proposte (il contatto con la sofferenza, la povertà, il perdono, la comunione, il donare la vita) ha permesso a ciascuno di mettersi in atteggiamento di silenzio, di ascolto e soprattutto nella condizione e nella possibilità di lasciarsi trasformare. Ho scoperto che non ero lì per apprendere qualcosa, per esempio come si organizza un ritiro, perché un ritiro non è un incontro come gli altri; chi lo “organizza” probabilmente deve essere stato un po’ trasformato dal suo personale incontro con Gesù, tanto da lasciarsi guidare da Lui nel creare, con la Sua presenza, le condizioni per far avvenire nel modo più confortante e immediato rincontro di Gesù con ciascuno. Questo ho ricevuto da chi ha pensato e preparato il ritiro, compresa la parte tecnica-organizzativa (Fausto e collaboratori) e, benché a Fede e Luce si usi spesso la parola “piccolo”, a me questo non sembra un piccolo dono. Si è approfondita molto la dimensione della povertà personale, quella povertà del cuore che consente a Gesù di avvicinarsi a noi, di trasformare percorsi dolorosi in percorsi di pace e di comunione. In tale percorso, scoprendo che i maestri non siamo noi, ci verrà suggerito ciò che è più importante per le nostre comunità, per quanti saranno invitati, non da noi, a partecipare a questo speciale incontro con Gesù che è il ritiro.
 **Adriana Duci**
+
 
 ---
 

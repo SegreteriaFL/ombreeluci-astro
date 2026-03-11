@@ -1,4 +1,5 @@
 ---
+
 title: "\"Cos'è un handicap?\" \"Non lo so!\""
 date: "1987-03-21"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: OEL-17
 id_numero: "OEL-17"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Roberto, 30 anni, si racconta: la vita di un adulto con lieve disabilità intellettiva, tra quotidianità, sogni e aspirazioni."
 ---
+
 Roberto è un adulto. Vive in famiglia. Lavora in un laboratorio protetto. La sua situazione è simile a quella di molte persone portatrici di handicap mentale lieve alle quali è dedicato questo numero di Ombre e Luci.
 Lasciamo a lui la parola. I nostri lettori sapranno andare al di là delle parole e coglieranno la sensibilità, l'autenticità e la sofferenza che esse racchiudono, anche se la pagina scritta non può comunicare che le espressioni del viso, la voce che si abbassa per l'avvilimento, o che si alza per l'eccitazione del ricordare.
 Sei d'accordo se io ti faccio delle domande per stamparle su *Ombre e Luci*?

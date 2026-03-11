@@ -1,4 +1,5 @@
 ---
+
 title: "Resoconti degli incontri \"Fede e Luce\""
 date: 1974-12-28
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.348981857299805
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Aggiornamenti dalle comunità di Fede e Luce a Roma e Bruxelles e un invito alla Festa a Villa Pacis"
 ---
+
 ### Da Bruxelles
 
 "Grazie Signore, grazie Sofia, Padre Roberti, per averci fatto vivere questo giorno di festa. C'erano palloncini colorati al soffitto, fiori di carta, canti, risa, sguardi e lacrime... Ma c'era soprattutto una grande Amicizia al di là o proprio a causa degli handicap, delle sedie a rotelle, dei capelli bianchi, della povertà o della ricchezza, della gioventù o della vecchiaia, del cristiano, del sacerdote o del non credente... Era la festa, l'aurora di un mondo nuovo nel quale abbiamo potuto credere possibile le Beatitudini. Poi c'è stata l'Eucarestia: centinaia di mani e di cuori uniti nell'amore e pronti, se necessario, a cambiar vita per dare gloria a Dio. Eravamo andati per stare insieme, per far cadere le barriere, per provare a tutti che l'Amore può tutto, che si può sorridere e cantare anche quando tutto sembra andar male. Signore, aiutaci a "continuare" la festa; ci prenderanno per pazzi, ma Signore, facci gridere a tutti che la sofferenza portata insieme, l'aiuto offerto, le mani tese, sono i testimoni del tuo Amore, del Cristo vivente in mezzo a noi.
@@ -29,6 +33,8 @@ Il gruppo "Fede e Luce" di Roma, diventato troppo numeroso, si è diviso in tre 
 , - Piazza dei Quiriti 17 - (Preti). L'ultimo incontro è stato domenica 17 novembre, Uno nei locali della
 **Parrocchia di Santa Silvia**
 , - Largo Santa Silvia 1 - (Portuense). L'ultimo incontro è stato domenica 24 novembre,
+
+
 
 ---
 

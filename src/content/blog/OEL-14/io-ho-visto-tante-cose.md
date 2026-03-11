@@ -1,4 +1,5 @@
 ---
+
 title: Io ho visto tante cose
 date: 1986-06-24
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 **Il primo giorno**
 è stato quando siamo partiti tutti insieme giovedì mattina con un pullmino piccolo. Nel pullman abbiamo cantato; con i nostri ragazzi c'era mia cugina che si chiama Grazia. Io mi sono divertita assai. Ci siamo fermati alla «stazione di servizio». Abbiamo mangiato tutti e siamo ripartiti subito alle ore 13. Ad Assisi c'erano tante comunità di
 *Fede e Luce*

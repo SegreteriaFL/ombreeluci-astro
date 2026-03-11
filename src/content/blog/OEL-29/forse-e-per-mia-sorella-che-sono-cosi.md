@@ -1,4 +1,5 @@
 ---
+
 title: "Forse è per mia sorella che sono “così”"
 date: "1990-03-21"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: OEL-29
 id_numero: "OEL-29"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La sorella di una persona con disabilità condivide con noi le tante difficoltà incontrate."
 ---
+
 Ho tanto tardato a scrivervi perché... **ho dovuto trovare il coraggio** per farlo. Quando trovi persone che ti capiscono, si stenta a crederci e comunque poi ti accorgi che ti sveli troppo, rendendo note la tua fragilità e la tua sensibilità. Oggi è pericoloso scoprirsi, **si può facilmente essere calpestati.
 Forse è colpa mia; **pretendo che gli altri si facciano avanti quando io stessa ho paura di fare il primo passo**, ma per me è difficile; il pericolo di non essere accettata mi spaventa troppo!
 Forse è per mia sorella che «sono così»: voglio dire, **ho paura che non possano accettarla e me con lei. Io non mi faccio grandi problemi a suo riguardo, anzi è per me indispensabile, ma mi rendo conto che verso gli altri sono ipercritica e sempre sulle difensive. Forse è mia presunzione credere che ho superato certe cose e che ora sono forte, ma poi ho capito che non è così... mi accorgo che ho calato molti veli...

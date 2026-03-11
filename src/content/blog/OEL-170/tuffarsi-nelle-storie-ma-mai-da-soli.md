@@ -1,4 +1,5 @@
 ---
+
 title: Tuffarsi nelle storie ma mai da soli
 date: 2025-07-25
 author: Grazia Felici
@@ -18,7 +19,10 @@ umap_z: 7.4327192306518555
 issue_number: OEL-170
 id_numero: "OEL-170"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La passione per la lettura di Francesca Pellegrini, 18 anni con sindrome di Down, diventa volontariato con Nati per Leggere in provincia di Siena"
 ---
+
 «M**i chiamo Francesca Pellegrini.** Vivo nel comune di Montepulciano in provincia di Siena che è in Toscana con il babbo, la mamma e mio fratello Tommaso che ha 22 anni. Ho la Sindrome di Down, cioè tre cromosomi della coppia 21. **Non sopporto le persone che mi trattano ancora come una bambina** ». Ha le idee chiare, 19 anni e più di una passione, Francesca: su tutte quella di tuffarsi nelle storie. E, come vedrete, mai da sola.
 
 *Quando è nato il tuo interesse per la lettura?* **Mi è sempre piaciuto leggere fin da quando ho imparato perché è una cosa che ho potuto fare da sola.** A me piace fare le cose da sola. I miei libri preferiti sono state le fiabe: *Cenerentola* , *Biancaneve* , *La Bella e la Bestia* , *Aladdin* , *Rapunzel* . A scuola alle elementari le maestre me le facevano raccontare ai miei compagni. Oltre a leggerle, a casa guardavo anche i dvd e cantavo le colonne sonore. Chiedevo sempre di comprarmi i libri belli con le immagini: i libri della Disney (questa parola l’ho cercata su Internet perché non sapevo come si scrive).

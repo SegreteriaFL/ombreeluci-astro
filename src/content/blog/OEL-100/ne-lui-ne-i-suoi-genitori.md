@@ -1,4 +1,5 @@
 ---
+
 title: "Né lui, né i suoi genitori"
 date: "2007-12-10"
 author: "Carlo Maria Martini"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
+
+subtitle: "Riduzione della conferenza tenuta dal Cardinale Martini ai genitori di persone disabili di Fede e Luce ad Assisi nell'Aprile 1986"
 ---
+
 > “Passando Gesù, vide un uomo cieco dalla nascita e i suoi discepoli lo interrogarono: Rabbì, chi ha peccato, lui o i suoi genitori perché egli nascesse cieco?”
 Rispose Gesù: “Né lui ha peccato né i suoi genitori ma è così perché si manifestassero in lui le opere di Dio"
 (Gv, IX 3)

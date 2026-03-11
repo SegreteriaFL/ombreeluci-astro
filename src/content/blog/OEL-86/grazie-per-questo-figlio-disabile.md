@@ -1,4 +1,5 @@
 ---
+
 title: «Grazie per questo figlio disabile»
 date: 2004-06-13
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.34473180770874
 umap_y: 9.06572437286377
 umap_z: 8.802248001098633
+
+subtitle: "Quante volte a noi genitori è scappata la preghiera: “Perché proprio a me, Signore, un figlio in difficoltà? - La lettera di una mamma"
 ---
+
 Q
 uante volte a noi, genitori di figli disabili, è
 *scappata*

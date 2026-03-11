@@ -1,4 +1,5 @@
 ---
+
 title: Il re del mercato - Recensione
 date: 2006-12-28
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.327916622161865
 umap_y: 10.653752326965332
 umap_z: 4.555739879608154
+
+subtitle: "G. Bernasconi, Edizioni Svizzere per la Gioventù, 2006"
 ---
+
 È
 un libro di 32 pagine dove si descrive la vita quotidiana di un bambino autistico in modo molto semplice e simpatico. E’ destinato a fratelli e compagni di classe di bambini con autismo. Visto l'interesse suscitato presso le scuole Ticinesi, abbiamo deciso di far conoscere il testo anche in Italia e abbiamo chiesto a due bambini di leggerlo e di scriverci le loro impressioni.
 **Che ne pensa Clemente**

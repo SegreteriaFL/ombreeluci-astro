@@ -1,4 +1,5 @@
 ---
+
 title: A scuola di ricamo per stare insieme divertendoci
 date: 1988-06-28
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 9.481551170349121
 issue_number: OEL-22
 id_numero: "OEL-22"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un particolare esperimento di laboratorio di ricamo per alcune persone con disabilità, imparando a tenere l'ago in mano"
 ---
+
 Circa due anni fa, per una serie di richieste venute sia dagli amici che dai genitori, si iniziò nel mio gruppo un particolare esperimento che doveva cambiare molte nostre abitudini. Due ragazze con problemi iniziarono a frequentare casa mia a giorni alterni, per imparare a «tenere in mano l’ago». Mia sorella, che è sarta, si occupava di questo. Le difficoltà erano tante ma si comprese che, con molta pazienza e partendo proprio dalle loro difficoltà, si poteva tirar fuori delle capacità insospettabili. Con una mamma si pensò allora di allargare l’esperimento utilizzando una struttura pubblica. Presso la scuola elementare del nostro quartiere c’è una Mobil School quasi inutilizzata e perciò a nome del gruppo inoltrai domanda sia in Consiglio d’istituto che in Zona per occuparla al sabato. Avutone il benestare e dopo parecchie peripezie, finalmente sabato 29 novembre 1986, la campanella dell’inizio lezioni suona anche per noi. Io durante la settimana lavoro come impiegata presso una grande azienda, ma al sabato mi trasformo in maestra di ricamo. Mia sorella insegna maglia e cucito, oltre al ricamo. Si iniziò con il solo mattino: dalle 8.30 alle 12.30. Nessuno degli alunni ha obblighi d'orario. Ognuno può arrivare quando può ed andarsene quando è stanco, ma tutti hanno il dovere della fedeltà. I primi mesi sono serviti per imparare il loro ritmo.
 **Si pensava che il lavoro preferito dai ragazzi fosse la maglia, invece fu il ricamo che vinse**
 . Si impostarono alcuni lavoretti e secondo le tendenze di ognuno si scelsero i punti da insegnare: Franca e Maria Teresa preferiscono il punto erba, Antonella riesce meglio con il punto a croce, anche Roberto è bravissimo con il punto a croce e sta lavorando ad un bellissimo tappeto, Paola riesce con il mezzopunto, ecc. Dato il successo dei primi mesi, si stabilì di aprire anche al pomeriggio dalle ore 14.30 alle 16.30. Essendo noi inseriti nella struttura scolastica seguiamo ovviamente il calendario scolastico. Per i miei alunni non è motivo di gioia la vacanza scolastica, ma è solo perdita di possibilità di stare insieme. Con la ripresa di settembre si decise di partire subito con lavori più importanti.

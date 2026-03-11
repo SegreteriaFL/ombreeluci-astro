@@ -1,4 +1,5 @@
 ---
+
 title: Quanti conosci per nome?
 date: 2018-04-26
 author: Cristina Tersigni
@@ -17,6 +18,7 @@ issue_number: OEL-141
 id_numero: "OEL-141"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Immaginate una persona con disabilità. Come la disegnereste? Provate a farlo…”* *“Quante persone con disabilità conosci? Di quante sai dire il nome?”*
 
 Due domande raccolte in due contesti diversi, spunti per riflettere sul nostro pensare e parlare di *disabilità* .

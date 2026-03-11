@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.16 - Corso di Formazione di Ilkley
 date: 1986-12-25
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-16
 id_numero: "OEL-16"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Olga Burrows Gammarelli, inglese naturalizzata italiana e mamma di Sabina, con una grave disabilità, racconta della settimana di formazione internazionale per i responsabili di comunità cui ha partecipato nel suo stile molto pragmatico. Ceili Horsburgh, scozzese, testimonia la sua esperienza familiare e comunitaria di ecumenismo.*
 
 ### Così non si fa!

@@ -1,4 +1,5 @@
 ---
+
 title: Una lettera per te
 date: 1987-09-30
 author: Mariangela Bertolini
@@ -19,6 +20,7 @@ issue_number: OEL-19
 id_numero: "OEL-19"
 numero_rivista: "Ombre e Luci"
 ---
+
 A te, mamma, papà, fratello, sorella, amico, sacerdote, suora, dottore, terapista... che leggi abitualmente
 *Ombre e Luci*
 , che con il tuo abbonamento manifesti il tuo impegno verso le persone portatrici di handicap, che con i tuoi articoli o lettere o fotografie contribuisci a tenerlo in vita, che con l’invio di nomi e indirizzi aiuti a diffonderlo, scrivo per chiederti un nuovo sforzo e favore. Troverai in questo numero una pagina da staccare, compilare e spedire. La tua risposta ci sarà preziosa per continuare in questo cammino che abbiamo intrapreso insieme, contando sulla partecipazione di tutti.

@@ -1,4 +1,5 @@
 ---
+
 title: "Cascina Nibai - Cooperativa Fraternità"
 date: "1985-09-28"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-11
 id_numero: "OEL-11"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### 1. La Storia
 
 A **Cernusco sul Naviglio**, alla periferia di Milano, ha preso vita un’esperienza nuova nel suo genere, interessante e, almeno per noi, entusiasmante. In aperta campagna, la *Cascina Nibai* (com'è oggi?, clicca [qui ](http://www.nibai.it)*n.d.r.*) si presenta agli occhi del visitatore come la cascina del film «L’albero degli zoccoli» ; è in effetti una tipica cascina lombarda, la cui parte più antica risale al 1700.

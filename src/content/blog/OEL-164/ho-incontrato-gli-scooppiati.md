@@ -1,4 +1,5 @@
 ---
+
 title: Ho incontrato gli Scooppiati
 date: 2023-08-30
 author: Antonietta Pantone
@@ -14,7 +15,10 @@ umap_z: 9.155427932739258
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ho intervistato il batterista della band, Daniele Ponziani, che mi ha raccontato un bel po' di cose"
 ---
+
 Oggi sono in compagnia di un musicista, Daniele Ponziani, che ha accettato di farsi intervistare da me. Daniele fa parte del gruppo [**Scooppiati - diversamente band**](https://www.scooppiati.it/) , un gruppo musicale in attività dal 2012, che è formato anche da persone con disabilità. Il loro ultimo singolo *Un istante* è uscito lo scorso marzo e racconta i terribili scenari della guerra.
 
 **Ciao Daniele, grazie per aver accettato questa intervista. Raccontaci un po' chi sei.**

@@ -1,4 +1,5 @@
 ---
+
 title: "«Spastico»: un modo improprio di indicare una persona colpita da una paralisi cerebrale"
 date: 1990-06-22
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 6.799699783325195
 issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
+
+subtitle: "Spastico è un modo improprio per indicare una persona colpita da paralisi cerebrale: il prof. Athuis chiarisce alcune questioni in merito"
 ---
+
 **Chi viene definito «spastico?»** Le persone colpite da **lesioni cerebrali cicatrizzate** , non evolutive.
 
 **Quali le conseguenze?** Per questi soggetti risulta un **handicap definitivo** che pone problemi medici, umani, educativi e sociali.

@@ -1,4 +1,5 @@
 ---
+
 title: Viola e la nonna
 date: 2015-09-13
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 “La mamma questa volta si è proprio arrabbiata”, pensa Viola, “e dire che volevo solo starle vicina”. Eppure la mamma l’aveva avvertita.
 
 Il punto è che da quando ha scoperto il piacere della lettura, Viola è diventata un aspirapolvere. È attratta dalle parole scritte, le spalancano mondi sconosciuti, le suscitano pensieri, sogni, anche incubi a volte (ma i grandi lo ripetono sempre: tanto le luci quanto le ombre fanno parte della vita). Tra tutti i volumi che trova in giro, Viola è particolarmente affascinata da quelli che stanno sul comodino della mamma: non vede mai sua madre con un libro in mano, ma dal ritmo con cui cambiano, ha capito il perché delle occhiaie. La mamma – che di giorno è sempre affannata tra il lavoro, la casa, lei e Mimosa – legge di notte. Ebbene, anche se la mamma le ha ripetuto più volte di non ficcare il naso tra le sue cose, Viola vuole sapere cosa divora: è un modo per sentirla vicina, per volerle bene. La mamma – che pure scherza e gioca con lei – non le parla mai di quello che ha dentro, però Viola la osserva.

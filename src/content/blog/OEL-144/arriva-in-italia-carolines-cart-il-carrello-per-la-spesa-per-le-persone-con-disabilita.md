@@ -1,4 +1,5 @@
 ---
+
 title: "Arriva in Italia “Caroline’s Cart”, il carrello per la spesa per le persone con disabilità"
 date: "2018-03-12"
 author: "Redazione"
@@ -14,6 +15,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Arriva anche in Italia “Caroline’s Cart”, il carrello per la spesa pensato per le persone con disabilità. Il primo supermercato ad utilizzarlo è ExtraCoop Esp a Ravenna di proprietà di Coop Alleanza 3.0, che ha potuto dotarsi di due esemplari grazie al sostegno dell'associazione "[Il Sorriso di Giada](https://www.facebook.com/Il-Sorriso-di-Giada-Onlus-946135685504950/)", una onlus operativa nel ravennate per l’assistenza sia psicologica che fisica dedicata a bambini e ragazzi con disabilità.
 
 Caroline's Cart nasce nel 2012, quando Drew Ann Long, madre di una bambina di sette anni con una grave disabilità (la Caroline da cui prende il nome il prodotto) si rese conto che lo spazio disponibile sul seggiolino di un carrello normale non era più sufficiente per sua figlia. Di sua iniziativa decide quindi di proporre e sviluppare un carrello con un sedile più grande che permettesse la seduta non solo a bambini con disabilità ma più in generale a chi ha problemi di deambulazione. In questo modo è possibile evitare l'utilizzo contemporaneo del carrello della spesa e dell'eventuale sedia a rotelle, semplificando notevolmente i movimenti tra le corsie di un supermercato.

@@ -1,4 +1,5 @@
 ---
+
 title: Lettera ai giovani
 date: 1974-06-28
 author: Maria Grazia Pennisi
@@ -14,7 +15,10 @@ umap_z: 12.56567096710205
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Parliamo spesso di altruismo e generosità, di amore tra i popoli ma troppo spesso restano solo belle frasi a cui non riusciamo a dare concretezza"
 ---
+
 Noi ragazzi parliamo spesso di altruismo e generosità, di amore tra i popoli, di superamento del razzismo, di annullamento delle barriere sociali. Tuttavia il motto "ogni uomo è mio fratello" resta una bella frase se in concreto non siamo capaci di testimoniarla.
 
 Noi che amiamo e ci battiamo per il piccolo arabo deturpato dalla guerra, forse non sappiamo accettare il giovane dell'appartamento vicino ridotto così da un incidente o da un mistero della natura.

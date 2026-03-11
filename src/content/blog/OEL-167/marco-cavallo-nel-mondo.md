@@ -1,4 +1,5 @@
 ---
+
 title: Marco Cavallo nel mondo
 date: 2024-11-26
 author: Giulia Galeotti
@@ -17,7 +18,10 @@ umap_z: 5.886353015899658
 issue_number: OEL-167
 id_numero: "OEL-167"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Storia e significato di una statua blu"
 ---
+
 Durante la visita a Trieste il 7 luglio scorso per la Settimana sociale dei cattolici, anche Papa Francesco lo ha incontrato di persona. Del resto in questo anno del centenario basagliano di Marco Cavallo se ne sono visti tanti e nuovi. Uno, ad esempio, a San Salvi, l’ex manicomio di Firenze: l’11 marzo i Chille de la balanza (compagnia di teatro fondata da Claudio Ascoli) hanno donato alla città un Marco Cavallo ispirato al modello progettato da Leonardo da Vinci per gli Sforza, alto 5 metri e lungo 8, in plastica riciclata; reso possibile anche grazie ai tanti sottoscrittori del progetto Produzioni dal basso-Banca Etica, è stato collocato nel prato che costeggia la linea ferroviaria Roma-Firenze. Uno spettacolare Marco Cavallo era apparso poco prima tra i carri del Carnevale di Viareggio: in cartapesta, cosparso di fiori luminosi (oltre 100 rose e 6mila foglie) firmato da Carlo e Lorenzo Lombardi, intitolato *Il profumo delle rose nelle spine* ; non accanto alle spine, ma nelle spine, cioè nel dolore e nelle fragilità. Ma chi sono e a chi si richiamano questi grandi destrieri?
 
 Per rispondere, dobbiamo risalire nel tempo e nello spazio. E precisamente alla Trieste del 1959 quando un ronzino in carne e ossa cominciò a trainare il carretto della biancheria sporca e dei rifiuti all’interno del manicomio cittadino. Dopo una lunga e onorata carriera, l’amministrazione prese quindi la decisione di abbatterlo, sostituendolo con un motocarro. Ma i pazienti si ribellarono e inviarono una lettera al presidente della provincia, Michele Zanetti, nella quale, al posto della prevista macellazione, chiedevano «un dignitoso pensionamento per meriti lavorativi e per l’affetto dei pazienti e di tutto il personale»; in cambio offrivano una somma e il mantenimento a proprie spese dell’animale fino alla sua morte naturale. Era la prima volta che persone rinchiuse in manicomio si rivolgevano direttamente all’autorità, esprimendo una richiesta come cittadini qualsiasi: l’appello venne accolto.

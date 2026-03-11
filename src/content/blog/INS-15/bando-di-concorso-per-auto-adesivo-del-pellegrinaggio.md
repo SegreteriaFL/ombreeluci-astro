@@ -1,4 +1,5 @@
 ---
+
 title: Bando di Concorso per auto-adesivo del pellegrinaggio
 date: 1977-12-02
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.659419059753418
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "Inviateci le vostre proposte per l'adesivo del pellegrinaggio ad Assisi. Via libera alla fantasia!"
 ---
+
 In occasione del pellegrinaggio, tutti siete invitati a partecipare al concorso di disegno per autoadesivo (il disegno può essere a colori o a penna).
 
 **Tema: Il Cantico delle creature - "Laudato si' mi Signore per...** ognuno sceglie la laude che preferisce: sole, l'aria, acqua, fuoco, fiori ecc.
@@ -24,6 +28,8 @@ In occasione del pellegrinaggio, tutti siete invitati a partecipare al concorso 
 Una giuria sceglierà il migliore per farne l'autoadesivo del pellegrinaggio.
 
 Inoltre i due più belli saranno pubblicati sul giornalino.
+
+
 
 ---
 

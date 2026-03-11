@@ -1,4 +1,5 @@
 ---
+
 title: Che grinta!
 date: 2013-06-10
 author: Rita Massi
@@ -14,7 +15,10 @@ umap_z: 8.0376615524292
 issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Abbiamo intervistato Nunzia mamma di Emanuela che è affetta da anchilosi temporo mandibolare bilateale, non può muovere la mandibola, non parla, non mastica, fatica a deglutire e ha un importante deficit cognitivo"
 ---
+
 *Conosco Nunzia da molti anni, da quando sua figlia Emanuela che ha superato da un po’ la trentina, di anni ne aveva solo sei ed era alle prese con la prima elementare.*
 
 *Emanuela è una ragazza disabile, la sua diagnosi è anchilosi temporo mandibolare bilateale, non può muovere la mandibola, non parla, non mastica ed ha ancora qualche difficoltà nella deglutizione. Questi problemi sono associati ad un importante deficit cognitivo.*

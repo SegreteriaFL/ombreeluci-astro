@@ -1,4 +1,5 @@
 ---
+
 title: "Per capire di più"
 date: "1992-03-05"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-37
 id_numero: "OEL-37"
 numero_rivista: "Ombre e Luci"
 ---
+
 Cari lettori di Ombre e Luci,
 questo numero dovrebbe arrivarvi — intoppi tipografici e postali permettendo — per Pasqua.
 Con molti di voi, membri di [Fede e Luce](http://www.fedeeluce.it/), un anno fa eravamo a [Lourdes per vivere il pellegrinaggio internazionale « Verso l'unità»](http://www.ombreeluci.it/1992/speciale-pellegrinaggio-a-lourdes-1991/) che ha riunito per cinque giorni una grande folla proveniente da tutto il mondo.

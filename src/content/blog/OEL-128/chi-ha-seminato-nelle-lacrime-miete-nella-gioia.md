@@ -1,4 +1,5 @@
 ---
+
 title: Chi ha seminato nelle lacrime miete nella gioia
 date: 2014-12-15
 author: Pierre Debergé
@@ -16,7 +17,10 @@ umap_z: 11.853142738342285
 issue_number: OEL-128
 id_numero: "OEL-128"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Anche dopo tanti anni che ho lasciato Fede e Luce, c'è un ricordo di Mariangela che accompagna la mia preghiera, ogni volta che leggo il Salmo 126"
 ---
+
 Tra i tanti ricordi di Mariangela, sempre presenti in me, anche dopo tanti anni che ho lasciato Fede e Luce, uno tra questi accompagna la mia preghiera, ogni volta che leggo il Salmo 126.
 
 **Qualche ora prima della morte di sua figlia Francesca** , Mariangela mi aveva sussurrato all’orecchio questi versetti che lei ripeteva spesso: “ *Chi ha seminato nelle lacrime, miete nella gioia! Se ne va, se ne va piangendo, porta la sua semenza; ritorna, ritorna cantando, carico della sua messe* ” (Salmo 126,5-6) Ed aveva aggiunto: questo versetto parla di noi!

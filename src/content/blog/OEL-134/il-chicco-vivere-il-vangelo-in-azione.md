@@ -1,4 +1,5 @@
 ---
+
 title: "Il Chicco: Vivere il Vangelo in azione"
 date: 2016-06-16
 author: Annik Donelli
@@ -16,7 +17,10 @@ umap_z: 10.355178833007812
 issue_number: OEL-134
 id_numero: "OEL-134"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Qui al Chicco facciamo, una volta al mese, degli incontri speciali per vivere il Vangelo: la “drammatizzazione biblica” o “incontro del Vangelo attraverso metodi attivi” che sono un modo per vivere insieme la Parola di Dio in azione"
 ---
+
 P
 er il secondo anno nella comunità “Il Chicco” di Ciampino, comunità appartenente alla federazione dell’Arca, proponiamo, una volta al mese, degli incontri speciali per vivere il Vangelo: la “drammatizzazione biblica” o “incontro del Vangelo attraverso metodi attivi”. Viviamo insieme la Parola di Dio in azione.
 **Di che cosa si tratta?**

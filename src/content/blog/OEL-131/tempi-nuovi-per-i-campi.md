@@ -1,4 +1,5 @@
 ---
+
 title: Tempi nuovi per i campi?
 date: 2015-09-13
 author: Valentina Calabresi
@@ -17,6 +18,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 Come ogni anno, verso maggio arriva il momento di organizzare i campi estivi, croce e delizia dell’estate fedelucesca romana; quest’anno c’è anche il pellegrinaggio, che probabilmente toglie energie e tempo agli amici che potrebbero partecipare a un campo. Sta di fatto che più passano i giorni più diventa chiaro che non riusciremo ad avere cinque campi tra luglio e settembre, così come altri anni e come abbiamo ipotizzato prenotando le case; per cercare di limitare i danni proviamo a mettere insieme un gruppetto di amici che non hanno il tempo sufficiente per un campo, ma che volentieri decidono di trascorrere un weekend lungo insieme; sono solo 4 giorni che però vengono organizzati come un campo, con il tema, i cerchi e tutto il resto, e vengono invitati a partecipare alcuni *ragazzi* desiderosi di partire, ma che non hanno trovato posto nei tre campi tradizionali che ci saranno quest’estate.
 
 Sono stati bene e hanno vissuto il piacere di una vacanza insieme, anche se per pochi giorni, e questa potrebbe essere una soluzione per quegli amici che non riescono a partecipare ad un intero campo di 8-9 giorni; probabilmente è una possibilità in più che potremo considerare nei prossimi anni, da affiancare ai campi tradizionali, per amici e *ragazzi* che per diversi motivi altrimenti non riuscirebbero a partire.

@@ -1,4 +1,5 @@
 ---
+
 title: La forza del debole - Vita e pensiero di Dietrich Bonhoeffer
 date: 2018-09-09
 author: Natalia Livi
@@ -15,6 +16,7 @@ issue_number: OEL-43
 id_numero: "OEL-43"
 numero_rivista: "Ombre e Luci"
 ---
+
 **È la biografia di Dietrich Bonhoeffer, pastore luterano** , **nato a Breslavia nel 1906 e morto nel campo di concentramento di Flossenburg, nel 1945** ; un libro-testimonianza per chi si interessa al movimento ecumenico, alla storia del cristianesimo, alla storia contemporanea.
 
 Il libro commuove profondamente e stimola il lettore come ogni volta che si viene in contatto con qualcuno che, ricco fin dall’infanzia di un’intuizione di fede, durante la vita l’amplifica, l’approfondisce e la vive nel concreto, ogni giorno, fino alle estreme conseguenze, e fino a esser pronto a morire per essa. Senza volere entrare nel merito del dibattito teologico che caratterizzò gran parte della sua vita ciò che colpisce in lui è la fede salda e perseverante. Una fedeltà così grande e la volontà di renderla feconda, malgrado ogni dubbio, ogni fatica, ogni paura, ci sembrano valori che proprio oggi devono essere riaffermati e testimoniati.

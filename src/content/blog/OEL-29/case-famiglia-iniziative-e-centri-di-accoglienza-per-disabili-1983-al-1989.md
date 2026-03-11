@@ -1,4 +1,5 @@
 ---
+
 title: Case famiglia, iniziative e centri di accoglienza per disabili (1983 al 1989)
 date: 1990-03-20
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 8.882257461547852
 issue_number: OEL-29
 id_numero: "OEL-29"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le esperienze di centri diurni, case famiglia e istituti raccontate nella rivista Ombre e Luci tra il 1983 e il 1989"
 ---
+
 [**Il chicco una casa per Fabio e Maria**](http://www.ombreeluci.it/1983/il-chicco-una-casa-per-fabio-e-maria/) Una [casa famiglia](https://www.larche-ilchicco.it/) per bambini handicappati senza famiglia Via Ancona, 1 - 00043 Ciampino
 
 **[Per esempio a Vicenza](http://www.ombreeluci.it/1983/vicenza-centro-di-formazione-professionale-dell-opera-francescana-charitas/)** Un centro di formazione professionale dell’Opera francescana «Caritas» di Vicenza per handicappati mentali non troppo gravi e senza handicap motorio grave Opera Francescana «Caritas» - Via Raffaele Pasi, 25 - 36100 Vicenza

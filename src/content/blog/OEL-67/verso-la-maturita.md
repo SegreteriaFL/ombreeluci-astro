@@ -1,4 +1,5 @@
 ---
+
 title: "Verso la maturità"
 date: "1999-09-13"
 author: "Jean Vanier"
@@ -15,6 +16,7 @@ tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
 ---
+
 Da qualche anno a questa parte, ricercando legittimamente il benessere per le persone con un handicap, si parla molto della loro «normalizzazione». Se questo termine significa aiutarle ad andare in piscina, al cinema, in parrocchia, a comperare i loro vestiti e anche a vivere in un piccolo appartamento, può essere una cosa molto buona. Ma se «normalizzazione» significa che l'obiettivo primo è che divengano «autonomi» e «come tutti gli altri», si può allora avanzare qualche riserva.
 
 Ora siamo nel campo della filosofia che riguarda l'uomo, dell'antropologia. E sicuramente a questo proposito le opinioni divergono.

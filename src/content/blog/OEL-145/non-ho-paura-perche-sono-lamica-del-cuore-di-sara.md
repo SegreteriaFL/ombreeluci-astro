@@ -1,4 +1,5 @@
 ---
+
 title: "Non ho paura perchè sono l’amica del cuore di Sara"
 date: "2019-01-27"
 author: "Benedetta Mattei"
@@ -15,6 +16,7 @@ issue_number: OEL-145
 id_numero: "OEL-145"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ho un’amica del cuore. Si chiama Sara di nome e Vargetto di cognome. Che pensi? Ho 15 anni e l’amica del cuore ce l’ho pure io. La mia amica del cuore è bella, sorride e ride con me. **Sara mi fa sentire felice, sta attenta a me, parla, ascolta.** Quando siamo insieme non guarda il cellulare e non fa i giochi. Ogni volta la riempio di baci.
 
 Quando andiamo a mangiare la pizza parliamo per conto nostro davanti alla porta del bagno. **Poi gli adulti ci chiedono cosa ci diciamo e noi rispondiamo che è un segreto.** Non possiamo dirlo perché è un segreto. Parliamo della scuola e dei compagni di classe. I miei sono tutti simpatici e mi salutano sempre: “ciao Bene”. Tranne uno. Poi io ho 2 fidanzati, Elia e Robert. Forse 4. Sara ora non ha il fidanzato. Le piaceva un suo amico ma ora non le piace più. Non ho capito perché.

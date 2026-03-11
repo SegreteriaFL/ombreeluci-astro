@@ -1,4 +1,5 @@
 ---
+
 title: "La logica dell'utopia - Quando nacque la Comunità di Capodarco - Recensione"
 date: "2000-06-20"
 author: "Natalia Livi"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Angelo Maria Fanucci - Cittadella Editrice, 1998, pp. 226"
 ---
+
 È noto l’impegno delle comunità di Capodarco non solo nel mondo dell’handicap, ma in ogni contesto dove l’uomo si pone interrogativi sulla sofferenza provocata dalle ingiustizie umane e si sente spinto a lottare perché la mentalità distorta dell’indifferenza e della separazione possa trasformarsi in giustizia e in collaborazione.
 
 La storia di queste comunità è meno nota ed è entusiasmante leggerla in questo libro: dai passi iniziali di don Franco Monterubbianesi e dei suoi amici disabili fisici e non, nella prima metà degli anni 60, alla fondazione della prima comunità e di quelle successive. Oggi le comunità di Capodarco sono presenti in dieci regioni italiane e in Equador. Ma forse non è tanto importante il numero delle persone che furono e sono spinte a condividerne l’esperienza quanto l’impatto che esse produssero su tutta la società che in quegli anni aspettava cambiamenti, proposte, indicazioni di percorso. Erano gli anni del Concilio e poi del Sessantotto. A Capodarco si sperimentava una vita in comune basata sulla condivisione e sulla autogestione. Le fatiche furono immense, ma anche la fraternità, la gioia di lavorare insieme e di vederne i frutti.

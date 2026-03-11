@@ -1,4 +1,5 @@
 ---
+
 title: "Amore e disabilità: Ho diritto anch’io all’amore?"
 date: "2003-06-23"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
+
+subtitle: "Anna parla spesso di sposarsi. Vede l'esempio di fratelli e sorelle. Gli interrogativi della mamma"
 ---
+
 Anna rientra in casa e mi dice: "Mamma, io voglio fare l’amore con Roberto", (suo cognato).
 "È impossibile, cara, Roberto è sposato con tua sorella".
 "Allora voglio fare l’amore con te perché io ti amo, tu anche mi ami ed io desidero un innamorato". "Anna, si può fare l’amore solo quando si ama un uomo".

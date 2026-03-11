@@ -1,4 +1,5 @@
 ---
+
 title: La bambina che andava a pile - Recensione
 date: 2018-06-30
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-142
 id_numero: "OEL-142"
 numero_rivista: "Ombre e Luci"
 ---
+
 Labambina è Monic, le pile quelle che alimentano le sue protesi acustiche: una giovane donna sorda si racconta, disegnandosi bambina e trasmettendo con poche parole ed efficaci immagini cosa caratterizza il suo mondo. Un mondo che, pur senza suoni, vive di forti contrasti: le immagini in bianco e nero li trasmettono in modo essenziale evidenziando i disagi ma anche le possibilità di una bambina che, con una diagnosi di sordità profonda all’età di due anni, arriva a dieci ad avere l’impianto cocleare.
 
 Monica Taini è davvero una “pratica” guida nella comunicazione attraverso mani e bocca.

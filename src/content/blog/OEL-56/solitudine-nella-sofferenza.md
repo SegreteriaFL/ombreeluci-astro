@@ -1,4 +1,5 @@
 ---
+
 title: Solitudine nella sofferenza
 date: 1996-12-15
 author: Luciana Spigolon
@@ -17,6 +18,7 @@ umap_x: 5.3979363441467285
 umap_y: 10.00838851928711
 umap_z: 9.162753105163574
 ---
+
 S
 pesso mi sono chiesta se è più dura la sofferenza o la solitudine nella sofferenza. Ho pianto molto o per la solitudine nel dolore. La mia «dolce avventura» è iniziata quasi trentaquattro anni fa, quando arrivai in questa famiglia di tipo patriarcale: oltre ai genitori e a due fratelli, zii, nonni e vicini cugini; dopo è arrivata una sorella.
 **Anche se la memoria non mi aiuta credo di non essermi chiesta molti perché sul modo di vivere dei miei fratelli**

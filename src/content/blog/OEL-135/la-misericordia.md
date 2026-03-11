@@ -1,4 +1,5 @@
 ---
+
 title: La misericordia
 date: 2016-09-16
 author: Jean Vanier
@@ -17,6 +18,7 @@ issue_number: OEL-135
 id_numero: "OEL-135"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Tutto sgorga dall’amore
 
 San Giovanni dice: Dio è amore. Non dice: Dio ama o Dio è misericordioso; va oltre, dice Dio è Amore, dunque Dio è misericordia. Tutto sgorga dalla misericordia che è Dio, là dove è Dio, c’è amore: Ubi caritas et amor Deus ibi est. Possiamo osannare la bontà di Dio nella creazione, questa meravigliosa unità che collega tutto. E all’apice della creazione, la parte più bella, ci sono l’uomo e la donna. Ognuno con un cuore, un’intelligenza, desiderosi di andare oltre i confini della corporeità, verso qualcosa di più grande, di meraviglioso, direi di infinito. Questo cuore, questa intelligenza dell’essere umano sono state fatte per vivere la vita stessa di Dio, per essere in relazione con Lui e diventare suoi amici. La misericordia si riconosce nel vivere la felicità e la creatività di Dio. Tuttavia questo amore, questa amicizia con Dio devono essere reciproci. La felicità e l’amore di Dio non sono imposti. L’amore implica una libertà, una scelta. Dio che è Amore, per bontà, ci propone il dono della vita, ce l’offre, ci invita a vivere questa amicizia.

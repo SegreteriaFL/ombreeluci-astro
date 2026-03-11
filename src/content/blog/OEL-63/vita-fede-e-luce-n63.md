@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.63
 date: 1998-09-25
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 6.927724838256836
 umap_y: 9.03593921661377
 umap_z: 12.825959205627441
 ---
+
 ### Un ’amicizia «impossibile»
 
 Nell’ultimo numero di Ombre e Luci, Olga ha scritto (nel suo stile diretto molto simpatico) alcune considerazioni sull'amicizia a Fede e Luce. Le sue parole dicono tante cose vere e sagge da condividere e da ricordare; inducono inoltre ad altre riflessioni. Ora le mie parole non vogliono essere una risposta a Olga né una rettifica o un'aggiunta a quanto lei ha detto. Sono piuttosto una riproposta dello stesso tema sotto un'angolatura diversa. La cosa più naturale per me è vedere l’amicizia a Fede e Luce dal punto di vista degli amici (anche se non pretendo di parlare a loro nome). L’amico, anche il più giovane, che muove i primi passi a Fede e Luce, capisce molto presto che non è solo un aiuto che gli viene richiesto, ma che si tratta piuttosto di una amicizia. Si trova di fronte però ad un'amicizia molto diversa dalla solita, con caratteristiche anche in contrasto fra loro che lo sfidano, in un certo senso, e che non sa lui stesso bene come risolvere.
@@ -26,6 +28,7 @@ Mi pare che gli amici sentano abbastanza questi contrasti mentre i genitori in g
 Se uno, non solo un amico, ma anche un genitore e un ragazzo, si spaventa della difficoltà o è impaziente, può cambiare strada o privilegiare uno solo dei due aspetti in contrasto (dando così vita a un'amicizia «a metà»); ma se uno, toccato nel cuore e nella mente da uno sguardo, una parola, un volto, decide di continuare, anche se lentamente, sulla strada proposta da FL, cosa succede? Succede che genitori, ragazzi, amici, formeranno un piccolo popolo, una unione ricca di vita e di possibilità di crescita.
 
 **Lucia Bertolini**
+
 
 ---
 

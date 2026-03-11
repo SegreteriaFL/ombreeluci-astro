@@ -1,4 +1,5 @@
 ---
+
 title: "Sessualità e disabilità: il meglio e il peggio"
 date: "2003-06-23"
 author: "Jean Vanier"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
+
+subtitle: "La persona con ritardo mentale conosce nella sua vita affettiva e sessuale gli stessi desideri e le stesse sofferenze di ogni altra persona. Jean Vanier, fondatore dell'Arca e autore del libro sull'argomento Uomo e donna li fece, analizza le contraddizioni profonde che sono in tutti noi."
 ---
+
 Noi, esseri umani, viviamo una contraddizione fondamentale. Da un lato siamo assetati d’infinito, non siamo mai soddisfatti. Dall’altro siamo nel limite, nel finito. Si vuole l’amore e si ha paura dell’amore; si desidera essere amati ma si ha paura di impegnarsi nell’amore. Si vuole un amore incondizionato ma, allo stesso tempo, si vuol essere liberi di far ciò che si vuole.
 
 ### Il tesoro dell'umanità

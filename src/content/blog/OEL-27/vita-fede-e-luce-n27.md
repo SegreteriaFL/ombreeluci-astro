@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.27
 date: 1989-06-21
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-27
 id_numero: "OEL-27"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### In Ungheria Fede e Luce esce dalla clandestinità
 
 Voglio mettervi al corrente della situazione di Fede e Luce in Ungheria. Il giorno prima di essere eletto coordinatore nazionale, la conferenza episcopale ungherese ha riconosciuto Fede e Luce e altri otto movimenti e ci ha assicurato la sua assistenza. È stato un po’ come il giorno della nascita delle comunità Fede e Luce in Ungheria... **D’ora in poi non dovremo più vivere e fare gli incontri in clandestinità** . Il ritiro predicato da Jean Vanier qui in Ungheria è stato un avvenimento importante: 250 persone hanno potuto parteciparvi e hanno ricevuto molte grazie e sono rientrati a casa arricchiti. Ci sono attualmente 8 comunità riconosciute, di cui 7 a Budapest e una in campagna ed altre 4 in formazione. Un punto forte di Fede e Luce qui in Ungheria è sapere che **Fede e Luce è considerata come una base spirituale per la rinascita della chiesa ungherese** ; un altro punto è che non conosciamo la parola «impossibile». Le comunità non sono club chiusi in se stessi; i loro membri si conoscono e si aiutano fra loro. I nostri **progetti per il futuro? Vorremmo sistemare e riadattare una «casa Fede e Luce» in un quartiere di Budapest** : alcuni studenti potrebbero risiedervi (per i loro studi) e per i week-end accogliere gli amici con handicap per incontri e feste. C'è poi una parrocchia diroccata fuori Budapest che vorremmo riparare per farvi i campeggi estivi. Circa 150 persone vorrebbero partecipare al pellegrinaggio FL a Lourdes a Pasqua ’91. Il numero ci sembra enorme, ma tutti sono così entusiasti dell’idea... Riusciremo a trovare i soldi necessari? I miei saluti cari a tutti voi in Italia. - *Peter Zajkas* Coordinatore Comunità FL Ungheria

@@ -1,4 +1,5 @@
 ---
+
 title: "«Noi», non «loro»: apriamo il dibattito"
 date: 2020-02-07
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 U
 na novità importante ha accompagnato il mese appena concluso: nel n. 4069 Civiltà Cattolica – prestigiosa e seguitissima rivista dei gesuiti diretta da Antonio Spadaro – ha pubblicato una riflessione di Justin Glyn dal titolo
 *«Noi», non «loro»*

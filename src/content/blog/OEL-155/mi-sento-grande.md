@@ -1,4 +1,5 @@
 ---
+
 title: Mi sento grande
 date: 2021-09-28
 author: Silvia Freschi
@@ -15,6 +16,7 @@ issue_number: OEL-155
 id_numero: "OEL-155"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ciao! **Mi chiamo Silvia, ho 29 anni,** abito a Locate Triulzi, ma da quasi tre anni vivo alla Casa Comune nel quartiere Isola di Milano insieme ad altre ragazze per l’esperienza del “dopo di noi”, ho due fratelli e due nipotini. **Lavoro già da un po’ al McDonald’s in un centro commerciale di Sesto San Giovanni.** Quando ho fatto il colloquio mi avevano chiesto se mi andava bene fare un lavoro ripetitivo che, mi hanno spiegato, vuol dire fare sempre le stesse cose. Così ho imparato a preparare le insalatone e le farciture dei toast. **Non è stato facile essere precisi, ma ci sono riuscita imparando una ricetta alla volta.** Poi la direttrice del mio negozio mi ha fatto lavorare al McCafè ad aiutare la mia collega quando c’è tanta gente: io carico e svuoto la lavastoviglie, così lei può servire i caffè.
 
 Visto che imparavo bene, dopo alcuni mesi mi ha insegnato anche a servire ai tavoli. Questo lavoro è impegnativo perché devo essere veloce e precisa; qualche volta i clienti mi fanno domande a cui non so rispondere, allora io chiedo aiuto ai miei colleghi. **Mi dicono che sono brava perché sorrido sempre e sono gentile.** Nel periodo del coronavirus abbiamo lavorato spesso con l’asporto e io ho imparato a preparare le bibite e a chiudere i sacchetti per il Glovo.

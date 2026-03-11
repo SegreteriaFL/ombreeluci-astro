@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 21
 date: 1988-03-27
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-21
 id_numero: "OEL-21"
 numero_rivista: "Ombre e Luci"
 ---
+
 *"Alla nascita, in ospedale, un medico assai poco sensibile parlò a mio marito, specificando il disturbo e chiedendo a chi voleva affidare il bambino. Mio marito, assai turbato, ma cosciente, rispose che suo figlio se lo portava a casa"... * *"Come ricordare Fede e Luce? Le cose sono tante: cominciare dai nostri ragazzi, i loro genitori con i miei stessi problemi, e poi i nostri carissimi amici che mi hanno dato tanto coraggio e ancora portano Maurizio al campeggio e spero lo porteranno ancora".*
 
 ### Ci voleva lui per farmi capire

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 169
 date: 2025-05-01
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 11.333858489990234
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le lettere con i suggerimenti, i commenti, le domande: il punto di vista di chi legge Ombre e Luci con le sue esperienze e scoperte. Qui si parla del concerto di un amico e di una visita alla ministra per la Disabilità."
 ---
+
 ### **Al concerto di un amico**
 
 La sera del 15 novembre per i giovani di Fede e Luce che hanno partecipato alla formazione nazionale è stata una serata speciale: il nostro amico Leonardo ci ha inviati al suo concerto. Per non rischiare di fare tardi, abbiamo deciso di trovarci a Lodi in una pizzeria vicino al teatro. **Mentre lui faceva le prove, abbiamo passato un bel momento per chiacchierare perché, essendo di comunità diverse, non ci vedevamo dall’estate.** Terminata la cena ci siamo spostati nel teatro per prendere posto. Il teatro era strano perché era una chiesa trasformata in teatro. Leonardo suonava il violino e un suo amico il pianoforte. Hanno suonato le colonne sonore: mi è piaciuto. Alcune le conoscevo, altre no; sono state molto belle. Leonardo era molto elegante, è stato bravo anche a presentare i brani. Finito il concerto si è fermato a salutarci ed abbiamo fatto le foto tutti insieme. *Silvia Freschi - Milano*

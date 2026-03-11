@@ -1,4 +1,5 @@
 ---
+
 title: "Jesi, una casa per incentivare vita autonoma di persone con disabilità"
 date: "2019-01-29"
 author: "Redazione"
@@ -14,6 +15,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 L**a casa di Emma** è stata aperta il 26 gennaio scorso, in viale Puccini, quarto piano con ascensore, 95 mq più garage: ospiterà per due fine settimana al mese, dal sabato alle 10 alla domenica alle 17, **giovani dai 18 ai 35 anni con disabilità intellettive.
 
 In tutto 14 – residenti nei 21 Comuni dell’Ambito 9 – che si alterneranno, sia maschi che femmine, in gruppi di 6, accompagnati dagli educatori del progetto** È tempo di andare.

@@ -1,4 +1,5 @@
 ---
+
 title: Catechesi anche per le persone autistiche
 date: 1996-09-27
 author: Henri Bissonier
@@ -15,6 +16,7 @@ umap_x: 9.051965713500977
 umap_y: 10.183148384094238
 umap_z: 8.518549919128418
 ---
+
 Padre Henri Bissonier è ben noto ai nostri lettori ed è stato l’iniziatore della catechesi speciale in Francia.
 
 Circa trent anni fa, al nostro centro catechistico di Parigi, organizzammo una riunione di studio sulla catechesi per i bambini che oggi sono chiamati «autistici». A questo incontro ebbi l'audacia di invitare, oltre ai catechisti «di base», uno dei più celebri psichiatri infantili dell'epoca. Sapevo che era anche un fervente cristiano. Al suo arrivo l’illustre professore ci dichiarò con fare «dottorale»: «Bisogna distinguere con molta cura i bambini che presentano sintomi psicotici e quelli che sono veramente autistici. I primi possono avere beneficio da un po' di educazione religiosa. Per i secondi, ciò è impossibile». Aggiunse: «Mi occupo in questo momento di un ragazzo che fa parte appunto di quelli per cui non c’è niente da fare in materia di risveglio religioso». E ci descrisse «il caso» in questione. Quando ebbe finito, una catechista prese timidamente la parola: «Scusi, professore, ma credo di conoscere questo ragazzo...» Diede qualche dettaglio che permise di identificare perfettamente il bambino e aggiunse: «Sono due anni che lo seguo nella catechesi ed ecco cosa abbiamo fatto insieme». Seguì la storia appassionante di questo cammino religioso. Il «grande capo» ascoltava con estrema attenzione... Quando il racconto finì la mia ammirazione per lui diventò ancora più grande, perché si rivolse a me ed esclamò: «Ma questa riunione è interessantissima! Quando ce ne saranno altre la prego di invitarmi di nuovo!»

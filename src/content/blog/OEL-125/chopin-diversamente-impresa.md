@@ -1,4 +1,5 @@
 ---
+
 title: "Chopin: diversamente impresa"
 date: 2014-03-29
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 8.468941688537598
 issue_number: OEL-125
 id_numero: "OEL-125"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il Progetto Chopin è nato nel 2010 a Villa d’Adda, piccolo paese della bergamasca, per l’impegno, le necessità e le comuni aspettative di un gruppo di famiglie di giovani disabili e di alcuni loro amici"
 ---
+
 ### Gli inizi
 
 Il Progetto Chopin è nato nel 2010 a Villa d’Adda, piccolo paese della bergamasca, per l’impegno, le necessità e le comuni aspettative di un gruppo di famiglie di giovani disabili e di alcuni loro amici. I primi passi sono stati mossi in un clima non sempre semplice e in una storia che, purtroppo, si ripete: una Cooperativa in difficoltà che sta per chiudere o per ridurre di molto le ore occupazionali dei suoi lavoratori, e le necessità di giovani diversamente abili, desiderosi di sentirsi parte attiva della propria comunità.

@@ -1,4 +1,5 @@
 ---
+
 title: "Né giusto né sbagliato - Recensione"
 date: "2006-03-30"
 author: "Cristina Tersigni"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Paul Collins, Edizioni Adelphi, 2005"
 ---
+
 Morgan Collins ha tre anni quando lo incontriamo per la prima volta: passa il tempo a leggere qualunque tipo di libro gli passi per mano, che siano testi di medicina oppure vecchi giornali conservati dal papà; a giocare con articolati programmi numerici al computer, dato che già sa fare le operazioni; a trovare sempre nuove combinazioni per le carte degli innumerevoli mazzi che i suoi genitori sono costretti a comprare ogni volta che lui ne adocchia uno in un negozio e lo fa subito suo.
 
 È un bambino felice, amato e seguito da mamma e papà e da un caro e vecchio amico di famiglia che passa con lui quasi tutti i pomeriggi.

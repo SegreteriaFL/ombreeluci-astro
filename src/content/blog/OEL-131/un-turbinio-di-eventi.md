@@ -1,4 +1,5 @@
 ---
+
 title: Un turbinio di eventi
 date: 2015-06-13
 author: Pietro Vetro
@@ -15,6 +16,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 In questo caleidoscopio di eventi provo a fissare solo singoli momenti personali, consapevole che non possono dare una descrizione esaustiva di tutto quello che abbiamo passato.
 
 La giornata dal Papa: caotica, temutissima, accompagnata dalla sensazione costante di una catastrofe organizzativa imminente che poi, per fortuna, non avrà luogo. Ho un posto con gli altri Coordinatori Provinciali vicino al Papa ma, prima che l’udienza abbia inizio, rimbalzo come una pallina da ping-pong all’interno della piazza (“Dov’è il regalo del Papa!”, “Quello si è perso!”, “Quell’altro non riesce a entrare!”). Alla fine mi siedo, vestito con la giacca per l’occasione (quello accanto a me ha i pantaloncini da ciclista!!!). Vedo la folla nella piazza e il colpo d’occhio delle nostre comunità, con i loro stendardi, è fenomenale. Solo quello vale tutta la giornata.

@@ -1,4 +1,5 @@
 ---
+
 title: Modus navigandi – Recensione
 date: 2022-07-14
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 Trasformare una spiaggia, terra naturalmente di confine, in un’aula montessoriana, rappresenta il contesto ideale non solo per imparare a seguire il vento, conoscere il mare e navigare ma anche per proporre un’importante educazione al sentire di bambini e giovani di qualsiasi abilità: è l’esperienza maturata in quasi quarant’anni di scuola di vela residenziale a Pescia Romana, raccontata da Mauro Pandimiglio in *Modus Navigandi* , in cui **l’inclusione della persona con disabilità non diviene «un obiettivo da raggiungere» ma «un percorso da seguire»** ricco di possibilità per ciascuno degli attori-marinai in gioco. Pedagogista e navigatore, Pandimiglio suggerisce un percorso ricco di valenze pedagogiche, psicologiche e antropologiche, contesto fecondo per riflettere, insieme a genitori e formatori di ogni ordine e grado, sulle reali necessità e prospettive dell’educazione alla consapevolezza di sè.
 
  ### Modus navigandi **Autore** : Mauro Pandimiglio **Editore:** Hoepli **Pubblicato:** 12 ottobre 2018 **Pagine:** 232 **Prezzo:** 15,90€ **ISBN:** 10379832498732 

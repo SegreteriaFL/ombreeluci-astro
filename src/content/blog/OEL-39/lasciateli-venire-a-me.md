@@ -1,4 +1,5 @@
 ---
+
 title: "\"Lasciateli venire a me\""
 date: 1992-09-07
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-39
 id_numero: "OEL-39"
 numero_rivista: "Ombre e Luci"
 ---
+
 Avete visto la foto di copertina? Sono Anna e Giulio, il giorno del loro matrimonio. Fra loro
 [Flaminia](http://www.ombreeluci.it/1992/la-prima-comunione-di-flaminia-ci-ha-fatto-crescere/)
 , una ragazzina con seri problemi nella comunicazione, preparata, seguita, accompagnata da loro alla prima Comunione e alla Cresima.

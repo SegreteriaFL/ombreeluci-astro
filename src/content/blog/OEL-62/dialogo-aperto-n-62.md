@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 62
 date: 1998-06-17
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 4.631801605224609
 umap_y: 7.377158164978027
 umap_z: 10.650884628295898
 ---
+
 ### Non posso fare di più
 
 Vi mando un secondo elenco di offerte a

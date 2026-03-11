@@ -1,4 +1,5 @@
 ---
+
 title: La Luce! Simbolo del pellegrinaggio di Roma 1975
 date: 1975-07-03
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
 ---
+
 **IL FUOCO** : illumina, purifica, trasforma. **GESU' CRISTO** : Luce del mondo **IL SUO SPIRITO** : è il "Fuoco di Dio"
 
 ### Andare verso la luce
@@ -71,11 +73,13 @@ Cosa faremo per diffondere intorno a noi La Luce del PELLEGRINAGGIO?
 
 *Spirito del pellegrinaggio secondo uno schema di D. JULIEN*
 
+
 ---
 
 **NB:** Per preparerci a vivere il pollegrinaggio secondo questo spirito, sarà bene incontrarci qualche volta, fin del mese di settembre.
 
 A ROMA, gli incontri saranno: per VILLA PATRIZI : sabato_6 e 20 settembre per SAN GIOACCHINO : domenica 21 e 28 settembre e le domeniche di ottobre per SANTA SILVIA :s domenica 21 settembre e domenica 5 ottobre
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Pensioni rubate
 date: 2012-03-16
 author: Pennablù
@@ -14,7 +15,10 @@ umap_z: 8.650384902954102
 issue_number: OEL-118
 id_numero: "OEL-118"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Fra le ultime notizie di nuovo, ancora, i furbetti delle pensioni. Pennablù non ce la fa più."
 ---
+
 L’
 ultima notizia in questo campo risale a pochi giorni fa: 30 arresti a Napoli per false pensioni di invalidità. E non si tratta di un caso sporadico. I giornali sono pieni di dati impressionanti: circa il 30% dei beneficiari di pensioni di invalidità non ne avrebbero diritto. Dall’Inps sarebbero state revocate nell’ultimo anno 18.840 pensioni... Anche se gonfiate e forse poco verificate sono cifre che contengono certamente una gran parte di verità.
 **Dobbiamo quindi pensare che fingendosi ciechi**

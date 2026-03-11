@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 28
 date: 1989-12-26
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-28
 id_numero: "OEL-28"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Che bella festa!
 
 8 settembre 1989: oggi **Giuseppe** e **Maria Neve** si sposano. La chiesa di S. Agnese a Via Nomentana è piena di fiori e di gente elegante. Il celebrante è venuto appositamente dalla Francia, è un amico, Pierre Debergé. Sui banchi è posato un libretto predisposto perché ognuno possa seguire al meglio la cerimonia. In seconda pagina vi è scritto «Organo: Andrea Mazzarotto» e più sotto «Canti: [Gruppo Villa Patrizi di Fede e Luce](http://www.fedeeluce.it/villa-patrizi-(roma).html) ». Siamo presenti tutti di Villa Patrizi, un gruppo di persone quali di solito non si incontra ai matrimoni, ma oggi Maria Neve e Pinino (cioè Giuseppe, ma per noi sarà sempre Pinino) ci hanno voluti vicini e tutti noi abbiamo sentito che la nostra presenza era non solo gradita ma proprio desiderata. Un matrimonio elegante ma «fedelucino»: quanta strada è stata fatta da quando i nostri figli venivano allontanati dalla chiesa perché disturbavano!

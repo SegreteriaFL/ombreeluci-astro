@@ -1,4 +1,5 @@
 ---
+
 title: Meb, pittore gioioso - Le conquiste di un mongoloide
 date: 1983-12-28
 author: Redazione
@@ -20,6 +21,7 @@ umap_y: 10.28122329711914
 umap_z: 6.993372440338135
 id_numero: "OEL-4"
 ---
+
 «Dal punto di vista cromosomico Meb non si distingue affatto dall’immensa maggioranza dei trisomici 21... Oltre a mille altre particolarità, Meb è anche pittore... Questa vena artistica che si sviluppa malgrado la deficienza mentale non è poi così sorprendente dopotutto. L’intelligenza astratta e raziocinante misurabile e definibile dai test, questa logica ammirevole e quasi meccanica si trova menomata presso i trisomici. Nessuno di loro può pretendere di avere una mente matematica oltre un certo livello. Ma in quell’altra
 *ragione*
 che risiede più vicina al cuore, là dove le emozioni si avvicinano alla realtà, là dove si dice che abitino i sentimenti e la verità, in quel campo più intimo e più privilegiato, i trisomici 21 non trovano maggiori ostacoli degli altri. In questa zona dello spirito in cui si incontrano i fanciulli, gli innamorati e i poeti essi sono liberi come noi, come gli uomini possono esserlo». Così si esprime il Prof.

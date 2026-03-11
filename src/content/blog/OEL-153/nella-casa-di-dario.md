@@ -1,4 +1,5 @@
 ---
+
 title: Nella casa di Dario
 date: 2021-05-05
 author: Carlo Maria Fornari
@@ -15,6 +16,7 @@ issue_number: OEL-153
 id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nel 1979 vivevamo a Milano nel rione della parrocchia San Giuseppe della Pace. La famiglia a quell’epoca era composta da me, mia moglie Irma e nostro figlio Paolo, un ragazzo con sindrome di Down di 16 anni. Uscendo dalla messa ci si avvicinò una signora, Giovanna Carozzi, che ci chiese se conoscevamo il movimento di [Fede e Luce](http://fedeeluce.it) . Ci raccontò in poche parole cosa faceva quel gruppo. Per noi fu un segno della Provvidenza: a Fede e Luce, genitori, figli e amici si sentono davvero tutti uguali scambiandosi le loro esperienze e sostenendosi a vicenda in una strada, difficile ma tanto entusiasmante, da percorrere insieme.
 
 Nel 1991 ci trasferimmo a Ponte Lambro; lì conoscemmo il gruppo di Fede e Luce, fondato da don Dario Madaschi. Nello stesso anno adottammo Teresa Chiara che aveva pochi mesi di vita ed era stata abbandonata per la sua sindrome in un piccolo ospedale di provincia. Teresa Chiara ora ha 35 anni e frequenta un centro socio educativo della nostra città; Paolo invece, cinquantaseienne, è in pensione da alcuni anni dopo averne lavorati trenta a Il Sole 24 Ore.

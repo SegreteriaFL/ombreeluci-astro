@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.17
 date: 1987-03-21
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-17
 id_numero: "OEL-17"
 numero_rivista: "Ombre e Luci"
 ---
+
 *"Ero stanca di provare, parlare, ricominciare ed introdurre mio figlio Francesco, nato con sindrome Down, di 15 anni.* *Un bel giorno così vi abbiamo conosciuto...". "Con mio marito cerchiamo di aprirci agli altri, incontriamo tanta sofferenza intorno a noi, il più delle volte causata da ingiustizia, e cerchiamo di dare amore." *
 
 ### Il vostro invito

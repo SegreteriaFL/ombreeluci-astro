@@ -1,4 +1,5 @@
 ---
+
 title: Una specie di Erasmus con Fede e Luce
 date: 2023-10-11
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 11.6981840133667
 issue_number: OEL-163
 id_numero: "OEL-163"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "A colloquio con Samuèl Lopez Ruiz"
 ---
+
 «Visitare una città come Roma una volta nella vita è molto importante. Tutte le persone dovrebbero farlo. Mio papà mi ha dato un buon consiglio». Appassionato viaggiatore e collezionista di monumenti, con un’accezione tutta personale del significato di “monumento” compreso solo in seguito, **Samuèl Lopez Ruiz è atterrato a Roma il 9 maggio scorso.** Il suo arrivo era stato annunciato mesi fa: un’amica dalle numerose conoscenze sparse in Europa, Angela Grassi, aveva incontrato il padre di Samuel grazie a una conoscenza comune tra *Fe y Luz* e il gruppo per l’autismo all’interno dell’associazione Down che Samuèl frequenta a Santander («in Cantabria», sottolinea).
 
 In una forma lieve dello spettro autistico, **Samuèl si sarebbe fermato nella città eterna per un mese a fine primavera, così come aveva fatto l’anno precedente a Parigi.** «Ha 28 anni, detesta Madrid e ama viaggiare; il papà abita proprio a Madrid e non può sempre farlo con lui; non parla italiano ma lo sta imparando in rete», ci aveva spiegato Angela, chiedendoci di trovare un alloggio adatto alle sue necessità.

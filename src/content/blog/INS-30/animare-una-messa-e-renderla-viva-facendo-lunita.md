@@ -1,4 +1,5 @@
 ---
+
 title: "Animare una Messa è renderla viva facendo l'unità"
 date: "1981-06-16"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
+
+subtitle: "[et_pb_section fb_built=&#8221;1&#8243; _builder_version=&#8221;4.16&#8243; global_colors_info=&#8221;{}&#8221;][et_pb_row column_structure=&#8221;2_3,1_3&#8243; _builder_version=&#8221;4.16&#8243; background_size=&#8221;initial&#8221; background_position=&#8221;top_left&#8221; background_repeat=&#8221;repeat&#8221; global_colors_info=&#8221;{}&#8221;][et_pb_column type=&#8221;2_3&#8243; _builder_version=&#8221;4.16&#8243; custom_padding=&#8221;|||&#8221; global_colors_info=&#8221;{}&#8221; custom_padding__hover=&#8221;|||&#8221;][et_pb_text _builder_version=&#8221;4.27.4&#8243; _module_preset=&#8221;default&#8221; hover_enabled=&#8221;0&#8243; global_colors_info=&#8221;{}&#8221; sticky_enabled=&#8221;0&#8243;] I. Animare una messa è renderla viva… Come rendere viva una celebrazione dove chi agisce per primo è Dio stesso? Ecco ciò che dicono, a volte, dei cristiani che ci ricordano che una messa è [&hellip;]"
 ---
+
 ## I. Animare una messa è renderla viva…
 
 Come rendere viva una celebrazione dove chi agisce per primo è Dio stesso? Ecco ciò che dicono, a volte, dei cristiani che ci ricordano che una messa è una messa, che non è necessario fare un sacco di cose per darle vita perché, al contrario, è proprio il Signore che ci dà vita.

@@ -1,4 +1,5 @@
 ---
+
 title: "Scuola e disabilità: dall’Osservatorio Scolastico deir AI AS di Milano"
 date: "2003-09-04"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
+
+subtitle: "Per capire meglio cosa sta accadendo nel mondo della scuola per quanto riguarda l’inserimento abbiamo chiesto giudizi e riflessioni ad alcuni rappresentanti delle maggiori associazioni di disabili. In questo numero riportiamo una breve intervista con Patrizia Armellini, responsabile dell’Osservatorio Scolastico dell’AIAS di Milano"
 ---
+
 Per capire meglio cosa sta accadendo nel mondo della scuola per quanto riguarda l’inserimento abbiamo chiesto giudizi e riflessioni ad alcuni rappresentanti delle maggiori associazioni di disabili. In questo numero riportiamo una breve intervista con Patrizia Armellini, responsabile dell’Osservatorio Scolastico dell’AIAS di Milano Tel 02/3302021
 Diamo per scontato che la Legge per l'integrazione scolastica è stata una scelta giusta, dalla quale indietro non si torna; le chiediamo un giudizio complessivo su come è avvenuto l’inserimento dei ragazzi con paralisi cerebrale (spastici) nei 20 anni trascorsi dall’approvazione della Legge.
 I primi anni sono stati di intensa sperimentazione, pur nella difficoltà di una rivoluzione culturale. Attualmente rinserimento è un dato di fatto, ma la vera integrazione rimane spesso un progetto e ancora più spesso un obbiettivo non verificato, senza l’appoggio di un pensiero strategico. Laddove però la scuola utilizza intelligentemente gli strumenti e la collaborazione i risultati sono buoni e, questo è fondamentale, tutti ne hanno vantaggio, non solo gli alunni disabili.

@@ -1,4 +1,5 @@
 ---
+
 title: Il tuo bambino ha qualcosa che non va
 date: 2013-06-10
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 7.101360321044922
 issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La comunicazione della diagnosi può generare reazioni diverse nella famiglia in cui è appena nato un figlio con handicap e costituisce anche il primo momento di crisi, che investe non solo la coppia dei genitori, ma tutta la famiglia allargata"
 ---
+
 *Abbiamo estratto dal libro di Lynda Johnson Vitali " [Chiamami Alex](https://www.ombreeluci.it/2013/chiamami-alex-recensione/) ", alcune pagine sull’argomento.*
 
 […] Non lontano dalla clinica, nel nostro appartamento suonò il telefono. Rispose Paolo. Era un’infermiera. Era costernata, ma il suo dovere prevedeva quella comunicazione urgente: secondo i medici, nel neonato, c’era qualcosa che non andava. Il bambino, forse, non è normale. Probabilmente è affetto da Trisomia 21, o meglio, Sindrome di Down. Non possiamo esserne sicuri. Abbiamo bisogno di ulteriori accertamenti. Mio marito non sapeva di cosa stesse parlando quella donna. Ma non occorsero giri di parole per precisare che, con tutta probabilità, si trattava di mongolismo. Shok. Terrore. Paolo, il più giovane di sette fratelli, d’istinto e in preda al panico, corse da sua madre. Mia suocera provò a consolarlo. Conosceva bene il dolore, sapeva come ci si sente quando al vita si ribalta senza avvertirti prima, quando ti fa vivere un istante, un istante in cui tutto cambia. …. Aveva imparato a sopravvive alla sofferenza fino a conviverci e a farla diventare parte di se stassa. Ora ancora il dolore per un figlio. Un figlio che soffriva, che piangeva che le domandava perché, perché, chiedendole aiuto , forza coraggio. E lei gli diede tutto. Tutto ciò che Paolo nel buio cercava pur di trovare una possibilità per aiutare la donna che amava e il suo piccolino appena nato.

@@ -1,4 +1,5 @@
 ---
+
 title: "Guidare alla luce: catechesi sensoriale per una vita spirituale inclusiva"
 date: 1976-05-20
 author: Suor Ida Maria
@@ -14,7 +15,10 @@ umap_z: 8.93156623840332
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Esplorando il cammino della formazione spirituale con ragazzi diversi e scoprendo la bellezza dell'incontro con dio attraverso l'esperienza e l'amore"
 ---
+
 Lamia esperienza risale a una quindicina di anni fa, quando mi affidarono alcuni bambini diversi da preparare alla Prima Comunione.
 
 Nonostante la mia formazione pedagogica, mi trovai sconcertata. Testi e sussidi mancavano completamente. Mi accinsi al lavoro con molto amore, ma senza preparazione.

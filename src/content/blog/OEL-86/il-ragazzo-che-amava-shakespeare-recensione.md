@@ -1,4 +1,5 @@
 ---
+
 title: Il ragazzo che amava Shakespeare - Recensione
 date: 2004-06-11
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.83372163772583
 umap_y: 6.893578052520752
 umap_z: 6.586345195770264
+
+subtitle: "Bob Smith, Edizioni Guanda"
 ---
+
 S
 hakespeare, con la sua capacità senza tempo di raccontare e descrivere la grande vastità dei sentimenti e delle emozioni umane, ha rappresentato per Bob Smith la chiave di volta per riscrivere la trama della sua esistenza. È infatti riuscito, Shakespeare, a “parlare” a Bob come nessuno aveva fatto nella sua vita: riconoscendo e dando dignità ai contrapposti sentimenti di un giovane estremamente legato, nel bene e nel male, alla sua famiglia — una mamma sempre sull'orlo della depressione, un papà per lui troppo assente, una amatissima sorella, Carolyn, gravemente handicappata e dei nonni, particolarmente importanti e affettuosi, ma poco adatti, a volte, alle esigenze di un bambino. L’autore, adesso sessantenne, ricorda la sua infanzia e giovinezza attraverso la sua bella e profonda esperienza di scambio che tiene con gruppi di persone anziane intorno allo studio dei drammi shakespeariani. Persone spesso ricoverate in case di cura o comunque sole, che riescono, attraverso le trame dei vari Amleto, Ofelia, Romeo e Giulietta, ad essere coinvolte anima e cuore ritrovandovi e rileggendovi le vicende emotive vissute nella loro vita. La cosa che più mi ha colpito in questo libro, estremamente umano e vero, è il tono mai pietistico né rancoroso con cui l’autore americano racconta esperienze che devono averlo certamente segnato nel profondo ma che è stato capace di accogliere, comprendere e soprattutto utilizzare per aiutare altri, come poche persone sono in grado di fare. di
 *Cristina Tersigni*

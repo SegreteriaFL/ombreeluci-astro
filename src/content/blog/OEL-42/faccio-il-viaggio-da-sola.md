@@ -1,4 +1,5 @@
 ---
+
 title: Faccio il viaggio da sola
 date: 1993-06-21
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-42
 id_numero: "OEL-42"
 numero_rivista: "Ombre e Luci"
 ---
+
 *"Mamma sono due anni che prendo l'autobus da sola per andare al laboratorio con Franca. Le prime volte mi hanno insegnato come si faceva a prendere l'autobus. Mi accompagnava Matteo e qualche volta pure Cecilia e facevamo finta di non conoscerci. Piano piano ho imparato a prenderlo da sola; almeno per uscire da casa. Adesso mi accompagnano alla fermata, faccio il viaggio da sola nell'autobus. A me questo fa molto felice e contenta."*
 
 #### Editoriale

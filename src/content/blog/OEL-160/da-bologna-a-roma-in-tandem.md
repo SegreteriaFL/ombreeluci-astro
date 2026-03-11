@@ -1,4 +1,5 @@
 ---
+
 title: Da Bologna a Roma in tandem
 date: 2022-09-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 10.179234504699707
 issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un gruppo di persone con disabilità e i loro accompagnatori con un progetto ambizioso e un grande obiettivo"
 ---
+
 Partiranno sabato 8 ottobre da Bologna e arriveranno a Roma il 15 dopo aver percorso più di 300km e superato un dislivello in salita di 5.750m! Organizzato dal [L’Arche Comunità l’Arcobaleno](https://www.larchebologna.it) di Bologna, in occasione dei 20 anni di attività, il viaggio prevede la partecipazione di 6 tandem con un team di base composto da 16 persone: 7 persone con disabilità, 6 guide dei tandem, 3 autisti che guideranno 3 mezzi (un pulmino e un’auto per il trasporto delle persone e un furgone per il trasporto dei tandem).
 
 Per la realizzazione del ciclo-viaggio verranno coinvolti alcuni volontari (Gli Amici di Arche APS, FIAB, Italian Army) sia come guide che per avere un sostegno lungo il percorso, ma, soprattutto, per poter creare occasioni d’incontro e di crescita reciproca; verranno inoltre coinvolte tutte le realtà associative (tra cui, anche [Fede e Luce](http://fedeeluce.it) ) che si occupano di disabilità, che sono in rete e relazione con [L’Arche Comunità l’Arcobaleno](https://www.larchebologna.it) per una comunanza di valori e di esperienze e che potranno supportare la Comunità nella logistica.

@@ -1,4 +1,5 @@
 ---
+
 title: Per la nostra riflessione
 date: 1978-09-17
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 **Ascolta questa storia.**
 
 È successa ieri a Gallarate vicino a Milano. Luciana Baroffi di 36 anni teneva la figlia Cristina di 16 anni a dormire in balcone. Ieri faceva meno cinque gradi. **I vicini hanno chiamato la polizia.**

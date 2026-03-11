@@ -1,4 +1,5 @@
 ---
+
 title: Assieme – Newsletter n. 30
 date: 2021-03-15
 author: Redazione
@@ -15,7 +16,9 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### OL incontra...
+
 
 ---
 
@@ -23,11 +26,13 @@ Abbiamo da poco festeggiato un compleanno a cui avremmo rinunciato volentieri, q
 
 ### Il libro del mese
 
+
 ---
 
 Sebbene a volte presenti pagine fin troppo essenziali nello stile di “una denuncia che tende però a tralasciare (…) una indispensabile complessità”, il libro del mese è *I dimenticati. Coloro che non sono ripartiti dopo la pandemia* , a cura di Luca Leone e Riccardo Noury. È Cristina Tersigni a presentarci [questo progetto collettivo](https://www.ombreeluci.it/2021/i-dimenticati-recensione/) che affronta le tante fragilità emerse con il covid-19 (dai bambini agli anziani, dalle persone con disabilità ai minori stranieri non accompagnati, dai braccianti sfruttati ai senza casa…), di cui “la pandemia ha però solamente reso evidente una già nota debolezza”. Un libro dunque che aiuta “a dare carne e ossa a chi ha rischiato, e rischia, di sopravvivere, nella migliore delle ipotesi, solo come un fantasma”.
 
 ### Nel prossimo numero di Ombre e Luci
+
 
 ---
 
@@ -35,11 +40,13 @@ Sarà a breve nelle case degli abbonati [il nuovo numero di Ombre e Luci](https:
 
 ### 0-13
 
+
 ---
 
 Tornato a casa dopo un incontro (casetta) di Fede e Luce nel gennaio 2020, Glauco Rizzo (3 anni e diversi mesi) fece questo disegno. Che sia di buon auspicio!
 
 ### Il blog di Benedetta
+
 
 ---
 
@@ -48,6 +55,7 @@ Tornato a casa dopo un incontro (casetta) di Fede e Luce nel gennaio 2020, Glauc
 A me Gianciotto Malatesta sta un bel po’ antipatico. Io però di questa storia dei cognati Paolo e Francesca non ho capito proprio un bel niente. Solo che sono tutti morti. [**Continua a leggere...**](https://www.ombreeluci.it/2021/gianciotto-malatesta-e-i-conti-che-tornano/)
 
 ### Il post del mese
+
 
 ---
 

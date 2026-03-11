@@ -1,4 +1,5 @@
 ---
+
 title: "Papà è cieco"
 date: "1999-09-13"
 author: "Redazione"
@@ -15,6 +16,7 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
+
 Andrea è cieco dalla nascita. A ventidue anni entra a far parte di una comunità [Fede e Luce](https://fedeeluce.it). Qui incontra Maria Caterina studentessa di motricità. Si sposano. Poi nascono Samuele (15 anni), Davide (13 anni), Stefano (10 anni) e Rachele (7anni). Maria Caterina ci racconta la vita di famiglia con un papà cieco.
 Dice Davide: «Se siamo di buon umore è un paradiso! Altrimenti è l'inferno!». Questa frase però vale per ogni famiglia. La nostra vita familiare ha la sua parte di gioie, di tensioni, di momenti facili o difficili, come tutte. Non c’è allora alcuna differenza? Dire questo sarebbe negare una realtà che per ciascuno di noi, a volte, è molto difficile .... Con i ragazzi abbiamo fatto un elenco di regole perché ognuno si senta a casa sua.
 Non lasciare giochi nei corridoi o nella stanza da pranzo perché c’è rischio che si rompano! Samuele si è stancato di ricostruire con il lego il suo aeroporto: Andrea urtava regolarmente nella torre di controllo...

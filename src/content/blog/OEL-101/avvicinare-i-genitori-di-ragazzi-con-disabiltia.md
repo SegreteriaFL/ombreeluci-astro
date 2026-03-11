@@ -1,4 +1,5 @@
 ---
+
 title: "Avvicinare i genitori di ragazzi con disabiltià"
 date: "2007-12-12"
 author: "Mariangela Bertolini"
@@ -15,7 +16,10 @@ has_comments: false
 tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
+
+subtitle: "Ho imparato, con i miei approcci titubanti e con i miei errori, che non è cosa facile e che la buona volontà e il buon cuore non bastano"
 ---
+
 Mi è capitato spesso di avvicinare per la prima volta genitori di persone disabili, mamme e papà; di figli piccoli la cui diagnosi era annunciata da poco o di bambini che crescendo manifestavano comportamenti o carenze che ponevano seri interrogativi sul loro sviluppo.
 
 Ho imparato, con i miei approcci titubanti e con i miei errori, che non è cosa facile e che la buona volontà e il buon cuore non bastano. La mia esperienza di mamma di una figlia gravemente disabile è stata spesso un vantaggio. Dopo la sua morte, mi sono accorta che senza la sua presenza l’approccio si faceva più difficile.

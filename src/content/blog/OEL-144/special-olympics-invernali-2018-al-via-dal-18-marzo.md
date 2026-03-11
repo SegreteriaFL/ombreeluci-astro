@@ -1,4 +1,5 @@
 ---
+
 title: "Special Olympics invernali 2018: al via dal 18 marzo"
 date: 2018-03-15
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 **Dal 18 al 24 marzo 2018**
 oltre
 **500 atleti**

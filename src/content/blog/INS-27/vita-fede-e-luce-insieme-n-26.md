@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce, Insieme n. 26
 date: 1980-09-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 ### "Villa Patrizi" di Roma - di Enrica Nucci
 
 All'inizio dell'anno nel programmare l'attività del nostro gruppo ci è sembrato importante ottenere una più attiva presenza e partecipazione alle riunioni da parte di tutti i genitori. Questo perché ritenevamo importante che la partecipazione a Fede e Luce dovesse ottenere un modo nuovo di stare insieme tra amici, ma anche tra i membri della stessa famiglia.

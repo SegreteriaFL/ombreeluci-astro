@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 29
 date: 1990-03-20
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 10.301020622253418
 issue_number: OEL-29
 id_numero: "OEL-29"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Apprezzamento e sostegno della rivista, la psicosi in famiglia, l'esperienza dei Volontari della Sofferenza: i temi e le domande nel Dialogo Aperto di questo numero"
 ---
+
 ### Grazie, siete un vero aiuto
 
 Desidero ringraziarvi per la vostra rivista che è veramente sensata e utile a molte famiglie che si trovano ad avere bambini con vari handicap, in particolare psichici. Vi ringrazio di cuore a nome di tutte le persone che faranno **tesoro dei vostri consigli** , suggerimenti, appoggio morale, esempi pratici ed esperienze reali che voi presentate **attraverso genitori che hanno vissuto in prima persona** periodi difficili e che poi, incontrando le persone giuste sono stati aiutati a superare certe barriere e a ritrovare un iter giornaliero tranquillo e sereno anche con un bimbo handicappato. Un grande grazie anche perché nella vostra rivista si sente la presenza cristiana. Abbiamo tanto bisogno di far sentire l’amore di Dio al prossimo come prima regola della nostra rivista di cristiani. L’ultimo numero parla della prevenzione dei bambini sordi. Mi permetto di allegare copia di un lavoro fatto a Como nel 1977 dal C.D.T.. È stata un’iniziativa stupenda che ha dato poi un ottimo risultato. Forse vi interesserà. Approfitto per mandarvi l’indirizzo di persone che si interessano a questi problemi. Con i più cordiali saluti e tutta la mia simpatia. **Annita Viola** (Chiavari)

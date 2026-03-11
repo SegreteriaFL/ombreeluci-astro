@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 155
 date: 2021-08-23
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 11.225154876708984
 issue_number: OEL-155
 id_numero: "OEL-155"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Due lettere arrivate in redazione dalle reporter di Fede e Luce"
 ---
+
 # Una nuova reporter
 
 Ciao, sono Valentina Montanari sorella gemella di Francesca. Per me oggi pomeriggio è stato un pomeriggio bellissimo, ho rivisto gli amici di Fede e Luce! Sono stati due giorni bellissimi sia ieri con l’inaugurazione della barca che oggi [(leggi qui](https://www.ombreeluci.it/2021/un-fiume-lungo-quanto-il-mediterraneo/) ). **Ma oggi pomeriggio è stato un momento molto importante e molto emozionante perché sono stata scelta come reporter di Fede e Luce.** Mi hanno consegnato il tesserino con il mio nome e la mia foto con la scritta “Reporter Fede e Luce Mondovì” e per me è un grande onore visto che è dal 2002 all’incirca che faccio parte della comunità. Adesso sono molto felice e orgogliosa per questo incarico che ho ricevuto. Spero che il covid passi in fretta per poter riabbracciare tutti gli amici di Fede e Luce.

@@ -1,4 +1,5 @@
 ---
+
 title: Viaggio in Italia - Newsletter N.25
 date: 2020-10-15
 author: Redazione
@@ -15,7 +16,9 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### OL incontra...
+
 
 ---
 
@@ -23,11 +26,13 @@ Ben ritrovati, cari lettori, per un nuovo anno insieme. Con cadenza da ora mensi
 
 ### Il libro del mese
 
+
 ---
 
 «È normale – si chiede Enrica Riera [presentandoci](https://www.ombreeluci.it/2020/abbandonati-su-strade-solitarie/) *La più bella. La Costituzione tradita* (Add Editore) – che Carla e Matteo, al pari di tantissimi altri in analoghe condizioni, si rimbocchino le mani da soli perché non aiutati da nessuno, non vedendo riconosciuti tutele e diritti?». Con il libro del mese proseguiamo dunque il nostro viaggio in Italia: attraverso il racconto di vicende realmente accadute lungo la Penisola, tra fatti e domande spesso scomode, il libro-inchiesta di Alessio Lasta, giornalista e inviato di Piazzapulita, testimonia quanto e come la nostra Costituzione resti ancora lettera morta per le vite di molti, troppi italiani. «È ora di aprire gli occhi – chiosa Riera – di fare un passo concreto in avanti: la Costituzione ha settant’anni».
 
 ### Spettacoli
+
 
 ---
 
@@ -35,17 +40,20 @@ La terza tappa è Venezia. Anzi, l’altra Venezia, quella di cui non ha parlato
 
 ### La foto del mese
 
+
 ---
 
 *Un'amicizia solida quella tra Roberto, Walter e Luisa (dietro l'obiettivo): in questo periodo ci si può vedere solo attraverso il cancello perché Roberto ancora non è quasi uscito dal confinamento, così come quanti risiedono in comunità alloggio, case famiglia e istituti. Bisogna trovare il modo di passare il tempo... così anche scaricare insieme un'applicazione sul telefonino può rendere la giornata meno noiosa*
 
 ### 0-13
 
+
 ---
 
 «Ciao mi chiamo Greta, ho 11 anni, pochi giorni fa mi hanno chiesto che cos'è la disabilità, beh nel mio vocabolario non esiste questa parola, la definizione che io dò a questa parola è dono, ognuno di noi ha un dono qualcuno li tiene nascosti e altri no. Alcune persone definirebbero questi doni, strani alcune volte brutti ma, la realtà è che sono solo idioti. Ad esempio per me una persona autistica è un bellissimo dono, perché dice le cose schiette senza parlare troppo, senza voler far del male. Questa per me non è disabilità, ma è umanità.» *(Greta va in seconda media e vive in provincia di Bari)*
 
 ### Il blog di Benedetta
+
 
 ---
 
@@ -55,11 +63,13 @@ Io non voglio proprio parlare delle vacanza al mare. Non mi va Punto e basta cos
 
 ### Il post del mese
 
+
 ---
 
 > Quando giro per Roma con mia figlia gravemente disabile noto sempre con dispiacere la pressoché totale mancanza di bambini disabili in giro. Dobbiamo dare modo alle famiglie, con tutti i mezzi, di spalancare le porte di casa e far vivere le persone con disabilità senza paure ✌️ — Alessandro Carosi (@Alecarosi) [October 5, 2020](https://twitter.com/Alecarosi/status/1313099036463857664?ref_src=twsrc%5Etfw)
 
 ### Vita Fede e Luce
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Letture consigliate n.18
 date: 1978-09-07
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 Proponiamo qualche titolo di lettura seria per l'estate. Alcune righe tratte dalla presentazione della casa editrice illustrano il contenuto di ogni libro.
 
 Ciascuno di voi potrà così trovare, forse, uno o più temi che lo interessano o toccano più da vicino; nel qual caso aspettiamo le vostre impressioni per poterle poi condividere ulteriormente.

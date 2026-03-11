@@ -1,4 +1,5 @@
 ---
+
 title: Cooperativa sociale
 date: 2001-06-20
 author: Antonio Mazzarotto
@@ -17,7 +18,10 @@ umap_z: 8.447278022766113
 issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Abbiamo chiesto ad un esperto in materia di spiegarci cosa sono, di cosa si occupano e come funzionano le cooperative sociali"
 ---
+
 **Avviso** Questo articolo è stato scritto nel 2001. Le informazioni in esso contenute potrebbero essere anacronistiche o non più valide. (n.d.r.)
 
 Le **Cooperative Sociali** sono imprese che operano con finalità di promozione sociale e di sviluppo nella società, ma sono imprese a tutti gli effetti. Esse offrono servizi ed attuano inserimenti lavorativi di soggetti svantaggiati in strutture con caratteristiche imprenditoriali, sviluppando professionalità spendibili sul mercato.

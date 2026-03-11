@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.35
 date: 1991-09-20
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-35
 id_numero: "OEL-35"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Date ai miei figli un po’ di questo mondo
 
 Io che vi scrivo sono lina donna nata già nel dolore perché 36 giorni prima che io nascessi, morì mio papà: aveva fatto la guerra del ’18, era stato ferito, ma tornò a casa e non fu riconosciuto per niente. Poi cresciuta nella miseria con due patrigni: voi non potete mai immaginare la vita che ho dovuto fare: solo tanto lavoro, lavoro, ma il lavoro mi piaceva, non mi dava tanta importanza; lavoravo e mi facevo fra di me i conti di casa, quel che dovevo fare domani. Allora lavorare, pregare, stare vicino al Signore e alla Madonna, essere una donna onesta, sposarmi avere dei figli e educarli nel nome del Signore. E così è stato; mi sono sposata, il Signore mi ha regalato sei figli, ma visto che io ero e sono una donna e una mamma provata dal Signore, il Signore mi ha voluto provare ancora. Di questi sei figli, due sono invalidi civili; sono normali in tutta la persona ma non camminano; stanno sempre sopra una sedia a rotelle e hanno bisogno di tanta assistenza. Luigi è nato il 5 febbraio 1952, Lucia è nata il 1° marzo 1955. Come potere vedere sono già adulti e come potete capire, da soli non possono fare niente. Qui non c’è mai una persona disponibile che ci possa dare una mano. Mio marito ha 77 anni e io ho 70 anni, ma sono sofferente di mille guai e chiedo a voi un aiuto, un contributo di amore e di affetto per due corpi inerti, senza possibilità di niente; vorrebbero viaggiare, fare amicizie, parlare con degli amici. Vorrebbero ricevere delle lettere; sono disperati loro e io per combattere con loro, giorno dopo giorno. Aiutateci per amore di Dio. Aiutate chi veramente soffre per tutta la vita. E’ bello pregare il Signore, ma è veramente bello fare del bene a chi ha bisogno, dare una mano a chi non si può alzare, a chi sente il ruscello scorrere e lui non è in grado di prendersi da bere, aiutare chi non ha gambe per camminare. Date ai miei figli un pò di questo mondo che è loro stato negato. Poi io che sono la mamma sono sempre ad assistere questi figli. Non posso aiutare mai nessuno, poiché non conosco nessuno al quale rivolgermi. I miei altri quattro se ne sono andati fuori per la tanta miseria e noi quattro persone abbiamo tanto bisogno di aiuto non possiamo più rivolgerci a loro che hanno ormai i loro problemi. Vi saluto con amore.

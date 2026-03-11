@@ -1,4 +1,5 @@
 ---
+
 title: Biografilm festival di Bologna
 date: 2020-06-17
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Celebrare le vite attraverso il cinema è lo scopo del [Biografilm Festival](https://www.biografilm.it/) che si svolge ogni anno a Bologna nel mese di giugno, sin dalla prima edizione del 2005 ( [qui l'intervista al presidente, Andrea Romeo](https://www.ombreeluci.it/2020/intervista-ad-andrea-romeo-su-cinema-e-disabilita/) ).
 
 Con un interesse particolare per il genere documentario, il festival non trascura i film di finzione, soprattutto *biopic* (biographic picture), genere trasversale dalle mille modalità narrative che sarebbe riduttivo definire semplicemente biografico. Nelle sue prime quindici edizioni, il festival si è imposto come uno degli appuntamenti più importanti d’Europa in ambito documentaristico, mantenendo al contempo un occhio di riguardo per le anteprime nazionali di film di finzione non ancora passati in Italia.

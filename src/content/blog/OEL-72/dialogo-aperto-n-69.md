@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 69
 date: 2000-03-27
 author: Redazione
@@ -14,12 +15,17 @@ umap_z: 11.36520004272461
 issue_number: OEL-72
 id_numero: "OEL-72"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### - Accorgetevi di me
 
 Io appartengo al gruppo Fede e Luce da nove anni circa. In questo tempo è nata una grande amicizia fra noi. Io mi trovo bene con tutti i membri del mio gruppo, "L’Arcipelago", composto da tante persone che vengono o no agli incontri, ma quello che mi preme più di tutto è sottolineare che Fede e Luce ha un significato molto profondo nella società in cui viviamo: con i suoi pregi e i suoi difetti si cerca di migliorarci. Per me l’amicizia è importante con tutti, anche l’inserimento nella società di tutti i giorni, con tutto quello che comporta. Bisogna sapersi accettare per quello che si è. Spero che nel mio futuro io riesca ad ottenere ciò che voglio, anche se è impossibile. Ognuno di noi ambisce a qualcosa nel lavoro, nell’amore, e in altre cose più gratificanti che diano un cambiamento. Vorrei tanto esser considerato di più, ma io più cresco e più rimango come ero prima. Se qualcuno vuole posso continuare a scrivere, affinché gli altri si accorgano di me, per quello che vorrei avere dalla vita. Io sbaglio a pensarci sempre, perché diventa un'ossessione, però io ci conto che si avveri. Ciao
 
 **Giovanni Grossi**
+
+
 
 ---
 
@@ -28,6 +34,8 @@ Io appartengo al gruppo Fede e Luce da nove anni circa. In questo tempo è nata 
 L’amicizia è un sentimento che bisogna saper coltivare. Ci sono degli amici che sono amici sinceri e quando uno si trova in difficoltà essi sono sempre disposti ad aiutare l’amico. Invece a volte ci sono degli amici che sono amici finché pensano di raggiungere uno scopo, se poi lo scopo non lo raggiungono e l’amico si trova nei momenti difficili, si allontanano e ciò non è belio perché se uno è amico deve essere amico nel vero senso della parola e deve aiutare l’amico nei momenti difficili. Coloro che si dimostrano amici solo nei momenti facili sono opportunisti ed egoisti. Tra gli amici è importante che ci siano rapporti buoni, affetto, simpatia e comprensione, perché se tra gli amici i rapporti non sono buoni e non vi è né simpatia, né comprensione, né affetto, si creano dei problemi e in tal caso è meglio perdere quegli amici. Se invece tra gli amici il rapporto è buono e ci si comprende, tutto procede bene. Come dice il proverbio, chi trova un amico trova un tesoro e, come dice la canzone di Venditti, ci vorrebbe un amico per dimenticare il male. Io alla comunità Fede e Luce dove vado ogni 16 giorni ho tanti amici con i quali ho degli ottimi rapporti. E non ci vediamo solo quando ci sono gli incontri, ma a volte ci sentiamo anche per telefono: questo è il bello dell’amicizia. Ciascuno di noi con l’amico si deve consolare e confidare, specialmente nei momenti difficili, però sempre a una condizione: basta che l’amico non faccia due parti in commedia, perché se fa la doppia parte, è meglio perderlo. Se non ci fosse l’amicizia il mondo sarebbe finito.
 
 **Maurizio Marcolini** - [Comunità S. Anna Roma](http://www.fedeeluce.it/comunita/santanna/)
+
+
 
 ---
 

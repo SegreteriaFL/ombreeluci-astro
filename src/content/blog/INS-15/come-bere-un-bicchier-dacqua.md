@@ -1,4 +1,5 @@
 ---
+
 title: "Come bere un bicchier d'acqua"
 date: 1977-12-06
 author: Luis Sankalé
@@ -17,6 +18,7 @@ issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
 ---
+
 Ogni giorno facciamo dei gesti senza renderci conto che li stiamo facendo. Sembra addirittura che, più li facciamo, meno prestiamo attenzione. Sono gesti divenuti normali, come la vita. Eppure li rifacciamo ogni giorno, come se fossero sempre nuovi.
 
 **Come bere un bicchier d'acqua,** per esempio!

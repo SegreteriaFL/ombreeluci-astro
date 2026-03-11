@@ -1,4 +1,5 @@
 ---
+
 title: Come le altre domeniche Anna
 date: 1984-03-30
 author: Redazione
@@ -22,6 +23,7 @@ issue_number: OEL-5
 id_numero: "OEL-5"
 numero_rivista: "Ombre e Luci"
 ---
+
 Anna è una mongoloide di diciotto anni, ultima di quattro figli. Da anni, ogni domenica, assiste con i suoi genitori alla messa parrocchiale. Pensando a tutte le famiglie come la sua che si interrogano sul posto dei loro figli nella Chiesa, il papà di Anna ha scritto queste riflessioni. Spera che siano di aiuto a qualcuno.
 
 ### Entrata

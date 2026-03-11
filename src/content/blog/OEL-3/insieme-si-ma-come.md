@@ -1,4 +1,5 @@
 ---
+
 title: "Insieme sì. Ma come"
 date: "1983-09-30"
 author: "Nicole Schulthes"
@@ -19,6 +20,7 @@ tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 id_numero: "OEL-3"
 ---
+
 La prima cosa da tener presente è che la vita comune esige - per noi stessi, per i nostri bambini, i nostri amici, handicappati e non - innanzitutto e sempre tolleranza e generosità. Senza queste due qualità umane e cristiane, chi tra noi potrebbe vivere in armonia con il proprio fratello?
 
 Ma questo non basta. Più membri di un gruppo, coloro che partecipano ad un’attività, sono differenti fra loro, più e meglio deve essere previsto lo svolgersi della giornata e devono essere strutturate le attività. E poiché qui parliamo di attività di tempo libero, i giochi devono essere accuratamente scelti e preparati, così come i canti e le attività musicali, perché non tutto sempre può essere adatto.

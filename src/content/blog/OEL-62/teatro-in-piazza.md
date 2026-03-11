@@ -1,4 +1,5 @@
 ---
+
 title: Teatro in piazza
 date: 1998-06-17
 author: Maria Teresa Mazzarotto
@@ -17,6 +18,7 @@ umap_x: 9.060371398925781
 umap_y: 7.7159857749938965
 umap_z: 8.702057838439941
 ---
+
 L’associazione di solidarietà familiare per persone handicappate (AS.SO.FA.) è nata ed opera a Piacenza. Tra le altre sue attività, tutte ispirate al principio “fare insieme con i disabili”, annovera anche quella del teatro. E’ così che in questa città è andato in scena, con la regia di Stefania Guerra Lisi, uno spettacolo molto particolare: “La melodia della vita".
 
 Una prima volta in un teatro parrocchiale e, qualche tempo dopo, all'aperto, in piazza Cavalli davanti a mille persone, trenta giovani volontari e venti disabili gravi e meno gravi, con suoni, movimenti plastici, danze, giochi di luce e costumi multicolori, hanno simulato la creazione del mondo quale emerge dalla Genesi ed insieme la rappresentazione dei quattro elementi: terra, aria, acqua e fuoco. Un tema difficile che ha. colpito ed emozionato gli spettatori dimostrando che "fare insieme” si può e dà buoni frutti. "La diversità degli attori non è stata percepita da chi assisteva alle scene perché le parti assegnate erano le più adatte a valorizzare le attitudini e le capacità di ciascuno”, è stato scritto da uno spettatore.

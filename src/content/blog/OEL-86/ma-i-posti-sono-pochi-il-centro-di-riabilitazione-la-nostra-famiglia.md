@@ -1,4 +1,5 @@
 ---
+
 title: Ma i posti sono pochi - Il centro di riabilitazione “La Nostra Famiglia”
 date: 2004-06-11
 author: Vito Giannulo
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.298681259155273
 umap_y: 8.600253105163574
 umap_z: 8.443707466125488
+
+subtitle: "Il bene fatto per bene, era lo motto del nostro fondatore, don Luigi Monza e allora abbiamo il dovere di dare qualcosa in più, non solo ai corpi, ma anche ai cuori”."
 ---
+
 “Sono qui da un mese, accanto a mio figlio ricoverato dopo un intervento in un ospedale del nord. Dormo con lui, mangio con lui, lo guardo esercitarsi ogni giorno. E penso che qui, ma solo qui, resterei ancora un altro mese o due o tutto il tempo necessario”. Loredana è la mamma di Francesco che ha 8 anni. Da quando il bambino aveva nove mesi, cioè da quando gli fu diagnosticata la tetraparesi spastica, Francesco frequenta il centro di riabilitazione “La Nostra Famiglia” ad Ostuni, in provincia di Brindisi, in uno dei quattro poli regionali dell’istituzione fondata a cavallo degli anni ‘50 da don Luigi Monza.
 
 Ostuni è una delle città più belle della Puglia, in collina ma a pochi passi dal mare, bianca di calce fuori, viva di arte e di turisti dentro. Ma per Loredana e Francesco e per centinaia di famiglie meridionali, Ostuni è soprattutto “La Nostra Famiglia”: l’unica possibilità nel sud d’Italia di fare riabilitazione neurologica in età evolutiva, cioè da 0 a 18 anni. “La nostra famiglia” è un ente ecclesiastico riconosciuto dal 1958, una onlus ai fini legali e ha un “braccio operativo” che è l’istituto di ricerca “Eugenio Medea” con quattro sedi, appunto: quella centrale di Bosisio Parini, in provincia di Lecco, quella friulana di San Vito al Tagliamento, quella di Conegliano veneto e poi Ostuni.

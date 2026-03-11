@@ -1,4 +1,5 @@
 ---
+
 title: Uno... due... tre... stella!!
 date: 1980-09-16
 author: Mariangela Bertolini
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 Èun gioco che da piccoli abbiamo fatto tante volte; tutti in fila di partenza; il capogiooco distanza con le spalle girate grida: "uno, due, tre, stella!" I compagni avanzano verso di lui a piccoli passi e con prudenza per non farsi cogliere in movimenti ed essere ricacciati alla partenza.
 
 Il capo-gioco spesso è deluso perché i compagni sembrano sempre immobili... eppure... avanzano... Non ci capita spesso di avere questa impressione a Fede e Luce? Quante volte, un pò scoraggiati, ci siamo detti qua e là: "Niente si muove... tutto è come prima... gli sforzi fatti non hanno esito... sembra di non combinare niente..."

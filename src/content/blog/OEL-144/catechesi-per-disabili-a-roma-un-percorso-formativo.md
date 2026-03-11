@@ -1,4 +1,5 @@
 ---
+
 title: "Catechesi per disabili: a Roma un percorso formativo"
 date: 2018-10-24
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 A
 lla Chiesa di
 [Santa Maria Regina Pacis di Monteverde](http://reginapacismonteverde.it/)

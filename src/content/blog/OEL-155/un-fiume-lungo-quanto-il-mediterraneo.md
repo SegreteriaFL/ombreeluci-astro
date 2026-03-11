@@ -1,4 +1,5 @@
 ---
+
 title: Un fiume lungo quanto il Mediterraneo
 date: 2021-08-23
 author: Liliana Ghiringhelli
@@ -14,7 +15,10 @@ umap_z: 14.5310697555542
 issue_number: OEL-155
 id_numero: "OEL-155"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "In pellegrinaggio dal Monviso alla Galilea"
 ---
+
 Per festeggiare **i cinquant’anni di Fede e Luce** , la provincia Un Fiume di Pace ha organizzato un pellegrinaggio che coinvolge tutte le sue comunità, dal Piemonte alla Galilea. Il percorso ricalca il fiume di pace che dà il nome alla provincia e che parte dalle sorgenti del Po, snodandosi attraverso il Mediterraneo fino al Giordano in Terra Santa.
 
 È proprio dal Monviso che lo scorso 29 maggio le comunità Camminiamo insieme (Cuneo) e Guida la tua guida (Mondovì) hanno inaugurato e benedetto la barca alla foce del Po, che è poi passata alla comunità Porte Aperte di Torino il 6 giugno, alle comunità Cuori Aperti e Gelsomino di Biella il 13, arrivando infine a Milano il 19 giugno, nelle mani delle comunità Carugate, Maria Immacolata e Pantigliate. Si riparte a settembre: il 18/19 sarà la volta delle comunità San Giuseppe della Pace, San Gaetano e Milano Centro, il 26 a Gratosoglio celebreranno le comunità Maria Madre della Chiesa, Messaggeri di Gioia di Cesano Boscone e la comunità di Rho. Le comunità del Veneto (Raggi di sole e Stella di San Lorenzo) vedranno la barca ad ottobre, prima che questa prenda il largo verso la Galilea, dalle comunità Ulivo di Galilea (di Elabun), Maryam Bawardi (di Shifaram) **e la nascente comunità di Nazareth dove verrà celebrata la conclusione del pellegrinaggio** .

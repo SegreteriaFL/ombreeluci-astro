@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.107
 date: 2009-09-10
 author: Redazione
@@ -14,12 +15,17 @@ umap_z: 11.213571548461914
 issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Ora vedremo gli amici
 
 18 settembre 2009: ci ritroviamo con il gruppo degli amici di Fede e Luce per la prima pizza dopo il periodo estivo. Il mio pensiero è: che bello ricominciare dopo un lungo periodo di vacanza, in cui siamo stati per lo più soli (il ragazzo mio figlio, il marito ed io) ora rivedremo gli amici (quelli che io considero“veri” amici!). È stata anche questa volta una bella emozione: eravamo quasi una trentina, come in una grande famiglia dove all’appuntamento ci si vuole essere tutti,grandi e piccoli, avendo privilegiato questo incontro ad altri incontri. Questo vale per lo più per la famiglie degli amici; noi,genitori dei ragazzi, di appuntamenti ne abbiamo ben pochi. Mi auguro di avere anche nei prossimi anni gli stessi occhi e lo stesso “cuore” per apprezzare in modo giusto questo avvenimento.
 **Elisa Sturlese**
 , Milano
+
+
 
 ---
 
@@ -27,6 +33,8 @@ numero_rivista: "Ombre e Luci"
 
 È da molti anni che ricevo la vostra rivista e mi ha fatto piacere leggere, soprattutto, il penultimo numero dedicato interamente ai fratelli e sorelle di persone con disabilità. Mi chiamo Laura,ho 24 anni e sono la sorella di Francesco, uno splendido ragazzo con Sindrome di Down di 23 anni. Sono felice che anche la vostra rivista abbia messo in risalto il nostro ruolo, ancora troppo spesso sottovalutato. Solo da alcuni anni, infatti, anche il mondo scientifico ha riconosciuto in noi una risorsa “attiva” per la famiglia. Da alcuni anni faccio parte del Comitato Siblings Onlus, che riunisce per l’appunto i fratelli e le sorelle di persone con disabilità.Tale gruppo è nato dodici anni fa a Roma grazie alla sensibilità della dott.ssa Anna Zambon Hobart e alla volontà di alcuni fratelli e sorelle di creare uno spazio in cui condividere l’esperienza e darsi reciproco sostegno.Negli anni i gruppi di auto mutuo aiuto si sono estesi a molte zone d’Italia e restano la nostra attività principale. In un prossimo numero magari... ci presenteremo! Per ora invito i fratelli che fossero interessati a visitare il nostro sito:www.siblings.it e iscriversi alla nostra maillist: info@siblings.it. Grazie!
 **Laura Cappellari**
+
+
 
 ---
 
@@ -36,12 +44,16 @@ Grazie per darmi la possibilità di raccontare le grandi emozioni che ho vissuto
 **Lello**
 - Il papà della sposa
 
+
+
 ---
 
 ### Buon lavoro
 
 Carissime, vorrei avere una penna molto migliore della mia per dirvi quanto mi ha commossa leggere l’ultimo numero di OL in ogni sua parte! Mi Piacerebbe sapervi dire quanto ognuna di esse mi è sembrata speciale e quanto sicuramente,con il vostro lavoro, avete portato sollievo a tanti lettori e tante lettrici! Evviva! Vi auguro un buon anno di attività e buona salute e un animo sereno a tutte voi.
 **Natalia**
+
+
 
 ---
 

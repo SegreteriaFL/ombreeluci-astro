@@ -1,4 +1,5 @@
 ---
+
 title: "Ce l'abbiamo fatta"
 date: 1993-09-09
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-43
 id_numero: "OEL-43"
 numero_rivista: "Ombre e Luci"
 ---
+
 A
 volte mi succede di trovarmi in Cooperativa in mezzo ai ragazzi ed ai volontari che chiacchierano fra loro e la mia mente ritorna all’anno in cui tutto ebbe inizio: il 1988. Da un incontro fra genitori di ragazzi disabili nasce la necessità di fare qualche cosa per loro che, finite le scuole dell’obbligo, non trovano alcun inserimento attivo nella società. «Mio figlio finisce le medie e nella scuola che ho contattato non è stato accettato». «Mio figlio è in lista d'attesa da due anni per entrare al Centro Socio Educativo , mi hanno detto che posti ancora non ce ne sono!» E così...? Bene! Noi siamo tutti abitanti di Carugate, perché non pensiamo noi a creare per i nostri ragazzi una struttura dove tenerli occupati durante il giorno? Ed ecco che da questo semplice incontro nasce un comitato impegnato nella fase preparatoria:
 - contattare il Comune per trovare i locali adatti; - andare presso alcune ditte locali alla ricerca di lavori di assemblaggio e montaggio semplici per i ragazzi. - decidere quali e quanti di essi possono entrare in questa nuova comunità di lavoro.

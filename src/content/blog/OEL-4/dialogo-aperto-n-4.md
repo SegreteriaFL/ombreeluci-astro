@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 4
 date: 1983-12-28
 author: Redazione
@@ -20,6 +21,7 @@ umap_y: 7.564168930053711
 umap_z: 10.353004455566406
 id_numero: "OEL-4"
 ---
+
 Trovo il giornale molto interessante: testimonianze, articoli. Fate bene a parlare degli handicappati: la loro sofferenza esiste in ogni attimo, anche se a volte si cerca di nasconderla. Continuate così, il vostro giornale mi sembra ben fatto. **A.I.**
 
 Con tanto piacere ho ricevuto Ombre e Luci. Mi piace molto. E’ interessante e aiuta sempre più a comprendere come si deve trattare con gli handicappati. **G.B.**

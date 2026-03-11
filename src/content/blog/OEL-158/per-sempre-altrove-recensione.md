@@ -1,4 +1,5 @@
 ---
+
 title: Per sempre, altrove – Recensione
 date: 2022-07-14
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ladevastazione prodotta dalla malattia mentale, il terremoto causato dalla migrazione in chi parte e in chi resta: le ferite sono tante. Eppure questo romanzo rivela anche che **può esistere un balsamo (per citare Etty Hillesum) per lenirle, quelle ferite terribili: esserci insieme.** Ambientato nella seconda metà degli anni Cinquanta in un paesino del nord Italia, la storia ruota attorno a Berta, giovane ragazza che emigra in Svizzera, dove la malattia mentale si manifesterà una prima volta. Riportata a casa dal padre, per Berta inizia un viaggio tra medici, manicomi, dolori, ricordi e una comunità familiare e amicale (quasi tutta al femminile) in cui il problema di una diventa il problema di tutti. Il sorriso di una, seppur tenue e fragilissimo, il sorriso di tutti.
 
  ### Per sempre, altrove **Autore** : Barbara Cagni **Editore:** Fazi **Pubblicato:** 12 Giugno 2022 **Pagine:** 250 **Prezzo:** 17€ **ISBN:** 10379832498732 

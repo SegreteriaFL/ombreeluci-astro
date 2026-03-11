@@ -1,4 +1,5 @@
 ---
+
 title: Una piccola malga
 date: 2020-05-27
 author: Lucina Spaccia
@@ -17,6 +18,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nel quadro della memoria l’immagine dominante è l’abito che indossavo. Non so perché, ma ogni volta che ripenso a quel primo ottobre di più di vent’anni fa, mi rivedo nel tailleur di lino ecru. Forse perché con quell’abito mi riprendevo un ruolo, un senso, un essere, quasi persi nei quattro mesi trascorsi davanti all’incubatrice.
 
 Ora ne eravamo fuori e, come la mia minuscola bambina riusciva a indossare qualcosa di taglia zero, così anch’io potevo rientrare nei miei panni di madre e giovane insegnante. E il tailleur, allora, era quasi la divisa di una prof. Mi serviva rivestirmi di un ruolo perché il naufragio attraversato negli ultimi mesi aveva disseccato una parte di me che la cattedra vinta da due settimane aveva appena irrorato.

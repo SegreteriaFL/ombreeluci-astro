@@ -1,4 +1,5 @@
 ---
+
 title: "Oltre la scienza: umanità e buon senso in un centro per la cura della psicosi"
 date: "1984-06-29"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-6
 id_numero: "OEL-6"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Mi pareva di avere un mostro. Il mio bambino è rinato adesso. L’ho odiata perché mio figlio voleva più bene a lei che a me! Ora me l’ha restituito!» Nel ricordo appassionante di queste parole dettele per telefono da una madre, la voce di Piera Toschi si è alzata sul tono pacato con cui racconta momenti di una vita dedicata a capire, aiutare e curare, bambini psicotici.
 Siamo a Firenze, via Lungo l’Affrico n. 246. Qui c’è un Centro Specializzato per Psicotici; sembra che sia una rarità, perciò siamo venuti a conoscerlo.
 Le condizioni per un esame obiettivo non mancano; piove insistentemente e il bel parco intorno appare grigio e fradicio; la villona un po’ sciupata del primo novecento ha le cubature inutili e difficili da usare del suo genere; la direttrice che ci accoglie non è appariscente, forse ha un filo di diffidenza. L’effetto vetrina, le apparenze mancano: si può vedere meglio la sostanza.

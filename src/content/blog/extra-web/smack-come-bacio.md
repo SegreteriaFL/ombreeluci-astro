@@ -1,4 +1,5 @@
 ---
+
 title: Smack come bacio
 date: 2005-12-05
 author: Redazione

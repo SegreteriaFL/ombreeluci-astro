@@ -1,4 +1,5 @@
 ---
+
 title: 5 anni di Casetta
 date: 1980-09-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 I vecchi lettori di "Insieme" si ricordano del resoconto dell'apertura ufficiale della Casetta? Ebbene, quest'anno, la Casetta compie un lustro! ha altre sorelle che, come tutte le sorelle, non si assomigliano ma vivono lo stesso spirito famigliare… a Parma… a Milano… Se ne è parlato su "Ombres et Lumières" con una grafia non del tutto italiana: "La casetta". Per questo, in qualche parte del lontanissimo Canada, o nella remotissima Australia, c'è qualcuno che "fa la casetta". E cioè, si passano insieme giornate intere nello stile della vita al campeggio: si gioca, si canta, si fanno recite, si prepara il pranzo, si mangia, si lavano i piatti, si rigioca e si prega. A proposito di campeggi, la Casetta di Via Plinio, 30 vi raccomanda di divertivi, giocare, mangiare, riposare durante i campi di quest'estate, ma vi prega di riportare tutti i suoi utensili indispensabili per riaprire le porte ad Ottobre! Buoni campeggi a tutti! Qui di seguito i link agli articoli per festeggiare il compleanno delle casette 
 
 ### Testimonianze per i 5 anni di Casetta

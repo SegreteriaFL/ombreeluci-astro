@@ -1,4 +1,5 @@
 ---
+
 title: Ragazze fragili
 date: 2023-07-18
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 9.333199501037598
 issue_number: OEL-162
 id_numero: "OEL-162"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Alicia Lopez Araújo racconta una parte della migrazione da Capo Verde"
 ---
+
 «AlCentro *Tra Noi* la domenica montava il banchetto per esporre le sue creazioni ed era per me sempre un’occasione per scambiare due chiacchere, riannodare i fili spezzati dall’emigrazione attraverso la condivisione dei vissuti».
 
 Chi parla è **Alicia Lopes Araújo, la giornalista italiana nata a Capo Verde che ha da poco iniziato un prezioso lavoro di raccolta delle fonti orali per ricostruire una storia di cui va fatto tesoro.** Compie infatti sessant’anni il primo fenomeno migratorio su larga scala che l’Italia abbia conosciuto: era il 1963 quando le capoverdiane iniziarono ad arrivare a Roma, dando avvio a una vicenda che ha molto da insegnarci su riconoscimento dell’altro e arricchimento reciproco. Pur essendo anch’essa segnata da dolore e sfruttamento, la storia della migrazione dall’arcipelago africano è tutto sommato una storia positiva, a dimostrazione di una integrazione possibile tra comunità di partenza e comunità di arrivo. È una storia, però, in cui compaiono anche fragilità, disagio e malattia mentale, aspetti, prosegue Araújo, che «ritornano nei racconti delle pioniere, sebbene emerga anche l’ascolto che in tante occasioni queste donne hanno ricevuto».

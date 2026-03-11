@@ -1,4 +1,5 @@
 ---
+
 title: "Ricordando la cara Nicole - Il dono più sincero è il dono di sé"
 date: "2007-03-02"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Il seme che Nicole e le sue amiche hanno piantato ha prodotto diversi frutti."
 ---
+
 “Quando si è giovani, abbattuti e scoraggiati dal dolore per l’esperienza di un primo figlio disabile, solo un angelo è in grado di farti ritrovare la forza per affrontare con coraggio i giorni a venire. Nicole per noi è stata quell’angelo che ci ha aiutati e consigliati animata da un’amorevole dedizione ai bambini portatori di handicap.”
 Irene e Vincenzo
 

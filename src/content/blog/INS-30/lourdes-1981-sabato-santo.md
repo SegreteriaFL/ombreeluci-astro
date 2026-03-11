@@ -1,4 +1,5 @@
 ---
+
 title: Lourdes 1981 - Sabato Santo
 date: 1981-09-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Programma della giornata
 
 **Mattino**
@@ -30,12 +32,14 @@ Tempo libero - Attività possibili:
 Veglia Pascale - Alla basilica San Pio X "Gesù si è fatto in tutto simile ai suoi fratelli… Perché avendo egli stesso così tanto sofferto, è capace di aiutare tutti quelli che sono duramente provati"
 *San Paolo*
 
+
 ---
 
 ### Il figliol prodigo
 
 Questa rappresentazione aveva come tema il perdono e si esprimeva attraverso la parabola del "Figliol Prodigo" messa in scena dalla Comunità Pain de Vie. Lo scopo è stato quello di mostrarci il valore dell'amicizia e del perdono. I costumi semplici ma efficaci ci hanno permesso subito di individuare il ruolo dei "buoni" e quello dei "cattivi". Esprimeva molto anche la scena divisa in teloni bianchi e neri che aiutava a capire il passaggio dalle tenebre alla luce. Tutto ha contribuito a mettere in evidenza questo dualismo tra bene e male: la musica celestiale per la parte che rappresentava la comunità era contrapposta ad una serie di rumori indistinti simbolo della società corruttrice. La persona che abbandona drammaticamente la comunità (le viene strappata la tunica bianca) viene tentata dalla società corruttrice, con tutti i mezzi a sua disposizione: denaro, odio, egoismo, violenza. Ma il richiamo del bene è più forte e il "figliol prodigo" dopo un bagno nell'acqua purificatrice, rientra in seno alla sua comunità. Il bene invade e soffoca il male; è il momento in cui la parte nera della scena viene coperta da teli bianchi. …. Questa rappresentazione, come quella della passione, è stata molto suggestiva ma piuttosto difficile da capire, specie per alcune persone handicappate, secondo quanto è risultato da un'indagine fatta tra i nostri ragazzi. Il simbolismo insito in tutte e due le rappresentazioni non sempre è stato recepito. Altra difficoltà è stata quella della lontananza dal palcoscenico che purtroppo non ha consentito a tutti di essere partecipi a questi spettacoli.
 *Il Gruppo S. Paolo*
+
 
 ---
 
@@ -44,6 +48,7 @@ Questa rappresentazione aveva come tema il perdono e si esprimeva attraverso la 
 *poesia di un amico*
 di quel freddo mattino tardo sull'esplanade potrò dimenticare la marea dei volti i canti i ceri i mille nastri al vento… ma non un sacerdote in casula bianca di fronte a un ragazzo in carrozzina. l'uomo stava in ginocchio il capo chino contro il capo chino. non saprò mai se parlassero tra loro o stessero piangendo in silenzio per il troppo dolore o per immensa gioia. credo che in quell'abbraccio così tenero e forte cercassero la pace insieme.
 
+
 ---
 
 ### Cristo Gesù è risuscitato! Alleluia
@@ -51,6 +56,7 @@ di quel freddo mattino tardo sull'esplanade potrò dimenticare la marea dei volt
 La notte era fredda, tutto buio e oscuro, per cui non si vedeva niente, come il sole non fosse mai esistito, come se nel mondo esistesse solo la notte. Era così buio che non si poteva vedere nemmeno dentro se stessi, la faccia…. la coscienza…. Così la notte governava il mondo come se esistessero nel mondo soltanto male, violenza, sofferenza e morte… Da lontano veniva un grido triste, cocente…. era quello di chi cercava ancora la luce nel buio…. e lo disprezzavano e lo facevano star zitto. Ormai era il mondo della notte. Nei due giorni successivi, festeggiavamo per augurarsi di aver spento la luce nel mondo e alcuni invece si lamentavano di continuo, temevano e soffrivano in angoscia…. "Mio Dio, mi abbandonerete?" Alla mattina del giorno seguente, nel buio sorgeva una luce barlume. La luce cominciava pian piano ad illuminare tutto il mondo e penetrava nel cuore degli uomini, insegnando che si amino gli uni gli altri. La luce era l'Amore. Questo Amore riempie l'anima e il cuore di quelli che possiedono l'umiltà, la confidenza e l'amore. Questo Amore è venuto nel mondo per guarire le ferite degli uomini e per salvare la miseria umana… sofferenza e morte…! E' questo Amore che provoca il cuore dell'uomo, lo tocca e ne consola l'anima con la sua misericordia. Questo Amore è Gesù Cristo stesso. L'amore immenso di Gesù Cristo avvolge tutto il nostro essere, assume in sé tutta la debolezza umana unendosi a ciascuno di noi; e ci dona la pace e la gioia eterna…! "Gesù Cristo è risorto! Alleluia, Alleluia!" La voce della gioia, della vittoria di Cristo non finirà mai in eterno su questo mondo. Che Dio benedica tutti i miei amici di Fede e Luce…..
 *Francesco KIM -*
 *sacerdote coreano*
+
 
 ---
 

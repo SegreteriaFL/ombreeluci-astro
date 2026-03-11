@@ -1,4 +1,5 @@
 ---
+
 title: "Che cos'è una sindrome"
 date: "2020-03-25"
 author: "Cristina Tersigni"
@@ -15,6 +16,7 @@ issue_number: OEL-149
 id_numero: "OEL-149"
 numero_rivista: "Ombre e Luci"
 ---
+
 Thomas Clements è un autore autistico inglese. Il suo è un autismo “ad alto funzionamento”, la cosiddetta sindrome di Asperger: come tanti nella sua condizione, si definisce un Aspie, e rappresenta una delle tante sfaccettature dell’ancora più vasta sindrome dello spettro autistico. Nella sua condizione può parlare per se stesso e raccontare, come altri in passato, la sua esperienza e le difficoltà, più o meno grandi, che incontra. La medesima diagnosi lo accomuna a suo fratello più giovane, Jack, che però vive in una condizione molto più disabilitante della sua. Suo fratello, come tanti altri, non può parlare per se stesso, ha bisogno di qualcuno che gli stia costantemente vicino, ha scarse autonomie e poca possibilità verbale.
 
 Nei suoi articoli Thomas riflette su questa estrema variabilità della sindrome autistica, chiedendosi se non sia il caso di cominciare ad utilizzare anche termini differenti per descriverla. È anche molto preoccupato per le rivendicazioni di quanti si riconoscono nella “fascia alta” della sindrome che chiedono di essere riconosciuti portatori, nella loro neurodiversità, di una forza in più, quasi da celebrare in qualche modo. Dimenticando però tutti quelli della “fascia bassa”, che hanno solo i genitori o chi li cura a parlare per loro... creando barriere e semplificazioni molto nocive per chi ha condizioni di vita tanto differenti. In tanti pensano di potersi identificare come autistici senza alcun supporto medico, quasi fosse un’auto-etichetta utile a rinforzare la propria identità.

@@ -1,4 +1,5 @@
 ---
+
 title: Viale di Valle Aurelia
 date: 2022-03-28
 author: Rita Massi
@@ -15,6 +16,7 @@ issue_number: OEL-157
 id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
+
 Cara Redazione di Ombre e Luci, finalmente ci sono riuscita! **Ho visto, con gioia ed emozione, la nuova sede di Fede e Luce e del nostro giornalino!** Dodici anni fa Mariangela mi chiese di collaborare alla redazione di Ombre e Luci, permettendomi di condividere con lei, per alcuni anni, un fondamentale percorso di vita ed anche la strada da casa alla vecchia sede di via Bessarione… finché lei ha potuto! Poi quattro anni fa, un giorno, vi ho salutato dicendo: appena posso torno, ma non è stato così.
 
 Prima di venire ero pronta ad emozioni e rimpianti, ma non solo, ero anche carica di curiosità. Quella mattina sono andata a prendere Marco C. desideroso quanto me di venirvi a trovare. Seguendo le dettagliate indicazioni di Cristina e… di Waze, sono riuscita a non perdermi per un quartiere a me poco noto. Siamo entrati in un grande giardino condominiale con tanti viali e numerosi edifici e subito a destra ecco la nuova bellissima sede con accesso diretto e in piano. **Un’unica lunga stanza disposta orizzontalmente rispetto all’entrata, l’ambiente è ampio ed accogliente, pareti color pastello, celeste e bianco prevalenti** , poltrone e sedie rosse, in alto le scritte FEDE E LUCE e OMBRE E LUCI. Molto gradevole il salottino rosso davanti alla porta. Sul lato destro la parte “ufficio di Redazione” con il nostro tavolo, intorno al quale abbiamo lavorato tante volte insieme, sul lato sinistro anche un piccolo angolo cottura (che lusso! …pensando che un tempo "l’angolo cottura” era il bollitore del tè!) e poi il bagno molto funzionale (perdoniamo il colore giallo…)

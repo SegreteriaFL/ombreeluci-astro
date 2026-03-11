@@ -1,4 +1,5 @@
 ---
+
 title: "L’intimità del corpo: di fronte alla nudità non è facile"
 date: "2009-12-10"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-108
 id_numero: "OEL-108"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ce lo racconta un'accompagnatrice volontaria consapevole della delicatezza della sua missione"
 ---
+
 Quando aiuto un adolescente disabile a fare il bagno, non è così facile. Ci può essere una certa apprensione, un po’ di timore di fronte alla nudità. Senza infatti che questa giovane l’abbia scelto, entro nella sua intimità e sono costretta a vedere e toccare alcune parti segrete del suo corpo.
 
 Ogni volta devo prendere coscienza che lei è costretta, per forza di cose, a mettersi a nudo davanti a me e a svelarmi senza artifici un fisico segnato dall’handicap.

@@ -1,4 +1,5 @@
 ---
+
 title: "Esperienze: epilessia in famiglia e a scuola"
 date: 1985-06-29
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-10
 id_numero: "OEL-10"
 numero_rivista: "Ombre e Luci"
 ---
+
 ## Sdrammatizzare la situazione
 
 Ottobre 1952, il lieto evento, nasce mia figlia. Ho voluto citare questa data per fare riflettere chi mi leggerà sulla grande differenza che c'è tra la nascita di un figlio handicappato oggi, rispetto a 33 anni fa. Per differenza intendo la non conoscenza di allora (almeno da parte mia) di certe anomalie, di strutture diverse, di metodi diversi, con le diverse possibilità di aiuto di oggi: radio, televisione, centri, libri, giornalino, congressi, associazioni ecc. La diagnosi di mia figlia venne quando aveva già tre anni e non per nostra negligenza, ma perché i medici non azzardavano allora una diagnosi nei primi anni di vita. Quando mi dissero «irrequietezza instabile» pensai che fosse qualcosa che sarebbe totalmente scomparsa molto presto, ma non fu così. Per noi genitori non fu, allora, un grosso trauma (proprio per quella ignoranza in materia), anche perché vivevo con i miei genitori: non ero sola. Nacque poi un bel fratellino, perfetto. Mia figlia aveva allora tre anni e mezzo, era una bellissima bambina, ma aveva bisogno di molta attenzione.

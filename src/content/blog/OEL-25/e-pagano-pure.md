@@ -1,4 +1,5 @@
 ---
+
 title: E pagano pure!
 date: 1989-03-30
 author: Mariangela Bertolini
@@ -19,6 +20,7 @@ issue_number: OEL-25
 id_numero: "OEL-25"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sarebbe più vero dire «accantonamento-campeggio», perché, come vedrete leggendo queste pagine, non si tratta di un campo sotto le tende per tutti; alcuni — di solito i più giovani — dormono sotto tenda, mentre gli altri — adulti e ragazzi anche molto gravi — alloggiano in casa.
 
 **La parola «campo» sta per «vita insieme» in periodo di vacanza** (per una settimana, dieci, quindici giorni). Insieme: amici, bambini, adolescenti, adulti con handicap, qualche genitore o persona adulta amica, sacerdote o seminarista (quando lo si trova disponibile).

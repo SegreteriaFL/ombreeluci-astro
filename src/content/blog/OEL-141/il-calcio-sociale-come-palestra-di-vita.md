@@ -1,4 +1,5 @@
 ---
+
 title: Il calcio sociale come palestra di vita
 date: 2018-03-26
 author: Marta Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-141
 id_numero: "OEL-141"
 numero_rivista: "Ombre e Luci"
 ---
+
 Roma. Periferia di Corviale: un edificio di edilizia popolare alto 10 piani, lungo un chilometro, che ospita circa 4000 persone con centinaia di alloggi abusivi e altrettanti inquilini non autorizzati dall’ATER, l’ente che lo amministra. **Proprio qui, un luogo ad altissima tensione sociale, un gruppo di amici hanno accettato la sfida di portare una testimonianza di accoglienza, bellezza, spiritualità e sport. Tanto sport.**
 
 «Erano molti anni che chiedevamo alla Regione uno spazio sportivo per praticare il nostro nuovo modello di calcio, il “calciosociale”, - spiega Massimo Vallati, ideatore e fondatore della [SSD Calciosociale](https://www.calciosociale.it/) - e quando è arrivata la proposta dell’allora Presidente Marrazzo siamo rimasti spiazzati. Ci avevano offerto il centro sportivo di Corviale, una struttura degradata, completamente abbandonata, ritrovo di spacciatori e totalmente da ristrutturare. Il gruppo si è spaccato, chi è restato ha fatto una vera scelta di vita».

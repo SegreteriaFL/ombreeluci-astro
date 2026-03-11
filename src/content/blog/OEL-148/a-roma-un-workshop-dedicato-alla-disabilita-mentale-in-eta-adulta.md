@@ -1,4 +1,5 @@
 ---
+
 title: "A Roma un workshop dedicato alla disabilità mentale in età adulta"
 date: "2019-03-20"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 Venerdì 22 marzo, dalle 15.45 presso la sala consiliare del Municipio XII di Roma, in via Fabiola 14 (Monteverde Nuovo), si svolgerà il workshop organizzato da [Vedere Oltre Onlus](http://vedereoltre.org): **La persona adulta con disabilità intellettiva: la crescita è ormai terminata?
 I relatori del workshop sono **Paola Baccetti**(Pedagogista), **Claudia Condoluci** (Pediatra, IRCCS San Raffaele), **Giovanna Orsini (**Psicologa Psicoterapeuta IRCCS San Raffaele) e **Mariano S. Pergola** (Presidente di Vedere Oltre onlus). **L'ingresso è gratuito.
 Il workshop è organizzato in collaborazione con la[ Consulta per l’handicap del Municipio Roma XII](https://www.comune.roma.it/web/it/consulta-prob-hand-mun-xiii.page), con il contributo dell’[Associazione onlus Amici di Giorgio Albertini](https://www.facebook.com/amicidigiorgioalbertini/) ed il patrocinio del **Municipio Roma XII.

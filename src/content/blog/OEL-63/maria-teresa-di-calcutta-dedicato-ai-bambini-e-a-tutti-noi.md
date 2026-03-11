@@ -1,4 +1,5 @@
 ---
+
 title: Maria Teresa di Calcutta - Dedicato ai bambini... e a tutti noi
 date: 1998-09-28
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 5.176458835601807
 umap_y: 8.019355773925781
 umap_z: 8.685709953308105
 ---
+
 Come di solito dedichiamo ai bambini alcune pagine del giornale, nelle quali raccontiamo la vita di alcuni “grandi amici” con molti disegni e brevi testi facili e piacevoli da leggere.
 
 **Testo originale francese: Benoît Machon e Noëlle Herrenschmidt** **Illustrazioni: Noèlle Herrenschmidt**

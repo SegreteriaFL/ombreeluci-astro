@@ -1,4 +1,5 @@
 ---
+
 title: Newsletter n. 14 - Accelerazioni e frenate
 date: 2020-04-24
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 N
 azione di nazioni, per dirla con Lyndon Johnson; immensa terra di contraddizioni così profonde che fatichiamo a credere possano convivere nella stessa casa. Invece è ciò che sappiamo succedere da decenni, da quando cioè gli Stati Uniti sono diventati punto di riferimento imprescindibile per tutti – in positivo e in negativo (non necessariamente in alternativa). Luci e ombre emerse anche in questi complessi giorni. Da un lato Netflix ci propone il racconto di un momento che ha segnato la storia della contemporaneità, quando si è finalmente iniziato a pensare che i diritti civili riguardassero anche le persone con disabilità; dall’altro, però, davanti alla crisi scatenata dal covid-19 sono riesplose tutte le ingiustizie e le discriminazioni che vivono indisturbate (o poco disturbate) all’interno degli Usa. Pensiamo a poveri, persone con disabilità, afroamericani, senza fissa dimora… È Carlo Cinus
 [a presentare](https://www.ombreeluci.it/2020/mai-da-soli/)
@@ -27,6 +29,7 @@ il film
 , lo fa aggiungendo allo sdegno una strategia d’azione. Resta comunque l’amara consapevolezza di come la decisione dei 10 stati sia coerente con le politiche che da tempo gli Usa praticano nei confronti delle persone con disabilità. È il caso, ad esempio,
 [ce lo racconta](https://www.ombreeluci.it/2020/sempre-damigella-mai-sposa/)
 Giulia Galeotti, dei trapianti: le persone con handicap finiscono sempre (se sono così fortunate, da finirci…) agli ultimi posti delle liste dei riceventi.
+
 
 ---
 
@@ -46,6 +49,7 @@ con storie e curiosità in comunicazione facilitata, anche Federico
 [ci dice la sua](https://www.ombreeluci.it/2020/le-polpette-di-federico/)
 .
 
+
 ---
 
 ### [**Il blog di Benedetta**](https://www.ombreeluci.it/il-blog-di-benedetta/)
@@ -54,6 +58,7 @@ con storie e curiosità in comunicazione facilitata, anche Federico
 
 Mi ha telefonato Giuseppe Conte. Aveva la giacca e la cravatta e il ciuffo come in televisione. Lui mi ha detto proprio queste precise parole: “Cara Benedetta, come stai? Tutto bene?»
 [Continua a leggere...](https://www.ombreeluci.it/2020/mi-ha-telefonato-giuseppe-conte/)
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 118
 date: 2012-03-16
 author: Redazione
@@ -14,11 +15,16 @@ umap_z: 10.436973571777344
 issue_number: OEL-118
 id_numero: "OEL-118"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Dolci saluti
 
 Cara Redazione, non potevo sapere che il primo numero di quest’anno di Ombre e Luci sarebbe stato dedicato ai nonni, altrimenti mi sarei affrettata a farvi avere questa breve testimonianza, che ha per protagonista la nonna di mio figlio Francesco. Il legame di affetto che li ha uniti in vita, era fortissimo: devo dire “era” perchè lei è mancata nello scorso mese di Gennaio, all’età di 104 anni. Per ricordarla, ho espresso al nostro padre spirituale Don Marco Bove il desiderio di celebrare una messa di suffragio. La data fissata per tale cerimonia era una serata di gennaio veramente fredda, da record trentennale (!). Io ero molto preoccupata di aver invitato gli amici di Fede e Luce (ed altre persone che avevano conosciuto mia madre), mettendole a disagio per le proibitive condizioni climatiche. Mentre le “altre persone”, con una scusa o con l’altra si sono dette impossibilitate a venire, gli amici di Fede e Luce c’erano proprio tutti, e la loro calorosa partecipazione compensava la temperatura sottozero. Una partecipazione così affettuosa e sincera non me la immaginavo: io hosentito nell’aria questo “calore”, e mentre ringraziavo commossa gli amici per aver partecipato, pensavo alla cosa straordinaria che, seppure inconsciamente,Francesco aveva saputo creare, rendendo , ancora una volta,nostri amici i suoi amici. Tanti cari saluti.
 **Elisa Sturlese**
+
+
 
 ---
 
@@ -28,12 +34,16 @@ Sono Elisa Vizzino, madre di Luca, Donatella e Marco, in Comunità la “Vigna, 
 **Elisa Vizzino**
 , Napoli
 
+
+
 ---
 
 ### Un colore per il futuro
 
 È da poco, grazie ad una cara amica collaboratrice del giornale, che ho conosciuto “Ombre e Luci” di cui apprezzo lo stile semplice ed incisivo. Sono la mamma di una ragazza, ormai adulta, con alcune difficoltà di origine motoria che influiscono comunque sullo stato psichico. È una ragazza che ha dovuto superare ostacoli di ogni genere per poter arrivare ad una “normalità fisica” buona ma il suo percorso formativo-scolastico l’ha portata a laurearsi e si è sentita vincitrice nei confronti di chi riteneva impossibile tale traguardo. Il problema, ancora lontano dalla risoluzione, è il lavoro. Oggi in Italia il lavoro per i giovani scarseggia se non è addirittura inesistente ed impera quindi l’assenza di quella speranza e di quella luce per il futuro che dovrebbe accompagnare ogni giovane uomo e donna per costruirsi una vita che è un diritto e non un optional. Se questo è vero per una persona “normodotata”, diventa addirittura un dovere dare dignità di Persona a ciascun individuo con limitazioni fisiche o anche psichiche non compromettenti la capacità lavorativa. Se già esistono difficoltà oggettive che alterano o influiscono negativamente sulla visione della vita di queste persone, sulle loro relazioni interpersonali, sulla loro vita affettiva – quando c’è -, la mancanza di un lavoro diventa un peso eccessivo ed ossessivo, perché oltre a sentirsi già emarginati in un certo qual modo per il loro handicap, sentono aumentare quel sentimento di inutilità che è preludio di depressione e di annullamento di fiducia in se stessi. Non voglio assolutamente invocare l’intervento ad hoc delle autorità in questo campo (soprattutto per evitare aggravi burocratici) ma solo evidenziare le difficoltà di queste persone e delle loro famiglie, già lasciate sole nel loro percorso molto o abbastanza accidentato. Aiutare le persone disabili ad integrarsi nel mondo dei cosiddetti “normali” deve essere il compito arduo ma esaltante di chiunque vuole cambiare nel proprio piccolo, migliorandola, questa società. Non perdiamo il senso di dignità e cerchiamo di dare colore alla vita dei nostri giovani tutti ed in particolare a quella di coloro che sono in difficoltà.
 **Sara**
+
+
 
 ---
 

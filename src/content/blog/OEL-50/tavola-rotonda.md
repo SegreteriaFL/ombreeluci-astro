@@ -1,4 +1,5 @@
 ---
+
 title: Tavola Rotonda
 date: 1975-12-03
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 12.9775390625
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il Lunedi sera si è tenuta una favola Rotonda dal titolo: L'handicappato, mio fratello. Diritto alla vita - Quale vita"
 ---
+
 *D opo la presentazione del P. Michel Charpentier sono intervenuti la sig.na Francesca Cremonesi (direttrice di un centro per gravi di Piacenza) la sig.na Valeria Levi della Vida (studentessa in medicina), la sig.ra Menegottio (mamma di un ragazzo handicappato), il Dott. Sergo (specialista neuro psichiatra), il sig. Jean Vanier (fondatore di Fede e Luce).* *Non potendo trascrivere qui per intero tutti gli interventi, riportiamo in parte quello di Valeria Levi e di Jean Vanier.*
 
 ### Valeria

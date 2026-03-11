@@ -1,4 +1,5 @@
 ---
+
 title: Io vado poco a teatro
 date: 2019-01-27
 author: Giovanni Grossi
@@ -15,6 +16,7 @@ issue_number: OEL-145
 id_numero: "OEL-145"
 numero_rivista: "Ombre e Luci"
 ---
+
 Io vado poco a Teatro, perché costa, ma quando ci vado è una bella cosa; e ho poco tempo libero, quando sono in vena ci entro, perché mi serve per acquisire modo di fare nel palco. **È stata una serata molto lieta, io ho visto che non era da ridere, e c’è silenzio e una serietà e non volava una mosca,** questo è consono al mio carattere ed è meglio così! Il teatro Quirino ha le poltrone in tutti i piani, io e mia madre siamo nel piano superiore al centro. Io nello stesso teatro ho visto altre attrici come la Pandolfi e Caprioglio. C’era un pubblico vasto, io e Paola Pisenti in silenzio andiamo d’accordo, e non mi piace quando è arrabbiata la mattina. La sera lei vede le soap opera, gli attori li ho visti in varie puntate, interminabili.
 
 La storia di questa commedia è triste ed interessante, impersonavano l’ambiente di Caltanissetta e la moralità di quei tempi tormentati. Mi dispiace che al teatro ci vanno pochi giovani, dovrebbero frequentare di più questo luogo. **A me non interessa avere l’autografo, se ho la possibilità di starci vicino** , è una bella cosa che non capita mai, senza il consenso dell’attore, che ha una sua privacy ed etica morale. Perché fare l’attore non è un gioco c’è dietro una preparazione e una carriera che intraprende, e noi siamo le persone che li sostengono applaudendo la sua arte della recitazione. Chi fa recite serie, non è come un comico che scherza, è un’altra parte di rilievo, e il cinema e fare il provino per essere accettato per il ruolo, è una soddisfazione e anche avere dei sostenitori che li amano, per quello che vogliono dire e trasmettere. Ho notato del degrado passeggiando al ritorno nelle vie di Roma, io da solo non ci riesco a pulire le strade, se vengo aiutato è meglio! La via più nascosta è piena di sporcizia, e dovrebbero pulire di più costantemente le vie di Roma.

@@ -1,4 +1,5 @@
 ---
+
 title: Cartelli divertenti letti sulle porte delle parrocchie
 date: 2006-03-30
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.231200695037842
 umap_y: 8.494786262512207
 umap_z: 9.425023078918457
+
+subtitle: "Questa serie di Avvisi che gira in rete, ha un’aria autentica e accende qualche minuto di sorriso"
 ---
+
 > Ricordate nella preghiera tutti quanti sono stanchi e sfiduciati della nostra parrocchia
 
 > Per tutti quanti tra voi hanno figli e non lo sanno, abbiamo un'area attrezzata per i bambini

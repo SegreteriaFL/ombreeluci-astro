@@ -1,4 +1,5 @@
 ---
+
 title: Clara va al mare - Recensione
 date: 2000-03-10
 author: Maria Teresa Mazzarotto
@@ -14,7 +15,10 @@ umap_z: 4.766382694244385
 issue_number: OEL-69
 id_numero: "OEL-69"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Recensione del libro di Guido Quarzo Editore Salani 1999 pp. 90"
 ---
+
 Clara, una bambina down di 14 anni sfuggendo alla sorveglianza della mamma, decide di andare al mare, in treno: e ci riesce. Con un po’ di fortuna e per la distrazione o lo scarso tempismo degli adulti che incontra, facendo tesoro di alcune esperienzee passate, arriva sulla spiaggia quando il sole è ancora alto. Può guardare il mare, correre a piedi scalzi sul bagnasciuga, rincorrere i gabbiani. La lasciamo quando dopo un momento di apprensione, cava fuori dallo zainetto la sua tessera per la piscina dove sono trascritti anche i numeri telefonici essenziali, quelli che lei sa a memoria e che le permetteranno di tornare a casa sana e salva.
 
 La storia è tutta qui ma da quando Clara prende la sua decisione noi entriamo nei suoi pensieri. nella mente cioè di una ragazza down di 14 anni che ha frequentato la scuola elementare, che vive in una famiglia serena, che ha conoscenti e amici nel quartiere e nel Centro che frequenta.

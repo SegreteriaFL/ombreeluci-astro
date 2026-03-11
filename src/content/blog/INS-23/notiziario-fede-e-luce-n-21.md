@@ -1,4 +1,5 @@
 ---
+
 title: Notiziario Fede e Luce n. 21
 date: 1979-06-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 Sabato 3 marzo ci siamo trovati per un allegro pomeriggio di carnevale; la gioia di tutti era grande. Per noi è stata la seconda volta che ci riunivamo alla grande famiglia di Fede e Luce milanese: la prima, di cui serbiamo un ricordo bellissimo, fu a Natale.
 
 Siamo un piccolo gruppo di Fede e Luce che sta nascendo nella parrocchia dei SS. Silvestro e Martino. Anche se non ci si conosceva tutti, ci si è voluto bene da subito, abbiamo provato reciprocamente calore umano, simpatia e gioia vera e ci siamo sentiti a nostro agio.
@@ -24,6 +26,7 @@ Scenette egregiamente preparate hanno divertito tutti; palestre, danze, canti e 
 Grazie di cuore a tutti i cari amici della grande famiglia milanese di Fede e Luce, anche da noi che siamo appena nati. Sappiamo che in ogni incontro ci si vuole sempre più bene!
 
 Per Fede e Luce dei SS.Silvestro e Martino *I 3 Laudi*
+
 
 ---
 
@@ -52,6 +55,7 @@ ore 17:30 Santa Messa e pranzo al sacco
 #### Vieni a teatro
 
 Il gruppo di Fede e Luce di San Paolo organizza per il 10 giugno prossimo alle ore 17 la rappresentazione **"Il Cieco nato"** ed ha il piacere di invitare gli amici degli altri gruppi. Il testo è adattato da *Robert Michit*
+
 
 ---
 

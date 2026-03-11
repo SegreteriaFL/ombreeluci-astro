@@ -1,4 +1,5 @@
 ---
+
 title: Il mondo come lo vediamo noi
 date: 2023-02-13
 author: Matteo Cinti
@@ -14,7 +15,10 @@ umap_z: 3.506913423538208
 issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "L’autismo raccontato dai protagonisti di As We See It"
 ---
+
 C
 on le serie tv e i film che parlano di fragilità, la sfida più impegnativa è sempre quella di restituire un’immagine realistica del tema che si sceglie di raccontare. La tentazione di cadere nello stereotipo è enorme poiché spezzare le convinzioni degli spettatori rischia di allontanare invece di coinvolgere.
 **La serie tv *As We See It* sembra prendere sul serio questa scommessa già dal titolo:**

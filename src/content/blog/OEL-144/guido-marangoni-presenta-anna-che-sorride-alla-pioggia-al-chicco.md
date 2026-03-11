@@ -1,4 +1,5 @@
 ---
+
 title: "Guido Marangoni presenta \"Anna che sorride alla pioggia\" al Chicco"
 date: 2018-02-21
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il 21 febbraio 2018 presso la
 [Comunità Il Chicco](http://www.larche-ilchicco.it/)
 ,

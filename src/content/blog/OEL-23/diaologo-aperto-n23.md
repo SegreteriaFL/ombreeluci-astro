@@ -1,4 +1,5 @@
 ---
+
 title: Diaologo Aperto n.23
 date: 1988-09-19
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-23
 id_numero: "OEL-23"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Resterà una vana speranza?
 
 Nello studio di un medico di Bari ho avuto modo di sfogliare alcune pagine della vostra rivista «Ombre e Luci» e mi ha colpito la semplicità e l’immediatezza con cui il problema handicap viene trattato. La grande umanità che così spesso su altre riviste cede il passo alla retorica e all’ipocrisia, nella vostra ricompare in tutta la sua spontaneità.

@@ -1,4 +1,5 @@
 ---
+
 title: Quando ho recitato sottovento
 date: 2020-06-10
 author: Daniele Cogliandro
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 Tutto è cominciato quando frequentavo l’associazione down di Roma, era l’anno 2000. Sono stato convocato insieme ad altri ragazzi dal regista Stefano Vicario, che cercava un ragazzo down per il suo film ambientato su una bellissima barca a vela. Sono stato scelto per le mie competenze nel campo della vela, perché avevo frequentato la scuola navale Morosini di Venezia. Sono stato contentissimo di essere stato scelto, per me è stata una grande emozione. Il cast era formato da attori conosciuti – Claudio Amendola, Anna Valle e Mariano Rigillo – e attori emergenti tra cui Francesco Venditti, figlio del famoso cantante Antonello.
 
 Il film, che è stato girato tra l’Argentario e le isole pontine, racconta di un gruppo di ragazzi con vari problemi affidati a uno skipper, Claudio Amendola, che li deve aiutare a gestire la barca (vela terapia). È stata per me la cosa più bella che ho fatto, ho imparato cose nuove che non avevo mai fatto prima e ho capito quanto sia importante per me la recitazione. Era bello svegliarsi la mattina presto per raggiungere la barca e passare le giornate all’aria aperta, respirando aria di mare e abbronzandosi al sole.

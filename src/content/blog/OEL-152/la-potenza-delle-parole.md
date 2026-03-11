@@ -1,4 +1,5 @@
 ---
+
 title: La potenza delle parole
 date: 2020-07-22
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il cinema non cambia il mondo, neppure quando registi e autori si illudono di poterlo fare. In qualche occasione, però, i film possono contribuire a risvegliare le coscienze, illuminare aspetti poco noti della storia e della società, favorire interventi politici. Sarebbe sbagliato dire che la chiusura dei manicomi, disposta in Italia con la legge 180 del 1978, sia stata una conseguenza del documentario Matti da slegare di tre anni prima, ma è indubbio che quest’opera abbia aiutato non poco [Franco Basaglia](https://www.ombreeluci.it/2020/storia-di-un-traghettatore/) , promotore di quel provvedimento, a far conoscere un tema finalmente affrontato senza reticenze.
 
 «I personaggi di questo film esistono veramente»: la frase segue i titoli di testa del documentario diretto a otto mani da Marco Bellocchio, Silvano Agosti, Sandro Petraglia e Stefano Rulli. Personaggi, non persone: perché *Matti da slegare* è costruito sulle testimonianze orali di chi ebbe il compito non facile di scalfire l’ignoranza dell’epoca, tutti sapientemente individuati per attirare l’attenzione dell’opinione pubblica ancora convinta che i manicomi fossero popolati da uomini e donne indegni di essere inclusi nella società. Gran parte del documentario presenta le interviste ai pazienti dell’ospedale psichiatrico di Colorno, cercando di cogliere una presunta spontaneità senza filtri che in realtà è ben indirizzata dagli interventi e dalle domande dei registi, secondo i dettami del cinéma vérité: apparentemente senza addestramento, ma avendo già bene in testa cosa e come sarebbe stato raccontato e quale effetto avrebbe dovuto stimolare nello spettatore.

@@ -1,4 +1,5 @@
 ---
+
 title: A tavola con una persona sorda
 date: 1989-06-21
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-27
 id_numero: "OEL-27"
 numero_rivista: "Ombre e Luci"
 ---
+
 Michel e Laure sono sposati da tre anni e hanno un bambino di due anni. Michel non sente, ma legge perfettamente sulle labbra. Laure e Michel ci comunicano qui le difficoltà che possono sorgere durante un pranzo e suggeriscono alcune soluzioni... Questo scritto è di Laure, ma esprime il desiderio di entrambi.
 Q
 uando siamo invitati tutti e due domando di mettere Michel a questo o a quel posto. Ciò cambia spesso i progetti della padrona di casa, ma se all’inizio questa domanda mi metteva terribilmente in imbarazzo ora la faccio facilmente e naturalmente. Del resto i nostri ospiti vi rispondono sempre con molta gentilezza. Resta poi il problema più grosso: Michel deve poter capire veramente la conversazione e parteciparvi.

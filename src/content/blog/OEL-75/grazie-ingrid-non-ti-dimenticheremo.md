@@ -1,4 +1,5 @@
 ---
+
 title: Grazie Ingrid! Non ti dimenticheremo!
 date: 2001-09-27
 author: Paolo Salvini
@@ -14,7 +15,10 @@ umap_z: 8.332415580749512
 issue_number: OEL-75
 id_numero: "OEL-75"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il ricordo di un'amica che ha messo tutta la sua vita al servizio delle persone con disabiltà, con amore e professionalità"
 ---
+
 Nata in Germania, nel 1962 Ingrid venne in Italia. Dopo il suo incontro con un bambino autistico nell’asilo che gestiva a Roma, Ingrid mise tutte le sue forze al servizio delle persone in difficoltà. Dopo una formazione in «Pedagogia curativa» che si aggiungeva a quelle di medicina e di recitazione, e dopo diverse esperienze e iniziative, nel 1989 creò **[Casa Loïc: scuola laboratorio per adolescenti e giovani adulti portatori di handicap](https://www.ombreeluci.it/1994/inaugurazione-casa-loic-scuola-laboratorio-artigianale-per-ragazzi-disabili/)** , (vedi [Ombre e Luci, n. 1-1994](https://www.ombreeluci.it/project/numero-45-dio-cosi-lontano-cosi-vicino/) ). Con il suo aiuto sorse, nel 1998, la [Casa Maria Grazia](https://www.ombreeluci.it/1999/irene-e-i-suoi-in-casa-maria-grazia/) , (vedi [Ombre e Luci, n. 4- 1999](https://www.ombreeluci.it/project/ombre-e-luci-n-68-per-loro-non-ce-posto/) ). Il testo che segue, letto da un «papà» alla cerimonia di ricordo, lo scorso luglio, trasmette un po’ dello spirito e della competenza con cui Ingrid lavorava.
 
 Portare la mia testimonianza è un atto dovuto ad una persona come In- grid. Ricorderò brevemente solo due incontri, tra i tanti avuti in questi lunghi otto anni che hanno segnato la mia vita. **Il primo** risale al settembre 1993, 27 quando ho conosciuto Ingrid per la prima volta. Era un periodo difficile e in casa eravamo disperati: quando arrivammo all’appuntamento a Casa Loie era un pomeriggio molto caldo, non c’era nessuno, ma la prima impressione non fu di solitudine, ma di serenità, di cose semplici e oneste. Ingrid ci aspettava nella casetta di legno e ci accolse con il suo sorriso, ascoltò la nostra storia, non si turbò per le parole non proprio cortesi di Chiara e ci propose un mese di prova.

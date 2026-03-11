@@ -1,4 +1,5 @@
 ---
+
 title: TikiTaka
 date: 2022-10-10
 author: Giovanni Vergani
@@ -15,6 +16,7 @@ issue_number: OEL-159
 id_numero: "OEL-159"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il
 progetto TikiTaka equiliberi di essere parte da lontano. E con esso il mio coinvolgimento in un modello di lavoro che fonda le sue basi sul desiderio di comunità, nella convinzione che solo insieme – pubblico, privato sociale, famiglie, persone con disabilità, cittadini –
 **sia possibile costruire luoghi e spazi di vita in cui ognuno trovi accoglienza e sia portatore di valore**

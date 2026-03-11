@@ -1,4 +1,5 @@
 ---
+
 title: La scopa incantata - Una fiaba per natale
 date: 2002-12-08
 author: Natalia Livi
@@ -16,7 +17,10 @@ tags:
 umap_x: 7.207530975341797
 umap_y: 10.059929847717285
 umap_z: 6.470862865447998
+
+subtitle: "Fiaba raccolta e narrata da Natalia Livi"
 ---
+
 La mattina del 24 dicembre la scopa del vecchio spazzino si ritrovò improvvisamente incantata. In genere stava appoggiata al muro della piccola stanza del seminterrato dove il vecchio viveva, ma ogni giorno veniva presa in mano e per qualche ora andava a lavorare con il suo padrone per le strade sporche della città.
 
 Quel giorno però, quando lui la prese,notò subito che la scopa era diversa. Più leggera, più bella. Cera qualcosa in essa che sembrava volesse festeggiare in qualche modo quelle giornate cosi speciali che ci ricordano la nascita di Gesù. L’uomo uscì per il suo lavoro. Con gran meraviglia vide che la scopa si comportava diversamente dal solito: voleva andare per conto suo, faceva di tutto perché lui non si sforzasse e puliva, puliva, puliva, anche nei posti dove lui non sarebbe mai potuto arrivare. Si infilava poi sotto le automobili, tirava la mano del suo padrone per raggiungere ogni pezzetto di carta, ogni buccia di arancio, ogni lattina abbandonata...

@@ -1,4 +1,5 @@
 ---
+
 title: "Comunità il Ricino di Giona"
 date: "1999-12-17"
 author: "Redazione"
@@ -15,6 +16,7 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
+
 Lavoro come educatore nella comunità "Il Ricino", che si trova a Milano in P.za S. Materno 15 (zona Loreto-Lambrate).
 La comunità è stata voluta dalla Parrocchia "S. Maria Bianca della Misericordia", la quale, sostenuta dalla Cooperativa della Caritas Ambrosiana "Farsi Prossimo", ha potuto realizzare il progetto, nel novembre del 1995, mettendo a disposizione un appartamento.
 La casa accoglie persone adulte di età non superiore ai 45 anni che soffrono di disagio psichico, il cui passato di sofferenza e di rifiuto li ha portati a vivere con molta difficoltà il rapporto con se stessi e con gli altri. La comunità cerca, ove non è più possibile una vita in famiglia, di accogliere queste persone accettandole per quello che sono, cercando di scoprire e di valorizzare le loro risorse nel rispetto della libertà e dei tempi di ciascuno. In particolare si tenta di costruire un luogo accogliente che, puntando sulla normalità, li sappia aiutare:

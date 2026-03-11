@@ -1,4 +1,5 @@
 ---
+
 title: "Perché vi chiamate \"fede e luce\"?"
 date: "1979-12-16"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Lo spirito di Fede e Luce: credere nella dignità di ogni persona, oltre le apparenze; scoprire attraverso i piccoli la vera essenza dell'amore e i valori del Vangelo"
 ---
+
 È forse utile, soprattutto per i nuovi amici, rispondere a questa domanda che ci siamo fatti e che ci viene fatta spesso.
 È difficile definire uno spirito e molto, forse il più, è inesprimibile perché l'importante non è parlarne o discuterne ma viverlo: questo, non è sempre facile.
 In queste due parole è racchiuso lo spirito che deve essere l'animatore di ogni incontro Fede e Luce.

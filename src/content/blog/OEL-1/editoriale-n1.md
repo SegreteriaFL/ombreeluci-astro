@@ -1,4 +1,5 @@
 ---
+
 title: Editoriale n.1
 date: 1983-03-31
 author: Redazione
@@ -20,6 +21,7 @@ umap_y: 8.914423942565918
 umap_z: 7.676301002502441
 id_numero: "OEL-1"
 ---
+
 Una delle prove più difficili è l’essere feriti in quel che si ha di più caro: il proprio figlio. Una delle frustrazioni più forti è sentirsi impotenti di fronte alla impossibilità che nostro figlio sia quello che speravamo. Uno dei dolori più grandi è sapere che il segno dell’handicap che lo ha colpito, innocente, sarà per tutta la vita. Così duramente provati,
 **i genitori del figlio [tooltip text="Ci dispiace usare questo termine, ormai entrato nell'uso comune della lingua italiana, per riassumere la varietà dei limiti fisici o intellettivi lasciati da un trauma o da una malattia. Come esprimersi altrimenti senza creare confusione? (ndr.1983)"] handicappato[/tooltip], oscillano tra due atteggiamenti**
 :

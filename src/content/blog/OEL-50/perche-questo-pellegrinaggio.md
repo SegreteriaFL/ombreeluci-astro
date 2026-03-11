@@ -1,4 +1,5 @@
 ---
+
 title: "Perché questo pellegrinaggio?"
 date: "1975-07-03"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Fede"
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Significato spirituale del pellegrinaggio della Riconciliazione del 1975"
 ---
+
 Lo scopo principale di questo incontro è quello di permettere a tutti noi, qualunque sia il nostro handicap, di vivere un momento intenso di preghiera e di gioia, durante il quale potremo scoprire l'amore e la speranza che Gesù ci offre, nella Sua Chiesa.
 
 Questo pellegrinaggio, se da una parte deve essere un aiuto per la fede dei genitori e dei loro figlioli handicappati, dall'altra deve esserlo anche per tutta la Chiesa. Essa infatti deve continuamente riscoprire il posto privilegiato del più piccolo e del più debole, quale oe lo ha rivelato Gesù.

@@ -1,4 +1,5 @@
 ---
+
 title: In favore della cura di pazienti non collaboranti
 date: 2023-10-12
 author: Maria Grazia Romanini
@@ -14,7 +15,10 @@ umap_z: 8.120655059814453
 issue_number: OEL-163
 id_numero: "OEL-163"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una madre che ha perso un figlio fragile lancia una proposta concreta alla sanità italiana"
 ---
+
 Ho79 anni, vivo a Roma e faccio parte dell’ [Ufha](http://www.ufha.org/) (Unione Famiglie Persone con Disabilità). Il 2 novembre 2020 è tornato al Padre Alberto, il nostro unico figlio, che quest’anno avrebbe compiuto 51 anni. Cerebroleso e gravemente disabile dalla nascita, quindi “paziente non collaborante”, [era stato ricoverato in ospedale](https://www.ombreeluci.it/2021/mio-figlio-che-non-voleva-vedermi-piangere/) per un intervento salvavita e lì, infettato dal covid, è deceduto. Non abbiamo potuto assisterlo e non lo abbiamo più visto né vivo né morto. Non debbo certo dire cosa significa perdere un figlio e, soprattutto, perderlo in tal modo: voglio, però, promuovere un’iniziativa per far sì che la morte di Alberto sia lo stimolo per cercare di migliorare la vita dei “pazienti non collaboranti”.
 
 Nei suoi 49 anni di vita Alberto ha dovuto affrontare, e noi con lui, visite e degenze in strutture sanitarie per periodi più o meno lunghi. Mi sono così resa conto di cosa comporti una visita medica o l’eventuale ricovero di un “paziente non collaborante” il quale, per definizione, non può fornire informazioni, non può rispondere alle domande di rito né segnalare problemi. Non è mia intenzione mettere sotto accusa il personale sanitario: la pandemia ha messo in risalto la dedizione e lo spirito di sacrificio di coloro che hanno cercato di salvare più vite, talvolta perdendo la propria. I familiari delle persone con disabilità sanno, però, quanto sia impegnativo e difficile instaurare un rapporto o anche solo un contatto con chi necessita di tempo e pazienza, risorse poco disponibili per medici, odontoiatri e paramedici. Sanno anche quanto ogni variazione dalla routine provochi scompensi. Ecco perché serve qualcuno che, conoscendo a fondo il soggetto, funga da mediatore.

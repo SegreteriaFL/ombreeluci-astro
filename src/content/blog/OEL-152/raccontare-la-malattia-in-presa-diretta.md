@@ -1,4 +1,5 @@
 ---
+
 title: Raccontare la malattia in presa diretta
 date: 2020-05-07
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando gli fu diagnosticata la sclerosi multipla, il documentarista venticinquenne Jason DaSilva decise di reagire nella maniera per lui più sensata e inevitabile: iniziò a girarci un film. Sette anni di riprese produssero *When I Walk* (2013) in cui DaSilva si metteva in primo piano senza reticenze, mostrando l’inesorabile avanzamento della malattia, la sua mobilità via via più ridotta in una New York non sempre accogliente, nonché il racconto dell’inattesa storia d’amore con Alice Cook. Il documentario, dall’elevato investimento emotivo, fu premiato con un passaggio al Sundance Film Festival e, soprattutto, con una versione televisiva che vinse un Emmy Award.
 
 È utile, ma non indispensabile, averlo visto per capire da dove parte il secondo capitolo di questo intimo racconto, *When We Walk* (2019), che ha recentemente girato per il circuito festivaliero mondiale giungendo finalmente anche in Italia. Utile perché la vicenda di *When We Walk* comincia *in medias res* ; non indispensabile perché nei primi minuti DaSilva riassume la sua storia e soprattutto si ricollega al finale del primo film, svelando allo spettatore che lui e Alice hanno avuto un figlio, Jase, ma che la loro storia d’amore non ha retto al tempo.

@@ -1,4 +1,5 @@
 ---
+
 title: "Giornata mondiale dell'Autismo: il mondo si tinge di blu"
 date: 2018-04-03
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 *La ricorrenza, istituita nel 2007 dall'Onu, si celebra con un'illuminazione speciale dei monumenti di tutto il pianeta. Lo scopo è aumentare la consapevolezza su una malattia le cui diagnosi sono ancora difficili e che crea difficoltà nell'inclusione di chi ne è affetto*
 Il 2 aprile il mondo si tinge di blu per la Giornata mondiale della consapevolezza sull’autismo,
 [istituita dalle Nazioni Unite nel 2007](http://www.un.org/en/events/autismday/)

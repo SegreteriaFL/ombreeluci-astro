@@ -1,4 +1,5 @@
 ---
+
 title: Intelligenze prigioniere - Intelligences captives di Jacqueline Baillod
 date: 1983-06-29
 author: Nicole Schulthes
@@ -25,6 +26,7 @@ umap_y: 10.188105583190918
 umap_z: 6.361757755279541
 id_numero: "OEL-2"
 ---
+
 “
 *Intelligences Captives*
 ” è stato scritto per far conoscere i bambini colpiti da

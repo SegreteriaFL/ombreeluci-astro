@@ -1,4 +1,5 @@
 ---
+
 title: "Il Festival del Cinema Nuovo dedicato agli attori con disabilità"
 date: "2018-09-27"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sarà il regista **Pupi Avati** il presidente onorario della giuria del “Festival del Cinema Nuovo”, il Festival internazionale che a Milano premierà i migliori cortometraggi mondiali interpretati esclusivamente da attori disabili.
 
 Le proiezioni dei titoli in gara si svolgeranno dal 3 al 6 ottobre al **Cinema Arcadia di Melzo** e al **Cinema Argentina del Comune di Gorgonzola**, dove nella serata di sabato 6 ottobre si terrà la cerimonia di premiazione.

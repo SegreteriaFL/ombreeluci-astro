@@ -1,4 +1,5 @@
 ---
+
 title: Cresce la rete di centri SportHabile in Toscana per lo sport paralimpico
 date: 2018-04-16
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 **Diciassette nuovi centri SportHabile**
 che allargano ulteriormente la rete regionale, che adesso supera quota 60, dove persone con disabilità possono fare sport. Le nuove targhe sono state consegnate nella mattina del 10 aprile, in Sala Pegaso a Palazzo Strozzi Sacrati a Firenze, nel corso di una cerimonia alla quale hanno partecipato l’assessore regionale allo sport
 **Stefania Saccardi**

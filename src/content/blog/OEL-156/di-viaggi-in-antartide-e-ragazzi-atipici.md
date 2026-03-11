@@ -1,4 +1,5 @@
 ---
+
 title: Di viaggi in Antartide e ragazzi atipici
 date: 2021-07-14
 author: Matteo Cinti
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ci era già piaciuta al lancio, e ora che si è conclusa ***Atypical* si conferma come una delle serie che meglio rappresenta le dinamiche relazionali di un ragazzo autistico** . La quarta e ultima stagione della serie creata da Robia Rashid [è uscita il 9 luglio su Netflix](https://www.netflix.com/it/title/80117540) , con dieci episodi immediatamente disponibili: quale migliore occasione, ora che l’estate ci concede un po’ di riposo, di goderseli tutti d’un fiato? Anche perché, nel formato da mezz’ora, un episodio tira letteralmente l’altro.
 
 «Vorrei visitare l’Antartide» è una delle prime cose che Sam dice all’inizio della serie; l’immensa distesa di ghiaccio lo tranquillizza perché lì non ci sono persone, non ci sono quei confini – fisici e mentali – che lo mettono in crisi nella vita quotidiana. **L’autismo di Sam gli impedisce di vivere una vita *tipica* ,** con gli ostacoli insignificanti per la maggior parte delle persone (come la forma concava del sedile di un autobus, o l’amico che parla mentre lava i piatti) che diventano per lui motivo di nervosismo.

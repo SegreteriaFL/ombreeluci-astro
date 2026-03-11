@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.126
 date: 2014-06-29
 author: Redazione
@@ -15,10 +16,12 @@ issue_number: OEL-126
 id_numero: "OEL-126"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Sedie a rotelle
 
 Cari amici di Ombre e Luci, voglio condividere con voi un’esperienza recentemente vissuta nel corso di un’udienza del Santo Padre, intervenuto all’incontro con gli associati del C.V.S. riuniti nell’aula Paolo VI per il centenario della nascita del fondatore il beato padre Luigi Novarese. Mi sono recata all’incontro per accompagnare mia madre novantaquattrenne, costretta ormai su una sedie a rotelle. Bella l’atmosfera, intenso il clima di condivisione, c’erano persone e intere famiglie convenute da tutt’Italia con i loro congiunti, anche bambini e ragazzi disabili. Disponibili e gentili i tanti giovani volontari presenti. Caldo e accogliente come sempre l’incontro con Papa Francesco. Tralascio i disagi e le attese, perché comunque sono sempre da mettere in conto, ma alcuni aspetti diciamo così organizzativi mi hanno veramente disturbato. Era stato riservato un passaggio preferenziale per le persone su sedia a rotelle, ognuna con un solo accompagnatore. Nell’entrare, spingendo mia madre, sento dire, con voce stentorea, da uno degli addetti vaticani rivolto agli accompagnatori: “Adesso, senza fare tante storie, lasciate le “sedie a rotelle” ai volontari e andate a sedervi oltre le transenne…” Panico generale, sembrava a tutti preoccupante lasciare una persona non autonoma, da sola, non sempre in grado di esprimere ad un estraneo le proprie necessità e andare a sedersi in un posto qualunque in un’aula enorme, perdendo in tal modo ogni contatto con il proprio congiunto. Qualche volontario gentile e intelligente ci ha detto di andare a metterci in un determinato settore vicino, in modo da restare “a vista”, ma anche da lì siamo stati allontanati e per tutto il tempo dovunque mi sia sistemata insieme ad altri accompagnatori, sono stata mandata via anche sotto minaccia di chiamare i gendarmi. Quando ho fatto presente ad alcuni addetti che mi sembravano poco accoglienti, mi è stato risposto di non cominciare con la storia dell’accoglienza… Alla fine, per fortuna, sono rimasta in una posizione che mi ha permesso di non stare troppo lontana da mia madre, ma ho visto cacciare in fondo alla sala, ormai stracolma, persone anziane, definite ad alta voce “furbe”, che hanno dovuto lasciare il posto a sedere ai volontari, i quali peraltro chiedevano di restare in piedi per poter meglio sorvegliare, ma gli è stato detto di sorvegliare da seduti… Ora di tutto questo che ho cercato di sintetizzare, due cose mi hanno particolarmente colpito, la prima e più eclatante, è stata sentir definire le persone disabili come “sedie a rotelle”, la seconda è stata il veder allontanare da loro gli accompagnatori. Mi ha inoltre infastidito e direi mortificato, lo scambio verbale tra gli addetti che non tenevano mai conto delle persone presenti … scambiandosi frasi del tipo: “stanno arrivando ancora “trenta sedie a rotelle”… oppure “questa gente deve andare via di qua…” mi mortifica sì, perché queste frasi non le ho sentite in un ufficio pubblico o allo stadio, ma in un posto così vicino alla casa di Dio, rappresentata da un Papa come Francesco, sempre accogliente e benevolo con tutti. Cari saluti a tutta la redazione.
 **Margherita**
+
 
 ---
 
@@ -26,6 +29,7 @@ Cari amici di Ombre e Luci, voglio condividere con voi un’esperienza recenteme
 
 Leggendo il numero scorso, e pensando a quanto positiva possa essere una esperienza lavorativa dignitosa e a misura della persona, mi sono ricordata di un’episodio accaduto qualche anno fa e che voglio condividere con voi e i lettori. Andavo ad iscrivere mia figlia al nido in un ufficio comunale del municipio della mia città. All’ingresso mi guardo attorno per capire a chi chiedere, unica persona in vista al momento, dietro un bel vetro con su scritto INFORMAZIONI, un uomo dall’aria incerta, non più giovane e probabilmente, penso io, con qualche difficoltà. Ma questo, certo, non mi ferma. Conosco tanti ragazzi, uomini e donne fragili perfettamente in grado di accogliere e dare corrette informazioni. E lui, immagino, sarà stato preparato a farlo... Sotto il vetro, anche i dispenser in vari colori dei numeri per mettersi in coda nei vari uffici e penso che sarà in grado di dirmi quale dei colori scegliere per la stanza giusta... Mi avvicino al vetro e faccio la mia domanda... alle mie spalle sento forte: “Signora, ma non lo vede che è handicappato!!! Se deve chiedere qualcosa venga qui al bancone!”. Mettendo da parte il fatto trascurabile che sul bancone mancava un cartello chiaro come l’altro e che quando sono entrata io non c’era nessun altro... sono rimasta, purtroppo, senza parole. Ho salutato il signore già preoccupato di non essere in grado di fornire alcuna risposta alla mia domanda e ho cambiato postazione. Certo, quell’uomo aveva davvero un posto sicuro, ne sarà fiero e con lui la sua famiglia... ma, mi chiedo, un posto in Comune per stare sotto vetro, muto come un pesce... sarà lavoro? Saluti
 **Patrizia da Roma**
+
 
 ---
 

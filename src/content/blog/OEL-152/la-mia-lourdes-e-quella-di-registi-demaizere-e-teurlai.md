@@ -1,4 +1,5 @@
 ---
+
 title: "La mia Lourdes. E quella di registi Demaizère e Teurlai"
 date: "2020-02-20"
 author: "Serena Sillitto"
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Mi sono chiesta per giorni cosa non mi convincesse fino in fondo del documentario che Thierry Demaizière e Alban Teurlai hanno girato a Lourdes. Mi sono anche chiesta quanto sulle mie impressioni incidessero la familiarità più che ventennale che ho con questo posto e la “gelosia” nel vedere raccontato un mondo che, pur sapendo essere di tutti, sento troppo mio. Come quando ascolti la cover della tua canzone preferita e se da un lato ti piace, dall’altro lato non ti convince del tutto perché c’è qualcosa che non ti sembra al posto giusto.
 
 L’umanità che arriva a Lourdes è esattamente così come ce la raccontano Demaizière e Teurlai. Nei racconti dei protagonisti ho rivisto e rivissuto tante storie e tanti volti che ho avuto il dono di poter accarezzare: lo strappo di un incidente stradale, la condanna di una morte annunciata, il mistero del dolore innocente, il disprezzo assoluto della vita che spinge a diversi tentativi di suicidio, la fragile tenerezza della vecchiaia, la spensieratezza violata della gioventù, la vendita del proprio corpo e la ricerca contraddittoria della propria anima, il servizio agli ammalati, i disciplinatissimi pellegrinaggi dei militari e le chiassose e coloratissime invasioni di gitani.

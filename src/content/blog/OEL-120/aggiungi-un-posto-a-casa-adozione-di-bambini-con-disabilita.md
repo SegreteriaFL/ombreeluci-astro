@@ -1,4 +1,5 @@
 ---
+
 title: "Aggiungi un posto... a casa - Adozione di bambini con disabilità"
 date: "2012-12-10"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: OEL-120
 id_numero: "OEL-120"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Adottare un bambino handicappato? Un progetto folle? Più precisamente un appello."
 ---
+
 Ombre e Luci è da sempre impegnato a sostenere i genitori nell’accoglienza dei loro figli disabili.
 In questo numero il giornale dedica il suo dossier a quelle famiglie che hanno adottato un bambino sapendolo handicappato, non per incensarle, non è certo questo che loro vogliono, ma per ascoltare le loro testimonianze ed esprimere la nostra riconoscenza.
 Adottare un bambino handicappato? Un progetto folle? Più precisamente un appello.** Queste pagine vogliono mettere in luce lo slancio e la saggezza che accompagnano questo progetto, tenendo sempre presente che la sorgente e la forza provengono dal Padre e che nel senso stretto del termine noi siamo tutti figli adattivi.

@@ -1,4 +1,5 @@
 ---
+
 title: Pronto Soccorso in una bottiglietta
 date: 2000-06-20
 author: Manuela Bartesaghi
@@ -17,7 +18,10 @@ umap_z: 7.91632080078125
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una mamma condivide la sua esperienza con questo medicinale omeopatico, miscela di cinque fiori con effetti calmanti. Non sostitusce le terapie di cui necessitano i bambini ma è un buon supporto."
 ---
+
 Questo articolo è del giugno 2000. Le informazioni riportate non sono consigli medici e potrebbero non essere accurate. I contenuti hanno solo fine illustrativo e non sostituiscono il parere medico
 
 Si chiama Rescue Remedy. Si compera in farmacia a un prezzo equo. Non fa miracoli ma ci ha dato una mano. Non contiene sostanze chimiche ma solo l’essenza di alcuni fiori che il dottor Bach, settant’anni fa, ha studiato e classificato nell’intento di curare il malato e non solo la malattia, di prendersi cura della persona, del suoi stati d’animo, delle sue reazioni più che dell’organo malato, dei sintomi e delle cause. Prima di provare abbiamo chiesto il permesso alla pediatra e alla neuropsichiatra della nostra équipe, che non riuscendo a risolvere con le medicine, le analisi e i ricoveri, alcuni problemi dei bambini che ospitiamo, ci hanno detto: provate, tanto non fanno male, (ma avevano stampato in faccia la vera risposta: tanto non fanno niente!).

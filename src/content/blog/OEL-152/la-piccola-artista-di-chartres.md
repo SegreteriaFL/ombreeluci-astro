@@ -1,4 +1,5 @@
 ---
+
 title: La piccola artista di Chartres
 date: 2021-02-05
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Claretta la silenziosetta» viene soprannominata la protagonista di *I disegni segreti* (Jaca Book 2020, traduzione di Laura Molinari e Vera Minazzi), una bambina francese che vive a Chartres tra il XII e il XIII secolo mentre la città brulica attorno a quella che diventerà la sua celebre cattedrale. Amata dai genitori e dal fratello che la incoraggiano nella grande passione per il disegno, Clara si sente però «sempre di troppo e mai nel posto giusto». In particolare chi la tormenta pesantemente proprio in virtù della sua differenza – Clara è muta – è Gilberto, un coetaneo vicino di casa.
 
 Un giorno finalmente il grande sogno della bambina – lavorare nella bottega del vetraio – parrebbe in procinto di avverarsi. È vero che in agguato c’è il bullo che le ruba tutti i preziosi disegni che ne dimostrano il grande talento, ma grazie alla capacità di osservazione del maestro Gianni, Clara diventerà davvero apprendista vetraia.

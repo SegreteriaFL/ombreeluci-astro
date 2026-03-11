@@ -1,4 +1,5 @@
 ---
+
 title: Invertire gli addendi
 date: 2023-01-25
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 7.35634708404541
 issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Due padri, due figli e il tandem che abbraccia"
 ---
+
 Edoardo Savoia dimostra 13 dei suoi 19 anni: è rimasto piccino per una serie di difficoltà alla nascita e altre non ancora individuate (nonostante le tante ricerche fatte), ha tratti di autismo non verbale e si muove parecchio per l’iperattività. **Da tempo il papà Umberto cercava qualche attività fisica, alternativa alle camminate, per condividere il tempo libero a Prato.** Aveva pensato alla bicicletta ma, superata l’età e il peso per i seggiolini, non c’era mezzo, neanche il tandem, che offrisse le giuste garanzie di sicurezza.
 
 Qualche anno prima nel trevisano, Mario Paganessi aveva vissuto la medesima esperienza con suo figlio: messo in cantina il seggiolino, aveva iniziato a usare dei tandem classici con il passeggero seduto dietro. «Un giorno però mio figlio, in tandem con l’educatrice e fermo al semaforo, saltò giù iniziando a correre. Lei ebbe un mezzo infarto, lui per fortuna non si fece nulla ma da quel momento capimmo che il tandem non faceva per lui». Un tandem classico, inoltre, si blocca se uno dei due non pedala e non consente di controllare agilmente cosa faccia chi è seduto dietro. **Sarebbe necessario immaginare – pensava Paganessi – un tandem al contrario, con il ragazzo fragile seduto davanti.**

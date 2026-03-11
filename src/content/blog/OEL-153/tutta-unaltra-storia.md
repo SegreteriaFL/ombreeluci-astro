@@ -1,4 +1,5 @@
 ---
+
 title: "Tutta un'altra storia"
 date: 2021-03-31
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-153
 id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
+
 L'uomo ha bisogno di storie quasi come del cibo, ricordava Papa Francesco nel messaggio per la Giornata delle Comunicazioni sociali del 2020; e a Ombre e Luci crediamo fermamente nella necessità di raccontare, nel bene possibile, storie e riflessioni intorno al mondo della fragilità e della disabilità. «Abbiamo bisogno di respirare la verità delle storie buone – diceva Francesco – storie che edifichino, non che distruggano; storie che aiutino a ritrovare le radici e la forza per andare avanti insieme (…). Abbiamo bisogno di una narrazione che riveli l’intreccio dei fili coi quali siamo collegati gli uni agli altri». Più recentemente il Papa ha rinnovato la richiesta agli operatori della comunicazione di raccontare la verità della vita che si fa *storia* uscendo «dalla comoda presunzione del già saputo», del pregiudizio, mettendosi in movimento anche là dove nessuno vuole andare, «di comunicare incontrando le persone dove e come sono».
 
 Prendiamoci dunque il tempo di conoscere e ascoltare storie di vite nascoste come quella della brasiliana Eva Rodrigues che lotta con caparbietà per liberarsi dall’immagine che (per comodità) le hanno cucito addosso; di Eufemia Giuliani, madre pugliese 74enne di tre figli con disabilità psichiche che, con solarità, interroga il Padreterno e continua a mettersi in gioco; o di Carlo Maria Fornari che, a Ponte Lambro, è riuscito a concretizzare un progetto di comunità di accoglienza per il “dopo di noi” a partire dall’entusiasmo seminato in lui dall’amicizia con un sacerdote, Dario Madaschi, la cui breve esistenza è stata spesa nella continua ricerca del senso del vero vivere. Vite che – nel focus curato da Giulia Galeotti – cerchiamo nella Storia, piena di «scivoloni e passi avanti» con i quali ancora non abbiamo finito di fare i conti. Perché anche quelle vite e le loro storie, spesso dimenticate e volutamente escluse, hanno «una dignità insopprimibile»: avvicinarle significa curare e redimere – finalmente insieme – la nostra umanità invisibilmente fragile e ferita.

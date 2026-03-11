@@ -1,4 +1,5 @@
 ---
+
 title: Valeria risponde alla lettera di Monica del n. 93
 date: 2006-06-21
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.6354217529296875
 umap_y: 9.095916748046875
 umap_z: 8.103867530822754
+
+subtitle: "Cercasi mamme e papà pronti a confrontarsi (e confortarsi) sugli scivoloni ma anche sulle conquiste che ci capitano con i nostri figli"
 ---
+
 Cara Monica, leggendo [la tua lettera](https://www.ombreeluci.it/2006/gli-amici-che-non-ti-aspetti/) ho ritrovato molto della mia storia di mamma di bambino disabile. Il dolore, il senso di ingiustizia, di incomprensione, di incertezza che ho provato all’insorgere della malattia di mio figlio hanno segnato la mia vita e quella della mia famiglia. Ho riconosciuto la paura delle persone che ti stanno più vicino di affrontare il “problema” con quella dei miei genitori, dei miei più cari amici. Quello di cui ti sono veramente grata è che specchiandomi nella tua esperienza ho colto quanto le cose siano cambiate. Adesso, che sono passati quasi una decina d’anni, mi rendo conto che le persone che pensavo lontane lo facevano perché dovevano anche loro maturare la nuova situazione, perché erano diversamente sensibili alle mie sofferenze e avevano paura di aumentarle. Hanno dovuto affrontare una persona diversa da quella che conoscevano ma alla quale volevano bene da anni.
 
 È vero che ho dovuto ad altri di avere avuto la forza di andare avanti con il sorriso, forse un po’ forzato, al momento della malattia e che queste persone hanno ingrandito la cerchia degli amici a cui sono più affezionata, ma ho con immensa gioia ritrovato anche le vecchie relazioni. Il mio dolore mi accecava a tal punto da non vedere più quello degli altri, o meglio da non tenerlo in conto. Ho anche imparato che vivere con un figlio handicappato non ci rende migliori degli altri e il momento in cui i problemi delle altre mamme con figli normali mi sono apparsi altrettanto importanti dei miei, la mia vita si è aperta alla vera lezione di amore che i nostri figli, tutti, ci danno... C'è voluto un po’ di tempo e ancora oggi certi atteggiamenti mi feriscono ma non faccio più distinzione tra chi c’era prima e chi dopo, se religiosi o no e mi meraviglio e ringrazio ogni giorno delle piccole attenzioni che mio figlio riceve da illustri sconosciuti...per fortuna bilanciano gli schiaffi che riceviamo noi mamme da altrettanto illustri sconosciuti. Siamo tutti solo esseri umani!

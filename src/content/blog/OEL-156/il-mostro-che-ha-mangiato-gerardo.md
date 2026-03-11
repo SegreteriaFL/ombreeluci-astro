@@ -1,4 +1,5 @@
 ---
+
 title: Il mostro che ha mangiato Gerardo
 date: 2021-04-14
 author: Silvia Camisasca
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 N
 el 1533 l’imperatore Inca Atahualpa venne catturato dai
 *conquistadores*

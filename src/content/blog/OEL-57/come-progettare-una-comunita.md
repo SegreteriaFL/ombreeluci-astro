@@ -1,4 +1,5 @@
 ---
+
 title: "Come progettare una comunità"
 date: "1997-06-12"
 author: "Redazione"
@@ -15,6 +16,7 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
+
 Se un gruppo di persone volesse intraprendere l’avventuroso viaggio dell’apertura di una comunità alloggio (comunque la si voglia chiamare: casa-famiglia, comunità residenziale o altro) per persone disabili, è bene che sappia quali sono i passi da fare, le tappe da rispettare e le... lingue da imparare. **La progettazione di una comunità è la risposta concreta a quella domanda che nel mondo dell’handicap sente spesso ripetere: che fine farà questo ragazzo quando la famiglia non ci sarà più o non sarà più in grado di accudirlo? Cosa ne sarà di lui, dopo di noi?
 
 Dire: apriamo una comunità, non è facile. Ma quand’anche si arrivasse a dirlo, tutto deve ancora cominciare. Insieme, a tappe successive, occorre elaborare un progetto, una bozza di quello che si vorrebbe fare. E ci sono delle domande guida che possono aiutare:

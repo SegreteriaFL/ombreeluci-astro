@@ -1,4 +1,5 @@
 ---
+
 title: "Festeggiamo la nascita di un bambino - Genitori di ragazzi con disabilità"
 date: "2003-03-13"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Il natale di ogni giorno"
 ---
+
 Le feste natalizie sono passate. Come ogni anno ci voltiamo indietro e sentiamo che in questa ricorrenza siamo un po’ travolti da tante cose senza molta importanza. L’ansia dei regali, l’organizzazione dei pranzi e delle cene, i giochi, la confusione, la pubblicità, le luci abbaglianti. E tutto coinvolgente e anche bello, ma sentiamo che questo vortice rischia di distoglierci dal principio di tutto.
 
 Da così tanti anni ci riuniamo nelle nostre case e ci raccogliamo attorno al mistero del Natale che la sua incomprensibilità forse ha finito per risultarne po’ ovattata e addolcita. Perché non provare a tornare indietro per mettersi nei panni dei nostri “fratelli maggiori”?

@@ -1,4 +1,5 @@
 ---
+
 title: Una terza via?
 date: 2025-11-03
 author: Mauro Santoro
@@ -18,7 +19,10 @@ umap_z: 9.771982192993164
 issue_number: OEL-171
 id_numero: "OEL-171"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le persone con disabilità: Dio-incidenze nella mia vita di uomo e sacerdote"
 ---
+
 Si chiamava Giulia. La incontrai per la prima volta una domenica nell’oratorio di Carugate, dove mi trovavo dal 2000, quando ero arrivato come prete novello, pieno di entusiasmo e voglia di fare. A presentarmela fu una coordinatrice della Fondazione Don Gnocchi di Pessano, che mi rivolse una richiesta esplicita: «È possibile inserire Giulia per qualche ora nelle attività ricreative domenicali dell’oratorio?». E subito dopo aggiunse: «Così da dare anche un po’ di respiro alla mamma».
 
 Giulia era una ragazzina di 11 anni con una grave disabilità. Non parlava, ma capiva e si faceva capire; camminava, ma aveva bisogno di grande assistenza. Era la prima volta che ricevevo una richiesta del genere, e risposi di sì, pur ammettendo tutta la mia inadeguatezza. Non sapevo come inserirla in un contesto bello ma complesso come l’oratorio: un ambiente organizzato, strutturato, affollato e a tratti caotico. Allora **non immaginavo che quel «sì» avrebbe cambiato per sempre non solo il mio modo di fare il prete, ma il mio modo di «essere»** . Chiedendo aiuto agli amici di [*Fede e Luce*](https://www.ombreeluci.it/fede-e-luce/) (presenti a Carugate da anni) demmo inizio a quel processo che oggi chiamiamo inclusione: creare le condizioni perché bambini e ragazzi con disabilità, insieme alle loro famiglie, potessero [partecipare attivamente](https://www.ombreeluci.it/2008/carugate-a-catechismo-con-gli-amici-disabili/) alla vita della comunità, a partire dall’oratorio. Giulia fu la prima, ma con il tempo ne arrivarono molti altri.

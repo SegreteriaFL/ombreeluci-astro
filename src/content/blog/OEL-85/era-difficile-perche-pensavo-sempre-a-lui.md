@@ -1,4 +1,5 @@
 ---
+
 title: "Era difficile perché pensavo sempre a lui"
 date: "2004-03-09"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Giulio racconta del suo papà poco dopo la sua scomparsa"
 ---
+
 Giulio è un po' più grande di me, che ho quarant'anni. Siamo amici da tanto tempo, ma quando suo papà è morto io l’ho saputo molto dopo, perchè da un po', loro due così importanti per il gruppo di Fede e Luce, non venivano più agli incontri. Così quando mi hanno chiesto di scrivere un articolo per Ombre e Luci ho subito pensato a Giulio; ho pensato che avrebbe avuto qualcosa di importante da dire e in un tranquillo pomeriggio di inverno abbiamo fatto una grande chiacchierata dalla quale sono nati questi suoi pensieri. (A.A.P.)
 
 Da molto giovane ho imparato da lui come dovevo fare per guidare una barca a motore, una lunga barca a motore con motore *Seagull*. Negli anni successivi abbiamo continuato ad andare al Circeo nella nostra casa che ci aveva regalato il nonno. Poi abbiamo avuto anche una barca a vela e così una barca da pesca mio padre aveva.

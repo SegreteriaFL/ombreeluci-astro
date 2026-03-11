@@ -1,4 +1,5 @@
 ---
+
 title: Tempo di imparare - Recensione libro
 date: 2020-06-22
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Handicap non è una parola molto facile da far germogliare. Però curati ogni giorno di tenerla umida e coperta, per vedere cosa nasce». È il 2014 quando Valeria Parrella firma il meraviglioso romanzo *Tempo di imparare* in cui canta un percorso – accidentato ma ricco di calore e stupore – sulla scoperta e sull’incontro con la disabilità. Con la disabilità quando smette di essere il numero di una legge, una diatriba tra medici, una guerra tra *life* e *choice* , uno scontro tra troppo e troppo poco. Arturo deve imparare a maneggiare la penna e a salire le scale della scuola, sua madre – zainetto in spalla anche lei – deve imparare cos'è la disabilità; imparare a maneggiarla per renderla una presenza quotidiana.
 
 Arturo è un bimbo “non standard” che cresce, ma chi davvero deve camminare è la madre senza nome – lui è lui, lei dovrà invece imparare a raggiungerlo sulla sua isola. “Non sono io che ti ho affidato a un dentro: sei tu, che mi ha spinta fuori, nel fuori”. Elsa Morante può sorridere felice. In *Tempo di amare* c’è tutto: il dolore, la rabbia, l’impotenza, la consapevolezza che non sarà mai facile, ma soprattutto c’è lo sbilenco concetto di normalità; c’è la disabilità del linguaggio burocratico e dello sguardo che non ascolta; c’è la speranza, lo stupore e la gioia di entrare nel passo di Arturo, e di scoprire che i suoi amichetti ci sono arrivati molto prima; c’è il senso (dietro l’apparente nonsenso) dell’inclusione scolastica, la certezza che, sebbene tutto remi contro, l’isola è raggiungibile. E che viverci può illuminare.

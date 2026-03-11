@@ -1,4 +1,5 @@
 ---
+
 title: Alfedena 1976 - Esperienze di vita comunitaria
 date: 1976-12-20
 author: Guenda Malvezzi
@@ -17,7 +18,10 @@ umap_z: 11.60779857635498
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Guenda racconta l'esperiena al campo Fede e Luce di Alfedena: l'amore, l'amicizia, la certezza di crescere tutti insieme, cantando che è dolce sapere che non siamo più soli"
 ---
+
 Mihanno chiesto di scrivere "qualcosa" sul campo di Alfedena, ... e qui casca l'asino! Perchè la penna non mi è molto amica specie quando devo pescare dal pozzo del profondo quelle sensazioni, quei ricordi, quelle cose che sento e che vivo, che sono state e che sono, l'occasione per accorgermi che si può vivere anche al di là del cerchio, spesso troppo stretto, del mio mondo dove ideali e valori, esperienze e buona volontà non sempre trovano le strada giusta per venir fuori.
 
 **Alfedena è stata una esperienza, ma questa parola dice ancora troppo poco.**

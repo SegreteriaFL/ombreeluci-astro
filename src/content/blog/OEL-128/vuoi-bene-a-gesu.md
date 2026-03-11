@@ -1,4 +1,5 @@
 ---
+
 title: "Vuoi bene a Gesù?"
 date: "2014-12-15"
 author: "Giovanni Maria Flick"
@@ -15,6 +16,7 @@ issue_number: OEL-128
 id_numero: "OEL-128"
 numero_rivista: "Ombre e Luci"
 ---
+
 Vuoi bene a Gesù?... E allora basta…”; nel lessico quasi famigliare di via Benucci era diventato il nostro saluto con Mariangela. Garbatamente irriverente; bonariamente cinico; rispettosamente dissacrante; soprattutto evocativo di comuni aspetti di esperienza e di identità (padre Alberto Parisi e madre Pantanella; il San Roberto Bellarmino e il Nazareth; padre Giorgio Flick e padre Cascino “che accascia”; la nascita di Santa Silvia e il passaggio del testimone fra don Marcello e don Antonino…).
 Ho conosciuto Mariangela e Paolo cinquanta anni fa, andando a trovare su richiesta delle mitiche sorelle Bertolini (Mimma e Toti in particolare) i loro fratelli nell’altrettanto mitica via Benucci. Trovai un mondo che poco dopo, grazie a loro, sarebbe diventato il mio mondo e la mia quasi seconda casa.
 

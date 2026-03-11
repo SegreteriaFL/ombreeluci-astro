@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 5
 date: 1984-03-28
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-5
 id_numero: "OEL-5"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Come siamo cambiati con *Fede e Luce*
 
 Stamattina mi sono alzata con una malinconia terribile. Mi sembrava di avere cento anni e il pensiero dell’oggi da vivere con tutti i problemi che porta con sé mi sembrava uno sforzo insopportabile. Non avevo nemmeno la volontà di preparare mia figlia per andare al centro che frequenta. Tutti gli episodi più strazianti della mia vita mi si alternavano nella mente: stavo letteralmente male. Quando finalmente mia figlia fu pronta e col padre e la sorella partì per la città, mi concessi un po’ di riposo e di riflessione. Con uno sforzo combattei i pensieri neri col propormi i ricordi più belli e fra tanti mi soffermai sui primi passi che feci in

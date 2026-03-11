@@ -1,4 +1,5 @@
 ---
+
 title: Salvatore, medico pediatra, acondroplasico
 date: 2007-06-03
 author: Salvatore Anastasi
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.4119768142700195
 umap_y: 9.817893028259277
 umap_z: 7.277592658996582
+
+subtitle: "Un dottore che ha saputo trasformare le difficoltà derivanti dalla sua piccola statura in sensibilità ed empatia verso i suoi piccoli pazienti"
 ---
+
 V
 iviamo in una società che si affida all’immagine e a concetti e modelli di omologazione, ma contemporaneamente sempre più multiculturale e multietnica. In questo contesto sociale, l’acondroplasia (
 [qui una scheda informativa su questa patologia](https://www.ombreeluci.it/2022/acondroplasia-scheda-informativa/)

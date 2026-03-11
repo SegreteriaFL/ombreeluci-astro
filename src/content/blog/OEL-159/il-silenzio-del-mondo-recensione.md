@@ -1,4 +1,5 @@
 ---
+
 title: Il silenzio del mondo — Recensione
 date: 2022-11-07
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 4.764199733734131
 issue_number: OEL-159
 id_numero: "OEL-159"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il romanzo di Tommaso Avati con protagoniste tre donne attraverso il Novecento (Neri Pozza, 2022)"
 ---
+
 **La disabilità è in chi la vive o in chi la guarda? Il muro esclude o protegge? Cosa mi definisce?** Tre domande per tre donne - la nonna, la madre e la figlia - protagoniste di un romanzo che attraversa il Novecento, finendo per rappresentare molto più di quel che racconta. Oltre che parenti, Rosa, Laura e Francesca sono tutte sorde. Un denominatore comune che però si declina in modo talmente diverso che quasi ce se ne dimentica.
 
 Non perché la sordità non sia centrale («È una storia che mi riguarda - ha scritto l'autore - perché parla della sordità che conosco per averla sperimentata sulla mia pelle fin dalla nascita») ma perché quel che viene percepito come un deficit può essere ricondotto a ciò che davvero è. Un elemento della persona, tra gli altri. **Un elemento più o meno ingombrante, più o meno pressante, ci dice questa treccia di donne** , ciascuna con la sua voce e le sue risposte.

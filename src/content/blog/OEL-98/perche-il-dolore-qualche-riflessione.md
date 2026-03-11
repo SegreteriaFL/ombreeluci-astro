@@ -1,4 +1,5 @@
 ---
+
 title: "Perché il dolore? Qualche riflessione"
 date: "2007-06-03"
 author: "Francesca Poleggi"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T07"
 tema_label: "Dignità, valore della persona e sguardo sulla fragilità"
 categoria_menu: "Disabilità"
+
+subtitle: "La sofferenza e il dolore, soprattutto quello innocente, pongono tutti di fronte a una domanda: perché? Un'amica ha voluto condividere alcuni pensieri"
 ---
+
 ### I
 
 Maria Rosaria è spastica, poliomielitica, ritardata, — ha 53 anni, ma è come se ne avesse 6 — è sorda e ha il cancro. **La mia “grande” fede è più fragile di quanto pensassi... così ho ricevuto anche un bell’insegnamento di umiltà.

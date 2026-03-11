@@ -1,4 +1,5 @@
 ---
+
 title: Dalle Province n.137
 date: 2017-03-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-137
 id_numero: "OEL-137"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### [Un fiume di Pace – Nord](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 
 Ad aprile vivremo l’assemblea provinciale; quando questo numero uscirà non sarò più coordinatore di Un fiume di pace. Così ho pensato di usare questo spazio per dire grazie a tutti per questi otto anni. Da Cattolica, l’avvio delle tre province italiane, è stato un crescendo di incontri, emozioni, pianti e sorrisi con persone che prima non conoscevo e che ora fanno parte della mia grande famiglia di Fede e Luce. Persone lontane che sento vicinissime. Ragazzi e genitori che mi hanno insegnato tanto. E vorrei raccontarvi due cose che mi porterò dentro per sempre. Quando abbiamo vissuto una formazione sul testo evangelico del giogo, la mia amica Daniela ha sintetizzato tante parole in una semplice frase: «Ognuno di noi ha uno zaino. Più o meno pesante. Fede e Luce vuol dire che Angela mi aiuta a portare il mio e io aiuto lei col suo». Credo dica il senso della nostra amicizia e dei legami che nascono nelle nostre comunità. Un altro ricordo è legato a Jamil, che ho conosciuto a Shefaram, in Galilea. Jamil è un ragazzo Down. A ogni incontro si presenta in giacca e cravatta: «È un momento importante - dice – Ci vuole il vestito della festa!». È lui che ha voluto iniziare il discernimento con una preghiera. Lui che a tavola ha benedetto noi e il cibo che stava per arrivare. Ecco: Jamil conosce la strada. I ragazzi conoscono la gioia di stare con Gesù e ce la rivelano. Questo mi ha insegnato FeL. Di questo dico grazie, con tutto il cuore.

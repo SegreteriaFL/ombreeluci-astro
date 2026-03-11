@@ -1,4 +1,5 @@
 ---
+
 title: Aiutarlo a vivere il lutto
 date: 2010-10-10
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-112
 id_numero: "OEL-112"
 numero_rivista: "Ombre e Luci"
 ---
+
 “D
 *a quando è morta mia moglie, sei mesi fa, confessa Bernard, ho evitato che mio figlio, gravemente disabile, lo venisse a sapere. Lo shock sarebbe stato troppo forte per lui. Da quel momento, non lo riconosco più, è cambiato: a volte aggressivo, a volte depresso*
 .” Come per molti altri genitori, l’esperienza di questo papà è illuminante: suo figlio, limitato nelle capacità d’espressione, traduce la sua sofferenza morale con un cambiamento radicale nell’atteggiamento. Per Anne Bindels, infermiera formatrice di cure palliative e mamma di due bambini con sindrome di Down, “

@@ -1,4 +1,5 @@
 ---
+
 title: Da piccola ero Down
 date: 2018-03-26
 author: Daniele Cabras
@@ -17,6 +18,7 @@ issue_number: OEL-141
 id_numero: "OEL-141"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ho scritto queste pagine “ *prima di tutto per me stessa, per mettere ordine nelle mie poche idee ma confuse* …”. “ *Poi per Valentina, la mia figlia maggiore, perché possa conoscere la storia della nascita della sorella…* ”. “ *Per Giulia, perché un domani possa ripercorrere la sua storia…* ”. *Per Francesco, mio marito…* ”, " *Per condividere questa mia esperienza con chi si trovasse in situazioni simili…* ”.
 
 A questo elenco, dopo aver letto il libro, vorrei aggiungere per tutti noi, per regalarci una storia vera e bella che insegna ad affrontare la vita con coraggio, a riconoscere e superare le difficoltà, a mettersi in discussione, ad imparare ad avere fiducia negli altri e, nello stesso, tempo, ad assumere l‘iniziativa e a prendersi le proprie responsabilità.

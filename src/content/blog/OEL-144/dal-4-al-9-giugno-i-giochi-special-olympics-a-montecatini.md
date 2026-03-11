@@ -1,4 +1,5 @@
 ---
+
 title: Dal 4 al 9 giugno, i Giochi Special Olympics a Montecatini
 date: 2018-06-06
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sono oltre 3000 gli atleti, provenienti da tutta Italia, che si sfidano in
 **18 discipline sportive**
 :

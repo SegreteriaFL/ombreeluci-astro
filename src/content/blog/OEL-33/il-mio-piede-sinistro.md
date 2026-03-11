@@ -1,4 +1,5 @@
 ---
+
 title: Il mio piede sinistro
 date: 1991-03-07
 author: Natalia Livi
@@ -18,6 +19,7 @@ issue_number: OEL-33
 id_numero: "OEL-33"
 numero_rivista: "Ombre e Luci"
 ---
+
 P
 erché leggere un libro che parla di un piede? Perché questo piede non è un piede qualsiasi. E’ il piede sinistro di una persona colpita da paralisi cerebrale dalla nascita. Questo per cominciare, e poi, perché il piede in questione è l’unico mezzo che questa persona ha per comunicare agli altri esseri umani che la circondano di affetto e di amicizia, il pensiero, le emozioni, le tristezze, le gioie, ecc. Un piede che scrive, un piede che dipinge, un piede che «pensa». Una bellissima storia, facile da leggere, da raccontare, da regalare a un amico o a un’amica.
 **Christy Brown**

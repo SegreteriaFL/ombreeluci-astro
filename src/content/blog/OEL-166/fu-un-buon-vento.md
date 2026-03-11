@@ -1,4 +1,5 @@
 ---
+
 title: Fu un buon vento
 date: 2024-08-26
 author: Nicla Bettazzi
@@ -14,7 +15,10 @@ umap_z: 5.901522159576416
 issue_number: OEL-166
 id_numero: "OEL-166"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Storia personale e pubblica della legge 517"
 ---
+
 F
 u un buon vento quello del 1968, su cui soffiarono e confluirono correnti straordinarie come
 *Lettera a una professoressa*

@@ -1,4 +1,5 @@
 ---
+
 title: Ci chiedono da che parte stai
 date: 2011-12-04
 author: Francesca De Rino
@@ -16,7 +17,10 @@ umap_z: 8.781848907470703
 issue_number: OEL-116
 id_numero: "OEL-116"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Sarò vile ma non sono in grado di rispondere con sicurezza alle domande: ma questa è vita?"
 ---
+
 Mi chiamano da casa: ha telefonato zia Mariangela, la puoi richiamare stasera alle sei e mezzo? Io sono al lavoro, anche oggi una giornata lunga, un faticoso colloquio con una figlia per decidere cosa è meglio per suo padre colpito da un ictus devastante. Cosa vorrà Mariangela? Cosa posso fare io lontana 600 Km? Proprio ieri ho letto O&L e [l'articolo di Mariani](https://www.ombreeluci.it/2011/per-il-rispetto-della-persona-sempre/) mi ha infastidita e sollecitata a pensare, Mariangela ha un sesto senso e proprio per questo mi chiama.
 
 **Forse ha pensato a me perché medico specializzato in malattie neurologiche degenerative** , o perché mamma con una piccola storia personale di scelta della vita, o forse perché amica di F&L da sempre. Sa che questo argomento mi sta a cuore e che ho sempre voglia di capire e far capire che non c'è una soluzione unica, che nel mondo reale le sfaccettature sono molteplici, le persone sono tutte diverse, le loro storie il loro passato, gli affetti che le circondano, le motivazioni delle loro paure.

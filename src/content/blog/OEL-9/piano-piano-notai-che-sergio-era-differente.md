@@ -1,4 +1,5 @@
 ---
+
 title: Piano piano notai che Sergio era differente
 date: 1985-03-30
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-9
 id_numero: "OEL-9"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sono Francesca, ho 21 anni, frequento la scuola per terapisti della neuro-psicomotricità dell'età evolutiva. Mio fratello Sergio, più grande di me solo di un anno e mezzo, è handicappato mentale. Abbiamo sempre vissuto insieme giocando e divertendoci nei giorni più o meno felici dei nostri primi anni di vita. Piccola, all'asilo, non sapevo che Sergio non fosse un bambino come gli altri. Poi, piano piano, notai che Sergio era differente dai miei compagni della scuola, dei giochi, del giardino. Sergio non giocava al calcio, si muoveva lentamente e i suoi giochi erano più infantili, sempre gli stessi. Però era profondamente buono, mai litigioso, sempre disponibile a prestarmi la sua macchinina se la mia era rotta, a farmi sorridere quando piangevo.
 > Mi ha insegnato a cogliere umanamente il messaggio che la persona handicappata ti dona per l'aiuto che le dai a crescere
 

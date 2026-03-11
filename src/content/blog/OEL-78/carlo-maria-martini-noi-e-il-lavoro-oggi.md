@@ -1,4 +1,5 @@
 ---
+
 title: "Carlo Maria Martini: noi e il lavoro oggi"
 date: 2002-06-17
 author: Redazione
@@ -16,7 +17,10 @@ tags:
 umap_x: 10.25778579711914
 umap_y: 9.640525817871094
 umap_z: 11.840897560119629
+
+subtitle: "Le parole del cardinale, di condanna per un lavoro non più umano ma forti e solidali nell’esortazione ai lavoratori all’unità e alla partecipazione"
 ---
+
 Alla vigilia del 1 Maggio **il Cardinale Martini ha parlato a più di duemila operai della Franco Tosi di Milano** . Tra tanti discorsi politici, commenti giornalistici, saggi e commemorazioni, le sue parole sono risuonate alte e severe nella condanna di un lavoro non più umano, forti e solidali nell’esortazione ai lavoratori all’unità e alla partecipazione, proprio come quelle di un antico profeta biblico.
 
 Dice il Cardinale: « **Spesso si richiede una dedizione così totale e monopolizzante al lavoro che lo si potrebbe catalogare sotto l’elenco delle idolatrie deprecate dalla Scrittura** » «Sento parlare di turni di lavoro faticosi e stressanti, di famiglie che devono sostenere avvicendamenti di lavoro nella coppia per cui, a volte, non riescono neppure a vedersi per alcuni giorni...»

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.73
 date: 2001-03-08
 author: Redazione
@@ -14,18 +15,25 @@ umap_z: 10.308940887451172
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Eutanasia
 
 Conoscendo la vostra attenzione e sensibilità versi i problemi delle persone svantaggiate desidero parteciparvi le mie perplessità e direi meglio la mia ribellione riguardo ai vari tentativi per introdurre l’eutanasia. Per l’Olanda è una realtà, la legge è stata approvata dal Parlamento. La stampa italiana ne ha scritto come di un atto di civiltà. Recentemente a Milano in un dibattito promosso dalla consulta di bioetica si è insistito sul consenso informato, sulla morte dignitosa. Ma come si fa a non leggere al di là delle buone intenzioni avvallate da pochi «stoici», l’incapacità di questa nostra civiltà occidentale a fronteggiare il progressivo allungamento della vita e la reticenza a sostenere i costi? Ne è prova il fatto che per rifiutare l’accanimento terapeutico e per applicare e promuovere le doverose terapie del dolore, non occorre una legge sulla «morte di stato», ma la legislazione vigente, come anche è stato fatto presente, forse con qualche modifica, già lo permette. Ma chi ha il diritto di stabilire quando una vita non è più dignitosa e non merita di essere vissuta? Quanto può essere genuino il consenso di una persona indebolita dalle sofferenze? A una società che insegue come massimo valore il bene economico, senza altre certezze, che si sta rimangiando i valori acquisiti, che ammira il cinismo quando rende, come si può consegnare uno strumento legale così terribile? Perché non si pensa all’effetto di frustrazione e di alienazione che si produrrebbe sugli anziani malati, i depressi, gli emarginati psichici e non, i portatori di handicap gravi? Si indurrebbero a sentirsi inutili, un peso per la società. Verrebbero considerati privi di dignità per la loro pretesa di voler continuare a vivere, una sorta di mobbing per portare ad auto-licenziarsi dalla vita. Ma come far capire che la vera morte per il singolo come per la società è privarsi dell’amore, della solidarietà? Forse occorrerà un supplemento di amore e di impegno per condividere tante situazioni di disagio gravissimo, affinché i pesi portati insieme possano diventare più leggeri. Voi lavorate in questa direzione e io ho sempre apprezzato il vostro impegno. Tante altre persone oggi testimoniano la solidarietà ma poiché ci si basa sui sondaggi e si considera giusto ciò che trova il maggior numero di adesioni, non si può rassegnarsi e tacere, ma, cosa fare? Un augurio carissimo a tutta la redazione, un forte abbraccio.
 
 **Maria Rosa Ciampi**
 
+
+
 ---
 
 ### È come un amico
 
 Sono sul pullman che da Palermo porta a Monopoli. Sto andando alla festa che vedrà unire in matrimonio Daniele di Palermo e Paola di Monopoli (BA) dopo un incontro nato e vissuto in Fede e Luce. Mi sono portata dietro un numero di Ombre e Luci e l’ho letto subito, lo ho quasi divorato. Da tempo, leggendo le lettere inviate alla redazione, mi ero proposta di scrivere un messaggio anch’io perché in esse mi ritrovavo. Forse il tempo è arrivato e queste dodici ore di viaggio mi stanno facendo questo dono. Sono ormai dieci anni che Ombre e Luci mi accompagna nella vita. Aprire al postino che me lo consegna o trovarlo in casa è sempre stata una festa. È come un amico che mi viene a trovare, fedele, puntuale. Eppure sono solo dei fogli stampati e spillati!... Per me è come se fosse «vivente» forse perché immagini, testimonianze, frasi, commenti, esperienze, prendono forma attraverso di esso e diventano situazioni che mi interrogano, genitori che finisco per seguire con il pensiero, ragazzi che vorrei tanto abbracciare... **Enza Gucciardo**
+
+
 
 ---
 

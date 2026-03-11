@@ -1,4 +1,5 @@
 ---
+
 title: "Quelli più simili a Lui"
 date: "1995-12-30"
 author: "Mariangela Bertolini"
@@ -15,6 +16,7 @@ issue_number: OEL-51
 id_numero: "OEL-51"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quella banale ammirazione che dimostriamo verso le persone belle d'aspetto e l'altrettanto ovvia disapprovazione manifestata verso chi tale non è, chi, esteriormente, non è proprio tutto «regolare» secondo schemi tradizionali, col passare degli anni, mi hanno sempre più colpita, irritata, amareggiata.
 Questo mio stato d'animo sarà forse dovuto alle molte persone incontrate che mi hanno palesato il loro sconforto per non essere «come gli altri vorrebbero». Una delusione di fondo le invade, le pervade, le obbliga a non sentirsi, mai, completamente felici di essere al mondo.
 

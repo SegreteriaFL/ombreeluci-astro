@@ -1,4 +1,5 @@
 ---
+
 title: "La Norma Traviata: \"un musical delirante\" - Recensione"
 date: 2002-06-15
 author: Antonella Bulgheroni
@@ -16,7 +17,10 @@ tags:
 umap_x: 9.044258117675781
 umap_y: 7.712639331817627
 umap_z: 9.079804420471191
+
+subtitle: "Il 25 marzo 2002 si è tenuto a Milano al Teatro Smeraldo l’evento teatrale interamente allestito, recitato, cantato e ballata da portatori di disagio psichico, psicofisico e sociale"
 ---
+
 La sera del 25 marzo si è tenuto a Milano al **Teatro Smeraldo** l’evento teatrale **La Norma Traviata** , “un musical delirante”, interamente allestito, recitato, cantato e ballata da portatori di disagio psichico, psicofisico e sociale.
 
 **Si racconta la vicenda di una Milano post-atomica** in cui un pubblico “perbene” tenta invano di assistere a una replica di Norma in un Teatro alla Scala bombardato; i “permale” contestano, escono dai rifugi, avanzano verso il palcoscenico dalla platea ostentando i segni della loro sofferenza, con bendaggi e abiti laceri: tra loro c’è qualcuno con ali da angelo.

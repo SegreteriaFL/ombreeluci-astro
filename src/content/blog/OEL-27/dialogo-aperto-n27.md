@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.27
 date: 1989-03-19
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-27
 id_numero: "OEL-27"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Associazione steineriana a Roma
 
 *La mamma di Oliviero, protagonista dell'articolo «Perceval» pubblicato su Ombre e Luci scorso ci chiede di pubblicare questa descrizione di una iniziativa alla quale partecipa con un gruppo di educatori e genitori.*

@@ -1,4 +1,5 @@
 ---
+
 title: Stupiti e grati
 date: 2022-02-16
 author: Cristina Tersigni
@@ -17,6 +18,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Fede e Luce è la nostra storia, la nostra vita, la nostra casa, alla quale abbiamo cercato di aggiungere, tramite il Carro, un tetto reale per la vita di ogni giorno. Ci auguriamo che questo inaspettato riconoscimento possa rappresentare per tutta Fede e Luce un incoraggiamento per l’impegno di fedeltà e responsabilità che ognuno di noi si sforza di vivere tra mille difficoltà nel proprio quotidiano». È davvero un grande incoraggiamento quello del presidente Mattarella **che [ha insignito](https://www.ombreeluci.it/2021/intervista-a-matteo-mazzarotto-e-ivana-perri/) della carica di Ufficiali al merito della Repubblica Matteo Mazzarotto e Ivana Perri** «per la loro dedizione all’inclusione e al sostegno per il dopo di noi delle persone con gravi disabilità cognitive-sensoriali» nella casa famiglia Il Carro. Un incoraggiamento che ci rammenta che i frutti della fedeltà, della responsabilità e soprattutto dell’amicizia vissuti a Fede e Luce rappresentano **una storia da custodire e raccontare** .
 
 Una storia «così fragile e così bella», come disse una volta il cardinale Martini, nata a quel primo grande pellegrinaggio del 1971 a Lourdes, al termine del quale i partecipanti proprio non ne vollero sapere di finirla lì, di tornare a chiudersi nelle loro case… Troppo bello era stato sentire di appartenere a una comunità di amici con la propria disabilità intellettiva o quella di un figlio, come parti e cuore della Chiesa. Eppure, ha sottolineato papa Francesco nel suo messaggio per l’anniversario del movimento, **«ancora oggi nella Chiesa e nel mondo sono tanti coloro che nella piccolezza e nella fragilità sono dimenticati ed esclusi»** .

@@ -1,4 +1,5 @@
 ---
+
 title: "\"Sono una mamma adottiva a distanza\""
 date: 2003-06-23
 author: Redazione
@@ -17,7 +18,10 @@ tags:
 umap_x: 4.623071193695068
 umap_y: 10.197052955627441
 umap_z: 7.7178754806518555
+
+subtitle: "Roberta è molto contenta e orgogliosa dell'adozione a distanza: una bimba della Tanzania: si chiama Jenni Elise, ha dieci anni, vive in un villaggio denominato Kibaoni e frequenta la scuola primaria."
 ---
+
 Da qualche tempo Roberta ha adottato, a distanza, una bimba della Tanzania: si chiama Jenni Elise, ha dieci anni, vive in un villaggio denominato Kibaoni e frequenta la scuola primaria. **Più volte Roberta aveva espresso il desiderio di "adottare un fratellino"** , così abbiamo cominciato a parlare delle adozioni a distanza e della possibilità per lei di diventare una mamma adottiva. Insieme ci siamo rivolte ai Missionari Stimmatini ai quali Robg ha anche detto che le sarebbe piaciuta una femminuccia, perché le femminucce sono le più dimenticate nei Paesi poveri ed arretrati.
 
 **È stata accontentata e successivamente le è pervenuta la fotografia della "sua" bambina"** , una bella bimba dai capelli corti e ricci ricci. Naturalmente la foto è ora in cornice nella stanza di Roberta e quest’anno, per la festa della mamma, abbiamo regalato a Robg, a nome di Jenni Elise, una rosa rossa.

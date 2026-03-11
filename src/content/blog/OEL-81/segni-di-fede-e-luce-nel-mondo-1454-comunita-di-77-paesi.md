@@ -1,4 +1,5 @@
 ---
+
 title: "Segni di fede e Luce nel mondo - 1454 comunità di 77 paesi"
 date: "2003-03-13"
 author: "Lucia Casella"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Nel settembre del 2003 si è svolta a Roma l'Assemblea Internazionale di Fede e Luce: un'occasione per fare il punto della situazione delle comunità nel mondo"
 ---
+
 Questo articolo è del 2003. Per vedere gli aggiornamenti sulle comunità di Fede e Luce nel mondo [clicca qui](https://www.ombreeluci.it/2017/le-comunita-fede-e-luce-nel-mondo/).
 
 Dal 22 al 29 settembre 2002, nel centro “Mondo migliore” sui colli di Roma, si è svolta l’**Assemblea Internazionale di [Fede e Luce](https://www.fedeeluce.it/). I partecipanti erano 230 tra genitori, amici e 60 assistenti appartenenti a diverse tradizioni cristiane: cattolici (romani, maroniti, greci, copti, siriaci), ortodossi, anglicani, luterani e metodisti. Provenivano da 76 paesi del mondo.

@@ -1,4 +1,5 @@
 ---
+
 title: Fiorangela - Un inno alla vita
 date: 1998-06-17
 author: Natalia Livi
@@ -15,6 +16,7 @@ umap_x: 6.737146377563477
 umap_y: 11.125574111938477
 umap_z: 5.330563545227051
 ---
+
 Una mamma racconta la storia del suo rapporto con la figlia Fiorangela, una giovane Down: il suo sguardo si rivolge a tutto l’ambiente in cui questa storia si è svolta, al marito, ai due figli maggiori, ai parenti, agli amici. Ma il nucleo del racconto è proprio lei, Fiorangela, che con il suo entusiasmo, la sua dolcezza, il suo amore per la vita e per le persone che la circondano, è diventata il centro della famiglia, la consolazione e la gioia di chi la conosce. L'autrice è un'insegnante della scuola elementare ed è attivamente impegnata in parrocchia, alla Croce Rossa, in una casa di riposo.
 
 I primi anni della vita di Fiorangela sono stati difficili e dolorosi; la bimba ha poi frequentato la scuola materna ed elementare. Oggi ha ventisette anni e frequenta la Polisportiva Bresciana Handicappati. La sua specialità è il nuoto. 1 genitori hanno fatto costruire per lei, vicino alla casa, una grande piscina dove accolgono anche gli amici e chiunque in paese ne provi piacere o bisogno. Fiorangela è contenta di stare con loro. L'amicizia è per lei uno stimolo a crescere, a dare tutta la sua energia e la parte pensosa e gioiosa di sé.

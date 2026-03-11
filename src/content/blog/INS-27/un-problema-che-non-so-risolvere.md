@@ -1,4 +1,5 @@
 ---
+
 title: Un problema che non so risolvere
 date: 1980-09-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 Quando è nata Paola avevo 8 anni. Ricordo bene l'insieme di tesioni e la sensazione che le cose non fossero andate come avrebbero dovuto. Oltre a esser mongoloide, Paola stava molto male e si temeva addirittura che non si salvasse. Ricordo bene il pianto ininterrotto della mamma ed il silenzio pesante del babbo. I miei fratelli a quell'epoca avevano 10 e 11 anni, quindi eravamo ancora troppo piccoli tutti, anche solo per farci coraggio e affrontare le cose.
 
 Le persone di casa, una donna che era con noi da sempre e la nonna ci dicevano sempre di pregare, ma noi non capivamo. Del resto non capiva nemmeno la mamma, che di mongolismo aveva sempre solo sentito parlare "da lontano".

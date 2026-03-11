@@ -1,4 +1,5 @@
 ---
+
 title: Feliz Natal!
 date: 2013-12-14
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-124
 id_numero: "OEL-124"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ingenerale il Natale è diventata un’occasione per guadagnare! C’è pubblicità dappertutto per invogliare la gente a fare acquisti. Ci sono moltissime decorazioni in giro, alberi natalizi, Babbo Natale, folletti, campane, ma quasi non si vedono immagini di Gesù.
 
 **È interessante che in Brasile siamo in estate** , fa caldo e ugualmente gli addobbi risentono dell’influenza dell’Europa, c’è la neve, bambole molto vestite come fosse molto freddo e Babbo Natale vestito come in inverno. Ci si preoccupa molto per il mangiare e per acquistare vestiti nuovi.Spesso si sente dire: “Passeremo un bel Natale, faremo un ottimo cenone, i bambini indosseranno vestiti molto belli e ci faremo tanti regali.”

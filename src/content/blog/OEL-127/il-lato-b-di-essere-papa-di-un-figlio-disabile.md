@@ -1,4 +1,5 @@
 ---
+
 title: "Il lato ‘B’ di essere papà di un figlio disabile"
 date: "2014-09-29"
 author: "Lorenzo Cerutti"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: OEL-127
 id_numero: "OEL-127"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La testimonianza di Lorenzo, papà di Simone affetto da una rara sindrome genetica"
 ---
+
 Sono il papà di tre splendidi bambini. Matteo 9 anni, il primogenito, il “principe” di casa, colui che per me e mia moglie ha costituito il cambiamento del nostro matrimonio, allevato con cura a volte fin troppo maniacale. **Poi è arrivato Simone, che ora ha 6 anni, ed è affetto da una rara sindrome genetica** (gli abbiamo fatto un pezzo di cromosoma 15 in più) e la nostra vita è definitivamente cambiata.
 
 Infine è “atterrata” Francesca, 3 anni, il terremoto di casa, voluta inizialmente per il desiderio di avere un altro figlio normale e darsi sostegno reciproco con Matteo in futuro nella gestione delle difficoltà di Simone, ma ora sconfinatamente amata semplicemente perché è un amore di bambina senza regole, perché è la terzogenita, perché è una femmina e quindi molto sveglia, perché abbiamo Simone con i suoi problemi e noi siamo stravolti, e lei lo capisce e fa di noi ciò che vuole!

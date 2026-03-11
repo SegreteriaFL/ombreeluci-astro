@@ -1,4 +1,5 @@
 ---
+
 title: Ciao Alessandro
 date: 1980-06-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 Gesù, Tu hai detto: "Venite a me Voi tutti che siete affaticati e stanchi. ed Io vi darò ristoro".
 
 Accogli nella gloria della tua pace il nostro fratello Alessandro, che ti ha servito con umiltà nel silenzio e nella rinuncia di sé;

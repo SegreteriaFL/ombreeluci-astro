@@ -1,4 +1,5 @@
 ---
+
 title: Mi hanno aperto gli occhi
 date: 2001-03-09
 author: Renata De Pascale
@@ -17,7 +18,10 @@ umap_z: 12.022367477416992
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un amico mi propose di passare una vacanza diversa in compagnia di alcuni bambini disabili e le loro famiglie: fu un'esperienza che mi cambiò radicalmente"
 ---
+
 Sono un’educatrice professionale: ho terminato gli studi nel 1989 e, dall’anno seguente, lavoro in un Centro di Riabilitazione a Roma. Qualche anno prima non pensavo che questa professione mi avrebbe scelta: dopo il liceo infatti, mi ero iscritta all’università, ma non ero soddisfatta: era il 1984, avevo vent’anni e una grande confusione in testa.
 
 Poco prima dell’estate un caro amico mi propose di passare una vacanze diversa, in compagnia di alcuni bambini disabili e delle loro famiglie. Ero titubante, ma Antonio mi rassicurò dicendo che se mi fossi trovata in difficoltà, sarei potuta tornare a casa.

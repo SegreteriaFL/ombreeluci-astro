@@ -1,4 +1,5 @@
 ---
+
 title: "Vicenza: il Centro di Formazione Professionale dell’Opera Francescana “Charitas”"
 date: 1983-06-29
 author: Sergio Sciascia
@@ -26,6 +27,7 @@ umap_y: 7.583168983459473
 umap_z: 8.581329345703125
 id_numero: "OEL-2"
 ---
+
 **Quando i ragazzi handicappati mentali escono dalla scuola dell’obbligo, bene o male che sia stato fatto, l’insegnamento finisce. E dopo? Le iniziative sono insufficienti sia per qualità che per numero. Perciò, quando ci hanno parlato del Centro di Vicenza come qualcosa di originale siamo andati subito a conoscerlo. Ve lo proponiamo perché sia modello, stimolo per aiutare a superare lo stato di passiva accettazione di quel che c’è. È possibile trovare in un centro per handicappati mentali spirito d’amore e insieme metodo scientifico?**
 Bruno è un ragazzo Down. Occhi azzurri, capelli biondi, ora serio, quasi impenetrabile, ora con la faccia illuminata in un gran sorriso.
 **“Vuoi mostrare come lavori?”**

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 156
 date: 2022-02-23
 author: Redazione
@@ -15,9 +16,11 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 ## Finalmente si torna a lavoro
 
 Cara redazione, **eccomi qui con la divisa da lavoro!** Due settimane fa il mio capo mi ha mandato un messaggio per dirmi che la mensa di Assago dove ho lavorato fino a prima del lockdown, riapriva! Sono solo 2 ore, dalle 13 alle 15 in settimane alterne, ma è un buon inizio. Ho ricominciato ieri mattina (8 novembre, ndr) ed è andata benissimo. Non ci speravo più, baciiiiii! *Nora Buccheri*
+
 
 ---
 

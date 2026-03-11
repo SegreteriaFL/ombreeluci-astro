@@ -1,4 +1,5 @@
 ---
+
 title: Isolato ma immerso nella vita
 date: 2001-12-25
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 9.7743501663208
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un Padre con 8 figli in affido in un bellissimo casolare del Podere Gugliano vicino a Trequanda, nella campagna senese"
 ---
+
 Sabato, 13 ottobre, ad un mese dall’eccidio delle Twin Towers, mio marito ed io abbiamo inaspettatamente vissuto una giornata speciale in un bellissimo casolare del Podere Gugliano vicino a Trequanda, nome esotico di un incantevolepaesedellacampagnasenese.
 
 **Ci attendeva il padrone di casa, “padre” di otto figli di varie età: il prof. Fabrizio Mori** , sconosciuto alle masse, ma notissimo agli studiosi di paleontologia in particolare, del deserto del Sahara per le sue scoperte dell'arte rupestre di dodicimila anni fa.

@@ -1,4 +1,5 @@
 ---
+
 title: So quel che non bisogna fare
 date: 1984-12-31
 author: Redazione
@@ -21,6 +22,7 @@ issue_number: OEL-8
 id_numero: "OEL-8"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando nasce un figlio handicappato è ai medici che si chiede la diagnosi, la terapia, la prognosi... Si è in cerca della verità e nello stesso tempo della speranza. Marie-Odile Réthoré, genetista, ha risposto alle domande di Ombre e Luci, forte della sua lunga esperienza come medico e come amica di molte persone handicappate e dei loro genitori
 **Si rimprovera spesso ai medici il modo con cui annunciano ai genitori l'handicap del figlio. Lei che cosa pensa in proposito?**
 Da più di quindici anni, in quanto medico genetista, mi sono trovata spesso di fronte ad uno dei doveri più dolorosi della nostra professione: annunciare ad alcuni genitori che il loro figlio non è come gli altri. E’ questo uno dei compiti più gravi imposti dalla nostra professione.

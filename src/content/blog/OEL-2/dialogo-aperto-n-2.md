@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto, n .2
 date: 1983-06-17
 author: Redazione
@@ -20,6 +21,7 @@ umap_y: 7.4805216789245605
 umap_z: 10.400856018066406
 id_numero: "OEL-2"
 ---
+
 *La rubrica **Dialogo Aperto** , è per tutto voi, lettori conosciuti e sconosciuti. Non abbiate timore di [scriverci](mailto:ombreeluci@gmail.com) - insieme ai vostri suggerimenti, commenti, critiche, apprezzamenti per la rivista - i vostri problemi o le vostre domande. Così aiuterete altri che hanno i vostri stessi problemi e aiuterete anche noi a conoscere e capire sempre più profondamente il mondo dell'handicap del quale anche noi facciamo parte da molti anni. E noi fare del nostro meglio per aiutarvi, e per farvi sentire il nostro vero interesse per quello che vivete con quanto di difficile esso comporta.*
 
 ### Che tanta gente presti ascolto

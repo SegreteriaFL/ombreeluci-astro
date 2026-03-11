@@ -1,4 +1,5 @@
 ---
+
 title: Scoprirsi unici e crescere insieme
 date: 2017-09-06
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 7.14438533782959
 issue_number: OEL-139
 id_numero: "OEL-139"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "All’istituto comprensivo “Miraglia-Sogliano” di Napoli, ha preso vita un percorso di formazione centrato sulle potenzialità della musicoterapia intesa come risorsa che, nella prospettiva di una scuola inclusiva, risponde in modo differenziato ai bisogni di tutti gli alunni e degli insegnanti, senza ricorrere a misure speciali per alunni con disabilità..."
 ---
+
 L’introduzione della musicoterapia nel contesto scuola non vuole aggiungere nuove strategie didattiche per fronteggiare l’emergenza, ma sottolineare la dimensione dialogica, nucleo del fenomeno educativo: è cercare l’incontro tra docente e discente, tra studente e studente, tra studente e classe. È l’inclusione del gruppo in un unico processo narrativo attivato dallo stesso evento-suono.
 
 Le sonorità e le dinamiche del suono, infatti, mobilitano risorse che presiedono all’apprendere. Gli insegnanti e gli alunni maturano attraverso la consapevolezza del rapporto uomo-sonorità una naturale tensione verso la ricerca di senso. Le scelte degli alunni sono reali e si basano su motivi specifici e individuali.

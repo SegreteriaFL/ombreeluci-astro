@@ -1,4 +1,5 @@
 ---
+
 title: "II barattolo di maionese e caffè"
 date: "2006-09-27"
 author: "Redazione"
@@ -14,5 +15,8 @@ has_comments: false
 tema_code: "T13"
 tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
+
+subtitle: "Un professore, davanti alla sua classe di filosofia, senza dire parola prende un barattolo grande e vuoto di maionese e procede a riempirlo con delle palle da golf..."
 ---
+
 menu 95 globale

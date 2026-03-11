@@ -1,4 +1,5 @@
 ---
+
 title: "Conoscere l'handicap: Autismo"
 date: 1989-06-16
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-26
 id_numero: "OEL-26"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Difficoltà generali riscontrate nel soggetto «autistico»
 
 **Sviluppo irregolare** , con alti e bassi (autonomia, comunicazione, socializzazione) **«Stranezze»** o deficienze di comprensione del linguaggio, di domande astratte, incomprensione del nostro comportamento sociale. **Mancanza di motivazioni** , di curiosità, di apprendimento spontaneo. **Difficoltà di generalizzare** una cosa imparata, di utilizzare le acquisizioni nei vari contesti. **Turbe del comportamento** che impediscono il processo di apprendimento (grida, stereotipie, autolesionismo). **Incomprensione del nostro mondo** complesso, astratto, troppo instabile; incapacità di far la distinzione tra l’essenziale e l’accessorio.

@@ -1,4 +1,5 @@
 ---
+
 title: Filippide - Correre insieme dal Tibet al Polo Nord
 date: 2004-03-09
 author: Huberta Pott
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.288869380950928
 umap_y: 8.221664428710938
 umap_z: 8.103760719299316
+
+subtitle: "Intervista a Nicola Pintus; un atleta, un operatore, un idealista che vuole sfidare il mondo della disabilità intellettiva"
 ---
+
 Ci eravamo conosciuti qualche settimana fa durante una trasmissione televisiva dove mi aveva fatto un’ impressione particolare. Mi è sembrato subito una persona un po’ speciale e mi è venuta voglia di conoscerlo meglio. Così è nata questa intervista. Parliamo di **Nicola Pintus** .
 
 Mi trovo un po’ in difficoltà a dire chi è e cosa fa. **È un atleta, un operatore, un idealista che vuole sfidare il mondo dell’handicap intellettivo** , un fratello, un amico, un “papà” di ben 25 ragazzi autistici o con la “sindrome X fragile” che può causare leggeri problemi nell’apprendimento fino a gravi ritardi mentali. Lui stesso si definisce un dirigente sportivo, ma si intuisce che si sente stretto in questa definizione.

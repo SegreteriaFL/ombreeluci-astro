@@ -1,4 +1,5 @@
 ---
+
 title: Dedicato ai bambini... e a tutti noi - Alice
 date: 1998-06-17
 author: Redazione
@@ -17,6 +18,7 @@ umap_x: 5.154934883117676
 umap_y: 8.043050765991211
 umap_z: 8.687920570373535
 ---
+
 Come di solito dedichiamo ai bambini alcune pagine del giornale, nelle quali raccontiamo la vita di alcuni “grandi amici” con molti disegni e brevi testi facili e piacevoli da leggere.
 
 Testi tratti da “IL LIBRO DI ALICE” di A. Sturiate, edito da Rizzoli, ed elaborati da Maria Teresa Mazzarotto. Il libro è stato presentato in OMBRE E LUCI n° 57 - 1997. Illustrazioni di Lia Goffi.

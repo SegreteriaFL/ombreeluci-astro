@@ -1,4 +1,5 @@
 ---
+
 title: Vede, sente e parla attraverso le mani
 date: 1986-03-22
 author: Nicole Schulthes
@@ -20,6 +21,7 @@ issue_number: OEL-13
 id_numero: "OEL-13"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sul grande calendario appeso alla parete, i giorni sono indicati con una piccola nave e un letto: il papà di Alberto infatti è impegnato per metà mese su un traghetto, come marittimo. Il piccolo Alberto, nato idrocefalo e sordo, dall’età di sette anni anche cieco, misura dunque il tempo così: dopo aver staccato dal calendario 15 navi, sa che il suo papà sta per tornare con lui ed è un bambino felice. Non si può aprire meglio una visita alla «Nostra casa» di Osimo. «Alberto era molto confuso e ansioso — spiega il direttore — adesso sa quando il papà non c’è o sta per tornare e l’aspetta sereno». L’episodio rappresenta bene che cosa si fa, e come, qui a Osimo:
 **autosufficienza, comunicazione, indipendenza**
 e, se possibile

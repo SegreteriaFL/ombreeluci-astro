@@ -1,4 +1,5 @@
 ---
+
 title: "Il casale delle arti e mestieri: un progetto di integrazione per ragazzi autistici"
 date: 2019-04-02
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 D
 al 2 aprile, in concomitanza con la Giornata Mondiale per la consapevolezza dell'Autismo, parte finalmente il progetto “
 [**Il casale delle arti e dei mestieri**](http://casale.cervelliribelli.it/)

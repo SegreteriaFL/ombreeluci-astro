@@ -1,4 +1,5 @@
 ---
+
 title: "Epilessia: indicazioni di primo intervento"
 date: 1985-06-29
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-10
 id_numero: "OEL-10"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Crisi parziali complesse (temporali o psicomotorie)
 
 **Durante la crisi**

@@ -1,4 +1,5 @@
 ---
+
 title: Di notte bagna
 date: 1993-09-09
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-43
 id_numero: "OEL-43"
 numero_rivista: "Ombre e Luci"
 ---
+
 Come cercare di portare il bambino, che sia disabile oppure no, a non bagnarsi durante la notte? Questo tirocinio non può essere imposto, ma solo proposto e con misure diverse. In ogni caso è un tirocinio più difficile per chi non parla e non può mostrare ciò che ha capito. Il dott. Paul Lemoine è un pediatra padre di undici figli e autore di un bellissimo libro «Trasmettere Vamore, un'educazione all ascolto de! bambino». Qui egli ci insegna quali atteggiamenti bisogna avere di fronte a questo problema. Per gli adulti il problema è diverso e probabilmente ne riparleremo.
 È
 molto difficile analizzare in due pagine un problema così complesso salvo riassumerlo in una sola parola: «sdrammatizzare». E poprio così: non bisogna sminuire il bambino per una menomazione benigna e passeggera. A parte qualche caso di malattia dove si rende necessario un trattamento medico, la «pipì a letto» (quando persiste dopo l’età di quattro anni) è frequente, ed è legata a leggeri disturbi psico-affettivi che non avranno gravi conseguenze se li si tratterà con buon senso.

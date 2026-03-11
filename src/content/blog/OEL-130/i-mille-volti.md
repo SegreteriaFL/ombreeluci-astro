@@ -1,4 +1,5 @@
 ---
+
 title: I mille volti
 date: 2015-03-19
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-130
 id_numero: "OEL-130"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ilgruppo d’arte I Mille Volti accoglie al suo interno una decina di persone, dai 27 ai 56 anni, disabili e non - un bel gruppo sociale misto quindi, come nella nostra vita di tutti i giorni… - liberamente collegate in un percorso laboratoriale di scrittura creativa in poesia e prosa.
 
 Nasce a Milano nel 1994, in occasione di una pizzata all’ASHA, un’associazione a sostegno dell’handicap sorta negli anni ’80 che ormai ha chiuso i battenti, per opera di genitori che vivevano lo stesso problema: un figlio con disabilità.
@@ -38,6 +40,7 @@ Numerose e differenti le famiglie del gruppo I Mille Volti, in cui ho visto negl
 Il sasso gettato nell’acqua disegna ormai da più di vent’anni una serie notevolissima di concentrici cerchi…
 
 *Maria Teresa Mosconi Straulino* , 2015
+
 
 ---
 

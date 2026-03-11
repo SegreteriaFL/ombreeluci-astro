@@ -1,4 +1,5 @@
 ---
+
 title: "Cosa è Fede e Luce, tre risposte"
 date: "1981-12-20"
 author: "Luis Sankalé"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Sono sempre imbarazzato quando mi domandano di spiegare che cosa è Fede e Luce. È necessario rispondere con una parola: un’associazione? un movimento? uno spirito?
 *Per me Fede e Luce è: visi che ho imparato a vedere, nomi che ho imparato a pronunciare, persone che ho imparato ad incontrare.*
 [Louis Sankalé](https://www.ombreeluci.it/author/luis-sankale/)

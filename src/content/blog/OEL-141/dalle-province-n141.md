@@ -1,4 +1,5 @@
 ---
+
 title: Dalle Province n.141
 date: 2018-03-26
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-141
 id_numero: "OEL-141"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### [Un fiume di Pace – Nord](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 
 Accompagnati da Maria, è il tema dei diversi pellegrinaggi indetti da Un Fiume di Pace da gennaio a giugno per preparare i cuori e vivere in comunione sostenendo l’Assemblea Internazionale del Libano. Il 25 Febbraio è stato il turno delle comunità della Galilea, il 15 Aprile invece quelle della Lombardia. Il 2 Giugno quelle del Veneto e tra maggio e giugno le comunità della Val’d’Aosta/Piemonte. Una provincia in preghiera intorno a tre icone: Maria sotto la croce (GV19,25-27); La resurrezione (Mt 28,1-7); Maria nel Cenacolo (Atti 1,6-14). Con l’aiuto di Gesù e dello Spirito celebreremo la comunione nella preghiera. Con l'avvio di questa serie di pellegrinaggi mi sono recata in Galilea a Gennaio. Grandissima la gioia di scoprire i luoghi del nostro Dio. Al cuore di quel viaggio la conoscenza delle comunità Ulivo di Galilea di Eilaboun e Myriam Bowardi di Shifamer. Molta gioia in questi incontri e la richiesta di non essere lasciati soli in quella terra cosi particolare. Al Vescovo di Haifa ho chiesto di guidare il pellegrinaggio delle due comunità. L’incontro con le comunità ha dato la certezza che la richiesta era quella giusta, chiedevano che i nostri ragazzi fossero nel cuore della chiesa e la presenza del Vescovo era segno concreto di questo. Il 25 Febbraio il Pellegrinaggio è stato celebrato con il Vescovo. Grande gioia, grande Festa. Lo Spirito soffia.

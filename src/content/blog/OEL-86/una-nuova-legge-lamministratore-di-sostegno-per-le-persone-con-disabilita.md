@@ -1,4 +1,5 @@
 ---
+
 title: "Una nuova legge: l'amministratore di sostegno per le persone con disabilità"
 date: "2004-06-11"
 author: "Stefano Artero"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T08"
 tema_label: "Diritti, cittadinanza e società"
 categoria_menu: "Diritti"
+
+subtitle: "Abbiamo chiesto a un avvocato civilista di illustrarci la legge n. 6 del 9/1/2004 che nasce per tutelare chi, per qualsiasi ragione, ha delle limitazioni nel condurre autonomamente quelle che sono le normali incombenze della vita quotidiana"
 ---
+
 ### Una nuova legge per chi?
 
 La legge n. 6 del 9/1/2004 istituisce la figura dell’amministratore di sostegno con il compito di assistere chi “per effetto di infermità o menomazione fisica o psichica si trova nell’impossibilità anche parziale o temporanea di provvedere ai propri interessi”.

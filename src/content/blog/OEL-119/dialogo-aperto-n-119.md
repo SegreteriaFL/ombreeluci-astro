@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 119
 date: 2012-09-16
 author: Redazione
@@ -14,11 +15,16 @@ umap_z: 10.489190101623535
 issue_number: OEL-119
 id_numero: "OEL-119"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Grazie
 
 Da tempo ricevo la rivista OMBRE e LUCI che apprezzo molto per gli argomenti, le esperienze e le informazioni che propone. Essi contribuiscono alla formazione e ad allargare le conoscenze di chi legge. Le varie tematiche, nonostante siano molto impegnative e profonde, a mio avviso, sono proposte in modo chiaro e accessibile a tutti. Grazie per la dedizione e l’impegno.
 **Maria Gabriella Rinalducci**
+
+
 
 ---
 
@@ -26,6 +32,8 @@ Da tempo ricevo la rivista OMBRE e LUCI che apprezzo molto per gli argomenti, le
 
 Ho ricevuto da un po’ la lettera relativa alla richiesta di nominativi di mia conoscenza per proporre la rivista “Ombre e Luci”. Ho pensato molto alla sua richiesta perché mi sarebbe piaciuto indicare persone disponibili a riceverla, ma non riesco a proporne alcuna e ciò per due ordini di motivi: 1° – Sono avanti negli anni e pensionata e i nominativi che potrei proporre attengono ad anziani e pensionati come me ed oggi, spese in aggiunta al quotidiano non possiamo permettercele. 2° – Nella mia sfera di conoscenti relativamente giovani non ci sono famiglie particolarmente motivate ad approfondire i problemi che la rivista propone. E’ triste e doloroso dirlo, ma purtroppo quando non si è toccati direttamente si preferisce far finta che l’handicap non esista. Per quanto mi riguarda, la rivista mi piace molto (ne è prova la mia decennale fedeltà), l’aspetto con ansia e la leggo tutta e subito. Vi trovo spunti che mi fanno meditare e mi aiutano ad aprire sempre più mente e cuore alla conoscenza e alla condivisione.
 **Annamaria Russo**
+
+
 
 ---
 

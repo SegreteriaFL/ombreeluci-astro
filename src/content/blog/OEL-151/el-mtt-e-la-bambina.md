@@ -1,4 +1,5 @@
 ---
+
 title: El mätt e la bambina
 date: 2020-09-21
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 Da un lato un uomo che sembra così diverso – e che in parte probabilmente lo è; dall’altro una comunità così terribilmente umana e per questo fluttuante – che lo accoglie, lo respinge, lo riaccoglie…
 
 È ispirato alla vita del pittore e scultore Antonio Ligabue (1899-1965) *Il cuore è una selva* (Neri Pozza 2020) di [Novita Amadei](http://www.novitamadei.it/) , romanzo potente che invita a riflettere – senza pregiudizi, banalità o sentimentalismi – sul rapporto tra disagio (esistenziale e mentale), arte e senso della comunità. Non ha un nome, non ha voce, non ha una storia colui che inizialmente è solo *El mätt* , eppure all’improvviso rivelerà quel talento debordante capace di accordagli, finalmente, un’identità non più definita solo in negativo.

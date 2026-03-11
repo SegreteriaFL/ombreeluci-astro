@@ -1,4 +1,5 @@
 ---
+
 title: 5. Sono loro che ci uniscono e ci guidano
 date: 1981-12-16
 author: Redazione
@@ -17,11 +18,13 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Marzo 1980
 
 "Dobbiamo ritornare ogni volta, senza stancarci, verso la luce che riceviamo dai più piccoli e deboli, da coloro che la società rifiuta o ignora e che sono al centro delle nostre comunità. Possiamo decidere di camminare insieme perché loro sono presenti ed abbiamo acconsentito a metterci alla loro scuola."
 
 *(Mariangela Bertolini)*
+
 
 ---
 
@@ -29,11 +32,13 @@ numero_rivista: "Insieme"
 
 *Didier* *(citato da Jean Vanier in "La comunità, luogo del perdono e della festa - ed. Jaca Book 1980)*
 
+
 ---
 
 Spesso iniziamo con l'intenzione di aiutare gli altri. E poi ci accorgiamo di aver, noi, bisogno degli altri. In effetti ognuno dà e riceve. Fede e Luce ci rivela il paradosso delle Beatitudini: scoprire la forza ed il tesoro celato in ognuno, anche il più piccolo e debole.
 
 "Le membra del corpo che sembrano più deboli sono anzi più necessarie. Dio ha composto il corpo, conferendo maggior onore a ciò che ne mancava, perché non vi fosse disunione nel corpo, ma anzi le varie membra avessero cura le une delle altre." (I Corinti 12, 22-25)
+
 
 ---
 
@@ -44,6 +49,7 @@ Perché la persona handicappata è rifiutata? Le ragioni sono parecchie, il fatt
 Invece, colui che viene rifiutato può divenire fonte di salvezza, di unità, di pace. E' fonte di salvezza perché ci trasforma. In vece di essere persone che vogliono avanzare, guadagnare soldi e essere catturate da un senso di normalità, noi possiamo scoprire, grazie a colui che è rifiutato, un'altra cosa, cioè che lui cambia il nostro cuore. Così ci porta un messaggio, ed anche la gioia. Ci fa scoprire un nuovo senso della vita, non nell'azione politica, ma nell'incontro, nell'impegno comunitario, nella comunione dei cuori e nella compassione.
 
 Non è facile entrare in relazione autentica con la persona handicappata; può darsi che ci cambi, ma è necessario che i semi del cambiamento siano già presenti dentro di noi. Ed è qui che si ritrova, contemporaneamente in lui e in noi, questo bisogno di Gesù, delle beatitudini, dello Spirito Santo. È, in fondo, Gesù che trasforma i nostri cuori attraverso le mani ed il volto della persona handicappata.
+
 
 ---
 

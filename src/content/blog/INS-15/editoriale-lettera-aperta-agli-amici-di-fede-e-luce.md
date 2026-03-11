@@ -1,4 +1,5 @@
 ---
+
 title: Editoriale - Lettera aperta agli amici di Fede e Luce
 date: 1977-03-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.22806167602539
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "Non lasciare indietro nessuno sulla strada che porta verso la luce"
 ---
+
 Grazie Signore; è la prima volta che un ragazzo ha cantato e suonato una canzone tutta per me. La musica mi è piaciuta, le parole io le ho capite poco, ma ai miei genitori avrebbero fatto tanto piacere:
 
 *"È una bella mattina, ed è qui con noi una bella bambina; è festa oggi, ed è venuta a mangiare con noi M., una simpatica bambina." *

@@ -1,4 +1,5 @@
 ---
+
 title: "Eredità e figli disabili: il notaio risponde"
 date: "2009-03-08"
 author: "Laura Nardini"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: OEL-105
 id_numero: "OEL-105"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Sottoponiamo all’attenzione di Marina Fanfani, notaio in Roma, il seguente caso per ricevere il suo parere"
 ---
+
 *La famiglia Rossi è composta da due genitori anziani e tre figli di cui il maggiore Francesco è portatore di una grave disabilità intellettiva e due fratelli minori: uno sposato con figli e quindi patrimonialmente indipendente, a differenza dell’altro che vive a casa con la famiglia.
 
 La famiglia Rossi è proprietaria di un bene immobile, dove vive, oltre a beneficiare di alcune piccole rendite finanziarie.

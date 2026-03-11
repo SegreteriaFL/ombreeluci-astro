@@ -1,4 +1,5 @@
 ---
+
 title: Una grande profezia
 date: 1986-06-22
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Non me ne sono più andato
 
 Sono stato chiamato a

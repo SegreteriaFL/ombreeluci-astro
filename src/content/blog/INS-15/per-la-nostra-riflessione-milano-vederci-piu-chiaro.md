@@ -1,4 +1,5 @@
 ---
+
 title: "Per la nostra riflessione: Milano, vederci più chiaro"
 date: "1977-09-20"
 author: "Redazione"
@@ -14,6 +15,7 @@ issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
 ---
+
 Penso che Milano sia stato per Fede e Luce un passo avanti, non solo per gli amici incontrati, ma anche perché abbiamo capito un po' meglio quello che cerchiamo di vivere: vederci piu chiaro!
 
 Anche se non è facile fare "un processo alla notte", non è forse questo il solo mezzo per un cammino di crescita?

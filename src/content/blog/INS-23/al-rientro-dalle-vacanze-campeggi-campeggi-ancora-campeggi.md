@@ -1,4 +1,5 @@
 ---
+
 title: Al rientro dalle vacanze… campeggi, campeggi, ancora campeggi
 date: 1979-12-16
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 11.46685791015625
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Lettere dal cuore di Fede e Luce: voci diverse raccontano l'esperienza trasformativa dei campi estivi, dove la convivenza tra persone con e senza disabilità crea una comunità autentica fatta di amicizia, condivisione e crescita spirituale"
 ---
+
 ## **Da cuneo**
 
 *Carissimi Mario e Betty,* *con un po' di ritardo rispondo alla vostra lettera, che, lo voglio dire subito, mi ha fatto un immenso piacere.* *Voi mi dite GRAZIE per quello che ho dato e ho fatto; ma tutto ciò che ho dato o ho fatto non è nulla in confronto a quello che il Signore mi ha dato attraverso voi e attraverso tutto il gruppo. * *Sono cambiate molte cose dopo il campeggio, in me: innanzi tutto vedo il gruppo sotto un altro punto di vista: ora non è più il "gruppo" ma sono gli amici con cui mi trovo il sabato. Ora Paola, Stefano, Maria-Rosa, Patrizio non sono i bambini che dovevo guardare, ma sono gli amici con cui scherzare, giocare, o parlare seriamente.* *Questo per me, vuol dire molto, perché ho sempre avuto pochi amici in vita mia.* *Quando sono entrata a Fede e Luce, poi, ero molto esaltata: vedevo tutto rose e fiori e cose del genere; in campeggio, mi sono accorta che ciascuno di noi ha i propri difetti e pregi, e lo stesso movimento ha difetti e difficoltà. Per questa ragione ora apprezzo finalmente quale è il gruppo, e per la prima volta dal novembre scorso, mi sento una vera componente del gruppo. * *Quando sono tornata dal campeggio mi sarei messa a piangere: dicevo al Signore che non era giusto e che non volevo tornare alla mia vita di ogni giorno. Poco a poco però ho capito quello che voleva dirmi: dovevo portare il messaggio di Fede e Luce nella mia vita di ogni giorno. * *Ecco è finito il mio discorso serio e concludo la mia lettera con un grosso saluto alla vostra "matta" famiglia.* *Ciao.*
@@ -40,6 +44,8 @@ Una volta siamo partiti all'alba, o quasi, per raggiungere il santuario più alt
 Il clima di tutto il campeggio è sempre stato gioioso e se sorgeva qualche difficoltà veniva subito chiarita e questo ha contribuito molto alla buona riuscita del nostro vivere insieme. Al momento del distacco è giunta la proposta di prolungare il soggiorno, ma purtroppo non è stato possibile. Ma la carica ricevuta in quei giorni ci ha già lanciato in una serie di attività.
 
 È già in programma una castagnata e molte altre cose ancora. Vi terremo informati e se qualcuno vuole venire alla Casetta sappiate che la porta è sempre aperta... Ciao a tutti. **Mario**
+
+
 
 ---
 

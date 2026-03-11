@@ -1,4 +1,5 @@
 ---
+
 title: La rivoluzione del coltello
 date: 2022-10-17
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 7.973860740661621
 issue_number: OEL-159
 id_numero: "OEL-159"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Storia dell'Albergo Etico di Asti e di come gira il mondo"
 ---
+
 Lochef Antonio De Benedetto vuole rivoluzionare il mondo attraverso il cibo. E il mondo di Nicola, Mirco, Jessica, Nicolò e altri, lo ha decisamente capovolto. Lo racconta un bel film documentario distribuito recentemente in alcune sale cinematografiche italiane: *Le ricette dello chef Antonio per la rivoluzione* con la regia di Trevor Graham. Una produzione italo-australiana perché l’idea dell’ [Albergo Etico](https://www.albergoetico.it/) è arrivata pure nelle Blue Mountains dell’emisfero australe e lì hanno pensato bene che la sua storia dovesse essere raccontata e fare il giro del mondo.
 
 Il film narra circa un anno di esperienza di quei ragazzi e ragazze sopra nominati nel primo Albergo Etico avviato nel centro storico di Asti. **Un luogo all’insegna dell’ospitalità, in grado di sostenersi economicamente, con circa il 60% di persone con disabilità intellettiva impiegate al suo interno come personale di cucina, camerieri e addetti alle pulizie delle stanze o alla reception.** Persone che hanno vissuto la ricerca di un lavoro quasi come un «chiedere l’elemosina» ricorda Jessica, una delle cameriere con disabilità protagoniste. Qui, invece, il lavoro «è Antonio che ce lo offre! E anche se a volte è severo, io sono contenta. Sono benvoluta».

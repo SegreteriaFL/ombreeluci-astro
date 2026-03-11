@@ -1,4 +1,5 @@
 ---
+
 title: "«Come i cerchi nell'acqua»"
 date: 1986-12-26
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-16
 id_numero: "OEL-16"
 numero_rivista: "Ombre e Luci"
 ---
+
 **Ecco un libro che vale davvero la pena di leggere perché autentico, significativo e utile anche sotto il profilo scientifico.**
 L’autrice, Presidente della
 [Cooperativa «Intervento»](http://www.ombreeluci.it/1986/vederli-migliorare/)

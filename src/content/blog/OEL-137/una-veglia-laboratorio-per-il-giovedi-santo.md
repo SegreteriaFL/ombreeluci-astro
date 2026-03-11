@@ -1,4 +1,5 @@
 ---
+
 title: "Una veglia-laboratorio per il Giovedì Santo"
 date: "2017-03-16"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-137
 id_numero: "OEL-137"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Intenti, passaggi e segni della veglia-laboratorio dello scorso anno, organizzata dalla Comunità La Vigna di Fede e Luce"
 ---
+
 Il testo “Eterna è la sua Misericordia” (ed. Paoline, 2016) del monaco benedettino Fratel Michael Davide è stato il punto di riferimento per la nostra veglia. **Il modo in cui Fratel Michael Davide interroga la Parola di Dio promuove una riflessione personale, favorisce una personale “presa di controllo” nei confronti della Parola e genera consapevolezza.
 
 Ma il testo di Fratel Davide non bastava. L’esperienza che a Fede e Luce dà molta importanza ai gesti, alla relazione di scambio e al silenzio fecondo, ha spinto ad una fusione dei linguaggi perché la veglia, alla quale avrebbero aderito molte altre persone, fosse un momento di ascolto ma anche di azione.

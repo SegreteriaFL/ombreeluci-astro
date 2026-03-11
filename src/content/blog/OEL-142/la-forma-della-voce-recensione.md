@@ -1,4 +1,5 @@
 ---
+
 title: La Forma della Voce - Recensione
 date: 2018-06-30
 author: Matteo Cinti
@@ -15,6 +16,7 @@ issue_number: OEL-142
 id_numero: "OEL-142"
 numero_rivista: "Ombre e Luci"
 ---
+
 Èuscito l’anno scorso al cinema ed è da poco disponibile in dvd/blu-ray, La Forma della Voce è un film d’animazione giapponese del 2016. Tratto dal fumetto di Yoshitoki Ōima, la storia vede protagonisti un ragazzo universitario, Shoya, e una coetanea sorda, Shoko. I due si sono conosciuti alle medie, dove Shoko ha subito per diversi anni atti di bullismo proprio per la sua sordità, alcuni perpetrati dallo stesso Shoya, al tempo non in grado di comprendere la disabilità della compagna.
 
 Il film è un esempio non comune di sensibilizzazione alla disabilità nel filone dell'animazione per adolescenti. Il suo miglior pregio è l'essere riuscito a raccontare il disagio non solo della protagonista sorda ma anche di tutti i suoi amici, offrendo spunti di riflessione anche sul bullismo scolastico. L'integrazione di una compagna di classe come Shoko non è così ovvia: c'è da fare un passo ulteriore – non sempre facile, ma sicuramente possibile – per raggiungere la giusta sintonia. Ed è proprio questo percorso, raccontato con notevole intensità emotiva, a fare da nucleo al film.

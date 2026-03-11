@@ -1,4 +1,5 @@
 ---
+
 title: Il senso di quel che facciamo
 date: 2025-11-01
 author: Cristina Tersigni
@@ -16,7 +17,10 @@ umap_z: 12.88422966003418
 issue_number: OEL-171
 id_numero: "OEL-171"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "A colloquio con Antonio Piscitelli su formazione e comunità in Campania"
 ---
+
 «Quando l’8 settembre del 2024 abbiamo incontrato il vescovo Franco Alfano, e con lui, le persone invitate dalla Pastorale della Salute della Diocesi di Castellammare - Sorrento, abbiamo raccontato cosa fosse [*Fede e Luce*](https://www.ombreeluci.it/fede-e-luce/) e fatto vivere ai genitori, alle mamme, ai ragazzi presenti la tipica giornata di un nostro incontro. Poi siamo andati a pranzo con la Caritas, mischiati con tutti gli altri poveri. Senza saperlo, ho trovato famiglie che seguo come pediatra e che non sapevo vivessero questa difficoltà… Ecco, ho avuto l’ennesima conferma di una rinnovata consapevolezza: **la comunità mi ha fatto porre attenzione, come un faro, anche ad altre situazioni, e questo mi ha interrogato molto** ». Antonio Piscitelli è vice coordinatore delle cinque comunità di *Fede e Luce* della Campania. La sua esperienza accanto alle persone con disabilità cominciava circa trent’anni fa quando, durante il servizio civile ad Acerra, collaborava con le [Religiose di Nazareth](https://www.ombreeluci.it/2025/come-vitamina-tra-la-gente/) nell’accoglienza di minori a rischio e giovanissimi con disabilità.
 
 Tra quelle mura aveva preso vita, una decina di anni prima, anche una comunità di *Fede e Luce* con suor Mariella e suor Ada: un esperimento che ha dato i suoi frutti e che, anche quando dovettero andar via, continua a operare oggi non solo nella comunità ma anche nella cooperativa L’Arcobaleno.

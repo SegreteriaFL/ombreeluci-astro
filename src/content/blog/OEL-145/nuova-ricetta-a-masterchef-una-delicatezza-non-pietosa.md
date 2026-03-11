@@ -1,4 +1,5 @@
 ---
+
 title: "Nuova ricetta a MasterChef: una delicatezza non pietosa"
 date: 2019-01-27
 author: Maria Novella Pulieri
@@ -15,6 +16,7 @@ issue_number: OEL-145
 id_numero: "OEL-145"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ho visto per caso la puntata di Masterchef andata in onda il 21 febbraio 2019 su Sky. Mi sono fermata a guardarla perché è iniziata con la presentazione di Emanuele, Giacomo, Giovanni e Luca, ragazzi con sindrome di Down, appassionati di cucina. Per loro cucinare vuol dire trasmettere “amore e amicizia”. Emanuele, Giacomo, Giovanni e Luca hanno gareggiato con le due brigate. **È stato molto bello vedere come i ragazzi si siano sentiti subito parte del gruppo, lavorando con grande passione.** Quando lo chef Barbieri ha chiesto a Giovanni “come va?”, lui ha risposto: “Bene mi sento come loro!”. Barbieri ha controbattuto esclamando: “Ma tu sei come loro!”.
 
 **L’occasione del pranzo è stata quella di festeggiare i quarant’anni dell’Aipd ( [Associazione Italiana Persone Down](https://www.aipd.it/site/) ),** alla presenza di ben sessanta commensali. I partecipanti hanno servito i piatti a tavola, dopo che altri ragazzi dell’associazione avevano pensato all’allestimento e all’apparecchiatura, con l’aiuto divertente del giudice Jo Bastianich. Intervistati, hanno spiegato che quando servono i commensali sono sempre sorridenti, cercano di essere rapidi nel servizio e di far mangiare tutti insieme per non scontentare nessuno. La puntata si è conclusa con una pioggia di coriandoli rossi e abbracci tra concorrenti e ragazzi.

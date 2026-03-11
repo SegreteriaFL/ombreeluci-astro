@@ -1,4 +1,5 @@
 ---
+
 title: E adesso viene il bello – Newsletter n. 35
 date: 2021-08-14
 author: Redazione
@@ -15,9 +16,11 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Paralympian* del collettivo giapponese GOO CHOKI PAR è il poster ufficiale delle Paralimpiadi di Tokyo. Il trio di artisti ha realizzato anche [altri 22 poster](https://gcp.design/works/paralympic/) , uno per ogni disciplina paralimpica.
 
 ### Dall'archivio
+
 
 ---
 
@@ -25,11 +28,13 @@ Con il ricordo ancora vivido delle Olimpiadi appena concluse, è inevitabile rif
 
 ### Da vedere
 
+
 ---
 
 Spesso le biografie degli atleti paralimpici nascondono storie notevoli e il film di Chi-Man Wan non fa eccezione: *Zero to Hero* , biografia del campione paralimpico hongkonghese So Wa Wai, racconta una storia di impegno, forza di volontà e ispirazione. Per prepararci alle Paralimpiadi di Tokyo, previste dal 24 agosto al 5 settembre, Claudio Cinus [ha recensito il film per noi](https://www.ombreeluci.it/2021/zero-to-hero-la-storia-di-so-wa-wai/) .
 
 ### Il blog di Benedetta
+
 
 ---
 

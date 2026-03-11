@@ -1,4 +1,5 @@
 ---
+
 title: "Vi ricordiamo perché Ombre e Luci"
 date: "1985-06-30"
 author: "Mariangela Bertolini"
@@ -15,6 +16,7 @@ issue_number: OEL-10
 id_numero: "OEL-10"
 numero_rivista: "Ombre e Luci"
 ---
+
 Perché un’altra rivista? Ce ne sono già troppe!
 Questa frase ce la siamo sentita dire quando si pensava di far uscire *Ombre e Luci*. E abbiamo esitato un po’, dubbiosi che ne valesse la pena.
 A distanza di due anni, gli abbonamenti aumentano, ci vengono da ogni parte d’Italia, da piccoli paesi e da città. Questo ci incoraggia a proseguire gli scopi che ci eravamo prefissi. È bene ricordarli.

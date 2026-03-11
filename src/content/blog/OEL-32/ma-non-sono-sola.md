@@ -1,4 +1,5 @@
 ---
+
 title: Ma non sono sola
 date: 1990-12-27
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-32
 id_numero: "OEL-32"
 numero_rivista: "Ombre e Luci"
 ---
+
 M
 i è sempre piaciuto scrivere, osservare e raccontare la vita della gente,ma quando il soggetto principale sono io tutto diventa più complicato. È così difficile esprimere in due cartelle dattiloscritte la personalità e il carattere di un individuo. Soprattutto quando si parla a qualcuno che non si vede. Vorrà dire che farò finta di scrivere a degli amici di penna con i quali l’unico contatto è quello epistolare. Io sono nata con un gravissimo deficit e questa situazione ha completamente influenzato e sconvolto l’esistenza della mia famiglia e ovviamente la mia. I miei genitori si sono trovati a doversi occupare della loro creatura che sarebbe per sempre e totalmente dipesa fisicamente da loro. È immaginabile quali sentimenti di angoscia e frustrazione si sono impossessati di loro. Nonostante tutto sembrasse irrecuperabile loro hanno creduto in me e mi hanno dato la possibilità di studiare fino alla laurea e di trascorrere una vita abbastanza simile a quella dei miei coetanei. Di tutto questo sono loro immensamente grata e riconoscente.
 > Ho avuto la fortuna di non subire il pietismo e la condiscendenza che tanti handicappati ricevono.

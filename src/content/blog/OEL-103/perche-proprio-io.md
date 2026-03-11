@@ -1,4 +1,5 @@
 ---
+
 title: "Perché proprio io?"
 date: "2008-09-03"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-103
 id_numero: "OEL-103"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Disabile dalla nascita, Cécile durante l'adolescenza si rende conte che la usa spasticità la rende diversa dagli altri"
 ---
+
 Mi ricordo molto bene il giorno in cui ho veramente preso coscienza del mio handicap. Mi trovavo nel giardino della ricreazione e una ragazza mi ha spinta in mezzo agli zainetti ammucchiati per terra, per vedere se sarei riuscita a rialzarmi. Tutti mi guardavano. Ero piena di vergogna. All’improvviso, la mia identità, il mio “io profondo”, ricevevano un colpo.
 
 Da bambina, consideravo il mio handicap come una diversità tra le altre anche se era dura da portare: semplicemente non potevo fare questo o quello. Ma in quel momento ho cominciato a realizzare pienamente che non ero come gli altri.

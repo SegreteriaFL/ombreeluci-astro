@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.26
 date: 1989-06-16
 author: Redazione
@@ -21,6 +22,7 @@ issue_number: OEL-26
 id_numero: "OEL-26"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Torneo Fede e Luce a Roma
 
 Sabato 20 maggio si sono disputate le due partite finali del torneo di calcetto *Fede e Luce* tra le squadre di sette nostre comunità più la squadra dell'Ulivo ( [*Arca*](http://www.ombreeluci.it/1987/chicco-casa-famiglia-dellarche/) di Ciampino). Ogni sabato, dai primi di Marzo, pioggia permettendo una o due coppie di squadre si incontravano su un campetto di calcio messo a disposizione da una parrocchia — un po' polveroso, ma grazie per l'ospitalità! Così, di sabato in sabato, con il calendario del torneo che si riempiva di risultati e qualche battibecco o scontro in campo, con il tifo più o meno caloroso e «colorato» delle comunità per i propri giocatori e con qualche goccia di pioggia, siamo giunti al grande giorno. Le finali avremmo voluto disputarle in tempo per fare la premiazione durante la *Festa della Primavera* ... se non fosse stato per la pioggia. Ma forse meglio così: abbiamo potuto incontrarci e far festa insieme una volta di più!

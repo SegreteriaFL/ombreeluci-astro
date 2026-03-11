@@ -1,4 +1,5 @@
 ---
+
 title: Momenti misteriosi
 date: 2014-12-15
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 12.150409698486328
 issue_number: OEL-128
 id_numero: "OEL-128"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Nella gioia della nascita, una nube si pone davanti; hai partorito un figlio, aspettato, sperato, amato. Momento misterioso, pieno di sofferenza e di gioia. Ma la gioia si offusca: non è come avevi atteso, sperato, amato. È diverso, è lì che ti guarda e aspetta..."
 ---
+
 Questo articolo è uscito nel [numero 20 di Insieme nel 1979](https://www.ombreeluci.it/project/insieme-n-20-bollettino-fede-e-luce-1979/)
 > “Turbata da quelle parole, ella si domandava cosa potesse significare un tale saluto” (Lc. 1-29)
 

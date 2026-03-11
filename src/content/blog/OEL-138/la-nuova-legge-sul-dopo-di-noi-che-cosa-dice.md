@@ -1,4 +1,5 @@
 ---
+
 title: "La nuova legge sul \"Dopo di Noi\": che cosa dice?"
 date: 2017-06-28
 author: Annik Donelli
@@ -14,7 +15,10 @@ umap_z: 7.037818908691406
 issue_number: OEL-138
 id_numero: "OEL-138"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una buona legge nei principi e nelle finalità ma, visto anche il decreto attuativo del 23/11/2016, risulta manchevole nel fornire sufficienti strumenti di realizzazione"
 ---
+
 La Legge n. 112/2016 “Disposizioni in materia di assistenza in favore delle persone con disabilità grave prive del sostegno familiare”, cosiddetta “Legge del Dopo di Noi” è una buona legge nei principi e nelle finalità ma, visto anche il decreto attuativo del 23/11/2016, risulta manchevole nel fornire sufficienti strumenti di realizzazione.
 
 Dobbiamo premettere che questa legge non vuole fare piazza pulita di tutto l’esistente, si possono quindi tranquillizzare quei genitori che, avendo già inserito i propri figli in soluzioni abitative diverse da quelle previste da questa legge, temevano per il loro futuro.

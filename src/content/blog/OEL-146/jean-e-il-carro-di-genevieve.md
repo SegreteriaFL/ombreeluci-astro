@@ -1,4 +1,5 @@
 ---
+
 title: "Jean e il carro di Geneviève"
 date: "2019-07-27"
 author: "Giulia Galeotti"
@@ -15,6 +16,7 @@ issue_number: OEL-146
 id_numero: "OEL-146"
 numero_rivista: "Ombre e Luci"
 ---
+
 Per me Jean ha contato tanto. Veramente tanto. Era come un padre spirituale». Sono al Luna Park di Ostia, un posto molte volte incrociato ma mai veramente visto: se vi sono entrata per la prima volta, è grazie a Jean. Perché è qui che vive una sua grande amica, Geneviève Jeanningros. Francese, come lui ha profondi occhi celesti che si illuminano tutti quando sorride. E per fortuna questa Piccola Sorella di Gesù sorride spesso.
 
 Dopo aver festeggiato nel 2018 i cinquant’anni di professione, la scorsa Pasqua suor Geneviève ha brindato al mezzo secolo di vita trascorso con gli artisti degli spettacoli itineranti tra Francia, Svizzera e infine Italia. Oggi lavora e vive al Luna Park di Ostia, con due sorelle – Anna Amelia (la prima suora giostraia della Penisola!) ed Emma – e dodici famiglie tra casette, carri e roulottes.

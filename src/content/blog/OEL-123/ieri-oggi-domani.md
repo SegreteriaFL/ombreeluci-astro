@@ -1,4 +1,5 @@
 ---
+
 title: “Ieri, oggi, domani…”
 date: 2013-09-11
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 7.201132774353027
 issue_number: OEL-123
 id_numero: "OEL-123"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La mamma di Omar, un ragazzo con gravi disabilità, racconta l'esperienza scolastica del figlio. Ha scritto anche un libro di storia sottoforma di favola"
 ---
+
 Sono la mamma di Omar,un ragazzo di 27 anni affetto da idrocefalo, distonia, ipovedenza, epilessia e ritardo mentale.
 
 Quando aveva 4 anni si è presentato il problema della scuola e poichè da poco tempo erano state eliminate le scuole speciali, l’inserimento dei disabili in quelle normali era ancora in fase sperimentale.
@@ -36,6 +40,8 @@ Ora sono riuscita a pubblicarlo e spero che possa aiutare un pò anche altri bam
 Dopo le medie, e anche a causa di queste, ho deciso di non iscriverlo alle scuole superiori che avrebbero creato probabilmente più problemi di quelli che avrebbero risolto. Ho optato per un centro diurno che segue più o meno gli orari della scuola e dove Omar è seguito da personale competente e disponibile, dove frequenta dei laboratori e ha tanti amici che per lui sono la cosa più importante. 
 
 *Letizia Conversi* , 2013
+
+
 
 ---
 

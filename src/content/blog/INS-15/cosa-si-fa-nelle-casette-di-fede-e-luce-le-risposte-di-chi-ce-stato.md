@@ -1,4 +1,5 @@
 ---
+
 title: "Cosa si fa nelle \"casette\" di Fede e Luce? Le risposte di chi c'è stato"
 date: "1977-09-20"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "Un'iniziativa che ha riscosso molto successo quest'anno a Roma va sotto il nome di Casetta e che Guenda e Manu <a href=https://www.ombreeluci.it/1977/come-nata-la-prima-casetta-fede-e-luce-storie-di-pennelli-e-appendiciti/>hanno presentato nel numero di Insieme dello scorso autunno</a>"
 ---
+
 In due locali gentilmente messi a disposizione dall'Istituto Nazareth, i nostri ragazzi e gli amici si sono incontrati per trascorrere insieme due domeniche al mese. Guenda organizza con qualche giorno di anticipo la giornata, cercando di attuare con una certa rotazione dei ragazzi, alcuni dei quali sono stati invitati più frequentemente (altri purtroppo meno, per esigenze di spazio) soprattutto in presenza di particolari esigenze familiari. Comunque sono stati una cinquantina i nostri figli chiamati a trascorrere almeno una giornata alla "casetta" e circa altrettanti sono diventati gli amici, i quali sono andati via via aumentando di numero dall'iniziale gruppetto di giovani entusiasti.
 
 ### Cosa si fa alla "casetta"?

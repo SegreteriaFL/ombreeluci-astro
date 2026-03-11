@@ -1,4 +1,5 @@
 ---
+
 title: Due fratelli e la brigata inglese
 date: 2020-06-12
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 Venti puntate di sei minuti ciascuna per *Lampadino e Caramella nel Magiregno degli Zampa* , cartone animato di Rai Yoyo rivolto a bambini dai 2 ai 6 anni. Realizzato dalla società romana Animundi, la particolarità di questo cartone è di essere pensato per tutti i bambini. Grazie infatti alla collaborazione con strutture specializzate nel sostegno alle diverse disabilità sensoriali e a una serie di espedienti, *Lampadino e Caramella* può essere seguito anche dal piccolo pubblico non vedente, non udente o con disturbi dello spettro autistico. La voce narrante, i sottotitoli strutturati con specifiche codifiche e gli interpreti nella lingua dei segni – incorporati nella narrazione come se fossero dei fumetti – rendono questo cartone animato fruibile da un pubblico realmente ampio. Si rivolge a chi ha difficoltà, e a chi non ne ha, insegnandogli a comprendere – nella più assoluta naturalezza – che esistono anche altri linguaggi. Altri codici e altre prospettive.
 
 Nelle loro avventure i due fratellini protagonisti sono accompagnati dal cagnolino Zampacorta, che li accoglie e li guida nel Magiregno dove vivono animali antropomorfi di ogni specie. Uno di loro, il leone direttore d’orchestra Gio Maestri, è stato doppiato dal compositore e pianista Giovanni Allevi, con cui – oltre alla voce – il leone Gio Maestri condivide anche la capigliatura.

@@ -1,4 +1,5 @@
 ---
+
 title: Le mollette di Roberto
 date: 2006-03-30
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.780779838562012
 umap_y: 8.348677635192871
 umap_z: 8.57849407196045
+
+subtitle: "Valeria intervista Roberto sulla sua esperienza a Fede e Luce"
 ---
+
 **Nome?**
 Roberto
 **Anni?**

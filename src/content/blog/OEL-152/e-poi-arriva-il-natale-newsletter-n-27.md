@@ -1,4 +1,5 @@
 ---
+
 title: E poi arriva il Natale – Newsletter n. 27
 date: 2020-12-15
 author: Redazione
@@ -15,7 +16,9 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### OL incontra...
+
 
 ---
 
@@ -23,17 +26,20 @@ Parte dagli anni in cui è stata scout e arriva fino all’ultima pagina di una 
 
 ### La riflessione
 
+
 ---
 
 «Sono passati alcuni giorni dalla Giornata Mondiale delle Persone con Disabilità e io sono ancora disabile. Le parole sono finite, i riflettori si sono spenti, così come le luci delle telecamere, ma noi continuiamo a fare i conti con le nostre abilità diverse e con tutti gli ostacoli che questa società non rimuove o, peggio, ci mette davanti»: chirurgica e acuta come sempre, Laura Coccia [riflette sul diritto allo studio](https://www.ombreeluci.it/2020/e-il-diritto-allo-studio/) per le persone con disabilità, con particolare attenzione all’università. Salite impervie anche qui, ma anche qui la meraviglia della conquista – trovandosi, ad esempio, tra la neve a Lipsia durante l’Erasmus.
 
 ### Il libro del mese
 
+
 ---
 
 Una figlia alla ricerca del padre: un giorno Marta Barone trova uno scatolone, e un muro di domande a cui deve trovare risposta. Per farlo, incappa (anche) nella storia di Villa Azzurra, il tristemente celebre manicomio minorile di Torino. Per noi, e per Giulia Galeotti [che lo recensisce](https://www.ombreeluci.it/2020/quel-pezzo-di-storia-che-non-puo-mancare/) , *Città sommersa* (Bompiani 2020) è il libro del mese. «Sofferto, vivo, stupendo».
 
 ### E poi arriva il Natale
+
 
 ---
 
@@ -43,6 +49,7 @@ Ed è con [una densa riflessione](https://www.ombreeluci.it/2001/e-si-accende-un
 
 ### 0-13
 
+
 ---
 
 https://youtu.be/BTLdbYpiYRc
@@ -50,6 +57,7 @@ https://youtu.be/BTLdbYpiYRc
 Riccardo (7 anni) e Francesco, il suo amichetto speciale
 
 ### Il blog di Benedetta
+
 
 ---
 
@@ -59,11 +67,13 @@ La situazione è questa. Io con il computer sono una scheggia e posso fare il si
 
 ### Il post del mese
 
+
 ---
 
 > Il covid è maledetto e fa danni gravissimi, incalcolabili. Ieri mattina si è portato via anche il grande Lucio Moderato,... Pubblicato da [Elio e le Storie Tese](https://www.facebook.com/elioelestorietese/) su [Venerdì 11 dicembre 2020](https://www.facebook.com/elioelestorietese/posts/10159530805434617) 
 
 ### Vita Fede e Luce
+
 
 ---
 

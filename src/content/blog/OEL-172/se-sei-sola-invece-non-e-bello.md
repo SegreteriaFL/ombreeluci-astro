@@ -1,4 +1,5 @@
 ---
+
 title: "Se sei sola invece non è bello"
 date: "2025-08-18"
 author: "Benedetta Mattei"
@@ -14,7 +15,10 @@ categoria_menu: "Relazioni"
 issue_number: OEL-172
 id_numero: "OEL-172"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Benedetta racconta la sua estate, tra lavoro, colleghi e amici"
 ---
+
 Mi piace lavorare come cameriera e pure altro al ristorante. Però quando sono in vacanza a Castiglione della Pescaia sono in vacanza. Ma qualche volta **aiuto molto volentieri le mie amiche e i miei amici** ai ristoranti al mare. Ma c’è un gran bel però. Cioè, io però non voglio assolutamente essere pagata. Io lo faccio perché sono amica e perché è come il tirocinio. Con niente soldi.
 
 Lavo i bicchieri e li metto a posto. E poi sistemo le posate, la forchetta e il coltello, dentro il tovagliolo così possono mettere tutto a tavola e apparecchiare bene. Lo faccio molto volentieri e mi diverto. Anche a casa lavo i piatti, i bicchieri e le posate. Pure le pentole. Poi asciugo e metto a posto.

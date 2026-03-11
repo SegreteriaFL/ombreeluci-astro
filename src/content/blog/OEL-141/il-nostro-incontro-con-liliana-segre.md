@@ -1,4 +1,5 @@
 ---
+
 title: Il nostro incontro con Liliana Segre
 date: 2018-03-26
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 13.085962295532227
 issue_number: OEL-141
 id_numero: "OEL-141"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Giulia Galeotti ricorda la testimonianza di Liliana Segre all'incontro internazionale di Fede e Luce ad Assisi nel 2005"
 ---
+
 Era un sabato pomeriggio di molti anni fa, il 2005 per la precisione. **Tutta Fede e Luce era confluita ad Assisi per ricordare l'anniversario della nascita italiana del movimento** . Era, se non ricordo male, un palazzetto dello sport, o comunque un grandissimo impianto sportivo capace di ospitarci tutti. Balli, canti, spettacoli, parole... Secondo alcuni, troppe parole. Troppi discorsi. Troppe testimonianze per un pubblico non capace di tenere a lungo l'attenzione. Non mi trovai allora d'accordo con queste critiche perché quel che successe ebbe, a mio avviso, dell'incredibile.
 
 Io ero con Flaminia, Minni per gli amici, due immensi occhioni chiari e una voglia irrefrenabile di camminare. Quindi, come da copione, quel week-end umbro lo passammo in marcia. **Camminavamo, ben sincronizzate in corpo e spirito, anche in quel pomeriggio di sole e di parole** . Non ricordo chi introdusse l'anziana oratrice, né ricordo come venne presentata (Minni conosce mezza Fede e Luce, in tanti si avvicinavano per salutarla, baciarla e abbracciarla...), fatto sta che da principio non la ascoltai affatto. E, con me, l'immensa platea. L'oratrice, però, non parve scomporsi. Fu questo, ricordo, che attirò per prima cosa la mia attenzione. Nonostante il rumore, amplificato dall'eco, proseguiva il suo racconto con voce ferma e calda, appassionata ma serena.

@@ -1,4 +1,5 @@
 ---
+
 title: "Nessuna pietà - Che immagine trasmettono dell'handicap i mezzi di comunicazione di massa?"
 date: "2000-10-26"
 author: "Vito Giannulo"
@@ -14,7 +15,10 @@ categoria_menu: "Cultura"
 issue_number: OEL-72
 id_numero: "OEL-72"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Se lo è chiesto l’Istituto di ricerche economiche e sociali del Friuli-Venezia Giulia, che ha svolto uno studio con l’aiuto di quattro consorzi di cooperative sociali sparsi in tutta Italia"
 ---
+
 Che immagine trasmettono dell’handicap e delle persone handicappate i mezzi di comunicazione di massa?
 Se lo è chiesto l’[Istituto di ricerche economiche e sociali del Friuli-Venezia Giulia](https://www.iresfvg.org/), che ha svolto uno studio con l’aiuto di quattro consorzi di cooperative sociali sparsi in tutta Italia, ai quali credo convenga rivolgersi per ottenere il rapporto finale della ricerca, intitolato Nessuna pietà , difficile da trovare nelle librerie perché non in vendita. I siti internet dei quattro consorzi sono:
 

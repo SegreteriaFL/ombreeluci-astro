@@ -1,4 +1,5 @@
 ---
+
 title: "Perché esiste la disabilità? È Dio il responsabile del mio handicap?"
 date: "2004-06-11"
 author: "Jean Vanier"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
+
+subtitle: "Lo ha chiesto a Jean Vanier, Clelia, otto anni, colpita da una rara malattia. Ecco la risposta."
 ---
+
 Noi, esseri umani, siamo tutti differenti. La tua mamma è diversa dal tuo papà. E tu sei un’altra rispetto a tuo fratello Giovanni e a tua sorella Francesca. A scuola tu hai visto Girolamo che viene dalla Costa d'Avorio: lui ha la pelle nera. Nella tua classe poi ci sono bambini dotati per la matematica e altri per il francese. C'è anche Pierina che ha un braccio solo, vittima di un incidente di macchina con suo padre. Ha sofferto molto. Ora, certo non può giocare a pallacanestro, ma danza in modo meraviglioso. Conosci anche Claudio che Francesca ha invitato per il suo compleanno. È un pò diverso dagli altri. Fa molta fatica a parlare e a imparare. Ma anche se non è molto bravo a scuola, tutti gli vogliono bene; poiché è tanto buono e fiducioso gli altri bambini desiderano aiutarlo. Sembra aprire i cuori degli altri.
 
 È veramente triste invece che si derida Girolamo perché viene da un altro paese o Pierina o Claudio perché non sono come gli altri. Il vero problema è: “Perché alcuni rifiutano quelli che sono diversi?” In fondo noi sappiamo che siamo tutti uguali: persone umane, con un cuore fatto per amare e per essere amato.

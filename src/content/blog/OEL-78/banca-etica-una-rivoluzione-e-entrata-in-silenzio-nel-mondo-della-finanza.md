@@ -1,4 +1,5 @@
 ---
+
 title: "Banca Etica - Una rivoluzione è entrata in silenzio nel mondo della finanza"
 date: "2002-06-14"
 author: "Giovanni Mazzarotto"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Cos'è, come nasce e perché. Lo abbiamo chiesto a uno dei promotori di questo importante progetto"
 ---
+
 Da un po’ di tempo si sente parlare sempre più spesso di Banca Etica. Di che si tratta?
 La **Banca Popolare Etica** (questa è il nome esatto) è sorta tre anni (1999, N.d.R.) fa ad opera di alcune importanti associazioni cattoliche e laiche impegnate nel campo dell’assistenza e della solidarietà, dell’ambiente e della cooperazione sociale e internazionale, del tempo libero, e con l’adesione entusiasta di migliaia e migliaia di altri soci (ad oggi oltre 18.000, tra persone, associazioni, enti religiosi. Regioni, Province, Comuni, altre banche ecc.).
 La Banca Etica è una vera e propria banca**, ma si distingue da tutte le altre perché garantisce ai suoi clienti depositanti che i loro risparmi verranno utilizzati — anche sulla base delle preferenze da loro stessi indicate — esclusivamente per concedere prestiti a favore di iniziative, associazioni, enti, cooperative o anche altre imprese che, rinunciando al guadagno o comunque al guadagno fine a se stesso, realizzano progetti, in Italia e anche in paesi poveri, **a favore di persone disabili e/o disagiate o comunque a favore di una migliore qualità della vita in senso socio/sanitario e assistenziale, ambientale e/o socio/culturale**, nel rispetto dei singoli contesti. Inoltre piccoli prestiti o mutui fondiari di importo limitato sono accordati ai soci della banca per specifiche esigenze di carattere familiare (alcuni esempio di realtà finanziate [**I monaci di Lanuvio**](https://www.ombreeluci.it/2002/monaci-di-lanuvio-finanziamento-banca-etica/) e l'**[associazione Città Futura](https://www.ombreeluci.it/2002/citta-futura-un-esempio-di-finanziamento-dalla-banca-etica/)**, n.d.r).

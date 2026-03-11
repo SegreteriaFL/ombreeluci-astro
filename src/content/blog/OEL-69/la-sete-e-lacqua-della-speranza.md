@@ -1,4 +1,5 @@
 ---
+
 title: "La sete e l'acqua della speranza"
 date: 2000-03-28
 author: Marco Bove
@@ -16,7 +17,10 @@ umap_z: 8.431867599487305
 issue_number: OEL-69
 id_numero: "OEL-69"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "I genitori che curano con amore un figlio disabile diventano, senza rendersene conto, motivo di grande speranza per tante persone in difficoltà"
 ---
+
 C'è una parola nel cuore di ciascuno di noi che risuona sempre in modo profondo: è la speranza. La speranza ci sostiene quando dobbiamo affrontare la fatica o quando ci troviamo davanti a situazioni che generano in noi molta paura, la speranza ci spinge quando facciamo nuovi progetti, la speranza ci guida quando guardiamo al futuro e i nostri occhi ci chiedono di saper sognare.
 
 "La vita offre ai cristiani molti motivi di speranza. Lei ne ha individuato alcuni nell’esempio dei santi... C’è qualche motivo di speranza che viene dalla vita comune?"

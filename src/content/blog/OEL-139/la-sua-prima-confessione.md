@@ -1,4 +1,5 @@
 ---
+
 title: La sua prima confessione
 date: 2017-09-06
 author: Sophie Lutz
@@ -18,7 +19,10 @@ umap_z: 9.324041366577148
 issue_number: OEL-139
 id_numero: "OEL-139"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il perdono è ben di più della confessione, è la gioia di essere amati da Dio"
 ---
+
 Philippine è battezzata e cresimata. Tutte le domeniche fa la comunione. Più volte ha ricevuto l’unzione degli infermi. Ma **per ciò che concerne il sacramento della confessione: perplessità** .
 
 **Un amico sacerdote teologo ci aveva detto:** “Con l’unzione degli infermi, Philippine riceve il perdono di Dio. Ma, il sacramento della Riconciliazione non può riceverlo in quanto necessita della confessione.” Va bene!

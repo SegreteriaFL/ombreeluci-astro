@@ -1,4 +1,5 @@
 ---
+
 title: Mio figlio, che non voleva vedermi piangere
 date: 2021-06-24
 author: Maria Grazia Romanini
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 Mi chiamo Grazia Maria ho 77 anni e sto pensando ad **Alberto, il mio figlio speciale,** il mio bellissimo angelo che lo scorso aprile avrebbe compiuto 50 anni. Avrebbe, perché questo inverno è salito in Cielo.
 
 Cerebroleso dalla nascita e con molteplici gravi patologie, per le quali ha sofferto molto, senza autonomia motoria, **dalla sua sedia a rotelle parlava con gli occhi e distribuiva amore, cosa che ha fatto per tutta la sua vita, felice di vivere.** Il Dono che Dio ci aveva fatto e che abbiamo cercato di assistere e curare nel migliore dei modi, sempre pensando al suo bene ed alla sua serenità. Per la sua sicurezza dopo di noi, qualche anno fa abbiamo compiuto un esame accurato delle possibili soluzioni disponibili, quindi lo abbiamo gradualmente inserito nella casa famiglia [Il Carro](http://www.ilcarro.org/) dove viveva, tornando a casa da noi per quattro giorni una settimana sì ed una no; una decisione all’inizio molto sofferta, ma valida come si è poi rivelata.

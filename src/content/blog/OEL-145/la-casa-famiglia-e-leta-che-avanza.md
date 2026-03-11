@@ -1,4 +1,5 @@
 ---
+
 title: "La casa-famiglia e l’età che avanza"
 date: "2019-05-27"
 author: "Cristina Tersigni"
@@ -15,6 +16,7 @@ issue_number: OEL-145
 id_numero: "OEL-145"
 numero_rivista: "Ombre e Luci"
 ---
+
 Carla ha 65 anni. **Vive nella casa-famiglia del Carro di Roma da circa vent’anni, dopo che la sua famiglia non ha potuto più seguirla come era giusto per lei.** Carla è molto estroversa, ha la battuta pronta e una grande memoria: quando ci si incontra – anche tra una marea di gente – il saluto personale ed esclusivo con lei è un vero rito. Ti mette al corrente delle novità, fa notare il suo abbigliamento, i suoi accessori... spesso è occasione di riepilogo dei nomi di tutti i congiunti in quel momento assenti, da salutare appena possibile da parte sua. A volte anche il ricordo di familiari che non ci sono più, sempre con grande, immenso, affetto. Il tutto, tenendo stretta la mano fino a che il rito non sia concluso.
 
 Ultimamente, questo saluto ha una nuova connotazione ed è divenuto occasione per comunicare un evento molto importante della sua vita: la pensione! Carla, infatti, è andata in pensione dalla sua attività principale fuori casa, il centro riabilitativo dove era inserita da almeno quarant’anni. Con un grande sorriso fa sapere a quasi tutti quelli che incontra questa importante novità, significativo traguardo della sua vita, che la mette al pari dei tanti che ha conosciuto e che hanno vissuto questo momento. Il fatto che sia felice nel raccontarlo non credo sia scontato... **Per tante persone come lei, il centro diurno è un’occasione per uscire da una routine quasi esclusivamente domestica e la sua mancanza può divenire motivo di una depressione**, così come per tante persone senza disabilità quando cessano l’attività lavorativa, anche se da tempo lo attendevano. Carla credo abbia la tranquillità di sapere che potrà stare tempo in più con i suoi “familiari” conviventi, passando ore molto variegate per lei, in una realtà che ha fatto dell’accompagnamento in un clima familiare la sua essenza.

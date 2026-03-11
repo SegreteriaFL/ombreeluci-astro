@@ -1,4 +1,5 @@
 ---
+
 title: "15. Nell'Eucarestia restate in me"
 date: 1981-12-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Febbraio 1981
 
 "Chi mangia la mia carne e beve il mio sangue, rimane in me ed io in lui" (Giov.6,56)

@@ -1,4 +1,5 @@
 ---
+
 title: Pregando su una sedia imponente e semplice
 date: 2014-12-15
 author: Giulia Galeotti
@@ -16,7 +17,10 @@ umap_z: 11.112576484680176
 issue_number: OEL-128
 id_numero: "OEL-128"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Giulia Galeotti racconta il suo primo incontro con Mariangela questa signora dai capelli bianchi e gli occhi chiari che in poche battute – tenerissime ma lapidarie –  era riuscita a dare un nome, e un verso, a molte cose"
 ---
+
 **È una mattina di settembre. Io e Jean Vanier siamo seduti in un salottino di Santa Marta** , l’albergo vaticano diventato improvvisamente celebre dopo che Francesco lo ha scelto come sua dimora. Ci aggiorniamo sulle novità che ci sono successe dall’ultima volta ci siamo visti, tra le altre, una – che condividiamo – ci incupisce lo sguardo. E così, su queste sedie così imponenti ma così semplici, ci ritroviamo a pregare per Mariangela.
 
 **Imponente e semplice, tenerissima e granitica. È questa l’armonica opposizione che, ai miei occhi, racconta Mariangela Bertolini.** Perfettamente in linea con chi è stata e con l’eredità che ci ha lasciato, la prima volta che incontrai Mariangela mi parlò con i fatti. Eravamo in treno, di ritorno da Lourdes, dall’ultimo Lourdes internazionale che Fede Luce abbia conosciuto nella sua storia. Pasqua 2001. Io – entrata nel gruppo di San Roberto di Roma da pochi anni – dopo quelle giornate così ricche e così colme, ero un coacervo di stati d’animo configgenti.

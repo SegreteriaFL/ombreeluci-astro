@@ -1,4 +1,5 @@
 ---
+
 title: "Jean Vanier racconta: La comunità di San Martino"
 date: "2008-09-03"
 author: "Jean Vanier"
@@ -14,7 +15,10 @@ categoria_menu: "Fede"
 issue_number: OEL-103
 id_numero: "OEL-103"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Vi racconto la storia di Padre Gabriele, giovane sacerdote italiano, parroco di una chiesa della diocesi di Nyahurur in Kenia"
 ---
+
 Eccomi in Kenia. Vi domanderete forse come mai mi trovi in questo stato africano così provato in questi ultimi anni. È una lunga storia. Nel 2006 mi trovavo a Bangalore per un ritiro. Qui c'era un giovane sacerdote italiano, padre Gabriele.
 
 Ecco la sua storia. È parroco di una chiesa della diocesi di Nyahururu, sempre in Kenia. Dieci anni fa, mentre faceva visita ad una famiglia per benedire la casa, sentì un rumore strano. Aprì la porta di un armadio e scoprì Thomas, un bambino con un profondo handicap, che era nascosto lì dentro. La famiglia era a disagio e si vergognava di avere un figlio così.

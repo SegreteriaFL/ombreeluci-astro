@@ -1,4 +1,5 @@
 ---
+
 title: Bloccati nel sogno
 date: 1988-03-28
 author: Jean Vanier
@@ -18,6 +19,7 @@ issue_number: OEL-21
 id_numero: "OEL-21"
 numero_rivista: "Ombre e Luci"
 ---
+
 L’esperienza che ho della persona malata mentale è certo incompleta ma è reale. Da molto tempo incontro genitori che hanno un figlio malato mentale e che cercano per lui un posto d’accoglienza. D’altro canto, un certo numero di giovani, con l’equilibrio psichico perturbato, vengono all’
 [*Arche*](http://www.ombreeluci.it/1987/che-cosa-e-larche/)
 sparando di trovare rifugio in una comunità calorosa. Infine, molti uomini e donne che accogliamo come handicappati mentali, manifestano anche gravi turbe della personalità. Fin da piccoli possono aver presentato segni di psicosi infantile di cui restano tracce. Altri, vittime di traumi di rifiuto, aggiungono sintomi di nevrosi più o meno gravi al loro handicap mentale. Per formazione, non sono né psichiatra né psicologo. Le mie riflessioni possono essere solo quelle di un educatore che incontra continuamente la sofferenza di quelli che soffrono e fanno soffrire gli altri.

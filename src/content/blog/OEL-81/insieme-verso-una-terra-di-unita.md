@@ -1,4 +1,5 @@
 ---
+
 title: "Insieme verso una terra di unità"
 date: "2003-03-13"
 author: "Jean Vanier"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Jean Vanier parla dello spirito ecumenico in Fede e Luce"
 ---
+
 A Fede e Luce abbiamo iniziato a camminare nell'ecumenismo per rispondere alle necessità delle persone con un handicap accolte all'interno delle nostre comunità e che appartengono a differenti tradizioni cristiane e religiose. Queste persone ci hanno chiamato a scoprire come aiutarle a integrarsi pienamente nella vita comunitaria, approfondendo la loro personale tradizione, e a scoprire anche come celebrare alcune feste tutti insieme, come una sola famiglia...
 
 La mia esperienza si è allargata in seguito a numerosi incontri e profonde amicizie con uomini e donne appartenenti a diverse confessioni religiose.

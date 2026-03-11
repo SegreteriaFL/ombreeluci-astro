@@ -1,4 +1,5 @@
 ---
+
 title: "Che cosa ha detto il Papa sull'epilessia"
 date: 1988-03-28
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-21
 id_numero: "OEL-21"
 numero_rivista: "Ombre e Luci"
 ---
+
 Secondo quanto è apparso su alcuni giornali, il Papa, nell'udienza generale del 25 novembre 1987, avrebbe affermato che l'epilessia «predispone alla possessione demoniaca» (Corriere della Sera, 12-1-1988, in Corriere/Scienza, con articolo di A.M. di Nola). L'articolista, dopo aver citato due brani del detto discorso, giudica l'intervento del Papa un «ritorno agli aspetti più tetri e nefasti del Medioevo», un passo indietro nel «lungo e difficile cammino che la scienza ha compiuto per individuare clinicamente il quadro dell’epilessia e per liberare la società civile dal peso di barbarici pregiudizi nei riguardi dei malati». In altre parole, il Papa, sempre secondo il di Nola, si farebbe paladino di una campagna rivolta «a sostituire ai sussidi scientifici la classica terapia esorcistica, che resta, per il rituale cattolico e per quello di alcune chiese riformate, l’unica valida via per ottenere la guarigione dell’epilettico-indemoniato».
 
 Se ciò è vero, si comprende il disagio provato dai cattolici venuti a conoscenza di tali affermazioni. Ma **è proprio questo quello che il Papa ha detto?** L'articolo del di Nola è chiaramente fazioso e deformante non solo rispetto al citato discorso papale, ma anche nei riguardi della posizione cattolica in generale. **Ogni cattolico minimamente consapevole della propria fede sa infatti che l'epilessia, come tutte le malattie, è soggetta a ricerca scientifica e a cure mediche** . Ma altrettanto spontaneamente, il credente, in caso di malattia, come in tutti gli altri casi della vita, sa ricorrere anche alla preghiera. L'uomo non è una macchina. La malattia non riguarda solo l'aspetto somatico di una persona. In ogni malattia, abbia essa manifestazioni prevalentemente fisiche o psichiche, è la persona che è malata. E la scienza medica ufficiale spesso va ancora a tentoni, non sa dire nulla o quasi su alcune malattie. Da qui il diffondersi delle medicine alternative, e del ricorso a quegli «irrazionalismi che ci assediano», giustamente denunciati dal di Nola. Ma non è certo nelle aree della Chiesa che prosperano maghi, guaritori e santoni di varia provenienza. Quanto all'esorcismo, la Chiesa ne limita strettamente la pratica, affidandola a presbiteri sperimentati e prudenti, scelti dai rispettivi vescovi. **Ognuno di questi «esorcisti» troverebbe ridicolo affermare che l'epilessia sia segno di possessione demoniaca o predisponga ad essa, per cui andrebbe trattata con l'esorcismo. Ma ancora più ridicolo è attribuire tali propositi al Papa** .

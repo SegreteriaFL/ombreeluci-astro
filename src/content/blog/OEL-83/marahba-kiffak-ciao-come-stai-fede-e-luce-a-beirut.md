@@ -1,4 +1,5 @@
 ---
+
 title: Marahba! Kiffak? - Ciao! Come stai? Fede e Luce a Beirut
 date: 2003-09-03
 author: Valentina Camomilla
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.687620639801025
 umap_y: 9.2842378616333
 umap_z: 14.097784996032715
+
+subtitle: "Valentina ci racconta la sua esperienza a Beirut durante la settimana di formazione di Fede e Luce, fra timori, gioie e tante sorprese"
 ---
+
 “Volevo farti sapere che il tuo nome è tra quelli emersi per far parte di un’equipe italiana che andrà a Beirut a fine luglio per una settimana di formazione di [Fede e Luce](https://www.fedeeluce.it/) . In quella occasione verrà anche eletto il nuovo responsabile del Continente”.
 
 **Tumulto. Non sono responsabile della mia Regione** , probabilmente non lo sarò mai e allora non è giusto togliere ad un altro la possibilità di vivere questa esperienza. Certo gli incontri Internazionali di Fede e Luce a cui ho partecipato in passato sono stati così belli e ricchi... proprio non ho voglia di dire di no. E poi cosa sono questi Continenti? E come sarà il Medio Oriente? I nostri amici di Fede e Luce lì saranno poi così diversi da noi?

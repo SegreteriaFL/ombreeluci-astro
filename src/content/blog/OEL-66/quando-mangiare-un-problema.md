@@ -1,4 +1,5 @@
 ---
+
 title: Quando mangiare è un problema
 date: 1999-06-12
 author: Nicole Schulthes
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.987405776977539
 umap_y: 8.579977035522461
 umap_z: 7.750172138214111
+
+subtitle: "La specialista Marie-Odile Réthoré risponde alle domande di una mamma di una bambina disabile riguardo la buona educazione alimentare"
 ---
+
 Q
 uante volte ci succede di sentire dalle mamme di ragazzi disabili mentali frasi come: «..mangia troppo...deve stare a dieta ma non obbedisce...è ingrassato tanto negli ultimi anni..» e quante volte ci capita di vedere qualche nostro amico gettarsi sul cibo quasi con voracità, mangiare troppo racimolando tutto quello che c'è sul tavolo! Tutti noi sappiamo che «mantenersi in linea», in modo ragionevole naturalmente, senza sovraccaricare l'organismo con troppi chili in più del necessario, è importante per la salute, per potersi muovere e lavorare senza sforzo e anche.. .per affrontare più tranquillamente gli anni della seconda e terza età. Questa, per esempio, è una lettera che abbiamo ricevuto.
 *Cara Mariangela,*
@@ -31,6 +35,8 @@ uante volte ci succede di sentire dalle mamme di ragazzi disabili mentali frasi 
 Per saperne di più e per dare qualche consiglio utile alle mamme e ai nostri amici più golosi ci siamo rivolti ad una persona che di queste cose se ne intende davvero. La dottoressa
 [Marie-Odile Réthoré](https://www.ombreeluci.it/author/marie-odilerethore/)
 , direttrice del Centro Medico Jéróme Lejeune di Parigi [nota]Centro di ricerca e di consultazione: a - specializzato nell'handicap mentale; b - provvede alla formazione dei medici e del personale paramedico per la cura delle persone con handicap mentale; c - centro di documentazione; d - presta servizio di informazione sulle malattie dell’intelligenza per le famiglie.[/nota]
+
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Ma noi siamo attori
 date: 1994-12-19
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-48
 id_numero: "OEL-48"
 numero_rivista: "Ombre e Luci"
 ---
+
 A
 mbiente francese qualche tempo fa al teatro Manzoni di Roma. In programma cera uno spettacolo presentato da una compagnia teatrale del nord della Francia, la compagnia «
 *L’Oiseau Mouche*

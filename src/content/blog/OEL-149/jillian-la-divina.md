@@ -1,4 +1,5 @@
 ---
+
 title: Jillian, la divina
 date: 2020-03-11
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-149
 id_numero: "OEL-149"
 numero_rivista: "Ombre e Luci"
 ---
+
 L
 a prima volta l’ho vista nei corridoi della metropolitana di New York: bellissima, stilosissima, sfrecciava veloce tra la gente. La seconda sulle pagine di una rivista di moda: era una campagna di Diesel, e lei – occhi profondi e bocca perfetta – dominava la scena. Quindi quando il suo volto è comparso sugli schermi di Times Square ero preparata: ne conoscevo bene la storia. La differenza tra i primi due e il terzo incontro è che nell’ultimo caso, trattandosi della pubblicità di una linea di trucco (la campagna
 *Face Anything*

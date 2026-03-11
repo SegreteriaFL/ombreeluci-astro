@@ -1,4 +1,5 @@
 ---
+
 title: "L'organizzazione a Fede e Luce"
 date: 1981-12-20
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Ogni movimento, se vuole rimanere aderente alla realtà, deve darsi un minimo di organizzazione pratica. È importante però che l’organizzazione rimanga sempre al servizio delle persone e non soffochi mai lo spirito che ispira il movimento.
 
 Per garantire il giusto atteggiamento nell’aiuto e nel rispetto reciproco fra le tre componenti della comunità, è necessario l’impegno di alcune persone che cercano di rimanere fedeli allo spirito e agli scopi espressi nella «Charta» del movimento internazionale Fede e Luce.
@@ -31,6 +33,7 @@ Di seguito trovate:
 
 - Valeria Levi Della Vida (Coordinatrice Nazionale) Via Magalotti, 15 - 00197 Roma - Francesco Gammarelli (Vice-coordinatore Nazionale) Via G. Bessarione, 30 - 00165 Roma - Don Francesco Marchini (Assistente spirituale Nazionale) Via Brambilla, 3 - 43100 Parma - Sergio de Rino (Coordinatore delle comunità Lombardia - Piemonte) Via Losanna, 18 - 20100 Milano - Lucetta Battilani (Coordinatrice delle comunità Emilia - Veneto) Via Palermo, 68 - 43100 Parma - Lucia Bertolini (Coordinatrice delle comunità di Roma e centro - Sud) Via Cortina d’Ampezzo 152 - 00135 Roma
 
+
 ---
 
 # **Fede e Luce nel mondo**
@@ -38,6 +41,7 @@ Di seguito trovate:
 ## **Consiglio internazionale**
 
 - Marie-Hélène Mathieu (Presidente internazionale) 11, rue François Mouthon - 75738 PARIS Cedex 15 (Francia) - Padre Jorgen Hvild (Assistente spirituale internazionale) Nygade 6-8 - 3000 HELSINGER (Danimarca) - Jean Vanier L’Arche Trosly Breuil - 60350 CUISE LA MOTTE (Francia) - Betty Renaud (Coordinatrice per i paesi dell’America del Nord) 72, rue de Varenne - BOUCHERVILLE, P.Q. (Canada) - Teresa de Bertodano (Coordinatrice per i paesi dell’Europa del Nord) 31 A Toxton Road - LONDON SE 279 EE (Inghilterra) - Mariangela Bertolini (Coordinatrice per i paesi dell’Europa del Sud) 7, Via Benucci - 00149 ROMA (Italia) - Kathryn Ward (Corrispondente per l’Australia e la Nuova Zelanda) 51, Dornoch Terrace - WEST END Q 4101 (Australia) - Zilda Furtado (Corrispondente per l’America Latina ed i Carabbi) Rua Dona Veridiana 100/23 - 001238 SAO-PAULO (Brasile) - Roland Tamraz (Corrispondente per il Medio Oriente) B.P. 165351 - BEIRUT (Libano)
+
 
 ---
 

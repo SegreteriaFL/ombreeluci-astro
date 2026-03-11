@@ -1,4 +1,5 @@
 ---
+
 title: Circa il concetto di apertura dei centri diurni riabilitativi
 date: 2020-04-02
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 7.886613368988037
 issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Quel circolo vizioso che rende un servizio controverso"
 ---
+
 Iniziamo con l’apertura. Ne copiamo e incolliamo dal vocabolario on line della Treccani la definizione: “[...] con riferimento a locali ed esercizi pubblici, indica insieme il fatto concreto di aprire le porte per l’afflusso del pubblico o dei clienti, e l’inizio dell’attività di vendita o d’altro”. E passiamo subito al *centro diurno riabilitativo* . Una struttura pubblica gestita dall’Asl insieme alla cooperativa che vince l’appalto e che si occupa di assumere gli operatori necessari allo svolgimento delle diverse attività. Il centro è aperto di giorno per persone che hanno difficoltà psichiche e i vari laboratori proposti al suo interno hanno lo scopo di aiutarli a inserirsi (o a reinserirsi) nella società e a svolgere una vita il più possibile autonoma e regolare.
 
 Io, da due anni e mezzo, lavoro in uno di questi centri diurni riabilitativi, a Torre Maura, Roma. Lo stravolgimento avvenuto nelle nostre vite in quest’ultimo mese ha insieme toccato e non toccato il centro. Quest’ultimo, infatti, poiché ha lo statuto di presidio medico deve restare aperto e il personale Asl e gli operatori devono garantirne l’accessibilità. Ma gli utenti che nel periodo precedente all’epidemia frequentavano il centro sono diminuiti considerevolmente e, in particolare per le attività di alcuni laboratori, le loro assenze sono continuative. Stando così le cose, due sono le considerazioni principali.

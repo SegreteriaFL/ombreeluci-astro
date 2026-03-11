@@ -1,4 +1,5 @@
 ---
+
 title: Quando arrivano le vacanze
 date: 1978-09-20
 author: Mariangela Bertolini
@@ -18,6 +19,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 Quando arrivano le vacanze siamo tentati di dover dire arrivederci a Fede e Luce. È vero che le riunioni di gruppo, le Messe insieme, le "casette", le veglie di preghiera, le sere di riflessione sul Vangelo, chiudono per un po' di tempo, ma non è questa una ragione valida per credere che lo spirito di Fede e Luce, che ci unisce in un’amicizia ogni giorno più forte, possa andare in vacanza.
 
 Si tratta invece, come dicevamo l'altr'anno, di far vivere questo spirito durante il tempo di vacanza con altri mezzi e in un altro modo:

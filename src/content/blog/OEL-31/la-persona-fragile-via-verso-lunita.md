@@ -1,4 +1,5 @@
 ---
+
 title: "La persona fragile via verso l’unità"
 date: "1990-09-26"
 author: "Jean Vanier"
@@ -15,6 +16,7 @@ issue_number: OEL-31
 id_numero: "OEL-31"
 numero_rivista: "Ombre e Luci"
 ---
+
 Fede e Luce è nata in terra cattolica, a Lourdes, vicino a Maria. Il movimento si è esteso in certi paesi dove la maggior parte delle persone proviene da altre chiese cristiane.
 In Svizzera, in Inghilterra, nei paesi scandinavi, negli Stati Uniti, in Canada, in Australia, in India, in Sudafrica, sono sorte comunità anglicane, protestanti. Altre sono interconfessionali.
 Recentemente sono sorte comunità ortodosse.

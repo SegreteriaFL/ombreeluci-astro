@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 5
 date: 1984-03-28
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-5
 id_numero: "OEL-5"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Lui mi ha sorriso con dolcezza
 
 Il mattino della scorsa domenica mi sono recata alla messa delle undici nella piccola chiesa di S. Maria in Trivio alla piazzetta dei Crociferi dove c’è sempre poca gente che desidera sentire la messa in silenzio e, soprattutto, un sacerdote che predica con intelligenza e umanità. A messa iniziata ho sentito parlare forte; era entrato un gruppo di persone che si è sistemato alle mie spalle e un ragazzo che si è seduto vicino a me. Un po' infastidita dal brusio e dal continuo parlare della madre al ragazzo che mi sedeva accanto, mi sono permessa di zittire per sentire la predica con tranquillità. Intanto dai banchi posti al centro ho notato diverse persone che si voltavano per guardare questo gruppo di persone e ho notato che nei loro sguardi c’era insofferenza e fastidio. Ho voltato la testa e mi sono accorta che seduto vicino a me c’era un povero ragazzo mongoloide che in continuazione ripeteva: «Gesù, Gesù» e altre parole incomprensibili. Ho notato attraverso le spesse lenti che portava uno sguardo umano ma come di bestia ferita e impaurita. Ho provato un senso di angoscia e di pena e ho cercato di rimediare al mio gesto di insofferenza e gli ho sorriso; mi ha risposto sorridendo e ho notato che quando io mi inginocchiavo anche lui faceva lo stesso senza essere sollecitato dalla madre. Si capiva che comprendeva tutto e che doveva avere una grande sensibilità. Ha fatto la comunione vicino a me e mi guardava sempre. Alla fine della messa ho visto il padre che si girava, forse addolorato dagli sguardi che i fedeli uscendo dalla chiesa rivolgevano al figlio come se lui non avesse il diritto di prendere parte alla vita degli altri. Mi sono sentita male, le lacrime mi scendevano sul viso e non ho avuto il coraggio di parlargli; l’ho salutato abbracciandolo e baciandolo, lui mi ha sorriso con dolcezza.

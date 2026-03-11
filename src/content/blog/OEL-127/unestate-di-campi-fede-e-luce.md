@@ -1,4 +1,5 @@
 ---
+
 title: Un’estate di campi Fede e Luce!
 date: 2014-09-29
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 11.878352165222168
 issue_number: OEL-127
 id_numero: "OEL-127"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le comunità di Un Fiume di Pace ci aggiornano sulle iniziative estive organizzate per quest'anno"
 ---
+
 ### Saint-Oyen
 
 *dal 20 al 27 luglio* La Regione Piemonte Valle d’Aosta ha ripreso il campo estivo in montagna dopo qualche anno di pausa... ci siamo recati a Saint-Oyen dai padri del Gran San Bernardo anche se la gestione di Chateaux Verdun è passata alla diocesi di Aosta. Il campo è stato particolarmente rilassante e si è vissuto in armonia malgrado il tempo instabile. Non c’era giorno in cui non scendesse qualche goccia di pioggia! Si è creato un piccolo laboratorio nella stanza tutta di legno che i padri ci hanno riservato per lavorare... c’è chi cuciva a macchina, chi dipingeva, chi leggeva, chi disegnava, chi stava al computer, chi chiacchierava! Abbiamo confezionato persino una bellissima copertina imbottita che è stata regalata alla figlioletta di Enrico e Silvia: Emilia. I momenti più profondi li abbiamo vissuti all’ultimo piano del castello... qui la mattina stavamo in silenzio e in meditazione seguendo le orme di San Francesco.
@@ -25,11 +29,15 @@ numero_rivista: "Ombre e Luci"
 
 *dal 25 agosto al 1 settembre* Il campo al mare è stato bello, divertente, solare e chi più ne ha più ne metta! Abbiamo avuto un buon numero di giovani amici che ci hanno aiutato a creare un clima gioioso e mai scontato! La mattina si meditava sui vari aspetti del nostro carattere e della nostra personalità tramite riflessioni seguendo l’esperienza dei pellerossa che assimilano i punti cardinali agli animali totem. Ogni animale rappresenta una data peculiarità: ad esempio l’aquila è la visione dall’alto sintetica e saggia. Infine ciò che contiene tutte le parti è la divinità che abita in noi di cui siamo in continua ricerca! Abbiamo abbinato anche i brani della Bibbia e le meditazioni di Jean Vanier. L’unica nota stonata... siamo stati allontanati dall’area verde antistante la spiaggia in una calda mattina in cui stavamo asciugandoci al sole dopo aver fatto un lungo bagno! Il Comune di Andora ha cambiato sindaco ed assessori, vuole ordine, pulizia.... dopo 7 anni di tranquillità e rispetto! Tutto ciò non ci ha tolto il buon umore.... **Valeria**
 
+
+
 ---
 
 ### Vigo Cavedine
 
 *dal 9 al 16 agosto <em La comunità di Conselve “Raggi di sole” è stata in vacanza dal 9 al 16 agosto a Vigo Cavedine, nella valle dei laghi in Trentino. Il bello è stare assieme, condividere la quotidianità delle piccole cose, aiutarsi a vicenda, divertirsi e sentire, ancora dopo tanti anni, il gusto dell’amicizia! Il tema che ci ha accompagnato, preso dal carnet, si è sviluppato intorno al vangelo di Giovanni, quando Gesù alla piscina di Betzaetà incontra e guarisce un paralitico. Punto centrale è l’incontro con un uomo che attende da una vita, di entrare nell’acqua miracolosa della piscina. Il Signore vuole incontrare anche noi, ci chiede se vogliamo guarire, ci invita a fidarci di Lui. Di fronte a questo invito non è scontato che diciamo subito “eccomi”, “voglio guarire”! A volte stiamo bene sul nostro lettuccio che, anche se misero, è l’unica cosa che conosciamo e ci dà protezione. Abbiamo vissuto il momento della riconciliazione proprio partendo dal nostro “lettuccio”: siamo stati invitati a scrivere ciò che ci blocca nella vita e nel rapporto con gli altri e quali sono le resistenze che frenano l’andare da Gesù. **Lucia***
+
+
 
 ---
 

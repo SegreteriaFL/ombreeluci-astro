@@ -1,4 +1,5 @@
 ---
+
 title: Quel riserbo che ha conquistato mio figlio
 date: 2022-06-06
 author: Nicla Bettazzi
@@ -15,6 +16,7 @@ issue_number: OEL-157
 id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il
 primo incontro con un cavallo di mio figlio Massimiliano [giovane romano con autismo] era stato da piccolo, con un pony a Villa Borghese.
 **Gli era piaciuta quella passeggiata nel verde**

@@ -1,4 +1,5 @@
 ---
+
 title: "Elogio della fragilità - Recensione"
 date: "2018-06-30"
 author: "Rita Massi"
@@ -15,6 +16,7 @@ issue_number: OEL-142
 id_numero: "OEL-142"
 numero_rivista: "Ombre e Luci"
 ---
+
 Don Claudio Campa, colpito circa dieci anni fa da una malattia invalidante, continua a svolgere il suo incarico di Parroco e mantiene con determinazione i suoi impegni in favore delle persone disabili.
 Dall’amarezza, e dallo sconforto nel toccare con mano la propria debolezza egli trae una importante considerazione: quando siamo feriti abbiamo bisogno della presenza dell’altro, l’altro che conosce e condivide la nostra debolezza. Egli parla di “debolezza condivisa”, la fragilità quindi come luogo di incontro, di comunione e di dialogo.
 Scritto insieme a Silvia Lova, questo libro è fatto di riflessioni, esperienze vissute e testimonianze che giustificano e spiegano un titolo tanto contraddittorio per spiegare che “il limite non limita”…. La nostra fragilità diventa così risorsa, spazio in cui accogliere Dio ed è allora che “la croce diventa resurrezione”.

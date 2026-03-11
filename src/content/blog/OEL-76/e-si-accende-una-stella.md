@@ -1,4 +1,5 @@
 ---
+
 title: E si accende una stella
 date: 2001-12-25
 author: Mariangela Bertolini
@@ -16,7 +17,10 @@ umap_z: 11.429734230041504
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il Natale dopo l'11 settembre: forse solo ritrovando l’innocenza e l’ingenuità dei bambini ci sarà possibile riprendere con speranza un cammino che appare tanto difficile."
 ---
+
 Fino all’11 settembre si parlava di troppo benessere, di esagerato consumismo, di eccessiva libertà... **Dopo la visione in diretta di quel terribile attentato ai grattacieli di Manhattan** - simbolo per molti di una civiltà inviolabile - **ci siamo trovati, all’improvviso, ad aver paura** .
 
 **Ora non parliamo più come prima** : **siamo disorientati, divisi, perplessi** . Ora, siamo costretti ad assistere all’intensificarsi dei bombardamenti su uno dei paesi più poveri del mondo, già provato da anni di guerra, da mancanza di benessere e di libertà. E ci chiediamo: “È questo fare giustizia?”

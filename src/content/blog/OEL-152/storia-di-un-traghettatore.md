@@ -1,4 +1,5 @@
 ---
+
 title: Storia di un traghettatore
 date: 2020-07-22
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Il manicomio è un campo di concentramento, un campo di eliminazione, un carcere in cui l’internato non conosce né il perché né la durata della condanna, affidato come è all’arbitrio di giudizi soggettivi che possono variare da psichiatra a psichiatra, da situazione a situazione, da momento a momento». Così nel 1973 – introducendo il libro di Maria Luisa Marsigli, *La marchesa e i demoni* – Franco Basaglia descrive la realtà manicomiale. Cinque anni dopo, il 13 maggio 1978, viene emanata la legge che porta il suo nome.
 
 E il nome è quello di un uomo che ha ispirato una delle grandi riforme del Novecento perché chiudendo i manicomi Basaglia ha traghettato la società italiana (e non solo) tra due epoche. C’è ancora molto da fare, ma tantissimo è stato fatto.

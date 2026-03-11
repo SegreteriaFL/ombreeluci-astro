@@ -1,4 +1,5 @@
 ---
+
 title: Handy Cup
 date: 2001-09-27
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 9.513411521911621
 issue_number: OEL-75
 id_numero: "OEL-75"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La Scuola di vela Mal di mare ha invitato un gruppo di ragazzi portatori di handicap mentale a realizzare un’esperienza residenziale di vela nella sua i struttura a Pescia Marina"
 ---
+
 *“Come il capitano e l’equipaggio governano una barca in mezzo ad una burrasca e la riconducono nella tranquillità del porto, così l’Io dell’adolescente deve fronteggiare le burrasche interiori tipiche dell’età, mostrando di saper sempre più prendere in mano il timone della propria vita”.*
 
 La [Scuola di vela Mal di Mare](http://www.maldimare.org/) nel 1999 ha invitato un gruppo di ragazzi portatori di handicap mentale dell’ [Ass. Loïc Frances Lee](https://www.ombreeluci.it/1994/inaugurazione-casa-loic-scuola-laboratorio-artigianale-per-ragazzi-disabili/) , a realizzare un’esperienza residenziale di vela nella sua i struttura a Pescia Marina. L’anno di preparazione si è svolto con lezioni di teoria e con uscite pratiche - su derive, al Lago di Martignano - su imbarcazioni d’altura, a Cala Galera - e con una settimana di scuola vela, ospiti a Pescia Romana.

@@ -1,4 +1,5 @@
 ---
+
 title: Si chiama Sara
 date: 2012-12-10
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 7.721678733825684
 issue_number: OEL-120
 id_numero: "OEL-120"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La testimonianza di David ed Helen che hanno adottato Sara, una decisione maturata durante l'esperienza di volontariato in Madagascar"
 ---
+
 Dopo il nostro matrimonio, col passare dei mesi e soprattutto dopo analisi mediche, abbiamo realizzato che per noi sarebbe stato molto difficile avere dei bambini. Quindi, senza passare dalla fecondazione in vitro, ci siamo orientati verso l’adozione.
 
 **Questa decisione è stata facilitata dal fatto che da quattro anni ci troviamo in Madagascar** come volontari. Come gli altri, abbiamo incontrato psicologi, assistenti sociali e altri specialisti con l’intento di ottenere l’idoneità all’adozione da parte dello stato malgascio.

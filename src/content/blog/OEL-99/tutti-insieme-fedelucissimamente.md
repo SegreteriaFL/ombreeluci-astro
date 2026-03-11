@@ -1,4 +1,5 @@
 ---
+
 title: "\"Tutti insieme fedelucissimamente\""
 date: 2007-09-09
 author: Redazione
@@ -16,7 +17,10 @@ tags:
 umap_x: 9.173100471496582
 umap_y: 7.843647480010986
 umap_z: 9.004280090332031
+
+subtitle: "Quali attività coinvolgono, bene e insieme, i ragazzi disabili, i loro genitori e qualche amico più o meno giovane e i numerosi bambini?"
 ---
+
 Comunità di Fede e Luce, ottobre, riunione di inizio anno: cosa possiamo fare? Quali attività coinvolgono, bene e insieme, i ragazzi disabili, i loro genitori e qualche amico più o meno giovane e i numerosi bambini? Rita si lancia: una recita mi sembra l’idea più adatta! Riprenderemo una vecchia tradizione della nostra comunità: molti saranno coinvolti come attori, e chi non ha voglia di salire sul palcoscenico o è bravo in altro, può aiutare per i costumi, le musiche, le scene...
 
 A dicembre cominciamo l'avventura con una riduzione (davvero molto ridotta) di "Tutti insieme appassionatamente" che ci permette canti e balletti. Ci occorrono due prove al mese più gli incontri in comunità. Arriviamo ad aprile abbastanza stanchi e convinti di non essere ancora pronti per una rappresentazione. Rita ed Angela però, le nostre registe, non sentono ragione: si va in scena il 14 aprile per la Giornata di Annuncio e Condivisione!
@@ -30,6 +34,8 @@ Noi siamo tre dei dodici bambini della famiglia austriaca von Irapp nell'epoca d
 Quando Maria (la dodicesima istitutrice) arriva a casa ci presentiamo e papà dice le regole della casa, ma Maria non le voleva seguire, e noi ce ne approfittavamo andando n camera sua la sera, mettendo a rischio il suo lavoro. Un giorno papà va dalla Baronessa Schreder, la sua futura moglie, e Maria ci insegna a cantare delle canzoni dedicate alla Baronessa. Ma insieme alla Baronessa viene lo zio Max.
 
 Lo zio decide di farci partecipare al Festival di Salisburgo ma papà è contrario. Un giorno il comandante dice alla Baronessa che non la sposerà, ma che ama Maria. Allora Maria e il comandante si sposano. Un brutto giorno, il comandante ricevette un telegramma che diceva che doveva andare a Brema nella marina militare. Papà però è contrario e quindi decide di farci cantare al Festival, dicendo ai nazisti che poi sarebbe andato a Brema, ma dopo il Festival fuggiamo in Svizzera.
+
+
 
 ---
 

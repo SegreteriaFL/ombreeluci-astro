@@ -1,4 +1,5 @@
 ---
+
 title: L’arma vincente nella mia vita
 date: 2001-03-09
 author: Francesca Mancini
@@ -18,7 +19,10 @@ umap_z: 11.957136154174805
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Mi sembra ieri quando con mio marito mi accorsi che la nostra bambina di poco più di due mesi aveva qualcosa che non andava..."
 ---
+
 In occasione del Giubileo del 1975, venticinque anni fa, feci il primo passo nel volontariato. Avevo quindici anni, andavo al liceo, facevo una vita normalissima come tante altre ragazze della mia età e non avrei mai pensato che quella Messa in Vaticano sarebbe stata l’inizio di una grande «avventura», la scintilla che doveva illuminare il mio cammino in tutti gli anni successivi.
 
 Proprio in quegli anni, partecipando assiduamente alla vita di [Fede e Luce](https://www.fedeeluce.it/) ho capito che non è la persona con una debolezza fisica o mentale ad avere bisogno di me, ma io di lei. Da quel famoso giorno ad oggi sono successe tantissime cose: gli anni sono passati e sono mamma di quattro bambini con tante gioie, con i momenti belli, ma anche con momenti molto, troppo, difficili da superare se non avessi avuto in me, scolpiti nel mio cuore, il ricco silenzio di Angelo e di Chicca, l’ironia di Giorgia, il sorriso di Gianluca e di Claudio, la pazienza di Giulio e di tutte le loro mamme, che mi hanno fatto trovare la forza di guardare sempre avanti con coraggio, anche quando tutto sembrava perso.

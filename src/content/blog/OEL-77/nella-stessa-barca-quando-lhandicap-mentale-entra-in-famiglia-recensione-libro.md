@@ -1,4 +1,5 @@
 ---
+
 title: "Nella stessa barca: Quando l'handicap mentale entra in famiglia - Recensione libro"
 date: 2002-03-08
 author: Antonella Bulgheroni
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.6401753425598145
 umap_y: 10.45572566986084
 umap_z: 5.821763515472412
+
+subtitle: "Nelle pagine di questo libro sono raccolti alcuni articoli pubblicati dalla rivista Ombre e Luci per far conoscere più e meglio le persone disabili, le loro famiglie e i loro amici. Prefazioni del Cardinale Carlo Maria Martini e di Jean Vanier."
 ---
+
 Nella stessa barca - Quando l'handicap mentale entra in famiglia Autori vari - Edizioni Ancora, 2002, p. 153
 
 Ho letto “Nella stessa barca” d’un fiato, non potevo staccarmene. Premetto che **non conoscevo la vasta e pluriennale produzione di “Ombre e Luci”** da cui il libro è stato tratto con evidente acume e gusto nella scelta dei brani. **Il testo è composto di brevi affreschi biografici** , stesi con una scrittura piana e avvincente da autori che propongono la loro esperienza di vita con dolcezza, lievità e consapevole profondità al tempo stesso.

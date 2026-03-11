@@ -1,4 +1,5 @@
 ---
+
 title: Mio figlio ha degli amici
 date: 2025-07-25
 author: Cristina Tersigni
@@ -18,7 +19,10 @@ umap_z: 12.7072172164917
 issue_number: OEL-170
 id_numero: "OEL-170"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le parole di un padre di un ragazzo autistico spiegano i motivi del perché far festa per i 50 anni di Fede e Luce in Italia"
 ---
+
 C
 osa festeggeremo a Pompei per il cinquantennale del movimento di
 *Fede e Luce*

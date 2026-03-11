@@ -1,4 +1,5 @@
 ---
+
 title: "Incontro internazionale: Edimburgo 1-9 agosto 1990"
 date: 1990-09-26
 author: Lucia Bertolini
@@ -17,6 +18,7 @@ issue_number: OEL-31
 id_numero: "OEL-31"
 numero_rivista: "Ombre e Luci"
 ---
+
 O
 gni quattro anni tutti i paesi che hanno comunità di Fede e Luce inviano una rappresentanza nella città che, a turno, organizza rincontro. Nel 1990 il grande raduno è avvenuto ad Edimburgo, in Scozia, dal 1 al 9 agosto; i paesi rappresentati erano 55, i partecipanti 180. Vi confesso che molte volte mi sono chiesta perché Jean Vanier e Marie Hélène, che hanno dato inizio a Fede e Luce, ritengano necessari questi incontri internazionali. Quest’anno poi, come coordinatrice dei gruppi italiani, toccava anche a me parteciparvi e pensavo: fare un costoso viaggio all’estero, lasciare la famiglia, lottare per nove giorni con problemi di lingue nient’affatto familiari... in nome di che cosa? Per giovare a chi? Per quale vera ragione? E poi sono partita. Durante nove giorni abbiamo ascoltato conferenze e discusso in piccoli e grandi gruppi; abbiamo partecipato a tavole rotonde, a celebrazioni e feste, abbiamo pregato e cantato insieme. Il tema di riflessione prescelto era: «La crescita di Fede e Luce e il suo cammino verso l’unità — tra gli uomini, tra i popoli, nella Chiesa». Ora che sono tornata posso fare qualche considerazione.
 

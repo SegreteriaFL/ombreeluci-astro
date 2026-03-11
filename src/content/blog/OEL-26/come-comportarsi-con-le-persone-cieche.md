@@ -1,4 +1,5 @@
 ---
+
 title: Come comportarsi con le persone cieche
 date: 1989-06-16
 author: Redazione
@@ -20,6 +21,7 @@ issue_number: OEL-26
 id_numero: "OEL-26"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Parole tabù
 
 Parlando con un cieco si ha paura di usare parole come: «Vedere, guardare, cieco, cecità». Se ci capita di usarle, perdiamo il filo del discorso e cominciamo a chiedere scusa... Di fatto, chi non vede, usa la parola «cieco» come le altre parole e utilizza il verbo «vedere» per esprimere il suo modo specifico di vedere, sentire, tastare, toccare. Possiamo dunque senza paura dire ad un cieco: «Vuol vedere questo modello?» e mettergli fra le mani l’oggetto di cui si parla. Per contro è molto indelicato dire: «Lei è cieco? Del tutto? Oh, deve essere una cosa tremenda! È nato così? Per un incidente?». Inoltre non dobbiamo dimenticare che le persone cieche non sono sorde per niente e che, se ci sentono mormorare «Per me è una cosa terribile non vederci!», rischiamo di fare una gaffe.

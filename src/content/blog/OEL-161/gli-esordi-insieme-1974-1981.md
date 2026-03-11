@@ -1,4 +1,5 @@
 ---
+
 title: Gli esordi «Insieme» 1974 – 1981
 date: 2023-05-08
 author: Stefano Guarino
@@ -17,6 +18,7 @@ issue_number: OEL-161
 id_numero: "OEL-161"
 numero_rivista: "Ombre e Luci"
 ---
+
 Dopo il [Pellegrinaggio del 1971 a Lourdes](https://www.ombreeluci.it/2014/lourdes-miracolo-di-un-incontro/) (e l’inizio del movimento internazionale Foi et Lumière), tornati a casa un piccolo gruppo di ragazzi, genitori e amici italiani capitanati da Mariangela Bertolini gettarono il primo seme di Fede e Luce iniziando a incontrarsi presso l’Istituto Nazareth a Roma. Ben presto iniziò ad affacciarsi l’idea di trasmettere lo spirito di FL attraverso un giornalino chiamato Insieme – Bollettino di Fede e Luce, allo scopo di raggiungere le famiglie dei ragazzi con disabilità: «I nostri figli sono i prediletti… Se resteremo Insieme sapremo dimostrarlo». La testata voleva anche raggiungere amici ed educatori per far loro conoscere il semplice stare “insieme” incontrando coloro che, all’epoca, vivevano ancora nascosti tra le mura domestiche o in istituto.
 
 **Insieme era stampato all’Istituto Nazareth da [Annarella Pantanella](https://www.ombreeluci.it/2003/grazie-madre-pantanella/)** , una suora straordinaria chiamata “nonna” per la sua grande sensibilità e accoglienza. Era lei a curarne la parte dattiloscritta, suoi anche molti dei disegni pubblicati, ed era sempre lei a occuparsi della stampa con il vecchio ciclostile Gestetner.

@@ -1,4 +1,5 @@
 ---
+
 title: "I fratelli e le sorelle di ragazzi con disabilità - Che pensano? Che provano?"
 date: "2003-03-13"
 author: "Maria Teresa Rendina"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "I fratelli dei ragazzi con problemi non hanno di certo vita facile. Non vivono serenamento la loro infanzia e così tutte le fasi della loro vita"
 ---
+
 Si parla sempre di “loro”, di quanto tempo ci portano via, di quante cure hanno bisogno, di quanto amore gli diamo. Ma mentre passiamo gli anni ad accompagnare i nostri figli a terapia, a gestire le situazioni più impegnative, rincorrendo i vari specialisti alla ricerca di soluzione al problema che si presenta volta per volta; man mano che “loro” crescono, mentre noi genitori siamo impegnati accanto a loro, dove sono i fratelli e le sorelle?
 
 Sono in un angolo che ascoltano e sopportano? cosa pensano e provano?

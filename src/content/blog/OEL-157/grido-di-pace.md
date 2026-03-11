@@ -1,4 +1,5 @@
 ---
+
 title: Grido di pace
 date: 2022-05-09
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-157
 id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Da anni viviamo accanto a persone che con la loro fragilità ci hanno insegnato ad avere verso gli altri uno sguardo diverso; loro ci hanno guidato alla ricerca non del merito della persona, ma dell’accoglienza di ognuno per quello che è, diverso da noi, certamente, difficile da capire… **Ci hanno insegnato a non fermarci alle apparenze, a schierarci in difesa della comprensione e del dialogo, a diffidare dei pregiudizi** », scriveva Mariangela Bertolini nel 2011.
 
 Leggi anche: [**Sulla croce, come Gesù**](https://www.ombreeluci.it/2022/sulla-croce-come-gesu/) di Larisa Grygoryeva

@@ -1,4 +1,5 @@
 ---
+
 title: "Il Carro: una casa sempre piena di gente"
 date: 2009-03-08
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 9.596656799316406
 issue_number: OEL-105
 id_numero: "OEL-105"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Francesca ci racconta come vive con la propria famiglia in una comunità per persone disabili adulte"
 ---
+
 Mi chiamo Francesca, ho quasi dieci anni; con le mie sorelle Maria e Anna e con i miei genitori vivo in una casa famiglia ( [Il Carro](https://www.ombreeluci.it/2005/e-il-carro-va-e-compie-15-anni/) ). Ci stanno 8 ragazzi disabili: Carla, Rita, Silvia, Sabina, Mimmo, Stefano, Pablo e Alberto. Tutte le mattine papà li accompagna a scuola insieme a me e ad Anna, mi vergogno un po’ perché dobbiamo scendere dal cofano del pulmino, per fortuna arriviamo molto presto. Pablo è convinto che mi porta sempre lui a scuola.
 
 La casa dove abitano i ragazzi la chiamo casa grande, è bella, colorata di rosso è molto spaziosa, con Maria e Anna giochiamo nel corridoio a "strega di mezzanotte". Stefano mi sgrida quando tocco la sua Famiglia Cristiana senza chiedergli il permesso. Mi piace molto il suo sorriso. Rita vuole sempre andare a casa sua, e a volte le sue lagne mi danno fastidio e mi richiama se mi alzo da tavola. Però, alla fine, Rita per me è la più simpatica.

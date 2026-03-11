@@ -1,4 +1,5 @@
 ---
+
 title: Scendere le scale
 date: 1986-06-23
 author: Jean Vanier
@@ -17,6 +18,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 Siamo venuti qui ad Assisi per seguire San Francesco.
 **Il segreto di Francesco è di scendere le scale, per incontrare la persona più povera.**
 Per questo aveva tanta gioia nel cuore! Aveva compreso il grande segreto di Gesù. Invece, la società ci insegna a salire le scale: bisogna avere più soldi, più potenza, più amici; bisogna avere di più. Bisogna sempre salire la scala, riuscire, vincere, battere gli altri. Il vangelo ci dice che dobbiamo andare nell’altra direzione, perché quando saliamo le scale per avere di più, altri avranno di meno; quando si salgono le scale si cammina sulle altre persone. Per questo nel nostro mondo ci sono tante divisioni, per questo c’è la guerra, per questo si lotta gli uni contro gli altri, per questo delle persone muoiono di fame e altre hanno più che abbastanza. Per questo non si accoglie il povero. Gesù, quando era sulla terra, raccontò una parabola molto importante per le persone del mondo di oggi. C'era un uomo — disse Gesù — chiamato Lazzaro, molto povero, le gambe piene di piaghe; non aveva lavoro, era solo, viveva per strada, sentiva che nessuno l’amava. Davanti a lui era l’uomo ricco; aveva molti amici, li invitava per fare feste: ridevano, danzavano, si divertivano e si disinteressavano di Lazzaro. Questa è la situazione del mondo d’oggi. Ci sono persone che hanno molte cose. Cercano di far festa, di distrarsi, di passare il tempo. Non molto lontano c’è Lazzaro: si sente solo, probabilmente sta per strada, non ha lavoro, è rifiutato, forse vive in un istituto, dove ci sono molte altre persone, ma dove egli non si sente amato. Lazzaro è forse in un paese lontano dove le persone hanno molto meno di noi. Forse Lazzaro è una famiglia dove c’è un figlio in difficoltà, perciò è messa da parte. La mamma e il papà hanno il cuore ferito. Forse non possono neppure andare in parrocchia perché il figlio disturba. Così questa famiglia ha pure l’impressione di essere allontanata dall’amore di Dio e della Chiesa. Gesù racconta che quando Lazzaro morì entrò subito nel cuore di Dio, dove aveva un posto. E Dio gli disse il gran segreto che dice ad ognuno di noi: ti amo. Tu sei mio figlio prediletto in cui ho riposto la mia gioia. Poi morì l'uomo ricco, che invece andò nel luogo del tormento perché nel corso della vita aveva chiuso il suo cuore, non aveva voluto condividere, né essere parte del grande disegno di Dio: un nuovo ordine dove il povero è nel centro. Il progetto degli uomini è una gerarchia dove ognuno deve lottare per arrivare in alto, per guadagnare più denaro, avere più potere.

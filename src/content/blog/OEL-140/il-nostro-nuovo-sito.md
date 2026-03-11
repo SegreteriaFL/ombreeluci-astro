@@ -1,4 +1,5 @@
 ---
+
 title: Il nostro nuovo sito!
 date: 2017-11-24
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-140
 id_numero: "OEL-140"
 numero_rivista: "Ombre e Luci"
 ---
+
 Questo lunedì è partito, volutamente in sordina... tremanti al pensiero che qualcosa non funzionasse. Relativamente tranquilli - io, Emanuele e Matteo - che solo noi avremmo visto eventuali disastri che, grazie al cielo, non ci sono stati... almeno non irrimediabili. Due giorni dopo cominciamo davvero... il 22 novembre era un giorno troppo importante per non dare il giusto rilievo
 [ai contenuti che raccontavano di Stefano](http://www.ombreeluci.it/ciao-stefano-di-franco/)
 su

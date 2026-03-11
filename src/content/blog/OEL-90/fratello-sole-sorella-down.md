@@ -1,4 +1,5 @@
 ---
+
 title: Fratello Sole Sorella Down
 date: 2005-06-17
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.310918807983398
 umap_y: 10.844218254089355
 umap_z: 5.738881587982178
+
+subtitle: "Ivano Manzato Fiorenza Bellan, Armando Editore, 2005, pagg. 128"
 ---
+
 M
 ariagrazia, una donna di 33 anni affetta da sindrome di Down con caratteristiche piuttosto gravi soprattutto perché non parla, è la protagonista di questo volume scritto dalla sorella Fiorenza e da suo marito Ivano che rappresenta, praticamente, un fratello acquisito. Raccontano la loro esperienza, pensando a quanto sia importante conoscere il ruolo dei fratelli, le loro osservazioni, e di come spesso siano lasciati in disparte, ma con un carico emotivo rappresentato dalla consapevolezza (a volte negabile ma non cancellabile) che un giorno dovranno prendere la responsabilità del fratello compromesso. Interessante per tutti coloro che vivono o operano in e con famiglie con un componente disabile e, perché no, per quei fratelli o sorelle acquisiti il cui sguardo diviene prezioso, in quanto meno invischiato di quello di un fratello vero, per affrontare alcune difficoltà del quotidiano accanto ad una cognata particolare.
 *Cristina Tersigni*

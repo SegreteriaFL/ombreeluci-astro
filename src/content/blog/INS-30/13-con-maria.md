@@ -1,4 +1,5 @@
 ---
+
 title: 13. Con Maria
 date: 1981-12-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Dicembre 1980
 
 "Ave o piena di grazia, il Signore è con te!"
@@ -55,9 +57,11 @@ Cercare attraverso i vari avvenimenti della vita di Maria nel Vangelo ciò che E
 
 Il nostro cammino in comunità è fatto in compagnia di Maria, trovare un modo pratico di esprimerlo…….
 
+
 ---
 
 Sul tema di Natale fare scambi con la comunità con cui abbiamo un gemellaggio (canti, poesie, cassette, dischi, biglietti di auguri………)
+
 
 ---
 

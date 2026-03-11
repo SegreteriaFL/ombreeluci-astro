@@ -1,4 +1,5 @@
 ---
+
 title: Cosa so dei social? E cosa ne penso?
 date: 2018-03-26
 author: Monica Leggeri
@@ -18,6 +19,7 @@ issue_number: OEL-141
 id_numero: "OEL-141"
 numero_rivista: "Ombre e Luci"
 ---
+
 **S ono una assidua frequentatrice di Facebook e utilizzo molto WhatsApp.** Entrambi hanno sicuramente migliorato il mio modo di informarmi e di comunicare. Sia nel lavoro che nella vita privata.
 
 È una comunicazione veloce, che accorcia le distanze temporali e fisiche, però non coinvolge tutti i canali comunicativi ed espressivi che arricchiscono una conversazione vecchio tipo, “vis a vis” e questo può essere limitante. E bisogna avere la capacità di scegliere e imparare a filtrare i messaggi utili.

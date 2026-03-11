@@ -1,4 +1,5 @@
 ---
+
 title: Centro sperimentale per l’autismo
 date: 1995-12-30
 author: Nicole Schulthes
@@ -17,6 +18,7 @@ issue_number: OEL-51
 id_numero: "OEL-51"
 numero_rivista: "Ombre e Luci"
 ---
+
 D
 all’ingresso, in giardino, un’impressione positiva è data dall'
 **apparenza dei locali**

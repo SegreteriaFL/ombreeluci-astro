@@ -1,4 +1,5 @@
 ---
+
 title: "Danzerò per te"
 date: "1987-09-25"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-19
 id_numero: "OEL-19"
 numero_rivista: "Ombre e Luci"
 ---
+
 Chi avrebbe immaginato che la piccola Mireille — che a due anni aveva avuto un piedino schiacciato in un ascensore — sarebbe diventata, a forza di entusiasmo e di coraggio, prima ballerina all’Opera di Parigi?
 
 Ma la gloria passeggera delle vedettes non soddisfa Mireille che aspira al dono totale di se stessa a quel Cristo che scopre un giorno e che diventa il centro della sua vita.

@@ -1,4 +1,5 @@
 ---
+
 title: Scout a Lourdes
 date: 2001-03-09
 author: Daniele Cogliandro
@@ -16,7 +17,10 @@ umap_z: 13.286680221557617
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Per me fare la vita ospedaliera era una cosa meravigliosa perché ho capito che la cosa più importante che esiste nel mondo è aiutare il prossimo che ha bisogno di noi"
 ---
+
 Quando sono stato a Lourdes una delle tante attività che ho svolto era quella dello Scout nel gruppo barellieri. Questa, era per me un’esperienza che mi ha fatto conoscere un mondo di affetto e aiuto per le persone carrozzate e per quelle nel barellato. Il viaggio verso Lourdes era di grande soddisfazione perché io personalmente ho aiutato un collega barelliere a trasportare per tutti gli scompartimenti del treno sia il pranzo che la cena fino a raggiungere il vagone riservato per le vivande per prendere le altre confezioni di cibo e continuare il servizio.
 
 > «Per me fare la vita ospedaliera era una cosa meravigliosa perché ho capito che la cosa più importante che esiste nel mondo è aiutare il prossimo che ha bisogno di noi».

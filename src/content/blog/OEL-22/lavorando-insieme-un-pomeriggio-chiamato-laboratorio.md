@@ -1,4 +1,5 @@
 ---
+
 title: Lavorando insieme, un pomeriggio chiamato laboratorio
 date: 1988-06-28
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-22
 id_numero: "OEL-22"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sono Francesca, ho quasi 18 anni, e da quattro faccio parte della grande famiglia di
 *[Fede e Luce](http://fedeeluce.it)*
 . Scrivo per raccontarvi la stupenda esperienza fatta nel mio gruppo, S. Francesco, perché possa essere anche per altri un momento di riflessione. Tre anni fa, si pensò di realizzare qualcosa di diverso con i ragazzi.

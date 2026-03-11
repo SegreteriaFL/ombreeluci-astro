@@ -1,4 +1,5 @@
 ---
+
 title: Il verdetto dei medici
 date: 1986-03-23
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-13
 id_numero: "OEL-13"
 numero_rivista: "Ombre e Luci"
 ---
+
 Di fronte a voi un uomo deve dirvi: «Vostra figlia è cieca, sorda, non camminerà...». Siete lì, pieni di angoscia in attesa del verdetto e quell'uomo davanti a voi ne è cosciente. Medico, non sa da che parte cominciare per dirvi la verità. Diventa allora come un elefante in un negozio di porcellane. Cerca di nascondersi dietro a conoscenze che sembra egli stesso mettere in dubbio. Ma non può. Alcuni di loro ne vengono fuori senza far troppi danni. Riescono a farvi capire che non tutto è perduto, riescono a far brillare una sottile speranza. Ma ci sono anche quelli completamente maldestri, quelli che assumono una maschera dura o indifferente, quelli che si spazientiscono... Senza dubbio soffrono di non trovare le parole giuste, di non essere capaci di essere come vorrebbero. Ne ho incontrati tanti da quando Anna è nata. Uno di loro mi ha detto, proprio nel momento in cui avevo bisogno di un po’ di conforto: «La metta il prima possibile in un istituto e faccia presto un altro figlio!» Un’infermiera della clinica dove ho messo al mondo Anna, è stata lì lì per prendere il telefono in testa perché mi rimproverava di rifiutare la bambina. Parole che anch'io forse avrei detto senza volere, se mi fossi trovata al loro posto.
 
 ### Conoscere la verità

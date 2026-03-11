@@ -1,4 +1,5 @@
 ---
+
 title: "La scuola elementare di Gianluca: è vera socializzazione?"
 date: "2005-09-19"
 author: "Valeria Adorni Braccesi"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Mi è stata chiesta una testimonianza sull’integrazione di mio figlio a scuola e devo dire onestamente che è un tema difficile da trattare"
 ---
+
 Mi è stata chiesta una testimonianza sull’integrazione di mio figlio Gianluca a scuola e devo dire onestamente che trovo quest'argomento alquanto difficile da trattare. La testimonianza diretta della nostra esperienza non può infatti servire come "esempio", come sono convinta non lo può nessun'altro "caso", senza rischiare di ricadere in quello che considero il più grosso problema delle leggi che tutelano i bambini disabili. Ognuno di essi è UNICO e necessita di risposte individualizzate, di soluzioni diversificare, di poter scegliere tra sistemi diversi. L’integrazione scolastica può essere per alcuni, o per lo stesso bambino, un'opportunità di crescita meravigliosa o rivelarsi una fonte di frustrazione e regressione. Dipende molto dal tipo di Handicap, dagli insegnanti di ruolo, dagli insegnanti di sostegno, dai genitori degli altri bambini e da noi stessi. Dalla nostra capacità in primis di accettare le diversità dei nostri figli, le difficoltà quotidiani, gli sguardi insofferenti perché danno noia o perché non fanno cose come gli altri. Credo che dipenda molto da come noi riusciamo a farli risplendere nel nostro cuore e in quelli degli altri.
 
 Gianluca ad esempio ha un ritardo considerato medio grave e adesso si esprime con suoni e innumerevoli gesti tratti da un linguaggio simbolico che gli indiani d'America usavano durante la guerra e dal LYS il linguaggio più usato dai muti.

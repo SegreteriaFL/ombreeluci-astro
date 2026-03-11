@@ -1,4 +1,5 @@
 ---
+
 title: Pennellate dai Centri Fede e Luce
 date: 1976-02-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.299320220947266
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Riceviamo e pubblichiamo volentieri notizie e aggiornamenti dalle comunità di Fede e Luce che crescono sempre di più"
 ---
+
 ### Cuneo 25/1
 
 Abbiamo fatto un incontro qui a Cuneo domenica scorsa organizzandolo come segue: verso le 14:30 ci siamo ritrovati a "Stella Mattutina", che gentilmente mette a disposizione i locali e si è iniziato l'incontro con alcuni giochi (rottura delle pignatte, tiro a segno con i birilli, indovinelli ecc.) ai quali hanno partecipato i ragazzi, le suore, i genitori e gli amici. Alle 16:00, mentre alcuni amici continuavano a giocare con i ragazzi, gli altri si sono riuniti con i genitori e le suore per discutere di vari argomenti. Alle 17:00 i ragazzi ci hanno raggiunto e, dato che don Romano non è potuto venire per la celebrazione Eucaristica, abbiamo pregato un po' tutti insieme leggendo il brano di Vangelo, facendo un po' di preghiera spontanea e cantando due canti.

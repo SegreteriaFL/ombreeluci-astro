@@ -1,4 +1,5 @@
 ---
+
 title: Per la prima volta lontano da me
 date: 1983-09-30
 author: Rita Ozzimo
@@ -26,6 +27,7 @@ umap_y: 8.039159774780273
 umap_z: 9.83670425415039
 id_numero: "OEL-3"
 ---
+
 Il mio bambino aveva circa 8 anni quando per la prima volta è andato fuori casa senza di me. Un giorno, nella scuola che frequentava, un’amica mi chiese se volevo mandarlo ad un campeggio fatto da giovani ragazzi e bambini su per giù con lo stesso handicap di mio figlio. A questa domanda rimasi alquanto sconcertata e cominciai ad elencarle tutti i problemi che Pablo aveva: non camminava, non parlava, non mangiava da solo, aveva il pannolino e, cosa più importante, alla sera si addormentava solo se in braccio a me o al papà. Man mano che elencavo questi problemi, lei, questa mia amica, sorrideva. Mi diede tempo per pensarci.
 
 Mi convinsi a mandarlo parlandone con mio marito; avevamo capito che sarebbe stato un inizio di crescita. I giorni passavano, non se ne parlò più. Quando giunse il momento di concretizzare tutti i miei buoni propositi, mi venne una paura tremenda e volevo rimandare l’esperienza ad una prossima volta. Quando fu il momento della decisione mi incontrai con una giovane ragazza che faceva parte delle persone che organizzavano il soggiorno: a lei dovevo affidare Pablo. Prima che io le dicessi la mia decisione, volle sapere tutto di lui, anche le più piccole cose e questo fu un balsamo per me: non riuscii a dire di no.

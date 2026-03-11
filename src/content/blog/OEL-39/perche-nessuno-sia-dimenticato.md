@@ -1,4 +1,5 @@
 ---
+
 title: "Perché nessuno sia dimenticato"
 date: "1992-09-12"
 author: "Henri Bissonier"
@@ -15,6 +16,7 @@ issue_number: OEL-39
 id_numero: "OEL-39"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quanti bambini e ragazzi sono lasciati da parte perché considerati «non adatti» per il catechismo e non vengono aiutati a scoprire l’accoglienza incondizionata di Colui che è venuto a cercare ognuno di noi, a cominciare dal più rifiutato, dal più disprezzato, dal più povero?
 Di chi intendiamo parlare?
 Riassumiamo brevemente facendo qualche esempio:

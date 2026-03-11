@@ -1,4 +1,5 @@
 ---
+
 title: "Il 4° momento: tra un incontro e l'altro"
 date: 1990-09-26
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-31
 id_numero: "OEL-31"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nella vita di Fede e Luce ci siamo resi conto a un certo punto che, accanto alla vita dei gruppi e all’attività negli incontri, nasceva e si sviluppava pian piano fra le persone una nuova forma di relazione che aveva una diversa natura. Man mano che i rapporti di amicizia crescevano, all’interno delle comunità, varie persone trovavano naturale cercarsi anche durante la settimana, dopo la scuola o il lavoro, per passare insieme alcune ore, come si usa fare tra amici: cenando insieme in famiglia o in un locale, andando al cinema, riunendosi intorno a una pagina della Scrittura, passando qualche tempo in preghiera... Tutto ciò avveniva sia spontaneamente, senza alcuna organizzazione, sia sulla spinta delle persone
 **Leggi anche: [Incontro di una comunità di Fede e Luce](http://www.ombreeluci.it/1990/incontro-di-una-comunita-di-fede-e-luce/)**
 Tra un incontro e l’altro responsabili che in tal modo si sforzavano di vivificare e di sostenere una nuova forma di vita delle comunità che vedevano sorgere. In questo modo è nato il «quarto momento» di Fede e Luce, così chiamato per distinguerlo dagli altri tre momenti (della festa, della preghiera, dello scambio) che costituiscono gli incontri delle comunità Fede e Luce. Con l’espressione «quarto momento» si intendono tutti i rapporti e le attività che si stabiliscono fra i componenti del gruppo e che non rientrano negli incontri tradizionali. Fa parte del «quarto momento», ad esempio, la tradizione che una famiglia inviti in certe ricorrenze tutto il gruppo; oppure andare tutti insieme al cinema la sera del giorno di Natale; o ancora, l’appuntamento che si danno spesso tre o quattro persone per giocare a carte; o l’organizzazione di un ciclo di serate di preghiera, ogni volta in una casa diversa... Nel quarto momento può rientrare anche il torneo di calcetto fra le diverse comunità di Roma, nel quale tutti possono giocare, e che si è rivelato formativo e divertente in modo straordinario. Il

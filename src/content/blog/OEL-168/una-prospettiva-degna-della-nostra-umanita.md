@@ -1,4 +1,5 @@
 ---
+
 title: "Una prospettiva degna della nostra umanità"
 date: "2024-10-16"
 author: "Cristina Tersigni"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal 12 al 15 settembre 2024 il festival Aut Art che dà spazio ad artisti neurodivergenti"
 ---
+
 «Vorremmo che a venirci a trovare al festival fosse chi non conosce l’autismo, coloro che non fanno parte di questo mondo così vario e così poco conosciuto… vorremmo incuriosirli. Per questo lasceremo le porte del teatro non aperte ma spalancate perché chi vuole si affacci ed entri in contatto con questa realtà, lasciandosene anche contaminare».
 
 Paola Nicoletti presentava così la prima edizione di un festival che a Roma rappresenta una grande occasione per avvicinarsi al mondo autistico. E anche quest’anno le porte del Teatro degli Eroi si sono spalancate per la seconda edizione del festival che si è svolta nel settembre scorso. Un giorno in più rispetto a quella precedente ha reso ancora più denso il programma già molto vario e ricco, impostato su un format uguale per ogni giornata: tavole rotonde e dibattiti al mattino per l’*aut meeting*, sui temi importanti che riguardano chi vive questa condizione; presentazione di libri per riflettere insieme e «far circolare idee»; uno spazio pomeridiano dedicato all’arte come mezzo di espressione anche per coloro che non parlano; un *talent* non competitivo preserale e uno spettacolo serale.

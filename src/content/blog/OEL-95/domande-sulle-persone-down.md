@@ -1,4 +1,5 @@
 ---
+
 title: Domande sulle persone Down
 date: 2006-09-27
 author: Redazione
@@ -18,7 +19,10 @@ tags:
 umap_x: 5.4750471115112305
 umap_y: 10.278675079345703
 umap_z: 7.096505641937256
+
+subtitle: "L'istituto J. Lejeune, specializzato nella ricerca e nella cura delle persone disabili, ha recentemente pubblicato una guida per i genitori delle persone Down e per chi si prende cura di loro. Non essendo questo testo ancora tradotto in italiano, ne abbiamo tradotto alcuni passi con il permesso della Fondazione."
 ---
+
 **Mio figlio si rende conto del suo handicap? Devo parlargliene?**
 Fin dall'inizio della sua vita, il bambino poco per volta si rende conto della sua differenza. Se la mamma ha avuto una diagnosi prenatale, è probabile che il bambino in utero sia stato avvolto da uno stato di ansia. È un po’ come se perdesse la sua identità di bambino a vantaggio di uno statuto mal definito, designato con parole più o meno dotte come “mongolismo”, “sindrome di Down”, “trisomia 21”. Il bambino è oggetto di analisi, di sguardi inquisitori dove spesso non c’è posto per la tenerezza. Egli è lì presente quando si evoca la possibilità di abbandonarlo, di rinunciare al suo riconoscimento come figlio. Alla nascita avverte le emozioni del papà e della mamma, le loro inquietudini, esitazioni, le paure per l'avvenire... Poco a poco si accorge delle sue difficoltà rispetto agli altri bambini. Soffre anche per lo sfalsamento fra quello che fa e quello che ci si aspetta da lui. Lungo tutta la sua vita, lo sguardo degli altri in difetto o in eccesso sarà per lui un'esperienza traumatica. Deve adattarsi a questi sguardi maldestri di fuga o di paura, d’infantilizzazione o di compassione. Parlare con lui quindi della sua sindrome, lo aiuta a prenderne coscienza e ad accettarla. È molto importante cominciare, fin da subito, a spiegargli con parole semplici la sua identità e filiazione, ma anche i limiti e le costrizioni imposte dalla sua condizione. Certo all’inizio non capirà il significato delle parole ma sarà sensibile al tono della voce, alla tenerezza e al rispetto con cui sono dette. Poco importa se queste parole saranno accompagnate da qualche lacrima, dal momento che lui si sente amato così com'è. Il bambino deve prendere l'abitudine di sentir parlare della sua disabilità. Da evitare ad ogni costo la rivelazione, spesso brutale, fatta da un terzo, sconosciuto, senza uno sguardo o una replica possibili. Quella rivelazione che deve invece essere fatta progressivamente nella quotidianità della vita familiare. Parliamogli con parole nostre, quelle che vengono dal cuore. Parole che lo aiutano a capire che è riconosciuto così com'è, che non è solo lui solo ad avere differenze, paure, frustrazioni e che può contare sull'aiuto degli altri. Un giorno forse sarà lui stesso a far domande sull’origine della trisomia 21 o delle sue difficoltà. Non evitiamo tali domande. Parliamo anche delle emozioni che queste suscitano. Medici e psicologi esperti nel campo, possono aiutare ad affrontare questi temi. Spieghiamogli che lui ha il suo posto, come gli altri, in famiglia, in classe, nelle società, e che non è prima di tutto un down, ma una persona unica con le sue difficoltà e difetti.
 **Come aiutare mio figlio ad accettare meglio la sua condizione?**

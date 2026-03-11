@@ -1,4 +1,5 @@
 ---
+
 title: Essere vicini a chi è in fin di vita
 date: 2004-12-14
 author: Marie-Sylvie Richard
@@ -16,7 +17,10 @@ tags:
 umap_x: 7.392204761505127
 umap_y: 10.92709732055664
 umap_z: 6.787014007568359
+
+subtitle: "La dottoressa Richard, religiosa saveriana e responsabile di un centro di cure palliative, ci dice la sua esperienza vissuta accanto a persone morenti"
 ---
+
 La fragilità della persone vicina alla morte, rivela il senso profondo della dignità umana. La dottoressa Richard, religiosa saveriana e responsabile di un centro di cure palliative, ci dice la sua esperienza vissuta accanto a persone morenti: con ognuna di loro bisogna in tutti i modi cercare di mettersi in relazione.
 
 Sempre la relazione con l’altro dà gusto e significato alla nostra vita. Con un malato giunto in fin di vita però, diventa difficile stabilire un contatto: si è di fronte ad una persona che soffre ed è l’ascolto di questa sofferenza che rende possibile la relazione.

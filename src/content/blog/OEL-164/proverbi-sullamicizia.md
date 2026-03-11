@@ -1,4 +1,5 @@
 ---
+
 title: "Proverbi sull'amicizia"
 date: 2023-03-09
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.447721481323242
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le Scritture offrono una guida preziosa quando si tratta di scegliere gli amici. Ecco alcuni versetti sull'amicizia e su come i nostri amici, se scelti con cura, possano essere la più grande fonte di amore, guarigione, gioia e incoraggiamento"
 ---
+
 ### Sugli amici
 
 > Un amico vuole bene sempre, è nato per essere fratello nella sventura. Proverbi 17,17

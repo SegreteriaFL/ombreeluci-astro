@@ -1,4 +1,5 @@
 ---
+
 title: "C’è un problema col tuo bambino?"
 date: "1996-03-04"
 author: "Redazione"
@@ -15,6 +16,7 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
+
 Abbiamo pensato di presentarvi qualche consiglio sotto forma di test.
 Questi consigli potranno essere utili ad alcuni di voi, genitori, (ma anche educatori e amici), per quel duro lavoro quotidiano che è l'educazione, soprattutto dei bambini difficili.
 Disegni e testi (rimaneggiati) sono stati pensati e preparati da esperti educatori che da anni consacrano la loro competenza a bambini con gravi difficoltà.

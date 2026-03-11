@@ -1,4 +1,5 @@
 ---
+
 title: "II focolare, comunità educativo-terapeutica"
 date: "2008-06-27"
 author: "Cristina Tersigni"
@@ -14,7 +15,10 @@ categoria_menu: "Comunità"
 issue_number: OEL-102
 id_numero: "OEL-102"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una comunità educativo-terapeutica per ragazzi adolescenti con disagio psico-socio-familiare: dialogo con Gabriella D’Intino, psicologa responsabile della struttura"
 ---
+
 Apparentemente, la situazione di Valerio, un ragazzino di dodici anni, una mamma e un papà molto affezionati, era abbastanza stabile se si escludono alcuni periodi di assenza da scuola un po’ troppo prolungati. Questo fino all’arrivo alla scuola media quando per lui divenne praticamente impossibile uscire da casa, anche per andare a scuola: non contava lo sforzo dei genitori né quello di operatori appositamente mandati dai servizi sociali che lo seguivano. Il ragazzo passava la giornata nella sua stanza, in penombra, davanti lo schermo di un computer: la camera era piena di videogiochi, fumetti giapponesi e poster. Valerio non si muoveva da quella postazione, rimaneva lì tutto il giorno senza alzarsi neanche per mangiare: la mamma gli portava un vassoio in camera, spesso con hamburger e patatine del fast food, il cibo che mangiava più volentieri.
 
 Sua madre stravedeva per lui, lo descriveva come un angelo, e né lei né il papà avevano mai imparato ad essere autorevoli; il suo consenso era necessario per decidere anche piccole cose. I genitori di Valerio non decidevano neanche cosa cucinare senza chiederlo a lui: avrebbe potuto sembrare una coccola, ma era sempre stato così. Come si trova la forza per separarsi da un genitore che aveva fatto sempre tutto per il figlio e al quale non aveva mai fatto mancare nulla di quello che voleva?

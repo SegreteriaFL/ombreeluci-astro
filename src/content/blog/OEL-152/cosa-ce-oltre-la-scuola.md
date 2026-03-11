@@ -1,4 +1,5 @@
 ---
+
 title: "Cosa c'è oltre la scuola?"
 date: "2021-02-04"
 author: "Monica Leggeri"
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Noi genitori che, sin dal nido, abbiamo cercato modalità, rapporti e persone che potessero aiutare i nostri figli a trovare un ambiente accogliente e inclusivo; noi che abbiamo incontrato nella scuola forse l’unica occasione di relazione con i loro pari per i nostri figli. Noi che sappiamo che nel “dopo scuola” per i ragazzi con disabilità mentale non c’è molto, forse nulla, se non centri diurni con lunghe liste di attesa che rischiano di compromettere tutto il lavoro svolto in precedenza, con la paura di vedere i nostri ragazzi regredire. Noi che sentiamo angosciante la domanda: «Cosa c’è per i nostri figli, dopo la scuola?».
 
 Della questione hanno cercato di farsi carico, una decina di anni fa, Ferdinanda Cargoni e Valentina Spalletta. Assistenti specialistiche dal 2004 di alcuni ragazzi con disabilità mentale al liceo Gelasio Caetani di Roma, Cargoni e Spalletta hanno portato avanti il progetto di integrazione scolastica finanziato dalla provincia di Roma, instaurando un rapporto di fiducia e scambio con i ragazzi e le loro famiglie, attraverso le attività svolte nella scuola e durante i viaggi organizzati. Su richiesta dei genitori, hanno poi iniziato a organizzare uscite pomeridiane di gruppo con i ragazzi che già si conoscevano. «Si è creato così – spiega Cargoni – un buon affiatamento sia individualmente che in gruppo, coordinandosi continuamente con la maggior parte delle figure specialistiche con le quali rimaniamo in stretto contatto. L’uscita dal mondo della scuola dei ragazzi è un cambiamento radicale nelle abitudini quotidiane e nei rapporti interpersonali. I genitori ci hanno manifestato un forte interesse a mantenere il gruppo unito, dimostrando fiducia per il lavoro che avevamo svolto durante la scuola. Abbiamo deciso di costituire [*Il Col**i**brì*](https://www.facebook.com/Associazione-Il-colibri-APS-1706213456274053/) come no profit nell’ottobre del 2015 e, nel 2019, siamo diventati ente del Terzo Settore».

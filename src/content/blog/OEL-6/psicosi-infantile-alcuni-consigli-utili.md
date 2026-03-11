@@ -1,4 +1,5 @@
 ---
+
 title: "Psicosi infantile: alcuni consigli utili"
 date: 1984-06-29
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-6
 id_numero: "OEL-6"
 numero_rivista: "Ombre e Luci"
 ---
+
 Dopo le testimonianze di alcuni genitori di figli psicotici ( [qui](http://www.ombreeluci.it/1984/figlio-mio-non-credo/) e [qui](http://www.ombreeluci.it/1984/e-sempre-stato-rifiutato/) , per esempio) e il parere di due illustri studiosi (quello del [prof. Pélicier](http://www.ombreeluci.it/1984/nessun-uomo-e-una-pietra/) e del [prof. Duché](http://www.ombreeluci.it/1984/psicosi-precoci-che-cosa-sono/) ) cerchiamo di tirare le somme dando alcuni consigli generali sulla gestione della psicosi infantile.
 
 ### Indicazioni generali

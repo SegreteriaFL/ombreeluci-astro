@@ -1,4 +1,5 @@
 ---
+
 title: Affrontare la perdita
 date: 2022-08-05
 author: Cristina Cangemi Matteo Tobanelli
@@ -15,6 +16,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 John, un uomo con la sindrome di Down, aspettava fuori da un cimitero. Gli era stato detto che la mamma era partita, e lui la stava aspettando. **La verità era che la mamma era morta ma nessuno aveva avuto il coraggio di dirglielo.** Di conseguenza, non aveva perso solo la mamma ma anche la possibilità di capire perché non la vedeva più. La sua solitudine non aveva modo di essere espressa, ma si risolveva soltanto in un’eterna attesa.
 
 Gli ultimi venticinque anni hanno visto tanti cambiamenti riguardo l’appartenenza delle persone con disabilità alla vita e alla missione della Chiesa. Le loro storie e la loro voce hanno tracciato uno spostamento nel pensiero e nella pratica del cristianesimo, da una posizione di esclusione e marginalità a un riconoscimento del suo valore e identità. Sono emersi molti interrogativi: «Perché le persone disabili sono percepite negativamente? Come mai mancano dalle parrocchie? Cosa direbbe Gesù della loro scarsa presenza?».

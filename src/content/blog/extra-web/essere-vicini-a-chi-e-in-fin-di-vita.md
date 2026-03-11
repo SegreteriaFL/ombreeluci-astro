@@ -1,4 +1,5 @@
 ---
+
 title: "Essere vicini a chi è in fin di vita"
 date: "2004-12-14"
 author: "Marie-Sylvie Richard"

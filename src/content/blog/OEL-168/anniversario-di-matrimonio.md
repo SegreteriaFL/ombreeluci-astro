@@ -1,4 +1,5 @@
 ---
+
 title: Anniversario di matrimonio
 date: 2024-03-13
 author: Efrem Sardella
@@ -14,7 +15,10 @@ umap_z: 10.978209495544434
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Efrem ci invita ad entrare ancora una volta in casa sua e a conoscere meglio la sua famiglia"
 ---
+
 *Dopo aver conosciuto zia Cosima e il sapore delle sue farine lattee, Efrem ci invita ad entrare ancora una volta in casa sua e a conoscere meglio la sua famiglia. Siamo invitati ad una festa davvero speciale, che rivive nel suo ricordo: il cinquantesimo anniversario di matrimonio dei suoi genitori, Margherita e Gianni.*
 
 L’anno scorso **i miei genitori hanno festeggiato 50 anni di matrimonio.** Nella nostra famiglia non si usa fare grandi feste, ma questa volta anche mio padre che non ama per niente le feste, ha cominciato a chiedere: cosa facciamo ora che arriva l’anniversario? La mamma si è un po’ meravigliata, conoscendo bene il pensiero di papà…

@@ -1,4 +1,5 @@
 ---
+
 title: Proprio io?
 date: 2015-03-19
 author: Angela Grassi
@@ -17,6 +18,7 @@ issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
 ---
+
 > “Io? Proprio io?”.
 
 N

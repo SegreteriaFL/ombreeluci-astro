@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 122
 date: 2013-06-10
 author: Redazione
@@ -14,12 +15,17 @@ umap_z: 11.313825607299805
 issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Pino
 
 Carissimo Pino, figlio adorato, santo e benedetto da Dio e dalla tua mamma, come a te piaceva chiamarmi. Sarai felice di vedere la tua adorata famiglia, i tuoi amici e parenti, tutti per darti quest’ultimo saluto terreno, in questa parrocchia dove hai trascorso gran parte della tua vita, partecipando a funzioni religiose, messe e feste. Hai servito Gesù su questo altare, con tanta felicità nel cuore e con tutta la serenità e la dolcezza che potevi avere. Ricordo un giorno che sei tornato a casa dicendomi: “Mamma, oggi ho fatto una proposta a Gesù. Gli ho detto: Senti Gesù, se tu scendi un po’ da quella croce, perché sarai stanchissimo, vengo io a sostituirti così ti riposi un po’. Ma lui, mamma, non ha voluto lasciarla quella croce. Ma un giorno, vedrai che lo convincerò”. Mio caro figlio, quante volte ti abbiamo visto piangere dopo aver preso la Santa Comunione perché dicevi che Gesù ti parlava nel cuore, ma tu non ti accontentavi perché volevi sentirlo anche nelle tue orecchie, a tu per tu, e mi dicevi sempre: “Mamma ti prego! Portami in qualche posto molto alto, vicino al cielo, così forse lo sentirò ”. Un giorno volli accontentarti, così io e tua cugina Alba ti portammo su una chiesetta in alto su una montagna dicendoti: “Ecco Pino, ora siamo proprio in alto vicino al cielo, qui puoi urlare come vuoi e Gesù senz’altro ti sentirà”. Tu però, attratto da quella chiesetta, sei caduto in ginocchio pregando a lungo e dicendomi dopo: “Mamma sono certo che questa volta Gesù mi ha veramente ascoltato”. Ora sei lassù come hai sempre desiderato, chiedendo a Gesù di chiamarti presto per abbracciare lui e il tuo papà. Ecco, finalmente puoi essere felice e festeggiare questo grande giorno sia lassù che quaggiù con tutti noi, presente su questo altare a te tanto amato forse più della tua casa. Ora io, i tuoi fratelli, fratelloni come li chiamavi tu, i tuoi parenti, i tuoi amici, ti ringraziamo tutti per aver vissuto la tua vita terrena in mezzo a loro e a noi. Io non so più dove troverò le forze se non ci sei più. Eri il bastone della mia vecchiaia, la mia compagnia, il mio conforto; ora porti con te un gran pezzo del mio cuore, ma sono sicura che anche da lassù sarai sempre presente in mezzo a noi e passerai la luce che avevi ai tuoi fratelli. Ti tengo stretto stretto nel mio cuore per sempre.
 
 **Olga, la tua mamma terrena**
+
+
 
 ---
 
@@ -29,17 +35,23 @@ Ciao Giacomo, è da un po’ che pensavo di scriverti, perchè, da quando te ne 
 
 **Natalia**
 
+
+
 ---
 
 ### Natalia
 
 Cara Natalia, ti ho conosciuto poco tempo dopo il mio matrimonio con Francesco, da poco arrivata in Italia,e ho subito sentito in te, mezza svizzera, una “vena straniera”. Probabilmente questo ci ha legato in modo particolare e spesso facevamo paragoni tra l’Italia e i nostri paesi di origine, trovandone vantaggi e punti nevralgici. Eri una donna molto elegante nel portamento e nell’animo, sempre pronta a trovare il lato positivo e bello in ciò che la circondava. Questo mi ha aiutato molto nel cercare la strada migliore per inserirmi e capire meglio il paese dove ero venuta a vivere. Quando osavo esprimere un appunto verso i modi di fare e gli atteggiamenti diversi rispetto alle mie abitudini, tu non controbattevi mai con veemenza, ma dicevi: “Ma pensa …!” E anche durante le nostre discussioni e scambi di opinioni in redazione, a volte accese, rispondevi con il tuo consolidato, ingenuo, “Ma pensa…” che inizialmente poteva irritarci ma che, ho poi capito, serviva a smorzare le tensioni e ci invitava a pensare e a trovare la soluzione ragionando e approfondendo di più. Il tuo ma pensa …! mi induceva spesso a trovare la strada più aperta e più accogliente. Ricordo una volta, durante un tragitto in macchina andando insieme a Ombre e Luci, in cui mi sfogai sulla mancanza, a Roma, di un orario degli autobus: “Che indecenza, che disordine, non sapere quando arriva l’autobus alla fermata!” Tu non mi rispondesti con la cosa più ovvia, che il gran traffico di Roma non permette un orario preciso, ma dicesti ancora: Ma pensa …! Ti ricordi quanto era carino l’autista che ti riportò a casa la ragazza alla pari alle tre di notte, cambiando e allungando la sua strada di rientro di fine turno ed evitandole così di fare da sola un bel pezzo di strada a piedi?” Speravo, col tuo sangue svizzero, di aver trovato una complice dalla mia parte, invece mi guidavi con delicatezza ed eleganza a trovare subito il lato positivo della faccenda! Hai sempre dimostrato il tuo amore per il lavoro, qualunque fosse, con un personale coinvolgimento sempre profondo. Non ti tiravi mai in dietro ed eri sempre pronta a nuove sfide. Da mamma, nonna, moglie e figlia, anche in momenti non semplici, ogni tua azione era fatta con amore, semplicità e modestia: grazie per questo e per la tua dedizione palpabile ma mai ostentata verso Ombre e Luci, la sua causa e verso chi aveva bisogno. **Huberta Pott**
 
+
+
 ---
 
 ### Lucetta
 
 Lucetta era un’amica generosa e sincera, non si risparmiava, correva là dove capiva che ci fosse bisogno di attenzione, di accoglienza di ascolto e di amicizia vera. Capiva e condivideva la sofferenza di chi, meno fortunato, viveva in solitudine la propria condizione di disabilità. Lucetta si lasciava coinvolgere da questa sofferenza e si premurava di alleviarla con la sua presenza, con l’essere accanto. Questa sollecitudine ha caratterizzato tutta la sua vita. A seguito di un incontro con il gesuita belga, P. Roberti, venuto a Parma ad annunciare la spiritualità del movimento Fede e Luce, aveva fondato, assieme a don Francesco Marchini, la comunità di incontro “ SS. Innocenti”, una delle prime comunità italiane, che riuniscono persone disabili mentali, le loro famiglie e gli amici. Qualche anno più tardi, anche la comunità “Amici insieme”di Parma, aderirà a Fede e Luce. Lucetta fu attratta dall’annuncio della predilezione di Gesù per i “piccoli”, per gli emarginati, per coloro che non contano, ma hanno il dono di trasformare il cuore di chi li accoglie ed entra in comunione con loro. La salute cagionevole, aveva condizionato il suo percorso di vita. Per curarsi, aveva dovuto allontanarsi periodicamente da casa, lontano dagli affetti familiari. Ulteriore motivo, per approfondire ciò che nella vita è essenziale e interrogarsi per capire meglio il suo rapporto con Dio, con la vita e la morte, con gli altri. Queste domande avevano trovato risposta nell’ascolto ed approfondimento della Parola di Dio, nella preghiera, nell’incontro con il messaggio di Jean Vanier. In una realtà dominata dall’apparenza, dalla competitività e divisione, la fragilità è lo spazio in cui Dio intervenire per ristabilire l’unità, per riportare la pace del cuore, Dio fa sul serio ed ama ciascuno “così come è”. Attraverso la comunità, luoghi di tenerezza e di amore, ciascuno ritrova fiducia in se stesso e negli altri, scopre i propri doni spesso nascosti ed è incoraggiato a metterli a disposizione. Il mio incontro con Lucetta è avvenuto intorno al 1980 e devo dire che aveva saputo trasmettere in me la sua passione per Fede e Luce. Negli anni successivi , a seguito di scambi vissuti con lei e con don Francesco, anche a Fidenza si è deciso di aderire al movimento. L’insegnamento più forte che credo di aver ricevuto è stato quello di non lasciarsi paralizzare dalle difficoltà e fragilità che ciascuno di noi porta e sperimenta dentro di sé. Amava tessere, ripescare e coltivare quei rapporti che per lei erano essenziali, anzi vitali per la comunione, considerato il bene più grande e faticava ad accettare qualsiasi cosa che non fosse preciso, bello, preparato con cura e nei dettagli. Sì, “per i suoi ragazzi” avrebbe voluto sempre il meglio perché era certa che lo meritassero. Questo era il suo stile, vissuto in ambito lavorativo, come insegnante e nella comunità. Ultimamente, le sue condizioni di salute le impedivano di servire la comunità come avrebbe voluto ma, nonostante le difficoltà, quando riusciva,si recava lei stessa presso le famiglie ormai impossibilitate ad uscire di casa a motivo dell’età o della malattia. Continuava così ad essere presente, ad esprimere la sua vicinanza con una visita, un saluto, con la lettera di Jean Vanier appena arrivata … E questa era la sua gioia! **Lucia Casella**
+
+
 
 ---
 

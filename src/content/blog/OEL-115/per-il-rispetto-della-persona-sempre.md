@@ -1,4 +1,5 @@
 ---
+
 title: Per il rispetto della persona, sempre
 date: 2011-09-04
 author: Vittore Mariani
@@ -17,6 +18,7 @@ issue_number: OEL-115
 id_numero: "OEL-115"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Attacchi alla dignità della persona
 
 Negli ultimi anni, prima nei salottini degli intellettuali borghesi e poi insinuandosi nell'opinione pubblica, si è diffuso l’ambiguo quesito: “È una vita degna di essere vissuta?” Ci si riferisce specialmente ad esseri umani in stato di vita vegetativa e con patologie degenerative, ma il quesito si sta progressivamente allargando alle persone con disabilità intellettiva considerate gravi, cioè molto dipendenti dagli altri, con poche autonomie e abilità, scarse possibilità di partecipazione e di integrazione. Inoltre, altre persone sono sottoconsiderate, la cui vita viene comunemente ritenuta di minor valore. Ad esempio, i carcerati per gravi reati per cui si invoca la pena di morte; gli immigrati poveri, per i quali, quando affonda il barcone nel Mediterraneo e muoiono annegati, quasi nessuno versa una lacrima. Anche chi si trova nel grembo materno non è considerato pienamente umano e può essere abortito senza ritegno, con particolare accanimento verso il feto presunto malformato, il cui aborto è giustificato con terribile pietismo persino da sostenitori di movimenti per la vita. Potremmo citare molti casi di cronaca a conferma di questo andazzo, mentre molti drammi, molti attentati contro la vita avvengono nell’anonimato. Il caso recente più clamoroso e molto politicizzato di attacco alla vita e alla dignità della persona è stato quello di Eluana, in cosiddetto stato di vita vegetativa persistente. Il padre si è arrogato il diritto di decidere di farla morire, contro anche il parere delle suore che la seguivano da tanti anni, lo Stato gli ha permesso di compiere que DOSSIER ha dirittura considerato il suo come un atto di amore e di rispetto delle presunte volontà pregresse della figlia. Alimentazione e idratazione non sono però terapie, sono necessità primarie dell’essere umano. Inoltre, il linguaggio ha mostrato tutta la sua falsità: Eluana non era un vegetale, ma una disabile gravissima, cioè in stato di eteronomia totale, di totale dipendenza dagli altri. Mangiare e bere non erano per lei terapia, ma necessità primaria. Occorre cambiare il linguaggio, anche quello medico, se distorce la realtà, se impedisce il riconoscimento dell'umanità dell’essere umano. Gli schemi mentali possono stravolgere la realtà, farci vedere ciò che non è. C'è stato un medico che ha dichiarato che Eluana “è già morta da 17 anni” quando era ancora viva; anche il medico non vuole più riconoscere colui che ha di fronte, il suo pensiero prevale sulla realtà, ciò che dovrebbe essere palese non lo è più.

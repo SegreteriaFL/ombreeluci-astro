@@ -1,4 +1,5 @@
 ---
+
 title: "L'arte di costruire giocattoli creativi"
 date: 1995-09-12
 author: Redazione
@@ -15,5 +16,6 @@ issue_number: OEL-51
 id_numero: "OEL-51"
 numero_rivista: "Ombre e Luci"
 ---
+
 È
 il quaderno di appunti di Mastro Nocciola. Vi sono abbozzati gli schizzi, i disegni e i consigli per costruire giocattoli con materiali semplici, poveri, riciclati. PerMastro Nocciola questi sono soltanto appunti, per noi tutti è un vero e proprio manuale, una guida alla auto-costruzione di giocattoli creativi, che stimolano la nostra intelligenza e le nostre attività manuali. Sono sufficienti pochi e semplici attrezzi da lavoro, qualche bastoncino, alcuni rametti, una vecchia cassetta di legno, un pugno di chiodi, un po’ di colla e... vedremo nascere sotto ai nostri occhi oggetti di grande valore. Questo libro è rivolto agli adulti, ai bambini e alle bambine, perché insieme trovino il tempo e il gusto di costruire giocattoli». La nostra esperta in ergoterapia ha letto questo libro con vero godimento e ci assicura che le parole che abbiamo trascritto dall’ultima di copertina presentata dalla MACRO EDIZIONI sono proprio esatte!

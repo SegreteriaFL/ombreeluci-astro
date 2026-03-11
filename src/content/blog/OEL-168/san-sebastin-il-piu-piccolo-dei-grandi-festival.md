@@ -1,4 +1,5 @@
 ---
+
 title: "San Sebastián: il più piccolo dei grandi festival"
 date: "2024-10-09"
 author: "Claudio Cinus"
@@ -14,6 +15,7 @@ issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il Festival Internazionale del Cinema di San Sebastián (*Donostia Zinemaldia* è il nome in basco, SSIFF è l’acronimo ufficiale inglese) è tra quelli che amano definirsi**il più piccolo dei grandi festival. Non esistono classifiche ma è vero che questo evento, pur non al livello dei festival maggiori come Venezia e Cannes, è molto prestigioso, soprattutto nei paesi di lingua spagnola: giunto alla 72ª edizione, è l’evento che chiude la stagione dei festival estivi.
 
 Come d’abitudine nelle grandi manifestazioni, anche il SSIFF cerca di rendere l’esperienza del festival più aperta e inclusiva possibile. Ad esempio, uno dei modi di coinvolgere il pubblico sordo o ipoudente, cui già sono garantiti sottotitoli in tutte le proiezioni, è fare lo stesso anche con le cerimonie di gala (inaugurazione, chiusura, consegna dei premi alla carriera).

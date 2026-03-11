@@ -1,4 +1,5 @@
 ---
+
 title: Quante domande davanti a loro
 date: 1980-12-16
 author: Patrick Thonon
@@ -17,6 +18,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 Durante questo secondo campeggio di Alfedena, credo che abbiamo tutti provato un pò la stessa cosa. La maggior parte di noi siamo ad una età in cui cerchiamo la nostra vera strada per la vita e soffriamo di non averla ancora trovata.
 
 Quante domande davanti ai nostri quattro silenzi...io stesso mi domandavo a volte perché mi trovavo con loro e in che modo mi aiutavano a diligere le mie reale relazioni. Tutte queste domande sono normali e ben bisogna avere paura di porsetele.

@@ -1,4 +1,5 @@
 ---
+
 title: 10. Nella preghiera comunitaria
 date: 1981-12-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Settembre 1980
 
 "Venite a me"
@@ -27,6 +29,7 @@ numero_rivista: "Insieme"
 
 *Venite, tutto è pronto.*
 
+
 ---
 
 ### L'Eucarestia, pegno per la Festa Eterna
@@ -34,6 +37,7 @@ numero_rivista: "Insieme"
 I responsabili e gli animatori delle comunità cristiane non temano d'insistere in ogni momento sulla fedeltà dei battezzati a celebrare nella gioia l'Eucarestia domenicale. Come si potrebbe trascurare questo incontro, questo banchetto che il Cristo ci prepara nel suo amore? La partecipazione sia nello stesso tempo degna e gioiosa. E' il Cristo crocifisso e glorificato, che passa in mezzo ai suoi discepoli, per trascinarli insieme nel rinnovamento della sua resurrezione. E' il culmine, qui in terra, dell'Alleanza d'amore tra Dio e il suo popolo: segno e sorgente di gioia cristiana, pegno per la Festa Eterna.
 
 *Paolo VI*
+
 
 ---
 
@@ -47,6 +51,7 @@ Una tale vita di preghiera esige un continuo esercizio di fede, di speranza e di
 
 *Vaticano II* *(Apostolato dei laici N.4)*
 
+
 ---
 
 ### Pregare insieme
@@ -56,6 +61,7 @@ La preghiera in comunità è un nutrimento importante. Una comunità che prega i
 Forse non siamo ancora abbastanza semplici, abbastanza bambini. Talvolta nelle preghiere comunitarie si gira un pò a vuoto. E' un peccato che non si utilizzino abbastanza i bellissimi testi della Chiesa, che non si conosca meglio la Sacra Scrittura. E' vero che qualche volta il testo preordinato forse perde un pò del suo sapore se viene utilizzato tutti i giorni. Ma anche quello spontaneo può perdere un pò del suo sapore. Bisogna trovare un'armonia tra i testi che la tradizione ci offre e la preghiera spontanea che sgorga dal cuore.
 
 *Jean Vanier* *(La comunità,luogo di perdono e di pace)*
+
 
 ---
 

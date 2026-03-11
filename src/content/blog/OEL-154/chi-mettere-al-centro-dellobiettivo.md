@@ -1,4 +1,5 @@
 ---
+
 title: "Chi mettere al centro dell'obiettivo?"
 date: 2021-08-04
 author: Enrica Riera
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Posso sentire le parti della macchina e **capire i problemi dei motori solo ascoltando i loro suoni.** Questo mi aiuta a realizzare un buon lavoro». Siamo a Trinidad, Cuba, è il 2016. Un meccanico sorride davanti al cofano sollevato di un’automobile, parcheggiata lungo un viale alberato. Oltre alla tuta da lavoro, l’uomo indossa occhiali scuri, che non lo proteggono soltanto dal sole. Col braccio destro s’appoggia a un bastone da orientamento.
 
 Kampong Cham, Cambogia, 2016. Qui, invece, ci sono una madre e un figlio seduti sul pavimento, probabilmente nella loro abitazione. La donna stringe a sé il bambino con disabilità, **senza distogliere lo sguardo – pieno di dignità e consapevolezza – dall’obiettivo** . «Mio figlio crescerà a casa sua, nella sua comunità» è quanto lei dice.

@@ -1,4 +1,5 @@
 ---
+
 title: "Editoriale: Le nostre paure"
 date: 1978-03-10
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 11.313456535339355
 issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
+
+subtitle: "Non temere!. Non so quante volte Gesù nei suoi incontri ha detto questa parola. Il guaio è che non crediamo."
 ---
+
 **Paura** di amare, paura di essere amati, **Paura** di chiedere aiuto, paura di dare aiuto. **Paura** di "fare parole", paura di tacere. **Paura** di essere criticati, di non essere stimati... **Paura** di impegnarsi, di essere "gasati", di non essere autentici... **Paura** di guardare l'altro in faccia... di scoraggiarsi... **Paura** che tutto finisca un giorno...
 
 **Chi non riconosce in sé qualcuna di queste paure?** Chi non avverte nel fratello che gli è accanto, qualcuna di queste paure?

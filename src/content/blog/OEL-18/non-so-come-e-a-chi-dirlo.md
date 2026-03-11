@@ -1,4 +1,5 @@
 ---
+
 title: Non so come e a chi dirlo
 date: 1987-06-30
 author: Mariangela Bertolini
@@ -19,6 +20,7 @@ issue_number: OEL-18
 id_numero: "OEL-18"
 numero_rivista: "Ombre e Luci"
 ---
+
 Mi trovavo sul treno diretto a Milano in uno scompartimento pieno. Vicino al finestrino c'era un giovane di circa ventanni. Dopo pochi minuti di viaggio il suo comportamento attirò la nostra attenzione. Si alzava senza motivo, si risiedeva, toccava il finestrino, apriva un giornale, lo chiudeva. Tutto questo movimento era accompagnato da grandi colpi, come degli schiaffi, alle cosce, alla valigia, al vetro. Lì per lì sembrava solo un irrequieto, un ragazzo un po' nervoso. Lo lasciammo fare e, ora uno ora l’altro, dicevamo qualcosa per cercare di attenuare la tensione che il suo comportamento inconsueto stava creando.
 > I modi con cui si manifesta il disagio sono talvolta sconcertanti, scomodi, intimoriscono
 

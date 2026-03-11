@@ -1,4 +1,5 @@
 ---
+
 title: "\"Voglio il mio mare\": la mostra di design di studenti e persone disabili"
 date: 2018-10-30
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 D
 omenica 28 ottobre 2018, alle ore 18, all’Oratorio di Santa Chiara, in piazza Santa Chiara 1 a Palermo, è stata inaugurata la mostra “
 **Voglio il mio mare**

@@ -1,4 +1,5 @@
 ---
+
 title: "La vita sessuale delle persone con disabilità: per quale amore?"
 date: "2003-06-23"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
+
+subtitle: "Tutti abbiamo una vita sessuale, Saverio Lacroix, marito, padre, medico, insegnante di morale e decano dell'Università cattolica di Lione, prospetta la visione cristiana dell'amore e della sessualità"
 ---
+
 Ombre e Luci - In poche parole, che cos’è la sessualità?
 Il termine "sessualità" riunisce cose diverse, sia sensazioni e gesti che piacere e funzioni. Io preferisco parlare di "vita sessuale", termine più ricco, perché sottintende la vita e il fatto che siamo sessuati, cioè differenti in quanto uomini e donne. Ogni persona sposata o celibe ha una vita sessuale.
 Le emozioni che proviamo, i desideri, ma anche le pulsioni, le fantasie, i sogni, fanno parte della nostra vita sessuale. Il fascino di una persona, il sua viso, la sua bellezza, la sua voce, i suoi occhi, il piacere di stare con lei, tutto questo fa parte della vita sessuale. Allo stesso modo ne fa parte il fatto di non avere relazioni sessuali con la prima persona che si incontra, il fatto di vivere nella continenza, cioè nella castità che è rispetto della differenza e distanza fra i corpi. La vita sessuale non è l’attività sessuale. Le due cose si confondono troppo facilmente.

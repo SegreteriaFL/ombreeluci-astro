@@ -1,4 +1,5 @@
 ---
+
 title: Di chiavi e di porte
 date: 2025-05-12
 author: Vito Giannulo
@@ -16,7 +17,10 @@ umap_z: 13.802655220031738
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Due nuovi “semi” di Fede e Luce stanno germogliando a Castellammare di Stabia e Acquaviva delle Fonti, grazie all’impegno di famiglie, amici e vescovi. Segni di speranza e crescita per il movimento nel Sud Italia."
 ---
+
 **D ue buone notizie, distanti trecento chilometri l’una dall’altra, rallegrano, negli ultimi mesi, la provincia di Fede e Luce Mari e Vulcani** , che riunisce le regioni Sicilia, Campania, Basilicata e Puglia. Le notizie sono la nascita di quelli che nel nostro movimento chiamiamo «semi». Sono i gruppi che iniziano a riunirsi seguendo il carisma di *Fede e Luce* e che presto, se proseguiranno nel cammino, potranno diventare nuove comunità.
 
 Il seme più recente è sbocciato più o meno a settembre scorso a Castellammare di Stabia. Lì ha il suo ambulatorio di pediatra di base Antonio Piscitelli, il vicecoordinatore provinciale per la Campania. È lui che ha cominciato a spargere la voce fra le famiglie che hanno al proprio interno persone con disabilità mentale dell’esistenza di un movimento che tenta di creare legami di amicizia con e fra persone ferite nell’intelligenza. **Si è consolidato un nucleo di una decina di genitori, soprattutto mamme.** Era il momento giusto per andare a trovarli e portare una testimonianza su come è nata e come vive Fede e Luce in Italia e nel mondo.

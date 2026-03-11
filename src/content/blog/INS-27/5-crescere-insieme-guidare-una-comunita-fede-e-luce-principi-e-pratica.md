@@ -1,4 +1,5 @@
 ---
+
 title: "5. Crescere insieme - Guidare una comunità fede e luce: principi e pratica"
 date: "1980-03-16"
 author: "Luis Sankalé"
@@ -14,6 +15,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 *Questo articolo fa parte dello **[Speciale Fede e Luce anatomia di una comunità di incontro](https://www.ombreeluci.it/1980/fede-e-luce-anatomia-di-una-comunita-di-incontro/).*
 Per terminare il nostro approfondimento su cos'è Fede e Luce, consideriamo i punti proprii della comunità Fede e Luce in quanto comunità di incontro. Fra gli altri si possono rilevare i seguenti punti:
 

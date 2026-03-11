@@ -1,4 +1,5 @@
 ---
+
 title: La Chiesa debole nel suo capo sorgente e segno della presenza di Dio
 date: 2004-12-14
 author: Fabienne Clinquart
@@ -16,7 +17,10 @@ tags:
 umap_x: 9.483443260192871
 umap_y: 8.169536590576172
 umap_z: 13.294364929199219
+
+subtitle: "Sono tornata con tre scene scolpite nel cuore. I giorni passati lì resteranno nel mio cuore fino all'ultimo momento della mia vita"
 ---
+
 Sono appena tornata da Lourdes insieme ai giovani della nostra diocesi di Malines Bruxelles. Abbiamo abbiamo partecipato alle celebrazioni presiedute dal Papa. Al fianco di ognuno di noi stava un malato della ‘ nostra diocesi che noi accompagnavamo.
 
 Sono tornata con tre scene scolpite nel cuore:

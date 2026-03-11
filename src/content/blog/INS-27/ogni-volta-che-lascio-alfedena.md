@@ -1,4 +1,5 @@
 ---
+
 title: Ogni volta che lascio Alfedena
 date: 1980-12-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 Ogni volta che lascio Alfedena per ritornare a casa dove il campeggio, sono preso dal dubbio se la vita di campo sia svolta in un mondo diverso. Ma sono chiesto ogni volta per ritornare, è che sia sufficiente accettare di rinunciare a una vita che per qualcosa ci giorni si svolge in un mondo diverso. Ma non poché volta mi sono presto la domanda se fare un campeggio non sia un ricicea rimanosa per esciare dalla mediocrità della vita di ogni giorno che con le sue meticolose minuzie questi slanci di vivere in una via di campo.
 
 Ebbene queste esempie di vita in comunità si pone tra i suoi obiettivi quello di stimolare una continuazione della vita di campeggio.

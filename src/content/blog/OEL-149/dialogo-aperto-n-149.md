@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 149
 date: 2020-03-30
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-149
 id_numero: "OEL-149"
 numero_rivista: "Ombre e Luci"
 ---
+
 ## Michelavoro
 
 Cara redazione, vi scrive un’abbonata di vecchia data, che si è allontanata da voi per un po’ ma che ora ha deciso di ritornare. Non so neanche io perché... ma all’improvviso, mentre ripensavo a mia figlia Michela, mi è venuta voglia di contattarvi. Michela mi ha insegnato tanto, molto più di quanto potessi immaginare e decisamente più di quanto le abbia potuto insegnare io. Mi dava una mano al salone (faccio la parrucchiera) ed era sempre presente, tanto che i clienti avevano cominciato a chiamarla Michelavoro. È stato difficile separarmi da lei, ma vivo nella gioia di quanto mi ha dato; una testimonianza della luce che mi guida ogni giorno. Non vi avevo mai raccontato la sua storia finora, ma sono felice di averlo fatto adesso. Un caro saluto.

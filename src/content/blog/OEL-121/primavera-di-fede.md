@@ -1,4 +1,5 @@
 ---
+
 title: Primavera di fede
 date: 2013-03-10
 author: Lucia Bertolini
@@ -16,7 +17,10 @@ umap_z: 8.569458961486816
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La persona con handicap presa come emblema della difficoltà e a volte del dolore terribile del vivere, ci porta, quando le si vive accanto, a rifiutare le divisioni, l’ovvio, il semplicismo e la superficialità eretti a sistema"
 ---
+
 Inuno degli ultimi libri pubblicati con i testi del cardinale Martini “ *Famiglie in esilio* ”, c’è un capitolo intitolato “L’immagine di Dio nei figli” di cui voglio riprendere un paragrafo. “ *Un particolare problema si pone allorché si tratta di riconoscere l’immagine di Dio anche sul volto di un figlio nato con un handicap fisico o psichico o con entrambi. Occorre allora una grazia straordinaria dello Spirito Santo e l’aiuto affettuoso e perseverante della comunità cristiana (vengono alla mente i gruppi di “Fede e Luce” e altre iniziative simili) per fare in modo che una grande prova — tale da indurre a una diuturna amarezza e anche a una vera e propria disperazione — appaia invece un’occasione nuova e sorprendente per comprendere come Dio abiti nel cuore di questi piccoli e li faccia evangelizzatori efficaci della comunità e degli stessi genitori* ”.
 
 **Del lungo paragrafo, la frase che voglio ora prendere in considerazione** perché nuova e piena di significato, è quella qui sopra evidenziata. Davvero mi sembra che queste parole aprano nel nostro orizzonte una nuova prospettiva. Penso infatti che tutti noi, anche se da angolature diverse, vediamo la presenza di questi “piccoli” nella vita della Chiesa auspicabile e giusta, senza alcun dubbio, ma anche onerosa e difficile (quasi un peso che la comunità cristiana si deve accollare per essere, appunto, cristiana).

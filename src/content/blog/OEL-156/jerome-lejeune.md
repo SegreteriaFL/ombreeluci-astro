@@ -1,4 +1,5 @@
 ---
+
 title: Jerome Lejeune
 date: 2022-03-23
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 Un
 ruolo importante in vista del pellegrinaggio lo giocò Jérôme Lejeune, il genetista noto per
 **aver individuato la causa della sindrome di Down nella trisomia del 21° cromosoma**

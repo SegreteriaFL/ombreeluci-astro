@@ -1,4 +1,5 @@
 ---
+
 title: "Può un gesto essere così significativo…?"
 date: "2016-09-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-135
 id_numero: "OEL-135"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando Antonino ha messo addosso a Papa Francesco il foulard di Fede e Luce, durante il giubileo di giugno 2016, ho sentito una forte emozione. Le lacrime sono scese giù da sole… Perché? …anch’io mi sono chiesta.
 
 Sicuramente un gesto bello, un’accoglienza molto carina di Papa Francesco. Ma non era solo quello…

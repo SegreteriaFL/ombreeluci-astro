@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 64
 date: 1998-12-10
 author: Redazione
@@ -17,6 +18,7 @@ umap_x: 8.916738510131836
 umap_y: 8.595172882080078
 umap_z: 10.521014213562012
 ---
+
 ### II mimo - Momento di preghiera a F.L
 
 Questa forma di drammatizzazione la ritroviamo addirittura come unica forma di linguaggio per comunicare presso i primi uomini quando non avendo un linguaggio verbale abbastanza evoluto per esprimere i propri bisogni, i propri sentimenti, i propri desideri, utilizzavano il linguaggio del corpo, la cosiddetta mimica corporea. Già i Greci e i romani conobbero spettacoli muti, nei quali si esprimevano solo per mezzo del gesto; nel cinquecento gli attori potevano esercitare pericolosamente la satira politica attraverso la pantomima.
@@ -33,11 +35,13 @@ Questo momento comporta alcuni aspetti: - vivere la Parola di Gesù con tutto il
 
 - **Vittoria Episcopello** - [Comunità “Spirito d’Amore” - Bari](http://www.fedeeluce.it/comunita/spirito-damore/) , 1998
 
+
 ---
 
 ### Suor Margherita: un dono
 
 Una vita semplice fatta di amore e dedizione agli altri. E davvero fortunato è stato chi l’ha conosciuta e ha collaborato con lei. Credeva in Gesù e sapeva che seguirlo significava avanzare nella sua stessa direzione, con la stessa luce nello sguardo , con le mani aperte , con il cuore sempre offerto. Nel suo sguardo , sempre sorridente , si leggeva l'amore per il Padre e quest'amore l'ha portata ad accogliere e trattare tutti gli uomini e donne come uguali , riconoscendo una dignità umana e divina anche a chi bello e perfetto non è. A Mazara è stata lei che nel lontano 1983 ha piantato il seme della prima comunità Fede e Luce. Da allora , la Comunità è cresciuta ed altri semi sono germogliati in altri paesi della Sicilia. Il ricordo di Suor Margherita Fortuna rimarrà nel cuore di tutti. Una donna che si è fatta dono per amore!
+
 
 ---
 

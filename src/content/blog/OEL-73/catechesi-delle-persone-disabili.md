@@ -1,4 +1,5 @@
 ---
+
 title: Catechesi delle persone disabili
 date: 2001-03-09
 author: Corrado Dastoli
@@ -15,6 +16,7 @@ issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
 ---
+
 S
 i è concluso il primo biennio di lavoro del nuovo «gruppo di studio» istituito presso l’Ufficio Catechistico Nazionale della Conferenza Episcopale Italiana per approfondire il tema della catechesi nei confronti delle persone disabili. Come esperto sul tema della disabilità mentale, è stato chiamato a collaborare il sottoscritto, psichiatra dell’Istituto Fatebenefratelli di Genzano, per apportare ai lavori la speciale esperienza dell’Ordine ospedaliero di san Giovanni di Dio. Il gruppo di studio è stato presieduto, con grandissima competenza e passione, da mons. Bassano Padovan, il quale, purtroppo, ora dovrà «lasciare», perché chiamato a un altro incarico di grande responsabilità: in questo momento è quindi molto opportuno redigere il bilancio dei due anni di lavoro svolto. L’attività finora realizzata ha interessato tre settori:
 - Il gruppo di lavoro ha «attivato» un sito informatico, ospitato nell’ambito della vasta documentazione che la Chiesa Cattolica Italiana propone all’indirizzo internet «www.chiesacattolica.it». Per accedere al sito, dopo aver digitato l’indirizzo, sopra citato, occorre cliccare sulla sezione «Ufficio CatechisticoNazionale», e, all’interno di essa, ricercare lo specifico settore che riguarda la catechesi nei confronti delle persone disabili. - I componenti del gruppo hanno dedicato molto impegno a «vagliare» le principali pubblicazioni (libri e riviste) in questo settore. È stato recensito tutto il «materiale» giudicato di particolare qualità e interesse, segnalando le particolari indicazioni di ogni pubblicazione. - È stata progettata e realizzata una esperienza «pilota» per la formazione dei catechisti. Si è trattato di un «Corso esperienziale di formazione al rapporto con i portatori di handicap», che si è tenuto a Fiuggi dal 12 al 15 marzo 2000.

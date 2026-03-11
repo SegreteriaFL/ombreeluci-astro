@@ -1,4 +1,5 @@
 ---
+
 title: Risorse per una catechesi sensoriale e inclusiva
 date: 2025-06-26
 author: Redazione
@@ -24,7 +25,10 @@ umap_z: 8.827407836914062
 issue_number: OEL-172
 id_numero: "OEL-172"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Catechismo e autismo: come usare materiali tattili e libri sensoriali per accompagnare nella fede bambini con bisogni comunicativi speciali."
 ---
+
 **“Ma cosa vuole far fare la Comunione? Lui non distingue un supermercato da un’ostia.”**
 
 Queste parole, riferite al figlio autistico di una mamma da parte di un sacerdote, sono state condivise in un commento ricevuto da una nostra lettrice, insegnante di religione, sotto [un articolo di Insieme del 1976](https://www.ombreeluci.it/1976/guidare-alla-luce-catechesi-sensoriale-per-una-vita-spirituale-inclusiva/) . Un giudizio duro che ignora la capacità delle persone con disabilità di vivere la fede in modo autentico, anche se con strumenti e tempi differenti.

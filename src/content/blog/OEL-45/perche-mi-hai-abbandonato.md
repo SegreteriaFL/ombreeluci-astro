@@ -1,4 +1,5 @@
 ---
+
 title: "Perché mi hai abbandonato?"
 date: "1994-03-16"
 author: "Mariangela Bertolini"
@@ -15,6 +16,7 @@ issue_number: OEL-45
 id_numero: "OEL-45"
 numero_rivista: "Ombre e Luci"
 ---
+
 Chi di noi, genitori di figli disabili, dopo l'annuncio o la presa di coscienza dell’handicap del nostro figlio, non ha provato, in modo più o meno forte, per più o meno tempo, questi sentimenti: **sensi di colpa** — Che cosa ho fatto di male? **sensi di ingiustizia** — Perché proprio a noi? **di rivolta** — Se Tu ci fossi veramente, non potresti permettere queste cose! **di impotenza** — È mai possibile che non si possa far nulla?
 Quante volte abbiamo sentito sgorgare dal più profondo del nostro essere queste domande che forse non abbiamo potuto o saputo esprimere ad altri perché il dolore era troppo forte.
 

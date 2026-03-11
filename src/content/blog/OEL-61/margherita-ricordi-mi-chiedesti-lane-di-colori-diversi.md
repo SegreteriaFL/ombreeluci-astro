@@ -1,4 +1,5 @@
 ---
+
 title: Margherita - Ricordi? mi chiedesti lane di colori diversi
 date: 1998-03-04
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 4.798092365264893
 umap_y: 9.865057945251465
 umap_z: 11.659618377685547
 ---
+
 Ricordi? Avrai avuto sette o otto anni quando arrivasti a Bari con la tua famiglia. Il lavoro di tuo padre vi aveva costretti a cambiare spesso il luogo di residenza. Ora abitavate di nuovo a Bari ed io, la tua madrina, ero felice del vostro arrivo. Ma andaste ad abitare lontano: ci vedevamo solo nelle grandi feste. Di quel periodo ricordo i tuoi grandi occhi scuri che mi guardavano pieni di curiosità e avidi di affetto. Ricordo che spesso venivi zittita quando incominciavi a parlare: il tuo modo di esprimerti era incomprensibile e insistente. Era evidente che c’era qualcosa che non andava e ne parlai con tua madre. Accettò di portarti da un terapeuta. Dopo poche visite lasciò andare: a scuola avevano scoperto che avevi un forte grado di sordità e le tue «stranezze» vennero attribuite a quello. Fosti operata! Ma i tuoi problemi rimasero.
 
 Avevi già sedici anni quando «ti ritrovai» aH’improvviso vicino a casa mia; avevi lo stesso sguardo attonito, gli stessi occhi che parlavano e chiedevano. Ora abitavi un piccolo appartamento poco distante da me, insieme a tua sorella che aveva incominciato a lavorare. Venni a trovarti. La casa era in un disordine indescrivibile. Tua sorella stava fuori tutto il giorno, tu uscivi la mattina presto per andare a una scuola lontana e tornavi alle tre. A casa non trovavi nessuno. Ricordo di averti vista un po’ affannata a stirare certe camicie e di aver notato, da una parte, una lunga sciarpa di lana tutta ingarbugliata che stavi lavorando. Mi chiedesti delle lane di colori diversi. Da quel giorno venisti a casa mia con una certa regolarità. Ti aspettavo in qualsiasi momento. Venivi, facevi merenda e, parlavi. Parlavi, parlavi, parlavi. Non era facile capirti, dicevi troppe cose e tutte a metà. Raccontavi la tua sofferenza. A volte andavamo a passeggiare sul lungomare; navi sconosciute passavano all’orizzonte e, nella lontananza, mi sembravano tanti punti interrogativi, gli stessi che ci riempivano il cuore.

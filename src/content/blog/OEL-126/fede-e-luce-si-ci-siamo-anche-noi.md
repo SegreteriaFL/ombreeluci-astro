@@ -1,4 +1,5 @@
 ---
+
 title: "Fede e Luce: “Sì, ci siamo anche noi!”"
 date: "2014-06-29"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-126
 id_numero: "OEL-126"
 numero_rivista: "Ombre e Luci"
 ---
+
 Non voglio usare molte parole mie per iniziare questo racconto. Potrei riportare tante motivazioni ma la verità è che ci sono percorsi che vengono “sospinti” da una voce, talvolta fievole talvolta più forte, che ti indica una direzione, una strada da percorrere, un “luogo” a cui è meglio appartenere.
 
 “Dove è la Chiesa, là è anche lo spirito di Dio e dove è lo spirito di Dio là è la Chiesa e ogni grazia. Ogni giorno la Chiesa nasce dall’alto, dallo spirito del Signore. Solo secondariamente sorge dalla libera decisione dei credenti che si lasciano convocare” (La verità vi farà liberi n° 419)

@@ -1,4 +1,5 @@
 ---
+
 title: Bambini autistici a scuola
 date: 1990-03-20
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 6.728457450866699
 issue_number: OEL-29
 id_numero: "OEL-29"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La traduzione di un articolo del Courrier picard (1990) ci presenta l'esperienza francese per la socializzazione di tre bambini con autismo"
 ---
+
 Alessandro, Guendalina e Magalì hanno sette anni e, come tutti i bambini di questa età, suscitano tenerezza. Magalì, però, non sa fare le scale da sola; Alessandro non sopporta che una persona che non conosce entri nella sua sfera personale; Guendalina, quando riempie un bicchier d’acqua da una caraffa, «dimentica» di raddrizzare quest'ultima e così tutto il contenuto va sulla tovaglia... Tutti e tre hanno grandi **problemi di comunicazione con il mondo esterno** ; insieme a qualche migliaio di francesi, sono affetti dall'handicap detto « [autismo](http://www.ombreeluci.it/autismo/) ».
 
 Questo handicap — che colpisce 15 persone su 10.000 e un maschio su tre femmine — è stato per lungo tempo considerato come un blocco psicologico fondato sul rapporto madre-figlio. Da qualche anno, si fanno strada nuove teorie in proposito: l'autismo, come il mongolismo, avrebbe un’origine non psicologica, ma neurologica. Un’alterazione dei cromosomi sarebbe forse alla base di questo mondo interiore che ognuno di questi bambini si costruisce per sfuggire la realtà. L’autismo non guarisce. Apertura delle scuole, settembre '89: Magalì, Guendalina, Alessandro, vanno a scuola, tre giorni alla settimana nel Collegio dei Piccoli Cantori dalla croce di legno a Glaignes. Questo è un collegio un po' diverso dagli altri: 108 bambini, dalla voce celebre nel mondo intero, seguono le elementari e le medie.

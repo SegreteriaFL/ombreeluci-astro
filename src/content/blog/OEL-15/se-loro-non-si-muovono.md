@@ -1,4 +1,5 @@
 ---
+
 title: Se loro non si muovono
 date: 1986-09-30
 author: Mariangela Bertolini
@@ -17,6 +18,7 @@ issue_number: OEL-15
 id_numero: "OEL-15"
 numero_rivista: "Ombre e Luci"
 ---
+
 L’estate è finita. La pioggia scende copiosa su tutta la penisola. Fichi e uva, cartelle e libri, schiudono la porta all'autunno. Siamo entrati rinfrancati dal mare o dalla montagna, ma giornali e televisione ogni giorno ci annunciano catastrofi, terrorismo, massacri... che vengono a stringere il cuore di tutti noi già colpiti dal dolore per la perdita delle persone care che ci hanno lasciato.
 **Dove trovare la forza, la serenità per ricominciare un nuovo anno?**
 Pensiamo a quante famiglie fra i nostri lettori vivono da anni con un figlio handicappato che si fa grande, che non sa dove andare... per il quale non c'è posto... Il tempo passa, corre via veloce e sembra che le cose peggiorino invece di migliorare. La maggior parte dei genitori aspetta con pazienza che vengano approntati servizi, luoghi di vita, alloggi, sistemazioni, posti di lavoro, scuole... I più anziani durano fatica a sperare. I più giovani non ci pensano: c'è ancora tempo... per ora va a scuola con gli altri.

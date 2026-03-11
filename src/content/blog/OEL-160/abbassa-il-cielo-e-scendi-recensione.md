@@ -1,4 +1,5 @@
 ---
+
 title: Abbassa il cielo e scendi - Recensione
 date: 2023-02-15
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 5.025116920471191
 issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La storia lunga mezzo secolo di un fratello con schizofrenia nel romanzo di Giorgio Boatti (Mondadori, 2022)"
 ---
+
 Due fratelli e una malattia mentale. Il minore (l’io narrante) vede Bruno, rientrato prima del tempo dal seminario, gremito dai tentacoli della schizofrenia in un abbraccio che lo accompagnerà per tutta la vita. *Abbassa il cielo e scendi* racconta così oltre mezzo secolo di storia – quella familiare, intima di Bruno e dei suoi, e quella con la S maiuscola, dal Dopoguerra agli anni Duemila. Mezzo secolo di tentativi, di salite (e qualche discesa); di manicomi prima lager, poi sconvolti da Basaglia e infine tornati a situazioni troppo simili al pre-rivoluzione; di solitudini a tratti squarciate; di possibili soluzioni intraviste, ma non sempre inseguite. **Un romanzo forte, poetico e spietato; un romanzo consapevole di come storia personale e grande Storia non sempre si intersechino quando si parla di disabilità, perché le persone con gravi disturbi mentali sono sempre rimaste ai margini del dibattito e della scena politica e sociale.** C’è ancora tanto da fare per Bruno e per noi. Facciamolo assieme.
 
  ### Abbassa il cielo e scendi **Autore** : Giorgio Boatti **Editore:** Mondadori **Pagine:** 264 **Prezzo:** 19,50€ **ISBN:** 9788804746447 **Anno:** 2022 

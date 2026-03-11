@@ -1,4 +1,5 @@
 ---
+
 title: "Come è nato Ombre e Luci?"
 date: "2014-12-15"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-128
 id_numero: "OEL-128"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Mariangela racconta come hanno deciso di lanciarsi nell'avventura di realizzare una rivista dedicata alle persone con handicap, alle loro famiglie e i loro amici"
 ---
+
 “Non ricordo più quando ho avuto tra le mani, per la prima volta, Ombres et Lumière. Può darsi nel 1971, Chicca aveva una decina d’anni, viveva in casa e noi eravamo in un abisso che molti genitori conoscono.
 
 Era il silenzio, le lacrime segrete nella notte, accanto al suo letto. Io cercavo di capire il mistero della sua presenza, il senso della sua vita. La grazia ha fatto il suo cammino poco a poco senza che ce ne rendessimo conto. Dopo la luce di Lourdes, c’è stata Fede e Luce con il pellegrinaggio a Roma, gli amici che si sono uniti a noi.

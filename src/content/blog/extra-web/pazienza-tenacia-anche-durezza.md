@@ -1,4 +1,5 @@
 ---
+
 title: Pazienza, tenacia, anche durezza
 date: 2005-12-05
 author: Redazione

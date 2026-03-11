@@ -1,4 +1,5 @@
 ---
+
 title: Una scuola di tutti - Newsletter n. 29
 date: 2021-02-15
 author: Redazione
@@ -15,13 +16,16 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### OL incontra... un passato che speravamo sepolto
+
 
 ---
 
 È un tema che Ombre e Luci ha affrontato spesso nella sua storia, quello degli alunni con disabilità nelle scuole italiane. I toni sono stati diversi a seconda delle occasioni, delle storie, delle proposte avanzate e delle decisioni prese. Oggi, ad esempio, il tono è veramente arrabbiato. Perché questo mese O&L incontra Laura Coccia che [commenta il terribile decreto legislativo 182/2020](https://www.ombreeluci.it/2021/decreto-182-2020-no-esonero-disabilita/) che, in un colpo solo, ci riporta indietro alla scuola, e alla società, di oltre quarant’anni fa. Una scuola che ghettizza ed esclude, relegando in un angolo gli alunni più fragili.
 
 ### E dire che le premesse non erano male
+
 
 ---
 
@@ -31,11 +35,13 @@ E dire che invece l’Italia, sulla carta almeno, quanto a inclusione scolastica
 
 ### Dall'Italia ai banchi della Tanzania
 
+
 ---
 
 Ed è sempre una storia di scuola [quella che ci racconta](https://www.ombreeluci.it/2021/ibrahimui-sulle-spalle-di-justo/) Silvia Camisasca, una scuola in un villaggio nel sud della Tanzania. Prima che arrivino gli alpini di Bolzano con una carrozzina fatta ad hoc, è Justo, il compagno di giochi di Ibrahimui, a prendere l’amico sulle spalle e a portarlo ogni giorno a scuola. Tre chilometri ad andare, tre a tornare.
 
 ### I libri del mese
+
 
 ---
 
@@ -43,11 +49,13 @@ I nostri consigli di lettura per questo mese volano altissimi, rivolgendosi ad a
 
 ### 0-13
 
+
 ---
 
 Io vedo tutti noi come dei trifogli, e per me i disabili hanno una foglia in più, se li amiamo saremo davvero molto fortunati. Loro sono i rari trifogli di 4 foglie *(Elisa, 11 anni)*
 
 ### Il blog di Benedetta
+
 
 ---
 
@@ -56,6 +64,7 @@ Io vedo tutti noi come dei trifogli, e per me i disabili hanno una foglia in pi�
 A scuola mi hanno chiesto di fare il mio curriculum ma io non avevo proprio capito cosa dovevo fare, cosa dovevo scrivere ma poi per fortuna i miei compagni mi hanno spiegato bene. [**Continua a leggere...**](https://www.ombreeluci.it/2021/benedetta-il-mio-curriculum/)
 
 ### Il post del mese
+
 
 ---
 

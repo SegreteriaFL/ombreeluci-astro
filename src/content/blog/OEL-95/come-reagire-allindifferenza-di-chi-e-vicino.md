@@ -1,4 +1,5 @@
 ---
+
 title: "Come reagire all’indifferenza di chi è vicino?"
 date: "2006-09-27"
 author: "Jacques Labrousse"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Quando è nato Francesco, sordo e chiuso in una psicosi infantile, la reazione dei vicini, del nostro prossimo, ci ha molto sorpreso, ci ha fatto ribellare"
 ---
+
 Quando è nato Francesco, sordo e chiuso in una psicosi infantile, la reazione dei vicini, del nostro prossimo, ci ha molto sorpreso, ci ha fatto ribellare. Solo i nostri genitori — i suoi nonni — ci hanno offerto l'appoggio incondizionato che ci aspettavamo. Hanno saputo testimoniarci una tenerezza senza limiti e accoglierci in modo privilegiato, prioritario.
 
 Non c’era allora nessun centro per Francesco e così l'abbiamo sempre tenuto in casa. La vita era scandita da notti spezzettate e da pasti omerici. Non avremmo potuto resistere a questa usura quotidiana se ogni estate i nonni non lo avessero preso per qualche giorno permettendoci così di evadere, viaggiare, ritrovare il sonno e delle vere vacanze.

@@ -1,4 +1,5 @@
 ---
+
 title: Anffas Open Day, porte aperte per celebrare 60 anni di futuro
 date: 2018-03-27
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Dal comunicato ufficiale:*
 **Anche quest**
 **'anno, come ormai abitudine, Anffas apre le sue porte all'interà collettività**

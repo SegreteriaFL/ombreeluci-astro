@@ -1,4 +1,5 @@
 ---
+
 title: "L'educazione dei bambini cosiddetti \"lievi\"... sì ma quale?"
 date: "1979-06-16"
 author: "Nicole Schulthes"
@@ -15,6 +16,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 *Parlare in due pagine dell'educazione dei bambini cosiddetti "lievi" è molto pretendere. Fare una classifica generale è del tutto contrario a quello che non ci stanchiamo di ripetere: ognuno è unico, ogni famiglia è diversa, nessun caso è simile ad un altro; nessuna soluzione è valida direttamente per il vicino; ogni bambino deve essere orientato secondo i suoi particolari bisogni.*
 
 *Per questo, in un primo momento; avevamo pensato di rinunciare a parlarne in termini generali.*

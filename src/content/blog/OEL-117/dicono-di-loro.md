@@ -1,4 +1,5 @@
 ---
+
 title: Dicono di loro
 date: 2012-03-16
 author: Père Christian Mahéas
@@ -15,6 +16,7 @@ issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Sa fare l’amica
 
 Fatima ha 11 e frequenta la prima classe della scuola secondaria, alcune ore al giorno. I suoi compagni dicono di lei: Con Fatima mi piace ballare, cantare, giocare in Tau quando vado a trovarla. Poi cantiamo insieme le canzoni dello zecchino d’oro, leggiamo i libri e balliamo le canzoni del Cre e la danza kuduro. Lei è molto simpatica e gentile, sa sempre come tirare su il morale e non smette mai di sorridere. Ma è una zabetta, in senso buono, perché è una ragazza e quindi le piace chiacchierare: a scuola, parla quando il professore sta parlando e quando decidiamo i giochi vuole quasi sempre che facciamo quello che ha proposto lei. Insomma è testarda. Ma è divertente, è unica e sa fare l’amica. Mi piacerebbe andare a Castione con lei, dormire a casa sua e giocare a fare le dive. E raccontarci tanti segreti.

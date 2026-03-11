@@ -1,4 +1,5 @@
 ---
+
 title: "Dopo la scuola dell'obbligo, una scelta difficile"
 date: 2000-09-28
 author: Nicole Schulthes
@@ -14,7 +15,10 @@ umap_z: 7.606975555419922
 issue_number: OEL-71
 id_numero: "OEL-71"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Finita la scuola dell'obbligo anche i ragazzi con disabilità e le loro famiglie devono prendere una decisione importante per il futuro. E spesso non è facile."
 ---
+
 Settembre, ottobre, novembre... mesi importanti, che segnano l’inizio di un nuovo anno lavorativo o scolastico. Anche per tante famiglie dei nostri amici disabili è il momento di scegliere. I ragazzi che hanno concluso nel giugno scorso il ciclo della scuola dell’obbligo ed hanno 15, 16, o più anni, devono compiere un altro grande passo verso la vita da adulto, la vita di tutti....
 
 Questa scelta non è facile, è accompagnata spesso da dubbi, dalla paura di sbagliare, di non sapere abbastanza... Le possibilità che si presentano per il futuro dei nostri ragazzi non sono poche ma ci sembrano sempre insufficienti, non proprio adatte a lui, non molto garantite...

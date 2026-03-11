@@ -1,4 +1,5 @@
 ---
+
 title: Dissodare il terreno
 date: 2025-11-05
 author: Gianni Carparelli
@@ -18,7 +19,10 @@ umap_z: 12.68096923828125
 issue_number: OEL-171
 id_numero: "OEL-171"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Da Richmond Hill a Castel D'Asso nel viterbese: dall'Arche in Canada all'agriturismo Volta la terra, per educare a guardare il disagio"
 ---
+
 Ho conosciuto *Fede e Luce* a Viterbo, Castel d’Asso, durante una loro [vacanza estiva](https://www.ombreeluci.it/2025/che-bello-vedere-tanti-giovani/) nel 2024, presso La Bicoca (azienda [*Volta la terra*](https://www.ombreeluci.it/2021/far-vivere-il-luogo-e-le-persone-di-cui-si-e-custodi/) ). È stato un caso. Poi parlando e ascoltando la loro storia fu come se mi sentissi in una casa e famiglia conosciuta. Perché **ho avuto una bellissima esperienza all’Arche Daybreak di Richmond Hill** (Toronto, Canada). Mi recavo da loro periodicamente per incontri e celebrare momenti di preghiera insieme. Avevo incontrato Jean Vanier presso l’università di Saint Michael e Henri Nouwen, ammirando il loro servizio. Nouwen aveva avuto una esperienza umana con Adam Arnett, deceduto nel febbraio 1996 e Nouwen pensava di scrivere qualcosa a riguardo. Ma lo stesso Nouwen morì poi nel settembre 1996 (ricordo la celebrazione del suo funerale) e Sue Mosteller, responsabile del Centro di cultura Henri Nouwen portò a termine il lavoro del tutore di Adam. *Adam, amato da Dio* ( [Queriniana](https://www.queriniana.it/libro/adam-amato-da-dio-1150) , ultima edizione 2019) è il titolo italiano dell’originale Adam, *God’s beloved* . Scrive Henri: «Occupandomi di Adam non soltanto sono giunto a conoscere di più su Dio, ma Adam mi ha anche aiutato a scoprire e a riscoprire, con la sua vita, lo spirito di Gesù vivente nella mia stessa povertà di spirito».
 
 Nouwen era ed è un grande scrittore di spiritualità, forgiatosi nella sofferenza personale e dalla attenzione piena di amore-Agape a chi aveva bisogno di tutto. **In un mondo così acido e pieno di ombre, scoprire oasi di luce è un regalo di speranza che non morirà tra le spine, ma fiorirà in terreno buono.**

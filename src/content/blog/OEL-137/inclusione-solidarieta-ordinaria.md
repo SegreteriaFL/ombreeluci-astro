@@ -1,4 +1,5 @@
 ---
+
 title: "Inclusione: solidarietà ordinaria"
 date: "2017-03-16"
 author: "Cristina Tersigni"
@@ -15,6 +16,7 @@ issue_number: OEL-137
 id_numero: "OEL-137"
 numero_rivista: "Ombre e Luci"
 ---
+
 In una recente occasione formativa proposta dalla diocesi di Roma ai catechisti, con il titolo “Le abilità che includono”, religiosi e laici, professionisti e amici sottolineavano il valore della persona con disabilità all’interno della comunità cristiana e la necessaria solidarietà tra i componenti di una comunità che, proprio se cristiana, per principio non si scelgono, non si dividono per categorie, che sono solidali gli uni con gli altri anche in quanto fratelli nello stesso Battesimo.
 
 La Chiesa, sottolineava don Andrea Lonardo, battezza senza distinzione di età, salute, capacità cognitiva, condizione sociale… perché sa che la Grazia che ne deriva è fortemente necessaria all’essere umano; quel Battesimo racchiude una promessa di salvezza che offre dignità a prescindere dalle abilità che possiamo avere e o no.

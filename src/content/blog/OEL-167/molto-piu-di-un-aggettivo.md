@@ -1,4 +1,5 @@
 ---
+
 title: "Molto più di un aggettivo"
 date: "2024-11-26"
 author: "Laura Coccia"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-167
 id_numero: "OEL-167"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Vita personale e professionale di una donna con disabilità"
 ---
+
 *Pubblichiamo ampi stralci dall’intervento tenuto a Bruxelles, con collegamenti in rete da tutta Europa, in occasione del lancio del manifesto dell’associazione Celebral Palsy Europe in vista delle elezioni del giugno 2024 per il rinnovo dell’Europarlamento.*
 
 Una bambina con disabilità deve affrontare una società immersa in immagini stereotipate del corpo femminile al quale è richiesto di rientrare in canoni precisi per essere accettato dalla società ai quali non potrà mai rispondere, perché la bacchetta magica per aggiustare la disabilità non l’hanno ancora inventata. Questa sfida per una ragazza o una donna con cerebrolesione è ancora più difficile perché viviamo in corpi storti, induriti dalla spasticità e avvolti dal pregiudizio che in molte società contorna l’aggettivo «spastico». Ma noi siamo molto più di un aggettivo.

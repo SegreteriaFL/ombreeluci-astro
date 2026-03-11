@@ -1,4 +1,5 @@
 ---
+
 title: Sembra ieri - Newsletter Estiva n. 24
 date: 2020-09-18
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 S
 embra ieri, ma è passato quasi un anno dalla prima
 [newsletter](https://www.ombreeluci.it/newsletter/)
@@ -26,6 +28,7 @@ di O&L; sembra ieri, ma è trascorso giusto «il tempo di passare dall'essere ma
 [storie di amicizia](https://www.ombreeluci.it/1975/allamicizia-ci-credo/)
 non dovrebbero sentire il peso del tempo: sembrano di oggi e saranno di domani. Ombre e Luci avrà sempre tra i suoi obiettivi quello di custodire e condividere queste storie, proseguendo il cammino intrapreso in un pomeriggio qualunque del 1974.
 
+
 ---
 
 ### **I Grandi Classici... di un'estate fa**
@@ -35,6 +38,7 @@ non dovrebbero sentire il peso del tempo: sembrano di oggi e saranno di domani. 
 a fine estate 2002. Un invito oggi di un’attualità incredibile… (E poi, chi ha detto che le vacanze si debbano fare per forza
 [solo in estate](https://www.ombreeluci.it/1983/unaltra-proposta-di-vacanze-con-persone-disabili-i-soggiorni-invernali/)
 ?)
+
 
 ---
 
@@ -46,6 +50,7 @@ Da presidente del tribunale per i minorenni di Reggio Calabria, il giudice Rober
 [recensito](https://www.osservatoreromano.va/it/news/2020-08/liberi-di-scegliere.html)
 da Alessandra Moraca su L'Osservatore Romano), libro scritto dallo stesso Di Bella con Monica Zapelli.
 
+
 ---
 
 ### [**Il blog di Benedetta**](https://www.ombreeluci.it/il-blog-di-benedetta/)
@@ -55,12 +60,14 @@ da Alessandra Moraca su L'Osservatore Romano), libro scritto dallo stesso Di Bel
 La scuola è iniziata SUPER BENE! Ho cominciato lunedì 14 settembre alle 8.30. Siccome io sono al terzo anno dell’alberghiero e ho scelto ricevimento mi hanno fatto cambiare sede e non vado più a via dei Genovesi ma a via della Paglia.
 [Continua a leggere...](https://www.ombreeluci.it/2020/e-iniziata-super-bene/)
 
+
 ---
 
 **Il questionario**
 – Insistiamo, cari lettori, ma per noi è importante: ringraziando i tanti che hanno già risposto al questionario, invitiamo chi non l'abbia ancora fatto a compilarlo. Bastano due minuti!
 
 [Rispondi al sondaggio](https://us17.list-manage.com/survey?u=00c5dad63480d9601563b5692&id=2f375568ec)
+
 
 ---
 

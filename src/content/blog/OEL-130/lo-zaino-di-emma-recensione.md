@@ -1,4 +1,5 @@
 ---
+
 title: Lo zaino di Emma - Recensione
 date: 2015-03-19
 author: Rita Massi
@@ -17,6 +18,7 @@ issue_number: OEL-130
 id_numero: "OEL-130"
 numero_rivista: "Ombre e Luci"
 ---
+
 Lozaino che Emma dovrà portare per tutta la vita sulle spalle, è la sindrome di Down. Percorrerà il suo cammino, riuscirà a fare le cose che fanno i suoi fratelli, ma sempre con più fatica degli altri perché ha questo fardello sulle spalle; i suoi genitori e tante altre persone possono aiutarla, ma non possono portare quello zaino per lei.
 
 L’autrice ci parla di Emma, la sua secondogenita nata con la sindrome Down, con uno stile narrativo piuttosto asciutto, diverso da altri libri dello stesso genere, senza enfasi, con toni pacati. Talvolta si ha il timore di trovarsi di fronte ad una madre poco affettiva, a causa del tono, in alcuni casi, quasi spietato con cui racconta episodi e stati d’animo.

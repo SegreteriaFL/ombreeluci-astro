@@ -1,4 +1,5 @@
 ---
+
 title: Abbiamo un cuore... inclusivo?
 date: 2017-03-16
 author: Rita Massi
@@ -17,6 +18,7 @@ issue_number: OEL-137
 id_numero: "OEL-137"
 numero_rivista: "Ombre e Luci"
 ---
+
 Da
 ormai quasi mezzo secolo a questa parte si è cominciato a parlare di integrazione delle persone disabili, definite via via in vario modo: invalidi, handicappati, disabili, diversamente abili… quasi mai anteponendo una parola semplice e chiara: persone. Questo termine non è un preziosismo verbale ma è fondamentale per riconoscere prima di ogni altra specificazione che un essere umano è persona come tutti gli altri, con pari dignità e pari diritti come figlio di Dio e come cittadino. Oggi, superando il termine integrazione, parliamo di inclusione. Anche in questo caso non si tratta di un aggiornamento lessicale, bensì di una nuova frontiera verso la quale dobbiamo tendere. Includere ha il significato di contenere in sé, essere compreso, essere permeabili gli uni agli altri. Ricordando le parole di Papa Francesco: «Dio, nel suo disegno d’amore, non vuole escludere nessuno, ma vuole includere tutti (...) mediante il Battesimo, ci fa suoi figli in Cristo, membra del suo corpo che è la Chiesa. E noi cristiani siamo invitati a usare lo stesso criterio: la misericordia è quel modo di agire, quello stile, con cui cerchiamo di includere nella nostra vita gli altri, evitando di chiuderci in noi stessi e nelle nostre sicurezze egoistiche».
 > "Dio, nel suo disegno d'amore, non vuole escludere nessuno" - Papa Francesco
@@ -24,6 +26,7 @@ ormai quasi mezzo secolo a questa parte si è cominciato a parlare di integrazio
 Ed anche il Presidente della Repubblica Sergio Mattarella esorta le istituzioni affinché «l’inclusione diventi realtà (...) Tanti passi avanti sono stati compiuti nella legislazione e nell’organizzazione sociale. Una maggiore sensibilità culturale si è sviluppata attorno al valore positivo delle diversità e alla necessità di rimuovere barriere - anche occulte - che condizionano ed escludono. Ma purtroppo tanti ostacoli devono ancora essere abbattuti: nella vita quotidiana, nelle strutture economiche e sociali, nei pregiudizi di chi si sottrae ai doveri di solidarietà». Noi cristiani riusciamo ad esprimere pienamente nel nostro agire quotidiano, nel nostro stile di vita, quella misericordia cristiana che accoglie e include tutti? Papa Francesco ci esorta a seguire l’esempio di Cristo «Quante persone stanche e oppresse incontriamo anche oggi, per la strada, negli uffici pubblici, negli ambulatori medici… Lo sguardo di Gesù si posa su ciascuno di quei volti, anche attraverso i nostri occhi. E il nostro cuore com’è? È misericordioso? E il nostro modo di pensare e di agire, è inclusivo? Il Vangelo ci chiama a riconoscere nella storia dell’umanità il disegno di una grande opera di inclusione, che, rispettando pienamente la libertà di ogni persona, di ogni comunità, di ogni popolo, chiama tutti a formare una famiglia di fratelli e sorelle, nella giustizia, nella solidarietà e nella pace, e a far parte della Chiesa, che è il corpo di Cristo». Prendendo spunto da un depliant diffuso da una diocesi austriaca, e pubblicato su Schatten & Licht (ombre e luci in tedesco), abbiamo cercato di riflettere sulla effettiva e concreta capacità di inclusione da parte di noi cristiani a partire dalle comunità parrocchiali. Quanto, in pratica, questo stile di vita a cui fa appello Papa Francesco si riesce a praticare nelle nostre parrocchie, se e quanto potrebbe essere migliorato. La riflessione era stimolata da un accurato e dettagliato questionario da cui abbiamo preso spunto per porre delle domande guida, adattate alla nostra realtà italiana, finalizzate non a dare suggerimenti o a suscitare sensi di colpa, ma semplicemente a stimolare una riflessione, a porre maggiore attenzione verso qualcuno o qualcosa a cui non avevamo pensato. Per comprendere se il nostro modo di agire da cristiani rispecchia lo spirito di misericordia, di inclusione che ci viene sollecitato da Papa Francesco.
 *Rita Massi*
 , 2017
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Ombre e Luci, oggi. Ha ancora senso?
 date: 1999-06-16
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 8.753844261169434
 umap_y: 8.208943367004395
 umap_z: 3.369253158569336
 ---
+
 Negli ultimi anni diversi film italiani e stranieri hanno avuto per protagonisti, o tra i personaggi principali, ragazzi o uomini e donne disabili. Trasmissioni televisive, nuove riviste specializzate, servizi e articoli di settimanali e quotidiani, hanno richiamato spesso l’attenzione su storie private e problemi delle persone disabili. E continuano ad accadere cose significative: film sull’handicap trasmessi dalla televisione in prima serata, compagnie teatrali formate da malati mentali presentano spettacoli in teatri storici, il celebre fotografo pubblicizza i maglioni della celebre azienda facendoli indossare da ragazzi disabili, il libro “Un fratello da nascondere” ottiene il premio Andersen come migliore libro per ragazzi: la protagonista è un’adolescente sorella di un ragazzo gravemente disabile ( [ne parliamo qui](https://www.ombreeluci.it/1999/un-fratello-da-nascondere/) ).
 
 Non ci sono dubbi: sono cambiate la cultura e la sensibilità che circondano l’handicap e i mass-media dedicano a questo problema attenzione e risalto impensabili fino a una decina di anni fa. Di conseguenza dobbiamo chiederci anche noi di Ombre e Luci se **c’è posto oggi per il nostro piccolo giornale, se ha senso continuare a pubblicarlo se, dopo quindici anni, ha ancora un compito e quale** .

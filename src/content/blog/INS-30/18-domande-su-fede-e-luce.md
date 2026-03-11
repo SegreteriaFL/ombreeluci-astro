@@ -1,4 +1,5 @@
 ---
+
 title: 18 domande su Fede e Luce
 date: 1981-12-20
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 **Siamo dieci persone e ci ritroviamo ogni tanto con due bambini e due adulti handicappati, con il desiderio di aiutarci e pregare. Possiamo chiamarci Fede e Luce?** Siete già un po’ Fede e Luce. Per andare avanti nel vostro desiderio, vi suggeriamo di mettervi in contatto con il responsabile Fede e Luce della vostra regione (vedi indirizzi nelle ultime pagine) che vi potrà indicare una comunità con la quale potrete avere degli scambi e degli incontri. Oppure scrivete alla segreteria.
 
 **Devo partecipare a Fede e Luce se non si è credenti?** Fede e Luce è un movimento cattolico, ma questo nome lo intendiamo nel «senso universale», cioè aperto a tutti. Ci sono parecchi non credenti che partecipano a Fede e Luce «magari — diciamo — per l’atmosfera di pace, di amicizia, di gioia che vi trovano». È importante mantenere il rispetto reciproco.

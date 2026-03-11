@@ -1,4 +1,5 @@
 ---
+
 title: I condomini solidali
 date: 2001-09-27
 author: Maria Teresa Mazzarotto
@@ -16,7 +17,10 @@ umap_z: 8.91855239868164
 issue_number: OEL-75
 id_numero: "OEL-75"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dagli amici di Milano arriva la buona notizia: i «condomini solidali» nati tra Piemonte e Lombardia sono diventati dieci e forse, presto, saranno undici"
 ---
+
 Dagli amici di Milano arriva la buona notizia: i «condomini solidali» nati tra Piemonte e Lombardia sono diventati dieci e forse, presto, saranno undici.
 
 **Che sono i condomini solidali?»** Cerchiamo di rispondervi con chiarezza e concisione. È accaduto per la prima volta ventanni fa: «Alcune famiglie **che sentivano forte l’esigenza di dare un senso alla propria esistenza lontano da questa società dei consumi, hanno deciso di vivere insieme in una villa-cascina da ristrut- turare alle porte di Milano in base a un patto di mutuo soccorso, intorno ad un progetto comune»** . È nato così il primo condominio solidale di Villapizzone (v. Ombre e Luci n. 3-1985) e quelle prime famiglie ci hanno insegnato, che è possibile «vivere vicini e solidali», con le porte aperte verso il mondo esterno in uno scambio che arricchisce, che in questo contesto non è soltanto possibile ma fondamentale l’accoglienza di persone in difficoltà, e soprattutto, che è possibile vivere in «altro modo» la propria vita quotidiana e dare un senso alla propria esistenza, a partire proprio dalla centralità del nucleo familiare.

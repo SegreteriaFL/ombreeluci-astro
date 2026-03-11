@@ -1,4 +1,5 @@
 ---
+
 title: Lourdes, miracolo di un incontro
 date: 2014-12-15
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-128
 id_numero: "OEL-128"
 numero_rivista: "Ombre e Luci"
 ---
+
 Era un pomeriggio di agosto, a Lourdes, nel 1968 o nel 1969… Mi trovavo con nostra figlia Sophie, gravemente disabile, e altri genitori, lungo l’Esplanade. Attendevamo, recitando il Rosario, il passaggio della Processione del Santissimo Sacramento, condividendo le nostre sofferenze di genitori, dei nostri figli con vari handicap. **Una giovane mamma con un abito a fiori** ha attirato la mia attenzione: camminava con passo rapido verso la grotta, spingendo la carrozzina di una bambina come la mia Sophie. Sembrava annientata. Era in compagnia di una suora molto premurosa. Tutte e due attraversavano l’Esplanade.
 
 Mi sentii spinta a correre verso di lei. Ho carezzato la bambina ed ho dato alla sua mamma un invito per un incontro improvvisato tra genitori di figli con disabilità – incontro che avevo organizzato io e che doveva aver luogo la sera stessa. Mi ha ringraziato e la religiosa mi ha risposto con una strizzata d’occhio che voleva dire: “Le dirò di andarci”. Ho ripreso il mio posto accanto a Sophie, portando nel mio cuore questa mamma sconosciuta che, attraverso la sua figlioletta disabile, mi diventava così vicina… Doveva trovarsi davanti alla Grotta dell’Apparizione e sicuramente scorrevano delle lacrime.

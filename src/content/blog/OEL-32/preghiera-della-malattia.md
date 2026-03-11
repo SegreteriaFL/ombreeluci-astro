@@ -1,4 +1,5 @@
 ---
+
 title: Preghiera della malattia
 date: 1990-12-27
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-32
 id_numero: "OEL-32"
 numero_rivista: "Ombre e Luci"
 ---
+
 *O Signore,*
 *la malattia ha bussato alla porte della mia vita*
 *mi ha sradicato dal mio lavoro*

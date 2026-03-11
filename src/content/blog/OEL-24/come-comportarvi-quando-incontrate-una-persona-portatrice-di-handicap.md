@@ -1,4 +1,5 @@
 ---
+
 title: Come comportarvi quando incontrate una persona portatrice di handicap?
 date: 1988-12-25
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-24
 id_numero: "OEL-24"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Cammina con le stampelle... cammina con più o meno difficoltà...
 
 **Per aiutarlo:**

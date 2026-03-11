@@ -1,4 +1,5 @@
 ---
+
 title: Fede e Luce - Dalle Province n. 121
 date: 2013-03-10
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 14.589529991149902
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Aggiornamenti dalle comunità di Fede e Luce"
 ---
+
 ### [Un fiume di pace - Nord](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 
 “Lo Spirito resti con noi” - Ci siamo. Dal 25 al 28 aprile vivremo la nostra assemblea di provincia e affronteremo anche il rinnovo delle cariche del coordinatore di “Un fiume di pace” e dei vice coordinatori di Lombardia 1 e 2, Veneto, Piemonte e Valle d’Aosta. Speriamo di avere con noi gli amici della Galilea; sicuramente affronteranno con noi i momenti di formazione alcuni esponenti della comunità svizzera di Locarno. In vista di questo momento importante per l’intera provincia, che da quattro anni sta consolidando la sua identità, alcune comunità stanno affrontando il discernimento per eleggere i nuovi coordinatori. Tra queste (e sono tante, da Carugate a Pontelambro, da San Giuseppe della pace a Raggi di sole di Conselve) c’è anche la comunità “Cuori sorridenti”, di Vigliano Biellese. Il nuovo gruppo, che cammina da due anni con l’aiuto di Porte Aperte di Torino, entrerà ufficialmente nella famiglia di Fede e Luce il prossimo 17 marzo. Che lo Spirito Santo accompagni le elezioni, il futuro coordinatore e l’équipe, perché i semi gettati portino grandi frutti.

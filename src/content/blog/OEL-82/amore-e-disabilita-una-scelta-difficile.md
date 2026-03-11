@@ -1,4 +1,5 @@
 ---
+
 title: "Amore e disabilità: una scelta difficile"
 date: "2003-06-23"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
+
+subtitle: "L'handicap leggero di Girolamo non gli impedisce di vivere in modo autonomo e di lavorare. Ha molti amici ma poi in casa è solo... Il suo cammino quotidiano."
 ---
+
 Quando vivevo con i miei genitori vedevo i miei fratelli e sorelle uscire, svolgere un lavoro, mentre io non avevo niente. Poi si sono sposati. Mi sono sentito abbandonato. Loro erano felici, io ero infelice. Non avevo niente di concreto nella mia vita. Gli altri decidevano tutto al mio posto, perché io non sapevo cavarmela da solo.
 Da quel momento cominciai a vivere nell’angoscia. Anche i miei genitori si sentivano perduti. Non sapevano più cosa fare per aiutarmi. Ne avevano già fatte tante di cose per me ma io volevo fare a modo mio. Ero sicuramente orgoglioso ma volevo sbrigarmela da solo e non ci riuscivo. Era necessario che qualcuno mi aiutasse, ma non volevo essere aiutato. Quando, ogni tanto dovevo accettare di essere aiutato, reagivo male, mi chiudevo nel silenzio. Tutti ne soffrivano ma questo atteggiamento era la mia sola forza. Quando i miei fratelli e sorelle venivano a casa con i loro figli, io mi sentivo escluso. Mi chiudevo in camera, scrivevo lettere, poesie per dimenticare che ero solo.
 

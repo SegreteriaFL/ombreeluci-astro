@@ -1,4 +1,5 @@
 ---
+
 title: La mia vita
 date: 1980-06-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 *Quello che segue è un tema di terza media che la mamma di Andrea ha ritrovato fra le sue cose: "La mia vita è tutta un dono. Anche io innalzo il mio cantico di lode".*
 
 Quando la vita ci accoglie, noi siamo come teneri virgulti, esserini immacolati, e viviamo in un mondo di immagini nuove che poi diverranno tanto familiari.

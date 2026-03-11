@@ -1,4 +1,5 @@
 ---
+
 title: "Comunità di Fede e Luce"
 date: "1981-06-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Comunità Santa Maria delle Grazie
 
 *87067 Rossano (Cosenza)*

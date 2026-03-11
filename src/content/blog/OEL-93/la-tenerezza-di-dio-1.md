@@ -1,4 +1,5 @@
 ---
+
 title: La tenerezza di Dio
 date: 2006-03-30
 author: Laura Nardini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 8.285994529724121
 umap_y: 12.03933048248291
 umap_z: 10.771089553833008
+
+subtitle: "A novembre 2005 si è svolto il ritiro con Jean Vanier sul tema La Tenerezza di Dio presso l’Arca di Bologna. Hanno partecipato circa 200 persone provenienti da tutta Italia, alcune rappresentanze di Arca sparse nel mondo"
 ---
+
 P
 arte centrale delle due giornate sono state le riflessioni di Jean Vanier che, con la sua maniera spontanea e informale di rivolgersi al pubblico, ha cominciato il week end con un’esortazione a mantenere il silenzio per tutta la prima giornata per favorire un esame del nostro modo di ascoltarci. Poi ci ha chiesto In che modo noi ci poniamo in ascolto degli altri? Ci sono persone che comunicano solo con il proprio corpo, con gli occhi, con l’anima e senza un vero ascolto si rischia di non capirle ed imporre le nostre idee su di loro. L'ascolto vero implica una relazione, quindi un coinvolgimento totale e un’apertura del cuore che però ci rende vulnerabili di fronte all’altro. Questo genera la paura della relazione e quindi siamo portati a chiuderci. La conseguenza è che non siamo abituati ad ascoltare il nostro io più profondo e per questo non ci conosciamo. A questo punto Jean Vanier porta l’esempio della Genesi. Adamo ed Eva scelgono di provare che cosa possono fare senza Dio, scegliere cosa è giusto e cosa è sbagliato. Dio si ritira, li lascia fare. Poi Dio dice ad Adamo Dove sei? ed Adamo risponde Ho avuto paura perché ero nudo e mi sono nascosto. Quando Adamo risponde ho avuto paura perché ero nudo e mi sono nascosto, dice una cosa che è comune a tutti. Ci si chiude e ci si nasconde per paura. Come uscire dal luogo in cui ci nascondiamo? Come accettare la fragilità?
 > In ciascuno di noi dimora una sorgente. Un pozzo di tenerezza, una sorgente capace di dare vita e di donare l'Amore stesso di Dio. Misteriosamente, la tenerezza è presenza di Dio. Alla sorgente delle lacrime

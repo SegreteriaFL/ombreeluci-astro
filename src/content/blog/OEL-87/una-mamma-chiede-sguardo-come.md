@@ -1,4 +1,5 @@
 ---
+
 title: "Una mamma chiede: \"Sguardo come?\""
 date: 2004-09-13
 author: Redazione
@@ -16,7 +17,10 @@ tags:
 umap_x: 4.968905448913574
 umap_y: 7.707594871520996
 umap_z: 9.166800498962402
+
+subtitle: "Come spiegare ai propri figli che loro nell'asilo devono accogliere un compagno diverso, meno interessante, meno bello, come se fosse uguale a tutti gli altri?"
 ---
+
 Nell'ultimo numero di Ombre e Luci abbiamo letto [una bellissima preghiera di una mamma polacca](https://www.ombreeluci.it/2004/grazie-per-questo-figlio-disabile/) che invitava ad avere uno sguardo non di compassione verso i figli diversi. Io condivido totalmente questo atteggiamento che ognuno di noi dovrebbe acquisire ma vorrei porre qualche domanda alle mamme ed ai papà con la speranza che loro ci possano ulteriormente illuminare (quante cose ci hanno già insegnato!) in tema di sguardi.
 
 Sono la mamma di quattro figli e tutta la nostra famiglia è attivamente coinvolta nella vita di Fede e Luce, quindi conosciamo un po' tutti il mondo dell'handicap. Ma anche con tutta la nostra “esperienza” non sono mancati i momenti in cui un primo sguardo è stato un momento di imbarazzo, di impaccio e di difficoltà per me.

@@ -1,4 +1,5 @@
 ---
+
 title: "La fragilità alla Festa del Cinema"
 date: "2024-02-19"
 author: "Enrica Riera"
@@ -14,7 +15,10 @@ categoria_menu: "Cultura"
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Film e serie tv da tenere d'occhio"
 ---
+
 Una manifestazione inclusiva. E che ha saputo raccontare le nostre fragilità. Si è chiusa il 29 ottobre la 18esima edizione della Festa del Cinema di Roma, dopo due settimane circa di proiezioni, incontri con autori e mostre. Non solo i “grandi” titoli, quelli che hanno avuto più risonanza tra il pubblico (e la critica), ma anche “piccoli” gioielli da non perdere per le tematiche trattate e la delicatezza che li contrassegna mentre lo fanno.
 
 Da *[Kripton](https://www.ombreeluci.it/2024/kripton-un-film-per-ribaltare-linvisibilita-dei-disturbi-mentali/)* di Francesco Munzi, che ha il merito di mostrarci quello che ancora oggi facciamo fatica a vedere: ciò che accade all’interno delle nostre strutture psichiatriche dove, più in particolare, sei giovani decidono di ricoverarsi volontariamente per combattere il proprio disturbo. Fino alla miniserie *Tutta la luce che non vediamo* di Shawn Levy e Stephen Knight (il 30 ottobre è stato proiettato il primo episodio), fruibile su Netflix dal 2 novembre, nonché tratta dall’omonimo romanzo (vincitore del Premio Pulitzer nel 2014) di Anthony Doerr. In quest’ultimo caso la protagonista principale è Marie-Laure LeBlanc (Aria Mia Loberti e Nell Sutton), ragazza francese cieca il cui coraggio e la cui speranza faranno da contraltare alla violenza e alla distruzione della guerra.

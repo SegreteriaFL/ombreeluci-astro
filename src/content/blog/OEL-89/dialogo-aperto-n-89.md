@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 89
 date: 2005-03-13
 author: Redazione
@@ -14,12 +15,17 @@ has_comments: false
 umap_x: 4.643219470977783
 umap_y: 8.071849822998047
 umap_z: 10.568821907043457
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Voglia d'amare
 
 Sono un ragazzo di 33 anni e mi chiamo Andrea. Le mie parole, spero che le ragazze le capiscano e non facciano le indifferenti! Io sono un ragazzo sano (cammino regolare e tutto) ma ho un piccolo problema, cioè ho difficolta (lieve) alla parola e ne risento molto, specialmente con l'altro sesso per paura di essere respinto o per paura che mi dicano "ma tu non sei normale ecc.!” So di avere questo problema ma non voglio che le altre persone me lo facciano pesare o meglio che mi mettano i bastoni tra le ruote! Non capisco il loro atteggiamento nei mie confronti e non capisco perché facciano così! Tutti abbiamo i nostri diffetti, ma perché non accettare un ragazzo con problemi? lo sono tranquillo e sereno ma quando vedo per strada due morosi dico "Beati quelli che possono, se succedesse anche a me!" ed il cuore mio si rattrista e mi metto a piangere! Io ho avuto una storia con una ragazza che aveva problemi nel parlare (conosciuta tramite la chat di disabili), siamo stati assieme 5 mesi... lo ero felice ed entusiasta, ma il bello è che lei ha preso la decisione di lasciarmi ! Ma io mi sono reso conto una cosa: per me era pesantissima (dal modo che parlava e dal modo che camminava...) ognuno parliamo come parliamo! Io vorrei una ragazza sana che mi accettasse così Come sono perchè io ho dei veri sentimenti e non accetto che mi calpestano!!!
 **Andrea Zoroaster**
 (Padova), 2005
+
+
 
 ---
 
@@ -29,6 +35,8 @@ Più passano gli anni, quindici da quando sono venuto in Cina, più trovo entusi
 **P. Fernando Cagnin**
 , (Hong Kong)
 
+
+
 ---
 
 ### Jean Vanier dalla Siria
@@ -37,12 +45,16 @@ A Damasco ho visitato la grande Moschea, luogo straordinario di immensa bellezza
 **Jean Vanier**
 (da una lettera del novembre 2004)
 
+
+
 ---
 
 ### A proposito di Uscobupt
 
 Leggo sempre con grande interesse la nostra rivista. Quest'ultima poi, il n.87, è straordinaria. Io sono da sempre una "consumatrice" di Uscobupt... Mi aiuta in tutte le circostanze della vita e vedo che è anche contagioso. La lettera di Giampaolo mi ha commossa tanto e che il Signore continui a sostenerlo’e benedica la sua piccola! Un saluto in amicizia alle simpaticissime facce che ci sorridono da Feltre, avete mai riflettuto su quanto è affascinante il sorriso dei "nostri" ragazzi? Sugli articoli non mi soffermo in particolare, ma ognuno di loro vale un Perù. Ho visto due volte il film "Le chiavi di casa". Mi è molto piaciuto perché profondamente umano, vero, alieno da pietismi e sentimentalismi, bello; andate a vederlo, se non l'avete già fatto. Tra l'altro, Paolo, il ragazzino, mi ricorda , in alcune scene, il nostro amico Valentino che da ragazzo veniva spesso a casa nostra, quanti scherzi mentre i nostri tre figli maschi gli facevano il bagno, quante risate quando erano a letto, tutti nella stessa stanza, solo Nora, la più piccola aveva il privilegio di una stanza tutta per sè, ciò non toglieva però che fosse ugualmente partecipe della "festa" quando c'era Valentino. Ho comprato il libro "Il ragazzo che amava Shakespeare”, di cui avete fatto una bella presentazione e ho ordinato: "In autobus con mia sorella". Grazie per tutte queste ed altre indicazioni che ci date.
 **Trixi Pezzoli**
+
+
 
 ---
 
@@ -52,6 +64,8 @@ Ho avuto modo di leggere la vostra rivista e come mamma di un ragazzo autistico 
 **Paola Vagni**
 (Macerata)
 *Grazie dell’apprezzamento. Sappiamo che Ombre e Luci vale e serve molto e merita tutto l’aiuto possibile, sia per diffonderla che per sostenerla.*
+
+
 
 ---
 

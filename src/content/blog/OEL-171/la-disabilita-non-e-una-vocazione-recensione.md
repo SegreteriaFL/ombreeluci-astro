@@ -1,4 +1,5 @@
 ---
+
 title: "La disabilità non è una vocazione | Recensione"
 date: "2025-11-29"
 author: "Giulia Galeotti"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-171
 id_numero: "OEL-171"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un dialogo su quanto di scontato viviamo e preghiamo (Ed. Qiqajon, 2025)"
 ---
+
 «Nel caso della disabilità, il giudizio di valore diventa svalutazione dell’umanità dell’altro», afferma Simone Stifani, sacerdote in sedia a ruote, nel libro scritto a quattro mani con Luciano Manicardi. Questo tra il giovane prete e il monaco di Bose è un dialogo profondo con cui (a tratti) si può anche non concordare appieno, ma che ha molti punti interessanti. Il principale dei quali, a nostro avviso, è**l’invito a mettere in discussione quelle idee di Dio, di persona umana e di Chiesa che diamo per scontate, come se fossero le sole possibili.** Non riconoscendo come invece, troppo spesso, esse siano solo frutto di un modo di pensare, vivere e pregare determinato dall’abilismo occidentale di cui siamo impregnati.
 
 ### La disabilità non è una vocazione

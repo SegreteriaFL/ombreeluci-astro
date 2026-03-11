@@ -1,4 +1,5 @@
 ---
+
 title: Tutto quello che hanno detto di preciso
 date: 2021-04-14
 author: Benedetta Mattei
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Nella foto: Didattica a distanza, pranzo in presenza di Benedetta*
 
 Iprofessori hanno detto ai miei genitori che sono molto brava e lavoro tantissimo. Hanno detto che sono contenti. E che quando mi interrogano rispondo bene. Hanno detto che loro vedono che con tutti i miei compagni di classe io mi trovo molto bene. Tutto vero. Loro hanno fatto una riunione su zoom su di me. Io però non potevo collegarmi. Così sono andata da nonna. Poi mi hanno detto che i professori erano contenti e io ho voluto sapere tutto quello che hanno detto di preciso. Erano collegati tutti i professori. Hanno detto pure che sono simpatica e rido spesso. Hanno detto che mi piace fare le battute che fanno ridere. La professoressa di economia ha detto che mi ha da poco interrogato e io ho spiegato bene cosa è l’Iva. Altre due professoresse hanno detto che io ho fatto una bellissima interrogazione per spiegare cosa è il teatro Marcello come se lo dicessi ai turisti. Mi hanno messo 10 perché a un certo punto mi sono imbrogliata ma ho detto stop, ho riiniziato a spiegare e ho detto tutto per bene. Loro mi hanno detto che ho fatto bene a fare così.

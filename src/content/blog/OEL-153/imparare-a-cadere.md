@@ -1,4 +1,5 @@
 ---
+
 title: Imparare a cadere
 date: 2021-04-09
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-153
 id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
+
 Noel ama gli AC/DC, la chitarra, arrostire (bruciandoli) i marshmallows e la sua mamma, con cui vive a Berlino. Un giorno però irrompe la tragedia e così, improvvisamente, tutto muta nella vita del ragazzino. Un signore con la barba lo porta in una struttura molto speciale: per Noel, che è estremamente abitudinario, il mondo intero cambia forma. L’arrivo a Neuerkerode, comunità evangelica nel nord della Germania, è l’inizio di un nuovo cammino: non più protetto dalle mura domestiche, Noel si ritrova a vivere insieme a operatori e altri giovani con disabilità di vario tipo. Affrontare il mondo esterno significa scontrarsi con delusioni d’amore, lutti, abbandoni, dolori di tanti tipi ed enormi difficoltà, ma per il ragazzino è anche l’occasione per nuovi confronti, risate, amicizie. E per provare a costruire una propria idea di felicità.
 
 Tutto questo in *Imparare a cadere* (edizioni [Bao Publishing](https://baopublishing.it/) , 2020, traduzione di Giordana Rossetti), primo libro a fumetti del giovane Mikael Ross, una storia mai banale capace – nella trama, nei dialoghi e nelle immagini – di parlare di disabilità e fragilità in modo vero, non scontato. Di parlare di crescita con ironia luminosa, con un’allegra delicatezza che non cela però salite, limiti e ferite.

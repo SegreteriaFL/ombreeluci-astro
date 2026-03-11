@@ -1,4 +1,5 @@
 ---
+
 title: "Fede e Luce: una fedeltà che ridona l’entusiasmo"
 date: "2012-09-16"
 author: "Angela Grassi"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-119
 id_numero: "OEL-119"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Contro la rassegnata convinzione che non c’è più nulla da fare, c’è la promessa di Dio: “Io non ti dimenticherò!”: una promessa che chiede di fidarsi dell’altro"
 ---
+
 La mano di Silvia, che stringe forte la mia mentre mamma Paola e papà Claudio raccontano la sua fragilità e insieme la scoperta della sua bellezza. Le lacrime di Gianfranco e Daniela, che hanno compiuto il salto dal sentirsi messi alla prova da Dio all’amore accogliente verso il loro figlio Luca.
 
 Il sorriso di Silvia ed Enrico, giovani sposi che riconoscono in Fede e Luce la scuola per le loro scelte di vita. La forza di Stefano, capace di capovolgere con la sua carica di affetto ciò che il mondo pensa dell’handicap.

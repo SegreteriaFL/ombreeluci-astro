@@ -1,4 +1,5 @@
 ---
+
 title: "Far vivere il luogo (e le persone) di cui si è custodi"
 date: "2021-09-02"
 author: "Cristina Tersigni"
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nelle campagne della Tuscia viterbese sorge **un’azienda agricola familiare che da quattro generazioni tiene testa allo spopolamento generale** della campagna e all’utilizzo esclusivo dei macchinari. Dal 2018 al suo interno ha preso vita [Volta la Terra](https://www.voltalaterra.it/), in una rete di condivisione, di scambio e reciprocità capace a sua volta di rendere partecipi persone ai margini della società. Lavorando la terra le persone ritrovano infatti il loro valore attraverso la cura di un territorio cui ci si accosta - insieme - in maniera più attenta e responsabile. Costanza Mestichelli, 45 anni, ne è la responsabile; vive qui con Filippo Ascenzi, il marito, e i tre figli (Giovanni, Marta e Sabina) e da qualche mese anche con l’amico Pietro, settantacinquenne con disabilità, per allontanarlo dal disagio di una dura periferia romana.
 Come comincia questa esperienza?
 Nel 2008 con la nascita di Marta, la nostra secondogenita, ci siamo trasferiti qui da Roma. È stato un cambiamento importante, soprattutto per chi forse dava per scontato che scegliessimo una vita più canonica. All’interno dell’azienda di famiglia di mio marito Filippo esisteva un vecchio ovile, situato accanto a due casaletti, già avviati all’ospitalità, e ci abbiamo investito quanto avevamo. L’ovile è divenuta la nostra casa, con una grande sala accogliente per ampliare l’offerta di servizi dell’agriturismo. Tra i primi avventori, gli amici di Roma delle comunità di [Fede e Luce](http://fedeeluce.it), con i campi estivi. **L’esperienza di vita comunitaria con persone con disabilità mentale ci ha insegnato un nuovo sguardo sulle nostre responsabilità e sul nostro impegno.** Si è unito a ciò che sentivamo verso questo pezzo di terra che abbiamo avuto la possibilità di custodire e che vorremmo porti frutto per noi e per la comunità territoriale in cui viviamo.

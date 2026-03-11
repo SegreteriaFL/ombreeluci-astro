@@ -1,4 +1,5 @@
 ---
+
 title: "Quando è \"volontariato\""
 date: "1984-09-30"
 author: "Nicole Schulthes"
@@ -15,6 +16,7 @@ issue_number: OEL-7
 id_numero: "OEL-7"
 numero_rivista: "Ombre e Luci"
 ---
+
 Volontariato** è una parola relativamente nuova e molto alla moda ma invero è una realtà antica.
 Vecchia quanto l’uomo! Grazie a Dio ci sono sempre stati cuori generosi che vanno verso gli altri, i più deboli, i più anziani, i malati ecc.
 E’ infatti proprio la generosità ad animare, a motivare il volontariato. Questa generosità rende sensibili ai bisogni degli altri, ci porta a dare aiuto gratuitamente.

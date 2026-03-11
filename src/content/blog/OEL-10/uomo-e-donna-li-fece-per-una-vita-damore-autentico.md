@@ -1,4 +1,5 @@
 ---
+
 title: Uomo e donna li fece. Per una vita d’amore autentico
 date: 1985-06-27
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-10
 id_numero: "OEL-10"
 numero_rivista: "Ombre e Luci"
 ---
+
 In quest’opera Jean Vanier pone il problema dell’amore e della sessualità ad un livello molto profondo. Qual’è il senso della vita della persona handicappata? A quale fecondità può essere chiamata? Come accompagnarla e sostenerla, sia nel celibato che nel matrimonio? L’autore non offre facili soluzioni, ma sottolinea l’importanza di una vera educazione, che spesso passa per la sofferenza, per giungere ad una liberazione, una pace, un'unità interiore. L’autore ha una grande esperienza poiché da vent'anni vive quotidianamente con adulti handicappati mentali ed è all'origine di 67 comunità dell’
 [*Arche*](http://www.ombreeluci.it/1985/la-sfida-dellarca-recensione/)
 nel mondo. Il suo linguaggio è quello di un cristiano; non c’è per lui rottura tra il Vangelo e l’espressione dell’essere umano quando grida le sue richieste. I lettori presentiranno il contenuto e lo spirito del libro leggendo i titoli dei capitoli che presentiamo qui sotto: II cuore ferito Educazione ed esigenza La relazione dell’uomo e della donna Un luogo per il cuore La comunità, luogo dell’integrazione della sessualità Il celibato vissuto in comunità L’unità nel matrimonio La fecondità e l’accoglienza della morte La celebrazione dell’unità Questo articolo è tratto da

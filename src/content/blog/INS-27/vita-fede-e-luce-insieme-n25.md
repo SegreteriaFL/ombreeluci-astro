@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce - Insieme n.25
 date: 1980-06-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 ### A Marzocca
 
 Siamo state chiamate… Abbiamo risposto Sì. Questo servizio di incontro l'abbiamo iniziato invocando lo Spirito Santo ad aiutarci a dare sempre e dovunque, a chi avvicinerà, un raggio di *luce* confortati dalla *fede* in Cristo Gesù. Mi è difficile riuscire ad esprimere concisamente questa esperienza ma ci proverò.
@@ -30,6 +32,7 @@ Ci siamo impegnati in tre momenti significativi:
 A chi ci ha ospitato con tanto amore e comprensione, diciamo un grazie di cuore e che Dio vi benedica.
 
 *Fausta Guglielmi* , 10 febbraio1980
+
 
 ---
 

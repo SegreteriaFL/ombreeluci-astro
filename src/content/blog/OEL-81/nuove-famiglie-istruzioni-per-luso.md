@@ -1,4 +1,5 @@
 ---
+
 title: "Nuove famiglie: istruzioni per l'uso"
 date: 2003-03-13
 author: Redazione
@@ -18,7 +19,10 @@ tags:
 umap_x: 6.852980136871338
 umap_y: 8.918264389038086
 umap_z: 11.831254005432129
+
+subtitle: "Come affrontare con discrezione un ragazzo nuovo e i suoi familiari bisognosi di aiuto?"
 ---
+
 Una nuova famiglia bussa alla nostra porta. Ha voglia di conoscerci, di uscire dall’isolamento. Come affrontare con discrezione un ragazzo nuovo e i suoi familiari bisognosi di aiuto?
 
 Andiamogli incontro senza imporgli la nostra presenza.

@@ -1,4 +1,5 @@
 ---
+
 title: "\"Lei non entra\""
 date: 1984-03-30
 author: Olga Gammarelli
@@ -20,6 +21,7 @@ issue_number: OEL-5
 id_numero: "OEL-5"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sabina è una ragazza gravemente handicappata, fisicamente e mentalmente fin dalla nascita: è cieca, cammina con un po’ di aiuto, non parla, e sembra non capire il linguaggio. Ma reagisce all’amore e al contatto fisico. A causa della relazione di amicizia con il suo parroco, Don Tonino della Parrocchia dei Protomartiri, amicizia che si è sviluppata con il tempo, la ragazza è stata cresimata nella sua parrocchia insieme ad 85 ragazzi e ragazze suoi coetanei; riceve regolarmente l’Eucarestia; ottiene l’assoluzione per suoi peccati ogni anno nel periodo pasquale.
 Qualche settimana fa con Sabina e mio marito eravamo presenti ad una messa domenicale nella parrocchia di S. Silvia. Insieme al parrocco celebrava un sacerdote francese, uno dei primi di
 [*Fede e Luce*](http://www.ombreeluci.it/fede-e-luce/)

@@ -1,4 +1,5 @@
 ---
+
 title: "\"Il mio bambino con la sindrome di Down\""
 date: 1983-12-31
 author: Mariangela Bertolini
@@ -24,6 +25,7 @@ umap_y: 10.247962951660156
 umap_z: 7.2808837890625
 id_numero: "OEL-4"
 ---
+
 “
 *Il nostro primo figlio ha qualche minuto di vita. Mio marito, subito, sa che è mongoloide. Solo qualche ora dopo anche io apprendo il verdetto. La mia prima reazione è che Dio ce lo manda e che noi sapremo amarlo così com’è.*
 *Poi, comincia per me una lotta terribile: da un lato un istinto materno mi fa desiderare con tutte le forze di avere vicino il bambino che ho appena messo al mondo (al quale stanno prestando cure speciali).*

@@ -1,4 +1,5 @@
 ---
+
 title: Un angelo canta blu - La vera storia di Cecilia - Recensione
 date: 2000-06-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 5.3006815910339355
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Bianca Maria Bruscagli - Edizioni San Paolo 1999. pp. 150"
 ---
+
 “Cecilia è (anche se si dovrebbe dire, piuttosto: era) una ragazza sana, intelligente, solare. Un giorno, d’improvviso, s’ammala. Dapprima sembra un’inezia, destinata a scomparire senza conseguenze. Comincia, in realtà, uno stillicidio di visite specialistiche, di analisi contraddittorie. di diagnosi ambigue, di terapie inefficaci. Sino all’ultimo inesorabile strappo: la morte a soli vent’anni. In pochi attimi angosciosi, la madre di Cecilia, l’autrice di questo libro, vede sconvolta la sua esistenza, e la sua fede inchiodata a una croce, terribilmente simile a quella di Cristo.
 
 Un angelo canta blu è il racconto (tra romanzo, diario e confessione) di questa atroce eppure stupenda esperienza di amore e tormento materni. Con sobrietà e discrezione, senza sbavature né compiacimenti, Bianca Maria Bruscardi ripercorre il cammino compiuto accanto alla figlia, prima negli anni felici, poi nelle ricorrenti stagioni della sofferenza, intervallate da pause di serenità. Scrivendo, la madre riscatta la «colpa» di essere, lei, ancora viva. Ricompone il mosaico frantumato della sua maternità. Riempie il vuoto delle giornate chiamando Cecilia ad ascoltarla, e quasi a risponderle, mentre dipana il filo della memoria: una presenza non soltanto spirituale, ricca di forza misteriosa. capace di «redimere» il passato e restituire un senso al presente.

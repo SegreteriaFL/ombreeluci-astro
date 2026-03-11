@@ -1,4 +1,5 @@
 ---
+
 title: Quarantadue chilometri tra Bellizzi e New York
 date: 2021-10-20
 author: Enrica Riera
@@ -15,6 +16,7 @@ issue_number: OEL-155
 id_numero: "OEL-155"
 numero_rivista: "Ombre e Luci"
 ---
+
 Staten Island, Brooklyn, Queens, Manhattan, Bronx: sono cinque i distretti di New York da dover attraversare per vincere **la maratona più partecipata al mondo** , tra le corse maggiormente importanti degli Stati Uniti. È questo il sogno dei due fratelli Leo che ogni giorno, a Bellizzi (Salerno), si allenano per farlo diventare realtà. **Dario, 38 anni, è infatti pronto a spingere la carrozzella su cui Franco, 52, gareggerà** alla cinquantesima edizione della competizione newyorkese, il 7 novembre prossimo, dimostrando a tutti che «se lo vuoi, puoi farlo». «A mio fratello Franco, che da quando è nato convive con la tetraparesi spastica, gli oltre 42 chilometri da percorrere, secondo l’itinerario previsto dalla gara, non fanno paura – spiega Dario Leo –. Per lui è importante affrontare questa sfida anche e soprattutto per donare speranza ad altre persone, giovani magari, che hanno un desiderio e credono, a causa delle più svariate difficoltà, di non poterlo realizzare».
 
 Una sfida, dunque, **la cui idea inizia a formarsi e a nascere proprio nel corso del confinamento dovuto al coronavirus** che, nei mesi passati, ha travolto tutti e a Franco, in particolare, ha instillato un profondo senso di isolamento. «Nel corso della chiusura dovuta all’emergenza sanitaria da covid-19 – racconta Dario –, Franco ha attraversato una fase di depressione; per questo mi sono detto che avrei dovuto fare qualcosa per aiutarlo e, ancora, che questo qualcosa avrebbe dovuto realmente identificarsi con la realizzazione del suo sogno, che non è soltanto la partecipazione alla maratona di New York, ma pure prendere un aereo, visitare una grande città, fare dello sport all’aperto».

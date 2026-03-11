@@ -1,4 +1,5 @@
 ---
+
 title: "Wheelchair Hockey: per la prima volta Italia campione del mondo"
 date: 2018-10-03
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 L'
 Italia è campione del mondo di
 **wheelchair hockey**

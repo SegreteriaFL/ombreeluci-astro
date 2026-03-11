@@ -1,4 +1,5 @@
 ---
+
 title: Dialoghi scomodi, amicizie vere
 date: 1979-12-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.129875183105469
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Dalla semplicità di un incontro in autobus alla complessità delle domande sulla vita: due storie di amicizia oltre la diversità"
 ---
+
 ### In autobus
 
 Ho incontrato L. in autobus. Rientravamo entrambi dal lavoro. È stato lui a chiamarmi e salutarmi. Io ero "troppo stanca" per "vedere" le persone intorno a me. Ci siamo detti ciao ed abbiamo cominciato a parlare di cosa avevamo fatto durante l'estate: un dialogo come tanti, tra amici, nel tempo di poche fermate di autobus.

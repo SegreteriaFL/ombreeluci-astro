@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.133
 date: 2016-03-25
 author: Redazione
@@ -17,10 +18,12 @@ issue_number: OEL-133
 id_numero: "OEL-133"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Dalla Cina
 
 Carissimi amici, […] Dio non sta mai fermo! Dire che “Dio è amore ci fa subito pensare che Lui si dedica alle sue creature e entra nella nostra storia personale. […] Gesù in tutti i modi ha cercato di contrastare le credenze rigide e farisaiche e le ideologie sostituendole con entusiasmanti “segni” che attivano la fede, miracoli ed “esperienze” che toccano in profondità il significato della propria vita. Al di là di quanto siamo fedeli a ogni regola giudaica o ecclesiastica, anche da peccatori pentiti, Lui ci fa sentire amati da Dio stesso e da chiunque si fa prossimo. Se ci prendiamo cura e responsabilità del benessere degli altri, come Gesù ha fatto con noi, allora “sperimentiamo” subito un amore che procura gioia, e Dio verrà in mezzo a noi. Essere missionari oggi, più che predicare tanto messaggi da credere, è trasmettere la possibilità di fare “esperienza” di amore, l’esperienza del prendersi cura e responsabilità della felicità del prossimo! Si tratta di un’energia che toglie di mezzo le difficoltà o le avversità, ma ci permette di viverle e superarle e fa sì che permettiamo anche a Dio di prendersi cura di noi. Ormai è trent’anni che sono sacerdote e ventisei anni li ho trascorsi in Cina soprattutto cercando di dare testimonianza di un amore che si esprime con tante attenzioni, con la cura delle persone diversamente abili, la vicinanza alle persone che si sentono meno amate e assistite… Lo sapete bene, che questo è stato possibile per l’esempio di Gesù, con l’aiuto della vostra preghiera e tanti contributi che hanno permesso di fare sperimentare la forza dell’amore che – lo ripeto prendendolo da un discorso di Papa Francesco – è l’esperienza di prendersi cura e responsabilità della felicità degli altri. Io non mi sento molto capace in questo perché ogni volta che cerco di donare o donarmi, prima “faccio i conti”! Dio invece ha un “amore illimitato” e si dona tutto. Con le nostre credenze e regole spesso “accorciamo gli orizzonti di Dio” e rendiamo i nostri gesti di amore così “piccoli”, che sembrano quasi un “interesse” a misura di sé stessi. Dio si è donato tutto. […]
 **P. Ferdinando Cagnin**
+
 
 ---
 

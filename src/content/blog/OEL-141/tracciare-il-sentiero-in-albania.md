@@ -1,4 +1,5 @@
 ---
+
 title: Tracciare il sentiero in Albania
 date: 2018-03-26
 author: Daniela Guglietta
@@ -19,6 +20,7 @@ issue_number: OEL-141
 id_numero: "OEL-141"
 numero_rivista: "Ombre e Luci"
 ---
+
 Tutto è iniziato più di un anno fa quando **Padre Theodoros** (assistente spirituale della provincia *Kimata* ), ha comunicato a **Pietro Vetro** (coordinatore provinciale *Kimata* ) di aver conosciuto alcune famiglie albanesi con figli disabili. Il "gancio" di questa conoscenza è **Bertrand** , responsabile de *Il sassolino bianco* dell' [*Arca* di Bretagna](https://www.larche.org/) che da anni frequenta Tirana e ha stretto rapporti di amicizia con genitori e ragazzi con diverse capacità (così definiscono la disabilità gli albanesi). In Albania non c'è niente per i ragazzi disabili e le loro famiglie. Alcuni genitori si vergognano dei figli e li tengono chiusi in casa. Per fortuna non tutti la pensano così e le famiglie incontrate da Padre Theodoros fin da subito si sono mostrate interessate ed incuriosite da *[Fede e Luce](http://fedeeluce.it)* . Con Pietro abbiamo così raccolto l'invito di andare a Tirana per farci conoscere. L'incontro si è concluso fissando una "casetta" per il mese successivo! A maggio del 2017 abbiamo vissuto a Tirana il primo incontro di *Fede e Luce* .
 
 Mese dopo mese questo piccolo seme albanese ha iniziato a mettere radici, a conoscersi, a camminare insieme con speranza e gioia. Ad ottobre abbiamo organizzato una formazione, costituito un'equipe, fissato un calendario con le casette... Insomma a tracciare un sentiero nella grande famiglia di *Fede e Luce* . Abbiamo organizzato una Festa della Luce a Tirana, invitando rappresentanti delle comunità di *Kimata* (Fidenza, Roma, Grecia, Cipro) e dell'Arca (di Ciampino e di Bretagna), perché senza *Il sassolino bianco* e Bertrand tutto questo non lo potremmo raccontare e anche per far capire loro che alla fine siamo tutti un'unica famiglia.

@@ -1,4 +1,5 @@
 ---
+
 title: "\"La Cura Invisibile\" per il riconoscimento dei Caregiver"
 date: 2013-06-10
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 7.0425124168396
 issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Questo gruppo di lavoro sostiene la proposta di legge sul prepensionamento e si sta battendo per il riconoscimento giuridico dei caregiver"
 ---
+
 **Potete descriverci gli intenti di queste proposte e quali prospettive offrono?** La legge sul prepensionamento dovrebbe riconoscere il diritto del familiare, che svolge il doppio lavoro di cura di un congiunto con disabilità grave ed una diversa professione, di veder riconosciuta la condizione usurante di tale impegno. E’un processo di riconoscimento legislativo che riguarda però solo una contenuta platea dei familiari impegnati nel lavoro di cura. Quanto invece chiediamo ora, rispetto al family caregiver, è il riconoscimento dell’impegno, richiesto al familiare di una persona con disabilità grave, di garantire la sopravvivenza e la qualità di vita del proprio congiunto. Il lavoro di cura, quindi, non si esaurisce unicamente con la prestazione assistenziale continua ma comprende l’intera gamma di azioni necessarie al mantenimento di una condizione esistenziale dignitosa di chi ha una disabilità (rapporto con le istituzioni, continuità terapeutiche/riabilitative, supporto nella comunicazione, nella vita di relazione ecc ecc).
 
 **“Salvaguardare i legami affettivi della persona con disabilità per raggiungere l’obiettivo cruciale della sua inclusione” (da uno dei post del blog “La Cura Invisibile”): cosa intendete per “inclusione”?** Includere qualcosa o qualcuno è l’opposto che escluderlo. La condizione di disabilità grave ha potenzialmente l’elemento escludente, e il rifiuto e la difficoltà relazionale ne sono la conseguenza. Infatti la tentazione di gestire una presa in carico globale dei bisogni connessi alla disabilità grave, isolando la persona dal suo ambiente per calarlo in un contesto organizzato e funzionale, produce, di fatto, l’alienazione della unicità ed individualità della persona umana che è tale soprattutto attraverso le spontanee relazioni affettive.

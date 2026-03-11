@@ -1,4 +1,5 @@
 ---
+
 title: "La cinquataseiesima colonna - Uno strumento concreto di autoformazione per chi si trova in una relazione d'aiuto"
 date: "1993-09-09"
 author: "Natalia Livi"
@@ -15,6 +16,7 @@ issue_number: OEL-43
 id_numero: "OEL-43"
 numero_rivista: "Ombre e Luci"
 ---
+
 Una comunità di malati di AIDS in fase terminale gestita dalle Ancelle della Carità con l’aiuto di volontari, e un piccolo chiostro quattrocentesco sono i protagonisti di questo libro illuminante e prezioso. Esso si rivolge a coloro che, negli ambiti più diversi, si trovano in una relazione di aiuto. In primo luogo a tutti i volontari.
 La cinquantaseiesima colonna è quella che nel chiostro della comunità a prima vista non è individuabile: sta dietro a un pilastro, bianca e solida, ad angolo. È una colonna nascosta; è una colonna portante. Nel chiostro, che è simbolo della comunità, dell’unione, della condivisione, la colonna bianca rappresenta la figura del volontario.
 Il volontario è colui che, consapevole che poco più in là, oltre la sua persona, c’è un mondo di dolore che lo chiama, un mondo di sorelle e di fratelli suoi, partecipando a questa sofferenza, sente una tensione che lo spinge ad andarle incontro. Dicono le autrici: «Il volontario è la colonna nascosta. Si mette semplicemente accanto in una presenza che rispetta e lascia esistere; nel chiostro della «vita insieme» non si vede a prima vista: non è lì per fare il primo attore, nè per fare la so/o, né per accaparrarsi la simpatia e l'ammirazione, non è lì per dire io, ma per mettere in primo piano l’amore luminoso che lega l’insieme.

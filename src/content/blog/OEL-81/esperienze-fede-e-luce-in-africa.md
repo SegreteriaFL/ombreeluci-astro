@@ -1,4 +1,5 @@
 ---
+
 title: Esperienze Fede e Luce in Africa
 date: 2003-03-13
 author: Redazione
@@ -17,7 +18,10 @@ tags:
 umap_x: 7.315728187561035
 umap_y: 9.050235748291016
 umap_z: 13.182441711425781
+
+subtitle: "Fede e Luce conta oggi più di 1500 comunità in tutto il mondo. In questo articolo del 2003 raccontavamo la drammatica situazione di Africa"
 ---
+
 Durante la sua vita pubblica Gesù mostra il suo affetto particolare per le persone più “colpite”. Il malato, il cieco, il ferito vanno da lui perché c’è in lui una forza risanatrice che li cura. Duemila anni dopo, la Chiesa che Egli ha creato segue le orme del suo Maestro. Così è nata [**Fede e Luce**](http://www.fedeeluce.it/) e si è diffusa nel mondo.
 
 **Il continente africano ne è un buon esempio** . Le prime comunità sono create da missionari che hanno conosciuto questo movimento in Europa. Si è sparsa la voce e l’esempio: le comunità si sono moltiplicate.

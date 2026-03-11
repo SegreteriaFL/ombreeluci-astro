@@ -1,4 +1,5 @@
 ---
+
 title: Un solo nome
 date: 2015-06-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-132
 id_numero: "OEL-132"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando si parte per un pellegrinaggio, tante sono le aspettative, le emozioni, gli stati d’animo. Ci si domanda: sarà bello come il precedente di dieci anni fa, quando lo vivemmo in quel momento, con quella persona? Poi questa domanda si ignora e si parte.
 
 I cinque giorni del pellegrinaggio travolgono come una marea incalzante per poi ritrovarsi alla fine pieni, ossigenati, pronti a ritornare con “la borsa del pellegrino” zeppa di emozioni, esperienze, volti, sorrisi, pianti… insomma è sempre Fede e Luce!

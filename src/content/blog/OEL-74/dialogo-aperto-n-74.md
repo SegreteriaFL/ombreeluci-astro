@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 74
 date: 2001-06-20
 author: Redazione
@@ -14,10 +15,15 @@ umap_z: 10.351840019226074
 issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Genitori forse troppo esigenti
 
 Vi mando come segno di morte e resurrezione personale questa piccola poesia (la prima della mia vita). So che sono narcisista, ma sono sicura che mi capite profondamente se vi comunico l’EMOZIONE fortissima che ho provato una settimana fa, casualmente, dal parrucchiere. Ho incontrato la mamma di una compagna delle elementari di Andrea che mi ha fatto “vedere” attraverso i suoi ricordi Andrea a Il anni in gita scolastica per tre giorni all’Uccellina senza genitori. Era felice, pieno di entusiasmo, e carico di aspettative come noi genitori.... Poi con il tempo, mi sembra, ci siamo dovuti accontentare! Scusate e pregate per tutti i genitori troppo esigenti con i figli perché così non li fanno sbocciare. Vi abbraccio con tanto affetto.
+
+
 
 ---
 
@@ -27,11 +33,15 @@ Biondo e ricciuto, dai misteriosi occhi chiusi da sempre, correva, ebbro dei tan
 
 **Silvana Zamperoni**
 
+
+
 ---
 
 ### Gli eroi moderni
 
 Come ringraziarvi per tutto quello che donate a tutti noi, a Fede e Luce? Comprensione, fiducia, speranza traboccano dai vostri articoli in Ombre e Luci e la pena si fa più leggera e si riscopre la fede, la certezza di non essere soli. Ha ragione il Cardinale Martini quando dice che le mamme e i papà dei “nostri piccoli” sono gli eroi odierni. Ma i nostri piccoli di 26 anni fa ora sono adulti e i genitori, quando ci sono, vecchi; vecchi che pregano e sperano nel “dopo di noi”. E la nostra casa cresce a poco a poco. Vi abbraccio tutti. **Leila Castagnoli**
+
+
 
 ---
 

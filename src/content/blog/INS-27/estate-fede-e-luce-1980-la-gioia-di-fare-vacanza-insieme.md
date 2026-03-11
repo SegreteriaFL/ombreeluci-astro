@@ -1,4 +1,5 @@
 ---
+
 title: "Estate Fede e Luce 1980: la gioia di fare vacanza insieme"
 date: 1980-12-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 **Estate 1980.** Parole? No, fatti
 
 ### Quando?

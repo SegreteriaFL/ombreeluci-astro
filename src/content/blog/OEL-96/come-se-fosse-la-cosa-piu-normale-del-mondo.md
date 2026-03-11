@@ -1,4 +1,5 @@
 ---
+
 title: "Come se fosse la cosa più normale del mondo"
 date: "2006-12-28"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
+
+subtitle: "In ricordo di Nicole Schultes, fondatrice di Ombre e Luci"
 ---
+
 Quando veniva a casa nostra e mi chiamava “professore”.
 
 Il Mary Mount. Mi sembra ieri. Quando ci passava a prendere, me e Mattia, sulla opel bianca, e chiacchieravamo di tutto e di più, in quelle calde estati romane di uno dei periodi più felici della mia vita.

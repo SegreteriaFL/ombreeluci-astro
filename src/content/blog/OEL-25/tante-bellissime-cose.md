@@ -1,4 +1,5 @@
 ---
+
 title: Tante bellissime cose
 date: 1989-03-21
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-25
 id_numero: "OEL-25"
 numero_rivista: "Ombre e Luci"
 ---
+
 A me l’esperienza del campeggio è piaciuta perché abbiamo fatto tante bellissime cose interessanti. Il primo giorno abbiamo fatto il mimo del «Magnificat» che è il canto di gioia della Madonna. Io, con la danza ho rappresentato la Madonna che ballava. Le persone, a vedermi ballare così bene, si sono commossi tutti e sono rimasti contenti. Anche Marina era tanto commossa ed ha detto: «Sono senza parole». Don Vito, quando stavo a ballare, in quel momento, mi ha scattato una fotografia per ricordo di questa ballerina così bravissima, per far vedere alle altre persone, quando vanno nel posto.
 
 Un altro giorno siamo andati al mare ed abbiamo fatto il bagno e ci siamo divertiti. Il terzo giorno siamo andati con le macchine a Castellana ed abbiamo fatto un pellegrinaggio tutti insieme in una Chiesa dove abbiamo visitato il presepe. Un altro giorno siamo andati ad Alberobello a visitare i trulli con le automobili perché era lontano e non si poteva andare a piedi. La giornata era molto calda. Stavano i negozi aperti con tante cose interessanti; un’amica nostra che si chiama Nicla ha avuto piacere di comprare delle cosine molto carine per ricordo. Venerdì sera abbiamo fatto il festival. Nel festival alcuni hanno ballato, altri hanno cantato. Marilù, Mario, Vitino, Mario Pagliarulo, per far ridere un poco le persone, hanno fatto una scenetta: rappresentavano la moglie ed il marito che stavano vedendo la televisione che parlava con loro ed, alla fine, litigavano perché non si trovavano d’accordo.

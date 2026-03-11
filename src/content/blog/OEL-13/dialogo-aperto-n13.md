@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.13
 date: 1986-03-14
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-13
 id_numero: "OEL-13"
 numero_rivista: "Ombre e Luci"
 ---
+
 *"Manuela comincia a leggere e scrive bene. L’unica cosa, a volte molto penosa, sono i viaggi in treno..."*
 *"Nei momenti più bui e dolorosi, sfoglio, leggo e rifletto, guardo Ombre e Luci e mi ritorna il coraggio, la forza per continuare e caccio lontano l’idea di fermarmi".*
 

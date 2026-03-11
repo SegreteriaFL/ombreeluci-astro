@@ -1,4 +1,5 @@
 ---
+
 title: Come abbiamo comunicato la morte di una persona cara
 date: 2022-08-05
 author: Ivana Perri
@@ -17,6 +18,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 Cisiamo trovati varie volte a dover comunicare a un ospite la perdita di una persona cara. Abbiamo sempre preferito dirlo prima alla persona direttamente coinvolta e dopo, insieme, all’intero gruppo, per far sentire la persona circondata dall’affetto di tutti, per partecipare tutti al funerale.
 
 Le volte in cui abbiamo dovuto comunicare la perdita di un genitore, abbiamo individuato un posto in cui la persona potesse sentirsi a proprio agio, ponendo attenzione alla partecipazione di chi tra noi rappresentava un riferimento affettivo più significativo. **Se in un primo momento utilizziamo espressioni generiche («è andato in cielo, non c’è più, ci ha lasciato»), successivamente la comunicazione deve diventare chiara e diretta, nominando la parola morte («è morto») per non lasciare spazio alla confusione.** Tante emozioni si susseguono – dolore, tristezza, pianto, sofferenza, accettazione, rifiuto, rabbia – e noi siamo pronti ad accoglierle… Cerchiamo di rispondere alle domande che alcuni pongono o, in altri casi, rispettiamo il muto silenzio.

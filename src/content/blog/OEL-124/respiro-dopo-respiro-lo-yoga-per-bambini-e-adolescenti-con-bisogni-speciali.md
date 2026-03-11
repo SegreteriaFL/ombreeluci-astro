@@ -1,4 +1,5 @@
 ---
+
 title: "Respiro dopo respiro: lo yoga per bambini e adolescenti con bisogni speciali"
 date: 2013-12-14
 author: Cristina Tersigni
@@ -16,7 +17,10 @@ umap_z: 7.648752212524414
 issue_number: OEL-124
 id_numero: "OEL-124"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ylenia Malti è un’insegnante di Yoga: la sua passione, e il suo lavoro, è condividere i doni che la pratica e la filosofia Yoga le hanno fatto con bambini e adolescenti con bisogni speciali."
 ---
+
 ### Come nasce lo Yoga per Bambini e Adolescenti con Bisogni Speciali?
 
 Un giorno una mamma mi ha contattata con una richiesta che mai avrei immaginato: **praticare Yoga con Alessandro, il suo bambino cerebroleso di 6 anni** .

@@ -1,4 +1,5 @@
 ---
+
 title: Oltre le barriere imposte
 date: 2024-06-19
 author: Carlo Gazzano
@@ -14,7 +15,10 @@ umap_z: 9.53799057006836
 issue_number: OEL-165
 id_numero: "OEL-165"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le uscite serali della comunità di Messina"
 ---
+
 Ilcovid ha rallentato sicuramente le esperienze delle serate in pizzeria di piccoli gruppi o intere comunità, lasciando ancora oggi preoccupazioni, per qualcuno, nel ritrovarsi in luoghi affollati. **La nostra comunità è da tempo che non vive una serata in pizzeria o al ristorante o festeggiare un compleanno fuori, insomma, questo tipo di esperienza che esce dai canoni dei nostri incontri.**
 
 Penso che le esperienze vissute sinora come comunità e che viviamo e vivono tutte le nostre realtà, siano quelle di regalare, non tanto ai nostri ragazzi ma più ai nostri genitori, un momento di normalità: «anch’io posso andare a mangiare una pizza con mio figlio, con mia figlia insieme ai miei amici!». Sottolineo genitori perché spesso sono oppressi dal giudizio altrui e dagli atteggiamenti di pietismo che la società rivolge loro e **la possibilità di condividere un’uscita insieme alla comunità aiuta a superare queste barriere imposte** . Certo le difficoltà ci sono e di tanti tipi, in primis le esigenze dei ragazzi e poi nel trovare locali giusti per una facile accessibilità, una buona accoglienza e magari che non ci sia riservato un tavolo in una zona troppo appartata del locale... isolati, anche se spesso siamo in tanti.

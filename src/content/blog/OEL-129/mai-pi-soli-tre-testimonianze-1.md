@@ -1,4 +1,5 @@
 ---
+
 title: Mai più soli. Tre testimonianze
 date: 2015-03-19
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Sensazioni
 
 *Flavia è una ragazza di 25 anni. Con le sue poesie e i suoi pensieri arricchisce gli incontri della sua comunità di Roma, Il girasole.*

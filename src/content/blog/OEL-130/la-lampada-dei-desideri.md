@@ -1,4 +1,5 @@
 ---
+
 title: La lampada dei desideri
 date: 2015-03-19
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-130
 id_numero: "OEL-130"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ogni genitore accorto si preoccupa di individuare qualche attività che il proprio figlio possa svolgere al di fuori della scuola e si chiede quale possa essere il suo futuro quando la scuola l’avrà terminata. Sono domande ricorrenti, legittime, ma per la mamma e il papà di un ragazzo disabile questi sono però interrogativi che nascondono spesso un disagio e sottendono quasi inevitabilmente una richiesta di aiuto, a volte anche molto angosciata. Una realtà come quella de La Lampada dei Desideri nasce per rispondere almeno in parte a questa richiesta (qui la loro [pagina Facebook](https://www.facebook.com/lalampadadeidesideri.it) ).
 
 Nel cuore del quartiere Magliana, il 24 Novembre 2011, nasce questa organizzazione di volontariato e prende vita attraverso la solidarietà e l’impegno di alcune persone, con un pizzico di fortuna e, come dice la presidentessa e fondatrice Paola Fanzini, “con l’intervento di Dio”. Lo scopo è quello di creare per le persone disabili del territorio, di tutte le età, perciò non solo per i ragazzi, uno spazio comune dove incontrarsi, divertirsi e svolgere attività che rivelino le loro capacità e le loro naturali inclinazioni.

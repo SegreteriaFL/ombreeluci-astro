@@ -1,4 +1,5 @@
 ---
+
 title: Come ascoltare veramente
 date: 1989-06-21
 author: Marie Hélène Mathieu
@@ -18,6 +19,7 @@ issue_number: OEL-27
 id_numero: "OEL-27"
 numero_rivista: "Ombre e Luci"
 ---
+
 Negli Stati Uniti, uno studio sulla capacità di ascolto durante una conferenza, ha dimostrato che, abitualmente, ascoltiamo solo il 25% dei messaggi che ci sono indirizzati. Il che vuol dire che utilizziamo solo la metà di un solo orecchio! Questo mi fa pensare a quello che mi diceva un parroco: «Dobbiamo ripetere tre volte un annuncio se vogliamo essere pressappoco sicuri che tutti i presenti lo abbiano ascoltato». È forse a scuola che prendiamo questa brutta abitudine di udire senza ascoltare, di percepire senza capire, o, quel che è peggio, di sapere in anticipo ciò che non è ancora detto da chi si rivolge a noi? Un’introspezione un po’ dura... completata da un’inchiesta un po’ fiduciosa ci porta ad enumerare le cause che ci impediscono un ascolto vero e sincero.
 
 Ascoltiamo ma intanto ruminiamo sul passato — la telefonata del figlio che ci ha fatto star male — oppure pensiamo al dopo: passiamo in rassegna le cose da fare durante il giorno. *Come non oscillare fra ciò che è stato ieri e ciò che sarà domani?*

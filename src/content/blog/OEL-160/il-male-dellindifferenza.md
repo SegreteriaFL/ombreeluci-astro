@@ -1,4 +1,5 @@
 ---
+
 title: "Il male dell'indifferenza"
 date: 2022-04-11
 author: G.
@@ -15,6 +16,7 @@ issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nella foto: festeggiamenti per i 40 anni di Fede e Luce a Lviv, Ucraina a cui hanno partecipato le comunità di Russia, Repubblica Ceca, Slovacchia, Lituania e Georgia nel 2012
 
 *G. (nome di fantasia) è un’amica russa di Fede e Luce, fuggita all’estero. Attraverso il suo canale telegram, racconta quel che avviene nel suo Paese e il dolore immenso che tutto ciò provoca nelle vite di moltissimi. Abbiamo assemblato alcuni suoi messaggi: il risultato è una testimonianza sofferta e profonda, da cui farsi accompagnare in questa settimana santa. E per cui pregare incessantemente.*

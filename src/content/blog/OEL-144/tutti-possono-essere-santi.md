@@ -1,4 +1,5 @@
 ---
+
 title: Tutti possono essere santi
 date: 2018-11-03
 author: Marie Hélène Mathieu
@@ -15,6 +16,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Che meravigliosa sorpresa l’ultima esortazione apostolica di Papa Francesco. Il titolo ha un’aria festosa “gaudete ed exultate, siate nella gioia e nell’allegria”. In queste poche righe, vorrei soprattutto condividere con voi qualche riflessione concernente, in special modo, le persone disabili. Innanzitutto **il Papa ci invita a scoprire “il santo della porta accanto” colui che appartiene alla “classe media della santità”** . Egli vuole ribadire con ulteriore forza la chiamata alla santità per ciascuno di noi: “tu hai una missione unica”. Se non la scopriamo o se non la portiamo a termine, questa mancherà sempre nel Cielo.
 
 All’OCH, a Ombre e Luci, a Fede e Luce, all’Arca e in molti altri movimenti o associazioni, siamo stati portati a scoprire la speciale vocazione delle persone handicappate. Il Papa non le trascura e le ricorda cominciando da quelle più gravemente colpite:

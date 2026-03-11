@@ -1,4 +1,5 @@
 ---
+
 title: Quando sono adulti
 date: 1983-12-28
 author: Jean Vanier
@@ -20,6 +21,7 @@ issue_number: OEL-4
 id_numero: "OEL-4"
 numero_rivista: "Ombre e Luci"
 ---
+
 M
 i ha colpito spesso la tristezza di tanta gente normale. Un giorno, il signor
 *Normale*

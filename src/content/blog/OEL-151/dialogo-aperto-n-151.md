@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 151
 date: 2020-08-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Francesca e la sua famiglia
 
 Francesca ci ha lasciati improvvisamente in una desolata domenica di quarantena, senza disturbare nessuno, in silenzio, come era abituata a fare, senza chiedere nulla. Ho conosciuto Francesca quando frequentava l’ultimo anno di scuola materna, insieme alla sorella Federica. Hanno preso per mano Silvia, aiutandola con amore e con cura, nelle scoperte della vita: camminare, salire le scale, i primi lanci della palla, le prime festicciole per bambini. Francesca era sempre pronta, con l’espressione un po’ burbera ma con un cuore grande, a prendere per mano Silvia e portarla con sé. Tutto ciò è andato avanti nel tempo e quello che aveva manifestato con Silvia, Francesca lo ha poi elargito a Fede e Luce con tutti i ragazzi. È stata una vera amica di Sabina Gammarelli, con visite frequenti in casa di Olga che l’aspettava a braccia aperte. Poi Francesca è cresciuta e ha continuato la vita nella sua famiglia con quattro figli, cuori grandi come il suo, e con Pio, un ragazzo con una grave disabilità che ha preso in affido da piccolo. Ora Pio ha 15 anni e ha avuto la fortuna di crescere in una famiglia amorevole. Il ricordo di Francesca rimarrà sempre vivo con l’amarezza di averla dovuta salutare troppo presto per un viaggio senza ritorno.

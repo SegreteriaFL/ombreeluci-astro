@@ -1,4 +1,5 @@
 ---
+
 title: "Viaggio a Parma del 1976: un'esperienza di gioia, condivisione e scoperta con Fede e Luce"
 date: 1976-09-20
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 13.097753524780273
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Il viaggio a Parma di un gruppo di ragazzi disabili, genitori e amici è stata una esperienza positiva e ha dato il via alle vacanze estive. Ecco cosa ce ne dicono due amici che vi hanno partecipato"
 ---
+
 F
 ede e Luce! Due parole così semplici e così piene per noi dello Spirito di Dio.
 **E a Parma le abbiamo vissute in profondità e Gioia:**

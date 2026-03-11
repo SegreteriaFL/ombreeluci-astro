@@ -1,4 +1,5 @@
 ---
+
 title: Museo per tutti
 date: 2020-09-14
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 Una delle caratteristiche che appesantisce vistosamente la condizione di disabilità di una persona è la ridotta possibilità di interagire con l’ambiente, di muoversi liberamente in esso, conoscerlo. Sappiamo bene quanto sia importante per un bambino, un qualsiasi bambino, potersi muovere per conoscere ed imparare. L’associazione *[L’Abilità onlus](http://labilità.org)* di Milano ce lo ricorda con molte delle sue iniziative per i bambini con gravi disabilità. Obiettivo principale di questa associazione – nata nel 1998 ad opera di alcuni genitori ed operatori in risposta al vuoto di riferimenti che lasciavano sole le famiglie – era proprio quello di promuovere la crescita dei bambini in questa condizione, difenderne i diritti e sostenerne le famiglie. Nel nostro paese la prospettiva dominante con cui guardiamo alla disabilità è spesso ancora legata alla sola condizione medica, tralasciando l’importanza dell’ambiente e della socialità nei quali si vive. A *L’Abilità* si opera per facilitare queste interazioni e relazioni in ogni possibile contesto di vita, occupandosi non solo dei luoghi delle terapie o della scuola e delle barriere architettoniche nelle città ma aprendo lo sguardo a spazi pubblici come quelli dei beni culturali e degli spazi museali.
 
 Così nasceva [*Museo per tutti*](https://labilita.org/progetti-museo-tutti/) , avviato con la Fondazione De Agostini, perché i luoghi di cultura fossero accessibili non solo fisicamente ma anche cognitivamente ad un pubblico che fino a quel momento ne era escluso. La possibilità di favorire l’accesso a quanti hanno una disabilità intellettiva prese forma nel 2014 con il progetto pilota del Museo Nazionale della Scienza e della Tecnologia Leonardo da Vinci di Milano.“Scienzabile – inclusione e gioco tra scienza e disabilità” rappresentava un modo nuovo di vivere l’esperienza del museo: materiali ad hoc, percorsi di visita specifici alle collezioni e attività di laboratorio inclusive, nell’idea che ciascuno fosse portatore di abilità diverse da valorizzare in un contesto di cooperazione. Da allora l’idea si è diffusa ad altre realtà, permettendo al nuovo pubblico di vivere l’esperienza della visita al museo, di percepire la bellezza del patrimonio culturale, capirla perché adeguatamente spiegata, interiorizzarla perché vissuta a livello cognitivo ed emotivo.

@@ -1,4 +1,5 @@
 ---
+
 title: "Come è stato possibile tutto questo?"
 date: "2015-03-19"
 author: "Marie Hélène Mathieu"
@@ -15,6 +16,7 @@ issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nel 1990 feci un’esperienza che mi turbò profondamente. La presidente di un’associazione favorevole alla soppressione dei neonati con handicap grave desiderava incontrarmi. Molto incuriosita e colpita dalla sua richiesta, chiesi a Pierre Caubel, un generale dell’aeronautica in pensione, che collaborava come volontario alla redazione di Ombres et Lumiere, se poteva essere presente all’incontro. Pierre e la moglie Suzon avevano una figlia, Marie, affetta da una malattia renale molto rara. Avevano anche adottato Jérome, un bimbo con un handicap gravissimo, che aveva fatto progressi straordinari da quando era arrivato nella famiglia, che contava già sette figli.
 
 La nostra interlocutrice si presentò: era la mamma di Michel, un ragazzo di vent’anni affetto da un handicap mentale e da turbe psichiche. Ci fece un ritratto violento e patetico della sua vita impossibile: l’abbandono del marito, la fuga dei parenti, l’ostilità dei vicini, disturbati giorno e notte dalle urla del figlio, la carriera rovinata a causa delle continue assenze… Infine lanciò un grido di dolore e di disperazione: “Non pensate che sia un crimine aver lasciato in vita un figlio come il mio?”. La risposta di Pierre, ispirata, fu la seguente: “Il crimine, signora, è stato averla lasciata sola ad affrontare questa prova”. La donna rimase in silenzio. La sua aggressività sembrava scomparsa, come si fosse liberata da un macigno che l’opprimeva. Non l’avevamo giudicata, né tanto meno condannata, l’avevamo compresa. Mormorò dolcemente: “Sì, è vero, sono stata lasciata sola con Michel”.

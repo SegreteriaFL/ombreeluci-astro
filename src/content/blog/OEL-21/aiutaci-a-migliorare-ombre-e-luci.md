@@ -1,4 +1,5 @@
 ---
+
 title: «Aiutaci a migliorare Ombre e Luci»
 date: 1988-03-20
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-21
 id_numero: "OEL-21"
 numero_rivista: "Ombre e Luci"
 ---
+
 Su più di 2.000 persone che ricevono **Ombre e Luci** (tra abbonati e diffusione) hanno risposto all’inchiesta **85 persone** : 57 femmine, 28 maschi.
 
 **Età ** 4 di età compresa tra i 15-20 anni 33 tra i 20-30 anni 17 tra i 30-40 anni 15 tra i 40-50 anni 10 tra i 50-60 anni 6 oltre i 60 anni

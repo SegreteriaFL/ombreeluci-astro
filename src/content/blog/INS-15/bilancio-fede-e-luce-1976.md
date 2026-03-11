@@ -1,4 +1,5 @@
 ---
+
 title: Bilancio Fede e Luce 1976
 date: 1977-03-20
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
 ---
+
 ### Entrate
 
 Contributi giornalino L. 661.000 Offerte per aiuti a persona con difficoltà L. 471.000 Offerte varie L. 461.000 Specifiche per Campeggio e "Casetta" L. 156.000

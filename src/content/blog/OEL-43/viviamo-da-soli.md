@@ -1,4 +1,5 @@
 ---
+
 title: Viviamo da soli
 date: 1993-09-09
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-43
 id_numero: "OEL-43"
 numero_rivista: "Ombre e Luci"
 ---
+
 Romolo e suo fratello gemello Remo sono due ragazzi da molti anni appartenenti alla comunità F. L. San Francesco. Da alcuni anni vivono da soli in un piccolo appartamento di case popolare. Abbiamo parlato a lungo con Romolo , poco dopo il matrimonio di due amici Fede e Luca: Antonio e Cristiana.
 **Da quanto conosci Antonio e Cristiana?**
 La mia amicizia con Antonio M. è stata un’esperienza che abbiamo fatto il campeggio assieme a Serra S. Quirico in agosto del 1990. Là l’ho conosciuto bene. È una persona bravissima e poi in quell'anno ho conosciuto pure Cristiana Luberto e sono contento di questa amicizia. Poi prima di sposarsi io sapevo quando si sono fidanzati e si sono fidanzati il giorno di S. Valentino nel 1991.

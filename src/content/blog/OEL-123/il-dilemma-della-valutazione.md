@@ -1,4 +1,5 @@
 ---
+
 title: Il dilemma della valutazione
 date: 2013-09-13
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 7.284316062927246
 issue_number: OEL-123
 id_numero: "OEL-123"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Sull'integrazione dei ragazzi con disabilità nella scuola superiore"
 ---
+
 Daun po’ di anni a questa parte studenti disabili scelgono (o meglio spesso scelgono le famiglie al loro posto) di frequentare i licei: il classico, lo scientifico, e via dicendo, forse perché ambienti più protetti delle scuole professionali.
 
 **Le difficoltà, per l’insegnante coscienzioso, si riscontrano quando lo studente viene valutato sulla base dei cosiddetti “obiettivi minimi”** da raggiungere per ogni disciplina. Per arrivare a quegli obiettivi, però, le richieste sono ridotte. Gli insegnanti si sforzano e si ingegnano per modificare di poco o, in alcuni casi, anche di molto la quantità dei programmi da preparare, gli esercizi da assegnare, i compiti da svolgere, il numero degli argomenti da conoscere per le verifiche.

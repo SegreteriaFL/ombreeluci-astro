@@ -1,4 +1,5 @@
 ---
+
 title: Fede e Luce pasquale
 date: 1981-12-20
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 A lle Comunità di « Fede e Luce », in particolare a quanti ho avuto il piacere di incontrare nell’indimenticabile pellegrinaggio pasquale, a Lourdes, rivolgo un saluto con affetto nel Signore.
 
 Conservo il più grato ricordo di quelle luminose giornate. È stata, per me, tra le più emozionanti celebrazioni della passione e della risurrezione del Signore.

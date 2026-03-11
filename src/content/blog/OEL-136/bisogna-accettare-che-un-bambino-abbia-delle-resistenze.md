@@ -1,4 +1,5 @@
 ---
+
 title: Bisogna accettare che un bambino abbia delle resistenze
 date: 2016-12-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 7.679998397827148
 issue_number: OEL-136
 id_numero: "OEL-136"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Tre domande a Laure Templier, madre di famiglia e psicologa"
 ---
+
 **Qual è l’atteggiamento naturale di un bambino di fronte all’handicap?**
 Prima dei tre anni il bambino non vede la differenza tra se e l’altro. Se vede un altro soffrire , è come se soffrisse lui stesso, allora va a fare all’altro quello che farebbe piacere a lui. Quando è più grande si differenzia dall’altro ed è in grado di fare spontaneamente all’altro ciò di cui ha bisogno, se ha già sperimentato una situazione simile. Ora, a priori il bambino non sa cosa significhi essere cieco, autistico o in sedia a rotelle. A questo punto il ruolo dei genitori è essenziale per guidarlo, fornirgli una chiave di lettura, guidarlo nel domandarsi ciò che gli piacerebbe fosse fatto a lui nella stessa situazione. Questa fase di identificazione è primordiale nel processo di legame sociale con colui che è diverso. Segue spesso un periodo di senso di colpa . Perché io posso correre giocare a pallone e lui no? Bisogna spiegare al bambino che lui non deve sentirsi colpevole; l’altro ha delle ricchezze che lui non ha. E lui potrà spingere la sua sedia a rotelle quando imparerà cos’è la pazienza, la gratuità, l’amicizia. Potranno guardare insieme una partita ed ecco che non ci sono più differenze!
 **I genitori come possono aiutare i figli ad essere attenti verso i più deboli?**

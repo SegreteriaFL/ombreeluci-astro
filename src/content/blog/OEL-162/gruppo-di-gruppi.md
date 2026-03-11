@@ -1,4 +1,5 @@
 ---
+
 title: Gruppo di gruppi
 date: 2023-07-18
 author: Enrica Riera
@@ -14,7 +15,10 @@ umap_z: 9.045980453491211
 issue_number: OEL-162
 id_numero: "OEL-162"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "A Lamezia Terme la Comunità Progetto Sud"
 ---
+
 Una comunità di «cattivi maestri». Una comunità aperta e accogliente, fatta di donne e uomini, in sedia a rotelle e in piedi, bisognosi di aiuto e allo stesso tempo desiderosi di aiutare. **Una comunità in grado di intervenire concretamente** sia davanti ai problemi individuali dei componenti interni (l’assistenza, la scuola, i costi della salute, i mezzi di trasporto) sia davanti alle questioni sociali che lasciano molti indifferenti (le disabilità, la sofferenza, i minori incarcerati, la pace, la resistenza alle mafie, le dipendenze da alcol e droghe, il bene comune).
 
 È capace di guardare la vita in grande *Comunità Progetto Sud* , fondata in terra di ‘ndrangheta nel 1976 da don Giacomo Panizza, il prete operaio, emigrato al rovescio (da Brescia a Lamezia Terme), a cui a febbraio scorso il presidente Sergio Mattarella ha conferito l’onorificenza al Merito della Repubblica e che Ombre e Luci aveva già incontrato, raccontando le sue idee e la sua missione. **Riguardano, per l’appunto, disabilità, dipendenze e migrazioni gli interventi sociali che, coi suoi centri** (alcuni sorti in stabili confiscati ai clan) e ai suoi sportelli, vengono realizzati dalla straordinaria rete guidata dal sacerdote in Calabria e, più in particolare, a Lamezia Terme.

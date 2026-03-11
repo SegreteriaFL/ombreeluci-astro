@@ -1,4 +1,5 @@
 ---
+
 title: "\"Iniziativa amica\": una casa-famiglia dove la maternità ritorna gioia"
 date: "2004-09-13"
 author: "Giulia Galeotti"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
+
+subtitle: "Una casa per future madri in difficoltà la cui finalità è “il servizio e la difesa della vita, la formazione ai valori della fraternità, solidarietà, e il superamento di ogni discriminazione di razza e di religione"
 ---
+
 Iniziativa Amica ([qui il sito](https://www.iniziativaamica.it)) è una casa famiglia per future madri e puerpere in difficoltà, gestita dalle Suore della Divina Volontà insieme alla associazione Iniziativa Amica, la cui finalità è “il servizio e la difesa della vita, la formazione ai valori della fraternità, solidarietà, e il superamento di ogni discriminazione di razza e di religione”.
 Quando suono al campanello** di via degli Orti Spagnoli n. 108 a Roma, mi apre suor Gasparina, la veterana di questa struttura che da più di vent'anni ospita madri sole, consentendo loro di affrontare serenamente in un clima familiare la nascita e i primi mesi di vita del proprio bambino. La casa è al piano terra di un bel complesso dietro la via Portuense, stanze grandi e luminose circondate, per buona parte, da un giardino ben tenuto. In realtà, che è ben tenuto non riesco ad accorgermene subito; sono arrivata nel bel mezzo di una festa schiamazzante e colorata, la scuola è appena finita, i compagni di una delle bimbe ospiti sono stati invitati per un pomeriggio di musica, giochi e aranciata. Un momento più inopportuno per venire era difficile trovarlo...
 

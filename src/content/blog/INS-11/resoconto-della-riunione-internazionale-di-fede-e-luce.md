@@ -1,4 +1,5 @@
 ---
+
 title: Resoconto della Riunione Internazionale di Fede e Luce
 date: 1976-02-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.96646499633789
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Si è svolto a Versailles dal 10 al 12 Gennaio 1976. Per l'Italia vi hanno partecipato due mamme di Roma, un'amica di Parma e un sacerdote pure di Parma"
 ---
+
 *D opo il pellegrinaggio a Roma, i rappresentanti di 12 paesi si sono riuniti a Versailles dal 10 al 12 gennaio per mettere in comune l'esperienza vissuta a Roma e meditare sul futuro di Fede e Luce.*
 
 *L'Italia era rappresentata da due mamme di Roma, un'amica di Parma e un sacerdote pure di Parma.*

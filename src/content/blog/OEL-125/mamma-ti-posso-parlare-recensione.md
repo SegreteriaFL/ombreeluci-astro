@@ -1,4 +1,5 @@
 ---
+
 title: Mamma ti posso parlare - Recensione
 date: 2014-03-29
 author: Matteo Cinti
@@ -17,7 +18,10 @@ umap_z: 4.632060527801514
 issue_number: OEL-125
 id_numero: "OEL-125"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Quando le viene diagnosticato un tumore, Maria Grazia, medico e autrice del libro, come prima cosa pensa a suo figlio Matteo: Matteo è autistico."
 ---
+
 Quando le viene diagnosticato un tumore, Maria Grazia, medico e autrice del libro, come prima cosa pensa a suo figlio Matteo. Matteo è autistico, in una forma che lo rende ipersensibile ad ogni dettaglio che lo circonda e ossessionato dal minimo cambiamento. Come potrebbe reagire alla nuova quotidianeità che irromperà in famiglia? Con grande forza d’animo e accompagnata dalla sua profonda fede, Maria Grazia non si lascia deprimere dalla malattia, anzi. Trae energia dai gesti sorprendenti del figlio, rivelatosi più una risorsa che un peso, e ci descrive con parole semplici le giornate divise tra la chemioterapia e le faccende domestiche. In queste righe si sente la sua lunga esperienza scientifica e umana, ma ciò non trasforma il libro in un mattone filosofico.
 
 Proprio come nelle favole di una volta, di fronte alle difficoltà della vita forse dovremmo riscoprire un po’ di quella “magia” che può fare tanto per noi. Anche regalarci un lieto fine.

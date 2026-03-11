@@ -1,4 +1,5 @@
 ---
+
 title: "Novità per l'handicap"
 date: "2001-12-25"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Due belle iniziative appena inaugurate (a Pordenone e a Formello) che speriamo possano sostenere e aiutare chi ne ha più bisogno."
 ---
+
 ### Per respirare meglio
 
 La [**Fondazione Bambini e Autismo**](https://www.bambinieautismo.org/) di Pordenone ha inaugurato Villa Respiro.

@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto, Insieme n.27
 date: 1980-12-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 ## Dall'Italia
 
 ### Da Parma
@@ -30,6 +32,7 @@ numero_rivista: "Insieme"
 La prima gioia me l'ha data Carla all'arrivo a Grenoble dicendomi: grazie mamma di avermi portato qui e io che non mi rendevo conto di come potevano essere i giorni successivi… Quello che lascia stupiti è veramente vedere che F. e L. non ha frontiere, che si affronta qualsiasi fatica a qualunque età senza sentirne il peso…"
 
 *F. G.*
+
 
 ---
 

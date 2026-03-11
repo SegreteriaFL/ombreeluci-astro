@@ -1,4 +1,5 @@
 ---
+
 title: Come se io fossi te
 date: 2018-03-26
 author: Matteo Cinti
@@ -15,6 +16,7 @@ issue_number: OEL-141
 id_numero: "OEL-141"
 numero_rivista: "Ombre e Luci"
 ---
+
 Andrea Caschetto è un ragazzo incredibile. Ha viaggiato in cinque continenti diversi per vivere e condividere i sorrisi di ogni popolo che ha incontrato. Ha incantato le Nazioni Unite con un discorso straordinario e ha scritto un libro in cui racconta il viaggio negli orfanotrofi di tutto il mondo ( *Dove nasce l’arcobaleno* ).
 
 Questo nuovo racconto riguarda sempre un viaggio, stavolta in Argentina. A piedi, in autobus, dalle spiagge alle città fino alle montagne dell’America più profonda, Andrea percorre il suo sentiero insieme ad una sedia a rotelle, Azzurra, con la quale impara a vivere la diversità su di sé e a scoprire nuove connessioni nelle relazioni umane.

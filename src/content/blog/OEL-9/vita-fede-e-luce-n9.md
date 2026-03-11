@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.9
 date: 1985-03-26
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-9
 id_numero: "OEL-9"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Una nuova «regione» - Fede e Luce: il Sud
 
 *Fede e Luce*

@@ -1,4 +1,5 @@
 ---
+
 title: L’inclusione che ancora manca nel cinema italiano
 date: 2025-07-23
 author: Niccolò Scarnato
@@ -17,7 +18,10 @@ umap_z: 3.4662625789642334
 issue_number: OEL-170
 id_numero: "OEL-170"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Di film sull'autismo ce ne sono ormai tantissimi. Ma lo raccontano davvero? Secondo Niccolò Scarnato, attore neurodivergente, nessuno di loro è veramente riuscito a farlo"
 ---
+
 Di film sull’autismo ne esistono tantissimi. Da *Rain Man* (1988) di Barry Levinson con Dustin Hoffman, a *Il mio nome è Sam* (2001) con Sean Penn, fino a *A proposito di Luke* (2012) con Lou Taylor Pucci, il cinema ha raccontato l’autismo attraverso storie di personaggi spesso brillanti, particolari, ma sempre interpretati da attori neurotipici. Anche in Italia si trovano esempi come *Pulce non c’è* (2014) di Giuseppe Bonito o *Tutto il mio folle amore* (2019) di Gabriele Salvatores. **Ma questi film hanno davvero raccontato l’autismo? La verità è che nessuno di loro è riuscito a farlo pienamente.** Non perché i registi o gli attori non si siano impegnati, ma perché l’autismo non è solo un insieme di caratteristiche esteriori: è un modo di percepire il mondo, di muoversi, di comunicare, e questo è difficile da rendere per chi non lo vive direttamente.
 
 > Le espressioni di un attore neurotipico possono risultare fin troppo “addestrate”. Un autistico può avere una mimica atipica, magari poco marcata o con espressioni che non corrispondono alle emozioni attese dai neurotipici

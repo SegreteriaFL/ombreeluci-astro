@@ -1,4 +1,5 @@
 ---
+
 title: "Una mappa di ricordi virtuale per contrastare l'Alzheimer"
 date: 2018-09-21
 author: Redazione
@@ -20,6 +21,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 A
 iutare le persone anziane o affette da malattie neurodegenerative come l’Alzheimer a conservare i ricordi e a migliorare i legami con i familiari e con chi li assiste. È questa la nuova sfida della
 [**Fondazione IBM Italia**](https://www-01.ibm.com/easytools/runtime/hspx/prod/public/X0027/PortalX/page/pageTemplate?c=2cf892d2dd3e430aaab6b3ace3b99e97&s=3ee9674b01694bd4a6650354e3983eff)

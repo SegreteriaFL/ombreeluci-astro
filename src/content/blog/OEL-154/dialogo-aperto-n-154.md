@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 154
 date: 2021-08-29
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 ## Prenotata e vaccinata
 
 Cari amici, sono contenta di scrivere che il giorno 11 maggio **ho fatto il vaccino!** Sul braccio sinistro ed è andato tutto ok. La sera, prima di andare a letto ho preso una compressa di tachipirina e poi ho dormito bene ed il giorno dopo non avevo più dolore. Spero di andare in vacanza con mia sorella in Puglia nel mese di luglio... se lei sarà a lavoro staremo a Roma e spero che con Fede e Luce ci potremo vedere e andare a fare i campi estivi. **Distanziati da un metro e portando sempre la mascherina.** Il secondo vaccino era per il 1 giugno ma poi lo hanno spostato al 15 giugno. Ho fatto quello Pfizer. Mi ha prenotato mia sorella, presso il sito della Regione Lazio, la notte che hanno aperto la mia fascia di età. Il giorno della vaccinazione ero un po’ agitata, perché **avevo un po’ di paura ma poi è andato tutto bene.**

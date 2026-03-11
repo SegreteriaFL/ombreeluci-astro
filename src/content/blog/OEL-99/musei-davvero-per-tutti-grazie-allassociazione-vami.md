@@ -1,4 +1,5 @@
 ---
+
 title: "Musei davvero per tutti, grazie all'associazione VA.M.I."
 date: 2007-09-09
 author: Cristina Marchese
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 8.469454765319824
 umap_y: 7.706318378448486
 umap_z: 7.931897163391113
+
+subtitle: "Cristina, operatrice didattica volontaria del VA.M.I. opera nella Galleria Borghese a Roma. Ha aderito anni fa a questa associazione perché crede nella possibilità di far godere a tutti l'immenso patrimonio d’Arte conservato nei musei"
 ---
+
 L'ingresso gratuito e l'assenza di barriere architettoniche non sempre bastano ad invogliare le persone disabili e i loro accompagnatori ad una visita al museo e non sempre i siti museali possono offrire servizi opportuni.
 
 Ecco allora che dobbiamo entrare in gioco noi, operatori didattici volontari, adeguatamente formati, per contribuire a raggiungere lo scopo.

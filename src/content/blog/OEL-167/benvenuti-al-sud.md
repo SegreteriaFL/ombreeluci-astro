@@ -1,4 +1,5 @@
 ---
+
 title: Benvenuti al Sud
 date: 2024-10-16
 author: Monica Leggeri
@@ -14,7 +15,10 @@ umap_z: 10.415435791015625
 issue_number: OEL-167
 id_numero: "OEL-167"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Vacanze possibili anche senza mamma e papà?"
 ---
+
 Tempo di vacanze; chi se le organizza prima, chi all’ultimo momento, chi coglie occasioni al volo e parte. Tempo di relax e divertimento, fuori dagli schemi e dalla routine quotidiana per giovani, adulti, bambini. Spesso questa cosa così banale, però, non è fattibile e non si riesce a farla per tutti. Non è facile per i ragazzi con disabilità e disturbi cognitivi comportamentali andare in giro e fare vacanze da soli, se non ci sono enti, cooperative o associazioni che si organizzino e soprattutto li invitino. I nostri ragazzi sono complicati, difficili da gestire a volte, ma comunque hanno gli stessi desideri e voglia di divertirsi che hanno tutti i ventenni: divertimento e vacanze tra amici, senza mamma e papà. **Ecco, per loro, che autonomi non saranno forse mai, le cose si complicano se non c’ è qualcuno che li segua e li accompagni.**
 
 Quindi la vacanza bisogna costruirla, organizzarla, trovare chi stia con loro, e qualcuno che metta a disposizione la casa. A mia figlia Caterina questa cosa è capitata qualche volta grazie alla grande abitazione messa a disposizione dalla nonna a Montiano e a quattro/cinque ragazzi cresciuti con lei in un ambiente speciale come Fede e Luce. Per qualche anno Elisabetta, Giulia, Filippo, Mirella e Margherita hanno passato qualche giorno di vacanza libera e destrutturata con Cate. Anni in cui Cate era più disponibile, anni in cui era più respingente e insofferente, ma loro, coraggiosi e pazienti, su nostro invito, non si sono tirati indietro. **Tre, quattro giorni da soli come una vera comitiva di amici** , hanno animato quelle giornate fatte di piscina, mare, balli e risate. E allora Cate si è ritrovata a fare le cose proprie delle ragazze della sua età: Giulia le ha messo lo smalto, si sono truccate, si sono fatte acconciature, aperitivi e balli a bordo piscina. Con Elisabetta, Filippo e Mirella hanno preparato cene e merende. Vacanze all’insegna dell’amicizia senza particolari organizzazioni e sovrastrutture; piccola ma preziosa parentesi di un lungo periodo estivo a volte passato soltanto con la propria famiglia.

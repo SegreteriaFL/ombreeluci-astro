@@ -1,4 +1,5 @@
 ---
+
 title: Dalla disperazione alla speranza
 date: 1986-03-28
 author: Marie Hélène Mathieu
@@ -17,6 +18,7 @@ issue_number: OEL-13
 id_numero: "OEL-13"
 numero_rivista: "Ombre e Luci"
 ---
+
 Carissimi amici, ho letto la vostra lettera con molta emozione e mi ha colpito la vostra fiducia. Vi ringrazio di avermi espresso con naturalezza le tentazioni di disperazione o di rivolta contro la vostra prova, quella del vostro piccolo Umberto, che non vede, quasi non sente, che ha il cervello gravemente colpito e che senza dubbio non potrà mai camminare. Mi narrate anche di quanto poco siate stati aiutati in questa prova, una delle più pesanti che una famiglia possa affrontare. Il modo con cui il medico vi ha
 *assestato*
 la diagnosi resta come una ferita aperta. Si è spalancata una voragine fra voi e chi stava accanto, anche i più vicini. Avete conosciuto lo spossamento per le notti insonni; l'inquietudine e lo scoraggiamento per l'assenza di progressi malgrado tutti gli sforzi, le cure; l’angoscia di fronte a consigli medici diversi fra loro, a volte contrastanti; i conflitti fra voi due che si sono moltiplicati, col sentimento di colpa che vi sommerge (anche quando lo scaricate sul coniuge), l'imbarazzo del parroco quando avete deciso di chiedere l'Eucaristia.

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n.90
 date: 2005-06-17
 author: Redazione
@@ -14,13 +15,18 @@ has_comments: false
 umap_x: 4.916881084442139
 umap_y: 8.393285751342773
 umap_z: 10.423925399780273
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Piccola grande storia di Maria
 
 In questi anni abbiamo vissuto il “calvario” della piccola Maria, una bambina che avrebbe dovuto vivere cinque anni, che è arrivata a dodici ed è diventata “maestra dei ragazzi e degli adulti “abili”. Da due anni frequentava con i suoi genitori la nostra comunità Fede e Luce di Saint Bernarde d'Aoste. Era figlia di genitori divorziati (la mamma convive adesso con un divorziato che ha “adottato” Maria come fosse sua figlia). La sua sepoltura è stata una bella “festa” nella quale la gente e i bambini hanno dato testimonianza del suo valore. Maria ha frequentato la scuola dall’asilo alla prima media, dove è sempre stata accolta dalle maestre e dai compagni i quali, quattro giorni prima della sua morte, le hanno fatto visita in ospedale. Ecco qui di seguito alcune loro riflessioni: “Maria riesce a vivere grazie alla forza dei genitori che le stanno sempre vicino” “È fortunata ad avere un papà e una mamma che le vogliono tanto bene e che riescono a sorridere anche se si capisce che dentro sono tristi”. “Con il loro coraggio riescono a rendere allegro anche l’ospedale”.. “Maria ha resistito tanti anni. Penso che abbia un cuore pieno di forza, è come se fossimo noi a darle un po’ di forza per vivere ancora”. “Ho pensato a quanto era bello quando poteva ancora venire in classe e godere delle ossa la tua vita continuare ad essere una luce in mezzo a questo mondo spesso tanto scuro. Grazie, Maria !”
 **p. Klaus**
 
 Assistente spirituale della comunità valdostana di Fede e Luce
+
+
 
 ---
 
@@ -29,6 +35,8 @@ Assistente spirituale della comunità valdostana di Fede e Luce
 Carissimi amici, ogni tanto vi arriva la mia lettera dalla lontana Cina. Il missionario conosce bene che il donarsi agli altri comporta difficoltà. Nel mio caso, come sapete, è ad esempio lo stare in un ambiente ‘dove la “religione è protetta” dai governanti del Paese e soffre ancora pesanti limitazioni. Per questo io, come straniero, non posso svolgere l’attività pastorale di sacerdote e, non vi nascondo, che ogni tanto c'è anche chi mi denuncia di essere missionario (meno male che c’è qualcuno che se ne accorge!). Non c’è da scoraggiarsi, perché alla fine arriva la grazia di Dio che è più potente di ogni nostro programma. Per esempio, due settimane fa quattro delle nostre direttrici (e va notato che non sono neppure cattoliche) sono andate a difendermi dal delitto di essere missionario e hanno vinto la causa. Dio agisce bene anche con i non cristiani, a Lui nulla è impossibile. Mi è pure capitato che un anziano di quasi 80 anni e cristiano, mi ha fatto una simile denuncia. Pensate un po’ che, proprio lui, per circa cinque anni, mi ha fatto pressione perché voleva vedere prima di morire, il suo figlio disabile mentale, in una bella casa famiglia e capace di andare in un laboratorio protetto. Abbiamo sognato e lavorato sodo per anni, insieme. Ho pure impegnato molte delle vostre donazioni e fatto attività qui a Canton per poter avviare questa nuova casa per disabili vicino a casa sua. Alle fine sapete cosa mi è successo qualche settimana fa? Una bella denuncia e il divieto di realizzare questo progetto perché sarebbe un segno dell'impegno dei cristiani e questo potrebbe generare più fiducia nella religione che nel partito! Va notato che il pimpante nonnetto è pure un cattolico, anche se di quelli che “amano tanto la patria”! Alla fine di questa storia però, posso dirvi con gioia che due direttrici dell’Huiling hanno ripreso il buon nonnetto e i governanti locali, e li hanno fatti ragionare un po’ sul vero bene delle persone più svantaggiate. Così ci hanno dato il documento di registrazione come ONLUS in una sola settimana (miracolo: di solito ci voglionose si hanno buone relazionida 1 a 3 mesi). Tutto questo avviene perché anche i miei compagni di lavoro sono stati “contagiati” da un forte spirito di carità, dalla capacità di perdonare e superare quelle debolezze umane che producono male nella nostra vita. Quando la croce si fa pesante è il momento di grazia più importante in cui si può rivelare la forza dell’amore pieno.
 **p. Fernando**
 - (Xu Guo Xian)
+
+
 
 ---
 

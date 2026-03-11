@@ -1,4 +1,5 @@
 ---
+
 title: Noi dei piani di sopra
 date: 2007-12-10
 author: Olga Gammarelli
@@ -17,7 +18,10 @@ tags:
 umap_x: 4.819362163543701
 umap_y: 6.6189093589782715
 umap_z: 9.718942642211914
+
+subtitle: "La parola a chi ha ospitato la redazione da tutti questi anni"
 ---
+
 Quando Mariangela ci disse che voleva fondare un giornale, basato sul modello francese *Ombres & Lumière* , mi sembrava una pazzia. Non aveva già abbastanza da fare? Faceva parte di Fede e Luce Internazionale, come responsabile di zona, dava consigli ai genitori di persone disabili, aveva anche lei una famiglia, con un marito (anche lui impegnato) e due ragazzi ancora a casa (Chicca invece era da poco tornata al Signore). Serviva un altro passatempo?
 
 Poi, pian piano, il progetto comincia a prendere forma. Marie-Hélène Mathieu (direttrice all’epoca di *Ombres & lumière* in Francia) diceva che i primi cinque anni sarebbero stati difficili. Il giornale sarebbe stato un peso economico e poi, con tanti sostenitori, i soldi sarebbero dovuti entrare a tonnellate. Infatti M.H. usava i soldi guadagnati dal giornale francese per aiutare i genitori di ragazzi disabili a comprare casa. Però era necessario, almeno all’inizio, contenere le spese.

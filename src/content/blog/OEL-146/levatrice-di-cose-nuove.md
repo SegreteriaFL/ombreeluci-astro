@@ -1,4 +1,5 @@
 ---
+
 title: Levatrice di cose nuove
 date: 2019-07-29
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-146
 id_numero: "OEL-146"
 numero_rivista: "Ombre e Luci"
 ---
+
 A
 nnamaria De Rino, 87 anni, tra i testimoni degli inizi di
 [*Fede e Luce*](http://fedeeluce.it)

@@ -1,4 +1,5 @@
 ---
+
 title: "Gara di solidarietà a Siracusa per attrezzature sportive"
 date: "2019-01-08"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 Acquistate alcune attrezzature per la Cittadella dello Sport destinate alla fruizione degli impianti sportivi da parte di soggetti diversamente abili allo scopo di ampliare l’offerta di discipline e mezzi per la collettività, grazie al contributo di alcune associazioni.
 A darne notizia è il Circolo Canottieri Ortigia.
 

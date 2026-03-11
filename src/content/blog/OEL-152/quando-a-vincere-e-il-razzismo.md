@@ -1,4 +1,5 @@
 ---
+
 title: "Quando a vincere è il razzismo"
 date: "2020-07-17"
 author: "Laura Coccia"
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Che cosa sta succedendo alla nostra società? L’aggressione alla giocatrice di basket in carrozzina Beatrice Ion e a suo padre dimostra che qualcosa si è rotto, o forse non è mai stato aggiustato. Ci siamo illusi per troppo tempo che i germi del razzismo fossero stati sconfitti e fossero un capitolo chiuso nei libri di storia del ventesimo secolo. La cronaca ci dimostra giornalmente che i valori di cui ci fregiamo e sui quali sono state costruite le nostre democrazie post belliche troppo spesso sono rimasti solo sulla carta.
 
 Lo sport insegna che le regole sono uguali per tutti. Tutti i giocatori, tutti gli atleti, devono sottostare per poter giocare insieme, a prescindere dall'orientamento sessuale, dal genere, dalle diverse abilità, dalla nazionalità, dalla religione o dal colore della pelle.

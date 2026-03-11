@@ -1,4 +1,5 @@
 ---
+
 title: "La \"Forestière\": Vita comunitaria con i più gravi all'Arche"
 date: "1979-03-16"
 author: "Guenda Malvezzi"
@@ -15,6 +16,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 Nelle comunità dell'Arche si lavora, prega, viva insieme con molta semplicità, condividendo gioie e sofferenze, come fratelli.
 Sono comunità che sperano di progredire insieme su un piano sia umano che spirituale.
 Ultimamente è stata aperta la *Forestière**, un piccolo "foyer" che si chiama così perché è vicino alla foresta di Compiègne.

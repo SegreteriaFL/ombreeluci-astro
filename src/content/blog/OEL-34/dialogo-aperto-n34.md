@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.34
 date: 1991-06-21
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-34
 id_numero: "OEL-34"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Come può sentirsi utile
 
 Ho un figlio di 41 anni che ha avuto, a varie riprese (a cominciare dai vent’anni) episodi di psicosi. Per molti anni, io, mio marito e gli altri figli abbiamo dato quanto era possibile, non senza fare errori, delle nostre energie e del nostro affetto per cercare di recuperarlo. La sua acuta intelligenza non ci faceva realizzare la gravità del suo disturbo. Mio marito è morto nel frattempo e gli altri figli hanno preso positivamente la loro strada. Ora svolge un lavoro in una comunità e vorrebbe riempire le ore libere dal lavoro con qualche attività non manuale, compatibile con la sua poca capacità di concentrarsi e che lo faccia sentire utile agli altri e, penso io, allarghi il suo orizzonte. Come può un handicappato psichico sentirsi utile? Chiedo se vi sono esperienze in questa direzione. Può, ad esempio, scrivere delle lettere ai bambini di una qualche missione? Può tenere rapporti epistolari con altre comunità? Può, al di là della fede che ancora non riesce a sentire, valorizzare la propria dolorosa esperienza?

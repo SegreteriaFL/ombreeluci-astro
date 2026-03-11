@@ -1,4 +1,5 @@
 ---
+
 title: Il crimine di Eva
 date: 2021-01-18
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 8.931989669799805
 issue_number: OEL-153
 id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Vita di una donna nera, povera e con disabilità che ha rifiutato il ruolo di vittima"
 ---
+
 Questa è la storia di una donna che ha commesso un crimine che l’umanità non perdona. Ha rifiutato il ruolo di vittima. Eva Rodrigues aveva tutti i requisiti per meritare questa sentenza. Era donna: una disgrazia. Era negra: una disgrazia. Era povera: una disgrazia. E, come se non bastasse, era nata da un parto complicato. Aveva una paralisi cerebrale. Tremava tutta, rovesciava il mangiare, camminava a fatica, la goffaggine fatta persona. A Eva, il mondo riservava un solo destino: quello di essere una disgraziata. Avrebbe giusto potuto tendere la mano e chiedere l’elemosina. E ricevere sguardi di profonda pena. In cambio di quella moneta, avrebbe restituito al donatore non soltanto il sollievo della carità, ma un altro, segreto: la garanzia che la deformità, come la pazzia, riguarda sempre l’altro.
 
 Eva si è ribellata. Ha deciso che non sarebbe stata una disgraziata. Che il mondo si arrangiasse. Che trovasse altre vittime per soddisfare il suo gusto per l’orrido. È stato questo il crimine di Eva. Quello che non le hanno mai perdonato. Non potendo appiccicarle sulla fronte l’etichetta di disgraziata, ne hanno trovata un’altra per marchiarla. Come si permetteva, lei, la deforme, lei, l’handicappata, lei, la menomata, di rifiutare la mano della carità, sorella della compassione e cugina dell’ipocrisia? Come si permetteva lei, l’anormale, di guardare in faccia i normali da pari a pari? Sembrava quasi che l’esposizione del corpo deforme di Eva rivelasse l’anima deforme dell’altro. Che l’esibizione del suo difetto mettesse a nudo i difetti occulti di chi la guardava. Come si permetteva Eva, proprio lei, di essere imperfetta in un mondo in cui si pagano fortune perché tutti siano ugualmente perfetti? Come osava essere diversa in un mondo in cui avere le stesse idee è l’unica garanzia di sicurezza? Come osava far trionfare lo spirito nel mondo delle apparenze?

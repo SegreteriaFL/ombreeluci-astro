@@ -1,4 +1,5 @@
 ---
+
 title: Alfedena per immagini
 date: 2023-06-16
 author: Cristina Tersigni
@@ -18,6 +19,7 @@ issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
 ---
+
 E
 ra il 1976 e Alfedena rappresentò un'esperienza fondante per le comunità di Fede e Luce. Un nuovo modo di far vacanza, unico per alcuni dei partecipanti. La casa fu messa a disposizione da Francesca Biondi che, sul numero 11/1976 di
 *Insieme*

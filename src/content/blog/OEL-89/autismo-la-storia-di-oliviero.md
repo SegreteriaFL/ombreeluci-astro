@@ -1,4 +1,5 @@
 ---
+
 title: "Autismo: la storia di Oliviero"
 date: 2005-03-16
 author: Vincenzo e Irene Ruisi
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.681270599365234
 umap_y: 8.400403022766113
 umap_z: 6.649545192718506
+
+subtitle: "Oliviero aveva sette anni quando mio marito ed io abbiamo accolto per la prima volta a casa nostra questo bel ragazzino dai grandi occhi scuri...."
 ---
+
 Oliviero aveva sette anni quando mio marito ed io lo abbiamo accolto per la prima volta a casa nostra. Un bel ragazzino dai grandi occhi scuri. Siamo rimasti disarmati di fronte al suo comportamento: non parlava, non ci ascoltava; cercava disperatamente rubinetti d’acqua e pezzi di spago per alimentare i suoi giochi ripetitivi fino all’eccitazione. Quel giorno, ci siamo accontentati di evitare il peggio. Quanto a saperlo accogliere, tenerlo occupato, farlo progredire, capirlo: altre persone altamente qualificate lo hanno saputo fare, progressivamente, con pazienza, convinzione, rispetto. Mattone su mattone, con la fedele collaborazione dei suoi genitori, hanno aiutato Oliviero a costruirsi, a essere quello che è oggi. *Nicole S.*
 
 ### Ombre del passato e luci del presente

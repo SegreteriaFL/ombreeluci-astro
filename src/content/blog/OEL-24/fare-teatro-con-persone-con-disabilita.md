@@ -1,4 +1,5 @@
 ---
+
 title: "Fare teatro con persone con disabilità"
 date: "1988-06-28"
 author: "Maria Teresa Mazzarotto"
@@ -14,6 +15,7 @@ issue_number: OEL-24
 id_numero: "OEL-24"
 numero_rivista: "Ombre e Luci"
 ---
+
 Fare teatro è un'attività che richiede impegno ed organizzazione, tempo e voglia di superare le inevitabili difficoltà, ma che ricompensa dando piacere ed allegria, insegnando a stare insieme, a collaborare per uno scopo comune.
 
 - Per partecipare a questa attività, anche i ragazzi più irrequieti devono accettare alcune regole precise: imparano a controllare la vivacità, ad aspettare il loro turno per entrare in scena o per parlare, devono fare attenzione alle parole ed ai gesti degli altri.

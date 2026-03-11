@@ -1,4 +1,5 @@
 ---
+
 title: La Sindrome di Prader-Willi
 date: 1999-06-12
 author: Redazione
@@ -18,6 +19,7 @@ umap_x: 5.4902215003967285
 umap_y: 9.982091903686523
 umap_z: 7.325109481811523
 ---
+
 Questo articolo è stato scritto nel 1999. Le informazione in esso contenute possono essere ormai obsolete e superate da nuove ricerche scientifiche.
 
 **Che cos’è** La sindrome di Prader-Willi (PWS) è una malattia genetica, causata da una alterazione del cromosoma 15. Colpisce in egual misura entrambi i sessi, circa uno su diecimila nati ma la sua incidenza è sottostimata a causa della scarsa conoscenza della malattia.

@@ -1,4 +1,5 @@
 ---
+
 title: "Katimavik, una parola eschimese che vuol dire \"incontro\""
 date: 1978-12-16
 author: Pierre Debergé
@@ -17,6 +18,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 *Il 14, 15, 16 Luglio si è tenuto un [Katimavik](https://www.ombreeluci.it/1979/che-cose-un-katimavic/) al quale al quale erano invitati i partecipanti del campeggio di Alfedena e alcuni rappresentanti dei gruppi Fede e Luce d'Italia.*
 
 *Insieme abbiano cercato di:*

@@ -1,4 +1,5 @@
 ---
+
 title: "Se un pomeriggio dura quarant'anni"
 date: 2024-07-19
 author: Matteo Cinti
@@ -14,7 +15,10 @@ umap_z: 9.910887718200684
 issue_number: OEL-166
 id_numero: "OEL-166"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La festa per il compleanno di Ombre e Luci"
 ---
+
 Sono quasi quaranta le firme lasciate sulla lavagna della nostra redazione, quella che di solito usiamo per buttare giù schemi e idee sui prossimi numeri. Stavolta, invece, è servita per scrivere **i nomi di chi è venuto a trovarci, sabato 6 aprile, per festeggiare i quarant’anni di Ombre e Luci** . Dalle mani storiche di Sergio Sciascia, il primo direttore della rivista, o di Paola e Maria Monica Gammarelli, che hanno ospitato la redazione nella loro palazzina per più di trent’anni, alle mani più giovani di Enrica Riera, collaboratrice preziosa da qualche anno, e delle nostre nuovissime vicine di condominio, Manuela e la figlia Elena, che vediamo spesso affacciarsi dalla finestra del piano di sopra. A queste, si sono aggiunte una nutrita rappresentanza romana di Fede e Luce, amici e ragazzi da Napoli e Milano, infine i reporter e blogger di Ombre e Luci. **Tutti hanno arricchito la festa con emozioni e ricordi.**
 
 «Arriviamo alla sede di viale di Valle Aurelia – racconta Nora Buccheri – e finalmente conosco gli amici della redazione. Stavano già cominciando ad allestire il tutto. **Anche io mi sono messa all’opera e ho gonfiato i palloncini che ogni tanto scoppiavano.** Poi si è alzato un po’ di venticello e alcuni sono volati via. Io e Antonietta abbiamo fatto con la manina “ciao ciao!”, ci siamo fatte due risate e abbiamo parlato un po’ delle nostre parrocchie». Entrambe reporter, Nora Buccheri e Antonietta Pantone si sono conosciute di persona proprio in questa occasione festosa.

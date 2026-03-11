@@ -1,4 +1,5 @@
 ---
+
 title: "Disturbi dell'apprendimento: ho scoperto la sofferenza dei miei figli"
 date: 2009-09-10
 author: Solange Fanc
@@ -17,7 +18,10 @@ umap_z: 6.970221042633057
 issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Madre di sei figli, tra i quali Arnaud e altri due dislessici, Solange racconta la sua storia di combattente di fronte all’insuccesso scolastico dei figli"
 ---
+
 Nella mia famiglia la dislessia è ereditaria:ne sono colpiti mio padre, due miei fratelli e tre dei miei figli. Ho scoperto che Arnaud, il maggiore, era dislessico quando era alle elementari. Eravamo a tavola e ha letto l’etichetta del vino a rovescio. Per lui è iniziata una lungo percorso di perdita di fiducia in se stesso. Nonostante due sedute a settimana dall’ortofonista, la sua ortografia rimaneva catastrofica. Passava ore a fare i compiti e poi, alle verifiche, tutti i voti che prendeva erano divisi per due a causa degli errori. Tutte le settimane sono stata convocata dalla maestra che, decisamente, non capiva niente di dislessia.
 
 Dopo le elementari, Arnaud si attaccava ai lampioni per non andare a scuola, e alle medie ha dovuto ripetere. Questo l'ha convinto della sua nullità. Al liceo ho pensato che ne saremmo usciti: mi era stato detto che i dislessici sono particolarmente dotati per immaginare un oggetto a tre dimensioni. Ho dunque consigliato Arnaud Di iscriversi ad una sezione tecnologica di ingegneria. Dopo una settimana dall’inizio di questi corsi, ero disperata: non aveva quel talento.

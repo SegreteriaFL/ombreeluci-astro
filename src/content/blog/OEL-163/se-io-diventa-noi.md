@@ -1,4 +1,5 @@
 ---
+
 title: Se «io» diventa «noi»
 date: 2023-11-20
 author: Enrica Riera
@@ -14,7 +15,10 @@ umap_z: 9.293167114257812
 issue_number: OEL-163
 id_numero: "OEL-163"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Athletica Vaticana, l’associazione polisportiva della Santa Sede"
 ---
+
 Paolo spinge la carrozzella di sua figlia Sara per correre insieme, i migranti Ansou Cisse, Jallow Buba e Charles Ampofo calpestano i fili d’erba con gli stessi piedi con cui sono fuggiti dalle brutture dei loro Paesi, la mamma ucraina Viktoria Gudyma trasforma la corsa in una vera e propria esperienza di pace.
 
 Tre storie, quelle appena elencate, che arricchiscono le attività già di per sé preziose di Athletica Vaticana, l’associazione polisportiva ufficiale della Santa Sede, di cui fanno parte dipendenti, cittadini e residenti dello Stato Città del Vaticano, insieme ai loro familiari diretti: una realtà di questo tipo non si era davvero mai vista e da quando, nel 2018 il team del Papa è stato iscritto nel Registro delle persone giuridiche canoniche, non ci si è più fermati.

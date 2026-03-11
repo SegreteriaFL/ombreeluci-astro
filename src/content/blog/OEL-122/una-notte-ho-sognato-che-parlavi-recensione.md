@@ -1,4 +1,5 @@
 ---
+
 title: Una notte ho sognato che parlavi - Recensione
 date: 2013-06-10
 author: Matteo Cinti
@@ -14,7 +15,10 @@ umap_z: 4.629062652587891
 issue_number: OEL-122
 id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Gianluca Nicoletti - Morelini Editori pp. 253"
 ---
+
 Gianluca Nicoletti, giornalista e speaker radiofonico, racconta in questo libro la vita quotidiana con suo figlio Tommy, autistico. Un libro che l’autore ha definito “un racconto allegro, tutt’altro che triste”, in realtà mostra diversi momenti di difficoltà che ci fanno ben allontanare dall’allegria.
 
 **Nell’intento di sdrammatizzare situazioni talvolta grottesche** , Nicoletti non riesce a nascondere le ovvie amarezze scaturite dai problemi quotidiani con Tommy.

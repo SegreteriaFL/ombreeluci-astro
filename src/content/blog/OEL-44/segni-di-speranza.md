@@ -1,4 +1,5 @@
 ---
+
 title: Segni di speranza
 date: 1993-12-23
 author: Mariangela Bertolini
@@ -16,7 +17,10 @@ umap_z: 6.528072357177734
 issue_number: OEL-44
 id_numero: "OEL-44"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "In questo numero presentiamo qualche segno di speranza perché porti un po’ di luce nelle nostre case. Questi segni del «bene fatto bene», ci vogliono ricordare che è tempo di rialzarci, di levare il capo, di riprendere coraggio, di non lasciarsi atterrare e sconfiggere dai segni del male"
 ---
+
 Ci sono molte donne e molti uomini che conosciamo direttamente o attraverso la televisione per i segni del potere che incarnano. Ci sono molte donne e molti uomini che ci vengono presentati, fin troppo, sugli schermi televisivi o nei giornali, per i segni del male che operano.
 
 Questi segni sono diventati pane quotidiano che, invece di nutrire, aiutare e sostenere, provoca sdegno, collera, ribellione, rabbia. Invece di incitare alla speranza, di indicare una strada per riprenderci e continuare a lottare e a lavorare per il bene comune, provoca via via un senso di smarrimento, di sfiducia, di paura, in noi, nei giovani, nei bambini. Paura della violenza, di non farcela ad andare avanti; paura per il futuro dei nostri figli; paura dell'impegno — tanto a che serve? — paura di crollare sotto il peso della depressione. Ci sono poi molte donne e molti uomini che non tutti conoscono e che non tutti vedono; forse perché il potere dei loro segni è nascosto, dà fastidio, disturba.

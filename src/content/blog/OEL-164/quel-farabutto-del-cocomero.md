@@ -1,4 +1,5 @@
 ---
+
 title: Quel farabutto del cocomero
 date: 2024-02-19
 author: Andrea Zamperoni
@@ -14,7 +15,10 @@ umap_z: 7.348133563995361
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Testimonianza da Firenze"
 ---
+
 Èdifficile convivere con la mia salute ma ci convivo. **La dialisi ti mette davanti a dure prove.** Sento discorsi assurdi anche da persone che dovrebbero conoscere me e la mia situazione. Sento tanto banalizzare alcune difficoltà: un’amica mi ha chiesto recentemente perché non mi sono organizzato per andare a un ritiro a Camaldoli al quale avrebbero partecipato anche i miei genitori. Possibile che ancora non capiscano? «Perché non fissi la dialisi lì vicino?». **Ma, dico io, secondo te è possibile fissare un giorno per l’altro una dialisi dove pare a me?** Tra l’altro, nel periodo di due giorni previsto dal ritiro, sarebbe anche sproporzionato il tempo che dovrei star fuori. se mi viene anche risposto che «se non ti organizzi, non ti interessa». Capirete che mi fa molta rabbia soprattutto quando a dirlo è una che si dice mia amica.
 
 **Sono convinto che, quando si sta bene, non si capisce cosa voglia dire star male; sarà un’amara conclusione ma penso sia così.** Oltre ai tre giorni dedicati alla dialisi, vado due volte in ufficio e anche lì spesso la mia salute viene banalizzata: qualcuno è arrivato a propormi di partecipare a programmi televisivi di vario, dubbio, genere. Porto la mascherina per le mie problematiche di salute e le mie difese immunitarie basse, e non mancano di notarlo deridendomi. Per non parlare di quando ci dovevamo vaccinare! A volte mi sembra proprio di soffocare. Sai che, alla fine, sto meglio in ospedale che in ufficio?

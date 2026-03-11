@@ -1,4 +1,5 @@
 ---
+
 title: Cantilena dei Re Magi
 date: 2003-12-22
 author: Redazione
@@ -17,7 +18,10 @@ tags:
 umap_x: 5.724045753479004
 umap_y: 6.11081075668335
 umap_z: 12.286059379577637
+
+subtitle: "In questa cantilena natalìzia, nata non si sa dove e da chi, sono mescolate poesia, religiosità, ingenuità e nostalgia. Basta leggerla a voce per sentirlo."
 ---
+
 In questa cantilena natalìzia, nata non si sa dove e da chi, sono mescolate poesia, religiosità, ingenuità e nostalgia. Basta leggerla a voce per sentirlo.
 
 È spuntata la Stella Cometa Con la coda di luce e di seta, Domattina verranno i Re Magi Maestosi ricchissimi e saggi.

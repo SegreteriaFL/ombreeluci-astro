@@ -1,4 +1,5 @@
 ---
+
 title: "Èquipe di coordinamento: come funziona"
 date: "1990-09-26"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-31
 id_numero: "OEL-31"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Ritrovarsi regolarmente
 
 Le persone che fanno parte dell'équipe di coordinamento si incontrano con regolarità per preparare gli incontri di comunità; per valutare quanto viene vissuto; per discernere i bisogni dei singoli e dei gruppi; per suscitare la creatività, ecc.

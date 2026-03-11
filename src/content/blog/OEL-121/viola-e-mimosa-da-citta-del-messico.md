@@ -1,4 +1,5 @@
 ---
+
 title: "Viola e Mimosa da Città del Messico"
 date: "2013-03-10"
 author: "Giulia Galeotti"
@@ -14,7 +15,10 @@ categoria_menu: "Crescere"
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Viola ha una nuova sorellina, che decide dovrà chiamarsi Mimosa “perché sono due fiori e i colori viola e giallo stanno bene insieme”"
 ---
+
 Viola ha una nuova sorellina, che decide dovrà chiamarsi Mimosa (“perché sono due fiori e i colori viola e giallo stanno bene insieme”). È molto contenta, anche se capisce subito che qualcosa non torna: il papà, la mamma e le nonne si comportano in modo molto strano. Sono arrabbiati, tristi, piangono, guardano nel vuoto, fuggono o addirittura non si fanno vedere. È dunque innanzitutto attraverso le reazioni degli adulti che gradualmente si fa strada in Viola la consapevolezza della diversità di Mimosa. È diversa, ma è anche speciale. Speciale come un quadrifoglio.
 È questa la trama dello splendido libro per bambini di Beatrice Masini e Svjetlan Junakovic**, *Mia sorella è un quadrifoglio* (2012). Invece di tanta retorica vuota e altisonante, di un’ideologia schizofrenica tra desiderio individuale e politicamente corretto, questa coloratissima storia affronta con semplicità e pacatezza temi complessi come la diversità e l’accettazione. E lo fa attraverso lo sguardo, le curiosità, i timori e l’esperienza quotidiana di una bimba che si trova nella delicata posizione di essere una sorella. “L’avevo già capito da sola che Mimosa era diversa dagli altri bambini. Ma uno non può mica chiedere scusa per quello che è. È così e basta”.
 Chiudendo il libro e passando alla realtà**, Mimosa è nata in ogni parte del mondo, e tra vecchie e nuove chiusure continua a nascere ogni giorno. Non sempre però ha Viola vicino. Ecco, con questa rubrica, vorremmo cercare di raccontare le Mimose di ieri e di oggi, quelle vicine e quelle lontane, attraverso la voce di Viola, immergendoci nello sguardo e nei pensieri di ogni singola, piccola Viola che – con affetto e curiosità – osserva, incontra e scopre. Scopre se stessa, Mimosa, il loro rapporto, gli adulti e il mondo.

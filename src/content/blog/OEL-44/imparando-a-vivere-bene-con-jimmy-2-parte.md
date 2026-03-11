@@ -1,4 +1,5 @@
 ---
+
 title: Imparando a vivere bene con Jimmy - 2° PARTE
 date: 1993-12-23
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-44
 id_numero: "OEL-44"
 numero_rivista: "Ombre e Luci"
 ---
+
 **Continua dalla**
 [**Prima parte**](http://www.ombreeluci.it/1993/imparando-a-vivere-bene-con-jimmy/)
 S

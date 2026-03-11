@@ -1,4 +1,5 @@
 ---
+
 title: Se avessi ascoltato la mia disperazione?!
 date: 2006-09-27
 author: Annamaria Manfucci
@@ -16,7 +17,10 @@ tags:
 umap_x: 5.101576328277588
 umap_y: 9.293740272521973
 umap_z: 6.915183067321777
+
+subtitle: "Leggendo l’ultimo Ombre e Luci mi trovo a rivivere il percorso della mia vita, anche se solo oggi ne vedo il senso e trovo spiegazioni a tante cose successe"
 ---
+
 Nel leggere **[l’ultimo Ombre e Luci](https://www.ombreeluci.it/project/ombre-e-luci-n-94-unattesa-difficile/)** mi trovo a rivivere il percorso della mia vita, anche se solo oggi ne vedo il senso e trovo spiegazioni a tante cose successe. I vissuti, naturalmente, sono paralleli per mio marito.
 
 Abbiamo avuto sei figli, due dei quali sono stati aborti spontanei, e oggi siamo ben felici della nostra famiglia, ma quando Daniele, il nostro se‘ condogenito, ha iniziato a 15 mesi e regredire fino a perdere tutto quello che aveva acquisito, la sofferenza ha fatto indurire il mio cuore e confuso la mia mente, nonostante seguissimo un cammino di fede: ero disperata, mi stava crollando il mondo addosso, non riuscivo a interpretare quella storia. Non capivo perchè mi era nato un figlio sano che, senza una causa, stava perdendo l’uso della parola, le capacità di essere autonomo, la consapevolezza dei pericoli, pur essendo geneticamente e strutturalmente “sano”.

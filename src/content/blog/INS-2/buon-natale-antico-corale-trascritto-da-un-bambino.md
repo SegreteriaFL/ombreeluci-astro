@@ -1,4 +1,5 @@
 ---
+
 title: Buon Natale - Antico Corale trascritto da un bambino
 date: 1974-12-28
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.30148696899414
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Riportiamo lo spartito e il testo che un bambino di Fede e Luce ha diligentemente trascritto"
 ---
+
 Dormi, dormi bel bambin re divin dormi dormi fantolin fa la nanna caro figlio re del Ciel tanto bel grazioso giglio
 
 Perché piangi, o bambinle, forse il gel ti dà noia o l'asinel; fa la nanna o paradiso del mio cuor, del mio cuor. Redentor ti bacio il viso

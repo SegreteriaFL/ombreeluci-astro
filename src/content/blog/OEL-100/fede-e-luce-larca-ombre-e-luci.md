@@ -1,4 +1,5 @@
 ---
+
 title: "Fede e Luce, l'Arca, Ombre e Luci"
 date: 2007-12-10
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 7.865104675292969
 umap_y: 9.937578201293945
 umap_z: 12.931193351745605
 ---
+
 ### Fede e luce
 
 Movimento fondato nel 1971 in Francia da Jean Vanier e Marie-Hélène Mathieu e promosso dal 1974 da Mariangela Bertolini e Madre Ida. Comunità di incontro che riuniscono persone disabili mentali, le loro famiglie e i loro amici

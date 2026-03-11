@@ -1,4 +1,5 @@
 ---
+
 title: Atipici – Newsletter N. 34
 date: 2021-07-16
 author: Redazione
@@ -15,7 +16,9 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Dall'archivio
+
 
 ---
 
@@ -23,11 +26,13 @@ numero_rivista: "Ombre e Luci"
 
 ### Da vedere
 
+
 ---
 
 La storia di Sam Gardner arriva alla sua conclusione: la quarta e ultima stagione di *Atypical* è uscita su Netflix il 9 luglio e ci lascia con una delle rappresentazioni più riuscite dell'autismo in tv. La creatrice della serie, Robia Rashid, si è detta soddisfatta del "messaggio di speranza" che questo show ha condiviso con gli spettatori. L'abbiamo vista per voi ed [ecco cosa ne pensiamo](https://www.ombreeluci.it/2021/atypical-stagione-4/) .
 
 ### Il blog di Benedetta
+
 
 ---
 

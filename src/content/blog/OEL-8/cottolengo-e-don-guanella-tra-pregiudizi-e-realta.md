@@ -1,4 +1,5 @@
 ---
+
 title: "Cottolengo e Don Guanella, tra pregiudizi e realtà"
 date: "1984-03-30"
 author: "Nicole Schulthes"
@@ -14,6 +15,7 @@ issue_number: OEL-8
 id_numero: "OEL-8"
 numero_rivista: "Ombre e Luci"
 ---
+
 Che cos'è, veramente, un'*istituto speciale*? La stessa parola, per molti, evoca un luogo terribile, che ad ogni costo dobbiamo risparmiare ai nostri figli. Imbarazzata e meravigliata ho voluto saperne di più. E per questo, che cosa potevo fare di meglio se non andarli a vedere?
 
 ### Don Guanella

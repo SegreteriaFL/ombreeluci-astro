@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 42
 date: 1993-06-20
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-42
 id_numero: "OEL-42"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### San Benedetto del Tronto - Le nostre casette
 
 Quando abbiamo deciso di fare tesoro dei momenti più belli delle nostre «casette», abbiamo pensato che non poteva esserci occhio più attento e cuore più tenero di quello di uno dei nostri ragazzi. Così Videa è stata quella di lasciare che fossero loro, scattando delle fotografie, a scegliere cosa «colpire». Simona ci ha fatto il regalo di queste foto, che vogliamo mostrare anche a voi.

@@ -1,4 +1,5 @@
 ---
+
 title: "La tentazione di fuggire di fronte alle difficoltà"
 date: "2005-03-16"
 author: "Marco Bove"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Riflessione di don Marco Bove, Assistente nazionale di Fede e Luce"
 ---
+
 Questo testo del vangelo di Giovanni ci suggerisce una domanda: che senso ha il nostro cammino di Fede e Luce? Cosa significa l’invito di Gesù “Seguimi”? E anche: “Venite a mangiare”?
 I fatti che qui Giovanni ci racconta avvengono dopo la Pasqua, cioè dopo la morte e la risurrezione di Gesù. Noi siamo abituati a pensare alla Pasqua come ad un momento di rinascita e di nuovo inizio per i discepoli, ma prima di essere un momento di ricarica per loro è invece un momento di crisi. **La parola ‘Pasqua’ significa passaggio, crisi. Siamo invitati dunque anche noi a chiederci a quale passaggio siamo chiamati.
 

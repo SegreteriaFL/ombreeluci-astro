@@ -1,4 +1,5 @@
 ---
+
 title: "Quel che l'etichetta racconta"
 date: 2025-02-10
 author: Valentina Mari
@@ -19,7 +20,10 @@ umap_z: 9.061266899108887
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La fondazione La Comune di Milano per la vita indipendente di persone con disabilità parzialmente autonome"
 ---
+
 *Tempo fa ci è arrivata in regalo una bottiglia di un buon vino. L’etichetta ci ha incuriosito e il racconto di chi ha contribuito a imbottigliarlo ancor di più.*
 
 La storia della [fondazione](https://www.fondazionelacomune.org/) *La Comune* a Milano comincia con alcuni appartamenti per persone con disabilità voluti **per realizzare progetti di vita indipendente** , quando **si sono rivolte a noi alcune famiglie che già si conoscevano tra loro: volevano che i figli avessero una loro casa in un contesto protetto, una qualità di vita soddisfacente, anche nella relazionalità, ed autodeterminata** , come in una comunità classica non sarebbe stato altrettanto possibile fare. Nei tre appartamenti attuali abitano nove persone, dai 30 ai 40 anni, in affitto agevolato. Noi forniamo il supporto educativo verso l’autodeterminazione, non ci occupiamo della gestione della casa che rimane in mano alle persone con disabilità, ovviamente supportate dove ci sia bisogno. **I residenti lavorano, riescono a metterci del loro e, grazie ai finanziamenti della legge 112 per la vita indipendente, riusciamo a coprire i costi.**

@@ -1,4 +1,5 @@
 ---
+
 title: I doni di Dio
 date: 2016-12-16
 author: Carlo Gazzano
@@ -14,7 +15,10 @@ umap_z: 12.927203178405762
 issue_number: OEL-136
 id_numero: "OEL-136"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "<a href=https://www.fedeeluce.it/carnet-de-route/>Il carnet de route</a> di quest’anno, dal titolo “Tu mi hai chiamato, eccomi!”, invita le comunità a incontrare i giovani, a conoscerli, a lasciarli “fare”, lasciare che si esprimano a modo loro."
 ---
+
 Lanostra [comunità Edelweiss di Messina](https://www.fedeeluce.it/project/edelweiss/) ha già vissuto due feste, ad entrambe sono arrivati dei giovani, inaspettati. All’ultimo incontro abbiamo accolto un gruppetto di giovani che stanno facendo qui l’Erasmus provenienti da diverse parti del mondo e che si sono sentiti coinvolti e integrati, tanto che uno di loro, dell’Algeria, ha un fratello down, che viene ogni mese con la famiglia a trovarlo, e ci ha chiesto se può invitarlo la prossima volta.
 
 Mentre al primo incontro un’amica della comunità ha portato due sue amiche di cui una, Jessica, ha scritto una bellissima testimonianza di quanto ha vissuto e che vi riporto:

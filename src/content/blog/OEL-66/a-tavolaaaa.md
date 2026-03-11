@@ -1,4 +1,5 @@
 ---
+
 title: A tavolaaaa!
 date: 1999-06-11
 author: Maria Teresa Mazzarotto
@@ -18,6 +19,7 @@ umap_x: 7.571414947509766
 umap_y: 6.825559616088867
 umap_z: 10.261330604553223
 ---
+
 Stiamo parlando di come è sbagliato mangiare troppo e con voracità, ma adesso diciamo anche che è belìo e importante mangiare in famiglia o con gli amici buone pietanze intorno ad una tavola preparata con cura ed eleganza. Molti nostri amici disabili sanno riempire il momento del pranzo insieme di tanta allegria e di tanta festa: il loro piacere è evidente e si comunica anche agli altri, ma siamo convinti che possono fare anche tanto di più. Possono cucinare pietanze e dolci semplici e squisiti, possono preparare e rendere bella la tavola con tanti piccoli accorgimenti.
 
 Hanno bisogno soltanto, e con loro ne abbiamo bisogno tutti noi, amici e genitori, di qualche piccolo suggerimento, di ricordare come si fa, di un po’ di tempo a disposizione e, poi a lavoro compiuto, di tanto apprezzamento e di giusti riconoscimenti.

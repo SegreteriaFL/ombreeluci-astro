@@ -1,4 +1,5 @@
 ---
+
 title: Una cooperativa sul mare
 date: 2001-06-20
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 8.62012004852295
 issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "In una splendida giornata di aprile siamo andata a Giulianova per conoscere e raccontarvi questa piccola grande realtà"
 ---
+
 I n una splendida giornata d'aprile abbiamo lasciato Roma e, in un'autostrada semideserta, fiancheggiata a tratti dagli Appennini bianchi e azzurri contro il cielo ancora più azzurro, abbiamo raggiunto Teramo, abbiamo proseguito per Giulianova. Il mare ci è apparso all'improvviso, proprio sotto la piazzetta dell'ospedale, anche lui azzurrissimo e terso. Lo abbiamo ignorato e girando a destra siamo entrati negli uffici amministrativi della **cooperativa sociale “Piccola Opera Caritas”** , derivazione e cuore della Fondazione omonima nata per la volontà e l’impegno del padre cappuccino Don Serafino Colangeli, trentotto anni fa.
 
 **La fondazione voluta da Don Serafino** , nata come risposta cristiana alle esigenze del territorio circostante, ottenne subito il riconoscimento religioso e civile dello stato e della chiesa e si impegnò, prima ancora che nella catechesi, nella promozione umana. Allora, negli anni tra il 60 e il 70, erano i bambini figli degli operai che andavano a lavorare al nord, ad essere i più soli, spesso emarginati e con grave disagio psicologico. Per loro e per altri ragazzi disabili alcune signorine coordinate da don Serafino aprirono le prime classi differenziate in una piccola villa e questo fu l’inizio del futuro Istituto.

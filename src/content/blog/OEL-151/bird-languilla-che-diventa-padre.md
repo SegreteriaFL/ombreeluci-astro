@@ -1,4 +1,5 @@
 ---
+
 title: Bird, l’anguilla che diventa padre
 date: 2020-10-05
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 Se la tendenza dei padri alla fuga è una costante nella storia umana, la fuga dei padri di figli con disabilità è ancor più frequente e repentina. Ci sono, però, eccezioni che rinfrancano. In pagine sincere, lucide e a tratti poetiche, direttamente o attraverso un personaggio, lo scrittore giapponese Kenzaburō Ōe, premio Nobel per la letteratura nel 1994, ha narrato spesso la paternità di un figlio con disabilità. Hikari, infatti, il suo maggiore, nato con una gravissima lesione cerebrale, è affetto da autismo ed epilessia, il che non gli ha impedito, anche grazie alla tenacia dei genitori, di diventare uno dei compositori più noti in Giappone.
 
 Tra i tanti romanzi, ricordiamo *Un’esperienza personale* (Garzanti 1996, traduzione di Nicoletta Spadavecchia), duro atto di accusa contro i pregiudizi sociali nei confronti dell’handicap. In esso la nascita del figlio con disabilità cambia finalmente la vita del protagonista Bird, sino a quel momento un’anguilla in costante fuga da tutto e da tutti.

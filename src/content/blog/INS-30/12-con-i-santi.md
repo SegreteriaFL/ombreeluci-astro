@@ -1,4 +1,5 @@
 ---
+
 title: 12. Con i santi
 date: 1981-12-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Novembre 1980
 
 Al punto di partenza della nostra strada, c'è una promessa: "Renderò la tua discendenza numerosa come le stelle del cielo e la sabbia del mare" (Gen.22,17). Questa parola di Dio ad Abramo trova il suo compimento in Gesù Cristo. In lui, la folla immensa descritta dall'Apocalisse diventa una sola famiglia, il popolo di Dio.
@@ -26,6 +28,7 @@ Al punto di partenza della nostra strada, c'è una promessa: "Renderò la tua di
 Popolo in cammino verso il Regno, La festa d'Ognissanti, risveglia la nostra speranza mostrandoci la meta del cammino.
 
 "Non avranno più fame, non avranno più sete e il sole non li opprimerà, né alcun calore bruciante. Perché l'Agnello che è sul trono li farà pascolare e li condurrà alle sorgenti dell'acqua viva. E Dio asciugherà le lacrime dai loro occhi." (Apoc.7,16)
+
 
 ---
 
@@ -42,6 +45,7 @@ Malgrado la differenza di linguaggio, il messaggio di Bernadetta è sempre attua
 "Sempre all'infermeria, sempre buona a niente"…Il Signore ha fatto bene a non lasciarmi la scelta del mio genere di vita. Certamente non avrei scelto questa inattività a cui sono ridotta. Mi sarebbe tanto piaciuto avere un servizio…le mie armi sono la preghiera e il sacrificio che avrò fino al mio ultimo sospiro. Allora la arma del sacrificio cadrà, ma quella della preghiera mi seguirà in cielo, dove sarà più potente."
 
 *Bernadette*
+
 
 ---
 

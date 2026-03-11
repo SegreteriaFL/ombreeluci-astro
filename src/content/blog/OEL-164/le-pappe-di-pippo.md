@@ -1,4 +1,5 @@
 ---
+
 title: Le pappe di Pippo
 date: 2024-02-19
 author: Cristina Tersigni
@@ -17,7 +18,10 @@ umap_z: 8.994306564331055
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un laboratorio-ristorante nel bolognese"
 ---
+
 Don Mario Campidori entrava nelle case delle persone con disabilità, per incontrarle, conoscerle e farle uscire fuori dalle mura all’interno delle quali vivevano, troppo spesso in solitudine. Le invitava ad andare con lui nelle parrocchie e, fatte le dovute presentazioni, non si poteva più pensare che quelle persone non esistessero: andavano cercate e accolte nella comunità parrocchiale. **Nel 1973 diede vita al movimento [*Simpatia e amicizia,*](https://www.fondazionecampidori.it/) la cui prima iniziativa fu quella di costruire un villaggio senza barriere: nacque così il *Pastor Angelicus* a 40 chilometri da Bologna** per tempi di vacanza accessibili a tutti. Più recentemente lo spirito di quel villaggio ha trovato casa in città, in un edificio all’interno del terreno del seminario arcivescovile, ristrutturato grazie ai fondi ricavati dalla gestione della Faac, nota ditta produttrice di automatismi per cancelli.
 
 **Nel 2018 nasceva così *Famiglia della Gioia* , una vera e propria casa completamente accessibile,** con un appartamento, alcune camere e ampi locali di servizio, al cui interno si svolgono laboratori e attività ricreative, musicali, artistiche. L’appartamento e le camere vengono utilizzate per fine settimana di autonomia e sollievo da associazioni preposte nel territorio; per condividere, tra amici, del tempo insieme; per accogliere in caso di ricoveri ospedalieri di un familiare o per facilitare ricoveri programmati di chi ha bisogno di una struttura di appoggio senza barriere vicina al nosocomio.

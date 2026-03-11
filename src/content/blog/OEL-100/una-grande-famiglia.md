@@ -1,4 +1,5 @@
 ---
+
 title: Una grande famiglia
 date: 2007-12-10
 author: Mariangela Bertolini
@@ -16,7 +17,10 @@ tags:
 umap_x: 6.781512260437012
 umap_y: 8.83437442779541
 umap_z: 11.840337753295898
+
+subtitle: "Centesimo numero di Ombre e Luci! 24 anni insieme a voi e ai nostri piccoli grandi maestri ci hanno trasformato in “una grande famiglia”"
 ---
+
 Che gioia ricevere le vostre lettere piene di affetto immutato per il vostro figlio o figlia ritratta nella fotografia che ci avete inviato con grande sollecitudine.
 
 **Che gioia rivedere il volto di Augusta** , conosciuta per prima fra tanti, nel mio primo pellegrinaggio a Lourdes nel 1968! Risentire per telefono la voce, rimasta quella di allora, del suo papà e della sua mamma. Ti ricordi Luigi, quando seduti a tavola, per rompere l'imbarazzo di una prima conoscenza con altri genitori come noi, davanti alla famosa soupe francese, esclamasti: “Vuol mettere, signora, due spaghetti aglio e olio?”.

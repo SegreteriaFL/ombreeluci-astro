@@ -1,4 +1,5 @@
 ---
+
 title: Concorso fotografico “legami”
 date: 2007-12-12
 author: Redazione
@@ -15,7 +16,10 @@ has_comments: false
 umap_x: 6.057253360748291
 umap_y: 7.311179161071777
 umap_z: 9.247844696044922
+
+subtitle: "Ecco i vincitori del concorso e alcune considerazioni dei giurati"
 ---
+
 La giuria composta da Flavio Bielloni (grafico), Anadrea Panegrossi (fotografo professionista), Francesca Sauro (psicologa), Riccardo Guglielmin (fotografo), ha valutato le foto, prive di firma dell’autore, e ha assegnato i premi a:
 
 - 1° classificato: Valentina Calabresi (roma), foto in copertina - 2° classificato: Ludovico Bonaventura Gammarelli, (Fregene), foto in IV di copertina - 3° classificato: Suor antonella Casa della Carità (Piacenza)

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.9
 date: 1985-03-26
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-9
 id_numero: "OEL-9"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### E ho capito che bisogna andare oltre l’apparenza
 
 Sono Alessandra, una ragazza di Milano, del gruppo Fatima. Il nostro gruppo è un po’ anomalo: abbiamo più genitori e ragazzi con problemi che amici, ma comunque per adesso i problemi che via via si sono presentati li abbiamo fortunatamente risolti all'interno del gruppo. Andiamo d’accordo tutti quanti e con i ragazzi abbiamo un rapporto molto bello che va anche al di là della festa; abbiamo anche la fortuna di abitare tutti molto vicino. La festa, come penso in tutti i gruppi, è il momento più atteso dai nostri ragazzi; la nostra festa ha la fortuna di finire con la S. Messa animata da noi, e con una «pizzata»: abbiamo così modo di approfondire la nostra amicizia. Tra ragazzi c’è un’adolescente che, fino a qualche tempo fa, mi dava qualche problema finché... Vittoria è una ragazza molto vivace, e proprio la sua vivacità mi spaventava. Per questo l'avvicinavo poco e la conoscevo poco. L’estate scorsa mi si è presentata l’occasione di passare una settimana con lei, la sua famiglia e la mia famiglia nel paesino dove trascorro ogni anno le vacanze. Devo ammettere che prima del suo arrivo ero molto nervosa: mi chiedevo come si sarebbe comportata con me in quella settimana. Poi Vittoria è arrivata e la sua gioia di vivere mi ha coinvolto come ha coinvolto tutta la mia famiglia. Eravamo inseparabili, andavamo in giro cantando per il paese, insieme a un’altra ragazza di Torino, «scandalizzando» i paesani e divertendo i villeggianti. Tute le mie ansie si sono concluse in una settimana favolosa. Questa esperienza bellissima mi ha fatto capire che bisogna andare oltre l’apparenza: se il ragazzo che ci sta accanto è troppo vivace, musone, o «difficile», bisogna farsi piccoli ed entrare nel suo spirito.

@@ -1,4 +1,5 @@
 ---
+
 title: "Lorenza: prima di essere la nostra figlia handicappata è stata la “nostra figlia”"
 date: "1983-06-29"
 author: "Marie Claude Fabre"
@@ -18,6 +19,7 @@ tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 id_numero: "OEL-2"
 ---
+
 Più volte sono stata invitata a raccontare la mia esperienza: esser madre di una figlia profondamente handicappata.
 Ho accettato di farlo perché mi sembra molto importante far conoscere i nostri figli, in modo che gli altri abbiano un comportamento diverso nei loro confronti e perché spero che venga loro riconosciuto il posto di cui hanno bisogno.
 Questa testimonianza può essere fatta in modi diversi.

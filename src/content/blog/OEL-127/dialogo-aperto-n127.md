@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.127
 date: 2014-09-29
 author: Redazione
@@ -14,11 +15,16 @@ umap_z: 10.790050506591797
 issue_number: OEL-127
 id_numero: "OEL-127"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Vecchie amiche
 
 Carissimi, ho saputo in ritardo che la cara Mariangela se ne è andata. Avevo cominciato a scriverle una lettera scusandomi per il lungo silenzio. Ma sono stata male, piena di acciacchi, sono caduta (87 anni, dichiarata ormai invalida anch’io, oltre alla mia unica figlia convivente, disabile gravissima dalla nascita, che ha compiuto 55 anni a Ferragosto e che sta molto peggio di me…) E allora ho riscritto la lettera a Mariangela. Eccola. Carissima Mariangela, ci rivedremo presto perché anche il mio tempo terreno sta concludendosi. Amica cara dei tempi lontani, forse ricominceremo a parlare dei nostri amati handicappati, realtà tenera e drammatica, te con il tuo sorriso (Ombre e Luci) io sempre arrabbiata contro uno Stato “sordo, cieco e diversamente abile”… Abbiamo corso per tanti anni verso la stessa meta, lungo strade diverse, ma parallele. Cara Mariangela, a presto, con tanto affetto, la vecchia amica.
 **Cecilia**
+
+
 
 ---
 

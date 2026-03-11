@@ -1,4 +1,5 @@
 ---
+
 title: "Handicap e Liturgia - Novità nel dizionario di liturgia per sacerdoti e catechisti"
 date: "2002-06-14"
 author: "Enrico Cattaneo"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
+
+subtitle: "Il nuovissimo dizionario di Liturgia, (San Paolo 2001) riserva una voce al tema «handicap e liturgia», redatta da don Carlo Cibien. Lo ha letto e commentato per noi don Enrico Cattaneo"
 ---
+
 Il nuovissimo dizionario di Liturgia, curato da D. Sartore, A.M. Triacca e C. Cibien (San Paolo 2001) ha la novità di riservare una voce al tema «handicap e liturgia», redatta da don Carlo Cibien (pp. 920-935). Sono pagine che si rivolgono soprattutto ai sacerdoti, ai catechisti e agli operatori pastorali.
 L’articolo inizia con delle considerazioni generali circa la disabilità**, distinguendo tra menomazione, disabilità e handicap, tutti «aspetti diversi di una situazione di non uguaglianza strutturale congenita o acquisita che crea una distanza oggettiva tra un soggetto particolare e il gruppo aH’interno del quale vive» (p. 920). Spesso questa diversità si traduce in inferiorità, marginalizzazione o, all’eccesso opposto, in una forzata integrazione, «accentuando in modo ulteriormente patologizzante le situazioni già di forte dipendenza-protezione» (p. 921). Da qui «i tre principi che devono ispirare ogni approccio ai problemi che riguardano la partecipazione delle persone disabili alla vita sociale: integrazione, normalizzazione e personalizzazione» (p. 922).
 

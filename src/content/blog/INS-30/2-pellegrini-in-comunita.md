@@ -1,4 +1,5 @@
 ---
+
 title: "2. Pellegrini in comunità"
 date: "1981-12-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Dicembre 1979
 
 Sia che andiamo a Lourdes, sia che restiamo a casa, siamo tutti interessati al pellegrinaggio, prima, durante e dopo il suo svolgimento…

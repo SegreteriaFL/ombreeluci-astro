@@ -1,4 +1,5 @@
 ---
+
 title: "Autismo: un altro modo di percepire il mondo"
 date: 2005-03-16
 author: Michel Lemay
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.760286331176758
 umap_y: 8.353099822998047
 umap_z: 6.516402721405029
+
+subtitle: "Michel Lemay, psichiatra infantile, per 25 anni direttore della clinica dell’autismo e dei disturbi dello sviluppo nell’ospedale Sainte-Justine a Montréal in Canada, fa il punto delle conoscenze scientifiche su questa malattia"
 ---
+
 **Quali sono i sintomi dell’autismo?**
 L'osservazione attenta dei bambini e la testimonianza di persone autistiche che hanno l’uso del linguaggio ci mostrano l’intersecarsi di molte variabili.
 - Il bambino si chiude in una sola stimolazione. Per esempio guarda a lungo il lampadario sul soffitto, la lampada che vi è appesa, oppure si dedica a interminabili allineamenti... Questo stimolo percepito o questa informazione integrata si annulla molto lentamente e imprigiona il soggetto in una richiesta ripetitiva della stessa sensazione. - Le modalità di integrazione sensoriale e percettiva che gli permettono di rappresentarsi il mondo sono anche queste molto pericolose: sensibilità sonora esasperata, approcci visivi laterali che privilegiano il piano dell'oggetto. - Molti stimoli e molte informazioni fornite simultaneamente, gli recano disagio e anche vera sofferenza. Il soggetto vive una vera invasione che scatena chiusura e paure. Le emozioni sono mal gestite: spesso sono conservate all’interno e bruscamente, per ragioni apparentemente futili, esplodono.

@@ -1,4 +1,5 @@
 ---
+
 title: "Vita Fede e Luce: “Hola Madrid”!"
 date: 2006-09-27
 author: Laura Nardini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.846525192260742
 umap_y: 8.7124605178833
 umap_z: 13.978989601135254
+
+subtitle: "Quest'estate si è svolto l’incontro internazionale Fede e Luce a Madrid. Ecco un racconto di chi ha partecipato"
 ---
+
 ### Fe v Luz
 
 Fede e Luce in spagnolo... In quante lingue diverse lo abbiamo sentito dire io e Valerio lì a Madrid! Un incontro nazionale ha la sua importanza, ma partecipare ad uno internazionale è davvero un'esperienza unica. Ogni 4 anni Fede e Luce organizza un incontro per i coordinatori e gli assistenti spirituali di ogni paese (74) e il numero aumenta dato che alcuni paesi sono suddivisi in più zone. Un gran numero di persone quindi; 166 tra coordinatori e assistenti. L'invito era aperto a chi tra responsabili regionali, di comunità, amici e ragaz: zi desiderava partecipare, quindi non è stato difficile arrivare a 260 partecipan ti almeno! Senza contare l'equipe organizzativa spa gnola, interpreti, segretari e ospiti... Una vera comu: nità multietnica. Durante questi incontri si fa il pun: to della situazione della vi: ta di Fede e Luce nel mon do. Si affrontano temi più tecnici, come la situazione economica, momenti di formazione e confronto tra i partecipanti. Per i co ordinatori è l'occasione di avere uno scambio di esperienze, conoscere il movimento in tutte le sue sfaccettature culturali.

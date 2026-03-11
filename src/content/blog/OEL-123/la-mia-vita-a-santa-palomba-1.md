@@ -1,4 +1,5 @@
 ---
+
 title: La mia vita a Santa Palomba
 date: 2013-09-13
 author: Stefano Di Franco
@@ -16,7 +17,10 @@ umap_z: 8.997360229492188
 issue_number: OEL-123
 id_numero: "OEL-123"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ciao, mi chiamo Pietro, Bigari Pietro. Sono nato nel 1945 e ora vi racconto come è la mia vita a Santa Palomba, le cose belle e le cose brutte"
 ---
+
 Ciao, mi chiamo Pietro, Bigari Pietro. Sono nato nel 1945, anzi nel quarantacì… mese? settembre, settembre. Il giorno… eh, il quarantacì!! Che importanza ha il giorno, chissà perché tutti mi chiedete il giorno.
 
 Abito a Santa Palomba, da solo. Ho una bella casa, con la loggia dove posso prendere il sole, ma non posso fumare il sigaro, perché poi i miei vicini mi strillano. Ho la lavatrice, fuori, nella loggia ed anche la caldaia, fuori nella loggia. Ho una bella cucina, una zuccheriera nuova, perché quella vecchia, una mia amica me l’ha rotta…, Silvia, mica l’ha fatto apposta, ma chissà a cosa pensava! Era bella quella zuccheriera.

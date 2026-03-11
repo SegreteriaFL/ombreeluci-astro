@@ -1,4 +1,5 @@
 ---
+
 title: A Santiago per mio figlio
 date: 2025-07-30
 author: Lucio Cammarota
@@ -18,7 +19,10 @@ umap_z: 7.770003318786621
 issue_number: OEL-170
 id_numero: "OEL-170"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La preparazione e il cammino di Rosario, 16 anni e un autismo con metodo, verso Santiago con suo padre Lucio"
 ---
+
 Ero stato da Salerno a Roma a piedi e pensavo di aver fatto il massimo che potessi fare. Quando poi uno dei ragazzi che lavora con me mi disse che esisteva il Cammino di Santiago mi resi conto che si trattava di una cosa totalmente diversa: nonostante avessi fatto 276 km per arrivare a Roma, questo non aveva nulla a che vedere con il cammino che dall’ultimo paese dei Pirenei, o dall’estremo sud del Portogallo, arriva fino a Santiago di Compostela.
 
 **Ho cominciato a camminare perché ho un bambino con problemi di autismo** che, pur continuando ad avere alcune difficoltà, continua a superarne tante altre. Volevo ringraziare il Signore per questi miglioramenti, per noi sono benedizioni. E per farlo volevo trovare qualcosa che mi riscattasse, che mi rendesse più (non so come dirlo meglio) in linea con i sacrifici che mio figlio stesso fa con tutte le terapie che segue nella sua vita.

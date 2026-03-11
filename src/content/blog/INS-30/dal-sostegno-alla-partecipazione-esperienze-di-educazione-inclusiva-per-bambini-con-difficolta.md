@@ -1,4 +1,5 @@
 ---
+
 title: "Dal sostegno alla partecipazione: esperienze di educazione inclusiva per bambini con difficoltà"
 date: "1981-03-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 *Struttura scolastica del tutto inadeguata, bambino forse non pronto per la scuola, maestra che "nonostante la buona volontà continua ad avere paura e non riesce a vincerla".*
 *In certi casi varrebbe la pena di preparare il bambino ad inserirsi, migliorando prima le sue capacità. Questa ad esempio è la proposta della Casa Maria Bambina, istituto medico-psico-pedagogico di Roma.*
 

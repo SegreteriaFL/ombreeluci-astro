@@ -1,4 +1,5 @@
 ---
+
 title: "Sotto l'occhio dell’orologio | Recensione"
 date: 1990-06-19
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 5.871888160705566
 issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
+
+subtitle: "La storia di un ragazzo nato spastico a causa di un parto difficile, la sua lotta per il diritto alla parola, ad un posto nella società. Ed. Guanda 1993"
 ---
+
 Pubblicato in Inghilterra nel 1987 racconta — in prima persona — la storia di un ragazzo nato spastico a causa di un parto difficile. Nasce con lesioni cerebrali motorie, ma benedetto da un’intelligenza di molto superiore alla normale. Proprio questa intelligenza lo porta a rompere le barriere sociali e culturali che lo imprigionano nella etichetta «spastico, uguale deficiente mentale». Lui lancia in questo libro una sfida alla società. **Come un nuovo don Chisciotte maldestro intraprende la lotta in difesa di tanti esseri umani come lui, trascurati per secoli da una società troppo occupata al benessere dei suoi membri ricchi, belli e sani; una società incapace di vedere e ascoltare le grida silenziose di angosciata paura e di profonda tristezza di questi suoi figli di un dio minore.**
 
 La determinazione da parte di questo ragazzo di arrivare ad essere una voce per tanti senza voce, lo porta al bisogno di cercare dentro di sé un modo per comunicare le sue intime esperienze attraverso la parola scritta poiché incapace di pronunciare una sola parola. Comincia così la sua guerra per conquistare i diritti dei disabili come lui.

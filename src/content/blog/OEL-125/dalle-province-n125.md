@@ -1,4 +1,5 @@
 ---
+
 title: Dalle province n.125
 date: 2014-03-29
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 14.620648384094238
 issue_number: OEL-125
 id_numero: "OEL-125"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Aggiornamenti dalle comunità di Fede e Luce"
 ---
+
 ### [Un fiume di Pace – Nord](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 
 Le famiglie ed i ragazzi attendono tutto l’anno la settimana di vacanza e noi amici anche. Nell’estate 2014 andremo in montagna a Saint Oyen e ad Andora, al mare. Lo scorso anno abbiamo avuto con noi alcuni ragazzi di 17 anni che ci hanno portato la “ventata di aria fresca” cui tutti anelavamo. Si sono divertiti molto ma hanno anche riflettuto sul nostro modo di vivere la vita, che è un dono e per questo si cerca di assaporarne ciò che di bello dispensa. Parlando con questi giovani ho capito che c’è in loro molta sensibilità e profondità, ricercando ciò che è essenziale rapportandosi ai nostri ragazzi. Sono rimasta anche molto colpita in senso positivo dalla gioia e freschezza che mio fratello Ettore ha portato a casa dopo aver trascorso la settimana con questi giovani: sono riusciti a farlo ridere, scherzare, ballare, giocare, nuotare... non solo con lui questo “miracolo” è accaduto! Fede e Luce è un miracolo costante perché ciascuno di noi in questo grande gruppo di amici può sentirsi se stesso. Là dove sta la nostra debolezza si manifesta la potenza di Dio! **Valeria**

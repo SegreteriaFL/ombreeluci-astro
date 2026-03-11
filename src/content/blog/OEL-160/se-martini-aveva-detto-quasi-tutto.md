@@ -1,4 +1,5 @@
 ---
+
 title: Se Martini aveva detto (quasi) tutto
 date: 2022-01-27
 author: Giulia Galeotti
@@ -17,6 +18,7 @@ issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Ilmondo della disabilità». Così si intitola la parte terza del nuovo volume, il sesto, dell’opera omnia di Carlo Maria Martini, uscito con Bompiani. **È la conferma non solo della profondità e ricchezza del pensiero del cardinale italiano, ma della sua intelligente e amorevole vicinanza alle persone fragili.**
 
 «Ciascuno dipende dagli altri più prossimi, che sono: madre, padre, fratelli, educatori, amici. Ma al di là di questi rapporti, e sullo sfondo di essi, sta la comunità, la società umana, legata da molteplici vincoli», scriveva Martini nel 1980, nella certezza che **per «dare a ciascuno una voce» fosse necessaria la rete della comunità.** Non è la disabilità a inchiodare il singolo, ma l’isolamento e l’abbandono.

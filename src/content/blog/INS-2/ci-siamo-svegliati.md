@@ -1,4 +1,5 @@
 ---
+
 title: Ci siamo svegliati!
 date: 1974-01-30
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.644892692565918
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Il primo articolo pubblicato nel Bollettino di Fede e Luce, Insieme, del 1979 è il racconto che Enzo fa del pellegrinaggio a Lourdes"
 ---
+
 La Pasqua a Lourdes nel 1971 fu per noi il primo contatto con *Foi et Lumière* . Eravamo partiti da Roma non certo scettici, ma almeno incerti. Poi l'incontro! Una gioia, una festa, un cantare, un esprimere felicità gli uni con gli altri, il vedersi, il sorridersi ed il vicendevole grazie.
 
 Si, grazie! Ognuno di noi era riconoscente all'altro del saluto, di quella espressione di gioia che portavano i nostri volti... Quegli stessi volti che solitamente esprimono dolore e lacrime, lì no! Era diverso, eravamo diversi e con quella fede e con quella luce speravamo di restare per sempre. Un miracolo? No, non era un miracolo, era soltanto l'allegria era la felicità dell'incontro fra gente abituata a piangere, che porta in silenzio il proprio dolore e non vuole dare fastidio.

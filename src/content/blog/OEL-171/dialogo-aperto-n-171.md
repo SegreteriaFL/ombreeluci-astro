@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 171
 date: 2025-11-01
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 11.311661720275879
 issue_number: OEL-171
 id_numero: "OEL-171"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il punto di vista di chi legge Ombre e Luci con le sue esperienze e scoperte. In questo numero: Nora fuori dall'ampolla, Daniela incontra FL in Argentina e Giulia ricorda Monica. Infine, il poeta elogia una botte"
 ---
+
 ### Sono contenta!
 
 Pensando a quante storie vengono raccontate su *Ombre Luci* **più le leggo e più sono contenta** di far parte di [*Fede e Luce*](https://www.fedeeluce.it/2025/10/22/giubileo-della-disabilita-nel-duomo-di-milano/) : mi trasporta in un mondo pieno di amici e mi sento coinvolta nelle varie storie. Anche io prima di far parte di *Fede e Luce* **ero avvolta in un ampolla di vetro, circondata dai miei genitori.** Non uscivo senza mia mamma, era la mia protezione. Poi un’amica mi ha fatto conoscere *Fede e Luce* a Gratosoglio. Sono passati trentotto anni e ora ho fatto due mandati da responsabile; **sono cresciuta in tutto** , ho fatto un passo gigante. A settembre ci sarà Pompei, assolutamente partecipo, e finisce il mio mandato insieme a Luisa Ferrini; al momento farò come sempre, aiutare e fare grandi cose, poi a settembre si vedrà, penso di passare la responsabilità a qualcun altro. *Nora Buccheri (Milano)*

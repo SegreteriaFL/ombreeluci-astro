@@ -1,4 +1,5 @@
 ---
+
 title: "Il dono dell'unità"
 date: "2015-03-19"
 author: "Padre Isaac Martinez"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Tutte le comunità di Fede e Luce sono chiamate a essere ecumeniche, cioè, tutte devono desiderare e lavorare per l’unità di tutti i cristiani"
 ---
+
 In questa festa per i quarant’anni di Fede e Luce in Italia celebriamo il dono della vita, il dono dell’amicizia e della fratellanza, il dono della fede e dell’unità. Celebriamo il dono dell’unità intorno ai nostri fratelli con handicap mentale, intorno alle loro famiglie e agli amici; ma stiamo celebrando anche il dono dell’unità tra le nostre diverse Chiese cristiane. In altre parole, stiamo celebrando l‘ecumenismo, il cammino che ci porta alla piena comunione di tutti quelli che seguono e credono in Gesù.
 
 Molte comunità di Fede e Luce vivono già in diversi modi lo spirito ecumenico, sentono l’unità che Gesù vuole (Gv. 17, 20-23). Così trasmettono al mondo il dono prezioso dell’unità, e collaborano alla creazione della comunione perfetta tra tutti i credenti che sarà il riflesso della comunione con il Padre e con Gesù (1 Gv. 1, 3-4) mediante lo Spirito Santo.

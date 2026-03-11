@@ -1,4 +1,5 @@
 ---
+
 title: "I nonni, una tenerezza in più"
 date: "2012-03-16"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "L'editoriale che apre il numero dedicato ai nonni"
 ---
+
 Sono tutte storie positive quelle presentate nel dossier: nipoti, tutti con sindrome Down, quasi sempre di facile accoglienza, di non difficile accompagnamento.
 
 Non è, ahimè, sempre così. Può capitare che qualche nonno o nonna non ne vogliano sapere di quel nipote; che il figlio o la figlia non se la sentano di affidare il proprio “caso difficile” a delle persone che “ci complicherebbero ulteriormente la vita”. Può succedere che il/la nipote sia veramente troppo difficile da accudire per delle persone anziane non più in grado di “tener duro” di fronte a certi capricci e troppo lontane ormai da compiti di difficile interpretazione.

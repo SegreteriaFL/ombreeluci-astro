@@ -1,4 +1,5 @@
 ---
+
 title: Essere forti per lei
 date: 1984-12-31
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-8
 id_numero: "OEL-8"
 numero_rivista: "Ombre e Luci"
 ---
+
 **La felicità della nascita, la prima paura, il colpo della diagnosi, il tormento e il conforto dei rapporti con gli altri, la ricerca sull’handicap, la volontà di riprendere. La madre e il padre raccontano l'esperienza della nascita di un figlio «Down».**
 
 ### Una nascita felice

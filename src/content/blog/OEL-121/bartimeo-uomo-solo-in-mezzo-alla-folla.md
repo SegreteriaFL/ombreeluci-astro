@@ -1,4 +1,5 @@
 ---
+
 title: Bartimeo, uomo solo in mezzo alla folla
 date: 2013-03-10
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 8.819326400756836
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Da alcuni anni il Movimento Apostolico Ciechi, associazione di fedeli laici, vedenti e non vedenti si è organizzato in aree di impegno per meglio poter operare in vari ambiti, adeguando il proprio modo di essere presente nella società e nella Chiesa"
 ---
+
 Da
 alcuni anni il
 [Movimento Apostolico Ciechi](https://www.movimentoapostolicociechi.it/)
@@ -48,6 +52,8 @@ e la loro piena integrazione nelle comunità cristiane. Si dia particolare atten
 , ma vengano valorizzati e considerati animatori delle proprie comunità di provenienza. Solo così la Chiesa sarà veramente Chiesa… se le sue porte saranno aperte a tutti e regnerà l’armonia delle differenze, dove ciascuno porta il proprio contributo, un sostegno unico e insostituibile, prezioso per la comunità tutta.
 *Angela Mecca*
 , 2013 Delegata nazionale Area Ecclesiale del M.A.C.
+
+
 
 ---
 

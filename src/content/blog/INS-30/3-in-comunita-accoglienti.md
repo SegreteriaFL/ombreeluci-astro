@@ -1,4 +1,5 @@
 ---
+
 title: "3. In comunità \"accoglienti\""
 date: "1981-12-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Gennaio 1980
 
 Rispondendo all'appello di Lourdes, scopriamo di avere le mani vuote e talvolta anche il cuore senza maschere o etichette. Va bene essere così come siamo, siamo abbastanza attenti agli altri?

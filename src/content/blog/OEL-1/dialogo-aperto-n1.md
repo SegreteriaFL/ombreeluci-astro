@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.1
 date: 1983-03-01
 author: Redazione
@@ -19,7 +20,10 @@ umap_x: 4.399140357971191
 umap_y: 7.48248291015625
 umap_z: 10.39432144165039
 id_numero: "OEL-1"
+
+subtitle: "Avviamo questa rubrica che vuole raccogliere insieme ai vostri suggerimenti, commenti, critiche, apprezzamenti per la rivista – i vostri problemi o le vostre domande"
 ---
+
 La rubrica **Dialogo Aperto** , è per tutti voi, lettori conosciuti e sconosciuti. Non abbiate timore di [scriverci](mailto:ombreeluci@gmail.com) - insieme ai vostri suggerimenti, commenti, critiche, apprezzamenti per la rivista - i vostri problemi o le vostre domande. Così aiuterete altri che hanno i vostri stessi problemi e aiuterete anche noi a conoscere e capire sempre più profondamente il mondo dell'handicap del quale anche noi facciamo parte da molti anni. E noi faremo del nostro meglio per aiutarvi, e per farvi sentire il nostro vero interesse per quello che vivete con quanto di difficile esso comporta.
 
 #### Editoriale

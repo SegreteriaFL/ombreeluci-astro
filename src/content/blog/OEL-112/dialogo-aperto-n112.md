@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.112
 date: 2010-12-03
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 10.533368110656738
 issue_number: OEL-112
 id_numero: "OEL-112"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Il Battesimo di Giovanni
 
 Nel numero
@@ -26,6 +30,8 @@ Nel numero
 (Comunità Fede e Luce
 [Il Germoglio](https://www.fedeeluce.it/project/il-germoglio/)
 ).
+
+
 
 ---
 

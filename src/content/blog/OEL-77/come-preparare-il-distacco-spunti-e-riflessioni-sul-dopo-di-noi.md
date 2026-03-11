@@ -1,4 +1,5 @@
 ---
+
 title: "Come preparare il distacco: spunti e riflessioni sul \"dopo di noi\""
 date: 2002-03-09
 author: Nicole Schulthes
@@ -17,7 +18,10 @@ tags:
 umap_x: 6.066778659820557
 umap_y: 8.007753372192383
 umap_z: 8.448368072509766
+
+subtitle: "È legge di natura che un figlio, prima o poi, si separi dai genitori. Nessuno può rimanere l’eterno bambino dei propri genitori. Neppure il figlio gravemente disabile. Come affrontare e preparare questa separazione?"
 ---
+
 Èlegge di natura che un figlio - sia il “normale”, sia quello con qualche problema - si separi dai genitori, presto o tardi, in maniera più o meno totale. Nessuno può rimanere l’eterno bambino dei propri genitori. Neppure il figlio gravemente disabile. **Solo in vista della separazione, ciascuno può raggiungere la maturità** , la sua maturità, quella cui ogni persona ha diritto. È quindi molto importante per tutti guardare a questo problema non sotto una luce drammatica, ma come ad un progredire gradualmente del bambino, dell’adolescente, del giovane.
 
 È vero che le grandi separazioni della vita sono proprie dell’età adulta, dalla partenza da casa fino alla più drastica, la morte dei genitori. Tuttavia, **tutto comincia dall’infanzia** e le grandi tappe della separazione avverranno più serenamente se, fin dalla più tenera età, si saranno lasciati spuntare e svilupparsi il gusto e le possibilità di autonomia propri ad ognuno e, ovviamente, nei limiti tanto diversi a seconda dell’handicap.

@@ -1,4 +1,5 @@
 ---
+
 title: "Un'ora di musica con suor Maria"
 date: 1981-06-16
 author: Nicole Schulthes
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Suor Maria anima ogni settimana l'ora di musica. Il gruppo è di circa 12 ragazze, con capacità diverse, ma quasi tutte con un linguaggio abbastanza articolato.
 
 Arriviamo, con Stefano, all'inizio dell'ora e troviamo una suora, non più giovanissima ma con un viso tanto sereno che dimostra una vitalità e un'allegria contagiosa. Le allieve sono in semicerchio; il gruppo è occupato in un esercizio di vocalizzazione, forse non del tutto perfetto, ma grazie ai gesti della professoressa e alle ripetizioni, progredisce verso il meglio.

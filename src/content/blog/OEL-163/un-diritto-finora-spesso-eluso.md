@@ -1,4 +1,5 @@
 ---
+
 title: Un diritto finora (spesso) eluso
 date: 2023-10-12
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 7.498800277709961
 issue_number: OEL-163
 id_numero: "OEL-163"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il progetto Tobia del San Camillo di Roma"
 ---
+
 Alterzo piano del padiglione Puddu dell’ospedale San Camillo di Roma, in fondo a uno dei corridoi dei reparti, due stanze accolgono per una giornata Federica e Max con le loro madri. È passata da poco l’ora di pranzo e stanno aspettando, ognuno nella stanza assegnata al mattino, il tempo necessario al controllo post-operatorio in seguito a un intervento odontoiatrico relativamente semplice come la pulizia dentale. Nel loro caso, però, tanto semplice non è mai stato. Hanno circa 20 anni e gravi problemi comunicativi: un controllo di salute dentale non è scontato per quanti, come loro, rientrano tra i pazienti con disabilità intellettiva definiti “non collaboranti” o “difficili”. Al piano superiore una sala operatoria viene infatti dedicata una volta a settimana a situazioni simili, per gli interventi necessari che il San Camillo, come ospedale di livello Dea 2, è in grado di affrontare.
 
 Quello che dal novembre 2019 aveva l’accezione di “progetto” all’interno dell’Azienda San Camillo, dallo scorso ottobre è il servizio *Tobia* : una realtà trasversale, attualmente composta da sei operatori formati all’incontro con la persona con gravi disabilità intellettive, che attua un servizio sanitario preventivo e universale attraverso un servizio specifico di ascolto, accoglienza e accompagnamento nei percorsi clinico-diagnostici.

@@ -1,4 +1,5 @@
 ---
+
 title: Storia di una promessa mantenuta
 date: 2019-01-27
 author: A.A.
@@ -15,6 +16,7 @@ issue_number: OEL-145
 id_numero: "OEL-145"
 numero_rivista: "Ombre e Luci"
 ---
+
 Mi è capitato spesso, soprattutto in una certa fase della vita, di trovare strade in salita, salite ripide, faticose, non occasionali ma di quelle che ti fanno dubitare della risorsa più preziosa: te stesso. È stato allora che ho avuto la grazia, la fortuna e forse anche il talento di avere persone attorno a me, soprattutto l’amico del cuore, benedetto amico del cuore, ma non solo lui. E allora ha ragione Enrico, un altro amico, quando dice che se Giulietta avesse avuto un’amica la storia avrebbe avuto un altro finale. Insomma, **in qualche passaggio cruciale mi sono salvata solo perché qualcuno ha creduto in me e anche su quella fiducia ho costruito la mia.**
 
 A un certo punto ho maturato il desiderio di poter ricambiare, ho promesso a me stessa che “da grande” se qualcuno avesse avuto la sensazione di non avere riferimenti intorno a se, incontrandomi avrebbe potuto smentire questa convinzione. **Ho promesso che se qualcuno avesse avuto bisogno di una sosta, io mi sarei fermata lì, accanto.** Non per esprimere punti di vista ma solo per esserci.

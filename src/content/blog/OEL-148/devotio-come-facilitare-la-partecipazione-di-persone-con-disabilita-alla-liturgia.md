@@ -1,4 +1,5 @@
 ---
+
 title: "Devotio: come facilitare la partecipazione di persone con disabilità alla liturgia?"
 date: "2019-02-12"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 “Liturgia e accoglienza. Rendere accessibile l’inaccessibile**” è il tema della proposta culturale di **Devotio 2019**, la seconda edizione della manifestazione fieristica sui prodotti e i servizi per il mondo religioso, che si svolgerà dal 17 al 19 febbraio prossimi a BolognaFiere.
 Anche quest’anno la fiera proporrà gli appuntamenti del **Devotio Lab**, rivolti soprattutto a sacerdoti, liturgisti, responsabili diocesani, parrocchie, comunità religiose e professionisti.
 Aiutare quanti sono lontani

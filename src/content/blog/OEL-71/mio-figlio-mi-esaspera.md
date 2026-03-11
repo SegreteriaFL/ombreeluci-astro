@@ -1,4 +1,5 @@
 ---
+
 title: Mio figlio mi esaspera
 date: 2000-09-28
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 7.8239240646362305
 issue_number: OEL-71
 id_numero: "OEL-71"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ci sono momenti in cui il vaso è troppo pieno. La misura è colma. Arrivo a non poter più sopportare il mio figlio maggiore..."
 ---
+
 > «Ci sono momenti in cui il vaso è troppo pieno. La misura è colma. Arrivo a non poter più sopportare il mio figlio maggiore! Le sue imperfezioni, incapacità, errori, goffaggini, tutto mi esaspera. Una sua parola gentile mi irrita; anche le sue manifestazioni di affetto mi infastidiscono. Questa sera, mentre mia moglie lavava i piatti, è venuto ad abbracciarmi con il suo grande sorriso e la sua semplice gioia. Io ho soffocato a fatica l'istinto di scostarlo. - *Un papà*
 
 Nella nostra vita di genitori c’è un momento molto duro da sopportare. **È il momento in cui cediamo ai nostri nervi** , alla collera, alle parole e ai gesti violenti, persino alla tentazione del rifiuto di nostro figlio. Quanto ce ne rimproveriamo in seguito! Certamente c’è una grande differenza tra l’irritazione momentanea e uno stato di esasperazione continua.

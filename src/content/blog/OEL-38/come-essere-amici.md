@@ -1,4 +1,5 @@
 ---
+
 title: Come essere amici
 date: 1992-06-06
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-38
 id_numero: "OEL-38"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Chiara Ferrari Toniolo
 
 Sono «amica» di Claudia da circa sette anni. Cominciai a frequentarla dalla mia prima «casetta» di Fede e Luce: avevo 13 anni. Fu la prima a venirmi incontro, anche un po’ invadente: subito viene da te e ti porta a fare qualcosa. Altri amici più grandi mi consigliarono di tenermi un po’ alla larga da lei perché era violenta. Dopo un anno e mezzo cominciai ad andarla a trovare a casa regolarmente, una volta la settimana. Continuai per quattro anni. In questi ultimi anni vado da lei due volte il mese, ma ci telefoniamo spesso. Quando ci incontriamo, Claudia (che oggi ha 20 anni) e io parliamo. Lei mi parla di quello che fa a scuola, e con la mamma, delle sue amicizie, dei suoi rapporti con le assistenti domiciliari con le quali esce tre volte la settimana. Inoltre, disegnamo, leggiamo — sta imparando a leggere e scrivere. All’inizio Claudia non era molto inserita nel gruppo di Fede e Luce, infatti era difficile stare con lei, faceva un po’ paura. Io non sono molto robusta e Claudia se vuole mi può ben menare. Però col tempo tutti nel gruppo abbiamo imparato a stare con lei. Anche lei si è resa conto quanto è importante avere amicizie e, dopo aver conosciuto me, ha incominciato a frenarsi.

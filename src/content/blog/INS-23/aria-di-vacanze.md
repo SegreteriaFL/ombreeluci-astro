@@ -1,4 +1,5 @@
 ---
+
 title: Aria di vacanze
 date: 1979-09-16
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 10.919306755065918
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Un messaggio di speranza e unione per la comunità di Fede e Luce: riflessioni sulle vacanze estive, il valore dell'amicizia e l'importanza di mantenere i legami nonostante le distanze."
 ---
+
 Ecco: l'anno scolastico sta per finire e c’è nell'aria, aria di vacanza. C'è chi fa progetti con la famiglia ed è con un pò di dispiacere che dice arrivederci alla famiglia di Fede e Luce. C'è chi fa progetti - vacanza Fede e Luce « Piccole gocce nel mare dei bisogni che conosciamo bene e ai quali vorremmo rispondere: Marymount, campeggi in montagna, soggiorni al lago e al mare…
 
 A tutti, a ciascuno, buon riposo, buoni soggiorni al mare o in montagna.

@@ -1,4 +1,5 @@
 ---
+
 title: "Sentivo crescere la mia responsabilità"
 date: "1990-03-20"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: OEL-29
 id_numero: "OEL-29"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Affetto e responsabilità verso una sorella con disabilità: oltre il dovere, una scelta libera nelle parole di Paola..."
 ---
+
 Avevo sei anni quando è nata Anna Maria. La gioia di avere una sorella con cui giocare e crescere in allegria fu presto funestata dalla coscienza che la sua malattia non sarebbe stata qualcosa di transitorio, ma l'avrebbe accompagnata per tutta la vita.
 Le sue difficoltà di crescita e di comunicazione ben presto cominciarono a **condizionare la nostra vita familiare.
 

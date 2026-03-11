@@ -1,4 +1,5 @@
 ---
+
 title: La Sindrome di Down - Un aiuto per gli educatori e i genitori
 date: 1989-03-20
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-25
 id_numero: "OEL-25"
 numero_rivista: "Ombre e Luci"
 ---
+
 L’Autore, con una solida conoscenza scientifica della materia, nei sette capitoli che compongono il libro, riferisce in modo molto realistico varie esperienze umane da lui vissute intensamente, riguardanti il mondo della Sindrome di Drown. Dal drammatico momento dell’impatto con la diagnosi, egli percorre tutto il difficile evolversi del doloroso problema nei suoi vari aspetti (familiare, psicologico, educativo, sessuale, sociale).
 
 Attraverso osservazioni ed esempi presi dal vivo, **l’A. descrive con precisione e, diremo, con amore situazioni di bambini conosciuti personalmente, gli sforzi costanti effettuati da genitori ed educatori per farli pervenire ad una certa evoluzione.**

@@ -1,4 +1,5 @@
 ---
+
 title: Notiziario Fede e Luce n.18
 date: 1978-09-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 Il 31 marzo, 1 e 2 aprile, 600 pellegrini Fede e Luce si sono ritrovati ad Assisi. Ecco gli echi dei nostri amici di...
 
 ### Cuneo
@@ -50,6 +52,7 @@ Le nostre farfalline fatte di tutta fretta, spero ci siano piaciute: volevano es
 In questo pellegrinaggio abbiamo rivisto volentieri tutti i nostri cari amici; è bello poterci vedere ogni tanto anche se per poco tempo. Ti dà la carica per continuare, sai di non essere isolato.
 
 *Mario e Betty e bimbi* , 1978
+
 
 ---
 

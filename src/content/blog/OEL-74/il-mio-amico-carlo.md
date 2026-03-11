@@ -1,4 +1,5 @@
 ---
+
 title: Il mio amico Carlo
 date: 2001-06-17
 author: Betrice Pezzoli
@@ -16,7 +17,10 @@ umap_z: 11.923983573913574
 issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Carlo è per me un amico molto caro; la cosa più bella che mi ha insegnato è la fedeltà, il che a Fede e Luce è davvero il massimo! Grazie Carlo!"
 ---
+
 H
 o conosciuto Carlo nel lontano gennaio del 1982. Già allora io e mio marito Paolo con i nostri figli facevamo parte del
 [Gruppo Fede e Luce «S. Gaetano»](http://www.fedeeluce.it/project/san-gaetano-milano/)

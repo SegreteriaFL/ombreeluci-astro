@@ -1,4 +1,5 @@
 ---
+
 title: Loïc che oggi continua a benedirci
 date: 2022-03-25
 author: Angela Grassi
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 L
 oïc è l’unico membro della famiglia Proffit ancora in vita. Oggi ha 65 anni e vive all’Arca a Trosly. I suoi genitori, Camille e Gérard, erano agricoltori e vivevano nel dipartimento della Somme, nella Francia del Nord. Si erano sposati nel 1955 e sognavano una famiglia numerosa. Sono nati, prima Loïc e poi Thaddée,
 **entrambi incapaci di camminare e di parlare, bisognosi di assistenza costante perché privi di autonomia.**

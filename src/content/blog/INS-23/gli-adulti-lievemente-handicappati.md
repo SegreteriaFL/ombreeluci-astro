@@ -1,4 +1,5 @@
 ---
+
 title: Gli adulti lievemente handicappati
 date: 1979-12-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 8.230539321899414
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Suggerimenti per comunicare meglio con le persone con disabilità intellettive: ascoltare, dare il tempo di esprimersi, usare un linguaggio semplice e comprensibile."
 ---
+
 ### **Li lasciamo parlare?**
 
 Troppo spesso, anche quando "lui" non è più un bambino, parliamo al suo posto. Troppo spesso, parliamo di "lui", anche in sua presenza, alla terza persona. Troppo spesso, il nostro "parla, ma parla insomma!" non fa che accentuare la sua angoscia di non essere capace di tenere il nostro ritmo. Troppo spesso ci esortiamo parlare e parlare di "lui" e di quanto lo riguarda, tagliando, soffocando, impedendo finché la parola che "lui" ha sulle labbra, possa fiorire.

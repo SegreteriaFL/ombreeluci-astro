@@ -1,4 +1,5 @@
 ---
+
 title: Il giocare del bambino autistico
 date: 1994-06-18
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-48
 id_numero: "OEL-48"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Queste note sul «giocare» dei ragazzi autistici sono tratte dall'ottimo libro «A tu per tu con autismo » di Catherine Milcent, madre di un autistico oltreché medico psicoanalista e psichiatra infantile. Il libro è edito da Sansoni.*
 *Giocare con qualcuno non è una cosa spontanea per lui, come non lo è nemmeno giocare in modo simbolico da solo. Il gioco è quasi sempre troppo rapido e spesso, anche quando il bambino autistico desidera parteciparvi, non riesce ad adeguarsi al ritmo degli altri.*
 A

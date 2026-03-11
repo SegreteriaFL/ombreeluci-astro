@@ -1,4 +1,5 @@
 ---
+
 title: "Abbiamo fatto. Alcune delle esperienze di solidarietà che abbiamo raccontato"
 date: "2003-12-03"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
+
+subtitle: "Ecco alcune delle iniziative di genitori e persone di buona volontà di cui abbiamo avuto notizia e che abbiamo presentato nella rivista."
 ---
+
 Ecco alcune delle iniziative di genitori e persone di buona volontà di cui abbiamo avuto notizia e che abbiamo presentato nella rivista.
 [La tenda](https://www.ombreeluci.it/2002/casa-famiglia-la-tenda-per-bambini-da-0-a-6-anni/)
 Via Portuense, 750-00153 Roma Casa famiglia per bambini da Oa 6 anni (O. L. n. 80 4/2002)

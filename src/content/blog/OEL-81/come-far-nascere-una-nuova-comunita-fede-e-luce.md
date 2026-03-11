@@ -1,4 +1,5 @@
 ---
+
 title: "Come far nascere una nuova comunità Fede e Luce"
 date: "2003-03-13"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Padre Klaus individua tre pilastri essenziali e ben radicati per far sbocciare nuovi semi di speranza"
 ---
+
 Quando ero viceparroco nel Vallese (Svizzera) ho avuto la grazia immeritata e la grande gioia di rispondere alla prima ‘chiamata’ per fondare una comunità “Fede e Luce” per Lourdes 1981. Da questa ne sono ‘nate’ quattro altre di lingua francese.
 Trasferito al Passo del Sempione nella parte tedesca del Vallese, ho messo due anni per trovare genitori ed amici per fondare la prima comunità svizzera di lingua tedesca nel 1985.
 A Lourdes 1991 abbiamo benedetto la bandiera della quinta comunità. Trasferito in Valle d’Aosta ho di nuovo vissuto due anni di ‘deserto’ prima di mettere in piedi la comunità ‘Saint Bernard d’Aoste in preparazione di Lourdes 2001.

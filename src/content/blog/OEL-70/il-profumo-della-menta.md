@@ -1,4 +1,5 @@
 ---
+
 title: Il profumo della menta
 date: 2000-06-20
 author: Maria Teresa Mazzarotto
@@ -18,7 +19,10 @@ umap_z: 7.22228479385376
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Giardino-terapia per disturbi psicologici cognitivi e motori all'Istituto Don Guanella Femminile di via della Nocetta a Roma"
 ---
+
 “Si chiama **Horticultural Therapy** , HT per gli addetti ai lavori, giardino-terapia per gli italiani. E stata ideata dallo psichiatra inglese **Benjamin Rush** , e si propone di curare problemi psicologici, disturbi cognitivi e difficoltà motorie con piante e fiori. Americani ed inglesi sono i più grandi esperti in materia. La studiano e la applicano da anni. Da noi invece è una novità: l unico centro che si occupa della divulgazione dei principi teorici e della formazione di operatori professionali è HT Italia e si trova a Castellamonte, vicino a Torino". Così leggo nel supplemento di un noto quotidiano e penso tra me e me che allora i responsabili dell'Istituto [Don Guanella Femminile](http://www.casasantamariaroma.it/) di via della Nocetta sono stati davvero dei precursori per aver ideato e realizzato circa venti anni orsono, il cosiddetto “ **Laboratorio di giardino** ”, che ho visitato con Nicole proprio questa mattina.
 
 Ci accolgono in una stanza-laboratorio piena di luce e di colori i tre educatori Aurelia, Stefano e Luisa, che con Paola. Norma, Vincenzina, Gianna. Sandra, Claudia e altre 11 ospiti dell'istituto costituiscono l’attuale gruppo del laboratorio-giardino. Venti persone in totale.

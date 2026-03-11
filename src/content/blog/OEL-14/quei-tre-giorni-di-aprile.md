@@ -1,4 +1,5 @@
 ---
+
 title: Quei tre giorni di Aprile
 date: 1986-06-30
 author: Sergio Sciascia
@@ -17,6 +18,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 Questa cronaca è un filo che unisce queste pagine. Serve per raccontare sommariamente a chi non c’era quei tre giorni ad Assisi. Serve a cucire insieme i momenti maggiori (con
 [Jean Vanier](http://www.ombreeluci.it/1986/scendere-le-scale/)
 , col

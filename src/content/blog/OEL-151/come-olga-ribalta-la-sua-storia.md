@@ -1,4 +1,5 @@
 ---
+
 title: Come Olga ribalta la sua storia
 date: 2020-09-30
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sognare ci rende sempre felici o invece, specie quando la realtà si fa più dolorosa, c’è il rischio di crearsi un mondo alternativo separato? È questo uno dei temi affrontati dalla sgargiante e originale storia di Olga, edicolante sovrappeso protagonista de *Il chiosco* (Jaca Book 2019, traduzione di Alba Zara) di Anete Melece.
 
 Da anni la ragazza vive dentro la sua edicola, tra giornali e riviste di ogni tipo, biglietti della lotteria, caramelle e bibite, divenendo troppo grossa per uscirne. Grazie al lavoro Olga è in costante contatto con il mondo esterno – il signore che fa jogging, la mamma che chiede sempre lo stesso lecca-lecca per calmare il pianto della figlia, la donna sfortunata in amore che cerca consigli in qualche rivista patinata, l’uomo che si rifugia nei biglietti della lotteria. Ed è sempre pronta ad ascoltare e a dire una parola gentile a chi ha bisogno di aiuto. Ma ogni tanto, di sera, Olga – che dorme nel chiosco, essendoci letteralmente cresciuta dentro a furia di mangiare caramelle – è triste. Chiusa lì, si addormenta sfogliando riviste di viaggio e si consola con le immagini di romantici tramonti. Un giorno però capita un piccolo incidente e la ragazza, stupendo innanzitutto se stessa, si ritrova prontissima a farsi trasportare dalla vita verso un viaggio nuovo. Il libro è il racconto di gabbie che saltano, di trappole che si aprono, di persone ferite pronte a ripartire.

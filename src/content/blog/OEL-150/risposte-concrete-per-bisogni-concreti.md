@@ -1,4 +1,5 @@
 ---
+
 title: Risposte concrete per bisogni concreti
 date: 2020-06-18
 author: Enrica Riera
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 Questa è la storia di don Giacomo Panizza, prete operaio oggi settantatreenne che nel 1976 decide di lasciare la Lombardia per trasferirsi in Calabria, senza tornare mai più indietro. «Mi trovavo in visita – racconta con leggero accento bresciano – alla comunità di Capodarco nelle Marche, stavo realizzando una tesina su catechesi e disabilità e mi imbattei in sacerdoti e scout che speravano nella possibilità di accogliere, appunto nella comunità marchigiana, alcuni calabresi in carrozzina abbandonati a se stessi. A quel punto mi son detto: “Perché spostarli? Facciamo qualcosa in Calabria coi calabresi”; e così, neanche trentenne e quasi per caso, sono arrivato nel profondo sud».
 
 Con un passato da metalmeccanico, dal primo gruppo autogestito (una ventina di persone con disabilità e una decina di operatori) il lavoro di don Panizza è proseguito nel tempo. Fino a far esponenzialmente crescere *Comunità Progetto Sud* , onlus indipendente che dal 1976 ha sede a Lamezia Terme e che, oltre a persone con disabilità, sta accanto a tossicodipendenti, immigrati, rom, malati di Aids, minori e donne in difficoltà. Un insieme di reti, insomma, che cerca quotidianamente di dare risposte concrete di inclusione sociale. Un gruppo di gruppi, nato per offrire soluzioni alternative all’istituzionalizzazione e deportazione di persone calabresi con disabilità negli istituti del nord, e poi allargatosi ad altre problematiche sociali, perseguendo sempre giustizia, eguaglianza e legalità.

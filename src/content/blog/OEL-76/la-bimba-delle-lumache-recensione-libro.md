@@ -1,4 +1,5 @@
 ---
+
 title: La bimba delle lumache - Recensione Libro
 date: 2001-12-25
 author: Natalia Livi
@@ -14,7 +15,10 @@ umap_z: 5.01097297668457
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Lorenza Tranquilli - Edizioni Scientifiche Magi, 2001"
 ---
+
 È la storia di un rapporto a tre: una mamma, la sua bambina “difficile”, Valentina, e una psicoterapeuta, l'autrice. La storia ci racconta di una crescita per tutte, della ricchezza del rispetto reciproco e di momenti commoventi di sincerità.
 
 Tutto è imperniato sulla ricerca della guarigione della bambina, che ha appena quattro anni ed è intellettualmente molto più grande, ma emotivamente molto più piccola dei suoi coetanei. Valentina non sa come gestire tutto questo e la sua mamma, che vorrebbe aiutarla, vive invece chiusa nelle sue difficoltà interiori che non riesce a capire.

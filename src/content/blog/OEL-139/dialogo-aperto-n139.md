@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.139
 date: 2017-09-06
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-139
 id_numero: "OEL-139"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Un punto
 
 Arrivi a un punto della tua vita che pensi di non aver fatto abbastanza per tuo figlio. Lui si chiama Giuseppe, per gli amici Peppe, ed è affetto da autismo. Questa malattia ti porta ad avere una vita scarsamente sociale. Tanti anni di terapie, anni in cui io e la mia famiglia abbiamo combattuto per l'integrazione, senza ottenere quasi nulla. Poi un giorno ti accorgi che la terapia giusta ce l'avevi a due passi da te, frequentando un mondo pieno d'amore, condivisione e fratellanza, il mondo di una grande famiglia, quella di Fede e Luce.
@@ -24,6 +26,7 @@ La terapia giusta è passare quattro giorni al campo estivo di Fede e Luce a Ost
 Lui che finalmente cercava il contatto fisico e lo faceva tenendo la mano di Graziano, asciugando le lacrime di Stella e rincorrendo Angela per rubarle un bacio mentre i suoi occhi si illuminavano di gioia. Grazie Fede e Luce per questa seconda estate al campo, molto intensa per Peppe. Grazie a voi ho potuto constatare notevoli progressi nel mio ragazzone di 19 anni, rendendo felice lui e la famiglia.
 
 **Mamma Linda**
+
 
 ---
 
@@ -47,6 +50,7 @@ Al ritorno a casa racconteremo alle nostre famiglia della nostra giornata piena 
 
 **Nora Buccheri**
 
+
 ---
 
 ### Il campo di Cesenatico
@@ -58,6 +62,7 @@ Durante il viaggio di rientro, il pullman si è fermato in zona Gratosoglio, un 
 Gratosoglio, pur essendo un quartiere difficile, ha una “Comunità di Fede e Luce” che funziona alla grande, molto ricca di ragazzi amici e genitori, e con la nostra guida spirituale don Mauro Santoro; nella zona sono presenti anche dei centri di aggregazione giovanile. Spero che quella persona, guardando le foto della macchinetta che mi ha rubato, veda quanto ci siamo divertiti, come siamo stati bene, e le belle giornate che abbiamo trascorso. I campi sono esperienze di vita, è una forma di crescita, arricchimento, e socializzazione, servono ai ragazzi, alle famiglie, agli amici… stare insieme è importante! L’obiettivo è conoscersi meglio. Torni con una marcia in più, hai piu’ carica. Vi invito e vi suggerisco di farne.
 
 **Flora Atlante**
+
 
 ---
 
@@ -75,6 +80,7 @@ Un esempio su tutti, riprendendo uno degli argomenti utilizzati dai sostenitori 
 
 **Andrea Ciattaglia**
 
+
 ---
 
 ### Il signor Bzeek
@@ -86,6 +92,7 @@ Il signor Bzeek e la moglie, negli ultimi 20 anni hanno adottato 10 bambini mala
 Leggendo questa storia, nonostante Mohamed sia dichiaratamente musulmano, ho pensato ad una frase di Gesù (riconosciuto come profeta nella religione islamica) ripresa da tutti e quattro gli evangelisti: in cui ci ammonisce proclamando «Chi accoglie uno solo di questi bambini nel mio nome, accoglie me; e chi accoglie me, non accoglie me, ma colui che mi ha mandato».(Mc 9,37; Lc 9,48; Mt 18,2-5 e Gv 13,20) Personalmente leggendo la storia di coniugi Bzeek, ho pensato alla vita di Nostro Signore: nato bambino nell’indifferenza sociale, destinato a portare una croce insostenibile, questi due sembrano ora aver preso le sembianze di Simone di Cirene“moderni” Simone di Cirene, ci aiutano a capire che proporrei come “membri onorari” della grande famiglia di Fede e Luce.
 
 **Emanuele Mendola**
+
 
 ---
 

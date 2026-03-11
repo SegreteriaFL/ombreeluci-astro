@@ -1,4 +1,5 @@
 ---
+
 title: Benedetta, raccontata da sua sorella
 date: 1998-03-04
 author: Maria Teresa Mazzarotto
@@ -17,6 +18,7 @@ umap_x: 5.248799800872803
 umap_y: 10.138699531555176
 umap_z: 8.995351791381836
 ---
+
 Abbiamo fatto qualche domanda a Marianna, sorella di Benedetta.
 
 **Marianna, all’interno di un gruppo tua sorella è subito facilmente individuabile come persona con problemi?** «No, al primo momento Benedetta non si differenzia dagli altri: nell’aspetto è assolutamente normale. Il suo comportamento può generare, forse qualche curiosità. Solo in seguito si comprendono le differenze reali».

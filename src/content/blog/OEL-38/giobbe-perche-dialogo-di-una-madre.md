@@ -1,4 +1,5 @@
 ---
+
 title: "Giobbe, perché? - Dialogo di una madre"
 date: "1992-06-06"
 author: "Henri Bissonier"
@@ -15,6 +16,7 @@ issue_number: OEL-38
 id_numero: "OEL-38"
 numero_rivista: "Ombre e Luci"
 ---
+
 L’inizio di questo libro è un lungo grido di ribellione. Lo stesso Giobbe viene giudicato perché si è rassegnato troppo facilmente. L’autrice invece non può accettare la sventura che ha colpito la figlia handicappata mentale e ne sente l’esistenza in modo totalmente negativo. Quanti genitori durante questa lettura si ritroveranno nei sentimenti che non osano nemmeno confessare a se stessi?
 Ma in queste tenebre a poco a poco affiora una luce che rende possibile la scoperta del significato della prova, delle ricchezze nascoste in una persona il cui vero tesoro rimane intatto al di là di ogni insufficienza, e della presenza di un Dio che condivide il nostro dolore e si rivela vittorioso su ogni male. Questa scoperta è agevolata da amici validi e comprensivi e dall’accoglienza di una comunità [Fede e Luce](http://www.fedeeluce.it/).
 

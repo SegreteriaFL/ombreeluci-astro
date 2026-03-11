@@ -1,4 +1,5 @@
 ---
+
 title: "Patologie disabilitanti nell'anziano"
 date: 2006-12-28
 author: Cristina Lo Jacono
@@ -18,7 +19,10 @@ tags:
 umap_x: 7.991734504699707
 umap_y: 12.7473726272583
 umap_z: 9.439628601074219
+
+subtitle: "Demenza, osteoporosi, ictus e Parkinson: le sfide del terzo millennio per la salute degli anziani e l'importanza del supporto medico e familiare"
 ---
+
 ### La demenza: la malattia di Alzheimer
 
 È la più frequente forma di demenza degenerativa nell'anziano e costituisce una delle malattie maggiormente disabilitanti. Contraddistinta clinicamente da un deterioramento progressivo ed ingravescente delle capacità cognitive e dalla comparsa più o meno precoce di disturbi comportamentali, esordisce più frequentemente con un deficit di memoria, ma anche con disturbi del linguaggio, disorientamento temporospaziale, cambiamento di personalità, depressione.
@@ -62,6 +66,8 @@ Influenza negativamente lo stato psico-affettivo e cognitivo, spesso associata a
 ### Depressione
 
 Uno dei fattori di rischio più comuni di suicidio spesso in agguato quando si verifica una malattia o una perdita di una persona amata. I pazienti possono essere trattati con terapia farmacologica e con psicoterapia.
+
+
 
 ---
 

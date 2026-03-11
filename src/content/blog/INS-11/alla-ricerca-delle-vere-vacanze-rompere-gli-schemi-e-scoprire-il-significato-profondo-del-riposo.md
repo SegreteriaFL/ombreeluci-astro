@@ -1,4 +1,5 @@
 ---
+
 title: "Alla ricerca delle vere vacanze: rompere gli schemi e scoprire il significato profondo del riposo"
 date: 1976-09-20
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 10.443398475646973
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Oltre il cliché delle vacanze tradizionali: Un invito a osare, condividere, e abbracciare l'autenticità delle pause che rigenerano"
 ---
+
 Le nostre vacanze... sono poi delle vacanze? Quanti fra noi non hanno più fatto una vera vacanza! Eppure avremmo un bisogno così grande di riposarci un po', sul serio.
 
 Se gli "altri" sapessero... Se gli "altri" capissero... Se gli "altri" mi dessero una mano...

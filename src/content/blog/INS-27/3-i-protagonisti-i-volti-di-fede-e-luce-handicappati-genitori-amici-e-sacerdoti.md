@@ -1,4 +1,5 @@
 ---
+
 title: "3. I protagonisti- I volti di Fede e Luce: handicappati, genitori, amici e sacerdoti"
 date: 1980-03-16
 author: Luis Sankalé
@@ -16,7 +17,10 @@ umap_z: 12.832962036132812
 issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
+
+subtitle: "Una comunità che si costruisce nell'incontro tra fragilità e forza, tra bisogno e dono"
 ---
+
 *Questo articolo fa parte dello **[Speciale Fede e Luce anatomia di una comunità di incontro](https://www.ombreeluci.it/1980/fede-e-luce-anatomia-di-una-comunita-di-incontro/) .***
 
 ## **Chi è l'altro**

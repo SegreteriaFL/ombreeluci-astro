@@ -1,4 +1,5 @@
 ---
+
 title: Per una vita di comunione
 date: 2013-03-10
 author: Don Giuseppe Alcamo
@@ -16,7 +17,10 @@ umap_z: 8.7044677734375
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "L'esperienza della Comunità Fede e Luce “Nuovo Germoglio” nella parrocchia di Santa Maria di Gesù a Mazara del Vallo"
 ---
+
 È
 ormai un convincimento assodato, in linea di principio, che per la Chiesa le persone disabili non possono essere un peso o un ulteriore problema, ma i figli prediletti che le indicano, con la fragilità della loro esistenza, che Essa non ha altra via da percorrere che quella della croce e della povertà, nella prospettiva della risurrezione, non come corpo rianimato, bensì come pienezza di vita.
 **Da circa 15 anni nella parrocchia di Santa Maria di Gesù a Mazara del Vallo si colloca la comunità di Fede e Luce “ [Nuovo Germoglio](http://www.fedeeluce.it/project/nuovo-germoglio/) ”**

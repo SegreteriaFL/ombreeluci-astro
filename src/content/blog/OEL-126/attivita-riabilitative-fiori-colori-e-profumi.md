@@ -1,4 +1,5 @@
 ---
+
 title: "Attività riabilitative: fiori, colori e profumi"
 date: "2014-06-29"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-126
 id_numero: "OEL-126"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Info
 Chi: **Laboratorio L’Albero della Vita
 Dove:** Casa Santa Rosa, Roma

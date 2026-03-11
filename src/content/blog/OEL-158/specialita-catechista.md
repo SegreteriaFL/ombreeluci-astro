@@ -1,4 +1,5 @@
 ---
+
 title: "Specialità? «Catechista!»"
 date: "2022-08-09"
 author: "Liliana Ghiringhelli"
@@ -15,6 +16,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 In un messaggio giunto in occasione della Giornata internazionale delle persone con disabilità, sentii papa Francesco parlare della possibilità di affidare anche alle persone con disabilità dei ministeri, come quello di chierichetto o di catechista, per essere protagonisti attivi nella comunità cristiana.
 
 Questa parola è rimasta custodita nel mio cuore. Io sono catechista alla Samz e seguo un gruppo di cresimandi. Da anni frequento anche la [comunità di Gratosoglio di Fede e Luce](https://www.fedeeluce.it/project/santa-maria-madre-della-chiesa/): **è qui e fin dai suoi inizi che ho potuto conoscere Nora e Paola durante gli incontri mensili.

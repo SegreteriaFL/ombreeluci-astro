@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.55
 date: 1996-09-22
 author: Redazione
@@ -15,11 +16,13 @@ umap_x: 4.937869548797607
 umap_y: 8.088215827941895
 umap_z: 10.045855522155762
 ---
+
 ### Anche mio figlio andrà via
 
 Carissimi, ho ricevuto il giornalino e, come sempre, l'ho letto con piacere. La mia attenzione è stata presa sopratutto dall'articolo «Lascia che vada fuori di casa». Questo mi ha fatto tornare indietro quando mio figlio aveva circa otto anni e per la prima volta andava fuori casa senza di me. lo con mille paure: gli sarebbero stati vicino, l'avrebbero accudito come facevo io? Per lui è stato più semplice: appena lo affidai a due ragazzi che lo portavano a un campo FL lui si fidò subito di loro, e gli faceva grandi sorrisi. Al campo, nel vestirlo, ci sono state forse delle scarpe messe a rovescio, ma in cambio stava avendo quello che desiderava: la gioia, l'allegria, i canti e le scorazzate per i monti. Insomma, tutto quello che potevano dargli dei giovani amici con tanta voglia di vivere e di stare insieme a lui. Questo è stato l'inizio. Ora sono passati circa venti anni e la richiesta è stata sempre più pressante. Con le sue tante difficoltà motorie e intellettive mio figlio desidera qualcosa di diverso da quello che gli proponiamo noi in famiglia. E questo mi fa molto pensare. Gli altri figli in un certo momento della loro vita vanno a vivere fuori casa, e perché non lui? Perché farlo poi nel modo più drammatico quando saremo noi a lasciarlo? Perché non aiutarlo a distaccarsi e ad avere una vita affettiva e pratica più autonoma possibile? Se veramente amo mio figlio devo aiutarlo ad andare, e se questo un giorno avverrà dovrò ricordarmi sempre che lui sta vivendo la sua vita, la sua storia. E questo mi farà immensamente felice anche stando lontana da lui. Vi abbraccio come sempre.
 
 **Rita Ozzimo**
+
 
 ---
 
@@ -31,6 +34,7 @@ Non ricordo chi fosse, ma dieci anni fa qualcuno mi abbonò alla vostra rivista 
 
 *Grazie di cuore per la valutazione di «Ombre e Luci» e sopratutto per il suggerimento di occuparci dell'integrazione nella scuola della persona disabile . Questo argomento è molto importante e da tempo cerchiamo persone competenti e impegnate come lei. Possiamo contare su un suo contributo? Ci auguriamo che il «taglio cristiano», che corrisponde all'identità della rivista, non impedisca la collaborazione aperta a quanti hanno a cuore la qualità della vita della persona disabile*
 
+
 ---
 
 ### La mia bella esperienza
@@ -38,6 +42,7 @@ Non ricordo chi fosse, ma dieci anni fa qualcuno mi abbonò alla vostra rivista 
 Sono un ragazzo di nome Andrea. Ho fatto un’esperienza positiva, che vi racconto. Prometto di essere sincero e sereno e scrivo ciò che ho provato veramente (non solo per me, ma anche per le altre persone...). Ho passato due giorni davvero belli, ho potuto conoscere gente simpatica e piena di spirito. Eravamo tutti uniti nel dialogo. Abbiamo fatto degli incontri belli e significativi! L'incontro era titolato «Perdono - Gesto - Comunità». Don Lino ha detto delle parole che mi hanno colpito dal più profondo del mio cuore, è stato qualcosa di significativo. Nel mio «piccolo» ho fatto qualcosa di veramente grande, non solo per me, ma anche per il prossimo; anche il più piccolo dei nostri fratelli può mostrare gioia per l'oggetto che riceve!! Non dimenticherò questa esperienza fatta con amici e fratelli: Ta- micizia e il perdono sono due cose fondamentali, si deve accettarsi per quello che noi siamo senza inganno e senza imbroglio. Senza l'amicizia non si cammina più insieme, dobbiamo far in modo di rafforzarla e dobbiamo tenerla stretta da parte nostra ma anche da parte di colui che non sa cosa significhi. Tutti abbiamo dei difetti: chi più chi meno, ma io non guardo queste cose (ma per certe persone non è così). Siamo fratelli e dobbiamo aiutarci per un futuro migliore. Anche se delle persone fanno fatica ad esprimere certe cose, loro nel loro piccolo riescono a far sì che anche il più debole diventi grande con le sue fatiche quotidiane... Concludo questo mio pensiero dicendo a tutte quelle persone che non credono, di farsi coraggio (perché c'è sempre una persona che l'ascolterà volentieri) e l'amicizia offre a tutti un sostegno umano per camminare sempre insieme e continuare il cammino che Dio ha voluto insegnarci!
 
 **Andrea Zoroaster**
+
 
 ---
 

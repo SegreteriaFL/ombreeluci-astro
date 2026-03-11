@@ -1,4 +1,5 @@
 ---
+
 title: "Sull’Himalaya... insieme a ragazzi con disabilità"
 date: "1998-06-17"
 author: "Nicole Schulthes"
@@ -15,6 +16,7 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 ---
+
 Aurelia, Maria Laura, Nicola, Toubi, Michele, Oliviero, Natalia: sette adolescenti dagli undici ai sedici anni, per lo più Down, affidati e “gemellati” ad Antonio, Bakour, Michele, Manuele, Marco, Tahar, Stefano. Kevin: giovani in situazione scolastica molto precaria, sono partiti per un mese di trekking nel Nepal.
 
 L'idea è stata di due educatori che hanno saputo mobilitare le forze necessarie e relativo finanziamento: insegnanti, accompagnatori di *Nouvelles frontières*, militari di alta montagna, *sherpa* nel Nepal, ecc.

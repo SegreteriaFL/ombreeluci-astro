@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n.123
 date: 2013-09-13
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 11.677953720092773
 issue_number: OEL-123
 id_numero: "OEL-123"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Chi trova un amico trova un tesoro
 
 Estate, tempo di campi! E ora, tempo di valutazioni e condivisione con chi non c’è stato. Volentieri allora diamo spazio alle impressioni di alcuni partecipanti al campo di Fede e Luce presso la casa per ferie “LE 12 STELLE” a Cesenatico dal 6 al 13 luglio 2013. La vacanza è stata bella e allegra. La gita sulla barca è stata interessante, mi è piaciuto la spiegazione delle piattaforme petrolifere. La comunità per me è stata piena di premure nonostante i piccoli inconvenienti (pallonata in faccia per cui occhiali rotti e rottura dente). Sono contenta che quest’anno siano venuti dei nuovi amici.

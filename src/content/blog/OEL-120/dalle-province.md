@@ -1,4 +1,5 @@
 ---
+
 title: Dalle Province
 date: 2012-12-10
 author: Redazione
@@ -15,11 +16,13 @@ issue_number: OEL-120
 id_numero: "OEL-120"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### [Un fiume di Pace - Nord](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 
 Un viaggio tra i pianeti, in un cielo blu totale. Così i bambini hanno pensato il tema del nostro campo estivo a Cesenatico. Da anni le comunità di Rho, Cesano Boscone, Gratosoglio e Milano centro vivono insieme una settimana di vacanza in luglio. Ciascuno è benvenuto, andiamo dai 3 agli 84 anni. Quest’anno i bimbi hanno avuto una parte tutta speciale. Se la sono ritagliata loro, lanciando idee e animando i momenti serali in comune: hanno ideato un viaggio su pianeti (Tandentopoli, Cocomerandia, etc.) in cui si incontravano personaggi particolari, cui Fede e Luce insegnava condivisione, gioia, speranza, amicizia e pace. I ragazzini hanno costituito anche una vera redazione: in essa hanno realizzato “La Gazzetta di Fede e Luce”. Lorenzo, Alessandro, Mattia, Marta, Chiara, Gabriele, Matteo, Lorenzo grande, Pietro e Cosimo si sono dati molto da fare. Hanno intervistato alcuni amici, scattato foto e prodotto video. I frutti sono notevoli e la “Gazzetta” (che potete leggere nel Dialogo Aperto) promette un grande futuro.
 
 **Angela Grassi**
+
 
 ---
 
@@ -28,6 +31,7 @@ Un viaggio tra i pianeti, in un cielo blu totale. Così i bambini hanno pensato 
 Abbiamo sempre pensato che la ricchezza delle provincia Kimata fosse proprio nella sua diversità. E’ bello sapere che ci sono tante comunità che hanno lingue diverse e storie diverse, ci sono cattolici e ortodossi, comunità più giovani e più vecchie, ciascuna col suo cammino da fare, talvolta un po’ in salita. Questa ricchezza ha fatto si che i legami tra di noi si rinforzassero, certamente le distanze restano, ma la sensazione è che ci avviciniamo un po’ di più. In Grecia prima dell’estate si è svolto un lungo weekend con tutte le comunità seguito nel mese di ottobre da altri due giorni di incontro. Le comunità di Atene hanno vissuto un momento difficile, ora stanno rinascendo, pian piano, senza fretta, facendo più attenzione alla “qualità” dei loro incontri. A Cipro questa estate si è svolto un campo, al quale hanno partecipato anche quattro persone provenienti dalla Grecia e sei persone dall’Italia. Condividere la gioia di Iliana, Vassilis, Andreas, Giovanna, Roberto insieme ai tanti giovani che erano presenti è stato un seme di speranza per tutta la provincia. Le comunità dell’Emilia-Toscana hanno iniziato il cammino che porterà, alla fine dell’anno, ad un rinnovamento di tutti i responsabili, aiutate da Luciano e da Don Lino. Le comunità del Centro hanno cominciato in ritardo leattività dell’anno, ma sono partite alla grande. Se Dio vuole sarà un anno pieno di belle sorprese.
 
 **Stefano Di Franco**
+
 
 ---
 

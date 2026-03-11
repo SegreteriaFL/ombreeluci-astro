@@ -1,4 +1,5 @@
 ---
+
 title: Una dedica che andrebbe cambiata
 date: 2019-11-18
 author: Gianni Marmorini
@@ -15,6 +16,7 @@ issue_number: OEL-147
 id_numero: "OEL-147"
 numero_rivista: "Ombre e Luci"
 ---
+
 Leggendo e rileggendo tutti i capitoli della Genesi che riguardano Abramo e Isacco sono rimasto colpito dalla fragilità e dalla debolezza di Isacco. Allo stesso modo le reazioni prima di Abramo e poi di Sara alla nascita di Isacco mi hanno lasciato pieno di domande. Perché Abramo non esprime sentimenti e non dice neanche una parola quando gli nasce questo figlio così lungamente atteso? E perché Sara pronuncia parole così difficili: «Dio ha riso di me e chiunque lo saprà riderà di me?». La traduzione italiana ufficiale interpreta questa risata di Dio traducendo «motivo di lieto riso mi ha dato Dio e chiunque lo saprà riderà lietamente di me», ma di tutta questa letizia nel testo ebraico non c’è traccia.
 
 E così provando a dare risposte a questi e a molti altri interrogativi che il testo proponeva ho cominciato a pensare che forse Isacco era un bambino speciale, uno di quei bambini che sanno offrire al mondo solo tenerezza, bontà, amicizia e amore. Sono uomini e donne che non hanno la capacità di sconfiggere il nemico e vincere le guerre, non possono neanche raggiungere la finale di un campionato mondiale di calcio né sanno come si può giungere alla scissione dell’atomo dell’idrogeno. Ma sanno fare bene altro, molto bene.

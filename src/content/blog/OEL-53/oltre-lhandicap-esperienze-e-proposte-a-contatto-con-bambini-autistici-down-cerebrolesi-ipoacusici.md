@@ -1,4 +1,5 @@
 ---
+
 title: "Oltre l'handicap - Esperienze e proposte a contatto con bambini autistici , down, cerebrolesi, ipoacusici"
 date: 1996-03-03
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 7.618579864501953
 umap_y: 10.314973831176758
 umap_z: 5.941127300262451
 ---
+
 È
 la testimonianza di un metodo e di un atteggiamento umano che hanno come scopo l’aiuto al bambino disabile nel recupero della sua sanità psicofisica. Si rivolge ai genitori, a chi opera nel campo della psicomotricità, agli studenti delle scuole per educatori e a tutti coloro che si occupano dei bambini con disturbi psicologici. Carlo D'Angelo, che si è formato all'«
 [Institut Superieur de Reeducation Psychomotrice](https://www.isrp.fr/)

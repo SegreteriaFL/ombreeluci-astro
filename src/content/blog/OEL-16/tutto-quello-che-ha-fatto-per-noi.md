@@ -1,4 +1,5 @@
 ---
+
 title: Tutto quello che ha fatto per noi
 date: 1986-12-29
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-16
 id_numero: "OEL-16"
 numero_rivista: "Ombre e Luci"
 ---
+
 Avere una mamma meravigliosa è una ricchezza immensa. Durante i mesi della mia gravidanza speravamo entrambe che nascesse una bambina; dopo tanti nipoti maschi ci voleva proprio! Mia madre era anziana, aveva una salute non buona, ma era felice di vedere la sua ultima figlia che stava per diventare mamma.
 **È nata Manuela, una gioia immensa durata purtroppo poche ore**
 . Presto è iniziato il calvario; trasferimento dalla clinica in ospedale, prime sconcertanti diagnosi: cerebropatia, cecità... poi viaggi all’estero dove hanno sempre confermato quello che aveva; interventi agli occhi, insomma mesi veramente brutti.

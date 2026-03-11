@@ -1,4 +1,5 @@
 ---
+
 title: "In cammino verso l'autonomia personale"
 date: 2024-03-27
 author: Antonietta Pantone
@@ -14,7 +15,10 @@ umap_z: 8.148378372192383
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Antonietta racconta di una esperienza significativa per il suo percorso di autonomia"
 ---
+
 Ma perché mi devo sentire dire dalla società di oggi che una persona con disabilità non si può fare una vita?! Posso capire che in parte avremmo sempre bisogno di qualcuno che ci aiuti ma da lì a dire che noi non possiamo fare nulla ce ne vuole.
 
 Ora vi racconto una emozione provata il 31 gennaio 2024: **sono andata con una volontaria a fare la spesa per la prima volta senza mia madre, è stato bellissimo!** Ho provato una sensazione mai provata in 34 anni della mia vita. È bello e importante fare tutto quello che fanno i normodotati.

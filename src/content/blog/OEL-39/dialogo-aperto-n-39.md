@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 39
 date: 1992-09-07
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-39
 id_numero: "OEL-39"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Un progetto di comunità
 
 Ciao a tutti voi, amici di Ombre e Luci. Ho notato che la rivista è sempre più ricca e stimolante e questo mi fa molto piacere; perché non aumentate i numeri, cioè la rendete bimestrale o mensile? Credo, infatti, che arrivi in tante famiglie come una presenza desiderata. Fino allo scorso anno ho creduto di poter formare una comunità di accoglienza per gravissimi, illudendomi su tante cose e su persone. Non mi è stato facile trovare qualcuno che condividesse la mia idea, finché l’anno scorso ho conosciuto una coppia che sembrava abbracciasse tale progetto. In seguito ad un mio studio, fatto per una tesi di diploma di educatore, nella quale ho fatto un’analisi socio-territoriale, ho steso un progetto dettagliato di comunità educativa in dialogo, ripreso poi e ridimensionato con la coppia disposta a collaborare. Ma tutto è finito, tutto è caduto nel vuoto. Sono pochi coloro che sono disposti a dare il cento per cento. E così sono rimasta sola, con un progetto utopico nel cassetto. E credo che non potrò mai realizzarlo. Lo so che voi avete molta più esperienza di me nel campo di comunità, so che avete con voi J. Vanier e quindi non avete bisogno dei miei suggerimenti, ma ho pensato che il mio progetto può uscire dal cassetto ed esere utile a qualcuno. Voi siete in contatto con molte persone; forse qualcuno vorrà fondare una comunità; vi spedisco una copia della bozza, vedete voi l’utilità. Nelle pagine non si parla dello spirituale che pur ne è l’anima e il sostegno per creare vero dialogo e dare amore. Grazie della vostra presenza. -

@@ -1,4 +1,5 @@
 ---
+
 title: "La tempesta di Sasà - Recensione"
 date: "2016-09-16"
 author: "Rita Massi"
@@ -14,7 +15,10 @@ categoria_menu: "Cultura"
 issue_number: OEL-135
 id_numero: "OEL-135"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Salvatore Striano, Ed. Chiare Lettere, 2016, 222 pagine"
 ---
+
 Ombre scure forti di una vita di devianza, luci che rischiarano il cammino di una vita difficile e danno speranza per una rinascita. Il libro di Salvatore Striano ci invita a non arrendersi mai nella vita, non credere mai di doverla vivere su dei binari già segnati. Tutto è possibile, anche il destino di un giovane, malavitoso fin dall’infanzia, “testa matta”, camorrista, può riscattarsi. Può cambiare radicalmente.
 
 Durante la lunga detenzione Sasà, come viene chiamato l’autore, protagonista del racconto, attraverso l’amore per la letteratura, scopre e si ritrova in Shakespeare, sente che parla della vita, dell’odio, della vendetta, dell’amore, del perdono… Il teatro sarà il suo riscatto, la sua rinascita, la sua prima forma di libertà prima di uscire dal carcere. “Le cose più umili e vili, prive d’armonia, amor trasmuta in forme dignitose e belle” (Sogno di una notte di mezza estate).

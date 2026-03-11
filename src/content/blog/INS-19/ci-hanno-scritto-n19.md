@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto n.19
 date: 1978-12-25
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 ### Cari amici
 
 In questi 4 anni trascorsi insieme, ognuno di noi ha contribuito, nel limite delle sue possibilità, ad una più valida organizzazione che ha permesso so di conseguire i risultati prefissi dal movimento di Fede e Luce e cioè: "l'amicizia, l'incremento e la divulgazione" con il contributo di vecchi e nuovi amici(cosa questa che si è potuta constatare anche nel pellegrinaggio fatto ad Assisi).

@@ -1,4 +1,5 @@
 ---
+
 title: "La casa di Dario, comunità alloggio"
 date: "2008-09-03"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Comunità"
 issue_number: OEL-103
 id_numero: "OEL-103"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "A Ponte Lambro nasce la comunità alloggio dell’Associazione Arcobaleno Onlus"
 ---
+
 Finalmente dopo circa 5 anni dall’inizio dei lavori di ristrutturazione dell’immobile,ricevuto in comodato d’uso dal Comune del nostro Paese, e dopo tanti sacrifici di natura economica ma anche d'impegno costante da parte di alcuni di noi a ricercare modalità progettuali per ottenere il riconoscimento di Enti pubblici quali La Regione Lombardia, la Provincia di Como, il Consorzio dei Comuni del nostro distretto, la Casa di Dario, (dedicata al [nostro caro ed indimenticabile Don Dario Madaschi](https://www.ombreeluci.it/1985/vita-fede-e-luce-n-10-ricordo-di-don-dario/)assistente spirituale di Fede e Luce Italia nei primi anni ‘80) apre tra poco i suoi battenti alla residenzialità di persone rimaste senza il sostegno della loro famiglia d’origine.
 
 Quante difficoltà abbiamo dovuto affrontare, quanti ostacoli burocratici abbiamo superato! Inizialmente ci sembrava impossibile percorrere una strada così difficile, così impervia, così lunga, almeno così appariva e non vi dico quante volte abbiamo pensato di arrenderci, ma poi mani invisibili ci riprendevano dalla desolazione e ci riportavano sul giusto sentiero.

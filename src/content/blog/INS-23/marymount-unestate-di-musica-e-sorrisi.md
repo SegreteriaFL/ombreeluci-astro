@@ -1,4 +1,5 @@
 ---
+
 title: "Marymount, un'estate di musica e sorrisi"
 date: 1979-12-16
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 11.191688537597656
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Cronaca di una quotidianità speciale alla scuola americana: tra tromba e chitarra, piscina e laboratori, volontari e ragazzi costruiscono insieme momenti di autentica felicità"
 ---
+
 La scuola americana "Marymount" ci ha ospitati per la quarta volta. È stato un ritrovarsi gioioso, quel lunedì mattina della fine di giugno. Il pulmino della scuola "Kendale" ha fatto un servizio puntuale ed economico (abbiamo pagato solo la benzina) fra la FAO e la scuola, e viceversa.
 
 Il giovane e simpatico autista Maurizio non solo ci ha dimostrato le sue doti di gentilezza, buon umore e pazienza, ma ha anche deliziato tutti con la sua abilità nel suonare la tromba. Rimanevamo tutti a bocca aperta, e i bambini non volevano mai che smettesse. Roberta, poi, era affascinata, non si sa bene se più dalla tromba o del trombettista...

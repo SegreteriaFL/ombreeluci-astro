@@ -1,4 +1,5 @@
 ---
+
 title: "Come fare l'educazione religiosa"
 date: 1988-09-27
 author: Redazione
@@ -20,6 +21,7 @@ issue_number: OEL-23
 id_numero: "OEL-23"
 numero_rivista: "Ombre e Luci"
 ---
+
 **Chiarire le motivazioni**
 : quello che si vuole è aiutare un bambino a scoprire, in Gesù, Dio Padre, Dio d’amore che l’ama e aspetta la sua risposta d’amore e che, per questo, manda il suo Santo Spirito che anima la comunità cristiana, la Chiesa.
 **Avere una visione semplice e chiara**

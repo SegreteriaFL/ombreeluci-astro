@@ -1,4 +1,5 @@
 ---
+
 title: Storie che ci vengono affidate
 date: 2025-05-14
 author: Paul Gilbert
@@ -18,7 +19,10 @@ umap_z: 12.880624771118164
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il racconto personale di un sacerdote dei pellegrinaggi vissuti con Fede e Luce tra Lourdes e Loreto, dove il cammino diventa esperienza di amicizia, preghiera e trasformazione interiore."
 ---
+
 Ho partecipato poco ai pellegrinaggi delle comunità *Fede e Luce* d’Italia, solo due volte. La prima volta, forse nel 1978, un pellegrinaggio è stato organizzato a Loreto per le comunità di *Fede e Luce* di Roma: non avremmo potuto essere più numerosi, perché gli spazi messi a nostra disposizione non lo permettevano. Ci ha accolto con benevolenza energica il vescovo di Loreto, Loris Francesco Capovilla, che era stato segretario personale di Giovanni XXIII e che morì cardinale e centenario nel 2016. La seconda volta è stato nel 1991 per un pellegrinaggio famoso, vent’anni dopo il primo pellegrinaggio internazionale a Lourdes di *Fede e Luce* , che ancora non aveva quel nome ma l’idea di creare la comunità di *Fede e Luce* prese consistenza. Nel 1991, siamo andati dunque in treno a Lourdes con il pellegrinaggio nazionale italiano presieduto dal cardinale Carlo Maria Martini. Molte comunità ci hanno raggiunto lì, provenendo da tutta l’Italia. I romani sono partiti dalla stazione Ostiense.
 
 > Un pellegrinaggio è sempre un avventura umana profonda: si sa da dove si parte, ma non si sa bene cosa si troverà né come si sarà tornati a casa.

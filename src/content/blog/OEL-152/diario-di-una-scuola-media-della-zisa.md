@@ -1,4 +1,5 @@
 ---
+
 title: Diario di una scuola media della Zisa
 date: 2020-09-03
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il diario di un maestro contemporaneo, ma soprattutto dei suoi allievi: è questo *La nostra strada* (2019), girato da Pierfrancesco Li Donni a Palermo in una scuola media del quartiere Zisa.
 
 La scuola media – che in realtà oggi si chiama scuola secondaria di primo grado – si conclude al terzo anno con l'esame, che un tempo era anche considerato il limite dell'istruzione obbligatoria, il momento oltre il quale chi non aveva valide alternative poteva iniziare a lavorare. Oggi che l'obbligo scolastico termina più avanti, quell'ultimo anno di scuola non dovrebbe essere l'ultimo in assoluto e i ragazzi dovrebbero poter ragionare su quale strada intraprendere una volta superato l'esame. Per molti di loro, però, la strada non è metaforica, è il luogo dove trascorrono la maggior parte del tempo della spensieratezza. Ma è anche la via di fuga verso una presunta libertà dalle costrizioni educative.

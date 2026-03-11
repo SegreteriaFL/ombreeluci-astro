@@ -1,4 +1,5 @@
 ---
+
 title: Da meditare senza fretta
 date: 2007-09-09
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.657581329345703
 umap_y: 8.313610076904297
 umap_z: 8.669707298278809
+
+subtitle: "Per questo numero abbiamo raccolto diversi articoli, tutti molto interessanti e densi di significato"
 ---
+
 Una mamma, Rita, [ci racconta in modo sincero e pieno di sottointesi dolorosi](https://www.ombreeluci.it/2007/un-terremoto-a-ciel-sereno/) , il distacco del figlio disabile dalla famiglia per andare a vivere in una comunità di accoglienza. Passo importante tanto desiderato quanto temuto per lei, per il marito e per il figlio. Passo che alcuni genitori hanno già vissuto e che altri si devono preparare a compiere.
 
 > Ci stava arrivando un aiuto, da sempre sperato, come soluzione a quando non ci saremo stati più". "...questa notizia mi trovava impreparata. Stava avvenendo un terremoto che sconvolgeva tutte le mie certezze

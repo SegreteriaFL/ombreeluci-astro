@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 153
 date: 2021-01-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-153
 id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Domenica è non star soli
 
 LaParola di Dio «è l’antidoto alla paura di restare soli di fronte alla vita... ci ricorda che siamo nel suo cuore, preziosi ai suoi occhi, custoditi nelle palme delle sue mani». Grazie mille #fedeeluce #viciniadistanza! Ho avuto l’occasione di partecipare alla messa in San Pietro nella Domenica della Parola di Dio. Nonostante una sveglia decisamente anticipata rispetto alle abitudini e una pioggia torrenziale, insieme ad Angela Gattulli siamo andate in San Pietro preparate a pregare per tutte le nostre comunità.

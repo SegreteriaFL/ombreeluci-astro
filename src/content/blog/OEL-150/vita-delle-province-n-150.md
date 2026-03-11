@@ -1,4 +1,5 @@
 ---
+
 title: Vita delle province - n. 150
 date: 2020-03-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Visita, prega, impara
 
 Un'

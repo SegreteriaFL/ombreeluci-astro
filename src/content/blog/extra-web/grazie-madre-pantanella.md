@@ -1,4 +1,5 @@
 ---
+
 title: Grazie, Madre Pantanella
 date: 2003-12-22
 author: Redazione
@@ -11,6 +12,8 @@ has_comments: false
 umap_x: 7.01201057434082
 umap_y: 9.01839542388916
 umap_z: 11.856111526489258
+
+subtitle: "Il 18 ottobre 2002 Madre Annarella Pantanella, religiosa di Nazareth, è entrata nella Luce."
 ---
 
 Vogliamo dirle la nostra gratitudine per quanto ha fatto per tanti genitori, amici e ragazzi disabili di Fede e Luce di Roma, che hanno bussato alla porta dell’Istituto Nazareth nel corso di quasi trent’anni.

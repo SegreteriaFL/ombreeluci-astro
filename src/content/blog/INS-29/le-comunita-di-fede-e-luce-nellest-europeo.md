@@ -1,4 +1,5 @@
 ---
+
 title: "Le comunità di Fede e Luce nell'est europeo"
 date: "2003-03-13"
 author: "Redazione"
@@ -15,6 +16,7 @@ id_numero: "INS-29"
 anno_rivista: 1981
 numero_rivista: "Insieme"
 ---
+
 Quando sono capitata a [Fede e Luce](http://www.fedeeluce.it/) avevo 17 anni e non avevo mai incontrato in vita mia persone con handicap. Non ci avevo nemmeno mai pensato. Nel nostro Paese durante il regime comunista le sofferenze venivano nascoste come se non esistessero: cimiteri nascosti, orfanatrofi ed asili circondati da muri: muri di pietra e di silenzio.
 
 Uno dei miei primi giorni all’Università, pieni di nuove amicizie e di lezioni da scoprire, un amico mi ha detto: “Prendi il tuo zaino: Andiamo, ti presento a persone molto importanti, devi comportarti bene e piacere a tutti”

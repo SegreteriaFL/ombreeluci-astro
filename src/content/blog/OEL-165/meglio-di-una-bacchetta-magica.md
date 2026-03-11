@@ -1,4 +1,5 @@
 ---
+
 title: Meglio di una bacchetta magica
 date: 2024-06-19
 author: Laura Coccia
@@ -14,7 +15,10 @@ umap_z: 7.878274917602539
 issue_number: OEL-165
 id_numero: "OEL-165"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Scottature da cui ho imparato molto"
 ---
+
 Uscire di casa è **un atto che costa molta fatica a una persona con disabilità** perché bisogna pensare a molte cose: le barriere architettoniche e sensoriali, la presenza di parcheggi e servizi, chi ci può accompagnare ma soprattutto essere pronti ad affrontare eventuali pregiudizi.
 
 Andare al ristorante può essere un’esperienza difficile: innanzitutto bisogna decidere di **affrontare lo sguardo curioso delle persone** , poi bisogna scegliere il posto giusto con estrema cura. A volte scegliere il posto sbagliato può significare sbattere contro stereotipi, pregiudizi e tanta cattiveria e ritrovarsi a mangiare negli angoli più reconditi, sempre che si venga accettati nel ristorante.

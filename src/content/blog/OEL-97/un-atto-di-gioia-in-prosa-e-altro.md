@@ -1,4 +1,5 @@
 ---
+
 title: Un “atto” di gioia... in prosa e altro
 date: 2007-03-02
 author: Mara Martelli
@@ -16,7 +17,10 @@ tags:
 umap_x: 8.839357376098633
 umap_y: 7.776960372924805
 umap_z: 8.748478889465332
+
+subtitle: "Un'esperienza teatrale in una parrocchia romana"
 ---
+
 H
 o appena salutato Lucia ed ho avuto conferma di ciò che significa essere tenaci. Più di un anno prima — eravamo sotto Natale, mi sembra — incontrandoci sul piazzale della chiesa, Lucia, la responsabile del Centro Disabili della nostra parrocchia, nonché amica e vicina di casa, mi aveva proposto — in tono esclamativo, non interrogativo — che una volta andata in pensione avrei potuto continuare quello che avevo fatto con i miei alunni a scuola per tanti anni, aiutando i suoi ragazzi a fare teatro “che a loro piace tanto!”. Ecco che sedici mesi dopo se ne era ricordata! Io avevo da poco lasciato la scuola e, a parte la riscoperta del mio giardinetto, qualche giro per Roma e la pulitura degli argenti trascurati per anni, non avevo grandi impegni. Così lei, la “tenace” (ma non rompiballe, perché è una persona dolcissima e disarmante) era tornata all’attacco. Ed è cominciata la mia avventura con i ragazzi del Gruppo Amici nella parrocchia di N.S. di Coromoto; è cominciata precisamente con una lettera a tutti i volontari del gruppo per chiedere (“per iscritto”, come aveva suggerito Lucia) collaborazione e disponibilità nei diversi settori operativi. In quell'occasione più di una decina di persone hanno firmato la loro condanna! Dopo i primi momenti ondeggiavo tra la serenità dettata da una esperienza di teatro quasi trentennale con gli alunni delle superiori e delle medie (“che — mi dicevo — caspita, saranno pure serviti a qualcosa!”), e il timor panico del rapportarmi con i nuovi interlocutori, non alunni, non ragazzi, non “abili”. Ma si era all’inizio di maggio e l’ipotetica messa in scena per il carnevale successivo era abbastanza lontana da mantenermi quieta e quasi rasserenata fino a che non ho cominciato ad elencare le incognite fondamentali dell’operazione:
 - X = gli interpreti; < - Y = i collaboratori; < - Z = il soggetto da rappresentare.

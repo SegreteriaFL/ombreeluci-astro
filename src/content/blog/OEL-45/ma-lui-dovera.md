@@ -1,4 +1,5 @@
 ---
+
 title: "Ma Lui dov'era?"
 date: 1994-03-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-45
 id_numero: "OEL-45"
 numero_rivista: "Ombre e Luci"
 ---
+
 N
 on mi è facile parlare della mia reazione all’esplosione dell'handicap di Michela. Quel periodo è ancora per me molto buio; le sensazioni troppo forti, confuse e sicuramente anche irrazionali agli occhi di quanti incontravo allora. Ero un animale ferito: rigettavo il dolore odiando i sani. Mi era intollerante sentire qualche «mammina» preoccupata della modesta rinite del suo piccolo, quando mia figlia entrava ed usciva dagli ospedali; mi veniva in mente quanto disse il medico della clinica universitaria De Marchi in quel drammatico 12 agosto 1967 alla fine di quella disgraziata giornata. Seppure il tono era molto rispettoso di noi il contenuto era brutale, Michela ci avrebbe fatto tribolare per tutta la vita! La rabbia di non essere stati ascoltati da specialisti più volte interpellati sui nostri dubbi. Cosa aveva giovato preoccuparsi ancor prima di sposarsi? Che senso aveva avuto il non prendere neanche un’aspirina durante la gravidanza? Eravamo piombati nel tunnel dell'handicap e ci abbracciavamo piangendo. I conoscenti ci dicevano «poverini»... lo zio prete ti confida che sei stato molto provato. Qualche amico rimane addirittura infastidito della tua vicenda, quasi temendo di venire contagiato. Dio in tutto questo dove stava?
 > Lui mi chiama alla pienezza della vita vera... allora Gli offro la mia incompiutezza, sapendo che domani mi sarà dato di accedere al senso del mio soffrire e alla gioia di poter correre negli infiniti spazi del paradiso

@@ -1,4 +1,5 @@
 ---
+
 title: "Amore e disabilità in casa famiglia"
 date: "2003-06-23"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
+
+subtitle: "Baudoin Gautier, direttore di un Centro diurno che ha fondato, con la moglie Jannick, dal 1987 alcune Case-famiglia di ispirazione cristiana che accolgono adulti portatori di handicap mentale, spiega quale risposta dare ai bisogni affettivi e sessuali delle persone accolte."
 ---
+
 Con i responsabili della casa riflettiamo continuamente sulle relazioni affettive che le persone disabili stabiliscono tra loro e se è più giusto lasciare che si sviluppino o impedirle. Ci chiediamo: **con quale diritto ne parliamo e interveniamo?** Perché ci intromettiamo in questo campo così importante, della sessualità? Noi abbiamo un potere su queste persone, e c’è sempre il rischio di abusarne. Per questo i nostri criteri nello scegliere come comportarci non dovranno mai essere: "faccio così perché per me è più facile, e mi evito qualsiasi rischio".
 
 ### Scelta di partenza

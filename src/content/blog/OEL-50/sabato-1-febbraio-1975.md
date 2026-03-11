@@ -1,4 +1,5 @@
 ---
+
 title: Sabato 1° febbraio 1975
 date: 1975-02-07
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.17219066619873
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Si è svolto l'incontro di preparazione al Pellegrinaggio previsto per l'ottobre 1975. Sono intervenute, oltre le 3 comunità di Roma, rappresentanti di FL da tutto il mondo"
 ---
+
 Irappresentanti di [Fede e Luce](https://www.fedeeluce.it/) di Inghilterra, Francia, Belgio, Danimarca, Svizzera, Spagna, U.S.A., Italia (Milano, Padova, Cuneo, Vercelli, Panna, Reggio Emilia, Roma), si sono riuniti a Roma per preparare il Pellegrinaggio del 26-29 Ottobre 1975.
 
 Nel prossimo numero di "INSIEME" daremo notizie dettagliate circa il programma e le modalità di iscrizione.

@@ -1,4 +1,5 @@
 ---
+
 title: Ciao Jean!
 date: 2019-05-07
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Cari amici, oggi, 7 maggio, siamo profondamente rattristati nel condividere con voi che Jean Vanier, fondatore dell'Arca e co-fondatore di Fede e Luce, è mancato questa notte alle 2:10 a Parigi, circondato dalle persone a lui più care.
 
 J

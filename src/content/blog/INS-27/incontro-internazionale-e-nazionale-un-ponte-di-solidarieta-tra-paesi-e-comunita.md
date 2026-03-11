@@ -1,4 +1,5 @@
 ---
+
 title: "Incontro Internazionale e Nazionale: un ponte di solidarietà tra paesi e comunità"
 date: "1980-12-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 ### Incontro paesi latini 30 giugno - 4 luglio 1980
 
 Eravamo 70, venuti dai paesi della zona latina di cui Mariangela Bertolini è coordinatrice (Belgio, Lussemburgo, Spagna, Italia, Svizzera, Polonia, Francia - il Portogallo non potè essere rappresentato) e dai paesi invitati: Inghilterra, Canada, Brasile, Egitto, Libano, Danimarca, grazie alla presenza di P. Hvild, assistente internazionale di Fede e Luce.

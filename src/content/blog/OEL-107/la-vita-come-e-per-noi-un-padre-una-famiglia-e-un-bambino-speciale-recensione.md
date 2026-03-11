@@ -1,4 +1,5 @@
 ---
+
 title: "La vita come è per noi - Un padre, una famiglia e un bambino speciale - Recensione"
 date: "2009-09-10"
 author: "Cristina Tersigni"
@@ -14,7 +15,10 @@ categoria_menu: "Famiglie"
 issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Michael Bérubé - Ed. Erickson, 2008"
 ---
+
 Come nessun altro bambino avrebbe potuto fare, l’arrivo di Jamie con la sua sindrome di Down, porta nei suoi genitori nel suo fratellino una serie di vissuti, emozioni e riflessioni che ritroviamo molto ben descritti dal suo papà, Michael.
 
 Nonostante sia forte il legame alla realtà americana di circa dieci anni fa,questa recente traduzione curata dalla Erickson evidenzia nelle parole di Berube i paradossi e le contraddizioni che sollecitano la presenza di un bambino considerato anormale.

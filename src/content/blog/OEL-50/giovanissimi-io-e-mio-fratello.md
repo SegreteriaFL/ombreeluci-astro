@@ -1,4 +1,5 @@
 ---
+
 title: Giovanissimi - Io e mio fratello
 date: 1975-02-07
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 11.903302192687988
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Patrizia, 13 anni, ci racconta del suo fratellino, della scuola e della prima volta che ha partecipato a un incontro Fede e Luce"
 ---
+
 Io frequento il nostro gruppo Fede e Luce ( [Villa Patrizi](http://www.fedeeluce.it/project/villa-patrizi/) , n.d.r.). La prima volta, io, mia madre e il mio fratellino Vincenzo che ha la stessa età mia: tredici anni finiti. **Siano gemelli e io voglio bene al mio fratello Vincenzo** e ci gioco molto volentieri, anche se lui capisce poco.
 
 Va in una scuola per spastici. Va via la mattina alle 8,30 e ritorna la sera alle 4,30. Nella scuola che frequenta mio fratello ci sono molti bambini come lui, handicappati, che non parlano, non camminano e alcuni stanno in carrozzella. **E mio fratello è uno di quelli che non parlano e non camminano** ; sta in una carrozzella ortopedica e porta delle scarpe ortopediche con un apparecchio.

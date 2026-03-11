@@ -1,4 +1,5 @@
 ---
+
 title: ​​Fanny, che vede un futuro per se stessa
 date: 2022-06-06
 author: Melanie Castellani
@@ -18,6 +19,7 @@ issue_number: OEL-157
 id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
+
 Se non aveste più il dono della parola come vi sentireste? Io, sinceramente, mi sentirei persa. Gli esseri umani, d'altronde, si contraddistinguono dagli animali perché riescono a relazionarsi e a sfogarsi attraverso le parole con qualsiasi altro simile. Eppure, **se vi dicessi che anche senza avere il dono della parola possiamo sentirci parte di qualcosa e non totalmente persi?**
 
 La prova vivente è Fanny, mia sorella minore che è nello spettro autistico. Non ha il dono della parola, riesce a dire qualcosina come «mamma, papà, Mimi» (il mio diminutivo) e qualche altra cosa, ma non di più. Lei però non si è sentita persa pur non potendo parlare perché ha trovato il suo modo di comunicare. **È la scrittura.** Da tre anni, infatti, la mia sorellina ha iniziato un percorso chiamato «scrittura aumentativa» grazie al quale riesce a comunicare con noi attraverso il computer. All’inizio io e i miei genitori eravamo un po’ perplessi, credo sia normale spaventarsi di fronte a nuove esperienze, ma per fortuna alla fine abbiamo creduto in questo progetto, che ci ha svoltato la vita.

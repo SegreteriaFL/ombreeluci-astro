@@ -1,4 +1,5 @@
 ---
+
 title: "Che cosa «fare» con loro? - La Casa del Sole e il Centro di Solidarietà"
 date: "2002-12-08"
 author: "Cristina Campanini"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Due testimonianze che ci giungono dalla Casa del sole, una scuola speciale che accoglie ragazzi disabili, e dal Centro di Solidarietà che ospita i ragazzi più gravi, cerebrolesi e spesso, plurihandicappati"
 ---
+
 La **Casa del Sole** è una scuola speciale che accoglie per l’intera giornata ragazzi disabili. Al suo interno da diversi anni il **Centro di Solidarietà** ospita i ragazzi più gravi, cerebrolesi e spesso, plurihandicappati. Da questo Centro, che è come il cuore del grande complesso educativo e riabilitativo, ci giungono le testimonianze di due persone: un’educatrice ed una fisioterapista.
 
 ### Cristina Campanini - educatrice

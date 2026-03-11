@@ -1,4 +1,5 @@
 ---
+
 title: "Non ha più sedici anni"
 date: "1987-03-21"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-17
 id_numero: "OEL-17"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Appunti di Anna Cece da una conferenza del [prof. G. Moretti](http://www.emedea.it/editoria/medea_scientifica/riabilitazione_integrazione.htm), per il convegno «Non ha più 16 anni», promosso dalla associazione *[La Nostra Famiglia](http://lnf.cilea.it/index.php/it/)*, tenuto il 14-15 giugno 1986 a Molveno, pubblicato sul *Notiziario Informazione Amici Don Luigi Monza, n. 3/86*.*
 
 Sull’argomento dell’«handicap» si è molto parlato in questi ultimi anni, e qualcosa si è anche fatta, riguardo, per esempio, la prevenzione, la diagnosi precoce (anche prenatale), la riabilitazione, l’inserimento scolastico... insomma, tutto quel che riguarda il bambino.

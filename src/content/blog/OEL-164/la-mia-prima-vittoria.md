@@ -1,4 +1,5 @@
 ---
+
 title: La mia prima vittoria
 date: 2023-07-15
 author: Antonietta Pantone
@@ -15,6 +16,7 @@ issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando mi è stata messa la medaglia al collo, dentro di me facevo fatica a credere che avevo conquisto la mia **prima maglia d’oro** nei 25mt dorso .
 
 Ora più che mai punto alla mia prossima gara: che sia alle Tre Fontane o fuori non importa perché so di avere un team al mio fianco che crede in me a partire da Enrico, Monica e Valentina.

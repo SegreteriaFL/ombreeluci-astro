@@ -1,4 +1,5 @@
 ---
+
 title: "Notiziario Fede e Luce: il resoconto dell'ultima \"Festa della Luce\" e altre notizie dal movimento"
 date: 1976-05-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.371362686157227
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Quando la comunità di Fede e Luce si trasforma in un circo di allegria, risate, e connessioni profonde: un racconto vivido del 29 marzo 1976"
 ---
+
 ### Com'è andata l'ultima [Festa della Luce](https://www.ombreeluci.it/1976/festa-della-luce-1976/) ?
 
 Chi fosse arrivato dai Frères prima che la festa iniziasse poteva credere di assistere ad un film, uno di quei vecchi film di Chaplin dove tutti corrono come trottole, tutti si affannano girando su se stessi... Rotoli di carta igienica di qua, giornali e stracci da un'altra parte... Strani pseudo-vestiti di carta colorata, bandiere da far invidia a una squadra navale...
@@ -40,6 +44,8 @@ Qua e là, a momenti, la grande orchestra - grandi e piccoli e quasi lattanti co
 Ma è stata solo apparenza. Tutti grandi e piccoli, di Roma o venuti da lontano ognuno con il nostro fardello più o meno pesante, ci siamo sentiti al centro della festa, al centro di questa corrente di amicizia che passava da una mano all'altra nel cerchio dell'anaconda.
 
 Siamo rientrati a casa forse un pò stanchi ma felici. Per un pomeriggio ci eravamo sentiti tutti uguali, a ognuno il sole aveva riservato la parte di calore necessaria «ad accendere una piccola fiammella di speranza, e questo Istituto che con tanta semplicità ci ha accolto sta a dimostrare che piano piano il nostro modo di gioire contagia gli altri e chi ci ha visto una volta è pronto a riaprirci le porte.
+
+
 
 ---
 

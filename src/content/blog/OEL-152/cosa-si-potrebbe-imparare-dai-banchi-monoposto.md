@@ -1,4 +1,5 @@
 ---
+
 title: Cosa si potrebbe imparare dai banchi monoposto?
 date: 2021-02-03
 author: Laura Coccia
@@ -17,6 +18,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Ilmio compagno di banco» è il titolo del tema che quest’anno a scuola non verrà assegnato. La novità di questo autunno 2020, stravolto dal covid-19, da un’interruzione forzata della frequenza in persona, dalla scoperta della didattica a distanza e del progresso della tecnologia è rappresentata dai banchi monoposto. Per quest’anno niente tentativi di copiare, nessuna formula sussurrata a mezza bocca o scritta rapidamente a matita sul banco, niente pacche sulle spalle dopo un’interrogazione andata male o abbracci per un compito ben riuscito. Sarà una sensazione nuova, strana, che caratterizzerà questa “generazione covid”, ma non per tutti sarà una novità.
 
 I bambini con disabilità vivono immersi in un mondo di adulti, camici bianchi e verdi, mascherine, sale d’attesa e visite mediche. La scuola rappresenta l’unico momento di confronto con i coetanei, di gioco, di crescita alla pari, la possibilità di osservare ed emulare per giocare e non per esercizio, eppure spesso gli studenti con disabilità hanno compagni di banco part-time, quando ce n’è uno.

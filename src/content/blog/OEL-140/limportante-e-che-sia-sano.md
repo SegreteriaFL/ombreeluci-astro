@@ -1,4 +1,5 @@
 ---
+
 title: "L'importante è che sia sano"
 date: "2017-12-21"
 author: "Cristina Tersigni"
@@ -15,6 +16,7 @@ issue_number: OEL-140
 id_numero: "OEL-140"
 numero_rivista: "Ombre e Luci"
 ---
+
 Un libricino piccolo piccolo, leggero e delicatamente colorato di azzurro… con un titolo che, senza bisogno di punti interrogativi, porta in sé tantissime domande. E se non fosse così? O se quella che noi consideriamo salute richiedesse dei criteri diversi per essere valutata?
 
 Alessandra Nobile scrive al suo bambino, Gabriele, e ci rende parte dell’attesa, delle aspettative, della sua nascita con la scoperta della Sindrome di Down. Del lutto per il bambino immaginato… e dello stupore per la creatura tra le proprie braccia. Poche pagine per chiedere anche perdono a quel bimbo per non aver gioito pienamente e solamente del suo arrivo. Ma come altrimenti? Siamo tutti portati, inevitabilmente, a vedere quel che manca, quel che è diverso…la sindrome di Down non è certo un premio, come dice un altro papà.

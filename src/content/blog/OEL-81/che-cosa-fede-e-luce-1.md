@@ -1,4 +1,5 @@
 ---
+
 title: Che cosa è Fede e Luce
 date: 2003-03-13
 author: Mariangela Bertolini
@@ -16,7 +17,10 @@ tags:
 umap_x: 7.21198034286499
 umap_y: 8.953442573547363
 umap_z: 13.08311939239502
+
+subtitle: "Perché uno speciale interamente dedicato a Fede e Luce"
 ---
+
 M
 olti (lettori, responsabili di
 [Fede e Luce](http://www.fedeeluce.it/)

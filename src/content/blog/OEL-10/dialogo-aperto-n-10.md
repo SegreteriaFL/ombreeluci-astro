@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 10
 date: 1985-06-27
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-10
 id_numero: "OEL-10"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Benché sia difficile
 
 Insieme al questionario su

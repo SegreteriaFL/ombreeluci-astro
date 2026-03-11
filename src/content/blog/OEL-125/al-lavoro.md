@@ -1,4 +1,5 @@
 ---
+
 title: Al lavoro!
 date: 2014-03-29
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 8.980600357055664
 issue_number: OEL-125
 id_numero: "OEL-125"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ogni volta che a Ombre e Luci parliamo di “lavoro” per i nostri ragazzi, sono presa da due contrastanti sentimenti"
 ---
+
 Ogni volta che a Ombre e Luci parliamo di “lavoro” per i nostri ragazzi, sono presa da due contrastanti sentimenti: **uno di scoraggiamento totale** , pensando a quanto poco nel nostro Paese viene fatto, organizzato, pensato per i nostri figlioli; parlo ovviamente di quelli che sono intellettivamente colpiti (per i fisici e i sensoriali il discorso è tutto diverso). Dall’altro, **un gran desiderio di vedere metter in atto un’attenzione e una volontà tutta speciale proprio per loro** ché altrimenti vengono relegati in un cantiere di passività.
 
 Da quando sono immersa nel mondo dell’handicap, 50 anni ormai di dedizione a largo raggio, **sono presa in modo speciale dall’idea di portare questi figlioli a vivere in pienezza le loro capacità** . È vero che c’è una parte di loro che non è adatta al lavoro intellettivo e bisogna far di tutto per non “ingannare” i ragazzi stessi, i genitori, gli educatori con l’idea di computer, colloqui, segreterie...

@@ -1,4 +1,5 @@
 ---
+
 title: Mio cugino Claudio, al profumo di lavanda
 date: 2025-02-26
 author: Luciana Spigolon
@@ -14,7 +15,10 @@ umap_z: 9.826181411743164
 issue_number: OEL-172
 id_numero: "OEL-172"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il ricordo di Claudio, un cugino di terzo grado scomparso lo scorso gennaio"
 ---
+
 Hodeciso di fissare in una pagina il ricordo di **Claudio, un cugino di terzo o quarto grado** , venuto a mancare a gennaio. So molto poco di lui, sarebbe molto più opportuno che ne parlasse il fratello Gabriele con la moglie Maria; loro che hanno sempre vissuto affianco e se ne sono presi cura, in maniera particolare soprattutto negli ultimi anni.
 
 Claudio, un uomo di 68 anni con lieve disabilità, credo abbia riempito non solo la sua casa dove ha vissuto da sempre con i genitori e fratelli, ma anche le strade, la piazza del suo piccolo paese nei colli Euganei. **A casa ha sempre occupato un posto di privilegio; ricordo i genitori con quanta premura e amore si occupavano di lui, dandogli la sua autonomia anche se parzialmente limitata, e la libertà nel coltivare le sue passioni.** Lo faceva anche con estremo coinvolgimento di se, tanto da esasperare nel ricordarle di continuo.

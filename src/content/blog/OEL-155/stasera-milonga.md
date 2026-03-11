@@ -1,4 +1,5 @@
 ---
+
 title: Stasera milonga?
 date: 2021-07-30
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 8.462944984436035
 issue_number: OEL-155
 id_numero: "OEL-155"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "A Latina l'associazione L'Oltre Tango, una scuola di ballo per persone con disabilità cognitiva, fisica, motoria e neurodegenerativa."
 ---
+
 «Mi fai ballare un tango?». Una diciassettenne di Latina, Elisa Pascali, chiedeva così di provare, per la prima volta, il famoso *abrazo* e mostrava un vero talento nel muovere passi e adorni. Dando a Roberto Nicchiotti, educatore socio-pedagogico e papà di un ragazzo con disabilità **, l’idea di proporre la sua passione da maestro di tango a persone come lei, con la sindrome di Down, o con altre disabilità.** Dal 2015 in tanti hanno cominciato a praticarlo aderendo all’iniziativa [**L’Oltre Tango**](https://www.facebook.com/profile.php?id=100066675462396) (una scuola, un metodo registrato e insegnato, adatto a persone con disabilità cognitiva, fisica, motoria e neurodegenerativa) apprezzando le possibilità, anche terapeutiche, di una vera e propria arte che con la sua musica evoca emozioni diverse e con i suoi riti e la sua etichetta ha una forte componente socializzante.
 
 A specificarne gli aspetti costruttivi fondamentali è anche la psicoterapeuta Silvia Campanelli che accompagna e segue i diversi gruppi. «Si lavora sulla fiducia verso gli altri, sulla capacità di lasciarsi guidare e di guidare, attraverso giochi a tempo di musica, abbracci ed altre attività. Ragazzi e adulti prendono coscienza dei propri corpi e di quelli degli altri, aumentando la fiducia in sé stessi e migliorando diversi aspetti della vita quotidiana».

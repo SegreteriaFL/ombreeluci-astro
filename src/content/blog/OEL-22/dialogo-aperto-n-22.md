@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 22
 date: 1988-06-27
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-22
 id_numero: "OEL-22"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Bisogna aprire le porte
 
 «No, non vacillo nell'angoscia»: la frase del Salmo è da quattordici anni ormai un mio motto quotidiano.

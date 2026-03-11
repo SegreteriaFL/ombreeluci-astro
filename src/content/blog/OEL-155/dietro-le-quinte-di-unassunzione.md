@@ -1,4 +1,5 @@
 ---
+
 title: "Dietro le quinte di un'assunzione"
 date: 2021-09-28
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-155
 id_numero: "OEL-155"
 numero_rivista: "Ombre e Luci"
 ---
+
 Non hanno avuto dubbi i genitori di Silvia a scommettere sul bene che la figlia avrebbe potuto ottenere chiedendo di rivedere la sua categoria di inabilità al lavoro data dalla certificazione di invalidità al 100%. **Qualche dubbio in più, hanno ammesso, lo hanno avuto quando si sono ritrovati a decidere dove Silvia avrebbe lavorato.** In ballo c’erano la distanza da casa con «un’ora e un quarto di durata del viaggio prendendo treno, metropolitana, autobus, più un tratto a piedi e il fatto che il negozio si trovasse all’interno di un centro commerciale, potenzialmente rumoroso e stancante». Per arrivare all’importante decisione «è stata fatta una riunione di famiglia» nella volontà costante «di coinvolgere i fratelli nei momenti decisionali». E hanno optato, tutti insieme, per la destinazione raggiungibile con i mezzi pubblici anche se più distante.
 
 **Non è stato semplice decidere ma tutto il percorso educativo affrontato da Silvia proprio a questo mirava e nessuno voleva che andasse perduto.** Ma «cos’ha Silvia che non va?». E perché il traguardo dell’iniziale contratto a tempo determinato è stato festeggiato più che una laurea?
@@ -30,6 +32,7 @@ Silvia – in quasi sei anni di lavoro con l’azienda Euroristoro, che ha in fr
 **Dall’ottobre del 2019, Silvia è stata assunta a tempo indeterminato.** Il contratto, con qualche accortezza per quanto riguarda le pause e i riposi ma per il resto sovrapponibile a quello degli altri colleghi, le offre quel margine di elasticità che nei precisissimi ingranaggi della grande azienda della ristorazione veloce non sono scontati. Ma tutti hanno avuto e continuano ad avere a cuore che il rapporto funzioni, pronti a mettere in conto le inevitabili difficoltà. Racconta il papà Claudio che «il manager, al momento della firma del secondo contratto, le ha detto che, dopo averla conosciuta bene e aver valutato positivamente le sue capacità, si impegnavano a tenerla “per sempre”, proprio come in un matrimonio. Da quando lavora – concludono orgogliosi i genitori – **Silvia si sente più grande, responsabile e utile** per il buon funzionamento del ristorante. Ha aumentato la sua autostima, ha allargato le sue relazioni ed ha dato un senso alle sue giornate, ricompensando tutte le nostre fatiche e aiutandoci a riscoprire il senso profondo delle cose che viviamo».
 
 Da qualche tempo Silvia sta sperimentando anche la vita in autonomia in una casa protetta insieme ad altre persone con disabilità. Altro che scommessa, insomma… **il percorso di Silvia si è rivelato un investimento assai oculato.**
+
 
 ---
 

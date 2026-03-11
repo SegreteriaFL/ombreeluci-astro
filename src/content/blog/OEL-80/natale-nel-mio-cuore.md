@@ -1,4 +1,5 @@
 ---
+
 title: Natale nel mio cuore
 date: 2002-12-08
 author: Camille Proffit
@@ -19,7 +20,10 @@ tags:
 umap_x: 5.795567512512207
 umap_y: 6.139517784118652
 umap_z: 12.21484088897705
+
+subtitle: "Questo testo è stato scritto anni fa da Camille Proffit, mamma di due figli gravemente disabili, che insieme al marito Gerard, sostenuta da Jean Vanier e Marie Hélène Mathieu, ha dato vita al movimento internazione di Fede e Luce."
 ---
+
 Natale in tutte le strade splendenti di luce! Natale in tutte le vetrine; perfino in quella del macellaio, del fornaio, della Coop, sfavillano ghirlande e palline colorate. Natale, festa della luce, della gioia, festa della famiglia; è quello che vedo, che sento, che tocco.
 
 **E io? Io mi sento come una bambina povera** , le mani vuote e il cuore freddo davanti a questa «vetrina di Natale» che è l’ambiente che mi circonda: luccicante e inaccessibile.

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 148
 date: 2020-01-03
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Poterti dire grazie
 
 C

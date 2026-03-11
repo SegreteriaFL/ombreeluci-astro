@@ -1,4 +1,5 @@
 ---
+
 title: Un mondo da scoprire, camminando e fermandoci
 date: 2005-09-05
 author: Redazione

@@ -1,4 +1,5 @@
 ---
+
 title: Poesie per Francesca
 date: 2001-03-09
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 10.69289493560791
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Come promesso ecco le poesie dei compagni di classe di Francesca che da tre anni frequentano con lei la Scuola Media Statale Arnolfo di Cambio - Beato Angelico di Firenze."
 ---
+
 Come promesso (vedi
 [lettera delle insegnanti nel n° 72 di Ombre e Luci](https://www.ombreeluci.it/2000/dialogo-aperto-n-72/)
 ), ecco le poesie dei compagni di classe di Francesca. Da tre anni frequentano con lei la

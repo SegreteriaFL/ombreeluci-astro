@@ -1,4 +1,5 @@
 ---
+
 title: Il diritto a un libro vero
 date: 2020-09-11
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Un giorno Enza arrivò a casa e disse “Basta!”. Non ne poteva più dei materiali con cui lavorava quotidianamente, dedicati ai bambini con difficoltà nell’apprendimento o affetti da autismo. “Anche loro debbono poter andare in libreria per comprarsi un libro bello. Un libro vero”. È nato tutto da lì». E quello che è nato è Uovonero, la casa editrice che si rivolge a bambini e adolescenti con e senza difficoltà, promuovendo una cultura che nella differenza vede ricchezza. A raccontarci l’impresa è Sante Bandirali, editore, scrittore, traduttore nonché uno dei fondatori di Uovonero con Enza Crivelli e Lorenza Pozzo.
 
 **Quindi tutto è nato dalla consapevolezza di una mancanza…** La considerazione dell’importanza, del valore della bellezza e dell’estetica del libro quando si tratta di bambini con difficoltà è stata l’idea originaria. Da quella primissima idea a quando essa divenne un’intenzione seria passarono un paio di anni, e da quando da seria divenne reale ne passarono altri due: studiammo, elaborammo un piano editoriale, mettemmo a punto quel che è venuto dopo, nella consapevolezza di andare a coprire uno spazio non coperto dal mercato editoriale italiano. Iniziammo con 3 titoli il primo anno, 5 il secondo, poi 7. Ora ci siamo stabilizzati sui 10-12 titoli.

@@ -1,4 +1,5 @@
 ---
+
 title: Doni preziosi
 date: 2015-03-19
 author: Cristina Tersigni
@@ -16,7 +17,10 @@ umap_z: 11.614999771118164
 issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La mamma di Beniamino racconta: Ho imparato, e ogni giorno devo ri-imparare, a riconoscere il valore di quello che mi è dato e chiedo che ogni giorno mi sia ridonato"
 ---
+
 Scrive la giovane mamma di un bambino autistico che non conosce Fede e Luce: “ *È il dono più difficile che la vita poteva darmi, ma senza chiedere mi dà tanto... Anche se ho avuto un altro destino di mamma, quello che conta è non sentirsi sole mai... Da mamma spero solo che il suo domani sia fatto di persone con un grande cuore* ”.
 
 **Meglio di quanto potrei fare io, esprime così le questioni fondamentali che stanno a cuore a questo giornalino e che animano Fede e Luce e le sue comunità** : non fuggire le sofferenze di chi ci è accanto; scoprire che anche chi sembra solo destinato ad aver bisogno di aiuto dà, misteriosamente, più di quel che appare; riconoscere il compito difficile, inatteso, del genitore di un figlio colpito, come dice mons. Brambilla, da una ferita interminabile qual è la disabilità; essere consapevoli del bisogno che abbiamo gli uni degli altri; trovare luoghi e persone che comprendano tutto questo, almeno ci provino, e si lascino muovere-con.

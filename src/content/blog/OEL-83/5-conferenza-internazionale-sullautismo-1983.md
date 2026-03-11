@@ -1,4 +1,5 @@
 ---
+
 title: "5° Conferenza Internazionale sull'Autismo - 1983"
 date: 2003-09-03
 author: Elisabetta De Rino
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.066019535064697
 umap_y: 8.097973823547363
 umap_z: 6.667172431945801
+
+subtitle: "Dal Programma Respiro al Programma di vita per adulti con autismo: realtà a confronto - Fondazione Bambini e Autismo Onius - Anno Europeo delle Persone Disabili"
 ---
+
 L
 a 5° Conferenza Internazionale sull’Autismo si è svolta a Pordenone il 22 marzo scorso, voluta ed organizzata dalla
 [Fondazione Bambini e Autismo](https://www.bambinieautismo.org/)

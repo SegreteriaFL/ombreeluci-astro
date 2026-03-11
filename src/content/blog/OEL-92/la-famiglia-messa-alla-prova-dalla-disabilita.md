@@ -1,4 +1,5 @@
 ---
+
 title: "La famiglia messa alla prova dalla disabilità"
 date: "2005-12-23"
 author: "Giovanni Adomi Braccesi"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Come cercare di salvaguardare l'equilibrio nella vita di coppia e con gli altri figli?"
 ---
+
 Come padre di Gianluca e di due altre bambine ritengo necessario fare una premessa per poter rispondere a questa domanda ed essere comprensivo ai lettori che non conoscono il nostro caso.
 
 Gianluca è nato undici anni fa in Belgio dove mi trovavo, all'epoca, con la mia famiglia per ragioni professionali. Al momento della nascita Gianluca stava benissimo e anche per sua sorella Sofia, che aveva poco più di due anni, era sicuramente molto bello avere un fratellino.

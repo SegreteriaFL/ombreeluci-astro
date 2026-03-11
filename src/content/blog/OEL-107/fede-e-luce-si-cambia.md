@@ -1,4 +1,5 @@
 ---
+
 title: "Fede e Luce: si cambia"
 date: 2009-09-10
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.890979766845703
 issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ultimo incontro nazionale Fedee Luce a Cattolica: le novità"
 ---
+
 Nel numero 104 di OL, Enza Gucciardo, coordinatrice nazionale uscente di Fede e Luce Italia, ha descritto i cambiamenti radicali proposti per il Movimento Internazionale di Fede e Luce, che vedono ridisegnati i paesi componenti e i diversi livelli di rappresentanza (che potete trovare meglio descritti nel numero sopra indicato).
 
 Perché il cambiamento divenisse operativo anche in Italia, nei primi giorni del giugno scorso a Cattolica (ben prima delle discussioni che l’estate ci ha portato sulle gabbie salariali e sulle proposte di bandiere e inni regionali) è avvenuto l’ultimo incontro nazionaledi Fede e Luce ed il primo provinciale. L'Italia è stata infatti divisa in tre province (Nord Italia, Centro con Grecia e Cipro, Sud Italia)con tre coordinatori provinciali, rispettivamente Angela Grassi (Rho, Milano), Stefano di Franco (Roma), Carlo Gazzano(Messina).

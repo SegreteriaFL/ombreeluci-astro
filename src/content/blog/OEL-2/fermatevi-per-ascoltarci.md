@@ -1,4 +1,5 @@
 ---
+
 title: Fermatevi per ascoltarci
 date: 1983-06-29
 author: Redazione
@@ -24,6 +25,7 @@ umap_y: 9.63109016418457
 umap_z: 7.596464157104492
 id_numero: "OEL-2"
 ---
+
 Patrick: “Non potete immaginare la mia gioia quando mi vedo considerato come una persona relativamente normale. La gente ignora le nostre facoltà intellettive, perché abbiamo un viso segnato e difficoltà a esprimerci.
 **Se prendessero il tempo per fermarsi**
 , per ascoltarci, per trovare il nostro cuore al di là della nostra apparenza, non avrebbero più paura e

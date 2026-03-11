@@ -1,4 +1,5 @@
 ---
+
 title: Un tema difficile e delicato
 date: 1995-03-16
 author: Mariangela Bertolini
@@ -15,6 +16,7 @@ issue_number: OEL-49
 id_numero: "OEL-49"
 numero_rivista: "Ombre e Luci"
 ---
+
 D
 a anni ci chiedevamo se OMBRE e LUCI fosse in grado di affrontare il tema dell’affettività e della sessualità delle persone con handicap intellettivo. Abbiamo rimandato perché non è facile entrare in questo campo con il rispetto e la delicatezza dovuti. Perché ci accingiamo ora a dare il nostro piccolo contributo su questo tema? — Perché siamo sollecitati dalle domande che ci vengono poste sia da genitori, sia da amici che frequentano i loro figli...
 - Perché la cultura di oggi è diversa da quella di cinquant’anni fa. Si è preso coscienza che ora, dal momento che molti di loro non vivono più segregati come prima, c’è bisogno di avere le idee chiare in proposito: come agire per il meglio nei loro confronti? - Perché i mass-media, soprattutto la televisione, irrompono nelle nostre case con programmi a volte eccessivi e troppo palesi per non destare turbamento e perplessità in chi è fragile e indifeso. - Perché, infine, noi crediamo fermamente che anche loro debbano poter esprimere al meglio la loro affettività, il loro diritto all’Amore. Sappiamo che le nostre risposte non potranno essere esaurienti. Per questo incoraggiamo tutti a non avere timore di chiedere, di informarsi, di dare tempo a questa ricerca.

@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto n.12
 date: 1977-03-20
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 12.8096923828125
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "Pubblichiamo le lettere e le notizie che ci arrivano dalle comunità di Fede e Luce in Italia."
 ---
+
 ### Da Roma - Una mamma
 
 Fede e Luce, e io aggiungo: Speranza e carità... Carità non nel senso caritatevole, ma nel donare a noi e ai nostri ragazzi, tanto amore e tanta amicizia che sono appunto la speranza del nostro domani. Una speranza che senz'altro diventerà certezza con l'aiuto di Dio e allora ci sarà ancora di più in noi quella Fede cristiana e vedremo quella luce che rischiarerà i nostri volti e le nostre anime, rasserenati e tranquilli, perché sappiamo di non essere più dei naufraghi in alto mare, ma aiutati e confortati dai nostri amici volenterosi che hanno i piedi bene a terra.

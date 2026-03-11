@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 51
 date: 1995-09-11
 author: Redazione
@@ -15,11 +16,13 @@ issue_number: OEL-51
 id_numero: "OEL-51"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Riassaporando Assisi
 
 Grazie allo stupendo numero di Ombre e Luci ricco di foto e riflessioni e commenti su Assisi, ho potuto riassaporare la gioia e le emozioni per quei pochi, ma intensi giorni trascorsi con tutti voi. Non posso che ringraziare di cuore coloro che si sono adoperati per la buona riuscita di questo pellegrinaggio del quale non potranno che rimanermi stampati nel cuore solo momenti di pace, serenità e allegria veramente commoventi. Una vera boccata d’ossigeno per noi mamme con figli disabili che viviamo realtà spesso ben diverse da questo clima anche nella stessa Comunità dove facilmente incontriamo problemi di incomprensione e rivalità. Inoltre spero che questo pellegrinaggio sia anche servito ad incoraggiare tutte quelle persone da poco entrate in Fede e Luce e ancora titubanti e indecise. Ombre e Luci mi ha anche riservato una sorpresa; con grande stupore ho letto del libro che un papà, Redendore Ordan, ha dedicato a suo figlio disabile Francesco dal titolo: «FRANCESCO PORTATORE DI HANDICAP SORRIDE ALLA VITA». Io conosco bene questo ragazzo assieme alla sua famiglia, dato che vivono nel mio paese nativo: Villatora di Saonara (Padova) nel quale ho trascorso la mia giovinezza fino a 25 anni. Per qualche anno inoltre abbiamo trascorso le vacanze estive nella stessa località marina. Quasi ogni giorno ci aspettava accovacciato con le mani sulle ginocchia e un mazzo di carte da gioco sulla via per il mare e vedendoci arrivare si univa a noi per andare in spiaggia. Si passavano così alcune ore assieme a lui e al suo sorriso sincero e gratuito.
 **Adriana Masiero**
 - Comunità S. Lorenzo-Albano Terme
+
 
 ---
 
@@ -29,11 +32,13 @@ Sabato 24 giugno 1995 si sono uniti davanti al Signore Mara e Danilo. Mara e Dan
 **Giovanna Ghirelli**
 - Comunità Gratasoglio - Milano
 
+
 ---
 
 ### Per tenersi in contatto
 
 Grazie per aver scritto su Ombre e Luci il beirarticolo sulla nostra cooperativa ASAD di Bastia Umbra. L'abbiamo subito letto e ci ha resi molto felici perché ha fatto capire anche agli altri che noi siamo amici di tutti. Ci ha fatto tantissimo piacere vedere quante pagine avete dedicato a noi della cooperativa ASAD. Personalmente mi è piaciuta tantissimo quella frase sul dietro della rivista: «La serenità sul piano affettivo nasce da tutto un modo di vivere, dal dinamismo di tutta la comunità, dalla qualità degli assistenti e dalla vita spirituale». Per noi è molto importante fare nuove amicizie e poi tenerci in contatto. Un giorno che decidiamo di fare una gita verremo giù a Roma per venirvi a trovare, conoscere il vostro lavoro e stare un po' insieme. Stiamo gestendo una mostra ad Assisi e poi ce ne saranno altre a Tordandrea, a Bastia e a Perugia. Ad Assisi abbiamo fatto e venduto tantissimo. Vi invitiamo tutti a venire a vedere le nostre mostre. Tanti saluti e buon lavoro da noi ragazzi della Cooperativa ASAD.
+
 
 ---
 
@@ -43,6 +48,7 @@ Per Ombre e Luci di Assisi vi ho mandato la testimonianza della mia amicizia con
 **Antonella**
 (Bari)
 *La foto arrivò tardi. La pubblichiamo ora perché dà un'idea della bella amicizia di Antonella e Vito.*
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: "\"Eccomi\" - L'esempio di Maria"
 date: 2013-12-14
 author: Arianna Giuliano
@@ -14,7 +15,10 @@ umap_z: 11.564956665039062
 issue_number: OEL-124
 id_numero: "OEL-124"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Non si tratta di un cammino semplice, anzi spesso ci lasciamo sopraffare dai dubbi, dalle incertezze, non riusciamo ad abbandonarci completamente al progetto che Dio ha su ognuno di noi"
 ---
+
 > “Eccomi sono la serva del signore, avvenga in me quello che hai detto”
 
 Con queste parole pronunciate da Maria inizia una nuova, fondamentale pagina nella storia dell’umanità e nel cammino di salvezza. Sono parole piene di significato, ognuna di esse è fonte di riflessione per ogni cristiano chiamato a confrontarsi con la propria vocazione, e in particolare noi giovani che in questi anni della nostra vita siamo chiamati a compiere scelte importanti, scelte che dovrebbero essere coerenti con la fede che professiamo. Non si tratta di un cammino semplice, anzi spesso ci lasciamo sopraffare dai dubbi, dalle incertezze, non riusciamo ad abbandonarci completamente al progetto che Dio ha su ognuno di noi, quasi temendo le conseguenze del nostro sì. Maria, invece, con il suo “Eccomi” rappresenta l’esempio più alto di essere umano che accoglie, pur non comprendendolo a pieno, la sua vocazione, ciò a cui è stata chiamata: diventare la madre di Dio.

@@ -1,4 +1,5 @@
 ---
+
 title: "Comunità e Cooperativa \"Il Girasole\""
 date: "1985-06-29"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-10
 id_numero: "OEL-10"
 numero_rivista: "Ombre e Luci"
 ---
+
 A Tencarola, presso Padova, c’è una comunità e cooperativa di persone handicappate e non, che vale la pena di conoscere - era giunta notizia.
 Sono andato e ho visto e conosciuto la cooperativa [*Girasole* ](http://www.girasoleselvazzano.it/index.htm)che, per la storia della sua crescita, per i risultati raggiunti, per la qualità dei rapporti umani e politici, per la durata (ha compiuti sei anni), mi è sembrata veramente notevole. Ne descrivo in particolare la storia e gli aspetti organizzativi, perché ha molti elementi che le danno il carattere di modello e ispirazione per altre iniziative del genere.
 Giancarlo e Sandro, di Tencarola, obiettori di coscienza, prestavano servizio come volontari in case «Focolare» distaccate dall'ospedale psichiatrico, dove erano malati mentali di età diversa e giovani con difficoltà di inserimento. In un insieme di casi tanto eterogenei, non si poteva intraprendere un lavoro educativo per aiutare quei giovani handicappati a crescere e a inserirsi nella società. Per loro, Giancarlo e Sandro proposero alle autorità locali di costruire un'apposita comunità alloggio e di lavoro, in un «focolare» rimasto vuoto. Per questioni burocratiche non sé ne fece nulla. Poco dopo il parroco, interessato al progetto, diede in uso per l'iniziativa quattro campi e una vecchia casa, proprietà della parrocchia. Nacque così la comunità-alloggio e la cooperativa agricola *Girasole* con nove soci iniziali, secondo tutte le regole e gli adempimenti per questo tipo di iniziativa. Fu un po’ un salto nel buio. Il limitato capitale iniziale fu fornito dalla parrocchia e da alcune famiglie sensibilizzate.

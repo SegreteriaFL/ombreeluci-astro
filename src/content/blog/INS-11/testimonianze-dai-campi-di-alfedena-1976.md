@@ -1,4 +1,5 @@
 ---
+
 title: Testimonianze dai campi di Alfedena 1976
 date: 1976-12-20
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 11.504705429077148
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Quest'estate ad Alfedena, ospitati a casa di Fracensca Biondi, ci sono stati diversi campi. Ecco alcuni racconti di chi c'è stato"
 ---
+
 ### Francesca Mancini
 
 Ho passato qui al Alfedena, due settimane che sono state meravigliose. Io, come altre persone, abbiamo avuto esperienze nuove e anche se qualche volta avevamo la bocca storta per affrontarle, ci sono servite molto e sarà difficilissimo dimenticarla...

@@ -1,4 +1,5 @@
 ---
+
 title: La rivoluzione copernicana di Lucas
 date: 2020-03-02
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-149
 id_numero: "OEL-149"
 numero_rivista: "Ombre e Luci"
 ---
+
 Le avvisaglie che qualcosa di bello stava per accadere si sono avute a fine novembre 2017: sulla copertina di Vogue Olanda – per la prima volta nella storia dell’autorevole testata di moda – faceva la sua comparsa una persona con sindrome di Down. Era Micah, un bimbo biondo di tre anni in posa con la sua bionda mamma, di professione modella e attrice. «Che onore» scrisse lei, Amanda Booth, su Instagram.
 
 Un onore per cui la ragazza si è molto impegnata. Da tempo, infatti, Amanda e il marito Mike Quinones si battono per i diritti delle persone con disabilità, e per il loro pieno riconoscimento. La coppia, ad esempio, sapendo benissimo che una foto vale più di mille proclami, ha attivato la pagina Instagram LifewithMicah dedicata al figlio, per dimostrare come un bambino con la sindrome di Down possa condurre una vita normale, esattamente come quella di tutti gli altri piccoli. Grazie alla copertina di Vogue e alle interviste che sono seguite, abbiamo saputo che alla notizia di aspettare un bambino la coppia rifiutò esami e screening prenatali perché – ha raccontato Amanda – «non ci avrebbero cambiato nulla». Solo alla nascita di Micah i genitori hanno dunque scoperto la presenza di qualche problema anche se, oltre agli occhi a mandorla, la salute del piccolo non presentava nulla che facesse immediatamente pensare alla trisomia 21. La diagnosi è arrivata quando Micah ha compiuto tre mesi ma dopo un momento iniziale di confusione tutto è andato avanti serenamente: «All’inizio ci siamo preoccupati, abbiamo passato in rassegna le terribili cose che avrebbe potuto dover affrontare. Ma poi, a mano a mano che i giorni scorrevano, ci pensavamo sempre di meno. Il nostro piccolo uomo è così incredibile che io dimentico completamente la sua sindrome».

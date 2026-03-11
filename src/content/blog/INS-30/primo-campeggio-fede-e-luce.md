@@ -1,4 +1,5 @@
 ---
+
 title: Primo campeggio Fede e Luce
 date: 1981-12-20
 author: Mariangela Bertolini
@@ -18,6 +19,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Lo scopo del campeggio era: dimostrare che tra la vita in famiglia e la vita in un centro speciale, c’è un’altra possibilità: quella di una vita con gli amici.
 
 La preparazione è stata lunga e dettagliata. Innanzitutto: trovare la casa. Un’amica di Fede e Luce, mamma di quattro bambini, ci è venuta incontro offrendoci per il mese di luglio la sua bellissima casa ad Alfedena, in Abruzzo. Dieci letti, una cucina, tre bagni, un salone con caminetto, un gran giardino dove potevamo piantare cinque tende per gli amici e qualche ragazzo più autonomo. Casa situata al centro del paese, con tutte le necessità di prim’ordine, compresa la farmacia, il medico, i negozi…
@@ -35,5 +37,6 @@ Tutto è andato bene: tanto bene che è difficile trovare cosa è andato male. C
 Ogni mattina alla messa, o alla sera attorno al fuoco cantando il Padre nostro, abbiamo sentito nel silenzio, la presenza misteriosa di Dio in mezzo a noi. Di questo e di tutto il resto ancora oggi, grazie Signore!
 
 *Mariangela Bertolini*
+
 
 ---

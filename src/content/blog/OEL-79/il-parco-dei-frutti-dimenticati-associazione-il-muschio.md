@@ -1,4 +1,5 @@
 ---
+
 title: Il parco dei frutti dimenticati - Associazione Il Muschio
 date: 2002-09-01
 author: Elisabetta De Rino
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 8.105696678161621
 umap_y: 7.151604652404785
 umap_z: 10.506152153015137
+
+subtitle: "Siamo andati a conoscere gli amici de «Il Muschio» di Morbegno che stanno portando avanti un bellissimo progetto immersi nella natura"
 ---
+
 Èuna bella giornata di sole, Carlo ed io partiamo prestissimo per raggiungere le montagne della Valtellina. Abbiamo appuntamento con Massimo, operatore dell’ [associazione «Il Muschio»](http://associazioni.provincia.so.it/Muschio/) di Morbegno, nella bassa valle. Ad Ombre e Luci hanno avuto notizia delle molte attività dei soci, impegnati nel promuovere l’integrazione di persone diversamente svantaggiate o disabili, con una grande attenzione per l’ambiente naturale.
 
 Salendo tra prati e boschi, con l’orizzonte occupato dalle cime dei monti ancora bianche di neve, **capisco come la Natura possa avere un ruolo molto importante nella vita e nei pensieri di queste persone** . Il luogo dell’appuntamento è un bellissimo paesino sulla costiera sud delle montagne; si chiama Cadelasso e davvero le case sono tutte di pietra, molte sono ristrutturate e adorne di fiori.

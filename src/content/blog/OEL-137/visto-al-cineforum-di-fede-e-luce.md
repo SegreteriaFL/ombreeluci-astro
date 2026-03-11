@@ -1,4 +1,5 @@
 ---
+
 title: Visto al cineforum... di Fede e Luce
 date: 2017-03-16
 author: Rita Di Nale
@@ -14,7 +15,10 @@ umap_z: 3.474759101867676
 issue_number: OEL-137
 id_numero: "OEL-137"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una bella iniziativa per le comunità di Fede e Luce di Roma che si sono organizzati per vedere film insieme in una sala del Convento Santi Apostoli"
 ---
+
 Dallo scorso anno, con le comunità di Fede e Luce di Roma ci incontriamo per un cineforum in una sala del Convento Santi Apostoli grazie alla disponibilità del nostro assistente spirituale Padre Roberto.
 
 Lo scorso anno abbiamo visto "Belle e Sebastien" e "Le Cronache di Narnia", mentre quest'anno ci siamo incontrati per vedere insieme "Azur e Asmar" e "Ho amici in paradiso". Con quest'ultimo film abbiamo sperimentato una nuova esperienza: incontrare il regista del film, Fabrizio Maria Cortese. Fabrizio è stato subito disponibile a partecipare al cineforum e a vedere con noi il film ed è stato molto emozionante per tutti!

@@ -1,4 +1,5 @@
 ---
+
 title: «Figli di un Dio minore»
 date: 1997-09-19
 author: Redazione
@@ -17,6 +18,7 @@ umap_x: 8.788434982299805
 umap_y: 8.657472610473633
 umap_z: 2.916114568710327
 ---
+
 Figli di un dio minore. (Children of a lesser god), 1986, USA, R. Haines, (F) - Lui è un insegnante in una scuola per non udenti, lei un’inserviente sordomuta dalla nascita. Si innamorano e dopo molte difficoltà, il sentimento riuscirà a far loro superare tutte le barriere. Benché un po’ troppo hollywoodiano, il film riesce comunque a dare un quadro di quanto sia importante l’assistenza di insegnanti qualificati per aiutare le persone sordomute. È una trama romantica (forse troppo) e volutamente ottimistica: buona l’interpretazione dei due protagonisti eccessivamente belli, perfetti e puri per essere credibili.
 
 **Ti è piaciuto il film?** Mi è piaciuto molto perché parla di una sordomuta americana, Sarah, bella e affascinante. Lei non parla più e si innamora di James, il professore che insegna a parlare ai sordi di una università.

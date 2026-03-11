@@ -1,4 +1,5 @@
 ---
+
 title: "Gioco - Com’è questa casa?"
 date: "1999-12-17"
 author: "Redazione"
@@ -15,6 +16,7 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
+
 Ecco i disegni di 9 case. Come sono queste case? Osservale bene e poi scrivi a ogni disegno la parola giusta,
 
 Questa casa è . 1 scegliendola dalla lista seguente.

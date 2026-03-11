@@ -1,4 +1,5 @@
 ---
+
 title: A Jean Vanier il Premio Paolo VI
 date: 1997-09-19
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 8.301179885864258
 umap_y: 12.257729530334473
 umap_z: 10.991703033447266
 ---
+
 L'Istituto Paolo VI di Brescia, nato dopo la morte di Papa Montini, ha il fine di diffondere e approfondire il pensiero di questo Papa “in costante riferimento con la storia della chiesa e civile del nostro secolo Una delle iniziative dell’Istituto, è il «Premio Internazionale Paolo VI» destinato a personalità o istituzioni che , con gli studi e le opere, abbiano contribuito in modo rilevante alla cultura di ispirazione religiosa. Il 19 giugno 1997 l’Istituto ha conferito a Jean Vanier, fondatore delle Comunità dell’Arca e iniziatore del movimento Fede e Luce, il «Premio Internazionale Paolo VI». “Nell’anno centenario della nascita di Papa Montini,” è scritto nella motivazione del premio, “ricorrendo il trentesimo della promulgazione dell’enciclica *Populorum Progressio* , si intende così onorare un grande e attivo interprete di quella che Paolo VI chiama «civiltà dell’amore», che presuppone una visione globale dell’uomo e dell’umanità.»
 
 ### Il discorso di Jean Vanier

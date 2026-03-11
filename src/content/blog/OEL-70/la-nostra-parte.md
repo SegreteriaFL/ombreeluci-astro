@@ -1,4 +1,5 @@
 ---
+
 title: La nostra parte
 date: 2000-06-20
 author: Huberta Pott
@@ -14,7 +15,10 @@ umap_z: 9.915915489196777
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Noi, comuni mortali, che possiamo fare, in modo concreto, per l’ambiente?"
 ---
+
 Questo articolo è degli inizi dell'anno 2000. Le informazioni in esso contenute possono essere non più valide.
 I
 n alcuni paesi stranieri già esistono importanti iniziative per il riciclaggio, facciamo qualcosa di più anche in Italia! Mi sembra importante che ci sia più informazione, più senso di responsabilità: dobbiamo sapere tutti “perché è necessario separare i rifiuti ...” Dobbiamo collaborare con conoscenza e coscienza e Marco Bersani, che è anche un educatore di persone con handicap, sostiene che i nostri ragazzi possono diventare buoni esperti nel riciclaggio e buoni ambientalisti.

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 147
 date: 2019-11-30
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-147
 id_numero: "OEL-147"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Mettetevi in contatto con noi!
 
 Michiamo Paola e faccio parte della comunità di Milano-Centro, a San Giuseppe della Pace, da anni. È un gruppo di amici meraviglioso, me ne sono resa particolarmente conto durante la Messa, in occasione della festa di inizio anno che si è svolta ad ottobre, alla parrocchia di S.Giuseppe della Pace a Milano, una comunità di gente “normale”, senza particolari problemi, che guardava con stupore la nostra allegria. Durante la predica siamo stati paragonati ad un faro che con il suo esempio trascina la comunità. Tanti quando sentono il nome del gruppo ci chiedono cosa facciamo, se del volontariato o delle raccolte di fondi. Noi rispondiamo semplicemente «stiamo insieme, ci sosteniamo l’un l’altro con amore nel nome di Dio e secondo l’esempio di Cristo»: quasi tutti fra noi hanno problemi di salute, ma ognuno fa qualcosa per l’altro, nei limiti delle proprie possibilità! Ci basta condividere un pranzo in compagnia per farci sentire più sereni, per farci sopportare le difficoltà... vieni e vedi!

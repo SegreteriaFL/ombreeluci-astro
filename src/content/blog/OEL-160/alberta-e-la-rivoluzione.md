@@ -1,4 +1,5 @@
 ---
+
 title: Alberta e la Rivoluzione
 date: 2023-01-11
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 7.657464504241943
 issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Quando Barbie in carrozzina scende dallo scaffale"
 ---
+
 Questa è una storia che racchiude tante altre storie. È una storia di amicizia, di bullismo, di disabilità e di normalità (o di disabilità che può essere normalità), di scuola che accoglie, di madri che sanno ascoltare e di madri impermeabili, di donne che immaginano. E che trovano soluzioni.
 
 «Alberta ha una grande attenzione per l’ambiente che la circonda; empatica con il prossimo, è sicuramente più educata e più sensibile della media». Alberta Maria Arcorace ha 8 anni, vive a Reggio Calabria (dove è nata) con la mamma, il papà e il fratellino Ermanno, ed è una bambina molto affettuosa, molto espansiva, molto fisica. Lo scorso anno, in prima elementare, **«ha vissuto un brutto periodo: non tutte le sue coetanee, infatti, sono abituate a questi atteggiamenti calorosi e così Alby è stata oggetto di esclusione e di derisione, di bullismo da parte di alcune bambine della classe** che, tra l’altro, conosceva da tempo», mi dice Pamela, sua madre.

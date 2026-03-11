@@ -1,4 +1,5 @@
 ---
+
 title: "Buongustaio dell'arte"
 date: 2020-08-18
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 Non è proprio consueto sentir parlare un ragazzo di 13 anni con disinvoltura, e addirittura passione, delle principali opere e località d’arte d’Europa. Parlare al telefono con Matteo è un viaggio delle meraviglie, da Leonardo, passando per Van Gogh per finire poi, con i piedi finalmente per terra per la sua età, a Star Wars! Dice sua madre Francesca che «come la luce dello “spettro” – autistico ad alto funzionamento – ha una personalità dai colori intensi e sfumature diverse, più delicate e leggere. Matteo possiede un’ottima proprietà di linguaggio e una buona autonomia. Ha un carattere allegro e mite, il viso illuminato da un grande sorriso che regala generosamente a tutti, amici e sconosciuti. Buongustaio e sempre affamato, è scout e grande camminatore. E una delle sue caratteristiche più belle è la grande curiosità».
 
 Matteo è un grande appassionato d’arte: rimane spesso colpito ed emozionato di fronte alle grandi opere, le osserva a fondo, quasi come se riuscisse a dialogare con loro. La sua materia preferita è la geografia e anche per questo è stato in tante città alla ricerca di opere e musei di cui ha studiato a scuola: a Parigi per la Gioconda, «una bellissima signora che sorride» o a Firenze per il David di Michelangelo «ma quella fuori è una copia, quella vera invece è nel museo!» … E proprio arrivato difronte al David di Michelangelo, quello vero “gigante!”, Matteo non è riuscito a trattener le lacrime dalla gioia: «Si è emozionato tantissimo! La sua felicità era palpabile… un miscuglio di fortissime emozioni che ha espresso con grandi sorrisi arrivando anche alle lacrime». Nella sua Roma, la prima opera ad incantarlo è stata, inevitabilmente, «la Sistina! Fatta tutta da Michelangelo!», con la sezione della cacciata di Adamo ed Eva dall’Eden, rimasta impressa più di altro.

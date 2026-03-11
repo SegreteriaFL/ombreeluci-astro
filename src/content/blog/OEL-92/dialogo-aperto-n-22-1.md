@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 22
 date: 2005-12-23
 author: Redazione
@@ -14,12 +15,17 @@ has_comments: false
 umap_x: 4.7205424308776855
 umap_y: 7.637380599975586
 umap_z: 10.809100151062012
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Dall'Honduras: Le tante voci di Dio
 
 Carissima Mariangela, ti scrivo due righe per salutarti e dirti che spero tu possa continuare il tuo lavoro di Ombre e Luci. Mi hai insegnato tantissimo sugli handicappati e su me stesso e come essere un buon amico con loro e genitori. Seguiamo sempre il gruppo di Tocoa e aumentiamo il numero di comunità in Honduras con la grazia di Dio. La sfida è trovare giovani aperti ad essere amiche ed amici dei ragazzi. Ti mando una riflessione sugli amici speciali qui in Centro America del mio confratello gesuita Miguel Vasquez. Saluti alla comunità di S. Silvia. Siamo uniti nella preghiera e nell'opera di Fede e Luce. Di nuovo grazie per la rivista. Animo. Che Dio vi benedica tutti nel vostro uffizio. Pace e bene.
 **P. Roberto Grimaldi**
 , gesuita
+
+
 
 ---
 
@@ -29,6 +35,8 @@ Carissima Mariangela, ti scrivo due righe per salutarti e dirti che spero tu pos
 **P. Miguel Vasquez**
 m gesuita
 
+
+
 ---
 
 ### Handicap in Germania
@@ -36,12 +44,16 @@ m gesuita
 Dopo tanti anni di lavoro con Ombre e Luci a Roma, ho dovuto trasferirmi in Germania. Dopo qualche mese le persone con handicap mi hanno raggiunto. Che bella serata, giorni fa ritrovarmi a teatro; sulla scena un gruppi misto di disabili e non. Ho ripensato all'Alveare di Roma, al suo "Cristoforo Colombo"... Di questo gruppo di "ar: tisti" conoscevo una partecipante, educatrice, alla quale ho subito chiesto se, dopo lo spettacolo, potevo farle qualche domanda. Il giorno dopo ci siamo ritrovate. Avevo preparato sei domande sul loro lavoro. Abbiamo passato insieme un'ora e ‘mezza. Devo precisare che questa giovane, Yasmin, è di madre tedesca e di padre afgano cioè mussulmano. La storia rappresentata era senz'altro fatta bene, ma mi aveva messo sulla difesa per la sua lontananza dalla realtà e la sua aggressività. Yasmin ha capito perfettamente le mie domande, le mie perplessità, le mie critiche. Le ho detto che avevo lavorato in Italia con un gruppo cattolico. Abbiamo discusso a lungo e alla fine, lei ha detto:" Avete ragione voi, se avessi un figlio con handicap preferirei vederlo nelle vostre mani". Non voglio che facciamo i superbi. Errori ne facciamo tutti ma ritrovarmi così d'accordo con Yasmin mi ha dato voglia di continuare a cercare contatti qui ad Amburgo, di capire come trovano il loro posto le persone con handicap nella società tedesca. Vi manderò le mie prossime scoperte e riflessioni.
 **Nicole Schulthes**
 
+
+
 ---
 
 ### Un "sogno" in premio
 
 Alle amiche di Ombre e Luci invio i miei più sinceri ringraziamenti per aver consentito a me e a mio marito Carlo di vivere una bellissima esperienza come ospiti presso il convento dei padri agostiniani a S. Gimignano, quale premio per il testo vincitore del concorso indetto dalla vostra rivista, dedicato alla nostra amatissima bambina "Ilaria" (che portiamo sempre nei nostri cuori!). Padre Brian è sicuramente una persona speciale e ci ha accolto subito come amici facendoci sentire parte della sua "famiglia". Ha molta stima di voi e degli amici dell'associazione "Fede e Luce"ed è sensibile ai problemi delle persone disabili...insomma un vero amico! Grazie di cuore per averci consentito di vivere un "sogno". Un abbraccio fraterno.
 **Donatella Marazzini**
+
+
 
 ---
 

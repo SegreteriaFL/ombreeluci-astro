@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 40 - Incontro “Alpi-Danubio”
 date: 1992-12-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-40
 id_numero: "OEL-40"
 numero_rivista: "Ombre e Luci"
 ---
+
 N
 ella bella campagna di Zam’bèck presso Budapest si è tenuto dal 6 al 12 agosto l’incontro dei rappresentanti della zona Alpi-Danubio (Austria Italia Romania Slovenia Svizzera Ungheria). Le Comunità ungheresi di Fede e Luce desideravano da tanto essere paese ospitante, e lo hanno fatto in maniera ottima. Infatti: — la casa scelta era proprio adatta: spaziosa e circondata dal verde, tanto da facilitare sia le attività comuni che il riposo e la preghiera personale;
 - l’organizzazione materiale è stata la migliore possibile; - le decorazioni erano ammirevoli per bellezza e varietà; - è stata molto gradita la possibilità offerta di fare un giro in auto e di visitare Budapest.

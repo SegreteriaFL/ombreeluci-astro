@@ -1,4 +1,5 @@
 ---
+
 title: Beati i poveri - Suggerimenti per le tra giornate ad Assisi 1978
 date: 1978-06-14
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 Ascolteremo questa parola di Gesù e cercheremo di rispondervi come S.Francesco, mettendo l'accento su:
 
 - la povertà (venerdì) - Maria (sabato) - la Chiesa (domenica)

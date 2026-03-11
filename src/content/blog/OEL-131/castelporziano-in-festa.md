@@ -1,4 +1,5 @@
 ---
+
 title: Castelporziano in festa
 date: 2015-09-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 Cari amici, l’11 settembre 2015 alle 16,30 circa, stavo alla residenza estiva del Presidente della Repubblica con amici di *Fede e Luce* e vari rappresentanti di vari istituti.
 
 Durante l’estate Castel Porziano è stato messo a disposizione di associazioni per persone con disabilità per dare la possibilità di fare vacanza al mare: l’11 settembre era la cerimonia di conclusione.

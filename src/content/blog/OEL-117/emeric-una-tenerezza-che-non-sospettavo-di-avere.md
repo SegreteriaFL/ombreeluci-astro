@@ -1,4 +1,5 @@
 ---
+
 title: Emeric, una tenerezza che non sospettavo di avere
 date: 2012-03-16
 author: Bernard Provoust
@@ -15,6 +16,7 @@ issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ogni anno Bernard nonno e padrino di Emeric, un ragazzo Down di 24 anni, passa una decina di giorni, insieme a suo nipote… intrattenendo così una relazione eccezionale! Telefonata della mia adorata figlia Virginia, in lacrime: il suo secondo figlio è affetto da sindrome Down. Mi faccio prestare una macchina, attraverso la Francia per andarla a trovare in clinica e tentare di confortarla, non so con quali parole. Mia figlia mi blocca subito: “Papà taci”. Due parole che mi rimescolano ancora dentro. Ho capito allora che in certe situazioni, non si dice niente, si ascolta, si prende semplicemente la mano.
 
 L’angoscia di Virginia mi ha toccato profondamente; ho voluto coinvolgermi per lei e per il piccolo Emeric. Ma se la mia vicinanza a suo figlio è eccezionale, è perché lui ha qualcosa in più, non ho infatti lo stesso tipo di rapporto con i miei altri nipoti. Ogni anno a Pasqua, viene a passare, da solo, una decina di giorni da me, ad Antibes ed è per lui uno dei periodi più belli dell’anno. Emeric ha un attaccamento per me che mi sconvolge; ad esempio un giorno un malanno mi aveva costretto a letto ed eccolo lì, in ginocchio ai piedi del mio letto in lacrime : “ Mio Dio, il nonno è malato, bisogna fare qualcosa, non può restare così!”. E così risveglia in me una tenerezza che non sospettavo di avere. Ha un vero e proprio passe-partout per aprire il cuore, abbatte ogni barriera convenzionale. I miei altri nipoti non si gettano tra le mie braccia come fa lui e né io né loro osiamo dirci semplicemente che ci vogliamo bene, così come fa Emeric.

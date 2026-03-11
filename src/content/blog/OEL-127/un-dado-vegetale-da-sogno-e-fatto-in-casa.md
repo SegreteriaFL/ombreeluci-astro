@@ -1,4 +1,5 @@
 ---
+
 title: Un dado vegetale da sogno e fatto in casa
 date: 2014-09-29
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 11.210805892944336
 issue_number: OEL-127
 id_numero: "OEL-127"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Abbiamo provato questa attività alla fine dell’estate, utilizzando le verdure, gli aromi e i profumi della bella stagione, e visto il risultato, lo rifaremo sul finir dell’estate"
 ---
+
 Esiamo arrivati al sesto anno di seguito: pranzi comunitari, alleluia più o meno intonati, cerchi improvvisati con tante tante idee, scambi, risate, condivisioni. I campi alla Bicoca ci fanno crescere e con loro sta crescendo la nostra famiglia. Anche se il nostro piccolo mondo può sembrare (e lo è) un po’ a parte, il campo ci aiuta a staccare dalla quotidianità e cerchiamo insieme a tutti i partecipanti di imparare cose nuove, praticando delle attività di campagna, per valorizzare i prodotti della natura e il nostro ambiente circostante.
 
 Spesso è un’occasione per invitare degli esperti che ci aiutano e condividono con il campo una giornata.

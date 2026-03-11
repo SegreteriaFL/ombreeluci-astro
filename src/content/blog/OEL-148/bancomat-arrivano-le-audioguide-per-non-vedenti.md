@@ -1,4 +1,5 @@
 ---
+
 title: "Bancomat: arrivano le audioguide per non vedenti"
 date: 2019-01-09
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 Di semplice e pratico utilizzo, sono disponibili online ( [a questo link)](http://www.abi.it/Pagine/Mercati/Csr/Protocollo-ABI-Uici.aspx) le **audioguide concepite per agevolare le persone cieche e ipovedenti nell’utilizzo degli sportelli automatici ATM** – meglio noti, anche se impropriamente, come “sportelli bancomat” – **e dei POS** . La meritoria iniziativa rientra nel quadro delle azioni previste da un protocollo d’intesa siglato a suo tempo tra l **’ABI** (Associazione Bancaria Italiana) e l’ **UICI** (Unione Italiana dei Ciechi e degli Ipovedenti), con l’obiettivo di realizzare una serie di attività congiunte e progetti sperimentali di informazione ed educazione finanziaria, ed è stata sviluppata con la collaborazione della **Società Bancomat** e con il **Centro Nazionale del Libro Parlato** dell’UICI.
 
 Nello specifico, come si legge in una nota diffusa dall’UICI, «le audioguide sono state segnatamente realizzate allo scopo di **favorire l’accessibilità ai citati servizi e strumenti di pagamento in un’ottica fortemente inclusiva** , rispondendo così a specifiche richieste della clientela per operare in autonomia. Infatti, con il processo di digitalizzazione in atto e il maggior ricorso alla “multicanalità”, gli sportelli automatici bancari e i terminali per i pagamenti con carte assumono un ruolo sempre più rilevante nelle abitudini delle persone».

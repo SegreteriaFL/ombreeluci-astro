@@ -1,4 +1,5 @@
 ---
+
 title: Nessuno escluso
 date: 1984-03-30
 author: Carlo Maria Martini
@@ -20,6 +21,7 @@ issue_number: OEL-5
 id_numero: "OEL-5"
 numero_rivista: "Ombre e Luci"
 ---
+
 «
 *Le testimonianze raccolte in questo fascicolo ( [Ombre e Luci n. 5](http://www.ombreeluci.it/project/numero-5-chi-accoglie-voi-accoglie-me/) ) spingono le comunità cristiane ad approfondire sul piano teorico e pratico l’accoglienza verso gli handicappati*
 » Quando penso ai rapporti tra la comunità cristiana e le persone in difficoltà, mi viene da chiedermi: «Chi è veramente in difficoltà? Chi è a disagio?» Accade, infatti, uno strano capovolgimento della situazione. Le persone portatrici di handicap, soprattutto mentale, sono spesso serene, desiderose di partecipare alla vita della comunità, felici di stare con gli altri, di cantare, di pregare. Invece le persone che frequentano abitualmente la comunità cristiana sono non di rado impacciate, diffidenti o addirittura infastidite dinanzi ai comportamenti degli handicappati e ai problemi che essi suscitano. Il disagio che afferra la comunità cristiana, quando si imbatte in persone handicappate, finisce per influire negativamente sulle persone stesse e soprattutto genera una profonda sofferenza nelle loro famiglie. Dobbiamo da una parte offrire con grande umiltà questo disagio al Signore e insieme chiedere alla

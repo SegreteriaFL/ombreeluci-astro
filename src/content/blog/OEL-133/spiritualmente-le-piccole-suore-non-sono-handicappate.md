@@ -1,4 +1,5 @@
 ---
+
 title: Spiritualmente, le Piccole Suore non sono handicappate
 date: 2016-03-25
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-133
 id_numero: "OEL-133"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Riconosciuta dalla Chiesa, questa fondazione atipica pone delle domande sul livello di consapevolezza della vocazione di una persona con disabilità mentale. Madre Lina, la superiora, e dom Jean Pateau, abate di Fontgombault e assistente spirituale della comunità, ci danno alcuni parametri di riferimento.*
 
 **Come è nata la comunità delle Piccole Suore discepole dell’’Agnello?** *Madre Lina:* Tutto è iniziato dall’incontro con Veronica, affetta da sindrome di Down. Da catechista ero stata in contatto con delle persone handicappate e mi sentivo chiamata ad una vita consacrata che fosse accanto ai più piccoli. Vedendo Veronica, ho avuto come una luce: lei aveva la vocazione. Con un’altra suora, abbiamo allora affittato una casetta in una città della Touraine, al fine di fondare una comunità che permettesse a Veronica di vivere la sua vocazione religiosa. Gli inizi furono molto modesti. Poi suor Veronica ha attirato altre ragazze come lei e siamo così arrivate a Le Blanc.

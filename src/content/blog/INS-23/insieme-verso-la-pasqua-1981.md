@@ -1,4 +1,5 @@
 ---
+
 title: Insieme verso la pasqua 1981
 date: 1979-12-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 "Il Pellegrinaggio più importante per me è andare con il mio bambino dalla porta di casa a quella della chiesa parrocchiale." *(una mamma inglese)*
 
 "A Lourdes con Foi et Lumière Belge vi portiamo profondamente nel cuore, con le vostre sofferenze e le vostre gioie, nella comunione.... Lourdes è una lotta terribile su di se ma le grazie sono enormi. Alleluia." *(il papà di Thierry - Francia)*

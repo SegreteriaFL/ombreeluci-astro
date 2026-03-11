@@ -1,4 +1,5 @@
 ---
+
 title: "C'era una volta... Un pescolino rosso e Paperottino"
 date: 1995-06-02
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### C'era una volta ... Paperottino
 
 ### C'era una volta ... Un pesciolino rosso

@@ -1,4 +1,5 @@
 ---
+
 title: Accoglienza alle porte di Roma
 date: 2025-11-17
 author: Cristina Tersigni
@@ -18,7 +19,10 @@ umap_z: 11.324929237365723
 issue_number: OEL-171
 id_numero: "OEL-171"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "L'impegno di don Luigi d'Errico ha messo radici lungo la via Ardeatina al Casale di Falcognana in un nucleo residenziale per dodici persone con disabilità"
 ---
+
 «Nella parrocchia alla Montagnola viene anche una comunità di Fede e Luce. Hanno un bel modo di stare insieme, con persone in situazione anche di grave disabilità: insieme, alcuni di loro, hanno messo in gioco la vita con l’esperienza della casa famiglia [Il Carro](https://www.ombreeluci.it/2014/il-carro-una-casa-famiglia-per-tutti/) ». Conosciamo don Luigi D’Errico da circa dodici anni e, quando parla di «giocarsi la vita» per qualcuno, sappiamo come lo abbia vissuto in prima persona.
 
 Lo avevamo [intervistato](https://www.ombreeluci.it/2013/qualcuno-aspetta/) nel 2013 quando era parroco della comunità dei Santi Martiri dell’Uganda: «Gesù dice che dove c’è il povero c’è Dio. Non posso non andare a cercarlo e non impegnarmi per raggiungerlo. Sarà poi la persona a decidere se accettare l’invito o meno. **Se l’invito non fosse per tutti non saremmo più Chiesa cattolica, davvero universale** . Le parrocchie dovrebbero accogliere ogni persona, senza alcun filtro: **se il filtro c’è, bisogna accorgersene ed essere consapevoli che qualcosa non va** ».

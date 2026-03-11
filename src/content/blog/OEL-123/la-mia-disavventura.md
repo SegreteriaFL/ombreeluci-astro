@@ -1,4 +1,5 @@
 ---
+
 title: La mia (dis)avventura
 date: 2013-09-13
 author: Arianna Giuliano
@@ -16,7 +17,10 @@ umap_z: 7.3495869636535645
 issue_number: OEL-123
 id_numero: "OEL-123"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Mi chiamo Arianna, sono una ragazza disabile, affetta da tetraplegia spastico-distonica, ho finito da poco il liceo pedagogico e ora frequento l’università. Vorrei raccontare la mia “avventura” scolastica, perché per noi ragazzi ormai andare a scuola è un’avventura, soprattutto per noi disabili"
 ---
+
 Michiamo Arianna, sono una ragazza disabile, affetta da tetraplegia spastico-distonica, ho 21 anni. Ho finito da poco il liceo pedagogico, ora frequento l’università. Vorrei raccontare la mia “avventura” scolastica, perché per noi ragazzi ormai andare a scuola è un’avventura, soprattutto per noi disabili.
 
 ### Materna

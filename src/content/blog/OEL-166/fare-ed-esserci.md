@@ -1,4 +1,5 @@
 ---
+
 title: Fare ed esserci
 date: 2024-08-26
 author: Dario Piersanti
@@ -14,7 +15,10 @@ umap_z: 10.320359230041504
 issue_number: OEL-166
 id_numero: "OEL-166"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La mia strada dall’Agesci a Fede e Luce"
 ---
+
 Entrai a far parte di un gruppo scout *Agesci* a 8 anni. Una delle primissime cerimonie a cui partecipai fu la consegna del fazzolettone con i colori del mio gruppo: il capo fece due nodini alle estremità di questo importante simbolo, promemoria visivo delle buone azioni che avrei dovuto compiere quotidianamente per dimostrare di essere un bravo lupetto. Questo ricordo mi aiuta a sintetizzare un concetto fondamentale: **non si può parlare di scoutismo senza parlare di servizio.**
 
 Uno scout, infatti, sa che il proprio compito è «fare del proprio meglio, essere sempre pronti a servire»: non a caso questa frase è l’insieme di tutti i motti delle tre “branche” (gruppi di fasce di età) esistenti nello scoutismo. Nella sua ultima lettera agli scout il fondatore del movimento Baden Powell riassunse così il tutto: «il vero modo di essere felici è di procurare felicità agli altri». Quindi, quando dopo 10 anni di scoutismo mi approcciai per la prima volta a [*Fede e Luce*](http://fedeeluce.it) , mi sentivo adeguatamente preparato al servizio. La prima attività a cui ricordo di aver partecipato nella mia comunità fu una pizza serale fuori al ristorante. Non dovetti organizzare niente, mi venne semplicemente chiesto di andare a prendere un ragazzo a casa sua e riaccompagnarlo poi, niente di faticoso (anzi, avevo appena preso la patente, ogni occasione era buona per guidare). La serata si svolse piacevolmente e pigramente, tra chiacchiere e risate. **Tornai a casa pensieroso, con molti dubbi che in poco tempo portarono a una realizzazione: tutto sommato non ero poi così preparato. Qualcosa sul servizio la dovevo ancora imparare.**

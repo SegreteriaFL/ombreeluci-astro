@@ -1,4 +1,5 @@
 ---
+
 title: "Epilessia: una malattia neurologica ancora sconosciuta"
 date: 1985-06-29
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-10
 id_numero: "OEL-10"
 numero_rivista: "Ombre e Luci"
 ---
+
 L’epilessia è una malattia del sistema nervoso che può colpire persone di tutte le età e perfettamente normali, caratterizzata dalla comparsa di improvvise, inaspettate, brevi manifestazioni critiche di vario tipo. Esse possono accompagnarsi a compromissione della coscienza ma anche prodursi senza alcuna modificazione di essa. Per comprendere come un tale evento possa realizzarsi bisogna rifarsi al normale funzionamento del nostro «cervello». Esso nella sua parte più evoluta è formato dalla cosiddetta corteccia cerebrale, insieme complesso di cellule, che a seconda delle zone o lobi cerebrali presiede e controlla le diverse funzioni del nostro organismo. Il movimento, la vista, l’udito, il gusto, il linguaggio, la memoria, il pensiero ecc. dipendono dal corretto funzionamento della corteccia cerebrale.
 **Un transitorio e anormale funzionamento di alcune zone per un improvviso eccitamento delle sue cellule può produrre una manifestazione strettamente legata al tipo di funzione da esse presieduta.**
 **La crisi epilettica quindi è un transitorio e breve errore di funzionamento del sistema nervoso.**

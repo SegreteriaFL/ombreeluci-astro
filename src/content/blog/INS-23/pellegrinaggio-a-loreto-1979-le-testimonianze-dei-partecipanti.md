@@ -1,4 +1,5 @@
 ---
+
 title: "Pellegrinaggio a Loreto 1979: le testimonianze dei partecipanti"
 date: 1979-09-16
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 13.037285804748535
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Un'esperienza significativa: imparare a superare sofferenza, chiedere aiuto per creare un legame speciale con nuovi amici"
 ---
+
 ### La più bella esperienza della mia vita
 
 A dir la verità prima di affrontare il pellegrinaggio di Loreto non ne ero molto entusiasta perché ho sempre parecchio da fare con la scuola... (invece)... è stata forse la più bella esperienza della mia vita.

@@ -1,4 +1,5 @@
 ---
+
 title: "Questionario per i fratelli e sorrelle di persone con disabilità"
 date: "1980-06-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 Cari fratelli e sorelle di persone con disabilità, se avete letto le testimonianze riportate nel [dossier a voi dedicato in questo numero](https://www.ombreeluci.it/project/insieme-n-25-bollettino-fede-e-luce-1980/), forse non sarete d'accordo, o avrete altro da dire……, potreste, rispondere (anche senza firmare) a questo questionario, scriverci il vostro parere?
 
 ### La scoperta dell'handicap

@@ -1,4 +1,5 @@
 ---
+
 title: "Fino all'ultimo respiro"
 date: 2003-03-13
 author: Redazione
@@ -11,6 +12,8 @@ has_comments: false
 umap_x: 7.21544885635376
 umap_y: 9.017208099365234
 umap_z: 12.455057144165039
+
+subtitle: "Storia di un cammino"
 ---
 
 C

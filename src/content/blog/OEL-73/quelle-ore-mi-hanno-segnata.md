@@ -1,4 +1,5 @@
 ---
+
 title: Quelle ore mi hanno segnata
 date: 2001-03-09
 author: Anna Rita Cedroni
@@ -18,7 +19,10 @@ umap_z: 12.302702903747559
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "ll tempo trascorso a Fede e Luce è stato proprio un tempo di vita, di volti, di entusiasmi...che il cuore conserva con cura e dove spesso la mente si rifugia a «salutare» persone amiche"
 ---
+
 *“Esiste un grande eppur quotidiano mistero. Tutti gli uomini ne partecipano ma pochissimi si fermano a rifletterci. Quasi tutti si limitano a prenderlo come viene e non se ne meravigliano affatto. Questo Mistero è il tempo. Esistono calendari e orologi per misurarlo, misure di ben poco significato perché tutti sappiamo che talvolta un’unica ora ci può sembrare un’eternità e un’altra passa in un attimo...dipende da quel che viviamo in quest’ora. Perché il tempo è vita. E la vita dimora nel cuore...”*
 
 **da Momo di M. Ende**

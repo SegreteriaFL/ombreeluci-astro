@@ -1,4 +1,5 @@
 ---
+
 title: Quante cose possono nascere intorno a un libro
 date: 2021-09-02
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 C'èuna biblioteca a Bologna che è **la più fornita d’Italia sui temi della disabilità** e che ha sede nel rione periferico e multiculturale del Pilastro. La biblioteca è il cuore del Centro Documentazione Handicap, nato nel 1981 in seno all’Aias (Associazione Italiana Assistenza Spastici) divenuto autonomo nel 1996. Erano anni in cui la legge sull’integrazione scolastica dava i suoi primi frutti e cresceva la consapevolezza sui temi legati alla disabilità. In quel contesto, quattro ragazzi con gravi disabilità fisiche ragionavano su cosa avrebbero potuto fare dopo la scuola, ponendosi una domanda ancora difficile: «Come può un disabile grave diventare una risorsa per la società e non solo qualcuno da assistere e di cui aver pietà?». Dei quattro faceva parte Claudio Imprudente, poi giornalista, scrittore e tra i promotori delle esperienze che seguirono quella domanda.
 
 Alla prima donazione di libri da parte del pedagogista Andrea Canevaro, che costituì la base della biblioteca successivamente ben ampliata, seguì la fondazione della rivista HP-Accaparlante. Pubblicata fino al 2019, viene ora proposta in veste di monografia, con quattro uscite annue, dall’editore La Meridiana. Il primo numero della rivista, del 1983, sceglieva subito una tematica spiazzante per l’epoca, “Il sesso negato” (e lo è tuttora!). **Dagli argomenti emergeva la voce di chi viveva la disabilità: quell’H considerata muta, finalmente si faceva sentire.**

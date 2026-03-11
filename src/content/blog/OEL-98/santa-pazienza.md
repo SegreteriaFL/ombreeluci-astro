@@ -1,4 +1,5 @@
 ---
+
 title: Santa pazienza!
 date: 2007-06-03
 author: Maria Teresa Mazzarotto
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 4.848823547363281
 umap_y: 9.416443824768066
 umap_z: 8.574739456176758
+
+subtitle: "Splendida virtù. Ma perché santa? Perché fa miracoli come i santi, o perché rende santo chi la esercita con fatica e costanza?"
 ---
+
 Santa pazienza! — diceva mia nonna — e la invocava proprio quando stava per perderla, quando gli altri argomenti erano esauriti e l'urlo o lo scapaccione sembravano inevitabili. Perché santa? Perché fa miracoli come i santi, o perché rende santo chi la esercita con fatica e costanza? Me lo chiedo ora avendo appena letto [le riflessioni così vere e importanti di P. Petitclerc](https://www.ombreeluci.it/2007/la-mia-pazienza-ha-dei-limiti/) .
 
 E chissà perché, quando Mariangela mi ha chiesto di ricordare qualche momento in cui esercitando questa virtù avrei ottenuto risultati insperati come insegnante o come amica dei ragazzi disabili, ho pensato, per prima cosa, quanta poca in realtà ne ho esercitata o, perlomeno, quanta in più ne avrei dovuta usare e, in secondo luogo ho pensato alla pazienza silenziosa, continua e spesso sottovalutata che esercitano invece loro, i nostri amici disabili.

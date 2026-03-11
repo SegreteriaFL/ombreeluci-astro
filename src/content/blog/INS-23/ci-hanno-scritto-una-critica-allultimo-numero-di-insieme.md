@@ -1,4 +1,5 @@
 ---
+
 title: "Ci hanno scritto: una critica all'ultimo numero di Insieme"
 date: 1979-06-16
 author: Olga Gammarelli
@@ -15,6 +16,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 Cari amici, ho aspettato con impazienza l'ultimo numero di "Insieme", [il numero 20](https://www.ombreeluci.it/project/insieme-n-20-bollettino-fede-e-luce-1979/) . Sono rimasta delusa. Non c'era niente di nuovo, niente di particolare interesse. **Dopo aver letto le prime pagine, il mio entusiasmo incominciava a diminuire** .
 
 Perché tutte queste testimonianze, tutte uguali? Con la possibile eccezione di Maria Grazia, che esprimeva un sentimento valido con stile e poesia; le altre, specialmente quelle scritte dalle mamme, assomigliavano tanto tra di loro che **sono riuscita a finire il giornale con fatica** . Tanto è vero, che mi sono chiesta se il giornale avesse cambiato direzione e la nostra cara Nicole avesse dato le dimissioni!

@@ -1,4 +1,5 @@
 ---
+
 title: Giochi da fare a casa
 date: 2020-01-17
 author: Redazione
@@ -19,7 +20,10 @@ umap_z: 6.315832614898682
 issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ecco qualche spunto per superare la noia di questi giorni di permanenza forzata in casa"
 ---
+
 In questi giorni di "ritiro forzato" in casa a causa del [coronavirus](https://www.ombreeluci.it/2020/che-gran-caos-coronavirs-persone-disabilita/) , abbiamo molto tempo libero tanto che a volte non sappiamo come trascorrerlo. Qui di seguito vi ri-proponiamo qualche gioco che nel corso degli anni abbiamo raccolto grazie all'esperienza di [Fede e Luce](https://www.fedeeluce.it/) . Abbiamo selezionato quelli da fare al chiuso ovviamente sperando che possano aiutarvi ad affrontare con un sorriso questo periodo difficile. Se volete potete raccontarci i vostri espedienti per come trascorrete le vostre giornate in maniera un po' diversa. Fatecelo sapere nei commenti o via email. 
 
 ### Indovina chi è
@@ -27,6 +31,8 @@ In questi giorni di "ritiro forzato" in casa a causa del [coronavirus](https://w
 **Partecipanti:** da 1 a 10 giocatori
 
 Uno dei giocatori si allontana e gli altri pensano ad una persona che tutti conoscono. Il giocatore che è uscito rientra e, rivolgendo una o più domande a turno ai ragazzi presenti, deve individuare di chi si tratta. Il capo-gioco esclude le domande che rivelano subito chi è la persona scelta.
+
+
 
 ---
 
@@ -36,6 +42,8 @@ Uno dei giocatori si allontana e gli altri pensano ad una persona che tutti cono
 
 Uno dei giocatori si volta verso il muro, o comunque si dispone in modo da non vedere gli altri giocatori, e dice a voce altra: «alle belle statuine che ballano» o…«che cantano» o altro; oppure «ai bei cacciatori»… «cuochi»…«pittori» e tutto quello che viene in mente che possa essere rappresentato con il mimo. Quando si volta verso i giocatori questi devono bloccarsi come statue in una posizione attinente a quanto richiesto. Il primo giocatore deve scegliere quella che, a suo parere, meglio rappresenta quanto richiesto, e il gioco ricomincia.
 
+
+
 ---
 
 ### Acqua e fuoco
@@ -44,6 +52,8 @@ Uno dei giocatori si volta verso il muro, o comunque si dispone in modo da non v
 
 Uno solo nella stanza, nasconde con cura in un angolo ben raggiungibile un fazzoletto. Entrano tutti i giocatori e cercano in ogni posto. Chi ha nascosto il fazzoletto li dirige dicendo: «acqua», quando si allontanano e «fuoco» o «fuochetto» quando qualcuno si avvicina al nascondiglio. Chi trova il fazzoletto lo nasconde a sua volta.
 
+
+
 ---
 
 ### "Tutti in piazza"
@@ -51,6 +61,8 @@ Uno solo nella stanza, nasconde con cura in un angolo ben raggiungibile un fazzo
 **Partecipanti:** da 3 a 10 circa **Materiali necessari:** Un tavolo, delle sedie
 
 I giocatori si dispongono intorno al tavolo in modo da arrivare con il dito indice al centro del tavolo. Chi dirige il gioco deve scandire, con più o meno forza e più o meno velocemente: «tutti in piazza!», e tutti devono mettere il dito al centro del tavolo, «tutti a casa!» e tutti devono riportarlo al bordo del tavolo. Il conduttore può muovere il dito a suo piacimento e ripetere gli ordini alternandoli in modo irregolare per rendere più difficile il gioco. Se uno sbaglia esce o paga pegno.
+
+
 
 ---
 
@@ -62,6 +74,8 @@ Ci si dispone in cerchio e mentre [animatore intona una canzone, si fa passare l
 
 **Marina** – «Immacolata Concezione» (Bari)
 
+
+
 ---
 
 ### Due meglio di uno
@@ -71,6 +85,8 @@ Ci si dispone in cerchio e mentre [animatore intona una canzone, si fa passare l
 Si legano tra loro il braccio destro di un concorrente con il sinistro dell’altro. Al via ogni coppia deve confezionare un pacco, legarlo e sigillarlo con lo scotch, usando naturalmente solo le due braccia libere. Vince chi è più avanti nel lavoro allo scadere del tempo fissato; oppure senza limiti di tempo vince chi confeziona il pacco migliore.
 
 **Marina** – «Immacolata Concezione» (Bari)
+
+
 
 ---
 
@@ -82,6 +98,8 @@ Si dispongono le sedie affiancate in fila e rivolte alternate in modo che i gioc
 
 **Marina** Comunità “Immacolata Concezione” (Bari)
 
+
+
 ---
 
 ### Ball-Dance
@@ -91,6 +109,8 @@ Si dispongono le sedie affiancate in fila e rivolte alternate in modo che i gioc
 Disporsi a coppie pronti per il «Ballo della mattonella». Le dame, hanno due palloncini gonfiati legati alle caviglie. Quando inizia la musica, incomincia il ballo. Sempre danzando i cavalieri cercano, con i piedi, di far scoppiare i palloncini delle dame degli altri cavalieri. Quando una coppia rimane senza palloncini, viene squalificata. Vince la coppia che rimane per ultima.
 
 **Marina** – «Immacolata Concezione» (Bari)
+
+
 
 ---
 
@@ -102,6 +122,8 @@ Ci si siede tutti in cerchio. Si distribuiscono i bigliettini di diverso colore 
 
 **Claudio** (Milano)
 
+
+
 ---
 
 ### Gioco dell’oca
@@ -111,6 +133,8 @@ Ci si siede tutti in cerchio. Si distribuiscono i bigliettini di diverso colore 
 Si tratta del tradizionale gioco che tutti conoscono, con la differenza che ad ogni casella corrisponderà un giochino di abilità, oppure una canzone da cantare o inventare, o piccole sfide da lanciare agli altri partecipanti. La scaletta di questi giochini andrà ovviamente preparata prima. I partecipanti saranno raggruppati in squadre per facilitare lo svolgimento del gioco.
 
 **Fede e Luce** (Carugate)
+
+
 
 ---
 
@@ -122,6 +146,8 @@ Ogni gruppo sceglie un capo-regista che riceverà dall’animatore il titolo di 
 
 **Mariangela** – S. Silvia (Roma)
 
+
+
 ---
 
 ### Gioco del silenzio
@@ -132,6 +158,8 @@ Ci si dispone in cerchio e si pone al centro un mazzo di chiavi. Si sceglie una 
 
 **Mariangela** – S. Silvia (Roma)
 
+
+
 ---
 
 ### Che c’è nel sacco?
@@ -141,6 +169,8 @@ Ci si dispone in cerchio e si pone al centro un mazzo di chiavi. Si sceglie una 
 L’animatore chiama uno a uno i giocatori e fa infilare loro la mano nel sacco senza che possano guardarci dentro. Al tatto, ogni partecipante deve riconoscere un oggetto e lo dirà all’orecchio dell’animatore che segnerà su un foglio il nome dell’oggetto riconosciuto. Vincerà la squadra che nel totale dei partecipanti avrà riconosciuto il maggior numero di oggetti. È un gioco di riconoscimento tattile adatto a persone con difficoltà medio — lievi.
 
 **Mariangela** – S. Silvia (Roma)
+
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Vita dei gruppi Fede e Luce 1978
 date: 1978-09-11
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 ### San Cirillo - Roma
 
 Oggi 22 aprile 1978 è nato un nuovo gruppo di Fede e Luce, il gruppo S. Cirillo. Dopo un violento acquazzone è uscito il sole come per incoraggiarci ancora di più ad andare incontro ai nuovi amici. Veramente mi sentivo un po' in apprensione, ma man mano che ci vedevamo e che gli amici degli altri gruppi venivano a trovarci, mi sono sentita come sempre, cioè bene e ho pensato fra me come mai prima mi sentivo un po' agitata. Invece, rivedere tutti...
@@ -24,6 +26,7 @@ Come è difficile spiegare cos'è Fede e Luce! Ogni volta che vengo a un incontr
 I nuovi amici sono molto simpatici; assieme a Don Edoardo che ci ha ospitati e speriamo che presto siano più numerosi per accogliere i nostri amici più bisognosi.
 
 *Rita Ozzimo* , 1978
+
 
 ---
 
@@ -57,6 +60,7 @@ So che la volontà di fare in modo che sia così sempre più spesso c'è in tutt
 
 *Pinino* , 1078
 
+
 ---
 
 ### Hands-out S. Paolo - Roma
@@ -76,6 +80,7 @@ Abbiamo pure partecipato alla festa della Luce e a quella della Primavera che so
 Certo, rispetto all'anno scorso; abbiamo fatto già molto di più, ma pensiamo che molto si possa fare ancora, ed è per questo che già stiamo discutendo sull'attività del prossimo anno. Sono uscite diverse proposte come fare dello sport (nuoto, ginnastica), un periodo di vacanza insieme, una commedia interamente scritta dai ragazzi, a differenza di quella che stiano attualmente preparando e che andrà in scena il 18 giugno.
 
 Speriamo di riuscire a fare qualcosa di tutto ciò. *SEPU Settimio* , 1978
+
 
 ---
 
@@ -129,6 +134,7 @@ Ringraziamo di tutto questo Dio che ci segue amorevolmente, e arriviamo a Lui at
 
 *Claudio* , 1978
 
+
 ---
 
 ### Cuneo
@@ -144,6 +150,7 @@ Si è riusciti anche a risolvere il problema di Matteo (ragazzo grave) in quanto
 **Ultimissime** Domenica 23/4 si sono sposati Elisa e Franco due giovani del gruppo. Auguri agli sposi! e salutoni a tutti gli amici di Roma.
 
 *Mario e Betty* , 1978
+
 
 ---
 

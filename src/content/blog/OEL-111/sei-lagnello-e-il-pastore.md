@@ -1,4 +1,5 @@
 ---
+
 title: "Sei l'agnello e il pastore"
 date: 2010-09-30
 author: Pere Bernard-Marie Geffroy
@@ -16,7 +17,10 @@ umap_z: 10.148696899414062
 issue_number: OEL-111
 id_numero: "OEL-111"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Padre Geffroy sottolinea come la fragilità confermi la funzione sacra del sacerdozio e lo dimostra attraverso la sua esperienza nei confronti delle persone di strada a Parigi"
 ---
+
 *Dire che la fragilità conferma la funzione sacra del sacerdozio è una grande audacia. Il ministero della fede lo attesta, ama ricordare il padre Geffroy, così come la sua esperienza nei confronti delle persone di strada a Parigi.*
 S
 ia sacerdoti che laici, abbiamo in comune il sacerdozio battesimale, fondamento di ogni sacerdozio la cui fonte è l’unico sacerdozio del Cristo, grande sacerdote, nella fragilità della sua Passione e nella potenza della sua Resurrezione. Essere prete è voler amare come Cristo ha amato, entrare nella sua compassione e fare di tutto per assomigliargli. È vederlo in ogni essere, soprattutto in quelli che hanno fame, negli stranieri, i malati, i prigionieri, i poveri,... (Mt. 25). Sacerdozio comune dei fedeli e sacerdozio ministeriale trovano la loro perfetta risonanza nella compassione che anch'essa trova la sua fonte nella compassione del Cristo. Per il ministro ordinato, la compassione è in modo più diretto quella del Cristo nella sua missione, in persona Christi. È il suo rappresentante, cioè il Cristo reso presente nella persona del sacerdote che agisce nei gesti sacramentali e nei suoi compiti specifici (insegnamento, responsabilità e animazione della carità, legame ecclesiale). Come comprendere ciò che spesso constatiamo: le persone di grande fragilità sono come dei rivelatori di questo sacerdozio ministeriale? La mia vocazione sacerdotale parte dalla mia povertà. Preso da una profonda tristezza, or sono trent'anni, in un monastero, Cristo si è rivelato a me nel momento in cui il prete diceva: “Beati gli invitati alla cena del Signore”. Ho fatto allora l’esperienza della potenza di vita e di liberazione contenuta nell’Eucarestia. Le parole non rie— scono a dire ciò che provai... Sta di fatto che passai dall’ateismo alla fede. Il Signore ha iniziato allora la mia vocazione che ho ricevuto nel luogo stesso della mia povertà.

@@ -1,4 +1,5 @@
 ---
+
 title: "Vita Fede e Luce n. 102 - L'incontro"
 date: 2008-06-27
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.950446128845215
 issue_number: OEL-102
 id_numero: "OEL-102"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La parrocchia di San Giuseppe della Pace è stata la prima ad accogliere Fede e Luce a Milano, quasi trenta anni fa. Un legame con la comunità parrocchiale che non si è mai interrotto ma che ha vissuto negli anni come tutti i rapporti di lunga data momenti di alti e bassi"
 ---
+
 La parrocchia di San Giuseppe della Pace è stata la prima ad accogliere Fede e Luce a Milano, quasi trenta anni fa. Un legame con la comunità parrocchiale che non si è mai interrotto ma che ha vissuto negli anni - come tutti i rapporti di lunga data - momenti di alti e bassi.
 
 Sicuramente un'occasione di intensa comunione, di affidamento della comunità di Fede e Luce all’ amore di Dio e dei parrocchiani — è stato quello vissuto in questa Quaresima, nella quarta domenica cosi detta del cieco nato. Grazie indubbiamente alla trascinante creatività pastorale del parroco don Vittorio De Paoli.

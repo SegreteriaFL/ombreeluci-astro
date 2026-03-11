@@ -1,4 +1,5 @@
 ---
+
 title: 14 giochi da fare insieme
 date: 1994-06-18
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-48
 id_numero: "OEL-48"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ecco una prima lista di giochi ( [qui la seconda](https://www.ombreeluci.it/1994/22-mini-giochi-da-fare-insieme/) ). Mandateci le vostre osservazioni e anche altri giochi che ritenete validi: faremo il prossimo anno un altro numero su attività e giochi di gruppo.
 **English Version: [14 Interactive Games for Unforgettable Group Fun](https://www.ombreeluci.it/en/1994/06/23/14-interactive-games-for-unforgettable-group-fun/)**
 
@@ -35,6 +37,7 @@ Facile
 (9 e 8 anni) -
 *Comunità Fede e Luce di S. Silvia (Roma)*
 
+
 ---
 
 style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2238371130141396" data-ad-slot="8859257558">
@@ -51,6 +54,7 @@ Cartoncino, forbici e pennarello. Si preparano in base al numero dei partecipant
 (Bari)
 **Leggi anche: [22 mini-giochi da fare insieme](https://www.ombreeluci.it/1994/22-mini-giochi-da-fare-insieme/)**
 
+
 ---
 
 ### Rischia cento - (gioco per grandi feste)
@@ -66,6 +70,7 @@ Quando si decide di terminare il gioco vince la squadra che ha totalizzato il pu
 **Comunità « S. Giuseppe della pace»**
 (Milano)
 
+
 ---
 
 ### Fratelli!
@@ -79,6 +84,7 @@ da 10 in sù Ci si divide in coppie (meglio se ogni coppia è costituita da un r
 **Enza Gucciardo**
 (Mazara)
 
+
 ---
 
 ### Il colore che salta
@@ -91,6 +97,7 @@ dentro o fuori , ma abbastanza capiente
 foglietti di carta colorati Ci si divide in gruppi e ogni gruppo ha un colore. I componenti del gruppo si attaccano addosso i foglietti del colore scelto. II capo gioco comincia a raccontare una storia con molta fantasia menzionando i colori presenti. I componenti de gruppo devono saltare (o alzare una mano) ogni volta che viene nominato il loro colore. Gioco abbastanza semplice. Molto dipende dalla bravura del capo-gioco che deve anche ripetere più volte di seguito lo stesso colore per far sì che uno stesso gruppo saltelli continuamente.
 **Enza Gucciardo**
 (Mazara)
+
 
 ---
 
@@ -116,6 +123,7 @@ Le squadre invece di rubarsi reciprocamente i vestiti, si incontreranno per scam
 **Nanni**
 - S. Gregorio (Roma)
 
+
 ---
 
 style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2238371130141396" data-ad-slot="3377933808">
@@ -131,6 +139,7 @@ all'aperto o al chiuso è indifferente
 **Elisabetta**
 - S. Gregorio (Roma)
 
+
 ---
 
 ### Il ballo del giornale
@@ -144,6 +153,7 @@ Uno o più quotidiani , musica. L'animatore dividerà i presenti in coppie conse
 **Dario Mitolo**
 (Bari)
 
+
 ---
 
 ### Palla ai piedi
@@ -156,6 +166,7 @@ all'aperto o al chiuso purché tutti seduti su sedie o panche
 2 palloni (nè troppo pesanti nè troppo leggeri) e bacinelle (capaci di contenere abbondantemente il pallone). I partecipanti (ben alternati — giovani, anziani, signore, persone con difficoltà, bambini...) si dispongono seduti su due file di sedie lungo le pareti; una squadra di fronte all'altra. Le mani di tutti poggiano a lato sui bordi delle sedie e non potranno mai essere usate. Le gambe distese diritte in avanti. Due animatori, uno per ogni squadra, al via posano il pallone sui piedi o tra i piedi del primo giocatore che subito cercherà di passarlo sui piedi o tra i piedi del secondo fino all'ultimo che dovrà deporre il pallone nelle bacinelle sempre solo usando i piedi. Ogni volta che il pallone cade (e cade spesso!) l'animatore lo riposerà sempre sul primo della fila; tutto da capo quindi! Vince, ovviamente, la squadra che per prima deporrà il pallone in una delle bacinelle. È un gioco molto divertente. Scatena risate e entusiasmo. L'ho visto e fatto giocare a persone di ogni tipo (anziane signore, bambini piccoli, vescovi persino!) Ce un eccezione ahimè! Le persone che non possono usare liberamente gli arti inferiori potranno controllare l'arrivo del pallone nel bacile e proclamare la squadra vincente.
 **Mariangela**
 - S. Silvia (Roma)
+
 
 ---
 
@@ -184,6 +195,7 @@ divisi in 2 squadre di almeno 6 persone.
 **Cristina**
 - S. Gregorio (Roma)
 
+
 ---
 
 14-2
@@ -202,6 +214,7 @@ registratore con cassetta o giovane con chitarra Far passare di mano in mano il 
 **Mariangela**
 - S. Silvia (Roma)
 
+
 ---
 
 ### Casinò dei fagioli
@@ -212,6 +225,7 @@ mezzo chilo di fagioli secchi - uno strumento sonoro per ogni gruppo - un'elenco
 animali , sport , piante, cucina , cartoni animati, ecc. Prima di cominciare il capo-gioco dà a ogni gruppo un numero uguale di fagioli (± 50); quelli che restano costituiscono la banca. Poi annuncia la categoria delle domande che farà. I gruppi puntano allora da 1 a 5 fagioli. La domanda viene posta. 1 gruppi fanno risuonare il loro strumento sonoro e danno a turno la loro risposta. Se il primo gruppo che si è fatto sentire dà una risposta giusta riceve il doppio della sua puntata. Se la risposta è sbagliata, consegna i fagioli puntati al capogioco. Se la risposta del secondo gruppo che ha reagito è giusta esso riceve semplicemente indietro la sua puntata; se è sbagliata consegna la puntata al capogioco. Alla fine ogni gruppo conta i suoi fagioli: chi ne ha in maggior numero è dichiarato vincitore.
 **F.L.**
 (Belgio)
+
 
 ---
 
@@ -227,6 +241,7 @@ due anelli di corda o spago grosso dal diametro di 60-70 centimetri (a seconda d
 Disporre le squadre in fila sulla linea di partenza. Sulla linea del traguardo tracciare con gesso o carta colorata o fettuccia 2 o 3 perimetri entro i quali si posano per terra gli anelli di corda. Al via del capo-gioco, i primi 2 o 3 giocatori raggiungono il traguardo, entrano nel perimetro, infilano la corda dalla testa e la fanno calare a terra, dove la lasciano e corrono verso il 2° compagno, gli toccano la mano e escono dal gioco. Il 2° compagno farà lo stesso fino all'ultimo. La vittoria sarà del gruppo che avrà impiegato minor tempo. È un gioco «riscaldante», divertente. Si ricorda di dividere equamente i componenti le squadre secondo abilità di corsa e di movimento.
 **Mariangela**
 - S. Silvia (Roma)
+
 
 ---
 

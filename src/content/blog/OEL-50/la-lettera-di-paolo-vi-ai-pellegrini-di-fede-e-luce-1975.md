@@ -1,4 +1,5 @@
 ---
+
 title: La lettera di Paolo VI ai pellegrini di Fede e Luce, 1975
 date: 1975-10-28
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 13.10629940032959
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un posto nel cuore di Dio: il messaggio paterno di Papa Paolo VI nel 1975, parole di consolazione, speranza e coraggio per le persone con disabilità e le loro famiglie."
 ---
+
 ### Ai cari *handicappati* di «Fede e Luce» riuniti a Roma. Ai loro genitori. Ai loro amici.
 
 Ci rallegriamo con voi che avete voluto, come già tanti altri pellegrini, incontrarvi a Roma in questo Anno Santo, per chiedere a Dio un cuore nuovo, purificato e fortificato, e vivere da cristiani riconciliati, in una fraternità accresciuta e più estesa. A voi tutti che soffrite, noi ridiciamo la Buona Novella che l’Apostolo Pietro, prima di Noi, portò fino a Roma.

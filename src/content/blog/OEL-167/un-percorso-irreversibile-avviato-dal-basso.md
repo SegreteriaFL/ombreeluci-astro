@@ -1,4 +1,5 @@
 ---
+
 title: Un percorso irreversibile avviato dal basso
 date: 2024-11-26
 author: Nicla Bettazzi
@@ -14,7 +15,10 @@ umap_z: 10.446223258972168
 issue_number: OEL-167
 id_numero: "OEL-167"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Come reagì la città di Trieste"
 ---
+
 Arrivando per la prima volta a Trieste in un’estate dei primi anni Settanta, la bella sorpresa fu che d’impatto tutto corrispondeva al mio immaginario di giovane studentessa. Trieste, splendida, emanava il fascino di una capitale europea, algida, elegante, multietnica, in più a dimensione umana. In contrasto, però, con l’immagine gaia, esuberante, tollerante, di sano benessere che la città offriva, colpivano, non poco, l’insofferenza verso quegli «s’chavi maledeti» che affollavano per lo più la piazza davanti alla stazione centrale, il numero elevatissimo di persone anziane.
 
 In realtà infatti erano presenti, carsicamente, dolorose e drammatiche problematicità: i dati statistici, dei quali in quegli anni i più erano all’oscuro, parlavano di come la città avesse sempre avuto percentuali altissime di malati di tbc, suicidi (maglia nera in Italia), alcolisti e malati mentali. Trieste era stata una grande città per un tempo relativamente breve, da metà Settecento al 1918 e tutte le culture, etnie, tradizioni etniche che vi erano confluite non avevano avuto la possibilità di amalgamarsi in un modello unitario. Se quella identità era stata anche l’humus sul quale era fiorita una insuperata produzione letteraria, l’inquietudine aveva però riversato altri disorientamenti sugli strati più fragili della popolazione compreso lo sbocco in un nazionalismo, in uno sciovinismo quasi presi a prestito. Poi un secondo dopoguerra particolarmente duro (i difficili rapporti con le zone limitrofe, la tragedia delle foibe e degli esuli istriani, un’economia tutta da ricostruire, un clima a volte davvero inclemente).

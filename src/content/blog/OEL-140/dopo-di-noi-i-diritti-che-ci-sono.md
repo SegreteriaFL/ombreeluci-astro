@@ -1,4 +1,5 @@
 ---
+
 title: "Dopo di noi: i diritti che ci sono"
 date: 2017-12-21
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 7.031200885772705
 issue_number: OEL-140
 id_numero: "OEL-140"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un contributo della Fondazione Promozione Sociale, da anni impegnata in una costante attenzione della situazione assistenziale italiana"
 ---
+
 *Una delle cose positive della legge sul Dopo di noi è senz’altro quella di aver posto la questione all’ordine del giorno delle diverse parti interessate (Enti territoriali e locali, ASL, famiglie, associazioni). Non che le famiglie non fossero già pienamente coinvolte e interessate ma ora dovrebbero avere delle indicazioni e degli stimoli maggiori per valutare la questione il prima possibile. Speriamo non a complicare…!*
 
 *Come leggiamo nel contributo che segue della Fondazione Promozione Sociale, da anni impegnata in una costante attenzione della situazione assistenziale italiana, molto veniva già garantito dalla leggi esistenti. E tanti gli esempi avviati anche prima di questa legge di buoni progetti di vita per le persone con disabilità lontano dai loro familiari. È importante ricordarlo. Ma tanti diritti pienamente esigibili, già esistenti o descritti nella legge, devono (e forse dovranno) ancora essere richiesti per via giuridica perché vedano piena realizzazione. La legge può restituire invece una visione della questione più corale e, allo stesso tempo, più consapevole dando la possibilità di ritagliare per ciascuno il progetto di vita più adeguato.*

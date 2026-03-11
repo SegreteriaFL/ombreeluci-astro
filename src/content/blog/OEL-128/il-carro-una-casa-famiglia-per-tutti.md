@@ -1,4 +1,5 @@
 ---
+
 title: "Il Carro: una casa (famiglia) per tutti"
 date: 2014-12-15
 author: Matteo Mazzarotto
@@ -17,7 +18,10 @@ umap_z: 12.027594566345215
 issue_number: OEL-128
 id_numero: "OEL-128"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dopo gli anni dello sviluppo di Fede e Luce, per Mariangela la casa-famiglia era “il” sogno"
 ---
+
 **M ariangela era una forza. Una vera forza della natura per la passione che metteva in tutto** , e che spesso e volentieri la portava a discutere anche animatamente con le persone, a partire da quelle cui voleva più bene. Non si tirava mai indietro, soprattutto poi su ciò che riguardava le persone più povere e provate, a cominciare dalle famiglie, dalle mamme e dai papà di figli speciali come la sua Chicca, di cui conosceva, e sapeva rappresentare, angosce, necessità, desideri, paure…
 
 **Dopo gli anni dello sviluppo di Fede e Luce, per Mariangela la casa-famiglia era “il” sogno.** Vivere la fraternità, l’affetto e il mutuo sostegno in un ambiente caldo e protetto era l’unica possibilità che intravedeva per il futuro dei suoi amici disabili e soprattutto per l’angoscia delle loro famiglie. Pur rispettando il lavoro di chi nelle Istituzioni si occupava di questi aspetti, era spesso insofferente per le troppe parole spese senza costrutto, per la troppa teoria che non diventava mai pratica, per la tendenza tipicamente istituzionale a concepire solo in termini “educativo-riabilitativi” invece che partire dalla necessità della relazione. E sentiva, anzi portava proprio su di sé, quell’angoscia dei genitori, nonostante non fosse più la sua personale, e si sentiva in qualche modo responsabile di contribuire ad alleviarla.

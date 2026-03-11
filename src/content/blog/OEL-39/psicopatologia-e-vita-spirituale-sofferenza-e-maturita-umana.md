@@ -1,4 +1,5 @@
 ---
+
 title: "Psicopatologia e vita spirituale - Sofferenza e maturità umana"
 date: "1992-09-07"
 author: "Natalia Livi"
@@ -15,6 +16,7 @@ issue_number: OEL-39
 id_numero: "OEL-39"
 numero_rivista: "Ombre e Luci"
 ---
+
 È molto difficile parlare in modo esauriente di questo libro dal tema così complesso, un libro così denso di insegnamento e di pensiero. Non si può che invitare caldamente a leggerlo tutti coloro che soffrono o che si sentono chiamati ad essere vicini a chi soffre.
 E l’opera più recente di Padre Henri Bissonnier docente di psicopatologia e di psicopedagogia all’Università di Lovanio e presso l’Istituto Cattolico di Parigi, uno dei pionieri della catechesi per gli handicappati. E un uomo che ha conosciuto da vicino la sofferenza sia per averla vissuta personalmente sia per aver dedicato a chi soffre la sua vita intera.
 In questo libro egli ne afferma e ne analizza il significato e il valore, fatti reali, ma difficili ad essere compresi e accettati. Egli dedica la prima parte del volume alle connessioni tra «vissuto patologico e vita spirituale» e distingue la sofferenza, che è il vissuto derivante dalla coscienza di un male fisico, psichico o sociale, dal dolore che da quel male deriva. Mentre il dolore deve essere combattuto con tutti i mezzi terapeutici possibili, la sofferenza è una prova dove ognuno viene messo a confronto con la propria capacità di trasformare in un bene ciò che obiettivamente è un male. Nella seconda parte del libro, intitolata «Psicopatologia e vita spirituale» Padre Bissonnier si chiede: «Dopo avere detto ciò che è stato scritto riguardo al vissuto di sofferenza in genere, come potremmo, senza trattare il problema della coscienza, porci valide domande sul se e sul come tale vissuto possa venir sperimentato dai malati e cerebrolesi?».

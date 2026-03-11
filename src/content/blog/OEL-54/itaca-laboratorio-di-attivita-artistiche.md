@@ -1,4 +1,5 @@
 ---
+
 title: "Itaca - Laboratorio di attività artistiche"
 date: "1996-06-14"
 author: "Natalia Livi"
@@ -15,6 +16,7 @@ tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
 ---
+
 Itaca è un centro privato di assistenza psichiatrica e di riabilitazione psicosociale che si rivolge a pazienti di ambedue i sessi, tra i 20 e i 50 anni, che abbiano avuto crisi psicotiche e che si trovino attualmente in stato di «convalescenza psichiatrica». ITACA sta a Roma in Via Flaminia Nuova, 219 (tei. 36307831) dove è nato circa tre anni fa.
 Qui i pazienti trovano il luogo dove esprimere se stessi attraverso piccole attività manuali ed artistiche (disegno, ceramica, pittura, collage, ecc.), dove ritrovare quelle parti di sé che funzionano ancora e, a partire da queste, prendere di nuovo in mano la propria vita per esserne protagonisti.
 

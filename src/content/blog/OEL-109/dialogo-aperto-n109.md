@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n.109
 date: 2010-03-16
 author: Redazione
@@ -16,11 +17,16 @@ umap_z: 10.339978218078613
 issue_number: OEL-109
 id_numero: "OEL-109"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Chiamare per nome
 
 Importa ai nostri amici di tante stagioni Nicola, Mariangela, Pasquale, ai nostri “ragazzi” di Fede e Luce, se chiamiamo le loro ferite “handicap”, “disabilità” “diversabilità”? Che interesse ha per loro il dibattito sul linguaggio “politicamente corretto” riportato — fra varie altre cose — nell’interessante resoconto di Elisabetta de Rino del seminario su “Disabilità e informazione” svoltosi a Torino qualche mese fa (vedi lo scorso numero di Ombre e Luci)? Possiamo immaginare che abbiano altre priorità! Basta questo a dire che quel dibattito è inutile? No, purché accettiamo che serve più a noi che a loro. Il “politicamente corretto” è una specie di termometro della sensibilità della società rispetto a certi temi. Da questo punto di vista, spero di non sembrare troppo paradossale se dico che sono contento che il dibattito ci sia ma che le soluzioni trovate mi interessano molto poco. Mi spiego: è bello che ci si interroghi sulle necessità delle persone disabili, che si cerchi di ‘individuare i confini delle loro sensibilità, dei bisogni materiali, delle aspirazioni intellettuali o sentimentali; ma non ci sarà parola al mondo tanto precisa e rispettosa da essere in grado da un lato di diminuire il carico delle sofferenze loro e delle loro famiglie, dall’altro di attenuare la responsabilità della società nei loro confronti. Insomma, chiediamoci pure come dobbiamo chiamare Nicola, Mariangela e Pasquale — se handicappati, disabili, diversamente abili o altro ancora — purché il “bel dire” non sia l’alibi del “non fare”. A loro continuano a servire amicizia, assistenza, occasioni di divertimento e di crescita culturale, spazi urbani fruibili e poi anche parole adatte. lo per me vorrei rivolgere una preghierina a Gesù: di avere il cuore abbastanza grande da poterli chiamare per nome.
 **Vito Giannulo**
+
+
 
 ---
 
@@ -28,6 +34,8 @@ Importa ai nostri amici di tante stagioni Nicola, Mariangela, Pasquale, ai nostr
 
 In quest'anno si è tanto parlato , e anche avvertito, che l'economia mondiale ha seri problemi, forse ciascuno di noi ha rettificato alcune abitudini, ha cercato di diventare più attento nelle scelte quotidiane e ha cominciato a scoprire che “l'essere vale più dell’avere!” Anche all’Huiling (comunità di accoglienza per disabili ad Hong Kong, n.d.r.) ci siamo sentiti a disagio perché, mentre ci si stava abituando ad un continuo miglioramento — tutto ad un tratto — ci si è trovati a perdere compagni di lavoro e addirittura ad essere sfrattati. Pensate che proprio nella grandiosa Pechino delle ultime faraoniche Olimpiadi, dove una quarantina di persone diversamente abili si manteneva facendo semplici spettacoli in Hutong (un caseggiato di stile antico che ricorda le viuzze popolari del tempo degli imperatori) sono dovuti andare via per sfratto, perdendo anche il lavoro... ma tutto l'impegno di questi anni non è andato perso. Anzi! Lo Spirito di Dio ha toccato il cuore dei nostri operatori che hanno preso, di tasca propria e con tanto coraggio, non pochi risparmi per affittare in un’altra parte della città un ambiente simile. Così, sia loro sia i disabili mentali possono continuare ad avere un proprio ambiente di incontro e possono offrire ai turisti un bello spettacolo. E chissà se un giorno vi capiterà di vederlo anche a voi in Cina o in Italia!
 **Padre Fernando Cagnin**
+
+
 
 ---
 

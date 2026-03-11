@@ -1,4 +1,5 @@
 ---
+
 title: "Newsletter n. 10 - Sulla regia non credente di \"Lourdes\""
 date: 2020-02-22
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 *21 Febbraio 2020*
 
 ### Sulla regia non credente di *Lourdes*
@@ -23,11 +25,13 @@ numero_rivista: "Ombre e Luci"
 
 "La Chiesa sta cambiando. Diviene più evangelica. Non è però facile entrare in pratiche che sembrano nuove, della novità di un’accoglienza che il nostro papa Francesco ricorda invece essenziale per vivere il Vangelo”. Così Padre [Paul Gilbert](https://www.ombreeluci.it/chisiamo/#gilbert) , gesuita da anni molto vicino alle comunità di Fede e Luce romane, avvia [la sua riflessione](https://www.ombreeluci.it/2020/perche-non-ascoltiamo-la-risposta-di-gesu/) sull’articolo di Justin Glyn pubblicato da Civiltà Cattolica (n. 4069). Ancora un’eco interessante per approfondire meglio la necessità teologica di un nuovo sguardo sulla fragilità dell’essere umano: la consapevolezza che la Chiesa si stia muovendo, rivelando margini di miglioramento nella sua fondante dimensione evangelica, fa riflettere e ben sperare.
 
+
 ---
 
 **Testimonianza** – “Ricordo benissimo il primo carnevale” scrive Vittoria Lombardo, mamma di Antonella, che [ci racconta](https://www.ombreeluci.it/2020/il-primo-carnevale-di-antonella/) – tornando all'infanzia di sua figlia a Reggio Calabria – come avveniva la scelta del costume per la maschera a scuola.
 
 Scelta che doveva combinare le passioni della piccola con la sua difficoltà di deambulare. Finché, dopo tanta riabilitazione, il sogno di Antonella si realizza: è il tanto sospirato costume da fata. A voi, cari lettori, buon carnevale, e buona scelta della maschera!
+
 
 ---
 
@@ -36,6 +40,7 @@ Scelta che doveva combinare le passioni della piccola con la sua difficoltà di 
 #### [Se aspetto poco poco, arriva la risposta](https://www.ombreeluci.it/2020/se-aspetto-poco-poco-arriva-la-risposta/)
 
 Mi piace un sacchissimo il cellulare. Io ho il mio cellulare. Ma non mi piace usare il mio cellulare. Non lo so perché ma non mi piace. Io uso sempre il cellulare di mamma. [Continua a leggere...](https://www.ombreeluci.it/2020/se-aspetto-poco-poco-arriva-la-risposta/)
+
 
 ---
 

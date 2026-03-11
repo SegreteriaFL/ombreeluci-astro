@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.53
 date: 1996-03-03
 author: Redazione
@@ -17,6 +18,7 @@ umap_x: 7.834644794464111
 umap_y: 9.920576095581055
 umap_z: 13.079752922058105
 ---
+
 ### Jean Vanier, un vero costruttore dell’unità religiosa
 
 Persone di otto confessioni cristiane hanno preso parte a Lvov (Leopoli), in Ucraina, a un ritiro di tre giorni con il fondatore dell’Arca e di Fede e Luce. Vi hanno preso parte circa settecento persone che rappresentavano otto delle nove confessioni cristiane presenti nella regione. Esse si sono riunite in una sede «neutrale», ['Accademia Veterinaria di Lvov. 11 progetto aveva ricevuto l’approvazione da parte delle rispettive autorità religiose, purché il ritiro si mantenesse sulla spiritualità, terreno comune fra le diverse confessioni. Erano presenti tre denominazioni ortodosse (Patriarcato di Mosca, Patriarcato di Kiev e Autocefali), tre denominazioni protestanti (Battisti, Pentecostali Avventisti del 7° giorno), due riti cattolici (Romano e Bizantino) e gli Armeni. Si era deciso che il terreno comune sarebbe stato costituito da alcuni canti di Taizé (tradotti per l’occasione in lingua ucraina), dal Padre Nostro e dai Salmi, e che nei gruppi non ci si sarebbe mai scostati dal tema della misericordia e dell’amore per i poveri. Queste condizioni coincidevano con lo Spirito dell’Arca dove si impara a «scendere la scala» per seguire Gesù.
@@ -26,6 +28,7 @@ Dopo la caduta del comuniSmo e il ritorno alla luce della Chiesa cattolica di ri
 Il ritiro di Jean Vanier ha messo in luce il carattere superficiale di queste etichette. La pace e la gioia che hanno regnato durante i tre giorni di ritiro sono state una dimostrazione eloquente della vocazione ecumenica dei poveri. Le parole del fondatore dell’Arca hanno fatto fondere il ghiaccio nel fuoco dello Spirito Santo. Nella sua situazione di devastazione e di discordia il popolo ucraino aveva bisogno di ascoltare parole consolanti. Aveva bisogno di sentire che «Gesù frustato, bastonato, disprezzato, cammina di povertà in povertà e viene a raggiungerci nella nostra povertà». Aveva bisogno di sentire che «spesso è là dove siamo più poveri che Dio viene a creare le cose più belle». Questo popolo che sta cercando i modi di governarsi da sé a tutti i livelli aveva bisogno di sentirsi dire che «una ricerca del potere può nascondersi anche nella nostra decisione di seguire Gesù». Contro ogni aspettativa la partecipazione alla preghiera comune, prevista per il sabato in una chiesa ortodossa del patriarcato di Kiev e la domenica in una chiesa cattolica di rito greco, è stata molto numerosa. Eppure alcune suore cattoliche di rito greco avevano discusso per un’ora se partecipare o meno a una liturgia in una chiesa ortodossa. Alla fine sono venute ed hanno potuto ascoltare l’invito del vescovo Andrea Horak a «incanalare le energie, finora utilizzate per le lotte interconfessionali, verso un’azione comune di aiuto ai poveri e alle persone disabili». L’unico punto nero dell’insieme è stato l’assenteismo degli ortodossi autocefali. E vero che appena dieci giorni prima il vescovo Antonio del patriarcato di Kiev aveva sospeso dalle sue funzioni l’arcivescovo Pietro che governava la Chiesa ortodossa autocefala di Lvov, e aveva scomunicato Bohdan Rujak, responsabile di un gruppo di giovani autocefali. Quanto ai risultati del ritiro il primo e il più importante è il desiderio di molte confessioni di creare una comunità Fede e Luce nella propria Chiesa. Dice Jean Vanier: «Così i gruppi Fede e Luce di confessioni diverse si riuniranno di tanto in tanto per celebrare la loro unità».
 *Marguerite Peeters*
 , 1996 (corrispondente a Lvov del giornale «La Libre Beìgique»)
+
 
 ---
 

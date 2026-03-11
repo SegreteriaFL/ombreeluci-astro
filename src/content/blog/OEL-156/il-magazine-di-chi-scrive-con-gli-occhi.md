@@ -1,4 +1,5 @@
 ---
+
 title: Il magazine di chi scrive con gli occhi
 date: 2021-09-15
 author: Enrica Riera
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 C'èun film del 2007 diretto da Julian Schnabel che s’intitola *Lo scafandro e la farfalla* e si basa sull’omonimo libro autobiografico di Jean-Dominique Bauby, in cui **quest’ultimo descrive la sua vita dopo aver avuto un ictus ed essere rimasto, all’età di 43 anni, totalmente paralizzato:** l’unico mezzo che l’uomo, compianto redattore capo della rivista «Elle», possiede per comunicare col mondo è il battito della palpebra sinistra e, proprio tramite il suo occhio, riesce a scrivere il volume, trasposto poi cinematograficamente.
 
 Ebbene, **oggi, a scrivere con gli occhi sono anche Pippo Musso, Claudio A.F. Messa e Luigi Picheca** (residenti nella RDS San Pietro – Progetto SLAncio, promosso dalla Cooperativa La Meridiana di Monza) insieme a tutti coloro i quali che, parimenti conviventi con la Sclerosi Laterale Amiotrofica (SLA), contribuiscono alla realizzazione di **una vera e propria testata giornalistica online** (Roberto Mauri ne è direttore editoriale e Fabrizio Annaro direttore responsabile). Il suo nome è, non a caso, «Scriveresistere. Il magazine di chi scrive con gli occhi».

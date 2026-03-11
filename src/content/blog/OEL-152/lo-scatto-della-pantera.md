@@ -1,4 +1,5 @@
 ---
+
 title: Lo scatto della pantera
 date: 2020-06-03
 author: Rosita Daddato
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ipanzerotti sono una prelibatezza pugliese. Grandi o piccini, sono ottimi a un campo estivo come attività comunitaria: ci vuole la collaborazione di tutti, soprattutto nel mangiarli!
 
 La nostra comunità sceglie di farli al campo quando aspettiamo ospiti per l’apertura; il pomeriggio presto si prepara l’impasto e lo si lascia lievitare, come la voglia di stare insieme agli amici. Si crea una certa euforia anche tra chi, essendo di cucina, dovrà friggere per un bel po’… L’ultima volta gli addetti alla frittura odoravano di rosticceria anche il giorno dopo, e anche dopo la doccia.

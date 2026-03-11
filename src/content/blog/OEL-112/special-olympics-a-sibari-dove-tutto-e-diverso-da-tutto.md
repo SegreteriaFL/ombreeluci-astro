@@ -1,4 +1,5 @@
 ---
+
 title: "Special Olympics a Sibari, dove tutto è diverso da tutto"
 date: "2010-03-16"
 author: "Redazione"
@@ -14,6 +15,7 @@ issue_number: OEL-112
 id_numero: "OEL-112"
 numero_rivista: "Ombre e Luci"
 ---
+
 Per chi come me qualche anno fa, non lo conosce, **Special Olimpycs** è un programma internazionale di allenamento sportivo e competitività atletica per ragazzi ed adulti con disabilità intellettiva, con l'intento di facilitare l'inserimento di questi ragazzi, nella società attraverso lo sport.
 
 Il nostro primo incontro con i ragazzi di Special Olympics risale al 2004, quando in occasione dell’inaugurazione del nostro villaggio turistico in Calabria, grazie al suggerimento del presidente dell’associazione, **Dott. Federico Vicentini**, abbiamo invitato una delegazione di atleti con le loro famiglie, per un momento di aggregazione e per poter praticare il gioco del golf.

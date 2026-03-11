@@ -1,4 +1,5 @@
 ---
+
 title: Vogliamo andare avanti?
 date: 2001-09-27
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 10.096237182617188
 issue_number: OEL-75
 id_numero: "OEL-75"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Perché ogni anno diminuiscono complessivamente i contributi al nostro giornale, malgrado la generosità di alcuni amici?"
 ---
+
 Durante la pausa estiva sono tornate più insistenti alcune domande che da qualche tempo mi assalgono quando mi accingo a scrivere l'editoriale. Perché ogni anno diminuiscono complessivamente i contributi al nostro giornale, malgrado la generosità di alcuni amici? Vuol dire che diminuisce il numero dei nostri lettori? Ombre e Luci serve ancora? Risponde alle aspettative e gli interessi di chi lo legge? Questa volta ho deciso di non tenermi dentro questi pensieri ma di cercare risposte che permettano a me e a tutta la redazione di vedere più chiaro e di decidere per il futuro di Ombre e Luci. È certo che, dopo tanti anni, Ombre e Luci necessita di nuove e più giovani persone che ci diano il cambio. Dobbiamo pian piano trovarle e passare il testimone ma questa piccola indagine servirà anche alla nuova équipe. Vi chiedo quindi di subissarci di risposte di questo tipo:
 
 - Ho difficoltà a versare il contributo ... - Ombre e Luci mi interessava un tempo ma ora ... - Non ho rinnovato il mio contributo perché ... - Ho trovato una nuova rivista sostitutiva di Ombre e Luci ... - Leggo soltanto le testimonianze -o le lettere - le riflessioni... - Mi annoiano le pagine riguardanti ... - Perché non date più spazio a ... - Mi piacerebbe che parlaste di ... - La vostra rivista mi piace ma ... - Vorrei partecipare a Ombre e Luci mandando qualche mia proposta o articolo su...

@@ -1,4 +1,5 @@
 ---
+
 title: Le Guerre Stellari arrivano in ospedale
 date: 2018-06-25
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 **Thomas**
 è un ragazzino di 15 anni con un ritardo cognitivo dai
 **tratti autistici**

@@ -1,4 +1,5 @@
 ---
+
 title: "Chi aiuta la famiglia: gli specialisti"
 date: 1992-06-06
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-132
 id_numero: "OEL-132"
 numero_rivista: "Ombre e Luci"
 ---
+
 **N.B.** : questo articolo risale al 1992. Tutte le informazioni riportate potrebbero essere non più valide.
 
 ## Terapisti della riabilitazione
@@ -82,6 +84,7 @@ Corsi triennali in scuole universitarie, a titolo di terapista della riabilitazi
 Il lavoro delle terapiste occupazionali si svolge nelle strutture pubbliche o in centri privati e privati convenzionati. L’ambiente di lavoro è il laboratorio di attività manuale, ma il terapista «pratica» anche a domicilio della persona con handicap per aiutarla a usare tutti i mezzi necessari alla vita quotidiana. Per maggiori informazioni scrivere a:
 [A.I.T.O. Associazione Italiana Terapisti Occupazionali](http://www.aito.it/aito/associazione-italiana-terapisti-occupazionali)
 
+
 ---
 
 ## 2. Assistente sociale
@@ -90,6 +93,7 @@ Il lavoro delle terapiste occupazionali si svolge nelle strutture pubbliche o in
 è un operatore che, secondo le conoscenze e i metodi specifici della sua professione, svolge la propria attività e favore di persone, gruppi e famiglie per prevenire e risolvere situazioni di bisogno. Il suo lavoro si rivolge principalmente:
 - alle madri e ai bambini - ai portatori di handicap fisici e psichici - ai giovani, in particolare per la prevenzione e la cura delle tossicodipendenze - ai minori e adulti nelle istituzioni carcerarie - ai lavoratori - agli emarginati.
 Si svolge nelle USSL, nei CIM, nelle scuole, negli ospedali, nei consultori, nelle comunità parrocchiali; e presso le industrie, gli enti pubblici e privati di assistenza, il Ministero di Grazia e Giustizia ecc. La formazione dell’assistente sociale avviene oggi nelle scuole universitarie dirette a fini speciali (29 in Italia) che rilasciano un diploma abilitante all’esercizio della professione. A queste scuole si accede con i titoli previsti per i corsi di laurea. Il corso dura un triennio. Le materie riguardano i fondamenti del servizio sociale, i metodi di lavoro, il metodo e gli strumenti di ricerca, di programmazione e di organizzazione dei servizi sociali, il diritto pubblico e privato, la sociologia, la legislazione sociale, la medicina sociale e l’igiene, la psicologia e la psicopatologia dello sviluppo, ed altre opzionali. Gli esami sono 18 e almeno 500 le ore prescritte per il tirocinio. La frequenza è obbligatoria.
+
 
 ---
 
@@ -106,6 +110,7 @@ I compiti devono essere finalizzati al recupero, al mantenimento e allo sviluppo
 I corsi devono mettere loperatore in grado di:
 - prestare al destinatario il massimo dell’autonomia scegliendo le attività che più rispondono allo sviluppo delle potenzialità dell’utente; - supplire alle carenze di autonomia nelle funzioni essenziali (igienico-sanitarie e nella vita di relazione); - avere una corretta relazione con l’utente e la famiglia; - riflettere sulla propria attività e fornire relazioni sull’efficacia dei suoi interventi; - lavorare con altri operatori e altre professionalità; - conoscere la legislazione socio-sanitaria e l’amministrazione della propria USSL. (Delibera CR - 15/11/92 Reg. Piemonte).
 
+
 ---
 
 ## 4. Psicologo
@@ -121,6 +126,7 @@ E necessario aver conseguito l’abilitazione in psicologia mediante l’esame d
 
 Molteplici sono le funzioni dello psicologo. Fra le altre:
 - prevenzione: per evitare il disagio e mantenere la salute psichica; - diagnosi e psicodiagnosi individuali e di gruppo; - progettazione/organizzazione di interventi e di strutture di vario genere (individuali, gruppi, quartiere, comunità); - interventi/consulenza psicoterapeutici, di recupero e riabilitazione della salute, di orientamento scolastico e professionale; adozione e affidi; formazione del personale.
+
 
 ---
 

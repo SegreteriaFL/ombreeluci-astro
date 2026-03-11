@@ -1,4 +1,5 @@
 ---
+
 title: "Posso vivere l'ssenziale che non è fare per, ma vivere con le persone più fragili"
 date: "2011-09-04"
 author: "Jean Vanier"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-115
 id_numero: "OEL-115"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Jean Vanier ha voluto dare una svolta alla sua vita cristiana, stando accanto alle persone emarginate, schierato con i poveri, per vivere come loro"
 ---
+
 Cari amici, Gesù è venuto a proporre un cammino di comunione e di pace ad un mondo attanagliato dalla rivalità e dalle divisioni, ad un mondo di odio e di guerra. Con la sua morte e resurrezione, è iniziato un piccolissimo sentiero di pace, offerto a qualche persona per annunciare che siamo chiamati all'amore e non alla rivalità e divisione. Sì, Dio vuol darci un'energia nuova, uno spirito nuovo, per rivelare l’amore.
 
 Certo, ci sono drammi terribili nel nostro tempo: Haiti, il Pakistan, la Costa d'Avorio, il Giappone, la Libia e tanti luoghi di cui non si parla, e poi ci sono tutti questi cuori spezzati in tutti i nostri paesi. Noi uomini siamo fragili. Il nostro mondo è fragile. Al tempo stesso, in tutti questi luoghi di sofferenza, emergono tanti gesti d’amore e di coraggio. Ai piedi della croce di Gesù, c'era sua madre. Nel momento in cui Gesù subiva una terribile umiliazione, abbandonato dai suoi amici, c'era una persona vicino a Lui. E gli diceva: “Ti amo, ho fiducia in te”. Lei lo sosteneva con il suo amore.

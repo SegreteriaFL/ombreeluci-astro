@@ -1,4 +1,5 @@
 ---
+
 title: Notiziario Fede e Luce n.16
 date: 1978-03-02
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 ### La "Casetta" ha ripreso i suoi incontri
 
 La " [Casetta](https://www.ombreeluci.it/1977/cosa-si-fa-nelle-casette-di-fede-e-luce-le-risposte-di-chi-ce-stato/) " ha ripreso i suoi incontri la 2°, e 4°, il domenica del mese. Ci siamo divisi in due il gruppi perché ormai siamo troppo numerosi per stare tutti insieme. Ogni gruppo è formato da due adulti responsabili, da una decina di ragazzi e una ventina di amici.

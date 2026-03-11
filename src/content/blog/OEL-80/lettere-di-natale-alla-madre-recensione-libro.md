@@ -1,4 +1,5 @@
 ---
+
 title: Lettere di Natale alla madre - Recensione libro
 date: 2002-12-08
 author: Natalia Livi
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.262583255767822
 umap_y: 11.865645408630371
 umap_z: 4.873450756072998
+
+subtitle: "Rainer Maria Rilke - Passigli Editore, Antella, Firenze - 1996, p.125"
 ---
+
 In questo piccolo libro sono raccolte 26 lettere che il grande poeta Rilke scrisse alla madre per darle il segno del suo affetto e della sua presenza la sera di Natale. Si erano accordati di leggere le reciproche lettere e aprire i pacchetti natalizi nello stesso momento, alle sei del 24 dicembre. Queste lettere dovrebbero essere lette da tutti noi, dovrebbero essere regalate a Natale, e tenute vicino pronte per quei momenti in cui sentiamo il bisogno struggente di una persona cara e lontana oppure cerchiamo quello speciale calore umano che si manifesta nell’affetto dei figli verso i genitori o una fede che trova la forza di non vacillare.
 *N.L.*
 , 2002

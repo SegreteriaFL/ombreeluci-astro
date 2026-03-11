@@ -1,4 +1,5 @@
 ---
+
 title: I ragazzi della via Pascoli - Recensione
 date: 2021-11-05
 author: Nicla Bettazzi
@@ -15,6 +16,7 @@ issue_number: OEL-155
 id_numero: "OEL-155"
 numero_rivista: "Ombre e Luci"
 ---
+
 Pino e il fratello Rino nascono a Trieste nella casa del silenzio: **mamma e papà sono sordomuti.** È una casa poverissima, ma i bambini vi crescono felici. Finché una zia estranea ma benintenzionata si mette in mezzo: tolti ai genitori, i bambini finiscono in collegio. E così compaiono i cattivi: ora Pino e Rino sono due dei trecento ragazzi che vivono «a completa disposizione delle mani e dell’umore degli assistenti», l’infanzia viene strappata via. Esistenze negate, relegate ai margini, quelle nell’Istituto, **ma basta che la vita mostri uno spiraglio di umanità, di bello, perché qualcosa riprenda a scorrere.** Inizia come una fiaba questo splendido libro di Pino Roveredo, un racconto che si dipana col linguaggio leggero e disarmante dell’infanzia, dove la sensibilità dei vinti ha luce propria e il dolore lancinante del piccolo protagonista non è rimosso, ma ha la vitalità della voglia di futuro.
 
  ### I ragazzi della via Pascoli **Autore** : Pino Roveredo **Editore:** Bompiani **Pubblicato:** Giugno 2021 **Pagine:** 128 **Prezzo:** 13€ **ISBN:** 9788830104587 

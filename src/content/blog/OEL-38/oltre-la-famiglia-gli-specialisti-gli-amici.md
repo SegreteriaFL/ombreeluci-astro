@@ -1,4 +1,5 @@
 ---
+
 title: "Oltre la famiglia: gli specialisti, gli amici"
 date: 1992-06-06
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-38
 id_numero: "OEL-38"
 numero_rivista: "Ombre e Luci"
 ---
+
 I
 protagonisti di questo numero sono:
 [Lelia](http://www.ombreeluci.it/1992/lelia/)

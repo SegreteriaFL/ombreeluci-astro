@@ -1,4 +1,5 @@
 ---
+
 title: Lettere di Natale - Un dialogo speciale con i lettori di Ombre e Luci
 date: 2003-12-22
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 4.7955121994018555
 umap_y: 7.604928016662598
 umap_z: 10.380057334899902
+
+subtitle: "Con queste lettere, noi della Redazione, vogliamo dire ai nostri lettori: Grazie di tutto cuore per il sostegno e la partecipazione con cui ci seguite"
 ---
+
 ### Cara “Mamma"
 
 Ti scrivo la letterina di Natale perchè avevo voglia chiederti un po' di attenzione e di farti un paio di domande su questioni che per me sono molto importanti e a cui solo tu puoi rispondere. Penso spesso che io e te rispetto a molti degli aspetti che ci legano e ci tengono uniti, stiamo proprio su due diverse sponde dello stesso fiume, soprattutto riguardo a quello che è ed è stato tuo figlio per te e per me. Per me è stata una scoperta straordinaria, un incontro che mi ha cambiato, mi ha aperto gli occhi, una fonte di gioia e di speranza, un amico sincero. Anche per te è stata una scoperta straordinaria e un incontro che ti ha cambiato ma vedo dalla tua vita di tutti i giorni che è stato ed è ancora di più oggi anche fonte di preoccupazione e ansia per il futuro, fatica quotidiana e stanchezza.
@@ -34,6 +38,8 @@ Chiudo la mia letterina di Natale con un grazie.
 Grazie, mamma di avermi insegnato una cosa fondamentale per vivere meglio, d’altra parte sei una mamma ed è anche tuo compito di farci capire le cose importanti della vita, mi hai insegnato a chiedere aiuto. Forse è questa la tua forza vera sapere chiedere aiuto agli altri e a Dio, a me riesce molto più difficile e spero che continuando a stare con te imparerò a farlo un po’ meglio.
 
 Ti voglio bene, **Filippo**
+
+
 
 ---
 
@@ -55,6 +61,8 @@ La sua tenerezza rende più vulnerabili i nostri cuori per aprirli alla gioia de
 
 **Don Vito Palmisano** , 2003
 
+
+
 ---
 
 ### Carissimi lettori
@@ -66,6 +74,8 @@ Ma quale è il segreto per raggiungere questo risultato? Come devono essere le f
 Sicuramente: espressive, delicate, significative, sincere... Ma anche: non retoriche, non banali, non pietistiche...e senza dubbio, interessanti reali, forti, gioiose. Difficile avere sempre delle foto così, non vi pare? Anzi difficilissimo. Ecco perché con questa lettera di Natale, noi della redazione vogliamo dire “GRAZIE DI TUTTO CUORE AI NOSTRI BRAVI FOTOGRAFn Pensiamo a Barbara, a Lorenzo, a Nanni che tanto spesso ci hanno regalato le loro foto: senza il vostro aiuto il giornale non sarebbe lo stesso. Ma grazie anche a Bice, a Rita, a Valentina, a Marta, a Don Vito e a tanti altri di cui forse oggi ci sfugge il nome, che nel corso degli anni ci hanno inviato bellissime immagini. E grazie anche agli “artisti ignoti” che per qualche errore o dimenticanza, purtroppo a volte è successo, hanno visto pubblicate le loro foto senza il nome dellAutore: ce ne scusiamo ancora.
 
 Buon Natale a tutti voi fotografi e lettori con una raccomandazione: non perdete l’occasione in questi giorni di festa, per qualche memorabile scattai **la Redazione** , 2003
+
+
 
 ---
 
@@ -91,6 +101,8 @@ Con affetto e gratitudine Buon Natale a tutti, in particolare a quelli che si sc
 
 **Silvana** , 2003
 
+
+
 ---
 
 ### Cari amici genitori
@@ -106,6 +118,8 @@ A questi genitori — pionieri è stato necessario uscire dal tunnel del dolore 
 Questo figlio speciale cresce e la sua presenza nella Società acquista peso e significato anche attraverso l’impegno coraggioso di chi lo ama di più.
 
 Buon Natale a tutti da **Tea Cabras** , 2003
+
+
 
 ---
 
@@ -128,6 +142,8 @@ Quando avrai voglia, potrai constatare come la Sua presenza nei piccoli, negli i
 Mi rendo conto che come al solito parlo troppo. Io, in fin dei conti posso solo offrirti un po’ del mio tempo, del mio cervello e del mio cuore come fa di solito un’amica. Non sto nei tuoi panni, non ho io i tuoi problemi: forse non avrei dovuto neanche scrivere tutta questa roba. Forse avrei dovuto scriverti solo questo: ti voglio bene.
 
 Ciao **Martina**
+
+
 
 ---
 

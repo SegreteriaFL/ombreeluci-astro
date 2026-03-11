@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 158
 date: 2022-05-18
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 10.656843185424805
 issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Due lettrici ci raccontano di una laurea e della nostra nuova sede"
 ---
+
 # Dottoressa Arianna
 
 Èstata dura continuare a studiare a seguire le lezioni prima in presenza in università e poi, causa pandemia, a casa online. Ma Arianna non si è persa d’animo: si è organizzata, ha trovato il modo e la tecnica. Si è preparata studiando sul pc con sua mamma Silvana, sostenute da tutta la famiglia: Rosario il papà, la sorella Valentina, il cognato e, ultima arrivata, la nipotina. Tutta la famiglia faceva il tifo per lei. E lei ha stupito tutti e passo dopo passo si è laureata! **Arianna Giuliano sabato 9 aprile 2022 è stata proclamata dottoressa presso l’Università Cattolica di Milano con la votazione di 100 su 110 in Linguaggi dei media!** Con tanta felicità ho organizzato una festa a sorpresa per lei. E con una piccola équipe organizzativa ci siamo divisi i compiti e in pochi giorni… missione compiuta. Palloncini, pizza, giochi, intervista con il tema rigorosamente rosso abbiamo festeggiato alla maniera semplice con gli amici di Fede e Luce. Lei è un buon esempio per tutti. La sua determinazione, la sua tenacia a non mollare, ad andare avanti. Il traguardo raggiunto ora porterà Arianna a nuove conquiste, nuovi orizzonti da esplorare. **La costanza e la passione l’hanno aiutata a realizzare il suo sogno.** Il desidero di sapere, imparare e conoscere le hanno permesso di fare passi importanti per la sua preparazione. Che dire ora? Avanti tutta!

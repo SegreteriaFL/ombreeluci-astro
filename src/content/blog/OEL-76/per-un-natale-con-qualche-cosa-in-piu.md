@@ -1,4 +1,5 @@
 ---
+
 title: "Per un Natale con qualche cosa in più"
 date: "2001-12-25"
 author: "Huberta Pott"
@@ -14,7 +15,10 @@ categoria_menu: "Comunità"
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Indecisi sui regali da fare quest'anno? Huberta ha un consiglio da darvi. È buono, fa bene e ci rende tutti più ricchi... seguitelo"
 ---
+
 Cari amici,
 il Natale è alle porte e tutti abbiamo un pensiero fisso che diventa poco a poco una vera preoccupazione: "**Cosa posso regalare** ai genitori, ai figli, ai nonni, ai suoceri e agli amici quest'anno? Deve essere qualcosa che ancora non hanno, che faccia bella figura, che abbia un certo valore economico... per di più non posso dedicare troppo tempo all'acquisto perché di tempo libero non ne ho e quindi... finirà con la solita frenetica corsa fra i negozi...”
 Cerchiamo di essere sinceri: abbiamo già tantissime cose: quante televisioni in casa, quanti soprammobili, vasi e pentole, cellulari e videogiochi. Anche le stanze dei nostri figli sono spesso troppo ingombre di giochi, vestiti, oggetti vari.

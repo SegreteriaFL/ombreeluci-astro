@@ -1,4 +1,5 @@
 ---
+
 title: Pronta a riviverlo!
 date: 2015-06-13
 author: Arianna Giuliano
@@ -15,6 +16,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 Finalmente, dopo un anno di preparazione, soprattutto spirituale, è arrivato il momento della partenza per Roma e poi Assisi, per festeggiare un compleanno molto importante: i nostri primi 40 anni.
 
 Mio Dio sono veramente tanti!!! 40 anni di cammino, durante il quale *Fede e Luce* ha accompagnato e sostenuto tutti noi.

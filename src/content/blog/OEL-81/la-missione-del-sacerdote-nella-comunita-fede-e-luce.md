@@ -1,4 +1,5 @@
 ---
+
 title: "La missione del sacerdote nella comunità Fede e Luce"
 date: "2003-03-13"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
+
+subtitle: "“Il valore infinito di ogni persona sta in questo amore eterno che ravvolge”"
 ---
+
 “Lo Spirito del Signore è su di me; per questo mi ha consacrato con l’unzione e mi ha mandato a portare il lieto annunzio ai miseri, a fasciare le piaghe dei cuori spezzati, promulgare l’anno di misericordia, a consolare tutti gli affitti”. Applicando a sé le parole del profeta Isaia, Gesù si è presentato come l’inviato del Padre, venuto a porsi accanto a chi soffre ed è nel dolore.
 
 Mi piace pensare la missione del sacerdote che condivide il cammino della comunità Fede e Luce come un prolungamento della missione di Gesù nel nostro tempo, come un ministero della consolazione.

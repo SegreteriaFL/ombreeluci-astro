@@ -1,4 +1,5 @@
 ---
+
 title: Intorno alla nascita
 date: 1999-06-16
 author: Nicole Schulthes
@@ -19,6 +20,7 @@ umap_x: 5.462283134460449
 umap_y: 10.165654182434082
 umap_z: 7.1841630935668945
 ---
+
 Ci ha colpito quanto scrive una mamma su “ *Notizie - Servizio Consulenza pedagogica - Trento - dicembre 1998* ”. “Vorrei sottolineare la poca preparazione e l’imbarazzo dei medici nel comunicare ai genitori la diagnosi relativa alla sindrome di Down. Noi sapevamo a grandi linee che cosa fosse, ma non che cosa ‘fare’ e siamo stati lasciati soli. Dopo 3 giorni la dimissione dall’ospedale per me e per Vittoria, che fortunatamente non presentava altri problemi di salute, senza la minima indicazione su dove poterci rivolgere per un sostegno e un colloquio in merito, per saperne di più. Vittoria è nata all'ospedale di Niguarda a Milano...”. Per saperne di più ci siamo rivolti ad un’amica, infermiera da 20 anni al reparto di neonatologia dell’ospedale S. Camillo di Roma.
 
 ### Intervista

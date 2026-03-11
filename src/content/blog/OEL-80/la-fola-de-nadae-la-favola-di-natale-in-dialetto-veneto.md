@@ -1,4 +1,5 @@
 ---
+
 title: La fola de Nadae - La favola di Natale... in dialetto veneto
 date: 2002-12-08
 author: Giovanni Zaninello
@@ -16,7 +17,10 @@ tags:
 umap_x: 5.678983211517334
 umap_y: 6.13217830657959
 umap_z: 12.253604888916016
+
+subtitle: "Questa divertente poesia in dialetto veneto di Giovanni Zaninello di Cavarzere (Venezia) è il nostro «regalo» di Natale. Rivela tutta la sua grazia anche a chi non è veneto, purché la legga con un po’ di inventiva"
 ---
+
 Questa divertente poesia in dialetto veneto di Giovanni Zaninello di Cavarzere (Venezia) è il nostro «regalo» di Natale. Rivela tutta la sua grazia anche a chi non è veneto, purché la legga con un po’ di inventiva
 
 Ghe gera na volta lontan, in Oriente, on omo e na dona in viagio, co’n musso[nota]Asino[/nota] da montarghe a cavalo, co robe è pignate[nota]Pentola[/nota] i 'ndava per via de na lege, forse de tasse.

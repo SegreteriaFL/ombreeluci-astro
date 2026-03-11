@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto n.22
 date: 1979-09-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 ## Dall'Italia
 
 ### A Cuneo
@@ -28,6 +30,7 @@ Già da tempo avrei voluto esprimere questa mia gioia, ma essendo mia figlia una
 Ma ora ho capito che questo naturale riserbo (come dice la mamma di R.) è superato sia da me che dagli amici, perché grazie ad una giusta presa di coscienza, una buona maturazione spirituale e un'ottima organizzazione da parte di tutti i componenti di Fede e Luce, ora tutti i nostri ragazzi possono partecipare a feste, incontri, campeggi, pellegrinaggi
 
 **Fausta Guglielmi**
+
 
 ---
 
@@ -43,6 +46,7 @@ Proprio noi di Fede e Luce che vogliamo essere piccoli tra i piccoli, non dobbia
 
 **Francesca Biondi**
 
+
 ---
 
 ### Fede e Luce
@@ -54,6 +58,7 @@ Per ora posso dire di riuscire a cogliere in tutti quelli che ho conosciuto, sop
 Ho la sensazione che Fede e Luce sia un movimento destinato ad allargarsi a macchia d'olio perché è in movimento e provoca movimento. Chi infatti si ribella contro facili schemi e crede profondamente nel valore della vita e della persona umana, scatena un movimento, cioè un forte sentimento di amore universale.
 
 **Donatella De Petris**
+
 
 ---
 
@@ -71,6 +76,7 @@ Affettuosamente vi saluto.
 
 **Laura Marazio**
 
+
 ---
 
 Oh bambino, tu che uscito dalla viscere di una donna, Che ti amerà per sempre, Che ti ha dato la prima consapevolezza della vita E la possibilità di sopravvivere col suo latte materno, Ascoltami:
@@ -83,6 +89,7 @@ Sono anch'essi figli di Dio: Sono i tuoi fratelli.
 
 **Luigi Raffaghello**
 
+
 ---
 
 ## Dall'estero
@@ -93,6 +100,7 @@ Mi ha fatto molto piacere "scoprire" Fede e Luce. Questo primo incontro con pers
 
 **Anne Da**
 
+
 ---
 
 ### Polonia
@@ -100,6 +108,7 @@ Mi ha fatto molto piacere "scoprire" Fede e Luce. Questo primo incontro con pers
 Che il Cristo resuscitato porti la Sua pace e la Sua gioia a Fede e Luce di Roma, di tutta Italia, a tutti gli amici che ho conosciuto e amato durante i 5 meravigliosi giorni passati con voi a Roma. Abbiamo pregato per tutti voi a Czestochowa... Il breve soggiorno del Padre André (P.Roberti del Belgio) fu una grande grazia per noi, lo sento. Qui a Wroclaw è stata una speranza per i genitori, soprattutto i più anziani e i più stanchi. Può darsi anche un nuovo punto di vista per la Chiesa locale e per i giovani...
 
 **Tereza Breza**
+
 
 ---
 
@@ -109,6 +118,7 @@ L'ultimo giornale che ho ricevuto mi è sembrato molto buono. È il numero sui p
 
 **Una suora del Nazareth da Haifa**
 
+
 ---
 
 ### Giappone
@@ -116,6 +126,7 @@ L'ultimo giornale che ho ricevuto mi è sembrato molto buono. È il numero sui p
 Dopo il mio ritorno ho iniziato a pensare in modo concreto alla creazione di un foyer nella mia città, Niigata... Ho trovato dei collaboratori pronti a condividere la loro vita con alcuni dei miei amici handicappati, molto colpiti nel fisico... Abbiamo avuto molti problemi e ogni giorno ne incontriamo dei nuovi. Fra gli altri, il problema dei genitori che non accettano facilmente che il proprio figlio tenti l'avventura con noi. Anche le autorità cittadine mi hanno invitato a desistere dal mio progetto. Per fortuna, gli interessati - tutti adulti - hanno pienamente fiducia. Vi annuncio tutto questo con molta gioia: cercheremo di vivere nello spirito di aiuto e comprensione reciproca che ho incontrato da voi, al *Toit* e nelle altre comunità in Belgio e Francia.
 
 Fraternamente in Gesù, *Henri Huysegons*
+
 
 ---
 

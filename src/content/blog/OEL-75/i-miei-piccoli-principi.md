@@ -1,4 +1,5 @@
 ---
+
 title: "I miei \"Piccoli Principi\""
 date: 2001-09-27
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 10.55945110321045
 issue_number: OEL-75
 id_numero: "OEL-75"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Quel campo è stato l'inizio di un nuovo cammino di crescita scrive Claudia raccontando la sua esperienza di volontariato"
 ---
+
 8agosto 1998, ore 8:00, piazzale della chiesa San Giuseppe da Copertino all’Eur. Siamo tutti in trepida attesa: tra poco si partirà per le vacanze estive, destinazione Casar- go, vicino Lecco... Ha inizio così la mia avventura alla scoperta dei ragazzi disabili.
 
 **Stavo attraversando un periodo di «transizione»** (a me piace chiamarli così), di passaggio in una fase critica dell 'adolescenza, difficile, inquieto, stavo rivedendo un po' tutta la mia vita, i miei rapporti personali, le mie scelte per il futuro. Qualcuno afferma che in questi casi la cosa migliore è dedicarsi agli altri per trovare la forza di superare le difficoltà. **Padre Giancarlo mi propone di fare questa esperienza di volontariato** , e perché non accettare? In fondo cosa avevo da perdere? Sono partita senza sapere bene che cosa aspettarmi e quale tipo di aiuto avrei potuto dare. Oggi posso dire che se non fossi partita avrei commesso l’errore più grande della mia vita.

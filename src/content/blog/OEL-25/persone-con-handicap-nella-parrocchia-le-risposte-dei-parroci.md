@@ -1,4 +1,5 @@
 ---
+
 title: Persone con handicap nella parrocchia - Le risposte dei parroci
 date: 1989-03-20
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-25
 id_numero: "OEL-25"
 numero_rivista: "Ombre e Luci"
 ---
+
 A questa inchiesta sulla integrazione delle persone con handicap mentale della parrocchia, hanno risposto 58 parroci delle seguenti province: 20 di Milano; 15 di Roma; 3 di Como; 2 di Ascoli, Bari, Napoli, Parma; 1 di altre province. 8 di queste risposte provengono da parrocchie dove esiste una comunità Fede e Luce.
 
 **1.** *«Secondo lei, per quali motivi le p.h. hanno difficoltà ad integrarsi nella parrocchia?»* (Si potevano segnare più risposte)

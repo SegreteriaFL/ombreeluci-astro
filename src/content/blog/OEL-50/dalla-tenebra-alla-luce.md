@@ -1,4 +1,5 @@
 ---
+
 title: Dalla tenebra alla luce
 date: 1995-06-02
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nella «Veglia di Riconciliazione» fatta nella basilica superiore di S. Francesco la sera del 23 aprile si è realizzata una sorta di meditazione e sacra rappresentazione. Eccone il testo.
 *Vorremmo che questa veglia ci aiutasse a passare dalla nostra condizione di tenebra interiore all'accoglienza della pace e della luce del Signore. Cercheremo di guardare alle nostre paure e al nostro male interiore e ci lasceremo guidare dalla Sua Parola che sola ci può riconciliare con Lui, con noi stessi e coi nostri fratelli. Tante sono le voci che esprimono le nostre paure: tante sono le situazioni in cui il male bussa alla nostra porta. Riascoltiamo queste voci che sono le nostre stesse voci.*
 **La solitudine**

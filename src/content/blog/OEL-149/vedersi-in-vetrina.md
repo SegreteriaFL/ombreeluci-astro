@@ -1,4 +1,5 @@
 ---
+
 title: Vedersi in vetrina
 date: 2020-03-16
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-149
 id_numero: "OEL-149"
 numero_rivista: "Ombre e Luci"
 ---
+
 Essere liberi di scegliere un capo di abbigliamento, decidere se privilegiare la comodità o l’eleganza nella scelta di un *outfit* , potrebbe sembrare piccola cosa di fronte a condizioni di salute che determinano in modo significativo la vita di una persona. Eppure proprio con questa pretesa la Uildm (Unione Italiana Lotta alla Distrofia Muscolare) nel 2018 ha promosso un progetto teso a sollecitare una maggiore inclusione sociale nel campo della moda. Sono state coinvolte quattro scuole del settore per disegnare e creare abiti non solo comodi e a misura ma anche eleganti e perché no con un tocco di frivolezza, per donne che, come quelle con la distrofia muscolare, hanno difficoltà motorie e si muovono in sedia a rotelle.
 
 Sempre più persone con disabilità o i loro familiari chiedono di essere maggiormente considerate da questo mondo che tanto contribuisce a costruire, volenti o nolenti, identità sociale. Come sottolinea Karin Hitselberger, una giovane fashion blogger statunitense in sedia a rotelle, «non puoi considerare l’attenzione alla moda come qualcosa di superficiale perché, al dunque, è come ti presenti al mondo (...). E solo perché sono disabile non vuol dire che non possa volere un mio stile personale e che non tenga a come mi vesto». Molti stilisti indipendenti vengono incontro al desiderio di ciascuno di vedersi e sentirsi bello perché curato nel proprio aspetto: la giovanissima newyorkese Camilla Chiriboga ha realizzato abiti per persone cieche utilizzando tessuti di diversa trama e consistenza, leggibili anche da uno smartphone perché, nello sceglierli, siano più facilmente riconoscibili nei colori da chi li indossa. La francese, sempre giovanissima, Camille Boillet ha invece creato una linea di abiti da sposa, coniugando le necessità personali a tulle, pailettes, sete e drappeggi, senza dimenticare il coordinato per la sedia a rotelle.

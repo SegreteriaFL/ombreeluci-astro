@@ -1,4 +1,5 @@
 ---
+
 title: I tuoi figli
 date: 2012-12-10
 author: Rita Massi
@@ -16,7 +17,10 @@ umap_z: 7.842867374420166
 issue_number: OEL-120
 id_numero: "OEL-120"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Quale molla allora spinge una coppia a scegliere di adottare un figlio con handicap?"
 ---
+
 > I tuoi figli non sono figli tuoi, sono i figli e le figlie della vita stessa. (Khalil Gibran)
 
 Ènaturale e lecito immaginare e desiderare un figlio sano, intelligente, nel quale magari potersi riconoscere e che possibilmente realizzi quei sogni che non si è riusciti a trasformare in realtà.

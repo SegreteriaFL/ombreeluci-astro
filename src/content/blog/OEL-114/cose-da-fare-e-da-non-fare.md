@@ -1,4 +1,5 @@
 ---
+
 title: Cose da fare e da non fare
 date: 2011-06-04
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 7.714021682739258
 issue_number: OEL-114
 id_numero: "OEL-114"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Qualche consiglio per facilitare il contatto con le persone disabili"
 ---
+
 ### Handicap fisico o mentale: totale rispetto
 
 - Rivolgiti direttamente alla persona disabile; non parlare solo al suo accompagnatore come se lei non esistesse, con frasi del tipo: ma sta comoda in poltrona? Non avrà troppo caldo?” - Chiedi prima di prendere un'iniziativa che riguarda la persona disabile, come,ad esempio, aggiungere una coperta, quando lei non ne ha né voglia né bisogno... “Ma sì, ti assicuro, fa proprio freddo! - Se una persona è in carrozzina, non guardarla dall'alto in basso, ma cerca di metterti alla sua altezza: guardandosi negli occhi la conversazione è più diretta. - Durante una conversazione, non aver paura di chiedere di ripetere quando non capisci cosa l’altro ti dice. Non stai facendo mostra di te, ma stai parlando e cercando di capire. Insisti fino a quando vi sarete capiti. - Trovare la giusta distanza. Non trattare come un bambino la persona disabile; chi hai davanti è un adulto. Dai del lei se la sua età lo esige e non toccarla senza ragione; cerca di tenere con lei un giusto distacco. È bello sorridere ma bisogna che il tuo sorriso sia vero. Offrilo spontaneamente, ma mai per pietà! In ogni caso è molto importante essere veri: non promettere mai ciò che sai già che non potrai fare.

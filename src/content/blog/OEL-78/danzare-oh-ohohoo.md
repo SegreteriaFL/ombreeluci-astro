@@ -1,4 +1,5 @@
 ---
+
 title: Danzare... oh... oh...ohoo...
 date: 2002-06-15
 author: Lucia Bertolini
@@ -16,7 +17,10 @@ tags:
 umap_x: 8.783012390136719
 umap_y: 7.66096305847168
 umap_z: 9.387596130371094
+
+subtitle: "Ballare ci piace. Alcuni sono timidi, seri, a volte un po’ complessati e pensano di non amare la danza; ma si tratta di scoprire, far venire a galla questo antico desiderio."
 ---
+
 Danzare ci piace. Alcuni sono timidi, seri, a volte un po’ complessati e pensano di non amare la danza; ma si tratta di scoprire, far venire a galla questo antico desiderio. E bello muoversi, ondeggiare, saltellare, scivolare, trattenersi e lasciarsi andare al fascino della musica, al suono, al ritmo, alla melodia...
 
 Ed è bello soprattutto ballare insieme agli altri quando, al piacere del movimento, si aggiunge quello della vicinanza, dello scambio di gesti, sguardi, contatti che ci fanno sentire più amici.

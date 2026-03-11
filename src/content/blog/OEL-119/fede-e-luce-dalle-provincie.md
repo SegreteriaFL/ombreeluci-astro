@@ -1,4 +1,5 @@
 ---
+
 title: "Fede e Luce: dalle provincie"
 date: 2012-09-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 14.1527099609375
 issue_number: OEL-119
 id_numero: "OEL-119"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Angela e Carlo, rispettivamente coordinatori delle provincie del Nord Un Fiume di Pace e del Sud Mare e Vulcani, ci aggiornano sulla situazione delle varie comunità"
 ---
+
 ### [Nord - Un Fiume di Pace](https://www.fedeeluce.it/comunita-fl/marievulcani/)
 
 Fede e Luce cresce. E riceve nuova linfa proprio da chi, quarant’anni fa, ha gettato i primi semi e ha chiesto di “fare quello che lo Spirito ispirerà”. Jean Vanier ha incontrato di recente le due comunità presenti in Israele che appartengono alla provincia “Un fiume di pace”, nel nord Italia.

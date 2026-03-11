@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 20
 date: 1987-12-20
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-20
 id_numero: "OEL-20"
 numero_rivista: "Ombre e Luci"
 ---
+
 *"Ora F. è contento: ha un programma, una ragione per uscire di casa, si sente utile e incontra della gente. E posso assicurare che F. è molto bravo nel rendersi utile: la spasticità e l’handicap mentale lievi da cui è colpito, gliene lasciano la possibilità eil suo carattere di estrema gentilezza fa di lui un simpatico collaboratore".*
 
 ### Le cose sono cambiate

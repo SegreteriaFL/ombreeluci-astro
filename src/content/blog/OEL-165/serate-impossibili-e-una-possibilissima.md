@@ -1,4 +1,5 @@
 ---
+
 title: Serate impossibili e una possibilissima
 date: 2024-06-19
 author: Monica Leggeri
@@ -14,7 +15,10 @@ umap_z: 9.787322998046875
 issue_number: OEL-165
 id_numero: "OEL-165"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Caterina Bertolini, ragazza di ventidue anni"
 ---
+
 Non so che titolo avrà questo mio articolo *Le serate di Caterina* ? *Serate impossibili* ? Mi viene chiesto «Cosa fa Caterina la sera?». Cosa fanno i ragazzi a 22 anni di solito? Escono la sera con i loro amici o amiche, i fidanzati/e, vanno a farsi un aperitivo, un gelato, una pizza, vanno al cinema, o a ballare, vanno alle feste.
 
 A Caterina piace ballare, le piace molto la pizza (ma in verità le piace poco stare seduta al ristorante ad aspettare, esattamente come suo padre), le piace molto la musica, le piace andare al cinema (preferisce i musical, ma si accontenta anche di altro), ama stare in mezzo ai suoi coetanei (ma senza troppa confusione) e soprattutto ama fare queste cose senza i suoi genitori. Allora dove sta il problema? **Il problema è che Caterina ha una peculiarità: non può uscire da sola, non può raggiungere cinema, feste o discoteche da sola.** La sua condizione di «persona con disabilità importante» la penalizza. Insomma se non è invitata e accompagnata non può vivere queste esperienze.

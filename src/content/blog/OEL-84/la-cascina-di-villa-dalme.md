@@ -1,4 +1,5 @@
 ---
+
 title: "La cascina di Villa D'Almè"
 date: "2003-12-22"
 author: "Lucia Bertolini"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T04"
 tema_label: "Comunità, accoglienza e inclusione"
 categoria_menu: "Comunità"
+
+subtitle: "Abbiamo visitato la Comunità alloggio “La Cascina” di Villa d’Almè una mattina di fine agosto e siamo rimasti molto colpiti"
 ---
+
 Abbiamo visitato la Comunità alloggio “La Cascina” di Villa d’Almè una mattina di fine agosto. Sebbene piovesse, la bellissima casa, risultato di una ristrutturazione di un vecchio cascinale, appariva ridente. **Marco Crippa, il coordinatore responsabile della Comunità**, ce ne ha parlato per l’ora intera che gentilmente ci ha messo a disposizione.
 
 Guardando il fabbricato e ascoltando come funziona l’organizzazione, uno si sentiva pervadere da un senso di gioia e di sorpresa perché tutto sembra davvero nato e finalizzato a offrire una qualità di vita buona e ricca.

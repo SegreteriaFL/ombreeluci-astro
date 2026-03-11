@@ -1,4 +1,5 @@
 ---
+
 title: Poco o tanto tutti stanno meglio con la danza
 date: 1988-06-28
 author: Sergio Sciascia
@@ -17,6 +18,7 @@ issue_number: OEL-22
 id_numero: "OEL-22"
 numero_rivista: "Ombre e Luci"
 ---
+
 Maria Fux è una specialista di danza terapia di fama mondiale. Cittadina argentina, di famiglia ebrea russa, era danzatrice classica.
 
 Il principio della danza terapia di Maria Fux è semplice e affascinante. La persona che ha impedimenti, blocchi mentali e fisici, soffre di tensioni sia perché non riesce a comunicare come vorrebbe, sia perché sente il disagio del suo corpo. Con il movimento ritmico può esprimere quel che sente dentro e anche gioire della nuova padronanza del suo corpo capace di esprimere. Mente e corpo separati dalla minorazione — sono separati più o meno in ogni persona — sentono sollievo e gioia nell'unità. Così quel movimento diventa espressione di sé, allentatore delle tensioni e di fatto cura, terapia; sebbene Maria Fux non usi mai la parola terapia per definire il suo lavoro «liberatorio» con le persone con handicap. Invece, usa sempre la parola «ricerca». Ricerca di un linguaggio aperto, creativo, non meccanico, capace di esprimere le emozioni, i sentimenti e che aiuti ad allargare il limite che tutti abbiamo. In questo linguaggio poi ognuno si esprime nel suo modo e secondo le sue possibilità.

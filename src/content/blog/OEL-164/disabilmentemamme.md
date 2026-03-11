@@ -1,4 +1,5 @@
 ---
+
 title: #DisabilmenteMamme
 date: 2023-03-08
 author: Cristina Tersigni
@@ -17,7 +18,10 @@ umap_z: 7.355166435241699
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Vivere la maternità con una disabilità è possibile e in occasione di questo 8 marzo 2023, viene ufficialmente lanciata l’associazione “Disabilità, indipendenza, maternità - Disabilmentemamme"
 ---
+
 «Quando ancora non sapevo neanche se sarei riuscita mai a diventare madre, ho deciso che **avrei dovuto fare qualcosa per creare una nuova consapevolezza nelle donne con disabilità, la consapevolezza di poter essere madri** . Quando poi sono rimasta incinta mi sono chiesta più volte se fosse il caso di rendere pubblica la mia gravidanza, se fosse quello lo strumento giusto… così è nata la campagna #diversamenteincinta e #diversamentemamma nelle quali ho raccontato le mie difficoltà durante la gravidanza e nel post-partum».
 
 [Scriveva così](https://www.ombreeluci.it/2021/campidoglio-approvata-mozione-coccia/) Laura Coccia per Ombre e Luci, cui collabora dal 2020, nel maggio del 2021 per raccontare l’iniziativa che ha permesso di raccogliere altre esperienze simili alla sua e che l’ha spinta a proporre un percorso istituzionale, per ora solo a livello del Comune di Roma, per istituire una linea di sostegno per le donne con disabilità incinte.

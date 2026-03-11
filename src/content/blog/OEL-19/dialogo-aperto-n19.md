@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.19
 date: 1987-09-20
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-19
 id_numero: "OEL-19"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Ecco la nostra esperienza
 
 Grazie, a voi, grazie perché non speravamo in una vostra risposta. Pensavo: uno scrive e poi magari la

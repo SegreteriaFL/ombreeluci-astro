@@ -1,4 +1,5 @@
 ---
+
 title: Quel lupo dentro noi
 date: 1984-09-30
 author: Jean Vanier
@@ -15,6 +16,7 @@ issue_number: OEL-7
 id_numero: "OEL-7"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nella comunità dell’
 *Arche*
 in cui vivo, c’è Enrico, un ragazzo molto «povero», cieco e sordo. Per molti anni è vissuto in un ospedale e non ha mai avuto un vero rapporto con i suoi genitori. Ha il corpo rigido come se fosse legno e questo fa pensare a una grande tensione interiore. Il solo linguaggio con lui è quello del tatto: l'unico strumento possibile per comunicare. Enrico è capace di commuoverci, di risvegliare — con la fiducia con cui si affida a noi — il meglio di noi stessi; ma ho scoperto che può anche provocare in me un’aggressività molto, molto profonda.

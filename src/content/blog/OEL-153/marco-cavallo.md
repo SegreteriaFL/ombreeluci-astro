@@ -1,4 +1,5 @@
 ---
+
 title: Marco Cavallo
 date: 2021-04-28
 author: Nicla Bettazzi
@@ -15,6 +16,7 @@ issue_number: OEL-153
 id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Nella foto: Uno dei nipoti di Marco Cavallo che “vive” ancora al San Giovanni di Trieste (fotografia di Serena Sillitto)*
 
 Al complesso manicomiale del San Giovanni di Trieste nel 1971 arriva Franco Basaglia, l’uomo che rivoluzionerà l’approccio alle psicosi e restituirà ai malati i diritti personali e sociali, incluso quello fondamentale alla libertà. Con sé porta l’esperienza del manicomio di Gorizia, un gruppo di giovani seguaci e la convinzione che «dal momento in cui oltrepassa il muro dell’internamento, il malato entra in una nuova dimensione di vuoto emozionale. Viene immesso cioè in uno spazio che, nato per renderlo inoffensivo e insieme curarlo, appare in pratica come un luogo costruito per il completo annientamento della sua individualità».

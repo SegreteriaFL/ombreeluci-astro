@@ -1,4 +1,5 @@
 ---
+
 title: Dalle Province n.138
 date: 2017-06-28
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-138
 id_numero: "OEL-138"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### [Un fiume di Pace](https://www.fedeeluce.it/comunita-fl/fiumedipace/)
 
 In Aprile, ad Oropa, in uno splendido santuario mariano, le comunità hanno pregato, ringraziato, festeggiato, celebrato ed eletto. Ci ha guidato la Parola “Quanti pani avete? Andate a vedere” . La provocazione del Signore, davanti allo smarrimento dei discepoli a cui è affidato un incarico molto piu grande di loro (sfamare tutta quella gente),con una incredibile tenerezza dice: quanti pani avete voi? Andate a vedere. È Gesù che ce lo chiede. Avete poco, bene, partiamo da quello per cui quando siamo invitati ad andare a vedere ciò che abbiamo, che magari è poco, ma che messo in mano sua può diventare moltissimo, questo lo dobbiamo vivere con una grande pace e una grande serenità. La lavanda dei piedi ha preparato i cuori e lo spirito si è elevato con danze guidate dalla comunità della Galilea. La chiamata di Gesu si fa storia nella mia storia. Mi viene chiesto la disponibilità al discernimento. “Ma come io? Sono madre, sposa, cooperatrice sociale”. Mi affido. Ed eccomi nuova coordinatrice.

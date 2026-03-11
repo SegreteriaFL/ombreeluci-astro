@@ -1,4 +1,5 @@
 ---
+
 title: Jean Vanier ai giovani
 date: 1981-09-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 *La sera del 19-4-1981*
 
 Comincio ad essere vecchio e la mia testimonianza è questa: viviamo in un mondo in cui l'inquietudine e l'angoscia sono grandi e nel cuore di ogni uomo c'è la paura.

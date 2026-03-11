@@ -1,4 +1,5 @@
 ---
+
 title: Un caso di coscienza
 date: 1983-09-01
 author: Redazione
@@ -20,6 +21,7 @@ umap_y: 11.654001235961914
 umap_z: 5.5119099617004395
 id_numero: "OEL-3"
 ---
+
 Un avvincente romanzo che ha per protagonista principale una dottoressa, neurologa, sensibile e scrupolosa nella cura dei suoi pazienti, adulti o bambini. Proprio un bambino di cinque anni è il secondo protagonista, attorno al quale ruota l’appassionata ricerca dei medici e parenti per rimuovere la causa che gli provoca crisi epilettiche e una quasi paralisi. Problemi morali, psicologici sono intrecciati abilmente in questa storia che avvince, appassiona il lettore, che si fa partecipe, sostenitore della lotta contro il male. Romanzo, è vero, ma con molti tratti di verità, e della realtà vista nell’ambito ospedaliero da molti genitori. Educa la sua lettura non c’è dubbio, insegna molti lati sconosciuti, soprattutto a chi di medicina non sa nulla, di cosa avviene dentro le quinte di un reparto così delicato come quello della neurologia, dove le diagnosi sono spesso legate all’aspetto psicologico…; i rapporti delicatissimi fra genitori tormentati e bisognosi di verità, quelle verità che non si vogliono dire da un lato, accettare dall’altro, perché troppo dure; le conseguenze - in questa storia così bene evidenziate - che i maltrattamenti fisici o psicologici dei genitori sui figli fanno scatenare. Un racconto che consigliamo a chi non ha paura di leggere un libro “così pieno di ospedale”, perché pervaso di ricca umanità, di proclamazione del bisogno vitale che i bambini hanno dell’amore dei genitori “per stare bene”, di tributo alla professione medica vissuta con competenza e con grande onestà.
 
 M.B.

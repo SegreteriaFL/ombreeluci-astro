@@ -1,4 +1,5 @@
 ---
+
 title: "L'amico speciale. Uno strumento per parlare di autismo ai bambini più piccoli - Recensione"
 date: "2007-03-02"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
+
+subtitle: "Ed. Informare Un'H"
 ---
+
 Una simpatica filastrocca per raggiungere i bambini che non sanno ancora leggere e far loro avvicinare in modo costruttivo il mondo del bambino affetto da autismo che hanno come compagno di classe. Filastrocca accompagnata da una breve, chiara, con- creta guida per insegnanti e genitori che possono inquadrare meglio la problematica autistica con spunti precisi per la realizzazione del lavoro educativo e didattico. E, per chi volesse approfondire, una bibliografia completa e aggiornata.
 
 >

@@ -1,4 +1,5 @@
 ---
+
 title: Mi trovo bene con tutti
 date: 2003-03-13
 author: Giovanni Grossi
@@ -14,6 +15,8 @@ tags:
 umap_x: 6.796561241149902
 umap_y: 8.790263175964355
 umap_z: 12.265880584716797
+
+subtitle: "Sono in una comunità di Fede e Luce dal 1996"
 ---
 
 I

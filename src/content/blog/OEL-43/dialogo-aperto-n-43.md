@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 43
 date: 1993-09-09
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-43
 id_numero: "OEL-43"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Un grande privilegio
 
 Leggo sempre con tanto interesse le lettere che pubblicate sulla rivista «Ombre e Luci» e anch’io voglio esporvi il mio caso. Da diversi anni convivo con una vedova per la quale nutro tanto affetto e amore. Una donna che stimo e apprezzo, che ha affrontato con serenità le disgrazie, sempre sorretta dalla fede e dall'amore verso i figli. Oltre ad un figlio buono, bravo ed intelligente che frequenta r ultimo anno di ragioneria ne ha un'altro handicappato, Mattia. Durante i primi anni della nostra convivenza, nonostante provassi tanto affetto, mi vergognavo a uscire con lui, ogni scusa era sempre pronta; mi sembrava fosse un ostacolo insormontabile alla nostra unione, alla nostra felicità: mi era insomma difficile accettarlo. Poi frequentando la casa, vivendo vicino a lui giorno dopo giorno, e dopo aver superato un’esperienza personale molto negativa, ho capito che in lui c’era tanto amore verso di me, e non l’ho più visto come un diverso ma come una persona dalla quale avevo molto da imparare, e ora lo sento come mio figlio. Sono orgoglioso come può essere un padre, lo sento come mio e la serenità è tornata nel mio cuore. Quasi ritengo uno straordinario privilegio il fatto di essere riuscito ad avere e dare un segno d’amore così grande.

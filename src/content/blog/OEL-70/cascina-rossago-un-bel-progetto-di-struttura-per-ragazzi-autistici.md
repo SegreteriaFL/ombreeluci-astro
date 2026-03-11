@@ -1,4 +1,5 @@
 ---
+
 title: "Cascina Rossago: un bel progetto di struttura per ragazzi autistici"
 date: 2000-06-20
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 7.754769325256348
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La prima Farm Community italiana, su un terreno di 12 ettari acquistato nell’Oltrepò Pavese dalla Fondazione Genitori per l’Autismo"
 ---
+
 N
 el maggio del 1998, dall’impegno patrimoniale di alcune famiglie di ragazzi autistici, è nata la
 [Fondazione Genitori per l’Autismo](https://www.fondazionegenitoriautismo.it/)

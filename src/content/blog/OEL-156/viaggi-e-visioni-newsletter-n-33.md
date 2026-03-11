@@ -1,4 +1,5 @@
 ---
+
 title: Viaggi e visioni – Newsletter n. 33
 date: 2021-06-19
 author: Redazione
@@ -15,7 +16,9 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### OL incontra...
+
 
 ---
 
@@ -23,11 +26,13 @@ Con questa newsletter, andiamo lontano! Lietissimi di averli nella copertina del
 
 ### Il libro del mese
 
+
 ---
 
 «Un pellegrinaggio più che un tour di lavoro» quello compiuto dal fotografo Nicola Gronchi in alcuni degli ex ospedali psichiatrici italiani ormai abbandonati. In *La bellezza nella mente* (Felici Editore, 2020), l’obiettivo fotografico offre uno sguardo su «luoghi anticamente prestigiosi e belli, metodi alienanti e degradanti, elementi che rievocano gli esseri umani che li hanno abitati (...) evidenziando quella frattura che non abbiamo ancora saputo sanare». Scatti in bianco e nero degli istituti di Volterra, Cogoleto, Colorno, Maggiano e Pistoia che trovano nei contributi degli psichiatri Liliana Dell’Osso e Primo Lorenzi una cornice storica importante. [La recensione](https://www.ombreeluci.it/2021/la-bellezza-nella-mente-recensione/) è di Cristina Tersigni.
 
 ### Agenda per l'Agenda
+
 
 ---
 
@@ -35,11 +40,13 @@ All’unanimità, il 25 settembre 2015 i 193 Paesi membri dell’Onu approvavano
 
 ### 0-13
 
+
 ---
 
 Disegno di Gabriele Portento (9 anni, Roma)
 
 ### Il blog di Benedetta
+
 
 ---
 
@@ -48,6 +55,7 @@ Disegno di Gabriele Portento (9 anni, Roma)
 Io sono andata a cena con tutti i miei compagni di classe e cinque professori. Siamo andati in pizzeria a Trastevere. Ci siamo visti a piazza Belli alle 8. Poi siamo andati a piedi perché è vicino. Io mi sono prima un po’ commossa. Io i miei compagni li vedo solo in classe. [**Continua a leggere...**](https://www.ombreeluci.it/2021/la-pizza-di-fine-anno/)
 
 ### Il post del mese
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: Un ragazzo ribelle
 date: 2012-03-16
 author: Pennablù
@@ -14,7 +15,10 @@ umap_z: 12.322568893432617
 issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Non avevo mai pensato a San Giovanni Battista come ad un ragazzo ribelle, un figlio che si sottrae al futuro che i genitori con amore e saggezza hanno sognato per lui"
 ---
+
 8gennaio: Battesimo di Gesù per mano del Battista. Festa grande per gli Ortodossi, mi dicono, meno sentita tra i Cattolici, almeno così mi sembra. E invece quest’anno per me, è diventata occasione di riflessione nuova.
 
 **Il sacerdote che tiene l’omelia ci parla di Giovanni in modo insolito** . Questo ragazzo è il figlio di Elisabetta, quella cugina da cui si reca in gran fretta Maria dopo l’annuncio dell’Angelo. Questo ragazzo è quello stesso bambino da poco concepito, che balza nel seno della Madre all’arrivo di Maria, in qualche modo tra i primi testimoni del prodigio dell’Incarnazione. Questo bambino è quello stesso tante volte raffigurato ricciolino, dolce e sorridente accanto a Gesù e a sua Madre.

@@ -1,4 +1,5 @@
 ---
+
 title: "“Un sorriso è ancora lì sulla mia faccia\""
 date: "2009-09-10"
 author: "Padre Joseph Larsen"
@@ -14,7 +15,10 @@ categoria_menu: "Fede"
 issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Lettera ai miei cari fratelli e sorelle di Fede e Luce riuniti a Cattolica"
 ---
+
 Ieri sono tornato a casa dopo un weekend di ritiro con tutte le comunità del mio paese. Che meravigliosa esperienza è stata!Sento dentro, ancora, il calore dell’incontro ed un sorriso è ancora lì sulla mia faccia. Mi sembra che in questo stato in cui mi sento, potrei cambiare il mondo.
 
 Era davvero un’esperienza così eccezionale? No, non lo era. Non per noi, almeno in Fede e luce. L’incontro che vivrete sarà probabilmente la stessa cosa per noi. Come ce lo spieghiamo? Sì, il programma dell'incontro era buono, ma non è stato il programma a renderlo così. C’era un tempo bellissimo, con un sacco di sole, ma non è stato il sole a renderlo così. C'era Pienezza di sorriso tutt’intorno e - sì sono stati i sorrisi a renderlo così. I sorrisi hanno prodotto altri sorrisi. I sorrisi hanno prodotto il miracolo della bellezza di tutto.

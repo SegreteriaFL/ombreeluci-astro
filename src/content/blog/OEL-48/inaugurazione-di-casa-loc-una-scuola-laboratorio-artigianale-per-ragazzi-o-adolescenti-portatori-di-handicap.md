@@ -1,4 +1,5 @@
 ---
+
 title: "Inaugurazione di Casa Loïc: una scuola laboratorio artigianale per ragazzi o adolescenti portatori di handicap"
 date: "1994-03-16"
 author: "Antonio Mazzarotto"
@@ -14,6 +15,7 @@ issue_number: OEL-48
 id_numero: "OEL-48"
 numero_rivista: "Ombre e Luci"
 ---
+
 L'atmosfera. Se c'è una cosa che ricorderò di questa bellissima giornata è **l'atmosfera serena, gioiosa e davvero festosa** che circondava noi tutti. L'occasione era speciale: l’inaugurazione del nuovo edificio di **Casa Loïc**, della prima vera e propria casa, costruita vicino alle due piccole bicocche in legno nelle quali fin ora era stata svolta tutta l'attività. (Un laboratorio progetto di artigianato).
 La nuova casa, appoggiata sulle colline ondulate di Capena, lungo la Via Tiberina, è circondata a perdita d’occhio da verdi prati.
 Il cielo terso, degno delle migliori occasioni, ha fatto il resto, e quella domenica 13 febbraio è risultata un vero successo.

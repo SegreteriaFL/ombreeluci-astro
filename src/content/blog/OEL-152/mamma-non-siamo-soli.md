@@ -1,4 +1,5 @@
 ---
+
 title: «Mamma, non siamo soli»
 date: 2020-05-19
 author: Marina Vigliar
@@ -19,6 +20,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando una mamma di considerevole età si trova a dover gestire da sola, avendo perso da più di dieci anni il suo caro marito, un figlio di quasi 44 anni con problemi di disabilità psichica, certo si affida a tanti aiuti esterni. Il mio Sergio è campione di cavallo nazionale, perché svolge da vent’anni attività di ippoterapia, è un abile nuotatore e frequenta un centro diurno con piacere.
 
 Bene, di colpo, il 10 marzo 2020, grazie all’arrivo del coronavirus, Sergio è stato bloccato in casa, proprio lui che, quando gli si chiedeva: “Che cos’è per te la felicità?”, rispondeva: “Stare con gli altri”.

@@ -1,4 +1,5 @@
 ---
+
 title: Lourdes 1981 - Domenica di Pasqua
 date: 1981-09-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Programma della giornata
 
 **Mattino** ** ** I pellegrini celebreranno l'Eucaristia raggruppati per paese (le ore e i luoghi saranno indicati dai responsabili di comunità).

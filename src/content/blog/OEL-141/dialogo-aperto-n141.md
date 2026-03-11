@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.141
 date: 2018-03-26
 author: Redazione
@@ -15,10 +16,12 @@ issue_number: OEL-141
 id_numero: "OEL-141"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Una festa lunga 25 anni
 
 In onore della giornata della Festa della Luce, una mamma della nostra comunità, Marina, ci ha scritto queste righe che volentieri condivido con voi: «Ho capito che vi cerco… Ho capito che vi aspetto… Ho capito che vi amo… Tutti, dal più grande al più piccino. E soprattutto i nostri ragazzi, dal sorriso disarmante, dalle battute fuori posto e fuori luogo, dalla richiesta d'amore che si fa sguardo e parola, di chi tutto il cuore ti offre, tenendolo tra le mani. Io, mamma, papà, sorella o fratello, non ho più stanchezza, né lacrime ne' dolore, se solo ti guardo negli occhi e vi ritrovo un dolore, che si trasforma in richiesta d'amore. E negli occhi dei nostri amici? Un'aperta, meravigliosa, dolce e formidabile scoperta..."Sono sempre con te. Per ridere insieme a te, gioire, ballare e pregare. Io non ti abbandono" Ed è ancora richiesta ed offerta d' amore».
 **Rosita**
+
 
 ---
 
@@ -26,6 +29,7 @@ In onore della giornata della Festa della Luce, una mamma della nostra comunità
 
 Una notizia è uscita alla ribalta, accogliendo commenti di dissenso ma anche ahimè di difesa, che a noi ha turbato molto. La notizia è quella che emerge dai Rapporti Annuali di Valutazione (RAV) che da qualche anno le scuole sono obbligate a elaborare e pubblicare sul sito del MIUR ("Scuola in chiaro") perchè siano chiari i punti di forza e di debolezza, ciò che va accettato e ciò che va migliorato nell'ambito del Progetto Educativo Didattico di ogni scuola di ogni ordine e grado. La relazione annuale di alcuni licei di Italia, rileva una assenza completa di integrazione di "diversità" varie (stranieri, alunni con disabilità o alunni con problemi di apprendimento). Nel rapporto che è stato redatto e approvato dal collegio dei docenti e Consiglio d'Istituto, il dirigente ritiene questa "esclusione" un pregio, un elemento di cui vantarsi per il migliore rendimento degli alunni. È una notizia che a noi ha sconvolto parecchio. Spero che Ombre e Luci trovi lo spazio e le modalità più idonee per parlarne. Nel rispetto dei valori di cui ci facciamo portavoce, e nel rispetto soprattutto di quanti ci hanno preceduti nelle lunghe e dolorose battaglie per i dirittti dei ragazzi con disabilità ad essere accolti a trovare uno spazio reale nella società civile, nella scuola e nella Chiesa.
 **Monica Leggeri**
+
 
 ---
 

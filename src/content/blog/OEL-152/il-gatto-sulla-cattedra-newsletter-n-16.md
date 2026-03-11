@@ -1,4 +1,5 @@
 ---
+
 title: Il gatto sulla cattedra – Newsletter n. 16
 date: 2020-05-22
 author: Redazione
@@ -18,15 +19,18 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 **L’ analisi** – Questa volta l’esperta ve la proponiamo noi: forti del suo curriculum (che vanta, tra l’altro, quarant’anni di insegnamento alle medie e trenta di madre di un romanista con disabilità), abbiamo chiesto a Nicla Bettazzi [un commento alla lettera](https://www.ombreeluci.it/2020/dal-gatto-sulla-cattedra-ai-monti-di-goethe/) inviata al Corriere della Sera dalla mamma di Beatrice che racconta il fallimento della scuola ai tempi del covid-19 verso sua figlia con disabilità. Nicla ha accettato, firmando un pezzo che amplia lo sguardo su quello che la scuola non è, ma che dovrebbe e potrebbe essere.
 
 **La testimonianza** – Più o meno previsti e prevedibili, gli effetti del covid-19 sono stati e saranno ancora forti sulle nostre vite, anche in presenza di disabilità, come abbiamo ascoltato nei [racconti preoccupati di alcuni protagonisti](https://www.ombreeluci.it/tag/coronavirus/) . E preoccupata per l’emergenza improvvisa è stata inizialmente anche Marina Vigliar, temendo che suo figlio “andasse in escandescenze, come accaduto per fatti meno gravi in passato”. Invece [Marina si è accorta](https://www.ombreeluci.it/2020/mamma-non-siamo-soli/) di avere “ancora tanto da imparare, da lui e dagli altri”. E che lo abbia imparato durante questa quarantena – ammorbidita dalle risorse inaspettate di Sergio e dalla rete di amici che, pur nella distanza fisica, sono stati una sponda di riferimento – è stato un balsamo per molte ferite.
+
 
 ---
 
 **Il video** – La vita di Madre Teresa di Calcutta raccontata ai più piccoli: vi proponiamo [un video](https://youtu.be/_pZQZ7zEYQo) realizzato con i testi di Benoît Machon e Noëlle Herrenschmidt (sue anche le illustrazioni). Pubblicati sul [numero 63 del 1998 di Ombre e Luci](https://www.ombreeluci.it/1998/maria-teresa-di-calcutta-dedicato-ai-bambini/) , dimostrano la ricchezza di un archivio sempre attuale.
 
 https://youtu.be/_pZQZ7zEYQo
+
 
 ---
 
@@ -36,9 +40,11 @@ https://youtu.be/_pZQZ7zEYQo
 
 Io non ci ho capito un bel niente. Ma che devo fare? Boh. Non mi fanno uscire da tanto. Hanno chiuso la scuola, la palestra, il coro. [Continua a leggere...](https://www.ombreeluci.it/2020/ma-come-ve-lo-devo-dire-santo-cielo/)
 
+
 ---
 
 [Rispondi al sondaggio](https://us17.list-manage.com/survey?u=00c5dad63480d9601563b5692&id=2f375568ec)
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Cosa dirvi di più"
 date: "1984-03-30"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-5
 id_numero: "OEL-5"
 numero_rivista: "Ombre e Luci"
 ---
+
 Stéphane Desmazières, nono figlio di una famiglia del Nord della Francia, prete nella diocesi di Lilla, per tredici anni vescovo di Beauvais, all’età del ritiro ha scelto la vita all’Arche. Ha vissuto due anni nel «focolare» dell’Ermitage a Trosly-Breuil, poi si è trasferito a St-Rémy-les-Chevreuse dove ha fondato una nuova comunità dell'Arche.
 In quest’anno santo della Redenzione e con il Sinodo dei Vescovi a Roma sulla Riconciliazione e il Sacramento della Penitenza, grazie a Dio, si parla sempre di più di questa pratica personale del cristiano che va incontro al suo Redentore per ricevere la grazia del perdono.
 Mi è stato chiesto: Lei che ha così grande esperienza del sacramento della Penitenza e che ora vive con persone handicappate mentali adulte, che cosa pensa della confessione per loro? Crede che possano ricevere «in verità» questo sacramento?

@@ -1,4 +1,5 @@
 ---
+
 title: Come preparare al sacramento
 date: 1995-12-30
 author: Paul Gilbert
@@ -15,6 +16,7 @@ issue_number: OEL-51
 id_numero: "OEL-51"
 numero_rivista: "Ombre e Luci"
 ---
+
 Vogliamo dare una traccia comune per il
 **cammino di catechesi**
 proposto sia agli amici che ai ragazzi disabili interessati a ricevere il Sacramento della confermazione. Questo vuole essere un cammino comune , nella speranza che questa comunanza sia un ulteriore motivo profondo di crescita e condivisione.

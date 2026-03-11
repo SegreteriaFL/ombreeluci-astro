@@ -1,4 +1,5 @@
 ---
+
 title: "\"È molto più bello fare il volontario che il Presidente\""
 date: "2005-09-19"
 author: "Huberta Pott"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
+
+subtitle: "Sono andata a vedere le gare ippiche e di atletica in occasione della manifestazione Special Olimpics organizzata a Tor di Quinto"
 ---
+
 Volevo proprio vedere i ragazzi gareggiare e quindi ho assistito sia alle gare ippiche sia a qualche gara di atletica, manifestazioni svoltesi in posti bellissimi (Tor Di Quinto e lo Stadio della Farnesina). Ho così assistito a prestazioni sportive di alto livello, ma più ancora mi ha colpito l'atmosfera che si respirava intorno. Un’organizzazione molto professionale e pressoché perfetta, pensata nei minimi dettagli in una cornice allo stesso tempo rilassata, gioiosa e spumeggiante.
 
 I ragazzi si impegnano al massimo, i genitori assistono orgogliosi e i volontari accompagnano, incitano e gioiscono con gli atleti.

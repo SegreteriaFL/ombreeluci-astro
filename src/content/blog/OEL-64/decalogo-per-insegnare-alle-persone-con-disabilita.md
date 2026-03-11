@@ -1,4 +1,5 @@
 ---
+
 title: "Decalogo per insegnare alle persone con disabilità"
 date: "1998-12-10"
 author: "Redazione"
@@ -15,6 +16,7 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 ---
+
 - Imposta il tuo rapporto sulla serenità, il rispetto, l'affetto.
 
 - Esigi che intorno a lui ci sia ordine e tranquillità: la confusione e il chiasso gli impediscono di concentrarsi.

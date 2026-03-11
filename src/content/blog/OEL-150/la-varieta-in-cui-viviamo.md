@@ -1,4 +1,5 @@
 ---
+
 title: "La varietà in cui viviamo"
 date: "2020-05-29"
 author: "Giulia Galeotti"
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nel bel mezzo della crisi globale scatenata dal covid-19, abbiamo dovuto ripensare temi e argomenti di Ombre e Luci: ciò che avevamo preparato sarebbe stato stonato in questo tempo sospeso, difficile e nuovo. E abbiamo ritenuto che immergerci nei racconti di queste settimane non avrebbe probabilmente lenito quel bisogno di conforto di cui abbiamo tutti, almeno un po’, bisogno.
 
 La scelta è dunque caduta su un viaggio nel piccolo e grande schermo, lungo un cammino però nuovo, che ci vedesse finalmente protagonisti. Protagonisti per temi, sguardi, ruoli, interpretazioni e fruizione di un cinema e una televisione capaci non di imbalsamare o sdilinquire la disabilità, ma di ritrarla (è noto quanti danni abbia fatto *Rain Man* nell’approccio all’autismo, e quanto importante possa essere invece un film come *The Elephant Man* per riflettere sulla diversità).

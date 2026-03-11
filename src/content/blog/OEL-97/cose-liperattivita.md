@@ -1,4 +1,5 @@
 ---
+
 title: "Cos'è l’iperattività"
 date: "2007-03-02"
 author: "Patrizia Stacconi"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "La parola iperattività evoca bambini vivaci, contenti, pieni di vita e immagini legate all’infanzia e alla spensieratezza. Non è affatto così"
 ---
+
 ### Cos’è l’ADHD
 
 Si tratta di un disturbo di origine biologica della corteccia prefrontale e dei gangli basali diffuso circa nel 4% della popolazione scolastica, con prevalenza maschile (in media 4 a 1), che comporta: difficoltà nel controllo dell'impulso e del movimento, difficoltà di concentrazione, un’alterazione nella percezione degli stimoli ambientali e nell’elaborazione delle risposte ad essi.

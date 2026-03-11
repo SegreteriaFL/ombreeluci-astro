@@ -1,4 +1,5 @@
 ---
+
 title: La luce e la letizia - Recensione
 date: 2007-06-03
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.156970024108887
 umap_y: 11.511617660522461
 umap_z: 5.165755748748779
+
+subtitle: "Storia di una bambina diversamente abile e di una mamma ugualmente felice - Cinzia Anedda, Ed. Effatà, 2007"
 ---
+
 Una bimba desiderata ma con un grave problema all’encefalo già visibile prima della sua nascita. L'attesa diversa e difficile, la nascita e la miriade di eventi successivi, tra diagnosi, terapie e riabilitazione, a volte drammatici a volte sereni, accompagnati dai vissuti che facilmente possiamo intuire, comunque tutti illuminati da una grande fede in Cristo.
 
 Come dice la stessa autrice, **ce ne sono tante di storie di questo tipo, ma ogni storia è unica e irripetibile** , e forse in questa potremo trovare spunti che non abbiamo trovato in altre. Uno è senz'altro quello per cui questa mamma ha saputo fare piccole e grandi scelte per il bene della piccola Letizia cercando anche di conciliarle con il suo bene e di non mettersi troppo in disparte rispetto alle necessità della figlia.

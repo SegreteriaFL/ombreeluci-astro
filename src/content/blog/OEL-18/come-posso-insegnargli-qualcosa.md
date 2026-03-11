@@ -1,4 +1,5 @@
 ---
+
 title: Come posso insegnargli qualcosa
 date: 1987-06-27
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-18
 id_numero: "OEL-18"
 numero_rivista: "Ombre e Luci"
 ---
+
 ##### **Come un figlio normale**
 
 Trattate vostro figlio come un figlio normale ogni volta che è possibile, ma non aspettatevi che reagisca come un figlio normale. Non sperate l’impossibile, ma non abbandonate mai la lotta. Siate riconoscenti per il più piccolo passo avanti perché questo vi mostra che c’è ancora un progresso da fare.

@@ -1,4 +1,5 @@
 ---
+
 title: Una relazione importante
 date: 2024-08-26
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 7.301703453063965
 issue_number: OEL-166
 id_numero: "OEL-166"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Valentina raccontata dalle insegnanti"
 ---
+
 Quando Valentina è arrivata nel nostro liceo, **inizialmente abbiamo pensato che non fosse il posto più indicato per una persona con le sue caratteristiche** : gli insegnamenti di un liceo sono molto teorici e vengono veicolati soprattutto tramite lezioni frontali.
 
 La scuola, grazie all’esperienza delle figure professionali impiegate nell’area del sostegno, si è comunque immediatamente **attivata per accoglierla al meglio creando un team di lavoro che potesse valorizzare le sue capacità** .

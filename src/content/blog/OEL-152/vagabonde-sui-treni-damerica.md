@@ -1,4 +1,5 @@
 ---
+
 title: Vagabonde sui treni d’America
 date: 2020-08-19
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sono donne che dalle nostre parti è difficile incontrare le protagoniste del documentario *This Train I Ride* (2019). Hanno scelto di viaggiare in solitudine, saltando clandestinamente da un treno merci all'altro lungo gli Stati Uniti, cercando quella libertà che la società patriarcale raramente riserva al femminile.
 
 A raccontarci le loro esperienze sono una ventenne, una trentenne e una quarantenne; hanno viaggiato in periodi diversi, e in momenti e modi diversi hanno provato a raggiungere quell'equilibrio spezzato nel momento in cui sono fuggite dalla loro vita quotidiana. L'esperienza è simile, ma le donne sono molto diverse, per carattere e scelte di vita: il filo comune che il regista Arno Bitschy ha trovato non ne sminuisce l'identità personale costruita anche nel lungo tempo trascorso a vagabondare per la nazione.

@@ -1,4 +1,5 @@
 ---
+
 title: Tempo di vacanze e divertimento
 date: 2022-11-09
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 9.881508827209473
 issue_number: OEL-159
 id_numero: "OEL-159"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Vi proponiamo alcuni giochi e passatempi non troppo complicati per un’attività diversa dal solito. Buon divertimento"
 ---
+
 «Pagine diverse dal solito, cari lettori. In questa estate 2022, che sembra di ripresa anche se foschi avvenimenti non la rendono ancora serena quanto vorremmo, abbiamo accettato e condiviso la sfida di una storica collaboratrice della rivista, con esperienza di attività con persone con disabilità intellettive e fisiche in un laboratorio che, nella parrocchia di Santa Silvia al Portuense a Roma, opera dagli anni Ottanta: **proporre giochi e passatempi non troppo complicati per un’attività diversa dal solito.** Soprattutto giochi da fare in compagnia, magari in un campo di vacanza, in un incontro…
 
 **Non abbiamo la pretesa di aver offerto frizzi e lazzi alla portata di ogni abilità ma sappiamo che, con un po’ di collaborazione, sono possibili tante, tante cose.** E le sfide possono essere sempre avvincenti! Ogni pagina di questo focus inizia da una domanda per intavolare una conversazione leggera e allo stesso tempo utile per conoscerci meglio. Potrete condividere con noi i disegni della prima di copertina che siete liberi di interpretare a vostro pieno, pienissimo, piacimento. La copertina è tutta vostra! E saremo felici di condividere tutte quelle che riceveremo attraverso i nostri social. Ci piacerebbe anche sapere se i giochi vi sono piaciuti, se sono stati troppo facili o difficili, e se vi piacerebbe trovarne ancora tra le nostre pagine o se volete voi stessi proporcene altri. Buone vacanze e buon divertimento!
@@ -31,9 +35,13 @@ Ad ogni immagine è associato un indovinello, riuscirai a capire la parola miste
 
 **Sono “sacro”** **e non sto in chiesa** **Sto nascosto** **e non vedo il cielo:** **ma se mi batti senza pietà** **tutte le stelle ti faccio vedere**
 
+
+
 ---
 
 **Poiché sono fitto e scuro,** **Pollicino si è perduto** **ma ho protetto Biancaneve.** **Anche tu mi hai attraversato** **E le fragole hai trovato**
+
+
 
 ---
 

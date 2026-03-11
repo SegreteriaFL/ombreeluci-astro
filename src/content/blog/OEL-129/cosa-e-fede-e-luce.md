@@ -1,4 +1,5 @@
 ---
+
 title: "Cosa è Fede e Luce"
 date: "2015-03-19"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "L’Associazione Fede e Luce onlus è la culla della nostra rivista. Nata nel 1971 a Lourdes, arriva in Italia pochi anni dopo, nascendo ufficialmente a Roma nel 1975."
 ---
+
 ### Chi siamo?
 
 Gente qualunque, chiamata e riunita da coloro che tra noi sono i più piccoli e i più fragili.

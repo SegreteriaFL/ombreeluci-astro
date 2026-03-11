@@ -1,4 +1,5 @@
 ---
+
 title: Joseph ha fatto la prima comunione
 date: 1974-01-07
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 12.443609237670898
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Chi più di lui è degno di ricevere Gesù?!"
 ---
+
 Ho incontrato quest'estate a Lourdes la mamma di **Joseph, un bambino di 11 anni, gravemente handicappato nel fisico e nell'intelligenza** . Ci conosciamo perché è il quarto anno che ci incontriamo a Lourdes. Joseph non parla, non dice che qualche sillaba strana.
 
 La mamma era tutta contenta, splendente come non l'avevo mai vista. Mi disse: «corro a prendergli un regalino, perché stamattina ha fatto la sua prima comunione». Meravigliata mi chino su Joseph, tutto contorto nella sua troppo grande carrozzella. Lui, sembra non accorgersi di me; la mamma continua: «sai come è andata? **A Joseph il parroco non ha mai dato la comunione;** questa mattina alla messa alla 'grotta', ci si è avvicinato un sacerdote tedesco che, in un francese un pò strano, gli ha chiesto se voleva la comunione; e Joseph, tutto agitato, ha gridato: jà, jà! Lui ha creduto che fosse tedesco e che gli dicesse sì, sì, e gliel'ha data. **Del resto io ho sempre pensato: "chi più di lui è degno di ricevere Gesù»**

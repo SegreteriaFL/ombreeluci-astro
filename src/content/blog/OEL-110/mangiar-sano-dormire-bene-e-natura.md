@@ -1,4 +1,5 @@
 ---
+
 title: Mangiar sano, dormire bene e... Natura!
 date: 2010-06-17
 author: Cristina Tersigni
@@ -17,7 +18,10 @@ umap_z: 8.184584617614746
 issue_number: OEL-110
 id_numero: "OEL-110"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Fare l’orto all’aria aperta è più divertente che giocare alla playstation per la maggioranza dei bambini che hanno avuto l’opportunità di provarlo”"
 ---
+
 I
 n talia alcuni operatori dell’Unità Operativa di Neuropsichiatria Infantile di Pomezia (R. Miletto, F. Magnaguagno, F. Cipparone
 Rispettivamente Neuropsichiatra Infantile, Eucatore ed Istruttore arrampicata sportiva, Formatore ed Educatore ambientale

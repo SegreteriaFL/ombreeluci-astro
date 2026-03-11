@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto, Insieme n.23
 date: 1980-06-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 ### La mia vita
 
 Avendo solo la possibilità di poter usare solamente la mano destra, con un po' di fatica, posso fare, con il tavoletto circolare applicato al tavolo, un lavoro di ricamo a mezzo punto, quando questi miei lavoretti sono terminati li faccio incorniciare, e quando avrò un determinato numero di quadri, la mia gran gioia sarebbe di fare una piccola mostra personale..... Attualmente mi trovo sulla carrozzella, però il mio stato d'animo è sempre contento, perché i miei genitori mi hanno dato una gran forza di volontà per superare tutti gli ostacoli che nella nostra vita incontriamo, perché dalla società d'oggi non siamo capiti. Ora che conosco Fede e Luce sono molto contenta, perché ho potuto conoscere tanti bravi ragazzi e ragazze che quando ci troviamo tutti insieme come una famiglia, ci aiutiamo moralmente e fisicamente. Prego il buon Dio che questa famiglia si debba sempre più ingrandire. **Nadia Monti** (Milano)

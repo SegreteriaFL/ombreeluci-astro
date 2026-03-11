@@ -1,4 +1,5 @@
 ---
+
 title: "Vita Fede e Luce n. 8 - Che cosa è Fede e Luce"
 date: "1984-12-31"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-8
 id_numero: "OEL-8"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Che cosa è «Fede e Luce»?
 
 In ogni numero di questa rivista qualche pagina è dedicata al movimento [*Fede e Luce*](http://www.ombreeluci.it/fede-e-luce/). Per i lettori che non lo conoscono descriviamo le idee essenziali e l’attività di *Fede e Luce*

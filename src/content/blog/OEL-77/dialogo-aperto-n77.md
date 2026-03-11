@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.77
 date: 2002-03-08
 author: Redazione
@@ -14,8 +15,13 @@ has_comments: false
 umap_x: 4.828938961029053
 umap_y: 7.20782995223999
 umap_z: 10.445265769958496
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 Vogliamo ringraziare tutti quelli che hanno risposto all'appello lanciato da Mariangela nell' [editoriale](https://www.ombreeluci.it/2001/vogliamo-andare-avanti/) del [n. 3/2001](https://www.ombreeluci.it/project/numero-75-vogliamo-andare-avanti/) . Molti di voi si sono fatti vivi con un segno tangibile: i ritardatari inviando un contributo arretrato, puntuali mandando un contributo più generoso e rinnovando quello già inviato. Grazie. Altri ci hanno fatto giungere per e-mail o per posta lettere affettuose piene di riconoscimento per il nostro lavoro, di osservazioni e consigli che speriamo di utilizzare nel modo migliore per il futuro. Starà a voi giudicare. Non sono mancate le critiche, anche molto severe, come quelle che potete leggere nella lettera della lettrice Maria Rosa Oneto. Della sua come delle altre abbia mo deciso di pubblicare qualche stralcio perché ci sembra giusto farle conoscere a tutti i lettori.A M.R. Oneto in particolare, vorremmo dire tante cose per farci conoscere e capire meglio perché abbiamo visto dai nostri schedari, che, in realtà, le è stato inviato in diffusione soltanto un numero di Ombre e Luci, quello con le foto di Lourdes. Speriamo che voglia leggere ancora qualche articolo prima di rendere definitivo il suo rifiuto. Per ora preferiamo risponderle attraverso altre lettere dei nostri lettori e speriamo voglia scriverci ancora.Noi faremo del nostro meglio per essere, come sempre, vicini e solidall. Vale a dire: NELLA STESSA BARCA! Un abbraccio a tutti e buona lettura.
+
+
 
 ---
 
@@ -25,6 +31,8 @@ Ombre e Luci è una rivista tipicamente associativa. Esprime la sensibilità e l
 **Daniele e Chiara Gatti**
 - Roma
 
+
+
 ---
 
 ### Voltate pagina
@@ -32,6 +40,8 @@ Ombre e Luci è una rivista tipicamente associativa. Esprime la sensibilità e l
 Purtroppo, tra che pagine del vostro giornalino appare una visione della disabilità, dell'handicap marcatamente catechistica e parrocchiale. Questo, in un periodo in cui, la maggiorana di noi ha o aspira a un dignitoso posto di lavoro, a un'integrazione sociale egualitaria e partecipativa; a una dimensione di vita che, superando limiti fisici, costrizioni architettoniche burocratiche, diventi la spinta necessaria per edificare un presente ed un futuro migliorere. Tra i paragrafi della vostra rivista nonostante i superamenti sui concetti di diversità, di anormalità, di pari o residue capacita, si tende trattare l'handicap, sempre e soltanto, come una risorsa di fede. Di "cammino sofferto" verso la Provvidenza; di carità e pietismo nei confronti dell'"altro" che da tempo sono stati aboliti o giacciono dimenticati nella scatola del "brutti ricordi" Qundi, quale mio consiglio disinteressato, non le dispiaccia se le dico francamente che sarebbe ora di voltare pagina e di investire la redazione di aria fresca.
 **Maria Jose Oneto-Rapallo**
 (Ge)
+
+
 
 ---
 
@@ -41,6 +51,8 @@ Fate bene a fare il punto sulla situazione, a volte é anche necessario per ripa
 **Maria R. Schaffner Clampi**
 , Firenze
 
+
+
 ---
 
 ### Cambiare per mantenere
@@ -48,6 +60,8 @@ Fate bene a fare il punto sulla situazione, a volte é anche necessario per ripa
 Naturalmente ci sara bisogno pian piano di persone che si impegnino a dare il cambio a chi si è prodigato per tanti anni e così bene, ma si deve mantenere questa rivista per la ricchezza e l'umanità delle testimonianze e per il servizio di informazione circa i libri, comunità, laboratori, iniziative di viaggi e vacanze che non sono facilimente reperibili altrove.
 **S. Simonato**
 , Cinisello Balsmo
+
+
 
 ---
 
@@ -57,6 +71,8 @@ Ho conosciuto la rivista attraverso un moncao francese il quale, sapendo che ho 
 **Daniela Fedi**
 , Pistoia
 
+
+
 ---
 
 ### Legata agli amici
@@ -65,12 +81,16 @@ L'arrivo del giornalino in casa mi tiene legata tramite riflessioni, esperienze 
 **Rita Ozzimo**
 , Roma
 
+
+
 ---
 
 ### Un grosso servizio
 
 ...A mio modesto parere, penso che facciate un grosso servizio alla cultura dell'integrazione che è più che mai necessaria e attuale.
 **Marco Piolanti**
+
+
 
 ---
 
@@ -80,6 +100,8 @@ L'arrivo del giornalino in casa mi tiene legata tramite riflessioni, esperienze 
 **Annick**
 , Roma
 
+
+
 ---
 
 ### Mi ridà entusiasmo
@@ -87,6 +109,8 @@ L'arrivo del giornalino in casa mi tiene legata tramite riflessioni, esperienze 
 Sono il responsabile di un Centro Educativo Occupazionale Diurno che accoglie disabili adulte. Ospitiamo 20 utenti con varie tipologie di handicap e vari livelli di gravità e offriamo loro servizi educativi e assistenziali che comprendono attività manuali, riabilitative e di integrazione sociale. Il sottoscritto purtroppo svolge un ruolo di tipo amministrativo-burocratico e di "controllo gestionale" di tutta la vita del Centro. Il mio rapporto con i ragazzi (che in più di 10 anni di lavoro con l'handicap mi hanno dato moltssimo) rimandono perciò un po' ai margini del mio lavoro, che invece è alle prese soprattutto con telofono, computer e scartoffie varie. Per questo leggo sempre molto volentieri il vostro giornale, le cui pagine sono dense di umanità, di sensibilità, di vita vissuta, di solidarietà. Dopo tanti discorsi burocratici, tecnici, politici, il poter ritrovare uno spazio di serena riflessione e di gioia di vivere, è per me una grande ricchezza, che mi fa ritrovare l'entusiamsmo necessario per svolgere al meglio il mio lavoro con la consapevolezza che la reale condivisione della sofferenza è motivo di crescita per tutti.
 **Andrea Segato**
 , Responsabile di un centro per disabili Abano Terme (PD)
+
+
 
 ---
 
@@ -96,6 +120,8 @@ Sono il responsabile di un Centro Educativo Occupazionale Diurno che accoglie di
 **Elisa Sturlese**
 , Milano
 
+
+
 ---
 
 ### Nei miei pensieri
@@ -104,12 +130,16 @@ Cara Mariangela, ho letto sul giornalino “Ombre e Luci” il tuo dubbio se con
 **Lina Cusimano**
 - Roma
 
+
+
 ---
 
 ### Lo vorrei così
 
 Carissimi redattori di Ombre e Luci, leggo sempre il giornale, che fate però non riesco a capire le vostre parole e vorrei che fosse scritto in modo più semplice, e non deve essere incentrato soltanto su di un argomento, ma deve esserci spazio per altre cose, che interessino noi giovani, e anche come migliorare la propria vita, vorrei che si scrivessero articoli sui viaggi, le esperienze vissute e come andare d’accordo con gli altri, e non deve far pesare il fatto della diversità e questo non mi va, le persone si amano e si considerano per quello che sono senza che ci siano distinzioni. Vorrei che fosse scritto in modo più vivace, e non deve essere una cosa fatta solo per quel tipo di persone.
 **Giovanni Grossi**
+
+
 
 ---
 
@@ -118,6 +148,8 @@ Carissimi redattori di Ombre e Luci, leggo sempre il giornale, che fate però no
 È l’una di notte, non riesco a dormire, allora sono venuta in sala e, ascoltando un bellissimo CD di concerti di Natale, sto leggendo l’ultimo “Ombre e Luci” che mi è arrivato! Ho appena letto la testimonianza della Comunità “Il Roveto” e sono rimasta commossa: ma come potremmo fare a meno di “Ombre e Luci”? Ogni volta ci trovo calore, amore, richiamo ai valori più veri che nel tran tran del quotidiano, nelle prove riguardanti la mia salute e nelle pieghe meno “belle” del mio carattere rischio di dimenticare! Grazie: voi siete la sentinella che ogni volta mi richiama e mi dà nuovo slancio!...
 **Trixi Pezzoli**
 - Milano
+
+
 
 ---
 

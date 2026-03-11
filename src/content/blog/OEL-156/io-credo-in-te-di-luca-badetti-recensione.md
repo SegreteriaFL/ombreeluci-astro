@@ -1,4 +1,5 @@
 ---
+
 title: Io credo in te di Luca Badetti – Recensione
 date: 2021-07-12
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 Credere è un verbo che associamo facilmente al credere in Dio o ad alcune idee. **Ne trascuriamo invece l’importanza per la nostra vita personale e per la nostra felicità.** Eppure, riguarda ciascuno di noi quando lo decliniamo nella sua accezione dell’aver fiducia, come ci spiega in parole semplici Luca Badetti nel suo libro *Io credo in te* edito da San Paolo (2021).
 
 Il libro parte da un episodio in cui *credere* , nella sua normale accezione, risultava difficile per l’autore, che attraversava un momento di difficoltà. “Sai, io credo in Dio, ma…”: così aveva cominciato ad esprimere quella difficoltà ad alta voce. Accanto qualcuno lo ha capito profondamente: **Jennifer, una donna con la sindrome di Down, ospite di una comunità dell’Arche di Chicago, dove all’epoca Badetti viveva come assistente, è stata realmente capace di intercettare la giusta frequenza per rispondergli.** Lo ha fatto ripetendo per tre volte la frase: *Io credo in te* e scalfendo quello scudo che non gli permetteva di accedere ad un altro livello di consapevolezza, quello che gli faceva capire che era lui a non credere pienamente in se stesso.

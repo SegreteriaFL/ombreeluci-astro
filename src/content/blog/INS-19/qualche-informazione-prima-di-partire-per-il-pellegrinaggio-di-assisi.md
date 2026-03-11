@@ -1,4 +1,5 @@
 ---
+
 title: Qualche informazione prima di partire per il pellegrinaggio di Assisi
 date: 1978-06-16
 author: Maria Grazia Pennisi
@@ -18,6 +19,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 Assisi si trova in Umbria, sulla sommità di una collina (m. 424) e vi potrà ancora far freddo: sarà bene avere un pullover pesante e un impermeabile.
 
 Vi ricordiamo di segnare il proprio nome (nome e cognome - gruppo originario di appartenenza - Fede e Luce "Cittadella") su valigie, borse, carrozzelle e quanto altro potrebbe andare smarrito o confuso.

@@ -1,4 +1,5 @@
 ---
+
 title: "“Non potevo diventare suora perché non potevo leggere”"
 date: "1992-09-07"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-39
 id_numero: "OEL-39"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Ho sempre desiderato essere una suora, ma non potevo diventarlo perché non sapevo leggere... Ora sono consacrata a Gesù qui a Betania». Susanna è una delle oblate del Sacro Cuore di Gesù che vivono in una nuova comunità religiosa. Siamo andati a trovarla.
 Nel 1965 una piccola congregazione diocesana della Normandia, le suore del Sacro Cuore di Gesù, fondò a *Saint Aubin les Elbeuf*, a venti chilometri da Rouen, un centro di accoglienza per donne adulte handicappate mentali. Alcune di queste giovani manifestarono durante parecchi anni il desiderio di diventare religiose. Si cercò allora di capire se dal punto di vista spirituale questo era attuabile e fu iniziato un periodo di formazione di sette anni adatto alle loro esigenze. Sei di queste donne furono poi ammesse ai primi voti e diventarono «oblate del Sacro Cuore».
 Nel 1983 la Provvidenza offrì loro una scuola abbandonata e il gruppo vi venne ad abitare. «Betania» è il nome scelto dalle oblate stesse. Oggi esse formano una comunità religiosa aggregata alla Congregazione diocesana del Sacro Cuore di Gesù la cui superiora generale nomina le suore accompagnatrici. Suore di altre congregazioni si sono unite alla comunità per aiutarla e oggi tutte formano un gruppo omogeneo. A poco a poco dodici persone handicappate sono arrivate a Betania. Francesca aveva in cuore questo desiderio fin dall’età di dieci anni. Spiega: «Ora ho abbandonato tutto per seguire il Cristo a Betania; non voglio più andare via di qui. Non ho potuto entrare in un’altra comunità; avrei scelto la clausura».

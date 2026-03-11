@@ -1,4 +1,5 @@
 ---
+
 title: "Comunità-alloggio La Torre"
 date: "1995-06-02"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ringraziamo Sergio Sturlese e altri amici milanesi del movimento Fede e Luce che ci hanno mandato il resoconto della loro visita a Rivarolo Canavese (TO). Ci auguriamo che tanti altri amici e lettori si propongano di conoscere iniziative come questa e tutte le strutture che rispondono a bisogni così pressanti e che poi ci facciano conoscere i risultati delle loro scoperte. Avremo così la possibilità di comunicarle a tanti che potranno servirsene o trovarvi 1’ispirazione e Y impulso a farne nascere altre.
 La comunità «La Torre» è suddivisa in tre piccoli gruppi. Ognuno di essi è composto da una decina di handicappati mentali di livello medio grave di un’età compresa fra i 18 e i 51 anni. La maggior parte è originaria della provincia di Torino.
 Generalmente sono le USSL a segnalare i casi e sono i responsabili della comunità a decidere l’accettazione delle persone disabili in base alla loro possibilità di inserimento nella vita comunitaria.

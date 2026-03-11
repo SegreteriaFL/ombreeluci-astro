@@ -1,4 +1,5 @@
 ---
+
 title: Qualcuno aspetta
 date: 2013-03-10
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 11.075896263122559
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Don Luigi D’Errico, parroco dei SS. Martiri dell’Uganda risponde ad alcune domande che gli abbiamo posto sul rapporto fra la Chiesa e la disabilità"
 ---
+
 > “Il mio compito è annunciare il Vangelo a tutti”.
 
 Don Luigi D’Errico, parroco dei SS. Martiri dell’Uganda ha esordito così quando abbiamo sottolineato la differenza tra la disponibilità ad accogliere tutti e l’impegno ad andarseli a cercare proprio “tutti”, soprattutto i più fragili, così come ha fatto lui. Ha poi proseguito: “Gesù dice che dove c’è il povero c’è Dio. Non posso non andare a cercarlo e non impegnarmi per raggiungerlo. Sarà poi la persona a decidere se accettare l’invito o meno.

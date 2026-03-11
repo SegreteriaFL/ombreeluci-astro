@@ -1,4 +1,5 @@
 ---
+
 title: "L'alfabeto della mia vita"
 date: 1993-06-20
 author: Natalia Livi
@@ -15,6 +16,7 @@ issue_number: OEL-42
 id_numero: "OEL-42"
 numero_rivista: "Ombre e Luci"
 ---
+
 E
 un libro che si legge facilmente: basta aprirlo a una pagina qualsiasi o scegliere un paragrafo che ci tocca di più e ne trarremo forza, entusiasmo e gratitudine per questa giovane autrice che ha voluto metterci a parte delle varie tappe della sua vita e farci conoscere le persone che le sono state vicine e le fonti della sua capacità di non arrendersi e della sua gioia di vivere. E indirizzato ai giovani e ai genitori dei bambini portatori di handicap. In prima pagina le parole della dedica: «Ai miei genitori, con riconoscenza». Tina Salvi ha trentacinque anni, è affetta da tetraplegia spastica e ha gravi difficoltà nel muoversi e nel parlare. Il libro riflette la luminosità dei suo occhi, la sua volontà di esprimersi, di lavorare, di avere contatti e amicizia. E senza dubbio Tina Salvi ci è riuscita e ci riesce. Le varie lettere dell’alfabeto sono le iniziali di parole attraverso le quali l’autrice medita sulla propria vita, e su quella di tutti. Per fare alcuni esempi: dall’Amore al Coraggio, al Dono, al Dolore, ai Genitori, all’Handicap, al Sorriso e infine dalla Zia che lei è: ogni parola si presta a considerazioni che dalla sua vita si allargano agli altri con una speciale capacità di comunicare la sua forza e la sua allegria, ma anche la consapevolezza dei grandi problemi che ci circondano. La pubblicazione di questo libro è avvenuta privatamente attraverso una raccolta di fondi da parte della famiglia e degli amici. Per acquistarlo si può scrivere direttamente all’autrice al seguente indirizzo: Via Ospedaletto, 28 - 24031 Almenno S. Salvatore (BG). -
 *Natalia Livi*

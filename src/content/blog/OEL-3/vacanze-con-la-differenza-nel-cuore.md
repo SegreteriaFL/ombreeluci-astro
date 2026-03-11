@@ -1,4 +1,5 @@
 ---
+
 title: Vacanze con la differenza nel cuore
 date: 1983-09-30
 author: Anna Cece
@@ -24,6 +25,7 @@ umap_y: 6.574873447418213
 umap_z: 10.21483039855957
 id_numero: "OEL-3"
 ---
+
 Nelle vacanze c’è più tempo, si attenua la frenesia, l’ossessione degli impegni, la produttività che domina la vita di quasi tutti nel resto dell’anno. C’è più tempo per ascoltare, per vedere, per curarsi degli altri. E una caratteristica dell’handicappato è proprio il ritmo più lento. Inoltre la vacanza è spesso un tempo di contatto con la natura, ed è nella natura che l’handicap appare meno aspro. Infine, in vacanza, i nostri alibi - non ho tempo, non posso - sono meno convincenti. Perciò, gran parte di Ombre e Luci è dedicato alle vacanze, concretamente: infatti tutti gli articoli nascono da esperienze.
 
 **Leggi anche [altri contributi dedicati alle vacanze con persone con disabilità](#)**

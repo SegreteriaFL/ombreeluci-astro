@@ -1,4 +1,5 @@
 ---
+
 title: Pino e Conny sposi
 date: 2023-05-09
 author: Vito Giannulo
@@ -14,7 +15,10 @@ umap_z: 12.77957820892334
 issue_number: OEL-161
 id_numero: "OEL-161"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "«Noi sappiamo che il matrimonio è un traguardo e non tutti possono arrivarci – ci dicono Conny e Pino – ma noi crediamo che con Dio tutto si supera e sapevamo di potercela fare.»"
 ---
+
 Èuna bella mattina di sole di qualche mese fa. E sta per accadere un fatto che vorremmo con tutto il cuore che in futuro accadesse sempre di più, che diventasse «normale», come diciamo con questa parola la cui ambiguità e inadeguatezza a Fede e Luce risaltano più chiaramente che altrove.
 
 **Conny arriva in una normale chiesa di Foggia con un normale vestito bianco e, com’è normale, la attende Pino, lo sposo, impeccabile nel suo gilet di raso.** Segue tradizionale ricevimento meridionale della normale durata di quasi dodici ore. Eppure tutti sentiamo che sta accadendo qualcosa di specialmente commovente. «Il mio combattimento finisce qui», dice Conny quando racconta a tutti, con il coraggio che le viene dalla limpidezza del cuore, dei no ricevuti da parte della famiglia fino all’ultimo giorno prima di sposarsi, delle difficoltà economiche che dovranno affrontare, degli ostacoli burocratici che deve superare chi unisce, oltre ai propri destini, anche i propri redditi. Il combattimento è servito a queste due persone forti – Pino, con una famiglia disastrata alle spalle, una salute molto precaria e limiti psichici e fisici; Conny, con un corpo provato e una mente impavida – per superare l’idea che «da soli non ce la farete mai», «vi vedete quando volete, ma perché vi dovete sposare?», «tutti hanno difficoltà nel matrimonio, figuratevi voi!».

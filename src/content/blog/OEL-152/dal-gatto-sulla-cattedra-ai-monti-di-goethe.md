@@ -1,4 +1,5 @@
 ---
+
 title: Dal gatto sulla cattedra ai monti di Goethe
 date: 2020-05-21
 author: Nicla Bettazzi
@@ -19,6 +20,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Prof, ci fa vedere il gatto?». Si erano passati la voce, mi dice l’amica insegnante. Il giorno precedente, mentre faceva lezione a una prima, il suo gatto era salito sulla cattedra: e adesso anche quelli della terza volevano vederlo. Perché no, in fondo che male fa: «Eccovelo!». Applausi, tripudio. Dagli altoparlanti. Dai rettangolini del mosaico sullo schermo.
 
 Perché avrete capito che la cattedra in realtà era il tavolo di sala nella casa della mia amica, e la lezione era telematica.

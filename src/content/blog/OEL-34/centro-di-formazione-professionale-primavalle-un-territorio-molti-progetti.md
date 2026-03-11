@@ -1,4 +1,5 @@
 ---
+
 title: "Centro di Formazione Professionale Primavalle: un territorio, molti progetti"
 date: 1991-06-21
 author: Natalia Livi
@@ -15,6 +16,7 @@ issue_number: OEL-34
 id_numero: "OEL-34"
 numero_rivista: "Ombre e Luci"
 ---
+
 S
 iamo molto grate al Dr. Emmenegger per averci guidate in una visita entusiasmante ai vari laboratori del
 **Centro di Formazione Professionale Primavalle**

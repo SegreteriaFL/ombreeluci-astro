@@ -1,4 +1,5 @@
 ---
+
 title: Dinamiche fondamentali
 date: 2018-07-20
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-143
 id_numero: "OEL-143"
 numero_rivista: "Ombre e Luci"
 ---
+
 Scrivo. Attività che non mi è particolarmente congeniale, ma ho la necessità ed il dovere di condividere con voi l’esperienza intensa e sorprendente che è stata il Libano. Scrivendo penso ai volti di molti di voi che leggeranno, amici fraterni con i quali ho condiviso momenti belli in Fede e Luce, ma penso anche alle comunità che mi sono sconosciute (ma non estranee!) realtà nuove di cui posso solo intuirne la gioia ed il fermento.
 
 Cinque anni fa ho lasciato la Puglia per insegnare prima a Roma e adesso in Piemonte; sono partita come tanti: sogni, emozioni, nostalgia e l’ostinazione di essere pugliese ovunque, amica di Fede e Luce ovunque. E così è stato.

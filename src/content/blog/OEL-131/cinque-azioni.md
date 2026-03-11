@@ -1,4 +1,5 @@
 ---
+
 title: Cinque azioni
 date: 2015-09-22
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 “Sabina tramite
 *Fede e Luce*
 cominciava ad avere per la prima volta degli amici. Aveva avuto rapporti solo con parenti e professionisti. Ha trovato persone che le hanno voluto bene per quello che è e che la consideravano una persona con i suoi limiti, le sue esigenze e le sue stranezze. Sabina ha fatto la Prima Comunione, ha cominciato a partecipare ad attività religiose e a 18 anni è stata cresimata nella parrocchia insieme ad altre ragazze della sua età. Questa entrata di Sabina nella comunità cristiana ha avuto il suo effetto anche su di me e su mio marito. Noi pure siamo stati convertiti. Ho conosciuto Dio tramite

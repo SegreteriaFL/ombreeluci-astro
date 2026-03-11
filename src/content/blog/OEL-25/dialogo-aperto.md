@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto
 date: 1989-03-20
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-25
 id_numero: "OEL-25"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Medico e volontario
 
 Cari amici di Ombre e Luci, ricevo la vostra rivista dopo la segnalazione di un'amica che la riceveva e che me la prestava. Successivamente l'ho ritrovata tra la posta della parrocchia. **La rivista mi ha entusiasmato e ho anche tentato di diffonderla** . Ho lavorato per circa un anno con i portatori di handicap e le loro famiglie in un'associazione «L'Arcobaleno» di cui sono uno dei fondatori. Successivamente, cosa che continua tuttora, **sono obiettore di coscienza e svolgo il servizio civile presso una casa famiglia** per handicappati e malati cronici a Foggia. Ho 28 anni, sono medico, specializzato in psichiatria. Non assumo, comunque il ruolo di medico nel lavoro (quello svolto a Cerignola, dove vivo) e a Foggia, dove faccio, nella casa, proprio di tutto. Assumere il ruolo professionale nel volontariato è una cosa particolarmente difficile. **Quello che ho privilegiato in questo periodo è la condivisione** . Dopo il periodo di obiezione mi interesserebbe fare una esperienza a Osimo, realtà che ho appreso da Ombre e Luci in un articolo di qualche tempo fa. Dalle nostre parti la neuropsichiatria infantile è diffusa molto poco. Vi invio alcuni indirizzi, forse troppi; non so quanti faranno l'abbonamento o siano effettivamente interessati. **Sono però convinto che la novità del vostro messaggio potrà aiutarli molto nel loro lavoro o nei loro problemi familiari.** Riguardo al questionario, alla voce se in parrocchia volevano diffondere Ombre e Luci, abbiamo risposto positivamente. Una copia già arriva. Se mandate qualche copia in più, annunceremo durante la celebrazione, la presenza delle copie e se qualcuno è interessato, vi invieremo il nominativo. Vi saluto nella pace e nella gioia. **Salvatore Russo** , 1989

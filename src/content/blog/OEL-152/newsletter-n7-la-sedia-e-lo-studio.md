@@ -1,4 +1,5 @@
 ---
+
 title: Newsletter n.7 - La sedia e lo studio
 date: 2020-01-10
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 *7 Febbraio 2020*
 
 Immagine di copertina: Denise Turu da Who Is My Neighbor? (Flyaway Books 2019)
@@ -31,6 +33,7 @@ Fino a qualche mese fa oggetto di proiezioni e dibattiti in Francia, è ora disp
 
 Aprendo una parentesi al nostro Speciale sul [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita) sui film dedicati alla disabilità, che riprenderà nella prossima newsletter, Matteo Cinti ha scritto per noi [una riflessione sulle serie tv](https://www.ombreeluci.it/2020/lanno-della-disabilita-nelle-serie-tv) con protagoniste persone con disabilità, nel 2019 rappresentate – dagli Stati Uniti all'Italia – in modo particolarmente complesso, senza cadere in facili stereotipi.
 
+
 ---
 
 ### [Il blog di Benedetta](https://www.ombreeluci.it/il-blog-di-benedetta/)
@@ -38,6 +41,7 @@ Aprendo una parentesi al nostro Speciale sul [Cinema e disabilità](https://www.
 [**Al compleanno di Papa Francesco**](https://www.ombreeluci.it/2020/al-compleanno-di-papa-francesco/)
 
 Papa Francesco mi ha invitata alla festa del suo compleanno e io ci sono andata. Di corsa. Sono stata molto contenta che mi ha invitata e l’ho detto anche a lui. [Continua a leggere...](https://www.ombreeluci.it/2020/al-compleanno-di-papa-francesco/)
+
 
 ---
 

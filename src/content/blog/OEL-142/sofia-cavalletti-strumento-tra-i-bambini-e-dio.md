@@ -1,4 +1,5 @@
 ---
+
 title: Sofia Cavalletti, strumento tra i bambini e Dio
 date: 2018-06-30
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-142
 id_numero: "OEL-142"
 numero_rivista: "Ombre e Luci"
 ---
+
 Il mistero del Regno di Dio è alla portata dei bambini? È giusto introdurli fin dai tre anni circa, a temi che riguardano la salvezza in un’ottica cristiana? O, se non cristiani, riconoscere ai bambini una dimensione spirituale che prenda in considerazione le grandi inevitabili domande sull’esistenza?
 
 Il saggio di Anna Aluffi Pentini ci guida, in un’ottica di valutazione psicopedagogica semplice ed approfondita, a conoscere ed analizzare la proposta di catechesi del Buon Pastore che risponde in modo peculiare a queste domande, nel rispetto della piena dignità del bambino. Il metodo, basato su un approccio prevalentemente montessoriano, è stato ideato da Sofia Cavalletti, biblista romana vissuta tra il 1917 e il 2011, con l’amica Gianna Gobbi, maestra e pedagogista montessoriana.

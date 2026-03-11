@@ -1,4 +1,5 @@
 ---
+
 title: "All'Alveare si scopre l'America... e il teatro"
 date: 2002-06-15
 author: Maria Teresa Mazzarotto
@@ -17,7 +18,10 @@ tags:
 umap_x: 9.030660629272461
 umap_y: 7.69415283203125
 umap_z: 8.8159818649292
+
+subtitle: "Abbiamo messo in scena il testo di Cesare Pascarella con ragazzi disabili mentali di lieve o media gravità: pochissimi sanno parlare con sufficiente chiarezza e, imparare a memoria un testo anche breve, è per loro impossibile. Ecco come abbiamo fatto"
 ---
+
 Sì, ce l'abbiamo fatta! Senza l'aiuto di esperti o di addetti ai lavori esterni, ragazzi e amici del laboratorio in un vero teatro, con veri costumi, davanti ad un pubblico pagante, abbiamo recitato "La scoperta dell'America" del poeta romanesco Cesare Pascarella. I nostri ragazzi sono disabili mentali di lieve o media gravità, pochissimi sanno parlare con sufficiente chiarezza e, imparare a memoria un testo anche breve, è per loro impossibile. Ci chiedono: come avete fatto? Cechiamo di spiegarlo.
 
 **Scelta del testo** : divertente, ma non fiabesco o infantile nel contenuti (i nostri amici disabili sono adulti), vivace ma non troppo complicato nell'intreccio. I Versi in romanesco rendevano più familiare il testo e la storia.

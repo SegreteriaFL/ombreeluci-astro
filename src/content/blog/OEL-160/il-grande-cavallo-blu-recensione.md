@@ -1,4 +1,5 @@
 ---
+
 title: Il grande cavallo blu - Recensione
 date: 2023-02-15
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 5.405176639556885
 issue_number: OEL-160
 id_numero: "OEL-160"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La storia di Paolo e del suo amico Marco nel libro di Irène Cohen-Janca, illustrato da Maurizio A.C. Quarello (Orecchio acerbo, 2012)"
 ---
+
 Mentre la giunta leghista sfratta a Muggia la statua di Marco Cavallo (simbolo della rivoluzione di Basaglia), mentre il disagio mentale cresce in modo esponenziale (tra pandemia, guerra e crisi economica), questo gioiellino compie 10 anni. **A raccontare la storia è Paolo, il figlio della lavandaia del San Giovanni, l’unico bambino a vivere nel manicomio di Trieste, dove il parco è recintato, le finestre sbarrate, le porte chiuse a chiave: i matti non possono uscire.** Oltre al nonno e a Ernesto («Saba», compagno di scuola), l’unico vero amico di Paolo è Marco, l’anziano ronzino addetto al trasporto di biancheria, scarti di cibo e roba vecchia. Improvvisamente due eventi rompono la routine: la minaccia della macellazione che incombe su Marco e l’arrivo di un nuovo dottore («Matto come un cavallo e ostinato come il vento») che vuole abbattere quelle cancellate. Nel gioco di ombre e di colori, è un libro in cui linguaggi, tempi e scenari del manicomio si trasformano nel linguaggio, nel tempo e nello scenario di una favola.
 
  ### Il grande cavallo blu **Autore** : Irène Cohen-Janca e Maurizio A.C. Quarello **Traduzione:** Paolo Cesari ** Editore:** Orecchio Acerbo **Pagine:** 44 **Prezzo:** 13€ **ISBN:** 9788896806227 

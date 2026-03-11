@@ -1,4 +1,5 @@
 ---
+
 title: Hallo! Welcome! Hej! Halloźik! Halo!
 date: 2000-09-28
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 11.214646339416504
 issue_number: OEL-71
 id_numero: "OEL-71"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Valentina Camomilla ci racconta l'incontro di formazione internazionale che si è svolto a Chianciano"
 ---
+
 Accendo di fretta il mio computer per vedere se mi ha già scritto qualcuna delle persone che ho conosciuto a Chianciano, trovo invece una mail che mi chiede se sarei disposta a raccontare 1’incontro per Ombre e Luci... accetto subito con entusiasmo, basta che sia in italiano... adesso vi spiego perché.
 
 Arrivati a Chianciano, fin da subito si capisce che c’è una ricchezza in più in questo incontro: «Hallo, welcome!» «ciao», «Привт», «kellemes», «hej», hallòzik», «halo» e... «Come si traduce «Riscrivi la charta nel cuore è stato il tema dell'incontro, «Upisp ponovo u suoje in tvoj srce».

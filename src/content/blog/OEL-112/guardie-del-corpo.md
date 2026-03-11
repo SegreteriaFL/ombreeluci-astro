@@ -1,4 +1,5 @@
 ---
+
 title: Guardie del corpo
 date: 2010-12-03
 author: Pennablù
@@ -14,7 +15,10 @@ umap_z: 8.561785697937012
 issue_number: OEL-112
 id_numero: "OEL-112"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un tipo molto particolare di guardie del corpo... fedeli e attente, scrupolose e guardinghe, con divisa d'ordinanza che può variare dai jeans maglietta e scarpe da tennis alla gonna longuette camicetta e scarpe con mezzo tacco giudizioso"
 ---
+
 Sono un piccolo esercito di guardie del corpo, fedeli e attente, scrupolose e guardinghe, con divisa d'ordinanza che può variare in una gamma che va dai jeans maglietta e scarpe da tennis, alla gonna longuette camicetta e scarpe con mezzo tacco giudizioso, a seconda dei gusti personali e della situazione ambientale.
 
 Sono dotate di un borsone carico di generi vari: dalle bottiglie d’acqua ai tovaglioli, dai biberon ai sonaglini, dalle merendine alle macchinette, dalle pentoline ai piccoli mostri in plastica con nomi assurdi che cambiano continuamente e che loro non riescono a memorizzare. Affollano gli ingressi delle scuole elementari, materne e degli asili nido, delle piscine e delle palestre (pur non praticando nessuno sport), percorrono avanti e indietro i viali e gli spiazzi dei giochi nei parchi pubblici e nei giardinetti di quartiere.

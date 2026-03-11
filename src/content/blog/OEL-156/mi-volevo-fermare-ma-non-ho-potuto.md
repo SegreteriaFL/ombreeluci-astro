@@ -1,4 +1,5 @@
 ---
+
 title: Mi volevo fermare. Ma non ho potuto!
 date: 2021-10-20
 author: Benedetta Mattei
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ascuola ci vado volentieri ma non si capisce più niente perché **i professori non ci sono tutti e alcuni compagni neppure e questo mi dispiace.** Sono a Erasmus. Ma forse poi tornano, così mi hanno detto. Soprattutto Lorenzo e Joelle mi mancano.
 
 Abbiamo votato i rappresentanti di classe che sono Chiara e Alessandro. Loro due sono molto bravi. Io quando leggevano i nomi sui foglietti però sono intervenuta e ho detto il nome del mio compagno che mi piace e mi sta simpatico. Anche se lui non doveva avere il voto. Si sono messi a ridere tutti.

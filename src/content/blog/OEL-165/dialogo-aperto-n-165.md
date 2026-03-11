@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 165
 date: 2024-06-19
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 10.753286361694336
 issue_number: OEL-165
 id_numero: "OEL-165"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Le lettere arrivate in redazione"
 ---
+
 ### Annamaria Mazzarotto
 
 Equilibrio, capacità di interrogarsi sempre, saper dire la parola giusta al momento giusto. Sono i tratti di Annamaria Mazzarotto de Rino che amici e parenti hanno voluto ricordare all’ultimo saluto, avvenuto il 4 dicembre scorso nella chiesa di San Gaetano a Milano.

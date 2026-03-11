@@ -1,4 +1,5 @@
 ---
+
 title: "Più forti di loro - Gli scritti dei monaci trappisti uccisi in Algeria"
 date: "1999-06-16"
 author: "Natalia Livi"

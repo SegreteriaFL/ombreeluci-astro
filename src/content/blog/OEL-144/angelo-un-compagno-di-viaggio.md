@@ -1,4 +1,5 @@
 ---
+
 title: Angelo, un compagno di viaggio
 date: 2018-11-03
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Con grande dolore abbiamo appreso la notizia della scomparsa del nostro caro amico Angelo e della sua mamma Rosa in circostanze veramente tragiche. Chiedo a tutti voi di unirci nella preghiera per condividere il dolore di chi soprattutto, in tutti in questi anni, ha avuto la Grazia di un compagno di viaggio come Angelo!
 
 Condividere è segno di grande comunione: “se un membro soffre, tutte le membra soffrono con lui”. Questa comunione è alimentata anche dalla fede che ci invita ad alzare lo sguardo verso una meta che non è un luogo, ma un abbraccio, quello del Padre, come l’abbraccio di Angelo alla sua mamma, perché forse il Paradiso è un po’ questo: un abbraccio in cui sentirsi accolti, protetti, amati, custoditi e non lasciati...

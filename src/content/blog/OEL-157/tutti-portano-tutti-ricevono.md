@@ -1,4 +1,5 @@
 ---
+
 title: Tutti portano, tutti ricevono
 date: 2022-06-22
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-157
 id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
+
 «C'èuna compagnia che fa bene a tutti, anche a chi per sue caratteristiche tende all’isolamento. **Il contesto agricolo, il ritmo delle stagioni… aiutano chi ha problemi relazionali, psichiatrici, intellettivi.** Il percorso di recupero nelle competenze è davvero importante. Anche nella ristorazione. Soprattutto per quelle famiglie che la sera vedono i loro figlioli impegnati: si cambiano e con l’uniforme da cameriere vanno a fare il loro servizio al ristorante dalle 19 all’una». Il caldo accento toscano di Laura Capantini accompagna l’emozione con cui racconta i bei riscontri vissuti tra gli avventori di Casa Ilaria – della cui fondazione è l’attuale presidente – «una casa per tutti e a cui tutti possono portare qualcosa». Un progetto nato nel 2013 dalla constatazione che nel territorio pisano mancava una risposta per quei giovani adulti che, con le loro differenti fragilità intellettive, psichiatriche o sociali, **terminata l’esperienza scolastica, rimanevano senza possibilità di inserimento** sia in un centro diurno che in un normale contesto lavorativo.
 
 Un progetto per dare vita al ricordo di suor Ilaria Meoli, nata a Pontedera, carmelitana, missionaria e medica, morta nel 2007 in un incidente stradale nella Repubblica Centrafricana, a 36 anni. Chi la conosceva ha deciso di onorarne la memoria prima con interventi in India e America Latina, a favore di quanti le erano stati a cuore e che aveva incontrato nei viaggi con l’Unitalsi a Lourdes, e poi nella sua terra natale. Una terra che, vocata naturalmente al turismo e all’agricoltura, realizza perfettamente quel desiderio di «giustizia sociale» che, nel nome di Ilaria, ha motivato la nascita prima di una Fondazione e poi della Cooperativa sociale (presieduta da Simone Brogi), dando la possibilità di **offrire in un unico luogo percorsi differenti, all’interno dei quali ciascuno può trovare uno spazio di effettiva e piena partecipazione.**

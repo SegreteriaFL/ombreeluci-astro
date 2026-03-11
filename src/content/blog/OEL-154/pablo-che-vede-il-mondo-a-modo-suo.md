@@ -1,4 +1,5 @@
 ---
+
 title: Pablo, che vede il mondo a modo suo
 date: 2021-08-30
 author: Matteo Cinti
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 Si chiama Pablo, ha 5 anni, ama disegnare ed è **il protagonista di una nuova serie animata inglese** . È intelligente e molto sensibile, spesso smarrito di fronte a persone che non conosce, spaventato dalle feste affollate, turbato quando perde un oggetto.
 
 Davanti a questi problemi, **Pablo risponde con la sua grande immaginazione: prende i pastelli e inizia a disegnare** i suoi amici Dino, Frullo, Raffa, Tango (e tanti altri), degli animaletti che puntualmente lo aiutano a vedere questi ostacoli in un modo tutto nuovo, ribaltando la prospettiva inizialmente spaventosa.

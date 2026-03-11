@@ -1,4 +1,5 @@
 ---
+
 title: Una bambina da incontrare
 date: 2004-12-14
 author: Laura Nardini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 5.859894275665283
 umap_y: 8.884549140930176
 umap_z: 8.306624412536621
+
+subtitle: "Mi ricordo bene la sua storia: il parto prematuro, l'incubatrice, viaggi continui da un ospedale all’altro e i suoi occhi che non vedono nemmeno le ombre"
 ---
+
 R
 icordo molto bene il giorno che sono entrata in casa loro. In quel grande salotto lei era piccola piccola tutta presa dal suo libro parlante, seduta sulla sedia di fronte al tavolo, entrambi su misura per lei. La sua mamma mi spiegò velocemente la storia: il parto prematuro, l’anno passato nell’incubatrice, viaggi continui da un ospedale all’altro, da un dottore all'altro e i suoi occhi che non vedono nemmeno le ombre. Mi spiegò che da un anno appena accettava finalmente di essere alimentata tramite bocca e non più con il sondino nello stomaco. Non mi fece particolari raccomandazioni, e mi disse di tornare un pomeriggio per conoscerla meglio, ma soprattutto per far sì che Silvia si abituasse a me. Infatti, non essendo abituata a stare con gli estranei, l'approccio doveva essere graduale. La mamma e il papà di Silvia sono persone molto equilibrate e amichevoli, quindi non c’è voluto molto perché io mi sentissi accolta. Con lei sono premurosi, ma senza mai soffocarla; hanno una visione oggettiva dei suoi problemi e questo li rende vigili e instancabili. Li ammiro molto e penso che Silvia sia proprio fortunata! Così (chissà con quale cuore!) mi hanno dato fiducia e presto ci lasciarono da sole l’una alla scoperta dell'altra... All’inizio l’ho osservata per capire come introdurmi nel suo giocare. I suoi oggetti preferiti erano e rimangono, naturalmente, quelli che suonano, parlano o vibrano, che lei può azionare a ripetizione spostandoli da una parte all'altra con le mani. Mentre quelli che non"fanno niente" sono destinati ad essere cavie da scaraventare giù dal tavolo per sentire che rumore fanno toccando terra. La mamma di Silvia mi spiegò che andava spronata la sua curiosità per il mondo circostante, e potevo tentare di insegnarle anche l’uso degli oggetti della vita quotidiana.
 

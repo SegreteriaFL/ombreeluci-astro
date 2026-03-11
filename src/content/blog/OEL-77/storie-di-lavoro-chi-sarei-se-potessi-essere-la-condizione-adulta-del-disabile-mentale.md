@@ -1,4 +1,5 @@
 ---
+
 title: "Storie di lavoro - Chi sarei se potessi essere: la condizione adulta del disabile mentale"
 date: 2002-03-08
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.489901542663574
 umap_y: 8.32234001159668
 umap_z: 7.7590532302856445
+
+subtitle: "Per meglio chiarire ai nostri lettori il pensiero di Enrico Montobbio sul ruolo lavorativo del giovane down e sul progetto a lungo termine che lo deve precedere"
 ---
+
 Per meglio chiarire ai nostri lettori il pensiero di **Enrico Montobbio** sul ruolo lavorativo del giovane down e sul progetto a lungo termine che lo deve precedere, riportiamo due brevi episodi tratti dal suo libro: “ [**Chi sarei se potessi essere**](https://www.lafeltrinelli.it/libri/carlo-lepri/chi-sarei-se-potessi-essere/9788882160753) ”. Le illustrazioni tratte dal libro sono del pittore e scenografo Emanuele Luzzati.
 
 ### Scuola materna

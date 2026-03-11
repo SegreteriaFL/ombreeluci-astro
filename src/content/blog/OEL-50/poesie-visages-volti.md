@@ -1,4 +1,5 @@
 ---
+
 title: "Poesie: Visages - Volti"
 date: 1975-02-07
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 8.305231094360352
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Helene ci ha lasciato questa sua poesia per i nostri anici. Ha 22 anni, ed è affetta da paralisi cerebronotoria. Scrive usando con fatica una macchina elettronica"
 ---
+
 Helene, venuta a Roma per la festa del 1° febbraio, ci ha lasciato questa sua poesia per i nostri anici. Hélène ha 22 anni, è I.M.C. (paralisi cerebronotoria). Scrive usando con fatica una macchina elettronica. Vive a Bruxelles, al "Toit" di P. Roberti.
 
 ### Visages

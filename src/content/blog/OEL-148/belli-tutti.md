@@ -1,4 +1,5 @@
 ---
+
 title: Belli tutti
 date: 2019-06-19
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sto fuori all'Agrario. Maurizio è con i compagni, in attesa di entrare. Lui è sempre sorridente, ma oggi a tratti ha un sorriso più teso. È molto coinvolto emotivamente, e questo mi fa molta tenerezza ma anche molto orgoglio, perché denota piena consapevolezza da parte sua dell'importanza del momento, e per noi non era così scontato. Sono veramente emozionato anche io, come se stessi vivendo un dejavu di tanti anni fa. Ora Maurizio sta entrando nell'istituto con i suoi compagni, tutti sorridenti, tutti che stanno in qualche modo "godendo" appieno di questo grande momento di passaggio. Tesi ma belli, emozionati ma vivi, preoccupati ma molto coesi tra di loro, si fanno coraggio, si sfottono, scherzano con Fabio, l'insegnante di sostegno di Maurizio. Sono BELLI TUTTI. Venditti ha giustamente scritto la bellissima canzone "Notte prima degli esami". Io sto vivendo una meravigliosa "Mattinata degli esami" e ho il cuore travolto da tante emozioni: miei ricordi indelebili, le bellissime facce delle compagne e dei compagni di Maurizio, le sue emozioni, un ciclo che finisce e l'incognita per il dopo... e ora l'attesa.
 
 *(Paolo Catapano, 2019)*

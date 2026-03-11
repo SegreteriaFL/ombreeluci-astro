@@ -1,4 +1,5 @@
 ---
+
 title: Non vede, non sente, non cammina, non comunica
 date: 1986-03-29
 author: Mariangela Bertolini
@@ -15,6 +16,7 @@ issue_number: OEL-13
 id_numero: "OEL-13"
 numero_rivista: "Ombre e Luci"
 ---
+
 Affrontiamo in questo numero un argomento fra i più gravi. Avere un figlio che non vede, non sente, non cammina, non comunica... è una delle prove più traumatizzanti per dei genitori e per tutta la famiglia. Casi rari, per fortuna, ma che esistono, purtroppo.
 
 In punta di piedi, con enorme rispetto per chi si trova in questa situazione, abbiamo cercato di descrivere la persona di cui parliamo quando si dice *pluriminorato* ; di far parlare chi in prima persona vive quest’ *avventura* e come si può soppravviverle; spiegarne in modo semplice le cause; e soprattutto far conoscere che è possibile educare e far acquistare ai soggetti colpiti un minimo di autonomia e di comunicazione. Lo scopo del nostro lavoro e della nostra attenzione per questi ragazzi, è — come i lettori già sanno — informare, conoscere meglio, suscitare interesse e solidarietà verso una categoria di persone che fino a pochi anni fa venivano considerate *irrecuperabili* .

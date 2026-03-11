@@ -1,4 +1,5 @@
 ---
+
 title: Con la valigia ma senza bagaglio
 date: 2025-05-14
 author: Alessandra Moraca
@@ -17,7 +18,10 @@ umap_z: 8.856697082519531
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "A ritmo di danza con la Compagnia della Mia Misura, dove ogni passo racconta unicità e incontro: una performance che celebra la diversità come forza espressiva e relazionale."
 ---
+
 Partire per un viaggio speciale, senza bagagli e senza meta, e farne ritorno con una valigia piena di emozioni intense e riconcilianti. Per di più a ritmo di musica e a passo di danza. Tanta roba che ha colto di sorpresa i fortunati spettatori della performance di teatro-danza con cui è stata chiusa la rassegna sull’alfabeto delle emozioni tenutasi a Viterbo a fine novembre. La singolare rappresentazione è stata curata dalla *Compagnia della mia misura* , promotrice a Roma di un laboratorio di inclusione che persegue l’integrazione delle disabilità, aperto a tutti coloro che vogliono mettere in gioco le proprie diverse abilità.
 
 Quindici straordinari «danzAttori» hanno trasportato gli spettatori in un viaggio senza tempo, alla scoperta di immaginari luoghi fisici e di inesplorati spazi interiori, coinvolgendoli in un’inattesa coreografia collettiva, in un ballo di vita che parla di unicità e di noi. Tre sessioni di spettacolo dedicate al tema del viaggio, un viaggio senza meta e a tempo indeterminato: **l’importante non è la destinazione ma tutto quello che c’è in mezzo** . L’attesa, la partenza, la scoperta. E poi la danza, vettore di libertà e di incontro. Quel ballo che, nel modo in cui suggerisce Valerio – ‘danzAttore’ veterano del gruppo – «accende luci e fa sparire le ombre». **Dove c’è un ruolo per tutti e dove tutti si sentono al posto giusto.** Come succede a Daniele, ballerino dalle eccezionali doti artistiche, che non comunica con il linguaggio verbale, ma racconta – e si racconta – in modo penetrante e assordante attraverso il movimento e la gestualità del corpo.

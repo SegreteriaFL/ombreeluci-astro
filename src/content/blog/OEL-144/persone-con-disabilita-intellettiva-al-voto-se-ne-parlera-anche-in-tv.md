@@ -1,4 +1,5 @@
 ---
+
 title: "Persone con disabilità intellettiva al voto: se ne parlerà anche in TV"
 date: "2018-02-23"
 author: "Redazione"
@@ -14,6 +15,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sarà Carlotta Leonori, in rappresentanza dell’AIPD (Associazione Italiana Persone Down), a parlare in studio della guida “Il tuo voto conta!!! Elezioni 4 marzo 2018”, realizzata dalla stessa AIPD per gli elettori con disabilità intellettiva, chiamati a dare il loro voto come cittadini attivi, soffermandosi più in generale sulla loro partecipazione alla vita politica e sociale. Lo farà il 25 febbraio, durante la nuova puntata di “[**Attraverso lo specchio**](http://www.superando.it/files/2018/02/attraverso-lo-specchio-25-febbraio-2018.pdf)”, il noto varietà sociale di Gold TV.
 
 ### L'Appuntamento:

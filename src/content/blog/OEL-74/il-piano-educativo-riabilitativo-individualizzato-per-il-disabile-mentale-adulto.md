@@ -1,4 +1,5 @@
 ---
+
 title: Il piano educativo riabilitativo individualizzato per il disabile mentale adulto
 date: 2001-06-17
 author: Natalia Livi
@@ -15,6 +16,7 @@ issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
 ---
+
 V ittore Mariani, pedagogista, attualmente è supervisore per l'area handicap in Nord-Italia e Svizzera dell’Opera Don Orione e dell'Opera Don Guannella; è collaboratore del **Centro Studi e Ricerche sul Disagio e Disadattamento dell'Università Cattolica di Milano** e presidente dell’ANPE (Associazione Nazionale Pedagogisti). Di lui conosciamo già i due testi pubblicati agli inizi degli anni Novanta, "L'handicappato mentale adulto"(Elle Di Ci), Leuman (To), e "L’educazione sessuale delle persone handicappate" (Elle Di Ci). **Anche i due libri che oggi presentiamo nascono da una profonda competenza, da una lunga esperienza nei centri di accoglienza e da un'ammirevole sensibilità** .
 
 **Nel primo** (" *Il piano educativo riabilitativo individualizzato per il disabile mentale adulto"* ) l'autore si concentra sul Piano educativo riabilitativo individualizzato (PEI). E'questo uno strumento che permette di focalizzare l'attenzione e l'intervento, al servizio delle persone seguite, anche nelle realtà dove si accompagnano nel cammino della vita i disabili mentali adulti, pur con gravi disturbi di mentalità. Il piano individualizzato si realizza a partire da tre punti: obbiettivi educativi, modalità di relazione e di intervento, attività conseguenti. Uno sguardo particolare si rivolge all'équipe degli operatori e alla relazione educativa che attraverso la conferma dell'altro, l'apprezzamento costante di sostegno, la fiducia che ce la può fare, lo induce a scoprire le proprie potenzialità e a esprimere quanto c'è di meglio in lui. Nella seconda parte del libro sono presentate e commentate alcune interessanti schede operative.

@@ -1,4 +1,5 @@
 ---
+
 title: Come guardiamo le persone diverse da noi? Le riflessioni di Alexandre Jollien
 date: 2004-06-11
 author: Redazione
@@ -16,7 +17,10 @@ tags:
 umap_x: 7.355766773223877
 umap_y: 11.341569900512695
 umap_z: 6.317220211029053
+
+subtitle: "Servono occhi nuovi, non di stupore o di commiserazione, ma occhi disinvolti, di simpatia verso ogni persona"
 ---
+
 È uscito un secondo libro di Alexandre Jollien, **“Il mestiere di uomo”** edito da Qigajon. Leggendolo e rileggendo [il suo primo libro, **“Elogio della debolezza”**](https://www.ombreeluci.it/2002/la-mia-vita-come-una-gioiosa-battaglia-alexandre-jollien/) , si rimane colpiti dalle sue riflessioni sull'importanza dello sguardo che posiamo sulle persone, in qualunque modo diverse da noi. Le frasi che riportiamo sono un invito a leggere con attenzione questi suoi due testi, preziosi per tutti noi che vorremmo avere, come suggerisce la mamma polacca nella sua lettera pubblicata nel "Dialogo aperto" , “occhi nuovi, non di stupore o di commiserazione, ma occhi disinvolti, di simpatia verso ogni disabile”.
 
 L'ho percepito, sono un anormale... I movimenti degli occhi che esaminano ogni parcella del mio essere me lo insegnano: uno sguardo fissa il mio, poi scende e si fissa dove si trova la prova che sta cercando: “l’handicappato”.

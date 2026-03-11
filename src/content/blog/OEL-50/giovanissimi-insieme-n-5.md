@@ -1,4 +1,5 @@
 ---
+
 title: Giovanissimi - Insieme n. 5
 date: 1975-05-03
 author: Redazione
@@ -14,16 +15,23 @@ umap_z: 12.241966247558594
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ancora due giovanissimi amici, questa volta di Vercelli, ci raccontano la loro esperienza con gli amici del Centro Sant'Eusebio."
 ---
+
 ### Il compleanno di Juri
 
 "Io ho cinque anni..." questa era la frase che sentivamo incessantemente ripetere dal mattino presto: Juri finalmente compiva cinque anni. Tutti gli amici gli erano intorno per festeggiarlo, per vederlo ridere e scherzare. Non si può esprimere con semplici parole ciò che abbiamo sentito quando Juri spegneva le candeline divertendosi moltissimo e volendo sempre ricominciare da capo. Forse, anzi certamente, il sue sorriso, la sua allegria sono stati i più bei regali che lui abbia potuto farci. Buffo! È stato ancora una volta lui a dare qualcosa a noi, è sempre stato così, almeno per me, da quando ho conosciuto Juri. Vado da lui nel reparto dei bambini dell'Istituto S. Eusebio per dare quel poco che posso e invece mi accorgo che è sempre lui a rendermi felice se sono triste, a distrarmi con le sue simpatiche battute, da quelle che possono essere "grane egoistiche". Ormai posso dire che Juri ha preso completamente la mia vita di tutti giorni. Se per caso non ce la faccio ad andare da lui, mi sento tanto triste e inutile; molte volte mi sono sorpresa a ringraziare il Signore per aver messo sulla mia strada questo favoloso bambino che continuamente mi aiuta a vivere in modo semplice e migliore. Il giorno del suo compleanno abbiamo voluto fargli capire, non solo con regali materiali, ma con la nostra presenza che lui ha molti amici nel vero senso della parola, che gli vogliono tanto bene, che nei momenti di tristezza pensano al suo faccino simpatico, al suo semplice sorriso, È stata per lui una grande piccola festa, ma per noi è stato qualcosa di veramente importante: è stata la scoperta di un piccolo angelo.
 **Gabriella Saviolo**
 - Vercelli, 1975
 
+
+
 ---
 
 **- Leggi anche [Gli amici dei Bimbi del reparto Gesù Bambino del Sant'Eusebio di Vercelli](https://www.ombreeluci.it/1975/gli-amici-dei-bimbi-reparto-gesu-bambino-istituto-santeusebio-vercelli/)**
+
+
 
 ---
 

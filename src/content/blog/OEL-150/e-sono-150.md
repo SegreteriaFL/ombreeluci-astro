@@ -1,4 +1,5 @@
 ---
+
 title: E sono 150!
 date: 2020-05-25
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 C
 entocinquanta numeri di Ombre e Luci, tappa da segnare in un viaggio speriamo ancora lungo e ricco di incontri. Storie, parole, linguaggi e immagini che cerchiamo con cura per ogni numero della rivista, per raccontare quanto sia necessario essere in relazione, nella convinta volontà di non lasciare indietro alcuno. Ombre e Luci
 [nasceva 37 anni fa](https://www.ombreeluci.it/project/numero-1-inverno-la-vita-affettiva-degli-handicappati-mentali/)

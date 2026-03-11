@@ -1,4 +1,5 @@
 ---
+
 title: Con gli occhi di Corrado
 date: 2021-08-02
 author: Giorgia Fontani
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando ho iniziato a scrivere non sapevo da dove cominciare. Raccontare e mettere in ordine i pensieri, non sempre è facile. Ho deciso di chiudere gli occhi per qualche istante, e provare a cercare dentro di me un’immagine, **il ricordo più nitido che avevo dei meravigliosi occhi di mio fratello.** E quasi subito mi è venuta in mente una fotografia per associazione, una foto che non so più dov’è ma che ho guardato tante, tantissime volte, di noi due, seduti uno accanto all’altro nella stessa posizione sul brecciolino del viale di casa di mia nonna; lo stesso sorriso e lo stesso sguardo di due bambini poco più che seienni mano nella mano. E da quel momento sono cominciati alcuni ricordi.
 
 Da piccoli (ma anche dopo in realtà), io e Corrado facevamo spesso un gioco: quello di metterci faccia a faccia, col naso schiacciato l’uno contro l’altro, occhi negli occhi, mentre aspettavamo in silenzio che uno dei due facesse «Bu!» per spaventare l’altro. E lui rideva sempre tantissimo. **Ogni volta che fissavo i suoi occhi così da vicino pensavo sempre la stessa cosa: perché i suoi sono azzurri e i miei no?** Mamma mi raccontava che chiunque lo incontrasse rimaneva incantato dal caschetto biondo che aveva e dagli occhi, azzurro acqua, bellissimi e grandi. Ci somigliavamo, ma tutto nei tratti era diverso, i miei occhi non colpivano mai nessuno. **E così un po’ glieli invidiavo.**

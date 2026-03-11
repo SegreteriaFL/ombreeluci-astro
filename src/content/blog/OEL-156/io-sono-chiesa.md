@@ -1,4 +1,5 @@
 ---
+
 title: «Io sono Chiesa»
 date: 2021-12-21
 author: Antonietta Pantone
@@ -15,6 +16,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 N
 el novembre scorso ho collaborato ad uno dei video prodotti dal Pontificio Dicastero dei Laici e della Famiglia per
 [**la campagna #IamChurch**](http://www.laityfamilylife.va/content/laityfamilylife/it/amoris-laetitia/iniziative-e-risorse/i-am-church.html)

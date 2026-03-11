@@ -1,4 +1,5 @@
 ---
+
 title: "Tenere più stretta la mano dei piccoli"
 date: "1986-06-30"
 author: "Anna Cece"
@@ -15,6 +16,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 NOTA: Secondo la nostra terminologia, Fede e Luce è composta di
 
 - Ragazzi (persone con handicap)

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n. 42
 date: 1993-06-20
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-42
 id_numero: "OEL-42"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Grazie a te
 
 Ho inviato le quote degli abbonamenti 1993 per il rinnovo di OMBRE E LUCI. Spero che quelli che mi hanno promesso di rinnovare personalmente, lo facciano. Io ho fatto quanto mi è stato possibile per contribuire ad alleviare un poco il vostro lavoro. Ho ricevuto l’ultimo numero e come sempre lo trovo molto apprezzabile per il modo con cui comunicate, per i contenuti, per lo spirito che lo anima e vi traspare: dare speranza, senza illusioni, ma sperare sempre, poiché crediamo che qualcuno dirige i nostri passi. Siamo ancora nel periodo pasquale: Gesù ci aiuti a una vera conversione, a credere che non siamo mai soli, specialmente quando il dolore bussa alla nostra porta e ci pare di essere perduti. Ci tengo a dire che ricevo molto da tutte queste mamme, da questi ragazzi. Dò quanto posso, e il loro esempio mi sprona a non pensare ai miei guai... Franceso Gammarelli diceva: «C’è sempre chi sta peggio di me». Se tutti riflettessero così, quanta più pace, quanta piu gioia anche fra noi!

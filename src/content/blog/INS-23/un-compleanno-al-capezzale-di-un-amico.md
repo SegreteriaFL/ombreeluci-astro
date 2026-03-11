@@ -1,4 +1,5 @@
 ---
+
 title: Un compleanno al capezzale di un amico
 date: 1979-09-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 8.479573249816895
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Una toccante riflessione sulla vita e la fede attraverso la storia di un compleanno particolare: l'incontro con Aldo, immobile nel letto, rivela il mistero dell'amore divino e il valore di ogni esistenza."
 ---
+
 Un compleanno, il 35esimo, festeggiato al capezzale di un amico che da dieci anni non scende dal letto. È difficile esprimere quel senso di festa e pure di intima gioia anche perché quell'amico nella sua immobilità progressiva, oramai non articola più la bocca tanto da farsi ascoltare.
 
 Eppure è festa ed è un momento di gioia e "qualcosa" riesce a dirlo con una profondità ed una immediatezza incredibili. Gli ho portato l'Eucaristia e mi chiedo e dico a lui, alla mamma e a un'amica che condividono quel momento qual è il senso di un compleanno? e di questo compleanno? come capire oggi che la vita è e resta un dono?

@@ -1,4 +1,5 @@
 ---
+
 title: "Difficoltà loro o nostra?"
 date: "1983-03-21"
 author: "Henri Bissonier"
@@ -18,7 +19,10 @@ tema_code: "T05"
 tema_label: "Fede, Chiesa e spiritualità della fragilità"
 categoria_menu: "Fede"
 id_numero: "OEL-1"
+
+subtitle: "La Messa è, intorno a Gesù e in Lui, la cena di famiglia dei figli di Dio, nella casa del Padre."
 ---
+
 ### Che cosa è la Messa?
 
 La Messa è, intorno a Gesù e in Lui, la cena di famiglia dei figli di Dio, nella casa del Padre. Con Gesù e in Lui, stessi si offrono con le loro gioie e le loro pene a questo Dio Padre. Questo dono è qualcosa di sacro: un "sacrificio" vissuto nell’amore filiale e fraterno.

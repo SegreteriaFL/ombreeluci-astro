@@ -1,4 +1,5 @@
 ---
+
 title: "L'incontro che cambia la vita"
 date: 2025-02-07
 author: Elena Bernasconi
@@ -17,7 +18,10 @@ umap_z: 10.141143798828125
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal Cottolengo ai Girasoli, la vocazione e la gioia di una famiglia allargata con persone con disabilità"
 ---
+
 Ci sono incontri nella vita che non programmi, che semplicemente accadono, ti travolgono senza farti percepire la portata che avranno sul domani. Solo dopo anni, guardando indietro ci si trova a riconoscere proprio lì quel bivio in cui la vita ha preso la direzione che ci conduce a essere quel che si è oggi. La bellezza di questi incontri sta nel fatto che non si esauriscono in se stessi, ne portano altri e altri ancora, sono il primo anello di una catena che dà un senso nuovo alla vita. Il mio incontro ha un giorno e un luogo: 27 dicembre 2000, *Piccola Casa della Divina Provvidenza* (ovvero Cottolengo) di Firenze. Soprattutto però ha dei nomi e dei volti, delle mani e dei sorrisi che mi hanno accolta con semplicità disarmante, conducendomi a quello che è stato il Capodanno più bello e speciale della mia vita.
 
 > Io, Elena, uscii da quella Piccola Casa ricca di un’emozione mai provata prima

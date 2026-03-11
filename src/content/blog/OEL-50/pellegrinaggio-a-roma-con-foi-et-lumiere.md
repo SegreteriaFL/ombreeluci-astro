@@ -1,4 +1,5 @@
 ---
+
 title: "Pellegrinaggio a Roma con \"Foi et Lumière\""
 date: "1975-02-01"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Fede"
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Siamo nel 1975 e questo è il racconto del primo pellegrinaggio a Roma di Fede e Luce nel racconto di Suor Ida Maria"
 ---
+
 Fede e Luce internazionale, sta preparando un pellegrinaggio a Roma per le famiglie e gli amici degli handicappati mentali.
 
 Perché, questo pellegrinaggio? **Non soltanto per far prendere coscienza al mondo che l'handicappato mentale è figlio di Dio e capace di vivere una vita di fede, di speranza, di carità. Questo è uno scopo, ma non l'essenziale.

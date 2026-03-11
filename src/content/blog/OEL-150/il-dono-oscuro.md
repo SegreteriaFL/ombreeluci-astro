@@ -1,4 +1,5 @@
 ---
+
 title: Il dono oscuro
 date: 2020-07-02
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ci sono storie capaci di spalancarci davanti mondi inimmaginabili, come fa lo strepitoso diario di John M. Hull (1935-2015), appena ripubblicato da Adelphi, in cui il teologo australiano ripercorre la sua lenta discesa verso la cecità totale a quarant’anni. Nei tanti punti affrontati da Hull (dai gesti quotidiani al linguaggio tarato sulle immagini visive), v’è l’esperienza di una persona che, oltrepassando il confine tra mondo dei vedenti e mondo dei non vedenti, vive la totale trasformazione di sé, della sua storia e delle sue relazioni, arrivando a una nuova comprensione di cosa una persona sia. È un percorso affrontato con sofferenza, ironia e socievolezza quello di Hull, e della sua famiglia (meravigliose le pagine finali scritte dalla moglie).
 
 “Man mano che passa il tempo, non mi vedo più tanto come cieco – cosa che mi farebbe apparire menomato rispetto alle persone che vedono – ma come vedente-con-tutto-il-corpo. Un cieco è semplicemente una persona la cui funzione della vista è trasferita all’intero corpo, e non più circoscritta a un organo specifico”. E se la cecità è uno stato, come quello di chi è giovane, vecchio, maschio o femmina (“e insieme a essi costituisce uno degli ordini naturali dell’esistenza”), il problema è come far entrare in contatto questi stati: il tribalismo e la chiusura mentale delle persone, infatti, rendono difficile per una categoria comprenderne un’altra. “Il mondo della cecità è piccolo, autentico e auto-sufficiente, eppure – conclude Hull – è circondato e contenuto in un mondo più grande, il mondo dei vedenti. Come farà il piccolo a comprendere il grande senza provare gelosia, e come farà il grande a capire il piccolo senza provare pietà?”.

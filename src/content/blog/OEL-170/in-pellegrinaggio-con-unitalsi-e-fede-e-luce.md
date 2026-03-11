@@ -1,4 +1,5 @@
 ---
+
 title: In pellegrinaggio con Unitalsi e Fede e Luce
 date: 2025-07-25
 author: Serena Sillitto
@@ -18,7 +19,10 @@ umap_z: 12.688796043395996
 issue_number: OEL-170
 id_numero: "OEL-170"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Andare a Lourdes con Unitalsi e Fede e Luce: l'esperienza di Serena Sillitto volontaria e amica di entrambe. Un solo comune denominatore: il Vangelo"
 ---
+
 «Pellegrinàggio (ant. peregrinàggio) s. m. – 1. a. Pratica devozionale consistente nel recarsi, da soli o in gruppo, a un santuario o a un luogo sacro per compiervi speciali atti di religione, sia a scopo di pietà, sia a scopo votivo o penitenziale (…). 2. Ant., peregrinazione, esilio; è tuttavia ancora viva, nel linguaggio mistico, l’espressione p. terreno, la vita; nella Bibbia traduce, in questo stesso senso, il lat. Peregrinatio».
 
 C’è un universo intero dentro questa voce del vocabolario Treccani. Perché **un pellegrinaggio è un viaggio che fai contemporaneamente fuori e dentro di te** alla ricerca di Qualcosa e/o di Qualcuno, mentre interagisci con tante altre persone, impegnate a loro volta a fare lo stesso, in un miracoloso e sovrapposto ascolto di cielo e terra che ti rigenera creandoti ogni volta un nuovo baricentro **.**

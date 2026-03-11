@@ -1,4 +1,5 @@
 ---
+
 title: Per tutti persone
 date: 2019-10-29
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-147
 id_numero: "OEL-147"
 numero_rivista: "Ombre e Luci"
 ---
+
 Due anni fa, l’assemblea dei bambini e ragazzi dell’Azione Cattolica diede mandato alle generazioni più adulte di impegnarsi con loro affinché l’incontro con la diversità non diventasse causa di allontanamento o isolamento ma di dialogo e di ricchezza. I temi di quel mandato, qui raccolti e non nuovi alla quotidianità dell’associazionismo cattolico, hanno sollecitato nello scorso anno approfondimenti e riflessioni sulla bellezza di farsi prossimo, esercizi “necessari per continuare a custodire e promuovere orizzonti di bene e di possibilità”, qui ed ora. Affinché ogni comunità cristiana, in tutte le sue componenti laiche e consacrate, non attenda l’eventuale incontro con la diversità - manifesta in questo caso nella disabilità - ma si faccia realtà davvero inclusiva da subito. Consapevole del mistero nascosto in ogni persona e non avendo timore della questione sottesa, controversa e amplissima, del dolore innocente.
 
 ##### Acquista questo libro in uno dei siti del circuito **[Helpfreely](https://www.helpfreely.org/it/) .**

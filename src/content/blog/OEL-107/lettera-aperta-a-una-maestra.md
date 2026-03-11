@@ -1,4 +1,5 @@
 ---
+
 title: Lettera aperta a una maestra
 date: 2009-09-10
 author: Mariangela Bertolini
@@ -15,6 +16,7 @@ issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
 ---
+
 Anche se consapevole che questo mio scritto forse ti servirà poco, non posso fare a meno di buttar giù alcuni pensieri che mi girano in testa e nel cuore da un po’ di tempo.
 
 Sono convinta come diceva San Giovanni Bosco che tanto si è prodigato per iragazzi — che molto si può cambiare nella società se molto sapremo dare ai bambini e ai giovani.

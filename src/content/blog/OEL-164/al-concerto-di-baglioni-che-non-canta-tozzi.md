@@ -1,4 +1,5 @@
 ---
+
 title: Al concerto di Baglioni, che non canta Tozzi
 date: 2023-09-22
 author: Benedetta Mattei
@@ -15,6 +16,7 @@ issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sono stata al concerto di Claudio Baglioni. Mamma mi ha detto che **è il quinto concerto di Baglioni dove io vado.** Il posto era scomodo, si stava male e meno male che abbiamo parcheggiato la macchina vicino. Era vicino allo stadio Olimpico ma non nello stadio Olimpico. Le sedie erano strette e tutti stavano ammucchiati. Poi Baglioni era a destra e tutti dovevamo stare con la testa girata tutto il tempo. Tre ore. Quasi dormivo a un certo punto perché avevo sonno ed ero stanca ed era tardi, dopo mezzanotte.
 
 Volevo andare bagno ma era difficile perché le scale erano piccole e tanto dritte. Una signora è caduta, io volevo andare a vedere come stava. Un’altra signora aveva le stampelle e non riusciva a salire e a scendere le scale. Poi avevo sete e non si trovava l’acqua vicino. Prima del concerto ho mangiato due bei panini con prosciutto e formaggio e un supplì. Però il supplì mi ha fatto venire sete.

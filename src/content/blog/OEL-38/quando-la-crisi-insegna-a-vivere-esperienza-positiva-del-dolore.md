@@ -1,4 +1,5 @@
 ---
+
 title: Quando la crisi insegna a vivere - Esperienza positiva del dolore
 date: 1992-06-06
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-38
 id_numero: "OEL-38"
 numero_rivista: "Ombre e Luci"
 ---
+
 Q
 uesto libro raccoglie una selezione di dodici autobiografie di persone «handicappate» e «disabili», scelte inizialmente da un dossier di 131 scritti, poi ampliatosi ad oltre 250.
 **Erika Schuchardt**

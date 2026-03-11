@@ -1,4 +1,5 @@
 ---
+
 title: Programma del Pellegrinaggio a Roma del 1975
 date: 1975-05-03
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 12.996613502502441
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Come si è svolto il pellegrinaggio a Roma del 1975? Il programma, le info, i costi. Un'altra pagina della storia di Fede e Luce"
 ---
+
 > "Riconciliati, celebriamo nella gioia del Rinnovamento, l'Incontro con i nostri Fratelli."
 
 #### Domenica 26 ottobre 1975 - Andiamo verso San Pietro

@@ -1,4 +1,5 @@
 ---
+
 title: "Bambini e autismo: mosaico della pace"
 date: 2006-09-27
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 8.185843467712402
 umap_y: 7.590621471405029
 umap_z: 8.14704418182373
+
+subtitle: "Il “Mosaico della pace” è un’opera di circa 15 mq formata da migliaia di tessere in vetro a cui ha lavorato l’Officina dell’Arte, il Centro Diurno che fa parte della rete di servizi specifici per l’autismo della Fondazione Bambini e Autismo Onlus di Pordenone."
 ---
+
 Se qualcuno di voi si trovasse a passare per Pordenone non si dimentichi di andare al Parco di San Valentino, dove, da settembre di quest'anno, è istallato un mosaico molto particolare...
 
 Il “Mosaico della pace” è un’opera di circa 15 mq formata da migliaia di tessere in vetro a cui ha lavorato l’Officina dell’Arte, il Centro Diurno che fa parte della rete di servizi specifici per l’autismo della Fondazione Bambini e Autismo Onlus di Pordenone.

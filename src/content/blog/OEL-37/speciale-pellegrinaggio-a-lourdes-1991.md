@@ -1,4 +1,5 @@
 ---
+
 title: Speciale Pellegrinaggio a Lourdes 1991
 date: 1992-03-05
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-37
 id_numero: "OEL-37"
 numero_rivista: "Ombre e Luci"
 ---
+
 Queste pagine sono un ricordo per chi era a Lourdes e una testimonianza per chi non c'era. **Quattordicimila, tra persone con handicap mentali, genitori, amici sono venuti a Lourdes per la Settimana Santa 1991** . Sono venuti la maggior parte dall’Europa dell’Ovest e dell’Est, e anche dagli altri continenti. Sono venuti, molti, al prezzo di grande fatica, di sacrifici e in condizioni difficili. Sono venuti per sperimentare con gioia e per testimoniare l’unità dei cristiani, e dell’umanità: l’unità attorno ai «più piccoli» nello spinto delle Beatitudini, secondo la parola di Dio. Sono venuti a Lourdes perché qui venti anni prima era nata Fede e Luce, e perché è santuario di quella donna che duemila anni prima aveva risposto Sì a quel figlio così diverso dagli altri, così difficile da capire, già destinato a un grande patimento. Quel Sì che molti genitori continuano a dire, ogni giorno, malgrado tutto, fidando nella parola di Dio.
 
 ### Perché ognuno abbia il suo posto
@@ -25,6 +27,7 @@ Queste pagine sono un ricordo per chi era a Lourdes e una testimonianza per chi 
 Questo pellegrinaggio ha numerosi significati, ma credo che il primo è quello di farci scoprire che l'handicappato mentale è una persona molto preziosa e che ha un dono speciale da offrire alla chiesa e al mondo. Purtroppo sono pochi quelli che scoprono! A FEDE E LUCE e all’ARCA noi scopriamo che Dio ha scelto ciò che nel mondo è folle, ha scelto ciò che c’è di più debole, di più umile per confondere i forti, i ricchi, i potenti. Il pericolo del nostro mondo è quello di fuggire la sofferenza per vivere l’illusione e il sogno. La «Buona Novella» ci porta a capire proprio questo: «Non vivere nelle teorie, ma vivere là dove sono le persone». Nel momento in cui siete vicini alle persone deboli, voi toccate la vostra propria debolezza, la vostra fragilità, ed è in questa fragilità che Dio è nascosto. C'è qualcosa di insensato in questa nostra impresa di far venire la gente dalla Russia, dal Ghana, dallo Zambia, dall’Argentina, dalla Corea..., ma credo che è per gridare al mondo: bisogna che le persone più piccole trovino il loro posto. -
 *Jean Vanier*
 , 1992
+
 
 ---
 
@@ -34,6 +37,7 @@ Viaggiare in pullman era per noi il modo più economico, runico possibile. Erano
 *Piotr*
 (Polonia), 1992
 
+
 ---
 
 ### Perdonare ed essere perdonati
@@ -41,6 +45,7 @@ Viaggiare in pullman era per noi il modo più economico, runico possibile. Erano
 Il Giovedì Santo, durante la veglia, negli alberghi, abbiamo vissuto la lavanda dei piedi nella nostra comunità. Perché lavarsi i piedi a vicenda? La risposta è semplice. Perchè Gesù ci ha domandato di fare come Lui. Il Vangelo di S. Giovanni (13, 1-17) termina con queste parole di Gesù: «Ora sapete queste cose, ma sarete beati se le metterete in pratica». Gesù ci annuncia e ci promette la Beatitudine della lavanda dei piedi. Lavare i piedi a qualcuno significa servirlo, prendere il posto di un servitore, ma significa anche toccare la persona come l’ha toccata Gesù, con rispetto e con amore! E’ così bello vedere un uomo o una donna con handicap mentre lavano i piedi dei loro genitori! Questo è anche un gesto di umiltà e di perdono. Lavando i piedi a un’altra persona, e accettando che l’altro lavi i nostri, noi entriamo nel mistero del perdono: perdonare ed essere perdonati... -
 *Fernand Lacroix Vescovo*
 , 1992 Assistente internazionale di Fede e Luce
+
 
 ---
 
@@ -50,6 +55,7 @@ La consapevolezza di essere parte di un «progetto mondiale», che vede persone 
 *[Comunità «La Vigna»](http://www.fedeeluce.it/comunita/la-vigna/)*
 (Napoli)
 
+
 ---
 
 ### Una certezza mi assale e capisco tutto
@@ -57,6 +63,7 @@ La consapevolezza di essere parte di un «progetto mondiale», che vede persone 
 Messa del Venerdì Santo La scena ha reminiscenze bibliche, e non solo per il contesto. E’ un’orda di persone, immensa: provengono da tutto il mondo, multicolori. Li accomunano almeno due cose: la fede e la sofferenza. Alcune note d’organo mi comunicano, qui in fondo a questo pozzo umano, che la messa è già cominciata... C’è molta confusione in me: molte domande, pochissime risposte. Qualche grido squarcia l’aria di questa immensa chiesa sotterranea. Ed io sono sempre più confuso. Poi all’improvviso una certezza mi assale, mi aggredisce... e capisco tutto in ogni minimo particolare. Ma non posso parlare di quello che ho capito, semplicemente perché non credo che esistano parole per descriverlo. Sorrido piano mentre sono circondato da una nebbia fitta di parole e di suoni. Mi volto e vedo Christian, che viene dalla Martinica, con uno sguardo severo e un po’ buffo e tutto il suo universo dentro.
 *Luca Dominici*
 , Roma - 1992
+
 
 ---
 
@@ -66,6 +73,7 @@ C’è stato un momento durante la mia permanenza a Lourdes in cui per un insiem
 *Natalia*
 , 1992
 
+
 ---
 
 ### Io ho un sacco di amici
@@ -73,6 +81,7 @@ C’è stato un momento durante la mia permanenza a Lourdes in cui per un insiem
 Ho avuto qualche incontro ravvicinato con ragazzi di altre nazioni, in particolare una bambina russa di nome Liza. Io non capivo che cosa diceva e lei non capiva cosa dicevo io: totale incomprensione. Eppure siamo stati per quasi venti minuti a gurdarci, a farci le linguacce e ad «amarci» come se fossimo amici da una vita... L’uscita dalla sofferenza sta nell’amore ; è questo che ci ha dimostrato Gesù morendo sulla croce. Così, quando sto male per qualsiasi motivo, penso che devo cercare negli altri l’uscita dalla mia sofferenza. Ma non è facile amare. Io però ho un sacco di amici, i miei piccoli amici, i ragazzi di Fede e Luce che con eterna pazienza mi insegnano ogni giorno ad amare, ad uscire dal mio egoismo e dalla mia sofferenza. Così voglio ringraziare anche i ragazzi perché non si stufano mai di stare con me e di insegnarmi ad amare. -
 *Giovanni Nucci*
 , Roma - 1992
+
 
 ---
 
@@ -82,6 +91,7 @@ I genitori riscoprono un nuovo battesimo (molti hanno vissuto il momento del bag
 *Anna*
 , Bari - 1992
 
+
 ---
 
 ### La sofferenza nascosta dei papà
@@ -90,11 +100,13 @@ La sofferenza dei padri non è minore di quella delle madri; è soltanto differe
 *Jodzef*
 , 1992
 
+
 ---
 
 ### Le mie lacrime
 
 Frances Young, mamma di un bambino handicappato è pastore metodista. In un articolo per il Methodist Recorder, intitolato «Il mio straordinario pellegrinaggio», racconta in modo semplice e sincero come ha vissuto questa esperienza. Ecco alcune parti della sua testimonianza. Scoprii che non potevo fuggire davanti alla sfida di qualcosa che mi sembrava fondamentalmente buona. Mentre un sacerdote dell’Europa dell’Est celebrava la Messa nella grotta per ringraziare Dio della fine delle persecuzioni, riuscii io stessa a pentirmi del mio senso protestante di sufficienza e ringraziai il Signore per i gesti che mi erano stati domandati e che avevo deciso di fare in spirito di obbedienza. Fede e Luce era fermamente decisa a integrarci, noi che avevamo ricevuto l’ordinazione in altre Chiese, anche le donne, in tutto ciò che poteva esserlo, sempre rispettando la disciplina della Chiesa Cattolica. Rifiutare sarebbe stato voltare la schiena alla mano che si tendeva in segno di amore fraterno e la mia obbedienza è stata stranamente ricompensata. Non solo avevo paura di sentirmi «esclusa» in questo contesto cattolico, ma soprattutto temevo per me stessa una sofferenza in più. Questo luogo, che ha la fama di miracoloso, avrebbe potuto ravvivare in me il ricordo di desideri impossibili, e aprire antiche ferite, anche se non potevo prendere in considerazione di portare con me Arturo, il mio figlio profondamente handicappato (non avrebbe potuto fare il viaggio). Appena arrivate, Pauline, un’amica handicappata e io siamo andate alla Grotta. In un primo momento sono stata delusa per l’aspetto così ordinario di questa caverna, troppo pulita e troppo ben pavimentata e piena di una religiosità troppo evidenziata. Abbiamo guardato la fonte e siamo uscite in silenzio. Ma avevo già capito che l’essenziale del messaggio di Lourdes è legato alla purificazione, alla santità. La Signora aveva detto a Bernadette che era l’Immacolata Concezione, che Lourdes era un luogo dove i peccatori dovevano fare penitenza, un luogo dove lavarsi e dove bere. Là ci si sbarazza delle impurità e della sporcizia che macchiano la nostra vita. Là si è riconosciuti, accolti, mentre in tanti paesi il rifiuto e l’ironia sono ancora l’esperienza quotidiana delle persone handicappate. Per giungere fino a fondo ho voluto andare alle piscine. Le infermiere mi hanno immersa nell’acqua ghiacciata, ma ero triste quando ne sono venuta fuori perché il mio viso e le mie mani non si erano bagnate. E la Signora aveva proprio detto «Lavatevi le mani e il viso». Più tardi con Francesco, un amico handicappato, sono andata alla fontana. Francesco mi ha lavato il viso, le mie lacrime erano state purificate. Anch’io gli ho lavato il viso a mia volta, poi, facendo una coppa delle nostre mani, abbiamo bevuto.
+
 
 ---
 
@@ -104,11 +116,13 @@ Era la seconda volta che partecipavo a un pellegrinaggio di Fede e Luce a Lourde
 *Christiane Mallet Watteville*
 , 1992
 
+
 ---
 
 ### A Pasqua la festa più bella
 
 Il grande prato è pieno di gioia: di canti, di danze, di amicizia, di semplicità. Il grande telo bianco col Cristo risorto e i “ponchi” bianchi, fogli per i simboli e per firmare gli incontri, sono i segni di questa festa.
+
 
 ---
 
@@ -118,6 +132,7 @@ Dovete portare più gioia nelle chiese e nella Chiesa dove a volte i cristiani s
 *Carlo Maria Martini*
 , Arcivescovo di Milano - 1002
 
+
 ---
 
 ### Mi ha dato una forza nuova
@@ -125,6 +140,7 @@ Dovete portare più gioia nelle chiese e nella Chiesa dove a volte i cristiani s
 I ragazzi, come sempre, hanno provato un grande entusiasmo nell’incontrare tante persone nuove; hanno raccontato di amicizie nate istantaneamente per le strade o negli incontri; per loro il momento più bello è stato quello che abbiamo trascorso domenica di Pasqua alla prateria: la festa della Resurrezione. La familiarità che ho percepito nei confronti di tutti i partecipanti, quel senso di intima e gioiosa unione, mi ha dato una forza nuova, mi ha fatto vedere le difficoltà da un punto di vista totalmente diverso. Infatti le difficoltà, paradossalmente, a Fede e Luce diventano energia che trascina e conduce, nel nostro stesso spirito, là dove si scopre l’Essenziale, cioè l'amore di Dio Padre che circola e si diffonde e che, toccando i cuori, li sana. -
 *Adriana Duci*
 , Palermo - 1992
+
 
 ---
 
@@ -134,6 +150,7 @@ Se ti capiterà di accostarti ai piedi della Croce, la madre di Cristo ti ceder�
 *Vittoria*
 , Bari - 1992
 
+
 ---
 
 ### Poco, ma... tanto!
@@ -142,6 +159,7 @@ Cosa abbiamo fatto a Lourdes? Poco, ma... tanto. Abbiamo ballato mano nella mano
 *Anna Ravanelli*
 Carugate, 1992
 
+
 ---
 
 ### Sono venuti da tutto il mondo
@@ -149,6 +167,7 @@ Carugate, 1992
 Io sono andata a Lourdes. Parecchie persone sono venute da tutto il mondo lì, alla grotta della Madonna. Erano europei, africani, giapponesi, arabi, americani. Erano 14.000 persone. Io non sapevo la loro lingua e loro non parlavano italiano ma ci capivamo a gesti e il giorno di Pasqua ci siamo abbracciati come fratelli e abbiamo scritto il nostro nome sul «poncho» degli altri. E ' stato un segno. -
 *Giuliana*
 , una ragazza, Bari - 1992
+
 
 ---
 

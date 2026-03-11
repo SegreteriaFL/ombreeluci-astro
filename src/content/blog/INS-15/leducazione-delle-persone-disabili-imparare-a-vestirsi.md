@@ -1,4 +1,5 @@
 ---
+
 title: "L'educazione delle persone disabili: imparare a vestirsi"
 date: 1977-09-20
 author: Nicole Schulthes
@@ -18,7 +19,10 @@ umap_z: 7.645174980163574
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "Qualche piccolo e semplice consiglio nella speranza che possano essere utili a qualche genitore"
 ---
+
 L'estate è arrivata e speriamo anche le vacanze, almeno per la maggior parte di noi. Niente scuola, niente lavoro, (almeno per un po'...), un po' più di tempo a disposizione. Ma la vita quotidiana continua. Alzarsi, vestirsi, [**mangiare**](https://www.ombreeluci.it/1978/leducazione-delle-persone-disabili-imparare-a-mangiare-insieme-e-in-autonomia/) e, per la mamma, controllare il tutto e preparare i pasti.
 
 Fortunatamente il bel tempo facilita un po' le cose. Alcuni avranno anche la fortuna di vivere in costume da bagno e di mangiare all'aperto. **Perché non approfittare di questo periodo per insegnare al vostro bambino (o almeno per cominciare ad insegnare o perfezionare, secondo il livello di ciascuno) a spogliarsi e a vestirsi da solo?**

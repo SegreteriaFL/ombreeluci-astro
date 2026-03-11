@@ -1,4 +1,5 @@
 ---
+
 title: Occasioni per stare al passo
 date: 2015-03-19
 author: Angela Grassi
@@ -17,7 +18,10 @@ umap_z: 11.767931938171387
 issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Cosa ci si aspetta da una vacanza? Tutto quello che si vive ai campi Fede e Luce"
 ---
+
 Cosa ci si aspetta da una vacanza? Riposare, divertirsi, fare le cose che ci piacciono, stare in compagnia, ridere e scherzare. E magari - perché no? - anche trovare l’occasione per fermarsi e staccare la spina, dedicando tempo a se stessi e al proprio rapporto con Dio.
 
 Ai campi di Fede e Luce si vive tutto questo (beh, magari il riposo per qualcuno non è proprio al primo posto...) e molto di più. Una vacanza in comunità è l’occasione per passare intere giornate insieme. E questo significa avere il tempo per dialogare, conoscersi, scoprire le abitudini e le passioni di ciascuno. Significa anche prendere il passo di chi magari impiega più tempo a muoversi o a mangiare e scoprire che in quei minuti rallentati sono nascosti parecchi doni. Significa darsi occasioni per riflettere con serenità sui temi che vengono proposti ogni giorno ed è anche più facile perché, se parliamo di amicizia, accoglienza, gioia, fedeltà, amore, abbiamo davanti tanti esempi concreti.

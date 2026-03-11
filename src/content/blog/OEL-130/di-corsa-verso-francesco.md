@@ -1,4 +1,5 @@
 ---
+
 title: Di corsa verso Francesco
 date: 2015-03-19
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 8.559252738952637
 issue_number: OEL-130
 id_numero: "OEL-130"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "I giovani dell’Orchestra Sinamume sono speciali in tutti i sensi: vivono con disabilità di vario genere, suonano, molto spesso, e rompono gli schemi, quasi sempre"
 ---
+
 La
 notizia è deliziosa – pensa Viola, leggendo un articolo sull’Osservatore Romano. Uno di quei fuori programma che tanto piacciono alla sua sorellina Mimosa: “Due bimbette corrono tra le braccia del Papa dopo avere suonato per lui. Non è normale, il protocollo non lo prevede. Ma i giovani dell’
 [Orchestra Sinamume](http://goldinfoundation.org/Sinamune.htm)

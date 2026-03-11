@@ -1,4 +1,5 @@
 ---
+
 title: Di nuovo in cammino
 date: 1980-03-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-24
 id_numero: "OEL-24"
 numero_rivista: "Ombre e Luci"
 ---
+
 Questo numero speciale di "Insieme", che avevamo preparato perché uscisse prima del dovuto, si è fatto attendere parecchio. Ci scusiamo con voi tutti, amici vecchi e nuovi, e vi preghiamo di credere che la causa di questo ritardo è stata solo tecnica: l'impossibilità di usare il ciclostile, finora messo a nostra disposizione, ci ha costretti prima a cercarne invano un altro, e poi a "trovare" i soldi per acquistare una macchina off-set. Il tutto ha richiesto più tempo del previsto.
 
 Ed ora eccoci di nuovo a voi, per scusarci, per ringraziare tutti coloro che ci hanno aiutato, per festeggiare insieme questa "sudata" edizione del 1° numero 1980. Un numero dedicato all'annuncio del pellegrinaggio internazionale delle Comunità Fede e Luce a Lourdes per la Pasqua 1981.

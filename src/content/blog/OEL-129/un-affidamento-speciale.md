@@ -1,4 +1,5 @@
 ---
+
 title: Un affidamento speciale
 date: 2015-03-19
 author: Larysa Grygoryeva
@@ -17,6 +18,7 @@ issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Sono incinta!» – con queste due parole per la donna inizia una nuova vita piena di sogni e progetti. Ognuna di noi, in questi mesi di attesa, sogna un bellissimo futuro per la piccola creatura di Dio che sta portando sotto il proprio cuore. **Vogliamo che il nostro bimbo sia il più bello, il più intelligente, il più educato, il più dotato di altri.** Passano mesi, giorni, ore... «Eccomi!». È nato... Che felicità!
 
 Ma poi arriva il medico, non ce la fa a guardarti negli occhi e ti dice: «Mi dispiace, ma il bambino è nato malato». Il mondo comincia girare intorno a te, il cielo diventa nero e ti cade addosso! E nella mente c’è solo una domanda che ti fa impazzire: «Ma perché? Perché proprio a me è capitato? Perché il Signore mi ha punito? Come faccio a portare questa croce?».

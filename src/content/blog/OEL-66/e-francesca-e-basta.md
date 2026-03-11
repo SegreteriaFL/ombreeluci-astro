@@ -1,4 +1,5 @@
 ---
+
 title: "È Francesca e basta"
 date: "1999-06-11"
 author: "Redazione"
@@ -15,6 +16,7 @@ tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
 ---
+
 Lui, Luigi Vittorio, sposato e padre di una bambina di 18 mesi, operatore presso una casa famiglia e animatore in un gruppo parrocchiale che comprende disabili e volontari, manda, via Internet, ad un gruppo di discussione un messaggio indignato a proposito di una pubblicità voluta dall’[Associazione ANFFAS](http://www.anffas.net/). Lei, Milena, vive a Forlì. È impiegata e mamma di Giorgia che ha nove anni e di Francesca di 15 mesi. Francesca è down ed è nata con una malformazione al volto chiamata labio-palatoschisi (labbro leporino e assenza di palato molle) Milena, dunque, che è per suo conto una appassionata di Internet, risponde al messaggio è nasce così una conversazione telematica tra due sconosciuti: una mamma piena di ribellione, di paura e l’indignato operatore. La conversazione e la reciproca conoscenza non si interrompono dopo il primo contatto perché Milena ha bisogno di «parlare, piangere, gridare. odiare...» e Luigi Vittorio ha bisogno di capire, di essere testimone, di camminare insieme.
 
 > «Ero tanto arrabbiata con Dio e ora non so...»

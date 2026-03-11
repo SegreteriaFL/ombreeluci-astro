@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n.15
 date: 1986-09-24
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-15
 id_numero: "OEL-15"
 numero_rivista: "Ombre e Luci"
 ---
+
 *"Ritrovarmi in mezzo a tanta gente mi dava un po' fastidio, però..."; "Chi sta con me e sente le stesse cose abbia il coraggio di chiamare il proprio male per nome..."; "Un vicino di casa non ha avuto vergogna a dirmi che gli mandavo su la puzza; io ho sempre cercato di tener più che pulito. Quanto ho pianto da sola per questa offesa...".*
 
 ### Ad Assisi

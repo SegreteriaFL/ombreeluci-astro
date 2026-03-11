@@ -1,4 +1,5 @@
 ---
+
 title: "Germogli diversi: arte floreale e disabilità la bellezza di un percorso possibile"
 date: "2014-03-29"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Cultura"
 issue_number: OEL-125
 id_numero: "OEL-125"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Con il titolo di “Germogli diversi” l’Unitalsi ha dato vita ad un progetto per l’insegnamento dell’arte floreale per la liturgia alle persone disabili"
 ---
+
 L’Associazione, nata nel 1903 per accompagnare i malati a Lourdes e negli altri santuari internazionali, da sempre cerca di percorrere tutte le strade che mettono le persone sofferenti nella condizione di vivere e incontrare pienamente il Cristo redentore.
 
 Questa volta l’attenzione si è focalizzata sull’arte floreale per la liturgia, nella convinzione che anche questa modalità espressiva possa contribuire a rendere le persone disabili maggiormente partecipi e attive nella celebrazione, accompagnandole lungo il sentiero della via pulchritudinis a cui Papa Francesco ha fatto riferimento nella recente Esortazione apostolica Evangelii gaudium.

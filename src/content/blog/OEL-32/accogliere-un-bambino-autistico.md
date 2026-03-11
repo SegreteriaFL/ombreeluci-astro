@@ -1,4 +1,5 @@
 ---
+
 title: Accogliere un bambino autistico
 date: 1990-12-27
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-32
 id_numero: "OEL-32"
 numero_rivista: "Ombre e Luci"
 ---
+
 Inidi e gli asili accolgono oggi anche bambini con handicap e tra questi alcuni che vengono chiamati «autistici». \
 
 **Leggi anche: [Speciale Autismo](https://www.ombreeluci.it/autismo/)**

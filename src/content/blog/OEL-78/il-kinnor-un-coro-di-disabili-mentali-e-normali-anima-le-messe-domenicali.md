@@ -1,4 +1,5 @@
 ---
+
 title: "Il Kinnor - un coro di disabili mentali e \"normali\" anima le messe domenicali"
 date: 2002-06-14
 author: Redazione
@@ -16,7 +17,10 @@ tags:
 umap_x: 9.250950813293457
 umap_y: 10.250068664550781
 umap_z: 8.911410331726074
+
+subtitle: "l Kinnor è una comunità che si dedica al canto.  Insieme, persone disabiìi mentali e «normali», raccolgono la sfida di assicurare la lode liturgica"
 ---
+
 Il Kinnor è una comunità che si dedica al canto: in essa persone disabiìi mentali e «normali» insieme raccolgono una sfida: assicurare la lode liturgica.
 
 **Il Kinnor infatti si dedica all’animazione delle celebrazioni domenicali** . Lo compongono 45 coristi, un terzo dei quali ha un handicap. Eppure, tra bambini, giovani o adulti, ognuno svolge la stessa funzione, offre lo stesso servizio e scopre l’universalità della Chiesa accogliendosi l’un l’altro nella diversità.

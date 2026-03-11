@@ -1,4 +1,5 @@
 ---
+
 title: Cogliere un fiore e consegnarlo alla luce - Recensione Libro
 date: 2002-09-01
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.195640563964844
 umap_y: 11.30920124053955
 umap_z: 4.9989728927612305
+
+subtitle: "M. T. Mosconi, E. C. Straulino - Ed. Laboratorio delle Arti - Milano, 2002 - Il libro ripercorre le tappe più significative della comunicazione tra una madre, per natura tenace, e il figlio, nato spastico, dall’indole aperta e curiosa."
 ---
+
 Il libro ripercorre le tappe più significative della comunicazione tra una madre, per natura tenace, e il figlio, nato spastico, dall’indole aperta e curiosa.
 
 Scorre costante, pagina dopo pagina, **il desiderio di alleggerire i pesanti intoppi che tale realtà pone inevitabilmente.** Confluiscono nel racconto le molteplici esperienze vissute nei centri di terapia, nella scuola, nei contatti sociali e nel volontariato, a proposito della «comunicazione verbale», ma il tutto appare rielaborato in veste creativa e...poetica...Enrico, dall’età di quindici anni, riesce — per trasmissione facilitata — a scrivere versi.

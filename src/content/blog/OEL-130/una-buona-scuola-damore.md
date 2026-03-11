@@ -1,4 +1,5 @@
 ---
+
 title: Una buona scuola d’amore
 date: 2015-03-19
 author: Jean Vanier
@@ -17,6 +18,7 @@ issue_number: OEL-130
 id_numero: "OEL-130"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Inizi caotici
 
 L’Arca ha cominciato in maniera un po’ caotica. Da questo caos però è nata una diversa visione delle persone handicappate che si è diffusa in tutto il mondo. Nel 1964 ero in visita, nel villaggio di Trosly-Breuil, nell’Oise, al mio padre spirituale, padre Thomas Philippe, cappellano di un piccolo centro di accoglienza per trenta uomini con handicap mentale Rimasi particolarmente colpito da questi uomini, soprattutto per il loro bisogno di relazione. Ho capito che queste persone, spesso chiuse tra le pareti domestiche o in rigide istituzioni, erano tra le più oppresse del mondo. Visitando un’istituzione molto dura, ho conosciuto due uomini Raphael Simi e Philippe Seaux. Questo incontro è stata l’occasione per me per dare l’avvio all’Arca, perché il mio desiderio era di vivere con delle persone oppresse ed escluse, creando con loro una piccola comunità cristiana, fatta di gioia, di lavoro e di preghiera vicino a padre Thomas. Con l’aiuto di un amico, abbiamo potuto comprare una casetta che non era affatto adatta per delle persone con handicap. Non c’era il bagno e tutto era molto primitivo. Ho acquistato un certo numero di cose in una comunità di Emmaus per la cucina e per arredare le stanze. Il mio desiderio era di vivere poveramente con dei poveri. È così che l’Arca ha cominciato, in grandissima semplicità ed anche con un po’ di “scompiglio”! Io stesso mi sentivo indifeso davanti a tutte le cose da fare nella casa e per Raphael e Philippe. In seguito la gente attirata dalla gioia che vi regnava è venuta ad aiutarci All’inizio, era al momento dei pasti che la nostra gioia scattava. La base del nostro modo di vivere viene da un brano del Vangelo nel quale Gesù dice: “ Quando offrite un pranzo, non invitate i membri della vostra famiglia, i vicini ricchi, gli amici, ma quando date un banchetto, invitate i poveri, gli storpi, gli infermi e i ciechi e voi sarete beati.” Tra noi lo scambio avviene su cose semplici e divertenti! Ciò che è importante è condividere la vita insieme. È così che la storia dell’Arca ha avuto inizio. Dal caos è nata la vita!

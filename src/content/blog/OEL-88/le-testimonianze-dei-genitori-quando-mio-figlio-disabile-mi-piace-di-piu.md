@@ -1,4 +1,5 @@
 ---
+
 title: "Le testimonianze dei genitori: «Quando mio figlio disabile mi piace di più»"
 date: "2004-12-14"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Perché la consapevolezza delle ombre, della fatica, delle difficoltà non prenda il sopravvento sulle luci. Che si sono. Sempre."
 ---
+
 ### Daniele
 Sono Stefano, il papà di Daniele, un ragazzo dolcissimo che non comunica. Noi lo capiamo con una cosa che chiamiamo empatia cioè lo capiamo in base a una conoscenza quotidiana fatta di piccoli segnali e abitudini.
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Il messaggio del Giubileo: dialogo con Mons. Rino Fisichella"
 date: 2016-09-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-135
 id_numero: "OEL-135"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Sono passati tre mesi dalle giornate giubilare dedicate agli ammalati e alle persone con disabilità. L’eco delle parole del Santo Padre e dei suoi gesti così concreti continuano ad arrivare anche attraverso la voce dei tanti giornalini associativi che riceviamo e che raccontano quanto la giornata sia stata importante. Questo il nostro spirito per parlarne ancora con mons. Fisichella che, con il Pontificio Consiglio per la Nuova Evangelizzazione ha curato l’organizzazione dell’Anno Santo della Misericordia.*
 
 **Q ual è il suo bilancio di questo giubileo della Misericordia e in particolare di quello del 12 giugno?** I pellegrini giunti sinora a Roma per celebrare il Giubileo della Misericordia sono oltre 17.000.000, provenienti da tutto il mondo. E questa cifra non può lasciarci certo indifferenti. Un evento come l’Anno Santo, tuttavia, non si deve valutare in base ai numeri e alle cifre, come spesso tanti vorrebbero fare. A mio parere, infatti, credo che il Giubileo si debba o meno ritenere riuscito nel suo intento se è stato capace di mettere al centro della vita della Chiesa quel tema per il quale Papa Francesco ha voluto che si celebrasse: la misericordia. Per questo, anche dalle tante testimonianze che ci arrivano da tutto il mondo, realmente possiamo costatare come sono state davvero tante le iniziative volte proprio a mostrare, e soprattutto a far sperimentare l’amore misericordioso di Dio. Il Giubileo del 12, poi, è stato un bel momento per mettere al centro realmente la misericordia di Dio che si è manifestata nel volto e nel sorriso di tante persone ammalate e disabili che vi hanno preso parte.

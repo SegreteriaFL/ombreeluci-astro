@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.47
 date: 1994-09-03
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-48
 id_numero: "OEL-48"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Ivana e Matteo
 
 *Matteo Mazzarotto e Ivana Perri, della Comunità «Il Carro» si sono sposati il 2 luglio 1994, a Roma (1).*
@@ -29,6 +31,7 @@ Tanta emozione e tanta gioia non potevano che esplodere in una grande festa. Mat
 
 *- Natalia Livi* , 1994
 
+
 ---
 
 ### Ci accettiamo così come siamo
@@ -39,6 +42,7 @@ All’ansia, al disagio, che avevo precedentemente provato, quando dovevo inseri
 
 *- Raffaella* , 1994
 
+
 ---
 
 ### Addio, amico vescovo!
@@ -46,6 +50,7 @@ All’ansia, al disagio, che avevo precedentemente provato, quando dovevo inseri
 Il vescovo Fernand Lacroix ci ha lasciati per la casa del Padre il 28 febbraio scorso, dopo aver subito un'operazione al cuore. Già vescovo di Edmundston in Canada, Mons. Lacroix aveva accettato di essere assistente internazionale del nostro movimento nel 1987. Da allora è stato il nostro buon pastore sia nel Consiglio Internazionale, sia accanto agli assistenti spirituali; vicino a tutti e a ciascuno durante gli incontri internazionali, i ritiri spirituali, i pellegrinaggi. Tutti possiamo dire di aver incontrato in lui **«un sacerdote secondo il Cuore di Gesù»** , come disse di lui il P. Sef di Slovenia. **Maureen O'Reilly** coordinatore internazionale, lo ricorda così:
 
 *«Come dire chi è stato per noi Mons. Lacroix? Un versetto del libro di Samuele (13, 14) mi viene alla mente: «Yahvé si è cercato un uomo secondo il suo cuore e l’ha designato pastore del suo po¬ polo».* *Il cuore di Mons. Lacroix era immenso, tanto grande perché ognuno di noi si sentisse piena¬ mente accolto e a suo agio con lui. Trovavamo sempre in lui un ascolto profondo e una vera saggezza per illuminare le situazioni di conflitto, le paure e le domande che incontravamo.* *Non gli mancava l’umorismo. Mi piace pensare che quando i medici hanno aperto il suo cuore, il Signore è intervenuto dicendo: «Non cercate di aggiustare qual¬ cosa... Il cuore di Fernand Lacroix è pronto per rientrare a casa e dimorare con Me per sempre! ».* *Ora, nella pena, ma anche nel¬ la fiducia più totale, preghiamo per lui e lo preghiamo per Fede e Luce, sicuri di avere in lui un protettore pieno di tenerezza e di forza».*
+
 
 ---
 

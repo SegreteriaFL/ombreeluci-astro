@@ -1,4 +1,5 @@
 ---
+
 title: E non disse nemmeno una parola
 date: 1983-09-01
 author: Redazione
@@ -20,6 +21,7 @@ umap_y: 11.539694786071777
 umap_z: 5.613114356994629
 id_numero: "OEL-3"
 ---
+
 "Le lievi tracce grigie sulle tempie, non sono che il segno più trascurabile del mio dolore per i due piccoli... Avevano l'età che ha adesso Franz, cominciavano appena a rizzarsi sul letto, cercavano di balbettarmi qualche parola. Non hanno mai giocato su un prato pieno di fiori, ma talvolta li vedo ugualmente sull'erba fiorita, e il dolore che provo è un misto di soddisfazione al pensiero che quei due bambini sono stati risparmiati dalla vita".
 
 È il pensiero di Kate - la protagonista del libro - sui due dei loro figli, morti piccoli, divorati dai parassiti e dalla malattia perché le medicine prodotte nella fabbrica di un cugino del ministero della sanità erano inefficaci. La storia è in Germania subito dopo la guerra ed è una storia su come può essere la miseria: infatti è questa la vera protagonista di "E non disse nemmeno una parola". È la povertà che ha allontanato Fred da casa, se casa si può chiamare la stanza subaffittata dove non c'è un minimo di intimità, dove i bambini hanno imparato ad essere tanto "buoni"da stringere il cuore, dove la padrona di casa, la "signora Franke... riceve sì ogni mattina il Corpo di Cristo, ma ogni volta che uno dei bambini è andato al gabinetto... controlla la pulizia del cesso e comincia a brontolare in corridoio se anche un solo spruzzo d'acqua ha macchiato la sua tappezzeria". La durezza di cuore dei buoni cattolici, della Chiesa ufficiale è l'altro tema che fa da contrappunto alla miseria e alla disperata religiosa dignità di Kate. Su questo tema Böll insiste con l'accanimento dell'artista indignato. Leggendo viene da pensare che non è tutto così, per fortuna. Però è anche così. In questa oscurità, appena rischiarata da pochi bagliori di speranza, dal colloquio di Kate con Dio, unico rifugio, una sola luce viva: il rapporto umano di una ragazza con il fratello mongoloide. È l'innocente che non dice nemmeno una parola ed è il termine di paragone, spietato, delle tante parole che tanti bravi cittadini e cristiani dicono. È un libro aspro, vicino alla lettera del Vangelo, bello.

@@ -1,4 +1,5 @@
 ---
+
 title: "Agli amici vicini: siate disponibili"
 date: 2006-06-21
 author: Redazione
@@ -16,7 +17,10 @@ tags:
 umap_x: 5.214452743530273
 umap_y: 9.402256965637207
 umap_z: 7.048219203948975
+
+subtitle: "Può accadere che nonne, amiche, cognate siano spesso depositarie di confidenze da parte di una coppia che aspetta un bimbo probabilmente disabile e che perciò si trova a dover fare una scelta drammatica. Che cosa dire? Che cosa fare?"
 ---
+
 Può accadere che nonne, amiche, cognate siano spesso depositarie di confidenze da parte di una coppia che aspetta un bimbo probabilmente disabile e che perciò si trova a dover fare una scelta drammatica. Che cosa dire? Che cosa fare?
 
 ### Da evitare

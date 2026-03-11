@@ -1,4 +1,5 @@
 ---
+
 title: Saverio
 date: 1983-12-29
 author: Redazione
@@ -24,6 +25,7 @@ umap_y: 10.27049446105957
 umap_z: 7.7006940841674805
 id_numero: "OEL-4"
 ---
+
 *Forse la nostra testimonianza potrà aiutare altri « nuovi » genitori, scoraggiati, delusi davanti alla culla del loro bambino.*
 **Un articolo per Ombre e Luci?**
 Sì, certo, dal momento che nostro figlio Saverio, di tre anni e mezzo, è un bambino con trisomia 21 e che il prossimo numero sarà dedicato a questo handicap... Sì, certamente... Ma che cosa dire? Come dire? E perché dire?

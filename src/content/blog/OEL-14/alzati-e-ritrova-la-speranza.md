@@ -1,4 +1,5 @@
 ---
+
 title: Alzati e ritrova la speranza
 date: 1986-06-21
 author: Jean Vanier
@@ -18,6 +19,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nella vita, siamo spesso guidati dalla paura: paura di non essere amati, di essere abbandonati, paura della delusione, della sofferenza, della morte. Nel Vangelo c’è una parola straordinaria di Gesù:
 **«Amate i vostri nemici!» «Fate del bene a chi vi odia!» «Pregate per chi vi perseguita!», perché è facile amare chi ci vuol bene**
 ; anche la gente senza Dio può farlo. È facile imprestar danaro a chi certamente ce lo restituirà. Gesù sa che il problema fondamentale del mondo è che odiamo quelli che ci odiano. Egli sa che se qualcuno è violento con me, io sarò violento con chi è più debole di me. Gesù è venuto per trasformare la violenza in tenerezza, in perdono; è venuto a portare l’amore sulla terra, a darci il suo Spirito perché noi possiamo amare il nostro nemico. Ma noi diciamo: «È impossibile! Nessuno di noi è capace di amare la persona che ci fa del male, che ci fa paura». E Gesù ci dice: «Ve lo insegnerò io». Lui che è il maestro dell’impossibile. Lui può cambiare il nostro cuore di pietra in un cuore di carne. Ci vuole tempo. Un seme non diventa albero in un giorno. L’importante, perché cresca, è dargli acqua; l’importante, perché dia frutto, è che la terra sia buona.

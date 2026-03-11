@@ -1,4 +1,5 @@
 ---
+
 title: "L'esperienza del lutto fino ai nove anni: come fare e come essere"
 date: 2010-10-10
 author: Redazione
@@ -20,6 +21,7 @@ issue_number: OEL-112
 id_numero: "OEL-112"
 numero_rivista: "Ombre e Luci"
 ---
+
 A seconda della sua età e dello sviluppo psicogenetico, il bambino ha delle concezioni diverse della morte. Se finora non ci sono studi specifici per i bambini con disabilità mentale, conoscere le diverse tappe di questo sviluppo può aiutare a raggiungere il bambino al suo livello, in funzione delle sue capacità di comprensione.
 
 ##### Da 0 a 3 anni

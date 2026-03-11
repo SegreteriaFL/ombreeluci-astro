@@ -1,4 +1,5 @@
 ---
+
 title: "Comunità famiglia di Endine"
 date: "1996-03-03"
 author: "Redazione"
@@ -15,6 +16,7 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
+
 Otto anni fa avevamo visitato la casa famiglia di Endine (vedi [articolo su Ombre e Luci n. 1/1987](http://www.ombreeluci.it/1987/questa-casa-famiglia-e-una-risposta/)) accolti molto calorosamente da Venerio e Vittoria Arosio e da tutti gli ospiti della casa (fra i quali le due figlie disabili dei Signori Arosio). Era una vera casa famiglia , tenuta da una coppia di genitori che avevano aperto la porta della loro casa accogliendo otto giovani adulti con problemi. Vivevano insieme la vita di una grande famiglia. Avevano creato dei piccoli laboratori di assemblaggio, di lavoro di cuoio e falegnameria, e anche un po' di allevamento ed ortocultura. Tutto questo per dare ai ragazzi un’occupazione utile e gratificante, ma anche per necesssità finanziaria: «con un certo orgoglio, con buona volontà, i ragazzi, insieme a noi riescono a guadagnarsi da vivere», ci diceva il padre di famiglia otto anni fa.
 Poi la mamma di casa è venuta a mancare e il progetto si è trasformato. Ancora oggi sotto la responsabilità e la guida dell’Associazione LA NOSTRA FAMIGLIA la casa di Endine è viva.
 E diventata una comunità famiglia. Non ha abbandonato i suoi ragazzi; questi vivono sotto la guida di un educatore (missionario per formazione). Vivono in comunità Paolo, Alberto, Elena, Paola, Albertino, Tonino, Luca, Franco, un altro Franco, Daniela, Roberto e Barbara. Fate il conto: 12, un bel gruppo. Rolando, l’educatore responsabile non pretende di fare il capo famiglia. È più una figura di «leader» riconosciuto dai giovani ospiti. Rolando è veramente il perno della casa e della vita di tutti. Rimane anche durante il week end e le vacanze con chi non ha famiglia o amici dove andare. In poche parole, si dedica a questa comunità come scelta di vita.

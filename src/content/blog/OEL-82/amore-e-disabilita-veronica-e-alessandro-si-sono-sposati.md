@@ -1,4 +1,5 @@
 ---
+
 title: "Amore e disabilità: Veronica e Alessandro si sono sposati"
 date: "2003-06-23"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
+
+subtitle: "Parlano genitori e ragazzi che li hanno accompagnati e sostenuti in questa scelta non facile"
 ---
+
 Veronica, trent’anni e Alessandro, trentacinque, hanno celebrato il loro matrimonio alla presenza di parenti e amici. Ce l’hanno fatta!
 Si sono conosciuti alla scuola professionale**, si sono scelti, frequentati, messi insieme, accompagnati e sostenuti dai familiari e da alcune coppie sposate di Fede e Luce.
 

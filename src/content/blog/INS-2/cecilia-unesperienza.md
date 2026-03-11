@@ -1,4 +1,5 @@
 ---
+
 title: "Cecilia: un'esperienza"
 date: 1974-07-28
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 11.22153377532959
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Un'amica racconta la sua prima esperienza ad un campeggio Fede e Luce"
 ---
+
 Quest'anno ho fatto la mia prima colonia con ragazzi handicappati. È stata un'esperienza meravigliosa. Tra me e loro si è stabilito subito un rapporto di piena amicizia e di fiducia reciproca. Di ciò ne è testimone Marina, una ragazza sordomuta, con la quale sono riuscita a simpatizzare subito. Ha dei lineamenti dolcissimi, soffre molto se vede che gli altri non la capiscono. Mi sono fatta insegnare dai suoi genitori i gesti più comuni con i quali riusciva ad esprimersi; forse perché vedeva che mi interessavo a lei, cercava di manifestarmi come meglio poteva il suo amore.
 
 Spero di rivederla il prossimo anno e di trascorrere altri giorni stupendi insieme.

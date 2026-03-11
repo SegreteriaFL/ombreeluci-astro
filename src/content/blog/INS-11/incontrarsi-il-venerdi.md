@@ -1,4 +1,5 @@
 ---
+
 title: "Incontrarsi il Venerdì"
 date: "1976-02-20"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Due belle testimonianze di una mamma e un'amica di Fede e Luce"
 ---
+
 "Mamma ! finalmente oggi è Venerdì! Dobbiamo andare S.Gioacchino, chi ci trovo? Cosa mi fanno fare?
 Questo è ciò che mi dice Carla.
 

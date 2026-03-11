@@ -1,4 +1,5 @@
 ---
+
 title: La Casa di Dario - Associazione Arcobaleno Onlus
 date: 2002-09-01
 author: Carlo Maria Fornari
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.5270676612854
 umap_y: 8.024198532104492
 umap_z: 9.398853302001953
+
+subtitle: "Il dopo di noi - Qualcuno ha dato risposta alla domanda del nostro amico e di tanti. Per esempio, a Ponte Lambro..."
 ---
+
 Quando molti anni fa, era il 1979, mia moglie Irma, Paolo ed io entrammo a far parte del Movimento di [Fede e Luce](https://www.fedeeluce.it/) **non avremmo mai pensato di ricevere un Seme così grande** , che poi negli anni successivi avrebbe dato tanti frutti alla nostra famiglia. Il principale è stato sicuramente quello di aver conosciuto tante persone motivate ad accoglierci come se fossimo già grandi amici da molti anni.
 
 Inoltre le riflessioni fatte in Comunità, aiutati da stupendi sacerdoti quali don Pierangelo Sequeri e don Dario Madaschi, hanno stravolto la nostra vita, facendo maturare in noi **il grande desiderio di ricambiare tutto il bene ricevuto dai tanti amici del movimento** .

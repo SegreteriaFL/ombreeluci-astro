@@ -1,4 +1,5 @@
 ---
+
 title: Per amore di Anna - Storia vera di una ragazza autistica - Recensione
 date: 1977-12-01
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 4.8474955558776855
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "di James Copeland, Città Nuova Editrice, pag.146, lire 3.000"
 ---
+
 ### Analisi
 
 Le prime pagine del libro ci presentano Anna come una ragazzina di sei anni, che si dondola con esasperante monotonia su una seggiola, che spalanca i suoi occhi azzurri sul mondo senza raccoglierne niente, che - pur essendo molto graziosa - è pronta a trasformarsi in un "iroso", urlante e sputacchiante animaletto".

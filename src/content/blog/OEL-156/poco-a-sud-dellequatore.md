@@ -1,4 +1,5 @@
 ---
+
 title: "Poco a sud dell'Equatore"
 date: 2022-02-16
 author: Cristina Tersigni
@@ -16,7 +17,10 @@ umap_z: 9.375885009765625
 issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Intervista a Emanuela Posa, cooperante nella Repubblica Democratica del Congo"
 ---
+
 «Belvanie una volta mi ha detto: “Se non puoi amarmi tu, non potrà farlo nessun altro”. Fu una doccia fredda: significava che quelle che mi sembravano piccole cose insignificanti rappresentavano tutto per lei. Il percorso scolastico, l’alfabetizzazione di base passavano in secondo piano. **Una ragazza di 19 anni con una disabilità cognitiva importante, mi faceva capire che aveva sofferto qualcosa che non ci è concesso sapere** , che si spogliava di ogni muro protettivo e che c’era bisogno di qualcosa in più».
 
 È Emanuela Posa, 26 anni, a farci conoscere Belvanie e, con lei, la Repubblica Democratica del Congo (Rdc), «ancora sofferente per la terribile guerra civile finita vent’anni fa». Grande più di mezza Europa, ricca di materie prime, e con una foresta equatoriale che è la seconda al mondo per estensione, **la Rdc ha «un pil da ultimo posto al mondo ed è 175° secondo l’indice di sviluppo umano che incrocia dati relativi a speranza di vita, pil pro-capite e alfabetizzazione»** . Emanuela è cresciuta a Villa d’Adda nella provincia bergamasca, con quattro fratelli di cui l’ultimo, Andrea, adottato da una casa famiglia che accoglie bambini con gravissime disabilità. Finita la scuola («un calvario»), ha lavorato per 4 anni in un negozio per animali, ma «non ce la facevo… dovevo stare fuori, all’aria aperta». Oggi Emanuela cammina in media 10-15 chilometri al giorno, ed è felice.

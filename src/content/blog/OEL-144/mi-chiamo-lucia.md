@@ -1,4 +1,5 @@
 ---
+
 title: Mi chiamo Lucia
 date: 2018-11-03
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 *P er più di 30 anni ha rivestito i vari ruoli delle responsabilità a Fede e Luce come cooordinatore di comunità di Regione e Nazionale. Vive a Fidenza, non lontano da Parma; fa parte del Sicomoro, comunità nata nel 1993, a seguito della moltiplicazione di Condivisione ed entrambe le comunità appartengono alla provincia Fede e Luce di Kimata. Al termine del suo mandato condivide con noi parte di un grandissimo patrimonio di esperienza e di impegno nel mondo associativo.*
 **Dove comincia la tua storia?**
 Ho studiato a Parma e a Milano, dove mi sono laureata in Lingue. Desideravo insegnare la lingua Francese, ma il mio ingresso nella scuola media coincideva con i primi inserimenti di ragazzi disabili nella scuola pubblica; poi, in base alla legge n. 517 del 1977, si prevedevano per loro interventi di integrazione e di sostegno. La scuola, di fatto, non era pronta a questo compito, mancavano spazi, strumenti e competenze. Su invito del dirigente scolastico frequentai un corso di specializzazione biennale per una preparazione più adeguata ad accompagnare i ragazzi con disabilità e favorire il loro percorso di integrazione e di apprendimento. Così, ho continuato ad impegnarmi in questo ambito lavorativo, cercando di sensibilizzare i colleghi, di aiutare gli altri insegnanti di sostegno presenti nella scuola, chiedendo la collaborazione del Comune per dotarci di testi e strumenti adeguati e collaborando con l’ASL. Ricordo che si creò una rete di buone relazioni tra Scuola, Comune, Asl e Caritas che, nel tempo, portò frutti significativi per il nostro territorio.

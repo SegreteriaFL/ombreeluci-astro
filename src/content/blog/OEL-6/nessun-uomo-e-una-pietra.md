@@ -1,4 +1,5 @@
 ---
+
 title: "Nessun uomo è una pietra"
 date: "1984-06-29"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-6
 id_numero: "OEL-6"
 numero_rivista: "Ombre e Luci"
 ---
+
 Le persone psicotiche, quanto sono simili a noi? Che cosa sentono? Di che hanno bisogno? Di che cosa soffrono?
 Yves Pélicier, professore di medicina a Parigi, medico dell'Ospedale Necker, risponde in questo articolo chiaro e umano.
 La grande e (buona) notizia che le teorie della comunicazione ci hanno offerto in questi ultimi anni è che non si può non comunicare: il silenzio, i gesti, il rifiuto, il mutismo, la stessa violenza e l’agitazione dicono o vogliono dire qualcosa. L’essere più ridotto, più isolato per l’incapacità di entrare in relazione è un «libro» straordinario nel quale possiamo scoprire molte cose purché accettiamo di decifrare senza lasciarci scoraggiare.

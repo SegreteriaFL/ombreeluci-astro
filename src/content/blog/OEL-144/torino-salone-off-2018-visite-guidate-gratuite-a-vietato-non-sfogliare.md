@@ -1,4 +1,5 @@
 ---
+
 title: "Torino, Salone off 2018: visite guidate gratuite a Vietato Non Sfogliare"
 date: 2018-04-23
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 In occasione del
 [XXXI Salone del Libro di Torino](http://www.salonelibro.it/it/)
 torna la mostra di libri accessibili

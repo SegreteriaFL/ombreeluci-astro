@@ -1,4 +1,5 @@
 ---
+
 title: La fattoria delle meraviglie
 date: 2007-06-03
 author: Laura Nardini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 8.205543518066406
 umap_y: 7.258293628692627
 umap_z: 8.718957901000977
+
+subtitle: "Per rispondere ai tanti genitori che chiedono di avere informazioni su come creare opportunità di lavoro per i propri figli sono andata a visitare una fattoria sociale alle porte di Viterbo: la “Fattoria di Alice”"
 ---
+
 La Fattoria di Alice è nata cinque anni fa dal risultato della collaborazione tra la Cooperativa Sociale Alice e l’Associazione familiari e sostenitori psichici della Tuscia (A.fe.SO .psi.t.).
 
 La fattoria è gestita dalla Cooperativa Alice ed è composta da: 5 soci svantaggiati (assunti regolarmente con contratto), 1 psicologa, 1 operaio agricolo, 1 operatore, 5 volontari del servizio civile.

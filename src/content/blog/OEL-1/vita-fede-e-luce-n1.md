@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n.1
 date: 1983-03-02
 author: Redazione
@@ -22,6 +23,7 @@ umap_y: 7.065741539001465
 umap_z: 11.95162296295166
 id_numero: "OEL-1"
 ---
+
 ### Campeggi estivi
 
 *Anche quest’anno, almeno per alcune comunità, la vita Fede e Luce è visibilmente continuata anche durante l’estate: da ogni città gruppi più o meno numerosi sono partiti in campeggio per condividere qualche giorno di vacanza, imparare a vivere insieme ed approfondire il senso di questa “vita insieme”.*

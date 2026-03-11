@@ -1,4 +1,5 @@
 ---
+
 title: Produzioni fuori dal comune
 date: 2022-10-11
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 3.1722426414489746
 issue_number: OEL-159
 id_numero: "OEL-159"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Intervista a Daniele Bonarini, regista e fondatore della Poti Pictures"
 ---
+
 «In
 Canada alla proiezione di un nostro cortometraggio, una ragazza ci disse che si era proprio dimenticata di aver difronte una persona con disabilità… Questo è quello che cerchiamo di ottenere con ogni nostra produzione:
 **raccontare una persona, con tutte le sue difficoltà ma soprattutto quello che vuole, sogna e desidera e che, nel suo profondo,**

@@ -1,4 +1,5 @@
 ---
+
 title: Per rompere la solitudine
 date: 2023-05-08
 author: Nanni Bertolini
@@ -14,7 +15,10 @@ umap_z: 9.684150695800781
 issue_number: OEL-161
 id_numero: "OEL-161"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Nanni Bertolini racconta gli inizi della rivista Ombre e Luci dal tavolo della nostra sala da pranzo alla rete"
 ---
+
 Ricordo l’emozione di tenere fra le mani il primo numero di *Ombre e Luci* appena uscito dalla tipografia. Ricordo quanto lavoro c’era stato dietro, per la scelta dei contenuti, degli articoli, delle fotografie. Ma quella prima volta c’erano stati importanti preliminari lavori in più. A cominciare dalla scelta del titolo della rivista, che si sarebbe dovuto depositare in tribunale (autorizzazione del Tribunale di Roma n. 19/83).
 
 Sì, perché sebbene la rivista (o «giornalino», come veniva chiamata in casa) si presentasse come l’edizione italiana di [*Ombres et Lumière*](https://www.och.fr/ombres-et-lumiere/) (così espressamente nel primo editoriale), ci fu una lunga divertita discussione su come rendere in italiano il titolo francese, che contrapponeva le ombre (al plurale) alla luce (al singolare). La traduzione letterale “Ombre e luce” venne immediatamente scartata, scivolando sul molto più scorrevole “Luci e ombre” che appariva però poco caratteristico. Si trattava anche di selezionare un vocabolario adatto allo scopo di essere capiti da tutti i lettori. **Erano i primi mesi del 1983, un’altra era geologica sul piano dell’integrazione ma tale scrupolo emerge già da quel primo editoriale** dove a margine della parola handicappato si annotava: «Ci dispiace usare questo termine, ormai entrato nell’uso della lingua italiana, per riassumere la varietà dei limiti fisici o intellettivi lasciati da un trauma o da una malattia. Come esprimersi altrimenti senza creare confusione?».

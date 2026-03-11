@@ -1,4 +1,5 @@
 ---
+
 title: Ma la Giorgia tredicenne  di oggi chi avrebbe incontrato?
 date: 2023-07-17
 author: Francesco Bertolini
@@ -14,7 +15,10 @@ umap_z: 9.799162864685059
 issue_number: OEL-162
 id_numero: "OEL-162"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Considerazioni a margine di un concerto inusuale"
 ---
+
 Èforse la giornata più piovosa dell’anno quella scelta dall’orchestra *[Chiave di Volta](https://orchestrachiavedivolta.it/)* per il concerto da offrire alle comunità romane. **L’orchestra ha vinto un finanziamento regionale per suonare in luoghi dove di regola la musica non arriva** : ospedali, case famiglia, carceri. Il giovane direttore è stato a scuola con l’amico di una comunità romana, e da qui l’idea di un concerto a favore di [Fede e Luce](http://fedeeluce.it) , occasione per far conoscere il movimento.
 
 Ma non è una normale giornata di pioggia, perché l’acqua viene dal cielo come a secchiate, allaga strada e scantinati, infradicia e inzuppa anche con l’ombrello. Occorre prendere la macchina, attraversare la città sino a San Gaetano, dove il parroco ci ha sempre aperto le braccia, e trasbordare sotto l’acqua carrozzine e persone anche anziane. **Eppure la gente arriva, piano piano la chiesa si riempie per l’evento, così insolito per il movimento come un concerto di musica classica.** L’orchestra è di archi, giovanissimi i musicisti, giovanissimo il direttore con i suoi 21 anni. In programma Mozart, Mendelssohn, Respighi: un’ora di musica.

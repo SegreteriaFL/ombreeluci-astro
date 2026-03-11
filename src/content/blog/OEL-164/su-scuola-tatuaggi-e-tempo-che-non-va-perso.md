@@ -1,4 +1,5 @@
 ---
+
 title: Su scuola, tatuaggi e tempo che non va perso
 date: 2023-04-21
 author: Benedetta Mattei
@@ -14,7 +15,10 @@ umap_z: 9.357995986938477
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Con la maturità alle porte sono in fase di bilanci"
 ---
+
 Io tra poco faccio l’esame di maturità come tutti i miei compagni di classe. Tutti quelli che lo sanno mi dicono se io ho paura di fare l’esame. E io dico di no perché io studio e sono sempre preparata. Prendo sempre bei voti, sempre.
 
 Mi dispiace però tanto che poi finisce la scuola perché io a scuola mi diverto tantissimo con i miei compagni e pure con i professori. Io a scuola non manco mai e ci voglio andare pure il sabato e la domenica. In classe sto benissimo e ridiamo anche tanto.

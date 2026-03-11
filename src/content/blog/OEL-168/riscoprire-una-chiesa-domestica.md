@@ -1,4 +1,5 @@
 ---
+
 title: Riscoprire una chiesa domestica
 date: 2024-03-25
 author: Luciana Spigolon
@@ -16,7 +17,10 @@ umap_z: 11.828990936279297
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Riflettendo sulla Lavanda dei Piedi e la Settimana Santa"
 ---
+
 Siamo vicini alla Pasqua, preceduta dalla Settimana Santa, in particolare dal triduo pasquale con i suoi santi riti che conducono per mano ogni cristiano fino alla Resurrezione.
 
 Ho nella mente la Pasqua del 2020, quando a causa del covid è stato chiuso tutto, anche le chiese, e nessuno ha potuto celebrare nelle comunità cristiane. Costretti e chiusi in casa, chi ha voluto ha seguito in tv, anche se pure questo non era preparato e programmato. **Ricordo quanta tristezza avevo, e quanto desiderio di celebrare in chiesa** : la benedizione delle palme, la lavanda dei piedi, la Via Crucis, la Passione, la veglia pasquale. È stato per me un vuoto.

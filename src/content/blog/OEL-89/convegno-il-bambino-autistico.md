@@ -1,4 +1,5 @@
 ---
+
 title: "Convegno: “Il bambino autistico”"
 date: 2005-03-16
 author: Laura Nardini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.83214807510376
 umap_y: 8.30081558227539
 umap_z: 6.476039409637451
+
+subtitle: "Il 29 e 30 ottobre 2004 si è tenuto un convegno intitolato «Il bambino autistico. Tra ricerca clinica e riabilitazione"
 ---
+
 N
 el convegno si voleva fare il punto sulle attuali conoscenze delle cause dell’autismo e sulle possibilità terapeutiche e riabilitative. Era rivolto in particolare alle professioni impegnate nella ricerca, nella clinica e nella terapia dei pazienti autistici in età evolutiva (medici, psicologi, pedagogisti, educatori e terapisti della neuromotricità). Per questo sono stati presentati e discussi temi strettamente tecnici poco accessibili a chi, come me, ha solo un'idea generale sull’autismo. Comunque questo non mi ha impedito, in due giorni di convegno, di capire e riportare a voi gli argomenti che i relatori hanno in particolare trattato.
 

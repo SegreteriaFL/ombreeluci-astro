@@ -1,4 +1,5 @@
 ---
+
 title: Porte Aperte
 date: 2024-08-26
 author: Melanie Castellani
@@ -14,7 +15,10 @@ umap_z: 8.71284294128418
 issue_number: OEL-166
 id_numero: "OEL-166"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La cooperativa Cassiavass a Roma"
 ---
+
 O
 gnuno di noi ha passioni che vuole coltivare; spesso riusciamo anche a trovare il modo per metterle a disposizione degli altri nella vita di tutti i giorni. E perché no, a farne proprio un lavoro. La cooperativa
 [*Cassiavass*](https://www.facebook.com/people/Cassiavass-Societ%C3%A0-Cooperativa-Sociale/100079462104239/)

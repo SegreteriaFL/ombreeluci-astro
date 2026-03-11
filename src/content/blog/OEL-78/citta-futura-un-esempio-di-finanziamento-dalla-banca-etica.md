@@ -1,4 +1,5 @@
 ---
+
 title: "Città futura - Un esempio di finanziamento dalla banca etica"
 date: "2002-06-14"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T12"
 tema_label: "Progetto di vita, autonomia e dopo di noi"
 categoria_menu: "Diritti"
+
+subtitle: "L’associazione Città Futura nasce nell’ottobre ’98 dal sogno di un gruppo di giovani che decidono di invertire il destino del proprio paese."
 ---
+
 ### Riscoperta della propria terra
 
 L’associazione Città Futura nasce nell’ottobre ’98 dal sogno di un gruppo di giovani che decidono di invertire il destino del proprio paese. Riace, in provincia di Reggio Calabria, ripercorre infatti la storia di tanti paesi del Sud Italia: degli oltre 3000 abitanti del centro storico negli anni ’60, oggi ne rimangono 600; il 30% delle case del centro storico sono abbandonate; l’economia si fonda sostanzialmente sulla sussidiarietà statale; la legalità è fragile.

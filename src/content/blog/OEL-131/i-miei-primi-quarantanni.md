@@ -1,4 +1,5 @@
 ---
+
 title: "I miei primi quarant'anni"
 date: 2015-06-13
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ho cominciato a fare *Fede e Luce* quarant’anni fa nella mia parrocchia di San Giuseppe della Pace a Milano, a sedici anni. Ho compiuto gli anni proprio nei giorni del pellegrinaggio 2015 ad Assisi e, complici le mie sorelle, sono stata grandemente festeggiata! Mi hanno regalato la maglietta del pellegrinaggio autografata dai gruppi di Milano, che bella!
 
 Ero stata ad Assisi con *Fede e Luce* che avevo diciottanni o giù di lì: grazie ai *ragazzi* lo spirito soffia ancora, le cose non sono cambiate granchè nonostante il movimento si sia trasformato nel tempo.

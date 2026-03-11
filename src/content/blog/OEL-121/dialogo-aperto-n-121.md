@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 121
 date: 2013-03-10
 author: Redazione
@@ -14,12 +15,17 @@ umap_z: 11.061436653137207
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Tanti amici
 
 Sono Giancarla, la mamma di un ragazzo sordo-cieco di 42 anni, Andrea. Vorrei tanto ricordare un carissimo amico, Don Francesco Marchini, mancato anni fa, fondatore di Fede e Luce di Parma con l’amica Lucetta (purtroppo anche lei recentemente mancata, ndr). Ci siamo conosciuti negli anni 80 in occasione della Comunione di Andrea. Grande l’aiuto che mi hanno dato in tanti anni con gli incontri di Fede e Luce e nelle grandi feste di campagna a casa mia. Nella foto, Andrea, Don Francesco e Michela, un’amica del centro riabilitativo frequentato anche da Andrea in quegli anni (Cooperativa Insieme di Parma). Vorrei salutare così tutti gli amici conosciuti grazie a Fede e Luce. In modo particolare per abbracciare gli amici di Roma, Assunta e Maria Pescosolido, conosciuti proprio in un’incontro di Fede e Luce.
 
 **Giancarla, Emilio, Sabrina e Andrea Ferrari**
+
+
 
 ---
 
@@ -28,6 +34,8 @@ Sono Giancarla, la mamma di un ragazzo sordo-cieco di 42 anni, Andrea. Vorrei ta
 Mi chiamo Arianna, sono una ragazza disabile di vent’anni e faccio parte di un gruppo di Fede e Luce di Milano (Fatima). Sono venuta a conoscenza di questo gruppo 12 anni fa. In quel periodo mi dovevo preparare alla Prima Comunione insieme ai miei compagni ma la lezione di catechismo coincideva con la terapia che dovevo fare. Mia mamma parlando con la mamma di un ragazzo down, che veniva a scuola con me, ha ricevuto la proposta di fare catechismo con gli amici di Fede e Luce, e, d’accordo con me e mio padre, abbiamo accettato. Probabilmente qualcuno si chiederà se mi sia mancato farlo con i miei compagni di scuola, la risposta è assolutamente no!!! Io mi sentivo a mio agio, anzi, non vedevo l’ora! Mi hanno accolta con passione e a volte non sembrava una vera lezione. Una volta finito il catechismo e quindi fatta la Prima Comunione una ragazza della mia comunità mi si è avvicinata e mi ha detto: “Arianna! spero di rive-derti presto tra noi insieme alla tua famiglia”. Mi ero trovata così bene da subito che non volevo che la cosa finisse lì, e così abbiamo continuato ad andare agli incontri di comunità. Ogni volta che io e i miei genitori andiamo a Fede e Luce,ci sentiamo sempre più coinvolti da questo clima di festa, amore, condivisione, accettazione e rispetto. Cosa ci accomuna? Bè, sicuramente la fede in Dio ma anche la voglia di stare insieme e di divertirci. Man mano che passano gli anni conosciamo sempre più amici con i quali si instaurano legami profondi. Da qualche anno nella mia comunità mi hanno affidato un ruolo importante, quello di preparare, in base al carnet, la preghiera con la riflessione, ed è un ruolo di cui mi occupo molto volentieri, aiutata da mia madre. Faccio parte dell’equipe di comunità, dove aiuto ad organizzare gli incontri. Tutto questo mi fa sentire sempre più coinvolta e mi fa vivere questa esperienza con orgoglio perché posso aiutare gli altri. Vorrei che tutti quelli che non sanno quanto sia bello stare in Fede e Luce provassero a venire per vedere con i loro occhi e provare direttamente la gioia di stare insieme che ci trasmettiamo reciprocamente non solo durante gli incontri ma anche solo con una semplice telefonata. Voglio ringraziare tutti gli amici di Fede Luce per la loro costante presenza al nostro fianco.
 
 **Arianna Giuliano**
+
+
 
 ---
 

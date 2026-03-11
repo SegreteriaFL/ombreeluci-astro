@@ -1,4 +1,5 @@
 ---
+
 title: Notiziario Fede e Luce n.12 - marzo 1977
 date: 1977-03-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 13.374759674072266
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "Notizie e aggiornamenti dalle comunità di Fede e Luce di tutta Italia"
 ---
+
 ### Da ottobre un nuovo gruppo a San Paolo
 
 Facendo già parte del [gruppo di Fede e Luce di Santa Silvia](https://www.fedeeluce.it/project/santa-silvia/) mi recavo quasi sempre agli incontri in compagnia di amici. Venivano quasi tutti spontaneamente e il più delle volte tornavano entusiasti di riprovare la bellissima esperienza. Essendo componenti di un gruppo "Hands out" sorto recentemente nella nostra comunità dell'Oratorio di S. Paolo, abbiamo trasmesso agli altri le esperienze provate ed i primi contatti avuti con i nostri amici.

@@ -1,4 +1,5 @@
 ---
+
 title: "Lettera a Jean: Annik"
 date: 2010-09-30
 author: Redazione
@@ -15,8 +16,10 @@ issue_number: OEL-111
 id_numero: "OEL-111"
 numero_rivista: "Ombre e Luci"
 ---
+
 *L’idea di Annick: perché Ombre e Luci non propone di raccogliere una serie di lettere rivolte a Jean Vanier da parte di genitori, amici, sacerdoti, ecc. per ringrazarlo e testimoniargli la riconoscenza di quanto ricevuto? Annick con questa lettera dà inizio alla raccolta che speriamo sarà copiosa e variegata.*
 Roma 23 Maggio 2010, Pentecoste.
+
 
 ---
 

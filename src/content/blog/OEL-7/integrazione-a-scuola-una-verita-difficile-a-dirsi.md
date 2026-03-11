@@ -1,4 +1,5 @@
 ---
+
 title: "Integrazione a scuola: una verità difficile a dirsi"
 date: "1984-09-30"
 author: "Mariangela Bertolini"
@@ -15,6 +16,7 @@ issue_number: OEL-7
 id_numero: "OEL-7"
 numero_rivista: "Ombre e Luci"
 ---
+
 È senza dubbio vero che l'inserimento scolastico permette ai bambini portatori di handicap e a quelli che non lo sono di imparare a vivere insieme. È vero che i genitori di un bambino handicappato sono molto sollevati, nella dura prova che li schiaccia, dal fatto che il loro figliolo potrà andare a scuola con gli altri bambini: alla scuola normale e non, come un tempo, alla scuola speciale. È vero che l'integrazione nella società passa innanzitutto da questo primo impatto - imposto dalla legge in questi ultimi anni (siamo nel 1983 N.d.R.) - sostenuto o criticato, accettato o mal digerito che esso sia. Tutto questo è vero e siamo d'accordo in linea di principio.
 
 > Basta "socializzare" per educare? Basta trovarsi con altri bambini normali per imparare? e che cosa?

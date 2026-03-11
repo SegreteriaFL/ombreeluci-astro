@@ -1,4 +1,5 @@
 ---
+
 title: "Sscuola e handicap: Una scuola da imitare"
 date: 2003-09-04
 author: Maria Teresa Mazzarotto
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.002615451812744
 umap_y: 6.904826641082764
 umap_z: 7.175491809844971
+
+subtitle: "Da dove partire per parlare dell'integrazione dei ragazzi con handicap nella Scuola italiana dei nostri giorni? Decidiamo di iniziare da un esempio gratificante e incoraggiante per tutti"
 ---
+
 La scuola “Fabrizio de André”, in via della Nocetta a Roma, fino dai primi anni ’80, ha messo in atto l’integrazione dei portatori di handicap, con impegno speciale e grande fiducia nella bontà e nella possibilità di attuazione della Legge. Oggi sono presenti, tra scuola madre e succursale, 45 ragazzi disabili su 600 iscritti. Ne parliamo con la vicepreside, la professoressa Carla Rapò in una mattinata di sole e di vento, in un bar all’aperto sul piazzale del Gianicolo, tra il monumento a Garibaldi e il coloratissimo teatro dei burattini. Anche questo luogo e questo tempo ci sembrano, in qualche modo, emblematici, in sintonia con ciò che ascoltiamo.
 
 La prof, ssa Carla elenca innanzitutto **le condizioni logistiche** che hanno permesso a tanti ragazzi in difficoltà un buon inserimento.

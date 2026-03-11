@@ -1,4 +1,5 @@
 ---
+
 title: "Spesso però mi regala il suo prezioso sorriso"
 date: "1985-03-30"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-9
 id_numero: "OEL-9"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sono nato tre anni prima di mio fratello Carlo e ho conosciuto la sua situazione verso i sette, otto anni. Comunque a casa non ne abbiamo mai fatto una tragedia, né ci siamo mai vergognati di Carlo. Ho sempre portato volentieri aiuto ai miei genitori, pur tra difficoltà crescenti.
 
 > Carlo mi crea quindi tanti problemi, ma forse mi aiuta anche a risolverne.

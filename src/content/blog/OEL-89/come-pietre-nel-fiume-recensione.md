@@ -1,4 +1,5 @@
 ---
+
 title: Come pietre nel fiume - Recensione
 date: 2005-03-16
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.75649881362915
 umap_y: 11.348284721374512
 umap_z: 4.788016319274902
+
+subtitle: "Ursula Hegi, Ed. Feltrinelli 1994"
 ---
+
 > “Da bambina Trudi Montag pensava che tutti sapessero che cosa passava per la testa degli altri. Questo accadeva prima che capisse la forza di essere diversa. L’agonia di essere diversa”
 
 C

@@ -1,4 +1,5 @@
 ---
+
 title: "Dedicato ad un'amica"
 date: 1976-09-20
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 10.854218482971191
 issue_number: INS-11
 id_numero: "INS-11"
 numero_rivista: "Insieme"
+
+subtitle: "Un'incredibile lezione di vita: il prezioso insegnamento di un'amica speciale, la forza e saggezza di un'anima custode di segreti profondi"
 ---
+
 Tu sei là, davanti a me, con il tuo corpicino ogni giorno più lungo, in fiore, come è la natura in quest'epoca, ma che ancora non dimostra la tua adolescenza.
 
 Con lo sguardo attratto da ogni cosa meccanica e lucente come una piccola gazza, con il dito eternamente in bocca ed il mento umido di saliva...

@@ -1,4 +1,5 @@
 ---
+
 title: Ho imparato a nuotare
 date: 2015-06-13
 author: Rita Massi
@@ -15,6 +16,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ho conosciuto *Fede e Luce* attraverso Mariangela, lei è stato il mio primo determinante tramite e, insieme al Carro, mi ha aperto una finestra su questo mondo che, fin dal primo momento, mi è apparso speciale e sorprendente al contempo.
 
 Da cinque anni ormai sto collaborando ad Ombre e Luci e la finestra si è aperta ancora di più e pian piano ora mi sento anche io “amica” di *Fede e Luce* , anche se non ne faccio parte, perché, come dice ironicamente Cristina, non ho ancora fatto “casetta”.

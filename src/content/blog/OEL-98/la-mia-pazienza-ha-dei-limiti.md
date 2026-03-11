@@ -1,4 +1,5 @@
 ---
+
 title: La mia pazienza ha dei limiti
 date: 2007-06-03
 author: Jean Marie Petitclerc
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 4.831393718719482
 umap_y: 9.051175117492676
 umap_z: 8.353644371032715
+
+subtitle: "Venticinque anni di esperienza come direttore di educatori specializzati, lavorando con adolescenti con turbe della condotta e del comportamento, hanno fatto scoprire al P. Petitclerc la grande efficacia della virtù della pazienza"
 ---
+
 Un bambino in perpetua agitazione che fa cadere un oggetto che vi è caro. Un preadolescente che vi importuna, che vi pone per l'ennesima colta la domanda alla quale avete gia risposto negativamente. Allora esplodete — come ultimo avvertimento — con una specie di autorizzazione che vi date di ricorrere alla violenza: “La mia pazienza ha dei limiti!”. E la scena sta per degenerare in crisi e pianti.
 
 Bisogna porre dei limiti alla pazienza? Quella di Dio non è forse infinita nei nostri confronti?

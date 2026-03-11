@@ -1,4 +1,5 @@
 ---
+
 title: Baskin a Monopoli
 date: 2024-08-16
 author: Vivi Licciuli
@@ -14,7 +15,10 @@ umap_z: 9.544354438781738
 issue_number: OEL-165
 id_numero: "OEL-165"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Come è nata la nostra squadra inclusiva"
 ---
+
 La sera prima della partita si dorme poco, soprattutto se si gioca di mattina: adrenalina? Ansia? Fretta? Allora ci si sveglia presto, in un orario che assomiglia a quello utile per andare in aeroporto per il primo volo di giornata. E questa giornata sarà proprio come un viaggio, un incontro con persone amiche e persone sconosciute, tutti un po’ sognatori impegnati nella seconda partita di campionato di baskin Puglia Molise per la nostra squadra, i *Delfini Baskin* di Monopoli.
 
 A sognare aveva cominciato Sara: «Ciao Vivi – mi disse al telefono –, **durante [l’incontro nazionale dei giovani di Fede e Luce a Fano](https://www.ombreeluci.it/2018/vieni-e-vedi-a-fano-la-formazione-giovani-di-fede-e-luce/) , abbiamo conosciuto Edoardo, un ragazzo della comunità di Milano che pratica il baskin** , ormai da diversi anni. Che ne dici se facciamo il baskin a Monopoli?». Dopo quella prima chiacchierata, dopo il periodo buio del covid, dopo averne parlato con gli amici (come me) di Fede e Luce e con l’asd [Scuola Basket Delfini Monopoli](https://www.facebook.com/scuolabasketdelfinimonopoli/) , abbiamo finalmente creato una vera squadra. Non solo: dopo quindici mesi di lavoro sul campo, qualche settimana fa abbiamo esordito nel campionato Puglia-Molise organizzato dall’Eisi (Ente Italiano Sport Inclusivi).

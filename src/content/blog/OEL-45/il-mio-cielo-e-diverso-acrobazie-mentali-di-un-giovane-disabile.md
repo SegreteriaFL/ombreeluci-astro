@@ -1,4 +1,5 @@
 ---
+
 title: "Il mio cielo è diverso - Acrobazie mentali di un giovane disabile"
 date: "1994-03-16"
 author: "Natalia Livi"
@@ -15,6 +16,7 @@ issue_number: OEL-45
 id_numero: "OEL-45"
 numero_rivista: "Ombre e Luci"
 ---
+
 In una immobilità quasi assoluta — può muovere soltanto il collo e la testa — Flavio, un giovane di 24 anni, vola con il suo pensiero in acrobazie davvero straordinarie ed esplora il suo mondo, quello che sta dentro di lui e quello che lo circonda.
 Egli scrive con l aiuto di un computer. Colpito fin dall’infanzia da una malattia che all'inizio sembrò paralisi infantile e che, dopo un ricovero al Gaslini di Genova, fu diagnosticata come amiotrofia mielogena, riuscì a frequentare la scuola con ottimi risultati fino alla seconda liceo scientifico. Ebbe poi un nuovo ricovero in stato di coma. La morte, egli racconta, raggiunse il suo vicino di letto e «mancò lui di tre metri». Si salvò, ma il male era progredito e da allora egli è quasi completamente immobilizzato.
 Nel suo libro, che è in parte una autobiografia e in parte un commento in profondità sulla sua vita e sul suo handicap, egli ci offre la possibilità di conoscere, per quanto siamo in grado di farlo, quella «casa non del tutto famigliare» che per lui è il suo corpo, quel corpo che lo limita, così sensibile e così immobile.

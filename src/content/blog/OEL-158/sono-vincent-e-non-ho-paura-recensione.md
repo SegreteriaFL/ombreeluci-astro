@@ -1,4 +1,5 @@
 ---
+
 title: Sono Vincent e non ho paura - Recensione
 date: 2022-08-04
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 Dicono i dati che il bullismo stia crescendo in modo esponenziale nei corridoi delle scuole italiane, minando alla radice le basi stesse della crescita individuale di vittime e carnefici, e del vivere civile. Tra i vari libri dedicati a questa piaga, segnaliamo il romanzo per giovani lettori *Sono Vincent e non ho paura* (CameloZampa 2022, traduzione Olga Amagliani) della scrittrice olandese Enne Koens. Il libro racconta la storia di Vincent, undicenne di Rotterdam che frequenta la quinta elementare cercando di sopravvivere a violenze e umiliazioni dei bulli della scuola, violenze e umiliazioni che proseguono da anni. **Attraverso la voce di Vincent non ascoltiamo solo l’inferno quotidiano imposto dai carnefici, ma anche quello che succede nella sua mente di vittima** : l’alterata percezione della realtà, le conseguenze psicologiche che il bullismo determina in lui, nella convinzione di meritarsi (in qualche modo) l’incubo da cui è inghiottito («Non so cosa sia iniziato prima: io che mi sentivo diverso, o loro che si comportavano in modo diverso con me»). Mai banale, questo romanzo è un tassello importante per capire. E per incamminarsi decisi a sconfiggere una realtà a cui non possiamo o dobbiamo arrenderci.
 
  ### Sono Vincent e non ho paura **Autore** : Enne Koens **Illustrazioni:** Maartje Kuiper **Traduzione:** Olga Amgliani ** Editore:** CameloZampa **Pubblicato:** 27 gennaio 2022 **Pagine:** 200 **Prezzo:** 15,90€ **ISBN:** 9791280014665 

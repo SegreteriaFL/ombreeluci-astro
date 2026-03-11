@@ -1,4 +1,5 @@
 ---
+
 title: Fede e Luce in Iraq
 date: 2012-03-16
 author: Myrna Hayek
@@ -14,7 +15,10 @@ umap_z: 13.967540740966797
 issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Mirna Hayek, vice coordinatrice  internazionale di Fede e Luce, ci racconta la situazione in Iraq dove non c'è Fede e Luce ma un comunità che segue gli stessi principi"
 ---
+
 Mirna, vice coordinatrice internazionale, accompagna la provincia del Medio Oriente. Recentemente è stata invitata a un incontro di comunità “AMORE E GIOIA” d’Irak, dove non c’è Fede e Luce per diverse ragioni; “Amore e Gioia” però segue gli stessi principi, ha la stessa spiritualità (Jean Vanier è passato di là). I contatti esistono con Imad, il coordinatore nazionale ed è lui che ha invitato Mirna al loro incontro nazionale che si è tenuto a Qaraqosh, nel nord del paese. Così racconta Mirna.
 
 **Abbiamo condiviso molto, abbiamo ascoltato numerose storie molto tristi** , perché la maggior parte dei partecipanti ha sofferto direttamente di rapimenti di bambini, torture, minacce e assassini. Numerose famiglie vivono nella paura, molti di quelli che non possono partire si sentono abbandonati, soli, delusi, perché non vedono un lume di speranza per l’avvenire. Per quanto riguarda le comunità “Amore e Gioia”, è un po’ la stessa cosa; ogni settimana perdono degli amici, le comunità si indeboliscono.

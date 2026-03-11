@@ -1,4 +1,5 @@
 ---
+
 title: "Cronologia dell'inchiesta e cenni storici"
 date: 2020-01-02
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Una cronologia completa degli eventi che hanno visto Jean Vanier e padre Thomas Philippe al centro delle indagini avviate dall'Arca Internazionale.
 
 **1946:** Padre Thomas Philippe crea L’Eau Vive, un centro di formazione internazionale a Soisy-sur-Seine.

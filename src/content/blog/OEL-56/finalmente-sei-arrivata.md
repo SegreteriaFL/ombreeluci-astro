@@ -1,4 +1,5 @@
 ---
+
 title: Finalmente sei arrivata!
 date: 1996-12-15
 author: Redazione
@@ -17,6 +18,7 @@ umap_x: 6.961719989776611
 umap_y: 8.797426223754883
 umap_z: 12.196786880493164
 ---
+
 Prima di tutto mi presento: io sono Giorgia, conosciuta a Fede e Luce come «Ciaccia» e faccio parte del [gruppo di Santa Croce](http://www.fedeeluce.it/comunita/santa-croce/) da molti anni. Mi dispiace di non essere con voi alla riunione dei fratelli e sorelle ed è per questo che ho voluto scrivervi: per esserci con il pensiero e per raccontarvi la mia storia.
 
 **Mio fratello si chiama Corrado** ... forse qualcuno di voi lo conosce già, ma vi dirò qualcosa di lui ugualmente: Corrado ha venticinque anni e ha incominciato a non star più bene a circa quattro anni. Non è molto chiaro il perché, ma dopo tanto tempo abbiamo smesso di chiedercelo. Corrado è un ragazzo con problemi caratteriali molto accentuati; soffre di epilessia ed è perciò un ipersensibile e mentalmente poco sviluppato. I suoi problemi più evidenti sono: l’incapacità di distinguere la realtà dalla fantasia, la mancanza di autonomia e spesso un’aggressività a volte motivata dalla sua malattia, a volte dovuta a semplici capricci.

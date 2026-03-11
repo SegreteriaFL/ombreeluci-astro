@@ -1,4 +1,5 @@
 ---
+
 title: “Un po’ di follia  ...per fare meraviglie!”
 date: 2013-03-10
 author: Giovanni Vergani
@@ -14,7 +15,10 @@ umap_z: 9.196951866149902
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Abbiamo incontrato l'Associazione di volontariato I SempreVivi che accoglie persone affette da disagio psichico ma forse... qualcosa di più. Lo abbiamo chiesto al fondatore Don Domenico Storri"
 ---
+
 Il disagio personale, può avere spazio all’interno delle relazioni quotidiane? Ogni persona può vivere una relazione in cui sentirsi guardato e “preso sul serio” ... o il disagio “imprigiona” ad un’inevitabile emarginazione sociale? Abbiamo incontrato l’Associazione di volontariato “I SempreVivi”, all’interno della Parrocchia S. Pietro in Sala in piazza Wagner a Milano, associazione di accoglienza per persone affette da disagio psichico, ma forse... qualcosa di più. Lo abbiamo chiesto al fondatore Don Domenico Storri.
 
 **Quale è stato il percorso dell’associazione all’interno della comunità parrocchiale?** La cosa è nata come tutte le cose belle e semplici della vita. In parrocchia c’erano persone che frequentavano il quartiere e l’oratorio, malvisti perché erano considerati i “matti”. Quando ho iniziato psicologia in Cattolica è cresciuto un occhio di riguardo, un’attenzione particolare: ho cominciato a parlare, a incontrare, a dare del tempo con incontri in oratorio, un panino al bar. Poi, una volta laureato con una tesi sulla “montagna terapia”, con qualche giovane dell’oratorio appassionato abbiamo iniziato questa esperienza con giornate in montagna insieme ad alcune di queste persone. Esperienza di otto anni fa, in un giugno a Macugnaga al rifugio Zamboni, io con tre educatori e quattro persone affette da malattia mentale.

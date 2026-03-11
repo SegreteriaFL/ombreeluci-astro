@@ -1,4 +1,5 @@
 ---
+
 title: Letture consigliate n.23
 date: 1979-12-16
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 6.1389665603637695
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Scoprire la forza dell'amore e della comunità attraverso le storie di Marie Anne e Alain"
 ---
+
 ### **Il dolore innocente**
 
 *Un handicappato nella mia famiglia, di G.HOURDIN ed. Cittadella. L.3.500*

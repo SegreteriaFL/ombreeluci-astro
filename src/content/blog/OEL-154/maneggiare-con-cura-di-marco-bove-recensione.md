@@ -1,4 +1,5 @@
 ---
+
 title: Maneggiare con cura di Marco Bove – Recensione
 date: 2021-05-17
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-154
 id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
+
 Èil diario intimo e profondo di un sacerdote. Il racconto del suo percorso, delle sue scelte, degli scambi e della vocazione che lo hanno reso l’uomo di Dio che è. Partendo dall’incontro a 15 anni con Lucrezia, ragazzina con una grave disabilità (incontro che i lettori di Ombre e Luci hanno ascoltato in anteprima nel corso della densa intervista che egli ci ha rilasciato qualche numero fa), in *Maneggiare con cura* (EDB 2021) don Marco Bove ripercorre le tappe che lo hanno condotto non solo al sacerdozio, ma a un sacerdozio intimamente intrecciato con la disabilità. Per questo le sue parole e le sue azioni sono così significative, per questo lasciano il segno.
 
 — Leggi anche: [**la nostra intervista a Marco Bove**](https://www.ombreeluci.it/2019/lucrezia-e-il-marco-di-ieri-e-di-oggi/)

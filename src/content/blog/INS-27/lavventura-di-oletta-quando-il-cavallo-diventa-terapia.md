@@ -1,4 +1,5 @@
 ---
+
 title: "L'avventura di Oletta: quando il cavallo diventa terapia"
 date: 1980-12-16
 author: Lucia Bertolini
@@ -17,6 +18,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 > Ci è praticamente impossibile trattare in poche righe dell’esperienza fatta in Corsica, al "Centro St.Exupéry", dal 7 al 17 Luglio. Sono stati solo 10 giorni ma carichi di entusiasmo, di novità e vissuti in modo molto intenso".
 
 Queste righe sono state scritte da alcuni terapisti che hanno accompagnato un gruppo del centro A.L.M. (Associazione Laziale Motolesi) - 8 terapisti ed assistenti e una ventina di bambini e giovani.

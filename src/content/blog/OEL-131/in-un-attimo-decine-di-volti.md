@@ -1,4 +1,5 @@
 ---
+
 title: In un attimo decine di volti
 date: 2015-06-13
 author: Angela Grassi
@@ -15,6 +16,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 “Amici portatori di handicap, voi siete preziosi per la Chiesa. Nella vostra prossimità con Gesù e Maria siete testimoni privilegiati dell’amore di Dio per ciascuno di noi. Che Dio vi benedica”.
 
 Le parole di papa Francesco, all’udienza generale, hanno generato in me immensa commozione: ho rivisto in un attimo decine di volti. Non pensavo solo a quanti erano lì in piazza San Pietro, ma ai tanti *ragazzi* incontrati in questi (per me) 29 anni di cammino in *Fede e Luce* . È vero, non avevamo uno spazio tutto per noi, ci sentivamo dispersi tra le colonne del Bernini. Il papa non ha tenuto un discorso dedicato al movimento ma, con quelle poche parole, ha ricordato quello che ci ripetiamo da anni e spesso, ancora, fatichiamo a riconoscere e testimoniare.

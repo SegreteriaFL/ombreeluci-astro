@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto n.20
 date: 1979-03-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 ### Incontro inatteso
 
 Se oggi sono amico di Fede e Luci è grazie alla conoscenza fortuita con Padre Roberti al Santuario di Banneux (Belgio) questa estate.
@@ -31,6 +33,7 @@ Che il Signore ci aiuti a vivere insieme nel silenzio creatore, nella gioviale m
 
 **Lorenzo Kapanda**
 
+
 ---
 
 ### Piano... Piano...
@@ -43,6 +46,7 @@ Se fosse stato mio figlio forse non avrei avuto il coraggio di sfidare il giudiz
 
 **MG.**
 
+
 ---
 
 ### La domenica seguente
@@ -53,11 +57,13 @@ Oggi il messaggio di Maria Francesca, di Mauro, di Steve, è serenità, serenit�
 
 **un'amica**
 
+
 ---
 
 **Carissimi,** grazie ancora di tutto cuore per averci tanto aiutato nella realizzazione del numero sulle Comunità Fede e Luce. Avete veramente sostenuto la nostra speranza quando saremmo stati tentati di scoraggiarci.
 
 **Marie - Hélène Mathieu**
+
 
 ---
 
@@ -66,6 +72,7 @@ Oggi il messaggio di Maria Francesca, di Mauro, di Steve, è serenità, serenit�
 Io non sapevo lo non capivo Io non mi rendevo conto Io non riuscivo con tutte le mie forze a capire la "Tua Parola". Ma da quando sono entrato in mezzo a voi, ‘con i miei fratelli soffriamo entrambi, sono riuscito a trovare la vera esistenza, ed il vero valore di Dio che ci unisce l'uno con l'altro e la vera sofferenza: che la società stessa rinnega.
 
 **Luigie e Maria **
+
 
 ---
 

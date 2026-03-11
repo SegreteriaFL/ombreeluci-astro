@@ -1,4 +1,5 @@
 ---
+
 title: «Avevo paura»
 date: 1981-12-20
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 A me, handicappata fisica, sembra importante dire, fin dall'inizio, che Fede e Luce non è un gruppo di più per handicappati. Fede e Luce è piuttosto un'arte di vivere che può andare fino ad un impegno di fede.
 
 Per me, per ora, è più un ideale da raggiungere che un tesoro conquistato.

@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto n.13
 date: 1977-06-20
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
 ---
+
 ### Una mamma ci racconta
 
 Mi chiamo Iolanda, sono sposata da 13 anni ed ho cinque figli tra i quali una figlia spastica, Mariangela. Non ho mai avuto problemi ad accettare questa bambina nelle condizioni in cui si trovava: anche avendo altri quattro figli da guardare, tuttavia ho avuto le prime difficoltà quando mi sono accorta che la malattia di Mariangela non aveva nessun miglioramento.
@@ -43,6 +45,7 @@ La mia poesia è forse soprattutto ricerca ma come posso rinunciare a trovare un
 
 *Incredula, io a un medico* *deluso questi versi assorti* *scrivo, in buste lievi ali bianche, sicura li affido.*
 
+
 ---
 
 ### La nostra amicizia
@@ -53,11 +56,13 @@ Ma per sviluppare una vera amicizia, bisogna conoscersi profondamente, scambiars
 
 **Fausta**
 
+
 ---
 
 ### Fede e Luce
 
 Conoscevo Fede e Luce per averne sentito parlare, poi sono stata invitata alla giornata di Villa PAcis dove mi recai nel pomeriggio; l'impressione ricevuta è stata di grande serenità. Il mutuo scambio di doni e di arricchimento reciproco mi ha commosso; da una parte il dono della propria vitalità, esuberanza, energia e amore, dall'altra quello ancor più prezioso della sofferenza, dell'autentica accettazione del dolore tradotto in amore, questo enorme tesoro di inesauribile arricchimento interiore che spande la sua luce offrendosi semplicemente, senza rumore, quale espressione viva dell'aderenza alla Verità evangelica. Per concludere, sono uscita da Villa Pacis con un sentimento di gratitudine per aver vissuto un'esperienza di autentico amore. **A.M.**
+
 
 ---
 
@@ -78,6 +83,7 @@ Lasciando però a chi dispone di maggiore competenza spiegarne le cause e presen
 Questi portatori di stati di bisogno, umanamente parlando meno fortunati di altri, sono forse compensatori nei disegni divini di una umanità purtroppo carica di vizio, di odio, di ingratitudine. Ricordando la parabola evangelica dei talenti, forse ci convinceremo che anche gli handicappati hanno diritto alla scuola, al lavoro, alla vita nei limiti delle loro capacità. Essi non ci chiedono commiserazione o compassione; essi aspettano la nostra partecipazione, la nostra accettazione, la nostra amicizia per non essere più "esclusi".
 
 *Dott. Tizzoni*
+
 
 ---
 

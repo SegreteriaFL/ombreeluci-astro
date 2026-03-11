@@ -1,4 +1,5 @@
 ---
+
 title: "Le comunità di Fede e Luce nell'est europeo"
 date: 2003-03-13
 author: Redazione
@@ -17,7 +18,10 @@ tags:
 umap_x: 7.366482734680176
 umap_y: 9.118490219116211
 umap_z: 13.302549362182617
+
+subtitle: "Olga Gurevitch ci racconta com'è Fede e Luce nei paesi dell'ex Unione Sovietica: tante piccole fiaccole di unità e di amore"
 ---
+
 Quando sono capitata a [Fede e Luce](http://www.fedeeluce.it/) avevo 17 anni e non avevo mai incontrato in vita mia persone con handicap. Non ci avevo nemmeno mai pensato. Nel nostro Paese durante il regime comunista le sofferenze venivano nascoste come se non esistessero: cimiteri nascosti, orfanatrofi ed asili circondati da muri: muri di pietra e di silenzio.
 
 Uno dei miei primi giorni all’Università, pieni di nuove amicizie e di lezioni da scoprire, un amico mi ha detto: “Prendi il tuo zaino: Andiamo, ti presento a persone molto importanti, devi comportarti bene e piacere a tutti” Credevo che si trattasse di professori o almeno di amici più grandi... **Mi ha portato invece in una casa dove, sulla porta, ci è venuta incontro una enorme ragazza autistica che, additandomi con gli indici delle due mani mi ha chiesto: “Chi sei? Dove abiti?”** .

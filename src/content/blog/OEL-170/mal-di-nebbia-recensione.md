@@ -1,4 +1,5 @@
 ---
+
 title: Mal di nebbia | Recensione
 date: 2025-07-28
 author: Giulia Galeotti
@@ -17,6 +18,7 @@ issue_number: OEL-170
 id_numero: "OEL-170"
 numero_rivista: "Ombre e Luci"
 ---
+
 D
 urante la Grande guerra, dodici soldati preferirono gettarsi nel fiume piuttosto che tornare al fronte. Da allora il loro fantasma incombe come una maledizione sul paesino nativo, seminando morte e terrore. Sveglia e caparbia,
 **la dodicenne Albertina**

@@ -1,4 +1,5 @@
 ---
+
 title: Ricette e soluzioni vincenti
 date: 2023-10-12
 author: Gianluca Giardini
@@ -14,7 +15,10 @@ umap_z: 7.338876724243164
 issue_number: OEL-163
 id_numero: "OEL-163"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La cura in Casa Famiglia"
 ---
+
 Come tutti, il soggetto con disabilità intellettiva relazionale (Dir) nel corso della vita va incontro a problematiche relative alla sua salute fisica, quali carie dentarie, problemi oculistici (miopia, cataratta, ecc.), fratture o lesioni muscolo-tendinee, ernie inguinali, ecc. Gli ospedali tradizionali sono attrezzati poco e male per accogliere queste persone, soprattutto se caratterizzate da disturbi del comportamento. I problemi sono sia di tipo strutturale che di personale, generalmente poco o nulla abituato a relazionarsi con tali pazienti.
 
 Nel nostro piccolo proviamo a curare queste persone mediante servizi dedicati; certamente un fiore all’occhiello di Sacra Famiglia [fondazione no profit sociosanitaria che a Milano accoglie e assiste bambini, adulti e anziani fragili e con disabilità, n.d.r.] è l’ambulatorio odontoiatrico, ove nessuno è escluso e gli odontoiatri si prendono il tempo necessario per ogni persona, a volte con sedute di pochi minuti ripetute nel tempo. In casi estremi, grazie alla presenza di un’unità di chirurgia presso la nostra Casa di cura, un vero e proprio ospedale interno a Sacra Famiglia, si ricorre alla narcosi e si attuano le cure odontoiatriche in sala operatoria.

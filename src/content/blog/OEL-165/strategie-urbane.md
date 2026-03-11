@@ -1,4 +1,5 @@
 ---
+
 title: Strategie urbane
 date: 2024-05-30
 author: Giulia Galeotti
@@ -14,7 +15,10 @@ umap_z: 7.921282768249512
 issue_number: OEL-165
 id_numero: "OEL-165"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Per esercitare un semplice aspetto della vita"
 ---
+
 «Qui devo segnalare un elemento di strategia urbana». Possono assumere tanti volti queste strategie quando si tratta di esercitare il diritto alla socialità, all’uscire la sera, allo stare in compagnia oltre le mura domestiche. **Ma nel quotidiano, andare a mangiare fuori per una persona con disabilità cos’è?** Un diritto sacrosanto, un miraggio vicino ma inesistente, una fatica immane, una scelta complessa radicata nell’idea di cittadinanza e di comunità? O è tutto questo allo stesso tempo? Le risposte possono essere e sono diverse, come attestano i contributi di questo focus.
 
 In un suo recente scritto, Alberto Vanolo – docente di geografia politica ed economica all’università di Torino e padre di Teo – racconta, ad esempio, la sua «strategia urbana». Lo fa ne *La città autistica* (Einaudi 2024), manifesto in quattro punti nel quale lancia l’idea di un altro tipo di polis rispetto a quelle che conosciamo: **una città aperta alla differenza, laboratorio giocoso in cui ripensare l’incontro con le neurodiversità.**

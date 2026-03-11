@@ -1,4 +1,5 @@
 ---
+
 title: "Ognuno ha il suo posto nella comunità"
 date: "1981-12-20"
 author: "Michel Charpentier"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 Così tu, signora anziana, nella comunità sei la prova concreta che Dio ha molta esperienza e molta pazienza:
 
 >

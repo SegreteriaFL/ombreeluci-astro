@@ -1,4 +1,5 @@
 ---
+
 title: Piero e il Bruco farfalla - Recensione
 date: 2016-06-16
 author: Rita Massi
@@ -14,7 +15,10 @@ umap_z: 4.871553421020508
 issue_number: OEL-134
 id_numero: "OEL-134"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Noi (testi) - Simona Bini (disegni), Ed. Il Bruco Farfalla, 123 pagine"
 ---
+
 Piero e il bruco farfalla è un libro per bambini, ma non solo, anche gli adulti dovrebbero leggerlo. Si tratta di un libro speciale; narra una breve storia, illustrata attraverso disegni bellissimi e scritta a più mani. Piero, può volare solo nei sogni, perché è chiuso nel suo bozzolo come un bruco, finché un giorno, finalmente, ne esce e sebbene ancora un po’ bruco, volerà nell’aria come le farfalle. Una storia semplice, scritta da ragazzi e adulti che fanno parte della “ [Lampada dei desideri](https://www.ombreeluci.it/2015/la-lampada-dei-desideri/) ” (cfr. O.eL. N.2/2015) e ed è un po’ anche la loro storia.
 
 Questa è la prima pubblicazione della loro neonata casa editrice, fondata grazie all’interesse e al sostegno suscitato dall’Associazione di Promozione Sociale 11Radio verso la Lampada.

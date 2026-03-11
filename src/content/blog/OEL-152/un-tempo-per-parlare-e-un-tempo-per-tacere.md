@@ -1,4 +1,5 @@
 ---
+
 title: Un tempo per parlare e un tempo per tacere
 date: 2020-07-22
 author: Serena Sillitto
@@ -17,6 +18,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 *«Mi vieni a trovare, Serena? Perché non vieni a trovarmi?»*
 
 *«Franci, te l’ha spiegato Andrea che c'è il virus e che non possiamo vederci?»*

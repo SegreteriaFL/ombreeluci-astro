@@ -1,4 +1,5 @@
 ---
+
 title: "Il matrimonio tra sogno e realtà"
 date: "2003-06-23"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T03"
 tema_label: "Amicizia e relazioni autentiche"
 categoria_menu: "Relazioni"
+
+subtitle: "In un laboratorio protetto, Alain è testimone delVamore crescente tra Pascal e Nathalie. Qui racconta le loro speranze per l'avvenire"
 ---
+
 Passeggiano nel cortile del Centro, mano nella mano. Sembrano molto felici, come se non temessero niente al mondo. Pascal e Nathalie si conoscono da tanto tempo: si amano e sperano, un giorno, di vivere in coppia, di potersi sposare, forse. Ma nello stesso tempo questo pensiero fa loro un po’ paura. Nathalie mi confida: "Quando vedo Francoise (un’amica del Centro) lei sta male con i suoi due bambini, piange spesso, è sgridata...
 Io non credo che saprei occuparmi di un bambino.** Non avrei il coraggio di tenerlo per tanto tempo tra le braccia. Se poi cade... Ci sarebbero altre persone ad occuparsene. E questo non va bene... Pascal, lui sì potrebbe occuparsene perché sa fare un mucchio di cose. Sì, ma quando lavorerà sarà troppo stanco".
 

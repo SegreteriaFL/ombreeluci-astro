@@ -1,4 +1,5 @@
 ---
+
 title: Tra lame che affondano e ferite medicate
 date: 2021-04-23
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-153
 id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ora che la separazione della morte mette la distanza necessaria per poterlo fare, Federica Sgaggio parla con sua madre e ce la racconta. Donna dall’«intuito spietato, violento e primitivo», la figura di Rosa Sammarco emerge potentemente dalle schegge di un passato carico di tutto quel che la vita può comportare e dei segni che lascia come eredità nel presente.
 
 Donna intensa Rosa, immigrata dall’Avellinese in Veneto, e per questo mai completamente integrata in una Verona degli anni Cinquanta. **Ha seguito il marito con il quale ha avuto un rapporto difficile e dal quale, per un tratto di vita, è arrivata a separarsi per poi decidersi a riaccoglierlo quando questi rimane solo e malato.** Una madre della quale essere orgogliosa – scrive la Sgaggio - anche nei momenti di umiliazione, che amava lei e suo fratello «di un amore così intensamente materno e passionale da diventare virile». Un legame tanto forte però da sembrare a tratti difficile da sopportare… e da spingerla ad avere momenti di chiusura nei suoi confronti. Di Francesco, il secondogenito, confiderà un giorno Rosa alla figlia, che «mi ha insegnato tutto quello che so. Avrei preferito non imparare ma non vorrei essere la donna che senza di lui sarei stata».

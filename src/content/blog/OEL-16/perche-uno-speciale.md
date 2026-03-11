@@ -1,4 +1,5 @@
 ---
+
 title: "Perché uno \"speciale\""
 date: "1986-06-30"
 author: "Mariangela Bertolini"
@@ -15,6 +16,7 @@ issue_number: OEL-16
 id_numero: "OEL-16"
 numero_rivista: "Ombre e Luci"
 ---
+
 Fra gli abbonati di *Ombre e Luci*, alcuni fanno parte del movimento *Fede e Luce*, altri no. A questi ultimi vorremmo spiegare il motivo che ci ha spinti a dedicare questo numero speciale al Pellegrinaggio ad Assisi che le comunità di* Fede e Luce* d'Italia hanno fatto il 24-27 aprile.
 
 Siamo convinti che questo avvenimento, così entusiasmante per chi lo ha vissuto, ha qualcosa da dire anche a chi non ha potuto parteciparvi perché:

@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.143
 date: 2018-07-20
 author: Redazione
@@ -15,10 +16,12 @@ issue_number: OEL-143
 id_numero: "OEL-143"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Scegliamo con cura le parole
 
 Ho letto con interesse l’articolo di Rita Massi (“Come dirlo” n. 141, p. 8) e non si può che essere d’accordo sul fatto che qualunque termine può essere offensivo o meno, dipende dal contesto e dall’intenzionalità di chi lo pronuncia. Però vorrei esprimere una piccola riserva. Durante il mio primo anno d’insegnamento da incaricata annuale, nel liceo scientifico di Caluso (TO), il preside, prof Del Giudice, forse preoccupato dalla giovane età del gruppetto delle nuove insegnanti, organizzò un corso di aggiornamento didattico - disciplinare; lui stesso tenne la prima lezione. S’iniziò dall’appello. Nel caso avessimo avuto dubbi sulla pronuncia di un cognome (allora si trattava solo di accenti, non c’erano non italiani in classe), dovevamo chiedere all’interessato la dizione giusta e scusarci quando la sbagliavamo. Mai accusare di essere “maleducato” o peggio “stupido” ma sempre “ti stai comportando come un maleducato” o “come uno sciocco” ecc. Evitare anche “timido”. Parlando con i genitori, al classico “suo figlio è molto timido”, era preferibile “è un ragazzo riservato, lasciamolo crescere...”. Il nostro essere un riferimento doveva cominciare proprio dal nostro linguaggio. Anni dopo, leggendo e ascoltando Jean Vanier, ho ritrovato lo stesso invito a non abbassare la guardia nemmeno nell’uso delle parole. “Si dice persona con disabilità non persona disabile, perché la disabilità della persona non la esaurisce”. Sappiamo che la comunicazione non è solo verbale, ci sono gli sguardi, l’intonazione, il contesto, i silenzi, la consuetudine, i gesti e ancora, per non parlare di situazioni oggettivamente gravi, complesse. Ma se l’attenzione a quello che si dice, ai termini che si scelgono, fosse un esercizio continuo arriveremmo, forse, alla delicatezza d’animo, alla leggerezza “profonda” che sa esprimere senza ferire. Come gli uccellini che si poggiano sul rametto senza inclinarlo.
 **Nicla Bettazzi**
+
 
 ---
 
@@ -27,12 +30,14 @@ Ho letto con interesse l’articolo di Rita Massi (“Come dirlo” n. 141, p. 8
 Io la sera prima, sono tutto elettrizzato, perché ho saputo che vado a Tirana, insieme a Fabio che mi è venuto a prendere fino a casa mia, nel quartiere Annibaliano. Gli ho detto dove farmi trovare, gli ho detto vicino al giornalaio in piazza. Io non ho ritardato, mia madre ed io ci svegliamo alle ore 5:00, ho fatto colazione e mi sono diretto per la rampa fino ad uno spiazzo per strada. Io lo vedo arrivare perché lo riconosco, mi ha parlato e mi ha seguito tutti e due i giorni. Io sono un ragazzo che parla poco e sa parlare a tono e ascoltare; io ho percorso la strada, e in macchina raggiungiamo un parcheggio e dopo l’aereo, facciamo i controlli dei bagagli e della carta d’identità, senza non potevo partire. Ma è per me una cosa importante, conoscere persone nuove, è un gemellaggio importante per noi due, lui li conosceva già, ed è abituato a viaggiare. Io salgo sull’aereo Alitalia e preferisco stare vicino al finestrino, altrimenti non saprei cosa guardare. Il viaggio è breve e quando arriviamo siamo stati invitati da Albina che ha due figlie in una casa. Una ha cucinato la pasta colorata e mette il condimento e dopo pranzo lava i piatti; Fabio è sempre aggiornato su tutto, mi parla e mi dice questa è la via dove c’è vita, non c’è terrorismo e camminano beati fino a sera tardi, non come da noi che siamo tormentati dalla politica che ci leva i soldi dalla tasca. La vera occasione che abbiamo da fare e l’incontro della comunità, io ho visto persone nuove del posto, e li ho visti felici per mangiare la pastarella e scegliere il nome per la comunità Casa della Pace; li ho visti a messa, mi piace sentir cantare in straniero. Io e Fabio il giorno dopo passeggiamo con Aldo e visitiamo la mostra dei geroglifici intarsiati, e andiamo per la piazza dove c’è l’eroe nazionale Scanderberg, io non ricordo le altre vie. Poi andiamo in un posto dove c’è un lago e il paesaggio vicino la montagna. Torno a Roma per le 19:00, prendiamo l’aereo e facciamo il ritorno per le nostre strade.
 **Giovanni Grossi**
 
+
 ---
 
 ### Lezioni di vita
 
 Vorrei raccontare le mie sensazioni per la bella giornata del giugno scorso. Ultimamente non sto passando un bel periodo dal punto di vista emotivo. So bene che le tragedie sono altre, però quando si investe sinceramente e col cuore tantissimo in sette anni verso un progetto in cui credi e accanto ad amici che poi non so se definirli ancora tali, e lo vedi sfumare la delusione e lo scoramento sono tanti. Con questo animo, purtroppo, sono andato a vedere, con la mia bella famiglia, uno spettacolo di teatro sociale in cui recitava Emanuele, un ragazzo di 15 anni con sindrome di Down che gioca a calcio con Maurizio e Antonio. Una storia meravigliosa in cui lui è uno dei protagonisti insieme all’attrice che recitava la parte della sorella malata di SLA che voleva trovare un lavoro per lui e sistemarlo prima di morire, e ci riesce grazie ad un attore, fino a quel momento preoccupato solo della sua carriera, che li ospita a casa sua e dedica la sua vita a loro. Non mi vergogno a confessarvi che ho pianto, per la storia, per l’identificazione con la grande preoccupazione per il dopo di noi, e nel vedere il dolcissimo Emanuele recitare benissimo come un attore consumato. Poi siamo arrivati a casa Bertolini. Stavo un po’ sulle mie, ancora preso nelle mie elucubrazioni sulle mie recenti vicende emotive. Si avvicina Marco, con la sua disarmante serenità e il suo dolcissimo sorriso e mi fa: “Che hai, sei triste?”. Io rispondo di sì, che ho avuto un po’ di dispiaceri. E lui: “Ma in famiglia? Strano perché Mara è carinissima! “. Io gli rispondo: “No, con gli amici”. Lui piazza il suo miglior sorriso e mi dice: “E allora? Guardati intorno, guarda quanti amici hai!”. Mi sono girato e li ho visto tutti, belli, sereni, ognuno preoccupato di far star bene chi gli stava vicino, come Marco ha fatto con me. Mi sono girato e l’ho abbracciato, quasi stritolandolo. Marco, come tutte le persone speciali che, grazie al mio Maurizio, ho conosciuto in tanti anni, con lo sport, il teatro integrato, la musicoterapia, Fede e Luce, mi ha dato l’ennesima lezione di vita. Grazie a Marco e a tutti voi, splendidi esempi che nella vita dovrebbe contare veramente solo il cuore. Infine un grazie speciale a Cristina e Nanni che evidentemente non amano stare soli: già sono tanti di loro e ogni anno riempiono il loro bel giardino di questa truppa di soldati dell’amore.
 **Paolo Catapano**
+
 
 ---
 

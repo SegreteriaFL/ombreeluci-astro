@@ -1,4 +1,5 @@
 ---
+
 title: "L'eco della stampa"
 date: 1975-12-03
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 13.020196914672852
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una selezione degli articoli, usciti sui quitidiani e le riviste, dedicati al Pellegrinaggio a Roma del 1975"
 ---
+
 ### Eccezionale udienza in S. Pietro
 
 ***da "L'Avvenire" del 27 ottobre 1975***

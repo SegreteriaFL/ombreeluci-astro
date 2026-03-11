@@ -1,4 +1,5 @@
 ---
+
 title: Verso Pompei per i 50 anni di Fede e Luce in Italia
 date: 2025-07-29
 author: Angela Grassi
@@ -20,7 +21,10 @@ umap_z: 12.936518669128418
 issue_number: OEL-170
 id_numero: "OEL-170"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il giubileo verrà celebrato da tutte le comunità italiane nel canto del Magnificat, perché Grandi cose ha fatto il Signore per noi!. L'equipe tematica ne racconta la preparazione."
 ---
+
 Cinquant’anni di storia, una lunga avventura che prosegue in Italia dal 1975. Una bella avventura, che viene portata avanti con tutte le fatiche di questi nostri tempi complicati, ma che rimane viva grazie ai legami tessuti in questo cammino, che tocca tante regioni, tante comunità.
 
 **Il cammino di *Fede e Luce* è iniziato con il grande pellegrinaggio del 1971 a Lourdes.** Poco dopo, grazie a Mariangela Bertolini e ad altri pionieri, il movimento ha mosso i suoi primi passi anche nel nostro Paese. Nell’Anno santo del 1975 si ricorda l’avvio italiano con un altro pellegrinaggio, indimenticabile per chi c’era, in cui Paolo VI gettò i fogli del suo discorso e disse ai partecipanti: **«Non ho altro da dire a ciascuno di voi, se non che Dio ti ama così come sei».**

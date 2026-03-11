@@ -1,4 +1,5 @@
 ---
+
 title: Testimonianze dal pellegrinaggio di Lourdes 1971
 date: 1975-07-03
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 13.248175621032715
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Riportiamo le tante testimonianze raccolte dopo il Pellegrinaggio di Lourdes del 1971: genitori, amici, medici, ragazzi... e qualche estratto dalla stampa"
 ---
+
 **Una mamma** "Che abbiamo visto a Lourdes? Un Pellegrinaggio, sì, e molto di più. Una grande comunità cristiana formatasi in poche ore tra migliaia di persone che hanno potuto conoscersi tanto da potersi amare profondamente, perchè ignoravano le rivalità, le concorrenze, lo spirito di accaparramento e di sfruttamento."
 
 **Un sacerdote** "Partiremo da Lourdes come vi siamo giunti, con una croce sulle spalle; non andiamo là perchè essa ci sia tolta, ma per imparare insieme a portarla meglio."

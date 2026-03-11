@@ -1,4 +1,5 @@
 ---
+
 title: Tenerci per mano, insieme
 date: 2023-11-10
 author: Antonietta Pantone
@@ -14,7 +15,10 @@ umap_z: 10.537293434143066
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il racconto della bellissima giornata del Sinodo a Roma"
 ---
+
 Oggi sono qui per raccontarvi cosa è accaduto dentro di me dopo il 30 settembre. Chi stava con me e l'ha vissuto con me lo può immaginare, anche se è stato soltanto per una giornata. Un po' di tempo fa vi avevo parlato della marcia di Assisi e il 30 settembre per me è stato come viverla per la seconda volta. La prima tappa era la Chiesa dei santi apostoli, poi chi se la sentiva andava a San Giovanni e infine la terza tappa era San Pietro. **Quindi era come se dentro di me fosse riemerso un filo che si ricollegava alla piccola marcia.**
 
 Ero elettrizzata all'idea di vedere Papa Francesco. Per me lui è un po' come Papa Giovanni Paolo II, è stato ed è il papà del popolo. È colui che continua il messaggio di Giovanni Paolo II e questa cosa mi avvicina molto a lui. **Non vi nego che spero un domani di abbracciarlo e salutarlo come si deve** , perché sì, è vero che stavo ai primi posti ma non ho avuto l'occasione. Spero che un giorno ci sarà e che sia con il gruppo di Fede e Luce o con altro gruppo.

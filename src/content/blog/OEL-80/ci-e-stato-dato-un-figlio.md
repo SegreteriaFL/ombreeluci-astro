@@ -1,4 +1,5 @@
 ---
+
 title: "«Ci è stato dato un figlio»"
 date: "2002-12-08"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Anche per noi ci sono i segni. Anche per noi c’è una stella, che ci può portare dove facciamo fatica ad andare."
 ---
+
 Lo scorso anno il mondo intero e noi tutti abbiamo vissuto un [Natale difficile](https://www.ombreeluci.it/project/numero-76-un-natale-difficile/) e ci siamo augurati un prossimo Natale di pace.
 Le ultime vicende internazionali e le tragedie vissute da numerose famiglie, ci impediscono anche quest’anno di pensare ad un Natale di gioia. Il nostro cuore è così addolorato per i tanti bambini colpiti a morte nella loro tenera infanzia e per i loro genitori, che **ci sembra impossibile «sopportare Io splendore di un albero di Natale: e persino il regalo più minuscolo sarebbe un peso troppo grave per le nostre mani» — [come scriveva il grande poeta austriaco Rilke alla sua mamma](https://www.ombreeluci.it/2002/lettere-di-natale-alla-madre-recensione-libro/) per il Natale di guerra del 1916.
 Forse tutto questo dolore è un invito a farci uscire al di là di noi stessi** per celebrare quel Bambino invisibile che ritorna per rimetterci alla prova, per chiederci — come ai pastori ed ai Magi — di andare a trovarlo oggi, qui, in mezzo a noi.

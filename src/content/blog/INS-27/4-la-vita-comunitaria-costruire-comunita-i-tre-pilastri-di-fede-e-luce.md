@@ -1,4 +1,5 @@
 ---
+
 title: "4. La vita comunitaria - Costruire \"comunità\": i tre pilastri di fede e luce"
 date: "1980-03-16"
 author: "Luis Sankalé"
@@ -14,6 +15,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 *Questo articolo fa parte dello **[Speciale Fede e Luce anatomia di una comunità di incontro](https://www.ombreeluci.it/1980/fede-e-luce-anatomia-di-una-comunita-di-incontro/).*
 Abbiamo appena visto, [nell'articolo precedente](https://www.ombreeluci.it/1980/3-i-protagonisti-i-volti-di-fede-e-luce-persona-con-disabilita-genitori-amici-e-sacerdoti/), che la comunità Fede e Luce è una comunità ben specifica, caratterizzata da un certo numero di aspetti particolari. Bisogna ora sottolineare che è una comunità tra le altre, e che in essa si ritrovano tratti comuni ad ogni comunità.
 Di incontro in incontro, si creano legami che trasformano la vita quotidiana** e permettono alla comunità di meritare questo nome.

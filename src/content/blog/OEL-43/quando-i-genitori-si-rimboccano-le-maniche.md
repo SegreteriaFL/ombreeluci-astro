@@ -1,4 +1,5 @@
 ---
+
 title: Quando i genitori si rimboccano le maniche
 date: 1993-09-09
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-43
 id_numero: "OEL-43"
 numero_rivista: "Ombre e Luci"
 ---
+
 L
 a nostra
 **Cooperativa La Solidarietà**

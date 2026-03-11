@@ -1,4 +1,5 @@
 ---
+
 title: Giovanni Paolo Il e le persone disabili
 date: 2005-06-17
 author: Redazione
@@ -16,7 +17,10 @@ tags:
 umap_x: 9.07201099395752
 umap_y: 10.455501556396484
 umap_z: 8.850239753723145
+
+subtitle: "Per ricordare l’impegno e l'affetto che Giovanni Paolo II ha dimostrato nei confronti dell'handicap, pubblichiamo alcuni pensieri tratti dal Suo messaggio a chiusura dell’Anno europeo delle persone disabili"
 ---
+
 **La qualità di vita**
 all’interno di una comunità si misura in buona parte dall'impegno nell’assistenza ai più deboli e ai più bisognosi e nel rispetto della loro dignità di uomini e di donne (...) Soltanto se vengono riconosciuti i diritti dei più deboli una società può dire di essere fondata sul diritto e sulla giustizia (...)
 **Al riconoscimento dei diritti deve pertanto seguire un impegno sincero**

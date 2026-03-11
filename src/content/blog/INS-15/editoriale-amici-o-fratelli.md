@@ -1,4 +1,5 @@
 ---
+
 title: "Editoriale: Amici o fratelli?"
 date: 1977-12-08
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 12.563752174377441
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "È facile dire: sono amico di ragazzi handicappati, più difficile esserlo veramente"
 ---
+
 Èfacile una festa Fede e Luce, più difficile formare una comunità Fede e Luce. **È facile** vivere insieme una giornata di amicizia, un campeggio di una o più settimane; è più difficile mantenere in vita nei giorni che seguono, quel clima di fraternità che al campeggio è naturale e spontaneo. **È facile dire** : "sono amico" di ragazzi handicappati, più difficile "esserlo" veramente.
 
 **Eppure, in fondo, di loro non sappiamo più farne a meno** . Ci hanno indicato una strada, ci hanno fatto scoprire quanto noi - i "normali" - siamo handicappati da tutta una serie di mali, meno visibili dei loro, ma quanto più pesanti nella vita con gli altri: la meschineria di certi nostri comportamenti, la gelosia, l'aggressività, l'odio a volte, l'attaccamento al denaro, la mediocrità, la passività ...

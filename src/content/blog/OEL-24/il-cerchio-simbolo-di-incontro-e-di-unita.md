@@ -1,4 +1,5 @@
 ---
+
 title: "Il cerchio: simbolo di incontro e di unità"
 date: "1988-06-28"
 author: "Nicole Schulthes"
@@ -14,6 +15,7 @@ issue_number: OEL-24
 id_numero: "OEL-24"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quando passiamo una giornata, una serata, qualche ora insieme non siamo sempre in cerchio. Tuttavia, formare un cerchio non è solo una tecnica di gruppo per cantare, giocare ecc. Il cerchio è anche il simbolo dell’incontro, della ricerca dell’unità.
 
 Chi viene ad unirsi al cerchio desidera partecipare. Non viene come spettatore ma per unirsi al gruppo. In un cerchio poi, non ci sono i primi e gli ultimi, i posti buoni e quelli di seconda categoria. In un cerchio, per quanto diversificati siano i partecipanti, si è sempre tutti uguali, tutti alla stessa distanza dal centro.

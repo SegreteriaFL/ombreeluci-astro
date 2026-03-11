@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto numero 71
 date: 2000-09-28
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 10.752208709716797
 issue_number: OEL-71
 id_numero: "OEL-71"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Splendida per tutti
 
 «Il giardino da custodire» — secondo una definizione tratta dalle Scritture — è il luogo che è stato consegnato da Dio a ciascuno di noi, affidato al nostro uso e al nostro rispetto. E la Terra, insomma: giardino prezioso e troppo spesso trascurato da coloro che lo abitano. «Il giardino da custodire» è anche il nome di un progetto guidato da Umberto Scotti, direttore del centro ippico «Il Branco», a Fregene (Roma), che si propone di edificare un luogo aperto a chiunque vorrà educare se stesso al rispetto dell’ambiente e alla solidarietà sociale. Il 30 aprile scorso, presso il Branco, si è così tenuta una grande festa: passeggiate a cavallo e in carrozza (tirata da Nestore il protagonista del recente film di Alberto Sordi), spettacoli di canti, danze e musica, esibizione dei cani poliziotto e antidroga delle Forze dell'Ordine, elezione del cane più simpatico, piccolo zoo (fattoria con caprette, pecore, agnelli, mucche maiali, conigli e, ovviamente, cavalli). Questi si sono esibiti in impegnativi esercizi sotto la guida di abili cavalieri e domatori. Tra i numerosi stand c’era uno spazio riservato all’Agility Dog. un'associazione che intende aiutare i disabili a sviluppare la propria personalità e le proprie capacità attraverso giochi ed esperienze affettive con i migliori amici dell’uomo. La giornata si è conclusa con la Messa. Grazie agli organizzatori e ai partecipanti per aver fatto trascorrere una splendida e piacevolissima giornata a giovani ed anziani, adulti e bambini...di tutte le età.

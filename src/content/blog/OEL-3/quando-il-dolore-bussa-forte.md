@@ -1,4 +1,5 @@
 ---
+
 title: Quando il dolore bussa forte
 date: 1983-09-01
 author: Redazione
@@ -20,6 +21,7 @@ umap_y: 11.384154319763184
 umap_z: 5.724443435668945
 id_numero: "OEL-3"
 ---
+
 Tredici racconti, "veri" come dice il sottotitolo di copertina, di momenti di dolore, di smarrimento, di tristezza della vita delle persone più diverse: un medico, una suora, un'indossatrice, una ragazza delle pulizie. Appaiono veri nel senso che mostrano una realtà senza sdolcinatezze, anzi, spesso cruda. Quando compare lo spirito religioso, quando è descritta una presenza superiore, dopo un tramonto, una ricerca; e non assumono il carattere artificioso del "lieto fine", ma quello dell'inizio di una via dove non mancheranno altri dolori e tristezze, ma dove, probabilmente, non ci sarà più la disperazione, il vuoto totale. La religiosità asciutta, poco convenzionale, non consolatoria, è la chiave comune di queste storie di esseri umani che l'autrice descrive con particolare attenzione a quel che accade "dentro" le persone. I racconti di Dori Zamboni si leggono facilmente; commuovono, alcuni danno da pensare. Per un piccolo libro è abbastanza.
 *S.S.*
 Lo trovi su

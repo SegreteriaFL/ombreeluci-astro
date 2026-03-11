@@ -1,4 +1,5 @@
 ---
+
 title: Verso una pace duratura
 date: 2025-02-10
 author: Stefano Guarino
@@ -17,7 +18,10 @@ umap_z: 12.158550262451172
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Quando un disegno diventa un cammino"
 ---
+
 Credo profondamente che le luci e le ombre, ovvero quelle difficoltà che sono insite nelle fragilità fisiche, psichiche e interiori, appartengono a tutti noi: bambini, ragazzi, amici, genitori, adulti… chiunque, nessuno escluso!
 
 Quando ero tredicenne, nella mia parrocchia di San Gioacchino ai Prati di Castello a Roma, iniziai a frequentare *Fede e Luce* . **Da subito sperimentai che la conoscenza, la comunicazione e la condivisione delle esperienze e dei vissuti tra ogni persona era possibile e che era una fonte di ricchezza per l’animo umano.** Ma è anche attraverso il bollettino ciclostilato in proprio, chiamato *Insieme* , creato da subito all’interno dell’associazione (1973) che si è [iniziato](https://www.ombreeluci.it/2023/gli-esordi-insieme-1974-1981/) a far conoscere e a diffondere questo stile di vita, rompendo piano piano quelle barriere ritenute allora insormontabili per raggiungere ogni persona e comunicare che l’incontro è possibile sempre, ovunque.

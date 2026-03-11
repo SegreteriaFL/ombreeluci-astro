@@ -1,4 +1,5 @@
 ---
+
 title: La quaresima con Don Marco (2020) - Podcast
 date: 2020-04-26
 author: Redazione
@@ -16,4 +17,8 @@ umap_z: 9.9785795211792
 issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Don Marco, assistente spirituale internazionale di Fede e Luce, ci accompagnerà durante la Quaresima per creare un momento di condivisione e di comunione che possa rompere le barriere del coronavirus. E sentirci così #ViciniADistanza."
 ---
+
+

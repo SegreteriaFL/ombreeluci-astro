@@ -1,4 +1,5 @@
 ---
+
 title: La storia di Souhour, rifugiata e disabile, accolta da una famiglia libanese
 date: 2018-06-27
 author: Redazione
@@ -20,6 +21,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Vivere in un campo per i rifugiati, al confine con il Libano, è ancora più difficile se si ha una disabilità. È una storia di rispetto, solidarietà e mutualità, quella tra
 **Souhour**
 , giovane disabile siriana, e la famiglia di

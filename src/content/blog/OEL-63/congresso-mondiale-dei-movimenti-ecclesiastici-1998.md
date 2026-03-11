@@ -1,4 +1,5 @@
 ---
+
 title: Congresso mondiale dei movimenti ecclesiastici 1998
 date: 1998-09-25
 author: Delia Mitolo
@@ -15,6 +16,7 @@ umap_x: 7.797011852264404
 umap_y: 8.707533836364746
 umap_z: 13.994523048400879
 ---
+
 Delia Mitolo ha partecipato a questo convegno come rappresentante di
 [Fede e Luce](https://www.fedeeluce.it/)
 . I movimenti rappresentati erano 56, con carismi, esperienze, finalità diverse, ma tutti con un comune punto di incontro: ricercare e testimoniare la presenza di Cristo nel mondo. Delia è stata colpita dall’accoglienza sincera e coinvolgente della Chiesa ufficiale; dalla fratellanza e reale volontà di comunicare fra laici e consacrati; dallo sforzo dei rappresentanti di capirsi l’uno con l’altro e di approfondire la conoscenza reciproca. Dopo questa esperienza Delia ci ha inviato alcune sue riflessioni utili per

@@ -1,4 +1,5 @@
 ---
+
 title: "Terapie comportamentali: TEACCH vs ABA"
 date: 2006-09-27
 author: Maurizio Pilone
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.80526876449585
 umap_y: 8.43619441986084
 umap_z: 6.316947937011719
+
+subtitle: "Ai genitori dico: cercateli i terapisti comportamentali, in Italia ci sono, li potrete trovare presso ogni sede dell’AIAMC."
 ---
+
 **L’ABA (applied behavior analysis) cioè analisi applicata del comportamento** , nasce dagli studi sulle teorie dell’apprendimento all’interno del movimento di psicologia comportamentale prevalentemente nei paesi di lingua anglosassone
 
 Le terapie comportamentali solo successivamente (anni 60-80) si occupano di autismo e Loovas tra tutti è sicuramente il più conosciuto degli studiosi e terapeuti.

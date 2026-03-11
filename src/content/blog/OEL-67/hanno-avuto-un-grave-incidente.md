@@ -1,4 +1,5 @@
 ---
+
 title: Hanno avuto un grave incidente
 date: 1999-09-13
 author: Redazione
@@ -17,6 +18,7 @@ umap_x: 5.382861137390137
 umap_y: 10.212385177612305
 umap_z: 9.079876899719238
 ---
+
 Due anni fa su una strada di campagna, mia sorella e mio cognato hanno avuto un grave incidente. Un camion che veniva dalla parte opposta ha slittato sulla crosta di ghiaccio e li ha gettati sul fosso laterale. Lo choc è stato di grande violenza. Paul ha subito la frattura di una caviglia e molteplici contusioni mentre Maria è entrata in coma. Mia sorella è stata trasferita, in una unità di cura intensiva a duecento chilometri dal posto dell'incidente, con un trauma cranico frontale e una emorragia alla parte sinistra del cervello. Per molti giorni siamo stati terribilmente preoccupati: la sua vita è stata veramente in pericolo.
 
 ### Provvedimenti più urgenti

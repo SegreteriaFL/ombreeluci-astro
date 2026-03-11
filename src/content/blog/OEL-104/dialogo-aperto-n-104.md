@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 104
 date: 2008-12-07
 author: Redazione
@@ -14,12 +15,17 @@ umap_z: 10.155537605285645
 issue_number: OEL-104
 id_numero: "OEL-104"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la rivista... i problemi e le domande"
 ---
+
 ### Andare a messa con mia figlia
 
 Le chiese della mia città sono accessibili alle carrozzelle, i sacerdoti sono sempre accoglienti eppure, tre volte su quattro, vado a messa senza Maria (mia figlia di 17 anni, plurihandicappata) mentre gli altri figli mi accompagnano). Questo semplicemente perché vivere con calma quell’ora è difficile: essere completamente presente a Maria perché stia calma; essere pronta in ogni momento a uscire con lei se si mette a urlare; che pazienza e dominio di sé bisogna avere per gestire tutto questo continuando a pregare! Anche se lo sguardo degli altri — dalla pietà all’ammirazione — è a volte pesante, quello che mi pesa è il mio stress. Eppure penso che sia importante per Maria essere presente, penso che abbia diritto a conoscere l’amore di Dio e questo avviene anche attraverso la sua presenza alla messa. Per fortuna abbiamo gli incontri mensili di Fede e Luce che terminano con una messa in parrocchia. I parrocchiani accettano la presenza della nostra comunità con più o meno entusiasmo, ma noi siamo portati dall’amicizia e dalla preghiera. Una volta all'anno invitiamo tutti i parrocchiani a una messa festiva che animiamo noi di Fede e Luce. Io ne resto sempre colpita profondamente e mi sento realmente accolta dalle persone che ci regalano la loro presenza.
 **d.F.**
 (Ombres et Lumière n. 165)
+
+
 
 ---
 
@@ -27,12 +33,16 @@ Le chiese della mia città sono accessibili alle carrozzelle, i sacerdoti sono s
 
 Vi ringrazio a nome della comunità S. Lorenzo Abano Terme per il bene che ci fate con il nostro giornalino e per tutto il lavoro che ci sta dietro. Volevo complimentarmi per il numero 100 per aver visto tanti ragazzi e genitori nel lungo cammino di vita nella famiglia Fede e Luce. Desidero farvi partecipi della gioia che stiamo vivendo in questi giorni; nostro figlio Sandro e la moglie Francesca ci hanno fatva to diventare nonni di una bellissima bambina di nome Sofia, tanto attesa e desiderata dopo 9 anni di matrimonio. Per noi è la prima nipotina. Gianni è un sogno, orgoglioso di essere diventato zio, si sente importante e quando può se la coccola e prova una grandissima emozione. Ringrazio il Signore per tutto il bene che ci dona. Adriana
 
+
+
 ---
 
 ### Fortemente unita
 
 Sono felice che possiate continuare la pubblicazione della bellissima rivista per le famiglie cristiane dei nostri cari ragazzi più deboli. Il mio Giorgio è in Paradiso da tre anni, ma mi sento fortemente unita a tutti quelli che incontro. L’amore per loro non può mai spegnersi. In Paradiso ci attendono tutti! Non potrò mai dimenticare le meravigliose giornate nei vari pellegrinaggi italiani ed esteri. Siamo sempre uniti nella preghiera a Don Francesco.
 **Franca Cremonesi**
+
+
 
 ---
 

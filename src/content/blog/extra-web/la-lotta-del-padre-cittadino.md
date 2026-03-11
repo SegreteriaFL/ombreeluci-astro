@@ -1,4 +1,5 @@
 ---
+
 title: La lotta del padre-cittadino
 date: 2005-12-05
 author: Redazione

@@ -1,4 +1,5 @@
 ---
+
 title: "Il Parkinson, una scheda per saperne di più"
 date: "2006-03-30"
 author: "Valeria Levi della Vida"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
+
+subtitle: "La dott.ssa Valeria Levi della Vida, vicepresidente dell’Associazione Azione Parkinson, ci spiega cos'è questa malattia chiarendo aspetti poco conosciuti e sgombrando il campo da false credenze"
 ---
+
 La malattia di Parkinson prende il nome dal medico che nel 1817 la identificò e la descrisse come malattia a se stante. È malattia nota ormai al grande pubblico, anche perché il Papa Giovanni Paolo II ne ha sofferto negli ultimi anni della sua vita, ma molti suoi aspetti non sono spesso conosciuti e danno luogo alla nascita di false credenze.
 
 Si dice sia [una malattia delle persone anziane](https://www.ombreeluci.it/2006/patologie-disabilitanti-nellanziano/): essa si manifesta invece con maggiore frequenza tra i 55 e i 70 anni, mentre non è infrequente (circa 20%) al di sotto dei 50 anni, e sporadicamente anche in età più giovane; nelle persone con età superiore ai 75 anni (circa 20%) la malattia si manifesta con un decorso generalmente lento e benigno.

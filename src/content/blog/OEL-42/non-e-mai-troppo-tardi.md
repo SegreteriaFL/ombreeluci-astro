@@ -1,4 +1,5 @@
 ---
+
 title: "Non è mai troppo tardi"
 date: "1993-06-21"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-42
 id_numero: "OEL-42"
 numero_rivista: "Ombre e Luci"
 ---
+
 Da due anni vivo con Federica. E’ una simpatica donnina di 44 anni. Quando l’ho conosciuta, la sua autonomia appariva buona rispetto alla sua età e al suo handicap (Down).
 Oggi mi meraviglio nel constatare come, pur così adulta, sia riuscita a crescere in tante piccole cose.
 Il suo quotidiano era ben strutturato; ogni attività della giornata si ripeteva come in una sequenza, sempre identica, ogni giorno.

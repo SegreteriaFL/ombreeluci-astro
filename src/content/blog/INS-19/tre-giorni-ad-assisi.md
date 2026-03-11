@@ -1,4 +1,5 @@
 ---
+
 title: Tre giorni ad Assisi
 date: 1978-06-17
 author: Luis Sankalé
@@ -18,6 +19,7 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
+
 Questi tre giorni saranno ciò che noi li faremo essere: dipende da ciascuno di noi che siano un momento intenso di preghiera e di scambio vicino a S.Francesco.
 
 Sia che andiamo ad Assisi, sia che rimaniamo a casa, siamo tutti coinvolti dal pellegrinaggio, prima, durante e dopo... A pochi giorni dalla partenza; raccogliamoci nella preghiera e negli ultimi preparativi.

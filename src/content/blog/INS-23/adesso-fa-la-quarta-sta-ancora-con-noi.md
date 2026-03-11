@@ -1,4 +1,5 @@
 ---
+
 title: Adesso fa la quarta... sta ancora con noi
 date: 1979-06-16
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 **Il primo giorno di scuola, appena arrivati in classe, tutti notarono una bambina più alta di noi che parlava male** . Questa bambina si mise a tirare i capelli a tutti, perfino alla maestra che è molto paziente e le spiegò che non bisognava far così e lei cessò.
 
 Ma solo per un periodo di tempo perché poi iniziò di nuovo a tirare i capelli, a prendere le cose degli altri e addirittura scappava dalla classe.

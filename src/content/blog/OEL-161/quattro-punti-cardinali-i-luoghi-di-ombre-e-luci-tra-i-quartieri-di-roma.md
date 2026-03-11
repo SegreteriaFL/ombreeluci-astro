@@ -1,4 +1,5 @@
 ---
+
 title: "Quattro punti cardinali: i luoghi di «Ombre e Luci» tra i quartieri di Roma"
 date: 2023-05-08
 author: Giulia Galeotti
@@ -16,7 +17,10 @@ umap_z: 9.879776000976562
 issue_number: OEL-161
 id_numero: "OEL-161"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Da Portuense a Prati fino a Valle Aurelia ripercorriamo la storia della rivista attraverso le varie sedi che la hanno accolta"
 ---
+
 Il
 tavolo di una sala da pranzo; un seminterrato; la stanza di un ufficio; un ex magazzino. Le cose e i luoghi – annotava Carla Simons, scrittrice e giornalista ebrea uccisa ad Auschwitz – prendono vita se gli diamo vita (
 *La luce danza irrequieta. Diario 1942-1943*

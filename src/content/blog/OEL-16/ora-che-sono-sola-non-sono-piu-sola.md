@@ -1,4 +1,5 @@
 ---
+
 title: "Ora che sono sola... non sono più sola"
 date: "1986-12-28"
 author: "Luisa Spada"
@@ -15,6 +16,7 @@ issue_number: OEL-16
 id_numero: "OEL-16"
 numero_rivista: "Ombre e Luci"
 ---
+
 *...E ancora lento
 trascorre il tempo e pietoso lenisce
 quel gran dolor che mai finisce.

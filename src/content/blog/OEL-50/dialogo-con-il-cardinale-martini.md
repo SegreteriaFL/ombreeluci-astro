@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo con il cardinale Martini
 date: 1995-06-02
 author: Redazione
@@ -17,11 +18,13 @@ issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Michela ha segnato la nostra vita
 
 E
 minenza, l'handicap di Michela ha segnato la nostra vita. Io e Luciana ci siamo sentiti come nella profezia di S. Pietro cinti i fianchi e portati dove mai avremmo pensato di andare quando ci siamo promessi sposi. La fede radicata nella nostra Niente può farci più vicini e uniti che partecipare alla stessa Cena, tutti riuniti intorno alla Tavola del Signore, facendo Comunione con il suo Pane. Le parole importanti e solenni della Messa hanno messo in evidenza che questa unione è per tutti, ci hanno fatto sentire uniti anche alle persone che ci hanno preceduti in cielo. anche ai popoli più lontani della terra. Ora a quelle parole vogliamo far seguire parole più semplici e familiari che sottolineano che questa unione è in primo luogo qui e ora per noi così diversi per situazioni di vita, età, problemi, aspettative. Sono parole semplici e familiari che ci aiutano a conoscerci e quindi a volerci bene, rivolte a tutti ma soprattutto al Cardinale che in modo particolare vorremmo imparasse a conoscerci e a volerci bene. vita di tutti i giorni è continuamente provata dalla fatica , dal non abituarsi di fronte alle crisi epilettiche di Michela, dal constatare come Michela negli anni si è sempre più fisicamente appesantita e così anche noi. Accumuliamo tossine nelle lotte nella società ad affermare i diritti di tutti i ragazzi come Michela che fin dalle scuole materne subiscono emarginazioni e offese. Anche la nostra vita nella comunità parrocchiale ha presentato momenti di grande fatica ed è solo col nascere di Fede e Luce nella nostra parrocchia che è stata data testimonianza della dignità, del diritto alla vita comunitaria nel senso più ampio, dall'integrazione alla catechesi per i nostri ragazzi. Tutto ciò è stato per noi un vero respiro di amicizia e grazia. Col tempo anche questa realtà risente della secolarizzazione della società e di conseguenza risentiamo fortemente della difficoltà ad avere tanti amici. Inoltre noi stessi componenti della nostra comunità di FEDE E Luce, abbiamo in questi ultimi tempi appesantito le nostre relazioni e dobbiamo maggiormente sentire il dovere di tutelare il dono di Fede e Luce. Concludo dicendo che col nostro invecchiamento, con l'acuirsi delle fatiche, queste difficoltà ci rendono più fragili nel l'affrontare la nostra vita di coppia; siamo continuamente provati e temiamo di non farcela. Ci aiuti lei, ci dia qualche spunto perché si possa coniugare la nostra vita col Vangelo e che la speranza non venga mai meno.
 **Giacomo, un papà di milano**
+
 
 ---
 
@@ -30,12 +33,14 @@ minenza, l'handicap di Michela ha segnato la nostra vita. Io e Luciana ci siamo 
 Alcuni anni fa sono stata ad Assisi in pellegrinaggio con la mia Parrocchia. Fu un’esperienza bellissima e piena di emozioni spirituali. Torno volentieri in quest'oasi di pace, questa volta con una testimonianza personale. Nel 1988 ho conosciuto, nell'associazione «Arca» di cui faccio parte, un ragazzo di nome Vito e sono felice di averlo cambiato totalmente. Prima era timido e pauroso, non curava nemmeno la sua persona e mi sembrava la pecorella smarrita. Frequentandolo ho scoperto in lui delle affinità religiose; siamo degli ottimi amici, senza grilli per la testa e insieme ci prodighiamo molto verso i nostri compagni che si trovano in difficoltà durante l'attività di lavoro. Infatti io seguo un gruppetto di amici e lui un altro. La domenica quando andiamo alla messa ci portiamo insieme un amico che è sempre completamente solo. Concludo dicendo che il mondo sarebbe migliore se tutti ci comportassimo come il poverello di Assisi, che si spogliò dei suoi beni per dedicarsi con tanto umiltà ai poveri e agli ammalati.
 **Antonella, una ragazza di bari**
 
+
 ---
 
 ### Per un impegno costante
 
 Sono un'amica in un gruppo di Fede E Luce. Nella preparazione di questo pellegrinaggio ci siamo posti delle domande su problemi che incontriamo e uno di questi riguarda i giovani amici. Spesso alle nostre comunità Fede e Luce si avvicinano degli amici giovani, anche molto giovani. Sono sempre molto interessati ed entusiasti alFesperienza che incontrano nelle nostre comunità, ma spesso, dopo un primo momento di grande entusiasmo, non riusciamo ad agganciarli più di tanto in modo profondo e corriamo il rischio di perderli per strada. Ci chiediamo, le chiediamo un aiuto per poter andare al di là di questa fase iniziale di grande entusiasmo, per favorire l'impegno più costante.
 **Pierpaola di cuneo**
+
 
 ---
 
@@ -44,12 +49,14 @@ Sono un'amica in un gruppo di Fede E Luce. Nella preparazione di questo pellegri
 Un’ultima componente di Fede e Luce sono anche i sacerdoti. Quando ho cominciato questo cammino pensavo come al solito di dover avere un ruolo, di dover venire a fare qualcosa a Fede E Luce , quel che abitualmente vivo nella mia comunità. Invece ho avuto la possibilità di ritrovare quel che tanti di noi hanno ritrovato: la propria fragilità e piccolezza. Dio ha scelto ciò che nel mondo è piccolo, ciò che il mondo considera inutile e disprezzabile. Ecco, mi sembra che il Vangelo vivente che ogni volta ascolto, la Parola che risuona ogni volta che vivo insieme ai ragazzi e insieme alle famiglie, è proprio questa: il Signore mi ridice, ridice credo a tutti noi: «ricordati che Dio continua a scegliere ciò che è piccolo, ciò che il mondo considera assolutamente inutile». Credo che per noi preti, per gli impegni, per la fretta, perché ci sono tante cose da fare, c’è la tentazione di dimenticare questa parola forte. Credo che tutti abbiamo bisogno di essere richiamati anche da Lei come maestro, come pastore, proprio a questo.
 **Marco sacerdote di milano**
 
+
 ---
 
 ### Il valore dell’amicizia
 
 Faccio parte del gruppo dei Fede e Luce da alcuni anni e partecipo ad incontri che si tengono ogni mese presso la Parrocchia di San Ciro in un quartiere periferico di Bari. Ho avuto la possibilità di conoscere diverse persone che frequentano questo gruppo, molti giovani soprattutto. Con qualcuno di loro ho instaurato un certo rapporto di amicizia più privato e personale e a volte vedo qualcuno anche al di fuori degli incontri e in altri momenti, passando da casa loro o incontrandoli in altri posti e per altre circostanze e parliamo insieme di diverse cose, di diversi argomenti riguardanti anche la vita più personale di ognuno. Agli incontri quasi sempre partecipo, e ne sono contento, anche se in alcuni momenti avverto il desiderio di distaccarmi dagli altri e di vivere alcuni momenti da solo e per conto mio, pensando e riflettendo su alcune cose mie più personali. E complessivamente una buona esperienza per me partecipare al gruppo di Fede e Luce perché scopro il valore delFamicizia e spero di poter continuare a farlo anche in futuro.
 **Michele, un ragazzo di bari**
+
 
 ---
 

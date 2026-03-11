@@ -1,4 +1,5 @@
 ---
+
 title: Insolito ragionamento sul migrante
 date: 2017-06-28
 author: Sergio Sciascia
@@ -18,7 +19,10 @@ umap_z: 12.421090126037598
 issue_number: OEL-138
 id_numero: "OEL-138"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Pierangelo Sequeri dice le ragioni profonde e di solito ignorate, della nostra reazione ai migranti e di come siano legate ai modi di essere della nostra società e anche della Chiesa"
 ---
+
 V
 ale la pena ascoltare Pierangelo Sequeri. Perché è autore di canti religiosi tra i più belli e profondi come Symbolum ’77 (Tu sei la mia vita, altro io non ho …), Symbolum ’80 (Oltre la memoria del tempo che ho vissuto …) , Madre io vorrei, e altri. Perché era molto vicino all’arcivescovo di Milano, Martini, per molti anni vicino alle comunità di Fede e Luce. Perché è preside del Pontificio Istituto di Studi su Matrimonio e Famiglia. Sequeri dice le ragioni profonde e di solito ignorate, della nostra reazione ai migranti e di come siano legate ai modi di essere della nostra società e anche della Chiesa. Esce perciò dalla solita contrapposizione tra “Non li vogliamo” e “Abbiamo il dovere morale di accoglierli”. Quanto segue è un estratto di un incontro in una parrocchia romana lo scorso febbraio.
 

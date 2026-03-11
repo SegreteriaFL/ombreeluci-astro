@@ -1,4 +1,5 @@
 ---
+
 title: "Che cosa è l'Arche"
 date: "1987-12-28"
 author: "Anna Cece"
@@ -15,6 +16,7 @@ issue_number: OEL-20
 id_numero: "OEL-20"
 numero_rivista: "Ombre e Luci"
 ---
+
 L’ispirazione iniziale *dell’[Arche](https://www.larche.org/)* è il messaggio evangelico delle Beatitudini e si basa sul credere che (secondo la Carta delle comunità dell’*Arche*) «...ogni persona, handicappata o no, ha un valore unico e misterioso... e possiede il diritto alla vita, alle cure, all’educazione, al lavoro... La persona ferita nelle sue capacità e nella sua psiche ha delle possibilità di amore che lo Spirito di Dio può far scaturire e crediamo che, proprio a causa della sua povertà, Dio la ama in maniera privilegiata... Grande è la nostra inquietudine di fronte al mondo della sofferenza... ma questa inquietudine non deve essere paralizzante. Anzi deve spingerci a lavorare per gli emarginati creando delle comunità ispirate alle Beatitudini e allo Spirito del Vangelo... dove tutti condividono le loro gioie e le sofferenze come fratelli.
 Leggi anche: [Il Chicco, ca](http://www.ombreeluci.it/1987/chicco-casa-famiglia-dellarche/)**[sa famiglia dell'*Arche*](http://www.ombreeluci.it/1987/chicco-casa-famiglia-dellarche/)
 Per informazioni aggiornate consulta [qui](http://www.larche-ilchicco.it/)

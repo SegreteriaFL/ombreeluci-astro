@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n.33
 date: 1991-03-15
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-33
 id_numero: "OEL-33"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Grazie ancora
 
 Ieri, tornando a casa, non credevo ai miei occhi: sul mio tavolo l’ultimo numero di Ombre e Luci; che bello! Che emozione sfogliarlo. Subito ho sentito dentro di me il desiderio di esprimere a tutti voi la gratitudine per quello che fate da tanti anni, veramente con passione, con amore e tante volte, con sacrificio (anche economico!). Coraggio, ne vale la pena. Sono convinta che questo numero di Ombre e Luci, oltre ad essere un ottimo regalo per il santo Natale, può essere motivo di scambio in comunità, di approfondimento; può servire a scoprire e meglio ancora, a riscoprire che cosa è Fede e Luce, la sua vocazione, il suo valore ecumenico. Bellissime le testimonianze, un incoraggiamento per chiunque si trovi in difficoltà, un tendere la mano per far capire a ognuno che l’Amore vince tutti i mali del nostro tempo. Insomma, senza togliere niente agli altri numeri, questo lo custodirò molto gelosamente e sono certa che nei momenti in cui avrò bisogno di un pò di ossigeno, leggendo qualche pagina del vostro giornalino, sentirò rieccheggiare dentro di me: «Non temere, non sei più sola». Grazie ancora, un grosso Hurrà per voi tutti. Con affetto

@@ -1,4 +1,5 @@
 ---
+
 title: Alza lo sguardo
 date: 2015-03-19
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-129
 id_numero: "OEL-129"
 numero_rivista: "Ombre e Luci"
 ---
+
 Spesso si dice “il vero valore di ciò che si ha lo si capisce nel momento in cui lo si perde”. Nella mia vita fortunatamente non è così: ho imparato, e ogni giorno devo ri-imparare, a riconoscere il valore di quello che mi è dato e chiedo che ogni giorno mi sia ridonato: Beniamino, un regalo immenso che ci è stato messo a fianco e che non può fare altro che sconvolgere positivamente e totalmente la nostra vita.
 
 Quegli occhi vedono le cose in modo diverso, percepiscono le cose in modo diverso e tu, immedesimandoti, cresci con lui, soffri con lui, e impari a domandare con lui, anche se il più delle volte ti senti quasi “non all’altezza”.

@@ -1,4 +1,5 @@
 ---
+
 title: Unica nel suo genere
 date: 2020-01-02
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-148
 id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Enza all’anagrafe e questo è già un programma! Mi ritengo infatti un suffisso… mi ritrovo in tante parole: provvid-enza, suffici-enza, val-enza…! Ho 54 anni e sono professoressa al triennio di un liceo scientifico di matematica e fisica, discipline che amo e che mi sono servite spesso per vivere meglio».
 
 **Come hai conosciuto Fede e Luce e cosa ti ha fatto restare?** Ho incontrato Fede e Luce in un momento di fragilità e sofferenza personale, in cui avevo bisogno di conoscere ed accogliere la parte ferita di me stessa, la parte che necessitava di attenzione. Pensavo all’inizio di dare qualcosa ma sono rimasta perché tanto ho ricevuto. Cosa? L’abbraccio dei ragazzi con handicap, credo, mi ha salvato. Ricordo ancora il momento, il luogo, l’ora. Mi sentivo così indifesa… Giovanni e Gaetano si sono seduti accanto a me, uno alla mia destra l’altro alla mia sinistra ed è come se stessero sanando il mio bisogno di attenzione di quel momento. Jean Vanier dice che i ragazzi hanno mani tanto piccole da entrare tra le grate nelle quali abbiamo chiuso il nostro cuore.

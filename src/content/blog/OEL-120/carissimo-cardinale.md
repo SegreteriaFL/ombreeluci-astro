@@ -1,4 +1,5 @@
 ---
+
 title: Carissimo Cardinale...
 date: 2012-12-10
 author: Pennablù
@@ -16,7 +17,10 @@ umap_z: 11.838054656982422
 issue_number: OEL-120
 id_numero: "OEL-120"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ora che un po’ di silenzio si è fatto nei media intorno alla tua persona, da questo piccolo giornale ci rivolgiamo a te con affetto e semplicità per dirti anche il nostro grazie"
 ---
+
 C
 arissimo Cardinale Martini, quanti discorsi si sono letti e sentiti su di te in questi giorni! Sono stati ricordati uno per uno episodi e scelte della tua vita, tante tue riflessioni sono apparse su quotidiani e riviste. Ora che un po’ di silenzio si è fatto nei media intorno alla tua persona, da questo piccolo giornale ci rivolgiamo a te con affetto e semplicità per dirti anche il nostro grazie.
 **Grazie per come ci hai accolto e ascoltato**

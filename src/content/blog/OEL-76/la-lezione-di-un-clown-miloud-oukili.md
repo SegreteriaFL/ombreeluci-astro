@@ -1,4 +1,5 @@
 ---
+
 title: "La lezione di un clown: Miloud Oukili"
 date: 2001-12-25
 author: Maria Teresa Mazzarotto
@@ -14,7 +15,10 @@ umap_z: 9.37693977355957
 issue_number: OEL-76
 id_numero: "OEL-76"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La storia di Miloud Oukili, artista di strada franco-algerino che ha portato nei sotterranei urbani la sua arte, per portare un sorriso ai bambini orfani e abbandonati di Bucarest"
 ---
+
 Capita spesso di incontrare,inciampare quasi, su qualcuno che ha bisogno di noi. Capita ovunque ma è sopratutto sulla strada che questi incontri sono frequenti. Allora, a scelta: guardiamo e tiriamo avanti, allunghiamo una moneta vergognandoci un pò, affrettiamo il passo, lo scavalchiamo quando, quello dorme proprio davanti al negozio o alla banca che ci attende.
 
 **Invece Miloud Oukili, un ragazzo francese, musicista e clown per scelta** , visitando Bucarest da poco libera dalla dittatura nel 1992, **è inciampato in un ragazzino rumeno che usciva da un tombino di una fogna e si è fermato** .

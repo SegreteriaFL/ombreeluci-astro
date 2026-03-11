@@ -1,4 +1,5 @@
 ---
+
 title: "Tifosi dell'accessibilità"
 date: "2022-05-28"
 author: "Enrica Riera"
@@ -15,6 +16,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 È una storia d’amore per il calcio, inteso quale momento di socialità e aggregazione, ma anche di solidarietà e unione straordinaria. A raccontarla è uno dei suoi protagonisti, Mariano Iusi, 39enne cosentino, convivente con l’atrofia muscolare spinale e, dunque, costretto a muoversi in carrozzella. Tifoso del club calcistico della sua città – il Cosenza Calcio per l’appunto –, Mariano non ha mai pensato che la sua condizione potesse privarlo della gioia di andare la domenica a vedere la partita.
 
 «Tutto però è cambiato – racconta – con l’avvento dei regolamenti nazionali relativi all’accessibilità negli stadi: chi, come me, su sedia a rotelle, avrebbe potuto guardare la gara soltanto dalla tribuna A e quindi in un unico settore, senza poter scegliere dove e con chi stare. Una ghettizzazione».

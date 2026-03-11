@@ -1,4 +1,5 @@
 ---
+
 title: A 4300 metri di altitudine – Newsletter n. 31
 date: 2021-04-16
 author: Redazione
@@ -15,7 +16,9 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### OL incontra...
+
 
 ---
 
@@ -23,11 +26,13 @@ Anche solo perché, con i suoi 4300 metri di altitudine, è una delle città pi�
 
 ### Il libro del mese
 
+
 ---
 
 Credere è un verbo che associamo facilmente alla spiritualità e all’ideologia ma forse ne trascuriamo l'aspetto più importante, quello cioè che riguarda la fiducia in sé stessi e negli altri. Lo sostiene Luca Badetti – teologo, psicologo e studioso di disabilità – nel suo ultimo libro *Io credo in te* , frutto dell’esperienza vissuta nelle comunità dell’Arca negli Stati Uniti e in Italia. In [dialogo con l’autore](https://www.facebook.com/libreria.sanpaolo.sangiovanniroma/videos/456891258959582) , Cristina Tersigni ha presentato il volume alla Libreria San Paolo Laterano di Roma.
 
 ### Spettacoli
+
 
 ---
 
@@ -35,17 +40,20 @@ Lo avrete sentito: la musicista Sia è stata sommersa di critiche per aver scelt
 
 ### Cucire, nonostante tutto
 
+
 ---
 
 Quando intraprendenza e determinazione si uniscono, possono uscire fuori belle sorprese… soprattutto se di mezzo ci sono le uova pasquali! La pandemia ha inevitabilmente rallentato anche le attività di autofinanziamento delle comunità di Fede e Luce, ma c’è chi ha trovato comunque il modo di dialogare e collaborare con realtà diverse da quelle tradizionalmente incontrate in passato. Cucendo così nuovi e importanti legami con il territorio. [Ce lo racconta](https://www.ombreeluci.it/2021/no-gac-ma-sac/) , da Roma, Huberta Pott.
 
 ### 0-13 - Invito speciale!
 
+
 ---
 
 **In queste settimane la primavera sta sfoderando le sue carte migliori, tra colori, forme e sensazioni di rinascita. Mandaci le tue foto di questa magnifica stagione!**
 
 ### Il blog di Benedetta
+
 
 ---
 
@@ -55,11 +63,13 @@ I professori hanno detto ai miei genitori che sono molto brava e lavoro tantissi
 
 ### Il post del mese
 
+
 ---
 
  Un padre insegna alla figlia autistica, Ksenia, di 10 anni, a lanciare un aereo giocattolo a Mosca (23 agosto 2020). La fotografia si è classificata terza al concorso World Press Photo, il più importante concorso di fotogiornalismo al mondo. **Ritratti, 3° premio** *In Flight* © Tatiana Nikitina, Russia Dalla galleria del Post: [Tutti i vincitori del World Press Photo](https://www.ilpost.it/2021/04/15/tutti-i-vincitori-del-world-press-photo-2021/ritratti-3-premio-2/) 
 
 ### Vita Fede e Luce
+
 
 ---
 

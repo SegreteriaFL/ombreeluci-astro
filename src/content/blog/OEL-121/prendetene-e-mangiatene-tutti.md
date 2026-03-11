@@ -1,4 +1,5 @@
 ---
+
 title: Prendetene e mangiatene tutti
 date: 2013-03-10
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 8.816837310791016
 issue_number: OEL-121
 id_numero: "OEL-121"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Il tema accoglienza delle persone disabili nelle nostre parrocchie. Ne abbiamo parlato con Monsignor Andrea Lonardo, responsabile dell’Ufficio Catechistico del Vicariato di Roma"
 ---
+
 Per i 30 anni di Ombre e Luci e in occasione dell’Anno della Fede dedichiamo questo numero al tema dell’accoglienza delle persone disabili nelle nostre parrocchie. Nel 1971 a Lourdes, dove si trovavano insieme per la prima volta ragazzi con handicap mentale, i loro genitori e amici, future comunità di Fede e Luce, Jean Vanier rispondeva così alla loro domanda su come dare un senso a quell’esperienza: “ **continuare fino a che ogni persona con handicap non avrà incontrato una comunità dove -senza essere specialisti ma semplicemente cristiani – si impari a scoprire e a vivere insieme la straordinaria Buona Novella di Gesù** ”.
 
 **Dopo quarant’anni queste parole continuano a sollecitarci** , insieme a quelle più recenti del Cardinale Vallini che esorta, in quest’Anno della Fede, a rinnovare e rendere straordinaria la nostra fede e la nostra vita cristiana soprattutto nella dimensione dell’ordinario.

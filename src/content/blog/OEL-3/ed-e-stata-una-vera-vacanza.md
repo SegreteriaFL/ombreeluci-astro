@@ -1,4 +1,5 @@
 ---
+
 title: "…ed è stata una vera vacanza"
 date: "1983-09-30"
 author: "Agnés Auschitzky"
@@ -19,6 +20,7 @@ tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
 id_numero: "OEL-3"
 ---
+
 *Agnese racconta questi giorni aggiungendo qualche consiglio per chi volesse intraprendere una simile iniziativa.*
 
 A me e a mio marito importava soprattutto che quei giorni fossero delle vere vacanze. Non si trattava dunque né di dedizione né di terapia. Oltre alla presenza della nostra famiglia, che penso abbia contribuito all'equilibrio del gruppo, il numero dei ragazzi e delle ragazze era uguale. Molto presto la distinzione, fra handicappati e non, sparì dal nostro vocabolario e dal nostro atteggiamento; anzi spesso gli uni e gli altri richiedevano la stessa delicatezza psicologica e la stessa attenzione. Alla fine del soggiorno, ognuno si è reso conto fino a che punto quella vita insieme, talvolta esigente, vissuta con lo stesso spirito, lo avesse arricchito.

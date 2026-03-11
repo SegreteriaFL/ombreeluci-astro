@@ -1,4 +1,5 @@
 ---
+
 title: Membro attivo della Chiesa
 date: 1993-06-21
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-42
 id_numero: "OEL-42"
 numero_rivista: "Ombre e Luci"
 ---
+
 Non regolarmente, ma da molti anni, vado alla messa domenicale delle 11 e 30 in una parecchia vicino a casa. Al momento della comunione, fedelmente vedo una decina di adulti dirigersi verso l’altare. Fra loro un ragazzo, un uomo ormai, con i segni evidenti della sindrome Down. Premuroso e dignitoso, accompagna uno dei ministri; insieme scendono per distribuire la comunione in uno dei lati della chiesa. Lo vedo tenere il calice sempre con quella serietà e grande dignità che gli è propria. Si sente sicuramente un membro attivo della comunità parrocchiale; lo è certo molto più di me. E ogni volta è una gioia vederlo andare con il suo passo deciso verso l’altare e poi riscendere verso noi tutti, fratello, servitore, membro attivo della Chiesa. -
 *N.S.*
 Il vero amore è un forza (come la pazienza è una forza, come la dolcezza è una forza), è un’energia che ci spinge verso l’altro per attirarlo a noi, ma perchè abbia più vita, perchè possa esprimersi, crescere, progredire, perchè sia felice e in pace. Qundo amiamo c’è un doppio movimento in noi: accolgo l’altro nel mio essere e nello stesso tempo gli dò, perché giustamente possa raggiungere una pienezza più grande. - *Jean Vanier*

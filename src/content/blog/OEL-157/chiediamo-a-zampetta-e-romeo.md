@@ -1,4 +1,5 @@
 ---
+
 title: Chiediamo a Zampetta e Romeo
 date: 2022-06-08
 author: Nadia Pastori
@@ -15,6 +16,7 @@ issue_number: OEL-157
 id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
+
 Gli animali possono aiutare le persone con disabilità in aspetti non solo terapeutici ma anche quotidiani? Per la mia esperienza non posso che dire sì, ma come? Chiedetelo direttamente all’animale! Sembra una provocazione, eppure penso a quella metodologia progettuale di ultimo grido, l’Universal Design (Progettazione Universale, «il design per la diversità umana, l’inclusione sociale e l’uguaglianza») che « **ha per obiettivo la progettazione e la realizzazione di edifici, servizi, sistemi, prodotti e ambienti che siano di per sé accessibili a ogni persona** , al di là dell’eventuale presenza di una condizione di disabilità, senza necessità di adattamento». Se lo scopo è di «facilitare per tutti le pari opportunità di partecipazione, in ogni aspetto della società», molto avrebbe da imparare proprio dal comportamento degli animali domestici: convivere con un animale insegna che questi mette in atto un vero e proprio progetto di design universale per fare incontrare anime diverse e dare finalmente sfogo all’empatia.
 
 In casa nostra ci sono stati animali domestici di vario tipo; tutti hanno stabilito una particolare modalità di interazione con ciascun componente della famiglia e riuscendo ad adattarsi a mio figlio Edoardo, ognuno secondo le proprie caratteristiche e rispetto alle necessità di lui. Abbiamo avuto un gatto, Zampetta; un criceto, Capriola; ora abbiamo pesci e uccellini: Cocco e Rita; Ruga, la tartaruga e il gatto della nonna, Nuvola, da accudire quando lei non c’è, e poi… i cani. Ognuno di questi ha avuto un modo speciale di rapportarsi a Edoardo e ai suoi movimenti non sempre fluidi o lievi, condizionati da una tetraparesi spastica.

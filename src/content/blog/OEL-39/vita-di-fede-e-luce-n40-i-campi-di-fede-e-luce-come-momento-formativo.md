@@ -1,4 +1,5 @@
 ---
+
 title: Vita di Fede e Luce n.40 - I campi di Fede e Luce come momento formativo
 date: 1992-09-07
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-39
 id_numero: "OEL-39"
 numero_rivista: "Ombre e Luci"
 ---
+
 N
 ell’esperienza di ognuno di noi il campeggio di Fede e Luce resta sempre come un momento forte da ricordare, per la gioia che si è vissuta, per le belle passeggiate, per le veglie intorno al fuoco... 1 campeggi sono, in un modo o nell’altro, delle tappe significative nella vita di FL ma possono essere anche dei momenti formativi.
 **Da un primo punto di vista**

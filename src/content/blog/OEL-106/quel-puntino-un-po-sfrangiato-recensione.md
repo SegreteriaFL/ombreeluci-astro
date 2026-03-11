@@ -1,4 +1,5 @@
 ---
+
 title: Quel puntino un po sfrangiato - Recensione
 date: 2009-06-10
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 4.890172004699707
 issue_number: OEL-106
 id_numero: "OEL-106"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Dialogo d’amore tra una madre e una figlia speciale - Gabriella Martino, Armando Editore, p.60"
 ---
+
 P
 iccole e brevi inquadrature si aprono e chiudono in poche pagine ad illustrare profondamente quasi trenta anni di vita di una famiglia speciale. Inquadrature che lasciano intravedere molto più di quanto raccontino. Gabriella Martino lascia scorrere i nostri occhi sulla sua vita suggerendone una lettura come fosse una sinfonia con i suoi movimenti, i suoi tempi, i suoi colori e le sue emozioni, dapprima “pesanti e disperate” pian piano sempre più “serene e leggere”. Il libro è dedicato al neuropsichiatria infantile incontrato a Viterbo, Giorgio Schirripa, prematuramente scomparso, che, dice l'autrice, ha saputo “sconfiggere il nostro dolore di genitori diversi, ripetendo sempre che l’unica cosa che conta è che i nostri figli siano felici... non normali”.
 *C.T.*

@@ -1,4 +1,5 @@
 ---
+
 title: Domande e risposte sul domani dei nostri figli
 date: 1991-12-28
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-36
 id_numero: "OEL-36"
 numero_rivista: "Ombre e Luci"
 ---
+
 **1. «Io e mio marito lasceremo a nostro figlio handicappato il nostro appartamento. Non potrebbe vivere qui dopo la nostra morte con qualcuno che abbia cura di lui?**
 Tutto è possibile e questo sembra essere il desiderio di molti genitori. L’idea però presenta alcune difficoltà: chi è la persona che vivrà e avrà cura di lui? Sarà disposta a dare tutto il suo tempo — notte e giorno, vacanze comprese — a questo servizio? Come essere sicuri che questa sia la soluzione più gradita per vostro figlio? Qualora ciò fosse possibile, bisognerà prevedere e garantire il ricambio eventuale della persona e affidare comunque il controllo e la tutela morale, organizzativa, economica ad uno stretto parente o persona amica di cui si abbia fiducia illimitata.
 **2. «Noi vorremmo lasciare il nostro appartamento affinché nostro figlio continui a vivere nel suo ambiente con qualche coetaneo con handicap simile al suo».**

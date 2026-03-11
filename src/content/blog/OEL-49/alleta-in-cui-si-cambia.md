@@ -1,4 +1,5 @@
 ---
+
 title: "All'età in cui si cambia"
 date: "1995-03-16"
 author: "Marie-Odile Réthoré"
@@ -15,6 +16,7 @@ issue_number: OEL-49
 id_numero: "OEL-49"
 numero_rivista: "Ombre e Luci"
 ---
+
 I genitori sono più o meno preoccupati del passaggio del proprio figlio all'età adulta.
 Hanno sempre un po' di ritegno di parlare all'adolescente della trasformazione del suo corpo al momento della pubertà, dei suoi primi passi verso l'amore...
 La Dottoressa Réthoré, medico e amica delle persone disabili intellettive, si rivolge a loro nel suo linguaggio diretto e vero.

@@ -1,4 +1,5 @@
 ---
+
 title: "Se le università sono state le prime ad ascoltare"
 date: "2022-07-14"
 author: "Silvia Camisasca"
@@ -15,6 +16,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quella dei segnanti – che comprende le persone sorde, circa 40.000 nel nostro Paese, oppure udenti che ricorrono, per motivi personali o professionali, alla lingua italiana dei segni (Lis) – è una comunità ampia, che si esprime attraverso la poesia, il teatro e tante altre manifestazioni culturali. Per questo, l’atteso **riconoscimento della loro lingua da parte del Parlamento, avvenuto a maggio 2021, è stato un segnale importante** rispetto a una tematica a cui la ricerca scientifica ha dato centralità a cominciare dal finire degli anni Settanta. «Dai primi studi dell’equipe guidata da Virginia Volterra del Cnr fino alla costituzione a Catania nel 2021 del Centro interuniversitario Cognizione, Linguaggio e Sordità, comprendente le università di Catania, Milano-Bicocca, Palermo, Trento e Ca’ Foscari Venezia, i progressi scientifici e le attività di inclusione si sono costantemente evoluti» spiega la professoressa Anna Cardinaletti, promotrice del progetto di Deaf Studies iniziato all’università Ca’ Foscari Venezia più di vent’anni fa e pioniera in questo ambito.
 
 Il centro – a cui afferiscono linguisti, neuroscienziati, pedagogisti, sociologi attraverso una rete di scambio di competenze ed esperienze interdisciplinari – intende promuovere formazione e ricerca sulla Lis e sulla sordità, indispensabili perché migliaia di persone e famiglie affrontino la quotidianità, ma anche perché questi percorsi entrino nelle scuole, nel mondo del lavoro, nella sanità e, più in generale, in tutti gli aspetti della vita sociale. **«Una delle nostre sfide è quella di incentivare la presenza delle persone sorde a livello universitario e nei percorsi accademici:** passo preliminare è, però, garantire un’educazione accessibile fin dalla scuola dell’infanzia con il ricorso a interpreti di Lis ed educatori specializzati» prosegue Cardinaletti.

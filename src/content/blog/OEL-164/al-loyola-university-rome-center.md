@@ -1,4 +1,5 @@
 ---
+
 title: Al Loyola University Rome Center
 date: 2023-05-05
 author: Giovanni Grossi
@@ -15,6 +16,7 @@ issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
 ---
+
 Q
 uando Alessandra Ruggieri mi ha telefonato che c’era questa occasione, di andare come Fede e Luce alla università americana io all’inizio ho pensato non posso, poi lei ha insistito e dopo il lavoro sono salito in macchina, con Claudio Moriggia, che è un poetry, e con Maria Agnese Boitani.
 **Io quando ho visto questo luogo a me nuovo, non sapevo chi c’era come stranieri**

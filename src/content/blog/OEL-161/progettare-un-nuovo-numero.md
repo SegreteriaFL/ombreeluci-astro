@@ -1,4 +1,5 @@
 ---
+
 title: Progettare un nuovo numero
 date: 2023-05-11
 author: Matteo Cinti
@@ -14,7 +15,10 @@ umap_z: 9.842582702636719
 issue_number: OEL-161
 id_numero: "OEL-161"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un fumetto per raccontare dall'idea alla stampa di Ombre e Luci"
 ---
+
 Tutto inizia con una **riunione di redazione** , in cui si buttano giù idee sul tema del prossimo numero, magari ispirandosi a un qualche evento recente.
 
 Dopo aver deciso a grandi linee uno o più argomenti, inizia la **ricerca di informazioni** e si contattano le persone che potrebbero scrivere dei testi o a cui chiedere un'intervista.

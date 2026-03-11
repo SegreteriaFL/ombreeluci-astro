@@ -1,4 +1,5 @@
 ---
+
 title: "L'educazione religiosa alla fede dei nostri figli con handicap mentale"
 date: 1988-09-19
 author: Henri Bissonier
@@ -19,6 +20,7 @@ issue_number: OEL-23
 id_numero: "OEL-23"
 numero_rivista: "Ombre e Luci"
 ---
+
 La libertà religiosa è un diritto essenziale di ogni persona umana, foss'anche la più handicappata.
 
 Questo principio, che non ha mai cessato di essere vero, è stato ricordato, ormai a più riprese, dal papa Giovanni Paolo II ed egli sa, meglio di altri certamente, di cosa parla.

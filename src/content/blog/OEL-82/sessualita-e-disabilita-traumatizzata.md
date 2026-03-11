@@ -1,4 +1,5 @@
 ---
+
 title: "Sessualità e disabilità: traumatizzata"
 date: "2003-06-23"
 author: "Redazione"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T01"
 tema_label: "Vivere la disabilità"
 categoria_menu: "Disabilità"
+
+subtitle: "La trovo distesa su una panca, in stato di shock. L’unica spiegazione che riesco ad ottenere è che Enrico l’ha rifiutata."
 ---
+
 Laura, una giovane down fine e graziosa, è divenuta presto capace di attirare gli sguardi dei ragazzi ma anche fragile per i suoi attaccamenti affettivi. A diciassette anni, di ritorno dalle vacanze, non ha smesso di reclamare per settimane intere la presenza di un ragazzo della fattoria vicina.
 Frequenta un Centro diurno dove le relazioni tra gli ospiti sono forti e non controllate.** Decido di consultare un medico, cristiano, che segue Laura dal tempo della sua nascita. Lui raccomanda una protezione sicura, indispensabile per le persone che non possono da sole garantirsi da una gravidanza né valutarne le conseguenze.
 

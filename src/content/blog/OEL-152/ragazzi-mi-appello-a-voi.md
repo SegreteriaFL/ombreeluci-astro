@@ -1,4 +1,5 @@
 ---
+
 title: Ragazzi, mi appello a voi!
 date: 2020-04-24
 author: Laura Coccia
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 In un articolo a firma della corrispondente dagli Stati Uniti Elena Molinari qualche settimana fa, Avvenire riportava la notizia che negli Stati Uniti ci si stava preparando ad affrontare l’emergenza covid-19 con delle linee guida inquietanti. Stati come Maryland o Pennsylvania invitano ad escludere le persone con alcune disabilità dall’uso dei respiratori in caso di pericolo di vita. I medici sono chiamati di fatto a una scelta eugenetica. Eppure, il giuramento di Ippocrate è chiaro e non fa differenze tra paziente e paziente, chi diventa dottore giura di aiutare tutti. Da millenni. Ma, di fatto, si spinge per la scelta economicamente più vantaggiosa per la collettività: si sceglie di salvare le persone che abbiano un potenziale produttivo, lasciando morire le altre di cui bisogna prendersi cura, con un costo per la società.
 
 Possibile che il Paese con uno degli eserciti più potenti e armati al mondo debba invitare i medici a operare questa scelta disumana? Possibile che non ci siano i soldi per acquistare le macchine necessarie a potenziare la terapia intensiva, mentre per gli armamenti o per costruire il muro con il Messico ci siano sempre le risorse necessarie?

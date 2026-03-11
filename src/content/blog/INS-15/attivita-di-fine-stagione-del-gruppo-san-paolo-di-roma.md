@@ -1,4 +1,5 @@
 ---
+
 title: "Attività di fine stagione del gruppo San Paolo di Roma"
 date: "1977-09-20"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
+
+subtitle: "il gruppo San Paolo di Fede e Luce ha pensato, per finire la stagione in bellezza, di fare qualcosa di diverso della solita festicciola"
 ---
+
 Il gruppo "Hand Out", che altro non sarebbe se non il gruppo San Paolo di Fede e Luce, dopo un'attività iniziata ad ottobre dello scorso anno che ha visto i suoi componenti cementare un affiatamento e una amicizia sempre maggiore con i ragazzi, ha pensato, per finire la stagione in bellezza, di fare qualcosa di diverso della solita festicciola.
 Tra varie proposte più o meno valide si è optato principalmente per due, cioè una rappresentazione nel teatro della nostra sede (presso il Centro Giovanile San Paolo Ostiense), ed una gita insieme agli amici degli altri gruppi.
 

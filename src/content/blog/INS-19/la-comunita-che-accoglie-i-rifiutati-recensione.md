@@ -1,4 +1,5 @@
 ---
+
 title: "La comunità che accoglie i rifiutati - Recensione"
 date: "1978-03-01"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Comunità"
 issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
+
+subtitle: "di Jean Vanier, Edizioni JacaBook, Milano, 1975 - pp. 143, lire 2.000"
 ---
+
 Il titolo originale di questo libro: "Apri le braccia", esprime in una rapida sintesi il messaggio che Jean Vanier vuole trasmetter attraverso le sue parole e le sue esperienze: aprire le nostre braccia ma soprattutto i nostri cuori, e imparare ad amare ognuno dei nostri fratelli come Gesù li ama.
 
 Non è un romanzo né un libro classico di spiritualità, ma una scoperta progressiva della ricchezza che abita nel cuore degli emarginati e che diventa per noi un richiamo alla Speranza.

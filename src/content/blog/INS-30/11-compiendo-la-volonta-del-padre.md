@@ -1,4 +1,5 @@
 ---
+
 title: "11. Compiendo la volontà del padre"
 date: "1981-12-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### Nella mia casa
 
 "Mi applicavo soprattutto a praticare le piccole virtù, non essendomi facile praticare le grandi, così mi piaceva pregare i mantelli dimenticati dalle sorelle e render loro tutti i servizi che potevo". (Cfr. Teresa di Lisieux: manoscritti autobiografici.)

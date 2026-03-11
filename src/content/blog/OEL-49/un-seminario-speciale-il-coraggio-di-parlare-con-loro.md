@@ -1,4 +1,5 @@
 ---
+
 title: Un seminario speciale - Il coraggio di parlare con loro
 date: 1995-03-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-49
 id_numero: "OEL-49"
 numero_rivista: "Ombre e Luci"
 ---
+
 A
 vevamo notato che la maggior parte degli uomini e delle donne delle nostre case famiglia non conoscevano affatto il funzionamento, il ruolo e il significato del loro corpo. Un gruppo di educatori propose allora un breve seminario sul tema «che una vuol dire essere uomo o donna». Quattro incontri, preparati nei minimi dettagli, portarono progressivamente i partecipanti a scoprire:
 - lo sviluppo del bambino, maschio e femmina - come essere un adulto responsabile (crescere nell’autonomia, sapere domandare aiuto...) - i due stati di vita: il matrimonio (come si realizza la fecondità di una coppia) e il celibato. Quest’ultimo (scelto oppure no) può dar frutti ugualmente abbondanti anche se sono più difficili da scoprire. E necessario trovare il proprio dono, il senso della propria vita - l’insegnamento di Gesù sull'amore e sulla sessualità.

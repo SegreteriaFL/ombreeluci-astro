@@ -1,4 +1,5 @@
 ---
+
 title: Pezzi di vita
 date: 1997-09-19
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 7.492064952850342
 umap_y: 11.61706256866455
 umap_z: 5.468005657196045
 ---
+
 Caro Andrea, ero entrata nel negozio della tua nonna per comperare dei chiodi e delle viti e ne sono uscita con il tuo diario «Pezzi di vita» che la tua nonna, molto orgogliosa del tuo lavoro, mostra ai vecchi clienti affezionati. Abbiamo pensato, noi della redazione, di pubblicarne qualche brano perché la tua storia è vera, i tuoi sentimenti sono sinceri e perché sei stato bravissimo ad imparare a usare il computer così bene. Ti ringraziamo quindi, per la tua testimonianza, ti abbracciamo e ti facciamo tanti auguri perché tu diventi un grande scrittore!
 
 **Mi chiamo Andrea** Mi chiamo Andrea Bonini ho 31 anni e mezzo e ho sofferto tanto. Quando sono nato, il medico non era in ospedale, ci sono state delle complicazioni durante il parto, così, sia mia madre che io abbiamo rischiato di morire. Ho sempre vissuto a Mondano, un piccolo paese della Maremma Toscana, con la mia famiglia, i miei genitori, mia sorella e mia nonna.

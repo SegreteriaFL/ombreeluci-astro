@@ -1,4 +1,5 @@
 ---
+
 title: Tenendoci per mano
 date: 1995-12-14
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-51
 id_numero: "OEL-51"
 numero_rivista: "Ombre e Luci"
 ---
+
 E
 ravamo insieme in oratorio quando padre Pietro, il nostro assistente spirituale di comunità, ce lo ha proposto. Marco esplorava la fede con la curiosità e la testardaggine che lo caratterizzano, mentre io navigavo i miei soliti mari inquieti. Abbiamo accettato, non senza qualche dubbio, tenendoci per mano. Abbiamo camminato insieme durante gli incontri di preparazione alla cresima. lo cercavo nella complessità le risposte ai miei quesiti, Marco faceva domande straordinariamente concrete, aderenti alla realtà delle cose vissute, sorprendendomi per la sua capacità di analisi della realtà. A volte mi viene da pensare che i nostri dubbi e le nostre crisi provengono esclusivamente dalla sistematica incapacità di calare la fede nelle nostre vite, o forse, meglio, di calare le nostre vite nella fede. Abbiamo imparato tutti insieme, anche Pietro che scopriva con noi, giorno dopo giorno, la leggerezza e la forza di una catechesi delle cose semplici. Abbiamo condiviso la nostra crescita con altre persone che come noi facevano il cammino di preparazione, ma che non provenivano dall'esperienza di FL. Credo che fare questa catechesi «normale» e non «speciale» sia stata una grande intuizione (ed abilità) di Pietro.
 > La cresima deve essere una scelta matura che ci introduce alla responsabilità di essere cristiani: è la consacrazione della propria vita alla Vita

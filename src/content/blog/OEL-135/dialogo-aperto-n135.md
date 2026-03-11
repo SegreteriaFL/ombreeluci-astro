@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo Aperto n.135
 date: 2016-09-16
 author: Redazione
@@ -15,10 +16,12 @@ issue_number: OEL-135
 id_numero: "OEL-135"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Che cos’è il Giubileo?
 
 Caro Papa Francesco, sono Eleonora e faccio parte del movimento Fede e Luce da 28 anni. Ho seguito con gioia i due giorni, 11 e 12 giugno, dedicati al Giubileo degli ammalati e dei disabili: non potendo venire a Roma l’ho seguito da casa. Caro Papa, è stato meraviglioso vederla e sentirla abbracciare tutte quelle persone. E’ tutto vero ciò che ha detto: noi tutti indistintamente facciamo parte della Chiesa come figli di Dio, nessuno escluso, e il sorriso è importante per donarlo agli altri. Io mi sono talmente commossa... In tanti siamo rimasti a casa per vari motivi ma abbiamo vissuto anche noi questa esperienza bellissima. Sicuramente lo porteremo nel cuore questo anno giubilare. Erano tanto euforici i miei amici per diverso tempo perché avevano avuto la possibilità di incontrarla. Caro Papa, io l’ammiro tantissimo: è stato stupendo vedere quei bambini che le si sono avvicinati. È stato un grande onore che ci abbia ricevuto. Grazie! Il mondo ha bisogno di lei. Gesù e Maria la possano assistere, pregando per la pace, e sempre in qualsiasi momento saranno al suo fianco.
 **Eleonora Buccherai**
+
 
 ---
 
@@ -29,12 +32,14 @@ Io vorrei sapere una cosa che per me è importante: come ci si comporta quando s
 *Caro Giovanni, Molte volte ci hai raccontato pezzi della tua vita con lunghe lettere che abbiamo pubblicato: i tuoi amici, il tuo lavoro, la tua famiglia, i tuoi desideri. Credo sia importante avere il modo di poter dire il proprio punto di vista, di farsi domande, di confrontarsi con chi abbiamo vicino. Giovanni, sai dare voce a quello che probabilmente in tanti pensano e non riescono a dire così chiaramente. Per questo, Giovanni, ti ringrazio di avere così tanta fiducia in noi e farci parte dei tuoi pensieri. I desideri che esprimi dimostrano quanto cuore hai. Già qualche anno fa chiedemmo ai lettori di provare a darti le risposte che cercavi ma non è facile dare risposte senza conoscerti bene e senza calarci nella tua situazione. Per chi ti conosce invece sarà più facile risponderti a voce... Sai già che le mie risposte non potranno essere esaurienti, precise come le domande che poni... il fatto che tu te le ponga mi fa capire che non cerchi qualcuno a caso: desideri essere protagonista di una storia d’amore così come, probabilmente, in comunità ti senti protagonista nell’amicizia che hai stabilito in questi anni. Ma la verità è che sarebbe bello che tu ti facessi due chiacchere -o quattro o sei...- con uno dei tuoi amici (ne vuoi tanti dici, forse qualcuno lo hai già? C’è qualche amico di Fede e Luce o di altre associazione che frequenti con cui avresti il piacere di parlare di questi argomenti?), uno di cui ti fidi, e che tu rivolga a lui le stesse domande. Un amico che sia saggio, adulto, che conosca e voglia bene al mondo di Fede e Luce. Scrivere è già tanto, è vero, ma non accontentarti di lettere o post da facebook..., come l’amore che cerchi, è bene che le questioni che poni siano affrontate faccia a faccia e non solo di fronte ad un computer. Intanto posso dirti che proverò a chiedere consiglio a qualcuno di cui mi fido, qualcuno di molto saggio, non voglio rischiare di lasciarti senza risposta. Sei d’accordo?*
 **Cristina Tersigni**
 
+
 ---
 
 ### Bello, fico, tutti. Dai.
 
 Quando arrivavo all’incontro di comunità, Giacomo era il primo a venirmi incontro, con le braccia protese, pronte a stritolarmi. Non aspettava che io entrassi nella sala, mi veniva incontro e mi trascinava con sé, con un entusiasmo che non ammetteva repliche. “Bello, fico, tutti… Dai!” era il suo slogan preferito, il suo marchio di fabbrica. Non c’era spazio per quel torpore che ti eri portato da casa, per quell’aria “fuori posto” che a volte abbiamo noi amici appena arrivati. Non c’era possibilità di restartene in disparte, di acclimatarti piano piano. Giacomo era un perfetto buttadentro e “bello, fico, tutti, dai” il suo riempi-pista. La sua felicità era pervasiva, contagiosa. Capace di estrarti dal bozzolo, di sgombrare il tuo cielo da qualsiasi nuvola e di aprirti all’incontro con gli altri. Quante volte gliel’abbiamo rubato quello slogan, per coinvolgere qualche timido, per superare un’ultima esitazione. O per far cantare chi avrebbe preferito stare zitto, per far ballare chi voleva restare seduto, per far dire ad alta voce quella preghiera che altrimenti sarebbe rimasta in punta di lingua. Poche parole che racchiudono in sé tutto il senso dell’accoglienza. No, di più: il senso stesso dello stare a Fede e Luce. Perché Fede e Luce è “bella”. È bello quello che facciamo e siamo belli noi. Sono belli i nostri volti, le nostre mani e ancora più bello è quello che solo gli occhi del cuore sanno vedere. Sono belle le nostre storie, a volte contorte e sofferte come rami d’ulivo, ma che un giorno si sono intrecciate incuranti della provenienza e delle diverse abilità. E non siamo solo belli, sensibili e profondi come un film francese in bianco e nero. Siamo anche “fichi”: colorati, chiassosi e a volte irriverenti come la miglior commedia all’italiana. A Fede e Luce ci divertiamo e condividiamo la gioia che è in noi. E la mia gioia non è piena se non è anche un po’ la tua, la sua, la nostra. Perché in quel “tutti” c’è la vera dimensione comunitaria di Fede e Luce. Non io e te, ma “tutti“ insieme. Fede e Luce è con tutti e per tutti. Perché solo quando siamo tutti, quando nessuno resta solo, esiste la vera comunità. Giacomo probabilmente non ci aveva mai pensato alla ricchezza di significato di quello slogan. E anche io ci ho fatto caso solo adesso. Ma averci fatto caso comporta in un certo senso anche l’accettazione di un’eredità, l’assunzione di un impegno. Perché ora che Giacomo ci ha improvvisamente lasciato, tocca a me, tocca noi che lo abbiamo capito, lanciarci incontro a chi è chiuso nel suo guscio di dolore, di tristezza o di semplice ritrosia, spalancare le braccia e il cuore per accogliere come tu, Giacomino, ci hai insegnato: “Vieni con me, non aver paura, lascia dietro di te i pensieri tristi e le preoccupazioni, apriti alla gioia. È bello. È fico. È per tutti… Dai!”
 **Stefano Marchetti**
+
 
 ---
 

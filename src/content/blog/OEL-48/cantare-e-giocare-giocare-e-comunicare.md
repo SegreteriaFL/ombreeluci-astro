@@ -1,4 +1,5 @@
 ---
+
 title: "Cantare è giocare. Giocare è comunicare"
 date: "1994-06-18"
 author: "Redazione"
@@ -14,6 +15,7 @@ issue_number: OEL-48
 id_numero: "OEL-48"
 numero_rivista: "Ombre e Luci"
 ---
+
 *— Corna, corna, corna, bum! bum!*
 
 Florent e Violaine si tengono vicini, faccia a faccia, testa bassa, al «bum» si urtano. Ricominciano di nuovo, ridendo a cuore aperto.

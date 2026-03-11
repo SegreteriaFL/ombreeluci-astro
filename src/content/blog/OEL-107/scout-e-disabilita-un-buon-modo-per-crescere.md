@@ -1,4 +1,5 @@
 ---
+
 title: "Scout e disabilità: un buon modo per crescere"
 date: "2009-09-10"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-107
 id_numero: "OEL-107"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una ragazza di Roma, che fa parte di Fede e Luce e degli Scout, racconta la sua esperienza"
 ---
+
 Sono una ragazza di Roma,faccio parte di Fede e Luce e sono scout. Venendo a contatto con queste due realtà così diverse, e avendo avuto nel mio gruppo, prima ai lupetti poi in clan due ragazzi disabili, mi sono spesso chiesta il rapporto che ci potesse essere fra il metodo scout e il mondo dell’handicap.
 
 Credo molto nello scautismo: è stato ed è un momento di maturazione per me importante e credo che possa essere un valido strumento di crescita per tutti. Probabilmente Baden Powell nell'inventare questo metodo non pensava ai nostri ragazzi, ma le tante esperienze positive di inserimento nelle varie unità mi convincono che esso può essere facilmente adattato alle singole situazioni e porta nella maggior parte dei casi i suoi frutti.

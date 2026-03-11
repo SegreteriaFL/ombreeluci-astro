@@ -1,4 +1,5 @@
 ---
+
 title: "Accostarsi alla verità"
 date: "2000-09-28"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-71
 id_numero: "OEL-71"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Non ci resta che chinare il capo di fronte al mistero della vita di tutti gli uomini e donne, di ogni età e di ogni condizione: un mistero che ci è dato solo di riconoscere, non di svelare"
 ---
+
 ### C'è una parte di noi stessi che conosciamo solo noi...
 
 ...e che ci è impossibile rivelare agli altri. Maria ha il cuore in subbuglio: vorrebbe gridare il male che si porta dentro da quando ha saputo che il suo bambino non sarà mai come lo ha sognato. Il medico è stato gentile, ma non riusciva ad essere chiaro. Lei però ha capito.

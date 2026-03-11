@@ -1,4 +1,5 @@
 ---
+
 title: "Dimitri, il teatro fra sogni e progettualità"
 date: "2009-06-10"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Cultura"
 issue_number: OEL-106
 id_numero: "OEL-106"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Viene da Pisa, fa teatro da anni. È la prima persona con disabilità a diplomarsi in regia all'Accademia d'Amico"
 ---
+
 “Il regista sostiene il peso di un'idea che lo tormenta e che sente il bisogno di realizzare. Ma non può farlo senza l’aiuto degli attori. Non è teatralmente indipendente come un disabile non lo è nella vita quotidiana. L’unica moneta di scambio che possiede è la sua capacità di proiezione”. Quella capacità per Dimitri, significa poter vivere, anche, attraverso il palcoscenico. Attraverso il teatro, che diventa come una prosecuzione di sé, l'estensione del proprio immaginario. E del proprio corpo.
 
 Dimitri Galli Rohl ha 33 anni, viene da Lucca, ed è un regista teatrale. Il primo, con disabilità, a diplomarsi alla “Silvio d'Amico”. Dal 2000 si muove su una sedia a rotelle, dopo che un incidente gli ha procurato la frattura di due vertebre cervicali. In 73 anni di storia dell’Accademia capitolina, nessuna persona con disabilità aveva mai ottenuto il suo risultato. “A ben guardare, i registi sono disabili per natura” racconta Dimitri, perché un regista “è chiamato a tenere sotto controllo un sacco di elementi quando decide di mettere in scena uno spettacolo; come disabile sono chiamato a pianificare meticolosamente la mia giornata se voglio arrivare alla fine limitando i disagi che la mia condizione impone al mio fisico e alla mia quotidianità. In pratica, sono il regista di me stesso”.

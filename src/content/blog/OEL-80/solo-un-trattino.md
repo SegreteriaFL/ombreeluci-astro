@@ -1,4 +1,5 @@
 ---
+
 title: Solo un trattino
 date: 2002-12-08
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.621177673339844
 umap_y: 9.171834945678711
 umap_z: 11.479643821716309
+
+subtitle: "Da tempo, da qualche mese, porto dentro un pensiero speciale per i genitori. Per i genitori di Fede e Luce ma anche per tutti i genitori che all’improvviso comprendono che il loro figlio non crescerà nella stessa maniera degli altri bambini"
 ---
+
 Da tempo, da qualche mese, porto dentro un pensiero speciale per i genitori. Per i genitori di Fede e Luce ma anche per tutti i genitori che all’improvviso comprendono che il loro figlio non crescerà nella stessa maniera degli altri bambini...
 
 Questo pensiero è nato in particolare ascoltando una mamma che fra le lacrime diceva: «A volte la guardo seduta lì e soffro. Cosa penserà, mi chiedo. E soffro»

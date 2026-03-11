@@ -1,4 +1,5 @@
 ---
+
 title: "Zigulì - Recensione"
 date: "2012-03-16"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Cultura"
 issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Massimiliano Verga, Ed. Ancora, 186 pp."
 ---
+
 Ci concediamo uno strappo alla regola. Il libro lo impone. Lo abbiamo letto e per la sua recensione ognuno di noi ha detto la sua.
 
 E’ un vero racconto sincero, scaturito dal cuore di un papà che non ce la fa più, da solo a portare il peso di un figlio come Moreno.

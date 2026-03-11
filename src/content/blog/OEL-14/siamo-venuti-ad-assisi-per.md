@@ -1,4 +1,5 @@
 ---
+
 title: Siamo venuti ad Assisi per...
 date: 1986-06-25
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Per capire San Francesco
 
 ### Per andare lungo le sue strade

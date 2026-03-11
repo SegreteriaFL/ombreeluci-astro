@@ -1,4 +1,5 @@
 ---
+
 title: Il lavoro di Gianni
 date: 1983-12-29
 author: Sergio Sciascia
@@ -24,6 +25,7 @@ umap_y: 8.3284912109375
 umap_z: 7.705316066741943
 id_numero: "OEL-4"
 ---
+
 E dopo? Dopo di questi ragazzi — chiamali *mongoloidi* all’antica, Down alla nuova, o trisomici alla scientifica: la realtà non cambia col nome — dopo la scuola o l’istituto specializzato, dopo, che possono fare?
 
 Gianni lavora in una pizzeria, mi avevano detto, vacci a parlare. Ma è un lavoro protetto? avevo domandato. Bé, un po’ sì, la pizzeria è della sorella. Ah, è della sorella.

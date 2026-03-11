@@ -1,4 +1,5 @@
 ---
+
 title: Fede e Luce una grande famiglia
 date: 2018-06-30
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-142
 id_numero: "OEL-142"
 numero_rivista: "Ombre e Luci"
 ---
+
 Michiamo Éric, ho 10 anni, tra poco 11, sono nato con la trisomia 21, Ho due fratelli Irénée, 8 anni, Xavier 6 anni e una sorella Maïlys che ha 3 anni. Il mio papà si chiama Luc e la mia mamma Amélie.
 
 Era da un anno e mezzo che volevo scrivere al Papa. Scrivere per me è faticoso. Durante le vacanze di Ognissanti 2017, mamma mi ha aiutato a scrivere delle cartoline per il Papa. Gli ho scritto: “Buongiorno Papa, mi chiamo Éric, ho 10 anni, voglio venire a trovarti con il mio papà Luc, voglio venire a vederti durante la messa”. Ho impiegato un’ora e mezza per scrivere questo con la mamma, ho anche fatto scivolare dentro la busta una cioccolata per lui.

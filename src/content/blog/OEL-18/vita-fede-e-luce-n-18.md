@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 18
 date: 1987-06-25
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-18
 id_numero: "OEL-18"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### **Notizie di *Fede e Luce* nel mondo**
 
 #### **Zona Asia-Oceania**

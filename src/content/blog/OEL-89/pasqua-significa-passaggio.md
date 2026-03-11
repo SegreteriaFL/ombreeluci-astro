@@ -1,4 +1,5 @@
 ---
+
 title: Pasqua significa “passaggio”
 date: 2005-03-16
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 6.822300434112549
 umap_y: 6.842774391174316
 umap_z: 6.675339221954346
+
+subtitle: "Come reagire senza lasciarsi andare a banali rassegnazioni? Come riprendere la strada “rigettando le reti” fiduciosi non nei nostri progetti ma nel progetto del Signore?"
 ---
+
 S
 hakespeare, con la sua capacità senza tempo di raccontare e descrivere la grande vastità dei sentimenti e delle emozioni umane, ha rappresentato per Bob Smith la chiave di volta per riscrivere la trama della sua esistenza. È infatti riuscito, Shakespeare, a “parlare” a Bob come nessuno aveva fatto nella sua vita: riconoscendo e dando dignità ai contrapposti sentimenti di un giovane estremamente legato, nel bene e nel male, alla sua famiglia — una mamma sempre sull'orlo della depressione, un papà per lui troppo assente, una amatissima sorella, Carolyn, gravemente handicappata e dei nonni, particolarmente importanti e affettuosi, ma poco adatti, a volte, alle esigenze di un bambino.
 

@@ -1,4 +1,5 @@
 ---
+
 title: Il figlio terminale - Recensione
 date: 2007-06-03
 author: Redazione
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.031980037689209
 umap_y: 11.670625686645508
 umap_z: 5.288626670837402
+
+subtitle: "Giuseppe Noia, Ed. Nova Millenium Romae, 2007"
 ---
+
 Dalla Prefazione: “quanto sarei felice se queste pagine entrassero in tante case e diventassero uno specchio di verità...”.
 
 > “Questo libro vuole essere il faro nella tempesta...”

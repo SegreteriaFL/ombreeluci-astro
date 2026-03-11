@@ -1,4 +1,5 @@
 ---
+
 title: Due videocassette utili per incontri di riflessione e di preghiera
 date: 2000-06-20
 author: Natalia Livi
@@ -14,7 +15,10 @@ umap_z: 10.57875919342041
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Due video che suscitano speranza e, proprio per questo, gioia. Vivamente consigliati ai nostri lettori."
 ---
+
 Le testimonianze di Mariangela Bertolini, Chiara Amirante, suor Monica Bano, Anna e Massimo La veroni, Mariagrazia Labbate, Luigina e Luciano Navone e Carla Zichetti danno nuovo senso al **MAGNIFICAT** nel nostro tempo, in questo video della durata di 45 minuti che può essere acquistato nei negozi specializzati o richiesto direttamente agii editori.
 
 Il **MAGNIFICAT** è il canto della speranza e della gioia proclamato dalla Vergine Maria nell’incontro con Elisabetta. Oggi è tra le preghiere più amate dalla Chiesa. Il commento è di Angelo Comastri, Arcivescovo Delegato Pontificio di Loreto. In questo video egli ci guida attraverso la basilica lauretana fino alla piccola casa di Nazareth sui cui gradini sono impresse le orme di milioni di pellegrini venuti qui a inginocchiarsi e a lodare il Signore. Sotto l'impulso delle sue parole sembra di fare lo stesso percorso, il percorso da una realtà esterna satura di confusione e di difficoltà fino al silenzio, alla fiducia e alla lode. Confermano e approfondiscono le parole di Mons. Comastri le belle testimonianze.

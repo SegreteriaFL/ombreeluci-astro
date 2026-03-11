@@ -1,4 +1,5 @@
 ---
+
 title: Tranquilla e soddisfatta di me stessa
 date: 2020-02-26
 author: Francesca Cabrini
@@ -15,6 +16,7 @@ issue_number: OEL-149
 id_numero: "OEL-149"
 numero_rivista: "Ombre e Luci"
 ---
+
 Sedicenne, incontrai Maria in oratorio. Era con la mia catechista Carla, aveva 25 anni e un viso un po’... insolito. «Lei è Maria – mi disse Carla sorridendo – si è appena rimessa da un intervento al volto». È stato questo l’inizio dell’amicizia tra una ragazzina di Milano cresciuta nella bambagia e una ragazza che di bambagia ne aveva vista e vissuta ben poca.
 
 **Come è stata la tua infanzia?** Serena. La mia famiglia era composta da sei persone: mamma, papà e noi quattro – Lia, Anna, Maria e Chiara. In realtà però le figlie erano cinque: la prima, Mercedes, morì a tre mesi per una gastrite fulminante. Papà era ragioniere e la mamma, laureata in filosofia (cosa non comune per i suoi tempi) scelse di non insegnare per dedicarsi a me. In famiglia entrava quindi un solo stipendio per sei, la vita era dura e qualsiasi cosa di cui avessi bisogno era a pagamento, allora non c’erano aiuti pubblici. Frequentai la scuola per motulesi e lì mi resi conto di non essere come tutti gli altri. I ragazzi con disabilità erano emarginati insieme alle loro famiglie. I miei genitori hanno avuto grandi meriti e tanto coraggio: mi hanno seguita, aiutata a scuola e portata in ogni luogo incuranti degli sguardi e dei giudizi non sempre buoni della gente. Entrati a Fede e Luce, vi hanno collaborato in molti modi. Non hanno fatto come altri genitori che avendo una persona con disabilità in famiglia la tenevano nascosta: erano tempi in cui la disabilità era ritenuta una vergogna e una colpa. Per questo mia mamma ha fatto tanti pianti.

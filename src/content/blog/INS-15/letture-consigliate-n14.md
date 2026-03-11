@@ -1,4 +1,5 @@
 ---
+
 title: Letture consigliate n.14
 date: 1977-09-20
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-15
 id_numero: "INS-15"
 numero_rivista: "Insieme"
 ---
+
 ### Le professioni della salute
 
 di Giacomina Lapenna, Libreria Internazionale della Famiglia, p.221, lire 4.000 Un libro guida sulle professioni nel campo sanitario, che interessa giovani, genitori, insegnanti ecc.
@@ -24,6 +26,7 @@ di Giacomina Lapenna, Libreria Internazionale della Famiglia, p.221, lire 4.000 
 di Barker, Bensberg, Chapman, Dobbins, Duke, e altri autori, Armando Editore, p. 181, lire 2.000 La prima parte del libro è teorica e si rivolge soprattutto agli assistenti che lavorano nelle Istituzioni. Interessante il capitolo IV, che offre una serie di consigli molto giusti. La seconda parte invece presenta 180 giochi o attività che possono essere utili a genitori, fratelli, sorelle o amici e beninteso agli educatori che quest'estate si occuperanno di un gruppo.
 
 Senza essere un'opera eccezionale è un manuale in cui si potrà trovare un gran numero di attività realizzabili.
+
 
 ---
 

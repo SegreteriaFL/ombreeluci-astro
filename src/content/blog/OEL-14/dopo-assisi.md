@@ -1,4 +1,5 @@
 ---
+
 title: Dopo Assisi
 date: 1986-06-24
 author: Redazione
@@ -21,6 +22,7 @@ issue_number: OEL-14
 id_numero: "OEL-14"
 numero_rivista: "Ombre e Luci"
 ---
+
 Indice: - [Come uomo e come medico](#uomo) - [Per noi di Mazara è stato…](#pernoi) - [Mai distruggere ciò che Egli ci ha dato](#mai) - [Una brutta bestia](#una) - [Quasi l’impossibile](#quasi) - [Occhi adatti per scoprirlo](#occhi) - [«Che vuoi che io faccia?»](#chevuoi) - [Mi sono sentita più ricca](#misono) - [Io so che non dimenticherò](#ioso) - [Hanno fatto il possibile](#hanno)
 
 ### 1. Come uomo e come medico [Torna su](#indice)

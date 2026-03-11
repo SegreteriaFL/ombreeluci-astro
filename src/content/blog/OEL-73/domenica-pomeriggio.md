@@ -1,4 +1,5 @@
 ---
+
 title: Domenica pomeriggio
 date: 2001-03-09
 author: Maria Teresa Mazzarotto
@@ -14,7 +15,10 @@ umap_z: 10.338802337646484
 issue_number: OEL-73
 id_numero: "OEL-73"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un gruppo di ragazzi organizza un'uscita domenicale: non vanno al cinema o a passeggio e nemmeno partono per una scampagnata"
 ---
+
 Domenica pomeriggio, ore 16: un gruppo di amici della [Comunità di S. Egidio](https://www.santegidio.org/) è riunito in Trastevere nella piazzetta da cui hanno preso il nome, dove si trova anche la loro, ormai storica, sede. Sono ragazzi giovani e meno giovani, sono in maggioranza ragazzi con qualche disabilità. Si stanno organizzando per un’uscita domenicale. Salgono in diverse macchine e partono: non vanno al cinema e nemmeno a passeggio, non partono per una scampagnata. La loro mèta è più vicina. Sono diretti al Cottolengo di via di Villa Alberici dove le suore ospitano signore anziane, spesso molto avanti negli anni, spesso sole al mondo, o dimenticate dai parenti, o lontane dalle loro famiglie. Da ormai quindici anni questi ragazzi, alternandosi con il gruppo della Garbatella della stessa Comunità, trascorrono il pomeriggio festivo con queste amiche più anziane. Nel salone dell’istituto si chiacchiera insieme, si fa musica, si canta, a volte si balla. Qualche perplessità o diffidenza iniziale da parte delle ospiti è stata superata e ora, come dice Antonella, «ci aspettano come fossimo una loro famiglia».
 
 Arrivano in gruppo ma poi nascono spontaneamente gli abbinamenti: ogni ragazzo siede vicino alla sua protetta, quella con cui sente maggiore affinità. Con lei può chiacchierare, ridere o anche restare in silenzio godendosi la sensazione di essere per lei una buona compagnia, un conforto importante.

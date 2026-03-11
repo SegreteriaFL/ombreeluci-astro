@@ -1,4 +1,5 @@
 ---
+
 title: La memoria del bello
 date: 2012-09-16
 author: Cristina Tersigni
@@ -17,7 +18,10 @@ umap_z: 9.43907642364502
 issue_number: OEL-119
 id_numero: "OEL-119"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un progetto dedicato ai pazienti con malattia di Alzheimer che prevede una serie di visite guidate per i pazienti e i loro caregivers"
 ---
+
 “Lamemoria del bello” è un progetto dedicato ai pazienti con malattia di **[Alzheimer](https://www.ombreeluci.it/tag/alzheimer/)** e prevede una serie di visite guidate per i pazienti e i loro *caregivers* (familiare/accompagnatore che si prende cura della persona malata).
 
 **L’Alzheimer, la più diffusa forma di demenza senile, è una malattia sempre più presente nella società contemporanea** . Attualmente in Italia i malati di Alzheimer sono circa 600.000, ma si prevede che il loro numero raddoppi nei prossimi 10 anni.

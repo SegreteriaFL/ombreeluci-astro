@@ -1,4 +1,5 @@
 ---
+
 title: "Perché proprio a Roma il pellegrinaggio del 1975?"
 date: "1975-07-03"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Fede"
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Insieme ai nostri fratelli più fragili e al loro cuore più disposto del nostro andremo ad afferrare, con intuizione di amore, il triplice aspetto del mistero del pontificato"
 ---
+
 I nostri fratelli handicappati, che verranno in [pellegrinaggio](https://www.ombreeluci.it/project/insieme-n-6/), non potranno apprezzare tutte le ricchezze della storia e dell'antichità che Roma offre agli spiriti colti, anche se l'esperienza dimostra che sono capaci di afferrare il significato delle Catacombe, del Colosseo, delle grandi basiliche, molto più di quel che pensiemo. Ma saranno attirati da altre cose.
 
 Nella semplicità del loro cuore, andranno direttamente all'essenziale: Roma è il Papa, è la persona del Papa attuale, è Paolo VI.

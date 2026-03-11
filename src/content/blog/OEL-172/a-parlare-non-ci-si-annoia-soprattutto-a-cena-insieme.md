@@ -1,4 +1,5 @@
 ---
+
 title: A parlare non ci si annoia, soprattutto a cena insieme
 date: 2025-09-10
 author: Benedetta Mattei
@@ -17,7 +18,10 @@ umap_z: 9.524401664733887
 issue_number: OEL-172
 id_numero: "OEL-172"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Benedetta e le cene di fine estate a Roma"
 ---
+
 Mi piace organizzare le cene per conto mio. Faccio così. Penso, prima di tutto. Mi organizzo nella mia testa zitta zitta
 **senza dire niente a nessuno. Penso con chi voglio andare a cena, quando e dove.**
 Dove è facile perché mi torna bene andare al ristorante vicino casa che si chiama

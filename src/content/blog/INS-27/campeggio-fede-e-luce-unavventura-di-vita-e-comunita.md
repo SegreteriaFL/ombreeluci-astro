@@ -1,4 +1,5 @@
 ---
+
 title: "Campeggio Fede e Luce: un'avventura di vita e comunità"
 date: "1980-12-16"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-27
 id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
+
 Campeggio è...
 ...riunirsi a maggio-giugno e, viste le proporzioni (o meglio le sproporzioni) fra le tre componenti, dirci un pò sbigottiti: "Qui, se qualcuno non guarda giù, sarà difficile farcela"
 ...decidere, in luglio, che nonostante tutto si può e si deve partire. E si parte!

@@ -1,4 +1,5 @@
 ---
+
 title: Cammino di trasformazione
 date: 2022-08-08
 author: "Tiziana D'Ambrosio"
@@ -18,6 +19,7 @@ issue_number: OEL-158
 id_numero: "OEL-158"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ilgruppo Nain si incontra una volta al mese a Romena, in Toscana, per intraprendere un cammino di trasformazione. I genitori che lo desiderano possono piantare un mandorlo in ricordo del proprio figlio. Qui, l’aspetto più importante è stato quello di incontrare dei genitori che hanno perso, come me, i figli da suicidio, e **rendermi conto di non essere una mamma così diversa rispetto a chi non ha provato il nostro stesso dolore** , e capendo che non abbiamo nulla di sbagliato.
 
 Durante il primo incontro sono stata accolta da due mamme che avevano perso i loro figli da più tempo di me: attraverso i loro racconti ho intravisto una luce di speranza. Per me era impossibile che la mia vita potesse andare avanti senza di lui. Nonostante non si possano trovare risposte al gesto così estremo di un figlio, grazie ai vari incontri con altri genitori mi sono resa conto che si può tornare a vivere. **Mi sono sentita protetta e capita senza dare alcun tipo di spiegazione.**

@@ -1,4 +1,5 @@
 ---
+
 title: Le persone pluri-handicappate
 date: 1986-03-27
 author: Anna Cece
@@ -18,6 +19,7 @@ issue_number: OEL-13
 id_numero: "OEL-13"
 numero_rivista: "Ombre e Luci"
 ---
+
 *In generale possiamo dire che le persone che associano in sé varie minorazioni. Una loro definizione rimane comunque confusa e complessa, ma tentiamo lo stesso una descrizione, allo scopo di aiutarci a identificare il tipo di persone a cui ci riferiamo.*
 I vari deficit che si sommano sono di ordine:
 - **sensoriale** : sono cioè colpiti gli organi di senso, soprattutto vista e udito, con conseguente cecità e/o sordità più o meno completa; - **neurologico** : cioè un danno del sistema nervoso centrale, colpito da lesioni di varia natura con conseguente deficit motorio (paralisi spastica, emiplegie, paresi, ipotonia muscolare...) e/o disturbi «focali» (epilessia con crisi convulsive, o assenze...) - **disordini psicocomportamentali** (che quasi sempre si sommano ai precedenti).

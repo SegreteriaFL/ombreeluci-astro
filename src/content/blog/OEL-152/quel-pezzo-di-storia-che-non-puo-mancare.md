@@ -1,4 +1,5 @@
 ---
+
 title: "Quel pezzo di storia che non può mancare"
 date: "2020-12-14"
 author: "Giulia Galeotti"
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 # Aiutaci a farci conoscere!
 
 ## Regala Ombre e Luci a soli 10€

@@ -1,4 +1,5 @@
 ---
+
 title: L’arte di rialzarsi
 date: 2022-06-08
 author: Laura Coccia
@@ -15,6 +16,7 @@ issue_number: OEL-157
 id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
+
 Osservare un bambino che interagisce con un animale è una delle cose più tenere del mondo, perché **sembra che parlino la stessa lingua.** Come spesso accade ai bambini con disabilità, nel corso della mia infanzia mi sono stati proposti diversi tipi di fisioterapia, tra questi non poteva mancare l’ippoterapia ovvero la terapia più bella del mondo. Per me.
 
 Eppure, l’inizio non era stato entusiasmante. Mi avevano affidato un cavallo baio, molto bello ma anche molto giovane e poco incline alla monotonia dei giri all’interno del maneggio che mi ha disarcionato due volte, senza farsi troppi scrupoli. Dopo la seconda caduta, avevo cominciato ad avere paura, anche se quelle due ore a settimana mi davano l’illusione di avere un cavallo tutto mio, con il quale sognare mille e un’avventura come fossi una principessa delle favole.

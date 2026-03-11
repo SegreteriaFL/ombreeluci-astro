@@ -1,4 +1,5 @@
 ---
+
 title: Imperfetta
 date: 2020-03-27
 author: Nicla Bettazzi
@@ -15,6 +16,7 @@ issue_number: OEL-149
 id_numero: "OEL-149"
 numero_rivista: "Ombre e Luci"
 ---
+
 Con *Imperfetta* Andrea Dorfman affronta con ironia, equilibrio e straordinaria gradevolezza il problema che ha sempre avuto con il suo ingombrante naso, e con i canoni estetici che non hanno mai smesso di tormentarla. Un bel giorno, durante una vacanza, incontra Dave, chirurgo plastico. «Il fatto che il suo lavoro fosse operare persone in perfetta salute per renderle più belle mi infastidiva così tanto che mi chiedevo se saremmo mai diventati amici». Ma ci sono le passeggiate, l’oceano, i picnic sulla sabbia. Scatta qualcosa. Il rapporto con lui obbliga Andrea a ripensare la propria storia. E le proprie domande. Di punto in bianco – racconta – «il mio naso smise di essere un difetto e tornò ad essere il mio naso». *Imperfetta* è uno di quei libri da passare di mano in mano, dove a ognuno può venire la fantasia di parlare o disegnare di sé e mettere il proprio seguito.
 
 ##### Acquista questo libro in uno dei siti del circuito **[Helpfreely](https://www.helpfreely.org/it/) .**

@@ -1,4 +1,5 @@
 ---
+
 title: Riappropriarsi della propria firma
 date: 2021-03-01
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Trentasette secondi senza respirare sono stati i primi della vita di Yuma, causandole una paralisi cerebrale infantile con le cui conseguenze, ormai ventiquattrenne, convive in maniera apparentemente serena. Abita con la madre, affettuosa e apprensiva, ed è sufficientemente autonoma da riuscire a muoversi da sola per Tokyo sulla sedia a rotelle elettrica. Lavora come disegnatrice di manga, ma a firmare le sue opere è la cugina prestanome e sono proprio la volontà di vedere riconosciuto il suo talento e la necessità di vivere nuove avventure da riversare nell’arte a spingerla a uscire dai confini della sua esistenza protetta. Ed è così che Yuma scopre ciò che la madre aveva sempre provato a celarle, nel tentativo di proteggerla. È la debuttante Mei Kayama, realmente affetta da paralisi cerebrale, a interpretare Yuma.
 
 La sua recitazione è spontanea, ed è soprattutto lo sguardo tenero ma affamato di vita, assieme alla flebile voce, a donare tridimensionalità al personaggio, rendendo credibile la rappresentazione di cosa significhi convivere con una malattia debilitante che però non impedisce di condurre un’esistenza piena. La vicenda è molto tenera, ma le esigenze narrative rendono alcuni incastri della storia troppo forzati. Dopo una brillante accoglienza alla Berlinale e una proficua vita festivaliera che lo ha visto anche trionfare all’ultima edizione del Rome Independent Film Festival, *37 Seconds* (2019) della regista Hikari è stato acquistato da Netflix per la distribuzione internazionale sulla sua piattaforma. E così questo piccolo film giapponese senza star che, probabilmente, non avrebbe trovato grande spazio nelle sale, potrà raggiungere il pubblico di tutto il mondo.

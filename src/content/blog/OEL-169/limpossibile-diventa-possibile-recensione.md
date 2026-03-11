@@ -1,4 +1,5 @@
 ---
+
 title: "L'impossibile diventa possibile | Recensione"
 date: 2025-03-18
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 5.773156642913818
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un itinerario dedicato al centenario dalla nascita di Franco Basaglia tra ex ospedali psichiatrici dove la creatività ha dato vita ad esperienze di cura e cultura."
 ---
+
 «S**arebbe possibile realizzare la legge Basaglia oggi?»** , si domanda, un po’ sconsolata, Giulia Galeotti durante la presentazione del libro sulla nuova vita degli ex manicomi italiani, da lei curato: *L’impossibile diventa possibile* (Castelvecchi 2024) è il titolo che riprende una frase di Franco Basaglia alla cui rivoluzione il testo è dedicato. Anche la vivace platea intervenuta scuote la testa… I tempi che stiamo vivendo – riflette Galeotti – sembrano **ripensare traguardi che pensavamo di poter dare per scontati per i nostri figli** : ci dobbiamo piuttosto preparare e reagire a vere e proprie marce indietro. Come quella denunciata quello stesso giorno da Massimo Gramellini nel suo *Caffè* quotidiano sul Corriere della Sera, in cui commentava quanto accadeva in Argentina, con il presidente Milei che impone il ritorno di termini come idiota, ritardato, imbecille per descrivere il grado di disabilità cognitiva.
 
 «Parole che ledono la dignità delle persone», sottolinea anche Dorota Swat, traduttrice e moderatrice della **presentazione del libro, svoltasi presso la Biblioteca Comunale Franco Basaglia di Roma** , nel quartiere **Primavalle** . È una delle biblioteche della rete comunale, «patrimonio della comunità» per quanto, sottolinea Galeotti, conservano di prezioso e spesso non più rintracciabile. **Una biblioteca di quelle che illuminano le periferie della capitale** con sale accoglienti, luoghi di incontro e di studio e confronto, da non smettere di frequentare e sostenere.

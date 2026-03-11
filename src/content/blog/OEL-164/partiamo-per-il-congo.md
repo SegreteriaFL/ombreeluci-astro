@@ -1,4 +1,5 @@
 ---
+
 title: Partiamo per il Congo!
 date: 2023-11-16
 author: Andrea Posa
@@ -14,4 +15,8 @@ umap_z: 9.374738693237305
 issue_number: OEL-164
 id_numero: "OEL-164"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Andrea Posa racconta il viaggio in Africa dove lavora la sorella Lela"
 ---
+
+

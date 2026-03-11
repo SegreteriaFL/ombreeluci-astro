@@ -1,4 +1,5 @@
 ---
+
 title: "L'emozione non ha voce"
 date: 2014-03-29
 author: Cristina Tersigni
@@ -17,6 +18,7 @@ issue_number: OEL-125
 id_numero: "OEL-125"
 numero_rivista: "Ombre e Luci"
 ---
+
 Un gruppo di genitori di adolescenti e adulti nello spettro autistico di Roma ha fondato **L’emozione non ha voce onlus** . Per Fabio Bernardini, genitore e responsabile marketing e comunicazione dell’associazione, “ *Non può nascere nulla se si rimane confinati e isolati all’interno della ‘mia’ famiglia, della ‘mia’ scuola o in un’ora di attività sociale… se questi giovani mancano di intelligenza sociale allora devono essere curati con tanta socialità* ”. E con progetti molto diversificati e strutturati come potenziali attività lavorative e remunerative, l’associazione cerca di colmare il vuoto che esiste intorno ai giovani affetti da [autismo](https://www.ombreeluci.it/autismo/) ormai usciti dal percorso scolastico.
 
 È già alla sua seconda edizione il **progetto Cantiere** nel quale alcuni ragazzi vengono avviati a lavori edili e di ristrutturazione. Diventano operai, muratori, carpentieri, imbianchini… per realizzare un progetto comune. Tutto in sicurezza con le necessarie attrezzature e le persone qualificate.

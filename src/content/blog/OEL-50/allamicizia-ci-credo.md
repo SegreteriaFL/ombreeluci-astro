@@ -1,4 +1,5 @@
 ---
+
 title: "All'amicizia ci credo"
 date: 1975-02-07
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 8.378159523010254
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Pina ci racconta la sua storia e di quanto l'affetto delle sue amiche più care abbia significato per lei"
 ---
+
 Sono una ragazza di 20 anni, anzi quasi 21, e mi chiamo Pina, La mia infanzia è trascorsa girando sempre per i collegi, dove venivo curata e dove ho incominciato per la prima volta a carminare. Perché io, ancora non ve l'ho detto, sono colpita ad una gamba dalla poliomielite.
 
 Ma non me la prendo. Sto bene anche così. Sono una ragazza come tutte le altre, **non mi manca niente; solo una cosa, la più importante: l’amore che io spero presto di dare al ragazzo che amo** .

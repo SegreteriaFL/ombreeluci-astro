@@ -1,4 +1,5 @@
 ---
+
 title: Roberta
 date: 1992-06-06
 author: Sergio Sciascia
@@ -15,6 +16,7 @@ issue_number: OEL-38
 id_numero: "OEL-38"
 numero_rivista: "Ombre e Luci"
 ---
+
 **R oberta**
 , 28 anni, secondo il suo certificato di invalidità è limitata da «modesta oligofrenia in soggetto con polidismorfismo», conseguenza di una lesione cerebrale «di modico grado», che le ha portato un «deficit delle prestazioni intellettive» e un «incoordinamento motorio». Inoltre ha una malformazione renale che col tempo le ha causato un diabete insipido. Roberta nacque di 6 mesi e 10 giorni, prematura e immatura: pesava un chilo. Passò i primi quattro mesi in incubatrice. Portata a casa, aveva attacchi di febbre di cui non si capiva la causa (sarebbe poi stata individuata nell'azotemia alta, conseguenza della malformazione renale). A 10 mesi un forte attacco di convulsioni. Portata in ospedale, fu addormentata col cloralio idrato in sala operatoria. In conseguenza manifestò un regresso: poteva stare solo supina.
 **Roberta è stata aiutata nel crescere da molte figure professionali, quasi tutte femminili**

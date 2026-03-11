@@ -1,4 +1,5 @@
 ---
+
 title: "Cammino d'amore"
 date: 1990-09-26
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-31
 id_numero: "OEL-31"
 numero_rivista: "Ombre e Luci"
 ---
+
 U
 na spiritualità è un cammino d'amore. «Ci sono molte dimore nella casa di mio Padre». Ci sono anche molte strade per arrivarci. Nella Chiesa numerose sono le strade d’amore tracciate da persone prestigiose, i santi: Francesco d’Assisi, la povertà; Domenico, la fede, la verità; Benedetto, la contemplazione, la pace; Teresa di Lisieux, la piccola via della fiducia ... Si parla anche di spiritualità coniugale, sacerdotale. Si può parlare, allora, di spiritualità di Fede e Luce? C’è, a Fede e Luce, un cammino d’amore che ci è proprio e sul quale ci ritroviamo? Ascoltandovi, guardandovi vivere, ho rilevato alcuni punti che potrebbero essere elementi di questa spiritualità.
 **Nella Chiesa**

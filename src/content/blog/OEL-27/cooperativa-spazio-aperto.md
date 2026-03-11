@@ -1,4 +1,5 @@
 ---
+
 title: Cooperativa Spazio aperto
 date: 1989-06-21
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 8.591083526611328
 issue_number: OEL-27
 id_numero: "OEL-27"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Nascita e organizzazione di una cooperativa di solidarietà sociale"
 ---
+
 Lavorare non è solo un mezzo per guadagnarsi da vivere. È anche un modo per mettere alla prova le proprie capacità e per far nascere nuovi rapporti umani. Ne sono profondamente convinti coloro che hanno dato vita alla [Cooperativa «Spazio Aperto»](http://spazioaperto.coop/) , nata cinque anni fa a Milano con lo scopo di facilitare l'inserimento nella vita attiva e lavorativa di persone con carenze psico-fisiche.
 
 Trenta persone — dieci genitori di ragazzi che frequentano l’ANFFAS, dieci dipendenti e dieci amici volontari — hanno costituito il primo nucleo della Cooperativa che, figlia dunque dell’ANFFAS, ha avuto dall’Associazione stessa tutti gli aiuti possibili per consolidarsi.

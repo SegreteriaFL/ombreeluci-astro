@@ -1,4 +1,5 @@
 ---
+
 title: La malattia mentale
 date: 1988-03-28
 author: Redazione
@@ -17,6 +18,7 @@ issue_number: OEL-21
 id_numero: "OEL-21"
 numero_rivista: "Ombre e Luci"
 ---
+
 Incontrare un malato mentale è spesso difficile per diverse ragioni. Una delle più importanti è la sua «stranezza» che sconvolge. Anche quel termine «malattia mentale» suggerisce che è una malattia come un’altra mentre, per molti versi, non lo è. Lungi dal rispondere alle molte domande che la malattia mentale suscita, queste poche righe vogliono darne un’idea (un po’) più precisa e favorire questo incontro.
 
 Una prima precisazione consiste nel notare in modo molto schematico la differenza con l’handicap.

@@ -1,4 +1,5 @@
 ---
+
 title: La paura degli altri
 date: 1974-06-28
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ umap_z: 12.425450325012207
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Per questo ho voluto raccontare queste cose, che sono sì un'esperienza personale ma che possono servire ad altri papà e mamme che ancora hanno tanta paura degli altri."
 ---
+
 Èsciocco... è orgoglio... è sbagliato... lo so; farebbe bene alla bambina...lo so! So tante cose, pensate, rimuginate, sentite, sofferte. Devo portarla fuori, con gli altri, come gli altri, dove vado, in qualsiasi posto.
 
 Si fa presto a dire.

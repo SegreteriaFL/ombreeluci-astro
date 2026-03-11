@@ -1,4 +1,5 @@
 ---
+
 title: "Cosa è e come funziona una comunità Fede e Luce"
 date: "1981-12-20"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### È sufficiente che ci sia incontro perché ci sia Comunità?
 
 È possibile creare un tessuto comunitario restando ognuno nel proprio ambiente? È la sfida che fa Fede e Luce.

@@ -1,4 +1,5 @@
 ---
+
 title: Incontro internazionale a Cuneo - 28-29 aprile 1979
 date: 1979-09-16
 author: Lucia Pennisi
@@ -16,7 +17,10 @@ umap_z: 13.507296562194824
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Un mosaico di voci racconta l'incontro nazionale di Fede e Luce a Cuneo: dall'organizzazione all'accoglienza nelle case, emerge il ritratto di una comunità unita da gioia e autentica fraternità."
 ---
+
 Provo ad immaginare cosa succedeva a Cuneo nei giorni antecedenti l'incontro nazionale di fine aprile? Liliosa, sommersa da fogli e foglietti, liste e contro-liste, cerca di riordinare le idee, di compilare elenchi definitivi.
 
 - "No, non ce la farai mai a sapere chi siamo e in quanti siamo!" - e si sforza di tener dietro ai cambiamenti che si susseguono vorticosamente, alle pressioni, alle domande che le giungono da oggi parte.
@@ -43,11 +47,15 @@ La risposta è lunga e pesca nel profondo di noi, e di quella certezza che ci un
 
 **Patrick Thonon** - Bruxelles
 
+
+
 ---
 
 *Sabato 28 aprile siamo partiti in 23 per Cuneo, viaggiando con il sole siamo arrivati con tanto entusiasmo a destinazione alle 15.30. L'incontro dei vari gruppi è stato interessante: sentire le varie esperienze ci ha fatto piacere, perché tutti svolgono le loro attività con serenità e gioia.* *L'incontro di Mariangela con i genitori ha dato molta forza anche a noi, perché ci ha fatto capire con semplicità, come si può accettare il male serenamente. Siamo tutti un po' handicappati; ma l'handicappato mentale ci insegna ad accettare tutti, senza distinzione. Avremmo voluto che il nostro gruppo fosse là al completo, per ascoltarla.* *La veglia è stata molto bella, ci ha fatto riflettere come donare più amore ai piccoli, che dovrebbero essere i prediletti. Nella Messa ci siamo sentiti molto uniti e ci sentiamo rinati nell'amore di Cristo. L'incontro dei giovani è stato significativo e il nostro dialogo chiaro e spontaneo.* *La festa di chiusura è stata molto gioiosa, con canti, danze e risate a non finire.* *Sentiamo il bisogno di ringraziare tutti per l'accoglienza veramente fraterna o molto affettuosa.*
 
 **M. Teresa Tizzani** - Milano
+
+
 
 ---
 

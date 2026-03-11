@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 65
 date: 1999-07-16
 author: Redazione
@@ -15,6 +16,7 @@ umap_x: 7.086318016052246
 umap_y: 9.16144847869873
 umap_z: 12.963218688964844
 ---
+
 ### Il mio modo di intendere Fede e Luce
 
 Ho letto più volte l’articolo di Olga Burrows Gammarelli "Amici a Fede e Luce” (Ombre e Luci n° 62) e, dopo aver a lungo riflettuto, desidero fare anch’io qualche riflessione. Sono la mamma di Flaminia, cerebrolesa ora ventenne, che è entrata a far parte di [Fede e Luce](https://www.fedeeluce.it) a quattro anni. Comincio subito puntualizzando che non sono d’accordo con la distinzione schematica fatta nell'articolo sopracitato. Posso capire che può far sorridere chiamare **RAGAZZI** delle persone adulte (altre organizzazioni li chiamano "ammalati” e lo trovo molto più triste), per quanto riguarda però le altre due parole, **GENITORI** ed **AMICI** , sono per me termini che "normalmente nella vita quotidiana” hanno lo stesso significato che gli riconosco a Fede e Luce.
@@ -28,6 +30,7 @@ Da quando Fede e Luce è entrata nella nostra vita, sono già sedici anni, abbia
 Questo permetterebbe anche di essere AMICI di tutti i RAGAZZI senza impostare rapporti esclusivi che poi creano incomprensioni quando un RAGAZZO sembra avere più attenzioni degli altri. Anche noi GENITORI, comunque, abbiamo delle colpe se gli AMICI non sono come desidereremmo; penso sia avvilente suggerire a giovani che si accostano ai nostri figli con slancio ed anche con qualche timore, come devono “lavorare”. Noi dobbiamo, sicuramente, fornire tutti i consigli e gli aiuti pratici; perché i nostri figli sono delicati e richiedono cure particolari, ma dobbiamo permettere, senza interferenze, che AMICI e RAGAZZI scoprano come costruire la loro amicizia, illuminati dal Signore che troverà il modo per indicargli la strada da percorrere.
 
 **Paola P. Ceccarini**
+
 
 ---
 

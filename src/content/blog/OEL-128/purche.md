@@ -1,4 +1,5 @@
 ---
+
 title: "\"Purché\""
 date: "2014-12-15"
 author: "Sergio Sciascia"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-128
 id_numero: "OEL-128"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Durante le riunioni di redazione eravamo spesso in disaccordo. Quando io sottolineavo l'efficacia comunicativa di una tale scelta lei aggiungeva il suo intransigente e motivato purché"
 ---
+
 Per mezzo di “Ombre e Luci” conobbi Mariangela 32 anni fa. All’inizio con un filo di diffidenza, la stessa che all’inizio avevo per Fede e Luce.
 
 Un’amica, Manuela Bartesaghi, dagli entusiasmi impetuosi, mi aveva parlato di Jean Vanier, delle Arche e delle “comunità di incontro” di Fede e Luce basate sull’amicizia per i ragazzi handicappati (allora si usava questa parola) e i loro genitori. Questa amicizia mi pareva finzione caritatevole e un po’ ipocrita, mi pareva più giusto parlare di una buona azione per gli handicappati e le loro famiglie che vivono una vita molto difficile. Ma quando, molti mesi dopo, mi affacciai alla comunità S. Francesco nata da poco, vidi che mi sbagliavo.

@@ -1,4 +1,5 @@
 ---
+
 title: Metti da parte la fretta
 date: 2020-08-24
 author: Gianni Verni
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 Imparare e frequentare un'attività creativa e manuale non è mai un occupare il tempo come oggi spesso si pensa. Il concetto di hobby legato al fare qualcosa viene nobilitato dal fatto che il processo creativo, anche se i risultati possono sembrare poca cosa, coinvolge anima e corpo creando un legame tra il pensato ed il concreto. E questa è già una forma di terapia che allena la mente a concretizzare quello che si immagina. L’arte-terapia, per sua intrinseca funzione, non bada al risultato ma al percorso concentrandosi alle varie fasi che rappresentano il vero fine terapeutico e quindi creativo.
 
 Il manipolare la creta, ad esempio, non ci fa diventare sicuramente degli scultori ma ci fa provare l’esperienza della modellazione, che possiamo controllare e determinare con la mente ma anche e soprattutto con le nostre mani. Il risultato poi sarà semplicemente una forma, più o meno complessa, che rispecchierà tutto di noi, dallo stato d’animo alla nostra forma mentale passando per la tensione creativa.

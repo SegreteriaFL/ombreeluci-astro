@@ -1,4 +1,5 @@
 ---
+
 title: Di provini, porte ed energia
 date: 2025-08-20
 author: Niccolò Scarnato
@@ -14,7 +15,10 @@ umap_z: 3.504135847091675
 issue_number: OEL-171
 id_numero: "OEL-171"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La mia esperienza di casting per «La Vita da Grandi»"
 ---
+
 Erano i primi di settembre del 2023 quando Margherita Tercon ha pubblicato un annuncio per una produzione cinematografica che cercava un attore autistico con un’età scenica di 30-40 anni. Bisognava inviare un videotape di presentazione a lei, che poi lo avrebbe girato alla produzione.
 
 Con mia sorpresa, fui subito contattato. **Mi inviarono un copione da recitare in un altro videotape da mandare loro e, dopo poco, ricevetti una telefonata: mi volevano il giorno dopo a Roma** , agli studi di Tiburtina, per un provino dal vivo per *La Vita Grandi* ( [disponibile su Netflix](https://www.netflix.com/it/title/81774954) ). Mi pagarono il biglietto dei mezzi pubblici, mi vennero a prendere alla stazione e, una volta agli studi, incontrai direttamente la regista, Greta Scarano. Non avevo idea di chi fosse. Presente gli interessi ristretti? Ecco, la stessa cosa poi mi è successa [quando ho lavorato](https://www.ombreeluci.it/2025/cambiamenti-in-arrivo-nel-cinema-italiano/) con Lorenzo Flaherty in *Le Ali Invisibili* ( [disponibile su Rai Play](https://www.tulipanidisetanera.rai.it/dl/portali/site/articolo/ContentItem-2778e383-3122-4a3d-94c6-50053d33389a.html) ), non lo conoscevo prima di lavorarci. Il vantaggio è che non ho avuto pressioni.

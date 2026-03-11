@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 41
 date: 2018-06-18
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-41
 id_numero: "OEL-41"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Ho dato Ombre e Luci
 
 «Buon lavoro» a tutti voi di Ombre e Luci, di cui apprezzo moltissimo il contenuto. Mi auguro che si diffonda sempre più e porti un raggio di vera luce e di speranza sincera in chi ne ha veramente bisogno. Ho incontrato in ospedale, dove mi trovavo degente in questi giorni per intervento alla tiroide, una carissima signora, nonna di una bimba, Daniela, pluri-handicappata, assai grave. Ho parlato a lei della vostra rivista, ne ho spedito, oggi stesso, alcune copie, ma penso sia ottima cosa farle pervenire anche dalla vostra redazione una copia o due in visione, proponendole di abbonarsi.

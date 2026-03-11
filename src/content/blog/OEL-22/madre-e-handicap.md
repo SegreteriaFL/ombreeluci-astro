@@ -1,4 +1,5 @@
 ---
+
 title: Madre e handicap
 date: 1988-04-28
 author: Lucia Bertolini
@@ -17,6 +18,7 @@ issue_number: OEL-22
 id_numero: "OEL-22"
 numero_rivista: "Ombre e Luci"
 ---
+
 In questo libro è raccolto il risultato di una analisi condotta sulla base di testimonianze personali e di molteplici colloqui. Le due autrici, coinvolte per motivi familiari e di lavoro nei problemi dell’handicap, da sempre appassionatamente attente ai problemi della donna, conducono questi colloqui nell'ottica del femminismo, allo scopo di una precisa verifica: la maternità di un figlio «diverso», che sconvolge totalmente la vita di una madre, manda in frantumi anche gli schemi tradizionali su cui abitualmente ella modella la sua vita di donna? (Per schemi tradizionali esse intendono il ruolo subalterno nei confronti del marito e della società, la chiusura tra le pareti domestiche, il consumarsi per i figli, la propensione anche cieca al sacrificio, la rimozione del proprio desiderio di svago e di piacere... Il tutto vissuto non come scelta libera e personale, ma in obbedienza alle aspettative dell’ambiente che le circonda).
 
 La risposta emersa dall'analisi è negativa: l’essere madre di un figlio «diverso» non altera l’adesione a questi schemi, anzi, speso l’aumenta e la esaspera.

@@ -1,4 +1,5 @@
 ---
+
 title: Quaranta occhi puntati dritti su di te
 date: 2020-02-28
 author: Silvia Gusmano
@@ -15,6 +16,7 @@ issue_number: OEL-149
 id_numero: "OEL-149"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quaranta occhi puntati su di te. Una lavagna super tecnologica, mai vista prima, alle tue spalle. Dieci ore a settimana, per nove mesi, da trascorrere con quei piccoli sconosciuti pieni di aspettative.
 
 È dirompente l’impatto con l’insegnamento: un secondo primo giorno di scuola che non scordi più. Il giorno in cui inizi ad imparare ciò per cui nessuno ti ha preparata: cosa fare dietro una cattedra e come farlo. Non una volta per tutte (magari!), ma ora per ora, materia per materia (nel mio caso, italiano, storia e geografia); classe per classe (alle medie arrivano bambini ed escono adolescenti); e soprattutto alunno per alunno, famiglia per famiglia, problema per problema, talento per talento. Un mare magnum da capogiro in cui cerchi disperatamente punti di riferimento: colleghi competenti, indicazioni ministeriali comprensibili e poco altro.

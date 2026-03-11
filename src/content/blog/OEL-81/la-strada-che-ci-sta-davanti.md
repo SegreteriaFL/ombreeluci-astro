@@ -1,4 +1,5 @@
 ---
+
 title: La strada che ci sta davanti
 date: 2003-03-13
 author: Marco Bove
@@ -17,7 +18,10 @@ tags:
 umap_x: 7.916465759277344
 umap_y: 9.007343292236328
 umap_z: 12.638669967651367
+
+subtitle: "Che cosa chiede il Signore alle Comunità di Fede e Luce"
 ---
+
 Edopo trent’anni? Dopo tutto il cammino percorso sin qui, dove dobbiamo andare? Verso quali passi il Signore ci sta chiamando? Come questa nostra “famiglia” di Fede e Luce è chiamata a crescere per restare fedele alla sua vocazione?
 
 **Credo anzitutto che il Signore ci chieda di guardare con gioia e gratitudine al cammino sin qui percorso** e a leggere senza angoscia o tristezza anche il momento presente, che per alcuni di noi e per una parte delle nostre comunità è il tempo della “maturità”.

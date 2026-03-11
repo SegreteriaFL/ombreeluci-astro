@@ -1,4 +1,5 @@
 ---
+
 title: Corrispondenze (e zoomate) dalla Russia
 date: 2020-06-16
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Due settimane fa (primi di aprile, ndr) ho chiamato la mia amica Valentina della comunità di Santa Silvia di Roma per chiedere come stavano nella mia amatissima Italia. Ero al mercato per la spesa settimanale e per un po’ di scorte, perché non si sa mai. L’indomani doveva esserci la nostra casetta. “Niente casette, state tutti a casa - mi ha detto Valentina perentoria - prima vi abituate all’idea, meglio è”. Ho scrollato le spalle e ho pensato: “Ma non esageriamo!”. Quando sono tornata a casa ho scoperto che avevano chiuso le scuole e anche il Centro dove si svolgono le nostre casette. Ora, eccoci qua, a casa, a incontrarci ogni sera alle 8 su Zoom, per raccontarci come ce la passiamo, assistere all’arrivo delle candeline sulla torta e cantare “tanti auguri” (ma riesce malissimo!)».
 
 Olga Gurevitch, 45 anni, vive a Mosca, quasi al centro della città. Con lei, il marito Pavel e il cane Gaia. Insegna lingua italiana all’università e con il nostro Paese ha un rapporto speciale anche per via della profonda amicizia che la legava a Mariangela Bertolini. «La Russia è davvero molto grande - racconta Olga - ed è molto cambiata dagli anni Novanta, quando lei venne dopo la caduta del muro. Fede e Luce non è più l’unico posto che accoglie i ragazzi con amore. Se nell’Urss le persone con disabilità “non esistevano”, adesso sì, esistono, ma esistono pure enormi istituzioni che assomigliano a Gulag». In Russia, Fede e Luce conta 9 comunità a Mosca, 2 nei dintorni e 4 a San Pietroburgo. «Siamo molto uniti e ci riuniamo molte volte durante l’anno. D’estate ogni comunità fa un campeggio e ci divertiamo un sacco: insomma, una Fede e Luce normalissima!».

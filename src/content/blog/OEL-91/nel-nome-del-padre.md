@@ -1,4 +1,5 @@
 ---
+
 title: Nel nome del padre
 date: 2005-09-19
 author: Mariangela Bertolini
@@ -16,7 +17,10 @@ tags:
 umap_x: 4.63379430770874
 umap_y: 8.806584358215332
 umap_z: 7.607284069061279
+
+subtitle: "Nel numero di Ombre e Luci che esce a Natale (o poco dopo!) vorremmo parlare dei papà di figli con disabilità, oggi, nel 2005"
 ---
+
 Tutti si sono accorti di **quanto si parli poco dei papà nel mondo dell'handicap** . Come diceva mio marito, perfino Ombre e Luci si dimentica troppo spesso di loro.
 
 **È vero, ma era vero di più nei tempi passati, quando i papà si facevano indietro** , troppo indietro a volte, fino a sparire del tutto in certi casi; lasciando così la grave incombenza alla mamma.

@@ -1,4 +1,5 @@
 ---
+
 title: "Il Disabile nella Società: Prospettive di integrazione - Recensione libro"
 date: "2000-09-28"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Disabilità"
 issue_number: OEL-71
 id_numero: "OEL-71"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Pier Francesco Angelini - Edizione S. Paolo, pp. 188"
 ---
+
 In questo libro, viene fatto il punto sulla situazione del disabile nella nostra società partendo da un’analisi generale del problema fino ad arrivare al racconto delle proprie esperienze personali. L’autore è nato cerebroleso e può dunque parlare del disabile nella società sotto un’ottica nuova e personale.
 
 All'inizio si analizzano gli aspetti generali della disabilità e si descrivono le tipologie più frequenti. Viene poi studiato con precisione come si pone la legge di fronte al problema, i diritti che prevede e le norme in atto. L’autore descrive gli aspetti sociologici di questa realtà, dalle associazioni di volontariato alle varie forme di integrazione (la famiglie, il matrimonio, il problema della solitudine, le possibilità offerte dalla tecnica). Infine descrive le sue esperienze in vari campi come lo studio, il lavoro o lo sport (dal 1997 è campione del mondo di body-building, categoria disabili), parlando sia delle difficoltà che dei successi.

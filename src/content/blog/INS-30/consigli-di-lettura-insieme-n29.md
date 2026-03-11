@@ -1,4 +1,5 @@
 ---
+
 title: Consigli di lettura - Insieme n.29
 date: 1981-06-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### "Lavoriamo insieme"
 
 Collana a cura di Santina Donghi, responsabile del Centro di Formazione Animatori per la Pastorale del tempo libero dei ragazzi, edita dalla LDC.

@@ -1,4 +1,5 @@
 ---
+
 title: Visto da vicino
 date: 2010-09-30
 author: Pennablù
@@ -14,7 +15,10 @@ umap_z: 7.729596138000488
 issue_number: OEL-111
 id_numero: "OEL-111"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Una nuova testimonianza di Pennablù"
 ---
+
 ### Manuel
 
 Manuel ha quattro anni, due occhi neris- simi e grandi, spesso corrucciati o impauri- ti, sereni solo di rado. Frequenta la seconda classe di scuola materna con 18 coetanei. Dice solo qualche parola, disegna quando ne ha voglia, osserva ogni cosa intensa- mente, corre e salta di continuo. Dai compagni era inizialmente molto ammirato per la sua forza, i suoi giochi di movimento, le sue infrazioni alle regole con il passare dei giorni il suo silenzio ,la non partecipazione a diverse attività hanno creato qualche diffidenza o incertezza nei rapporti.

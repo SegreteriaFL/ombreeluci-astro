@@ -1,4 +1,5 @@
 ---
+
 title: Chiamati, tutti, al traguardo
 date: 2016-03-25
 author: Cristina Tersigni
@@ -15,6 +16,7 @@ issue_number: OEL-133
 id_numero: "OEL-133"
 numero_rivista: "Ombre e Luci"
 ---
+
 Anni fa un libro intitolato [*Chi sarei se potessi essere*](https://www.ombreeluci.it/2002/un-libro-interessante-adolescenza-ragazzi-disabili-chi-sarei-se-potessi-esserebozza-automatica/) (OL n.77/2002) offriva riflessioni importanti su come la disabilità di un certo “Signor Down” divenga motivo per limitare le aspettative di un suo ruolo sociale attivo.
 
 Egli, scelto perché chiaramente identificabile nella sua condizione di persona con una disabilità cognitiva, era emblema di tutti coloro che, “pur potendo divenire uomini e donne anche semplici, vengono invece trattenuti in un’infanzia perenne, fatti vivere in luoghi senza storia e senza tempo”. Vorremmo che per ognuno, nei modi adatti, sia invece possibile declinare il verbo adolescere al suo participio passato, adulto, come ci ricordava in un suo spettacolo Marco Paolini. Adulti che, pur con un deficit intellettivo, una volta cresciuti, siano capaci di scegliere, di prendersi delle responsabilità, di avere dei diritti e dei doveri.

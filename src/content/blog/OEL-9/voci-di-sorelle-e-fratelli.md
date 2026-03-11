@@ -1,4 +1,5 @@
 ---
+
 title: Voci di sorelle e fratelli
 date: 1985-03-30
 author: Mariangela Bertolini
@@ -18,6 +19,7 @@ issue_number: OEL-9
 id_numero: "OEL-9"
 numero_rivista: "Ombre e Luci"
 ---
+
 Si parla spesso della sofferenza dei genitori di un figlio con handicap. Si tace troppo spesso la sofferenza delle sorelle e dei fratelli di un bambino o di un giovane handicappato.
 **I fratelli e le sorelle sono spesso «trascurati» in questa loro pena segreta**
 . Temono di parlarne per primi, sia con i genitori (per non aumentarne la sofferenza già così dura), sia con gli «altri», per esempio con i compagni di scuola, per paura di rivelare una verità che spesso non sarà capita. Li blocca la paura di essere catalogati come «fratello di un mongoloide, sorella di uno spastico...» con quanto viene dietro all'uso così cattivo che si fa di questi nomi; la paura che, esprimendo la propria pena, non sia capito l’affetto grande che provano per quel fratellino o per quella sorellina...

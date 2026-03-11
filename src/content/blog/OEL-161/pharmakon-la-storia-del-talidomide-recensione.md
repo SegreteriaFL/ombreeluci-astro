@@ -1,4 +1,5 @@
 ---
+
 title: Pharmakon. La storia del talidomide - Recensione
 date: 2023-05-29
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 5.506852626800537
 issue_number: OEL-161
 id_numero: "OEL-161"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un podcast indipendente sulla vicenda del talidomide"
 ---
+
 Forse conosciamo le gravissime malformazioni che l’assunzione del farmaco talidomide in donne in gravidanza tra il 1957 e il 1961 ha comportato per i nascituri sopravvissuti (si calcola che gran parte delle gravidanze interessate dall’“epidemia” non sia arrivata a termine per complicazioni non compatibili con la vita). Forse, invece, **poco sappiamo quanto la vicenda sia stata decisiva per modificare e migliorare i protocolli di sicurezza nella commercializzazione di *ogni* farmaco.** E ancora troppo poco sappiamo di quanto alcuni di quei sopravvissuti (le cui storie particolari ascoltiamo narrate dai protagonisti, vite segnate ai loro inizi dal rifiuto, dall’abbandono, dalla vergogna, immersi come erano nel giudizio di una società che non vedeva possibile vite “felici” in quell’infelicità del corpo) ora sessantenni, ancora debbano combattere per avere un riconoscimento dallo stato italiano del danno subito.
 
 Alla stregua di un saggio poliedrico (interessando aspetti scientifici, storici, culturali e sociali), il podcast *Pharmakon* (in greco, rimedio, medicina ma anche veleno) offre il “giusto spazio e il giusto tempo” per approfondire le grandi e opposte -ignorate- implicazioni che il farmaco talidomide ha comportato (e comporta, per il suo più recente efficace utilizzo come immunomodulatore), per la vita di ciascuno di noi. **Un contenuto poco condiviso che, nella forma di un podcast, ha trovato modo di venire alla luce grazie ad un finanziamento dal basso con circa 350 donatori.**

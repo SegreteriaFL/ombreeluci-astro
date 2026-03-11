@@ -1,4 +1,5 @@
 ---
+
 title: "23 Maggio 1979: Festa della Primavera!"
 date: 1979-09-16
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 13.00280475616455
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Una giornata riuscita: fra svago e distensione per genitori e ragazzi, con l'accoglienza di amici francesi dell'Arche, la collaborazione tra tutti, tanti sorrisi e allegria"
 ---
+
 Cerco di scrivere con tutta la semplicità possibile poiché è con semplicità ed allegria che si è svolta domenica 27 maggio la "Festa della Primavera".
 
 È stato un obiettivo che abbiamo raggiunto unendo assieme tutto il nostro impegno, la nostra volontà e la nostra gioia. Gli sforzi collettivi si sono concentrati nel fare di questa festa un momento di distensione. e svago per genitori e ragazzi. Durante tutta la giornata di domenica abbiamo accolto un gruppo di amici francesi (40 persone dell'Arche "de la Merci") e abbiamo lavorato e giocato fino a sera.

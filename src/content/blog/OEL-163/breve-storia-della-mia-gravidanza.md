@@ -1,4 +1,5 @@
 ---
+
 title: Breve storia della mia gravidanza
 date: 2023-10-12
 author: Laura Coccia
@@ -14,7 +15,10 @@ umap_z: 7.000223159790039
 issue_number: OEL-163
 id_numero: "OEL-163"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La mia gravidanza è stata tutta diversa a partire dal fatto che sono una donna con una paralisi cerebrale e spasticità e che al riguardo non ci sia letteratura scientifica né nazionale né internazionale"
 ---
+
 Nello scrivere questo articolo una premessa è d’obbligo: racconterò un’esperienza precedente di qualche mese la pandemia di covid-19. La mia gravidanza è stata tutta diversa a partire dal fatto che io sia una donna con una paralisi cerebrale e spasticità, e che non ci sia letteratura scientifica né nazionale né internazionale a questo riguardo. Con i medici che mi seguivano abbiamo un po’ osservato gli eventi, controllando anche tutti i rischi comuni di una gravidanza. Gli studi medici per le visite di controllo, i prelievi e tutti i controlli di routine presentavano sempre una serie infinita di barriere per la mia disabilità e la mia pancia che cresceva sempre di più.
 
 Il 19 novembre 2019 mi sono ritrovata catapultata in ospedale con il diabete gestazionale, la gestosi e la colestasi, alla 31^ settimana di gravidanza e dopo essermi fatta mille problemi sulla mia disabilità, mi sono ritrovata a scontrarmi con patologie comuni che possono sopraggiungere in qualsiasi gravidanza. Perché al di là della disabilità, “anche noi” siamo soggette a ogni sorta di malattia di ogni comune mortale.

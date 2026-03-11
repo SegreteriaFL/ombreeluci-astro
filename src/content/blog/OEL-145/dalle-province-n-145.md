@@ -1,4 +1,5 @@
 ---
+
 title: Dalle province n. 145
 date: 2019-04-08
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-145
 id_numero: "OEL-145"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Festa della Luce
 
 Alcuni semi nuovi nella Provincia. Voglio soffermarmi su alcuni avvenimenti che hanno portato delle novità in provincia. In Piemonte abbiamo accompagnato a Cuneo le elezioni dei nuovi responsabili e la nascita della comunità rinnovata, frutto della fusione delle due comunità storiche di Cuneo. La nuova comunità sta cercando un nome e i due responsabili sono Martina Tilotta e Enrico Massolino, affiancati da Claudio Cavallo come assistente spirituale. Martina è una giovane che ha partecipato ad Alicante e Fano e con generosità ha accolto la chiamata ed accettato la responsabilità. Grande Gioia dunque in Piemonte. Nel mio cuore risuonano ancora gli echi della visita alla comunità di Feltre e alla celebrazione della Festa della Luce con le comunità del Veneto. Grande dono presente a Feltre l’adorazione eucaristica, 7 giorni su 7, 24h su 24. E due ragazzi della nostra comunità Antonio e Paolo, sostano tutte le settimane per un’ora all’adorazione da più di 15 anni. L’incontro con Gesù è punto forte di questa comunità. Veramente ora so a chi affidare le mie preghiere. Una grande gioia alla nostra festa della Luce è stato con noi Mons. Renato Marangoni Vescovo di Belluno e Feltre. E due amici genitori della ragazza da cui viene il nome Stella di San Lorenzo hanno festeggiato i 50 anni di matrimonio. Festa nelle Feste. Ultima Luce a Maria Madre della Chiesa a Gratosoglio Milano. Nella settimana del Campus della Pace, incontro internazionale con i giovani, la nostra comunità di Fede e Luce è stata chiamata a animare una serata con i giovani e partecipare alla preghiera interreligiosa con l’arcivescovo Mario Delpini, l’Iman di Sesto, la comunità Buddista, la chiesa ortodossa di Milano. In quella sera presente il sindaco Sala abbiamo pregato per la pace con le diverse tradizioni religiose. Da questi incontri è nata la possibilità di fare un campo di Fede e Luce con i giovani che stiamo organizzando per Fano dal 13 al 20 Luglio. Accanto a ragazzi e amici di Fede e Luce verranno giovani di Maria Madre in campo con noi. Bella luce in Provincia.

@@ -1,4 +1,5 @@
 ---
+
 title: Le bambine africane sono una festa di treccine
 date: 2011-09-04
 author: Claudio Roncoroni
@@ -17,6 +18,7 @@ issue_number: OEL-115
 id_numero: "OEL-115"
 numero_rivista: "Ombre e Luci"
 ---
+
 Ogni giorno accompagno i bambini a scuola: A. alla scuola dell’infanzia e M. alla primaria, che, per chi è un po’ più in là con gli anni, sono la scuola materna e le elementari. I nomi sono cambiati nella scuola ma sono le situazioni che possono fare la differenza. Non è cambiando nome che si realizzano ambienti migliori.
 
 **Dove vanno A. e M. qualcosa di diverso c'è** : la dirigente scolastica nella sua lunga permanenza in questo plesso ha cercato di far sì che la scuola fosse un luogo per tutti, senza distinzioni.

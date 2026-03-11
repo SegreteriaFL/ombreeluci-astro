@@ -1,4 +1,5 @@
 ---
+
 title: Mantenere viva la giovinezza nel cuore
 date: 2001-06-17
 author: Redazione
@@ -17,7 +18,10 @@ umap_z: 8.422399520874023
 issue_number: OEL-74
 id_numero: "OEL-74"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Per lungo tempo le limitazioni e le sofferenze dovute all’handicap sono state per me un incitamento."
 ---
+
 P er lungo tempo le limitazioni e **le sofferenze dovute all’handicap sono state per me un incitamento** . Con l’entusiasmo che mi è naturale e un con un po' di coraggio sono riuscita a vivere intensamente e mi sono così interessata a tante cose che la coscienza della mia infermità è sempre rimasta in secondo piano.
 
 **Ma da un po’ di tempo tutto sembra modificarsi** . I movimenti che mi fanno male, una vita al rallentatore, la sensazione di pesare sugli altri o sulla società senza riuscire a restituire a sufficienza, tutto invade a volte la mia mente portandomi a uno scoraggiamento immenso.

@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto - Insieme n.28
 date: 1981-03-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-30
 id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
+
 ### **Da Cuneo**
 
 *…Tutti volgiamo sovente lo sguardo al cielo nelle notti serene e abbacinati da tanta grandezza, fissiamo di preferenza lo sguardo su una stella più brillante delle altre; non le contiamo ma, ad un certo punto, ci accorgiamo che qualcosa è cambiato nel cielo: la stella più brillante è tramontata e non c'è più… È anche tra gli uomini è così.*

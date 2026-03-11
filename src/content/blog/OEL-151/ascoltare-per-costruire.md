@@ -1,4 +1,5 @@
 ---
+
 title: Ascoltare per costruire
 date: 2020-09-25
 author: Giulia Galeotti
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 Che succede se la gallina fa un uovo nero? Nessuno lo compra e la contadina lo porta al re; e se dall’uovo esce un galletto indisponente? Il re e la regina lo adottano; e se lui continua a essere quello che è, cioè indisponente?
 
 È ispirato alla favola di Luigi Capuana (da cui l’editore di Crema prende il nome) *L’uovo nero* (2020) – testi di Sante Bandirali, illustrazioni di Alicia Baladan –, il nuovo albo pubblicato da Uovonero per festeggiare con i lettori i dieci anni di attività. Un libro dai mille, stimolanti e colorati rivoli, riassumibili nell’essere un inno a vedere davvero la diversità. Quella che inizialmente fa paura e viene respinta; quella che è inutile correggere o cercare di raddrizzare perché comunque resta lì; quella che se viene ascoltata e rispettata può arrivare a costruire grandi cose. Come un sovrano molto amato, che tiene il suo discorso davanti alla gallina orgogliosa.

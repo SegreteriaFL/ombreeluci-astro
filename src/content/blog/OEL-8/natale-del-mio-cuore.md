@@ -1,4 +1,5 @@
 ---
+
 title: Natale del mio cuore
 date: 1984-12-31
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-8
 id_numero: "OEL-8"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Natale in tutte le strade splendenti di luce! Natale in tutte le vetrine, perfino nel mio piccolo paese della Piccardia! Anche in quella del macellaio, del fornaio, della «Coop», sfavillano ghirlande e palle scintillanti.*
 Natale festa della luce, della gioia, festa della famiglia; è quello che vedo, quello che sento, quello che tocco. E io? io mi sento come una bambina povera, le mani vuote e il cuore freddo davanti a questa «vetrina di Natale» che è l’ambiente che mi circonda: luccicante e... inaccessibile.
 **Anche quando Gérard era qui...**

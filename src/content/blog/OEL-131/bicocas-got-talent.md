@@ -1,4 +1,5 @@
 ---
+
 title: "Bicoca's Got Talent"
 date: 2015-09-13
 author: Giovanni Grossi
@@ -17,6 +18,7 @@ issue_number: OEL-131
 id_numero: "OEL-131"
 numero_rivista: "Ombre e Luci"
 ---
+
 Io l’estate l’ho passata dal 7 al 21 agosto a Nettuno, dove ho fatto le passeggiate, in riva al mare e al Borgo.Io conosco il luogo, perché è da 4-5 anni che ci vado, a Pasqua e a Natale, per passare le ferie. Io sono in attesa trepidante perché voglio fare un campo alla Bicoca, ho dei pensieri: riuscirò a mangiare? Io mangio da un lato, ci sarà posto?
 
 Poi quando si è avvicinato il periodo, ho preparato lo zaino con i vestiti, della quota ho saputo tutto telefonando ad una signora chiamata Monika, al campo c’è la sua famiglia e altri, che ho visto nel posto, che sono arrivati alla spicciolata. Il luogo è lo stesso, cambiano le persone, insieme a loro ho passato delle belle giornate. Ho saputo il tema del Campo: Bicoca’s Got Talent che consiste nel fare delle scenette o gare, e ognuno si è cimentato nel disegno, sport, recitazione, ballo. Io ho recitato con Filippo, mentre tirava giù il telo cambiavo espressione,una faccia da intellettuale, da conquista, ecc..

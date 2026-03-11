@@ -1,4 +1,5 @@
 ---
+
 title: Quando sono diventata Dottore di Ricerca
 date: 2020-12-03
 author: Laura Coccia
@@ -15,5 +16,6 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 C
 inque anni fa, nella Giornata Mondiale delle persone con disabilità, sono diventata Dottore di Ricerca, scendendo per l'ultima volta la scalinata della Facoltà di Lettere della Sapienza. Auguro a tutte le ragazze e ai ragazzi con disabilità di avere meno gradini da salire e da scendere, ma di continuare a sognare e a lottare per raggiungere i propri obiettivi.

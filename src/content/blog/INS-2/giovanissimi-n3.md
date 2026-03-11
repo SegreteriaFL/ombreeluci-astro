@@ -1,4 +1,5 @@
 ---
+
 title: Giovanissimi n.3
 date: 1974-12-28
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 12.355957984924316
 issue_number: INS-2
 id_numero: "INS-2"
 numero_rivista: "Insieme"
+
+subtitle: "Ilaria e Lucia, entrambe quattordicenni, ci raccontano la loro prima esperienza ad un incontro Fede e Luce"
 ---
+
 ### Ilaria, 14 anni
 
 L

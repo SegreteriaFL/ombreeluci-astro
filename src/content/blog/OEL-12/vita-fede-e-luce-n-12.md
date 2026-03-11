@@ -1,4 +1,5 @@
 ---
+
 title: Vita Fede e Luce n. 12
 date: 1985-12-18
 author: Redazione
@@ -19,6 +20,7 @@ issue_number: OEL-12
 id_numero: "OEL-12"
 numero_rivista: "Ombre e Luci"
 ---
+
 *Due incontri di formazione internazionale: nel desiderio di crescere insieme, con l'obiettivo di migliorare il modo di stare in comunità, affrontando le sfide che inevitabilmente si pongono... e scoprire che diventano occasione per superare le proprie paure.*
 
 ### Versailles - Incontro della zona Sud Europa

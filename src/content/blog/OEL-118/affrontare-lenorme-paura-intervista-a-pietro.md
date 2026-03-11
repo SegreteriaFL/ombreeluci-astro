@@ -1,4 +1,5 @@
 ---
+
 title: Affrontare l’enorme paura - Intervista a Pietro
 date: 2012-03-16
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 7.967895030975342
 issue_number: OEL-118
 id_numero: "OEL-118"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La storia di Pietro che due anni ha intrapreso un “viaggio-esempio” per dimostrare che anche una persona con handicap motori può manifestarsi nel mondo facendo cose che anche per molti normo-considerati risultano straordinarie"
 ---
+
 **Ciao Pietro, ti presenti ai nostri lettori?** Sono un invalido civile di 42 anni, menomato da un grave handicap motorio. Sono infatti affetto da artrogriposi congenita, artrosi, artriti, osteoporosi, fibromialgia, rilascio anomalo di calcio dalle ossa, tendinopatie e molteplici ‘esiti’ da poli-traumi della strada. Abito a Trieste e, salute permettendo, faccio attività di volontariato dal 1987 riconoscendomi nella sensibilità, nei valori e nella metodologia d’azione nonviolenta del Nuovo Umanesimo siloista. Da due anni promuovo la nondiscriminazione, specialmente tra i normo-considerati e gli handicappati, attraverso iniziative locali ma con almeno un evento annuale capace di attrarre l’attenzione delle Istituzioni, delle associazioni, dei media e sopratutto delle persone. Il resto del tempo mi vede impegnato a curarmi ed a partecipare e organizzare iniziative di informazione e sensibilizzazione a Trieste ed in Regione.
 
 **Hai fondato un’associazione dal nome “Viaggiare per un sogno: oltre le barriere”. Com’è nata e con quali scopi?** Questa ONLUS è nata quasi per caso, mentre stavo facendo quello che, in seguito, sarebbe diventato il primo di un ciclo di sei viaggi. Stavo girando per la Grecia e la Turchia con il mio scooter ed il vedermi a migliaia di chilometri dal traghetto più vicino ha attirato molta attenzione sia da parte delle persone che mi vedevano arrivare, sia da parte di altri moto-turisti e, ad Edessa (cittadina a Nord-Ovest di Salonicco), di un giornalista che ha voluto sapere la mia storia pubblicando un articolo sul quotidiano locale. In quella chiacchierata ho capito che quello che stavo facendo non era una semplice vacanza ma un “viaggio-esempio”: stavo dimostrando che, con le condizioni adeguate, anche una persona con handicap motori può manifestarsi nel mondo facendo cose che anche per molti normo-considerati risultano straordinarie. Ed i riscontri mediatici che ho avuto nel proseguo del viaggio, l’aiuto ricevuto da tutti quelli cui l’ho chiesto mi hanno dato la forza, la convinzione a non fermarmi nonostante alcuni inconvenienti meccanici. I principali obiettivi su cui si concentra l’attività dell’associazione sono tre:

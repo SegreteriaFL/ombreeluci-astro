@@ -1,4 +1,5 @@
 ---
+
 title: La vita accanto - Recensione
 date: 2024-08-18
 author: Claudio Cinus
@@ -17,7 +18,10 @@ umap_z: 2.6375155448913574
 issue_number: OEL-168
 id_numero: "OEL-168"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Un dramma familiare abbastanza classico che però sfrutta al meglio la rinuncia al mostrare la presunta bruttezza (trasformata in un simbolo) per ritrarre con più efficacia come si può essere consumati dalla paura della diversità"
 ---
+
 Marco Tullio Giordana si è commosso, quando ha ricevuto un Pardo Speciale al 77° Locarno Film Festival: lo ha definito un figlioletto del Pardo d'Oro vinto nel 1980 col suo primo film. È tornato a Locarno per presentare in anteprima mondiale ***La vita accanto*** e non ha avuto paura di ammettere, circondato dal cast e davanti al pubblico locarnese che ha completamente riempito la sala del PalaCinema, quanto fosse soddisfatto della riuscita di questo suo ultimo lavoro.
 
 Tratto dallo strepitoso romanzo omonimo del 2010 di Mariapia Veladiano, ha richiesto un lavoro indispensabile di adattamento del testo. **La protagonista del libro è una bambina "brutta": come rendere in immagini la bruttezza — nel testo accettata indiscutibilmente come tale e senza descrizioni dettagliate — senza risultare ridicoli o offensivi?** La soluzione della sceneggiatura (scritta dal regista assieme a Gloria Malatesta e Marco Bellocchio) è visivamente molto efficace: **la bambina nasce con una grande macchia rossa che parte da una guancia.**

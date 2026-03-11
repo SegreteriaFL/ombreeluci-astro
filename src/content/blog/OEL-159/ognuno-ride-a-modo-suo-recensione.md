@@ -1,4 +1,5 @@
 ---
+
 title: Ognuno ride a modo suo — Recensione
 date: 2022-10-21
 author: Cristina Tersigni
@@ -14,7 +15,10 @@ umap_z: 5.080721378326416
 issue_number: OEL-159
 id_numero: "OEL-159"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La storia dell'irriverente e sbilenco Sirio nel libro di Valentina Perniciaro (Rizzoli, 2022)"
 ---
+
 Tanto veloce e forte appare la ripresa nonostante la nascita prematura che Sirio viene dimesso in anticipo di un mese rispetto al raggiungimento del peso minimo necessario (due chili). Dopo una sola settimana a casa però, ha un arresto cardiaco: manca il battito per 17 minuti. Minuti lunghissimi, terribili e devastanti in cui il papà, correndo all’ospedale più vicino, insuffla aria nei suoi piccoli polmoni e massaggia il torace microscopico. Lo insegue la madre (l’autrice, Valentina Perniciaro) cui «la morte continua ad apparire nei pochi sguardi che incrocia, prima che scappino». **Alla morte però viene strappato, tra le mani di una rianimatrice** che avverte subito i genitori: «Probabilmente non vi ho fatto un favore… – dice, e non consola – il danno cerebrale è quasi certamente devastante».
 
 **Ma è proprio in quel *quasi* che scopriamo tutto il piccolo Sirio.** Se la prima diagnosi di stato vegetativo permanente, a causa della paralisi cerebrale gravissima, pesa come una sentenza e andranno perse per sempre la possibilità di respirare autonomamente e di deglutire (indispensabili si sono rese, infatti, tracheotomia e Peg), il bambino, in altri spazi, sorprende. «Sovverti regole, sovverti le lettere tutte e dietro quella tua bocca immobile e ogni giorno più spalancata appare sempre più straordinario il sorriso che sei», scrive Perniciaro. Sirio c’è, eccome se c’è, altro che stato vegetativo! Una neuropsichiatra, incrociandone lo sguardo nella culla della terapia semintensiva, intravede in lui, apparente pezzo di legno, il bambino che potrà essere, prima fra i tanti «Geppetto» incontrati nella riabilitazione neurologica da quel momento. «È dai loro occhi, da come catturano la tua attenzione, dalle capriole che ti fanno fare, dal modo in cui si rivolgono a te, che inizio a scorgerlo anche io, mio figlio» continua la madre. E con lei scopriamo le incredibili possibilità di Sirio, la sua capacità di ridere nonostante la bocca sia bloccata, costantemente aperta, e la sua voce.

@@ -1,4 +1,5 @@
 ---
+
 title: Bilancio Fede e Luce 1975
 date: 1975-12-03
 author: Redazione
@@ -16,7 +17,10 @@ umap_z: 13.199382781982422
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Ci sembra doveroso alla fine di un anno, rendere conto della gestione della Segreteria, soprattutto per ringraziare tutti quelli che ci hanno aiutato con il loro piccolo o grande contributo."
 ---
+
 Questo bilancio va dal Giugno 1974 al Dicembre 1975.
 
 ### Entrate (in lire)

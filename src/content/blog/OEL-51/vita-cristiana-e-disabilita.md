@@ -1,4 +1,5 @@
 ---
+
 title: "Vita cristiana e disabilità"
 date: "1995-12-30"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-51
 id_numero: "OEL-51"
 numero_rivista: "Ombre e Luci"
 ---
+
 ## Ombre e Luci n. 5 - 1984
 
 ### Nessuno è escluso

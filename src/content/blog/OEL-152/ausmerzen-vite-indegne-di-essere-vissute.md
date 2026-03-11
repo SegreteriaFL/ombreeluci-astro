@@ -1,4 +1,5 @@
 ---
+
 title: "Ausmerzen: Vite indegne di essere vissute"
 date: 2020-01-15
 author: Lars Porsenna
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Se già lo conoscete e lo avete visto sapete di cosa stiamo parlando. Se ancora non lo avete visto fatelo ora, adesso, subito (lo trovate su youtube, completo, basta cercarlo). Perché? Semplicemente perché lo dovete fare. Perché è una bomba. Perché vi esploderà dentro lo stomaco smontando le vostre certezze e illuminando con una luce nuova cose che pensavate di sapere ma che non sapete; vi porrà domande a cui non saprete rispondere e vi metterà in crisi come solo certe opere sanno o dovrebbero fare.
 
 La scena si apre al suono di una campanella cui seguono rumori di colpi di piccone e di una pala che sembra voler liberare il campo da detriti ammassati da troppo tempo. La macchina da presa percorre i corridoi dell'ex-ospedale psichiatrico *Paolo Pini* sfiorandone le pareti su cui sono appesi cappotti sgualciti, vecchi indumenti e divise.

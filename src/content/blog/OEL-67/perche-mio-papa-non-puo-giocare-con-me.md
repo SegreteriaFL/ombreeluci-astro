@@ -1,4 +1,5 @@
 ---
+
 title: "Perché mio papà non può giocare con me?"
 date: "1999-09-17"
 author: "Redazione"
@@ -15,6 +16,7 @@ tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
 ---
+
 Vi ammiro per come riuscite ad affrontare certi problemi e argomenti di cui è difficile leggere altrove se non in termini prettamente clinici. Proprio per la fiducia che ripongo nella sensibilità di questo giornale, vorrei sottoporre alla vostra attenzione un problema.
 
 Sono maestra elementare e un mio alunno di sette anni ha il papà affetto da sclerosi multipla, malattia che ultimamente lo costringe spesso sulla sedia a rotelle. Durante uno dei colloqui con la mamma è venuta fuori una richiesta di aiuto, disperata, perché il bambino, che all’apparenza non da segni evidenti di alcun disagio, in realtà non accetta un papà che non possa «giocare a pallone» come gli altri papà, e una mamma troppo presa, secondo lui, a curare il papà.

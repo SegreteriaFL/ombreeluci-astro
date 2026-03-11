@@ -1,4 +1,5 @@
 ---
+
 title: Pellegrinaggio a Loreto 1979 raccontato da Olga Gammarelli
 date: 1979-09-16
 author: Olga Gammarelli
@@ -16,7 +17,10 @@ umap_z: 13.055279731750488
 issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
+
+subtitle: "Una semplice gita diventa evento significativo per tante persone con disabilità: storie di dedizione, accoglienza e gioia"
 ---
+
 Quando il gruppo S.Silvia chiese a Francesco di organizzare una gita per il 1979 nessuno immaginava quale sarebbe stato il risultato di questo incarico. Eravamo tutti invitati ad una piccola riunione a casa di Lucia senza sapere di cosa si trattasse.
 
 Erano presenti poche persone fra le più attive. **Noi non avevamo, allora, alcuna responsabilità in "Fede e Luce"** ; anzi eravamo abbastanza nuovi e restammo un po' sorpresi dinnanzi a questa proposta del tutto inaspettata. Né Francesco né io avevamo alcuna esperienza in questo campo. Eravamo stati tra i presenti al pellegrinaggio di Assisi lo scorso anno; ma piuttosto come ospiti e osservatori.
@@ -68,6 +72,8 @@ Se qualche adulto era rimasto forse un po' imbarazzato dalla visita che il vesco
 Forse era destino che Jean cantasse il suo ultimo canto di gioia prima di morire. Valeva la pena tutto questo trambusto, tutto questo lavoro, denari spesi, viaggi faticosi e difficoltà? Penso proprio di sì.
 
 *Olga Gammarelli* , 1979
+
+
 
 ---
 

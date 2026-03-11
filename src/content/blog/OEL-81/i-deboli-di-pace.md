@@ -1,4 +1,5 @@
 ---
+
 title: I deboli di pace
 date: 2003-03-01
 author: Jean Vanier
@@ -16,7 +17,10 @@ tags:
 umap_x: 8.363214492797852
 umap_y: 11.933144569396973
 umap_z: 10.864252090454102
+
+subtitle: "I deboli non chiamano forse i forti a divenire più umani, a trasformare la loro sete di potere e di riuscita orientandola verso la relazione, l’ascolto e la compassione?"
 ---
+
 Ideboli non chiamano forse i forti a divenire più umani, a trasformare la loro sete di potere e di riuscita orientandola verso la relazione, l’ascolto e la compassione? II cammino della pace si apre quando mettiamo le nostre competenze al servizio della saggezza, della bontà e della riconciliazione.
 
 Per i discepoli di Gesù, **le persone più deboli** non portano solo equilibrio fra i bisogni di potere e i desideri del cuore, fra forza e debolezza, ma **rivelano anche il piano di Dio: rivelano il viso di Dio** .

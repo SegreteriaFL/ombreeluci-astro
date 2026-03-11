@@ -1,4 +1,5 @@
 ---
+
 title: Dal prato alla parete
 date: 2000-04-20
 author: Maria Teresa Mazzarotto
@@ -16,7 +17,10 @@ umap_z: 9.553362846374512
 issue_number: OEL-70
 id_numero: "OEL-70"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Che fare nei pomeriggi invernali per ricordare il sole, i colori, i fiori della bella stagione? Con i nostri amici del laboratorio abbiamo imparato, attraverso una serie di gesti semplici e precisi a comporre piccoli quadri con i fiori pressati."
 ---
+
 Che fare nei pomeriggi invernali per ricordare il sole, i colori, i fiori della bella stagione? Con i nostri amici del laboratorio abbiamo imparato, attraverso una serie di gesti semplici e precisi a comporre piccoli quadri con i fiori pressati.
 1. Disporre foglie e fiori tra coppie di fogli di carta assorbente. Interporre cartoni tra le coppie e lasciare in pressa o sotto dei volumi.
 2. Una volta ben pressati e perfettamente essiccati si tolgono delicatamente con le pinzette.

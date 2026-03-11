@@ -1,4 +1,5 @@
 ---
+
 title: Tenere la porta aperta
 date: 1986-12-31
 author: Mariangela Bertolini
@@ -19,6 +20,7 @@ issue_number: OEL-16
 id_numero: "OEL-16"
 numero_rivista: "Ombre e Luci"
 ---
+
 «Tutti si sono allontanati!» «Siamo rimasti soli, ... perfino i parenti non li vediamo quasi mai!». Quante volte sentiamo dire queste frasi dai genitori di un figlio con handicap. **È vero: la sofferenza ci divide dagli altri, ce ne allontana in modo quasi naturale.** Più si è colpiti, più si tende a raggomitolarsi, a stringersi in se stessi, a chiudersi e a chiudere porte e finestre, convinti che la solitudine sia quello che ci vuole per sopportare meglio un peso che schiaccia o che travolge.
 
 **Io stessa so, per averlo provato, che parenti, amici, fratelli, sembrano sfuggire via da quel carico di dolore,** che si fa ancora più pesante proprio per quell'impressione di solitudine e di abbandono.

@@ -1,4 +1,5 @@
 ---
+
 title: Ci hanno scritto n.21
 date: 1979-06-16
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: INS-23
 id_numero: "INS-23"
 numero_rivista: "Insieme"
 ---
+
 ### Non c'e’ niente di più vero
 
 Vi sono degli strani giorni in cui, senza alcun apparente motivo, dentro di me non c'è che silenzio e buio. Non so più pregare, ascolto la musica senza sentirla, sono insofferente, non mi sopporto più. Ma se, all'improvviso, una mamma disperata mi telefona per dividere con me la sua angoscia, se un ragazzo ha bisogno di aiuto, ritrovo me stessa e rispondo alla chiamata con calore.
@@ -22,6 +24,7 @@ Vi sono degli strani giorni in cui, senza alcun apparente motivo, dentro di me n
 Quando tre anni fa! ci riunimmo per la prima volta, senza ancora conoscerci, per cercare di organizzare un gruppo di Fede e Luce Milano, la cosa più strana, per me, di cui allora sentii parlare è che "si riceve. più di quanto si dà". Ora so che non c'è niente di più vero, lo viviamo quasi quotidianamente e ne parliamo spesso tra noi. Cio che, secondo la ragione umana, dovrebbe aumentare la nostra angoscia, fortifica invece il nostro animo. Perché?
 
 **Laura Marazio**
+
 
 ---
 

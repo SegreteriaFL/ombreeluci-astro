@@ -1,4 +1,5 @@
 ---
+
 title: Riscoprire la grazia della confessione
 date: 2012-03-16
 author: Père Christian Mahéas
@@ -14,7 +15,10 @@ umap_z: 9.250925064086914
 issue_number: OEL-117
 id_numero: "OEL-117"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "È venuto a confessarsi un ragazzo con disabilità. Se n'è andato facendo il segno V di vittoria. Altre persone hanno cominciato a venire di corsa dopo aver visto la gioia che procura il perdono"
 ---
+
 **Un bambino-ragazzo con handicap mentale può avere il senso del perdono?** Alcuni sacerdoti e certi genitori non sostengono il sacramento della riconciliazione per un bambino con handicap mentale, perché pensano che non capisca. Mi piacerebbe rassicurarli: quel bambino è una persona; così come la dignità non è intaccata dall’handicap, la vita spirituale non è legata al livello di comprensione. Detto questo oserei dire che le persone che soffrono di un handicap mentale sanno chiedere e ricevere il perdono, meglio di noi. Le persone che accogliamo all’ Arca, corrono per venire a confessarsi. Alcune di loro mi abbracciano dopo aver ricevuto l’assoluzione: capiscono che in quanto prete, rappresento per loro la misericordia di Dio.
 
 **Questo senso del perdono è innato?** Si trasmette giorno per giorno. I genitori educano il figlio con handicap a chiedere perdono ad una sorella a cui ha dato noia o a ricevere le scuse di un fratello che lo ha fatto cadere. Non dimentichino, loro stessi, di chiedere perdono al proprio figlio. Prima della confessione i genitori possono parlare un po’ con lui per chiarire insieme alcune cose sia con le parole che attraverso disegni. All’Arca si preparano gli ospiti con un mimo o con un film…

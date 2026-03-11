@@ -1,4 +1,5 @@
 ---
+
 title: Dialogo aperto n. 159
 date: 2022-11-18
 author: Redazione
@@ -14,7 +15,10 @@ umap_z: 11.283873558044434
 issue_number: OEL-159
 id_numero: "OEL-159"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "L'angolo delle lettere arrivate in redazione"
 ---
+
 # Tre festeggiate e... tre gatti!
 
 Oggi 19 giugno 2022 compleanno di tre amiche, tre mamme speciali: Marilena, Franca e Silvia. Siamo riusciti a organizzare una festa a sorpresa al bar *Il Vagone* che si trova presso Cascina Biblioteca a Milano. Abbiamo voluto organizzare una festa diversa che non fosse il solito gelato oppure la solita pizzata, ma un bell’happy hour all’ora di pranzo. Dopo aver bloccato la location e pattuito il costo ci siamo scatenati con gli inviti. Abbiamo pensato al regalo e visto che le tre festeggiate verranno al campo a Cesenatico la prima settimana di luglio, abbiamo pensato a un copricostume che doveva avere stampato la frase «Stessa spiaggia, stesso mare… Con noi» ma per errore è stata inviata la foto sbagliata e sono arrivati i tre copri-costumi con la stampa di un gatto! Sul momento, quando Nives ha visto i tre copricostumi con un’altra foto ci è rimasta male ma poi l’abbiamo presa sul ridere e ci abbiamo scherzato su. **Le tre festeggiate erano contente e commosse: «Grazie a tutti per la bellissima festa – hanno detto – è stata una splendida giornata con persone davvero speciali».** Non si aspettavano una festa così, tutta per loro: una bella compagnia allegra! A noi basta poco per stare bene e passare una giornata spensierata. Doverosi sono i ringraziamenti a chi ha organizzato, a chi ha pensato ai regali, a chi fatto fare la torta. Siamo un’equipe fantastica! Ci piace fare tutto ciò anche perchè poi c’è la sodddisfazione del bel risultato finale.

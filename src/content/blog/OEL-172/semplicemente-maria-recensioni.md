@@ -1,4 +1,5 @@
 ---
+
 title: Semplicemente Maria | Recensioni
 date: 2025-11-17
 author: Giulia Galeotti
@@ -17,7 +18,10 @@ umap_z: 5.014430522918701
 issue_number: OEL-172
 id_numero: "OEL-172"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Jay Hardwig, sulla bellezza di essere strani. Lettura dagli 11 anni (Uovonero, 2025)"
 ---
+
 H
 a 11 anni, Maria Romero; frequenta la prima media a Marble City e vuole essere semplicemente normale (né un trofeo da esibire, né un’infelice da compatire). Non che sia facile, tra bastone bianco e libri in braille, ma lei ci prova. Non che sia facile, per una ragazzina cieca, ma – anche grazie all’amicizia (inizialmente difficile) con il coetaneo strampalato JJ Munson – l’impresa si rivelerà possibile. Anche in un mondo così tristemente omologato come il nostro, si può infatti restare fedeli a se stessi, suggerisce questo romanzo su prima adolescenza, amicizia, cecità. E sulla bellezza dell’essere «strani».
  ### Semplicemente Maria **Autore** : Jay Hardwig **Traduzione:** Sante Badirale ** Editore:** Uovonero **Pubblicato:** 2025 **Pagine:** 192 **Prezzo:** 16,50€ **EAN:** 9791280104595

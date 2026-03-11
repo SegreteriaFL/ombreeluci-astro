@@ -1,4 +1,5 @@
 ---
+
 title: "Vita Fede e Luce: la festa per i nostri 40 anni: 1971 -2011"
 date: 2011-03-04
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-113
 id_numero: "OEL-113"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Messina
 
 È iniziato un nuovo annop, il 2011. Anno importantissimo per noi della grande famiglia di Fede e Luce . Chiamati a vivere e festaggiare i nostri 40 anni, per essere, oggi, Messaggeri di Gioia... Con grande gioia ed emozione vivo l'attesa diquesto pellegrinaggio che la nostra Povincia "Mari a Vulcani" vivrà a giugno prossimo, e non vedo l'ora di condividere con le comunità e con i ffratelli della Polonia e della Slovenia questo momento preziosi, unico

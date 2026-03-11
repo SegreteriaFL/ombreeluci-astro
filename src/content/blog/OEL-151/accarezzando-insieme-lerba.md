@@ -1,4 +1,5 @@
 ---
+
 title: "Accarezzando insieme l'erba"
 date: 2020-09-23
 author: Enrica Riera
@@ -15,6 +16,7 @@ issue_number: OEL-151
 id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
+
 C'è un bambino in grado di volare: più si eleva, più appare strano agli occhi di chi rimane a terra. Un bambino che suscita quasi paura, oltre a molta incredulità, in suo padre, timoroso del giudizio degli altri genitori, i cui figli fanno cose considerate normali, tra le quali non figura di certo la possibilità di galleggiare nell’aria. È in *Float* (2019), emozionante cortometraggio di Pixar Animation Studios, attualmente disponibile in Italia sulla piattaforma streaming Disney+, che viene raccontata questa storia che ha che fare con la disabilità e che, in nove minuti, riesce a far luce con delicatezza e serietà su di essa, sulle preoccupazioni di un padre ritrovatosi da solo con un figlio che vuole soltanto essere accettato per ciò che è.
 
 Sullo schermo va, dunque, in scena l’immagine animata di un rapporto che non è per niente semplice: il padre si nasconde in casa col bambino, non vuole che il mondo circostante sappia, conosca quel “saper volare” che verrebbe subito etichettato come una diversità bella e buona, una cosa stramba, un fatto di cui spaventarsi. «Perché non puoi essere normale?», domanda, nel momento cruciale del corto, il padre al bambino, ma è proprio allora che si arriva al punto di non ritorno di un legame spinoso, difficile. È, così, al parco, davanti a tutti - vicini, conoscenti, amici da cui sempre si era nascosto - che il padre, grazie all’innocente e candida reazione del figlio, capisce, prende coscienza una volta per tutte, trasforma la rabbia in accettazione.

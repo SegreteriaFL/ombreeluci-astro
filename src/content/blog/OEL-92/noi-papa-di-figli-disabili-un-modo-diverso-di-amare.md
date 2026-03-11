@@ -1,4 +1,5 @@
 ---
+
 title: "Noi papà di figli disabili: un modo diverso di amare"
 date: "2005-12-23"
 author: "Mariangela Bertolini"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Abbiamo raccolto le testimonianze di papà che dicono bene e con sincerità quanto grande e importante sia il loro ruolo nell'accoglienza e nell'educazione del figlio disabile"
 ---
+
 Sono spesso criticati o presi in giro dalle mamme per la loro incompetenza nell'accudire un figlio appena nato; sono giudicati severamente dalle mogli più buone quando, invece di rimproverare, si fanno partecipi del chiasso o del disordine al momento di andare a tavola. E quando, invece di ubbidire ai richiami muliebri, si allontanano con una scusa, o si mettono a leggere il giornale... apriti cielo!
 
 Poveri papà, così poco capiti e "compatiti"!

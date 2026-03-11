@@ -1,4 +1,5 @@
 ---
+
 title: "Qua e là per l'Italia"
 date: "1975-02-07"
 author: "Redazione"
@@ -14,7 +15,10 @@ categoria_menu: "Storia"
 issue_number: OEL-50
 id_numero: "OEL-50"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Notizie e aggiornamenti dalle comunità Fede e Luce che stanno nascendo e crescendo in tutta Italia"
 ---
+
 ### A Cuneo
 
 Intorno ai bambini che frequentano "Stella Mattutina", un gruppo di [Fede e Luce](https://www.fedeeluce.it) sta sorgendo.

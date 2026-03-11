@@ -1,4 +1,5 @@
 ---
+
 title: "Perché non ascoltiamo la risposta di Gesù?"
 date: "2020-02-18"
 author: "Paul Gilbert"
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Chi di noi non ha partecipato a qualche celebrazione della Chiesa in cui le persone altrimenti abili non erano benvenute? Dobbiamo però riconoscere che tristi eventi di questo tipo diminuiscono. La Chiesa sta cambiando. Diviene più evangelica. Non è però facile entrare in pratiche che sembrano nuove, della novità di un’accoglienza che il nostro Papa Francesco ricorda invece essenziale per vivere il Vangelo. Accogliere un piccolo per il mondo, è accogliere Cristo.
 
 È quasi cieco il prete gesuita che ha pubblicato su *Civiltà Cattolica* un articolo sulla disabilità nella Chiesa. Il problema delle persone con disabilità viene dagli schemi mentali della nostra cultura che, anche nella nostra Chiesa, rispetta soprattutto i potenti, i vincitori degli eventi complicati della vita umana. Le persone con disabilità sono i vinti, incapaci di gestire da soli la loro vita nelle nostre società. Anche l’interpretazione abituale della disabilità da parte dei teologi è spesso stata fatta senza reale attenzione al Vangelo, ignorando la risposta di Gesù quando è stato interrogato a proposito del cieco nato: «Chi ha peccato (…) perché egli nascesse cieco? – Né lui né i suoi genitori» (Gv 9,1-12).

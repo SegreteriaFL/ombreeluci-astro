@@ -1,4 +1,5 @@
 ---
+
 title: Give Me Liberty
 date: 2020-06-06
 author: Claudio Cinus
@@ -15,6 +16,7 @@ issue_number: OEL-150
 id_numero: "OEL-150"
 numero_rivista: "Ombre e Luci"
 ---
+
 Nato in Unione Sovietica, per inseguire il sogno di diventare regista Kirill Mikhanovsky si è trasferito negli Stati Uniti, a Milwaukee, mantenendosi attraverso vari lavori, tra cui l’autista di un pulmino per persone con disabilità. Questa duplice esperienza di vita e di lavoro è confluita nel film *Give Me Liberty* (2019). Il protagonista è infatti un giovane autista di origine russa che durante il turno in cui deve trasportare alcune persone con difficoltà motorie attraverso una città quasi bloccata, si trova costretto a stipare nel suo pulmino un nutrito e rumoroso gruppo di anziani russi bisognosi di un passaggio.
 
 Il risultato è un mix esplosivo e spassoso negli spazi stretti dell’automezzo, con un continuo balletto di saliscendi e chiassose discussioni tra inglese e russo. La vitalità dei personaggi è tale da abbattere ogni barriera, quelle linguistiche ma anche quelle fisiche: è un film caotico *Give Me Liberty* , un film che mette in scena persone comuni eppure a modo loro eccezionali, che non abbellisce la realtà ma la mostra per quel che è, senza drammi e senza patetismi, divertente e nevrotica. Sfruttando alla perfezione, nello sviluppo di questa esile trama, anche l’esperienza reale del Milwaukee Eisenhower Center dedicato alle persone con disabilità, che viene pacificamente invaso dai vivaci russi, un po’ disorientati, ma molto divertiti. Oltre al giovane protagonista Chris Galust, il film segna anche l’esordio al cinema della coprotagonista Lauren “Lolo” Spencer, attrice nera e con disabilità, perfettamente a suo agio nel mostrare la frustrazione di chi dipende da qualcun altro per gli spostamenti a lungo raggio, ma altrettanto dotata di grazia, bellezza, sentimenti e romanticismo – come qualsiasi ragazza della sua età.

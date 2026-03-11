@@ -1,4 +1,5 @@
 ---
+
 title: "Fame di normalità"
 date: "1987-06-27"
 author: "Sergio Sciascia"
@@ -15,6 +16,7 @@ issue_number: OEL-18
 id_numero: "OEL-18"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quasi tutti i comportamenti sono anche sintomi e segnali di uno stato della persona. I comportamenti anormali, devianti come dicono gli specialisti, segnalano una sofferenza, un mancamento, una malattia della persona.
 
 Fino a una quindicina di anni fa i ragazzi «difficili» spesso finivano in istituti di correzione che erano incroci tra collegio e prigione.

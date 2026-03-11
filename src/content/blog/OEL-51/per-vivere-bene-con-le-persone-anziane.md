@@ -1,4 +1,5 @@
 ---
+
 title: Per vivere bene con le persone anziane
 date: 1995-09-12
 author: Redazione
@@ -15,6 +16,7 @@ issue_number: OEL-51
 id_numero: "OEL-51"
 numero_rivista: "Ombre e Luci"
 ---
+
 S
 eguire una persona con handicap quando comincia a invecchiare è spesso faticoso; si creano facilmente tensioni, angosce, paure. Questi consigli, buttati giù alla rinfusa, vorrebbero portare un po' di aiuto a chi è vicino a queste persone, o a chi vive con loro affinché possa offrire un buon sostegno senza sfinirsi o crollare.
 **Vivere in un posto che dà sicurezza**

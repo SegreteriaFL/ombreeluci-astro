@@ -1,4 +1,5 @@
 ---
+
 title: "È sempre stato rifiutato"
 date: "1984-06-30"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-6
 id_numero: "OEL-6"
 numero_rivista: "Ombre e Luci"
 ---
+
 Quattro storie
 Chi ha avuto un figlio con turbe del comportamento, chi ha diviso la sua vita con un ragazzo psicotico, sa. Chi non ha vissuto questa esperienza non può sapere. Nulla può sostituire l'esperienza. Ammesso ciò, Ombre e Luci propone queste quattro esperienze, raccontate, dalle persone che le hanno vissute, senza fronzoli ne bravure stilistiche. Con un po’ di partecipazione affettiva e un po' di fantasia si può «leggere» che realtà ci sia dietro frasi e parole molto piane e usuali. Ci sembra questo il punto di partenza necessario del viaggio attraverso i problemi che sono intorno e dentro la psicosi infantile che questo Ombre e Luci propone.
 Scrivere un libro sulla mia vita è stata sempre una mia idea ma non ho la preparazione culturale adatta per farlo, perciò mi limiterò a scrivere qualche pensiero su questa agenda scaduta: forse mi aiuterà a scaricare un poco l’animo mio così tormentato dalla pena.

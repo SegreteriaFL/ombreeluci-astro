@@ -1,4 +1,5 @@
 ---
+
 title: "Giochi senza barriere: i supereroi conquistano lo Stadio dei Marmi a Roma"
 date: 2018-06-13
 author: Redazione
@@ -18,6 +19,7 @@ issue_number: OEL-144
 id_numero: "OEL-144"
 numero_rivista: "Ombre e Luci"
 ---
+
 Giovedì 14 giugno grande appuntamento con l’ottava edizione dei Giochi Senza Barriere, l’evento a scopo benefico all’insegna dell‘integrazione e della promozione dello sport paralimpico ideato dall’
 [Associazione art4sport ONLUS](http://www.art4sport.org)
 , nata in seguito alla vicenda di

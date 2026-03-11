@@ -1,4 +1,5 @@
 ---
+
 title: Gli altri
 date: 1983-09-30
 author: Marie Hélène Mathieu
@@ -24,6 +25,7 @@ umap_y: 8.837091445922852
 umap_z: 7.777515411376953
 id_numero: "OEL-3"
 ---
+
 Fra le molte difficoltà quotidiane, ritorna spesso quella dell’atteggiamento degli “altri” verso i genitori di figli handicappati e dell’atteggiamento dei genitori di figli handicappati verso gli “altri”. Tre problemi sembrano ripresentarsi, soprattutto in vacanza, quando si è costretti ad incontrare persone nuove.
 ***"Cosa possiamo fare quando gli “altri”, incontrandoci, non sanno che cosa dire vedendo nostro figlio?"***
 **Proviamo a metterci al loro posto.**

@@ -1,4 +1,5 @@
 ---
+
 title: "Più scavo più trovo!"
 date: "2015-03-19"
 author: "Redazione"
@@ -15,6 +16,7 @@ issue_number: OEL-130
 id_numero: "OEL-130"
 numero_rivista: "Ombre e Luci"
 ---
+
 In tanti qui a Fidenza, ricordano il vecchio laboratorio, nato circa 40 anni fa, attorno al campanile della parrocchia di S. Michele, a supporto della comunità Fede e Luce “Condivisione”. L’esperienza vissuta aveva preparato gli amici a tessere legami di amicizia con persone fragili, facendo “con” e creando insieme con le mani, in un clima gioioso e sereno. Così, il 23 settembre 1991, nasceva Il Germoglio, spazio di incontro, accoglienza e creatività, aperto a ragazzi, giovani ed adulti di età e provenienze diverse. Questo nuovo percorso si attivava dopo il coinvolgente e fruttuoso Pellegrinaggio Internazionale di Fede e Luce, vissuto a Lourdes.
 
 >

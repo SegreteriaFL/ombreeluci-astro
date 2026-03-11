@@ -1,4 +1,5 @@
 ---
+
 title: Anna che sorride alla pioggia
 date: 2017-12-20
 author: Matteo Cinti
@@ -15,6 +16,7 @@ issue_number: OEL-140
 id_numero: "OEL-140"
 numero_rivista: "Ombre e Luci"
 ---
+
 Non è sempre facile vedere il bicchiere mezzo pieno nelle difficoltà della vita, eppure Guido Marangoni ha un talento naturale nel riscoprire il positivo degli imprevisti e altrettanta capacità nel raccontare quest’ottimismo nel libro Anna che sorride alla pioggia.
 
 Anna è la terza di tre figlie di Guido e Daniela: il suo arrivo preannuncia una scossa inevitabile nella vita di famiglia, dato che Anna ha la sindrome di Down. Una scossa che non si traduce in disperazione o depressione, anzi, Guido cerca (e trova) la gioia di vivere nei momenti quotidiani assolutamente normali con la figlia. Senza perdersi in retoriche smielate, il libro imbocca sempre la via della riflessione sulla vita, sulle sue sfide, grandi o piccole che siano, con uno stile semplice e confidenziale.

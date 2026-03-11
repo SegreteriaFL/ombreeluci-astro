@@ -1,4 +1,5 @@
 ---
+
 title: "Ristorante: I ragazzi di Sipario, dove niente è scontato"
 date: "2007-12-12"
 author: "Redazione"
@@ -15,7 +16,10 @@ has_comments: false
 tema_code: "T02"
 tema_label: "Famiglie, genitori, fratelli"
 categoria_menu: "Famiglie"
+
+subtitle: "Un’associazione per organizzare corsi ed attività varie, inventarci feste ed occasioni di incontro tra di noi e con gli altri familiari e amici di ragazzi “speciali”"
 ---
+
 Dicono che le persone con “handicap” sono persone “speciali”; e le loro famiglie sono speciali? Noi famiglie di ragazzi con handicap — mai avremmo pensato e trovato il tempo (sempre più compresso al giorno d’oggi) per fondare un’associazione, per organizzare corsi ed attività varie, inventarci feste ed occasioni di incontro tra di noi e con gli altri, se non avessimo avuto delle risorse “speciali” grazie ai nostri figli!
 
 Chi, se non famiglie sostenute da una speranza “speciale”, avrebbero solo pensato di mettere su un corso di ristorazione, di coinvolgere altri genitori, di entusiasmarsi insieme per un nuovo progetto — a detta di tutti ambiziosissimo e alla fine lanciarsi insieme con i propri figli in quest'avventura: aprire un ristorante ovviamente “speciale”?

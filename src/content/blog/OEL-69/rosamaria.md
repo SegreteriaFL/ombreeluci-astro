@@ -1,4 +1,5 @@
 ---
+
 title: Rosamaria
 date: 2000-03-28
 author: Mariangela Bertolini
@@ -16,7 +17,10 @@ umap_z: 9.170092582702637
 issue_number: OEL-69
 id_numero: "OEL-69"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "Davide ti ha insegnato il silenzio. È difficile farti parlare. Lo farò per te: per la stima e l’affetto che ti porto ma, soprattutto, per dire a te, a Franco e ai genitori come voi, che ci sentiamo un debito nei vostri confronti."
 ---
+
 Davide ti ha insegnato il silenzio. È difficile farti parlare. Lo farò per te: per la stima e l’affetto che ti porto ma, soprattutto, per dire a te, a Franco e ai genitori come voi, che ci sentiamo un debito nei vostri confronti. Chissà quante volte, leggendo Ombre e Luci dove si parla di attività, di progressi, di autonomia conquistata, ti sei chiesta: "Ma io, ma Davide?
 
 Ricordi quel giorno al campeggio di Rocca di Papa? Piangendo dicevi: "Vedi, con tutti questi ragazzi gli amici si danno da fare: giocano, aiutano, cantano... Con Davide, non possono fare niente. Non vede, non parla, non si muove. Li capisco, non li critico, ma mi fa un gran male. Che senso ha la vita di Davide?" Non sapevamo cosa rispondere. Potevamo solo manifestarti in qualche modo che eravate importanti per noi come se non più degli altri. Che proprio per la vostra maggiore difficoltà, vi volevamo più bene.

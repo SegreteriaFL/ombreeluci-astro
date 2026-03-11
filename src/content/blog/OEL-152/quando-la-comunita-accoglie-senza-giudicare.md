@@ -1,4 +1,5 @@
 ---
+
 title: "Quando la comunità accoglie, senza giudicare"
 date: "2020-02-18"
 author: "Claudio Cinus"
@@ -15,6 +16,7 @@ issue_number: OEL-152
 id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
+
 Tra i molti modi possibili in cui strutturare un documentario su Lourdes – inteso come santuario religioso, ma anche come luogo iconico di notorietà universale – i registi francesi Thierry Demaizière e Alban Teurlai hanno scelto il metodo profano dell'osservazione dell'umanità che lo visita: per capire il successo di Lourdes, hanno provato a capire le motivazioni di chi ne è il motore.
 
 Ogni anno, circa sei milioni di pellegrini da ogni parte del mondo visitano quello che è diventato nel corso degli anni uno dei principiali poli turistici francesi. La convinzione di chi non c'è mai stato è che sia il posto in cui chi ne ha bisogno chiede un miracolo o una grazia. Ma i numeri dicono tutt’altro: le guarigioni inspiegabili riconosciute come tali sono una frazione minima rispetto al totale di pellegrini malati, persino in numero minore rispetto alla percentuale di remissioni spontanee di varie patologie. Per dirla come una delle donne cui il film dà voce, andare a Lourdes per ottenere un miracolo è come sperare di vincere la lotteria.

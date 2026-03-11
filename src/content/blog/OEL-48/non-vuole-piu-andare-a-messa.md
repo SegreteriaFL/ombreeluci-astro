@@ -1,4 +1,5 @@
 ---
+
 title: "Non vuole più andare a messa"
 date: "1994-09-02"
 author: "Henri Bissonier"
@@ -15,6 +16,7 @@ issue_number: OEL-48
 id_numero: "OEL-48"
 numero_rivista: "Ombre e Luci"
 ---
+
 Alessandro ha nove anni ed è portatore di handicap fisico. Passa la giornata in carrozzella. Una domenica mattina dichiara improvvisamente che non vuole andare alla messa e non vuole spiegarne i motivi. I genitori si domandano se non gli è giunta all’orecchio un’osservazione irritante, se si è sentito ferito da uno sguardo maldestro di pietà... oppure se le sue parole manifestano una ribellione verso quel Dio che ha permesso la sua situazione. Come agire in queste circostanze?
 Ecco come risponde Padre Henri Bissonier, per 40 anni professore di catechesi «speciale» all’Università di Lovanio.
 È molto difficile sapere perché un bambino, che sia disabile o no, un giorno decide che non vuole andare a messa. Del resto forse non lo sa bene neppure lui.

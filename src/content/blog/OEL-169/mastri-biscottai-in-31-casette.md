@@ -1,4 +1,5 @@
 ---
+
 title: Mastri biscottai in 31 casette
 date: 2025-05-14
 author: Redazione
@@ -18,7 +19,10 @@ umap_z: 8.6752290725708
 issue_number: OEL-169
 id_numero: "OEL-169"
 numero_rivista: "Ombre e Luci"
+
+subtitle: "La storia dell’associazione “Ylenia e gli Amici Speciali”, nata da un gruppo di genitori per costruire percorsi di autonomia, lavoro e vita condivisa per persone con disabilità."
 ---
+
 «Non si poteva improntare il progetto che avevamo in cuore per i nostri ragazzi e ragazze come una riabilitazione a vita». Con questa premessa nel 2007 un gruppo di genitori – racconta Silvana Giovannini, presidente dell’associazione *Ylenia e gli Amici Speciali* – iniziava un percorso molto complesso per realizzare un progetto di vita per i figli ormai fuori dalla scuola e con varie disabilità cognitive e fisiche. L’intento era cercare di «favorire l’inclusione sociale, lavorativa e residenziale, abbattere i pregiudizi che la società ha nei confronti delle persone con disabilità, in particolare cognitive, dovute soprattutto alla mancanza di conoscenza. **Volevamo che i nostri figli fossero cittadini attivi, non soltanto suscettibili di ricevere assistenza e protezione dallo Stato, ma che fossero protagonisti della loro vita** ».
 
 Fin dal principio gli stessi genitori hanno dovuto mettersi in gioco affinché l’impresa fosse, e rimanesse, sostenibile. La prima tappa della nuova associazione (Ylenia, una persona con disabilità del gruppo iniziale, ne doveva far parte ma è morta e l’hanno voluta ricordare nell’intestazione) fu la locazione di un appartamento a Corviale in cui fare palestra di autonomia nei fine settimana e piccoli corsi di cucina nei pomeriggi feriali, aiutati da un’insegnante di un istituto alberghiero in pensione.

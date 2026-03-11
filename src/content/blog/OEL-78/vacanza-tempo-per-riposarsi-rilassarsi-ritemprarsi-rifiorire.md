@@ -1,4 +1,5 @@
 ---
+
 title: "Vacanza: tempo per riposarsi, rilassarsi, ritemprarsi, rifiorire"
 date: 2002-06-15
 author: Mariangela Bertolini
@@ -14,7 +15,10 @@ has_comments: false
 umap_x: 7.097853183746338
 umap_y: 6.440130233764648
 umap_z: 10.39317512512207
+
+subtitle: "Qualche spunto per riprogrammare le nostre vacanze cercando di scoprire ciò di cui abbiamo veramene bisogno"
 ---
+
 N on è per tutti così purtroppo, ma per i più l’estate porta con sé questo tempo, aspettato lungo l’anno, per riposarsi, rilassarsi, ritemprarsi, rifiorire.
 
 Non sempre si riesce, anche perché si inseguono luoghi di vacanza che finiscono per assomigliare alle città convulse che abbiamo lasciato: spiagge superaffollate, alberghi chiassosi, paesi invasi e pervasi da musiche e chiasso e traffico che quasi ci fanno sognare il quartiere cittadino.

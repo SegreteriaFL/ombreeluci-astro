@@ -1,4 +1,5 @@
 ---
+
 title: "Come si fa Fede e Luce: il lavoro in équipe"
 date: "2003-03-13"
 author: "Jean Vanier"
@@ -14,7 +15,10 @@ has_comments: false
 tema_code: "T15"
 tema_label: "Memoria e storia di Fede e Luce (opzionale)"
 categoria_menu: "Storia"
+
+subtitle: "Non è facile far funzionare una comunità di Fede e Luce. Jean Vanier riassume qualche utile consiglio"
 ---
+
 Proponiamo alcuni suggerimenti di Jean Vanier sul lavoro dell’équipe di coordinamento. Nelle comunità le équipe sono solitamente formate da alcuni membri insieme al responsabile e all’assistente spirituale; nei consigli nazionali dai coordinatori regionali e dal coordinatore nazionale.
 Più che una struttura direttiva, sono espressione di un metodo di lavoro che sostiene il cammino di crescita delle comunità e dei loro membri. Nascono dalla coscienza dell’importanza di lavorare insieme per un progetto comune, sia quello di un’incontro, di un week-end o di un incontro nazionale.
 
