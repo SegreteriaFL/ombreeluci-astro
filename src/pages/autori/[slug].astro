@@ -5,7 +5,7 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
-import { getMegaclusterForArticle, getLabels, getRoleWeight } from '../../config/taxonomy.js';
+import { getMegaclusterForArticle, getLabels, getRoleWeight, onlyItalianBlog } from '../../config/taxonomy.js';
 import megacluster from '../../data/articoli_megacluster.json';
 
 const megaclusterData = megacluster as {
@@ -17,7 +17,7 @@ const autoriById: Record<string, { foto_url?: string; bio_html?: string }> = meg
 
 // Genera tutti i percorsi statici per gli autori
 export async function getStaticPaths() {
-  const allArticles = await getCollection('blog');
+  const allArticles = onlyItalianBlog(await getCollection('blog'));
   
   // Estrai autori unici
   const autoriMap = new Map<string, { nome: string; articoli: any[] }>();

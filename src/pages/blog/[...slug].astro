@@ -15,7 +15,14 @@ import '../../styles/global.css';
 
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 const megaclusterData = megacluster as {
-  byId?: Record<string, { img_copertina_url?: string }>;
+  byId?: Record<
+    string,
+    {
+      img_copertina_url?: string | null;
+      sottotitolo?: string | null;
+      didascalia_copertina?: string | null;
+    }
+  >;
   autoriById?: Record<string, { foto_url?: string; bio_html?: string }>;
 };
 const megaclusterById = megaclusterData.byId || {};
@@ -160,20 +167,45 @@ async function extractExcerpt(articleId: string): Promise<string | null> {
   }
 }
 
-// Estrai excerpt se non presente
+// Estrai excerpt se non presente (usato come fallback se manca un vero sottotitolo)
 let articleExcerpt = articleBySlug.data.tema_label || null;
 if (!articleExcerpt) {
   articleExcerpt = await extractExcerpt(articleBySlug.id);
 }
 
-// Meta description per SEO (prime 160 caratteri)
-const metaDescription = articleExcerpt 
-  ? articleExcerpt.substring(0, 160).replace(/\s+/g, ' ').trim()
-  : `${articleBySlug.data.title} - Articolo pubblicato su Ombre e Luci`;
+// Immagine, sottotitolo e didascalia copertina da megacluster/frontmatter
+const wpIdStr = String(articleBySlug.data.wp_id ?? '');
+const megaclusterEntry = megaclusterById[wpIdStr] || {};
 
 // Immagine articolo: da megacluster (img_copertina_url) se presente, altrimenti frontmatter (image/copertina_url) o placeholder
-const wpIdStr = String(articleBySlug.data.wp_id ?? '');
-const articleImage = megaclusterById[wpIdStr]?.img_copertina_url || articleBySlug.data.image || (articleBySlug.data as { copertina_url?: string }).copertina_url || placeholderImage.src;
+const articleImage =
+  megaclusterEntry.img_copertina_url ||
+  articleBySlug.data.image ||
+  (articleBySlug.data as { copertina_url?: string }).copertina_url ||
+  placeholderImage.src;
+
+// Sottotitolo esplicito da frontmatter (usato in pagina) e fallback per SEO
+const explicitSubtitle =
+  ((articleBySlug.data as { subtitle?: string }).subtitle || '').trim() ||
+  null;
+
+// Sottotitolo esteso per SEO: usa explicitSubtitle, poi megacluster.sottotitolo, infine excerpt calcolato
+const articleSubtitle =
+  explicitSubtitle ||
+  (megaclusterEntry.sottotitolo || '').trim() ||
+  (articleExcerpt || null);
+
+// Didascalia copertina: prima image_caption dal frontmatter (estratta dallo script),
+// poi megacluster.didascalia_copertina
+const heroCaption =
+  ((articleBySlug.data as { image_caption?: string }).image_caption || '').trim() ||
+  (megaclusterEntry.didascalia_copertina || '').trim() ||
+  null;
+
+// Meta description per SEO (prime 160 caratteri)
+const metaDescription = (explicitSubtitle || articleSubtitle || articleExcerpt)
+  ? (explicitSubtitle || articleSubtitle || articleExcerpt)!.substring(0, 160).replace(/\s+/g, ' ').trim()
+  : `${articleBySlug.data.title} - Articolo pubblicato su Ombre e Luci`;
 
 // Label categoria (categoria_menu) e slug per link; forma per badge
 const categoryDisplay = getThemeLabel(articleBySlug.data.wp_id);
@@ -247,6 +279,45 @@ byDate.forEach((a) => { if (relatedIds.size < 3) relatedIds.add(a.id); });
 const relatedArticles = Array.from(relatedIds)
   .map((id) => allArticles.find((a) => a.id === id))
   .filter(Boolean);
+
+// Mappa slug -> metadati articolo per i box correlati in-content (read-also-box)
+const inContentRelatedMap: Record<
+  string,
+  {
+    title: string;
+    image: string;
+    excerpt: string | null;
+    href: string;
+  }
+> = {};
+
+for (const article of allArticles) {
+  const slug =
+    (article.data as { slug?: string }).slug ||
+    article.slug;
+
+  const relWpId = String(article.data.wp_id ?? '');
+  const relMegacluster = megaclusterById[relWpId] || {};
+
+  const rawImage =
+    relMegacluster.img_copertina_url ||
+    article.data.image ||
+    (article.data as { copertina_url?: string }).copertina_url ||
+    placeholderImage.src;
+
+  const subtitle =
+    ((article.data as { subtitle?: string }).subtitle || '').trim() ||
+    (relMegacluster.sottotitolo || '').trim() ||
+    (article.data.tema_label || '').trim() ||
+    null;
+
+  inContentRelatedMap[slug] = {
+    title: article.data.title,
+    image: typeof rawImage === 'string' ? rawImage : rawImage.src,
+    excerpt: subtitle,
+    href: `/blog/${slug}`,
+  };
+}
 ---
 
 <html lang="it">
@@ -358,6 +429,16 @@ const relatedArticles = Array.from(relatedIds)
         opacity: 0.5;
       }
 
+      .article-image-caption {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          sans-serif;
+        font-size: 0.85rem;
+        color: #666;
+        font-style: italic;
+        text-align: right;
+        margin-top: 0.5rem;
+      }
+
       /* Header Articolo */
       .article-header-top {
         display: flex;
@@ -419,12 +500,13 @@ const relatedArticles = Array.from(relatedIds)
       }
 
       .article-subtitle {
-        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        font-family: Georgia, 'Times New Roman', serif;
         font-size: 1.25rem;
         font-weight: 400;
-        color: var(--text-secondary);
+        font-style: italic;
+        color: #444;
         text-align: center;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
         line-height: 1.8;
       }
 
@@ -652,29 +734,28 @@ const relatedArticles = Array.from(relatedIds)
 
       /* Drop Cap rimosso */
 
-      /* Box "Leggi anche" - Con risalto grafico */
+      /* Box "Leggi anche" - contenitore neutro */
       .read-also-box {
-        background: rgba(255, 16, 83, 0.05);
-        border: 2px solid var(--accent-color);
+        background: #ffffff;
+        border: 1px solid var(--border-color, #e5e5e5);
         border-radius: 12px;
-        padding: 2rem;
+        padding: 1.75rem;
         margin: 3rem 0;
-        box-shadow: 0 4px 12px rgba(255, 16, 83, 0.1);
       }
 
       .read-also-box h4 {
         font-family: 'Raleway', system-ui, sans-serif;
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 700;
-        letter-spacing: 0.5px;
-        color: var(--accent-color);
-        margin-bottom: 1rem;
-        text-transform: none;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--text-secondary);
+        margin-bottom: 1.25rem;
       }
 
       .read-also-box p {
         font-size: 1rem;
-        color: var(--text-color);
+        color: var(--text-secondary);
         margin-bottom: 0;
         line-height: 1.8;
         font-family: 'Raleway', system-ui, sans-serif;
@@ -691,14 +772,89 @@ const relatedArticles = Array.from(relatedIds)
         color: var(--accent-color);
       }
 
-      /* Didascalia immagine - allineata a sinistra, stessa larghezza dell'immagine */
-      .article-image-caption {
-        margin: 0.5rem 0 0 0;
-        padding-left: 0;
-        font-size: 0.875rem;
+      /* Card correlati in-content (stile Vita.it) */
+      .incontent-related-container {
+        display: grid;
+        gap: 1.5rem;
+      }
+
+      .incontent-related-card {
+        display: block;
+        border: 1px solid #eee;
+        border-radius: 12px;
+        padding: 1.5rem;
+        background: #ffffff;
+        text-decoration: none;
+        transition: box-shadow 0.2s ease, transform 0.15s ease;
+      }
+
+      .incontent-related-link {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .incontent-related-image-wrapper {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-bottom: 1.25rem;
+        background: #f3f3f3;
+      }
+
+      .incontent-related-image-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .incontent-related-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .incontent-related-label {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #888;
+        margin-bottom: 0.35rem;
+      }
+
+      .incontent-related-title {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 1.05rem;
+        font-weight: 700;
+        line-height: 1.4;
+        color: #000000;
+      }
+
+      .incontent-related-excerpt {
+        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        font-size: 0.95rem;
+        line-height: 1.6;
         color: var(--text-secondary);
-        font-style: italic;
-        text-align: left;
+        margin: 0;
+      }
+
+      .incontent-related-card:hover {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        transform: translateY(-1px);
+      }
+
+      /* Didascalia immagine hero - stessa larghezza dell'immagine, allineata a destra */
+      .article-image-caption {
+        margin: 0.4rem 0 0 0;
+        padding: 0;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        font-style: normal;
+        text-align: right;
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
       }
 
@@ -1089,10 +1245,10 @@ const relatedArticles = Array.from(relatedIds)
 
         <h1 class="article-title">{articleBySlug.data.title}</h1>
         
-        {/* Sottotitolo (excerpt o tema_label) */}
-        {articleExcerpt && (
+        {/* Sottotitolo: usa il sottotitolo “vero” dal frontmatter, se presente */}
+        {explicitSubtitle && (
           <div class="article-subtitle">
-            {articleExcerpt}
+            {explicitSubtitle}
           </div>
         )}
         
@@ -1134,9 +1290,11 @@ const relatedArticles = Array.from(relatedIds)
             class="article-image"
             loading="lazy"
           />
-          <div class="article-image-caption">
-            {articleBySlug.data.copertina_url ? 'Copertina del numero' : 'Immagine articolo'}
-          </div>
+          {heroCaption && (
+            <div class="article-image-caption">
+              {heroCaption}
+            </div>
+          )}
         </div>
       </div>
 
@@ -1371,7 +1529,7 @@ Slug: {articleBySlug.slug}
     </div>
     </main>
     <Footer />
-    <script define:vars={{ wpIdToSlugMap }}>
+    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap }}>
       // Mappa wp_id -> slug disponibile globalmente
     </script>
     <script>
@@ -1394,26 +1552,89 @@ Slug: {articleBySlug.slug}
       window.addEventListener('scroll', updateReadingProgress);
       updateReadingProgress();
 
-      // Box "Leggi anche" dopo terzo paragrafo
+      // Box \"Leggi anche\" generico disabilitato: usiamo solo box editoriali reali presenti nel testo
       function insertReadAlsoBox() {
+        return;
+      }
+
+      // Trasforma i div.read-also-box in card correlate con dati reali articoli
+      function enhanceReadAlsoBoxes() {
         const content = document.getElementById('article-content');
-        if (!content) return;
-        
-        const paragraphs = content.querySelectorAll('p');
-        if (paragraphs.length < 3) return;
-        
-        // Verifica se il box esiste già
-        if (content.querySelector('.read-also-box')) return;
-        
-        const thirdParagraph = paragraphs[2];
-        const readAlsoBox = document.createElement('div');
-        readAlsoBox.className = 'read-also-box';
-        readAlsoBox.innerHTML = `
-          <h4>Leggi anche</h4>
-          <p>Scopri altri articoli della rivista <a href="/archivio">nell'archivio</a> o <a href="/">nella homepage</a>.</p>
-        `;
-        
-        thirdParagraph.parentNode.insertBefore(readAlsoBox, thirdParagraph.nextSibling);
+        if (!content || !inContentRelatedMap) return;
+
+        const boxes = content.querySelectorAll('.read-also-box');
+        if (!boxes.length) return;
+
+        boxes.forEach((box) => {
+          const links = box.querySelectorAll('a[href]');
+          if (!links.length) return;
+
+          const cards = [];
+
+          links.forEach((link) => {
+            const href = link.getAttribute('href');
+            if (!href) return;
+
+            let slug = null;
+
+            // 1) Link WordPress ?p=ID
+            const wpMatch = href.match(/[?&]p=(\d+)/);
+            if (wpMatch && wpIdToSlugMap) {
+              const wpId = parseInt(wpMatch[1]);
+              slug = wpIdToSlugMap[wpId] || null;
+            }
+
+            // 2) Link tipo /blog/slug o assoluti
+            if (!slug) {
+              try {
+                const url = new URL(href, window.location.origin);
+                const segments = url.pathname.split('/').filter(Boolean);
+                const blogIndex = segments.indexOf('blog');
+
+                if (blogIndex !== -1 && segments.length > blogIndex + 1) {
+                  slug = segments.slice(blogIndex + 1).join('/');
+                } else if (segments.length > 0) {
+                  slug = segments[segments.length - 1];
+                }
+              } catch (e) {
+                // URL non valido: ignora
+              }
+            }
+
+            if (!slug) return;
+
+            const meta = inContentRelatedMap[slug];
+            if (!meta) return;
+
+            const card = document.createElement('article');
+            card.className = 'incontent-related-card';
+
+            const hrefFinal = meta.href || `/blog/${slug}`;
+            const safeTitle = meta.title || link.textContent?.trim() || '';
+            const safeExcerpt = meta.excerpt || '';
+
+            card.innerHTML = `
+              <a href="${hrefFinal}" class="incontent-related-link">
+                <div class="incontent-related-image-wrapper">
+                  <img src="${meta.image}" alt="${safeTitle}" loading="lazy" />
+                </div>
+                <div class="incontent-related-content">
+                  <span class="incontent-related-label">LEGGI ANCHE</span>
+                  <h3 class="incontent-related-title">${safeTitle}</h3>
+                  ${safeExcerpt ? `<p class="incontent-related-excerpt">${safeExcerpt}</p>` : ''}
+                </div>
+              </a>
+            `;
+
+            cards.push(card);
+          });
+
+          if (cards.length > 0) {
+            box.innerHTML = '';
+            box.classList.add('incontent-related-container');
+            cards.forEach((card) => box.appendChild(card));
+          }
+        });
       }
 
       // Widget a comparsa dopo 50% scroll
@@ -1448,11 +1669,13 @@ Slug: {articleBySlug.slug}
       
       window.addEventListener('scroll', checkScrollForWidget);
       
-      // Inserisci box "Leggi anche" quando il contenuto è caricato
+      // (Il box "Leggi anche" generico è disabilitato: vengono usati solo box editoriali reali presenti nel testo)
       if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', insertReadAlsoBox);
+        document.addEventListener('DOMContentLoaded', () => {
+          enhanceReadAlsoBoxes();
+        });
       } else {
-        insertReadAlsoBox();
+        enhanceReadAlsoBoxes();
       }
 
       // Processa link WordPress e link esterni
@@ -1508,13 +1731,19 @@ Slug: {articleBySlug.slug}
 
       // Esegui processamento link quando il contenuto è caricato
       if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', processArticleLinks);
+        document.addEventListener('DOMContentLoaded', () => {
+          processArticleLinks();
+          // riprova ad arricchire i box dopo la normalizzazione dei link
+          enhanceReadAlsoBoxes();
+        });
       } else {
         processArticleLinks();
+        enhanceReadAlsoBoxes();
       }
 
       // Processa anche dopo che il contenuto è stato renderizzato da Astro
       setTimeout(processArticleLinks, 100);
+      setTimeout(enhanceReadAlsoBoxes, 150);
     </script>
   </body>
 </html>

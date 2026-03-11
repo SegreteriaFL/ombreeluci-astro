@@ -5,11 +5,11 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
-import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import { getMegaclusterForArticle, getLabels, onlyItalianBlog } from '../../config/taxonomy.js';
 import megacluster from '../../data/articoli_megacluster.json';
 
 const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
-const allArticles = await getCollection('blog');
+const allArticles = onlyItalianBlog(await getCollection('blog'));
 
 // Solo articoli "Pubblicato online" (issue_number vuoto o nullo)
 const articoliWebOnly = allArticles

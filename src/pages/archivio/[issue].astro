@@ -6,7 +6,7 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import IssueNavPill from '../../components/IssueNavPill.astro';
 import { ViewTransitions } from 'astro:transitions';
 import '../../styles/global.css';
-import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import { getMegaclusterForArticle, getLabels, onlyItalianBlog } from '../../config/taxonomy.js';
 import megacluster from '../../data/articoli_megacluster.json';
 
 const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
@@ -50,7 +50,7 @@ export async function getStaticPaths() {
 
 const { numero, prevSlug, nextSlug } = Astro.props;
 
-const allArticles = await getCollection('blog');
+const allArticles = onlyItalianBlog(await getCollection('blog'));
 
 // Articoli dal frontmatter del numero (array articoli = slug), ordinati per pubDate crescente (ordine indice)
 function findArticleBySlug(slug: string) {

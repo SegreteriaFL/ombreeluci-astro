@@ -12,7 +12,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import ArticleListRow from '../components/ArticleListRow.astro';
 import ThemedSection from '../components/ThemedSection.astro';
 import IssueCard from '../components/IssueCard.astro';
-import { getMegaclusterForArticle, getLabels, getCategoryBySlug, getRoleWeight } from '../config/taxonomy.js';
+import { getMegaclusterForArticle, getLabels, getCategoryBySlug, getRoleWeight, onlyItalianBlog } from '../config/taxonomy.js';
 import { DIARISTI } from '../data/diari.js';
 import megacluster from '../data/articoli_megacluster.json';
 import numeriData from '../data/numeri_consolidati.json';
@@ -60,7 +60,7 @@ const autoriById = (megacluster as { autoriById?: Record<string, { foto_url?: st
 
 let allArticles: Awaited<ReturnType<typeof getCollection<'blog'>>> = [];
 try {
-  allArticles = await getCollection('blog');
+  allArticles = onlyItalianBlog(await getCollection('blog'));
 } catch (e) {
   console.error('[index.astro] getCollection error:', e);
 }

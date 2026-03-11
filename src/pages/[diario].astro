@@ -7,12 +7,13 @@ import { getCollection } from 'astro:content';
 import DiarioLayout from '../layouts/DiarioLayout.astro';
 import { DIARISTI, getDiaristaByDiarioSlug } from '../data/diari.js';
 import megacluster from '../data/articoli_megacluster.json';
+import { onlyItalianBlog } from '../config/taxonomy.js';
 
 export async function getStaticPaths() {
   const megaclusterData = megacluster as { autoriById?: Record<string, { foto_url?: string }> };
   const autoriById = megaclusterData.autoriById || {};
 
-  const allArticles = await getCollection('blog');
+  const allArticles = onlyItalianBlog(await getCollection('blog'));
   const paths: { params: { diario: string }; props: Record<string, unknown> }[] = [];
 
   for (const d of DIARISTI) {

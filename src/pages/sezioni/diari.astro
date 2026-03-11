@@ -9,7 +9,7 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
-import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import { getMegaclusterForArticle, getLabels, onlyItalianBlog } from '../../config/taxonomy.js';
 import { getDiaristiWithMeta, NOMI_DIARISTI } from '../../data/diari.js';
 import megacluster from '../../data/articoli_megacluster.json';
 
@@ -22,7 +22,7 @@ const autoriById = megaclusterData.autoriById || {};
 
 const diaristiConMeta = getDiaristiWithMeta(autoriById);
 
-const allArticles = await getCollection('blog');
+const allArticles = onlyItalianBlog(await getCollection('blog'));
 const articoliDiari = allArticles
   .filter((a) => NOMI_DIARISTI.has((a.data.author || '').trim()))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());

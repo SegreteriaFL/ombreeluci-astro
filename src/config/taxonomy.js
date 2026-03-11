@@ -257,3 +257,13 @@ function slugifyLabel(label) {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
 }
+
+/**
+ * Filtra la collezione blog per mostrare solo articoli italiani (feed principale).
+ * Esclude articoli in src/content/blog/en/ o con lang: 'en'.
+ * @param {Array<{ id: string; data: { lang?: string } }>} entries
+ * @returns {typeof entries}
+ */
+export function onlyItalianBlog(entries) {
+  return entries.filter((e) => !e.id.startsWith('en/') && e.data?.lang !== 'en');
+}
