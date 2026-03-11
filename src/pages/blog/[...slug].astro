@@ -1523,7 +1523,7 @@ Slug: {articleBySlug.slug}
 
       let readAlsoInserted = false;
 
-      // Restituisce il contenitore principale del corpo articolo (prova in ordine: #article-content, .article-content, .prose, wrapper, main)
+      // Contenitore articolo: #article-content, .article-content, .prose, wrapper, main
       function getArticleContentContainer() {
         return document.getElementById('article-content') ||
           document.querySelector('.article-content') ||
@@ -1531,6 +1531,18 @@ Slug: {articleBySlug.slug}
           document.querySelector('.article-content-wrapper') ||
           document.querySelector('main');
       }
+
+      // Paragrafi: selettore generico main p o .prose p (non solo #article-content p)
+      function getArticleParagraphs(container) {
+        const main = document.querySelector('main');
+        const prose = document.querySelector('.prose');
+        const root = main || prose || container;
+        return root ? Array.from(root.querySelectorAll('p')) : [];
+      }
+
+      let leggiAncheRetryCount = 0;
+      const LEGGI_ANCHE_MAX_RETRIES = 3;
+      const LEGGI_ANCHE_RETRY_MS = 500;
 
       // Inserisce automaticamente un box \"Leggi anche\" in base alla categoria
       function insertReadAlsoBox() {
@@ -1556,7 +1568,6 @@ Slug: {articleBySlug.slug}
           return true;
         });
 
-        // Fallback: se nessun articolo nella stessa categoria, qualsiasi articolo italiano
         if (currentCategory && candidates.length === 0) {
           candidates = allEntries.filter(([slug, meta]) => {
             if (slug === currentSlug) return false;
@@ -1576,9 +1587,14 @@ Slug: {articleBySlug.slug}
         box.className = 'read-also-box';
         box.dataset.slug = chosenSlug;
 
-        const mainOrArticle = document.querySelector('main') || container;
-        const paragraphs = Array.from(mainOrArticle.querySelectorAll('p'));
-        console.log('Paragrafi trovati:', paragraphs.length, '(container:', container?.className || container?.id || container?.tagName, ')');
+        const paragraphs = getArticleParagraphs(container);
+        console.log('Paragrafi trovati:', paragraphs.length, '(retry', leggiAncheRetryCount + 1, '/', LEGGI_ANCHE_MAX_RETRIES, ')');
+
+        if (paragraphs.length === 0 && leggiAncheRetryCount < LEGGI_ANCHE_MAX_RETRIES) {
+          leggiAncheRetryCount++;
+          setTimeout(runLeggiAnche, LEGGI_ANCHE_RETRY_MS);
+          return;
+        }
 
         let inserted = false;
 
@@ -1591,10 +1607,8 @@ Slug: {articleBySlug.slug}
           }
         }
 
-        // Fallback: inserimento in fondo (anche se 0 paragrafi o testo corto)
         if (!inserted) {
           container.appendChild(box);
-          inserted = true;
         }
 
         readAlsoInserted = true;
@@ -1737,6 +1751,7 @@ Slug: {articleBySlug.slug}
 
       function scheduleLeggiAnche() {
         readAlsoInserted = false;
+        leggiAncheRetryCount = 0;
         runLeggiAnche();
         setTimeout(runLeggiAnche, 1000);
       }
@@ -1749,8 +1764,8 @@ Slug: {articleBySlug.slug}
       if (observerTarget) {
         const mo = new MutationObserver(() => {
           if (readAlsoInserted) return;
-          const main = document.querySelector('main');
-          if (main && main.querySelectorAll('p').length > 0) {
+          const root = document.querySelector('main') || document.querySelector('.prose');
+          if (root && root.querySelectorAll('p').length > 0) {
             runLeggiAnche();
           }
         });
