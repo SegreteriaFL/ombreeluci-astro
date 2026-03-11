@@ -37,19 +37,32 @@ console.log('[blog/[...slug].astro] Object.keys(megacluster.autoriById).length =
 // Genera tutti i percorsi statici
 export async function getStaticPaths() {
   const allArticles = await getCollection('blog');
+  const cleanId = (id: unknown) => String(id ?? '').trim().replace(/\.0$/, '');
 
-  // Verifica coppie IT/EN per LanguageSelector (stesso wp_id)
-  const byWpId = new Map<string, { it?: string; en?: string }>();
+  // Verifica coppie IT/EN per LanguageSelector (stesso wp_id normalizzato)
+  const byWpId = new Map<string, { it?: string; en?: string; titleIt?: string; titleEn?: string }>();
   for (const a of allArticles) {
-    const id = String(a.data.wp_id ?? '');
+    const id = cleanId(a.data.wp_id);
     if (!id) continue;
     if (!byWpId.has(id)) byWpId.set(id, {});
     const entry = byWpId.get(id)!;
-    if (a.id.startsWith('en/')) entry.en = a.slug;
-    else entry.it = a.slug;
+    if (a.id.startsWith('en/')) {
+      entry.en = a.slug;
+      entry.titleEn = a.data.title;
+    } else {
+      entry.it = a.slug;
+      entry.titleIt = a.data.title;
+    }
   }
   const pairs = [...byWpId.values()].filter((e) => e.it && e.en).length;
   console.log('[blog/[...slug].astro] getStaticPaths: wp_id con coppia IT+EN =', pairs, '/ wp_id totali con id =', byWpId.size);
+
+  // Log mapping IT -> EN per debug
+  byWpId.forEach((entry, wpId) => {
+    if (entry.it && entry.en) {
+      console.log('Mapping:', `[${entry.titleIt}] ID: ${wpId} -> [${entry.titleEn}] ID: ${wpId}`);
+    }
+  });
 
   return allArticles.map((article) => {
     const slug = article.slug;
@@ -279,18 +292,34 @@ const currentSlug =
   (articleBySlug.data as { slug?: string }).slug ||
   articleBySlug.slug;
 
-// Articolo nella stessa lingua per language switcher (stesso wp_id, altra lingua)
+// Articolo nella stessa lingua per language switcher (stesso wp_id normalizzato, altra lingua)
 const isCurrentEn = articleBySlug.id.startsWith('en/');
 const currentWpId = articleBySlug.data.wp_id;
-const alternateArticle =
-  currentWpId != null && currentWpId !== ''
+const cleanId = (id: unknown) => String(id ?? '').trim().replace(/\.0$/, '');
+const currentWpIdClean = cleanId(currentWpId);
+
+// Prima prova match per wp_id normalizzato
+let alternateArticle =
+  currentWpIdClean !== ''
     ? allArticles.find(
         (a) =>
-          String(a.data.wp_id ?? '') === String(currentWpId) &&
+          cleanId(a.data.wp_id) === currentWpIdClean &&
           a.id !== articleBySlug.id &&
           (a.id.startsWith('en/') ? !isCurrentEn : isCurrentEn)
       )
     : null;
+
+// Fallback: stesso slug (articoli tradotti spesso mantengono slug simile)
+if (!alternateArticle && currentSlug) {
+  const slugBase = typeof currentSlug === 'string' ? currentSlug.split('/').pop() || currentSlug : String(currentSlug);
+  alternateArticle = allArticles.find(
+    (a) =>
+      a.id !== articleBySlug.id &&
+      (a.id.startsWith('en/') ? !isCurrentEn : isCurrentEn) &&
+      (a.slug === slugBase || a.slug === currentSlug || (a.slug && a.slug.endsWith(slugBase)))
+  ) || null;
+}
+
 const alternateArticleUrl = alternateArticle ? `/blog/${alternateArticle.slug}` : null;
 
 if (typeof console !== 'undefined' && console.log) {
@@ -814,6 +843,8 @@ for (const article of allArticles) {
 
       .incontent-related-card {
         display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
         position: relative;
         z-index: 1;
         border: 1px solid #eee;
@@ -1532,12 +1563,12 @@ Slug: {articleBySlug.slug}
           document.querySelector('main');
       }
 
-      // Paragrafi: selettore generico main p o .prose p (non solo #article-content p)
+      // Figli diretti del contenitore (non solo p): main, article o #article-content
       function getArticleParagraphs(container) {
-        const main = document.querySelector('main');
-        const prose = document.querySelector('.prose');
-        const root = main || prose || container;
-        return root ? Array.from(root.querySelectorAll('p')) : [];
+        if (!container) return [];
+        console.log('Contenitore trovato:', container);
+        const children = Array.from(container.children || []);
+        return children;
       }
 
       let leggiAncheRetryCount = 0;
@@ -1588,7 +1619,7 @@ Slug: {articleBySlug.slug}
         box.dataset.slug = chosenSlug;
 
         const paragraphs = getArticleParagraphs(container);
-        console.log('Paragrafi trovati:', paragraphs.length, '(retry', leggiAncheRetryCount + 1, '/', LEGGI_ANCHE_MAX_RETRIES, ')');
+        console.log('Paragrafi/figli trovati:', paragraphs.length, '(retry', leggiAncheRetryCount + 1, '/', LEGGI_ANCHE_MAX_RETRIES, ')');
 
         if (paragraphs.length === 0 && leggiAncheRetryCount < LEGGI_ANCHE_MAX_RETRIES) {
           leggiAncheRetryCount++;
@@ -1600,13 +1631,21 @@ Slug: {articleBySlug.slug}
 
         if (paragraphs.length > 4) {
           const targetIndex = paragraphs.length > 8 ? 2 : 1;
-          const targetP = paragraphs[Math.min(targetIndex, paragraphs.length - 1)];
-          if (targetP && targetP.parentNode) {
-            targetP.parentNode.insertBefore(box, targetP.nextSibling);
+          const targetEl = paragraphs[Math.min(targetIndex, paragraphs.length - 1)];
+          if (targetEl && targetEl.parentNode) {
+            targetEl.parentNode.insertBefore(box, targetEl.nextSibling);
             inserted = true;
           }
         }
 
+        if (!inserted && paragraphs.length > 0) {
+          // Inserimento garantito: prima dell'ultimo elemento del contenitore
+          const lastEl = container.lastElementChild;
+          if (lastEl) {
+            container.insertBefore(box, lastEl);
+            inserted = true;
+          }
+        }
         if (!inserted) {
           container.appendChild(box);
         }
@@ -1781,6 +1820,25 @@ Slug: {articleBySlug.slug}
         scheduleLeggiAnche();
       }
 
+      // Rimuove sezioni "vecchia maniera" (Articoli correlati, Editoriale, Rubriche, Libri dal body markdown)
+      function removeOldRelatedSections() {
+        const articleContent = document.getElementById('article-content');
+        if (!articleContent) return;
+        const oldSectionTitles = ['Articoli', 'Editoriale', 'Rubriche', 'Libri'];
+        articleContent.querySelectorAll('h4').forEach((h4) => {
+          const text = (h4.textContent || '').trim();
+          if (oldSectionTitles.some((t) => text === t || text.endsWith(t))) {
+            let next = h4.nextElementSibling;
+            while (next) {
+              const toRemove = next;
+              next = next.nextElementSibling;
+              toRemove.remove();
+            }
+            h4.remove();
+          }
+        });
+      }
+
       // Processa link WordPress e link esterni
       function processArticleLinks() {
         const articleContent = document.getElementById('article-content');
@@ -1835,16 +1893,18 @@ Slug: {articleBySlug.slug}
       // Esegui processamento link quando il contenuto è caricato
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', () => {
+          removeOldRelatedSections();
           processArticleLinks();
-          // riprova ad arricchire i box dopo la normalizzazione dei link
           enhanceReadAlsoBoxes();
         });
       } else {
+        removeOldRelatedSections();
         processArticleLinks();
         enhanceReadAlsoBoxes();
       }
 
       // Processa anche dopo che il contenuto è stato renderizzato da Astro
+      setTimeout(removeOldRelatedSections, 50);
       setTimeout(processArticleLinks, 100);
       setTimeout(enhanceReadAlsoBoxes, 150);
     </script>
