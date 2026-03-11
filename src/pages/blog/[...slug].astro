@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import ArticleCard from '../../components/ArticleCard.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
 import { getLangFromUrl, t } from '../../utils/i18n';
@@ -38,14 +37,23 @@ console.log('[blog/[...slug].astro] Object.keys(megacluster.autoriById).length =
 // Genera tutti i percorsi statici
 export async function getStaticPaths() {
   const allArticles = await getCollection('blog');
-  
+
+  // Verifica coppie IT/EN per LanguageSelector (stesso wp_id)
+  const byWpId = new Map<string, { it?: string; en?: string }>();
+  for (const a of allArticles) {
+    const id = String(a.data.wp_id ?? '');
+    if (!id) continue;
+    if (!byWpId.has(id)) byWpId.set(id, {});
+    const entry = byWpId.get(id)!;
+    if (a.id.startsWith('en/')) entry.en = a.slug;
+    else entry.it = a.slug;
+  }
+  const pairs = [...byWpId.values()].filter((e) => e.it && e.en).length;
+  console.log('[blog/[...slug].astro] getStaticPaths: wp_id con coppia IT+EN =', pairs, '/ wp_id totali con id =', byWpId.size);
+
   return allArticles.map((article) => {
-    // Usa lo slug come parametro
     const slug = article.slug;
-    
-    return {
-      params: { slug }
-    };
+    return { params: { slug } };
   });
 }
 
@@ -217,7 +225,6 @@ const categorySlug = getCategorySlugForArticle(articleBySlug.data.wp_id);
 const categoryLink = categorySlug ? `/categoria/${categorySlug}` : null;
 const currentLabels = getLabels(articleBySlug.data.tags ?? [], articleBySlug.data.wp_id);
 const formaDisplay = currentLabels.formal !== 'Articolo' ? currentLabels.formal : null;
-const currentThematic = currentLabels.thematic;
 const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
 // Badge: [Numero] • [Forma] / [categoria_menu] (label cliccabili)
 const showPubblicatoOnline = !hasIssue;
@@ -268,37 +275,31 @@ async function calculateReadingTime(articleId: string): Promise<number> {
 
 const readingTime = await calculateReadingTime(articleBySlug.id);
 
-// Correlati intelligenti: priorità tematica → stesso autore → ultimi pubblicati
-const currentAuthor = articleBySlug.data.author;
-
-const others = allArticles.filter((a) => a.id !== articleBySlug.id);
-const byThematic = others.filter((a) => getLabels(a.data.tags ?? [], a.data.wp_id).thematic === currentThematic);
-const byAuthor = others.filter((a) => a.data.author === currentAuthor);
-const byDate = [...others].sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
-
-const relatedIds = new Set<string>();
-byThematic.forEach((a) => { if (relatedIds.size < 3) relatedIds.add(a.id); });
-byAuthor.forEach((a) => { if (relatedIds.size < 3) relatedIds.add(a.id); });
-byDate.forEach((a) => { if (relatedIds.size < 3) relatedIds.add(a.id); });
-const relatedArticles = Array.from(relatedIds)
-  .map((id) => allArticles.find((a) => a.id === id))
-  .filter(Boolean);
-
 const currentSlug =
   (articleBySlug.data as { slug?: string }).slug ||
   articleBySlug.slug;
 
 // Articolo nella stessa lingua per language switcher (stesso wp_id, altra lingua)
 const isCurrentEn = articleBySlug.id.startsWith('en/');
-const alternateArticle = articleBySlug.data.wp_id != null
-  ? allArticles.find(
-      (a) =>
-        a.data.wp_id === articleBySlug.data.wp_id &&
-        a.id !== articleBySlug.id &&
-        (a.id.startsWith('en/') ? !isCurrentEn : isCurrentEn)
-    )
-  : null;
+const currentWpId = articleBySlug.data.wp_id;
+const alternateArticle =
+  currentWpId != null && currentWpId !== ''
+    ? allArticles.find(
+        (a) =>
+          String(a.data.wp_id ?? '') === String(currentWpId) &&
+          a.id !== articleBySlug.id &&
+          (a.id.startsWith('en/') ? !isCurrentEn : isCurrentEn)
+      )
+    : null;
 const alternateArticleUrl = alternateArticle ? `/blog/${alternateArticle.slug}` : null;
+
+if (typeof console !== 'undefined' && console.log) {
+  if (alternateArticle) {
+    console.log('[blog/[...slug]] LanguageSelector: coppia trovata', { wp_id: currentWpId, current: articleBySlug.slug, alternate: alternateArticle.slug });
+  } else if (currentWpId != null && currentWpId !== '') {
+    console.log('[blog/[...slug]] LanguageSelector: nessuna versione altra lingua per wp_id', currentWpId, 'slug', articleBySlug.slug);
+  }
+}
 
 // Mappa slug -> metadati articolo per i box correlati in-content (read-also-box)
 const inContentRelatedMap: Record<
@@ -1132,45 +1133,6 @@ for (const article of allArticles) {
         transform: translateY(-1px);
       }
 
-      /* Sezione Articoli Correlati - Allineata a 1100px come hero */
-      .related-articles-section {
-        width: 100%;
-        max-width: 1100px;
-        margin: 5rem auto 0 auto;
-        padding: 4rem 2rem;
-        border-top: 1px solid var(--border-color, #e5e5e5);
-      }
-
-      .related-articles-title {
-        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: var(--text-color);
-        margin-bottom: 2rem;
-        text-align: center;
-      }
-
-      .related-articles-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 32px;
-        margin-top: 2rem;
-        align-items: start !important;
-      }
-
-      .related-articles-grid > * {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-      }
-
-      @media (max-width: 768px) {
-        .related-articles-grid {
-          grid-template-columns: 1fr;
-          gap: 32px;
-        }
-      }
-
       .comments-section {
         margin-top: 3rem;
         padding-top: 2rem;
@@ -1530,34 +1492,6 @@ Slug: {articleBySlug.slug}
         </pre>
       </details>
 
-      {/* Sezione Articoli Correlati - Fascia Larga max-width: 1200px */}
-      {relatedArticles.length > 0 && (
-        <section class="related-articles-section">
-          <h2 class="related-articles-title">{t(locale, 'related_articles')}</h2>
-          <div class="related-articles-grid">
-            {relatedArticles.map((article) => {
-              const articleSlug = article.data.slug || article.slug;
-              const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
-              const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
-              const relWpId = String(article.data.wp_id ?? '');
-              const relImage = megaclusterById[relWpId]?.img_copertina_url || article.data.image;
-              return (
-                <ArticleCard
-                  title={article.data.title}
-                  slug={articleSlug}
-                  categoriaMenu={categoria_menu ?? undefined}
-                  issue={article.data.issue_number}
-                  forma={formal}
-                  author={article.data.author}
-                  date={article.data.date}
-                  image={relImage}
-                />
-              );
-            })}
-          </div>
-        </section>
-      )}
-
       <section class="article-nav-section" aria-label="Navigazione">
         <a href={locale === 'en' ? '/blog/en' : '/'} class="back-link">← {t(locale, 'back_to_home')}</a>
       </section>
@@ -1589,12 +1523,13 @@ Slug: {articleBySlug.slug}
 
       let readAlsoInserted = false;
 
-      // Restituisce il contenitore principale del corpo articolo (#article-content, .prose o .article-content)
+      // Restituisce il contenitore principale del corpo articolo (prova in ordine: #article-content, .article-content, .prose, wrapper, main)
       function getArticleContentContainer() {
         return document.getElementById('article-content') ||
           document.querySelector('.article-content') ||
           document.querySelector('.prose') ||
-          document.querySelector('.article-content-wrapper');
+          document.querySelector('.article-content-wrapper') ||
+          document.querySelector('main');
       }
 
       // Inserisce automaticamente un box \"Leggi anche\" in base alla categoria
@@ -1641,8 +1576,9 @@ Slug: {articleBySlug.slug}
         box.className = 'read-also-box';
         box.dataset.slug = chosenSlug;
 
-        const paragraphs = Array.from(container.querySelectorAll('p'));
-        console.log('Paragrafi trovati:', paragraphs.length);
+        const mainOrArticle = document.querySelector('main') || container;
+        const paragraphs = Array.from(mainOrArticle.querySelectorAll('p'));
+        console.log('Paragrafi trovati:', paragraphs.length, '(container:', container?.className || container?.id || container?.tagName, ')');
 
         let inserted = false;
 
@@ -1799,20 +1735,36 @@ Slug: {articleBySlug.slug}
         enhanceReadAlsoBoxes();
       }
 
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => {
-          runLeggiAnche();
-          setTimeout(runLeggiAnche, 350);
-        });
-      } else {
+      function scheduleLeggiAnche() {
+        readAlsoInserted = false;
         runLeggiAnche();
-        setTimeout(runLeggiAnche, 350);
+        setTimeout(runLeggiAnche, 1000);
       }
 
       document.addEventListener('astro:page-load', () => {
-        readAlsoInserted = false;
-        runLeggiAnche();
+        scheduleLeggiAnche();
       });
+
+      const observerTarget = document.body;
+      if (observerTarget) {
+        const mo = new MutationObserver(() => {
+          if (readAlsoInserted) return;
+          const main = document.querySelector('main');
+          if (main && main.querySelectorAll('p').length > 0) {
+            runLeggiAnche();
+          }
+        });
+        mo.observe(observerTarget, { childList: true, subtree: true });
+        setTimeout(() => mo.disconnect(), 15000);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+          scheduleLeggiAnche();
+        });
+      } else {
+        scheduleLeggiAnche();
+      }
 
       // Processa link WordPress e link esterni
       function processArticleLinks() {
