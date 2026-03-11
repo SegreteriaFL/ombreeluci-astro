@@ -796,7 +796,7 @@ for (const article of allArticles) {
       }
 
       .incontent-related-card {
-        display: block;
+        display: block !important;
         position: relative;
         z-index: 1;
         border: 1px solid #eee;
@@ -1648,83 +1648,100 @@ Slug: {articleBySlug.slug}
         readAlsoInserted = true;
       }
 
-      // Trasforma i div.read-also-box in card correlate con dati reali articoli
+      // Estrae slug da un href (WordPress ?p=ID o path /blog/...)
+      function getSlugFromHref(href) {
+        if (!href) return null;
+        const wpMatch = href.match(/[?&]p=(\d+)/);
+        if (wpMatch && wpIdToSlugMap) {
+          const wpId = parseInt(wpMatch[1]);
+          return wpIdToSlugMap[wpId] || null;
+        }
+        try {
+          const url = new URL(href, window.location.origin);
+          const segments = url.pathname.split('/').filter(Boolean);
+          const blogIndex = segments.indexOf('blog');
+          if (blogIndex !== -1 && segments.length > blogIndex + 1) {
+            return segments.slice(blogIndex + 1).join('/');
+          }
+          if (segments.length > 0) return segments[segments.length - 1];
+        } catch (e) {}
+        return null;
+      }
+
+      // Crea il markup della card (articolo + link + label, immagine, titolo h4, excerpt)
+      function buildRelatedCard(slug, meta) {
+        const hrefFinal = meta.href || `/blog/${slug}`;
+        const safeTitle = (meta.title || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+        const safeExcerpt = (meta.excerpt || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+        const article = document.createElement('article');
+        article.className = 'incontent-related-card';
+        article.innerHTML = `
+          <a href="${hrefFinal}" class="incontent-related-link">
+            <span class="incontent-related-label">LEGGI ANCHE</span>
+            <div class="incontent-related-image-wrapper">
+              <img src="${meta.image}" alt="${safeTitle}" loading="lazy" />
+            </div>
+            <div class="incontent-related-content">
+              <h4 class="incontent-related-title">${safeTitle}</h4>
+              ${safeExcerpt ? `<p class="incontent-related-excerpt">${safeExcerpt}</p>` : ''}
+            </div>
+          </a>
+        `;
+        return article;
+      }
+
+      // Trasforma div.read-also-box e paragrafi "Leggi anche" in card
       function enhanceReadAlsoBoxes() {
         if (!inContentRelatedMap) return;
         const content = getArticleContentContainer && getArticleContentContainer();
         const root = content || document.body;
-        const boxes = root.querySelectorAll('.read-also-box');
-        if (!boxes.length) return;
+        if (!root) return;
 
-        boxes.forEach((box) => {
-          const cards = [];
+        const candidates = [];
 
-          let slug = box.dataset.slug || null;
+        root.querySelectorAll('.read-also-box').forEach((el) => {
+          candidates.push({ type: 'box', el });
+        });
 
-          // Se non abbiamo data-slug, proviamo comunque a dedurlo da eventuali link presenti
-          if (!slug) {
-            const links = box.querySelectorAll('a[href]');
-            links.forEach((link) => {
-              const href = link.getAttribute('href');
-              if (!href || slug) return;
+        const leggiAncheText = /^\s*leggi\s+anche\s*/i;
+        root.querySelectorAll('p').forEach((p) => {
+          if (p.dataset.leggiAncheProcessed) return;
+          const text = (p.textContent || '').trim();
+          const startsWithLeggiAnche = leggiAncheText.test(text);
+          const link = p.querySelector('a[href]');
+          const linkTextMatch = link && /leggi\s+anche/i.test((link.textContent || '').trim());
+          if (startsWithLeggiAnche || linkTextMatch) {
+            candidates.push({ type: 'p', el: p });
+          }
+        });
 
-              // 1) Link WordPress ?p=ID
-              const wpMatch = href.match(/[?&]p=(\d+)/);
-              if (wpMatch && wpIdToSlugMap) {
-                const wpId = parseInt(wpMatch[1]);
-                slug = wpIdToSlugMap[wpId] || null;
-              }
-
-              // 2) Link tipo /blog/slug o assoluti
-              if (!slug) {
-                try {
-                  const url = new URL(href, window.location.origin);
-                  const segments = url.pathname.split('/').filter(Boolean);
-                  const blogIndex = segments.indexOf('blog');
-
-                  if (blogIndex !== -1 && segments.length > blogIndex + 1) {
-                    slug = segments.slice(blogIndex + 1).join('/');
-                  } else if (segments.length > 0) {
-                    slug = segments[segments.length - 1];
-                  }
-                } catch (e) {
-                  // URL non valido: ignora
-                }
-              }
-            });
+        candidates.forEach(({ type, el }) => {
+          let slug = null;
+          if (type === 'box') {
+            slug = el.dataset.slug || null;
+            if (!slug) {
+              el.querySelectorAll('a[href]').forEach((a) => {
+                if (!slug) slug = getSlugFromHref(a.getAttribute('href'));
+              });
+            }
+          } else {
+            const link = el.querySelector('a[href]');
+            if (link) slug = getSlugFromHref(link.getAttribute('href'));
           }
 
           if (!slug) return;
-
           const meta = inContentRelatedMap[slug];
           if (!meta || meta.isItalian === false) return;
 
-          const card = document.createElement('article');
-          card.className = 'incontent-related-card';
+          const card = buildRelatedCard(slug, meta);
 
-          const hrefFinal = meta.href || `/blog/${slug}`;
-          const safeTitle = meta.title || '';
-          const safeExcerpt = meta.excerpt || '';
-
-          card.innerHTML = `
-            <a href="${hrefFinal}" class="incontent-related-link">
-              <div class="incontent-related-image-wrapper">
-                <img src="${meta.image}" alt="${safeTitle}" loading="lazy" />
-              </div>
-              <div class="incontent-related-content">
-                <span class="incontent-related-label">LEGGI ANCHE</span>
-                <h3 class="incontent-related-title">${safeTitle}</h3>
-                ${safeExcerpt ? `<p class="incontent-related-excerpt">${safeExcerpt}</p>` : ''}
-              </div>
-            </a>
-          `;
-
-          cards.push(card);
-
-          if (cards.length > 0) {
-            box.innerHTML = '';
-            box.classList.add('incontent-related-container');
-            cards.forEach((card) => box.appendChild(card));
+          if (type === 'box') {
+            el.innerHTML = '';
+            el.classList.add('incontent-related-container');
+            el.appendChild(card);
+          } else {
+            el.dataset.leggiAncheProcessed = '1';
+            el.parentNode.replaceChild(card, el);
           }
         });
       }
@@ -1775,6 +1792,11 @@ Slug: {articleBySlug.slug}
         runLeggiAnche();
         setTimeout(runLeggiAnche, 350);
       }
+
+      document.addEventListener('astro:page-load', () => {
+        readAlsoInserted = false;
+        runLeggiAnche();
+      });
 
       // Processa link WordPress e link esterni
       function processArticleLinks() {
