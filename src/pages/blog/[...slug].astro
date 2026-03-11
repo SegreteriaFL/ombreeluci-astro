@@ -797,6 +797,8 @@ for (const article of allArticles) {
 
       .incontent-related-card {
         display: block;
+        position: relative;
+        z-index: 1;
         border: 1px solid #eee;
         border-radius: 12px;
         padding: 1.5rem;
@@ -1571,9 +1573,23 @@ Slug: {articleBySlug.slug}
 
       let readAlsoInserted = false;
 
+      // Restituisce il contenitore principale del corpo articolo (#article-content, .prose o .article-content)
+      function getArticleContentContainer() {
+        return document.getElementById('article-content') ||
+          document.querySelector('.article-content') ||
+          document.querySelector('.prose') ||
+          document.querySelector('.article-content-wrapper');
+      }
+
       // Inserisce automaticamente un box \"Leggi anche\" in base alla categoria
       function insertReadAlsoBox() {
-        if (readAlsoInserted || !articleContent || !inContentRelatedMap) return;
+        if (readAlsoInserted || !inContentRelatedMap) return;
+
+        const container = getArticleContentContainer();
+        if (!container) {
+          console.log('[Leggi anche] Contenitore articolo non trovato');
+          return;
+        }
 
         const currentMeta = currentSlug ? inContentRelatedMap[currentSlug] : null;
         const currentCategory = currentMeta && currentMeta.category ? currentMeta.category : null;
@@ -1597,7 +1613,10 @@ Slug: {articleBySlug.slug}
           });
         }
 
-        if (!candidates.length) return;
+        if (!candidates.length) {
+          console.log('[Leggi anche] Nessun candidato italiano trovato');
+          return;
+        }
 
         const randomIndex = Math.floor(Math.random() * candidates.length);
         const [chosenSlug] = candidates[randomIndex];
@@ -1606,12 +1625,13 @@ Slug: {articleBySlug.slug}
         box.className = 'read-also-box';
         box.dataset.slug = chosenSlug;
 
-        const paragraphs = Array.from(articleContent.querySelectorAll('p'));
+        const paragraphs = Array.from(container.querySelectorAll('p'));
+        console.log('Paragrafi trovati:', paragraphs.length);
+
         let inserted = false;
 
         if (paragraphs.length > 4) {
-          // Inserisci dopo il 2° o 3° paragrafo (più dinamico se il testo è lungo)
-          const targetIndex = paragraphs.length > 8 ? 2 : 1; // 0-based: 2 => dopo il terzo, 1 => dopo il secondo
+          const targetIndex = paragraphs.length > 8 ? 2 : 1;
           const targetP = paragraphs[Math.min(targetIndex, paragraphs.length - 1)];
           if (targetP && targetP.parentNode) {
             targetP.parentNode.insertBefore(box, targetP.nextSibling);
@@ -1619,9 +1639,10 @@ Slug: {articleBySlug.slug}
           }
         }
 
-        // Fallback: in fondo al contenuto
+        // Fallback: inserimento in fondo (anche se 0 paragrafi o testo corto)
         if (!inserted) {
-          articleContent.appendChild(box);
+          container.appendChild(box);
+          inserted = true;
         }
 
         readAlsoInserted = true;
@@ -1629,10 +1650,10 @@ Slug: {articleBySlug.slug}
 
       // Trasforma i div.read-also-box in card correlate con dati reali articoli
       function enhanceReadAlsoBoxes() {
-        const content = document.getElementById('article-content');
-        if (!content || !inContentRelatedMap) return;
-
-        const boxes = content.querySelectorAll('.read-also-box');
+        if (!inContentRelatedMap) return;
+        const content = getArticleContentContainer && getArticleContentContainer();
+        const root = content || document.body;
+        const boxes = root.querySelectorAll('.read-also-box');
         if (!boxes.length) return;
 
         boxes.forEach((box) => {
@@ -1740,14 +1761,19 @@ Slug: {articleBySlug.slug}
       
       window.addEventListener('scroll', checkScrollForWidget);
       
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => {
-          insertReadAlsoBox();
-          enhanceReadAlsoBoxes();
-        });
-      } else {
+      function runLeggiAnche() {
         insertReadAlsoBox();
         enhanceReadAlsoBoxes();
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+          runLeggiAnche();
+          setTimeout(runLeggiAnche, 350);
+        });
+      } else {
+        runLeggiAnche();
+        setTimeout(runLeggiAnche, 350);
       }
 
       // Processa link WordPress e link esterni
