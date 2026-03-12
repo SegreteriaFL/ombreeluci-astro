@@ -392,7 +392,6 @@ for (const article of allArticles) {
     <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={typeof articleImage === 'string' ? articleImage : articleImage.src} />
     <ViewTransitions />
-    <style is:global>.incontent-related-card { display: flex !important; border: 2px solid red !important; padding: 20px; margin: 20px 0; }</style>
     <style>
       /* Reading Progress Bar */
       .reading-progress {
@@ -840,6 +839,9 @@ for (const article of allArticles) {
         opacity: 1 !important;
         position: relative;
         z-index: 1;
+        max-width: 100%;
+        margin: 2rem 0;
+        clear: both;
         border: 1px solid #eee;
         border-radius: 12px;
         padding: 1.5rem;
@@ -852,10 +854,12 @@ for (const article of allArticles) {
         display: block;
         color: inherit;
         text-decoration: none;
+        max-width: 100%;
       }
 
       .incontent-related-image-wrapper {
         width: 100%;
+        max-width: 100%;
         aspect-ratio: 16 / 9;
         overflow: hidden;
         border-radius: 10px;
@@ -866,8 +870,14 @@ for (const article of allArticles) {
       .incontent-related-image-wrapper img {
         width: 100%;
         height: 100%;
+        max-width: 100%;
         object-fit: cover;
         display: block;
+      }
+
+      /* Nasconde i vecchi link testuali "Leggi anche" per evitare doppia card */
+      .legacy-read-also {
+        display: none !important;
       }
 
       .incontent-related-content {
@@ -1578,7 +1588,7 @@ Slug: {articleBySlug.slug}
           var oldSectionTitles = ['Articoli', 'Editoriale', 'Rubriche', 'Libri'];
           root.querySelectorAll('h4').forEach(function(h4) {
             var text = (h4.textContent || '').trim();
-            if (oldSectionTitles.some(function(t) { return text === t || text.endsWith(t); })) {
+            if (oldSectionTitles.some(function(t) { return text === t || text.indexOf(t) !== -1 || text.endsWith(t); })) {
               var next = h4.nextElementSibling;
               while (next) {
                 var toRemove = next;
@@ -1591,6 +1601,7 @@ Slug: {articleBySlug.slug}
         }
         function insertReadAlsoBox() {
           if (readAlsoInserted || !inContentRelatedMap) return;
+          if (document.querySelector('.incontent-related-card')) return;
           var container = getContainer();
           if (!container) return;
           var currentMeta = currentSlug ? inContentRelatedMap[currentSlug] : null;
@@ -1641,9 +1652,15 @@ Slug: {articleBySlug.slug}
           if (!inContentRelatedMap) return;
           var root = getContainer();
           if (!root) return;
+          var leggiAncheText = /^\s*leggi\s+anche\s*/i;
+          root.querySelectorAll('p').forEach(function(p) {
+            if (p.dataset.leggiAncheProcessed) return;
+            var text = (p.textContent || '').trim();
+            var link = p.querySelector('a[href]');
+            if (leggiAncheText.test(text) || (link && /leggi\s+anche/i.test((link.textContent || '').trim()))) p.classList.add('legacy-read-also');
+          });
           var candidates = [];
           root.querySelectorAll('.read-also-box').forEach(function(el) { candidates.push({ type: 'box', el: el }); });
-          var leggiAncheText = /^\s*leggi\s+anche\s*/i;
           root.querySelectorAll('p').forEach(function(p) {
             if (p.dataset.leggiAncheProcessed) return;
             var text = (p.textContent || '').trim();
@@ -1659,9 +1676,9 @@ Slug: {articleBySlug.slug}
               var link = item.el.querySelector('a[href]');
               if (link) slug = getSlugFromHref(link.getAttribute('href'));
             }
-            if (!slug) return;
+            if (!slug) { if (item.type === 'p') item.el.classList.add('legacy-read-also'); return; }
             var meta = inContentRelatedMap[slug];
-            if (!meta || meta.isItalian === false) return;
+            if (!meta || meta.isItalian === false) { if (item.type === 'p') item.el.classList.add('legacy-read-also'); return; }
             var card = buildRelatedCard(slug, meta);
             if (item.type === 'box') {
               item.el.innerHTML = '';
@@ -1669,6 +1686,7 @@ Slug: {articleBySlug.slug}
               item.el.appendChild(card);
             } else {
               item.el.dataset.leggiAncheProcessed = '1';
+              item.el.classList.remove('legacy-read-also');
               item.el.parentNode.replaceChild(card, item.el);
             }
           });
