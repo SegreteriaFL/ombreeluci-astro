@@ -322,14 +322,6 @@ if (!alternateArticle && currentSlug) {
 
 const alternateArticleUrl = alternateArticle ? `/blog/${alternateArticle.slug}` : null;
 
-if (typeof console !== 'undefined' && console.log) {
-  if (alternateArticle) {
-    console.log('[blog/[...slug]] LanguageSelector: coppia trovata', { wp_id: currentWpId, current: articleBySlug.slug, alternate: alternateArticle.slug });
-  } else if (currentWpId != null && currentWpId !== '') {
-    console.log('[blog/[...slug]] LanguageSelector: nessuna versione altra lingua per wp_id', currentWpId, 'slug', articleBySlug.slug);
-  }
-}
-
 // Mappa slug -> metadati articolo per i box correlati in-content (read-also-box)
 const inContentRelatedMap: Record<
   string,
@@ -400,6 +392,7 @@ for (const article of allArticles) {
     <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={typeof articleImage === 'string' ? articleImage : articleImage.src} />
     <ViewTransitions />
+    <style is:global>.incontent-related-card { display: flex !important; border: 2px solid red !important; padding: 20px; margin: 20px 0; }</style>
     <style>
       /* Reading Progress Bar */
       .reading-progress {
@@ -1529,8 +1522,174 @@ Slug: {articleBySlug.slug}
     </div>
     </main>
     <Footer pathname={pathname} />
-    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel: t(locale, 'read_also') }}>
-      // Mappa wp_id -> slug disponibile globalmente
+    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel: t(locale, 'read_also'), alternateArticleUrl, currentWpIdClean }}>
+      window.__BLOG_PAGE_DATA__ = { wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel, alternateArticleUrl, currentWpIdClean };
+    </script>
+    <script is:inline>
+      (function() {
+        var data = window.__BLOG_PAGE_DATA__;
+        if (!data) return;
+        if (!data.alternateArticleUrl && data.currentWpIdClean) {
+          console.error('MAPPATURA FALLITA PER WP_ID:', { currentWpIdClean: data.currentWpIdClean });
+        }
+        var wpIdToSlugMap = data.wpIdToSlugMap || {};
+        var inContentRelatedMap = data.inContentRelatedMap || {};
+        var currentSlug = data.currentSlug;
+        var readAlsoLabel = data.readAlsoLabel || 'Leggi anche';
+        function getContainer() {
+          return document.querySelector('article') || document.querySelector('.prose') || document.body;
+        }
+        function getParagraphs(container) {
+          if (!container) return [];
+          return Array.from(container.children || []);
+        }
+        var readAlsoInserted = false;
+        var leggiAncheRetryCount = 0;
+        var LEGGI_ANCHE_MAX_RETRIES = 3;
+        var LEGGI_ANCHE_RETRY_MS = 500;
+        function getSlugFromHref(href) {
+          if (!href) return null;
+          var wpMatch = href.match(/[?&]p=(\d+)/);
+          if (wpMatch && wpIdToSlugMap) {
+            var wpId = parseInt(wpMatch[1], 10);
+            return wpIdToSlugMap[wpId] || null;
+          }
+          try {
+            var url = new URL(href, window.location.origin);
+            var segments = url.pathname.split('/').filter(Boolean);
+            var blogIndex = segments.indexOf('blog');
+            if (blogIndex !== -1 && segments.length > blogIndex + 1) return segments.slice(blogIndex + 1).join('/');
+            if (segments.length > 0) return segments[segments.length - 1];
+          } catch (e) {}
+          return null;
+        }
+        function buildRelatedCard(slug, meta) {
+          var hrefFinal = meta.href || '/blog/' + slug;
+          var safeTitle = (meta.title || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+          var safeExcerpt = (meta.excerpt || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+          var article = document.createElement('article');
+          article.className = 'incontent-related-card';
+          article.innerHTML = '<a href="' + hrefFinal + '" class="incontent-related-link"><span class="incontent-related-label">' + readAlsoLabel + '</span><div class="incontent-related-image-wrapper"><img src="' + meta.image + '" alt="' + safeTitle + '" loading="lazy" /></div><div class="incontent-related-content"><h4 class="incontent-related-title">' + safeTitle + '</h4>' + (safeExcerpt ? '<p class="incontent-related-excerpt">' + safeExcerpt + '</p>' : '') + '</div></a>';
+          return article;
+        }
+        function removeOldRelatedSections() {
+          var root = getContainer();
+          if (!root) return;
+          var oldSectionTitles = ['Articoli', 'Editoriale', 'Rubriche', 'Libri'];
+          root.querySelectorAll('h4').forEach(function(h4) {
+            var text = (h4.textContent || '').trim();
+            if (oldSectionTitles.some(function(t) { return text === t || text.endsWith(t); })) {
+              var next = h4.nextElementSibling;
+              while (next) {
+                var toRemove = next;
+                next = next.nextElementSibling;
+                toRemove.remove();
+              }
+              h4.remove();
+            }
+          });
+        }
+        function insertReadAlsoBox() {
+          if (readAlsoInserted || !inContentRelatedMap) return;
+          var container = getContainer();
+          if (!container) return;
+          var currentMeta = currentSlug ? inContentRelatedMap[currentSlug] : null;
+          var currentCategory = currentMeta && currentMeta.category ? currentMeta.category : null;
+          var allEntries = Object.entries(inContentRelatedMap);
+          var candidates = allEntries.filter(function(entry) {
+            var slug = entry[0], meta = entry[1];
+            if (slug === currentSlug) return false;
+            if (!meta || meta.isItalian === false) return false;
+            if (currentCategory && meta.category) return meta.category === currentCategory;
+            return true;
+          });
+          if (currentCategory && candidates.length === 0) {
+            candidates = allEntries.filter(function(entry) {
+              if (entry[0] === currentSlug) return false;
+              return !!entry[1] && entry[1].isItalian !== false;
+            });
+          }
+          if (!candidates.length) return;
+          var randomIndex = Math.floor(Math.random() * candidates.length);
+          var chosenSlug = candidates[randomIndex][0];
+          var box = document.createElement('div');
+          box.className = 'read-also-box';
+          box.dataset.slug = chosenSlug;
+          var paragraphs = getParagraphs(container);
+          if (paragraphs.length === 0 && leggiAncheRetryCount < LEGGI_ANCHE_MAX_RETRIES) {
+            leggiAncheRetryCount++;
+            setTimeout(runLeggiAnche, LEGGI_ANCHE_RETRY_MS);
+            return;
+          }
+          var inserted = false;
+          if (paragraphs.length > 4) {
+            var targetIndex = paragraphs.length > 8 ? 2 : 1;
+            var targetEl = paragraphs[Math.min(targetIndex, paragraphs.length - 1)];
+            if (targetEl && targetEl.parentNode) {
+              targetEl.parentNode.insertBefore(box, targetEl.nextSibling);
+              inserted = true;
+            }
+          }
+          if (!inserted && paragraphs.length > 0) {
+            var lastEl = container.lastElementChild;
+            if (lastEl) { container.insertBefore(box, lastEl); inserted = true; }
+          }
+          if (!inserted) container.appendChild(box);
+          readAlsoInserted = true;
+        }
+        function enhanceReadAlsoBoxes() {
+          if (!inContentRelatedMap) return;
+          var root = getContainer();
+          if (!root) return;
+          var candidates = [];
+          root.querySelectorAll('.read-also-box').forEach(function(el) { candidates.push({ type: 'box', el: el }); });
+          var leggiAncheText = /^\s*leggi\s+anche\s*/i;
+          root.querySelectorAll('p').forEach(function(p) {
+            if (p.dataset.leggiAncheProcessed) return;
+            var text = (p.textContent || '').trim();
+            var link = p.querySelector('a[href]');
+            if (leggiAncheText.test(text) || (link && /leggi\s+anche/i.test((link.textContent || '').trim()))) candidates.push({ type: 'p', el: p });
+          });
+          candidates.forEach(function(item) {
+            var slug = null;
+            if (item.type === 'box') {
+              slug = item.el.dataset.slug || null;
+              if (!slug) item.el.querySelectorAll('a[href]').forEach(function(a) { if (!slug) slug = getSlugFromHref(a.getAttribute('href')); });
+            } else {
+              var link = item.el.querySelector('a[href]');
+              if (link) slug = getSlugFromHref(link.getAttribute('href'));
+            }
+            if (!slug) return;
+            var meta = inContentRelatedMap[slug];
+            if (!meta || meta.isItalian === false) return;
+            var card = buildRelatedCard(slug, meta);
+            if (item.type === 'box') {
+              item.el.innerHTML = '';
+              item.el.classList.add('incontent-related-container');
+              item.el.appendChild(card);
+            } else {
+              item.el.dataset.leggiAncheProcessed = '1';
+              item.el.parentNode.replaceChild(card, item.el);
+            }
+          });
+        }
+        function runLeggiAnche() {
+          removeOldRelatedSections();
+          insertReadAlsoBox();
+          enhanceReadAlsoBoxes();
+        }
+        function scheduleLeggiAnche() {
+          readAlsoInserted = false;
+          leggiAncheRetryCount = 0;
+          runLeggiAnche();
+          setTimeout(runLeggiAnche, 1000);
+        }
+        function run() { scheduleLeggiAnche(); }
+        window.addEventListener('load', run);
+        document.addEventListener('astro:after-swap', run);
+        if (document.readyState === 'complete') run();
+        else setTimeout(run, 100);
+      })();
     </script>
     <script>
       // Reading Progress Bar
@@ -1551,205 +1710,6 @@ Slug: {articleBySlug.slug}
       
       window.addEventListener('scroll', updateReadingProgress);
       updateReadingProgress();
-
-      let readAlsoInserted = false;
-
-      // Contenitore articolo: #article-content, .article-content, .prose, wrapper, main
-      function getArticleContentContainer() {
-        return document.getElementById('article-content') ||
-          document.querySelector('.article-content') ||
-          document.querySelector('.prose') ||
-          document.querySelector('.article-content-wrapper') ||
-          document.querySelector('main');
-      }
-
-      // Figli diretti del contenitore (non solo p): main, article o #article-content
-      function getArticleParagraphs(container) {
-        if (!container) return [];
-        console.log('Contenitore trovato:', container);
-        const children = Array.from(container.children || []);
-        return children;
-      }
-
-      let leggiAncheRetryCount = 0;
-      const LEGGI_ANCHE_MAX_RETRIES = 3;
-      const LEGGI_ANCHE_RETRY_MS = 500;
-
-      // Inserisce automaticamente un box \"Leggi anche\" in base alla categoria
-      function insertReadAlsoBox() {
-        if (readAlsoInserted || !inContentRelatedMap) return;
-
-        const container = getArticleContentContainer();
-        if (!container) {
-          console.log('[Leggi anche] Contenitore articolo non trovato');
-          return;
-        }
-
-        const currentMeta = currentSlug ? inContentRelatedMap[currentSlug] : null;
-        const currentCategory = currentMeta && currentMeta.category ? currentMeta.category : null;
-
-        const allEntries = Object.entries(inContentRelatedMap);
-
-        let candidates = allEntries.filter(([slug, meta]) => {
-          if (slug === currentSlug) return false;
-          if (!meta || meta.isItalian === false) return false;
-          if (currentCategory && meta.category) {
-            return meta.category === currentCategory;
-          }
-          return true;
-        });
-
-        if (currentCategory && candidates.length === 0) {
-          candidates = allEntries.filter(([slug, meta]) => {
-            if (slug === currentSlug) return false;
-            return !!meta && meta.isItalian !== false;
-          });
-        }
-
-        if (!candidates.length) {
-          console.log('[Leggi anche] Nessun candidato italiano trovato');
-          return;
-        }
-
-        const randomIndex = Math.floor(Math.random() * candidates.length);
-        const [chosenSlug] = candidates[randomIndex];
-
-        const box = document.createElement('div');
-        box.className = 'read-also-box';
-        box.dataset.slug = chosenSlug;
-
-        const paragraphs = getArticleParagraphs(container);
-        console.log('Paragrafi/figli trovati:', paragraphs.length, '(retry', leggiAncheRetryCount + 1, '/', LEGGI_ANCHE_MAX_RETRIES, ')');
-
-        if (paragraphs.length === 0 && leggiAncheRetryCount < LEGGI_ANCHE_MAX_RETRIES) {
-          leggiAncheRetryCount++;
-          setTimeout(runLeggiAnche, LEGGI_ANCHE_RETRY_MS);
-          return;
-        }
-
-        let inserted = false;
-
-        if (paragraphs.length > 4) {
-          const targetIndex = paragraphs.length > 8 ? 2 : 1;
-          const targetEl = paragraphs[Math.min(targetIndex, paragraphs.length - 1)];
-          if (targetEl && targetEl.parentNode) {
-            targetEl.parentNode.insertBefore(box, targetEl.nextSibling);
-            inserted = true;
-          }
-        }
-
-        if (!inserted && paragraphs.length > 0) {
-          // Inserimento garantito: prima dell'ultimo elemento del contenitore
-          const lastEl = container.lastElementChild;
-          if (lastEl) {
-            container.insertBefore(box, lastEl);
-            inserted = true;
-          }
-        }
-        if (!inserted) {
-          container.appendChild(box);
-        }
-
-        readAlsoInserted = true;
-      }
-
-      // Estrae slug da un href (WordPress ?p=ID o path /blog/...)
-      function getSlugFromHref(href) {
-        if (!href) return null;
-        const wpMatch = href.match(/[?&]p=(\d+)/);
-        if (wpMatch && wpIdToSlugMap) {
-          const wpId = parseInt(wpMatch[1]);
-          return wpIdToSlugMap[wpId] || null;
-        }
-        try {
-          const url = new URL(href, window.location.origin);
-          const segments = url.pathname.split('/').filter(Boolean);
-          const blogIndex = segments.indexOf('blog');
-          if (blogIndex !== -1 && segments.length > blogIndex + 1) {
-            return segments.slice(blogIndex + 1).join('/');
-          }
-          if (segments.length > 0) return segments[segments.length - 1];
-        } catch (e) {}
-        return null;
-      }
-
-      // Crea il markup della card (articolo + link + label, immagine, titolo h4, excerpt)
-      function buildRelatedCard(slug, meta) {
-        const hrefFinal = meta.href || `/blog/${slug}`;
-        const safeTitle = (meta.title || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
-        const safeExcerpt = (meta.excerpt || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
-        const article = document.createElement('article');
-        article.className = 'incontent-related-card';
-        article.innerHTML = `
-          <a href="${hrefFinal}" class="incontent-related-link">
-            <span class="incontent-related-label">${readAlsoLabel}</span>
-            <div class="incontent-related-image-wrapper">
-              <img src="${meta.image}" alt="${safeTitle}" loading="lazy" />
-            </div>
-            <div class="incontent-related-content">
-              <h4 class="incontent-related-title">${safeTitle}</h4>
-              ${safeExcerpt ? `<p class="incontent-related-excerpt">${safeExcerpt}</p>` : ''}
-            </div>
-          </a>
-        `;
-        return article;
-      }
-
-      // Trasforma div.read-also-box e paragrafi "Leggi anche" in card
-      function enhanceReadAlsoBoxes() {
-        if (!inContentRelatedMap) return;
-        const content = getArticleContentContainer && getArticleContentContainer();
-        const root = content || document.body;
-        if (!root) return;
-
-        const candidates = [];
-
-        root.querySelectorAll('.read-also-box').forEach((el) => {
-          candidates.push({ type: 'box', el });
-        });
-
-        const leggiAncheText = /^\s*leggi\s+anche\s*/i;
-        root.querySelectorAll('p').forEach((p) => {
-          if (p.dataset.leggiAncheProcessed) return;
-          const text = (p.textContent || '').trim();
-          const startsWithLeggiAnche = leggiAncheText.test(text);
-          const link = p.querySelector('a[href]');
-          const linkTextMatch = link && /leggi\s+anche/i.test((link.textContent || '').trim());
-          if (startsWithLeggiAnche || linkTextMatch) {
-            candidates.push({ type: 'p', el: p });
-          }
-        });
-
-        candidates.forEach(({ type, el }) => {
-          let slug = null;
-          if (type === 'box') {
-            slug = el.dataset.slug || null;
-            if (!slug) {
-              el.querySelectorAll('a[href]').forEach((a) => {
-                if (!slug) slug = getSlugFromHref(a.getAttribute('href'));
-              });
-            }
-          } else {
-            const link = el.querySelector('a[href]');
-            if (link) slug = getSlugFromHref(link.getAttribute('href'));
-          }
-
-          if (!slug) return;
-          const meta = inContentRelatedMap[slug];
-          if (!meta || meta.isItalian === false) return;
-
-          const card = buildRelatedCard(slug, meta);
-
-          if (type === 'box') {
-            el.innerHTML = '';
-            el.classList.add('incontent-related-container');
-            el.appendChild(card);
-          } else {
-            el.dataset.leggiAncheProcessed = '1';
-            el.parentNode.replaceChild(card, el);
-          }
-        });
-      }
 
       // Widget a comparsa dopo 50% scroll
       const floatingWidget = document.getElementById('floating-widget');
@@ -1783,94 +1743,26 @@ Slug: {articleBySlug.slug}
       
       window.addEventListener('scroll', checkScrollForWidget);
       
-      function runLeggiAnche() {
-        insertReadAlsoBox();
-        enhanceReadAlsoBoxes();
-      }
-
-      function scheduleLeggiAnche() {
-        readAlsoInserted = false;
-        leggiAncheRetryCount = 0;
-        runLeggiAnche();
-        setTimeout(runLeggiAnche, 1000);
-      }
-
-      document.addEventListener('astro:page-load', () => {
-        scheduleLeggiAnche();
-      });
-
-      const observerTarget = document.body;
-      if (observerTarget) {
-        const mo = new MutationObserver(() => {
-          if (readAlsoInserted) return;
-          const root = document.querySelector('main') || document.querySelector('.prose');
-          if (root && root.querySelectorAll('p').length > 0) {
-            runLeggiAnche();
-          }
-        });
-        mo.observe(observerTarget, { childList: true, subtree: true });
-        setTimeout(() => mo.disconnect(), 15000);
-      }
-
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => {
-          scheduleLeggiAnche();
-        });
-      } else {
-        scheduleLeggiAnche();
-      }
-
-      // Rimuove sezioni "vecchia maniera" (Articoli correlati, Editoriale, Rubriche, Libri dal body markdown)
-      function removeOldRelatedSections() {
-        const articleContent = document.getElementById('article-content');
-        if (!articleContent) return;
-        const oldSectionTitles = ['Articoli', 'Editoriale', 'Rubriche', 'Libri'];
-        articleContent.querySelectorAll('h4').forEach((h4) => {
-          const text = (h4.textContent || '').trim();
-          if (oldSectionTitles.some((t) => text === t || text.endsWith(t))) {
-            let next = h4.nextElementSibling;
-            while (next) {
-              const toRemove = next;
-              next = next.nextElementSibling;
-              toRemove.remove();
-            }
-            h4.remove();
-          }
-        });
-      }
-
-      // Processa link WordPress e link esterni
+      // Processa link WordPress e link esterni (targeting: article, .prose o body)
       function processArticleLinks() {
-        const articleContent = document.getElementById('article-content');
-        if (!articleContent) return;
-
-        // Mappa wp_id -> slug (iniettata dal server tramite define:vars)
-
-        // Processa tutti i link nel contenuto
-        const links = articleContent.querySelectorAll('a[href]');
+        const data = window.__BLOG_PAGE_DATA__;
+        const wpIdToSlugMap = (data && data.wpIdToSlugMap) || {};
+        const container = document.querySelector('article') || document.querySelector('.prose') || document.body;
+        if (!container) return;
+        const links = container.querySelectorAll('a[href]');
         const currentDomain = window.location.hostname;
         
         links.forEach(link => {
           let href = link.getAttribute('href');
           if (!href) return;
 
-          // Fix link WordPress (?p=ID o ?p=ID&...)
           const wpMatch = href.match(/[?&]p=(\d+)/);
           if (wpMatch) {
             const wpId = parseInt(wpMatch[1]);
             const slug = wpIdToSlugMap[wpId];
-            
-            if (slug) {
-              // Converti link WordPress in nuovo formato
-              const newHref = `/blog/${slug}`;
-              link.setAttribute('href', newHref);
-              console.log(`Link WordPress convertito: ?p=${wpId} -> /blog/${slug}`);
-            } else {
-              console.log(`Link WordPress non trovato nella mappa: ?p=${wpId}`);
-            }
+            if (slug) link.setAttribute('href', `/blog/${slug}`);
           }
 
-          // Aggiungi target="_blank" e rel="noopener" ai link esterni
           try {
             const url = new URL(href, window.location.origin);
             const isExternal = url.hostname !== currentDomain && 
@@ -1879,34 +1771,18 @@ Slug: {articleBySlug.slug}
                               !href.startsWith('/') &&
                               !href.startsWith('mailto:') &&
                               !href.startsWith('tel:');
-            
             if (isExternal) {
               link.setAttribute('target', '_blank');
               link.setAttribute('rel', 'noopener noreferrer');
             }
-          } catch (e) {
-            // Se l'URL non è valido, ignora
-          }
+          } catch (e) {}
         });
       }
 
-      // Esegui processamento link quando il contenuto è caricato
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => {
-          removeOldRelatedSections();
-          processArticleLinks();
-          enhanceReadAlsoBoxes();
-        });
-      } else {
-        removeOldRelatedSections();
-        processArticleLinks();
-        enhanceReadAlsoBoxes();
-      }
-
-      // Processa anche dopo che il contenuto è stato renderizzato da Astro
-      setTimeout(removeOldRelatedSections, 50);
-      setTimeout(processArticleLinks, 100);
-      setTimeout(enhanceReadAlsoBoxes, 150);
+      window.addEventListener('load', processArticleLinks);
+      document.addEventListener('astro:after-swap', processArticleLinks);
+      if (document.readyState === 'complete') processArticleLinks();
+      else setTimeout(processArticleLinks, 200);
     </script>
   </body>
 </html>
