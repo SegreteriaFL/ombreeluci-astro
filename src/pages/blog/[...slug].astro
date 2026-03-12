@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
 import { getLangFromUrl, t } from '../../utils/i18n';
 import { ViewTransitions } from 'astro:transitions';
@@ -373,6 +374,51 @@ for (const article of allArticles) {
     isItalian,
   };
 }
+
+// Articoli correlati in calce (stessa categoria, escluso l'articolo corrente)
+const relatedCategorySlug = categorySlug;
+const relatedArticles = relatedCategorySlug
+  ? allArticles
+      .filter((a) => {
+        if (a.id === articleBySlug.id) return false;
+        const aCategorySlug = getCategorySlugForArticle(a.data.wp_id);
+        const aLang = ((a.data as { lang?: string }).lang || 'it').toLowerCase();
+        const isSameLang =
+          (locale === 'en' ? aLang === 'en' || a.id.startsWith('en/') : aLang !== 'en' && !a.id.startsWith('en/'));
+        return isSameLang && aCategorySlug === relatedCategorySlug;
+      })
+      .slice(0, 3)
+      .map((a) => {
+        const slug =
+          (a.data as { slug?: string }).slug ||
+          a.slug;
+        const relWpId = String(a.data.wp_id ?? '');
+        const relMegacluster = megaclusterById[relWpId] || {};
+        const rawImage =
+          relMegacluster.img_copertina_url ||
+          a.data.image ||
+          (a.data as { copertina_url?: string }).copertina_url ||
+          placeholderImage.src;
+        const labels = getLabels(a.data.tags ?? [], a.data.wp_id);
+        const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a.data.wp_id);
+        const categoriaMenu =
+          (a.data as { categoria_menu?: string }).categoria_menu ||
+          (relMegacluster as { categoria_menu?: string }).categoria_menu ||
+          ((a.data.tags as string[] | undefined)?.[0] ?? null);
+
+        return {
+          title: a.data.title,
+          author: a.data.author,
+          date: a.data.date,
+          issue: a.data.issue_number,
+          slug,
+          image: typeof rawImage === 'string' ? rawImage : rawImage.src,
+          categoriaMenu,
+          forma: labels.formal,
+          ruoloEditoriale: relRuolo,
+        };
+      })
+  : [];
 ---
 
 <html lang="it">
@@ -829,12 +875,15 @@ for (const article of allArticles) {
 
       /* Card correlati in-content (stile Vita.it) */
       .incontent-related-container {
-        display: grid;
-        gap: 1.5rem;
+        display: block;
+        width: 100%;
+        margin: 2.5rem 0;
       }
 
       .incontent-related-card {
-        display: block !important;
+        display: flex !important;
+        flex-direction: row;
+        align-items: stretch;
         visibility: visible !important;
         opacity: 1 !important;
         position: relative;
@@ -842,28 +891,31 @@ for (const article of allArticles) {
         max-width: 100%;
         margin: 2rem 0;
         clear: both;
-        border: 1px solid #eee;
+        border: 1px solid #e0e0e0;
         border-radius: 12px;
-        padding: 1.5rem;
+        padding: 1.5rem 1.75rem;
         background: #ffffff;
         text-decoration: none;
         transition: box-shadow 0.2s ease, transform 0.15s ease;
       }
 
       .incontent-related-link {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        align-items: stretch;
         color: inherit;
         text-decoration: none;
         max-width: 100%;
+        width: 100%;
       }
 
       .incontent-related-image-wrapper {
-        width: 100%;
-        max-width: 100%;
+        flex: 0 0 38%;
+        max-width: 38%;
         aspect-ratio: 16 / 9;
         overflow: hidden;
         border-radius: 10px;
-        margin-bottom: 1.25rem;
         background: #f3f3f3;
       }
 
@@ -875,12 +927,8 @@ for (const article of allArticles) {
         display: block;
       }
 
-      /* Nasconde i vecchi link testuali "Leggi anche" per evitare doppia card */
-      .legacy-read-also {
-        display: none !important;
-      }
-
       .incontent-related-content {
+        flex: 1;
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
@@ -898,10 +946,11 @@ for (const article of allArticles) {
 
       .incontent-related-title {
         font-family: Georgia, 'Times New Roman', serif;
-        font-size: 1.05rem;
+        font-size: 1.15rem;
         font-weight: 700;
         line-height: 1.4;
         color: #000000;
+        text-decoration: none;
       }
 
       .incontent-related-excerpt {
@@ -915,6 +964,27 @@ for (const article of allArticles) {
       .incontent-related-card:hover {
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
         transform: translateY(-1px);
+      }
+
+      /* Nasconde i vecchi link testuali "Leggi anche" per evitare doppia card */
+      .legacy-read-also {
+        display: none !important;
+      }
+
+      @media (max-width: 768px) {
+        .incontent-related-card {
+          flex-direction: column;
+        }
+
+        .incontent-related-link {
+          flex-direction: column;
+        }
+
+        .incontent-related-image-wrapper {
+          flex: 0 0 auto;
+          max-width: 100%;
+          margin-bottom: 1rem;
+        }
       }
 
       /* Didascalia immagine hero - stessa larghezza dell'immagine, allineata a destra */
@@ -941,6 +1011,7 @@ for (const article of allArticles) {
         z-index: 1000;
         transition: right 0.35s ease, box-shadow 0.35s ease;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        display: none !important;
       }
 
       .floating-widget.visible {
@@ -988,6 +1059,48 @@ for (const article of allArticles) {
 
       .floating-widget-image {
         display: none;
+      }
+
+      /* Articoli correlati in calce (grid ArticleCard) */
+      .related-footer-section {
+        width: 100%;
+        margin: 4rem 0 3rem;
+        padding: 0 2rem;
+      }
+
+      .related-footer-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+
+      .related-footer-title {
+        margin: 0 0 1.75rem;
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--text-color);
+      }
+
+      .related-footer-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.75rem;
+      }
+
+      @media (max-width: 900px) {
+        .related-footer-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 640px) {
+        .related-footer-section {
+          padding: 0 1.5rem;
+        }
+
+        .related-footer-grid {
+          grid-template-columns: minmax(0, 1fr);
+        }
       }
 
       .article-content :global(h1),
@@ -1504,6 +1617,32 @@ for (const article of allArticles) {
             </div>
           )}
         </div>
+      )}
+
+      {/* Articoli correlati in calce (full-width, griglia ArticleCard) */}
+      {relatedArticles.length > 0 && (
+        <section class="related-footer-section" aria-label={locale === 'en' ? 'Related articles' : 'Articoli correlati'}>
+          <div class="related-footer-inner">
+            <h2 class="related-footer-title">
+              {locale === 'en' ? 'Related articles' : 'Articoli correlati'}
+            </h2>
+            <div class="related-footer-grid">
+              {relatedArticles.map((rel) => (
+                <ArticleCard
+                  title={rel.title}
+                  author={rel.author}
+                  date={rel.date}
+                  issue={rel.issue}
+                  slug={rel.slug}
+                  image={rel.image}
+                  categoriaMenu={rel.categoriaMenu}
+                  forma={rel.forma}
+                  ruoloEditoriale={rel.ruoloEditoriale}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
       )}
 
       {articleBySlug.data.has_comments && (
