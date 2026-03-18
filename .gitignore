@@ -22,6 +22,7 @@ _migration_archive/
 
 # environment variables
 .env
+.env.local
 .env.production
 
 # macOS-specific files
@@ -29,6 +30,9 @@ _migration_archive/
 
 # jetbrains setting folder
 .idea/
+
+# Claude Code local session settings (personal, not team)
+.claude/settings.local.json
 
 # --- Essenziali per il sito (NON ignorare, tenere in repo) ---
 # src/data/*.json (articoli_megacluster.json, autori_stats.json) sono generati da script ma necessari per build
