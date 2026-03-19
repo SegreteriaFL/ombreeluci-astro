@@ -9,9 +9,12 @@ export default defineConfig({
   adapter: cloudflare({
     routes: {
       extend: {
-        include: [{ pattern: '/keystatic' }],
-      },
-    },
+        exclude: [
+          { pattern: '/blog/*' },
+          { pattern: '/_astro/*' }
+        ]
+      }
+    }
   }),
   integrations: [react(), keystatic()],
   vite: {
