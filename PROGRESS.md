@@ -18,9 +18,21 @@ da WordPress+Divi a uno stack moderno Astro + Directus.
 |-------|-----------|-------|
 | Frontend | Astro (output 100% statico) su Cloudflare Pages | **Attivo** |
 | CMS temporaneo | Keystatic Worker su Cloudflare Workers | **Attivo** (solo nuovi articoli) |
-| CMS pianificato | Directus su Hetzner CX23 | **VPS pronto** — stack da installare |
-| Database | PostgreSQL + pgvector (Hetzner) | **Da fare** (dopo Docker) |
+| CMS pianificato | Directus su Hetzner CX23 | **VPS PRONTO** e Directus operativo |
+| Database | PostgreSQL 16 + pgvector 0.8.2 (Hetzner) | **Attivo** |
 | Storage media | Cloudflare R2 | **Da fare** |
+
+---
+
+## Infra VPS Hetzner (2026-03-20)
+IP: 159.69.196.64
+Piano: CX23
+OS: Ubuntu 24.04
+Costo: €4.09/mese (inclusi backup)
+Docker: Directus + PostgreSQL 16 + pgvector 0.8.2
+URL admin: http://159.69.196.64:8055
+Credenziali: /opt/oel-cms/.env.local (server)
+             vps_credentials.txt (locale, non committare)
 
 ---
 
