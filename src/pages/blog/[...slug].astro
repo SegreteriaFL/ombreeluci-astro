@@ -1710,9 +1710,6 @@ Slug: {articleBySlug.slug}
           return Array.from(container.children || []);
         }
         var readAlsoInserted = false;
-        var leggiAncheRetryCount = 0;
-        var LEGGI_ANCHE_MAX_RETRIES = 3;
-        var LEGGI_ANCHE_RETRY_MS = 500;
         function getSlugFromHref(href) {
           if (!href) return null;
           var wpMatch = href.match(/[?&]p=(\d+)/);
@@ -1742,7 +1739,12 @@ Slug: {articleBySlug.slug}
           var root = getContainer();
           if (!root) return;
           var oldSectionTitles = ['Articoli', 'Editoriale', 'Rubriche', 'Libri'];
+          var children = Array.from(root.children);
+          var lastThree = children.slice(-3);
           root.querySelectorAll('h4').forEach(function(h4) {
+            // Bug 2 fix: rimuovi solo se l'h4 è tra gli ultimi 3 figli diretti del container
+            var isNearEnd = lastThree.includes(h4) || lastThree.some(function(el) { return el.contains(h4); });
+            if (!isNearEnd) return;
             var text = (h4.textContent || '').trim();
             if (oldSectionTitles.some(function(t) { return text === t || text.indexOf(t) !== -1 || text.endsWith(t); })) {
               var next = h4.nextElementSibling;
@@ -1782,69 +1784,39 @@ Slug: {articleBySlug.slug}
           var box = document.createElement('div');
           box.className = 'read-also-box';
           box.dataset.slug = chosenSlug;
-          var paragraphs = getParagraphs(container);
-          if (paragraphs.length === 0 && leggiAncheRetryCount < LEGGI_ANCHE_MAX_RETRIES) {
-            leggiAncheRetryCount++;
-            setTimeout(runLeggiAnche, LEGGI_ANCHE_RETRY_MS);
-            return;
-          }
-          var inserted = false;
-          if (paragraphs.length > 4) {
-            var targetIndex = paragraphs.length > 8 ? 2 : 1;
-            var targetEl = paragraphs[Math.min(targetIndex, paragraphs.length - 1)];
-            if (targetEl && targetEl.parentNode) {
-              targetEl.parentNode.insertBefore(box, targetEl.nextSibling);
-              inserted = true;
-            }
-          }
-          if (!inserted && paragraphs.length > 0) {
-            var lastEl = container.lastElementChild;
-            if (lastEl) { container.insertBefore(box, lastEl); inserted = true; }
-          }
-          if (!inserted) container.appendChild(box);
+          // Bug 3 fix: inserisci dopo il 3° paragrafo <p> diretto, non il 2° figlio generico
+          var paragraphs = Array.from(container.querySelectorAll(':scope > p'));
+          if (!paragraphs.length) return;
+          var insertAfter = paragraphs[2] || paragraphs[paragraphs.length - 1];
+          insertAfter.insertAdjacentElement('afterend', box);
           readAlsoInserted = true;
         }
         function enhanceReadAlsoBoxes() {
           if (!inContentRelatedMap) return;
           var root = getContainer();
           if (!root) return;
-          var leggiAncheText = /^\s*leggi\s+anche\s*/i;
+          // Bug 1 fix: nascondi TUTTI i paragrafi che contengono "leggi anche" in qualsiasi posizione
           root.querySelectorAll('p').forEach(function(p) {
-            if (p.dataset.leggiAncheProcessed) return;
-            var text = (p.textContent || '').trim();
-            var link = p.querySelector('a[href]');
-            if (leggiAncheText.test(text) || (link && /leggi\s+anche/i.test((link.textContent || '').trim()))) p.classList.add('legacy-read-also');
-          });
-          var candidates = [];
-          root.querySelectorAll('.read-also-box').forEach(function(el) { candidates.push({ type: 'box', el: el }); });
-          root.querySelectorAll('p').forEach(function(p) {
-            if (p.dataset.leggiAncheProcessed) return;
-            var text = (p.textContent || '').trim();
-            var link = p.querySelector('a[href]');
-            if (leggiAncheText.test(text) || (link && /leggi\s+anche/i.test((link.textContent || '').trim()))) candidates.push({ type: 'p', el: p });
-          });
-          candidates.forEach(function(item) {
-            var slug = null;
-            if (item.type === 'box') {
-              slug = item.el.dataset.slug || null;
-              if (!slug) item.el.querySelectorAll('a[href]').forEach(function(a) { if (!slug) slug = getSlugFromHref(a.getAttribute('href')); });
-            } else {
-              var link = item.el.querySelector('a[href]');
-              if (link) slug = getSlugFromHref(link.getAttribute('href'));
+            if (/leggi\s+anche/i.test(p.textContent || '')) {
+              p.classList.add('legacy-read-also');
             }
-            if (!slug) { if (item.type === 'p') item.el.classList.add('legacy-read-also'); return; }
+          });
+          // Trasforma solo i .read-also-box in card (mai i <p>)
+          root.querySelectorAll('.read-also-box').forEach(function(box) {
+            var slug = box.dataset.slug || null;
+            if (!slug) {
+              box.querySelectorAll('a[href]').forEach(function(a) {
+                if (!slug) slug = getSlugFromHref(a.getAttribute('href'));
+              });
+            }
+            // Bug 4 fix: se slug non risolvibile o non in mappa, nascondi il box senza mostrare broken card
+            if (!slug) { box.style.display = 'none'; return; }
             var meta = inContentRelatedMap[slug];
-            if (!meta || meta.isItalian === false) { if (item.type === 'p') item.el.classList.add('legacy-read-also'); return; }
+            if (!meta || meta.isItalian === false) { box.style.display = 'none'; return; }
             var card = buildRelatedCard(slug, meta);
-            if (item.type === 'box') {
-              item.el.innerHTML = '';
-              item.el.classList.add('incontent-related-container');
-              item.el.appendChild(card);
-            } else {
-              item.el.dataset.leggiAncheProcessed = '1';
-              item.el.classList.remove('legacy-read-also');
-              item.el.parentNode.replaceChild(card, item.el);
-            }
+            box.innerHTML = '';
+            box.classList.add('incontent-related-container');
+            box.appendChild(card);
           });
         }
         function runLeggiAnche() {
@@ -1854,9 +1826,7 @@ Slug: {articleBySlug.slug}
         }
         function scheduleLeggiAnche() {
           readAlsoInserted = false;
-          leggiAncheRetryCount = 0;
           runLeggiAnche();
-          setTimeout(runLeggiAnche, 1000);
         }
         function run() { scheduleLeggiAnche(); }
         window.addEventListener('load', run);

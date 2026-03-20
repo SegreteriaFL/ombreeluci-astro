@@ -37,3 +37,16 @@ _migration_archive/
 # --- Essenziali per il sito (NON ignorare, tenere in repo) ---
 # src/data/*.json (articoli_megacluster.json, autori_stats.json) sono generati da script ma necessari per build
 # _migration_archive/categorie v2/articoli_*_FINAL_V5.csv è la Source of Truth
+
+# Private keys
+*.pem
+
+# SQL dump database (troppo grande per git)
+dump_db_old/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# File temporanei script
+scripts_and_data/scripts/_preview_markdown_before_after_tmp.py

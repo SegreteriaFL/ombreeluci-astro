@@ -2,7 +2,19 @@
   "permissions": {
     "allow": [
       "Bash(python:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(npm install:*)",
+      "Bash(npm view:*)",
+      "Bash(python3 -c \"import json,sys; versions=[v for v in json.load\\(sys.stdin\\) if not any\\(x in v for x in [''''alpha'''',''''beta'''',''''rc'''',''''next'''',''''canary'''']\\) and v.startswith\\(\\(''''3.'''',''''2.''''\\)\\)]; print\\(versions[-5:]\\)\")",
+      "Bash(timeout 20 npm run dev)",
+      "Bash(timeout 25 npm run dev)",
+      "Bash(curl -s -o /dev/null -w \"HTTP status: %{http_code}\" http://localhost:4321/)",
+      "Read(//tmp/**)",
+      "Bash(node -e \"const k = require\\(''@keystatic/core''\\); console.log\\(Object.keys\\(k.fields\\).join\\(''\\\\n''\\)\\)\")",
+      "Bash(npx tsc:*)",
+      "Bash(xargs grep:*)",
+      "Bash(/dev/null grep:*)",
+      "Read(//dev/**)"
     ]
   }
 }

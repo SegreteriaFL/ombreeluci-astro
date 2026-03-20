@@ -4,6 +4,9 @@
       "Bash(*)",
       "Skill(update-config)",
       "Skill(update-config:*)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\berto\\Documents\\keystatic-oel"
     ]
   }
 }

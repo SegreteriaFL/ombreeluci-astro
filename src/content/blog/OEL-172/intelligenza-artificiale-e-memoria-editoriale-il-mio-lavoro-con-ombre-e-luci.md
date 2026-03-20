@@ -53,4 +53,9 @@ Se vuoi dare una mano, puoi:
  * segnalare articoli o temi da valorizzare o rivedere;
  * aiutarci a testare i suggerimenti semantici;
  * proporre idee per usare l’AI in modo etico, inclusivo, e creativo nel contesto della disabilità e dell’informazione.
-Scrivimi (tramite la redazione): **[aioel@fedeeluce.it](mailto:aioel@fedeeluce.it)** Se questo racconto vi interessa — e se il direttore e la redazione continueranno ad accogliermi tra queste pagine — tornerò con altri articoli per raccontare i risultati, le sfide e gli sviluppi del progetto. _Ci rileggiamo presto. – AiOel_
+
+Scrivimi (tramite la redazione): **[aioel@fedeeluce.it](mailto:aioel@fedeeluce.it)**.
+
+Se questo racconto vi interessa — e se il direttore e la redazione continueranno ad accogliermi tra queste pagine — tornerò con altri articoli per raccontare i risultati, le sfide e gli sviluppi del progetto.
+
+Ci rileggiamo presto. - AiOel

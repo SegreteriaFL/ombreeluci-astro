@@ -1,0 +1,3250 @@
+[
+  {
+    "wp_id": 1,
+    "login": "admin",
+    "display_name": "Redazione",
+    "email": "trikkia@gmail.com",
+    "registered": "2017-10-11",
+    "bio": null
+  },
+  {
+    "wp_id": 2,
+    "login": "Redazione",
+    "display_name": "Redazione",
+    "email": "ombreeluci@gmail.com",
+    "registered": "2017-10-11",
+    "bio": null
+  },
+  {
+    "wp_id": 10,
+    "login": "Henri Bissonier",
+    "display_name": "Henri Bissonier",
+    "email": "HenriBissonier@ombreeluci.it",
+    "registered": "2017-10-11",
+    "bio": "Il Padre Henri Bissonier è senza dubbio un’autorità nel campo della <b><a href=\"https://www.ombreeluci.it/spiritualita/\">catechesi delle persone con handicap mentale</a></b>.\r\nHa scritto molti libri e articoli, ha insegnato in numerose università, ha fondato e diretto Movimenti nazionali e internazionali di persone con handicap.\r\nMa non ha fatto solo teoria: provato, fin da bambino, nella malattia, a diciannove anni scopre, nei grandi sanatori delle Alpi, l'esclusione sociale e la desolazione spirituale del mondo dei malati.\r\nFin dalla sua ordinazione nel 1935, impegna tutta la sua vita di sacerdote in una lotta quotidiana per la difesa dei diritti delle persone con handicap, per il riconoscimento della loro dignità, per il loro inserimento nella vita sociale e nella comunità cristiana.\r\nÈ stato il pioniere in Francia della catechesi delle persone handicappate entrando con tutta la forza della sua speranza e la sensibilità del suo cuore nel mondo triste e chiuso di un ospedale pubblico dove «vivevano» delle giovani e delle ragazze handicappate mentali."
+  },
+  {
+    "wp_id": 4,
+    "login": "Mariangela Bertolini",
+    "display_name": "Mariangela Bertolini",
+    "email": "mariangela@oel.it",
+    "registered": "2017-10-11",
+    "bio": "Nata a Treviso nel 1933, insegnante e mamma di tre figli tra cui Maria Francesca, Chicca, con una grave disabilità.\r\nÈ stata fra le promotrici di Fede e Luce in Italia. Ha fondato e diretto Ombre e Luci dal 1983 fino al 2014. <b><a href=\"https://www.ombreeluci.it/mariangela-bertolini/\">Biografia completa</a></b>"
+  },
+  {
+    "wp_id": 5,
+    "login": "Anna Cece",
+    "display_name": "Anna Cece",
+    "email": "annacece@oel.it",
+    "registered": "2017-10-11",
+    "bio": null
+  },
+  {
+    "wp_id": 6,
+    "login": "Cristina Tersigni",
+    "display_name": "Cristina Tersigni",
+    "email": "cri.tersigni@gmail.com",
+    "registered": "2017-10-11",
+    "bio": "Classe 1969, nel 2003 Mariangela Bertolini le chiese di collaborare per lo speciale su Fede e Luce: Cristina era nel Consiglio Nazionale dell’associazione ed era un utile tramite tra le comunità italiane – di cui raccontare vita e legami- e la redazione. Poi il momento si è allungato: con Tea ha cominciato a editare i testi, con Huberta a seguire i lettori, con Nicole e Natalia a immaginare nuovi temi, con Laura ad imparare da Sergio il taglio e incolla del giornale. Su tutte, Mariangela che con il suo cuore leggeva il mondo con incredibile chiarezza. E insegnava a raccontare il mistero del bene possibile nell’inatteso. A Fede e Luce dal 1988; laureata in psicologia a La Sapienza di Roma nel 1996. Sposata dal 1995 con Giovanni, hanno quattro figli e vivono a Roma dal 2000. Dal 2014 è direttore editoriale della rivista."
+  },
+  {
+    "wp_id": 183,
+    "login": "Elisa De Felice",
+    "display_name": "Elisa De Felice",
+    "email": "eli@defelice.it",
+    "registered": "2020-06-04",
+    "bio": null
+  },
+  {
+    "wp_id": 8,
+    "login": "Marielene Mathieu",
+    "display_name": "Marie Hélène Mathieu",
+    "email": "marielene@ombreeluci.it",
+    "registered": "2017-10-11",
+    "bio": "Marie-Hélène Mathieu è nata il 4 luglio 1929 a Tournus in Francia. Educatrice specializzata, allieva di padre <b><a href=\"https://www.ombreeluci.it/author/henri-bissonier\">Henri Bissonier</a></b>, ha fondato l'Office Chrétien des Personnes Handicappées (1963), poi Ombres et Lumière, rivista cristiana delle persone portatrici di handicap, delle loro famiglie e dei loro amici. Ha creato, nel 1968, con Jean Vanier il movimento Foi et Lumière. Membro del Pontificio Consiglio per i Laici dal 1984 al 1989 è stata la prima donna a tenere una Conferenza di Quaresima a Notre- Dame di Parigi (1988), ed è Cavaliere della Legion d'Onore. Autrice, tra l'altro, di Dio mi ama così come sono (Effatà, Cantalupa 2002), Mai più soli,L'avventura di Fede e Luce, (Jacabook, 2012)."
+  },
+  {
+    "wp_id": 47,
+    "login": "Pietro Vetro",
+    "display_name": "Pietro Vetro",
+    "email": "pietro.vetro@hpe.com",
+    "registered": "2017-11-08",
+    "bio": null
+  },
+  {
+    "wp_id": 48,
+    "login": "Angela Grassi",
+    "display_name": "Angela Grassi",
+    "email": "angelagrassi@ombreeluci.it",
+    "registered": "2017-11-13",
+    "bio": null
+  },
+  {
+    "wp_id": 11,
+    "login": "Patrick Thonon",
+    "display_name": "Patrick Thonon",
+    "email": "PatrickThonon@ombreeluci.it",
+    "registered": "2017-10-11",
+    "bio": null
+  },
+  {
+    "wp_id": 12,
+    "login": "Rita Ozzimo",
+    "display_name": "Rita Ozzimo",
+    "email": "ritaozzimo@ombreeluci.it",
+    "registered": "2017-10-12",
+    "bio": null
+  },
+  {
+    "wp_id": 13,
+    "login": "Nicole Schulthes",
+    "display_name": "Nicole Schulthes",
+    "email": "Nicole@ombreeluci.it",
+    "registered": "2017-10-12",
+    "bio": "Ha studiato Ergoterapia in Francia e negli Stati Uniti, co-fondando nel 1961 l'Association Nationale Francaise des Ergotherapeutes, (ANFE).\r\nTrasferitasi a Roma, incontra Mariangela Bertolini e insieme avviano nel 1971, su invito di Marie-Hélène Mathieu, le attività di Fede e Luce e partecipano all'organizzazione del pellegrinaggio dell'Anno Santo del 1975. Dal 1983 al 2004 cura con Mariangela la rivista Ombre e Luci. Per anni ha organizzato il campo estivo per bambini e famiglie sul campus della scuola Mary Mount a Roma."
+  },
+  {
+    "wp_id": 14,
+    "login": "Agnes Auschitzky",
+    "display_name": "Agnés Auschitzky",
+    "email": "Agnes@mbreeluci.it",
+    "registered": "2017-10-12",
+    "bio": null
+  },
+  {
+    "wp_id": 15,
+    "login": "Lucia Bertolini",
+    "display_name": "Lucia Bertolini",
+    "email": "luciabertolini@ombreeluci.it",
+    "registered": "2017-10-12",
+    "bio": null
+  },
+  {
+    "wp_id": 16,
+    "login": "Matteo_Cinti",
+    "display_name": "Matteo Cinti",
+    "email": "matteocinti@fedeeluce.it",
+    "registered": "2017-10-16",
+    "bio": "Nato alla fine degli anni ottanta, Matteo si diploma come Grafico Pubblicitario a Roma nel 2007 e nello stesso anno conosce Ombre e Luci, iniziando a impaginare la rivista quando era ancora sotto la gestione della tipografia Quintily. Successivamente ha conseguito un master di Web Designer, ed entra nella redazione a partire dal 2010, grazie alla fiducia di Mariangela e Cristina, occupandosi in un primo momento della sola impaginazione della rivista, per poi assumere il ruolo di referente grafico anche per l’Associazione Fede e Luce, di cui Ombre e Luci è parte. Contemporaneamente si occupa di progetti amatoriali come recensore per alcune testate online (The Shelter, Everpop, Metis Magazine), discutendo di film, serie tv e in particolare di fumetti, di cui è accanito consumatore. Disegnare è un hobby che si porta dietro dall’infanzia e che ogni tanto riesce a trasformare in lavoro. Fiero sostenitore della bellezza nella diversità di ognuno, non perde mai la speranza di un mondo sempre più verde."
+  },
+  {
+    "wp_id": 17,
+    "login": "Guenda Malvezzi",
+    "display_name": "Guenda Malvezzi",
+    "email": "guendamalvezzi@ombreeluci.it",
+    "registered": "2017-10-17",
+    "bio": null
+  },
+  {
+    "wp_id": 18,
+    "login": "MarieClaudeFabre",
+    "display_name": "Marie Claude Fabre",
+    "email": "MarieClaudeFabre@ombreeluci.it",
+    "registered": "2017-10-17",
+    "bio": null
+  },
+  {
+    "wp_id": 19,
+    "login": "RogerSalbreux",
+    "display_name": "Roger Salbreux",
+    "email": "RogerSalbreux@ombreeluci.it",
+    "registered": "2017-10-17",
+    "bio": null
+  },
+  {
+    "wp_id": 20,
+    "login": "Jacqueline e Henri Faivre",
+    "display_name": "Jacqueline e Henri Faivre",
+    "email": "JacquelineFaivre@ombreeluci.it",
+    "registered": "2017-10-17",
+    "bio": null
+  },
+  {
+    "wp_id": 21,
+    "login": "Francesco Iellamo",
+    "display_name": "Francesco Iellamo",
+    "email": "francescoiellamo@ombreeluc.it",
+    "registered": "2017-10-19",
+    "bio": null
+  },
+  {
+    "wp_id": 22,
+    "login": "Benny",
+    "display_name": "Benny",
+    "email": "benny@ombreeluci.it",
+    "registered": "2017-10-19",
+    "bio": null
+  },
+  {
+    "wp_id": 23,
+    "login": "Emanuele Mendola",
+    "display_name": "Emanuele Mendola",
+    "email": "Emanuelemendola@ombreeluci.it",
+    "registered": "2017-10-19",
+    "bio": null
+  },
+  {
+    "wp_id": 24,
+    "login": "saramcallister",
+    "display_name": "Sara Mc Allister",
+    "email": "saramcallister@ombreeluci.it",
+    "registered": "2017-10-19",
+    "bio": null
+  },
+  {
+    "wp_id": 25,
+    "login": "Sergio Sciascia",
+    "display_name": "Sergio Sciascia",
+    "email": "sergiosciascia@ombreeluci.it",
+    "registered": "2017-10-19",
+    "bio": "Sergio Sciascia, nasce a Torino nel 1937 ma si trasferisce a Roma con la famiglia pochi anni dopo. Fin da piccolo manifesta una spiccata passione per lo scrivere e per il capire le cose che lo circondano, e di questi due aspetti farà il mestiere di una vita. Una collega, amica della primissima Fede e Luce romana, mette in contatto Sergio con Mariangela Bertolini e con l’idea di trasformare il ciclostilato “Insieme”che legava le poche comunità italiane di Fede e Luce in qualcosa di più. Era l’autunno del 1981. Nasceva Ombre e Luci e Sergio accettava di esserne il direttore responsabile."
+  },
+  {
+    "wp_id": 26,
+    "login": "Stefano Di Franco",
+    "display_name": "Stefano Di Franco",
+    "email": "stefanodifranco@ombreeluci.it",
+    "registered": "2017-10-20",
+    "bio": "Stefano Di Franco (per gli amici il Capitano) ha intessuto legami di cuore con molte persone con o senza handicap, piccole e grandi, genitori o figli, nella sua comunità di Fede e Luce, all’Arca, nel suo lavoro, senza alcuna distinzione. Cogliendo sempre quanto di prezioso ci sia nella possibilità di un incontro che rivela la bellezza dell’altro. Come coordinatore della provincia Kimata ha portato l’esperienza di Fede e Luce in Italia e nel mondo. <b><a href=\"https://www.ombreeluci.it/ciao-stefano-di-franco/\">Pagina in ricordo di Stefano</a></b>"
+  },
+  {
+    "wp_id": 27,
+    "login": "Domenico e Filippo Pescosolido",
+    "display_name": "Domenico e Filippo Pescosolido",
+    "email": "domenico@ombreeluci.it",
+    "registered": "2017-10-20",
+    "bio": null
+  },
+  {
+    "wp_id": 28,
+    "login": "Paul Gilbert",
+    "display_name": "Paul Gilbert",
+    "email": "paulgilbert@ombreeluci.it",
+    "registered": "2017-10-20",
+    "bio": "Paul Gilbert, gesuita belga, ha conosciuto Fede e Luce quando, approfondendo a Roma i suoi studi di teologia dal 1979 al 1979, si è inserito nella comunità di s. Paolo. Dopo il dottorato, è stato mandato a Roma e per insegnare la filosofia all’Università Gregoriana, dal 1986 ad oggi. Durante questi anni, ha partecipato alla vita di Fede e Luce accompagnando alcune comunità romane."
+  },
+  {
+    "wp_id": 30,
+    "login": "Rita Massi",
+    "display_name": "Rita Massi",
+    "email": "ritamassi@ombreeluci.it",
+    "registered": "2017-10-20",
+    "bio": "Rita Massi Aglianò è nata nel 1948 a Roma, dove vive. Ha svolto la professione di Assistente sociale, presso il Settore T.S.M.R.E.E. della ASL RMD Nel 2010 è andata in pensione ed ha iniziato a lavorare presso la redazione di Ombre e Luci, ma già da alcuni anni faceva parte della redazione allargata. Il suo esordio lavorativo, nel 1970, è stato presso il Centro di riabilitazione Nido Verde, per bambini con esiti di poliomielite e paralisi cerebrale infantile. Per alcuni anni ha fatto parte delle équipe socio psico pedagogiche presso le scuole. A contatto con il movimento di Fede e Luce da molti anni, attualmente fa parte della Comunità di San Gregorio di Roma. Per circa 18 anni è stata membro del Consiglio di amministrazione dell’Associazione “Il Carro”, una Casa famiglia di Roma che accoglie persone con disabilità grave. Tutt’ora è socia dell’associazione. Per circa venti anni ha fatto parte del gruppo Caritas della Parrocchia di Santa Silvia (Roma) dove è stata responsabile del Centro di Ascolto e referente dei gruppi Caritas parrocchiali. Attualmente collabora con la Redazione di O&amp;L nella redazione allargata."
+  },
+  {
+    "wp_id": 31,
+    "login": "Giovanni Grossi",
+    "display_name": "Giovanni Grossi",
+    "email": "giovannigrossi@ombreeluci.it",
+    "registered": "2017-10-20",
+    "bio": "Sono nato a Roma nel 1970, da Lorenzo Grossi e Paola Pisenti. Ho fatto l’asilo a Milano ed a Pomigliano D’Arco, le elementari e la prima media a Pomigliano D’Arco e poi ho fatto le medie a Roma nella scuola Esopo quando ancora era in via Fogliano, adesso è diventata una casa qualsiasi. Poi il liceo artistico al Sant’Orsola in via Livorno presso piazza Bologna, lì disegnavo male e facevo scena muta, per anni io non parlavo per niente, perché ho sofferto di solitudine e rimanevo spesso da solo. Ho fatto lo scout fino al clan e anche Fede e Luce; io ho iniziato andando a villa patrizi, poi a sant’Angela Merici, e altre chiese, a sant’Ippolito e sant’Agnese fuori le mura oggi. Ho conosciuto tante persone che frequento ancora in comunità. Faccio la formazione professionale da alberghi e il ministero della marina mercantile, e adesso sono alla Biotecnica Instruments S.p.A. a lavorare e anche alla Torre, dal 2005. Sono il primogenito, dopo di me c’è Ernesto e Ludovico con la sua famiglia."
+  },
+  {
+    "wp_id": 32,
+    "login": "Francesca Amici di Simone",
+    "display_name": "Associazione Amici di Simone",
+    "email": "francescamicidisimone@ombreeluci.it",
+    "registered": "2017-10-20",
+    "bio": null
+  },
+  {
+    "wp_id": 33,
+    "login": "Giulia Galeotti",
+    "display_name": "Giulia Galeotti",
+    "email": "giuliagaleotti@tiscali.it",
+    "registered": "2017-10-20",
+    "bio": "Dopo il post dottorato e tanti lavori, Giulia ha iniziato a collaborare con diverse testate, prima di fermarsi all’Osservatore Romano, dove dal 2014 è responsabile delle pagine culturali e dal 2019 dell’inserto culturale «Quattro Pagine». Ha scritto libri, tra cui <i>Storia dell’aborto</i> (il Mulino 2024), <i>«Siamo una rivoluzione». Vita di Dorothy Day</i> (Jaca Book 2022), <i>Il velo</i> (Edb 2016), <i>Storia dei trapianti da vivente</i> (Vita&amp;Pensiero 2012), <i>In cerca del padre</i> (Laterza 2009, Premio Minturnae), <i>Storia del voto alle donne in Italia</i> (Biblink 2006; Premio Capalbio e Premio Amelia Rosselli); tra i saggi, <i>A Church of Women: Memories, Frustrations and Hopes in the Journey of Life</i> in «Visions and Vocations» (Paulist Press 2018), <i>Disabilità e ospedale: storia secolare di rapporti complessi</i> in «Persone con disabilità e ospedale» (Erickson 2014); <i>Concepire l’handicap</i> in «La bioetica come storia» (Lindau 2011); <i>Padre</i> in «Parola di donna» (Ponte alle Grazie 2011). I suoi libri sono tradotti in spagnolo e portoghese. Romanista dalla nascita e scout per decenni nell’Agesci, dal 1998 fa parte di Fede e Luce. Pedala per Roma, dove è nata e tornata."
+  },
+  {
+    "wp_id": 98,
+    "login": "Federica Aliano",
+    "display_name": "Federica Aliano",
+    "email": "FedericaAliano@ombreeluci.it",
+    "registered": "2019-11-17",
+    "bio": null
+  },
+  {
+    "wp_id": 34,
+    "login": "Don Enrico Cattaneo",
+    "display_name": "Enrico Cattaneo",
+    "email": "enricocattaneo@ombreeluci.it",
+    "registered": "2017-10-22",
+    "bio": null
+  },
+  {
+    "wp_id": 35,
+    "login": "Don Marco Bove",
+    "display_name": "Marco Bove",
+    "email": "donmarcobove@ombreeluci.it",
+    "registered": "2017-10-22",
+    "bio": null
+  },
+  {
+    "wp_id": 36,
+    "login": "Isabella Gimmi",
+    "display_name": "Isabella Gimmi",
+    "email": "isabellagimmi@ombreeluci.it",
+    "registered": "2017-10-22",
+    "bio": null
+  },
+  {
+    "wp_id": 37,
+    "login": "Paolo Tantaro",
+    "display_name": "Paolo Tantaro",
+    "email": "paolotantaro@ombreeluci.it",
+    "registered": "2017-10-22",
+    "bio": null
+  },
+  {
+    "wp_id": 38,
+    "login": "Flora Atlante",
+    "display_name": "Flora Atlante",
+    "email": "floraatlante@ombreeluci.it",
+    "registered": "2017-10-22",
+    "bio": null
+  },
+  {
+    "wp_id": 39,
+    "login": "Davide",
+    "display_name": "Davide",
+    "email": "davide@ombreeluci.it",
+    "registered": "2017-10-22",
+    "bio": null
+  },
+  {
+    "wp_id": 40,
+    "login": "Carla Gaviraghi",
+    "display_name": "Carla Gaviraghi",
+    "email": "carlagaviraghi@ombreeluci.it",
+    "registered": "2017-10-22",
+    "bio": null
+  },
+  {
+    "wp_id": 41,
+    "login": "Gruppo Cesano Boscone",
+    "display_name": "Gruppo Cesano Boscone",
+    "email": "gruppocesanoboscone@ombreeluci.it",
+    "registered": "2017-10-22",
+    "bio": null
+  },
+  {
+    "wp_id": 42,
+    "login": "Pierina Formiconi",
+    "display_name": "Pierina Formiconi",
+    "email": "pierina@ombreeluci.it",
+    "registered": "2017-10-22",
+    "bio": null
+  },
+  {
+    "wp_id": 43,
+    "login": "ValeriaLevi",
+    "display_name": "Valeria Levi della Vida",
+    "email": "valerialevi@ombreeluci.it",
+    "registered": "2017-10-31",
+    "bio": "Medico e Responsabile dell'associazione Azione Parkinson Ciociaria"
+  },
+  {
+    "wp_id": 44,
+    "login": "CarloMartini",
+    "display_name": "Carlo Maria Martini",
+    "email": "carlomartini@ombreeluci.it",
+    "registered": "2017-10-31",
+    "bio": "Carlo Maria Martini è stato un cardinale, arcivescovo cattolico, teologo, biblista, docente e rettore italiano.Esegeta oltre che biblista, è stato arcivescovo di Milano dal 1979 al 2002."
+  },
+  {
+    "wp_id": 45,
+    "login": "Olga Gammarelli",
+    "display_name": "Olga Gammarelli",
+    "email": "OlgaGammarelli@ombreeluci.it",
+    "registered": "2017-10-31",
+    "bio": "Inglese naturalizzata italiana, mamma di Sabina e moglie di Francesco. Ha partecipato alla nascita e crescita del movimento Fede e Luce Italia insieme a suo marito."
+  },
+  {
+    "wp_id": 46,
+    "login": "Jean Vanier",
+    "display_name": "Jean Vanier",
+    "email": "Jeanvanier2@ombreeluci.it",
+    "registered": "2017-11-02",
+    "bio": null
+  },
+  {
+    "wp_id": 49,
+    "login": "Arianna Giuliano",
+    "display_name": "Arianna Giuliano",
+    "email": "arianna@ombreeluci.it",
+    "registered": "2017-11-13",
+    "bio": "Mi chiamo Arianna, sono nata a Milano il 17 giugno 1992. Ho una disabilità dalla nascita, questo non mi ha mai fermata dal pormi continuamente obiettivi sempre più difficili da raggiungere, fino ad arrivare alla tanto sognata laurea, infatti mi sono laureata nel 2022 in Linguaggi dei media all'Università Cattolica Del Sacro Cuore di Milano.\r\nOra ho un mio progetto, realizzarmi lavorativamente.\r\nHo conosciuto Fede e Luce per caso, nel lontano 2000, in occasione della mia Prima Comunione. Pensavamo, io e i miei genitori, fosse finita lì la nostra esperienza, ma ci sbagliavamo alla grande: dopo ben 23 anni, non possiamo più fare a meno di Fede e Luce e dei nostri amici."
+  },
+  {
+    "wp_id": 50,
+    "login": "Laura De Rino",
+    "display_name": "Laura De Rino",
+    "email": "lauraderino@ombreeluci.it",
+    "registered": "2017-11-13",
+    "bio": null
+  },
+  {
+    "wp_id": 51,
+    "login": "Vanna Rossani",
+    "display_name": "Vanna Rossani",
+    "email": "vananross@omb.it",
+    "registered": "2017-11-13",
+    "bio": null
+  },
+  {
+    "wp_id": 52,
+    "login": "Caterina Mercurio e Marco Panzeri",
+    "display_name": "Caterina Mercurio Marco Panzeri",
+    "email": "a@o.ok",
+    "registered": "2017-11-13",
+    "bio": null
+  },
+  {
+    "wp_id": 53,
+    "login": "Valentina Calabresi",
+    "display_name": "Valentina Calabresi",
+    "email": "va@ol.it",
+    "registered": "2017-11-13",
+    "bio": null
+  },
+  {
+    "wp_id": 54,
+    "login": "Tommaso Bertolini",
+    "display_name": "Tommaso Bertolini",
+    "email": "t@ombreluci.it",
+    "registered": "2017-11-29",
+    "bio": null
+  },
+  {
+    "wp_id": 55,
+    "login": "Huberta Pott",
+    "display_name": "Huberta Pott",
+    "email": "hub@ggg.it",
+    "registered": "2017-12-06",
+    "bio": "Nata in Austria nel 1964 e ultima di 9 figli. Conosce Francesco Bertolini e di conseguenza anche Fede e Luce durante un suo anno “sabbatico - post maturità” a Roma e grazie all’amica “storica” Anna A.\r\nDopo 5 anni di viaggi tra Salisburgo e Roma si sposa con Francesco e hanno 4 figli. Huberta è amica di Fede e Luce da 40 anni e ricopre per tanti anni la funzione di coordinatore regionale, quando erano ancora insieme tutte le 20 comunità dell’Italia centrale. Nel 1994 inizia a collaborare presso la redazione di Ombre e Luci con Mariangela Bertolini, Nicole Schultes e Natalia Livi, un’esperienza per lei molto arricchente e formativa che è durata fino al 2008. Tutti i figli sono in pratica “nati” a Fede e\r\nLuce e vivono, ognuno in modo diverso, la propria esperienza fatta a Fede e Luce nella propria vita. I campi Fede e Luce, per esempio non mancano mai. Da 13 anni presta servizio come interprete e assistente dell’Ambasciatore d’Austria presso la Santa Sede. Ha fondato la comunità di San Valentino che poi si è spostata alla parrocchia romana di San Gaetano e attualmente è la responsabile della comunità di San Gaetano."
+  },
+  {
+    "wp_id": 56,
+    "login": "Davide Del Duca",
+    "display_name": "Davide Del Duca",
+    "email": "davide@ombreeluc.it",
+    "registered": "2017-12-06",
+    "bio": "Presidente e co-fondatore della \"Fondazione Bambini e Autismo\""
+  },
+  {
+    "wp_id": 57,
+    "login": "Padre Luciano Larivera",
+    "display_name": "Padre Luciano Larivera",
+    "email": "pluciano@ombreluci.it",
+    "registered": "2018-01-22",
+    "bio": null
+  },
+  {
+    "wp_id": 58,
+    "login": "Stefano Desmazieres",
+    "display_name": "Stefano Desmazieres",
+    "email": "StefanoDesmazieres@ol.it",
+    "registered": "2018-01-22",
+    "bio": null
+  },
+  {
+    "wp_id": 59,
+    "login": "Marie-OdileRethore",
+    "display_name": "Marie-Odile Réthoré",
+    "email": "marieodilerethore@ombreeluci.it",
+    "registered": "2018-01-22",
+    "bio": "Pioniere della genetica umana e del trattamento delle disabilità intellettive, la professoressa Marie-Odile Rethoré è una delle figure emblematiche dell'Istituto Jérôme Lejeune. Medico per vocazione, si è specializzata come genetista e si è impegnata sul tema della disabilità."
+  },
+  {
+    "wp_id": 60,
+    "login": "Don Andrea Lonardo",
+    "display_name": "Andrea Lonardo",
+    "email": "andrealonardo@ol.it",
+    "registered": "2018-01-29",
+    "bio": null
+  },
+  {
+    "wp_id": 61,
+    "login": "Roberta Tarantino",
+    "display_name": "Roberta Tarantino",
+    "email": "tar@omb.it",
+    "registered": "2018-02-07",
+    "bio": null
+  },
+  {
+    "wp_id": 62,
+    "login": "Don Vito Palmisano",
+    "display_name": "Vito Palmisano",
+    "email": "donvito@ol.it",
+    "registered": "2018-02-07",
+    "bio": null
+  },
+  {
+    "wp_id": 63,
+    "login": "Tana Pelagallo",
+    "display_name": "Tana Pelagallo",
+    "email": "tanap@ol.it",
+    "registered": "2018-02-07",
+    "bio": null
+  },
+  {
+    "wp_id": 64,
+    "login": "Salvatore Boccaccio",
+    "display_name": "Salvatore Boccaccio",
+    "email": "salv@ol.it",
+    "registered": "2018-02-07",
+    "bio": null
+  },
+  {
+    "wp_id": 65,
+    "login": "P. Noel Simard",
+    "display_name": "P. Noel Simard",
+    "email": "noel@ol.it",
+    "registered": "2018-02-07",
+    "bio": null
+  },
+  {
+    "wp_id": 66,
+    "login": "Vittoria Episcopello",
+    "display_name": "Vittoria Episcopello",
+    "email": "Episcopello@ol.it",
+    "registered": "2018-02-07",
+    "bio": null
+  },
+  {
+    "wp_id": 67,
+    "login": "Luisa Spada",
+    "display_name": "Luisa Spada",
+    "email": "luisa@ol.it",
+    "registered": "2018-02-08",
+    "bio": null
+  },
+  {
+    "wp_id": 68,
+    "login": "mariateresamazzarotto",
+    "display_name": "Maria Teresa Mazzarotto",
+    "email": "mariateresamazzarotto@ombreeluci.it",
+    "registered": "2018-02-12",
+    "bio": "Insegnante e madre di 5 figli. Ha collaborato con Ombre e Luci dal 1990 al 1997."
+  },
+  {
+    "wp_id": 69,
+    "login": "Delia Mitolo",
+    "display_name": "Delia Mitolo",
+    "email": "deliamitolo@ombreeluci.it",
+    "registered": "2018-02-12",
+    "bio": null
+  },
+  {
+    "wp_id": 70,
+    "login": "Padre Joseph Mihelcic s.j.",
+    "display_name": "Padre Joseph Mihelcic s.j.",
+    "email": "padre@ol.it",
+    "registered": "2018-02-14",
+    "bio": null
+  },
+  {
+    "wp_id": 71,
+    "login": "Gaia Valmarin",
+    "display_name": "Gaia Valmarin",
+    "email": "gaia@ol.it",
+    "registered": "2018-02-17",
+    "bio": "Una delle componenti e animatrici storiche del Gruppo Donne UILDM, nonché caporedattrice e “anima” del periodico della Sezione di Roma Finestra Aperta e fondatrice del recente progetto Radio Finestra Aperta. Non ultimo, Gaia condivide volentieri le proprie opinioni con i lettori del periodico nazionale DM che molto spesso ospita le sue riflessioni, sempre ricche di spunti interessanti e di valore."
+  },
+  {
+    "wp_id": 72,
+    "login": "Paolo Bertolini",
+    "display_name": "Paolo Bertolini",
+    "email": "pb@ombreeluci.it",
+    "registered": "2018-02-19",
+    "bio": "Il marito di <a href=\"https://www.ombreeluci.it/author/mariangela-bertolini/\">Mariangela</a>, il padre di Chicca, professore devoto di Storia Medievale. Uomo elegante, con un cuore vasto come il cielo e una fede salda come una montagna. Abile nell'ascoltare e nel mostrare la via, semplicemente percorrendola. Ha avuto un ruolo fondamentale, rimanendo dietro le quinte, sia in Fede e Luce che in Ombre e Luci. Gran parte di ciò che leggi qui deve probabilmente la sua esistenza al suo inestimabile contributo."
+  },
+  {
+    "wp_id": 73,
+    "login": "Mario Collino",
+    "display_name": "Mario Collino",
+    "email": "mariocollino@oel.it",
+    "registered": "2018-02-28",
+    "bio": "Mario Collino, classe 1947 di Cuneo, oggi conosciuto anche come \"Prezzemolo\", è stato - insieme a sua moglie Betty -  promotore della prima comunità di Fede e Luce a Cuneo già alla fine degli anni '70."
+  },
+  {
+    "wp_id": 74,
+    "login": "Monica Veroli",
+    "display_name": "Monica Veroli",
+    "email": "monicaveroli@oel.it",
+    "registered": "2018-03-05",
+    "bio": null
+  },
+  {
+    "wp_id": 75,
+    "login": "Cecile dErmitas",
+    "display_name": "Cécile d'Ermitas",
+    "email": "Ceciledermitas@oel.it",
+    "registered": "2018-03-05",
+    "bio": null
+  },
+  {
+    "wp_id": 76,
+    "login": "Fausta Guglielmi",
+    "display_name": "Fausta Guglielmi",
+    "email": "faustaguglielmi@oel.it",
+    "registered": "2018-03-05",
+    "bio": null
+  },
+  {
+    "wp_id": 77,
+    "login": "francescobertolini",
+    "display_name": "Francesco Bertolini",
+    "email": "francescobertolini@oel.it",
+    "registered": "2018-03-16",
+    "bio": null
+  },
+  {
+    "wp_id": 78,
+    "login": "AntonioMazzarotto",
+    "display_name": "Antonio Mazzarotto",
+    "email": "AntonioMazzarotto@oel.it",
+    "registered": "2018-03-16",
+    "bio": "Dirigente politiche sociali presso la Regione Lazio. A Fede e Luce da sempre."
+  },
+  {
+    "wp_id": 79,
+    "login": "Luis Sankale",
+    "display_name": "Luis Sankalé",
+    "email": "luissankale@oel.it",
+    "registered": "2018-04-26",
+    "bio": null
+  },
+  {
+    "wp_id": 80,
+    "login": "Francesco Gammarelli",
+    "display_name": "Francesco Gammarelli",
+    "email": "francescogammarelli@oel.it",
+    "registered": "2018-04-26",
+    "bio": null
+  },
+  {
+    "wp_id": 81,
+    "login": "Natalia Livi",
+    "display_name": "Natalia Livi",
+    "email": "natalialivi@oel.it",
+    "registered": "2018-04-27",
+    "bio": "Natalia Livi, è stata una delle storiche collaboratrici di Ombre e Luci. Ha contribuito alla rivista dal 1991 al 2004."
+  },
+  {
+    "wp_id": 82,
+    "login": "Anne Ortiz",
+    "display_name": "Anne Ortiz",
+    "email": "123@anneortiz.com",
+    "registered": "2018-11-26",
+    "bio": null
+  },
+  {
+    "wp_id": 83,
+    "login": "Sophie Cluzel",
+    "display_name": "Sophie Cluzel",
+    "email": "123@sophiecluzel.com",
+    "registered": "2018-11-26",
+    "bio": null
+  },
+  {
+    "wp_id": 84,
+    "login": "Pennablu",
+    "display_name": "Pennablù",
+    "email": "Pennablu@ombreeluci.it",
+    "registered": "2019-02-26",
+    "bio": null
+  },
+  {
+    "wp_id": 192,
+    "login": "Gerard Daucourt",
+    "display_name": "Gérard Daucourt",
+    "email": "gd@ombreeluci.it",
+    "registered": "2020-07-02",
+    "bio": "Gérard Daucourt è stato vescovo cattolico di Nanterre dal 2002 al 2013 nel dipartimento di Hauts-de-Seine nella regione di Parigi, in Francia. Daucourt è stato ordinato sacerdote nel 1966 quando ha servito a Besançon, in Francia, prima di servire come diocesano di Troyes e poi di Orléans"
+  },
+  {
+    "wp_id": 193,
+    "login": "Stefano Nasuti",
+    "display_name": "Stefano Nasuti",
+    "email": "St@dfs.it",
+    "registered": "2020-07-02",
+    "bio": null
+  },
+  {
+    "wp_id": 86,
+    "login": "Matteo Mazzarotto",
+    "display_name": "Matteo Mazzarotto",
+    "email": "maaa@aaaa.it",
+    "registered": "2019-05-08",
+    "bio": null
+  },
+  {
+    "wp_id": 87,
+    "login": "Annik Donelli",
+    "display_name": "Annik Donelli",
+    "email": "Ann@aa.it",
+    "registered": "2019-05-08",
+    "bio": null
+  },
+  {
+    "wp_id": 88,
+    "login": "Manuela Bartesaghi",
+    "display_name": "Manuela Bartesaghi",
+    "email": "mbartesaghi@ombreeluc.it",
+    "registered": "2019-07-16",
+    "bio": null
+  },
+  {
+    "wp_id": 89,
+    "login": "Serena Sillitto",
+    "display_name": "Serena Sillitto",
+    "email": "ser@ena.it",
+    "registered": "2019-07-26",
+    "bio": "Per metà siciliana, un quarto calabrese e un quarto istriana, Serena Sillitto ha vissuto per 15 anni a Enna e 10 a Reggio Calabria prima di trasferirsi stabilmente a Roma dove vive dal 2002, dopo aver conseguito la laurea in lettere classiche all’Università di Messina e il diploma di specializzazione in archivistica, paleografia e diplomatica alla Scuola Vaticana. Dal 2005 Serena è Segretario parlamentare al Senato della Repubblica: dopo aver lavorato all’Archivio legislativo, attualmente si occupa, all’Ufficio stampa, sia della carta stampata sia del sito web che degli account social di Palazzo Madama. Dal 1995 è sorella d’assistenza dell’Unitalsi; da dieci anni è amica di Fede e Luce, di cui è Vice Coordinatrice Provinciale di Kimata per il Centro2."
+  },
+  {
+    "wp_id": 90,
+    "login": "Benedetta Mattei",
+    "display_name": "Benedetta Mattei",
+    "email": "ben@mat.it",
+    "registered": "2019-08-24",
+    "bio": "Nata a Roma il 1 gennaio 2004, Benedetta Mattei frequenta il primo anno all’Istituto alberghiero “Gioberti” a Trastevere, con l’obiettivo di lavorare come receptionist e cameriera. Sfruttando le sue conoscenze di ricette culinarie e ristoranti. Appassionata di sport, gioca a calcio da due stagioni nella squadra integrata della Roma e fa ginnastica ritmica da 10 anni. Ma il suo sport preferito è l’atletica leggera tra scatti brevi di velocità e salti in lungo e in alto. Tra le sue passioni ci sono il teatro – è un’accanita spettatrice regolarmente abbonata – e la musica: è protagonista nel Coro delle Mani Bianche della Scuola popolare di musica di Testaccio, partecipando a numerosi concerti in tutta Italia. Per completezza: Benedetta ha la sindrome di Down, al terzo giorno di vita le è stato ricostruito l’intestino, a un anno è stata operata al cuore e a due anni è stata aggredita dalla leucemia. Con la scuola, lo sport, il teatro e la musica – tessendo una rete di amicizie e opportunità (amica di tre Papi e di star dello sport e dello spettacolo) – sta personalmente costruendo una biografia che non sia una “cartella clinica”."
+  },
+  {
+    "wp_id": 91,
+    "login": "Sergio De Rino",
+    "display_name": "Sergio De Rino",
+    "email": "sergioderino@ombreeluci.it",
+    "registered": "2019-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 92,
+    "login": "Nicla Bettazzi",
+    "display_name": "Nicla Bettazzi",
+    "email": "nc@bet.it",
+    "registered": "2019-09-20",
+    "bio": "Insegnante di materie letterarie alle medie per più di quarant’anni, Nicla Bettazzi ha militato nel movimento femminista. Mamma di Massimiliano, fa parte di Fede e Luce dal 1996. Fa parte della Consulta femminile del Pontificio Consiglio della Cultura, collabora alle pagine culturali de L’Osservatore Romano e, soprattutto, è la nonna acquisita di un gnomo in crescita."
+  },
+  {
+    "wp_id": 93,
+    "login": "Gianni Marmorini",
+    "display_name": "Gianni Marmorini",
+    "email": "fm@gm.it",
+    "registered": "2019-10-29",
+    "bio": "Gianni Marmorini, parroco di Papiano, in provincia di Arezzo, ha tracciato il suo cammino sempre alla ricerca di nuove esperienze anche al di fuori dell’ambito ecclesiale, trasformando nel tempo, il suo impegno pastorale nella Fraternità di Romena e nelle parrocchie dell’alto Casentino fiesolano, nella passione di trasmettere il suo amore per la Parola. Isacco, suo primo lavoro editoriale, è il frutto di tanti dialoghi fecondi, con studiosi e biblisti, con gruppi che ha incontrato e con la comunità di Papiano."
+  },
+  {
+    "wp_id": 94,
+    "login": "Luca Badetti",
+    "display_name": "Luca Badetti",
+    "email": "luca@mm.it",
+    "registered": "2019-10-29",
+    "bio": "Luca Badetti, PhD, insegna al John Felice Rome Center della Loyola University Chicago. La sua formazione e i suoi ambiti di ricerca sono teologia, psicologia clinica e disability studies. Ha fatto parte di varie comunità de L’Arche (ed è stato direttore della vita comunitaria a L’Arche Chicago). Ha scritto \"Io Credo in Te\" (San Paolo, 2021)."
+  },
+  {
+    "wp_id": 95,
+    "login": "Enrica Riera",
+    "display_name": "Enrica Riera",
+    "email": "enre@mail.it",
+    "registered": "2019-10-29",
+    "bio": "Figlia degli anni ’90, come unico vezzo ha quello di precisare che con Grace Kelly condivide giorno e mese di nascita. Dopo la laurea in giurisprudenza a Roma con una tesi sui “residui di libertà” di chi si trova in stato di detenzione, un master e le corse quotidiane in svariate aule di tribunale, torna nella sua adorata Cosenza per dedicarsi al giornalismo e continuare a consumare la suola delle scarpe. La carta stampata, del resto, è da sempre il suo più grande amore. Attualmente gira, vede gente, si muove, conosce e scrive per il quotidiano della città di Telesio, la Gazzetta del Sud, occupandosi soprattutto di cronaca locale. Collabora con L’Osservatore Romano. Tra i suoi miti: Arturo Bandini, san Josemarìa Escrivà e Winona Ryder. Non sopporta le prepotenze e i disturbatori al cinema. Libri e serie tv per passione."
+  },
+  {
+    "wp_id": 96,
+    "login": "Alessandra Moraca",
+    "display_name": "Alessandra Moraca",
+    "email": "mr@asl.it",
+    "registered": "2019-10-29",
+    "bio": "Calabrese di nascita e romana di adozione, Alessandra Moraca lavora come docente di lettere in una scuola pubblica della capitale, attività che svolge con “gusto e inappagabile curiosità per il mondo dei ragazzi”. Ha maturato esperienze legate alle tematiche della disabilità e dell’inclusione nel corso di anni di formazione sul campo. Si ritiene fortunata ad aver trovato posto nella grande famiglia di Fede e Luce: un incontro travolgente che le ha fatto cambiare prospettiva e approccio verso la disabilità: “è nella vita comunitaria e nella condivisione di pezzi di strada – dice – la chiave per un’integrazione autentica ed efficace. Le barriere si abbattono con la relazione”. E’ giornalista pubblicista dal 2006."
+  },
+  {
+    "wp_id": 97,
+    "login": "Roberto Brandinelli",
+    "display_name": "Roberto Brandinelli",
+    "email": "rob@brand.it",
+    "registered": "2019-10-29",
+    "bio": null
+  },
+  {
+    "wp_id": 99,
+    "login": "Alessandro De Simone",
+    "display_name": "Alessandro De Simone",
+    "email": "AlessandroDeSimone@ombreeluci.it",
+    "registered": "2019-11-17",
+    "bio": "Critico cinematografico, scrive su Gioia, Io Donna, L’Espresso, GQ Italia on line, Gazzetta dello Sport, Rivista del Cinematografo, Movieplayer"
+  },
+  {
+    "wp_id": 100,
+    "login": "Adriano Ercolani",
+    "display_name": "Adriano Ercolani",
+    "email": "AdrianoErcolani@ombreeluci.it",
+    "registered": "2019-11-17",
+    "bio": null
+  },
+  {
+    "wp_id": 101,
+    "login": "Andrea Guglielmino",
+    "display_name": "Andrea Guglielmino",
+    "email": "AndreaGuglielmino@ombreeluci.it",
+    "registered": "2019-11-18",
+    "bio": null
+  },
+  {
+    "wp_id": 102,
+    "login": "Gabriele Niola",
+    "display_name": "Gabriele Niola",
+    "email": "GabrieleNiola@ombreeluci.it",
+    "registered": "2019-11-18",
+    "bio": null
+  },
+  {
+    "wp_id": 103,
+    "login": "Emanuele Rauco",
+    "display_name": "Emanuele Rauco",
+    "email": "EmanueleRauco@ombreeluci.it",
+    "registered": "2019-11-18",
+    "bio": null
+  },
+  {
+    "wp_id": 104,
+    "login": "Boris Sollazzo",
+    "display_name": "Boris Sollazzo",
+    "email": "BorisSollazzo@oel.it",
+    "registered": "2019-11-18",
+    "bio": null
+  },
+  {
+    "wp_id": 105,
+    "login": "Ilaria Pennacchini",
+    "display_name": "Ilaria Pennacchini",
+    "email": "ili@penn.it",
+    "registered": "2019-12-02",
+    "bio": null
+  },
+  {
+    "wp_id": 106,
+    "login": "Maria Novella Pulieri",
+    "display_name": "Maria Novella Pulieri",
+    "email": "ma@pil.it",
+    "registered": "2020-01-02",
+    "bio": null
+  },
+  {
+    "wp_id": 107,
+    "login": "Claudio Cinus",
+    "display_name": "Claudio Cinus",
+    "email": "Cinu@sds.it",
+    "registered": "2020-01-16",
+    "bio": "Claudio Cinus ha sempre pensato che se la sua vita fosse un film, sarebbe diretto da Tsai Ming-liang: uno di quei “noiosi” film taiwanesi in cui non succede nulla per minuti e minuti… È nato a Cagliari e da lì non si è mosso per trent’anni, ma quando ha deciso di andarsene, lo ha fatto per vivere in due tra le città più belle del mondo – Venezia prima, Roma poi. Ha studiato all’università materie per cui non era portato, poi per fortuna ha ottenuto un lavoro da impiegato di cui è molto soddisfatto. Guarda così tanti film che quando ha qualche ricordo, non distingue più i suoi veri ricordi dalle sequenze dei film che ha visto; quasi sempre in lingua originale, di ogni genere e nazionalità, perché l’arte è il migliore mezzo per apprezzare le diversità e combattere l’omologazione."
+  },
+  {
+    "wp_id": 108,
+    "login": "Lars Porsenna",
+    "display_name": "Lars Porsenna",
+    "email": "porsenna@oel.it",
+    "registered": "2020-01-24",
+    "bio": null
+  },
+  {
+    "wp_id": 109,
+    "login": "Silvia",
+    "display_name": "Silvia Gusmano",
+    "email": "Gusmano@si.it",
+    "registered": "2020-01-27",
+    "bio": "Dalla mattina alla sera, Silvia Gusmano è circondata da educandi: passa dai figli agli alunni ai figli (e ai loro amici) senza soluzione di continuità, nella convinzione che lei stessa debba ancora imparare quasi tutto. Vive a Roma – oggi con Vittorio, Giuseppe e Riccardo – da quando è nata, oltre quarant’anni fa. Giornalista dal 2008, insegnante di lettere alle medie dal 2015, ha scritto i suoi primi articoli nel 2003 per Ombre e Luci, dopo alcuni colloqui illuminanti con Mariangela Bertolini nella redazione di via Bessarione."
+  },
+  {
+    "wp_id": 110,
+    "login": "Stefano Buttinoni",
+    "display_name": "Don Stefano Buttinoni",
+    "email": "ste@b.it",
+    "registered": "2020-01-27",
+    "bio": "Classe 1967, Stefano Buttinoni ha un fratello maggiore, Roberto, nato con una disabilità. Milanese, si diploma in telecomunicazioni e lavora come progettista. Vive il Servizio Civile accanto alla disabilità e nel 1999 viene ordinato sacerdote. Dopo diciotto anni di ministero tra Milano e Concorezzo nella pastorale giovanile, Buttinoni viene destinato dall’arcivescovo alla Caritas della zona pastorale V in particolare per la disabilità. È membro del tavolo diocesano per l’inclusione delle persone con disabilità nella comunità cristiana, dell’Osservatorio Caritas Ambrosiana per la disabilità, del progetto di inclusione sociale Tikitaka, del network Immaginabili risorse. È altresì assistente di zona BriMiNo per l’Agesci e consulente per scoutismo e disabilità."
+  },
+  {
+    "wp_id": 111,
+    "login": "Daniele Cabras",
+    "display_name": "Daniele Cabras",
+    "email": "Daa@h.it",
+    "registered": "2020-01-27",
+    "bio": null
+  },
+  {
+    "wp_id": 112,
+    "login": "Adriano DAmato",
+    "display_name": "Armando D'Amato",
+    "email": "asds@ada.it",
+    "registered": "2020-01-30",
+    "bio": null
+  },
+  {
+    "wp_id": 113,
+    "login": "Raul",
+    "display_name": "Raul Izquierdo",
+    "email": "RaulIzquierdo@oel.it",
+    "registered": "2020-02-06",
+    "bio": null
+  },
+  {
+    "wp_id": 114,
+    "login": "Giulia Alberigo",
+    "display_name": "Giulia Alberico",
+    "email": "gul@aia.it",
+    "registered": "2020-02-10",
+    "bio": null
+  },
+  {
+    "wp_id": 115,
+    "login": "Francesca Cabrini",
+    "display_name": "Francesca Cabrini",
+    "email": "fra@add.it",
+    "registered": "2020-02-11",
+    "bio": null
+  },
+  {
+    "wp_id": 116,
+    "login": "Daniela Guglietta",
+    "display_name": "Daniela Guglietta",
+    "email": "da@dada.it",
+    "registered": "2020-02-11",
+    "bio": null
+  },
+  {
+    "wp_id": 117,
+    "login": "Vittoria Lombardo",
+    "display_name": "Vittoria Lombardo",
+    "email": "vitt@lom.it",
+    "registered": "2020-02-18",
+    "bio": null
+  },
+  {
+    "wp_id": 118,
+    "login": "Lucina Spaccia",
+    "display_name": "Lucina Spaccia",
+    "email": "luc@sp.it",
+    "registered": "2020-03-18",
+    "bio": "Vivo con la mia famiglia a Roma, dove sono nata nel 1951.  Intorno ai quindici anni sono entrata nelle guide e questa scelta ha influito moltissimo nella mia vita appassionandomi ai valori della fede e all’amore per la natura. Ho iniziato ad occuparmi di adolescenti come capo scout e ciò ha orientato la mia scelta professionale dopo la laurea in scienze politiche. Ho svolto la professione più bella del mondo: l’insegnante! Ho conosciuto mio marito, Mariano, all’interno di una comunità parrocchiale toccata dal soffio del Concilio, la parrocchia della Trasfigurazione a Monteverde che ci ha formati e consolidato e dove ci siamo sposati nel 1978.  I primi anni ’80 sono stati particolarmente intensi: è nata la nostra prima figlia Agnese, mi sono laureata in lettere e superato una serie di concorsi pubblici per l’insegnamento. La nascita della seconda figlia, Marta, mi ha travolto all’inizio della mia carriera nella scuola pubblica.  Marta è nata fortemente prematura e ciò ne ha determinato la sua disabilità. Nonostante la fatica, il dolore e il disorientamento dei primi anni, Mariano ed io abbiamo cercato sempre di non perdere la fiducia in Marta e… la fede. Ci siamo sostenuti vicendevolmente e abbiamo lasciato un po’ di spazio alla nostra vita professionale verso la quale siamo molto motivati. Alcune passioni mi hanno seguito da sempre: penna e pennello, natura e ragazzi per i quali sono impegnata tuttora nella scuola e nello scautismo in corsi e stage di educazione alla cittadinanza. Ho sempre scritto per il piacere di raccontare e di raccontarmi, dirigendo per anni una rivista scout e pubblicando alcuni libri di racconti e spiritualità. Attualmente dedico piccole storie alla mia nipotina. Con mio marito e un altro pugno di sognatori, nel 2013, abbiamo dato vita all’Associazione Onlus Vedere Oltre per promuovere la cultura della solidarietà, per attuare percorsi che aiutino i giovani e le persone svantaggiati dalla disabilità a diventare protagonisti del proprio futuro, per sostenere le famiglie nel percorso di autonomia dei propri figli con disabilità e favorire la circolazione di buone prassi, la ricerca di metodologie educative e riabilitative e … altri sogni. Negli spazi aperti del Creato ritrovo me stessa e nuova energia per continuare a guardare lontano."
+  },
+  {
+    "wp_id": 119,
+    "login": "ceciliacb",
+    "display_name": "Cecilia Cattaneo Barbieri",
+    "email": "CeciliaCattaneoBarbieri@oel.it",
+    "registered": "2020-03-28",
+    "bio": null
+  },
+  {
+    "wp_id": 120,
+    "login": "MasciaLenzi",
+    "display_name": "Mascia Lenzi",
+    "email": "mascialenzi@oel.it",
+    "registered": "2020-03-28",
+    "bio": null
+  },
+  {
+    "wp_id": 121,
+    "login": "SilviaTamberi",
+    "display_name": "Silvia Tamberi",
+    "email": "SilviaTamberi@oel.it",
+    "registered": "2020-03-28",
+    "bio": null
+  },
+  {
+    "wp_id": 122,
+    "login": "Laura Coccia",
+    "display_name": "Laura Coccia",
+    "email": "laa@aa.it",
+    "registered": "2020-03-31",
+    "bio": "Nata nel 1986, correndo, con 3 mesi di anticipo. Un’infezione 20 giorni dopo la nascita ha lasciato un ricordo di sé nel modo in cui cammina e si muove. Dopo il Liceo Scientifico Laura Coccia ha studiato Storia Contemporanea alla Sapienza di Roma, conseguendo il Dottorato di Ricerca nel 2015. A 27 anni viene eletta in Parlamento dove è Deputata per tutta la XVII Legislatura e membro della Commissione Cultura, Scienza e Istruzione occupandosi di inclusione scolastica, sport e pari opportunità. Ora scrive e si occupa di comunicazione e abbattimento degli stereotipi e dei pregiudizi che circondano soprattutto le donne con disabilità."
+  },
+  {
+    "wp_id": 123,
+    "login": "Giuliana Siclari",
+    "display_name": "Giuliana Siclari",
+    "email": "f@f.it",
+    "registered": "2020-03-31",
+    "bio": null
+  },
+  {
+    "wp_id": 188,
+    "login": "Anna Rita Cedroni",
+    "display_name": "Anna Rita Cedroni",
+    "email": "arcedroni@oel.it",
+    "registered": "2020-06-09",
+    "bio": null
+  },
+  {
+    "wp_id": 125,
+    "login": "Marco Bersani",
+    "display_name": "Marco Bersani",
+    "email": "marcobersani@oel.it",
+    "registered": "2020-04-20",
+    "bio": null
+  },
+  {
+    "wp_id": 126,
+    "login": "Ruggero Leonardi",
+    "display_name": "Ruggero Leonardi",
+    "email": "ruggeroleonardi@oel.it",
+    "registered": "2020-04-20",
+    "bio": null
+  },
+  {
+    "wp_id": 127,
+    "login": "Giada Di Vecchio",
+    "display_name": "Giada Di Vecchio",
+    "email": "ga@ada.it",
+    "registered": "2020-04-22",
+    "bio": null
+  },
+  {
+    "wp_id": 128,
+    "login": "unpapa",
+    "display_name": "Un Papà",
+    "email": "unpapa@oel.it",
+    "registered": "2020-04-28",
+    "bio": null
+  },
+  {
+    "wp_id": 129,
+    "login": "ValentinaCamomilla",
+    "display_name": "Valentina Camomilla",
+    "email": "valentinacamomilla@oel.it",
+    "registered": "2020-04-28",
+    "bio": null
+  },
+  {
+    "wp_id": 130,
+    "login": "alboino",
+    "display_name": "boino",
+    "email": "unlongobardo@gmail.com",
+    "registered": "2020-05-04",
+    "bio": null
+  },
+  {
+    "wp_id": 144,
+    "login": "Nunzia Giancola",
+    "display_name": "Nunzia Giancola",
+    "email": "nauan@gian.it",
+    "registered": "2020-05-07",
+    "bio": null
+  },
+  {
+    "wp_id": 145,
+    "login": "lyndonkovach",
+    "display_name": "lyndonkovach",
+    "email": "henka@d.gameconsole.site",
+    "registered": "2020-05-08",
+    "bio": null
+  },
+  {
+    "wp_id": 146,
+    "login": "darbyelder31214",
+    "display_name": "darbyelder31214",
+    "email": "frederickscholl1999@list.ru",
+    "registered": "2020-05-08",
+    "bio": null
+  },
+  {
+    "wp_id": 147,
+    "login": "brooksavera65",
+    "display_name": "brooksavera65",
+    "email": "liliatanya@photoaim.com",
+    "registered": "2020-05-08",
+    "bio": null
+  },
+  {
+    "wp_id": 148,
+    "login": "rexsamples346",
+    "display_name": "rexsamples346",
+    "email": "diegokendall@goodcoffeemaker.com",
+    "registered": "2020-05-08",
+    "bio": null
+  },
+  {
+    "wp_id": 189,
+    "login": "Francesca Mancini",
+    "display_name": "Francesca Mancini",
+    "email": "FrancescaMancini@oel.it",
+    "registered": "2020-06-09",
+    "bio": null
+  },
+  {
+    "wp_id": 175,
+    "login": "Daniele Cogliandro",
+    "display_name": "Daniele Cogliandro",
+    "email": "dan@adad.it",
+    "registered": "2020-05-18",
+    "bio": null
+  },
+  {
+    "wp_id": 176,
+    "login": "Marina Vigliar",
+    "display_name": "Marina Vigliar",
+    "email": "mar@ada.it",
+    "registered": "2020-05-19",
+    "bio": null
+  },
+  {
+    "wp_id": 177,
+    "login": "Caterinabordon",
+    "display_name": "Caterina Bordon",
+    "email": "caterina@oel.it",
+    "registered": "2020-05-26",
+    "bio": null
+  },
+  {
+    "wp_id": 178,
+    "login": "vitogiannulo",
+    "display_name": "Vito Giannulo",
+    "email": "vitogiannulo@eol.it",
+    "registered": "2020-05-26",
+    "bio": "Giornalista vicecaporedattore TGR RAI Puglia, Vito, è a Fede e Luce da quasi 35 anni. È uno degli amici della comunità Perfetta Letizia di Monopoli, in Puglia, ma la prima comunità è stata Madonna della Madia sempre a Monopoli. In mezzo ci sono stati i passaggi, che sempre gli resteranno nel cuore, per le comunità di Perugia e di Santa Silvia a Roma. È sposato con Mara e ha due figli, Dario e Irene. Dal 1995 lavora alla Rai come giornalista. Spesso si occupa di temi sociali. In questo momento è vicecaporedattore del Tg regionale della Puglia."
+  },
+  {
+    "wp_id": 179,
+    "login": "Rosita D Addario Guerra",
+    "display_name": "Rosita Daddato",
+    "email": "rosi@de.it",
+    "registered": "2020-05-26",
+    "bio": null
+  },
+  {
+    "wp_id": 180,
+    "login": "andreroberti",
+    "display_name": "André Roberti",
+    "email": "andreroberto@oel.it",
+    "registered": "2020-05-26",
+    "bio": null
+  },
+  {
+    "wp_id": 181,
+    "login": "adrianaduci",
+    "display_name": "Adriana Duci",
+    "email": "Adrianaduci@oel.it",
+    "registered": "2020-05-26",
+    "bio": "Dirigente medico presso l'ambulatorio psichiatrico dell'Azienda Ospedaliera di Treviglio, è una psichiatra con un percorso professionale che include esperienze come medico di guardia e posizioni di dirigenza in altre strutture sanitarie."
+  },
+  {
+    "wp_id": 182,
+    "login": "Carla Fonzi Klieman",
+    "display_name": "Carla Fonzi Klieman",
+    "email": "CarlaFonziKlieman@oel.it",
+    "registered": "2020-05-26",
+    "bio": null
+  },
+  {
+    "wp_id": 184,
+    "login": "Corrado Dastoli",
+    "display_name": "Corrado Dastoli",
+    "email": "corradodastoli@oel.it",
+    "registered": "2020-06-09",
+    "bio": "Corrado Dastoli, psichiatra e gruppoanalista, è docente di Medicina legale presso l’ateneo “Angelicum” di Roma e direttore del Centro di Riabilitazione ECASS di Roma. Ha collaborato fin dalla loro fondazione con i Consultori familiari dell’Università Cattolica di Roma e dell’Istituto G. Toniolo di Studi Superiori di Napoli. Sito internet: <a href=\"http://www.corradodastoli.it/\">corradodastoli.it</a>"
+  },
+  {
+    "wp_id": 185,
+    "login": "Yvette Bonvin",
+    "display_name": "Yvette Bonvin",
+    "email": "YvetteBonvin@oel.it",
+    "registered": "2020-06-09",
+    "bio": null
+  },
+  {
+    "wp_id": 186,
+    "login": "don Paolo",
+    "display_name": "Don Paolo",
+    "email": "donpaolo@oel.it",
+    "registered": "2020-06-09",
+    "bio": null
+  },
+  {
+    "wp_id": 187,
+    "login": "Renata de Pascale",
+    "display_name": "Renata De Pascale",
+    "email": "renatadepascale@oel.it",
+    "registered": "2020-06-09",
+    "bio": null
+  },
+  {
+    "wp_id": 194,
+    "login": "Loredana Moretti",
+    "display_name": "Loredana Moretti",
+    "email": "lo@mor.it",
+    "registered": "2020-07-02",
+    "bio": null
+  },
+  {
+    "wp_id": 195,
+    "login": "Benoit Malveaux",
+    "display_name": "Benoit Malveaux",
+    "email": "be@sms.it",
+    "registered": "2020-07-02",
+    "bio": "Belga e sacerdote gesuita, è in Italia dal 2014, come consigliere canonico del Superiore generale. Dallo scorso anno, è anche superiore della comunità della curia generalizia.  Aveva frequentato dei focolari dell’Arche in Belgio, come giovane gesuita, ma è diventato membro di Fede e Luce in Italia nel 2017, Attualmente accompagna come assistente spirituale la comunità di San Gaetano, e anche della zona Roma-Nord della Provincia di Kimata."
+  },
+  {
+    "wp_id": 196,
+    "login": "Maria Grazia Pennisi",
+    "display_name": "Maria Grazia Pennisi",
+    "email": "mgpennisi@oel.it",
+    "registered": "2020-07-07",
+    "bio": null
+  },
+  {
+    "wp_id": 197,
+    "login": "Stefano Guarino",
+    "display_name": "Stefano Guarino",
+    "email": "StefanoGuarino@oel.it",
+    "registered": "2020-07-07",
+    "bio": null
+  },
+  {
+    "wp_id": 198,
+    "login": "Pier Giorgio Trancossi",
+    "display_name": "Pier Giorgio Trancossi",
+    "email": "afa@sdaee.it",
+    "registered": "2020-07-21",
+    "bio": null
+  },
+  {
+    "wp_id": 199,
+    "login": "AngelaCusimano",
+    "display_name": "Angela Cusimano",
+    "email": "AngelaCusimano@oel.it",
+    "registered": "2020-08-07",
+    "bio": null
+  },
+  {
+    "wp_id": 200,
+    "login": "Gianni Verni",
+    "display_name": "Gianni Verni",
+    "email": "ga@adaere.it",
+    "registered": "2020-08-08",
+    "bio": "Appassionato da sempre di arte, in particolare quella grafica, da 12 anni si occupa di incisione e della sua divulgazione. Cinque anni fa ha fondato con due amici l’Associazione Officine Incisorie per l’organizzazione di eventi e mostre. Presso l’Abbazia di S. Nilo a Grottaferrata, cura personalmente un laboratorio di Incisione nell’ambito del progetto “Arte in Abbazia”, aperto a tutti per incontri ed approfondimenti sulla materia.  Segue il laboratorio presso l’Associazione Il Chicco di Ciampino in cui ha avvicinato ed “adattato” le tecniche incisorie al mondo della disabilità."
+  },
+  {
+    "wp_id": 201,
+    "login": "Marta de Rino",
+    "display_name": "Marta De Rino",
+    "email": "ma@lfsds.it",
+    "registered": "2020-08-08",
+    "bio": "Diplomata nel 2011 in una scuola triennale riconosciuta dal registro professionale Apiart presente in Italia da vent’anni, ha lavorato nell’ambito della disabilità per alcuni anni, ma dal 2014 si occupa quasi esclusivamente di Salute Mentale. Condivide lo studio privato a Milano con Eleonora Secchi. (www.ateliercenisio.it)"
+  },
+  {
+    "wp_id": 202,
+    "login": "Eleonora Secchi",
+    "display_name": "Eleonora Secchi",
+    "email": "sada@asdsa.it",
+    "registered": "2020-08-08",
+    "bio": "Diplomata in una scuola triennale riconosciuta dal registro professionale Apiart, presente in Italia da vent’anni, conduce atelier rivolti ad anziani con neuropatologie, persone con disturbi psichiatrici e adolescenti e preadolescenti. Dal 2010 segue atelier di arteterapia rivolti a persone con disabilità, individuali o in piccolo gruppo presso CDD della provincia di Milano e di Monza e della Brianza. (www.ateliercenisio.it)"
+  },
+  {
+    "wp_id": 203,
+    "login": "Marta De Rino Eleonora Secchi",
+    "display_name": "Marta De Rino e Eleonora Secchi",
+    "email": "Masdksj@asfd.it",
+    "registered": "2020-08-08",
+    "bio": "<b>Marta de Rino </b> si è diplomata nel 2011 in una scuola triennale riconosciuta dal registro professionale Apiart presente in Italia da vent’anni, ha lavorato nell’ambito della disabilità per alcuni anni, ma dal 2014 si occupa quasi esclusivamente di Salute Mentale. Condivide lo studio privato a Milano con Eleonora Secchi.  \r\n\r\n<b>Eleonora Secchi</b> si è diplomata in una scuola triennale riconosciuta dal registro professionale Apiart, presente in Italia da vent’anni, conduce atelier rivolti ad anziani con neuropatologie, persone con disturbi psichiatrici e adolescenti e preadolescenti. Dal 2010 segue atelier di arteterapia rivolti a persone con disabilità, individuali o in piccolo gruppo presso CDD della provincia di Milano e di Monza e della Brianza. (www.ateliercenisio.it)"
+  },
+  {
+    "wp_id": 204,
+    "login": "Mariano S. Pergola",
+    "display_name": "Mariano S. Pergola",
+    "email": "masm@sdfs.it",
+    "registered": "2020-08-08",
+    "bio": "Medico specialista in Pneumologia ed in Genetica Medica presso\r\nl'Università degli Studi di Roma \"La Sapienza\". Già Responsabile\r\nAziendale di Genetica Medica, ASL ROMA"
+  },
+  {
+    "wp_id": 205,
+    "login": "Giorgiana Tinazzo",
+    "display_name": "Giorgiana Tinazzo",
+    "email": "ga@adssdda.it",
+    "registered": "2020-08-26",
+    "bio": null
+  },
+  {
+    "wp_id": 206,
+    "login": "Benedetta Bertolini",
+    "display_name": "Benedetta Bertolini",
+    "email": "benedettabertolini@oel.it",
+    "registered": "2020-09-25",
+    "bio": null
+  },
+  {
+    "wp_id": 207,
+    "login": "Giovanni Solaro",
+    "display_name": "Giovanni Solaro",
+    "email": "ffs@sdfsd.it",
+    "registered": "2020-10-14",
+    "bio": null
+  },
+  {
+    "wp_id": 208,
+    "login": "Vittorio Paoli",
+    "display_name": "Vittorio Paoli",
+    "email": "VittorioPaoli@oel.it",
+    "registered": "2020-10-17",
+    "bio": null
+  },
+  {
+    "wp_id": 209,
+    "login": "Betrice Pezzoli",
+    "display_name": "Betrice Pezzoli",
+    "email": "BetricePezzoli@oel.it",
+    "registered": "2020-10-17",
+    "bio": null
+  },
+  {
+    "wp_id": 210,
+    "login": "Paolo Salvini",
+    "display_name": "Paolo Salvini",
+    "email": "paolosalvini@oel.it",
+    "registered": "2020-10-27",
+    "bio": null
+  },
+  {
+    "wp_id": 211,
+    "login": "Filippo Ascenzi",
+    "display_name": "Filippo Ascenzi",
+    "email": "filippoascenzi@gmail.com",
+    "registered": "2020-10-27",
+    "bio": null
+  },
+  {
+    "wp_id": 212,
+    "login": "Beatrice Ghislandi",
+    "display_name": "Beatrice Ghislandi",
+    "email": "beatriceghislandi@oel.it",
+    "registered": "2020-10-27",
+    "bio": null
+  },
+  {
+    "wp_id": 213,
+    "login": "Claudia Cornacchione",
+    "display_name": "Claudia Cornacchione",
+    "email": "ClaudiaCornacchione@oel.it",
+    "registered": "2020-10-27",
+    "bio": null
+  },
+  {
+    "wp_id": 214,
+    "login": "Teresa Rendina",
+    "display_name": "Maria Teresa Rendina",
+    "email": "teresarendina@oel.it",
+    "registered": "2020-10-27",
+    "bio": null
+  },
+  {
+    "wp_id": 215,
+    "login": "Suor Malgorzata",
+    "display_name": "Suor Małgorzata",
+    "email": "aisi@sss.it",
+    "registered": "2020-11-12",
+    "bio": null
+  },
+  {
+    "wp_id": 216,
+    "login": "Dorota Swat",
+    "display_name": "Dorota Swat",
+    "email": "dan@adfdfdad.it",
+    "registered": "2020-11-12",
+    "bio": null
+  },
+  {
+    "wp_id": 217,
+    "login": "Monica Leggeri",
+    "display_name": "Monica Leggeri",
+    "email": "mm@ada.it",
+    "registered": "2020-12-14",
+    "bio": null
+  },
+  {
+    "wp_id": 218,
+    "login": "Stefano Pescosolido",
+    "display_name": "Stefano Pescosolido",
+    "email": "sfs@afs.it",
+    "registered": "2021-01-13",
+    "bio": null
+  },
+  {
+    "wp_id": 219,
+    "login": "Elisa Sturlese",
+    "display_name": "Elisa Sturlese",
+    "email": "ss@ssss.it",
+    "registered": "2021-01-30",
+    "bio": null
+  },
+  {
+    "wp_id": 220,
+    "login": "Lucia Casella",
+    "display_name": "Lucia Casella",
+    "email": "lala@asdfs.it",
+    "registered": "2021-02-01",
+    "bio": null
+  },
+  {
+    "wp_id": 221,
+    "login": "CristinaPesci",
+    "display_name": "Cristina Pesci",
+    "email": "cristinapeschi@oel.it",
+    "registered": "2021-02-08",
+    "bio": null
+  },
+  {
+    "wp_id": 222,
+    "login": "Antonella Bulgheroni",
+    "display_name": "Antonella Bulgheroni",
+    "email": "AntonellaBulgheroni@eol.it",
+    "registered": "2021-02-08",
+    "bio": null
+  },
+  {
+    "wp_id": 223,
+    "login": "Silvia Camisasca",
+    "display_name": "Silvia Camisasca",
+    "email": "sfs@afssdsds.it",
+    "registered": "2021-02-11",
+    "bio": "Fisica e Giornalista. Ha conseguito un master in Archeometria al Museo del Louvre a Parigi, dove si è occupata di tecniche fisiche di conservazione e restauro applicate a beni culturali e ambientali. Ha redatto l’Annuario Ambientale del Ministero dell’Ambiente e del Territorio, segnalando le necessità di bonifica di alcuni siti (tra cui Taranto, Crotone e Porto Marghera), soprattutto in relazione all’impatto sulla salute della popolazione. Nel 2010 ha ricevuto dal Presidente della Repubblica un premio per la raccolta di racconti scientifici per bambini: “Il pianeta Tavola Periodica”. A maggio 2021 la Commissione Europea l'ha premiata per l’impegno giornalistico nella sezione Ambiente, Sostenibilità, Diritti Umani. Insegna italiano a bambini migranti non accompagnati."
+  },
+  {
+    "wp_id": 224,
+    "login": "Paolo Catapano",
+    "display_name": "Paolo Catapano",
+    "email": "dfdf@asrsa.it",
+    "registered": "2021-02-22",
+    "bio": null
+  },
+  {
+    "wp_id": 225,
+    "login": "Luciana Spigolon",
+    "display_name": "Luciana Spigolon",
+    "email": "sdsds@ads.it",
+    "registered": "2021-03-11",
+    "bio": "Padovana classe 1962, Luciana condivide riflessioni e quotidianità della sua vita con due fratelli con disabilità grave, Giorgio e Cristina. Dal 2024 cura il <a href=\"https://www.ombreeluci.it/diario-di-luciana/\">Diario di Luciana</a>"
+  },
+  {
+    "wp_id": 226,
+    "login": "Carlo Maria Fornari",
+    "display_name": "Carlo Maria Fornari",
+    "email": "car@sdsd.it",
+    "registered": "2021-05-05",
+    "bio": null
+  },
+  {
+    "wp_id": 227,
+    "login": "Giovanni Mazzarotto",
+    "display_name": "Giovanni Mazzarotto",
+    "email": "gsdadsa@ete.it",
+    "registered": "2021-05-14",
+    "bio": null
+  },
+  {
+    "wp_id": 228,
+    "login": "Enrico Cattaneo S.J.",
+    "display_name": "Enrico Cattaneo S.J.",
+    "email": "sadsfdfd@dfdfd.it",
+    "registered": "2021-05-14",
+    "bio": null
+  },
+  {
+    "wp_id": 229,
+    "login": "A.A.",
+    "display_name": "A.A.",
+    "email": "asdsa@asdasd.it",
+    "registered": "2021-05-27",
+    "bio": null
+  },
+  {
+    "wp_id": 230,
+    "login": "Carlo Fornari",
+    "display_name": "Carlo Fornari",
+    "email": "cas@asdfs.it",
+    "registered": "2021-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 231,
+    "login": "Alexandre Jollien",
+    "display_name": "Alexandre Jollien",
+    "email": "asdasd@asfas.it",
+    "registered": "2021-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 232,
+    "login": "Elisabetta De Rino",
+    "display_name": "Elisabetta De Rino",
+    "email": "asdas@asdads.it",
+    "registered": "2021-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 233,
+    "login": "Camille Proffit",
+    "display_name": "Camille Proffit",
+    "email": "dsdsd@gee.it",
+    "registered": "2021-06-08",
+    "bio": null
+  },
+  {
+    "wp_id": 234,
+    "login": "Giovanni Zaninello",
+    "display_name": "Giovanni Zaninello",
+    "email": "Giodsdf@dsfsdf.it",
+    "registered": "2021-06-08",
+    "bio": null
+  },
+  {
+    "wp_id": 235,
+    "login": "Cristina Campanini",
+    "display_name": "Cristina Campanini",
+    "email": "casdda@asdad.it",
+    "registered": "2021-06-08",
+    "bio": null
+  },
+  {
+    "wp_id": 236,
+    "login": "Dany",
+    "display_name": "Dany",
+    "email": "asda@asdas.it",
+    "registered": "2021-06-08",
+    "bio": null
+  },
+  {
+    "wp_id": 237,
+    "login": "Nanni",
+    "display_name": "Nanni Bertolini",
+    "email": "saasdf@s.it",
+    "registered": "2021-06-08",
+    "bio": null
+  },
+  {
+    "wp_id": 238,
+    "login": "Padre Mario Marazzi",
+    "display_name": "Padre Mario Marazzi",
+    "email": "sds@sdsdsd.it",
+    "registered": "2021-06-17",
+    "bio": null
+  },
+  {
+    "wp_id": 239,
+    "login": "Grazia Maria Romanini",
+    "display_name": "Maria Grazia Romanini",
+    "email": "safafd@asfsafa.it",
+    "registered": "2021-06-24",
+    "bio": null
+  },
+  {
+    "wp_id": 240,
+    "login": "microwaze99",
+    "display_name": "microwaze99",
+    "email": "microwaze99@pitsom.com",
+    "registered": "2021-07-01",
+    "bio": null
+  },
+  {
+    "wp_id": 241,
+    "login": "microwaze999",
+    "display_name": "microwaze999",
+    "email": "microwaze999@pitsom.com",
+    "registered": "2021-07-01",
+    "bio": null
+  },
+  {
+    "wp_id": 242,
+    "login": "Ola Gurevitch",
+    "display_name": "Ola Gurevitch",
+    "email": "olsdfd@asfa.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 243,
+    "login": "Cristina Brundisini",
+    "display_name": "Cristina Brundisini",
+    "email": "asdasd@sdfsf.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 244,
+    "login": "Rosamaria Staforte",
+    "display_name": "Rosamaria Staforte",
+    "email": "reerr@asds.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 245,
+    "login": "Maria Teresa Rendina",
+    "display_name": "Maria Teresa Rendina",
+    "email": "sdaa@awda.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 246,
+    "login": "Cristina Ventura",
+    "display_name": "Cristina Ventura",
+    "email": "Casdafds@asfafsa.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 247,
+    "login": "Antonella B.",
+    "display_name": "Antonella B.",
+    "email": "fdsdf@sfdf.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 248,
+    "login": "Federica R. Poleggi",
+    "display_name": "Federica R. Poleggi",
+    "email": "asafa@asfsaf.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 249,
+    "login": "Alessandra Zezza",
+    "display_name": "Alessandra Zezza",
+    "email": "dzfsdfd@asfasf.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 250,
+    "login": "Carlo Vecchiato",
+    "display_name": "Carlo Vecchiato",
+    "email": "safafsa@agaf.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 251,
+    "login": "Klaus Sarbach",
+    "display_name": "Klaus Serbach",
+    "email": "sasfa@asfaf.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 252,
+    "login": "Tony Hulten",
+    "display_name": "Tony Hulten",
+    "email": "sfafs@asfaf.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 253,
+    "login": "Maria J. Suoto Neves",
+    "display_name": "Maria J. Suoto Neves",
+    "email": "sfafsa@afaf.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 254,
+    "login": "Enza Gucciardo",
+    "display_name": "Enza Gucciardo",
+    "email": "safsafsa@afs.it",
+    "registered": "2021-07-13",
+    "bio": null
+  },
+  {
+    "wp_id": 255,
+    "login": "Giorgia Fontani",
+    "display_name": "Giorgia Fontani",
+    "email": "dfsdfsdfs@dfsdf.it",
+    "registered": "2021-08-02",
+    "bio": null
+  },
+  {
+    "wp_id": 256,
+    "login": "Vittore Mariani",
+    "display_name": "Vittore Mariani",
+    "email": "sdadas@safasfa.it",
+    "registered": "2021-08-04",
+    "bio": null
+  },
+  {
+    "wp_id": 257,
+    "login": "Nadia Pastori",
+    "display_name": "Nadia Pastori",
+    "email": "nasdfasd@asdfsdf.it",
+    "registered": "2021-08-09",
+    "bio": null
+  },
+  {
+    "wp_id": 258,
+    "login": "Marta Tersigni",
+    "display_name": "Marta Tersigni",
+    "email": "masfas@adfsdf.it",
+    "registered": "2021-08-09",
+    "bio": null
+  },
+  {
+    "wp_id": 259,
+    "login": "DaviWilson",
+    "display_name": "David Wilson",
+    "email": "davidwilson@eol.it",
+    "registered": "2021-09-04",
+    "bio": null
+  },
+  {
+    "wp_id": 260,
+    "login": "Silvia Freschi",
+    "display_name": "Silvia Freschi",
+    "email": "sdsd@afdf.it",
+    "registered": "2021-09-28",
+    "bio": null
+  },
+  {
+    "wp_id": 261,
+    "login": "Elvira Zaccagnino",
+    "display_name": "Elvira Zaccagnino",
+    "email": "dfdf@asrsdfdfda.it",
+    "registered": "2021-10-20",
+    "bio": null
+  },
+  {
+    "wp_id": 262,
+    "login": "Isabella Corsini",
+    "display_name": "Isabella Corsini",
+    "email": "sada@asasfsaf.it",
+    "registered": "2021-10-29",
+    "bio": null
+  },
+  {
+    "wp_id": 263,
+    "login": "Efrem Sardella",
+    "display_name": "Efrem Sardella",
+    "email": "efere@asdadfas.it",
+    "registered": "2021-11-05",
+    "bio": "46enne pugliese di Monopoli, come instancabile lavoratore. Il servizio in parrocchia e gli incontri con gli amici di Fede e Luce sono certamente i suoi hobby preferiti, ma ad Efrem piace anzitutto lavorare. Purtroppo per una persona disabile questa è una conquista ancora più ardua che per gli altri. Ce lo aveva raccontato l’ultima volta che aveva scritto nel n. 155. Allora lo avevamo lasciato alle prese con la stampa in una piccola casa editrice, diciamo quindi all’incirca alla metà del ‘400. Ora lo ritroviamo alla fine del ‘700, coinvolto nelle lotte sindacali dell’Inghilterra previttoriana. È la Rivoluzione industriale. Le macchine stanno sostituendo gli operai. E Efrem non ci sta. Ha perso il lavoro ed è arrabbiato. E lo scrive ai suoi ex colleghi."
+  },
+  {
+    "wp_id": 264,
+    "login": "Ari",
+    "display_name": "Ari",
+    "email": "ariannafloris@gmail.com",
+    "registered": "2021-11-08",
+    "bio": null
+  },
+  {
+    "wp_id": 265,
+    "login": "Antonietta Pantone",
+    "display_name": "Antonietta Pantone",
+    "email": "sfad@asfaefs.it",
+    "registered": "2021-12-21",
+    "bio": "Sono nata a Roma il 28/03/1990 dove vivo con mia madre e mia sorella gemella. Dal 2006 al 2011 ho frequentato il liceo psico pedagogico di Potenza, poi dal 2013 al 2016 ho frequentato quattro anni di Alberghiero sempre a Potenza. Sto in prima linea per combattere l’indifferenza contro la disabilità."
+  },
+  {
+    "wp_id": 266,
+    "login": "Filippo Fantozzi",
+    "display_name": "Filippo Fantozzi",
+    "email": "asfsdfsdf@afasf.it",
+    "registered": "2021-12-21",
+    "bio": null
+  },
+  {
+    "wp_id": 267,
+    "login": "Lorenzo Portento",
+    "display_name": "Lorenzo Portento",
+    "email": "sdasdas@asdfsadasd.it",
+    "registered": "2022-01-28",
+    "bio": null
+  },
+  {
+    "wp_id": 268,
+    "login": "Giovanni Intini",
+    "display_name": "Giovanni Intini",
+    "email": "asd@dfsdf.it",
+    "registered": "2022-02-17",
+    "bio": null
+  },
+  {
+    "wp_id": 269,
+    "login": "Elmira",
+    "display_name": "Elmira Gani",
+    "email": "elrer@sfdfs.it",
+    "registered": "2022-02-17",
+    "bio": null
+  },
+  {
+    "wp_id": 270,
+    "login": "Larysa Grygoryeva",
+    "display_name": "Larysa Grygoryeva",
+    "email": "fsfsdf@afsdfs.it",
+    "registered": "2022-04-12",
+    "bio": null
+  },
+  {
+    "wp_id": 271,
+    "login": "G",
+    "display_name": "G.",
+    "email": "sdsfsdf@asfsdf.it",
+    "registered": "2022-04-12",
+    "bio": null
+  },
+  {
+    "wp_id": 272,
+    "login": "Stefano Marchetti",
+    "display_name": "Stefano Marchetti",
+    "email": "sfafsaf@asfaf.it",
+    "registered": "2022-05-19",
+    "bio": null
+  },
+  {
+    "wp_id": 273,
+    "login": "Padre Isaac Martinez",
+    "display_name": "Padre Isaac Martinez",
+    "email": "sfdfsdf@asdfsdf.it",
+    "registered": "2022-05-19",
+    "bio": null
+  },
+  {
+    "wp_id": 274,
+    "login": "Melanie Castellani",
+    "display_name": "Melanie Castellani",
+    "email": "sadasd@dsfsdf.it",
+    "registered": "2022-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 275,
+    "login": "Simona Greco",
+    "display_name": "Simona Greco",
+    "email": "Simo@asdas.it",
+    "registered": "2022-06-06",
+    "bio": null
+  },
+  {
+    "wp_id": 276,
+    "login": "Giovanni Ianno",
+    "display_name": "Giovanni Iannò",
+    "email": "sdsfdf@asdasd.it",
+    "registered": "2022-06-08",
+    "bio": null
+  },
+  {
+    "wp_id": 277,
+    "login": "Francesca Giannulo",
+    "display_name": "Francesca Giannulo",
+    "email": "francescagiannulo@oel.it",
+    "registered": "2022-07-01",
+    "bio": null
+  },
+  {
+    "wp_id": 278,
+    "login": "Anna Maria Canonico",
+    "display_name": "Anna Maria Canonico",
+    "email": "sadasd@sadfsdsaf.it",
+    "registered": "2022-08-05",
+    "bio": null
+  },
+  {
+    "wp_id": 279,
+    "login": "Cristina Cangemi e Matteo Tobanelli",
+    "display_name": "Cristina Cangemi Matteo Tobanelli",
+    "email": "fsdfdf@dffd.it",
+    "registered": "2022-08-05",
+    "bio": null
+  },
+  {
+    "wp_id": 280,
+    "login": "Tiziana DAmbrosio",
+    "display_name": "Tiziana D'Ambrosio",
+    "email": "tizianadfdfdfd@afsfdf.it",
+    "registered": "2022-08-05",
+    "bio": null
+  },
+  {
+    "wp_id": 281,
+    "login": "Chiara Gatti",
+    "display_name": "Chiara Gatti",
+    "email": "sfdfeqqe@sdfdf.it",
+    "registered": "2022-08-05",
+    "bio": "Psicologa e psicoterapeuta, è responsabile del Centro di psicoterapia EMDR Monteverde di Roma <a href=\"emdr.it\">emdr.it</a>. Ha lavorato in ambito neuropsicologico presso l'Ospedale San Camillo di Roma e ha collaborato con la direzione sanitaria dell'ARES 118 del Lazio, occupandosi del disagio psicologico degli operatori e dell'attività formativa."
+  },
+  {
+    "wp_id": 282,
+    "login": "Ivana Perri",
+    "display_name": "Ivana Perri",
+    "email": "iasfsafas@fsdfsdf.it",
+    "registered": "2022-08-05",
+    "bio": null
+  },
+  {
+    "wp_id": 283,
+    "login": "Liliana Ghiringhelli",
+    "display_name": "Liliana Ghiringhelli",
+    "email": "asfer@sfe.it",
+    "registered": "2022-08-09",
+    "bio": null
+  },
+  {
+    "wp_id": 284,
+    "login": "Maria Valeria Spinola",
+    "display_name": "Maria Valeria Spinola",
+    "email": "safsdf@asdfsdf.it",
+    "registered": "2022-08-12",
+    "bio": null
+  },
+  {
+    "wp_id": 285,
+    "login": "Anna Aluffi Pentini",
+    "display_name": "Anna Aluffi Pentini",
+    "email": "annaaluffi@oel.it",
+    "registered": "2022-09-09",
+    "bio": "Anna Aluffi Pentini è docente presso l'Università ROMA TRE di Roma e insegna Educazione sociale e interculturale e Consulenza educativa. Ha studiato Pedagogia, Tedesco, Francese e Psicologia a Roma. Ha conseguito il dottorato con una tesi sull'educazione interculturale tra teoria e pratica. Ha gestito progetti di educazione sociale pratica, soprattutto a Roma.  Dal 2017 coordina il corso di studi in Educazione della prima infanzia presso il Dipartimento di Scienze della Formazione dell'Università degli Studi Roma Tre."
+  },
+  {
+    "wp_id": 286,
+    "login": "Tina Turrini",
+    "display_name": "Tina Turrini",
+    "email": "tinaturrini@oel.it",
+    "registered": "2022-09-10",
+    "bio": null
+  },
+  {
+    "wp_id": 287,
+    "login": "Laura Nardini",
+    "display_name": "Laura Nardini",
+    "email": "lauranardini@oel.it",
+    "registered": "2022-09-11",
+    "bio": null
+  },
+  {
+    "wp_id": 288,
+    "login": "Stefano Artero",
+    "display_name": "Stefano Artero",
+    "email": "stefanoartero@oel.it",
+    "registered": "2022-09-11",
+    "bio": "Iscritto all’abo degli Avvocati dal 1993: si occupa principalmente di diritto civile, con una particolare attenzione ai diritti reali, al diritto commerciale ed al diritto fallimentare. Amico di Fede e Luce praticamente da una vita."
+  },
+  {
+    "wp_id": 289,
+    "login": "Paolo Tardonato",
+    "display_name": "Paolo Tardonato",
+    "email": "paolotardonato@oel.it",
+    "registered": "2022-09-12",
+    "bio": null
+  },
+  {
+    "wp_id": 290,
+    "login": "Cyrill Donille",
+    "display_name": "Cyrill Donille",
+    "email": "CyrillDonille@oel.it",
+    "registered": "2022-09-12",
+    "bio": null
+  },
+  {
+    "wp_id": 291,
+    "login": "Lucio Colombaro",
+    "display_name": "Luci0 Colombaro",
+    "email": "lucio@oel.it",
+    "registered": "2022-09-14",
+    "bio": null
+  },
+  {
+    "wp_id": 292,
+    "login": "Stefano Manfucci",
+    "display_name": "Stefano Manfucci",
+    "email": "Stefano@eol.it",
+    "registered": "2022-09-14",
+    "bio": null
+  },
+  {
+    "wp_id": 293,
+    "login": "Gemma Magnanelli",
+    "display_name": "Gemma Magnanelli",
+    "email": "Gemma@oel.it",
+    "registered": "2022-09-14",
+    "bio": null
+  },
+  {
+    "wp_id": 294,
+    "login": "Gianna Zanella",
+    "display_name": "Gianna Zanella",
+    "email": "gianna@oel.it",
+    "registered": "2022-09-14",
+    "bio": null
+  },
+  {
+    "wp_id": 295,
+    "login": "Cinzia",
+    "display_name": "Cinzia Baricella",
+    "email": "cinzia@oel.it",
+    "registered": "2022-09-14",
+    "bio": null
+  },
+  {
+    "wp_id": 296,
+    "login": "Marie Sylvie Richard",
+    "display_name": "Marie-Sylvie Richard",
+    "email": "marie@oel.it",
+    "registered": "2022-09-14",
+    "bio": "Medico presso la <i>Maison Médicale Jeanne Garnier</i> (cure palliative), dottore in etica medica, membro del Dipartimento di etica biomedica e docente presso l'Università <i>Saint-Joseph di Beirut</i>. Direttore scientifico di \"CARTE soins palliatifs\"."
+  },
+  {
+    "wp_id": 297,
+    "login": "Fabienne",
+    "display_name": "Fabienne Clinquart",
+    "email": "fabienne@oel.it",
+    "registered": "2022-09-14",
+    "bio": null
+  },
+  {
+    "wp_id": 314,
+    "login": "Gianna Maria",
+    "display_name": "Gianna Maria",
+    "email": "giannamaria@oel.it",
+    "registered": "2022-09-19",
+    "bio": null
+  },
+  {
+    "wp_id": 300,
+    "login": "Jane Gross",
+    "display_name": "Jane Gross",
+    "email": "janegross@oel.it",
+    "registered": "2022-09-16",
+    "bio": "Jane Gross è una corrispondente del New York Times in pensione, che ha trascorso 30 anni a occuparsi di ogni tipo di argomento, dallo sport all'autismo, dall'invecchiamento ai grandi terremoti e agli incendi in California. È autrice di A Bittersweet Season: Caring for Our Aging Parents - And Ourselves and creator of the \"New Old Age\" blog, now defunct, at the Times.\r\nPrima di entrare al Times, la signora Gross ha lavorato per il Long Island Newsday e per la rivista Sports Illustrated. Dopo la pensione, fa volontariato come tutor per gli studenti delle scuole superiori di New York e si cimenta nella ceramica."
+  },
+  {
+    "wp_id": 301,
+    "login": "Michel Lemay",
+    "display_name": "Michel Lemay",
+    "email": "MichelLemay@oel.it",
+    "registered": "2022-09-16",
+    "bio": "Michel Lemay è psichiatra e specialista in psichiatria infantile. Ha contribuito allo sviluppo della pedagogia sociale e si è dedicato allo studio e al trattamento dei disturbi del comportamento in bambini e adolescenti."
+  },
+  {
+    "wp_id": 302,
+    "login": "Vincenzo e Irene Ruisi",
+    "display_name": "Vincenzo e Irene Ruisi",
+    "email": "VincenzoRuisi@oel.it",
+    "registered": "2022-09-16",
+    "bio": null
+  },
+  {
+    "wp_id": 303,
+    "login": "Donatella Marazzini",
+    "display_name": "Donatella Marazzini",
+    "email": "DonatellaMarazzini@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 304,
+    "login": "Rosa Maria Sonzini",
+    "display_name": "Rosa Maria Sonzini",
+    "email": "RosaMariaSonzini@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 305,
+    "login": "Anna Pensi",
+    "display_name": "Anna Pensi",
+    "email": "annapensi@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 306,
+    "login": "Don Antonio Torresin",
+    "display_name": "Antonio Torresin",
+    "email": "antoniotorresin@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 307,
+    "login": "Giancarla Ferrari",
+    "display_name": "Giancarla Ferrari",
+    "email": "GiancarlaFerrari@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 308,
+    "login": "Maria Varoli",
+    "display_name": "Maria Varoli",
+    "email": "mariavaroli@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 309,
+    "login": "Nicolina di Pirro",
+    "display_name": "Nicolina Di Pirro",
+    "email": "nicolina@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 310,
+    "login": "Anna Maria De Rino",
+    "display_name": "Anna Maria de Rino",
+    "email": "annamiaria@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 311,
+    "login": "Valentina Gallo",
+    "display_name": "Valentina Gallo",
+    "email": "valentinagallo@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 312,
+    "login": "Marta Pensi",
+    "display_name": "Marta Pensi",
+    "email": "MartaPensi@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 313,
+    "login": "Francesca Poleggi",
+    "display_name": "Francesca Poleggi",
+    "email": "FrancescaPoleggi@oel.it",
+    "registered": "2022-09-17",
+    "bio": null
+  },
+  {
+    "wp_id": 315,
+    "login": "Valeria Adorni Braccesi",
+    "display_name": "Valeria Adorni Braccesi",
+    "email": "ValeriaAdorniBraccesi@oel.it",
+    "registered": "2022-09-19",
+    "bio": null
+  },
+  {
+    "wp_id": 316,
+    "login": "Enrico Orofino",
+    "display_name": "Enrico Orofino",
+    "email": "EnricoOrofino@oel.it",
+    "registered": "2022-09-23",
+    "bio": null
+  },
+  {
+    "wp_id": 317,
+    "login": "Giovanni Adomi Braccesi",
+    "display_name": "Giovanni Adomi Braccesi",
+    "email": "GiovanniAdomiBraccesi@oel.it",
+    "registered": "2022-09-23",
+    "bio": null
+  },
+  {
+    "wp_id": 318,
+    "login": "Valeria Spinola",
+    "display_name": "Valeria Spinola",
+    "email": "valeriaspinola@oel.it",
+    "registered": "2022-09-30",
+    "bio": null
+  },
+  {
+    "wp_id": 319,
+    "login": "Antonella Bianchi",
+    "display_name": "Antonella Bianchi",
+    "email": "antellabianchi@oel.it",
+    "registered": "2022-09-30",
+    "bio": null
+  },
+  {
+    "wp_id": 320,
+    "login": "Bernard Provoust",
+    "display_name": "Bernard Provoust",
+    "email": "safsdfs@sdfdsf.it",
+    "registered": "2022-10-02",
+    "bio": null
+  },
+  {
+    "wp_id": 321,
+    "login": "Marie-Odile Rethore",
+    "display_name": "Marie-Odile Réthoré",
+    "email": "dsfsdfdsfdsf@dfsfdsfds.it",
+    "registered": "2022-10-02",
+    "bio": null
+  },
+  {
+    "wp_id": 322,
+    "login": "dda e Maria Teresa",
+    "display_name": "Edda e Maria Teresa",
+    "email": "dsfsdfsfdsfsd@sdfdsfsdf.it",
+    "registered": "2022-10-02",
+    "bio": null
+  },
+  {
+    "wp_id": 323,
+    "login": "Giovanni Vergani",
+    "display_name": "Giovanni Vergani",
+    "email": "dsfdfdsfsdfsd@dsfdsf.it",
+    "registered": "2022-10-10",
+    "bio": null
+  },
+  {
+    "wp_id": 324,
+    "login": "Jacques Labrousse",
+    "display_name": "Jacques Labrousse",
+    "email": "JacquesLabrousse@oel.it",
+    "registered": "2022-10-27",
+    "bio": null
+  },
+  {
+    "wp_id": 325,
+    "login": "Cristiana Vigli",
+    "display_name": "Cristiana Vigli",
+    "email": "CristianaVigli@oel.it",
+    "registered": "2022-10-27",
+    "bio": null
+  },
+  {
+    "wp_id": 326,
+    "login": "Annamaria Manfucci",
+    "display_name": "Annamaria Manfucci",
+    "email": "AnnamariaManfucci@oel.it",
+    "registered": "2022-10-27",
+    "bio": null
+  },
+  {
+    "wp_id": 327,
+    "login": "Grazia Felici",
+    "display_name": "Grazia Felici",
+    "email": "GraziaFelici@oel.it",
+    "registered": "2022-10-28",
+    "bio": null
+  },
+  {
+    "wp_id": 328,
+    "login": "Laura Broccoli",
+    "display_name": "Laura Broccoli",
+    "email": "laurabroccoli@oel.it",
+    "registered": "2022-10-28",
+    "bio": null
+  },
+  {
+    "wp_id": 329,
+    "login": "Enrica Baldini",
+    "display_name": "Manrica Baldini",
+    "email": "EnricaBaldini@eol.it",
+    "registered": "2022-10-28",
+    "bio": null
+  },
+  {
+    "wp_id": 330,
+    "login": "Laura Cattaneo",
+    "display_name": "Laura Cattaneo",
+    "email": "LauraCattaneo@oel.it",
+    "registered": "2022-10-28",
+    "bio": null
+  },
+  {
+    "wp_id": 331,
+    "login": "Cristina Lo Jacono",
+    "display_name": "Cristina Lo Jacono",
+    "email": "CristinaLoJacono@oel.it",
+    "registered": "2022-10-28",
+    "bio": null
+  },
+  {
+    "wp_id": 332,
+    "login": "Mara Martelli",
+    "display_name": "Mara Martelli",
+    "email": "MaraMartelli@oel.it",
+    "registered": "2022-10-28",
+    "bio": null
+  },
+  {
+    "wp_id": 333,
+    "login": "Nelia Ruiz Cortez",
+    "display_name": "Nelia Ruiz Cortez",
+    "email": "NeliaRuizCortez@oel.it",
+    "registered": "2022-11-02",
+    "bio": null
+  },
+  {
+    "wp_id": 334,
+    "login": "Cordula Neuhaus",
+    "display_name": "Cordula Neuhaus",
+    "email": "CordulaNeuhaus@oel.it",
+    "registered": "2022-11-02",
+    "bio": "Psicopedagogista e terapeuta comportamentale, svolge da molti anni attività ambulatoriale con bambini, adolescenti e adulti. È docente e formatrice alla Clinica di Terapia Comportamentale di Stoccarda, Bad Dürkheim e Tubinga. Si è specializzata in Germania e all’estero sui più avanzati metodi terapeutici applicati all’ADHD e la sua competenza è largamente riconosciuta a livello internazionale."
+  },
+  {
+    "wp_id": 335,
+    "login": "Patrizia Stacconi",
+    "display_name": "Patrizia Stacconi",
+    "email": "PatriziaStacconi@oel.it",
+    "registered": "2022-11-02",
+    "bio": "Presidente AIFA - Associazione Italiana Famiglie ADHD"
+  },
+  {
+    "wp_id": 336,
+    "login": "Immacolata Casullo",
+    "display_name": "Immacolata Casullo",
+    "email": "ImmacolataCasullo@oel.it",
+    "registered": "2022-11-02",
+    "bio": null
+  },
+  {
+    "wp_id": 337,
+    "login": "Tonino Bello",
+    "display_name": "Don Tonino Bello",
+    "email": "ToninoBello@oel.it",
+    "registered": "2022-11-02",
+    "bio": null
+  },
+  {
+    "wp_id": 338,
+    "login": "Anna Testa",
+    "display_name": "Anna Testa",
+    "email": "AnnaTesta@oel.it",
+    "registered": "2022-11-02",
+    "bio": null
+  },
+  {
+    "wp_id": 339,
+    "login": "Jean Marie Petitclerc",
+    "display_name": "Jean Marie Petitclerc",
+    "email": "JeanMariePetitclerc@oel.it",
+    "registered": "2022-11-02",
+    "bio": "Jean-Marie Petitclerc è sacerdote salesiano, educatore e specialista in pedagogia sociale. Da anni si dedica all’accompagnamento dei giovani in difficoltà, unendo esperienza sul campo e riflessione pedagogica."
+  },
+  {
+    "wp_id": 340,
+    "login": "Salvatore Anastasi",
+    "display_name": "Salvatore Anastasi",
+    "email": "SalvatoreAnastasi@oel.it",
+    "registered": "2022-11-02",
+    "bio": "Dirigente Medico Pediatra U.O. Thalassemia, Azienda Ospedaliera Garibaldi, CT Assessore alla PP.II. e Vice Sindaco del comune di San Giovanni La Punta"
+  },
+  {
+    "wp_id": 341,
+    "login": "Corinne Chatain",
+    "display_name": "Corinne Chatain",
+    "email": "CorinneChatain@oel.it",
+    "registered": "2022-11-09",
+    "bio": null
+  },
+  {
+    "wp_id": 342,
+    "login": "Cristina Marchese",
+    "display_name": "Cristina Marchese",
+    "email": "CristinaMarchese@oel.it",
+    "registered": "2022-11-09",
+    "bio": "Operatrice didattica volontaria dell’associazione VA.M.I.(Volontari Associati per i musei italiani) opera nella Galleria Borghese a Roma. Ha aderito anni fa a questa associazione perché crede nella possibilità di far godere a tutti l'immenso patrimonio d’Arte conservato nei musei"
+  },
+  {
+    "wp_id": 343,
+    "login": "Gianluigi Visentini",
+    "display_name": "Gianluigi Visentini",
+    "email": "GianluigiVisentini@oel.it",
+    "registered": "2022-11-09",
+    "bio": "Psicologo e psicoterapeuta presso il presidio riabilitativo \"La Nostra Famiglia\" di Padova Fogarolo Flavio. Formatore, si occupa di didattica inclusiva. È stato per diversi anni referente per la disabilità e i DSA presso l’UST di Vicenza. Per le Edizioni Centro Studi Erickson ha collaborato alla progettazione di materiali compensativi."
+  },
+  {
+    "wp_id": 344,
+    "login": "Gian Carlo Zanon",
+    "display_name": "Gian Carlo Zanon",
+    "email": "GianCarloZanon@oel.it",
+    "registered": "2022-11-10",
+    "bio": null
+  },
+  {
+    "wp_id": 345,
+    "login": "Fabio Bronzini",
+    "display_name": "Fabio Bronzini",
+    "email": "ajsjska@shhshs.it",
+    "registered": "2022-11-16",
+    "bio": null
+  },
+  {
+    "wp_id": 346,
+    "login": "Giulia Cirillo",
+    "display_name": "Giulia Cirillo",
+    "email": "fdsfsfdsd@dsgdgfd.it",
+    "registered": "2023-01-13",
+    "bio": null
+  },
+  {
+    "wp_id": 347,
+    "login": "Andrea Posa",
+    "display_name": "Andrea Posa",
+    "email": "Asadasdsadasdsafasfsd@dsfsdf.it",
+    "registered": "2023-01-20",
+    "bio": null
+  },
+  {
+    "wp_id": 348,
+    "login": "Margherita Camomilla Fantini",
+    "display_name": "Margherita Camomilla Fantini",
+    "email": "margherita.camo@icloud.com",
+    "registered": "2023-01-23",
+    "bio": null
+  },
+  {
+    "wp_id": 349,
+    "login": "Marco",
+    "display_name": "Marco Cardaci",
+    "email": "marcocardaci@oel.it",
+    "registered": "2023-01-27",
+    "bio": null
+  },
+  {
+    "wp_id": 350,
+    "login": "Giampaolo Mattei",
+    "display_name": "Giampaolo Mattei",
+    "email": "fdsdfsdds@dfssdf.it",
+    "registered": "2023-02-01",
+    "bio": null
+  },
+  {
+    "wp_id": 351,
+    "login": "Padre Joseph Larsen",
+    "display_name": "Padre Joseph Larsen",
+    "email": "PadreJosephLarsen@oel.it",
+    "registered": "2023-02-10",
+    "bio": null
+  },
+  {
+    "wp_id": 352,
+    "login": "Solange Franc",
+    "display_name": "Solange Fanc",
+    "email": "SolangeFranc@oel.it",
+    "registered": "2023-02-10",
+    "bio": null
+  },
+  {
+    "wp_id": 353,
+    "login": "Arnaud Franc",
+    "display_name": "Arnaud Franc",
+    "email": "ArnaudFranc@oel.it",
+    "registered": "2023-02-10",
+    "bio": null
+  },
+  {
+    "wp_id": 354,
+    "login": "Rita Di Nale",
+    "display_name": "Rita Di Nale",
+    "email": "RitaDiNale@oel.it",
+    "registered": "2023-02-10",
+    "bio": null
+  },
+  {
+    "wp_id": 355,
+    "login": "Emanuele Attanasio",
+    "display_name": "Emanuele Attanasio",
+    "email": "EmanueleAttanasio@oel.it",
+    "registered": "2023-03-16",
+    "bio": null
+  },
+  {
+    "wp_id": 356,
+    "login": "Maria Amelia",
+    "display_name": "Maria Amelia",
+    "email": "MariaAmelia@oel.it",
+    "registered": "2023-03-16",
+    "bio": null
+  },
+  {
+    "wp_id": 357,
+    "login": "Sophie Lutz",
+    "display_name": "Sophie Lutz",
+    "email": "SophieLutz@oel.it",
+    "registered": "2023-03-16",
+    "bio": null
+  },
+  {
+    "wp_id": 358,
+    "login": "Bianca De Pascalis",
+    "display_name": "Bianca De Pascalis",
+    "email": "BiancaDePascalis@oel.it",
+    "registered": "2023-03-30",
+    "bio": null
+  },
+  {
+    "wp_id": 359,
+    "login": "Sergio Zini",
+    "display_name": "Sergio Zini",
+    "email": "SergioZini@oel.it",
+    "registered": "2023-03-30",
+    "bio": null
+  },
+  {
+    "wp_id": 360,
+    "login": "ElisabettaAgliano",
+    "display_name": "Elisabetta Aglianò",
+    "email": "ElisabettaAgliano@oel.it",
+    "registered": "2023-03-30",
+    "bio": null
+  },
+  {
+    "wp_id": 361,
+    "login": "Monica Mazzucco",
+    "display_name": "Monica Mazzucco",
+    "email": "MonicaMazzucco@oel.it",
+    "registered": "2023-03-30",
+    "bio": null
+  },
+  {
+    "wp_id": 362,
+    "login": "Pere Bernard-Marie Geffroy",
+    "display_name": "Pere Bernard-Marie Geffroy",
+    "email": "Bernard-MarieGeffroy@oel.it",
+    "registered": "2023-03-30",
+    "bio": null
+  },
+  {
+    "wp_id": 363,
+    "login": "Angela Gattulli",
+    "display_name": "Angela Gattulli",
+    "email": "AngelaGattulli@oel.it",
+    "registered": "2023-04-03",
+    "bio": null
+  },
+  {
+    "wp_id": 364,
+    "login": "Lena Botta",
+    "display_name": "Lena Botta",
+    "email": "LenaBotta@oel.it",
+    "registered": "2023-04-03",
+    "bio": null
+  },
+  {
+    "wp_id": 365,
+    "login": "Fabrizio Agliano",
+    "display_name": "Fabrizio Aglianò",
+    "email": "fabrizioagliano@oel.it",
+    "registered": "2023-04-05",
+    "bio": null
+  },
+  {
+    "wp_id": 366,
+    "login": "Antonello Damiani",
+    "display_name": "Antonello Damiani",
+    "email": "AntonelloDamiani@oel.it",
+    "registered": "2023-04-05",
+    "bio": "Neurologo italiano che lavora presso la Sezione Laziale dell'Unione Italiana Lotta alla Distrofia Muscolare (UILDM) ONLUS, con sede a Roma. È anche Responsabile dell'Unità Medica all'interno dell'organizzazione."
+  },
+  {
+    "wp_id": 367,
+    "login": "Mons. Alberto G. Bochatey",
+    "display_name": "Mons. Alberto G. Bochatey",
+    "email": "AlbertoBochatey@oel.it",
+    "registered": "2023-04-06",
+    "bio": "Vescovo titolare del Monte di Mauritania e Vescovo ausiliare dell'arcidiocesi di La Plata.\r\nÈ nato a Buenos Aires, in Argentina, il 23 luglio 1955. È stato \r\nordinato sacerdote per l'Ordine di Sant'Agostino il 24 aprile 1981."
+  },
+  {
+    "wp_id": 368,
+    "login": "Flaminia Cabras",
+    "display_name": "Flaminia Cabras",
+    "email": "FlaminiaCabras@oel.it",
+    "registered": "2023-04-07",
+    "bio": null
+  },
+  {
+    "wp_id": 369,
+    "login": "Nicolas Buttet",
+    "display_name": "Padre Nicolas Buttet",
+    "email": "NicolasButtet@oel.it",
+    "registered": "2023-04-07",
+    "bio": null
+  },
+  {
+    "wp_id": 370,
+    "login": "Emanuele Sapore",
+    "display_name": "Emanuele Sapore",
+    "email": "EmanueleSapore@oel.it",
+    "registered": "2023-04-07",
+    "bio": null
+  },
+  {
+    "wp_id": 371,
+    "login": "Cristobal Clavijo Zarate",
+    "display_name": "Cristobal Clavijo Zàrate",
+    "email": "CristobalClavijoZarate@oel.it",
+    "registered": "2023-04-07",
+    "bio": null
+  },
+  {
+    "wp_id": 372,
+    "login": "Guillaume Desanges",
+    "display_name": "Guillaume Desanges",
+    "email": "GuillaumeDesanges@oel.it",
+    "registered": "2023-04-07",
+    "bio": null
+  },
+  {
+    "wp_id": 373,
+    "login": "Claudio Roncoroni",
+    "display_name": "Claudio Roncoroni",
+    "email": "ClaudioRoncoroni@oel.it",
+    "registered": "2023-04-14",
+    "bio": null
+  },
+  {
+    "wp_id": 374,
+    "login": "Don Virginio Colmegna",
+    "display_name": "Don Virginio Colmegna",
+    "email": "DonVirginioColmegna@oel.it",
+    "registered": "2023-04-14",
+    "bio": null
+  },
+  {
+    "wp_id": 375,
+    "login": "Don Antonino",
+    "display_name": "Don Antonino",
+    "email": "donantonino@oel.it",
+    "registered": "2023-04-14",
+    "bio": null
+  },
+  {
+    "wp_id": 376,
+    "login": "Lucetta Scaraffia",
+    "display_name": "Lucetta Scaraffia",
+    "email": "LucettaScaraffia@oel.it",
+    "registered": "2023-04-14",
+    "bio": null
+  },
+  {
+    "wp_id": 377,
+    "login": "Florence Chatel",
+    "display_name": "Florence Chatel",
+    "email": "FlorenceChantal@oel.it",
+    "registered": "2023-04-14",
+    "bio": null
+  },
+  {
+    "wp_id": 378,
+    "login": "Anna Maria Agliano",
+    "display_name": "Anna Maria Agliano",
+    "email": "AnnaMariaAgliano@oel.it",
+    "registered": "2023-04-14",
+    "bio": null
+  },
+  {
+    "wp_id": 379,
+    "login": "Francesca De Rino",
+    "display_name": "Francesca De Rino",
+    "email": "FrancescaDeRino@oel.it",
+    "registered": "2023-04-14",
+    "bio": null
+  },
+  {
+    "wp_id": 380,
+    "login": "Rosalba Di Marco",
+    "display_name": "Rosalba Di Marco",
+    "email": "RosalbaDiMarco@oel.it",
+    "registered": "2023-04-14",
+    "bio": null
+  },
+  {
+    "wp_id": 381,
+    "login": "Myrna Hayek",
+    "display_name": "Myrna Hayek",
+    "email": "MyrnaHayek@oel.it",
+    "registered": "2023-04-16",
+    "bio": null
+  },
+  {
+    "wp_id": 382,
+    "login": "Carla Waked",
+    "display_name": "Carla Waked",
+    "email": "CarlaWaked@oel.it",
+    "registered": "2023-04-16",
+    "bio": null
+  },
+  {
+    "wp_id": 383,
+    "login": "Pere Christian Maheas",
+    "display_name": "Père Christian Mahéas",
+    "email": "PereChristianMaheas@oel.it",
+    "registered": "2023-04-16",
+    "bio": "Assistente spirituale dell'Arche"
+  },
+  {
+    "wp_id": 384,
+    "login": "Nicolle Carre",
+    "display_name": "Nicolle Carré",
+    "email": "NicolleCarre@gmail.com",
+    "registered": "2023-04-21",
+    "bio": null
+  },
+  {
+    "wp_id": 385,
+    "login": "Don Giuseppe Alcamo",
+    "display_name": "Don Giuseppe Alcamo",
+    "email": "DonGiuseppeAlcamo@oel.it",
+    "registered": "2023-05-11",
+    "bio": null
+  },
+  {
+    "wp_id": 386,
+    "login": "Charlotte Lernount",
+    "display_name": "Charlotte Lernount",
+    "email": "CharlotteLernount@oel.it",
+    "registered": "2023-05-12",
+    "bio": null
+  },
+  {
+    "wp_id": 387,
+    "login": "Andrea Cesarini",
+    "display_name": "Andrea Cesarini",
+    "email": "AndreaCesarini@oel.it",
+    "registered": "2023-05-17",
+    "bio": null
+  },
+  {
+    "wp_id": 388,
+    "login": "Angelo Colacino",
+    "display_name": "Angelo Colacino",
+    "email": "angelocolacino@oel.it",
+    "registered": "2023-05-26",
+    "bio": null
+  },
+  {
+    "wp_id": 389,
+    "login": "Lorenzo Cerutti",
+    "display_name": "Lorenzo Cerutti",
+    "email": "LorenzoCerutti@oel.it",
+    "registered": "2023-05-26",
+    "bio": null
+  },
+  {
+    "wp_id": 390,
+    "login": "Stefano Atzeni",
+    "display_name": "Stefano Atzeni",
+    "email": "StefanoAtzeni@oel.it",
+    "registered": "2023-05-31",
+    "bio": null
+  },
+  {
+    "wp_id": 391,
+    "login": "Nora Buccheri",
+    "display_name": "Nora Buccheri",
+    "email": "sdfsdfsdfsd@asdfsafsdf.it",
+    "registered": "2023-05-31",
+    "bio": null
+  },
+  {
+    "wp_id": 392,
+    "login": "Alessandra Del Duca",
+    "display_name": "Alessandra Del Duca",
+    "email": "asfdsfrwgrg@dfsdf.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 393,
+    "login": "Paola Gini",
+    "display_name": "Paola Gini",
+    "email": "dsfsdfsd@asfdsdfs.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 394,
+    "login": "Giovanni Maria Flick",
+    "display_name": "Giovanni Maria Flick",
+    "email": "flick@oel.it",
+    "registered": "2023-06-01",
+    "bio": "Giurista e politico italiano, Ministro di grazia e giustizia del governo Prodi I e presidente della Corte costituzionale dal 14 novembre 2008 al 18 febbraio 2009"
+  },
+  {
+    "wp_id": 395,
+    "login": "Friquette",
+    "display_name": "Marie-Françoise (Friquette) Heyndrickx",
+    "email": "Friquette@oel.ir",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 396,
+    "login": "Giuseppe Bertolini",
+    "display_name": "Giuseppe Bertolini",
+    "email": "giuseppebertolini@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 397,
+    "login": "Pierre Deberge",
+    "display_name": "Pierre Debergé",
+    "email": "PierreDeberge@oel.i",
+    "registered": "2023-06-01",
+    "bio": "Amico di vecchia data di Fede e Luce, Mons. Pierre Debergé, nato il 31 marzo 1956 a Ossages (Landes), è un sacerdote cattolico francese. È stato rettore dell'Institut Catholique de Toulouse dal 2004 al 2013."
+  },
+  {
+    "wp_id": 398,
+    "login": "Paola Angeloro",
+    "display_name": "Paola Angeloro",
+    "email": "PaolaAngeloro@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 399,
+    "login": "Ezia Schiavone",
+    "display_name": "Ezia Schiavone",
+    "email": "EziaSchiavone@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 400,
+    "login": "Monica Boyer",
+    "display_name": "Monica Boyer",
+    "email": "MonicaBoyer@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 401,
+    "login": "Gabriella Boyer",
+    "display_name": "Gabriella Boyer",
+    "email": "GabriellaBoyer@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 402,
+    "login": "Franca Forti Bulferi",
+    "display_name": "Franca Forti Bulferi",
+    "email": "FrancaFortiBulferi@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 403,
+    "login": "Italia Valle",
+    "display_name": "Italia Valle",
+    "email": "ItaliaValle@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 404,
+    "login": "Giusy Nocca",
+    "display_name": "Giusy Nocca",
+    "email": "GiusyNocca@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 405,
+    "login": "Adriana Lunghi",
+    "display_name": "Adriana Lunghi",
+    "email": "AdrianaLunghi@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 406,
+    "login": "Maria Teresa Mosconi Straulino",
+    "display_name": "Maria Teresa Mosconi Straulino",
+    "email": "MariaTeresaMosconiStraulino@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 407,
+    "login": "Enrica Cofano",
+    "display_name": "Enrica Cofano",
+    "email": "EnricaCofano@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 408,
+    "login": "Paolo Nardini",
+    "display_name": "Paolo Nardini",
+    "email": "PaoloNardini@oel.it",
+    "registered": "2023-06-01",
+    "bio": null
+  },
+  {
+    "wp_id": 409,
+    "login": "Carlo Gazzano",
+    "display_name": "Carlo Gazzano",
+    "email": "CarloGazzano@oel.it",
+    "registered": "2023-06-02",
+    "bio": null
+  },
+  {
+    "wp_id": 410,
+    "login": "Suor Veronica",
+    "display_name": "Suor Veronica Amata Donatello",
+    "email": "suorveronica@oel.it",
+    "registered": "2023-06-04",
+    "bio": "Consulente per la comunicazione della CEI (Conferenza Episcopale Italiana), è nota per il suo impegno nell'inclusione delle persone con disabilità. È stata interprete LIS per programmi televisivi RAI."
+  },
+  {
+    "wp_id": 411,
+    "login": "Nunzio Galantino",
+    "display_name": "Mons. Nunzio Galantino",
+    "email": "NunzioGalantino@oel.it",
+    "registered": "2023-06-04",
+    "bio": null
+  },
+  {
+    "wp_id": 412,
+    "login": "Antonio Piscitelli",
+    "display_name": "Antonio Piscitelli",
+    "email": "AntonioPiscitelli@oel.it",
+    "registered": "2023-06-04",
+    "bio": "Medico specialista in Pediatria svolge attività come pediatra di famiglia da 20 anni a Castellammare di Stabia. Sempre per la stessa azienda sanitaria si interessa di vaccinazione a pazienti fragili. Da oltre 10 anni collabora con \"Alchimie\"  un'associazione di professionisti composta da psicologi, psicoterapeuti e logopedisti, neuropsichiatri specializzati nella cura e nel benessere psicologico della persona."
+  },
+  {
+    "wp_id": 413,
+    "login": "Gianfranco Ravasi",
+    "display_name": "Gianfranco Ravasi",
+    "email": "Ravasi@oel.it",
+    "registered": "2023-06-04",
+    "bio": "Gianfranco Ravasi (1942), cardinale, biblista, teologo. Prefetto emerito del Dicastero per la Cultura e l'Educazione. Già presidente del Pontificio Consiglio della Cultura. Esegeta, ebraista, autore e divulgatore. Collabora con Avvenire e Il Sole 24 Ore."
+  },
+  {
+    "wp_id": 414,
+    "login": "Ghislain du Chene",
+    "display_name": "Ghislain du Chéné",
+    "email": "GhislainChene@oel.it",
+    "registered": "2023-06-04",
+    "bio": "Ingegnere di formazione, dal 2008 è coordinatore internazionale di Foi et Lumière. Il suo impegno nel movimento nasce da un’esperienza personale: nel 1988, lui e sua moglie accolgono la nascita della loro figlia Julie, nata con la sindrome di Down"
+  },
+  {
+    "wp_id": 415,
+    "login": "Vittorio Scelzo",
+    "display_name": "Vittorio Scelzo",
+    "email": "VittorioScelzo@oel.it",
+    "registered": "2023-06-26",
+    "bio": "Membro attivo della Comunità di Sant'Egidio, impegnato in iniziative a sostegno delle persone con disabilità. Ha collaborato alla gestione della \"Trattoria degli Amici\" a Roma, un ristorante inclusivo che offre opportunità lavorative a persone con diverse abilità."
+  },
+  {
+    "wp_id": 416,
+    "login": "Bruno Galante",
+    "display_name": "Bruno Galante",
+    "email": "BrunoGalante@oel.it",
+    "registered": "2023-06-29",
+    "bio": null
+  },
+  {
+    "wp_id": 417,
+    "login": "Andrea Ciattaglia",
+    "display_name": "Andrea Ciattaglia",
+    "email": "AndreaCiattaglia@oel.it",
+    "registered": "2023-06-30",
+    "bio": "Giornalista, Fondazione promozione sociale onlus, Direttore della rivista Prospettive Assistenziali"
+  },
+  {
+    "wp_id": 418,
+    "login": "Cyrill Douillet",
+    "display_name": "Cyrill Douillet",
+    "email": "CyrillDouillet@oel.it",
+    "registered": "2023-07-01",
+    "bio": null
+  },
+  {
+    "wp_id": 419,
+    "login": "Daniela Vinazza",
+    "display_name": "Daniela Vinazza",
+    "email": "Danielavinazza@oel.it",
+    "registered": "2023-07-01",
+    "bio": null
+  },
+  {
+    "wp_id": 420,
+    "login": "Roberto Bertin",
+    "display_name": "Roberto Bertin",
+    "email": "RobertoBertin@oel.it",
+    "registered": "2023-07-01",
+    "bio": null
+  },
+  {
+    "wp_id": 421,
+    "login": "Carole Irwin",
+    "display_name": "Carole Irwin",
+    "email": "fsfsdf@adfsdf.it",
+    "registered": "2023-07-18",
+    "bio": null
+  },
+  {
+    "wp_id": 422,
+    "login": "Christine Angles",
+    "display_name": "Christine Anglès",
+    "email": "sdfsdfsd@sfsdf.it",
+    "registered": "2023-07-18",
+    "bio": null
+  },
+  {
+    "wp_id": 423,
+    "login": "Alessandra Conicchioli",
+    "display_name": "Alessandra Conicchioli",
+    "email": "assdfsd@sdfsdfsdf.it",
+    "registered": "2023-08-18",
+    "bio": null
+  },
+  {
+    "wp_id": 424,
+    "login": "Maurizio Pilone",
+    "display_name": "Maurizio Pilone",
+    "email": "maurizioPilone@oel.it",
+    "registered": "2023-09-05",
+    "bio": "Psicologo — Psicoterapeuta Responsabile Servizio Valutazione e Cura dell’Autismo — Centro Paolo VI Casalnoceto Presidente della Associazione Italiana Ritardo Mentale"
+  },
+  {
+    "wp_id": 425,
+    "login": "andi",
+    "display_name": "andi",
+    "email": "punyapaste@proton.me",
+    "registered": "2023-09-12",
+    "bio": null
+  },
+  {
+    "wp_id": 426,
+    "login": "Michele Vulcan",
+    "display_name": "Michele Vulcan",
+    "email": "sdfsdfdsf@dfsdfdsfdsf.it",
+    "registered": "2023-10-11",
+    "bio": null
+  },
+  {
+    "wp_id": 427,
+    "login": "Gianluca Giardini",
+    "display_name": "Gianluca Giardini",
+    "email": "asfsfds@asfasfas.it",
+    "registered": "2023-10-12",
+    "bio": null
+  },
+  {
+    "wp_id": 428,
+    "login": "Michel Charpentier",
+    "display_name": "Michel Charpentier",
+    "email": "MichelCharpentier@oel.it",
+    "registered": "2023-11-16",
+    "bio": null
+  },
+  {
+    "wp_id": 429,
+    "login": "Suor Ida Maria",
+    "display_name": "Suor Ida Maria",
+    "email": "suoridamaria@oel.it",
+    "registered": "2023-11-17",
+    "bio": null
+  },
+  {
+    "wp_id": 430,
+    "login": "Davide Passeri",
+    "display_name": "Davide Passeri",
+    "email": "davidepasseri@oel.it",
+    "registered": "2024-02-07",
+    "bio": null
+  },
+  {
+    "wp_id": 431,
+    "login": "Teresa Puerto",
+    "display_name": "Dott.ssa Maria Teresa Puerto",
+    "email": "TeresaPuerto@oel.it",
+    "registered": "2024-02-15",
+    "bio": null
+  },
+  {
+    "wp_id": 432,
+    "login": "Andrea Zamperoni",
+    "display_name": "Andrea Zamperoni",
+    "email": "asafdsafdas@asdsds.it",
+    "registered": "2024-02-19",
+    "bio": null
+  },
+  {
+    "wp_id": 433,
+    "login": "Lucia Pennisi",
+    "display_name": "Lucia Pennisi",
+    "email": "luciapennisi@oel.it",
+    "registered": "2024-03-15",
+    "bio": null
+  },
+  {
+    "wp_id": 434,
+    "login": "Vivi Licciuli",
+    "display_name": "Vivi Licciuli",
+    "email": "adasdasdasdas@asfsfsd.it",
+    "registered": "2024-08-16",
+    "bio": "Allenatore delle Delfini Baskin Monopoli"
+  },
+  {
+    "wp_id": 435,
+    "login": "Claudio Moriggia",
+    "display_name": "Claudio Moriggia",
+    "email": "sdafas@sdfwfwe.it",
+    "registered": "2024-08-19",
+    "bio": null
+  },
+  {
+    "wp_id": 436,
+    "login": "Dario Piersanti",
+    "display_name": "Dario Piersanti",
+    "email": "Daraerewr@sdfsdf.it",
+    "registered": "2024-08-26",
+    "bio": null
+  },
+  {
+    "wp_id": 437,
+    "login": "Elzbieta Steczkiewicz",
+    "display_name": "Elzbieta Steczkiewicz",
+    "email": "assdfdws@dsfdfd.it",
+    "registered": "2024-08-26",
+    "bio": null
+  },
+  {
+    "wp_id": 439,
+    "login": "Betty Collino",
+    "display_name": "Betty Collino",
+    "email": "bettycollino@oel.it",
+    "registered": "2024-08-28",
+    "bio": null
+  },
+  {
+    "wp_id": 440,
+    "login": "Valeria Antonucci",
+    "display_name": "Valeria Antonucci",
+    "email": "sdfafsef@fedfefefefef.it",
+    "registered": "2024-10-16",
+    "bio": "Sono nata a Roma nel 1990. Vivo da sola e ho il disturbo dello spettro autistico. Ho una sorella più grande di due anni che vive a Modena. Dopo il diploma in Servizi Turistici e la laurea in Lingue, ho svolto un tirocinio presso l'Associazione Il Paese di Filoastra, e dal 2023 lavoro come impiegata amministrativa. Ogni settimana partecipo a un progetto femminile con GIULIAPARLA, lavoro sull'autonomia con una compagna adulta, seguo un corso di mappatura digitale, e canto nel coro della John Coltrane Music School di Roma. Dal 2009 al 2021 ho frequentato l'Accademia \"L'Arte nel Cuore\" partecipando a diversi spettacoli teatrali."
+  },
+  {
+    "wp_id": 441,
+    "login": "Giulia Galeotti e Nicla Bettazzi",
+    "display_name": "Nicla Bettazzi e Giulia Galeotti",
+    "email": "fdasfsdfsdf@asdfsfasdfi.it",
+    "registered": "2025-01-09",
+    "bio": null
+  },
+  {
+    "wp_id": 442,
+    "login": "Madre Pantanella",
+    "display_name": "Madre Pantanella",
+    "email": "pantanella@oel.it",
+    "registered": "2025-01-09",
+    "bio": null
+  },
+  {
+    "wp_id": 444,
+    "login": "Teresita Frachey",
+    "display_name": "Teresita Frachey",
+    "email": "ggg@gmail.com",
+    "registered": "2025-02-07",
+    "bio": null
+  },
+  {
+    "wp_id": 445,
+    "login": "Maria Ilaria Di Bernardo",
+    "display_name": "Maria Ilaria Di Bernardo",
+    "email": "mmm@gmail.com",
+    "registered": "2025-02-07",
+    "bio": null
+  },
+  {
+    "wp_id": 446,
+    "login": "Elena Bernasconi",
+    "display_name": "Elena Bernasconi",
+    "email": "nnn@gmail.com",
+    "registered": "2025-02-07",
+    "bio": null
+  },
+  {
+    "wp_id": 447,
+    "login": "Valentina Mari",
+    "display_name": "Valentina Mari",
+    "email": "vvvmmm@gmail.com",
+    "registered": "2025-02-10",
+    "bio": null
+  },
+  {
+    "wp_id": 448,
+    "login": "Lorraine McCrary",
+    "display_name": "Lorraine McCrary",
+    "email": "aaaaa@gmail.com",
+    "registered": "2025-05-07",
+    "bio": null
+  },
+  {
+    "wp_id": 449,
+    "login": "Niccolo Scarano",
+    "display_name": "Niccolò Scarnato",
+    "email": "asfsdfsd@asdfsdfs.it",
+    "registered": "2025-05-23",
+    "bio": "Attore cinematografico e teatrale, Niccolò Scarnato ha esordito al cinema con il film <i>Le Ali Invisibili</i> nel quale interpreta il ruolo del protagonista Alessio; recita spesso a teatro, principalmente nel Teatro degli Eroi di Roma che offre grande spazio e possibilità ad attori neurodivergenti come lui, al fianco di attori professionisti e affermati. Attualmente è impegnato nella produzione di un lungometraggio."
+  },
+  {
+    "wp_id": 450,
+    "login": "AiOel",
+    "display_name": "AiOel Intelligenza Artificiale",
+    "email": "AiOel@ombreeluci.it",
+    "registered": "2025-07-04",
+    "bio": null
+  },
+  {
+    "wp_id": 451,
+    "login": "Lucio Cammarota",
+    "display_name": "Lucio Cammarota",
+    "email": "luciocammarota@ombreeluci.it",
+    "registered": "2025-07-29",
+    "bio": null
+  },
+  {
+    "wp_id": 452,
+    "login": "Mauro Santoro",
+    "display_name": "Mauro Santoro",
+    "email": "gtr@gmail.com",
+    "registered": "2025-12-03",
+    "bio": null
+  },
+  {
+    "wp_id": 453,
+    "login": "Claudia Noviello",
+    "display_name": "Claudia Noviello",
+    "email": "ccnn@gmail.com",
+    "registered": "2025-12-05",
+    "bio": null
+  },
+  {
+    "wp_id": 454,
+    "login": "Gianni Carparelli",
+    "display_name": "Gianni Carparelli",
+    "email": "gnnc@gmail.com",
+    "registered": "2025-12-05",
+    "bio": null
+  },
+  {
+    "wp_id": 455,
+    "login": "Patriza Di Blasi",
+    "display_name": "Patrizia Di Blasi",
+    "email": "sfsdf@dsfsfsdfsd.it",
+    "registered": "2026-01-28",
+    "bio": null
+  },
+  {
+    "wp_id": 456,
+    "login": "Alejandra del Mar Catapano",
+    "display_name": "Alejandra del Mar Catapano",
+    "email": "sdfasfsadfs@sfsdff.it",
+    "registered": "2026-01-28",
+    "bio": null
+  },
+  {
+    "wp_id": 457,
+    "login": "Lina Santoro",
+    "display_name": "Lina Santoro",
+    "email": "saasdasdas@asdasdsa.it",
+    "registered": "2026-01-28",
+    "bio": null
+  }
+]
