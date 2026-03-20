@@ -1,7 +1,7 @@
 # PROGRESS — Ombre e Luci
 
 **Ultimo aggiornamento:** 2026-03-20
-**Stato generale:** Analisi DB WordPress completata. Prossimo step: setup VPS + Directus.
+**Stato generale:** Dataset canonico completo (SEO Yoast, link interni, redirect, lang IT/EN). Prossimo step: setup VPS + Directus.
 
 ---
 
@@ -68,19 +68,35 @@ Meccanismo: taxonomy condivisa `project_category`.
 - Gli articoli sono assegnati allo stesso termine
 - **3473/3527 articoli (98.5%)** correttamente collegati
 
-### Dataset estratti
+### Dataset Canonico — Stato Finale (2026-03-20)
 
 Tutti in `scripts/db_analysis/output/`:
 
-| File | Contenuto |
-|------|-----------|
-| `articoli_wp_puliti.json` | 3527 articoli con HTML body pulito |
-| `autori_wp.json` | 406 autori con bio |
-| `numeri_rivista_wp.json` | 204 numeri con thumbnail |
-| `categorie_wp.json` | 285 categorie con URL |
-| `tag_wp.json` | 816 tag con URL |
-| `immagini_copertina_wp.json` | 3251 thumbnail mappate |
-| `immagini_wp.json` | 5216 immagini con alt/caption/dimensioni |
+| File | Records | Contenuto |
+|------|---------|-----------|
+| `articoli_wp_puliti.json` | 3527 | Articoli con HTML body, lang (IT:3396/EN:131), SEO Yoast completo |
+| `autori_wp.json` | 406 | Autori con bio |
+| `numeri_rivista_wp.json` | 204 | Numeri rivista con thumbnail |
+| `categorie_wp.json` | 285 | Categorie con URL originale |
+| `tag_wp.json` | 816 | Tag con URL originale |
+| `immagini_copertina_wp.json` | 3251 | Thumbnail mappate (post_id → thumbnail_id) |
+| `immagini_wp.json` | 5216 | Immagini con alt/caption/dimensioni/usata_in |
+| `link_interni_yoast.json` | 37440 | Mappa link interni da Yoast (post_id → target_post_id) |
+| `redirects_necessari.json` | 35890 | Slug vecchi e date vecchie da reindirizzare (2574 articoli) |
+
+#### Campi SEO in `articoli_wp_puliti.json`
+
+Estratti da `Sql980379_3_yoast.sql.gz` (`wppp_yoast_indexable` + `wppp_postmeta`):
+
+| Campo | Copertura |
+|-------|-----------|
+| `lang` | 3527 (IT:3396, EN:131) |
+| `yoast_description` | 2787 (79%) |
+| `yoast_og_image` | 3320 (94%) |
+| `yoast_reading_time` | 1729 (49%) |
+| `yoast_title` | 34 (custom override) |
+| `yoast_is_cornerstone` | 1 |
+| `yoast_schema_type` | variabile |
 
 Dettagli tecnici completi: `scripts_and_data/reports/db_analysis_20260320.md`
 
@@ -171,7 +187,7 @@ scripts_and_data/
 
 ## Prossimi Step Immediati
 
-1. Creare `scripts/db_analysis/import_to_directus.py`
-2. Setup VPS Hetzner + Directus
-3. Definire schema Directus definitivo
-4. Test import su ambiente staging
+1. Setup VPS Hetzner (CX32) + Docker + PostgreSQL + pgvector
+2. Installare e configurare Directus
+3. Definire schema Directus definitivo (collections + relazioni)
+4. Creare `scripts/db_analysis/import_to_directus.py` e testare import su staging
