@@ -105,7 +105,62 @@ node scripts/build_articoli_megacluster.js
 
 ---
 
+---
+
+## 5. CMS Keystatic — Stato operativo
+
+**Attivato:** 20 marzo 2026
+
+### URL e accesso
+
+- **URL redazione:** https://keystatic-oel.bold-firefly-5209.workers.dev/keystatic
+- **Autenticazione:** GitHub App "Keystatic OEL" (login con account GitHub)
+- **Accesso:** ogni redattore deve avere accesso write al repo `SegreteriaFL/ombreeluci-astro`
+
+### Architettura
+
+Il CMS è un progetto Node.js separato (`c:\Users\berto\Documents\keystatic-oel\`) deployato come **Cloudflare Worker standalone**, indipendente dal sito principale:
+
+- **Sito principale** (`ombreeluci-astro`) → Cloudflare Pages, output statico, nessun SSR
+- **CMS** (`keystatic-oel`) → Cloudflare Worker, Vite SPA + handler TypeScript
+
+### Flusso pubblicazione
+
+1. Redattore accede all'URL CMS e si autentica con GitHub
+2. Crea o modifica un articolo nell'interfaccia Keystatic
+3. Salva → Keystatic fa un commit automatico su `main` in `src/content/blog/NUOVI/{slug}.md`
+4. Cloudflare Pages rileva il push e avvia il build (~10 minuti)
+5. L'articolo è live sul sito
+
+### Nota critica — GitHub App obbligatoria
+
+Keystatic 0.5.x richiede una **GitHub App** (non una OAuth App standard). Il `tokenDataResultType` del handler si aspetta `expires_in`, `refresh_token` e `refresh_token_expires_in` nella risposta del token exchange — campi presenti solo nei token delle GitHub App. Usare una OAuth App standard produce "Authorization failed" a prescindere dalle credenziali.
+
+- Client ID GitHub App inizia con `Iv1.` (es. `Iv23liiDfMrOul4ToowR`)
+- GitHub App "Keystatic OEL": App ID 3140851, installata su `SegreteriaFL/ombreeluci-astro`
+
+### Variabili d'ambiente sul Worker
+
+Impostate come secrets wrangler (non in `wrangler.toml`):
+
+```
+KEYSTATIC_GITHUB_CLIENT_ID      # Client ID della GitHub App
+KEYSTATIC_GITHUB_CLIENT_SECRET  # Client Secret della GitHub App
+KEYSTATIC_SECRET                # Stringa casuale per firmare i cookie di sessione
+```
+
+### Deploy del Worker
+
+```bash
+cd c:\Users\berto\Documents\keystatic-oel
+npm run build-ui     # Vite SPA → public/keystatic/
+npx wrangler deploy  # richiede CLOUDFLARE_API_TOKEN
+```
+
+---
+
 ## Riferimenti
 
 - **Architettura dati dettagliata:** `docs/ARCHITETTURA_DATI.md`
 - **Script principali:** `scripts/merge_media.js`, `scripts/build_articoli_megacluster.js`, `scripts/patch_bios.js`
+- **Worker CMS:** `c:\Users\berto\Documents\keystatic-oel\`

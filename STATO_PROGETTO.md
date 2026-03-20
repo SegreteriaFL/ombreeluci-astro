@@ -1,143 +1,63 @@
-# 📊 Stato Progetto Ombre e Luci - Astro
+# Stato Progetto Ombre e Luci — Astro
 
-**Data:** 30 Gennaio 2026  
-**Ultimo Aggiornamento:** Analisi stato corrente
-
----
-
-## 🎯 Situazione Attuale
-
-### ✅ Cosa Funziona
-
-1. **Server Astro**: Il server di sviluppo funziona correttamente
-   - Pagina test: `/test-minimal` mostra "✅ Server Funzionante!"
-   - Pagina status: `/test-status` mostra stato server e conteggio articoli
-
-2. **Content Collection**: Configurata correttamente
-   - Schema definito in `src/content/config.ts`
-   - Supporta campi: title, date, author, theme, cluster_id, image, has_comments, etc.
-
-3. **Articoli Markdown**: Presenti nella cartella `src/content/blog/`
-   - Cluster 0: ~3.155 articoli
-   - Altri cluster: vari numeri di articoli
-   - Struttura: `cluster-X/nome-articolo.md`
-
-4. **Pagine Astro**: Create e funzionanti
-   - `index.astro`: Homepage con lista articoli paginata
-   - `blog/[...slug].astro`: Pagina dettaglio articolo
-   - `404.astro`: Pagina errore
-   - `test-status.astro`: Pagina diagnostica
-   - `test-minimal.astro`: Pagina test minimale
-
-### ⚠️ Problemi Identificati
-
-1. **Link "Vai alla Home" non funziona**
-   - **Posizione**: Pagina `/test-minimal`
-   - **Link**: `<a href="/">Vai alla Home</a>`
-   - **Problema**: Quando si clicca, la pagina non si carica o si blocca
-   - **Possibili cause**:
-     - Errore nel caricamento degli articoli in `index.astro`
-     - Problema con `getCollection('blog')` che fallisce silenziosamente
-     - Errore di validazione dello schema Zod
-     - Articoli con dati non validi che bloccano il rendering
-
-2. **Possibile errore nella pagina index.astro**
-   - La pagina cerca di caricare tutti gli articoli con `getCollection('blog')`
-   - Se anche un solo articolo ha dati non validi, potrebbe bloccare tutto
-   - La gestione errori è presente ma potrebbe non catturare tutti i casi
+**Ultimo aggiornamento:** 20 marzo 2026
 
 ---
 
-## 🔍 Analisi Dettagliata
+## Stato attuale: operativo
 
-### Struttura File
+### Sito principale
 
-```
-src/
-├── pages/
-│   ├── index.astro          ← Homepage (potrebbe avere problemi)
-│   ├── blog/[...slug].astro ← Pagina articolo
-│   ├── test-status.astro    ← Diagnostica
-│   ├── test-minimal.astro   ← Test minimale (funziona)
-│   └── 404.astro
-├── content/
-│   ├── config.ts            ← Schema validazione
-│   └── blog/
-│       ├── cluster-0/        ← ~3.155 articoli
-│       ├── cluster-1/        ← ~34 articoli
-│       └── ...               ← Altri cluster
-└── components/
-    └── Header.astro
-```
+- **Deploy:** Cloudflare Pages — output statico, build verde
+- **URL:** https://www.ombreeluci.it (o dominio Cloudflare Pages)
+- **Articoli pubblicati:** 3.488 articoli pre-renderizzati
+- **Body articoli:** rigenerati da sorgente JSON (`html_pulito`) — 2.585 file aggiornati
+- **Adapter:** nessuno (rimosso — output static puro, nessun SSR Worker)
 
-### Schema Validazione (`src/content/config.ts`)
+### CMS redazione
 
-```typescript
-const blog = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    date: z.string().transform((str) => new Date(str)),
-    author: z.string(),
-    theme: z.string(),
-    cluster_id: z.number(),
-    image: z.string().url().optional().nullable(),
-    has_comments: z.boolean(),
-    is_translation: z.boolean().optional(),
-    original_slug: z.string().optional(),
-  }).passthrough(), // Permette campi extra
-});
-```
-
-**Note**: Lo schema usa `.passthrough()` quindi dovrebbe accettare campi extra come `slug`, `pdf_url`, etc.
+- **Deploy:** Cloudflare Worker standalone `keystatic-oel`
+- **URL:** https://keystatic-oel.bold-firefly-5209.workers.dev/keystatic
+- **Stato:** operativo — login GitHub → editing → commit automatico su main
+- **Articoli nuovi:** salvati in `src/content/blog/NUOVI/{slug}.md`
 
 ---
 
-## 🛠️ Azioni da Intraprendere
+## Da fare
 
-### 1. Diagnosi Immediata
+### Priorità alta
 
-- [ ] Verificare errori nella console del server Astro
-- [ ] Testare direttamente l'URL `/` nel browser
-- [ ] Controllare se ci sono articoli con dati non validi
-- [ ] Verificare se `getCollection('blog')` fallisce silenziosamente
+- [ ] **Verifica visiva articoli dopo rigenerazione body** — spot check su un campione di articoli per verificare che la formattazione Markdown sia corretta (nessun residuo HTML grezzo, paragrafi corretti, grassetti/corsivi intatti)
 
-### 2. Fix Potenziali
+### Bug content noti (da catalogare e correggere)
 
-- [ ] Aggiungere logging più dettagliato in `index.astro`
-- [ ] Validare che tutti gli articoli rispettino lo schema
-- [ ] Gestire meglio gli errori nella pagina index
-- [ ] Aggiungere fallback se il caricamento fallisce
+- [ ] **Bio autore duplicata** — in alcune pagine autore la bio appare due volte
+- [ ] **Related box fuori posto** — il box "Leggi anche" appare in posizioni errate su alcuni articoli
+- [ ] **Residui HTML** — alcuni articoli mostrano tag HTML grezzi nel testo (`&lt;br&gt;`, `<p>` ecc.)
 
-### 3. Test
+### SEO
 
-- [ ] Testare il link "Vai alla Home" dopo i fix
-- [ ] Verificare che la homepage carichi correttamente
-- [ ] Testare la navigazione tra pagine
+- [ ] **Redirect SEO da implementare** — gli URL WordPress (`/ANNO/MESE/GIORNO/slug/`) non reindirizzano agli URL Astro (`/blog/slug/`); da implementare in `_redirects` o via `astro.config.mjs`
+
+### Redazione
+
+- [ ] **Accesso redazione da configurare** — i redattori devono avere un account GitHub con accesso write al repo `SegreteriaFL/ombreeluci-astro` per usare Keystatic; da inviare gli inviti
 
 ---
 
-## 📈 Statistiche
+## Architettura deployment
 
-- **Totale Articoli**: ~3.488 (da `ASSET_DEFINITIVI_MIGRAZIONE.md`)
-- **Articoli con Immagini**: 2.514 (72.1%)
-- **Articoli con Slug**: 3.487 (99.97%)
-- **Autori Unici**: 349
-
----
-
-## 🎯 Prossimi Passi
-
-1. **Immediato**: Risolvere il problema del link "Vai alla Home"
-2. **Breve termine**: Verificare che tutti gli articoli siano validi
-3. **Medio termine**: Completare la migrazione (vedi `ASSET_DEFINITIVI_MIGRAZIONE.md`)
+| Componente | Piattaforma | Note |
+|---|---|---|
+| Sito principale | Cloudflare Pages (static) | Build su push a `main` |
+| CMS redazione | Cloudflare Worker (`keystatic-oel`) | Deploy manuale da `keystatic-oel/` |
+| Repo contenuti | GitHub `SegreteriaFL/ombreeluci-astro` | Branch `main` |
+| Database articoli | `src/data/articoli_megacluster.json` | 3.488 articoli, built localmente |
 
 ---
 
-## 📝 Note
+## Note architettura
 
-- Il progetto è in fase di migrazione da WordPress a Astro
-- Gli asset definitivi sono pronti (vedi `_migration_archive/ASSET_DEFINITIVI_MIGRAZIONE.md`)
-- Il re-clustering è ancora da fare
-- La generazione dei redirect SEO è ancora da implementare
+Il sito usa output **statico puro** dopo un tentativo fallito con `output: 'hybrid'` + adapter Cloudflare. Il bundle SSR con 3.488 articoli pre-renderizzati superava i limiti di dimensione dei Cloudflare Pages Functions ("Unknown internal error" al deploy). Il ritorno a static ha risolto il problema.
 
+Il CMS è tenuto separato intenzionalmente per evitare di rimettere SSR nel progetto principale.
