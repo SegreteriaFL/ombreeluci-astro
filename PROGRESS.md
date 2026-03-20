@@ -1,7 +1,7 @@
 # PROGRESS — Ombre e Luci
 
 **Ultimo aggiornamento:** 2026-03-20
-**Stato generale:** Dataset canonico completo (SEO Yoast, link interni, redirect, lang IT/EN). Prossimo step: setup VPS + Directus.
+**Stato generale:** Dataset canonico completo (SEO Yoast, link interni, redirect, lang IT/EN). **VPS Hetzner CX23 creato** (Nuremberg). Prossimo step: Docker + Directus + PostgreSQL sul server.
 
 ---
 
@@ -18,8 +18,8 @@ da WordPress+Divi a uno stack moderno Astro + Directus.
 |-------|-----------|-------|
 | Frontend | Astro (output 100% statico) su Cloudflare Pages | **Attivo** |
 | CMS temporaneo | Keystatic Worker su Cloudflare Workers | **Attivo** (solo nuovi articoli) |
-| CMS pianificato | Directus su Hetzner CX32 | **Da fare** |
-| Database | PostgreSQL + pgvector (Hetzner) | **Da fare** |
+| CMS pianificato | Directus su Hetzner CX23 | **VPS pronto** — stack da installare |
+| Database | PostgreSQL + pgvector (Hetzner) | **Da fare** (dopo Docker) |
 | Storage media | Cloudflare R2 | **Da fare** |
 
 ---
@@ -102,6 +102,20 @@ Dettagli tecnici completi: `scripts_and_data/reports/db_analysis_20260320.md`
 
 ---
 
+## Infra VPS Hetzner (2026-03-20)
+
+| Voce | Valore |
+|------|--------|
+| Piano | **CX23** |
+| IP pubblico | **159.69.196.64** |
+| OS | Ubuntu **24.04** |
+| Regione | **Nuremberg** (nbg1) |
+| Costo | **€4,09/mese** (inclusi backup) |
+
+**Prossimo step immediato:** installazione **Docker** + **Directus** + **PostgreSQL** (e pgvector come da spec).
+
+---
+
 ## Piano Migrazione CMS
 
 Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
@@ -109,7 +123,7 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 ### Fasi
 
 1. **Setup VPS Hetzner + Directus** (~1 giornata)
-   - Hetzner CX32, Docker Compose, PostgreSQL + pgvector
+   - VPS **CX23** creato (vedi sezione Infra sopra); da completare: Docker Compose, PostgreSQL + pgvector
    - Directus con schema custom
 
 2. **Schema Directus** (~1 giornata)
@@ -187,7 +201,7 @@ scripts_and_data/
 
 ## Prossimi Step Immediati
 
-1. Setup VPS Hetzner (CX32) + Docker + PostgreSQL + pgvector
-2. Installare e configurare Directus
+1. Sul VPS **159.69.196.64**: installare **Docker**, **PostgreSQL** (+ pgvector), **Directus** (Compose)
+2. Configurare Directus (env, reverse proxy TLS se necessario)
 3. Definire schema Directus definitivo (collections + relazioni)
 4. Creare `scripts/db_analysis/import_to_directus.py` e testare import su staging
