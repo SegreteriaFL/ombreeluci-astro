@@ -1,5 +1,4 @@
 ---
-
 title: Faccio il viaggio da sola
 date: 1993-06-21
 author: Redazione
@@ -17,20 +16,20 @@ id_numero: "OEL-42"
 numero_rivista: "Ombre e Luci"
 ---
 
-*"Mamma sono due anni che prendo l'autobus da sola per andare al laboratorio con Franca. Le prime volte mi hanno insegnato come si faceva a prendere l'autobus. Mi accompagnava Matteo e qualche volta pure Cecilia e facevamo finta di non conoscerci. Piano piano ho imparato a prenderlo da sola; almeno per uscire da casa. Adesso mi accompagnano alla fermata, faccio il viaggio da sola nell'autobus. A me questo fa molto felice e contenta."*
-
-#### Editoriale
-
-Possibilità e capacità nascoste di Mariangela Bertolini
-
-#### Posso anche io?
-
-«Grazie per avermelo fatto fare da sola» di una mamma «Io ho pulito il tavolo» di N.S. «Faccio io!» di Barbara Non è mai troppo tardi di F.C. Faccio il viaggio da sola di Mirella Membro attivo della Chiesa di N.S. Nonostante l’handicap di Piera Ricompense o punizioni di Henri Bissonier Dovrà stare in un ambiente protetto di Jean Vanier Vivere con i rifiutati di Sergio Sciascia Il grande cocomero di Vittoria Terenzi Un marinaio in treno
-
-#### Rubriche
-
-[Dialogo aperto](http://www.ombreeluci.it/2018/dialogo-aperto-n-42/) [Vita Fede e Luce](http://www.ombreeluci.it/1993/vita-fede-e-luce-n-42/)
-
-#### Libri
-
-L’alfabeto della mia vita , Tina salvi Il bambino che non sentiva dolore , Robert Marion Nessuno in nessun luogo, Donna Williams Le età della vita , Romano Guardini
+_"Mamma sono due anni che prendo l'autobus da sola per andare al laboratorio con Franca. Le prime volte mi hanno insegnato come si faceva a prendere l'autobus. Mi accompagnava Matteo e qualche volta pure Cecilia e facevamo finta di non conoscerci. Piano piano ho imparato a prenderlo da sola; almeno per uscire da casa. Adesso mi accompagnano alla fermata, faccio il viaggio da sola nell'autobus. A me questo fa molto felice e contenta."_ Questo articolo è tratto da
+[Ombre e Luci n.41, 1993](http://www.ombreeluci.it/project/numero-42-posso-anche-io-essere-utile/ "Ombre e Luci n.42 - 1993") [](http://www.ombreeluci.it/project/numero-42-posso-anche-io-essere-utile/ "Ombre e Luci n.42 - 1993") **Sommario** Editoriale Possibilità e capacità nascoste di Mariangela Bertolini Posso anche io? «Grazie per avermelo fatto fare da sola» di una mamma
+«Io ho pulito il tavolo» di N.S.
+«Faccio io!» di Barbara
+Non è mai troppo tardi di F.C.
+Faccio il viaggio da sola di Mirella
+Membro attivo della Chiesa di N.S.
+Nonostante l’handicap di Piera
+Ricompense o punizioni di Henri Bissonier
+Dovrà stare in un ambiente protetto di Jean Vanier
+Vivere con i rifiutati di Sergio Sciascia
+Il grande cocomero di Vittoria Terenzi
+Un marinaio in treno Rubriche [Dialogo aperto](http://www.ombreeluci.it/2018/dialogo-aperto-n-42/ "Dialogo aperto n.41")
+[Vita Fede e Luce](http://www.ombreeluci.it/1993/vita-fede-e-luce-n-42/ "Vita Fede e Luce n.41") Libri L’alfabeto della mia vita, Tina salvi
+Il bambino che non sentiva dolore, Robert Marion
+Nessuno in nessun luogo, Donna Williams
+Le età della vita, Romano Guardini

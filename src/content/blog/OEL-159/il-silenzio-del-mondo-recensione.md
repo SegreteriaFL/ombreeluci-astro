@@ -1,5 +1,4 @@
 ---
-
 title: Il silenzio del mondo — Recensione
 date: 2022-11-07
 author: Giulia Galeotti
@@ -19,28 +18,48 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Il romanzo di Tommaso Avati con protagoniste tre donne attraverso il Novecento (Neri Pozza, 2022)"
 ---
 
-**La disabilità è in chi la vive o in chi la guarda? Il muro esclude o protegge? Cosa mi definisce?** Tre domande per tre donne - la nonna, la madre e la figlia - protagoniste di un romanzo che attraversa il Novecento, finendo per rappresentare molto più di quel che racconta. Oltre che parenti, Rosa, Laura e Francesca sono tutte sorde. Un denominatore comune che però si declina in modo talmente diverso che quasi ce se ne dimentica.
+**La disabilità è in chi la vive o in chi la guarda? Il muro esclude o protegge? Cosa mi definisce?**
 
-Non perché la sordità non sia centrale («È una storia che mi riguarda - ha scritto l'autore - perché parla della sordità che conosco per averla sperimentata sulla mia pelle fin dalla nascita») ma perché quel che viene percepito come un deficit può essere ricondotto a ciò che davvero è. Un elemento della persona, tra gli altri. **Un elemento più o meno ingombrante, più o meno pressante, ci dice questa treccia di donne** , ciascuna con la sua voce e le sue risposte.
+Tre domande per tre donne - la nonna, la madre e la figlia - protagoniste di un romanzo che attraversa il Novecento, finendo per rappresentare molto più di quel che racconta. Oltre che parenti, Rosa, Laura e Francesca sono tutte sorde. Un denominatore comune che però si declina in modo talmente diverso che quasi ce se ne dimentica. Non perché la sordità non sia centrale («È una storia che mi riguarda - ha scritto l'autore - perché parla della sordità che conosco per averla sperimentata sulla mia pelle fin dalla nascita») ma perché quel che viene percepito come un deficit può essere ricondotto a ciò che davvero è. Un elemento della persona, tra gli altri. **Un elemento più o meno ingombrante, più o meno pressante, ci dice questa treccia di donne** , ciascuna con la sua voce e le sue risposte. Il silenzio del mondo **Autore** : Tommaso Avati
+**Editore:**
 
- ### Il silenzio del mondo **Autore** : Tommaso Avati **Editore:** Neri Pozza **Pubblicato:** 10 febbraio 2022 **Pagine:** 240 **Prezzo:** 17€ **ISBN:** 9788854523081 
+Neri Pozza
+**Pubblicato:**
 
-*Editoriale* [**Pagine bianche**](https://www.ombreeluci.it/2022/pagine-bianche/) di *Cristina Tersigni*
+10 febbraio 2022
+**Pagine:**
 
-*Focus: A che gioco giochiamo* **Tempo di vacanze e divertimento** *di Emanuele Bertolini, Matteo Cinti, Arianna Floris, Tea Mazzarotto e Cristina Tersigni*
+240
+**Prezzo:**
 
-*Intervista * [**Produzioni fuori dal comune**](https://www.ombreeluci.it/2022/produzioni-fuori-dal-comune/) *di Cristina Tersigni*
+17€
+**ISBN:**
 
-*Testimonianza * [**TikiTaka**](https://www.ombreeluci.it/2022/tikitaka/) *di Giovanni Vergani*
+9788854523081 Questo articolo è tratto da
+[**Ombre e Luci n. 159, 2022**](https://www.ombreeluci.it/project/numero-159-a-che-gioco-giochiamo/) [](https://www.ombreeluci.it/project/numero-159-a-che-gioco-giochiamo/) **SOMMARIO** _Editoriale_
+[**Pagine bianche**](https://www.ombreeluci.it/2022/pagine-bianche/) di _Cristina Tersigni_ _Focus: A che gioco giochiamo_
+**Tempo di vacanze e divertimento**
 
-Dall'archivio **Andiamo a giocare!** *di Tea Mazzorotto* **Giocare vuol dire diventare attivo** *di Marie-Claude Chivot*
+_di Emanuele Bertolini, Matteo Cinti, Arianna Floris, Tea Mazzarotto e Cristina Tersigni_ _Intervista
+_[**Produzioni fuori dal comune**](https://www.ombreeluci.it/2022/produzioni-fuori-dal-comune/) _di Cristina Tersigni_ _Testimonianza
+_[**TikiTaka**](https://www.ombreeluci.it/2022/tikitaka/) _di Giovanni Vergani_ Dall'archivio
+**Andiamo a giocare!**
 
-*Associazioni * [**La rivoluzione del coltello**](https://www.ombreeluci.it/2022/la-rivoluzione-del-coltello/) *di Cristina Tersigni*
+_di Tea Mazzorotto_
+**Giocare vuol dire diventare attivo**
 
-*Fede e Luce * **Festa al Quirinale** *di Gabriella Buongiorno, Fabio Bronzini, Giovanni Grossi e Giorgia Landucci*
+_di Marie-Claude Chivot_ _Associazioni
+_[**La rivoluzione del coltello**](https://www.ombreeluci.it/2022/la-rivoluzione-del-coltello/) _di Cristina Tersigni_ _Fede e Luce
+_**Festa al Quirinale** _di Gabriella Buongiorno, Fabio Bronzini, Giovanni Grossi e Giorgia Landucci_ **Dialogo aperto** _Libri
+_[**Ognuno ride a modo suo**](https://www.ombreeluci.it/2022/ognuno-ride-a-modo-suo-recensione/) _di Valentina Perniciaro
+_[**Giuditta e l'orecchio del diavolo**](https://www.ombreeluci.it/2022/giuditta-e-lorecchio-del-diavolo-recensione/) _di Francesco D'Adamo
+_[**Il silenzio del mondo**](https://www.ombreeluci.it/2022/il-silenzio-del-mondo-recensione/) _di Tommaso Avati
+_[**Perché non lo portate a Lourdes?**](https://www.ombreeluci.it/2022/perche-non-lo-portate-a-lourdes-recensione/)_di Lorenzo Amurri_ _Diari_
+**Questa cosa non mi piace per niente**
 
-**Dialogo aperto**
+_di Benedetta Mattei_
+**Non perdo mai un incontro**
 
-*Libri * [**Ognuno ride a modo suo**](https://www.ombreeluci.it/2022/ognuno-ride-a-modo-suo-recensione/) *di Valentina Perniciaro * [**Giuditta e l'orecchio del diavolo**](https://www.ombreeluci.it/2022/giuditta-e-lorecchio-del-diavolo-recensione/) *di Francesco D'Adamo * [**Il silenzio del mondo**](https://www.ombreeluci.it/2022/il-silenzio-del-mondo-recensione/) *di Tommaso Avati * [**Perché non lo portate a Lourdes?**](https://www.ombreeluci.it/2022/perche-non-lo-portate-a-lourdes-recensione/) *di Lorenzo Amurri*
-
-*Diari* **Questa cosa non mi piace per niente** *di Benedetta Mattei* **Non perdo mai un incontro** *di Giovanni Grossi*
+_di Giovanni Grossi_ **Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

@@ -1,5 +1,4 @@
 ---
-
 title: "Come bere un bicchier d'acqua"
 date: 1977-12-06
 author: Luis Sankalé
@@ -21,13 +20,42 @@ numero_rivista: "Insieme"
 
 Ogni giorno facciamo dei gesti senza renderci conto che li stiamo facendo. Sembra addirittura che, più li facciamo, meno prestiamo attenzione. Sono gesti divenuti normali, come la vita. Eppure li rifacciamo ogni giorno, come se fossero sempre nuovi.
 
-**Come bere un bicchier d'acqua,** per esempio!
+**Come bere un bicchier d'acqua,**
+
+per esempio!
 
 Nessuno si fa delle domande prima di prendere un bicchier d'acqua. Di solito lo si fa senza difficoltà. Per fortuna! Perché se per attingere dell'acqua avessimo le difficoltà che abbiamo a volte per accogliere i nostri fratelli, avremmo spesso la gola secca! Non è vero?
 
-Vogliamo illustrare quanto detto con cinque esempi. Dopo tutto, non è proibito sorridere riflettendo, né riflettere sorridendo... come preferite!
+Vogliamo illustrare quanto detto con cinque esempi.
+Dopo tutto, non è proibito sorridere riflettendo, né riflettere sorridendo... come preferite!
 
-- **Se provo a riempire d'acqua un bicchiere mettendolo dappertutto tranne sotto il getto d'acqua** , vedrò l'acqua andare dappertutto tranne là dove dovrebbe, cioè dentro al bicchiere. È bene essere accanto alla fonte, ma è ancora meglio esservi semplicemente sotto. *Per accoglierti, fratello, devo cominciare con l'incontrarti.* - **Anche se lo metto sotto al rubinetto, il bicchiere può rimanere vuoto se io lo capovolgo** : l'acqua scorrerà sulle pareti del bicchiere, ma non ne entrerà neanche una goccia. *Quante lacrime scivolano così, sulla corazza del mio egoismo? Come accoglierti se sono tutto ripiegato su me stesso? Non è mai troppo tardi per "convertirmi", per "girarmi verso" di te.* - **E poi, se ho veramente sete, eviterò di mettere un coperchio sul bicchiere.** Sennò sentirò le gocce risuonare come un tamburo, ma il rumore non estinguerà la sete. *Accoglierti, fratello, è anche ascoltarti, cioè prendere le tue parole e i tuoi silenzi sul serio. E solo il silenzio interiore (da non confondere con il silenzio esteriore che ha poca importanza, soprattutto a Fede e Luce!) mi permetterà di riconoscere la tua voce fra i mille rumori che la soffocano.* *Quante parole, quante chiamate mute, "intese" distrattamente durante la giornata, ritornano in mente la sera, nel silenzio della preghiera?* - **Neppure riuscirò a riempire il bicchiere se è già... pieno!** T'è evidente, ma quante volte ci casco! *Come accoglierti, fratello, quando – con o senza danaro – sono tutto ingombro di me stesso, ricco dei miei sintomi, avvolto nei miei pregiudizi?* - La tristezza, a volte, fa i visi come barattoli schiacciati dalla pressa. **Provate a mettere acqua in un barattolo schiacciato...!** *Una comunità viva e vera si costruisce nella gioia!*
+ 1.
+
+**Se provo a riempire d'acqua un bicchiere mettendolo dappertutto tranne sotto il getto d'acqua**
+
+, vedrò l'acqua andare dappertutto tranne là dove dovrebbe, cioè dentro al bicchiere. È bene essere accanto alla fonte, ma è ancora meglio esservi semplicemente sotto.
+_Per accoglierti, fratello, devo cominciare con l'incontrarti._
+ 2.
+
+**Anche se lo metto sotto al rubinetto, il bicchiere può rimanere vuoto se io lo capovolgo**
+
+: l'acqua scorrerà sulle pareti del bicchiere, ma non ne entrerà neanche una goccia.
+_Quante lacrime scivolano così, sulla corazza del mio egoismo? Come accoglierti se sono tutto ripiegato su me stesso? Non è mai troppo tardi per "convertirmi", per "girarmi verso" di te._
+ 3.
+
+**E poi, se ho veramente sete, eviterò di mettere un coperchio sul bicchiere.**
+
+Sennò sentirò le gocce risuonare come un tamburo, ma il rumore non estinguerà la sete.
+_Accoglierti, fratello, è anche ascoltarti, cioè prendere le tue parole e i tuoi silenzi sul serio. E solo il silenzio interiore (da non confondere con il silenzio esteriore che ha poca importanza, soprattutto a Fede e Luce!) mi permetterà di riconoscere la tua voce fra i mille rumori che la soffocano._
+_Quante parole, quante chiamate mute, "intese" distrattamente durante la giornata, ritornano in mente la sera, nel silenzio della preghiera?_
+ 4.
+
+**Neppure riuscirò a riempire il bicchiere se è già... pieno!**
+
+T'è evidente, ma quante volte ci casco!
+_Come accoglierti, fratello, quando – con o senza danaro – sono tutto ingombro di me stesso, ricco dei miei sintomi, avvolto nei miei pregiudizi?_
+ 5. La tristezza, a volte, fa i visi come barattoli schiacciati dalla pressa. **Provate a mettere acqua in un barattolo schiacciato...!**
+_Una comunità viva e vera si costruisce nella gioia!_
 
 Certo, tutto questo è solo un paragone (cfr Rom,9,23). E come tutti i paragoni ha i suoi limiti (quelli che non amano l'acqua mi scusino!). Ma al di là delle immagini, ognuno potrebbe ripensare ad uno dei cinque aspetti menzionati e sforzarsi di metterlo in pratica nei mesi che vengono, per assicurarsi che non abbia più la gola secca.
 
@@ -37,6 +65,15 @@ Se siete "in secca", girate il foglio e leggete la soluzione.
 
 **Soluzioni**
 
-- L'indifferenza - L'egoismo - Il rumore - La ricchezza - L'indifferenza
+ 1. L'indifferenza
+ 2. L'egoismo
+ 3. Il rumore
+ 4. La ricchezza
+ 5. L'indifferenza
 
-*Louis Sankalè* , 1977
+_Louis Sankalè_ , 1977
+
+Questo articolo è tratto da:
+**[Insieme n.15, 1977](https://www.ombreeluci.it/project/insieme-n-15-bollettino-fede-e-luce-1977/)**
+
+[](https://www.ombreeluci.it/project/insieme-n-15-bollettino-fede-e-luce-1977/)

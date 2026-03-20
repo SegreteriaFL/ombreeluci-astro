@@ -23,4 +23,8 @@ Bentrovati miei cari lettori. Eccomi qua. Vi avevo già anticipato nel pezzo pre
 
 Ma come ho sempre detto e lo continuo a ripetere, è stato **fondamentale il supporto di Enrico Testa e di Monica, la mia prima allenatrice.** Mi sembra doveroso ricordare anche chi ha reso possibile che questo sogno piano piano si realizzi. Io non sarei qua oggi a raccontarvi della mia esperienza sportiva e a dirvi che ce la possiamo fare tutti al di là della disabilità.
 
-Detto questo vi confermo che per il terzo anno consecutivo mi sono portata a casa la medaglia d'oro quindi primo posto anche questa volta, nei 25 metri dorso. Che dire? **Mai sottovalutarsi!** E poi vabbè, ci sono anche delle altre novità, ma aspetto che mi arrivi del materiale per poi farvelo vedere. L'anno scorso... vi ricordate? Vi avevo già detto che ne avevo due di gare vicine e quest'anno ne ho fatta una. Per l'altra dovete aspettare un po'. Eh sì! Più avanti leggerete e scoprirete quante cose belle ha in serbo la vita per noi.
+Detto questo vi confermo che per il terzo anno consecutivo mi sono portata a casa la medaglia d'oro quindi primo posto anche questa volta, nei 25 metri dorso. Che dire?
+
+**Mai sottovalutarsi!**
+
+E poi vabbè, ci sono anche delle altre novità, ma aspetto che mi arrivi del materiale per poi farvelo vedere. L'anno scorso... vi ricordate? Vi avevo già detto che ne avevo due di gare vicine e quest'anno ne ho fatta una. Per l'altra dovete aspettare un po'. Eh sì! Più avanti leggerete e scoprirete quante cose belle ha in serbo la vita per noi.

@@ -1,5 +1,4 @@
 ---
-
 title: "Il nostro autismo quotidiano: Storie di genitori e figli - Recensione"
 date: 2003-12-22
 author: Mariangela Bertolini
@@ -19,6 +18,4 @@ umap_z: 4.70657205581665
 subtitle: "A cura di C. Hanau, e di D. Mariani Cerati - Ed. Erikson. pp. 215."
 ---
 
-“Il filo rosso che percorre le storie raccontate in questo libro da genitori di bambini autistici è il coraggio di non arrendersi alle avversità. Avversità che sono quelle della sorte, che ha portato nella loro famiglia un disturbo subdolo o devastante e spesso - purtroppo - anche quelle dell’ignoranza e dell’incapacità di chi, per compito istituzionale, dovrebbe aiutarli. La profonda dignità che traspare da queste pagine sarà un conforto per le persone che vivono situazioni simili e un invito a valorizzarne il ruolo e le risorse”, (dalla copertina). Lo consigliamo non solo a chi vive direttamente vicino a persone con autismo, ma anche a medici, educatori, sacerdoti, amici perché, al di là di una certa drammaticità, questo testo è pieno di informazioni utili e preziose per un corretto e proficuo approccio con queste persone. -
-*Mariangela Bertolini*
-, 2003
+“Il filo rosso che percorre le storie raccontate in questo libro da genitori di bambini autistici è il coraggio di non arrendersi alle avversità. Avversità che sono quelle della sorte, che ha portato nella loro famiglia un disturbo subdolo o devastante e spesso - purtroppo - anche quelle dell’ignoranza e dell’incapacità di chi, per compito istituzionale, dovrebbe aiutarli. La profonda dignità che traspare da queste pagine sarà un conforto per le persone che vivono situazioni simili e un invito a valorizzarne il ruolo e le risorse”, (dalla copertina). Lo consigliamo non solo a chi vive direttamente vicino a persone con autismo, ma anche a medici, educatori, sacerdoti, amici perché, al di là di una certa drammaticità, questo testo è pieno di informazioni utili e preziose per un corretto e proficuo approccio con queste persone. \- _Mariangela Bertolini_ , 2003

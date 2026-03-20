@@ -1,5 +1,4 @@
 ---
-
 title: "Cinema e disabilità: i 3 film di Enrica Riera"
 date: "2020-01-16"
 author: "Enrica Riera"
@@ -61,22 +60,22 @@ Your content goes here. Edit or remove this text inline or in the module Content
 
 ## Edward mani di forbice
 
-*(Edward Scissorhands, Usa 1990, 100 minuti) di Tim Burton. Con Johnny Depp, Winona Ryder, Dianne Wiest, Vincent Price, Alan Arkin, Anthony Michael Hall, Kathy Baker*
+_(Edward Scissorhands, Usa 1990, 100 minuti) di Tim Burton. Con Johnny Depp, Winona Ryder, Dianne Wiest, Vincent Price, Alan Arkin, Anthony Michael Hall, Kathy Baker_
 
-Il giovane Edward non ha le mani. Due forbici affilate le sostituiscono. Quando arriva nella “moderna” periferia qualcuno nutre diversi pregiudizi; qualcun altro, dopo averlo meglio conosciuto, afferma che «non è cattivo, è solo sbagliato». Con *Edward mani di forbice*, Tim Burton racconta, con uno stile fiabesco e inconfondibile, una storia d’emarginazione e, sì, pure di disabilità e mancanze. Nel finale sarà Edward, l’escluso, il reietto, colui che non può abbracciare, a sorprendere chi gli ha sempre tolto qualcosa, regalandogli l’incanto della neve. Come a offrire uno sguardo di purezza al mondo intero.
+Il giovane Edward non ha le mani. Due forbici affilate le sostituiscono. Quando arriva nella “moderna” periferia qualcuno nutre diversi pregiudizi; qualcun altro, dopo averlo meglio conosciuto, afferma che «non è cattivo, è solo sbagliato». Con _Edward mani di forbice_ , Tim Burton racconta, con uno stile fiabesco e inconfondibile, una storia d’emarginazione e, sì, pure di disabilità e mancanze. Nel finale sarà Edward, l’escluso, il reietto, colui che non può abbracciare, a sorprendere chi gli ha sempre tolto qualcosa, regalandogli l’incanto della neve. Come a offrire uno sguardo di purezza al mondo intero.
 
 ## Il discorso del re
 
-*(The King’s speech, Gran Bretagna, Australia, 2010, 111 minuti) di Tom Hooper. Con Colin Firth, Geoffrey Rush, Helena Bonham Carter, Guy Pearce, Jennifer Ehle*
+_(The King’s speech, Gran Bretagna, Australia, 2010, 111 minuti) di Tom Hooper. Con Colin Firth, Geoffrey Rush, Helena Bonham Carter, Guy Pearce, Jennifer Ehle_
 
 Quattro Oscar nel 2011, questo film è la storia del futuro re Giorgio VI d’Inghilterra, già duca di York, e dei suoi reali (nel senso di veramente esistiti) problemi di balbuzie. Ambientato tra il 1925 e il 1940, rompe tabù e silenzi sulle difficoltà di linguaggio, più frequenti di quanto si pensi e ancor oggi considerate una vergogna, quasi un’onta capace di suscitare superficiale ilarità. Con leggerezza e battute indimenticabili dei protagonisti, a trasmettersi è un messaggio chiaro. A un certo punto del film lo pronuncia proprio re Giorgio: «Ho diritto a essere sentito. Io ho una voce».
 
 ## La guerra è dichiarata
 
-*(La guerre est déclaré, Francia, 2011, 100 minuti) di Valérie Donzelli. Con Valérie Donzelli, Jérémie Elkaïm, Gabriel Elkaïm, Brigitte Sy, Elina Löwensohn*
+_(La guerre est déclaré, Francia, 2011, 100 minuti) di Valérie Donzelli. Con Valérie Donzelli, Jérémie Elkaïm, Gabriel Elkaïm, Brigitte Sy, Elina Löwensohn_
 
 Si tratta di un film dedicato a chi reagisce, a chi combatte, a chi ha voglia di resistere ed esistere. A chi è genitore di un bambino malato o con disabilità; a chi è genitore e basta. Giulietta e Romeo, ad esempio, sono la mamma e il papà di Adam, che ha 18 mesi e una rara forma di cancro al cervello. Insieme dichiarano guerra alla malattia, guidati da una forte determinazione e, soprattutto, da un amore contagioso. Non si è davanti a una tragedia, come suggerirebbero i nomi dei due protagonisti, ma a una storia (tra l’altro accaduta realmente a Donzelli e a Elkaïm) di fiducia e perseveranza. Contro tutti e tutto.
 
-### Speciale Cinema e disabilità
+### Speciale [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/ "Speciale Cinema e disabilità - Ombre e Luci")
 
 Con i contributi di:

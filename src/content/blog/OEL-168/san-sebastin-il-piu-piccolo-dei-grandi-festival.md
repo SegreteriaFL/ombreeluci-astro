@@ -29,7 +29,11 @@ Non viene raccontato nulla del loro passato come coppia, perché non ha più imp
 
 Il SSIFF ha molte altre sezioni oltre al concorso principale e nel cinema latinoamericano viene considerata molto prestigiosa “Horizontes Latinos” che presenta il meglio del cinema proveniente dalla cultura Latina nel mondo. In *Querido Trópico* della panamense Ana Endara, un’immigrata colombiana diventa badante di una ricca donna di Panamá alle prese con una demenza senile non più arrestabile. L’infermiera, mentre si prende cura della paziente con cui sviluppa un rapporto sempre più affettuoso, affronta anche il suo insuperato dolore di non essere ancora mai diventata madre.
 
-Mentre l’una piano piano perde le asprezze dell’età avanzata per tornare alla tenerezza dell’infanzia, l’altra può manifestare quella delicatezza materna che forse vorrebbe mettere in pratica in un altro ruolo. **È nell’incrocio tra le due identità indefinite - l’una perché sta svanendo, l’altra perché si nutre di troppi sogni - che si crea un punto di contatto che supera le barriere** geografiche, anagrafiche e sociali; può accadere solo in un momento di breve e sincera dolcezza, inaccessibile alla comprensione di chiunque altro.
+Mentre l’una piano piano perde le asprezze dell’età avanzata per tornare alla tenerezza dell’infanzia, l’altra può manifestare quella delicatezza materna che forse vorrebbe mettere in pratica in un altro ruolo.
+
+**È nell’incrocio tra le due identità indefinite - l’una perché sta svanendo, l’altra perché si nutre di troppi sogni - che si crea un punto di contatto che supera le barriere**
+
+geografiche, anagrafiche e sociali; può accadere solo in un momento di breve e sincera dolcezza, inaccessibile alla comprensione di chiunque altro.
 Ombre e Luci è anche una newsletter
 Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
 Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

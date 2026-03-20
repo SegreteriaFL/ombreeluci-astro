@@ -1,5 +1,4 @@
 ---
-
 title: Il libro di Cristopher - A Wonder Story - Recensione
 date: 2016-03-25
 author: Cristina Tersigni
@@ -17,7 +16,4 @@ id_numero: "OEL-133"
 numero_rivista: "Ombre e Luci"
 ---
 
-Una giornata dell’amico più caro di Auggie - il ragazzino affetto da una sindrome che comporta gravi malformazioni del cranio e del volto- ormai lontano da lui dopo il trasloco in un’altra città. La lontananza non è tale però da far dimenticare il ruolo che ha avuto e ha l’essere amici di una persona con una faccia così “fenomenale”. Certe esperienze e certe amicizie segnano per sempre, soprattutto se valgono uno sforzo in più. -
-*Cristina Tersigni*
-, 2016 Questo articolo è tratto da
-[Ombre e Luci n.133](https://www.ombreeluci.it/project/numero-133-chiamati-al-traguardo/)
+Una giornata dell’amico più caro di Auggie - il ragazzino affetto da una sindrome che comporta gravi malformazioni del cranio e del volto- ormai lontano da lui dopo il trasloco in un’altra città. La lontananza non è tale però da far dimenticare il ruolo che ha avuto e ha l’essere amici di una persona con una faccia così “fenomenale”. Certe esperienze e certe amicizie segnano per sempre, soprattutto se valgono uno sforzo in più. - _Cristina Tersigni_ , 2016 Questo articolo è tratto da [Ombre e Luci n.133](https://www.ombreeluci.it/project/numero-133-chiamati-al-traguardo/ "Ombre e Luci n.133") [](https://www.ombreeluci.it/project/numero-133-chiamati-al-traguardo/ "Ombre e Luci n.133")

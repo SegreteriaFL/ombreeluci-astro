@@ -15,4 +15,5 @@ issue_number: OEL-20
 id_numero: "OEL-20"
 numero_rivista: "Ombre e Luci"
 ---
+
 <iframe src="https://archive.org/stream/OmbreELuci_017?ui=embed" width="100%" height="530" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>

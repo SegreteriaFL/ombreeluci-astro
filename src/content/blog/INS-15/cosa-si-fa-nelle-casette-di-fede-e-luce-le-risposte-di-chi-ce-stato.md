@@ -1,5 +1,4 @@
 ---
-
 title: "Cosa si fa nelle \"casette\" di Fede e Luce? Le risposte di chi c'è stato"
 date: "1977-09-20"
 author: "Redazione"
@@ -26,13 +25,18 @@ In due locali gentilmente messi a disposizione dall'Istituto Nazareth, i nostri 
 Lavori manuali, giochi e qualche passeggiata al mattino, mentre un piccolo gruppo prepara il pranzo;z poi si mangia tutti insieme su tavoli coperti da tovaglie di plastica a quadretti rossi o blu quindi mentre un altro gruppo riordina, ancora si gioca, all'aperto se il tempo è bello, o si canta seduti in terra in giardino, dove la canzone di uno diventa subito in canzone di tutti. E se occorre qualcosa di imprevisto, ai ricorre all... "nonna" ([suor Anna Pantanella](https://www.ombreeluci.it/2003/grazie-madre-pantanella/), per chi non la conoscesse), sempre affettuosamente disponibile alle più disparate richieste.
 
 Verso le tre del pomeriggio arriva Louis Sankalè (ma qualche volta riesce a venire dal mattino); allora, disposti in cerchio gli sgabelli, lui stesso seduto su uno di questi davanti a un basso tavolino - come già Michel prima di tornare in Francia - celebra per tutti una messa che taluni potranno forse trovare un pò informale, ma alla quale tutti indistintamente riconoscono il carattere dell'autenticità.
-Quando è l'ora di andare, i ragazzi non vorrebbero lasciarsi: c'è un po' di malinconia, come sempre quando una cosa bella finisce, ma v'è anche la certezza che l'esperienza si ripeterà presto.
+
+**Quando è l'ora di andare, i ragazzi non vorrebbero lasciarsi**
+
+: c'è un po' di malinconia, come sempre quando una cosa bella finisce, ma v'è anche la certezza che l'esperienza si ripeterà presto.
 
 Ritengo che questa possa essere l'occasione più opportuna per dire pubblicamente ai giovani amici che animano la "casetta" - a Guenda per prima, ma anche a Francesca, Pinino, Maria Laura, Pietro, Cristiana, Ugo o tutti gli altri (50 sono troppi per nominarli ad uno ad uno) - per **dire un'affettuosa parola di ringraziamento, a nome dei nostri ragazzi** che a volte non sanno esprimerla se non con un grido o con un lancio di oggetti vari ed a nome dei genitori che quel grazie lo hanno chiuso dentro di loro. Ragazzi, in autunno riprenderemo l'iniziativa?
 
 Ma la migliore testimonianza di ciò che in "casetta" rappresenta, possono darla certamente i nostri giovani amici ai quali è stato chiesto di dire perché vengono alla "casetta". Le loro risposte sono di seguito riportate così come da loro stessi espresso.
 
-*Una persona che ha seguito da vicino la "casetta"*, 1977
+_Una persona che ha seguito da vicino la "casetta"_ , 1977
+
+* * *
 
 ### Io vado alla "Casetta" perché...
 
@@ -50,7 +54,9 @@ Ma io vi dico cercate di "Amare" sul serio.
 
 Se non ci riuscite, pazienza! Ma almeno provate.
 
-*Nanni*
+_Nanni_
+
+* * *
 
 ### "Pregare tirando birilli"
 
@@ -68,7 +74,9 @@ Con questo vittoria che è stata raggiunta nel mettere su, organizzare e prepara
 
 Mi piacerebbe ancora descrivervi moltissimi altri momenti di una sola giornata passata tutti insieme, ma lo trovo estremamente complicato! E poi per vedere e sapere certe cose bisogna veramente averle vissute.
 
-*Francesca Mancini*
+_Francesca Mancini_
+
+* * *
 
 ### Domande senza significato
 
@@ -84,7 +92,9 @@ Un unico errore da non ripetere è quello della eccessiva numerosità: penso inf
 
 Nient'altro da aggiungere, oltre alla promessa di un sempre maggiore impegno, di una maggiore disponibilità ed un grossissimo grazie a tutti!
 
-*Alessandro*
+_Alessandro_
+
+* * *
 
 ### La casetta è un amico
 
@@ -94,7 +104,9 @@ Ma la cosa più interessante è il fatto che questo luogo ci insegna a vivere la
 
 Insomma la Casetta è un vero e proprio amico.
 
-*Giulio Barluzzi*
+_Giulio Barluzzi_
+
+* * *
 
 ### Chi aiuta chi?
 
@@ -106,7 +118,9 @@ Poi mi sono affezionata a tutti gli amici della casetta, avvicinandomi sempre pi
 
 La Casetta è qualcosa che mi hai aiutata, che mi aiuta e che mi lega agli altri.
 
-*Un'amica*
+_Un'amica_
+
+* * *
 
 ### Il motivo
 
@@ -116,7 +130,9 @@ Forse il mio è un discorso egoistico, ma mi sono resa conto cho vengo più per 
 
 Trovo che ogni persona, a prescinde dalla sua condizione, abbia qualcosa di umano e la casetta per me, non ha tanto il significato di condurre le persone a un grado più alto di capacità o maturità mentale - tanto più che non ne sarei capace - quanto di poter avere un contatto con handicappati che, in quanto esseri, sono come me.
 
-*Cristiana*
+_Cristiana_
+
+* * *
 
 ### Una buona strada
 
@@ -130,11 +146,14 @@ Per quanto riguarda come io vedo che debba svilupparsi questa vita della Casetta
 
 E mi pare che siamo sulla buona strada!
 
-*Francesco*
+_Francesco_
+
+* * *
 
 ### La matematica non è un'opinione
 
-Perché la matematica non può essere un opinione? **Più spesso di quanto si creda questo può essere provato o perlomeno spiegato da un'esperienza vissuta che seppure avvenuta in una certa circostanza e in un certo momento può venire valutata da persone di diversa condizione economica, intellettuale, intellettiva.
+Perché la matematica non può essere un opinione?
+Più spesso di quanto si creda questo può essere provato o perlomeno spiegato da un'esperienza vissuta che seppure avvenuta in una certa circostanza e in un certo momento può venire valutata da persone di diversa condizione economica, intellettuale, intellettiva.
 
 Questo secondo me comporta anche una differente veduta della situazione che così come si è presentata, mi ha dato un totale che invece è diventato diverso poco tempo dopo.
 
@@ -142,9 +161,12 @@ Eppure le cifre di base erano le stesse; ma durante il procedimento dell'operazi
 
 Spero tutto questo possa continuare ancora.
 
-*Eleonora*
+_Eleonora_
 
-E concludiamo con il "pensierino" di Pinino, Daniele e Pietro
+* * *
+
+**E concludiamo con il "pensierino" di Pinino, Daniele e Pietro**
+
 ### ...ovviamente...
 
 Ci hanno chiesto di spiegare i motivi per chi abbiamo iniziato a venire alla Casetta, o con quale spirito abbiamo partecipato. Non c'è molto da dire!
@@ -158,3 +180,8 @@ Per quanto riguarda lo spirito, non c'è niente di particolare da dire: ci siamo
 Il segreto della casetta è tutto qui: ci si trova, si gioca, si canta, si scherza insieme e alla fine (ovviamente!) siamo tutti più sereni e più allegri.
 
 Ci sembra che non sia altro da aggiungere.
+
+Questo articolo è tratto da:
+**[Insieme n.14, 1977](https://www.ombreeluci.it/project/insieme-n-14-bollettino-fede-e-luce-1977/)**
+
+[](https://www.ombreeluci.it/project/insieme-n-14-bollettino-fede-e-luce-1977/)

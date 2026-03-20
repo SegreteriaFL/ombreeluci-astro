@@ -1,5 +1,4 @@
 ---
-
 title: Bando di Concorso per auto-adesivo del pellegrinaggio
 date: 1977-12-02
 author: Redazione
@@ -21,22 +20,29 @@ subtitle: "Inviateci le vostre proposte per l'adesivo del pellegrinaggio ad Assi
 
 In occasione del pellegrinaggio, tutti siete invitati a partecipare al concorso di disegno per autoadesivo (il disegno può essere a colori o a penna).
 
-**Tema: Il Cantico delle creature - "Laudato si' mi Signore per...** ognuno sceglie la laude che preferisce: sole, l'aria, acqua, fuoco, fiori ecc.
+**Tema: Il Cantico delle creature - "Laudato si' mi Signore per...**
 
-**FORMATO : Una pagina di quaderno** Il disegno dovrà essere inviato alla Segreteria Nazionale Fede e Luce Via Cola di Rienzo 140 - 00192 ROMA, entro il 31 novembre 1977.
+ognuno sceglie la laude che preferisce: sole, l'aria, acqua, fuoco, fiori ecc.
+
+**FORMATO : Una pagina di quaderno**
+Il disegno dovrà essere inviato alla Segreteria Nazionale Fede e Luce Via Cola di Rienzo 140 - 00192 ROMA, entro il 31 novembre 1977.
 
 Una giuria sceglierà il migliore per farne l'autoadesivo del pellegrinaggio.
 
 Inoltre i due più belli saranno pubblicati sul giornalino.
 
-
-
----
+* * *
 
 Con questo numero scade l'abbonamento a "Insieme".
 
-Per rinnovarlo basta inviare Lire 1.500 attraverso il modulo del Conto Corrente qui incluso. Chi lo avesse già rinnovato può passare il modulo a qualche nuovo amico.
+Per rinnovarlo basta inviare Lire 1.500 attraverso il modulo del Conto Corrente qui incluso.
+Chi lo avesse già rinnovato può passare il modulo a qualche nuovo amico.
 
 PS: Segnalare eventuali cambiamenti di indirizzo.
 
 Grazie!
+
+Questo articolo è tratto da:
+**[Insieme n.15, 1977](https://www.ombreeluci.it/project/insieme-n-15-bollettino-fede-e-luce-1977/)**
+
+[](https://www.ombreeluci.it/project/insieme-n-15-bollettino-fede-e-luce-1977/)

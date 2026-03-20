@@ -1,5 +1,4 @@
 ---
-
 title: "L'ora di greco | Recensione"
 date: 2025-02-12
 author: Giulia Galeotti
@@ -22,6 +21,25 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Il legame tra una donna muta e un uomo cieco in una prosa quasi lirica. Han Kang, Nobel 2024 per la letteratura (Adelphi, 2023)"
 ---
 
-Ha al centro la disabilità, l’ultimo romanzo tradotto in italiano della neo vincitrice del premio Nobel per la letteratura 2024: *L’ora di greco* della sudcoreana Han Kang racconta infatti il legame che, attorno alla lingua di Atena, viene a crearsi tra una donna muta e un uomo non-vedente. **Siamo a Seoul: lei ha perso la parola per un trauma, lui** – rientrato in patria dopo essere emigrato in Germania da ragazzo – **sta scivolando nella cecità a causa di una malattia.** Caldo e solitudine sono atroci in città («Cammina per non dover ossessivamente raccogliere e ricomporre i cocci dei ricordi nel niente dell’alba»), ma una brezza di vita può essere ritrovata. A patto, però, di cercarla insieme, ci sussurra Han Kang, confermando la sua prosa attenta, lenta. Quasi lirica.
+Ha al centro la disabilità, l’ultimo romanzo tradotto in italiano della neo vincitrice del premio Nobel per la letteratura 2024: _L’ora di greco_ della sudcoreana Han Kang racconta infatti il legame che, attorno alla lingua di Atena, viene a crearsi tra una donna muta e un uomo non-vedente.
 
- ### L'ora di greco **Autore** : Han Kang **Traduzione:** Lia Iovenitti ** Editore:** Adelphi **Pubblicato:** 2023 **Pagine:** 156 **Prezzo:** 19€ **ISBN:** [9788845938337](https://www.adelphi.it/libro/9788845938337)
+**Siamo a Seoul: lei ha perso la parola per un trauma, lui**
+
+– rientrato in patria dopo essere emigrato in Germania da ragazzo – **sta scivolando nella cecità a causa di una malattia.** Caldo e solitudine sono atroci in città («Cammina per non dover ossessivamente raccogliere e ricomporre i cocci dei ricordi nel niente dell’alba»), ma una brezza di vita può essere ritrovata. A patto, però, di cercarla insieme, ci sussurra Han Kang, confermando la sua prosa attenta, lenta. Quasi lirica. L'ora di greco **Autore** : Han Kang
+**Traduzione:**
+
+Lia Iovenitti**
+Editore:** Adelphi
+**Pubblicato:**
+
+2023
+**Pagine:**
+
+156
+**Prezzo:**
+
+19€
+**ISBN:**
+
+[9788845938337](https://www.adelphi.it/libro/9788845938337) Questo articolo è tratto da
+[**Ombre e Luci n.168**](https://www.ombreeluci.it/project/numero-168-sorelle-tutte/) [](https://www.ombreeluci.it/project/numero-168-sorelle-tutte/)

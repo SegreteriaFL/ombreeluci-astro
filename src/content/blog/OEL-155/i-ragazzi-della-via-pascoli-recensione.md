@@ -1,5 +1,4 @@
 ---
-
 title: I ragazzi della via Pascoli - Recensione
 date: 2021-11-05
 author: Nicla Bettazzi
@@ -17,28 +16,51 @@ id_numero: "OEL-155"
 numero_rivista: "Ombre e Luci"
 ---
 
-Pino e il fratello Rino nascono a Trieste nella casa del silenzio: **mamma e papà sono sordomuti.** È una casa poverissima, ma i bambini vi crescono felici. Finché una zia estranea ma benintenzionata si mette in mezzo: tolti ai genitori, i bambini finiscono in collegio. E così compaiono i cattivi: ora Pino e Rino sono due dei trecento ragazzi che vivono «a completa disposizione delle mani e dell’umore degli assistenti», l’infanzia viene strappata via. Esistenze negate, relegate ai margini, quelle nell’Istituto, **ma basta che la vita mostri uno spiraglio di umanità, di bello, perché qualcosa riprenda a scorrere.** Inizia come una fiaba questo splendido libro di Pino Roveredo, un racconto che si dipana col linguaggio leggero e disarmante dell’infanzia, dove la sensibilità dei vinti ha luce propria e il dolore lancinante del piccolo protagonista non è rimosso, ma ha la vitalità della voglia di futuro.
+Pino e il fratello Rino nascono a Trieste nella casa del silenzio:**mamma e papà sono sordomuti.** È una casa poverissima, ma i bambini vi crescono felici. Finché una zia estranea ma benintenzionata si mette in mezzo: tolti ai genitori, i bambini finiscono in collegio. E così compaiono i cattivi: ora Pino e Rino sono due dei trecento ragazzi che vivono «a completa disposizione delle mani e dell’umore degli assistenti», l’infanzia viene strappata via. Esistenze negate, relegate ai margini, quelle nell’Istituto, **ma basta che la vita mostri uno spiraglio di umanità, di bello, perché qualcosa riprenda a scorrere.** Inizia come una fiaba questo splendido libro di Pino Roveredo, un racconto che si dipana col linguaggio leggero e disarmante dell’infanzia, dove la sensibilità dei vinti ha luce propria e il dolore lancinante del piccolo protagonista non è rimosso, ma ha la vitalità della voglia di futuro. I ragazzi della via Pascoli **Autore** : Pino Roveredo
+**Editore:**
 
- ### I ragazzi della via Pascoli **Autore** : Pino Roveredo **Editore:** Bompiani **Pubblicato:** Giugno 2021 **Pagine:** 128 **Prezzo:** 13€ **ISBN:** 9788830104587 
+Bompiani
+**Pubblicato:**
 
-*Editoriale* ** ** [**Sogni per niente speciali**](https://www.ombreeluci.it/2021/sogni-per-niente-speciali/) di Cristina Tersigni
+Giugno 2021
+**Pagine:**
 
-*Focus: Lavoro* [**Mi sento grande**](https://www.ombreeluci.it/2021/mi-sento-grande/) di Silvia Freschi ** [Dietro le quinte di un'assunzione](https://www.ombreeluci.it/2021/dietro-le-quinte-di-unassunzione/)** di Cristina Tersigni ** [Diario di Efrem lavoratore](https://www.ombreeluci.it/2021/diario-di-efrem-lavoratore/)** di Efrem Sardella
+128
+**Prezzo:**
 
-*Intervista* [**Quarantadue chilometri tra Bellizzi e New York**](https://www.ombreeluci.it/2021/quarantadue-chilometri-tra-bellizzi-e-new-york/) di Enrica Riera
+13€
+**ISBN:**
 
-*Testimonianza* [**Quel regalo immenso chiamato vaccino**](https://www.ombreeluci.it/2021/quel-regalo-immenso-chiamato-vaccino/) di Isabella Corsini
+9788830104587 Questo articolo è tratto da
+[**Ombre e Luci n. 155, 2021**](https://www.ombreeluci.it/project/numero-155-lavoro/) [](https://www.ombreeluci.it/project/numero-155-lavoro/) **SOMMARIO** _Editoriale_**
+**[**Sogni per niente speciali**](https://www.ombreeluci.it/2021/sogni-per-niente-speciali/)di Cristina Tersigni _Focus: Lavoro_
+[**Mi sento grande**](https://www.ombreeluci.it/2021/mi-sento-grande/)di Silvia Freschi**
+[Dietro le quinte di un'assunzione](https://www.ombreeluci.it/2021/dietro-le-quinte-di-unassunzione/)** di Cristina Tersigni**
+[Diario di Efrem lavoratore](https://www.ombreeluci.it/2021/diario-di-efrem-lavoratore/)** di Efrem Sardella _Intervista_
+[**Quarantadue chilometri tra Bellizzi e New York**](https://www.ombreeluci.it/2021/quarantadue-chilometri-tra-bellizzi-e-new-york/) di Enrica Riera _Testimonianza_
+[**Quel regalo immenso chiamato vaccino**](https://www.ombreeluci.it/2021/quel-regalo-immenso-chiamato-vaccino/) di Isabella Corsini _Associazioni_
+**Stasera milonga?**
 
-*Associazioni* **Stasera milonga?** di Cristina Tersigni
+di Cristina Tersigni _Dall'archivio_
+**Per un lavoro umano**
 
-*Dall'archivio* **Per un lavoro umano** di Maria Teresa Cabras
+di Maria Teresa Cabras _Fede e Luce_
+**Un fiume lungo quanto il Mediterraneo**
 
-*Fede e Luce* **Un fiume lungo quanto il Mediterraneo** di Liliana Ghiringhelli
+di Liliana Ghiringhelli _Spettacoli_
+[**Sentire la fine del mondo**](https://www.ombreeluci.it/2021/sentire-la-fine-del-mondo/) di Claudio Cinus **Dialogo Aperto
+** _Libri_
+**E questo è niente**
 
-*Spettacoli* [**Sentire la fine del mondo**](https://www.ombreeluci.it/2021/sentire-la-fine-del-mondo/) di Claudio Cinus
+di Michele Cecchini**
+Ragazza Aspy** di Agnese Spotorno**
+[I ragazzi della via Pascoli](https://www.ombreeluci.it/2021/i-ragazzi-della-via-pascoli-recensione/)** di Pino Roveredo**
+Frammenti di solitudine** di Riccardo Sollini _Diari_
+**Perché il mare non è sempre lo stesso?**
 
-**Dialogo Aperto **
+di Benedetta Mattei
+**Visita a Roccamonfina**
 
-*Libri* **E questo è niente** di Michele Cecchini ** Ragazza Aspy** di Agnese Spotorno ** [I ragazzi della via Pascoli](https://www.ombreeluci.it/2021/i-ragazzi-della-via-pascoli-recensione/)** di Pino Roveredo ** Frammenti di solitudine** di Riccardo Sollini
-
-*Diari* **Perché il mare non è sempre lo stesso?** di Benedetta Mattei **Visita a Roccamonfina** di Giovanni Grossi
+di Giovanni Grossi **Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

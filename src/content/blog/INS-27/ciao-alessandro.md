@@ -1,5 +1,4 @@
 ---
-
 title: Ciao Alessandro
 date: 1980-06-16
 author: Redazione
@@ -17,8 +16,15 @@ id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
 
-Gesù, Tu hai detto: "Venite a me Voi tutti che siete affaticati e stanchi. ed Io vi darò ristoro".
-
-Accogli nella gloria della tua pace il nostro fratello Alessandro, che ti ha servito con umiltà nel silenzio e nella rinuncia di sé;
-
-aiuta tutti noi a comprendere il messaggio di Vita portato da questi tuoi umili e silenziosi profeti.
+Gesù,
+Tu hai detto: "Venite a me
+Voi tutti che siete affaticati e stanchi.
+ed Io vi darò ristoro". Accogli nella gloria della tua pace
+il nostro fratello Alessandro,
+che ti ha servito con umiltà
+nel silenzio e nella rinuncia di sé; aiuta tutti noi
+a comprendere il messaggio di Vita
+portato da questi tuoi
+umili e silenziosi profeti.Questo articolo è tratto da:
+**[Insieme n.25, 1980](https://www.ombreeluci.it/project/insieme-n-25-bollettino-fede-e-luce-1980/)
+[](https://www.ombreeluci.it/project/insieme-n-25-bollettino-fede-e-luce-1980/)**

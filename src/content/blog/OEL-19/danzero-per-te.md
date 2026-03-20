@@ -1,5 +1,4 @@
 ---
-
 title: "Danzerò per te"
 date: "1987-09-25"
 author: "Redazione"
@@ -17,17 +16,4 @@ id_numero: "OEL-19"
 numero_rivista: "Ombre e Luci"
 ---
 
-Chi avrebbe immaginato che la piccola Mireille — che a due anni aveva avuto un piedino schiacciato in un ascensore — sarebbe diventata, a forza di entusiasmo e di coraggio, prima ballerina all’Opera di Parigi?
-
-Ma la gloria passeggera delle vedettes non soddisfa Mireille che aspira al dono totale di se stessa a quel Cristo che scopre un giorno e che diventa il centro della sua vita.
-
-Il suo sogno sarebbe di unire la consacrazione religiosa e l’arte che continua ad amare con passione. Perché non un convento dove danzare per Dio?
-
-Una lunga prova al Carmelo, un breve approccio con le suore della Visitazione le permettono di misurare le difficoltà da superare e di precisare le sue speranze.
-
-Il libro si chiude con un bel manifesto in favore della danza sacra e dell’unione del corpo e dell’arte in lode al Signore.
-
-Vorremmo suggerire a Mireille Nègre di far posto nei suoi scritti a chi l’ha preceduta in questo suo credo e che non sono solo Davide e Teresa d’Avila. Mireille Nègre fa posto nel suo cuore ai bambini con handicap ai quali ha consacrato parte delle sue lezioni di danza, anche all’Arche di Trosly.
-
-Ci piacerebbe che un giorno ce ne parlasse più a lungo in un suo nuovo libro.
-H.B.** (da Ombres et Lumière, n.73)*
+Chi avrebbe immaginato che la piccola Mireille — che a due anni aveva avuto un piedino schiacciato in un ascensore — sarebbe diventata, a forza di entusiasmo e di coraggio, prima ballerina all’Opera di Parigi? Ma la gloria passeggera delle vedettes non soddisfa Mireille che aspira al dono totale di se stessa a quel Cristo che scopre un giorno e che diventa il centro della sua vita. Il suo sogno sarebbe di unire la consacrazione religiosa e l’arte che continua ad amare con passione. Perché non un convento dove danzare per Dio? Una lunga prova al Carmelo, un breve approccio con le suore della Visitazione le permettono di misurare le difficoltà da superare e di precisare le sue speranze. Il libro si chiude con un bel manifesto in favore della danza sacra e dell’unione del corpo e dell’arte in lode al Signore. Vorremmo suggerire a Mireille Nègre di far posto nei suoi scritti a chi l’ha preceduta in questo suo credo e che non sono solo Davide e Teresa d’Avila. Mireille Nègre fa posto nel suo cuore ai bambini con handicap ai quali ha consacrato parte delle sue lezioni di danza, anche all’Arche di Trosly. Ci piacerebbe che un giorno ce ne parlasse più a lungo in un suo nuovo libro. **H.B.**_(da Ombres et Lumière, n.73)_ Questo articolo è tratto da [Ombre e Luci n.19, 1987](http://www.ombreeluci.it/staging/project/numero-19-non-vedo-le-meraviglie-dio-le-canto/) [](http://www.ombreeluci.it/staging/project/numero-10-epilessia-una-montagna-di-pregiudizi/) **Sommario** Articoli Una lettera per te di _Mariangela Bertolini_ Inchiesta fra i lettori La persona h.m. fonte di unità nella Chiesa di _P. Joseph Mihelcic_ Non vedo le meraviglie di Dio, ma le canto di _André Haurine_ Suonare? Perché no? di _Giorgio Paci_ Suonare? Perché no? di _Giorgio Paci_ Forza venite gente di _Barbara Pentimalli_ Rubriche di di Lbri Pedagogia della fede di _Henri Bissonier_ Come animare un grupppo di _A. Beauchamp - R. Graveline \- C. Quiviger_ Per tutte le sabine del mondo di Danzerò per te di _Mireille Nègre_ Un figlio per cinque giorni di _Mauro Bartolo_

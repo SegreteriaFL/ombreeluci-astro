@@ -1,5 +1,4 @@
 ---
-
 title: Con loro ci sto bene
 date: 2015-03-19
 author: Giovanni Grossi
@@ -22,7 +21,6 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Fede e Luce è molto importante ed io sono molto legato a chi conosco dal primo all’ultimo membro"
 ---
 
-Io
-ho conosciuto Fede e Luce, grazie a mia cugina Francesca, che aveva pensato ad Ernesto mio fratello autistico (però non lo considero tale) che adesso ha quasi 40 anni. È un uomo ormai, sa vestirsi, sa cantare, urlare. Dove sta adesso è più calmo. È in casa famiglia. Io trovo brutta la cosa di allontanarlo da casa, da una sua stanza; dagli amici che conosceva; quando lo vedo elenca persone di quando era a Roma, ma nel frattempo è migliorato, io non lo so se ci starà per sempre. Fede e Luce è molto importante ed io sono molto legato a chi conosco dal primo all’ultimo membro. Va bene anche per me e mia madre. Io ho frequentato tante chiese iniziando da Villa Patrizi, dove conosco alcune persone: Roberta, Emma, Enrica, Maria Agnese, Emiliano, Franco, Giovanni e altri. Ho trovato il Vescovo molto simpatico: rispondeva ad ogni domanda, sui chilometri del viaggio in Olanda e della corsa di 007. A volte trovo imbarazzo a parlare con un prete. Io con loro ci sto bene, sono simpatici. Fede e Luce ha molta importanza per tutti quelli che frequentano, aiuta a relazionarsi e scambiare opinioni con chi ci viene a trovare; aiuta a migliorare il rapporto con gli altri e stare con chi ci circonda aiutandoci l’un l’altro.
-*Giovanni Grossi*
-, Roma - Kimata
+Io ho conosciuto Fede e Luce, grazie a mia cugina Francesca, che aveva pensato ad Ernesto mio fratello autistico (però non lo considero tale) che adesso ha quasi 40 anni. È un uomo ormai, sa vestirsi, sa cantare, urlare. Dove sta adesso è più calmo. È in casa famiglia. Io trovo brutta la cosa di allontanarlo da casa, da una sua stanza; dagli amici che conosceva; quando lo vedo elenca persone di quando era a Roma, ma nel frattempo è migliorato, io non lo so se ci starà per sempre. Fede e Luce è molto importante ed io sono molto legato a chi conosco dal primo all’ultimo membro. Va bene anche per me e mia madre. Io ho frequentato tante chiese iniziando da Villa Patrizi, dove conosco alcune persone: Roberta, Emma, Enrica, Maria Agnese, Emiliano, Franco, Giovanni e altri. Ho trovato il Vescovo molto simpatico: rispondeva ad ogni domanda, sui chilometri del viaggio in Olanda e della corsa di 007. A volte trovo imbarazzo a parlare con un prete. Io con loro ci sto bene, sono simpatici. Fede e Luce ha molta importanza per tutti quelli che frequentano, aiuta a relazionarsi e scambiare opinioni con chi ci viene a trovare; aiuta a migliorare il rapporto con gli altri e stare con chi ci circonda aiutandoci l’un l’altro. _Giovanni Grossi_ , Roma - KimataQuesto articolo è tratto da
+[Ombre e Luci n.129](https://www.ombreeluci.it/project/numero-129-quando-non-si-e-piu-soli-la-vita-risulta-trasformata/ "Ombre e Luci n.129")
+[](https://www.ombreeluci.it/project/numero-129-quando-non-si-e-piu-soli-la-vita-risulta-trasformata/ "Ombre e Luci n.129")

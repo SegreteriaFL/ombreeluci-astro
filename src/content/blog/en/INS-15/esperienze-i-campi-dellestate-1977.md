@@ -1,5 +1,4 @@
 ---
-
 title: "Esperienze, i campi dell'estate 1977"
 date: 1977-12-04
 author: Redazione
@@ -27,21 +26,29 @@ subtitle: "Un'altra estate insieme fra campi e esperienze bellissime sparse in t
 
 Il campeggio di Alfedena mi aveva fatto pensare alla casa di Cogne; all'appartamento che abbiamo noi in affitto e a quello sopra di mia sorella: 18 letti sicuri che con qualche sacco a pelo, potevano diventare 20, 22.
 
-Ci pensai per un pò da sola, ma i problemi mi sembravano tanti e difficili da risolvere. Appena però mi misi a parlarne agli altri i nodi cominciarono a sciogliersi e le cose a farsi più semplici. Mi aiutò molto il fatto che la cosa sembrasse bella e entusiasmante a tutti.
+Ci pensai per un pò da sola, ma i problemi mi sembravano tanti e difficili da risolvere. Appena però mi misi a parlarne agli altri i nodi cominciarono a sciogliersi e le cose a farsi più semplici.
+Mi aiutò molto il fatto che la cosa sembrasse bella e entusiasmante a tutti.
 
-Cominciamo a concretizzarla. Andò benissimo il numero delle persone che aderivano; era proprio quello giusto e non abbiamo avuto il dispiacere di dire non c'è più posto. Siamo arrivati anche a 25, ma solo per qualche giorno. Pare che ci sia chi va matto a dormire per terra!
+Cominciamo a concretizzarla.
+Andò benissimo il numero delle persone che aderivano; era proprio quello giusto e non abbiamo avuto il dispiacere di dire non c'è più posto. Siamo arrivati anche a 25, ma solo per qualche giorno.
+Pare che ci sia chi va matto a dormire per terra!
 
-Abbiamo chiesto aiuto a Roma per l'organizzazione e ci sono arrivati utilissimi schemi, programmi e schede. Abbiamo copiato tutto! Erano cose sperimentate e quindi andavano e sono andate benissimo. È troppo lungo spiegarvi come passavamo le giornate.
+Abbiamo chiesto aiuto a Roma per l'organizzazione e ci sono arrivati utilissimi schemi, programmi e schede.
+Abbiamo copiato tutto! Erano cose sperimentate e quindi andavano e sono andate benissimo.
+È troppo lungo spiegarvi come passavamo le giornate.
 
 Avevamo appeso nei due appartamenti il cartellone degli orari della giornata e uno dei turni di lavoro.
 
-Alla sera prima di cena c'era la riunione organizzativa per tutte le cose che di giorno in giorno dovevano cambiare. Abbiamo avuto dei cuochi fenomenali!
+Alla sera prima di cena c'era la riunione organizzativa per tutte le cose che di giorno in giorno dovevano cambiare.
+Abbiamo avuto dei cuochi fenomenali!
 
 Robert è stato il nostro grande aiuto e soprattutto ci ha insegnato che l'impegno, la costanza, la serietà nelle piccole cose portano alle grandi cose: all'amicizia, alla serenità, all'ordine.
 
-Ha partecipato al campeggio qualche mamma e qualche papà, ma i protagonisti sono stati i ragazzi, tutti bravi, tutti simpatici. Arrivederci a un altro anno!
+Ha partecipato al campeggio qualche mamma e qualche papà, ma i protagonisti sono stati i ragazzi, tutti bravi, tutti simpatici.
+Arrivederci a un altro anno!
 
-*Anna Maria De Rino* , 1977 * *
+_Anna Maria De Rino_ , 1977 _
+_
 
 ### Cuneo
 
@@ -55,11 +62,13 @@ Li abbiamo registrati per farli ascoltare in un prossimo futuro agli assenti, ma
 
 Arrivederci al prossimo incontro.
 
-*Betty* , 1977 * *
+_Betty_ , 1977 _
+_
 
 ### Cuneo 2
 
-L'estate e le vacanze non ci hanno allontanato del tutto. Sperando nelle belle giornate estive, i nostri incontri prevedevano gite in montagna.
+L'estate e le vacanze non ci hanno allontanato del tutto.
+Sperando nelle belle giornate estive, i nostri incontri prevedevano gite in montagna.
 
 Possiamo ritenerci fortunati perché i temporali molto frequenti, non hanno disturbato le nostre feste.
 
@@ -71,7 +80,8 @@ Alcuni hanno trascorso insieme l'intera giornata mangiando insieme polenta e sal
 
 Entrambe le giornate sono state caratterizzate da grande gioia ed allegria.
 
-*Elisa e Franco* , 1977 * *
+_Elisa e Franco_ , 1977 _
+_
 
 ### Grottaferrata
 
@@ -113,39 +123,54 @@ Sul pullman per Roma infine, abbiamo conosciuto una ragazza che si chiama Giuana
 
 Speriamo voglia accettare il nostro invito di averla fra noi in ottobre a Villa PAtrizi.
 
-*Francesca Mancini* , 1977
+_Francesca Mancini_ , 1977
 
 ### Roma alla Marymount School
 
 Via Cassia Antica - 2° campo estivo diurno
 
-**Chi l'ha pensato?** La United Nations Women's Guild (mogli di impiegati della FAO, finanziato dai proventi di alcune loro di piante e fiori in aprile, ecc, )
+**Chi l'ha pensato?**
+La United Nations Women's Guild (mogli di impiegati della FAO, finanziato dai proventi di alcune loro di piante e fiori in aprile, ecc, )
 
-**Chi ha aiutato?** Le stesse mogli con i loro bambini, grandi e piccoli, le loro amiche, le suore della Marymount, alcuni anici di Fede e Luce (grazie, Carmela, Pietro e Guenda!), e tanti altri. Tante nazionalità e lingue diverse, un comune desiderio di dare.
+**Chi ha aiutato?**
+Le stesse mogli con i loro bambini, grandi e piccoli, le loro amiche, le suore della Marymount, alcuni anici di Fede e Luce (grazie, Carmela, Pietro e Guenda!), e tanti altri.
+Tante nazionalità e lingue diverse, un comune desiderio di dare.
 
-**Quando? ** Durante le prime due settimane di luglio, tutti i giorni esclusi sabato e domenica, dalle 9 alle 16.
+**Quando?
+** Durante le prime due settimane di luglio, tutti i giorni esclusi sabato e domenica, dalle 9 alle 16.
 
-**Dove? ** Alla scuola americana Marymount, posto ideale per il suo grando parco, la piscina, le aule per le varie attività (lavori manuali, modellare e dipingere la creta, il riposino, ecc), il grando e fresco "auditorium" per cantare e giocare in cerchio, la "cafeteria" per mangiare deliziosi piatti di pastasciutta cucinati dal personale della scuola.
+**Dove?
+** Alla scuola americana Marymount, posto ideale per il suo grando parco, la piscina, le aule per le varie attività (lavori manuali, modellare e dipingere la creta, il riposino, ecc), il grando e fresco "auditorium" per cantare e giocare in cerchio, la "cafeteria" per mangiare deliziosi piatti di pastasciutta cucinati dal personale della scuola.
 
-**Perché?** Per ritrovarci come gruppo e fare insieme e in allegria qualcosa di positivo; per dare - a chi non l'aveva ancora avuta - la possibilità di avvicinarsi a problemi per loro "insoliti"; per dare un po' di sollievo alle famiglie dei bambini "difficili" pur sapendo che era solo una goccia nell'oceano; e per far passare a questi bambini (che forse non potevano lasciare la città per l'estate) qualche giorno in un'atmosfera di vacanza.
+**Perché?**
+Per ritrovarci come gruppo e fare insieme e in allegria qualcosa di positivo; per dare - a chi non l'aveva ancora avuta - la possibilità di avvicinarsi a problemi per loro "insoliti"; per dare un po' di sollievo alle famiglie dei bambini "difficili" pur sapendo che era solo una goccia nell'oceano; e per far passare a questi bambini (che forse non potevano lasciare la città per l'estate) qualche giorno in un'atmosfera di vacanza.
 
-**Gli ospiti d'onore? ** Undici bambini "diversi", alcuni figli di impiegati della FAO, altri venuti attraverso Fede e Luce e la Scuola Serena.
+**Gli ospiti d'onore?
+** Undici bambini "diversi", alcuni figli di impiegati della FAO, altri venuti attraverso Fede e Luce e la Scuola Serena.
 
-**Risultati?** Beh, i bambini diversi avevano proprio l'aria di venire volentieri, anche se pochi di loro potevano dircelo a parole. Gli altri ragazzini erano entusiasti di questa nuova esperienza, di avere tanti nuovi amici, di pensare prima a qualcun altro che a loro stessi. Tutti gli adulti l'hanno trovata una esperienza che li ha arricchiti e che desiderano ripetere. (Infatti quest'anno abbiamo avuto l'aiuto entusiasta di chi l'anno scorso era venuto titubante e poco sicuro).
+**Risultati?**
+Beh, i bambini diversi avevano proprio l'aria di venire volentieri, anche se pochi di loro potevano dircelo a parole. Gli altri ragazzini erano entusiasti di questa nuova esperienza, di avere tanti nuovi amici, di pensare prima a qualcun altro che a loro stessi.
+Tutti gli adulti l'hanno trovata una esperienza che li ha arricchiti e che desiderano ripetere. (Infatti quest'anno abbiamo avuto l'aiuto entusiasta di chi l'anno scorso era venuto titubante e poco sicuro).
 
-**Le difficoltà?** Dato che chi aiutava per lo più offriva la propria buona volontà ma mancava di esperienza e di conoscenze tecniche, la fatica che ognuno (anche gli ospiti) doveva fare era sproporzionata ai risultati. Però la stanchezza era - a detta di tutti - sempre compensata largamente dall'amore e dall'allegria che ricevevano dai "nostri" bambini.
+**Le difficoltà?**
+Dato che chi aiutava per lo più offriva la propria buona volontà ma mancava di esperienza e di conoscenze tecniche, la fatica che ognuno (anche gli ospiti) doveva fare era sproporzionata ai risultati. Però la stanchezza era - a detta di tutti - sempre compensata largamente dall'amore e dall'allegria che ricevevano dai "nostri" bambini.
 
-**L'anno prossimo?** Naturalmente vogliamo ritentare, sperando di fare meglio.
+**L'anno prossimo?**
+Naturalmente vogliamo ritentare, sperando di fare meglio.
 
-**Volete aiutarci ?** Allora potete rivolgervi a Nicole, tel. #########, o a Yvelise, tel. #####
+**Volete aiutarci ?**
+Allora potete rivolgervi a Nicole, tel. #########, o a Yvelise, tel. #####
 
 ### Alfedena '77
 
 **"Gioia è stare insieme"**
 
-Carissimi, questa volta non potendo essere tra Voi per impegni presi in un altro pianeta, Vi mando questa lettera. Forse non tutti si ricorderanno di me, ma ci siamo visti con una parte di voi ad Alfedena in occasione di una premiazione.
+Carissimi,
+questa volta non potendo essere tra Voi per impegni presi in un altro pianeta, Vi mando questa lettera.
+Forse non tutti si ricorderanno di me, ma ci siamo visti con una parte di voi ad Alfedena in occasione di una premiazione.
 
-Sono l'abitante di quel pianeta da dove Vi spiamo continuamente e Vi seguiamo passo passo. Vi mando questa lettera perché sapevo che Vi sareste ritrovati tutti assieme, e voglio sapere qual è il significato che Voi date ad una parola, cos'è quella parola che ho sentito spesso tra Voi: "la gioia".
+Sono l'abitante di quel pianeta da dove Vi spiamo continuamente e Vi seguiamo passo passo.
+Vi mando questa lettera perché sapevo che Vi sareste ritrovati tutti assieme, e voglio sapere qual è il significato che Voi date ad una parola, cos'è quella parola che ho sentito spesso tra Voi: "la gioia".
 
 Ma forse devo dire che più che sentirla, l'ho vista tra Voi.
 
@@ -179,4 +204,9 @@ Da tutto questo avrete capito che **"Gioia è stare insieme"**
 
 Vi saluto sperando di rivederci presto in una simile occasione.
 
-*Settimio, Clara, Sergio*
+_Settimio, Clara, Sergio_
+
+Questo articolo è tratto da:
+**[Insieme n.15, 1977](https://www.ombreeluci.it/project/insieme-n-15-bollettino-fede-e-luce-1977/)**
+
+[](https://www.ombreeluci.it/project/insieme-n-15-bollettino-fede-e-luce-1977/)

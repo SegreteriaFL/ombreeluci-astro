@@ -1,5 +1,4 @@
 ---
-
 title: Ci hanno scritto n.14
 date: 1977-09-20
 author: Redazione
@@ -21,7 +20,8 @@ subtitle: "Pubblichiamo le lettere e le notizie che ci arrivano dalle comunità 
 
 ### Il dono dell'amicizia
 
-Quattro anni fa sono entrata insieme a mio figlio (minorato fisico mentale) a far parte della grande famiglia di Fede e Luce. A me ha fatto bene inserirmi in questa catena simile a una corona di una grande Rosario.
+Quattro anni fa sono entrata insieme a mio figlio (minorato fisico mentale) a far parte della grande famiglia di Fede e Luce.
+A me ha fatto bene inserirmi in questa catena simile a una corona di una grande Rosario.
 
 Tanti ragazzi "diversi" con tanti amici che li tengono per mano con amore, entusiasti di aiutare i fratelli infermi. Nei loro volti sereni, sorridenti fraterni io incontro Dio.
 
@@ -31,11 +31,9 @@ Ogni giorno, più o meno faticoso della mia vita, conosco sempre di più queste 
 
 Così semplicemente con tanta gratitudine voglio ringraziarli tutti, anche quelle persone che pur non conoscendoci personalmente hanno inviato un'offerta in dono a mio figlio; anche a quelle che ci sono state vicino con il pensiero.
 
-*Una mamma*
+_Una mamma_
 
-
-
----
+* * *
 
 ### Cara Nicole,
 
@@ -45,41 +43,53 @@ Ho ricevuto l'ultimo numero di Insieme e mi ha ricordato che potevo forse darvi 
 
 Eccomi dunque in una parrocchia del sud della Francia. Una grossa parrocchia di periferia: 15.000 persone che vivono in HLM (case popolari) o in residenze di 14 piani. Siamo in tre preti per assicurare il lavoro pastorale. Inutile dire che l'ambiente è molto diverso da quello delle parrocchie di Roma. Per esempio:
 
-- la pratica media è di circa il 5% (700 persone per domenica). - la "religiosità" è molto meno sentita... - le opere parrocchiali sono inesistenti e non desiderate per evitare concorrenze con tutto ciò che già umanamente si fa nel quartiere.
+ * la pratica media è di circa il 5% (700 persone per domenica).
+ * la "religiosità" è molto meno sentita...
+ * le opere parrocchiali sono inesistenti e non desiderate per evitare concorrenze con tutto ciò che già umanamente si fa nel quartiere.
 
 Il mio tempo è preso dal culto (messa, matrimoni, funerali...), dalla catechesi (ho preso due gruppi di perfezionamento) e dalle riunioni di differenti gruppi di cristiani. Tutto questo richiede sempre una preparazione a volte molto lunga.
 
 Fin dal mio arrivo in parrocchia ho chiesto se esisteva qualche famiglia simile a quelle conosciute a Fede e Luce. Avuti due indirizzi ho cominciato a fare qualche visita (5 per ora). Ne nascerà qualcosa? Chi lo sa! Régine (27 anni) che aveva già seguito il catechismo ma non aveva avuto occasione di comunicarsi farà la sua prima comunione durante una messa parrocchiale.
 
-E dopo? Chi lo sa? Quando sarò più al corrente delle realizzazioni concrete che esistono nella regione, cercherò di farvele sapere, se questo può interessarvi. Non penso venire in Italia quest'anno, ma vi assicuro che auguro a tutti e con tutto il cuore la riuscita delle vostre varie realizzazioni.
+E dopo? Chi lo sa?
+Quando sarò più al corrente delle realizzazioni concrete che esistono nella regione, cercherò di farvele sapere, se questo può interessarvi. Non penso venire in Italia quest'anno, ma vi assicuro che auguro a tutti e con tutto il cuore la riuscita delle vostre varie realizzazioni.
 
 Uniti nel stesso servizio delle stesse persone.
 
-*Michel Charpantier* , 1977
+_Michel Charpantier_ , 1977
 
-
-
----
+* * *
 
 ### Amore
 
-Che cos'è questo amore? È il più bel sentimento che nasce dal profondo di ogni cuore.
+Che cos'è questo amore?
+È il più bel sentimento
+che nasce dal profondo di ogni cuore.
 
-Chi bisogna amare ? Ma è semplice: tutti! Gesù non ha forse amato belli e brutti?
+Chi bisogna amare ?
+Ma è semplice: tutti!
+Gesù non ha forse amato
+belli e brutti?
 
-Nel mio cuore c'è amore per ognuno che mi sta vicino e mi dà buoni consigli per proseguire il mio cammino.
+Nel mio cuore c'è amore
+per ognuno che mi sta vicino
+e mi dà buoni consigli
+per proseguire il mio cammino.
 
-Io nutro amore per i genitori, per le mie compagne di scuola, per i professori.
+Io nutro amore per i genitori,
+per le mie compagne di scuola,
+per i professori.
 
-Lo provo anche per i miei parenti, per i miei buoni amici, per i conoscenti.
+Lo provo anche per i miei parenti,
+per i miei buoni amici, per i conoscenti.
 
-Bisogna amare tutti, anche quelli che con noi sono asciutti.
+Bisogna amare tutti,
+anche quelli
+che con noi sono asciutti.
 
-*Maria Rosa Sonzini* - Milano
+_Maria Rosa Sonzini_ \- Milano
 
-
-
----
+* * *
 
 ### Se noi riusciamo
 
@@ -91,14 +101,17 @@ Certe volte nelle persone ci sono dei momenti chiusi, ma non preoccuparti perch�
 
 Chi trova la strada di Dio è come se avesse trovato l'ora in cui vede l'arcobaleno.
 
-*Luigi Raffaghello*
+_Luigi Raffaghello_
 
-
-
----
+* * *
 
 Felici d'aver passato un momento con voi. Restiamo uniti nella preghiera. Auguriamo ad ogni gruppo di crescere verso la Comunità.
 
 Alleluia.
 
 Il Gruppo di "la Merci": Jaques, Chantal, Sylvain Ségolaine, Anne-Marie, Guy, Serge, Carmen, Maryvonne...
+
+Questo articolo è tratto da:
+**[Insieme n.14, 1977](https://www.ombreeluci.it/project/insieme-n-14-bollettino-fede-e-luce-1977/)**
+
+[](https://www.ombreeluci.it/project/insieme-n-14-bollettino-fede-e-luce-1977/)

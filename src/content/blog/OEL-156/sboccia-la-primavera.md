@@ -15,4 +15,7 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
-Nella [newsletter di aprile](https://www.ombreeluci.it/2021/a-4300-metri-di-altitudine-newsletter-n-31/) vi avevamo invitato a condividere con noi le immagini di questa primavera, in segno di rinascita e di nuovi inizi. Ce ne avete mandate tantissime! Eccole tutte qui di seguito, con i nomi delle autrici e degli autori:
+
+Nella [newsletter di aprile](https://www.ombreeluci.it/2021/a-4300-metri-di-altitudine-newsletter-n-31/) vi avevamo invitato a condividere con noi le immagini di questa primavera, in segno di rinascita e di nuovi inizi. Ce ne avete mandate tantissime! Eccole tutte qui di seguito, con i nomi delle autrici e degli autori: **Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

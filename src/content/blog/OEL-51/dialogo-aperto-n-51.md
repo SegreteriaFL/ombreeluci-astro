@@ -23,7 +23,6 @@ Grazie allo stupendo numero di Ombre e Luci ricco di foto e riflessioni e commen
 **Adriana Masiero**
 - Comunità S. Lorenzo-Albano Terme
 
-
 ---
 
 ### Grazie, Mara e Danilo
@@ -32,13 +31,11 @@ Sabato 24 giugno 1995 si sono uniti davanti al Signore Mara e Danilo. Mara e Dan
 **Giovanna Ghirelli**
 - Comunità Gratasoglio - Milano
 
-
 ---
 
 ### Per tenersi in contatto
 
 Grazie per aver scritto su Ombre e Luci il beirarticolo sulla nostra cooperativa ASAD di Bastia Umbra. L'abbiamo subito letto e ci ha resi molto felici perché ha fatto capire anche agli altri che noi siamo amici di tutti. Ci ha fatto tantissimo piacere vedere quante pagine avete dedicato a noi della cooperativa ASAD. Personalmente mi è piaciuta tantissimo quella frase sul dietro della rivista: «La serenità sul piano affettivo nasce da tutto un modo di vivere, dal dinamismo di tutta la comunità, dalla qualità degli assistenti e dalla vita spirituale». Per noi è molto importante fare nuove amicizie e poi tenerci in contatto. Un giorno che decidiamo di fare una gita verremo giù a Roma per venirvi a trovare, conoscere il vostro lavoro e stare un po' insieme. Stiamo gestendo una mostra ad Assisi e poi ce ne saranno altre a Tordandrea, a Bastia e a Perugia. Ad Assisi abbiamo fatto e venduto tantissimo. Vi invitiamo tutti a venire a vedere le nostre mostre. Tanti saluti e buon lavoro da noi ragazzi della Cooperativa ASAD.
-
 
 ---
 
@@ -48,7 +45,6 @@ Per Ombre e Luci di Assisi vi ho mandato la testimonianza della mia amicizia con
 **Antonella**
 (Bari)
 *La foto arrivò tardi. La pubblichiamo ora perché dà un'idea della bella amicizia di Antonella e Vito.*
-
 
 ---
 

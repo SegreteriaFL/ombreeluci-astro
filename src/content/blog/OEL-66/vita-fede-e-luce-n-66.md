@@ -23,8 +23,9 @@ umap_z: 13.949226379394531
 
 L’incontro dei responsabili, che si è tenuto a Chianciano dal 5 all’8 dicembre scorso, si è rivelato per me e — sono certa — anche per gli altri partecipanti, un momento di confronto e di condivisione molto proficuo. In pace, serenamente, abbiamo parlato, abbiamo dato e ricevuto consigli, conforto, ci siamo scambiati esperienze non solo e non tanto individuali, ma soprattutto di comunità. Abbiamo pregato, con la guida di don Vito; abbiamo ancora una volta «sentito» che siamo una grande comunità. Certamente tutte le persone e tutte le comunità sono diverse l una dall'altra, per fortuna. Allo stesso tempo c’è un qualcosa che tutti accomuna, che fa le situazioni ed i problemi di ciascuno e di ogni gruppo simili o analoghi a quelli degli altri. Tra i momenti più coinvolgenti, vorrei ricordare l’intervento di Mariangela. Ha raccontato la storia di [Fede e Luce](https://fedeeluce.it) insieme alla sua storia personale, interrompendosi di tanto in tanto per un canto e per la lettura di testimonianze e articoli tratti da «Ombre e Luci», che si conferma sempre essere una preziosa sorgente (troppo spesso dimenticata) da cui attingere materiale ed idee. Ancora una volta sono stata sorpresa dalla efficacia della semplicità. Quanto è importante ricordare e ricordarsi sempre da dove veniamo per capire meglio dove vogliamo andare! Quanto è prezioso il dono di sapersi rinnovare con un po’ di fantasia, senza andare in cerca però di una sfrenata e spesso incompresa originalità! L’insegnamento profondo che ne ho tratto mi ricorda che Fede e Luce è una parte della nostra vita. Solo così Fede e Luce conserva la sua essenza e la sua ragion d’essere, solo così le nostre sono vere comunità.
 
-**Silvia Poleggi** , 1999
+**Silvia Poleggi**
 
+, 1999
 
 ---
 
@@ -32,13 +33,11 @@ L’incontro dei responsabili, che si è tenuto a Chianciano dal 5 all’8 dicem
 
 *«Ti ho chiamato per nome, tu mi appartieni». (Is. 43,1)* Sonia De Rosa, ora Sr. Chiara Maria del monastero delle Clarisse S. Lucia, Foligno, celebra il 12 giugno 1999 la sua Professione Solenne. Le siamo particolarmente vicini. Per molto tempo, prima di entrare in monastero, Sr. Chiara Maria ha fatto parte di «Fede e Luce». Nel mandarci questo annuncio ci chiede «di estenderlo alle comunità FL perché le siano vicine nella preghiera. Ricorda tutti con affetto, benedicendo il Signore che le si è fatto incontro nei poveri».
 
-
 ---
 
 ### Guida per vacanze "diverse"
 
 [Lisdha News](http://www.lisdhanews.it/) , periodico dellassociazione "Il Girasole" pubblica la nuova guida per le vacanze diverse. Vi si trovano indirizzi e suggerimenti per vacanze in ambienti naturali, in campi archeologici, in iniziative di assistenza ai disabili e ai bambini e agli anziani. Nella seconda parte si trovano indirizzi per vacanze adatte anche a persone con gravi handicap fisici e psichici. La guida costa diciassettemilalire e può essere acquistata in molte librerie, o chiedendola a [Lisdha News.](http://www.lisdhanews.it/)
-
 
 ---
 
@@ -48,13 +47,11 @@ Sono il papà di Alessandro un ragazzone bellissimo. alto 1,90 per 130 chilogram
 
 **Giovanni Battista De Cola**
 
-
 ---
 
 ### Documentazione
 
 Come ogni anno in gennaio è stato pubblicato, a cura del Servizio di Consulenza Pedagogica di Trento, il 22° volume della «Bibliografia Italiana sui Disturbi dell’Udito, della Vista e del Linguaggio» 1998 di S. Lagati. Il volume, che ha 128 pagine, contiene 700 voci bibliografiche (libri, articoli, periodici) sui problemi messi in evidenza dal titolo, ma il tema si allarga ad argomenti che interessano anche altri tipi di disabilità: i problemi educativi, il ritardo mentale, le varie forme di terapia, l’integrazione scolastica e sociale, la famiglia, l’educazione religiosa, i convegni ed altri. Da richiedere al Servizio di Consulenza Pedagogica - Casella Postale 601 - 38100 Trento - Telefono 0461/828693.
-
 
 ---
 

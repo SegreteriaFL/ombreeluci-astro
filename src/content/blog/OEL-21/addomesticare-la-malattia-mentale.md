@@ -1,5 +1,4 @@
 ---
-
 title: Addomesticare la malattia mentale
 date: 1988-03-28
 author: Redazione
@@ -29,14 +28,14 @@ La nostra vita di coppia era scossa da «zone di turbolenza». Si prospettavano 
 
 > Ho scoperto che il mondo della malattia mentale ha le sue ricchezze, che l’aiuto reciproco riprende spesso un aspetto quasi evangelico, che i malati conservano intatti certi aspetti del loro essere e che ravvicinarli diventa più famigliare
 
-La malattia di Stefano ha messo alla prova la mia fede in Dio. Ciò che mi ha aiutato, è scoprire un Dio vicino agli uomini. Ho annotato questo versetto del Salmo 33: «Il Signore è vicino al cuore che soffre, salva lo spirito smarrito». Leggendolo, l’inquietudine per Stefano si placa. Anche per questo mi sento molto legato all’episodio dell’incoronazione di spine fra la gloria effimera delle Palme e la gloria eterna di Pasqua. Anche in mezzo alle onde, anche in una situazione senza uscita, il Cristo mi viene incontro, viene per amarci, viene per condividere e per capire. Ecco dove sono, dove siamo... Nulla per Stefano è risolto; l’ultima esperienza di post-cura, a base di lavori manuali, è stata ancora una volta un insuccesso. Mi tormento ancora: «Di che cosa vivrà? Dove vivrà?...». Eppure l’inquietudine in noi è diventata meno oppressiva. Vivere un giorno dopo l’altro. A poco a poco le piccole gioie riprendono il loro sapore: l’arrivo di otto nipotini, le ricerche di Stefano per trovare un club di giocatori di carte, iscriversi ai corsi regionali di disegno, comprare con la sua pensione un computer. Abbiamo trovato dei punti d’appoggio per non lasciarci asfissiare dalla malattia, per imparare ad addomesticarla...
-
-- *J.P. Walcke* , 1988, da *Ombres et Lumiére* n.79
-
-#### Articoli
-
-[Saverio, nostro fratello](http://www.ombreeluci.it/1988/saverio-nostro-fratello/) di *Mario Damiani* [La malattia mentale](http://www.ombreeluci.it/1988/la-malattia-mentale/) di *M.E.* [Bloccati nel silenzio](http://www.ombreeluci.it/1988/boccati-nel-sogno/) di *Jean Vanier* [Addomesticare la malattia](http://www.ombreeluci.it/1988/addomesticare-la-malattia-mentale/) di *J.P. Walcke* [Era la mamma ma anche un’altra persona](http://www.ombreeluci.it/1988/la-mamma-anche-unaltra-persona/) di *C.D.* [Dove vivono, come vivono](http://www.ombreeluci.it/1988/dove-come-vivono-persone-colpite-malattia-mentale/) [Villa S. Giovanni di Dio](http://www.ombreeluci.it/1988/villa-san-giovanni-di-dio/) di *Nicole Shulthes* [Comunità terapeutica di Primavalle](http://www.ombreeluci.it/1988/comunita-terapeutica-primavalle/) di *Sergio Sciascia* [Risultato dell’inchiesta "Aiutateci a migliorare Ombre e Luci"](http://www.ombreeluci.it/1988/risultato-dellinchiesta-aiutaci-migliorare-ombre-luci/) [Cosa ha detto Papa Wojtyla sull'epilessia](http://www.ombreeluci.it/1988/cosa-detto-papa-sullepilessia/) di *Redazione*
-
-#### Rubriche
-
-[Dialogo Aperto n.21](http://www.ombreeluci.it/1988/dialogo-aperto-n-21/)
+La malattia di Stefano ha messo alla prova la mia fede in Dio. Ciò che mi ha aiutato, è scoprire un Dio vicino agli uomini. Ho annotato questo versetto del Salmo 33: «Il Signore è vicino al cuore che soffre, salva lo spirito smarrito». Leggendolo, l’inquietudine per Stefano si placa. Anche per questo mi sento molto legato all’episodio dell’incoronazione di spine fra la gloria effimera delle Palme e la gloria eterna di Pasqua. Anche in mezzo alle onde, anche in una situazione senza uscita, il Cristo mi viene incontro, viene per amarci, viene per condividere e per capire. Ecco dove sono, dove siamo... Nulla per Stefano è risolto; l’ultima esperienza di post-cura, a base di lavori manuali, è stata ancora una volta un insuccesso. Mi tormento ancora: «Di che cosa vivrà? Dove vivrà?...». Eppure l’inquietudine in noi è diventata meno oppressiva. Vivere un giorno dopo l’altro. A poco a poco le piccole gioie riprendono il loro sapore: l’arrivo di otto nipotini, le ricerche di Stefano per trovare un club di giocatori di carte, iscriversi ai corsi regionali di disegno, comprare con la sua pensione un computer. Abbiamo trovato dei punti d’appoggio per non lasciarci asfissiare dalla malattia, per imparare ad addomesticarla...\- _J.P. Walcke_ , 1988, da _Ombres et Lumiére_ n.79 Questo articolo è tratto da
+[Ombre e Luci n.21, 1988](http://www.ombreeluci.it/project/numero-21-rompere-la-solitudine-del-malato-mentale/)[](http://www.ombreeluci.it/project/numero-21-rompere-la-solitudine-del-malato-mentale/)**Sommario**Articoli[Saverio, nostro fratello](http://www.ombreeluci.it/1988/saverio-nostro-fratello/) di _Mario Damiani_
+[La malattia mentale](http://www.ombreeluci.it/1988/la-malattia-mentale/) di _M.E._
+[Bloccati nel silenzio](http://www.ombreeluci.it/1988/boccati-nel-sogno/) di _Jean Vanier_
+[Addomesticare la malattia](http://www.ombreeluci.it/1988/addomesticare-la-malattia-mentale/) di _J.P. Walcke_
+[Era la mamma ma anche un’altra persona](http://www.ombreeluci.it/1988/la-mamma-anche-unaltra-persona/) di _C.D._
+[Dove vivono, come vivono ](http://www.ombreeluci.it/1988/dove-come-vivono-persone-colpite-malattia-mentale/)
+[Villa S. Giovanni di Dio](http://www.ombreeluci.it/1988/villa-san-giovanni-di-dio/) di _Nicole Shulthes_
+[Comunità terapeutica di Primavalle](http://www.ombreeluci.it/1988/comunita-terapeutica-primavalle/) di _Sergio Sciascia_
+[Risultato dell’inchiesta "Aiutateci a migliorare Ombre e Luci" ](http://www.ombreeluci.it/1988/risultato-dellinchiesta-aiutaci-migliorare-ombre-luci/)
+[Cosa ha detto Papa Wojtyla sull'epilessia](http://www.ombreeluci.it/1988/cosa-detto-papa-sullepilessia/) di _Redazione_Rubriche[Dialogo Aperto n.21](http://www.ombreeluci.it/1988/dialogo-aperto-n-21/)

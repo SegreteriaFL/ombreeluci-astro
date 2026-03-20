@@ -1,5 +1,4 @@
 ---
-
 title: Vedremo mai la luce?
 date: 1976-05-20
 author: Michel Charpentier
@@ -35,4 +34,8 @@ Gesù ha i piedi sulla terra e questo gli permette di camminare, di andare avant
 
 Restiamo anche noi sulla terra; noi non siamo né ingenui né disperati. Andiamo avanti, col buon grano e la zizzania, perché non c'è dubbio: la raccolta verrà.
 
-- *Michel Charpentier* , 1976
+\- _Michel Charpentier_ , 1976
+
+Questo articolo è tratto da:
+**[Insieme n.9, 1976](https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/)
+[](https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/)**

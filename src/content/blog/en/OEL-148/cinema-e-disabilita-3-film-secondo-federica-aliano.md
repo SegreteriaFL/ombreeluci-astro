@@ -1,5 +1,4 @@
 ---
-
 title: "Cinema e disabilità: 3 film secondo Federica Aliano"
 date: "2019-11-16"
 author: "Federica Aliano"
@@ -67,23 +66,23 @@ Non è semplice mettere sul podio tre film sulla disabilità. Non lo è perché 
 
 ## Forrest Gump
 
-*(id. 1994, USA, 140 min.) di Robert Zemeckis. Con Tom Hanks, Robin Wright, Gary Sinise, Mykelti Williamson, Sally Field, Rebecca Williams.*
+_(id. 1994, USA, 140 min.) di Robert Zemeckis. Con Tom Hanks, Robin Wright, Gary Sinise, Mykelti Williamson, Sally Field, Rebecca Williams._
 
 Robert Zemeckis è un assoluto genio. E Forrest Gump è un capolavoro, sotto moltissimi punti di vista. Quello che però ci preme evidenziare qui è come il protagonista, nato meno fortunato di altri, abbia messo a frutto ogni possibilità che la vita ha posto lungo il suo cammino. Quasi per caso. Con grande entusiasmo. «Non lasciare mai che qualcuno ti dica che sei diverso», è uno dei tanti insegnamenti della madre di Forrest. E la lezione è preziosa per tutti noi.
 
 ## La teoria del tutto
 
-*(The Theory of Everything, 2014, Gran Bretagna, 123 min.) di James Marsh. Con Eddie Redmayne, Felicity Jones, Charlie Cox, Emily Watson*
+_(The Theory of Everything, 2014, Gran Bretagna, 123 min.) di James Marsh. Con Eddie Redmayne, Felicity Jones, Charlie Cox, Emily Watson_
 
 Stephen Hawking è, con ogni probabilità, il più grande genio del nostro tempo. Ed era una persona con disabilità. Il suo corpo ha smesso di funzionare, eppure lui è l'uomo che ha portato benefici inestimabili al progresso dell'umanità. La teoria del tutto è il film che racconta la sua vita e il suo amore, con due interpreti di eccezione assoluta, la delicatezza e l'ironia che sempre ha caratterizzato il grande ricercatore.
 
 ## Cuore di bambola
 
-*(id, 2019, Italia, durata 80 minuti) di Antonio Di Domenico. Documentario
-*
+_(id, 2019, Italia, durata 80 minuti) di Antonio Di Domenico. Documentario
+_
 
 Una storia autentica, odierna, romana. Il documentario che racconta la vita quotidiana di Veronica, una bambola vera con cui chi scrive ha spesso il piacere di giocare. Veronica Tulli ha la sindrome delle ossa di vetro, resta piccola, si muove per lo più su una sedia a rotelle. Ed è una star. Una cantante bravissima che ha fatto della sua diversa abilità il suo punto di forza. Veronica è il fulcro di ogni Freak Show della Capitale, la sua energia e la sua allegria sono contagiose. Ed è una professionista seria, che fa anche ridere a crepapelle.
 
-### Speciale Cinema e disabilità
+### Speciale [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/ "Speciale Cinema e disabilità - Ombre e Luci")
 
 Con i contributi di:

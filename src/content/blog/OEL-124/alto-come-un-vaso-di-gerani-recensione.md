@@ -1,5 +1,4 @@
 ---
-
 title: Alto come un vaso di gerani - Recensione
 date: 2013-12-14
 author: Rita Massi
@@ -19,7 +18,6 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Giacomo Poretti, Mondadori, pp. 135"
 ---
 
-Un
-ritorno alle origini, alle radici della vita, questo è il racconto che Giacomo Poretti (quello di Aldo Giovanni e Giacomo) fa al suo bambino. Ripercorre la sua vita fin dalla sua nascita, attraverso una narrazione poetica e ironica, tenera e a volte crudele. Una foto ingrandita di un tipico paese del nord Italia negli anni sessanta, con i suoi tipi, le sue abitudini le sue miserie, che non indugia in atteggiamenti nostalgici e non prende le distanze da quel mondo. Ne risulta un inno alla vita, all’amore per la famiglia, al riconoscimento dei veri valori, ai buoni sentimenti. Una lettura piacevole, con tratti etici, un racconto lieve, talvolta discontinuo, ma ugualmente molto intenso.
-*Rita Massi*
-, 2013
+Un ritorno alle origini, alle radici della vita, questo è il racconto che Giacomo Poretti (quello di Aldo Giovanni e Giacomo) fa al suo bambino. Ripercorre la sua vita fin dalla sua nascita, attraverso una narrazione poetica e ironica, tenera e a volte crudele. Una foto ingrandita di un tipico paese del nord Italia negli anni sessanta, con i suoi tipi, le sue abitudini le sue miserie, che non indugia in atteggiamenti nostalgici e non prende le distanze da quel mondo. Ne risulta un inno alla vita, all’amore per la famiglia, al riconoscimento dei veri valori, ai buoni sentimenti. Una lettura piacevole, con tratti etici, un racconto lieve, talvolta discontinuo, ma ugualmente molto intenso. _Rita Massi_ , 2013Questo articolo è tratto da
+[Ombre e Luci n.124](https://www.ombreeluci.it/project/numero-124-con-gioia-nel-silenzio-vivere-la-pace/ "Ombre e Luci n.124")
+[](https://www.ombreeluci.it/project/numero-124-con-gioia-nel-silenzio-vivere-la-pace/ "Ombre e Luci n.124")

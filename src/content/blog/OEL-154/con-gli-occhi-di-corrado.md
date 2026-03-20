@@ -1,5 +1,4 @@
 ---
-
 title: Con gli occhi di Corrado
 date: 2021-08-02
 author: Giorgia Fontani
@@ -17,36 +16,51 @@ id_numero: "OEL-154"
 numero_rivista: "Ombre e Luci"
 ---
 
-Quando ho iniziato a scrivere non sapevo da dove cominciare. Raccontare e mettere in ordine i pensieri, non sempre è facile. Ho deciso di chiudere gli occhi per qualche istante, e provare a cercare dentro di me un’immagine, **il ricordo più nitido che avevo dei meravigliosi occhi di mio fratello.** E quasi subito mi è venuta in mente una fotografia per associazione, una foto che non so più dov’è ma che ho guardato tante, tantissime volte, di noi due, seduti uno accanto all’altro nella stessa posizione sul brecciolino del viale di casa di mia nonna; lo stesso sorriso e lo stesso sguardo di due bambini poco più che seienni mano nella mano. E da quel momento sono cominciati alcuni ricordi.
+Quando ho iniziato a scrivere non sapevo da dove cominciare. Raccontare e mettere in ordine i pensieri, non sempre è facile. Ho deciso di chiudere gli occhi per qualche istante, e provare a cercare dentro di me un’immagine,**il ricordo più nitido che avevo dei meravigliosi occhi di mio fratello.** E quasi subito mi è venuta in mente una fotografia per associazione, una foto che non so più dov’è ma che ho guardato tante, tantissime volte, di noi due, seduti uno accanto all’altro nella stessa posizione sul brecciolino del viale di casa di mia nonna; lo stesso sorriso e lo stesso sguardo di due bambini poco più che seienni mano nella mano. E da quel momento sono cominciati alcuni ricordi. Da piccoli (ma anche dopo in realtà), io e Corrado facevamo spesso un gioco: quello di metterci faccia a faccia, col naso schiacciato l’uno contro l’altro, occhi negli occhi, mentre aspettavamo in silenzio che uno dei due facesse «Bu!» per spaventare l’altro. E lui rideva sempre tantissimo.
 
-Da piccoli (ma anche dopo in realtà), io e Corrado facevamo spesso un gioco: quello di metterci faccia a faccia, col naso schiacciato l’uno contro l’altro, occhi negli occhi, mentre aspettavamo in silenzio che uno dei due facesse «Bu!» per spaventare l’altro. E lui rideva sempre tantissimo. **Ogni volta che fissavo i suoi occhi così da vicino pensavo sempre la stessa cosa: perché i suoi sono azzurri e i miei no?** Mamma mi raccontava che chiunque lo incontrasse rimaneva incantato dal caschetto biondo che aveva e dagli occhi, azzurro acqua, bellissimi e grandi. Ci somigliavamo, ma tutto nei tratti era diverso, i miei occhi non colpivano mai nessuno. **E così un po’ glieli invidiavo.**
+**Ogni volta che fissavo i suoi occhi così da vicino pensavo sempre la stessa cosa: perché i suoi sono azzurri e i miei no?**
 
-Negli anni dell’infanzia siamo stati due fratelli che dovevano fare vite spesso separate, perché la convivenza era fonte di problemi, difficoltà da gestire, la mia presenza generava in lui delle fortissime gelosie. Non mi poteva proprio vedere. Soprattutto vicino a mamma. Ricordo quando io e mamma ci nascondevamo al suo sguardo per prenderci la mano; succedeva il più delle volte sul divano, sedute con lui in mezzo a noi due per dividerci, e ci prendevamo per mano in un gesto di complicità, proprio dietro alla sua schiena. Ero cosciente delle nostre differenze, non solo per gli occhi, e non potevo fare altro che tenermi un po’ a distanza, osservarlo e interagire con lui nei momenti di calma. **Ho cominciato a “guardare” davvero Corrado solo più avanti, quando sono diventata più grande.**
+Mamma mi raccontava che chiunque lo incontrasse rimaneva incantato dal caschetto biondo che aveva e dagli occhi, azzurro acqua, bellissimi e grandi. Ci somigliavamo, ma tutto nei tratti era diverso, i miei occhi non colpivano mai nessuno. **E così un po’ glieli invidiavo.** Negli anni dell’infanzia siamo stati due fratelli che dovevano fare vite spesso separate, perché la convivenza era fonte di problemi, difficoltà da gestire, la mia presenza generava in lui delle fortissime gelosie. Non mi poteva proprio vedere. Soprattutto vicino a mamma. Ricordo quando io e mamma ci nascondevamo al suo sguardo per prenderci la mano; succedeva il più delle volte sul divano, sedute con lui in mezzo a noi due per dividerci, e ci prendevamo per mano in un gesto di complicità, proprio dietro alla sua schiena. Ero cosciente delle nostre differenze, non solo per gli occhi, e non potevo fare altro che tenermi un po’ a distanza, osservarlo e interagire con lui nei momenti di calma.**Ho cominciato a “guardare” davvero Corrado solo più avanti, quando sono diventata più grande.** Il suo sguardo, con quegli occhi da diavoletto che aveva quando stava per fare qualche guaio (una ne pensava e cento ne faceva!); e quando veniva scoperto lui ti fissava negli occhi negando tutto. «È stata Ciaccia», diceva. Quando ci sfidava, ci provocava… Lo faceva con tutti, sembrava non avesse paura di nessuno. Ricordo i momenti più bui, in cui il suo sguardo perdeva luce e colore, quando aveva gli occhi stanchi, arrabbiati, spaventati e persi!**I suoi occhi mi hanno parlato in tante lingue diverse, e le ho dovute imparare tutte.** Ci è voluto del tempo per distinguere quello che “vedevo”, da quello che era veramente, al di là dell’azzurro. Ma più di tutto, ricordo i suoi occhi quando era felice! Quando rideva di gusto, quando faceva le facce buffe, quando strizzava entrambi gli occhi per fare l’occhiolino, o quando gli si illuminava il viso ogni volta che incontrava un amico, i suoi straordinari amici di [Fede e Luce](http://fedeeluce.it), quasi tutti “ribattezzati” perché stabiliva lui guardandoti, se la tua era una faccia da Giovanni, oppure da Alessandro o da Ferruccio! I nomi più improbabili li trovava tutti lui. Inventava, creava dal nulla nomi e modi di dire, perché lui la realtà la vedeva così. Ho scoperto Corrado mentre mi innamoravo del suo modo di vedere le cose, di trasformarle, di decifrarle in una maniera così particolare e unica. Sono entrata nel suo mondo, imparando soprattutto che al di là dell’azzurro, nei suoi occhi c’era il riflesso di qualcosa che nessuno avrebbe mai potuto mostrarmi, qualcosa di puro, limpido, spensierato e profondo. I suoi occhi mettevano a fuoco le piccole cose, momenti semplici, i gesti scontati, amplificandone le emozioni, le immagini e oggi, i ricordi. **L’ultimo sguardo di Corrado è quello che mi ha trafitto il cuore.** È l’immagine che resta… quell’azzurro… che diventa più intenso, e con lui l’altitudine, che precede lo spazio infinito.Questo articolo è tratto da
+[**Ombre e Luci n. 154, 2021**](https://www.ombreeluci.it/project/numero-154-guardami-questa-questo-sono-io/) **SOMMARIO** _Editoriale_**
+**[**Nove punti**](https://www.ombreeluci.it/2021/nove-punti/)di Cristina Tersigni _Focus: Guardami, questa/questo sono io_
+[**Inneschiamo la valanga?**](https://www.ombreeluci.it/2021/inneschiamo-la-valanga/) di Giulia Galeotti
+[**Cosa c'è sotto gli aggettivi**](https://www.ombreeluci.it/2021/cosa-ce-sotto-gli-aggettivi/) di Laura Coccia
+[**Con gli occhi di Corrado**](https://www.ombreeluci.it/2021/con-gli-occhi-di-corrado/) di Giorgia Fontani
+**Chi mettere al centro dell'obiettivo?**
 
-Il suo sguardo, con quegli occhi da diavoletto che aveva quando stava per fare qualche guaio (una ne pensava e cento ne faceva!); e quando veniva scoperto lui ti fissava negli occhi negando tutto. «È stata Ciaccia», diceva. Quando ci sfidava, ci provocava… Lo faceva con tutti, sembrava non avesse paura di nessuno. Ricordo i momenti più bui, in cui il suo sguardo perdeva luce e colore, quando aveva gli occhi stanchi, arrabbiati, spaventati e persi! **I suoi occhi mi hanno parlato in tante lingue diverse, e le ho dovute imparare tutte.** Ci è voluto del tempo per distinguere quello che “vedevo”, da quello che era veramente, al di là dell’azzurro.
+di Enrica Riera
+**Eliminarli dalla nostra vista**
 
-Ma più di tutto, ricordo i suoi occhi quando era felice! Quando rideva di gusto, quando faceva le facce buffe, quando strizzava entrambi gli occhi per fare l’occhiolino, o quando gli si illuminava il viso ogni volta che incontrava un amico, i suoi straordinari amici di [Fede e Luce](http://fedeeluce.it) , quasi tutti “ribattezzati” perché stabiliva lui guardandoti, se la tua era una faccia da Giovanni, oppure da Alessandro o da Ferruccio! I nomi più improbabili li trovava tutti lui. Inventava, creava dal nulla nomi e modi di dire, perché lui la realtà la vedeva così. Ho scoperto Corrado mentre mi innamoravo del suo modo di vedere le cose, di trasformarle, di decifrarle in una maniera così particolare e unica. Sono entrata nel suo mondo, imparando soprattutto che al di là dell’azzurro, nei suoi occhi c’era il riflesso di qualcosa che nessuno avrebbe mai potuto mostrarmi, qualcosa di puro, limpido, spensierato e profondo. I suoi occhi mettevano a fuoco le piccole cose, momenti semplici, i gesti scontati, amplificandone le emozioni, le immagini e oggi, i ricordi.
+di Vittore Mariani _Intervista_
+**Far vivere il luogo (e le persone) di cui si è custodi**
 
-**L’ultimo sguardo di Corrado è quello che mi ha trafitto il cuore.** È l’immagine che resta… quell’azzurro… che diventa più intenso, e con lui l’altitudine, che precede lo spazio infinito.
+di Cristina Tersigni _Dall'archivio_
+**Quel vecchio signore che non conosciamo**
 
-*Editoriale* ** ** [**Nove punti**](https://www.ombreeluci.it/2021/nove-punti/) di Cristina Tersigni
+di Marie Hélène Mathieu _Testimonianza_
+[**Mio figlio, che non voleva vedermi piangere**](https://www.ombreeluci.it/2021/mio-figlio-che-non-voleva-vedermi-piangere/) di Grazia Maria Romanini _Associazioni_
+**Quante cose possono nascere intorno a un libro**
 
-*Focus: Guardami, questa/questo sono io* [**Inneschiamo la valanga?**](https://www.ombreeluci.it/2021/inneschiamo-la-valanga/) di Giulia Galeotti [**Cosa c'è sotto gli aggettivi**](https://www.ombreeluci.it/2021/cosa-ce-sotto-gli-aggettivi/) di Laura Coccia [**Con gli occhi di Corrado**](https://www.ombreeluci.it/2021/con-gli-occhi-di-corrado/) di Giorgia Fontani **Chi mettere al centro dell'obiettivo?** di Enrica Riera **Eliminarli dalla nostra vista** di Vittore Mariani
+di Cristina Tersigni _Fede e Luce_
+**Piccole cronache dalla Lunigiana**
 
-*Intervista* **Far vivere il luogo (e le persone) di cui si è custodi** di Cristina Tersigni
+dalla Provincia di Kimata _Spettacoli_
+**Incapace di reinventarsi**
 
-*Dall'archivio* **Quel vecchio signore che non conosciamo** di Marie Hélène Mathieu
+di Claudio Cinus
+**Arriva Pablo, che vede il mondo a modo suo**
 
-*Testimonianza* [**Mio figlio, che non voleva vedermi piangere**](https://www.ombreeluci.it/2021/mio-figlio-che-non-voleva-vedermi-piangere/) di Grazia Maria Romanini
+di Matteo Cinti **Dialogo Aperto
+** _Libri_
+[**Maneggiare con cura**](https://www.ombreeluci.it/2021/maneggiare-con-cura-di-marco-bove-recensione/)di Marco Bove**
+**[**Una specie di scintilla**](https://www.ombreeluci.it/2021/una-specie-di-scintilla-recensione/) di Elle McNicoll
+[**E poi saremo salvi**](https://www.ombreeluci.it/2021/e-poi-saremo-salvi-recensione/)di Alessandra Carati**
+Quello che non uccide** di David Lagercrantz _Diari_
+**Padel, una parola che non si capisce**
 
-*Associazioni* **Quante cose possono nascere intorno a un libro** di Cristina Tersigni
+di Benedetta Mattei
+**Tornando a casa**
 
-*Fede e Luce* **Piccole cronache dalla Lunigiana** dalla Provincia di Kimata
-
-*Spettacoli* **Incapace di reinventarsi** di Claudio Cinus **Arriva Pablo, che vede il mondo a modo suo** di Matteo Cinti
-
-**Dialogo Aperto **
-
-*Libri* [**Maneggiare con cura**](https://www.ombreeluci.it/2021/maneggiare-con-cura-di-marco-bove-recensione/) di Marco Bove ** ** [**Una specie di scintilla**](https://www.ombreeluci.it/2021/una-specie-di-scintilla-recensione/) di Elle McNicoll [**E poi saremo salvi**](https://www.ombreeluci.it/2021/e-poi-saremo-salvi-recensione/) di Alessandra Carati ** Quello che non uccide** di David Lagercrantz
-
-*Diari* **Padel, una parola che non si capisce** di Benedetta Mattei **Tornando a casa** di Giovanni Grossi
+di Giovanni Grossi**Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

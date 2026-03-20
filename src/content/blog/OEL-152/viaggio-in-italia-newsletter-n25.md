@@ -19,13 +19,11 @@ numero_rivista: "Ombre e Luci"
 
 ### OL incontra...
 
-
 ---
 
 Ben ritrovati, cari lettori, per un nuovo anno insieme. Con cadenza da ora mensile, torniamo con qualche novità nella forma e nei contenuti. Oltre alle voci che già conoscete – su tutti, una splendente Benedetta – troverete suggerimenti di lettura, lo spazio 0-13 (il racconto della fragilità per mano dei più piccoli, dal disegno alla rima, dall’audio allo scritto) e soprattutto l’incontro del mese. Vi proporremo ogni volta, infatti, un luogo, una persona, una comunità… Iniziamo – attraverso la voce di Giovanni Solaro – entrando nel [primo supermercato italiano pensato per le persone con autismo](https://www.ombreeluci.it/2020/monza-primo-supermercato-autismo/) . Si trova a Monza, in via Marsala. Ed è da qui che inizia il nostro viaggio.
 
 ### Il libro del mese
-
 
 ---
 
@@ -33,13 +31,11 @@ Ben ritrovati, cari lettori, per un nuovo anno insieme. Con cadenza da ora mensi
 
 ### Spettacoli
 
-
 ---
 
 La terza tappa è Venezia. Anzi, l’altra Venezia, quella di cui non ha parlato nessuno e che invece Claudio Cinus ha esplorato per noi, viaggiando – in sicurezza – fino alla 77ª Mostra del Cinema, il primo grande evento internazionale in presenza nell’epoca della pandemia. Ed ecco quindi la [presentazione](https://www.ombreeluci.it/2020/laltra-venezia/) delle tante pellicole in tema di fragilità e disabilità, per lo più ignorate dai media. Iniziamo incontrando *[Oaza](https://www.ombreeluci.it/2020/recensione-oaza/)* , film serbo interamente girato all’interno di un istituto per persone con lievi disabilità mentali, e *[Listen](https://www.ombreeluci.it/2020/recensione-listen/)* , sull’angosciante lotta tra genitori e servizi sociali britannici per le cure di una bambina sorda.
 
 ### La foto del mese
-
 
 ---
 
@@ -47,13 +43,11 @@ La terza tappa è Venezia. Anzi, l’altra Venezia, quella di cui non ha parlato
 
 ### 0-13
 
-
 ---
 
 «Ciao mi chiamo Greta, ho 11 anni, pochi giorni fa mi hanno chiesto che cos'è la disabilità, beh nel mio vocabolario non esiste questa parola, la definizione che io dò a questa parola è dono, ognuno di noi ha un dono qualcuno li tiene nascosti e altri no. Alcune persone definirebbero questi doni, strani alcune volte brutti ma, la realtà è che sono solo idioti. Ad esempio per me una persona autistica è un bellissimo dono, perché dice le cose schiette senza parlare troppo, senza voler far del male. Questa per me non è disabilità, ma è umanità.» *(Greta va in seconda media e vive in provincia di Bari)*
 
 ### Il blog di Benedetta
-
 
 ---
 
@@ -63,16 +57,18 @@ Io non voglio proprio parlare delle vacanza al mare. Non mi va Punto e basta cos
 
 ### Il post del mese
 
-
 ---
 
 > Quando giro per Roma con mia figlia gravemente disabile noto sempre con dispiacere la pressoché totale mancanza di bambini disabili in giro. Dobbiamo dare modo alle famiglie, con tutti i mezzi, di spalancare le porte di casa e far vivere le persone con disabilità senza paure ✌️ — Alessandro Carosi (@Alecarosi) [October 5, 2020](https://twitter.com/Alecarosi/status/1313099036463857664?ref_src=twsrc%5Etfw)
 
 ### Vita Fede e Luce
 
-
 ---
 
 Dopo il confinamento pressoché improvviso che ha fatto vivere in modalità “emergenza” ma #viciniadistanza e dopo una pausa estiva che ha spinto ad organizzare brevi boccate d’aria per chi era più in difficoltà, le comunità di Fede e Luce si domandano se e come riprendere gli incontri e le attività. Cautele e prudenza si impongono e le forze non sono uguali per tutti: così ogni comunità valuta il da farsi, mette alla prova [nuove possibilità](https://www.fedeeluce.it/2020/10/13/voglia-di-ricominciare/) , fa memoria e [riflette su quanto vissuto](https://www.fedeeluce.it/2020/10/13/un-periodo-di-cui-far-memoria-nelle-nostre-comunita-prima-di-ricominciare/) . Con l’obiettivo per tutti di trovare una buona “dinamica dell’accompagnamento”: ne [ha parlato suor Veronica Donatello](https://www.fedeeluce.it/2020/10/12/i-movimenti-non-restano-fermi/) incontrando i Movimenti ecclesiali per le disabilità, tra i quali Fede e Luce, a fine settembre. E rimanendo pronti ad un anno con molte incertezze che solo insieme potremo meglio affrontare.
 
-**Per altre notizie seguici su [Facebook](https://www.facebook.com/OmbreeLuciRivista/) e su [Twitter](https://twitter.com/Ombre_Luci) . **Numeri passati Iscriviti e ricevila ogni quindici giorni ** **
+**Per altre notizie seguici su [Facebook](https://www.facebook.com/OmbreeLuciRivista/) e su [Twitter](https://twitter.com/Ombre_Luci) .
+
+**Numeri passati Iscriviti e ricevila ogni quindici giorni **
+
+**

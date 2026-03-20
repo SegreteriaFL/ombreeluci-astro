@@ -1,5 +1,4 @@
 ---
-
 title: Natura e musica
 date: 2020-08-27
 author: Giovanni Grossi
@@ -17,28 +16,55 @@ id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
 
-Nel periodo in cui siamo stati tutti chiusi per il virus, ho sentito la mancanza degli amici e anche dei colleghi di lavoro. Ora che quasi tutto è aperto con precauzioni ho l’occasione di uscire e vedere la natura che è sbocciata nell’orto biologico della Torre. Io ne ho approfittato per portare a casa qualche prodotto facendo contenta mia madre. L’ultima volta che vidi i capi ho sentito le loro idee di fare una gita ai monti, io ne sono contento perché sono sempre in città. Ho l’attrezzatura per fare passeggiate lunghe e porto con me la macchina fotografica e fare schizzi di paesaggi che preferisco; io suggerirò di andare in posti che già conosco e anche dove mangerò bene.
+Nel periodo in cui siamo stati tutti chiusi per il virus, ho sentito la mancanza degli amici e anche dei colleghi di lavoro. Ora che quasi tutto è aperto con precauzioni ho l’occasione di uscire e vedere la natura che è sbocciata nell’orto biologico della Torre. Io ne ho approfittato per portare a casa qualche prodotto facendo contenta mia madre. L’ultima volta che vidi i capi ho sentito le loro idee di fare una gita ai monti, io ne sono contento perché sono sempre in città. Ho l’attrezzatura per fare passeggiate lunghe e porto con me la macchina fotografica e fare schizzi di paesaggi che preferisco; io suggerirò di andare in posti che già conosco e anche dove mangerò bene. Parlando di musica vi descrivo una diretta che mi ha suggerito la capo del Girasole Centro anziani di san Saturnino che mostrava ai vecchi anziani come fare la ginnastica vocale, il tutto poi accompagnato da lei al pianoforte. Ci ha allietato con musiche come la vie en rose e altre nuove canzoni, e la canzoncina nuova dei pensionati. Era bella la ripresa perché era in casa nello studio, lei in abito lungo e con i capelli legati; nello sfondo si notava una vecchia libreria con tutti i suoi ricordi di famiglia.Questo articolo è tratto da
+[**Ombre e Luci n. 151, 2020**](https://www.ombreeluci.it/project/numero-151-viaggio-nellarte/) **SOMMARIO** _Editoriale_**
+**[**Nutrire talenti**](https://www.ombreeluci.it/2020/nutrire-talenti/) di Cristina Tersigni _Focus: Viaggio nell'arte
+_**Il linguaggio dell’art** e di Marta de Rino ed Eleonora Secchi
+**Metti da parte la fretta**
 
-Parlando di musica vi descrivo una diretta che mi ha suggerito la capo del Girasole Centro anziani di san Saturnino che mostrava ai vecchi anziani come fare la ginnastica vocale, il tutto poi accompagnato da lei al pianoforte. Ci ha allietato con musiche come la vie en rose e altre nuove canzoni, e la canzoncina nuova dei pensionati. Era bella la ripresa perché era in casa nello studio, lei in abito lungo e con i capelli legati; nello sfondo si notava una vecchia libreria con tutti i suoi ricordi di famiglia.
+di Gianni Verni
+**Ferma lo sguardo**
 
-*Editoriale* ** ** [**Nutrire talenti**](https://www.ombreeluci.it/2020/nutrire-talenti/) di Cristina Tersigni
+di Cristina Tersigni
+**Estemporanea e personale**
 
-*Focus: Viaggio nell'arte * **Il linguaggio dell’art** e di Marta de Rino ed Eleonora Secchi **Metti da parte la fretta** di Gianni Verni **Ferma lo sguardo** di Cristina Tersigni **Estemporanea e personale** di Giorgiana Tinazzo **Buongustaio dell’arte** di Cristina Tersigni
+di Giorgiana Tinazzo
+**Buongustaio dell’arte**
 
-*Intervista* **Il diritto a un libro vero** di Giulia Galeotti
+di Cristina Tersigni _Intervista_
+**Il diritto a un libro vero**
 
-*Testimonianze* [**Forse una ragione c'è**](https://www.ombreeluci.it/2020/forse-una-ragione-ce/) di Stefano Nasuti
+di Giulia Galeotti _Testimonianze_
+[**Forse una ragione c'è**](https://www.ombreeluci.it/2020/forse-una-ragione-ce/) di Stefano Nasuti _Dall'archivio_
+[**Un pomeriggio chiamato laboratorio**](https://www.ombreeluci.it/1988/lavorando-insieme-un-pomeriggio-chiamato-laboratorio/) di Francesca Polcaro _Associazioni_
+**Museo per tutti**
 
-*Dall'archivio* [**Un pomeriggio chiamato laboratorio**](https://www.ombreeluci.it/1988/lavorando-insieme-un-pomeriggio-chiamato-laboratorio/) di Francesca Polcaro
+di Cristina Tersigni _Fede e Luce_
+**Noi, non io**
 
-*Associazioni* **Museo per tutti** di Cristina Tersigni
+di Serena Sillitto _Spettacoli_
+**Accarezzando insieme l'erba**
 
-*Fede e Luce* **Noi, non io** di Serena Sillitto
+di Enrica Riera _Rubriche_
+**Dialogo Aperto n. 151**
+**Vita Fede e Luce n. 151**
 
-*Spettacoli* **Accarezzando insieme l'erba** di Enrica Riera
+_Libri_
+**Il cuore è una selva**
 
-*Rubriche* **Dialogo Aperto n. 151** **Vita Fede e Luce n. 151**
+di Novita Amadei
+**Il chiosco**
 
-*Libri* **Il cuore è una selva** di Novita Amadei **Il chiosco** di Anete Melece **Malintesi** di Bertrand Leclair **Un'esperienza personale** di Kenzaburo Oe
+di Anete Melece
+**Malintesi**
 
-*Diari* **Caro presidente Sergio Mattarella** di Benedetta Mattei **Natura e musica** di Giovanni Grossi
+di Bertrand Leclair
+**Un'esperienza personale**
+
+di Kenzaburo Oe _Diari_
+**Caro presidente Sergio Mattarella**
+
+di Benedetta Mattei
+**Natura e musica**
+
+di Giovanni Grossi

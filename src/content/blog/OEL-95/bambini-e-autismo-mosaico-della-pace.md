@@ -37,6 +37,6 @@ La Fondazione Bambini e Autismo ha lanciato una raccolta fondi per coprire le sp
 
 Per ricevere maggiori informazioni è possibile contattare la Fondazione al numero 0434 29187.
 
- ### L'officina dell'arte L'inserimento nell’Officina avviene dopo una valutazione funzionale, base della progettazione di un Programma di Inserimento Lavorativo Individualizzato secondo le specifiche esigenze e abilità della persona autistica. Si lavora tutti i giorni dell’anno in vari laboratori: mosaico, packaging, informatica. Si fanno cornici, vassoi, sottopiatti, specchi e altri oggetti per la casa decorati a mosaico. E ancora bomboniere personalizzate e articoli da regalo per cerimonie e ricorrenze. L'originalità e la qualità del prodotto sono garantite dalla presenza di designer e maestri mosaicisti. 
+ ### L'officina dell'arte L'inserimento nell’Officina avviene dopo una valutazione funzionale, base della progettazione di un Programma di Inserimento Lavorativo Individualizzato secondo le specifiche esigenze e abilità della persona autistica. Si lavora tutti i giorni dell’anno in vari laboratori: mosaico, packaging, informatica. Si fanno cornici, vassoi, sottopiatti, specchi e altri oggetti per la casa decorati a mosaico. E ancora bomboniere personalizzate e articoli da regalo per cerimonie e ricorrenze. L'originalità e la qualità del prodotto sono garantite dalla presenza di designer e maestri mosaicisti.
 
 menu 95 globale

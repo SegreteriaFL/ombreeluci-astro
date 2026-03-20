@@ -1,5 +1,4 @@
 ---
-
 title: A proposito di sentimenti - Parliamo del film di Daniele Segre
 date: 2000-03-28
 author: Redazione
@@ -46,11 +45,14 @@ Si fa silenzio. Poi Francesca S. dice che questo è anche il suo timore tanto pi
 
 ### Stare nel mondo reale
 
-A questo punto tutte ripensiamo, come in un breve flash ai rapporti dei nostri ragazzi con gli altri. Marta ricorda, "Da sempre con la mia famiglia, ci siamo battuti perché Teresa stesse nel mondo reale, senza separazioni di nessun genere. Da venti anni lavora regolarmente nel reparto puericultura dell'ospedale S. Giovanni, ha avuto i suoi innamoramenti per persone "normali" e i suoi dispiaceri che, anche con il nostro aiuto, ha superato. Ora mi pare più tranquilla. Fa il suo lavoro e ha capito, per esempio, che non è in grado di allevare da sola un bambino, cosa che negli anni passati, era il suo massimo desiderio. Da qualche tempo, per consiglio della psichiatra, frequenta gruppi di animazione, di teatro, dove incontra anche ragazzi e ragazze down, o con altre menomazioni, insieme a ragazzi e a ragazze normali. Daniele il figlio ventiquattrenne di Titti, è un farfallone. Si è sempre innamorato con grande facilità delle belle ragazze che incontrava nei gruppi. Da qualche tempo sembra più calmo e presenta una ragazza down figlia di amici dei genitori, come la sua fidanzata. "Antonio, ricorda Anna Rosa, quando era più giovane, si innamorava pazzamente di tutte le amiche di Fede e Luce, voleva sentirle per telefono continuamente.... non sapevo proprio cosa fare. Da qualche anno si è calmato. Adesso, ogni tanto, mi chiede notizie di Annarita, una ragazza che incontra all’Associazione Down...chissà...."
+A questo punto tutte ripensiamo, come in un breve flash ai rapporti dei nostri ragazzi con gli altri.
+Marta ricorda, "Da sempre con la mia famiglia, ci siamo battuti perché Teresa stesse nel mondo reale, senza separazioni di nessun genere. Da venti anni lavora regolarmente nel reparto puericultura dell'ospedale S. Giovanni, ha avuto i suoi innamoramenti per persone "normali" e i suoi dispiaceri che, anche con il nostro aiuto, ha superato. Ora mi pare più tranquilla. Fa il suo lavoro e ha capito, per esempio, che non è in grado di allevare da sola un bambino, cosa che negli anni passati, era il suo massimo desiderio. Da qualche tempo, per consiglio della psichiatra, frequenta gruppi di animazione, di teatro, dove incontra anche ragazzi e ragazze down, o con altre menomazioni, insieme a ragazzi e a ragazze normali. Daniele il figlio ventiquattrenne di Titti, è un farfallone. Si è sempre innamorato con grande facilità delle belle ragazze che incontrava nei gruppi. Da qualche tempo sembra più calmo e presenta una ragazza down figlia di amici dei genitori, come la sua fidanzata. "Antonio, ricorda Anna Rosa, quando era più giovane, si innamorava pazzamente di tutte le amiche di Fede e Luce, voleva sentirle per telefono continuamente.... non sapevo proprio cosa fare. Da qualche anno si è calmato. Adesso, ogni tanto, mi chiede notizie di Annarita, una ragazza che incontra all’Associazione Down...chissà...."
 
 ### Quante cose non ci dicono
 
-Luciana, come tutte le quindicenni, per ora, si innamora esclusivamente dei cantanti che vede in televisione anche se ogni tanto, ci racconta Francesca, cerco di strapparle qualche confidenza sul compagno di scuola più bello.... per capire cosa pensa. E così anche per i nostri ragazzi ci sono degli indizi, piccole tracce, sogni da inseguire e chissà quante cose non ci dicono anche se le avvertono e le soffrono o le sperano dentro di loro. Mentre ci congediamo Franca mi prende da parte per confidarmi: "Ho sentito che al laboratorio viene anche Marco quel ragazzo che lavora al bar. Sono contenta. Sai Daniela lo ha conosciuto qualche tempo fa, mi ha detto che è tanto educato e simpatico."
+Luciana, come tutte le quindicenni, per ora, si innamora esclusivamente dei cantanti che vede in televisione anche se ogni tanto, ci racconta Francesca, cerco di strapparle qualche confidenza sul compagno di scuola più bello.... per capire cosa pensa.
+E così anche per i nostri ragazzi ci sono degli indizi, piccole tracce, sogni da inseguire e chissà quante cose non ci dicono anche se le avvertono e le soffrono o le sperano dentro di loro.
+Mentre ci congediamo Franca mi prende da parte per confidarmi: "Ho sentito che al laboratorio viene anche Marco quel ragazzo che lavora al bar. Sono contenta. Sai Daniela lo ha conosciuto qualche tempo fa, mi ha detto che è tanto educato e simpatico."
 
 Auguri, auguri Daniela! Auguri a tutti voi ragazzi e a tutti noi che vi vogliamo bene e che vogliamo per voi tutto il bene possibile.
 
@@ -58,11 +60,48 @@ a cura di Tea Cabras e Natalia Livi, 2000
 
 https://www.youtube.com/watch?v=liYzCNpnMnA
 
-### A proposito di sentimenti Italia, 1999, Betacam, 35′
+### A proposito di sentimenti
+Italia, 1999, Betacam, 35′
 
-**Regista:** [Daniele Segre](https://it.wikipedia.org/wiki/Daniele_Segre) **Produzione:** I Cammelli - [Associazione Italiana Persone Down](https://aipd.it/) - Fondazione Verso Il Futuro - RAI **Distribuzione:** AIPD – I Cammelli **Soggetto:** Anna Contardi, Michela Colapinto, Daniele Segre **Montaggio:** Daniele Segre **Fotografia:** Paolo Ferrari **Operatore:** Francesco Cavazza **Suono:** Gianluca Costamagna **Musica:** Carlo Siliotto
+**Regista:**
 
-Invitato alla Mostra Internazionale del Cinema di Venezia, 1999 trasmesso da RAITRE invitato al Festival Internazionale "Cinéma di Réel", Parigi 2000 e allo Shangai Film Festival, 2000
+[Daniele Segre](https://it.wikipedia.org/wiki/Daniele_Segre)
+**Produzione:**
+
+I Cammelli - [Associazione Italiana Persone Down](https://aipd.it/) \- Fondazione Verso Il Futuro - RAI
+**Distribuzione:**
+
+AIPD – I Cammelli
+**Soggetto:**
+
+Anna Contardi, Michela Colapinto, Daniele Segre
+**Montaggio:**
+
+Daniele Segre
+**Fotografia:**
+
+Paolo Ferrari
+**Operatore:**
+
+Francesco Cavazza
+**Suono:**
+
+Gianluca Costamagna
+**Musica:**
+
+Carlo Siliotto
+
+Invitato alla Mostra Internazionale del Cinema di Venezia, 1999
+trasmesso da RAITRE
+invitato al Festival Internazionale "Cinéma di Réel", Parigi 2000
+e allo Shangai Film Festival, 2000
+
+Questo articolo è tratto da
+[Ombre e Luci n.69, 2000](https://www.ombreeluci.it/project/numero-69-la-sua-vita-nelle-mani-dei-genitori/ "Ombre e Luci n.69 - 2000")
+
+[](https://www.ombreeluci.it/project/numero-69-la-sua-vita-nelle-mani-dei-genitori/ "Ombre e Luci n.69 - 2000")
+
+**Sommario**
 
 #### Editoriale
 
@@ -70,16 +109,24 @@ Rosamaria di M. Bertolini
 
 #### Speciale: La sua vita nelle loro mani
 
-Gli siamo grati per questo di T. Cabras La sete e l’acqua della speranza di d. Marco Bove “Coraggio Immacolata!” di Pennablù
+Gli siamo grati per questo di T. Cabras
+La sete e l’acqua della speranza di d. Marco Bove
+“Coraggio Immacolata!” di Pennablù
 
 #### Articoli
 
-Mettersi in gioco di Silvia Tamberi A proposito di sentimenti: la recensione a cura di T. Cabras e Natalia Livi Villaggio senza barriere di M. Lenzi Conferenza nazionale sull’handicap di C. C. Barbieri La sofferenza di J. Vanier
+Mettersi in gioco di Silvia Tamberi
+A proposito di sentimenti: la recensione a cura di T. Cabras e Natalia Livi
+Villaggio senza barriere di M. Lenzi
+Conferenza nazionale sull’handicap di C. C. Barbieri
+La sofferenza di J. Vanier
 
 #### Rubriche
 
-[Dialogo aperto](http://www.ombreeluci.it/1993/dialogo-aperto-n-69/) [Vita Fede e Luce](http://www.ombreeluci.it/1993/vita-fede-e-luce-n-59/)
+[Dialogo aperto](http://www.ombreeluci.it/1993/dialogo-aperto-n-69/ "Dialogo aperto n.")
+[Vita Fede e Luce](http://www.ombreeluci.it/1993/vita-fede-e-luce-n-59/ "Vita Fede e Luce n.")
 
 #### Libri
 
-Il libro di Johann “Io vi ho amati tutti” , Johann Heuchei [Clara va al mare - Recensione](Clara va al mare - Recensione) , Guido Quarzo
+Il libro di Johann “Io vi ho amati tutti”, Johann Heuchei
+[Clara va al mare - Recensione](Clara va al mare - Recensione "Clara va al mare - Recensione"), Guido Quarzo

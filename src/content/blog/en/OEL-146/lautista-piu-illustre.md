@@ -1,5 +1,4 @@
 ---
-
 title: "L'autista più illustre"
 date: "2019-08-02"
 author: "Serena Sillitto"
@@ -17,7 +16,7 @@ id_numero: "OEL-146"
 numero_rivista: "Ombre e Luci"
 ---
 
-Tutto potevo aspettarmi quando Giulia mi propose di accompagnarla a Trosly da Jean Vanier (allora ero anche uno dei due coordinatori della comunità di *Fede e Luce* di San Roberto a Roma, figuratevi che emozione!) ma mai al mondo avrei immaginato che quell’uomo, di cui avevo sentito così tanto parlare e di cui avevo letto qualche libro, potesse farci niente meno che da autista! In macchina, mentre andavamo alla messa di una comunità di un paesino vicino, Giulia stava seduta davanti accanto a Jean che guidava, mentre io da dietro gustavo la scena di un santo al volante che parlava di “people with disabilities”, Dio e comunità con la mia migliore amica.
+Tutto potevo aspettarmi quando Giulia mi propose di accompagnarla a Trosly da Jean Vanier (allora ero anche uno dei due coordinatori della comunità di _Fede e Luce_ di San Roberto a Roma, figuratevi che emozione!) ma mai al mondo avrei immaginato che quell’uomo, di cui avevo sentito così tanto parlare e di cui avevo letto qualche libro, potesse farci niente meno che da autista! In macchina, mentre andavamo alla messa di una comunità di un paesino vicino, Giulia stava seduta davanti accanto a Jean che guidava, mentre io da dietro gustavo la scena di un santo al volante che parlava di “people with disabilities”, Dio e comunità con la mia migliore amica.
 
 Spesso i santi ce li immaginiamo avvolti da un’aura mistica che quasi li stacca da terra: non è così. La santità impasta cielo e terra per fare «nuove tutte le cose» anche le più banali, le più ordinarie, quei gesti che compiamo mille volte al giorno ma che nelle mani di un santo come Jean acquistano un sapore diverso, il profumo di Dio.
 
@@ -29,12 +28,61 @@ Quando Jean scrive e ripete che ogni persona è importante, che ognuno di noi è
 
 > Quel che avevamo letto nei libri di Jean e che gli avevamo sentito dire agli incontri, lì l’abbiamo toccato con mano. Come Tommaso quando mette il dito nel costato di Gesù.
 
-L’abbiamo visto nei laboratori dove i ragazzi lavorano la ceramica o cucinano le marmellate, ognuno per quello che può e per come può, così come nei campi dove coltivano frutta e ortaggi perché il lavoro, all’*Arca*, restituisce all’uomo la dignità che agli occhi del mondo il suo essere disabile gli toglie.
+L’abbiamo visto nei laboratori dove i ragazzi lavorano la ceramica o cucinano le marmellate, ognuno per quello che può e per come può, così come nei campi dove coltivano frutta e ortaggi perché il lavoro, all’ _Arca_ , restituisce all’uomo la dignità che agli occhi del mondo il suo essere disabile gli toglie.
 
-L’abbiamo visto a tavola, dove ognuno ha il suo compito tra apparecchio, sparecchio e lavaggio dei piatti, e il suo posto; nelle stanze dei ragazzi, tutte personalizzate e mai anonime perché l’*Arca* non è un istituto ma una casa famiglia dove ogni persona è accolta e amata per quello che è e rispettata nei suoi bisogni e nei suoi gusti.
+L’abbiamo visto a tavola, dove ognuno ha il suo compito tra apparecchio, sparecchio e lavaggio dei piatti, e il suo posto; nelle stanze dei ragazzi, tutte personalizzate e mai anonime perché l’ _Arca_ non è un istituto ma una casa famiglia dove ogni persona è accolta e amata per quello che è e rispettata nei suoi bisogni e nei suoi gusti.
 
-L’abbiamo sentito nel *foyer*, dove anche le persone con le disabilità più gravi hanno la giornata scandita tra un tempo in cui stare fuori e un tempo in cui stare dentro casa, perché nessuno all’*Arca* è parcheggiato, nemmeno noi “forestiere” in visita, come se fosse la cosa più naturale del mondo aggiungere un posto a tavola, sedere accanto a sconosciute, parlare lingue diverse (e vi assicuro che la lingua non è un problema a Trosly: io che parlo poco e male l’inglese mi sentivo perfettamente in sintonia con tutto quello che mi circondava perché le parole parlate non sono tutto!).
+L’abbiamo sentito nel _foyer_ , dove anche le persone con le disabilità più gravi hanno la giornata scandita tra un tempo in cui stare fuori e un tempo in cui stare dentro casa, perché nessuno all’ _Arca_ è parcheggiato, nemmeno noi “forestiere” in visita, come se fosse la cosa più naturale del mondo aggiungere un posto a tavola, sedere accanto a sconosciute, parlare lingue diverse (e vi assicuro che la lingua non è un problema a Trosly: io che parlo poco e male l’inglese mi sentivo perfettamente in sintonia con tutto quello che mi circondava perché le parole parlate non sono tutto!).
 
 E, principio e fine di ogni cosa, quel motore che ha acceso la vita di Jean l’abbiamo assaporato nella solenne pienezza della messa quotidiana, cuore pulsante delle giornate a Trosly, celebrata in una chiesetta ricavata da una stalla (ricorda qualcosa?), decorata con una piccola vetrata regalata a Jean dalla comunità di Taizè.
 
-Nicla Bettazzi, la mamma di Massimiliano, ha scritto una volta che «*Fede e Luce* non è fare per ma stare con»: ecco, io non saprei descrivere con parole migliori il “come” di Jean. Lui stava. Stava con i ragazzi quando, alto com’era, li abbiamo visti a Trosly arrampicarglisi addosso. Stava con Dio quando ascoltando la messa l’abbiamo visto assorto e raccolto e trasfigurato, come se ricaricasse le batterie del suo spirito per portarsela dietro quella Parola in ogni singola ora delle sue giornate, in comunità come nei grandi eventi internazionali, per continuare a fare le cose ordinarie, come lavare i piatti, guidare, prendere il tè e chiacchierare, in un modo del tutto straordinario. Il Suo.
+Nicla Bettazzi, la mamma di Massimiliano, ha scritto una volta che « _Fede e Luce_ non è fare per ma stare con»: ecco, io non saprei descrivere con parole migliori il “come” di Jean. Lui stava. Stava con i ragazzi quando, alto com’era, li abbiamo visti a Trosly arrampicarglisi addosso. Stava con Dio quando ascoltando la messa l’abbiamo visto assorto e raccolto e trasfigurato, come se ricaricasse le batterie del suo spirito per portarsela dietro quella Parola in ogni singola ora delle sue giornate, in comunità come nei grandi eventi internazionali, per continuare a fare le cose ordinarie, come lavare i piatti, guidare, prendere il tè e chiacchierare, in un modo del tutto straordinario. Il Suo.
+
+Questo articolo è tratto da
+[Ombre e Luci n. 146, 2019](https://www.ombreeluci.it/project/numero-146-jean-vanier/)
+
+**SOMMARIO**
+
+_Editoriale_**
+**[**Uomo del Regno**](https://www.ombreeluci.it/2019/uomo-del-regno/) di Giulia Galeotti
+
+_Focus: Jean Vanier
+_**Jean e il carro di Geneviève** di Giulia Galeotti
+**[Il coraggio di cambiare](http://www.ombreeluci.it/2019/il-coraggio-di-cambiare/) **di Giulia Galeotti
+**Levatrice di cose nuove**
+
+di Cristina Tersigni
+**Ci ha fatto vedere cose che non avevamo ancora visto**
+
+di Andrea Lonardo
+**Il tesoro nascosto nel campo**
+
+di Cristina Tersigni
+**L’autista più illustre**
+
+di Serena Sillitto
+**Il tuo ultimo soffio**
+
+di Angela Grassi
+
+_Dall'archivio_
+[**Ritrovare la nostra umanità**](https://www.ombreeluci.it/1992/di-fronte-alle-persone-che-soffrono-fuggire-o-andare-incontro/) di Jean Vanier
+
+_Spettacoli_
+**La tenerezza di Jean in un film**
+
+di Anne Dagallier
+
+_Libri di Jean Vanier_
+[**Le grandi domande della vita**](http://www.ombreeluci.it/2019/le-grandi-domande-della-vita/)
+**[Ho incontrato Gesù, mi ha detto: "ti voglio bene"](http://www.ombreeluci.it/2019/ho-incontrato-gesu-mi-ha-detto-ti-voglio-bene/)
+[La comunità, luogo del perdono e della festa](http://www.ombreeluci.it/2019/la-comunita-luogo-del-perdono-e-della-festa-2/)
+[Larmes de silence](http://www.ombreeluci.it/2019/larmes-de-silence/)**
+
+_Diari_
+**«Daje Benedetta», «Daje tu, bello!»**
+
+di Benedetta Mattei
+**Come avrei voluto vederti più spesso**
+
+di Giovanni Grossi

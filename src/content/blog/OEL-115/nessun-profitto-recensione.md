@@ -1,5 +1,4 @@
 ---
-
 title: Nessun profitto - Recensione
 date: 2011-09-04
 author: Redazione
@@ -19,7 +18,5 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Martha C. Nussbaum, Ed. Il Mulino"
 ---
 
-Di
-lettura non facile come un romanzo, questo saggio dovrebbe essere letto non solo da chi è interessato direttamente al tema “scuola-educazione” ma anche dai normali cittadini cui stia a cuore il futuro dei nostri paesi. “Oggi possiamo ancora dire che ci piacciono la democrazia e la partecipazione politica (...) la libertà di parola, il rispetto della differenza e la comprensione dell'altro. Fortunatamente rispettiamo questi valori, ma non pensiamo abbastanza a ciò che dovremmo fare per trasmetterli alla generazione futura e per garantire la sopravvivenza. Distratti dall'obiettivo del benessere, chiediamo sempre di più alle nostre scuole di insegnare cose utili per diventare uomini d’affari piuttosto che cittadini responsabili.” Queste frasi sintetizzano il pensiero importante della scrittice, che riesce attraverso la sua analisi, a convincerci perchè non possiamo restare indifferenti al pericolo che dalle nostre scuole vengono bandite le materie umanistiche (intese in senso lato) a favore delle materie scientifiche e tecniche; a beneficio dell'economia e del mondo degli affari.
-*M.B.*
-, 2011
+Di lettura non facile come un romanzo, questo saggio dovrebbe essere letto non solo da chi è interessato direttamente al tema “scuola-educazione” ma anche dai normali cittadini cui stia a cuore il futuro dei nostri paesi. “Oggi possiamo ancora dire che ci piacciono la democrazia e la partecipazione politica (...) la libertà di parola, il rispetto della differenza e la comprensione dell'altro. Fortunatamente rispettiamo questi valori, ma non pensiamo abbastanza a ciò che dovremmo fare per trasmetterli alla generazione futura e per garantire la sopravvivenza. Distratti dall'obiettivo del benessere, chiediamo sempre di più alle nostre scuole di insegnare cose utili per diventare uomini d’affari piuttosto che cittadini responsabili.” Queste frasi sintetizzano il pensiero importante della scrittice, che riesce attraverso la sua analisi, a convincerci perchè non possiamo restare indifferenti al pericolo che dalle nostre scuole vengono bandite le materie umanistiche (intese in senso lato) a favore delle materie scientifiche e tecniche; a beneficio dell'economia e del mondo degli affari. _M.B._ , 2011Questo articolo è tratto da
+[Ombre e Luci n.115](https://www.ombreeluci.it/project/numero-115-difendere-la-fragilita-di-ognuno/ "Ombre e Luci n.115") [](https://www.ombreeluci.it/project/numero-115-difendere-la-fragilita-di-ognuno/ "Ombre e Luci n.115")

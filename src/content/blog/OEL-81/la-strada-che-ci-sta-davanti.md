@@ -24,13 +24,17 @@ subtitle: "Che cosa chiede il Signore alle Comunità di Fede e Luce"
 
 Edopo trent’anni? Dopo tutto il cammino percorso sin qui, dove dobbiamo andare? Verso quali passi il Signore ci sta chiamando? Come questa nostra “famiglia” di Fede e Luce è chiamata a crescere per restare fedele alla sua vocazione?
 
-**Credo anzitutto che il Signore ci chieda di guardare con gioia e gratitudine al cammino sin qui percorso** e a leggere senza angoscia o tristezza anche il momento presente, che per alcuni di noi e per una parte delle nostre comunità è il tempo della “maturità”.
+**Credo anzitutto che il Signore ci chieda di guardare con gioia e gratitudine al cammino sin qui percorso**
+
+e a leggere senza angoscia o tristezza anche il momento presente, che per alcuni di noi e per una parte delle nostre comunità è il tempo della “maturità”.
 
 Non dobbiamo dimenticarci infatti una cosa importantissima: **lo Spirito del Signore che ha suggerito e sostenuto la nascita di Fede e Luce è presente anche ora** , anche ora ci sospinge e ci chiama a continuare il cammino, anche ora ci guida e ci illumina per infonderci nuova fiducia e nuovo slancio.
 
 Credo poiché alle nostre comunità più "vecchie" **il Signore stia chiedendo di vivere nella pace questo tempo, anche quando si è rimasti in pochi e le forze sono diminuite.** Ciò significa accettare con serenità che alcune delle attività fatte in precedenza non sono più possibili oggi e forse questo permette di avere più tempo per parlare, incontrarsi, confidarsi: anche questo è festa, gioia dell’incontro, comunione vera.
 
-**Forse in alcuni casi potrebbe essere utile domandarsi se non sia opportuno unire le forze** , come talvolta capita che genitori anziani vadano a vivere nel momento della difficoltà o della vecchiaia con la nuova famiglia dei figli. Così anche per noi potrebbe servire unire comunità più deboli con comunità più forti o unire tra loro comunità che hanno doni e risorse diverse; in questo caso, come spesso ci hanno insegnato i nostri ragazzi, le fragilità si sostengono tra loro.
+**Forse in alcuni casi potrebbe essere utile domandarsi se non sia opportuno unire le forze**
+
+, come talvolta capita che genitori anziani vadano a vivere nel momento della difficoltà o della vecchiaia con la nuova famiglia dei figli. Così anche per noi potrebbe servire unire comunità più deboli con comunità più forti o unire tra loro comunità che hanno doni e risorse diverse; in questo caso, come spesso ci hanno insegnato i nostri ragazzi, le fragilità si sostengono tra loro.
 
 Ma questo deve essere anche il tempo di un nuovo slancio in avanti che già lo Spirito ci sta mostrando. Come in una famiglia viene il tempo per qualcuno di allontanarsi da casa e formarne una nuova, così mi sembra che anche per noi questo è il tempo in cui, con un po’ di coraggio, siamo chiamati a partire per formare nuove comunità di [Fede e Luce](https://www.fedeeluce.it/) , soprattutto valorizzando quei contatti già esistenti o quelle esperienze già avviate da altri, che però guardano con interesse e simpatia al nostro cammino e alla spiritualità di Fede e Luce.
 

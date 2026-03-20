@@ -1,5 +1,4 @@
 ---
-
 title: Mitezza – Recensione
 date: 2023-12-12
 author: Giulia Galeotti
@@ -19,6 +18,21 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Eugenio Borgna riflette su una delle esperienze umane più fraintese e dimenticate (Einaudi, 2023)"
 ---
 
-Psichiatra e autore prolifico, in *Mitezza* Eugenio Borgna riflette su una delle esperienze umane più fraintese e dimenticate. E lo fa mettendo in relazione le letture della sua vita (da Antonia Pozzi a Carlo Maria Martini, da Giorgio La Pira a Mario Tobino), con tutti gli ascolti che, da sapiente psichiatra, ha svolto negli anni. «La mitezza è fragile, come una farfalla, e come un agnello, e nondimeno essa cambia il modo di essere della vita». Ferita dalle parole aride, aggressive e superficiali, la mitezza è accettazione di chi siamo, delle nostre fragilità, mancanze e limiti; quell’accettazione che ci porta poi ad accettare fragilità, mancanze e limiti altrui. Perché, a saperla ascoltare, la mitezza è mossa da una finalità precisa: «Creare relazioni umane aperte all’ascolto e all’accoglienza, alla collaborazione e alla reciprocità»
+Psichiatra e autore prolifico, in _Mitezza_ Eugenio Borgna riflette su una delle esperienze umane più fraintese e dimenticate. E lo fa mettendo in relazione le letture della sua vita (da Antonia Pozzi a Carlo Maria Martini, da Giorgio La Pira a Mario Tobino), con tutti gli ascolti che, da sapiente psichiatra, ha svolto negli anni. «La mitezza è fragile, come una farfalla, e come un agnello, e nondimeno essa cambia il modo di essere della vita». Ferita dalle parole aride, aggressive e superficiali, la mitezza è accettazione di chi siamo, delle nostre fragilità, mancanze e limiti; quell’accettazione che ci porta poi ad accettare fragilità, mancanze e limiti altrui. Perché, a saperla ascoltare, la mitezza è mossa da una finalità precisa: «Creare relazioni umane aperte all’ascolto e all’accoglienza, alla collaborazione e alla reciprocità» Mitezza **Autore** : Eugenio Borgna
+**Editore:**
 
- ### Mitezza **Autore** : Eugenio Borgna **Editore:** Einaudi **Pubblicato:** 2023 **Pagine:** 120 **Prezzo:** 12€ **ISBN:** 9788806256753
+Einaudi
+**Pubblicato:**
+
+2023
+**Pagine:**
+
+120
+**Prezzo:**
+
+12€
+**ISBN:**
+
+9788806256753 Questo articolo è tratto da
+[**Ombre e Luci n.163**](https://www.ombreeluci.it/project/numero-163-pazienti/ "Ombre e Luci n.162")[
+](https://www.ombreeluci.it/project/numero-161-quarantanni-di-ol/ "Ombre e Luci n.161") [](https://www.ombreeluci.it/project/numero-163-pazienti/)

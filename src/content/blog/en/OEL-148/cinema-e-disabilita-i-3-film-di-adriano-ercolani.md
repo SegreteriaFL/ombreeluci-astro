@@ -1,5 +1,4 @@
 ---
-
 title: "Cinema e disabilità: i 3 film di Adriano Ercolani"
 date: "2019-11-16"
 author: "Adriano Ercolani"
@@ -63,22 +62,22 @@ Your content goes here. Edit or remove this text inline or in the module Content
 
 ## The Elephant Man
 
-*(id., Gran Bretagna, 1980, durata 125 min.) di David Lynch, Con Anne Bancroft, John Hurt, Anthony Hopkins, John Standing, John Gielgud*
+_(id., Gran Bretagna, 1980, durata 125 min.) di David Lynch, Con Anne Bancroft, John Hurt, Anthony Hopkins, John Standing, John Gielgud_
 
 Il più famoso caso medico dell’Inghilterra vittoriana viene tratteggiato dal genio di David Lynch in una favola in bianco e nero, visivamente abbagliante e insieme capace di arrivare al cuore dello spettatore. Dietro il trucco enorme il protagonista John Hurt riesce ad esplicitare tutta l’umanità e la dignità di John Merrick, uomo comune e come tutti bisognoso di affetto. A completare un cast di attori in stato di grazia un giovane Anthony Hopkins mai più così misurato e un elegante cammeo di Ann Bancroft.
 
 ## Il mio piede sinistro
 
-*(My Left Foot, Irlanda, 1989, durata 100 min.) di Jim Sheridan. Con Brenda Fricker, Daniel Day-Lewis, Ruth McCabe, Cyril Cusack, Hugh O'Conor, Ray McAnally*
+_(My Left Foot, Irlanda, 1989, durata 100 min.) di Jim Sheridan. Con Brenda Fricker, Daniel Day-Lewis, Ruth McCabe, Cyril Cusack, Hugh O'Conor, Ray McAnally_
 
 Dublino, 1931. Nato con una paralisi celebrale che ne limita quasi totalmente i movimenti, Christy Brown diventa fin da subito il centro emotivo di una famiglia vitale, ottimista, che lo supporterà fino a farlo diventare un pittore di successo. Il film diretto da Jim Sheridan è un inno alla gioia della vita in tutte le sue forme. Il film che ha lanciato Daniel Day-Lewis, il quale grazie alla sua commovente interpretazione si aggiudicò il primo Oscar di una carriera impareggiabile.
 
 ## Figli di un dio minore
 
-*(Children of a Lesser God, USA, 1986, durata 118 min.) di Randa Haines. Con Piper Laurie, William Hurt, Marlee Matlin, Philip Bosco, Max Brown, Allison Gompf. *
+_(Children of a Lesser God, USA, 1986, durata 118 min.) di Randa Haines. Con Piper Laurie, William Hurt, Marlee Matlin, Philip Bosco, Max Brown, Allison Gompf._
 
 Un nuovo insegnante in una classe di sordi, una ragazza senza udito che si rifiuta di parlare, un rapporto che inizia a costruirsi sul dolore e la frustrazione per trasformarsi in un’appassionante storia d’amore. Un magistrale William Hurt e la rivelazione Marlee Matlin sono l’anima vibrante di un melodramma coraggioso e non scontato, capace di restituire allo spettatore sia la frustrazione che la dignità dei personaggi. Un cult-movie da riscoprire.
 
-### Speciale Cinema e disabilità
+### Speciale [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/ "Speciale Cinema e disabilità - Ombre e Luci")
 
 Con i contributi di:

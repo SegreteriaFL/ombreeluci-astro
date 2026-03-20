@@ -1,5 +1,4 @@
 ---
-
 title: "Un angolino di... \"Arche\"!"
 date: 1976-09-20
 author: Redazione
@@ -31,4 +30,9 @@ Ma un giorno si dissero: "Se i nani dispettosi calpestano i fiori forse è perch
 
 Così fecero, e scoprirono che non c'erano nani dispettosi, ma soltanto nani ciechi! La vita a bordo ritornò bella, colorita e piena di fiori.
 
-*- Estratto dal giornalino "Tralal'Arche", 1976 *
+_\- Estratto dal giornalino "Tralal'Arche", 1976
+_
+
+Questo articolo è tratto da:
+**[Insieme n.10, 1976](https://www.ombreeluci.it/project/insieme-n-10-bollettino-fede-e-luce-1976/)
+[](https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-10-set-1976.jpg)**

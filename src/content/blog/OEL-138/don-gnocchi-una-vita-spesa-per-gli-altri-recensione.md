@@ -1,5 +1,4 @@
 ---
-
 title: Don Gnocchi - Una vita spesa per gli altri - Recensione
 date: 2017-06-28
 author: Matteo Cinti
@@ -17,7 +16,6 @@ id_numero: "OEL-138"
 numero_rivista: "Ombre e Luci"
 ---
 
-G
-razie a questa nuova edizione, torna disponibile la storia a fumetti disegnata da Sergio Toppi e sceneggiata da Beppe Ramello che ripercorre, in appena 50 pagine, la vita di Don Carlo Gnocchi. In appendice al fumetto, troviamo un riepilogo cronologico delle tappe fondamentali della vita del beato, insieme ad alcuni suoi pensieri. Una vita spesa per gli altri è un’ottima occasione per (ri)scoprire la vita di Don Carlo in modo semplice e poco impegnativo. Il fumetto di per sé facilita la lettura anche ai più piccoli, anche se, va detto, il tratto di Toppi è un po’ troppo radicato nella vecchia scuola, e potrebbe non trovare i favori dei giovanissimi, abituati a disegni più dinamici e colorati. Tuttavia resta senza dubbio più appetibile rispetto al classico libro, almeno come punto di partenza per scoprire e comprendere la vocazione del “papà dei mutilatini”.
-*Matteo Cinti*
-, 2017
+Grazie a questa nuova edizione, torna disponibile la storia a fumetti disegnata da Sergio Toppi e sceneggiata da Beppe Ramello che ripercorre, in appena 50 pagine, la vita di Don Carlo Gnocchi. In appendice al fumetto, troviamo un riepilogo cronologico delle tappe fondamentali della vita del beato, insieme ad alcuni suoi pensieri. Una vita spesa per gli altri è un’ottima occasione per (ri)scoprire la vita di Don Carlo in modo semplice e poco impegnativo. Il fumetto di per sé facilita la lettura anche ai più piccoli, anche se, va detto, il tratto di Toppi è un po’ troppo radicato nella vecchia scuola, e potrebbe non trovare i favori dei giovanissimi, abituati a disegni più dinamici e colorati. Tuttavia resta senza dubbio più appetibile rispetto al classico libro, almeno come punto di partenza per scoprire e comprendere la vocazione del “papà dei mutilatini”. _Matteo Cinti_ , 2017Questo articolo è tratto da
+[Ombre e Luci n.138](https://www.ombreeluci.it/project/numero-138-costruire-laccoglienza/ "Ombre e Luci n.138")
+[](https://www.ombreeluci.it/project/numero-138-costruire-laccoglienza/ "Ombre e Luci n.138")

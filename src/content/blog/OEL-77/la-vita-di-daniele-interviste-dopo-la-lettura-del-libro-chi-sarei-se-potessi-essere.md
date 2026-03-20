@@ -29,7 +29,9 @@ subtitle: "Sul dopo di noi: la testimonianze di una mamma, insegnante e amica di
 
 Oggi lavora in un ufficio dove si elaborano programmi per computer. Ha un contratto a tempo indeterminato e si trova bene. Non dice molto di quello che fa: ora mi pare stia riscrivendo e correggendo un testo che ha gà trascritto una volta. Entra alle 9 e esce alle 16. Ho sempre cercato di fargli fare tante cose. Conosceva abbastanza alcune lingue ma ora sta trascurandole. Frequenta una scuola di musica due volte alla settimana e da qualche tempo una scuola di vela. Frequenta tanti amici, non singolarmente ma in gruppo. Fa parte della Comunità di Santa Egidio e di un gruppo di Fede e Luce. Con questi gruppi fa varie attività, ha fatto viaggi di qualche giorno anche senza di me. Preferisce queste compagnie rispetto ai gruppi dei ragazzi disabili: proprio per questo ha abbandonato il gruppo di autonomia dell’Associazione Ragazzi Down."
 
-**Tutto questo è molto bello. Ma non hai sentito negli ultimi anni o anche ora, tensioni particolari in lui, momenti di ribellione, a te, al lavoro, alla sua disabilità?** Naturalmente i problemi non mancano. Ora ha delle grandi insofferenze quando non assecondo i suoi desideri più grandi. Vorrebbe andare da solo in Calabria con il treno o l’aereo a trovare dei parenti. Vorrebbe andare anche in altre città, dove non conosciamo nessuno, solo per il gusto di viaggiare da solo, di vedere cose nuove... Ma io ha paura di mandarlo da solo... Sa sbrigarsela abbastanza, sa chiedere indicazioni per i mezzi e le strade ma... non mi sento pronta a lasciarlo andare, temo sempre che possa mettersi in qualche guaio.
+**Tutto questo è molto bello. Ma non hai sentito negli ultimi anni o anche ora, tensioni particolari in lui, momenti di ribellione, a te, al lavoro, alla sua disabilità?**
+
+Naturalmente i problemi non mancano. Ora ha delle grandi insofferenze quando non assecondo i suoi desideri più grandi. Vorrebbe andare da solo in Calabria con il treno o l’aereo a trovare dei parenti. Vorrebbe andare anche in altre città, dove non conosciamo nessuno, solo per il gusto di viaggiare da solo, di vedere cose nuove... Ma io ha paura di mandarlo da solo... Sa sbrigarsela abbastanza, sa chiedere indicazioni per i mezzi e le strade ma... non mi sento pronta a lasciarlo andare, temo sempre che possa mettersi in qualche guaio.
 
 È molto attratto dalle belle ragazze. Vorrebbe stare sempre con loro, uscire con loro. Prima rifiutava le ragazze con problemi simili ai suoi, ora è più disponibile nei loro confronti. Ma secondo me non è mai stato innamorato veramente. Infatti non prende mai l’iniziativa di telefonare a qualcuna, di invitarla. Aspetta di essere chiamato o vorrebbe che fossi io a organizzare l’incontro, la passeggiata. E questo è un altro problema. Sento di avere fatto forse troppo, in questo senso, per mio figlio. Ho organizzato, stabilito amicizie, trovato attività e lui si è abituato ad avere tutto questo senza darsi da fare.
 
@@ -41,11 +43,17 @@ Mi ha accolto sorridente e gentile. Mi ha raccontato tante cose mentre Titti si 
 
 Ma non è solo questo che Daniele vuole nella sua vita. Ci sono sogni lontani e difficili, i sogni più belli, come diventare attore o un batterista in un complesso musicale importante. E ci sono sogni più facili, da raggiungere: andare in Calabria a trovare i cugini, nuotare con loro a lungo come pesci, suonare con gli amici di Fede e Luce quando ci si trova insieme per una giornata. E poi la patente...quando potrò averla. Guidare è pericoloso, si può mettere in pericolo la vita degli altri...meglio aspettare.
 
-**Daniele, ragazzo giudizioso, complimenti. Ma capita anche a te di essere un po’ triste, di desiderare qualcosa che non puoi avere?** Sì, Daniele desidera una cosa impossibile, come capita a tutti: vorrebbe che nella sua casa ci fossero ancora i nonni che gli volevano tanto bene, il suo papà che è morto quando lui era un bambino piccolo. E tornato da una gita scolastica e la mamma gli ha detto che papà non c’era più. Essere solo in due in casa è un po’ triste. Ecco perché è così importante organizzare le cene con gli amici. E poi si organizzano uscite in gruppo, cene in pizzeria, si va al cinema.
+**Daniele, ragazzo giudizioso, complimenti. Ma capita anche a te di essere un po’ triste, di desiderare qualcosa che non puoi avere?**
 
-**Daniele, tutti crescendo cerchiamo di cambiare qualcosa in noi che non va. Tu che propositi hai?** Veramente mi sembra di avere un buon carattere, di sapere fare tante cose, però vorrei riuscire a non muovere sempre le mani, a non toccarmi i capelli e la fronte mentre parlo. Non è bello, lo so, devo riuscirci. E poi non devo aver paura del telefono. Devo essere io a chiamare gli amici ma...
+Sì, Daniele desidera una cosa impossibile, come capita a tutti: vorrebbe che nella sua casa ci fossero ancora i nonni che gli volevano tanto bene, il suo papà che è morto quando lui era un bambino piccolo. E tornato da una gita scolastica e la mamma gli ha detto che papà non c’era più. Essere solo in due in casa è un po’ triste. Ecco perché è così importante organizzare le cene con gli amici. E poi si organizzano uscite in gruppo, cene in pizzeria, si va al cinema.
 
-**Perché ti sembra così difficile chiamare al telefono un amico, invitare un’amica ad uscire?** Loro hanno sempre tanti impegni, tante cose da fare, ho paura che non possano uscire, che mi dicano: Oggi no, non posso...”
+**Daniele, tutti crescendo cerchiamo di cambiare qualcosa in noi che non va. Tu che propositi hai?**
+
+Veramente mi sembra di avere un buon carattere, di sapere fare tante cose, però vorrei riuscire a non muovere sempre le mani, a non toccarmi i capelli e la fronte mentre parlo. Non è bello, lo so, devo riuscirci. E poi non devo aver paura del telefono. Devo essere io a chiamare gli amici ma...
+
+**Perché ti sembra così difficile chiamare al telefono un amico, invitare un’amica ad uscire?**
+
+Loro hanno sempre tanti impegni, tante cose da fare, ho paura che non possano uscire, che mi dicano: Oggi no, non posso...”
 
 a cura di *Tea Cabras* , 2002
 

@@ -1,5 +1,4 @@
 ---
-
 title: Persone prima che disabili. Una riflessione sull’handicap tra giustizia ed etica - Recensione
 date: 2013-09-13
 author: Cristina Tersigni
@@ -19,7 +18,6 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Maria Zanichelli, Einaudi, pp. 253"
 ---
 
-D
-ignità della persona e vulnerabilità ineluttabile di ciascuno: intorno a questi due fuochi si snoda questo breve itinerario di tipo teorico. Lo percorre Maria Zanichelli, ricercatrice di filosofia del diritto all’Università di Parma in circa 80 pagine di riflessioni. Riflessioni che partono dall’analisi di alcune teorie, tra le poche filosofiche che hanno tentato di affrontare la “condizione disabile” con gli interrogativi morali che suscita, l’esigenza di giustizia e la domanda di senso che evoca. Consapevole di non poter ridurre per la condizione di milioni di esseri umani a teorie generali, l’autrice ha saputo accostarvi, con un approccio umile e partecipato, testimonianze molto significative di persone che hanno vissuto l’handicap sulla loro pelle o su quella di chi avevano vicino. Nel tentativo di “illuminare il significato profondo di una realtà umana ardua e misteriosa, ma pur sempre molto concreta: refrattaria alla retorica, alle apologie, ai proclami ideologici”. Una preziosa e ricca bibliografia conclude il volumetto.
-*Cristina Tersigni*
-, 2013
+Dignità della persona e vulnerabilità ineluttabile di ciascuno: intorno a questi due fuochi si snoda questo breve itinerario di tipo teorico. Lo percorre Maria Zanichelli, ricercatrice di filosofia del diritto all’Università di Parma in circa 80 pagine di riflessioni. Riflessioni che partono dall’analisi di alcune teorie, tra le poche filosofiche che hanno tentato di affrontare la “condizione disabile” con gli interrogativi morali che suscita, l’esigenza di giustizia e la domanda di senso che evoca. Consapevole di non poter ridurre per la condizione di milioni di esseri umani a teorie generali, l’autrice ha saputo accostarvi, con un approccio umile e partecipato, testimonianze molto significative di persone che hanno vissuto l’handicap sulla loro pelle o su quella di chi avevano vicino. Nel tentativo di “illuminare il significato profondo di una realtà umana ardua e misteriosa, ma pur sempre molto concreta: refrattaria alla retorica, alle apologie, ai proclami ideologici”. Una preziosa e ricca bibliografia conclude il volumetto. _Cristina Tersigni_ , 2013Questo articolo è tratto da
+[Ombre e Luci n.123](https://www.ombreeluci.it/project/numero-123-non-altro-non-diversa-parte-della-vita/ "Ombre e Luci n.123")
+[](https://www.ombreeluci.it/project/numero-123-non-altro-non-diversa-parte-della-vita/ "Ombre e Luci n.123")

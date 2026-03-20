@@ -1,5 +1,4 @@
 ---
-
 title: "Alla ricerca delle vere vacanze: rompere gli schemi e scoprire il significato profondo del riposo"
 date: 1976-09-20
 author: Redazione
@@ -21,9 +20,12 @@ numero_rivista: "Insieme"
 subtitle: "Oltre il cliché delle vacanze tradizionali: Un invito a osare, condividere, e abbracciare l'autenticità delle pause che rigenerano"
 ---
 
-Le nostre vacanze... sono poi delle vacanze? Quanti fra noi non hanno più fatto una vera vacanza! Eppure avremmo un bisogno così grande di riposarci un po', sul serio.
+Le nostre vacanze... sono poi delle vacanze? Quanti fra noi non hanno più fatto una vera vacanza!
+Eppure avremmo un bisogno così grande di riposarci un po', sul serio.
 
-Se gli "altri" sapessero... Se gli "altri" capissero... Se gli "altri" mi dessero una mano...
+Se gli "altri" sapessero...
+Se gli "altri" capissero...
+Se gli "altri" mi dessero una mano...
 
 Bando alle lamentele, e guardiamo un po' con occhi obiettivi e realistici quanto anche noi possiamo fare per prendere un po' di vacanza !
 
@@ -61,4 +63,10 @@ Vacanze così, un po' nuove, auguriamo con tutti il cuore ai nostri lettori.
 
 Perché non aggiungervi un po' di sforzo, la "scoperta" di quanto è nascosto "al di là delle apparenze".
 
-Al di là delle apparenze facili, false, brillanti, attraenti ci può essere forse una realtà triste! Al di là delle apparenze pesanti, grigie, fastidiose ci può essere, come un sole. Al di là delle apparenze!
+Al di là delle apparenze facili, false, brillanti, attraenti ci può essere forse una realtà triste!
+Al di là delle apparenze pesanti, grigie, fastidiose ci può essere, come un sole.
+Al di là delle apparenze!
+
+Questo articolo è tratto da:
+**[Insieme n.10, 1976](https://www.ombreeluci.it/project/insieme-n-10-bollettino-fede-e-luce-1976/)
+[](https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-10-set-1976.jpg)**

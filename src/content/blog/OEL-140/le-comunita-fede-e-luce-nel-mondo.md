@@ -15,4 +15,5 @@ issue_number: OEL-140
 id_numero: "OEL-140"
 numero_rivista: "Ombre e Luci"
 ---
+
 ### Le comunità Fede e Luce in Italia

@@ -24,8 +24,6 @@ subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la ri
 Ho notato una cosa, che mi ha sbalordito completamente. Si tratta di una realtà, che esiste purtroppo. Le persone di Roma, si lamentano di come va la vita, ogni giorno. lo ho constatato che esiste chi sta peggio di noi, e vive sotto i ponti e vive mangiando quello che trova nella povertà. C’è anche chi sta lungo il Tevere, dove non li vede nessuno. Questo mi fa pensare che la politica non funziona, invece di arricchirci e fare scontri tra fazioni, destra o sinistra, cerchiamo di aiutare chi ne ha davvero bisogno. I cani abbandonati che hanno fame, — ogni giorno ne vedo uno — si affezionano a chi gli dà da mangiare —. I barboni che chiedono la carità ai quali io non riesco ad avvicinarmi è perché non voglio ammettere la verità... Nel trovate lavoro chi ci deve pensare a loro ? Una sistemazione civile. Ciao.
 **Giovanni Grossi**
 
-
-
 ---
 
 ### Non ho saltato una pagina
@@ -34,8 +32,6 @@ Complimenti per l’ultimo numero della rivista, non ho saltato la lettura di un
 **Sabrina Paluzzi**
 
 Presidente de La Quercia Millenaria
-
-
 
 ---
 

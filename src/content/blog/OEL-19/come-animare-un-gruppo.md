@@ -1,5 +1,4 @@
 ---
-
 title: Come animare un gruppo
 date: 1987-09-25
 author: Redazione
@@ -20,49 +19,7 @@ numero_rivista: "Ombre e Luci"
 ---
 
 «Questo volume, scritto da tre specialisti nella educazione degli adulti e nella animazione dei gruppi, analizza tutte le condizioni che trasformano una riunione di gruppo in strumento efficace di progresso personale e sociale. Esso è destinato a tutti coloro che vivono l’esperienza di un lavoro fatto in comune: animatori principianti, animatori sperimentati che vogliono perfezionare il loro metodo e fare il punto sul lavoro svolto, membri di un gruppo di ricerca, ecc.» Bisogna precisare che il tutto si riferisce a situazioni di gruppi di discussione (e non per esempio di gruppi di gioco o di altre attività). Il libro è breve e chiaro. Per alcuni potrà sembrare troppo semplificato perché non ci sono teorie ma solo regole concrete. Per noi è proprio la sua semplicità a renderlo utile a chi si trova incaricato della responsabilità di animare o di coordinare un gruppo.
+
 **N.S.**
-Questo articolo è tratto da
-[Ombre e Luci n.19, 1987](http://www.ombreeluci.it/staging/project/numero-19-non-vedo-le-meraviglie-dio-le-canto/)
 
-#### Articoli
-
-Una lettera per te
-di
-*Mariangela Bertolini*
-Inchiesta fra i lettori
-La persona h.m. fonte di unità nella Chiesa
-di
-*P. Joseph Mihelcic*
-Non vedo le meraviglie di Dio, ma le canto
-di
-*André Haurine*
-Suonare? Perché no?
-di
-*Giorgio Paci*
-Suonare? Perché no?
-di
-*Giorgio Paci*
-Forza venite gente
-di
-*Barbara Pentimalli*
-
-#### Rubriche
-
-di di
-
-#### Lbri
-
-Pedagogia della fede
-di
-*Henri Bissonier*
-Come animare un grupppo
-di
-*A. Beauchamp - R. Graveline - C. Quiviger*
-Per tutte le sabine del mondo
-di
-Danzerò per te
-di
-*Mireille Nègre*
-Un figlio per cinque giorni
-di
-*Mauro Bartolo*
+Questo articolo è tratto da [Ombre e Luci n.19, 1987](http://www.ombreeluci.it/staging/project/numero-19-non-vedo-le-meraviglie-dio-le-canto/) [](http://www.ombreeluci.it/staging/project/numero-10-epilessia-una-montagna-di-pregiudizi/) **Sommario** Articoli Una lettera per te di _Mariangela Bertolini_ Inchiesta fra i lettori La persona h.m. fonte di unità nella Chiesa di _P. Joseph Mihelcic_ Non vedo le meraviglie di Dio, ma le canto di _André Haurine_ Suonare? Perché no? di _Giorgio Paci_ Suonare? Perché no? di _Giorgio Paci_ Forza venite gente di _Barbara Pentimalli_ Rubriche di di Lbri Pedagogia della fede di _Henri Bissonier_ Come animare un grupppo di _A. Beauchamp - R. Graveline \- C. Quiviger_ Per tutte le sabine del mondo di Danzerò per te di _Mireille Nègre_ Un figlio per cinque giorni di _Mauro Bartolo_

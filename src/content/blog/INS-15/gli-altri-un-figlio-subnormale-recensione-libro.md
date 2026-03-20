@@ -1,5 +1,4 @@
 ---
-
 title: Gli Altri. Un figlio subnormale - Recensione Libro
 date: 1977-06-20
 author: Redazione
@@ -19,7 +18,7 @@ numero_rivista: "Insieme"
 subtitle: "di Lucia Roselli, Ed. Feltrinelli, 1976, pag. 264, lire 3.200"
 ---
 
-Èquesto un libro che può interessare parecchie persone anche se bisogna dire che, essendo molto particolareggiato, certe pagine possono risultare pesanti e che l'atteggiamento mentale dell'autrice ci è, per alcuni versi, piuttosto lontano.
+È questo un libro che può interessare parecchie persone anche se bisogna dire che, essendo molto particolareggiato, certe pagine possono risultare pesanti e che l'atteggiamento mentale dell'autrice ci è, per alcuni versi, piuttosto lontano.
 
 Proverbi agonista del libro è Paolo, il secondo figlio dell'autrice, che a quattro anni è diagnosticato subnormale ed epilettico. Da questo momento egli trascina la madre, quasi tenendola per mano, nel mondo de "gli altri", i subnormali. È la madre che scrive, agisce, lotta e lavora ma è Paolo che illumina le pagine del libro con il suo sorriso allegro e con i suoi capelli biondi.
 
@@ -28,3 +27,7 @@ Dove va all'asilo un bambino come Paolo? dove va a scuola? A chi viene affidato,
 Ma è un compito gravoso che si fa sempre più difficile mano a mano che si scontra con complicazioni burocratiche e piccoli e grossi tornaconti personali. La storia, che diventa ben presto una indagine socio-politica, mette a nudo una realtà che non si limita certo a Torino e a Ivrea, dove si svolge, ma è comune a tutto il nostro paese: l'esistenza di una lunga serie di enti e associazioni che dovrebbero servire ai bisogni più importanti della gente ma che finiscono per servire soltanto se stessi.
 
 L'energia e la tenacia delle madre non sono solo per Paolo; accanto a lui si fanno in primo piano altre figure di bambini, ragazzi e ragazze, adulti, che l'autrice dimostra ugualmente di rispettare: direi che è questo amore, serio e attento, la parte più preziosa del libro che può farlo apprezzare anche da chi non è disponibile a condividerne ogni pagina, ogni riflessione.
+
+Questo articolo è tratto da:**[Insieme n.13, 1977](https://www.ombreeluci.it/project/insieme-n-13-bollettino-fede-e-luce-1977/)**
+
+[](https://www.ombreeluci.it/project/insieme-n-13-bollettino-fede-e-luce-1977/)

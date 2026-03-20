@@ -1,5 +1,4 @@
 ---
-
 title: Editoriale - Lettera aperta agli amici di Fede e Luce
 date: 1977-03-20
 author: Redazione
@@ -21,7 +20,12 @@ subtitle: "Non lasciare indietro nessuno sulla strada che porta verso la luce"
 
 Grazie Signore; è la prima volta che un ragazzo ha cantato e suonato una canzone tutta per me. La musica mi è piaciuta, le parole io le ho capite poco, ma ai miei genitori avrebbero fatto tanto piacere:
 
-*"È una bella mattina, ed è qui con noi una bella bambina; è festa oggi, ed è venuta a mangiare con noi M., una simpatica bambina." *
+_"È una bella mattina,
+ed è qui con noi una bella bambina;
+è festa oggi,
+ed è venuta a mangiare con noi M.,
+una simpatica bambina."
+_
 
 Voi eravate lì, in tanti, tutti per noi e noi tutti per voi. Non abbiamo fatto granché vero ? Io non so parlare, non so ascoltare, non so fare niente. Voi mi avete accolto come una di voi; abbiamo fatto insieme il presepe con la carta e i colori, abbiamo mangiato insieme e voi ci avete imboccati. Abbiamo fatto festa. Abbiamo pregato.
 
@@ -33,4 +37,8 @@ Voi, vi siete fermati, e, con qualche sforzo certamente, ma con grande coraggio 
 
 Ve l'ho già detto: non so parlare e nemmeno scrivere, ma ho pensato che almeno per Natale dovevo dirvi qualcosa a nome di tutti gli altri: fa bene a voi e a noi sentirci stretti per mano e camminare avanti insieme, sicuri e certi di portarci a vicenda e di poter credere che così, insieme, è Natale ogni giorno.
 
-> «Non lasciare indietro nessuno sulla strada che porta verso la luce" *Pater Rosegger*
+> «Non lasciare indietro nessuno sulla strada che porta verso la luce" _Pater Rosegger_
+
+Questo articolo è tratto da:
+**[Insieme n.12, 1977](https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/)
+[](https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/)**

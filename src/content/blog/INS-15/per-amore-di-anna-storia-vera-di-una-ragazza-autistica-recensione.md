@@ -1,5 +1,4 @@
 ---
-
 title: Per amore di Anna - Storia vera di una ragazza autistica - Recensione
 date: 1977-12-01
 author: Redazione
@@ -42,3 +41,8 @@ L'amore senza limiti dei genitori di Anna che sa trasformarsi in coraggio e inte
 Questo libro dunque è molto bello, sprona e dà coraggio, ma penso sia giusto fare qualche altra considerazione.
 
 Sappiano che ci sono padri e madri, ugualmente pieni d'amore, che non hanno ottenuto gli stessi risultati: il libro potrebbe trasformarsi per loro in un peso; in un senso di colpa per non essere stati abbastanza bravi, mentre si sa che la malattia assume in ogni bambino aspetti e gravità diversi. Inoltre, se nel libro sembra quasi giusto che Anna alla fine sia accettata da tutti perché è guarita, è intelligente e piacevole, noi non dobbiamo rinunciare a dire che fare posto, accettare, anche tutti coloro che sembrano solo "irosi, urlanti e sputacchianti animaletti", è segno, oltre che di solidarietà e di amore, anche di maturità psicologica e civile.
+
+Questo articolo è tratto da:
+**[Insieme n.15, 1977](https://www.ombreeluci.it/project/insieme-n-15-bollettino-fede-e-luce-1977/)**
+
+[](https://www.ombreeluci.it/project/insieme-n-15-bollettino-fede-e-luce-1977/)

@@ -1,5 +1,4 @@
 ---
-
 title: "La casa in cima all'albero - Recensione"
 date: 2004-12-14
 author: Laura Nardini
@@ -19,23 +18,17 @@ umap_z: 4.555947303771973
 subtitle: "Holly Kennedy, Sonzogno Editore, 2004"
 ---
 
-L
-a protagonista, Kenly, racconta in un lungo flashback la sua vita. Era un'adolescente irrequieta cresciuta con un padre alcoli sta. Un giorno nel loro peregrinare arrivano in un piccolo centro della provincia canadese. Qui conosce un ragazzo che e affetto dalla nascita da una grave malattia che gli deforma il viso e che l’ha già condannato. Subito è stregata da lui. Lui vive ogni giorno della vita come se fosse l’ultimo senza mai lamentarsi della sua condizione e donando agli altri tutto se stesso. L’aiuta ad inserirsi in quella comunità chiusa; la esorta ad accettare il padre per quello che è facendole capire che la speranza non deve spegnersi mai e che bisogna andare oltre l'apparenza per amare davvero. Nasce un'amicizia speciale che lei non dimenticherà mai neanche quando lascerà il Canada e si farà una famiglia. Specialmente perché con lei porterà sempre un segreto che non ha mai svelato a nessuno...
-*Laura Nardini*
-, 2004
-
-#### Il Natale di...
-
-[..di Massimo](https://www.ombreeluci.it/2004/il-natale-di-massimo/) di M. Bertolini [... di Carlo](https://www.ombreeluci.it/2004/il-natale-di-carlo/) di L. Colombaro [... del Ricco Epulone](https://www.ombreeluci.it/2004/il-natale-del-ricco-epulone/) di T. Cabras [Vorrei fare qualcosa per gli altri. Ma cosa? Qualche suggerimento](https://www.ombreeluci.it/2004/vorrei-fare-qualcosa-per-gli-altri-ma-cosa/) [Che succede a Natale nelle comunità di Fede e Luce?](https://www.ombreeluci.it/2004/che-succede-a-natale-nelle-comunita-di-fede-e-luce/)
-
-#### Parola di genitore
-
-[Le testimonianze dei genitori: «Quando mio figlio disabile mi piace di più»](https://www.ombreeluci.it/2004/le-testimonianze-dei-genitori-quando-mio-figlio-disabile-mi-piace-di-piu/) di Redazione [Alberto](https://www.ombreeluci.it/2004/a-natale-alberto-stara-in-famiglia-lontano-da-noi/) di M. G. Romanini
-
-#### Altri articoli
-
-[Una settimana da Dio](https://www.ombreeluci.it/2004/una-settimana-da-dio-senza-nulla-togliere-al-film/) di C. Baricella [Una bambina da incontrare](https://www.ombreeluci.it/2004/una-bambina-da-incontrare/) di L. Nardini [Sull'educazione delle nuove generazioni](https://www.ombreeluci.it/2004/sulleducazione-delle-giovani-generazioni-una-mamma-chiede-una-mamma-risponde/) [Come dire:”No! Non puoi averlo!”](https://www.ombreeluci.it/2004/come-direno-non-puoi-averlo/) di H. Pott [La Chiesa debole nel suo capo](https://www.ombreeluci.it/2004/la-chiesa-debole-nel-suo-capo-sorgente-e-segno-della-presenza-di-dio/) di F. Clinquart [Essere vicini a chi è in fin di vita](https://www.ombreeluci.it/2004/essere-vicini-a-chi-e-in-fin-di-vita-2/) di
-
-#### Libri
-
-[Anche Dio ha un sogno](https://www.ombreeluci.it/2004/anche-dio-ha-un-sogno-una-speranza-per-il-nostro-tempo-recensione/) , D. Tutu [La casa in cima all'albero](https://www.ombreeluci.it/2022/la-casa-in-cima-allalbero-recensione/) , H. Kennedy [Trovare la pace - Recensione](https://www.ombreeluci.it/2004/trovare-la-pace-recensione/) , J. Vanier
+La protagonista, Kenly, racconta in un lungo flashback la sua vita. Era un'adolescente irrequieta cresciuta con un padre alcoli sta. Un giorno nel loro peregrinare arrivano in un piccolo centro della provincia canadese. Qui conosce un ragazzo che e affetto dalla nascita da una grave malattia che gli deforma il viso e che l’ha già condannato. Subito è stregata da lui. Lui vive ogni giorno della vita come se fosse l’ultimo senza mai lamentarsi della sua condizione e donando agli altri tutto se stesso. L’aiuta ad inserirsi in quella comunità chiusa; la esorta ad accettare il padre per quello che è facendole capire che la speranza non deve spegnersi mai e che bisogna andare oltre l'apparenza per amare davvero. Nasce un'amicizia speciale che lei non dimenticherà mai neanche quando lascerà il Canada e si farà una famiglia. Specialmente perché con lei porterà sempre un segreto che non ha mai svelato a nessuno... _Laura Nardini_ , 2004Questo articolo è tratto da
+[Ombre e Luci n. 88](https://www.ombreeluci.it/project/ombre-e-luci-n-88/ "Ombre e Luci n.88") [](https://www.ombreeluci.it/project/ombre-e-luci-n-88/ "Ombre e Luci n.88") **Sommario** Il Natale di... [..di Massimo](https://www.ombreeluci.it/2004/il-natale-di-massimo/ "Il natale di Massimo") di M. Bertolini
+[... di Carlo](https://www.ombreeluci.it/2004/il-natale-di-carlo/ "Il natale di Carlo") di L. Colombaro
+[... del Ricco Epulone](https://www.ombreeluci.it/2004/il-natale-del-ricco-epulone/ "Il natale del Ricco Epulone") di T. Cabras
+[Vorrei fare qualcosa per gli altri. Ma cosa? Qualche suggerimento](https://www.ombreeluci.it/2004/vorrei-fare-qualcosa-per-gli-altri-ma-cosa/ "Vorrei fare qualcosa per gli altri. Ma cosa? Qualche suggerimento")
+[Che succede a Natale nelle comunità di Fede e Luce?](https://www.ombreeluci.it/2004/che-succede-a-natale-nelle-comunita-di-fede-e-luce/ "Che succede a Natale nelle comunità di Fede e Luce?") Parola di genitore [Le testimonianze dei genitori: «Quando mio figlio disabile mi piace di più»](https://www.ombreeluci.it/2004/le-testimonianze-dei-genitori-quando-mio-figlio-disabile-mi-piace-di-piu/ "Le testimonianze dei genitori: «Quando mio figlio disabile mi piace di più»") di Redazione
+[Alberto](https://www.ombreeluci.it/2004/a-natale-alberto-stara-in-famiglia-lontano-da-noi/ "Alberto") di M. G. Romanini Altri articoli [Una settimana da Dio](https://www.ombreeluci.it/2004/una-settimana-da-dio-senza-nulla-togliere-al-film/ "Una settimana da Dio") di C. Baricella
+[Una bambina da incontrare](https://www.ombreeluci.it/2004/una-bambina-da-incontrare/ "Una bambina da incontrare") di L. Nardini
+[Sull'educazione delle nuove generazioni](https://www.ombreeluci.it/2004/sulleducazione-delle-giovani-generazioni-una-mamma-chiede-una-mamma-risponde/)
+[Come dire:”No! Non puoi averlo!”](https://www.ombreeluci.it/2004/come-direno-non-puoi-averlo/ "Come dire: «No! Non puoi averlo!»") di H. Pott
+[La Chiesa debole nel suo capo ](https://www.ombreeluci.it/2004/la-chiesa-debole-nel-suo-capo-sorgente-e-segno-della-presenza-di-dio/ "La Chiesa debole nel suo capo")di F. Clinquart
+[Essere vicini a chi è in fin di vita](https://www.ombreeluci.it/2004/essere-vicini-a-chi-e-in-fin-di-vita-2/ "Essere vicini a chi è in fin di vita") di Libri [Anche Dio ha un sogno](https://www.ombreeluci.it/2004/anche-dio-ha-un-sogno-una-speranza-per-il-nostro-tempo-recensione/ "Anche Dio ha un sogno - Recensione"), D. Tutu
+[La casa in cima all'albero](https://www.ombreeluci.it/2022/la-casa-in-cima-allalbero-recensione/ "La casa in cima all'albero - Recensione"), H. Kennedy
+[Trovare la pace - Recensione](https://www.ombreeluci.it/2004/trovare-la-pace-recensione/ "Trovare la pace - Recensione"), J. Vanier

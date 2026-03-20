@@ -37,7 +37,11 @@ Vi scrivo per raccontarvi la mia telefonata con la signora C. Ogni tanto ci inco
 
 ### Vi daremo una mano
 
-...Il suo articolo è stato letto e riletto e commentato nella mia famiglia... siamo molto tribolati perché... I nostri sforzi in questi anni dolorosi e faticosissimi, sono stati tanti, con grande impegno, buona volontà, amore, ma vani. I nostri errori, tanti...siamo due genitori disperati che per il loro figlio vorrebbero fare tutto il possibile... **(lettera firmata)** *Questo è solo uno stralcio da una delle lettere che per ragioni di discrezione non possiamo pubblicare. Lo riportiamo perché chi si trova in situazioni di grave disagio e solitudine, non abbia timore di fare appello. Faremo del nostro meglio, nei limiti delle possibiltà, per dare una mano, per dare informazioni o per mettere in contatto con persone che possano aiutare. Cogliamo l'occasione per ricordare a tutti di pensare e di sostenere con la preghiera chi silenziosamente è tanto provato, ai limiti della disperazione.*
+...Il suo articolo è stato letto e riletto e commentato nella mia famiglia... siamo molto tribolati perché... I nostri sforzi in questi anni dolorosi e faticosissimi, sono stati tanti, con grande impegno, buona volontà, amore, ma vani. I nostri errori, tanti...siamo due genitori disperati che per il loro figlio vorrebbero fare tutto il possibile...
+
+**(lettera firmata)**
+
+*Questo è solo uno stralcio da una delle lettere che per ragioni di discrezione non possiamo pubblicare. Lo riportiamo perché chi si trova in situazioni di grave disagio e solitudine, non abbia timore di fare appello. Faremo del nostro meglio, nei limiti delle possibiltà, per dare una mano, per dare informazioni o per mettere in contatto con persone che possano aiutare. Cogliamo l'occasione per ricordare a tutti di pensare e di sostenere con la preghiera chi silenziosamente è tanto provato, ai limiti della disperazione.*
 
 ### Uno spiraglio di speranza
 

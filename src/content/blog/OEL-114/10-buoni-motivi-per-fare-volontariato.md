@@ -1,5 +1,4 @@
 ---
-
 title: 10 buoni motivi per fare volontariato
 date: 2011-06-04
 author: Pennablù
@@ -19,8 +18,18 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Pennablù ci pensa su:"
 ---
 
-I
-l volontariato di tanti giovani e giovanissimi è un fenomeno che esiste, esiste realmente, e tra gli altri tantissimi meriti, ha anche quello di dare conforto e rinnovare la speranza di chi giovane non è più, e che, spesso triste e sfiduciato, si rincuora considerando l'esempio generoso di tanti ragazzi. Ma ora proprio a questi amici non più giovani, magari con qualche acciacco e tante ore da riempire solo di televisione, si rivolge. Prova ad elencare, come fece in televisione un noto scrittore: 10 buoni motivi per...fare volontariato. Quindi, faccio volontariato perché:
-- Mi spinge ad uscire materialmente dalle quattro mura di casa per scoprire altre realtà; - Mi obbliga ad uscire da me stesso e dai miei guai per guardare gli altri; - Tiene in allenamento la mia intelligenza, il mio cuore, spesso anche muscoli e sistema nervoso! - Mi fa incontrare molte nuove persone che spesso diventano buoni amici; - Mi dà occasioni per scoprire in me qualità o capacità che ignoravo di avere, che non avevo mai utilizzato - Senza le tensioni e le rivalità che il lavoro stipendiato comporta, imparo a collaborare veramente, riconosco aspetti difficili del mio modo di essere, e superandoli acquisto sicurezza - Si fanno buone cenette insieme (si chiamano “cene di lavoro”)! - A volte mi arrabbio, a volte rido, a volte mi stanco...ma tutto serve a farmi sentire vitale! - Si va in gita (si chiamano gite sociali) e si scoprono posti nuovi che da soli non è sempre facile raggiungere. - Nota mondana: uscendo, stando tra la gente non puoi indossare vestagliette e pantofole (se uomo canotta e pigiama): devi prendere cura della tua persona!!
-*Pennablù*
-, 2011
+Il volontariato di tanti giovani e giovanissimi è un fenomeno che esiste, esiste realmente, e tra gli altri tantissimi meriti, ha anche quello di dare conforto e rinnovare la speranza di chi giovane non è più, e che, spesso triste e sfiduciato, si rincuora considerando l'esempio generoso di tanti ragazzi. Ma ora proprio a questi amici non più giovani, magari con qualche acciacco e tante ore da riempire solo di televisione, si rivolge. Prova ad elencare, come fece in televisione un noto scrittore: 10 buoni motivi per...fare volontariato. Quindi, faccio volontariato perché:
+
+ 1. Mi spinge ad uscire materialmente dalle quattro mura di casa per scoprire altre realtà;
+ 2. Mi obbliga ad uscire da me stesso e dai miei guai per guardare gli altri;
+ 3. Tiene in allenamento la mia intelligenza, il mio cuore, spesso anche muscoli e sistema nervoso!
+ 4. Mi fa incontrare molte nuove persone che spesso diventano buoni amici;
+ 5. Mi dà occasioni per scoprire in me qualità o capacità che ignoravo di avere, che non avevo mai utilizzato
+ 6. Senza le tensioni e le rivalità che il lavoro stipendiato comporta, imparo a collaborare veramente, riconosco aspetti difficili del mio modo di essere, e superandoli acquisto sicurezza
+ 7. Si fanno buone cenette insieme (si chiamano “cene di lavoro”)!
+ 8. A volte mi arrabbio, a volte rido, a volte mi stanco...ma tutto serve a farmi sentire vitale!
+ 9. Si va in gita (si chiamano gite sociali) e si scoprono posti nuovi che da soli non è sempre facile raggiungere.
+ 10. Nota mondana: uscendo, stando tra la gente non puoi indossare vestagliette e pantofole (se uomo canotta e pigiama): devi prendere cura della tua persona!!
+
+_Pennablù_ , 2011 Questo articolo è tratto da
+[Ombre e Luci n.114](https://www.ombreeluci.it/project/numero-114-perche-non-io/ "Ombre e Luci n.114") [](https://www.ombreeluci.it/project/numero-114-perche-non-io/ "Ombre e Luci n.114")

@@ -1,5 +1,4 @@
 ---
-
 title: Vittorio e la zia Minni
 date: 2020-02-09
 author: Maria Novella Pulieri
@@ -17,27 +16,54 @@ id_numero: "OEL-148"
 numero_rivista: "Ombre e Luci"
 ---
 
-Q
-uando mi è stato chiesto di parlare del rapporto tra mia sorella Flaminia (detta Minni) e mio figlio Vittorio, ho pensato di chiedere direttamente a Vittorio cos’è per lui zia Minni. La risposta è stata: «è un amore e mi piace quando mangia perché gusta». Ecco, se devo descrivere il loro rapporto, penso ad un amore silenzioso fatto di sguardi. In tutti i passaggi della mia vita ho avuto sempre paura che Minni (oggi splendida quarantenne, cerebrolesa con enormi occhi blu) si sentisse abbandonata da me. Quindi con l’arrivo di Vittorio avevo paura del suo giudizio, avevo paura che pensasse che il mio amore nei suoi confronti si sarebbe attenuato per fare spazio a questa nuova vita. La prima volta che Flaminia ha visto Vittorio lo ha studiato, lo guardava di traverso. Naturalmente ne rimasi un po’ male e, non contenta, tornai all’attacco andando con Vittorio a trovarla a casa. Lei era sdraiata a pancia in sù sul letto e io, senza avvertirla, le adagiai Vittorio sul torace. Accadde qualcosa in lei per cui cominciò a sorridere e ad accarezzarlo. Da subito ho cercato di far entrare in contatto Minni e Vittorio, la fortuna è stata che Vittorio – che oggi ha sei anni – è un bambino molto curioso e molto affettuoso. Quando andavamo a casa dei miei genitori lui si buttava addosso a Minni tormentandola! La cosa che mi stupì è che lei non lo scansava, lo lasciava fare. Quindi io, ancora di più, istigavo Vittorio a darle il tormento. Mano mano che mio figlio cresceva sono cominciate le domande. Tipo: “Perché non parla?” “Come fa a farsi capire?”; “Come capisco se le piace una cosa?”. All’inizio mi sono fatta aiutare da mia madre, perché Vittorio quando si mette in testa che deve sapere una cosa ti riempie di domande, alcune anche molto complicate! Alla domanda “Cosa le piace?”, risposi che la passione di Minni era il cibo. A Vittorio piacque questa cosa tanto che ad Assisi nel 2015 – aveva allora due anni – la volle imboccare. Ancora ricordo la sensazione di gioia mista a commozione che provai vedendo questa scena. In questi sei anni lui ha trovato un suo modo di stare con Minni. La saluta, la sgrida se non vuole le medicine, le tiene la mano quando camminiamo, riposa vicino a lei, capita che guardano la televisione insieme «mamma a me piace quando zia Minni guarda la televisione vicino a me». È un rapporto fatto di sguardi. È bello vedere come ora Vittorio aiuti il fratello più piccolo a rapportarsi con Flaminia senza di me. Io mi faccio da parte, serena di aver trasmesso ai miei figli il grande amore che provo per questa sorella e zia speciale.
+Quando mi è stato chiesto di parlare del rapporto tra mia sorella Flaminia (detta Minni) e mio figlio Vittorio, ho pensato di chiedere direttamente a Vittorio cos’è per lui zia Minni. La risposta è stata: «è un amore e mi piace quando mangia perché gusta». Ecco, se devo descrivere il loro rapporto, penso ad un amore silenzioso fatto di sguardi. In tutti i passaggi della mia vita ho avuto sempre paura che Minni (oggi splendida quarantenne, cerebrolesa con enormi occhi blu) si sentisse abbandonata da me. Quindi con l’arrivo di Vittorio avevo paura del suo giudizio, avevo paura che pensasse che il mio amore nei suoi confronti si sarebbe attenuato per fare spazio a questa nuova vita. La prima volta che Flaminia ha visto Vittorio lo ha studiato, lo guardava di traverso. Naturalmente ne rimasi un po’ male e, non contenta, tornai all’attacco andando con Vittorio a trovarla a casa. Lei era sdraiata a pancia in sù sul letto e io, senza avvertirla, le adagiai Vittorio sul torace. Accadde qualcosa in lei per cui cominciò a sorridere e ad accarezzarlo. Da subito ho cercato di far entrare in contatto Minni e Vittorio, la fortuna è stata che Vittorio – che oggi ha sei anni – è un bambino molto curioso e molto affettuoso. Quando andavamo a casa dei miei genitori lui si buttava addosso a Minni tormentandola! La cosa che mi stupì è che lei non lo scansava, lo lasciava fare. Quindi io, ancora di più, istigavo Vittorio a darle il tormento. Mano mano che mio figlio cresceva sono cominciate le domande. Tipo: “Perché non parla?” “Come fa a farsi capire?”; “Come capisco se le piace una cosa?”. All’inizio mi sono fatta aiutare da mia madre, perché Vittorio quando si mette in testa che deve sapere una cosa ti riempie di domande, alcune anche molto complicate! Alla domanda “Cosa le piace?”, risposi che la passione di Minni era il cibo. A Vittorio piacque questa cosa tanto che ad Assisi nel 2015 – aveva allora due anni – la volle imboccare. Ancora ricordo la sensazione di gioia mista a commozione che provai vedendo questa scena. In questi sei anni lui ha trovato un suo modo di stare con Minni. La saluta, la sgrida se non vuole le medicine, le tiene la mano quando camminiamo, riposa vicino a lei, capita che guardano la televisione insieme «mamma a me piace quando zia Minni guarda la televisione vicino a me». È un rapporto fatto di sguardi. È bello vedere come ora Vittorio aiuti il fratello più piccolo a rapportarsi con Flaminia senza di me. Io mi faccio da parte, serena di aver trasmesso ai miei figli il grande amore che provo per questa sorella e zia speciale.Questo articolo è tratto da
+**Ombre e Luci n. 148, 2019**
 
-*Editoriale* ** ** [**Sconvolti e trasformati**](http://www.ombreeluci.it/2019/sconvolti-e-trasformati/) di Cristina Tersigni
+**SOMMARIO** _Editoriale_**
+**[**Sconvolti e trasformati**](http://www.ombreeluci.it/2019/sconvolti-e-trasformati/) di Cristina Tersigni _Focus: L'incontro con la disabilità_
+**La mia caduta da cavallo**
 
-*Focus: L'incontro con la disabilità* **La mia caduta da cavallo** di Annick Donelli * * **Quegli anni tra Boston e Chicago** di Luca Badetti **Tenera e magnetica** di Serena Sillitto **Vittorio e la zia Minni** di Maria Novella Pulieri
+di Annick Donelli _
+_**Quegli anni tra Boston e Chicago** di Luca Badetti
+**Tenera e magnetica**
 
-*Intervista* **Unica nel suo genere** di Cristina Tersigni
+di Serena Sillitto
+**Vittorio e la zia Minni**
 
-*Testimonianze* [**Lo sguardo sulla persona con disabilità**](http://www.ombreeluci.it/2019/lo-sguardo-sulla-persona-con-disabilita/) di Nicla Bettazzi
+di Maria Novella Pulieri _Intervista_
+**Unica nel suo genere**
 
-*Dall'archivio* [**Per la prima volta lontano da me**](http://www.ombreeluci.it/1983/per-la-prima-volta-lontano-da-me/) di Rita Ozzimo
+di Cristina Tersigni _Testimonianze_
+[**Lo sguardo sulla persona con disabilità**](http://www.ombreeluci.it/2019/lo-sguardo-sulla-persona-con-disabilita/) di Nicla Bettazzi _Dall'archivio_
+[**Per la prima volta lontano da me**](http://www.ombreeluci.it/1983/per-la-prima-volta-lontano-da-me/) di Rita Ozzimo _Associazioni_
+**Una breccia nel muro**
 
-*Associazioni* **Una breccia nel muro** di Cristina Tersigni
+di Cristina Tersigni _Fede e Luce_
+**Chiamare per nome la paura**
 
-*Fede e Luce* **Chiamare per nome la paura** della Comunità Edelweiss
+della Comunità Edelweiss _Spettacoli_
+**Non tutto è buio**
 
-*Spettacoli* **Non tutto è buio** di Claudio Cinus
+di Claudio Cinus _Rubriche_
+**Dialogo Aperto n. 147**
+**Vita Fede e Luce n. 147**
 
-*Rubriche* **Dialogo Aperto n. 147** **Vita Fede e Luce n. 147**
+_Libri_
+**La straniera**
 
-*Libri* **La straniera** di Claudia Durastanti **Who is my neighbor?** di Amy-Jill Levine e Sandy Eisenberg Sasso **Vite straordinarie 2** di Superabile INAIL **Con occhi di padre** di Igor Salamone
+di Claudia Durastanti
+**Who is my neighbor?**
 
-*Diari* **In curva sud** di Benedetta Mattei **Mio cugino Paolo** di Giovanni Grossi
+di Amy-Jill Levine e Sandy Eisenberg Sasso
+**Vite straordinarie 2**
+
+di Superabile INAIL
+**Con occhi di padre**
+
+di Igor Salamone _Diari_
+**In curva sud**
+
+di Benedetta Mattei
+**Mio cugino Paolo**
+
+di Giovanni Grossi

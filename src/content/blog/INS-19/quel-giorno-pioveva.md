@@ -1,5 +1,4 @@
 ---
-
 title: Quel giorno pioveva
 date: 1978-06-15
 author: Pierre Debergé
@@ -20,14 +19,7 @@ id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
 
-Quel giorno ad Assisi pioveva. La nebbia nascondeva la vallata e grosse nubi pesavano sulla città. Tutto sembrava smentire i cartelloni pubblicitari. Anche i "Giotto" e i "Lorenzetti" non potevano porvi rimedio e gli appassionati d'arte, infagottati nei loro pesanti cappotti, erravano qua e là come ingannati.
+Quel giorno ad Assisi pioveva. La nebbia nascondeva la vallata e grosse nubi pesavano sulla città. Tutto sembrava smentire i cartelloni pubblicitari. Anche i "Giotto" e i "Lorenzetti" non potevano porvi rimedio e gli appassionati d'arte, infagottati nei loro pesanti cappotti, erravano qua e là come ingannati. Ero forse anch'io uno di loro, personaggio insolito sperduto per le strade stranamente prive di turisti? La cittadina sorridente delle guide turistiche aveva lasciato il posto alla tristezza e all'amarezza di un Assisi che non si riconosceva più. Avevo dimenticato che Assisi è prima di tutto la città dove S. Francesco è nato, ha vissuto, ha incontrato Cristo; ogni muro, ogni strada,ogni piazza ha ascoltato i pianti di Francesco bambino, il suo riso di adolescente, i suoi canti, le sue grida. Quelle stesse strade,quelle stesse colonne lo hanno visto più tardi seduto, immobile, affascinato dalla presenza di Dio. Lo hanno visto apparire con il viso scavato dal digiuno e dalle mortificazioni, oggetto degli schiamazzi della folla e dei richiami perentori di suo padre; lo hanno visto infine predicare l'amore di Dio, la povertà, l'umiltà. A questo incontro siamo chiamati anche noi. Per questo, senza dubbio, il passo più importante è lasciarsi impregnare dall'atmosfera di queste strade, di queste piazze dove Francesco ha cantato, ha sorriso, ha pregato. Siamo invitati anche noi ad incontrare Francesco, lo potremo vedere; lo potremo ascoltare ad ogni passo. Ci aspetta. _Pierre Debergé_ , 1978Questo articolo è tratto da:
+**[Insieme n.17, 1978](https://www.ombreeluci.it/project/insieme-n-17-bollettino-fede-e-luce-assisi-1978/)**
 
-Ero forse anch'io uno di loro, personaggio insolito sperduto per le strade stranamente prive di turisti? La cittadina sorridente delle guide turistiche aveva lasciato il posto alla tristezza e all'amarezza di un Assisi che non si riconosceva più.
-
-Avevo dimenticato che Assisi è prima di tutto la città dove S. Francesco è nato, ha vissuto, ha incontrato Cristo; ogni muro, ogni strada,ogni piazza ha ascoltato i pianti di Francesco bambino, il suo riso di adolescente, i suoi canti, le sue grida.
-
-Quelle stesse strade,quelle stesse colonne lo hanno visto più tardi seduto, immobile, affascinato dalla presenza di Dio. Lo hanno visto apparire con il viso scavato dal digiuno e dalle mortificazioni, oggetto degli schiamazzi della folla e dei richiami perentori di suo padre; lo hanno visto infine predicare l'amore di Dio, la povertà, l'umiltà.
-
-A questo incontro siamo chiamati anche noi. Per questo, senza dubbio, il passo più importante è lasciarsi impregnare dall'atmosfera di queste strade, di queste piazze dove Francesco ha cantato, ha sorriso, ha pregato. Siamo invitati anche noi ad incontrare Francesco, lo potremo vedere; lo potremo ascoltare ad ogni passo. Ci aspetta.
-
-*Pierre Debergé* , 1978
+[](https://www.ombreeluci.it/project/insieme-n-17-bollettino-fede-e-luce-assisi-1978/)

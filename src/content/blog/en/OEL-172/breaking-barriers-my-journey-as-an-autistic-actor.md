@@ -21,7 +21,11 @@ subtitle: "From unexpected auditions to leading roles, how cinema and theater op
 
 It was early September 2023 when Margherita Tercon posted a casting call for a film production looking for an autistic actor with a stage age between 30 and 40. Applicants had to send her an audition tape, which she would then forward to the production team.
 
-To my surprise, I was contacted right away. **They sent me a script to perform in another audition tape, and shortly after I received a phone call: they wanted me in Rome the very next day** , at the Tiburtina studios, for a live audition for *La Vita Grandi* ( [available on Netflix](https://www.netflix.com/it/title/81774954) ). They covered my public transport ticket, picked me up at the station, and once at the studios I met the director herself, Greta Scarano. I had no idea who she was. You know about “special interests”? Well, the same thing happened later [when I worked](https://www.ombreeluci.it/2025/cambiamenti-in-arrivo-nel-cinema-italiano/) with Lorenzo Flaherty in *Le Ali Invisibili* ( [available on Rai Play](https://www.tulipanidisetanera.rai.it/dl/portali/site/articolo/ContentItem-2778e383-3122-4a3d-94c6-50053d33389a.html) ): I didn’t know him before working together. The upside was that I felt no pressure.
+To my surprise, I was contacted right away.
+
+**They sent me a script to perform in another audition tape, and shortly after I received a phone call: they wanted me in Rome the very next day**
+
+, at the Tiburtina studios, for a live audition for *La Vita Grandi* ( [available on Netflix](https://www.netflix.com/it/title/81774954) ). They covered my public transport ticket, picked me up at the station, and once at the studios I met the director herself, Greta Scarano. I had no idea who she was. You know about “special interests”? Well, the same thing happened later [when I worked](https://www.ombreeluci.it/2025/cambiamenti-in-arrivo-nel-cinema-italiano/) with Lorenzo Flaherty in *Le Ali Invisibili* ( [available on Rai Play](https://www.tulipanidisetanera.rai.it/dl/portali/site/articolo/ContentItem-2778e383-3122-4a3d-94c6-50053d33389a.html) ): I didn’t know him before working together. The upside was that I felt no pressure.
 
 During the audition, Greta had me repeat the scene from the tape and try two more. That’s when I learned that the film was based on the story of Margherita and her brother Damiano. They scheduled another audition two days later, on the very same day I was in Rome to attend the [*Aut Art Festival*](https://www.ombreeluci.it/2024/una-prospettiva-degna-della-nostra-umanita/) , a major event that gives autistic artists a platform to share autism through art.
 
@@ -33,4 +37,8 @@ And yet, they called me back for two more auditions. In the meantime, I started 
 
 Only later did I realize there’s a cultural barrier in the film industry — an invisible one. But the most beautiful thing is that, in *Le Ali Invisibili* , I had the chance to tell that very story.
 
-Lately, I’ve also returned to the stage. At the same *Aut Art Festival* venue, I performed in a comedy show alongside Niccolò Centioni (famous for playing Rudi Cesaroni), titled *The Diagnosis* . In a sort of “upside-down world,” he plays a *normo-psychiatrist* for children who specializes in so-called “normal kids,” while I play an autistic father, distraught by the news of a *diagnosis of normality* for my son. That night, the theater was filled with roaring laughter. **I truly hope these two films will raise awareness in the entertainment industry and finally open doors for us autistic actors.** Because we can be very good at what we do. After all, cinema greats like Anthony Hopkins and Dan Aykroyd have already proven it overseas.
+Lately, I’ve also returned to the stage. At the same *Aut Art Festival* venue, I performed in a comedy show alongside Niccolò Centioni (famous for playing Rudi Cesaroni), titled *The Diagnosis* . In a sort of “upside-down world,” he plays a *normo-psychiatrist* for children who specializes in so-called “normal kids,” while I play an autistic father, distraught by the news of a *diagnosis of normality* for my son. That night, the theater was filled with roaring laughter.
+
+**I truly hope these two films will raise awareness in the entertainment industry and finally open doors for us autistic actors.**
+
+Because we can be very good at what we do. After all, cinema greats like Anthony Hopkins and Dan Aykroyd have already proven it overseas.

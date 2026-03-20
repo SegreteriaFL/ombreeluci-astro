@@ -1,5 +1,4 @@
 ---
-
 title: Mamma ti posso parlare - Recensione
 date: 2014-03-29
 author: Matteo Cinti
@@ -22,10 +21,18 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Quando le viene diagnosticato un tumore, Maria Grazia, medico e autrice del libro, come prima cosa pensa a suo figlio Matteo: Matteo è autistico."
 ---
 
-Quando le viene diagnosticato un tumore, Maria Grazia, medico e autrice del libro, come prima cosa pensa a suo figlio Matteo. Matteo è autistico, in una forma che lo rende ipersensibile ad ogni dettaglio che lo circonda e ossessionato dal minimo cambiamento. Come potrebbe reagire alla nuova quotidianeità che irromperà in famiglia? Con grande forza d’animo e accompagnata dalla sua profonda fede, Maria Grazia non si lascia deprimere dalla malattia, anzi. Trae energia dai gesti sorprendenti del figlio, rivelatosi più una risorsa che un peso, e ci descrive con parole semplici le giornate divise tra la chemioterapia e le faccende domestiche. In queste righe si sente la sua lunga esperienza scientifica e umana, ma ciò non trasforma il libro in un mattone filosofico.
-
-Proprio come nelle favole di una volta, di fronte alle difficoltà della vita forse dovremmo riscoprire un po’ di quella “magia” che può fare tanto per noi. Anche regalarci un lieto fine.
-
-### [Dossier Autismo](http://www.ombreeluci.it/autismo/)
-
-[La lezione del femminismo](http://www.ombreeluci.it/2015/la-lezione-del-femminismo/) di *Nicla Bettazzi* [Un altro anno](http://www.ombreeluci.it/2015/un-altro-anno/) di *Giovanni Grossi* [Bicoca's Got talent](http://www.ombreeluci.it/2015/bicocas-got-talent/) di *Giovanni Grossi* [Alla fine qualcosa ci inventeremo](http://www.ombreeluci.it/2015/alla-fine-qualcosa-ci-inventeremo/) di *Redazione* [Con loro ci sto bene](http://www.ombreeluci.it/2015/ci-sto-bene/) di *Giovanni Grossi* [L'emozione non ha voce](http://www.ombreeluci.it/2014/lemozione-non-voce/) di *Redazione* [Mamma ti posso parlare](http://www.ombreeluci.it/2014/mamma-ti-posso-parlare/) di *Redazione* [Ora che sto per diventare mamma](http://www.ombreeluci.it/2009/ora-sto-diventare-mamma/) di *Maria Paola Tosti* [Momenti difficili](http://www.ombreeluci.it/2009/momenti-difficili/) di *Pennablu* [Che senso ha la vita di Paolo?](http://www.ombreeluci.it/2010/senso-la-vita-paolo/) di *Maria Amelia* [Un panorama da riscoprire](http://www.ombreeluci.it/2017/un-panorama-riscoprire/) di *Tommaso Bertolini* [Nicola Pintus e il progetto Filippide](http://www.ombreeluci.it/2017/nicola-pintus-il-progetto-filippide/) di *Huberta Pott* [Autismo e integrazione scolastica](http://www.ombreeluci.it/2010/autismo-integrazione-scolastica/) di *Davide Del Duca*
+Quando le viene diagnosticato un tumore, Maria Grazia, medico e autrice del libro, come prima cosa pensa a suo figlio Matteo. Matteo è autistico, in una forma che lo rende ipersensibile ad ogni dettaglio che lo circonda e ossessionato dal minimo cambiamento. Come potrebbe reagire alla nuova quotidianeità che irromperà in famiglia? Con grande forza d’animo e accompagnata dalla sua profonda fede, Maria Grazia non si lascia deprimere dalla malattia, anzi. Trae energia dai gesti sorprendenti del figlio, rivelatosi più una risorsa che un peso, e ci descrive con parole semplici le giornate divise tra la chemioterapia e le faccende domestiche. In queste righe si sente la sua lunga esperienza scientifica e umana, ma ciò non trasforma il libro in un mattone filosofico. Proprio come nelle favole di una volta, di fronte alle difficoltà della vita forse dovremmo riscoprire un po’ di quella “magia” che può fare tanto per noi. Anche regalarci un lieto fine. [Dossier Autismo](http://www.ombreeluci.it/autismo/) [La lezione del femminismo](http://www.ombreeluci.it/2015/la-lezione-del-femminismo/) di _Nicla Bettazzi_
+[Un altro anno](http://www.ombreeluci.it/2015/un-altro-anno/) di _Giovanni Grossi_
+[Bicoca's Got talent](http://www.ombreeluci.it/2015/bicocas-got-talent/) di _Giovanni Grossi_
+[Alla fine qualcosa ci inventeremo](http://www.ombreeluci.it/2015/alla-fine-qualcosa-ci-inventeremo/) di _Redazione_
+[Con loro ci sto bene](http://www.ombreeluci.it/2015/ci-sto-bene/) di _Giovanni Grossi_
+[L'emozione non ha voce](http://www.ombreeluci.it/2014/lemozione-non-voce/) di _Redazione_
+[Mamma ti posso parlare](http://www.ombreeluci.it/2014/mamma-ti-posso-parlare/) di _Redazione_
+[Ora che sto per diventare mamma](http://www.ombreeluci.it/2009/ora-sto-diventare-mamma/) di _Maria Paola Tosti_
+[Momenti difficili](http://www.ombreeluci.it/2009/momenti-difficili/) di _Pennablu_
+[Che senso ha la vita di Paolo?](http://www.ombreeluci.it/2010/senso-la-vita-paolo/) di _Maria Amelia_
+[Un panorama da riscoprire](http://www.ombreeluci.it/2017/un-panorama-riscoprire/) di _Tommaso Bertolini_
+[Nicola Pintus e il progetto Filippide](http://www.ombreeluci.it/2017/nicola-pintus-il-progetto-filippide/) di _Huberta Pott_
+[Autismo e integrazione scolastica](http://www.ombreeluci.it/2010/autismo-integrazione-scolastica/) di _Davide Del Duca_ Questo articolo è tratto da
+[Ombre e Luci n.125](https://www.ombreeluci.it/project/numero-125-rimbocchiamoci-le-maniche/ "Ombre e Luci n.125")
+[](https://www.ombreeluci.it/project/numero-125-rimbocchiamoci-le-maniche/ "Ombre e Luci n.125")

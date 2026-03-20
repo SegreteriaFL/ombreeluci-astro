@@ -20,7 +20,11 @@ Airbnb** si schiera in prima linea, a tutela dei disabili. A fronte del moltipli
 
 Grazie alle liste di controllo, gli host potranno compilare dei questionari, dove avranno occasione di indicare le caratteristiche precise di ciascun alloggio (quindi, ad esempio, se l’entrata è abbastanza larga da far passare una sedia a rotelle). L’app Airbnb è già stata integrata sulla versione web e nei prossimi mesi dovrebbe essere inserita in quella mobile.
 
-Grazie alla checklist, Airbnb sarà in grado di mappare con più completezza gli alloggi che non sono pronti ad accogliere i soggetti disabili e a evitare i fenomeni di mancata inclusione che si sono verificati fino a oggi. **Airbnb** è un portale online che mette in contatto persone in cerca di un alloggio o di una camera per brevi periodi, con persone che dispongono di uno spazio extra da affittare, generalmente privati. Il sito fu aperto nell'ottobre del 2007 da Brian Chesky, Joe Gebbia e Nathan Blecharczyk. Al giugno 2012 contava alloggi in oltre 26.000 città in 192 paesi.*
+Grazie alla checklist, Airbnb sarà in grado di mappare con più completezza gli alloggi che non sono pronti ad accogliere i soggetti disabili e a evitare i fenomeni di mancata inclusione che si sono verificati fino a oggi.
+
+**Airbnb**
+
+è un portale online che mette in contatto persone in cerca di un alloggio o di una camera per brevi periodi, con persone che dispongono di uno spazio extra da affittare, generalmente privati. Il sito fu aperto nell'ottobre del 2007 da Brian Chesky, Joe Gebbia e Nathan Blecharczyk. Al giugno 2012 contava alloggi in oltre 26.000 città in 192 paesi.*
 Fonte: [Startup Italia!](http://startupitalia.eu/82365-20171207-airbnb-si-impegna-per-i-disabili-e-acquisisce-accomable)
 
 <h3>Bastano 2€ al mese per sostenere Ombre e Luci. Dona subito.</h3><br><!-- --><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><!-- --><input type="hidden" name="cmd" value="_s-xclick"><!-- --><input type="hidden" name="hosted_button_id" value="UVHBN3Z23AM6N"><!-- --><input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal è il metodo rapido e sicuro per pagare e farsi pagare online."><!-- --><img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1"><!-- --></form><!-- -->

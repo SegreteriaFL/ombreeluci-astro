@@ -1,5 +1,4 @@
 ---
-
 title: "I fratelli e le sorelle di persone con disabilità"
 date: "1981-12-20"
 author: "Redazione"
@@ -17,10 +16,7 @@ id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
 
-Molto discreti e tuttavia molto presenti nella comunità Fede e Luce sono i fratelli e le sorelle. Essi sono molto vicini ai genitori — dall’infanzia partecipano da vicino alle loro pene e alle loro preoccupazioni e alle loro gioie — e molto attenti al loro fratello o sorella handicappata. Da sempre mangiano alla stessa tavola, dormono sotto lo stesso tetto, (a volte nella stessa camera), seguono i progressi, partecipano ai giochi, ne subiscono le collere e i capricci. Sono estremamente sensibili alle reazioni delle persone estranee alla famiglia, adulti o compagni, di classe o di università.
-
-Ogni volta che ho incontrato un fratello o una sorella, ho scoperto in loro chi poteva capire, allo stesso tempo, l’amico, i genitori (suoi e degli altri) e l’handicappato (fratello o no).
-
-Essi sono davvero o possono essere un ponte, una cerniera fra i tre elementi di una comunità di Fede e Luce.
-
-*Anne Françoise Marès -* un’amica
+Molto discreti e tuttavia molto presenti nella comunità Fede e Luce sono i fratelli e le sorelle. Essi sono molto vicini ai genitori — dall’infanzia partecipano da vicino alle loro pene e alle loro preoccupazioni e alle loro gioie — e molto attenti al loro fratello o sorella handicappata. Da sempre mangiano alla stessa tavola, dormono sotto lo stesso tetto, (a volte nella stessa camera), seguono i progressi, partecipano ai giochi, ne subiscono le collere e i capricci. Sono estremamente sensibili alle reazioni delle persone estranee alla famiglia, adulti o compagni, di classe o di università. Ogni volta che ho incontrato un fratello o una sorella, ho scoperto in loro chi poteva capire, allo stesso tempo, l’amico, i genitori (suoi e degli altri) e l’handicappato (fratello o no). Essi sono davvero o possono essere un ponte, una cerniera fra i tre elementi di una comunità di Fede e Luce. _Anne Françoise Marès -_ un’amicaQuesto articolo è tratto da:
+**[
+Insieme Giallo – Speciale Fede e Luce 1981](https://www.ombreeluci.it/project/insieme-speciale-fede-e-luce-1981//)
+[](https://www.ombreeluci.it/project/insieme-speciale-fede-e-luce-1981/)**

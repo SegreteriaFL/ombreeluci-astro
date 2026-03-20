@@ -1,5 +1,4 @@
 ---
-
 title: Dialogo Aperto n. 157
 date: 2022-06-22
 author: Redazione
@@ -17,14 +16,21 @@ id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
 
-#### Poesia di Claudio Moriggia
+Poesia di Claudio Moriggia _Con le_
+ _piante_
+ _nel terreno_
+ _io sorrido_
+ _in un_
+ _baleno!_
+_Siamo_
+ _sempre in_
+ _libertà e_
+ _la pace tornerà!_Tempo e soldi buttati A proposito di lavoro ([ne abbiamo parlato nel n. 155](https://www.ombreeluci.it/project/numero-155-lavoro/)) una mamma ci ha raccontato le sue perplessità rispetto all’esperienza di formazione della figlia Simona ebbe un’esperienza lavorativa di tirocinio in una mensa, circa quindici anni fa. Si alzava prestissimo e sembravano entusiasti di lei. Alla fine del periodo, **in giugno, le regalarono una divisa nella speranza, quasi una promessa, di metterla in regola.** L’avevo spinta tanto ad andare a lavoro anche quando non era proprio in forma, cercando di entusiasmarla in ogni modo. Ed era molto contenta.
 
-*Con le* *piante* *nel terreno* *io sorrido* *in un* *baleno!* *Siamo* *sempre in* *libertà e* *la pace tornerà!*
+**Invece a settembre erano tutti spariti!**
 
-#### Tempo e soldi buttati
-
-A proposito di lavoro ( [ne abbiamo parlato nel n. 155](https://www.ombreeluci.it/project/numero-155-lavoro/) ) una mamma ci ha raccontato le sue perplessità rispetto all’esperienza di formazione della figlia
-
-Simona ebbe un’esperienza lavorativa di tirocinio in una mensa, circa quindici anni fa. Si alzava prestissimo e sembravano entusiasti di lei. Alla fine del periodo, **in giugno, le regalarono una divisa nella speranza, quasi una promessa, di metterla in regola.** L’avevo spinta tanto ad andare a lavoro anche quando non era proprio in forma, cercando di entusiasmarla in ogni modo. Ed era molto contenta. **Invece a settembre erano tutti spariti!** L’avevo mandata per lavorare seriamente, non per far perdere tempo. Ma nessuno dei ragazzi del suo gruppo fu assunto… tanti soldi buttati!
-
-**Secondo me, queste proposte sono motivate solo sul far prendere uno stipendio agli operatori** . Se il ragazzo con disabilità non fosse realmente in grado lo capirei, davvero. Ma quanti giri inutili e incontri senza alcuna speranza… e quante persone — secondo me poco intelligenti — si sono fermate di fronte alla prima titubanza di Simona per evitare di avviarla ad un percorso formativo per il lavoro. Ma io conosco mia figlia e so che va spronata! Purtroppo nessuno mi ha dato ascolto.
+L’avevo mandata per lavorare seriamente, non per far perdere tempo. Ma nessuno dei ragazzi del suo gruppo fu assunto… tanti soldi buttati! **Secondo me, queste proposte sono motivate solo sul far prendere uno stipendio agli operatori**. Se il ragazzo con disabilità non fosse realmente in grado lo capirei, davvero.
+Ma quanti giri inutili e incontri senza alcuna speranza… e quante persone — secondo me poco intelligenti — si sono fermate di fronte alla prima titubanza di Simona per evitare di avviarla ad un percorso formativo per il lavoro. Ma io conosco mia figlia e so che va spronata! Purtroppo nessuno mi ha dato ascolto.Questo articolo è tratto da
+[**Ombre e Luci n. 157, 2021**](https://www.ombreeluci.it/project/numero-157-mai-per-caso/) [](https://www.ombreeluci.it/project/numero-157-mai-per-caso/) **Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

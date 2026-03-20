@@ -19,9 +19,17 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Questa volta il diario di Efrem si apre su pagine del passato a lui molto care. E tutto grazie ad un vecchio scatolone…"
 ---
 
-L'altro giorno, nel pomeriggio, mentre mamma e papà riposavano, ho deciso di rimettere un po’ di ordine nella mia cameretta. **Ho trovato un grande contenitore con tante foto di quando io, mia sorella e mio fratello eravamo piccoli…** Quanti ricordi! Non posso fare a meno di ringraziare una delle mie zie che sostituiva la mia mamma quando questa era impegnata per lavoro.
+L'altro giorno, nel pomeriggio, mentre mamma e papà riposavano, ho deciso di rimettere un po’ di ordine nella mia cameretta.
 
-Cara “seconda mamma” zia Cosima, grazie per averci cresciuti quando eravamo piccoli nella casa della nonna che ci ricorda tanti momenti belli della nostra infanzia. **Quando avevamo la fortuna di dormire da voi, quante dolcezze…** ci cantavate la ninna nanna per poterci addormentare e al mattino invece: Branca, Branca, Branca, Leon, Leon, Leon, l' *Armata Brancaleone* doveva far presto e prepararsi per andare a scuola…
+**Ho trovato un grande contenitore con tante foto di quando io, mia sorella e mio fratello eravamo piccoli…**
+
+Quanti ricordi! Non posso fare a meno di ringraziare una delle mie zie che sostituiva la mia mamma quando questa era impegnata per lavoro.
+
+Cara “seconda mamma” zia Cosima, grazie per averci cresciuti quando eravamo piccoli nella casa della nonna che ci ricorda tanti momenti belli della nostra infanzia.
+
+**Quando avevamo la fortuna di dormire da voi, quante dolcezze…**
+
+ci cantavate la ninna nanna per poterci addormentare e al mattino invece: Branca, Branca, Branca, Leon, Leon, Leon, l' *Armata Brancaleone* doveva far presto e prepararsi per andare a scuola…
 
 E non mancava anche qualche piccolo danno che ho fatto nella camera del nonno Salvatore quando ho rotto la lampada che era sul suo comodino. Ricordo quando all'Epifania aspettavamo la Befana e lo sforzo che facevamo per stare tranquilli altrimenti “la Befana non viene”… dicevate. Ma la Befana veniva sempre e con tanti regali.
 

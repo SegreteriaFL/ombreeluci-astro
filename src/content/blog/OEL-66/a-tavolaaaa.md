@@ -24,9 +24,13 @@ Stiamo parlando di come è sbagliato mangiare troppo e con voracità, ma adesso 
 
 Hanno bisogno soltanto, e con loro ne abbiamo bisogno tutti noi, amici e genitori, di qualche piccolo suggerimento, di ricordare come si fa, di un po’ di tempo a disposizione e, poi a lavoro compiuto, di tanto apprezzamento e di giusti riconoscimenti.
 
-**Si avvicina l’estate** e con l’estate i campeggi, le gite, i pranzi all’aperto. Invece di abbuffarsi ciascuno nel suo angolo, è molto piacevole stendere una bella tovaglia grande e colorata sul prato o sulla sabbia. La tavola è così pronta per tutti. Ognuno poserà lì sopra le sue provviste ben disposte, e tanto meglio se si sarà provveduto ad un gran piatto di pasta per tutti. L’acqua e le bibite e il pane saranno poste al centro e tutti potranno servirsene. Così sono sconfitte le formiche, la sabbia (quasi) e la voglia di mangiare e bere troppo e troppo in fretta!
+**Si avvicina l’estate**
 
-**Se invece in campeggio o a casa in giardino** , si ha a disposizione un vero tavolo si può fare molto di più. Tutti i nostri amici possono da soli o guidati, disporre piatti, bicchieri e posate. Per i ragazzi più in difficoltà si può pensare a piccole tovagliette singole (il cosiddetto servizio all’americana) con disegnate al posto giusto piatto, bicchiere e posate: si tratta così solo di sovrapporvi i vari pezzi. In mezzo al tavolo non mancheranno i fiori (meglio raccolti che comprati, anche se si tratta solo di qualche ramo con foglie) disposti con cura in un vaso vero o recuperato da un barattolo di vetro.
+e con l’estate i campeggi, le gite, i pranzi all’aperto. Invece di abbuffarsi ciascuno nel suo angolo, è molto piacevole stendere una bella tovaglia grande e colorata sul prato o sulla sabbia. La tavola è così pronta per tutti. Ognuno poserà lì sopra le sue provviste ben disposte, e tanto meglio se si sarà provveduto ad un gran piatto di pasta per tutti. L’acqua e le bibite e il pane saranno poste al centro e tutti potranno servirsene. Così sono sconfitte le formiche, la sabbia (quasi) e la voglia di mangiare e bere troppo e troppo in fretta!
+
+**Se invece in campeggio o a casa in giardino**
+
+, si ha a disposizione un vero tavolo si può fare molto di più. Tutti i nostri amici possono da soli o guidati, disporre piatti, bicchieri e posate. Per i ragazzi più in difficoltà si può pensare a piccole tovagliette singole (il cosiddetto servizio all’americana) con disegnate al posto giusto piatto, bicchiere e posate: si tratta così solo di sovrapporvi i vari pezzi. In mezzo al tavolo non mancheranno i fiori (meglio raccolti che comprati, anche se si tratta solo di qualche ramo con foglie) disposti con cura in un vaso vero o recuperato da un barattolo di vetro.
 
 Conosciamo degli amici che sanno fare da soli **ingegnosi segnaposti** ; comunque basta, per esempio, cercare tanti sassi piatti, lavarli e scrivervi con il pennarello l’iniziale di ognuno dei commensali, o avvolgere al gambo di un fiore un biglietto con il nome. Per non parlare di tutto quello che si può fare con plastilina, pasta di sale o altro, nel corso della mattina passata insieme.
 

@@ -1,5 +1,4 @@
 ---
-
 title: Per sempre - Recensione
 date: 2011-09-04
 author: Redazione
@@ -19,7 +18,5 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Susanna Tamaro, Ed. Giunti"
 ---
 
-U
-n romanzo facile da leggere anche se il tema è quello della sofferenza; un marito perde in un incidente stradale la moglie (Alla quale ha promesso l'amore "per sempre") che aspetta un econdo figlio e il primo figlio di pochi anni. Sofferenza ai limiti della sopportazione umana e che pone le domande delle quali on c'è risposta: qundo finisce il dolore? Dov'è Dio? Chi è questo Dio? Mentre lo leggevo, ho avuto l'impressione di trovarmi davanti il romanzo costruito a tavolino: tot ingredienti, tot personaggi, tot soluzioni... Mi sono ricreduta e anche se non lo ritengo un romanzo "nuovo", posso consigliarlo a chi ha volgia di "ripassare" alcune questioni fondamentali sulla vita in genere.
-*M.B.*
-, 2011
+Un romanzo facile da leggere anche se il tema è quello della sofferenza; un marito perde in un incidente stradale la moglie (Alla quale ha promesso l'amore "per sempre") che aspetta un econdo figlio e il primo figlio di pochi anni. Sofferenza ai limiti della sopportazione umana e che pone le domande delle quali on c'è risposta: qundo finisce il dolore? Dov'è Dio? Chi è questo Dio? Mentre lo leggevo, ho avuto l'impressione di trovarmi davanti il romanzo costruito a tavolino: tot ingredienti, tot personaggi, tot soluzioni... Mi sono ricreduta e anche se non lo ritengo un romanzo "nuovo", posso consigliarlo a chi ha volgia di "ripassare" alcune questioni fondamentali sulla vita in genere. _M.B._ , 2011Questo articolo è tratto da
+[Ombre e Luci n.115](https://www.ombreeluci.it/project/numero-115-difendere-la-fragilita-di-ognuno/ "Ombre e Luci n.115") [](https://www.ombreeluci.it/project/numero-115-difendere-la-fragilita-di-ognuno/ "Ombre e Luci n.115")

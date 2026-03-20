@@ -1,5 +1,4 @@
 ---
-
 title: Dove sei, piccolo Giulio? | Recensione
 date: 2024-02-19
 author: Nicla Bettazzi
@@ -19,6 +18,25 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Raccontare il quotidiano di un bambino con autismo (Uovonero, 2023)"
 ---
 
-Con sensibilità e delicatezza, in questo albo illustrato Colaneri solleva il complesso tema della neurodivergenza, raccontando il quotidiano di un bambino con autismo. **Lo fa misurando con precisione sartoriale le parole e lasciando intorno ai disegni color pastello eloquenti spazi bianchi.** La voce narrante è quella della mamma e con lei, tavola dopo tavola, andiamo cercando il piccolo Giulio. Ogni supposizione termina con un punto fermo, come a simboleggiare che lui è qui: sta a noi vederlo e farci trovare. Giulio non verbalizza i suoi mondi, le emozioni, le tante difficoltà; se qualcosa va storto scappa, si nasconde: bisogna dunque essere pazienti, avvicinarsi piano, cogliere il momento giusto per sedersi accanto. Colaneri ci porta al centro dell’universo di Giulio, non lo spiega: lo fa sentire nella sua complessità e ricchezza, scardinando i preconcetti secondo cui una persona con disabilità è imperscrutabile, priva di fascino o fantasia. **Un albo profondo e leggero, fruibile a tutte le età e da tutte le prospettive.** «Giulio, ti vedo, sei davanti a me».
+Con sensibilità e delicatezza, in questo albo illustrato Colaneri solleva il complesso tema della neurodivergenza, raccontando il quotidiano di un bambino con autismo.**Lo fa misurando con precisione sartoriale le parole e lasciando intorno ai disegni color pastello eloquenti spazi bianchi.** La voce narrante è quella della mamma e con lei, tavola dopo tavola, andiamo cercando il piccolo Giulio. Ogni supposizione termina con un punto fermo, come a simboleggiare che lui è qui: sta a noi vederlo e farci trovare. Giulio non verbalizza i suoi mondi, le emozioni, le tante difficoltà; se qualcosa va storto scappa, si nasconde: bisogna dunque essere pazienti, avvicinarsi piano, cogliere il momento giusto per sedersi accanto. Colaneri ci porta al centro dell’universo di Giulio, non lo spiega: lo fa sentire nella sua complessità e ricchezza, scardinando i preconcetti secondo cui una persona con disabilità è imperscrutabile, priva di fascino o fantasia.**Un albo profondo e leggero, fruibile a tutte le età e da tutte le prospettive.** «Giulio, ti vedo, sei davanti a me». Dove sei, piccolo Giulio?
 
- ### Dove sei, piccolo Giulio? **Autore** : Giovanni Colaneri **Editore:** Uovonero **Pubblicato:** 2023 **Pagine:** 58 **Prezzo:** 16€ **ISBN:** 979-1280104342
+**Autore**
+
+: Giovanni Colaneri
+**Editore:**
+
+Uovonero
+**Pubblicato:**
+
+2023
+**Pagine:**
+
+58
+**Prezzo:**
+
+16€
+**ISBN:**
+
+979-1280104342 Questo articolo è tratto da
+[**Ombre e Luci n.164**](https://www.ombreeluci.it/project/numero-164-ancora-pazienti/ "Ombre e Luci n.162")[
+](https://www.ombreeluci.it/project/numero-161-quarantanni-di-ol/ "Ombre e Luci n.161") [](https://www.ombreeluci.it/project/numero-164-ancora-pazienti/)

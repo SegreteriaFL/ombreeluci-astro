@@ -1,5 +1,4 @@
 ---
-
 title: Dialogo Aperto n. 171
 date: 2025-11-01
 author: Redazione
@@ -22,18 +21,17 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Il punto di vista di chi legge Ombre e Luci con le sue esperienze e scoperte. In questo numero: Nora fuori dall'ampolla, Daniela incontra FL in Argentina e Giulia ricorda Monica. Infine, il poeta elogia una botte"
 ---
 
-### Sono contenta!
+Sono contenta! Pensando a quante storie vengono raccontate su _Ombre Luci_**più le leggo e più sono contenta** di far parte di[ _Fede e Luce_](https://www.fedeeluce.it/2025/10/22/giubileo-della-disabilita-nel-duomo-di-milano/): mi trasporta in un mondo pieno di amici e mi sento coinvolta nelle varie storie. Anche io prima di far parte di _Fede e Luce_ **ero avvolta in un ampolla di vetro, circondata dai miei genitori.** Non uscivo senza mia mamma, era la mia protezione. Poi un’amica mi ha fatto conoscere _Fede e Luce_ a Gratosoglio. Sono passati trentotto anni e ora ho fatto due mandati da responsabile; **sono cresciuta in tutto** , ho fatto un passo gigante. A settembre ci sarà Pompei, assolutamente partecipo, e finisce il mio mandato insieme a Luisa Ferrini; al momento farò come sempre, aiutare e fare grandi cose, poi a settembre si vedrà, penso di passare la responsabilità a qualcun altro.
+_Nora Buccheri (Milano)_ Ovunque a casa Sono stata per un periodo in Argentina per lavoro e ho partecipato alla casetta della comunità di Buenos Aires grazie a padre Alberto Bochatey e alla mitica Maria Agnese Boitani che, da Roma, ci ha messo in contatto. È stata un’esperienza bellissima! Per loro è stata la prima casetta del nuovo anno Fede e Luce perché per loro gennaio e febbraio sono come il nostro luglio-agosto. Qualche giorno dopo ho ricevuto messaggi da Maria Del Carmen, mamma e responsabile della comunità: «Grazie di cuore per aver condiviso con noi l’incontro! Ci ha dato molta gioia e ci ha rinnovato. È stato un piacere conoscere la tua storia insieme a Fede e Luce. Sia benedetto il tuo ritorno!». **_Fede e Luce_ ha il dono di farti sentire ovunque a casa**.
+_Daniela Guglietta (Roma)_ Ricordo Come le persone veramente preziose, Monica Stirpe (morta il 26 giugno scorso qualche giorno dopo aver compiuto 52 anni) lascia un vuoto immenso.
 
-Pensando a quante storie vengono raccontate su *Ombre Luci* **più le leggo e più sono contenta** di far parte di [*Fede e Luce*](https://www.fedeeluce.it/2025/10/22/giubileo-della-disabilita-nel-duomo-di-milano/) : mi trasporta in un mondo pieno di amici e mi sento coinvolta nelle varie storie. Anche io prima di far parte di *Fede e Luce* **ero avvolta in un ampolla di vetro, circondata dai miei genitori.** Non uscivo senza mia mamma, era la mia protezione. Poi un’amica mi ha fatto conoscere *Fede e Luce* a Gratosoglio. Sono passati trentotto anni e ora ho fatto due mandati da responsabile; **sono cresciuta in tutto** , ho fatto un passo gigante. A settembre ci sarà Pompei, assolutamente partecipo, e finisce il mio mandato insieme a Luisa Ferrini; al momento farò come sempre, aiutare e fare grandi cose, poi a settembre si vedrà, penso di passare la responsabilità a qualcun altro. *Nora Buccheri (Milano)*
+**Così uguale a me, pur così diversa, Monica mi si è messa accanto**
 
-### Ovunque a casa
-
-Sono stata per un periodo in Argentina per lavoro e ho partecipato alla casetta della comunità di Buenos Aires grazie a padre Alberto Bochatey e alla mitica Maria Agnese Boitani che, da Roma, ci ha messo in contatto. È stata un’esperienza bellissima! Per loro è stata la prima casetta del nuovo anno Fede e Luce perché per loro gennaio e febbraio sono come il nostro luglio-agosto. Qualche giorno dopo ho ricevuto messaggi da Maria Del Carmen, mamma e responsabile della comunità: «Grazie di cuore per aver condiviso con noi l’incontro! Ci ha dato molta gioia e ci ha rinnovato. È stato un piacere conoscere la tua storia insieme a Fede e Luce. Sia benedetto il tuo ritorno!». ***Fede e Luce* ha il dono di farti sentire ovunque a casa** . *Daniela Guglietta (Roma)*
-
-### Ricordo
-
-Come le persone veramente preziose, Monica Stirpe (morta il 26 giugno scorso qualche giorno dopo aver compiuto 52 anni) lascia un vuoto immenso. **Così uguale a me, pur così diversa, Monica mi si è messa accanto** e – camminando con pazienza, senza mai lasciarmi la mano – mi ha invitata a guardare il mondo attraverso il suo sguardo. *Giulia Galeotti (Roma)*
-
-### La botte
-
-*di Claudio Moriggia * Se la botte era piena, io cammino di buona lena Dalla botte il paladino lui ha bevuto il suo vino…
+e – camminando con pazienza, senza mai lasciarmi la mano – mi ha invitata a guardare il mondo attraverso il suo sguardo.
+_Giulia Galeotti (Roma)_ La botte _di Claudio Moriggia
+_
+Se la botte era piena,
+io cammino di buona lena
+Dalla botte il paladino
+lui ha bevuto il suo vino…Questo articolo è tratto da
+[**Ombre e Luci n.171**](https://www.ombreeluci.it/project/numero-171-fratelli-tutti/)

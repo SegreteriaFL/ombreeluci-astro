@@ -60,4 +60,6 @@ Abbiamo attraversato così un triennio, fino all’esame di maturità. Fece con 
 
 Francesca si è laureata alla Lumsa, continua a essere trattata con farmaci antipsicotici, grazie al cielo ha una famiglia economicamente solida. Ora è una giovane donna sempre difficile. Ma va avanti… giorno per giorno. Cosa sarà di lei? Chi può dirlo? Comunque un pezzo di strada l’abbiamo fatto.
 
-**Ombre e Luci è anche una newsletter** Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .
+**Ombre e Luci è anche una newsletter**
+
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .

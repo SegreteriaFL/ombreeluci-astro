@@ -1,5 +1,4 @@
 ---
-
 title: "Noi papà di figli disabili: un modo diverso di amare"
 date: "2005-12-23"
 author: "Mariangela Bertolini"
@@ -19,28 +18,21 @@ categoria_menu: "Famiglie"
 subtitle: "Abbiamo raccolto le testimonianze di papà che dicono bene e con sincerità quanto grande e importante sia il loro ruolo nell'accoglienza e nell'educazione del figlio disabile"
 ---
 
-Sono spesso criticati o presi in giro dalle mamme per la loro incompetenza nell'accudire un figlio appena nato; sono giudicati severamente dalle mogli più buone quando, invece di rimproverare, si fanno partecipi del chiasso o del disordine al momento di andare a tavola. E quando, invece di ubbidire ai richiami muliebri, si allontanano con una scusa, o si mettono a leggere il giornale... apriti cielo!
-
-Poveri papà, così poco capiti e "compatiti"!
-
-Il fatto è che in casa, checché se ne dica, è raro che sia lui, il papà, a comandare. Una volta forse era così. Ora è la donna che vede il tutto con i suoi occhi di donna: lei sa sempre qual è la cosa giusta, qual è la situazione migliore, quali i rimproveri da fare, quali gli interventi appropriati. Ed è raro, molto raro, che i suoi occhi di donna vedano come gli occhi del marito. È così. Il suo modo di mandare "avanti la casa" è tutto diverso dal modo con cui lo farebbe l'altra metà.
-
-Le cose si complicano e molto quando in casa c'è un figlio o figlia che ha bisogno di cura e di attenzioni speciali.
-
-La posizione della mamma, anche se a volte debitamente mascherata, diventa allora quasi dittatoriale e al papà resta spesso il compito di guardare in silenzio; di chiudersi in atteggiamento di sconfitta; di arrabbiarsi e molto perché si sente isolato, non capito nella sofferenza.
-
-Dico questo sorridendo sapendo bene che non è sempre così. Anzi.
-
-Le testimonianze che abbiamo raccolto dicono bene e con sincerità quanto grande e importante sia il ruolo che un papà può avere nell'accoglienza e nell''educazione del figlio disabile. Quanto merito e riconoscenza sia da assegnare a loro quando, in modo diverso, certo, da noi mamme, si impegnano a proteggere, a sostenere, a condurre la loro lotta perché il figlio o la figlia sia elemento di unione, di crescita e di soddisfazione per tutta la famiglia. Cosa più facile a dirsi che a farsi, direte voi, e non contano gli sbagli, î fallimenti, le fughe, i ripensamenti...
-
-Quello che conta è tener presente, sempre, che il modo di amare ha tanti risvolti, tante sfaccettature, ed è soprattutto diverso nel papà e nella mamma e per questo tanto più bello.
-
-*Mariangela Bertolini*, 2005
-
-English version: **[We are dads of disabled children: a different way of love](https://www.ombreeluci.it/en/2005/12/07/we-are-dads-of-disabled-children-a-different-way-of-love/)
-[**Mariangela Bertolini**](http://www.ombreeluci.it/author/mariangela-bertolini/)
-
-Nata a Treviso nel 1933, insegnante e mamma di tre figli tra cui Maria Francesca, Chicca, con una grave disabilità.
-È stata fra le promotrici di Fede e Luce in Italia. Ha fondato e diretto Ombre e Luci dal 1983 fino al 2014.
-
-[Tutti gli articoli](http://www.ombreeluci.it/author/mariangela-bertolini) di Mariangela
+Sono spesso criticati o presi in giro dalle mamme per la loro incompetenza nell'accudire un figlio appena nato; sono giudicati severamente dalle mogli più buone quando, invece di rimproverare, si fanno partecipi del chiasso o del disordine al momento di andare a tavola. E quando, invece di ubbidire ai richiami muliebri, si allontanano con una scusa, o si mettono a leggere il giornale... apriti cielo! Poveri papà, così poco capiti e "compatiti"! Il fatto è che in casa, checché se ne dica, è raro che sia lui, il papà, a comandare. Una volta forse era così. Ora è la donna che vede il tutto con i suoi occhi di donna: lei sa sempre qual è la cosa giusta, qual è la situazione migliore, quali i rimproveri da fare, quali gli interventi appropriati. Ed è raro, molto raro, che i suoi occhi di donna vedano come gli occhi del marito. È così. Il suo modo di mandare "avanti la casa" è tutto diverso dal modo con cui lo farebbe l'altra metà. Le cose si complicano e molto quando in casa c'è un figlio o figlia che ha bisogno di cura e di attenzioni speciali. La posizione della mamma, anche se a volte debitamente mascherata, diventa allora quasi dittatoriale e al papà resta spesso il compito di guardare in silenzio; di chiudersi in atteggiamento di sconfitta; di arrabbiarsi e molto perché si sente isolato, non capito nella sofferenza. Dico questo sorridendo sapendo bene che non è sempre così. Anzi. Le testimonianze che abbiamo raccolto dicono bene e con sincerità quanto grande e importante sia il ruolo che un papà può avere nell'accoglienza e nell''educazione del figlio disabile. Quanto merito e riconoscenza sia da assegnare a loro quando, in modo diverso, certo, da noi mamme, si impegnano a proteggere, a sostenere, a condurre la loro lotta perché il figlio o la figlia sia elemento di unione, di crescita e di soddisfazione per tutta la famiglia. Cosa più facile a dirsi che a farsi, direte voi, e non contano gli sbagli, î fallimenti, le fughe, i ripensamenti... Quello che conta è tener presente, sempre, che il modo di amare ha tanti risvolti, tante sfaccettature, ed è soprattutto diverso nel papà e nella mamma e per questo tanto più bello. _Mariangela Bertolini_ , 2005English version: **[We are dads of disabled children: a different way of love](https://www.ombreeluci.it/en/2005/12/07/we-are-dads-of-disabled-children-a-different-way-of-love/)**[**Mariangela Bertolini**](http://www.ombreeluci.it/author/mariangela-bertolini/) Nata a Treviso nel 1933, insegnante e mamma di tre figli tra cui Maria Francesca, Chicca, con una grave disabilità.
+È stata fra le promotrici di Fede e Luce in Italia. Ha fondato e diretto Ombre e Luci dal 1983 fino al 2014. [Tutti gli articoli](http://www.ombreeluci.it/author/mariangela-bertolini) di Mariangela Questo articolo è tratto da
+[Ombre e Luci n.92](https://www.ombreeluci.it/project/ombre-e-luci-n-92-noi-papa/ "Ombre e Luci n.92") [](https://www.ombreeluci.it/project/ombre-e-luci-n-92-noi-papa/ "Ombre e Luci n.92") **Sommario** Editoriale [Un modo diverso di amare](https://www.ombreeluci.it/2005/noi-papa-di-figli-disabili-un-modo-diverso-di-amare/) di M. Bertolini Noi Papà [Un padre rivela il dono unico di suo figlio](https://www.ombreeluci.it/2005/un-padre-rivela-il-dono-unico-di-suo-figlio-disabile/ "Un padre rivela il dono unico di suo figlio") a cura di C. Douillet
+[La famiglia messa alla prova dalla disabilità](https://www.ombreeluci.it/2005/la-famiglia-messa-alla-prova-dalla-disabilita/ "La famiglia messa alla prova dalla disabilità") di G. A. Braccesi
+[Smack come bacio](Smack come bacio: il tempo con mio figlio disabile "Smack come bacio") di Carlo
+[Un figlio a sorpresa](https://www.ombreeluci.it/2005/un-figlio-a-sorpresa-la-scoperta-dei-suoi-doni/ "Un figlio a sorpresa") a cura di S. De Rino
+[Pazienza, tenacia, anche durezza](https://www.ombreeluci.it/2005/come-educare-allautonomia-pazienza-tenacia-anche-durezza/ "Pazienza, tenacia, anche durezza") a cura di S. De Rino
+[La lotta del padre-cittadino](https://www.ombreeluci.it/2005/la-lotta-del-padre-cittadino-per-far-vivere-meglio-i-nostri-figli-disabili/ "La lotta del padre-cittadino") a cura di V. Giannulo
+[Un mondo da scoprire](https://www.ombreeluci.it/2005/ogni-figlio-e-un-cammino-un-mondo-da-scoprire-camminando-e-fermandoci/ "Un mondo da scoprire") di E. Orofino Altri articoli [A.A.A. cercasi genitori](https://www.ombreeluci.it/2005/a-a-a-cercasi-sostegno-per-chi-apparentemente-non-ne-ha-bisogno/ "A.A.A. cercasi genitori") di Huberta
+[Il tempo di un'Ave Maria](https://www.ombreeluci.it/2005/il-tempo-di-unave-maria/ "Il tempo di un'Ave Maria") di C. Tersigni e H. Pott
+[Vescovi del Sinodo alla giornata di apertura FL](https://www.ombreeluci.it/2005/vescovi-del-sinodo-alla-giornata-di-apertura-di-fede-e-luce/ "Vescovi del Sinodo alla giornata di apertura FL") di V. Calabresi
+[Piccolo mio - Testo canzone](https://www.ombreeluci.it/2005/piccolo-mio/ "Piccolo mio - Testo canzone") di G. Fontani Rubriche [Dialogo aperto](https://www.ombreeluci.it/2005/dialogo-aperto-n-22-2/ "Dialogo aperto") Libri [Dai figli non si divorzia](https://www.ombreeluci.it/2005/dai-figli-non-si-divorzia-separarsi-e-rimanere-buoni-genitori-recensione/ "Dai figli non si divorzia")
+Separarsi e rimanere buoni genitori, A. Oliverio
+[L'iniziazione cristiana alle persone disabili Orientamenti e proposte ](https://www.ombreeluci.it/2005/liniziazione-cristiana-alle-persone-disabili-orientamenti-e-proposte-recensione/ "L’iniziazione cristiana alle persone disabili Orientamenti e proposte – Recensione")
+[Pedagogia dei genitori e disabilità](https://www.ombreeluci.it/2005/pedagogia-dei-genitori-e-disabilita-recensione/ "Pedagogia dei genitori e disabilità"), M. R. Dal Molin e M. G. Bettale
+[Il manuale della buona educazione](https://www.ombreeluci.it/2005/il-manuale-della-buona-educazione-recensione/ "Il manuale della buona educazione"), P. Dessanti
+[Il diritto alla vita prima della nascita](https://www.ombreeluci.it/2005/il-diritto-alla-vita-prima-della-nascita-recensione/ "Il diritto alla vita prima della nascita"), R. Guardini Vedi anche:
+[Speciale - "Noi Papà"](https://www.ombreeluci.it/project/ombre-e-luci-n-92-noi-papa/)

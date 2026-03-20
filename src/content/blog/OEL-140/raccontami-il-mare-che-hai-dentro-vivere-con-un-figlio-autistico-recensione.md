@@ -1,5 +1,4 @@
 ---
-
 title: Raccontami il mare che hai dentro - Vivere con un figlio autistico - Recensione
 date: 2017-12-21
 author: Redazione
@@ -19,7 +18,7 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Paola Nicoletti, Ed. Pendragon, 2017 — 96 pagine"
 ---
 
-La
-vita di Paola, mamma di due bambine piccole (5 anni, 1 anno), cambia radicalmente quando scopre di aspettare il terzo figlio mentre la piccola non ha ancora compiuto un anno. Dopo l’iniziale momento di sconforto, Paola e suo marito Umberto decidono di aprirsi con gioia a questa nuova vita… nasce così Gabriele, Lillo, terzogenito maschio su cui si concentrano tante aspettative e desideri. Il libro ripercorre con semplicità ma con grande delicatezza i vari momenti della vita familiare che portano a scoprire la “diversità” di Gabriele per evidenziare l’impatto decisivo dell’autismo nella vita quotidiana dell’intera famiglia sotto diversi punti di vista. Suddiviso in brevi capitoli monotematici, quasi un diario di viaggio dell’avventura quotidiana di una famiglia “speciale”, il libro racconta e mette a nudo le carenze dell’assistenza pubblica e sanitaria nei confronti del problema “autismo”, pur con un forte ottimismo di fondo e una sincera gratitudine nei confronti delle tante persone capitate sulla strada di Lillo che hanno fatto del loro meglio per entrare in dialogo con lui e lo hanno amato veramente. Particolarmente toccante il momento della festa per il 18° anno di Gabriele e il capitolo dedicato all’emozione che non ha voce dove si dà anche una bella definizione dell’autismo.
-*Carla Cecilia*
-, 2018
+La vita di Paola, mamma di due bambine piccole (5 anni, 1 anno), cambia radicalmente quando scopre di aspettare il terzo figlio mentre la piccola non ha ancora compiuto un anno. Dopo l’iniziale momento di sconforto, Paola e suo marito Umberto decidono di aprirsi con gioia a questa nuova vita… nasce così Gabriele, Lillo, terzogenito maschio su cui si concentrano tante aspettative e desideri. Il libro ripercorre con semplicità ma con grande delicatezza i vari momenti della vita familiare che portano a scoprire la “diversità” di Gabriele per evidenziare l’impatto decisivo dell’autismo nella vita quotidiana dell’intera famiglia sotto diversi punti di vista. Suddiviso in brevi capitoli monotematici, quasi un diario di viaggio dell’avventura quotidiana di una famiglia “speciale”, il libro racconta e mette a nudo le carenze dell’assistenza pubblica e sanitaria nei confronti del problema “autismo”, pur con un forte ottimismo di fondo e una sincera gratitudine nei confronti delle tante persone capitate sulla strada di Lillo che hanno fatto del loro meglio per entrare in dialogo con lui e lo hanno amato veramente. Particolarmente toccante il momento della festa per il 18° anno di Gabriele e il capitolo dedicato all’emozione che non ha voce dove si dà anche una bella definizione dell’autismo. _Carla Cecilia_ , 2018Questo articolo è tratto da
+[Ombre e Luci n.140](https://www.ombreeluci.it/project/numero-140-perche-tu-prezioso-ai-miei-occhi/ "Ombre e Luci n.140")
+[
+](https://www.ombreeluci.it/project/numero-140-perche-tu-prezioso-ai-miei-occhi/ "Ombre e Luci n.140")

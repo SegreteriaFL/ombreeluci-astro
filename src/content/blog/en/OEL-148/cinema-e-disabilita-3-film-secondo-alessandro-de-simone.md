@@ -1,5 +1,4 @@
 ---
-
 title: "Cinema e disabilità: 3 film secondo Alessandro De Simone"
 date: "2019-11-16"
 author: "Alessandro De Simone"
@@ -63,22 +62,22 @@ Your content goes here. Edit or remove this text inline or in the module Content
 
 ## The Special Need
 
-*(id. Germania, Italia, Austria, 2013, durata 83 min.) di Carlo Zoratti. Con Alex Nazzi, Orla Hill, Carlo Zoratti, Bruna Savorgnian, Carla Meneghin*
+_(id. Germania, Italia, Austria, 2013, durata 83 min.) di Carlo Zoratti. Con Alex Nazzi, Orla Hill, Carlo Zoratti, Bruna Savorgnian, Carla Meneghin_
 
 Tre amici, uno di loro, Enea, è un ragazzo autistico, ma il vero problema è un altro. Enea non ha mai fatto l’amore in vita sua. E Alex e Carlo vogliono aiutarlo a conoscere le gioie del sesso. Partiranno insieme per un viaggio durante il quale tutti impareranno qualcosa di importante. E a insegnarlo ad Alex e Carlo sarà proprio Enea. Carlo Zoratti, regista esordiente, racconta nel suo documentario quanto difficile sia il rapporto con il sesso per una persona con disabilità, a causa dei tanti pregiudizi che si incontrano in Italia sull’argomento. Ma la lezione più grande, meravigliosa e commovente, è tutt’altra, e la dovete assolutamente scoprire. Un piccolissimo grande film, un trionfo al Festival di Locarno del 2013.
 
 ## Dafne
 
-*(id, Italia, 2019, durata 94 min.) di Federico Bondi. Con Carolina Raspanti, Antonio Piovanelli, Stefania Casini.*
+_(id, Italia, 2019, durata 94 min.) di Federico Bondi. Con Carolina Raspanti, Antonio Piovanelli, Stefania Casini._
 
 Dafne, 35 anni, con Sindrome di Down, ha appena perso la madre. Resta sola con il padre e cerca di superare il lutto rituffandosi nella routine quotidiana: il lavoro, la cura della casa e dell’anziano genitore, che invece non riesce ad accettare l’accaduto. Dafne decide allora che bisogna fare visita alla mamma, sepolta in un piccolo cimitero in montagna. Ma andandoci a piedi, insieme, per tornare a essere una famiglia. Uno dei film italiani più belli degli ultimi anni, praticamente invisibile. La protagonista, Carolina Raspanti, è straordinaria, e Federico Bondi costruisce la storia con una semplicità emotiva incredibile che riempie il cuore. Fazzoletti a portata di mano, ma le lacrime saranno di gioia.
 
 ## I due mondi di Charly
 
-*(Charlie, Usa, 1966, durata 103 min.) di Ralph Nelson. Con Claire Bloom, Cliff Robertson, Lilia Skala, Leon Janney, Ruth White, Dick Van Patten*
+_(Charlie, Usa, 1966, durata 103 min.) di Ralph Nelson. Con Claire Bloom, Cliff Robertson, Lilia Skala, Leon Janney, Ruth White, Dick Van Patten_
 
-Charly Gordon è un brav’uomo, ma ha un grave ritardo mentale. Un gruppo di scienziati che sta sperimentando un farmaco per l’incremento dell’attività cerebrale gli offre di essere la cavia umana dell’esperimento. Funzionerà, ma a caro prezzo. Tratto dal racconto *Fiori per Algernon* di Daniel Keyes, la parabola di Charly è un racconto su un tipo differente di disabilità, quella dell’etica e della morale, di cui troppo spesso è vittima chi non ha mezzi per difendersi. Charly vorrebbe essere come tutti. Ma in realtà lo è sempre stato. E anche migliore di molti. Grande interpretazione di Cliff Robertson, che vinse l’Oscar come miglior attore grazie al suo Charly Gordon.
+Charly Gordon è un brav’uomo, ma ha un grave ritardo mentale. Un gruppo di scienziati che sta sperimentando un farmaco per l’incremento dell’attività cerebrale gli offre di essere la cavia umana dell’esperimento. Funzionerà, ma a caro prezzo. Tratto dal racconto _Fiori per Algernon_ di Daniel Keyes, la parabola di Charly è un racconto su un tipo differente di disabilità, quella dell’etica e della morale, di cui troppo spesso è vittima chi non ha mezzi per difendersi. Charly vorrebbe essere come tutti. Ma in realtà lo è sempre stato. E anche migliore di molti. Grande interpretazione di Cliff Robertson, che vinse l’Oscar come miglior attore grazie al suo Charly Gordon.
 
-### Speciale Cinema e disabilità
+### Speciale [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/ "Speciale Cinema e disabilità - Ombre e Luci")
 
 Con i contributi di:

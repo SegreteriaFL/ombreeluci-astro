@@ -25,13 +25,9 @@ subtitle: "Ancora due giovanissimi amici, questa volta di Vercelli, ci raccontan
 **Gabriella Saviolo**
 - Vercelli, 1975
 
-
-
 ---
 
 **- Leggi anche [Gli amici dei Bimbi del reparto Gesù Bambino del Sant'Eusebio di Vercelli](https://www.ombreeluci.it/1975/gli-amici-dei-bimbi-reparto-gesu-bambino-istituto-santeusebio-vercelli/)**
-
-
 
 ---
 

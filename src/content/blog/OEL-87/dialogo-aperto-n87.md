@@ -26,16 +26,12 @@ subtitle: "Dal vostro punto di vista: suggerimenti, commenti, critiche per la ri
 
 Mamma autrice della lettera [«Carissimi di O.L.»](https://www.ombreeluci.it/2003/lettere-di-natale-un-dialogo-speciale-con-i-lettori-di-ombre-e-luci/) nel numero di Natale 2003.
 
-
-
 ---
 
 ### Andiamo a Venezia
 
 Il 27 giugno 2004 alle 8, sette delle persone che hanno iniziato da poco il cammino di Fede e Luce sono nella stazione di Feltre in attesa del treno per Venezia, dove si tiene l'incontro regionale delle comunità FL. Siamo sereni e allegri anche se può sembrare un azzardo metterci in viaggio tre disabili, due amici e due parenti. Ma sappiamo che meno sicurezze ci sono, più si manifesta la certezza di Dio. Alla stazione di Venezia, si avvicina una signora: siete quelli di Feltre? È fatta: ora abbiamo una guida attenta e partecipe, che ci conduce al passo del più lento e incerto, fino alla magnifica chiesa dei Frari. Qui incontriamo gli altri, provenienti da Conselve, Vicenza, Venezia, Abano e dal Garda. Tra le offerte della messa, c'è la candela di Fede e Luce, che brillerà accanto alle due sull'altare. Sono benedette delle sciarpine che ognuno si porterà a casa e le lettere che Jean Vanier ha scritto per noi. Il silenzio partecipe, qualche occhio lucido, i volti sereni dimostrano quanto reale sia la presenza di Gesù per i nostri fratelli, che spesso a torto consideriamo solo degli sfortunati. Le Mamme, i papà, gli amici vedono questa presenza. Poi il pranzo nel patronato dei Frari, la festa, le canzoni, il gelato, una piccola cerimonia, i saluti. Sciamano le carrozzine per raggiungere il vaporetto, chi riesce va a piedi: si risponde con un sorriso sicuro agli sguardi curiosi dei passanti. Non c'è niente da nascondere, anzi “Imparate da noi che siamo miti e umili di cuore”.
 **Maria Teresa Sasso**
-
-
 
 ---
 

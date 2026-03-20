@@ -41,4 +41,6 @@ La storia è basata sulla vera storia dei fratelli Damiano e Margherita Tercon, 
 
 Yuri Tuci, essendo autistico, **porta anche lui sullo schermo un'interpretazione più vicina alla realtà** , senza filtri neurotipici. Questo dettaglio rende il film ancora più significativo, perché finalmente un attore autistico interpreta un personaggio autistico anche in una produzione mainstream italiana.
 
-**Ombre e Luci è anche una newsletter** Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .
+**Ombre e Luci è anche una newsletter**
+
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .

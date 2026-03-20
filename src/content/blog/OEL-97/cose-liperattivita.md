@@ -62,9 +62,9 @@ L'attività motoria è eccessiva rispetto al suo sviluppo o inappropriata: il ba
 Le cause
 Molti fattori intervengono a gradi diversi:
 
-- a livello biochimico** è riconosciuto da molti anni il malfunzionamento di alcune aree cerebrali con quantità inferiori della dopamina e della noradrenalina (neurotrasmettitori);
+- a livello biochimico** è riconosciuto da molti anni il malfunzionamento di alcune aree cerebrali con quantità inferiori della dopamina e della noradrenalina (neurotrasmettitori)
 
-- il **fattore genetico**, che pur non essendo il solo responsabile della sindrome, svolge comunque un ruolo importante;
+- il **fattore genetico**, che pur non essendo il solo responsabile della sindrome, svolge comunque un ruolo importante
 
 - i **fattori prenatali** più implicati sono il tabagismo e l'alcolismo materno.
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Cinema e disabilità: i 3 film di Gabriele Niola"
 date: "2019-11-16"
 author: "Gabriele Niola"
@@ -69,23 +68,19 @@ Your content goes here. Edit or remove this text inline or in the module Content
 
 ## Gattaca - La porta dell’universo
 
-*(Id., Usa, 1997, durata 103 min.) di Andrew Niccol. Con Ethan Hawke, Uma Thurman
-*
+_(Id., Usa, 1997, durata 103 min.) di Andrew Niccol. Con Ethan Hawke, Uma Thurman
+_
 
 In un mondo in cui una buona parte dell’umanità è geneticamente modificata per essere migliore e per eccellere, chi è solo normale è considerato un essere umano di seconda classe. Come se fosse disabile. Ed esattamente come le persone con disabilità, Ethan Hawke lotta per vivere una vita come gli altri, si mescola agli altri, finge di essere come gli altri. Lui non pensa di avere problemi, sono gli altri che lo credono.
 
 ## Qualcuno volò sul nido del cuculo
 
-*(One Flew Over the Cuckoo's Nest, Usa, 1975, 133 min.) di Milos Forman, con Jack Nicholson e Louise Fletcher. *
-
-La grandezza di Milos Forman sta nell’aver radunato un cast di attori di alto livello che nessuno faceva lavorare perché dotati di corpi e volti fuori dai canoni (Vincent Schiavelli, Danny DeVito…) e avergli dato modo di allenarsi, familiarizzare, diventare una comunità, creare una propria personalità e uno specifico. Il risultato non sono pazienti dotati di sindromi diverse, ma esseri umani con personalità diverse che vivono una vita non uscendo dalla loro disabilità ma all’interno di essa.
+_(One Flew Over the Cuckoo's Nest, Usa, 1975, 133 min.) di Milos Forman, con Jack Nicholson e Louise Fletcher._ La grandezza di Milos Forman sta nell’aver radunato un cast di attori di alto livello che nessuno faceva lavorare perché dotati di corpi e volti fuori dai canoni (Vincent Schiavelli, Danny DeVito…) e avergli dato modo di allenarsi, familiarizzare, diventare una comunità, creare una propria personalità e uno specifico. Il risultato non sono pazienti dotati di sindromi diverse, ma esseri umani con personalità diverse che vivono una vita non uscendo dalla loro disabilità ma all’interno di essa.
 
 ## The Elephant Man
 
-*(id., Gran Bretagna, Usa, 1980, durata 125 min.) di David Lynch. Con John Hurt e Anthony Hopkins. *
+_(id., Gran Bretagna, Usa, 1980, durata 125 min.) di David Lynch. Con John Hurt e Anthony Hopkins._ Semplicemente il più grande film mai realizzato sulla deformità umana. Lynch fa del vero Joseph Merrick lo specchio delle persone intorno a lui. Quando il medico Anthony Hopkins, lo vede per la prima volta non trattiene una singola lacrima, perché sta assistendo alla miseria umana riflessa nelle condizioni di quest’uomo deforme oltre ogni dire eppure vivo contro ogni previsione. Il grido di Joseph Merrick, che afferma di esistere anche lui nonostante le persone che gli sono intorno, è semplicemente incredibile.
 
-Semplicemente il più grande film mai realizzato sulla deformità umana. Lynch fa del vero Joseph Merrick lo specchio delle persone intorno a lui. Quando il medico Anthony Hopkins, lo vede per la prima volta non trattiene una singola lacrima, perché sta assistendo alla miseria umana riflessa nelle condizioni di quest’uomo deforme oltre ogni dire eppure vivo contro ogni previsione. Il grido di Joseph Merrick, che afferma di esistere anche lui nonostante le persone che gli sono intorno, è semplicemente incredibile.
-
-### Speciale Cinema e disabilità
+### Speciale [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/ "Speciale Cinema e disabilità - Ombre e Luci")
 
 Con i contributi di:

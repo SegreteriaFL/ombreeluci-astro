@@ -1,5 +1,4 @@
 ---
-
 title: Una notte ho sognato che parlavi - Recensione
 date: 2013-06-10
 author: Matteo Cinti
@@ -21,10 +20,8 @@ subtitle: "Gianluca Nicoletti - Morelini Editori pp. 253"
 
 Gianluca Nicoletti, giornalista e speaker radiofonico, racconta in questo libro la vita quotidiana con suo figlio Tommy, autistico. Un libro che l’autore ha definito “un racconto allegro, tutt’altro che triste”, in realtà mostra diversi momenti di difficoltà che ci fanno ben allontanare dall’allegria.
 
-**Nell’intento di sdrammatizzare situazioni talvolta grottesche** , Nicoletti non riesce a nascondere le ovvie amarezze scaturite dai problemi quotidiani con Tommy.
+**Nell’intento di sdrammatizzare situazioni talvolta grottesche**
 
-**Accompagnarlo a scuola** , preoccuparsi che non rimanga mai solo, domandarsi cosa ne sarà di lui in futuro sono solo alcune delle riflessioni di questo padre che, in poche pagine, ha raccontato soprattutto di sè e della sua formazione come educatore e “custode” di Tommy. Tanti altri genitori hanno preso parte a questo percorso e apprezzeranno le riflessioni sincere dell’autore seppure non sempre condivisibili.
-
-Il suo sguardo intimo si concretizza con parole colme di realismo ma nell’insieme scorrevoli, rendendo molto piacevole la lettura.
-
-*Matteo Cinti* , 2013
+, Nicoletti non riesce a nascondere le ovvie amarezze scaturite dai problemi quotidiani con Tommy. **Accompagnarlo a scuola** , preoccuparsi che non rimanga mai solo, domandarsi cosa ne sarà di lui in futuro sono solo alcune delle riflessioni di questo padre che, in poche pagine, ha raccontato soprattutto di sè e della sua formazione come educatore e “custode” di Tommy. Tanti altri genitori hanno preso parte a questo percorso e apprezzeranno le riflessioni sincere dell’autore seppure non sempre condivisibili. Il suo sguardo intimo si concretizza con parole colme di realismo ma nell’insieme scorrevoli, rendendo molto piacevole la lettura. _Matteo Cinti_ , 2013Questo articolo è tratto da
+[Ombre e Luci n.122](https://www.ombreeluci.it/project/numero-122-momenti-difficili/ "Ombre e Luci n.122")
+[](https://www.ombreeluci.it/project/numero-122-momenti-difficili/ "Ombre e Luci n.122")

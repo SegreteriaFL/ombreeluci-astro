@@ -1,5 +1,4 @@
 ---
-
 title: Gli scartagonisti - Recensione
 date: 2017-06-28
 author: Rita Massi
@@ -17,7 +16,6 @@ id_numero: "OEL-138"
 numero_rivista: "Ombre e Luci"
 ---
 
-C
-hi sono gli scartagonisti? È l’autore stesso a chiarirci il significato di questo neologismo da lui ideato: lo scartagonista è colui che scartato dagli uomini è invece reso protagonista da Dio. L’autore riflette come scartato sia qualcuno o qualcosa che non ha valore, da rifiutare e ci ricorda come Gesù stesso sia stato scartato dagli uomini, rifiutato e crocifisso, ma dalla sua umiliazione e con la sua resurrezione Egli è diventato il protagonista dell’umanità, il nostro salvatore. Il libro ci presenta così la vita di sei illustri scartagonisti della bibbia e di altri cinque scartagonisti dei nostri giorni e, tra questi, ci parla anche della sua personale esperienza. Lo stile narrativo è semplice e si viene subito catturati dal racconto, ma il messaggio resta forte e intenso: Dio vuole rendere protagonisti gli umili, coloro che sono scartati dagli uomini, “la pietra che i costruttori hanno scartato è diventata testata d’angolo”. Dobbiamo imparare a vedere in una persona rifiutata o in uno scarto da noi stessi subito, un motivo di rinascita un valore aggiunto di cui forse non sapevamo. “Credere in Gesù Cristo [….] significa credere che ciascuno di noi può superare qualunque scarto ed essere protagonista di vittorie insperate.”
-*Rita Massi*
-, 2017
+Chi sono gli scartagonisti? È l’autore stesso a chiarirci il significato di questo neologismo da lui ideato: lo scartagonista è colui che scartato dagli uomini è invece reso protagonista da Dio. L’autore riflette come scartato sia qualcuno o qualcosa che non ha valore, da rifiutare e ci ricorda come Gesù stesso sia stato scartato dagli uomini, rifiutato e crocifisso, ma dalla sua umiliazione e con la sua resurrezione Egli è diventato il protagonista dell’umanità, il nostro salvatore. Il libro ci presenta così la vita di sei illustri scartagonisti della bibbia e di altri cinque scartagonisti dei nostri giorni e, tra questi, ci parla anche della sua personale esperienza. Lo stile narrativo è semplice e si viene subito catturati dal racconto, ma il messaggio resta forte e intenso: Dio vuole rendere protagonisti gli umili, coloro che sono scartati dagli uomini, “la pietra che i costruttori hanno scartato è diventata testata d’angolo”. Dobbiamo imparare a vedere in una persona rifiutata o in uno scarto da noi stessi subito, un motivo di rinascita un valore aggiunto di cui forse non sapevamo. “Credere in Gesù Cristo [….] significa credere che ciascuno di noi può superare qualunque scarto ed essere protagonista di vittorie insperate.” _Rita Massi_ , 2017 Questo articolo è tratto da
+[Ombre e Luci n.138](https://www.ombreeluci.it/project/numero-138-costruire-laccoglienza/ "Ombre e Luci n.138")
+[](https://www.ombreeluci.it/project/numero-138-costruire-laccoglienza/ "Ombre e Luci n.138")

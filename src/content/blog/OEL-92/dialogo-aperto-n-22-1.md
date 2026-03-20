@@ -25,8 +25,6 @@ Carissima Mariangela, ti scrivo due righe per salutarti e dirti che spero tu pos
 **P. Roberto Grimaldi**
 , gesuita
 
-
-
 ---
 
 ### La "ternura" di Dio con noialtri
@@ -35,8 +33,6 @@ Carissima Mariangela, ti scrivo due righe per salutarti e dirti che spero tu pos
 **P. Miguel Vasquez**
 m gesuita
 
-
-
 ---
 
 ### Handicap in Germania
@@ -44,16 +40,12 @@ m gesuita
 Dopo tanti anni di lavoro con Ombre e Luci a Roma, ho dovuto trasferirmi in Germania. Dopo qualche mese le persone con handicap mi hanno raggiunto. Che bella serata, giorni fa ritrovarmi a teatro; sulla scena un gruppi misto di disabili e non. Ho ripensato all'Alveare di Roma, al suo "Cristoforo Colombo"... Di questo gruppo di "ar: tisti" conoscevo una partecipante, educatrice, alla quale ho subito chiesto se, dopo lo spettacolo, potevo farle qualche domanda. Il giorno dopo ci siamo ritrovate. Avevo preparato sei domande sul loro lavoro. Abbiamo passato insieme un'ora e ‘mezza. Devo precisare che questa giovane, Yasmin, è di madre tedesca e di padre afgano cioè mussulmano. La storia rappresentata era senz'altro fatta bene, ma mi aveva messo sulla difesa per la sua lontananza dalla realtà e la sua aggressività. Yasmin ha capito perfettamente le mie domande, le mie perplessità, le mie critiche. Le ho detto che avevo lavorato in Italia con un gruppo cattolico. Abbiamo discusso a lungo e alla fine, lei ha detto:" Avete ragione voi, se avessi un figlio con handicap preferirei vederlo nelle vostre mani". Non voglio che facciamo i superbi. Errori ne facciamo tutti ma ritrovarmi così d'accordo con Yasmin mi ha dato voglia di continuare a cercare contatti qui ad Amburgo, di capire come trovano il loro posto le persone con handicap nella società tedesca. Vi manderò le mie prossime scoperte e riflessioni.
 **Nicole Schulthes**
 
-
-
 ---
 
 ### Un "sogno" in premio
 
 Alle amiche di Ombre e Luci invio i miei più sinceri ringraziamenti per aver consentito a me e a mio marito Carlo di vivere una bellissima esperienza come ospiti presso il convento dei padri agostiniani a S. Gimignano, quale premio per il testo vincitore del concorso indetto dalla vostra rivista, dedicato alla nostra amatissima bambina "Ilaria" (che portiamo sempre nei nostri cuori!). Padre Brian è sicuramente una persona speciale e ci ha accolto subito come amici facendoci sentire parte della sua "famiglia". Ha molta stima di voi e degli amici dell'associazione "Fede e Luce"ed è sensibile ai problemi delle persone disabili...insomma un vero amico! Grazie di cuore per averci consentito di vivere un "sogno". Un abbraccio fraterno.
 **Donatella Marazzini**
-
-
 
 ---
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Un gettone di libertà - Recensione"
 date: "2014-09-29"
 author: "Matteo Cinti"
@@ -19,6 +18,6 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Massimiliano Verga - Mondadori, 2014, pp. 160"
 ---
 
-Dopo il già ampiamente dibattuto Zigulì (vedi O&L n. 117), dove la rabbia e lo smarrimento di un padre di un figlio disabile venivano fuori con prepotenza, Verga torna a parlare di Moreno nel nuovo Un Gettone di Libertà con una visione più ampia e ragionata. Il giornalista non ha perso il suo cinismo: lo stile tagliente fa anche qui da padrone in ogni pagina, questa volta però con una forma più ordinata. Valore aggiunto niente affatto trascurabile è il ritratto che l’autore dà di sé come figlio, oltre che come padre, in un percorso parallelo fatto di domande, di rivelazioni e di quelle “missioni” che i papà, di tutti, sono chiamati a portare a termine.
-
-*Matteo Cinti*, 2014
+Dopo il già ampiamente dibattuto Zigulì (vedi O&L; n. 117), dove la rabbia e lo smarrimento di un padre di un figlio disabile venivano fuori con prepotenza, Verga torna a parlare di Moreno nel nuovo Un Gettone di Libertà con una visione più ampia e ragionata. Il giornalista non ha perso il suo cinismo: lo stile tagliente fa anche qui da padrone in ogni pagina, questa volta però con una forma più ordinata. Valore aggiunto niente affatto trascurabile è il ritratto che l’autore dà di sé come figlio, oltre che come padre, in un percorso parallelo fatto di domande, di rivelazioni e di quelle “missioni” che i papà, di tutti, sono chiamati a portare a termine. _Matteo Cinti_ , 2014Questo articolo è tratto da
+[Ombre e Luci n.127](https://www.ombreeluci.it/project/numero-127-custodi-della-speranza/ "Ombre e Luci n.127")
+[](https://www.ombreeluci.it/project/numero-127-custodi-della-speranza/ "Ombre e Luci n.121271")

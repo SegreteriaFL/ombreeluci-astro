@@ -25,8 +25,6 @@ Vi raggiungo dalla lontana Cina per scambiare gli auguri di Buona Pasqua e per e
 *padre Fernando*
 da Hong Kong
 
-
-
 ---
 
 ### Haiti- dopo il terremoto
@@ -35,16 +33,12 @@ Grazie a tutti per le parole di incoraggiamento che ci sono giunte da ogni parte
 **Eveline Barin Verdier**
 - Presidente del C.A. dell’Arca Haiti
 
-
-
 ---
 
 ### Come ritrovarsi attorno a un tavolo
 
 Nello scorso numero di Ombre e Luci (n.1/2010) in Dialogo Aperto ho letto la lettera intitolata “Volete farci mancare tutto questo?” a proposito della fatica che accusa la Redazione a proseguire nella sua attività. Condivido le riflessioni riportate e vorrei aggiungere questi pensieri. In questi ultimi anni si è un po’ avvertita la difficoltà da parte dei componenti dei gruppi FL a continuare a portare avanti con assiduità le occasioni di incontro. Infatti siamo a conoscenza che le nuove “leve” sono poche e che i vecchi amici a volte faticano a dividersi fra i loro impegni di famiglia e di lavoro, e i “genitori” sono invecchiati. Per tutto questo, ancora di più non potete non continuare ad esserci vicino e a ricordarci che FL, nonostante le difficoltà, è vivissima e va avanti. La vostra bella pubblicazione ci tiene uniti e, quando la si riceve, è come se ci sedessimo attorno ad un tavolo per ritrovarci e scambiarci il sostegno che un gruppo affiatato sa dare ai singoli componenti! Un affettuosissimo saluto
 **Elisa Sturlese Milano**
-
-
 
 ---
 

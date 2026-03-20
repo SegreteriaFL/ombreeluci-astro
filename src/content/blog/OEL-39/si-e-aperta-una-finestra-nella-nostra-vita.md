@@ -1,5 +1,4 @@
 ---
-
 title: "Si è aperta una finestra nella nostra vita"
 date: "1992-09-07"
 author: "Redazione"
@@ -17,17 +16,20 @@ id_numero: "OEL-39"
 numero_rivista: "Ombre e Luci"
 ---
 
-Siamo i genitori di Marco e vorremmo, con queste righe, farvi partecipi di quello che abbiamo provato il 28 luglio deiranno scorso, durante la [Cresima impartita dal caro Vescovo, Mons. Salvatore Boccaccio al nostro figliolo](http://www.ombreeluci.it/1992/cresima-marco/) durante il campo di Fede e Luce a Magnano.
-Da circa 20 anni stiamo passando attraverso tutte le prove d esame della vita, e voi ci capite. La nascita e la crescita di Marco aveva fatto chiudere la nostra vita e la nostra famiglia «a riccio»; lo abbiamo accettato e lo amiamo, ma è tutto e solo nostro, nostro il dolore, nostre le lacrime, nostre le pochissime gioie ed i suoi baci.
-Poi all'improvviso, Fede e Luce, un lampo.
-E abbiamo scoperto i «Fratelli»: disposti ad aiutarci nella salita al Calvario fino alla Resurrezione.
-Sono venute le preghiere in comune, le chitarre, le S. Messe in parrocchia, i campi di Fede e Luce; si è aperta una finestra nella nostra vita.
-Le nostre gioie e le nostre lacrime non sono state solo più nostre ma di tutti; e le lacrime non sono state più solo di dolore ma anche di gioia.
-Marco infatti ha ricevuto con Fede e Luce il suo Gesù per la prima volta. Continuando poi nel suo cammino di fede, il nostro Marco ha appagato il suo desiderio di essere soldato, ma soldato di Cristo.
-Leggi anche: ["Davvero lo spirito del Signore è su Marco"](http://www.ombreeluci.it/1992/cresima-marco/)
-Preparato dagli amici di FL e da tutti circondato, il 28 luglio Marco ha ricevuto il sigillo del Signore a Magliano in Sabina sotto il cielo di Dio.
-Abbiamo partecipato a tante Cresime nella nostra vita in chiese o cattedrali, ma ad una così bella e commovente, dinnanzi ad un altare improvvisato sotto un albero frondoso, non avevamo mai partecipato.
-E’ stata una novella Pentecoste, con i nostri giovani apostoli accomunati con noi nella gioia. Il luogo, i canti, la partecipazione di Marco hanno estasiato e fermato il nostro ricordo. Marco ha capito e partecipato con gioia alla festa comune; ha così ben capito quello che ha ricevuto che è felice quando raccontiamo e facciamo partecipi tutti di questa sua bellissima Cresima.
-Grazie, amici, non lo dimenticheremo mai e vorremmo che anche altri che lo desiderano possano avere la stessa gioia che noi abbiamo ricevuto.
+Siamo i genitori di Marco e vorremmo, con queste righe, farvi partecipi di quello che abbiamo provato il 28 luglio deiranno scorso, durante la [Cresima impartita dal caro Vescovo, Mons. Salvatore Boccaccio al nostro figliolo](http://www.ombreeluci.it/1992/cresima-marco/ "Il vescovo Boccaccio racconta il percorso di cresima di Marco") durante il campo di Fede e Luce a Magnano. Da circa 20 anni stiamo passando attraverso tutte le prove d esame della vita, e voi ci capite. La nascita e la crescita di Marco aveva fatto chiudere la nostra vita e la nostra famiglia «a riccio»; lo abbiamo accettato e lo amiamo, ma è tutto e solo nostro, nostro il dolore, nostre le lacrime, nostre le pochissime gioie ed i suoi baci. Poi all'improvviso, Fede e Luce, un lampo. E abbiamo scoperto i «Fratelli»: disposti ad aiutarci nella salita al Calvario fino alla Resurrezione. Sono venute le preghiere in comune, le chitarre, le S. Messe in parrocchia, i campi di Fede e Luce; si è aperta una finestra nella nostra vita. Le nostre gioie e le nostre lacrime non sono state solo più nostre ma di tutti; e le lacrime non sono state più solo di dolore ma anche di gioia. Marco infatti ha ricevuto con Fede e Luce il suo Gesù per la prima volta. Continuando poi nel suo cammino di fede, il nostro Marco ha appagato il suo desiderio di essere soldato, ma soldato di Cristo.
 
-- *Pietro e Maria Grazia Coralli*, 1992
+**Leggi anche:["Davvero lo spirito del Signore è su Marco"](http://www.ombreeluci.it/1992/cresima-marco/ "Davvero lo spirito del Signore è su Marco")**
+
+Preparato dagli amici di FL e da tutti circondato, il 28 luglio Marco ha ricevuto il sigillo del Signore a Magliano in Sabina sotto il cielo di Dio. Abbiamo partecipato a tante Cresime nella nostra vita in chiese o cattedrali, ma ad una così bella e commovente, dinnanzi ad un altare improvvisato sotto un albero frondoso, non avevamo mai partecipato. E’ stata una novella Pentecoste, con i nostri giovani apostoli accomunati con noi nella gioia. Il luogo, i canti, la partecipazione di Marco hanno estasiato e fermato il nostro ricordo. Marco ha capito e partecipato con gioia alla festa comune; ha così ben capito quello che ha ricevuto che è felice quando raccontiamo e facciamo partecipi tutti di questa sua bellissima Cresima. Grazie, amici, non lo dimenticheremo mai e vorremmo che anche altri che lo desiderano possano avere la stessa gioia che noi abbiamo ricevuto. \- _Pietro e Maria Grazia Coralli_ , 1992 Questo articolo è tratto da
+[Ombre e Luci n.39, 1992](http://www.ombreeluci.it/project/numero-39-catechesi-perche-nessuno-sia-dimenticato/ "Ombre e Luci n.39 - 1992 - Catechesi: perché nessuno sia dimenticato") [](http://www.ombreeluci.it/project/numero-39-catechesi-perche-nessuno-sia-dimenticato/ "Ombre e Luci n.39 - 1992") **Sommario** Articoli Perché nessuno sia dimenticato di _Henri Bissonier_
+La prima comunione di Flaminia ci ha fatto crescere di _A. Aluffi De Rita_
+Maria, la mia figlioccia di _Anna_
+Essere padrino ha cambiato la mia vita di
+Temevo di non essere accettata come catechista di _G. Valmarin_
+Come rendere viva la Messa di _P. N. Simard_
+Testi e sussidi per la Catechesi alle persone disabili di _Redazione_
+Anche io sono diventata suora di _Susanna_ La cresima di Marco Si è aperta una finestra nella nostra vita di _P. e M. Coralli_
+Davvero lo spirito del Signore è su Marco di _S. Boccaccio_ Rubriche [Dialogo aperto](http://www.ombreeluci.it/1992/dialogo-aperto-n-40/ "Dialogo aperto n.40")
+[Vita Fede e Luce](http://www.ombreeluci.it/1992/dialogo-aperto-n-40/ "Vita Fede e Luce n.40") Libri E la vita esploderà, _AA. VV._
+Psicopatologia e vita spirituale, _H. Bissonier_
+Persone handicappate mentali. Quale Catechesi?, _AA. VV_

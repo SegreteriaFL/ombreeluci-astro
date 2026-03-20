@@ -1,5 +1,4 @@
 ---
-
 title: A te bambino mio
 date: 1976-09-20
 author: Redazione
@@ -19,14 +18,39 @@ numero_rivista: "Insieme"
 subtitle: "Un inno all'amore: dalla voce di una mamma di Fede e Luce, 1976"
 ---
 
-A te, bambino mio, che ridi a cosa a me sconosciute, chiuso in un mondo il quale non ha rispondenza in quello che io vedo
+A te,
+bambino mio,
+che ridi a cosa
+a me sconosciute,
+chiuso in un mondo
+il quale non ha rispondenza
+in quello che io vedo
 
-A te, figlio mio, così sperduto e lontano a volte eppure sempre vicino all'animo mio, sia che tu tenda la mano aperta a me ed a tutti sia che tu sfugga in disparte rifiutando aiuto
+A te,
+figlio mio,
+così sperduto e lontano a volte
+eppure sempre vicino
+all'animo mio,
+sia che tu tenda la mano aperta
+a me ed a tutti
+sia che tu sfugga
+in disparte
+rifiutando aiuto
 
-A te, figlio, al quale ho dato un giorno la vita sognando grandezze che non potrai raggiungere
+A te,
+figlio,
+al quale ho dato un giorno la vita
+sognando grandezze
+che non potrai raggiungere
 
-A te grazie perché ci sei.
+A te
+grazie
+perché ci sei.
 
-- *Una mamma di "Fede e Luce"* , 1976
+\- _Una mamma di "Fede e Luce"_ , 1976
 
 **A nome di tutti: GRAZIE!!**
+
+Questo articolo è tratto da:
+**[Insieme n.10, 1976](https://www.ombreeluci.it/project/insieme-n-10-bollettino-fede-e-luce-1976/)
+[](https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-10-set-1976.jpg)**

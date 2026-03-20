@@ -1,5 +1,4 @@
 ---
-
 title: Buon Natale - Antico Corale trascritto da un bambino
 date: 1974-12-28
 author: Redazione
@@ -19,12 +18,22 @@ numero_rivista: "Insieme"
 subtitle: "Riportiamo lo spartito e il testo che un bambino di Fede e Luce ha diligentemente trascritto"
 ---
 
-Dormi, dormi bel bambin re divin dormi dormi fantolin fa la nanna caro figlio re del Ciel tanto bel grazioso giglio
+Dormi, dormi bel bambin re divin
+dormi dormi fantolin
+fa la nanna caro figlio re del Ciel
+tanto bel grazioso giglio Perché piangi, o bambinle, forse il gel
+ti dà noia o l'asinel;
+fa la nanna o paradiso
+del mio cuor, del mio cuor.
+Redentor ti bacio il viso Così presto vuoi provar a penar
+e venire a sospirar;
+dormi che verrò il giorno
+di patir, di patir
+di morir con tuo gran scorno Allora più non canterò, tacerò,
+teco in croce morirò;
+fa la nanna nel presepe
+bel bambin, bel bambin.
+Tuo padrin ecco Giuseppe. [Coro La Manda](https://soundcloud.com/coro-la-manda "Coro La Manda") · [Ninna Nanna del Bambin Gesù - Bruno Bettinelli](https://soundcloud.com/coro-la-manda/ninna-nanna-del-bambin-gesu-bruno-bettinelli "Ninna Nanna del Bambin Gesù - Bruno Bettinelli") Questo articolo è tratto da:
+**[Insieme n.3, 1975](https://www.ombreeluci.it/project/insieme-n-3/)**
 
-Perché piangi, o bambinle, forse il gel ti dà noia o l'asinel; fa la nanna o paradiso del mio cuor, del mio cuor. Redentor ti bacio il viso
-
-Così presto vuoi provar a penar e venire a sospirar; dormi che verrò il giorno di patir, di patir di morir con tuo gran scorno
-
-Allora più non canterò, tacerò, teco in croce morirò; fa la nanna nel presepe bel bambin, bel bambin. Tuo padrin ecco Giuseppe.
-
- [Coro La Manda](https://soundcloud.com/coro-la-manda) · [Ninna Nanna del Bambin Gesù - Bruno Bettinelli](https://soundcloud.com/coro-la-manda/ninna-nanna-del-bambin-gesu-bruno-bettinelli)
+[](https://www.ombreeluci.it/project/insieme-n-3/)

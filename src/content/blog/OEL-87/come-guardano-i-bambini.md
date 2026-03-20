@@ -23,11 +23,17 @@ subtitle: "I bambini ci guardano” si intitolava un vecchio bellissimo film di 
 
 “Ibambini ci guardano” si intitolava un vecchio bellissimo film di Vittorio De Sica, ed è vero: ci guardano, si sa, ma in maniera diversa a seconda della loro breve o brevissima età.
 
-**Dai primi mesi di vita** fino ai due, tre anni loro ci guardano, esaminano tutto il mondo che capita loro incontro con lo stesso intenso, entusiastico interesse. E non si limiterebbero a guardarlo: se potessero lo annuserebbero e lo leccherebbero tutto. Guardano ogni cosa con avidità e innocenza, non fanno distinzione.
+**Dai primi mesi di vita**
 
-**I tre, quattro, cinque anni** : sono gli anni della “scuola materna” che non è più l'asilo dei piccoli, come loro sanno bene. Ho sentito bambini di questa età fare sottili osservazioni su quanto capita loro a tiro ed esprimere considerazioni piene di buon senso su alcune questioni di importanza vitale. Anche il loro “guardare” è cambiato: ora sanno osservare (cioè guardare con cura ed attenzione), sanno distinguere e valutare, apprezzare o rifiutare, temere o amare intensamente al primo sguardo, senza ripensamenti. E non hanno né tatto, né buona educazione, né senso della misura: le conseguenze sono note. Ma hanno ancora quantità incalcolabili di dolcezza e innocenza, sono protetti nei loro atti da una particolare inconsapevole leggerezza, quindi i loro sguardi sbagliati non fanno veramente male e facilmente possono essere distolti, dimenticati, perdonati.
+fino ai due, tre anni loro ci guardano, esaminano tutto il mondo che capita loro incontro con lo stesso intenso, entusiastico interesse. E non si limiterebbero a guardarlo: se potessero lo annuserebbero e lo leccherebbero tutto. Guardano ogni cosa con avidità e innocenza, non fanno distinzione.
 
-**I bambini di cinque, sei, dieci anni** , o i bambini della scuola elementare. Per loro comincia la corsa a diventare grandi: in prima ricordano moltissimo i bambini di cui sopra, in quinta sono già pronti ad entrare nel mondo dei “ragazzini”. E devono imparare un mucchio di cose, a leggere a scrivere e a far di conto — come diceva Pinocchio — ma anche e soprattutto a vivere con gli altri, a ricercare e a rispettare lo star bene per sé e per gli altri.
+**I tre, quattro, cinque anni**
+
+: sono gli anni della “scuola materna” che non è più l'asilo dei piccoli, come loro sanno bene. Ho sentito bambini di questa età fare sottili osservazioni su quanto capita loro a tiro ed esprimere considerazioni piene di buon senso su alcune questioni di importanza vitale. Anche il loro “guardare” è cambiato: ora sanno osservare (cioè guardare con cura ed attenzione), sanno distinguere e valutare, apprezzare o rifiutare, temere o amare intensamente al primo sguardo, senza ripensamenti. E non hanno né tatto, né buona educazione, né senso della misura: le conseguenze sono note. Ma hanno ancora quantità incalcolabili di dolcezza e innocenza, sono protetti nei loro atti da una particolare inconsapevole leggerezza, quindi i loro sguardi sbagliati non fanno veramente male e facilmente possono essere distolti, dimenticati, perdonati.
+
+**I bambini di cinque, sei, dieci anni**
+
+, o i bambini della scuola elementare. Per loro comincia la corsa a diventare grandi: in prima ricordano moltissimo i bambini di cui sopra, in quinta sono già pronti ad entrare nel mondo dei “ragazzini”. E devono imparare un mucchio di cose, a leggere a scrivere e a far di conto — come diceva Pinocchio — ma anche e soprattutto a vivere con gli altri, a ricercare e a rispettare lo star bene per sé e per gli altri.
 
 Per tutte queste ragioni penso che **fin dai primi anni della suola primaria siano in grado e debbano cominciare a capire le diversità, a rispettarle** . A valutare quello che fa male o bene all'altro e quindi anche a controllare il proprio sguardo, a non ferire guardando.
 

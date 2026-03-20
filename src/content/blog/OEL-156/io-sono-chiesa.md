@@ -32,6 +32,8 @@ Con me, infatti, è stato intervistato anche un amico della comunità,
 **Per me è stato davvero un onore e un’emozione grande: non mi è mai successo di rappresentare i miei fratelli e sorelle con disabilità**
 in un contesto come questo. Dopo le domande di due giornalisti della stampa estera mi ha intervistato anche Cristina proprio in piazza San Pietro.
 
-**Ombre e Luci è anche una newsletter** Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .
+**Ombre e Luci è anche una newsletter**
+
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .
 
 Un nuovo post ogni mese

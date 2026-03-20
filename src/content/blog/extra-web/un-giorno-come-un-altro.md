@@ -1,5 +1,4 @@
 ---
-
 title: Un giorno come un altro
 date: 2004-12-15
 author: Mariangela Bertolini
@@ -20,6 +19,7 @@ Dice la sua mamma: "Natale è bello, ma per me è un giorno come un altro perch�
 
 [**Mariangela Bertolini**](http://www.ombreeluci.it/author/mariangela-bertolini/)
 
-Nata a Treviso nel 1933, insegnante e mamma di tre figli tra cui Maria Francesca, Chicca, con una grave disabilità. È stata fra le promotrici di Fede e Luce in Italia. Ha fondato e diretto Ombre e Luci dal 1983 fino al 2014.
+Nata a Treviso nel 1933, insegnante e mamma di tre figli tra cui Maria Francesca, Chicca, con una grave disabilità.
+È stata fra le promotrici di Fede e Luce in Italia. Ha fondato e diretto Ombre e Luci dal 1983 fino al 2014.
 
 [Tutti gli articoli](http://www.ombreeluci.it/author/mariangela-bertolini) di Mariangela

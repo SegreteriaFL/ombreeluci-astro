@@ -1,5 +1,4 @@
 ---
-
 title: Consigli per i film delle feste
 date: 2024-12-20
 author: Claudio Cinus
@@ -31,4 +30,6 @@ Un famoso direttore d'orchestra, Thibaut, scopre solo a quarant'anni di avere un
 
 La vita della caotica famiglia canadese Pelletier - due genitori e quattro figli - viene travolta dalla notizia che tre dei quattro bambini hanno la retinite pigmentosa, malattia incurabile che porta alla degenerazione della vista. Con grande coraggio, organizzazione e una piccola troupe al seguito, partono tutti per un giro del mondo di un anno per vedere le bellezze della natura e dell'architettura e per accumulare più esperienze possibili. Più che nella galleria di immagini esotiche, il cuore del documentario è nella costruzione di un rapporto familiare che abbraccia il presente per cambiare il futuro.
 
-**Ombre e Luci è anche una newsletter** Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .
+**Ombre e Luci è anche una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

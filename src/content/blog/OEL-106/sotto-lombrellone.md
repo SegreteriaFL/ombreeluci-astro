@@ -1,5 +1,4 @@
 ---
-
 title: Sotto l’ombrellone
 date: 2009-06-10
 author: Redazione
@@ -21,4 +20,4 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Cinque indovinelli per passare il tempo durante le vacanze - Testi di Tea Cabras, disegni di Arianna Floris"
 ---
 
-1. C'è quella con premio c'è quella con l’esca c’è quella sul ramo c'è quella con l’amo Al mercato è nella cesta E la chiaman tutti... 2. Siamo tanti e siam fratelli, siamo un poco picchiatelli perché d'estate ci vestiamo e d'inverno ci spogliamo. 3. Grande, grande, son piantato, piccolino vado a spasso. Sono asciutto se sei bagnato, son bagnato quando sei asciutto. 4. Se lo guardi lui ti guarda, ride quando sei contento, piange quando piangi tu. Se ti sposti un po’ più in là Lui sparisce e se ne va. 5. Sono nel fiume e non son pesce, sono in giardino e non son fiore; sono rotondo finissimo o ovale, con me e con la fionda ti piace giocare.
+1\. C'è quella con premio c'è quella con l’esca c’è quella sul ramo c'è quella con l’amo Al mercato è nella cesta E la chiaman tutti... 2\. Siamo tanti e siam fratelli, siamo un poco picchiatelli perché d'estate ci vestiamo e d'inverno ci spogliamo. 3\. Grande, grande, son piantato, piccolino vado a spasso. Sono asciutto se sei bagnato, son bagnato quando sei asciutto. 4\. Se lo guardi lui ti guarda, ride quando sei contento, piange quando piangi tu. Se ti sposti un po’ più in là Lui sparisce e se ne va. 5\. Sono nel fiume e non son pesce, sono in giardino e non son fiore; sono rotondo finissimo o ovale, con me e con la fionda ti piace giocare.

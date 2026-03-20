@@ -1,5 +1,4 @@
 ---
-
 title: "Sordo cecità: conoscere per prevenire."
 date: "1997-06-12"
 author: "Redazione"
@@ -14,7 +13,9 @@ tema_label: "Linguaggio, cultura e rappresentazioni"
 categoria_menu: "Cultura"
 ---
 
-Post-natale.** I gravi handicap pluri-sensoriali originatisi successivamente alla nascita sono anch’essi una minoranza sulla casistica delle sordo-cecità. Sono per lo più casi di meningite, encefaliti ed eventi incidentali di varia natura. (dalla «*Lega del Filo d’Oro*»)
+**Post-natale.**
+
+I gravi handicap pluri-sensoriali originatisi successivamente alla nascita sono anch’essi una minoranza sulla casistica delle sordo-cecità. Sono per lo più casi di meningite, encefaliti ed eventi incidentali di varia natura. (dalla « _Lega del Filo d’Oro_ »)
 
 ### Per comunicare con una persona sordo-cieca
 

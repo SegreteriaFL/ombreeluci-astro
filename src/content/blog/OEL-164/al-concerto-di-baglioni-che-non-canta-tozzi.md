@@ -21,8 +21,12 @@ Sono stata al concerto di Claudio Baglioni. Mamma mi ha detto che **è il quinto
 
 Volevo andare bagno ma era difficile perché le scale erano piccole e tanto dritte. Una signora è caduta, io volevo andare a vedere come stava. Un’altra signora aveva le stampelle e non riusciva a salire e a scendere le scale. Poi avevo sete e non si trovava l’acqua vicino. Prima del concerto ho mangiato due bei panini con prosciutto e formaggio e un supplì. Però il supplì mi ha fatto venire sete.
 
-**A me piace molto Baglioni quanto canta.** La canzone che mi piace di più è “Questa maglietta fina piccolo grande amore”. Poi pure “Strada facendo” e “La vita adesso”. Ma più di tutti 2 canzoni che io ho pure ballato e sono “Porta portese” e “Viva l’Inghilterra”. Le parole non le so tutte, quasi per niente. Conosco le parole delle canzoni di Umberto Tozzi ma Baglioni non le canta. Cerco di farmi dire le parole così le posso cantare ma non è mica facile.
+**A me piace molto Baglioni quanto canta.**
+
+La canzone che mi piace di più è “Questa maglietta fina piccolo grande amore”. Poi pure “Strada facendo” e “La vita adesso”. Ma più di tutti 2 canzoni che io ho pure ballato e sono “Porta portese” e “Viva l’Inghilterra”. Le parole non le so tutte, quasi per niente. Conosco le parole delle canzoni di Umberto Tozzi ma Baglioni non le canta. Cerco di farmi dire le parole così le posso cantare ma non è mica facile.
 
 Quando mi sono messa a ballare guardavo come facevano i ballerini che erano sul palco con Baglioni. Era tanti, tantissimi. Avevano vestiti colorati e li cambiavano sempre. C’erano pure 5 cantanti. Erano tutti molto bravi, io cercavo di fare come loro, quello che facevano loro. Non ballavo per conto mio.
 
-**Per fortuna che la mattina dopo non devo andare al centro professionale che sto facendo dopo che ho fatto la maturità e ho preso 100.** Vado lì perché insegnano come fare accoglienza. Io ci vado molto volentieri però a scuola era molto più bello perché c’erano tanti compagni e si stava in classe insieme. Mi divertivo molto con i compagni e pure con i professori. Mi dispiace tantissimo che la scuola è finita. Io ci tornerei ma purtroppo non si può. Al centro professionale sto bene e pure lì ci stanno come compagni di classe. Tra poco vado a fare lo stage nell’albergo. Non vedo l’ora perché sarà molto bello.
+**Per fortuna che la mattina dopo non devo andare al centro professionale che sto facendo dopo che ho fatto la maturità e ho preso 100.**
+
+Vado lì perché insegnano come fare accoglienza. Io ci vado molto volentieri però a scuola era molto più bello perché c’erano tanti compagni e si stava in classe insieme. Mi divertivo molto con i compagni e pure con i professori. Mi dispiace tantissimo che la scuola è finita. Io ci tornerei ma purtroppo non si può. Al centro professionale sto bene e pure lì ci stanno come compagni di classe. Tra poco vado a fare lo stage nell’albergo. Non vedo l’ora perché sarà molto bello.

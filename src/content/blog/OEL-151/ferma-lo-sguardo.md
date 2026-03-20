@@ -1,5 +1,4 @@
 ---
-
 title: Ferma lo sguardo
 date: 2020-10-07
 author: Cristina Tersigni
@@ -17,27 +16,55 @@ id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
 
-L
-e prime volte che passeggiavo con Valentina tra i banchi affollati durante la messa, mi ero resa conto che, in giro per la chiesa, non tutte le zone avevano lo stesso interesse per lei. Valentina è una ragazzina di 11 anni con i tratti principeschi di una delle donne dipinte da Modigliani. Ama molto la musica e il mare; non parla e non riesce ad usare le mani se non per alcuni movimenti stereotipati, ma cammina abbastanza volentieri ed è un gran bene perché con la sua patologia non è inconsueto che divenga difficile camminare. Le è stata diagnosticata la sindrome di Rett, che colpisce in particolar modo le bambine e si manifesta intorno al primo anno di vita, portando via i progressi raggiunti fino a quel momento. Dunque Valentina, soprattutto quando mancano da un po’ i canti durante la messa, comincia ad aver voglia di alzarsi e girare: con il suo sguardo leggero non sembra posare l’attenzione su qualcosa in particolare. Per capire cosa le interessa si può porre una domanda con possibilità di risposta sì e no associati alla mano destra e sinistra: Valentina riesce a far capire cosa vuole poggiando la mano o più spesso fermando lo sguardo su una delle due possibilità. Con lo stesso sistema utilizza anche le immagini in CAA, soprattutto a scuola. Non è tanto facile farla fermare se non c’è qualcosa di interessante come la musica. Così scopro che due sono i posti preferiti di Valentina in chiesa: comprensibilmente, davanti alle chitarre che suonano e, forse meno comprensibilmente, di fronte alla bella icona della Madonna con Gesù Bambino. Là davanti, il suo sguardo si mantiene orizzontale, seria o sorridente che sia, e si capisce che sta osservando con attenzione. La mamma Elisabetta – che spiega e capisce praticamente ogni cosa del comportamento di Valentina – mi racconta allora «quanto Vale sia attratta dalle opere d’arte, soprattutto dai dipinti». Che qualche tempo fa è stata con lei ai Musei Vaticani e che hanno potuto fermarsi a lungo alla Sistina, senza la fretta di dover andare oltre troppo velocemente. Valentina ha passato circa mezz’ora con la testa – stavolta volutamente – rivolta in su a contemplare la volta michelangiolesca. Probabilmente ci sarebbe rimasta ancora. Michelangelo l’ha rapita. E lei ha dimostrato chiaramente di averci preso gusto: ha ricambiato con il suo sguardo.
+Le prime volte che passeggiavo con Valentina tra i banchi affollati durante la messa, mi ero resa conto che, in giro per la chiesa, non tutte le zone avevano lo stesso interesse per lei. Valentina è una ragazzina di 11 anni con i tratti principeschi di una delle donne dipinte da Modigliani. Ama molto la musica e il mare; non parla e non riesce ad usare le mani se non per alcuni movimenti stereotipati, ma cammina abbastanza volentieri ed è un gran bene perché con la sua patologia non è inconsueto che divenga difficile camminare. Le è stata diagnosticata la sindrome di Rett, che colpisce in particolar modo le bambine e si manifesta intorno al primo anno di vita, portando via i progressi raggiunti fino a quel momento. Dunque Valentina, soprattutto quando mancano da un po’ i canti durante la messa, comincia ad aver voglia di alzarsi e girare: con il suo sguardo leggero non sembra posare l’attenzione su qualcosa in particolare. Per capire cosa le interessa si può porre una domanda con possibilità di risposta sì e no associati alla mano destra e sinistra: Valentina riesce a far capire cosa vuole poggiando la mano o più spesso fermando lo sguardo su una delle due possibilità. Con lo stesso sistema utilizza anche le immagini in CAA, soprattutto a scuola. Non è tanto facile farla fermare se non c’è qualcosa di interessante come la musica. Così scopro che due sono i posti preferiti di Valentina in chiesa: comprensibilmente, davanti alle chitarre che suonano e, forse meno comprensibilmente, di fronte alla bella icona della Madonna con Gesù Bambino. Là davanti, il suo sguardo si mantiene orizzontale, seria o sorridente che sia, e si capisce che sta osservando con attenzione. La mamma Elisabetta – che spiega e capisce praticamente ogni cosa del comportamento di Valentina – mi racconta allora «quanto Vale sia attratta dalle opere d’arte, soprattutto dai dipinti». Che qualche tempo fa è stata con lei ai Musei Vaticani e che hanno potuto fermarsi a lungo alla Sistina, senza la fretta di dover andare oltre troppo velocemente. Valentina ha passato circa mezz’ora con la testa – stavolta volutamente – rivolta in su a contemplare la volta michelangiolesca. Probabilmente ci sarebbe rimasta ancora. Michelangelo l’ha rapita. E lei ha dimostrato chiaramente di averci preso gusto: ha ricambiato con il suo sguardo.Questo articolo è tratto da
+[**Ombre e Luci n. 151, 2020**](https://www.ombreeluci.it/project/numero-151-viaggio-nellarte/) **SOMMARIO** _Editoriale_**
+**[**Nutrire talenti**](https://www.ombreeluci.it/2020/nutrire-talenti/) di Cristina Tersigni _Focus: Viaggio nell'arte
+_**Il linguaggio dell’art** e di Marta de Rino ed Eleonora Secchi
+**Metti da parte la fretta**
 
-*Editoriale* ** ** [**Nutrire talenti**](https://www.ombreeluci.it/2020/nutrire-talenti/) di Cristina Tersigni
+di Gianni Verni
+**Ferma lo sguardo**
 
-*Focus: Viaggio nell'arte * **Il linguaggio dell’art** e di Marta de Rino ed Eleonora Secchi **Metti da parte la fretta** di Gianni Verni **Ferma lo sguardo** di Cristina Tersigni **Estemporanea e personale** di Giorgiana Tinazzo **Buongustaio dell’arte** di Cristina Tersigni
+di Cristina Tersigni
+**Estemporanea e personale**
 
-*Intervista* **Il diritto a un libro vero** di Giulia Galeotti
+di Giorgiana Tinazzo
+**Buongustaio dell’arte**
 
-*Testimonianze* [**Forse una ragione c'è**](https://www.ombreeluci.it/2020/forse-una-ragione-ce/) di Stefano Nasuti
+di Cristina Tersigni _Intervista_
+**Il diritto a un libro vero**
 
-*Dall'archivio* [**Un pomeriggio chiamato laboratorio**](https://www.ombreeluci.it/1988/lavorando-insieme-un-pomeriggio-chiamato-laboratorio/) di Francesca Polcaro
+di Giulia Galeotti _Testimonianze_
+[**Forse una ragione c'è**](https://www.ombreeluci.it/2020/forse-una-ragione-ce/) di Stefano Nasuti _Dall'archivio_
+[**Un pomeriggio chiamato laboratorio**](https://www.ombreeluci.it/1988/lavorando-insieme-un-pomeriggio-chiamato-laboratorio/) di Francesca Polcaro _Associazioni_
+**Museo per tutti**
 
-*Associazioni* **Museo per tutti** di Cristina Tersigni
+di Cristina Tersigni _Fede e Luce_
+**Noi, non io**
 
-*Fede e Luce* **Noi, non io** di Serena Sillitto
+di Serena Sillitto _Spettacoli_
+**Accarezzando insieme l'erba**
 
-*Spettacoli* **Accarezzando insieme l'erba** di Enrica Riera
+di Enrica Riera _Rubriche_
+**Dialogo Aperto n. 151**
+**Vita Fede e Luce n. 151**
 
-*Rubriche* **Dialogo Aperto n. 151** **Vita Fede e Luce n. 151**
+_Libri_
+**Il cuore è una selva**
 
-*Libri* **Il cuore è una selva** di Novita Amadei **Il chiosco** di Anete Melece **Malintesi** di Bertrand Leclair **Un'esperienza personale** di Kenzaburo Oe
+di Novita Amadei
+**Il chiosco**
 
-*Diari* **Caro presidente Sergio Mattarella** di Benedetta Mattei **Natura e musica** di Giovanni Grossi
+di Anete Melece
+**Malintesi**
+
+di Bertrand Leclair
+**Un'esperienza personale**
+
+di Kenzaburo Oe _Diari_
+**Caro presidente Sergio Mattarella**
+
+di Benedetta Mattei
+**Natura e musica**
+
+di Giovanni Grossi

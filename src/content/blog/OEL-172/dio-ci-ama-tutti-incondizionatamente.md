@@ -51,4 +51,6 @@ Poi ha salutato in spagnolo la sua diocesi, in Perù che riportiamo già tradott
 
 E se mi permettete una parola, un saluto a tutti e in modo particolare alla mia cara diocesi di Chiclayo, in Perù, dove un popolo fedele ha accompagnato il suo vescovo, ha condiviso la sua fede e ha dato tanto, tanto per continuare ad essere Chiesa fedele di Gesù Cristo».
 
-**Ombre e Luci è anche una newsletter** Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .
+**Ombre e Luci è anche una newsletter**
+
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .

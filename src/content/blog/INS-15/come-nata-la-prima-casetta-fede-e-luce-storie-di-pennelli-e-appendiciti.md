@@ -1,5 +1,4 @@
 ---
-
 title: "Com'è nata la prima \"casetta\" Fede e Luce?  Storie di pennelli e appendiciti"
 date: "1977-03-20"
 author: "Redazione"
@@ -29,7 +28,7 @@ L'invincibile armata dai giovani amici ha cominciato a grattare i muri, a lavora
 
 Una domenica di polvere e calcinacci: sfido a trovare quello che è tornato a casa con venti centimetri quadrati di qualcosa di pulito. Teste canute, facce sioux, calzoni a pois e mani degne del migliore muratore con trent'anni di lavoro alle spalle.
 
-Guenda per tutta la settimana ha girato Roma, alla moda di *Agostino o' pazzo*, napoletano motorizzato, e con la tipica faccia di tolla che si ritrova è arrivata al Nazareth con due quintali di pezzi di moquette di tutti i colori che con un po' di scotch, un po' di fantasia e il lavoro di tutti quanti,
+Guenda per tutta la settimana ha girato Roma, alla moda di _Agostino o' pazzo_ , napoletano motorizzato, e con la tipica faccia di tolla che si ritrova è arrivata al Nazareth con due quintali di pezzi di moquette di tutti i colori che con un po' di scotch, un po' di fantasia e il lavoro di tutti quanti,
 avevano la possibilità di diventare un cocktail di colori per un tappeto mille usi.
 
 Ormai anch'io avevo trovato il gusto di pitturare, soprattutto l'aveva trovato Matteo, che di fronte all'urlo materno: "Oddio, il morbillo!!" spiegava lemme lemme, "Mamma, io no il morbillo, io ho pitturato". Sì, di rosso il seggiolino, il maglione, le calze, l'orlo delle mutande e... la faccia.
@@ -64,7 +63,7 @@ I saluti, l'arrivederci. La "casetta" era stata inaugurata.
 
 Tra tanti regali che la "casetta" ha ricevuto, questi dieci centimetri di appendicite infiammata, sono tra tutti, il più gradito.
 
-- *Manu*, 1977
+\- _Manu_ , 1977
 
 ### Cos'è la Casetta?
 
@@ -77,4 +76,8 @@ L'atmosfera è semplice e serena per tutti, tanto che raramente si finisce la gi
 
 Segno che la cosa funziona.
 
-*Italia Valle*, 1977
+_Italia Valle_ , 1977
+
+Questo articolo è tratto da:
+**[Insieme n.12, 1977](https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/)
+[](https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/)**

@@ -31,7 +31,9 @@ Tornando al nostro Paese, alle domande di Abis fanno da contraltare nel libro le
 
 Necessità che diventano ancor più stringenti in presenza del disagio mentale. Che è davvero il disagio degli ultimi tra gli ultimi.
 
-##### Acquista questo libro in uno dei siti del circuito **[Helpfreely](https://www.helpfreely.org/it/) .**
+##### Acquista questo libro in uno dei siti del circuito **[Helpfreely](https://www.helpfreely.org/it/)
+
+.**
 
 Se sei iscritto, una percentuale del tuo acquisto verrà donata a Fede e Luce. ( [Scopri di più](http://www.fedeeluce.it/helpfreely---la-guida.html) )
 

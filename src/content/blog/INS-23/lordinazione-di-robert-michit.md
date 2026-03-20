@@ -1,5 +1,4 @@
 ---
-
 title: "L'ordinazione di Robert Michit"
 date: 1979-12-16
 author: Redazione
@@ -19,18 +18,6 @@ numero_rivista: "Insieme"
 subtitle: "Da Roma a Saint Remy de Provence: la commovente testimonianza di amicizia della comunità Fede e Luce all'ordinazione sacerdotale di Robert Michit, un amico che sceglie di concidividere il suo dono"
 ---
 
-Un gruppetto di noi è stato in Francia per assistere alla ordinazione sacerdotale di Robert Michit il 29 settembre e per testimoniargli l'affetto e l'amicizia di tutti.
-
-Dopo una accurata preparazione, una partenza incerta fino all'ultimo minuto, un viaggio pieno di smarrimenti e di ritrovamenti (di strade, macchine e persone), l'arrivo è stato pressocché ineccepibile: cinque minuti prima dell'inizio della cerimonia le due macchine, anche se da direzioni diverse, arrivano alla chiesa parrocchiale di Saint Remy de Provence.
-
-La chiesa è affollata di amici e parenti: noi siamo in terra sul solito tappeto di fianco all'altare. Robert è emozionato, non lo fa vedere e ci sorride.
-
-La cerimonia è semplice e suggestiva: la partecipazione è attiva e commossa da parte di tutti: l'intera chiesa risuona di canti diretti a turno da amici di Robert. Anche noi, nonostante la lingua, seguiamo il rito. I genitori di Robert sono in prima fila; dei bambini giocano accanto all'altare mentre il vescovo dice la sua omelia.
-
-Dopo la cerimonia ci siamo ritrovati nei locali della parrocchia per festeggiare la ...."nuova perdita". La quale, nel frattempo, ci presenta i suoi amici: l'accoglienza è simpatica e calorosa. Riusciamo ad incontrare una comunità "Arche" che vive a pochi chilometri da Saint Remy.
-
-Robert l'indomani mattina celebra la sua prima Messa nella parrocchia del paese natale, Gravaison. A tratti, sotto il paramento verde, si intravede la nostra stola. Robert parla in francese ed in italiano: dice tra l'altro di non essere geloso di ciò che ha ricevuto e di volerlo condividere (*) con noi. (leggano "concidividere" quelli di Carpineto)
-
-Il ritorno, fino al momento della stesura del resoconto (Ventimiglia) è abbastanza tranquillo.
-
-*Enrica, Roberta, Romeo, Alessandro, Federico, Pinino, Carola, Francesca, Maria-Teresa, Michele.*
+Un gruppetto di noi è stato in Francia per assistere alla ordinazione sacerdotale di Robert Michit il 29 settembre e per testimoniargli l'affetto e l'amicizia di tutti. Dopo una accurata preparazione, una partenza incerta fino all'ultimo minuto, un viaggio pieno di smarrimenti e di ritrovamenti (di strade, macchine e persone), l'arrivo è stato pressocché ineccepibile: cinque minuti prima dell'inizio della cerimonia le due macchine, anche se da direzioni diverse, arrivano alla chiesa parrocchiale di Saint Remy de Provence. La chiesa è affollata di amici e parenti: noi siamo in terra sul solito tappeto di fianco all'altare. Robert è emozionato, non lo fa vedere e ci sorride. La cerimonia è semplice e suggestiva: la partecipazione è attiva e commossa da parte di tutti: l'intera chiesa risuona di canti diretti a turno da amici di Robert. Anche noi, nonostante la lingua, seguiamo il rito. I genitori di Robert sono in prima fila; dei bambini giocano accanto all'altare mentre il vescovo dice la sua omelia. Dopo la cerimonia ci siamo ritrovati nei locali della parrocchia per festeggiare la ...."nuova perdita". La quale, nel frattempo, ci presenta i suoi amici: l'accoglienza è simpatica e calorosa. Riusciamo ad incontrare una comunità "Arche" che vive a pochi chilometri da Saint Remy. Robert l'indomani mattina celebra la sua prima Messa nella parrocchia del paese natale, Gravaison. A tratti, sotto il paramento verde, si intravede la nostra stola. Robert parla in francese ed in italiano: dice tra l'altro di non essere geloso di ciò che ha ricevuto e di volerlo condividere (*) con noi. (leggano "concidividere" quelli di Carpineto) Il ritorno, fino al momento della stesura del resoconto (Ventimiglia) è abbastanza tranquillo. _Enrica, Roberta, Romeo, Alessandro, Federico, Pinino, Carola, Francesca, Maria-Teresa, Michele._ Questo articolo è tratto da:
+**[Insieme n.23, 1979](https://www.ombreeluci.it/project/insieme-n-23-bollettino-fede-e-luce-1979/)
+[](https://www.ombreeluci.it/project/insieme-n-23-bollettino-fede-e-luce-1979/)**

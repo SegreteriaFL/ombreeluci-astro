@@ -1,5 +1,4 @@
 ---
-
 title: "Cinema e disabilità: i 3 film di Valerio Sammarco"
 date: "2019-11-18"
 author: "Redazione"
@@ -61,23 +60,23 @@ Your content goes here. Edit or remove this text inline or in the module Content
 
 ## Zatoichi
 
-*(id. Giappone, 2003, durata 116 minuti) - di Takeshi Kitano. Con Takeshi Kitano, Tadanobu Asano, Akira Emoto, Yuko Daike, Saburo Ishikura. *
+_(id. Giappone, 2003, durata 116 minuti) - di Takeshi Kitano. Con Takeshi Kitano, Tadanobu Asano, Akira Emoto, Yuko Daike, Saburo Ishikura._
 
 Forse l’ultimo vero guizzo di un Takeshi Kitano poi perduto in chissà quali percorsi di lucida (?) follia, alle prese con il primo “Jidai-geki” della sua carriera. Nel Giappone del XIX secolo l’incedere sanguinolento di un (finto) massaggiatore cieco abile spadaccino guerriero. Sarà un meraviglioso bagno di sangue. Premiato a Venezia (Leone d’Argento) e più grande successo commerciale del regista/attore nipponico.
 
 ## Unbreakable
 
-*(id. USA, 2000, durata 110 minuti) - Regia di M. Night Shyamalan. Un film con Samuel L. Jackson, Bruce Willis, Robin Wright, Spencer Treat Clark, Charlayne Woodard.*
+_(id. USA, 2000, durata 110 minuti) - Regia di M. Night Shyamalan. Un film con Samuel L. Jackson, Bruce Willis, Robin Wright, Spencer Treat Clark, Charlayne Woodard._
 
 Primo titolo della sorprendente trilogia firmata da M. Night Shyamalan - insieme a Split (2016) e Glass (2019- mai preventivamente annunciata e di fatto svelata nel sottofinale dell'ultimo film. Al centro di tutto il Mr. Glass di Samuel L. Jackson, appassionato di fumetti e supereroi affetto da una malattia degenerativa delle ossa. Uno tra gli sguardi più originali sulla diversità, contro ogni tentativo di intrappolarne le gesta in nome di chissà quale equilibrio.
 
 ## Un silenzio particolare
 
-*( Italia, 2004, durata 75 minuti) - Regia di Stefano Rulli. Con Matteo Rulli, Stefano Rulli, Clara Sereni, Giorgio Arlorio, Monica Barranco.
-*
+_( Italia, 2004, durata 75 minuti) - Regia di Stefano Rulli. Con Matteo Rulli, Stefano Rulli, Clara Sereni, Giorgio Arlorio, Monica Barranco.
+_
 
 30 anni dopo Matti da slegare, doc sulla legge Basaglia realizzato con Agosti, Bellocchio e Petraglia, lo sceneggiatore Stefano Rulli torna di nuovo dietro la macchina da presa per raccontare di suo figlio, Matteo, 24enne autistico. Un diario intimo, sofferto, ma guidato sempre da un delicato pudore per cercare di colmare una distanza che spesso la malattia tenta di imporre. Da recuperare e/o riscoprire.
 
-### Speciale Cinema e disabilità
+### Speciale [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/ "Speciale Cinema e disabilità - Ombre e Luci")
 
 Con i contributi di:

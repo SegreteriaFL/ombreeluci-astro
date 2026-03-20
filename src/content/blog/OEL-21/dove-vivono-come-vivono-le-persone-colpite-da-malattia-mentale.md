@@ -1,5 +1,4 @@
 ---
-
 title: Dove vivono, come vivono le persone colpite da malattia mentale?
 date: 1988-03-28
 author: Redazione
@@ -20,35 +19,4 @@ id_numero: "OEL-21"
 numero_rivista: "Ombre e Luci"
 ---
 
-Le persone colpite da malattia mentale devono spesso in un primo tempo — chiamato fase acuta della malattia — farsi curare presso i servizi specializzati in neuropsichiatria. Questa malattia però, in molti casi non finisce qui con guarigione completa. Di fatto, in molti di loro continuano, ritornano o rimangono gravi disturbi tali da rendere l'autonomia, la relazione in famiglia e naturalmente il lavoro più o meno impossibili. Si parla allora di cronicità. Abbiamo fatto un tentativo di vedere con i nostri occhi dove e come vivono queste persone. Purtroppo sappiamo tutti, per averle incontrate, che molte di loro vivono per strada o in famiglia in situazioni molto difficili, e, talora, drammatiche. E gli altri?... I due servizi che presentiamo, presentano, in modo superficiale, le due realtà che abbiamo visitato, realtà che sono in netto cntrasto fra loro sotto tutti gli aspetti. Ci auguriamo di cuore che venga fatto molto, molto di più per trasformare la dolorosa e drammatica realtà dei nostri fratelli malati mentali.
-[**Villa S. Giovanni di Dio**](http://www.ombreeluci.it/1988/villa-san-giovanni-di-dio/)
-di Nicole Schulthes
-[**Comunità terapeutica di Primavalle**](http://www.ombreeluci.it/1988/comunita-terapeutica-primavalle/)
-di Sergio Sciascia Questo articolo è tratto da
-[Ombre e Luci n.21, 1988](http://www.ombreeluci.it/project/numero-21-rompere-la-solitudine-del-malato-mentale/)
-
-#### Articoli
-
-[Saverio, nostro fratello](#)
-di
-*Mario Damiani*
-[La malattia mentale](#)
-di
-*M.E.*
-[Bloccati nel silenzio](#)
-di
-*Jeane Vanier*
-[Addomesticare la malattia](#)
-di
-*J.P. Walcke*
-[Era la mamma ma anche un’altra persona](#)
-di
-*C.D.*
-[Dove vivono, come vivono](#)
-[Villa S. Giovanni di Dio](#)
-di
-*Nicole Shulthes*
-[Comunità terapeutica di Primavalle](#)
-di
-*Sergio Sciascia*
-[Risultato dell’inchiesta “Aiutateci a migliorare Ombre e Luci’’](#)
+Le persone colpite da malattia mentale devono spesso in un primo tempo — chiamato fase acuta della malattia — farsi curare presso i servizi specializzati in neuropsichiatria. Questa malattia però, in molti casi non finisce qui con guarigione completa. Di fatto, in molti di loro continuano, ritornano o rimangono gravi disturbi tali da rendere l'autonomia, la relazione in famiglia e naturalmente il lavoro più o meno impossibili. Si parla allora di cronicità. Abbiamo fatto un tentativo di vedere con i nostri occhi dove e come vivono queste persone. Purtroppo sappiamo tutti, per averle incontrate, che molte di loro vivono per strada o in famiglia in situazioni molto difficili, e, talora, drammatiche. E gli altri?... I due servizi che presentiamo, presentano, in modo superficiale, le due realtà che abbiamo visitato, realtà che sono in netto cntrasto fra loro sotto tutti gli aspetti. Ci auguriamo di cuore che venga fatto molto, molto di più per trasformare la dolorosa e drammatica realtà dei nostri fratelli malati mentali. [**Villa S. Giovanni di Dio**](http://www.ombreeluci.it/1988/villa-san-giovanni-di-dio/) di Nicole Schulthes [**Comunità terapeutica di Primavalle**](http://www.ombreeluci.it/1988/comunita-terapeutica-primavalle/) di Sergio Sciascia Questo articolo è tratto da [Ombre e Luci n.21, 1988](http://www.ombreeluci.it/project/numero-21-rompere-la-solitudine-del-malato-mentale/) [](http://www.ombreeluci.it/project/numero-21-rompere-la-solitudine-del-malato-mentale/) **Sommario** Articoli Saverio, nostro fratello di _Mario Damiani_ La malattia mentale di _M.E._ Bloccati nel silenzio di _Jeane Vanier_ Addomesticare la malattia di _J.P. Walcke_ Era la mamma ma anche un’altra persona di _C.D._ Dove vivono, come vivono Villa S. Giovanni di Dio di _Nicole Shulthes_ Comunità terapeutica di Primavalle di _Sergio Sciascia_ Risultato dell’inchiesta “Aiutateci a migliorare Ombre e Luci’’

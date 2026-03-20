@@ -1,5 +1,4 @@
 ---
-
 title: Partiamo per il Congo!
 date: 2023-11-16
 author: Andrea Posa
@@ -19,4 +18,6 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Andrea Posa racconta il viaggio in Africa dove lavora la sorella Lela"
 ---
 
-
+Questo articolo è tratto da
+[**Ombre e Luci n.164**](https://www.ombreeluci.it/project/numero-164-ancora-pazienti/ "Ombre e Luci n.162")[
+](https://www.ombreeluci.it/project/numero-161-quarantanni-di-ol/ "Ombre e Luci n.161")

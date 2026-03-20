@@ -1,5 +1,4 @@
 ---
-
 title: "Tutta un'altra storia"
 date: 2021-03-31
 author: Cristina Tersigni
@@ -17,26 +16,43 @@ id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
 
-L'uomo ha bisogno di storie quasi come del cibo, ricordava Papa Francesco nel messaggio per la Giornata delle Comunicazioni sociali del 2020; e a Ombre e Luci crediamo fermamente nella necessità di raccontare, nel bene possibile, storie e riflessioni intorno al mondo della fragilità e della disabilità. «Abbiamo bisogno di respirare la verità delle storie buone – diceva Francesco – storie che edifichino, non che distruggano; storie che aiutino a ritrovare le radici e la forza per andare avanti insieme (…). Abbiamo bisogno di una narrazione che riveli l’intreccio dei fili coi quali siamo collegati gli uni agli altri». Più recentemente il Papa ha rinnovato la richiesta agli operatori della comunicazione di raccontare la verità della vita che si fa *storia* uscendo «dalla comoda presunzione del già saputo», del pregiudizio, mettendosi in movimento anche là dove nessuno vuole andare, «di comunicare incontrando le persone dove e come sono».
+L'uomo ha bisogno di storie quasi come del cibo, ricordava Papa Francesco nel messaggio per la Giornata delle Comunicazioni sociali del 2020; e a Ombre e Luci crediamo fermamente nella necessità di raccontare, nel bene possibile, storie e riflessioni intorno al mondo della fragilità e della disabilità. «Abbiamo bisogno di respirare la verità delle storie buone – diceva Francesco – storie che edifichino, non che distruggano; storie che aiutino a ritrovare le radici e la forza per andare avanti insieme (…). Abbiamo bisogno di una narrazione che riveli l’intreccio dei fili coi quali siamo collegati gli uni agli altri». Più recentemente il Papa ha rinnovato la richiesta agli operatori della comunicazione di raccontare la verità della vita che si fa _storia_ uscendo «dalla comoda presunzione del già saputo», del pregiudizio, mettendosi in movimento anche là dove nessuno vuole andare, «di comunicare incontrando le persone dove e come sono». Prendiamoci dunque il tempo di conoscere e ascoltare storie di vite nascoste come quella della brasiliana Eva Rodrigues che lotta con caparbietà per liberarsi dall’immagine che (per comodità) le hanno cucito addosso; di Eufemia Giuliani, madre pugliese 74enne di tre figli con disabilità psichiche che, con solarità, interroga il Padreterno e continua a mettersi in gioco; o di Carlo Maria Fornari che, a Ponte Lambro, è riuscito a concretizzare un progetto di comunità di accoglienza per il “dopo di noi” a partire dall’entusiasmo seminato in lui dall’amicizia con un sacerdote, Dario Madaschi, la cui breve esistenza è stata spesa nella continua ricerca del senso del vero vivere. Vite che – nel focus curato da Giulia Galeotti – cerchiamo nella Storia, piena di «scivoloni e passi avanti» con i quali ancora non abbiamo finito di fare i conti. Perché anche quelle vite e le loro storie, spesso dimenticate e volutamente escluse, hanno «una dignità insopprimibile»: avvicinarle significa curare e redimere – finalmente insieme – la nostra umanità invisibilmente fragile e ferita.Questo articolo è tratto da
+[**Ombre e Luci n. 153, 2021**](https://www.ombreeluci.it/project/numero-153-nello-spazio-e-nel-tempo/) **SOMMARIO** _Editoriale_**
+**[**Tutta un'altra storia**](https://www.ombreeluci.it/2021/tutta-unaltra-storia/)di Cristina Tersigni _Focus_
+**Per una storia della disabilità**
 
-Prendiamoci dunque il tempo di conoscere e ascoltare storie di vite nascoste come quella della brasiliana Eva Rodrigues che lotta con caparbietà per liberarsi dall’immagine che (per comodità) le hanno cucito addosso; di Eufemia Giuliani, madre pugliese 74enne di tre figli con disabilità psichiche che, con solarità, interroga il Padreterno e continua a mettersi in gioco; o di Carlo Maria Fornari che, a Ponte Lambro, è riuscito a concretizzare un progetto di comunità di accoglienza per il “dopo di noi” a partire dall’entusiasmo seminato in lui dall’amicizia con un sacerdote, Dario Madaschi, la cui breve esistenza è stata spesa nella continua ricerca del senso del vero vivere. Vite che – nel focus curato da Giulia Galeotti – cerchiamo nella Storia, piena di «scivoloni e passi avanti» con i quali ancora non abbiamo finito di fare i conti. Perché anche quelle vite e le loro storie, spesso dimenticate e volutamente escluse, hanno «una dignità insopprimibile»: avvicinarle significa curare e redimere – finalmente insieme – la nostra umanità invisibilmente fragile e ferita.
+di Giulia Galeotti _Estratto_
+**Il crimine di Eva**
 
-*Editoriale* ** ** [**Tutta un'altra storia**](https://www.ombreeluci.it/2021/tutta-unaltra-storia/) di Cristina Tersigni
+di Laura Coccia _Dall'archivio_
+**Un tesoro in vasi di creta**
 
-*Focus* **Per una storia della disabilità** di Giulia Galeotti
+di Dario Madaschi _Associazioni_
+**Nella casa di Dario**
 
-*Estratto* **Il crimine di Eva** di Laura Coccia
+di Carlo Maria Fornari _Fede e Luce_
+**Una piccola matita nelle sue mani**
 
-*Dall'archivio* **Un tesoro in vasi di creta** di Dario Madaschi
+di Vito Giannulo _Spettacoli_
+[**Perché di Katherine e Nerissa non ci sono più tracce?**](https://www.ombreeluci.it/2021/the-crown-perche-katherine-e-nerissa-non-ci-sono-tracce/) di Enrica Riera **Dialogo Aperto
+** _Libri_
+**Imparare a cadere**
 
-*Associazioni* **Nella casa di Dario** di Carlo Maria Fornari
+di Mikael Ross
+**Dove crescono i cocomeri**
 
-*Fede e Luce* **Una piccola matita nelle sue mani** di Vito Giannulo
+di Cindy Baldwin
+**L'eredità dei vivi**
 
-*Spettacoli* [**Perché di Katherine e Nerissa non ci sono più tracce?**](https://www.ombreeluci.it/2021/the-crown-perche-katherine-e-nerissa-non-ci-sono-tracce/) di Enrica Riera
+di Federica Sgaggio
+**Marie la strabica**
 
-**Dialogo Aperto **
+di Georges Simenon _Diari_
+**Bella ma inutile. Cronache da Trigoria**
 
-*Libri* **Imparare a cadere** di Mikael Ross **Dove crescono i cocomeri** di Cindy Baldwin **L'eredità dei vivi** di Federica Sgaggio **Marie la strabica** di Georges Simenon
+di Benedetta Mattei
+**È bello avere un posto dove lavorare**
 
-*Diari* **Bella ma inutile. Cronache da Trigoria** di Benedetta Mattei **È bello avere un posto dove lavorare** di Giovanni Grossi
+di Giovanni Grossi**Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

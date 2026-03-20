@@ -21,7 +21,11 @@ umap_z: 12.855629920959473
 
 ### Amici a Fede e Luce
 
-Ci sono tre componenti in un gruppo Fede e Luce: i giovani portatori di handicap mentale, i loro genitori o familiari e gli amici. Per non ripetere troppo spesso epiteti sgradevoli e per dare l'idea che si fa per amicizia e non per pietismo, abbiamo usato tre parole che, normalmente, nella vita quotidiana hanno un significato un po’ diverso. **Ragazzi.** Spesso non lo sono più. Parecchi hanno vent anni o più. Sono adulti, ma rimangono bambini per molto tempo, per via dell'handicap. **Genitori.** Non intendiamo tutti quelli che hanno figli, ma soltanto quelli che hanno figli disabili. **Amici.** I giovani che vengono per darci una mano o per fare amicizia con noi. Ci accompagnano in quel pellegrinaggio che è la vita. Normalmente sono chiamati “volontari”.
+Ci sono tre componenti in un gruppo Fede e Luce: i giovani portatori di handicap mentale, i loro genitori o familiari e gli amici. Per non ripetere troppo spesso epiteti sgradevoli e per dare l'idea che si fa per amicizia e non per pietismo, abbiamo usato tre parole che, normalmente, nella vita quotidiana hanno un significato un po’ diverso.
+
+**Ragazzi.**
+
+Spesso non lo sono più. Parecchi hanno vent anni o più. Sono adulti, ma rimangono bambini per molto tempo, per via dell'handicap. **Genitori.** Non intendiamo tutti quelli che hanno figli, ma soltanto quelli che hanno figli disabili. **Amici.** I giovani che vengono per darci una mano o per fare amicizia con noi. Ci accompagnano in quel pellegrinaggio che è la vita. Normalmente sono chiamati “volontari”.
 
 #### Amico
 
@@ -37,20 +41,17 @@ Prima o poi arriverà quel giorno quando l'amico non ha più il tempo da dedicar
 
 - **Olga Burrows Gammarelli**
 
-
 ---
 
 ### Amicizia fra amici
 
 Delle volte diamo per scontato che gli amici andranno d'accordo fra di loro. Sono dei giovani normali. Non hanno problemi (apparentemente). Sono entrati con la stessa motivazione (ma è proprio vero?). In alcuni gruppi nasce un vero affiatamento fra gli amici. Spesso sono entrati nel gruppo insieme, forse proprio nel momento della formazione di un nuovo gruppo. Si conoscono bene fra di loro. Qualche volta si vedono al di fuori di Fede e Luce. Lavorano bene insieme. Si dividono i compiti. Sono una équipe. E' molto bello. Che cosa succede quando entra un nuovo amico nel gruppo? Qualche volta si inserisce subito, senza troppe difficoltà, ma qualche volta si sente come un estraneo, poco esperto, non sa bene come muoversi, ma soprattutto si sente escluso dall'affiatamento che c’è fra gli altri amici. Se nessuno sa aiutarlo, sarà deluso. Se ne va, e nessuno saprà mai perché. Oppure, come è stato confidato a me una volta, l'amico passa ad un altro gruppo, dove viene accolto a braccia aperte. In alcuni gruppi questo affiatamento non c’è. Gli amici sono di età diversa, sono entrati in momenti diversi, ognuno si arrangia per conto suo, dando molto o poco secondo le proprie possibilità. Non è una situazione ideale. Ci vuole un bravo coordinatore, forse un sacerdote, qualcuno che riesca ad approfondire la situazione con loro.
 
-
 ---
 
 ### È stata una festa, non un funerale
 
 La chiesa era stracolma: le nostre comunità Fede e Luce, ragazzi e amici; parenti e conoscenti; compagni di scuola, maestri, professori, obiettori di coscienza che hanno seguito Chicco nelle varie strutture che frequentava. Ci siamo stretti intorno a mamma Paola, a papà Giovanni. ai fratelli Stefano e Marco., alla nonna. Abbiamo cantato i canti che piacevano a te, Chicco; tu li cantavi con noi sorridendo, battendo le mani, danzando. Non era soltanto immaginazione la nostra: tra le lacrime, con la voce rotta dall'emozione, ti vedevamo davanti a noi ridente, guidavi i canti e saltavi dalla gioia. Non soffrivi più. 11 tuo corpo straziato dal dolore e dalle medicine giaceva nella bara. Il tuo spirito era libero e gioviale. Intorno a te si innalzavano preghiere e canti allegri. Sembrava una festa. Abbiamo chiesto al tuo amico Gesù di accoglierti nelle verdi praterie del Paradiso, tra i santi e gli angeli, dove ora veglierai e pregherai per ciascuno di noi. E’ facile per noi vederti col poncho bianco, segno di resurrezione, che indossavi a Lourdes nella Pasqua del 1991. Vederti con le braccia allargate, al centro dell'altare, dirigere sorridente i nostri canti. Mi sei venuto in sogno, sorridevi come sempre quando incontravi un amico. Mi hai chiamato per nome. Mi hai detto: "Ora sono libero, sono felice, non ho più male, Gesù è bello. Fede e Luce, è bello. Mamma sa che sto bene. O.K, O.K. . Ci insegni ad amare e ad amarci tra di noi. Senza finzioni, senza ipocrisie. Ci inviti ad esprimerci nella gioia, nella semplicità. Grazie Chicco, nostro grande amico. **- La tua amica “Guia” (Monopoli)**
-
 
 ---
 

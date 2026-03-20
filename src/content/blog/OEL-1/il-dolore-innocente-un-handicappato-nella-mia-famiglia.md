@@ -1,5 +1,4 @@
 ---
-
 title: Il dolore innocente – Un handicappato nella mia famiglia
 date: 1983-03-02
 author: Redazione
@@ -25,21 +24,16 @@ subtitle: "Recensione del libro di Georges Hourdin, edizioni Cittadella, 1978"
 ---
 
 Gli Hourdin, cui la vita sembrava non dovesse rifiutare nulla, perdono in un incidente durante la guerra la figlia maggiore e si ritrovano bruscamente posti davanti al dolore dell’handicap mentale al momento della nascita di Marie-Anne, una bambina mongoloide. Georges Hourdin descrive, in uno stile semplice e pieno di sensibilità, la lunga battaglia condotta passo dopo passo con sua moglie ed alcuni amici, per far accogliere Marie- Anne nella comunità umana. Rivela gioie e dolori al ritmo dei suoi ricordi, e pone nello stesso tempo agli uomini alcune domande cruciali che tale sofferenza gli impone. Una sopra tutte: qual è l’ordine del mondo?
+
 **Online su**
-[Amazon](https://www.amazon.it/DOLORE-INNOCENTE-HANDICAPPATO-NELLA-FAMIGLIA/dp/B00P2H835K/ref=sr_1_6?s=books&ie=UTF8&qid=1508876463&sr=1-6&keywords=IL+DOLORE+INNOCENTE)
 
-#### Editoriale
+[Amazon](https://www.amazon.it/DOLORE-INNOCENTE-HANDICAPPATO-NELLA-FAMIGLIA/dp/B00P2H835K/ref=sr_1_6?s=books&ie=UTF8&qid=1508876463&sr=1-6&keywords=IL+DOLORE+INNOCENTE) Questo articolo è tratto da:
+**[Ombre e Luci n. 1, 1983](http://www.ombreeluci.it/project/numero-1-inverno-la-vita-affettiva-degli-handicappati-mentali/)**
 
-[Ombre e Luci?](http://www.ombreeluci.it/1983/01/27/ombre-e-luci/) di *Marie Hélène Mathieu* [Editoriale n.1](http://www.ombreeluci.it/1983/01/02/editoriale-n-1/)
-
-#### Articoli
-
-[L’esperienza della solitudine](http://www.ombreeluci.it/1983/01/27/lesperienza-della-solitudine/) di *Jacqueline e Henri Faivre* [Difficoltà loro o nostra?](http://www.ombreeluci.it/1983/02/27/difficolta-loro-o-nostra/) di *Henri Bissonier* [Ti aspetto sempre](http://www.ombreeluci.it/1983/01/27/a-proposito-della-vita-affettiva-dellhandicappato-mentale/) di *Jean Vanier* [Il Chicco: una casa per Fabio e Maria](http://www.ombreeluci.it/1983/02/17/il-chicco-una-casa-per-fabio-e-maria/) di *Anna Da e Guenda Malvezzi*
-
-#### Rubriche
-
-[Dialogo aperto](http://www.ombreeluci.it/1983/dialogo-aperto-n-1/) [Vita Fede e Luce](http://www.ombreeluci.it/1983/03/23/vita-fede-e-luce-n-1/)
-
-#### Libri
-
-[Il dolore innocente - Un handicappato nella mia famiglia](http://www.ombreeluci.it/1983/il-dolore-innocente-un-handicappato-nella-mia-famiglia/) , *G. Hourdin* [Darti la vita](http://www.ombreeluci.it/1983/darti-la-vita/) , *J. Carrette*
+**SOMMARIO** Editoriale [Ombre e Luci?](http://www.ombreeluci.it/1983/01/27/ombre-e-luci/) di _Marie Hélène Mathieu_
+[Editoriale n.1](http://www.ombreeluci.it/1983/01/02/editoriale-n-1/) Articoli [L’esperienza della solitudine](http://www.ombreeluci.it/1983/01/27/lesperienza-della-solitudine/) di _Jacqueline e Henri Faivre_
+[Difficoltà loro o nostra?](http://www.ombreeluci.it/1983/02/27/difficolta-loro-o-nostra/) di _Henri Bissonier_
+[Ti aspetto sempre](http://www.ombreeluci.it/1983/01/27/a-proposito-della-vita-affettiva-dellhandicappato-mentale/) di _Jean Vanier_
+[Il Chicco: una casa per Fabio e Maria](http://www.ombreeluci.it/1983/02/17/il-chicco-una-casa-per-fabio-e-maria/) di _Anna Da e Guenda Malvezzi_ Rubriche [Dialogo aperto](http://www.ombreeluci.it/1983/dialogo-aperto-n-1/)
+[Vita Fede e Luce](http://www.ombreeluci.it/1983/03/23/vita-fede-e-luce-n-1/) Libri [Il dolore innocente - Un handicappato nella mia famiglia](http://www.ombreeluci.it/1983/il-dolore-innocente-un-handicappato-nella-mia-famiglia/), _G. Hourdin_
+[Darti la vita](http://www.ombreeluci.it/1983/darti-la-vita/), _J. Carrette_

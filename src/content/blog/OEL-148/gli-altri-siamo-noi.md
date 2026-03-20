@@ -49,4 +49,8 @@ Siamo sempre stati ammirati dalle capacità di Dustin Hoffman in *Rain Man* , ma
 
 [La loro vita nei film](https://www.ombreeluci.it/1997/la-loro-vita-nei-film/) di M. Bertolini [Catalogo ragionato di film dedicati al tema della disabilità](https://www.ombreeluci.it/1997/catalogo-ragionato-di-film-dedicati-al-tema-della-disabilita/) a cura di Redazione [Non mi piace andare al cinema](https://www.ombreeluci.it/2019/non-mi-piace-andare-al-cinema/) di Benedetta Maffei [Recensione L'ottavo giorno](https://www.ombreeluci.it/1996/recensione-del-film-lottavo-giorno/) di Emanuele Kairos, la storia di un pugile "down" di Redazione [Recensione: La forma della voce](https://www.ombreeluci.it/2018/la-forma-della-voce/) di M. Cinti [Recensione: Willow vrba](https://www.ombreeluci.it/2019/willow-vrba/) di C. Cinus [Gli Oscar premiano la disabilità](https://www.ombreeluci.it/2018/gli-oscar-premiano-la-disabilita-miglior-corto-la-storia-bambina-sorda/)
 
-Hai visto un film che tratta questi argomenti? Hai voglia di raccontarlo? **[Scrivici](mailto:ombreeluci@gmail.com)** o **commenta** gli articoli per dire la tua.
+Hai visto un film che tratta questi argomenti? Hai voglia di raccontarlo?
+
+**[Scrivici](mailto:ombreeluci@gmail.com)**
+
+o **commenta** gli articoli per dire la tua.

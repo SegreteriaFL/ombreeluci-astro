@@ -31,7 +31,9 @@ Poi li porto a vedere l’Arco di Giano che è stato costruito nel quarto secolo
 
 L’ultimo giro lo faccio fare al tempio rotondo di Ercole, che è un altare dedicato all’eroe greco, e al tempio di Portuno che è di età repubblicana.
 
-**Io ho studiato tutte queste cose sui libri ma poi ci sono andata proprio di persona io stessa** perché il Velabro è vicino casa mia e in macchina ci metto pochissimo. Fino all’anno scorso poi, quando andavo a scuola all’Istituto alberghiero Gioberti nella sede di via dei Genovesi, ci passavo davanti tutte le mattine con la macchina. Ora invece vado nella sede di via della Paglia che è a Trastevere, in una zona molto bella, vicina a via dei Genovesi. Anche a Trastevere ho imparato bene ad accompagnare i turisti nella Basilica di Santa Maria in Trastevere e anche nella piazza con la fontana che sta davanti.
+**Io ho studiato tutte queste cose sui libri ma poi ci sono andata proprio di persona io stessa**
+
+perché il Velabro è vicino casa mia e in macchina ci metto pochissimo. Fino all’anno scorso poi, quando andavo a scuola all’Istituto alberghiero Gioberti nella sede di via dei Genovesi, ci passavo davanti tutte le mattine con la macchina. Ora invece vado nella sede di via della Paglia che è a Trastevere, in una zona molto bella, vicina a via dei Genovesi. Anche a Trastevere ho imparato bene ad accompagnare i turisti nella Basilica di Santa Maria in Trastevere e anche nella piazza con la fontana che sta davanti.
 
 ### [Il blog di Benedetta](https://www.ombreeluci.it/blog/)
 

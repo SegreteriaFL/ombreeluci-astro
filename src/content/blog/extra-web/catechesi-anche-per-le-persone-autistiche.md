@@ -1,5 +1,4 @@
 ---
-
 title: Catechesi anche per le persone autistiche
 date: 1996-09-22
 author: Henri Bissonier
@@ -24,7 +23,7 @@ Quando ebbe finito, una catechista prese timidamente la parola: «Scusi, profess
 
 Nella sua umiltà di vero scienziato il grande maestro riconosceva di avere scoperto in quel momento ciò che l’esperienza aveva rivelato a noi tutti impegnati nella catechesi dei giovani autistici; e cioè che essi possono ricevere – in particolare in campo religioso – molto di più di ciò che appare. Quando il velo si solleva anche per un solo istante, là dove sembrava non accadere niente, si intravede un mondo interiore di cui non si sospettava l’esistenza. A volte è soltanto una parola o un atteggiamento, ma quante cose dicono a chi, come noi, rifiuta di emettere giudizi a priori ed è aperto a tutto ciò che può accadere nel mistero!
 
-Ne è una prova, fra tante altre, ciò che Birger Sellin[nota]Persona autistica che dopo diciassette anni di mutismo patologico, grazie all'approccio della «comunicazione facilitata», ha rivelato la ricchezza della sua interiorità. Birger Sellin: [«Prigioniero di me stesso» Edizioni Boringhieri, 1995](https://www.amazon.it/Prigioniero-stesso-Viaggio-dentro-lautismo/dp/B072JH2R3N) .[/nota] un giorno ci insegnò e ci fece conoscere del suo mondo interiore, della sua «anima prigioniera», con gran stupore di chi lo conosceva. Nel libro che scrisse trovammo almeno una ventina di riferimenti religiosi. Erano paragrafi brevi, a volte ridotti a poche parole.
+Ne è una prova, fra tante altre, ciò che Birger Sellin[nota]Persona autistica che dopo diciassette anni di mutismo patologico, grazie all'approccio della «comunicazione facilitata», ha rivelato la ricchezza della sua interiorità. Birger Sellin: [«Prigioniero di me stesso» Edizioni Boringhieri, 1995](https://www.amazon.it/Prigioniero-stesso-Viaggio-dentro-lautismo/dp/B072JH2R3N).[/nota] un giorno ci insegnò e ci fece conoscere del suo mondo interiore, della sua «anima prigioniera», con gran stupore di chi lo conosceva. Nel libro che scrisse trovammo almeno una ventina di riferimenti religiosi. Erano paragrafi brevi, a volte ridotti a poche parole.
 
 Quanto avremmo desiderato di saper- ne di più! Certe parole esprimevano un dolore, una inquietudine che ci chiedeva una risposta e ci diceva che per Birger la dimensione religiosa era importante e che nelle profondità di se stesso egli si interrogava sulla sua relazione con Dio.
 
@@ -38,4 +37,50 @@ Giovanna ha quattordici anni. Nella scuola speciale dove vive è considerata un�
 
 (1) Persona autistica che dopo diciassette anni di mutismo patologico, grazie all'approccio della «comunicazione facilitata», ha rivelato la ricchezza della sua interiorità. Birger Sellin: «Prigioniero di me stesso» Edizioni Boringhieri, 1995.
 
-*– Henri Bissonier, 1996 (Ombres et Lumière n. 113) Il **Padre Henri Bissonier** è senza dubbio un’autorità nel campo della catechesi delle persone con handicap mentale. Ha scritto molti libri e articoli, ha insegnato in numerose università, ha fondato e diretto Movimenti nazionali e internazionali di persone con handicap. Ma non ha fatto solo teoria: provato, fin da bambino, nella malattia, a diciannove anni scopre, nei grandi sanatori delle Alpi, l'esclusione sociale e la desolazione spirituale del mondo dei malati. Fin dalla sua ordinazione nel 1935, impegna tutta la sua vita di sacerdote in una lotta quotidiana per la difesa dei diritti delle persone con handicap, per il riconoscimento della loro dignità, per il loro inserimento nella vita sociale e nella comunità cristiana. È stato il pioniere in Francia della catechesi delle persone handicappate entrando con tutta la forza della sua speranza e la sensibilità del suo cuore nel mondo triste e chiuso di un ospedale pubblico dove «vivevano» delle giovani e delle ragazze handicappate mentali. ### [Dossier Catechesi](https://www.ombreeluci.it/catechesi-e-disabilita/) Oggi le persone con handicap sono sempre di più integrate nella Chiesa. Ma quanti sforzi e quanta speranza sono ancora necessari affinché trovino il loro posto naturale nelle parrocchie e ricevano la vita di Dio ... [continua](https://www.ombreeluci.it/catechesi-e-disabilita/) #### Riflessioni [Al primo posto](https://www.ombreeluci.it/1991/al-primo-posto/) di *Stefano Desmazieres* [Pietre di paragone](https://www.ombreeluci.it/1987/la-persona-con-disabilita-come-fonte-di-unita-nella-chiesa/) di *Padre Joseph Mihelcic s.j.* [Abbiamo tutti bisogno dei sacramenti](https://www.ombreeluci.it/2008/tutti-bisogno-dei-sacramenti/) di *Padre Luciano Larivera* [La tua Parola è per tutti](https://www.ombreeluci.it/1998/la-tua-parola-tutti/) di *Lucia Bertolini* [Dio non fa differenze](https://www.ombreeluci.it/1995/dio-non-differenze/) di *Marie Hélène Mathieu* #### Percorsi [Catechesi anche per le persone autistiche](https://www.ombreeluci.it/1996/catechesi-anche-le-persone-autistiche/) di *Henri Bissonier* [Come preparare al sacramento](https://www.ombreeluci.it/1995/preparare-al-sacramento/) di *Paul Gilbert* [Confessione](https://www.ombreeluci.it/1994/confessione/) di *Tana Pelagallo* [Il nostro cammino](https://www.ombreeluci.it/1996/il-nostro-cammino/) di *Tommaso Bertolini* [Catechesi facilitata](https://www.ombreeluci.it/1998/catechesi-facilitata/) di *don* *Andrea Lonardo* [Come rendere viva la messa](https://www.ombreeluci.it/1992/rendere-viva-la-messa-unita/) di *Padre Noel Simard* #### Testimonianze [Temevo di non essere accettata come catechista](https://www.ombreeluci.it/1992/temevo-non-accettata-catechista/) di *Gaia Valmarin* [Vieni, spirito di vita](https://www.ombreeluci.it/1996/vieni-spirito-vita/) di *Silvia e Monica* [Ho camminato vicino a Marco](https://www.ombreeluci.it/2008/camminato-vicino-marco/) di *Roberta Tarantino* [La loro e la nostra cresima](https://www.ombreeluci.it/2008/la-la-nostra-cresima/) di *Pietro Vetro* [Tenendoci per mano](https://www.ombreeluci.it/1995/tenendoci-mano-cresima-insieme/) di *Luca Dominici* [...E aspettò che ci accorgessimo di lui](https://www.ombreeluci.it/1988/aspetto-ci-accorgessimo/) di *don Vito Palmisano* #### Altri dossier ### [Autismo](https://www.ombreeluci.it/autismo/) Chi ha avuto un figlio autistico, chi ha diviso la sua vita insieme ad un ragazzo con questo tipo di problemi, sa. Chi non ha vissuto questa esperienza non può sapere... [continua](https://www.ombreeluci.it/autismo/) ### [Noi Papà](https://www.ombreeluci.it/noi-papa-un-figlio-disabile/) Sono spesso criticati o presi in giro dalle mamme per la loro incompetenza nell’accudire un figlio appena nato; sono giudicati severamente dalle mogli più buone quando, invece di rimproverare, si fanno partecipi del chiasso o del disordine al momento di andare a tavola... [continua](https://www.ombreeluci.it/noi-papa-un-figlio-disabile/) *
+_– Henri Bissonier, 1996 (Ombres et Lumière n. 113)_
+
+Il **Padre Henri Bissonier** è senza dubbio un’autorità nel campo della catechesi delle persone con handicap mentale.
+Ha scritto molti libri e articoli, ha insegnato in numerose università, ha fondato e diretto Movimenti nazionali e internazionali di persone con handicap.
+Ma non ha fatto solo teoria: provato, fin da bambino, nella malattia, a diciannove anni scopre, nei grandi sanatori delle Alpi, l'esclusione sociale e la desolazione spirituale del mondo dei malati.
+Fin dalla sua ordinazione nel 1935, impegna tutta la sua vita di sacerdote in una lotta quotidiana per la difesa dei diritti delle persone con handicap, per il riconoscimento della loro dignità, per il loro inserimento nella vita sociale e nella comunità cristiana.
+È __ stato il pioniere in Francia della catechesi delle persone handicappate entrando con tutta la forza della sua speranza e la sensibilità del suo cuore nel mondo triste e chiuso di un ospedale pubblico dove «vivevano» delle giovani e delle ragazze handicappate mentali.
+
+### [Dossier Catechesi](https://www.ombreeluci.it/catechesi-e-disabilita/)
+
+Oggi le persone con handicap sono sempre di più integrate nella Chiesa. Ma quanti sforzi e quanta speranza sono ancora necessari affinché trovino il loro posto naturale nelle parrocchie e ricevano la vita di Dio... [continua](https://www.ombreeluci.it/catechesi-e-disabilita/)
+
+#### Riflessioni
+
+[Al primo posto](https://www.ombreeluci.it/1991/al-primo-posto/) di _Stefano Desmazieres_
+[Pietre di paragone](https://www.ombreeluci.it/1987/la-persona-con-disabilita-come-fonte-di-unita-nella-chiesa/) di _Padre Joseph Mihelcic s.j._
+[Abbiamo tutti bisogno dei sacramenti](https://www.ombreeluci.it/2008/tutti-bisogno-dei-sacramenti/) di _Padre Luciano Larivera_
+[La tua Parola è per tutti](https://www.ombreeluci.it/1998/la-tua-parola-tutti/) di _Lucia Bertolini_
+[Dio non fa differenze](https://www.ombreeluci.it/1995/dio-non-differenze/) di _Marie Hélène Mathieu_
+
+#### Percorsi
+
+[Catechesi anche per le persone autistiche](https://www.ombreeluci.it/1996/catechesi-anche-le-persone-autistiche/) di _Henri Bissonier_
+[Come preparare al sacramento](https://www.ombreeluci.it/1995/preparare-al-sacramento/) di _Paul Gilbert_
+[Confessione](https://www.ombreeluci.it/1994/confessione/) di _Tana Pelagallo_
+[Il nostro cammino](https://www.ombreeluci.it/1996/il-nostro-cammino/) di _Tommaso Bertolini_
+[Catechesi facilitata](https://www.ombreeluci.it/1998/catechesi-facilitata/) di _don_ _Andrea Lonardo_
+[Come rendere viva la messa](https://www.ombreeluci.it/1992/rendere-viva-la-messa-unita/) di _Padre Noel Simard_
+
+#### Testimonianze
+
+[Temevo di non essere accettata come catechista](https://www.ombreeluci.it/1992/temevo-non-accettata-catechista/) di _Gaia Valmarin_
+[Vieni, spirito di vita](https://www.ombreeluci.it/1996/vieni-spirito-vita/) di _Silvia e Monica_
+[Ho camminato vicino a Marco](https://www.ombreeluci.it/2008/camminato-vicino-marco/) di _Roberta Tarantino_
+[La loro e la nostra cresima](https://www.ombreeluci.it/2008/la-la-nostra-cresima/) di _Pietro Vetro_
+[Tenendoci per mano](https://www.ombreeluci.it/1995/tenendoci-mano-cresima-insieme/) di _Luca Dominici_
+[...E aspettò che ci accorgessimo di lui](https://www.ombreeluci.it/1988/aspetto-ci-accorgessimo/) di _don Vito Palmisano_
+
+#### Altri dossier
+
+### [Autismo](https://www.ombreeluci.it/autismo/)
+
+Chi ha avuto un figlio autistico, chi ha diviso la sua vita insieme ad un ragazzo con questo tipo di problemi, sa. Chi non ha vissuto questa esperienza non può sapere... [continua](https://www.ombreeluci.it/autismo/)
+
+### [Noi Papà](https://www.ombreeluci.it/noi-papa-un-figlio-disabile/)
+
+Sono spesso criticati o presi in giro dalle mamme per la loro incompetenza nell’accudire un figlio appena nato; sono giudicati severamente dalle mogli più buone quando, invece di rimproverare, si fanno partecipi del chiasso o del disordine al momento di andare a tavola... [continua](https://www.ombreeluci.it/noi-papa-un-figlio-disabile/)

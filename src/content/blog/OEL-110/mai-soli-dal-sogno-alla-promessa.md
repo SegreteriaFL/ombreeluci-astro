@@ -67,4 +67,6 @@ Resta comunque indispensabile, per l’implementazione del progetto, l’esisten
 
 *Elisabetta De Rino* , 2010
 
-**Bibliografia** *Una vita tra le dita* - Giancarlo Ferrari Ed. Nuovi Autori *E la luna mi guardò* - Giancarlo Ferrari Ed. Elena Morea *Storia di un filo d’erba* - Marisa Bettassa Ed. Vento Sociale *Come...volare alto* - Roberta Bertellino, Marisa Bettassa, Giancarlo Ferrari
+**Bibliografia**
+
+*Una vita tra le dita* - Giancarlo Ferrari Ed. Nuovi Autori *E la luna mi guardò* - Giancarlo Ferrari Ed. Elena Morea *Storia di un filo d’erba* - Marisa Bettassa Ed. Vento Sociale *Come...volare alto* - Roberta Bertellino, Marisa Bettassa, Giancarlo Ferrari

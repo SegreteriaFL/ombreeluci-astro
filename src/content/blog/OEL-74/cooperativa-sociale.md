@@ -1,5 +1,4 @@
 ---
-
 title: Cooperativa sociale
 date: 2001-06-20
 author: Antonio Mazzarotto
@@ -22,43 +21,47 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Abbiamo chiesto ad un esperto in materia di spiegarci cosa sono, di cosa si occupano e come funzionano le cooperative sociali"
 ---
 
-**Avviso** Questo articolo è stato scritto nel 2001. Le informazioni in esso contenute potrebbero essere anacronistiche o non più valide. (n.d.r.)
+**Avviso**
+Questo articolo è stato scritto nel 2001. Le informazioni in esso contenute potrebbero essere anacronistiche o non più valide. (n.d.r.) Le **Cooperative Sociali** sono imprese che operano con finalità di promozione sociale e di sviluppo nella società, ma sono imprese a tutti gli effetti.
+Esse offrono servizi ed attuano inserimenti lavorativi di soggetti svantaggiati in strutture con caratteristiche imprenditoriali, sviluppando professionalità spendibili sul mercato.
 
-Le **Cooperative Sociali** sono imprese che operano con finalità di promozione sociale e di sviluppo nella società, ma sono imprese a tutti gli effetti. Esse offrono servizi ed attuano inserimenti lavorativi di soggetti svantaggiati in strutture con caratteristiche imprenditoriali, sviluppando professionalità spendibili sul mercato.
+**La legge 381 del 1991**
 
-**La legge 381 del 1991** ha riconosciuto la categoria delle cooperative sociali individuando nelle stesse uno strumento idoneo per il perseguimento di finalità sociali e di promozione umana (da realizzare attraverso la gestione di servizi sociosanitari, educativi e di attività attraverso le quali permettere l'integrazione lavorativa di persone svantaggiate).
+ha riconosciuto la categoria delle cooperative sociali individuando nelle stesse uno strumento idoneo per il perseguimento di finalità sociali e di promozione umana (da realizzare attraverso la gestione di servizi sociosanitari, educativi e di attività attraverso le quali permettere l'integrazione lavorativa di persone svantaggiate). Possono essere suddivise in due grandi categorie:
 
-Possono essere suddivise in due grandi categorie:
+ 1.
 
-- **le cooperative c.d. di tipo A** che svolgono attività di gestione di servizi socio sanitari ed educativi e i cui soci sono normalmente gli operatori che erogano i servizi stessi; - **le cooperative c.d. di tipo B** che svolgono attività diverse di produzione di beni e servizi, finalizzate all’inserimento lavorativo di persone svantaggiate (disabili, disagiati psichici, tossicodipendenti, carcerati, alcolisti, minori a rischio, ecc.). Tra i settori di intervento si possono citare in particolare:
-- **la produzione di articoli artigiananali** (ceramica, legno, vetro, cuoio, cartotecnica...); - **l’erogazione dei servizi** quali la manutenzione del verde, le pulizie, il facchinaggio, la tipografia e serigrafia.
+**le cooperative c.d. di tipo A**
 
-**Sul piano sociale, le cooperative B** si sono conquistate un ruolo come strumento privilegiato e specialistico per l’inserimento lavorativo di soggetti svantaggiati, come soggetto in grado di svolgere una formazione professionale sul campo e lavorare per una piena integrazione sociale delle persone in difficoltà restituendo loro dignità e cittadinanza attiva.
+che svolgono attività di gestione di servizi socio sanitari ed educativi e i cui soci sono normalmente gli operatori che erogano i servizi stessi;
+ 2.
 
-In generale le cooperative sociali si riconoscono in alcuni principi cardine ed adottano comportamenti, regole ed una modalità di lavoro che le distingue dalle imprese ordinarie:
+**le cooperative c.d. di tipo B**
 
-- la **democrazia interna** : ogni socio della cooperativa ha diritto ad un voto indipendentemente dalla quota di capitale versata; - la **porta aperta** : è possibile far entrare nuovi soci senza modifiche statuarie; - la **mutualità** : le cooperative sociali perseguono in via prioritaria l’interesse della comunità, della collettività e del territorio in cui operano.
+che svolgono attività diverse di produzione di beni e servizi, finalizzate all’inserimento lavorativo di persone svantaggiate (disabili, disagiati psichici, tossicodipendenti, carcerati, alcolisti, minori a rischio, ecc.). Tra i settori di intervento si possono citare in particolare:
 
-Per lo svolgimento delle attività è prevista, per le cooperative, la possibilità di utilizzo di soci volontari che, in numero non superiore a quella della metà dei soci prestino gratuitamente la loro attività all’interno della cooperativa.
+ * **la produzione di articoli artigiananali** (ceramica, legno, vetro, cuoio, cartotecnica...);
+ * **l’erogazione dei servizi** quali la manutenzione del verde, le pulizie, il facchinaggio, la tipografia e serigrafia.
 
-Sia nel caso in cui erogano servizi socio-sanitari ed educativi, sia nel caso in cui sono finalizzate all'inserimento lavorativo, le cooperative sociali forniscono servizi relazionali, che poggiano sull’interazione di utenti; soci volontari e soci lavoratori, coniugando logiche imprenditoriali e spirito solidaristico.
+**Sul piano sociale, le cooperative B**
 
-- **Antonio Marzarotto** , 2001
+si sono conquistate un ruolo come strumento privilegiato e specialistico per l’inserimento lavorativo di soggetti svantaggiati, come soggetto in grado di svolgere una formazione professionale sul campo e lavorare per una piena integrazione sociale delle persone in difficoltà restituendo loro dignità e cittadinanza attiva. In generale le cooperative sociali si riconoscono in alcuni principi cardine ed adottano comportamenti, regole ed una modalità di lavoro che le distingue dalle imprese ordinarie:
 
- [La presenza dei piccoli](https://www.ombreeluci.it/2001/la-presenza-dei-piu-piccoli/) di Mariangela Bertolini
+ * la **democrazia interna** : ogni socio della cooperativa ha diritto ad un voto indipendentemente dalla quota di capitale versata;
+ * la **porta aperta** : è possibile far entrare nuovi soci senza modifiche statuarie;
+ * la **mutualità** : le cooperative sociali perseguono in via prioritaria l’interesse della comunità, della collettività e del territorio in cui operano.
 
-#### [Il lavoro](https://www.ombreeluci.it/2020/il-lavoro/)
-
-[Cooperativa sociale](https://www.ombreeluci.it/2001/cooperativa-sociale/) di A. Mazzarotto [Una cooperativa sul mare Produzione di alta qualità](https://www.ombreeluci.it/2001/una-cooperativa-sul-mare/) a cura della redazione [Spazio aperto](https://www.ombreeluci.it/2001/spazio-aperto-una-cooperativa-di-servizi/) di V. Paoli [Il mio amico Carlo](https://www.ombreeluci.it/2001/il-mio-amico-carlo/) di Beatrice (Trixi) Pezzoli
-
-#### Quella terza preziosa età
-
-[Quella preziosa terza età](https://www.ombreeluci.it/2001/quella-terza-preziosa-eta/) di V. P. In casa di riposo con «Ombre e Luci» di V. P. [Zio Giorgio](https://www.ombreeluci.it/2001/zio-giorgio/) di Nicole Schulthes [Mantenere viva la giovinezza del cuore](https://www.ombreeluci.it/2001/mantenere-viva-la-giovinezza-nel-cuore/) di Marie Baptiste [«Sto invecchiando»](https://www.ombreeluci.it/2001/sto-invecchiando/) Preghiera antica
-
-#### Altri articoli
-
-[Progetto Calamaio](https://www.ombreeluci.it/2001/progetto-calamaio/)
-
-#### Rubriche
-
-[Dialogo aperto](https://www.ombreeluci.it/2001/dialogo-aperto-n-74/) Libri [Non c’è persona più ricca di me](https://www.ombreeluci.it/2001/non-ce-persona-piu-ricca-di-me-recensione-libro/) , Carla Porrati [Il piano educativo riabilitativo individualizzato per il disabile mentale adulto](https://www.ombreeluci.it/2001/il-piano-educativo-riabilitativo-individualizzato-per-il-disabile-mentale-adulto/) , Vittore Mariani [La forza dei carattere](https://www.ombreeluci.it/2001/la-forza-del-carattere-recensione-libro/) , James Hillman
+Per lo svolgimento delle attività è prevista, per le cooperative, la possibilità di utilizzo di soci volontari che, in numero non superiore a quella della metà dei soci prestino gratuitamente la loro attività all’interno della cooperativa. Sia nel caso in cui erogano servizi socio-sanitari ed educativi, sia nel caso in cui sono finalizzate all'inserimento lavorativo, le cooperative sociali forniscono servizi relazionali, che poggiano sull’interazione di utenti; soci volontari e soci lavoratori, coniugando logiche imprenditoriali e spirito solidaristico. \- **Antonio Marzarotto** , 2001Questo articolo è tratto da
+[Ombre e Luci n.](https://www.ombreeluci.it/project/numero-74-invecchiando-rivelo-il-mio-carattere "Ombre e Luci n.74") [](https://www.ombreeluci.it/project/numero-74-invecchiando-rivelo-il-mio-carattere "Ombre e Luci n.74") **Sommario**
+[La presenza dei piccoli](https://www.ombreeluci.it/2001/la-presenza-dei-piu-piccoli/ "La presenza dei piccoli") di Mariangela Bertolini [Il lavoro](https://www.ombreeluci.it/2020/il-lavoro/ "Il lavoro per le persone con disabilità mentale") [Cooperativa sociale](https://www.ombreeluci.it/2001/cooperativa-sociale/ "Cooperativa sociale") di A. Mazzarotto
+[Una cooperativa sul mare Produzione di alta qualità](https://www.ombreeluci.it/2001/una-cooperativa-sul-mare/ "Produzione di alta qualità") a cura della redazione
+[Spazio aperto](https://www.ombreeluci.it/2001/spazio-aperto-una-cooperativa-di-servizi/ "Spazio aperto") di V. Paoli
+[Il mio amico Carlo](https://www.ombreeluci.it/2001/il-mio-amico-carlo/ "Il mio amico Carlo") di Beatrice (Trixi) Pezzoli Quella terza preziosa età [Quella preziosa terza età](https://www.ombreeluci.it/2001/quella-terza-preziosa-eta/ "Quella preziosa terza età") di V. P.
+In casa di riposo con «Ombre e Luci» di V. P.
+[Zio Giorgio](https://www.ombreeluci.it/2001/zio-giorgio/ "Zio Giorgio") di Nicole Schulthes
+[Mantenere viva la giovinezza del cuore](https://www.ombreeluci.it/2001/mantenere-viva-la-giovinezza-nel-cuore/ "Mantenere viva la giovinezza del cuore") di Marie Baptiste
+[«Sto invecchiando»](https://www.ombreeluci.it/2001/sto-invecchiando/ "Sto invecchiando") Preghiera antica Altri articoli [Progetto Calamaio](https://www.ombreeluci.it/2001/progetto-calamaio/ "Progetto Calamaio") Rubriche [Dialogo aperto](https://www.ombreeluci.it/2001/dialogo-aperto-n-74/ "Dialogo aperto")
+Libri
+[Non c’è persona più ricca di me](https://www.ombreeluci.it/2001/non-ce-persona-piu-ricca-di-me-recensione-libro/ "Non c’è persona più ricca di me"), Carla Porrati
+[Il piano educativo riabilitativo individualizzato per il disabile mentale adulto](https://www.ombreeluci.it/2001/il-piano-educativo-riabilitativo-individualizzato-per-il-disabile-mentale-adulto/ "Il piano educativo riabilitativo individualizzato per il disabile mentale adulto"), Vittore Mariani
+[La forza dei carattere](https://www.ombreeluci.it/2001/la-forza-del-carattere-recensione-libro/ "La forza dei carattere"), James Hillman

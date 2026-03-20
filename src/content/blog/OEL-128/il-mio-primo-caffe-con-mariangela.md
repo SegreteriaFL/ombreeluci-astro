@@ -1,5 +1,4 @@
 ---
-
 title: "Il mio primo caffè con Mariangela"
 date: "2014-12-15"
 author: "Giusy Nocca"
@@ -19,10 +18,6 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Uno dei ricordi più cari che ho di Mariangela risale al mio primo campo: Alfedena 1982"
 ---
 
-Uno dei ricordi più cari che ho di Mariangela risale al mio primo campo: Alfedena 1982. Avevo 15 anni, conoscevo appena gli amici presenti e conoscevo pochissimo Maria, la bimba che avevo in “affidamento in seconda” insieme ad Anne. Ricordo che nei primi giorni ho faticato abbastanza a capire cosa dovessi fare, poi un giorno capitò (non so se casualmente o meno) un turno in cucina con Mariangela nel quale, ovviamente, io fui ancora più impacciata del solito.
-
-Ad un tratto lei mi chiese di preparare il caffè, io non ne ero capace e lei un po’ tranquillamente e un po’ prendendomi in giro bonariamente, si mise a spiegarmi: “Metti l’acqua fino a metà della valvola e il caffè fino a riempire ma senza pigiare” e voilà il caffè era pronto e buono! Ma soprattutto avevo trovato un compito che potevo svolgere e, da quel momento in poi, fu tutto più facile.
-
-Quel giorno Mariangela non mi ha insegnato solo a fare il caffè ma mi ha accolto perdendo del tempo con me, condividendo qualcosa ed assegnandomi un incarico che ero in grado di eseguire......e questi sono insegnamenti che ti restano nel cuore per sempre. Grazie Mariangela!
-
-*Giusy Nocca*, 2014
+Uno dei ricordi più cari che ho di Mariangela risale al mio primo campo: Alfedena 1982. Avevo 15 anni, conoscevo appena gli amici presenti e conoscevo pochissimo Maria, la bimba che avevo in “affidamento in seconda” insieme ad Anne. Ricordo che nei primi giorni ho faticato abbastanza a capire cosa dovessi fare, poi un giorno capitò (non so se casualmente o meno) un turno in cucina con Mariangela nel quale, ovviamente, io fui ancora più impacciata del solito. Ad un tratto lei mi chiese di preparare il caffè, io non ne ero capace e lei un po’ tranquillamente e un po’ prendendomi in giro bonariamente, si mise a spiegarmi: “Metti l’acqua fino a metà della valvola e il caffè fino a riempire ma senza pigiare” e voilà il caffè era pronto e buono! Ma soprattutto avevo trovato un compito che potevo svolgere e, da quel momento in poi, fu tutto più facile. Quel giorno Mariangela non mi ha insegnato solo a fare il caffè ma mi ha accolto perdendo del tempo con me, condividendo qualcosa ed assegnandomi un incarico che ero in grado di eseguire......e questi sono insegnamenti che ti restano nel cuore per sempre. Grazie Mariangela! _Giusy Nocca_ , 2014Questo articolo è tratto da
+[Ombre e Luci n.128](https://www.ombreeluci.it/project/numero-128-magnificat/ "Ombre e Luci n.128")
+[](https://www.ombreeluci.it/project/numero-128-magnificat/ "Ombre e Luci n.128")

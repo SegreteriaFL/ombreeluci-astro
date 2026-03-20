@@ -31,8 +31,6 @@ Nel numero
 [Il Germoglio](https://www.fedeeluce.it/project/il-germoglio/)
 ).
 
-
-
 ---
 
 ### “A casa mia starei meglio”

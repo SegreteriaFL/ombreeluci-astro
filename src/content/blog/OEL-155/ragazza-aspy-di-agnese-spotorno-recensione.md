@@ -15,4 +15,52 @@ issue_number: OEL-155
 id_numero: "OEL-155"
 numero_rivista: "Ombre e Luci"
 ---
-Un’adolescente dialoga con la sua ombra. Dapprima non la sopporta, ma poi, col tempo, **impara a conviverci e a recepire, grazie a essa, che «nessuno di noi è uguale a un altro»** e che ognuno è unico a modo suo. È questo il libro che Agnese Spotorno ha scritto per raccontare se stessa: la famiglia, la scuola, gli scout, Genova, lo sport, il mare della Corsica e sì, l’ *ombra* dello spettro autistico che amplifica qualsiasi emozione («Io sento più degli altri: è come avere orecchie giganti, ma sul cuore») e porta a «essere giudicati con una certa frequenza» da **quel mondo che non riesce a percepire la profondità delle cose.** Pagina dopo pagina, si ha dunque la possibilità di entrare nell’universo dell’autrice (a conclusione del volume, presente il *Glossario di Agnese* ), che oggi frequenta le scuole superiori e ha raggiunto, nonostante le difficoltà e molto probabilmente l’incredulità di quel “mondo altro”, tanti risultati. Primo tra tutti – lo si accennava – aver capito che la compagna di viaggio che l’ombra è, equivale a possedere «un grande patrimonio». **Diversità è ricchezza. ### Ragazza Aspy - Come vorrei che il mondo ci capisse **Autore** : Agnese Spotorno **Editore:** Erickson **Pubblicato:** Marzo 2021 **Pagine:** 96 **Prezzo:** 12€ **ISBN:** 9788859025658 *Editoriale* ** ** [**Sogni per niente speciali**](https://www.ombreeluci.it/2021/sogni-per-niente-speciali/) di Cristina Tersigni *Focus: Lavoro* [**Mi sento grande**](https://www.ombreeluci.it/2021/mi-sento-grande/) di Silvia Freschi ** [Dietro le quinte di un'assunzione](https://www.ombreeluci.it/2021/dietro-le-quinte-di-unassunzione/)** di Cristina Tersigni ** [Diario di Efrem lavoratore](https://www.ombreeluci.it/2021/diario-di-efrem-lavoratore/)** di Efrem Sardella *Intervista* [**Quarantadue chilometri tra Bellizzi e New York**](https://www.ombreeluci.it/2021/quarantadue-chilometri-tra-bellizzi-e-new-york/) di Enrica Riera *Testimonianza* [**Quel regalo immenso chiamato vaccino**](https://www.ombreeluci.it/2021/quel-regalo-immenso-chiamato-vaccino/) di Isabella Corsini *Associazioni* **Stasera milonga?** di Cristina Tersigni *Dall'archivio* **Per un lavoro umano** di Maria Teresa Cabras *Fede e Luce* **Un fiume lungo quanto il Mediterraneo** di Liliana Ghiringhelli *Spettacoli* [**Sentire la fine del mondo**](https://www.ombreeluci.it/2021/sentire-la-fine-del-mondo/) di Claudio Cinus **Dialogo Aperto ** *Libri* **E questo è niente** di Michele Cecchini ** [Ragazza Aspy](https://www.ombreeluci.it/2021/ragazza-aspy-di-agnese-spotorno-recensione/)** di Agnese Spotorno ** [I ragazzi della via Pascoli](https://www.ombreeluci.it/2021/i-ragazzi-della-via-pascoli-recensione/)** di Pino Roveredo ** Frammenti di solitudine** di Riccardo Sollini *Diari* **Perché il mare non è sempre lo stesso?** di Benedetta Mattei **Visita a Roccamonfina** di Giovanni Grossi **
+
+Un’adolescente dialoga con la sua ombra. Dapprima non la sopporta, ma poi, col tempo,**impara a conviverci e a recepire, grazie a essa, che «nessuno di noi è uguale a un altro»** e che ognuno è unico a modo suo. È questo il libro che Agnese Spotorno ha scritto per raccontare se stessa: la famiglia, la scuola, gli scout, Genova, lo sport, il mare della Corsica e sì, l’ _ombra_ dello spettro autistico che amplifica qualsiasi emozione («Io sento più degli altri: è come avere orecchie giganti, ma sul cuore») e porta a «essere giudicati con una certa frequenza» da **quel mondo che non riesce a percepire la profondità delle cose.** Pagina dopo pagina, si ha dunque la possibilità di entrare nell’universo dell’autrice (a conclusione del volume, presente il _Glossario di Agnese_), che oggi frequenta le scuole superiori e ha raggiunto, nonostante le difficoltà e molto probabilmente l’incredulità di quel “mondo altro”, tanti risultati. Primo tra tutti – lo si accennava – aver capito che la compagna di viaggio che l’ombra è, equivale a possedere «un grande patrimonio».**Diversità è ricchezza.** Ragazza Aspy - Come vorrei che il mondo ci capisse **Autore** : Agnese Spotorno
+**Editore:**
+
+Erickson
+**Pubblicato:**
+
+Marzo 2021
+**Pagine:**
+
+96
+**Prezzo:**
+
+12€
+**ISBN:**
+
+9788859025658 Questo articolo è tratto da
+[**Ombre e Luci n. 155, 2021**](https://www.ombreeluci.it/project/numero-155-lavoro/) [](https://www.ombreeluci.it/project/numero-155-lavoro/) **SOMMARIO** _Editoriale_**
+**[**Sogni per niente speciali**](https://www.ombreeluci.it/2021/sogni-per-niente-speciali/)di Cristina Tersigni _Focus: Lavoro_
+[**Mi sento grande**](https://www.ombreeluci.it/2021/mi-sento-grande/)di Silvia Freschi**
+[Dietro le quinte di un'assunzione](https://www.ombreeluci.it/2021/dietro-le-quinte-di-unassunzione/)** di Cristina Tersigni**
+[Diario di Efrem lavoratore](https://www.ombreeluci.it/2021/diario-di-efrem-lavoratore/)** di Efrem Sardella _Intervista_
+[**Quarantadue chilometri tra Bellizzi e New York**](https://www.ombreeluci.it/2021/quarantadue-chilometri-tra-bellizzi-e-new-york/) di Enrica Riera _Testimonianza_
+[**Quel regalo immenso chiamato vaccino**](https://www.ombreeluci.it/2021/quel-regalo-immenso-chiamato-vaccino/) di Isabella Corsini _Associazioni_
+**Stasera milonga?**
+
+di Cristina Tersigni _Dall'archivio_
+**Per un lavoro umano**
+
+di Maria Teresa Cabras _Fede e Luce_
+**Un fiume lungo quanto il Mediterraneo**
+
+di Liliana Ghiringhelli _Spettacoli_
+[**Sentire la fine del mondo**](https://www.ombreeluci.it/2021/sentire-la-fine-del-mondo/) di Claudio Cinus **Dialogo Aperto
+** _Libri_
+**E questo è niente**
+
+di Michele Cecchini**
+[Ragazza Aspy](https://www.ombreeluci.it/2021/ragazza-aspy-di-agnese-spotorno-recensione/)** di Agnese Spotorno**
+[I ragazzi della via Pascoli](https://www.ombreeluci.it/2021/i-ragazzi-della-via-pascoli-recensione/)** di Pino Roveredo**
+Frammenti di solitudine** di Riccardo Sollini _Diari_
+**Perché il mare non è sempre lo stesso?**
+
+di Benedetta Mattei
+**Visita a Roccamonfina**
+
+di Giovanni Grossi**Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

@@ -29,7 +29,6 @@ Forse qualche notizia su di lei può aiutare chi non la conosce a capire meglio 
 *Tutti si sentono impotenti di fronte a questo problema. Ombre e Luci ha cercato di parlarne nel [numero 49 del 1995](http://www.ombreeluci.it/project/numero-49-vita-affettiva-e-sessuale-questo-bisogno-cosi-forte-di-amare-e-di-essere-amati/) . Siamo sempre pronti ad accogliere testimonianze e articoli che possano aiutare a continuare questa riflessione su un argomento che ci interpella profondamente.*
 Mandateci foto che sentite ricche di significato. Ci aiuterete a migliorare Ombre e Luci
 
-
 ---
 
 ### Un esempio da seguire

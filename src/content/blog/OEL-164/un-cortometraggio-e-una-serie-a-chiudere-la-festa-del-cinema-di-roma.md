@@ -33,4 +33,6 @@ Ma non è solo *Unfitting* alla Festa del Cinema di Roma, conclusasi il 29 ottob
 
 Dunque, i temi affrontati dai film presentati quest’anno nelle varie sezioni della Festa si inseriscono proprio in tale percorso: quello della **sensibilizzazione verso un mondo meno ipocrita e più aperto all’altro e agli altri.** Verso un mondo che sappia riconoscere le fragilità e prendersene cura.
 
-**Ombre e Luci è anche una newsletter** Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .
+**Ombre e Luci è anche una newsletter**
+
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .

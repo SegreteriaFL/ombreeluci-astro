@@ -1,5 +1,4 @@
 ---
-
 title: Declinazioni di speranza
 date: 2022-12-15
 author: Cristina Tersigni
@@ -19,32 +18,45 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Con la speranza si può avere fiducia, vivere in comunione e in pace, camminare - e pedalare - insieme."
 ---
 
-Qualche anno fa qualcuno ebbe l’idea di candidare la bicicletta al Nobel per la pace in quanto mezzo democratico, che non inquina, non causa guerre e favorisce la crescita di persone e comunità. Un oggetto, però, non può essere candidabile a quell’onorificenza e i promotori indicarono la federazione femminile di ciclismo afgana (di cui purtroppo non abbiamo più notizie aggiornate) per incarnarlo. L’idea, per niente peregrina, non portò a quanto sperato ma poneva l’accento su quanto la bicicletta trasmetta e parli di libertà. Dimensione essenziale tanto insita in quel mezzo che non sono mancate innovative modifiche per incrementarne l’accessibilità anche a diverse condizioni di disabilità.
+Qualche anno fa qualcuno ebbe l’idea di candidare la bicicletta al Nobel per la pace in quanto mezzo democratico, che non inquina, non causa guerre e favorisce la crescita di persone e comunità. Un oggetto, però, non può essere candidabile a quell’onorificenza e i promotori indicarono la federazione femminile di ciclismo afgana (di cui purtroppo non abbiamo più notizie aggiornate) per incarnarlo. L’idea, per niente peregrina, non portò a quanto sperato ma poneva l’accento su quanto la bicicletta trasmetta e parli di libertà. Dimensione essenziale tanto insita in quel mezzo che non sono mancate innovative modifiche per incrementarne l’accessibilità anche a diverse condizioni di disabilità. Ne abbiamo avuto prova all’arrivo a Roma del viaggio di alcuni componenti della [comunità dell’Arche di Bologna, L’Arcobaleno](http://www.larchebologna.it/), la cui impresa (di cui leggerete nel Focus) ha dato spunto e voglia di approfondire le possibilità e le grandi, gioiose soddisfazioni che bicicletta o tandem possono offrire veramente a tutti. Guardare il mondo attraverso le ruote (anche della sedia di un modello della Barbie, come vedrete) può davvero cambiare quel mondo! Piccole cose nel cupo mare che circonda questi mesi? Sicuramente. Tanti anni fa Mariangela Bertolini su _Insieme_ (lo troverete ripubblicato in Archivio, scrigno di contenuti passati ma sempre di grande ispirazione) ricordava che la speranza, così essenziale per la nostra vita (e scelta da Papa Francesco da guida per il Giubileo del 2025) è fiamma che, pur nella sua piccolezza, rimane capace di diradare il buio, soprattutto quello che ognuno di noi porta dentro. E che rende possibile aver fiducia, vivere in comunione e in pace, camminare – e, perché no, pedalare! – insieme. Questo il nostro augurio per voi, cari lettori: possiate accogliere e far brillare piccole potenti fiammelle di speranza per il Natale, memoria di quella Speranza che, un giorno di duemila anni fa e da allora ogni giorno, si è fatta e si fa Bambino per noi.Questo articolo è tratto da
+[**Ombre e Luci n. 160, 2022**](https://www.ombreeluci.it/project/numero-160-ruote-nuove-su-occhi-nuovi/) **SOMMARIO** _Editoriale_
+[**Declinazioni di speranza**](https://www.ombreeluci.it/2022/declinazioni-di-speranza/) di _Cristina Tersigni_ _Focus: Per pedalare tutti_
+[**Otto giorni per vent’anni**](https://www.ombreeluci.it/2023/otto-giorni-per-ventanni/)di _Cristina Tersigni_
+**Tandem in Trentino**
 
-Ne abbiamo avuto prova all’arrivo a Roma del viaggio di alcuni componenti della [comunità dell’Arche di Bologna, L’Arcobaleno](http://www.larchebologna.it/) , la cui impresa (di cui leggerete nel Focus) ha dato spunto e voglia di approfondire le possibilità e le grandi, gioiose soddisfazioni che bicicletta o tandem possono offrire veramente a tutti. Guardare il mondo attraverso le ruote (anche della sedia di un modello della Barbie, come vedrete) può davvero cambiare quel mondo!
+di _Andrea Posa_
+**Invertire gli addendi**
 
-Piccole cose nel cupo mare che circonda questi mesi? Sicuramente. Tanti anni fa Mariangela Bertolini su *Insieme* (lo troverete ripubblicato in Archivio, scrigno di contenuti passati ma sempre di grande ispirazione) ricordava che la speranza, così essenziale per la nostra vita (e scelta da Papa Francesco da guida per il Giubileo del 2025) è fiamma che, pur nella sua piccolezza, rimane capace di diradare il buio, soprattutto quello che ognuno di noi porta dentro.
+di _Cristina Tersigni_
+**Bari scintillante**
 
-E che rende possibile aver fiducia, vivere in comunione e in pace, camminare – e, perché no, pedalare! – insieme. Questo il nostro augurio per voi, cari lettori: possiate accogliere e far brillare piccole potenti fiammelle di speranza per il Natale, memoria di quella Speranza che, un giorno di duemila anni fa e da allora ogni giorno, si è fatta e si fa Bambino per noi.
+di _Cristina Tersigni_
+**«Ce l’abbiamo fatta!»**
 
-*Editoriale* [**Declinazioni di speranza**](https://www.ombreeluci.it/2022/declinazioni-di-speranza/) di *Cristina Tersigni*
+di _Giampaolo Mattei_ _Intervista
+_[**Alberta e la Rivoluzione**](https://www.ombreeluci.it/2023/alberta-e-la-rivoluzione/)di _Giulia Galeotti_ _Testimonianza
+_[**Alla ricerca dell’altro da me**](https://www.ombreeluci.it/2023/testimonianza-giulia-cirillo/)di _Giulia Cirillo_ Dall'archivio
+**Avete mai provato...**
 
-*Focus: Per pedalare tutti* [**Otto giorni per vent’anni**](https://www.ombreeluci.it/2023/otto-giorni-per-ventanni/) di *Cristina Tersigni* **Tandem in Trentino** di *Andrea Posa* **Invertire gli addendi** di *Cristina Tersigni* **Bari scintillante** di *Cristina Tersigni* **«Ce l’abbiamo fatta!»** di *Giampaolo Mattei*
+di _Mariangela Bertolini_ _Associazioni
+_**Il piacere del contatto** di _Enrica Riera_ _Spettacoli_**
+Il mondo come lo vediamo noi** di _Matteo Cinti_ _Fede e Luce
+_**Campi di giochi** **Dialogo aperto** _Libri
+_**A sua immagine?** a cura di _Alberto Fontana e Giovanni Merlo_
+**La più bella nuotata della mia vita**
 
-*Intervista * [**Alberta e la Rivoluzione**](https://www.ombreeluci.it/2023/alberta-e-la-rivoluzione/) di *Giulia Galeotti*
+di _Anne Becker_
+**Abbassa il cielo e scendi**
 
-*Testimonianza * [**Alla ricerca dell’altro da me**](https://www.ombreeluci.it/2023/testimonianza-giulia-cirillo/) di *Giulia Cirillo*
+di _Giorgio Boatti_
+**Il grande cavallo blu**
 
-Dall'archivio **Avete mai provato...** di *Mariangela Bertolini*
+di _Irène Cohen-Janca e Maurizio A.C. Quarello_ _Diari_
+**Fiera di me stessa**
 
-*Associazioni * **Il piacere del contatto** di *Enrica Riera*
+di _Benedetta Mattei_
+**E.T. alla Bicoca**
 
-*Spettacoli* ** Il mondo come lo vediamo noi** di *Matteo Cinti*
-
-*Fede e Luce * **Campi di giochi**
-
-**Dialogo aperto**
-
-*Libri * **A sua immagine?** a cura di *Alberto Fontana e Giovanni Merlo* **La più bella nuotata della mia vita** di *Anne Becker* **Abbassa il cielo e scendi** di *Giorgio Boatti* **Il grande cavallo blu** di *Irène Cohen-Janca e Maurizio A.C. Quarello*
-
-*Diari* **Fiera di me stessa** di *Benedetta Mattei* **E.T. alla Bicoca** di *Giovanni Grossi*
+di _Giovanni Grossi_ **Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

@@ -30,4 +30,6 @@ ra il 1976 e Alfedena rappresentò un'esperienza fondante per le comunità di Fe
 *Anche da lontano vivevo la loro giornata. Solo i nostri ragazzi sanno farci sentire uniti in quella che è la parte più intima e più vera di noi stessi*
 ». Abbiamo recuperato alcune immagini di quella vacanza che potete scorre nella galleria più in basso. Sono state scansionate con l'aiuto provvidenziale del giovane Samuèl Lopez Ruiz, 28 anni con tratti autistici proveniente dalla Cantabria (Spagna). Samuèl ha passato un mese a Roma alternando turismo e volontariato presso la nostra sede, nell'attività di archiviazione digitale del materiale cartaceo che abbiamo ereditato. Un tesoro, tra i tanti, da condividere come meglio potremo!
 
-**Ombre e Luci è anche una newsletter** Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .
+**Ombre e Luci è anche una newsletter**
+
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .

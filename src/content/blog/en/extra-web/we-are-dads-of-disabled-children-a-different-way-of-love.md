@@ -22,7 +22,9 @@ They are often criticized or mocked by mothers for their incompetence in taking 
 
 The fact is that in the house, no matter what they say, **it is rare that it is he, the father, who is in charge** . There was a time it used to be like that. Now it is the woman who sees everything with her own eyes as a woman: **she always knows what is the right thing, what the best situation is, what are the reproaches to be made, what are the appropriate interventions** . And it's rare, very rare, for her woman’s eyes to see like her husband’s eyes. That’s it. His way of “sending the house forward” is all different from the way the other half would do it.
 
-**Things get very complicated when there is a son or daughter in the house who needs special care and attention** .
+**Things get very complicated when there is a son or daughter in the house who needs special care and attention**
+
+.
 
 The position of the mother, even if sometimes duly masked, then becomes almost bossy, and dad is often left with the task of looking in silence; shutting himself off in an attitude of defeat; getting angry a lot because he feels isolated, not understood in suffering.
 

@@ -23,7 +23,11 @@ Sono un piccolo esercito di guardie del corpo, fedeli e attente, scrupolose e gu
 
 Sono dotate di un borsone carico di generi vari: dalle bottiglie d’acqua ai tovaglioli, dai biberon ai sonaglini, dalle merendine alle macchinette, dalle pentoline ai piccoli mostri in plastica con nomi assurdi che cambiano continuamente e che loro non riescono a memorizzare. Affollano gli ingressi delle scuole elementari, materne e degli asili nido, delle piscine e delle palestre (pur non praticando nessuno sport), percorrono avanti e indietro i viali e gli spiazzi dei giochi nei parchi pubblici e nei giardinetti di quartiere.
 
-Le persone loro affidate hanno pochi mesi o pochi anni e, solo raramente, superano i dieci anni. Lavorano senza stipendio e senza orario ma in compenso con una cura quasi maniacale ed un affetto spropositatoche spesso è loro rimproverato per gli affidati. Sono tutte appartenenti alla fascia di mezza età e oltre, anche se i sorrisi, le coccole, il movimento e il lavoro dei parrucchieri le fanno sembrare molto più giovani. **Stiamo naturalmente parlando delle NONNE!** Importanti di questi tempi come non mai, anzi indispensabili, nelle grandi città e nei paesi, in Italia ma anche in Europa e nel mondo intero.
+Le persone loro affidate hanno pochi mesi o pochi anni e, solo raramente, superano i dieci anni. Lavorano senza stipendio e senza orario ma in compenso con una cura quasi maniacale ed un affetto spropositatoche spesso è loro rimproverato per gli affidati. Sono tutte appartenenti alla fascia di mezza età e oltre, anche se i sorrisi, le coccole, il movimento e il lavoro dei parrucchieri le fanno sembrare molto più giovani.
+
+**Stiamo naturalmente parlando delle NONNE!**
+
+Importanti di questi tempi come non mai, anzi indispensabili, nelle grandi città e nei paesi, in Italia ma anche in Europa e nel mondo intero.
 
 Cosa resta da dire? Che non hanno rivendicazioni sindacali da portare avanti, non fanno scioperi ma a volte, in Italia, in Europa e in ogni luogo, tra di loro borbottano un po’. E dicono suppergiù quanto segue “il fatto è che... questi genitori li viziano troppo”,... oppure che “non ci sono mai”, ...oppure che “li viziano troppo perché non ci sono mai;” e che “questi bambini hanno troppi impegni e si stancano assai”... o che “ ‘ste creature invece di studiare...troppo computer, troppa televisione e tutte le altre diavolerie che io neanche le so usare...ma loro...dei diavoli sono...” Ecco le cose che si dicono le nonne tra loro e che nessuno ascolta ma che corrispondono come tutti sanno a sacrosante verità.
 

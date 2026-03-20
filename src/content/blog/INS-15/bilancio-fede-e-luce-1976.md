@@ -1,5 +1,4 @@
 ---
-
 title: Bilancio Fede e Luce 1976
 date: 1977-03-20
 author: Redazione
@@ -21,18 +20,30 @@ numero_rivista: "Insieme"
 
 ### Entrate
 
-Contributi giornalino L. 661.000 Offerte per aiuti a persona con difficoltà L. 471.000 Offerte varie L. 461.000 Specifiche per Campeggio e "Casetta" L. 156.000
+Contributi giornalino L. 661.000
+Offerte per aiuti a persona con difficoltà L. 471.000
+Offerte varie L. 461.000
+Specifiche per Campeggio e "Casetta" L. 156.000
 
 **Totale L. 1755.500**
 
 ### Uscite
 
-Spese "Giornalino" L. 347.000 Offerte a persone in difficoltà L. 280.000 Spese Segreteria L. 420.000 Spese per Campeggio e "Casetta" L. 324.550
+Spese "Giornalino" L. 347.000
+Offerte a persone in difficoltà L. 280.000
+Spese Segreteria L. 420.000
+Spese per Campeggio e "Casetta" L. 324.550
 
 **Totale L. 13771.550**
 
 ### Restano in cassa:
 
-dell'anno scorso 1976: L. 383.950 degli anni precedenti: L. 662.374 **Totale L. 1046.324**
+dell'anno scorso 1976: L. 383.950
+degli anni precedenti: L. 662.374
+**Totale L. 1046.324**
 
 Ps. Il debito della quota del pellegrinaggio restato in sospeso lo scorso anno, ci è stato gentilmente condonato dal Comitato Internazionale.
+
+Questo articolo è tratto da:
+**[Insieme n.12, 1977](https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/)
+[](https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/)**

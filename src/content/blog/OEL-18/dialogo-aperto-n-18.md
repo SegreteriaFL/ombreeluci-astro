@@ -33,7 +33,11 @@ Fin da ragazzo, in casa mi è stato insegnato il rispetto per il prossimo, qualu
 
 Ma ora è diverso; ora Consuelo ha quattro anni, è la bambina più bella e più buona del mondo. Ancora non parla bene, comincia ora qualche parola. L'altro giorno è venuta a casa una persona e Consuelo è corsa subito a prendere una sedia per far sedere questa persona senza che nessuno le avesse detto niente. Siamo rimasti tutti sorpresi di questa sua attenzione.
 
-Giorni fa, al programma su RaiDue, alla trasmissione *Piccoli Fans* , c’era una bambina Down che ha letto qualcosa; non immaginate cosa abbiamo provato: gioia, felicità, non so, nel sentire, nel vedere quella bambina lì in televisione, vista da molte persone. Ci vorrebbero più spesso queste apparizioni in TV. **Non per metterli in mostra, ma ospiti, come tutti gli altri** . C’era anche una bambina cieca che cantava; è stato bellissimo. La gente deve sapere che i bambini handicappati, dentro, sono vivi, sono pieni, pieni di gioia, di amore, di affetto. Oggi tanti bambini non hanno tutto questo; ci sono molti bambini che sono vuoti, non sanno giocare.
+Giorni fa, al programma su RaiDue, alla trasmissione *Piccoli Fans* , c’era una bambina Down che ha letto qualcosa; non immaginate cosa abbiamo provato: gioia, felicità, non so, nel sentire, nel vedere quella bambina lì in televisione, vista da molte persone. Ci vorrebbero più spesso queste apparizioni in TV.
+
+**Non per metterli in mostra, ma ospiti, come tutti gli altri**
+
+. C’era anche una bambina cieca che cantava; è stato bellissimo. La gente deve sapere che i bambini handicappati, dentro, sono vivi, sono pieni, pieni di gioia, di amore, di affetto. Oggi tanti bambini non hanno tutto questo; ci sono molti bambini che sono vuoti, non sanno giocare.
 
 L’altro giorno mia moglie è andata a riprendere Consuelo all’asilo e la maestra le ha detto: «Signora, sua figlia è una delle poche che, prima di andare via, saluta e dà un bacio ». Non immaginate quanto fa piacere sentire queste cose. Ciò vuol dire che il lavoro che facciamo per nostra figlia serve a qualcosa.
 

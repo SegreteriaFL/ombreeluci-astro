@@ -1,5 +1,4 @@
 ---
-
 title: "Guarda, c'è Sam!"
 date: "2020-06-17"
 author: "Vito Giannulo"
@@ -17,7 +16,7 @@ id_numero: "OEL-152"
 numero_rivista: "Ombre e Luci"
 ---
 
-Ripetete con me: «Adelia Antartico Imperatore e Papua, Adelia Antartico Imperatore e Papua». Fatto? Bene, siete entrati nel magico mondo di *Atypical*. Dove conoscerete Sam, il protagonista della serie di Netflix che racconta la vita di un ragazzo che si trova “on the spectrum”, cioè nello spettro dell’autismo.
+Ripetete con me: «Adelia Antartico Imperatore e Papua, Adelia Antartico Imperatore e Papua». Fatto? Bene, siete entrati nel magico mondo di _Atypical_. Dove conoscerete Sam, il protagonista della serie di Netflix che racconta la vita di un ragazzo che si trova “on the spectrum”, cioè nello spettro dell’autismo.
 
 Sam è quello che noi definiremmo un “autistico ad alto funzionamento”. Sa fare delle cose (ad esempio memorizzare elenchi o numeri) molto meglio della media degli uomini ma è completamente inadatto a gestire altre situazioni di stress soprattutto emotivo.
 Quando Sam era molto piccolo, la mamma gli insegnò a recitare una specie di “litania di rilassamento” e lui, a un certo punto della serie tv, racconta: «ogni volta che sono stressato, recito l’elenco delle quattro specie di pinguino antartico: Adelia Antartico Imperatore e Papua. Questo mi aiuta. Dovreste provarlo la prossima volta che vi sembra di morire. A meno che non stiate morendo davvero. In questo caso, non vi aiuterebbe per niente».
@@ -34,7 +33,7 @@ Grazie al cielo, mi sembra che sia stato quasi cancellato dal dibattito l’argo
 
 Credo che qualche passo avanti si sia fatto anche sulla questione della rappresentazione del “disabile di tutti i giorni”. E in qualche caso è accaduto proprio sfruttando in maniera positiva i modelli precedenti. Intendo dire che quando Bebe Vio si fa intervistare in camera sua e racconta delle difficoltà e dei successi di un’atleta paralimpica, svolge un racconto che parte sì dal modello del “supereroe” ma passa per mille aneddoti di vita quotidiana che un tempo sarebbero stati ritenuti irrilevanti o addirittura scabrosi.
 
-E poi c’è *Atypical*. Un’intera [serie tv](https://www.ombreeluci.it/2020/lanno-della-disabilita-nelle-serie-tv/) di un gigante dell’intrattenimento dedicata ad un adolescente autistico, alla sua famiglia, il lavoro, la scuola, l’amore, gli amici! Wow, dovremmo dire. E facciamo bene a dirlo perché Sam è inserito in un tessuto sociale molto ricco, non è un corpo estraneo, un “altro da me”, come nei vecchi modelli del “malato” e del “supereroe”. Con un’avvertenza, però: che quel tessuto sociale fatto di amici comprensivi, psicologi bravi, un lavoro part-time e gruppi di sostegno a scuola esiste in tv, ma non nella nostra realtà. Questo non vanifica però il discorso fatto fin qui sulla rappresentazione del disabile. Semmai indica un orizzonte.
+E poi c’è _Atypical_. Un’intera [serie tv](https://www.ombreeluci.it/2020/lanno-della-disabilita-nelle-serie-tv/) di un gigante dell’intrattenimento dedicata ad un adolescente autistico, alla sua famiglia, il lavoro, la scuola, l’amore, gli amici! Wow, dovremmo dire. E facciamo bene a dirlo perché Sam è inserito in un tessuto sociale molto ricco, non è un corpo estraneo, un “altro da me”, come nei vecchi modelli del “malato” e del “supereroe”. Con un’avvertenza, però: che quel tessuto sociale fatto di amici comprensivi, psicologi bravi, un lavoro part-time e gruppi di sostegno a scuola esiste in tv, ma non nella nostra realtà. Questo non vanifica però il discorso fatto fin qui sulla rappresentazione del disabile. Semmai indica un orizzonte.
 
 La vita dei nostri ragazzi non sarà mai esattamente come quella ma forse se qualcuno per strada vedrà un tipo ripetere i nomi dei pinguini, invece di ridergli dietro dirà: “guarda, c’è Sam”.
 

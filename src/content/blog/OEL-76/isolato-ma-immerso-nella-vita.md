@@ -21,19 +21,27 @@ subtitle: "Un Padre con 8 figli in affido in un bellissimo casolare del Podere G
 
 Sabato, 13 ottobre, ad un mese dall’eccidio delle Twin Towers, mio marito ed io abbiamo inaspettatamente vissuto una giornata speciale in un bellissimo casolare del Podere Gugliano vicino a Trequanda, nome esotico di un incantevolepaesedellacampagnasenese.
 
-**Ci attendeva il padrone di casa, “padre” di otto figli di varie età: il prof. Fabrizio Mori** , sconosciuto alle masse, ma notissimo agli studiosi di paleontologia in particolare, del deserto del Sahara per le sue scoperte dell'arte rupestre di dodicimila anni fa.
+**Ci attendeva il padrone di casa, “padre” di otto figli di varie età: il prof. Fabrizio Mori**
+
+, sconosciuto alle masse, ma notissimo agli studiosi di paleontologia in particolare, del deserto del Sahara per le sue scoperte dell'arte rupestre di dodicimila anni fa.
 
 La nostro timidezza iniziale è subito svanita di fronte alla sua naturale ospitalità: seduti all'aperto a goderci un sole ancora estivo abbiamo conversato mentre i figli più piccoli Brenda e Daiano (5 e 7 anni), attorniati da due cuccioli di cane, venivano a curiosare e a condividere la gioia dello stare insieme.
 
-**Bella forza, penserete: in un ambiente così** , a contatto con la natura, lontani dalle preoccupazioni del quotidiano, **è facile sentirsi sereni** ! Ma oltre alla cornice dell’ambiente ideale nella sua semplicità e essenzialità, abbiamo respirato un’atmosfera calda e accogliente, mai formale: la realtà di casa “Centro Lorenzo Mori”.
+**Bella forza, penserete: in un ambiente così**
+
+, a contatto con la natura, lontani dalle preoccupazioni del quotidiano, **è facile sentirsi sereni** ! Ma oltre alla cornice dell’ambiente ideale nella sua semplicità e essenzialità, abbiamo respirato un’atmosfera calda e accogliente, mai formale: la realtà di casa “Centro Lorenzo Mori”.
 
 ### «Figli» rimessi in piedi
 
 Abbiamo compreso tale denominazione parlando con il professor Mori: **Fabrizio ha perso il suo unico e amatissimo figlio Lorenzo di 15 anni, in un incidente venticinque anni fa** . Dopo un periodo di grave depressione, con l’aiuto di amici fedeli e con l’obiettivo di restaurare il cadente casolare di Gugliano - individuato da Lorenzo per l’unicità del suo paesaggio - l’insigne studioso e padre ferito a morte, si è rimesso in cammino.
 
-**Questa casa** non è tuttavia per Fabrizio una meta di ricordi, ma **percorso di vita per tanti ragazzi che sono, sono stati e saranno i suoi figli** , affidatigli non dalla natura ma dal Tribunale dei Minori di Firenze.
+**Questa casa**
 
-**Il Centro Lorenzo Mori da 20 anni è ormai comunità educativa.** L’accoglienza all’altro, al piccolo, all’indifeso, al giovane disadattato scaturisce dal cuore di Fabrizio che trasforma continuamente la “nostalgia perenne” di suo figlio in una sorgente inesauribile di guida e sostegno amoroso per i tanti figli che ha accolto, protetto e “rimesso in piedi”.
+non è tuttavia per Fabrizio una meta di ricordi, ma **percorso di vita per tanti ragazzi che sono, sono stati e saranno i suoi figli** , affidatigli non dalla natura ma dal Tribunale dei Minori di Firenze.
+
+**Il Centro Lorenzo Mori da 20 anni è ormai comunità educativa.**
+
+L’accoglienza all’altro, al piccolo, all’indifeso, al giovane disadattato scaturisce dal cuore di Fabrizio che trasforma continuamente la “nostalgia perenne” di suo figlio in una sorgente inesauribile di guida e sostegno amoroso per i tanti figli che ha accolto, protetto e “rimesso in piedi”.
 
 Maurizio ed io pensavamo che tanta “grandezza d'animo" derivasse dalla fede; **Fabrizio** ci ha ancora una volta meravigliati: dolcemente e, con un velo di rammarico, dice che **non aderisce a nessun tipo di credo** , se non quello dell’appartenenza alla stessa specie e quindi - come ha imparato dai suoi amici Tuareg - alla solidarietà tra i propri simili!
 

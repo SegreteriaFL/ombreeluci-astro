@@ -1,5 +1,4 @@
 ---
-
 title: Fede e Luce incontri internazionali e nazionali 1977
 date: 1977-06-20
 author: Mariangela Bertolini
@@ -27,17 +26,22 @@ Fede e Luce è uno spirito, un'amicizia, un atteggiamento interiore. Ma... non b
 
 Per chi non lo sa ancora, i responsabili internazionali del Movimento Fede e Luce sono:
 
-- Jean Vanier (Canada) responsabile generale - M. Hélène Mathieu (Francia) - Père Georges Vijda (Danimarca)
+ * Jean Vanier (Canada) responsabile generale
+ * M. Hélène Mathieu (Francia)
+ * Père Georges Vijda (Danimarca)
 
 Ogni paese ha un suo responsabile nazionale aiutato dai responsabili di gruppo.
 
 In gennaio 77 si sono svolte tre riunioni internazionali:
 
-- una a **Madrid** per la regione latina (Francia, Portogallo, Spagna, Belgio, Svizzera, Italia) - una a **Birmingham** per la regione inglese (Inghilterra, Irlanda, Germania, Danimarca, Svezia) - una in **Canada** per il Canada e gli U.S.A.
+ * una a **Madrid** per la regione latina (Francia, Portogallo, Spagna, Belgio, Svizzera, Italia)
+ * una a **Birmingham** per la regione inglese (Inghilterra, Irlanda, Germania, Danimarca, Svezia)
+ * una in **Canada** per il Canada e gli U.S.A.
 
 I temi trattati in questi incontri sono stati:
 
-- fare il punto della situazione in ogni paese: progressi, difficoltà, progetti. - approfondimento su come far nascere, crescere una comunità Fede e Luce (responsabili, giovani, genitori, sensibilizzazione delle Parrocchie, ruolo pastorale e sociale di Fede e Luce ecc. )
+ 1. fare il punto della situazione in ogni paese: progressi, difficoltà, progetti.
+ 2. approfondimento su come far nascere, crescere una comunità Fede e Luce (responsabili, giovani, genitori, sensibilizzazione delle Parrocchie, ruolo pastorale e sociale di Fede e Luce ecc. )
 
 Questi incontri sono sempre all'insegna dell'amicizia, della gioia di ritrovarsi, di preghiera, di affiatamento con la città ospite.
 
@@ -55,10 +59,25 @@ Sono stati fatti progetti piccoli e grandi. Per la prima vera 1978 si prevede un
 
 Grazie di cuore, a nome di tutti, agli amici di Cuneo.
 
-*Mariangela Bertolini* , 1977
+_Mariangela Bertolini_ , 1977
 
-*Chi non vede, chi non capisce che pietre, mattoni e tegole sono, nello stesso tempo, tutto e niente per diventare una casa?*
+_Chi non vede,
+chi non capisce
+che pietre, mattoni e tegole
+sono, nello stesso tempo, tutto
+e niente
+per diventare una casa?_
 
-In mucchio, hanno valore di speranza. A servizio di un progetto, vivendo l'unità, esse formano un insieme, e l'insieme è migliore delle parti disperse.
+In mucchio,
+hanno valore di speranza.
+A servizio di un progetto,
+vivendo l'unità,
+esse formano un insieme,
+e l'insieme
+è migliore delle parti disperse.
 
 **H. Camara**
+
+Questo articolo è tratto da:**[Insieme n.13, 1977](https://www.ombreeluci.it/project/insieme-n-13-bollettino-fede-e-luce-1977/)**
+
+[](https://www.ombreeluci.it/project/insieme-n-13-bollettino-fede-e-luce-1977/)

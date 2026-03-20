@@ -1,5 +1,4 @@
 ---
-
 title: Nutrire talenti
 date: 2020-08-08
 author: Cristina Tersigni
@@ -17,26 +16,55 @@ id_numero: "OEL-151"
 numero_rivista: "Ombre e Luci"
 ---
 
-Quel fenomeno splendidamente umano che chiamiamo *arte* è impossibile da racchiudere in una definizione, come d’altronde l’umano in genere... Come ci ricordano Marta de Rino ed Eleonora Secchi in questo numero dedicato ad alcuni percorsi nell’arte, molto prima di scrivere l’uomo disegnava: riproduceva la realtà che lo circondava, sceglieva materiali con i quali e sui quali lasciare un segno, trasformava pezzi di pietra o di legno in oggetti capaci di trasmettere significati condivisi. Dedicava del tempo per nulla scontato, con nessun’altra apparente utilità pratica, in una dinamica necessaria ma libera. Tutto questo gli consentiva di conoscere sempre più il mondo e se stesso, di capire cosa fosse importante per lui. Il percorso artistico, infatti, esprime un «linguaggio primordiale, alternativo a quello verbale» in grado di sollecitare cuore, mente e anima. Lo associamo spesso solo al talento dell’artista che, con la sua opera, trasmette un messaggio personale e al tempo stesso universale, in un risultato esteticamente condiviso. Ma un percorso artistico è accessibile e consigliabile anche a chi non è dotato di un particolare talento: con o senza disabilità è vivificante occasione di stimolo alla fantasia e alla creatività; richiede non solo improvvisazione ma anche tecnica, metodo e ordine. Aiuta a conoscersi meglio, “vedendosi come dall’esterno” nell’opera creata; per tutti, nei momenti difficili – e questo periodo ci ha sollecitato discretamente – è capace di lasciare emergere vissuti faticosi da esprimere a parole. L’arte è nutrimento per chi guarda e, in una reciprocità spiazzante, chi guarda compie un atto indispensabile all’arte. Se accessibile nella condivisione del patrimonio culturale e artistico, come auspicato nel progetto «Musei per tutti», contribuisce a rinforzare l’individuo e l’appartenenza alla propria collettività. E quando l’arte si fa *insieme* , lascia fiorire i talenti di ciascuno promuovendo comunità libere e davvero inclusive.
+Quel fenomeno splendidamente umano che chiamiamo _arte_ è impossibile da racchiudere in una definizione, come d’altronde l’umano in genere... Come ci ricordano Marta de Rino ed Eleonora Secchi in questo numero dedicato ad alcuni percorsi nell’arte, molto prima di scrivere l’uomo disegnava: riproduceva la realtà che lo circondava, sceglieva materiali con i quali e sui quali lasciare un segno, trasformava pezzi di pietra o di legno in oggetti capaci di trasmettere significati condivisi. Dedicava del tempo per nulla scontato, con nessun’altra apparente utilità pratica, in una dinamica necessaria ma libera. Tutto questo gli consentiva di conoscere sempre più il mondo e se stesso, di capire cosa fosse importante per lui. Il percorso artistico, infatti, esprime un «linguaggio primordiale, alternativo a quello verbale» in grado di sollecitare cuore, mente e anima. Lo associamo spesso solo al talento dell’artista che, con la sua opera, trasmette un messaggio personale e al tempo stesso universale, in un risultato esteticamente condiviso. Ma un percorso artistico è accessibile e consigliabile anche a chi non è dotato di un particolare talento: con o senza disabilità è vivificante occasione di stimolo alla fantasia e alla creatività; richiede non solo improvvisazione ma anche tecnica, metodo e ordine. Aiuta a conoscersi meglio, “vedendosi come dall’esterno” nell’opera creata; per tutti, nei momenti difficili – e questo periodo ci ha sollecitato discretamente – è capace di lasciare emergere vissuti faticosi da esprimere a parole. L’arte è nutrimento per chi guarda e, in una reciprocità spiazzante, chi guarda compie un atto indispensabile all’arte. Se accessibile nella condivisione del patrimonio culturale e artistico, come auspicato nel progetto «Musei per tutti», contribuisce a rinforzare l’individuo e l’appartenenza alla propria collettività. E quando l’arte si fa _insieme_ , lascia fiorire i talenti di ciascuno promuovendo comunità libere e davvero inclusive.Questo articolo è tratto da
+[**Ombre e Luci n. 151, 2020**](https://www.ombreeluci.it/project/numero-151-viaggio-nellarte/) **SOMMARIO** _Editoriale_**
+**[**Nutrire talenti**](https://www.ombreeluci.it/2020/nutrire-talenti/) di Cristina Tersigni _Focus: Viaggio nell'arte
+_**Il linguaggio dell’art** e di Marta de Rino ed Eleonora Secchi
+**Metti da parte la fretta**
 
-*Editoriale* ** ** [**Nutrire talenti**](https://www.ombreeluci.it/2020/nutrire-talenti/) di Cristina Tersigni
+di Gianni Verni
+**Ferma lo sguardo**
 
-*Focus: Viaggio nell'arte * **Il linguaggio dell’art** e di Marta de Rino ed Eleonora Secchi **Metti da parte la fretta** di Gianni Verni **Ferma lo sguardo** di Cristina Tersigni **Estemporanea e personale** di Giorgiana Tinazzo **Buongustaio dell’arte** di Cristina Tersigni
+di Cristina Tersigni
+**Estemporanea e personale**
 
-*Intervista* **Il diritto a un libro vero** di Giulia Galeotti
+di Giorgiana Tinazzo
+**Buongustaio dell’arte**
 
-*Testimonianze* [**Forse una ragione c'è**](https://www.ombreeluci.it/2020/forse-una-ragione-ce/) di Stefano Nasuti
+di Cristina Tersigni _Intervista_
+**Il diritto a un libro vero**
 
-*Dall'archivio* [**Un pomeriggio chiamato laboratorio**](https://www.ombreeluci.it/1988/lavorando-insieme-un-pomeriggio-chiamato-laboratorio/) di Francesca Polcaro
+di Giulia Galeotti _Testimonianze_
+[**Forse una ragione c'è**](https://www.ombreeluci.it/2020/forse-una-ragione-ce/) di Stefano Nasuti _Dall'archivio_
+[**Un pomeriggio chiamato laboratorio**](https://www.ombreeluci.it/1988/lavorando-insieme-un-pomeriggio-chiamato-laboratorio/) di Francesca Polcaro _Associazioni_
+**Museo per tutti**
 
-*Associazioni* **Museo per tutti** di Cristina Tersigni
+di Cristina Tersigni _Fede e Luce_
+**Noi, non io**
 
-*Fede e Luce* **Noi, non io** di Serena Sillitto
+di Serena Sillitto _Spettacoli_
+**Accarezzando insieme l'erba**
 
-*Spettacoli* **Accarezzando insieme l'erba** di Enrica Riera
+di Enrica Riera _Rubriche_
+**Dialogo Aperto n. 151**
+**Vita Fede e Luce n. 151**
 
-*Rubriche* **Dialogo Aperto n. 151** **Vita Fede e Luce n. 151**
+_Libri_
+**Il cuore è una selva**
 
-*Libri* **Il cuore è una selva** di Novita Amadei **Il chiosco** di Anete Melece **Malintesi** di Bertrand Leclair **Un'esperienza personale** di Kenzaburo Oe
+di Novita Amadei
+**Il chiosco**
 
-*Diari* **Caro presidente Sergio Mattarella** di Benedetta Mattei **Natura e musica** di Giovanni Grossi
+di Anete Melece
+**Malintesi**
+
+di Bertrand Leclair
+**Un'esperienza personale**
+
+di Kenzaburo Oe _Diari_
+**Caro presidente Sergio Mattarella**
+
+di Benedetta Mattei
+**Natura e musica**
+
+di Giovanni Grossi

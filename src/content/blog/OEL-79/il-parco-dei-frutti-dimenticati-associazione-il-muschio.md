@@ -23,11 +23,17 @@ subtitle: "Siamo andati a conoscere gli amici de «Il Muschio» di Morbegno che 
 
 Salendo tra prati e boschi, con l’orizzonte occupato dalle cime dei monti ancora bianche di neve, **capisco come la Natura possa avere un ruolo molto importante nella vita e nei pensieri di queste persone** . Il luogo dell’appuntamento è un bellissimo paesino sulla costiera sud delle montagne; si chiama Cadelasso e davvero le case sono tutte di pietra, molte sono ristrutturate e adorne di fiori.
 
-**Veniamo accolti da Massimo e Saverio** che subito ci conducono nella piccola piazza del borgo a fare le presentazioni. Conosco così Guido, il presidente dell’associazione, che, pur essendo in carrozzina, ha l’aria e la forza di un baldo montanaro. In effetti tutti hanno un aspetto molto «in salute», si vede che passano molte ore all’aria aperta.
+**Veniamo accolti da Massimo e Saverio**
 
-**In questo momento sono tutti impegnati ad accogliere 70 ragazzini in gita scolastica** . Sono stati formati diversi gruppi e c’è chi fa il pane nell’antico forno a legna, chi lavora piccoli oggetti in creta, chi costruisce fischietti o altri strumenti musicali (che funzionano benissimo) con vari «pezzetti di natura»: noci e nocciole, piume, bastoncini o canne. L’attività che ha maggiore successo mi pare sia la costruzione di un misterioso BASTONE DELLA PIOGGIA (speriamo che non serva a far piovere, visto che minacciosi nuvoloni hanno coperto il sole). Queste attività vengono svolte grazie alla collaborazione con l’associazione GEA, che si occupa di psicosintesi educativa.
+che subito ci conducono nella piccola piazza del borgo a fare le presentazioni. Conosco così Guido, il presidente dell’associazione, che, pur essendo in carrozzina, ha l’aria e la forza di un baldo montanaro. In effetti tutti hanno un aspetto molto «in salute», si vede che passano molte ore all’aria aperta.
 
-**Le attività che più mi interessano e che sono venuta a conoscere da vicino sono quelle legate all’agricoltura** . Il Muschio ha messo in coltura più di 5000 metri quadri di terreno che un tempo era coltivato a vite, ma che negli ultimi 12 anni era stato abbandonato e si era coperto di alberi e arbusti spontanei. Nel ’97 è iniziata la prima fase di disboscamento e sono state messe a dimora 150 piantine di mirtilli giganti. Nel ‘99 è partito un altro impianto di piccoli frutti (mirtilli, more, ribes) in pianura. Nel 2000 è stato impiantato il « **Parco dei Frutti Dimenticati** » (1500mq). Nel 2001 sono stati messi a coltura altri 2000 mq dove, in rotazione con segale e pomodori, coltivano il grano saraceno.
+**In questo momento sono tutti impegnati ad accogliere 70 ragazzini in gita scolastica**
+
+. Sono stati formati diversi gruppi e c’è chi fa il pane nell’antico forno a legna, chi lavora piccoli oggetti in creta, chi costruisce fischietti o altri strumenti musicali (che funzionano benissimo) con vari «pezzetti di natura»: noci e nocciole, piume, bastoncini o canne. L’attività che ha maggiore successo mi pare sia la costruzione di un misterioso BASTONE DELLA PIOGGIA (speriamo che non serva a far piovere, visto che minacciosi nuvoloni hanno coperto il sole). Queste attività vengono svolte grazie alla collaborazione con l’associazione GEA, che si occupa di psicosintesi educativa.
+
+**Le attività che più mi interessano e che sono venuta a conoscere da vicino sono quelle legate all’agricoltura**
+
+. Il Muschio ha messo in coltura più di 5000 metri quadri di terreno che un tempo era coltivato a vite, ma che negli ultimi 12 anni era stato abbandonato e si era coperto di alberi e arbusti spontanei. Nel ’97 è iniziata la prima fase di disboscamento e sono state messe a dimora 150 piantine di mirtilli giganti. Nel ‘99 è partito un altro impianto di piccoli frutti (mirtilli, more, ribes) in pianura. Nel 2000 è stato impiantato il « **Parco dei Frutti Dimenticati** » (1500mq). Nel 2001 sono stati messi a coltura altri 2000 mq dove, in rotazione con segale e pomodori, coltivano il grano saraceno.
 
 ### I ragazzi saranno indipendenti
 
@@ -37,16 +43,22 @@ Dopo la passeggiata torniamo al paese e veniamo accolti da una profumatissima po
 
 Così in un pomeriggio tornato ridente salutiamo tutti e torniamo a casa. Grazie amici e arrivederci!
 
- ### Mirtilli giganti I mirtilli giganti sono quelli che normalmente si trovano in vendita nei negozi e supermercati. Sono di aspetto simile a quelli selvatici, ma sono grossi come piccole ciliegie, le piantine sono più grandi di quelle selvatiche e arrivano ad un metro circa di altezza. I mirtilli sono riuniti in piccoli grappoli, tipo quelli del ribes, ma più fitti, e maturano scalarmente, obbligando a più interventi di raccolta. Ogni anno ad inizio Primavera le piante vanno potate, il terreno ai loro piedi va ripulito dalle erbacce e coperto con aghi di pino che abbassano il pH del terreno (i mirtilli amano terreni acidi) e ostacolano la crescita delle malerbe. Tra una pianta e Taltra, però, l’erba cresce rigogliosa e va tagliata con il decespugliatore. Da metà Giugno circa le piante entrano in produzione e almeno due o tre volte la settimana è necessario raccogliere i frutti che man mano maturano in modo che non ammuffiscano sulla pianta e permettano a quelli più indietro di svilupparsi a loro volta. Ogni pianta produce due o tre chili di mirtilli, che vengono venduti direttamente a gelatai e pasticceri. 
+### Mirtilli giganti I mirtilli giganti sono quelli che normalmente si trovano in vendita nei negozi e supermercati. Sono di aspetto simile a quelli selvatici, ma sono grossi come piccole ciliegie, le piantine sono più grandi di quelle selvatiche e arrivano ad un metro circa di altezza. I mirtilli sono riuniti in piccoli grappoli, tipo quelli del ribes, ma più fitti, e maturano scalarmente, obbligando a più interventi di raccolta. Ogni anno ad inizio Primavera le piante vanno potate, il terreno ai loro piedi va ripulito dalle erbacce e coperto con aghi di pino che abbassano il pH del terreno (i mirtilli amano terreni acidi)
+
+e ostacolano la crescita delle malerbe. Tra una pianta e Taltra, però, l’erba cresce rigogliosa e va tagliata con il decespugliatore. Da metà Giugno circa le piante entrano in produzione e almeno due o tre volte la settimana è necessario raccogliere i frutti che man mano maturano in modo che non ammuffiscano sulla pianta e permettano a quelli più indietro di svilupparsi a loro volta. Ogni pianta produce due o tre chili di mirtilli, che vengono venduti direttamente a gelatai e pasticceri.
 
 ### Il Muschio Onlus
 
 L’associazione è nata dallo sforzo di persone a vario titolo coinvolte nell’esperienza delle difficoltà legate al vissuto delle disabilità e deH’emarginazione. Il suo principale obiettivo è «fornire un ambiente che possa prevedere forti contenuti socializzanti e formativi con particolare attenzione alle persone disabili». Nel corso degli anni sono stati avviati molti progetti finanziari a vario titolo, ma tutti accomunati da un forte collegamento col territorio. Il numero dei ragazzi che frequenta il centro non è elevato e può variare a seconda delle necessità.
 
-**Solo da quest’anno** (2002, N.d.R.) **«Il Muschio» si è costituito in cooperativa e si è convenzionato con l’ASL** . Fino ad ora le fonti di finanziamento erano le più varie con forte intervento di donazioni di privati. Il ricavato della coltivazione copre solo il 20-30% del bilancio.
+**Solo da quest’anno**
+
+(2002, N.d.R.) **«Il Muschio» si è costituito in cooperativa e si è convenzionato con l’ASL** . Fino ad ora le fonti di finanziamento erano le più varie con forte intervento di donazioni di privati. Il ricavato della coltivazione copre solo il 20-30% del bilancio.
 
 Vi lavorano due operatori e i ragazzi frequentano per un numero variabile di ore settimanali dalle 18 di media fino alle 30. Tutto dipende da quello che è necessario fare. Nei periodi di brutto tempo lavorano nel centro diurno a Morbegno, dove si occupano di lavori di cartotecnica. È previsto l’impianto di una serra per la produzione di piantine di mirtilli, cosa che permetterebbe di dedicarsi ai lavori agricoli anche quando piove.
 
-**Insomma sono vulcanici.** Se volete contattarli (organizzano anche gite turistiche) i recapiti sono: tel. 0342614099; e-mail muschio@provincia.so.it; indirizzo Via V. Bernasconi, 21 - 23013 Cosio valtellino (SO).
+**Insomma sono vulcanici.**
+
+Se volete contattarli (organizzano anche gite turistiche) i recapiti sono: tel. 0342614099; e-mail muschio@provincia.so.it; indirizzo Via V. Bernasconi, 21 - 23013 Cosio valtellino (SO).
 
 *Elisabetta de Rino* , 2002

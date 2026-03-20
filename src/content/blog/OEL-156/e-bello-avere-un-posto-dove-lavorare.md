@@ -15,4 +15,38 @@ issue_number: OEL-156
 id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
-Io mi sveglio alle ore 6:00, tutto assonnato e vorrei dormire ancora, mi vesto con i vestiti che tengo in una sedia vicino, e poi vado in cucina per bere un caffè. Controllo Facebook e poi esco subito di casa, perché devo andare a lavorare, io per andarci mi preparo psicologicamente, che significa se per me è una bella o brutta giornata, lo noto nel corso del giorno. Io salgo sulla metropolitana e vedo tutti con la mascherina che tristezza, quanto rimpiangiamo quando avevamo la faccia libera, me lo immagino bene, è cosa di tutti star bene. Io so dirigermi nel posto di lavoro perché sono autosufficiente e so spostarmi per andare in qualsiasi posto del mondo. Io mi rendo conto che è bello e da rigore avere un posto dove lavorare, anche se in certi momenti io preferisco andare al mare, e vedere il paesaggio. Ma per me lavorare è importante per lo stipendio e anche per passare la giornata, nel bene e nel male mi sono formato imparando come si fa, ho sempre odiato i rimproveri, ho capito ma io non mi vendico, perché so chi è che li fa, poi dipende da come si comportano le persone. Per me è bello avere un luogo tranquillo dove si è autonomi, poi a seconda di quello che c’è da fare lo faccio e sono reattivo. È bello lavorare all’aperto lo so per esperienza.
+
+Io mi sveglio alle ore 6:00, tutto assonnato e vorrei dormire ancora, mi vesto con i vestiti che tengo in una sedia vicino, e poi vado in cucina per bere un caffè. Controllo Facebook e poi esco subito di casa, perché devo andare a lavorare, io per andarci mi preparo psicologicamente, che significa se per me è una bella o brutta giornata, lo noto nel corso del giorno. Io salgo sulla metropolitana e vedo tutti con la mascherina che tristezza, quanto rimpiangiamo quando avevamo la faccia libera, me lo immagino bene, è cosa di tutti star bene. Io so dirigermi nel posto di lavoro perché sono autosufficiente e so spostarmi per andare in qualsiasi posto del mondo. Io mi rendo conto che è bello e da rigore avere un posto dove lavorare, anche se in certi momenti io preferisco andare al mare, e vedere il paesaggio. Ma per me lavorare è importante per lo stipendio e anche per passare la giornata, nel bene e nel male mi sono formato imparando come si fa, ho sempre odiato i rimproveri, ho capito ma io non mi vendico, perché so chi è che li fa, poi dipende da come si comportano le persone. Per me è bello avere un luogo tranquillo dove si è autonomi, poi a seconda di quello che c’è da fare lo faccio e sono reattivo. È bello lavorare all’aperto lo so per esperienza.Questo articolo è tratto da
+[**Ombre e Luci n. 153, 2021**](https://www.ombreeluci.it/project/numero-153-nello-spazio-e-nel-tempo/) **SOMMARIO** _Editoriale_**
+**[**Tutta un'altra storia**](https://www.ombreeluci.it/2021/tutta-unaltra-storia/)di Cristina Tersigni _Focus_
+**Per una storia della disabilità**
+
+di Giulia Galeotti _Estratto_
+**Il crimine di Eva**
+
+di Laura Coccia _Dall'archivio_
+**Un tesoro in vasi di creta**
+
+di Dario Madaschi _Associazioni_
+**Nella casa di Dario**
+
+di Carlo Maria Fornari _Fede e Luce_
+[**Una piccola matita nelle sue mani**](https://www.ombreeluci.it/2021/una-piccola-matita-nelle-sue-mani/) di Vito Giannulo _Spettacoli_
+[**Perché di Katherine e Nerissa non ci sono più tracce?**](https://www.ombreeluci.it/2021/the-crown-perche-katherine-e-nerissa-non-ci-sono-tracce/) di Enrica Riera **Dialogo Aperto
+** _Libri_
+[**Imparare a cadere**](https://www.ombreeluci.it/2021/imparare-a-cadere-recensione/) di Mikael Ross
+**Dove crescono i cocomeri**
+
+di Cindy Baldwin
+**L'eredità dei vivi**
+
+di Federica Sgaggio
+**Marie la strabica**
+
+di Georges Simenon _Diari_
+**Bella ma inutile. Cronache da Trigoria**
+
+di Benedetta Mattei
+[**È bello avere un posto dove lavorare**](https://www.ombreeluci.it/2021/e-bello-avere-un-posto-dove-lavorare/) di Giovanni Grossi**Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

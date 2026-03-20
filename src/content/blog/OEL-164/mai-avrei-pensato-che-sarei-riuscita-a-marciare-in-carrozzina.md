@@ -19,7 +19,11 @@ numero_rivista: "Ombre e Luci"
 subtitle: "I quattro giorni della Piccola Marcia di Assisi"
 ---
 
-Lapiccola marcia è stata un momento sensazionale. Vi dico così perché a livello di legami è stata forte! **Qui da Roma siamo partiti in sei, quando siamo arrivati lì abbiamo incontrato un sacco di gente nuova...** ma c'era già un legame di fratellanza e di amore! C'era già un legame, come dico io, "di famiglia" nonostante tutte le diversità.
+Lapiccola marcia è stata un momento sensazionale. Vi dico così perché a livello di legami è stata forte!
+
+**Qui da Roma siamo partiti in sei, quando siamo arrivati lì abbiamo incontrato un sacco di gente nuova...**
+
+ma c'era già un legame di fratellanza e di amore! C'era già un legame, come dico io, "di famiglia" nonostante tutte le diversità.
 
 Se invece vogliamo guardare il punto di vista spirituale, per me la Piccola Marcia è stata molto forte perché quando ho iniziato a marciare, mi pare il giorno dopo che sono arrivata a Perugia, già da li sentivo qualcosa. Ad essere precisa ero a Ospedalicchio, dove c'è stata la prima sosta per sistemarci e poi partire per iniziare la nostra avventura.
 
@@ -35,7 +39,11 @@ Chi ha organizzato questa marcia ha veramente pensato a tutto. Vi posso garantir
 
 Vi vorrei dire tante cose della Piccola Marcia: è una cosa che ti segna, è una cosa che ti fa crescere! Voglio ringraziare fra Paolo, fra Nicola, fra Alessandro e fra Giovanni e tutte le persone che stanno all'interno dell'organizzazione, ma soprattutto voglio fare un saluto al gruppo della Piccola Marcia di Saverio. Quindi io più che dirvi questo non so che dirvi. Vi posso soltanto invitare a fare anche voi questa bellissima esperienza e non avere paura di ciò che vi può cambiare dentro.
 
-Per la prima volta siamo stati più tempo senza telefono che con i telefoni. **E lì la cosa bella è che è uscita la vera Antonietta.** Forse, ecco, qui a Roma una cosa che non riesco a fare e far uscire la vera Antonietta. Chissà forse la tecnologia che oggi pervade tutto, non ci fa vedere le vere bellezze della natura...
+Per la prima volta siamo stati più tempo senza telefono che con i telefoni.
+
+**E lì la cosa bella è che è uscita la vera Antonietta.**
+
+Forse, ecco, qui a Roma una cosa che non riesco a fare e far uscire la vera Antonietta. Chissà forse la tecnologia che oggi pervade tutto, non ci fa vedere le vere bellezze della natura...
 
 Con questo vi saluto e vi mando un forte abbraccio. Se volete vedere di più vi lascio il video del nostro arrivo ad Assisi e del discorso che ho fatto sul palco (minuto 1:51:00). A presto!
 

@@ -1,5 +1,4 @@
 ---
-
 title: Come pinguini nel deserto - Recensione
 date: 2013-06-10
 author: Cristina Tersigni
@@ -17,10 +16,10 @@ id_numero: "OEL-122"
 numero_rivista: "Ombre e Luci"
 ---
 
-Illibro raccoglie una serie di testimonianze di genitori di figli con sindrome di Down scritte tra il 2003 e il 2005 su un forum della rete, dove decine di madri e padri hanno condiviso le loro paure, le difficoltà e le speranze su diversi momenti che accompagnano la crescita del figlio.
+Il libro raccoglie una serie di testimonianze di genitori di figli con sindrome di Down scritte tra il 2003 e il 2005 su un forum della rete, dove decine di madri e padri hanno condiviso le loro paure, le difficoltà e le speranze su diversi momenti che accompagnano la crescita del figlio.
 
-**In seguito alla chiusura del forum** , alcune persone che lo animavano hanno deciso di farlo rivivere su un nuovo dominio ( [pianetadown.org](https://www.pianetadown.org/) ) e di riportare le testimonianze più significative in questa raccolta voluminosa, suddivisa per argomenti specifici: si va dalla diagnosi alle terapie, passando per il comportamento e l’integrazione sociale.
+**In seguito alla chiusura del forum**
 
-**Scritto in modo estremamente semplice e discorsivo** , e riprendendo fedelmente la struttura originaria del forum, questo libro regala un piacevole momento di confronto e conforto a tutti quei genitori speciali che, esattamente come chi l’ha scritto, affrontano un mondo in cui i loro figli “camminano goffamente ma non da soli e vengono visti dagli altri un po’ come estranei… come pinguini nel deserto”.
-
-*Matteo Cinti* , 2013
+, alcune persone che lo animavano hanno deciso di farlo rivivere su un nuovo dominio ([pianetadown.org](https://www.pianetadown.org/)) e di riportare le testimonianze più significative in questa raccolta voluminosa, suddivisa per argomenti specifici: si va dalla diagnosi alle terapie, passando per il comportamento e l’integrazione sociale. **Scritto in modo estremamente semplice e discorsivo** , e riprendendo fedelmente la struttura originaria del forum, questo libro regala un piacevole momento di confronto e conforto a tutti quei genitori speciali che, esattamente come chi l’ha scritto, affrontano un mondo in cui i loro figli “camminano goffamente ma non da soli e vengono visti dagli altri un po’ come estranei… come pinguini nel deserto”. _Matteo Cinti_ , 2013Questo articolo è tratto da
+[Ombre e Luci n.122](https://www.ombreeluci.it/project/numero-122-momenti-difficili/ "Ombre e Luci n.122")
+[](https://www.ombreeluci.it/project/numero-122-momenti-difficili/ "Ombre e Luci n.122")

@@ -31,17 +31,21 @@ Se poi mettiamo come contenuti gli insegnamenti di Gesù abbiamo raggiunto il me
 
 Immergersi nelle situazioni di una parabola, riviverle attraverso i gesti, i movimenti del corpo, significa penetrarne il significato e comprenderlo come mai qualsiasi tentativo di parole su parole potrebbe raggiungere. Gesù che alza la mano nel proferire le parole dette dal lettore, Gesù che accarezza, che abbraccia, che benedice, sono così toccanti che io spesso, e non solo io, mi ritrovo con gli occhi umidi, profondamente commossa. Il silenzio intorno è totale, ogni attore-mimo è attento, serio come mai, cerca di esprimersi con tutte le sue capacità e ci riesce, perché la Parola veicola con tanta efficacia da coinvolgere tutti. Il carnet de Route ci dice che molti trovano superato il termine «mimo» perché richiama alla mente gli attori gli spettatori, una storia che si cerca di tradurre con dei gesti. Propone di chiamare questo momento essenziale del nostro incontro: “Rivivere il Vangelo”. Ma noi che abbiamo capito che il “mimo” è un mezzo semplice accessibile a tutti, compresi soprattutto i nostri ragazzi, di esprimere i propri vissuti, rivivendo la Parola di Gesù, chiameremo questo momento “Rivivere il Vangelo" attraverso il mimo.
 
-Questo momento comporta alcuni aspetti: - vivere la Parola di Gesù con tutto il nostro essere durante il mimo; - dopo il mimo comunicare con le proprie parole quello che si è vissuto nell'interpretare la Parola di Gesù e condividerle. - dopo rincontro vivere il messaggio d'amore concretamente, con i nostri fratelli.
+Questo momento comporta alcuni aspetti:
 
-- **Vittoria Episcopello** - [Comunità “Spirito d’Amore” - Bari](http://www.fedeeluce.it/comunita/spirito-damore/) , 1998
+- vivere la Parola di Gesù con tutto il nostro essere durante il mimo
+- dopo il mimo comunicare con le proprie parole quello che si è vissuto nell'interpretare la Parola di Gesù e condividerle.
+- dopo rincontro vivere il messaggio d'amore concretamente, con i nostri fratelli.
 
+**Vittoria Episcopello**
+
+- [Comunità “Spirito d’Amore” - Bari](http://www.fedeeluce.it/comunita/spirito-damore/) , 1998
 
 ---
 
 ### Suor Margherita: un dono
 
 Una vita semplice fatta di amore e dedizione agli altri. E davvero fortunato è stato chi l’ha conosciuta e ha collaborato con lei. Credeva in Gesù e sapeva che seguirlo significava avanzare nella sua stessa direzione, con la stessa luce nello sguardo , con le mani aperte , con il cuore sempre offerto. Nel suo sguardo , sempre sorridente , si leggeva l'amore per il Padre e quest'amore l'ha portata ad accogliere e trattare tutti gli uomini e donne come uguali , riconoscendo una dignità umana e divina anche a chi bello e perfetto non è. A Mazara è stata lei che nel lontano 1983 ha piantato il seme della prima comunità Fede e Luce. Da allora , la Comunità è cresciuta ed altri semi sono germogliati in altri paesi della Sicilia. Il ricordo di Suor Margherita Fortuna rimarrà nel cuore di tutti. Una donna che si è fatta dono per amore!
-
 
 ---
 
@@ -51,4 +55,6 @@ La prima volta che siamo andate a Fede e Luce, eravamo tanto piccole che neanche
 
 Volevamo raccontare del tema del campo, dei tanti giochi, delle tante avventure, delle bellissime amicizie che abbiamo fatto con tutti e specialmente con Piero e Dafne. Però, Piero è volato in Cielo e ci fa troppa tristezza raccontare... anche se siamo sicure che è morta quella malattia che aveva, ma Piero, lui, no.
 
-- **Irene e Laura** (10 e 9 anni) - Comunità Don Orione - Roma
+**Irene e Laura**
+
+(10 e 9 anni) - Comunità Don Orione - Roma

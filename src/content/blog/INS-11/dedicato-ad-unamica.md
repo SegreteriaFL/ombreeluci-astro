@@ -1,5 +1,4 @@
 ---
-
 title: "Dedicato ad un'amica"
 date: 1976-09-20
 author: Redazione
@@ -19,22 +18,48 @@ numero_rivista: "Insieme"
 subtitle: "Un'incredibile lezione di vita: il prezioso insegnamento di un'amica speciale, la forza e saggezza di un'anima custode di segreti profondi"
 ---
 
-Tu sei là, davanti a me, con il tuo corpicino ogni giorno più lungo, in fiore, come è la natura in quest'epoca, ma che ancora non dimostra la tua adolescenza.
+Tu sei là, davanti a me,
+con il tuo corpicino ogni giorno più lungo,
+in fiore, come è la natura in quest'epoca,
+ma che ancora non dimostra la tua adolescenza.
 
-Con lo sguardo attratto da ogni cosa meccanica e lucente come una piccola gazza, con il dito eternamente in bocca ed il mento umido di saliva...
+Con lo sguardo attratto da ogni cosa meccanica e lucente
+come una piccola gazza,
+con il dito eternamente in bocca
+ed il mento umido di saliva...
 
-Dicono che sei una bimba grave, la diagnosi è questa, ma i tuoi genitori non sanno quanto valore abbia la tua vita.
+Dicono che sei una bimba grave,
+la diagnosi è questa,
+ma i tuoi genitori non sanno
+quanto valore abbia la tua vita.
 
-In te è la semplicità di chi resta sempre un fanciullo; semplicità per tanti troppo difficile da possedere.
+In te è la semplicità di chi resta
+sempre un fanciullo;
+semplicità per tanti
+troppo difficile da possedere.
 
-In te la grandezza dei personaggi importanti, di quelli la cui presenza richiede silenzio e rispetto.
+In te la grandezza
+dei personaggi importanti,
+di quelli la cui presenza richiede
+silenzio e rispetto.
 
-In te la forza dei trascinatori silenziosi di folle...
+In te la forza
+dei trascinatori silenziosi di folle...
 
-Con la tua vita, apparentemente senza valore, ci conduci, mi conduci a credere e vivere la fratellanza e l'amore
+Con la tua vita,
+apparentemente senza valore,
+ci conduci,
+mi conduci
+a credere e vivere
+la fratellanza e l'amore
 
 e quando ti tengo tra le mie braccia
 
-sei tu in realtà che sostieni il peso di tutte e due.
+sei tu in realtà
+che sostieni il peso di tutte e due.
 
-*Un'amica di Fede e Luce* , 1976
+_Un'amica di Fede e Luce_ , 1976
+
+Questo articolo è tratto da:
+**[Insieme n.10, 1976](https://www.ombreeluci.it/project/insieme-n-10-bollettino-fede-e-luce-1976/)
+[](https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-10-set-1976.jpg)**

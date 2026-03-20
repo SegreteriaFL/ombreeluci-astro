@@ -19,7 +19,11 @@ numero_rivista: "Ombre e Luci"
 subtitle: "The experience of Giovanni Iannò, educator and dog trainer, founder of the ComuniCane school."
 ---
 
-It was in the world of smells that Flush passed most of his life. Love was mostly smell, shapes and colors were smell, music and architecture, law, politics and science were smell. For him, religion was also smelling. With these words Virginia Woolf concludes the biography of the dog Flush. It was 1933, it was not a dog or veterinary expert, yet the writer had grasped something eternal and profound. **This ability to relate contexts, smells, emotions and the concretization then in experience, in bonding, in affection** has always made me feel in great empathy with the ‘odorous’ world of dogs, spontaneously my own.
+It was in the world of smells that Flush passed most of his life. Love was mostly smell, shapes and colors were smell, music and architecture, law, politics and science were smell. For him, religion was also smelling. With these words Virginia Woolf concludes the biography of the dog Flush. It was 1933, it was not a dog or veterinary expert, yet the writer had grasped something eternal and profound.
+
+**This ability to relate contexts, smells, emotions and the concretization then in experience, in bonding, in affection**
+
+has always made me feel in great empathy with the ‘odorous’ world of dogs, spontaneously my own.
 
 I was still an adolescent, in fact, when I learned to develop this skill: associating smells with memories, scents with emotions. I was just 11 years old and the death of my mother generated a very difficult and profoundly sensitive period. In those months of great emotional confusion, one afternoon I found myself, I don't even know how, inside the closet of mom's winter coats; the “safe”of her smells and my most primordial memories.
 

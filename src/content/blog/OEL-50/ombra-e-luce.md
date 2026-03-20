@@ -1,5 +1,4 @@
 ---
-
 title: Ombra e Luce
 date: 1975-05-03
 author: Redazione
@@ -19,7 +18,8 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Abbracciamoli forte i nostri ragazzi, diversi, difficili, a volte faticosi ma tutti capaci di un messaggio di amore e semplicità. È proprio vicino a loro che ritroveremo la luce"
 ---
 
-Abbiamo visto tutti, in questi giorni dopo la Pasqua, nelle nostre chiese il cero pasquale, simbolo della luce che il Signore con la sua parola, la sua vita, la sua morte per noi, ha portato nel mondo avvolto nelle tenebre. La notte del sabato Santo, abbiamo acceso la nostra candelina e abbiamo ripetute nella chiesa buia:
+Abbiamo visto tutti, in questi giorni dopo la Pasqua, nelle nostre chiese il cero pasquale, simbolo della luce che il Signore con la sua parola, la sua vita, la sua morte per noi, ha portato nel mondo avvolto nelle tenebre.
+La notte del sabato Santo, abbiamo acceso la nostra candelina e abbiamo ripetute nella chiesa buia:
 
 > Tu, o Signore, sei la vera luce che illumina la nostra notte, la vita di tutti i giorni...
 
@@ -31,34 +31,10 @@ Questo accade ai piccoli e ai grandi, per motivi gravi e meno gravi: pensieri, p
 
 **Si fa buio, la luce se n'è andata.**
 
-C'è poi che deve vivere ogni giorno una fatica che sembra a volte più grande di noi: seguire, aiutare, vestire, lavare un bambino o un ragazzo in difficoltà. A volte è facile; prevale l'amore, si sta bene, si è in forma, il ragazzo è docile. A volte è difficile, penoso, stancante, non ce la si fa più...
+C'è poi che deve vivere ogni giorno una fatica che sembra a volte più grande di noi: seguire, aiutare, vestire, lavare un bambino o un ragazzo in difficoltà. A volte è facile; prevale l'amore, si sta bene, si è in forma, il ragazzo è docile. A volte è difficile, penoso, stancante, non ce la si fa più... **Eppure è proprio vicino a loro che dovremmo ritrovare la luce.** Insieme, cerchiamo di fare uno sforzo, abbracciamoli tutti con il pensiero, l'affetto, l'amore... tutti i nostri ragazzi: Nicola, Alberto, Diego, Luciana, Marina, Carla... e tanti, tanti altri... difficili sì, diversi sì, a volte tanto faticosi, ma **tutti capaci di offrire** ai genitori, educatori, fratelli, amici, **un messaggio di amore e di semplicità che noi non sappiamo dare agli altri, come loro.** Le luci delle loro vite, a noi così difficili da capire, sono molto più forti e più luminose di quelle di tanti ragazzi "normali". Dobbiamo scoprirle, metterle un po' più in alto, avere il coraggio di farle brillare più in vista. In questo povero mondo che - è strano e difficile a dirsi - ha tanto bisogno della loro luce, fatta di semplicità, di sorriso buono, di generosità, di bontà, di silenzio... Luce che è molto più simila della nostra a quella del Cero pasquale! **La redazione** , 1975
 
-**Eppure è proprio vicino a loro che dovremmo ritrovare la luce.**
+> ... Sentivo di avvicinarmi a quel lettino senza voce come ad un altare, a un luogo sacro dove Dio parlava per mezzo di un segno, .
+> Una tristezza che mordeva fin nel profondo, ma leggera e trasfigurata.
+> Mistero. E che non può essere che di bontà, bisogna avere il coraggio di dirlo; una grazia, una grazia troppo pesante* Un'ostia vivente fra noi, muta ccome l'ostia, raggiante come quella."
 
-Insieme, cerchiamo di fare uno sforzo, abbracciamoli tutti con il pensiero, l'affetto, l'amore... tutti i nostri ragazzi: Nicola, Alberto, Diego, Luciana, Marina, Carla... e tanti, tanti altri... difficili sì, diversi sì, a volte tanto faticosi, ma **tutti capaci di offrire** ai genitori, educatori, fratelli, amici, **un messaggio di amore e di semplicità che noi non sappiamo dare agli altri, come loro.** Le luci delle loro vite, a noi così difficili da capire, sono molto più forti e più luminose di quelle di tanti ragazzi "normali". Dobbiamo scoprirle, metterle un po' più in alto, avere il coraggio di farle brillare più in vista.
-
-In questo povero mondo che - è strano e difficile a dirsi - ha tanto bisogno della loro luce, fatta di semplicità, di sorriso buono, di generosità, di bontà, di silenzio...
-
-Luce che è molto più simila della nostra a quella del Cero pasquale!
-
-**La redazione** , 1975
-
-> ... Sentivo di avvicinarmi a quel lettino senza voce come ad un altare, a un luogo sacro dove Dio parlava per mezzo di un segno, . Una tristezza che mordeva fin nel profondo, ma leggera e trasfigurata. Mistero. E che non può essere che di bontà, bisogna avere il coraggio di dirlo; una grazia, una grazia troppo pesante* Un'ostia vivente fra noi, muta ccome l'ostia, raggiante come quella."
-
-*Da una lettera di E Mounier del 194'0 (scrittore, giornalista, fondatore e direttore della Rivista Esprit.)*
-
------------
-
-Questo articolo è tratto da:
-**[Insieme n.5, 1975](https://www.ombreeluci.it/project/insieme-n-5-bollettino-fede-e-luce/)**
-[Come dire di sì?](https://www.ombreeluci.it/1975/come-dire-di-si/)
-di Redazione
-[Ombra e Luce](https://www.ombreeluci.it/1975/ombra-e-luce/)
-di Redazione
-[Gli amici dei Bimbi](https://www.ombreeluci.it/1975/gli-amici-dei-bimbi-reparto-gesu-bambino-istituto-santeusebio-vercelli/)
-di S. Zanlungo
-[Giovanissimi n.5](https://www.ombreeluci.it/1975/giovanissimi-insieme-n-5/)
-[Quando parliamo di "loro"](https://www.ombreeluci.it/1975/quando-parliamo-di-loro/)
-di M.H.Mathieu
-[Programma del Pellegrinaggio a Roma del 1975](https://www.ombreeluci.it/1975/programma-del-pellegrinaggio-a-roma-del-1975/)
-di Redazione
+_Da una lettera di E Mounier del 194'0 (scrittore, giornalista, fondatore e direttore della Rivista Esprit.)_ \-----------Questo articolo è tratto da: **[Insieme n.5, 1975](https://www.ombreeluci.it/project/insieme-n-5-bollettino-fede-e-luce/)** [](https://www.ombreeluci.it/project/insieme-n-5-bollettino-fede-e-luce/) Sommario [Come dire di sì?](https://www.ombreeluci.it/1975/come-dire-di-si/ "Ombra e Luce") di Redazione [Ombra e Luce](https://www.ombreeluci.it/1975/ombra-e-luce/ "Ombra e Luce") di Redazione [Gli amici dei Bimbi](https://www.ombreeluci.it/1975/gli-amici-dei-bimbi-reparto-gesu-bambino-istituto-santeusebio-vercelli/ "Gli amici dei Bimbi del reparto Gesù Bambino del Sant'Eusebio di Vercelli") di S. Zanlungo [Giovanissimi n.5](https://www.ombreeluci.it/1975/giovanissimi-insieme-n-5/ "Giovanissimi insieme n.5") [Quando parliamo di "loro"](https://www.ombreeluci.it/1975/quando-parliamo-di-loro/ "quando parliamo di loro") di M.H.Mathieu [Programma del Pellegrinaggio a Roma del 1975](https://www.ombreeluci.it/1975/programma-del-pellegrinaggio-a-roma-del-1975/ "Programma del Pellegrinaggio a Roma del 1975") di Redazione

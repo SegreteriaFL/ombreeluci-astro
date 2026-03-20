@@ -60,7 +60,7 @@ Qualche nota ancora su questo cerchio, «tecnica di base» che favorisce l’att
 
 Infine, la tecnica del cerchio può essere utilizzata:
 
-- per cominciare un’attività più movimentata e dispersa, per spiegare un gioco di movimento, ad esempio;
+- per cominciare un’attività più movimentata e dispersa, per spiegare un gioco di movimento, ad esempio
 - per concludere un’attività, una riunione o una giornata, per raggruppare le persone, per salutarsi prima della partenza, per una preghiera in comune...
 
 Se in questi casi non ci si siede, il darsi la mano faciliterà il raggruppamento e il sentimento di unità, di gioia e di armonia finale.

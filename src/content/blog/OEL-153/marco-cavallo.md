@@ -1,5 +1,4 @@
 ---
-
 title: Marco Cavallo
 date: 2021-04-28
 author: Nicla Bettazzi
@@ -17,28 +16,35 @@ id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
 
-*Nella foto: Uno dei nipoti di Marco Cavallo che “vive” ancora al San Giovanni di Trieste (fotografia di Serena Sillitto)*
+_Nella foto: Uno dei nipoti di Marco Cavallo che “vive” ancora al San Giovanni di Trieste (fotografia di Serena Sillitto)_ Al complesso manicomiale del San Giovanni di Trieste nel 1971 arriva Franco Basaglia, l’uomo che rivoluzionerà l’approccio alle psicosi e restituirà ai malati i diritti personali e sociali, incluso quello fondamentale alla libertà. Con sé porta l’esperienza del manicomio di Gorizia, un gruppo di giovani seguaci e la convinzione che «dal momento in cui oltrepassa il muro dell’internamento, il malato entra in una nuova dimensione di vuoto emozionale. Viene immesso cioè in uno spazio che, nato per renderlo inoffensivo e insieme curarlo, appare in pratica come un luogo costruito per il completo annientamento della sua individualità». Nel 1972 viene organizzato un laboratorio per realizzare un cavallo, chiamato Marco, di legno e cartapesta; il modello è un suo omonimo ronzino che dal 1959 traina il carretto della biancheria sporca e dei rifiuti al San Giovanni. Amatissimo dai pazienti, l’animale dovrebbe essere abbattuto per raggiunti limiti di età, e sostituito da un motocarro. Viene però inviata una lettera alla Provincia nella quale si chiede che al posto della prevista macellazione, ci sia «un dignitoso pensionamento per meriti lavorativi»; la richiesta verrà accolta. Intanto l’altro Marco Cavallo è finito: altissimo (4 metri), per poter idealmente contenere tutti i desideri dei ricoverati e di chi crede con loro, è azzurro, il colore dei sogni. Pronta per portare all’esterno un simbolo dell’umanità allora nascosta e misconosciuta all’interno degli ospedali psichiatrici, nel febbraio del 1973 la scultura può finalmente uscire dal frenocomio su una piattaforma a rotelle. L’animale azzurro alla testa di un corteo di studenti, operatori, pazienti e artisti percorre le vie di Trieste: è una festa, nonostante le paure profonde per quell’avventura senza precedenti.Questo articolo è tratto da
+[**Ombre e Luci n. 153, 2021**](https://www.ombreeluci.it/project/numero-153-nello-spazio-e-nel-tempo/) **SOMMARIO** _Editoriale_**
+**[**Tutta un'altra storia**](https://www.ombreeluci.it/2021/tutta-unaltra-storia/)di Cristina Tersigni _Focus_
+[**Per una storia della disabilità**](https://www.ombreeluci.it/2021/per-una-storia-della-disabilita/) di Giulia Galeotti _Estratto_
+**Il crimine di Eva**
 
-Al complesso manicomiale del San Giovanni di Trieste nel 1971 arriva Franco Basaglia, l’uomo che rivoluzionerà l’approccio alle psicosi e restituirà ai malati i diritti personali e sociali, incluso quello fondamentale alla libertà. Con sé porta l’esperienza del manicomio di Gorizia, un gruppo di giovani seguaci e la convinzione che «dal momento in cui oltrepassa il muro dell’internamento, il malato entra in una nuova dimensione di vuoto emozionale. Viene immesso cioè in uno spazio che, nato per renderlo inoffensivo e insieme curarlo, appare in pratica come un luogo costruito per il completo annientamento della sua individualità».
+di Eliane Brum _Dall'archivio_
+**Un tesoro in vasi di creta**
 
-Nel 1972 viene organizzato un laboratorio per realizzare un cavallo, chiamato Marco, di legno e cartapesta; il modello è un suo omonimo ronzino che dal 1959 traina il carretto della biancheria sporca e dei rifiuti al San Giovanni. Amatissimo dai pazienti, l’animale dovrebbe essere abbattuto per raggiunti limiti di età, e sostituito da un motocarro. Viene però inviata una lettera alla Provincia nella quale si chiede che al posto della prevista macellazione, ci sia «un dignitoso pensionamento per meriti lavorativi»; la richiesta verrà accolta. Intanto l’altro Marco Cavallo è finito: altissimo (4 metri), per poter idealmente contenere tutti i desideri dei ricoverati e di chi crede con loro, è azzurro, il colore dei sogni. Pronta per portare all’esterno un simbolo dell’umanità allora nascosta e misconosciuta all’interno degli ospedali psichiatrici, nel febbraio del 1973 la scultura può finalmente uscire dal frenocomio su una piattaforma a rotelle. L’animale azzurro alla testa di un corteo di studenti, operatori, pazienti e artisti percorre le vie di Trieste: è una festa, nonostante le paure profonde per quell’avventura senza precedenti.
+di Dario Madaschi _Associazioni_
+**Nella casa di Dario**
 
-*Editoriale* ** ** [**Tutta un'altra storia**](https://www.ombreeluci.it/2021/tutta-unaltra-storia/) di Cristina Tersigni
+di Carlo Maria Fornari _Fede e Luce_
+[**Una piccola matita nelle sue mani**](https://www.ombreeluci.it/2021/una-piccola-matita-nelle-sue-mani/) di Vito Giannulo _Spettacoli_
+[**Perché di Katherine e Nerissa non ci sono più tracce?**](https://www.ombreeluci.it/2021/the-crown-perche-katherine-e-nerissa-non-ci-sono-tracce/) di Enrica Riera **Dialogo Aperto
+** _Libri_
+[**Imparare a cadere**](https://www.ombreeluci.it/2021/imparare-a-cadere-recensione/) di Mikael Ross
+**Dove crescono i cocomeri**
 
-*Focus* [**Per una storia della disabilità**](https://www.ombreeluci.it/2021/per-una-storia-della-disabilita/) di Giulia Galeotti
+di Cindy Baldwin
+**L'eredità dei vivi**
 
-*Estratto* **Il crimine di Eva** di Eliane Brum
+di Federica Sgaggio
+**Marie la strabica**
 
-*Dall'archivio* **Un tesoro in vasi di creta** di Dario Madaschi
+di Georges Simenon _Diari_
+**Bella ma inutile. Cronache da Trigoria**
 
-*Associazioni* **Nella casa di Dario** di Carlo Maria Fornari
-
-*Fede e Luce* [**Una piccola matita nelle sue mani**](https://www.ombreeluci.it/2021/una-piccola-matita-nelle-sue-mani/) di Vito Giannulo
-
-*Spettacoli* [**Perché di Katherine e Nerissa non ci sono più tracce?**](https://www.ombreeluci.it/2021/the-crown-perche-katherine-e-nerissa-non-ci-sono-tracce/) di Enrica Riera
-
-**Dialogo Aperto **
-
-*Libri* [**Imparare a cadere**](https://www.ombreeluci.it/2021/imparare-a-cadere-recensione/) di Mikael Ross **Dove crescono i cocomeri** di Cindy Baldwin **L'eredità dei vivi** di Federica Sgaggio **Marie la strabica** di Georges Simenon
-
-*Diari* **Bella ma inutile. Cronache da Trigoria** di Benedetta Mattei [**È bello avere un posto dove lavorare**](https://www.ombreeluci.it/2021/e-bello-avere-un-posto-dove-lavorare/) di Giovanni Grossi
+di Benedetta Mattei
+[**È bello avere un posto dove lavorare**](https://www.ombreeluci.it/2021/e-bello-avere-un-posto-dove-lavorare/) di Giovanni Grossi **Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

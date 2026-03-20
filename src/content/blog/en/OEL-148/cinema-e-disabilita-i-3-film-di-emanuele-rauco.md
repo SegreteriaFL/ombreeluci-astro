@@ -1,5 +1,4 @@
 ---
-
 title: "Cinema e disabilità: i 3 film di Emanuele Rauco"
 date: "2019-11-16"
 author: "Emanuele Rauco"
@@ -21,7 +20,13 @@ subtitle: "Abbiamo chiesto ad alcuni critici cinematografici di elencare 3 film 
 
 # Cinema e disabilità: i 3 film di Emanuele Rauco
 
-## Abbiamo chiesto ad alcuni critici cinematografici di elencare 3 film che affrontano il tema della disabilità. Emanuele Rauco, che è selezionatore al Festival del Cinema di Venezia, ha scelto questi.
+## Abbiamo chiesto ad [alcuni critici cinematografici](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/)
+
+di elencare 3 film che affrontano il tema della disabilità.
+
+**Emanuele Rauco**
+
+, che è selezionatore al Festival del Cinema di Venezia, ha scelto questi.
 
 Selezionatore al Festival del Cinema di Venezia
 
@@ -63,22 +68,16 @@ Your content goes here. Edit or remove this text inline or in the module Content
 
 ## Anna dei miracoli
 
-*(The Miracle Worker, USA, 1963, durata 107 min.) di Arthur Penn. Con Anne Bancroft, Patty Duke, Victor Jory, Inga Swenson, Andrew Prine*
-
-Quando la piccola sordo-cieca Helen pronuncia la parola “acqua” verso la fine del film, dopo il percorso intrapreso con l’educatrice che dà il titolo al film, esplodono tutti i brividi del mondo. Merito delle prove colossali di Anne Bancroft e Patty Duke (entrambe premiate con l’Oscar) ma anche, forse soprattutto, del talento di un regista tanto fondamentale quanto poco conosciuto.
+_(The Miracle Worker, USA, 1963, durata 107 min.) di Arthur Penn. Con Anne Bancroft, Patty Duke, Victor Jory, Inga Swenson, Andrew Prine_ Quando la piccola sordo-cieca Helen pronuncia la parola “acqua” verso la fine del film, dopo il percorso intrapreso con l’educatrice che dà il titolo al film, esplodono tutti i brividi del mondo. Merito delle prove colossali di Anne Bancroft e Patty Duke (entrambe premiate con l’Oscar) ma anche, forse soprattutto, del talento di un regista tanto fondamentale quanto poco conosciuto.
 
 ## Dietro la maschera
 
-*(Mask, USA, 1985, durata 120 min.) di Peter Bogdanovich. Con Eric Stoltz, Cher, Sam Elliott, Laura Dern, Ben Piazza. Mask*
-
-Il volto da leone per via della leontiasi, il destino segnato, ma l’adolescente Rocky non se ne cura: va a scuola, ha amici e passioni, ha una vita normale e sa come affrontare le discriminazioni. La grandezza del film di Bogdanovich è tutta qui: nel mostrare la vitale normalità di Rocky. Finale doloroso compreso.
+_(Mask, USA, 1985, durata 120 min.) di Peter Bogdanovich. Con Eric Stoltz, Cher, Sam Elliott, Laura Dern, Ben Piazza. Mask_ Il volto da leone per via della leontiasi, il destino segnato, ma l’adolescente Rocky non se ne cura: va a scuola, ha amici e passioni, ha una vita normale e sa come affrontare le discriminazioni. La grandezza del film di Bogdanovich è tutta qui: nel mostrare la vitale normalità di Rocky. Finale doloroso compreso.
 
 ## Il mio piede sinistro
 
-*(My Left Foot, Irlanda, 1989, durata 100 min.) di Jim Sheridan. Con Brenda Fricker, Daniel Day-Lewis, Ruth McCabe, Cyril Cusack, Hugh O'Conor, Ray McAnally*
+_(My Left Foot, Irlanda, 1989, durata 100 min.) di Jim Sheridan. Con Brenda Fricker, Daniel Day-Lewis, Ruth McCabe, Cyril Cusack, Hugh O'Conor, Ray McAnally_ Un percorso esemplare proprio perché impossibile: diventare uno scrittore e pittore affermato pur potendo muovere solo il piede sinistro a causa di una paralisi cerebrale. Amore e voglia di vivere condensati in un film e nella poderosa interpretazione di Daniel Day Lewis, al suo primo Oscar. Tratto dall’[omonimo libro](https://www.ombreeluci.it/1991/il-mio-piede-sinistro/).
 
-Un percorso esemplare proprio perché impossibile: diventare uno scrittore e pittore affermato pur potendo muovere solo il piede sinistro a causa di una paralisi cerebrale. Amore e voglia di vivere condensati in un film e nella poderosa interpretazione di Daniel Day Lewis, al suo primo Oscar. Tratto dall’[omonimo libro](https://www.ombreeluci.it/1991/il-mio-piede-sinistro/).
-
-### Speciale Cinema e disabilità
+### Speciale [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/ "Speciale Cinema e disabilità - Ombre e Luci")
 
 Con i contributi di:

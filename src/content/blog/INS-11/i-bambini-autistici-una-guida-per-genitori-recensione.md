@@ -1,5 +1,4 @@
 ---
-
 title: I Bambini autistici, una guida per genitori - Recensione
 date: 1976-12-20
 author: Redazione
@@ -23,9 +22,12 @@ subtitle: "Lorna Wing - Armando Editore, 175 pagine - Lire 2.500"
 
 Un libro scritto de un medico che sembra conoscere bene i bambini autistici, le loro famiglie, le loro difficoltà.
 
-**Nella prima parte** l'autore descrive i vari aspetti del comportamento dei bambini autistici e molti genitori riconosceranno dei problemi che purtroppo sono già loro noti. Le diverse teorie sulle cause dell'autismo sono presentate brevemente ed onestamente criticate.
+**Nella prima parte**
 
-Ma raccomandiamo questo libro soprattutto per **la seconda parte** intitolata "Educazione e gestione della vita quotidiana". Essa non offre rimedi-miracolo, né teorie astratte, ma molti consigli pratici basati sull'esperienza e sul desiderio sincero di aiutare genitori e bambini. L'autore crede nell'educazione, crede alla disciplina, ma soprattutto all'amore. "Le migliori tecniche educative non servono se non sono usate da persone che amino veramente il bambino e ne abbiano a cuore la sorte". (pag. 78)
+l'autore descrive i vari aspetti del comportamento dei bambini autistici e molti genitori riconosceranno dei problemi che purtroppo sono già loro noti. Le diverse teorie sulle cause dell'autismo sono presentate brevemente ed onestamente criticate.
+
+Ma raccomandiamo questo libro soprattutto per **la seconda parte** intitolata "Educazione e gestione della vita quotidiana".
+Essa non offre rimedi-miracolo, né teorie astratte, ma molti consigli pratici basati sull'esperienza e sul desiderio sincero di aiutare genitori e bambini. L'autore crede nell'educazione, crede alla disciplina, ma soprattutto all'amore. "Le migliori tecniche educative non servono se non sono usate da persone che amino veramente il bambino e ne abbiano a cuore la sorte". (pag. 78)
 
 Molti consigli valgono anche per i genitori di bambini handicappati anche non autistici, come la importanza dell'unità della famiglia, l'attenzione verso i fratelli e le sorelle, il pericolo di ripiegarsi su sé stessi, l'utilità delle associazioni di genitori.
 
@@ -33,6 +35,12 @@ La dottoressa Wing crede nei genitori, vuole toglier loro il senso di colpa e da
 
 Per chi legge il francese o l'inglese, in questi ultimi anni sono state pubblicate tre testimonianze di manne e bambini autistici molto avvincenti:
 
-*Catu, ou l'enfance muette* di Denise Herbanidière *Histoire d'Elly* (tradotto dall'ingelse "The Siege") di Clara C. Park *Pour l'amour d'Anne* (dall'inglese "For the Love of Anne"), quest'ultimo dovrebbe apparire prossimamente in italiano.
+_Catu, ou l'enfance muette_ di Denise Herbanidière
+ _Histoire d'Elly_ (tradotto dall'ingelse "The Siege") di Clara C. Park
+ _Pour l'amour d'Anne_ (dall'inglese "For the Love of Anne"), quest'ultimo dovrebbe apparire prossimamente in italiano.
 
 NB. Questi libri possono essere chiesti in prestito alla Segreteria Nazionale.
+
+Questo articolo è tratto da:
+**[Insieme n.11, 1976](https://www.ombreeluci.it/project/insieme-n-11-bollettino-fede-e-luce-1976/)
+[](https://www.ombreeluci.it/project/insieme-n-11-bollettino-fede-e-luce-1976/)**

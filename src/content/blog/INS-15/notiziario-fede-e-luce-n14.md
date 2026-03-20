@@ -1,5 +1,4 @@
 ---
-
 title: Notiziario Fede e Luce n.14
 date: 1977-09-20
 author: Redazione
@@ -21,28 +20,36 @@ numero_rivista: "Insieme"
 
 Sono stati vari i momenti trascorsi insieme in quest'ultimo periodo, molti forse ne saranno rimasti un pò al di fuori per un motivo o per un altro, tutti ne possono ritrovare qui i punti essenziali.
 
-**Pasqua 1977: Venerdì 1º Aprile - L'ARCHE a Roma!** La gradita sorpresa dell'uovo è stato l'arrivo, inatteso ma non per questo meno simpatico, di un gruppetto de "La Merci" (comunità dell'Arche di J.Vanier situata nel sud est della Francia).
+**Pasqua 1977: Venerdì 1º Aprile - L'ARCHE a Roma!**
+La gradita sorpresa dell'uovo è stato l'arrivo, inatteso ma non per questo meno simpatico, di un gruppetto de "La Merci" (comunità dell'Arche di J.Vanier situata nel sud est della Francia).
 
 Attraverso una bella serie di diapositive ci hanno illustrato in loro vita semplice, le piccole comunità dove vivono in 10 o 12 persone per casa, i giardini, il grado orto, i laboratori per il mosaico, il lavoro del vimini, la preparazione di sottoprodotti per l'industria.
 
-"Vivere con te è fare un posto per te nel mio cuore, vivere insieme è partecipare alla lunga costruzione di un mondo d'amore" scandiva piano il commento alle diapositive, ma la gioia, l'allegria, il modo di affrontare o superare insieme le difficoltà di ogni giorno trasparivano dalle immagini senza bisogno di commenti.
+"Vivere con te è fare un posto per te nel mio cuore, vivere insieme è partecipare alla lunga costruzione di un mondo d'amore"
+scandiva piano il commento alle diapositive, ma la gioia, l'allegria, il modo di affrontare o superare insieme le difficoltà di ogni giorno trasparivano dalle immagini senza bisogno di commenti.
 
 Dopo le diapositive abbiamo diviso dolci e panini (eravamo circa un centinaio) continuando a scambiarci opinioni a gruppetti e poi, per finire, ci siamo ritrovati a cantare tutti insieme, nella veglia prima, per la strada fino al loro pulmann (marca Arche, ovvero tipo pseudo-ante-guerra), poi.
 
-**Sabato 2 Aprile: Festa delle Palme.** Gli stessi amici li hanno potuti incontrare quanti erano sabato 2 aprile a Villa Patrizi per la celebrazione delle Palme: Louis ha benedetto i rami di ulivo in giardino e poi, accompagnati dalla chitarra di Raffaele, ci siamo recati in processione in chiesa, per la messa.
+**Sabato 2 Aprile: Festa delle Palme.**
+Gli stessi amici li hanno potuti incontrare quanti erano sabato 2 aprile a Villa Patrizi per la celebrazione delle Palme: Louis ha benedetto i rami di ulivo in giardino e poi, accompagnati dalla chitarra di Raffaele, ci siamo recati in processione in chiesa, per la messa.
 
 Dopo, Jaques ha brevemente illustrato la vita de "La Merci" per quelli che non avevano visto le diapositive e tra canti e merenda è arrivata presto per i nostri amici francesi l'ora di ripartire, questa volta, definitivamente.
 
-**S. Paolo, S. Silvia e S. Gioacchino** si sono incontrati proprio in Domenica dello Palme, gli uni all'Oratorio di S. Paolo, gli altri al Nazareth.
+**S. Paolo, S. Silvia e S. Gioacchino**
 
-**A San Paolo** la processione e la messa sono state celebrate nella chiesa dell'Oratorio con tutti gli altri fedeli: si era in tanti... la folla di 2000 anni fa non era lontana.
+si sono incontrati proprio in Domenica dello Palme, gli uni all'Oratorio di S. Paolo, gli altri al Nazareth.
+
+**A San Paolo**
+
+la processione e la messa sono state celebrate nella chiesa dell'Oratorio con tutti gli altri fedeli: si era in tanti... la folla di 2000 anni fa non era lontana.
 
 Poi, pranzo in comune e grandi giochi fino a sera.
 
-**A Nazareth** , oltre alla gioia dell'incontro o allo scambio di auguri, durante la messa abbiamo commentato il Vangelo del giorno con della diapositive: esperimento graditissimo, a giudicare dall'attenzione, dal silenzio reverenziale che l'ha accompagnato.
+**A Nazareth**
 
+, oltre alla gioia dell'incontro o allo scambio di auguri, durante la messa abbiamo commentato il Vangelo del giorno con della diapositive: esperimento graditissimo, a giudicare dall'attenzione, dal silenzio reverenziale che l'ha accompagnato.
 
----
+* * *
 
 ### Cuneo
 
@@ -56,10 +63,9 @@ Quello che mi ha colpito di più nella giornata trascorsa insieme è stata la gi
 
 Io penso che se ciascuno dei partecipanti alla gita ha avuto qualche momento di serenità o di allegria, l'esperienza che abbiamo vissuto insieme è stata positiva.
 
-*Marilena Fiandrino*
+_Marilena Fiandrino_
 
-
----
+* * *
 
 ### Milano 15/5/77, un incontro gioioso
 
@@ -79,13 +85,16 @@ Abbiamo iniziato il nostro incontro offrendo una gustosa cena fredda con panini 
 
 Soprattutto mi hanno colpito le parole di Louis che ha introdotto il discorso sull'amore:
 
-Amore nell'aiutarsi uno con l'altro, incominciando dalle piccole cose. Amore: non lasciare mai da parte l'emarginato. Portare sempre tanta pace nel mondo: sorridere ed ascoltare chi ti è vicino; donarsi per gli altri ed essere pronti quando hanno bisogno.
+Amore nell'aiutarsi uno con l'altro, incominciando dalle piccole cose.
+Amore: non lasciare mai da parte l'emarginato.
+Portare sempre tanta pace nel mondo: sorridere ed ascoltare chi ti è vicino; donarsi per gli altri ed essere pronti quando hanno bisogno.
 
 Nella mattinata di domenica prima di iniziare l'incontro, Alberto ed io abbiamo accompagnato con piacere alcuni amici che desideravano vedere Milano.
 
 Con piacere abbiamo ascoltato le varie esperienze:
 
-Suor Italia, ha introdotto con la Fiducia: è molto importante averla in se stessi e verso le persone.
+Suor Italia, ha introdotto con la Fiducia:
+è molto importante averla in se stessi e verso le persone.
 
 Mamma di Roberta: è molto importante che la mamma comprenda con affetta la figlia.
 
@@ -101,14 +110,14 @@ Tutti eravamo contenti di parteciparvi.
 
 Avevo tanto bisogno di una giornata piena di gioie e d'allegria, per poter essere maggiormente disponibile per gli altri!
 
-*Maria di Milano*
+_Maria di Milano_
 
-
----
+* * *
 
 ### Ancora su Milano!
 
-Ci avevano scritto che erano solo "duo gatti", buoni a nulla, incapaci di accoglierci in modo confacente... Di gatti ne abbiamo trovati più che per le vie della vecchia Roma (!!!) e in quanto all'accoglienza.... ne siamo stupefatti!
+Ci avevano scritto che erano solo "duo gatti", buoni a nulla, incapaci di accoglierci in modo confacente...
+Di gatti ne abbiamo trovati più che per le vie della vecchia Roma (!!!) e in quanto all'accoglienza.... ne siamo stupefatti!
 
 Immaginatevi una grande sala un po' irregolare (quel tanto che basta a non fare convento) piena di festoni, disegni, allegria, visi sorridenti e mani tese per invitarvi ad entrare e metterti a tuo agio, mentre lo strimpellare di Don Pierangelo sul pianoforte tramutava in melodia quel che un istante prima non era che un vociare.
 
@@ -118,8 +127,7 @@ I fiori per la messa avevano solo colori troppo naturali per poter essere... ver
 
 Beh, certo! Di un gruppo che non funziona, non ha idee, non sa trasmettere agli altri la carica di amicizia che fermenta sotto, voi di Milano avete... tutto il contrario!
 
-
----
+* * *
 
 ### MILANO, 5 giugno: passeggiata di chiusura d'anno
 
@@ -129,11 +137,14 @@ Ora che le scuole stanno per finire e molti tao pochi giorni partiranno per le v
 
 Abbiamo mangiato al sacco con allegria, ospiti di amici della famiglia de Rino. Il posto era incantevole: in mezzo al prato dove non c'era il minimo rumore, siamo stati felici di questo incontro in una giornata con sole discreto e aria buona.
 
-*Maria Goffi*
+_Maria Goffi_
 
 ### Roma Villa Pacis, 29 maggio 1977
 
-"Venghino, siori, venghino!" "Giornalino usato, divertimento assicurato!" "Lo scivolo magico....: te ritrovi per terra prima ancora de capì come!" "Non si fanno crediti" "Vendimi questo. Tu quanto hai incassato?"
+"Venghino, siori, venghino!" "Giornalino usato, divertimento assicurato!"
+"Lo scivolo magico....: te ritrovi per terra prima ancora de capì come!"
+"Non si fanno crediti"
+"Vendimi questo. Tu quanto hai incassato?"
 
 Era un vociare continuo, un correre qua e là da un tavolo all'altro spinti un po' dal senso degli affari, un po' dalla voglia di giocare a far Portaportese, un po' dall'interesse di vedere quanto ci avrebbe fruttato il nostro mercatino delle pulci messo su domenica 20 maggio a Villa Pacis.
 
@@ -144,3 +155,8 @@ Ci eravamo passati la voce di ragazzo in ragazzo, tra amici, conoscenti, compagn
 Così sono sorti il "Mercatino" e la grande "Asta americana" tenuta a fine giornata, quando, incitati dalla voce chiara !! del nostro banditore d'eccezione, ci siamo contesi un quadro, uno scialle e , sorpresa finale, un...
 
 Sì! Un gattino siamese in "pelo e ossa" che per il resto dei suoi giorni dovrà - povero micio, che vita da cani! - sopportare la compagnia di barbara, Gianluca e Andrea, i fortunati vincitori!
+
+Questo articolo è tratto da:
+**[Insieme n.14, 1977](https://www.ombreeluci.it/project/insieme-n-14-bollettino-fede-e-luce-1977/)**
+
+[](https://www.ombreeluci.it/project/insieme-n-14-bollettino-fede-e-luce-1977/)

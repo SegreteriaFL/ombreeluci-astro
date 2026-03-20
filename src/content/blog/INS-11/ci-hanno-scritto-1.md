@@ -1,5 +1,4 @@
 ---
-
 title: Ci hanno scritto
 date: 1976-05-20
 author: Redazione
@@ -21,12 +20,20 @@ subtitle: "La rubrica della posta di Insieme"
 
 ### Da Milano
 
-Ho ricevuto il vostro giornalino "Fede e Luce". Mi piace molto e mi farebbe piacere riceverlo ancora. Vorrei abbonarmi e vi prego sapermi dire come devo regolarmi. Se si può mi piacerebbe anche inviarvi qualche cosa scritta da me che sono un ragazzo molto infelice. Per ora vi ringrazio e rimango in attesa.... *- Luigi Raffaghello*
+Ho ricevuto il vostro giornalino "Fede e Luce". Mi piace molto e mi farebbe piacere riceverlo ancora. Vorrei abbonarmi e vi prego sapermi dire come devo regolarmi. Se si può mi piacerebbe anche inviarvi qualche cosa scritta da me che sono un ragazzo molto infelice.
+Per ora vi ringrazio e rimango in attesa....
+_\- Luigi Raffaghello_
 
-**Ndr.** Prendiamo l'occasione e ricordiamo che per il giornalino non c'è abbonamento stabilito. Ringraziamo tutti coloro che hanno inviato e invieranno un contributo per le spese.
+**Ndr.**
+
+Prendiamo l'occasione e ricordiamo che per il giornalino non c'è abbonamento stabilito. Ringraziamo tutti coloro che hanno inviato e invieranno un contributo per le spese.
 
 Sabato pomeriggio, 8 maggio 1976, in una parrocchia di Milano, si è tenuto il primo incontro di Fede e Luce cui hanno partecipato oltre al nostro nuovo amico Luigi Raffaghello, una trentina di persone.
 
 Alla nuova comunità auguriamo di poter continuare il cammino intrapreso, nella gipia e nella semplicità.
 
 Aspettiamo altre notizie. Alleluia !
+
+Questo articolo è tratto da:
+**[Insieme n.9, 1976](https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/)
+[](https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/)**

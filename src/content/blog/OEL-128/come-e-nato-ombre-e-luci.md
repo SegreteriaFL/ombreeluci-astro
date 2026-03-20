@@ -1,5 +1,4 @@
 ---
-
 title: "Come è nato Ombre e Luci?"
 date: "2014-12-15"
 author: "Mariangela Bertolini"
@@ -19,12 +18,6 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Mariangela racconta come hanno deciso di lanciarsi nell'avventura di realizzare una rivista dedicata alle persone con handicap, alle loro famiglie e i loro amici"
 ---
 
-“Non ricordo più quando ho avuto tra le mani, per la prima volta, Ombres et Lumière. Può darsi nel 1971, Chicca aveva una decina d’anni, viveva in casa e noi eravamo in un abisso che molti genitori conoscono.
-
-Era il silenzio, le lacrime segrete nella notte, accanto al suo letto. Io cercavo di capire il mistero della sua presenza, il senso della sua vita. La grazia ha fatto il suo cammino poco a poco senza che ce ne rendessimo conto. Dopo la luce di Lourdes, c’è stata Fede e Luce con il pellegrinaggio a Roma, gli amici che si sono uniti a noi.
-
-È in quel periodo che ho trovato nella lettura di Ombres et Lumière, forza coraggio e speranza. Vi ho trovato ciò che avrei voluto esprimere da tanto tempo senza riuscirci. Era come una corrispondenza (intesa) con degli amici sconosciuti che offrono il loro cuore e le loro mani a distanza; tutti assetati di raccontare, di ascoltare, di condividere.
-
-Sì, ho sempre considerato Ombres et Lumière come una lettera a più voci. Un “essere insieme” su un percorso roccioso che diventa poco a poco una grande strada piena di gente, dove siamo condotti e guidati da Gesù. Mi sono detta: bisognerebbe che ci fosse anche in Italia una rivista così. Ma come? Ne abbiamo parlato ad un incontro nazionale Fede e Luce e il consenso è stato considerevole. Abbiamo allora deciso di lanciarci”
-
-*Mariangela Bertolini*
+“Non ricordo più quando ho avuto tra le mani, per la prima volta, Ombres et Lumière. Può darsi nel 1971, Chicca aveva una decina d’anni, viveva in casa e noi eravamo in un abisso che molti genitori conoscono. Era il silenzio, le lacrime segrete nella notte, accanto al suo letto. Io cercavo di capire il mistero della sua presenza, il senso della sua vita. La grazia ha fatto il suo cammino poco a poco senza che ce ne rendessimo conto. Dopo la luce di Lourdes, c’è stata Fede e Luce con il pellegrinaggio a Roma, gli amici che si sono uniti a noi. È in quel periodo che ho trovato nella lettura di Ombres et Lumière, forza coraggio e speranza. Vi ho trovato ciò che avrei voluto esprimere da tanto tempo senza riuscirci. Era come una corrispondenza (intesa) con degli amici sconosciuti che offrono il loro cuore e le loro mani a distanza; tutti assetati di raccontare, di ascoltare, di condividere. Sì, ho sempre considerato Ombres et Lumière come una lettera a più voci. Un “essere insieme” su un percorso roccioso che diventa poco a poco una grande strada piena di gente, dove siamo condotti e guidati da Gesù. Mi sono detta: bisognerebbe che ci fosse anche in Italia una rivista così. Ma come? Ne abbiamo parlato ad un incontro nazionale Fede e Luce e il consenso è stato considerevole. Abbiamo allora deciso di lanciarci” _Mariangela Bertolini_ Questo articolo è tratto da
+[Ombre e Luci n.128](https://www.ombreeluci.it/project/numero-128-magnificat/ "Ombre e Luci n.128")
+[](https://www.ombreeluci.it/project/numero-128-magnificat/ "Ombre e Luci n.128")

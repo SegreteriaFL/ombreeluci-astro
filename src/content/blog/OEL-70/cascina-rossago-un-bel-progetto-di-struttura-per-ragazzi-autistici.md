@@ -50,4 +50,6 @@ come la funzione chiave disturbata nell’autismo sulla quale concentrare l'inte
 sarà scelto non solo in base al curriculum formativo ma anche per specifiche caratteristiche personologiche e motivazionali. Riceverà poi una formazione sia teorica che pratica, “sul campo”...
 **La partecipazione dei genitori**
 è fondamentale perché le motivazioni iniziali non si esauriscano e la spinta trasformativa e l’ispirazione “etica” che devono animare queste imprese, non si deteriorino nel tempo. Va da sé che la complessità e la delicatezza della conduzione di una comunità di questo tipo, con gli innumerevoli problemi che comporta, richiede che la partecipazione dei genitori... sia organizzata e diretta in maniera coerente con le esigenze della comunità e del lavoro che vi si svolge.
-**Aggiornamento** Il progetto è stato poi realizzato e ha portato i suoi frutti. Maggiori informazioni sul [sito ufficiale.](https://www.fondazionegenitoriautismo.it/cascinarossago.php)
+**Aggiornamento**
+
+Il progetto è stato poi realizzato e ha portato i suoi frutti. Maggiori informazioni sul [sito ufficiale.](https://www.fondazionegenitoriautismo.it/cascinarossago.php)

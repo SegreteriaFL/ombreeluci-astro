@@ -1,5 +1,4 @@
 ---
-
 title: "La risposta di Gesù"
 date: "2021-05-04"
 author: "Marco Bove"
@@ -17,6 +16,31 @@ id_numero: "OEL-153"
 numero_rivista: "Ombre e Luci"
 ---
 
-«Rabbi, chi ha peccato lui o i suoi genitori?»: nel vangelo di Giovanni (9, 1-7) i discepoli rivolgono a Gesù questa domanda davanti a un uomo nato cieco. È una domanda che giunge fino a noi, con tutta la forza e i dubbi che contiene. In effetti in essa c’è una convinzione molto radicata al tempo di Gesù, ma credo anche oggi: certe “disgrazie” o malattie sono una specie di punizione; se hai peccato Dio ti punisce facendoti capitare qualcosa di male. Invece Dio non punisce nessuno, perché col peccato l’unica cosa che Dio sa fare è usare misericordia, cioè perdonare. Siamo noi con i nostri sensi di colpa che pensiamo di essere stati puniti o di essere la causa della disabilità o della malattia di qualcuno.
+«Rabbi, chi ha peccato lui o i suoi genitori?»: nel vangelo di Giovanni (9, 1-7) i discepoli rivolgono a Gesù questa domanda davanti a un uomo nato cieco. È una domanda che giunge fino a noi, con tutta la forza e i dubbi che contiene. In effetti in essa c’è una convinzione molto radicata al tempo di Gesù, ma credo anche oggi: certe “disgrazie” o malattie sono una specie di punizione; se hai peccato Dio ti punisce facendoti capitare qualcosa di male. Invece Dio non punisce nessuno, perché col peccato l’unica cosa che Dio sa fare è usare misericordia, cioè perdonare. Siamo noi con i nostri sensi di colpa che pensiamo di essere stati puniti o di essere la causa della disabilità o della malattia di qualcuno. Ma allora da dove viene il male? Perché anche oggi stiamo combattendo contro la pandemia? Nel vangelo Gesù risponde «Né lui ha peccato né i suoi genitori, ma è perché in lui siano manifestate le opere di Dio». Cosa significa? Anzitutto che il peccato non c’entra nulla e che la cecità di quell’uomo non viene da Dio. Piuttosto sappiamo che la vita stessa ci fa sperimentare la fragilità e il limite: nessuno può pensare di non ammalarsi mai o di non avere mai difficoltà. In ogni situazione però, soprattutto in quelle più difficili, Dio cerca il nostro bene. Le «opere di Dio» di cui Gesù ci parla sono tutto ciò che di bene Dio vuole fare per noi, per sostenerci nelle difficoltà e poterle superare. Certo noi non possiamo essere solo spettatori, ma dobbiamo allearci con il bene che Dio vuole realizzare. Dio infatti è il creatore, sa fare solo il bene. La domanda sul male però rimane una domanda aperta, senza una vera risposta, cioè possiamo dire che a parte il male che facciamo noi, perché usiamo male i doni di Dio, la cecità o la malattia sono l’occasione in cui può spuntare un bene, l’amore che Dio suscita nel nostro cuore. Non è forse la nostra esperienza a [Fede e Luce](http://fedeeluce.it)?Questo articolo è tratto da
+[**Ombre e Luci n. 153, 2021**](https://www.ombreeluci.it/project/numero-153-nello-spazio-e-nel-tempo/) **SOMMARIO** _Editoriale_**
+**[**Tutta un'altra storia**](https://www.ombreeluci.it/2021/tutta-unaltra-storia/)di Cristina Tersigni _Focus_
+[**Per una storia della disabilità**](https://www.ombreeluci.it/2021/per-una-storia-della-disabilita/) di Giulia Galeotti _Estratto_
+**Il crimine di Eva**
 
-Ma allora da dove viene il male? Perché anche oggi stiamo combattendo contro la pandemia? Nel vangelo Gesù risponde «Né lui ha peccato né i suoi genitori, ma è perché in lui siano manifestate le opere di Dio». Cosa significa? Anzitutto che il peccato non c’entra nulla e che la cecità di quell’uomo non viene da Dio. Piuttosto sappiamo che la vita stessa ci fa sperimentare la fragilità e il limite: nessuno può pensare di non ammalarsi mai o di non avere mai difficoltà. In ogni situazione però, soprattutto in quelle più difficili, Dio cerca il nostro bene. Le «opere di Dio» di cui Gesù ci parla sono tutto ciò che di bene Dio vuole fare per noi, per sostenerci nelle difficoltà e poterle superare. Certo noi non possiamo essere solo spettatori, ma dobbiamo allearci con il bene che Dio vuole realizzare. Dio infatti è il creatore, sa fare solo il bene. La domanda sul male però rimane una domanda aperta, senza una vera risposta, cioè possiamo dire che a parte il male che facciamo noi, perché usiamo male i doni di Dio, la cecità o la malattia sono l’occasione in cui può spuntare un bene, l’amore che Dio suscita nel nostro cuore. Non è forse la nostra esperienza a [Fede e Luce](http://fedeeluce.it)?
+di Eliane Brum _Dall'archivio_
+**Un tesoro in vasi di creta**
+
+di Dario Madaschi _Associazioni_
+**Nella casa di Dario**
+
+di Carlo Maria Fornari _Fede e Luce_
+[**Una piccola matita nelle sue mani**](https://www.ombreeluci.it/2021/una-piccola-matita-nelle-sue-mani/) di Vito Giannulo _Spettacoli_
+[**Perché di Katherine e Nerissa non ci sono più tracce?**](https://www.ombreeluci.it/2021/the-crown-cugine-autismo/) di Enrica Riera **Dialogo Aperto
+** _Libri_
+[**Imparare a cadere**](https://www.ombreeluci.it/2021/imparare-a-cadere-recensione/) di Mikael Ross
+**Dove crescono i cocomeri**
+
+di Cindy Baldwin
+[**L'eredità dei vivi**](https://www.ombreeluci.it/2021/eredita-dei-vivi-recensione/) di Federica Sgaggio
+[**Marie la strabica**](https://www.ombreeluci.it/2021/eredita-dei-vivi-recensione/) di Georges Simenon _Diari_
+**Bella ma inutile. Cronache da Trigoria**
+
+di Benedetta Mattei
+[**È bello avere un posto dove lavorare**](https://www.ombreeluci.it/2021/e-bello-avere-un-posto-dove-lavorare/) di Giovanni Grossi **Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

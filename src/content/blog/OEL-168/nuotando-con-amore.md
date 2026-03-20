@@ -23,4 +23,6 @@ Cari amici ben trovati, il 9 giugno 2024 si è svolta presso il Centro Federale 
 
 Posso testimoniare che i miei occhi non solo hanno visto e vissuto emozioni indescrivibili, ma **ho toccato con manco cosa significa veramente "inclusione sociale"** perché in ogni squadra c’era una persona con disabilità, e persino la commissione di valutazione era mista e per la prima volta da quando faccio sport posso dire che in una sola giornata ho visto due mondi unirsi davvero in un solo obiettivo: aiutare a sensibilizzare.
 
-**Per come la vedo io ci dovrebbero essere più giornate come quella del 9 giugno** , ma soprattutto dovremmo far si che tutte le associazioni possano replicare eventi di questo tipo. Solo così si può andare avanti, sia nel mondo dello sport sia per **combattere l’indifferenza sociale e sportiva.**
+**Per come la vedo io ci dovrebbero essere più giornate come quella del 9 giugno**
+
+, ma soprattutto dovremmo far si che tutte le associazioni possano replicare eventi di questo tipo. Solo così si può andare avanti, sia nel mondo dello sport sia per **combattere l’indifferenza sociale e sportiva.**

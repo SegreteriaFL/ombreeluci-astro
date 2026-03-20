@@ -1,5 +1,4 @@
 ---
-
 title: Mio figlio un angelo che ha scelto di vivere - Recensione
 date: 2008-09-03
 author: Mariangela Bertolini
@@ -19,7 +18,5 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Doretta Braga, Ed. San Paolo, 2008"
 ---
 
-N
-on tutti i figli disabili sono come Massimiliano, il figlio dell’autrice di questo libro-testimonianza. Va tenuto presente soprattutto dai genitori che si trovano confrontati con figli colpiti da disabilità diverse e più difficili da sostenere. E’ un racconto pieno di realismo, di affetto, di coraggio, virtù proprie di molte mamme, ma non di tutte. Lo consigliamo perché possa, almeno ad alcuni genitori, portare quella serenità che, come dice l'autrice, “© necessaria per vedere il mondo non più solo tramite i nostri occhi, tramite i nostri desideri comunque proiettati verso il superamento di ostacoli che mai avremmo creduto di dover affrontare ma con gli occhi e con l’animo dei nostri bambini”.
-*Mariangela Bertolini*
-, 2008
+Non tutti i figli disabili sono come Massimiliano, il figlio dell’autrice di questo libro-testimonianza. Va tenuto presente soprattutto dai genitori che si trovano confrontati con figli colpiti da disabilità diverse e più difficili da sostenere. E’ un racconto pieno di realismo, di affetto, di coraggio, virtù proprie di molte mamme, ma non di tutte. Lo consigliamo perché possa, almeno ad alcuni genitori, portare quella serenità che, come dice l'autrice, “© necessaria per vedere il mondo non più solo tramite i nostri occhi, tramite i nostri desideri comunque proiettati verso il superamento di ostacoli che mai avremmo creduto di dover affrontare ma con gli occhi e con l’animo dei nostri bambini”. _Mariangela Bertolini_ , 2008Questo articolo è tratto da
+[Ombre e Luci n.103](https://www.ombreeluci.it/project/numero-103-ci-sono-anchio/ "Ombre e Luci n.103") [](https://www.ombreeluci.it/project/numero-103-ci-sono-anchio/ "Ombre e Luci n.103")

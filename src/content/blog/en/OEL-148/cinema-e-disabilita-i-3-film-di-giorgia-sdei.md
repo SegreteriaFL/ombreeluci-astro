@@ -1,5 +1,4 @@
 ---
-
 title: "Cinema e disabilità: i 3 film di Giorgia Sdei"
 date: "2019-11-27"
 author: "Redazione"
@@ -63,22 +62,22 @@ Your content goes here. Edit or remove this text inline or in the module Content
 
 ## Quasi amici
 
-*(Intouchables, Francia, 2011, durata 112 minuti) - Regia di Olivier Nakache e Eric Toledano. Con François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot, Clotilde Mollet, Alba Gaïa Bellugi*
+_(Intouchables, Francia, 2011, durata 112 minuti) - Regia di Olivier Nakache e Eric Toledano. Con François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot, Clotilde Mollet, Alba Gaïa Bellugi_
 
 L’incontro tra Philippe, uomo di mezza età tetraplegico in seguito a un incidente con il parapendio, e Driss, ragazzo senegalese che tutto vuole tranne lavorare, è di quelli che lasciano il segno. Assunto come badante, Driss saprà far rinascere la voglia di vivere a Philippe semplicemente trattandolo come una persona normale, senza dimostrare pena verso di lui ma bypassando il suo handicap per risvegliare le passioni profonde che l’uomo sembrava aver abbandonato. Si instaurerà così un rapporto complice e divertente, un’amicizia profonda che supera ogni tipo di barriera.
 
 ## Buon compleanno Mr. grape
 
-*(What's Eating Gilbert Grape, USA, 1993, durata 116 minuti) - Regia di Lasse Hallström. Con Juliette Lewis, Johnny Depp, Mary Steenburgen, Leonardo DiCaprio, Crispin Glover*
+_(What's Eating Gilbert Grape, USA, 1993, durata 116 minuti) - Regia di Lasse Hallström. Con Juliette Lewis, Johnny Depp, Mary Steenburgen, Leonardo DiCaprio, Crispin Glover_
 
 Un padre morto suicida. Una madre che dall’evento non si è più ripresa, diventando obesa e decidendo di non uscire più di casa. Su questa tragica situazione familiare si innesta la silenziosa sofferenza che sta alla base del fortissimo rapporto tra Gilbert e il fratello mentalmente ritardato interpretato da un clamoroso Leonardo Di Caprio all’inizio della sua carriera. Un film che senza eccessi né forzature, anzi con un grandissimo rispetto, mostra le diverse facce della diversità, dell’amore e dell’accettazione.
 
 ## Freaks
 
-*(id, USA, 1932, durata 64 minuti) - Regia di Tod Browning. Con Wallace Ford, Roscoe Ates, Olga Baclanova*
+_(id, USA, 1932, durata 64 minuti) - Regia di Tod Browning. Con Wallace Ford, Roscoe Ates, Olga Baclanova_
 
 Un film “maledetto” quello di Tod Browning: accusato di speculare sulla deformazione per il mero gusto dello spettacolo, il regista fu bandito da Hollywood. Ma cosa c’è di strano nel mostrare la normalità della diversità? I “freaks” del circo sono nani, donne barbute, uomini menomati, che non si vergognano di presentarsi per quelli che sono: persone che amano e soffrono, come tutti. Nella semplice storia di Hans, un nano ereditiero, e Cleopatra, star del circo avida di denaro, e nel triste e sadico epilogo, c’è tutta la volontà di mettere a nudo il pregiudizio fotografando la realtà nuda e cruda per gettarla addosso a un pubblico abituato a voltarsi dall’altra parte. Un film che forse era troppo avanti negli anni ’30 per essere capito, ma che rimane necessario.
 
-### Speciale Cinema e disabilità
+### Speciale [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/ "Speciale Cinema e disabilità - Ombre e Luci")
 
 Con i contributi di:

@@ -25,8 +25,6 @@ Sono un ragazzo di 33 anni e mi chiamo Andrea. Le mie parole, spero che le ragaz
 **Andrea Zoroaster**
 (Padova), 2005
 
-
-
 ---
 
 ### Dalla Cina
@@ -34,8 +32,6 @@ Sono un ragazzo di 33 anni e mi chiamo Andrea. Le mie parole, spero che le ragaz
 Più passano gli anni, quindici da quando sono venuto in Cina, più trovo entusiasmante il messaggio d'amore di Gesù verso tutti, specialmente verso i più deboli. Dio fa rinascere e brillare ogni giorno il suo “Natale”. la sua presenza d'amore fra noi: ci contagia tutti e trasforma la nostra vita vincendo il male con il bene, con azioni di genuina carità. Un giorno è passato da me un amico e mi ha chiesto: “Quanti cristiani hai fatto qui in Cina, fra i tuoi compagni di lavoro, amici e volontari cinesi?” La mia risposta spontanea è stata: “Se pensi ai battezzati, in questo ambiente dove la libertà di espressione religiosa è ‘protetta', non saprei cosa dirti, ma se guardi allo stile di vita di chi mi è vicino, credo proprio che il Signore ne abbia evangelizzati davvero tanti. Chi conosce la forza dell’amore, non può più respingerlo! L'amore fa nuove tutte le cose. Per esempio, un giorno, un anziano, il sig. Yang, è venuto a trovarmi e mi ha detto: “Tra qualche anno io e mia moglie moriremo e cosa succederà al nostro figlio col suo ritardo mentale?” Seguì un sospiro, un silenzio! Tra me e me ho pensato: amare questa persona è far si che il suo sogno di liberazione dal male diventi il nostro sogno, e le nostre giovani energie la sua speranza. Da allora, insieme ai miei compagni di lavoro, abbiamo studiato di costruire un piccolo centro di agriturismo adatfo alla capacità dei disabili e in cui potranno avere l'occasione che tanti simpatici amici vadano a trovarli e li aiutino a sostenersi. Questo sogno sta per diventare una realtà. Serviranno molte risorse, ma tutti insieme, per amore possiamo vincere anche questo piccolo male che ferisce il cuore dei nostri fratelli...
 **P. Fernando Cagnin**
 , (Hong Kong)
-
-
 
 ---
 
@@ -45,16 +41,12 @@ A Damasco ho visitato la grande Moschea, luogo straordinario di immensa bellezza
 **Jean Vanier**
 (da una lettera del novembre 2004)
 
-
-
 ---
 
 ### A proposito di Uscobupt
 
 Leggo sempre con grande interesse la nostra rivista. Quest'ultima poi, il n.87, è straordinaria. Io sono da sempre una "consumatrice" di Uscobupt... Mi aiuta in tutte le circostanze della vita e vedo che è anche contagioso. La lettera di Giampaolo mi ha commossa tanto e che il Signore continui a sostenerlo’e benedica la sua piccola! Un saluto in amicizia alle simpaticissime facce che ci sorridono da Feltre, avete mai riflettuto su quanto è affascinante il sorriso dei "nostri" ragazzi? Sugli articoli non mi soffermo in particolare, ma ognuno di loro vale un Perù. Ho visto due volte il film "Le chiavi di casa". Mi è molto piaciuto perché profondamente umano, vero, alieno da pietismi e sentimentalismi, bello; andate a vederlo, se non l'avete già fatto. Tra l'altro, Paolo, il ragazzino, mi ricorda , in alcune scene, il nostro amico Valentino che da ragazzo veniva spesso a casa nostra, quanti scherzi mentre i nostri tre figli maschi gli facevano il bagno, quante risate quando erano a letto, tutti nella stessa stanza, solo Nora, la più piccola aveva il privilegio di una stanza tutta per sè, ciò non toglieva però che fosse ugualmente partecipe della "festa" quando c'era Valentino. Ho comprato il libro "Il ragazzo che amava Shakespeare”, di cui avete fatto una bella presentazione e ho ordinato: "In autobus con mia sorella". Grazie per tutte queste ed altre indicazioni che ci date.
 **Trixi Pezzoli**
-
-
 
 ---
 
@@ -64,8 +56,6 @@ Ho avuto modo di leggere la vostra rivista e come mamma di un ragazzo autistico 
 **Paola Vagni**
 (Macerata)
 *Grazie dell’apprezzamento. Sappiamo che Ombre e Luci vale e serve molto e merita tutto l’aiuto possibile, sia per diffonderla che per sostenerla.*
-
-
 
 ---
 

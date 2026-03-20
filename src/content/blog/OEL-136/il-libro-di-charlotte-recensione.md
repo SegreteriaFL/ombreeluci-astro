@@ -1,5 +1,4 @@
 ---
-
 title: Il libro di Charlotte - Recensione
 date: 2016-12-16
 author: Matteo Cinti
@@ -19,7 +18,6 @@ numero_rivista: "Ombre e Luci"
 subtitle: "R. J. Palacio, Ed. Giunti, 2016, 160 pagine"
 ---
 
-T
-erzo spin-off del fortunato Wonder, Il Libro di Charlotte è un nuovo delizioso capitolo di un’altra frequentatrice della Beecher Prep. Charlotte Cody è una ragazzina modello, precisa e responsabile; malgrado ciò non è nel gruppo delle più popolari della scuola, e l’arrivo di Auggie Pullman nella sua vita l’ha allontanata ulteriormente dalla possibilità di farne parte. Partendo da questo scenario Charlotte si racconta, dando vita ad un romanzo sull’amicizia - vero fil rouge che lega tutta la saga di Wonder – che ci insegna, anche stavolta, a non fermarci davanti alle apparenze. Ma oltre al tema, la bellezza di questo libro si trova nella semplicità e nella chiarezza con cui è scritto: R.J. Palacio ha uno stile pulito, rivolto prettamente a un pubblico giovane, che però si fa apprezzare a qualsiasi fascia di età. Non si è mai troppo grandi, insomma, per capire qualcosa di più
-*Matteo Cinti*
-, 2016
+Terzo spin-off del fortunato Wonder, Il Libro di Charlotte è un nuovo delizioso capitolo di un’altra frequentatrice della Beecher Prep. Charlotte Cody è una ragazzina modello, precisa e responsabile; malgrado ciò non è nel gruppo delle più popolari della scuola, e l’arrivo di Auggie Pullman nella sua vita l’ha allontanata ulteriormente dalla possibilità di farne parte. Partendo da questo scenario Charlotte si racconta, dando vita ad un romanzo sull’amicizia - vero fil rouge che lega tutta la saga di Wonder – che ci insegna, anche stavolta, a non fermarci davanti alle apparenze. Ma oltre al tema, la bellezza di questo libro si trova nella semplicità e nella chiarezza con cui è scritto: R.J. Palacio ha uno stile pulito, rivolto prettamente a un pubblico giovane, che però si fa apprezzare a qualsiasi fascia di età. Non si è mai troppo grandi, insomma, per capire qualcosa di più _Matteo Cinti_ , 2016 Questo articolo è tratto da
+[Ombre e Luci n.136](https://www.ombreeluci.it/project/numero-136-valgo-anchio/ "Ombre e Luci n.136")
+[](https://www.ombreeluci.it/project/numero-136-valgo-anchio/ "Ombre e Luci n.136")

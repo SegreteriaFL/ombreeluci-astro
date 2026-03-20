@@ -1,5 +1,4 @@
 ---
-
 title: Padel, una parola che non si capisce
 date: 2021-08-07
 author: Benedetta Mattei
@@ -17,28 +16,47 @@ id_numero: "OEL-156"
 numero_rivista: "Ombre e Luci"
 ---
 
-Io non ho capito perché chiamano padel i racchettoni. Quando mi hanno invitata ad andare a vedere il torneo di padel di Athletica Vaticana io non capivo che cosa era, che cosa facevano e che cosa dovevo fare io. **Io padel non sapevo cosa voleva dire.** Quando mi invitano io vado sempre perché mi piace andare in giro e mi piace vedere le cose e quelle nuove che conosco pure di più. Così io sono andata a vedere. Ho capito subito che il padel sono i racchettoni solo che non si gioca sulla spiaggia, al mare. Ma in un campo che se cadi per terra ti fai molto male. Ti sbucci le ginocchia e ti esce il sangue. A me non è successo ma a qualcuno si. Invece se cadi quando giochi a racchettoni sulla spiaggia non ti fai male per niente, anzi è pure tanto divertente. E puoi giocare pure dentro l’acqua, che pure meglio quando fa tanto caldo perché stai con le gambe al fresco.
+Io non ho capito perché chiamano padel i racchettoni. Quando mi hanno invitata ad andare a vedere il torneo di padel di Athletica Vaticana io non capivo che cosa era, che cosa facevano e che cosa dovevo fare io.
 
-**Io ho chiesto a tutti subito perché lo chiamano padel. Non si capisce. Io non avevo capito.** Se dici racchettoni invece si capisce. Giocare è facile devi colpire la pallina con il racchettone e mandarla all’altra persona. Facile. Non si capisce bene chi vince ma a me non me ne importa proprio un bel niente. Quando vedo che l’altro vuole fare la partita quella vera e non giocare e basta io ogni volta che la pallina cade per terra grido “ieeeee” oppure “aleeee” oppure “evvaiiiiii” oppure “edaiiii” così sembra che ho vinto io. Anche se non lo so. Il gioco è divertente. Ogni tanto a me piace tirare super fortissimo e lontano. E qualche volta tiro la palla in altissimo. **Secondo me è divertente fare così.** Mi piace pure che non c’è l’arbitro come nel calcio. A racchettoni si può giocare pure in 4 ma a me non piace tanto perché si fa confusione e non so quando devo tirare io perché tocca a me. Io al mare gioco tantissimo a racchettoni e chiedo a tutti di giocare con me. Quando uno si stanca vado a chiederlo a un altro. Comunque al mare io dico che gioco a racchettoni. Non a padel che è una parola che non si capisce.
+**Io padel non sapevo cosa voleva dire.**
 
-*Editoriale* ** ** [**Nove punti**](https://www.ombreeluci.it/2021/nove-punti/) di Cristina Tersigni
+Quando mi invitano io vado sempre perché mi piace andare in giro e mi piace vedere le cose e quelle nuove che conosco pure di più. Così io sono andata a vedere. Ho capito subito che il padel sono i racchettoni solo che non si gioca sulla spiaggia, al mare. Ma in un campo che se cadi per terra ti fai molto male. Ti sbucci le ginocchia e ti esce il sangue. A me non è successo ma a qualcuno si. Invece se cadi quando giochi a racchettoni sulla spiaggia non ti fai male per niente, anzi è pure tanto divertente. E puoi giocare pure dentro l’acqua, che pure meglio quando fa tanto caldo perché stai con le gambe al fresco. **Io ho chiesto a tutti subito perché lo chiamano padel. Non si capisce. Io non avevo capito.** Se dici racchettoni invece si capisce. Giocare è facile devi colpire la pallina con il racchettone e mandarla all’altra persona. Facile. Non si capisce bene chi vince ma a me non me ne importa proprio un bel niente. Quando vedo che l’altro vuole fare la partita quella vera e non giocare e basta io ogni volta che la pallina cade per terra grido “ieeeee” oppure “aleeee” oppure “evvaiiiiii” oppure “edaiiii” così sembra che ho vinto io. Anche se non lo so. Il gioco è divertente. Ogni tanto a me piace tirare super fortissimo e lontano. E qualche volta tiro la palla in altissimo. **Secondo me è divertente fare così.** Mi piace pure che non c’è l’arbitro come nel calcio. A racchettoni si può giocare pure in 4 ma a me non piace tanto perché si fa confusione e non so quando devo tirare io perché tocca a me. Io al mare gioco tantissimo a racchettoni e chiedo a tutti di giocare con me. Quando uno si stanca vado a chiederlo a un altro. Comunque al mare io dico che gioco a racchettoni. Non a padel che è una parola che non si capisce.Questo articolo è tratto da
+[**Ombre e Luci n. 154, 2021**](https://www.ombreeluci.it/project/numero-154-guardami-questa-questo-sono-io/) **SOMMARIO** _Editoriale_**
+**[**Nove punti**](https://www.ombreeluci.it/2021/nove-punti/)di Cristina Tersigni _Focus: Guardami, questa/questo sono io_
+[**Inneschiamo la valanga?**](https://www.ombreeluci.it/2021/inneschiamo-la-valanga/) di Giulia Galeotti
+[**Cosa c'è sotto gli aggettivi**](https://www.ombreeluci.it/2021/cosa-ce-sotto-gli-aggettivi/) di Laura Coccia
+[**Con gli occhi di Corrado**](https://www.ombreeluci.it/2021/con-gli-occhi-di-corrado/) di Giorgia Fontani
+[**Chi mettere al centro dell'obiettivo?**](https://www.ombreeluci.it/2021/chi-mettere-al-centro-dellobiettivo/) di Enrica Riera
+[**Eliminarli dalla nostra vista**](https://www.ombreeluci.it/2021/eliminarli-dalla-nostra-vista/) di Vittore Mariani _Intervista_
+**Far vivere il luogo (e le persone) di cui si è custodi**
 
-*Focus: Guardami, questa/questo sono io* [**Inneschiamo la valanga?**](https://www.ombreeluci.it/2021/inneschiamo-la-valanga/) di Giulia Galeotti [**Cosa c'è sotto gli aggettivi**](https://www.ombreeluci.it/2021/cosa-ce-sotto-gli-aggettivi/) di Laura Coccia [**Con gli occhi di Corrado**](https://www.ombreeluci.it/2021/con-gli-occhi-di-corrado/) di Giorgia Fontani [**Chi mettere al centro dell'obiettivo?**](https://www.ombreeluci.it/2021/chi-mettere-al-centro-dellobiettivo/) di Enrica Riera [**Eliminarli dalla nostra vista**](https://www.ombreeluci.it/2021/eliminarli-dalla-nostra-vista/) di Vittore Mariani
+di Cristina Tersigni _Dall'archivio_
+**Quel vecchio signore che non conosciamo**
 
-*Intervista* **Far vivere il luogo (e le persone) di cui si è custodi** di Cristina Tersigni
+di Marie Hélène Mathieu _Testimonianza_
+[**Mio figlio, che non voleva vedermi piangere**](https://www.ombreeluci.it/2021/mio-figlio-che-non-voleva-vedermi-piangere/) di Grazia Maria Romanini _Associazioni_
+**Quante cose possono nascere intorno a un libro**
 
-*Dall'archivio* **Quel vecchio signore che non conosciamo** di Marie Hélène Mathieu
+di Cristina Tersigni _Fede e Luce_
+**Piccole cronache dalla Lunigiana**
 
-*Testimonianza* [**Mio figlio, che non voleva vedermi piangere**](https://www.ombreeluci.it/2021/mio-figlio-che-non-voleva-vedermi-piangere/) di Grazia Maria Romanini
+dalla Provincia di Kimata _Spettacoli_
+**Incapace di reinventarsi**
 
-*Associazioni* **Quante cose possono nascere intorno a un libro** di Cristina Tersigni
+di Claudio Cinus
+**Arriva Pablo, che vede il mondo a modo suo**
 
-*Fede e Luce* **Piccole cronache dalla Lunigiana** dalla Provincia di Kimata
+di Matteo Cinti **Dialogo Aperto
+** _Libri_
+[**Maneggiare con cura**](https://www.ombreeluci.it/2021/maneggiare-con-cura-di-marco-bove-recensione/)di Marco Bove**
+**[**Una specie di scintilla**](https://www.ombreeluci.it/2021/una-specie-di-scintilla-recensione/) di Elle McNicoll
+[**E poi saremo salvi**](https://www.ombreeluci.it/2021/e-poi-saremo-salvi-recensione/)di Alessandra Carati**
+Quello che non uccide** di David Lagercrantz _Diari_
+**Padel, una parola che non si capisce**
 
-*Spettacoli* **Incapace di reinventarsi** di Claudio Cinus **Arriva Pablo, che vede il mondo a modo suo** di Matteo Cinti
+di Benedetta Mattei
+**Tornando a casa**
 
-**Dialogo Aperto **
-
-*Libri* [**Maneggiare con cura**](https://www.ombreeluci.it/2021/maneggiare-con-cura-di-marco-bove-recensione/) di Marco Bove ** ** [**Una specie di scintilla**](https://www.ombreeluci.it/2021/una-specie-di-scintilla-recensione/) di Elle McNicoll [**E poi saremo salvi**](https://www.ombreeluci.it/2021/e-poi-saremo-salvi-recensione/) di Alessandra Carati ** Quello che non uccide** di David Lagercrantz
-
-*Diari* **Padel, una parola che non si capisce** di Benedetta Mattei **Tornando a casa** di Giovanni Grossi
+di Giovanni Grossi **Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

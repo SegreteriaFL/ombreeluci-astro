@@ -21,7 +21,9 @@ subtitle: "Dopo più di 10 anni torniamo a trovare gli amici di questa important
 
 Nella cooperativa sociale «Spazio Aperto», esistente a Milano dal 1985, svolgevano diverse attività lavorative, giovani disabili e normodotati. In seguito alla legge 381/91 la cooperativa esistente si è divisa in due cooperative sociali di tipo A e di tipo B.
 
-**La cooperativa di tipo A «Spazio Aperto Servizi»** ha fatto proprio il settore del supporto al disabile nella scuola e via via si è dedicata a servizi educativi assistenziali e residenziali. **Oggi gestisce i seguenti servizi:**
+**La cooperativa di tipo A «Spazio Aperto Servizi»**
+
+ha fatto proprio il settore del supporto al disabile nella scuola e via via si è dedicata a servizi educativi assistenziali e residenziali. **Oggi gestisce i seguenti servizi:**
 
 - Assistenza domiciliare a persone disabili - Assistenza domiciliare a famiglie con minori a rischio - Supporto assistenziale ai disabili inseriti nelle scuole - Centri diurni per disabili - Gestione di comunità-alloggio per minori affidati dal tribunale dei minori di Milano.
 
@@ -29,15 +31,21 @@ Come emanazione dell’ANFFAS la cooperativa «Spazio Aperto» di tipo B ha pros
 
 - Impresa di pulizie. - Micro raccolta rifiuti. - Gestione di piattaforme ecologiche. - Data entry ed archiviazione elettronica. - Laboratorio di assemblaggio e confezionamento.
 
-**Il settore Giardinaggio** , per le proporzioni assunte, alla fine del 1995 si è costituito in cooperativa sociale autonoma con nome «Viridalia».
+**Il settore Giardinaggio**
+
+, per le proporzioni assunte, alla fine del 1995 si è costituito in cooperativa sociale autonoma con nome «Viridalia».
 
 La cooperativa «Spazio Aperto» **non è più derivazione dell’ANFFAS** **ma da molti anni si presenta come una impresa sociale in tutto autonoma** , che intrattiene rapporti di lavoro e commerciali prevalentemente con il mercato privato, relazionandosi con A.S.L. e Comuni per l’inserimento di ragazzi con problemi.
 
 Tutti i ragazzi che lavorano in cooperativa (escluso il settore laboratorio) sono regolarmente assunti e lavorano al fianco di personale «normodotato», costituendo diverse squadre di lavoro che ad operano sui diversi appalti.
 
-**Le squadre di lavoro sono generalmente composte da tre, massimo quattro persone** . Il caposquadra ha il compito di garantire la corretta esecuzione del lavoro e di sovrintendere agli aspetti relazionali della squadra, che è costituita da un ragazzo e da uno o due operai. Le persone svantaggiate inserite, di ogni età, sono prevalentemente disabili fisici, disabili psichici e giovani a rischio di emarginazione, anche se non mancano esperienze con aree di svantaggio diverse.
+**Le squadre di lavoro sono generalmente composte da tre, massimo quattro persone**
 
-**Nel settore Laboratorio di assemblaggio e confezionamento** , oltre ai ragazzi ed operatori regolarmente assunti, sono presenti anche ragazzi inviati dai Servizi Sociale del Comune e della A.S.L. che seguono un «percorso formativo al lavoro», che è finalizzato ad una regolare assunzione da parte della cooperativa (quindi saranno inseriti nei settori su citati) o da parte di aziende esterne. In questo caso il personale formativo di Spazio Aperto ed il referente dell’Ente inviante monitorano il percorso di inserimento lavorativo esterno, intervenendo con un sostegno necessario.
+. Il caposquadra ha il compito di garantire la corretta esecuzione del lavoro e di sovrintendere agli aspetti relazionali della squadra, che è costituita da un ragazzo e da uno o due operai. Le persone svantaggiate inserite, di ogni età, sono prevalentemente disabili fisici, disabili psichici e giovani a rischio di emarginazione, anche se non mancano esperienze con aree di svantaggio diverse.
+
+**Nel settore Laboratorio di assemblaggio e confezionamento**
+
+, oltre ai ragazzi ed operatori regolarmente assunti, sono presenti anche ragazzi inviati dai Servizi Sociale del Comune e della A.S.L. che seguono un «percorso formativo al lavoro», che è finalizzato ad una regolare assunzione da parte della cooperativa (quindi saranno inseriti nei settori su citati) o da parte di aziende esterne. In questo caso il personale formativo di Spazio Aperto ed il referente dell’Ente inviante monitorano il percorso di inserimento lavorativo esterno, intervenendo con un sostegno necessario.
 
 ### Retribuzioni e contributi
 
@@ -75,4 +83,6 @@ Attenzione costante della cooperativa, che è alla radice di diversificazione de
 
 - *Arturo Paoli* , 2001 (Agli amici in occasione del Cinquantesimo di Sacerdozio)
 
-**Spazio Aperto Coop. S.r.l.** Sede Operativa: Viale delle Rimembranze di Lambrate, 7 20134 MILANO - TEL. 02/2663324 Sito: [spazioaperto.coop](http://spazioaperto.coop/) , pagina Facebook Le illustrazioni di questo servizio che mostrano i settori di attività della Cooperativa, sono tratte dal pieghevole di presentazione della cooperativa stessa.
+**Spazio Aperto Coop. S.r.l.**
+
+Sede Operativa: Viale delle Rimembranze di Lambrate, 7 20134 MILANO - TEL. 02/2663324 Sito: [spazioaperto.coop](http://spazioaperto.coop/) , pagina Facebook Le illustrazioni di questo servizio che mostrano i settori di attività della Cooperativa, sono tratte dal pieghevole di presentazione della cooperativa stessa.

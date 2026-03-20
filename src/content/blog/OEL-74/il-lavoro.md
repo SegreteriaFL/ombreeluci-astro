@@ -27,6 +27,8 @@ Pensiamo che, nel presente, la coperativa sociale di tipo B rappresenti una vali
 
 Da questa premessa derivano i due servizi che seguono.
 
-**[Cooperativa Sociale](https://www.ombreeluci.it/2001/cooperativa-sociale/)** Cosa sono e di cosa si occupano. Di Antonio Mazzarotto
+**[Cooperativa Sociale](https://www.ombreeluci.it/2001/cooperativa-sociale/)**
+
+Cosa sono e di cosa si occupano. Di Antonio Mazzarotto
 
 [**Una cooperativa sul mare: Piccola Opera Caritas**](https://www.ombreeluci.it/2001/una-cooperativa-sul-mare/) SIamo andati a conoscere questa piccola grande realtà per raccontarvela

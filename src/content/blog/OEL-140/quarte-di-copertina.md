@@ -15,4 +15,5 @@ issue_number: OEL-140
 id_numero: "OEL-140"
 numero_rivista: "Ombre e Luci"
 ---
+
 In questa galleria puoi sfogliare tutte le "quarte di copertina" di Ombre e Luci finora scansionate.

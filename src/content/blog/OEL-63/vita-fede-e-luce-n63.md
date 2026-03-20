@@ -29,9 +29,12 @@ Se uno, non solo un amico, ma anche un genitore e un ragazzo, si spaventa della 
 
 **Lucia Bertolini**
 
-
 ---
 
 ### Grazie Georges!
 
- Ci sono giunte, quasi contemporaneamente, due notizie importanti per gli amici più «anziani» di Fede e Luce; una triste e una bella. Il Padre Georges Paquet, che abbiamo avuto per anni a Roma, come seminarista/amico, che viveva da anni in una Comunità per persone disabili da lui fondata, dopo una grave malattia portata con serenità per due anni, è entrato nella casa di Dio. Da li veglierà sui bambini che ha tanto amato e pregherà per tutti noi. Grazie Georges. **Grazie Louis!** Il Padre Louis Sankalé, che è stato per qualche anno assistente spirituale nazionale di F.L. Italia, parroco da più di vent'anni a Marsiglia, è stato nominato vescovo di Cayenne, nella Guyana francese. Continuerà a portare i suoi amici italiani nel ricordo e nella preghiera. Grazie Louis.
+ Ci sono giunte, quasi contemporaneamente, due notizie importanti per gli amici più «anziani» di Fede e Luce; una triste e una bella. Il Padre Georges Paquet, che abbiamo avuto per anni a Roma, come seminarista/amico, che viveva da anni in una Comunità per persone disabili da lui fondata, dopo una grave malattia portata con serenità per due anni, è entrato nella casa di Dio. Da li veglierà sui bambini che ha tanto amato e pregherà per tutti noi. Grazie Georges.
+
+**Grazie Louis!**
+
+Il Padre Louis Sankalé, che è stato per qualche anno assistente spirituale nazionale di F.L. Italia, parroco da più di vent'anni a Marsiglia, è stato nominato vescovo di Cayenne, nella Guyana francese. Continuerà a portare i suoi amici italiani nel ricordo e nella preghiera. Grazie Louis.

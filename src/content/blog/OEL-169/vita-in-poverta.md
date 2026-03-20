@@ -1,5 +1,4 @@
 ---
-
 title: "Vita in povertà"
 date: "2025-05-12"
 author: "Giovanni Grossi"

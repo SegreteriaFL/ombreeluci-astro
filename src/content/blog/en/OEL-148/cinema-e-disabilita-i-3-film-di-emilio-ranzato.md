@@ -1,5 +1,4 @@
 ---
-
 title: "Cinema e disabilità: i 3 film di Emilio Ranzato"
 date: "2019-11-26"
 author: "Redazione"
@@ -63,24 +62,22 @@ Your content goes here. Edit or remove this text inline or in the module Content
 
 ## Quasi amici
 
-*(Intouchables, Francia, 2011, durata 112 minuti) - Regia di Olivier Nakache e Eric Toledano. Con François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot, Clotilde Mollet, Alba Gaïa Bellugi*
+_(Intouchables, Francia, 2011, durata 112 minuti) - Regia di Olivier Nakache e Eric Toledano. Con François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot, Clotilde Mollet, Alba Gaïa Bellugi_
 
-Intouchables (Olivier Nakache e Eric Toledano, 2011) non è soltanto il film di maggior successo sull’argomento della disabilità, ma addirittura il secondo film per incassi della storia del cinema francese. Un successo sorprendente ma non immeritato. I registi evitano infatti le trappole del politicamente corretto senza per questo risultare cinici. La dinamica drammaturgica che scaturisce dall’incontro di due emarginati – un ricco tetraplegico e un atletico badante di colore – potrebbe
-risultare troppo facile, ma è in parte giustificata dalla semplice realtà, dato che il film è ispirato, seppur liberamente, a una storia vera.
+Intouchables (Olivier Nakache e Eric Toledano, 2011) non è soltanto il film di maggior successo sull’argomento della disabilità, ma addirittura il secondo film per incassi della storia del cinema francese. Un successo sorprendente ma non immeritato. I registi evitano infatti le trappole del politicamente corretto senza per questo risultare cinici. La dinamica drammaturgica che scaturisce dall’incontro di due emarginati – un ricco tetraplegico e un atletico badante di colore – potrebbe risultare troppo facile, ma è in parte giustificata dalla semplice realtà, dato che il film è ispirato, seppur liberamente, a una storia vera.
 
 ## Anna dei miracoli
 
-*(The Miracle Worker, USA, 1963, durata 107 min.) di Arthur Penn. Con Anne Bancroft, Patty Duke, Victor Jory, Inga Swenson, Andrew Prine*
+_(The Miracle Worker, USA, 1963, durata 107 min.) di Arthur Penn. Con Anne Bancroft, Patty Duke, Victor Jory, Inga Swenson, Andrew Prine_
 
 Capolavoro sull’argomento è The miracle worker, storia a sua volta vera di una ragazza sordo-cieca e dell’istitutrice che le ha permesso di trovare un contatto con il mondo attraverso il tatto. Facendo leva su un difficile passato proprio di cecità, nonché di permanenza in un manicomio, la donna trova un’immediata empatia con la ragazza. Ma la rinascita di quest’ultima passerà anche attraverso la disciplina e un iniziale allontanamento da genitori che, per compassione, l’hanno viziata troppo. Penn, outsider della New Hollywood, è il regista giusto per non cadere nelle tentazioni della spettacolarizzazione.
 
 ## The tribe
 
-*(Plemya, Ucraina, Paesi Bassi, 2014, durata 130 minuti) - Regia di Myroslav Slaboshpytskkiy. Con Grigoriy Fesenko, Yana Novikova, Rosa Babiy, Alexander Dsiadevich, Yaroslav Biletskiy*
+_(Plemya, Ucraina, Paesi Bassi, 2014, durata 130 minuti) - Regia di Myroslav Slaboshpytskkiy. Con Grigoriy Fesenko, Yana Novikova, Rosa Babiy, Alexander Dsiadevich, Yaroslav Biletskiy_
 
-In The tribe (Miroslav Stabopsickij, 2014), si racconta una storia di bullismo all’interno di un istituto per sordomuti. Privo di dialoghi che non siano nel linguaggio dei segni ucraino, nonché di sottotitoli, il film colpisce prima di tutto proprio per essere del tutto comprensibile anche a chi non conosce questo tipo di alfabeto. Assume allora un particolare senso di denuncia il mostrare i protagonisti come rinchiusi in una comunità in cui sono assenti persone non disabili. Una
-impermeabilità che determina una sorta di microcosmo in cui si rispecchia il buono ma soprattutto il cattivo della società intera.
+In The tribe (Miroslav Stabopsickij, 2014), si racconta una storia di bullismo all’interno di un istituto per sordomuti. Privo di dialoghi che non siano nel linguaggio dei segni ucraino, nonché di sottotitoli, il film colpisce prima di tutto proprio per essere del tutto comprensibile anche a chi non conosce questo tipo di alfabeto. Assume allora un particolare senso di denuncia il mostrare i protagonisti come rinchiusi in una comunità in cui sono assenti persone non disabili. Una impermeabilità che determina una sorta di microcosmo in cui si rispecchia il buono ma soprattutto il cattivo della società intera.
 
-### Speciale Cinema e disabilità
+### Speciale [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/ "Speciale Cinema e disabilità - Ombre e Luci")
 
 Con i contributi di:

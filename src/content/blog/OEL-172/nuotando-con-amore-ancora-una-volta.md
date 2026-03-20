@@ -19,7 +19,11 @@ numero_rivista: "Ombre e Luci"
 subtitle: "La seconda gara che ho fatto quest'anno è una staffetta di squadra organizzata dall'AISM di Roma"
 ---
 
-Eccomi i miei cari lettori, come vi avevo anticipato nello scorso post della gara alle Tre Fontane, il giorno successivo ho avuto un'altra gara. **Eh beh, anche quella è andata bene!** Ho partecipato a un'iniziativa che coinvolge, si può dire, tutta Roma. Una staffetta di dodici ore, che per due anni mi ha vista protagonista a livello di squadra. Un'esperienza che io ho fatto per due anni di seguito, infatti ve ne avevo [già parlato alla scorsa edizione](https://www.ombreeluci.it/2024/nuotando-con-amore/) . Il primo anno avevo la cuffia blu, il secondo invece ho la cuffia verde come potete vedere. Un'iniziativa che è arrivata alla decima edizione, fortemente voluta da [**AISM**](https://www.aism.it/) per aiutare la ricerca per chi soffre di sclerosi multipla.
+Eccomi i miei cari lettori, come vi avevo anticipato nello scorso post della gara alle Tre Fontane, il giorno successivo ho avuto un'altra gara.
+
+**Eh beh, anche quella è andata bene!**
+
+Ho partecipato a un'iniziativa che coinvolge, si può dire, tutta Roma. Una staffetta di dodici ore, che per due anni mi ha vista protagonista a livello di squadra. Un'esperienza che io ho fatto per due anni di seguito, infatti ve ne avevo [già parlato alla scorsa edizione](https://www.ombreeluci.it/2024/nuotando-con-amore/) . Il primo anno avevo la cuffia blu, il secondo invece ho la cuffia verde come potete vedere. Un'iniziativa che è arrivata alla decima edizione, fortemente voluta da [**AISM**](https://www.aism.it/) per aiutare la ricerca per chi soffre di sclerosi multipla.
 
 Penso che queste iniziative dovrebbero essere un po' di più perché ogni anno vedo coinvolti anche dei bambini e dei giovani. Persone che avevano voglia di dare, ma soprattutto avevano voglia di capire il mondo della disabilità. Voi sapete come sono fatta io, eh? Cerco sempre un modo per sperimentare. E di **far capire che bisogna guardare oltre alla disabilità** , anzi mi permetto di ringraziare il capitano della mia squadra, ma tutta la squadra, perché ognuno, da due anni che li conosco, si può dire ogni volta mi danno qualcosa di nuovo.
 

@@ -1,5 +1,4 @@
 ---
-
 title: Campi di giochi
 date: 2023-01-18
 author: Redazione
@@ -19,4 +18,5 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Quando Ombre e Luci finisce in valigia"
 ---
 
-Dai campi di Fede e Luce di questa estate, accanto alle foto delle tavolate e dei pomeriggi in cerchio tutti insieme, ci sono arrivate anche foto dei giochi che abbiamo proposto nello scorso numero. E guardate quante belle copertine uniche!
+Dai campi di Fede e Luce di questa estate, accanto alle foto delle tavolate e dei pomeriggi in cerchio tutti insieme, ci sono arrivate anche foto dei giochi che abbiamo proposto nello scorso numero. E guardate quante belle copertine uniche! Questo articolo è tratto da
+[**Ombre e Luci n. 160, 2022**](https://www.ombreeluci.it/project/numero-160-ruote-nuove-su-occhi-nuovi/)

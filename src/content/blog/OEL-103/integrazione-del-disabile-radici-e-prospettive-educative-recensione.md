@@ -1,5 +1,4 @@
 ---
-
 title: "Integrazione del disabile: radici e prospettive educative  - Recensione"
 date: 2008-09-03
 author: Cristina Tersigni
@@ -19,7 +18,5 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Luigi d’Alonzo, Editrice La Scuola, 2008"
 ---
 
-N
-ella collana medico-psico-pedagogica per il suo taglio scientifico, questo saggio del professor d’Alonzo(cattedra di Pedagogia speciale e di Pedagogia della marginalità e dell’integrazione dell’Università Cattolica di Milano) ha un pregio che potrebbe interessare anche il lettore non specificatamente operatore del settore educativo. Recupera infatti molti testi di grandi autori che nel passato “hanno saputo indicare strade, percorsi innovativi e validi per le persone con deficit” evidenziandone il ruolo di fondamento nelle azioni educative mirate all'integrazione delle persone disabili. Scorrendolo troverete interessantissimi scritti di personaggi come Maria Montessori, Augusto Romagnoli, don Carlo Gnocchi, Helen Keller, Lev. S. Vygotskij e molti altri pedagogisti oramai scomparsi ma ancora capaci di farci riflettere e guidarci sulla strada dell’integrazione.
-*Cristina Tersigni*
-, 2008
+Nella collana medico-psico-pedagogica per il suo taglio scientifico, questo saggio del professor d’Alonzo(cattedra di Pedagogia speciale e di Pedagogia della marginalità e dell’integrazione dell’Università Cattolica di Milano) ha un pregio che potrebbe interessare anche il lettore non specificatamente operatore del settore educativo. Recupera infatti molti testi di grandi autori che nel passato “hanno saputo indicare strade, percorsi innovativi e validi per le persone con deficit” evidenziandone il ruolo di fondamento nelle azioni educative mirate all'integrazione delle persone disabili. Scorrendolo troverete interessantissimi scritti di personaggi come Maria Montessori, Augusto Romagnoli, don Carlo Gnocchi, Helen Keller, Lev. S. Vygotskij e molti altri pedagogisti oramai scomparsi ma ancora capaci di farci riflettere e guidarci sulla strada dell’integrazione. _Cristina Tersigni_ , 2008Questo articolo è tratto da
+[Ombre e Luci n.103](https://www.ombreeluci.it/project/numero-103-ci-sono-anchio/ "Ombre e Luci n.103") [](https://www.ombreeluci.it/project/numero-103-ci-sono-anchio/ "Ombre e Luci n.103")

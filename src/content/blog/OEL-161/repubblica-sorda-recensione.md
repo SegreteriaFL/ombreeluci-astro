@@ -1,5 +1,4 @@
 ---
-
 title: Repubblica sorda – Recensione
 date: 2023-05-09
 author: Nicla Bettazzi
@@ -19,4 +18,28 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Un’epica contemporanea in cui la sordità è rielaborata come valore aggiunto. È il nuovo modo di stare insieme di una minoranza politica che nonostante tutto sprigiona energia vitale."
 ---
 
-Per la forza delle immagini, del racconto lirico e per le illustrazioni nella lingua dei non udenti, *Repubblica sorda* è una lettura che emoziona. La storia si svolge in un tempo indefinito e in un luogo immaginario, la città di Vasenka, crogiuolo di due mondi in apparenza molto lontani, l’ex Unione sovietica e gli Stati Uniti, improvvisamente occupata da un esercito che si sente legittimato a possedere la vita degli abitanti. Immersa in una sordità collettiva, la popolazione cercherà di sopravvivere a soprusi e violenze, reinventandosi un linguaggio, quello dei segni. Nel libro Kaminsky (non udente fino a 16 anni, nato in Ucraina ed espatriato adolescente negli Usa) fonde le contraddizioni e le ansie di entrambi questi mondi. **Un’epica contemporanea in cui la sordità è rielaborata come valore aggiunto. È il nuovo modo di stare insieme di una minoranza politica che nonostante tutto sprigiona energia vitale. ### Repubblica sorda **Autore** : Ilya Kaminsky **Traduzione:** Giorgia Senesi ** Editore:** La nave di Teseo **Pubblicato:** 2021 **Pagine:** 176 **Prezzo:** 17€ **ISBN:** 978-8834606735 **
+Per la forza delle immagini, del racconto lirico e per le illustrazioni nella lingua dei non udenti, _Repubblica sorda_ è una lettura che emoziona. La storia si svolge in un tempo indefinito e in un luogo immaginario, la città di Vasenka, crogiuolo di due mondi in apparenza molto lontani, l’ex Unione sovietica e gli Stati Uniti, improvvisamente occupata da un esercito che si sente legittimato a possedere la vita degli abitanti. Immersa in una sordità collettiva, la popolazione cercherà di sopravvivere a soprusi e violenze, reinventandosi un linguaggio, quello dei segni. Nel libro Kaminsky (non udente fino a 16 anni, nato in Ucraina ed espatriato adolescente negli Usa) fonde le contraddizioni e le ansie di entrambi questi mondi.
+
+**Un’epica contemporanea in cui la sordità è rielaborata come valore aggiunto. È il nuovo modo di stare insieme di una minoranza politica che nonostante tutto sprigiona energia vitale.**
+
+Repubblica sorda **Autore** : Ilya Kaminsky
+**Traduzione:**
+
+Giorgia Senesi**
+Editore:** La nave di Teseo
+**Pubblicato:**
+
+2021
+**Pagine:**
+
+176
+**Prezzo:**
+
+17€
+**ISBN:**
+
+978-8834606735 Questo articolo è tratto da
+[**Ombre e Luci n.161**](https://www.ombreeluci.it/project/numero-161-quarantanni-di-ol/ "Ombre e Luci n.161")
+[
+
+](https://www.ombreeluci.it/project/numero-161-quarantanni-di-ol/ "Ombre e Luci n.161")

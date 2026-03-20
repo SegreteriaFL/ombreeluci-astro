@@ -23,7 +23,6 @@ Leggo la vostra rivista da molto tempo avendo anch’io in famiglia una ragazzin
 **Renata e G. Franco Bergometti**
 La ringraziamo per le sue parole di incoraggiamento verso la nostra rivista. Per quanto riguarda la sua richiesta di consiglio la preghiamo di telefonare in redazione (tei. 06-633402 mart. mere. ven. dalle 9,30 alle 12,30) per chiarire in che modo possiamo esserle utili.
 
-
 ---
 
 ### Ombre e Luci trovato all’ANFFAS

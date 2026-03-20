@@ -1,5 +1,4 @@
 ---
-
 title: Il libro di Julian - A Wonder Story - Recensione
 date: 2016-03-25
 author: Matteo Cinti
@@ -19,7 +18,8 @@ numero_rivista: "Ombre e Luci"
 subtitle: "R. J. Palacio, Giunti, 2015, 128 pagine"
 ---
 
-A
-seguito del grande successo riscontrato da Wonder, un romanzo che parla della vita scolastica di un bambino dal viso deformato (ne abbiamo parlato nel n.4/2013), R.J. Palacio torna a scrivere di un altro protagonista della scuola Beecher Prep. Julian è un ragazzino all’apparenza molto duro; per come tratta Auggie è presto etichettato come il bullo della scuola. Dal suo punto di vista però le cose non sono così semplici: scavando in profondità Julian non è tanto diverso da tutti gli altri bambini, si comporta con tale durezza per non lasciare intravedere le sue fragilità. Una sorta di corazza protettiva che nemmeno (anzi soprattutto) i genitori riescono a schiudere. Il libro di Julian è un’eccellente costola del romanzo madre ma si legge piacevolmente anche non conoscendone gli antefatti, poiché dipinge una storia parallela a Wonder dedicata all’insicurezza dei rapporti interpersonali nell’infanzia, in una dimensione totalmente indipendente.
-*Matteo Cinti*
-, 2016
+A seguito del grande successo riscontrato da Wonder, un romanzo che parla della vita scolastica di un bambino dal viso deformato (ne abbiamo parlato nel n.4/2013), R.J. Palacio torna a scrivere di un altro protagonista della scuola Beecher Prep. Julian è un ragazzino all’apparenza molto duro; per come tratta Auggie è presto etichettato come il bullo della scuola. Dal suo punto di vista però le cose non sono così semplici: scavando in profondità Julian non è tanto diverso da tutti gli altri bambini, si comporta con tale durezza per non lasciare intravedere le sue fragilità. Una sorta di corazza protettiva che nemmeno (anzi soprattutto) i genitori riescono a schiudere. Il libro di Julian è un’eccellente costola del romanzo madre ma si legge piacevolmente anche non conoscendone gli antefatti, poiché dipinge una storia parallela a Wonder dedicata all’insicurezza dei rapporti interpersonali nell’infanzia, in una dimensione totalmente indipendente. _Matteo Cinti_ , 2016
+
+Questo articolo è tratto da
+[Ombre e Luci n.133](https://www.ombreeluci.it/project/numero-133-chiamati-al-traguardo/ "Ombre e Luci n.133")
+[](https://www.ombreeluci.it/project/numero-133-chiamati-al-traguardo/ "Ombre e Luci n.133")

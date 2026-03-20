@@ -1,5 +1,4 @@
 ---
-
 title: "Un metodo efficace per l'educazione dei bambini con disabilità"
 date: "1976-05-20"
 author: "Nicole Schulthes"
@@ -26,7 +25,10 @@ Tutto è cominciato con il ritorno di Sabina a Scuola Serena, dopo tre mesi di c
 Cieca, sordo-muta (apparentemente) Sabina aveva vissuto fino ad allora ripiegata su se stessa, non mostrando segno alcuno di conoscenza e nutrita solo di cibo liquido. Ritorna da questo breve soggiorno in piedi sulle sue gambe, obbedisce a un certo tipo di ordini (gestuali), può esprimere qualche semplice desiderio unendo le mani in segno di "per piacere". Certo! Ha ancora molto da imparare. E così continua ad apprendere a poco a poco, i mille esercizi, esigenze, contatti e, penso, anche le gioie della vita con gli altri.
 
 Questo è venuto a mostrarci il suo educatore: bisogna **credere** che ogni bambino, anche il più handicappato, può progredire e progredirà se si riuscirà ad offrirgliene il mezzo, se si riuscirà cioè a stabilire con lui un **contatto** umano. E ci ha dimostrato anche che non si tratta di un "trucco" o di una "magia", ma di un lavoro lungo e duro, realizzato da un'équipe vera, secondo un programma stabilito chiaramente, con l'aiuto di metodi che hanno già dato un risultato pratico.
-Credere** in ciò che si fa e al progresso di ciascuno: ciascuno al proprio livello - alzare la testa per chi l'ha tenuta sempre chinata, tener aperta la mano per chi l'ha tenuta sempre chiusa... David fin dal primo giorno ha fatto di questa fede la sua arma principale, non ha mai cessato di parlarne e ha concluso il corso con questa parola.
+
+**Credere**
+
+in ciò che si fa e al progresso di ciascuno: ciascuno al proprio livello - alzare la testa per chi l'ha tenuta sempre chinata, tener aperta la mano per chi l'ha tenuta sempre chiusa... David fin dal primo giorno ha fatto di questa fede la sua arma principale, non ha mai cessato di parlarne e ha concluso il corso con questa parola.
 
 E quando lo si vede, lavorare con Alberto (che vive coricato), o con Massimo (autistico grave) si è subito convinti che questa fede è necessaria per alimentare la forza, la tenerezza, l'immaginazione, la perseveranza, il tutto in una situazione spesso di lotta con il bambino. Perché molti bambini gravemente handicappati oppongono una resistenza di una forza insospettata verso chi vuole rompere la muraglia che li divide dal mondo, verso chi vuol spezzare le loro abitudini.
 
@@ -60,4 +62,8 @@ Tutto ciò domanda molto lavoro nelle piccole cose, sforzi ripetuti senza stanca
 
 Mi pare che quelli che hanno partecipato a queste giornate di discussioni ma soprattutto di lavoro in comune, hanno apprezzato il valore professionale ma anche umano di David. Come me, penso, hanno visto nel suo "lavoro" un futuro, una speranza per l'educazione dei bambini handicappati che per così lungo tempo si è osato qualificare come "irrecuperabili" e che sanno mostrarci come anch'essi, dal momento che vivono, possono progredire se noi vogliamo e sappiamo raggiungerli.
 
-- *Nicole Schulthes*, 1976
+\- _Nicole Schulthes_ , 1976
+
+Questo articolo è tratto da:
+**[Insieme n.9, 1976](https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/)
+[](https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/)**

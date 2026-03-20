@@ -1,5 +1,4 @@
 ---
-
 title: ArcheoCasilina – Recensione
 date: 2022-06-06
 author: Lars Porsenna
@@ -17,6 +16,22 @@ id_numero: "OEL-157"
 numero_rivista: "Ombre e Luci"
 ---
 
-Adicembre 2021 ha visto la luce questo piccolo e agile **vademecum che punta a far conoscere i resti archeologici disseminati nella periferia Est di Roma** , un patrimonio storico spesso sottovalutato se non proprio sconosciuto anche agli stessi abitanti. A realizzarlo i ragazzi del [**Centro Diurno «La Fabbrica dei Sogni»**](https://cdlafabbricadeisogni.wordpress.com/) (zona Torre Maura) con l’aiuto degli operatori dei laboratori di archeologia, fotografia e informatica. Molto efficace l’idea di scegliere la linea della Metro C come direttrice del racconto: a ogni fermata è dedicato un capitolo corredato da schede dei reperti e mappa per raggiungerli. Oltre alle agili informazioni storiche, colpiscono i commenti degli autori che, **in maniera spesso schietta e spiazzante, offrono un punto di vista originale sui frammenti di storia.** Una piccola guida, insomma, che è anche un invito ad andare a scoprire questa Roma sconosciuta in un viaggio, iniziato più di 2000 anni fa, che arriva fino al secondo dopoguerra fra sepolcri, ponti, torri, cisterne e catacombe.
+A dicembre 2021 ha visto la luce questo piccolo e agile **vademecum che punta a far conoscere i resti archeologici disseminati nella periferia Est di Roma** , un patrimonio storico spesso sottovalutato se non proprio sconosciuto anche agli stessi abitanti. A realizzarlo i ragazzi del [**Centro Diurno «La Fabbrica dei Sogni»** ](https://cdlafabbricadeisogni.wordpress.com/)(zona Torre Maura) con l’aiuto degli operatori dei laboratori di archeologia, fotografia e informatica. Molto efficace l’idea di scegliere la linea della Metro C come direttrice del racconto: a ogni fermata è dedicato un capitolo corredato da schede dei reperti e mappa per raggiungerli. Oltre alle agili informazioni storiche, colpiscono i commenti degli autori che, **in maniera spesso schietta e spiazzante, offrono un punto di vista originale sui frammenti di storia.** Una piccola guida, insomma, che è anche un invito ad andare a scoprire questa Roma sconosciuta in un viaggio, iniziato più di 2000 anni fa, che arriva fino al secondo dopoguerra fra sepolcri, ponti, torri, cisterne e catacombe. ArcheoCasilina **Autore** : AA.VV.
+**Editore:**
 
- ### ArcheoCasilina **Autore** : AA.VV. **Editore:** Universitalia **Pubblicato:** dicembre 2021 **Pagine:** 120 **Prezzo:** 10€ **ISBN:** 8832935244
+Universitalia
+**Pubblicato:**
+
+dicembre 2021
+**Pagine:**
+
+120
+**Prezzo:**
+
+10€
+**ISBN:**
+
+8832935244 Questo articolo è tratto da
+[**Ombre e Luci n. 157, 2021**](https://www.ombreeluci.it/project/numero-157-mai-per-caso/) [](https://www.ombreeluci.it/project/numero-157-mai-per-caso/) **Ogni mese inviamo una newsletter**
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità.
+Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/).

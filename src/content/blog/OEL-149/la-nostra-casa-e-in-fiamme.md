@@ -1,5 +1,4 @@
 ---
-
 title: "La nostra casa è in fiamme"
 date: "2020-03-23"
 author: "Giulia Galeotti"
@@ -17,20 +16,57 @@ id_numero: "OEL-149"
 numero_rivista: "Ombre e Luci"
 ---
 
-Ci sono libri che si rivelano altro da quel che ti aspettavi. È il caso di *La nostra casa è in fiamme* di Greta Thunberg che ho preso in mano per conoscere meglio una figura amata da mia nipote. Ebbene quello che ho incontrato è un drammatico ritratto della società svedese. «In mezzo a tutte le curve di crescita ascendenti tantissime persone stanno sempre peggio. La solitudine involontaria è diventata una malattia cronica diffusa. L’esaurimento e il disagio psichico non sono più una bomba a orologeria. La bomba è già esplosa». Nel paese, infatti, i disturbi psichici nei ragazzi tra 10 e 17 anni sono aumentati di oltre il 100% in 10 anni; in particolare le diagnosi di Adhd e autismo più che raddoppiate negli ultimi 5. «Finchè i media e i politici non davano segni di preoccupazione – scrive la madre – presumevo che tutto fosse sotto controllo. Poi c’è stata la crisi di Greta, seguita da quella di Beata [l’altra figlia], e ci siamo ritrovati in un luogo di cui non conoscevamo nemmeno l’esistenza».
+Ci sono libri che si rivelano altro da quel che ti aspettavi. È il caso di _La nostra casa è in fiamme_ di Greta Thunberg che ho preso in mano per conoscere meglio una figura amata da mia nipote. Ebbene quello che ho incontrato è un drammatico ritratto della società svedese. «In mezzo a tutte le curve di crescita ascendenti tantissime persone stanno sempre peggio. La solitudine involontaria è diventata una malattia cronica diffusa. L’esaurimento e il disagio psichico non sono più una bomba a orologeria. La bomba è già esplosa». Nel paese, infatti, i disturbi psichici nei ragazzi tra 10 e 17 anni sono aumentati di oltre il 100% in 10 anni; in particolare le diagnosi di Adhd e autismo più che raddoppiate negli ultimi 5. «Finchè i media e i politici non davano segni di preoccupazione – scrive la madre – presumevo che tutto fosse sotto controllo. Poi c’è stata la crisi di Greta, seguita da quella di Beata [l’altra figlia], e ci siamo ritrovati in un luogo di cui non conoscevamo nemmeno l’esistenza». Acquista questo libro in uno dei siti del circuito **[Helpfreely](https://www.helpfreely.org/it/). ** Se sei iscritto, una percentuale del tuo acquisto verrà donata a Fede e Luce. ([Scopri di più](http://www.fedeeluce.it/helpfreely---la-guida.html)) Ecco dove puoi trovarlo:
+ * [IBS](https://www.ibs.it/nostra-casa-in-fiamme-nostra-libro-vari/e/9788804717188)
+ * [Il Libraccio](https://www.libraccio.it/libro/9788804717188/greta-thunberg-svante-thunberg-beata-ernman/nostra-casa-e-in-fiamme-nostra-battaglia-contro-cambiamento-climatico.html)
+ * [La Feltrinelli](https://www.lafeltrinelli.it/libri/greta-thunberg/nostra-casa-e-fiamme-nostra/9788804717188?productId=9788804717188&productId=9788804717188)
+ * [Mondadori Store](https://www.mondadoristore.it/nostra-casa-e-fiamme-nostra-Greta-Thunberg/eai978880471718/?gclsrc=aw.ds&gclid=CjwKCAiAvonyBRB7EiwAadauqUiuVzBhuJPjIbDnzp70BTmKK2VWGlZXQM-j0HF7jfBSTW9_0veNbxoCe38QAvD_BwE&gclsrc=aw.ds)
+Questo articolo è tratto da
+[**Ombre e Luci n. 149, 2020**](https://www.ombreeluci.it/project/numero-149-io-la-moda/) **SOMMARIO** _Editoriale_**
+****Se lo diceva Coco Chanel...** di Cristina Tersigni _Focus: Moda e disabilità_
+**La rivoluzione copernicana di Lucas**
 
-#####
+di Giulia Galeotti _
+_**Quel che l'abito fa** di Nicla Bettazzi
+**Vedersi in vetrina**
 
-##### Acquista questo libro in uno dei siti del circuito Helpfreely.
+di Cristina Tersigni
+**Jillian, la divina**
 
-Se sei iscritto, una percentuale del tuo acquisto verrà donata a Fede e Luce. ([Scopri di più](http://www.fedeeluce.it/helpfreely---la-guida.html))
+di Giulia Galeotti _Intervista_
+**Tranquilla e soddisfatta di me stessa**
 
-Ecco dove puoi trovarlo:
+di Francesca Cabrini _Testimonianze_
+**Quaranta occhi puntati su di te**
 
-- [IBS](https://www.ibs.it/nostra-casa-in-fiamme-nostra-libro-vari/e/9788804717188)
+di Silvia Gusmano _Dall'archivio_
+**Grazie per avermelo fatto fare da sola**
 
-- [Il Libraccio](https://www.libraccio.it/libro/9788804717188/greta-thunberg-svante-thunberg-beata-ernman/nostra-casa-e-in-fiamme-nostra-battaglia-contro-cambiamento-climatico.html)
+di Una mamma _Associazioni_
+**Sfilate da sogno**
 
-- [La Feltrinelli](https://www.lafeltrinelli.it/libri/greta-thunberg/nostra-casa-e-fiamme-nostra/9788804717188?productId=9788804717188&productId=9788804717188)
+di Cristina Tersigni _Fede e Luce_
+**Chi risponde alle domande**
 
-- [Mondadori Store](https://www.mondadoristore.it/nostra-casa-e-fiamme-nostra-Greta-Thunberg/eai978880471718/?gclsrc=aw.ds&gclid=CjwKCAiAvonyBRB7EiwAadauqUiuVzBhuJPjIbDnzp70BTmKK2VWGlZXQM-j0HF7jfBSTW9_0veNbxoCe38QAvD_BwE&gclsrc=aw.ds)
+di Daniela Guglietta _Spettacoli_
+[**Il corpo dell'amore**](https://www.ombreeluci.it/2020/il-corpo-dellamore/) di Cristina Tersigni _Rubriche_
+**Dialogo Aperto n. 149**
+**Vita Fede e Luce n. 149**
+
+_Libri_
+**La nostra casa è in fiamme**
+
+di Greta Thunberg
+**Imperfetta**
+
+di Andrea Dorfman
+**Che cos'è una sindrome**
+
+di Giuseppe Colaneri
+**La bambina morbida**
+
+di Maria Cristina Toccafondi _Diari_
+**Negozi e****pantaloni** di Benedetta Mattei
+**Per le strade di Roma**
+
+di Giovanni Grossi

@@ -29,4 +29,6 @@ In Italia realtà simili sono già esistenti, anche se la percentuale stimata di
 
 Il percorso di assunzione – che si svolgerà presso la società Untapped che poi fornirà personale consulente alla DXC Tech – seguirà i classici passi: richieste di lavoro tramite l’iscrizione al [portale del programma *Dandelion*](https://www.untappedwaypoint.com/programs/it-eoi) , un colloquio con personale esperto che valuterà le capacità tecniche e relazionali della persona per capire se sarà in grado di sostenere un lavoro in azienda, un regolare contratto retribuito, un percorso di formazione, presumibilmente in modalità da remoto (cioè da casa connesso a un computer) e avvio in un progetto di sviluppo o test del software, parzialmente in modalità da remoto, parzialmente in presenza presso una sede dell’azienda. Il gruppo di lavoro che si è costituito è estremamente motivato a portare avanti tale iniziativa e anche il management dell’azienda è stato immediatamente disponibile a supportare il programma. Ora siamo pronti a partire.
 
-**Ombre e Luci è anche una newsletter** Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .
+**Ombre e Luci è anche una newsletter**
+
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .

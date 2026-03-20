@@ -23,8 +23,6 @@ subtitle: "A bordo di un minivan, amici, ragazzi e genitori di Fede e Luce stann
 *Emanuela Attanasio*
 , 2010
 
-
-
 ---
 
 ### Scuderia “Le Forne”

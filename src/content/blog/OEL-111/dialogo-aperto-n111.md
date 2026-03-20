@@ -23,14 +23,12 @@ Sono una vostra abbonata da tanti anni, vi contatto per inoltrarvi una richiesta
 **Beatrice Leali**
 *Abbiamo risposto a questa lettera esprimendo il nostro rammarico per non essere riusciti a trovare un informazione adeguata, se non descrizioni cliniche. Qualcuno dei lettori può mandarci notizie e esperienze riguardanti questa malattia?*
 
-
 ---
 
 ### Giornatissima a Favignana
 
 Carissimi amici di Ombre e Luci, sono contentissima di parlarvi della bellissima giornata che le comunità di Palermo, Mazara del Vallo e Salemi hanno trascorso il giorno 19 agosto a Favignana grazie all’ospitalità ricevuta dal Sindaco Lucio Antinoro e dai suoi collaboratori. Essi hanno messo a nostra completa disposizione il lido Radangia fornito di apposita pedana, di un grande gazebo con sedie e tavolini, di bagni adatti alle esigenze dei nostri ragazzi e della possibilità di usufruire di consumazioni gratuite presso il bar del lido stesso. Nel pomeriggio abbiamo visitato la famosa Tonnara di Favignana e subito dopo abbiamo fatto un breve giro dell’isola. La cosa più importante è stata l'aver portato testimonianza della splendida realtà di Fede e Luce soprattutto in quest’isola dove ancora a proposito dell’handicap vi è molta arretratezza e in molti casi anche vergogna da parte dei genitori nel mostrare i loro figli alla società. Questi ragazzi pertanto vivono la loro vita in casa senza stimoli e svaghi. Da qui la scelta di trascorrere questa giornata a Favignana: infatti Salvatore Vultaggio, da poco eletto coordinatore della comunità di Salemi, incontrando le famiglie del luogo si è reso conto della necessità di fondare una comunità di FeL e contemporaneamente della difficoltà nel mettere in prati ca tutto ciò. A causa di questi problemi, in fondo quale modo migliore per cominciare se non quello di portare la nostra testimonianza accolta fortissimamente da Esmeralda? Lei è una delle pochissime mamme coraggiose che insieme al figlio Francesco ha vissuto con noi questa meravigliosa giornata. Il percorso è ancora lungo ma speriamo, come dice una bellissima canzone “Mattone su mattone viene su una grande casa”.
 **Chiara Calascibetta**
-
 
 ---
 
@@ -39,7 +37,6 @@ Carissimi amici di Ombre e Luci, sono contentissima di parlarvi della bellissima
 Sono rimasto scioccato lo scorso anno, nel corso del dibattito sulla bioetica: ho constatato che, durante le conferenze, alcuni assidui parrocchiani, che difendono tenacemente la vita ad ogni costo, sono stati incapaci, durante la messa, di dare segno di pace a mio figlio Antonio, colpito da un grave handicap. Mi fa veramente male questa incoerenza tra parole e azioni. Incontriamo sacerdoti magnifici, giusti, umili, ma è un peccato che questo avvenga soprattutto a Fede e Luce e a Lourdes. La Chiesa è la Chiesa intorno ai più piccoli e fragili, dovunque e sempre, perchè è in ciascuno di noi che si nasconde la fragilità, quella fragilità che ci rivelano i nostri “disturbatori illuminati”.
 **R.B.**
 da O.&l. n. 176
-
 
 ---
 

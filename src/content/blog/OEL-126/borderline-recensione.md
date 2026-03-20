@@ -1,5 +1,4 @@
 ---
-
 title: Borderline - Recensione
 date: 2014-06-29
 author: Matteo Cinti
@@ -17,7 +16,6 @@ id_numero: "OEL-126"
 numero_rivista: "Ombre e Luci"
 ---
 
-B
-orderline è un libro di una piccola casa editrice, Il Ciliegio, autobiografia di una scrittrice esordiente sotto lo pseudonimo di Veronica. Sulle prime potremmo pensare si tratti dell’ennesima testimonianza su un tema di grande spessore, e che ci troviamo davanti a un bel mattone drammatico. Basta leggere le prime pagine per ricredersi. La scrittura passionale ma ordinata non sembra appartenere ad un’autrice alle prime armi. È probabilmente questo l’aspetto che rende il romanzo così coinvolgente e sorprendente, denso di emozioni intime di una donna e una mamma nel confronto quotidiano con una figlia così diversa ed ermetica. “Borderline” è un termine un po’ generico. Si utilizza per definire una personalità “al limite”, ovvero con comportamenti estremi dal punto di vista psicologico e fisico, ma chiaramente lo spettro di questi comportamenti è piuttosto ampio. Dall’estrema chiusura emotiva fino alle fughe da casa, Sara fa vivere a sua madre diversi momenti di drammaticità in cui emerge un solo e unico sentimento da parte sua: l’impotenza. Il dolore e il senso di colpa di non capire la propria figlia, di non intuire la mossa giusta da fare. Sarebbe facile dire che i disagi dei figli nascono solo da una cattiva educazione, questo libro ci aiuta a scoprire che, forse, non è sempre così.
-*Matteo Cinti*
-, 2014
+Borderline è un libro di una piccola casa editrice, Il Ciliegio, autobiografia di una scrittrice esordiente sotto lo pseudonimo di Veronica. Sulle prime potremmo pensare si tratti dell’ennesima testimonianza su un tema di grande spessore, e che ci troviamo davanti a un bel mattone drammatico. Basta leggere le prime pagine per ricredersi. La scrittura passionale ma ordinata non sembra appartenere ad un’autrice alle prime armi. È probabilmente questo l’aspetto che rende il romanzo così coinvolgente e sorprendente, denso di emozioni intime di una donna e una mamma nel confronto quotidiano con una figlia così diversa ed ermetica. “Borderline” è un termine un po’ generico. Si utilizza per definire una personalità “al limite”, ovvero con comportamenti estremi dal punto di vista psicologico e fisico, ma chiaramente lo spettro di questi comportamenti è piuttosto ampio. Dall’estrema chiusura emotiva fino alle fughe da casa, Sara fa vivere a sua madre diversi momenti di drammaticità in cui emerge un solo e unico sentimento da parte sua: l’impotenza. Il dolore e il senso di colpa di non capire la propria figlia, di non intuire la mossa giusta da fare. Sarebbe facile dire che i disagi dei figli nascono solo da una cattiva educazione, questo libro ci aiuta a scoprire che, forse, non è sempre così. _Matteo Cinti_ , 2014Questo articolo è tratto da
+[Ombre e Luci n.126](https://www.ombreeluci.it/project/numero-126-sulla-sua-strada/ "Ombre e Luci n.126")
+[](https://www.ombreeluci.it/project/numero-126-sulla-sua-strada/ "Ombre e Luci n.126")

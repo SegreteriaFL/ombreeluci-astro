@@ -1,5 +1,4 @@
 ---
-
 title: In viaggio verso Lourdes
 date: 1981-09-16
 author: Redazione
@@ -19,10 +18,6 @@ id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
 
-### Maria
-
-*Questa notte abbiamo dormito nelle cuccette del treno e si riposava abbastanza bene. A me piace andare sul treno perché mi fa dondolare.*
-
-### Matteo
-
-*Quando noi di Fede e Luce siamo partiti è stato bello perché sul treno ci hanno dato tante cose buone da mangiare. Poi c'era Nonni che passava con il carrello e diceva: "Brodo, brodo." E tanti altri hanno pulito il pavimento con gli stracci e il lisoformio, poi Stefano suonava la chitarra e gli altri cantavano.*
+Maria _Questa notte abbiamo dormito nelle cuccette del treno e si riposava abbastanza bene. A me piace andare sul treno perché mi fa dondolare._ Matteo _Quando noi di Fede e Luce siamo partiti è stato bello perché sul treno ci hanno dato tante cose buone da mangiare. Poi c'era Nonni che passava con il carrello e diceva: "Brodo, brodo." E tanti altri hanno pulito il pavimento con gli stracci e il lisoformio, poi Stefano suonava la chitarra e gli altri cantavano._ Questo articolo è tratto da:
+**[Insieme n.30, 1981](https://www.ombreeluci.it/project/insieme-n-30-bollettino-fede-e-luce-1981/)
+[](https://www.ombreeluci.it/project/insieme-n-30-bollettino-fede-e-luce-1981/)**

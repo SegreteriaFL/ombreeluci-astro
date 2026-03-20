@@ -15,4 +15,5 @@ issue_number: OEL-4
 id_numero: "OEL-4"
 numero_rivista: "Ombre e Luci"
 ---
+
 <iframe src="https://archive.org/stream/OmbreELuci_002?ui=embed" width="100%" height="460" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>

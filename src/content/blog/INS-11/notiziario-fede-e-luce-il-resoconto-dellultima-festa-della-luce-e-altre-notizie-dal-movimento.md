@@ -1,5 +1,4 @@
 ---
-
 title: "Notiziario Fede e Luce: il resoconto dell'ultima \"Festa della Luce\" e altre notizie dal movimento"
 date: 1976-05-20
 author: Redazione
@@ -19,7 +18,7 @@ numero_rivista: "Insieme"
 subtitle: "Quando la comunità di Fede e Luce si trasforma in un circo di allegria, risate, e connessioni profonde: un racconto vivido del 29 marzo 1976"
 ---
 
-### Com'è andata l'ultima [Festa della Luce](https://www.ombreeluci.it/1976/festa-della-luce-1976/) ?
+### Com'è andata l'ultima [Festa della Luce](https://www.ombreeluci.it/1976/festa-della-luce-1976/)?
 
 Chi fosse arrivato dai Frères prima che la festa iniziasse poteva credere di assistere ad un film, uno di quei vecchi film di Chaplin dove tutti corrono come trottole, tutti si affannano girando su se stessi... Rotoli di carta igienica di qua, giornali e stracci da un'altra parte... Strani pseudo-vestiti di carta colorata, bandiere da far invidia a una squadra navale...
 
@@ -45,9 +44,7 @@ Ma è stata solo apparenza. Tutti grandi e piccoli, di Roma o venuti da lontano 
 
 Siamo rientrati a casa forse un pò stanchi ma felici. Per un pomeriggio ci eravamo sentiti tutti uguali, a ognuno il sole aveva riservato la parte di calore necessaria «ad accendere una piccola fiammella di speranza, e questo Istituto che con tanta semplicità ci ha accolto sta a dimostrare che piano piano il nostro modo di gioire contagia gli altri e chi ci ha visto una volta è pronto a riaprirci le porte.
 
-
-
----
+* * *
 
 **Sabato 28 marzo 1976**
 
@@ -55,10 +52,30 @@ Pomeriggio a Villa Patrizi alcuni amici romani hanno accolto i rappresentanti di
 
 Gli amici di Vercelli non hanno partecipato a questo incontro perché impegnati in quei giorni ad un lavoro di sensibilizzazione a livello parrocchiale.
 
-**Domenica 23 maggio 1976** I gruppi romani sono invitati all'Istituto Nazareth per un pomeriggio 'INSIEME".
+**Domenica 23 maggio 1976**
+I gruppi romani sono invitati all'Istituto Nazareth per un pomeriggio 'INSIEME".
 
-ore 15:30 Accoglienza ore 16:00 Filmini e fotografie della Festa del 29 marzo. ore 17:00 Merenda ore 17:30 Questionario che) verrà inviato anche ai gruppi fuori Roma) ore 18:00 Messa ore 19:00 "Pesca": per tutti un piccolo premio e per 8 fortunati, 8 biglietti per…
+ore 15:30 Accoglienza
+ore 16:00 Filmini e fotografie della Festa del 29 marzo.
+ore 17:00 Merenda
+ore 17:30 Questionario che) verrà inviato anche ai gruppi fuori Roma)
+ore 18:00 Messa
+ore 19:00 "Pesca": per tutti un piccolo premio e per 8 fortunati, 8 biglietti per…
 
-**Parma** dove dal 3 al 6 giugno verrà accolto un foyer aell'Arche di Trosly. In programma tra l'altro: Sabato 5 pomeriggio : Incontro con la Chiesa di Parma Domenica 6 mattina : Messa in Cattedrale (presieduta dal Vescovo) Domenica 6 pomeriggio: Festa Fede e Luce
+**Parma**
 
-> O Signore, facci conoscere la gioia ai veder contento chi ci è vicino, perché gli abbiano ceduto il posto più comodo, la parte più ambita, perché gli abbiamo dato una mano nel suo lavoro; perché gli abbiamo voluto veramente bene.
+dove dal 3 al 6 giugno verrà accolto un foyer aell'Arche di Trosly.
+In programma tra l'altro:
+Sabato 5 pomeriggio : Incontro con la Chiesa di Parma
+Domenica 6 mattina : Messa in Cattedrale (presieduta dal Vescovo)
+Domenica 6 pomeriggio: Festa Fede e Luce
+
+> O Signore,
+> facci conoscere la gioia
+> ai veder contento chi ci è vicino,
+> perché gli abbiano ceduto il posto più comodo, la parte più ambita,
+> perché gli abbiamo dato una mano nel suo lavoro; perché gli abbiamo voluto veramente bene.
+
+Questo articolo è tratto da:
+**[Insieme n.9, 1976](https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/)
+[](https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/)**

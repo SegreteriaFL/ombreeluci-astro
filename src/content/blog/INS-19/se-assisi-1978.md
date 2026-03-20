@@ -18,4 +18,21 @@ issue_number: INS-19
 id_numero: "INS-19"
 numero_rivista: "Insieme"
 ---
-> Se un amico ti accoglie sorridendo, Se tuo figlio ti corre incontro per abbracciarti, Se sai cantare in mezzo al traffico, Se sai ancora divertirti giocando a pallone, Se sai bussare alla porta del vicino di casa, Se sai raccontare le storie ai bambini, Se prepari gli spaghetti per chi arriva all'improvviso, Se sai meravigliarti delle piccole cose, Se il brutto tempo non ti rende malinconico, Se non ti lasci stancare dai gesti quotidiani, Se sai dare e ricevere senza far storie, Se non ti credi migliore degli altri, Se riconosci che sei amato da Dio, Allora per te oggi, la gioia è possibile!
+
+> Se un amico ti accoglie sorridendo,
+> Se tuo figlio ti corre incontro per abbracciarti, Se sai cantare in mezzo al traffico,
+> Se sai ancora divertirti giocando a pallone,
+> Se sai bussare alla porta del vicino di casa,
+> Se sai raccontare le storie ai bambini,
+> Se prepari gli spaghetti per chi arriva all'improvviso,
+> Se sai meravigliarti delle piccole cose,
+> Se il brutto tempo non ti rende malinconico,
+> Se non ti lasci stancare dai gesti quotidiani,
+> Se sai dare e ricevere senza far storie,
+> Se non ti credi migliore degli altri,
+> Se riconosci che sei amato da Dio, Allora per te oggi, la gioia è possibile!
+
+Questo articolo è tratto da:
+**[Insieme n.17, 1978](https://www.ombreeluci.it/project/insieme-n-17-bollettino-fede-e-luce-assisi-1978/)**
+
+[](https://www.ombreeluci.it/project/insieme-n-17-bollettino-fede-e-luce-assisi-1978/)

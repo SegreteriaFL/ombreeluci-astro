@@ -1,5 +1,4 @@
 ---
-
 title: Volevo essere una farfalla - Recensione
 date: 2012-12-10
 author: Matteo Cinti
@@ -17,7 +16,6 @@ id_numero: "OEL-120"
 numero_rivista: "Ombre e Luci"
 ---
 
-N
-ei dibattiti sull’anoressia è facile cadere nel classico stereotipo che la lega alla ricerca della bellezza e alla brama di un corpo magro e snello. Ma dietro c’è davvero molto altro e a spiegarlo, in prima persona, è Michela Marzano. La filosofa italo-francese ha vissuto per diversi anni l’incubo dell’anoressia. Ha quindi deciso di raccontare la sua esperienza e quali disagi psicologici ne hanno contribuito allo sviluppo. Quando si riferisce all’anoressia, Michela parla di “sintomo”, non di “malattia”; un sintomo della sua spasmodica ricerca di approvazione da parte del padre, della volontà di essere sempre ‘brava’ ai suoi occhi. Una convinzione che la spingerà oltre i limiti del suo fisico. Sicuramente un testo intimo, ruvido, che saprà attirare per la sua forte personalità e lo stile moderno e ricco. Tramite i suoi pensieri, Michela ci svela cosa si nasconde dietro la ragazza anoressica che tutti hanno giudicato, ma pochi hanno capito.
-*Matteo Cinti*
-, 2012
+Nei dibattiti sull’anoressia è facile cadere nel classico stereotipo che la lega alla ricerca della bellezza e alla brama di un corpo magro e snello. Ma dietro c’è davvero molto altro e a spiegarlo, in prima persona, è Michela Marzano. La filosofa italo-francese ha vissuto per diversi anni l’incubo dell’anoressia. Ha quindi deciso di raccontare la sua esperienza e quali disagi psicologici ne hanno contribuito allo sviluppo. Quando si riferisce all’anoressia, Michela parla di “sintomo”, non di “malattia”; un sintomo della sua spasmodica ricerca di approvazione da parte del padre, della volontà di essere sempre ‘brava’ ai suoi occhi. Una convinzione che la spingerà oltre i limiti del suo fisico. Sicuramente un testo intimo, ruvido, che saprà attirare per la sua forte personalità e lo stile moderno e ricco. Tramite i suoi pensieri, Michela ci svela cosa si nasconde dietro la ragazza anoressica che tutti hanno giudicato, ma pochi hanno capito. _Matteo Cinti_ , 2012 Questo articolo è tratto da
+[Ombre e Luci n.120](https://www.ombreeluci.it/project/numero-120-aggiungi-un-posto-a-casa/ "Ombre e Luci n.120")
+[](https://www.ombreeluci.it/project/numero-120-aggiungi-un-posto-a-casa/ "Ombre e Luci n.120")

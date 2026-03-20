@@ -37,4 +37,6 @@ La descrizione dei disagi familiari in una comune famiglia britannica contempora
 
 Purtroppo non si nota altrettanta cura nell'aspetto estetico: **la fotografia ha una luce piatta e le immagini non hanno alcuna bellezza cinematografica** ; i troppi primi piani, anziché servire a dare drammaticità ai personaggi, sembrano un espediente da film per la televisione per evitare di mostrare ambienti e paesaggi. È un film con una bella sceneggiatura, soprattutto nella costruzione dei personaggi, ma non altrettanto bello da vedere.
 
-**Ombre e Luci è anche una newsletter** Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .
+**Ombre e Luci è anche una newsletter**
+
+Ci trovi storie, spunti e riflessioni per provare a cambiare il modo di vedere e vivere la disabilità. Se prima vuoi farti un'idea [qui trovi l'archivio di quelle passate](https://www.ombreeluci.it/newsletter/) .

@@ -1,5 +1,4 @@
 ---
-
 title: "Vizi e virtù del vivere - Recensione"
 date: "2011-12-04"
 author: "Redazione"
@@ -19,10 +18,5 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Ada Fonzi, Edizioni Messaggero Padova"
 ---
 
-Il tascabile raccoglie i veloci contributi di una rubrica psicologica che Ada Fonzi ha tenuto in tre anni per il Messaggero di Sant’Antonio, intitolata Le età della vita.
-
-Con la sua grande esperienza nella psicologia dello sviluppo e una narrazione che sa adattare anche il punto di vista della psicologia clinica e sociale, l’autrice offre uno sguardo competente, lieve e concreto su “piccoli e grandi accadimenti, piccoli e grandi interrogativi del vivere quotidiano”.
-
-Lontana comunque “dalla tentazione di fornire ricette di qualsiasi tipo” ma fornendo interessanti chiavi di lettura, si accosta alle differenti età dell’essere umano cogliendone le caratteristiche, analogie e differenze con altre età.
-
-*C.T.*, 2011
+Il tascabile raccoglie i veloci contributi di una rubrica psicologica che Ada Fonzi ha tenuto in tre anni per il Messaggero di Sant’Antonio, intitolata Le età della vita. Con la sua grande esperienza nella psicologia dello sviluppo e una narrazione che sa adattare anche il punto di vista della psicologia clinica e sociale, l’autrice offre uno sguardo competente, lieve e concreto su “piccoli e grandi accadimenti, piccoli e grandi interrogativi del vivere quotidiano”. Lontana comunque “dalla tentazione di fornire ricette di qualsiasi tipo” ma fornendo interessanti chiavi di lettura, si accosta alle differenti età dell’essere umano cogliendone le caratteristiche, analogie e differenze con altre età. _C.T._ , 2011Questo articolo è tratto da
+[Ombre e Luci n.116](https://www.ombreeluci.it/project/numero-115-difendere-la-fragilita-di-ognuno/ "Ombre e Luci n.116") [](https://www.ombreeluci.it/project/numero-115-difendere-la-fragilita-di-ognuno/ "Ombre e Luci n.116")

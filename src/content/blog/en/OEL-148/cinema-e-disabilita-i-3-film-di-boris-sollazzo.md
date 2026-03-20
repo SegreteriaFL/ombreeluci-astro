@@ -1,5 +1,4 @@
 ---
-
 title: "Cinema e disabilità: i 3 film di Boris Sollazzo"
 date: "2019-11-16"
 author: "Boris Sollazzo"
@@ -63,7 +62,7 @@ Your content goes here. Edit or remove this text inline or in the module Content
 
 ## Yo También
 
-*(Yo, también, Spagna, 2009, durata 103 minuti) - Regia di Antonio Naharro, Álvaro Pastor. Con Lola Dueñas, Pablo Pineda, Isabel García Lorca, Antonio Naharro, Pedro Álvarez-Ossorio, María Bravo, Consuelo Trujillo, Joaquín Perles, Teresa Arbolí.*
+_(Yo, también, Spagna, 2009, durata 103 minuti) - Regia di Antonio Naharro, Álvaro Pastor. Con Lola Dueñas, Pablo Pineda, Isabel García Lorca, Antonio Naharro, Pedro Álvarez-Ossorio, María Bravo, Consuelo Trujillo, Joaquín Perles, Teresa Arbolí._
 
 Daniel si laurea, lavora, si innamora. Daniel è un ragazzo intelligente, divertente, sensibile. Daniel ha un rapporto speciale con Laura (Lola Dueñas), ed entrambi non vogliono incasellarlo in uno scaffale emotivo, in un’etichetta. Daniel è Pablo Pineda, nel film e nella vita. E Pablo ha anche condotto un reality. Pablo ha la sindrome di Down e alla fine rimprovera la madre di averlo educato, formato, costretto a vivere come loro. I cosiddetti normali. Yo También racconta la sua storia.
 
@@ -71,17 +70,17 @@ A San Sebastian, Pablo ha ricevuto da Sir Ian McKellen i complimenti per il suo 
 
 ## Tutto il mio folle amore
 
-*(Id. Italia, 2019, durata 97 minuti) - Regia di Gabriele Salvatores. Con Claudio Santamaria, Valeria Golino, Diego Abatantuono, Giulio Pranno, Daniel Vivian. Distribuito da 01 Distribution.*
+_(Id. Italia, 2019, durata 97 minuti) - Regia di Gabriele Salvatores. Con Claudio Santamaria, Valeria Golino, Diego Abatantuono, Giulio Pranno, Daniel Vivian. Distribuito da 01 Distribution._
 
-Altra storia vera. Gabriele Salvatores si fa ispirare dalla famiglia Antonello (raccontata, in un suo viaggio negli Stati Uniti, nello splendido libro *[Se ti abbraccio non aver paura](http://www.ombreeluci.it/2012/se-ti-abbraccio-non-aver-paura/)* di Fulvio Ervas) per una favola dolce e intimista, un on the road di outsider - il genere d’elezione del premio Oscar - in cui l’unico che ha capito tutto e sa cosa vuole e come prenderselo è Vincent, affetto da sindrome di Asperger. Gli adulti che lo inseguono, che sono diversissimi ma legati dall’ossessione di capirlo e proteggerlo, in realtà hanno bisogno di lui per crescere, completarsi, ritrovarsi.
+Altra storia vera. Gabriele Salvatores si fa ispirare dalla famiglia Antonello (raccontata, in un suo viaggio negli Stati Uniti, nello splendido libro _[Se ti abbraccio non aver paura](http://www.ombreeluci.it/2012/se-ti-abbraccio-non-aver-paura/)_ di Fulvio Ervas) per una favola dolce e intimista, un on the road di outsider - il genere d’elezione del premio Oscar - in cui l’unico che ha capito tutto e sa cosa vuole e come prenderselo è Vincent, affetto da sindrome di Asperger. Gli adulti che lo inseguono, che sono diversissimi ma legati dall’ossessione di capirlo e proteggerlo, in realtà hanno bisogno di lui per crescere, completarsi, ritrovarsi.
 
 ## Un sapore di ruggine e ossa
 
-*(De rouille et d'os, Belgio, Francia, 2012, durata 120 minuti) Regia di Jacques Audiard. Con Marion Cotillard, Matthias Schoenaerts, Armand Verdure, Céline Sallette, Corinne Masiero, Bouli Lanners. Distribuito da Bim Distribuzione.
-*
+_(De rouille et d'os, Belgio, Francia, 2012, durata 120 minuti) Regia di Jacques Audiard. Con Marion Cotillard, Matthias Schoenaerts, Armand Verdure, Céline Sallette, Corinne Masiero, Bouli Lanners. Distribuito da Bim Distribuzione.
+_
 
-Se volete sapere qualcosa di più del cinema europeo, del melodramma moderno sporco e cattivo, chiedete a Jacques Audiard. Uno che ci regala la scena d’amore “disabile” più bella della storia (e il sesso delle persone con disabilità è un genere a parte, dal bellissimo *The Special Need* a *The Sessions* con Helen Hunt) con una Marion Cotillard che ci fa dimenticare il suo status di mutilata. Un racconto potentissimo di emozioni, dolore, rabbia, empatia, sensualità. Una storia d’amore e sofferenza, come tante. Ma raccontata meravigliosamente.
+Se volete sapere qualcosa di più del cinema europeo, del melodramma moderno sporco e cattivo, chiedete a Jacques Audiard. Uno che ci regala la scena d’amore “disabile” più bella della storia (e il sesso delle persone con disabilità è un genere a parte, dal bellissimo _The Special Need_ a _The Sessions_ con Helen Hunt) con una Marion Cotillard che ci fa dimenticare il suo status di mutilata. Un racconto potentissimo di emozioni, dolore, rabbia, empatia, sensualità. Una storia d’amore e sofferenza, come tante. Ma raccontata meravigliosamente.
 
-### Speciale Cinema e disabilità
+### Speciale [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita/ "Speciale Cinema e disabilità - Ombre e Luci")
 
 Con i contributi di:

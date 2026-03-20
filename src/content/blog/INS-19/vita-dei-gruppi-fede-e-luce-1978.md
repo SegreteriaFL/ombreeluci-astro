@@ -27,7 +27,6 @@ I nuovi amici sono molto simpatici; assieme a Don Edoardo che ci ha ospitati e s
 
 *Rita Ozzimo* , 1978
 
-
 ---
 
 ### Villa Patrizi - Roma
@@ -60,7 +59,6 @@ So che la volontà di fare in modo che sia così sempre più spesso c'è in tutt
 
 *Pinino* , 1078
 
-
 ---
 
 ### Hands-out S. Paolo - Roma
@@ -80,7 +78,6 @@ Abbiamo pure partecipato alla festa della Luce e a quella della Primavera che so
 Certo, rispetto all'anno scorso; abbiamo fatto già molto di più, ma pensiamo che molto si possa fare ancora, ed è per questo che già stiamo discutendo sull'attività del prossimo anno. Sono uscite diverse proposte come fare dello sport (nuoto, ginnastica), un periodo di vacanza insieme, una commedia interamente scritta dai ragazzi, a differenza di quella che stiano attualmente preparando e che andrà in scena il 18 giugno.
 
 Speriamo di riuscire a fare qualcosa di tutto ciò. *SEPU Settimio* , 1978
-
 
 ---
 
@@ -134,7 +131,6 @@ Ringraziamo di tutto questo Dio che ci segue amorevolmente, e arriviamo a Lui at
 
 *Claudio* , 1978
 
-
 ---
 
 ### Cuneo
@@ -147,10 +143,11 @@ Tutti i sabati alcuni giovani con me, Betty e i nostri bimbi trascorriamo il pom
 
 Si è riusciti anche a risolvere il problema di Matteo (ragazzo grave) in quanto Mimmo e Gianni si sono impegnati a intrattenerlo il sabato pomeriggio in modo da dare un po' di sollievo alla mamma che facendo scuola ha solo il sabato pomeriggio per sbrigare le faccende di casa.
 
-**Ultimissime** Domenica 23/4 si sono sposati Elisa e Franco due giovani del gruppo. Auguri agli sposi! e salutoni a tutti gli amici di Roma.
+**Ultimissime**
+
+Domenica 23/4 si sono sposati Elisa e Franco due giovani del gruppo. Auguri agli sposi! e salutoni a tutti gli amici di Roma.
 
 *Mario e Betty* , 1978
-
 
 ---
 

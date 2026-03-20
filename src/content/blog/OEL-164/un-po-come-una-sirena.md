@@ -23,7 +23,9 @@ subtitle: "I miei primi cinque mesi di nuoto"
 
 Era il 28 febbraio di questo 2023 quando, per la prima volta, sono entrata nella piscina delle Tre Fontane nel quartiere Eur di Roma. Ad accogliermi c’era il Tecnico Nazionale Enrico Testa.
 
-**Da quel bel giorno la vita è cambiata! In questi cinque mesi, e grazie al Team della FINP, è come se avessi iniziato a vivere una favola.** Ora sono impegnata due pomeriggi a settimana e, ogni volta, torno felicemente stanca morta a casa.
+**Da quel bel giorno la vita è cambiata! In questi cinque mesi, e grazie al Team della FINP, è come se avessi iniziato a vivere una favola.**
+
+Ora sono impegnata due pomeriggi a settimana e, ogni volta, torno felicemente stanca morta a casa.
 
 Una mia amica, Liliana Posseri, con una disabilità simile alla mia, mi ha detto di sentirsi trasformata in una sirena... anche a me pare lo stesso. Mi sembra di non far in tempo a metabolizzare le tante emozioni che vivo.
 

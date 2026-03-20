@@ -25,8 +25,6 @@ Ho vissuto il senso di stupore al primo impatto di una triste realtà che ci fa 
 
 **Giuseppe Barluzzi**
 
-
-
 ---
 
 ### Getto il seme
@@ -34,8 +32,6 @@ Ho vissuto il senso di stupore al primo impatto di una triste realtà che ci fa 
 La vostra rivista mi è diventata, piano piano, sempre più preziosa. Ne traggo conforto, una forma di “solidarietà”, consigli, confronti, libri consigliati che ho comperato...Grazie! Vi invio alcuni indirizzi di amiche che, come me, hanno figli diversabili. Molte di loro non sono credenti o, dicono, hanno perso la fede dopo aver avuto il loro figlio un po’ “difficile”...Ma io spero che la nostra rivista porti un po’ di luce nella loro vita. Uno “getta il seme”, poi sarà Qualcun altro che provvederà a farlo crescere... Io ho un bimbo di 9 anni con un ritardo generalizzato dello sviluppo e iperattivo (una diagnosi un po’ imprecisa). Faccio parte, con queste mie amiche di un gruppo di auto-aiuto “Familiarizziamo” accompagnate da una psicologa e da un educatore, sovvenzionato dai servizi sociali del mio paese. È un'esperienza molto positiva ed è rivolta in particolare ai genitori e alle loro problematiche. Grazie di tutto.
 
 **Paola Testa Olivero**
-
-
 
 ---
 
@@ -51,8 +47,6 @@ Come modo di fare, e adesso sento che sto crescendo, ed ho l'impressione di aver
 
 Ciao da **Giovanni Grossi**
 
-
-
 ---
 
 ### Quando c'era lui in casa
@@ -62,8 +56,6 @@ Io mi chiamo Emanuele Manfucci e sono il fratello di Daniele, un ragazzo disabil
 Le giornate che noi passiamo insieme siamo tutti molto contenti che Daniele ci sia in casa. Ma adesso non più tanto: ora che è in ospedale non possiamo quasi più vederlo; soltanto quando passiamo a trovarlo al Bambin Gesù fuori Roma. Quando c’è lui in casa è come se trasmettesse tanta gioia e allegria. lo, infine, vorrei dire che per me Daniele è come una fonte di amore il cui fondo non esiste.
 
 **Emanuele Manfucci**
-
-
 
 ---
 
@@ -89,11 +81,11 @@ Questa attività si svolge nell'ambiente più bello, più arioso e più luminoso
 
 Ormai per chi abita nel quartiere l’immagine della parrocchia è indissociabile dagli amici che si sa di trovare di pomeriggio e che la manifestano come la casa di Dio dove tutti i suoi figli, incontrando Lui e incontrandosi fra loro, possono cominciare a ritrovare se stessi.
 
-**Don Romano Rossi** , Roma Parrocchia di N.S. di Coromoto
+**Don Romano Rossi**
+
+, Roma Parrocchia di N.S. di Coromoto
 
 *Cogliamo l’occasione per inviare i nostri più sinceri auguri a Don Romano recentemente nominato Vescovo della Diocesi di Civitacastellana, con la speranza che continui a essere teso all’accoglienza dei più piccoli nel nome di Gesù.*
-
-
 
 ---
 
@@ -110,8 +102,6 @@ Negli anni °60 finalmente ci unimmo in un piccolo gruppo di mamme ben determina
 È stata una lunga guerra (come possiamo chiamarla? La guerra dei 40 anni?); nei decenni molte sono state le battaglie rò grandi perché ci hanno permesso di vivere la modesta vita che tutte le famiglie con figli handicappati vivono oggi. Un vecchio proverbio toscano dice: “col poco si campa, col niente si muore”. Ed eccoci all'incontro con voi, con la cara Mariangela, col grande Jean Vanier, con la vostra intelligente bontà. Vi ho amati subito perché vi ho sentiti fratelli(fratelli maggiori, più aperti e più saggi di noi). Grazie carissimi, per quello che siete, per la comprensione, il conforto e il desiderio di aiutarci che avete sempre manifestato. Siete stati davvero una luce, mi avete aiutato per tanti anni e aiutate ancora tutti noi nella nostra solitudine, con la vostra piccola amata rivista. Con la vostra sensibilità avete vissuto e vivete i nostri problemi come noi genitori li viviamo. Ci capite, senza pietismi, con dolore, ma evidenziandone anche i lati positivi. In una società sempre più distratta, più dura e difficile i nostri figli sono una scuola di tenerezza, di amore, di impegno di vita. E voi lo avete ben capito, da sempre.
 
 **Cecilia Cattaneo**
-
-
 
 ---
 
@@ -131,8 +121,6 @@ A questo punto Angelo mi è venuto in aiuto suggerendomi di prenderla a casa un 
 
 **Maria Novella**
 
-
-
 ---
 
 ### Sola, io e lei
@@ -147,9 +135,9 @@ N.B. gli amici e i parenti sono spariti. Non mi importa: ho lei vera vita che ci
 
 Qualcuno mi dirà che ciò è prettamente filosofico, che la mia risposta di madre a questa figlia è per alleggerire una situazione molto pesante, fuori dai canoni di vita normali. Ebbene io vi dico no! Amo mia figlia handicappata come la più cara bimba al mondo.
 
-**Grazia** (Testimonianza data all'incontro di formazione nazionale di Fede e Luce a Santa Severa -RMnel novembre 2007)
+**Grazia**
 
-
+(Testimonianza data all'incontro di formazione nazionale di Fede e Luce a Santa Severa -RMnel novembre 2007)
 
 ---
 
@@ -162,8 +150,6 @@ Crescendo e comunque avvertendo questa insicurezza una cosa chiesi al Signore: d
 Finalmente ero riuscita a mettere in gioco me stessa, ad uscire dal mio guscio ed oggi, dopo essere cresciuta, il Signore mi ha chiamato ad essere responsabile della comunità per la seconda volta: nonostante le mie paure come potevo dire no a lui ed alla mia comunità che mi aveva dato cosi tanto. Fede e Luce è un'esperienza meravigliosa, peccato che non ci siano parole in grado di descriverla pienamente.
 
 **Enza Catalano**
-
-
 
 ---
 
@@ -183,8 +169,6 @@ Certamente questo mio sguardo fonda senz'altro le sue radici nella mia appartene
 
 **Giovanni Vergani**
 
-
-
 ---
 
 ### L'unica rivista
@@ -194,8 +178,6 @@ Sono suor Daniela Maria, da 19 anni vivo nell’eremo Francescano di Campello su
 Riceviamo Ombre e Luci dal 1984 e negli anni è l’unica rivista che abbiamo scelto di mantenere. Il nostro carisma consiste nella preghiera di intercessione che dedichiamo ai più sofferenti. Accogliamo anche chi vuole trascorrere del tempo in tranquillità per riflettere e pregare insieme. Alcuni momenti della nostra vita comunitaria vengono dedicati alla lettura di articoli che cerchiamo di scegliere facendo attenzione alle esigenze degli ospiti. Ricordo in modo particolare il numero dedicato all’autismo che è stato d'aiuto ad una donna che aveva un figlio con questo problema.
 
 Da dieci anni viene a trovarci una volta l’anno la cooperativa “Il cerchio” di Spoleto. I ragazzi con disabilità della cooperativa sono ormai nostri amici e si prestano volentieri a lavori di manutenzione, come la cura del prato, pretesto per trascorrere una giornata insieme.
-
-
 
 ---
 
@@ -222,8 +204,6 @@ Il rapporto con i fratelli? Ilaria, Lela, Giacomo e Adele sono i suoi maggiori f
 “Da quando è arrivato Andrea ho passato bei momenti; ma quelli che mi divertono di più sono quando le signore anziane fermano me, mamma e Andrea e dicono: “Ma che bel bambino, ha preso tutto dal fratello, si assomigliano un sacco.” E intanto io mi metto a ridere dietro le spalle.” **Giacomo** , 10 anni
 
 “La cosa che ricordo con più gioia è quando Andrea voleva giocare con me a palla e per farmelo capire, invece di tirarmi i pantaloni come al solito, ha provato a dire il mio nome e, prova e riprova, ha detto “ie-ia” (Lela); mi ha davvero emozionato.” **Emanuela** , 12 anni
-
-
 
 ---
 

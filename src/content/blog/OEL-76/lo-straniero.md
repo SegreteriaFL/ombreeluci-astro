@@ -1,5 +1,4 @@
 ---
-
 title: Lo straniero
 date: 2001-12-25
 author: Redazione
@@ -21,16 +20,48 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Questa riflessione è stata scritta da una persona anziana che ha voluto rimanere anonima. Nel secolo della mondializzazione, è il caso di riflettere sulla parola “straniero”. (Alleluia - Arche. - tradotta da Valeria Moritesi)"
 ---
 
-Lo straniero Facile da pronunciare e difficile da accettare, facile da dire, difficile da vivere. Sulla terra, da millenni, ancora sospettiamo lo straniero.
+Lo straniero
+Facile da pronunciare
+e difficile da accettare,
+facile da dire,
+difficile da vivere.
+Sulla terra, da millenni,
+ancora sospettiamo
+lo straniero. **Lo straniero**
+**Non è sempre**
+**chi viene da lontano.**
+Purtroppo, le sue attitudini
+ci alterano le abitudini.
+Il colore della pelle,
+una diversa educazione,
+hanno il dono di spaventarci,
+fa venire i brividi. **Lo straniero**
+**è quello che non conosci,**
+che incroci per la strada,
+che incontri qua e là,
+forse è un coinquilino. Lo straniero
+è magari quello
+che non conosci affatto
+che **è entrato da te**
+**portato dall’Amore;**
+forse tuo marito. **Lo straniero**
+**è “l’incomprensione”**
+fra genitori e figli,
+tra nonni e nipoti.
+Portano dissensi
+e partono delusi.
+Non torneranno più...
+Ci lasceranno, una volta lontani,
+come eterni stranieri. Lo straniero
+è anche mio fratello
+che noi dovremmo amare;
+veniamo dallo stesso Padre
+Iddio che ci ha creato.
+**Ma come potremo**
+**essere fratelli**
+**se per molti sulla terra**
+**Dio è diventato**
+**l’eterno straniero?**
 
-**Lo straniero** **Non è sempre** **chi viene da lontano.** Purtroppo, le sue attitudini ci alterano le abitudini. Il colore della pelle, una diversa educazione, hanno il dono di spaventarci, fa venire i brividi.
-
-**Lo straniero** **è quello che non conosci,** che incroci per la strada, che incontri qua e là, forse è un coinquilino.
-
-Lo straniero è magari quello che non conosci affatto che **è entrato da te** **portato dall’Amore;** forse tuo marito.
-
-**Lo straniero** **è “l’incomprensione”** fra genitori e figli, tra nonni e nipoti. Portano dissensi e partono delusi. Non torneranno più... Ci lasceranno, una volta lontani, come eterni stranieri.
-
-Lo straniero è anche mio fratello che noi dovremmo amare; veniamo dallo stesso Padre Iddio che ci ha creato. **Ma come potremo** **essere fratelli** **se per molti sulla terra** **Dio è diventato** **l’eterno straniero?**
-
-*Alleluja - Arche* (Traduzione di Valeria Montesi)
+_Alleluja - Arche_
+(Traduzione di Valeria Montesi)

@@ -1,5 +1,4 @@
 ---
-
 title: Notiziario di Fede e Luce n.10, 1976
 date: 1976-09-20
 author: Redazione
@@ -27,7 +26,8 @@ Il giorno per conoscere Cuneo; la sera per conoscere gli amici di Fede e Luce. A
 
 Così abbiamo lasciato da parte le parole che spesso rovinano quell'atmosfera di unità già tanto difficile da creare. Così è venuta l'ora di partire e siamo ancora riuscii a fare una cena insieme a casa di Mario.
 
-Tutta roba genuina e piemontese! Torna presto Maria Grazia! E porta con te tutti i gruppi di Roma!
+Tutta roba genuina e piemontese!
+Torna presto Maria Grazia! E porta con te tutti i gruppi di Roma!
 
 ### Ancora Cuneo - da una lettera di Mario (giugno)
 
@@ -45,8 +45,21 @@ Certo la cifra che ci hanno chiesto non è indifferente per le nostre finanze (2
 
 ### Milano
 
-Il gruppo di amici si è riunito una seconda volta. Qualche mamma "nuova" è venuta a vedere di che si tratta, prima di portare il figlio la prossima volta. La presenza di Luigi Raffaghello, contento di trovarsi tra amici, è stata particolarmente gradita. Aspettiamo da lui le sue impressioni su questi incontri
+Il gruppo di amici si è riunito una seconda volta. Qualche mamma "nuova" è venuta a vedere di che si tratta, prima di portare il figlio la prossima volta.
+La presenza di Luigi Raffaghello, contento di trovarsi tra amici, è stata particolarmente gradita. Aspettiamo da lui le sue impressioni su questi incontri
 
 Per tutti... appuntamento ad ottobre
 
-*La Redazione Dal mese di ottobre 1976, " INSIEME " uscirà trimestralmente in veste rinnovata. L'abbonamento annuo è di 1.500 lire L'abbonamento sostenitore è di 5.000 lire Ti preghiamo di segnalarci gli indirizzi (esatti) di persone cui potrebbe interessare riceverlo. Grazie ! e Buone vacanze! *
+_La Redazione_
+
+Dal mese di ottobre 1976, " INSIEME " uscirà trimestralmente in veste rinnovata.
+L'abbonamento annuo è di 1.500 lire
+L'abbonamento sostenitore è di 5.000 lire
+
+Ti preghiamo di segnalarci gli indirizzi (esatti) di persone cui potrebbe interessare riceverlo.
+
+Grazie ! e Buone vacanze!
+
+Questo articolo è tratto da:
+**[Insieme n.10, 1976](https://www.ombreeluci.it/project/insieme-n-10-bollettino-fede-e-luce-1976/)
+[](https://www.ombreeluci.it/wp-content/uploads/2023/09/insieme-10-set-1976.jpg)**

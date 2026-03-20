@@ -1,5 +1,4 @@
 ---
-
 title: Festa della Luce 1976
 date: 1976-02-20
 author: Redazione
@@ -19,18 +18,48 @@ numero_rivista: "Insieme"
 
 La festa avrà luogo Domenica 28 Marzo 1976, dalle ore 15 alle ore 19:00 presso la Casa Generalizia dei Fratelli delle scuole cristiane, Via Aurelia 476, gentilmente messa a disposizione.
 
-Ore 15:00 - 15:30 Accoglienza Ore 15:00 Festa
+Ore 15:00 - 15:30 Accoglienza
+Ore 15:00 Festa
 
 ### Introduzione
 
-**Buon divertimento!** - *Sfilata colorata* (4 persone di ogni.gruppo) **Canto** "Se sei felice" **Mercanti in fiera** - *Gli ultimi saranno i primi... e premiati!* (4 bambini di ogni gruppo che dovranno venire dcasa già vestiti con cose molto semplici: carta colorata,colla ecc...)
+**Buon divertimento!**
 
-- Villa Patrizi: gatto, mucca, giraffa, farfalla - Mercede: coniglio, leone, elefante, coccinella - S. Gioacchino: cane, pulcino, ape, zebra - Santa Silvia: gallo, pecora, topo, pinguino
+\- _Sfilata colorata_ (4 persone di ogni.gruppo)
+**Canto**
 
-**Dov'è l'oggetto?** **Mamme al lavoro!** *Tutto un lavoro di festa -* 2 signore di ogni gruppo **Capi di Stato** **Canto tranquillo**
+"Se sei felice"
+**Mercanti in fiera**
+
+\- _Gli ultimi saranno i primi... e premiati!_(4 bambini di ogni gruppo che dovranno venire dcasa già vestiti con cose molto semplici: carta colorata,colla ecc...)
+
+ * Villa Patrizi: gatto, mucca, giraffa, farfalla
+ * Mercede: coniglio, leone, elefante, coccinella
+ * S. Gioacchino: cane, pulcino, ape, zebra
+ * Santa Silvia: gallo, pecora, topo, pinguino
+
+**Dov'è l'oggetto?**
+**Mamme al lavoro!**
+
+_Tutto un lavoro di festa -_ 2 signore di ogni gruppo
+**Capi di Stato**
+**Canto tranquillo**
 
 ### Intermezzo
 
-**Corsa del palio -** 2 "cavalli" e 2 fantini di ogni gruppo **Mummia** - 2 coppie di ogni gruppo. L'"artista" porta il materiale. Occorrente: carta igienica! **Tiro alla fune** **Anaconda**
+**Corsa del palio -**
 
-**Merenda** preparata dal comitato organizzatore
+2 "cavalli" e 2 fantini di ogni gruppo
+**Mummia**
+
+\- 2 coppie di ogni gruppo. L'"artista" porta il materiale. Occorrente: carta igienica!
+**Tiro alla fune**
+**Anaconda**
+
+**Merenda**
+
+preparata dal comitato organizzatore
+
+Questo articolo è tratto da:
+**[Insieme n.8, 1976](https://www.ombreeluci.it/project/insieme-n-8-bollettino-fede-e-luce/)
+[](https://www.ombreeluci.it/project/insieme-n-8-bollettino-fede-e-luce/)**

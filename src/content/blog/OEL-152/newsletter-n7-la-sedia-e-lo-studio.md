@@ -33,7 +33,6 @@ Fino a qualche mese fa oggetto di proiezioni e dibattiti in Francia, è ora disp
 
 Aprendo una parentesi al nostro Speciale sul [Cinema e disabilità](https://www.ombreeluci.it/2019/speciale-cinema-e-disabilita) sui film dedicati alla disabilità, che riprenderà nella prossima newsletter, Matteo Cinti ha scritto per noi [una riflessione sulle serie tv](https://www.ombreeluci.it/2020/lanno-della-disabilita-nelle-serie-tv) con protagoniste persone con disabilità, nel 2019 rappresentate – dagli Stati Uniti all'Italia – in modo particolarmente complesso, senza cadere in facili stereotipi.
 
-
 ---
 
 ### [Il blog di Benedetta](https://www.ombreeluci.it/il-blog-di-benedetta/)
@@ -42,16 +41,21 @@ Aprendo una parentesi al nostro Speciale sul [Cinema e disabilità](https://www.
 
 Papa Francesco mi ha invitata alla festa del suo compleanno e io ci sono andata. Di corsa. Sono stata molto contenta che mi ha invitata e l’ho detto anche a lui. [Continua a leggere...](https://www.ombreeluci.it/2020/al-compleanno-di-papa-francesco/)
 
-
 ---
 
 ### Agenda
 
-**Udine** - Sabato 11 e domenica 12 gennaio 2020, weekend di laboratori e talk sull’arte come strumento di trasformazione sociale dal titolo "La paura di essere fuori. [La paura dell'Altro, la paura delle Periferie, la paura dell'Esclusione"](http://www.infohandicap.org/shared/files/2020/WEEKEND_ARTE_SOCIALE_INVASIONICREATIVE.pdf) .
+**Udine**
 
-**Siena** - Prosegue il progetto pilota promosso da Regione Toscana dei Musei per l'Alzheimer. Il [prossimo appuntamento](https://www.regione.toscana.it/-/complesso-museale-santa-maria-della-scala-per-l-alzheimer) è nel complesso museale di Santa Maria della Scala, il 24 gennaio.
+- Sabato 11 e domenica 12 gennaio 2020, weekend di laboratori e talk sull’arte come strumento di trasformazione sociale dal titolo "La paura di essere fuori. [La paura dell'Altro, la paura delle Periferie, la paura dell'Esclusione"](http://www.infohandicap.org/shared/files/2020/WEEKEND_ARTE_SOCIALE_INVASIONICREATIVE.pdf) .
 
-**Milano** - All'Università degli Studi di Milano, un convegno vuole far luce sull'ingarbugliata questione della riforma del Terzo Settore. Il 28 gennaio alle 16, [info e iscrizioni qui](https://www.secondowelfare.it/news/riforma-del-terzo-settore-uscire-dal-guado.html) .
+**Siena**
+
+- Prosegue il progetto pilota promosso da Regione Toscana dei Musei per l'Alzheimer. Il [prossimo appuntamento](https://www.regione.toscana.it/-/complesso-museale-santa-maria-della-scala-per-l-alzheimer) è nel complesso museale di Santa Maria della Scala, il 24 gennaio.
+
+**Milano**
+
+- All'Università degli Studi di Milano, un convegno vuole far luce sull'ingarbugliata questione della riforma del Terzo Settore. Il 28 gennaio alle 16, [info e iscrizioni qui](https://www.secondowelfare.it/news/riforma-del-terzo-settore-uscire-dal-guado.html) .
 
 ### Vita Fede e Luce
 

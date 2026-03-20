@@ -1,5 +1,4 @@
 ---
-
 title: Dialogo Aperto n. 169
 date: 2025-05-01
 author: Redazione
@@ -23,18 +22,9 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Le lettere con i suggerimenti, i commenti, le domande: il punto di vista di chi legge Ombre e Luci con le sue esperienze e scoperte. Qui si parla del concerto di un amico e di una visita alla ministra per la Disabilità."
 ---
 
-### **Al concerto di un amico**
+**Al concerto di un amico**
 
-La sera del 15 novembre per i giovani di Fede e Luce che hanno partecipato alla formazione nazionale è stata una serata speciale: il nostro amico Leonardo ci ha inviati al suo concerto. Per non rischiare di fare tardi, abbiamo deciso di trovarci a Lodi in una pizzeria vicino al teatro. **Mentre lui faceva le prove, abbiamo passato un bel momento per chiacchierare perché, essendo di comunità diverse, non ci vedevamo dall’estate.** Terminata la cena ci siamo spostati nel teatro per prendere posto. Il teatro era strano perché era una chiesa trasformata in teatro. Leonardo suonava il violino e un suo amico il pianoforte. Hanno suonato le colonne sonore: mi è piaciuto. Alcune le conoscevo, altre no; sono state molto belle. Leonardo era molto elegante, è stato bravo anche a presentare i brani. Finito il concerto si è fermato a salutarci ed abbiamo fatto le foto tutti insieme. *Silvia Freschi - Milano*
-
-### **Una maglietta in viaggio**
-
-Alla Piccola marcia della scorsa estate, abbiamo ricevuto l’augurio di buon cammino dalla Ministra per le disabilità Alessandra Locatelli attraverso un messaggio di incoraggiamento molto apprezzato. Abbiamo allora pensato di farle arrivare la maglietta della marcia e la ministra ha accettato invitandoci (complice una comune conoscenza) a portargliela nel suo ufficio! Eravamo una piccola rappresentanza dei marciatori. Il compito è spettato ai marciatori più vicini (geograficamente parlando) e quindi ad alcuni del gruppo romano (tra cui alcuni membri di *Fede e Luce* ). La maglietta e un quadro dipinto da Benedetta, che rappresentava le nostre orme in cammino verso san Francesco e il Tau, sono stati i nostri pensieri per la ministra. San Francesco amava gli ultimi e spesso le persone con disabilità si sentono ultimi, dimenticati. **Questo incontro ci fa sperare che le istituzioni siano pronte ad ascoltare la nostra voce** , così come la ministra Locatelli ha voluto ascoltare la storia di Federico, Benedetta, Antonietta e Stefano. Ha ascoltato le loro esperienze, difficoltà, storie e ha cercato di rassicurarli promettendo che, fino a quando avrà il suo mandato, lavorerà per migliorare la vita delle persone con disabilità e delle loro famiglie. Innanzitutto, facendo in modo che la legge del dopo di noi venga applicata al meglio e che venga garantita la massima professionalità degli operatori delle strutture di accoglienza per le persone disabili. *Maria Agnese Boitani e Chiara Perucatti Roma*
-
-### ***Senza titolo***
-
-*Se eri incantata,*
-
-*io mi faccio una risata*
-
-Claudio Moriggia
+La sera del 15 novembre per i giovani di Fede e Luce che hanno partecipato alla formazione nazionale è stata una serata speciale: il nostro amico Leonardo ci ha inviati al suo concerto. Per non rischiare di fare tardi, abbiamo deciso di trovarci a Lodi in una pizzeria vicino al teatro. **Mentre lui faceva le prove, abbiamo passato un bel momento per chiacchierare perché, essendo di comunità diverse, non ci vedevamo dall’estate.** Terminata la cena ci siamo spostati nel teatro per prendere posto. Il teatro era strano perché era una chiesa trasformata in teatro. Leonardo suonava il violino e un suo amico il pianoforte. Hanno suonato le colonne sonore: mi è piaciuto. Alcune le conoscevo, altre no; sono state molto belle. Leonardo era molto elegante, è stato bravo anche a presentare i brani. Finito il concerto si è fermato a salutarci ed abbiamo fatto le foto tutti insieme.
+_Silvia Freschi - Milano_ **Una maglietta in viaggio** Alla Piccola marcia della scorsa estate, abbiamo ricevuto l’augurio di buon cammino dalla Ministra per le disabilità Alessandra Locatelli attraverso un messaggio di incoraggiamento molto apprezzato. Abbiamo allora pensato di farle arrivare la maglietta della marcia e la ministra ha accettato invitandoci (complice una comune conoscenza) a portargliela nel suo ufficio! Eravamo una piccola rappresentanza dei marciatori. Il compito è spettato ai marciatori più vicini (geograficamente parlando) e quindi ad alcuni del gruppo romano (tra cui alcuni membri di _Fede e Luce_). La maglietta e un quadro dipinto da Benedetta, che rappresentava le nostre orme in cammino verso san Francesco e il Tau, sono stati i nostri pensieri per la ministra. San Francesco amava gli ultimi e spesso le persone con disabilità si sentono ultimi, dimenticati.**Questo incontro ci fa sperare che le istituzioni siano pronte ad ascoltare la nostra voce** , così come la ministra Locatelli ha voluto ascoltare la storia di Federico, Benedetta, Antonietta e Stefano. Ha ascoltato le loro esperienze, difficoltà, storie e ha cercato di rassicurarli promettendo che, fino a quando avrà il suo mandato, lavorerà per migliorare la vita delle persone con disabilità e delle loro famiglie. Innanzitutto, facendo in modo che la legge del dopo di noi venga applicata al meglio e che venga garantita la massima professionalità degli operatori delle strutture di accoglienza per le persone disabili.
+_Maria Agnese Boitani e Chiara Perucatti Roma_ **_Senza titolo_** _Se eri incantata,_ _io mi faccio una risata_ Claudio MoriggiaQuesto articolo è tratto da
+**Ombre e Luci n.169**

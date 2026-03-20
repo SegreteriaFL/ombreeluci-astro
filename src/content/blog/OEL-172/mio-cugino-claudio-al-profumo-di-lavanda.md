@@ -21,7 +21,11 @@ subtitle: "Il ricordo di Claudio, un cugino di terzo grado scomparso lo scorso g
 
 Hodeciso di fissare in una pagina il ricordo di **Claudio, un cugino di terzo o quarto grado** , venuto a mancare a gennaio. So molto poco di lui, sarebbe molto più opportuno che ne parlasse il fratello Gabriele con la moglie Maria; loro che hanno sempre vissuto affianco e se ne sono presi cura, in maniera particolare soprattutto negli ultimi anni.
 
-Claudio, un uomo di 68 anni con lieve disabilità, credo abbia riempito non solo la sua casa dove ha vissuto da sempre con i genitori e fratelli, ma anche le strade, la piazza del suo piccolo paese nei colli Euganei. **A casa ha sempre occupato un posto di privilegio; ricordo i genitori con quanta premura e amore si occupavano di lui, dandogli la sua autonomia anche se parzialmente limitata, e la libertà nel coltivare le sue passioni.** Lo faceva anche con estremo coinvolgimento di se, tanto da esasperare nel ricordarle di continuo.
+Claudio, un uomo di 68 anni con lieve disabilità, credo abbia riempito non solo la sua casa dove ha vissuto da sempre con i genitori e fratelli, ma anche le strade, la piazza del suo piccolo paese nei colli Euganei.
+
+**A casa ha sempre occupato un posto di privilegio; ricordo i genitori con quanta premura e amore si occupavano di lui, dandogli la sua autonomia anche se parzialmente limitata, e la libertà nel coltivare le sue passioni.**
+
+Lo faceva anche con estremo coinvolgimento di se, tanto da esasperare nel ricordarle di continuo.
 
 Aveva la passione dei canarini; per anni li ha curati, e guai a chi si avvicinava, guai se la mamma diceva che li buttava via o li lasciava andare, guai se gli chiedevi che ne regalasse uno. Aveva il suo regno: nella sua camera il registratore con le musicassette; io non le ho mai viste, ma da quello che diceva la mamma erano tantissime. Lo ricordo soprattutto negli ultimi anni con la mamma; non lavorava più e quindi era a casa tutto il giorno. Brontolava, brontolava sempre, gli mancava sempre qualcosa; ma anche **voleva telefonare a più persone, alle sorelle, a parenti amici. Cercava il contatto sempre. Era un grande uomo di relazione, anche se poi sconfinava nella gelosia, pauroso che qualcuno gli prendesse qualcosa di suo.**
 
@@ -31,6 +35,12 @@ Nella comunità aveva il suo posto, se lo è conquistato con fatica e determinaz
 
 Perchè ho voluto parlare di Claudio? Perché grazie a Claudio ho avuto modo di ascoltare chi lo ha amato e curato fino alla fine dei suoi giorni: il fratello con la moglie. Due persone molto buone, generose e umili che non amano per farsi notare. Due persone che con riservatezza, rispetto e dedizione si sono presi cura di Claudio, permettendo a lui la sua autonomia, garantendogli il benessere psico-fisico nella sua casa. Circondato da amore e affetto anche dai nipoti, che sull’esempio dei genitori gli hanno voluto molto bene.
 
-Finchè c’erano i genitori, sono stati nell’ombra, ma sempre vicini, e poi a tempo pieno. **Ho sentito la sofferenza di Gabriele e Maria per la morte di Claudio, ma ho soprattutto “gustato” l’amore grande che hanno avuto per lui.** Negli ultimi anni aveva avuto più problemi di salute, gli sono sempre stati molto vicino con tanta premura e apprensione. Claudio è stato un uomo fortunato, ha avuto il fratello maggiore Gabriele che gli ha voluto bene, insieme con la moglie che a sua volta lo ha accolto come fratello, e con i nipoti.
+Finchè c’erano i genitori, sono stati nell’ombra, ma sempre vicini, e poi a tempo pieno.
 
-**Gabriele è stato per Claudio una persona in penombra, è stato il suo angelo custode, presenza preziosa invisibile finchè c’erano i genitori, e poi in pienezza** . La sua bontà d’animo ha sicuramente dato speranza ai genitori, dando pace e tranquillità al dopo di loro.
+**Ho sentito la sofferenza di Gabriele e Maria per la morte di Claudio, ma ho soprattutto “gustato” l’amore grande che hanno avuto per lui.**
+
+Negli ultimi anni aveva avuto più problemi di salute, gli sono sempre stati molto vicino con tanta premura e apprensione. Claudio è stato un uomo fortunato, ha avuto il fratello maggiore Gabriele che gli ha voluto bene, insieme con la moglie che a sua volta lo ha accolto come fratello, e con i nipoti.
+
+**Gabriele è stato per Claudio una persona in penombra, è stato il suo angelo custode, presenza preziosa invisibile finchè c’erano i genitori, e poi in pienezza**
+
+. La sua bontà d’animo ha sicuramente dato speranza ai genitori, dando pace e tranquillità al dopo di loro.

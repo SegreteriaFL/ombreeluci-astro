@@ -27,4 +27,8 @@ Mi sono divertita anche ad andare al concerto di Umberto Tozzi, con il mio amico
 
 Ma io sono andata a Montevarchi al matrimonio di Elisabetta, la sorella di Sara, con Alessandro. La chiesa dove si sono sposati è a Reggello. Io mi sono messa in prima fila accanto ai genitori di Sara. Poi siamo andati al pranzo ed era tutto molto buono, con tanti antipasti. La sera sono rimasta a cena con gli amici degli sposi e abbiamo ballato fino all’una e mezzo. Io ho detto all’inizio che me ne sarei andata per ultima.
 
-Ecco, per questo io dico che la vita è bella. **Mi piace fare tutto, in vacanza incontro tante persone simpatiche, vado a cena fuori e pure la colazione la faccio sempre al bar.** Ho circa tre o quattro fidanzati, dipende. Quando finisce la vacanza inizio a lavorare a Merè e io non vedo l’ora. Mi hanno telefonato per dirmi che sentono la mia mancanza.
+Ecco, per questo io dico che la vita è bella.
+
+**Mi piace fare tutto, in vacanza incontro tante persone simpatiche, vado a cena fuori e pure la colazione la faccio sempre al bar.**
+
+Ho circa tre o quattro fidanzati, dipende. Quando finisce la vacanza inizio a lavorare a Merè e io non vedo l’ora. Mi hanno telefonato per dirmi che sentono la mia mancanza.

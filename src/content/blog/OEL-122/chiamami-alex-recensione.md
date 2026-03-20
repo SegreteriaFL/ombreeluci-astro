@@ -1,5 +1,4 @@
 ---
-
 title: Chiamami Alex - Recensione
 date: 2013-06-10
 author: Rita Massi
@@ -21,10 +20,12 @@ subtitle: "Lynda Johnson Vitali - Edizioni “Leggere per cambiare”  nov .2012
 
 L'autrice ripercorre trent’anni di vita del figlio Alex, affetto dalla sindrome di Down, secondo di tre figli. Sulla beata felicità di una normale famiglia cade un fulmine a ciel sereno. Ma questo fulmine presto, nella madre, si trasforma in energia, data dall’amore e da un profondo, radicato e pragmatico senso di giustizia e di volontà.
 
-**Alex oggi è un ragazzo autonomo con un lavoro ed una fidanzata** , in grado anche di sapersi rammaricare della sua disabilità. Le sue risorse e le sue capacità sono state incentivate ed ha potuto realizzare i suoi sogni. Ha praticato con successo vari sport, ha frequentato la scuola, ha condiviso esperienze con i fratelli.
+**Alex oggi è un ragazzo autonomo con un lavoro ed una fidanzata**
 
-**Il libro è uno strumento guida** , una testimonianza di sentimenti, sofferenze, incertezze, difficoltà. Da affrontare e superare con le indicazioni e i consigli delle persone giuste, con la dovuta determinazione di un contesto familiare in cui i suoi vari componenti appaiono legati da rapporti affettivi intensi e solidali.
+, in grado anche di sapersi rammaricare della sua disabilità. Le sue risorse e le sue capacità sono state incentivate ed ha potuto realizzare i suoi sogni. Ha praticato con successo vari sport, ha frequentato la scuola, ha condiviso esperienze con i fratelli. **Il libro è uno strumento guida** , una testimonianza di sentimenti, sofferenze, incertezze, difficoltà. Da affrontare e superare con le indicazioni e i consigli delle persone giuste, con la dovuta determinazione di un contesto familiare in cui i suoi vari componenti appaiono legati da rapporti affettivi intensi e solidali.
 
 > “Ogni battaglia, ogni esperienza, buona o cattiva , ha reso Alex quello che è oggi: un giovane uomo felice, determinato e pieno di risorse, e, soprattutto in grado di affrontare la vita”.
 
-*R.M.* , 2013
+_R.M._ , 2013Questo articolo è tratto da
+[Ombre e Luci n.122](https://www.ombreeluci.it/project/numero-122-momenti-difficili/ "Ombre e Luci n.122")
+[](https://www.ombreeluci.it/project/numero-122-momenti-difficili/ "Ombre e Luci n.122")

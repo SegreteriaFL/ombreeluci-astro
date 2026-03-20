@@ -1,5 +1,4 @@
 ---
-
 title: 25° Numero… 6° anno
 date: 1980-06-16
 author: Nicole Schulthes
@@ -17,14 +16,16 @@ id_numero: "INS-27"
 numero_rivista: "Insieme"
 ---
 
-"Insieme" è cresciuto, ha preso colore, ha curato il suo aspetto. Sono apparse le fotografie. Il suo ultimo progresso è stato un progresso tecnico, dovuto all'acquisto di una macchina OFF-SET, manovrata da una equipe piccola ma ....dinamica!
-
-Vi sarete accorti - lo speriamo! - che Insieme è cresciuto anche per il suo contenuto... E questa crescita deve continuare - siamo solo agli inizi! E questa crescita dipende da tutti noi, da tutti voi! L'abbiamo detto altre volte e lo ripetiamo ancora: dovete essere voi gli autori degli articoli; critiche, suggerimenti, testimonianze.... Fateceli pervenire dunque! con fotografie, disegni ecc... Procurateveli anche intorno a voi, nel vostro ambiente!
-
-Da ora, amici lettori, permetteteci una richiesta. Una richiesta di discrezione nei confronti del contenuto del nostro giornalino: **Non riproducete in alcun modo e per nessun motivo i testi o le fotografie di Insieme senza chiederlo prima** . Questo, credetelo, non per un desiderio di controllo o di autorità da parte nostra, ma solo per evitare che gli interessati si sentano poi in qualche modo feriti. Molti degli articoli che escono sul nostro giornalino hanno valore di testimonianza e sono stati scritti specificamente per "Insieme".
-
-Per questo non possono essere automaticamente offerti ad un pubblico più vasto e più anonimo del nostro. Grazie a tutti coloro che hanno già collaborato, e grazie anticipato, a tutti coloro che lo faranno. VI ASPETTIAMO!
-
-*Nicole Schulthes -* Responsabile di Insieme
-
-**[Nicole Marie Therese Tirard Schultes](http://www.ombreeluci.it/author/nicole-schulthes/)** Ha studiato Ergoterapia in Francia e negli Stati Uniti, co-fondando nel 1961 l' *Association Nationale Francaise des Ergotherapeutes* , (ANFE). Trasferitasi a Roma, incontra Mariangela Bertolini e insieme avviano nel 1971, su invito di Marie-Hélène Mathieu, le attività di *Fede e Luce* e partecipano all'organizzazione del pellegrinaggio dell'Anno Santo del 1975. Dal 1983 al 2004 cura con Mariangela la rivista *Ombre e Luci* . Per anni ha organizzato il campo estivo per bambini e famiglie sul campus della scuola *Mary Mount* a Roma.
+"Insieme" è cresciuto, ha preso colore, ha curato il suo aspetto. Sono apparse le fotografie.
+Il suo ultimo progresso è stato un progresso tecnico, dovuto all'acquisto di una macchina OFF-SET, manovrata da una equipe piccola ma ....dinamica! Vi sarete accorti - lo speriamo! - che Insieme è cresciuto anche per il suo contenuto... E questa crescita deve continuare - siamo solo agli inizi!
+E questa crescita dipende da tutti noi, da tutti voi! L'abbiamo detto altre volte e lo ripetiamo ancora: dovete essere voi gli autori degli articoli; critiche, suggerimenti, testimonianze....
+Fateceli pervenire dunque! con fotografie, disegni ecc... Procurateveli anche intorno a voi, nel vostro ambiente! Da ora, amici lettori, permetteteci una richiesta.
+Una richiesta di discrezione nei confronti del contenuto del nostro giornalino:
+**Non riproducete in alcun modo e per nessun motivo i testi o le fotografie di Insieme senza chiederlo prima**. Questo, credetelo, non per un desiderio di controllo o di autorità da parte nostra, ma solo per evitare che gli interessati si sentano poi in qualche modo feriti.
+Molti degli articoli che escono sul nostro giornalino hanno valore di testimonianza e sono stati scritti specificamente per "Insieme". Per questo non possono essere automaticamente offerti ad un pubblico più vasto e più anonimo del nostro.
+Grazie a tutti coloro che hanno già collaborato, e grazie anticipato, a tutti coloro che lo faranno.
+VI ASPETTIAMO! _Nicole Schulthes -_ Responsabile di Insieme**[Nicole Marie Therese Tirard Schultes](http://www.ombreeluci.it/author/nicole-schulthes/)**
+Ha studiato Ergoterapia in Francia e negli Stati Uniti, co-fondando nel 1961 l'_Association Nationale Francaise des Ergotherapeutes_ , (ANFE).
+Trasferitasi a Roma, incontra Mariangela Bertolini e insieme avviano nel 1971, su invito di Marie-Hélène Mathieu, le attività di _Fede e Luce_ e partecipano all'organizzazione del pellegrinaggio dell'Anno Santo del 1975. Dal 1983 al 2004 cura con Mariangela la rivista _Ombre e Luci_. Per anni ha organizzato il campo estivo per bambini e famiglie sul campus della scuola _Mary Mount_ a Roma.Questo articolo è tratto da:
+**[Insieme n.25, 1980](https://www.ombreeluci.it/project/insieme-n-25-bollettino-fede-e-luce-1980/)
+[](https://www.ombreeluci.it/project/insieme-n-25-bollettino-fede-e-luce-1980/)**

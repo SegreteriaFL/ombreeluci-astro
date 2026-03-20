@@ -1,5 +1,4 @@
 ---
-
 title: Mi preparo alla messa - Recensione
 date: 2003-12-22
 author: Cristina Tersigni
@@ -19,6 +18,4 @@ umap_z: 6.901242256164551
 subtitle: "Silvia Vecchini, Antonio Vincenti, Effatà Editrice"
 ---
 
-Un messale festivo per i bambini: questo in sostanza il libro “Mi preparo alla messa”. Contiene una breve ma importante introduzione ai vari momenti della liturgia domenicale; per ciascuna domenica dell’anno e per alcune feste vengono indicate le letture, in forma breve, e, per intero, il Vangelo. Ogni domenica viene approfondito un tema in particolare attraverso simpatici disegni da colorare, giochi di parole, attività da svolgere di vario genere. È indicato per bambini in età scolare, magari seguiti non solo dai catechisti ma anche dai genitori. -
-*C.T.*
-, 2003
+Un messale festivo per i bambini: questo in sostanza il libro “Mi preparo alla messa”. Contiene una breve ma importante introduzione ai vari momenti della liturgia domenicale; per ciascuna domenica dell’anno e per alcune feste vengono indicate le letture, in forma breve, e, per intero, il Vangelo. Ogni domenica viene approfondito un tema in particolare attraverso simpatici disegni da colorare, giochi di parole, attività da svolgere di vario genere. È indicato per bambini in età scolare, magari seguiti non solo dai catechisti ma anche dai genitori. \- _C.T._ , 2003

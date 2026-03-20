@@ -1,5 +1,4 @@
 ---
-
 title: Visitiamo con Maria Laura il Centro Belga per Infermi Motori Mentali (C.B.I.M.C.)
 date: 1977-03-20
 author: Nicole Schulthes
@@ -22,7 +21,8 @@ numero_rivista: "Insieme"
 subtitle: "L'estate scorsa Maria Laura è stata in Belgio per conoscere i bambini di questa scuola straordinaria diretta dal dottor Louis Yasse. Ecco le sue impressioni"
 ---
 
-**Avviso ** Questo articolo è stato scritto molti anni fa. Nella lettura potresti incontrare termini ormai desueti o sgradevoli per la sensibilità attuale. Abbiamo scelto di mantenerli per non tradire il contesto in cui sono stati scritti.
+**Avviso
+**Questo articolo è stato scritto molti anni fa. Nella lettura potresti incontrare termini ormai desueti o sgradevoli per la sensibilità attuale. Abbiamo scelto di mantenerli per non tradire il contesto in cui sono stati scritti.
 
 Prima di visitare questa scuola e i bambini che la frequentano, vorremmo parlare un po', senza nessuna pretesa scientifica, della parola "spastico" che si sente spesso ma che il più delle volte è usata in senso inesatto.
 
@@ -36,7 +36,8 @@ Vi sono dei bambini o degli adulti spastici che hanno un livello d'intelligenza 
 
 È anche vero che in molti casi, oltre al controllo dei movimenti la malattia ha colpito le facoltà intellettive. Ma bisogna assolutamente evitare di equiparare l'uno all'altro e arrivare rapidamente alla conclusione che un bambino, il quale presenta dei movimenti "inadatti", e per noi a priori bizzarri, non capisca. Questi gesti incoerenti li compie suo malgrado. Non bisogna che essi mascherino, ai nostri occhi e agli occhi di chiunque altro, le reali possibilità, i desideri, il cuore di quelli che chiamiamo spastici.
 
-**In questo spirito ritorniamo a Bruxelles al [C.B.I.M.C.](https://www.guidesocial.be/cbimc/) diretto dal dottor Yasse.** Diretto, è la parola giusta? in ogni caso è insufficiente. Bisognerebbe anche dire animato e amato dal Dottor Yasse.
+**In questo spirito ritorniamo a Bruxelles al[C.B.I.M.C.](https://www.guidesocial.be/cbimc/) diretto dal dottor Yasse.**
+Diretto, è la parola giusta? in ogni caso è insufficiente. Bisognerebbe anche dire animato e amato dal Dottor Yasse.
 
 L'estate scorsa Maria Laura è andata a giocare con i bambini di questa scuola diversi dagli altri. Spesso ha visto il dottore, non nel suo ufficio ma in tutti i luoghi dove sono i bambini. Là dove studiano, dove giocano, il dottore passa, viene, i bambini lo abbracciano. La sua presenza è naturale, affettuosa e giornaliera. E naturalmente una tale presenza da parte del medico direttore imposta i rapporti tra insegnanti e educatori, terapiste e bambini. L'atmosfera è gaia e calorosa.
 
@@ -60,7 +61,8 @@ I contatti con l'esterno sono vari e il programma di ciascuno è pensato in vist
 
 Tutto questo dimostra chiaramente la preoccupazione di preparare i bambini a vivere fuori del centro nel presente e per il futuro.
 
-D'altra parte, appena un bambino può, lascia il centro per completare il ciclo scolastico in una scuola del quartiere. Altrimenti, al termine della scuola d'obbligo, il centro cerca con lui e per lui un centro di apprendistato o un posto di lavoro. Alcuni continuano gli studi.
+D'altra parte, appena un bambino può, lascia il centro per completare il ciclo scolastico in una scuola del quartiere. Altrimenti, al termine della scuola d'obbligo, il centro cerca con lui e per lui un centro di apprendistato o un posto di lavoro.
+Alcuni continuano gli studi.
 
 Il caso di ciascuno è considerato in modo particolare e il suo avvenire previsto e preparato nel miglior modo possibile.
 
@@ -70,4 +72,8 @@ Quello che più di tutto ha colpito Maria Laura è stata l'atmosfera calorosa, l
 
 È quello che tutti noi ci auguriamo per i nostri figli, qualunque siano le loro capacità.
 
-*Nicole Schulthes* , 1977
+_Nicole Schulthes_ , 1977
+
+Questo articolo è tratto da:
+**[Insieme n.12, 1977](https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/)
+[](https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/)**

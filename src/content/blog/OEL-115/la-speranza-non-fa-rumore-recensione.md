@@ -1,5 +1,4 @@
 ---
-
 title: La speranza non fa rumore - Recensione
 date: 2011-09-04
 author: Redazione
@@ -19,7 +18,5 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Chiara Bertoglio, Ed Paoline"
 ---
 
-S
-arebbe bello poter leggere regolarmente queste storie in una rubrica di un quotidiano: persone con vite particolari che hanno saputo far fruttare i loro talenti anche in condizioni difficili. Il titolo del libro spiega bene l’obieti tivo: in tempi come i nostri dove sono spesso i drammi a divenire roboanti e tormentate notizie e che, a volte, lasciano pensare che il mondo e la società vadano decisamente per il verso sbagliato, le persone raccontate pe i suggeriscono una strada diversa. La speranza non fa notizia e la scrittrice, di formazione musicologa, raccoglie in maniera molto semplice e diretta solo, a volte con un approccio un poco ripetitivo — le storie di queste persone anche molto diverse che ha incontrato. Suggerendo pure che ognuno di noi incontra persone con storie simili e che è importante far fruttare questi incontri.
-*C.T.*
-, 2011
+Sarebbe bello poter leggere regolarmente queste storie in una rubrica di un quotidiano: persone con vite particolari che hanno saputo far fruttare i loro talenti anche in condizioni difficili. Il titolo del libro spiega bene l’obieti tivo: in tempi come i nostri dove sono spesso i drammi a divenire roboanti e tormentate notizie e che, a volte, lasciano pensare che il mondo e la società vadano decisamente per il verso sbagliato, le persone raccontate pe i suggeriscono una strada diversa. La speranza non fa notizia e la scrittrice, di formazione musicologa, raccoglie in maniera molto semplice e diretta solo, a volte con un approccio un poco ripetitivo — le storie di queste persone anche molto diverse che ha incontrato. Suggerendo pure che ognuno di noi incontra persone con storie simili e che è importante far fruttare questi incontri. _C.T._ , 2011Questo articolo è tratto da
+[Ombre e Luci n.115](https://www.ombreeluci.it/project/numero-115-difendere-la-fragilita-di-ognuno/ "Ombre e Luci n.115") [](https://www.ombreeluci.it/project/numero-115-difendere-la-fragilita-di-ognuno/ "Ombre e Luci n.115")

@@ -1,5 +1,4 @@
 ---
-
 title: Consigli di lettura - Insieme n.29
 date: 1981-06-16
 author: Redazione
@@ -17,54 +16,38 @@ id_numero: "INS-30"
 numero_rivista: "Insieme"
 ---
 
-### "Lavoriamo insieme"
+"Lavoriamo insieme" Collana a cura di Santina Donghi, responsabile del Centro di Formazione Animatori per la Pastorale del tempo libero dei ragazzi, edita dalla LDC. Numerosi i titoli dei volumetti di questa collana, tra cui:
 
-Collana a cura di Santina Donghi, responsabile del Centro di Formazione Animatori per la Pastorale del tempo libero dei ragazzi, edita dalla LDC.
+ * Modelliamo (n.1)
+ * Steccoline e mollette (2)
+ * Collane e bracciali (4)
+ * Con stelle filanti (9)
+ * Pittura e collage (11)
+ * Vestiamo la festa (13)
 
-Numerosi i titoli dei volumetti di questa collana, tra cui:
+"Tecniche per creare" Collana della Fratelli Fabbri Editori ogni volume lit. 2500 Segnaliamo in particolare:
 
-- Modelliamo (n.1) - Steccoline e mollette (2) - Collane e bracciali (4) - Con stelle filanti (9) - Pittura e collage (11) - Vestiamo la festa (13)
+ * Modellare in cucina"
+ * "Lavoriamo con la carta"
 
-### "Tecniche per creare"
+Collana "Kinkajù" I libri per fare Fratelli Fabbri Editori, lit. 1200 Segnaliamo in particolare:
 
-Collana della Fratelli Fabbri Editori ogni volume lit. 2500
+ * Fabbrichiamo gli aquiloni
+ * La creta per inventare
+ * La nana per divertirsi
+ * Divertirsi in casa
+ * Burattini e ombre cinesi
+ * Fantasia per decorare
+ * Giochiamo con le piante
 
-Segnaliamo in particolare:
+"I libri attivi" Ed. Mondadori, Lit. 3000
 
-- Modellare in cucina" - "Lavoriamo con la carta"
+ * Mille cose con la natura, con la carta, con i colori.
 
-### Collana "Kinkajù"
+Adolfa Angiolini "Lavori in rafia" Ed. La Scuola, lit. 700 Rey Facts "Superschede" Distribuzione Mondadori Libretti con schede che illustrano con disegni chiari, come si costruisce un giocattolo, come si lavora la carta, ecc.
 
-I libri per fare Fratelli Fabbri Editori, lit. 1200
+**"Borduurblock"**
 
-Segnaliamo in particolare:
-
-- Fabbrichiamo gli aquiloni - La creta per inventare - La nana per divertirsi - Divertirsi in casa - Burattini e ombre cinesi - Fantasia per decorare - Giochiamo con le piante
-
-### "I libri attivi"
-
-Ed. Mondadori, Lit. 3000
-
-- Mille cose con la natura, con la carta, con i colori.
-
-### Adolfa Angiolini "Lavori in rafia"
-
-Ed. La Scuola, lit. 700
-
-Rey Facts "Superschede" Distribuzione Mondadori Libretti con schede che illustrano con disegni chiari, come si costruisce un giocattolo, come si lavora la carta, ecc.
-
-**"Borduurblock"** Ed. Selecta Cartoni con disegni a puntini, da colorare e cucire, facili e spiritosi.
-
-**"Divertiamoci con i colori"** E. Deacon Ed. Mondadori, lit. 4000
-
-**"Decorazioni di Natale"** Peggy Parish Ed. Sperling & Kupfler, lit. 1500
-
-**"Facciamo una festa"** Maureen Roffey Ed. Mursia, lit. 4500
-
-**"Tutti in cerchio"** Luciano Ferraris Ed. LDC, lit. 2500 Canti, Canoni, Bans, Danze, Giochi.
-
-**"Giochi e usanze di ogni paese"** Michele Kahn Ed Giunti-Marzocco, lit. 5500
-
-**"Tanti giochi all'aperto"** Yeatman-Faroler Ed. Salani, lit. 5000
-
-**"Tanti giochi in casa"** Yeatman-Faroler Ed. Salani, lit. 5000
+Ed. Selecta Cartoni con disegni a puntini, da colorare e cucire, facili e spiritosi. **"Divertiamoci con i colori"** E. Deacon Ed. Mondadori, lit. 4000 **"Decorazioni di Natale"** Peggy Parish Ed. Sperling & Kupfler, lit. 1500 **"Facciamo una festa"** Maureen Roffey Ed. Mursia, lit. 4500 **"Tutti in cerchio"** Luciano Ferraris Ed. LDC, lit. 2500 Canti, Canoni, Bans, Danze, Giochi. **"Giochi e usanze di ogni paese"** Michele Kahn Ed Giunti-Marzocco, lit. 5500 **"Tanti giochi all'aperto"** Yeatman-Faroler Ed. Salani, lit. 5000 **"Tanti giochi in casa"** Yeatman-Faroler Ed. Salani, lit. 5000Questo articolo è tratto da:
+**[Insieme n.29, 1981](https://www.ombreeluci.it/project/insieme-n-29-bollettino-fede-e-luce-1981/)
+[](https://www.ombreeluci.it/project/insieme-n-29-bollettino-fede-e-luce-1981/)**

@@ -26,7 +26,9 @@ l libro è il racconto di un lungo viaggio in America di un padre, Antonello e d
 *Se ti abbraccio non aver paura*
 è un libro gradevole da leggere, anche divertente,un libro di “avventura”, dove ognuno può scoprire il viaggio che lo interessa di più. Recensione di Rita Massi
 
-##### Acquista questo libro in uno dei siti del circuito **[Helpfreely](https://www.helpfreely.org/it/) .**
+##### Acquista questo libro in uno dei siti del circuito **[Helpfreely](https://www.helpfreely.org/it/)
+
+.**
 
 Se sei iscritto, una percentuale del tuo acquisto verrà donata a Fede e Luce. ( [Scopri di più](http://www.fedeeluce.it/helpfreely---la-guida.html) )
 

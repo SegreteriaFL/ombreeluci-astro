@@ -30,9 +30,13 @@ Più che una struttura direttiva, sono espressione di un metodo di lavoro che so
 
 È bene seguire tre momenti durante una riunione d’équipe, nell’ordine ritenuto migliore.
 
-- **Un tempo dì silenzio** e di preghiera soprattutto per mettersi in ascolto e dare spazio allo Spirito Santo nella realizzazione di progetti non solo nostri.
+**Un tempo dì silenzio**
 
-- **Un tempo di lavoro** dove si esprima il “sogno” e l’organizzazione. Il primo è un momento in cui ognuno esprime liberamente quello che desidererebbe fare. Sognare è un po’ lasciare che la follia di Dio entri in noi... dire un po’ tutto quello che passa per la testa... E poi un momento di organizzazione. Si decide per un progetto, si pongono delle domande: quando, dove, chi, come? e si vede come rispondervi in modo preciso.
+e di preghiera soprattutto per mettersi in ascolto e dare spazio allo Spirito Santo nella realizzazione di progetti non solo nostri.
+
+**Un tempo di lavoro**
+
+dove si esprima il “sogno” e l’organizzazione. Il primo è un momento in cui ognuno esprime liberamente quello che desidererebbe fare. Sognare è un po’ lasciare che la follia di Dio entri in noi... dire un po’ tutto quello che passa per la testa... E poi un momento di organizzazione. Si decide per un progetto, si pongono delle domande: quando, dove, chi, come? e si vede come rispondervi in modo preciso.
 
 - Un incontro deve avere anche **un momento di distensione. È molto portante pranzare insieme, raccontare, per un momento di svago. I visi si no, al trasformano. Sarebbe utile, tanto, riuscire poi a trovare un per l'équipe insieme avere un tempo maggiore per distendersi, pregare sieme e conoscersi meglio perché nuovi progetti nascano al tempo opportuno.
 

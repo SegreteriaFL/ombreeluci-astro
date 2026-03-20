@@ -1,5 +1,4 @@
 ---
-
 title: Notiziario Fede e Luce n.12 - marzo 1977
 date: 1977-03-20
 author: Redazione
@@ -21,7 +20,9 @@ subtitle: "Notizie e aggiornamenti dalle comunità di Fede e Luce di tutta Itali
 
 ### Da ottobre un nuovo gruppo a San Paolo
 
-Facendo già parte del [gruppo di Fede e Luce di Santa Silvia](https://www.fedeeluce.it/project/santa-silvia/) mi recavo quasi sempre agli incontri in compagnia di amici. Venivano quasi tutti spontaneamente e il più delle volte tornavano entusiasti di riprovare la bellissima esperienza. Essendo componenti di un gruppo "Hands out" sorto recentemente nella nostra comunità dell'Oratorio di S. Paolo, abbiamo trasmesso agli altri le esperienze provate ed i primi contatti avuti con i nostri amici.
+Facendo già parte del [gruppo di Fede e Luce di Santa Silvia](https://www.fedeeluce.it/project/santa-silvia/) mi recavo quasi sempre agli incontri in compagnia di amici.
+Venivano quasi tutti spontaneamente e il più delle volte tornavano entusiasti di riprovare la bellissima esperienza.
+Essendo componenti di un gruppo "Hands out" sorto recentemente nella nostra comunità dell'Oratorio di S. Paolo, abbiamo trasmesso agli altri le esperienze provate ed i primi contatti avuti con i nostri amici.
 
 È superfluo dire che sono state esperienze meravigliose. Ci sentivano, tutti indistintamente colmi d'amore, perché a mio giudizio, amore o meglio amare è anche donare, ma è soprattutto condividere.
 
@@ -37,13 +38,21 @@ Si organizzano proiezioni di film, giochi, gare canore a premio e canti di grupp
 
 ### Milano
 
-Ieri è stata la nostra quinta riunione, ma questa è stata un po' speciale perché ci volevamo fare gli auguri di Natale. La sera prima i ragazzi avevano decorato la sala che Don Claudio ci mette a disposizione, con festoni natalizi, presepe e alberello. Abbiamo fatto una bella tombolata. Luigi estraeva i cartellini e ci faceva ridere con la sua "verve" inesauribile. Nico, felicissimo, ha vinto la tombola. La poesia di Gozzano mimata un po' da tutti è stata un momento di grande commozione. Poi i canti di Natale con i bravi chitarristi e lo scambio dei regalini augurali gli “Oh! -e- gli Ah!", gli abbracci e i saluti che ora estendiamo a tutti gli amici dei gruppi lontani.
+Ieri è stata la nostra quinta riunione, ma questa è stata un po' speciale perché ci volevamo fare gli auguri di Natale.
+La sera prima i ragazzi avevano decorato la sala che Don Claudio ci mette a disposizione, con festoni natalizi, presepe e alberello.
+Abbiamo fatto una bella tombolata. Luigi estraeva i cartellini e ci faceva ridere con la sua "verve" inesauribile. Nico, felicissimo, ha vinto la tombola.
+La poesia di Gozzano mimata un po' da tutti è stata un momento di grande commozione.
+Poi i canti di Natale con i bravi chitarristi e lo scambio dei regalini augurali gli “Oh! -e- gli Ah!", gli abbracci e i saluti che ora estendiamo a tutti gli amici dei gruppi lontani.
 
 **[Annamaria de Rino](https://www.ombreeluci.it/author/anna-maria-de-rino/)**
 
 ### Cuneo
 
-Ci siamo ritrovati insieme domenica 19 dicembre per scambiarci gli auguri di Natale nei locali della parrocchia del Cuore Immacolato di Maria, gentilmente messi a disposizione per noi. Il cattivo tempo non ha spaventato i genitori e gli amici più lontani che hanno voluto essere presenti a tutti i costi. Dopo quattro chiacchiere iniziali abbiamo celebrato la messa particolarmente significativa. Tutti vi hanno partecipato con evidente raccoglimento e impegno. Dopo la messa, un simpatico regalo per tutti i ragazzi e gli amici più piccoli presenti e anche per quelli che, per qualche motivo erano assenti. Tutto questo per la felicità dei bambini, mentre per gli adulti, torte, pasticcini, panini e vino a volontà come nella migliore tradizione piemontese.
+Ci siamo ritrovati insieme domenica 19 dicembre per scambiarci gli auguri di Natale nei locali della parrocchia del Cuore Immacolato di Maria, gentilmente messi a disposizione per noi.
+Il cattivo tempo non ha spaventato i genitori e gli amici più lontani che hanno voluto essere presenti a tutti i costi.
+Dopo quattro chiacchiere iniziali abbiamo celebrato la messa particolarmente significativa. Tutti vi hanno partecipato con evidente
+raccoglimento e impegno.
+Dopo la messa, un simpatico regalo per tutti i ragazzi e gli amici più piccoli presenti e anche per quelli che, per qualche motivo erano assenti. Tutto questo per la felicità dei bambini, mentre per gli adulti, torte, pasticcini, panini e vino a volontà come nella migliore tradizione piemontese.
 
 Mimmo ha brevemente ricordato l'incontro internazionale di Fede e Luce a Madrid, in concomitanza del quale fu fissato il nostro incontro per creare così una comunione spirituale con gli aderenti di Fede e Luce.
 
@@ -51,7 +60,9 @@ Abbiamo concluso l'incontro cantando insieme dei canti di festa ed è stato molt
 
 ### Roma
 
-Nel pomeriggio di sabato 18 dicembre ci siamo ritrovati nei locali messi a disposizione dai Gesuiti per festeggiare insieme il Natale Non eravamo moltissimi perché alcuni dei tre gruppi - S.Gioacchino, S.Silvia e S. Paolo non sono potuti venire, ma riempivamo ugualmente le stanze. Purtroppo io non sono potuta andare presto e così non ero presente alla messa, tuttavia ho potuto partecipare alla festa che mi è piaciuta molto. Raccolti in una grande sala accogliente, eravamo non solo uniti tra noi dalla stessa gioia, ma uniti a tutti fratelli del mondo che erano presenti attraverso le bandiere di ogni nazione appese sui muri, ed uniti in modo speciale a Gesù che ci aveva radunati per celebrare la sua nascita e che era in mezzo a noi raffigurato tra Maria a Giuseppe nel presepe che un'amica aveva disegnato, semplice, su un cartellone.
+Nel pomeriggio di sabato 18 dicembre ci siamo ritrovati nei locali messi a disposizione dai Gesuiti per festeggiare insieme il Natale
+Non eravamo moltissimi perché alcuni dei tre gruppi - S.Gioacchino, S.Silvia e S. Paolo non sono potuti venire, ma riempivamo ugualmente le stanze.
+Purtroppo io non sono potuta andare presto e così non ero presente alla messa, tuttavia ho potuto partecipare alla festa che mi è piaciuta molto. Raccolti in una grande sala accogliente, eravamo non solo uniti tra noi dalla stessa gioia, ma uniti a tutti fratelli del mondo che erano presenti attraverso le bandiere di ogni nazione appese sui muri, ed uniti in modo speciale a Gesù che ci aveva radunati per celebrare la sua nascita e che era in mezzo a noi raffigurato tra Maria a Giuseppe nel presepe che un'amica aveva disegnato, semplice, su un cartellone.
 
 Nella prima parte della festa abbiamo rivissuto alcuni aspetti del Natale: la fatica del lungo viaggio compiuto da Maria e Giuseppe e la povertà della stalla in cui è nato Gesù; l'adorazione di Magi giunti dall'oriente; l'amore di Dio che nel giorno di Natale rende uniti gli uomini, sono i temi proposti dalle scenette di S. Silvia, S. Gioacchino e S. Paolo.
 
@@ -67,7 +78,7 @@ Credo che sia stato il modo migliore per prepararci ad accogliere Gesù che nasc
 
 Lucia, 1977
 
-------------
+\------------
 
 A Madrid ha avuto luogo l'incontro internazionale di Fede e Luce. Daremo un resoconto completo nel prossimo numero.
 
@@ -94,3 +105,7 @@ La loro abilità è motivo di orgoglio e di stimolo per chi, ogni giorno, nell'a
 Anche le notizie che pervengono da "Insieme" incitano la Casa della Speranza ad andare avanti, a continuare negli sforzi comuni, a cooperare a trovare mezzi sempre più efficaci e soprattutto l'accomunano spiritualmente alla grande famiglia cdi coloro che soffrono.
 
 **La casa della Speranza**
+
+Questo articolo è tratto da:
+**[Insieme n.12, 1977](https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/)
+[](https://www.ombreeluci.it/project/insieme-n-12-bollettino-fede-e-luce-1977/)**

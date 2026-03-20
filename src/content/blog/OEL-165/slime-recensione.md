@@ -1,5 +1,4 @@
 ---
-
 title: Slime | Recensione
 date: 2024-08-16
 author: Giulia Galeotti
@@ -19,6 +18,25 @@ numero_rivista: "Ombre e Luci"
 subtitle: "Le avventure di Ned nel romanzo di David Walliams (HarperCollins Italia, 2021)"
 ---
 
-Sichiama Ned, l’undicenne protagonista di *Slime* , divertentissimo romanzo dell’inglese David Walliams. Con i genitori e la sorella Jemina, vive a Kakken, un’isoletta piena zeppa di personaggi singolari (molti dei quali rubricabili nella categoria di adulti che odiano i bambini perché li invidiano). Ebbene, questo protagonista di mille avventure ha una caratteristica, inserita con estrema naturalezza nella storia: «Dato che fin da piccolo le gambe non gli funzionano, Ned sfreccia per tutta Kakken sulla sedia a rotelle». **Senza limitarlo, ghettizzarlo o definirlo, la carrozzina è semplicemente un veicolo complice delle sue scorribande.** «Jemina strinse le maniglie sul retro. “Lascia che ti spinga”, gli disse. “Non ce n’è bisogno. Piuttosto, perché non salti su? (…) Questa sedia è fantastica! Ti mostro cos’è in grado di fare”».
+Si chiama Ned, l’undicenne protagonista di _Slime_ , divertentissimo romanzo dell’inglese David Walliams. Con i genitori e la sorella Jemina, vive a Kakken, un’isoletta piena zeppa di personaggi singolari (molti dei quali rubricabili nella categoria di adulti che odiano i bambini perché li invidiano). Ebbene, questo protagonista di mille avventure ha una caratteristica, inserita con estrema naturalezza nella storia: «Dato che fin da piccolo le gambe non gli funzionano, Ned sfreccia per tutta Kakken sulla sedia a rotelle».
 
- ### Slime **Autore** : David Walliams **Traduzione:** Angela Ragusa ** Editore:** HarperCollins Italia **Pubblicato:** 2021 **Pagine:** 320 **Prezzo:** 16€ **ISBN:** 9791259850201
+**Senza limitarlo, ghettizzarlo o definirlo, la carrozzina è semplicemente un veicolo complice delle sue scorribande.**
+
+«Jemina strinse le maniglie sul retro. “Lascia che ti spinga”, gli disse. “Non ce n’è bisogno. Piuttosto, perché non salti su? (…) Questa sedia è fantastica! Ti mostro cos’è in grado di fare”». Slime **Autore** : David Walliams
+**Traduzione:**
+
+Angela Ragusa**
+Editore:** HarperCollins Italia
+**Pubblicato:**
+
+2021
+**Pagine:**
+
+320
+**Prezzo:**
+
+16€
+**ISBN:**
+
+9791259850201 Questo articolo è tratto da
+[**Ombre e Luci n.165**](https://www.ombreeluci.it/project/numero-165-uscire-la-sera/ "Ombre e Luci n.162") [](https://www.ombreeluci.it/project/numero-165-uscire-la-sera/)

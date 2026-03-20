@@ -25,15 +25,11 @@ Le chiese della mia città sono accessibili alle carrozzelle, i sacerdoti sono s
 **d.F.**
 (Ombres et Lumière n. 165)
 
-
-
 ---
 
 ### Lo zio orgoglioso
 
 Vi ringrazio a nome della comunità S. Lorenzo Abano Terme per il bene che ci fate con il nostro giornalino e per tutto il lavoro che ci sta dietro. Volevo complimentarmi per il numero 100 per aver visto tanti ragazzi e genitori nel lungo cammino di vita nella famiglia Fede e Luce. Desidero farvi partecipi della gioia che stiamo vivendo in questi giorni; nostro figlio Sandro e la moglie Francesca ci hanno fatva to diventare nonni di una bellissima bambina di nome Sofia, tanto attesa e desiderata dopo 9 anni di matrimonio. Per noi è la prima nipotina. Gianni è un sogno, orgoglioso di essere diventato zio, si sente importante e quando può se la coccola e prova una grandissima emozione. Ringrazio il Signore per tutto il bene che ci dona. Adriana
-
-
 
 ---
 
@@ -41,8 +37,6 @@ Vi ringrazio a nome della comunità S. Lorenzo Abano Terme per il bene che ci fa
 
 Sono felice che possiate continuare la pubblicazione della bellissima rivista per le famiglie cristiane dei nostri cari ragazzi più deboli. Il mio Giorgio è in Paradiso da tre anni, ma mi sento fortemente unita a tutti quelli che incontro. L’amore per loro non può mai spegnersi. In Paradiso ci attendono tutti! Non potrò mai dimenticare le meravigliose giornate nei vari pellegrinaggi italiani ed esteri. Siamo sempre uniti nella preghiera a Don Francesco.
 **Franca Cremonesi**
-
-
 
 ---
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Esperienze: un week-end fuori dall'ordinario"
 date: 1976-05-20
 author: Redazione
@@ -31,8 +30,13 @@ Non abbiamo fatto nulla di eccezionale eppure... abbiamo passato 3 giorni eccezi
 
 Abbiamo avuto il sole e la pioggia, il caldo e il freddo, siamo andati in giro per il paese, abbiamo raccolto conchiglie sulla spiaggia e fatto indigestione di paste con la panna (vera specialità del luogo!).
 
-Abbiamo cantato a perdifiato per la delizia dei Padri, dei bambini della parrocchia, degli abitanti tutti e... dei nostri compagni di treno, non pochi dei quali, si ricorderanno per vario tempo di questa specie di folgore chiamata Fede e Luce.
+Abbiamo cantato a perdifiato per la delizia dei Padri, dei bambini della parrocchia, degli abitanti tutti e... dei
+nostri compagni di treno, non pochi dei quali, si ricorderanno per vario tempo di questa specie di folgore chiamata Fede e Luce.
 
 Siamo tornati stanchi? Qualcuno forse un pochino, la maggior parte no. Ma tutti pronti a ricominciare; magari con qualche amico in più!
 
-*La [comunità di San Gioacchino](https://www.fedeeluce.it/project/san-gioacchino/)* , 1976
+_La[comunità di San Gioacchino](https://www.fedeeluce.it/project/san-gioacchino/)_, 1976
+
+Questo articolo è tratto da:
+**[Insieme n.9, 1976](https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/)
+[](https://www.ombreeluci.it/project/insieme-n-9-bollettino-fede-e-luce/)**

@@ -17,7 +17,11 @@ umap_y: 8.726778030395508
 umap_z: 14.027831077575684
 ---
 
-Dal 22 al 29 settembre 250 delegati dalle comunità [Fede e Luce](https://www.fedeeluce.it/) di tutto il mondo hanno partecipato all’incontro internazionale di Fede e Luce che si è svolto al centro “Mondo Migliore” di Rocca di Papa, presso Roma. **Sono venuti da 75 paesi, in rappresentanza di circa 1.700 comunità** , con il desiderio in particolare di vivere una straordinaria esperienza di fede. In questa settimana hanno avuto modo di confrontarsi e crescere nella formazione, guidati dal passo del vangelo di Giovanni “V/i ho scelto affinché andiate e portiate frutto''. [Jean Vanier](https://www.ombreeluci.it/jeanvanier/) (fondatore di Fede e Luce insieme a [Marie Hélène Mathieu](https://www.ombreeluci.it/author/marielene-mathieu/) ) ha espresso così la prima ragione dell'incontro: “Siamo qui per rendere grazie a Gesù per aver trasformato le nostre lacrime in gioia”.
+Dal 22 al 29 settembre 250 delegati dalle comunità [Fede e Luce](https://www.fedeeluce.it/) di tutto il mondo hanno partecipato all’incontro internazionale di Fede e Luce che si è svolto al centro “Mondo Migliore” di Rocca di Papa, presso Roma.
+
+**Sono venuti da 75 paesi, in rappresentanza di circa 1.700 comunità**
+
+, con il desiderio in particolare di vivere una straordinaria esperienza di fede. In questa settimana hanno avuto modo di confrontarsi e crescere nella formazione, guidati dal passo del vangelo di Giovanni “V/i ho scelto affinché andiate e portiate frutto''. [Jean Vanier](https://www.ombreeluci.it/jeanvanier/) (fondatore di Fede e Luce insieme a [Marie Hélène Mathieu](https://www.ombreeluci.it/author/marielene-mathieu/) ) ha espresso così la prima ragione dell'incontro: “Siamo qui per rendere grazie a Gesù per aver trasformato le nostre lacrime in gioia”.
 
 > “Siamo qui per rendere grazie a Gesù per aver trasformato le nostre lacrime in gioia”
 
@@ -25,7 +29,9 @@ La settimana è trascorsa con un ritmo molto serrato di appuntamenti: le cateche
 
 ### "La persona segnata è spesso rifiutata"
 
-**Per molti delegati, rincontro di Fede Luce a Roma ha rappresentato la prima occasione di uscire dal proprio Paese** e di visitare la città culla del cristianesimo. Grande è stata la commozione quando, il 26 settembre, molti nei loro colorati abiti tradizionali, sono stati accolti dal Papa a Castel Gandolfo. Un «incontro tra sofferenze» nel quale è emersa la reciproca «tenerezza di Dio».
+**Per molti delegati, rincontro di Fede Luce a Roma ha rappresentato la prima occasione di uscire dal proprio Paese**
+
+e di visitare la città culla del cristianesimo. Grande è stata la commozione quando, il 26 settembre, molti nei loro colorati abiti tradizionali, sono stati accolti dal Papa a Castel Gandolfo. Un «incontro tra sofferenze» nel quale è emersa la reciproca «tenerezza di Dio».
 
 Jean Vanier ha aperto l’udienza ricordando che “ **la persona segnata è spesso fonte di divisione, di scandalo, di conflitto e di tristezza** . Spesso è rifiutata, ancor prima della sua nascita. A Fede e Luce, grazie a Gesù e alla sua Buona Novella, scopriamo insieme che queste persone possono diventare sorgente di vita e di unità; portano alla compassione i nostri cuori induriti e pieni di paura; ci trasformano e ci chiamano a vivere in comunità fatte di amicizia e di solidarietà”.
 

@@ -42,7 +42,9 @@ Data la famiglia numerosa, ero in difficoltà per portarli dall’ortofonista; m
 
 Opera per combattere le difficoltà della dislessia evolutiva in Italia, cooperando con le istituzioni e con i servizi che si occupano dello sviluppo e dell'educazione dei bambini. Gli scopi dell’associazione sono di sensibilizzare il mondo professionale, scolastico e la pubblica opinione sul problema della dislessia evolutiva. Promuovere ricerca e formazione nei diversi ambiti d'intervento: servizi sanitari, riabilitativi e scuola. Offrire agli utenti un punto di riferimento certo e qualificato per ottenere informazioni e aiuto per consulenza e assistenza per l’identificazione del problema o per l'approccio riabilitativo e scolastico.L’associazione ha diverse sedi dislocate in tutte le maggiori città italiane.
 
-**Associazione Italiana Dislessia** Piazza dei Martiri, 1/2 40121 Bologna Tel. 051242919 Fax 0516393194http://www.dislessia.org
+**Associazione Italiana Dislessia**
+
+Piazza dei Martiri, 1/2 40121 Bologna Tel. 051242919 Fax 0516393194http://www.dislessia.org
 
 ### AED Associazione Europea Disgrafie
 
