@@ -65,10 +65,27 @@ export async function getStaticPaths() {
     }
   });
 
-  return allArticles.map((article) => {
+  // Percorso canonico (es. OEL-172/slug-file) + alias da frontmatter `slug` (es. link /blog/solo-slug)
+  const paths: { params: { slug: string } }[] = [];
+  const usedSlugs = new Set<string>();
+  for (const article of allArticles) {
     const slug = article.slug;
-    return { params: { slug } };
-  });
+    if (!usedSlugs.has(slug)) {
+      paths.push({ params: { slug } });
+      usedSlugs.add(slug);
+    }
+    const fmSlug = article.data.slug;
+    if (
+      typeof fmSlug === 'string' &&
+      fmSlug.trim() &&
+      fmSlug !== slug &&
+      !usedSlugs.has(fmSlug)
+    ) {
+      paths.push({ params: { slug: fmSlug } });
+      usedSlugs.add(fmSlug);
+    }
+  }
+  return paths;
 }
 
 // Ottieni tutti gli articoli per trovare quello con lo slug corrispondente

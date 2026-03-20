@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "dev:local": "astro dev --host 127.0.0.1 --port 4321",
     "dev:host": "astro dev --host",
     "start": "astro dev",
     "build": "astro build",
