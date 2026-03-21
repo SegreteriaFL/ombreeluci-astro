@@ -206,6 +206,8 @@ Questo lavoro va completato e validato **prima del cutover**. Il danno da redire
 | `articoli_it_count` | integer | no | Calcolato — articoli in italiano |
 | `articoli_en_count` | integer | no | Calcolato — articoli in inglese |
 
+**Avatar predefinito in Directus:** l'interfaccia `file-image` non puo puntare a un file statico del sito Astro. Per mostrare lo stesso avatar neutro anche in admin, caricare `public/images/avatar-default.svg` in `directus_files` e valorizzare `foto` sugli autori che non hanno immagine. Script idempotente: `scripts/db_analysis/directus_default_author_avatar.py` (richiede `DIRECTUS_URL`, `DIRECTUS_TOKEN`). Opzionale: flag `--set-field-default` per tentare il `default_value` sul campo `foto` (se l'istanza lo consente).
+
 ### 2.3 Collection: `numeri_rivista`
 
 | Campo | Tipo | Obbligatorio | Note |

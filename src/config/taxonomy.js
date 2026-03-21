@@ -1,10 +1,11 @@
 /**
  * Configurazione tassonomia: Megacluster (CSV post-iterazione 7.5) + Forma (tipo contenuto).
  * Ogni articolo è mappato per Forma (Intervista, Editoriale, ecc.) e per Tema del Megacluster.
- * Sorgente primaria temi: src/data/articoli_megacluster.json (generato da FINAL_V3 CSV).
+ * Sorgente dati temi/ruoli: src/data/_legacy_articoli_megacluster.json (generato da FINAL_V3 CSV).
+ * TODO: migrare tema_label, categoria_menu, ruolo_editoriale, forma su Directus.
  */
 
-import megaclusterData from '../data/articoli_megacluster.json';
+import megaclusterData from '../data/_legacy_articoli_megacluster.json';
 
 const {
   byId: MEGACLUSTER_BY_ID,
@@ -258,12 +259,3 @@ function slugifyLabel(label) {
     .replace(/^-|-$/g, '');
 }
 
-/**
- * Filtra la collezione blog per mostrare solo articoli italiani (feed principale).
- * Esclude articoli in src/content/blog/en/ o con lang: 'en'.
- * @param {Array<{ id: string; data: { lang?: string } }>} entries
- * @returns {typeof entries}
- */
-export function onlyItalianBlog(entries) {
-  return entries.filter((e) => !e.id.startsWith('en/') && e.data?.lang !== 'en');
-}

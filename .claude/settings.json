@@ -3,10 +3,12 @@
     "allow": [
       "Bash(*)",
       "Skill(update-config)",
-      "Skill(update-config:*)"
+      "Skill(update-config:*)",
+      "Read(//c/Users/berto/.claude/projects/c--Users-berto-Documents-Ombreeluci/memory/**)"
     ],
     "additionalDirectories": [
-      "c:\\Users\\berto\\Documents\\keystatic-oel"
+      "c:\\Users\\berto\\Documents\\keystatic-oel",
+      "c:\\Users\\berto\\.claude\\projects\\c--Users-berto-Documents-Ombreeluci\\memory"
     ]
   }
 }
