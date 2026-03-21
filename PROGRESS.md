@@ -1,7 +1,7 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-03-21 (sera)
-**Stato generale:** **Directus configurato e funzionante.** Import completo (3527 articoli). UI Directus riparata: relazioni M2M operative, editor WYSIWYG attivo, display leggibili su tutti i campi M2O.
+**Ultimo aggiornamento:** 2026-03-21 (mattina)
+**Stato generale:** **Immagini copertina migrate.** 2972/2972 immagini caricate su Directus (storage locale VPS), 0 errori. M2M template aggiornati con path traversal `{{tags_id.nome}}` / `{{temi_id.nome}}`.
 
 ---
 
@@ -15,9 +15,11 @@ da WordPress+Divi a uno stack moderno Astro + Directus.
 Lo **schema** comprende **10 collection**: `articoli`, `autori`, `numeri_rivista`, `temi`, `tags`, `serie`,
 `commenti_storici`, `redirects`, `embeddings`, `directus_files`. **Import completato:** 3527 articoli,
 352 autori, 204 numeri_rivista, 285 temi, 816 tag. **M2M:** 9440 relazioni totali (6676 articoli↔temi +
-2764 articoli↔tags). In Directus: **editor WYSIWYG** sul campo corpo, **display template** leggibili su
-tutti i campi M2O, **permessi Read** sulle junction `articoli_tags` e `articoli_temi`. **Redirect SEO:**
-2000 regole in `public/_redirects` (priorità `/?p=ID` e percorsi con data), 16630 regole in
+2764 articoli↔tags). **Immagini copertina:** 2972/2972 migrate su storage locale VPS (cartella "copertine",
+UUID `e1bd6b06-3057-4c28-8468-29b47de976a3`), 0 errori, 0 immagini 404. In Directus: **editor WYSIWYG**
+sul campo corpo, **display template** leggibili su tutti i campi M2O, **permessi Read** sulle junction
+`articoli_tags` e `articoli_temi`, template M2M con path traversal (`{{tags_id.nome}}`, `{{temi_id.nome}}`).
+**Redirect SEO:** 2000 regole in `public/_redirects` (priorità `/?p=ID` e percorsi con data), 16630 regole in
 `scripts/db_analysis/output/redirects_overflow.json` da gestire con **Cloudflare Worker**. Il sito Astro
 in produzione/staging continua ancora da file `.md` fino alla migrazione verso le API Directus.
 
@@ -31,7 +33,7 @@ in produzione/staging continua ancora da file `.md` fino alla migrazione verso l
 | CMS temporaneo | Keystatic Worker su Cloudflare Workers | **Attivo** (solo nuovi articoli) |
 | CMS | Directus su Hetzner CX23 (`http://159.69.196.64:8055`, Docker) | **Operativo** — 10 collection, import completo |
 | Database | PostgreSQL 16 + pgvector 0.8.2 (stesso VPS) | **Attivo** |
-| Storage media | Cloudflare R2 | **Da fare** |
+| Storage media | VPS locale (`/directus/uploads`) — R2 da fare | **Attivo** (2972 immagini copertina) |
 | Redirect SEO | `public/_redirects` (2000) + `redirects_overflow.json` (16630) | **Statici OK**; overflow → Worker |
 
 ---
@@ -166,12 +168,21 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
    - Campo `corpo` → `input-rich-text-html` con toolbar personalizzata (bold/italic/h2-h4/link/image/code)
    - Display template M2O in `articoli`: autore→`{{nome_completo}}`, numero_rivista→`{{display_title}}`, serie→`{{nome}}`
    - `display_template` impostato su tutte le collection: autori/temi/tags/serie/numeri_rivista
+   - Template M2M aggiornati con path traversal: `{{tags_id.nome}}`, `{{temi_id.nome}}`
 
-5. **Aggiornamento Astro** (~3-4 giorni)
+5. **Immagini copertina** ✅ COMPLETATO (2026-03-21)
+   - Script: `scripts/db_analysis/migrate_images.py`
+   - 2972/2972 immagini scaricate dal vecchio WordPress e caricate su Directus (storage locale VPS)
+   - Cartella "copertine" (UUID `e1bd6b06-3057-4c28-8468-29b47de976a3`)
+   - 2972 articoli aggiornati con `immagine_copertina`, 0 errori, 0 immagini 404
+   - Nota: R2 (Cloudflare) non usato — token `cfat_...` (53 char) incompatibile con endpoint S3 R2 (attende 32 char)
+     → migrazione a R2 rinviata; nel frattempo storage locale VPS (40 GB SSD, ~650 MB occupati)
+
+6. **Aggiornamento Astro** (~3-4 giorni)
    - Sostituire file `.md` statici con fetch da Directus API
    - SSR/ISR su Cloudflare Pages
 
-5. **Testing e cutover** (~1-2 giorni)
+7. **Testing e cutover** (~1-2 giorni)
 
 ---
 
@@ -232,10 +243,9 @@ scripts_and_data/
 
 ## Prossimi Step Immediati
 
-1. **Cloudflare R2:** creazione bucket e configurazione storage Directus (S3-compat).
-2. **Immagini copertina:** script download/upload ~3250 immagini dal vecchio WordPress → R2 / Directus.
-3. **Cloudflare Worker** (o redirect rules) per i **16630** redirect in overflow oltre `public/_redirects`.
-4. **Migrazione Astro:** lettura contenuti da API Directus a build time (step più lungo).
-5. **Directus:** ruoli e permessi per la redazione (oltre Public / token Astro).
-6. **TLS:** dominio **cms.ombreeluci.it** con reverse proxy Nginx + Certbot sul VPS.
-7. **VPS:** upgrade **CX23 → CX32** prima di attivare carichi pesanti su **embedding pgvector**.
+1. **Cloudflare Worker** per i **16630** redirect in overflow oltre `public/_redirects` (`redirects_overflow.json`).
+2. **Migrazione Astro:** lettura contenuti da API Directus a build time (step più lungo).
+3. **Directus:** ruoli e permessi per la redazione (oltre Public / token Astro).
+4. **TLS:** dominio **cms.ombreeluci.it** con reverse proxy Nginx + Certbot sul VPS.
+5. **R2:** quando Cloudflare risolve incompatibilità token `cfat_...` con endpoint S3, migrare immagini da VPS a R2 via `rclone sync`.
+6. **VPS:** upgrade **CX23 → CX32** prima di attivare carichi pesanti su **embedding pgvector**.
