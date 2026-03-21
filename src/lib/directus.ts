@@ -8,11 +8,8 @@
 const DIRECTUS_URL: string = import.meta.env.DIRECTUS_URL ?? 'http://159.69.196.64:8055';
 const DIRECTUS_TOKEN: string = import.meta.env.DIRECTUS_TOKEN ?? '';
 
-// URL base per le immagini (storage locale VPS — cambierà con media.ombreeluci.it)
-const MEDIA_BASE_URL = `${DIRECTUS_URL}/assets`;
-
 export function getImageUrl(fileId: string): string {
-  return `${MEDIA_BASE_URL}/${fileId}`;
+  return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/copertine/${fileId}`;
 }
 
 // ── Tipi ──────────────────────────────────────────────────────────────────────
