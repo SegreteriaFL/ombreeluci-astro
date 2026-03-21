@@ -380,7 +380,7 @@ _UNWRAP_OPEN = re.compile(
 )
 
 _UNWRAP_CLOSE = re.compile(
-    r'</(div|section|article|aside|header|footer|main|nav|span|font|'
+    r'</(div|section|article|aside|header|footer|main|nav|font|'
     r'table|tbody|thead|tfoot|tr|td|th|colgroup|col|'
     r'form|fieldset|select|option|textarea|button|input|'
     r'script|style|noscript|iframe|object|embed|link|meta)\s*>',
@@ -420,6 +420,11 @@ def _strip_attrs(m):
     tag = m.group(1).lower()
     attrs = m.group(2) or ''
 
+    # Preserve capolettera span before checking remove list
+    cls_m = re.search(r'\bclass=["\']([^"\']*)["\']', attrs, re.IGNORECASE)
+    if tag == 'span' and cls_m and 'capolettera' in cls_m.group(1):
+        return '<span class="capolettera">'
+
     _remove_open = {
         'script', 'style', 'noscript', 'iframe', 'object', 'embed',
         'link', 'meta', 'input', 'button', 'select', 'option', 'textarea',
@@ -448,6 +453,52 @@ def _strip_attrs(m):
     return f'<{tag}>'
 
 
+def _block_to_paragraphs(block):
+    """
+    Converte un singolo blocco di testo (già estratto da [et_pb_text]) in HTML con <p>.
+    - Se ha già tag <p> lo lascia invariato.
+    - Se ha \n\n: ogni doppia newline → nuovo <p>.
+    - Altrimenti (solo \n singoli): ogni riga non vuota → <p>.
+    """
+    block = re.sub(r'\r\n|\r', '\n', block.strip())
+    if not block:
+        return ''
+    # Se ha già <p> non toccare
+    if re.search(r'<p[\s>]', block, re.IGNORECASE):
+        return block
+    # Split su doppia newline
+    paragraphs = [p.strip() for p in re.split(r'\n{2,}', block) if p.strip()]
+    if len(paragraphs) > 1:
+        return '\n'.join(f'<p>{p.replace(chr(10), "<br>")}</p>' for p in paragraphs)
+    # Nessuna doppia newline: split su singola \n (ogni riga è un paragrafo)
+    lines = [l.strip() for l in block.split('\n') if l.strip()]
+    if len(lines) > 1:
+        return '\n'.join(f'<p>{l}</p>' for l in lines)
+    # Testo su una riga sola
+    return f'<p>{block}</p>'
+
+
+def _divi_to_paragraphs(html):
+    """
+    Estrae testo dai blocchi [et_pb_text]...[/et_pb_text] di Divi e
+    converte ogni blocco in HTML con <p> tramite _block_to_paragraphs.
+    Se non ci sono blocchi Divi processa l'intero html come un blocco.
+    """
+    blocks = re.findall(
+        r'\[et_pb_text\b[^\]]*\](.*?)\[/et_pb_text\]',
+        html,
+        flags=re.DOTALL | re.IGNORECASE,
+    )
+    if not blocks:
+        return _block_to_paragraphs(html) or html
+
+    processed = [_block_to_paragraphs(b) for b in blocks]
+    processed = [p for p in processed if p]
+    if not processed:
+        return html
+    return '\n\n'.join(processed)
+
+
 def clean_html(html):
     """
     Pulisce HTML estratto da Divi/WordPress.
@@ -457,10 +508,13 @@ def clean_html(html):
               class="capolettera".
     Rimuove:  tutti gli altri attributi, span, div, table, tr, td,
               shortcode WordPress/Divi rimasti.
-    Converte: [caption] -> <figure>.
+    Converte: [caption] -> <figure>, [et_pb_text] -> <p>.
     """
     if not html:
         return ''
+
+    # 0. Estrai blocchi Divi e converti paragrafi
+    html = _divi_to_paragraphs(html)
 
     # 1. Rimuovi script/style con contenuto
     html = _RE_SCRIPT_STYLE.sub('', html)
@@ -496,12 +550,29 @@ def clean_html(html):
     # 6. Rimuovi shortcode WordPress/Divi rimasti
     html = re.sub(r'\[/?[a-zA-Z_][^\]]*\]', '', html)
 
+    # 6b. Salva <span class="capolettera">...</span> prima dello strip
+    caps = []
+
+    def _save_cap(m):
+        caps.append(m.group(0))
+        return f'\x00CAP{len(caps) - 1}\x00'
+
+    html = re.sub(
+        r'<span\b[^>]*\bcapolettera\b[^>]*>(.*?)</span>',
+        _save_cap,
+        html,
+        flags=re.DOTALL | re.IGNORECASE,
+    )
+
     # 7. Strip attributi da tag con attributi
     html = re.sub(r'<([a-zA-Z][a-zA-Z0-9]*)\s+([^>]*?)>', _strip_attrs, html)
 
     # 8. Rimuovi opening/closing tag degli elementi da unwrappare (senza attributi)
     html = _UNWRAP_OPEN.sub('', html)
     html = _UNWRAP_CLOSE.sub('', html)
+
+    # 8b. Ripristina capolettera spans
+    html = re.sub(r'\x00CAP(\d+)\x00', lambda m: caps[int(m.group(1))], html)
 
     # 9. Normalizza whitespace
     html = re.sub(r'\r\n|\r', '\n', html)
