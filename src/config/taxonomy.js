@@ -1,18 +1,15 @@
 /**
  * Configurazione tassonomia: Megacluster (CSV post-iterazione 7.5) + Forma (tipo contenuto).
  * Ogni articolo è mappato per Forma (Intervista, Editoriale, ecc.) e per Tema del Megacluster.
- * Sorgente dati temi/ruoli: src/data/_legacy_articoli_megacluster.json (generato da FINAL_V3 CSV).
- * TODO: migrare tema_label, categoria_menu, ruolo_editoriale, forma su Directus.
+ * Struttura navigazione (slug/temi): src/data/taxonomy_structure.json.
+ * Campi per-articolo (tema_label, categoria_menu, ruolo_editoriale, forma): su Directus (migrati da _legacy_articoli_megacluster.json).
  */
 
-import megaclusterData from '../data/_legacy_articoli_megacluster.json';
+import taxonomyData from '../data/taxonomy_structure.json';
 
-const {
-  byId: MEGACLUSTER_BY_ID,
-  temiUnici: MEGACLUSTER_TEMI,
-  slugToTema: SLUG_TO_TEMA,
-  temaToCategoria: TEMA_TO_CATEGORIA = {},
-} = megaclusterData;
+const SLUG_TO_TEMA = taxonomyData.slugToTema;
+const TEMA_TO_CATEGORIA = taxonomyData.temaToCategoria;
+const MEGACLUSTER_TEMI = taxonomyData.megaclusterTemi;
 
 /** Macro-tipologie di contenuto (approccio formale) */
 export const FORMAL_TYPES = [
