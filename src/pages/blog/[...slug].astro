@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getAllArticoli, getArticoloBySlug, getImageUrl } from '../../lib/directus';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -7,129 +7,43 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
 import { getLangFromUrl, t } from '../../utils/i18n';
 import { ViewTransitions } from 'astro:transitions';
-import { readFile } from 'fs/promises';
-import { join } from 'path';
-import placeholderImage from '../../assets/placeholder1.webp';
 import autoriStats from '../../data/autori_stats.json';
-import megacluster from '../../data/articoli_megacluster.json';
 import '../../styles/global.css';
 
 const pathname = Astro.url.pathname;
 const locale = getLangFromUrl(pathname);
-
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
-const megaclusterData = megacluster as {
-  byId?: Record<
-    string,
-    {
-      img_copertina_url?: string | null;
-      sottotitolo?: string | null;
-      didascalia_copertina?: string | null;
-    }
-  >;
-  autoriById?: Record<string, { foto_url?: string; bio_html?: string }>;
-};
-const megaclusterById = megaclusterData.byId || {};
-const autoriById = megaclusterData.autoriById || {};
-// Debug: verifica caricamento megacluster in build
-console.log('[blog/[...slug].astro] Object.keys(megacluster.byId).length =', Object.keys(megaclusterById).length);
-console.log('[blog/[...slug].astro] Object.keys(megacluster.autoriById).length =', Object.keys(autoriById).length);
 
-// Genera tutti i percorsi statici
+// ── getStaticPaths ─────────────────────────────────────────────────────────────
+
 export async function getStaticPaths() {
-  const allArticles = await getCollection('blog');
-  const cleanId = (id: unknown) => String(id ?? '').trim().replace(/\.0$/, '');
-
-  // Verifica coppie IT/EN per LanguageSelector (stesso wp_id normalizzato)
-  const byWpId = new Map<string, { it?: string; en?: string; titleIt?: string; titleEn?: string }>();
-  for (const a of allArticles) {
-    const id = cleanId(a.data.wp_id);
-    if (!id) continue;
-    if (!byWpId.has(id)) byWpId.set(id, {});
-    const entry = byWpId.get(id)!;
-    if (a.id.startsWith('en/')) {
-      entry.en = a.slug;
-      entry.titleEn = a.data.title;
-    } else {
-      entry.it = a.slug;
-      entry.titleIt = a.data.title;
-    }
-  }
-  const pairs = [...byWpId.values()].filter((e) => e.it && e.en).length;
-  console.log('[blog/[...slug].astro] getStaticPaths: wp_id con coppia IT+EN =', pairs, '/ wp_id totali con id =', byWpId.size);
-
-  // Log mapping IT -> EN per debug
-  byWpId.forEach((entry, wpId) => {
-    if (entry.it && entry.en) {
-      console.log('Mapping:', `[${entry.titleIt}] ID: ${wpId} -> [${entry.titleEn}] ID: ${wpId}`);
-    }
-  });
-
-  // Percorso canonico (es. OEL-172/slug-file) + alias da frontmatter `slug` (es. link /blog/solo-slug)
-  const paths: { params: { slug: string } }[] = [];
-  const usedSlugs = new Set<string>();
-  for (const article of allArticles) {
-    const slug = article.slug;
-    if (!usedSlugs.has(slug)) {
-      paths.push({ params: { slug } });
-      usedSlugs.add(slug);
-    }
-    const fmSlug = article.data.slug;
-    if (
-      typeof fmSlug === 'string' &&
-      fmSlug.trim() &&
-      fmSlug !== slug &&
-      !usedSlugs.has(fmSlug)
-    ) {
-      paths.push({ params: { slug: fmSlug } });
-      usedSlugs.add(fmSlug);
-    }
-  }
-  return paths;
+  const allArticoli = await getAllArticoli();
+  const pairs = allArticoli.reduce((acc: Record<string, { it?: string; en?: string }>, a) => {
+    const key = String(a.wp_id ?? '');
+    if (!key) return acc;
+    if (!acc[key]) acc[key] = {};
+    if (a.lang === 'en') acc[key].en = a.slug;
+    else acc[key].it = a.slug;
+    return acc;
+  }, {});
+  const pairsCount = Object.values(pairs).filter((p) => p.it && p.en).length;
+  console.log('[blog/[...slug].astro] getStaticPaths: articoli =', allArticoli.length, '| coppie IT+EN =', pairsCount);
+  return allArticoli.map((articolo) => ({
+    params: { slug: articolo.slug },
+    props: { articoloMeta: articolo },
+  }));
 }
 
-// Ottieni tutti gli articoli per trovare quello con lo slug corrispondente
-const allArticles = await getCollection('blog');
-const slugParam = Astro.params.slug;
+// ── Fetch articolo completo ────────────────────────────────────────────────────
 
-// Crea mappa wp_id -> slug per conversione link WordPress
-const wpIdToSlugMap: Record<number, string> = {};
-allArticles.forEach(article => {
-  if (article.data.wp_id && article.slug) {
-    wpIdToSlugMap[Number(article.data.wp_id)] = article.slug;
-  }
-});
+const { articoloMeta } = Astro.props;
+const articolo = await getArticoloBySlug(articoloMeta.slug);
+if (!articolo) return Astro.redirect('/404');
 
-// Lo slug può essere:
-// 1. Solo il nome file (es. "ombre-e-luci")
-// 2. Percorso completo (es. "OEL-86/ombre-e-luci")
-let articleBySlug = null;
+const allArticoli = await getAllArticoli();
 
-// Prima prova a cercare per slug nel frontmatter
-articleBySlug = allArticles.find(entry => entry.data.slug === slugParam);
+// ── Helper functions ───────────────────────────────────────────────────────────
 
-// Se non trovato, prova con entry.slug (generato da Astro)
-if (!articleBySlug) {
-  articleBySlug = allArticles.find(entry => entry.slug === slugParam);
-}
-
-// Se non trovato, cerca per percorso completo
-if (!articleBySlug) {
-  articleBySlug = allArticles.find(entry => {
-    // entry.id è il percorso completo relativo a src/content/blog (es. "OEL-86/ombre-e-luci.md")
-    const entryPath = entry.id.replace(/\.md$/, ''); // Rimuovi .md
-    // Confronta con lo slug del parametro (può essere "OEL-86/ombre-e-luci" o solo "ombre-e-luci")
-    return entryPath === slugParam || entryPath.endsWith(`/${slugParam}`);
-  });
-}
-
-if (!articleBySlug) {
-  return Astro.redirect('/404');
-}
-
-const { Content } = await articleBySlug.render();
-
-// Funzione per formattare la data in italiano
 function formatDateItalian(date: Date): string {
   return new Intl.DateTimeFormat('it-IT', {
     year: 'numeric',
@@ -138,7 +52,6 @@ function formatDateItalian(date: Date): string {
   }).format(date);
 }
 
-// Funzione per generare slug autore
 function generateAuthorSlug(name: string): string {
   return name
     .toLowerCase()
@@ -148,120 +61,64 @@ function generateAuthorSlug(name: string): string {
     .replace(/^-|-$/g, '');
 }
 
-// Funzione per generare slug numero
 function generateIssueSlug(issueNumber: string): string {
   return issueNumber.toLowerCase().replace(/[^a-z0-9-]/g, '-');
 }
 
-// Slug autore e dati da megacluster (database_autori)
-const authorSlug = generateAuthorSlug(articleBySlug.data.author);
-let authorBio: string | null = (autoriById[authorSlug] as { bio_html?: string } | undefined)?.bio_html?.trim() || null;
-// Foto autore: da database_autori (foto_url) se presente, altrimenti locale /assets/authors/[slug].jpg
-const authorFotoUrl = autoriById[authorSlug]?.foto_url;
-const authorImagePath = authorFotoUrl || `/assets/authors/${authorSlug}.jpg`;
-
-if (!authorBio) {
-  try {
-    const autoriBioData = await import('../../../scripts_and_data/datasets/autori/autori_bio.json');
-    const autoriBio = autoriBioData.default as Array<{slug: string; nome_completo: string; bio: string | null}>;
-    const authorBioData = autoriBio.find(a => a.slug === authorSlug);
-    authorBio = authorBioData?.bio || null;
-  } catch (e) {
-    // File non trovato o errore, usa null
-  }
+function calculateReadingTimeFromHtml(html: string | null): number {
+  if (!html) return 3;
+  const textOnly = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const wordCount = textOnly.split(/\s+/).filter((w: string) => w.length > 0).length;
+  return Math.max(1, Math.ceil(wordCount / 200));
 }
 
-// Issue number e link
-const issueNumber = articleBySlug.data.issue_number;
+// ── Dati articolo ──────────────────────────────────────────────────────────────
+
+const articleTitle = articolo.titolo;
+const articleDate = articolo.data_pubblicazione ? new Date(articolo.data_pubblicazione) : new Date();
+const autoreCompleto = articolo.autore as any;
+const autoreName: string = autoreCompleto?.nome_completo ?? articoloMeta.autore?.nome_completo ?? 'Autore sconosciuto';
+const authorSlug = generateAuthorSlug(autoreName);
+
+const authorBioHtml: string | null = autoreCompleto?.bio_html?.trim() || null;
+const authorFotoId: string | null = autoreCompleto?.foto?.id ?? null;
+const authorImagePath = authorFotoId ? getImageUrl(authorFotoId) : `/assets/authors/${authorSlug}.jpg`;
+const authorBio: string | null = authorBioHtml;
+
+const readingTime = calculateReadingTimeFromHtml(articolo.corpo);
+
+// ── Issue (numero rivista) ─────────────────────────────────────────────────────
+
+const issueNumber = articolo.numero_rivista?.id_numero ?? null;
 const issueSlug = issueNumber ? generateIssueSlug(issueNumber) : null;
 const issueLink = issueSlug ? `/archivio/${issueSlug}` : null;
 
-// Funzione per estrarre excerpt dalle prime due righe del contenuto
-async function extractExcerpt(articleId: string): Promise<string | null> {
-  try {
-    // articleId è il percorso relativo a src/content/blog (es. "OEL-86/ombre-e-luci.md")
-    const contentPath = join(process.cwd(), 'src', 'content', 'blog', articleId);
-    const content = await readFile(contentPath, 'utf-8');
-    const parts = content.split('---');
-    if (parts.length < 3) return null;
-    
-    const body = parts[2].trim();
-    // Rimuovi markdown e HTML, estrai solo testo
-    const textOnly = body
-      .replace(/^#+\s+/gm, '') // Rimuovi heading markers
-      .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1') // Rimuovi link markdown
-      .replace(/!\[([^\]]*)\]\([^\)]+\)/g, '') // Rimuovi immagini
-      .replace(/<[^>]+>/g, '') // Rimuovi HTML tags
-      .replace(/\*\*([^\*]+)\*\*/g, '$1') // Rimuovi bold
-      .replace(/\*([^\*]+)\*/g, '$1') // Rimuovi italic
-      .trim();
-    
-    // Prendi le prime due righe
-    const lines = textOnly.split('\n').filter(line => line.trim().length > 0);
-    if (lines.length >= 2) {
-      return lines.slice(0, 2).join(' ').substring(0, 200);
-    } else if (lines.length === 1) {
-      return lines[0].substring(0, 200);
-    }
-    return null;
-  } catch (e) {
-    // Se non riesce a leggere il file, ritorna null
-    return null;
-  }
-}
+// ── Immagine copertina ─────────────────────────────────────────────────────────
 
-// Estrai excerpt se non presente (usato come fallback se manca un vero sottotitolo)
-let articleExcerpt = articleBySlug.data.tema_label || null;
-if (!articleExcerpt) {
-  articleExcerpt = await extractExcerpt(articleBySlug.id);
-}
+const articleImage = articolo.immagine_copertina?.id
+  ? getImageUrl(articolo.immagine_copertina.id)
+  : '/placeholder1.webp';
 
-// Immagine, sottotitolo e didascalia copertina da megacluster/frontmatter
-const wpIdStr = String(articleBySlug.data.wp_id ?? '');
-const megaclusterEntry = megaclusterById[wpIdStr] || {};
+// ── Sottotitolo e SEO ──────────────────────────────────────────────────────────
 
-// Immagine articolo: da megacluster (img_copertina_url) se presente, altrimenti frontmatter (image/copertina_url) o placeholder
-const articleImage =
-  megaclusterEntry.img_copertina_url ||
-  articleBySlug.data.image ||
-  (articleBySlug.data as { copertina_url?: string }).copertina_url ||
-  placeholderImage.src;
+const explicitSubtitle = articolo.sottotitolo?.trim() || null;
+const heroCaption: string | null = null;
 
-// Sottotitolo esplicito da frontmatter (usato in pagina) e fallback per SEO
-const explicitSubtitle =
-  ((articleBySlug.data as { subtitle?: string }).subtitle || '').trim() ||
-  null;
+const metaDescription = (explicitSubtitle || articolo.seo_description)
+  ? (explicitSubtitle || articolo.seo_description)!.substring(0, 160).replace(/\s+/g, ' ').trim()
+  : `${articleTitle} - Articolo pubblicato su Ombre e Luci`;
 
-// Sottotitolo esteso per SEO: usa explicitSubtitle, poi megacluster.sottotitolo, infine excerpt calcolato
-const articleSubtitle =
-  explicitSubtitle ||
-  (megaclusterEntry.sottotitolo || '').trim() ||
-  (articleExcerpt || null);
+// ── Categoria, etichette, ruolo editoriale (taxonomy.js via megacluster) ───────
 
-// Didascalia copertina: prima image_caption dal frontmatter (estratta dallo script),
-// poi megacluster.didascalia_copertina
-const heroCaption =
-  ((articleBySlug.data as { image_caption?: string }).image_caption || '').trim() ||
-  (megaclusterEntry.didascalia_copertina || '').trim() ||
-  null;
-
-// Meta description per SEO (prime 160 caratteri)
-const metaDescription = (explicitSubtitle || articleSubtitle || articleExcerpt)
-  ? (explicitSubtitle || articleSubtitle || articleExcerpt)!.substring(0, 160).replace(/\s+/g, ' ').trim()
-  : `${articleBySlug.data.title} - Articolo pubblicato su Ombre e Luci`;
-
-// Label categoria (categoria_menu) e slug per link; forma per badge
-const categoryDisplay = getThemeLabel(articleBySlug.data.wp_id);
-const categorySlug = getCategorySlugForArticle(articleBySlug.data.wp_id);
+const categoryDisplay = getThemeLabel(articolo.wp_id);
+const categorySlug = getCategorySlugForArticle(articolo.wp_id);
 const categoryLink = categorySlug ? `/categoria/${categorySlug}` : null;
-const currentLabels = getLabels(articleBySlug.data.tags ?? [], articleBySlug.data.wp_id);
+const currentLabels = getLabels([], articolo.wp_id);
 const formaDisplay = currentLabels.formal !== 'Articolo' ? currentLabels.formal : null;
 const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
-// Badge: [Numero] • [Forma] / [categoria_menu] (label cliccabili)
 const showPubblicatoOnline = !hasIssue;
 
-// Ruolo editoriale per meta articolo
-const { ruolo_editoriale } = getMegaclusterForArticle(articleBySlug.data.wp_id);
+const { ruolo_editoriale } = getMegaclusterForArticle(articolo.wp_id);
 let roleLabel: string | null = null;
 let roleClassName = '';
 if (ruolo_editoriale === 'portante') {
@@ -278,158 +135,81 @@ if (ruolo_editoriale === 'portante') {
   roleClassName = ' article-badge-role--trasversale';
 }
 
-// Calcola tempo di lettura (circa 200 parole al minuto)
-async function calculateReadingTime(articleId: string): Promise<number> {
-  try {
-    const contentPath = join(process.cwd(), 'src', 'content', 'blog', articleId);
-    const content = await readFile(contentPath, 'utf-8');
-    const parts = content.split('---');
-    if (parts.length < 3) return 3;
-    
-    const body = parts[2].trim();
-    const textOnly = body
-      .replace(/^#+\s+/gm, '')
-      .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')
-      .replace(/!\[([^\]]*)\]\([^\)]+\)/g, '')
-      .replace(/<[^>]+>/g, '')
-      .replace(/\*\*([^\*]+)\*\*/g, '$1')
-      .replace(/\*([^\*]+)\*/g, '$1')
-      .trim();
-    
-    const wordCount = textOnly.split(/\s+/).filter(word => word.length > 0).length;
-    const readingTime = Math.max(1, Math.ceil(wordCount / 200));
-    return readingTime;
-  } catch (e) {
-    return 3; // Default
-  }
+// ── PDF e copertina numero rivista ─────────────────────────────────────────────
+
+const pdfUrl: string | null = (articolo.numero_rivista as any)?.link_pdf ?? null;
+const copeertinaUrl: string | null = null;
+const isTranslation = articolo.lang === 'en';
+
+// ── Language switcher ──────────────────────────────────────────────────────────
+
+const isCurrentEn = articolo.lang === 'en';
+const currentWpIdClean = String(articolo.wp_id ?? '');
+const currentSlug = articolo.slug;
+
+const alternateItem = currentWpIdClean
+  ? allArticoli.find((a) =>
+      String(a.wp_id) === currentWpIdClean &&
+      a.id !== articolo.id &&
+      (a.lang === 'en' ? !isCurrentEn : isCurrentEn)
+    )
+  : null;
+const alternateArticleUrl = alternateItem ? `/blog/${alternateItem.slug}` : null;
+
+// ── wpIdToSlugMap ──────────────────────────────────────────────────────────────
+
+const wpIdToSlugMap: Record<number, string> = {};
+for (const a of allArticoli) {
+  if (a.wp_id && a.slug) wpIdToSlugMap[a.wp_id] = a.slug;
 }
 
-const readingTime = await calculateReadingTime(articleBySlug.id);
+// ── inContentRelatedMap ────────────────────────────────────────────────────────
 
-const currentSlug =
-  (articleBySlug.data as { slug?: string }).slug ||
-  articleBySlug.slug;
+const inContentRelatedMap: Record<string, {
+  title: string; image: string; excerpt: string | null;
+  href: string; category?: string | null; lang?: string; isItalian?: boolean;
+}> = {};
 
-// Articolo nella stessa lingua per language switcher (stesso wp_id normalizzato, altra lingua)
-const isCurrentEn = articleBySlug.id.startsWith('en/');
-const currentWpId = articleBySlug.data.wp_id;
-const cleanId = (id: unknown) => String(id ?? '').trim().replace(/\.0$/, '');
-const currentWpIdClean = cleanId(currentWpId);
-
-// Prima prova match per wp_id normalizzato
-let alternateArticle =
-  currentWpIdClean !== ''
-    ? allArticles.find(
-        (a) =>
-          cleanId(a.data.wp_id) === currentWpIdClean &&
-          a.id !== articleBySlug.id &&
-          (a.id.startsWith('en/') ? !isCurrentEn : isCurrentEn)
-      )
-    : null;
-
-// Fallback: stesso slug (articoli tradotti spesso mantengono slug simile)
-if (!alternateArticle && currentSlug) {
-  const slugBase = typeof currentSlug === 'string' ? currentSlug.split('/').pop() || currentSlug : String(currentSlug);
-  alternateArticle = allArticles.find(
-    (a) =>
-      a.id !== articleBySlug.id &&
-      (a.id.startsWith('en/') ? !isCurrentEn : isCurrentEn) &&
-      (a.slug === slugBase || a.slug === currentSlug || (a.slug && a.slug.endsWith(slugBase)))
-  ) || null;
-}
-
-const alternateArticleUrl = alternateArticle ? `/blog/${alternateArticle.slug}` : null;
-
-// Mappa slug -> metadati articolo per i box correlati in-content (read-also-box)
-const inContentRelatedMap: Record<
-  string,
-  {
-    title: string;
-    image: string;
-    excerpt: string | null;
-    href: string;
-    category?: string | null;
-    lang?: string;
-    isItalian?: boolean;
-  }
-> = {};
-
-for (const article of allArticles) {
-  const slug =
-    (article.data as { slug?: string }).slug ||
-    article.slug;
-
-  const relWpId = String(article.data.wp_id ?? '');
-  const relMegacluster = megaclusterById[relWpId] || {};
-
-  const rawImage =
-    relMegacluster.img_copertina_url ||
-    article.data.image ||
-    (article.data as { copertina_url?: string }).copertina_url ||
-    placeholderImage.src;
-
-  const subtitle =
-    ((article.data as { subtitle?: string }).subtitle || '').trim() ||
-    (relMegacluster.sottotitolo || '').trim() ||
-    (article.data.tema_label || '').trim() ||
-    null;
-
-  const lang = ((article.data as { lang?: string }).lang || 'it').toLowerCase();
-  const isItalian = lang !== 'en' && !article.id.startsWith('en/');
-  const category =
-    (article.data as { categoria_menu?: string }).categoria_menu ||
-    (relMegacluster as { categoria_menu?: string }).categoria_menu ||
-    ((article.data.tags as string[] | undefined)?.[0] ?? null);
-
-  inContentRelatedMap[slug] = {
-    title: article.data.title,
-    image: typeof rawImage === 'string' ? rawImage : rawImage.src,
-    excerpt: subtitle,
-    href: `/blog/${slug}`,
+for (const a of allArticoli) {
+  const imgUrl = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+  const lang = a.lang;
+  const isItalian = lang !== 'en';
+  const category = getCategorySlugForArticle(a.wp_id) ?? null;
+  inContentRelatedMap[a.slug] = {
+    title: a.titolo,
+    image: imgUrl,
+    excerpt: a.sottotitolo?.trim() || null,
+    href: `/blog/${a.slug}`,
     category,
     lang,
     isItalian,
   };
 }
 
-// Articoli correlati in calce (stessa categoria, escluso l'articolo corrente)
+// ── Articoli correlati in calce ────────────────────────────────────────────────
+
 const relatedCategorySlug = categorySlug;
 const relatedArticles = relatedCategorySlug
-  ? allArticles
+  ? allArticoli
       .filter((a) => {
-        if (a.id === articleBySlug.id) return false;
-        const aCategorySlug = getCategorySlugForArticle(a.data.wp_id);
-        const aLang = ((a.data as { lang?: string }).lang || 'it').toLowerCase();
-        const isSameLang =
-          (locale === 'en' ? aLang === 'en' || a.id.startsWith('en/') : aLang !== 'en' && !a.id.startsWith('en/'));
+        if (a.id === articolo.id) return false;
+        const aCategorySlug = getCategorySlugForArticle(a.wp_id);
+        const isSameLang = isCurrentEn ? a.lang === 'en' : a.lang !== 'en';
         return isSameLang && aCategorySlug === relatedCategorySlug;
       })
       .slice(0, 3)
       .map((a) => {
-        const slug =
-          (a.data as { slug?: string }).slug ||
-          a.slug;
-        const relWpId = String(a.data.wp_id ?? '');
-        const relMegacluster = megaclusterById[relWpId] || {};
-        const rawImage =
-          relMegacluster.img_copertina_url ||
-          a.data.image ||
-          (a.data as { copertina_url?: string }).copertina_url ||
-          placeholderImage.src;
-        const labels = getLabels(a.data.tags ?? [], a.data.wp_id);
-        const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a.data.wp_id);
-        const categoriaMenu =
-          (a.data as { categoria_menu?: string }).categoria_menu ||
-          (relMegacluster as { categoria_menu?: string }).categoria_menu ||
-          ((a.data.tags as string[] | undefined)?.[0] ?? null);
-
+        const imgUrl = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+        const labels = getLabels([], a.wp_id);
+        const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a.wp_id);
+        const categoriaMenu = getThemeLabel(a.wp_id) ?? null;
         return {
-          title: a.data.title,
-          author: a.data.author,
-          date: a.data.date,
-          issue: a.data.issue_number,
-          slug,
-          image: typeof rawImage === 'string' ? rawImage : rawImage.src,
+          title: a.titolo,
+          author: a.autore?.nome_completo ?? 'Autore sconosciuto',
+          date: a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(),
+          issue: a.numero_rivista?.id_numero ?? null,
+          slug: a.slug,
+          image: imgUrl,
           categoriaMenu,
           forma: labels.formal,
           ruoloEditoriale: relRuolo,
@@ -438,20 +218,21 @@ const relatedArticles = relatedCategorySlug
   : [];
 ---
 
+
 <html lang="it">
   <head>
     <meta name="robots" content="noindex, nofollow" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{articleBySlug.data.title} - Ombre e Luci</title>
+    <title>{articleTitle} - Ombre e Luci</title>
     <meta name="description" content={metaDescription} />
-    <meta property="og:title" content={articleBySlug.data.title} />
+    <meta property="og:title" content={articleTitle} />
     <meta property="og:description" content={metaDescription} />
-    <meta property="og:image" content={typeof articleImage === 'string' ? articleImage : articleImage.src} />
+    <meta property="og:image" content={articleImage} />
     <meta property="og:type" content="article" />
     <meta property="og:url" content={Astro.url.href} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={articleBySlug.data.title} />
+    <meta name="twitter:title" content={articleTitle} />
     <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={typeof articleImage === 'string' ? articleImage : articleImage.src} />
     <ViewTransitions />
@@ -1404,7 +1185,7 @@ const relatedArticles = relatedCategorySlug
           </div>
         )}
 
-        <h1 class="article-title">{articleBySlug.data.title}</h1>
+        <h1 class="article-title">{articleTitle}</h1>
         
         {/* Sottotitolo: usa il sottotitolo “vero” dal frontmatter, se presente */}
         {explicitSubtitle && (
@@ -1418,18 +1199,18 @@ const relatedArticles = relatedCategorySlug
           <div class="article-meta-item">
             <img 
               src={authorImagePath}
-              alt={articleBySlug.data.author}
+              alt={autoreName}
               class="article-meta-author-image"
               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
               loading="lazy"
             />
             <div class="article-meta-author-placeholder" style="display: none;">
-              {articleBySlug.data.author.charAt(0).toUpperCase()}
+              {autoreName.charAt(0).toUpperCase()}
             </div>
-            <a href={`/autori/${authorSlug}`} class="author-link">{articleBySlug.data.author}</a>
+            <a href={`/autori/${authorSlug}`} class="author-link">{autoreName}</a>
           </div>
           <div class="article-meta-item">
-            {formatDateItalian(articleBySlug.data.date)}
+            {formatDateItalian(articleDate)}
           </div>
           <div class="article-meta-item">
             {readingTime} {t(locale, 'min_read')}
@@ -1447,7 +1228,7 @@ const relatedArticles = relatedCategorySlug
         <div class="article-hero-image-wrapper">
           <img 
             src={articleImage} 
-            alt={articleBySlug.data.title}
+            alt={articleTitle}
             class="article-image"
             loading="lazy"
           />
@@ -1460,18 +1241,18 @@ const relatedArticles = relatedCategorySlug
       </div>
 
       {/* Alert box per contenuti archivistici */}
-      {articleBySlug.data.date.getFullYear() < 2000 && (
+      {articleDate.getFullYear() < 2000 && (
         <div class="article-header-wrapper">
           <div class="archival-alert">
-            <strong>Contenuto d'archivio:</strong> Questo articolo del {articleBySlug.data.date.getFullYear()} riflette il linguaggio e le sensibilità del suo tempo.
+            <strong>Contenuto d'archivio:</strong> Questo articolo del {articleDate.getFullYear()} riflette il linguaggio e le sensibilità del suo tempo.
           </div>
         </div>
       )}
       
-      {articleBySlug.data.is_translation && articleBySlug.data.date.getFullYear() < 2000 && (
+      {isTranslation && articleDate.getFullYear() < 2000 && (
         <div class="article-header-wrapper">
           <div class="archival-alert-en">
-            <strong>This archival content from {articleBySlug.data.date.getFullYear()} reflects the language and sensitivities of its time.</strong>
+            <strong>This archival content from {articleDate.getFullYear()} reflects the language and sensitivities of its time.</strong>
           </div>
         </div>
       )}
@@ -1491,7 +1272,7 @@ const relatedArticles = relatedCategorySlug
             </svg>
           </a>
           <a 
-            href={`https://twitter.com/intent/tweet?url=${Astro.url.href}&text=${encodeURIComponent(articleBySlug.data.title)}`}
+            href={`https://twitter.com/intent/tweet?url=${Astro.url.href}&text=${encodeURIComponent(articleTitle)}`}
             target="_blank"
             rel="noopener noreferrer"
             class="social-link twitter"
@@ -1502,7 +1283,7 @@ const relatedArticles = relatedCategorySlug
             </svg>
           </a>
           <a 
-            href={`https://wa.me/?text=${encodeURIComponent(articleBySlug.data.title + ' ' + Astro.url.href)}`}
+            href={`https://wa.me/?text=${encodeURIComponent(articleTitle + ' ' + Astro.url.href)}`}
             target="_blank"
             rel="noopener noreferrer"
             class="social-link whatsapp"
@@ -1524,7 +1305,7 @@ const relatedArticles = relatedCategorySlug
             </svg>
           </a>
           <a 
-            href={`mailto:?subject=${encodeURIComponent(articleBySlug.data.title)}&body=${encodeURIComponent(Astro.url.href)}`}
+            href={`mailto:?subject=${encodeURIComponent(articleTitle)}&body=${encodeURIComponent(Astro.url.href)}`}
             class="social-link email"
             aria-label="Invia via email"
           >
@@ -1548,7 +1329,7 @@ const relatedArticles = relatedCategorySlug
       {/* Corpo del Testo - max-width: 750px */}
       <div class="article-content-wrapper">
         <div class="article-content" id="article-content">
-          <Content />
+          <div set:html={articolo.corpo ?? ''} />
         </div>
 
         {/* Bio Autore */}
@@ -1557,19 +1338,19 @@ const relatedArticles = relatedCategorySlug
             <div class="author-bio-avatar">
               <img 
                 src={authorImagePath}
-                alt={articleBySlug.data.author}
+                alt={autoreName}
                 class="author-bio-image"
                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                 loading="lazy"
               />
               <div class="author-bio-placeholder" style="display: none;">
-                {articleBySlug.data.author.charAt(0).toUpperCase()}
+                {autoreName.charAt(0).toUpperCase()}
               </div>
             </div>
             <div class="author-bio-content">
               <h3 class="author-bio-name">
                 <a href={`/autori/${authorSlug}`} class="author-bio-link">
-                  {articleBySlug.data.author}
+                  {autoreName}
                 </a>
               </h3>
               <div class="author-bio-text">
@@ -1587,8 +1368,8 @@ const relatedArticles = relatedCategorySlug
         </div>
 
         <EditorialFeedback
-          wpId={articleBySlug.data.wp_id}
-          title={articleBySlug.data.title}
+          wpId={articolo.wp_id}
+          title={articleTitle}
           currentRole={ruolo_editoriale}
           url={Astro.url.href}
         />
@@ -1598,33 +1379,33 @@ const relatedArticles = relatedCategorySlug
       <div class="floating-widget" id="floating-widget">
         <button class="close-btn" id="close-widget" aria-label={t(locale, 'widget_close')}>×</button>
         <h4>{t(locale, 'widget_navigate')}</h4>
-        {articleBySlug.data.pdf_url ? (
-          <a href={articleBySlug.data.pdf_url} target="_blank" rel="noopener noreferrer" class="widget-link">{t(locale, 'widget_download_pdf')}</a>
+        {pdfUrl ? (
+          <a href={pdfUrl} target="_blank" rel="noopener noreferrer" class="widget-link">{t(locale, 'widget_download_pdf')}</a>
         ) : null}
         {issueLink ? <a href={issueLink} class="widget-link">{t(locale, 'widget_go_to_issue')}</a> : null}
         <a href={locale === 'en' ? '/blog/en' : '/archivio'} class="widget-link">{t(locale, 'nav_archive')}</a>
       </div>
 
       {/* Sezione PDF e Copertina */}
-      {(articleBySlug.data.pdf_url || articleBySlug.data.copertina_url) && (
+      {(pdfUrl || copeertinaUrl) && (
         <div class="numero-rivista-section">
-          {articleBySlug.data.numero_rivista && articleBySlug.data.anno_rivista && (
+          {articolo.numero_rivista?.display_title && articolo.numero_rivista?.anno_pubblicazione && (
             <h3>{t(locale, 'issue_number')}</h3>
           )}
-          {articleBySlug.data.copertina_url && (
+          {copeertinaUrl && (
             <div class="copertina-container">
               <img 
-                src={articleBySlug.data.copertina_url} 
-                alt={`Copertina numero ${articleBySlug.data.numero_rivista || ''}`}
+                src={copeertinaUrl} 
+                alt={`Copertina numero ${articolo.numero_rivista?.id_numero || ''}`}
                 class="copertina-image"
                 loading="lazy"
               />
             </div>
           )}
-          {articleBySlug.data.pdf_url && (
+          {pdfUrl && (
             <div class="pdf-container">
               <a 
-                href={articleBySlug.data.pdf_url} 
+                href={pdfUrl} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 class="pdf-link"
@@ -1662,7 +1443,7 @@ const relatedArticles = relatedCategorySlug
         </section>
       )}
 
-      {articleBySlug.data.has_comments && (
+      {articolo.has_comments && (
         <div class="comments-section">
           -- Qui appariranno i commenti di Trikkia --
         </div>
@@ -1674,11 +1455,11 @@ const relatedArticles = relatedCategorySlug
           🔍 Debug: Dati articolo
         </summary>
         <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
-{JSON.stringify(articleBySlug.data, null, 2)}
+{JSON.stringify({ id: articolo.id, wp_id: articolo.wp_id, slug: articolo.slug, titolo: articolo.titolo, lang: articolo.lang, stato: articolo.stato, data_pubblicazione: articolo.data_pubblicazione }, null, 2)}
         </pre>
         <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
-ID: {articleBySlug.id}
-Slug: {articleBySlug.slug}
+ID: {articolo.id}
+Slug: {articolo.slug}
         </pre>
       </details>
 
