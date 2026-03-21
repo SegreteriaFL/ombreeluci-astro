@@ -4,28 +4,28 @@
  * Intro + griglia 7 card (uno per autore) + feed globale articoli dei 7 diaristi.
  */
 import { ViewTransitions } from 'astro:transitions';
-import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
-import { getMegaclusterForArticle, getLabels, onlyItalianBlog } from '../../config/taxonomy.js';
+import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { getDiaristiWithMeta, NOMI_DIARISTI } from '../../data/diari.js';
-import megacluster from '../../data/articoli_megacluster.json';
+import { getAllArticoli, getAllAutori, getImageUrl } from '../../lib/directus';
 
-const megaclusterData = megacluster as {
-  byId?: Record<string, { img_copertina_url?: string }>;
-  autoriById?: Record<string, { foto_url?: string; bio_html?: string }>;
-};
-const byId = megaclusterData.byId || {};
-const autoriById = megaclusterData.autoriById || {};
-
+const allAutori = await getAllAutori();
+const autoriById: Record<string, { foto_url?: string }> = Object.fromEntries(
+  allAutori.map((a) => [a.slug, { foto_url: a.foto?.id ? getImageUrl(a.foto.id) : undefined }])
+);
 const diaristiConMeta = getDiaristiWithMeta(autoriById);
 
-const allArticles = onlyItalianBlog(await getCollection('blog'));
+const allArticles = await getAllArticoli();
 const articoliDiari = allArticles
-  .filter((a) => NOMI_DIARISTI.has((a.data.author || '').trim()))
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+  .filter((a) => a.lang !== 'en' && NOMI_DIARISTI.has((a.autore?.nome_completo || '').trim()))
+  .sort((a, b) => {
+    const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+    const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+    return tB - tA;
+  });
 ---
 
 <html lang="it">
@@ -78,21 +78,19 @@ const articoliDiari = allArticles
           <p class="diari-feed-intro">Gli ultimi contributi dei sette autori dei Diari, dal più recente al più vecchio.</p>
           {articoliDiari.length > 0 ? (
             <div class="diari-articles-grid">
-              {articoliDiari.map((article) => {
-                const articleSlug = article.data.slug ?? article.slug;
-                const { tema_label, categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
-                const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
-                const articleDate = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
-                const wpIdStr = String(article.data.wp_id ?? '');
-                const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+              {articoliDiari.map((a) => {
+                const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+                const { formal } = getLabels([], a);
+                const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+                const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
                 return (
                   <ArticleCard
-                    title={article.data.title}
-                    slug={articleSlug}
+                    title={a.titolo}
+                    slug={a.slug}
                     categoriaMenu={categoria_menu ?? undefined}
-                    issue={article.data.issue_number}
+                    issue={a.numero_rivista?.id_numero ?? null}
                     forma={formal}
-                    author={article.data.author}
+                    author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
                     date={articleDate}
                     image={articleImage}
                     ruoloEditoriale={ruolo_editoriale ?? undefined}

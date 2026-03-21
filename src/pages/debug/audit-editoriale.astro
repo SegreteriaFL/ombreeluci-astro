@@ -1,38 +1,35 @@
 ---
-import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
+import { getAllArticoli } from '../../lib/directus';
 
-const allArticles = await getCollection('blog');
+const allArticlesRaw = await getAllArticoli();
 
-const buckets: Record<string, typeof allArticles> = {
+type Art = (typeof allArticlesRaw)[0];
+const buckets: Record<string, Art[]> = {
   portante: [],
   strutturale: [],
   laterale: [],
   trasversale: [],
 };
 
-for (const article of allArticles) {
-  const { ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
+for (const article of allArticlesRaw) {
+  const { ruolo_editoriale } = getMegaclusterForArticle(article);
   const role = (ruolo_editoriale || '').toLowerCase();
   if (role && buckets[role]) {
     buckets[role].push(article);
   }
 }
 
-function sortByDateThenWeight(list: typeof allArticles) {
+function sortByDateThenWeight(list: Art[]) {
   return [...list].sort((a, b) => {
-    const timeA = a.data.date instanceof Date ? a.data.date.getTime() : new Date(a.data.date as unknown as string).getTime();
-    const timeB = b.data.date instanceof Date ? b.data.date.getTime() : new Date(b.data.date as unknown as string).getTime();
-    if (!Number.isNaN(timeA) && !Number.isNaN(timeB) && timeA !== timeB) {
-      return timeB - timeA;
-    }
-    const roleA = getMegaclusterForArticle(a.data.wp_id).ruolo_editoriale;
-    const roleB = getMegaclusterForArticle(b.data.wp_id).ruolo_editoriale;
-    const weightA = getRoleWeight(roleA);
-    const weightB = getRoleWeight(roleB);
+    const timeA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+    const timeB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+    if (timeA !== timeB) return timeB - timeA;
+    const weightA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
+    const weightB = getRoleWeight(getMegaclusterForArticle(b.wp_id).ruolo_editoriale);
     return weightB - weightA;
   });
 }
@@ -167,12 +164,12 @@ const trasversali = sortByDateThenWeight(buckets.trasversale);
             <ul class="audit-list">
               {portanti.map((article) => (
                 <li class="audit-item">
-                  <a href={`/blog/${(article.data.slug ?? article.slug).replace(/\.md$/, '')}`}>
-                    {article.data.title || article.slug}
+                  <a href={`/blog/${article.slug}`}>
+                    {article.titolo || article.slug}
                   </a>
                   <span class="audit-item-meta">
-                    {article.data.issue_number ? `Numero ${article.data.issue_number} • ` : ''}{' '}
-                    {article.data.date instanceof Date ? article.data.date.toISOString().slice(0, 10) : String(article.data.date)}
+                    {article.numero_rivista?.id_numero ? `Numero ${article.numero_rivista.id_numero} • ` : ''}{' '}
+                    {article.data_pubblicazione ? article.data_pubblicazione.slice(0, 10) : '?'}
                   </span>
                 </li>
               ))}
@@ -190,12 +187,12 @@ const trasversali = sortByDateThenWeight(buckets.trasversale);
             <ul class="audit-list">
               {strutturali.map((article) => (
                 <li class="audit-item">
-                  <a href={`/blog/${(article.data.slug ?? article.slug).replace(/\.md$/, '')}`}>
-                    {article.data.title || article.slug}
+                  <a href={`/blog/${article.slug}`}>
+                    {article.titolo || article.slug}
                   </a>
                   <span class="audit-item-meta">
-                    {article.data.issue_number ? `Numero ${article.data.issue_number} • ` : ''}{' '}
-                    {article.data.date instanceof Date ? article.data.date.toISOString().slice(0, 10) : String(article.data.date)}
+                    {article.numero_rivista?.id_numero ? `Numero ${article.numero_rivista.id_numero} • ` : ''}{' '}
+                    {article.data_pubblicazione ? article.data_pubblicazione.slice(0, 10) : '?'}
                   </span>
                 </li>
               ))}
@@ -213,12 +210,12 @@ const trasversali = sortByDateThenWeight(buckets.trasversale);
             <ul class="audit-list">
               {laterali.map((article) => (
                 <li class="audit-item">
-                  <a href={`/blog/${(article.data.slug ?? article.slug).replace(/\.md$/, '')}`}>
-                    {article.data.title || article.slug}
+                  <a href={`/blog/${article.slug}`}>
+                    {article.titolo || article.slug}
                   </a>
                   <span class="audit-item-meta">
-                    {article.data.issue_number ? `Numero ${article.data.issue_number} • ` : ''}{' '}
-                    {article.data.date instanceof Date ? article.data.date.toISOString().slice(0, 10) : String(article.data.date)}
+                    {article.numero_rivista?.id_numero ? `Numero ${article.numero_rivista.id_numero} • ` : ''}{' '}
+                    {article.data_pubblicazione ? article.data_pubblicazione.slice(0, 10) : '?'}
                   </span>
                 </li>
               ))}
@@ -236,12 +233,12 @@ const trasversali = sortByDateThenWeight(buckets.trasversale);
             <ul class="audit-list">
               {trasversali.map((article) => (
                 <li class="audit-item">
-                  <a href={`/blog/${(article.data.slug ?? article.slug).replace(/\.md$/, '')}`}>
-                    {article.data.title || article.slug}
+                  <a href={`/blog/${article.slug}`}>
+                    {article.titolo || article.slug}
                   </a>
                   <span class="audit-item-meta">
-                    {article.data.issue_number ? `Numero ${article.data.issue_number} • ` : ''}{' '}
-                    {article.data.date instanceof Date ? article.data.date.toISOString().slice(0, 10) : String(article.data.date)}
+                    {article.numero_rivista?.id_numero ? `Numero ${article.numero_rivista.id_numero} • ` : ''}{' '}
+                    {article.data_pubblicazione ? article.data_pubblicazione.slice(0, 10) : '?'}
                   </span>
                 </li>
               ))}

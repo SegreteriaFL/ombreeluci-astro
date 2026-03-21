@@ -1,30 +1,26 @@
 ---
-import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import IssueCard from '../../components/IssueCard.astro';
 import { ViewTransitions } from 'astro:transitions';
 import '../../styles/global.css';
+import { getAllNumeriRivista } from '../../lib/directus';
 
-// Carica i numeri dalla content collection e ordina per sort_order discendente (ultimo uscito primo, es. OEL-172)
-const rawNumeri = await getCollection('numeri');
-const numeriOrdinati = [...rawNumeri].sort((a, b) => {
-  const orderA = a.data.sort_order ?? 0;
-  const orderB = b.data.sort_order ?? 0;
-  return orderB - orderA;
-});
+// Carica i numeri da Directus e ordina per anno desc (più recente prima)
+const rawNumeri = await getAllNumeriRivista();
+const numeriOrdinati = [...rawNumeri].sort((a, b) =>
+  (b.anno_pubblicazione ?? 0) - (a.anno_pubblicazione ?? 0)
+);
 
-// Deriva anno da pubDate per filtro e card
-function annoFromNumero(entry: (typeof rawNumeri)[0]): number {
-  const pub = entry.data.pubDate;
-  if (!pub) return 0;
-  const d = typeof pub === 'string' ? new Date(pub) : pub;
-  return d.getFullYear();
+// Estrai numero progressivo da id_numero (es. "OEL-172" → 172)
+function numeroFromId(idNumero: string): number {
+  const m = idNumero.match(/(\d+)$/);
+  return m ? parseInt(m[1], 10) : 0;
 }
 
 // Estrai anni unici per il filtro (dal più recente)
-const anni = Array.from(new Set(numeriOrdinati.map((n) => annoFromNumero(n))))
-  .filter((y) => y != null && y > 0)
+const anni = Array.from(new Set(numeriOrdinati.map((n) => n.anno_pubblicazione ?? 0)))
+  .filter((y) => y > 0)
   .sort((a, b) => b - a);
 ---
 
@@ -238,27 +234,26 @@ const anni = Array.from(new Set(numeriOrdinati.map((n) => annoFromNumero(n))))
       </div>
 
       <div class="issues-grid" id="issues-grid">
-        {numeriOrdinati.map((entry) => {
-          const d = entry.data;
-          const anno = annoFromNumero(entry);
-          const tipoFilter = d.tipo === 'insieme' ? 'insieme' : 'ombreeluci';
-          const tipoRivista = d.tipo === 'insieme' ? 'insieme' : 'ombre_e_luci';
+        {numeriOrdinati.map((n) => {
+          const anno = n.anno_pubblicazione ?? 0;
+          const numero = numeroFromId(n.id_numero);
+          const tipoFilter = n.tipo === 'insieme' ? 'insieme' : 'ombreeluci';
+          const tipoRivista = n.tipo === 'insieme' ? 'insieme' : 'ombre_e_luci';
           return (
             <div
               class="issue-card-wrapper"
-              data-id={d.id ?? entry.slug}
+              data-id={n.id_numero}
               data-year={anno || ''}
               data-type={tipoFilter}
-              data-numero={d.numero ?? d.numero_progressivo ?? 0}
+              data-numero={numero}
             >
               <IssueCard
-                cover_url={d.copertina ?? d.copertina_url}
-                titolo_numero={d.title ?? d.titolo_numero ?? d.display_title ?? ''}
-                numero={d.numero ?? d.numero_progressivo ?? 0}
+                cover_url={n.copertina_url ?? undefined}
+                titolo_numero={n.display_title ?? ''}
+                numero={numero}
                 anno={anno}
-                periodo_label={d.periodo_label ?? d.data_pubblicazione}
                 tipo_rivista={tipoRivista}
-                id_numero={d.id ?? entry.slug}
+                id_numero={n.id_numero}
               />
             </div>
           );

@@ -3,26 +3,18 @@ import { ViewTransitions } from 'astro:transitions';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import '../../styles/global.css';
-import autoriStats from '../../data/autori_stats.json';
-import megacluster from '../../data/articoli_megacluster.json';
-
-const megaclusterData = megacluster as { autoriById?: Record<string, { foto_url?: string; bio_html?: string }> };
-const autoriById = megaclusterData.autoriById || {};
+import { getAllAutori, getImageUrl } from '../../lib/directus';
 
 function stripHtml(html: string): string {
   return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-// Merge foto e bio da megacluster (database_autori); ordinamento per count già nel JSON
-const autori = autoriStats.map((autore: { nome: string; slug: string; count_articoli: number; bio_breve: string; foto: string }) => {
-  const extra = autoriById[autore.slug];
-  const foto = extra?.foto_url || autore.foto;
-  let bio_breve = autore.bio_breve;
-  if (extra?.bio_html) {
-    const text = stripHtml(extra.bio_html);
-    bio_breve = text ? (text.slice(0, 120) + (text.length > 120 ? '…' : '')) : bio_breve;
-  }
-  return { ...autore, foto, bio_breve };
+const allAutori = await getAllAutori();
+const autori = allAutori.map((autore) => {
+  const foto = autore.foto?.id ? getImageUrl(autore.foto.id) : '';
+  const bioText = autore.bio_html ? stripHtml(autore.bio_html) : (autore.bio_breve ?? '');
+  const bio_breve = bioText ? (bioText.slice(0, 120) + (bioText.length > 120 ? '…' : '')) : '';
+  return { nome: autore.nome_completo, slug: autore.slug, foto, bio_breve, count_articoli: 0 };
 });
 ---
 

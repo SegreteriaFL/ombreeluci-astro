@@ -1,74 +1,45 @@
 ---
-import { getCollection } from 'astro:content';
 import { ViewTransitions } from 'astro:transitions';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
-import { getMegaclusterForArticle, getLabels, getRoleWeight, onlyItalianBlog } from '../../config/taxonomy.js';
-import megacluster from '../../data/articoli_megacluster.json';
+import { getMegaclusterForArticle, getLabels, getRoleWeight } from '../../config/taxonomy.js';
+import { getAllAutori, getAllArticoli, getImageUrl } from '../../lib/directus';
 
-const megaclusterData = megacluster as {
-  byId?: Record<string, { img_copertina_url?: string }>;
-  autoriById?: Record<string, { foto_url?: string; bio_html?: string }>;
-};
-const byId = megaclusterData.byId || {};
-const autoriById: Record<string, { foto_url?: string; bio_html?: string }> = megaclusterData.autoriById || {};
-
-// Genera tutti i percorsi statici per gli autori
-export async function getStaticPaths() {
-  const allArticles = onlyItalianBlog(await getCollection('blog'));
-  
-  // Estrai autori unici
-  const autoriMap = new Map<string, { nome: string; articoli: any[] }>();
-  
-  for (const article of allArticles) {
-    const author = article.data.author;
-    if (!author || author === 'Autore sconosciuto') continue;
-    
-    // Genera slug autore (normalizza nome)
-    const slug = author
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-|-$/g, '');
-    
-    if (!autoriMap.has(slug)) {
-      autoriMap.set(slug, { nome: author, articoli: [] });
-    }
-    
-    autoriMap.get(slug)!.articoli.push(article);
-  }
-  
-  return Array.from(autoriMap.entries()).map(([slug, data]) => ({
-    params: { slug },
-    props: {
-      nomeAutore: data.nome,
-      articoli: data.articoli.sort((a, b) => {
-        const timeA = a.data.date.getTime();
-        const timeB = b.data.date.getTime();
-        if (timeA !== timeB) {
-          return timeB - timeA;
-        }
-        const roleA = getMegaclusterForArticle(a.data.wp_id).ruolo_editoriale;
-        const roleB = getMegaclusterForArticle(b.data.wp_id).ruolo_editoriale;
-        const weightA = getRoleWeight(roleA);
-        const weightB = getRoleWeight(roleB);
-        return weightB - weightA;
-      }),
-    },
-  }));
+function toUrlSlug(name: string): string {
+  return name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
-const { nomeAutore, articoli } = Astro.props;
+export async function getStaticPaths() {
+  const [allAutori, allArticoli] = await Promise.all([getAllAutori(), getAllArticoli()]);
+
+  return allAutori.map((autore) => {
+    const urlSlug = toUrlSlug(autore.nome_completo);
+    const articoli = allArticoli
+      .filter((a) => (a.autore?.nome_completo || '') === autore.nome_completo)
+      .sort((a, b) => {
+        const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+        const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+        if (tA !== tB) return tB - tA;
+        const weightA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
+        const weightB = getRoleWeight(getMegaclusterForArticle(b.wp_id).ruolo_editoriale);
+        return weightB - weightA;
+      });
+    return {
+      params: { slug: urlSlug },
+      props: { autore, articoli },
+    };
+  });
+}
+
+const { autore, articoli } = Astro.props;
+const nomeAutore: string = autore.nome_completo;
 const slug = Astro.params.slug ?? '';
 
-// Lookup per slug URL (coincide con id_autore in database_autori / megacluster)
-const autoreData = slug ? autoriById[slug] : undefined;
-const authorImagePath = autoreData?.foto_url || `/assets/authors/${slug}.jpg`;
-const authorBioHtml = autoreData && typeof autoreData.bio_html === 'string' ? autoreData.bio_html.trim() || null : null;
-// Riconoscere HTML (tag come <i>, <b>, <p>, <a>, <em>, <br>) per titoli libri, corsivi, link
+const authorFotoId: string | null = autore.foto?.id ?? null;
+const authorImagePath = authorFotoId ? getImageUrl(authorFotoId) : `/assets/authors/${slug}.jpg`;
+const authorBioHtml: string | null = autore.bio_html?.trim() || null;
 const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
 ---
 
@@ -273,21 +244,19 @@ const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
         </div>
 
         <div class="articles-grid">
-          {articoli.map((article) => {
-            const articleSlug = article.data.slug ?? article.slug;
-            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
-            const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
-            const wpIdStr = String(article.data.wp_id ?? '');
-            const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+          {articoli.map((a) => {
+            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+            const { formal } = getLabels([], a);
+            const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
             return (
               <ArticleCard
-                title={article.data.title}
-                slug={articleSlug}
+                title={a.titolo}
+                slug={a.slug}
                 categoriaMenu={categoria_menu ?? undefined}
-                issue={article.data.issue_number}
+                issue={a.numero_rivista?.id_numero ?? null}
                 forma={formal}
-                author={article.data.author}
-                date={article.data.date}
+                author={a.autore?.nome_completo ?? nomeAutore}
+                date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
                 image={articleImage}
                 ruoloEditoriale={ruolo_editoriale ?? undefined}
               />
