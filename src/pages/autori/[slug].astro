@@ -7,11 +7,10 @@ import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels, getRoleWeight } from '../../config/taxonomy.js';
 import { getAllAutori, getAllArticoli, getImageUrl } from '../../lib/directus';
 
-function toUrlSlug(name: string): string {
-  return name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-}
-
 export async function getStaticPaths() {
+  function toUrlSlug(name: string): string {
+    return name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  }
   const [allAutori, allArticoli] = await Promise.all([getAllAutori(), getAllArticoli()]);
 
   return allAutori.map((autore) => {

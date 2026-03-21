@@ -12,7 +12,7 @@ function stripHtml(html: string): string {
 const allAutori = await getAllAutori();
 const autori = allAutori.map((autore) => {
   const foto = autore.foto?.id ? getImageUrl(autore.foto.id) : '';
-  const bioText = autore.bio_html ? stripHtml(autore.bio_html) : (autore.bio_breve ?? '');
+  const bioText = autore.bio_html ? stripHtml(autore.bio_html) : '';
   const bio_breve = bioText ? (bioText.slice(0, 120) + (bioText.length > 120 ? '…' : '')) : '';
   return { nome: autore.nome_completo, slug: autore.slug, foto, bio_breve, count_articoli: 0 };
 });

@@ -6,7 +6,7 @@ import IssueNavPill from '../../components/IssueNavPill.astro';
 import { ViewTransitions } from 'astro:transitions';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
-import { getAllNumeriRivista, getArticoliByNumero, getImageUrl } from '../../lib/directus';
+import { getAllNumeriRivista, getAllArticoli, getImageUrl } from '../../lib/directus';
 
 // Genera tutti i percorsi statici da Directus (ordinati per anno asc per prev/next)
 export async function getStaticPaths() {
@@ -14,6 +14,7 @@ export async function getStaticPaths() {
   const numeriOrdinati = [...rawNumeri].sort((a, b) =>
     (a.anno_pubblicazione ?? 0) - (b.anno_pubblicazione ?? 0)
   );
+  const allArticoli = await getAllArticoli();
 
   return numeriOrdinati.map((numero, index) => {
     const issueSlug = numero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-');
@@ -21,31 +22,31 @@ export async function getStaticPaths() {
     const nextNumero = index < numeriOrdinati.length - 1 ? numeriOrdinati[index + 1] : null;
     const prevSlug = prevNumero ? prevNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
     const nextSlug = nextNumero ? nextNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
+    const articoliNumero = allArticoli.filter(a => a.numero_rivista?.id === numero.id);
     return {
       params: { issue: issueSlug },
-      props: { numero, prevSlug, nextSlug },
+      props: { numero, prevSlug, nextSlug, articoliNumero },
     };
   });
 }
 
-const { numero, prevSlug, nextSlug } = Astro.props;
+const { numero, prevSlug, nextSlug, articoliNumero: rawArticoliNumero } = Astro.props;
 
-const allArticoli = await getArticoliByNumero(numero.id_numero);
-const articoliNumero = [...allArticoli].sort((a, b) => {
+const articoliNumero = [...rawArticoliNumero].sort((a, b) => {
   const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
   const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
   return tA - tB;
 });
 
 // Determina URL per sfogliare online e scaricare PDF
-const archiveViewUrl = numero.link_sfoglia || null;
-const pdfUrl = numero.link_pdf || null;
+const archiveViewUrl = numero.wp_url || null;
+const pdfUrl = numero.pdf_archive_url || null;
 
 // Determina testata
 const testata = numero.tipo === 'insieme' ? 'Insieme' : 'Ombre e Luci';
 
 // Descrizione/sommario
-const descrizione = numero.sommario || null;
+const descrizione = numero.descrizione || null;
 
 // Funzione per generare slug autore
 function generateAuthorSlug(name: string): string {
@@ -334,9 +335,9 @@ const articoliEn = articoliNumero.filter(a => a.lang === 'en');
       {/* Hero Section */}
       <section class="hero-section">
         <div class="hero-cover">
-          {numero.copertina_url ? (
+          {numero.copertina ? (
             <img
-              src={numero.copertina_url}
+              src={getImageUrl(numero.copertina)}
               alt={`Copertina ${testata} ${numero.id_numero}`}
               loading="eager"
             />

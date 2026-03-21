@@ -1,10 +1,22 @@
 import { defineConfig } from 'astro/config';
+import { loadEnv } from 'vite';
+
+const env = loadEnv(process.env.NODE_ENV ?? 'development', process.cwd(), '');
+const DIRECTUS_TOKEN = env.DIRECTUS_TOKEN ?? process.env.DIRECTUS_TOKEN ?? '';
+const DIRECTUS_URL = env.DIRECTUS_URL ?? process.env.DIRECTUS_URL ?? 'http://159.69.196.64:8055';
+
+// Necessario: Vite SSR legge import.meta.env da process.env a runtime, non da vite.define
+process.env.DIRECTUS_TOKEN = DIRECTUS_TOKEN;
+process.env.DIRECTUS_URL = DIRECTUS_URL;
+
+console.log('[config] DIRECTUS_URL:', DIRECTUS_URL);
+console.log('[config] DIRECTUS_TOKEN set:', DIRECTUS_TOKEN.length > 0);
 
 export default defineConfig({
   vite: {
     define: {
-      'import.meta.env.DIRECTUS_URL': JSON.stringify(process.env.DIRECTUS_URL ?? 'http://159.69.196.64:8055'),
-      'import.meta.env.DIRECTUS_TOKEN': JSON.stringify(process.env.DIRECTUS_TOKEN ?? ''),
+      'import.meta.env.DIRECTUS_URL': JSON.stringify(DIRECTUS_URL),
+      'import.meta.env.DIRECTUS_TOKEN': JSON.stringify(DIRECTUS_TOKEN),
     },
   },
   redirects: {

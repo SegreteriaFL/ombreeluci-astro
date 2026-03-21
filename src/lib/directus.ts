@@ -27,6 +27,8 @@ export interface NumeroRivistaRef {
   id: string;
   id_numero: string;
   display_title: string;
+  anno_pubblicazione: number | null;
+  pdf_archive_url: string | null;
 }
 
 export interface SerieRef {
@@ -91,7 +93,6 @@ export interface Autore {
   slug: string;
   nome_completo: string;
   bio_html: string | null;
-  bio_breve: string | null;
   foto: FileRef | null;
 }
 
@@ -101,10 +102,10 @@ export interface NumeroRivista {
   display_title: string;
   anno_pubblicazione: number | null;
   tipo: string | null;
-  copertina_url: string | null;
-  sommario: string | null;
-  link_sfoglia: string | null;
-  link_pdf: string | null;
+  descrizione: string | null;
+  pdf_archive_url: string | null;
+  wp_url: string | null;
+  copertina: string | null;
 }
 
 // ── HTTP helper ───────────────────────────────────────────────────────────────
@@ -130,33 +131,38 @@ async function directusFetch<T>(path: string): Promise<T | null> {
   }
 }
 
-// ── Campi list (senza corpo) ──────────────────────────────────────────────────
+// ── Campi list (completi, incluso corpo — per getStaticPaths senza chiamate per-articolo) ──
 
 const ARTICOLO_LIST_FIELDS = [
   'id', 'wp_id', 'slug', 'lang', 'titolo', 'sottotitolo', 'stato',
   'data_pubblicazione', 'cluster_id', 'umap_x', 'umap_y', 'umap_z',
   'seo_title', 'seo_description',
   'categoria_menu', 'ruolo_editoriale', 'forma', 'tema_label',
+  'corpo', 'has_comments', 'original_url',
   'autore.id', 'autore.slug', 'autore.nome_completo',
+  'autore.bio_html', 'autore.foto.id', 'autore.foto.filename_download',
   'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
+  'numero_rivista.anno_pubblicazione', 'numero_rivista.pdf_archive_url',
   'immagine_copertina.id', 'immagine_copertina.filename_download',
   'temi.temi_id.id', 'temi.temi_id.slug', 'temi.temi_id.nome',
   'tags.tags_id.id', 'tags.tags_id.slug', 'tags.tags_id.nome',
+  'serie.id', 'serie.slug', 'serie.nome',
+  'articolo_traduzione.id', 'articolo_traduzione.slug', 'articolo_traduzione.lang',
 ].join(',');
 
 // ── Funzioni pubbliche ────────────────────────────────────────────────────────
 
 /**
- * Tutti gli articoli pubblicati, senza corpo (per getStaticPaths).
+ * Tutti gli articoli pubblicati, campi completi incluso corpo (per getStaticPaths senza chiamate per-articolo).
  */
-export async function getAllArticoli(): Promise<ArticoloListItem[]> {
+export async function getAllArticoli(): Promise<ArticoloFull[]> {
   const params = new URLSearchParams({
     'filter[stato][_eq]': 'published',
     fields: ARTICOLO_LIST_FIELDS,
     limit: '-1',
     sort: 'data_pubblicazione',
   });
-  const data = await directusFetch<{ data: ArticoloListItem[] }>(
+  const data = await directusFetch<{ data: ArticoloFull[] }>(
     `/items/articoli?${params}`
   );
   if (!data) {
@@ -176,9 +182,9 @@ export async function getArticoloBySlug(slug: string): Promise<ArticoloFull | nu
     fields: [
       '*',
       'autore.id', 'autore.slug', 'autore.nome_completo',
-      'autore.bio_html', 'autore.bio_breve', 'autore.foto.id', 'autore.foto.filename_download',
+      'autore.bio_html', 'autore.foto.id', 'autore.foto.filename_download',
       'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
-      'numero_rivista.anno_pubblicazione', 'numero_rivista.link_pdf',
+      'numero_rivista.anno_pubblicazione',
       'serie.id', 'serie.slug', 'serie.nome',
       'immagine_copertina.id', 'immagine_copertina.filename_download',
       'temi.temi_id.id', 'temi.temi_id.slug', 'temi.temi_id.nome',
@@ -216,7 +222,7 @@ export async function getArticoloByWpId(wpId: number): Promise<ArticoloListItem 
  */
 export async function getAllAutori(): Promise<Autore[]> {
   const data = await directusFetch<{ data: Autore[] }>(
-    '/items/autori?fields=id,slug,nome_completo,bio_html,bio_breve,foto.id,foto.filename_download&limit=-1&sort=nome_completo'
+    '/items/autori?fields=id,slug,nome_completo,bio_html,foto.id,foto.filename_download&limit=-1&sort=nome_completo'
   );
   if (!data) return [];
   return data.data ?? [];
@@ -228,7 +234,7 @@ export async function getAllAutori(): Promise<Autore[]> {
 export async function getAutoreBySlug(slug: string): Promise<Autore | null> {
   const params = new URLSearchParams({
     'filter[slug][_eq]': slug,
-    fields: 'id,slug,nome_completo,bio_html,bio_breve,foto.id,foto.filename_download',
+    fields: 'id,slug,nome_completo,bio_html,foto.id,foto.filename_download',
     limit: '1',
   });
   const data = await directusFetch<{ data: Autore[] }>(`/items/autori?${params}`);
@@ -241,7 +247,7 @@ export async function getAutoreBySlug(slug: string): Promise<Autore | null> {
  */
 export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
   const data = await directusFetch<{ data: NumeroRivista[] }>(
-    '/items/numeri_rivista?fields=id,id_numero,display_title,anno_pubblicazione,tipo,copertina_url,sommario,link_sfoglia,link_pdf&limit=-1&sort=anno_pubblicazione'
+    '/items/numeri_rivista?fields=id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina&limit=-1&sort=anno_pubblicazione'
   );
   if (!data) return [];
   return data.data ?? [];
@@ -253,7 +259,7 @@ export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
 export async function getNumeroRivistaById(idNumero: string): Promise<NumeroRivista | null> {
   const params = new URLSearchParams({
     'filter[id_numero][_eq]': idNumero,
-    fields: 'id,id_numero,display_title,anno_pubblicazione,tipo,copertina_url,sommario,link_sfoglia,link_pdf',
+    fields: 'id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina',
     limit: '1',
   });
   const data = await directusFetch<{ data: NumeroRivista[] }>(

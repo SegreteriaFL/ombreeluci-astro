@@ -1,5 +1,5 @@
 ---
-import { getAllArticoli, getArticoloBySlug, getImageUrl } from '../../lib/directus';
+import { getAllArticoli, getImageUrl } from '../../lib/directus';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -18,29 +18,25 @@ const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
 export async function getStaticPaths() {
   const allArticoli = await getAllArticoli();
-  const pairs = allArticoli.reduce((acc: Record<string, { it?: string; en?: string }>, a) => {
+  const pairsCount = allArticoli.reduce((acc: Record<string, { it?: boolean; en?: boolean }>, a) => {
     const key = String(a.wp_id ?? '');
     if (!key) return acc;
     if (!acc[key]) acc[key] = {};
-    if (a.lang === 'en') acc[key].en = a.slug;
-    else acc[key].it = a.slug;
+    if (a.lang === 'en') acc[key].en = true;
+    else acc[key].it = true;
     return acc;
   }, {});
-  const pairsCount = Object.values(pairs).filter((p) => p.it && p.en).length;
-  console.log('[blog/[...slug].astro] getStaticPaths: articoli =', allArticoli.length, '| coppie IT+EN =', pairsCount);
+  const nCoppie = Object.values(pairsCount).filter((p) => p.it && p.en).length;
+  console.log('[blog/[...slug].astro] getStaticPaths: articoli =', allArticoli.length, '| coppie IT+EN =', nCoppie);
   return allArticoli.map((articolo) => ({
     params: { slug: articolo.slug },
-    props: { articoloMeta: articolo },
+    props: { articolo, allArticoli },
   }));
 }
 
-// ── Fetch articolo completo ────────────────────────────────────────────────────
+// ── Dati da props (nessuna chiamata Directus nel render) ───────────────────────
 
-const { articoloMeta } = Astro.props;
-const articolo = await getArticoloBySlug(articoloMeta.slug);
-if (!articolo) return Astro.redirect('/404');
-
-const allArticoli = await getAllArticoli();
+const { articolo, allArticoli } = Astro.props;
 
 // ── Helper functions ───────────────────────────────────────────────────────────
 
@@ -137,7 +133,7 @@ if (ruolo_editoriale === 'portante') {
 
 // ── PDF e copertina numero rivista ─────────────────────────────────────────────
 
-const pdfUrl: string | null = (articolo.numero_rivista as any)?.link_pdf ?? null;
+const pdfUrl: string | null = articolo.numero_rivista?.pdf_archive_url ?? null;
 const copeertinaUrl: string | null = null;
 const isTranslation = articolo.lang === 'en';
 
