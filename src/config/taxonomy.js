@@ -114,13 +114,13 @@ const TAG_TO_FORMAL = {
 };
 
 /**
- * Restituisce tipo formale e tema (Megacluster). Se wp_id è fornito e presente nel CSV (FINAL_V5),
- * formal viene da categoria_formale (forma) e thematic da categoria_menu/tema_label.
- * @param {string[]|string} wp_tags - Array di tag o stringa singola (fallback per formal se assente in CSV)
- * @param {number|string} [wp_id] - id_articolo WordPress per lookup tema e forma da Megacluster
+ * Restituisce tipo formale e tema. Legge forma e tema_label direttamente dall'oggetto articolo
+ * (campi migrati da _legacy_articoli_megacluster.json a Directus).
+ * @param {string[]|string} wp_tags - Array di tag o stringa singola (fallback per formal se forma assente)
+ * @param {{ forma?: string|null, tema_label?: string|null, categoria_menu?: string|null }|null} articolo
  * @returns {{ formal: string, thematic: string }}
  */
-export function getLabels(wp_tags, wp_id) {
+export function getLabels(wp_tags, articolo) {
   const tags = Array.isArray(wp_tags)
     ? wp_tags
     : wp_tags != null && typeof wp_tags === 'string'
@@ -128,9 +128,8 @@ export function getLabels(wp_tags, wp_id) {
       : [];
 
   let formal = FORMAL_FALLBACK;
-  const id = wp_id != null ? String(wp_id) : '';
-  if (id && MEGACLUSTER_BY_ID[id]?.forma) {
-    formal = MEGACLUSTER_BY_ID[id].forma;
+  if (articolo?.forma) {
+    formal = articolo.forma;
   } else {
     for (const tag of tags) {
       const n = normalize(tag);
@@ -141,10 +140,7 @@ export function getLabels(wp_tags, wp_id) {
     }
   }
 
-  let thematic = THEMATIC_FALLBACK;
-  if (id && MEGACLUSTER_BY_ID[id]) {
-    thematic = MEGACLUSTER_BY_ID[id].categoria_menu || MEGACLUSTER_BY_ID[id].tema_label || THEMATIC_FALLBACK;
-  }
+  const thematic = articolo?.categoria_menu || articolo?.tema_label || THEMATIC_FALLBACK;
 
   return { formal, thematic };
 }
@@ -197,44 +193,38 @@ export function getCategoryBySlug(slug) {
 }
 
 /**
- * Dato wp_id, restituisce tema_label, categoria_menu e ruolo_editoriale dal Megacluster (se presenti).
- * categoria_menu è la label da usare in UI (alias / short).
- * @param {number|string} wp_id
+ * Dato un articolo Directus, restituisce tema_label, categoria_menu e ruolo_editoriale.
+ * Legge i campi direttamente dall'oggetto articolo (migrati da _legacy_articoli_megacluster.json).
+ * @param {{ tema_label?: string|null, categoria_menu?: string|null, ruolo_editoriale?: string|null }|null} articolo
  * @returns {{ tema_label: string | null, categoria_menu: string | null, ruolo_editoriale: string | null }}
  */
-export function getMegaclusterForArticle(wp_id) {
-  const id = wp_id != null ? String(wp_id) : '';
-  const row = id ? MEGACLUSTER_BY_ID[id] : null;
+export function getMegaclusterForArticle(articolo) {
   return {
-    tema_label: row?.tema_label ?? null,
-    categoria_menu: row?.categoria_menu ?? row?.tema_label ?? null,
-    ruolo_editoriale: row?.ruolo_editoriale ?? null,
+    tema_label: articolo?.tema_label ?? null,
+    categoria_menu: articolo?.categoria_menu ?? articolo?.tema_label ?? null,
+    ruolo_editoriale: articolo?.ruolo_editoriale ?? null,
   };
 }
 
 /**
  * Label da mostrare per tema/categoria: priorità a categoria_menu (alias).
- * @param {number|string} wp_id
+ * @param {{ categoria_menu?: string|null, tema_label?: string|null }|null} articolo
  * @returns {string}
  */
-export function getThemeLabel(wp_id) {
-  const id = wp_id != null ? String(wp_id) : '';
-  const row = id ? MEGACLUSTER_BY_ID[id] : null;
-  if (!row) return THEMATIC_FALLBACK;
-  return row.categoria_menu || row.tema_label || THEMATIC_FALLBACK;
+export function getThemeLabel(articolo) {
+  if (!articolo) return THEMATIC_FALLBACK;
+  return articolo.categoria_menu || articolo.tema_label || THEMATIC_FALLBACK;
 }
 
 /**
  * Slug della categoria/tema per link (/categoria/[slug]).
- * @param {number|string} wp_id
+ * @param {{ tema_label?: string|null }|null} articolo
  * @returns {string | null}
  */
-export function getCategorySlugForArticle(wp_id) {
-  const id = wp_id != null ? String(wp_id) : '';
-  const row = id ? MEGACLUSTER_BY_ID[id] : null;
-  if (!row?.tema_label) return null;
-  const slug = Object.keys(SLUG_TO_TEMA).find((s) => SLUG_TO_TEMA[s] === row.tema_label);
-  return slug ?? slugifyLabel(row.tema_label);
+export function getCategorySlugForArticle(articolo) {
+  if (!articolo?.tema_label) return null;
+  const slug = Object.keys(SLUG_TO_TEMA).find((s) => SLUG_TO_TEMA[s] === articolo.tema_label);
+  return slug ?? slugifyLabel(articolo.tema_label);
 }
 
 /**

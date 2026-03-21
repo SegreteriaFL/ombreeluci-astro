@@ -68,14 +68,14 @@ const sortedArticles = [...allArticles].sort((a, b) => {
   const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
   const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
   if (tA !== tB) return tB - tA;
-  const weightA = getRoleWeight(getMegaclusterForArticle(a.wp_id).ruolo_editoriale);
+  const weightA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
   const weightB = getRoleWeight(getMegaclusterForArticle(b.wp_id).ruolo_editoriale);
   return weightB - weightA;
 });
 
 function getArticleMeta(a: ArticoloItem) {
-  const { categoria_menu, tema_label, ruolo_editoriale } = getMegaclusterForArticle(a.wp_id);
-  const { formal } = getLabels([], a.wp_id);
+  const { categoria_menu, tema_label, ruolo_editoriale } = getMegaclusterForArticle(a);
+  const { formal } = getLabels([], a);
   const image = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
   const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
   const sommario = a.sottotitolo?.trim() || undefined;
@@ -95,7 +95,7 @@ function getArticleMeta(a: ArticoloItem) {
 }
 
 // Featured: ultimo editoriale o primo articolo
-const editoriali = sortedArticles.filter((a) => getLabels([], a.wp_id).formal === 'Editoriale');
+const editoriali = sortedArticles.filter((a) => getLabels([], a).formal === 'Editoriale');
 const featuredArticle = editoriali.length > 0 ? editoriali[0] : sortedArticles[0];
 const featuredMeta = featuredArticle ? getArticleMeta(featuredArticle) : null;
 
@@ -128,19 +128,19 @@ const HOME_THEMES: { slug: string; sectionTitle: string; description: string }[]
 ];
 
 function articlesForTheme(temaLabel: string) {
-  const byTema = sortedArticles.filter((a) => getMegaclusterForArticle(a.wp_id).tema_label === temaLabel);
+  const byTema = sortedArticles.filter((a) => getMegaclusterForArticle(a).tema_label === temaLabel);
   return byTema.slice(0, 3).map((a) => getArticleMeta(a));
 }
 
 // Testimonianze: ultime 3
 const testimonianze = sortedArticles
-  .filter((a) => getLabels([], a.wp_id).formal === 'Testimonianza')
+  .filter((a) => getLabels([], a).formal === 'Testimonianza')
   .slice(0, 3)
   .map((a) => getArticleMeta(a));
 
 // Recensioni: ultime 5
 const recensioni = sortedArticles
-  .filter((a) => getLabels([], a.wp_id).formal === 'Recensione')
+  .filter((a) => getLabels([], a).formal === 'Recensione')
   .slice(0, 5)
   .map((a) => getArticleMeta(a));
 

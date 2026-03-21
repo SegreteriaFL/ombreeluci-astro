@@ -70,6 +70,10 @@ export interface ArticoloListItem {
   umap_z: number | null;
   seo_title: string | null;
   seo_description: string | null;
+  categoria_menu: string | null;
+  ruolo_editoriale: string | null;
+  forma: string | null;
+  tema_label: string | null;
   temi: Array<{ temi_id: TemaRef }>;
   tags: Array<{ tags_id: TagRef }>;
 }
@@ -132,6 +136,7 @@ const ARTICOLO_LIST_FIELDS = [
   'id', 'wp_id', 'slug', 'lang', 'titolo', 'sottotitolo', 'stato',
   'data_pubblicazione', 'cluster_id', 'umap_x', 'umap_y', 'umap_z',
   'seo_title', 'seo_description',
+  'categoria_menu', 'ruolo_editoriale', 'forma', 'tema_label',
   'autore.id', 'autore.slug', 'autore.nome_completo',
   'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
   'immagine_copertina.id', 'immagine_copertina.filename_download',

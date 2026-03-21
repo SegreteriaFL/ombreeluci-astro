@@ -110,15 +110,15 @@ const metaDescription = (explicitSubtitle || articolo.seo_description)
 
 // ── Categoria, etichette, ruolo editoriale (taxonomy.js via megacluster) ───────
 
-const categoryDisplay = getThemeLabel(articolo.wp_id);
-const categorySlug = getCategorySlugForArticle(articolo.wp_id);
+const categoryDisplay = getThemeLabel(articolo);
+const categorySlug = getCategorySlugForArticle(articolo);
 const categoryLink = categorySlug ? `/categoria/${categorySlug}` : null;
-const currentLabels = getLabels([], articolo.wp_id);
+const currentLabels = getLabels([], articolo);
 const formaDisplay = currentLabels.formal !== 'Articolo' ? currentLabels.formal : null;
 const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
 const showPubblicatoOnline = !hasIssue;
 
-const { ruolo_editoriale } = getMegaclusterForArticle(articolo.wp_id);
+const { ruolo_editoriale } = getMegaclusterForArticle(articolo);
 let roleLabel: string | null = null;
 let roleClassName = '';
 if (ruolo_editoriale === 'portante') {
@@ -174,7 +174,7 @@ for (const a of allArticoli) {
   const imgUrl = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
   const lang = a.lang;
   const isItalian = lang !== 'en';
-  const category = getCategorySlugForArticle(a.wp_id) ?? null;
+  const category = getCategorySlugForArticle(a) ?? null;
   inContentRelatedMap[a.slug] = {
     title: a.titolo,
     image: imgUrl,
@@ -193,16 +193,16 @@ const relatedArticles = relatedCategorySlug
   ? allArticoli
       .filter((a) => {
         if (a.id === articolo.id) return false;
-        const aCategorySlug = getCategorySlugForArticle(a.wp_id);
+        const aCategorySlug = getCategorySlugForArticle(a);
         const isSameLang = isCurrentEn ? a.lang === 'en' : a.lang !== 'en';
         return isSameLang && aCategorySlug === relatedCategorySlug;
       })
       .slice(0, 3)
       .map((a) => {
         const imgUrl = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
-        const labels = getLabels([], a.wp_id);
-        const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a.wp_id);
-        const categoriaMenu = getThemeLabel(a.wp_id) ?? null;
+        const labels = getLabels([], a);
+        const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a);
+        const categoriaMenu = getThemeLabel(a) ?? null;
         return {
           title: a.titolo,
           author: a.autore?.nome_completo ?? 'Autore sconosciuto',

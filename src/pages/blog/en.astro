@@ -70,8 +70,8 @@ const englishArticles = allArticles
         <div class="en-grid">
           {englishArticles.map((a) => {
             const image = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
-            const { categoria_menu } = getMegaclusterForArticle(a.wp_id);
-            const { formal } = getLabels([], a.wp_id);
+            const { categoria_menu } = getMegaclusterForArticle(a);
+            const { formal } = getLabels([], a);
             return (
               <ArticleCard
                 title={a.titolo}

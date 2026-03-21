@@ -53,8 +53,8 @@ const { nomeAutore, titoloDiario, fotoUrl, descrizioneDiario, articoli } = Astro
           {articoli.length > 0 ? (
             <div class="diario-articles-grid">
               {articoli.map((a: any) => {
-                const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a.wp_id);
-                const { formal } = getLabels([], a.wp_id);
+                const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+                const { formal } = getLabels([], a);
                 const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
                 const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
                 return (

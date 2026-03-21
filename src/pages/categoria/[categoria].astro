@@ -15,13 +15,12 @@ export async function getStaticPaths() {
     const label = cat ? cat.label : categoria;
     const displayLabel = cat?.displayLabel ?? cat?.label ?? categoria;
     const articoli = allArticles.filter((a) => {
-      const wpId = a.wp_id;
       if (cat?.type === 'thematic') {
-        const { tema_label } = getMegaclusterForArticle(wpId);
+        const { tema_label } = getMegaclusterForArticle(a);
         return tema_label === label;
       }
       if (cat?.type === 'formal') {
-        const { formal } = getLabels([], wpId);
+        const { formal } = getLabels([], a);
         return formal === label;
       }
       return false;
@@ -29,8 +28,8 @@ export async function getStaticPaths() {
       const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
       const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
       if (tA !== tB) return tB - tA;
-      const weightA = getRoleWeight(getMegaclusterForArticle(a.wp_id).ruolo_editoriale);
-      const weightB = getRoleWeight(getMegaclusterForArticle(b.wp_id).ruolo_editoriale);
+      const weightA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
+      const weightB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
       return weightB - weightA;
     });
     return {
@@ -96,8 +95,8 @@ const { articoli, categoryLabel } = Astro.props;
         </header>
         <div class="articles-grid">
           {articoli.map((a) => {
-            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a.wp_id);
-            const { formal } = getLabels([], a.wp_id);
+            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+            const { formal } = getLabels([], a);
             const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
             const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
             return (

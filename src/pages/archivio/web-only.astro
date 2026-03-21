@@ -137,8 +137,8 @@ const articoliWebOnly = allArticles
           <div class="articles-grid">
             {articoliWebOnly.map((a) => {
               const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
-              const { categoria_menu } = getMegaclusterForArticle(a.wp_id);
-              const { formal } = getLabels([], a.wp_id);
+              const { categoria_menu } = getMegaclusterForArticle(a);
+              const { formal } = getLabels([], a);
               const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
               return (
                 <ArticleCard

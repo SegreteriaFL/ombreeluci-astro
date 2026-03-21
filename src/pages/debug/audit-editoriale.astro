@@ -16,7 +16,7 @@ const buckets: Record<string, Art[]> = {
 };
 
 for (const article of allArticlesRaw) {
-  const { ruolo_editoriale } = getMegaclusterForArticle(article.wp_id);
+  const { ruolo_editoriale } = getMegaclusterForArticle(article);
   const role = (ruolo_editoriale || '').toLowerCase();
   if (role && buckets[role]) {
     buckets[role].push(article);
@@ -28,7 +28,7 @@ function sortByDateThenWeight(list: Art[]) {
     const timeA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
     const timeB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
     if (timeA !== timeB) return timeB - timeA;
-    const weightA = getRoleWeight(getMegaclusterForArticle(a.wp_id).ruolo_editoriale);
+    const weightA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
     const weightB = getRoleWeight(getMegaclusterForArticle(b.wp_id).ruolo_editoriale);
     return weightB - weightA;
   });

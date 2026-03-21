@@ -22,7 +22,7 @@ export async function getStaticPaths() {
         const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
         const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
         if (tA !== tB) return tB - tA;
-        const weightA = getRoleWeight(getMegaclusterForArticle(a.wp_id).ruolo_editoriale);
+        const weightA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
         const weightB = getRoleWeight(getMegaclusterForArticle(b.wp_id).ruolo_editoriale);
         return weightB - weightA;
       });
@@ -245,8 +245,8 @@ const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
 
         <div class="articles-grid">
           {articoli.map((a) => {
-            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a.wp_id);
-            const { formal } = getLabels([], a.wp_id);
+            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+            const { formal } = getLabels([], a);
             const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
             return (
               <ArticleCard
