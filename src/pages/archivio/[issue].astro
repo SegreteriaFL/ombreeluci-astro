@@ -6,7 +6,7 @@ import IssueNavPill from '../../components/IssueNavPill.astro';
 import { ViewTransitions } from 'astro:transitions';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
-import { getAllNumeriRivista, getAllArticoli, getImageUrl, getNumeroImageUrl } from '../../lib/directus';
+import { getAllNumeriRivista, getAllArticoli, getArticoloCopertinaSrc, getNumeroImageUrl } from '../../lib/directus';
 
 // Genera tutti i percorsi statici da Directus (ordinati per anno asc per prev/next)
 export async function getStaticPaths() {
@@ -428,7 +428,7 @@ const articoliEn = articoliNumero.filter(a => a.lang === 'en');
                 const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
                 const { categoria_menu } = getMegaclusterForArticle(a);
                 const { formal } = getLabels([], a);
-                const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+                const articleImage = getArticoloCopertinaSrc(a);
                 return (
                   <ArticleCard
                     title={a.titolo}
@@ -452,7 +452,7 @@ const articoliEn = articoliNumero.filter(a => a.lang === 'en');
                     const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
                     const { categoria_menu } = getMegaclusterForArticle(a);
                     const { formal } = getLabels([], a);
-                    const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+                    const articleImage = getArticoloCopertinaSrc(a);
                     return (
                       <ArticleCard
                         title={a.titolo}

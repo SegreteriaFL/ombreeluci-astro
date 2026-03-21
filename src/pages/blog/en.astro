@@ -10,7 +10,7 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { t } from '../../utils/i18n';
 import '../../styles/global.css';
-import { getAllArticoli, getImageUrl } from '../../lib/directus';
+import { getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
 
 const allArticles = await getAllArticoli();
 const englishArticles = allArticles
@@ -69,7 +69,7 @@ const englishArticles = allArticles
         <p class="en-intro">Articles from Ombre e Luci available in English.</p>
         <div class="en-grid">
           {englishArticles.map((a) => {
-            const image = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+            const image = getArticoloCopertinaSrc(a);
             const { categoria_menu } = getMegaclusterForArticle(a);
             const { formal } = getLabels([], a);
             return (

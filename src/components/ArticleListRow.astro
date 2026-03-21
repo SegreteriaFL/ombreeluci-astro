@@ -1,5 +1,8 @@
 ---
+import { COPERTINA_IMG_ONERROR, PLACEHOLDER_COPERTINA } from '../lib/directus';
+
 const { title, author, slug, image, category, date } = Astro.props;
+const thumbSrc = image || PLACEHOLDER_COPERTINA;
 function authorSlug(name: string) {
   return String(name).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
@@ -9,11 +12,9 @@ const formattedDate = date ? new Intl.DateTimeFormat('it-IT', { year: 'numeric',
 
 <article class="article-list-row">
   <a href={`/blog/${slug}`} class="article-list-row-link">
-    {image ? (
-      <div class="article-list-row-thumb">
-        <img src={image} alt="" loading="lazy" />
-      </div>
-    ) : null}
+    <div class="article-list-row-thumb">
+      <img src={thumbSrc} alt="" loading="lazy" onerror={COPERTINA_IMG_ONERROR} />
+    </div>
     <div class="article-list-row-body">
       {category ? <p class="article-list-row-cat">{category}</p> : null}
       <h3 class="article-list-row-title">{title}</h3>

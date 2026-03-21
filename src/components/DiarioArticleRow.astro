@@ -2,10 +2,10 @@
 /**
  * Riga articolo per il feed della pagina Diario singolo: senza bordi, titolo in serif, molto whitespace.
  */
-import placeholderImage from '../assets/placeholder1.webp';
+import { COPERTINA_IMG_ONERROR, PLACEHOLDER_COPERTINA } from '../lib/directus';
 
 const { title, slug, image, date } = Astro.props;
-const imageSrc = image || placeholderImage.src;
+const imageSrc = image || PLACEHOLDER_COPERTINA;
 const formattedDate = new Intl.DateTimeFormat('it-IT', {
   year: 'numeric',
   month: 'long',
@@ -16,7 +16,7 @@ const formattedDate = new Intl.DateTimeFormat('it-IT', {
 <article class="diario-article-row">
   <a href={`/blog/${slug}`} class="diario-article-row-link">
     <div class="diario-article-row-image">
-      <img src={imageSrc} alt={title} loading="lazy" />
+      <img src={imageSrc} alt={title} loading="lazy" onerror={COPERTINA_IMG_ONERROR} />
     </div>
     <div class="diario-article-row-content">
       <h3 class="diario-article-row-title">{title}</h3>

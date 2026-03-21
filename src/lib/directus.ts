@@ -20,6 +20,20 @@ export function getNumeroImageUrl(wpId: number): string {
   return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/numeri/${wpId}.jpg`;
 }
 
+/** Copertina articolo assente o non caricabile: asset statico in `public/`. */
+export const PLACEHOLDER_COPERTINA = '/images/placeholder-copertina.svg';
+
+export function getArticoloCopertinaSrc(articolo: {
+  immagine_copertina?: { id: string } | null;
+}): string {
+  if (!articolo?.immagine_copertina?.id) return PLACEHOLDER_COPERTINA;
+  return getImageUrl(articolo.immagine_copertina.id);
+}
+
+/** Handler `onerror` per `<img>` copertina: fallback se l’URL R2 non risponde. */
+export const COPERTINA_IMG_ONERROR =
+  "this.onerror=null;this.src='/images/placeholder-copertina.svg'";
+
 // ── Tipi ──────────────────────────────────────────────────────────────────────
 
 export interface AutoreRef {

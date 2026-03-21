@@ -1,5 +1,5 @@
 ---
-import { getAllArticoli, getAutoreImageUrl, getImageUrl } from '../../lib/directus';
+import { getAllArticoli, getArticoloCopertinaSrc, getAutoreImageUrl, COPERTINA_IMG_ONERROR } from '../../lib/directus';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -91,9 +91,7 @@ const issueLink = issueSlug ? `/archivio/${issueSlug}` : null;
 
 // ── Immagine copertina ─────────────────────────────────────────────────────────
 
-const articleImage = articolo.immagine_copertina?.id
-  ? getImageUrl(articolo.immagine_copertina.id)
-  : '/placeholder1.webp';
+const articleImage = getArticoloCopertinaSrc(articolo);
 
 // ── Sottotitolo e SEO ──────────────────────────────────────────────────────────
 
@@ -167,7 +165,7 @@ const inContentRelatedMap: Record<string, {
 }> = {};
 
 for (const a of allArticoli) {
-  const imgUrl = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+  const imgUrl = getArticoloCopertinaSrc(a);
   const lang = a.lang;
   const isItalian = lang !== 'en';
   const category = getCategorySlugForArticle(a) ?? null;
@@ -195,7 +193,7 @@ const relatedArticles = relatedCategorySlug
       })
       .slice(0, 3)
       .map((a) => {
-        const imgUrl = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+        const imgUrl = getArticoloCopertinaSrc(a);
         const labels = getLabels([], a);
         const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a);
         const categoriaMenu = getThemeLabel(a) ?? null;
@@ -230,7 +228,7 @@ const relatedArticles = relatedCategorySlug
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={articleTitle} />
     <meta name="twitter:description" content={metaDescription} />
-    <meta name="twitter:image" content={typeof articleImage === 'string' ? articleImage : articleImage.src} />
+    <meta name="twitter:image" content={articleImage} />
     <ViewTransitions />
     <style>
       /* Reading Progress Bar */
@@ -1227,6 +1225,7 @@ const relatedArticles = relatedCategorySlug
             alt={articleTitle}
             class="article-image"
             loading="lazy"
+            onerror={COPERTINA_IMG_ONERROR}
           />
           {heroCaption && (
             <div class="article-image-caption">
@@ -1509,7 +1508,7 @@ Slug: {articolo.slug}
           var safeExcerpt = (meta.excerpt || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
           var article = document.createElement('article');
           article.className = 'incontent-related-card';
-          article.innerHTML = '<a href="' + hrefFinal + '" class="incontent-related-link"><span class="incontent-related-label">' + readAlsoLabel + '</span><div class="incontent-related-image-wrapper"><img src="' + meta.image + '" alt="' + safeTitle + '" loading="lazy" /></div><div class="incontent-related-content"><h4 class="incontent-related-title">' + safeTitle + '</h4>' + (safeExcerpt ? '<p class="incontent-related-excerpt">' + safeExcerpt + '</p>' : '') + '</div></a>';
+          article.innerHTML = '<a href="' + hrefFinal + '" class="incontent-related-link"><span class="incontent-related-label">' + readAlsoLabel + '</span><div class="incontent-related-image-wrapper"><img src="' + meta.image + '" alt="' + safeTitle + '" loading="lazy" onerror="this.onerror=null;this.src=\'/images/placeholder-copertina.svg\'" /></div><div class="incontent-related-content"><h4 class="incontent-related-title">' + safeTitle + '</h4>' + (safeExcerpt ? '<p class="incontent-related-excerpt">' + safeExcerpt + '</p>' : '') + '</div></a>';
           return article;
         }
         function removeOldRelatedSections() {

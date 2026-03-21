@@ -5,7 +5,7 @@ import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
 import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
-import { getAllArticoli, getImageUrl } from '../../lib/directus';
+import { getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
 
 export async function getStaticPaths() {
   const allArticles = (await getAllArticoli()).filter((a) => a.lang !== 'en');
@@ -98,7 +98,7 @@ const { articoli, categoryLabel } = Astro.props;
             const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
             const { formal } = getLabels([], a);
             const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
-            const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+            const articleImage = getArticoloCopertinaSrc(a);
             return (
               <ArticleCard
                 title={a.titolo}

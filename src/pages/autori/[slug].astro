@@ -5,7 +5,7 @@ import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels, getRoleWeight } from '../../config/taxonomy.js';
-import { getAllAutori, getAllArticoli, getAutoreImageUrl, getImageUrl } from '../../lib/directus';
+import { getAllAutori, getAllArticoli, getArticoloCopertinaSrc, getAutoreImageUrl } from '../../lib/directus';
 
 export async function getStaticPaths() {
   function toUrlSlug(name: string): string {
@@ -246,7 +246,7 @@ const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
           {articoli.map((a) => {
             const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
             const { formal } = getLabels([], a);
-            const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+            const articleImage = getArticoloCopertinaSrc(a);
             return (
               <ArticleCard
                 title={a.titolo}

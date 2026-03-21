@@ -15,7 +15,14 @@ import { getMegaclusterForArticle, getLabels, getCategoryBySlug, getRoleWeight }
 import { DIARISTI } from '../data/diari.js';
 import numeriData from '../data/numeri_consolidati.json';
 import '../styles/global.css';
-import { getAllArticoli, getAllAutori, getAutoreImageUrl, getImageUrl } from '../lib/directus';
+import {
+  getAllArticoli,
+  getAllAutori,
+  getArticoloCopertinaSrc,
+  getAutoreImageUrl,
+  COPERTINA_IMG_ONERROR,
+  PLACEHOLDER_COPERTINA,
+} from '../lib/directus';
 
 type NumeroRecord = {
   id_numero: string;
@@ -76,7 +83,7 @@ const sortedArticles = [...allArticles].sort((a, b) => {
 function getArticleMeta(a: ArticoloItem) {
   const { categoria_menu, tema_label, ruolo_editoriale } = getMegaclusterForArticle(a);
   const { formal } = getLabels([], a);
-  const image = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+  const image = getArticoloCopertinaSrc(a);
   const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
   const sommario = a.sottotitolo?.trim() || undefined;
   return {
@@ -787,11 +794,12 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
             {featuredMeta ? (
               <a href={`/blog/${featuredMeta.slug}`}>
                 <img
-                  src={featuredMeta.image || placeholderImage.src}
+                  src={featuredMeta.image || PLACEHOLDER_COPERTINA}
                   alt=""
                   loading="eager"
                   width="800"
                   height="500"
+                  onerror={COPERTINA_IMG_ONERROR}
                 />
                 <div class="hero-featured-overlay">
                   <p class="hero-featured-badge">
@@ -821,11 +829,12 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
                   <div class="hero-latest-first">
                     <a href={`/blog/${firstMeta.slug}`}>
                       <div class="hero-latest-first-img">
-                        {firstMeta.image ? (
-                          <img src={firstMeta.image} alt="" loading="lazy" />
-                        ) : (
-                          <div style="width:100%;height:100%;background:var(--border-color);" />
-                        )}
+                        <img
+                          src={firstMeta.image || PLACEHOLDER_COPERTINA}
+                          alt=""
+                          loading="lazy"
+                          onerror={COPERTINA_IMG_ONERROR}
+                        />
                       </div>
                       <p class="hero-latest-first-cat">
                         {getRoleLabel(firstMeta) && (
@@ -845,11 +854,12 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
                       <div class="hero-latest-item">
                         <a href={`/blog/${meta.slug}`}>
                           <div class="hero-latest-thumb">
-                            {meta.image ? (
-                              <img src={meta.image} alt="" loading="lazy" />
-                            ) : (
-                              <div style="width:100%;height:100%;background:var(--border-color);" />
-                            )}
+                            <img
+                              src={meta.image || PLACEHOLDER_COPERTINA}
+                              alt=""
+                              loading="lazy"
+                              onerror={COPERTINA_IMG_ONERROR}
+                            />
                           </div>
                           <div class="hero-latest-item-body">
                             <p class="hero-latest-cat">
@@ -907,11 +917,12 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
             {testimonianze[0] && (
               <a href={`/blog/${testimonianze[0].slug}`} class="testimonianze-card">
                 <div class="testimonianze-card-img-wrap">
-                  {testimonianze[0].image ? (
-                    <img src={testimonianze[0].image} alt="" loading="lazy" />
-                  ) : (
-                    <div style="width:100%;height:100%;background:var(--border-color);" />
-                  )}
+                  <img
+                    src={testimonianze[0].image || PLACEHOLDER_COPERTINA}
+                    alt=""
+                    loading="lazy"
+                    onerror={COPERTINA_IMG_ONERROR}
+                  />
                 </div>
                 <div class="testimonianze-card-body">
                   <p class="testimonianze-card-cat">
@@ -948,11 +959,12 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
             {testimonianze[2] && (
               <a href={`/blog/${testimonianze[2].slug}`} class="testimonianze-card testimonianze-card--featured">
                 <div class="testimonianze-card-img-wrap">
-                  {testimonianze[2].image ? (
-                    <img src={testimonianze[2].image} alt="" loading="lazy" />
-                  ) : (
-                    <div style="width:100%;height:100%;background:var(--border-color);" />
-                  )}
+                  <img
+                    src={testimonianze[2].image || PLACEHOLDER_COPERTINA}
+                    alt=""
+                    loading="lazy"
+                    onerror={COPERTINA_IMG_ONERROR}
+                  />
                 </div>
                 <div class="testimonianze-card-body">
                   <p class="testimonianze-card-cat">
@@ -1072,11 +1084,12 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
               {recensioni.map((r) => (
                 <a href={`/blog/${r.slug}`} class="recensioni-card">
                   <div class="recensioni-card-img">
-                    {r.image ? (
-                      <img src={r.image} alt="" loading="lazy" />
-                    ) : (
-                      <div style="width:100%;height:100%;background:var(--border-color);" />
-                    )}
+                    <img
+                      src={r.image || PLACEHOLDER_COPERTINA}
+                      alt=""
+                      loading="lazy"
+                      onerror={COPERTINA_IMG_ONERROR}
+                    />
                   </div>
                   <div class="recensioni-card-body">
                     <p class="recensioni-card-cat">

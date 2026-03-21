@@ -1,11 +1,11 @@
 ---
 // ArticleCard.astro – struttura: contenitore, link (solo immagine+badge+titolo), riga autore fuori dal link
-import placeholderImage from '../assets/placeholder1.webp';
+import { COPERTINA_IMG_ONERROR, PLACEHOLDER_COPERTINA } from '../lib/directus';
 
 const { title, author, date, issue, slug, image, categoriaMenu, forma, ruoloEditoriale } = Astro.props;
 const hasIssue = issue != null && String(issue).trim() !== '';
 const displayIssue = hasIssue ? issue : "Pubblicato online";
-const imageSrc = image || placeholderImage.src;
+const imageSrc = image || PLACEHOLDER_COPERTINA;
 // Badge: [Numero] • [Forma (se != Articolo)] / [categoria_menu]
 const formalPart = forma && forma !== 'Articolo' ? `${forma} / ` : '';
 const badgeText = hasIssue
@@ -55,7 +55,7 @@ const authorLinkSlug = authorSlug(author);
 <div class="article-card">
   <a href={`/blog/${slug}`} class="article-link">
     <div class="article-image-wrap">
-      <img src={imageSrc} alt={title} loading="lazy" />
+      <img src={imageSrc} alt={title} loading="lazy" onerror={COPERTINA_IMG_ONERROR} />
     </div>
     <div class="article-meta">
       <p class={badgeText === 'Pubblicato online' ? 'article-badge article-badge-muted' : 'article-badge'}>

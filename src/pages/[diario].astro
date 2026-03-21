@@ -5,7 +5,7 @@
  */
 import DiarioLayout from '../layouts/DiarioLayout.astro';
 import { DIARISTI, getDiaristaByDiarioSlug } from '../data/diari.js';
-import { getAllArticoli, getAllAutori, getAutoreImageUrl, getImageUrl } from '../lib/directus';
+import { getAllArticoli, getAllAutori, getAutoreImageUrl } from '../lib/directus';
 
 export async function getStaticPaths() {
   const allArticoli = await getAllArticoli();
