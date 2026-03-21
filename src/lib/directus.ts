@@ -16,6 +16,14 @@ export function getAutoreImageUrl(fileId: string): string {
   return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/autori/${fileId}`;
 }
 
+export function getNumeroImageUrl(wpId: number): string {
+  return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/numeri/${wpId}.jpg`;
+}
+
+export function getAutoreImageUrl(fileId: string): string {
+  return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/autori/${fileId}`;
+}
+
 // ── Tipi ──────────────────────────────────────────────────────────────────────
 
 export interface AutoreRef {
@@ -101,6 +109,7 @@ export interface Autore {
 
 export interface NumeroRivista {
   id: string;
+  wp_id: number | null;
   id_numero: string;
   display_title: string;
   anno_pubblicazione: number | null;
@@ -282,7 +291,7 @@ export async function getAutoreBySlug(slug: string): Promise<Autore | null> {
  */
 export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
   const data = await directusFetch<{ data: NumeroRivista[] }>(
-    '/items/numeri_rivista?fields=id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina&limit=-1&sort=anno_pubblicazione'
+    '/items/numeri_rivista?fields=id,wp_id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina&limit=-1&sort=anno_pubblicazione'
   );
   if (!data) return [];
   return data.data ?? [];
@@ -294,7 +303,7 @@ export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
 export async function getNumeroRivistaById(idNumero: string): Promise<NumeroRivista | null> {
   const params = new URLSearchParams({
     'filter[id_numero][_eq]': idNumero,
-    fields: 'id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina',
+    fields: 'id,wp_id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina',
     limit: '1',
   });
   const data = await directusFetch<{ data: NumeroRivista[] }>(
