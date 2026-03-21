@@ -20,10 +20,6 @@ export function getNumeroImageUrl(wpId: number): string {
   return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/numeri/${wpId}.jpg`;
 }
 
-export function getAutoreImageUrl(fileId: string): string {
-  return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/autori/${fileId}`;
-}
-
 // ── Tipi ──────────────────────────────────────────────────────────────────────
 
 export interface AutoreRef {
