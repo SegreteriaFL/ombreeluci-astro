@@ -275,10 +275,11 @@ Struttura delle chiamate a build time:
 ```
 Cloudflare Pages build
   └── npm run build (astro build)
-       ├── GET /items/articoli?filter[stato][_eq]=published&limit=-1&fields=...
+       ├── GET /items/articoli?filter[stato][_eq]=published&limit=-1&fields=... (expand M2M tag/temi se previsto)
        ├── GET /items/autori?limit=-1
        ├── GET /items/numeri_rivista?limit=-1
-       └── GET /items/temi?limit=-1
+       ├── GET /items/temi?limit=-1
+       └── GET /items/tags?limit=-1
 ```
 
 Le chiamate usano un token API Directus con permessi read-only, memorizzato come variabile d'ambiente in Cloudflare Pages (`DIRECTUS_TOKEN`, `DIRECTUS_URL`).
@@ -301,6 +302,25 @@ const { data: allArticles } = await res.json();
 ```
 
 Il JSON restituito da Directus rimpiazza il frontmatter YAML. I nomi dei campi devono essere mappati o allineati durante la migrazione.
+
+#### Permessi: Read su `articoli_tags` e `articoli_temi`
+
+Le junction **M2M** (`articoli_tags`, `articoli_temi`) non sono visibili in lettura se la **policy** collegata al chiamante non include permesso **read** su quelle collection. Sintomo tipico: expand dei tag/temi sugli articoli o `GET /items/articoli_*` che rispondono **403**.
+
+**Da fare per entrambi:** (1) ruolo **Public**, se consenti accesso anonimo alle API necessarie; (2) **ruolo dell’utente a cui è legato il token statico** usato da Astro (`DIRECTUS_TOKEN`).
+
+**Opzione UI — consigliata**
+
+1. **Settings** → **Access Control**
+2. Apri la **policy** usata dal ruolo **Public** e aggiungi **Read** sulle collection **`articoli_tags`** e **`articoli_temi`** (tutti i campi o almeno le FK verso `articoli` / `tags` / `temi`).
+3. Ripeti sulla **policy** del ruolo associato al **token Astro** (stesso permesso Read sulle due junction).
+
+**Opzione API (Directus 11+)**
+
+- Legare policy al ruolo, ad es. richiesta del tipo **`PATCH /roles/{public_role_id}/policies`** (o equivalente visibile nel network del browser quando salvi da Access Control) oppure **`PATCH /roles/{role_id}`** con il payload M2M ruolo–policy previsto dalla tua versione.
+- Aggiungere le regole **`read`** sulle collection `articoli_tags` e `articoli_temi` **sulla policy** interessata tramite **`POST /permissions`** (o modifica da app), non solo sul ruolo: in v11 i permessi appartengono alle policy.
+
+Documentazione ufficiale: [Roles](https://directus.io/docs/api/roles), [Policies](https://directus.io/docs/api/policies), [Permissions](https://directus.io/docs/api/permissions).
 
 **Performance build con 3488 articoli via API:**
 
