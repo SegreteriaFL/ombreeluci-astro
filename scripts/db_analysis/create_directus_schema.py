@@ -263,6 +263,38 @@ M2M_RELATIONS = [
     },
 ]
 
+# Campi scalari aggiunti dopo creazione collection (idempotente)
+OPTIONAL_SCALAR_FIELDS = [
+    {
+        "collection": "autori",
+        "field": "ruolo_autore",
+        "type": "string",
+        "meta": {
+            "interface": "select-dropdown",
+            "options": {
+                "choices": [
+                    {"text": "Redazione", "value": "redazione"},
+                    {"text": "Redazione storica", "value": "redazione_storica"},
+                    {"text": "Collaboratore", "value": "collaboratore"},
+                    {"text": "Contributore", "value": "contributore"},
+                ]
+            },
+            "display": "labels",
+            "display_options": {
+                "choices": [
+                    {"text": "Redazione", "value": "redazione", "foreground": "#FFFFFF", "background": "#6644AA"},
+                    {"text": "Redazione storica", "value": "redazione_storica", "foreground": "#FFFFFF", "background": "#444444"},
+                    {"text": "Collaboratore", "value": "collaboratore", "foreground": "#FFFFFF", "background": "#2D6A4F"},
+                    {"text": "Contributore", "value": "contributore", "foreground": "#333333", "background": "#E8E8E8"},
+                ]
+            },
+            "required": False,
+            "note": "Ruolo editoriale dell'autore",
+        },
+        "schema": {"default_value": "contributore"},
+    },
+]
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # API helpers
@@ -334,6 +366,25 @@ def create_collections(token, dry_run):
 def existing_relations(token):
     data = api_get(token, "/relations")
     return {(r["collection"], r["field"]) for r in data.get("data", [])}
+
+
+def create_optional_scalar_fields(token, dry_run):
+    print("\n── STEP 2b: Campi opzionali (scalari) ───────────────────────")
+    for spec in OPTIONAL_SCALAR_FIELDS:
+        coll = spec["collection"]
+        field = spec["field"]
+        if not dry_run:
+            ex_f = existing_fields(token, coll)
+            if field in ex_f:
+                print(f"  [SKIP campo] {coll}.{field}")
+                continue
+        field_payload = {
+            "field": field,
+            "type": spec["type"],
+            "meta": spec.get("meta", {}),
+            "schema": spec.get("schema", {}),
+        }
+        api_post(token, f"/fields/{coll}", field_payload, dry_run)
 
 
 def create_m2o_fields(token, dry_run):
@@ -441,6 +492,7 @@ def print_dry_run_summary():
     total_fields = (
         sum(len(c["fields"]) for c in COLLECTIONS)
         + len(M2O_FIELDS)
+        + len(OPTIONAL_SCALAR_FIELDS)
         + len(M2M_RELATIONS)
     )
     print(f"\nTOTALE: {len(COLLECTIONS)} collections, {total_fields} campi/relazioni")
@@ -472,10 +524,12 @@ def main():
 
     if args.relations_only:
         create_m2o_fields(token, dry_run=False)
+        create_optional_scalar_fields(token, dry_run=False)
         create_m2m_relations(token, dry_run=False)
     else:
         create_collections(token, dry_run=False)
         create_m2o_fields(token, dry_run=False)
+        create_optional_scalar_fields(token, dry_run=False)
         create_m2m_relations(token, dry_run=False)
 
     print("\n=== COMPLETATO ===")

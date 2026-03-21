@@ -199,6 +199,7 @@ Questo lavoro va completato e validato **prima del cutover**. Il danno da redire
 | `nome_completo` | string | si | |
 | `nome_normalizzato` | string | no | Per dedup (accenti, varianti) |
 | `bio_html` | text | no | |
+| `ruolo_autore` | string (select) | no | `redazione`, `redazione_storica`, `collaboratore`, `contributore` — default tipico `contributore`; backfill articoli: `scripts/db_analysis/backfill_ruolo_autore.py` |
 | `foto` | M2O → `directus_files` | no | |
 | `email` | string | no | Campo interno |
 | `url_wp` | string | no | URL pagina autore WordPress originale — per redirect e per recuperare bio mancanti via scraping |
