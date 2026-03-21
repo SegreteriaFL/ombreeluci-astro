@@ -1,7 +1,7 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-03-20
-**Stato generale:** Dataset canonico completo (SEO Yoast, link interni, redirect, lang IT/EN). **VPS Hetzner CX23 creato** (Nuremberg). Prossimo step: Docker + Directus + PostgreSQL sul server.
+**Ultimo aggiornamento:** 2026-03-21
+**Stato generale:** **Import Directus completato.** Tutte le 5 collection importate: temi (285), tags (816), autori (352), numeri_rivista (204), articoli (3527/3527). Schema Directus operativo con relazioni M2M corrette.
 
 ---
 
@@ -18,7 +18,7 @@ da WordPress+Divi a uno stack moderno Astro + Directus.
 |-------|-----------|-------|
 | Frontend | Astro (output 100% statico) su Cloudflare Pages | **Attivo** |
 | CMS temporaneo | Keystatic Worker su Cloudflare Workers | **Attivo** (solo nuovi articoli) |
-| CMS pianificato | Directus su Hetzner CX23 | **VPS PRONTO** e Directus operativo |
+| CMS | Directus su Hetzner CX23 | **Import completato** (3527 articoli) |
 | Database | PostgreSQL 16 + pgvector 0.8.2 (Hetzner) | **Attivo** |
 | Storage media | Cloudflare R2 | **Da fare** |
 
@@ -134,19 +134,18 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 
 ### Fasi
 
-1. **Setup VPS Hetzner + Directus** (~1 giornata)
-   - VPS **CX23** creato (vedi sezione Infra sopra); da completare: Docker Compose, PostgreSQL + pgvector
-   - Directus con schema custom
+1. **Setup VPS Hetzner + Directus** ✅ COMPLETATO
+   - VPS CX23, Docker, PostgreSQL 16 + pgvector 0.8.2, Directus
 
-2. **Schema Directus** (~1 giornata)
-   - Collections: `articoli`, `autori`, `numeri_rivista`, `categorie`, `tag`
-   - Relazioni M2M articolo↔categoria, articolo↔tag, articolo↔numero
-   - Campi custom: `cluster_id`, `umap_x/y/z`, `tema_label`
+2. **Schema Directus** ✅ COMPLETATO
+   - 8 collections: `articoli`, `autori`, `numeri_rivista`, `temi`, `tags`, `serie`, `commenti_storici`, `redirects`
+   - Relazioni M2M articolo↔temi, articolo↔tags (junction tables `articoli_temi`, `articoli_tags`)
+   - Relazioni M2O: articolo→autore, articolo→numero_rivista, articolo→serie
 
-3. **Import dati** (~2-3 giorni)
-   - Script: `scripts/db_analysis/import_to_directus.py` **(da creare)**
-   - Fonte canonica: `scripts/db_analysis/output/articoli_wp_puliti.json`
-   - Metadati AI da: `src/data/articoli_megacluster.json`
+3. **Import dati** ✅ COMPLETATO (2026-03-21)
+   - Script: `scripts/db_analysis/import_to_directus.py`
+   - temi: 285 | tags: 816 | autori: 352 | numeri_rivista: 204 | articoli: **3527/3527**
+   - 39 articoli senza corrispondenza nel megacluster (flipbook storici e media)
 
 4. **Aggiornamento Astro** (~3-4 giorni)
    - Sostituire file `.md` statici con fetch da Directus API
@@ -213,7 +212,7 @@ scripts_and_data/
 
 ## Prossimi Step Immediati
 
-1. Sul VPS **159.69.196.64**: installare **Docker**, **PostgreSQL** (+ pgvector), **Directus** (Compose)
-2. Configurare Directus (env, reverse proxy TLS se necessario)
-3. Definire schema Directus definitivo (collections + relazioni)
-4. Creare `scripts/db_analysis/import_to_directus.py` e testare import su staging
+1. (Opzionale) Import M2M articoli↔temi e articoli↔tags (richiede dati categorie dal megacluster)
+2. Import immagini copertina su Cloudflare R2 + aggiornare `immagine_copertina` su Directus
+3. Aggiornamento stack Astro: fetch dati da Directus API invece di file `.md` statici
+4. Setup reverse proxy TLS (HTTPS) per Directus se necessario prima del cutover
