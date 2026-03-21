@@ -95,6 +95,8 @@ export interface Autore {
   nome_completo: string;
   bio_html: string | null;
   foto: FileRef | null;
+  /** Articoli pubblicati con questo autore (da aggregazione Directus). */
+  articoli_count?: number;
 }
 
 export interface NumeroRivista {
@@ -218,15 +220,47 @@ export async function getArticoloByWpId(wpId: number): Promise<ArticoloListItem 
   return data.data[0];
 }
 
+/** Righe aggregate: count articoli pubblicati per UUID autore. */
+interface AutoreArticoliAggregateRow {
+  autore: string;
+  count: { id: string };
+}
+
+async function getArticoliCountByAutoreId(): Promise<Map<string, number>> {
+  const params = new URLSearchParams({
+    'filter[stato][_eq]': 'published',
+    'filter[autore][_nnull]': 'true',
+    'aggregate[count]': 'id',
+    limit: '-1',
+  });
+  params.append('groupBy[]', 'autore');
+  const data = await directusFetch<{ data: AutoreArticoliAggregateRow[] }>(
+    `/items/articoli?${params}`
+  );
+  const map = new Map<string, number>();
+  if (!data?.data?.length) return map;
+  for (const row of data.data) {
+    const n = parseInt(String(row.count?.id ?? '0'), 10) || 0;
+    map.set(row.autore, n);
+  }
+  return map;
+}
+
 /**
- * Tutti gli autori.
+ * Tutti gli autori, con `articoli_count` (articoli pubblicati) da aggregazione Directus.
  */
 export async function getAllAutori(): Promise<Autore[]> {
-  const data = await directusFetch<{ data: Autore[] }>(
-    '/items/autori?fields=id,slug,nome_completo,bio_html,foto.id,foto.filename_download&limit=-1&sort=nome_completo'
-  );
-  if (!data) return [];
-  return data.data ?? [];
+  const [countByAutore, authorsRes] = await Promise.all([
+    getArticoliCountByAutoreId(),
+    directusFetch<{ data: Autore[] }>(
+      '/items/autori?fields=id,slug,nome_completo,bio_html,foto.id,foto.filename_download&limit=-1&sort=nome_completo'
+    ),
+  ]);
+  if (!authorsRes?.data) return [];
+  return authorsRes.data.map((a) => ({
+    ...a,
+    articoli_count: countByAutore.get(a.id) ?? 0,
+  }));
 }
 
 /**

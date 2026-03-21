@@ -14,7 +14,13 @@ const autori = allAutori.map((autore) => {
   const foto = autore.foto?.id ? getAutoreImageUrl(autore.foto.id) : '';
   const bioText = autore.bio_html ? stripHtml(autore.bio_html) : '';
   const bio_breve = bioText ? (bioText.slice(0, 120) + (bioText.length > 120 ? '…' : '')) : '';
-  return { nome: autore.nome_completo, slug: autore.slug, foto, bio_breve, count_articoli: 0 };
+  return {
+    nome: autore.nome_completo,
+    slug: autore.slug,
+    foto,
+    bio_breve,
+    count_articoli: autore.articoli_count ?? 0,
+  };
 });
 ---
 
@@ -281,6 +287,7 @@ const autori = allAutori.map((autore) => {
 
         if (search) search.addEventListener('input', applyFilterAndSort);
         if (sortSelect) sortSelect.addEventListener('change', applyFilterAndSort);
+        applyFilterAndSort();
       })();
     </script>
     <Footer />
