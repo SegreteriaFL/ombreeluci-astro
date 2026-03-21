@@ -19,6 +19,7 @@ PATH_REDIR_JSON = ROOT / "scripts/db_analysis/output/redirects_necessari.json"
 PATH_ARTICOLI = ROOT / "scripts/db_analysis/output/articoli_wp_puliti.json"
 PATH_OUT_REDIRECTS = ROOT / "public/_redirects"
 PATH_OVERFLOW = ROOT / "scripts/db_analysis/output/redirects_overflow.json"
+PATH_QUERYSTRING = ROOT / "scripts/db_analysis/output/redirects_querystring.json"
 PATH_LOG_INVALID = ROOT / "scripts/db_analysis/logs/redirects_invalid.log"
 PATH_LOG_DUPES = ROOT / "scripts/db_analysis/logs/redirects_duplicates.log"
 
@@ -26,9 +27,8 @@ MAX_STATIC = 2000
 
 
 def norm_dest(lang: str, slug: str) -> str:
-    p = "/en/" if (lang or "it").lower() == "en" else "/it/"
     s = slug.strip().strip("/")
-    return f"{p}{s}/"
+    return f"/blog/{s}/"
 
 
 def norm_src_simple(slug_old: str) -> str | None:
@@ -88,17 +88,19 @@ def analyze_records(records: list[dict]) -> None:
 
 
 def dest_prefix_ok(dest: str) -> bool:
-    return dest.startswith("/it/") or dest.startswith("/en/")
+    return dest.startswith("/blog/")
 
 
 def build_candidates(
     records: list[dict], articoli_by_id: dict[int, dict]
-) -> list[tuple[int, int, int, str, str, str]]:
+) -> tuple[list[tuple[int, int, int, str, str, str]], list[tuple[str, str]]]:
     """
-    Tuple: (priority, record_index, sub_index, source, dest, rule_label).
-    priority: 0=A, 1=B, 2=C/D.
+    Returns (candidates, query_candidates).
+    candidates: (priority, record_index, sub_index, source, dest, rule_label) per regole B/C/D.
+    query_candidates: (source, dest) per REGOLA A (/?p=ID) — non supportata in CF Pages _redirects.
     """
     out: list[tuple[int, int, int, str, str, str]] = []
+    query_out: list[tuple[str, str]] = []
     for idx, rec in enumerate(records):
         wp_id = rec.get("wp_id")
         if wp_id is None:
@@ -114,7 +116,7 @@ def build_candidates(
         if t == "old_slug":
             so = str(rec.get("slug_old", ""))
             if so.isdigit():
-                out.append((0, idx, 0, f"/?p={so}", dest, "A"))
+                query_out.append((f"/?p={so}", dest))
             else:
                 src = norm_src_simple(so)
                 if src is None:
@@ -131,7 +133,7 @@ def build_candidates(
                 continue
             out.append((1, idx, 0, f"/{y}/{m}/{d}/{slug}/", dest, "B"))
             out.append((1, idx, 1, f"/{y}/{m}/{slug}/", dest, "B"))
-    return out
+    return out, query_out
 
 
 def main() -> int:
@@ -148,7 +150,7 @@ def main() -> int:
     articoli = json.loads(PATH_ARTICOLI.read_text(encoding="utf-8"))
     articoli_by_id = {int(a["wp_id"]): a for a in articoli}
 
-    candidates = build_candidates(records, articoli_by_id)
+    candidates, query_candidates = build_candidates(records, articoli_by_id)
     candidates.sort(key=lambda x: (x[0], x[1], x[2]))
 
     PATH_LOG_INVALID.parent.mkdir(parents=True, exist_ok=True)
@@ -204,6 +206,15 @@ def main() -> int:
         encoding="utf-8",
     )
 
+    query_payload = [
+        {"source": s, "destination": d, "status": 301, "rule": "A"}
+        for s, d in query_candidates
+    ]
+    PATH_QUERYSTRING.write_text(
+        json.dumps(query_payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
     n_overflow = len(overflow_rules)
     if n_overflow:
         print(
@@ -219,6 +230,7 @@ def main() -> int:
     print(f"Totale regole generate (uniche per source): {len(ordered)}")
     print(f"Regole scritte in _redirects: {len(static_rules)}")
     print(f"Regole overflow (Worker / dashboard): {n_overflow}")
+    print(f"Regole /?p=ID (querystring, CF Worker): {len(query_candidates)}  -> {PATH_QUERYSTRING}")
     print(f"Duplicati rimossi (stessa source_url): {dupes}")
     print(f"Righe skippate (source = destination): {skipped_identity}")
     print(f"Righe non valide (log): {len(invalid_lines)}  -> {PATH_LOG_INVALID}")

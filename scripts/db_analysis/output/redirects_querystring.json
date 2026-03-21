@@ -1,0 +1,284 @@
+[
+  {
+    "source": "/?p=5846",
+    "destination": "/blog/cresima-marco/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=603",
+    "destination": "/blog/il-chicco-una-casa-per-fabio-e-maria/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=224",
+    "destination": "/blog/editoriale-4-il-mio-bambino-con-la-sindrome-down/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=3040",
+    "destination": "/blog/crescere-insieme/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=4611",
+    "destination": "/blog/nicola-pintus-il-progetto-filippide/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=4651",
+    "destination": "/blog/pazienza-tenacia-anche-durezza/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=4673",
+    "destination": "/blog/educare-alla-paternita-tra-ruoli-di-vita-e-trasformazioni-familiari/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=4787",
+    "destination": "/blog/dialogo-aperto-n-13/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=4847",
+    "destination": "/blog/emiliana-e-l-handicap/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=5012",
+    "destination": "/blog/come-sogni-il-futuro-dei-tuoi-figli-alcuni-genitori-rispondono/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=5118",
+    "destination": "/blog/bocca-ride-ma-occhi-non-buoni/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=5717",
+    "destination": "/blog/tenere-la-porta-aperta/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=5756",
+    "destination": "/blog/festa-in-casa-con-lui/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=5773",
+    "destination": "/blog/vederli-migliorare/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=6181",
+    "destination": "/blog/suonare-chitarra-ragazzi-down/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=6210",
+    "destination": "/blog/vita-fede-luce-19/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=6352",
+    "destination": "/blog/sono-il-papa-di-francesca/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=6518",
+    "destination": "/blog/anni-scolastici-disabilita/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=6618",
+    "destination": "/blog/siediti-nei-nostri-panni/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7054",
+    "destination": "/blog/ho-visto-rainman/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7059",
+    "destination": "/blog/dialogo-aperto-n-26/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7062",
+    "destination": "/blog/da-dove-cominciare/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7250",
+    "destination": "/blog/anffas-open-day-porte-aperte-per-celebrare-60-anni-di-futuro/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7288",
+    "destination": "/blog/dopo-di-noi-a-carpi-tre-incontri-per-fare-il-punto/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7367",
+    "destination": "/blog/bambini-autistici-scuola/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7378",
+    "destination": "/blog/jean-vanier-un-profeta-del-nostro-tempo/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7403",
+    "destination": "/blog/consulta-nazionale-integrazione/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7412",
+    "destination": "/blog/play-day-2018-a-venezia-accorciare-le-distanze-della-disabilita-con-lo-sport/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7557",
+    "destination": "/blog/cresce-la-rete-di-centri-sporthabile-in-toscana-per-lo-sport-paralimpico/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7695",
+    "destination": "/blog/mirella-pablo-silvia-claudia-patrizia/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=7968",
+    "destination": "/blog/lezione-di-danza-insieme/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=8043",
+    "destination": "/blog/spiegare-la-disabilita-agli-studenti-del-liceo/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=8134",
+    "destination": "/blog/quello-che-manca-ai-notri-figli/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=8699",
+    "destination": "/blog/ascolto-che-guarisce/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=8905",
+    "destination": "/blog/loro-noi-che-stiamo-in-piedi/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=9081",
+    "destination": "/blog/un-marinaio-in-treno/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=9088",
+    "destination": "/blog/vivere-con-rifiutati/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=9413",
+    "destination": "/blog/la-fede-si-vive-cosi-si-impara/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=9651",
+    "destination": "/blog/cantare-giocare-comunicare/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=9664",
+    "destination": "/blog/andiamo-a-giocare/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=10461",
+    "destination": "/blog/vita-fede-luce-53/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=11604",
+    "destination": "/blog/comunita-tau-la-nostra-casa/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=11609",
+    "destination": "/blog/jean-vanier-premio-paolo-iv/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=11663",
+    "destination": "/blog/a-roma-un-workshop-dedicato-alla-disabilita-mentale-in-eta-adulta/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=11789",
+    "destination": "/blog/madre-di-famiglia/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=11792",
+    "destination": "/blog/non-dopo-di-noi-ma-prima-come-fratelli-anche-lui-lascia-la-casa/",
+    "status": 301,
+    "rule": "A"
+  },
+  {
+    "source": "/?p=12463",
+    "destination": "/blog/uomo-del-regno/",
+    "status": 301,
+    "rule": "A"
+  }
+]
