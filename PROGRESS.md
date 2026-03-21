@@ -1,7 +1,7 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-03-21
-**Stato generale:** **Import Directus completato.** Tutte le 5 collection importate: temi (285), tags (816), autori (352), numeri_rivista (204), articoli (3527/3527). Schema Directus operativo con relazioni M2M corrette.
+**Ultimo aggiornamento:** 2026-03-21 (sera)
+**Stato generale:** **Directus configurato e funzionante.** Import completo (3527 articoli). UI Directus riparata: relazioni M2M operative, editor WYSIWYG attivo, display leggibili su tutti i campi M2O.
 
 ---
 
@@ -9,6 +9,17 @@
 
 La rivista Ombre e Luci (cattolica italiana, disabilità e fede, fondata 1983) è in migrazione
 da WordPress+Divi a uno stack moderno Astro + Directus.
+
+**Al 2026-03-21** il VPS Hetzner **CX23** (IP **159.69.196.64**, Ubuntu **24.04**) ha **Docker** attivo;
+**Directus** è raggiungibile su **http://159.69.196.64:8055** con **PostgreSQL 16** e **pgvector 0.8.2**.
+Lo **schema** comprende **10 collection**: `articoli`, `autori`, `numeri_rivista`, `temi`, `tags`, `serie`,
+`commenti_storici`, `redirects`, `embeddings`, `directus_files`. **Import completato:** 3527 articoli,
+352 autori, 204 numeri_rivista, 285 temi, 816 tag. **M2M:** 9440 relazioni totali (6676 articoli↔temi +
+2764 articoli↔tags). In Directus: **editor WYSIWYG** sul campo corpo, **display template** leggibili su
+tutti i campi M2O, **permessi Read** sulle junction `articoli_tags` e `articoli_temi`. **Redirect SEO:**
+2000 regole in `public/_redirects` (priorità `/?p=ID` e percorsi con data), 16630 regole in
+`scripts/db_analysis/output/redirects_overflow.json` da gestire con **Cloudflare Worker**. Il sito Astro
+in produzione/staging continua ancora da file `.md` fino alla migrazione verso le API Directus.
 
 ---
 
@@ -18,9 +29,10 @@ da WordPress+Divi a uno stack moderno Astro + Directus.
 |-------|-----------|-------|
 | Frontend | Astro (output 100% statico) su Cloudflare Pages | **Attivo** |
 | CMS temporaneo | Keystatic Worker su Cloudflare Workers | **Attivo** (solo nuovi articoli) |
-| CMS | Directus su Hetzner CX23 | **Import completato** (3527 articoli) |
-| Database | PostgreSQL 16 + pgvector 0.8.2 (Hetzner) | **Attivo** |
+| CMS | Directus su Hetzner CX23 (`http://159.69.196.64:8055`, Docker) | **Operativo** — 10 collection, import completo |
+| Database | PostgreSQL 16 + pgvector 0.8.2 (stesso VPS) | **Attivo** |
 | Storage media | Cloudflare R2 | **Da fare** |
+| Redirect SEO | `public/_redirects` (2000) + `redirects_overflow.json` (16630) | **Statici OK**; overflow → Worker |
 
 ---
 
@@ -147,7 +159,15 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
    - temi: 285 | tags: 816 | autori: 352 | numeri_rivista: 204 | articoli: **3527/3527**
    - 39 articoli senza corrispondenza nel megacluster (flipbook storici e media)
 
-4. **Aggiornamento Astro** (~3-4 giorni)
+4. **Configurazione UI Directus** ✅ COMPLETATO (2026-03-21)
+   - Fix relazioni M2M `articoli↔temi` e `articoli↔tags`:
+     junction fields mancavano di meta (`interface`, `special`) → PATCH applicati
+     campi alias in `articoli` aggiornati con `options.junctionCollection`
+   - Campo `corpo` → `input-rich-text-html` con toolbar personalizzata (bold/italic/h2-h4/link/image/code)
+   - Display template M2O in `articoli`: autore→`{{nome_completo}}`, numero_rivista→`{{display_title}}`, serie→`{{nome}}`
+   - `display_template` impostato su tutte le collection: autori/temi/tags/serie/numeri_rivista
+
+5. **Aggiornamento Astro** (~3-4 giorni)
    - Sostituire file `.md` statici con fetch da Directus API
    - SSR/ISR su Cloudflare Pages
 
@@ -212,7 +232,10 @@ scripts_and_data/
 
 ## Prossimi Step Immediati
 
-1. (Opzionale) Import M2M articoli↔temi e articoli↔tags (richiede dati categorie dal megacluster)
-2. Import immagini copertina su Cloudflare R2 + aggiornare `immagine_copertina` su Directus
-3. Aggiornamento stack Astro: fetch dati da Directus API invece di file `.md` statici
-4. Setup reverse proxy TLS (HTTPS) per Directus se necessario prima del cutover
+1. **Cloudflare R2:** creazione bucket e configurazione storage Directus (S3-compat).
+2. **Immagini copertina:** script download/upload ~3250 immagini dal vecchio WordPress → R2 / Directus.
+3. **Cloudflare Worker** (o redirect rules) per i **16630** redirect in overflow oltre `public/_redirects`.
+4. **Migrazione Astro:** lettura contenuti da API Directus a build time (step più lungo).
+5. **Directus:** ruoli e permessi per la redazione (oltre Public / token Astro).
+6. **TLS:** dominio **cms.ombreeluci.it** con reverse proxy Nginx + Certbot sul VPS.
+7. **VPS:** upgrade **CX23 → CX32** prima di attivare carichi pesanti su **embedding pgvector**.
