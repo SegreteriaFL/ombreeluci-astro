@@ -15,7 +15,7 @@ import { getMegaclusterForArticle, getLabels, getCategoryBySlug, getRoleWeight }
 import { DIARISTI } from '../data/diari.js';
 import numeriData from '../data/numeri_consolidati.json';
 import '../styles/global.css';
-import { getAllArticoli, getAllAutori, getImageUrl } from '../lib/directus';
+import { getAllArticoli, getAllAutori, getAutoreImageUrl, getImageUrl } from '../lib/directus';
 
 type NumeroRecord = {
   id_numero: string;
@@ -55,7 +55,7 @@ const numeriPerCarousel = [...numeri]
 
 const allAutori = await getAllAutori();
 const autoriBySlug: Record<string, { foto_url?: string }> = Object.fromEntries(
-  allAutori.map((a) => [a.slug, { foto_url: a.foto?.id ? getImageUrl(a.foto.id) : undefined }])
+  allAutori.map((a) => [a.slug, { foto_url: a.foto?.id ? getAutoreImageUrl(a.foto.id) : undefined }])
 );
 // Legacy alias for template references
 const autoriById = autoriBySlug;

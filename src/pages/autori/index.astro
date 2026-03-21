@@ -3,7 +3,7 @@ import { ViewTransitions } from 'astro:transitions';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import '../../styles/global.css';
-import { getAllAutori, getImageUrl } from '../../lib/directus';
+import { getAllAutori, getAutoreImageUrl } from '../../lib/directus';
 
 function stripHtml(html: string): string {
   return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
@@ -11,7 +11,7 @@ function stripHtml(html: string): string {
 
 const allAutori = await getAllAutori();
 const autori = allAutori.map((autore) => {
-  const foto = autore.foto?.id ? getImageUrl(autore.foto.id) : '';
+  const foto = autore.foto?.id ? getAutoreImageUrl(autore.foto.id) : '';
   const bioText = autore.bio_html ? stripHtml(autore.bio_html) : '';
   const bio_breve = bioText ? (bioText.slice(0, 120) + (bioText.length > 120 ? '…' : '')) : '';
   return { nome: autore.nome_completo, slug: autore.slug, foto, bio_breve, count_articoli: 0 };

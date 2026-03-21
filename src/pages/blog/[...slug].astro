@@ -1,5 +1,5 @@
 ---
-import { getAllArticoli, getImageUrl } from '../../lib/directus';
+import { getAllArticoli, getAutoreImageUrl, getImageUrl } from '../../lib/directus';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -78,7 +78,7 @@ const authorSlug = generateAuthorSlug(autoreName);
 
 const authorBioHtml: string | null = autoreCompleto?.bio_html?.trim() || null;
 const authorFotoId: string | null = autoreCompleto?.foto?.id ?? null;
-const authorImagePath = authorFotoId ? getImageUrl(authorFotoId) : `/assets/authors/${authorSlug}.jpg`;
+const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${authorSlug}.jpg`;
 const authorBio: string | null = authorBioHtml;
 
 const readingTime = calculateReadingTimeFromHtml(articolo.corpo);

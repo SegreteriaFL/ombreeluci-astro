@@ -5,7 +5,7 @@
  */
 import DiarioLayout from '../layouts/DiarioLayout.astro';
 import { DIARISTI, getDiaristaByDiarioSlug } from '../data/diari.js';
-import { getAllArticoli, getAllAutori, getImageUrl } from '../lib/directus';
+import { getAllArticoli, getAllAutori, getAutoreImageUrl, getImageUrl } from '../lib/directus';
 
 export async function getStaticPaths() {
   const allArticoli = await getAllArticoli();
@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 
   for (const d of DIARISTI) {
     const autore = allAutori.find((a) => a.slug === d.authorSlug);
-    const fotoUrl = autore?.foto?.id ? getImageUrl(autore.foto.id) : '';
+    const fotoUrl = autore?.foto?.id ? getAutoreImageUrl(autore.foto.id) : '';
 
     const articoli = allArticoli
       .filter((a) => a.lang !== 'en' && (a.autore?.nome_completo || '').trim() === d.nome)

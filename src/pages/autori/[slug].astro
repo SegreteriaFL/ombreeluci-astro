@@ -5,7 +5,7 @@ import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels, getRoleWeight } from '../../config/taxonomy.js';
-import { getAllAutori, getAllArticoli, getImageUrl } from '../../lib/directus';
+import { getAllAutori, getAllArticoli, getAutoreImageUrl, getImageUrl } from '../../lib/directus';
 
 export async function getStaticPaths() {
   function toUrlSlug(name: string): string {
@@ -37,7 +37,7 @@ const nomeAutore: string = autore.nome_completo;
 const slug = Astro.params.slug ?? '';
 
 const authorFotoId: string | null = autore.foto?.id ?? null;
-const authorImagePath = authorFotoId ? getImageUrl(authorFotoId) : `/assets/authors/${slug}.jpg`;
+const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${slug}.jpg`;
 const authorBioHtml: string | null = autore.bio_html?.trim() || null;
 const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
 ---

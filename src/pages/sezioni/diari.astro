@@ -10,11 +10,11 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { getDiaristiWithMeta, NOMI_DIARISTI } from '../../data/diari.js';
-import { getAllArticoli, getAllAutori, getImageUrl } from '../../lib/directus';
+import { getAllArticoli, getAllAutori, getAutoreImageUrl, getImageUrl } from '../../lib/directus';
 
 const allAutori = await getAllAutori();
 const autoriById: Record<string, { foto_url?: string }> = Object.fromEntries(
-  allAutori.map((a) => [a.slug, { foto_url: a.foto?.id ? getImageUrl(a.foto.id) : undefined }])
+  allAutori.map((a) => [a.slug, { foto_url: a.foto?.id ? getAutoreImageUrl(a.foto.id) : undefined }])
 );
 const diaristiConMeta = getDiaristiWithMeta(autoriById);
 
