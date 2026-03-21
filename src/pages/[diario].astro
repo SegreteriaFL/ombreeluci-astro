@@ -3,30 +3,34 @@
  * Pagina singola di un Diario: /diario-di-arianna, /diario-di-benedetta, ...
  * Genera sempre le 7 pagine; foto da articoli_megacluster autoriById.
  */
-import { getCollection } from 'astro:content';
 import DiarioLayout from '../layouts/DiarioLayout.astro';
 import { DIARISTI, getDiaristaByDiarioSlug } from '../data/diari.js';
-import megacluster from '../data/articoli_megacluster.json';
-import { onlyItalianBlog } from '../config/taxonomy.js';
+import { getAllArticoli, getAllAutori, getImageUrl } from '../lib/directus';
 
 export async function getStaticPaths() {
-  const megaclusterData = megacluster as { autoriById?: Record<string, { foto_url?: string }> };
-  const autoriById = megaclusterData.autoriById || {};
+  const allArticoli = await getAllArticoli();
+  const allAutori = await getAllAutori();
 
-  const allArticles = onlyItalianBlog(await getCollection('blog'));
   const paths: { params: { diario: string }; props: Record<string, unknown> }[] = [];
 
   for (const d of DIARISTI) {
-    const articoli = allArticles
-      .filter((a) => (a.data.author || '').trim() === d.nome)
-      .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+    const autore = allAutori.find((a) => a.slug === d.authorSlug);
+    const fotoUrl = autore?.foto?.id ? getImageUrl(autore.foto.id) : '';
+
+    const articoli = allArticoli
+      .filter((a) => a.lang !== 'en' && (a.autore?.nome_completo || '').trim() === d.nome)
+      .sort((a, b) => {
+        const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+        const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+        return tB - tA;
+      });
 
     paths.push({
       params: { diario: d.diarioSlug },
       props: {
         nomeAutore: d.nome,
         titoloDiario: d.titoloDiario,
-        fotoUrl: autoriById[d.authorSlug]?.foto_url || '',
+        fotoUrl,
         descrizioneDiario: d.descrizioneDiario,
         articoli,
       },

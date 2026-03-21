@@ -1,44 +1,36 @@
 ---
-import { getCollection } from 'astro:content';
 import { ViewTransitions } from 'astro:transitions';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
-import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight, onlyItalianBlog } from '../../config/taxonomy.js';
-import megacluster from '../../data/articoli_megacluster.json';
-
-const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
+import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
+import { getAllArticoli, getImageUrl } from '../../lib/directus';
 
 export async function getStaticPaths() {
-  const allArticles = onlyItalianBlog(await getCollection('blog'));
+  const allArticles = (await getAllArticoli()).filter((a) => a.lang !== 'en');
   const categorySlugs = getAllCategorySlugs();
   return categorySlugs.map((categoria) => {
     const cat = getCategoryBySlug(categoria);
     const label = cat ? cat.label : categoria;
     const displayLabel = cat?.displayLabel ?? cat?.label ?? categoria;
-    const articoli = allArticles.filter((article) => {
-      const tags = article.data.tags ?? [];
-      const wpId = article.data.wp_id;
+    const articoli = allArticles.filter((a) => {
+      const wpId = a.wp_id;
       if (cat?.type === 'thematic') {
         const { tema_label } = getMegaclusterForArticle(wpId);
         return tema_label === label;
       }
       if (cat?.type === 'formal') {
-        const { formal } = getLabels(tags, wpId);
+        const { formal } = getLabels([], wpId);
         return formal === label;
       }
       return false;
     }).sort((a, b) => {
-      const timeA = a.data.date.getTime();
-      const timeB = b.data.date.getTime();
-      if (timeA !== timeB) {
-        return timeB - timeA;
-      }
-      const roleA = getMegaclusterForArticle(a.data.wp_id).ruolo_editoriale;
-      const roleB = getMegaclusterForArticle(b.data.wp_id).ruolo_editoriale;
-      const weightA = getRoleWeight(roleA);
-      const weightB = getRoleWeight(roleB);
+      const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+      const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+      if (tA !== tB) return tB - tA;
+      const weightA = getRoleWeight(getMegaclusterForArticle(a.wp_id).ruolo_editoriale);
+      const weightB = getRoleWeight(getMegaclusterForArticle(b.wp_id).ruolo_editoriale);
       return weightB - weightA;
     });
     return {
@@ -103,23 +95,19 @@ const { articoli, categoryLabel } = Astro.props;
           </p>
         </header>
         <div class="articles-grid">
-          {articoli.map((article) => {
-            const articleSlug = article.data.slug ?? article.slug;
-            const { tema_label, categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
-            const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
-            const articleDate = article.data.date instanceof Date
-              ? article.data.date
-              : new Date(article.data.date);
-            const wpIdStr = String(article.data.wp_id ?? '');
-            const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+          {articoli.map((a) => {
+            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a.wp_id);
+            const { formal } = getLabels([], a.wp_id);
+            const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+            const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
             return (
               <ArticleCard
-                title={article.data.title}
-                slug={articleSlug}
+                title={a.titolo}
+                slug={a.slug}
                 categoriaMenu={categoria_menu ?? undefined}
-                issue={article.data.issue_number}
+                issue={a.numero_rivista?.id_numero ?? null}
                 forma={formal}
-                author={article.data.author}
+                author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
                 date={articleDate}
                 image={articleImage}
                 ruoloEditoriale={ruolo_editoriale ?? undefined}

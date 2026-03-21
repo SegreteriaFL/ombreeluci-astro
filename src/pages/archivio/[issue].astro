@@ -1,48 +1,28 @@
 ---
-import { getCollection } from 'astro:content';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import IssueNavPill from '../../components/IssueNavPill.astro';
 import { ViewTransitions } from 'astro:transitions';
 import '../../styles/global.css';
-import { getMegaclusterForArticle, getLabels, onlyItalianBlog } from '../../config/taxonomy.js';
-import megacluster from '../../data/articoli_megacluster.json';
+import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import { getAllNumeriRivista, getArticoliByNumero, getImageUrl } from '../../lib/directus';
 
-const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
-
-// Genera tutti i percorsi statici dalla content collection numeri (stesso ordine sort_order asc per prev/next)
+// Genera tutti i percorsi statici da Directus (ordinati per anno asc per prev/next)
 export async function getStaticPaths() {
-  const rawNumeri = await getCollection('numeri');
-  const numeriOrdinati = [...rawNumeri].sort((a, b) => {
-    const orderA = a.data.sort_order ?? 0;
-    const orderB = b.data.sort_order ?? 0;
-    return orderA - orderB;
-  });
+  const rawNumeri = await getAllNumeriRivista();
+  const numeriOrdinati = [...rawNumeri].sort((a, b) =>
+    (a.anno_pubblicazione ?? 0) - (b.anno_pubblicazione ?? 0)
+  );
 
-  return numeriOrdinati.map((entry, index) => {
-    const slug = entry.slug;
-    const prevEntry = index > 0 ? numeriOrdinati[index - 1] : null;
-    const nextEntry = index < numeriOrdinati.length - 1 ? numeriOrdinati[index + 1] : null;
-    const prevSlug = prevEntry?.slug ?? null;
-    const nextSlug = nextEntry?.slug ?? null;
-    const numero = {
-      ...entry.data,
-      id: entry.data.id ?? entry.slug,
-      id_numero: entry.data.id ?? entry.slug,
-      tipo_rivista: entry.data.tipo === 'insieme' ? 'insieme' : 'ombre_e_luci',
-      numero_progressivo: entry.data.numero ?? entry.data.numero_progressivo,
-      anno_pubblicazione: entry.data.pubDate
-        ? (typeof entry.data.pubDate === 'string' ? new Date(entry.data.pubDate) : entry.data.pubDate).getFullYear()
-        : entry.data.anno_pubblicazione,
-      titolo_numero: entry.data.title ?? entry.data.titolo_numero ?? entry.data.display_title,
-      display_title: entry.data.display_title ?? entry.data.title ?? entry.data.titolo_numero,
-      copertina_url: entry.data.copertina ?? entry.data.copertina_url,
-      archive_view_url: entry.data.archive_view_url ?? entry.data.link_sfoglia,
-      pdf_url: entry.data.link_pdf ?? entry.data.archive_download_pdf_url,
-    };
+  return numeriOrdinati.map((numero, index) => {
+    const issueSlug = numero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+    const prevNumero = index > 0 ? numeriOrdinati[index - 1] : null;
+    const nextNumero = index < numeriOrdinati.length - 1 ? numeriOrdinati[index + 1] : null;
+    const prevSlug = prevNumero ? prevNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
+    const nextSlug = nextNumero ? nextNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
     return {
-      params: { issue: slug },
+      params: { issue: issueSlug },
       props: { numero, prevSlug, nextSlug },
     };
   });
@@ -50,36 +30,22 @@ export async function getStaticPaths() {
 
 const { numero, prevSlug, nextSlug } = Astro.props;
 
-const allArticles = onlyItalianBlog(await getCollection('blog'));
+const allArticoli = await getArticoliByNumero(numero.id_numero);
+const articoliNumero = [...allArticoli].sort((a, b) => {
+  const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+  const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+  return tA - tB;
+});
 
-// Articoli dal frontmatter del numero (array articoli = slug), ordinati per pubDate crescente (ordine indice)
-function findArticleBySlug(slug: string) {
-  return allArticles.find(
-    (a) => a.slug === slug || a.slug.endsWith('/' + slug) || a.slug.split('/').pop() === slug
-  );
-}
-
-const articoliSlugs = numero.articoli ?? [];
-const articoliNumero = articoliSlugs
-  .map((slug) => findArticleBySlug(slug))
-  .filter((a): a is NonNullable<typeof a> => a != null)
-  .sort((a, b) => {
-    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date);
-    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date);
-    return dateA.getTime() - dateB.getTime();
-  });
-
-// Determina URL per sfogliare online (Archive.org)
-const archiveViewUrl = numero.archive_view_url || null;
-
-// Determina URL per scaricare PDF
-const pdfUrl = numero.archive_download_pdf_url || numero.pdf_url || null;
+// Determina URL per sfogliare online e scaricare PDF
+const archiveViewUrl = numero.link_sfoglia || null;
+const pdfUrl = numero.link_pdf || null;
 
 // Determina testata
-const testata = numero.tipo_rivista === 'insieme' ? 'Insieme' : 'Ombre e Luci';
+const testata = numero.tipo === 'insieme' ? 'Insieme' : 'Ombre e Luci';
 
 // Descrizione/sommario
-const descrizione = numero.seo_description || numero.descrizione_ai || numero.descrizione_originale || null;
+const descrizione = numero.sommario || null;
 
 // Funzione per generare slug autore
 function generateAuthorSlug(name: string): string {
@@ -101,8 +67,8 @@ function formatDateItalian(date: Date): string {
 }
 
 // Articoli in italiano (flusso principale) e in inglese (sezione separata in fondo)
-const articoliIt = articoliNumero.filter(a => a.data.lang !== 'en');
-const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
+const articoliIt = articoliNumero.filter(a => a.lang !== 'en');
+const articoliEn = articoliNumero.filter(a => a.lang === 'en');
 ---
 
 <html lang="it">
@@ -110,7 +76,7 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
     <meta name="robots" content="noindex, nofollow" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{numero.display_title || numero.titolo_numero} - Archivio Ombre e Luci</title>
+    <title>{numero.display_title} - Archivio Ombre e Luci</title>
     <ViewTransitions />
     <style>
       * {
@@ -369,41 +335,35 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
       <section class="hero-section">
         <div class="hero-cover">
           {numero.copertina_url ? (
-            <img 
-              src={numero.copertina_url} 
-              alt={`Copertina ${testata} n. ${numero.numero_progressivo}`}
+            <img
+              src={numero.copertina_url}
+              alt={`Copertina ${testata} ${numero.id_numero}`}
               loading="eager"
             />
           ) : (
             <div style="width: 100%; aspect-ratio: 3/4; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; padding: 2rem;">
               <span style="font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem;">{testata}</span>
-              <span style="font-size: 1rem;">n. {numero.numero_progressivo}</span>
+              <span style="font-size: 1rem;">{numero.id_numero}</span>
             </div>
           )}
         </div>
 
         <div class="hero-content">
           <span class="hero-badge">{testata}</span>
-          
+
           <h1 class="hero-title">
-            {numero.titolo_numero || numero.display_title}
+            {numero.display_title}
           </h1>
 
           <div class="hero-meta">
             <div class="hero-meta-item">
               <span class="hero-meta-label">Numero:</span>
-              <span>n. {numero.numero_progressivo}</span>
+              <span>{numero.id_numero}</span>
             </div>
             <div class="hero-meta-item">
               <span class="hero-meta-label">Anno:</span>
               <span>{numero.anno_pubblicazione}</span>
             </div>
-            {numero.periodo_label && (
-              <div class="hero-meta-item">
-                <span class="hero-meta-label">Periodo:</span>
-                <span>{numero.periodo_label}</span>
-              </div>
-            )}
           </div>
 
           {descrizione && (
@@ -463,21 +423,19 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
         {articoliNumero.length > 0 ? (
           <>
             <div class="articles-grid">
-              {articoliIt.map(article => {
-                const articleSlug = article.data.slug || article.slug;
-                const articleDate = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
-                const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
-                const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
-                const wpIdStr = String(article.data.wp_id ?? '');
-                const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+              {articoliIt.map((a) => {
+                const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+                const { categoria_menu } = getMegaclusterForArticle(a.wp_id);
+                const { formal } = getLabels([], a.wp_id);
+                const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
                 return (
                   <ArticleCard
-                    title={article.data.title}
-                    slug={articleSlug}
+                    title={a.titolo}
+                    slug={a.slug}
                     categoriaMenu={categoria_menu ?? undefined}
-                    issue={article.data.issue_number}
+                    issue={a.numero_rivista?.id_numero ?? null}
                     forma={formal}
-                    author={article.data.author}
+                    author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
                     date={articleDate}
                     image={articleImage}
                   />
@@ -489,21 +447,19 @@ const articoliEn = articoliNumero.filter(a => a.data.lang === 'en');
               <div class="english-edition-section">
                 <h2>English Edition</h2>
                 <div class="articles-grid">
-                  {articoliEn.map(article => {
-                    const articleSlug = article.data.slug || article.slug;
-                    const articleDate = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
-                    const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
-                    const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
-                    const wpIdStr = String(article.data.wp_id ?? '');
-                    const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+                  {articoliEn.map((a) => {
+                    const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+                    const { categoria_menu } = getMegaclusterForArticle(a.wp_id);
+                    const { formal } = getLabels([], a.wp_id);
+                    const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
                     return (
                       <ArticleCard
-                        title={article.data.title}
-                        slug={articleSlug}
+                        title={a.titolo}
+                        slug={a.slug}
                         categoriaMenu={categoria_menu ?? undefined}
-                        issue={article.data.issue_number}
+                        issue={a.numero_rivista?.id_numero ?? null}
                         forma={formal}
-                        author={article.data.author}
+                        author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
                         date={articleDate}
                         image={articleImage}
                       />

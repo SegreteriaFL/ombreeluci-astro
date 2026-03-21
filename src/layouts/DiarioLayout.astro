@@ -9,12 +9,9 @@ import Footer from '../components/Footer.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import '../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
-import megacluster from '../data/articoli_megacluster.json';
+import { getImageUrl } from '../lib/directus';
 
 const { nomeAutore, titoloDiario, fotoUrl, descrizioneDiario, articoli } = Astro.props;
-
-const megaclusterData = megacluster as { byId?: Record<string, { img_copertina_url?: string }> };
-const byId = megaclusterData.byId || {};
 ---
 
 <html lang="it">
@@ -55,21 +52,19 @@ const byId = megaclusterData.byId || {};
           <h2 class="visually-hidden">Articoli di {nomeAutore}</h2>
           {articoli.length > 0 ? (
             <div class="diario-articles-grid">
-              {articoli.map((article) => {
-                const articleSlug = article.data.slug ?? article.slug;
-                const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
-                const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
-                const articleDate = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
-                const wpIdStr = String(article.data.wp_id ?? '');
-                const articleImage = byId[wpIdStr]?.img_copertina_url || article.data.image;
+              {articoli.map((a: any) => {
+                const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a.wp_id);
+                const { formal } = getLabels([], a.wp_id);
+                const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+                const articleImage = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
                 return (
                   <ArticleCard
-                    title={article.data.title}
-                    slug={articleSlug}
+                    title={a.titolo}
+                    slug={a.slug}
                     categoriaMenu={categoria_menu ?? undefined}
-                    issue={article.data.issue_number}
+                    issue={a.numero_rivista?.id_numero ?? null}
                     forma={formal}
-                    author={article.data.author}
+                    author={a.autore?.nome_completo ?? nomeAutore}
                     date={articleDate}
                     image={articleImage}
                     ruoloEditoriale={ruolo_editoriale ?? undefined}

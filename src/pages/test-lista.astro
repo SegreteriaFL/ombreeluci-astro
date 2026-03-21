@@ -1,31 +1,18 @@
 ---
-import { getCollection } from 'astro:content';
 import { ViewTransitions } from 'astro:transitions';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
+import { getAllArticoli } from '../lib/directus';
 
 // Ottieni tutti gli articoli
-let allArticlesList = [];
+let allArticlesList: any[] = [];
 
 try {
-  const allArticles = await getCollection('blog');
+  const allArticles = await getAllArticoli();
   allArticlesList = allArticles
-    .filter(article => {
-      // Filtra articoli con date valide
-      try {
-        return article.data.date instanceof Date && !isNaN(article.data.date.getTime());
-      } catch (e) {
-        return false;
-      }
-    })
-    .sort((a, b) => {
-      try {
-        return b.data.date.getTime() - a.data.date.getTime();
-      } catch (e) {
-        return 0;
-      }
-    });
+    .filter((a) => a.data_pubblicazione != null)
+    .sort((a, b) => new Date(b.data_pubblicazione!).getTime() - new Date(a.data_pubblicazione!).getTime());
 } catch (error) {
   console.error('Errore caricamento articoli:', error);
 }
@@ -90,19 +77,16 @@ try {
     </div>
     
     <ol class="article-list">
-      {allArticlesList.map((article) => {
-        const articleSlug = article.data.slug || article.id.replace(/\.md$/, '').replace(/^.*\//, '');
-        return (
-          <li class="article-item">
-            <a href={`/blog/${articleSlug}`} class="article-link">
-              {article.data.title || 'Titolo mancante'}
-            </a>
-            <span class="article-meta">
-              ({article.data.date.getFullYear()}) - {article.data.author || 'Autore sconosciuto'} - Cluster: {article.data.cluster_id}
-            </span>
-          </li>
-        );
-      })}
+      {allArticlesList.map((a) => (
+        <li class="article-item">
+          <a href={`/blog/${a.slug}`} class="article-link">
+            {a.titolo || 'Titolo mancante'}
+          </a>
+          <span class="article-meta">
+            ({a.data_pubblicazione ? new Date(a.data_pubblicazione).getFullYear() : '?'}) - {a.autore?.nome_completo || 'Autore sconosciuto'} - Cluster: {a.cluster_id}
+          </span>
+        </li>
+      ))}
     </ol>
     </div>
     </main>

@@ -4,7 +4,6 @@
  * Sezioni: Hero (Primo Piano), I Diari, Blocchi tematici, Recensioni.
  * Per ora featured/themed sono gli ultimi per categoria; preparato per flag frontmatter (es. featured: true).
  */
-import { getCollection } from 'astro:content';
 import { ViewTransitions } from 'astro:transitions';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -12,12 +11,11 @@ import ArticleCard from '../components/ArticleCard.astro';
 import ArticleListRow from '../components/ArticleListRow.astro';
 import ThemedSection from '../components/ThemedSection.astro';
 import IssueCard from '../components/IssueCard.astro';
-import { getMegaclusterForArticle, getLabels, getCategoryBySlug, getRoleWeight, onlyItalianBlog } from '../config/taxonomy.js';
+import { getMegaclusterForArticle, getLabels, getCategoryBySlug, getRoleWeight } from '../config/taxonomy.js';
 import { DIARISTI } from '../data/diari.js';
-import megacluster from '../data/articoli_megacluster.json';
 import numeriData from '../data/numeri_consolidati.json';
-import placeholderImage from '../assets/placeholder1.webp';
 import '../styles/global.css';
+import { getAllArticoli, getAllAutori, getImageUrl } from '../lib/directus';
 
 type NumeroRecord = {
   id_numero: string;
@@ -55,68 +53,50 @@ const numeriPerCarousel = [...numeri]
   })
   .slice(0, 20);
 
-const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string; sottotitolo?: string | null }> }).byId || {};
-const autoriById = (megacluster as { autoriById?: Record<string, { foto_url?: string }> }).autoriById || {};
+const allAutori = await getAllAutori();
+const autoriBySlug: Record<string, { foto_url?: string }> = Object.fromEntries(
+  allAutori.map((a) => [a.slug, { foto_url: a.foto?.id ? getImageUrl(a.foto.id) : undefined }])
+);
+// Legacy alias for template references
+const autoriById = autoriBySlug;
 
-let allArticles: Awaited<ReturnType<typeof getCollection<'blog'>>> = [];
-try {
-  allArticles = onlyItalianBlog(await getCollection('blog'));
-} catch (e) {
-  console.error('[index.astro] getCollection error:', e);
-}
+const allArticles = (await getAllArticoli()).filter((a) => a.lang !== 'en');
 
-const sortedArticles = allArticles
-  .filter((a) => {
-    try {
-      return a.data.date instanceof Date && !isNaN(a.data.date.getTime());
-    } catch {
-      return false;
-    }
-  })
-  .sort((a, b) => {
-    const timeA = a.data.date.getTime();
-    const timeB = b.data.date.getTime();
-    if (timeA !== timeB) {
-      return timeB - timeA;
-    }
-    const roleA = getMegaclusterForArticle(a.data.wp_id).ruolo_editoriale;
-    const roleB = getMegaclusterForArticle(b.data.wp_id).ruolo_editoriale;
-    const weightA = getRoleWeight(roleA);
-    const weightB = getRoleWeight(roleB);
-    return weightB - weightA;
-  });
+type ArticoloItem = (typeof allArticles)[0];
 
-function articleSlug(article: (typeof sortedArticles)[0]): string {
-  return (article.data as { slug?: string }).slug ?? article.id.replace(/\.md$/, '').replace(/^.*\//, '');
-}
+const sortedArticles = [...allArticles].sort((a, b) => {
+  const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+  const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+  if (tA !== tB) return tB - tA;
+  const weightA = getRoleWeight(getMegaclusterForArticle(a.wp_id).ruolo_editoriale);
+  const weightB = getRoleWeight(getMegaclusterForArticle(b.wp_id).ruolo_editoriale);
+  return weightB - weightA;
+});
 
-function getArticleMeta(article: (typeof sortedArticles)[0]) {
-  const wpIdStr = String(article.data.wp_id ?? '');
-  const row = byId[wpIdStr];
-  const { categoria_menu, tema_label, ruolo_editoriale } = getMegaclusterForArticle(article.data.wp_id);
-  const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
-  const image = row?.img_copertina_url ?? article.data.image ?? (article.data as { copertina_url?: string }).copertina_url;
-  const date = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
-  const sommario = row?.sottotitolo ?? (article.data as { sommario?: string; description?: string }).sommario ?? (article.data as { description?: string }).description ?? undefined;
+function getArticleMeta(a: ArticoloItem) {
+  const { categoria_menu, tema_label, ruolo_editoriale } = getMegaclusterForArticle(a.wp_id);
+  const { formal } = getLabels([], a.wp_id);
+  const image = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+  const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+  const sommario = a.sottotitolo?.trim() || undefined;
   return {
-    slug: articleSlug(article),
-    title: article.data.title || 'Titolo mancante',
-    author: article.data.author || 'Autore sconosciuto',
+    slug: a.slug,
+    title: a.titolo || 'Titolo mancante',
+    author: a.autore?.nome_completo || 'Autore sconosciuto',
     date,
     image,
-    sommario: sommario && sommario.trim() ? sommario.trim() : undefined,
+    sommario,
     categoria_menu: categoria_menu ?? undefined,
     tema_label,
-    issue: article.data.issue_number,
+    issue: a.numero_rivista?.id_numero ?? null,
     forma: formal,
     ruolo_editoriale: ruolo_editoriale ?? undefined,
   };
 }
 
-// Featured: se in frontmatter c'è featured: true lo usiamo; altrimenti ultimo editoriale o ultimo articolo
-const editoriali = sortedArticles.filter((a) => getLabels(a.data.tags ?? [], a.data.wp_id).formal === 'Editoriale');
-const featuredByFlag = sortedArticles.find((a) => (a.data as { featured?: boolean }).featured === true);
-const featuredArticle = featuredByFlag ?? (editoriali.length > 0 ? editoriali[0] : sortedArticles[0]);
+// Featured: ultimo editoriale o primo articolo
+const editoriali = sortedArticles.filter((a) => getLabels([], a.wp_id).formal === 'Editoriale');
+const featuredArticle = editoriali.length > 0 ? editoriali[0] : sortedArticles[0];
 const featuredMeta = featuredArticle ? getArticleMeta(featuredArticle) : null;
 
 // Latest: prossimi 3 (escludendo il featured)
@@ -129,37 +109,38 @@ const diaristiSenzaDavide = DIARISTI.filter((d) => d.nome !== 'Davide Passeri');
 const latestPerDiario = diaristiSenzaDavide
   .map((diarista) => {
     const arts = allArticles
-      .filter((a) => (a.data.author || '').trim() === diarista.nome)
-      .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+      .filter((a) => (a.autore?.nome_completo || '').trim() === diarista.nome)
+      .sort((a, b) => {
+        const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+        const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+        return tB - tA;
+      });
     const article = arts[0];
     return article ? { diarista, article, meta: getArticleMeta(article) } : null;
   })
   .filter((x): x is NonNullable<typeof x> => x != null);
 
-// Temi per blocchi (slug categoria → descrizione). In futuro temi in CMS o frontmatter.
+// Temi per blocchi (slug categoria → descrizione).
 const HOME_THEMES: { slug: string; sectionTitle: string; description: string }[] = [
   { slug: 'fede-chiesa-e-spiritualita-della-fragilita', sectionTitle: 'FEDE', description: 'Chiesa, spiritualità e fragilità: il cammino di Fede e Luce e le storie che nascono dall\'incontro.' },
   { slug: 'linguaggio-cultura-e-rappresentazioni', sectionTitle: 'CULTURA', description: 'Linguaggio, cultura e rappresentazioni: cinema, arte e narrazioni sulla disabilità e sulla dignità della persona.' },
   { slug: 'educare-e-crescere-insieme', sectionTitle: 'SCUOLA', description: 'Educare e crescere insieme: scuola, inclusione e percorsi di crescita condivisi.' },
 ];
 
-// Per tema: in futuro si potrà usare frontmatter (es. theme_highlight: true) per marcare articoli in evidenza
 function articlesForTheme(temaLabel: string) {
-  const byTema = sortedArticles.filter((a) => getMegaclusterForArticle(a.data.wp_id).tema_label === temaLabel);
-  const highlighted = byTema.filter((a) => (a.data as { theme_highlight?: boolean }).theme_highlight === true);
-  const list = highlighted.length >= 3 ? highlighted.slice(0, 3) : byTema.slice(0, 3);
-  return list.map((a) => getArticleMeta(a));
+  const byTema = sortedArticles.filter((a) => getMegaclusterForArticle(a.wp_id).tema_label === temaLabel);
+  return byTema.slice(0, 3).map((a) => getArticleMeta(a));
 }
 
-// Testimonianze: ultime 3 per sezione (col1: 2 articoli, col2: 1 con foto grande)
+// Testimonianze: ultime 3
 const testimonianze = sortedArticles
-  .filter((a) => getLabels(a.data.tags ?? [], a.data.wp_id).formal === 'Testimonianza')
+  .filter((a) => getLabels([], a.wp_id).formal === 'Testimonianza')
   .slice(0, 3)
   .map((a) => getArticleMeta(a));
 
-// Recensioni: ultime 5 per sezione a 5 colonne
+// Recensioni: ultime 5
 const recensioni = sortedArticles
-  .filter((a) => getLabels(a.data.tags ?? [], a.data.wp_id).formal === 'Recensione')
+  .filter((a) => getLabels([], a.wp_id).formal === 'Recensione')
   .slice(0, 5)
   .map((a) => getArticleMeta(a));
 

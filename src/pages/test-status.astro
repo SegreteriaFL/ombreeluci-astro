@@ -1,13 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
+import { getAllArticoli } from '../lib/directus';
 
 let articleCount = 0;
 let errorMessage = null;
 
 try {
-  const articles = await getCollection('blog');
+  const articles = await getAllArticoli();
   articleCount = articles.length;
-} catch (error) {
+} catch (error: any) {
   errorMessage = error.message;
 }
 ---

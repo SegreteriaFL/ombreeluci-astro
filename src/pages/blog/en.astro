@@ -3,30 +3,23 @@
  * Blog EN – Indice articoli in inglese (src/content/blog/en/).
  * Route: /blog/en
  */
-import { getCollection } from 'astro:content';
 import { ViewTransitions } from 'astro:transitions';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { t } from '../../utils/i18n';
-import megacluster from '../../data/articoli_megacluster.json';
-import placeholderImage from '../../assets/placeholder1.webp';
 import '../../styles/global.css';
+import { getAllArticoli, getImageUrl } from '../../lib/directus';
 
-const byId = (megacluster as { byId?: Record<string, { img_copertina_url?: string }> }).byId || {};
-
-const allArticles = await getCollection('blog');
+const allArticles = await getAllArticoli();
 const englishArticles = allArticles
-  .filter((e) => e.id.startsWith('en/') || e.data?.lang === 'en')
-  .filter((a) => {
-    try {
-      return a.data.date instanceof Date && !isNaN(a.data.date.getTime());
-    } catch {
-      return false;
-    }
-  })
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+  .filter((a) => a.lang === 'en')
+  .sort((a, b) => {
+    const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+    const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+    return tB - tA;
+  });
 ---
 
 <html lang="en">
@@ -75,22 +68,19 @@ const englishArticles = allArticles
         <h1 class="en-title">{t('en', 'english_articles')}</h1>
         <p class="en-intro">Articles from Ombre e Luci available in English.</p>
         <div class="en-grid">
-          {englishArticles.map((article) => {
-            const slug = article.slug;
-            const wpId = String(article.data.wp_id ?? '');
-            const meta = byId[wpId] || {};
-            const image = meta.img_copertina_url || article.data.image || placeholderImage.src;
-            const { categoria_menu } = getMegaclusterForArticle(article.data.wp_id);
-            const { formal } = getLabels(article.data.tags ?? [], article.data.wp_id);
+          {englishArticles.map((a) => {
+            const image = a.immagine_copertina?.id ? getImageUrl(a.immagine_copertina.id) : '/placeholder1.webp';
+            const { categoria_menu } = getMegaclusterForArticle(a.wp_id);
+            const { formal } = getLabels([], a.wp_id);
             return (
               <ArticleCard
-                title={article.data.title}
-                slug={slug}
+                title={a.titolo}
+                slug={a.slug}
                 categoriaMenu={categoria_menu ?? undefined}
-                issue={article.data.issue_number}
+                issue={a.numero_rivista?.id_numero ?? null}
                 forma={formal}
-                author={article.data.author}
-                date={article.data.date}
+                author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+                date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
                 image={image}
               />
             );
