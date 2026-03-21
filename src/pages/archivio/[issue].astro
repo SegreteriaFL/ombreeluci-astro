@@ -6,7 +6,7 @@ import IssueNavPill from '../../components/IssueNavPill.astro';
 import { ViewTransitions } from 'astro:transitions';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
-import { getAllNumeriRivista, getAllArticoli, getArticoloCopertinaSrc, getNumeroImageUrl } from '../../lib/directus';
+import { getAllNumeriRivista, getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
 
 // Genera tutti i percorsi statici da Directus (ordinati per anno asc per prev/next)
 export async function getStaticPaths() {
@@ -335,18 +335,10 @@ const articoliEn = articoliNumero.filter(a => a.lang === 'en');
       {/* Hero Section */}
       <section class="hero-section">
         <div class="hero-cover">
-          {numero.wp_id ? (
-            <img
-              src={getNumeroImageUrl(numero.wp_id)}
-              alt={`Copertina ${testata} ${numero.id_numero}`}
-              loading="eager"
-            />
-          ) : (
-            <div style="width: 100%; aspect-ratio: 3/4; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; padding: 2rem;">
+          <div style="width: 100%; aspect-ratio: 3/4; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; padding: 2rem;">
               <span style="font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem;">{testata}</span>
               <span style="font-size: 1rem;">{numero.id_numero}</span>
             </div>
-          )}
         </div>
 
         <div class="hero-content">

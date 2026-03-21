@@ -4,7 +4,7 @@ import Footer from '../../components/Footer.astro';
 import IssueCard from '../../components/IssueCard.astro';
 import { ViewTransitions } from 'astro:transitions';
 import '../../styles/global.css';
-import { getAllNumeriRivista, getNumeroImageUrl } from '../../lib/directus';
+import { getAllNumeriRivista } from '../../lib/directus';
 
 // Carica i numeri da Directus e ordina per anno desc (più recente prima)
 const rawNumeri = await getAllNumeriRivista();
@@ -248,7 +248,7 @@ const anni = Array.from(new Set(numeriOrdinati.map((n) => n.anno_pubblicazione ?
               data-numero={numero}
             >
               <IssueCard
-                cover_url={n.wp_id ? getNumeroImageUrl(n.wp_id) : undefined}
+                cover_url={undefined}
                 titolo_numero={n.display_title ?? ''}
                 numero={numero}
                 anno={anno}
