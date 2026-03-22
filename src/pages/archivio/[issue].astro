@@ -11,9 +11,16 @@ import { getAllNumeriRivista, getAllArticoli, getArticoloCopertinaSrc, getNumero
 // Genera tutti i percorsi statici da Directus (ordinati per anno asc per prev/next)
 export async function getStaticPaths() {
   const rawNumeri = await getAllNumeriRivista();
-  const numeriOrdinati = [...rawNumeri].sort((a, b) =>
-    (a.anno_pubblicazione ?? 0) - (b.anno_pubblicazione ?? 0)
-  );
+  function numProgressivo(idNumero: string): number {
+    const m = idNumero.match(/(\d+)$/);
+    return m ? parseInt(m[1], 10) : 0;
+  }
+  const numeriOrdinati = [...rawNumeri].sort((a, b) => {
+    const annoA = a.anno_pubblicazione ?? 0;
+    const annoB = b.anno_pubblicazione ?? 0;
+    if (annoA !== annoB) return annoA - annoB;
+    return numProgressivo(a.id_numero) - numProgressivo(b.id_numero);
+  });
   const allArticoli = await getAllArticoli();
 
   return numeriOrdinati.map((numero, index) => {
