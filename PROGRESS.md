@@ -276,3 +276,12 @@ scripts_and_data/
 7. **Upgrade VPS CX23 → CX32** prima di attivare embedding pgvector
 
 8. **Cutover DNS** `ombreeluci.it` + custom domain R2 `media.ombreeluci.it` — solo quando il sito è pronto per produzione
+
+---
+
+## User Stories (backlog idee — da decidere quando e come)
+
+| # | Storia | Note tecniche |
+|---|--------|---------------|
+| US-01 | **Homepage dinamica** — articoli in prima sezione vanno in rotazione ad ogni visita o ogni N secondi, per dare senso di rivista viva | Pool di 12-20 card pre-renderizzate al build (statiche, SEO-safe), shuffle JS client-side con cross-fade CSS. Selezione ponderata: `ruolo_editoriale=portante/strutturale`, distribuzione tra categorie, max 1 autore, ultimi 24 mesi |
+| US-02 | **Ricerca semantica** — ricerca interna per concetto, non solo parola esatta | Embedding pgvector su Directus, CF Worker endpoint, richiede upgrade VPS CX23→CX32. Da fare dopo cutover DNS |
