@@ -64,7 +64,7 @@ import '../styles/global.css';
       });
 
       document.addEventListener('astro:page-load', function () {
-        import('/pagefind/pagefind-ui.js').then(({ PagefindUI }) => {
+        import(/* @vite-ignore */ '/pagefind/pagefind-ui.js').then(({ PagefindUI }) => {
           const ui = new PagefindUI({
             element: '#search',
             showSubResults: false,
