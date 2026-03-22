@@ -4,96 +4,96 @@ interface Props {
   title: string;
   currentRole?: string | null;
   url: string;
+  articoloId?: string | null;
 }
 
-const { wpId, title, currentRole, url } = Astro.props;
-
-// Visibile solo se URL contiene ?redazione=1 (verificato lato client)
+const { wpId, title, currentRole, url, articoloId } = Astro.props;
+const directusEditUrl = articoloId
+  ? `http://159.69.196.64:8055/admin/content/articoli/${articoloId}`
+  : 'http://159.69.196.64:8055/admin/content/articoli';
 ---
 
+<!-- Bottone modifica Directus (sempre nel DOM, mostrato via JS) -->
+<a
+  id="directus-edit-btn"
+  href={directusEditUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="directus-edit-btn"
+  hidden
+>
+  ✏ Modifica in Directus
+</a>
+
 <aside class="editorial-feedback" aria-label="Box revisione editoriale" id="editorial-feedback-box" hidden>
-    <div class="editorial-feedback-header">
-      <span class="editorial-feedback-title">BOX REVISIONE EDITORIALE</span>
+  <div class="editorial-feedback-header">
+    <span class="editorial-feedback-title">BOX REVISIONE EDITORIALE</span>
+  </div>
+  <form id="editorial-feedback-form" class="editorial-feedback-form">
+    <div class="editorial-feedback-row">
+      <label for="proposed_role" class="editorial-feedback-label">Ruolo proposto</label>
+      <select id="proposed_role" name="proposed_role" class="editorial-feedback-select">
+        <option value="">Nessun cambio</option>
+        <option value="portante">portante</option>
+        <option value="strutturale">strutturale</option>
+        <option value="laterale">laterale</option>
+        <option value="trasversale">trasversale</option>
+      </select>
     </div>
-    <form
-      id="editorial-feedback-form"
-      class="editorial-feedback-form"
-      method="post"
-    >
-      <div class="editorial-feedback-row">
-        <label for="proposed_role" class="editorial-feedback-label">
-          Ruolo proposto
-        </label>
-        <select
-          id="proposed_role"
-          name="proposed_role"
-          class="editorial-feedback-select"
-        >
-          <option value="">Nessun cambio</option>
-          <option value="portante">portante</option>
-          <option value="strutturale">strutturale</option>
-          <option value="laterale">laterale</option>
-          <option value="trasversale">trasversale</option>
-        </select>
-      </div>
-
-      <div class="editorial-feedback-row">
-        <label for="notes" class="editorial-feedback-label">
-          Note per la redazione
-        </label>
-        <textarea
-          id="notes"
-          name="notes"
-          class="editorial-feedback-textarea"
-          rows={3}
-        />
-      </div>
-
-      <input type="hidden" id="wp_id" name="wp_id" value={wpId ?? ''} />
-      <input type="hidden" id="title" name="title" value={title} />
-      <input
-        type="hidden"
-        id="current_role"
-        name="current_role"
-        value={currentRole ?? ''}
-      />
-      <input type="hidden" id="url" name="url" value={url} />
-
-      <div class="editorial-feedback-row editorial-feedback-actions">
-        <button type="submit" class="editorial-feedback-submit">
-          Invia
-        </button>
-        <p id="feedback-status" class="editorial-feedback-status" hidden></p>
-      </div>
-    </form>
-  </aside>
+    <div class="editorial-feedback-row">
+      <label for="notes" class="editorial-feedback-label">Note per la redazione</label>
+      <textarea id="notes" name="notes" class="editorial-feedback-textarea" rows={3}></textarea>
+    </div>
+    <input type="hidden" name="wp_id" value={wpId ?? ''} />
+    <input type="hidden" name="title" value={title} />
+    <input type="hidden" name="current_role" value={currentRole ?? ''} />
+    <input type="hidden" name="url" value={url} />
+    <div class="editorial-feedback-row editorial-feedback-actions">
+      <button type="submit" class="editorial-feedback-submit">Invia</button>
+      <p id="feedback-status" class="editorial-feedback-status" hidden></p>
+    </div>
+  </form>
+</aside>
 
 <script>
   const ENDPOINT = 'https://script.google.com/macros/s/AKfycbyr5pblqyaH-AziRg3rhJBs8znL1qWs2smo15ksP8ePezZgFEDhdCHJoloKkMRbQF9xJA/exec';
+  const STORAGE_KEY = 'oel_redazione';
 
   function initEditorialFeedback() {
-    // Mostra il box solo se ?redazione=1 è nell'URL
+    // Gestisci attivazione/disattivazione via URL
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('redazione') === '1') localStorage.setItem(STORAGE_KEY, '1');
+    if (params.get('redazione') === '0') localStorage.removeItem(STORAGE_KEY);
+
+    const isRedazione = localStorage.getItem(STORAGE_KEY) === '1';
+
+    // Edit button
+    const editBtn = document.getElementById('directus-edit-btn');
+    if (editBtn) editBtn.hidden = !isRedazione;
+
+    // Debug section
+    const debugSection = document.querySelector<HTMLDetailsElement>('details.debug-section');
+    if (debugSection) debugSection.hidden = !isRedazione;
+
+    // Editorial box
     const box = document.getElementById('editorial-feedback-box');
     if (!box) return;
-    const isRedazione = new URLSearchParams(window.location.search).has('redazione');
     box.hidden = !isRedazione;
     if (!isRedazione) return;
 
     const form = document.getElementById('editorial-feedback-form') as HTMLFormElement | null;
-    const statusEl = document.getElementById('feedback-status');
-    const submitBtn = form?.querySelector<HTMLButtonElement>('.editorial-feedback-submit');
     if (!form) return;
 
-    // Rimuovi listener precedente clonando il form
-    const freshForm = form.cloneNode(true) as HTMLFormElement;
-    form.replaceWith(freshForm);
-    const freshBtn = freshForm.querySelector<HTMLButtonElement>('.editorial-feedback-submit');
-    const freshStatus = document.getElementById('feedback-status');
+    // Clona per rimuovere eventuali listener precedenti (ViewTransitions)
+    const fresh = form.cloneNode(true) as HTMLFormElement;
+    form.replaceWith(fresh);
+    const freshBtn = fresh.querySelector<HTMLButtonElement>('.editorial-feedback-submit');
+    const freshStatus = fresh.querySelector<HTMLParagraphElement>('#feedback-status');
 
-    freshForm.addEventListener('submit', async (e) => {
+    fresh.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const fd = new FormData(freshForm);
-      const params = new URLSearchParams({
+      const fd = new FormData(fresh);
+      const qs = new URLSearchParams({
         wp_id:         String(fd.get('wp_id') ?? ''),
         title:         String(fd.get('title') ?? ''),
         current_role:  String(fd.get('current_role') ?? ''),
@@ -106,15 +106,14 @@ const { wpId, title, currentRole, url } = Astro.props;
       if (freshBtn) freshBtn.disabled = true;
 
       try {
-        // GET con params: pattern standard e affidabile per Apps Script doGet()
-        await fetch(`${ENDPOINT}?${params.toString()}`, { mode: 'no-cors' });
-        freshForm.reset();
+        await fetch(`${ENDPOINT}?${qs.toString()}`, { mode: 'no-cors' });
+        fresh.reset();
         if (freshStatus) {
-          freshStatus.textContent = '✓ Inviato con successo!';
-          setTimeout(() => { if (freshStatus) freshStatus.hidden = true; }, 5000);
+          freshStatus.textContent = '✓ Inviato!';
+          setTimeout(() => { if (freshStatus) freshStatus.hidden = true; }, 4000);
         }
       } catch {
-        if (freshStatus) { freshStatus.textContent = 'Errore di rete — riprova.'; }
+        if (freshStatus) freshStatus.textContent = 'Errore di rete — riprova.';
       } finally {
         if (freshBtn) setTimeout(() => { freshBtn.disabled = false; }, 3000);
       }
@@ -126,8 +125,25 @@ const { wpId, title, currentRole, url } = Astro.props;
 </script>
 
 <style>
+  .directus-edit-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 1.5rem;
+    padding: 0.4rem 0.9rem;
+    background: #1a1a2e;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+  }
+  .directus-edit-btn:hover { opacity: 1; }
+
   .editorial-feedback {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     padding: 0.75rem 1rem 0.9rem;
     background: #fffbe6;
     border: 1px dashed #e0c94f;
@@ -138,9 +154,7 @@ const { wpId, title, currentRole, url } = Astro.props;
     color: var(--text-secondary, #5c5c5c);
   }
 
-  .editorial-feedback-header {
-    margin-bottom: 0.35rem;
-  }
+  .editorial-feedback-header { margin-bottom: 0.35rem; }
 
   .editorial-feedback-title {
     display: inline-block;
@@ -196,10 +210,10 @@ const { wpId, title, currentRole, url } = Astro.props;
     margin-top: 0.4rem;
     align-items: center;
     gap: 0.5rem;
+    flex-direction: row;
   }
 
   .editorial-feedback-submit {
-    align-self: flex-start;
     padding: 0.25rem 0.7rem;
     border-radius: 999px;
     border: 1px solid #d3b53e;
@@ -211,9 +225,7 @@ const { wpId, title, currentRole, url } = Astro.props;
     cursor: pointer;
   }
 
-  .editorial-feedback-submit:hover {
-    background: #ffef8a;
-  }
+  .editorial-feedback-submit:hover { background: #ffef8a; }
 
   .editorial-feedback-status {
     font-size: 0.75rem;

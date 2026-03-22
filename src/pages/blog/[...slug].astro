@@ -1380,6 +1380,7 @@ const relatedArticles = relatedCategorySlug
           title={articleTitle}
           currentRole={ruolo_editoriale}
           url={Astro.url.href}
+          articoloId={articolo.id}
         />
       </div>
 
@@ -1428,7 +1429,7 @@ const relatedArticles = relatedCategorySlug
       )}
 
       {/* Debug: mostra i dati dell'articolo */}
-      <details class="debug-section">
+      <details class="debug-section" hidden>
         <summary style="cursor: pointer; color: var(--text-secondary); font-size: 0.85rem; margin-top: 2rem; padding: 0.5rem;">
           🔍 Debug: Dati articolo
         </summary>
