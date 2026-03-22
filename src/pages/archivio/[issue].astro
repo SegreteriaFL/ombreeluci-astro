@@ -22,7 +22,9 @@ export async function getStaticPaths() {
     const nextNumero = index < numeriOrdinati.length - 1 ? numeriOrdinati[index + 1] : null;
     const prevSlug = prevNumero ? prevNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
     const nextSlug = nextNumero ? nextNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
-    const articoliNumero = allArticoli.filter(a => a.numero_rivista?.id === numero.id);
+    const articoliNumero = allArticoli.filter(a =>
+      a.numero_rivista?.id === numero.id && a.stato === 'published'
+    );
     return {
       params: { issue: issueSlug },
       props: { numero, prevSlug, nextSlug, articoliNumero },
