@@ -6,7 +6,7 @@ import IssueNavPill from '../../components/IssueNavPill.astro';
 import { ViewTransitions } from 'astro:transitions';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
-import { getAllNumeriRivista, getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
+import { getAllNumeriRivista, getAllArticoli, getArticoloCopertinaSrc, getNumeroImageUrl } from '../../lib/directus';
 
 // Genera tutti i percorsi statici da Directus (ordinati per anno asc per prev/next)
 export async function getStaticPaths() {
@@ -43,6 +43,7 @@ const articoliNumero = [...rawArticoliNumero].sort((a, b) => {
 // Determina URL per sfogliare online e scaricare PDF
 const archiveViewUrl = numero.wp_url || null;
 const pdfUrl = numero.pdf_archive_url || null;
+const copertinaNumeroUrl = getNumeroImageUrl(numero);
 
 // Determina testata
 const testata = numero.tipo === 'insieme' ? 'Insieme' : 'Ombre e Luci';
@@ -337,10 +338,20 @@ const articoliEn = articoliNumero.filter(a => a.lang === 'en');
       {/* Hero Section */}
       <section class="hero-section">
         <div class="hero-cover">
-          <div style="width: 100%; aspect-ratio: 3/4; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; padding: 2rem;">
+          {copertinaNumeroUrl ? (
+            <img
+              src={copertinaNumeroUrl}
+              alt={`Copertina ${testata} ${numero.id_numero}`}
+              width={380}
+              height={507}
+              data-copertina-fallback
+            />
+          ) : (
+            <div style="width: 100%; aspect-ratio: 3/4; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; padding: 2rem;">
               <span style="font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem;">{testata}</span>
               <span style="font-size: 1rem;">{numero.id_numero}</span>
             </div>
+          )}
         </div>
 
         <div class="hero-content">

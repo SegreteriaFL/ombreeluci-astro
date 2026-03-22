@@ -16,8 +16,13 @@ export function getAutoreImageUrl(fileId: string): string {
   return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/autori/${fileId}`;
 }
 
-export function getNumeroImageUrl(wpId: number): string {
-  return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/numeri/${wpId}.jpg`;
+/**
+ * URL copertina del numero rivista: campo Directus `copertina_url` (immagine su R2).
+ * Ritorna null se non impostato (es. prima del backfill).
+ */
+export function getNumeroImageUrl(numero: { copertina_url?: string | null }): string | null {
+  const u = numero.copertina_url?.trim();
+  return u || null;
 }
 
 /** Copertina articolo assente o non caricabile: asset statico in `public/`. */
@@ -50,6 +55,7 @@ export interface NumeroRivistaRef {
   display_title: string;
   anno_pubblicazione: number | null;
   pdf_archive_url: string | null;
+  copertina_url?: string | null;
 }
 
 export interface SerieRef {
@@ -128,7 +134,8 @@ export interface NumeroRivista {
   descrizione: string | null;
   pdf_archive_url: string | null;
   wp_url: string | null;
-  copertina: string | null;
+  /** URL assoluto copertina (R2 `numeri/{wp_id}.jpg`), non la M2O `copertina`. */
+  copertina_url: string | null;
 }
 
 // ── HTTP helper ───────────────────────────────────────────────────────────────
@@ -165,7 +172,7 @@ const ARTICOLO_LIST_FIELDS = [
   'autore.id', 'autore.slug', 'autore.nome_completo',
   'autore.bio_html', 'autore.foto.id', 'autore.foto.filename_download',
   'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
-  'numero_rivista.anno_pubblicazione', 'numero_rivista.pdf_archive_url',
+  'numero_rivista.anno_pubblicazione', 'numero_rivista.pdf_archive_url', 'numero_rivista.copertina_url',
   'immagine_copertina.id', 'immagine_copertina.filename_download',
   'temi.temi_id.id', 'temi.temi_id.slug', 'temi.temi_id.nome',
   'tags.tags_id.id', 'tags.tags_id.slug', 'tags.tags_id.nome',
@@ -207,7 +214,7 @@ export async function getArticoloBySlug(slug: string): Promise<ArticoloFull | nu
       'autore.id', 'autore.slug', 'autore.nome_completo',
       'autore.bio_html', 'autore.foto.id', 'autore.foto.filename_download',
       'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
-      'numero_rivista.anno_pubblicazione',
+      'numero_rivista.anno_pubblicazione', 'numero_rivista.copertina_url',
       'serie.id', 'serie.slug', 'serie.nome',
       'immagine_copertina.id', 'immagine_copertina.filename_download',
       'temi.temi_id.id', 'temi.temi_id.slug', 'temi.temi_id.nome',
@@ -302,7 +309,7 @@ export async function getAutoreBySlug(slug: string): Promise<Autore | null> {
  */
 export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
   const data = await directusFetch<{ data: NumeroRivista[] }>(
-    '/items/numeri_rivista?fields=id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina&limit=-1&sort=anno_pubblicazione'
+    '/items/numeri_rivista?fields=id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina_url&limit=-1&sort=anno_pubblicazione'
   );
   if (!data) return [];
   return data.data ?? [];
@@ -314,7 +321,7 @@ export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
 export async function getNumeroRivistaById(idNumero: string): Promise<NumeroRivista | null> {
   const params = new URLSearchParams({
     'filter[id_numero][_eq]': idNumero,
-    fields: 'id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina',
+    fields: 'id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina_url',
     limit: '1',
   });
   const data = await directusFetch<{ data: NumeroRivista[] }>(
