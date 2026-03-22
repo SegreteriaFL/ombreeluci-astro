@@ -93,13 +93,14 @@ const issueLink = issueSlug ? `/archivio/${issueSlug}` : null;
 // ── Immagine copertina ─────────────────────────────────────────────────────────
 
 const articleImageRaw = getArticoloCopertinaSrc(articolo);
-const _ph = articolo.immagine_copertina?.id ? null : getPlaceholder(articolo.slug ?? '');
-const articleImage = _ph ? _ph.src : articleImageRaw;
+const articleImage = articolo.immagine_copertina?.id
+  ? articleImageRaw
+  : getPlaceholder(articolo.slug ?? '').src;
 
 // ── Sottotitolo e SEO ──────────────────────────────────────────────────────────
 
 const explicitSubtitle = articolo.sottotitolo?.trim() || null;
-const heroCaption: string | null = _ph ? _ph.caption : null;
+const heroCaption: string | null = null;
 
 const metaDescription = (explicitSubtitle || articolo.seo_description)
   ? (explicitSubtitle || articolo.seo_description)!.substring(0, 160).replace(/\s+/g, ' ').trim()

@@ -6,9 +6,7 @@ import { getPlaceholder } from '../utils/placeholder';
 const { title, author, date, issue, slug, image, categoriaMenu, forma, ruoloEditoriale } = Astro.props;
 const hasIssue = issue != null && String(issue).trim() !== '';
 const displayIssue = hasIssue ? issue : "Pubblicato online";
-const ph = getPlaceholder(slug ?? title ?? '');
-const imageSrc = image || ph.src;
-const imageCaption = image ? null : ph.caption;
+const imageSrc = image || getPlaceholder(slug ?? title ?? '').src;
 // Badge: [Numero] • [Forma (se != Articolo)] / [categoria_menu]
 const formalPart = forma && forma !== 'Articolo' ? `${forma} / ` : '';
 const badgeText = hasIssue
@@ -65,9 +63,6 @@ const authorLinkSlug = authorSlug(author);
         data-copertina-fallback
         onerror={COPERTINA_IMG_ONERROR}
       />
-      {imageCaption && (
-        <p class="article-image-caption">{imageCaption}</p>
-      )}
     </div>
     <div class="article-meta">
       <p class={badgeText === 'Pubblicato online' ? 'article-badge article-badge-muted' : 'article-badge'}>
@@ -118,21 +113,6 @@ const authorLinkSlug = authorSlug(author);
     min-height: 120px;
     object-fit: cover;
     display: block;
-  }
-
-  .article-image-caption {
-    margin: 0.25rem 0 0;
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    text-align: right;
-    opacity: 0.75;
-  }
-  @media (max-width: 768px) {
-    .article-image-wrap img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
   }
   @media (max-width: 480px) {
     .author-row { white-space: normal; flex-wrap: wrap; }
