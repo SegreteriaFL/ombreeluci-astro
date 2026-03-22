@@ -254,7 +254,7 @@ const autori = allAutori.map((autore) => {
     </style>
 
     <script>
-      (function () {
+      document.addEventListener('astro:page-load', function () {
         const grid = document.getElementById('autori-grid');
         const search = document.getElementById('autori-search');
         const sortSelect = document.getElementById('autori-sort');
@@ -288,7 +288,7 @@ const autori = allAutori.map((autore) => {
         if (search) search.addEventListener('input', applyFilterAndSort);
         if (sortSelect) sortSelect.addEventListener('change', applyFilterAndSort);
         applyFilterAndSort();
-      })();
+      });
     </script>
     <Footer />
   </body>

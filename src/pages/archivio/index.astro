@@ -267,7 +267,7 @@ const anni = Array.from(new Set(numeriOrdinati.map((n) => n.anno_pubblicazione ?
     </div>
 
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener('astro:page-load', function() {
         const filterAnno = document.getElementById('filter-anno');
         const filterTestata = document.getElementById('filter-testata');
         const filterOrdine = document.getElementById('filter-ordine');
