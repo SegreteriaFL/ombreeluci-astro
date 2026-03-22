@@ -8,13 +8,10 @@ interface Props {
 
 const { wpId, title, currentRole, url } = Astro.props;
 
-// Mostra il box sempre in build; la visibilità ambiente-specifica
-// può essere gestita con variabili d'ambiente lato deploy.
-const show = true;
+// Visibile solo se URL contiene ?redazione=1 (verificato lato client)
 ---
 
-{show && (
-  <aside class="editorial-feedback" aria-label="Box revisione editoriale">
+<aside class="editorial-feedback" aria-label="Box revisione editoriale" id="editorial-feedback-box" hidden>
     <div class="editorial-feedback-header">
       <span class="editorial-feedback-title">BOX REVISIONE EDITORIALE</span>
     </div>
@@ -66,95 +63,66 @@ const show = true;
         <button type="submit" class="editorial-feedback-submit">
           Invia
         </button>
-        <p id="feedback-status" class="editorial-feedback-status" hidden>
-          Inviato con successo!
-        </p>
+        <p id="feedback-status" class="editorial-feedback-status" hidden></p>
       </div>
     </form>
   </aside>
-)}
 
 <script>
-  (function () {
-    const form = document.getElementById('editorial-feedback-form');
+  const ENDPOINT = 'https://script.google.com/macros/s/AKfycbyr5pblqyaH-AziRg3rhJBs8znL1qWs2smo15ksP8ePezZgFEDhdCHJoloKkMRbQF9xJA/exec';
+
+  function initEditorialFeedback() {
+    // Mostra il box solo se ?redazione=1 è nell'URL
+    const box = document.getElementById('editorial-feedback-box');
+    if (!box) return;
+    const isRedazione = new URLSearchParams(window.location.search).has('redazione');
+    box.hidden = !isRedazione;
+    if (!isRedazione) return;
+
+    const form = document.getElementById('editorial-feedback-form') as HTMLFormElement | null;
     const statusEl = document.getElementById('feedback-status');
-    const submitButton = form
-      ? (form.querySelector('.editorial-feedback-submit') as HTMLButtonElement)
-      : null;
+    const submitBtn = form?.querySelector<HTMLButtonElement>('.editorial-feedback-submit');
     if (!form) return;
 
-    const endpoint =
-      import.meta.env.PUBLIC_EDITORIAL_FEEDBACK_ENDPOINT ||
-      'https://script.google.com/macros/s/AKfycbyr5pblqyaH-AziRg3rhJBs8znL1qWs2smo15ksP8ePezZgFEDhdCHJoloKkMRbQF9xJA/exec';
+    // Rimuovi listener precedente clonando il form
+    const freshForm = form.cloneNode(true) as HTMLFormElement;
+    form.replaceWith(freshForm);
+    const freshBtn = freshForm.querySelector<HTMLButtonElement>('.editorial-feedback-submit');
+    const freshStatus = document.getElementById('feedback-status');
 
-    form.addEventListener('submit', async function (event) {
-      event.preventDefault();
+    freshForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const fd = new FormData(freshForm);
+      const params = new URLSearchParams({
+        wp_id:         String(fd.get('wp_id') ?? ''),
+        title:         String(fd.get('title') ?? ''),
+        current_role:  String(fd.get('current_role') ?? ''),
+        proposed_role: String(fd.get('proposed_role') ?? ''),
+        notes:         String(fd.get('notes') ?? ''),
+        url:           String(fd.get('url') ?? ''),
+      });
+
+      if (freshStatus) { freshStatus.textContent = 'Invio in corso…'; freshStatus.hidden = false; }
+      if (freshBtn) freshBtn.disabled = true;
 
       try {
-        const formData = new FormData(form);
-        const params = new URLSearchParams();
-        params.append('wp_id', String(formData.get('wp_id') ?? ''));
-        params.append('title', String(formData.get('title') ?? ''));
-        params.append(
-          'current_role',
-          String(formData.get('current_role') ?? '')
-        );
-        params.append(
-          'proposed_role',
-          String(formData.get('proposed_role') ?? '')
-        );
-        params.append('notes', String(formData.get('notes') ?? ''));
-        params.append('url', String(formData.get('url') ?? ''));
-
-        if (statusEl) {
-          statusEl.textContent = 'Invio in corso...';
-          statusEl.hidden = false;
+        // GET con params: pattern standard e affidabile per Apps Script doGet()
+        await fetch(`${ENDPOINT}?${params.toString()}`, { mode: 'no-cors' });
+        freshForm.reset();
+        if (freshStatus) {
+          freshStatus.textContent = '✓ Inviato con successo!';
+          setTimeout(() => { if (freshStatus) freshStatus.hidden = true; }, 5000);
         }
-
-        if (submitButton) {
-          submitButton.disabled = true;
-        }
-
-        console.log("Dati pronti per l'invio", params.toString());
-
-        await fetch(endpoint, {
-          method: 'POST',
-          mode: 'no-cors',
-          body: params.toString(),
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-          },
-        });
-
-        form.reset();
-
-        if (statusEl) {
-          statusEl.textContent = 'Inviato con successo!';
-          statusEl.hidden = false;
-          setTimeout(() => {
-            statusEl.hidden = true;
-          }, 5000);
-        }
-
-        if (submitButton) {
-          setTimeout(() => {
-            submitButton.disabled = false;
-          }, 3000);
-        }
-      } catch (error) {
-        console.error('Errore durante invio feedback editoriale', error);
-        if (statusEl) {
-          statusEl.textContent =
-            "Errore durante l'invio (controlla la connessione).";
-          statusEl.hidden = false;
-        }
-
-        if (submitButton) {
-          submitButton.disabled = false;
-        }
+      } catch {
+        if (freshStatus) { freshStatus.textContent = 'Errore di rete — riprova.'; }
+      } finally {
+        if (freshBtn) setTimeout(() => { freshBtn.disabled = false; }, 3000);
       }
     });
-  })();
+  }
+
+  document.addEventListener('astro:page-load', initEditorialFeedback);
+  if (document.readyState !== 'loading') initEditorialFeedback();
 </script>
 
 <style>
