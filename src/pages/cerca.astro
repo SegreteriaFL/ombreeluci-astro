@@ -13,6 +13,7 @@ import '../styles/global.css';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cerca - Ombre e Luci</title>
     <meta name="description" content="Cerca articoli, autori e temi nella rivista Ombre e Luci" />
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
     <style>
       .cerca-container {
         max-width: 860px;
@@ -56,6 +57,12 @@ import '../styles/global.css';
     <Footer />
 
     <script>
+      // Pulisce l'input dell'header quando si lascia /cerca
+      document.addEventListener('astro:before-preparation', function () {
+        const headerInput = document.getElementById('header-search');
+        if (headerInput) (headerInput as HTMLInputElement).value = '';
+      });
+
       document.addEventListener('astro:page-load', function () {
         import('/pagefind/pagefind-ui.js').then(({ PagefindUI }) => {
           const ui = new PagefindUI({
