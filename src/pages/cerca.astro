@@ -13,7 +13,6 @@ import '../styles/global.css';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cerca - Ombre e Luci</title>
     <meta name="description" content="Cerca articoli, autori e temi nella rivista Ombre e Luci" />
-    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
     <style>
       .cerca-container {
         max-width: 860px;
@@ -57,6 +56,9 @@ import '../styles/global.css';
     <Footer />
 
     <script>
+      import { PagefindUI } from '@pagefind/default-ui';
+      import '@pagefind/default-ui/css/ui.css';
+
       // Pulisce l'input dell'header quando si lascia /cerca
       document.addEventListener('astro:before-preparation', function () {
         const headerInput = document.getElementById('header-search');
@@ -64,24 +66,27 @@ import '../styles/global.css';
       });
 
       document.addEventListener('astro:page-load', function () {
-        import(/* @vite-ignore */ '/pagefind/pagefind-ui.js').then(({ PagefindUI }) => {
-          const ui = new PagefindUI({
-            element: '#search',
-            showSubResults: false,
-            showImages: false,
-            translations: {
-              placeholder: 'Cerca articoli, autori, temi…',
-              zero_results: 'Nessun risultato per [SEARCH_TERM]',
-              many_results: '[COUNT] risultati per [SEARCH_TERM]',
-              one_result: '1 risultato per [SEARCH_TERM]',
-              loading: 'Caricamento…',
-              load_more: 'Carica altri risultati',
-            },
-          });
-          // Pre-riempie la ricerca se arriva dal form dell'header (?q=...)
-          const q = new URLSearchParams(window.location.search).get('q');
-          if (q) ui.triggerSearch(q);
+        const el = document.getElementById('search');
+        if (!el) return;
+        el.innerHTML = '';
+
+        const ui = new PagefindUI({
+          element: '#search',
+          showSubResults: false,
+          showImages: false,
+          translations: {
+            placeholder: 'Cerca articoli, autori, temi…',
+            zero_results: 'Nessun risultato per [SEARCH_TERM]',
+            many_results: '[COUNT] risultati per [SEARCH_TERM]',
+            one_result: '1 risultato per [SEARCH_TERM]',
+            loading: 'Caricamento…',
+            load_more: 'Carica altri risultati',
+          },
         });
+
+        // Pre-riempie la ricerca se arriva dal form dell'header (?q=...)
+        const q = new URLSearchParams(window.location.search).get('q');
+        if (q) ui.triggerSearch(q);
       });
     </script>
   </body>
