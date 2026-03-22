@@ -73,7 +73,8 @@ import '../styles/global.css';
         const ui = new PagefindUI({
           element: '#search',
           showSubResults: false,
-          showImages: false,
+          showImages: true,
+          pageSize: 25,
           translations: {
             placeholder: 'Cerca articoli, autori, temi…',
             zero_results: 'Nessun risultato per [SEARCH_TERM]',

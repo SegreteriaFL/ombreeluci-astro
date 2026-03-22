@@ -55,3 +55,29 @@ const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/bl
     user-select: none;
   }
 </style>
+
+<script>
+  function updateLangSelector() {
+    const path = window.location.pathname;
+    const isEn = path.startsWith('/blog/en') || path.startsWith('/en/') || /\/en\//.test(path);
+
+    document.querySelectorAll<HTMLAnchorElement>('.lang-link').forEach(link => {
+      const isItLink = link.textContent?.trim() === 'IT';
+      const isEnLink = link.textContent?.trim() === 'EN';
+      link.classList.toggle('is-active', isItLink ? !isEn : isEn);
+
+      // alternateArticleUrl = URL dell'articolo nell'ALTRA lingua
+      const altUrl: string | null = (window as any).__BLOG_PAGE_DATA__?.alternateArticleUrl ?? null;
+      if (isItLink) {
+        // Su EN con alternate → vai alla versione IT; altrimenti home
+        link.href = (isEn && altUrl) ? altUrl : '/';
+      }
+      if (isEnLink) {
+        // Su IT con alternate → vai alla versione EN; altrimenti /blog/en
+        link.href = (!isEn && altUrl) ? altUrl : '/blog/en';
+      }
+    });
+  }
+
+  document.addEventListener('astro:page-load', updateLangSelector);
+</script>

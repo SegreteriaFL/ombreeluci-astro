@@ -13,8 +13,8 @@ interface Props {
 const { cover_url, titolo_numero, numero, anno, mese, periodo_label, tipo_rivista, id_numero } = Astro.props;
 
 // Determina la testata
-const testata = tipo_rivista === 'insieme' || titolo_numero.toLowerCase().includes('insieme') 
-  ? 'Insieme' 
+const testata = tipo_rivista === 'ins' || titolo_numero.toLowerCase().includes('insieme')
+  ? 'Insieme'
   : 'Ombre e Luci';
 
 // Genera il link al numero
@@ -49,8 +49,7 @@ const periodo = periodo_label || mese || '';
   <div class="issue-card-content">
     <h3 class="issue-card-title">{titolo_numero}</h3>
     <div class="issue-card-meta">
-      <span class="issue-card-number">n. {numero}</span>
-      <span class="issue-card-year">{anno}</span>
+      <span class="issue-card-year">N.{numero} · {anno}</span>
       {periodo && (
         <span class="issue-card-period">{periodo}</span>
       )}
@@ -134,9 +133,8 @@ const periodo = periodo_label || mese || '';
   }
 
   .issue-card-content {
-    /* Nascosto per il momento */
-    display: none;
-    padding: 1.25rem;
+    display: flex;
+    padding: 0.75rem 1rem;
     flex: 1;
     flex-direction: column;
   }
