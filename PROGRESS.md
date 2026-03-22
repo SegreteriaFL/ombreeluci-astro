@@ -1,7 +1,7 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-03-22
-**Stato generale:** **Stack Astro+Directus attivo su staging.** Immagini su R2, corpo articoli HTML rigenerato, archivio parzialmente funzionante. Mapping articoli→numeri da rifare.
+**Ultimo aggiornamento:** 2026-03-22 (sera)
+**Stato generale:** **Stack Astro+Directus attivo su staging.** Immagini su R2, corpo articoli HTML rigenerato, tassonomia completa (forma/tema_label/categoria_menu/ruolo_editoriale popolata su tutti gli articoli), pagine categoria funzionanti.
 
 ---
 
@@ -246,31 +246,33 @@ scripts_and_data/
 
 ---
 
+## Completato oggi — 2026-03-22
+
+- **Token Directus e fix redirects** — token admin rinnovato, 2000 redirect statici OK
+- **Corpo articoli HTML rigenerato** — dump SQL → HTML pulito reimportato in Directus (3487/3487 OK)
+- **Foto autori migrate su R2** — 88/88 foto autori migrate su `autori/{uuid}` (R2 `oel-media`)
+- **Copertine numeri rivista su R2** — 204/204 copertine migrate su `numeri/{wp_id}.jpg`; campo `copertina_url` popolato su tutti i record `numeri_rivista`
+- **Rimappatura articoli → numeri rivista** — 2217 articoli rimappati (693 rimasti null per mancanza dato in WP); re-import via `reimport_numero_rivista.py`
+- **Backfill tassonomia** — `forma`, `tema_label`, `categoria_menu`, `ruolo_editoriale` popolati su 3488/3488 articoli da `_legacy_articoli_megacluster.json`; 0 errori; pagine categoria tutte a 200 OK
+
+---
+
 ## Prossimi Step Immediati
 
-1. **CRITICO — Rimappare articoli → numeri rivista**
-   Il mapping attuale è errato: 159 numeri hanno 0 articoli, 26 hanno 50+ (OEL-152: 218).
-   Causa: import ha usato logica sbagliata.
-   Fix: analizzare dump SQL per meccanismo originale articolo↔numero (`post_parent` o custom field `_oel_numero`),
-   riscrivere il mapping, re-importare le relazioni in Directus.
+1. **Archivio** — verificare che le copertine dei numeri appaiano in `/archivio/` (`copertina_url` ora popolato)
 
-2. **Copertine numeri rivista — rifare migrazione R2**
-   Chiave attuale `numeri/{wp_id}.jpg` non funziona (campo `wp_id` assente in Directus `numeri_rivista`).
-   Rifare con `numeri/{numero_progressivo}.jpg` (es. `numeri/156.jpg` da `OEL-156`).
-   Aggiornare `getNumeroImageUrl` in `directus.ts` per accettare `id_numero`.
+2. **Fix pagina autore** — `src/pages/autori/[slug].astro:18`: filtro per `nome_completo` va sostituito con UUID per evitare mismatch su nomi con apostrofo/accento
 
-3. **Archivio — testare `/archivio/` completo** dopo fix mapping e copertine.
+3. **Fix filtro articoli `[issue].astro`** — aggiungere `stato=published` alla query Directus per non mostrare bozze
 
-4. **Filtri autori/archivio** — testare dopo che i dati sono corretti.
+3b. **Ricerca interna** — farla funzionare sfruttando embedding + clustering pgvector (ricerca semantica impeccabile)
 
-5. **Articoli duplicati IT+EN nelle pagine autore** — la pagina autore mostra stesso articolo in italiano e inglese. Da investigare.
+4. **617 articoli con `numero_rivista=null`** — investigare i numeri mancanti in Directus e importarli (attualmente 693 null, di cui ~617 IT)
 
-6. **Copertine articoli mancanti (555 su 3527)** — non avevano thumbnail in WordPress; placeholder SVG attivo come fallback.
+5. **Cloudflare Worker** per i **16630** redirect in overflow (`redirects_overflow.json`)
 
-7. **Ruoli e permessi Directus** per la redazione.
+6. **Ruoli e permessi Directus** per la redazione
 
-8. **Cloudflare Worker** per i **16630** redirect in overflow (`redirects_overflow.json`).
+7. **Upgrade VPS CX23 → CX32** prima di attivare embedding pgvector
 
-9. **Upgrade VPS CX23 → CX32** prima di attivare embedding pgvector.
-
-10. **Cutover DNS** `ombreeluci.it` da Aruba a Cloudflare + custom domain R2 (`media.ombreeluci.it`) — solo quando il sito è pronto per produzione.
+8. **Cutover DNS** `ombreeluci.it` + custom domain R2 `media.ombreeluci.it` — solo quando il sito è pronto per produzione
