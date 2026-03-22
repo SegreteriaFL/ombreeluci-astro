@@ -1,5 +1,6 @@
 ---
 import { getAllArticoli, getArticoloCopertinaSrc, getAutoreImageUrl, COPERTINA_IMG_ONERROR } from '../../lib/directus';
+import { getPlaceholder } from '../../utils/placeholder';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -91,12 +92,14 @@ const issueLink = issueSlug ? `/archivio/${issueSlug}` : null;
 
 // ── Immagine copertina ─────────────────────────────────────────────────────────
 
-const articleImage = getArticoloCopertinaSrc(articolo);
+const articleImageRaw = getArticoloCopertinaSrc(articolo);
+const _ph = articolo.immagine_copertina?.id ? null : getPlaceholder(articolo.slug ?? '');
+const articleImage = _ph ? _ph.src : articleImageRaw;
 
 // ── Sottotitolo e SEO ──────────────────────────────────────────────────────────
 
 const explicitSubtitle = articolo.sottotitolo?.trim() || null;
-const heroCaption: string | null = null;
+const heroCaption: string | null = _ph ? _ph.caption : null;
 
 const metaDescription = (explicitSubtitle || articolo.seo_description)
   ? (explicitSubtitle || articolo.seo_description)!.substring(0, 160).replace(/\s+/g, ' ').trim()
