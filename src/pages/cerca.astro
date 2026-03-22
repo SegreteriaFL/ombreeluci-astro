@@ -1,0 +1,81 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+---
+
+<html lang="it">
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <ViewTransitions />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cerca - Ombre e Luci</title>
+    <meta name="description" content="Cerca articoli, autori e temi nella rivista Ombre e Luci" />
+    <style>
+      .cerca-container {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 2.5rem 1.5rem 4rem;
+      }
+      .cerca-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--text-color);
+        margin-bottom: 0.5rem;
+      }
+      .cerca-intro {
+        font-size: 1rem;
+        color: var(--text-secondary);
+        margin-bottom: 2rem;
+      }
+
+      /* Override stile Pagefind per allinearlo al design */
+      :root {
+        --pagefind-ui-scale: 1;
+        --pagefind-ui-primary: var(--accent-color, #5a7a6e);
+        --pagefind-ui-text: var(--text-color, #1a1a1a);
+        --pagefind-ui-background: #fff;
+        --pagefind-ui-border: #e5e5e5;
+        --pagefind-ui-border-radius: 4px;
+        --pagefind-ui-font: 'Raleway', system-ui, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main class="site-main">
+      <div class="cerca-container">
+        <h1 class="cerca-title">Cerca</h1>
+        <p class="cerca-intro">Cerca tra oltre 3500 articoli della rivista Ombre e Luci dal 1983 ad oggi.</p>
+        <div id="search"></div>
+      </div>
+    </main>
+    <Footer />
+
+    <script>
+      document.addEventListener('astro:page-load', function () {
+        import('/pagefind/pagefind-ui.js').then(({ PagefindUI }) => {
+          const ui = new PagefindUI({
+            element: '#search',
+            showSubResults: false,
+            showImages: false,
+            translations: {
+              placeholder: 'Cerca articoli, autori, temi…',
+              zero_results: 'Nessun risultato per [SEARCH_TERM]',
+              many_results: '[COUNT] risultati per [SEARCH_TERM]',
+              one_result: '1 risultato per [SEARCH_TERM]',
+              loading: 'Caricamento…',
+              load_more: 'Carica altri risultati',
+            },
+          });
+          // Pre-riempie la ricerca se arriva dal form dell'header (?q=...)
+          const q = new URLSearchParams(window.location.search).get('q');
+          if (q) ui.triggerSearch(q);
+        });
+      });
+    </script>
+  </body>
+</html>

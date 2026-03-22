@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import { loadEnv } from 'vite';
+import pagefind from 'astro-pagefind';
 
 const env = loadEnv(process.env.NODE_ENV ?? 'development', process.cwd(), '');
 const DIRECTUS_TOKEN = env.DIRECTUS_TOKEN ?? process.env.DIRECTUS_TOKEN ?? '';
@@ -15,6 +16,7 @@ console.log('[config] DIRECTUS_URL:', DIRECTUS_URL);
 console.log('[config] DIRECTUS_TOKEN set:', DIRECTUS_TOKEN.length > 0);
 
 export default defineConfig({
+  integrations: [pagefind()],
   vite: {
     define: {
       'import.meta.env.DIRECTUS_URL': JSON.stringify(DIRECTUS_URL),

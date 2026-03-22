@@ -38,6 +38,7 @@ const archivioLinks = [
   { nome: t(lang, 'nav_latest'), slug: '/' },
   { nome: t(lang, 'nav_archive_full'), slug: '/archivio' },
   { nome: t(lang, 'nav_authors'), slug: '/autori' },
+  { nome: 'Cerca', slug: '/cerca' },
 ];
 ---
 
@@ -48,7 +49,7 @@ const archivioLinks = [
         <img src={logo.src} alt="Ombre e Luci" class="logo" />
       </a>
 
-      <form class="search-form" action="/search" method="get" aria-label={t(lang, 'search_label')}>
+      <form class="search-form" action="/cerca" method="get" aria-label={t(lang, 'search_label')}>
         <label for="header-search" class="search-label">{t(lang, 'search_label')}</label>
         <input
           id="header-search"

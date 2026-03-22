@@ -229,6 +229,7 @@ const relatedArticles = relatedCategorySlug
     <meta name="twitter:title" content={articleTitle} />
     <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={articleImage} />
+    <meta name="pagefind:meta" content={`author:${autoreName}`} />
     <ViewTransitions />
     <style>
       /* Reading Progress Bar */
@@ -1329,7 +1330,7 @@ const relatedArticles = relatedCategorySlug
 
       {/* Corpo del Testo - max-width: 750px */}
       <div class="article-content-wrapper">
-        <div class="article-content" id="article-content">
+        <div class="article-content" id="article-content" data-pagefind-body>
           <div set:html={articolo.corpo ?? ''} />
         </div>
 
