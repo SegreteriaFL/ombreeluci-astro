@@ -213,7 +213,7 @@ const relatedArticles = relatedCategorySlug
 ---
 
 
-<html lang="it">
+<html lang={articolo.lang === 'en' ? 'en' : 'it'}>
   <head>
     <meta name="robots" content="noindex, nofollow" />
     <meta charset="utf-8" />
@@ -230,6 +230,8 @@ const relatedArticles = relatedCategorySlug
     <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={articleImage} />
     <meta name="pagefind:meta" content={`author:${autoreName}`} />
+    <link rel="alternate" hreflang={articolo.lang === 'en' ? 'en' : 'it'} href={Astro.url.href} />
+    <link rel="alternate" hreflang="x-default" href={Astro.url.href} />
     <ViewTransitions />
     <style>
       /* Reading Progress Bar */
