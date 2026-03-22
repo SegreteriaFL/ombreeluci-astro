@@ -278,6 +278,9 @@ const relatedArticles = relatedCategorySlug
       .article-hero-image-wrapper {
         width: 100%;
         display: block;
+        min-height: 12rem;
+        background: #e8e0d5;
+        border-radius: 8px;
       }
 
       @media (max-width: 768px) {
@@ -1224,7 +1227,10 @@ const relatedArticles = relatedCategorySlug
             src={articleImage} 
             alt={articleTitle}
             class="article-image"
-            loading="lazy"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            data-copertina-fallback
             onerror={COPERTINA_IMG_ONERROR}
           />
           {heroCaption && (

@@ -13,7 +13,13 @@ const formattedDate = date ? new Intl.DateTimeFormat('it-IT', { year: 'numeric',
 <article class="article-list-row">
   <a href={`/blog/${slug}`} class="article-list-row-link">
     <div class="article-list-row-thumb">
-      <img src={thumbSrc} alt="" loading="lazy" onerror={COPERTINA_IMG_ONERROR} />
+      <img
+        src={thumbSrc}
+        alt=""
+        loading="lazy"
+        data-copertina-fallback
+        onerror={COPERTINA_IMG_ONERROR}
+      />
     </div>
     <div class="article-list-row-body">
       {category ? <p class="article-list-row-cat">{category}</p> : null}

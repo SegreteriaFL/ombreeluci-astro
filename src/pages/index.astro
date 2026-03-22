@@ -799,6 +799,7 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
                   loading="eager"
                   width="800"
                   height="500"
+                  data-copertina-fallback
                   onerror={COPERTINA_IMG_ONERROR}
                 />
                 <div class="hero-featured-overlay">
@@ -833,6 +834,7 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
                           src={firstMeta.image || PLACEHOLDER_COPERTINA}
                           alt=""
                           loading="lazy"
+                          data-copertina-fallback
                           onerror={COPERTINA_IMG_ONERROR}
                         />
                       </div>
@@ -858,6 +860,7 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
                               src={meta.image || PLACEHOLDER_COPERTINA}
                               alt=""
                               loading="lazy"
+                              data-copertina-fallback
                               onerror={COPERTINA_IMG_ONERROR}
                             />
                           </div>
@@ -921,6 +924,7 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
                     src={testimonianze[0].image || PLACEHOLDER_COPERTINA}
                     alt=""
                     loading="lazy"
+                    data-copertina-fallback
                     onerror={COPERTINA_IMG_ONERROR}
                   />
                 </div>
@@ -963,6 +967,7 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
                     src={testimonianze[2].image || PLACEHOLDER_COPERTINA}
                     alt=""
                     loading="lazy"
+                    data-copertina-fallback
                     onerror={COPERTINA_IMG_ONERROR}
                   />
                 </div>
@@ -1088,6 +1093,7 @@ function getRoleClass(meta: { ruolo_editoriale?: string }): string {
                       src={r.image || PLACEHOLDER_COPERTINA}
                       alt=""
                       loading="lazy"
+                      data-copertina-fallback
                       onerror={COPERTINA_IMG_ONERROR}
                     />
                   </div>

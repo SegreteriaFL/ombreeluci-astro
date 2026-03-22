@@ -138,6 +138,35 @@ const socialLinks = [
     </div>
   </div>
   </footer>
+  <!-- Fallback copertine: R2 404 / img rotta → placeholder (anche con View Transitions) -->
+  <script is:inline>
+    (function () {
+      var ph = '/images/placeholder-copertina.svg';
+      function bindImg(img) {
+        if (img.getAttribute('data-copertina-fallback') == null) return;
+        if (img.dataset.copertinaFallbackJs === '1') return;
+        img.dataset.copertinaFallbackJs = '1';
+        img.addEventListener(
+          'error',
+          function () {
+            try {
+              var u = String(img.getAttribute('src') || '');
+              if (u.indexOf(ph) === -1) {
+                img.removeAttribute('srcset');
+                img.src = ph;
+              }
+            } catch (e) {}
+          },
+          { capture: false }
+        );
+      }
+      function bindAll() {
+        document.querySelectorAll('img[data-copertina-fallback]').forEach(bindImg);
+      }
+      bindAll();
+      document.addEventListener('astro:page-load', bindAll);
+    })();
+  </script>
 </div>
 
 <style>

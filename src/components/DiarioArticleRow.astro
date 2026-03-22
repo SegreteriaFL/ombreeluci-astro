@@ -16,7 +16,13 @@ const formattedDate = new Intl.DateTimeFormat('it-IT', {
 <article class="diario-article-row">
   <a href={`/blog/${slug}`} class="diario-article-row-link">
     <div class="diario-article-row-image">
-      <img src={imageSrc} alt={title} loading="lazy" onerror={COPERTINA_IMG_ONERROR} />
+      <img
+        src={imageSrc}
+        alt={title}
+        loading="lazy"
+        data-copertina-fallback
+        onerror={COPERTINA_IMG_ONERROR}
+      />
     </div>
     <div class="diario-article-row-content">
       <h3 class="diario-article-row-title">{title}</h3>
