@@ -30,10 +30,10 @@ export const PLACEHOLDER_COPERTINA = '/images/placeholder-copertina.svg';
 
 export function getArticoloCopertinaSrc(articolo: {
   immagine_copertina?: { id: string } | null;
-}): string {
+}): string | null {
   const raw = articolo?.immagine_copertina?.id;
   const id = typeof raw === 'string' ? raw.trim() : '';
-  if (!id) return PLACEHOLDER_COPERTINA;
+  if (!id) return null;
   return getImageUrl(id);
 }
 
