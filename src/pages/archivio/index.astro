@@ -237,7 +237,7 @@ const anni = Array.from(new Set(numeriOrdinati.map((n) => n.anno_pubblicazione ?
         {numeriOrdinati.map((n) => {
           const anno = n.anno_pubblicazione ?? 0;
           const numero = numeroFromId(n.id_numero);
-          const tipoFilter = n.tipo === 'insieme' ? 'insieme' : 'ombreeluci';
+          const tipoFilter = n.tipo === 'ins' ? 'insieme' : 'ombreeluci';
           const tipoRivista = n.tipo === 'insieme' ? 'insieme' : 'ombre_e_luci';
           return (
             <div
