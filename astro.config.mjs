@@ -23,6 +23,11 @@ export default defineConfig({
       'import.meta.env.DIRECTUS_TOKEN': JSON.stringify(DIRECTUS_TOKEN),
       'import.meta.env.MEDIA_BASE_URL': JSON.stringify(MEDIA_BASE_URL),
     },
+    build: {
+      rollupOptions: {
+        external: ['/pagefind/pagefind-ui.js'],
+      },
+    },
   },
   redirects: {
     '/dona': '/sostienici',
