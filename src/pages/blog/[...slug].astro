@@ -1394,38 +1394,8 @@ const relatedArticles = relatedCategorySlug
         <a href={locale === 'en' ? '/blog/en' : '/archivio'} class="widget-link">{t(locale, 'nav_archive')}</a>
       </div>
 
-      {/* Sezione PDF e Copertina */}
-      {(pdfUrl || copeertinaUrl) && (
-        <div class="numero-rivista-section">
-          {articolo.numero_rivista?.display_title && articolo.numero_rivista?.anno_pubblicazione && (
-            <h3>{t(locale, 'issue_number')}</h3>
-          )}
-          {copeertinaUrl && (
-            <div class="copertina-container">
-              <img 
-                src={copeertinaUrl} 
-                alt={`Copertina numero ${articolo.numero_rivista?.id_numero || ''}`}
-                class="copertina-image"
-                loading="lazy"
-              />
-            </div>
-          )}
-          {pdfUrl && (
-            <div class="pdf-container">
-              <a 
-                href={pdfUrl} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                class="pdf-link"
-              >
-                📄 {t(locale, 'download_pdf_issue')}
-              </a>
-            </div>
-          )}
-        </div>
-      )}
 
-      {/* Articoli correlati in calce (full-width, griglia ArticleCard) */}
+{/* Articoli correlati in calce (full-width, griglia ArticleCard) */}
       {relatedArticles.length > 0 && (
         <section class="related-footer-section" aria-label={locale === 'en' ? 'Related articles' : 'Articoli correlati'}>
           <div class="related-footer-inner">
