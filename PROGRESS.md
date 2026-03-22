@@ -1,7 +1,7 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-03-21 (mattina)
-**Stato generale:** **Immagini copertina migrate.** 2972/2972 immagini caricate su Directus (storage locale VPS), 0 errori. M2M template aggiornati con path traversal `{{tags_id.nome}}` / `{{temi_id.nome}}`.
+**Ultimo aggiornamento:** 2026-03-22
+**Stato generale:** **Stack Astro+Directus attivo su staging.** Immagini su R2, corpo articoli HTML rigenerato, archivio parzialmente funzionante. Mapping articoli→numeri da rifare.
 
 ---
 
@@ -10,18 +10,23 @@
 La rivista Ombre e Luci (cattolica italiana, disabilità e fede, fondata 1983) è in migrazione
 da WordPress+Divi a uno stack moderno Astro + Directus.
 
-**Al 2026-03-21** il VPS Hetzner **CX23** (IP **159.69.196.64**, Ubuntu **24.04**) ha **Docker** attivo;
+**Al 2026-03-22** il VPS Hetzner **CX23** (IP **159.69.196.64**, Ubuntu **24.04**) ha **Docker** attivo;
 **Directus** è raggiungibile su **http://159.69.196.64:8055** con **PostgreSQL 16** e **pgvector 0.8.2**.
 Lo **schema** comprende **10 collection**: `articoli`, `autori`, `numeri_rivista`, `temi`, `tags`, `serie`,
 `commenti_storici`, `redirects`, `embeddings`, `directus_files`. **Import completato:** 3527 articoli,
 352 autori, 204 numeri_rivista, 285 temi, 816 tag. **M2M:** 9440 relazioni totali (6676 articoli↔temi +
-2764 articoli↔tags). **Immagini copertina:** 2972/2972 migrate su storage locale VPS (cartella "copertine",
-UUID `e1bd6b06-3057-4c28-8468-29b47de976a3`), 0 errori, 0 immagini 404. In Directus: **editor WYSIWYG**
-sul campo corpo, **display template** leggibili su tutti i campi M2O, **permessi Read** sulle junction
-`articoli_tags` e `articoli_temi`, template M2M con path traversal (`{{tags_id.nome}}`, `{{temi_id.nome}}`).
-**Redirect SEO:** 2000 regole in `public/_redirects` (priorità `/?p=ID` e percorsi con data), 16630 regole in
-`scripts/db_analysis/output/redirects_overflow.json` da gestire con **Cloudflare Worker**. Il sito Astro
-in produzione/staging continua ancora da file `.md` fino alla migrazione verso le API Directus.
+2764 articoli↔tags).
+
+**Immagini su Cloudflare R2 (bucket `oel-media`):**
+- Copertine articoli: 2972/2972 migrate (`copertine/{uuid}`) — collegate via M2O `immagine_copertina`
+- Foto autori: 88/352 migrate (`autori/{uuid}`) — 88 autori avevano foto in Directus
+- Copertine numeri rivista: 204/204 migrate (`numeri/{wp_id}.jpg`) — **chiave da rifare** con `numeri/{numero_progressivo}.jpg`; campo `wp_id` non esiste in Directus `numeri_rivista`
+
+**Corpo articoli:** HTML pulito con `<p>` e `<br>` rigenerato da dump SQL e re-importato in Directus (3487/3487 OK).
+
+**Sito Astro staging:** pagine articolo OK, pagine autori OK. Archivio `/archivio/` attivo ma senza copertine numeri (dipendono da `wp_id` non disponibile). Filtro articoli per numero funzionante, ma mapping articoli→numeri è errato nell'import (vedere Prossimi Step).
+
+**Redirect SEO:** 2000 regole in `public/_redirects`, 16630 in `redirects_overflow.json` → Cloudflare Worker.
 
 ---
 
@@ -33,7 +38,7 @@ in produzione/staging continua ancora da file `.md` fino alla migrazione verso l
 | CMS temporaneo | Keystatic Worker su Cloudflare Workers | **Attivo** (solo nuovi articoli) |
 | CMS | Directus su Hetzner CX23 (`http://159.69.196.64:8055`, Docker) | **Operativo** — 10 collection, import completo |
 | Database | PostgreSQL 16 + pgvector 0.8.2 (stesso VPS) | **Attivo** |
-| Storage media | VPS locale (`/directus/uploads`) — R2 da fare | **Attivo** (2972 immagini copertina) |
+| Storage media | Cloudflare R2 (`oel-media`) — `copertine/{uuid}` articoli, `autori/{uuid}` foto, `numeri/{n}` da rifare | **Attivo** (parziale) |
 | Redirect SEO | `public/_redirects` (2000) + `redirects_overflow.json` (16630) | **Statici OK**; overflow → Worker |
 
 ---
@@ -243,9 +248,29 @@ scripts_and_data/
 
 ## Prossimi Step Immediati
 
-1. **Cloudflare Worker** per i **16630** redirect in overflow oltre `public/_redirects` (`redirects_overflow.json`).
-2. **Migrazione Astro:** lettura contenuti da API Directus a build time (step più lungo).
-3. **Directus:** ruoli e permessi per la redazione (oltre Public / token Astro).
-4. **TLS:** dominio **cms.ombreeluci.it** con reverse proxy Nginx + Certbot sul VPS.
-5. **R2:** quando Cloudflare risolve incompatibilità token `cfat_...` con endpoint S3, migrare immagini da VPS a R2 via `rclone sync`.
-6. **VPS:** upgrade **CX23 → CX32** prima di attivare carichi pesanti su **embedding pgvector**.
+1. **CRITICO — Rimappare articoli → numeri rivista**
+   Il mapping attuale è errato: 159 numeri hanno 0 articoli, 26 hanno 50+ (OEL-152: 218).
+   Causa: import ha usato logica sbagliata.
+   Fix: analizzare dump SQL per meccanismo originale articolo↔numero (`post_parent` o custom field `_oel_numero`),
+   riscrivere il mapping, re-importare le relazioni in Directus.
+
+2. **Copertine numeri rivista — rifare migrazione R2**
+   Chiave attuale `numeri/{wp_id}.jpg` non funziona (campo `wp_id` assente in Directus `numeri_rivista`).
+   Rifare con `numeri/{numero_progressivo}.jpg` (es. `numeri/156.jpg` da `OEL-156`).
+   Aggiornare `getNumeroImageUrl` in `directus.ts` per accettare `id_numero`.
+
+3. **Archivio — testare `/archivio/` completo** dopo fix mapping e copertine.
+
+4. **Filtri autori/archivio** — testare dopo che i dati sono corretti.
+
+5. **Articoli duplicati IT+EN nelle pagine autore** — la pagina autore mostra stesso articolo in italiano e inglese. Da investigare.
+
+6. **Copertine articoli mancanti (555 su 3527)** — non avevano thumbnail in WordPress; placeholder SVG attivo come fallback.
+
+7. **Ruoli e permessi Directus** per la redazione.
+
+8. **Cloudflare Worker** per i **16630** redirect in overflow (`redirects_overflow.json`).
+
+9. **Upgrade VPS CX23 → CX32** prima di attivare embedding pgvector.
+
+10. **Cutover DNS** `ombreeluci.it` da Aruba a Cloudflare + custom domain R2 (`media.ombreeluci.it`) — solo quando il sito è pronto per produzione.
