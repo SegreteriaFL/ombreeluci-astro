@@ -180,3 +180,14 @@ const { prevSlug, nextSlug } = Astro.props;
     transform: translateX(-50%) scale(1);
   }
 </style>
+
+<script>
+  document.addEventListener('keydown', (e) => {
+    if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+    if (e.key === 'ArrowLeft') {
+      document.querySelector<HTMLAnchorElement>('.issue-nav-pill__btn--prev')?.click();
+    } else if (e.key === 'ArrowRight') {
+      document.querySelector<HTMLAnchorElement>('.issue-nav-pill__btn--next')?.click();
+    }
+  });
+</script>
