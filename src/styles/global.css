@@ -204,3 +204,32 @@ img {
 .article-badge-role--trasversale {
   /* Stesso stile per tutti i ruoli; classi mantenute solo per eventuali usi futuri */
 }
+
+/* ── Capolettera ─────────────────────────────────────────────────────────────── */
+span.capolettera {
+  font-weight: 900;
+  display: inline-block;
+  float: left;
+  font-size: 8rem;
+  line-height: 0.85;
+  margin: 0.05em 0.125em 0 0;
+}
+
+@media (max-width: 1024px) {
+  span.capolettera {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  span.capolettera {
+    font-size: 4.5rem;
+    margin: 0.05em 0.1em 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  span.capolettera {
+    font-size: 3.5rem;
+  }
+}
