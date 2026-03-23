@@ -1455,9 +1455,6 @@ Slug: {articolo.slug}
       (function() {
         var data = window.__BLOG_PAGE_DATA__;
         if (!data) return;
-        if (!data.alternateArticleUrl && data.currentWpIdClean) {
-          console.error('MAPPATURA FALLITA PER WP_ID:', { currentWpIdClean: data.currentWpIdClean });
-        }
         var wpIdToSlugMap = data.wpIdToSlugMap || {};
         var inContentRelatedMap = data.inContentRelatedMap || {};
         var currentSlug = data.currentSlug;
