@@ -199,13 +199,14 @@ Questo lavoro va completato e validato **prima del cutover**. Il danno da redire
 | `nome_completo` | string | si | |
 | `nome_normalizzato` | string | no | Per dedup (accenti, varianti) |
 | `bio_html` | text | no | |
-| `ruolo_autore` | string (select) | no | `redazione`, `redazione_storica`, `collaboratore`, `contributore` — default tipico `contributore`; backfill articoli: `scripts/db_analysis/backfill_ruolo_autore.py` |
+| `ruolo_autore` | string (select) | no | Valori: `redazione`, `redazione_storica`, `collaboratore`, `contributore`. **Default lavoro:** quasi tutti `contributore` (chi ha pochi articoli, es. 1–2); **collaboratore** (es. chi supera ~5 articoli) e **redazione** / **redazione storica** solo **a mano** in Directus. Script baseline: `scripts/db_analysis/backfill_ruolo_autore.py` (imposta tutti a `contributore` prima della revisione manuale). |
+| `autore_diari` | boolean | no | `true` se l’autore è uno dei blogger della sezione [I Diari](https://www.ombreeluci.it/i-diari-di-ombre-e-luci/) (≈8 profili). Default `false`. Creato anche da `create_directus_schema.py` (step campi opzionali). |
 | `foto` | M2O → `directus_files` | no | |
 | `email` | string | no | Campo interno |
 | `url_wp` | string | no | URL pagina autore WordPress originale — per redirect e per recuperare bio mancanti via scraping |
-| `articoli_count` | integer | no | Calcolato, aggiornato da script/hook — totale articoli in tutte le lingue |
-| `articoli_it_count` | integer | no | Calcolato — articoli in italiano |
-| `articoli_en_count` | integer | no | Calcolato — articoli in inglese |
+| `articoli_count` | integer | no | Calcolato da Directus: **non** compilato dall’import iniziale; eseguire `scripts/db_analysis/sync_autori_articoli_counts.py` (legge tutti gli `articoli` e aggiorna i conteggi). In admin, aggiungi i tre campi al **layout** del modulo Autori se non li vedi. |
+| `articoli_it_count` | integer | no | Come sopra (`lang` ≠ `en`). |
+| `articoli_en_count` | integer | no | Come sopra (`lang` = `en`). |
 
 ### 2.3 Collection: `numeri_rivista`
 

@@ -68,7 +68,7 @@ load_dotenv()
 
 DIRECTUS_URL   = os.getenv("DIRECTUS_URL",   "http://159.69.196.64:8055")
 # Token statico permanente (non scade come i token di sessione)
-DIRECTUS_TOKEN = os.getenv("DIRECTUS_TOKEN", "b9e3c6d1e2748f890ccd4d84453bbdc094909fd9bda4e81b3c81821116a1757e")
+DIRECTUS_TOKEN = os.getenv("DIRECTUS_TOKEN", "nBZ6kdd0YgVnhLm2TZEDoT9A-NJujwVU")
 DATA_DIR       = Path(os.getenv("DATA_DIR",  "./scripts/db_analysis/output"))
 
 MEGACLUSTER_PATH = Path("./src/data/articoli_megacluster.json")

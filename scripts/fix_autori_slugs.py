@@ -13,7 +13,7 @@ import time
 import os
 
 DIRECTUS_URL = os.environ.get("DIRECTUS_URL", "http://159.69.196.64:8055")
-DIRECTUS_TOKEN = os.environ.get("DIRECTUS_TOKEN", "b9e3c6d1e2748f890ccd4d84453bbdc094909fd9bda4e81b3c81821116a1757e")
+DIRECTUS_TOKEN = os.environ.get("DIRECTUS_TOKEN", "nBZ6kdd0YgVnhLm2TZEDoT9A-NJujwVU")
 DRY_RUN = os.environ.get("DRY_RUN", "0") == "1"
 
 def to_slug(name: str) -> str:

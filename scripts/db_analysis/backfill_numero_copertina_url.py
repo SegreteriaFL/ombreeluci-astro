@@ -113,7 +113,7 @@ def build_id_numero_to_wp_id(rows: list[dict], log: logging.Logger) -> dict[str,
                 wp_id,
             )
         out[id_numero] = int(wp_id)
-    log.info("Mapping id_numero → wp_id: %s voci", len(out))
+    log.info("Mapping id_numero -> wp_id: %s voci", len(out))
     return out
 
 
@@ -134,7 +134,7 @@ def _request(method: str, path: str, log: logging.Logger, **kwargs) -> requests.
         except requests.RequestException as e:
             if attempt < RETRY_MAX - 1:
                 w = RETRY_BACKOFF[attempt]
-                log.warning("Retry %s/%s %s %s — %ss", attempt + 1, RETRY_MAX, method, path, w)
+                log.warning("Retry %s/%s %s %s - %ss", attempt + 1, RETRY_MAX, method, path, w)
                 time.sleep(w)
             else:
                 raise
@@ -287,7 +287,7 @@ def main() -> int:
             continue
 
         if args.dry_run:
-            log.info("[DRY] %s → %s", id_numero, new_url)
+            log.info("[DRY] %s -> %s", id_numero, new_url)
             writer.writerow(
                 {
                     "id_numero": id_numero,
@@ -334,7 +334,7 @@ def main() -> int:
 
     log.info("=== FINE ===")
     log.info("PATCH ok: %s", stats["patch_ok"])
-    log.info("Invariati (URL già uguale): %s", stats["skip_same"])
+    log.info("Invariati (URL gia uguale): %s", stats["skip_same"])
     log.info("Senza mapping wp_id: %s", stats["skip_no_wp"])
     if args.dry_run:
         log.info("Righe dry-run: %s", stats["dry"])

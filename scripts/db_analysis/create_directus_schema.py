@@ -15,7 +15,7 @@ import requests
 DIRECTUS_URL = "http://159.69.196.64:8055"
 ADMIN_EMAIL  = "info@fedeeluce.it"
 ADMIN_PASS   = "54f2a7c685950dd9dc7db7e38f7340b8"
-STATIC_TOKEN = "b9e3c6d1e2748f890ccd4d84453bbdc094909fd9bda4e81b3c81821116a1757e"
+STATIC_TOKEN = "nBZ6kdd0YgVnhLm2TZEDoT9A-NJujwVU"
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -289,9 +289,21 @@ OPTIONAL_SCALAR_FIELDS = [
                 ]
             },
             "required": False,
-            "note": "Ruolo editoriale dell'autore",
+            "note": "Ruolo editoriale: default contributore; collaboratore / redazione / redazione storica si impostano a mano in CMS.",
         },
         "schema": {"default_value": "contributore"},
+    },
+    {
+        "collection": "autori",
+        "field": "autore_diari",
+        "type": "boolean",
+        "meta": {
+            "interface": "boolean",
+            "special": ["cast-boolean"],
+            "required": False,
+            "note": "Autore di uno dei blog della sezione I Diari (home diario + articoli collegati).",
+        },
+        "schema": {"default_value": False},
     },
 ]
 

@@ -4,7 +4,9 @@
       "Bash(*)",
       "Skill(update-config)",
       "Skill(update-config:*)",
-      "Read(//c/Users/berto/.claude/projects/c--Users-berto-Documents-Ombreeluci/memory/**)"
+      "Read(//c/Users/berto/.claude/projects/c--Users-berto-Documents-Ombreeluci/memory/**)",
+      "Read(//c/Users/berto/Documents/**)",
+      "WebFetch(domain:ombreeluci-staging.pages.dev)"
     ],
     "additionalDirectories": [
       "c:\\Users\\berto\\Documents\\keystatic-oel",

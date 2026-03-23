@@ -1,34 +1,42 @@
 #!/usr/bin/env python3
 """
-Imposta autori.ruolo_autore in Directus in base al numero di articoli (dump WP).
+Imposta tutti gli autori in Directus con ruolo_autore = contributore (baseline editoriale).
 
-Regole:
-  - >= 10 articoli con quell'author_id -> collaboratore
-  - altrimenti -> contributore
+Policy (da applicare poi a mano in Directus):
+  - contributore: default per quasi tutti (tipicamente chi ha pochi articoli, es. 1–2)
+  - collaboratore: chi scrive spesso (es. più di ~5 articoli) — da impostare manualmente
+    su una ventina di profili
+  - redazione, redazione_storica: solo manuali
 
-Mapping Directus slug -> wp_id: slug in import coincide con login WordPress (`import_to_directus.py`);
-fallback: confronto normalizzato (spazi -> trattino, lower).
+Lo script non usa i conteggi articoli: imposta tutti a contributore; poi in CMS modifichi
+a mano collaboratori, redazione e redazione storica.
 
-Richiede: DIRECTUS_URL, DIRECTUS_TOKEN
+Richiede DIRECTUS_URL e DIRECTUS_TOKEN.
+
+  python scripts/db_analysis/backfill_ruolo_autore.py
+  python scripts/db_analysis/backfill_ruolo_autore.py --dry-run
 """
 
 from __future__ import annotations
 
-import json
+import argparse
 import os
 import sys
-from pathlib import Path
+import time
 
 import requests
-
-ROOT = Path(__file__).resolve().parent.parent.parent
-DATA = ROOT / "scripts/db_analysis/output"
 
 DIRECTUS_URL = os.getenv("DIRECTUS_URL", "").rstrip("/")
 DIRECTUS_TOKEN = os.getenv("DIRECTUS_TOKEN", "")
 
+DEFAULT_RUOLO = "contributore"
+
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Tutti gli autori -> ruolo_autore contributore")
+    parser.add_argument("--dry-run", action="store_true", help="Solo conteggio, nessun PATCH")
+    args = parser.parse_args()
+
     if not DIRECTUS_URL or not DIRECTUS_TOKEN:
         print("Imposta DIRECTUS_URL e DIRECTUS_TOKEN.", file=sys.stderr)
         return 1
@@ -38,20 +46,6 @@ def main() -> int:
         "Content-Type": "application/json",
     }
 
-    with open(DATA / "autori_wp.json", encoding="utf-8") as f:
-        autori_wp_list = json.load(f)
-    login_to_wp = {a["login"]: a["wp_id"] for a in autori_wp_list}
-
-    with open(DATA / "articoli_wp_puliti.json", encoding="utf-8") as f:
-        articoli = json.load(f)
-
-    count_per_autore: dict[int, int] = {}
-    for art in articoli:
-        aid = art.get("author_id")
-        if aid is not None:
-            aid = int(aid)
-            count_per_autore[aid] = count_per_autore.get(aid, 0) + 1
-
     res = requests.get(
         f"{DIRECTUS_URL}/items/autori",
         params={"fields": "id,slug", "limit": -1},
@@ -59,45 +53,24 @@ def main() -> int:
         timeout=120,
     )
     res.raise_for_status()
-    autori_directus = res.json()["data"]
+    rows = res.json()["data"]
 
-    unmatched: list[str] = []
-    aggiornati = collab = contr = 0
+    print(f"Autori da aggiornare a {DEFAULT_RUOLO!r}: {len(rows)}")
 
-    for autore in autori_directus:
-        slug = autore["slug"]
-        wp_id = login_to_wp.get(slug)
-        if wp_id is None:
-            slug2 = slug.replace(" ", "-").lower()
-            for a in autori_wp_list:
-                if a["login"].replace(" ", "-").lower() == slug2:
-                    wp_id = a["wp_id"]
-                    break
-        if wp_id is None:
-            unmatched.append(slug)
-            continue
+    if args.dry_run:
+        return 0
 
-        count = count_per_autore.get(wp_id, 0)
-        ruolo = "collaboratore" if count >= 10 else "contributore"
-        r = requests.patch(
-            f"{DIRECTUS_URL}/items/autori/{autore['id']}",
+    for i, r in enumerate(rows):
+        requests.patch(
+            f"{DIRECTUS_URL}/items/autori/{r['id']}",
             headers=headers,
-            json={"ruolo_autore": ruolo},
+            json={"ruolo_autore": DEFAULT_RUOLO},
             timeout=60,
-        )
-        r.raise_for_status()
-        aggiornati += 1
-        if ruolo == "collaboratore":
-            collab += 1
-        else:
-            contr += 1
+        ).raise_for_status()
+        if (i + 1) % 50 == 0:
+            time.sleep(0.05)
 
-    print(
-        f"Aggiornati: {aggiornati} (collaboratore={collab}, contributore={contr}); "
-        f"senza mapping: {len(unmatched)}"
-    )
-    if unmatched:
-        print("Slug senza match login WP (es.):", ", ".join(unmatched[:12]))
+    print(f"Completato: {len(rows)} autori.")
     return 0
 
 
