@@ -5,12 +5,12 @@ import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
 import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
-import { getAllArticoli, getArticoloCopertinaSrc, getCategoriaDescrizione } from '../../lib/directus';
+import { getAllArticoli, getArticoloCopertinaSrc, getCategoriaDescrizione, getArticoliInEvidenza } from '../../lib/directus';
 
 export async function getStaticPaths() {
   const allArticles = (await getAllArticoli()).filter((a) => a.lang !== 'en');
   const categorySlugs = getAllCategorySlugs();
-  return categorySlugs.map((categoria) => {
+  return Promise.all(categorySlugs.map(async (categoria) => {
     const cat = getCategoryBySlug(categoria);
     const label = cat ? cat.label : categoria;
     const displayLabel = cat?.displayLabel ?? cat?.label ?? categoria;
@@ -32,15 +32,26 @@ export async function getStaticPaths() {
       const weightB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
       return weightB - weightA;
     });
-    const catMeta = await getCategoriaDescrizione(categoria);
+    const [catMeta, evidenza] = await Promise.all([
+      getCategoriaDescrizione(categoria),
+      getArticoliInEvidenza(categoria),
+    ]);
     return {
       params: { categoria },
-      props: { articoli, categoryLabel: displayLabel, descrizione: catMeta?.descrizione ?? null },
+      props: {
+        articoli,
+        categoryLabel: displayLabel,
+        descrizione: catMeta?.descrizione ?? null,
+        evidenza,
+      },
     };
-  });
+  }));
 }
 
-const { articoli, categoryLabel, descrizione } = Astro.props;
+const { articoli, categoryLabel, descrizione, evidenza } = Astro.props;
+const hero = articoli[0] ?? null;
+const rest = articoli.slice(1);
+const hasEvidenza = evidenza && evidenza.length > 0;
 ---
 
 <html lang="it">
@@ -50,7 +61,7 @@ const { articoli, categoryLabel, descrizione } = Astro.props;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{categoryLabel} - Ombre e Luci</title>
-    <meta name="description" content={`Articoli nella categoria ${categoryLabel} su Ombre e Luci`} />
+    <meta name="description" content={descrizione ?? `Articoli nella categoria ${categoryLabel} su Ombre e Luci`} />
     <style>
       .categoria-container {
         max-width: 1400px;
@@ -78,15 +89,68 @@ const { articoli, categoryLabel, descrizione } = Astro.props;
         color: var(--text-secondary);
         max-width: 720px;
       }
+      /* Layout a due colonne: sinistra (feed) + destra (in evidenza) */
+      .categoria-body {
+        display: grid;
+        grid-template-columns: 1fr 320px;
+        gap: 3rem;
+        align-items: start;
+      }
+      .categoria-body--no-evidenza {
+        grid-template-columns: 1fr;
+      }
+      /* Colonna sinistra */
+      .feed-col .hero-wrap {
+        margin-bottom: 2rem;
+      }
       .articles-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 32px;
+      }
+      /* Colonna destra */
+      .evidenza-col {
+        position: sticky;
+        top: calc(var(--header-height, 72px) + 1.5rem);
+      }
+      .evidenza-title {
+        font-family: 'Raleway', system-ui, sans-serif;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--text-secondary);
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent-color);
+      }
+      .evidenza-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+      @media (max-width: 1024px) {
+        .categoria-body {
+          grid-template-columns: 1fr;
+        }
+        .evidenza-col {
+          position: static;
+          border-top: 1px solid var(--border-color, #e8e6e3);
+          padding-top: 2rem;
+        }
+        .evidenza-list {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 1.5rem;
+        }
       }
       @media (max-width: 768px) {
         .articles-grid {
           grid-template-columns: 1fr;
-          gap: 32px;
+          gap: 1.5rem;
+        }
+        .evidenza-list {
+          grid-template-columns: 1fr;
         }
       }
     </style>
@@ -102,26 +166,78 @@ const { articoli, categoryLabel, descrizione } = Astro.props;
           </p>
           {descrizione && <p class="categoria-descrizione">{descrizione}</p>}
         </header>
-        <div class="articles-grid">
-          {articoli.map((a) => {
-            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
-            const { formal } = getLabels([], a);
-            const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
-            const articleImage = getArticoloCopertinaSrc(a);
-            return (
-              <ArticleCard
-                title={a.titolo}
-                slug={a.slug}
-                categoriaMenu={categoria_menu ?? undefined}
-                issue={a.numero_rivista?.id_numero ?? null}
-                forma={formal}
-                author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
-                date={articleDate}
-                image={articleImage}
-                ruoloEditoriale={ruolo_editoriale ?? undefined}
-              />
-            );
-          })}
+
+        <div class={`categoria-body${hasEvidenza ? '' : ' categoria-body--no-evidenza'}`}>
+
+          {/* Colonna sinistra: hero + feed */}
+          <div class="feed-col">
+            {hero && (() => {
+              const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(hero);
+              const { formal } = getLabels([], hero);
+              return (
+                <div class="hero-wrap">
+                  <ArticleCard
+                    title={hero.titolo}
+                    slug={hero.slug}
+                    categoriaMenu={categoria_menu ?? undefined}
+                    issue={hero.numero_rivista?.id_numero ?? null}
+                    forma={formal}
+                    author={hero.autore?.nome_completo ?? 'Autore sconosciuto'}
+                    date={hero.data_pubblicazione ? new Date(hero.data_pubblicazione) : new Date()}
+                    image={getArticoloCopertinaSrc(hero)}
+                    ruoloEditoriale={ruolo_editoriale ?? undefined}
+                  />
+                </div>
+              );
+            })()}
+
+            <div class="articles-grid">
+              {rest.map((a) => {
+                const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+                const { formal } = getLabels([], a);
+                return (
+                  <ArticleCard
+                    title={a.titolo}
+                    slug={a.slug}
+                    categoriaMenu={categoria_menu ?? undefined}
+                    issue={a.numero_rivista?.id_numero ?? null}
+                    forma={formal}
+                    author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+                    date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+                    image={getArticoloCopertinaSrc(a)}
+                    ruoloEditoriale={ruolo_editoriale ?? undefined}
+                  />
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Colonna destra: in evidenza */}
+          {hasEvidenza && (
+            <aside class="evidenza-col">
+              <h2 class="evidenza-title">In evidenza</h2>
+              <div class="evidenza-list">
+                {evidenza.map((a) => {
+                  const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+                  const { formal } = getLabels([], a);
+                  return (
+                    <ArticleCard
+                      title={a.titolo}
+                      slug={a.slug}
+                      categoriaMenu={categoria_menu ?? undefined}
+                      issue={a.numero_rivista?.id_numero ?? null}
+                      forma={formal}
+                      author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+                      date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+                      image={getArticoloCopertinaSrc(a)}
+                      ruoloEditoriale={ruolo_editoriale ?? undefined}
+                    />
+                  );
+                })}
+              </div>
+            </aside>
+          )}
+
         </div>
       </div>
     </main>

@@ -378,3 +378,26 @@ export async function getCategoriaDescrizione(slug: string): Promise<{ nome: str
   if (!data) return null;
   return (data as any).data ?? null;
 }
+
+/**
+ * Articoli in evidenza per una categoria (selezionati dalla redazione via Directus).
+ * Ritorna max 5 articoli ordinati per sort della junction table.
+ */
+export async function getArticoliInEvidenza(categoriaSlug: string): Promise<ArticoloListItem[]> {
+  const fields = [
+    'articoli_id.id', 'articoli_id.titolo', 'articoli_id.slug', 'articoli_id.sottotitolo',
+    'articoli_id.data_pubblicazione', 'articoli_id.forma', 'articoli_id.tema_label',
+    'articoli_id.categoria_menu', 'articoli_id.ruolo_editoriale',
+    'articoli_id.immagine_copertina', 'articoli_id.numero_rivista.id_numero',
+    'articoli_id.autore.nome_completo', 'sort'
+  ].join(',');
+  const params = new URLSearchParams({
+    'filter[categorie_slug][_eq]': categoriaSlug,
+    fields, sort: 'sort', limit: '5'
+  });
+  const data = await directusFetch<{ data: { articoli_id: ArticoloListItem; sort: number }[] }>(
+    `/items/categorie_articoli?${params}`
+  );
+  if (!data) return [];
+  return (data.data ?? []).map((r) => r.articoli_id).filter(Boolean);
+}
