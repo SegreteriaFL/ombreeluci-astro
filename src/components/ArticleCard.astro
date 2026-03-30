@@ -3,10 +3,10 @@
 import { COPERTINA_IMG_ONERROR } from '../lib/directus';
 import { getPlaceholder } from '../utils/placeholder';
 
-const { title, author, date, issue, slug, image, categoriaMenu, forma, ruoloEditoriale, horizontal = false, sottotitolo = null, authorImage = null } = Astro.props;
+const { title, author, date, issue, slug, image, categoriaMenu, forma, ruoloEditoriale, horizontal = false, sottotitolo = null, authorImage = null, hideImage = false } = Astro.props;
 const hasIssue = issue != null && String(issue).trim() !== '';
 const displayIssue = hasIssue ? issue : "Pubblicato online";
-const imageSrc = image || getPlaceholder(slug ?? title ?? '').src;
+const imageSrc = (!hideImage && image) ? image : (!hideImage ? getPlaceholder(slug ?? title ?? '').src : null);
 // Badge: [Numero] • [Forma (se != Articolo)] / [categoria_menu]
 const formalPart = forma && forma !== 'Articolo' ? `${forma} / ` : '';
 const badgeText = hasIssue
@@ -55,15 +55,17 @@ const authorLinkSlug = authorSlug(author);
 
 <div class={`article-card${horizontal ? ' article-card--horizontal' : ''}`}>
   <a href={`/blog/${slug}`} class="article-link">
-    <div class="article-image-wrap">
-      <img
-        src={imageSrc}
-        alt={title}
-        loading="lazy"
-        data-copertina-fallback
-        onerror={COPERTINA_IMG_ONERROR}
-      />
-    </div>
+    {imageSrc && (
+      <div class="article-image-wrap">
+        <img
+          src={imageSrc}
+          alt={title}
+          loading="lazy"
+          data-copertina-fallback
+          onerror={COPERTINA_IMG_ONERROR}
+        />
+      </div>
+    )}
     <div class="article-meta">
       <p class={badgeText === 'Pubblicato online' ? 'article-badge article-badge-muted' : 'article-badge'}>
         {roleLabel && (
@@ -75,21 +77,14 @@ const authorLinkSlug = authorSlug(author);
       </p>
       <h3 class="article-title">{title}</h3>
       {horizontal && sottotitolo && <p class="article-sottotitolo">{sottotitolo}</p>}
-      {horizontal && (
-        <p class="author-row author-row--inline">
-          {authorImage && (
-            <img src={authorImage} alt={author} class="author-avatar" loading="lazy" />
-          )}
-          Di <a href={`/autori/${authorLinkSlug}`} class="author-link" onclick="event.stopPropagation()">{author}</a> • {formattedDate}
-        </p>
-      )}
     </div>
   </a>
-  {!horizontal && (
-    <p class="author-row">
-      Di <a href={`/autori/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
-    </p>
-  )}
+  <p class="author-row">
+    {horizontal && authorImage && (
+      <img src={authorImage} alt={author} class="author-avatar" loading="lazy" />
+    )}
+    Di <a href={`/autori/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
+  </p>
 </div>
 
 <style>

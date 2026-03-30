@@ -260,7 +260,8 @@ const hasEvidenza = evidenzaEffettiva.length > 0;
                       forma={formal}
                       author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
                       date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
-                      image={idx === 0 ? getArticoloCopertinaSrc(a) : null}
+                      image={getArticoloCopertinaSrc(a)}
+                      hideImage={idx !== 0}
                       ruoloEditoriale={ruolo_editoriale ?? undefined}
                     />
                   );
