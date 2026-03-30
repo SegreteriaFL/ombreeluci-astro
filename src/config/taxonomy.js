@@ -53,27 +53,23 @@ export function getRoleWeight(role) {
 }
 
 /**
- * Alias per label lunghe: nome breve da usare in menu e UI.
- * Chiave = tema_label completo, valore = label accorciata.
+ * Alias per label: le nuove 13 categorie hanno già nomi brevi, mappa 1:1.
+ * Chiave = tema_label, valore = label da mostrare in menu e UI.
  */
 export const THEME_ALIASES = {
-  'Fede, Chiesa e spiritualità della fragilità': 'Spiritualità',
-  'Memoria e storia di Fede e Luce (opzionale)': 'Storia Fede e Luce',
-  'Dignità, valore della persona e sguardo sulla fragilità': 'Dignità e fragilità',
-  'Pellegrinaggi, cammini e vita comunitaria in movimento': 'Pellegrinaggi e cammini',
-  'Progetto di vita, autonomia e dopo di noi': 'Progetto di vita',
-  'Linguaggio, cultura e rappresentazioni': 'Cultura e linguaggio',
-  'Educare e crescere insieme': 'Educazione',
-  'Giovani, futuro, speranza e cambiamento': 'Giovani e futuro',
-  'Comunità, accoglienza e inclusione': 'Comunità',
-  'Corpo, salute, cura e assistenza': 'Salute e cura',
-  'Diritti, cittadinanza e società': 'Diritti e società',
-  'Amicizia e relazioni autentiche': 'Relazioni',
-  'Famiglie, genitori, fratelli': 'Famiglie',
-  'Cinema e disabilità': 'Cinema',
-  'Vivere la disabilità': 'Disabilità',
-  'Riflessioni': 'Riflessioni',
-  'Domande aperte': 'Riflessioni',
+  'Famiglia': 'Famiglia',
+  'Spiritualità': 'Spiritualità',
+  'Catechesi': 'Catechesi',
+  'Cultura': 'Cultura',
+  'Fede e Luce': 'Fede e Luce',
+  'Progetti': 'Progetti',
+  'Salute': 'Salute',
+  'Lavoro': 'Lavoro',
+  'Scuola': 'Scuola',
+  'Educazione e Formazione': 'Educazione',
+  'Sport': 'Sport',
+  'Tempo libero': 'Tempo libero',
+  'Personaggi che ispirano': 'Personaggi',
 };
 
 /**

@@ -1,7 +1,7 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-03-23
-**Stato generale:** **Stack Astro+Directus attivo su staging.** Ricerca Pagefind funzionante, placeholder immagini, archivio completo con 204 numeri, articoli collegati ai numeri, modalità redazione attiva.
+**Ultimo aggiornamento:** 2026-03-30
+**Stato generale:** **Stack Astro+Directus attivo su staging.** DNS migrato da Aruba a Cloudflare (nameserver: dana/julio.ns.cloudflare.com) — propagazione in corso. WordPress su Aruba resta online fino al cutover finale.
 
 ---
 
@@ -138,25 +138,46 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 
 ---
 
-## Prossimi Step
+## Prossimi Step (ordinati per priorità)
 
-1. **Cloudflare Worker** per i **16630** redirect in overflow (`redirects_overflow.json`)
-2. **Upgrade VPS CX23 → CX32** prima di attivare embedding pgvector
-3. **Cutover DNS** `ombreeluci.it` → Cloudflare Pages (dopo US-13)
-4. **Ruoli e permessi Directus** per la redazione
+### Fase 1 — Sblocca l'andata online
+1. **US-13 — Migrazione DNS Aruba → Cloudflare** ✅ COMPLETATO 2026-03-30 (propagazione in corso)
+2. **US-12 — Fix filtri Directus** (redazione può lavorare)
+3. **CF Worker redirect overflow** (16630 redirect, deploy dopo DNS)
+
+### Fase 2 — Tassonomia (parallelamente alla propagazione DNS)
+4. **US-14 — Nuova tassonomia editoriale** (11 categorie redazione)
+5. **US-15 — Rivalutazione ruoli editoriali** (dopo US-14)
+
+### Fase 3 — Qualità visiva pre-lancio
+6. **US-03 — Mobile responsive overhaul**
+7. **US-08 — Info testata numero rivista**
+8. **US-07 — Homepage diari 2×2 desktop**
+
+### Fase 4 — Post-lancio
+9. **Upgrade VPS CX23 → CX32** (prima di embedding)
+10. **US-16 — Ricerca semantica + correlati via embedding** (pgvector)
+11. **US-01 — Homepage dinamica** (richiede US-15 completato)
+12. **US-04 — Didascalie copertine**
+13. **US-10 — Archive.org link OEL mancanti**
+14. **Ruoli e permessi Directus** per la redazione
+15. **Cutover DNS** `ombreeluci.it` → Cloudflare Pages (step finale)
 
 ---
 
 ## User Stories (backlog)
 
-| # | Storia | Note tecniche |
-|---|--------|---------------|
-| US-01 | **Homepage dinamica** — articoli in prima sezione vanno in rotazione ad ogni visita o ogni N secondi, per dare senso di rivista viva | Pool di 12-20 card pre-renderizzate al build (statiche, SEO-safe), shuffle JS client-side con cross-fade CSS. Selezione ponderata: `ruolo_editoriale=portante/strutturale`, distribuzione tra categorie, max 1 autore, ultimi 24 mesi |
-| US-02 | **Ricerca semantica** — ricerca interna per concetto, non solo parola esatta | Embedding pgvector su Directus, CF Worker endpoint, richiede upgrade VPS CX23→CX32. Da fare dopo cutover DNS |
-| US-03 | **Mobile responsive overhaul** — header mega menu, card copertine, padding/spacing globale, layout pagine categoria e autori su schermi <768px | Sessione dedicata: restyle Header (z-index mega menu), IssueCard breakpoint, global.css fluid grid |
-| US-04 | **Didascalie copertine** — mostrare il testo caption delle immagini copertina degli articoli | Dati in campo `custom_caption` nel dump Divi; importarli in Directus campo `didascalia_copertina` su `articoli`, poi mostrare sotto immagine in `[...slug].astro` |
-| US-07 | **Homepage diari: layout 2×2 desktop** — i diari nella homepage vanno in un box a 2 colonne × 2 righe su desktop, non in lista lineare | CSS grid `repeat(2, 1fr)` con max 4 card; `flex-wrap` su mobile |
-| US-08 | **Info testata numero rivista** — pagina numero rivista manca di "Anno 41 – Numero 3 – Luglio–Agosto–Settembre 2023" | Dati nel dump Divi: `<em>` dentro `IntestazioneNumero`; estrarre con script, popolare campo `periodo_label` (già esiste) o `sottotitolo` in Directus su `numeri_rivista` |
-| US-10 | **Archive.org link per 37 OEL mancanti** — numeri OEL 1-15, 34, 40, 131-172 non hanno `wp_url`/`pdf_archive_url` | Scraping profilo `https://archive.org/details/@ombre_e_luci` per trovare tutti gli identifier disponibili; matching per numero progressivo; PATCH Directus |
-| US-12 | **Bug filtri Directus CMS su articoli** — i filtri per numero rivista e per data non funzionano nella lista articoli di Directus, rendendo difficile spostare articoli da un numero all'altro | Investigare: campo `numero_rivista` è relazione M2O, il filtro relazionale in Directus potrebbe richiedere configurazione nel data model (display template, sort field); verificare anche filtro per `data_pubblicazione` |
-| US-13 | **Migrazione DNS da Aruba a Cloudflare** — spostare la gestione DNS di `ombreeluci.it` su Cloudflare per abilitare sottodomini (es. `cms.ombreeluci.it`), HTTPS automatico su Directus via proxy CF, e Workers. Il sito WordPress su Aruba resta intatto durante la migrazione. Passi: (1) crea account CF, aggiungi dominio, importa record; (2) cambia nameserver in Aruba; (3) aggiungi A record `cms.ombreeluci.it` → 159.69.196.64 con proxy arancione; (4) modalità redazione diventa automatica via sessione Directus |
+| # | Fase | Storia | Note tecniche |
+|---|------|--------|---------------|
+| US-13 | 1 | **Migrazione DNS da Aruba a Cloudflare** — spostare la gestione DNS di `ombreeluci.it` su Cloudflare per abilitare sottodomini (es. `cms.ombreeluci.it`), HTTPS automatico su Directus via proxy CF, e Workers. Il sito WordPress su Aruba resta intatto durante la migrazione. Passi: (1) crea account CF, aggiungi dominio, importa record; (2) cambia nameserver in Aruba; (3) aggiungi A record `cms.ombreeluci.it` → 159.69.196.64 con proxy arancione | 1 ora lavoro + 24-48h propagazione |
+| US-12 | 1 | **Bug filtri Directus CMS su articoli** — i filtri per numero rivista e per data non funzionano nella lista articoli di Directus, rendendo difficile spostare articoli da un numero all'altro | Investigare: campo `numero_rivista` è relazione M2O, il filtro relazionale in Directus potrebbe richiedere configurazione nel data model (display template, sort field); verificare anche filtro per `data_pubblicazione` |
+| US-14 | 2 | **Nuova tassonomia editoriale** — implementare le 11 categorie della redazione (Famiglia, Spiritualità, Cultura, Fede e Luce, Progetti, Salute, Lavoro, Scuola e educazione, Sport, Tempo libero, Personaggi che ispirano) sostituendo i 16 temi del Megacluster S8. Spec in `docs/CATEGORIZZAZIONE_REDAZIONE_3_26.md` | (a) script mapping megacluster→nuove cat. per le 1:1 chiare; (b) Lavoro/Sport/Tempo libero dagli 816 tag WP in Directus; (c) PATCH `categoria_menu` su 3488 articoli; (d) aggiorna `taxonomy_structure.json` e `taxonomy.js`; (e) decidere destinazione temi S8 orfani. Sblocca US-15. Effort: 1-2 giorni |
+| US-15 | 2 | **Rivalutazione ruoli editoriali post-tassonomia** — `ruolo_editoriale` va rivalutato nel contesto delle nuove 11 categorie (il ruolo è relativo alla categoria). Prerequisito: US-14 | Redazione rivede portanti/strutturali per ogni nuova categoria; PATCH Directus via script. Sblocca US-01 |
+| US-03 | 3 | **Mobile responsive overhaul** — header mega menu, card copertine, padding/spacing globale, layout pagine categoria e autori su schermi <768px | Restyle Header (z-index mega menu), IssueCard breakpoint, global.css fluid grid |
+| US-08 | 3 | **Info testata numero rivista** — pagina numero rivista manca di "Anno 41 – Numero 3 – Luglio–Agosto–Settembre 2023" | Dati nel dump Divi: `<em>` dentro `IntestazioneNumero`; estrarre con script, popolare `periodo_label` in Directus |
+| US-07 | 3 | **Homepage diari: layout 2×2 desktop** — i diari nella homepage vanno in un box a 2 colonne × 2 righe su desktop, non in lista lineare | CSS grid `repeat(2, 1fr)` con max 4 card; `flex-wrap` su mobile |
+| US-16 | 4 | **Ricerca semantica e correlati via embedding** — attivare embedding pgvector per ricerca per concetto e articoli correlati automatici. Layer separato dalla tassonomia: ogni articolo mantiene il suo vettore 1536-dim indipendentemente dalle categorie | Prerequisito: upgrade VPS CX23→CX32 + cutover DNS. Risponde a "articoli simili", non a "categoria di navigazione" |
+| US-01 | 4 | **Homepage dinamica** — articoli in prima sezione in rotazione ad ogni visita, senso di rivista viva | Pool 12-20 card pre-renderizzate (statiche, SEO-safe), shuffle JS client-side. Selezione ponderata: `ruolo_editoriale=portante/strutturale`, distribuzione tra categorie, max 1 autore, ultimi 24 mesi. Prerequisito: US-15 |
+| US-02 | 4 | **Ricerca semantica** — ricerca interna per concetto, non solo parola esatta | Embedding pgvector su Directus, CF Worker endpoint, richiede upgrade VPS CX23→CX32. Da fare dopo cutover DNS |
+| US-04 | 4 | **Didascalie copertine** — mostrare il testo caption delle immagini copertina degli articoli | Dati in campo `custom_caption` nel dump Divi; importarli in Directus campo `didascalia_copertina` su `articoli` |
+| US-10 | 4 | **Archive.org link per 37 OEL mancanti** — numeri OEL 1-15, 34, 40, 131-172 non hanno `wp_url`/`pdf_archive_url` | Scraping profilo archive.org per trovare gli identifier; matching per numero progressivo; PATCH Directus |
