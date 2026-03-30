@@ -75,14 +75,21 @@ const authorLinkSlug = authorSlug(author);
       </p>
       <h3 class="article-title">{title}</h3>
       {horizontal && sottotitolo && <p class="article-sottotitolo">{sottotitolo}</p>}
+      {horizontal && (
+        <p class="author-row author-row--inline">
+          {authorImage && (
+            <img src={authorImage} alt={author} class="author-avatar" loading="lazy" />
+          )}
+          Di <a href={`/autori/${authorLinkSlug}`} class="author-link" onclick="event.stopPropagation()">{author}</a> • {formattedDate}
+        </p>
+      )}
     </div>
   </a>
-  <p class="author-row">
-    {horizontal && authorImage && (
-      <img src={authorImage} alt={author} class="author-avatar" loading="lazy" />
-    )}
-    Di <a href={`/autori/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
-  </p>
+  {!horizontal && (
+    <p class="author-row">
+      Di <a href={`/autori/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
+    </p>
+  )}
 </div>
 
 <style>
@@ -222,6 +229,14 @@ const authorLinkSlug = authorSlug(author);
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  .author-row--inline {
+    margin-top: 0.5rem;
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    white-space: normal;
+    flex-wrap: wrap;
   }
 
   .author-avatar {

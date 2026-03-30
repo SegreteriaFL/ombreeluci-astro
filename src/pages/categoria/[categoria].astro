@@ -123,9 +123,19 @@ const hasEvidenza = evidenzaEffettiva.length > 0;
       .articles-list {
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 0;
         padding-top: 0.5rem;
         border-top: 1px solid var(--border-color, #e8e6e3);
+      }
+      .articles-list :global(.article-card) {
+        padding: 1.25rem 0;
+        border-bottom: 1px solid var(--border-color, #e8e6e3);
+      }
+      /* Immagine più grande nella lista orizzontale */
+      .articles-list :global(.article-card--horizontal .article-image-wrap) {
+        width: 200px;
+        min-width: 200px;
+        aspect-ratio: 4/3;
       }
       /* Colonna destra */
       .evidenza-col {
@@ -147,6 +157,13 @@ const hasEvidenza = evidenzaEffettiva.length > 0;
         display: flex;
         flex-direction: column;
         gap: 0;
+      }
+      .evidenza-list :global(.article-card) {
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--border-color, #e8e6e3);
+      }
+      .evidenza-list :global(.article-card:first-child) {
+        padding-top: 0;
       }
       @media (max-width: 1024px) {
         .categoria-body {
@@ -231,7 +248,7 @@ const hasEvidenza = evidenzaEffettiva.length > 0;
             <aside class="evidenza-col">
               <h2 class="evidenza-title">In evidenza</h2>
               <div class="evidenza-list">
-                {evidenzaEffettiva.map((a) => {
+                {evidenzaEffettiva.map((a, idx) => {
                   const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
                   const { formal } = getLabels([], a);
                   return (
@@ -243,7 +260,7 @@ const hasEvidenza = evidenzaEffettiva.length > 0;
                       forma={formal}
                       author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
                       date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
-                      image={getArticoloCopertinaSrc(a)}
+                      image={idx === 0 ? getArticoloCopertinaSrc(a) : null}
                       ruoloEditoriale={ruolo_editoriale ?? undefined}
                     />
                   );
