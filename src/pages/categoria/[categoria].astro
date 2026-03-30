@@ -5,7 +5,7 @@ import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
 import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
-import { getAllArticoli, getArticoloCopertinaSrc, getCategoriaDescrizione, getArticoliInEvidenza } from '../../lib/directus';
+import { getAllArticoli, getArticoloCopertinaSrc, getCategoriaDescrizione, getArticoliInEvidenza, getAutoreImageUrl } from '../../lib/directus';
 
 export async function getStaticPaths() {
   const allArticles = (await getAllArticoli()).filter((a) => a.lang !== 'en');
@@ -51,7 +51,23 @@ export async function getStaticPaths() {
 const { articoli, categoryLabel, descrizione, evidenza } = Astro.props;
 const hero = articoli[0] ?? null;
 const rest = articoli.slice(1);
-const hasEvidenza = evidenza && evidenza.length > 0;
+
+// Colonna destra: usa selezione manuale se presente, altrimenti portanti + strutturali
+const evidenzaEffettiva = (evidenza && evidenza.length > 0)
+  ? evidenza
+  : articoli
+      .filter((a) => {
+        const r = getMegaclusterForArticle(a).ruolo_editoriale;
+        return r === 'portante' || r === 'strutturale';
+      })
+      .sort((a, b) => {
+        const wA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
+        const wB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
+        return wB - wA;
+      })
+      .slice(0, 5);
+
+const hasEvidenza = evidenzaEffettiva.length > 0;
 ---
 
 <html lang="it">
@@ -103,10 +119,12 @@ const hasEvidenza = evidenza && evidenza.length > 0;
       .feed-col .hero-wrap {
         margin-bottom: 2rem;
       }
-      .articles-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 32px;
+      .articles-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding-top: 0.5rem;
+        border-top: 1px solid var(--border-color, #e8e6e3);
       }
       /* Colonna destra */
       .evidenza-col {
@@ -142,15 +160,6 @@ const hasEvidenza = evidenza && evidenza.length > 0;
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           gap: 1.5rem;
-        }
-      }
-      @media (max-width: 768px) {
-        .articles-grid {
-          grid-template-columns: 1fr;
-          gap: 1.5rem;
-        }
-        .evidenza-list {
-          grid-template-columns: 1fr;
         }
       }
     </style>
@@ -191,10 +200,11 @@ const hasEvidenza = evidenza && evidenza.length > 0;
               );
             })()}
 
-            <div class="articles-grid">
+            <div class="articles-list">
               {rest.map((a) => {
                 const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
                 const { formal } = getLabels([], a);
+                const autFotoId = (a.autore as any)?.foto?.id;
                 return (
                   <ArticleCard
                     title={a.titolo}
@@ -206,6 +216,9 @@ const hasEvidenza = evidenza && evidenza.length > 0;
                     date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
                     image={getArticoloCopertinaSrc(a)}
                     ruoloEditoriale={ruolo_editoriale ?? undefined}
+                    horizontal={true}
+                    sottotitolo={a.sottotitolo ?? null}
+                    authorImage={autFotoId ? getAutoreImageUrl(autFotoId) : null}
                   />
                 );
               })}
@@ -217,7 +230,7 @@ const hasEvidenza = evidenza && evidenza.length > 0;
             <aside class="evidenza-col">
               <h2 class="evidenza-title">In evidenza</h2>
               <div class="evidenza-list">
-                {evidenza.map((a) => {
+                {evidenzaEffettiva.map((a) => {
                   const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
                   const { formal } = getLabels([], a);
                   return (
