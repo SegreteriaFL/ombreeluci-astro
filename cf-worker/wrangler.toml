@@ -1,0 +1,7 @@
+name = "ombreeluci-redirects"
+main = "redirect-worker.js"
+compatibility_date = "2024-01-01"
+
+routes = [
+  { pattern = "ombreeluci.it/*", zone_name = "ombreeluci.it" }
+]

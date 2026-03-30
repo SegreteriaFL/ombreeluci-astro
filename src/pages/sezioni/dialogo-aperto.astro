@@ -1,0 +1,109 @@
+---
+/**
+ * Hub rubrica Dialogo aperto.
+ * Feed di tutti gli articoli della serie "Dialogo aperto".
+ */
+import { ViewTransitions } from 'astro:transitions';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import '../../styles/global.css';
+import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import { getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
+
+const allArticles = await getAllArticoli();
+const articoli = allArticles
+  .filter((a) => a.serie?.slug === 'dialogo-aperto')
+  .sort((a, b) => {
+    const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+    const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+    return tB - tA;
+  });
+---
+
+<html lang="it">
+  <head>
+    <ViewTransitions />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dialogo aperto - Ombre e Luci</title>
+    <meta name="description" content="La rubrica Dialogo aperto di Ombre e Luci: lettori, famiglie e persone con disabilità a confronto aperto." />
+  </head>
+  <body>
+    <Header />
+    <main class="site-main">
+      <div class="container section-hub">
+        <header class="section-intro">
+          <h1 class="section-title">Dialogo aperto</h1>
+          <p class="section-lead">
+            Lo spazio del confronto aperto tra lettori, famiglie e persone con disabilità. Domande, risposte e riflessioni condivise sulle pagine di Ombre e Luci.
+          </p>
+        </header>
+
+        {articoli.length > 0 ? (
+          <div class="section-articles-grid">
+            {articoli.map((a) => {
+              const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+              const { formal } = getLabels([], a);
+              const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+              const articleImage = getArticoloCopertinaSrc(a);
+              return (
+                <ArticleCard
+                  title={a.titolo}
+                  slug={a.slug}
+                  categoriaMenu={categoria_menu ?? undefined}
+                  issue={a.numero_rivista?.id_numero ?? null}
+                  forma={formal}
+                  author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+                  date={articleDate}
+                  image={articleImage}
+                  ruoloEditoriale={ruolo_editoriale ?? undefined}
+                />
+              );
+            })}
+          </div>
+        ) : (
+          <p class="section-empty">Nessun articolo ancora pubblicato in questa rubrica.</p>
+        )}
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .section-hub {
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .section-intro {
+    margin-bottom: 2.5rem;
+    max-width: 720px;
+  }
+
+  .section-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.75rem;
+  }
+
+  .section-lead {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-color);
+  }
+
+  .section-articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .section-empty {
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+</style>

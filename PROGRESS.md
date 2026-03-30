@@ -122,6 +122,33 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 
 ---
 
+## Completato — 2026-03-30
+
+- **Migrazione DNS Aruba → Cloudflare** — nameserver aggiornati (dana/julio.ns.cloudflare.com), DNSSEC disattivo, record mail DNS-only, record sito Proxied. Propagazione quasi completa. WordPress su Aruba resta online fino al cutover finale.
+- **`cms.ombreeluci.it`** — record A aggiunto su Cloudflare (DNS only, 159.69.196.64).
+- **Nuova tassonomia editoriale (US-14)** — 16 temi Megacluster S8 → 13 categorie redazione. Script rimappatura a 4 livelli (megacluster → WP categorie → tag WP → default). 21 articoli senza tema_label → "Da categorizzare". `taxonomy_structure.json` e `taxonomy.js` aggiornati.
+- **Fix filtri Directus (US-12)** — `data_pubblicazione`: interface/display `datetime`. `numero_rivista` M2O: `sort_field: anno_pubblicazione`. Tutti i 32 campi `articoli` refactorizzati: ordine logico, interface corrette, dropdown con valori, campi tecnici nascosti.
+- **Serie "Dialogo aperto"** — serie creata in Directus, 156 articoli collegati. Pagina `/sezioni/dialogo-aperto` creata. Link aggiunto al megamenu.
+- **CF Worker redirect overflow** ✅ COMPLETATO 2026-03-30 — Worker `ombreeluci-redirects` deployato via API Cloudflare, route attiva su `ombreeluci.it/*`. Regex 15582 redirect date-based + lookup 1001 slug arbitrari.
+
+---
+
+## Da far validare alla Redazione
+
+| # | Cosa validare | Dove guardare | Priorità |
+|---|---|---|---|
+| V-01 | **13 nuove categorie** — distribuzione articoli sensata? Categorie corrette per ogni articolo? | Staging → menu Temi, pagine `/categoria/*` | Alta |
+| V-02 | **21 articoli "Da categorizzare"** — assegnarli manualmente alla categoria giusta | Directus → Articoli → filtra `categoria_menu = Da categorizzare` | Alta |
+| V-03 | **Ruoli editoriali (US-15)** — `portante/strutturale/trasversale` vanno rivalutati per le nuove categorie (il ruolo è relativo alla categoria) | Directus → per ogni categoria, quali articoli sono portanti? | Media |
+| V-04 | **Fede e Luce (1114 articoli)** — categoria molto grande; verificare se la distribuzione interna è sensata o se serve suddivisione | Staging → `/categoria/fede-e-luce` | Media |
+| V-05 | **Personaggi che ispirano (22 articoli)** — tutti pertinenti? Mancano personaggi importanti? | Staging → `/categoria/personaggi-che-ispirano` | Bassa |
+| V-06 | **Filtri Directus** — verificare che filtro per numero rivista e data_pubblicazione funzionino | Directus → Articoli → icona filtro | Bassa |
+| V-07 | **Megamenu** — 13 nuove categorie corrette + link "Dialogo aperto" funzionante | Staging → apri megamenu | Media |
+| V-08 | **Pagina /sezioni/dialogo-aperto** — 156 articoli caricano e sono pertinenti? | Staging → `/sezioni/dialogo-aperto` | Media |
+| V-09 | **CF Worker redirect** — i vecchi URL WordPress reindirizzano correttamente? | Prova: `ombreeluci.it/2015/03/20/qualche-slug/` → deve andare su `/blog/qualche-slug/` | Alta |
+
+---
+
 ## Completato — 2026-03-23
 
 - **Placeholder copertina Unsplash** — 4 immagini in `public/placeholder/`, selezione pseudo-random via hash slug; applicato a ArticleCard e hero articolo; `getArticoloCopertinaSrc` ritorna `null` (non SVG) così il fallback funziona in tutti i contesti (articoli correlati, archivio, autori, categoria)
@@ -141,13 +168,17 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 ## Prossimi Step (ordinati per priorità)
 
 ### Fase 1 — Sblocca l'andata online
-1. **US-13 — Migrazione DNS Aruba → Cloudflare** ✅ COMPLETATO 2026-03-30 (propagazione in corso)
-2. **US-12 — Fix filtri Directus** (redazione può lavorare)
-3. **CF Worker redirect overflow** (16630 redirect, deploy dopo DNS)
+1. **US-13 — Migrazione DNS Aruba → Cloudflare** ✅ COMPLETATO 2026-03-30
+2. **US-12 — Fix filtri Directus** ✅ COMPLETATO 2026-03-30
+3. **`cms.ombreeluci.it`** ✅ COMPLETATO 2026-03-30 — record A aggiunto (DNS only)
+4. **CF Worker redirect overflow** ✅ COMPLETATO 2026-03-30
 
-### Fase 2 — Tassonomia (parallelamente alla propagazione DNS)
-4. **US-14 — Nuova tassonomia editoriale** (11 categorie redazione)
-5. **US-15 — Rivalutazione ruoli editoriali** (dopo US-14)
+### Fase 2 — Tassonomia
+5. **US-14 — Nuova tassonomia editoriale** ✅ COMPLETATO 2026-03-30 (13 categorie, script pronto)
+6. **Rimappatura categorie su Directus** ✅ COMPLETATO 2026-03-30 — 3506 articoli con categoria valida, 21 "Da categorizzare" per revisione manuale
+7. **Serie "Dialogo aperto"** ✅ COMPLETATO 2026-03-30 — 156 articoli collegati, pagina creata, megamenu aggiornato
+8. **V-02 — 21 articoli "Da categorizzare"** — revisione manuale redazione
+9. **US-15 — Rivalutazione ruoli editoriali** (dopo validazione US-14)
 
 ### Fase 3 — Qualità visiva pre-lancio
 6. **US-03 — Mobile responsive overhaul**

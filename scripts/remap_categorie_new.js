@@ -160,7 +160,18 @@ const TAG_CAT_MAP = {
 
 // ── 4. Funzione di mapping ────────────────────────────────────────────────────
 
+const NUOVE_CATEGORIE = new Set([
+  'Famiglia', 'Spiritualità', 'Catechesi', 'Cultura', 'Fede e Luce',
+  'Progetti', 'Salute', 'Lavoro', 'Scuola', 'Educazione e Formazione',
+  'Sport', 'Tempo libero', 'Personaggi che ispirano',
+]);
+
 function getNewCategoria(temaLabel, wpId) {
+  // Livello 0: già mappato a una delle 13 nuove categorie → passa direttamente
+  if (temaLabel && NUOVE_CATEGORIE.has(temaLabel)) {
+    return { categoria: temaLabel, fonte: 'already-mapped' };
+  }
+
   // Livello 1: megacluster con mapping diretto
   if (temaLabel && Object.prototype.hasOwnProperty.call(MEGACLUSTER_MAP, temaLabel)) {
     const mapped = MEGACLUSTER_MAP[temaLabel];

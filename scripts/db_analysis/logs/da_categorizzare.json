@@ -1,107 +1,8092 @@
 [
   {
+    "id": "0031a4c4-1bb1-4a61-9664-cf8975e9255e",
+    "wp_id": 15767596,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "003a7fcb-6dcf-4d4c-8747-60111f174ff6",
+    "wp_id": 40369,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0053b93f-527a-45bc-9a1f-1b9cc76c4a88",
+    "wp_id": 43567,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0096aa03-dc71-42eb-b3d6-04f88db6a338",
+    "wp_id": 10495,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "00b6677a-38b2-43db-a97d-5dbbb36878de",
+    "wp_id": 39602,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "00b91bad-8501-4f1c-94b2-881b479ca8eb",
+    "wp_id": 45021,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "00cbad1a-5643-457a-8ae9-d0099362b52a",
+    "wp_id": 42809,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "00db1113-5e26-4953-9d1f-499ddbc60521",
+    "wp_id": 45943,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "00e21284-b09d-408f-a2d9-ab145a528102",
+    "wp_id": 42206,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "00f4b82f-7f43-4f70-b89c-3c02257161e6",
+    "wp_id": 7227,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "00f4e655-4f85-4338-ac8d-8f97957423b0",
+    "wp_id": 34709,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "00fef3c7-6f07-45d4-b610-ef5273d84832",
+    "wp_id": 4811,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "012c99de-a27e-4f63-b43e-8e0c14c7b6a6",
+    "wp_id": 16505,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "01985697-2281-4344-885a-fcad8f84de16",
+    "wp_id": 6188,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "01b82250-16c2-4e98-ad89-d7b5d1e0b83d",
+    "wp_id": 42502,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "022ab78d-54b0-4dc6-8171-7c1e142c9a02",
+    "wp_id": 45617,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "022c182e-41bb-411f-83cc-40e25bd3b246",
+    "wp_id": 12425,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "025ac8ca-fe22-4bd5-8e1a-12ce8a178d72",
+    "wp_id": 20772,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "02ab40b7-a34a-4203-9d62-299120fc9f4d",
+    "wp_id": 31534,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "02b6d565-e218-4374-a508-c0091b091d98",
+    "wp_id": 27423,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0301bacd-e47f-4a32-9e33-28251c6d8699",
+    "wp_id": 17712,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "034a313a-c7f2-4e11-9b5d-42f3891571e0",
+    "wp_id": 41073,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "034f2701-46d4-426c-8265-0642903a8f64",
+    "wp_id": 9547,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "037cc3cc-a34e-45fa-8223-1c2ae8470d92",
+    "wp_id": 24907,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "03896916-e3f6-4fac-ac7c-00b790da33a5",
+    "wp_id": 32896,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "03a0653f-6efe-4185-9667-e4bf39525c32",
+    "wp_id": 5063,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "04038500-b251-42c4-86e9-6addc3c0e6c1",
+    "wp_id": 15767554,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0409eb70-ef53-4f65-9265-9df1360c29c4",
+    "wp_id": 31100,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "040a09ce-1e98-42c5-b281-5dfb0006be1e",
+    "wp_id": 41934,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "04674796-8ac6-4500-a16a-c08cd0161d31",
+    "wp_id": 24980,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "04736941-e7e4-4101-9043-3290341874bf",
+    "wp_id": 38610,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "04a76785-351d-441b-88ec-78e282ea2f1f",
+    "wp_id": 40226,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "04b94c87-854a-4041-bfcf-2686569b4ebe",
+    "wp_id": 31913,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "04e6f278-1a52-4a38-b017-345ad1755ffa",
+    "wp_id": 31087,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "04fbd325-51c2-4592-96a8-1aa2a6bc6791",
+    "wp_id": 47115,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "05094841-31ae-4dc3-82d0-b074be7368cb",
+    "wp_id": 40518,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "050c231d-501c-4b77-8eef-d731e6201765",
+    "wp_id": 15767636,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "052e8bb1-bdc2-4d2c-9c49-464d42cc6ed5",
+    "wp_id": 30175,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "059f9fbf-7d78-4a48-a6b9-f34453b6baa7",
+    "wp_id": 7157,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "05ce6045-4e71-4ef0-b40f-af7717cbaf06",
+    "wp_id": 32607,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "06439a39-b794-497b-92b8-c59662f4a576",
+    "wp_id": 40118,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "066e2e2e-8703-4bf3-b8ab-97692a13cc3d",
+    "wp_id": 6678,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0674f90d-6555-43ea-ac9c-86e88d65f3b1",
+    "wp_id": 5723,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "06aa8bc7-2f67-4d59-8751-9ab8b64e337c",
+    "wp_id": 34182,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "06af2aa8-c56f-48a4-85d5-e6c769491a1d",
+    "wp_id": 15024,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "06b2378f-9455-493f-91e0-737d3b5ee0b2",
+    "wp_id": 39730,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "06ba4ef9-aa9e-47cd-bdd0-881c7daaaa51",
+    "wp_id": 36155,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "06bf782b-3e7e-4ba3-9e61-6d7c0ff0af98",
+    "wp_id": 30191,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "06dd85b6-9503-448c-8161-e5e4044c37a2",
+    "wp_id": 38679,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "06ede3fd-2d2b-4482-8515-021fa47b8d3a",
+    "wp_id": 37130,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "06f87b56-2a7b-494a-85e3-52023cc89d43",
+    "wp_id": 46252,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "071f81ec-da06-4a40-9b57-90061364f23d",
+    "wp_id": 42001,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0729a52b-a726-4dc1-a6b0-17ba1447fc7f",
+    "wp_id": 11454,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "074cba3a-2ce2-4cdb-86a8-f62753093e3c",
+    "wp_id": 40087,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "07729da3-ab95-4e13-a5db-9d378427fa10",
+    "wp_id": 35978,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0778e3d9-ef86-4505-98bd-4c6cf0ee5129",
+    "wp_id": 43152,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "07934e5d-f1c1-4f7b-98fe-e5bfc683eb28",
+    "wp_id": 4764,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "07d76729-cad6-40f6-8c77-8935781b8581",
+    "wp_id": 12928,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "07d7a7c3-7cda-43dd-a10e-f77c67f13da5",
+    "wp_id": 41277,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "07e6119a-f46f-4f27-b9cd-1492f57f16d9",
+    "wp_id": 26600,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "084926d3-fd45-407e-9a04-6e938b25aaef",
+    "wp_id": 7470,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "08508620-af4d-4ca1-a72c-57e83f294133",
+    "wp_id": 22900,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "089111bb-ddf6-42ae-b8cd-7106f10eb00a",
+    "wp_id": 29876,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "09189983-9fc2-4850-b3df-502bca121215",
+    "wp_id": 42224,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "09432447-e7d4-4923-a7ec-2f882ae6bfd5",
+    "wp_id": 7327,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0949f5c9-1e33-42dd-8310-5c45567e9d21",
+    "wp_id": 46258,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "098509a9-19af-4e70-853c-7fec4ef92324",
+    "wp_id": 34585,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "09b6722d-5c4a-4a93-a1c0-2b1c41105d59",
+    "wp_id": 30503,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "09bb8253-671c-44ca-98c3-1f36fa63b36e",
+    "wp_id": 353,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0a23ed0c-238c-43ea-ba6a-687fd5858944",
+    "wp_id": 11079,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0a36d810-f6cc-4453-8f83-abe48f70f8f2",
+    "wp_id": 9023,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0a5ccd97-a785-4a70-859c-a8cfca3d8eea",
+    "wp_id": 44500,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0a8f7cb7-b3f3-418c-9e59-8791f78c07a4",
+    "wp_id": 33798,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0a98970a-bff4-4055-b796-4bec1c2d292b",
+    "wp_id": 15768050,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0a9df56e-c162-41b9-9704-c761492729f9",
+    "wp_id": 20102,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0a9f07c2-9297-4484-ab9f-146adcb25100",
+    "wp_id": 18021,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0b05f890-34d5-413c-a62b-99abdb037558",
+    "wp_id": 28101,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0b75b2d8-2b9e-426e-971b-c8a19ba3386f",
+    "wp_id": 9076,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0b830171-6481-424c-a567-ca9fe5af6009",
+    "wp_id": 4017,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0bd2d8a5-49cf-4ab4-9007-60ed62be15f9",
+    "wp_id": 28247,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0bdeea89-abb9-4121-a4fe-9308ccc533d6",
+    "wp_id": 38541,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0c3a2d55-7399-4099-be02-3d5b95a8cc93",
+    "wp_id": 38533,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0c8adef1-88c6-4e98-ab95-46167e4c1b05",
+    "wp_id": 14916,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0cc34515-c4c7-4bc1-ae5a-2d9a04ed5129",
+    "wp_id": 13414,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0cf09074-a625-4258-b293-2b6cde43d6ae",
+    "wp_id": 11524,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0d008f3b-cd2a-46ff-bc26-02b0853f57fa",
+    "wp_id": 32789,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0d041112-1abb-4042-b80d-07c2744e1464",
+    "wp_id": 36358,
+    "tema_old": "Da categorizzare"
+  },
+  {
     "id": "0d08d7c9-441b-47e3-8c09-9f64a48cc474",
     "wp_id": 15769050,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0d1e9f8d-03a9-4112-be5f-875abf21d37f",
+    "wp_id": 36284,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0d39ece7-1c3a-44c4-86dd-8abe7aff2864",
+    "wp_id": 16327,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0d40a0f7-f018-4c55-9470-582a8329eb36",
+    "wp_id": 37919,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0dc471fe-3e3f-4a6f-89c7-ebb34b154fe7",
+    "wp_id": 11530,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0dd5a5bf-320a-42cd-8b02-3a713b2ec0dc",
+    "wp_id": 38560,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0dd86432-0a36-4217-9c8c-1de84f833fc6",
+    "wp_id": 42178,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0de652c9-5add-44c5-937d-e7be9ad875b7",
+    "wp_id": 7120,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0de86860-8f56-4f11-a42c-3b803e1de7df",
+    "wp_id": 42602,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0e053f97-6f21-4bc0-80cd-e732e48a7f3b",
+    "wp_id": 7951,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0e53ffca-33ff-4003-85d5-5557d204ce75",
+    "wp_id": 3650,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0e6ec1d5-1787-4328-86f9-07d383cadc46",
+    "wp_id": 9580,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0f268790-4a9c-45c1-bf43-b3c746d3fa1d",
+    "wp_id": 43532,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0f2f51cd-bd97-4a29-8d5c-0988da2b46b2",
+    "wp_id": 38520,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0f5b2ec5-2695-49ac-9c12-ce88e142e6ad",
+    "wp_id": 21347,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0f60b383-26e5-4568-bc4e-1508341cabdd",
+    "wp_id": 34140,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0f698c73-530d-4596-9c04-8e0f008b4c97",
+    "wp_id": 39446,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "0f9f90fe-b8b8-4d80-8507-1457464e2200",
+    "wp_id": 35312,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "102a028e-6bbd-4116-9854-2392ce51bc69",
+    "wp_id": 13034,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "10313aa3-0e5f-46d3-b620-a9b28c2d00d4",
+    "wp_id": 11710,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1064d918-f8df-4180-9284-c86d627f54e4",
+    "wp_id": 33934,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "11813ce0-b5bb-4025-8367-ebf0914d29df",
+    "wp_id": 32033,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "11dd3ca3-17e9-4af1-b94f-7d0b9c839d92",
+    "wp_id": 23503,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "12379f44-83c4-4f21-afac-b1e60b949bb9",
+    "wp_id": 3648,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "12488a15-5c34-4ba5-be4f-fdac7b5db9a1",
+    "wp_id": 40694,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "125e2980-b9c2-41af-a05e-a59abe178c1e",
+    "wp_id": 11538,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "127b5a99-b977-47b7-a557-900268a4f93f",
+    "wp_id": 20311,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "128aaa0e-2931-4d73-8a15-16b94c61dbff",
+    "wp_id": 16558,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "12b1b32e-380c-45cf-8e2c-47b6aa24c1b9",
+    "wp_id": 16340,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "12e2fc5f-c96c-41f9-904c-a60db647d2b5",
+    "wp_id": 35621,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "12f8fe0f-daf2-4885-b8b3-a66db62c7350",
+    "wp_id": 34486,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "13861413-06eb-4852-9743-6fb68a007df8",
+    "wp_id": 9438,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "13ab998b-230a-44bb-b23f-adb077d945a6",
+    "wp_id": 17298,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "13b91f77-be32-461e-b786-753828e04e42",
+    "wp_id": 33156,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "13c3091d-541e-4f9d-96df-f4780687f266",
+    "wp_id": 37511,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "13c8bbb8-1279-4bb6-a06b-b5f08f5eaa41",
     "wp_id": 15768953,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "13e7956d-32bf-49c6-aa64-289ea6ee0df5",
+    "wp_id": 41283,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "13fe2356-879f-4abb-8fd9-aee8f14cb814",
+    "wp_id": 19120,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "14277843-6047-4613-9a1f-b5351cd8eb4a",
+    "wp_id": 30738,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1481e650-7b3d-4333-a470-fe2e8eece761",
+    "wp_id": 44155,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1486b446-cc05-4fd6-8b98-fb1b7769bdc6",
+    "wp_id": 6724,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "14aeb933-78e5-4c6f-b528-88e4295e2c34",
+    "wp_id": 41939,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "14c294e5-5f26-43c0-be99-c0619b51f200",
+    "wp_id": 38253,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "14d99fc6-cff9-4ee1-9498-f68f850d55fe",
+    "wp_id": 43207,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "14fc7753-3c0c-4bb0-bc71-d7f897873265",
+    "wp_id": 34460,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "152e251f-7145-46e2-a362-114a2f308ed1",
+    "wp_id": 34558,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "15635408-a691-4b68-aaf7-77b071a4e8c8",
+    "wp_id": 8601,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "15688e83-2ae8-4850-b78f-e36248845f17",
+    "wp_id": 7424,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "15e04c3f-6a0f-49de-a268-55a32ce190db",
+    "wp_id": 11826,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "164f5582-821f-4d13-9790-42e89a490d29",
+    "wp_id": 10892,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "165249a5-92f6-4830-af14-6a3852955a48",
+    "wp_id": 9809,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "16585a87-dc1e-4d21-874f-166271305219",
+    "wp_id": 38678,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "166e6283-a084-4db2-a2b7-e6bfed347cd3",
+    "wp_id": 34854,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "16927269-98d5-4187-9495-dda7000c2b67",
+    "wp_id": 11540,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "16a2ad8b-ac47-472c-9ffa-e2edd70170dd",
+    "wp_id": 17706,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "16a88cb9-6459-44df-b928-cdb6848306ec",
+    "wp_id": 25913,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "16a8c89f-e515-4ee1-9b41-bcf010c9321a",
+    "wp_id": 37697,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "16f66b63-16ba-4644-886b-23d64bbad737",
+    "wp_id": 44994,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1726f9c5-6928-4ece-8f01-eb9c661983fe",
+    "wp_id": 42200,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "178a26d0-66aa-4a11-ab9a-8dca9cae082a",
+    "wp_id": 21133,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "17d26555-5406-407a-9c8c-09fa61e071c9",
+    "wp_id": 33063,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "182467d9-b188-454c-8766-c61db77e247b",
+    "wp_id": 23603,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1834334e-092c-46e2-9797-00eb2497bc33",
+    "wp_id": 9423,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1890f574-4a4d-4e73-b2e3-59074fb30e7d",
+    "wp_id": 25636,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1893b7cc-fb57-4c59-a345-b62471a35239",
+    "wp_id": 12926,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "189fd20b-2198-4f44-beb1-4e9a60859cf4",
+    "wp_id": 13419,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "18edb49a-6229-41be-91c6-37b85c3e0d24",
+    "wp_id": 9129,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "18f5f3c7-c10e-4eca-b0ff-90e40473fac5",
+    "wp_id": 19114,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "19118003-f119-4390-9e82-e661d30603f3",
+    "wp_id": 12600,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1933d9cd-94f5-4104-b5bc-488a519da30b",
+    "wp_id": 33121,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "194a8d85-d1a2-47c5-adf8-c26c0d32a830",
+    "wp_id": 32763,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "195eacec-a4e0-4ce6-8f39-84e6a8780472",
+    "wp_id": 8724,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "19d772b4-174f-4f09-b177-6d40d9826780",
+    "wp_id": 37119,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "19f1fecb-d7bf-4e93-b92c-e38efa1e105c",
+    "wp_id": 39959,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1a311ea3-c9e8-4741-b85e-818bb7c467bc",
+    "wp_id": 30832,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1a9844ba-df65-48be-b95b-92d62c8c01cd",
+    "wp_id": 28297,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1a9efc85-58f9-4303-96c2-8334a2ec0aad",
+    "wp_id": 25931,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1ac02678-675d-4c39-b086-842812898095",
+    "wp_id": 25743,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1b253602-701a-457c-9861-184d86ee11c5",
+    "wp_id": 10665,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1b3ed840-da29-44ea-9a36-9c240d48836b",
+    "wp_id": 44584,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1b5620ad-c6af-468e-9d1c-6fd07aafc5e6",
+    "wp_id": 44607,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1baa19df-79c7-44ac-ae14-dd9db9b44dbc",
+    "wp_id": 35901,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1be4e3c5-9b63-4061-8bd3-519c9bea45d2",
+    "wp_id": 21009,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1c136fc2-e196-47b2-b5bc-f6d5cd7f3cb9",
+    "wp_id": 33958,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "1c1a852b-5f6b-471f-8820-b2d2e9516554",
     "wp_id": 15769252,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1c206c15-7fd8-4aa9-871e-2242fefd4bfd",
+    "wp_id": 7166,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1c46e650-65a9-4603-9c71-c216110bf1d5",
+    "wp_id": 9282,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1c4d26c7-f5a3-4de2-84c3-efa2a58e3512",
+    "wp_id": 15395,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1c6d3d5c-4aad-4bab-9784-6060bf9f2ceb",
+    "wp_id": 32487,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1c7c61b9-fe40-497d-ab14-e9e4ca8d7aa2",
+    "wp_id": 10835,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1c9cd379-ac8c-4399-97d6-c1f5103a24bf",
+    "wp_id": 15768818,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1cd12122-424a-43ee-8c15-677d1801d4c0",
+    "wp_id": 9002,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1ceb6a33-9ae5-4510-8f47-6c1ccb900498",
+    "wp_id": 27313,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1d053491-2bdd-48cc-8efe-9143399056e1",
+    "wp_id": 2192,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1d5a32ae-af60-46d4-bc98-869eae280636",
+    "wp_id": 12160,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1d83786b-d3b2-4826-8642-525223f2b225",
+    "wp_id": 15767894,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1d8c36a5-2003-42eb-86ca-0e17f6a1c33d",
+    "wp_id": 46752,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "1e3d2edb-b37e-4c2b-978a-8fd01b247dbe",
     "wp_id": 15769243,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1e4adf82-446e-430f-9bfb-8d756034a96b",
+    "wp_id": 32561,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1e6bde7e-707c-49b7-908f-456a389e08e9",
+    "wp_id": 8935,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1f2a3437-11f5-4a77-8453-eaccef4b0ad3",
+    "wp_id": 9006,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1f7dff02-d357-471b-8619-1e7875d9eda8",
+    "wp_id": 13442,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "1feeeab7-4366-4b2a-a497-982df1e217a7",
+    "wp_id": 10068,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "203d6a48-edf2-4f44-8af6-3d60327b16c2",
+    "wp_id": 6745,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "204b42a4-53db-488f-9023-9a84db4511ce",
+    "wp_id": 21664,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2051e000-9774-4355-8bf9-43422c5ddd44",
+    "wp_id": 7335,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "205bff6c-7871-472e-9253-022b086ce955",
+    "wp_id": 30022,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "208d04e3-4fcb-455a-b398-ce988ef4af11",
+    "wp_id": 22246,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "20c50def-3202-4235-8150-512ae858fee0",
+    "wp_id": 39978,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "20fc2b58-5bf9-4222-af1b-71d8fa925cf3",
+    "wp_id": 37407,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2105a9dc-39e4-445f-913b-c3eb6ec67020",
+    "wp_id": 10331,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "21944179-5e86-4d1b-9848-71b3b80ddc7a",
+    "wp_id": 35616,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "21992d61-9324-4d65-a019-8cf89f4d68dd",
+    "wp_id": 30319,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "21b913de-fd0f-4c53-b359-7b08dd5715d8",
+    "wp_id": 12954,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "21f42ee8-ddc4-449a-a728-59e462a36dc4",
+    "wp_id": 35586,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "22042862-1a9c-46c2-8279-e0847923f9e1",
+    "wp_id": 31479,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2209ba21-8a6f-410f-a87f-61bf4842f4c2",
+    "wp_id": 44671,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "223c0c2b-fb6f-4949-93b5-e48fc5a6ad07",
+    "wp_id": 45918,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2279678a-be2e-4999-989c-5ad885e442bc",
+    "wp_id": 44797,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "22800435-6a50-42da-9f74-2f903d16253e",
+    "wp_id": 45309,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "22b50490-2c62-4857-a9f7-50d7f3bcec3a",
+    "wp_id": 41369,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "22bf2e65-0ad5-4a90-ae87-4906d292b4d5",
+    "wp_id": 26973,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2317e627-98dc-4eef-93c4-c9c0adadb286",
+    "wp_id": 45621,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "232191a7-b554-4fbe-82cd-a8abde5781a5",
+    "wp_id": 39852,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "23b0e60c-baad-4b3d-95dc-9d72f72ee35e",
+    "wp_id": 47125,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "23e2667c-e167-42fd-acc6-f0176541cda4",
+    "wp_id": 9405,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "23e5c88c-2679-48d4-adae-316ddad05681",
+    "wp_id": 4151,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "23e7f68c-a4a2-4b89-91cf-c944454f2498",
+    "wp_id": 23998,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "23e92712-a603-450c-982e-fc22147543b6",
+    "wp_id": 33783,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "24682a50-ce9e-409d-9e05-c5be68708981",
+    "wp_id": 8996,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "246e9dc7-8ab0-4a1e-b971-783c9ad3a301",
+    "wp_id": 6774,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "24e4b245-3362-4e04-8382-173f1be828a0",
+    "wp_id": 30805,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "24e5b827-60c5-4ca2-b49c-cbf2cf1d763f",
+    "wp_id": 1560,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "25397d17-d1bb-454e-bae9-9814271f6f49",
+    "wp_id": 19990,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "253db069-5e6c-42b0-94ae-ae224b3cfae9",
+    "wp_id": 7572,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "25a570e6-8f0f-4aff-85dc-1d87c138f072",
+    "wp_id": 14652,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "25e7c622-2092-4354-a0f8-055305665166",
+    "wp_id": 10657,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "25eb52e2-c9ce-4515-95b7-0434d81a8070",
+    "wp_id": 37465,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "25faf32f-3ed4-4285-9dde-02eb2a13e858",
+    "wp_id": 21216,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "25fe4cf3-0790-40e2-a791-127b2cacc6a7",
+    "wp_id": 10943,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "261c64ea-e0da-4c4c-9c3d-cf8ac2a6e22c",
+    "wp_id": 8145,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "261fa864-2d32-44aa-8249-a4999201921d",
+    "wp_id": 43,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "262d6ff8-5ea0-42b0-8a9d-c1f7f9c308e6",
+    "wp_id": 46477,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "263660df-38f8-4f00-a8a2-67d2d48ca3c4",
+    "wp_id": 45804,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2648f8bb-7056-47b5-9c81-8ab7c3495902",
+    "wp_id": 37668,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "265701e0-9aed-4812-9891-02209f6b13bf",
+    "wp_id": 11526,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "26656443-a37e-4c5d-a79b-3cf7af1b9020",
+    "wp_id": 48864,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2680b4d3-6063-4bcd-b196-78f3b6b1c1e5",
+    "wp_id": 7926,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "26b50061-1106-40c5-8680-d144a035d3af",
+    "wp_id": 4894,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "26c5e8b3-a4fd-4915-859c-8f79df092970",
+    "wp_id": 34436,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "26eadc17-189d-404d-8c66-d7d5c1f324b5",
+    "wp_id": 45812,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "26f42ba7-a18a-4d5e-bac3-9d9a2b60b4d2",
+    "wp_id": 37689,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "272b7a76-e296-4f92-bd71-9f4d48a4d13c",
+    "wp_id": 1195,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "27936de4-5088-41f7-a67c-d3747ee6568e",
+    "wp_id": 45595,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "279db387-e7b5-4266-8281-c1ae962a3796",
+    "wp_id": 21112,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "27ae50fa-84c9-4de4-a84e-82aaa15cb18c",
+    "wp_id": 38459,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "27e2ae15-119d-42eb-8da8-1b14d3d52baf",
+    "wp_id": 46195,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "27fd9b7b-7163-47d6-9dc4-9b06fb275d3d",
+    "wp_id": 31954,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "282fdf9e-3b6b-48a8-bca9-ff8aa941bb07",
+    "wp_id": 35406,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "28318de0-0e5c-49e2-acab-b5674f2509f0",
+    "wp_id": 32752,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2859e4f1-26f7-44bd-93f5-1c80861d8dc3",
+    "wp_id": 7476,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "28dc5054-faae-45ef-a370-e2c3b26b7fab",
+    "wp_id": 8612,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "28dcad3f-81f3-4a3e-928c-b1affc1b23b0",
+    "wp_id": 13097,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "28edb7f3-c9de-4bfa-9e4f-91c63cdcba04",
+    "wp_id": 32144,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "28f0f6f2-3e6f-4836-bc5b-0e8eec07601e",
+    "wp_id": 34555,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "28f6b37b-f242-4df8-b497-e800d2645354",
+    "wp_id": 31399,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2919947b-a3a3-42b8-bac5-fc8d822f5d20",
+    "wp_id": 21871,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "29340212-e728-4ec7-80c5-6c79dc471213",
+    "wp_id": 25325,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "29513721-8c02-491d-8b73-be6c648f4df7",
+    "wp_id": 22768,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "296a4d5f-bca9-4dd9-9083-39510db8dd9d",
+    "wp_id": 17583,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2a297686-7c28-442d-966b-5ab6bba0914b",
+    "wp_id": 40406,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2a96fe6d-74b9-4b9f-a48c-78e63df7b430",
+    "wp_id": 20757,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2aaef25f-06cf-44ba-b4e7-4546c8f9df2f",
+    "wp_id": 609,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2accc805-aea2-43ed-a1df-7e018d809907",
+    "wp_id": 9007,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2b237538-6247-4dda-b251-6e8863a68396",
+    "wp_id": 38585,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2bc68ee5-bab4-4da4-bce2-ec3963ae842b",
+    "wp_id": 16300,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2c1a7cfc-853d-4b7a-aed4-920021263e74",
+    "wp_id": 10461,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2c69b78a-3238-41d4-b893-5a5f8c758165",
+    "wp_id": 45494,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2c86c9bc-0a0b-40fb-b9a1-c164041eb9b7",
+    "wp_id": 3143,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2c909606-60c0-46a9-af16-45bd7fcf7e49",
+    "wp_id": 15768320,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2c9f8900-20a0-47a2-bf3c-02baca212a10",
+    "wp_id": 35973,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2cafba79-6f0b-4e32-aeec-dfb47c0bbaba",
+    "wp_id": 32890,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2cede190-56cd-4184-b29e-2bb519604e92",
+    "wp_id": 15145,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2cf7ffdf-27ce-49f8-820c-a1674998e043",
+    "wp_id": 38542,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2d01aa04-7c6f-4413-98bf-8f0093210608",
+    "wp_id": 6956,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2d01f039-ea41-41a4-bd3e-165a41f0b561",
+    "wp_id": 10650,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2d106fb3-39dd-45c1-9a5e-c2cd2ed71d42",
+    "wp_id": 26106,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2d7d466f-43a0-47c9-9372-d391cfdbcc5e",
+    "wp_id": 43132,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2ddcbae2-6325-462c-96bb-e04648eb1ad3",
+    "wp_id": 9000,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2e2d1064-1909-4028-b75a-f3bc050618b5",
+    "wp_id": 30548,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2e2ff878-aa09-42f2-91b4-0c7f507a4cef",
+    "wp_id": 18059,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2e768ee9-463a-4170-90a0-ed0964f83a92",
+    "wp_id": 11114,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2eec9625-f2d5-42d7-a85e-d2b220281aaa",
+    "wp_id": 10151,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2efe382c-d905-4023-942e-b8195b559b8b",
+    "wp_id": 35951,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2f21df29-faa3-4d20-b759-f20cd0eae089",
+    "wp_id": 38389,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2f439154-7f2b-47cb-8a60-7df4d76597ae",
+    "wp_id": 17781,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2f63af17-aa02-48b5-b5b1-b13128dab7c1",
+    "wp_id": 25616,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2f68e703-bd44-4ee2-91b4-a6fb216b4491",
+    "wp_id": 8971,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2f8af183-6561-4cca-969b-7af3bd5b7895",
+    "wp_id": 11695,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2fc8e10a-f4d8-4778-a6f8-5689c11fb727",
+    "wp_id": 16638,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2fd31142-a93d-49c9-97a6-f3dc49f7a36c",
+    "wp_id": 38414,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "2ff8c84a-0b15-4bf6-bdd3-f68b312b20ef",
+    "wp_id": 16382,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "301fe983-2923-49d6-a9c1-b3ac911aa25f",
+    "wp_id": 38618,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3036f279-5bf3-404f-8b24-3c6b240831c9",
+    "wp_id": 20335,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "303cda94-c543-473e-8dc7-128240d689a2",
+    "wp_id": 34793,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "304e8bca-f343-4429-a6a7-9b640cd2562a",
+    "wp_id": 45808,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "308e5af7-2fb4-4102-8e73-a602816c54f7",
+    "wp_id": 23444,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "30b7344b-8277-4d0b-8579-bfe50f8eb843",
+    "wp_id": 31261,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "30f7c8f2-c700-4eb8-9c2e-16f9633a6d84",
+    "wp_id": 45127,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "310c50d0-f667-4054-bde5-604cef2c0fcf",
+    "wp_id": 42219,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3120ba76-8716-4df7-add5-18d6e53da689",
+    "wp_id": 46777,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "31591deb-465c-4dc2-a9cc-3ca074569a62",
+    "wp_id": 42386,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "31793793-fa14-4869-ae39-7a8212b9d9f5",
+    "wp_id": 12152,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3180713e-adec-4f3f-97c1-f6e9f27693f4",
+    "wp_id": 8912,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "31996e52-8943-49eb-aa2e-c39603e309bf",
+    "wp_id": 4839,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "31cab405-2e3c-4e88-b440-aa921274b93b",
+    "wp_id": 3002,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "323191d2-51cb-4374-a150-17a7cb434388",
+    "wp_id": 7294,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3259a211-088b-4543-8446-0a025329681c",
+    "wp_id": 24706,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "32877863-03bd-4e18-80c0-9cf9a7ecbb66",
+    "wp_id": 45749,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3288e893-4249-443d-80ea-2273a410c6d2",
+    "wp_id": 12948,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "32ac8257-3d9e-4a41-90d4-cc72e137e385",
+    "wp_id": 45092,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "32ae57ca-77d2-487e-821e-9be43cfa6a75",
+    "wp_id": 37179,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "32c6ee9d-c251-46cb-a909-5192029c3003",
+    "wp_id": 42517,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "32c7c532-45b4-47b8-9af5-2ccc4dda78a9",
+    "wp_id": 11097,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "32d3bd7a-ea39-4dcc-9015-53be14426e6e",
+    "wp_id": 13352,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3309a799-feb8-46b9-b9b7-d8edd2992334",
+    "wp_id": 22625,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "334e1075-5a55-4eec-8c61-05597405f46e",
+    "wp_id": 32127,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "335418f1-145e-4e77-8f00-12a7cdcd2bd7",
+    "wp_id": 27909,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "33a772b5-af0e-4c6e-b44b-e1d212aa3419",
+    "wp_id": 7314,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "33b85138-d875-47a7-8e2a-44ba2a273a8a",
+    "wp_id": 32284,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "33c72832-e0be-4d64-b720-ce6f0952bbb3",
+    "wp_id": 41647,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "33d8596f-8649-4e02-9e7d-6b704497a1d1",
+    "wp_id": 48529,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "33f461cc-50a6-4c10-90f5-f18d5a433de6",
+    "wp_id": 32586,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "344e4397-4bba-4a2c-a502-2f7220d14fe6",
+    "wp_id": 34257,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3472ffde-94b0-4d77-b4b4-a3f50516a0ea",
+    "wp_id": 9116,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3493c599-4bd1-425e-ae19-86ab2951c954",
+    "wp_id": 17641,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "34cd1d0c-4dbb-4f28-9e29-2ff1c6cb4c3c",
+    "wp_id": 43308,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "34f499e5-6a67-447d-8d53-417dde447ef0",
+    "wp_id": 43869,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3571edee-28d6-4be9-aa78-cfb61ca6f22d",
+    "wp_id": 46828,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3579fcb0-be93-4907-8817-b3de76bc94ef",
+    "wp_id": 43712,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "358569b0-efc0-47cc-b981-8fe83e132d74",
+    "wp_id": 42463,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "35da8129-0f01-4f87-b78a-05185d24d790",
+    "wp_id": 45116,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "35db7c3a-4b9d-4a8d-9274-65b9db9b3d3a",
+    "wp_id": 41351,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "35ecf6b7-33b7-4188-8e4e-c010a4836ab7",
+    "wp_id": 11706,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "360e8ff1-5d6c-4899-aa94-b0a86ae0a62d",
+    "wp_id": 28109,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "363f487c-c5c7-4079-90be-07ecdee2bd85",
+    "wp_id": 43951,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3665dc26-5d43-47f5-b695-038fe2380aba",
+    "wp_id": 21022,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "36840739-dbda-47a9-aa65-76fe36ba0868",
+    "wp_id": 2294,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "36a4c808-1d5c-46c6-ad8c-9211fb6eaed6",
+    "wp_id": 18053,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "36afd46f-1fd3-4e32-915b-6e9fd4f9e874",
+    "wp_id": 40702,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "36c23a6f-4ecc-467e-b686-11596cb5dcd3",
+    "wp_id": 35799,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "36d4480c-5cda-4fbb-8d88-15455af83309",
+    "wp_id": 4081,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "36f3075c-535f-4ac1-8814-75ddc8b065a0",
+    "wp_id": 4417,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3728a598-42c2-4dbe-afa0-791ebbe00aba",
+    "wp_id": 36205,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "37402465-f304-43d8-882d-9d7253b32587",
+    "wp_id": 30975,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3743ada0-c3ce-45e4-af53-4a1b6d775e35",
+    "wp_id": 32856,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3774805a-f4af-46e6-8b38-3a39cfa0c37d",
+    "wp_id": 29033,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "37934758-78d0-4124-8764-858e81bc75e8",
+    "wp_id": 6805,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "37dddad4-503e-42e9-adee-a8cd6262aea4",
+    "wp_id": 45329,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3888cd31-dc51-4a04-8f78-3ba75eb7e28d",
+    "wp_id": 46640,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "38ad6a8e-2a01-4e24-8ef6-1eb79aba1de4",
+    "wp_id": 9265,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "38cd0c13-998d-4427-a680-f10a24e3c0d5",
+    "wp_id": 35944,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "39017d9b-a267-4d03-a624-165ccb4c39a2",
+    "wp_id": 11102,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3949a716-1c52-48c5-96a3-53f95b6a403e",
+    "wp_id": 26637,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "39638a78-87d7-4c19-88d6-35534393635d",
+    "wp_id": 44761,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "396de8dd-347b-4667-9dbd-6a2f476f7499",
+    "wp_id": 5147,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "39adcb3d-310c-4fe1-9503-7b520e7d4974",
+    "wp_id": 27085,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "39cc9b42-79f7-4f68-a1e4-d982cc6f200e",
+    "wp_id": 1563,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "39e5bc8b-355d-49e0-b2a3-286413f74d1c",
+    "wp_id": 25775,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "39f458c2-7b7d-48a4-acff-40ad80757131",
+    "wp_id": 35276,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3a3b38e5-0436-4534-863a-9c61a2c4f9ff",
+    "wp_id": 9190,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3a6c7b76-d999-4d2c-99ef-da06ee58e0ad",
+    "wp_id": 10671,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3ac33412-c913-4a91-bf7a-e87ca629dfe9",
+    "wp_id": 46293,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3ae8a16d-313b-40e6-bd22-d9eca65076ee",
+    "wp_id": 12305,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3b145860-fcc2-442a-a20b-aaf17bb0cf60",
+    "wp_id": 9584,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3b1560e9-f53b-4c28-b3ad-8a6d964a579e",
+    "wp_id": 6905,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3b66eee2-5ab5-431d-a461-40d0859e9c32",
+    "wp_id": 45335,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3b809e42-f9b4-4424-8952-670c0ccc1f8b",
+    "wp_id": 11834,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3b867706-a0bc-498d-ad3a-303844cf0945",
+    "wp_id": 45348,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3b937d8d-0682-42cd-ba0d-ff62f56efc81",
+    "wp_id": 37694,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3ba34750-13d9-459f-afcb-63266ea40dad",
+    "wp_id": 13112,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3bfea4de-5ac1-447c-b145-dd7c19edc9c7",
+    "wp_id": 44390,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3c009fa1-9ea6-4858-bab2-2d828aca2d35",
+    "wp_id": 43875,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3c1b7ef5-6b23-48e4-abe8-4f0d785fb4da",
+    "wp_id": 25460,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3c1e3e7b-392d-4e61-8617-8f13a0477254",
+    "wp_id": 15062,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3c55af4f-0a0c-457a-9310-d8d00df0862d",
+    "wp_id": 48835,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3c82ba34-de7a-4f04-9b19-8d7626ebc408",
+    "wp_id": 12518,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "3ccf1a79-27d2-42bb-bb17-89cc8da904bd",
     "wp_id": 15769054,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3ce06f5d-5d82-4951-85b5-6d4e2607bca5",
+    "wp_id": 48352,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3ce8dd66-d275-4285-8afa-eb1218f829f9",
+    "wp_id": 46769,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3d049208-ace5-42a7-8072-d7506f53a274",
+    "wp_id": 29139,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3d0da325-ed2a-4b29-8bce-a9d87e790f5b",
+    "wp_id": 36167,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3d17ca5a-64bd-4832-a09b-fc9397992dae",
+    "wp_id": 10962,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3d31a78b-1e99-4606-86ef-0628cdc00c70",
+    "wp_id": 29848,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3d389f2e-438f-4980-a44f-9d5c68aff96d",
+    "wp_id": 8147,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3d8f26df-4008-44d0-a697-a9e921410a38",
+    "wp_id": 23587,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3d96eace-de62-4658-8fcd-0f4cd5f24c43",
+    "wp_id": 23110,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3daac74b-86a9-48aa-a0f1-997e4e9ac5b9",
+    "wp_id": 35707,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3dca4e84-4431-450f-8f64-8b5e6d386372",
+    "wp_id": 44580,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3dcefe61-f53e-4eab-96d8-b0914941afec",
+    "wp_id": 26533,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3dec1ed1-b0d9-46d6-a04b-34b83b44316d",
+    "wp_id": 46733,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3e1037e7-effc-4db3-a259-c66279f0d764",
+    "wp_id": 38450,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3e2cd66e-8250-42c2-a268-ca7d4f686151",
+    "wp_id": 44887,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3e3d6be3-fe28-4ec5-809f-fca32a301152",
+    "wp_id": 8104,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3e3fb6d2-603f-4582-8214-47c41f4e86f6",
+    "wp_id": 10166,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3e70e96b-bf67-43bc-964d-33e7586a08a7",
+    "wp_id": 43377,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3e7bb3ec-9651-4b09-89e1-225f00ca995c",
+    "wp_id": 4023,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3ea73d12-e385-4184-9609-2bd5425eadad",
+    "wp_id": 41052,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3ea8054e-1da1-4bdc-94f3-5eedeb8715b8",
+    "wp_id": 4821,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3eb53437-b2d7-4cb3-b1b1-084aadcb2781",
+    "wp_id": 25474,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3eca8a1c-b8c0-428e-9ad5-d9ebb716c6e2",
+    "wp_id": 45366,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3ecc9a3b-d2f9-4cdb-bfb8-dba59efd1a99",
+    "wp_id": 31506,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3ecdd045-c5a3-4d5b-bdfd-5c913a9089d5",
+    "wp_id": 30578,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3ef0bcb8-fe83-4ea4-871f-f8192543dcd8",
+    "wp_id": 30972,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3f0e3011-d2dc-4e4b-9ada-684fb916ca5b",
+    "wp_id": 45585,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3f1772ed-7815-49b4-8c13-b020a8220c22",
+    "wp_id": 46721,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3f181ef3-81da-4fb5-bb3e-95187091b800",
+    "wp_id": 38289,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3f45bbb3-ffce-4fce-b757-0ddb62c1fe19",
+    "wp_id": 48554,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3f558e79-bc85-4891-ac0d-5aef99cae596",
+    "wp_id": 31607,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3f6ab185-308c-46a2-9fc2-f84bbe3fec8b",
+    "wp_id": 12149,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "3f9c3fc4-7043-4139-bd5b-53cdd6a717e6",
+    "wp_id": 13323,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4013c2e6-0edf-4298-87f6-e2e4250c93e1",
+    "wp_id": 10532,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4034ab6c-dd36-4e13-bc84-a6d83872c2a1",
+    "wp_id": 22569,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "40506837-10f6-4a5b-b8e8-c0427c455376",
+    "wp_id": 10519,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "40529be7-6b5a-4222-8ea4-1cc8d00fc6dc",
+    "wp_id": 46058,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "40579869-56c2-4cd7-9099-1555dd007717",
+    "wp_id": 33914,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4097dbbb-04b2-47e5-bdf5-bf0752b65fc3",
+    "wp_id": 45696,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "40fb524a-c3a0-4058-a8d4-916bed24ff6d",
+    "wp_id": 46263,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "412b81ca-d67d-443e-8239-3ae01aa26eed",
+    "wp_id": 46129,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "412dc6c7-8491-4060-8b3e-672ed3aa13ca",
+    "wp_id": 39738,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "412ff9b4-cd6b-4424-900d-70e7f33ad217",
+    "wp_id": 10742,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "414f49c5-eb9f-494a-b01d-7716268ecdde",
+    "wp_id": 46470,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4196d72a-7048-4964-a051-6a81ba66becd",
+    "wp_id": 11113,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "41a3964a-c7ba-45ed-bae1-07726eb7d4dc",
+    "wp_id": 38576,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "41e7fc08-84e3-42b4-a896-a4868e797807",
+    "wp_id": 39853,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "424d76cd-63a0-47f5-b4ee-bc4f506f5ecf",
+    "wp_id": 21126,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "42b1204b-f9c0-4618-aa7b-471254dd177e",
+    "wp_id": 30054,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "431e4c66-c322-42d6-a667-7a72e6c8b3db",
+    "wp_id": 18167,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4325a016-3e74-466a-b36d-ff40970e839c",
+    "wp_id": 33209,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4332a6bf-8b0e-4ddb-b083-c68021acc6c3",
+    "wp_id": 43366,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "433c8cb1-f588-421f-90d7-a985542ae97d",
+    "wp_id": 25942,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "43462ab6-8921-424f-af16-84c16a02656a",
+    "wp_id": 35957,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "43763759-dca2-4bcf-9c35-b7c2f338c6c9",
+    "wp_id": 40648,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "437b29ba-62d9-47c3-b469-7567c3c48075",
+    "wp_id": 981,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "43b2a79b-02ac-4ae2-9596-deb74fc20722",
+    "wp_id": 23284,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "43cfad63-7ce0-4daa-82dd-9c39b08a5173",
+    "wp_id": 12830,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "44317813-ca04-475c-a654-a7cf4d3c016f",
+    "wp_id": 13049,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "44451ee1-88a4-42ff-b7e5-7a593ecd64d5",
+    "wp_id": 32109,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "44784000-600c-442a-a59b-da22d3513b80",
+    "wp_id": 39697,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4480085e-a55c-4ef4-a20f-460d90a92b1b",
+    "wp_id": 39453,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "44827c86-5fb5-40fc-8d72-3b53fc3cea1f",
     "wp_id": 15768975,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "44838f33-8860-432e-8bb8-c6492b9141f5",
+    "wp_id": 37377,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "448a2e9b-c6d1-4b0a-9da6-f6a0f53c6cbc",
+    "wp_id": 34197,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "449e140b-2396-4d23-9d10-0c7f102f95af",
+    "wp_id": 15768338,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "44bc33ca-ec2f-4e2a-b0a0-117f5b69e529",
+    "wp_id": 45300,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4569b0ba-1c58-428a-a01d-7fb07453c762",
+    "wp_id": 9812,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "458ff9ce-83c5-4baf-8fe0-03bcd12d370f",
+    "wp_id": 48381,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4593c3f9-87b6-4066-9b26-a32ebda53a11",
+    "wp_id": 39854,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "45c49b41-541e-47dd-bcc2-c2fe04a1b4c2",
+    "wp_id": 6941,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "45cfe161-7b0d-4ae0-a66f-927ad57a44e8",
+    "wp_id": 30450,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "45d6c7a2-29bb-44a9-a739-d60e2cf74922",
+    "wp_id": 38687,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "45eda254-3b9a-4429-b555-c3cd7fe17c7a",
+    "wp_id": 5108,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "460c381d-2f3b-4902-94a3-d71e15584f42",
+    "wp_id": 10490,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "46192328-5215-4f80-97c8-14a7773b702c",
+    "wp_id": 38184,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "461bff80-badb-4f49-b17d-28c2f06f83c7",
+    "wp_id": 20734,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4633beb6-7eab-4b4f-b8bf-7fc482c75199",
+    "wp_id": 48270,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4636fe58-08ab-4538-a581-3827fe3ca42b",
+    "wp_id": 26924,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "464dd3fa-b52f-4094-8983-81cac21255ae",
+    "wp_id": 12208,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "467c5d36-e26f-49d3-9571-88904aa604e4",
     "wp_id": 15769151,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "468b2ffd-2117-48e8-8f84-bdf17042ff88",
+    "wp_id": 12919,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "46a9cb7b-bdab-4046-b687-4af57dfaa3c5",
+    "wp_id": 40514,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "46ba5772-e90e-4fb5-b555-97b419989f11",
+    "wp_id": 42478,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "46bb797d-d244-49f4-bb9a-73fc2a51e7bd",
+    "wp_id": 43358,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "46e0882b-a33e-4dcc-b7da-c3182e730d2c",
+    "wp_id": 6052,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "46fc8828-831f-4a05-85b4-fb53bc4c2434",
+    "wp_id": 39741,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "46ffb84d-e0c6-4bf1-8bdd-6e99724d5a1b",
+    "wp_id": 32391,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "475fd6e2-dd08-40e5-bde8-e513190f36ce",
+    "wp_id": 40495,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "476c45f8-ff58-4f61-bc30-5f656970a40a",
+    "wp_id": 43294,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "478658ef-ebd3-44f5-8bef-e72cfde02c9d",
+    "wp_id": 11119,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "47899aee-5567-4808-8e23-d59fecb16620",
+    "wp_id": 10472,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "47bf8086-ca78-4b83-93b8-f283e00a0eb0",
+    "wp_id": 32574,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "47e7e1bf-bb90-4541-93eb-17c5a1691d8f",
+    "wp_id": 46729,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4804df4a-a2e0-4670-a915-8453d5ca3523",
+    "wp_id": 23434,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "48290a7f-45e6-4bb6-98c5-2b28c42fb6fa",
+    "wp_id": 46179,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "48700dc6-630c-42d8-a945-a867117efc78",
+    "wp_id": 25651,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "48afff7f-a478-42f6-a747-dbaf07fc7f06",
+    "wp_id": 8903,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "48f4ffc7-03d2-4881-9803-fb1980e816e1",
+    "wp_id": 38695,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "48fcedf4-d40e-432c-a58d-334567f816d9",
+    "wp_id": 19206,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "491147f5-1ff6-4c50-9296-c05856f1f8f0",
+    "wp_id": 36365,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "49129ae1-ac92-4869-8b6b-b6597e9c57a7",
+    "wp_id": 46800,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "493d6819-da0d-4bd1-850a-2f7efa3b6bf7",
+    "wp_id": 15767560,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "49447b91-1102-4ff6-b522-911505972b16",
+    "wp_id": 12939,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "494bcaa6-a58f-4995-96bb-958b8133e989",
+    "wp_id": 33691,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "496670d5-714e-4d5a-a044-72dfa0582f83",
+    "wp_id": 36175,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "498f4f97-6b5e-4e07-b692-ac517dfad173",
+    "wp_id": 33577,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4997687e-d183-44e0-ae36-a3e42a7940c1",
+    "wp_id": 42449,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "49abf7e8-5073-4ac6-ad29-6ebcffd55cbc",
+    "wp_id": 15768431,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "49b8df0c-4734-4469-889c-9116432a12ec",
+    "wp_id": 13384,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "49c5868d-b109-484c-ac3c-55e02c3247ac",
+    "wp_id": 19871,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "49deabc5-df26-43db-92d3-d737089a40cb",
+    "wp_id": 28686,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4a17d0f6-f78b-494e-b34b-780fbdb7fd70",
+    "wp_id": 42022,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4a1a8502-c2dc-4d33-b58d-2b728b9fd0a4",
+    "wp_id": 9269,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4a50b182-ccea-451b-b09b-a75c830140f7",
+    "wp_id": 24171,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4a637bd4-6d43-4b48-97ed-0aa2ab8afb1c",
+    "wp_id": 38688,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4a726f57-993b-48b3-bfe6-aa3b0d0d3823",
+    "wp_id": 5909,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4a8331d5-6da0-45bf-af32-0f01cfa764eb",
+    "wp_id": 42082,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4a93f8e0-ce42-4f78-90a1-8d301ee34e84",
+    "wp_id": 30623,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4abd0f4b-34e2-4a44-bef8-6f1ada4b41c6",
+    "wp_id": 46673,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4b2ec248-8250-46d1-bc93-56b214f6f607",
+    "wp_id": 15767910,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4b312c20-6e50-4586-8c66-01ccac09b9bf",
+    "wp_id": 28790,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4b3edb53-9032-4884-adac-7f78bbf375c3",
+    "wp_id": 6939,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4b58789a-5dd9-40ea-a3c3-86ca5619e627",
+    "wp_id": 16056,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4b86605b-6326-4ae1-927d-fac44e7bf933",
+    "wp_id": 48453,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4b87b105-6440-4cf8-a60e-4a82e602f641",
+    "wp_id": 12284,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4b8f5bb7-73ce-4bab-8095-bc3331b686b8",
+    "wp_id": 33947,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4bb839de-9e9c-4e65-addf-2234a3ae3738",
+    "wp_id": 33552,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4c253695-0f5d-4fdb-ab86-2060f1542002",
+    "wp_id": 17804,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4c329d0d-9bf4-4955-b597-435ff6614b77",
+    "wp_id": 38381,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4c50e75d-9c7c-4a91-a55f-b16174a063b6",
+    "wp_id": 38363,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4c725d95-706a-499b-8709-795494b26996",
+    "wp_id": 39873,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4cbf87d7-b071-456e-b023-a01d34b849ea",
+    "wp_id": 28604,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4cc0e3b5-a220-48c6-aaef-a64c810d1d66",
+    "wp_id": 31286,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4cc40d1c-5d69-4517-9ed3-481c53df1a55",
+    "wp_id": 26824,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4cc9781c-a364-419e-8180-13d2fb26208c",
+    "wp_id": 46514,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4d3303dd-3d02-4df9-a01d-f6c6cdb2ba30",
+    "wp_id": 38664,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4d46e3f9-2332-4d19-b52b-814f465e9b5b",
+    "wp_id": 31008,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4d50a4bc-9a79-4305-8f05-ea6c93153a1d",
+    "wp_id": 15768610,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4d683e7c-f9a8-4e6a-8443-de67738c3b59",
+    "wp_id": 22564,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4dc9f072-c5c3-458e-a48e-9095c1de7f5a",
+    "wp_id": 33963,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4deed934-d3fe-4d88-b9cf-97344b2e6718",
+    "wp_id": 45951,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4e199774-3ee5-43fa-b9b3-2b659c219840",
+    "wp_id": 26082,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4ecbfd2a-737e-405a-a644-2cc4dac8d47d",
+    "wp_id": 7451,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4ef2b888-f1a0-4635-9455-bdacc407e169",
+    "wp_id": 12073,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4ef48aa3-d717-4b23-9262-74e4e9ebd640",
+    "wp_id": 19372,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4ef95a11-4673-4739-970d-27432a18fc4c",
+    "wp_id": 35825,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4f1034ef-fd28-4b95-9ad6-3aa37feeba91",
+    "wp_id": 48463,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4f6a1abe-7295-4413-ad44-1d9762834af3",
+    "wp_id": 41139,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4f904109-89d7-41d3-a85d-58f7b5e57006",
+    "wp_id": 38258,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4f913f1e-2d01-42e3-93f7-f10a91ebcd9d",
+    "wp_id": 37158,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4fc80043-c1af-485f-b769-6cc150eb870d",
+    "wp_id": 40502,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4fe7feb6-89e8-4a61-b033-adc43276dacc",
+    "wp_id": 26977,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4fef90f4-5f14-4a56-a5b0-7e6a8f63ff49",
+    "wp_id": 9984,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "4ff88ea2-61e8-4e06-9290-6ae083b3b583",
+    "wp_id": 45937,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "502c94c3-3826-4281-9aa5-bb1949b239af",
+    "wp_id": 3116,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "504775f8-347f-4e3d-9990-84d7be7eb5b6",
+    "wp_id": 22466,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "50bf0db7-67b2-4757-86c9-d89251ca95a1",
+    "wp_id": 32785,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "50f92455-58d2-4317-ad79-0a7125bbc810",
+    "wp_id": 43451,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "510615b2-08be-48e6-8bbf-3544d5bb4e94",
+    "wp_id": 9284,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "510dde52-0528-4a38-913b-bec76dbd881c",
+    "wp_id": 16307,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "51496080-da49-439e-867b-066ec138edcf",
+    "wp_id": 12166,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "516574dd-2e1d-4700-9270-7a30af4f6604",
+    "wp_id": 16281,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5172a944-fc92-45b2-b38f-89f789cbbccf",
+    "wp_id": 3646,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "51789abb-e88d-4a80-8b10-44603380942d",
+    "wp_id": 10063,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "519507ff-1e49-4ed6-9a8a-3e28db0ed1ad",
+    "wp_id": 9274,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "51cebab3-7021-421f-8a89-9c0fabd0f618",
+    "wp_id": 35594,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "51e7ad98-76a2-4dd4-a6df-bc9097c55a9f",
+    "wp_id": 35575,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "51f8b69b-8f50-41a9-aefe-ea2c003f37a5",
+    "wp_id": 18027,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "52e7187f-c821-4193-804c-7808b1769be4",
+    "wp_id": 12395,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "52f03226-bfbd-4e1a-a4d6-47308d89b6ec",
+    "wp_id": 30510,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5310f360-4efd-4b13-adca-155491f5395a",
+    "wp_id": 31278,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "53243f17-8659-4fc5-a342-fa8ad7414e89",
+    "wp_id": 15767617,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "53729ce1-8e5c-4719-ace3-f684083f1456",
+    "wp_id": 4841,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "53cbd8de-e19d-4ce7-9dc6-96f045c9d739",
+    "wp_id": 30549,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "54381f2a-7654-4402-adb1-01c335e23e01",
+    "wp_id": 10903,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "5438643d-ced6-4020-8543-d2fd68d95146",
     "wp_id": 15769052,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "543de2ee-8e40-499f-b0c1-745579e7f6dd",
+    "wp_id": 4799,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5462b37d-7a99-4946-82cb-ccf05ba1872e",
+    "wp_id": 45958,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "546aee8f-5d0f-4df9-9094-62044c83c4ca",
+    "wp_id": 10107,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5479a9ec-79f1-4d0a-8139-d97afb0168ed",
+    "wp_id": 7936,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "549a533a-1d3c-47d5-a680-3edcec08a501",
+    "wp_id": 45603,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "54c796a2-1e76-431c-ac43-0ed597554ca5",
+    "wp_id": 9099,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "54f8a74d-ebd4-4e63-b35a-1db6eb9c74cf",
+    "wp_id": 16538,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5510fd93-4ca3-4971-9e94-37eb188eafff",
+    "wp_id": 37146,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "55463eb8-8e5b-4f72-a3d3-07c9f636d52b",
+    "wp_id": 43031,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5571cee7-bfff-4602-8607-085c1674be97",
+    "wp_id": 47072,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "55c61c30-2186-420c-8a3a-8a8de7a0d751",
+    "wp_id": 30750,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "55ca0854-d7fc-43f6-9c4d-043f91132e75",
+    "wp_id": 21563,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "55d3018a-1124-4bd7-b15d-ec17e98abf39",
+    "wp_id": 12952,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5634d7ff-8326-47f5-ad4f-7d94937e0441",
+    "wp_id": 12522,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5643cd98-d4aa-4d41-82e6-98075f3fa21d",
+    "wp_id": 34185,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "56575c19-7b11-4153-a0fb-9e1fbb791ae7",
+    "wp_id": 46794,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5658e899-83f5-43f7-b226-eeb300a92f78",
+    "wp_id": 38233,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "566beefa-ac9b-478f-bcb7-3121f8dd0ac6",
+    "wp_id": 37481,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5672429d-2eee-43c6-b4bd-6858f82976f3",
+    "wp_id": 43666,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "568ecc3b-803b-4c95-9d27-8f875216fca7",
+    "wp_id": 12820,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "56939ca1-f287-4b55-8739-b6440c13f475",
+    "wp_id": 29172,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "56b5a49e-c0ef-4800-94c4-28562a16979c",
+    "wp_id": 22376,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "56b96d9f-2f8a-4bef-8591-7b45a5f8be73",
+    "wp_id": 44610,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "56d06f3a-006a-44f5-ada1-42f99ae62262",
+    "wp_id": 38671,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "56e61a1f-9b79-445b-b26e-730a0fbca1ab",
+    "wp_id": 4787,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "56f97695-4788-4f7e-99ac-39f942138f65",
+    "wp_id": 45746,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "574a6fc5-0334-4a85-af97-f5bc5fd0b6ba",
+    "wp_id": 26588,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "57c74680-2170-4385-a7f4-7a448bd380c7",
+    "wp_id": 8134,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "57fb72d5-30c4-4327-aded-35db3c4b7214",
+    "wp_id": 45599,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "580b3401-5945-4f35-aa56-ecf42c1d8131",
+    "wp_id": 15768021,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "58131682-3e79-4b0b-8a90-c1157ad4ab43",
+    "wp_id": 18191,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5827f172-c9c5-4849-8f3c-fe34198bb8cc",
+    "wp_id": 40708,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "58bdc64a-3857-442e-b72e-ee86b5b0a623",
+    "wp_id": 46073,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "58c53b8b-065e-42c2-8711-f630bc22e71d",
+    "wp_id": 7146,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "58f9d356-6cf9-4a44-97bd-8803317c0ad1",
+    "wp_id": 32450,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "58fae097-c327-4afe-a243-3ad59d102822",
+    "wp_id": 13342,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5926882d-b53a-4d69-930e-168aba109fa3",
+    "wp_id": 15768443,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "594d2a4a-94c4-496e-89d1-6f7b8eb23e41",
+    "wp_id": 45873,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5979de26-45a3-4976-8ee5-9d621de5ce88",
+    "wp_id": 31934,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "59d921c6-75b0-453c-a361-aceeb1910d97",
+    "wp_id": 17599,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5a12249a-e735-44ee-ba60-06a6249b43a9",
+    "wp_id": 27591,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5aa7d680-be68-43b3-aa9e-b872495b9fb3",
+    "wp_id": 12721,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5ab1ea2d-7a75-410e-a2cc-c8238381b81c",
+    "wp_id": 2291,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5acfad27-f657-44d2-8efa-74a33bdc9671",
+    "wp_id": 39158,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5b38ea16-06db-4f3f-8765-ee2731a0d532",
+    "wp_id": 4003,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5b581f03-8891-4e8a-8195-e0fca7ce8453",
+    "wp_id": 21713,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5b946603-4fcb-4935-a97e-f14d08d72a25",
+    "wp_id": 30169,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5bb94062-2570-4ebf-8cef-85d6f8477c1d",
+    "wp_id": 18794,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5beb3014-23be-4711-b8c0-4fac089d1b32",
+    "wp_id": 18624,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5c0153f3-0aee-41cc-be52-31c65a373fcf",
+    "wp_id": 35368,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "5c1231d9-74e9-4ef4-8b4e-db11643a3e2c",
     "wp_id": 15769075,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5c5a737d-c1ea-4d8f-8814-0cff4fef136c",
+    "wp_id": 6809,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5c7057d1-7797-49e9-89c6-f3a11352fdd0",
+    "wp_id": 17458,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5ca17502-ab97-455e-8c83-b92b9e68598c",
+    "wp_id": 65,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5cb504d5-84ae-4580-ba5a-d82346f90dbd",
+    "wp_id": 43883,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5ce3116d-7a06-4123-89d4-4e5fefdcc65d",
+    "wp_id": 46699,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5d36397e-f8b6-47d7-b0f1-8d919397fac3",
+    "wp_id": 9332,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5d376304-67c4-4297-91b2-b9548924cb40",
+    "wp_id": 38553,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5dd251f9-4aec-4ad0-9ef0-2398486fe8e5",
+    "wp_id": 11198,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5ddef829-95d1-440c-8486-2205fde9fa0f",
+    "wp_id": 21641,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5df11610-8df3-4645-ace2-8f5199ca76e6",
+    "wp_id": 34599,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5e2020aa-08bd-46e8-bb9f-2979b2334fee",
+    "wp_id": 7941,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5e59a6f8-a255-4f93-abaf-b742ae69a7b0",
+    "wp_id": 45764,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5e82219a-c947-467c-a944-24fa1222ba72",
+    "wp_id": 37400,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5f072200-b38e-40a3-be1d-e60f3d21c7b5",
+    "wp_id": 37381,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5f2fed49-9264-43db-a390-a8213ac2b5df",
+    "wp_id": 46812,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5f70da4e-8d76-40bb-89d0-0ffefcb4d634",
+    "wp_id": 46113,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5fc612a3-bb9d-4413-a4b6-1eb42315c62f",
+    "wp_id": 46234,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "5fea959a-6b4f-434c-8e20-d109c578fae8",
+    "wp_id": 39276,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6008b991-3a92-42c2-8ba4-d7c57fd09694",
+    "wp_id": 33179,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "600ba450-f930-4324-8223-f93fe3cc7cb1",
+    "wp_id": 25016,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "601fd844-4831-4bd0-bc14-53af1974fa16",
+    "wp_id": 37794,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6030885e-ffa6-4e73-b696-c26d5d8ab6d6",
+    "wp_id": 44844,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "619b3b0c-209b-4563-a882-a6696e4e03ef",
+    "wp_id": 32200,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "61cca815-03e7-4715-aae5-e38c29cc9b34",
+    "wp_id": 33488,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "61ce029d-e2c6-45f7-b9b2-7b1ab5ce6139",
+    "wp_id": 27611,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "621ea3f0-0827-40b8-a4dc-eb2886e3015d",
+    "wp_id": 47014,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6222e441-0b26-47f4-88c6-93fa9aef8cb3",
+    "wp_id": 14839,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "622c04ed-4233-441a-bc6b-438c4e530d5a",
+    "wp_id": 35371,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "622f3bcc-bc6b-44c6-938a-96b88f1e75da",
+    "wp_id": 48638,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "62524cf1-d7af-4829-8270-da1db61f6139",
+    "wp_id": 34656,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "626429eb-5337-4336-9b31-004a6521c20d",
+    "wp_id": 13040,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "62757b1a-870f-4362-99c5-4b59f4676bc1",
+    "wp_id": 6599,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6288ec1a-659d-4285-8e7b-0609fc3298b2",
+    "wp_id": 24144,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "628b6776-f067-4854-a150-77b11995b505",
+    "wp_id": 10131,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "62d677dd-2655-451a-acef-4054dab9d864",
+    "wp_id": 34184,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "62d9f167-325b-4fa2-bd17-f25226b46f2e",
+    "wp_id": 30997,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "630e3f3c-aa35-4849-abac-6f52338bc9b6",
+    "wp_id": 27869,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6316101b-dbcf-41a0-bb4b-405a22bb4bbe",
+    "wp_id": 10023,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "635ee42a-9861-4562-84cc-d843c65b8f64",
+    "wp_id": 22394,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "63f54fdf-8abc-4600-813d-22d6d90ac22d",
+    "wp_id": 7932,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "64035ee6-dc18-46e3-aad6-056b76079d0f",
+    "wp_id": 21175,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "64491aba-822d-4bfd-93b2-efee91f6f8cf",
+    "wp_id": 10989,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "644be608-31ae-4216-bcd3-9ea950c1a6b2",
+    "wp_id": 10059,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "645a988e-eab9-49f7-8fda-43d2cdef6bc0",
+    "wp_id": 42615,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "649adb8f-dac1-4938-92d0-6879f2776c91",
+    "wp_id": 8615,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "64a3ae6f-b57b-4659-acef-a194a932b654",
+    "wp_id": 48826,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "64abaf81-90c5-4baf-945a-b44c9e361ec1",
+    "wp_id": 32292,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "64b7cc0e-04e1-4ae3-8306-090389c98b33",
+    "wp_id": 29167,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "64b894ee-60d3-4fa5-9f0f-b7e25dd06de2",
+    "wp_id": 7966,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "64d19910-24bd-4994-9319-809a8ad0b0d0",
+    "wp_id": 48729,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "64e04c56-3f4e-4dbe-8505-8d0c87ad8bae",
+    "wp_id": 12799,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "65e9a920-ca2d-4f3c-821f-aa75c2e76fef",
+    "wp_id": 12637,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "663408f3-2eae-4640-b08a-172106591a8e",
+    "wp_id": 42633,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6649785e-e572-45c3-b2c5-ef7687258430",
+    "wp_id": 31480,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6671b829-d957-44e8-8faf-c2ef11467ca7",
+    "wp_id": 45504,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "667f350a-ac24-48a8-8f89-40eee7c72bf7",
+    "wp_id": 19452,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "66a72dde-f6a0-40d7-ad49-3f64cda44a51",
+    "wp_id": 8731,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "66a7cf98-25e1-4a51-a18c-0889e6b4c0ca",
+    "wp_id": 11190,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "66d04bdc-4a30-4857-8b16-be37c14f68d9",
+    "wp_id": 46666,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "67125a92-fb84-4242-b688-e6dcd2c0318c",
+    "wp_id": 32578,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "673d0f1c-75cc-4a75-bba2-201c8143cb96",
+    "wp_id": 14822,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6748a869-18ba-4fce-965f-fd294954dd31",
+    "wp_id": 30439,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6796319b-5588-4a92-b3d6-00416ea8d30e",
+    "wp_id": 38696,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "67be183e-2e78-4640-b3cb-3b3932eecabd",
+    "wp_id": 27073,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "68038443-8204-4cc2-9746-d34a2e2b396c",
+    "wp_id": 38668,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "682328f2-4f93-4cf0-99db-c8a6bb7c4c1a",
+    "wp_id": 11121,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "682fdbdb-1b9e-4bb0-9dae-fd5424200a0c",
+    "wp_id": 8129,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "685eeb60-25af-480b-9a4d-ba9d6110ec9e",
+    "wp_id": 44614,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "689c1946-03df-47e4-bf02-2177caf39ab1",
+    "wp_id": 12570,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "68bc34c0-5b61-4edc-b98f-78f208b3edc8",
+    "wp_id": 37863,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "68c0a2ba-5db6-4975-b033-029a2a33682d",
+    "wp_id": 38603,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "68d1d9a4-f559-416c-a727-02da77c92d14",
+    "wp_id": 43348,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "68fe84ab-cf83-45ab-b8e6-c8fdaa43091a",
+    "wp_id": 37701,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "69376341-8c05-4e7c-a0a1-c16a9a1e6c48",
+    "wp_id": 17864,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "693c622f-ab4a-4499-a5df-841dc5a8d600",
+    "wp_id": 42445,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "696406c5-1e11-44f9-8c67-f303b6809d14",
+    "wp_id": 12163,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "698e17b5-e7f9-480f-a96d-54cc2d5c41b5",
+    "wp_id": 10159,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "69bce178-4c81-434c-8b07-1d3b83d2de7e",
+    "wp_id": 24792,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "69c91123-9622-47e2-a85f-c32bd1268855",
+    "wp_id": 15404,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6a43db31-1e0f-40c2-b7a4-f0362a86adde",
+    "wp_id": 27919,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6a5257c2-37e9-46d7-8ce5-4f2eaa7c1632",
+    "wp_id": 31148,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6a5ae212-0470-4beb-a429-6f56b8a6e6ed",
+    "wp_id": 8900,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6a85a5b7-8149-4628-a12a-f77b604382b0",
+    "wp_id": 20683,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6a900cd9-d13d-426a-929c-c81a0fcc273c",
+    "wp_id": 9417,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6adffa89-9ec7-4006-9f7e-c025ff5e8aa8",
+    "wp_id": 13408,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6b6ffbdc-cf16-4545-8ff0-b86118d0a635",
+    "wp_id": 35391,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6bbba635-11db-48f9-90ea-5c377240a38a",
+    "wp_id": 37643,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6bc6bf29-fa4d-43ed-b72c-8220168d26d8",
+    "wp_id": 44598,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6c01bf2c-33f2-461e-b5af-165739131577",
+    "wp_id": 7474,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6c4246a0-1574-4c20-94d8-c058d9bc9ca2",
+    "wp_id": 46498,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6c674946-e2aa-43f8-9032-d64bec83c3e8",
+    "wp_id": 5923,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6cde231d-79be-46c2-9483-e36366c218b1",
+    "wp_id": 24275,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6d34ea66-49e4-45ea-a199-59deab3db2c6",
+    "wp_id": 24589,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6d6cb348-9274-4490-bf14-1b452ec4cfa5",
+    "wp_id": 33742,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6d9d598c-c3a5-407e-87a0-49a6fef7c4e1",
+    "wp_id": 41256,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6d9ea864-0158-4e7b-9ba8-ec24281c940d",
+    "wp_id": 31014,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6db93fd0-afed-4444-bed8-2b5abc40d26d",
+    "wp_id": 26577,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6e2934ce-b127-4c85-81ce-1e380445e80e",
+    "wp_id": 46133,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6e429e0b-95eb-4d35-9c30-303a05fa8995",
+    "wp_id": 35850,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6e788673-07b1-4367-9ae5-5a0ecc649be9",
+    "wp_id": 39812,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6e7cf30a-a09a-4f87-8553-1834b30c4558",
+    "wp_id": 35636,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6eb66e15-7797-4b95-8394-693c509b8301",
+    "wp_id": 13101,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "6ecba6ee-97bd-49be-a050-2d39cd50ae92",
     "wp_id": 15769240,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6efb3b28-567e-4045-a1d2-bf8fd0ca7354",
+    "wp_id": 15768313,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6f004b3c-10c2-45d3-b145-1abec49755be",
+    "wp_id": 38279,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6f014b42-c92f-4819-b855-c47a96a6b23e",
+    "wp_id": 11792,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6f3c467b-133a-40ec-8780-d9887f46f921",
+    "wp_id": 34594,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6f77fd2c-dfdc-4cb6-9e73-946b32e20bb0",
+    "wp_id": 46837,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6f7d882d-ac53-4e07-968d-15933488807a",
+    "wp_id": 16792,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6f84549a-6dda-4740-957c-1a943b07b43a",
+    "wp_id": 11104,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6f9ee262-0586-418f-8355-cfdc20c5220d",
+    "wp_id": 44446,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6fa943a9-2d67-4f26-8aeb-b6cabe9c26b8",
+    "wp_id": 6682,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6fb97d32-3a7a-4413-bd2d-c89d53810d7e",
+    "wp_id": 12409,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6fc7bfef-1347-4d69-8258-fb151a229929",
+    "wp_id": 5918,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "6fdf9a12-8938-422d-8a59-77fb81c39c53",
+    "wp_id": 29030,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "70850f58-b27e-4b7d-b608-a833ac639628",
+    "wp_id": 12189,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "70865735-e020-42d8-a342-83a97dbd7a29",
+    "wp_id": 45668,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "70901f33-1bf4-4521-be64-0abbfe57cb6a",
+    "wp_id": 15034,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "709949e6-c17d-443a-9336-eb771d231adf",
+    "wp_id": 36272,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "709dab39-479a-4a9f-b26d-cf152cff9c92",
+    "wp_id": 8998,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "70a2078e-c035-4fac-b515-b9101d313e29",
+    "wp_id": 45933,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "70a9df14-3fe8-4a2c-8ba5-1724abe30e10",
+    "wp_id": 6344,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "70e1e940-43fe-4082-983d-fe1d0102feb1",
+    "wp_id": 44207,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "70e2d7fd-d18f-4463-8dae-fed0ec91eda3",
+    "wp_id": 40466,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "70e366cd-bef2-49fa-bbca-9042e7a97a0b",
+    "wp_id": 7479,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7117fe65-b413-460b-9de2-0b4ba7bf5f59",
+    "wp_id": 9912,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "715eb2e1-3b05-407b-a977-9080f077635f",
+    "wp_id": 46486,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7185460f-90da-4428-9813-71ada0579078",
+    "wp_id": 46161,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "72018c33-3be5-43a9-93d0-e59df3a47a90",
+    "wp_id": 48725,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7260eb99-2b9a-473c-82b1-9506bf87ebce",
+    "wp_id": 45085,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "72713b05-042a-4ff5-8bc3-98e7820379e7",
+    "wp_id": 30002,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "72acd395-e9a9-46ae-8037-5ec45f5c43e0",
+    "wp_id": 15462,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "72e827da-51d3-44de-9a5a-7d08d4a9c868",
+    "wp_id": 46168,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "72f15ac4-0c10-42b6-822a-06fa2d71ce9e",
+    "wp_id": 41639,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "72ffa9cb-8d11-43a4-9a83-65d60b2e5e0e",
+    "wp_id": 33178,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "730f1727-9a01-4770-ae10-5648fa0cb43a",
+    "wp_id": 27887,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "732dac2a-0779-483e-890c-790ffd581359",
+    "wp_id": 46224,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "736f7df3-b289-49c8-a5af-bcbf63a9e017",
+    "wp_id": 11461,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "739aea91-911f-4329-9d99-efc7e5f0a39e",
+    "wp_id": 17275,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "73be811d-93fb-4092-af89-e81dd84f2cf3",
+    "wp_id": 39950,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "741d6a17-7d30-4b1f-9d55-4afa209f5baa",
+    "wp_id": 26012,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "74399959-a451-4507-9296-36d1b9a5064e",
+    "wp_id": 39221,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "746776a7-3acc-4eb4-abbd-2341a3b26e3a",
+    "wp_id": 25335,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "746e8789-d6eb-40dc-b2b9-370f3b186741",
+    "wp_id": 10677,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "74900990-263e-44f7-b479-f0b4fc45808a",
+    "wp_id": 10904,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "74c8e384-e38f-4344-80bd-f781110d7f4f",
+    "wp_id": 16244,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "74cdf413-bcd2-4be9-99e8-c288357a1dae",
+    "wp_id": 29429,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "74d9cfac-e365-4771-8c79-3cdf3180af4e",
+    "wp_id": 31458,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "74da053e-2196-4973-8295-5a9d074cc3c9",
+    "wp_id": 15767805,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "74eb0674-50c2-4aa1-99f3-364fc952b904",
+    "wp_id": 12307,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "752e7118-6b2c-4e9a-bd75-d9455b0e7a0e",
+    "wp_id": 10155,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "75316db0-2b7d-4de5-a268-1171018f832a",
+    "wp_id": 36184,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7552fcb8-056a-4373-bed9-08aabcbc4121",
+    "wp_id": 34886,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "75787ec2-bb87-4a4d-85a0-75020d1e483a",
+    "wp_id": 44016,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "758524ac-a2da-4c0e-8d21-adcc3e72655e",
+    "wp_id": 5690,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "758738e7-fe46-4c4f-8214-1353d2440adf",
+    "wp_id": 4063,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "759a28e5-5a89-40d7-bb8c-4cd1c80e61a7",
+    "wp_id": 30951,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "75ba2cf9-1783-4dc2-ba9f-4c708c740e60",
+    "wp_id": 34417,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "75bfb01f-9358-45db-8e8d-f30e58e94775",
+    "wp_id": 39132,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "75e68114-8aa3-4f31-9c32-1c84987c7927",
+    "wp_id": 41923,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "76059b3a-c3fb-4aa6-86a3-56c3a5e99524",
+    "wp_id": 15157,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "760d7de3-fae7-4b07-ab2d-e942d7202e27",
+    "wp_id": 6560,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "76449755-dff3-4129-b3e4-004784eb90dd",
+    "wp_id": 28212,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "765bf120-78e2-45bf-98ae-a9e4ed108493",
+    "wp_id": 9713,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "767943e0-83ae-4230-bb41-3ec86adaaaec",
+    "wp_id": 12325,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "769dc8c5-24b2-4950-9134-94aaaed1f407",
+    "wp_id": 44039,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "76a625e5-9627-4c67-871b-545f7700be6f",
+    "wp_id": 29344,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "76a779fa-9742-4c52-9e15-e2c0f6d2f024",
+    "wp_id": 19606,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "76ac2032-852c-4f8b-b3ea-f11c3c864792",
+    "wp_id": 4806,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "76e4f985-cad7-4ac1-ae01-9b02d2aefb2d",
+    "wp_id": 45816,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "77143d91-1857-4703-b8dd-054abce0dd20",
+    "wp_id": 40365,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "773a6b77-2b0f-47ff-a6bf-337f918f969f",
+    "wp_id": 17443,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7768221b-ce1f-408e-a7b7-048153907976",
+    "wp_id": 25652,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "77d00171-f953-456f-bc3d-659861294180",
+    "wp_id": 4054,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "781d22b0-9b86-4452-bf4c-b77aaa75d5da",
+    "wp_id": 35411,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "788fb02b-77b1-48fc-8c13-885bd1f7d1eb",
+    "wp_id": 48264,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "78a30b98-2849-41cd-81db-c7f00ae77170",
+    "wp_id": 44072,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "78a7de35-8193-4269-a49c-78db2b843339",
+    "wp_id": 17148,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7902c0b6-337d-4ee1-a645-0f8c109fba77",
+    "wp_id": 8593,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "790e02d9-e934-4032-a334-aaca3b743fe9",
+    "wp_id": 10688,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "79424c4e-48cc-4ba8-843c-8b6c7723939a",
+    "wp_id": 2887,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "794a3134-e3b2-48ea-9b57-7971d795705b",
+    "wp_id": 36472,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "79572ee9-9bda-4ea5-92c8-ea7e376938b5",
+    "wp_id": 44660,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "796add14-3820-4eb1-bdd0-60e5b6e1e931",
+    "wp_id": 15767693,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "79786739-3057-469a-81ac-ecaf1c19f81e",
+    "wp_id": 36262,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "79a02ee5-965b-452a-8f57-9773c19f1994",
+    "wp_id": 38284,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "79b9e4b6-5944-477f-9366-a85fdf8d35e3",
+    "wp_id": 42618,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "79baa947-e65f-4fb9-9c33-ed1e1c1d3421",
+    "wp_id": 30756,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "79e11a75-0f9e-4d21-a06b-35875e2cd604",
+    "wp_id": 16931,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "79f0e2fb-f2e9-40de-82ed-1ae074153819",
+    "wp_id": 34675,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "79fde51f-556e-4104-8912-ae7511c57478",
+    "wp_id": 40237,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7a0c4438-41d9-4f43-8529-a01546a0d424",
+    "wp_id": 6761,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7a1de8cc-cd34-4acd-8f32-8249a3ea5105",
+    "wp_id": 40395,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7a6bb820-5e41-4ac7-9f08-a66ada89a736",
+    "wp_id": 31869,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7aac526b-d91e-41cd-b0ad-ade4e856557f",
+    "wp_id": 12156,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7ab400e9-1b00-4797-8217-16a82bb5cf77",
+    "wp_id": 33867,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7aced81b-ef57-44ad-bbc3-f608e8a27dec",
+    "wp_id": 30724,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7b6405bc-908a-4ce8-898f-b92ca11d4e18",
+    "wp_id": 38626,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7b6b6727-3aaa-4787-be86-890c749c7956",
+    "wp_id": 45613,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7b778942-e516-4b7b-b71a-cee8c9b92371",
+    "wp_id": 20109,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7baa46dd-46c5-4833-a65a-54ae68d2b370",
+    "wp_id": 31931,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7c8721c1-b15a-4f72-8530-6750b7bf877e",
+    "wp_id": 20344,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7caa1569-8a3c-4f26-90b7-1cba5487a77f",
+    "wp_id": 37396,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7cc759ec-991c-4fa5-b534-07bb2cbfadf8",
+    "wp_id": 13570,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7cf608be-99bb-42c6-9063-9374cf59436b",
+    "wp_id": 24563,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7d1cb58a-37a6-4e59-8350-abb91b7d452f",
+    "wp_id": 15767716,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7d57b62e-6d95-4737-a3da-32adfcbad616",
+    "wp_id": 13051,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7d699d71-bd98-4da1-8001-6fb2436397d8",
+    "wp_id": 21364,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7d86978d-f45c-403a-ad46-13354163267a",
+    "wp_id": 37362,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7db3520e-1f6b-4523-be85-0898371257b2",
+    "wp_id": 1449,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7dcf72a3-6bf4-4e54-8275-a4e0d159f571",
+    "wp_id": 38054,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7e0eea81-1cbe-4bdf-bf6b-3ec49765eba6",
+    "wp_id": 4611,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7e0f3b1f-64fe-4b6b-b631-4c74d8a2575f",
+    "wp_id": 21232,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7e118f17-a304-4859-a3a0-969f35e0c393",
+    "wp_id": 48833,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7e12f904-85b5-4149-b0be-636fe77f23ab",
+    "wp_id": 11617,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "7e4e1ba5-7ac1-48f7-a42e-b60788a01ca8",
     "wp_id": 15769070,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7e59eef0-279b-4eec-80f3-c1319ee65dc2",
+    "wp_id": 35646,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7e8a27b8-a706-40e0-a584-467291d17717",
+    "wp_id": 42625,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7ea440df-3442-4857-acad-df8b8982015f",
+    "wp_id": 21503,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7eb44064-aac2-4e29-8017-3b5bebe78016",
+    "wp_id": 20116,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7eb88b95-067e-42e5-a79e-52956a89d4d1",
+    "wp_id": 15066,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7ef31df0-f44c-44a0-b9e5-e653ebbbda9b",
+    "wp_id": 33802,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7f1d8389-6fe7-4fc4-b454-2a90c7267a6d",
+    "wp_id": 21195,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7f3db60d-c621-4e06-a8a0-ac3ba957f506",
+    "wp_id": 39971,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7f43f813-c8ac-4ba4-ba7c-7b1396a1e0c0",
+    "wp_id": 11789,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7f56d22a-11d0-463e-909c-3cf7b3130c77",
+    "wp_id": 47459,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7f634e4b-a81c-4769-8cad-d1cf2a522818",
+    "wp_id": 34224,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7f68191d-1003-4a81-9ea5-fb31c84edf36",
+    "wp_id": 8989,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7f81ab6a-eec3-4d40-ac79-ac18d83c3d7e",
+    "wp_id": 7968,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7fbc1823-545e-409e-9ccd-bbd083c956d2",
+    "wp_id": 24741,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "7ff5350f-28d3-43af-a97a-62c7b48c8067",
+    "wp_id": 34701,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8015190b-d8c6-4364-9463-4661ffb0dfc0",
+    "wp_id": 14901,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "802388d5-2df6-4233-963e-dee2cbda207d",
+    "wp_id": 9708,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "80b26856-bb78-4fce-94db-b92135f37b91",
+    "wp_id": 41331,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "80b8a4d3-fd2b-459c-9e6d-dd0e6a0eafb3",
+    "wp_id": 39268,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "80cdbcab-3fb0-4cc6-92cd-1a6ea0d5a800",
+    "wp_id": 15013,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "80d153fd-2ac3-4633-a8fc-74466779d0bd",
+    "wp_id": 12279,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "80d7211d-ef5c-4003-9db8-3d76d3e3d11d",
+    "wp_id": 2862,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8115b42b-eaa3-4959-8772-c691c83fd4e4",
+    "wp_id": 5118,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8135f53f-a53f-4964-a204-a5d1b372ba10",
+    "wp_id": 46435,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "81572bb0-9467-402f-aba5-4fd9cf39c243",
+    "wp_id": 33155,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "815bdada-45df-4bd0-8711-bcf8cc944bdb",
+    "wp_id": 36391,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "81b0edea-a323-414e-871a-1578afb8a587",
+    "wp_id": 32387,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "81bdd80d-ee13-475f-a143-800aeb5e2c6b",
+    "wp_id": 7332,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "81c1ec9c-0fbd-45a7-919d-c233e2919aca",
+    "wp_id": 43879,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8207f46a-8bd0-446e-b08f-54822fbf61eb",
+    "wp_id": 28694,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8226c795-180c-462a-9a31-5928f7aa7ad5",
+    "wp_id": 37914,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "82536e3f-3ebc-4cc3-a24c-dd6b14db0ab7",
+    "wp_id": 15768346,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "82cfcf11-ed10-4e75-a255-5b977a755d41",
+    "wp_id": 40290,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "82feb126-359c-402a-ae81-7551aacff0ba",
+    "wp_id": 26873,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "83000ec3-bedf-4455-9bfe-14d03aac8941",
+    "wp_id": 35627,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "830ac9a1-a030-4ad1-b7f9-8688ea276651",
+    "wp_id": 7230,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "83268a64-1006-44bd-a777-7f0b6ddd090c",
+    "wp_id": 7852,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "833ccfe1-63b6-498f-b2c1-f928e776e594",
+    "wp_id": 22598,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8353237e-28e1-4d50-b4b7-12353cd196dd",
+    "wp_id": 46172,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "839086ef-2605-4700-82ea-dd42e7ed12df",
+    "wp_id": 16683,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "83a8bad3-3140-4992-9805-a3e0612f4efa",
+    "wp_id": 15041,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "83d6cb11-8567-4761-8e72-3b04d0e0c2e8",
+    "wp_id": 7740,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "840db13d-2909-4b76-8e85-9285dbb3227b",
+    "wp_id": 19717,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "84171e4c-4526-41a7-b3cb-f9b69690ccff",
+    "wp_id": 7123,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "846396ab-8aaa-4146-9b8b-ff13804813bf",
+    "wp_id": 22604,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "848e7b9e-a284-465e-8477-20015d402973",
+    "wp_id": 37001,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8497f625-bea8-4e11-b480-45613078b9dc",
+    "wp_id": 18612,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "84cb3db9-84d0-4ec1-a400-fb0082a03d0f",
+    "wp_id": 34335,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "84cba335-d887-4ab0-9a52-1701b7cd2995",
+    "wp_id": 38505,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "84e6de7b-8f72-44e3-ac2e-3fb83e08edab",
+    "wp_id": 35604,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "84fac6ef-d2ac-4df4-8c2b-af3b450c7682",
+    "wp_id": 8371,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "85057d79-dda1-4c94-b42c-0bcd2d40386c",
+    "wp_id": 44431,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "851ec08e-da62-45eb-aab5-b439f797faeb",
+    "wp_id": 42497,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "85c7fd33-200b-4f91-aa1e-680b525a98a6",
+    "wp_id": 38561,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "85dda14c-bc41-40b9-b2da-cfb68f796b75",
+    "wp_id": 29418,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8604f1c1-94c5-40b6-8669-5f34742c9676",
+    "wp_id": 45000,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8620c6fb-bb90-46c9-8966-690be00a4e3d",
+    "wp_id": 25606,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8622f0d3-3f86-4d86-87b3-ef24977bbd9b",
+    "wp_id": 3997,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8646267f-310b-47cc-8ff4-248a23a22ac5",
+    "wp_id": 17511,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "86923aa3-5fe2-4499-bb02-66f2bc091a30",
+    "wp_id": 35842,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "86c02a4e-2073-4cf6-92a7-54128d9bcb83",
+    "wp_id": 7254,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "86cff38d-fba1-4793-816f-eeaa57094185",
+    "wp_id": 44219,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "86e636f6-f3e8-401d-93b5-218c702d7aee",
+    "wp_id": 26967,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8705be6b-012f-4050-a743-b26c8ec81426",
+    "wp_id": 19703,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "876b8f05-23c7-4769-8285-136ee554e16f",
+    "wp_id": 16267,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "877e450e-9d72-4968-b142-cd0fbcacbc5e",
+    "wp_id": 42416,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8791a3ce-b4e7-4613-be8b-0ee78e0be1f2",
+    "wp_id": 34568,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "87bc559d-0442-4f39-9093-47798d27270e",
+    "wp_id": 30579,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "87c55d17-ac4d-4545-8d1e-b5513a2be413",
+    "wp_id": 31510,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "87e0b8b7-4bc2-47f6-b807-184726b67edb",
+    "wp_id": 37531,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "883d585f-974b-4379-bb98-ccf24a70b03c",
+    "wp_id": 37372,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8843b92b-8d62-4d77-bfc9-c6d8ef28ef72",
+    "wp_id": 15767777,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8859eed4-71ec-4103-8769-5abe314b7813",
+    "wp_id": 10057,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "88953eda-da4a-4303-8c8d-6fb2aef49a09",
+    "wp_id": 30074,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "889eb739-5531-4f78-8f6a-adaa4f1034dd",
+    "wp_id": 24458,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "88a12211-2294-40af-ac08-ee9f3a4d25a7",
+    "wp_id": 45214,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "88d25536-dbec-486a-a01a-c510f80f4a00",
+    "wp_id": 13104,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "88d2c7bb-6de1-4d38-9e7c-4396690bcd6b",
+    "wp_id": 43773,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "88d89d52-e65c-40b6-856a-548d444bae25",
+    "wp_id": 20593,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "88e57c04-3ecc-4a3c-a55e-2e01382d6b08",
+    "wp_id": 3149,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "88e96a7f-ea9a-4946-845c-b4cef542a4f2",
+    "wp_id": 39729,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "892f21fc-4751-4d3b-8641-1cff531d1cdc",
+    "wp_id": 45784,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8930298a-5e32-4f78-935d-3e135028a24b",
+    "wp_id": 9419,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8963b26f-d7cc-487e-987c-11129a17505c",
+    "wp_id": 13026,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8966e48f-7442-4d7c-a81f-01a51fa2f1a6",
+    "wp_id": 44567,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "89779148-a840-4894-9b34-7a0b703c8191",
+    "wp_id": 21313,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "897e6a6d-95ce-433a-be62-83c7050e071f",
+    "wp_id": 35851,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "89a87a4c-7335-483f-9dc0-f5fd25524036",
+    "wp_id": 43830,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "89be8904-5603-4420-9ee9-e66ca677bdd6",
+    "wp_id": 36465,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8a102bca-b5ef-4e29-b8fb-d515d5fd4d15",
+    "wp_id": 7027,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8a29273c-3fe5-49e8-90da-23ad6453af9d",
+    "wp_id": 6618,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8a2f71aa-cf91-422d-8b25-03b9a71a68df",
+    "wp_id": 7734,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8a428949-6ba1-4a4e-a2e9-26e609c2bed8",
+    "wp_id": 30898,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8a701fe7-79dd-4689-a68e-1cc2b6a588a5",
+    "wp_id": 8417,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8a8b7baf-bf56-48b7-8185-dc587e4b8563",
+    "wp_id": 15767545,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8a91b516-0cc2-4d76-9fa9-7b5239fab921",
+    "wp_id": 42129,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8a95de0d-4a05-43c2-9fd6-798e75ef4a0e",
+    "wp_id": 11535,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8ab21944-38a0-4505-ba1e-75703b18ea7a",
+    "wp_id": 19067,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8ac19c56-b5a0-4422-9475-29e94a2291c0",
+    "wp_id": 34459,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8b49cad4-94d8-474c-89fd-d7c94544f97d",
+    "wp_id": 44116,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8b86fa89-e832-496d-b44c-6017ba1d3dd5",
+    "wp_id": 12589,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8b8ca43a-cb74-4018-877e-bb810249f27f",
+    "wp_id": 15000,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8bf5cfce-9ca0-4069-a8e1-4f12f5951452",
+    "wp_id": 44824,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8c264f10-c2fd-4502-b00f-eada47da43b3",
+    "wp_id": 34790,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8c508cb2-c33c-46ce-9975-d722272ae688",
+    "wp_id": 9825,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8c63ca19-7279-4584-a2fb-ef22e329e8c7",
+    "wp_id": 12591,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8c76e31c-82e8-437d-bf95-1b9bbd1366ea",
+    "wp_id": 7944,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8c93f90f-13cc-4b64-a216-b1d5ed15019b",
+    "wp_id": 8719,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8c94d411-2425-403e-9b12-c2514f78d615",
+    "wp_id": 25424,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8ccd140e-19d7-43a2-9dd3-1913d4b91e17",
+    "wp_id": 44734,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8d375b94-f6b9-4534-ab88-34f6307f365a",
+    "wp_id": 21119,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8d47917b-ec01-4959-977d-9e6f45ee00b0",
+    "wp_id": 41912,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8dabc561-d981-45bf-979a-39af877da896",
+    "wp_id": 11120,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8debfd45-34b2-4c2a-90be-e75a142f0a07",
+    "wp_id": 10883,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8def42d4-4702-492e-a031-e3cac710eb16",
+    "wp_id": 26217,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8e45bb0b-d8c0-423d-bd45-c8e70f1f8a96",
+    "wp_id": 30985,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8e92b2b3-a5e8-4674-b72a-2a4e925470e3",
+    "wp_id": 48061,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8eb9ea79-38d7-4e9e-836e-fabc5ed9d8ad",
+    "wp_id": 4803,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8ebe40db-3470-4fbb-9a10-68e4cb7286aa",
+    "wp_id": 32146,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8ee6eb07-8860-4243-8c54-8a0571809a74",
+    "wp_id": 44546,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8f4260c8-7194-4bfe-aef9-649156067392",
+    "wp_id": 18807,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8f4a95af-fdf3-4b02-8ea6-b4ef1c513648",
+    "wp_id": 30568,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8f6993d9-c794-4bee-82ba-03df5a567163",
+    "wp_id": 41984,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8f729b6c-ba37-4c70-b0ad-188367e3e775",
+    "wp_id": 38619,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8f73f81b-c7a8-4118-9f14-35ade0b0843b",
+    "wp_id": 45006,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8f8eca9f-c061-4679-a30e-217e5c2c6543",
+    "wp_id": 48298,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8fed3958-b3ba-4588-88c4-d32293656f74",
+    "wp_id": 38611,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "8ff6ce1b-18e3-4ed6-b6ae-cb54941fdcc6",
+    "wp_id": 32137,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9016f0eb-fb01-484b-b21c-34b984236862",
+    "wp_id": 31442,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9045d12a-484c-40ea-87ca-a2ce1fa97390",
+    "wp_id": 34487,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "90524970-f60f-4c3f-b438-7d5f14f4e857",
+    "wp_id": 44400,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "906bbacd-cf41-4e9a-883a-4c7325168afa",
+    "wp_id": 42352,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "90a7df80-13bb-4b0b-afaf-8238f4279a3f",
+    "wp_id": 32075,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9125a582-b25a-4274-8136-41e98ba3b2b7",
+    "wp_id": 28854,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9195fd5e-2e39-4c57-abcf-b5be9a89da69",
+    "wp_id": 43561,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "91f710e3-73be-4276-a6c2-e220b3b0dbcf",
+    "wp_id": 28416,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "922b00ae-57f7-49a4-9c7a-9164bc21574d",
+    "wp_id": 10973,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9261158f-ec0c-4373-86c2-f7ec184eb23f",
+    "wp_id": 9384,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "929b7a23-7008-4eeb-ad2e-8c18ca9fd822",
+    "wp_id": 9101,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "929d7193-2668-494e-9a6e-13289b625894",
+    "wp_id": 9126,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "92b654cc-b8f6-4695-ba26-143b2c0f2967",
+    "wp_id": 31816,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9307c42b-946d-42c9-a239-b39160e7f0a6",
+    "wp_id": 26719,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "936598df-e04e-4b3a-a60d-59a3337963c3",
+    "wp_id": 39040,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "937ccedb-7536-4ad9-95ab-187885d06b22",
+    "wp_id": 38295,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9396bc9b-81e9-435e-8cd3-cc5c026e02a1",
+    "wp_id": 44957,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "93b899d7-7bb4-4fa8-96ee-260ee2463875",
+    "wp_id": 13171,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "93bdd203-ba07-42b0-bfed-0d3c7ff22906",
+    "wp_id": 28345,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "93d081f7-c691-4095-a86d-6ea19a0828d5",
+    "wp_id": 6337,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "93efd86f-48ed-451f-b5ac-5171a2f22ccf",
+    "wp_id": 33184,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9459c0be-fee6-4a5e-9b06-19549f6a1ead",
+    "wp_id": 45296,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "947142e7-ef03-46e4-b9bb-21d06422fe8b",
+    "wp_id": 1637,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9482d2fe-0c8a-4f83-a2ed-8e6c4b874d35",
+    "wp_id": 34764,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "94934d6a-76d8-46ba-9b3f-f33dddc9aceb",
+    "wp_id": 11830,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "94c04912-a6b5-495d-86cc-912fabd1a933",
+    "wp_id": 38394,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9572cd98-8080-4bae-b6b8-c9e2f151282c",
+    "wp_id": 47453,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "959e7216-27f8-4688-a67f-664335e06921",
+    "wp_id": 8796,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "95d10373-14dc-4149-bc9f-f7b78401d146",
+    "wp_id": 15768513,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "95d13d63-28f1-4ee6-b827-85c4a74d4c98",
+    "wp_id": 38584,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "95f095dc-0f23-405b-ac8a-2da4c4f1198c",
+    "wp_id": 8398,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "95f357f4-93a1-46d8-ba76-a8ec76dcf309",
+    "wp_id": 39646,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9648ac06-3bca-470e-89a1-b0d01d02bc8a",
+    "wp_id": 40507,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "965f9683-e47e-41d5-a223-6040df70e7e4",
+    "wp_id": 37414,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "968537f4-5563-49a8-8e5d-eca13956e4d5",
+    "wp_id": 35334,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "969e52c2-89c9-4625-bb90-6a137043d4bb",
+    "wp_id": 15768324,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "96a0d311-fb0f-4397-b299-00af88ac17e1",
+    "wp_id": 37515,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "96bd57ac-4550-4282-8200-700977f8f0e5",
+    "wp_id": 34474,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "96c3550c-75ec-4f51-bfd5-1b62a76402c4",
+    "wp_id": 6387,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "96d8a8e8-a178-4eb4-80ce-a3ef35ce0435",
+    "wp_id": 17717,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "96dba73e-ee2b-4629-ad23-f2e2ccb229dd",
+    "wp_id": 3347,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "96e2631b-6bf1-4520-a0de-ddca64afe6fe",
+    "wp_id": 5892,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "971222a0-9517-4b78-be64-6e3de2f3f74b",
+    "wp_id": 23229,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "976b4bf4-b06d-4288-a5a5-78aca957b4db",
+    "wp_id": 45853,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "978f36d3-f991-4750-a21c-01fc4e423582",
+    "wp_id": 46694,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "97ab8f3f-fd7b-4807-8515-f8b3bb8068f9",
+    "wp_id": 26109,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9814c0fa-9a35-4d51-b41a-d6d1949869f5",
+    "wp_id": 19781,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9831273d-35e8-4995-a657-81dd99d88f45",
+    "wp_id": 45152,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "986d8424-47e7-49fc-af84-f23e5016dbb9",
+    "wp_id": 48347,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "98c296b2-9017-403a-a556-7ab8a2624300",
+    "wp_id": 15768578,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "991c2350-b911-4e41-92c5-efb21309189c",
+    "wp_id": 27637,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9933fbce-bfb6-44fd-82fd-2d518a93063c",
+    "wp_id": 32883,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "994975e8-dfe9-4842-9df3-2bcddaecdc21",
+    "wp_id": 25267,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "994f451b-4807-4563-8ae0-99eb1de0ebf3",
+    "wp_id": 11186,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "99face4a-0fe0-4c8c-abc1-26baab0f51f6",
+    "wp_id": 15234,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9a2f372f-a692-4de8-8173-5fbf5732f7d2",
+    "wp_id": 15768666,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9af391ae-808b-4272-bdb8-18ba38759bb7",
+    "wp_id": 46525,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9b0a1203-8008-4024-8604-9214d29089c1",
+    "wp_id": 30876,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9b69135f-f1fe-461b-a39e-006d884bf150",
+    "wp_id": 21336,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9b791271-6a39-4318-af52-902b945b8e1f",
+    "wp_id": 38155,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9ba43fb8-3254-4848-a1d0-c8736ac65cc5",
+    "wp_id": 41249,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9bb1c957-f234-4656-926b-d1fd5c7a5901",
+    "wp_id": 38006,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9bb2bb7c-66d9-4a38-8eed-0643dfe701b6",
+    "wp_id": 37304,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9bd25ed3-a458-4d5d-8ed5-a338e4f668b3",
+    "wp_id": 40472,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9c159b4c-3fbb-4f79-aca8-713eb707caae",
+    "wp_id": 5129,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9c248e1d-f20c-42ae-a054-dad6cecc9209",
+    "wp_id": 10695,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9c8ecf96-434e-498a-977a-418b7cf6ce5f",
+    "wp_id": 26735,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9cb624a2-fa36-4ea7-ac87-39c41b8cd3e5",
+    "wp_id": 25022,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9cbe74ad-b91b-46b2-9688-24522a87854e",
+    "wp_id": 44312,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9cce6c64-626a-4e7a-8cf6-024237057d46",
+    "wp_id": 38371,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9ce6eaab-f075-4f0a-a1c7-e5a09d957d92",
+    "wp_id": 20581,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9cfad386-e7e7-40f2-956b-5318b15237a8",
+    "wp_id": 13396,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9d454645-2afb-4142-8aaf-7ae55391e882",
+    "wp_id": 5698,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9da8cfcb-aeca-4f65-8dcc-8ed8679ccd62",
+    "wp_id": 45775,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9dca7af3-10c9-4305-92df-faa94c0018ff",
+    "wp_id": 34239,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9e0d7834-62ba-4a3c-bc6c-d0048833d042",
+    "wp_id": 23099,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9ea93962-b021-4110-b9fc-75a759be6358",
+    "wp_id": 21818,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9eae9275-2524-41d2-a949-667f37b50e84",
+    "wp_id": 30347,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9eb418be-797d-4c03-be5d-d1fc82658687",
+    "wp_id": 10890,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9edace2d-8b68-4ddc-8719-562d7261c19d",
+    "wp_id": 34064,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9f1238dd-7bb2-4e58-8afe-9019745a80e5",
+    "wp_id": 13047,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9f8f056b-daf3-48c9-b1f4-54eee719a862",
+    "wp_id": 35910,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9f9fed8a-3d3b-4a22-a558-29fc419cb158",
+    "wp_id": 30994,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "9fb9ccfa-2fbd-4ef0-807c-3d87474c85c1",
+    "wp_id": 38514,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a010f3f7-6401-43bb-964b-f0b65d74a042",
+    "wp_id": 25306,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a016426b-af2d-4757-bb46-b5ad8085a6d0",
+    "wp_id": 20138,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a0615dc7-1dbb-40d9-b8fb-581c194d83ab",
+    "wp_id": 13130,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a06a5879-fc65-44e3-86fd-90526076cde8",
+    "wp_id": 23986,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a087d056-f19e-476c-81f3-77b29aea80fe",
+    "wp_id": 9186,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a0983430-7fa7-44cd-9098-0a0dcc49ff3d",
+    "wp_id": 12845,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a0ad636c-2c7e-40e5-9341-aa2754461cf9",
+    "wp_id": 43113,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a0bedb41-544c-4b7d-9a37-09c6144e51de",
+    "wp_id": 36178,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a0d24e2b-e841-4d2e-acc5-d9d476a8c969",
+    "wp_id": 44060,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a0e13816-0d9d-423b-ba85-c9ea6d6b14f3",
+    "wp_id": 42508,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a0e7d16e-aa1a-4fe3-bec5-ec170156eaa5",
+    "wp_id": 15767583,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a18471ba-d43c-4f63-ade7-753ab326d3a9",
+    "wp_id": 11604,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a1975166-5cda-4119-8eab-6be5512a7e50",
+    "wp_id": 46187,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a1e4551b-a166-41c9-b97c-94dbd74e8892",
+    "wp_id": 8140,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a1ebf771-ce56-4da8-94d8-640b2081fede",
+    "wp_id": 21223,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a1ff0ade-5fc9-4067-857e-2b2b5f6a6c0c",
+    "wp_id": 17624,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a214e8fb-5509-4279-aeb1-47506af3894c",
+    "wp_id": 12692,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a219304f-2490-408a-868e-410ca7606524",
+    "wp_id": 3988,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a230f9b9-39e5-4a12-a40f-8a0893edbe9a",
+    "wp_id": 46703,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a24163c7-b479-4f24-a2b6-b99703cfb923",
+    "wp_id": 9568,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a241e9b6-2599-4522-9dff-540c5d992e66",
+    "wp_id": 35977,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a2dc1536-ebd6-4ed2-9f72-22600a16765a",
+    "wp_id": 46481,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a31a609c-90b8-4639-9937-cd730daac40b",
+    "wp_id": 9144,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a3a15452-1a2d-4b8d-8506-ad9573fc30df",
+    "wp_id": 45575,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a3db0e90-f7ea-43ac-96df-5e7d4e2078d6",
+    "wp_id": 12198,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a456b0a3-3179-4831-90e4-2bacab6ad094",
+    "wp_id": 4013,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a4943ec6-720d-415f-9685-4d969235605a",
+    "wp_id": 12187,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a5160b72-0e6d-4114-9bc9-1d817d1758c4",
+    "wp_id": 4039,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a52def99-78e5-4167-9bb8-41f8d5874ff8",
+    "wp_id": 34439,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a5651303-f438-4bfc-8101-fc1380e8fd05",
+    "wp_id": 5178,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a571f8ca-fe91-4af5-87d1-48653619e0e6",
+    "wp_id": 31871,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a5994391-1446-4138-83f9-0aa1d0a4f625",
+    "wp_id": 42246,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "a599a40a-1b6c-4b0d-b24c-e835585aa1c1",
     "wp_id": 15769084,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a5fb1d5d-ea6a-46b5-b256-c97c0ce4634b",
+    "wp_id": 32273,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a5fde02b-f9f8-4387-9e03-bcce884cfdba",
+    "wp_id": 8184,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a643f81a-eec2-4bc1-b5f6-255a0136d66a",
+    "wp_id": 42026,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a67f04f3-8387-4e9e-b1f7-13ce59c3e3c6",
+    "wp_id": 33081,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a6b89a35-2d38-42b6-94de-647b3c296e75",
+    "wp_id": 25318,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a6d047d9-657b-4a2e-9b6c-6b8cf18ed97f",
+    "wp_id": 34578,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a73c9423-bbd2-47ba-a61b-df2438f8a6a4",
+    "wp_id": 38024,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a76742da-9a2f-4635-b4ce-10cef251767e",
+    "wp_id": 16317,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a7a5f4ca-3d81-458d-a07b-c176791ca6b7",
+    "wp_id": 38575,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a7f078be-ec63-45fd-901c-21b8a4c3fc0f",
+    "wp_id": 24658,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a80995c2-c15e-4bbc-acdc-94c61c080441",
+    "wp_id": 44780,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a8252dbd-185a-4cae-bcce-c7b5978300db",
+    "wp_id": 10872,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a84f3b93-ba90-451d-8ffd-cff2c524306f",
+    "wp_id": 35933,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a9d95eee-2b96-4282-9434-c940a6f04aa1",
+    "wp_id": 21239,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "a9eecc5b-3b04-43de-a8f9-a14ee7662c7d",
+    "wp_id": 35819,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "aa013464-19a9-4543-be58-1ee6d7e97af0",
+    "wp_id": 43958,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "aa1a54ec-f2ae-43cd-988b-04c1f3ac8cff",
+    "wp_id": 1940,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "aa2fcc2c-fe74-4cd5-8cb5-0edc87949b17",
+    "wp_id": 30593,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "aa679859-a775-470b-b4b0-5eb6f14ec2c9",
+    "wp_id": 28634,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "aa8b2d60-e6e4-4324-9f11-1a5e318cf04c",
+    "wp_id": 29133,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "aab0614f-5933-4663-b8a8-a5be92b225c2",
+    "wp_id": 35922,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "aac895c8-e02c-4d13-8954-3328f8db64ec",
+    "wp_id": 29045,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "aacac805-ec17-43d8-a820-89dced5dc359",
+    "wp_id": 46289,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ab00d3a5-fda9-4675-9acd-8909fc6e7cd9",
+    "wp_id": 15768773,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ab1f38fc-43e9-4a78-8d8c-c65656ccfa78",
+    "wp_id": 30610,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ab4f319a-878c-4917-8bce-95ae99a173ca",
+    "wp_id": 32211,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ab6b2aab-2784-4257-b632-2ce4314869d0",
+    "wp_id": 15768010,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "aba178a7-638e-420e-b53c-43e08189c510",
+    "wp_id": 45800,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "abac90d0-16f2-4b93-ba3c-9c5af61d2200",
+    "wp_id": 44069,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "abc90360-e5b3-474c-9fe4-758175ddff7a",
+    "wp_id": 36021,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "abd6d4bf-0d30-424f-b4b9-4fcdb5d2cf35",
+    "wp_id": 14928,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ac4ae3d6-48a5-4d73-a56e-23f08bdae28d",
+    "wp_id": 21877,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ac5a4591-2bf8-4a1a-a79b-da3629e4dd73",
+    "wp_id": 30952,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ac6acf0a-6e3c-451b-aa3a-f1e0c55cc18b",
+    "wp_id": 38706,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "acb3b938-8499-4b1f-ad2c-7dcb2c375379",
+    "wp_id": 13190,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "acbb8dc1-da62-4653-b8d8-cda45b7d02dc",
+    "wp_id": 6686,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ad03246e-66d8-48ce-b430-0dc2eeab15ab",
+    "wp_id": 2238,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ad3e0e7e-858f-4853-9330-c988cd9d7a07",
+    "wp_id": 16698,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "ad75be0c-ed44-4046-9f5d-b3052d670c7c",
     "wp_id": 15769047,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ad80c758-3802-4a3f-b794-040489ed9346",
+    "wp_id": 41455,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ad8695c8-ac09-4d5b-9321-1860575c37f9",
+    "wp_id": 32908,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "add20b32-fed1-44a3-8d64-cbcc0119ba19",
+    "wp_id": 25300,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "add50370-efd9-48c0-9cac-352b0ef2138b",
+    "wp_id": 36328,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ae3ed560-9f7a-4c49-aebf-dfec995ff713",
+    "wp_id": 28621,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ae935619-ee5f-43ca-82bc-f5e265b4b474",
+    "wp_id": 6726,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ae938319-f65e-4585-892b-f02955c232e7",
+    "wp_id": 8738,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "aeda4c01-7b0c-473a-b58b-8f32298677e2",
+    "wp_id": 5717,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af0d01e5-6209-4b3a-a27c-d19b078c1996",
+    "wp_id": 34589,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af122883-fa7a-4b61-b3bf-e6caf80d6708",
+    "wp_id": 40055,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af17c010-03ea-45db-8388-0369c2712533",
+    "wp_id": 45549,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af4ba4dd-656c-45b9-903b-1dce6b5e1527",
+    "wp_id": 4369,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af67fdc8-af95-4eb8-984d-71c53a8e16a4",
+    "wp_id": 42534,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af81fad9-8508-4d2b-a946-fa4044b2df6a",
+    "wp_id": 45541,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af876889-34b9-400b-9c4d-16b1658ce1a7",
+    "wp_id": 40488,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af882986-207c-447c-af8f-2aa58d4b6ed9",
+    "wp_id": 4070,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af92c42d-0bcf-4681-b4b3-ea7e70a8d2f1",
+    "wp_id": 25797,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af94b87c-caf2-4ab8-a76b-16574e74b89c",
+    "wp_id": 9592,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "af9886d7-5723-4f7d-8899-0a3b6efe126a",
+    "wp_id": 32860,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "afcacfcd-2e34-46d7-a457-4686fd1801b0",
+    "wp_id": 1444,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "afcbd7c7-b2f8-443a-ade9-430c923c2625",
+    "wp_id": 44053,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "afd4c67e-b402-4b2d-852d-65c97db1bb4d",
+    "wp_id": 2299,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b034f66d-a1d2-43e1-bc4f-e403a9dcc4f6",
+    "wp_id": 300,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b03f83c3-122d-4853-b9b6-ea06a5ab8bf0",
+    "wp_id": 24919,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b0416ed7-4321-4ed0-8dab-930f624af048",
+    "wp_id": 9564,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b049aedc-7c41-4a2a-a7b1-1a1553e2e7bf",
+    "wp_id": 8727,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b0a456f6-30c9-474a-8ff3-7b6e8b91f5c4",
+    "wp_id": 42690,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b0b8959a-40b8-48ff-800d-f5d8af127d2d",
+    "wp_id": 14988,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b0f69bec-232d-44ae-abca-f33c55110654",
+    "wp_id": 25344,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b110b366-5db4-4445-8d72-bc209ff4f3b0",
+    "wp_id": 45361,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b11ac417-0883-47cd-a719-b1b4ebef8fc0",
+    "wp_id": 37669,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b151d884-9d9d-4dda-9232-2962d28eed21",
+    "wp_id": 9081,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b1559bd4-8954-4f33-886e-2e1c07142b4f",
+    "wp_id": 18996,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b16524a3-a126-4cc7-84eb-b8850c2b371b",
+    "wp_id": 42822,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b16aa2cb-66be-4ea2-b426-f4382ce9f1aa",
+    "wp_id": 28220,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b1ad914e-71fb-4e41-9661-f6f31e4c58d7",
+    "wp_id": 42621,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b1b698b9-4050-4f7d-a3f1-783ac8af91ff",
+    "wp_id": 11475,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b1b87bcc-a10b-43b7-9891-aceacd043fea",
+    "wp_id": 8908,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b1e7e104-db3a-4cbd-8997-4d640950c7c3",
+    "wp_id": 47095,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b1f1b179-cd27-4521-a05d-2317b694a63c",
+    "wp_id": 44601,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b1ff4fda-f1ed-41d8-ae91-d9b0c25e0b1b",
+    "wp_id": 1438,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b21513ed-d4c8-4f3f-bc83-3fa527295000",
+    "wp_id": 28682,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b251f14b-e712-475a-8730-bd7fb2c2dfce",
+    "wp_id": 21386,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b280cc8d-2582-4686-8581-87b8767f4f5b",
+    "wp_id": 28739,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b287dfaa-7c35-4641-9cb6-0270be9b5135",
+    "wp_id": 13075,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b2a8e25a-57a1-4655-a2ff-4d1fd5d50e58",
+    "wp_id": 5200,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b322e639-4ffd-46ef-9d58-742c2f7f1896",
+    "wp_id": 8517,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b360d5b8-461a-4b28-a2bc-3e72409396a5",
+    "wp_id": 10153,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b362cc6b-03b2-4796-909d-d0961e9af10b",
+    "wp_id": 9720,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b3af8677-bc4a-4151-94ce-275cfebf99a3",
+    "wp_id": 45318,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b3d0c426-9e94-4c55-a3b1-9e20af72d9af",
+    "wp_id": 7465,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b411e197-6368-4e9a-a5b6-a58b64a33df0",
+    "wp_id": 38382,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b4459b12-1094-4f81-96a0-e5e16b33e982",
+    "wp_id": 22384,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b44ce207-79bb-46be-8910-c7b1ec1b9348",
+    "wp_id": 15767646,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b4d5c233-976a-4650-adcf-7140c5d6267c",
+    "wp_id": 9814,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b553bb6b-807e-4aed-9af3-02df574c3d35",
+    "wp_id": 9723,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b57c106d-aa82-4148-9635-8fb01516e014",
+    "wp_id": 11214,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b5d5bbce-4452-4bb3-8ad7-7bafd59bf000",
+    "wp_id": 10061,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b6013643-d2a5-42f9-b2d6-8297bafb1838",
+    "wp_id": 8729,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b618456b-596e-49f8-9654-5dea36a3c659",
+    "wp_id": 40494,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b620e28b-f73d-4535-a516-ab0c8f9d8185",
+    "wp_id": 12196,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b6235fa9-bbd0-474e-bdd7-fbe4c4d2cbc4",
+    "wp_id": 38150,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b628a86e-d02f-4eba-96d3-abd9100da964",
+    "wp_id": 35635,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b6ce0194-421c-4448-ad78-cddeb1507d0a",
+    "wp_id": 26905,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b76dcd82-0e46-4fe7-bd6a-af804cbf2151",
+    "wp_id": 44083,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b777f620-cede-4fe7-b1ff-a99d51b58199",
+    "wp_id": 15768723,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b77aa681-36fb-48f4-a834-a7ea1a2046ba",
+    "wp_id": 9930,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b797d6bc-eb8e-40c4-af90-ff05ebbefc6e",
+    "wp_id": 40191,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b7a49db6-0d24-4b23-b71d-3ebba20aa6da",
+    "wp_id": 46148,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b7c21d50-73b9-4dff-8e7f-8b2dff9eac09",
+    "wp_id": 10915,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b7cd66ff-7a5d-42c5-b43e-b953d8979c2a",
+    "wp_id": 33551,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b7cd9e3a-6c70-47ff-85b9-cb01e2aa6e54",
+    "wp_id": 24269,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b825987c-b70e-4170-a3e4-d99843fb7422",
+    "wp_id": 13660,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b82d4971-aaab-40a5-897f-b797598f2586",
+    "wp_id": 34689,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b86711e0-827d-4139-95c8-fdf05bc5e958",
+    "wp_id": 36354,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b86b4ab5-67dd-42be-9b65-b41a4ae1c873",
+    "wp_id": 39375,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b88d8aee-1e34-4716-9a18-d71a05aa27af",
+    "wp_id": 20045,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b8a72bc3-3d66-4316-a4e9-6ea710bfab28",
+    "wp_id": 30249,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b8c584d6-f142-4eff-a0e0-0d35ffdf9d86",
+    "wp_id": 42332,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b8c7e1c0-69e6-4ed0-a218-90feb8c762bf",
+    "wp_id": 8422,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b8e72d6b-b91d-4f92-a481-48a44279fd64",
+    "wp_id": 9260,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b9108d17-5e90-4909-98a9-cba5fb240852",
+    "wp_id": 48751,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b914bb4c-64cf-49da-9cfa-fe661d7a8b55",
+    "wp_id": 9976,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b94206e7-5e19-42b4-90d4-04061a44b428",
+    "wp_id": 40968,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b97d2547-f045-4e1b-85ac-278adc30649e",
+    "wp_id": 9650,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b9901573-827a-4790-918b-20835c2abf48",
+    "wp_id": 41266,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b9c56ad8-2731-4fa6-a55e-d8b5d6ecfcde",
+    "wp_id": 44079,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b9e1517f-48f4-4a96-bf1c-9018546e3b1a",
+    "wp_id": 46155,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "b9f27278-2b04-47cd-be39-6876b2180f42",
+    "wp_id": 41947,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "ba2842f2-e352-42cc-9f77-b2f61df71a08",
     "wp_id": 15769090,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ba4353df-b651-4464-b32e-136850dc0650",
+    "wp_id": 14976,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ba7c256d-b32d-4911-9b83-86a8732a0415",
+    "wp_id": 10844,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ba84d335-1902-4c67-9ed1-3ef11699258a",
+    "wp_id": 15767935,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ba8990e3-e3b2-46b1-a61f-1963fe823716",
+    "wp_id": 6458,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "baa0411b-a2c3-4614-a5ce-242f9b8eb1c9",
+    "wp_id": 41084,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "baa9d8f2-c545-4661-937b-e9f537abee89",
+    "wp_id": 28522,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bad1b0c3-cb68-4a0d-a309-bfe7034c45a4",
+    "wp_id": 40678,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "baed41bf-b0e5-4978-a68c-026aa70bcebc",
+    "wp_id": 44197,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bbc1f22b-ad11-4bae-bb9f-6eba3b238b3c",
+    "wp_id": 30539,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bbc90912-c35e-4386-aff8-8edc7f8b5c6c",
+    "wp_id": 10627,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bbca7792-8478-4f5b-b29d-e4b4e03fcd4a",
+    "wp_id": 46273,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bbd4646c-f567-4a22-a81d-82fe50330644",
+    "wp_id": 9132,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bbdbf91c-5843-4f4e-ae10-f4b5f0ff179d",
+    "wp_id": 34851,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bbfd245c-40ba-433f-a06b-5c1df958dc9d",
+    "wp_id": 46127,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bc7e1517-5fdf-4c26-aa26-278c01980a71",
+    "wp_id": 9921,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bcccff71-2f9c-4e91-9730-d08e691b5081",
+    "wp_id": 9292,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bcedc6a3-1d12-43f1-ab8e-c2e528bba2cf",
+    "wp_id": 21625,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bcf8ba08-ddce-4398-9173-46534b55d5ae",
+    "wp_id": 44436,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bd106954-847e-402c-a528-c44ccb94d23e",
+    "wp_id": 15768380,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bd30d779-fe93-416e-a0ba-46be57e46889",
+    "wp_id": 43905,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bd36e66d-e07d-4778-be42-985b916580b7",
+    "wp_id": 46267,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bd51d106-49ca-4b25-acb5-c0d5d6b1eab6",
+    "wp_id": 16598,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bd7ed4c8-93b7-489f-b3f9-b54f8a12138e",
+    "wp_id": 15049,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bd9b6263-d1ca-445c-a763-f7e637623d5b",
+    "wp_id": 7219,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bdab4f5e-d5c8-4e5f-945b-7a642c0f31a8",
+    "wp_id": 46709,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bdf5eb58-5117-4ef6-8875-d64e160d9fa2",
+    "wp_id": 48739,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "be0921c4-6e91-4885-9d7f-352350b404cd",
+    "wp_id": 20554,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "be8470a0-131b-48d1-a04c-ad2c91af3f8a",
+    "wp_id": 5904,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bea3eeb0-fe3a-417e-a34f-c12122635e9d",
+    "wp_id": 32756,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bf406f15-50ae-4609-b5e1-8743df537940",
+    "wp_id": 43085,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bf5b6108-9635-46e5-aa28-a0d7c0970e69",
+    "wp_id": 11117,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bf5fbb99-69dd-4174-baf6-11b5ff32b61a",
+    "wp_id": 9088,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bf60996f-3448-4062-b620-eb2a86f0c4de",
+    "wp_id": 43098,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bf8e4862-471d-4d2e-adc9-1481a853ffc0",
+    "wp_id": 20991,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bf928b19-ef16-4df4-8868-55a69835b4e6",
+    "wp_id": 26743,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "bfc50176-0b50-4176-9521-ab33a2b95491",
+    "wp_id": 25469,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c0001d20-ec47-4664-898e-d513fdf4c51e",
+    "wp_id": 371,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c0a0ccbb-375e-410e-a42f-c9faf547abd5",
+    "wp_id": 11680,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c0a47082-6ab8-4c20-900c-6dea9120960b",
+    "wp_id": 26399,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c0a6ab00-3cc8-43b3-b18a-0762eb605087",
+    "wp_id": 30061,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c0b00a82-193e-4161-b2bf-4706af9c914c",
+    "wp_id": 41125,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c0b66341-8f4a-42f8-93ef-871f3d77b28a",
+    "wp_id": 20790,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c0de59ea-f717-44e1-9951-9a14812eacb2",
+    "wp_id": 23811,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c1049bcc-0527-4f92-a10b-14d740d80b9a",
+    "wp_id": 22764,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c10b70c2-4951-4088-bc24-dd386592bbe3",
+    "wp_id": 42215,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c11bc7c3-9585-45ee-8cc4-ec11a4ae3c76",
+    "wp_id": 8914,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c1899e42-0254-417a-b209-b29744ea9157",
+    "wp_id": 37357,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c1a4e579-6982-4ce8-b4aa-7dbd91de5864",
+    "wp_id": 31896,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c1a90d38-5cee-4771-86ee-b98c6fe77b68",
+    "wp_id": 24605,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c1c6e447-6c9f-403a-9b12-445b8eb69544",
+    "wp_id": 44650,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c1eb0b24-0a71-47de-8a64-9ca597e631f2",
+    "wp_id": 34565,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c1ee660c-b02e-4c87-aa84-8a734265a531",
+    "wp_id": 43118,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c22133b9-4dc7-4e24-b029-7e943876c2a2",
+    "wp_id": 4807,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c24e1578-5018-4fc4-9510-b6bcdf0ac7bc",
+    "wp_id": 15767587,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c25bcd82-5793-4225-9ce8-bf336fb746aa",
+    "wp_id": 29310,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c2b82a3f-0b20-4627-bee2-5115e4fd0089",
+    "wp_id": 39622,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c2c306dd-5595-4984-9972-28bed6e5e34f",
+    "wp_id": 8595,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c2c7fcca-ca99-4ca6-9a6e-2356f73c2dbe",
+    "wp_id": 10054,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c2d95bbb-2e33-41ad-aaf9-b5013a731da2",
+    "wp_id": 7468,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c2f8cbc2-dffa-4964-b69e-b5b8e941580f",
+    "wp_id": 7149,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c3289dc6-3375-4e62-bb51-c44bc19a7e31",
+    "wp_id": 42636,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c33ab1a0-2b00-495a-af79-d41feb922962",
+    "wp_id": 25573,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c3575e81-c72a-4f46-9f84-9678a132708e",
+    "wp_id": 46833,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c3770593-ef54-4387-bba4-e9a093770e29",
+    "wp_id": 47043,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c3904c68-df91-4119-bc13-c4a139a26bec",
+    "wp_id": 4809,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c3d14ce3-8f91-4bc4-b518-828a8bb90f99",
+    "wp_id": 37148,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c3da8590-14d6-4022-8405-f56325399b74",
+    "wp_id": 7322,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c3e84952-f261-4f47-a525-763793cea139",
+    "wp_id": 38470,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c44bc36b-954a-4825-bfaf-732bd5938830",
+    "wp_id": 6044,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c480b751-0a25-4e2e-8e4f-ece3e0a0cf88",
+    "wp_id": 46788,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c4b7b71c-b7c7-455d-ae9c-96de671500fc",
+    "wp_id": 41092,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c4e1daf7-0f03-4926-b1ec-99e17458b05a",
+    "wp_id": 24302,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c4ecd83f-ab56-4f62-bca8-31b8bdf18e5a",
+    "wp_id": 16765,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c4fe6086-b43e-45ec-b705-f48edf225cff",
+    "wp_id": 9664,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c5012b09-7c0b-42da-a344-b1e584a77205",
+    "wp_id": 25655,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c5544741-289c-470d-b21a-a4d9bf7811f8",
+    "wp_id": 10065,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c5769fe8-cfb7-4202-bb65-07f9acea18ad",
+    "wp_id": 2431,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c5e74e4d-8eda-4864-a957-65546f9f2648",
+    "wp_id": 8108,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c62edfaf-fdbb-4313-a210-c81827baec4f",
+    "wp_id": 21141,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c688411a-4ea6-432d-b72f-428024f11674",
+    "wp_id": 39271,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c6dc6f80-0ff0-4e76-b022-73f9a27b79e3",
+    "wp_id": 13378,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c6e431b1-c270-4f5a-aff3-a1600126f179",
+    "wp_id": 46598,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c7157ab4-449c-4cdd-8bd0-938f4b899b94",
+    "wp_id": 23423,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c7288410-036b-40e1-b1a7-eba504a09e8b",
+    "wp_id": 32427,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c76e9166-5608-4668-acc9-75fa0f7563d0",
+    "wp_id": 7223,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c7712c34-dfed-4353-ac6e-2d129cf87a5f",
+    "wp_id": 27741,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c77789c7-c64f-4123-82d1-647c2debbe23",
+    "wp_id": 37392,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c7905575-4411-4877-bb21-8f422b2e41fd",
+    "wp_id": 38376,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c7e1db74-db5b-4fba-a056-8c71494ffd15",
+    "wp_id": 44675,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c8c38aff-46ca-4fc2-90b5-b4c1f476858a",
+    "wp_id": 22409,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c8e0084d-2c19-4b12-8441-d3d355f46529",
+    "wp_id": 40477,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c91ebb81-c818-43d4-8cad-cc299fb4a7a1",
+    "wp_id": 42194,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c92eed23-52f8-430f-acb9-991e4966809f",
+    "wp_id": 41204,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c95089f3-0e02-43f1-9b86-842094b6abe4",
+    "wp_id": 7958,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "c96f9d23-4213-4605-8e45-10c2f206db70",
+    "wp_id": 15768747,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ca055856-d970-4fe7-a41b-dad33cec2b90",
+    "wp_id": 15135,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ca1df646-21ee-41eb-9f63-63b40720f934",
+    "wp_id": 42740,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ca2e59f8-1447-4d3b-b00c-f3437aae93f8",
+    "wp_id": 20766,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ca33b27a-813c-4f3a-bbde-97eaa980bf18",
+    "wp_id": 46713,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ca5b284b-800f-4d93-bcea-1b776ac2a62f",
+    "wp_id": 32092,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ca68f72a-70b2-4356-b46a-9d05a3c2151b",
+    "wp_id": 23171,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ca8423dc-a280-40e5-832a-ab133a588786",
+    "wp_id": 12192,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cb22f15a-273a-4430-bce1-c2c7aa78d4fa",
+    "wp_id": 19177,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cb42af5b-ae14-4755-bff1-c367ec5d4b7a",
+    "wp_id": 44163,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cb44e8a7-20d2-43d3-ad14-5497be4cd51c",
+    "wp_id": 15768692,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cb5bae77-b8b4-4026-9288-73609edf7a34",
+    "wp_id": 31264,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cb7cce7e-9f58-4e76-ba0e-32b505274661",
+    "wp_id": 16415,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cbd66095-3a33-40b2-8c5e-e2d58c98cee6",
+    "wp_id": 31796,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cbea8040-2e2d-42b8-b674-1b7bbf9cb6ce",
+    "wp_id": 26899,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cbf2a6c2-bca7-4ae0-8653-80f771f0d12f",
+    "wp_id": 36444,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cbfbcbff-eb28-4d77-bb5d-69eb5226a278",
+    "wp_id": 46844,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cc03d76d-5b15-4582-871a-24c4f138684e",
+    "wp_id": 9902,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cc38028f-1f76-4f97-90b1-9d87979255b4",
+    "wp_id": 13522,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cc454696-1a57-43e3-a735-321560e4147a",
+    "wp_id": 46806,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cc623a16-3080-4fd5-814e-1ce6f9d69270",
+    "wp_id": 45720,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cc78e77a-5198-42fc-aee4-78676e38fd93",
+    "wp_id": 16709,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cccd4eb2-56d5-4787-acc2-7d3dcd476adf",
+    "wp_id": 34466,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ccf630a5-7069-4805-8b59-4bd8ff90a3b1",
+    "wp_id": 26093,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cd1d3718-e035-484b-abc8-b7f5e40821b2",
+    "wp_id": 15768536,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cd54adca-0b11-48f3-b24c-56d210fc386f",
+    "wp_id": 3984,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cd59af0d-6533-4836-aef8-dc467451717f",
+    "wp_id": 46626,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cd79b223-2408-4b0c-9ab8-e4a0a2200717",
+    "wp_id": 36372,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cd7e19c7-3023-4de0-a27f-e886b4a18f5d",
+    "wp_id": 16854,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cd7ee80d-d634-4274-b478-8365e82b53d4",
+    "wp_id": 31276,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cd8aa325-3eff-4dfd-b9a6-7d5d408c0908",
+    "wp_id": 46725,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cda5c254-6333-4507-8f91-613587a7098e",
+    "wp_id": 10306,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cdadeeae-e241-429f-97a0-6c19db823204",
+    "wp_id": 9278,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cdbd2759-321b-4c70-9f5d-ed8ca1469ae2",
+    "wp_id": 17617,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cdd3837d-f396-45e8-a8fc-c0f89fd817de",
+    "wp_id": 25790,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cdf8ed22-7bb9-4d3d-b1d8-cdc9031066ab",
+    "wp_id": 40317,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ce05fe09-15c7-4ed0-a4a4-e3d3fb7d8efc",
+    "wp_id": 42840,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ce24899c-30a5-49a9-8584-77312c25aec2",
+    "wp_id": 11787,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ce6c11e9-086b-48bd-bf3a-4c10da90fedc",
+    "wp_id": 20165,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ce6d27e0-27b5-4f1f-bb88-10f4b9f71ebd",
+    "wp_id": 46616,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ce733d60-db82-4034-9762-79922700386a",
+    "wp_id": 9103,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ce8b4c25-f9fa-46fa-a8fd-025f452f344e",
+    "wp_id": 15767960,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ce91b045-d8ce-46bf-bfe0-293048682cf8",
+    "wp_id": 30437,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cead194c-40a3-40a3-8ad2-6322d60f70c1",
+    "wp_id": 39143,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ceba3702-da31-4219-a77e-f15ea925448b",
+    "wp_id": 22285,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "cec38f4f-bff3-4e5f-8225-fcd8bc6ccd67",
     "wp_id": 15769171,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cecb3b3a-c797-4632-b8fd-fd8ad1acad3e",
+    "wp_id": 25363,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cecd9d23-1bed-44cd-8d33-1e1f84c62b49",
+    "wp_id": 24592,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cf14350a-e861-45df-94bb-75aad7d62967",
+    "wp_id": 15767607,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cf1a5084-b5fe-45aa-9bff-34e97e20d336",
+    "wp_id": 28347,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cf1f763d-ea1c-48fc-90be-1281effb5653",
+    "wp_id": 23409,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cf417b9d-ad60-4c34-9896-ef783aaace90",
+    "wp_id": 11838,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cf629e88-3ca6-42ac-a063-efe00789552a",
+    "wp_id": 34251,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cfbdd4e0-305b-4c5b-83e1-b061e9ddbb6d",
+    "wp_id": 4794,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "cfe4b3ed-0fa6-44fa-a258-e0f3388a70b5",
+    "wp_id": 12393,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d0051752-a946-45a0-a96b-801566444be1",
+    "wp_id": 46760,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d07804a6-3f69-4510-8e25-9813b136874a",
+    "wp_id": 26100,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d10bf1f1-f4e2-4fb4-87ed-033f407e5557",
+    "wp_id": 37385,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d11751b3-d4ef-4bc9-9aeb-7585a1bdc67c",
+    "wp_id": 20473,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d1346cdc-4951-48de-b350-2a0311c8e178",
+    "wp_id": 20405,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d174dd57-324d-4024-99d8-0c25ca56aab1",
+    "wp_id": 22615,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d1bc6936-8af2-4b09-8b76-cc5776cab3f0",
+    "wp_id": 34159,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d1c6ad90-5480-4caa-9465-228b3b29b71a",
+    "wp_id": 1455,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d1d4058f-799a-446d-8061-6a81612bb109",
+    "wp_id": 46782,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d222f36f-1e19-4470-93ca-1724282946ca",
+    "wp_id": 9010,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "d27637d4-b07e-434e-9fd2-f4d67138a979",
     "wp_id": 15768992,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d2ae20ce-187f-4648-8aff-912e84c665c1",
+    "wp_id": 28540,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d2af2db3-e0fa-414c-9c76-9c7c49b0e62d",
+    "wp_id": 38767,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d2bde9c1-5760-443d-823f-a53a711a21a4",
+    "wp_id": 23828,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d2cb07c2-9bd0-43a7-b030-84449aa6b643",
+    "wp_id": 9276,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d2edf4f7-6a0d-4dd2-bfce-bbaa19c766b2",
+    "wp_id": 9150,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d3437d02-edd6-425d-920f-ee3886937b2e",
+    "wp_id": 2222,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d34cae61-65f3-4884-828b-c36998573b3f",
+    "wp_id": 35656,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "d384ccaa-b7e9-4d16-b70a-740216f654d4",
     "wp_id": 15768915,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d395736f-7b78-474b-aba0-66f433a6f29a",
+    "wp_id": 7059,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d3a35fd7-8fa0-4c60-b681-ac81158007a7",
+    "wp_id": 16386,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d3c6033b-3572-4751-9791-e856fcf8c5ca",
+    "wp_id": 34576,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d3eec3ed-0a03-4d13-b86c-c1aadfc2b603",
+    "wp_id": 32858,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d40bb95c-b485-4fb4-afc7-41ee5da196e2",
+    "wp_id": 9380,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d42ed98c-ed5a-4453-b0ee-344d87ee3241",
+    "wp_id": 36386,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d44c47ec-c6fd-482f-af00-b2a5e68a64c2",
+    "wp_id": 9597,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d4539c41-fb93-4a6e-946d-2d2c4869d80a",
+    "wp_id": 22459,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d45d1ee7-a16e-4782-bb27-ea634e3239e8",
+    "wp_id": 11111,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d4a9ccbb-f6eb-4377-8faa-42e20ab74778",
+    "wp_id": 32464,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d4b2e563-be1a-4b0e-944d-d7cc5ebbe59b",
+    "wp_id": 25634,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d4d7449f-af21-4ada-91bb-8b8eecabacb0",
+    "wp_id": 13044,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d51b4480-3158-472d-803a-27233caa14f5",
+    "wp_id": 46683,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d5ab3f8f-d608-4f61-baf9-98539445d7f8",
+    "wp_id": 12630,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d5ac45ab-46af-4c7a-8567-5deac6c00684",
+    "wp_id": 25686,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "d5f14f12-8f82-4ac1-89bb-9f76a148f9f8",
     "wp_id": 15769045,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d6b5aa45-1782-4916-8393-0b03a6cb39c2",
+    "wp_id": 38456,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d6b89fcb-014b-43f0-b8ff-a607c3fcdf83",
+    "wp_id": 38594,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d7321009-a1c8-44ef-a32b-515775e99410",
+    "wp_id": 46848,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d75736a7-174b-4aa1-bdae-c232d18b1a76",
+    "wp_id": 4814,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d75ac67e-2474-451b-8b85-95049f15bff3",
+    "wp_id": 11170,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d75c9796-7acd-45f2-9d9b-2ab85c7ddf16",
+    "wp_id": 6866,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d79dc308-c8bc-4b26-a9c3-a54393debd18",
+    "wp_id": 6602,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d79e7962-6358-4c10-8838-33db61a1363e",
+    "wp_id": 12319,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d7c3bf7a-35ff-445e-b63a-1df0f719451e",
+    "wp_id": 40457,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d8333faf-6a74-4deb-85c5-af04547e2cd6",
+    "wp_id": 21374,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d869d57a-3690-471f-a084-64f514527d85",
+    "wp_id": 34497,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d892ac96-6edd-470f-9ab3-69ad57ae4b34",
+    "wp_id": 12956,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d8995d8b-093d-475b-b106-c1e44ff038ef",
+    "wp_id": 35402,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d89ab8f5-2595-443d-9a45-fb0d23f67341",
+    "wp_id": 48820,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d8a0b6ac-688a-448c-a243-ab304c67f10f",
+    "wp_id": 35349,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d8b25916-8da7-4be8-b878-c7fd27c28b56",
+    "wp_id": 28851,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d8dd6a6f-357c-4644-8685-41d894bbbe6b",
+    "wp_id": 45183,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d902ca01-8eae-4683-bef2-bc5e86b43bf7",
+    "wp_id": 42018,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d93f4ba3-267a-4554-ba8c-042bc768c432",
+    "wp_id": 42014,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d96da3ce-2412-4434-a897-bc78d1bc6241",
+    "wp_id": 12598,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d97d4b87-cc2b-4b13-85ac-78610cec0950",
+    "wp_id": 9119,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d985eaa8-57f5-4681-9eb5-4ebf75eb489d",
+    "wp_id": 45854,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "d9e58c1b-efac-414b-9ef4-a51b9c0ed96c",
+    "wp_id": 15767654,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "daed9249-a8fc-4546-a848-6370023d980b",
+    "wp_id": 25289,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "daf7b24e-c2ee-40d5-9ffd-6000968d63bb",
+    "wp_id": 43766,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dbdef0b0-aaa8-4d15-bbef-3f9a6fb9287f",
+    "wp_id": 9647,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dc00fb23-b72a-4859-be7d-7921dc0883d8",
+    "wp_id": 4792,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dc6125e9-f66a-4d91-93a1-bdfa1dae4db4",
+    "wp_id": 2859,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dc64c6aa-32f1-495e-965b-fd06d4c3a837",
+    "wp_id": 12643,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dc7b43be-679a-44ef-bd60-cc17014f221a",
+    "wp_id": 5213,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dc8e0bb6-9b70-49ad-8de8-cf7ba10cc622",
+    "wp_id": 33499,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dca973ee-4b79-4f77-820e-9c040e89cd4a",
+    "wp_id": 13118,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dcc8d4cd-1ebb-4ad4-9d47-29dd4ccc4c3f",
+    "wp_id": 46818,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dcc9c901-f5b2-4c54-a21b-83bc85ce1179",
+    "wp_id": 11824,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dcf0a8a6-3392-44d1-add5-0645aab74253",
+    "wp_id": 35807,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dcfdb4d5-f141-417f-b84f-01f168aab3d0",
+    "wp_id": 6483,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dd708cfc-9f76-47c1-995f-72bd3c3bd6ee",
+    "wp_id": 28951,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dd9d8886-192e-453a-b9a2-a71b0a9d4dd1",
+    "wp_id": 38653,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dda613c8-e4da-4414-bc92-e5e74fc6766e",
+    "wp_id": 8382,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ddc043bf-ee02-413c-8512-81421c7ffabc",
+    "wp_id": 1206,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ddc7e862-ab99-42b3-99ec-7d9306a68c5b",
+    "wp_id": 27648,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ddea33a8-eb53-4ab5-852b-57fa2b0414df",
+    "wp_id": 39970,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ddead178-3fcb-48be-9f3f-ca95cf9fa260",
+    "wp_id": 15768001,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "de0dbcf5-0790-48ca-9e56-222b43e95feb",
     "wp_id": 15768861,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "de3725ce-c0ab-489a-8d43-1eacc273765f",
+    "wp_id": 39495,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "de3a1d8a-eb7a-498a-a00b-0fcb45f75d2b",
+    "wp_id": 28357,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "de76576c-838b-418b-8fe4-b8b75f29a91e",
+    "wp_id": 38188,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "de80f64a-1009-49d7-9166-ba7c20e73795",
+    "wp_id": 12194,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "deaf06c1-9227-4933-ab1b-6aa85df36505",
+    "wp_id": 37656,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "def15807-4190-4f17-8b78-36e06750dd5d",
+    "wp_id": 6035,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "df42f3c4-f096-4981-9115-fd3928bc33c9",
+    "wp_id": 24394,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "df49c1bf-bb4d-4119-b4b4-9fe359c9a647",
+    "wp_id": 37473,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dfab0c50-51b5-4eea-b461-b748b3d8e132",
+    "wp_id": 46690,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dfc1cb56-6e1a-4a3b-8bf5-33390a2d8c62",
+    "wp_id": 19775,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "dfc72c02-1d77-4e1e-88dd-ac0c07d4485e",
+    "wp_id": 4032,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e0524b25-9e27-42b8-8b0e-f3ae151af773",
+    "wp_id": 40049,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e06b0185-c027-4135-87af-ad166baad604",
+    "wp_id": 1453,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e06e4a03-0ac2-463a-9e75-c40ca5bfdccc",
+    "wp_id": 42459,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e0be142a-3a6b-4876-8e5c-3b82b23774e3",
+    "wp_id": 9715,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e0df4895-4abd-4244-80e6-18630133a369",
+    "wp_id": 7663,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e0f4a2af-29b8-4c7b-b50f-aab20a5ee823",
+    "wp_id": 41954,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e1a2e783-a03c-4c27-a9b0-50cbc4e3fb8f",
+    "wp_id": 31800,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e1d5e91f-61a0-4bba-b32b-65ffcaef3d73",
+    "wp_id": 9673,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e20c4595-b765-4454-a8bc-68b7225ed0bb",
+    "wp_id": 45099,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e20d6ad1-8f05-48ce-993d-dfd3dd1045ef",
+    "wp_id": 6781,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e210f7be-ccbe-41ec-87cf-2846046eaafb",
+    "wp_id": 4058,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e24193c2-c220-4f33-88a9-222427d6e4a0",
+    "wp_id": 40461,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e246d2ad-1382-45c6-835b-47fd1ec9ff45",
+    "wp_id": 27435,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "e2bd911a-5102-4615-9b7d-2670498a40f1",
     "wp_id": 15769049,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e2c141de-8982-40be-aee0-11c4b6b32427",
+    "wp_id": 35580,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e2d998ba-4dd8-4c49-8906-3d8724145a1a",
+    "wp_id": 9586,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e2deeaf3-4a98-4211-8530-0008dd04ea0a",
+    "wp_id": 36149,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e3a61fe3-3567-44c9-9893-fbe663ea5fb7",
+    "wp_id": 30455,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e3d6b2bf-04c5-417e-810d-c249fd8c3a71",
+    "wp_id": 22651,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e3f93c40-ba0b-4456-9a0e-6185a9198ca1",
+    "wp_id": 39954,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e4302b52-fa0f-4383-97c1-2b0690dc3ced",
+    "wp_id": 8599,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e446ed04-c449-4890-a11d-8901b459869c",
+    "wp_id": 28486,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e4620908-89d6-4071-948a-e7a606f3cc73",
+    "wp_id": 38652,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e46b29ca-586b-4dc1-a401-7f9c619d5509",
+    "wp_id": 4931,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e4b5b84d-1499-4322-91b1-6e935dc4336d",
+    "wp_id": 38602,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e4b9ded6-ea5d-4db4-8438-04b8df66c0d1",
+    "wp_id": 45591,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e5164732-92fb-4983-9195-5bdda8b074a3",
+    "wp_id": 12989,
+    "tema_old": "Da categorizzare"
   },
   {
     "id": "e5490ffb-aea0-426a-ac49-2415995cd268",
     "wp_id": 15769153,
-    "tema_old": null
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e58b8d94-f75e-4875-8743-49585c00a73e",
+    "wp_id": 18571,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e59569e8-f571-49b2-a101-cebbd6246498",
+    "wp_id": 38983,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e60088da-59d4-4bdd-bcaf-b5b491cc0bed",
+    "wp_id": 9727,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e68b3f80-b677-472c-944f-d829f3143124",
+    "wp_id": 45755,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e6afd926-5e6a-4d0d-8397-8e39c50cf8cc",
+    "wp_id": 9914,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e6b525ba-7611-4ba5-a96c-ab762ad2c04b",
+    "wp_id": 45356,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e6c1b3f0-5fb0-4f8a-931b-0179b98a7ef3",
+    "wp_id": 27750,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e6c44cae-fa89-4ede-a3af-4c5f0eefc3ef",
+    "wp_id": 44171,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e6dfd037-bcff-4864-ad41-910738e0bd96",
+    "wp_id": 7922,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e752e30c-7c1a-4945-baf5-db825d9a05ae",
+    "wp_id": 41901,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e7543718-e44e-4229-9d56-a1007fcdc9a9",
+    "wp_id": 27655,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e80a07c9-98e8-4c7f-af7c-fc722003f005",
+    "wp_id": 7560,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e8515a66-eed3-4072-a49b-8765c190b901",
+    "wp_id": 36498,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e8da73c0-0b90-43bb-87b6-e5359203b093",
+    "wp_id": 9926,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e8dff20e-3598-480f-beb0-016dd288c03a",
+    "wp_id": 9004,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e9097700-cbec-48c8-88c8-d2897fcbb2d7",
+    "wp_id": 45398,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "e9b6fd7b-a150-4034-a87e-13e4deb9f51e",
+    "wp_id": 35394,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ea082fec-9e64-454c-8f74-f20e301b1317",
+    "wp_id": 31514,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ea0b6597-7341-4690-b80f-0eaf6684d856",
+    "wp_id": 15767704,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ea8eae6e-ace8-4eb5-a3bf-396f8d41d63b",
+    "wp_id": 45609,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ea9513cf-8a26-42c9-b52a-b9a0906da242",
+    "wp_id": 17107,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ea9c57e4-fcc0-47de-b0ef-97b393aace32",
+    "wp_id": 38988,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eabe1cf8-fd07-4f48-9c4d-a3e98b4c5707",
+    "wp_id": 44410,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eacb4f58-68d4-484c-8621-5f9dcd701f57",
+    "wp_id": 11477,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eaec3bd3-880a-4396-bef4-f35cd55fbfc4",
+    "wp_id": 39638,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eaf49336-4204-4b02-9b96-3dc05dfb199a",
+    "wp_id": 10402,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eaff175a-b71c-4f14-aaa5-ef6822e29583",
+    "wp_id": 28457,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eb2f1d20-faee-4b7f-9d6a-16de87c6285c",
+    "wp_id": 21104,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eb6da754-873e-408a-84f2-f81b43d070f2",
+    "wp_id": 5916,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eb930c97-10fa-44e1-945e-2a492d3d07ac",
+    "wp_id": 30260,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eb98754f-2026-4906-8f46-b328e147e771",
+    "wp_id": 35234,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ebac0af0-6459-4120-9100-7e2caf006d9e",
+    "wp_id": 9413,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ec02f675-05c5-4a89-aa59-82a6c62554a5",
+    "wp_id": 25282,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ec473ea4-c18c-4cd3-a4b7-92f75bac157a",
+    "wp_id": 33769,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ec6e1d40-4cc6-4df8-b10d-2361981fabd2",
+    "wp_id": 9112,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ec9f3b4e-b7b8-4b6c-96de-7d763d9af938",
+    "wp_id": 28234,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eca7f463-456b-42b9-9583-dfe261d5f2e2",
+    "wp_id": 15767870,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ecef1859-48a8-450c-b630-fae3a09a4174",
+    "wp_id": 7919,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ecfc0de4-7208-4bfc-921c-60f5585bcb1f",
+    "wp_id": 15767602,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ed02b9f0-ecac-424c-a0be-73956333cdcf",
+    "wp_id": 40294,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ed08a35b-280a-406a-9f99-6e6446fefac3",
+    "wp_id": 18692,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ed3a4927-eb81-429d-a1c1-1920008eda0d",
+    "wp_id": 43128,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ed480fe1-cafb-466e-8c06-dd8adbff2344",
+    "wp_id": 11676,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ed65bf93-f805-4bee-8124-453969c8282e",
+    "wp_id": 24375,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "edfdddd7-4ff5-4959-84c2-7a8a957eb73f",
+    "wp_id": 12513,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eea3c50b-7ce3-4a3e-b4a6-b90ccf9e8c40",
+    "wp_id": 42010,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eebd6f02-ce8d-457f-9368-b45ed04e2aae",
+    "wp_id": 11639,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eebd99f7-5ccb-494c-9608-bc548e5421d9",
+    "wp_id": 27766,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eec74c19-bb08-4ed1-a0df-570da42b031c",
+    "wp_id": 9918,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eeccdca4-911b-4592-b6c4-7ccf6b00a88f",
+    "wp_id": 31086,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eed4f610-e17e-4f94-a341-57c8a31e4875",
+    "wp_id": 37171,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eed9fb87-baeb-4720-8831-18ce057f8fa6",
+    "wp_id": 4876,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eee45932-983d-4299-a050-8d36c001f310",
+    "wp_id": 15560,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ef0000fe-6f11-4954-890d-1436cfdfe3e8",
+    "wp_id": 38513,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ef475bfe-3082-4ccf-a2a7-c1d8a04bd6a5",
+    "wp_id": 14932,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ef630eb7-6394-4329-8d77-c38d3fe9c76a",
+    "wp_id": 41009,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "efbb4c2b-2dc1-4235-abd2-2863ac4966b3",
+    "wp_id": 22258,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "efe01b57-c338-4bc9-b606-815ef9a0ea14",
+    "wp_id": 35416,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "eff75550-bf8d-4be0-a0c7-d516637d53c5",
+    "wp_id": 25040,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f05dbc64-297e-4b3b-8022-79a23d6ef88d",
+    "wp_id": 34840,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f064a87d-a6f8-49c9-bf90-125f50fe0751",
+    "wp_id": 15768643,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f07d4851-fb8a-49d8-abff-471978d2cb0a",
+    "wp_id": 37295,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f0856f08-59bb-40f7-aa00-06b809ef23d3",
+    "wp_id": 21068,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f0aa94b5-a9b5-4c81-93bf-65ad5bef223f",
+    "wp_id": 8905,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f0bb6c34-8f68-425f-9102-ec1cebb3e857",
+    "wp_id": 30481,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f0ce017c-7b59-4f86-8392-f748607d593c",
+    "wp_id": 32081,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f0f839bb-fc72-4097-bcb7-42406c9c24af",
+    "wp_id": 36478,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f1257256-2131-4fdd-869b-814d347c0e23",
+    "wp_id": 29384,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f143775a-770d-4569-8e42-3677ac6bab5c",
+    "wp_id": 45340,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f1450089-0eb8-42f4-b712-c9abd391ef2d",
+    "wp_id": 44654,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f14d5bde-f7ce-4f76-a79c-18159caa1c24",
+    "wp_id": 19360,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f18678b8-0fcb-4b34-9a4c-deb3e4fd1d14",
+    "wp_id": 36488,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f1a1d970-d0a9-4916-bce7-b2f67163680c",
+    "wp_id": 42488,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f1d1402a-d895-4f22-a5d6-345af58be8b6",
+    "wp_id": 6937,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f218828a-397e-4245-a83e-854e9e6bbb80",
+    "wp_id": 3992,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f23b2183-79ff-494b-9047-251437c231b3",
+    "wp_id": 9820,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f23d1d48-d253-4b45-8511-f8b6eaf59222",
+    "wp_id": 32448,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f26cf7c4-d7fa-41d2-ad31-8e3077928301",
+    "wp_id": 30592,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f286416e-e4e9-4e39-8169-8549bb429f90",
+    "wp_id": 26563,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f28d6c04-315d-4a66-b83b-0d8f2be45bfb",
+    "wp_id": 46607,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f29a6543-7726-470f-93bf-97c7d1977932",
+    "wp_id": 39696,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f2f4dd7d-5f87-446d-b1b6-8d37b028c021",
+    "wp_id": 33228,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f317e774-2382-4c86-8cb8-7c62a932bc11",
+    "wp_id": 28114,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f31cb83a-c172-4630-8347-c1bccb8a8278",
+    "wp_id": 38232,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f3319d73-45ff-447c-ac4f-78ee197bf8fb",
+    "wp_id": 4937,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f35377f4-4dfc-41c0-be50-bb7c4fb832a5",
+    "wp_id": 11450,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f36d11d2-0f75-4191-8b58-24fabb79e82c",
+    "wp_id": 26804,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f3c35c93-37eb-411c-bc94-ca417a446499",
+    "wp_id": 39522,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f3de373b-d307-496f-bb5c-5466402eb5bb",
+    "wp_id": 34234,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f3ff1daa-c3c6-481e-acb0-26b0a1ba49a1",
+    "wp_id": 6128,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f4597094-70f7-45f6-9273-58443955258f",
+    "wp_id": 34715,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f49c3a3d-fe3f-417d-9571-06bfff56db7d",
+    "wp_id": 11467,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f4f8b1ad-fe3a-4ace-86c3-9a40397cdca3",
+    "wp_id": 34696,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f5037d74-07e1-40bd-ac54-f79846462870",
+    "wp_id": 39108,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f532c14f-d1cc-4110-9a7d-a7b7391344c6",
+    "wp_id": 46066,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f5e0ffff-de07-4e97-a30f-616a3cbd724f",
+    "wp_id": 43916,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f5e52332-5494-4954-9c20-7fc25bb79874",
+    "wp_id": 39099,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f5f6602e-6aa4-4599-ac3d-9e9f8974e46b",
+    "wp_id": 30343,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f5f81c4f-5690-4b26-9bea-bc308b2564b0",
+    "wp_id": 12107,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f6040d81-a08e-4f39-a7d9-ed5c4344c0cc",
+    "wp_id": 42210,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f6185a1e-8275-4713-8099-1833311d59c3",
+    "wp_id": 30984,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f64fdec4-93d8-443b-90b1-5458aa36e9e9",
+    "wp_id": 45105,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f6583b13-f50b-4b88-9fd8-6279ef85a53d",
+    "wp_id": 12824,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f6745b34-f47a-46c8-b90e-e4df1e8d905a",
+    "wp_id": 21148,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f6b40e5e-5dd7-43b1-9c2e-6a9582850ea5",
+    "wp_id": 12913,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f6b91e3d-7c3c-4f8b-8203-9ea9de302ea0",
+    "wp_id": 24648,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f721c32b-5d56-419f-9d36-2750ee29ebe3",
+    "wp_id": 32601,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f76318ba-72ac-4e87-96de-4266aeb55f03",
+    "wp_id": 15767927,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f7b10dd9-d8a2-4c8e-8ba7-ab68e49fa55f",
+    "wp_id": 45028,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f824078b-430d-47b6-8688-be5ff6fe755c",
+    "wp_id": 15768303,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f84d5a1d-1baa-439d-956a-ae6eb28ab24a",
+    "wp_id": 36086,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f863026e-c4b7-46a6-8f11-6b18e319103d",
+    "wp_id": 15767619,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f8ab4dba-5b7e-4abd-ac4f-a0241d4afde2",
+    "wp_id": 46744,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f8d315dc-cd82-4fd0-a8d2-d5c89b12804d",
+    "wp_id": 8586,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f8fc7798-e407-4c17-9e6c-c763a3a11d96",
+    "wp_id": 31924,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f922f22b-88ed-4f50-a662-5b81364072a3",
+    "wp_id": 5921,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f9263d96-c8c4-4b53-a8bc-f2a30ac076b7",
+    "wp_id": 7160,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f92d75aa-977f-46e9-8fa9-c401f2b13d7b",
+    "wp_id": 32743,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f95c3e2c-d241-4162-91df-b620cb076ef3",
+    "wp_id": 1451,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f961fe45-d25e-41fe-94f5-c1e258bcd4bd",
+    "wp_id": 23210,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f9bd39b5-106a-48de-a4eb-10669b1d5ad5",
+    "wp_id": 38595,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f9dcfd36-95d3-4048-bf0f-5eeda4a9788f",
+    "wp_id": 46682,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "f9ff7767-5e87-4355-a17a-86e66d809cfc",
+    "wp_id": 41113,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fa0c883a-4ebd-4519-b8a3-39c9fc903a28",
+    "wp_id": 9651,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fa818504-ad14-432b-8575-73e4cbb7f942",
+    "wp_id": 38180,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fad56a56-3665-4e7f-9fdd-0703c068942e",
+    "wp_id": 12248,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "faee2c67-d074-43ce-b11e-f996e2346662",
+    "wp_id": 9593,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "faf04100-c97b-4a3c-8eb3-793d80431028",
+    "wp_id": 44623,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fb0a7578-c0ee-4217-9f89-dceed4bb7264",
+    "wp_id": 9271,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fbd45d96-2c97-4cb2-a104-7aef2f6944fe",
+    "wp_id": 31321,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fc0b8ff8-8b5c-467b-8cc0-99919c61b7e3",
+    "wp_id": 11109,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fc70bdd8-0f42-4ea4-90d1-f43e26f2abbb",
+    "wp_id": 29117,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fc97d36c-860c-49a1-aeae-b06aefa39d55",
+    "wp_id": 11619,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fd3603e9-a9ac-49c3-ac41-a90cc2e1635f",
+    "wp_id": 21044,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fd53ed1e-e800-4b6c-810e-01e40810c621",
+    "wp_id": 35758,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fd703a1d-ee2d-4869-8859-257ae98f6f72",
+    "wp_id": 34249,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fd74a522-a3dd-461f-b657-5ae473d43c23",
+    "wp_id": 18249,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fd7d4689-dd02-492f-bc09-000db144f759",
+    "wp_id": 26004,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fd834213-8c1d-430d-86f8-b8f5839ae902",
+    "wp_id": 12832,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fd8cd4ea-1bd6-44b2-9841-292dce8186d3",
+    "wp_id": 34343,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fde2e6a5-f139-4c2c-a368-e39add8c766d",
+    "wp_id": 15768206,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fe4e1773-6afd-4f4c-b483-f0f958198396",
+    "wp_id": 32920,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fe5e5c40-4213-4554-84ab-709d8b330231",
+    "wp_id": 39227,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fe702639-87a1-4ff3-b7b6-b9d6bf38d330",
+    "wp_id": 10025,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fe9652b9-c1fd-4f5d-a2e6-e7c6444fa888",
+    "wp_id": 43136,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fea208a1-6944-4326-a4e2-16f2040299b7",
+    "wp_id": 42469,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "feaa2c11-5016-4277-b68e-f68874a4c4b1",
+    "wp_id": 46823,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "fefb1f59-6dd6-4c32-9a0c-ed53835e0002",
+    "wp_id": 37500,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ff26c2f9-1650-4528-bf3d-c672592425bd",
+    "wp_id": 39623,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ff2728b8-2e9a-4166-af9b-69e8f1ab4e22",
+    "wp_id": 45845,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ff3c2a08-e67d-4e8e-9877-6b228875f22f",
+    "wp_id": 30049,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ff487aa5-4d1b-46cc-8674-f7b496b9d7ee",
+    "wp_id": 30715,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ff5b72e2-e5e5-46dd-85bd-ca600ea6789e",
+    "wp_id": 45344,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ff5d3282-6de1-41ca-8b1c-b0b574e734d6",
+    "wp_id": 14690,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ffaa7722-a9bd-4ee1-8d42-8a93e934eba5",
+    "wp_id": 15768270,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ffd622b6-6e73-4daa-9ba4-beaea0afde25",
+    "wp_id": 12309,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ffe27d2d-0026-48e5-9a99-abb9256d1933",
+    "wp_id": 46449,
+    "tema_old": "Da categorizzare"
+  },
+  {
+    "id": "ffee08f5-54de-44a2-8df4-93ce0b7c45e7",
+    "wp_id": 15767628,
+    "tema_old": "Da categorizzare"
   }
 ]
