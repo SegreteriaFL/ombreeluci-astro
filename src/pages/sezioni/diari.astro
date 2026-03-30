@@ -10,9 +10,10 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { getDiaristiWithMeta, NOMI_DIARISTI } from '../../data/diari.js';
-import { getAllArticoli, getAllAutori, getArticoloCopertinaSrc, getAutoreImageUrl } from '../../lib/directus';
+import { getAllArticoli, getAllAutori, getArticoloCopertinaSrc, getAutoreImageUrl, getCategoriaDescrizione } from '../../lib/directus';
 
-const allAutori = await getAllAutori();
+const [allAutori, diariMeta] = await Promise.all([getAllAutori(), getCategoriaDescrizione('diari')]);
+const diariDescrizione = diariMeta?.descrizione ?? null;
 const autoriById: Record<string, { foto_url?: string }> = Object.fromEntries(
   allAutori.map((a) => [a.slug, { foto_url: a.foto?.id ? getAutoreImageUrl(a.foto.id) : undefined }])
 );
@@ -44,7 +45,7 @@ const articoliDiari = allArticles
         <header class="diari-intro">
           <h1 class="diari-hub-title">I Diari di Ombre e Luci</h1>
           <p class="diari-hub-lead">
-            Storie in prima persona, racconti di vita e di fragilità: i Diari sono lo spazio dove autori e lettori condividono esperienze, riflessioni e incontri. Una finestra aperta sulla vita quotidiana, sulle comunità e sul cammino di Fede e Luce.
+            {diariDescrizione ?? 'Storie in prima persona, racconti di vita e di fragilità: i Diari sono lo spazio dove autori e lettori condividono esperienze, riflessioni e incontri. Una finestra aperta sulla vita quotidiana, sulle comunità e sul cammino di Fede e Luce.'}
           </p>
         </header>
 

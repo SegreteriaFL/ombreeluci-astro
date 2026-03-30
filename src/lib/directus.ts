@@ -366,3 +366,15 @@ export async function getArticoliByAutore(autoreSlug: string): Promise<ArticoloL
   if (!data) return [];
   return data.data ?? [];
 }
+
+/**
+ * Descrizione editoriale di una categoria/sezione/forma per slug.
+ * La redazione edita queste descrizioni direttamente da Directus → Categorie.
+ */
+export async function getCategoriaDescrizione(slug: string): Promise<{ nome: string; descrizione: string | null } | null> {
+  const data = await directusFetch<{ data: { slug: string; nome: string; descrizione: string | null } }>(
+    `/items/categorie/${encodeURIComponent(slug)}?fields=slug,nome,descrizione`
+  );
+  if (!data) return null;
+  return (data as any).data ?? null;
+}

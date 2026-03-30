@@ -5,7 +5,7 @@ import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
 import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
-import { getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
+import { getAllArticoli, getArticoloCopertinaSrc, getCategoriaDescrizione } from '../../lib/directus';
 
 export async function getStaticPaths() {
   const allArticles = (await getAllArticoli()).filter((a) => a.lang !== 'en');
@@ -32,14 +32,15 @@ export async function getStaticPaths() {
       const weightB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
       return weightB - weightA;
     });
+    const catMeta = await getCategoriaDescrizione(categoria);
     return {
       params: { categoria },
-      props: { articoli, categoryLabel: displayLabel },
+      props: { articoli, categoryLabel: displayLabel, descrizione: catMeta?.descrizione ?? null },
     };
   });
 }
 
-const { articoli, categoryLabel } = Astro.props;
+const { articoli, categoryLabel, descrizione } = Astro.props;
 ---
 
 <html lang="it">
@@ -70,6 +71,13 @@ const { articoli, categoryLabel } = Astro.props;
         font-size: 1rem;
         color: var(--text-secondary);
       }
+      .categoria-descrizione {
+        margin-top: 0.75rem;
+        font-size: 1.0625rem;
+        line-height: 1.7;
+        color: var(--text-secondary);
+        max-width: 720px;
+      }
       .articles-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -92,6 +100,7 @@ const { articoli, categoryLabel } = Astro.props;
           <p class="categoria-count">
             {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'}
           </p>
+          {descrizione && <p class="categoria-descrizione">{descrizione}</p>}
         </header>
         <div class="articles-grid">
           {articoli.map((a) => {

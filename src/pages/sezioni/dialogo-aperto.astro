@@ -9,9 +9,13 @@ import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
-import { getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
+import { getAllArticoli, getArticoloCopertinaSrc, getCategoriaDescrizione } from '../../lib/directus';
 
-const allArticles = await getAllArticoli();
+const [allArticles, catMeta] = await Promise.all([
+  getAllArticoli(),
+  getCategoriaDescrizione('dialogo-aperto'),
+]);
+const descrizione = catMeta?.descrizione ?? null;
 const articoli = allArticles
   .filter((a) => a.serie?.slug === 'dialogo-aperto')
   .sort((a, b) => {
@@ -36,7 +40,7 @@ const articoli = allArticles
         <header class="section-intro">
           <h1 class="section-title">Dialogo aperto</h1>
           <p class="section-lead">
-            Lo spazio del confronto aperto tra lettori, famiglie e persone con disabilità. Domande, risposte e riflessioni condivise sulle pagine di Ombre e Luci.
+            {descrizione ?? 'Lo spazio del confronto aperto tra lettori, famiglie e persone con disabilità. Domande, risposte e riflessioni condivise sulle pagine di Ombre e Luci.'}
           </p>
         </header>
 
