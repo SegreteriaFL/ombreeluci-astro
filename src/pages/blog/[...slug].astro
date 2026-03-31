@@ -747,8 +747,9 @@ const relatedArticles = (() => {
       /* Drop Cap rimosso */
 
 
-      /* Didascalia immagine hero - stessa larghezza dell'immagine, allineata a destra */
-      .article-image-caption {
+      /* Didascalia — copertina hero e figure/figcaption inline */
+      .article-image-caption,
+      .article-content :global(figcaption) {
         margin: 0.4rem 0 0 0;
         padding: 0;
         font-size: 0.7rem;
@@ -905,6 +906,12 @@ const relatedArticles = (() => {
         height: auto;
         margin: 2rem 0;
         border-radius: 8px;
+      }
+      .article-content :global(figure) {
+        margin: 2rem 0;
+      }
+      .article-content :global(figure img) {
+        margin: 0;
       }
 
       .article-content :global(a) {
