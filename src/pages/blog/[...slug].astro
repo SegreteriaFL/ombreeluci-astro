@@ -10,6 +10,7 @@ import { getLangFromUrl, t } from '../../utils/i18n';
 import { ViewTransitions } from 'astro:transitions';
 import autoriStats from '../../data/autori_stats.json';
 import correlatiMap from '../../data/correlati.json';
+import LeggiAnche from '../../components/LeggiAnche.astro';
 import '../../styles/global.css';
 
 const pathname = Astro.url.pathname;
@@ -85,6 +86,29 @@ const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/asset
 const authorBio: string | null = authorBioHtml;
 
 const readingTime = calculateReadingTimeFromHtml(articolo.corpo);
+const slugToArticolo = Object.fromEntries(allArticoli.map((a) => [a.slug, a]));
+
+// ── Leggi anche — split corpo dopo il 3° </p> ─────────────────────────────────
+function splitCorpoAfterNthParagraph(html: string, n: number): [string, string] {
+  let count = 0;
+  let idx = 0;
+  while (count < n && idx < html.length) {
+    const next = html.indexOf('</p>', idx);
+    if (next === -1) break;
+    idx = next + 4;
+    count++;
+  }
+  if (count < n) return [html, ''];
+  return [html.slice(0, idx), html.slice(idx)];
+}
+
+const leggiAncheSlug = !isCurrentEn
+  ? ((correlatiMap as Record<string, string[]>)[articolo.slug]?.[0] ?? null)
+  : null;
+const leggiAncheArticolo = leggiAncheSlug ? slugToArticolo[leggiAncheSlug] ?? null : null;
+const [corpoPart1, corpoPart2] = leggiAncheArticolo && articolo.corpo
+  ? splitCorpoAfterNthParagraph(articolo.corpo, 3)
+  : [articolo.corpo ?? '', ''];
 
 // ── Issue (numero rivista) ─────────────────────────────────────────────────────
 
@@ -189,8 +213,6 @@ for (const a of allArticoli) {
 // ── Articoli correlati in calce (UMAP semantici, fallback categoria) ───────────
 
 const correlatiSlugs: string[] = (correlatiMap as Record<string, string[]>)[articolo.slug] ?? [];
-
-const slugToArticolo = Object.fromEntries(allArticoli.map((a) => [a.slug, a]));
 
 const relatedArticles = (() => {
   // Prova correlati UMAP: prendi i primi che matchano la stessa lingua, max 3
@@ -1387,7 +1409,9 @@ const relatedArticles = (() => {
               <div>Avviso: inchieste promosse dall'Arca internazionale hanno accertato gravi responsabilità di padre Thomas Philippe (la prima nel 2015) e di Jean Vanier (2020) nei confronti di diverse donne. <a href="https://www.ombreeluci.it/2020/larca-internazionale-annuncia-i-risultati-dellindagine-indipendente/">Qui il comunicato più recente</a> che condanna senza riserve queste azioni «in totale contraddizione con i valori che Vanier sosteneva» e con «i principi fondamentali delle nostre comunità».</div>
             </aside>
           )}
-          <div set:html={articolo.corpo ?? ''} />
+          <div set:html={corpoPart1} />
+          {leggiAncheArticolo && <LeggiAnche articolo={leggiAncheArticolo} />}
+          {corpoPart2 && <div set:html={corpoPart2} />}
         </div>
 
         {/* Bio Autore */}

@@ -1,0 +1,118 @@
+---
+// LeggiAnche.astro — box "Leggi anche" inserito a build time nel corpo articolo
+import { getArticoloCopertinaSrc } from '../lib/directus';
+
+const { articolo } = Astro.props;
+if (!articolo) return;
+
+const href = `/blog/${articolo.slug}`;
+const image = getArticoloCopertinaSrc(articolo);
+const sottotitolo = articolo.sottotitolo?.trim() || articolo.seo_description?.trim() || null;
+---
+
+<aside class="leggi-anche">
+  <a href={href} class="leggi-anche-link">
+    <span class="leggi-anche-label">Leggi anche</span>
+    <div class="leggi-anche-inner">
+      {image && (
+        <div class="leggi-anche-img">
+          <img src={image} alt={articolo.titolo} loading="lazy" />
+        </div>
+      )}
+      <div class="leggi-anche-text">
+        <p class="leggi-anche-title">{articolo.titolo}</p>
+        {sottotitolo && <p class="leggi-anche-excerpt">{sottotitolo}</p>}
+      </div>
+    </div>
+  </a>
+</aside>
+
+<style>
+  .leggi-anche {
+    margin: 2rem 0;
+    border-left: 3px solid var(--accent-color);
+    background: var(--bg-light, #f8f6f3);
+    border-radius: 0 8px 8px 0;
+    overflow: hidden;
+  }
+
+  .leggi-anche-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem 1.25rem;
+    transition: background 0.15s ease;
+  }
+  .leggi-anche-link:hover {
+    background: rgba(0, 0, 0, 0.03);
+  }
+
+  .leggi-anche-label {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-color);
+    margin-bottom: 0.6rem;
+  }
+
+  .leggi-anche-inner {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .leggi-anche-img {
+    flex-shrink: 0;
+    width: 90px;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  .leggi-anche-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .leggi-anche-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .leggi-anche-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--text-color);
+    margin: 0 0 0.3rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .leggi-anche-excerpt {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  @media (max-width: 480px) {
+    .leggi-anche-img {
+      width: 72px;
+    }
+    .leggi-anche-title {
+      font-size: 0.875rem;
+    }
+  }
+</style>
