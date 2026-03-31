@@ -159,6 +159,8 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 - **Sottotitolo fallback SEO** — articoli senza sottotitolo mostrano `seo_description` come sottotitolo nella pagina articolo
 - **Didascalie copertina (Step 1)** — 2004 articoli con `didascalia_copertina` popolata da caption WP originali (strip HTML, gestione encoding). ~968 articoli senza fonte WP disponibile
 - **Alt text immagini AI (Step 2)** — job Claude Haiku in esecuzione su 2892 immagini rimanenti (13s/img, ~10h, background). 80 già completati. Salva in `scripts/db_analysis/logs/alttext_generation.json`
+- **Correlati semantici UMAP** — generato `src/data/correlati.json` (3487 articoli × 5 vicini) tramite distanza euclidea su coordinate UMAP 3D precomputate. Sostituisce correlati per categoria in fondo all'articolo. Zero query runtime, zero API.
+- **Leggi anche build-time** — `LeggiAnche.astro` inserito staticamente dopo il 3° `</p>` del corpo articolo. Articolo scelto da correlatiMap UMAP (primo vicino semantico, stessa lingua). Rimosso vecchio approccio JS client-side (fragile, non SEO, layout shift).
 - **Didascalia visibile sotto copertina** — `heroCaption` collegato a `didascalia_copertina`, icona fotocamera, font 0.7rem, allineamento sinistra
 - **Rimosso background `#e8e0d5`** dal wrapper hero immagine articolo
 - **US-04 Didascalie copertine** — completato Step 1; Step 2 (AI) in corso
