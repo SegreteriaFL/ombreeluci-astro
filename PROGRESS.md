@@ -171,6 +171,7 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 - **Embed YouTube build-time** — `processEmbeds()` in `[..slug].astro`: URL grezzi `<p>https://youtu.be/ID</p>` → `<div class="video-embed"><iframe>` responsive 16:9. Zero JS runtime.
 - **Embed Instagram build-time** — blockquote `data-instgrm-permalink` preservato nel corpus; `embed.js` Instagram incluso solo nelle pagine che ne hanno bisogno (flag `hasInstagram`). Reset stile blockquote per embed Instagram.
 - **CSS `p.evidenziazione`** — in `global.css`: bordi teal, testo centrato italic Georgia 1.4rem.
+- **Sommario numeri rivista** — `backfill_sommario_numeri.py` estrae testo introduttivo narrativo dal `post_content` WP (tra `<h4>Sommario</h4>` e prima sezione di indice) e lo inserisce nel campo `descrizione` di Directus. 71/204 numeri hanno un sommario narrativo (i restanti 133 hanno solo indice titoli, non un testo redazionale). Fix link interni `/YYYY/slug/` → `/blog/slug/`. `[issue].astro`: hero-description ora usa `set:html` con stile `:global` per `p`, `a`, `em`.
 
 ---
 
