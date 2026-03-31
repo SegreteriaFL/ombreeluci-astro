@@ -749,6 +749,15 @@ const relatedArticles = (() => {
         justify-content: flex-start;
         gap: 0.35rem;
       }
+      .article-image-caption a,
+      .article-image-caption a:visited,
+      .article-content :global(figcaption a),
+      .article-content :global(figcaption a:visited) {
+        color: inherit;
+        text-decoration: underline;
+        cursor: pointer;
+        pointer-events: auto;
+      }
 
       /* Widget di navigazione: card standard in basso a destra */
       .floating-widget {
