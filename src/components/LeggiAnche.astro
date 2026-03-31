@@ -6,8 +6,9 @@ const { articolo } = Astro.props;
 if (!articolo) return;
 
 const href = `/blog/${articolo.slug}`;
-const image = getArticoloCopertinaSrc(articolo);
-const sottotitolo = articolo.sottotitolo?.trim() || articolo.seo_description?.trim() || null;
+const image = getArticoloCopertinaSrc(articolo) ?? '/placeholder/ph-1.jpg';
+const _excerpt = articolo.sottotitolo?.trim() || articolo.seo_description?.trim() || null;
+const sottotitolo = _excerpt && _excerpt !== articolo.titolo?.trim() ? _excerpt : null;
 ---
 
 <aside class="leggi-anche">
