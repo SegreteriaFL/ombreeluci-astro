@@ -84,11 +84,14 @@ def directus_get_all_corpo_files() -> list[dict]:
 
 
 def download_from_vps(uuid: str) -> tuple[bytes | None, str]:
-    """Scarica file dal VPS tramite tunnel. Ritorna (bytes, content_type)."""
-    url = f"{CMS_PUBLIC_URL}/assets/{uuid}"
+    """Scarica file dal VPS via API diretta con token. Ritorna (bytes, content_type)."""
+    url = f"{DIRECTUS_URL}/assets/{uuid}"
     for attempt in range(3):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            req = urllib.request.Request(
+                url,
+                headers={"Authorization": f"Bearer {DIRECTUS_TOKEN}"},
+            )
             with urllib.request.urlopen(req, timeout=30) as r:
                 ct = r.headers.get("Content-Type", "image/jpeg").split(";")[0].strip()
                 return r.read(), ct
