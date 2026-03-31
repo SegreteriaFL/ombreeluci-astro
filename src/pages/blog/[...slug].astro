@@ -76,7 +76,7 @@ function calculateReadingTimeFromHtml(html: string | null): number {
 const articleTitle = articolo.titolo;
 const articleDate = articolo.data_pubblicazione ? new Date(articolo.data_pubblicazione) : new Date();
 const autoreCompleto = articolo.autore as any;
-const autoreName: string = autoreCompleto?.nome_completo ?? articoloMeta.autore?.nome_completo ?? 'Autore sconosciuto';
+const autoreName: string = autoreCompleto?.nome_completo ?? 'Autore sconosciuto';
 const authorSlug = generateAuthorSlug(autoreName);
 
 const authorBioHtml: string | null = autoreCompleto?.bio_html?.trim() || null;
