@@ -100,8 +100,8 @@ const articleImage = articolo.immagine_copertina?.id
 
 // ── Sottotitolo e SEO ──────────────────────────────────────────────────────────
 
-const explicitSubtitle = articolo.sottotitolo?.trim() || null;
-const heroCaption: string | null = null;
+const explicitSubtitle = articolo.sottotitolo?.trim() || articolo.seo_description?.trim() || null;
+const heroCaption: string | null = articolo.didascalia_copertina?.trim() || null;
 
 const metaDescription = (explicitSubtitle || articolo.seo_description)
   ? (explicitSubtitle || articolo.seo_description)!.substring(0, 160).replace(/\s+/g, ' ').trim()
@@ -288,7 +288,6 @@ const relatedArticles = relatedCategorySlug
         width: 100%;
         display: block;
         min-height: 12rem;
-        background: #e8e0d5;
         border-radius: 8px;
       }
 
@@ -342,6 +341,17 @@ const relatedArticles = relatedCategorySlug
         font-style: italic;
         text-align: right;
         margin-top: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.35rem;
+      }
+      .caption-camera-icon {
+        width: 16px;
+        height: 16px;
+        object-fit: contain;
+        flex-shrink: 0;
+        opacity: 0.6;
       }
 
       /* Header Articolo */
@@ -810,11 +820,15 @@ const relatedArticles = relatedCategorySlug
       .article-image-caption {
         margin: 0.4rem 0 0 0;
         padding: 0;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         color: var(--text-secondary);
         font-style: normal;
-        text-align: right;
+        text-align: left;
         font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.35rem;
       }
 
       /* Widget di navigazione: card standard in basso a destra */
@@ -1259,6 +1273,7 @@ const relatedArticles = relatedCategorySlug
           />
           {heroCaption && (
             <div class="article-image-caption">
+              <img src="https://www.ombreeluci.it/wp-content/uploads/2023/10/icon-camera.png" alt="" class="caption-camera-icon" aria-hidden="true" />
               {heroCaption}
             </div>
           )}

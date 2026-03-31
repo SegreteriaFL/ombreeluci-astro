@@ -99,6 +99,7 @@ export interface ArticoloListItem {
   umap_z: number | null;
   seo_title: string | null;
   seo_description: string | null;
+  didascalia_copertina: string | null;
   categoria_menu: string | null;
   ruolo_editoriale: string | null;
   forma: string | null;
@@ -174,6 +175,7 @@ const ARTICOLO_LIST_FIELDS = [
   'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
   'numero_rivista.anno_pubblicazione', 'numero_rivista.pdf_archive_url', 'numero_rivista.copertina_url',
   'immagine_copertina.id', 'immagine_copertina.filename_download',
+  'didascalia_copertina',
   'temi.temi_id.id', 'temi.temi_id.slug', 'temi.temi_id.nome',
   'tags.tags_id.id', 'tags.tags_id.slug', 'tags.tags_id.nome',
   'serie.id', 'serie.slug', 'serie.nome',

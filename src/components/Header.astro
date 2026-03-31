@@ -74,6 +74,12 @@ const archivioLinks = [
           <a href="/chi-siamo" class="header-link">{t(lang, 'nav_about')}</a>
           <a href="/#newsletter" class="header-link">{t(lang, 'nav_newsletter')}</a>
         </nav>
+        <button type="button" class="mobile-search-btn" id="mobile-search-btn" aria-label="Cerca" aria-expanded="false" aria-controls="mobile-search-overlay">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+        </button>
         <a href="/sostienici" class="header-cta">{t(lang, 'nav_contribute')}</a>
         <button type="button" class="menu-trigger" id="menu-trigger" aria-label={t(lang, 'nav_menu_open')} aria-expanded="false" aria-controls="mega-menu" data-label-open={t(lang, 'nav_menu_open')} data-label-close={t(lang, 'nav_menu_close')}>
           <span class="menu-trigger-icon" aria-hidden="true">
@@ -90,6 +96,25 @@ const archivioLinks = [
         </button>
       </div>
     </div>
+  </div>
+
+  <div class="mobile-search-overlay" id="mobile-search-overlay" aria-hidden="true">
+    <form class="mobile-search-form" action="/cerca" method="get" aria-label="Cerca nel sito">
+      <input
+        id="mobile-search-input"
+        type="search"
+        name="q"
+        placeholder="Cerca nel sito…"
+        class="mobile-search-input"
+        autocomplete="off"
+      />
+      <button type="submit" class="mobile-search-submit" aria-label="Cerca">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+      </button>
+    </form>
   </div>
 
   <div class="mega-menu" id="mega-menu" role="dialog" aria-modal="true" aria-label="Menu di navigazione" aria-hidden="true">
@@ -645,9 +670,143 @@ const archivioLinks = [
       padding: 0.4rem 0.75rem;
     }
   }
+
+  /* ---- Mobile search icon button ---- */
+  .mobile-search-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    border-radius: 6px;
+    flex-shrink: 0;
+    transition: color 0.2s ease;
+  }
+
+  .mobile-search-btn:hover {
+    color: var(--accent-color);
+  }
+
+  @media (max-width: 480px) {
+    .mobile-search-btn {
+      display: flex;
+    }
+  }
+
+  /* ---- Mobile search overlay (slides down from header) ---- */
+  .mobile-search-overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1080;
+    background: #ffffff;
+    border-top: 1px solid var(--border-color, #e8e6e3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Only visible on mobile */
+    display: none;
+  }
+
+  .mobile-search-overlay[aria-hidden="false"] {
+    max-height: 80px;
+  }
+
+  @media (max-width: 480px) {
+    .mobile-search-overlay {
+      display: block;
+    }
+  }
+
+  .mobile-search-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .mobile-search-input {
+    flex: 1;
+    height: 42px;
+    padding: 0 0.75rem;
+    border: 1px solid var(--border-color, #e8e6e3);
+    border-radius: 6px;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 1rem;
+    color: var(--text-color);
+    background: #f8f6f2;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+
+  .mobile-search-input:focus {
+    border-color: var(--accent-color);
+  }
+
+  .mobile-search-submit {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-color);
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.2s ease;
+  }
+
+  .mobile-search-submit:hover {
+    background: var(--accent-hover);
+  }
 </style>
 
 <script>
+  // ---- Mobile search toggle ----
+  (function () {
+    const btn = document.getElementById('mobile-search-btn');
+    const overlay = document.getElementById('mobile-search-overlay');
+    const input = document.getElementById('mobile-search-input') as HTMLInputElement | null;
+    let searchOpen = false;
+
+    function openSearch() {
+      searchOpen = true;
+      overlay?.setAttribute('aria-hidden', 'false');
+      btn?.setAttribute('aria-expanded', 'true');
+      // Auto-focus after transition starts
+      setTimeout(() => input?.focus(), 50);
+    }
+
+    function closeSearch() {
+      searchOpen = false;
+      overlay?.setAttribute('aria-hidden', 'true');
+      btn?.setAttribute('aria-expanded', 'false');
+    }
+
+    btn?.addEventListener('click', () => {
+      searchOpen ? closeSearch() : openSearch();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && searchOpen) closeSearch();
+    });
+
+    // Close when mega-menu opens
+    document.getElementById('menu-trigger')?.addEventListener('click', () => {
+      if (searchOpen) closeSearch();
+    });
+  })();
+
+  // ---- Mega-menu toggle ----
   (function () {
     const trigger = document.getElementById('menu-trigger');
     const megaMenu = document.getElementById('mega-menu');

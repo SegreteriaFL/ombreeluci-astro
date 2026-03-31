@@ -5,35 +5,12 @@ import { getPlaceholder } from '../utils/placeholder';
 
 const { title, author, date, issue, slug, image, categoriaMenu, forma, ruoloEditoriale, horizontal = false, sottotitolo = null, authorImage = null, hideImage = false } = Astro.props;
 const hasIssue = issue != null && String(issue).trim() !== '';
-const displayIssue = hasIssue ? issue : "Pubblicato online";
 const imageSrc = (!hideImage && image) ? image : (!hideImage ? getPlaceholder(slug ?? title ?? '').src : null);
-// Badge: [Numero] • [Forma (se != Articolo)] / [categoria_menu]
-const formalPart = forma && forma !== 'Articolo' ? `${forma} / ` : '';
-const badgeText = hasIssue
-  ? `${displayIssue} • ${formalPart}${categoriaMenu || '—'}`
-  : (categoriaMenu ? categoriaMenu : 'Pubblicato online');
-
-let roleLabel: string | null = null;
-if (ruoloEditoriale === 'portante') {
-  roleLabel = 'Portante';
-} else if (ruoloEditoriale === 'strutturale') {
-  roleLabel = 'Strutturale';
-} else if (ruoloEditoriale === 'laterale') {
-  roleLabel = 'Laterale';
-} else if (ruoloEditoriale === 'trasversale') {
-  roleLabel = 'Trasversale';
-}
-
-const roleClassName =
-  ruoloEditoriale === 'portante'
-    ? ' article-badge-role--portante'
-    : ruoloEditoriale === 'strutturale'
-      ? ' article-badge-role--strutturale'
-      : ruoloEditoriale === 'laterale'
-        ? ' article-badge-role--laterale'
-        : ruoloEditoriale === 'trasversale'
-          ? ' article-badge-role--trasversale'
-          : '';
+// Badge: mostra solo categoria (+ forma se != Articolo). Pulito, senza jargon interno.
+const formaPrefix = forma && forma !== 'Articolo' ? `${forma} · ` : '';
+const badgeText = categoriaMenu
+  ? `${formaPrefix}${categoriaMenu}`
+  : (hasIssue ? '' : 'Online');
 
 function authorSlug(name: string): string {
   return String(name)
@@ -67,14 +44,11 @@ const authorLinkSlug = authorSlug(author);
       </div>
     )}
     <div class="article-meta">
-      <p class={badgeText === 'Pubblicato online' ? 'article-badge article-badge-muted' : 'article-badge'}>
-        {roleLabel && (
-          <span class={`article-badge-role${roleClassName}`}>
-            {roleLabel}
-          </span>
-        )}
-        <span class="article-badge-text">{badgeText}</span>
-      </p>
+      {badgeText && (
+        <p class="article-badge">
+          <span class="article-badge-text">{badgeText}</span>
+        </p>
+      )}
       <h3 class="article-title">{title}</h3>
       {horizontal && sottotitolo && <p class="article-sottotitolo">{sottotitolo}</p>}
     </div>
@@ -152,6 +126,11 @@ const authorLinkSlug = authorSlug(author);
     min-height: 120px;
     object-fit: cover;
     display: block;
+    transition: transform 0.35s ease;
+  }
+
+  .article-link:hover .article-image-wrap img {
+    transform: scale(1.03);
   }
   @media (max-width: 480px) {
     .author-row { white-space: normal; flex-wrap: wrap; }
@@ -196,6 +175,11 @@ const authorLinkSlug = authorSlug(author);
     overflow: hidden;
     color: var(--text-color);
     font-size: 1.25rem;
+    transition: color 0.2s ease;
+  }
+
+  .article-link:hover .article-title {
+    color: var(--accent-color);
   }
 
   .author-row {
