@@ -215,8 +215,9 @@ for (const a of allArticoli) {
 const correlatiSlugs: string[] = (correlatiMap as Record<string, string[]>)[articolo.slug] ?? [];
 
 const relatedArticles = (() => {
-  // Prova correlati UMAP: prendi i primi che matchano la stessa lingua, max 3
+  // Prova correlati UMAP: salta il primo (già usato nel box "Leggi anche"), max 3
   const umap = correlatiSlugs
+    .filter((s) => s !== leggiAncheSlug)
     .map((s) => slugToArticolo[s])
     .filter((a) => a && a.id !== articolo.id && (isCurrentEn ? a.lang === 'en' : a.lang !== 'en'))
     .slice(0, 3);
