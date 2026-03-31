@@ -9,6 +9,7 @@ import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForA
 import { getLangFromUrl, t } from '../../utils/i18n';
 import { ViewTransitions } from 'astro:transitions';
 import autoriStats from '../../data/autori_stats.json';
+import correlatiMap from '../../data/correlati.json';
 import '../../styles/global.css';
 
 const pathname = Astro.url.pathname;
@@ -185,36 +186,48 @@ for (const a of allArticoli) {
   };
 }
 
-// ── Articoli correlati in calce ────────────────────────────────────────────────
+// ── Articoli correlati in calce (UMAP semantici, fallback categoria) ───────────
 
-const relatedCategorySlug = categorySlug;
-const relatedArticles = relatedCategorySlug
-  ? allArticoli
-      .filter((a) => {
-        if (a.id === articolo.id) return false;
-        const aCategorySlug = getCategorySlugForArticle(a);
-        const isSameLang = isCurrentEn ? a.lang === 'en' : a.lang !== 'en';
-        return isSameLang && aCategorySlug === relatedCategorySlug;
-      })
-      .slice(0, 3)
-      .map((a) => {
-        const imgUrl = getArticoloCopertinaSrc(a);
-        const labels = getLabels([], a);
-        const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a);
-        const categoriaMenu = getThemeLabel(a) ?? null;
-        return {
-          title: a.titolo,
-          author: a.autore?.nome_completo ?? 'Autore sconosciuto',
-          date: a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(),
-          issue: a.numero_rivista?.id_numero ?? null,
-          slug: a.slug,
-          image: imgUrl,
-          categoriaMenu,
-          forma: labels.formal,
-          ruoloEditoriale: relRuolo,
-        };
-      })
-  : [];
+const correlatiSlugs: string[] = (correlatiMap as Record<string, string[]>)[articolo.slug] ?? [];
+
+const slugToArticolo = Object.fromEntries(allArticoli.map((a) => [a.slug, a]));
+
+const relatedArticles = (() => {
+  // Prova correlati UMAP: prendi i primi che matchano la stessa lingua, max 3
+  const umap = correlatiSlugs
+    .map((s) => slugToArticolo[s])
+    .filter((a) => a && a.id !== articolo.id && (isCurrentEn ? a.lang === 'en' : a.lang !== 'en'))
+    .slice(0, 3);
+
+  // Fallback categoria se UMAP insufficienti
+  const needed = 3 - umap.length;
+  const usedIds = new Set([articolo.id, ...umap.map((a) => a.id)]);
+  const catFallback = needed > 0 && categorySlug
+    ? allArticoli
+        .filter((a) => {
+          if (usedIds.has(a.id)) return false;
+          const isSameLang = isCurrentEn ? a.lang === 'en' : a.lang !== 'en';
+          return isSameLang && getCategorySlugForArticle(a) === categorySlug;
+        })
+        .slice(0, needed)
+    : [];
+
+  return [...umap, ...catFallback].map((a) => {
+    const labels = getLabels([], a);
+    const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a);
+    return {
+      title: a.titolo,
+      author: a.autore?.nome_completo ?? 'Autore sconosciuto',
+      date: a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(),
+      issue: a.numero_rivista?.id_numero ?? null,
+      slug: a.slug,
+      image: getArticoloCopertinaSrc(a),
+      categoriaMenu: getThemeLabel(a) ?? null,
+      forma: labels.formal,
+      ruoloEditoriale: relRuolo,
+    };
+  });
+})();
 ---
 
 
