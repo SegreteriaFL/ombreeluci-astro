@@ -102,7 +102,7 @@ function splitCorpoAfterNthParagraph(html: string, n: number): [string, string] 
   return [html.slice(0, idx), html.slice(idx)];
 }
 
-const leggiAncheSlug = !isCurrentEn
+const leggiAncheSlug = articolo.lang !== 'en'
   ? ((correlatiMap as Record<string, string[]>)[articolo.slug]?.[0] ?? null)
   : null;
 const leggiAncheArticolo = leggiAncheSlug ? slugToArticolo[leggiAncheSlug] ?? null : null;
