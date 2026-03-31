@@ -146,6 +146,9 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 | V-07 | **Megamenu** — 13 nuove categorie corrette + link "Dialogo aperto" funzionante | Staging → apri megamenu | Media |
 | V-08 | **Pagina /sezioni/dialogo-aperto** — 156 articoli caricano e sono pertinenti? | Staging → `/sezioni/dialogo-aperto` | Media |
 | V-09 | **CF Worker redirect** — i vecchi URL WordPress reindirizzano correttamente? | Prova: `ombreeluci.it/2015/03/20/qualche-slug/` → deve andare su `/blog/qualche-slug/` | Alta |
+| V-10 | **Didascalie copertina** — 2004 didascalie visibili sotto la foto di copertina degli articoli: sono corrette e pertinenti? Segnalare quelle errate o fuori contesto | Staging → apri vari articoli, guarda testo sotto foto | Media |
+| V-11 | **"Leggi anche" in-content** — il box inserito nel corpo degli articoli propone un articolo pertinente? Verificare su una decina di articoli diversi | Staging → apri articoli, verifica il box a metà testo | Media |
+| V-12 | **Articoli correlati in calce** — i 3 articoli in fondo sono tematicamente vicini? Migliori dei precedenti (per categoria)? | Staging → scorri in fondo a vari articoli | Bassa |
 
 ---
 
@@ -160,7 +163,7 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 - **Didascalie copertina (Step 1)** — 2004 articoli con `didascalia_copertina` popolata da caption WP originali (strip HTML, gestione encoding). ~968 articoli senza fonte WP disponibile
 - **Alt text immagini AI (Step 2)** — job Claude Haiku in esecuzione su 2892 immagini rimanenti (13s/img, ~10h, background). 80 già completati. Salva in `scripts/db_analysis/logs/alttext_generation.json`
 - **Correlati semantici UMAP** — generato `src/data/correlati.json` (3487 articoli × 5 vicini) tramite distanza euclidea su coordinate UMAP 3D precomputate. Sostituisce correlati per categoria in fondo all'articolo. Zero query runtime, zero API.
-- **Leggi anche build-time** — `LeggiAnche.astro` inserito staticamente dopo il 3° `</p>` del corpo articolo. Articolo scelto da correlatiMap UMAP (primo vicino semantico, stessa lingua). Rimosso vecchio approccio JS client-side (fragile, non SEO, layout shift).
+- **Leggi anche build-time** — `LeggiAnche.astro` inserito staticamente dopo il 3° `</p>` del corpo articolo. Articolo scelto da correlatiMap UMAP (primo vicino semantico, stessa lingua, senza loop A→B→A). Rimosso vecchio approccio JS client-side (fragile, non SEO, layout shift). CSS isolato da `.article-content :global()` con blocco reset specifico.
 - **Didascalia visibile sotto copertina** — `heroCaption` collegato a `didascalia_copertina`, icona fotocamera, font 0.7rem, allineamento sinistra
 - **Rimosso background `#e8e0d5`** dal wrapper hero immagine articolo
 - **US-04 Didascalie copertine** — completato Step 1; Step 2 (AI) in corso
