@@ -103,7 +103,11 @@ function splitCorpoAfterNthParagraph(html: string, n: number): [string, string] 
 }
 
 const leggiAncheSlug = articolo.lang !== 'en'
-  ? ((correlatiMap as Record<string, string[]>)[articolo.slug]?.[0] ?? null)
+  ? ((correlatiMap as Record<string, string[]>)[articolo.slug] ?? []).find((s) => {
+      // Evita loop A→B→A: salta B se il primo correlato di B è A
+      const bCorrelati = (correlatiMap as Record<string, string[]>)[s] ?? [];
+      return bCorrelati[0] !== articolo.slug;
+    }) ?? null
   : null;
 const leggiAncheArticolo = leggiAncheSlug ? slugToArticolo[leggiAncheSlug] ?? null : null;
 const [corpoPart1, corpoPart2] = leggiAncheArticolo && articolo.corpo
