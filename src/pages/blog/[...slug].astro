@@ -102,6 +102,48 @@ function splitCorpoAfterNthParagraph(html: string, n: number): [string, string] 
   return [html.slice(0, idx), html.slice(idx)];
 }
 
+// ── Embed processing (YouTube + Instagram) ────────────────────────────────────
+
+function extractYouTubeId(url: string): string | null {
+  const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|v\/))([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
+
+function extractInstagramId(url: string): string | null {
+  const m = url.match(/instagram\.com\/(?:p|reel|tv)\/([A-Za-z0-9_-]+)/);
+  return m ? m[1] : null;
+}
+
+function processEmbeds(html: string): { html: string; hasInstagram: boolean } {
+  let out = html;
+  let hasInstagram = false;
+
+  // 1. YouTube: URL grezzo in <p> → iframe embed responsive
+  out = out.replace(
+    /<p>\s*(https?:\/\/(?:youtu\.be\/|(?:www\.)?youtube\.com\/watch[^\s<"]*)[^\s<"]*)\s*<\/p>/gi,
+    (_, url) => {
+      const id = extractYouTubeId(url);
+      if (!id) return `<p>${url}</p>`;
+      return `<div class="video-embed"><iframe src="https://www.youtube.com/embed/${id}" title="Video YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`;
+    }
+  );
+
+  // 2. Instagram: blockquote con data-instgrm-permalink → iframe embed + script flag
+  if (/<blockquote[^>]+instagram/i.test(out)) {
+    hasInstagram = true;
+    // normalizza: assicura che il blockquote abbia la classe instagram-media (alcuni potrebbero mancarla)
+    out = out.replace(
+      /(<blockquote\b(?![^>]*class)[^>]*)(data-instgrm-permalink)/gi,
+      '$1class="instagram-media" $2'
+    );
+  }
+
+  return { html: out, hasInstagram };
+}
+
+const rawCorpo = articolo.corpo ?? '';
+const { html: processedCorpo, hasInstagram } = processEmbeds(rawCorpo);
+
 const leggiAncheSlug = articolo.lang !== 'en'
   ? ((correlatiMap as Record<string, string[]>)[articolo.slug] ?? []).find((s) => {
       // Evita loop A→B→A: salta B se il primo correlato di B è A
@@ -110,9 +152,9 @@ const leggiAncheSlug = articolo.lang !== 'en'
     }) ?? null
   : null;
 const leggiAncheArticolo = leggiAncheSlug ? slugToArticolo[leggiAncheSlug] ?? null : null;
-const [corpoPart1, corpoPart2] = leggiAncheArticolo && articolo.corpo
-  ? splitCorpoAfterNthParagraph(articolo.corpo, 3)
-  : [articolo.corpo ?? '', ''];
+const [corpoPart1, corpoPart2] = leggiAncheArticolo && processedCorpo
+  ? splitCorpoAfterNthParagraph(processedCorpo, 3)
+  : [processedCorpo, ''];
 
 // ── Issue (numero rivista) ─────────────────────────────────────────────────────
 
@@ -906,6 +948,34 @@ const relatedArticles = (() => {
         color: var(--text-secondary);
       }
 
+      /* Instagram blockquote embed: resetta stile blockquote */
+      .article-content :global(blockquote.instagram-media) {
+        border-left: none;
+        padding-left: 0;
+        margin: 2rem auto;
+        font-style: normal;
+        color: inherit;
+        max-width: 540px;
+      }
+
+      /* YouTube responsive embed */
+      .article-content :global(.video-embed) {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        margin: 2rem 0;
+        border-radius: 6px;
+      }
+      .article-content :global(.video-embed iframe) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
       .article-content :global(ul),
       .article-content :global(ol) {
         margin: 1.75rem 0;
@@ -1399,6 +1469,7 @@ Slug: {articolo.slug}
     </div>
     </main>
     <Footer pathname={pathname} />
+    {hasInstagram && <script async src="https://www.instagram.com/embed.js" is:inline></script>}
     <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel: t(locale, 'read_also'), alternateArticleUrl, currentWpIdClean }}>
       window.__BLOG_PAGE_DATA__ = { wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel, alternateArticleUrl, currentWpIdClean };
     </script>

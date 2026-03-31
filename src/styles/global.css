@@ -233,3 +233,19 @@ span.capolettera {
     font-size: 3.5rem;
   }
 }
+
+/* Evidenziazione — pull quote ereditata da WordPress/Divi */
+p.evidenziazione,
+div.evidenziazione {
+  padding: 1em 2em;
+  border-top: solid 2px var(--accent-color, #42a2c8);
+  border-bottom: solid 2px var(--accent-color, #42a2c8);
+  margin: 1.5em 0 2em;
+  color: var(--accent-color, #42a2c8);
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
