@@ -167,6 +167,10 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 - **Didascalia visibile sotto copertina** — `heroCaption` collegato a `didascalia_copertina`, icona fotocamera, font 0.7rem, allineamento sinistra
 - **Rimosso background `#e8e0d5`** dal wrapper hero immagine articolo
 - **US-04 Didascalie copertine** — completato Step 1; Step 2 (AI) in corso
+- **Backfill `div.evidenziazione`** — script `backfill_evidenziazione.py` estrae pull quote dal dump SQL Divi grezzo e le reinietta nei corpi Directus. Match fuzzy (normalizzazione aggressiva, tollerante a mojibake). Risultato: 570/586 (97%) inserite su 376 articoli; 16 non trovate per ancoraggio ambiguo (11 articoli — da revisione manuale).
+- **Embed YouTube build-time** — `processEmbeds()` in `[..slug].astro`: URL grezzi `<p>https://youtu.be/ID</p>` → `<div class="video-embed"><iframe>` responsive 16:9. Zero JS runtime.
+- **Embed Instagram build-time** — blockquote `data-instgrm-permalink` preservato nel corpus; `embed.js` Instagram incluso solo nelle pagine che ne hanno bisogno (flag `hasInstagram`). Reset stile blockquote per embed Instagram.
+- **CSS `p.evidenziazione`** — in `global.css`: bordi teal, testo centrato italic Georgia 1.4rem.
 
 ---
 
@@ -208,7 +212,8 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 7. **Cutover DNS** `ombreeluci.it` → Cloudflare Pages (step finale, blocca il lancio)
 
 ### Da fare — Post-lancio
-8. **Categorizzare articoli Jean Vanier** — 35 articoli hanno `tema_label = null` dopo rimozione "Personaggi che ispirano"; assegnare categoria appropriata (es. "Fede e Luce") via Directus o script PATCH
+8. **16 evidenziazioni non reinserite** — 11 articoli con ancora ambigua: `un-panorama-riscoprire`, `mary-mount-settimane-al-sole`, `faccio-io`, `eucaristia-e-cresima-di-giacomo`, `lo-sconforto-emotivo-esige-comprensione`, `il-chicco`, `stai-pensando-me`, `gli-altri-siamo-noi`, `intervista-ad-andrea-romeo-su-cinema-e-disabilita`, `genitori-e-medici-davanti-allannuncio-dellhandicap`, `salvatore-medico-pediatra-acondroplasico` — da inserire a mano in Directus
+9. **Categorizzare articoli Jean Vanier** — 35 articoli hanno `tema_label = null` dopo rimozione "Personaggi che ispirano"; assegnare categoria appropriata (es. "Fede e Luce") via Directus o script PATCH
 9. **Upgrade VPS CX23 → CX32** (prima di embedding)
 9. **US-16 — Ricerca semantica + correlati** (pgvector, dopo upgrade VPS)
 10. **US-01 — Homepage dinamica** (after US-15)
@@ -278,6 +283,14 @@ Documento di specifica: `docs/CMS_MIGRATION_SPEC.md` (v1.2)
 | UX-18 | 🟢 | S | **Breadcrumb nascosti per articoli** — `.breadcrumbs { display: none }` nella pagina articolo. I breadcrumb potrebbero aiutare la navigazione e il SEO (structured data) | Valutare se riattivarli con design sobrio (link piccolo in cima: categoria > titolo troncato). Su mobile utili per "torna alla categoria". Aggiungere `BreadcrumbList` structured data (JSON-LD). |
 | UX-19 | 🟢 | M | **Pagine test e debug pubblicamente accessibili** — `test-lista`, `test-minimal`, `test-no-articles`, `test-status`, `debug/audit-editoriale` sono pagine raggiungibili via URL | Prima del cutover DNS: aggiungere `noindex` su queste pagine (già fatto su staging) e valutare rimozione o protezione con parametro `?redazione=1`. |
 | UX-20 | 🟢 | S | **Reading time minimo 1 minuto sempre** — La funzione `calculateReadingTimeFromHtml` usa 200 parole/minuto e `Math.max(1, ...)`. Articoli brevi o editoriali storici molto corti mostrano sempre "1 min" | Valutare se mostrare il reading time solo per articoli > 3 minuti, o usare una soglia minima di 300 parole prima di mostrarlo. Oppure nascondere il badge per articoli storici (ante 2000). |
+
+---
+
+## Backlog Data/AI — Attività post-lancio
+
+| ID | Stato | Descrizione | Note tecniche |
+|----|-------|-------------|---------------|
+| DA-01 | ⏳ In corso | **Backfill alt text immagini copertina su Directus** — Job Claude Haiku (5 req/min) genera alt text per ~2973 immagini copertina e salva in `scripts/db_analysis/logs/alttext_generation.json`. Quando completo (stima fine 2026-03-31 ~16:42), eseguire `python scripts/db_analysis/backfill_alttext_to_directus.py` per patchare il campo `description` su ogni file in Directus. | Script pronto. Supporta `--dry-run` e ripresa da log precedente. Verificare il campo `description` sia esposto nel template articolo come `alt` sull'`<img>`. |
 
 ---
 
