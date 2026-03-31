@@ -700,157 +700,6 @@ const relatedArticles = (() => {
 
       /* Drop Cap rimosso */
 
-      /* Box "Leggi anche" - contenitore neutro */
-      .read-also-box {
-        background: #ffffff;
-        border: 1px solid var(--border-color, #e5e5e5);
-        border-radius: 12px;
-        padding: 1.75rem;
-        margin: 3rem 0;
-      }
-
-      .read-also-box h4 {
-        font-family: 'Raleway', system-ui, sans-serif;
-        font-size: 0.9rem;
-        font-weight: 700;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: var(--text-secondary);
-        margin-bottom: 1.25rem;
-      }
-
-      .read-also-box p {
-        font-size: 1rem;
-        color: var(--text-secondary);
-        margin-bottom: 0;
-        line-height: 1.8;
-        font-family: 'Raleway', system-ui, sans-serif;
-      }
-
-      .read-also-box a {
-        color: var(--accent-color);
-        text-decoration: underline;
-        font-weight: 600;
-        transition: color 0.3s ease;
-      }
-
-      .read-also-box a:hover {
-        color: var(--accent-color);
-      }
-
-      /* Card correlati in-content (stile Vita.it) */
-      .incontent-related-container {
-        display: block;
-        width: 100%;
-        margin: 2.5rem 0;
-      }
-
-      .incontent-related-card {
-        display: flex !important;
-        flex-direction: row;
-        align-items: stretch;
-        visibility: visible !important;
-        opacity: 1 !important;
-        position: relative;
-        z-index: 1;
-        max-width: 100%;
-        margin: 2rem 0;
-        clear: both;
-        border: 1px solid #e0e0e0;
-        border-radius: 12px;
-        padding: 1.5rem 1.75rem;
-        background: #ffffff;
-        text-decoration: none;
-        transition: box-shadow 0.2s ease, transform 0.15s ease;
-      }
-
-      .incontent-related-link {
-        display: flex;
-        flex-direction: row;
-        gap: 1.5rem;
-        align-items: stretch;
-        color: inherit;
-        text-decoration: none;
-        max-width: 100%;
-        width: 100%;
-      }
-
-      .incontent-related-image-wrapper {
-        flex: 0 0 38%;
-        max-width: 38%;
-        aspect-ratio: 16 / 9;
-        overflow: hidden;
-        border-radius: 10px;
-        background: #f3f3f3;
-      }
-
-      .incontent-related-image-wrapper img {
-        width: 100%;
-        height: 100%;
-        max-width: 100%;
-        object-fit: cover;
-        display: block;
-      }
-
-      .incontent-related-content {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-
-      .incontent-related-label {
-        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-        font-size: 0.7rem;
-        font-weight: 600;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: #888;
-        margin-bottom: 0.35rem;
-      }
-
-      .incontent-related-title {
-        font-family: Georgia, 'Times New Roman', serif;
-        font-size: 1.15rem;
-        font-weight: 700;
-        line-height: 1.4;
-        color: #000000;
-        text-decoration: none;
-      }
-
-      .incontent-related-excerpt {
-        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-        font-size: 0.95rem;
-        line-height: 1.6;
-        color: var(--text-secondary);
-        margin: 0;
-      }
-
-      .incontent-related-card:hover {
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-        transform: translateY(-1px);
-      }
-
-      /* Nasconde i vecchi link testuali "Leggi anche" per evitare doppia card */
-      .legacy-read-also {
-        display: none !important;
-      }
-
-      @media (max-width: 768px) {
-        .incontent-related-card {
-          flex-direction: column;
-        }
-
-        .incontent-related-link {
-          flex-direction: column;
-        }
-
-        .incontent-related-image-wrapper {
-          flex: 0 0 auto;
-          max-width: 100%;
-          margin-bottom: 1rem;
-        }
-      }
 
       /* Didascalia immagine hero - stessa larghezza dell'immagine, allineata a destra */
       .article-image-caption {
@@ -1020,6 +869,29 @@ const relatedArticles = (() => {
 
       .article-content :global(a:hover) {
         color: var(--accent-color);
+      }
+
+      /* Reset: isola .leggi-anche dai :global dell'article-content */
+      .article-content :global(.leggi-anche) {
+        font-size: initial;
+        line-height: initial;
+      }
+      .article-content :global(.leggi-anche img) {
+        margin: 0;
+        border-radius: 4px;
+      }
+      .article-content :global(.leggi-anche p) {
+        margin: 0;
+        font-size: inherit;
+        line-height: inherit;
+        color: inherit;
+      }
+      .article-content :global(.leggi-anche a) {
+        text-decoration: none;
+        color: inherit;
+      }
+      .article-content :global(.leggi-anche a:hover) {
+        text-decoration: none;
       }
 
       .article-content :global(blockquote) {

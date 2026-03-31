@@ -46,8 +46,12 @@ const sottotitolo = articolo.sottotitolo?.trim() || articolo.seo_description?.tr
   .leggi-anche-link:hover {
     background: rgba(0, 0, 0, 0.03);
   }
-  .leggi-anche-link * {
-    text-decoration: none;
+  .leggi-anche-link,
+  .leggi-anche-link *,
+  .leggi-anche-link:visited,
+  .leggi-anche-link:hover,
+  .leggi-anche-link:focus {
+    text-decoration: none !important;
   }
 
   .leggi-anche-label {
