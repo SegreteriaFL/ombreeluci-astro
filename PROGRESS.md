@@ -1,7 +1,23 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-02 (checklist staging sotto)
+**Ultimo aggiornamento:** 2026-04-02 (checklist staging + regole operative sotto)
 **Stato:** Stack Astro+Directus attivo su staging. WordPress su Aruba resta online fino al cutover DNS finale.
+
+---
+
+## Regole operative — infrastruttura e routing (obbligatorie)
+
+**Errore metodologico da non ripetere (incidente 2026-04):** sono stati fatti **commit e deploy su ipotesi non validate** (adapter, route Worker, service binding, middleware) **senza** aver prima mappato **DNS → Worker → origine effettiva del traffico**. In particolare: con DNS ancora orientato ad Aruba, il **sito Astro su `ombreeluci.it` dipendeva dal Worker con route `/*`** come unico ponte verso Pages; rimuovere quel route “per eliminare un conflitto” **senza** un piano B ha lasciato il pubblico sul flusso DNS grezzo (es. WordPress). **Velocità e volume di commit non sostituiscono una verifica misurabile.**
+
+**Prima di toccare Worker, DNS, adapter Cloudflare o pass-through:**
+
+1. **Disegna la catena** (anche su carta): *record DNS apex/www → cosa risolve → Worker attivo? quale pattern di route? → fetch verso Pages/Aruba/altro*. Se non sai rispondere, **non committare**.
+2. **Un solo cambio alla volta**, poi **smoke test** (URL fissi: home, un articolo SSR, un asset statico, eventuale `/api/revalidate`). Se fallisce, **stop**: niente stack di tre approcci diversi nello stesso giorno.
+3. **Micro-esperimento prima del commit multi-file:** es. una riga di pass-through verso un URL noto, o `wrangler dev` + richiesta singola — solo dopo, refactor strutturale.
+4. **Criterio di successo oggettivo:** codice HTTP atteso, commit/deploy atteso in dashboard CF, non solo “sembra a posto in locale”.
+5. **Dopo un fallimento:** rivaluta la diagnosi; **non** aggiungere una nuova architettura sopra la precedente senza rollback mentale dello stato “ultimo noto buono”.
+
+**Formula da ricordare:** *nessun commit che cambia routing o origine senza baseline documentata e prova sul perimetro reale (staging o curl verso produzione controllata).*
 
 ---
 
