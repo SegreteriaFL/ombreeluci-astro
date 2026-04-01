@@ -3,17 +3,15 @@ main = "redirect-worker.js"
 compatibility_date = "2024-01-01"
 
 routes = [
-  { pattern = "ombreeluci.it/wp-admin*", zone_name = "ombreeluci.it" },
-  { pattern = "ombreeluci.it/wp-login.php", zone_name = "ombreeluci.it" },
-  { pattern = "ombreeluci.it/wp-cron.php", zone_name = "ombreeluci.it" },
-  { pattern = "ombreeluci.it/wp-content*", zone_name = "ombreeluci.it" },
+  # Intercetta tutto il traffico sul dominio: il DNS punta ancora ad Aruba, quindi
+  # senza questo route gli utenti vedrebbero WordPress. Qui: redirect legacy, proxy WP,
+  # poi forward esplicito verso Cloudflare Pages (mai fetch(request) verso origin Aruba).
+  { pattern = "ombreeluci.it/*", zone_name = "ombreeluci.it" },
 ]
 
-# Il Worker intercetta SOLO i path WordPress (proxy verso Aruba IP).
-# Redirect SEO e /api/revalidate sono gestiti da Astro middleware/API route
-# nel _worker.js di Pages, eliminando ogni conflitto di contesto.
+# Origine del sito Astro (Pages). In produzione punta al progetto che servi davvero.
+[vars]
+PAGES_ORIGIN = "https://ombreeluci-staging.pages.dev"
 
-# Secrets (NON mettere valori reali qui — impostare con: wrangler secret put NOME)
-# REVALIDATE_SECRET  — secret condiviso con Directus (genera con: openssl rand -hex 32)
-# CF_ZONE_ID         — Zone ID del dominio ombreeluci.it (CF Dashboard → Overview)
-# CF_PURGE_TOKEN     — CF API Token con permesso "Cache Purge" su ombreeluci.it
+# /api/revalidate + purge: gestiti da Astro (env su CF Pages). Questo Worker non richiede più
+# REVALIDATE_SECRET / CF_ZONE_ID / CF_PURGE_TOKEN salvo tu non voglia duplicare la logica qui.

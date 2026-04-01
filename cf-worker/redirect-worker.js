@@ -1011,91 +1011,43 @@ const REDIRECTS = {
 // passato a Cloudflare Pages, /wp-admin e le route WP non sono più raggiungibili.
 // Questo proxy le reinstrada trasparentemente verso l'IP Aruba.
 const WP_PREFIX = ['/wp-admin', '/wp-content', '/wp-includes', '/wp-json', '/feed'];
-const WP_EXACT  = ['/wp-login.php', '/xmlrpc.php'];
+const WP_EXACT  = ['/wp-login.php', '/wp-cron.php', '/xmlrpc.php'];
 const ARUBA_IP  = '89.46.105.36';
 const WP_HOST   = 'www.ombreeluci.it';
+
+const DEFAULT_PAGES_ORIGIN = 'https://ombreeluci-staging.pages.dev';
 
 function isWordPressPath(path) {
   if (WP_EXACT.includes(path)) return true;
   return WP_PREFIX.some(p => path === p || path.startsWith(p + '/'));
 }
 
-// ── Directus publish webhook → CF cache purge ──────────────────────────────
-// Directus Flow invia POST /api/revalidate con {slug, secret} quando un articolo
-// viene pubblicato. Il worker verifica il secret HMAC, purga la cache CF per
-// quell'URL e fa un prewarm silenzioso.
-//
-// Variabili d'ambiente Worker (impostare con: wrangler secret put NOME):
-//   REVALIDATE_SECRET  — secret condiviso con Directus (openssl rand -hex 32)
-//   CF_ZONE_ID         — Zone ID del dominio (da CF Dashboard → Overview)
-//   CF_PURGE_TOKEN     — CF API Token con permesso "Cache Purge" sul dominio
+/** Upstream Astro su Cloudflare Pages. env.PAGES_ORIGIN da wrangler.toml [vars]. */
+function pagesBaseUrl(env) {
+  const raw = env?.PAGES_ORIGIN || DEFAULT_PAGES_ORIGIN;
+  return String(raw).replace(/\/$/, '');
+}
 
-async function handleRevalidate(request, env) {
-  // Solo POST
-  if (request.method !== 'POST') {
-    return new Response('Method Not Allowed', { status: 405 });
-  }
+/**
+ * Inoltra al progetto Pages. NON usare fetch(request) sullo stesso host: il DNS
+ * risolve ancora verso Aruba e riceveresti WordPress / risposte sbagliate.
+ */
+async function forwardToPages(request, env) {
+  const url = new URL(request.url);
+  const target = new URL(url.pathname + url.search, pagesBaseUrl(env));
 
-  let body;
-  try {
-    body = await request.json();
-  } catch {
-    return new Response('Bad Request', { status: 400 });
-  }
+  const headers = new Headers(request.headers);
+  headers.delete('cf-connecting-ip');
+  // Altrimenti il client manda Host: ombreeluci.it e la subrequest verso *.pages.dev fallisce o va storta.
+  headers.delete('Host');
 
-  const { slug, secret } = body ?? {};
-  if (!slug || typeof slug !== 'string') {
-    return new Response('Missing slug', { status: 400 });
-  }
-
-  // Verifica secret (timing-safe compare via Web Crypto HMAC)
-  const expectedSecret = env?.REVALIDATE_SECRET;
-  if (!expectedSecret || secret !== expectedSecret) {
-    return new Response('Unauthorized', { status: 401 });
-  }
-
-  // URL da purgare
-  const siteOrigin = 'https://ombreeluci.it';
-  const articleUrl = `${siteOrigin}/blog/${slug}/`;
-
-  // Purge CF cache
-  const zoneId = env?.CF_ZONE_ID;
-  const purgeToken = env?.CF_PURGE_TOKEN;
-  if (!zoneId || !purgeToken) {
-    console.error('[revalidate] CF_ZONE_ID o CF_PURGE_TOKEN non configurati');
-    return new Response('Server misconfiguration', { status: 500 });
-  }
-
-  const purgeRes = await fetch(
-    `https://api.cloudflare.com/client/v4/zones/${zoneId}/purge_cache`,
-    {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${purgeToken}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ files: [articleUrl] }),
-    }
+  return fetch(
+    new Request(target.toString(), {
+      method: request.method,
+      headers,
+      body: ['GET', 'HEAD'].includes(request.method) ? undefined : request.body,
+    })
   );
-
-  const purgeData = await purgeRes.json();
-  if (!purgeData.success) {
-    console.error('[revalidate] Purge fallito:', JSON.stringify(purgeData.errors));
-    return new Response(JSON.stringify({ ok: false, errors: purgeData.errors }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' },
-    });
-  }
-
-  // Prewarm: GET silenzioso sull'articolo per pre-popolare la cache edge
-  // Fire-and-forget (non attendiamo la risposta per non rallentare il webhook)
-  fetch(articleUrl, { headers: { 'User-Agent': 'OEL-Prewarm/1.0' } }).catch(() => {});
-
-  console.log(`[revalidate] Purgato e prewarm: ${articleUrl}`);
-  return new Response(JSON.stringify({ ok: true, purged: articleUrl }), {
-    status: 200,
-    headers: { 'Content-Type': 'application/json' },
-  });
 }
 
 export default {
@@ -1103,12 +1055,7 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
-    // Directus publish webhook — invalida cache articolo
-    if (path === '/api/revalidate') {
-      return handleRevalidate(request, env);
-    }
-
-    // WordPress proxy — intercetta le route WP e le gira all'IP Aruba
+    // WordPress proxy — route WP → Aruba; tutto il resto (es. /api/revalidate) → forwardToPages
     if (isWordPressPath(path)) {
       const target = new URL(request.url);
       target.hostname = ARUBA_IP;
@@ -1141,8 +1088,7 @@ export default {
       return Response.redirect('https://ombreeluci.it/blog/' + dateMatch[1], 301);
     }
 
-    // Pass through — non dovrebbe mai arrivare qui con i nuovi routes specifici WP.
-    // Questo fallback resta per sicurezza ma non viene mai invocato in produzione.
-    return fetch(request);
+    // Tutto il resto → Astro su Pages (SSR/hybrid + static). Mai fetch(request): risolverebbe Aruba.
+    return forwardToPages(request, env);
   }
 };
