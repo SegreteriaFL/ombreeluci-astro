@@ -18,11 +18,26 @@
 
 ---
 
+## Infrastruttura deploy
+
+| Componente | Dettaglio |
+|-----------|-----------|
+| **CF Pages project** | `ombreeluci-staging` (nome storico) — branch `main` → deploy automatico su push |
+| **Dominio** | `ombreeluci.it` punta al Pages project via CF DNS |
+| **CF Worker** | `ombreeluci-redirects` — intercetta tutte le request su `ombreeluci.it/*` |
+| **Secrets Pages** | `DIRECTUS_TOKEN`, `DIRECTUS_URL` già configurati in CF Pages → Settings → Env Vars |
+| **Secrets Worker** | `REVALIDATE_SECRET`, `CF_ZONE_ID`, `CF_PURGE_TOKEN` (via `wrangler secret put`) |
+| **Deploy** | `git push origin main` → Pages build automatica (~3-4 min) |
+| **Account CF** | Account ID: `6b071de7f55397ada5645e187c932202` |
+| **Zone ID** | `0cc4507d662828548b5f9f90e4b2d494` |
+
+---
+
 ## Stack tecnico
 
 | Layer | Tecnologia | Stato |
 |-------|-----------|-------|
-| Frontend | Astro (100% statico) su Cloudflare Pages | Attivo |
+| Frontend | Astro (hybrid SSR) su Cloudflare Pages | Attivo |
 | CMS | Directus su Hetzner CX23 (Docker) | Operativo |
 | Database | PostgreSQL 16 + pgvector 0.8.2 | Attivo |
 | Storage media | Cloudflare R2 `oel-media` | Attivo |
