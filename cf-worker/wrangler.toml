@@ -3,17 +3,15 @@ main = "redirect-worker.js"
 compatibility_date = "2024-01-01"
 
 routes = [
-  { pattern = "ombreeluci.it/*", zone_name = "ombreeluci.it" }
+  { pattern = "ombreeluci.it/wp-admin*", zone_name = "ombreeluci.it" },
+  { pattern = "ombreeluci.it/wp-login.php", zone_name = "ombreeluci.it" },
+  { pattern = "ombreeluci.it/wp-cron.php", zone_name = "ombreeluci.it" },
+  { pattern = "ombreeluci.it/wp-content*", zone_name = "ombreeluci.it" },
 ]
 
-# Service binding verso il progetto Cloudflare Pages (ombreeluci-staging).
-# Permette pass-through esplicito: env.PAGES.fetch(request) inoltra la richiesta
-# al _worker.js generato da @astrojs/cloudflare con il contesto Pages completo
-# (incluso env.ASSETS per i file statici). Senza questo, fetch(request) puro
-# non espone env.ASSETS al _worker.js di Astro e tutti i file statici danno 404.
-[[services]]
-binding = "PAGES"
-service = "ombreeluci-staging"
+# Il Worker intercetta SOLO i path WordPress (proxy verso Aruba IP).
+# Redirect SEO e /api/revalidate sono gestiti da Astro middleware/API route
+# nel _worker.js di Pages, eliminando ogni conflitto di contesto.
 
 # Secrets (NON mettere valori reali qui — impostare con: wrangler secret put NOME)
 # REVALIDATE_SECRET  — secret condiviso con Directus (genera con: openssl rand -hex 32)
