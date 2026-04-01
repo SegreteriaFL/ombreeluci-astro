@@ -257,7 +257,8 @@ export async function getArticoloBySlug(
     limit: '1',
   });
   const data = await directusFetch<{ data: ArticoloFull[] }>(
-    `/items/articoli?${params}`
+    `/items/articoli?${params}`,
+    creds
   );
   if (!data || !data.data?.length) return null;
   return data.data[0];
