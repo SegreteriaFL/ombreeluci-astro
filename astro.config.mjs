@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import { loadEnv } from 'vite';
 import pagefind from 'astro-pagefind';
+import cloudflare from '@astrojs/cloudflare';
 
 const env = loadEnv(process.env.NODE_ENV ?? 'development', process.cwd(), '');
 const DIRECTUS_TOKEN = env.DIRECTUS_TOKEN ?? process.env.DIRECTUS_TOKEN ?? '';
@@ -11,7 +12,9 @@ console.log('[config] DIRECTUS_URL:', DIRECTUS_URL);
 console.log('[config] DIRECTUS_TOKEN set:', DIRECTUS_TOKEN.length > 0);
 
 export default defineConfig({
-  output: 'static',
+  // hybrid: pagine statiche di default, /blog/[...slug] SSR on-demand al CF edge
+  output: 'hybrid',
+  adapter: cloudflare({ platformProxy: { enabled: true } }),
   integrations: [pagefind()],
   vite: {
     define: {

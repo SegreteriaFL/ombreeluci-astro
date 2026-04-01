@@ -1141,7 +1141,10 @@ export default {
       return Response.redirect('https://ombreeluci.it/blog/' + dateMatch[1], 301);
     }
 
-    // Pass through — not a redirect
-    return fetch(request);
+    // Pass through — inoltra al _worker.js di Astro su Pages via service binding.
+    // env.PAGES.fetch() garantisce che il contesto Pages sia completo (env.ASSETS
+    // disponibile per file statici). fetch(request) puro non funziona perché
+    // il subrequest non eredita i binding del progetto Pages.
+    return env.PAGES.fetch(request);
   }
 };
