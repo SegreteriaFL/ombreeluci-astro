@@ -1,6 +1,6 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-02
+**Ultimo aggiornamento:** 2026-04-02 (checklist staging sotto)
 **Stato:** Stack Astro+Directus attivo su staging. WordPress su Aruba resta online fino al cutover DNS finale.
 
 ---
@@ -24,7 +24,7 @@
 |-----------|-----------|
 | **CF Pages project** | `ombreeluci-staging` (nome storico) — branch `main` → deploy automatico su push |
 | **Dominio** | `ombreeluci.it` punta al Pages project via CF DNS |
-| **CF Worker** | `ombreeluci-redirects` — **solo** proxy WordPress: `wp-admin*`, `wp-login.php`, `wp-cron.php`, `wp-content*` (zon `ombreeluci.it`). Nessun `/*` globale: il sito Astro riceve il traffico normale senza pass-through. |
+| **CF Worker** | `ombreeluci-redirects` — route **`ombreeluci.it/*`**: (1) path WordPress → proxy Aruba; (2) redirect legacy tab + regex data (stesso `REDIRECTS` nel JS); (3) tutto il resto → **`forwardToPages`** verso `PAGES_ORIGIN` (`ombreeluci-staging.pages.dev`). Così il DNS può restare su Aruba senza mostrare WP al pubblico. |
 | **Secrets Pages** | `DIRECTUS_TOKEN`, `DIRECTUS_URL`, e per ARCH-04 **`REVALIDATE_SECRET`**, **`CF_ZONE_ID`**, **`CF_PURGE_TOKEN`** (CF Pages → Settings → Environment variables, **runtime**; i secret purge non vanno nel bundle). |
 | **Secrets Worker** | Opzionali/none se il Worker è solo proxy WP. Se restano vecchi `wrangler secret` per purge, possono essere rimossi per evitare confusione (purge gestito da Astro). |
 | **Deploy** | `git push origin main` → Pages build automatica (~3-4 min) |
@@ -42,7 +42,7 @@
 | Database | PostgreSQL 16 + pgvector 0.8.2 | Attivo |
 | Storage media | Cloudflare R2 `oel-media` | Attivo |
 | CMS temporaneo | Keystatic Worker su CF Workers | Attivo (solo nuovi articoli) |
-| Redirect SEO | `public/_redirects` (~2000) + **`src/middleware.ts`**: `src/data/redirects-legacy.json` (~1001 slug) + regex data `/YYYY/MM/DD/slug/` → `/blog/slug/`. Worker **non** gestisce più redirect. |
+| Redirect SEO | `public/_redirects` (~2000) + Worker (**apex** `ombreeluci.it`): tabella `REDIRECTS` + regex data. **`src/middleware.ts`** ripete ~1001 slug + regex per host **`*.pages.dev`** (staging diretto) e coerenza SSR. |
 | Tunnel HTTPS | cloudflared `cms-oel` → porta 8055 | Attivo (systemd, boot) |
 
 ---
@@ -117,7 +117,7 @@
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
 | WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
-| ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — aggiornamento editoriale quasi real-time senza full rebuild. Manca: configurare secrets Worker + Directus Flow (vedi istruzioni sotto). |
+| ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — purge via `src/pages/api/revalidate.ts` e env **CF Pages**; Directus Flow operativo (vedi sotto). Dopo ogni modifica al Worker: `cd cf-worker && npx wrangler deploy`. |
 | — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale. Prerequisiti: tutti i pre-lancio completati + validazione staging ok. |
 
 ### ARCH-04 — Hybrid SSR + Directus webhook + CF edge cache
@@ -130,53 +130,26 @@
 Redattore salva articolo in Directus
     │
     ▼
-Directus Flow (trigger: items.update su "articoli")
-    │  POST {slug, secret} a CF Worker webhook endpoint
-    ▼
-CF Worker: verifica secret, chiama CF Cache Purge API
-    │  DELETE https://api.cloudflare.com/client/v4/zones/{zone_id}/purge_cache
-    │  body: { "files": ["https://ombreeluci.it/blog/{slug}/"] }
-    ▼
-Cloudflare invalida la cache per quell'URL
+Directus Flow → POST https://ombreeluci.it/api/revalidate  { slug, secret }
     │
     ▼
-Prossimo visitatore: CF edge richiede la pagina a Cloudflare Pages
-    │  blog/[...slug].astro → prerender:false → SSR on-demand
-    │  Legge dati freschi da Directus, renderizza, mette in cache (Cache-Control: s-maxage=86400)
+Worker ombreeluci.it/* inoltra POST a PAGES_ORIGIN (Astro API route)
+    │
     ▼
-Risposta in <200ms (edge rendering), poi in cache per i successivi visitatori
+Astro: verifica secret, CF Cache Purge per https://ombreeluci.it/blog/{slug}/
+    │
+    ▼
+Visitatori: blog/[...slug].astro SSR → Directus → Cache-Control edge
 ```
 
-**Componenti da implementare:**
+**Implementazione (riferimento, già in repo):**
 
-1. **`astro.config.mjs`** — aggiungere `@astrojs/cloudflare` adapter + `output: 'hybrid'`
-   - Pagine strutturali: mantengono `export const prerender = true` (o nessun export, default hybrid)
-   - `blog/[...slug].astro`: aggiungere `export const prerender = false`
-   - Attenzione: `getStaticPaths()` va rimosso da `[...slug].astro`, la route diventa dinamica
-
-2. **`src/pages/blog/[...slug].astro`** — refactor da getStaticPaths a params dinamici:
-   ```ts
-   export const prerender = false;
-   const { slug } = Astro.params;
-   const articolo = await getArticoloBySlug(slug); // nuova funzione in directus.ts
-   if (!articolo) return Astro.redirect('/404', 404);
-   // Imposta cache lunga, invalidata solo da webhook
-   Astro.response.headers.set('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate=3600');
-   ```
-
-3. **`src/lib/directus.ts`** — aggiungere `getArticoloBySlug(slug)` che fetcha singolo articolo
-
-4. **`cf-worker/redirect-worker.js`** — aggiungere endpoint webhook:
-   ```js
-   // POST /api/revalidate  {slug, secret}
-   // verifica secret, chiama CF Cache Purge API, ritorna {ok: true}
-   ```
-   Secret condiviso salvato come CF Worker secret (non in codice).
-
-5. **Directus Flow** — configurare nel pannello Directus:
-   - Trigger: `items.update` e `items.create` sulla collezione `articoli`
-   - Condition: `stato === 'published'`
-   - Action: Webhook POST a `https://ombreeluci.it/api/revalidate` con body `{slug: "{{slug}}", secret: "{{$env.REVALIDATE_SECRET}}"}`
+- `astro.config.mjs` — `output: 'hybrid'` + adapter Cloudflare  
+- `blog/[...slug].astro` — `prerender: false`, `getArticoloBySlug`, header cache  
+- `src/lib/directus.ts` — fetch articolo / correlati mirati  
+- `src/pages/api/revalidate.ts` — purge + prewarm (**env solo su CF Pages**)  
+- `cf-worker` — route `ombreeluci.it/*`, WP→Aruba, redirect legacy, **`forwardToPages`** (no `fetch(request)` verso origin)  
+- **Directus Flow** — POST a `https://ombreeluci.it/api/revalidate` con body JSON `{ "slug": "...", "secret": "..." }` allineato a `REVALIDATE_SECRET`
 
 **Trade-off e limitazioni:**
 - Pagefind (ricerca full-text) si aggiorna solo al build notturno schedulato — accettabile: un articolo nuovo appare nei risultati di ricerca entro 24h
@@ -206,18 +179,30 @@ Cache-Control: s-maxage=86400, stale-while-revalidate=3600, stale-if-error=60480
 ```
 
 **Layer di routing:**
-- `ombreeluci-redirects` Worker: **solo** route WP (`/wp-admin*`, `/wp-login.php`, `/wp-cron.php`, `/wp-content*`)
-- Tutto il traffico normale → direttamente a Cloudflare Pages (`_worker.js` Astro)
-- `src/middleware.ts`: 1.001 redirect legacy slug + regex `/YYYY/MM/DD/slug/` → `/blog/slug/`
-- `src/pages/api/revalidate.ts`: endpoint purge (secrets via `locals.runtime.env`, non baked nel bundle)
+- **Traffico `ombreeluci.it`:** Worker (`/*`) → WP proxy | redirect tab+data | `forwardToPages` → stesso codice che su `*.pages.dev` (middleware Astro incluso).
+- **Traffico `ombreeluci-staging.pages.dev`:** diretto a Pages (nessun Worker davanti); middleware copre redirect legacy.
 
 **File chiave:**
-- `src/middleware.ts` — redirect SEO legacy
-- `src/data/redirects-legacy.json` — 1.001 mappature slug (ex-Worker)
-- `src/pages/api/revalidate.ts` — endpoint purge cache
-- `src/pages/blog/[...slug].astro` — `prerender: false`, SSR on-demand
-- `src/lib/directus.ts` — `getArticoliBySlugList()` per fetch selettivo correlati
-- `cf-worker/wrangler.toml` — route solo WP; nessun service binding
+- `src/middleware.ts` — redirect per host Pages
+- `src/data/redirects-legacy.json` — ~1001 slug (allineato alla logica Worker)
+- `src/pages/api/revalidate.ts` — purge (env runtime CF Pages)
+- `src/pages/blog/[...slug].astro` — SSR on-demand
+- `cf-worker/wrangler.toml` — `ombreeluci.it/*`, `[vars] PAGES_ORIGIN`
+- `cf-worker/redirect-worker.js` — WP, `REDIRECTS`, regex date, `forwardToPages`
+
+---
+
+## Checklist staging (operativa)
+
+| Step | Azione | Stato |
+|------|--------|--------|
+| 1 | `git push origin main` → attendi deploy **CF Pages** (`ombreeluci-staging`) verde | automatico su push |
+| 2 | `cd cf-worker && npx wrangler deploy` dopo ogni cambio Worker | manuale |
+| 3 | CF Pages → **Settings → Environment variables** (production): `DIRECTUS_URL`, `DIRECTUS_TOKEN`, `REVALIDATE_SECRET`, `CF_ZONE_ID`, `CF_PURGE_TOKEN` | verifica dashboard |
+| 4 | Directus Flow attivo su publish articolo → POST `/api/revalidate` | vedi flow ID sotto |
+| 5 | Smoke test | `https://ombreeluci-staging.pages.dev` homepage + articolo; se usi apex: `https://ombreeluci.it` dopo step 2 |
+
+---
 
 **Directus Flow configurato (via API 2026-04-01):**
 - Flow ID: `a6c7417d-9996-413f-a7db-334c73c9982a`
@@ -240,7 +225,7 @@ Cache-Control: s-maxage=86400, stale-while-revalidate=3600, stale-if-error=60480
 
 2. **Service binding (tentato, non disponibile):** Aggiunto `[[services]] binding="PAGES" service="ombreeluci-staging"` in wrangler.toml. CF restituisce errore 10143: i service binding funzionano tra Worker scripts, non verso Pages projects (namespace diverso).
 
-3. **Soluzione corretta:** Rimuovere il route `ombreeluci.it/*` dal Worker. Il traffico normale raggiunge Cloudflare Pages direttamente, con il contesto nativo completo (env.ASSETS funzionante). Il Worker gestisce SOLO i path WP con route specifiche. Redirect SEO e `/api/revalidate` si spostano in Astro middleware + API route.
+3. **Soluzione finale:** Mantenere `ombreeluci.it/*` sul Worker (DNS spesso ancora Aruba). Invece di `fetch(request)` verso origin, **`forwardToPages`** verso `PAGES_ORIGIN` (*.pages.dev), header `Host` rimosso sulla subrequest. Redirect legacy restano nel Worker; `/api/revalidate` solo in Astro (env Pages). Contesto `env.ASSETS` ok perché static e SSR sono serviti dal progetto Pages.
 
 ---
 
@@ -310,9 +295,14 @@ Cache-Control: s-maxage=86400, stale-while-revalidate=3600, stale-if-error=60480
 
 ## Storico completamenti
 
+### 2026-04-02
+
+- **Worker `ombreeluci.it/*` + `forwardToPages`** — Ripristinato route globale: con DNS su Aruba e route solo WP il sito pubblico mostrava WordPress. Pass-through verso `PAGES_ORIGIN` (non `fetch(request)`). Purge solo in Astro. Build locale verificata; checklist staging in cima documento.
+- **docs** — PROGRESS: diagramma ARCH-04, tabella infra e “errori e soluzioni” allineati al comportamento reale (Worker + Pages).
+
 ### 2026-04-01
 
-- **ARCH-04 Hybrid SSR + edge cache invalidation** — Architettura finale: Worker ridotto a proxy WP (4 route specifiche), redirect legacy in `src/middleware.ts` (1.001 slug + regex date WP), endpoint `/api/revalidate` in Astro API route con secrets runtime CF Pages. Directus Flow configurato via API (flow `a6c7417d`). CF Pages env vars impostate via API. `blog/[...slug].astro` SSR on-demand con Cache-Control 24h. Aggiornamento editoriale in ~5 secondi. Dominio `ombreeluci.it` aggiunto come custom domain Pages (in precedenza solo DNS CNAME verso `.pages.dev` senza registrazione ufficiale — causava 404 su asset statici con build hybrid). Fix `cerca.astro` e `blog/en.astro`: rimossi `</body></html>` spurii residui dalla batch migration a BaseLayout.
+- **ARCH-04 Hybrid SSR + edge cache invalidation** — Redirect legacy in Worker + `src/middleware.ts` (staging diretto), endpoint `/api/revalidate` in Astro (secrets CF Pages). Directus Flow (`a6c7417d`). `blog/[...slug].astro` SSR + Cache-Control. Tentativo intermedio: Worker solo route WP (4 pattern) — **insufficiente se DNS punta ancora ad Aruba**; corretto il 2026-04-02. Fix `cerca.astro` e `blog/en.astro` (tag chiusura duplicati).
 - **Refactor architetturale ARCH-01/02/03** — Introdotti `BaseHead.astro` e `BaseLayout.astro`. Tutte le 22 pagine del sito migrate al layout centralizzato. Eliminato boilerplate `<head>` duplicato in ogni pagina. OG tags, Twitter Card, canonical, GSC meta tag, preconnect R2 ora su tutte le pagine in un unico punto. CSS breakpoint vars documentate in `global.css`. Build: 4129 pagine, 0 errori.
 - **Proxy WordPress CF Worker** — `cf-worker/redirect-worker.js` aggiornato con proxy trasparente verso Aruba IP `89.46.105.36` per route `/wp-admin/*`, `/wp-login.php`, `/wp-content/*`, `/wp-includes/*`, `/wp-json/*`, `/feed/*`, `/xmlrpc.php`. Deployato. Redazione può continuare a usare WordPress in produzione.
 - **Backlog performance (PF-01→PF-09)** — Documentati in PROGRESS.md da analisi PageSpeed Insights.
