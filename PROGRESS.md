@@ -19,6 +19,8 @@
 
 **Formula da ricordare:** *nessun commit che cambia routing o origine senza baseline documentata e prova sul perimetro reale (staging o curl verso produzione controllata).*
 
+**Agenti (Cursor / Claude):** per **audit o diagnosi** richiesti senza parola d’ordine di implementazione, vale la regola di progetto in `.cursor/rules/audit-diagnosi-sola-lettura.mdc` — **solo lettura**, nessun commit/deploy, per non sovrapporre interventi con altri strumenti sullo stesso incidente.
+
 ---
 
 ## Riferimenti rapidi
