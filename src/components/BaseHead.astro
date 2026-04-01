@@ -1,0 +1,103 @@
+---
+/**
+ * BaseHead.astro
+ *
+ * Componente condiviso per il blocco <head> di tutte le pagine.
+ * Centralizza: charset, viewport, favicon, title, meta description,
+ * Open Graph, Twitter Card, canonical, hreflang, Google Site Verification,
+ * preconnect, ViewTransitions.
+ *
+ * Uso:
+ *   <BaseHead title="Titolo pagina" description="Descrizione." />
+ *   <BaseHead title="Articolo" description="..." ogImage={url} ogType="article" />
+ *
+ * Per contenuto aggiuntivo (JSON-LD, meta pagina specifica) usare lo slot:
+ *   <BaseHead ...><script type="application/ld+json">...</script></BaseHead>
+ */
+import { ViewTransitions } from 'astro:transitions';
+import '../styles/global.css';
+
+interface Props {
+  /** Titolo della pagina (senza " - Ombre e Luci" — viene aggiunto automaticamente) */
+  title: string;
+  /** Meta description (~155 caratteri) */
+  description?: string;
+  /** URL assoluto immagine per og:image e twitter:image */
+  ogImage?: string;
+  /** Tipo Open Graph: 'website' (default) o 'article' */
+  ogType?: 'website' | 'article';
+  /** URL canonico assoluto. Se omesso viene usato Astro.url.href */
+  canonical?: string;
+  /** Se true aggiunge <meta name="robots" content="noindex, nofollow"> */
+  noindex?: boolean;
+  /** Lingua della pagina: 'it' (default) o 'en' */
+  lang?: 'it' | 'en';
+  /** hreflang alternates: array di { lang, url } */
+  alternates?: { lang: string; url: string }[];
+}
+
+const {
+  title,
+  description = 'Ombre e Luci: storie, riflessioni e cultura sulla fragilità e sulla dignità della persona. Dal 1983.',
+  ogImage,
+  ogType = 'website',
+  canonical,
+  noindex = false,
+  lang = 'it',
+  alternates = [],
+} = Astro.props;
+
+const SITE_NAME = 'Ombre e Luci';
+const DEFAULT_OG_IMAGE = 'https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/copertine/og-default.jpg';
+const GOOGLE_SITE_VERIFICATION = 'CHp0QtH-sw0M_ZYVjj6LRqHxV-4Z72IoYR_aiX9c6ZE';
+
+// Se il titolo contiene già il nome del sito (es. homepage), usarlo così com'è
+const pageTitle = title.includes(SITE_NAME) ? title : `${title} – ${SITE_NAME}`;
+const canonicalUrl = canonical ?? Astro.url.href;
+const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/png" href="/favicon.png" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<title>{pageTitle}</title>
+<meta name="description" content={description} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+<link rel="canonical" href={canonicalUrl} />
+
+<!-- Google Site Verification -->
+<meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />
+
+<!-- Open Graph -->
+<meta property="og:site_name" content={SITE_NAME} />
+<meta property="og:title" content={pageTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={ogImageUrl} />
+<meta property="og:type" content={ogType} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:locale" content={lang === 'en' ? 'en_US' : 'it_IT'} />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={pageTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImageUrl} />
+
+<!-- hreflang alternates -->
+{alternates.map(({ lang: l, url }) => (
+  <link rel="alternate" hreflang={l} href={url} />
+))}
+{alternates.length > 0 && (
+  <link rel="alternate" hreflang="x-default" href={alternates.find(a => a.lang === 'it')?.url ?? canonicalUrl} />
+)}
+
+<!-- Preconnect origini critiche -->
+<link rel="preconnect" href="https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev" />
+
+<!-- Slot per contenuto aggiuntivo (JSON-LD, meta custom) -->
+<slot />
+
+<ViewTransitions />

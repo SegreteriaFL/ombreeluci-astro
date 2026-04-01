@@ -1,13 +1,10 @@
 ---
+import BaseLayout from '../../layouts/BaseLayout.astro';
 /**
  * Hub I Diari di Ombre e Luci.
  * Intro + griglia 7 card (uno per autore) + feed globale articoli dei 7 diaristi.
  */
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { getDiaristiWithMeta, NOMI_DIARISTI } from '../../data/diari.js';
 import { getAllArticoli, getAllAutori, getArticoloCopertinaSrc, getAutoreImageUrl, getCategoriaDescrizione } from '../../lib/directus';
@@ -29,18 +26,11 @@ const articoliDiari = allArticles
   });
 ---
 
-<html lang="it">
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <ViewTransitions />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>I Diari di Ombre e Luci - Ombre e Luci</title>
-    <meta name="description" content="I Diari: storie in prima persona, racconti di vita e di fragilità sulle pagine di Ombre e Luci. Le cronache di sette autori." />
-  </head>
-  <body>
-    <Header />
+<BaseLayout
+  title={"I Diari"}
+  description={"I Diari: storie in prima persona, racconti di vita e di fragilita sulle pagine di Ombre e Luci."}
+  noindex={true}
+>
     <main class="site-main diari-section-bg">
       <div class="container diari-hub">
         <header class="diari-intro">
@@ -106,7 +96,6 @@ const articoliDiari = allArticles
         </section>
       </div>
     </main>
-    <Footer />
   </body>
 </html>
 
@@ -253,3 +242,4 @@ const articoliDiari = allArticles
     border: 0;
   }
 </style>
+</BaseLayout>

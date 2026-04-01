@@ -1,8 +1,5 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import '../../styles/global.css';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getAllAutori, getAutoreImageUrl } from '../../lib/directus';
 
 function stripHtml(html: string): string {
@@ -24,18 +21,11 @@ const autori = allAutori.map((autore) => {
 });
 ---
 
-<html lang="it">
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <ViewTransitions />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Autori - Ombre e Luci</title>
-    <meta name="description" content="Elenco degli autori della rivista Ombre e Luci" />
-  </head>
-  <body>
-    <Header />
+<BaseLayout
+  title={"Autori"}
+  description={"Elenco degli autori della rivista Ombre e Luci"}
+  noindex={true}
+>
     <main class="site-main autori-page">
       <div class="autori-container">
         <h1 class="autori-title">Autori</h1>
@@ -291,6 +281,4 @@ const autori = allAutori.map((autore) => {
         applyFilterAndSort();
       });
     </script>
-    <Footer />
-  </body>
-</html>
+</BaseLayout>

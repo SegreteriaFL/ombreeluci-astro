@@ -10,7 +10,9 @@ interface Props {
   pathname?: string;
   alternateArticleUrl?: string | null;
 }
-const { pathname = '/', alternateArticleUrl = null } = Astro.props;
+// pathname default a Astro.url.pathname: Header funziona correttamente anche
+// quando usato da BaseLayout senza prop esplicita
+const { pathname = Astro.url.pathname, alternateArticleUrl = null } = Astro.props;
 const lang = getLangFromUrl(pathname);
 
 // Carica numeri rivista

@@ -1,13 +1,10 @@
 ---
+import BaseLayout from '../../layouts/BaseLayout.astro';
 /**
  * Hub rubrica Dialogo aperto.
  * Feed di tutti gli articoli della serie "Dialogo aperto".
  */
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { getAllArticoli, getArticoloCopertinaSrc, getCategoriaDescrizione } from '../../lib/directus';
 
@@ -25,17 +22,11 @@ const articoli = allArticles
   });
 ---
 
-<html lang="it">
-  <head>
-    <ViewTransitions />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dialogo aperto - Ombre e Luci</title>
-    <meta name="description" content="La rubrica Dialogo aperto di Ombre e Luci: lettori, famiglie e persone con disabilità a confronto aperto." />
-  </head>
-  <body>
-    <Header />
+<BaseLayout
+  title={"Dialogo aperto"}
+  description={"La rubrica Dialogo aperto di Ombre e Luci: lettori, famiglie e persone con disabilita a confronto aperto."}
+  noindex={true}
+>
     <main class="site-main">
       <div class="container section-hub">
         <header class="section-intro">
@@ -72,7 +63,6 @@ const articoli = allArticles
         )}
       </div>
     </main>
-    <Footer />
   </body>
 </html>
 
@@ -112,3 +102,4 @@ const articoli = allArticles
     font-style: italic;
   }
 </style>
+</BaseLayout>

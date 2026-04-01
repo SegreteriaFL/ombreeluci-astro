@@ -1,18 +1,14 @@
 ---
 import { getAllArticoli, getArticoloCopertinaSrc, getAutoreImageUrl, COPERTINA_IMG_ONERROR } from '../../lib/directus';
 import { getPlaceholder } from '../../utils/placeholder';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
 import { getLangFromUrl, t } from '../../utils/i18n';
-import { ViewTransitions } from 'astro:transitions';
 import autoriStats from '../../data/autori_stats.json';
 import correlatiMap from '../../data/correlati.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
-import '../../styles/global.css';
-
 const pathname = Astro.url.pathname;
 const locale = getLangFromUrl(pathname);
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
@@ -300,27 +296,603 @@ const relatedArticles = (() => {
 ---
 
 
-<html lang={articolo.lang === 'en' ? 'en' : 'it'}>
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{articleTitle} - Ombre e Luci</title>
-    <meta name="description" content={metaDescription} />
-    <meta property="og:title" content={articleTitle} />
-    <meta property="og:description" content={metaDescription} />
-    <meta property="og:image" content={articleImage} />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content={Astro.url.href} />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={articleTitle} />
-    <meta name="twitter:description" content={metaDescription} />
-    <meta name="twitter:image" content={articleImage} />
+
+<BaseLayout
+  title={articleTitle}
+  description={metaDescription}
+  ogImage={articleImage}
+  ogType="article"
+  lang={articolo.lang === 'en' ? 'en' : 'it'}
+  noindex={true}
+  alternateArticleUrl={alternateArticleUrl}
+  alternates={[
+    { lang: articolo.lang === 'en' ? 'en' : 'it', url: Astro.url.href },
+    ...(alternateArticleUrl ? [{ lang: articolo.lang === 'en' ? 'it' : 'en', url: alternateArticleUrl }] : []),
+  ]}
+>
+  <Fragment slot="head">
     <meta name="pagefind:meta" content={`author:${autoreName}`} />
-    <link rel="alternate" hreflang={articolo.lang === 'en' ? 'en' : 'it'} href={Astro.url.href} />
-    <link rel="alternate" hreflang="x-default" href={Astro.url.href} />
-    <ViewTransitions />
+  </Fragment>
+    <main class="site-main">
+    {/* Reading Progress Bar */}
+    <div class="reading-progress" id="reading-progress"></div>
+    
+    <div class="article-container">
+      {/* Breadcrumbs */}
+      <nav class="breadcrumbs">
+        <a href={locale === 'en' ? '/blog/en' : '/archivio'}>{t(locale, 'nav_archive')}</a>
+        {issueNumber && (
+          <>
+            {' > '}
+            <a href={issueLink}>Numero {issueNumber}</a>
+          </>
+        )}
+      </nav>
+
+      {/* Header Centrato - max-width: 900px */}
+      <header class="article-header-wrapper">
+        {/* Badge: [Numero] • [Forma] / [categoria_menu] – label cliccabili verso categorie */}
+        {!showPubblicatoOnline ? (
+          <nav class="article-category-badge" aria-label="Categoria e numero">
+            {issueLink && <a href={issueLink} class="article-badge-link">Numero {issueNumber}</a>}
+            {issueLink && (formaDisplay || categoryLink) && <span class="article-badge-sep"> • </span>}
+            {formaDisplay && <span class="article-badge-text">{formaDisplay}</span>}
+            {formaDisplay && categoryLink && <span class="article-badge-sep"> / </span>}
+            {categoryLink ? (
+              <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>
+            ) : (
+              <span class="article-badge-text">{categoryDisplay}</span>
+            )}
+          </nav>
+        ) : (
+          <div class="article-category-badge article-category-badge--online">
+            {categoryLink ? (
+              <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>
+            ) : (
+              t(locale, 'published_online')
+            )}
+          </div>
+        )}
+
+        <h1 class="article-title">{articleTitle}</h1>
+        
+        {/* Sottotitolo: usa il sottotitolo “vero” dal frontmatter, se presente */}
+        {explicitSubtitle && (
+          <div class="article-subtitle">
+            {explicitSubtitle}
+          </div>
+        )}
+        
+        {/* Metadati con foto autore */}
+        <div class="article-meta">
+          <div class="article-meta-item">
+            <img 
+              src={authorImagePath}
+              alt={autoreName}
+              class="article-meta-author-image"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              loading="lazy"
+            />
+            <div class="article-meta-author-placeholder" style="display: none;">
+              {autoreName.charAt(0).toUpperCase()}
+            </div>
+            <a href={`/autori/${authorSlug}`} class="author-link">{autoreName}</a>
+          </div>
+          <div class="article-meta-item">
+            {formatDateItalian(articleDate)}
+          </div>
+          <div class="article-meta-item">
+            {readingTime} {t(locale, 'min_read')}
+          </div>
+          {roleLabel && (
+            <div class="article-meta-item">
+              <span class={`article-badge-role${roleClassName}`}>{roleLabel}</span>
+            </div>
+          )}
+        </div>
+      </header>
+
+      {/* Fascia Hero Larga - 1100px centrata */}
+      <div class="article-hero-wrapper">
+        <div class="article-hero-image-wrapper">
+          <img 
+            src={articleImage} 
+            alt={articleTitle}
+            class="article-image"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            data-copertina-fallback
+            onerror={COPERTINA_IMG_ONERROR}
+          />
+          {heroCaption && (
+            <div class="article-image-caption">
+              <img src="https://www.ombreeluci.it/wp-content/uploads/2023/10/icon-camera.png" alt="" class="caption-camera-icon" aria-hidden="true" />
+              {heroCaption}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Alert box per contenuti archivistici */}
+      {articleDate.getFullYear() < 2000 && (
+        <div class="article-header-wrapper">
+          <div class="archival-alert">
+            <strong>Contenuto d'archivio:</strong> Questo articolo del {articleDate.getFullYear()} riflette il linguaggio e le sensibilità del suo tempo.
+          </div>
+        </div>
+      )}
+      
+      {isTranslation && articleDate.getFullYear() < 2000 && (
+        <div class="article-header-wrapper">
+          <div class="archival-alert-en">
+            <strong>This archival content from {articleDate.getFullYear()} reflects the language and sensitivities of its time.</strong>
+          </div>
+        </div>
+      )}
+
+      {/* Social Sticky Bar */}
+      <div class="social-sticky" id="social-sticky">
+        <div class="social-sticky-inner">
+          <a 
+            href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link facebook"
+            aria-label="Condividi su Facebook"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+          <a 
+            href={`https://twitter.com/intent/tweet?url=${Astro.url.href}&text=${encodeURIComponent(articleTitle)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link twitter"
+            aria-label="Condividi su X (Twitter)"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a 
+            href={`https://wa.me/?text=${encodeURIComponent(articleTitle + ' ' + Astro.url.href)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link whatsapp"
+            aria-label="Condividi su WhatsApp"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+          </a>
+          <a 
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=${Astro.url.href}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link linkedin"
+            aria-label="Condividi su LinkedIn"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a 
+            href={`mailto:?subject=${encodeURIComponent(articleTitle)}&body=${encodeURIComponent(Astro.url.href)}`}
+            class="social-link email"
+            aria-label="Invia via email"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+          </a>
+          <a 
+            href="#"
+            class="social-link copy-link"
+            aria-label="Copia link"
+            onclick={`event.preventDefault(); navigator.clipboard.writeText('${Astro.url.href}'); this.setAttribute('aria-label', 'Link copiato!'); setTimeout(() => this.setAttribute('aria-label', 'Copia link'), 2000); return false;`}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      {/* Corpo del Testo - max-width: 750px */}
+      <div class="article-content-wrapper">
+        <div class="article-content" id="article-content">
+          {isJeanVanier && (
+            <aside class="vanier-alert" role="note">
+              <div>Avviso: inchieste promosse dall'Arca internazionale hanno accertato gravi responsabilità di padre Thomas Philippe (la prima nel 2015) e di Jean Vanier (2020) nei confronti di diverse donne. <a href="https://www.ombreeluci.it/2020/larca-internazionale-annuncia-i-risultati-dellindagine-indipendente/">Qui il comunicato più recente</a> che condanna senza riserve queste azioni «in totale contraddizione con i valori che Vanier sosteneva» e con «i principi fondamentali delle nostre comunità».</div>
+            </aside>
+          )}
+          <div set:html={corpoPart1} />
+          {leggiAncheArticolo && <LeggiAnche articolo={leggiAncheArticolo} />}
+          {corpoPart2 && <div set:html={corpoPart2} />}
+        </div>
+
+        {/* Bio Autore */}
+        <div class="author-bio-section">
+          <div class="author-bio-wrapper">
+            <div class="author-bio-avatar">
+              <img 
+                src={authorImagePath}
+                alt={autoreName}
+                class="author-bio-image"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                loading="lazy"
+              />
+              <div class="author-bio-placeholder" style="display: none;">
+                {autoreName.charAt(0).toUpperCase()}
+              </div>
+            </div>
+            <div class="author-bio-content">
+              <h3 class="author-bio-name">
+                <a href={`/autori/${authorSlug}`} class="author-bio-link">
+                  {autoreName}
+                </a>
+              </h3>
+              <div class="author-bio-text">
+                {authorBio ? (
+                  <div set:html={authorBio} />
+                ) : (
+                  t(locale, 'author_bio_fallback')
+                )}
+              </div>
+              <p class="author-bio-total">
+                {t(locale, 'author_total_prefix')} <a href="/autori">{totalAutori} {t(locale, 'author_total')}</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <EditorialFeedback
+          wpId={articolo.wp_id}
+          title={articleTitle}
+          currentRole={ruolo_editoriale}
+          url={Astro.url.href}
+          articoloId={articolo.id}
+        />
+      </div>
+
+      {/* Widget di navigazione: card standard, appare dopo scroll */}
+      <div class="floating-widget" id="floating-widget">
+        <button class="close-btn" id="close-widget" aria-label={t(locale, 'widget_close')}>×</button>
+        <h4>{t(locale, 'widget_navigate')}</h4>
+        {pdfUrl ? (
+          <a href={pdfUrl} target="_blank" rel="noopener noreferrer" class="widget-link">{t(locale, 'widget_download_pdf')}</a>
+        ) : null}
+        {issueLink ? <a href={issueLink} class="widget-link">{t(locale, 'widget_go_to_issue')}</a> : null}
+        <a href={locale === 'en' ? '/blog/en' : '/archivio'} class="widget-link">{t(locale, 'nav_archive')}</a>
+      </div>
+
+
+{/* Articoli correlati in calce (full-width, griglia ArticleCard) */}
+      {relatedArticles.length > 0 && (
+        <section class="related-footer-section" aria-label={locale === 'en' ? 'Related articles' : 'Articoli correlati'}>
+          <div class="related-footer-inner">
+            <h2 class="related-footer-title">
+              {locale === 'en' ? 'Related articles' : 'Articoli correlati'}
+            </h2>
+            <div class="related-footer-grid">
+              {relatedArticles.map((rel) => (
+                <ArticleCard
+                  title={rel.title}
+                  author={rel.author}
+                  date={rel.date}
+                  issue={rel.issue}
+                  slug={rel.slug}
+                  image={rel.image}
+                  categoriaMenu={rel.categoriaMenu}
+                  forma={rel.forma}
+                  ruoloEditoriale={rel.ruoloEditoriale}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {articolo.has_comments && (
+        <div class="comments-section">
+          -- Qui appariranno i commenti di Trikkia --
+        </div>
+      )}
+
+      {/* Debug: mostra i dati dell'articolo */}
+      <details class="debug-section" hidden>
+        <summary style="cursor: pointer; color: var(--text-secondary); font-size: 0.85rem; margin-top: 2rem; padding: 0.5rem;">
+          🔍 Debug: Dati articolo
+        </summary>
+        <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
+{JSON.stringify({ id: articolo.id, wp_id: articolo.wp_id, slug: articolo.slug, titolo: articolo.titolo, lang: articolo.lang, stato: articolo.stato, data_pubblicazione: articolo.data_pubblicazione }, null, 2)}
+        </pre>
+        <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
+ID: {articolo.id}
+Slug: {articolo.slug}
+        </pre>
+      </details>
+
+      <section class="article-nav-section" aria-label="Navigazione">
+        <a href={locale === 'en' ? '/blog/en' : '/'} class="back-link">← {t(locale, 'back_to_home')}</a>
+      </section>
+    </div>
+    </main>
+    {hasInstagram && <script async src="https://www.instagram.com/embed.js" is:inline></script>}
+    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel: t(locale, 'read_also'), alternateArticleUrl, currentWpIdClean }}>
+      window.__BLOG_PAGE_DATA__ = { wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel, alternateArticleUrl, currentWpIdClean };
+    </script>
+    <script is:inline>
+      (function() {
+        var data = window.__BLOG_PAGE_DATA__;
+        if (!data) return;
+        var wpIdToSlugMap = data.wpIdToSlugMap || {};
+        var inContentRelatedMap = data.inContentRelatedMap || {};
+        var currentSlug = data.currentSlug;
+        var readAlsoLabel = data.readAlsoLabel || 'Leggi anche';
+        function getContainer() {
+          return document.querySelector('article') || document.querySelector('.prose') || document.body;
+        }
+        function getParagraphs(container) {
+          if (!container) return [];
+          return Array.from(container.children || []);
+        }
+        var readAlsoInserted = false;
+        function getSlugFromHref(href) {
+          if (!href) return null;
+          var wpMatch = href.match(/[?&]p=(\d+)/);
+          if (wpMatch && wpIdToSlugMap) {
+            var wpId = parseInt(wpMatch[1], 10);
+            return wpIdToSlugMap[wpId] || null;
+          }
+          try {
+            var url = new URL(href, window.location.origin);
+            var segments = url.pathname.split('/').filter(Boolean);
+            var blogIndex = segments.indexOf('blog');
+            if (blogIndex !== -1 && segments.length > blogIndex + 1) return segments.slice(blogIndex + 1).join('/');
+            if (segments.length > 0) return segments[segments.length - 1];
+          } catch (e) {}
+          return null;
+        }
+        function buildRelatedCard(slug, meta) {
+          var hrefFinal = meta.href || '/blog/' + slug;
+          var safeTitle = (meta.title || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+          var safeExcerpt = (meta.excerpt || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+          var article = document.createElement('article');
+          article.className = 'incontent-related-card';
+          article.innerHTML = '<a href="' + hrefFinal + '" class="incontent-related-link"><span class="incontent-related-label">' + readAlsoLabel + '</span><div class="incontent-related-image-wrapper"><img src="' + meta.image + '" alt="' + safeTitle + '" loading="lazy" onerror="this.onerror=null;this.src=\'/images/placeholder-copertina.svg\'" /></div><div class="incontent-related-content"><h4 class="incontent-related-title">' + safeTitle + '</h4>' + (safeExcerpt ? '<p class="incontent-related-excerpt">' + safeExcerpt + '</p>' : '') + '</div></a>';
+          return article;
+        }
+        function removeOldRelatedSections() {
+          var root = getContainer();
+          if (!root) return;
+          var oldSectionTitles = ['Articoli', 'Editoriale', 'Rubriche', 'Libri'];
+          var children = Array.from(root.children);
+          var lastThree = children.slice(-3);
+          root.querySelectorAll('h4').forEach(function(h4) {
+            // Bug 2 fix: rimuovi solo se l'h4 è tra gli ultimi 3 figli diretti del container
+            var isNearEnd = lastThree.includes(h4) || lastThree.some(function(el) { return el.contains(h4); });
+            if (!isNearEnd) return;
+            var text = (h4.textContent || '').trim();
+            if (oldSectionTitles.some(function(t) { return text === t || text.indexOf(t) !== -1 || text.endsWith(t); })) {
+              var next = h4.nextElementSibling;
+              while (next) {
+                var toRemove = next;
+                next = next.nextElementSibling;
+                toRemove.remove();
+              }
+              h4.remove();
+            }
+          });
+        }
+        function insertReadAlsoBox() {
+          if (readAlsoInserted || !inContentRelatedMap) return;
+          if (document.querySelector('.incontent-related-card')) return;
+          var container = getContainer();
+          if (!container) return;
+          var currentMeta = currentSlug ? inContentRelatedMap[currentSlug] : null;
+          var currentCategory = currentMeta && currentMeta.category ? currentMeta.category : null;
+          var allEntries = Object.entries(inContentRelatedMap);
+          var candidates = allEntries.filter(function(entry) {
+            var slug = entry[0], meta = entry[1];
+            if (slug === currentSlug) return false;
+            if (!meta || meta.isItalian === false) return false;
+            if (currentCategory && meta.category) return meta.category === currentCategory;
+            return true;
+          });
+          if (currentCategory && candidates.length === 0) {
+            candidates = allEntries.filter(function(entry) {
+              if (entry[0] === currentSlug) return false;
+              return !!entry[1] && entry[1].isItalian !== false;
+            });
+          }
+          if (!candidates.length) return;
+          var randomIndex = Math.floor(Math.random() * candidates.length);
+          var chosenSlug = candidates[randomIndex][0];
+          var box = document.createElement('div');
+          box.className = 'read-also-box';
+          box.dataset.slug = chosenSlug;
+          // Bug 3 fix: inserisci dopo il 3° paragrafo <p> diretto, non il 2° figlio generico
+          var paragraphs = Array.from(container.querySelectorAll(':scope > p'));
+          if (!paragraphs.length) return;
+          var insertAfter = paragraphs[2] || paragraphs[paragraphs.length - 1];
+          insertAfter.insertAdjacentElement('afterend', box);
+          readAlsoInserted = true;
+        }
+        function enhanceReadAlsoBoxes() {
+          if (!inContentRelatedMap) return;
+          var root = getContainer();
+          if (!root) return;
+          // Bug 1 fix: nascondi TUTTI i paragrafi che contengono "leggi anche" in qualsiasi posizione
+          root.querySelectorAll('p').forEach(function(p) {
+            if (/leggi\s+anche/i.test(p.textContent || '')) {
+              p.classList.add('legacy-read-also');
+            }
+          });
+          // Trasforma solo i .read-also-box in card (mai i <p>)
+          root.querySelectorAll('.read-also-box').forEach(function(box) {
+            var slug = box.dataset.slug || null;
+            if (!slug) {
+              box.querySelectorAll('a[href]').forEach(function(a) {
+                if (!slug) slug = getSlugFromHref(a.getAttribute('href'));
+              });
+            }
+            // Bug 4 fix: se slug non risolvibile o non in mappa, nascondi il box senza mostrare broken card
+            if (!slug) { box.style.display = 'none'; return; }
+            var meta = inContentRelatedMap[slug];
+            if (!meta || meta.isItalian === false) { box.style.display = 'none'; return; }
+            var card = buildRelatedCard(slug, meta);
+            box.innerHTML = '';
+            box.classList.add('incontent-related-container');
+            box.appendChild(card);
+          });
+        }
+        function runLeggiAnche() {
+          removeOldRelatedSections();
+          insertReadAlsoBox();
+          enhanceReadAlsoBoxes();
+        }
+        function scheduleLeggiAnche() {
+          readAlsoInserted = false;
+          runLeggiAnche();
+        }
+        function run() { scheduleLeggiAnche(); }
+        window.addEventListener('load', run);
+        document.addEventListener('astro:after-swap', run);
+        if (document.readyState === 'complete') run();
+        else setTimeout(run, 100);
+      })();
+    </script>
+    <script>
+      // Reading Progress Bar
+      const readingProgress = document.getElementById('reading-progress');
+      const articleContent = document.getElementById('article-content');
+      
+      function updateReadingProgress() {
+        if (!articleContent || !readingProgress) return;
+        
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollableHeight = documentHeight - windowHeight;
+        const progress = (scrollTop / scrollableHeight) * 100;
+        
+        readingProgress.style.width = Math.min(progress, 100) + '%';
+      }
+      
+      window.addEventListener('scroll', updateReadingProgress);
+      updateReadingProgress();
+
+      // Widget a comparsa dopo 50% scroll
+      const floatingWidget = document.getElementById('floating-widget');
+      const closeWidgetBtn = document.getElementById('close-widget');
+      let widgetShown = false;
+      let widgetClosed = false;
+      
+      function checkScrollForWidget() {
+        if (widgetClosed || widgetShown || !floatingWidget) return;
+        
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollableHeight = documentHeight - windowHeight;
+        const scrollPercent = (scrollTop / scrollableHeight) * 100;
+        
+        if (scrollPercent >= 50) {
+          floatingWidget.classList.add('visible');
+          widgetShown = true;
+        }
+      }
+      
+      if (closeWidgetBtn) {
+        closeWidgetBtn.addEventListener('click', () => {
+          if (floatingWidget) {
+            floatingWidget.classList.remove('visible');
+            widgetClosed = true;
+          }
+        });
+      }
+      
+      window.addEventListener('scroll', checkScrollForWidget);
+      
+      // Processa link WordPress e link esterni (targeting: article, .prose o body)
+      function processArticleLinks() {
+        const data = window.__BLOG_PAGE_DATA__;
+        const wpIdToSlugMap = (data && data.wpIdToSlugMap) || {};
+        const container = document.querySelector('article') || document.querySelector('.prose') || document.body;
+        if (!container) return;
+        const links = container.querySelectorAll('a[href]');
+        const currentDomain = window.location.hostname;
+        
+        links.forEach(link => {
+          let href = link.getAttribute('href');
+          if (!href) return;
+
+          const wpMatch = href.match(/[?&]p=(\d+)/);
+          if (wpMatch) {
+            const wpId = parseInt(wpMatch[1]);
+            const slug = wpIdToSlugMap[wpId];
+            if (slug) link.setAttribute('href', `/blog/${slug}`);
+          }
+
+          try {
+            const url = new URL(href, window.location.origin);
+            const isExternal = url.hostname !== currentDomain && 
+                              !url.hostname.includes(currentDomain) &&
+                              !href.startsWith('#') &&
+                              !href.startsWith('/') &&
+                              !href.startsWith('mailto:') &&
+                              !href.startsWith('tel:');
+            if (isExternal) {
+              link.setAttribute('target', '_blank');
+              link.setAttribute('rel', 'noopener noreferrer');
+            }
+          } catch (e) {}
+        });
+      }
+
+      window.addEventListener('load', processArticleLinks);
+      document.addEventListener('astro:after-swap', processArticleLinks);
+      if (document.readyState === 'complete') processArticleLinks();
+      else setTimeout(processArticleLinks, 200);
+
+      // Social sticky: si ferma sopra related-footer-section o footer
+      (function () {
+        function initSocialBound() {
+          const social = document.getElementById('social-sticky');
+          if (!social) return;
+          const stop = document.querySelector('.related-footer-section') || document.querySelector('footer');
+          if (!stop) return;
+
+          function adjust() {
+            const stopTop = stop.getBoundingClientRect().top;
+            const vh = window.innerHeight;
+            const sh = social.offsetHeight;
+            const gap = 16;
+
+            if (stopTop < vh) {
+              // il blocco stop è visibile: sposta la bar verso l'alto
+              const newTop = Math.max(gap, stopTop - sh - gap);
+              social.style.top = newTop + 'px';
+              social.style.transform = 'none';
+            } else {
+              social.style.top = '50%';
+              social.style.transform = 'translateY(-50%)';
+            }
+          }
+
+          window.addEventListener('scroll', adjust, { passive: true });
+          adjust();
+        }
+
+        document.addEventListener('astro:page-load', initSocialBound);
+        if (document.readyState !== 'loading') initSocialBound();
+      })();
+    </script>
+</BaseLayout>
+
     <style>
       /* Reading Progress Bar */
       .reading-progress {
@@ -1161,588 +1733,4 @@ const relatedArticles = (() => {
         }
       }
     </style>
-  </head>
-  <body>
-    <Header pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
-    <main class="site-main">
-    {/* Reading Progress Bar */}
-    <div class="reading-progress" id="reading-progress"></div>
-    
-    <div class="article-container">
-      {/* Breadcrumbs */}
-      <nav class="breadcrumbs">
-        <a href={locale === 'en' ? '/blog/en' : '/archivio'}>{t(locale, 'nav_archive')}</a>
-        {issueNumber && (
-          <>
-            {' > '}
-            <a href={issueLink}>Numero {issueNumber}</a>
-          </>
-        )}
-      </nav>
-
-      {/* Header Centrato - max-width: 900px */}
-      <header class="article-header-wrapper">
-        {/* Badge: [Numero] • [Forma] / [categoria_menu] – label cliccabili verso categorie */}
-        {!showPubblicatoOnline ? (
-          <nav class="article-category-badge" aria-label="Categoria e numero">
-            {issueLink && <a href={issueLink} class="article-badge-link">Numero {issueNumber}</a>}
-            {issueLink && (formaDisplay || categoryLink) && <span class="article-badge-sep"> • </span>}
-            {formaDisplay && <span class="article-badge-text">{formaDisplay}</span>}
-            {formaDisplay && categoryLink && <span class="article-badge-sep"> / </span>}
-            {categoryLink ? (
-              <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>
-            ) : (
-              <span class="article-badge-text">{categoryDisplay}</span>
-            )}
-          </nav>
-        ) : (
-          <div class="article-category-badge article-category-badge--online">
-            {categoryLink ? (
-              <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>
-            ) : (
-              t(locale, 'published_online')
-            )}
-          </div>
-        )}
-
-        <h1 class="article-title">{articleTitle}</h1>
-        
-        {/* Sottotitolo: usa il sottotitolo “vero” dal frontmatter, se presente */}
-        {explicitSubtitle && (
-          <div class="article-subtitle">
-            {explicitSubtitle}
-          </div>
-        )}
-        
-        {/* Metadati con foto autore */}
-        <div class="article-meta">
-          <div class="article-meta-item">
-            <img 
-              src={authorImagePath}
-              alt={autoreName}
-              class="article-meta-author-image"
-              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-              loading="lazy"
-            />
-            <div class="article-meta-author-placeholder" style="display: none;">
-              {autoreName.charAt(0).toUpperCase()}
-            </div>
-            <a href={`/autori/${authorSlug}`} class="author-link">{autoreName}</a>
-          </div>
-          <div class="article-meta-item">
-            {formatDateItalian(articleDate)}
-          </div>
-          <div class="article-meta-item">
-            {readingTime} {t(locale, 'min_read')}
-          </div>
-          {roleLabel && (
-            <div class="article-meta-item">
-              <span class={`article-badge-role${roleClassName}`}>{roleLabel}</span>
-            </div>
-          )}
-        </div>
-      </header>
-
-      {/* Fascia Hero Larga - 1100px centrata */}
-      <div class="article-hero-wrapper">
-        <div class="article-hero-image-wrapper">
-          <img 
-            src={articleImage} 
-            alt={articleTitle}
-            class="article-image"
-            loading="eager"
-            decoding="async"
-            fetchpriority="high"
-            data-copertina-fallback
-            onerror={COPERTINA_IMG_ONERROR}
-          />
-          {heroCaption && (
-            <div class="article-image-caption">
-              <img src="https://www.ombreeluci.it/wp-content/uploads/2023/10/icon-camera.png" alt="" class="caption-camera-icon" aria-hidden="true" />
-              {heroCaption}
-            </div>
-          )}
-        </div>
-      </div>
-
-      {/* Alert box per contenuti archivistici */}
-      {articleDate.getFullYear() < 2000 && (
-        <div class="article-header-wrapper">
-          <div class="archival-alert">
-            <strong>Contenuto d'archivio:</strong> Questo articolo del {articleDate.getFullYear()} riflette il linguaggio e le sensibilità del suo tempo.
-          </div>
-        </div>
-      )}
-      
-      {isTranslation && articleDate.getFullYear() < 2000 && (
-        <div class="article-header-wrapper">
-          <div class="archival-alert-en">
-            <strong>This archival content from {articleDate.getFullYear()} reflects the language and sensitivities of its time.</strong>
-          </div>
-        </div>
-      )}
-
-      {/* Social Sticky Bar */}
-      <div class="social-sticky" id="social-sticky">
-        <div class="social-sticky-inner">
-          <a 
-            href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-link facebook"
-            aria-label="Condividi su Facebook"
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-            </svg>
-          </a>
-          <a 
-            href={`https://twitter.com/intent/tweet?url=${Astro.url.href}&text=${encodeURIComponent(articleTitle)}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-link twitter"
-            aria-label="Condividi su X (Twitter)"
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-            </svg>
-          </a>
-          <a 
-            href={`https://wa.me/?text=${encodeURIComponent(articleTitle + ' ' + Astro.url.href)}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-link whatsapp"
-            aria-label="Condividi su WhatsApp"
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-            </svg>
-          </a>
-          <a 
-            href={`https://www.linkedin.com/sharing/share-offsite/?url=${Astro.url.href}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-link linkedin"
-            aria-label="Condividi su LinkedIn"
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-            </svg>
-          </a>
-          <a 
-            href={`mailto:?subject=${encodeURIComponent(articleTitle)}&body=${encodeURIComponent(Astro.url.href)}`}
-            class="social-link email"
-            aria-label="Invia via email"
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-            </svg>
-          </a>
-          <a 
-            href="#"
-            class="social-link copy-link"
-            aria-label="Copia link"
-            onclick={`event.preventDefault(); navigator.clipboard.writeText('${Astro.url.href}'); this.setAttribute('aria-label', 'Link copiato!'); setTimeout(() => this.setAttribute('aria-label', 'Copia link'), 2000); return false;`}
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      {/* Corpo del Testo - max-width: 750px */}
-      <div class="article-content-wrapper">
-        <div class="article-content" id="article-content">
-          {isJeanVanier && (
-            <aside class="vanier-alert" role="note">
-              <div>Avviso: inchieste promosse dall'Arca internazionale hanno accertato gravi responsabilità di padre Thomas Philippe (la prima nel 2015) e di Jean Vanier (2020) nei confronti di diverse donne. <a href="https://www.ombreeluci.it/2020/larca-internazionale-annuncia-i-risultati-dellindagine-indipendente/">Qui il comunicato più recente</a> che condanna senza riserve queste azioni «in totale contraddizione con i valori che Vanier sosteneva» e con «i principi fondamentali delle nostre comunità».</div>
-            </aside>
-          )}
-          <div set:html={corpoPart1} />
-          {leggiAncheArticolo && <LeggiAnche articolo={leggiAncheArticolo} />}
-          {corpoPart2 && <div set:html={corpoPart2} />}
-        </div>
-
-        {/* Bio Autore */}
-        <div class="author-bio-section">
-          <div class="author-bio-wrapper">
-            <div class="author-bio-avatar">
-              <img 
-                src={authorImagePath}
-                alt={autoreName}
-                class="author-bio-image"
-                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                loading="lazy"
-              />
-              <div class="author-bio-placeholder" style="display: none;">
-                {autoreName.charAt(0).toUpperCase()}
-              </div>
-            </div>
-            <div class="author-bio-content">
-              <h3 class="author-bio-name">
-                <a href={`/autori/${authorSlug}`} class="author-bio-link">
-                  {autoreName}
-                </a>
-              </h3>
-              <div class="author-bio-text">
-                {authorBio ? (
-                  <div set:html={authorBio} />
-                ) : (
-                  t(locale, 'author_bio_fallback')
-                )}
-              </div>
-              <p class="author-bio-total">
-                {t(locale, 'author_total_prefix')} <a href="/autori">{totalAutori} {t(locale, 'author_total')}</a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <EditorialFeedback
-          wpId={articolo.wp_id}
-          title={articleTitle}
-          currentRole={ruolo_editoriale}
-          url={Astro.url.href}
-          articoloId={articolo.id}
-        />
-      </div>
-
-      {/* Widget di navigazione: card standard, appare dopo scroll */}
-      <div class="floating-widget" id="floating-widget">
-        <button class="close-btn" id="close-widget" aria-label={t(locale, 'widget_close')}>×</button>
-        <h4>{t(locale, 'widget_navigate')}</h4>
-        {pdfUrl ? (
-          <a href={pdfUrl} target="_blank" rel="noopener noreferrer" class="widget-link">{t(locale, 'widget_download_pdf')}</a>
-        ) : null}
-        {issueLink ? <a href={issueLink} class="widget-link">{t(locale, 'widget_go_to_issue')}</a> : null}
-        <a href={locale === 'en' ? '/blog/en' : '/archivio'} class="widget-link">{t(locale, 'nav_archive')}</a>
-      </div>
-
-
-{/* Articoli correlati in calce (full-width, griglia ArticleCard) */}
-      {relatedArticles.length > 0 && (
-        <section class="related-footer-section" aria-label={locale === 'en' ? 'Related articles' : 'Articoli correlati'}>
-          <div class="related-footer-inner">
-            <h2 class="related-footer-title">
-              {locale === 'en' ? 'Related articles' : 'Articoli correlati'}
-            </h2>
-            <div class="related-footer-grid">
-              {relatedArticles.map((rel) => (
-                <ArticleCard
-                  title={rel.title}
-                  author={rel.author}
-                  date={rel.date}
-                  issue={rel.issue}
-                  slug={rel.slug}
-                  image={rel.image}
-                  categoriaMenu={rel.categoriaMenu}
-                  forma={rel.forma}
-                  ruoloEditoriale={rel.ruoloEditoriale}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {articolo.has_comments && (
-        <div class="comments-section">
-          -- Qui appariranno i commenti di Trikkia --
-        </div>
-      )}
-
-      {/* Debug: mostra i dati dell'articolo */}
-      <details class="debug-section" hidden>
-        <summary style="cursor: pointer; color: var(--text-secondary); font-size: 0.85rem; margin-top: 2rem; padding: 0.5rem;">
-          🔍 Debug: Dati articolo
-        </summary>
-        <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
-{JSON.stringify({ id: articolo.id, wp_id: articolo.wp_id, slug: articolo.slug, titolo: articolo.titolo, lang: articolo.lang, stato: articolo.stato, data_pubblicazione: articolo.data_pubblicazione }, null, 2)}
-        </pre>
-        <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
-ID: {articolo.id}
-Slug: {articolo.slug}
-        </pre>
-      </details>
-
-      <section class="article-nav-section" aria-label="Navigazione">
-        <a href={locale === 'en' ? '/blog/en' : '/'} class="back-link">← {t(locale, 'back_to_home')}</a>
-      </section>
-    </div>
-    </main>
-    <Footer pathname={pathname} />
-    {hasInstagram && <script async src="https://www.instagram.com/embed.js" is:inline></script>}
-    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel: t(locale, 'read_also'), alternateArticleUrl, currentWpIdClean }}>
-      window.__BLOG_PAGE_DATA__ = { wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel, alternateArticleUrl, currentWpIdClean };
-    </script>
-    <script is:inline>
-      (function() {
-        var data = window.__BLOG_PAGE_DATA__;
-        if (!data) return;
-        var wpIdToSlugMap = data.wpIdToSlugMap || {};
-        var inContentRelatedMap = data.inContentRelatedMap || {};
-        var currentSlug = data.currentSlug;
-        var readAlsoLabel = data.readAlsoLabel || 'Leggi anche';
-        function getContainer() {
-          return document.querySelector('article') || document.querySelector('.prose') || document.body;
-        }
-        function getParagraphs(container) {
-          if (!container) return [];
-          return Array.from(container.children || []);
-        }
-        var readAlsoInserted = false;
-        function getSlugFromHref(href) {
-          if (!href) return null;
-          var wpMatch = href.match(/[?&]p=(\d+)/);
-          if (wpMatch && wpIdToSlugMap) {
-            var wpId = parseInt(wpMatch[1], 10);
-            return wpIdToSlugMap[wpId] || null;
-          }
-          try {
-            var url = new URL(href, window.location.origin);
-            var segments = url.pathname.split('/').filter(Boolean);
-            var blogIndex = segments.indexOf('blog');
-            if (blogIndex !== -1 && segments.length > blogIndex + 1) return segments.slice(blogIndex + 1).join('/');
-            if (segments.length > 0) return segments[segments.length - 1];
-          } catch (e) {}
-          return null;
-        }
-        function buildRelatedCard(slug, meta) {
-          var hrefFinal = meta.href || '/blog/' + slug;
-          var safeTitle = (meta.title || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
-          var safeExcerpt = (meta.excerpt || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
-          var article = document.createElement('article');
-          article.className = 'incontent-related-card';
-          article.innerHTML = '<a href="' + hrefFinal + '" class="incontent-related-link"><span class="incontent-related-label">' + readAlsoLabel + '</span><div class="incontent-related-image-wrapper"><img src="' + meta.image + '" alt="' + safeTitle + '" loading="lazy" onerror="this.onerror=null;this.src=\'/images/placeholder-copertina.svg\'" /></div><div class="incontent-related-content"><h4 class="incontent-related-title">' + safeTitle + '</h4>' + (safeExcerpt ? '<p class="incontent-related-excerpt">' + safeExcerpt + '</p>' : '') + '</div></a>';
-          return article;
-        }
-        function removeOldRelatedSections() {
-          var root = getContainer();
-          if (!root) return;
-          var oldSectionTitles = ['Articoli', 'Editoriale', 'Rubriche', 'Libri'];
-          var children = Array.from(root.children);
-          var lastThree = children.slice(-3);
-          root.querySelectorAll('h4').forEach(function(h4) {
-            // Bug 2 fix: rimuovi solo se l'h4 è tra gli ultimi 3 figli diretti del container
-            var isNearEnd = lastThree.includes(h4) || lastThree.some(function(el) { return el.contains(h4); });
-            if (!isNearEnd) return;
-            var text = (h4.textContent || '').trim();
-            if (oldSectionTitles.some(function(t) { return text === t || text.indexOf(t) !== -1 || text.endsWith(t); })) {
-              var next = h4.nextElementSibling;
-              while (next) {
-                var toRemove = next;
-                next = next.nextElementSibling;
-                toRemove.remove();
-              }
-              h4.remove();
-            }
-          });
-        }
-        function insertReadAlsoBox() {
-          if (readAlsoInserted || !inContentRelatedMap) return;
-          if (document.querySelector('.incontent-related-card')) return;
-          var container = getContainer();
-          if (!container) return;
-          var currentMeta = currentSlug ? inContentRelatedMap[currentSlug] : null;
-          var currentCategory = currentMeta && currentMeta.category ? currentMeta.category : null;
-          var allEntries = Object.entries(inContentRelatedMap);
-          var candidates = allEntries.filter(function(entry) {
-            var slug = entry[0], meta = entry[1];
-            if (slug === currentSlug) return false;
-            if (!meta || meta.isItalian === false) return false;
-            if (currentCategory && meta.category) return meta.category === currentCategory;
-            return true;
-          });
-          if (currentCategory && candidates.length === 0) {
-            candidates = allEntries.filter(function(entry) {
-              if (entry[0] === currentSlug) return false;
-              return !!entry[1] && entry[1].isItalian !== false;
-            });
-          }
-          if (!candidates.length) return;
-          var randomIndex = Math.floor(Math.random() * candidates.length);
-          var chosenSlug = candidates[randomIndex][0];
-          var box = document.createElement('div');
-          box.className = 'read-also-box';
-          box.dataset.slug = chosenSlug;
-          // Bug 3 fix: inserisci dopo il 3° paragrafo <p> diretto, non il 2° figlio generico
-          var paragraphs = Array.from(container.querySelectorAll(':scope > p'));
-          if (!paragraphs.length) return;
-          var insertAfter = paragraphs[2] || paragraphs[paragraphs.length - 1];
-          insertAfter.insertAdjacentElement('afterend', box);
-          readAlsoInserted = true;
-        }
-        function enhanceReadAlsoBoxes() {
-          if (!inContentRelatedMap) return;
-          var root = getContainer();
-          if (!root) return;
-          // Bug 1 fix: nascondi TUTTI i paragrafi che contengono "leggi anche" in qualsiasi posizione
-          root.querySelectorAll('p').forEach(function(p) {
-            if (/leggi\s+anche/i.test(p.textContent || '')) {
-              p.classList.add('legacy-read-also');
-            }
-          });
-          // Trasforma solo i .read-also-box in card (mai i <p>)
-          root.querySelectorAll('.read-also-box').forEach(function(box) {
-            var slug = box.dataset.slug || null;
-            if (!slug) {
-              box.querySelectorAll('a[href]').forEach(function(a) {
-                if (!slug) slug = getSlugFromHref(a.getAttribute('href'));
-              });
-            }
-            // Bug 4 fix: se slug non risolvibile o non in mappa, nascondi il box senza mostrare broken card
-            if (!slug) { box.style.display = 'none'; return; }
-            var meta = inContentRelatedMap[slug];
-            if (!meta || meta.isItalian === false) { box.style.display = 'none'; return; }
-            var card = buildRelatedCard(slug, meta);
-            box.innerHTML = '';
-            box.classList.add('incontent-related-container');
-            box.appendChild(card);
-          });
-        }
-        function runLeggiAnche() {
-          removeOldRelatedSections();
-          insertReadAlsoBox();
-          enhanceReadAlsoBoxes();
-        }
-        function scheduleLeggiAnche() {
-          readAlsoInserted = false;
-          runLeggiAnche();
-        }
-        function run() { scheduleLeggiAnche(); }
-        window.addEventListener('load', run);
-        document.addEventListener('astro:after-swap', run);
-        if (document.readyState === 'complete') run();
-        else setTimeout(run, 100);
-      })();
-    </script>
-    <script>
-      // Reading Progress Bar
-      const readingProgress = document.getElementById('reading-progress');
-      const articleContent = document.getElementById('article-content');
-      
-      function updateReadingProgress() {
-        if (!articleContent || !readingProgress) return;
-        
-        const windowHeight = window.innerHeight;
-        const documentHeight = document.documentElement.scrollHeight;
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const scrollableHeight = documentHeight - windowHeight;
-        const progress = (scrollTop / scrollableHeight) * 100;
-        
-        readingProgress.style.width = Math.min(progress, 100) + '%';
-      }
-      
-      window.addEventListener('scroll', updateReadingProgress);
-      updateReadingProgress();
-
-      // Widget a comparsa dopo 50% scroll
-      const floatingWidget = document.getElementById('floating-widget');
-      const closeWidgetBtn = document.getElementById('close-widget');
-      let widgetShown = false;
-      let widgetClosed = false;
-      
-      function checkScrollForWidget() {
-        if (widgetClosed || widgetShown || !floatingWidget) return;
-        
-        const windowHeight = window.innerHeight;
-        const documentHeight = document.documentElement.scrollHeight;
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const scrollableHeight = documentHeight - windowHeight;
-        const scrollPercent = (scrollTop / scrollableHeight) * 100;
-        
-        if (scrollPercent >= 50) {
-          floatingWidget.classList.add('visible');
-          widgetShown = true;
-        }
-      }
-      
-      if (closeWidgetBtn) {
-        closeWidgetBtn.addEventListener('click', () => {
-          if (floatingWidget) {
-            floatingWidget.classList.remove('visible');
-            widgetClosed = true;
-          }
-        });
-      }
-      
-      window.addEventListener('scroll', checkScrollForWidget);
-      
-      // Processa link WordPress e link esterni (targeting: article, .prose o body)
-      function processArticleLinks() {
-        const data = window.__BLOG_PAGE_DATA__;
-        const wpIdToSlugMap = (data && data.wpIdToSlugMap) || {};
-        const container = document.querySelector('article') || document.querySelector('.prose') || document.body;
-        if (!container) return;
-        const links = container.querySelectorAll('a[href]');
-        const currentDomain = window.location.hostname;
-        
-        links.forEach(link => {
-          let href = link.getAttribute('href');
-          if (!href) return;
-
-          const wpMatch = href.match(/[?&]p=(\d+)/);
-          if (wpMatch) {
-            const wpId = parseInt(wpMatch[1]);
-            const slug = wpIdToSlugMap[wpId];
-            if (slug) link.setAttribute('href', `/blog/${slug}`);
-          }
-
-          try {
-            const url = new URL(href, window.location.origin);
-            const isExternal = url.hostname !== currentDomain && 
-                              !url.hostname.includes(currentDomain) &&
-                              !href.startsWith('#') &&
-                              !href.startsWith('/') &&
-                              !href.startsWith('mailto:') &&
-                              !href.startsWith('tel:');
-            if (isExternal) {
-              link.setAttribute('target', '_blank');
-              link.setAttribute('rel', 'noopener noreferrer');
-            }
-          } catch (e) {}
-        });
-      }
-
-      window.addEventListener('load', processArticleLinks);
-      document.addEventListener('astro:after-swap', processArticleLinks);
-      if (document.readyState === 'complete') processArticleLinks();
-      else setTimeout(processArticleLinks, 200);
-
-      // Social sticky: si ferma sopra related-footer-section o footer
-      (function () {
-        function initSocialBound() {
-          const social = document.getElementById('social-sticky');
-          if (!social) return;
-          const stop = document.querySelector('.related-footer-section') || document.querySelector('footer');
-          if (!stop) return;
-
-          function adjust() {
-            const stopTop = stop.getBoundingClientRect().top;
-            const vh = window.innerHeight;
-            const sh = social.offsetHeight;
-            const gap = 16;
-
-            if (stopTop < vh) {
-              // il blocco stop è visibile: sposta la bar verso l'alto
-              const newTop = Math.max(gap, stopTop - sh - gap);
-              social.style.top = newTop + 'px';
-              social.style.transform = 'none';
-            } else {
-              social.style.top = '50%';
-              social.style.transform = 'translateY(-50%)';
-            }
-          }
-
-          window.addEventListener('scroll', adjust, { passive: true });
-          adjust();
-        }
-
-        document.addEventListener('astro:page-load', initSocialBound);
-        if (document.readyState !== 'loading') initSocialBound();
-      })();
-    </script>
-  </body>
-</html>
 

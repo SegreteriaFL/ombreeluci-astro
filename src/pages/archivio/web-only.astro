@@ -1,9 +1,6 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
 
@@ -19,104 +16,11 @@ const articoliWebOnly = allArticles
   });
 ---
 
-<html lang="it">
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <ViewTransitions />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pubblicato online - Archivio Ombre e Luci</title>
-    <meta name="description" content="Articoli pubblicati solo online su Ombre e Luci." />
-    <style>
-      .issue-container {
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 2rem 1.5rem;
-      }
-
-      .archivio-header {
-        margin-bottom: 3rem;
-      }
-
-      .archivio-title {
-        font-size: 2.5rem;
-        font-weight: 700;
-        line-height: 1.2;
-        color: var(--text-color);
-        margin-bottom: 0.5rem;
-      }
-
-      .archivio-subtitle {
-        font-size: 1.125rem;
-        color: var(--text-secondary);
-      }
-
-      .articles-section {
-        margin-top: 0;
-      }
-
-      .articles-header {
-        margin-bottom: 2rem;
-      }
-
-      .articles-title {
-        font-size: 2rem;
-        font-weight: 700;
-        color: var(--text-color);
-        margin-bottom: 0.5rem;
-      }
-
-      .articles-count {
-        font-size: 1rem;
-        color: var(--text-secondary);
-      }
-
-      .articles-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 32px;
-      }
-
-      .no-articles {
-        text-align: center;
-        padding: 4rem 2rem;
-        color: var(--text-secondary);
-        background: #fff;
-        border-radius: 8px;
-      }
-
-      .no-articles-title {
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-        color: var(--text-color);
-      }
-
-      @media (max-width: 1024px) {
-        .articles-grid {
-          grid-template-columns: repeat(2, 1fr);
-          gap: 32px;
-        }
-      }
-
-      @media (max-width: 768px) {
-        .issue-container {
-          padding: 1.5rem 1rem;
-        }
-
-        .archivio-title {
-          font-size: 2rem;
-        }
-
-        .articles-grid {
-          grid-template-columns: 1fr;
-          gap: 32px;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <Header />
+<BaseLayout
+  title={"Articoli solo online"}
+  description={"Articoli pubblicati solo online su Ombre e Luci."}
+  noindex={true}
+>
     <main class="site-main">
     <div class="issue-container">
       <div class="archivio-header">
@@ -164,6 +68,4 @@ const articoliWebOnly = allArticles
       </section>
     </div>
     </main>
-    <Footer />
-  </body>
-</html>
+</BaseLayout>

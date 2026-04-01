@@ -1,11 +1,9 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
 /**
  * Home – Redesign v2 (2026-03-31)
  * 5 sezioni: Hero · Da vicino · Esplora · La rivista · Unisciti
  */
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import IssueCard from '../components/IssueCard.astro';
 import {
   getMegaclusterForArticle,
@@ -15,7 +13,6 @@ import {
 } from '../config/taxonomy.js';
 import { DIARISTI } from '../data/diari.js';
 import numeriData from '../data/numeri_consolidati.json';
-import '../styles/global.css';
 import {
   getAllArticoli,
   getAllAutori,
@@ -167,15 +164,369 @@ const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
 }).filter((x): x is NonNullable<typeof x> => x !== null);
 ---
 
-<html lang="it">
-  <head>
-    <meta name="robots" content="noindex, nofollow" /><!-- TODO rimuovere prima del cutover -->
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ombre e Luci – Un nuovo sguardo attraverso la disabilità</title>
-    <meta name="description" content="Ombre e Luci: storie, riflessioni e cultura sulla fragilità e sulla dignità della persona. Dal 1983." />
-    <ViewTransitions />
+
+<BaseLayout
+  title="Ombre e Luci – Un nuovo sguardo attraverso la disabilità"
+  description="Ombre e Luci: storie, riflessioni e cultura sulla fragilità e sulla dignità della persona. Dal 1983."
+  noindex={true}
+  bodyClass="home-page"
+>
+    <main class="site-main home-page">
+
+      <!-- ══════════════════════════════════════════════════════════
+           1. HERO
+           ══════════════════════════════════════════════════════════ -->
+      <section class="home-hero-section">
+        <div class="home-container">
+          <div class="home-hero-grid">
+
+            <!-- Colonna sinistra: tagline + featured rotante -->
+            <div>
+              <p class="home-tagline">Un nuovo sguardo<br>attraverso la disabilità.</p>
+
+              <div id="hero-pool">
+                {featuredPool.map((meta, i) => (
+                  <article
+                    data-hero-candidate
+                    style={i > 0 ? 'display:none' : ''}
+                  >
+                    <a href={`/blog/${meta.slug}`}>
+                      <figure class="home-featured-figure">
+                        <img
+                          src={meta.image || PLACEHOLDER_COPERTINA}
+                          alt=""
+                          loading="eager"
+                          width="800" height="450"
+                          data-copertina-fallback
+                          onerror={COPERTINA_IMG_ONERROR}
+                        />
+                      </figure>
+                      <p class="home-cat">{meta.categoria_menu || 'Online'}</p>
+                      <h2 class="home-featured-title">{meta.title}</h2>
+                      {meta.sommario && <p class="home-featured-deck">{meta.sommario}</p>}
+                      <p class="home-byline">
+                        Di <strong>{meta.author}</strong> · {formatDateItalian(meta.date)}
+                      </p>
+                    </a>
+                  </article>
+                ))}
+              </div>
+            </div>
+
+            <!-- Colonna destra: recenti -->
+            <aside class="home-recenti">
+              <h2 class="section-title">Recenti</h2>
+              {latestArticles.map((meta) => (
+                <a href={`/blog/${meta.slug}`} class="home-recenti-item">
+                  <div class="home-recenti-thumb">
+                    <img
+                      src={meta.image || PLACEHOLDER_COPERTINA}
+                      alt=""
+                      loading="lazy"
+                      data-copertina-fallback
+                      onerror={COPERTINA_IMG_ONERROR}
+                    />
+                  </div>
+                  <div>
+                    <p class="home-cat-small">{meta.categoria_menu || 'Online'}</p>
+                    <h3 class="home-recenti-title">{meta.title}</h3>
+                    <p class="home-byline-small">Di {meta.author}</p>
+                  </div>
+                </a>
+              ))}
+            </aside>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════════
+           2. DA VICINO
+           ══════════════════════════════════════════════════════════ -->
+      <section class="home-davicino-section" aria-label="Da vicino">
+        <div class="home-container">
+
+          <div class="home-section-intro">
+            <h2 class="home-section-heading">Da vicino</h2>
+            <p class="home-section-sub">
+              I diari di chi vive questa realtà e le storie di chi,
+              stando accanto, ha visto qualcosa cambiare.
+            </p>
+          </div>
+
+          <div class="home-davicino-grid">
+
+            <!-- Diari: griglia 2×2 card -->
+            <div class="home-diari-col">
+              <div class="home-diari-grid">
+                {latestPerDiario.map(({ diarista, meta }) => {
+                  const fotoUrl = autoriById[diarista.authorSlug]?.foto_url || '';
+                  return (
+                    <a href={`/blog/${meta.slug}`} class="home-diario-card">
+                      <div class="home-diario-avatar">
+                        {fotoUrl
+                          ? <img src={fotoUrl} alt={diarista.nome} loading="lazy" />
+                          : <div class="home-diario-avatar-placeholder">{diarista.nome.charAt(0)}</div>
+                        }
+                      </div>
+                      <p class="home-diario-nome">{diarista.nome}</p>
+                      <h3 class="home-diario-titolo">{meta.title}</h3>
+                      <p class="home-diario-date">{formatDateRelative(meta.date)}</p>
+                    </a>
+                  );
+                })}
+              </div>
+              <a href="/sezioni/diari" class="home-link-more">Tutti i diari →</a>
+            </div>
+
+            <!-- Testimonianze + CTA -->
+            <div class="home-testi-col">
+              {testimonianze.map((meta) => (
+                <a href={`/blog/${meta.slug}`} class="home-testi-item">
+                  {meta.image && (
+                    <div class="home-testi-img">
+                      <img
+                        src={meta.image}
+                        alt=""
+                        loading="lazy"
+                        data-copertina-fallback
+                        onerror={COPERTINA_IMG_ONERROR}
+                      />
+                    </div>
+                  )}
+                  <div class="home-testi-body">
+                    <p class="home-cat">Testimonianza</p>
+                    <h3 class="home-testi-title">{meta.title}</h3>
+                    <p class="home-byline-small">Di {meta.author} · {formatDateItalian(meta.date)}</p>
+                  </div>
+                </a>
+              ))}
+              <div class="home-testi-cta">
+                <p>Hai vissuto qualcosa che vale la pena raccontare?</p>
+                <a href="mailto:ombreeluci@fedeeluce.it" class="home-testi-cta-link">Scrivici →</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════════
+           3. ESPLORA
+           ══════════════════════════════════════════════════════════ -->
+      <section class="home-esplora-section" aria-label="Esplora i temi">
+        <div class="home-container">
+          <div class="home-section-intro">
+            <h2 class="home-section-heading">Esplora</h2>
+            <p class="home-section-sub">Quarant'anni di storie, riflessioni e incontri.</p>
+          </div>
+          <div class="home-esplora-grid">
+            {exploreItems.map(({ catLabel, slug, meta }) => (
+              <a href={`/categoria/${slug}`} class="home-esplora-card">
+                <div class="home-esplora-img">
+                  <img
+                    src={meta.image || PLACEHOLDER_COPERTINA}
+                    alt=""
+                    loading="lazy"
+                    data-copertina-fallback
+                    onerror={COPERTINA_IMG_ONERROR}
+                  />
+                </div>
+                <div class="home-esplora-body">
+                  <p class="home-esplora-cat">{catLabel}</p>
+                  <h3 class="home-esplora-title">{meta.title}</h3>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════════
+           4. LA RIVISTA
+           ══════════════════════════════════════════════════════════ -->
+      <section class="home-rivista-section" aria-label="La rivista">
+        <div class="home-container">
+          {ultimoNumero && (
+            <div class="home-ultimo-numero">
+              <div>
+                <p class="home-rivista-eyebrow">La rivista · esce ogni tre mesi dal 1983</p>
+                <div class="home-rivista-riga" aria-hidden="true" />
+                <p class="home-rivista-meta">
+                  {ultimoNumero.periodo_label ?? ultimoNumero.anno_pubblicazione} · n.{ultimoNumero.numero_progressivo}
+                </p>
+                <h3 class="home-rivista-titolo">
+                  {ultimoNumero.titolo_numero ?? `Ombre e Luci n. ${ultimoNumero.numero_progressivo}`}
+                </h3>
+                {(ultimoNumero.sommario_lancio ?? ultimoNumero.seo_description) && (
+                  <p class="home-rivista-sommario">
+                    {((ultimoNumero.sommario_lancio ?? ultimoNumero.seo_description ?? '') as string).slice(0, 220)}
+                    {((ultimoNumero.sommario_lancio ?? ultimoNumero.seo_description ?? '') as string).length > 220 ? '…' : ''}
+                  </p>
+                )}
+                <div class="home-rivista-actions">
+                  <a href={issueSlug ? `/archivio/${issueSlug}` : '/archivio'} class="home-rivista-cta">
+                    Scopri il numero →
+                  </a>
+                  <a href="/archivio" class="home-rivista-link">Archivio completo</a>
+                </div>
+              </div>
+              <div class="home-rivista-cover-col">
+                {ultimoNumero.copertina_url ? (
+                  <a href={issueSlug ? `/archivio/${issueSlug}` : '/archivio'}>
+                    <img
+                      src={ultimoNumero.copertina_url}
+                      alt=""
+                      loading="lazy"
+                      width="240"
+                      class="home-rivista-cover"
+                    />
+                  </a>
+                ) : null}
+              </div>
+            </div>
+          )}
+        </div>
+
+        <!-- Carousel su striscia bianca separata -->
+        {numeriPerCarousel.length > 0 && (
+          <div class="home-archivio-strip">
+            <div class="home-container">
+              <h3 class="section-title">Tutti i numeri</h3>
+              <div class="home-carousel-wrap">
+                <button type="button" class="home-carousel-btn home-carousel-prev" aria-label="Precedenti">
+                  <svg width="14" height="14" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                    <path d="M8 2 L4 6 L8 10"/>
+                  </svg>
+                </button>
+                <div class="home-carousel-track-wrap">
+                  <div class="home-carousel-track" id="home-carousel-track">
+                    {numeriPerCarousel.map((n) => (
+                      <div class="home-carousel-item">
+                        <IssueCard
+                          cover_url={n.copertina_url ?? undefined}
+                          titolo_numero={n.titolo_numero ?? n.display_title ?? `Ombre e Luci n. ${n.numero_progressivo}`}
+                          numero={n.numero_progressivo ?? 0}
+                          anno={n.anno_pubblicazione ?? 0}
+                          periodo_label={n.periodo_label ?? undefined}
+                          tipo_rivista={n.tipo_rivista ?? 'ombre_e_luci'}
+                          id_numero={n.id_numero ?? ''}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <button type="button" class="home-carousel-btn home-carousel-next" aria-label="Successivi">
+                  <svg width="14" height="14" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                    <path d="M4 2 L8 6 L4 10"/>
+                  </svg>
+                </button>
+              </div>
+              <p style="margin-top: 0.75rem;">
+                <a href="/archivio" class="home-link-more">Tutti i numeri in archivio →</a>
+              </p>
+            </div>
+          </div>
+        )}
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════════
+           5. UNISCITI
+           ══════════════════════════════════════════════════════════ -->
+      <section class="home-unisciti-section" aria-label="Unisciti">
+        <div class="home-container">
+          <div class="home-section-intro">
+            <h2 class="home-section-heading">Unisciti</h2>
+            <p class="home-section-sub">Ombre e Luci esiste grazie a chi ci crede. Ci sono molti modi per esserci.</p>
+          </div>
+          <div class="home-unisciti-grid">
+
+            <div class="home-unisciti-card">
+              <div class="home-unisciti-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+              </div>
+              <h3 class="home-unisciti-title">Sostieni la rivista</h3>
+              <p class="home-unisciti-text">
+                Una donazione, anche piccola e ricorrente, permette a Ombre e Luci
+                di continuare a pubblicare storie che contano.
+              </p>
+              <a href="/sostienici" class="home-unisciti-btn">Scopri come →</a>
+            </div>
+
+            <div class="home-unisciti-card">
+              <div class="home-unisciti-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                </svg>
+              </div>
+              <h3 class="home-unisciti-title">Racconta la tua storia</h3>
+              <p class="home-unisciti-text">
+                Hai vissuto qualcosa che vale la pena condividere?
+                Le storie più vere arrivano da chi le ha vissute.
+              </p>
+              <a href="mailto:ombreeluci@fedeeluce.it" class="home-unisciti-btn">Scrivici →</a>
+            </div>
+
+            <div class="home-unisciti-card">
+              <div class="home-unisciti-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <h3 class="home-unisciti-title">Dai una mano</h3>
+              <p class="home-unisciti-text">
+                Vuoi collaborare, fare volontariato o contribuire
+                in un altro modo? Siamo sempre aperti.
+              </p>
+              <a href="/chi-siamo/contatti" class="home-unisciti-btn">Contattaci →</a>
+            </div>
+
+          </div>
+          <p class="home-newsletter-row">
+            Resta in contatto:
+            <a
+              href="https://ombreeluci.us17.list-manage.com/subscribe?u=00c5dad63480d9601563b5692&id=efd099264d"
+              target="_blank"
+              rel="noopener noreferrer"
+            >iscriviti alla newsletter</a>
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+
+    <script>
+      // Rotazione featured ad ogni caricamento
+      (function () {
+        const candidates = document.querySelectorAll<HTMLElement>('[data-hero-candidate]');
+        if (candidates.length > 1) {
+          const idx = Math.floor(Math.random() * candidates.length);
+          candidates.forEach((c, i) => { c.style.display = i === idx ? '' : 'none'; });
+        }
+      })();
+
+      // Carousel archivio
+      (function () {
+        const track = document.getElementById('home-carousel-track');
+        const prev = document.querySelector<HTMLElement>('.home-carousel-prev');
+        const next = document.querySelector<HTMLElement>('.home-carousel-next');
+        if (!track || !prev || !next) return;
+        const scroll = (180 + 20) * 2;
+        prev.addEventListener('click', () => track.scrollBy({ left: -scroll, behavior: 'smooth' }));
+        next.addEventListener('click', () => track.scrollBy({ left: scroll, behavior: 'smooth' }));
+        let iv = setInterval(() => track.scrollBy({ left: scroll, behavior: 'smooth' }), 4000);
+        const stop = () => clearInterval(iv);
+        track.addEventListener('mouseenter', stop);
+        track.addEventListener('touchstart', stop, { passive: true });
+      })();
+    </script>
+
+  </body>
+</BaseLayout>
+
     <style is:global>
 
       .home-page { background: var(--bg-color); }
@@ -848,363 +1199,4 @@ const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
       }
 
     </style>
-  </head>
 
-  <body>
-    <Header />
-    <main class="site-main home-page">
-
-      <!-- ══════════════════════════════════════════════════════════
-           1. HERO
-           ══════════════════════════════════════════════════════════ -->
-      <section class="home-hero-section">
-        <div class="home-container">
-          <div class="home-hero-grid">
-
-            <!-- Colonna sinistra: tagline + featured rotante -->
-            <div>
-              <p class="home-tagline">Un nuovo sguardo<br>attraverso la disabilità.</p>
-
-              <div id="hero-pool">
-                {featuredPool.map((meta, i) => (
-                  <article
-                    data-hero-candidate
-                    style={i > 0 ? 'display:none' : ''}
-                  >
-                    <a href={`/blog/${meta.slug}`}>
-                      <figure class="home-featured-figure">
-                        <img
-                          src={meta.image || PLACEHOLDER_COPERTINA}
-                          alt=""
-                          loading="eager"
-                          width="800" height="450"
-                          data-copertina-fallback
-                          onerror={COPERTINA_IMG_ONERROR}
-                        />
-                      </figure>
-                      <p class="home-cat">{meta.categoria_menu || 'Online'}</p>
-                      <h2 class="home-featured-title">{meta.title}</h2>
-                      {meta.sommario && <p class="home-featured-deck">{meta.sommario}</p>}
-                      <p class="home-byline">
-                        Di <strong>{meta.author}</strong> · {formatDateItalian(meta.date)}
-                      </p>
-                    </a>
-                  </article>
-                ))}
-              </div>
-            </div>
-
-            <!-- Colonna destra: recenti -->
-            <aside class="home-recenti">
-              <h2 class="section-title">Recenti</h2>
-              {latestArticles.map((meta) => (
-                <a href={`/blog/${meta.slug}`} class="home-recenti-item">
-                  <div class="home-recenti-thumb">
-                    <img
-                      src={meta.image || PLACEHOLDER_COPERTINA}
-                      alt=""
-                      loading="lazy"
-                      data-copertina-fallback
-                      onerror={COPERTINA_IMG_ONERROR}
-                    />
-                  </div>
-                  <div>
-                    <p class="home-cat-small">{meta.categoria_menu || 'Online'}</p>
-                    <h3 class="home-recenti-title">{meta.title}</h3>
-                    <p class="home-byline-small">Di {meta.author}</p>
-                  </div>
-                </a>
-              ))}
-            </aside>
-
-          </div>
-        </div>
-      </section>
-
-      <!-- ══════════════════════════════════════════════════════════
-           2. DA VICINO
-           ══════════════════════════════════════════════════════════ -->
-      <section class="home-davicino-section" aria-label="Da vicino">
-        <div class="home-container">
-
-          <div class="home-section-intro">
-            <h2 class="home-section-heading">Da vicino</h2>
-            <p class="home-section-sub">
-              I diari di chi vive questa realtà e le storie di chi,
-              stando accanto, ha visto qualcosa cambiare.
-            </p>
-          </div>
-
-          <div class="home-davicino-grid">
-
-            <!-- Diari: griglia 2×2 card -->
-            <div class="home-diari-col">
-              <div class="home-diari-grid">
-                {latestPerDiario.map(({ diarista, meta }) => {
-                  const fotoUrl = autoriById[diarista.authorSlug]?.foto_url || '';
-                  return (
-                    <a href={`/blog/${meta.slug}`} class="home-diario-card">
-                      <div class="home-diario-avatar">
-                        {fotoUrl
-                          ? <img src={fotoUrl} alt={diarista.nome} loading="lazy" />
-                          : <div class="home-diario-avatar-placeholder">{diarista.nome.charAt(0)}</div>
-                        }
-                      </div>
-                      <p class="home-diario-nome">{diarista.nome}</p>
-                      <h3 class="home-diario-titolo">{meta.title}</h3>
-                      <p class="home-diario-date">{formatDateRelative(meta.date)}</p>
-                    </a>
-                  );
-                })}
-              </div>
-              <a href="/sezioni/diari" class="home-link-more">Tutti i diari →</a>
-            </div>
-
-            <!-- Testimonianze + CTA -->
-            <div class="home-testi-col">
-              {testimonianze.map((meta) => (
-                <a href={`/blog/${meta.slug}`} class="home-testi-item">
-                  {meta.image && (
-                    <div class="home-testi-img">
-                      <img
-                        src={meta.image}
-                        alt=""
-                        loading="lazy"
-                        data-copertina-fallback
-                        onerror={COPERTINA_IMG_ONERROR}
-                      />
-                    </div>
-                  )}
-                  <div class="home-testi-body">
-                    <p class="home-cat">Testimonianza</p>
-                    <h3 class="home-testi-title">{meta.title}</h3>
-                    <p class="home-byline-small">Di {meta.author} · {formatDateItalian(meta.date)}</p>
-                  </div>
-                </a>
-              ))}
-              <div class="home-testi-cta">
-                <p>Hai vissuto qualcosa che vale la pena raccontare?</p>
-                <a href="mailto:ombreeluci@fedeeluce.it" class="home-testi-cta-link">Scrivici →</a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <!-- ══════════════════════════════════════════════════════════
-           3. ESPLORA
-           ══════════════════════════════════════════════════════════ -->
-      <section class="home-esplora-section" aria-label="Esplora i temi">
-        <div class="home-container">
-          <div class="home-section-intro">
-            <h2 class="home-section-heading">Esplora</h2>
-            <p class="home-section-sub">Quarant'anni di storie, riflessioni e incontri.</p>
-          </div>
-          <div class="home-esplora-grid">
-            {exploreItems.map(({ catLabel, slug, meta }) => (
-              <a href={`/categoria/${slug}`} class="home-esplora-card">
-                <div class="home-esplora-img">
-                  <img
-                    src={meta.image || PLACEHOLDER_COPERTINA}
-                    alt=""
-                    loading="lazy"
-                    data-copertina-fallback
-                    onerror={COPERTINA_IMG_ONERROR}
-                  />
-                </div>
-                <div class="home-esplora-body">
-                  <p class="home-esplora-cat">{catLabel}</p>
-                  <h3 class="home-esplora-title">{meta.title}</h3>
-                </div>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <!-- ══════════════════════════════════════════════════════════
-           4. LA RIVISTA
-           ══════════════════════════════════════════════════════════ -->
-      <section class="home-rivista-section" aria-label="La rivista">
-        <div class="home-container">
-          {ultimoNumero && (
-            <div class="home-ultimo-numero">
-              <div>
-                <p class="home-rivista-eyebrow">La rivista · esce ogni tre mesi dal 1983</p>
-                <div class="home-rivista-riga" aria-hidden="true" />
-                <p class="home-rivista-meta">
-                  {ultimoNumero.periodo_label ?? ultimoNumero.anno_pubblicazione} · n.{ultimoNumero.numero_progressivo}
-                </p>
-                <h3 class="home-rivista-titolo">
-                  {ultimoNumero.titolo_numero ?? `Ombre e Luci n. ${ultimoNumero.numero_progressivo}`}
-                </h3>
-                {(ultimoNumero.sommario_lancio ?? ultimoNumero.seo_description) && (
-                  <p class="home-rivista-sommario">
-                    {((ultimoNumero.sommario_lancio ?? ultimoNumero.seo_description ?? '') as string).slice(0, 220)}
-                    {((ultimoNumero.sommario_lancio ?? ultimoNumero.seo_description ?? '') as string).length > 220 ? '…' : ''}
-                  </p>
-                )}
-                <div class="home-rivista-actions">
-                  <a href={issueSlug ? `/archivio/${issueSlug}` : '/archivio'} class="home-rivista-cta">
-                    Scopri il numero →
-                  </a>
-                  <a href="/archivio" class="home-rivista-link">Archivio completo</a>
-                </div>
-              </div>
-              <div class="home-rivista-cover-col">
-                {ultimoNumero.copertina_url ? (
-                  <a href={issueSlug ? `/archivio/${issueSlug}` : '/archivio'}>
-                    <img
-                      src={ultimoNumero.copertina_url}
-                      alt=""
-                      loading="lazy"
-                      width="240"
-                      class="home-rivista-cover"
-                    />
-                  </a>
-                ) : null}
-              </div>
-            </div>
-          )}
-        </div>
-
-        <!-- Carousel su striscia bianca separata -->
-        {numeriPerCarousel.length > 0 && (
-          <div class="home-archivio-strip">
-            <div class="home-container">
-              <h3 class="section-title">Tutti i numeri</h3>
-              <div class="home-carousel-wrap">
-                <button type="button" class="home-carousel-btn home-carousel-prev" aria-label="Precedenti">
-                  <svg width="14" height="14" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
-                    <path d="M8 2 L4 6 L8 10"/>
-                  </svg>
-                </button>
-                <div class="home-carousel-track-wrap">
-                  <div class="home-carousel-track" id="home-carousel-track">
-                    {numeriPerCarousel.map((n) => (
-                      <div class="home-carousel-item">
-                        <IssueCard
-                          cover_url={n.copertina_url ?? undefined}
-                          titolo_numero={n.titolo_numero ?? n.display_title ?? `Ombre e Luci n. ${n.numero_progressivo}`}
-                          numero={n.numero_progressivo ?? 0}
-                          anno={n.anno_pubblicazione ?? 0}
-                          periodo_label={n.periodo_label ?? undefined}
-                          tipo_rivista={n.tipo_rivista ?? 'ombre_e_luci'}
-                          id_numero={n.id_numero ?? ''}
-                        />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                <button type="button" class="home-carousel-btn home-carousel-next" aria-label="Successivi">
-                  <svg width="14" height="14" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
-                    <path d="M4 2 L8 6 L4 10"/>
-                  </svg>
-                </button>
-              </div>
-              <p style="margin-top: 0.75rem;">
-                <a href="/archivio" class="home-link-more">Tutti i numeri in archivio →</a>
-              </p>
-            </div>
-          </div>
-        )}
-      </section>
-
-      <!-- ══════════════════════════════════════════════════════════
-           5. UNISCITI
-           ══════════════════════════════════════════════════════════ -->
-      <section class="home-unisciti-section" aria-label="Unisciti">
-        <div class="home-container">
-          <div class="home-section-intro">
-            <h2 class="home-section-heading">Unisciti</h2>
-            <p class="home-section-sub">Ombre e Luci esiste grazie a chi ci crede. Ci sono molti modi per esserci.</p>
-          </div>
-          <div class="home-unisciti-grid">
-
-            <div class="home-unisciti-card">
-              <div class="home-unisciti-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-                </svg>
-              </div>
-              <h3 class="home-unisciti-title">Sostieni la rivista</h3>
-              <p class="home-unisciti-text">
-                Una donazione, anche piccola e ricorrente, permette a Ombre e Luci
-                di continuare a pubblicare storie che contano.
-              </p>
-              <a href="/sostienici" class="home-unisciti-btn">Scopri come →</a>
-            </div>
-
-            <div class="home-unisciti-card">
-              <div class="home-unisciti-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
-                </svg>
-              </div>
-              <h3 class="home-unisciti-title">Racconta la tua storia</h3>
-              <p class="home-unisciti-text">
-                Hai vissuto qualcosa che vale la pena condividere?
-                Le storie più vere arrivano da chi le ha vissute.
-              </p>
-              <a href="mailto:ombreeluci@fedeeluce.it" class="home-unisciti-btn">Scrivici →</a>
-            </div>
-
-            <div class="home-unisciti-card">
-              <div class="home-unisciti-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                </svg>
-              </div>
-              <h3 class="home-unisciti-title">Dai una mano</h3>
-              <p class="home-unisciti-text">
-                Vuoi collaborare, fare volontariato o contribuire
-                in un altro modo? Siamo sempre aperti.
-              </p>
-              <a href="/chi-siamo/contatti" class="home-unisciti-btn">Contattaci →</a>
-            </div>
-
-          </div>
-          <p class="home-newsletter-row">
-            Resta in contatto:
-            <a
-              href="https://ombreeluci.us17.list-manage.com/subscribe?u=00c5dad63480d9601563b5692&id=efd099264d"
-              target="_blank"
-              rel="noopener noreferrer"
-            >iscriviti alla newsletter</a>
-          </p>
-        </div>
-      </section>
-
-    </main>
-
-    <Footer />
-
-    <script>
-      // Rotazione featured ad ogni caricamento
-      (function () {
-        const candidates = document.querySelectorAll<HTMLElement>('[data-hero-candidate]');
-        if (candidates.length > 1) {
-          const idx = Math.floor(Math.random() * candidates.length);
-          candidates.forEach((c, i) => { c.style.display = i === idx ? '' : 'none'; });
-        }
-      })();
-
-      // Carousel archivio
-      (function () {
-        const track = document.getElementById('home-carousel-track');
-        const prev = document.querySelector<HTMLElement>('.home-carousel-prev');
-        const next = document.querySelector<HTMLElement>('.home-carousel-next');
-        if (!track || !prev || !next) return;
-        const scroll = (180 + 20) * 2;
-        prev.addEventListener('click', () => track.scrollBy({ left: -scroll, behavior: 'smooth' }));
-        next.addEventListener('click', () => track.scrollBy({ left: scroll, behavior: 'smooth' }));
-        let iv = setInterval(() => track.scrollBy({ left: scroll, behavior: 'smooth' }), 4000);
-        const stop = () => clearInterval(iv);
-        track.addEventListener('mouseenter', stop);
-        track.addEventListener('touchstart', stop, { passive: true });
-      })();
-    </script>
-
-  </body>
-</html>

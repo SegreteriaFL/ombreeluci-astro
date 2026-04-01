@@ -1,9 +1,6 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import AboutSidebar from '../../components/AboutSidebar.astro';
-import '../../styles/global.css';
 import autoriStats from '../../data/autori_stats.json';
 
 // Manifesto hero
@@ -80,17 +77,11 @@ function iniziali(nome) {
 
 ---
 
-<html lang="it">
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <ViewTransitions />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chi Siamo - Ombre e Luci</title>
-  </head>
-  <body class="chi-siamo-page">
-    <Header />
+<BaseLayout
+  title={"Chi siamo"}
+  description={"Ombre e Luci: chi siamo, la nostra storia, la redazione e la missione editoriale."}
+  noindex={true}
+>
     <main class="site-main chi-siamo-main">
       <div class="chi-siamo-layout container">
         <AboutSidebar active="" useAnchors={true} />
@@ -254,7 +245,6 @@ function iniziali(nome) {
         </div>
       </div>
     </main>
-    <Footer />
   </body>
 </html>
 
@@ -929,3 +919,4 @@ function iniziali(nome) {
     }
   }
 </style>
+</BaseLayout>

@@ -28,8 +28,9 @@
   src: url('/fonts/raleway-latin.woff2') format('woff2');
 }
 
-/* Colori: tema centralizzato; modificando qui si aggiorna tutto il sito */
+/* Tema e breakpoint: modificando qui si aggiorna tutto il sito */
 :root {
+  /* Colori */
   --accent-color: #008b8b;
   --accent-hover: #007070;
   --text-color: #142f2f;
@@ -41,6 +42,14 @@
   --border-color: #e8e6e3;
   --footer-height: 480px;
   --diari-bg: #f0f7ff;
+
+  /* Breakpoint (usare con @media (max-width: var(--bp-tablet)) NON funziona in CSS —
+     questi valori sono documentazione di riferimento per coerenza; usare i valori
+     direttamente nelle media query: 480px | 768px | 1024px | 1280px) */
+  --bp-mobile: 480px;
+  --bp-tablet: 768px;
+  --bp-desktop: 1024px;
+  --bp-wide: 1280px;
 }
 
 * {

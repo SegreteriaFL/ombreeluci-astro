@@ -1,0 +1,61 @@
+---
+/**
+ * BaseLayout.astro
+ *
+ * Layout base condiviso da tutte le pagine del sito.
+ * Fornisce: html+head (via BaseHead) + Header + Footer + slot contenuto.
+ *
+ * Slot disponibili:
+ *   <slot />           — contenuto principale (obbligatorio)
+ *   <slot name="head"> — tag extra nel <head> (JSON-LD, meta pagina specifica)
+ *
+ * Uso standard:
+ *   <BaseLayout title="Titolo" description="...">
+ *     <main>...</main>
+ *   </BaseLayout>
+ *
+ * Uso con head extra (es. JSON-LD):
+ *   <BaseLayout title="Articolo" ogType="article">
+ *     <script slot="head" type="application/ld+json">{JSON.stringify(schema)}</script>
+ *     <main>...</main>
+ *   </BaseLayout>
+ *
+ * Pagine custom verticali (serie, dossier):
+ *   Usano lo slot default per iniettare hero full-width, sezioni custom, ecc.
+ *   Non esiste una struttura forzata dopo Header e prima di Footer.
+ */
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  ogType?: 'website' | 'article';
+  canonical?: string;
+  noindex?: boolean;
+  lang?: 'it' | 'en';
+  alternates?: { lang: string; url: string }[];
+  /** Classe aggiuntiva per il tag <body> */
+  bodyClass?: string;
+  /** URL alternativo dell'articolo nell'altra lingua (per LanguageSelector) */
+  alternateArticleUrl?: string | null;
+}
+
+const { bodyClass, alternateArticleUrl = null, ...headProps } = Astro.props;
+const lang = headProps.lang ?? 'it';
+---
+
+<html lang={lang}>
+  <head>
+    <BaseHead {...headProps}>
+      <slot name="head" />
+    </BaseHead>
+  </head>
+  <body class:list={[bodyClass]}>
+    <Header alternateArticleUrl={alternateArticleUrl} />
+    <slot />
+    <Footer />
+  </body>
+</html>

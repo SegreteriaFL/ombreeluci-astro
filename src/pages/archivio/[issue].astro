@@ -1,10 +1,7 @@
 ---
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import IssueNavPill from '../../components/IssueNavPill.astro';
-import { ViewTransitions } from 'astro:transitions';
-import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { getAllNumeriRivista, getAllArticoli, getArticoloCopertinaSrc, getNumeroImageUrl } from '../../lib/directus';
 
@@ -82,15 +79,165 @@ const articoliIt = articoliNumero.filter(a => a.lang !== 'en');
 const articoliEn = articoliNumero.filter(a => a.lang === 'en');
 ---
 
-<html lang="it">
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{numero.display_title} - Archivio Ombre e Luci</title>
-    <ViewTransitions />
-    <style>
+<BaseLayout
+  title={`${numero.display_title} – Archivio`}
+  description={numero.descrizione ?? `${testata} – ${numero.display_title}: sfoglia gli articoli e scarica il PDF.`}
+  noindex={true}
+  ogImage={copertinaNumeroUrl}
+>
+    <main class="issue-main">
+    <div class="issue-container">
+      {/* Hero Section */}
+      <section class="hero-section">
+        <div class="hero-cover">
+          {copertinaNumeroUrl ? (
+            <img
+              src={copertinaNumeroUrl}
+              alt={`Copertina ${testata} ${numero.id_numero}`}
+              width={380}
+              height={507}
+              data-copertina-fallback
+            />
+          ) : (
+            <div style="width: 100%; aspect-ratio: 3/4; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; padding: 2rem;">
+              <span style="font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem;">{testata}</span>
+              <span style="font-size: 1rem;">{numero.id_numero}</span>
+            </div>
+          )}
+        </div>
+
+        <div class="hero-content">
+          <span class="hero-badge">{testata}</span>
+
+          <h1 class="hero-title">
+            {numero.display_title}
+          </h1>
+
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <span class="hero-meta-label">Numero:</span>
+              <span>{numero.id_numero}</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="hero-meta-label">Anno:</span>
+              <span>{numero.anno_pubblicazione}</span>
+            </div>
+          </div>
+
+          {descrizione && (
+            <div class="hero-description" set:html={descrizione} />
+          )}
+
+          <div class="hero-actions">
+            {archiveViewUrl ? (
+              <a 
+                href={archiveViewUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="hero-button"
+              >
+                <span>📖</span>
+                <span>Sfoglia Online</span>
+              </a>
+            ) : (
+              <button class="hero-button" disabled>
+                <span>📖</span>
+                <span>Sfoglia Online (non disponibile)</span>
+              </button>
+            )}
+
+            {pdfUrl ? (
+              <a 
+                href={pdfUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="hero-button secondary"
+              >
+                <span>📥</span>
+                <span>Scarica PDF</span>
+              </a>
+            ) : (
+              <button class="hero-button secondary" disabled>
+                <span>📥</span>
+                <span>Scarica PDF (non disponibile)</span>
+              </button>
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Articoli: lista uniforme (IT) + English Edition in fondo */}
+      <section class="articles-section">
+        <div class="articles-header">
+          <h2 class="articles-title">Articoli in questo numero</h2>
+          <p class="articles-count">
+            {articoliIt.length} {articoliIt.length === 1 ? 'articolo' : 'articoli'}
+            {articoliEn.length > 0 && ` · ${articoliEn.length} in English`}
+          </p>
+        </div>
+
+        {articoliNumero.length > 0 ? (
+          <>
+            <div class="articles-grid">
+              {articoliIt.map((a) => {
+                const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+                const { categoria_menu } = getMegaclusterForArticle(a);
+                const { formal } = getLabels([], a);
+                const articleImage = getArticoloCopertinaSrc(a);
+                return (
+                  <ArticleCard
+                    title={a.titolo}
+                    slug={a.slug}
+                    categoriaMenu={categoria_menu ?? undefined}
+                    issue={a.numero_rivista?.id_numero ?? null}
+                    forma={formal}
+                    author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+                    date={articleDate}
+                    image={articleImage}
+                  />
+                );
+              })}
+            </div>
+
+            {articoliEn.length > 0 && (
+              <div class="english-edition-section">
+                <h2>English Edition</h2>
+                <div class="articles-grid">
+                  {articoliEn.map((a) => {
+                    const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+                    const { categoria_menu } = getMegaclusterForArticle(a);
+                    const { formal } = getLabels([], a);
+                    const articleImage = getArticoloCopertinaSrc(a);
+                    return (
+                      <ArticleCard
+                        title={a.titolo}
+                        slug={a.slug}
+                        categoriaMenu={categoria_menu ?? undefined}
+                        issue={a.numero_rivista?.id_numero ?? null}
+                        forma={formal}
+                        author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+                        date={articleDate}
+                        image={articleImage}
+                      />
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+          </>
+        ) : (
+          <div class="no-articles">
+            <h3 class="no-articles-title">Nessun articolo trovato</h3>
+            <p>Non sono stati trovati articoli associati a questo numero.</p>
+          </div>
+        )}
+      </section>
+    </div>
+    </main>
+    <IssueNavPill prevSlug={prevSlug} nextSlug={nextSlug} />
+</BaseLayout>
+
+<style>
       * {
         margin: 0;
         padding: 0;
@@ -355,160 +502,3 @@ const articoliEn = articoliNumero.filter(a => a.lang === 'en');
         }
       }
     </style>
-  </head>
-  <body>
-    <Header />
-    <main class="issue-main">
-    <div class="issue-container">
-      {/* Hero Section */}
-      <section class="hero-section">
-        <div class="hero-cover">
-          {copertinaNumeroUrl ? (
-            <img
-              src={copertinaNumeroUrl}
-              alt={`Copertina ${testata} ${numero.id_numero}`}
-              width={380}
-              height={507}
-              data-copertina-fallback
-            />
-          ) : (
-            <div style="width: 100%; aspect-ratio: 3/4; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; padding: 2rem;">
-              <span style="font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem;">{testata}</span>
-              <span style="font-size: 1rem;">{numero.id_numero}</span>
-            </div>
-          )}
-        </div>
-
-        <div class="hero-content">
-          <span class="hero-badge">{testata}</span>
-
-          <h1 class="hero-title">
-            {numero.display_title}
-          </h1>
-
-          <div class="hero-meta">
-            <div class="hero-meta-item">
-              <span class="hero-meta-label">Numero:</span>
-              <span>{numero.id_numero}</span>
-            </div>
-            <div class="hero-meta-item">
-              <span class="hero-meta-label">Anno:</span>
-              <span>{numero.anno_pubblicazione}</span>
-            </div>
-          </div>
-
-          {descrizione && (
-            <div class="hero-description" set:html={descrizione} />
-          )}
-
-          <div class="hero-actions">
-            {archiveViewUrl ? (
-              <a 
-                href={archiveViewUrl} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                class="hero-button"
-              >
-                <span>📖</span>
-                <span>Sfoglia Online</span>
-              </a>
-            ) : (
-              <button class="hero-button" disabled>
-                <span>📖</span>
-                <span>Sfoglia Online (non disponibile)</span>
-              </button>
-            )}
-
-            {pdfUrl ? (
-              <a 
-                href={pdfUrl} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                class="hero-button secondary"
-              >
-                <span>📥</span>
-                <span>Scarica PDF</span>
-              </a>
-            ) : (
-              <button class="hero-button secondary" disabled>
-                <span>📥</span>
-                <span>Scarica PDF (non disponibile)</span>
-              </button>
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* Articoli: lista uniforme (IT) + English Edition in fondo */}
-      <section class="articles-section">
-        <div class="articles-header">
-          <h2 class="articles-title">Articoli in questo numero</h2>
-          <p class="articles-count">
-            {articoliIt.length} {articoliIt.length === 1 ? 'articolo' : 'articoli'}
-            {articoliEn.length > 0 && ` · ${articoliEn.length} in English`}
-          </p>
-        </div>
-
-        {articoliNumero.length > 0 ? (
-          <>
-            <div class="articles-grid">
-              {articoliIt.map((a) => {
-                const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
-                const { categoria_menu } = getMegaclusterForArticle(a);
-                const { formal } = getLabels([], a);
-                const articleImage = getArticoloCopertinaSrc(a);
-                return (
-                  <ArticleCard
-                    title={a.titolo}
-                    slug={a.slug}
-                    categoriaMenu={categoria_menu ?? undefined}
-                    issue={a.numero_rivista?.id_numero ?? null}
-                    forma={formal}
-                    author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
-                    date={articleDate}
-                    image={articleImage}
-                  />
-                );
-              })}
-            </div>
-
-            {articoliEn.length > 0 && (
-              <div class="english-edition-section">
-                <h2>English Edition</h2>
-                <div class="articles-grid">
-                  {articoliEn.map((a) => {
-                    const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
-                    const { categoria_menu } = getMegaclusterForArticle(a);
-                    const { formal } = getLabels([], a);
-                    const articleImage = getArticoloCopertinaSrc(a);
-                    return (
-                      <ArticleCard
-                        title={a.titolo}
-                        slug={a.slug}
-                        categoriaMenu={categoria_menu ?? undefined}
-                        issue={a.numero_rivista?.id_numero ?? null}
-                        forma={formal}
-                        author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
-                        date={articleDate}
-                        image={articleImage}
-                      />
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-          </>
-        ) : (
-          <div class="no-articles">
-            <h3 class="no-articles-title">Nessun articolo trovato</h3>
-            <p>Non sono stati trovati articoli associati a questo numero.</p>
-          </div>
-        )}
-      </section>
-    </div>
-    </main>
-    <Footer />
-    <IssueNavPill prevSlug={prevSlug} nextSlug={nextSlug} />
-  </body>
-</html>
-

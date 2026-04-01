@@ -1006,10 +1006,46 @@ const REDIRECTS = {
   "/la-festa-di-compleanno-di-veronica-felice/": "/blog/la-festa-di-compleanno-di-veronica/"
 };
 
+// ── WordPress proxy ────────────────────────────────────────────────────────
+// Il sito WordPress originale è su Aruba (89.46.105.36). Da quando il DNS è
+// passato a Cloudflare Pages, /wp-admin e le route WP non sono più raggiungibili.
+// Questo proxy le reinstrada trasparentemente verso l'IP Aruba.
+const WP_PREFIX = ['/wp-admin', '/wp-content', '/wp-includes', '/wp-json', '/feed'];
+const WP_EXACT  = ['/wp-login.php', '/xmlrpc.php'];
+const ARUBA_IP  = '89.46.105.36';
+const WP_HOST   = 'www.ombreeluci.it';
+
+function isWordPressPath(path) {
+  if (WP_EXACT.includes(path)) return true;
+  return WP_PREFIX.some(p => path === p || path.startsWith(p + '/'));
+}
+
 export default {
   async fetch(request) {
     const url = new URL(request.url);
     const path = url.pathname;
+
+    // WordPress proxy — intercetta le route WP e le gira all'IP Aruba
+    if (isWordPressPath(path)) {
+      const target = new URL(request.url);
+      target.hostname = ARUBA_IP;
+      target.protocol = 'http:';
+      target.port = '80';
+
+      const headers = new Headers(request.headers);
+      headers.set('Host', WP_HOST);
+      // Rimuovi header CF che potrebbero disturbare WP
+      headers.delete('cf-connecting-ip');
+
+      const proxyReq = new Request(target.toString(), {
+        method:  request.method,
+        headers,
+        body:    ['GET', 'HEAD'].includes(request.method) ? undefined : request.body,
+        redirect: 'manual',
+      });
+
+      return fetch(proxyReq);
+    }
 
     // Rule C+D: lookup table (exact match)
     if (REDIRECTS[path]) {

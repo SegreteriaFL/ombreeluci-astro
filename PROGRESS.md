@@ -77,18 +77,32 @@
 
 ## Backlog — Pre-lancio obbligatorio
 
-> Queste attività bloccano o condizionano il cutover DNS. Ordinate per sequenza logica.
+> Queste attività bloccano o condizionano il cutover DNS. Il cutover avviene quando lo staging è pronto — nessuna scadenza fissa. Ordinate per sequenza logica.
+
+### ARCH — Refactor architetturale
 
 | ID | Effort | Descrizione |
 |----|--------|-------------|
+| ARCH-01 | ✅ Fatto | **`BaseHead.astro`** — componente condiviso per tutto il `<head>`. Props: `title`, `description`, `ogImage?`, `ogType?`, `canonical?`, `noindex?`, `lang?`, `alternates?`. Contiene: charset, viewport, favicon (png+svg+ico), title con separatore `–` automatico, meta description, Open Graph completo, Twitter Card, canonical, hreflang, Google Site Verification, preconnect R2, ViewTransitions, slot per tag extra (JSON-LD). |
+| ARCH-02 | ✅ Fatto | **`BaseLayout.astro`** — wrapper `<html lang>+<head>+<body>` con slot. Props passate a BaseHead + `bodyClass` + `alternateArticleUrl` (per LanguageSelector). Slot: default (contenuto pagina) e `head` (JSON-LD, meta custom). Usato da tutte le 22 pagine del sito. Pagine custom verticali (serie, dossier) possono iniettare hero full-width e sezioni arbitrarie nello slot default. |
+| ARCH-03 | ✅ Fatto | **CSS vars breakpoint** — in `global.css` `:root`: `--bp-mobile: 480px`, `--bp-tablet: 768px`, `--bp-desktop: 1024px`, `--bp-wide: 1280px`. Documentati come riferimento (non usabili direttamente in `@media` queries CSS nativo). |
+
+### Pre-lancio
+
+| ID | Effort | Descrizione |
+|----|--------|-------------|
+| GR-03 | S | **Google Search Console verifica** — meta tag `CHp0QtH-sw0M_ZYVjj6LRqHxV-4Z72IoYR_aiX9c6ZE` in `BaseHead.astro` (dopo ARCH-01). Critico: perdersi l'accesso a GSC al cutover DNS. |
+| GR-01 | M | **Cookie consent Iubenda** — script banner in `BaseHead.astro`. siteId `1433329`, IT `66379072`, EN `53976128`. ⚠️ Correggere `ownerName: "fedeeluce.it"` → `"ombreeluci.it"` sul pannello Iubenda prima di attivare. Prerequisito per GR-02. |
+| GR-02 | S | **Google Tag Manager** — snippet GTM `GTM-P92QKKXK` in `BaseHead.astro` (head + noscript body). Gestisce GA4, AdSense (`ca-pub-2238371130141396`) e Twitter pixel (`o5eld`) senza script separati. Condizionato al consenso Iubenda. |
 | V-02 | Redazione | **21 articoli "Da categorizzare"** — assegnazione manuale categoria in Directus. Sblocca US-15. |
 | US-15 | M | **Rivalutazione ruoli editoriali** — ridefinire portanti/strutturali per ogni categoria dopo V-02. Sblocca homepage dinamica. |
-| UX-01 | XL | **Mobile/tablet overhaul globale** — il 65-70% del traffico è mobile. Vanno ripensati: header/mega-menu touch, hero home <600px, diari (6col → grid/scroll), categorie, autori, articoli (padding, tipografia, capolettera). Breakpoint unificati in variabili CSS (`--bp-mobile: 480px`, `--bp-tablet: 768px`, `--bp-desktop: 1024px`). |
-| UX-05 | M | **Mega-menu active state** — leggere `Astro.url.pathname` in `Header.astro` e applicare classe `active` / `aria-current` al link della sezione corrente. |
+| UX-01 | XL | **Mobile/tablet overhaul globale** — 65-70% del traffico è mobile. Ripensare: header/mega-menu touch, hero home <600px, diari (6col → grid/scroll), categorie, autori, articoli (padding, tipografia, capolettera). Usare breakpoint da ARCH-03. |
+| UX-05 | M | **Mega-menu active state** — `Astro.url.pathname` in `Header.astro`, classe `active`/`aria-current` sul link sezione corrente. |
 | US-08 | M | **Info testata numero rivista** — campo `periodo_label` mancante (es. "Anno 41 – N.3 – Lug-Ago-Set 2023"). Dati nel dump Divi: estrarre con script, popolare Directus. |
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
-| — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale che porta il sito live. |
+| WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
+| — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale. Prerequisiti: tutti i pre-lancio completati + validazione staging ok. |
 
 ---
 
@@ -127,18 +141,43 @@
 | DA-05 | Post-lancio | **Archive.org link** — 37 numeri (OEL 1-15, 34, 40, 131-172) senza `pdf_archive_url`. Scraping profilo archive.org + PATCH Directus. |
 | DA-06 | Post-lancio | **Traduzione AI articoli** — traduzione automatica (Claude/DeepL) di tutti gli articoli IT in EN, poi ES e altre lingue. Da valutare: costo per articolo, qualità, flusso di revisione redazionale, struttura URL (`/en/blog/slug`), hreflang. Priorità EN (già presenti 131 articoli EN originali come baseline). |
 
+### Performance / Core Web Vitals
+
+> Rilevazioni da PageSpeed Insights su `/blog/suor-veronica-pompei/` (2026-03-31).
+
+| ID | Gravità | Effort | Descrizione |
+|----|---------|--------|-------------|
+| PF-01 | 🔴 Alta | S | **Placeholder copertina troppo pesante** — `/placeholder/ph-1.jpg` è 4864×3648 px, 4.2 MB. Mostrata a 81×54 px. Risparmio stimato 4.2 MB. Fix: ridimensionare a 400px lato lungo e convertire in WebP/AVIF. |
+| PF-02 | 🔴 Alta | S | **Cache-Control assente su R2** — le immagini `r2.dev/copertine/*` e `r2.dev/corpo/*` rispondono con TTL `None`. Risparmio stimato 366 KiB per visita ripetuta. Fix: aggiungere `Cache-Control: public, max-age=31536000, immutable` tramite Cloudflare Transform Rule sul dominio R2, oppure esporre le immagini via custom domain con Cache Rule dedicata. |
+| PF-03 | 🟡 Media | M | **Immagini non responsive (srcset mancante)** — copertine servite full-size (es. 1370×771 px) per slot da 268×151 px. Risparmio stimato 208 KiB per copertina. Fix: usare Cloudflare Image Resizing (`?width=`, `?format=webp`) oppure generare `srcset` a build-time con dimensioni 320/640/1024. Impatta `ArticleCard`, hero copertina e `LeggiAnche`. |
+| PF-04 | 🟡 Media | S | **CSS render-blocking** — `_slug_.css` (4.5 KiB, 150 ms) e `_diario_.css` (4.4 KiB, 460 ms) bloccano il rendering iniziale per ~610 ms totali. Risparmio stimato 1040 ms LCP. Fix: aggiungere `<link rel="preload" as="style">` per questi file, oppure estrarre il CSS critico e iniettarlo inline nel `<head>`. |
+| PF-05 | 🟡 Media | S | **Immagini senza `width`/`height` espliciti** — causa CLS (layout shift) prima del caricamento. Fix: aggiungere `width` e `height` su tutti i tag `<img>` con dimensioni note (copertine, autori, icone). |
+| PF-06 | 🟢 Bassa | S | **Icona fotocamera da WordPress** — `icon-camera.png` (124×124 px, 4.5 KB) servita da `ombreeluci.it/wp-content/` e mostrata a 16×16 px. Fix: sostituire con SVG inline (~200 byte, nessuna richiesta HTTP). |
+| PF-07 | 🟢 Bassa | S | **Nessun hint preconnect per R2** — il browser scopre l'origine R2 solo al parsing HTML. Fix: aggiungere `<link rel="preconnect" href="https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev">` nel `<head>` di Layout.astro. |
+| PF-08 | 🟢 Bassa | S | **Gerarchia heading non sequenziale** — PageSpeed segnala salti di livello (es. h1→h3 senza h2). Fix: audit heading in `blog/[...slug].astro` e componenti correlati. |
+| PF-09 | 🟢 Bassa | S | **Contrasto insufficiente** — alcuni testi non superano il rapporto WCAG AA. Fix: audit con DevTools → Accessibility, aggiustare colori `--text-secondary` o varianti. |
+
 ### Crescita / Monetizzazione
 
 | ID | Stato | Descrizione |
 |----|-------|-------------|
-| GR-01 | Pre-lancio | **Cookie policy e privacy (GDPR)** — attualmente gestito con Iubenda su WordPress. Da capire: come integrare Iubenda (o alternativa) nel sito Astro statico. Iubenda fornisce uno script JS + banner + policy page. Prerequisito per GA e Adsense. |
-| GR-02 | Pre-lancio | **Google Analytics** — fondamentale per misurare l'efficacia del nuovo design e delle CTA. Da implementare: script GA4 condizionato al consenso cookie (GR-01). Definire eventi custom da tracciare (click CTA, lettura articolo >50%, download PDF rivista). |
-| GR-03 | Post-lancio | **Google AdSense / monetizzazione** — valutare se e come inserire pubblicità non invasiva. Da decidere: posizionamento (dopo corpo articolo? sidebar?), compatibilità con la missione editoriale della rivista, impatto su performance (CWV). Dipende da GR-01 + GR-02. |
-| GR-04 | Post-lancio | **CTA dinamiche e misurate** — CTA a fine articolo (e in altri punti chiave) che ruotino tra proposte diverse (abbonamento, donazione, newsletter, condivisione, acquisto numero). Requisiti: non ripetitive, contestuali al tema dell'articolo, monitoraggio click via GA4 eventi custom. Da decidere quali CTA e in quale ordine di priorità editoriale. |
+| GR-01 | Pre-lancio | **Cookie consent Iubenda** — script banner da integrare in `Layout.astro`. Prerequisito per GA e AdSense. Credenziali WP: siteId `1433329`, cookiePolicyId IT `66379072`, EN `53976128`. ⚠️ Config WP ha `ownerName: "fedeeluce.it"` — da correggere in `ombreeluci.it` sul pannello Iubenda. Link policy già nel footer. |
+| GR-02 | Pre-lancio | **Google Tag Manager + Analytics** — GTM container `GTM-P92QKKXK` (già attivo su WP). Inserire snippet GTM in `Layout.astro` (head + noscript body). GTM gestisce GA4, AdSense e Twitter pixel `o5eld` senza ulteriori script separati. Condizionare al consenso Iubenda (GR-01). |
+| GR-03 | Pre-lancio | **Google Search Console — verifica dominio** — meta tag verifica `CHp0QtH-sw0M_ZYVjj6LRqHxV-4Z72IoYR_aiX9c6ZE` da aggiungere in `Layout.astro` prima del cutover DNS, altrimenti si perde l'accesso a GSC. |
+| GR-04 | Post-lancio | **Google AdSense** — publisher ID `ca-pub-2238371130141396`. Da gestire via GTM dopo GR-01+GR-02. Valutare posizionamento non invasivo (dopo corpo articolo), compatibilità con missione editoriale. |
+| GR-05 | Post-lancio | **Newsletter Mailchimp** — popup/form da reimplementare senza Dojo (obsoleto). Credenziali: uuid `00c5dad63480d9601563b5692`, lid `efd099264d`. Usare API Mailchimp embedded form o widget moderno. |
+| GR-06 | Post-lancio | **CTA dinamiche e misurate** — CTA a fine articolo che ruotino tra proposte (abbonamento, donazione, newsletter, acquisto numero). Non ripetitive, contestuali al tema, monitorate via GA4 eventi custom. |
 
 ---
 
 ## Storico completamenti
+
+### 2026-04-01
+
+- **Refactor architetturale ARCH-01/02/03** — Introdotti `BaseHead.astro` e `BaseLayout.astro`. Tutte le 22 pagine del sito migrate al layout centralizzato. Eliminato boilerplate `<head>` duplicato in ogni pagina. OG tags, Twitter Card, canonical, GSC meta tag, preconnect R2 ora su tutte le pagine in un unico punto. CSS breakpoint vars documentate in `global.css`. Build: 4129 pagine, 0 errori.
+- **Proxy WordPress CF Worker** — `cf-worker/redirect-worker.js` aggiornato con proxy trasparente verso Aruba IP `89.46.105.36` per route `/wp-admin/*`, `/wp-login.php`, `/wp-content/*`, `/wp-includes/*`, `/wp-json/*`, `/feed/*`, `/xmlrpc.php`. Deployato. Redazione può continuare a usare WordPress in produzione.
+- **Backlog performance (PF-01→PF-09)** — Documentati in PROGRESS.md da analisi PageSpeed Insights.
+- **Identificati asset WordPress da portare** — GTM `GTM-P92QKKXK`, AdSense `ca-pub-2238371130141396`, GSC `CHp0QtH-sw0M_ZYVjj6LRqHxV-4Z72IoYR_aiX9c6ZE`, Iubenda siteId `1433329`, Mailchimp uuid `00c5dad63480d9601563b5692`. Documentati in voci GR-01→GR-05.
 
 ### 2026-03-31
 

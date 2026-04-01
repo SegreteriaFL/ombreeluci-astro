@@ -1,51 +1,11 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<html lang="it">
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <ViewTransitions />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>404 - Pagina non trovata - Ombre e Luci</title>
-    <style>
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 4rem 2rem;
-        text-align: center;
-      }
-      h1 {
-        font-size: 3rem;
-        color: #0066cc;
-        margin-bottom: 1rem;
-      }
-      p {
-        font-size: 1.2rem;
-        color: var(--text-secondary);
-        margin-bottom: 2rem;
-      }
-      a {
-        display: inline-block;
-        padding: 0.75rem 1.5rem;
-        background: #0066cc;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 6px;
-        transition: background 0.2s;
-      }
-      a:hover {
-        background: #0052a3;
-      }
-    </style>
-  </head>
-  <body>
-    <Header />
+<BaseLayout
+  title={"404 - Pagina non trovata"}
+  noindex={true}
+>
     <main class="site-main">
     <div class="container">
       <h1>404</h1>
@@ -53,8 +13,4 @@ import '../styles/global.css';
       <a href="/">Torna all'archivio</a>
     </div>
     </main>
-    <Footer />
-  </body>
-</html>
-
-
+</BaseLayout>

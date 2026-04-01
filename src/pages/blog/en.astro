@@ -1,15 +1,12 @@
 ---
+import BaseLayout from '../../layouts/BaseLayout.astro';
 /**
  * Blog EN – Indice articoli in inglese (src/content/blog/en/).
  * Route: /blog/en
  */
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { t } from '../../utils/i18n';
-import '../../styles/global.css';
 import { getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
 
 const allArticles = await getAllArticoli();
@@ -22,48 +19,11 @@ const englishArticles = allArticles
   });
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{t('en', 'english_articles')} – Ombre e Luci</title>
-    <meta name="description" content="Articles in English from Ombre e Luci." />
-    <ViewTransitions />
-    <style>
-      .en-page {
-        min-height: 100vh;
-        background: var(--bg-light, #f5f5f3);
-      }
-      .en-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem 1.5rem;
-      }
-      .en-title {
-        font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-        font-size: 1.75rem;
-        font-weight: 700;
-        color: var(--text-color);
-        margin-bottom: 0.5rem;
-      }
-      .en-intro {
-        font-size: 1rem;
-        color: var(--text-secondary);
-        margin-bottom: 2rem;
-      }
-      .en-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 2rem;
-      }
-      .en-grid > * {
-        width: 100%;
-      }
-    </style>
-  </head>
-  <body class="en-page">
-    <Header pathname={Astro.url.pathname} />
+<BaseLayout
+  title={`${t('en', 'english_articles')}`}
+  description={"Articles in English from Ombre e Luci."}
+  lang="en"
+>
     <main class="site-main">
       <div class="en-container">
         <h1 class="en-title">{t('en', 'english_articles')}</h1>
@@ -89,6 +49,6 @@ const englishArticles = allArticles
         </div>
       </div>
     </main>
-    <Footer pathname={Astro.url.pathname} />
   </body>
 </html>
+</BaseLayout>

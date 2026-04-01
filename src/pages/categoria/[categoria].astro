@@ -1,9 +1,6 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import '../../styles/global.css';
 import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
 import { getAllArticoli, getArticoloCopertinaSrc, getCategoriaDescrizione, getArticoliInEvidenza, getAutoreImageUrl } from '../../lib/directus';
 
@@ -70,16 +67,103 @@ const evidenzaEffettiva = (evidenza && evidenza.length > 0)
 const hasEvidenza = evidenzaEffettiva.length > 0;
 ---
 
-<html lang="it">
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <ViewTransitions />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{categoryLabel} - Ombre e Luci</title>
-    <meta name="description" content={descrizione ?? `Articoli nella categoria ${categoryLabel} su Ombre e Luci`} />
-    <style>
+<BaseLayout
+  title={categoryLabel}
+  description={descrizione ?? `Articoli nella categoria ${categoryLabel} su Ombre e Luci`}
+  noindex={true}
+>
+    <main class="site-main">
+      <div class="categoria-container">
+        <header class="categoria-header">
+          <h1 class="categoria-title">{categoryLabel}</h1>
+          <p class="categoria-count">
+            {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'}
+          </p>
+          {descrizione && <p class="categoria-descrizione">{descrizione}</p>}
+        </header>
+
+        <div class={`categoria-body${hasEvidenza ? '' : ' categoria-body--no-evidenza'}`}>
+
+          {/* Colonna sinistra: hero + feed */}
+          <div class="feed-col">
+            {hero && (() => {
+              const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(hero);
+              const { formal } = getLabels([], hero);
+              return (
+                <div class="hero-wrap">
+                  <ArticleCard
+                    title={hero.titolo}
+                    slug={hero.slug}
+                    categoriaMenu={categoria_menu ?? undefined}
+                    issue={hero.numero_rivista?.id_numero ?? null}
+                    forma={formal}
+                    author={hero.autore?.nome_completo ?? 'Autore sconosciuto'}
+                    date={hero.data_pubblicazione ? new Date(hero.data_pubblicazione) : new Date()}
+                    image={getArticoloCopertinaSrc(hero)}
+                    ruoloEditoriale={ruolo_editoriale ?? undefined}
+                  />
+                </div>
+              );
+            })()}
+
+            <div class="articles-list">
+              {rest.map((a) => {
+                const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+                const { formal } = getLabels([], a);
+                const autFotoId = (a.autore as any)?.foto?.id;
+                return (
+                  <ArticleCard
+                    title={a.titolo}
+                    slug={a.slug}
+                    categoriaMenu={categoria_menu ?? undefined}
+                    issue={a.numero_rivista?.id_numero ?? null}
+                    forma={formal}
+                    author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+                    date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+                    image={getArticoloCopertinaSrc(a)}
+                    ruoloEditoriale={ruolo_editoriale ?? undefined}
+                    horizontal={true}
+                    sottotitolo={a.sottotitolo ?? null}
+                    authorImage={autFotoId ? getAutoreImageUrl(autFotoId) : null}
+                  />
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Colonna destra: in evidenza */}
+          {hasEvidenza && (
+            <aside class="evidenza-col">
+              <h2 class="evidenza-title">In evidenza</h2>
+              <div class="evidenza-list">
+                {evidenzaEffettiva.map((a, idx) => {
+                  const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+                  const { formal } = getLabels([], a);
+                  return (
+                    <ArticleCard
+                      title={a.titolo}
+                      slug={a.slug}
+                      categoriaMenu={categoria_menu ?? undefined}
+                      issue={a.numero_rivista?.id_numero ?? null}
+                      forma={formal}
+                      author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+                      date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+                      image={getArticoloCopertinaSrc(a)}
+                      hideImage={idx !== 0}
+                      ruoloEditoriale={ruolo_editoriale ?? undefined}
+                    />
+                  );
+                })}
+              </div>
+            </aside>
+          )}
+
+        </div>
+      </div>
+    </main>
+</BaseLayout>
+
+<style>
       .categoria-container {
         max-width: 1400px;
         margin: 0 auto;
@@ -181,98 +265,3 @@ const hasEvidenza = evidenzaEffettiva.length > 0;
         }
       }
     </style>
-  </head>
-  <body>
-    <Header />
-    <main class="site-main">
-      <div class="categoria-container">
-        <header class="categoria-header">
-          <h1 class="categoria-title">{categoryLabel}</h1>
-          <p class="categoria-count">
-            {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'}
-          </p>
-          {descrizione && <p class="categoria-descrizione">{descrizione}</p>}
-        </header>
-
-        <div class={`categoria-body${hasEvidenza ? '' : ' categoria-body--no-evidenza'}`}>
-
-          {/* Colonna sinistra: hero + feed */}
-          <div class="feed-col">
-            {hero && (() => {
-              const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(hero);
-              const { formal } = getLabels([], hero);
-              return (
-                <div class="hero-wrap">
-                  <ArticleCard
-                    title={hero.titolo}
-                    slug={hero.slug}
-                    categoriaMenu={categoria_menu ?? undefined}
-                    issue={hero.numero_rivista?.id_numero ?? null}
-                    forma={formal}
-                    author={hero.autore?.nome_completo ?? 'Autore sconosciuto'}
-                    date={hero.data_pubblicazione ? new Date(hero.data_pubblicazione) : new Date()}
-                    image={getArticoloCopertinaSrc(hero)}
-                    ruoloEditoriale={ruolo_editoriale ?? undefined}
-                  />
-                </div>
-              );
-            })()}
-
-            <div class="articles-list">
-              {rest.map((a) => {
-                const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
-                const { formal } = getLabels([], a);
-                const autFotoId = (a.autore as any)?.foto?.id;
-                return (
-                  <ArticleCard
-                    title={a.titolo}
-                    slug={a.slug}
-                    categoriaMenu={categoria_menu ?? undefined}
-                    issue={a.numero_rivista?.id_numero ?? null}
-                    forma={formal}
-                    author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
-                    date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
-                    image={getArticoloCopertinaSrc(a)}
-                    ruoloEditoriale={ruolo_editoriale ?? undefined}
-                    horizontal={true}
-                    sottotitolo={a.sottotitolo ?? null}
-                    authorImage={autFotoId ? getAutoreImageUrl(autFotoId) : null}
-                  />
-                );
-              })}
-            </div>
-          </div>
-
-          {/* Colonna destra: in evidenza */}
-          {hasEvidenza && (
-            <aside class="evidenza-col">
-              <h2 class="evidenza-title">In evidenza</h2>
-              <div class="evidenza-list">
-                {evidenzaEffettiva.map((a, idx) => {
-                  const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
-                  const { formal } = getLabels([], a);
-                  return (
-                    <ArticleCard
-                      title={a.titolo}
-                      slug={a.slug}
-                      categoriaMenu={categoria_menu ?? undefined}
-                      issue={a.numero_rivista?.id_numero ?? null}
-                      forma={formal}
-                      author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
-                      date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
-                      image={getArticoloCopertinaSrc(a)}
-                      hideImage={idx !== 0}
-                      ruoloEditoriale={ruolo_editoriale ?? undefined}
-                    />
-                  );
-                })}
-              </div>
-            </aside>
-          )}
-
-        </div>
-      </div>
-    </main>
-    <Footer />
-  </body>
-</html>

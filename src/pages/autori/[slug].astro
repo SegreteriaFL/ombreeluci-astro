@@ -1,9 +1,6 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import '../../styles/global.css';
 import { getMegaclusterForArticle, getLabels, getRoleWeight } from '../../config/taxonomy.js';
 import { getAllAutori, getAllArticoli, getArticoloCopertinaSrc, getAutoreImageUrl } from '../../lib/directus';
 
@@ -42,16 +39,79 @@ const authorBioHtml: string | null = autore.bio_html?.trim() || null;
 const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
 ---
 
-<html lang="it">
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <ViewTransitions />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Articoli di {nomeAutore} - Ombre e Luci</title>
-    <meta name="description" content={`Leggi tutti i contributi di ${nomeAutore} pubblicati su Ombre e Luci`} />
-    <style>
+<BaseLayout
+  title={`Articoli di ${nomeAutore}`}
+  description={`Leggi tutti i contributi di ${nomeAutore} pubblicati su Ombre e Luci`}
+  noindex={true}
+  ogImage={authorImagePath}
+>
+    <main class="site-main">
+      <div class="author-container">
+      <div class="author-header">
+        <div class="author-avatar-wrapper">
+          <img 
+            src={authorImagePath}
+            alt={nomeAutore}
+            class="author-avatar-image"
+            onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            loading="lazy"
+          />
+          <div class="author-avatar-fallback" style="display: none;">
+            {nomeAutore.charAt(0).toUpperCase()}
+          </div>
+        </div>
+        <div class="author-info">
+          <h1 class="author-name">{nomeAutore}</h1>
+          <div class="author-bio">
+            {authorBioHtml ? (
+              <div class="author-bio-content" set:html={bioIsHtml ? authorBioHtml : `<p>${authorBioHtml.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>`} />
+            ) : (
+              <>Autore di {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'} pubblicati su Ombre e Luci.</>
+            )}
+          </div>
+          <div class="author-stats">
+            <div class="author-stats-item">
+              <span class="author-stats-number">{articoli.length}</span>
+              <span>{articoli.length === 1 ? 'articolo' : 'articoli'}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="articles-section">
+        <div class="articles-header">
+          <h2 class="articles-title">Articoli</h2>
+          <p class="articles-count">
+            [{articoli.length}] articoli pubblicati
+          </p>
+        </div>
+
+        <div class="articles-grid">
+          {articoli.map((a) => {
+            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+            const { formal } = getLabels([], a);
+            const articleImage = getArticoloCopertinaSrc(a);
+            return (
+              <ArticleCard
+                title={a.titolo}
+                slug={a.slug}
+                categoriaMenu={categoria_menu ?? undefined}
+                issue={a.numero_rivista?.id_numero ?? null}
+                forma={formal}
+                author={a.autore?.nome_completo ?? nomeAutore}
+                date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+                image={articleImage}
+                ruoloEditoriale={ruolo_editoriale ?? undefined}
+              />
+            );
+          })}
+        </div>
+      </section>
+      </div>
+    </main>
+</BaseLayout>
+
+<style>
       .author-container {
         max-width: 1200px;
         margin: 0 auto;
@@ -199,74 +259,3 @@ const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
         }
       }
     </style>
-  </head>
-  <body>
-    <Header />
-    <main class="site-main">
-      <div class="author-container">
-      <div class="author-header">
-        <div class="author-avatar-wrapper">
-          <img 
-            src={authorImagePath}
-            alt={nomeAutore}
-            class="author-avatar-image"
-            onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';"
-            loading="lazy"
-          />
-          <div class="author-avatar-fallback" style="display: none;">
-            {nomeAutore.charAt(0).toUpperCase()}
-          </div>
-        </div>
-        <div class="author-info">
-          <h1 class="author-name">{nomeAutore}</h1>
-          <div class="author-bio">
-            {authorBioHtml ? (
-              <div class="author-bio-content" set:html={bioIsHtml ? authorBioHtml : `<p>${authorBioHtml.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>`} />
-            ) : (
-              <>Autore di {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'} pubblicati su Ombre e Luci.</>
-            )}
-          </div>
-          <div class="author-stats">
-            <div class="author-stats-item">
-              <span class="author-stats-number">{articoli.length}</span>
-              <span>{articoli.length === 1 ? 'articolo' : 'articoli'}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section class="articles-section">
-        <div class="articles-header">
-          <h2 class="articles-title">Articoli</h2>
-          <p class="articles-count">
-            [{articoli.length}] articoli pubblicati
-          </p>
-        </div>
-
-        <div class="articles-grid">
-          {articoli.map((a) => {
-            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
-            const { formal } = getLabels([], a);
-            const articleImage = getArticoloCopertinaSrc(a);
-            return (
-              <ArticleCard
-                title={a.titolo}
-                slug={a.slug}
-                categoriaMenu={categoria_menu ?? undefined}
-                issue={a.numero_rivista?.id_numero ?? null}
-                forma={formal}
-                author={a.autore?.nome_completo ?? nomeAutore}
-                date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
-                image={articleImage}
-                ruoloEditoriale={ruolo_editoriale ?? undefined}
-              />
-            );
-          })}
-        </div>
-      </section>
-      </div>
-    </main>
-    <Footer />
-  </body>
-</html>
-

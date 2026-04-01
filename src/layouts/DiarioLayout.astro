@@ -1,30 +1,21 @@
 ---
+import BaseLayout from './BaseLayout.astro';
 /**
  * Layout per la pagina singola di un Diario (es. /diario-di-arianna).
  * Header celeste con foto circolare e bio; feed articoli come Home (ArticleCard su sfondo bianco).
  */
-import { ViewTransitions } from 'astro:transitions';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import ArticleCard from '../components/ArticleCard.astro';
-import '../styles/global.css';
 import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
 import { getArticoloCopertinaSrc } from '../lib/directus';
 
 const { nomeAutore, titoloDiario, fotoUrl, descrizioneDiario, articoli } = Astro.props;
 ---
 
-<html lang="it">
-  <head>
-    <meta name="robots" content="noindex, nofollow" />
-    <ViewTransitions />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{titoloDiario} - Ombre e Luci</title>
-    <meta name="description" content={`Leggi le cronache e gli articoli di ${nomeAutore}, ${titoloDiario}, su Ombre e Luci.`} />
-  </head>
-  <body>
-    <Header />
+<BaseLayout
+  title={titoloDiario}
+  description={`Leggi le cronache e gli articoli di ${nomeAutore}, ${titoloDiario}, su Ombre e Luci.`}
+  noindex={true}
+>
     <main class="site-main diario-single-main">
       <div class="container diario-page">
         <a href="/sezioni/diari" class="diario-back-link" aria-label="Torna a tutti i Diari">
@@ -82,9 +73,7 @@ const { nomeAutore, titoloDiario, fotoUrl, descrizioneDiario, articoli } = Astro
         </p>
       </div>
     </main>
-    <Footer />
-  </body>
-</html>
+</BaseLayout>
 
 <style>
   /* Pagina singola: header celeste, feed su bianco */
