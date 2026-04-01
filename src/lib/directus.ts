@@ -233,6 +233,29 @@ export async function getArticoloBySlug(slug: string): Promise<ArticoloFull | nu
 }
 
 /**
+ * Recupera più articoli per slug (per correlati in SSR).
+ * Ritorna solo i campi necessari per ArticleCard + LeggiAnche.
+ */
+export async function getArticoliBySlugList(slugs: string[]): Promise<ArticoloListItem[]> {
+  if (!slugs.length) return [];
+  const params = new URLSearchParams({
+    'filter[slug][_in]': slugs.join(','),
+    'filter[stato][_eq]': 'published',
+    fields: [
+      'id', 'wp_id', 'slug', 'lang', 'titolo', 'sottotitolo', 'stato',
+      'data_pubblicazione', 'categoria_menu', 'ruolo_editoriale', 'forma', 'tema_label',
+      'seo_description',
+      'autore.id', 'autore.slug', 'autore.nome_completo',
+      'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
+      'immagine_copertina.id', 'immagine_copertina.filename_download',
+    ].join(','),
+    limit: String(slugs.length),
+  });
+  const data = await directusFetch<{ data: ArticoloListItem[] }>(`/items/articoli?${params}`);
+  return data?.data ?? [];
+}
+
+/**
  * Articolo singolo per wp_id (utile per redirect legacy).
  */
 export async function getArticoloByWpId(wpId: number): Promise<ArticoloListItem | null> {

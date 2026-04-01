@@ -1,5 +1,5 @@
 ---
-import { getAllArticoli, getArticoloCopertinaSrc, getAutoreImageUrl, COPERTINA_IMG_ONERROR } from '../../lib/directus';
+import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getAutoreImageUrl, COPERTINA_IMG_ONERROR } from '../../lib/directus';
 import { getPlaceholder } from '../../utils/placeholder';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -9,33 +9,42 @@ import { getLangFromUrl, t } from '../../utils/i18n';
 import autoriStats from '../../data/autori_stats.json';
 import correlatiMap from '../../data/correlati.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
+// ── SSR on-demand: pagina renderizzata al Cloudflare edge, cache invalida da webhook ──
+export const prerender = false;
+
 const pathname = Astro.url.pathname;
 const locale = getLangFromUrl(pathname);
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
-// ── getStaticPaths ─────────────────────────────────────────────────────────────
-
-export async function getStaticPaths() {
-  const allArticoli = await getAllArticoli();
-  const pairsCount = allArticoli.reduce((acc: Record<string, { it?: boolean; en?: boolean }>, a) => {
-    const key = String(a.wp_id ?? '');
-    if (!key) return acc;
-    if (!acc[key]) acc[key] = {};
-    if (a.lang === 'en') acc[key].en = true;
-    else acc[key].it = true;
-    return acc;
-  }, {});
-  const nCoppie = Object.values(pairsCount).filter((p) => p.it && p.en).length;
-  console.log('[blog/[...slug].astro] getStaticPaths: articoli =', allArticoli.length, '| coppie IT+EN =', nCoppie);
-  return allArticoli.map((articolo) => ({
-    params: { slug: articolo.slug },
-    props: { articolo, allArticoli },
-  }));
+// ── Fetch articolo corrente da Directus ───────────────────────────────────────
+const slugParam = Astro.params.slug as string;
+const articolo = await getArticoloBySlug(slugParam);
+if (!articolo) {
+  return Astro.redirect('/404', 302);
 }
 
-// ── Dati da props (nessuna chiamata Directus nel render) ───────────────────────
+// Cache: Cloudflare CDN serve dalla cache per 24h.
+// SWR 1h: primo visitatore dopo scadenza ottiene contenuto stale mentre edge rigenera.
+// stale-if-error 7gg: se Directus è down, serve l'ultimo contenuto valido.
+// Il webhook di Directus invalida la cache al momento della pubblicazione.
+Astro.response.headers.set(
+  'Cache-Control',
+  'public, s-maxage=86400, stale-while-revalidate=3600, stale-if-error=604800'
+);
 
-const { articolo, allArticoli } = Astro.props;
+// ── Fetch correlati necessari (no getAllArticoli) ─────────────────────────────
+const correlatiTuttiSlug: string[] = (correlatiMap as Record<string, string[]>)[articolo.slug] ?? [];
+// Traduzione alternativa: campo già incluso nell'articolo via Directus
+const alternateSlug = articolo.articolo_traduzione?.slug ?? null;
+const slugsDaFetchare = Array.from(new Set([
+  ...correlatiTuttiSlug.slice(0, 6), // 1 leggi-anche + 3 correlati in calce + margine
+  ...(alternateSlug ? [alternateSlug] : []),
+]));
+const correlatiArticoli = await getArticoliBySlugList(slugsDaFetchare);
+const slugToArticolo = Object.fromEntries(correlatiArticoli.map((a) => [a.slug, a]));
+
+// Alternate language URL
+const alternateArticleUrl = alternateSlug ? `/blog/${alternateSlug}` : null;
 
 // ── Helper functions ───────────────────────────────────────────────────────────
 
@@ -82,7 +91,6 @@ const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/asset
 const authorBio: string | null = authorBioHtml;
 
 const readingTime = calculateReadingTimeFromHtml(articolo.corpo);
-const slugToArticolo = Object.fromEntries(allArticoli.map((a) => [a.slug, a]));
 
 // ── Leggi anche — split corpo dopo il 3° </p> ─────────────────────────────────
 function splitCorpoAfterNthParagraph(html: string, n: number): [string, string] {
@@ -208,35 +216,23 @@ const copeertinaUrl: string | null = null;
 const isTranslation = articolo.lang === 'en';
 
 // ── Language switcher ──────────────────────────────────────────────────────────
-
+// alternateArticleUrl è già calcolato sopra tramite articolo_traduzione da Directus
 const isCurrentEn = articolo.lang === 'en';
-const currentWpIdClean = String(articolo.wp_id ?? '');
 const currentSlug = articolo.slug;
 
-const alternateItem = currentWpIdClean
-  ? allArticoli.find((a) =>
-      String(a.wp_id) === currentWpIdClean &&
-      a.id !== articolo.id &&
-      (a.lang === 'en' ? !isCurrentEn : isCurrentEn)
-    )
-  : null;
-const alternateArticleUrl = alternateItem ? `/blog/${alternateItem.slug}` : null;
-
-// ── wpIdToSlugMap ──────────────────────────────────────────────────────────────
-
+// ── wpIdToSlugMap — solo dai correlati fetchati (usato per link inline nel corpo) ──
 const wpIdToSlugMap: Record<number, string> = {};
-for (const a of allArticoli) {
+for (const a of correlatiArticoli) {
   if (a.wp_id && a.slug) wpIdToSlugMap[a.wp_id] = a.slug;
 }
 
-// ── inContentRelatedMap ────────────────────────────────────────────────────────
-
+// ── inContentRelatedMap — solo per articoli correlati già fetchati ─────────────
 const inContentRelatedMap: Record<string, {
   title: string; image: string | null; excerpt: string | null;
   href: string; category?: string | null; lang?: string; isItalian?: boolean;
 }> = {};
 
-for (const a of allArticoli) {
+for (const a of correlatiArticoli) {
   const imgUrl = getArticoloCopertinaSrc(a);
   const lang = a.lang;
   const isItalian = lang !== 'en';
@@ -257,27 +253,15 @@ for (const a of allArticoli) {
 const correlatiSlugs: string[] = (correlatiMap as Record<string, string[]>)[articolo.slug] ?? [];
 
 const relatedArticles = (() => {
-  // Prova correlati UMAP: salta il primo (già usato nel box "Leggi anche"), max 3
+  // Correlati UMAP: salta il primo (già usato nel box "Leggi anche"), max 3
+  // Usa solo gli articoli già fetchati con getArticoliBySlugList
   const umap = correlatiSlugs
     .filter((s) => s !== leggiAncheSlug)
     .map((s) => slugToArticolo[s])
     .filter((a) => a && a.id !== articolo.id && (isCurrentEn ? a.lang === 'en' : a.lang !== 'en'))
     .slice(0, 3);
 
-  // Fallback categoria se UMAP insufficienti
-  const needed = 3 - umap.length;
-  const usedIds = new Set([articolo.id, ...umap.map((a) => a.id)]);
-  const catFallback = needed > 0 && categorySlug
-    ? allArticoli
-        .filter((a) => {
-          if (usedIds.has(a.id)) return false;
-          const isSameLang = isCurrentEn ? a.lang === 'en' : a.lang !== 'en';
-          return isSameLang && getCategorySlugForArticle(a) === categorySlug;
-        })
-        .slice(0, needed)
-    : [];
-
-  return [...umap, ...catFallback].map((a) => {
+  return umap.map((a) => {
     const labels = getLabels([], a);
     const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a);
     return {

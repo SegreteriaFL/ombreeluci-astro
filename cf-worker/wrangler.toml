@@ -5,3 +5,8 @@ compatibility_date = "2024-01-01"
 routes = [
   { pattern = "ombreeluci.it/*", zone_name = "ombreeluci.it" }
 ]
+
+# Secrets (NON mettere valori reali qui — impostare con: wrangler secret put NOME)
+# REVALIDATE_SECRET  — secret condiviso con Directus (genera con: openssl rand -hex 32)
+# CF_ZONE_ID         — Zone ID del dominio ombreeluci.it (CF Dashboard → Overview)
+# CF_PURGE_TOKEN     — CF API Token con permesso "Cache Purge" su ombreeluci.it

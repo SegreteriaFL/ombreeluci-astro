@@ -1,7 +1,6 @@
 ---
 import logo from '../assets/logo.svg';
-import { readFileSync } from 'fs';
-import { join } from 'path';
+import numeriData from '../../scripts_and_data/datasets/numeri_rivista/numeri_wp_FINAL.json';
 import { getThemesWithSlugs } from '../config/taxonomy.js';
 import { getLangFromUrl, t } from '../utils/i18n';
 import LanguageSelector from './LanguageSelector.astro';
@@ -14,10 +13,6 @@ interface Props {
 // quando usato da BaseLayout senza prop esplicita
 const { pathname = Astro.url.pathname, alternateArticleUrl = null } = Astro.props;
 const lang = getLangFromUrl(pathname);
-
-// Carica numeri rivista
-const numeriPath = join(process.cwd(), 'scripts_and_data', 'datasets', 'numeri_rivista', 'numeri_wp_FINAL.json');
-const numeriData = JSON.parse(readFileSync(numeriPath, 'utf-8'));
 
 // Ultimo numero
 const ultimoNumero = numeriData

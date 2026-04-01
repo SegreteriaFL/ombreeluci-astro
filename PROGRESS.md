@@ -102,7 +102,114 @@
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
 | WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
+| ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — aggiornamento editoriale quasi real-time senza full rebuild. Manca: configurare secrets Worker + Directus Flow (vedi istruzioni sotto). |
 | — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale. Prerequisiti: tutti i pre-lancio completati + validazione staging ok. |
+
+### ARCH-04 — Hybrid SSR + Directus webhook + CF edge cache
+
+**Obiettivo:** quando un redattore salva un articolo in Directus, il sito aggiornato è visibile entro ~5 secondi. Nessuna build da 10 minuti.
+
+**Architettura:**
+
+```
+Redattore salva articolo in Directus
+    │
+    ▼
+Directus Flow (trigger: items.update su "articoli")
+    │  POST {slug, secret} a CF Worker webhook endpoint
+    ▼
+CF Worker: verifica secret, chiama CF Cache Purge API
+    │  DELETE https://api.cloudflare.com/client/v4/zones/{zone_id}/purge_cache
+    │  body: { "files": ["https://ombreeluci.it/blog/{slug}/"] }
+    ▼
+Cloudflare invalida la cache per quell'URL
+    │
+    ▼
+Prossimo visitatore: CF edge richiede la pagina a Cloudflare Pages
+    │  blog/[...slug].astro → prerender:false → SSR on-demand
+    │  Legge dati freschi da Directus, renderizza, mette in cache (Cache-Control: s-maxage=86400)
+    ▼
+Risposta in <200ms (edge rendering), poi in cache per i successivi visitatori
+```
+
+**Componenti da implementare:**
+
+1. **`astro.config.mjs`** — aggiungere `@astrojs/cloudflare` adapter + `output: 'hybrid'`
+   - Pagine strutturali: mantengono `export const prerender = true` (o nessun export, default hybrid)
+   - `blog/[...slug].astro`: aggiungere `export const prerender = false`
+   - Attenzione: `getStaticPaths()` va rimosso da `[...slug].astro`, la route diventa dinamica
+
+2. **`src/pages/blog/[...slug].astro`** — refactor da getStaticPaths a params dinamici:
+   ```ts
+   export const prerender = false;
+   const { slug } = Astro.params;
+   const articolo = await getArticoloBySlug(slug); // nuova funzione in directus.ts
+   if (!articolo) return Astro.redirect('/404', 404);
+   // Imposta cache lunga, invalidata solo da webhook
+   Astro.response.headers.set('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate=3600');
+   ```
+
+3. **`src/lib/directus.ts`** — aggiungere `getArticoloBySlug(slug)` che fetcha singolo articolo
+
+4. **`cf-worker/redirect-worker.js`** — aggiungere endpoint webhook:
+   ```js
+   // POST /api/revalidate  {slug, secret}
+   // verifica secret, chiama CF Cache Purge API, ritorna {ok: true}
+   ```
+   Secret condiviso salvato come CF Worker secret (non in codice).
+
+5. **Directus Flow** — configurare nel pannello Directus:
+   - Trigger: `items.update` e `items.create` sulla collezione `articoli`
+   - Condition: `stato === 'published'`
+   - Action: Webhook POST a `https://ombreeluci.it/api/revalidate` con body `{slug: "{{slug}}", secret: "{{$env.REVALIDATE_SECRET}}"}`
+
+**Trade-off e limitazioni:**
+- Pagefind (ricerca full-text) si aggiorna solo al build notturno schedulato — accettabile: un articolo nuovo appare nei risultati di ricerca entro 24h
+- `getAllArticoli()` usato in home/categoria/autori resta statico (build) — le listing si aggiornano al build notturno, solo la pagina articolo singola è live
+- Se si vuole anche listing live: aggiungere `prerender: false` + cache invalidation anche per `/categoria/*` e home (più complesso, post-lancio)
+- Correlati in calce fallback per categoria rimosso in SSR (troppo costoso senza `allArticoli`): 3 articoli UMAP, nessun fallback categoria
+
+**Cosa è stato implementato (2026-04-01):**
+- `astro.config.mjs`: `output: 'hybrid'` + adapter `@astrojs/cloudflare`
+- `blog/[...slug].astro`: `export const prerender = false`, SSR on-demand, cache headers `s-maxage=86400, stale-while-revalidate=3600, stale-if-error=604800`
+- `src/lib/directus.ts`: aggiunta `getArticoliBySlugList()` per fetch correlati mirato
+- `cf-worker/redirect-worker.js`: aggiunto endpoint `POST /api/revalidate` con verifica secret, CF Cache Purge API, prewarm silenzioso
+
+**Setup richiesto (da fare manualmente — 15 min):**
+
+1. Genera il secret:
+   ```bash
+   openssl rand -hex 32
+   ```
+
+2. Configura i secrets del Worker:
+   ```bash
+   cd cf-worker
+   wrangler secret put REVALIDATE_SECRET   # incolla il valore generato sopra
+   wrangler secret put CF_ZONE_ID          # da CF Dashboard → ombreeluci.it → Overview (destra)
+   wrangler secret put CF_PURGE_TOKEN      # CF Dashboard → My Profile → API Tokens → Create Token
+                                            # Template: "Cache Purge" → Zone: ombreeluci.it
+   ```
+
+3. Deploy Worker aggiornato:
+   ```bash
+   cd cf-worker && wrangler deploy
+   ```
+
+4. Configura Directus Flow (pannello Directus → Flows → Nuovo Flow):
+   - **Nome:** `Pubblica articolo → Purge cache`
+   - **Trigger:** Event Hook → `items.update` e `items.create` → collezione `articoli`
+   - **Condition:** `{{ $trigger.payload.stato }} === 'published'`
+   - **Action:** Webhook / Request
+     - Method: POST
+     - URL: `https://ombreeluci.it/api/revalidate`
+     - Body: `{"slug": "{{ $trigger.payload.slug }}", "secret": "IL_SECRET_GENERATO_AL_PASSO_1"}`
+     - Headers: `Content-Type: application/json`
+
+**Variabili d'ambiente necessarie (Worker secrets):**
+- `REVALIDATE_SECRET` — secret condiviso Directus↔Worker
+- `CF_ZONE_ID` — Zone ID del dominio ombreeluci.it
+- `CF_PURGE_TOKEN` — CF API Token con permesso `Cache Purge` su ombreeluci.it
 
 ---
 

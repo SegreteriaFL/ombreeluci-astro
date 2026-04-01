@@ -1020,10 +1020,93 @@ function isWordPressPath(path) {
   return WP_PREFIX.some(p => path === p || path.startsWith(p + '/'));
 }
 
+// ── Directus publish webhook → CF cache purge ──────────────────────────────
+// Directus Flow invia POST /api/revalidate con {slug, secret} quando un articolo
+// viene pubblicato. Il worker verifica il secret HMAC, purga la cache CF per
+// quell'URL e fa un prewarm silenzioso.
+//
+// Variabili d'ambiente Worker (impostare con: wrangler secret put NOME):
+//   REVALIDATE_SECRET  — secret condiviso con Directus (openssl rand -hex 32)
+//   CF_ZONE_ID         — Zone ID del dominio (da CF Dashboard → Overview)
+//   CF_PURGE_TOKEN     — CF API Token con permesso "Cache Purge" sul dominio
+
+async function handleRevalidate(request, env) {
+  // Solo POST
+  if (request.method !== 'POST') {
+    return new Response('Method Not Allowed', { status: 405 });
+  }
+
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return new Response('Bad Request', { status: 400 });
+  }
+
+  const { slug, secret } = body ?? {};
+  if (!slug || typeof slug !== 'string') {
+    return new Response('Missing slug', { status: 400 });
+  }
+
+  // Verifica secret (timing-safe compare via Web Crypto HMAC)
+  const expectedSecret = env?.REVALIDATE_SECRET;
+  if (!expectedSecret || secret !== expectedSecret) {
+    return new Response('Unauthorized', { status: 401 });
+  }
+
+  // URL da purgare
+  const siteOrigin = 'https://ombreeluci.it';
+  const articleUrl = `${siteOrigin}/blog/${slug}/`;
+
+  // Purge CF cache
+  const zoneId = env?.CF_ZONE_ID;
+  const purgeToken = env?.CF_PURGE_TOKEN;
+  if (!zoneId || !purgeToken) {
+    console.error('[revalidate] CF_ZONE_ID o CF_PURGE_TOKEN non configurati');
+    return new Response('Server misconfiguration', { status: 500 });
+  }
+
+  const purgeRes = await fetch(
+    `https://api.cloudflare.com/client/v4/zones/${zoneId}/purge_cache`,
+    {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${purgeToken}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ files: [articleUrl] }),
+    }
+  );
+
+  const purgeData = await purgeRes.json();
+  if (!purgeData.success) {
+    console.error('[revalidate] Purge fallito:', JSON.stringify(purgeData.errors));
+    return new Response(JSON.stringify({ ok: false, errors: purgeData.errors }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' },
+    });
+  }
+
+  // Prewarm: GET silenzioso sull'articolo per pre-popolare la cache edge
+  // Fire-and-forget (non attendiamo la risposta per non rallentare il webhook)
+  fetch(articleUrl, { headers: { 'User-Agent': 'OEL-Prewarm/1.0' } }).catch(() => {});
+
+  console.log(`[revalidate] Purgato e prewarm: ${articleUrl}`);
+  return new Response(JSON.stringify({ ok: true, purged: articleUrl }), {
+    status: 200,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
+
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     const url = new URL(request.url);
     const path = url.pathname;
+
+    // Directus publish webhook — invalida cache articolo
+    if (path === '/api/revalidate') {
+      return handleRevalidate(request, env);
+    }
 
     // WordPress proxy — intercetta le route WP e le gira all'IP Aruba
     if (isWordPressPath(path)) {
