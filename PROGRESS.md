@@ -19,6 +19,8 @@
 
 **Formula da ricordare:** *nessun commit che cambia routing o origine senza baseline documentata e prova sul perimetro reale (staging o curl verso produzione controllata).*
 
+**CSS — regola assoluta (non negoziabile):** usare **sempre le classi globali esistenti** (`global.css`: `.container`, `.site-main`, ecc.). **Vietato** creare classi custom per singola pagina, aggiungere blocchi `<style>` locali per utility già coperte, o inventare `.nome-pagina-container` senza definizione nel CSS globale. Se la classe non esiste e il pattern è generico, si aggiunge a `global.css` — non si crea una pezza locale. Stili inline ammessi solo per micro-aggiustamenti puntuali (`padding-top: 2rem`) non ripetibili altrove.
+
 **Agenti (Cursor / Claude):** per **audit o diagnosi** richiesti senza parola d’ordine di implementazione, vale la regola di progetto in `.cursor/rules/audit-diagnosi-sola-lettura.mdc` — **solo lettura**, nessun commit/deploy, per non sovrapporre interventi con altri strumenti sullo stesso incidente.
 
 ---
