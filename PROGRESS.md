@@ -1,6 +1,6 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-02 (checklist staging + regole operative sotto)
+**Ultimo aggiornamento:** 2026-04-02 (revert a static — ARCH-04 sospeso) (checklist staging + regole operative sotto)
 **Stato:** Stack Astro+Directus attivo su staging. WordPress su Aruba resta online fino al cutover DNS finale.
 
 ---
@@ -118,6 +118,7 @@
 |----|--------|-------------|
 | ARCH-01 | ✅ Fatto | **`BaseHead.astro`** — componente condiviso per tutto il `<head>`. Props: `title`, `description`, `ogImage?`, `ogType?`, `canonical?`, `noindex?`, `lang?`, `alternates?`. Contiene: charset, viewport, favicon (png+svg+ico), title con separatore `–` automatico, meta description, Open Graph completo, Twitter Card, canonical, hreflang, Google Site Verification, preconnect R2, ViewTransitions, slot per tag extra (JSON-LD). |
 | ARCH-02 | ✅ Fatto | **`BaseLayout.astro`** — wrapper `<html lang>+<head>+<body>` con slot. Props passate a BaseHead + `bodyClass` + `alternateArticleUrl` (per LanguageSelector). Slot: default (contenuto pagina) e `head` (JSON-LD, meta custom). Usato da tutte le 22 pagine del sito. Pagine custom verticali (serie, dossier) possono iniettare hero full-width e sezioni arbitrarie nello slot default. |
+| ARCH-05 | 🔴 Prerequisito ARCH-04 | **Ambiente test locale edge CF** — prima di riattivare ARCH-04 SSR, configurare `wrangler pages dev` localmente per simulare il runtime CF Pages (env.ASSETS, locals.runtime.env). Senza questo non è possibile debuggare 500/404 SSR prima del deploy. Vedi istruzioni complete nella sezione ARCH-04. |
 | ARCH-03 | ✅ Fatto | **CSS vars breakpoint** — in `global.css` `:root`: `--bp-mobile: 480px`, `--bp-tablet: 768px`, `--bp-desktop: 1024px`, `--bp-wide: 1280px`. Documentati come riferimento (non usabili direttamente in `@media` queries CSS nativo). |
 
 ### Pre-lancio
@@ -135,10 +136,13 @@
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
 | WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
-| ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — purge via `src/pages/api/revalidate.ts` e env **CF Pages**; Directus Flow operativo (vedi sotto). Dopo ogni modifica al Worker: `cd cf-worker && npx wrangler deploy`. |
+| ARCH-04 | ⏸ Sospeso | **Hybrid SSR + edge cache invalidation** — Implementato e rivertito (vedi sezione dedicata sotto). Da riprendere con ambiente di test locale prima di qualsiasi deploy. |
 | — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale. Prerequisiti: tutti i pre-lancio completati + validazione staging ok. |
 
 ### ARCH-04 — Hybrid SSR + Directus webhook + CF edge cache
+
+> **STATO ATTUALE (2026-04-02): SOSPESO — sito in output:static stabile.**
+> Tutto il codice SSR è in repo ma `astro.config.mjs` e `blog/[...slug].astro` sono tornati alla versione statica (commit `30a75ecd`). Prima di riattivare: seguire il protocollo di test locale sotto.
 
 **Obiettivo:** quando un redattore salva un articolo in Directus, il sito aggiornato è visibile entro ~5 secondi. Nessuna build da 10 minuti.
 
@@ -238,13 +242,53 @@ Cache-Control: s-maxage=86400, stale-while-revalidate=3600, stale-if-error=60480
 - Se si supera ~50.000 voci o si passa a piano Pro: migrare a CF Bulk Redirects (max 20 liste × 1000 voci su Pro)
 - La regex date-based resta sempre nel middleware (1 riga, zero overhead)
 
-**Percorso per arrivarci — errori e soluzioni:**
+**Storia completa — errori, cause e lezioni:**
 
-1. **Primo tentativo (fallito):** `output: hybrid` + CF adapter → Worker `ombreeluci-redirects` con route `ombreeluci.it/*` + `fetch(request)` per pass-through. Risultato: 404 ovunque. Causa: il `_worker.js` di Astro usa `env.ASSETS` per servire file statici; questo binding non è disponibile quando la richiesta arriva tramite subrequest da un Worker esterno.
+1. **Primo tentativo (fallito, 2026-04-01):** `output: hybrid` + CF adapter, Worker con route `ombreeluci.it/*` + `fetch(request)` pass-through. Risultato: **404 ovunque**. Causa: `env.ASSETS` non disponibile nel subrequest esterno.
 
-2. **Service binding (tentato, non disponibile):** Aggiunto `[[services]] binding="PAGES" service="ombreeluci-staging"` in wrangler.toml. CF restituisce errore 10143: i service binding funzionano tra Worker scripts, non verso Pages projects (namespace diverso).
+2. **Service binding (tentato, non disponibile):** `[[services]] binding="PAGES" service="ombreeluci-staging"`. CF errore 10143: service binding funzionano solo tra Worker scripts, non verso Pages projects.
 
-3. **Soluzione finale:** Mantenere `ombreeluci.it/*` sul Worker (DNS spesso ancora Aruba). Invece di `fetch(request)` verso origin, **`forwardToPages`** verso `PAGES_ORIGIN` (*.pages.dev), header `Host` rimosso sulla subrequest. Redirect legacy restano nel Worker; `/api/revalidate` solo in Astro (env Pages). Contesto `env.ASSETS` ok perché static e SSR sono serviti dal progetto Pages.
+3. **Errore metodologico critico:** rimosso il route `ombreeluci.it/*` dal Worker credendo di "eliminare il conflitto". Risultato: **sito mostrava WordPress** perché il DNS punta ancora ad Aruba — il Worker con `/*` era l'unico ponte verso Pages. Lezione: **non toccare routing senza mappare prima la catena DNS → Worker → origine.**
+
+4. **Secondo tentativo (Cursor, 2026-04-02):** Worker ripristinato con `forwardToPages` verso `PAGES_ORIGIN = https://ombreeluci-staging.pages.dev`. Articoli: prima 302 (Directus non raggiunto), poi 500 (errore rendering). Cause identificate: `DIRECTUS_URL` baked con IP VPS privato (`http://159.69.196.64:8055`) irraggiungibile dall'edge; `getArticoloBySlug` non passava `creds` a `directusFetch` (bug di omissione). Entrambi fixati ma il 500 persisteva.
+
+5. **Revert a output:static (2026-04-02):** con 500 persistente e causa non identificata prima di deployare in produzione, ripristino sicuro. Commit `30a75ecd`. Il 500 a runtime su CF Pages va debuggato **localmente** con `wrangler pages dev` prima di qualsiasi push.
+
+**Codice SSR già pronto in repo (da riattivare):**
+- `src/lib/directus.ts`: `directusCredsFromAstroLocals()`, `getArticoloBySlug(slug, creds)`, `getArticoliBySlugList(slugs, creds)`
+- `src/pages/api/revalidate.ts`: endpoint purge (secrets da runtime CF Pages)
+- `src/middleware.ts` + `src/data/redirects-legacy.json`: redirect legacy (~1001 slug + regex date WP)
+- `cf-worker/redirect-worker.js`: `forwardToPages()` verso `PAGES_ORIGIN`
+- Directus Flow configurato: ID `a6c7417d-9996-413f-a7db-334c73c9982a`
+- CF Pages env vars: `DIRECTUS_URL=https://cms.ombreeluci.it`, `DIRECTUS_TOKEN`, `REVALIDATE_SECRET`, `CF_ZONE_ID`, `CF_PURGE_TOKEN`
+
+**Per riattivare — protocollo obbligatorio (vedi ARCH-05 nel backlog):**
+
+```
+1. Configura ambiente locale:
+   - npm install (già fatto)
+   - cp .env .env.local  (DIRECTUS_URL=https://cms.ombreeluci.it, DIRECTUS_TOKEN=...)
+   - npx astro dev  →  verifica articolo su http://localhost:4321/blog/amici-di-simone/
+
+2. Riabilita SSR:
+   - astro.config.mjs: output: 'hybrid' + adapter cloudflare
+   - blog/[...slug].astro: export const prerender = false
+   - Verifica build locale: npm run build (deve completare, 0 errori)
+
+3. Test edge locale con wrangler pages dev:
+   npx wrangler pages dev ./dist --port 8788
+   curl http://localhost:8788/blog/amici-di-simone/  → deve essere 200 con HTML articolo
+   (questo simula il runtime CF Pages con env.ASSETS e locals.runtime.env)
+
+4. Solo se step 3 è 200: git push → attendi build Pages → smoke test staging → deploy Worker
+```
+
+**Baseline da verificare prima di ogni push (formula Cursor):**
+```
+Baseline: ombreeluci-staging.pages.dev/blog/amici-di-simone/ = 200
+Cambio: output hybrid + SSR
+Verifica: curl staging/blog/amici-di-simone/ = 200 con HTML articolo (non 302/404/500)
+```
 
 ---
 
@@ -316,10 +360,12 @@ Cache-Control: s-maxage=86400, stale-while-revalidate=3600, stale-if-error=60480
 
 ### 2026-04-02
 
-- **Fix SSR articoli su CF Pages (404)** — `DIRECTUS_*` da `Astro.locals.runtime.env` + `directusCredsFromAstroLocals`; default `https://cms.ombreeluci.it` (edge non usa più IP VPS come fallback). `getArticoloBySlug` / `getArticoliBySlugList` accettano credenziali opzionali.
-- **Favicon** — `BaseHead` solo `/favicon.svg` (`.png` / `.ico` assenti in `public` generavano 404 e browser generici).
-- **Worker `ombreeluci.it/*` + `forwardToPages`** — Ripristinato route globale: con DNS su Aruba e route solo WP il sito pubblico mostrava WordPress. Pass-through verso `PAGES_ORIGIN` (non `fetch(request)`). Purge solo in Astro. Build locale verificata; checklist staging in cima documento.
-- **docs** — PROGRESS: Pagefind vs hybrid, checklist env Directus build+runtime.
+- **Revert ARCH-04 a output:static** — ARCH-04 SSR ha prodotto 500 persistente su CF Pages edge dopo multipli tentativi e fix. Causa finale non identificata prima di poter deployare sicuro. Decisione: ripristino `output:static` + `blog/[...slug].astro` statico (commit `30a75ecd`). Sito stabile. ARCH-04 sospeso fino a test locale con `wrangler pages dev`. Tutti i fix intermedi (credenziali runtime, `getArticoloBySlug` con creds, DIRECTUS_URL corretto) restano in repo in `src/lib/directus.ts` — non vanno persi.
+- **Fix `getArticoloBySlug`** — non passava `creds` a `directusFetch` (omissione, commit `f26608a6`). Corretto ma non sufficiente a risolvere il 500.
+- **DIRECTUS_URL in CF Pages** — aggiornato da `http://159.69.196.64:8055` (IP VPS, irraggiungibile da edge CF) a `https://cms.ombreeluci.it` (tunnel cloudflared, raggiungibile). Fix necessario e permanente.
+- **Errore metodologico documentato** — rimozione route `/*` dal Worker senza mappare la catena DNS prima → sito su `ombreeluci.it` mostrava WordPress. Regole operative aggiunte da Cursor (commit `292d6cf8`): mai toccare routing senza baseline documentata + smoke test immediato.
+- **Favicon** — `BaseHead.astro` semplificato a solo `favicon.svg` (png/ico assenti in `public/` generavano 404 silenziose).
+- **Fix layout `cerca.astro` e `blog/en.astro`** — tag `</body></html>` spurii residui dalla batch migration a BaseLayout rimossi.
 
 ### 2026-04-01
 
