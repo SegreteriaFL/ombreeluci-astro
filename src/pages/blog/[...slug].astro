@@ -1,5 +1,12 @@
 ---
-import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getAutoreImageUrl, COPERTINA_IMG_ONERROR } from '../../lib/directus';
+import {
+  getArticoloBySlug,
+  getArticoliBySlugList,
+  getArticoloCopertinaSrc,
+  getAutoreImageUrl,
+  COPERTINA_IMG_ONERROR,
+  directusCredsFromAstroLocals,
+} from '../../lib/directus';
 import { getPlaceholder } from '../../utils/placeholder';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -18,7 +25,8 @@ const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
 // ── Fetch articolo corrente da Directus ───────────────────────────────────────
 const slugParam = Astro.params.slug as string;
-const articolo = await getArticoloBySlug(slugParam);
+const directusCreds = directusCredsFromAstroLocals(Astro.locals);
+const articolo = await getArticoloBySlug(slugParam, directusCreds);
 if (!articolo) {
   return Astro.redirect('/404', 302);
 }
@@ -40,7 +48,7 @@ const slugsDaFetchare = Array.from(new Set([
   ...correlatiTuttiSlug.slice(0, 6), // 1 leggi-anche + 3 correlati in calce + margine
   ...(alternateSlug ? [alternateSlug] : []),
 ]));
-const correlatiArticoli = await getArticoliBySlugList(slugsDaFetchare);
+const correlatiArticoli = await getArticoliBySlugList(slugsDaFetchare, directusCreds);
 const slugToArticolo = Object.fromEntries(correlatiArticoli.map((a) => [a.slug, a]));
 
 // Alternate language URL

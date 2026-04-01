@@ -152,7 +152,8 @@ Visitatori: blog/[...slug].astro SSR → Directus → Cache-Control edge
 - **Directus Flow** — POST a `https://ombreeluci.it/api/revalidate` con body JSON `{ "slug": "...", "secret": "..." }` allineato a `REVALIDATE_SECRET`
 
 **Trade-off e limitazioni:**
-- Pagefind (ricerca full-text) si aggiorna solo al build notturno schedulato — accettabile: un articolo nuovo appare nei risultati di ricerca entro 24h
+- **Pagefind:** indicizza solo gli HTML **statici** emessi in `dist`. Con `blog/[...slug]` in SSR **non** esiste un file HTML per ogni articolo IT, quindi la ricerca copre centinaia di pagine (home, categorie, archivio, ecc.) ma **non** il corpus completo degli articoli finché resta hybrid così. Fix possibili: tornare a prerender articoli (build lunga, indice completo) o motore esterno (es. Algolia). Gli articoli comunque si aprono se l’SSR Directus è configurato.
+- Pagefind si aggiorna al build — articolo nuovo: visibile subito sulla URL articolo dopo purge, in ricerca solo se la pagina è nel grafo indicizzabile o dopo strategia diversa.
 - `getAllArticoli()` usato in home/categoria/autori resta statico (build) — le listing si aggiornano al build notturno, solo la pagina articolo singola è live
 - Se si vuole anche listing live: aggiungere `prerender: false` + cache invalidation anche per `/categoria/*` e home (più complesso, post-lancio)
 - Correlati in calce fallback per categoria rimosso in SSR (troppo costoso senza `allArticoli`): 3 articoli UMAP, nessun fallback categoria
@@ -198,7 +199,7 @@ Cache-Control: s-maxage=86400, stale-while-revalidate=3600, stale-if-error=60480
 |------|--------|--------|
 | 1 | `git push origin main` → attendi deploy **CF Pages** (`ombreeluci-staging`) verde | automatico su push |
 | 2 | `cd cf-worker && npx wrangler deploy` dopo ogni cambio Worker | manuale |
-| 3 | CF Pages → **Settings → Environment variables** (production): `DIRECTUS_URL`, `DIRECTUS_TOKEN`, `REVALIDATE_SECRET`, `CF_ZONE_ID`, `CF_PURGE_TOKEN` | verifica dashboard |
+| 3 | CF Pages → **Environment variables** (production): `DIRECTUS_URL` (es. `https://cms.ombreeluci.it`), `DIRECTUS_TOKEN`, `REVALIDATE_*`, `CF_*`. **Critico:** devono esistere sia per **build** che per **runtime** (l’SSR articolo legge `locals.runtime.env`; default URL in codice punta al CMS pubblico). |
 | 4 | Directus Flow attivo su publish articolo → POST `/api/revalidate` | vedi flow ID sotto |
 | 5 | Smoke test | `https://ombreeluci-staging.pages.dev` homepage + articolo; se usi apex: `https://ombreeluci.it` dopo step 2 |
 
@@ -297,8 +298,10 @@ Cache-Control: s-maxage=86400, stale-while-revalidate=3600, stale-if-error=60480
 
 ### 2026-04-02
 
+- **Fix SSR articoli su CF Pages (404)** — `DIRECTUS_*` da `Astro.locals.runtime.env` + `directusCredsFromAstroLocals`; default `https://cms.ombreeluci.it` (edge non usa più IP VPS come fallback). `getArticoloBySlug` / `getArticoliBySlugList` accettano credenziali opzionali.
+- **Favicon** — `BaseHead` solo `/favicon.svg` (`.png` / `.ico` assenti in `public` generavano 404 e browser generici).
 - **Worker `ombreeluci.it/*` + `forwardToPages`** — Ripristinato route globale: con DNS su Aruba e route solo WP il sito pubblico mostrava WordPress. Pass-through verso `PAGES_ORIGIN` (non `fetch(request)`). Purge solo in Astro. Build locale verificata; checklist staging in cima documento.
-- **docs** — PROGRESS: diagramma ARCH-04, tabella infra e “errori e soluzioni” allineati al comportamento reale (Worker + Pages).
+- **docs** — PROGRESS: Pagefind vs hybrid, checklist env Directus build+runtime.
 
 ### 2026-04-01
 

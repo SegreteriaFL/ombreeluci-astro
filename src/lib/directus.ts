@@ -5,8 +5,34 @@
  * Tutte le pagine importano da qui — nessuna chiamata fetch diretta nelle pagine.
  */
 
-const DIRECTUS_URL: string = import.meta.env.DIRECTUS_URL ?? 'http://159.69.196.64:8055';
-const DIRECTUS_TOKEN: string = import.meta.env.DIRECTUS_TOKEN ?? '';
+/** URL raggiungibile da Cloudflare edge (evitare IP privato/non instradato). */
+const DEFAULT_DIRECTUS_PUBLIC = 'https://cms.ombreeluci.it';
+
+const DIRECTUS_URL: string =
+  (import.meta.env.DIRECTUS_URL as string | undefined)?.trim() || DEFAULT_DIRECTUS_PUBLIC;
+const DIRECTUS_TOKEN: string =
+  (import.meta.env.DIRECTUS_TOKEN as string | undefined) ?? '';
+
+/** Override per SSR su CF Pages: token/URL da `locals.runtime.env`, non solo vite define (build). */
+export type DirectusRuntimeCreds = { url?: string; token?: string };
+
+function resolveCreds(creds?: DirectusRuntimeCreds): { url: string; token: string } {
+  const rawUrl = creds?.url?.trim() || DIRECTUS_URL || DEFAULT_DIRECTUS_PUBLIC;
+  const url = rawUrl.replace(/\/$/, '');
+  const token = creds?.token ?? DIRECTUS_TOKEN;
+  return { url, token };
+}
+
+/** CF Pages / Workers: leggi env runtime (non baked da Vite al build). */
+export function directusCredsFromAstroLocals(locals: unknown): DirectusRuntimeCreds | undefined {
+  const r = locals as { runtime?: { env?: Record<string, string> } } | null;
+  const env = r?.runtime?.env;
+  if (!env) return undefined;
+  const o: DirectusRuntimeCreds = {};
+  if (typeof env.DIRECTUS_URL === 'string' && env.DIRECTUS_URL.trim()) o.url = env.DIRECTUS_URL.trim();
+  if (typeof env.DIRECTUS_TOKEN === 'string' && env.DIRECTUS_TOKEN.trim()) o.token = env.DIRECTUS_TOKEN.trim();
+  return Object.keys(o).length ? o : undefined;
+}
 
 export function getImageUrl(fileId: string): string {
   return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/copertine/${fileId}`;
@@ -141,12 +167,13 @@ export interface NumeroRivista {
 
 // ── HTTP helper ───────────────────────────────────────────────────────────────
 
-async function directusFetch<T>(path: string): Promise<T | null> {
-  const url = `${DIRECTUS_URL}${path}`;
+async function directusFetch<T>(path: string, creds?: DirectusRuntimeCreds): Promise<T | null> {
+  const { url: base, token } = resolveCreds(creds);
+  const url = `${base}${path}`;
   try {
     const res = await fetch(url, {
       headers: {
-        Authorization: `Bearer ${DIRECTUS_TOKEN}`,
+        Authorization: `Bearer ${token}`,
         'Content-Type': 'application/json',
       },
     });
@@ -207,9 +234,13 @@ export async function getAllArticoli(): Promise<ArticoloFull[]> {
 /**
  * Articolo singolo completo per slug.
  */
-export async function getArticoloBySlug(slug: string): Promise<ArticoloFull | null> {
+export async function getArticoloBySlug(
+  slug: string,
+  creds?: DirectusRuntimeCreds
+): Promise<ArticoloFull | null> {
+  const slugClean = String(slug || '').replace(/\/$/, '');
   const params = new URLSearchParams({
-    'filter[slug][_eq]': slug,
+    'filter[slug][_eq]': slugClean,
     'filter[stato][_eq]': 'published',
     fields: [
       '*',
@@ -251,7 +282,10 @@ export async function getArticoliBySlugList(slugs: string[]): Promise<ArticoloLi
     ].join(','),
     limit: String(slugs.length),
   });
-  const data = await directusFetch<{ data: ArticoloListItem[] }>(`/items/articoli?${params}`);
+  const data = await directusFetch<{ data: ArticoloListItem[] }>(
+    `/items/articoli?${params}`,
+    creds
+  );
   return data?.data ?? [];
 }
 

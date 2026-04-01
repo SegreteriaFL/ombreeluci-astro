@@ -5,7 +5,8 @@ import cloudflare from '@astrojs/cloudflare';
 
 const env = loadEnv(process.env.NODE_ENV ?? 'development', process.cwd(), '');
 const DIRECTUS_TOKEN = env.DIRECTUS_TOKEN ?? process.env.DIRECTUS_TOKEN ?? '';
-const DIRECTUS_URL = env.DIRECTUS_URL ?? process.env.DIRECTUS_URL ?? 'http://159.69.196.64:8055';
+// Default pubblico: raggiungibile dal worker CF (tunnel). IP VPS raw spesso fallisce da edge.
+const DIRECTUS_URL = env.DIRECTUS_URL ?? process.env.DIRECTUS_URL ?? 'https://cms.ombreeluci.it';
 const MEDIA_BASE_URL = env.MEDIA_BASE_URL ?? process.env.MEDIA_BASE_URL ?? 'https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev';
 
 console.log('[config] DIRECTUS_URL:', DIRECTUS_URL);
