@@ -13,7 +13,9 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
 import { getLangFromUrl, t } from '../../utils/i18n';
 import autoriStats from '../../data/autori_stats.json';
-import correlatiMap from '../../data/correlati.json';
+// correlati.json (749KB) NON importato staticamente: causerebbe un bundle SSR >1MB
+// che supera il limite CF Pages Functions. Correlati disabilitati in SSR.
+const correlatiMap: Record<string, string[]> = {};
 import LeggiAnche from '../../components/LeggiAnche.astro';
 
 // ── Slug + fetch articolo ──────────────────────────────────────────────────────
