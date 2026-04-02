@@ -4,7 +4,7 @@ export const prerender = false;
 import {
   getArticoloBySlug, getArticoliBySlugList,
   getArticoloCopertinaSrc, getAutoreImageUrl, COPERTINA_IMG_ONERROR,
-  directusCredsFromAstroLocals,
+  directusCredsFromAstroLocals, type ArticoloListItem,
 } from '../../lib/directus';
 import { getPlaceholder } from '../../utils/placeholder';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -20,10 +20,17 @@ import LeggiAnche from '../../components/LeggiAnche.astro';
 
 const slug = String(Astro.params.slug || '').replace(/\/$/, '');
 const creds = directusCredsFromAstroLocals(Astro.locals);
-const articolo = await getArticoloBySlug(slug, creds);
+
+let articolo;
+try {
+  articolo = await getArticoloBySlug(slug, creds);
+} catch (err) {
+  console.error('[blog/[...slug]] getArticoloBySlug error:', err);
+  articolo = null;
+}
 
 if (!articolo) {
-  return new Response(null, { status: 404 });
+  return new Response('Not found', { status: 404 });
 }
 
 Astro.response.headers.set(
@@ -84,7 +91,12 @@ const readingTime = calculateReadingTimeFromHtml(articolo.corpo);
 // ── Fetch correlati (in SSR sostituisce allArticoli per le parti che ne hanno bisogno) ──
 
 const correlatiSlugs: string[] = (correlatiMap as Record<string, string[]>)[articolo.slug] ?? [];
-const correlatiArticoli = await getArticoliBySlugList(correlatiSlugs, creds);
+let correlatiArticoli: ArticoloListItem[] = [];
+try {
+  correlatiArticoli = await getArticoliBySlugList(correlatiSlugs, creds);
+} catch (err) {
+  console.error('[blog/[...slug]] getArticoliBySlugList error:', err);
+}
 const slugToArticolo = Object.fromEntries(correlatiArticoli.map((a) => [a.slug, a]));
 
 // ── Leggi anche — split corpo dopo il 3° </p> ─────────────────────────────────
