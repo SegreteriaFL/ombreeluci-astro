@@ -17,6 +17,7 @@ console.log('[config] DIRECTUS_URL:', DIRECTUS_URL);
 console.log('[config] DIRECTUS_TOKEN set:', DIRECTUS_TOKEN.length > 0);
 
 export default defineConfig({
+  site: 'https://ombreeluci.it',
   output: 'hybrid',
   adapter: cloudflare(),
   integrations: [pagefind()],

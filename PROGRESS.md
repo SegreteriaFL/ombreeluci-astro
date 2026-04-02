@@ -1,7 +1,7 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-02 (revert a static — ARCH-04 sospeso) (checklist staging + regole operative sotto)
-**Stato:** Stack Astro+Directus attivo su staging. WordPress su Aruba resta online fino al cutover DNS finale.
+**Ultimo aggiornamento:** 2026-04-02 (ARCH-04 completato e validato su staging)
+**Stato:** Stack Astro+Directus attivo su staging — hybrid SSR attivo, articoli serviti on-demand da Directus con edge cache CF. WordPress su Aruba resta online fino al cutover DNS finale.
 
 ---
 
@@ -138,13 +138,13 @@
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
 | WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
-| ARCH-04 | ⏸ Sospeso | **Hybrid SSR + edge cache invalidation** — Implementato e rivertito (vedi sezione dedicata sotto). Da riprendere con ambiente di test locale prima di qualsiasi deploy. |
+| ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — `blog/[...slug].astro` SSR on-demand, Cache-Control s-maxage=86400, `/api/revalidate` con dry-run guard. Testato localmente con wrangler pages dev + smoke test staging (200 articolo, 404 pulito). Commit `2e932bce`. |
 | — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale. Prerequisiti: tutti i pre-lancio completati + validazione staging ok. |
 
 ### ARCH-04 — Hybrid SSR + Directus webhook + CF edge cache
 
-> **STATO ATTUALE (2026-04-02): SOSPESO — sito in output:static stabile.**
-> Tutto il codice SSR è in repo ma `astro.config.mjs` e `blog/[...slug].astro` sono tornati alla versione statica (commit `30a75ecd`). Prima di riattivare: seguire il protocollo di test locale sotto.
+> **STATO ATTUALE (2026-04-02): COMPLETATO — sito in output:hybrid, staging validato.**
+> Testato localmente con `wrangler pages dev` + smoke test su `ombreeluci-staging.pages.dev`. Commit `2e932bce`.
 
 **Obiettivo:** quando un redattore salva un articolo in Directus, il sito aggiornato è visibile entro ~5 secondi. Nessuna build da 10 minuti.
 
