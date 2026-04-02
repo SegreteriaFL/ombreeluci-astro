@@ -53,3 +53,6 @@ scripts_and_data/scripts/_preview_markdown_before_after_tmp.py
 
 # Credenziali VPS
 vps_credentials.txt
+
+# Variabili d'ambiente locali per wrangler pages dev (mai committare)
+.dev.vars

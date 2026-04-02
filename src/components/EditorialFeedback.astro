@@ -9,8 +9,8 @@ interface Props {
 
 const { wpId, title, currentRole, url, articoloId } = Astro.props;
 const directusEditUrl = articoloId
-  ? `http://159.69.196.64:8055/admin/content/articoli/${articoloId}`
-  : 'http://159.69.196.64:8055/admin/content/articoli';
+  ? `https://cms.ombreeluci.it/admin/content/articoli/${articoloId}`
+  : 'https://cms.ombreeluci.it/admin/content/articoli';
 ---
 
 <!-- Bottone modifica Directus (sempre nel DOM, mostrato via JS) -->

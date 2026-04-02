@@ -26,6 +26,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
   const REVALIDATE_SECRET: string = env.REVALIDATE_SECRET ?? '';
   const CF_ZONE_ID: string = env.CF_ZONE_ID ?? '';
   const CF_PURGE_TOKEN: string = env.CF_PURGE_TOKEN ?? '';
+  const DRY_RUN: boolean = env.REVALIDATE_DRY_RUN === 'true';
 
   if (!REVALIDATE_SECRET || secret !== REVALIDATE_SECRET) {
     return new Response('Unauthorized', { status: 401 });
@@ -36,6 +37,14 @@ export const POST: APIRoute = async ({ request, locals }) => {
   }
 
   const articleUrl = `https://ombreeluci.it/blog/${slug}/`;
+
+  // Dry-run: salta la purge reale (utile in locale con wrangler pages dev)
+  if (DRY_RUN) {
+    return new Response(JSON.stringify({ ok: true, dryRun: true, purged: articleUrl }), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' },
+    });
+  }
 
   const purgeRes = await fetch(
     `https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache`,
