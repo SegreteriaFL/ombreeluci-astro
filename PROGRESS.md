@@ -1,7 +1,7 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-03 (revert a static — ARCH-04 sospeso di nuovo, playbook scritto)
-**Stato:** Stack Astro+Directus attivo su staging — output:static stabile. WordPress su Aruba resta online fino al cutover DNS finale.
+**Ultimo aggiornamento:** 2026-04-03 (ARCH-04 completato — hybrid SSR + edge cache su main, tutti i gate verdi)
+**Stato:** Stack Astro+Directus attivo su staging — output:hybrid, blog SSR on-demand con edge cache CF. WordPress su Aruba resta online fino al cutover DNS finale.
 
 ---
 
@@ -150,29 +150,29 @@
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
 | WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
-| ARCH-04 | ⏸ Sospeso | **Hybrid SSR + edge cache invalidation** — Tentato 3 volte, revertito 3 volte. Causa principale: `correlati.json` (749KB) bundlato nel worker → 908KB → CF Pages crasha silenziosamente. Soluzione identificata: fetch runtime da `/correlati.json` pubblico. **Prima di riprendere: seguire obbligatoriamente `ARCH-04-PLAYBOOK.md` dal primo gate.** |
+| ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — Completato 2026-04-03. Blog SSR on-demand, bundle 107KB, Cache-Control s-maxage=86400. Tutti i gate verdi. Merge su main `7bf69d0d`. Prossimo step: webhook Directus Flow per auto-invalidazione cache articoli. |
 | — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale. Prerequisiti: tutti i pre-lancio completati + validazione staging ok. |
 
 ### ARCH-04 — Hybrid SSR + Directus webhook + CF edge cache
 
-> **STATO ATTUALE (2026-04-03): SOSPESO — revert a output:static (commit `b9bb93e9`).**
+> **STATO ATTUALE (2026-04-03): ✅ COMPLETATO — merge su main, commit `7bf69d0d`.**
 >
 > **Storia tentativi:**
 > - Tentativo 1 (2026-04-01): 404 ovunque — `env.ASSETS` non disponibile nel subrequest esterno
 > - Tentativo 2 (2026-04-02, Cursor): 500 persistente — `DIRECTUS_URL` era IP privato irraggiungibile + bug `creds` in `getArticoliBySlugList`
 > - Tentativo 3 (2026-04-03): smoke test locali verdi, staging `[object Object]` — `correlati.json` (749KB) bundlato nel worker → 908KB → CF Pages crasha silenziosamente
+> - **Tentativo 4 (2026-04-03): ✅ SUCCESSO** — branch `feat/arch-04-ssr`, playbook rispettato, tutti i gate verdi
 >
-> **Causa root identificata:** import statico di `correlati.json` in pagina SSR → Vite lo bundla nel worker → limite CF Pages superato.
-> **Soluzione:** fetch runtime da `public/correlati.json` invece di import statico.
+> **Causa root risolta:** import statico rimosso → fetch runtime da `public/correlati.json` → bundle 107KB (era 908KB).
 >
-> **Fix già acquisiti (da non perdere al prossimo tentativo):**
-> - `DIRECTUS_URL` default → `https://cms.ombreeluci.it` (non IP privato)
+> **Fix applicati:**
+> - `DIRECTUS_URL` default → `https://cms.ombreeluci.it`
 > - `getArticoliBySlugList`: parametro `creds?` aggiunto
-> - `EditorialFeedback.astro`: IP privato sostituito con `cms.ombreeluci.it`
-> - `api/revalidate.ts`: guard `REVALIDATE_DRY_RUN=true`
 > - `return new Response('Not found', {status:404})` — mai body `null` con CF adapter v11
+> - `api/revalidate.ts`: guard `REVALIDATE_DRY_RUN=true`
+> - `prebuild`: `cp src/data/correlati.json public/correlati.json` (sorgente unica)
 >
-> **Prossimo tentativo: seguire `ARCH-04-PLAYBOOK.md` dal Gate 1, su branch `feat/arch-04-ssr`.**
+> **Prossimo step: configurare Directus Flow webhook → `/api/revalidate` per auto-invalidazione cache alla pubblicazione.**
 
 **Obiettivo:** quando un redattore salva un articolo in Directus, il sito aggiornato è visibile entro ~5 secondi. Nessuna build da 10 minuti.
 
