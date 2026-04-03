@@ -21,6 +21,38 @@ const anni = Array.from(new Set(numeriOrdinati.map((n) => n.anno_pubblicazione ?
   .sort((a, b) => b - a);
 ---
 
+<style>
+  .archivio-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  .archivio-header { margin-bottom: 2.5rem; }
+  .archivio-title { font-size: 2.5rem; font-weight: 700; color: var(--text-color); margin-bottom: 0.5rem; }
+  .archivio-subtitle { font-size: 1.125rem; color: var(--text-secondary); margin-bottom: 2rem; }
+  .filters-container { background: transparent; padding: 0; margin-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+  .filter-group { display: flex; flex-direction: column; gap: 0.5rem; }
+  .filter-label { font-size: 0.875rem; font-weight: 400; color: var(--text-secondary); }
+  .filter-select { padding: 0.625rem 1rem; border: none; border-radius: 8px; font-size: 0.9375rem; background: rgba(0,0,0,0.05); color: var(--text-color); cursor: pointer; transition: all 0.2s ease; min-width: 150px; }
+  .filter-select:hover { background: rgba(0,0,0,0.08); }
+  .filter-select:focus { outline: none; background: rgba(0,0,0,0.1); }
+  .results-count { margin-left: auto; font-size: 0.9375rem; color: var(--text-secondary); font-weight: 500; }
+  .issues-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+  .issue-card-wrapper { min-height: 0; }
+  .no-results { text-align: center; padding: 4rem 2rem; color: var(--text-secondary); }
+  .no-results-title { font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--text-color); }
+  @media (max-width: 1200px) { .issues-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 768px) {
+    .archivio-container { padding: 1.5rem 1rem; }
+    .archivio-title { font-size: 2rem; }
+    .filters-container { flex-direction: column; align-items: stretch; }
+    .filter-group { width: 100%; }
+    .results-count { margin-left: 0; margin-top: 0.5rem; }
+    .issues-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  }
+  @media (max-width: 480px) { .issues-grid { grid-template-columns: 1fr; } }
+</style>
+
 <BaseLayout
   title={"Archivio"}
   description={"Sfoglia i numeri della rivista Ombre e Luci dal 1977 ad oggi."}
