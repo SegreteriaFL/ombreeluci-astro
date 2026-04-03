@@ -268,10 +268,7 @@ export async function getArticoloBySlug(
  * Recupera più articoli per slug (per correlati in SSR).
  * Ritorna solo i campi necessari per ArticleCard + LeggiAnche.
  */
-export async function getArticoliBySlugList(
-  slugs: string[],
-  creds?: DirectusRuntimeCreds
-): Promise<ArticoloListItem[]> {
+export async function getArticoliBySlugList(slugs: string[]): Promise<ArticoloListItem[]> {
   if (!slugs.length) return [];
   const params = new URLSearchParams({
     'filter[slug][_in]': slugs.join(','),
