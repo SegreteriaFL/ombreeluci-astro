@@ -162,8 +162,12 @@
 > - Tentativo 2 (2026-04-02, Cursor): 500 persistente — `DIRECTUS_URL` era IP privato irraggiungibile + bug `creds` in `getArticoliBySlugList`
 > - Tentativo 3 (2026-04-03): smoke test locali verdi, staging `[object Object]` — `correlati.json` (749KB) bundlato nel worker → 908KB → CF Pages crasha silenziosamente
 > - **Tentativo 4 (2026-04-03): ✅ SUCCESSO** — branch `feat/arch-04-ssr`, playbook rispettato, tutti i gate verdi
+> - **Post-merge (2026-04-03): `[object Object]` ripresentato dopo merge su main** — bundle corretto (654KB dopo fix Header 423KB→200B), ma CF Pages aveva `nodejs_compat` in `compatibility_flags`. Il flag cambia il comportamento del polyfill `process` nel Workers runtime, corrompendo la serializzazione della Response di Astro. Rimosso via CF API + redeploy. ✅ Risolto.
 >
-> **Causa root risolta:** import statico rimosso → fetch runtime da `public/correlati.json` → bundle 107KB (era 908KB).
+> **Cause root risolte (in ordine):**
+> 1. Import statico `correlati.json` (749KB) → bundle 908KB → CF Pages crash silenzioso → `[object Object]`. Fix: fetch runtime.
+> 2. Import statico `numeri_wp_FINAL.json` in `Header.astro` (423KB) → bundle 654KB post-fix correlati → ancora sopra soglia sicura. Fix: `src/data/ultimo-numero.json` (~200B).
+> 3. `nodejs_compat` in CF Pages `compatibility_flags` → `[object Object]` su tutti gli endpoint SSR indipendentemente dal bundle. Fix: rimosso il flag via PATCH API. **Regola: non attivare mai `nodejs_compat` su un progetto Pages con Astro hybrid SSR.**
 >
 > **Fix applicati:**
 > - `DIRECTUS_URL` default → `https://cms.ombreeluci.it`
@@ -171,6 +175,8 @@
 > - `return new Response('Not found', {status:404})` — mai body `null` con CF adapter v11
 > - `api/revalidate.ts`: guard `REVALIDATE_DRY_RUN=true`
 > - `prebuild`: `cp src/data/correlati.json public/correlati.json` (sorgente unica)
+> - `Header.astro`: sostituito import `numeri_wp_FINAL.json` (423KB) con `src/data/ultimo-numero.json` (~200B)
+> - CF Pages `compatibility_flags`: rimosso `nodejs_compat` (via API)
 >
 > **Prossimo step: configurare Directus Flow webhook → `/api/revalidate` per auto-invalidazione cache alla pubblicazione.**
 

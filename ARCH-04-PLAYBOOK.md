@@ -244,6 +244,8 @@ Testare su `ombreeluci-staging.pages.dev`. Per ogni URL verificare:
 
 **Gate 5 ✓/✗:** tutti gli 8 URL rispondono come atteso.
 
+> ⚠️ **Checklist aggiuntiva prima del merge:** verificare via CF API che `compatibility_flags` del progetto Pages **non contenga `nodejs_compat`**. Presenza di `nodejs_compat` causa `[object Object]` su tutti gli endpoint SSR nonostante i gate locali siano verdi. Incidente documentato: 2026-04-03, risolto rimuovendo il flag via PATCH API + redeploy.
+
 ---
 
 ## Fase 7 — Merge su main
@@ -293,6 +295,7 @@ Non si aggiungono altri commit sopra un sistema rotto.
   `DNS apex → Worker route → fetch verso Pages/Aruba`
 - Un solo cambio alla volta, smoke test dopo ogni cambio
 - Dopo ogni major upgrade di `@astrojs/cloudflare`: ri-misurare bundle size
+- **`nodejs_compat` compatibility flag vietato** — causa `[object Object]` come body su Astro hybrid SSR (il polyfill `process` cambia il tipo di valore restituito dalla Response). Il flag corretto è nessun flag, o al massimo `disable_nodejs_process_v2` se richiesto da una dipendenza specifica. Verificare con CF API prima di ogni deploy su un nuovo progetto Pages: `curl https://api.cloudflare.com/client/v4/accounts/$ACCOUNT_ID/pages/projects/$PROJECT_NAME | jq '.result.deployment_configs.production.compatibility_flags'`
 
 ### Sul codice
 - Nessun URL privato (`159.69.196.64`) nel markup o nel codice
