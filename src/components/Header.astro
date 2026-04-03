@@ -1,6 +1,6 @@
 ---
 import logo from '../assets/logo.svg';
-import numeriData from '../../scripts_and_data/datasets/numeri_rivista/numeri_wp_FINAL.json';
+import ultimoNumeroData from '../data/ultimo-numero.json';
 import { getThemesWithSlugs } from '../config/taxonomy.js';
 import { getLangFromUrl, t } from '../utils/i18n';
 import LanguageSelector from './LanguageSelector.astro';
@@ -15,13 +15,7 @@ const { pathname = Astro.url.pathname, alternateArticleUrl = null } = Astro.prop
 const lang = getLangFromUrl(pathname);
 
 // Ultimo numero
-const ultimoNumero = numeriData
-  .sort((a, b) => {
-    const annoA = a.anno_pubblicazione || 0;
-    const annoB = b.anno_pubblicazione || 0;
-    if (annoA !== annoB) return annoB - annoA;
-    return (b.numero_progressivo || 0) - (a.numero_progressivo || 0);
-  })[0];
+const ultimoNumero = ultimoNumeroData;
 
 const temi = getThemesWithSlugs().filter(t => t.nomeCompleto !== 'Personaggi che ispirano');
 const sezioniForme = [
