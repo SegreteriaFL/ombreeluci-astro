@@ -1,7 +1,19 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-02 (ARCH-04 completato e validato su staging)
-**Stato:** Stack Astro+Directus attivo su staging — hybrid SSR attivo, articoli serviti on-demand da Directus con edge cache CF. WordPress su Aruba resta online fino al cutover DNS finale.
+**Ultimo aggiornamento:** 2026-04-03 (revert a static — ARCH-04 sospeso di nuovo, playbook scritto)
+**Stato:** Stack Astro+Directus attivo su staging — output:static stabile. WordPress su Aruba resta online fino al cutover DNS finale.
+
+---
+
+## ⛔ REGOLA OBBLIGATORIA — leggere prima di qualsiasi implementazione
+
+> **Prima di iniziare qualsiasi task di sviluppo non banale (SSR, adapter, routing, bundle, CF Worker, middleware, nuove pagine dinamiche):**
+>
+> 1. Leggere **`ARCH-04-PLAYBOOK.md`** — metodologia completa con gate obbligatori
+> 2. Aprire un **branch dedicato** — mai lavorare su `main` direttamente
+> 3. Verificare tutti i gate in sequenza prima del merge
+>
+> Non esistono eccezioni. Il casino del 2026-04-03 è costato mezza giornata e una riunione con la redazione.
 
 ---
 
@@ -120,16 +132,16 @@
 |----|--------|-------------|
 | ARCH-01 | ✅ Fatto | **`BaseHead.astro`** — componente condiviso per tutto il `<head>`. Props: `title`, `description`, `ogImage?`, `ogType?`, `canonical?`, `noindex?`, `lang?`, `alternates?`. Contiene: charset, viewport, favicon (png+svg+ico), title con separatore `–` automatico, meta description, Open Graph completo, Twitter Card, canonical, hreflang, Google Site Verification, preconnect R2, ViewTransitions, slot per tag extra (JSON-LD). |
 | ARCH-02 | ✅ Fatto | **`BaseLayout.astro`** — wrapper `<html lang>+<head>+<body>` con slot. Props passate a BaseHead + `bodyClass` + `alternateArticleUrl` (per LanguageSelector). Slot: default (contenuto pagina) e `head` (JSON-LD, meta custom). Usato da tutte le 22 pagine del sito. Pagine custom verticali (serie, dossier) possono iniettare hero full-width e sezioni arbitrarie nello slot default. |
-| ARCH-05 | 🔴 Prerequisito ARCH-04 | **Ambiente test locale edge CF** — prima di riattivare ARCH-04 SSR, configurare `wrangler pages dev` localmente per simulare il runtime CF Pages (env.ASSETS, locals.runtime.env). Senza questo non è possibile debuggare 500/404 SSR prima del deploy. Vedi istruzioni complete nella sezione ARCH-04. |
+| ARCH-05 | ✅ Fatto | **Ambiente test locale edge CF** — `.dev.vars` + `npx wrangler pages dev ./dist` per simulare CF Pages runtime localmente. Prerequisito soddisfatto: tutti i test ARCH-04 eseguiti in locale prima del push. `.dev.vars` in `.gitignore`. |
 | ARCH-03 | ✅ Fatto | **CSS vars breakpoint** — in `global.css` `:root`: `--bp-mobile: 480px`, `--bp-tablet: 768px`, `--bp-desktop: 1024px`, `--bp-wide: 1280px`. Documentati come riferimento (non usabili direttamente in `@media` queries CSS nativo). |
 
 ### Pre-lancio
 
 | ID | Effort | Descrizione |
 |----|--------|-------------|
-| GR-03 | S | **Google Search Console verifica** — meta tag `CHp0QtH-sw0M_ZYVjj6LRqHxV-4Z72IoYR_aiX9c6ZE` in `BaseHead.astro` (dopo ARCH-01). Critico: perdersi l'accesso a GSC al cutover DNS. |
-| GR-01 | M | **Cookie consent Iubenda** — script banner in `BaseHead.astro`. siteId `1433329`, IT `66379072`, EN `53976128`. ⚠️ Correggere `ownerName: "fedeeluce.it"` → `"ombreeluci.it"` sul pannello Iubenda prima di attivare. Prerequisito per GR-02. |
-| GR-02 | S | **Google Tag Manager** — snippet GTM `GTM-P92QKKXK` in `BaseHead.astro` (head + noscript body). Gestisce GA4, AdSense (`ca-pub-2238371130141396`) e Twitter pixel (`o5eld`) senza script separati. Condizionato al consenso Iubenda. |
+| GR-03 | ✅ Fatto | **Google Search Console verifica** — meta tag `CHp0QtH-...` già in `BaseHead.astro`. Attivo su staging. |
+| GR-01 | ✅ Fatto | **Cookie consent Iubenda** — script banner in `BaseHead.astro`: siteId `1433329`, cookiePolicyId IT `66379072`. Consenso condiziona GTM via `dataLayer` event `iubenda_consent_given`. ⚠️ **Azione manuale richiesta:** correggere `ownerName: "fedeeluce.it"` → `"ombreeluci.it"` sul pannello Iubenda prima del cutover DNS. |
+| GR-02 | ✅ Fatto | **Google Tag Manager** — snippet `GTM-P92QKKXK` in `BaseHead.astro` (head) + noscript in `BaseLayout.astro` (body). Condizionato al consenso Iubenda. |
 | V-02 | Redazione | **21 articoli "Da categorizzare"** — assegnazione manuale categoria in Directus. Sblocca US-15. |
 | US-15 | M | **Rivalutazione ruoli editoriali** — ridefinire portanti/strutturali per ogni categoria dopo V-02. Sblocca homepage dinamica. |
 | UX-01 | XL | **Mobile/tablet overhaul globale** — 65-70% del traffico è mobile. Ripensare: header/mega-menu touch, hero home <600px, diari (6col → grid/scroll), categorie, autori, articoli (padding, tipografia, capolettera). Usare breakpoint da ARCH-03. |
@@ -138,13 +150,29 @@
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
 | WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
-| ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — `blog/[...slug].astro` SSR on-demand, Cache-Control s-maxage=86400, `/api/revalidate` con dry-run guard. Testato localmente con wrangler pages dev + smoke test staging (200 articolo, 404 pulito). Commit `2e932bce`. |
+| ARCH-04 | ⏸ Sospeso | **Hybrid SSR + edge cache invalidation** — Tentato 3 volte, revertito 3 volte. Causa principale: `correlati.json` (749KB) bundlato nel worker → 908KB → CF Pages crasha silenziosamente. Soluzione identificata: fetch runtime da `/correlati.json` pubblico. **Prima di riprendere: seguire obbligatoriamente `ARCH-04-PLAYBOOK.md` dal primo gate.** |
 | — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale. Prerequisiti: tutti i pre-lancio completati + validazione staging ok. |
 
 ### ARCH-04 — Hybrid SSR + Directus webhook + CF edge cache
 
-> **STATO ATTUALE (2026-04-02): COMPLETATO — sito in output:hybrid, staging validato.**
-> Testato localmente con `wrangler pages dev` + smoke test su `ombreeluci-staging.pages.dev`. Commit `2e932bce`.
+> **STATO ATTUALE (2026-04-03): SOSPESO — revert a output:static (commit `b9bb93e9`).**
+>
+> **Storia tentativi:**
+> - Tentativo 1 (2026-04-01): 404 ovunque — `env.ASSETS` non disponibile nel subrequest esterno
+> - Tentativo 2 (2026-04-02, Cursor): 500 persistente — `DIRECTUS_URL` era IP privato irraggiungibile + bug `creds` in `getArticoliBySlugList`
+> - Tentativo 3 (2026-04-03): smoke test locali verdi, staging `[object Object]` — `correlati.json` (749KB) bundlato nel worker → 908KB → CF Pages crasha silenziosamente
+>
+> **Causa root identificata:** import statico di `correlati.json` in pagina SSR → Vite lo bundla nel worker → limite CF Pages superato.
+> **Soluzione:** fetch runtime da `public/correlati.json` invece di import statico.
+>
+> **Fix già acquisiti (da non perdere al prossimo tentativo):**
+> - `DIRECTUS_URL` default → `https://cms.ombreeluci.it` (non IP privato)
+> - `getArticoliBySlugList`: parametro `creds?` aggiunto
+> - `EditorialFeedback.astro`: IP privato sostituito con `cms.ombreeluci.it`
+> - `api/revalidate.ts`: guard `REVALIDATE_DRY_RUN=true`
+> - `return new Response('Not found', {status:404})` — mai body `null` con CF adapter v11
+>
+> **Prossimo tentativo: seguire `ARCH-04-PLAYBOOK.md` dal Gate 1, su branch `feat/arch-04-ssr`.**
 
 **Obiettivo:** quando un redattore salva un articolo in Directus, il sito aggiornato è visibile entro ~5 secondi. Nessuna build da 10 minuti.
 
