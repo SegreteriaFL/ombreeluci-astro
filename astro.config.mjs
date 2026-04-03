@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import { loadEnv } from 'vite';
 import pagefind from 'astro-pagefind';
+import cloudflare from '@astrojs/cloudflare';
 
 const env = loadEnv(process.env.NODE_ENV ?? 'development', process.cwd(), '');
 const DIRECTUS_TOKEN = env.DIRECTUS_TOKEN ?? process.env.DIRECTUS_TOKEN ?? '';
@@ -16,6 +17,8 @@ console.log('[config] DIRECTUS_URL:', DIRECTUS_URL);
 console.log('[config] DIRECTUS_TOKEN set:', DIRECTUS_TOKEN.length > 0);
 
 export default defineConfig({
+  output: 'hybrid',
+  adapter: cloudflare(),
   integrations: [pagefind()],
   vite: {
     define: {
