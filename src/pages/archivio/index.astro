@@ -119,6 +119,7 @@ const anni = Array.from(new Set(numeriOrdinati.map((n) => n.anno_pubblicazione ?
                 titolo_numero={n.display_title ?? ''}
                 numero={numero}
                 anno={anno}
+                periodo_label={n.periodo_label ?? undefined}
                 tipo_rivista={tipoRivista}
                 id_numero={n.id_numero}
               />

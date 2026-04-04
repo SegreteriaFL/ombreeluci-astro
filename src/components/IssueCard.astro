@@ -4,62 +4,84 @@ interface Props {
   titolo_numero: string;
   numero: number;
   anno: number;
-  mese?: string;
   periodo_label?: string;
   tipo_rivista: string;
   id_numero: string;
 }
 
-const { cover_url, titolo_numero, numero, anno, mese, periodo_label, tipo_rivista, id_numero } = Astro.props;
+const { cover_url, titolo_numero, numero, anno, periodo_label, tipo_rivista, id_numero } = Astro.props;
 
-// Determina la testata
-const testata = tipo_rivista === 'ins' || titolo_numero.toLowerCase().includes('insieme')
-  ? 'Insieme'
-  : 'Ombre e Luci';
+const isOEL = tipo_rivista !== 'insieme' && !id_numero.toLowerCase().startsWith('ins');
 
 // Genera il link al numero
 const numeroSlug = id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-');
 const linkUrl = `/archivio/${numeroSlug}`;
 
-// Formatta il periodo
-const periodo = periodo_label || mese || '';
+// Titolo card: "Numero 172 – Paradigma Pompei" (OEL) / "n. 42 – Titolo" (Insieme)
+const cardTitle = `Numero ${numero} – ${titolo_numero}`;
+
+// Anno di vita della rivista: OEL anno 1 = 1984, INS anno 1 = 1978
+const annoRivista = isOEL ? anno - 1983 : anno - 1977;
+
+// Numero all'interno dell'anno (1–4) → cifra romana
+// OEL: ~4 numeri/anno; INS: variabile, usiamo stesso calcolo
+const ROMAN = ['I', 'II', 'III', 'IV'];
+const numInAnno = ((numero - 1) % 4) + 1;
+const numInAnnoRoman = ROMAN[numInAnno - 1] ?? String(numInAnno);
+
+// Abbrevia "Ottobre – Dicembre" → "Ott-Dic"
+const MESI_ABBR: Record<string, string> = {
+  gennaio: 'Gen', febbraio: 'Feb', marzo: 'Mar', aprile: 'Apr',
+  maggio: 'Mag', giugno: 'Giu', luglio: 'Lug', agosto: 'Ago',
+  settembre: 'Set', ottobre: 'Ott', novembre: 'Nov', dicembre: 'Dic',
+};
+function abbreviaPeriodo(label: string): string {
+  return label.replace(/[A-Za-zÀ-ÖØ-öø-ÿ]+/g, (w) => {
+    const key = w.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    return MESI_ABBR[key] ?? w;
+  }).replace(/\s*[–—-]\s*/g, '-').trim();
+}
+
+const periodoAbbr = periodo_label ? abbreviaPeriodo(periodo_label) : null;
+
+// Riga meta finale: "Ott-Dic 2025 · Anno 42 · IV"
+const metaParts: string[] = [];
+if (periodoAbbr) metaParts.push(`${periodoAbbr} ${anno}`);
+if (isOEL && annoRivista > 0) metaParts.push(`Anno ${annoRivista}`);
+if (isOEL) metaParts.push(numInAnnoRoman);
+const metaLine = metaParts.join(' · ');
 ---
 
 <a href={linkUrl} class="issue-card">
   <div class="issue-card-image-wrapper">
     {cover_url ? (
-      <img 
-        src={cover_url} 
-        alt={`Copertina ${testata} n. ${numero} - ${anno}`}
+      <img
+        src={cover_url}
+        alt={`Copertina ${cardTitle}`}
         class="issue-card-image"
         loading="lazy"
         data-copertina-fallback
       />
     ) : (
       <div class="issue-card-placeholder">
-        <span class="issue-card-placeholder-text">{testata}</span>
+        <span class="issue-card-placeholder-text">{isOEL ? 'Ombre e Luci' : 'Insieme'}</span>
         <span class="issue-card-placeholder-number">n. {numero}</span>
       </div>
     )}
-    <div class="issue-card-badge">
-      {testata}
-    </div>
   </div>
-  
+
   <div class="issue-card-content">
-    <h3 class="issue-card-title">{titolo_numero}</h3>
-    <div class="issue-card-meta">
-      <span class="issue-card-year">N.{numero} · {anno}</span>
-      {periodo && (
-        <span class="issue-card-period">{periodo}</span>
-      )}
-    </div>
+    <h3 class="issue-card-title">{cardTitle}</h3>
+    {metaLine && (
+      <p class="issue-card-meta">{metaLine}</p>
+    )}
   </div>
 </a>
 
 <style>
   .issue-card {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     color: inherit;
     background: #fff;
@@ -68,8 +90,6 @@ const periodo = periodo_label || mese || '';
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     height: 100%;
-    display: flex;
-    flex-direction: column;
   }
 
   .issue-card:hover {
@@ -115,35 +135,19 @@ const periodo = periodo_label || mese || '';
     opacity: 0.9;
   }
 
-  .issue-card-badge {
-    /* Nascosto per il momento (badge non sempre corrette) */
-    visibility: hidden;
-    position: absolute;
-    top: 0.75rem;
-    right: 0.75rem;
-    background: rgba(0, 0, 0, 0.75);
-    color: white;
-    padding: 0.375rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    backdrop-filter: blur(4px);
-  }
-
   .issue-card-content {
-    display: flex;
     padding: 0.75rem 1rem;
     flex: 1;
+    display: flex;
     flex-direction: column;
+    gap: 0.375rem;
   }
 
   .issue-card-title {
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.4;
-    margin: 0 0 0.75rem 0;
+    margin: 0;
     color: var(--text-color);
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -152,35 +156,10 @@ const periodo = periodo_label || mese || '';
   }
 
   .issue-card-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    font-size: 0.8125rem;
+    color: var(--accent-color);
+    margin: 0;
     margin-top: auto;
-    font-size: 0.875rem;
-    color: var(--text-secondary);
-  }
-
-  .issue-card-number,
-  .issue-card-year,
-  .issue-card-period {
-    display: inline-block;
-  }
-
-  .issue-card-number {
-    font-weight: 600;
-    color: var(--text-color);
-  }
-
-  .issue-card-year::before {
-    content: '•';
-    margin-right: 0.5rem;
-    opacity: 0.5;
-  }
-
-  .issue-card-period::before {
-    content: '•';
-    margin-right: 0.5rem;
-    opacity: 0.5;
+    padding-top: 0.375rem;
   }
 </style>
-
