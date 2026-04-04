@@ -2,33 +2,59 @@ import type { APIRoute } from 'astro';
 
 export const prerender = false;
 
+// UUID v4 regex
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+
 export const POST: APIRoute = async ({ request, locals }) => {
   if (request.method !== 'POST') {
     return new Response('Method Not Allowed', { status: 405 });
   }
 
-  let body: { slug?: string; secret?: string };
+  let body: { slug?: string; id?: string; secret?: string };
   try {
     body = await request.json();
   } catch {
     return new Response('Bad Request', { status: 400 });
   }
 
-  const { slug, secret } = body ?? {};
-  if (!slug || typeof slug !== 'string') {
-    return new Response('Missing slug', { status: 400 });
+  const { id, secret } = body ?? {};
+  let { slug } = body ?? {};
+
+  if (!slug && !id) {
+    return new Response('Missing slug or id', { status: 400 });
   }
 
   // Secrets letti dal runtime CF (CF Pages → Settings → Environment Variables)
-  // Non sono baked nel bundle: accessibili solo a runtime via locals.runtime.env
   const runtime = (locals as any).runtime;
   const env = runtime?.env ?? {};
   const REVALIDATE_SECRET: string = env.REVALIDATE_SECRET ?? '';
   const CF_ZONE_ID: string = env.CF_ZONE_ID ?? '';
   const CF_PURGE_TOKEN: string = env.CF_PURGE_TOKEN ?? '';
+  const DIRECTUS_URL: string = env.DIRECTUS_URL ?? '';
+  const DIRECTUS_TOKEN: string = env.DIRECTUS_TOKEN ?? '';
 
   if (!REVALIDATE_SECRET || secret !== REVALIDATE_SECRET) {
     return new Response('Unauthorized', { status: 401 });
+  }
+
+  // Se arriva un UUID invece dello slug, lo risolviamo via Directus
+  if (!slug && id && UUID_RE.test(id) && DIRECTUS_URL && DIRECTUS_TOKEN) {
+    try {
+      const res = await fetch(
+        `${DIRECTUS_URL}/items/articoli/${id}?fields[]=slug`,
+        { headers: { Authorization: `Bearer ${DIRECTUS_TOKEN}` } }
+      );
+      if (res.ok) {
+        const data = (await res.json()) as { data?: { slug?: string } };
+        slug = data.data?.slug;
+      }
+    } catch {
+      // fallback: non purgare (slug sconosciuto)
+    }
+  }
+
+  if (!slug || typeof slug !== 'string') {
+    return new Response('Missing slug', { status: 400 });
   }
 
   if (!CF_ZONE_ID || !CF_PURGE_TOKEN) {
