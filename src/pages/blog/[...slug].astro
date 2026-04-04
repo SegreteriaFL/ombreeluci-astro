@@ -942,7 +942,7 @@ Slug: {articolo.slug}
 
       @media (max-width: 768px) {
         .article-container {
-          padding: 1.5rem 1.25rem; /* Margini laterali ampi per lettura riposante */
+          padding: 0;
         }
       }
 
@@ -1422,12 +1422,8 @@ Slug: {articolo.slug}
       }
 
       @media (max-width: 640px) {
-        .related-footer-section {
-          padding: 0 1.5rem;
-        }
-
         .related-footer-grid {
-          grid-template-columns: minmax(0, 1fr);
+          grid-template-columns: repeat(2, minmax(0, 1fr));
         }
       }
 
@@ -1694,8 +1690,39 @@ Slug: {articolo.slug}
       }
 
       @media (max-width: 768px) {
+        /* Header articolo: padding interno ridotto (container esterno = 0) */
+        .article-header-wrapper {
+          padding: 1.5rem 1.25rem 2rem;
+        }
+
+        /* Hero: full-bleed su mobile, più impattante */
+        .article-hero-wrapper {
+          padding: 0;
+          margin-bottom: 2rem;
+        }
+        .article-hero-image-wrapper {
+          border-radius: 0;
+        }
+        .article-image {
+          border-radius: 0;
+        }
+
+        /* Contenuto articolo */
+        .article-content-wrapper {
+          padding: 0 1.25rem 2.5rem;
+        }
+
         .article-title {
-          font-size: 2rem;
+          font-size: 1.875rem;
+        }
+
+        .article-subtitle {
+          font-size: 1.1rem;
+        }
+
+        .article-meta {
+          gap: 0.75rem;
+          font-size: 0.875rem;
         }
 
         .article-content {
@@ -1703,17 +1730,18 @@ Slug: {articolo.slug}
         }
 
         .article-content :global(p) {
+          font-size: 1rem;
           margin-bottom: 1.5rem;
         }
 
+        /* Social bar: inline al posto di fixed a sinistra */
         .social-sticky {
           position: relative;
           left: auto;
           top: auto;
           transform: none;
-          border-radius: 12px;
-          margin: 2rem 0;
-          padding: 1rem;
+          margin: 1.5rem 0;
+          padding: 0;
         }
 
         .social-sticky-inner {
@@ -1725,6 +1753,47 @@ Slug: {articolo.slug}
           flex-direction: column;
           align-items: center;
           text-align: center;
+        }
+
+        /* Correlati */
+        .related-footer-section {
+          padding: 0 1.25rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .article-header-wrapper {
+          padding: 1.25rem 1rem 1.5rem;
+        }
+
+        .article-content-wrapper {
+          padding: 0 1rem 2rem;
+        }
+
+        .article-title {
+          font-size: 1.5rem;
+          letter-spacing: -0.01em;
+        }
+
+        .article-subtitle {
+          font-size: 1rem;
+        }
+
+        .article-meta {
+          gap: 0.5rem;
+          font-size: 0.8125rem;
+        }
+
+        .article-header {
+          margin-bottom: 2rem;
+        }
+
+        .related-footer-section {
+          padding: 0 1rem;
+        }
+
+        .related-footer-grid {
+          grid-template-columns: minmax(0, 1fr);
         }
       }
     </style>

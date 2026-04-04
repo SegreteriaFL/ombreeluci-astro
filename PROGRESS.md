@@ -144,7 +144,7 @@
 | GR-02 | ✅ Fatto | **Google Tag Manager** — snippet `GTM-P92QKKXK` in `BaseHead.astro` (head) + noscript in `BaseLayout.astro` (body). Condizionato al consenso Iubenda. |
 | V-02 | Redazione | **21 articoli "Da categorizzare"** — assegnazione manuale categoria in Directus. Sblocca US-15. |
 | US-15 | M | **Rivalutazione ruoli editoriali** — ridefinire portanti/strutturali per ogni categoria dopo V-02. Sblocca homepage dinamica. |
-| UX-01 | XL | **Mobile/tablet overhaul globale** — 65-70% del traffico è mobile. Ripensare: header/mega-menu touch, hero home <600px, diari (6col → grid/scroll), categorie, autori, articoli (padding, tipografia, capolettera). Usare breakpoint da ARCH-03. |
+| UX-01 | ✅ Fatto | **Mobile/tablet overhaul globale** — Completato 2026-04-04. Fix root cause: `body padding-left/right` su mobile causava header inset dal viewport e sfondi colorati con bande laterali. Rimosso. Ogni container gestisce il proprio padding. Aggiunti breakpoint 480px su: index.astro (diari 1col, hero, unisciti), blog/[...slug].astro (padding articolo ridotto a cascata, hero full-bleed, titolo scalato), categoria/[categoria].astro (titolo, immagini, evidenza-list). Footer: rimosso border-right su colonna identità a 1 colonna. |
 | UX-05 | M | **Mega-menu active state** — `Astro.url.pathname` in `Header.astro`, classe `active`/`aria-current` sul link sezione corrente. |
 | US-08 | M | **Info testata numero rivista** — campo `periodo_label` mancante (es. "Anno 41 – N.3 – Lug-Ago-Set 2023"). Dati nel dump Divi: estrarre con script, popolare Directus. |
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |

@@ -264,4 +264,34 @@ const hasEvidenza = evidenzaEffettiva.length > 0;
           gap: 1.5rem;
         }
       }
+
+      @media (max-width: 768px) {
+        .categoria-container {
+          padding: 1.5rem 1.25rem;
+        }
+        .categoria-title {
+          font-size: 1.75rem;
+        }
+        .articles-list :global(.article-card--horizontal .article-image-wrap) {
+          width: 120px;
+          min-width: 120px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .categoria-container {
+          padding: 1.25rem 1rem;
+        }
+        .categoria-title {
+          font-size: 1.5rem;
+        }
+        .evidenza-list {
+          grid-template-columns: 1fr;
+          gap: 0;
+        }
+        .articles-list :global(.article-card--horizontal .article-image-wrap) {
+          width: 90px;
+          min-width: 90px;
+        }
+      }
     </style>
