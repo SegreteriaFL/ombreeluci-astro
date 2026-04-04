@@ -1,6 +1,6 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-04 (sessione UX/US — mobile round 2, mega-menu active state, IssueCard riformattato)
+**Ultimo aggiornamento:** 2026-04-04 (sessione UX/US — mobile round 2, mega-menu, IssueCard, fix editoriali + homepage)
 **Stato:** Stack Astro+Directus attivo su staging — output:hybrid, blog SSR on-demand con edge cache CF. WordPress su Aruba resta online fino al cutover DNS finale.
 
 ### Sessione 2026-04-04 — completato
@@ -10,6 +10,20 @@
 | `cd6ff49c` | UX-02 | Mobile round 2: breakpoint 480px su `diari.astro`, `autori/[slug].astro`, `chi-siamo/index.astro`. Pagine già OK senza intervento: `autori/index`, `cerca`, `sostienici`, `archivio`, `404`. |
 | `101c05d4` | UX-05 | Mega-menu active state: `isActive(href)` build-time in `Header.astro`, `class:list` su tutti i link (temi/sezioni/archivio + header-link chi-siamo), CSS accent + bold. |
 | `5b49c9d0` | US-08 | IssueCard riformattato: titolo "Numero N – Titolo", meta "Ott-Dic 2025 · Anno 42 · IV" calcolata a build-time da `numero_progressivo` + `anno_pubblicazione`. `periodo_label` aggiunto alla fetch Directus. |
+| (pending push) | UX/FIX | **Edit button + box editoriale**: rimosso sistema localStorage `?redazione=1`, sostituito con controllo auth Directus (`fetch /users/me credentials:include`). ⚠️ Richiede `CORS_ORIGIN=https://ombreeluci.it` + `CORS_CREDENTIALS=true` in Directus. |
+| (pending push) | UX/FIX | **debug-section**: aggiunto `display:none` CSS in `blog/[...slug].astro` — sezione sempre nascosta. |
+| (pending push) | UX/FIX | **Footer sezioni**: aggiunto "Dialogo aperto" (`/sezioni/dialogo-aperto`), ordine e href allineati al megamenu. |
+| (pending push) | UX | **Homepage tagline**: rimosso `<br>` e punto finale — tutto su una riga. |
+| (pending push) | UX | **Homepage recenti**: colonna destra aumentata da 3 a 6 articoli. |
+
+### Da verificare e validare
+
+| Priorità | Cosa | Chi | Note |
+|----------|------|-----|------|
+| 🔴 Alta | **CORS Directus** — configurare `CORS_ORIGIN=https://ombreeluci.it` e `CORS_CREDENTIALS=true` nel pannello Directus (o `docker-compose.yml`). Senza questa config, il bottone "Modifica in Directus" e il box revisione editoriale restano sempre nascosti anche per gli utenti loggati. | Dev/sysadmin | `cms.ombreeluci.it` → Settings → CORS |
+| 🟡 Media | **Test auth flow**: aprire un articolo su `ombreeluci.it` mentre si è loggati su `cms.ombreeluci.it` → verificare che compaia il bottone Modifica; poi aprire in tab privata → deve essere assente. | Redazione | |
+| 🟡 Media | **Footer link "Dialogo aperto"**: verificare che `/sezioni/dialogo-aperto` esista e mostri contenuto corretto. | Redazione | |
+| 🟢 Bassa | **Homepage recenti**: verificare che 6 articoli nella colonna destra si visualizzino bene su mobile. | Chiunque | |
 
 ---
 

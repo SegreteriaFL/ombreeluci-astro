@@ -124,7 +124,7 @@ const featuredPool = (() => {
 })().map((a) => getArticleMeta(a));
 
 const poolSlugs = new Set(featuredPool.map((m) => m.slug));
-const latestArticles = sortedArticles.filter((a) => !poolSlugs.has(a.slug)).slice(0, 3).map((a) => getArticleMeta(a));
+const latestArticles = sortedArticles.filter((a) => !poolSlugs.has(a.slug)).slice(0, 6).map((a) => getArticleMeta(a));
 
 // ── Da vicino ─────────────────────────────────────────────────────────────────
 
@@ -182,7 +182,7 @@ const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
 
             <!-- Colonna sinistra: tagline + featured rotante -->
             <div>
-              <p class="home-tagline">Un nuovo sguardo<br>attraverso la disabilità.</p>
+              <p class="home-tagline">Un nuovo sguardo attraverso la disabilità</p>
 
               <div id="hero-pool">
                 {featuredPool.map((meta, i) => (

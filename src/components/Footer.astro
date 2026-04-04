@@ -16,10 +16,12 @@ const temiCol1 = temi.slice(0, meta);
 const temiCol2 = temi.slice(meta);
 
 const sezioniFormali = [
-  { nome: t(lang, 'footer_editorials'), slug: 'editoriali' },
-  { nome: t(lang, 'footer_reviews'), slug: 'recensioni' },
-  { nome: t(lang, 'footer_interviews'), slug: 'interviste' },
-  { nome: t(lang, 'footer_testimonials'), slug: 'testimonianze' },
+  { nome: t(lang, 'footer_editorials'), href: '/categoria/editoriali' },
+  { nome: t(lang, 'footer_testimonials'), href: '/categoria/testimonianze' },
+  { nome: t(lang, 'footer_interviews'), href: '/categoria/interviste' },
+  { nome: t(lang, 'footer_reviews'), href: '/categoria/recensioni' },
+  { nome: t(lang, 'footer_diari'), href: '/sezioni/diari' },
+  { nome: 'Dialogo aperto', href: '/sezioni/dialogo-aperto' },
 ];
 
 const aboutLinks = [
@@ -114,7 +116,7 @@ const socialLinks = [
         <ul class="footer-list">
           {sezioniFormali.map((cat) => (
             <li>
-              <a href={`/categoria/${cat.slug}`} class="footer-link">{cat.nome}</a>
+              <a href={cat.href} class="footer-link">{cat.nome}</a>
             </li>
           ))}
         </ul>

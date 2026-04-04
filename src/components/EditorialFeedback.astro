@@ -57,29 +57,37 @@ const directusEditUrl = articoloId
 
 <script>
   const ENDPOINT = 'https://script.google.com/macros/s/AKfycbyXki9Wi36EGXhdmxnqVVe9FiDdV4PraC0fkkM_eBJS4sGp0xyZZft6kPJm0R_koUiKCw/exec';
-  const STORAGE_KEY = 'oel_redazione';
 
-  function initEditorialFeedback() {
-    // Gestisci attivazione/disattivazione via URL
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('redazione') === '1') localStorage.setItem(STORAGE_KEY, '1');
-    if (params.get('redazione') === '0') localStorage.removeItem(STORAGE_KEY);
+  // Cached per tutta la sessione (ViewTransitions non ricarica il modulo)
+  let _authChecked = false;
+  let _isAuthenticated = false;
 
-    const isRedazione = localStorage.getItem(STORAGE_KEY) === '1';
+  async function checkDirectusAuth(): Promise<boolean> {
+    if (_authChecked) return _isAuthenticated;
+    try {
+      const r = await fetch('https://cms.ombreeluci.it/users/me', {
+        credentials: 'include',
+      });
+      _isAuthenticated = r.ok;
+    } catch {
+      _isAuthenticated = false;
+    }
+    _authChecked = true;
+    return _isAuthenticated;
+  }
+
+  async function initEditorialFeedback() {
+    const isAuth = await checkDirectusAuth();
 
     // Edit button
     const editBtn = document.getElementById('directus-edit-btn');
-    if (editBtn) editBtn.hidden = !isRedazione;
-
-    // Debug section
-    const debugSection = document.querySelector<HTMLDetailsElement>('details.debug-section');
-    if (debugSection) debugSection.hidden = !isRedazione;
+    if (editBtn) editBtn.hidden = !isAuth;
 
     // Editorial box
     const box = document.getElementById('editorial-feedback-box');
     if (!box) return;
-    box.hidden = !isRedazione;
-    if (!isRedazione) return;
+    box.hidden = !isAuth;
+    if (!isAuth) return;
 
     const form = document.getElementById('editorial-feedback-form') as HTMLFormElement | null;
     if (!form) return;
@@ -120,7 +128,7 @@ const directusEditUrl = articoloId
     });
   }
 
-  document.addEventListener('astro:page-load', initEditorialFeedback);
+  document.addEventListener('astro:page-load', () => { initEditorialFeedback(); });
   if (document.readyState !== 'loading') initEditorialFeedback();
 </script>
 
