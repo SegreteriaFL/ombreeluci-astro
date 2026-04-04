@@ -9,12 +9,12 @@ export interface Props {
 const { active = '', useAnchors = true } = Astro.props;
 
 const links = [
-  { label: 'La Rivista', href: useAnchors ? '/chi-siamo#la-rivista' : '/chi-siamo/la-rivista', slug: 'la-rivista' },
-  { label: 'La Redazione', href: useAnchors ? '/chi-siamo#la-redazione' : '/chi-siamo/la-redazione', slug: 'la-redazione' },
-  { label: 'La Redazione storica', href: useAnchors ? '/chi-siamo#redazione-storica' : '/chi-siamo/redazione-storica', slug: 'redazione-storica' },
-  { label: 'Collaboratori', href: useAnchors ? '/chi-siamo#collaboratori' : '/chi-siamo/collaboratori', slug: 'collaboratori' },
-  { label: 'Hanno scritto per noi', href: useAnchors ? '/chi-siamo#hanno-scritto-per-noi' : '/chi-siamo/hanno-scritto-per-noi', slug: 'hanno-scritto-per-noi' },
-  { label: 'Info e contatti redazione', href: useAnchors ? '/chi-siamo#contatti' : '/chi-siamo/contatti', slug: 'contatti' },
+  { label: 'La Rivista', href: useAnchors ? '#top' : '/chi-siamo/la-rivista', slug: 'la-rivista' },
+  { label: 'La Redazione', href: useAnchors ? '#la-redazione' : '/chi-siamo/la-redazione', slug: 'la-redazione' },
+  { label: 'La Redazione storica', href: useAnchors ? '#redazione-storica' : '/chi-siamo/redazione-storica', slug: 'redazione-storica' },
+  { label: 'Collaboratori', href: useAnchors ? '#collaboratori' : '/chi-siamo/collaboratori', slug: 'collaboratori' },
+  { label: 'Hanno scritto per noi', href: useAnchors ? '#hanno-scritto-per-noi' : '/chi-siamo/hanno-scritto-per-noi', slug: 'hanno-scritto-per-noi' },
+  { label: 'Info e contatti redazione', href: useAnchors ? '#contatti' : '/chi-siamo/contatti', slug: 'contatti' },
 ];
 ---
 
