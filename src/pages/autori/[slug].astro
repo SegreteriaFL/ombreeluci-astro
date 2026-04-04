@@ -258,4 +258,24 @@ const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
           gap: 32px;
         }
       }
+
+      @media (max-width: 480px) {
+        .author-header {
+          padding: 1.5rem 1rem;
+          margin-bottom: 2rem;
+          border-radius: 8px;
+        }
+
+        .author-name {
+          font-size: 1.5rem;
+        }
+
+        .articles-section {
+          margin-top: 2rem;
+        }
+
+        .articles-title {
+          font-size: 1.5rem;
+        }
+      }
     </style>
