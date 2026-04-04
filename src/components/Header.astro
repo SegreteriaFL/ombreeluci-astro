@@ -17,6 +17,13 @@ const lang = getLangFromUrl(pathname);
 // Ultimo numero
 const ultimoNumero = ultimoNumeroData;
 
+// Returns true if the current pathname matches this nav link.
+// Root '/' requires exact match; all others match the href or any sub-path.
+function isActive(href: string): boolean {
+  if (href === '/') return pathname === '/';
+  return pathname === href || pathname.startsWith(href + '/');
+}
+
 const temi = getThemesWithSlugs().filter(t => t.nomeCompleto !== 'Personaggi che ispirano');
 const sezioniForme = [
   { nome: t(lang, 'footer_editorials'), href: '/categoria/editoriali' },
@@ -62,7 +69,7 @@ const archivioLinks = [
       <div class="header-end">
         <LanguageSelector pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
         <nav class="header-nav" aria-label="Servizi e utilità">
-          <a href="/chi-siamo" class="header-link">{t(lang, 'nav_about')}</a>
+          <a href="/chi-siamo" class:list={['header-link', { 'header-link--active': isActive('/chi-siamo') }]}>{t(lang, 'nav_about')}</a>
           <a href="/#newsletter" class="header-link">{t(lang, 'nav_newsletter')}</a>
         </nav>
         <button type="button" class="mobile-search-btn" id="mobile-search-btn" aria-label="Cerca" aria-expanded="false" aria-controls="mobile-search-overlay">
@@ -117,7 +124,7 @@ const archivioLinks = [
             <ul class="mega-menu-list mega-menu-list--grid">
               {temi.map((cat) => (
                 <li>
-                  <a href={`/categoria/${cat.slug}`} class="mega-menu-link">{cat.nome}</a>
+                  <a href={`/categoria/${cat.slug}`} class:list={['mega-menu-link', { 'mega-menu-link--active': isActive(`/categoria/${cat.slug}`) }]}>{cat.nome}</a>
                 </li>
               ))}
             </ul>
@@ -128,7 +135,7 @@ const archivioLinks = [
               <ul class="mega-menu-list">
                 {sezioniForme.map((cat) => (
                   <li>
-                    <a href={cat.href} class="mega-menu-link">{cat.nome}</a>
+                    <a href={cat.href} class:list={['mega-menu-link', { 'mega-menu-link--active': isActive(cat.href) }]}>{cat.nome}</a>
                   </li>
                 ))}
               </ul>
@@ -138,7 +145,7 @@ const archivioLinks = [
               <ul class="mega-menu-list">
                 {archivioLinks.map((item) => (
                   <li>
-                    <a href={item.slug} class="mega-menu-link">{item.nome}</a>
+                    <a href={item.slug} class:list={['mega-menu-link', { 'mega-menu-link--active': isActive(item.slug) }]}>{item.nome}</a>
                   </li>
                 ))}
               </ul>
@@ -317,6 +324,11 @@ const archivioLinks = [
 
   .header-link:hover {
     color: var(--accent-color);
+  }
+
+  .header-link--active {
+    color: var(--accent-color);
+    font-weight: 600;
   }
 
   .header-cta {
@@ -498,6 +510,11 @@ const archivioLinks = [
 
   .mega-menu-link:hover {
     color: var(--accent-color);
+  }
+
+  .mega-menu-link--active {
+    color: var(--accent-color);
+    font-weight: 600;
   }
 
   .mega-menu-last-issue {
