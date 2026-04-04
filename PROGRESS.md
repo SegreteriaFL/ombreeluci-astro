@@ -150,7 +150,7 @@
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
 | WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
-| ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — Completato 2026-04-03. Blog SSR on-demand, bundle 107KB, Cache-Control s-maxage=86400. Tutti i gate verdi. Merge su main `7bf69d0d`. Prossimo step: webhook Directus Flow per auto-invalidazione cache articoli. |
+| ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — Completato 2026-04-03. Blog SSR on-demand, bundle 107KB, Cache-Control s-maxage=86400. Tutti i gate verdi. Merge su main `7bf69d0d`. Directus Flow webhook configurata e verificata 2026-04-04: salvataggio UI → purge CF entro secondi. |
 | — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale. Prerequisiti: tutti i pre-lancio completati + validazione staging ok. |
 
 ### ARCH-04 — Hybrid SSR + Directus webhook + CF edge cache
@@ -178,7 +178,7 @@
 > - `Header.astro`: sostituito import `numeri_wp_FINAL.json` (423KB) con `src/data/ultimo-numero.json` (~200B)
 > - CF Pages `compatibility_flags`: rimosso `nodejs_compat` (via API)
 >
-> **Prossimo step: configurare Directus Flow webhook → `/api/revalidate` per auto-invalidazione cache alla pubblicazione.**
+> **✅ Directus Flow configurata e verificata (2026-04-04):** salvataggio articolo da UI → purge CF entro ~2-3 secondi.
 
 **Obiettivo:** quando un redattore salva un articolo in Directus, il sito aggiornato è visibile entro ~5 secondi. Nessuna build da 10 minuti.
 
