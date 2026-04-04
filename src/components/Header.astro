@@ -122,25 +122,27 @@ const archivioLinks = [
               ))}
             </ul>
           </div>
-          <div class="mega-menu-block">
-            <h3 class="mega-menu-title">{t(lang, 'nav_sections')}</h3>
-            <ul class="mega-menu-list">
-              {sezioniForme.map((cat) => (
-                <li>
-                  <a href={cat.href} class="mega-menu-link">{cat.nome}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div class="mega-menu-block">
-            <h3 class="mega-menu-title">{t(lang, 'nav_archive')}</h3>
-            <ul class="mega-menu-list">
-              {archivioLinks.map((item) => (
-                <li>
-                  <a href={item.slug} class="mega-menu-link">{item.nome}</a>
-                </li>
-              ))}
-            </ul>
+          <div class="mega-menu-col-mid">
+            <div class="mega-menu-block">
+              <h3 class="mega-menu-title">{t(lang, 'nav_sections')}</h3>
+              <ul class="mega-menu-list">
+                {sezioniForme.map((cat) => (
+                  <li>
+                    <a href={cat.href} class="mega-menu-link">{cat.nome}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div class="mega-menu-block">
+              <h3 class="mega-menu-title">{t(lang, 'nav_archive')}</h3>
+              <ul class="mega-menu-list">
+                {archivioLinks.map((item) => (
+                  <li>
+                    <a href={item.slug} class="mega-menu-link">{item.nome}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
           <div class="mega-menu-block mega-menu-last-issue">
             <h3 class="mega-menu-title">{t(lang, 'nav_last_issue')}</h3>
@@ -440,9 +442,16 @@ const archivioLinks = [
 
   .mega-menu-grid {
     display: grid;
-    grid-template-columns: 1fr 0.75fr 0.75fr 1.5fr;
+    grid-template-columns: 1fr 1fr 1.5fr;
     gap: 2rem 2.5rem;
     align-items: start;
+  }
+
+  /* Colonna centrale: Sezioni + Archivio impilati */
+  .mega-menu-col-mid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
   .mega-menu-block {
@@ -573,15 +582,15 @@ const archivioLinks = [
   @media (max-width: 1024px) {
     .mega-menu-grid {
       grid-template-columns: 1fr 1fr;
-      gap: 1.5rem 1.5rem;
+      gap: 1.5rem;
     }
 
+    /* Ultimo numero: a destra, occupa riga 1 col 2 + riga 2 col 2 */
     .mega-menu-last-issue {
-      grid-column: 1 / -1;
-      border-left: none;
-      border-top: 1px solid var(--border-color, #e8e6e3);
-      padding-left: 0;
-      padding-top: 1rem;
+      grid-row: 1 / 3;
+      grid-column: 2;
+      border-left: 1px solid var(--border-color, #e8e6e3);
+      padding-left: 1.25rem;
     }
 
     .last-issue-cover {
@@ -635,7 +644,7 @@ const archivioLinks = [
       display: none;
     }
 
-    /* Mega-menu mobile: occupa tutto lo schermo sotto l'header, scorribile */
+    /* Mega-menu mobile: colonna singola */
     .mega-menu-inner {
       padding: 1.25rem 0 3rem;
     }
@@ -649,7 +658,10 @@ const archivioLinks = [
       gap: 1.5rem;
     }
 
+    /* Ultimo numero: torna al flusso normale, niente grid-row/col desktop */
     .mega-menu-last-issue {
+      grid-row: auto;
+      grid-column: auto;
       border-left: none;
       border-top: 1px solid var(--border-color, #e8e6e3);
       padding-left: 0;
