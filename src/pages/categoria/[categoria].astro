@@ -143,7 +143,6 @@ const hasEvidenza = evidenzaEffettiva.length > 0;
                     <ArticleCard
                       title={a.titolo}
                       slug={a.slug}
-                      categoriaMenu={categoria_menu ?? undefined}
                       issue={a.numero_rivista?.id_numero ?? null}
                       forma={formal}
                       author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
@@ -248,6 +247,16 @@ const hasEvidenza = evidenzaEffettiva.length > 0;
       }
       .evidenza-list :global(.article-card:first-child) {
         padding-top: 0;
+      }
+      .evidenza-list :global(.article-title) {
+        font-size: 0.9375rem;
+        -webkit-line-clamp: 2;
+      }
+      .evidenza-list :global(.author-row) {
+        font-size: 0.75rem;
+      }
+      .evidenza-list :global(.article-badge) {
+        font-size: 11px;
       }
       @media (max-width: 1024px) {
         .categoria-body {
