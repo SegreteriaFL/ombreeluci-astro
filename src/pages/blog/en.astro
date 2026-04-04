@@ -25,9 +25,9 @@ const englishArticles = allArticles
   lang="en"
 >
     <main class="site-main">
-      <div class="en-container">
-        <h1 class="en-title">{t('en', 'english_articles')}</h1>
-        <p class="en-intro">Articles from Ombre e Luci available in English.</p>
+      <div class="container" style="padding-top: 2.5rem; padding-bottom: 3rem;">
+        <h1 style="margin-bottom: 0.5rem;">{t('en', 'english_articles')}</h1>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Articles from Ombre e Luci available in English.</p>
         <div class="en-grid">
           {englishArticles.map((a) => {
             const image = getArticoloCopertinaSrc(a);
@@ -49,4 +49,14 @@ const englishArticles = allArticles
         </div>
       </div>
     </main>
+
+<style>
+  .en-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+  }
+  @media (max-width: 1024px) { .en-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px)  { .en-grid { grid-template-columns: 1fr; } }
+</style>
 </BaseLayout>
