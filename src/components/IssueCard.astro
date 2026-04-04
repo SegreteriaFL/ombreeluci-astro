@@ -17,8 +17,8 @@ const isOEL = tipo_rivista !== 'insieme' && !id_numero.toLowerCase().startsWith(
 const numeroSlug = id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-');
 const linkUrl = `/archivio/${numeroSlug}`;
 
-// Titolo card: "Numero 172 – Paradigma Pompei" (OEL) / "n. 42 – Titolo" (Insieme)
-const cardTitle = `Numero ${numero} – ${titolo_numero}`;
+// Titolo card: "n.172 – Paradigma Pompei"
+const cardTitle = titolo_numero ? `n.${numero} – ${titolo_numero}` : `n.${numero}`;
 
 // Anno di vita della rivista: OEL anno 1 = 1983 → anno - 1982; INS anno 1 = 1974 → anno - 1973
 const annoRivista = isOEL ? anno - 1982 : anno - 1973;

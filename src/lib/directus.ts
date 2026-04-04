@@ -165,6 +165,8 @@ export interface NumeroRivista {
   copertina_url: string | null;
   /** Es. "Ottobre – Dicembre" — periodo di pubblicazione del numero. */
   periodo_label: string | null;
+  /** Solo il titolo tematico, senza numero (es. "Paradigma Pompei"). */
+  titolo_tema: string | null;
 }
 
 // ── HTTP helper ───────────────────────────────────────────────────────────────
@@ -371,7 +373,7 @@ export async function getAutoreBySlug(slug: string): Promise<Autore | null> {
  */
 export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
   const data = await directusFetch<{ data: NumeroRivista[] }>(
-    '/items/numeri_rivista?fields=id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina_url,periodo_label&limit=-1&sort=anno_pubblicazione'
+    '/items/numeri_rivista?fields=id,id_numero,display_title,titolo_tema,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina_url,periodo_label&limit=-1&sort=anno_pubblicazione'
   );
   if (!data) return [];
   return data.data ?? [];
@@ -383,7 +385,7 @@ export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
 export async function getNumeroRivistaById(idNumero: string): Promise<NumeroRivista | null> {
   const params = new URLSearchParams({
     'filter[id_numero][_eq]': idNumero,
-    fields: 'id,id_numero,display_title,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina_url,periodo_label',
+    fields: 'id,id_numero,display_title,titolo_tema,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina_url,periodo_label',
     limit: '1',
   });
   const data = await directusFetch<{ data: NumeroRivista[] }>(

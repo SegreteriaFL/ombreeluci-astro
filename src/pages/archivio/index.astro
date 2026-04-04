@@ -116,7 +116,7 @@ const anni = Array.from(new Set(numeriOrdinati.map((n) => n.anno_pubblicazione ?
             >
               <IssueCard
                 cover_url={getNumeroImageUrl(n) ?? undefined}
-                titolo_numero={n.display_title ?? ''}
+                titolo_numero={n.titolo_tema ?? n.display_title ?? ''}
                 numero={numero}
                 anno={anno}
                 periodo_label={n.periodo_label ?? undefined}
