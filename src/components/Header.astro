@@ -591,7 +591,7 @@ const archivioLinks = [
 
   @media (max-width: 768px) {
     :root {
-      --header-height: 64px;
+      --header-height: 60px;
     }
 
     .header-inner {
@@ -600,13 +600,15 @@ const archivioLinks = [
     }
 
     .logo {
-      height: 55px;
+      height: 48px;
       background: transparent !important;
       background-color: transparent !important;
     }
 
+    /* Ricerca: visibile fino a 480px */
     .search-form {
-      max-width: 180px;
+      flex: 1;
+      max-width: 200px;
       margin: 0;
     }
 
@@ -620,16 +622,22 @@ const archivioLinks = [
     }
 
     .header-cta {
-      padding: 0.45rem 1rem;
-      font-size: 0.875rem;
+      padding: 0.4rem 0.875rem;
+      font-size: 0.8125rem;
+      white-space: nowrap;
+    }
+
+    .header-end {
+      gap: 0.75rem;
     }
 
     .menu-trigger-label {
       display: none;
     }
 
+    /* Mega-menu mobile: occupa tutto lo schermo sotto l'header, scorribile */
     .mega-menu-inner {
-      padding: 1.5rem 0 3rem;
+      padding: 1.25rem 0 3rem;
     }
 
     .mega-menu-container {
@@ -638,7 +646,14 @@ const archivioLinks = [
 
     .mega-menu-grid {
       grid-template-columns: 1fr;
-      gap: 1.25rem;
+      gap: 1.5rem;
+    }
+
+    .mega-menu-last-issue {
+      border-left: none;
+      border-top: 1px solid var(--border-color, #e8e6e3);
+      padding-left: 0;
+      padding-top: 1.25rem;
     }
 
     .mega-menu-list--grid {
@@ -646,8 +661,12 @@ const archivioLinks = [
       gap: 0.4rem 0.75rem;
     }
 
+    .last-issue-inner {
+      gap: 0.875rem;
+    }
+
     .last-issue-cover {
-      width: 80px;
+      width: 72px;
     }
   }
 
@@ -656,9 +675,26 @@ const archivioLinks = [
       display: none;
     }
 
+    /* Nascondi "Sostienici" su mobile piccolo: rimane hamburger + ricerca + logo */
     .header-cta {
-      font-size: 0.8125rem;
-      padding: 0.4rem 0.75rem;
+      display: none;
+    }
+
+    /* Riduce gap per evitare overflow con logo + header-end */
+    .header-inner {
+      gap: 0.5rem;
+    }
+
+    .header-end {
+      gap: 0.5rem;
+    }
+
+    .logo {
+      height: 44px;
+    }
+
+    .menu-trigger {
+      padding: 0.375rem;
     }
   }
 
