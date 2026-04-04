@@ -1,7 +1,15 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-03 (ARCH-04 completato — hybrid SSR + edge cache su main, tutti i gate verdi)
+**Ultimo aggiornamento:** 2026-04-04 (sessione UX/US — mobile round 2, mega-menu active state, IssueCard riformattato)
 **Stato:** Stack Astro+Directus attivo su staging — output:hybrid, blog SSR on-demand con edge cache CF. WordPress su Aruba resta online fino al cutover DNS finale.
+
+### Sessione 2026-04-04 — completato
+
+| Commit | Task | Cosa |
+|--------|------|------|
+| `cd6ff49c` | UX-02 | Mobile round 2: breakpoint 480px su `diari.astro`, `autori/[slug].astro`, `chi-siamo/index.astro`. Pagine già OK senza intervento: `autori/index`, `cerca`, `sostienici`, `archivio`, `404`. |
+| `101c05d4` | UX-05 | Mega-menu active state: `isActive(href)` build-time in `Header.astro`, `class:list` su tutti i link (temi/sezioni/archivio + header-link chi-siamo), CSS accent + bold. |
+| `5b49c9d0` | US-08 | IssueCard riformattato: titolo "Numero N – Titolo", meta "Ott-Dic 2025 · Anno 42 · IV" calcolata a build-time da `numero_progressivo` + `anno_pubblicazione`. `periodo_label` aggiunto alla fetch Directus. |
 
 ---
 
