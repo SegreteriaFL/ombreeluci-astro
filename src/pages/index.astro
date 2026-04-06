@@ -171,6 +171,41 @@ const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
   noindex={true}
   bodyClass="home-page"
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify([
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Ombre e Luci",
+        "url": "https://ombreeluci.it",
+        "logo": "https://ombreeluci.it/logo.svg",
+        "sameAs": [
+          "https://www.facebook.com/OmbreeLuciRivista/",
+          "https://www.instagram.com/ombreeluci_magazine/",
+          "https://x.com/Ombre_Luci",
+          "https://www.youtube.com/channel/UCypEHP-N_RaUiz1BcBsplVQ"
+        ],
+        "foundingDate": "1983",
+        "description": "Rivista trimestrale sulla disabilità e sulla fragilità umana. Dal 1983.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Associazione Fede e Luce A.P.S.",
+          "url": "https://www.fedeeluce.it"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Ombre e Luci",
+        "url": "https://ombreeluci.it",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ombreeluci.it/cerca?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ])} />
+  </Fragment>
     <main class="site-main home-page">
 
       <!-- ══════════════════════════════════════════════════════════

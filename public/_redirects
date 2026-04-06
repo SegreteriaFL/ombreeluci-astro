@@ -1998,3 +1998,9 @@
 /1978/12/13/letture-consigliate-il-piccolo-principe/  /blog/letture-consigliate-il-piccolo-principe/  301
 /1978/12/14/letture-consigliate-il-piccolo-principe/  /blog/letture-consigliate-il-piccolo-principe/  301
 /1978/12/15/letture-consigliate-il-piccolo-principe/  /blog/letture-consigliate-il-piccolo-principe/  301
+
+# Newsletter WP → nuova pagina
+/newsletter/  /newsletter  301
+/archivio-newsletter/  /newsletter  301
+/archivio-newsletter/*  /newsletter  301
+/newsletter-oel/  /newsletter  301
