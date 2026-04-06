@@ -1,0 +1,295 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getThemesWithSlugs } from '../config/taxonomy.js';
+import { getAllArticoli } from '../lib/directus';
+
+const temi = getThemesWithSlugs().filter(t => t.nomeCompleto !== 'Personaggi che ispirano').slice(0, 8);
+
+// Newsletter precedenti: articoli con "newsletter" nello slug, ordine cronologico inverso
+const tuttiArticoli = await getAllArticoli();
+const newsletters = tuttiArticoli
+  .filter(a => a.slug.toLowerCase().includes('newsletter'))
+  .sort((a, b) => {
+    const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+    const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+    return tB - tA;
+  });
+
+function formatDate(d: string | null): string {
+  if (!d) return '';
+  return new Intl.DateTimeFormat('it-IT', { year: 'numeric', month: 'long' }).format(new Date(d));
+}
+---
+
+<BaseLayout
+  title="Newsletter — Ombre e Luci"
+  description="Iscriviti alla newsletter di Ombre e Luci: storie, riflessioni e novità sulla disabilità e sulla fragilità umana direttamente nella tua casella di posta."
+>
+  <main class="site-main">
+    <div class="nl-container">
+
+      <header class="nl-header">
+        <p class="nl-eyebrow">Newsletter</p>
+        <h1 class="nl-title">Rimani in contatto</h1>
+        <p class="nl-subtitle">
+          Ogni numero: articoli scelti dalla redazione, storie di vita, riflessioni
+          sulla disabilità e sulla fragilità. Nessuno spam, puoi cancellarti in ogni momento.
+        </p>
+      </header>
+
+      <div class="nl-body">
+
+        <!-- Form iscrizione -->
+        <section class="nl-form-section">
+          {/* ⚠ TODO: sostituire action, u= e id= con i valori reali del provider email (Mailchimp/Brevo) */}
+          <form
+            class="nl-form"
+            action="#"
+            method="POST"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="nl-form-row">
+              <input
+                type="email"
+                name="EMAIL"
+                required
+                placeholder="La tua email"
+                class="nl-input"
+                aria-label="Indirizzo email"
+              />
+              <button type="submit" class="nl-submit">Iscriviti</button>
+            </div>
+            <p class="nl-privacy">
+              Cliccando su "Iscriviti" accetti la nostra
+              <a href="https://www.iubenda.com/privacy-policy/66379072" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+              Associazione Fede e Luce A.P.S.
+            </p>
+          </form>
+        </section>
+
+        <!-- Newsletter precedenti -->
+        {newsletters.length > 0 && (
+          <section class="nl-archive">
+            <h2 class="nl-section-title">Newsletter precedenti</h2>
+            <ul class="nl-archive-list">
+              {newsletters.map(n => (
+                <li class="nl-archive-item">
+                  <a href={`/blog/${n.slug}`} class="nl-archive-link">
+                    <span class="nl-archive-title">{n.titolo}</span>
+                    <span class="nl-archive-date">{formatDate(n.data_pubblicazione)}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <!-- Esplora i temi -->
+        <section class="nl-explore">
+          <h2 class="nl-section-title">Esplora i temi della rivista</h2>
+          <ul class="nl-temi">
+            {temi.map(t => (
+              <li>
+                <a href={`/categoria/${t.slug}`} class="nl-tema-link">{t.nome}</a>
+              </li>
+            ))}
+            <li>
+              <a href="/archivio" class="nl-tema-link nl-tema-all">Tutto l'archivio →</a>
+            </li>
+          </ul>
+        </section>
+
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .nl-container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+
+  .nl-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+  }
+
+  .nl-eyebrow {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    margin: 0 0 0.75rem;
+  }
+
+  .nl-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--text-color);
+    margin: 0 0 1rem;
+  }
+
+  .nl-subtitle {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .nl-body {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  /* Form */
+  .nl-form-section {
+    background: var(--bg-secondary, #f9f7f5);
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+  }
+
+  .nl-form-row {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .nl-input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 1.5px solid var(--border-color, #e0ddd9);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--text-color);
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .nl-input:focus { border-color: var(--accent-color); }
+
+  .nl-submit {
+    padding: 0.75rem 1.5rem;
+    background: var(--accent-color);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: opacity 0.2s;
+  }
+
+  .nl-submit:hover { opacity: 0.88; }
+
+  .nl-privacy {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .nl-privacy a { color: var(--accent-color); text-decoration: none; }
+
+  /* Archive */
+  .nl-section-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-color);
+    display: inline-block;
+  }
+
+  .nl-archive-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .nl-archive-item {
+    border-bottom: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .nl-archive-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 0.2s;
+  }
+
+  .nl-archive-link:hover { color: var(--accent-color); }
+
+  .nl-archive-title {
+    font-size: 0.9375rem;
+    line-height: 1.4;
+  }
+
+  .nl-archive-date {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Temi */
+  .nl-temi {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .nl-tema-link {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    border: 1.5px solid var(--border-color, #e0ddd9);
+    border-radius: 999px;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .nl-tema-link:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+
+  .nl-tema-all {
+    font-weight: 600;
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+
+  @media (max-width: 600px) {
+    .nl-container { padding: 2.5rem 1.25rem 4rem; }
+    .nl-title { font-size: 1.875rem; }
+    .nl-form-row { flex-direction: column; }
+    .nl-submit { width: 100%; }
+    .nl-form-section { padding: 1.75rem 1.25rem; }
+    .nl-archive-link { flex-direction: column; gap: 0.15rem; }
+    .nl-archive-date { align-self: flex-start; }
+  }
+</style>
