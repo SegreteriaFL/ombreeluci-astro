@@ -1,0 +1,354 @@
+---
+import { getCommentiForArticolo, directusCredsFromAstroLocals } from '../lib/directus';
+
+interface Props {
+  articoloId: string;
+}
+
+const { articoloId } = Astro.props;
+const creds = directusCredsFromAstroLocals(Astro.locals);
+const commenti = await getCommentiForArticolo(articoloId, creds);
+
+function formatData(iso: string): string {
+  return new Intl.DateTimeFormat('it-IT', {
+    year: 'numeric', month: 'long', day: 'numeric',
+  }).format(new Date(iso));
+}
+---
+
+<section class="commenti-section" aria-labelledby="commenti-titolo">
+  <h2 class="commenti-titolo" id="commenti-titolo">
+    {commenti.length > 0
+      ? `${commenti.length} commento${commenti.length > 1 ? 'i' : ''}`
+      : 'Commenti'}
+  </h2>
+
+  {commenti.length > 0 && (
+    <ol class="commenti-lista" aria-label="Commenti approvati">
+      {commenti.map((c) => (
+        <li class="commento">
+          <div class="commento-header">
+            <span class="commento-autore">{c.autore_nome}</span>
+            <time class="commento-data" datetime={c.data_creazione}>
+              {formatData(c.data_creazione)}
+            </time>
+          </div>
+          <p class="commento-testo">{c.testo}</p>
+        </li>
+      ))}
+    </ol>
+  )}
+
+  <div class="commento-form-wrap">
+    <h3 class="commento-form-titolo">Lascia un commento</h3>
+    <p class="commento-form-nota">
+      Il tuo commento sarà pubblicato dopo approvazione della redazione.
+      L'email non verrà pubblicata.
+    </p>
+
+    <form
+      class="commento-form"
+      data-articolo-id={articoloId}
+      novalidate
+    >
+      {/* Honeypot anti-spam: nascosto, deve restare vuoto */}
+      <input
+        type="text"
+        name="hp"
+        autocomplete="off"
+        aria-hidden="true"
+        tabindex="-1"
+        style="position:absolute;left:-9999px;opacity:0;pointer-events:none;"
+      />
+
+      <div class="commento-form-row commento-form-row--half">
+        <label class="commento-label" for="commento-nome">
+          Nome <span aria-hidden="true">*</span>
+        </label>
+        <input
+          class="commento-input"
+          type="text"
+          id="commento-nome"
+          name="autore_nome"
+          autocomplete="name"
+          required
+          maxlength="100"
+        />
+      </div>
+
+      <div class="commento-form-row commento-form-row--half">
+        <label class="commento-label" for="commento-email">
+          Email <span aria-hidden="true">*</span>
+        </label>
+        <input
+          class="commento-input"
+          type="email"
+          id="commento-email"
+          name="autore_email"
+          autocomplete="email"
+          required
+          maxlength="200"
+        />
+      </div>
+
+      <div class="commento-form-row">
+        <label class="commento-label" for="commento-testo">
+          Commento <span aria-hidden="true">*</span>
+        </label>
+        <textarea
+          class="commento-input commento-textarea"
+          id="commento-testo"
+          name="testo"
+          required
+          minlength="10"
+          maxlength="5000"
+          rows="5"
+        ></textarea>
+      </div>
+
+      <div class="commento-form-row commento-form-actions">
+        <button type="submit" class="button commento-submit">
+          Invia commento
+        </button>
+        <span class="commento-contatore" aria-live="polite"></span>
+      </div>
+
+      <div class="commento-feedback" role="alert" aria-live="assertive" hidden></div>
+    </form>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('.commento-form').forEach((form) => {
+    const articoloId = form.dataset.articoloId ?? '';
+    const feedback = form.querySelector<HTMLElement>('.commento-feedback')!;
+    const submitBtn = form.querySelector<HTMLButtonElement>('.commento-submit')!;
+    const textarea = form.querySelector<HTMLTextAreaElement>('#commento-testo')!;
+    const contatore = form.querySelector<HTMLElement>('.commento-contatore')!;
+
+    // Contatore caratteri textarea
+    textarea?.addEventListener('input', () => {
+      const left = 5000 - textarea.value.length;
+      contatore.textContent = left < 500 ? `${left} caratteri rimanenti` : '';
+    });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      feedback.hidden = true;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Invio in corso…';
+
+      const data = Object.fromEntries(new FormData(form));
+
+      try {
+        const res = await fetch('/api/commento', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ ...data, articolo_id: articoloId }),
+        });
+        const body = await res.json() as { ok: boolean; error?: string };
+
+        if (body.ok) {
+          form.reset();
+          showFeedback('success',
+            'Grazie! Il tuo commento è stato inviato e sarà pubblicato dopo approvazione della redazione.'
+          );
+          contatore.textContent = '';
+        } else {
+          showFeedback('error', body.error ?? 'Si è verificato un errore. Riprova.');
+        }
+      } catch {
+        showFeedback('error', 'Impossibile inviare il commento. Controlla la connessione e riprova.');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Invia commento';
+      }
+    });
+
+    function showFeedback(type: 'success' | 'error', msg: string) {
+      feedback.textContent = msg;
+      feedback.className = `commento-feedback commento-feedback--${type}`;
+      feedback.hidden = false;
+      feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  });
+</script>
+
+<style>
+  .commenti-section {
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: 2px solid var(--border-color);
+  }
+
+  .commenti-titolo {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 1.75rem;
+    color: var(--text-color);
+  }
+
+  /* Lista commenti */
+  .commenti-lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .commento {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .commento-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 0.6rem;
+    flex-wrap: wrap;
+  }
+
+  .commento-autore {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--text-color);
+  }
+
+  .commento-data {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+  }
+
+  .commento-testo {
+    font-size: 1rem;
+    line-height: 1.65;
+    color: var(--text-color);
+    margin: 0;
+    white-space: pre-line;
+  }
+
+  /* Form */
+  .commento-form-wrap {
+    background: var(--bg-cream);
+    border-radius: 10px;
+    padding: 1.75rem 2rem;
+    border: 1px solid var(--border-color);
+  }
+
+  .commento-form-titolo {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+    color: var(--text-color);
+  }
+
+  .commento-form-nota {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+  }
+
+  .commento-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .commento-form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .commento-form-row--half {
+    flex: 1;
+  }
+
+  /* Sul desktop i due campi brevi stanno affiancati */
+  @media (min-width: 600px) {
+    .commento-form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.1rem 1.5rem;
+    }
+    .commento-form-row {
+      grid-column: span 1;
+    }
+    .commento-form-row:nth-child(3),
+    .commento-form-actions,
+    .commento-feedback {
+      grid-column: span 2;
+    }
+  }
+
+  .commento-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .commento-label span {
+    color: var(--accent-color);
+  }
+
+  .commento-input {
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--text-color);
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 0.6rem 0.85rem;
+    transition: border-color 0.15s;
+    width: 100%;
+  }
+  .commento-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(0, 139, 139, 0.12);
+  }
+
+  .commento-textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+
+  .commento-form-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .commento-submit {
+    /* usa la classe globale .button già definita in global.css */
+  }
+
+  .commento-contatore {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+  }
+
+  /* Feedback success / error */
+  .commento-feedback {
+    padding: 0.85rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .commento-feedback--success {
+    background: #ecfdf5;
+    color: #065f46;
+    border: 1px solid #6ee7b7;
+  }
+  .commento-feedback--error {
+    background: #fef2f2;
+    color: #991b1b;
+    border: 1px solid #fca5a5;
+  }
+</style>

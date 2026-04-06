@@ -10,6 +10,7 @@ import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForA
 import { getLangFromUrl, t } from '../../utils/i18n';
 import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
+import Commenti from '../../components/Commenti.astro';
 
 const locale = getLangFromUrl(Astro.url.pathname);
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
@@ -637,11 +638,7 @@ const relatedArticles = (() => {
         </section>
       )}
 
-      {articolo.has_comments && (
-        <div class="comments-section">
-          -- Qui appariranno i commenti di Trikkia --
-        </div>
-      )}
+      <Commenti articoloId={articolo.id} />
 
       {/* Debug: mostra i dati dell'articolo */}
       <details class="debug-section" hidden>

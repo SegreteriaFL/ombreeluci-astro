@@ -465,3 +465,30 @@ export async function getArticoliInEvidenza(categoriaSlug: string): Promise<Arti
   if (!data) return [];
   return (data.data ?? []).map((r) => r.articoli_id).filter(Boolean);
 }
+
+// ── Commenti ──────────────────────────────────────────────────────────────────
+
+export interface Commento {
+  id: string;
+  autore_nome: string;
+  testo: string;
+  data_creazione: string;
+}
+
+export async function getCommentiForArticolo(
+  articoloId: string,
+  creds?: DirectusRuntimeCreds
+): Promise<Commento[]> {
+  const params = new URLSearchParams({
+    'filter[articolo][_eq]': articoloId,
+    'filter[stato][_eq]': 'approved',
+    'sort': 'data_creazione',
+    'fields': 'id,autore_nome,testo,data_creazione',
+    'limit': '200',
+  });
+  const data = await directusFetch<{ data: Commento[] }>(
+    `/items/commenti?${params}`,
+    creds
+  );
+  return data?.data ?? [];
+}
