@@ -1,16 +1,155 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getThemesWithSlugs } from '../config/taxonomy.js';
+
+const temi = getThemesWithSlugs().filter(t => t.nomeCompleto !== 'Personaggi che ispirano');
 ---
 
 <BaseLayout
-  title={"404 - Pagina non trovata"}
+  title="Pagina non trovata — Ombre e Luci"
   noindex={true}
 >
-    <main class="site-main">
-    <div class="container">
-      <h1>404</h1>
-      <p>Pagina non trovata</p>
-      <a href="/">Torna all'archivio</a>
+  <main class="site-main">
+    <div class="nf-container">
+
+      <div class="nf-hero">
+        <p class="nf-code">404</p>
+        <h1 class="nf-title">Pagina non trovata</h1>
+        <p class="nf-sub">
+          La pagina che cerchi potrebbe essere stata spostata o rimossa.<br>
+          Se venivi da un vecchio link WordPress, prova a cercare l'articolo nell'archivio.
+        </p>
+        <div class="nf-actions">
+          <a href="/" class="nf-btn nf-btn--primary">Torna all'homepage</a>
+          <a href="/archivio" class="nf-btn nf-btn--ghost">Sfoglia l'archivio</a>
+          <a href="/cerca" class="nf-btn nf-btn--ghost">Cerca →</a>
+        </div>
+      </div>
+
+      <section class="nf-temi">
+        <h2 class="nf-temi-title">Oppure esplora per tema</h2>
+        <ul class="nf-temi-list">
+          {temi.map(t => (
+            <li>
+              <a href={`/categoria/${t.slug}`} class="nf-tema-link">{t.nome}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
     </div>
-    </main>
+  </main>
 </BaseLayout>
+
+<style>
+  .nf-container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 5rem 1.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .nf-hero { text-align: center; }
+
+  .nf-code {
+    font-family: 'Raleway', sans-serif;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--accent-color);
+    opacity: 0.25;
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.04em;
+  }
+
+  .nf-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0 0 1rem;
+  }
+
+  .nf-sub {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    max-width: 520px;
+    margin: 0 auto 2rem;
+  }
+
+  .nf-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+  }
+
+  .nf-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.65rem 1.25rem;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .nf-btn--primary {
+    background: var(--accent-color);
+    color: #fff;
+  }
+
+  .nf-btn--ghost {
+    border: 1.5px solid var(--border-color, #e0ddd9);
+    color: var(--text-color);
+  }
+
+  .nf-btn:hover { opacity: 0.8; }
+
+  /* Temi */
+  .nf-temi-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin: 0 0 1rem;
+  }
+
+  .nf-temi-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .nf-tema-link {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    border: 1.5px solid var(--border-color, #e0ddd9);
+    border-radius: 999px;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .nf-tema-link:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+
+  @media (max-width: 600px) {
+    .nf-container { padding: 3rem 1.25rem 4rem; }
+    .nf-code { font-size: 4rem; }
+    .nf-title { font-size: 1.5rem; }
+  }
+</style>

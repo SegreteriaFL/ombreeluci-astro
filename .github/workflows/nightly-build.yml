@@ -1,0 +1,25 @@
+name: Nightly rebuild
+
+on:
+  schedule:
+    # Ogni notte alle 02:00 UTC (04:00 ora italiana estiva)
+    - cron: '0 2 * * *'
+  workflow_dispatch: # trigger manuale dal pannello GitHub Actions
+
+jobs:
+  trigger-cf-pages-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages deployment
+        run: |
+          RESPONSE=$(curl -s -X POST \
+            "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CF_ACCOUNT_ID }}/pages/projects/ombreeluci-staging/deployments" \
+            -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
+            -H "Content-Type: application/json")
+          echo "Response: $RESPONSE"
+          SUCCESS=$(echo $RESPONSE | python3 -c "import sys,json; print(json.load(sys.stdin).get('success', False))")
+          if [ "$SUCCESS" != "True" ]; then
+            echo "Deployment trigger failed"
+            exit 1
+          fi
+          echo "Deployment triggered successfully"

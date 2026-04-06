@@ -307,6 +307,40 @@ const relatedArticles = (() => {
 >
   <Fragment slot="head">
     <meta name="pagefind:meta" content={`author:${autoreName}`} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": articleTitle,
+      "description": metaDescription ?? undefined,
+      "image": articleImage?.startsWith('http') ? articleImage : `https://ombreeluci.it${articleImage}`,
+      "datePublished": articleDate.toISOString(),
+      "dateModified": articleDate.toISOString(),
+      "inLanguage": articolo.lang === 'en' ? 'en-US' : 'it-IT',
+      "author": {
+        "@type": "Person",
+        "name": autoreName,
+        "url": `https://ombreeluci.it/autori/${authorSlug}`
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ombre e Luci",
+        "url": "https://ombreeluci.it",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ombreeluci.it/logo.svg"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": Astro.url.href
+      },
+      ...(articolo.numero_rivista?.id_numero ? {
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "@id": `https://ombreeluci.it/archivio/${articolo.numero_rivista.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-')}`
+        }
+      } : {})
+    })} />
   </Fragment>
     <main class="site-main">
     {/* Reading Progress Bar */}
