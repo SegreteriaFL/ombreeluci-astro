@@ -1,0 +1,94 @@
+name: Aggiorna snapshot articoli
+
+on:
+  # Esegui ogni lunedì alle 01:00 UTC (prima del nightly build delle 02:00)
+  schedule:
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-snapshot:
+    name: Aggiorna src/data/articoli_snapshot.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verifica Directus raggiungibile
+        id: health
+        run: |
+          HTTP=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
+            "https://cms.ombreeluci.it/server/ping" || echo "000")
+          if [ "$HTTP" != "200" ]; then
+            echo "::error::Directus non raggiungibile (HTTP $HTTP) — snapshot non aggiornato"
+            exit 1
+          fi
+
+      - name: Genera snapshot
+        env:
+          DIRECTUS_TOKEN: ${{ secrets.DIRECTUS_TOKEN }}
+        run: |
+          python3 - << 'PYEOF'
+          import urllib.request, json, os, datetime, sys
+
+          BASE = "https://cms.ombreeluci.it"
+          TOKEN = os.environ["DIRECTUS_TOKEN"]
+
+          fields = [
+            'id','wp_id','slug','lang','titolo','sottotitolo','stato',
+            'data_pubblicazione','cluster_id','umap_x','umap_y','umap_z',
+            'seo_title','seo_description','categoria_menu','ruolo_editoriale',
+            'forma','tema_label','has_comments','original_url','didascalia_copertina',
+            'autore.id','autore.slug','autore.nome_completo',
+            'autore.foto.id','autore.foto.filename_download',
+            'numero_rivista.id','numero_rivista.id_numero','numero_rivista.display_title',
+            'numero_rivista.anno_pubblicazione','numero_rivista.pdf_archive_url','numero_rivista.copertina_url',
+            'immagine_copertina.id','immagine_copertina.filename_download',
+            'temi.temi_id.id','temi.temi_id.slug','temi.temi_id.nome',
+            'tags.tags_id.id','tags.tags_id.slug','tags.tags_id.nome',
+            'serie.id','serie.slug','serie.nome',
+            'articolo_traduzione.id','articolo_traduzione.slug','articolo_traduzione.lang',
+          ]
+
+          params = "filter%5Bstato%5D%5B_eq%5D=published&limit=-1&sort=data_pubblicazione&fields=" + ','.join(fields)
+          url = f"{BASE}/items/articoli?{params}"
+
+          req = urllib.request.Request(url, headers={'Authorization': f'Bearer {TOKEN}'})
+          with urllib.request.urlopen(req, timeout=60) as r:
+              data = json.loads(r.read())
+
+          articles = data.get('data', [])
+          for a in articles:
+              a.setdefault('corpo', None)
+
+          snapshot = {
+              "_meta": {
+                  "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+                  "count": len(articles),
+                  "note": "Fallback per build se Directus non raggiungibile. Aggiornato ogni lunedì."
+              },
+              "data": articles
+          }
+
+          os.makedirs("src/data", exist_ok=True)
+          with open("src/data/articoli_snapshot.json", "w", encoding="utf-8") as f:
+              json.dump(snapshot, f, ensure_ascii=False, separators=(',',':'))
+
+          size = os.path.getsize("src/data/articoli_snapshot.json")
+          print(f"Snapshot: {len(articles)} articoli, {size/1024/1024:.2f} MB")
+          PYEOF
+
+      - name: Commit snapshot se aggiornato
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/articoli_snapshot.json
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica al snapshot — skip commit"
+          else
+            COUNT=$(python3 -c "import json; d=json.load(open('src/data/articoli_snapshot.json')); print(d['_meta']['count'])")
+            git commit -m "chore(snapshot): aggiorna articoli_snapshot.json ($COUNT articoli)"
+            git push
+          fi

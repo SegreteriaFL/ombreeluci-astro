@@ -2,13 +2,14 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getMegaclusterForArticle, getLabels, getRoleWeight } from '../../config/taxonomy.js';
-import { getAllAutori, getAllArticoli, getArticoloCopertinaSrc, getAutoreImageUrl } from '../../lib/directus';
+import { getAllAutori, getArticoloCopertinaSrc, getAutoreImageUrl } from '../../lib/directus';
+import { getAllArticoliBuild } from '../../lib/articoli-build';
 
 export async function getStaticPaths() {
   function toUrlSlug(name: string): string {
     return name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
-  const [allAutori, allArticoli] = await Promise.all([getAllAutori(), getAllArticoli()]);
+  const [allAutori, allArticoli] = await Promise.all([getAllAutori(), getAllArticoliBuild()]);
 
   return allAutori.map((autore) => {
     const urlSlug = toUrlSlug(autore.nome_completo);

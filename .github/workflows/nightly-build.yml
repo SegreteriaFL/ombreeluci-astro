@@ -7,19 +7,50 @@ on:
   workflow_dispatch: # trigger manuale dal pannello GitHub Actions
 
 jobs:
-  trigger-cf-pages-build:
+  check-directus:
+    name: Verifica Directus raggiungibile
     runs-on: ubuntu-latest
+    outputs:
+      directus_ok: ${{ steps.health.outputs.ok }}
+    steps:
+      - name: Health check Directus
+        id: health
+        run: |
+          HTTP=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
+            "https://cms.ombreeluci.it/server/ping" || echo "000")
+          echo "Directus HTTP status: $HTTP"
+          if [ "$HTTP" = "200" ]; then
+            echo "ok=true" >> $GITHUB_OUTPUT
+          else
+            echo "ok=false" >> $GITHUB_OUTPUT
+            echo "::warning::Directus non raggiungibile (HTTP $HTTP) — build userà snapshot"
+          fi
+
+  trigger-build:
+    name: Trigger Cloudflare Pages
+    runs-on: ubuntu-latest
+    needs: check-directus
     steps:
       - name: Trigger Cloudflare Pages deployment
+        id: deploy
         run: |
           RESPONSE=$(curl -s -X POST \
             "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CF_ACCOUNT_ID }}/pages/projects/ombreeluci-staging/deployments" \
             -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
             -H "Content-Type: application/json")
-          echo "Response: $RESPONSE"
-          SUCCESS=$(echo $RESPONSE | python3 -c "import sys,json; print(json.load(sys.stdin).get('success', False))")
+          SUCCESS=$(echo "$RESPONSE" | python3 -c "import sys,json; print(json.load(sys.stdin).get('success', False))" 2>/dev/null || echo "False")
+          DEPLOY_ID=$(echo "$RESPONSE" | python3 -c "import sys,json; print(json.load(sys.stdin).get('result',{}).get('id','?'))" 2>/dev/null || echo "?")
+          echo "Deploy triggered: $DEPLOY_ID (success=$SUCCESS)"
           if [ "$SUCCESS" != "True" ]; then
-            echo "Deployment trigger failed"
+            echo "::error::Deployment trigger fallito"
             exit 1
           fi
-          echo "Deployment triggered successfully"
+
+      - name: Notifica fallimento
+        if: failure()
+        run: |
+          if [ -n "${{ secrets.SLACK_WEBHOOK_URL }}" ]; then
+            curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
+              -H "Content-Type: application/json" \
+              -d "{\"text\":\"⚠️ *OEL nightly build fallita*\nDirectus ok: ${{ needs.check-directus.outputs.directus_ok }}\nDettagli: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"
+          fi

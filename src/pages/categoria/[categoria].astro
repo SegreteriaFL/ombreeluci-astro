@@ -2,10 +2,11 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
-import { getAllArticoli, getArticoloCopertinaSrc, getCategoriaDescrizione, getArticoliInEvidenza, getAutoreImageUrl } from '../../lib/directus';
+import { getArticoloCopertinaSrc, getCategoriaDescrizione, getArticoliInEvidenza, getAutoreImageUrl } from '../../lib/directus';
+import { getAllArticoliBuild } from '../../lib/articoli-build';
 
 export async function getStaticPaths() {
-  const allArticles = (await getAllArticoli()).filter((a) => a.lang !== 'en');
+  const allArticles = (await getAllArticoliBuild()).filter((a) => a.lang !== 'en');
   const categorySlugs = getAllCategorySlugs();
   return Promise.all(categorySlugs.map(async (categoria) => {
     const cat = getCategoryBySlug(categoria);
