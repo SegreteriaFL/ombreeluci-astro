@@ -1,0 +1,136 @@
+---
+/**
+ * ArticoliRullo.astro
+ * Componente di presentazione pura per liste di articoli (rullo/feed).
+ *
+ * Riceve una lista già filtrata e ordinata: nessuna logica di business qui.
+ * La pagina ospite decide cosa mostrare; questo componente decide come mostrarlo.
+ *
+ * Props:
+ *   title       — titolo della sezione (h1)
+ *   articoli    — array già filtrato+ordinato (da getAllArticoli)
+ *   description — testo introduttivo opzionale
+ */
+import ArticleCard from './ArticleCard.astro';
+import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
+import { getArticoloCopertinaSrc } from '../lib/directus';
+import type { ArticoloFull } from '../lib/directus';
+
+interface Props {
+  title: string;
+  articoli: ArticoloFull[];
+  description?: string | null;
+  /** Livello heading del titolo (default 1). Usare 2 quando la pagina ha già un h1 proprio. */
+  headingLevel?: 1 | 2;
+}
+
+const { title, articoli, description = null, headingLevel = 1 } = Astro.props;
+---
+
+<section class="rullo-section">
+  <header class="rullo-header">
+    <div class="rullo-header-top">
+      {headingLevel === 2
+        ? <h2 class="rullo-title">{title}</h2>
+        : <h1 class="rullo-title">{title}</h1>
+      }
+      <span class="rullo-count" aria-live="polite">
+        {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'}
+      </span>
+    </div>
+    {description && (
+      <p class="rullo-description">{description}</p>
+    )}
+  </header>
+
+  {articoli.length > 0 ? (
+    <div class="rullo-grid">
+      {articoli.map((a) => {
+        const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+        const { formal } = getLabels([], a);
+        return (
+          <ArticleCard
+            title={a.titolo}
+            slug={a.slug}
+            categoriaMenu={categoria_menu ?? undefined}
+            issue={a.numero_rivista?.id_numero ?? null}
+            forma={formal}
+            author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+            date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+            image={getArticoloCopertinaSrc(a)}
+            ruoloEditoriale={ruolo_editoriale ?? undefined}
+          />
+        );
+      })}
+    </div>
+  ) : (
+    <div class="rullo-empty">
+      <p>Nessun articolo disponibile.</p>
+    </div>
+  )}
+</section>
+
+<style>
+  .rullo-section {
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .rullo-header {
+    margin-bottom: 2rem;
+    max-width: 720px;
+  }
+
+  .rullo-header-top {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+
+  .rullo-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
+    margin: 0;
+  }
+
+  .rullo-count {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    white-space: nowrap;
+  }
+
+  .rullo-description {
+    font-size: 1rem;
+    line-height: 1.65;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  .rullo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .rullo-empty {
+    padding: 3rem 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 480px) {
+    .rullo-section {
+      padding-top: 1.5rem;
+    }
+    .rullo-grid {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+  }
+</style>
