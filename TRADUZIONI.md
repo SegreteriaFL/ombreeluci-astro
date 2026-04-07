@@ -8,7 +8,9 @@
 
 ## 1. Obiettivo
 
-Tradurre l'intero corpus italiano di Ombre e Luci non ancora disponibile in inglese (~3265 articoli) con Claude Haiku, rispettando filologicamente i testi originali, e collegare ogni versione EN alla IT tramite `articolo_traduzione` (bidirezionale).
+Tradurre l'intero corpus italiano di Ombre e Luci non ancora disponibile in inglese
+(~3265 articoli) con Claude Haiku, rispettando filologicamente i testi originali,
+e collegare ogni versione EN alla IT tramite `articolo_traduzione` (bidirezionale).
 
 ---
 
@@ -17,24 +19,26 @@ Tradurre l'intero corpus italiano di Ombre e Luci non ancora disponibile in ingl
 | Voce | Dato |
 |------|------|
 | Articoli IT pubblicati | 3396 |
-| Articoli EN già presenti | 131 (tradotti manualmente, da WP) |
-| Articoli IT senza EN | ~3265 (audit esatto: vedi §7.1) |
+| Articoli EN già presenti | 131 (tradotti manualmente da WP) |
+| Articoli IT senza EN | ~3265 (audit esatto: §8 Step 1) |
 | Campo collegamento | `articolo_traduzione` (self-relation M2O su `articoli`) |
 | Frontend | ✅ pronto — `hreflang`, language switcher, `archival-alert-en` |
 | Indice EN | ✅ `/blog/en` — `src/pages/blog/en.astro` |
 | UI i18n | ✅ `src/utils/i18n.ts` — label chiave IT/EN presenti |
-| Script | ❌ da creare (`scripts/traduzione/`) |
+| Script traduzione | ✅ `scripts/traduzione/translate_articles.py` |
+| Script stima costi | ✅ `scripts/traduzione/estimate_tokens.py` |
+| Script backfill link | ✅ `scripts/traduzione/backfill_traduzione_link.py` |
+| Script rollback | ✅ `scripts/traduzione/rollback_batch.py` |
+| Script QA | ✅ `scripts/traduzione/qa_check.py` |
 
 ---
 
-## 3. Regole filologiche — OBBLIGATORIE (approvazione editoriale richiesta)
+## 3. Regole filologiche — OBBLIGATORIE
 
-> ⚠️ Le regole §3.1 e §3.2 devono essere approvate formalmente dalla direzione editoriale
-> prima del lancio del pilot. Non è una decisione tecnica.
+> ⚠️ Le regole §3.1 e §3.2 devono essere approvate formalmente dalla direzione
+> editoriale prima del lancio del pilot. Non è una decisione tecnica.
 
 ### 3.1 Terminologia disabilità — non modernizzare mai
-
-Ombre e Luci è un archivio di 50 anni di pensiero sulla disabilità (1974–oggi). Il linguaggio è cambiato radicalmente e questi termini devono essere preservati come testimonianza storica.
 
 | Italiano originale | Traduzione EN corretta | ❌ NON usare |
 |--------------------|------------------------|--------------|
@@ -46,24 +50,25 @@ Ombre e Luci è un archivio di 50 anni di pensiero sulla disabilità (1974–ogg
 | ritardato/a | retarded | person with intellectual disability |
 | minorato/a | impaired / handicapped | person with a disability |
 
-Il frontend mostra già `archival-alert-en` per articoli EN con `data_pubblicazione.year < 2000`:
+Il frontend mostra già `archival-alert-en` per articoli EN con anno < 2000:
 > *"This archival content from [YEAR] reflects the language and sensitivities of its time."*
 
 ### 3.2 Grammatica e sintassi non standard — non iper-correggere
 
-Alcuni articoli sono scritti da bambini o da persone con disabilità cognitiva o comunicativa. Il testo può presentare:
-- frasi incomplete o senza verbo
-- sintassi semplificata o non convenzionale
-- punteggiatura assente o ripetuta
-- ripetizioni deliberate
-- costrutti infantili ("e poi... e poi... e poi...")
+Alcuni articoli sono scritti da bambini o da persone con disabilità cognitiva o
+comunicativa. Il testo può presentare frasi incomplete, sintassi semplificata,
+punteggiatura assente, ripetizioni deliberate, costrutti infantili.
 
-**Regola:** tradurre preservando lo stesso livello di informalità, semplicità o irregolarità grammaticale. Non "riparare" la lingua per renderla più standard.
+**Regola:** tradurre preservando lo stesso livello di irregolarità grammaticale.
+Non "riparare" la lingua per renderla più standard. L'imperfezione è parte
+della voce originale dell'autore.
 
-Come si riconosce: l'autore è spesso indicato come "un ragazzo di X anni", "la redazione del gruppo Y", o il testo stesso denuncia stile non adulto. Lo script non può rilevarlo automaticamente — è una regola che vale nel prompt Haiku e nella review redazionale.
+**Criterio documentato "quando preservare vs annotare":**
+- Preservare integralmente: qualsiasi irregolarità chiaramente stilistica/intenzionale
+- Annotare per review: solo se l'irregolarità causa ambiguità semantica grave
+  (impossibile capire il senso anche in italiano)
 
-**Nel system prompt Haiku:**
-> *"If the Italian text contains grammatically irregular constructions, simplified syntax, incomplete sentences, or childlike language patterns, preserve the same level of linguistic simplicity and irregularity in the English translation. Do not silently correct grammar or 'improve' the style. The imperfection is part of the original author's voice."*
+Il system prompt Haiku include questa istruzione esplicitamente.
 
 ---
 
@@ -82,89 +87,108 @@ articoli
 
 **Formula: `{slug-italiano}-en`**
 
-| IT slug | EN slug |
-|---------|---------|
-| `la-storia-di-maria` | `la-storia-di-maria-en` |
-| `disabilita-e-fede-2` | `disabilita-e-fede-2-en` |
+I 131 EN legacy (da WordPress) mantengono i loro slug originali.
 
-I 131 EN legacy (da WordPress) mantengono i loro slug originali — nessun cambio.
+### 4.2 Matching IT↔EN per i 131 EN esistenti (backfill)
 
-### 4.2 Matching IT↔EN per i 131 EN esistenti
+Priorità a cascata con **soglia confidence**:
 
-Priorità di matching (in ordine):
-1. `wp_id` identico su IT e EN → collegamento certo
-2. Stesso `titolo` normalizzato (lowercase, accenti rimossi) → probabile
-3. Stessa `data_pubblicazione` + stesso `autore` → possibile, richiede review manuale
+| Livello | Metodo | Azione |
+|---------|--------|--------|
+| Certo | stesso `wp_id` | auto-link |
+| Probabile | titolo normalizzato identico, UN solo match | auto-link |
+| Ambiguo | titolo normalizzato con più candidate | log `AMBIGUOUS` → review manuale |
+| Ambiguo | stessa data+autore, più candidate | log `AMBIGUOUS` → review manuale |
+| Nessuno | nessun match | log `NO_MATCH` → review manuale |
 
-Il `backfill_traduzione_link.py` usa questa cascata e logga i casi ambigui per review.
-
-### 4.3 Collegamento bidirezionale
-
-Lo script imposta **entrambe** le direzioni:
-```
-PATCH /items/articoli/{it_id}  →  { articolo_traduzione: en_id }
-PATCH /items/articoli/{en_id}  →  { articolo_traduzione: it_id }
-```
-Senza bidirezionalità il language switcher non funziona da EN → IT.
+**Mai auto-linkare quando il match non è inequivoco.**
 
 ---
 
-## 5. System prompt Haiku (v2 — production)
+## 5. Architettura dello script — decisioni chiave
 
-```
-You are a professional translator for Ombre e Luci, an Italian Catholic magazine about
-disability, faith, and human dignity, published since 1974.
+### 5.1 Una sola chiamata API per articolo
 
-=== CRITICAL TRANSLATION RULES ===
+Lo script invia tutti i campi (titolo, sottotitolo, seo, corpo) in un'unica
+richiesta strutturata con delimiter testuali (`===TITOLO===` ecc.), non JSON.
 
-1. FAITHFUL VOICE: Translate accurately from Italian to English, preserving the author's
-   voice, style, and the cultural context of the era.
+**Perché non JSON:** l'HTML nel corpo può contenere virgolette, backslash e
+caratteri speciali che invalidano silenziosamente il JSON.
+I delimiter testuali sono deterministici e non ambigui.
 
-2. DISABILITY TERMINOLOGY — NEVER MODERNIZE:
-   Preserve period-accurate disability terms exactly as written:
-   "spastico/a" → "spastic" | "subnormale" → "subnormal"
-   "handicappato/a" → "handicapped" | "mongoloide" → "mongoloid"
-   "deficiente" → "deficient" | "ritardato/a" → "retarded"
-   These are archival documents. Censoring them would betray the magazine's mission.
+### 5.2 Validazione dura post-risposta
 
-3. IRREGULAR GRAMMAR — DO NOT CORRECT:
-   If the Italian contains grammatically irregular constructions, simplified syntax,
-   incomplete sentences, or childlike language (articles written by children or people
-   with cognitive disabilities), preserve the same level of linguistic irregularity in
-   English. Do not silently correct or improve the style.
+Prima di scrivere qualsiasi cosa in Directus, lo script verifica:
+- Tutti e 4 i delimiter presenti nella risposta
+- Tag HTML count entro ±15% dell'originale
+- Link `<a href>` preservati al 100%
+- Lunghezza testo EN ≥ 30% del testo IT
+- Titolo EN non vuoto
 
-4. HTML TAGS — PRESERVE EXACTLY:
-   Only translate text nodes. Never add, remove, or modify any HTML tag or attribute.
-   Preserve: <p>, <strong>, <em>, <a href="...">, <img>, <blockquote>, etc. unchanged.
+Se anche uno solo fallisce → retry, poi `status=error` nel log.
 
-5. PROPER NAMES — DO NOT TRANSLATE:
-   "Fede e Luce" (movement), "Ombre e Luci" (magazine), Italian city/person names,
-   "don/padre/suor" titles, Italian institutional names.
+### 5.3 Idempotenza con source hash
 
-6. THEOLOGICAL TERMS: translate standard Catholic vocabulary faithfully
-   ("misericordia" → "mercy", "carisma" → "charism", "testimonianza" → "testimony").
+Ogni articolo ha un `source_hash` (SHA256 dei campi sorgente, 16 char).
+Con `--resume`, lo script salta gli articoli già OK **con lo stesso hash**.
+Se il testo IT viene modificato dopo la traduzione, il hash cambia
+e l'articolo viene ritradotto automaticamente.
 
-7. OUTPUT: return ONLY the translated content. No explanations. No preamble. No comments.
-```
+### 5.4 Rate limit adattivo
+
+Lo script traccia token/minuto in una finestra rolling. Se si avvicina
+ai limiti Tier 1 (50K ITPM, 50K OTPM) aspetta automaticamente la fine
+del minuto. Su risposta 429 applica backoff esponenziale (8s, 16s, 32s, 64s).
 
 ---
 
-## 6. Definition of Done — metriche oggettive
+## 6. Stima costi
 
-Il batch è considerato completato quando:
+**Modello:** `claude-haiku-4-5-20251001`
+**Pricing:** $0.80/M token input · $4.00/M token output
 
-| Metrica | Soglia |
-|---------|--------|
-| % articoli IT con EN collegato bidirezionale | ≥ 99% |
-| % EN con `hreflang` corretto (verifica script) | ≥ 99% |
-| Errori batch (eccezioni non recuperate) | ≤ 1% (max ~33 su 3265) |
-| QA HTML: tag principali preservati | 100% (zero articoli con HTML rotto) |
-| Lunghezza EN ≥ 30% lunghezza IT | 100% (sanity check anti-truncation) |
-| Smoke test manuale: 10 articoli campione | 100% superati |
+| Scenario | Corpo medio | Costo stimato |
+|----------|-------------|---------------|
+| Articoli brevi (500 parole) | ~700 tok | ~€13 |
+| Articoli medi (1200 parole) | ~1700 tok | ~€30 |
+| Articoli lunghi (2500 parole) | ~3500 tok | ~€57 |
+| **Realistico OEL (mix)** | ~1500 tok | **~€25–45** |
+
+**Caricare €100–120 su console.anthropic.com** — buffer per retry, articoli
+lunghi e output verboso. Il costo reale viene loggato articolo per articolo.
+
+> ⚠️ Il billing della pipeline è su **console.anthropic.com** (API),
+> non su platform.claude.com (abbonamento Claude Pro — separato).
+
+Per il numero esatto prima di spendere: `python estimate_tokens.py`
 
 ---
 
-## 7. Pipeline operativa in 10 step
+## 7. Stima tempi — realistica
+
+**Tier 1** (account nuovo, 50 RPM):
+
+| Config | Stima |
+|--------|-------|
+| 1 worker, 1 call/art, 3265 articoli | **2–4 ore** |
+| 3 worker (max utile su Tier 1) | **~90–120 min** |
+| Caso peggiore (retry, articoli lunghi) | **fino a 6 ore** |
+
+**Tier 2** (dopo ~$100 spesi, 1000 RPM):
+
+| Config | Stima |
+|--------|-------|
+| 5 worker | **~25–40 min** |
+
+Il conto "1 call × 50 RPM = 65 min" ignora latenza reale (~2-4s/call),
+retry, colli di bottiglia TPM e latenza Directus. La stima onesta è 2–4 ore.
+
+**Pratica:** lancia la sera, controlla la mattina. Il checkpoint/resume
+garantisce che un'interruzione non ricominci da zero.
+
+---
+
+## 8. Pipeline operativa — 10 step
 
 ### Step 1 — Audit gap
 ```bash
@@ -173,151 +197,128 @@ filter[lang][_eq]=it&filter[stato][_eq]=published&\
 filter[articolo_traduzione][_null]=true&aggregate[count]=id" \
 -H "Authorization: Bearer $DIRECTUS_TOKEN"
 ```
-Output: numero esatto di articoli da tradurre.
 
-### Step 2 — Stima costi
+### Step 2 — Stima costi esatta
 ```bash
-cd scripts/traduzione && python estimate_tokens.py
+cd scripts/traduzione
+export DIRECTUS_TOKEN=xxx
+python estimate_tokens.py
 ```
-Legge corpus da Directus, conta token, stampa costo stimato in € prima di spendere nulla.
 
-### Step 3 — Approvazione editoriale
-Condividere §3 (regole filologiche) con direzione editoriale. Verde esplicito prima del pilot.
+### Step 3 — Approvazione editoriale formale
+Condividere §3 (regole filologiche) con direzione editoriale e, se necessario,
+consulenza legale. Verde scritto prima di procedere.
 
 ### Step 4 — Dry-run su 10 articoli
 ```bash
 python translate_articles.py --dry-run --limit 10
 ```
-Mostra titoli e prime righe della traduzione senza scrivere nulla in Directus.
+Mostra anteprima traduzioni, zero scritture in Directus.
 
 ### Step 5 — Pilot su 50 articoli (stato=draft)
 ```bash
 python translate_articles.py --limit 50 --stato draft --job-id pilot-01
 ```
-Crea 50 EN in stato `draft`. Redazione fa spot-check qualità.
 
-### Step 6 — Approvazione qualità
-Redazione apre 10-15 articoli EN in Directus → verifica fedeltà, terminologia, HTML.
-Verde esplicito prima del lancio completo.
-
-### Step 7 — Lancio completo
+### Step 6 — QA pilot
 ```bash
-python translate_articles.py --workers 5 --stato draft --job-id batch-2026-04
+python qa_check.py --job-id pilot-01
 ```
-5 thread paralleli, checkpoint/resume automatico, log dettagliato in `logs/`.
+Verifica HTML, link, lunghezze, bidirezionalità. Soglie: HTML ≥99.5%, link 100%.
 
-### Step 8 — Backfill 131 EN esistenti
+### Step 7 — Review redazionale campione
+Redazione apre 15–20 articoli EN in Directus → verifica fedeltà, terminologia,
+coerenza stilistica. **Verde esplicito dalla redazione prima del lancio completo.**
+
+### Step 8 — Lancio completo
 ```bash
+python translate_articles.py --workers 3 --stato draft --job-id batch-2026-04
+# se interrotto:
+python translate_articles.py --workers 3 --stato draft --job-id batch-2026-04 --resume
+```
+
+### Step 9 — QA completa + backfill link 131 EN legacy
+```bash
+python qa_check.py --job-id batch-2026-04
 python backfill_traduzione_link.py --dry-run
 python backfill_traduzione_link.py
 ```
-Collega i 131 EN legacy alle loro controparti IT. Log dei casi ambigui per review manuale.
-
-### Step 9 — Verifica SEO
-```bash
-python verify_hreflang.py  # da creare
-```
-Verifica che ogni EN abbia `articolo_traduzione → IT` e che il frontend generi `hreflang` corretto.
-Verifica `sitemap.xml.ts`: articoli EN inclusi (verificare che `lang='en'` non sia filtrato).
 
 ### Step 10 — Pubblicazione massiva EN
-Dopo review redazionale:
-```bash
-# Pubblica tutti i draft EN del batch
-curl -X PATCH "https://cms.ombreeluci.it/items/articoli" \
-  -H "Authorization: Bearer $DIRECTUS_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{"query":{"filter":{"lang":{"_eq":"en"},"stato":{"_eq":"draft"},"_and":[{"_meta":{"job_id":{"_eq":"batch-2026-04"}}}]}},"data":{"stato":"published"}}'
-```
+**Solo dopo QA ≥ soglie e review redazione.**
+Aggiornamento stato da `draft` a `published` tramite Directus admin o PATCH bulk.
 
 ---
 
-## 8. Stima costi dettagliata
+## 9. Quality gates — metriche oggettive
 
-**Modello:** `claude-haiku-4-5-20251001`
-**Pricing:** input $0.80/M token · output $4.00/M token
+Il batch è promosso a pubblicabile quando:
 
-Distribuzione stimata articoli OEL (50 anni di rivista):
-- 40% brevi (lettere, testimonianze brevi): corpo ~600 tok
-- 40% medi (articoli standard): corpo ~1800 tok
-- 20% lunghi (saggi, reportage): corpo ~4000 tok
-- Media ponderata corpo: **~1680 token**
-
-Per articolo:
-| Campo | Input token | Output token |
-|-------|-------------|--------------|
-| System prompt | 450 | — |
-| titolo + sottotitolo + seo | 150 | 120 |
-| corpo HTML | 1680 | 1680 |
-| **Totale per articolo** | **2280** | **1800** |
-
-Per 3265 articoli (+ 5% buffer retry):
-- Input: 3265 × 2280 × 1.05 = **7.81M token → $6.25**
-- Output: 3265 × 1800 × 1.05 = **6.17M token → $24.67**
-- **Totale stimato: ~$31 ≈ €29**
-
-Range realistico considerando varianza lunghezza: **€20–55**
-(dipende dalla % di articoli lunghi nel corpus reale — `estimate_tokens.py` darà il numero esatto)
-
-**Tempi con `--workers 5`:** ~3265 art × 2s/art ÷ 5 worker = **~22 minuti**
+| Metrica | Soglia minima |
+|---------|---------------|
+| HTML valido (tag count ±15%) | ≥ 99.5% articoli |
+| Link `<a href>` preservati | 100% |
+| Collegamento bidirezionale IT↔EN | ≥ 99.9% |
+| Lunghezza EN ≥ 30% IT | 100% |
+| Tasso errori batch | ≤ 1% (max ~33 su 3265) |
+| Campione manuale (significato) | < 2% "critical meaning drift" |
 
 ---
 
-## 9. Piano rollback
+## 10. Piano rollback
 
-Ogni batch ha un `job_id` (es. `batch-2026-04`). In caso di batch difettoso:
+Ogni batch ha un `job_id`. In caso di batch difettoso:
 
 ```bash
-# Rollback: elimina EN del batch e rimuove i link dagli IT
 python rollback_batch.py --job-id batch-2026-04 --dry-run
 python rollback_batch.py --job-id batch-2026-04
 ```
 
-Lo script:
-1. Legge `logs/batch-2026-04.csv` → recupera `(it_id, en_id)` di ogni record creato
-2. `PATCH /items/articoli/{it_id}` → `{ articolo_traduzione: null }`
-3. `DELETE /items/articoli/{en_id}` → elimina l'EN
-
-Stato `draft` garantisce che nulla sia visibile agli utenti fino alla pubblicazione esplicita.
+Lo script legge il log CSV, rimuove `articolo_traduzione` dagli IT
+e cancella gli articoli EN. Sicuro perché gli EN sono in `draft`.
 
 ---
 
-## 10. QA automatica post-traduzione
+## 11. Seconda lingua (spagnolo — dopo EN)
 
-`scripts/traduzione/qa_check.py` verifica ogni EN creato:
+**Scelta:** spagnolo — 570M parlanti, enorme comunità cattolica latinoamericana,
+massima rilevanza missionaria per OEL. (Alternativa culturalmente vicina: francese,
+lingua d'origine di Fede e Luce e Jean Vanier.)
 
-| Check | Come |
-|-------|------|
-| HTML non rotto | `BeautifulSoup.find_all()` — stessa struttura tag-level |
-| Link `<a href>` invariati | confronto href originale vs. tradotto |
-| Lunghezza EN ≥ 30% IT | `len(corpo_en) >= len(corpo_it) * 0.3` |
-| Nessun testo italiano residuo | heuristic: < 5% parole italiane comuni |
-| `articolo_traduzione` bidirezionale | API check su entrambi gli ID |
+**Esecuzione:** sequenziale, non parallela.
+1. Chiudi EN con processo stabile e QA verificata
+2. Aggiungi `--target-lang es` allo script (slug suffix `-es`, system prompt ES)
+3. Ripeti la stessa pipeline — costo analogo, ~€25–45 in più
 
-Output: `logs/qa-{job_id}.csv` con flag per ogni articolo.
+**Budget totale EN + ES: €60–120** su console.anthropic.com.
 
 ---
 
-## 11. Tracciamento batch
+## 12. Tracciamento batch
 
-Ogni run dello script scrive in `logs/{job_id}.csv`:
+Ogni run scrive in `logs/{job_id}.csv`:
 
-```csv
-job_id,it_id,it_slug,en_id,en_slug,status,error,input_tokens,output_tokens,cost_usd,timestamp
-batch-2026-04,12345,la-storia-di-maria,67890,la-storia-di-maria-en,ok,,2180,1820,0.0083,2026-04-07T14:23:11
+```
+job_id, it_id, it_slug, en_id, en_slug, source_hash,
+status, error, input_tokens, output_tokens, cost_usd, timestamp
 ```
 
-Permette di: riprendere dopo interruzione, calcolare costo reale effettivo, fare rollback selettivo.
+Permette: resume dopo interruzione, costo reale effettivo,
+rollback selettivo, audit storico delle traduzioni.
 
 ---
 
-## 12. Riferimenti codebase
+## 13. Riferimenti codebase
 
 | File | Cosa fa |
 |------|---------|
 | `src/pages/blog/[...slug].astro` | IT+EN, hreflang, archival-alert-en, language switcher |
-| `src/pages/blog/en.astro` | Indice `/blog/en` — da migrare ad ArticoliRullo (backlog) |
+| `src/pages/blog/en.astro` | Indice `/blog/en` |
 | `src/utils/i18n.ts` | Dizionario UI it/en |
 | `src/lib/directus.ts` | `ArticoloFull.articolo_traduzione` |
 | `PROGRESS.md` | Task `DA-06` con link a questo file |
-| `scripts/traduzione/` | Scripts (da creare — §7) |
+| `scripts/traduzione/translate_articles.py` | Pipeline principale |
+| `scripts/traduzione/estimate_tokens.py` | Stima costi pre-lancio |
+| `scripts/traduzione/backfill_traduzione_link.py` | Collega 131 EN legacy |
+| `scripts/traduzione/qa_check.py` | QA automatica post-batch |
+| `scripts/traduzione/rollback_batch.py` | Annulla batch da log |
