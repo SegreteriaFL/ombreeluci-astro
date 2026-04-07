@@ -5,10 +5,11 @@
  */
 import DiarioLayout from '../layouts/DiarioLayout.astro';
 import { DIARISTI, getDiaristaByDiarioSlug } from '../data/diari.js';
-import { getAllArticoli, getAllAutori, getAutoreImageUrl } from '../lib/directus';
+import { getAllAutori, getAutoreImageUrl } from '../lib/directus';
+import { getAllArticoliBuild } from '../lib/articoli-build';
 
 export async function getStaticPaths() {
-  const allArticoli = await getAllArticoli();
+  const allArticoli = await getAllArticoliBuild();
   const allAutori = await getAllAutori();
 
   const paths: { params: { diario: string }; props: Record<string, unknown> }[] = [];
