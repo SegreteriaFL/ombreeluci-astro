@@ -133,12 +133,14 @@ Runbook completo: `/opt/oel-cms/RUNBOOK.md` sul server.
 
 ## Evidence — ultimo stato verificato
 
-> Aggiornare questa sezione ogni volta che si esegue un backup manuale, un restore test, o si modifica il monitoring.
+> Aggiornare questa sezione ad ogni check manuale, con data + owner (chi ha verificato).
+> Commit del repo come traccia immutabile.
 
 ### Backup DB PostgreSQL
 | Campo | Valore |
 |---|---|
-| Data ultimo backup riuscito | 2026-04-07 06:09 UTC |
+| Data | 2026-04-07 06:09 UTC |
+| Owner | Claude / SegreteriaFL |
 | File | `pgdump_oel_20260407_060841.dump.gz` |
 | Size | 79 MB |
 | SHA-256 (primi 16 char) | `e1d3ad46eed5b35a` |
@@ -147,20 +149,22 @@ Runbook completo: `/opt/oel-cms/RUNBOOK.md` sul server.
 ### Restore test
 | Campo | Valore |
 |---|---|
-| Data ultimo restore test | 2026-04-07 |
+| Data | 2026-04-07 |
+| Owner | Claude / SegreteriaFL |
 | Metodo | Container PostgreSQL temporaneo (`pg_restore_test`) |
 | Tabelle ripristinate | 42 |
 | Righe `directus_activity` | 62.343 |
-| Esito | OK |
+| Esito | ✅ OK |
 
 ### Monitor attivi
-| Endpoint | Strumento | Alert | Stato |
-|---|---|---|---|
-| `cms.ombreeluci.it/server/ping` | — | — | **da configurare** (UptimeRobot) |
-| `ombreeluci.it/` | — | — | **da configurare** (UptimeRobot) |
-| Build nightly GH Actions | GitHub Actions | Slack (`SLACK_WEBHOOK_URL`) | secret **da aggiungere** |
+| Endpoint | Strumento | Alert | Stato | Owner setup |
+|---|---|---|---|---|
+| `cms.ombreeluci.it/server/ping` | — | — | ⚠️ da configurare | — |
+| `ombreeluci.it/` | — | — | ⚠️ da configurare | — |
+| Build nightly GH Actions | GitHub Actions | Slack | ⚠️ secret `SLACK_WEBHOOK_URL` mancante | — |
 
-Per configurare UptimeRobot: [uptimerobot.com](https://uptimerobot.com) → New Monitor → HTTP(s) → incolla URL → interval 5 min → Save.
+Per UptimeRobot: [uptimerobot.com](https://uptimerobot.com) → New Monitor → HTTP(s) → interval 5 min.
+Una volta configurato: aggiorna questa tabella con strumento, canale alert, owner, data.
 
 ---
 

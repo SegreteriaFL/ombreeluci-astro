@@ -1,0 +1,37 @@
+name: Sync RUNBOOK.md → server
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'RUNBOOK.md'
+
+jobs:
+  sync:
+    name: Copia RUNBOOK.md su VPS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Aggiorna riga "ultima sync" in RUNBOOK.md
+        run: |
+          COMMIT=$(git rev-parse --short HEAD)
+          DATE=$(date -u +%Y-%m-%d)
+          # Sostituisce la riga di sync header con data e commit attuali
+          sed -i "s|> \*\*Ultima sync repo→server\*\*:.*|> **Ultima sync repo→server**: ${DATE} · commit \`${COMMIT}\` · owner: GitHub Actions|" RUNBOOK.md
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_DEPLOY_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Copia RUNBOOK.md sul server
+        run: |
+          scp -i ~/.ssh/deploy_key \
+            -o StrictHostKeyChecking=yes \
+            RUNBOOK.md \
+            root@159.69.196.64:/opt/oel-cms/RUNBOOK.md
+          echo "Sync completata: $(date -u)"
