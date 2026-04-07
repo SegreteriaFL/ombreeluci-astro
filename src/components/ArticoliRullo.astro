@@ -1,0 +1,335 @@
+---
+/**
+ * ArticoliRullo.astro
+ * Componente di presentazione pura per liste di articoli (rullo/feed).
+ *
+ * Riceve una lista già filtrata e ordinata: nessuna logica di business qui.
+ * La pagina ospite decide cosa mostrare; questo componente decide come mostrarlo.
+ *
+ * Props:
+ *   title       — titolo della sezione (h1 o h2)
+ *   articoli    — array già filtrato+ordinato (da getAllArticoli)
+ *   description — testo introduttivo opzionale
+ *   headingLevel — 1 (default) o 2 per embedding in pagine con h1 proprio
+ *   pageSize    — quante card renderizzare server-side; il resto viene caricato
+ *                 on-demand via pulsante (default: tutte)
+ */
+import ArticleCard from './ArticleCard.astro';
+import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
+import { getArticoloCopertinaSrc } from '../lib/directus';
+import type { ArticoloFull } from '../lib/directus';
+
+interface Props {
+  title: string;
+  articoli: ArticoloFull[];
+  description?: string | null;
+  /** Livello heading del titolo (default 1). Usare 2 quando la pagina ha già un h1 proprio. */
+  headingLevel?: 1 | 2;
+  /** Quante card renderizzare server-side. Il resto appare via load-more. */
+  pageSize?: number;
+}
+
+const { title, articoli, description = null, headingLevel = 1, pageSize } = Astro.props;
+
+const usePageSize = pageSize != null && pageSize > 0;
+const firstPage = usePageSize ? articoli.slice(0, pageSize) : articoli;
+const rest = usePageSize ? articoli.slice(pageSize) : [];
+const hasMore = rest.length > 0;
+
+// Pre-processa il resto per la serializzazione JSON (load-more client-side)
+function authorSlug(name: string): string {
+  return String(name)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+const restData = rest.map((a) => {
+  const { categoria_menu } = getMegaclusterForArticle(a);
+  const { formal } = getLabels([], a);
+  const hasIssue = a.numero_rivista?.id_numero != null;
+  const formaPrefix = formal && formal !== 'Articolo' ? `${formal} · ` : '';
+  const badge = categoria_menu
+    ? `${formaPrefix}${categoria_menu}`
+    : (hasIssue ? '' : 'Online');
+  return {
+    titolo: a.titolo,
+    slug: a.slug,
+    autore: a.autore?.nome_completo ?? 'Autore sconosciuto',
+    autoreSlug: authorSlug(a.autore?.nome_completo ?? ''),
+    data: a.data_pubblicazione ?? null,
+    immagine: getArticoloCopertinaSrc(a),
+    badge,
+  };
+});
+---
+
+<section class="rullo-section">
+  <header class="rullo-header">
+    <div class="rullo-header-top">
+      {headingLevel === 2
+        ? <h2 class="rullo-title">{title}</h2>
+        : <h1 class="rullo-title">{title}</h1>
+      }
+      <span class="rullo-count" id="rullo-count">
+        {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'}
+      </span>
+    </div>
+    {description && (
+      <p class="rullo-description">{description}</p>
+    )}
+  </header>
+
+  {articoli.length > 0 ? (
+    <>
+      <div class="rullo-grid" id="rullo-grid">
+        {firstPage.map((a) => {
+          const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+          const { formal } = getLabels([], a);
+          return (
+            <ArticleCard
+              title={a.titolo}
+              slug={a.slug}
+              categoriaMenu={categoria_menu ?? undefined}
+              issue={a.numero_rivista?.id_numero ?? null}
+              forma={formal}
+              author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+              date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+              image={getArticoloCopertinaSrc(a)}
+              ruoloEditoriale={ruolo_editoriale ?? undefined}
+            />
+          );
+        })}
+      </div>
+
+      {hasMore && (
+        <>
+          <div class="rullo-loadmore-wrap" id="rullo-loadmore-wrap">
+            <button class="rullo-loadmore" id="rullo-loadmore"
+              data-loaded={firstPage.length}
+              data-total={articoli.length}
+              aria-label={`Carica altri articoli (${rest.length} rimanenti)`}>
+              Carica altri
+              <span class="rullo-remaining" id="rullo-remaining">
+                ({rest.length} rimanenti)
+              </span>
+            </button>
+          </div>
+
+          {/* Dati pre-processati per il load-more — non visibili nel DOM */}
+          <script
+            id="rullo-data"
+            type="application/json"
+            set:html={JSON.stringify(restData)}
+          />
+        </>
+      )}
+    </>
+  ) : (
+    <div class="rullo-empty">
+      <p>Nessun articolo disponibile.</p>
+    </div>
+  )}
+</section>
+
+<script>
+  const btn = document.getElementById('rullo-loadmore') as HTMLButtonElement | null;
+  if (btn) {
+    const BATCH = 24;
+    const grid = document.getElementById('rullo-grid')!;
+    const wrap = document.getElementById('rullo-loadmore-wrap')!;
+    const dataEl = document.getElementById('rullo-data')!;
+    const remaining = JSON.parse(dataEl.textContent ?? '[]') as Array<{
+      titolo: string;
+      slug: string;
+      autore: string;
+      autoreSlug: string;
+      data: string | null;
+      immagine: string | null;
+      badge: string;
+    }>;
+    let loaded = 0;
+
+    function makeCard(a: typeof remaining[number]): HTMLElement {
+      const dateStr = a.data
+        ? new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
+            .format(new Date(a.data))
+        : '';
+
+      // Replica struttura ArticleCard (article-card > article-link + author-row)
+      const card = document.createElement('div');
+      card.className = 'article-card';
+
+      const link = document.createElement('a');
+      link.href = `/blog/${a.slug}`;
+      link.className = 'article-link';
+
+      if (a.immagine) {
+        const imgWrap = document.createElement('div');
+        imgWrap.className = 'article-image-wrap';
+        const img = document.createElement('img');
+        img.src = a.immagine;
+        img.alt = a.titolo;
+        img.loading = 'lazy';
+        img.setAttribute('data-copertina-fallback', '');
+        img.setAttribute('onerror', "this.onerror=null;this.src='/images/placeholder-copertina.svg'");
+        imgWrap.appendChild(img);
+        link.appendChild(imgWrap);
+      }
+
+      const meta = document.createElement('div');
+      meta.className = 'article-meta';
+
+      if (a.badge) {
+        const badge = document.createElement('p');
+        badge.className = 'article-badge';
+        const badgeSpan = document.createElement('span');
+        badgeSpan.className = 'article-badge-text';
+        badgeSpan.textContent = a.badge;
+        badge.appendChild(badgeSpan);
+        meta.appendChild(badge);
+      }
+
+      const h3 = document.createElement('h3');
+      h3.className = 'article-title';
+      h3.textContent = a.titolo;
+      meta.appendChild(h3);
+
+      link.appendChild(meta);
+      card.appendChild(link);
+
+      const authorRow = document.createElement('p');
+      authorRow.className = 'author-row';
+      authorRow.appendChild(document.createTextNode('Di '));
+      const authorLink = document.createElement('a');
+      authorLink.href = `/autori/${a.autoreSlug}`;
+      authorLink.className = 'author-link';
+      authorLink.textContent = a.autore;
+      authorRow.appendChild(authorLink);
+      if (dateStr) {
+        authorRow.appendChild(document.createTextNode(` • ${dateStr}`));
+      }
+      card.appendChild(authorRow);
+
+      return card;
+    }
+
+    function loadBatch() {
+      const batch = remaining.slice(loaded, loaded + BATCH);
+      const frag = document.createDocumentFragment();
+      batch.forEach(a => frag.appendChild(makeCard(a)));
+      grid.appendChild(frag);
+      loaded += batch.length;
+      const left = remaining.length - loaded;
+      if (left <= 0) {
+        wrap.remove();
+      } else {
+        const span = document.getElementById('rullo-remaining');
+        if (span) span.textContent = `(${left} rimanenti)`;
+        btn.dataset.loaded = String((parseInt(btn.dataset.loaded ?? '0')) + batch.length);
+      }
+    }
+
+    btn.addEventListener('click', loadBatch);
+  }
+</script>
+
+<style>
+  .rullo-section {
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .rullo-header {
+    margin-bottom: 2rem;
+    max-width: 720px;
+  }
+
+  .rullo-header-top {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+
+  .rullo-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
+    margin: 0;
+  }
+
+  .rullo-count {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    white-space: nowrap;
+  }
+
+  .rullo-description {
+    font-size: 1rem;
+    line-height: 1.65;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  .rullo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .rullo-empty {
+    padding: 3rem 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+  }
+
+  /* Load-more */
+  .rullo-loadmore-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+
+  .rullo-loadmore {
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    background: transparent;
+    border: 1.5px solid var(--accent-color);
+    border-radius: 999px;
+    padding: 0.6rem 1.6rem;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .rullo-loadmore:hover {
+    background: var(--accent-color);
+    color: #fff;
+  }
+
+  .rullo-remaining {
+    font-weight: 400;
+    opacity: 0.75;
+  }
+
+  @media (max-width: 480px) {
+    .rullo-section {
+      padding-top: 1.5rem;
+    }
+    .rullo-grid {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+  }
+</style>

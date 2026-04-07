@@ -24,7 +24,7 @@ const formattedDate = date ? new Intl.DateTimeFormat('it-IT', { year: 'numeric',
     <div class="article-list-row-body">
       {category ? <p class="article-list-row-cat">{category}</p> : null}
       <h3 class="article-list-row-title">{title}</h3>
-      <p class="article-list-row-author">Di <a href={`/autori/${authorLinkSlug}`} class="author-link">{author}</a>{formattedDate ? ` · ${formattedDate}` : ''}</p>
+      <p class="article-list-row-author">Di {author}{formattedDate ? ` · ${formattedDate}` : ''}</p>
     </div>
   </a>
 </article>
@@ -86,11 +86,5 @@ const formattedDate = date ? new Intl.DateTimeFormat('it-IT', { year: 'numeric',
     color: var(--text-secondary, #5c5c5c);
     margin: 0;
   }
-  .article-list-row-author .author-link {
-    color: var(--accent-color);
-    text-decoration: none;
-  }
-  .article-list-row-author .author-link:hover {
-    text-decoration: underline;
-  }
+
 </style>

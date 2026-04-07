@@ -1,13 +1,16 @@
 ---
+/**
+ * Pagina articoli solo online (senza numero di rivista).
+ * Lista filtrata e ordinata; la presentazione è demandata ad ArticoliRullo.
+ * Load-more: rimosso — pagina renderizza l'intera lista (decisione 2026-04-07).
+ */
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import ArticleCard from '../../components/ArticleCard.astro';
-import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
-import { getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
+import ArticoliRullo from '../../components/ArticoliRullo.astro';
+import { getAllArticoli } from '../../lib/directus';
 
 const allArticles = await getAllArticoli();
 
-// Solo articoli IT "Pubblicato online" (numero_rivista nullo)
-const articoliWebOnly = allArticles
+const articoli = allArticles
   .filter((a) => a.lang !== 'en' && a.numero_rivista == null)
   .sort((a, b) => {
     const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
@@ -21,51 +24,14 @@ const articoliWebOnly = allArticles
   description={"Articoli pubblicati solo online su Ombre e Luci."}
   noindex={true}
 >
-    <main class="site-main">
-    <div class="issue-container">
-      <div class="archivio-header">
-        <h1 class="archivio-title">Pubblicato online</h1>
-        <p class="archivio-subtitle">
-          Articoli pubblicati solo sul sito, senza numero di rivista cartacea.
-        </p>
-      </div>
-
-      <section class="articles-section">
-        <div class="articles-header">
-          <h2 class="articles-title">Articoli</h2>
-          <p class="articles-count">
-            {articoliWebOnly.length} {articoliWebOnly.length === 1 ? 'articolo' : 'articoli'}
-          </p>
-        </div>
-
-        {articoliWebOnly.length > 0 ? (
-          <div class="articles-grid">
-            {articoliWebOnly.map((a) => {
-              const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
-              const { categoria_menu } = getMegaclusterForArticle(a);
-              const { formal } = getLabels([], a);
-              const articleImage = getArticoloCopertinaSrc(a);
-              return (
-                <ArticleCard
-                  title={a.titolo}
-                  slug={a.slug}
-                  categoriaMenu={categoria_menu ?? undefined}
-                  issue={a.numero_rivista?.id_numero ?? null}
-                  forma={formal}
-                  author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
-                  date={articleDate}
-                  image={articleImage}
-                />
-              );
-            })}
-          </div>
-        ) : (
-          <div class="no-articles">
-            <h3 class="no-articles-title">Nessun articolo</h3>
-            <p>Non ci sono articoli pubblicati solo online.</p>
-          </div>
-        )}
-      </section>
+  <main class="site-main">
+    <div class="container">
+      <ArticoliRullo
+        title="Pubblicato online"
+        description={"Articoli pubblicati solo sul sito, senza numero di rivista cartacea."}
+        articoli={articoli}
+        pageSize={24}
+      />
     </div>
-    </main>
+  </main>
 </BaseLayout>

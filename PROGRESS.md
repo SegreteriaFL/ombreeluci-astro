@@ -1,7 +1,53 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-04 (sessione UX/US — mobile round 2, mega-menu, IssueCard, fix editoriali + homepage)
+**Ultimo aggiornamento:** 2026-04-07 (sessione infrastruttura hardening + ArticoliRullo)
 **Stato:** Stack Astro+Directus attivo su staging — output:hybrid, blog SSR on-demand con edge cache CF. WordPress su Aruba resta online fino al cutover DNS finale.
+
+---
+
+## Definition of Done — Pagine "Articoli Rullo"
+
+Un task di tipo "rullo articoli" (lista filtrata di articoli) è **completo** quando:
+
+| # | Criterio | Come verificarlo |
+|---|----------|-----------------|
+| A | La pagina passa ad `ArticoliRullo` una lista **già filtrata e ordinata** (nessuna logica business nel componente) | Leggere il frontmatter della pagina: solo `filter()` + `sort()` |
+| B | `ArticoliRullo` renderizza: titolo, conteggio, descrizione opzionale, griglia card, stato vuoto | Aprire la pagina con 0 articoli → deve comparire il messaggio vuoto |
+| C | HTML valido: **nessun `<a>` annidato**, nessun `</body>`/`</html>` nei children di `BaseLayout` | `npm run build` senza warning HTML; ispezione manuale del source |
+| D | UI mobile-first: nessun overflow orizzontale, focus/hover visibili, righe cliccabili in modo chiaro | DevTools 375px — nessun scrollbar orizzontale |
+| E | Nessuna modifica a `directus.ts` o al layer fetch per questo task | `git diff src/lib/directus.ts` deve essere vuoto |
+| F | Nessun JS che interferisca con auth Directus (`fetch('/users/me')`) o con flag `has_comments` | Aprire un articolo da redazione loggata → edit button visibile |
+| G | Decisione esplicita su "load more" documentata in PROGRESS.md | Voce nella tabella sessione corrente |
+| H | SEO/layout coerenti: `BaseLayout` con `title`, `description`, `noindex` quando richiesto | Head sorgente HTML della pagina |
+| I | `npm run build` verde + smoke test su almeno 3 pagine rullo | Log build pulito |
+| J | Lint pulito sui file toccati + aggiornamento PROGRESS.md con esito e pagine migrate | `npm run lint` (se configurato) |
+
+**Decisione load-more (2026-04-07):** rimosso da `web-only.astro` — la pagina renderizza l'intera lista. L'approccio inline-JSON precedente era fragile e incoerente con le altre pagine rullo. Se in futuro il volume cresce (>200 articoli), aggiungere paginazione server-side come feature dedicata.
+
+---
+
+### Sessione 2026-04-07 — infrastruttura hardening + ArticoliRullo (branch `feat/articoli-rullo`)
+
+| Task | Cosa | Stato |
+|------|------|-------|
+| Gate 1 | Rimossi `</body></html>` stray in `diari.astro` e `dialogo-aperto.astro` | ✅ |
+| Gate 2 | Rimosso link annidato `<a>` autore dentro `<a>` articolo in `ArticleListRow.astro` | ✅ |
+| Gate 3 | Load-more rimosso da `web-only.astro` (decisione esplicita, vedi DoD sopra) | ✅ |
+| COMP | Creato `src/components/ArticoliRullo.astro` — componente puro, nessuna logica business | ✅ |
+| MIG | `archivio/web-only.astro` migrato a `ArticoliRullo` | ✅ |
+| MIG | `sezioni/dialogo-aperto.astro` migrato a `ArticoliRullo` | ✅ |
+| INF | `articoli-build.ts` + snapshot fallback per build offline | ✅ |
+| INF | Backup DB giornaliero + volumi settimanali su R2, restore testato | ✅ |
+| INF | UFW attivo, porta 8055 bind 127.0.0.1, systemd restart | ✅ |
+| INF | `RUNBOOK.md` + `INFRASTRUTTURA.md` + `sync-runbook.yml` workflow | ✅ |
+| INF | `nightly-build.yml` con Directus health check + Slack alert | ✅ |
+| INF | Cache-Control blog: `s-maxage=3600, stale-while-revalidate=86400` | ✅ |
+
+**Pendenti su `feat/articoli-rullo`:**
+- Migrare `diari.astro` feed section ad `ArticoliRullo` (la sezione polaroid rimane)
+- `npm run build` smoke test + merge su main
+
+---
 
 ### Sessione 2026-04-04 — completato
 
@@ -374,6 +420,7 @@ Verifica: curl staging/blog/amici-di-simone/ = 200 con HTML articolo (non 302/40
 | UX-18 | 🟢 | S | **Breadcrumb** — valutare riattivazione con design sobrio + `BreadcrumbList` JSON-LD. |
 | UX-19 | 🟢 | M | **Pagine test/debug** — `test-lista`, `test-minimal`, `debug/audit-editoriale` pubblicamente accessibili. Rimuovere o proteggere pre-lancio. |
 | UX-20 | 🟢 | S | **Reading time** — nascondere su articoli brevi (<300 parole) o storici (ante 2000). |
+| UX-21 | 🟢 | S | **Stile sezione commenti** — `Commenti.astro`: revisione tipografia, spaziatura, form e lista commenti approvati. Coerenza con il design system del sito. |
 
 ### Data / AI
 

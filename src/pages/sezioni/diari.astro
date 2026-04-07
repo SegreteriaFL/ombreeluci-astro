@@ -4,10 +4,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
  * Hub I Diari di Ombre e Luci.
  * Intro + griglia 7 card (uno per autore) + feed globale articoli dei 7 diaristi.
  */
-import ArticleCard from '../../components/ArticleCard.astro';
-import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import ArticoliRullo from '../../components/ArticoliRullo.astro';
 import { getDiaristiWithMeta, NOMI_DIARISTI } from '../../data/diari.js';
-import { getAllArticoli, getAllAutori, getArticoloCopertinaSrc, getAutoreImageUrl, getCategoriaDescrizione } from '../../lib/directus';
+import { getAllArticoli, getAllAutori, getAutoreImageUrl, getCategoriaDescrizione } from '../../lib/directus';
 
 const [allAutori, diariMeta] = await Promise.all([getAllAutori(), getCategoriaDescrizione('diari')]);
 const diariDescrizione = diariMeta?.descrizione ?? null;
@@ -65,39 +64,16 @@ const articoliDiari = allArticles
           </div>
         </section>
 
-        <section class="diari-feed-section" aria-label="Feed globale dei Diari">
-          <h2 class="diari-feed-heading">Tutti gli articoli dai Diari</h2>
-          <p class="diari-feed-intro">Gli ultimi contributi dei sette autori dei Diari, dal più recente al più vecchio.</p>
-          {articoliDiari.length > 0 ? (
-            <div class="diari-articles-grid">
-              {articoliDiari.map((a) => {
-                const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
-                const { formal } = getLabels([], a);
-                const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
-                const articleImage = getArticoloCopertinaSrc(a);
-                return (
-                  <ArticleCard
-                    title={a.titolo}
-                    slug={a.slug}
-                    categoriaMenu={categoria_menu ?? undefined}
-                    issue={a.numero_rivista?.id_numero ?? null}
-                    forma={formal}
-                    author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
-                    date={articleDate}
-                    image={articleImage}
-                    ruoloEditoriale={ruolo_editoriale ?? undefined}
-                  />
-                );
-              })}
-            </div>
-          ) : (
-            <p class="diari-feed-empty">Nessun articolo ancora pubblicato dai Diari.</p>
-          )}
-        </section>
+        <div class="diari-feed-section">
+          <ArticoliRullo
+            title="Tutti gli articoli dai Diari"
+            description="Gli ultimi contributi dei sette autori dei Diari, dal più recente al più vecchio."
+            articoli={articoliDiari}
+            headingLevel={2}
+          />
+        </div>
       </div>
     </main>
-  </body>
-</html>
 
 <style>
   /* Sezione speciale Diari: sfondo celeste pastello */
@@ -208,28 +184,6 @@ const articoliDiari = allArticles
     border-top: 1px solid rgba(0, 0, 0, 0.06);
   }
 
-  .diari-feed-heading {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .diari-feed-intro {
-    color: var(--text-secondary);
-    margin-bottom: 1.5rem;
-    font-size: 1rem;
-  }
-
-  .diari-articles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 2rem;
-  }
-
-  .diari-feed-empty {
-    color: var(--text-secondary);
-    font-style: italic;
-  }
-
   @media (max-width: 768px) {
     .diari-hub {
       padding-top: 1.5rem;
@@ -244,9 +198,6 @@ const articoliDiari = allArticles
     .diari-feed-section {
       margin-top: 1.5rem;
       padding-top: 1.5rem;
-    }
-    .diari-feed-heading {
-      font-size: 1.25rem;
     }
   }
 
