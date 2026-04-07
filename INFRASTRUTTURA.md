@@ -131,6 +131,39 @@ Runbook completo: `/opt/oel-cms/RUNBOOK.md` sul server.
 
 ---
 
+## Evidence — ultimo stato verificato
+
+> Aggiornare questa sezione ogni volta che si esegue un backup manuale, un restore test, o si modifica il monitoring.
+
+### Backup DB PostgreSQL
+| Campo | Valore |
+|---|---|
+| Data ultimo backup riuscito | 2026-04-07 06:09 UTC |
+| File | `pgdump_oel_20260407_060841.dump.gz` |
+| Size | 79 MB |
+| SHA-256 (primi 16 char) | `e1d3ad46eed5b35a` |
+| Destinazione R2 | `oel-media/backups/postgres/` |
+
+### Restore test
+| Campo | Valore |
+|---|---|
+| Data ultimo restore test | 2026-04-07 |
+| Metodo | Container PostgreSQL temporaneo (`pg_restore_test`) |
+| Tabelle ripristinate | 42 |
+| Righe `directus_activity` | 62.343 |
+| Esito | OK |
+
+### Monitor attivi
+| Endpoint | Strumento | Alert | Stato |
+|---|---|---|---|
+| `cms.ombreeluci.it/server/ping` | — | — | **da configurare** (UptimeRobot) |
+| `ombreeluci.it/` | — | — | **da configurare** (UptimeRobot) |
+| Build nightly GH Actions | GitHub Actions | Slack (`SLACK_WEBHOOK_URL`) | secret **da aggiungere** |
+
+Per configurare UptimeRobot: [uptimerobot.com](https://uptimerobot.com) → New Monitor → HTTP(s) → incolla URL → interval 5 min → Save.
+
+---
+
 ## Versioni da aggiornare (con cautela)
 
 Processo upgrade: test su staging → update `docker-compose.yml` → `docker compose pull && docker compose up -d` → verifica health.
