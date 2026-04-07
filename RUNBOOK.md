@@ -163,9 +163,20 @@ curl -s -X PATCH "http://localhost:8055/users/93c154ca-372c-4f94-8a35-e0fe668507
   -H "Content-Type: application/json" \
   -d "{\"token\": \"$NEW_TOKEN\"}"
 
-# 3. Aggiorna consumer
-# - .env locale: DIRECTUS_TOKEN=...
-# - GitHub secret: gh secret set DIRECTUS_TOKEN -R SegreteriaFL/ombreeluci-astro --body "$NEW_TOKEN"
+# 3. Aggiorna TUTTI E TRE i consumer (in ordine — dimenticarne uno = articoli 404)
+
+# a) .env locale
+sed -i "s|DIRECTUS_TOKEN=.*|DIRECTUS_TOKEN=$NEW_TOKEN|" ~/.../ombreeluci-astro/.env
+
+# b) CF Pages env vars (RUNTIME SSR — il più critico per il sito live)
+curl -s -X PATCH \
+  "https://api.cloudflare.com/client/v4/accounts/6b071de7f55397ada5645e187c932202/pages/projects/ombreeluci-staging" \
+  -H "Authorization: Bearer CF_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d "{\"deployment_configs\":{\"production\":{\"env_vars\":{\"DIRECTUS_TOKEN\":{\"value\":\"$NEW_TOKEN\",\"type\":\"secret_text\"}}},\"preview\":{\"env_vars\":{\"DIRECTUS_TOKEN\":{\"value\":\"$NEW_TOKEN\",\"type\":\"secret_text\"}}}}}"
+
+# c) GitHub Actions secret (per nightly build e update-snapshot)
+echo -n "$NEW_TOKEN" | gh secret set DIRECTUS_TOKEN -R SegreteriaFL/ombreeluci-astro --body -
 
 # 4. Verifica
 curl -s "https://cms.ombreeluci.it/items/articoli?limit=1" \
