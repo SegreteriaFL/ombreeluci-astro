@@ -8,11 +8,14 @@ import LanguageSelector from './LanguageSelector.astro';
 interface Props {
   pathname?: string;
   alternateArticleUrl?: string | null;
+  lang?: 'it' | 'en';
 }
 // pathname default a Astro.url.pathname: Header funziona correttamente anche
-// quando usato da BaseLayout senza prop esplicita
-const { pathname = Astro.url.pathname, alternateArticleUrl = null } = Astro.props;
-const lang = getLangFromUrl(pathname);
+// quando usato da BaseLayout senza prop esplicita.
+// lang: se passato esplicitamente (es. da BaseLayout su articolo EN), usa quello;
+// altrimenti inferisce da pathname (backward compat per pagine non-articolo).
+const { pathname = Astro.url.pathname, alternateArticleUrl = null, lang: langProp } = Astro.props;
+const lang = langProp ?? getLangFromUrl(pathname);
 
 // Ultimo numero
 const ultimoNumero = ultimoNumeroData;
@@ -67,7 +70,7 @@ const archivioLinks = [
       </form>
 
       <div class="header-end">
-        <LanguageSelector pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
+        <LanguageSelector lang={lang} pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
         <nav class="header-nav" aria-label="Servizi e utilità">
           <a href="/chi-siamo" class:list={['header-link', { 'header-link--active': isActive('/chi-siamo') }]}>{t(lang, 'nav_about')}</a>
           <a href="/#newsletter" class="header-link">{t(lang, 'nav_newsletter')}</a>

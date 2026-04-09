@@ -6,9 +6,10 @@ import { getLangFromUrl, t } from '../utils/i18n';
 
 interface Props {
   pathname?: string;
+  lang?: 'it' | 'en';
 }
-const { pathname = '/' } = Astro.props;
-const lang = getLangFromUrl(pathname);
+const { pathname = '/', lang: langProp } = Astro.props;
+const lang = langProp ?? getLangFromUrl(pathname);
 
 const temi = getThemesWithSlugs();
 const meta = Math.ceil(temi.length / 2);

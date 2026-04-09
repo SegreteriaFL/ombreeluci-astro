@@ -3,25 +3,42 @@ import { getCommentiForArticolo, directusCredsFromAstroLocals } from '../lib/dir
 
 interface Props {
   articoloId: string;
+  lang?: 'it' | 'en';
 }
 
-const { articoloId } = Astro.props;
+const { articoloId, lang = 'it' } = Astro.props;
 const creds = directusCredsFromAstroLocals(Astro.locals);
 const commenti = await getCommentiForArticolo(articoloId, creds);
 
 function formatData(iso: string): string {
-  return new Intl.DateTimeFormat('it-IT', {
+  return new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'it-IT', {
     year: 'numeric', month: 'long', day: 'numeric',
   }).format(new Date(iso));
 }
+
+const ui = lang === 'en' ? {
+  heading: commenti.length > 0
+    ? `${commenti.length} comment${commenti.length > 1 ? 's' : ''}`
+    : 'Comments',
+  formTitle: 'Leave a comment',
+  formNote: 'Your comment will be published after editorial approval. Your email will not be published.',
+  labelName: 'Name',
+  labelComment: 'Comment',
+  submitBtn: 'Submit comment',
+} : {
+  heading: commenti.length > 0
+    ? `${commenti.length} comment${commenti.length > 1 ? 'i' : ''}`
+    : 'Commenti',
+  formTitle: 'Lascia un commento',
+  formNote: 'Il tuo commento sarà pubblicato dopo approvazione della redazione. L\'email non verrà pubblicata.',
+  labelName: 'Nome',
+  labelComment: 'Commento',
+  submitBtn: 'Invia commento',
+};
 ---
 
 <section class="commenti-section" aria-labelledby="commenti-titolo">
-  <h2 class="commenti-titolo" id="commenti-titolo">
-    {commenti.length > 0
-      ? `${commenti.length} commento${commenti.length > 1 ? 'i' : ''}`
-      : 'Commenti'}
-  </h2>
+  <h2 class="commenti-titolo" id="commenti-titolo">{ui.heading}</h2>
 
   {commenti.length > 0 && (
     <ol class="commenti-lista" aria-label="Commenti approvati">
@@ -40,11 +57,8 @@ function formatData(iso: string): string {
   )}
 
   <div class="commento-form-wrap">
-    <h3 class="commento-form-titolo">Lascia un commento</h3>
-    <p class="commento-form-nota">
-      Il tuo commento sarà pubblicato dopo approvazione della redazione.
-      L'email non verrà pubblicata.
-    </p>
+    <h3 class="commento-form-titolo">{ui.formTitle}</h3>
+    <p class="commento-form-nota">{ui.formNote}</p>
 
     <form
       class="commento-form"
@@ -63,7 +77,7 @@ function formatData(iso: string): string {
 
       <div class="commento-form-row commento-form-row--half">
         <label class="commento-label" for="commento-nome">
-          Nome <span aria-hidden="true">*</span>
+          {ui.labelName} <span aria-hidden="true">*</span>
         </label>
         <input
           class="commento-input"
@@ -93,7 +107,7 @@ function formatData(iso: string): string {
 
       <div class="commento-form-row">
         <label class="commento-label" for="commento-testo">
-          Commento <span aria-hidden="true">*</span>
+          {ui.labelComment} <span aria-hidden="true">*</span>
         </label>
         <textarea
           class="commento-input commento-textarea"
@@ -108,7 +122,7 @@ function formatData(iso: string): string {
 
       <div class="commento-form-row commento-form-actions">
         <button type="submit" class="button commento-submit">
-          Invia commento
+          {ui.submitBtn}
         </button>
         <span class="commento-contatore" aria-live="polite"></span>
       </div>
@@ -118,7 +132,20 @@ function formatData(iso: string): string {
   </div>
 </section>
 
-<script>
+<script define:vars={{ commentoLang: lang, commentoSubmitBtn: ui.submitBtn }}>
+  const _isEn = commentoLang === 'en';
+  const _str = {
+    submitting: _isEn ? 'Submitting…' : 'Invio in corso…',
+    charsLeft: (n: number) => _isEn ? `${n} characters remaining` : `${n} caratteri rimanenti`,
+    success: _isEn
+      ? 'Thank you! Your comment has been submitted and will be published after editorial approval.'
+      : 'Grazie! Il tuo commento è stato inviato e sarà pubblicato dopo approvazione della redazione.',
+    errGeneric: _isEn ? 'An error occurred. Please try again.' : 'Si è verificato un errore. Riprova.',
+    errNetwork: _isEn
+      ? 'Could not send the comment. Please check your connection and try again.'
+      : 'Impossibile inviare il commento. Controlla la connessione e riprova.',
+  };
+
   document.querySelectorAll<HTMLFormElement>('.commento-form').forEach((form) => {
     const articoloId = form.dataset.articoloId ?? '';
     const feedback = form.querySelector<HTMLElement>('.commento-feedback')!;
@@ -129,14 +156,14 @@ function formatData(iso: string): string {
     // Contatore caratteri textarea
     textarea?.addEventListener('input', () => {
       const left = 5000 - textarea.value.length;
-      contatore.textContent = left < 500 ? `${left} caratteri rimanenti` : '';
+      contatore.textContent = left < 500 ? _str.charsLeft(left) : '';
     });
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       feedback.hidden = true;
       submitBtn.disabled = true;
-      submitBtn.textContent = 'Invio in corso…';
+      submitBtn.textContent = _str.submitting;
 
       const data = Object.fromEntries(new FormData(form));
 
@@ -150,18 +177,16 @@ function formatData(iso: string): string {
 
         if (body.ok) {
           form.reset();
-          showFeedback('success',
-            'Grazie! Il tuo commento è stato inviato e sarà pubblicato dopo approvazione della redazione.'
-          );
+          showFeedback('success', _str.success);
           contatore.textContent = '';
         } else {
-          showFeedback('error', body.error ?? 'Si è verificato un errore. Riprova.');
+          showFeedback('error', body.error ?? _str.errGeneric);
         }
       } catch {
-        showFeedback('error', 'Impossibile inviare il commento. Controlla la connessione e riprova.');
+        showFeedback('error', _str.errNetwork);
       } finally {
         submitBtn.disabled = false;
-        submitBtn.textContent = 'Invia commento';
+        submitBtn.textContent = commentoSubmitBtn;
       }
     });
 

@@ -8,10 +8,12 @@ import { getLangFromUrl } from '../utils/i18n';
 interface Props {
   pathname: string;
   alternateArticleUrl?: string | null;
+  lang?: 'it' | 'en';
 }
 
-const { pathname, alternateArticleUrl = null } = Astro.props;
-const lang = getLangFromUrl(pathname);
+const { pathname, alternateArticleUrl = null, lang: langProp } = Astro.props;
+// lang prop ha precedenza su URL-based detection (necessario per articoli EN a /blog/slug senza prefisso /en/)
+const lang = langProp ?? getLangFromUrl(pathname);
 
 const hrefIt = lang === 'en' && alternateArticleUrl ? alternateArticleUrl : '/';
 const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/blog/en';
@@ -58,8 +60,12 @@ const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/bl
 
 <script>
   function updateLangSelector() {
-    const path = window.location.pathname;
-    const isEn = path.startsWith('/blog/en') || path.startsWith('/en/') || /\/en\//.test(path);
+    const data = (window as any).__BLOG_PAGE_DATA__;
+    // Su pagine articolo: usa lang da __BLOG_PAGE_DATA__ (affidabile anche per EN a /blog/slug-it)
+    // Su altre pagine: fallback URL-based
+    const isEn = data?.lang
+      ? data.lang === 'en'
+      : window.location.pathname.startsWith('/blog/en') || window.location.pathname.startsWith('/en/') || /\/en\//.test(window.location.pathname);
 
     document.querySelectorAll<HTMLAnchorElement>('.lang-link').forEach(link => {
       const isItLink = link.textContent?.trim() === 'IT';
@@ -67,7 +73,7 @@ const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/bl
       link.classList.toggle('is-active', isItLink ? !isEn : isEn);
 
       // alternateArticleUrl = URL dell'articolo nell'ALTRA lingua
-      const altUrl: string | null = (window as any).__BLOG_PAGE_DATA__?.alternateArticleUrl ?? null;
+      const altUrl: string | null = data?.alternateArticleUrl ?? null;
       if (isItLink) {
         // Su EN con alternate → vai alla versione IT; altrimenti home
         link.href = (isEn && altUrl) ? altUrl : '/';

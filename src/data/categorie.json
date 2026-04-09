@@ -1,0 +1,19 @@
+{
+  "_comment": "Source of truth for category labels per language. slug is the canonical key stored in articoli.categoria_menu. To add a new language, add its ISO code as a key to each entry.",
+  "categorie": [
+    { "slug": "catechesi",                  "it": "Catechesi",                "en": "Catechesis" },
+    { "slug": "cultura",                    "it": "Cultura",                  "en": "Culture" },
+    { "slug": "educazione-e-formazione",    "it": "Educazione e Formazione",  "en": "Education" },
+    { "slug": "famiglia",                   "it": "Famiglia",                 "en": "Family" },
+    { "slug": "fede-e-luce",                "it": "Fede e Luce",              "en": "Faith and Light" },
+    { "slug": "lavoro",                     "it": "Lavoro",                   "en": "Work" },
+    { "slug": "ombre-e-luci",               "it": "Ombre e Luci",             "en": "Ombre e Luci" },
+    { "slug": "personaggi-che-ispirano",    "it": "Personaggi che ispirano",  "en": "Inspiring People" },
+    { "slug": "progetti",                   "it": "Progetti",                 "en": "Projects" },
+    { "slug": "salute",                     "it": "Salute",                   "en": "Health" },
+    { "slug": "scuola",                     "it": "Scuola",                   "en": "School" },
+    { "slug": "spiritualita",               "it": "Spiritualità",             "en": "Spirituality" },
+    { "slug": "sport",                      "it": "Sport",                    "en": "Sport" },
+    { "slug": "tempo-libero",               "it": "Tempo libero",             "en": "Leisure" }
+  ]
+}

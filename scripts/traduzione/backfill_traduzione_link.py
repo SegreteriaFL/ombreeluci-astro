@@ -25,13 +25,19 @@ import urllib.request
 from datetime import datetime
 from pathlib import Path
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).resolve().parent.parent.parent / ".env")
+except ImportError:
+    pass
+
 DIRECTUS_URL = os.environ.get("DIRECTUS_URL", "https://cms.ombreeluci.it")
 DIRECTUS_TOKEN = os.environ.get("DIRECTUS_TOKEN", "")
 LOGS_DIR = Path(__file__).parent / "logs"
 LOGS_DIR.mkdir(exist_ok=True)
 
 def _headers():
-    return {"Authorization": f"Bearer {DIRECTUS_TOKEN}", "Content-Type": "application/json"}
+    return {"Authorization": f"Bearer {DIRECTUS_TOKEN}", "Content-Type": "application/json", "User-Agent": "python-backfill/1.0"}
 
 def directus_get(path):
     req = urllib.request.Request(f"{DIRECTUS_URL}{path}", headers=_headers())
@@ -178,11 +184,11 @@ def main():
         })
 
         if args.dry_run:
-            print(f"  [DRY] EN {en_slug} ↔ IT {it_slug} ({method})")
+            print(f"  [DRY] EN {en_slug} <-> IT {it_slug} ({method})")
         else:
             directus_patch(f"/items/articoli/{it_id}", {"articolo_traduzione": en_id})
             directus_patch(f"/items/articoli/{en_id}", {"articolo_traduzione": it_id})
-            print(f"  ✓ EN {en_slug} ↔ IT {it_slug} ({method})")
+            print(f"  OK EN {en_slug} <-> IT {it_slug} ({method})")
             matched += 1
 
     # Salva log
