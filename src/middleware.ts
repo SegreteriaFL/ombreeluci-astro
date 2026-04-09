@@ -9,6 +9,13 @@ const DATE_PATH_RE = /^\/\d{4}\/\d{2}\/\d{2}\/(.+)$/;
 
 export const onRequest = defineMiddleware(({ url, redirect }, next) => {
   const path = url.pathname;
+  const search = url.search ?? '';
+
+  // Canonical trailing slash for blog articles:
+  // /blog/slug -> /blog/slug/ to avoid 404 on strict route matching.
+  if (path.startsWith('/blog/') && !path.endsWith('/')) {
+    return redirect(`${url.origin}${path}/${search}`, 301);
+  }
 
   // Rule C+D: mappature arbitrarie slug legacy (1.001 voci)
   const target = REDIRECTS[path];
