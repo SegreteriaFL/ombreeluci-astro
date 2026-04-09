@@ -44,15 +44,24 @@ const FORMAL_LABELS_EN: Record<string, string> = {
   Recensione: 'Review',
   Testimonianza: 'Testimonial',
   Editoriale: 'Editorial',
+  'Dialogo Aperto': 'Open Dialogue',
+};
+const CATEGORY_LABELS_EN: Record<string, string> = {
+  'Da categorizzare': 'To be categorized',
 };
 const localizedForma = (() => {
   if (!forma) return null;
   if (lang !== 'en') return forma;
   return FORMAL_LABELS_EN[forma] ?? forma;
 })();
+const localizedCategoriaMenu = (() => {
+  if (!categoriaMenu) return categoriaMenu;
+  if (lang !== 'en') return categoriaMenu;
+  return CATEGORY_LABELS_EN[categoriaMenu] ?? categoriaMenu;
+})();
 const formaPrefix = localizedForma && localizedForma !== (lang === 'en' ? 'Article' : 'Articolo') ? `${localizedForma} · ` : '';
 const badgeText = categoriaMenu
-  ? `${formaPrefix}${categoriaMenu}`
+  ? `${formaPrefix}${localizedCategoriaMenu}`
   : (hasIssue ? '' : t(lang, 'badge_online'));
 
 function authorSlug(name: string): string {
