@@ -58,32 +58,7 @@ const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/bl
   }
 </style>
 
-<script>
-  function updateLangSelector() {
-    const data = (window as any).__BLOG_PAGE_DATA__;
-    // Su pagine articolo: usa lang da __BLOG_PAGE_DATA__ (affidabile anche per EN a /blog/slug-it)
-    // Su altre pagine: fallback URL-based
-    const isEn = data?.lang
-      ? data.lang === 'en'
-      : window.location.pathname.startsWith('/blog/en') || window.location.pathname.startsWith('/en/') || /\/en\//.test(window.location.pathname);
-
-    document.querySelectorAll<HTMLAnchorElement>('.lang-link').forEach(link => {
-      const isItLink = link.textContent?.trim() === 'IT';
-      const isEnLink = link.textContent?.trim() === 'EN';
-      link.classList.toggle('is-active', isItLink ? !isEn : isEn);
-
-      // alternateArticleUrl = URL dell'articolo nell'ALTRA lingua
-      const altUrl: string | null = data?.alternateArticleUrl ?? null;
-      if (isItLink) {
-        // Su EN con alternate → vai alla versione IT; altrimenti home
-        link.href = (isEn && altUrl) ? altUrl : '/';
-      }
-      if (isEnLink) {
-        // Su IT con alternate → vai alla versione EN; altrimenti /blog/en
-        link.href = (!isEn && altUrl) ? altUrl : '/blog/en';
-      }
-    });
-  }
-
-  document.addEventListener('astro:page-load', updateLangSelector);
-</script>
+<!--
+  Selector server-first: href e stato attivo sono calcolati lato server
+  da `lang` + `alternateArticleUrl` per evitare desincronizzazioni client-side.
+-->
