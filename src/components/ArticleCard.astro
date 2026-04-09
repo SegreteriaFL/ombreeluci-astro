@@ -2,15 +2,46 @@
 // ArticleCard.astro – struttura: contenitore, link (solo immagine+badge+titolo), riga autore fuori dal link
 import { COPERTINA_IMG_ONERROR } from '../lib/directus';
 import { getPlaceholder } from '../utils/placeholder';
+import { t, type Locale } from '../utils/i18n';
 
-const { title, author, date, issue, slug, image, categoriaMenu, forma, ruoloEditoriale, horizontal = false, sottotitolo = null, authorImage = null, hideImage = false } = Astro.props;
+const {
+  title,
+  author,
+  date,
+  issue,
+  slug,
+  image,
+  categoriaMenu,
+  forma,
+  ruoloEditoriale,
+  lang = 'it',
+  horizontal = false,
+  sottotitolo = null,
+  authorImage = null,
+  hideImage = false
+} = Astro.props as {
+  title: string;
+  author: string;
+  date: Date | string;
+  issue?: string | null;
+  slug: string;
+  image?: string | null;
+  categoriaMenu?: string | null;
+  forma?: string | null;
+  ruoloEditoriale?: string | null;
+  lang?: Locale;
+  horizontal?: boolean;
+  sottotitolo?: string | null;
+  authorImage?: string | null;
+  hideImage?: boolean;
+};
 const hasIssue = issue != null && String(issue).trim() !== '';
 const imageSrc = (!hideImage && image) ? image : (!hideImage ? getPlaceholder(slug ?? title ?? '').src : null);
 // Badge: mostra solo categoria (+ forma se != Articolo). Pulito, senza jargon interno.
 const formaPrefix = forma && forma !== 'Articolo' ? `${forma} · ` : '';
 const badgeText = categoriaMenu
   ? `${formaPrefix}${categoriaMenu}`
-  : (hasIssue ? '' : 'Online');
+  : (hasIssue ? '' : t(lang, 'badge_online'));
 
 function authorSlug(name: string): string {
   return String(name)
@@ -21,7 +52,8 @@ function authorSlug(name: string): string {
     .replace(/^-|-$/g, '');
 }
 
-const formattedDate = new Intl.DateTimeFormat('it-IT', {
+const dateLocale = lang === 'en' ? 'en-GB' : 'it-IT';
+const formattedDate = new Intl.DateTimeFormat(dateLocale, {
   year: 'numeric',
   month: 'long',
   day: 'numeric'
@@ -57,7 +89,7 @@ const authorLinkSlug = authorSlug(author);
     {horizontal && authorImage && (
       <img src={authorImage} alt={author} class="author-avatar" loading="lazy" />
     )}
-    Di <a href={`/autori/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
+    {t(lang, 'author_by')} <a href={`/autori/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
   </p>
 </div>
 
