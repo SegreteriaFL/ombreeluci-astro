@@ -12,9 +12,6 @@ import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
 import Commenti from '../../components/Commenti.astro';
 
-// Fase 1 i18n: locale determinato da articolo.lang (fonte autoritativa), non dall'URL.
-// L'URL /blog/slug-en non matcha i pattern EN di getLangFromUrl, portando a shell IT su articoli EN.
-const locale = articolo.lang === 'en' ? 'en' as const : 'it' as const;
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
 // ── SSR: fetch articolo on-demand ──────────────────────────────────────────────
@@ -38,6 +35,10 @@ if (!articolo) {
 // Cache-Control: edge cache 1h (evita stale 404 in caso di downtime),
 // browser/CDN può servire stale fino a 24h durante revalidazione in background.
 Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
+
+// Fase 1 i18n: locale determinato da articolo.lang (fonte autoritativa), non dall'URL.
+// L'URL /blog/slug-en non matcha i pattern EN di getLangFromUrl, portando a shell IT su articoli EN.
+const locale = articolo.lang === 'en' ? 'en' as const : 'it' as const;
 
 // ── Fetch correlati.json a runtime (mai importato staticamente) ───────────────
 
