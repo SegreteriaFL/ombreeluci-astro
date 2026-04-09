@@ -1,7 +1,7 @@
 ---
 import logo from '../assets/logo.svg';
 import ultimoNumeroData from '../data/ultimo-numero.json';
-import { getThemesWithSlugs } from '../config/taxonomy.js';
+import { getThemesWithSlugs, getCategoriaLabel } from '../config/taxonomy.js';
 import { getLangFromUrl, t } from '../utils/i18n';
 import LanguageSelector from './LanguageSelector.astro';
 
@@ -27,31 +27,35 @@ function isActive(href: string): boolean {
   return pathname === href || pathname.startsWith(href + '/');
 }
 
-const temi = getThemesWithSlugs().filter(t => t.nomeCompleto !== 'Personaggi che ispirano');
+const temi = getThemesWithSlugs()
+  .filter((t) => t.nomeCompleto !== 'Personaggi che ispirano')
+  .map((t) => ({ ...t, nome: getCategoriaLabel(t.slug, lang) ?? t.nome }));
+const homeHref = lang === 'en' ? '/blog/en' : '/';
+const searchHref = '/cerca';
 const sezioniForme = [
   { nome: t(lang, 'footer_editorials'), href: '/categoria/editoriali' },
   { nome: t(lang, 'footer_testimonials'), href: '/categoria/testimonianze' },
   { nome: t(lang, 'footer_interviews'), href: '/categoria/interviste' },
   { nome: t(lang, 'footer_reviews'), href: '/categoria/recensioni' },
   { nome: t(lang, 'footer_diari'), href: '/sezioni/diari' },
-  { nome: 'Dialogo aperto', href: '/sezioni/dialogo-aperto' },
+  { nome: lang === 'en' ? 'Open Dialogue' : 'Dialogo aperto', href: '/sezioni/dialogo-aperto' },
 ];
 const archivioLinks = [
-  { nome: t(lang, 'nav_latest'), slug: '/' },
+  { nome: t(lang, 'nav_latest'), slug: homeHref },
   { nome: t(lang, 'nav_archive_full'), slug: '/archivio' },
   { nome: t(lang, 'nav_authors'), slug: '/autori' },
-  { nome: 'Cerca', slug: '/cerca' },
+  { nome: t(lang, 'search_label'), slug: searchHref },
 ];
 ---
 
 <header class="header" id="site-header" transition:persist="site-header" data-pagefind-ignore>
   <div class="header-bar">
     <div class="header-inner">
-      <a href="/" class="logo-link" aria-label="Ombre e Luci - Home">
+      <a href={homeHref} class="logo-link" aria-label="Ombre e Luci - Home">
         <img src={logo.src} alt="Ombre e Luci" class="logo" />
       </a>
 
-      <form class="search-form" action="/cerca" method="get" aria-label={t(lang, 'search_label')}>
+      <form class="search-form" action={searchHref} method="get" aria-label={t(lang, 'search_label')}>
         <label for="header-search" class="search-label">{t(lang, 'search_label')}</label>
         <input
           id="header-search"
@@ -75,7 +79,7 @@ const archivioLinks = [
           <a href="/chi-siamo" class:list={['header-link', { 'header-link--active': isActive('/chi-siamo') }]}>{t(lang, 'nav_about')}</a>
           <a href="/#newsletter" class="header-link">{t(lang, 'nav_newsletter')}</a>
         </nav>
-        <button type="button" class="mobile-search-btn" id="mobile-search-btn" aria-label="Cerca" aria-expanded="false" aria-controls="mobile-search-overlay">
+        <button type="button" class="mobile-search-btn" id="mobile-search-btn" aria-label={t(lang, 'search_label')} aria-expanded="false" aria-controls="mobile-search-overlay">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <circle cx="11" cy="11" r="8"></circle>
             <path d="m21 21-4.35-4.35"></path>
@@ -100,16 +104,16 @@ const archivioLinks = [
   </div>
 
   <div class="mobile-search-overlay" id="mobile-search-overlay" aria-hidden="true">
-    <form class="mobile-search-form" action="/cerca" method="get" aria-label="Cerca nel sito">
+    <form class="mobile-search-form" action={searchHref} method="get" aria-label={t(lang, 'search_label')}>
       <input
         id="mobile-search-input"
         type="search"
         name="q"
-        placeholder="Cerca nel sito…"
+        placeholder={t(lang, 'search_placeholder')}
         class="mobile-search-input"
         autocomplete="off"
       />
-      <button type="submit" class="mobile-search-submit" aria-label="Cerca">
+      <button type="submit" class="mobile-search-submit" aria-label={t(lang, 'search_label')}>
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <circle cx="11" cy="11" r="8"></circle>
           <path d="m21 21-4.35-4.35"></path>
@@ -183,7 +187,7 @@ const archivioLinks = [
                   )}
                 </a>
                 <div class="last-issue-meta">
-                  <p class="last-issue-label">Numero {ultimoNumero.numero_progressivo ?? ''} · {ultimoNumero.anno_pubblicazione ?? ''}</p>
+                  <p class="last-issue-label">{lang === 'en' ? 'Issue' : 'Numero'} {ultimoNumero.numero_progressivo ?? ''} · {ultimoNumero.anno_pubblicazione ?? ''}</p>
                   <h4 class="last-issue-title">{ultimoNumero.titolo_numero}</h4>
                   {ultimoNumero.periodo_label && <p class="last-issue-period">{ultimoNumero.periodo_label}</p>}
                   <a href="/sostienici" class="mega-menu-cta">{t(lang, 'nav_support')}</a>

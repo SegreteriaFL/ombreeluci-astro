@@ -50,7 +50,9 @@ Un task di tipo "rullo articoli" (lista filtrata di articoli) è **completo** qu
 | F1-4 | `Footer.astro` — prop `lang` override URL-detection | ✅ |
 | F1-5 | `LanguageSelector.astro` — prop `lang`; client usa `__BLOG_PAGE_DATA__.lang` (fix EN articles a `/blog/slug`) | ✅ |
 | F1-6 | `Commenti.astro` — prop `lang`, stringhe IT/EN localizzate incluse JS inline | ✅ |
-| GATE | `npm run build` verde | ✅ |
+| F1-7 | Shell EN completata su `Header.astro`/`Footer.astro` — logo locale-aware (`/blog/en`), mega-menu/footer tradotti, label temi da slug (`getCategoriaLabel`) | ✅ |
+| GATE-1 | `npm run build` verde dopo fix F1 shell | ✅ |
+| GATE-2 | Fix cross-platform prebuild (`package.json`: `cp` -> `node:fs.copyFileSync`) + `npm run build` verde su Windows | ✅ |
 
 #### Fase 0 — Normalizzazione categorie: COMPLETATA ✅
 
