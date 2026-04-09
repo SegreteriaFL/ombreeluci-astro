@@ -60,6 +60,37 @@ export const translations: Record<Locale, Record<string, string>> = {
     author_by: 'Di',
     author_unknown: 'Autore sconosciuto',
     badge_online: 'Online',
+    aria_lang_selector: 'Selezione lingua',
+    aria_header_utility: 'Servizi e utilità',
+    aria_mega_menu: 'Menu di navigazione',
+    editorial_box_title: 'BOX REVISIONE EDITORIALE',
+    editorial_aria: 'Box revisione editoriale',
+    editorial_proposed_role: 'Ruolo proposto',
+    editorial_notes: 'Note per la redazione',
+    editorial_submit: 'Invia',
+    editorial_role_none: 'Nessun cambio',
+    editorial_role_portante: 'portante',
+    editorial_role_strutturale: 'strutturale',
+    editorial_role_laterale: 'laterale',
+    editorial_role_trasversale: 'trasversale',
+    editorial_directus_edit: 'Modifica in Directus',
+    editorial_sending: 'Invio in corso…',
+    editorial_sent: '✓ Inviato!',
+    editorial_network_error: 'Errore di rete — riprova.',
+    meta_article_default_suffix: 'Articolo pubblicato su Ombre e Luci',
+    aria_article_bottom_nav: 'Navigazione in fondo articolo',
+    badge_role_portante: 'Portante',
+    badge_role_strutturale: 'Strutturale',
+    badge_role_laterale: 'Laterale',
+    badge_role_trasversale: 'Trasversale',
+    /** Tipi formali (forma) — allineati a taxonomy FORMAL_TYPES + varianti DB */
+    formal_articolo: 'Articolo',
+    formal_intervista: 'Intervista',
+    formal_recensione: 'Recensione',
+    formal_testimonianza: 'Testimonianza',
+    formal_editoriale: 'Editoriale',
+    formal_dialogo_aperto: 'Dialogo Aperto',
+    category_uncategorized: 'Da categorizzare',
   },
   en: {
     read_also: 'READ ALSO',
@@ -115,8 +146,90 @@ export const translations: Record<Locale, Record<string, string>> = {
     author_by: 'By',
     author_unknown: 'Unknown author',
     badge_online: 'Online',
+    aria_lang_selector: 'Language selection',
+    aria_header_utility: 'Services and utilities',
+    aria_mega_menu: 'Navigation menu',
+    editorial_box_title: 'EDITORIAL REVIEW BOX',
+    editorial_aria: 'Editorial review box',
+    editorial_proposed_role: 'Proposed role',
+    editorial_notes: 'Notes for the editorial team',
+    editorial_submit: 'Submit',
+    editorial_role_none: 'No change',
+    editorial_role_portante: 'core (portante)',
+    editorial_role_strutturale: 'structural',
+    editorial_role_laterale: 'lateral',
+    editorial_role_trasversale: 'transversal',
+    editorial_directus_edit: 'Edit in Directus',
+    editorial_sending: 'Sending…',
+    editorial_sent: '✓ Sent!',
+    editorial_network_error: 'Network error — try again.',
+    meta_article_default_suffix: 'Article published in Ombre e Luci',
+    aria_article_bottom_nav: 'Article footer navigation',
+    badge_role_portante: 'Core',
+    badge_role_strutturale: 'Structural',
+    badge_role_laterale: 'Lateral',
+    badge_role_trasversale: 'Transversal',
+    formal_articolo: 'Article',
+    formal_intervista: 'Interview',
+    formal_recensione: 'Review',
+    formal_testimonianza: 'Testimonial',
+    formal_editoriale: 'Editorial',
+    formal_dialogo_aperto: 'Open Dialogue',
+    category_uncategorized: 'To be categorized',
   },
 };
+
+/** Valori `forma` italiani da Directus → chiave dizionario */
+const FORMAL_IT_TO_I18N_KEY: Record<string, keyof (typeof translations)['it']> = {
+  Articolo: 'formal_articolo',
+  Intervista: 'formal_intervista',
+  Recensione: 'formal_recensione',
+  Testimonianza: 'formal_testimonianza',
+  Editoriale: 'formal_editoriale',
+  'Dialogo Aperto': 'formal_dialogo_aperto',
+};
+
+/**
+ * Label UI per il tipo formale (badge card, header articolo). DB resta in italiano.
+ */
+export function localizeFormalType(formal: string | null | undefined, locale: Locale): string | null {
+  if (formal == null || formal === '') return null;
+  const key = FORMAL_IT_TO_I18N_KEY[formal];
+  if (key) return t(locale, key);
+  return formal;
+}
+
+/** Mappa nomi mese IT → EN per etichette periodo (es. ultimo numero in mega menu). */
+const IT_MONTH_TO_EN: [RegExp, string][] = [
+  [/Gennaio/gi, 'January'],
+  [/Febbraio/gi, 'February'],
+  [/Marzo/gi, 'March'],
+  [/Aprile/gi, 'April'],
+  [/Maggio/gi, 'May'],
+  [/Giugno/gi, 'June'],
+  [/Luglio/gi, 'July'],
+  [/Agosto/gi, 'August'],
+  [/Settembre/gi, 'September'],
+  [/Ottobre/gi, 'October'],
+  [/Novembre/gi, 'November'],
+  [/Dicembre/gi, 'December'],
+];
+
+/**
+ * Localizza la stringa periodo del numero (es. da Directus/JSON) per la shell EN.
+ */
+export function localizeIssuePeriodLabel(
+  label: string | null | undefined,
+  locale: Locale
+): string | null {
+  if (label == null || label === '') return null;
+  if (locale !== 'en') return label;
+  let out = label;
+  for (const [re, en] of IT_MONTH_TO_EN) {
+    out = out.replace(re, en);
+  }
+  return out;
+}
 
 /**
  * Restituisce la lingua in base al pathname (es. /en/... → 'en').

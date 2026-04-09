@@ -2,7 +2,7 @@
 // ArticleCard.astro – struttura: contenitore, link (solo immagine+badge+titolo), riga autore fuori dal link
 import { COPERTINA_IMG_ONERROR } from '../lib/directus';
 import { getPlaceholder } from '../utils/placeholder';
-import { t, type Locale } from '../utils/i18n';
+import { t, localizeFormalType, type Locale } from '../utils/i18n';
 
 const {
   title,
@@ -37,29 +37,16 @@ const {
 };
 const hasIssue = issue != null && String(issue).trim() !== '';
 const imageSrc = (!hideImage && image) ? image : (!hideImage ? getPlaceholder(slug ?? title ?? '').src : null);
-// Badge: mostra solo categoria (+ forma se != Articolo). Pulito, senza jargon interno.
-const FORMAL_LABELS_EN: Record<string, string> = {
-  Articolo: 'Article',
-  Intervista: 'Interview',
-  Recensione: 'Review',
-  Testimonianza: 'Testimonial',
-  Editoriale: 'Editorial',
-  'Dialogo Aperto': 'Open Dialogue',
-};
-const CATEGORY_LABELS_EN: Record<string, string> = {
-  'Da categorizzare': 'To be categorized',
-};
-const localizedForma = (() => {
-  if (!forma) return null;
-  if (lang !== 'en') return forma;
-  return FORMAL_LABELS_EN[forma] ?? forma;
-})();
+// Badge: mostra solo categoria (+ forma se != Articolo). Label forma da i18n (allineato a taxonomy).
+const localizedForma = forma ? localizeFormalType(forma, lang) : null;
+const genericFormalLabel = t(lang, 'formal_articolo');
 const localizedCategoriaMenu = (() => {
   if (!categoriaMenu) return categoriaMenu;
-  if (lang !== 'en') return categoriaMenu;
-  return CATEGORY_LABELS_EN[categoriaMenu] ?? categoriaMenu;
+  if (lang === 'en' && categoriaMenu === 'Da categorizzare') return t(lang, 'category_uncategorized');
+  return categoriaMenu;
 })();
-const formaPrefix = localizedForma && localizedForma !== (lang === 'en' ? 'Article' : 'Articolo') ? `${localizedForma} · ` : '';
+const formaPrefix =
+  localizedForma && localizedForma !== genericFormalLabel ? `${localizedForma} · ` : '';
 const badgeText = categoriaMenu
   ? `${formaPrefix}${localizedCategoriaMenu}`
   : (hasIssue ? '' : t(lang, 'badge_online'));

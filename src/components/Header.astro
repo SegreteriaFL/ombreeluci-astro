@@ -2,7 +2,7 @@
 import logo from '../assets/logo.svg';
 import ultimoNumeroData from '../data/ultimo-numero.json';
 import { getThemesWithSlugs, getCategoriaLabel } from '../config/taxonomy.js';
-import { getLangFromUrl, t } from '../utils/i18n';
+import { getLangFromUrl, t, localizeIssuePeriodLabel } from '../utils/i18n';
 import LanguageSelector from './LanguageSelector.astro';
 
 interface Props {
@@ -75,7 +75,7 @@ const archivioLinks = [
 
       <div class="header-end">
         <LanguageSelector lang={lang} pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
-        <nav class="header-nav" aria-label="Servizi e utilità">
+        <nav class="header-nav" aria-label={t(lang, 'aria_header_utility')}>
           <a href="/chi-siamo" class:list={['header-link', { 'header-link--active': isActive('/chi-siamo') }]}>{t(lang, 'nav_about')}</a>
           <a href="/#newsletter" class="header-link">{t(lang, 'nav_newsletter')}</a>
         </nav>
@@ -122,7 +122,7 @@ const archivioLinks = [
     </form>
   </div>
 
-  <div class="mega-menu" id="mega-menu" role="dialog" aria-modal="true" aria-label="Menu di navigazione" aria-hidden="true">
+  <div class="mega-menu" id="mega-menu" role="dialog" aria-modal="true" aria-label={t(lang, 'aria_mega_menu')} aria-hidden="true">
     <div class="mega-menu-inner">
       <div class="mega-menu-container">
         <div class="mega-menu-grid">
@@ -189,7 +189,9 @@ const archivioLinks = [
                 <div class="last-issue-meta">
                   <p class="last-issue-label">{lang === 'en' ? 'Issue' : 'Numero'} {ultimoNumero.numero_progressivo ?? ''} · {ultimoNumero.anno_pubblicazione ?? ''}</p>
                   <h4 class="last-issue-title">{ultimoNumero.titolo_numero}</h4>
-                  {ultimoNumero.periodo_label && <p class="last-issue-period">{ultimoNumero.periodo_label}</p>}
+                  {ultimoNumero.periodo_label && (
+                    <p class="last-issue-period">{localizeIssuePeriodLabel(ultimoNumero.periodo_label, lang)}</p>
+                  )}
                   <a href="/sostienici" class="mega-menu-cta">{t(lang, 'nav_support')}</a>
                 </div>
               </div>

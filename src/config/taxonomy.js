@@ -257,13 +257,16 @@ export function getMegaclusterForArticle(articolo) {
 }
 
 /**
- * Label da mostrare per tema/categoria: priorità a categoria_menu (alias).
- * @param {{ categoria_menu?: string|null, tema_label?: string|null }|null} articolo
+ * Label da mostrare per tema/categoria in UI, localizzata se articolo.lang === 'en'
+ * (usa getMegaclusterForArticle → getCategoriaLabel).
+ * @param {{ categoria_menu?: string|null, tema_label?: string|null, lang?: string|null }|null} articolo
  * @returns {string}
  */
 export function getThemeLabel(articolo) {
   if (!articolo) return THEMATIC_FALLBACK;
-  return articolo.categoria_menu || articolo.tema_label || THEMATIC_FALLBACK;
+  const mc = getMegaclusterForArticle(articolo);
+  if (mc.categoria_menu) return mc.categoria_menu;
+  return articolo.tema_label || THEMATIC_FALLBACK;
 }
 
 /**

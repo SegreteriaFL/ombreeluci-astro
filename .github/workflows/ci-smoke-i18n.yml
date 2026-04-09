@@ -1,0 +1,30 @@
+# Smoke i18n: URL da repository variable (consigliato) o secret.
+name: Smoke i18n (EN shell)
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Smoke EN chrome
+        env:
+          # Preferisci una repo Variable "SMOKE_BASE_URL" (visibile, non sensibile); altrimenti secret omonimo.
+          VAR_SMOKE_BASE_URL: ${{ vars.SMOKE_BASE_URL }}
+          SEC_SMOKE_BASE_URL: ${{ secrets.SMOKE_BASE_URL }}
+        run: |
+          if [ -n "$VAR_SMOKE_BASE_URL" ]; then
+            export SMOKE_BASE_URL="$VAR_SMOKE_BASE_URL"
+          elif [ -n "$SEC_SMOKE_BASE_URL" ]; then
+            export SMOKE_BASE_URL="$SEC_SMOKE_BASE_URL"
+          else
+            echo "::notice::Imposta la repository variable SMOKE_BASE_URL (staging/prod) o il secret omonimo per eseguire lo smoke in CI."
+            exit 0
+          fi
+          node scripts/smoke-i18n.mjs
