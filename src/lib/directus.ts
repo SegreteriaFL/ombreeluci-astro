@@ -188,11 +188,13 @@ async function directusFetch<T>(path: string, creds?: DirectusRuntimeCreds): Pro
   const { url: base, token } = resolveCreds(creds);
   const url = `${base}${path}`;
   try {
+    const headers: Record<string, string> = {
+      'Content-Type': 'application/json',
+    };
+    // Do not send an empty bearer token: Directus treats it as invalid credentials (401).
+    if (token) headers.Authorization = `Bearer ${token}`;
     const res = await fetch(url, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-        'Content-Type': 'application/json',
-      },
+      headers,
     });
     if (!res.ok) {
       console.error(`[directus] ${res.status} ${res.statusText} — ${url}`);
