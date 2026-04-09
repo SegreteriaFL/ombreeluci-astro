@@ -8,10 +8,12 @@ import { getLangFromUrl } from '../utils/i18n';
 interface Props {
   pathname: string;
   alternateArticleUrl?: string | null;
+  lang?: 'it' | 'en';
 }
 
-const { pathname, alternateArticleUrl = null } = Astro.props;
-const lang = getLangFromUrl(pathname);
+const { pathname, alternateArticleUrl = null, lang: langProp } = Astro.props;
+// lang prop ha precedenza su URL-based detection (necessario per articoli EN a /blog/slug senza prefisso /en/)
+const lang = langProp ?? getLangFromUrl(pathname);
 
 const hrefIt = lang === 'en' && alternateArticleUrl ? alternateArticleUrl : '/';
 const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/blog/en';
@@ -56,28 +58,7 @@ const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/bl
   }
 </style>
 
-<script>
-  function updateLangSelector() {
-    const path = window.location.pathname;
-    const isEn = path.startsWith('/blog/en') || path.startsWith('/en/') || /\/en\//.test(path);
-
-    document.querySelectorAll<HTMLAnchorElement>('.lang-link').forEach(link => {
-      const isItLink = link.textContent?.trim() === 'IT';
-      const isEnLink = link.textContent?.trim() === 'EN';
-      link.classList.toggle('is-active', isItLink ? !isEn : isEn);
-
-      // alternateArticleUrl = URL dell'articolo nell'ALTRA lingua
-      const altUrl: string | null = (window as any).__BLOG_PAGE_DATA__?.alternateArticleUrl ?? null;
-      if (isItLink) {
-        // Su EN con alternate → vai alla versione IT; altrimenti home
-        link.href = (isEn && altUrl) ? altUrl : '/';
-      }
-      if (isEnLink) {
-        // Su IT con alternate → vai alla versione EN; altrimenti /blog/en
-        link.href = (!isEn && altUrl) ? altUrl : '/blog/en';
-      }
-    });
-  }
-
-  document.addEventListener('astro:page-load', updateLangSelector);
-</script>
+<!--
+  Selector server-first: href e stato attivo sono calcolati lato server
+  da `lang` + `alternateArticleUrl` per evitare desincronizzazioni client-side.
+-->

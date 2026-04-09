@@ -1,7 +1,19 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-07 (sessione infrastruttura hardening + ArticoliRullo)
+**Ultimo aggiornamento:** 2026-04-09 (sessione i18n Fase 0 chiusa + Backfill traduzioni)
 **Stato:** Stack Astro+Directus attivo su staging — output:hybrid, blog SSR on-demand con edge cache CF. WordPress su Aruba resta online fino al cutover DNS finale.
+
+---
+
+## Document Precedence (i18n)
+
+Per tutte le decisioni i18n/multilingua:
+
+1. `docs/I18N_MASTER_PLAN.md` (architettura ufficiale)
+2. `PROGRESS.md` (stato e priorità operative)
+3. `TRADUZIONI.md` (pipeline traduzione AI)
+
+`STATO_PROGETTO.md` resta storico/legacy.
 
 ---
 
@@ -23,6 +35,66 @@ Un task di tipo "rullo articoli" (lista filtrata di articoli) è **completo** qu
 | J | Lint pulito sui file toccati + aggiornamento PROGRESS.md con esito e pagine migrate | `npm run lint` (se configurato) |
 
 **Decisione load-more (2026-04-07):** rimosso da `web-only.astro` — la pagina renderizza l'intera lista. L'approccio inline-JSON precedente era fragile e incoerente con le altre pagine rullo. Se in futuro il volume cresce (>200 articoli), aggiungere paginazione server-side come feature dedicata.
+
+---
+
+### Sessione 2026-04-09 — i18n Fase 0 chiusa + Backfill (branch `feat/i18n-shell`)
+
+#### Fase 1 — Shell EN: COMPLETATA ✅
+
+| Task | Cosa | Stato |
+|------|------|-------|
+| F1-1 | `blog/[...slug].astro` — `locale` da `articolo.lang`; date localizzate; archival alert mutually exclusive; `lang` in `__BLOG_PAGE_DATA__`; `<Commenti lang>` | ✅ |
+| F1-2 | `BaseLayout.astro` — passa `lang` a `<Header>` e `<Footer>` | ✅ |
+| F1-3 | `Header.astro` — prop `lang` override URL-detection; passa `lang` a `LanguageSelector` | ✅ |
+| F1-4 | `Footer.astro` — prop `lang` override URL-detection | ✅ |
+| F1-5 | `LanguageSelector.astro` — prop `lang`; client usa `__BLOG_PAGE_DATA__.lang` (fix EN articles a `/blog/slug`) | ✅ |
+| F1-6 | `Commenti.astro` — prop `lang`, stringhe IT/EN localizzate incluse JS inline | ✅ |
+| F1-7 | Shell EN completata su `Header.astro`/`Footer.astro` — logo locale-aware (`/blog/en`), mega-menu/footer tradotti, label temi da slug (`getCategoriaLabel`) | ✅ |
+| GATE-1 | `npm run build` verde dopo fix F1 shell | ✅ |
+| GATE-2 | Fix cross-platform prebuild (`package.json`: `cp` -> `node:fs.copyFileSync`) + `npm run build` verde su Windows | ✅ |
+
+#### Fase 0 — Normalizzazione categorie: COMPLETATA ✅
+
+| Task | Cosa | Stato |
+|------|------|-------|
+| F0-1 | `src/data/categorie.json` — 14 slug canonici Megacluster + {it,en} label | ✅ |
+| F0-2 | `scripts/db_analysis/normalize_categoria_menu.py` — script idempotente, dry-run+CSV | ✅ |
+| F0-3 | `src/config/taxonomy.js` — `getCategoriaLabel` + `getMegaclusterForArticle` lang-aware | ✅ |
+| F0-4 | Directus PATCH — 3483 articoli migrati IT label → slug canonico; 0 errori finali; 0 sconosciuti | ✅ 2026-04-09 |
+| F0-5 | V-02: 19 articoli "da-categorizzare" — assegnazione manuale redazione | ⏳ Redazione |
+| DOC | `docs/I18N_MASTER_PLAN.md` — gate F0/F2, decisione Pagefind EN | ✅ |
+
+**Artefatti F0-4:**
+- CSV live: `scripts/db_analysis/logs/normalize_categoria_menu_20260409_003658.csv`
+- Log: `scripts/db_analysis/logs/normalize_categoria_menu_20260409_003648.log`
+
+#### Backfill traduzione link: COMPLETATO ✅
+
+| Esito | Count |
+|-------|-------|
+| Link IT↔EN creati | 40 |
+| Ambigui (review manuale) | 7 |
+| No match | 11 |
+| CSV | `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |
+
+I 7 ambigui e 11 no-match vanno revisionati manualmente dal CSV (slug EN → slug IT da collegare in Directus).
+
+#### Prossimo step: Fase 2 — Routing `/en/`
+
+Come da `docs/I18N_MASTER_PLAN.md` §5 Fase 2:
+1. Introdurre route `/en/...` con redirect 301 da `/blog/*-en/` → `/en/*/`
+2. Canonical per lingua + hreflang reciproci
+3. Sitemap EN (`/sitemap-en.xml`)
+4. Smoke test SEO con Screaming Frog su staging (gate F2 misurabili)
+
+**Prerequisito smoke test F1** (prima di avviare F2): aprire su staging 3 articoli EN → verificare shell lingua, switcher IT↔EN funzionante (40 nuovi link attivi), commenti EN, badge categoria slug→label EN.
+
+**Dove aprire gli URL (smoke):** base staging **https://ombreeluci-staging.pages.dev** — elenco EN: **https://ombreeluci-staging.pages.dev/blog/en/** (HTTP 200). Da lì aprire **3 card** a caso (oppure link diretti, stesso host): es. `/blog/il-progetto-dandelion-en`, `/blog/dialogo-aperto-n-165-en`, `/blog/adesso-saremo-tutti-diversi-en`. Controllare: header/footer EN, switcher → versione IT corretta, form commenti in inglese, badge categoria tradotto.
+
+**Perché non vedi deploy “del branch i18n”:** il progetto CF Pages **`ombreeluci-staging`** è configurato per buildare da **`main`** (push → deploy). Il lavoro su **`feat/i18n-shell`** è in repo **solo dopo merge su `main` + `git push origin main`** (o preview branch se attivata in dashboard CF). In locale: `git branch` mostra `* feat/i18n-shell`; su GitHub il branch compare dopo `git push -u origin feat/i18n-shell`.
+
+**Ordine consigliato:** (1) commit + merge `feat/i18n-shell` → `main`, (2) push `main`, (3) attendere deploy verde in Cloudflare → Dashboard **Workers & Pages** → progetto Pages → ultimo deployment, (4) solo allora smoke su URL sopra — altrimenti si testa il **codice vecchio** su staging.
 
 ---
 
@@ -216,8 +288,8 @@ Un task di tipo "rullo articoli" (lista filtrata di articoli) è **completo** qu
 | UX-05 | ✅ Fatto | **Mega-menu active state** — Completato 2026-04-04. `isActive(href)` helper in `Header.astro` (exact match per `/`, startsWith per tutti gli altri). `class:list` su tutti i link del megamenu (temi, sezioni, archivio) e su `header-link` Chi siamo. CSS `.mega-menu-link--active` e `.header-link--active`: colore accent + font-weight 600. |
 | UX-02 | ✅ Fatto | **Mobile: rifinitura round 2** — Completato 2026-04-03. Analisi sistematica di tutte le pagine; modifiche mirate solo dove mancavano breakpoint. Pagine già OK senza intervento: `autori/index.astro` (600px copre mobile), `cerca.astro` (usa `.container` globale), `sostienici.astro` (cards già 1col), `archivio/index.astro` (già completo), `404.astro` (già completo). Interventi effettuati: `diari.astro` — aggiunti 768px e 480px (padding hub, margini sezioni); `autori/[slug].astro` — aggiunto 480px (author-name 1.5rem, header padding ridotto, articles-section margin ridotto); `chi-siamo/index.astro` — aggiunto 480px (sezioni compattate, h2 ridotto). Regola confermata: zero duplicazioni, zero stili custom per utility già coperte da `.container`. |
 | US-08 | ✅ Fatto | **Info testata numero rivista** — Completato 2026-04-04. `IssueCard.astro` riformattato: titolo "Numero {N} – {titolo}", meta "Ott-Dic 2025 · Anno 42 · IV". `anno_rivista` calcolato a build-time (OEL: anno-1983; INS: anno-1977). `numero_in_anno` da `(n-1) % 4 + 1` → romano. `abbreviaPeriodo()` abbrevia nomi mese. `periodo_label` aggiunto a interfaccia TS e query `getAllNumeriRivista`. Per popolare `periodo_label` su tutti i numeri storici in Directus: vedi script da scrivere. |
-| I18N-01 | L | **Sistema i18n globale** — UI label già complete in `utils/i18n.ts` (it/en). Task residuo: audit stringhe hardcoded IT in pagine non ancora convertite. |
-| DA-06 | L | **Pipeline traduzione AI IT→EN** — ~3265 articoli da tradurre con Claude Haiku. Schema Directus pronto (`lang`, `articolo_traduzione`), frontend pronto (hreflang, language switcher, archival-alert-en). **Piano dettagliato in [`TRADUZIONI.md`](TRADUZIONI.md)**. Stima costo: €25–50. Ordine: audit gap → estimate tokens → dry-run 50 art → spot-check → lancio completo → backfill 131 EN esistenti → verifica SEO. |
+| I18N-01 | L | **Sistema i18n globale** — piano ufficiale: [`docs/I18N_MASTER_PLAN.md`](docs/I18N_MASTER_PLAN.md). Esecuzione per fasi: F0 (categorie) → F1 (shell/switcher) → F2 (routing /en/) → batch traduzioni. |
+| DA-06 | L | **Pipeline traduzione AI IT→EN** — ~3265 articoli target. ⛔ **BLOCCATA** fino a gate F0+F1+F2+approvazione §3 TRADUZIONI.md. Dettagli: [`TRADUZIONI.md`](TRADUZIONI.md). |
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
 | WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
@@ -433,7 +505,9 @@ Verifica: curl staging/blog/amici-di-simone/ = 200 con HTML articolo (non 302/40
 | DA-03 | Post-lancio | **Upgrade VPS CX23 → CX32** — prerequisito per embedding pgvector. |
 | DA-04 | Post-lancio | **Ricerca semantica + correlati pgvector** — after DA-03 + cutover DNS. |
 | DA-05 | Post-lancio | **Archive.org link** — 37 numeri (OEL 1-15, 34, 40, 131-172) senza `pdf_archive_url`. Scraping profilo archive.org + PATCH Directus. |
-| DA-06 | Post-lancio | **Traduzione AI articoli** — traduzione automatica (Claude/DeepL) di tutti gli articoli IT in EN, poi ES e altre lingue. Da valutare: costo per articolo, qualità, flusso di revisione redazionale, struttura URL (`/en/blog/slug`), hreflang. Priorità EN (già presenti 131 articoli EN originali come baseline). |
+| DA-06 | Post-lancio | **Traduzione AI articoli** — rollout progressivo EN poi ES/altre lingue, subordinato a stabilizzazione i18n shell/routing/redirect/SEO. Documento guida unico: [`docs/I18N_MASTER_PLAN.md`](docs/I18N_MASTER_PLAN.md). |
+| TAG-01 | 🟡 Post-lancio | **Tag non visibili nelle pagine articolo** — i tag associati agli articoli in Directus non sono mostrati nel frontend (`blog/[...slug].astro`). Nessun link né badge tag visibile al lettore. Impedisce il filtraggio editoriale via tag (es. `trans-ai`, `haiku`, `sonnet`). |
+| TAG-02 | 🟡 Post-lancio | **Pagina `/tag/[slug]`** — non esiste una route per listare gli articoli per tag. Esempio: `/tag/trans-ai` → tutti gli articoli tradotti da AI. Route statica `src/pages/tag/[slug].astro` + `getArticoliByTag()` in `directus.ts`. Necessaria per filtraggio editoriale, navigazione alternativa e SEO. |
 
 ### Performance / Core Web Vitals
 

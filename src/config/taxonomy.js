@@ -3,13 +3,39 @@
  * Ogni articolo è mappato per Forma (Intervista, Editoriale, ecc.) e per Tema del Megacluster.
  * Struttura navigazione (slug/temi): src/data/taxonomy_structure.json.
  * Campi per-articolo (tema_label, categoria_menu, ruolo_editoriale, forma): su Directus (migrati da _legacy_articoli_megacluster.json).
+ *
+ * Fase 0 i18n: categoria_menu in Directus è ora uno slug canonico (es. "spiritualita").
+ * Usare getCategoriaLabel(slug, lang) per ottenere la label localizzata da src/data/categorie.json.
+ * getMegaclusterForArticle() restituisce già la label tradotta in base a articolo.lang.
  */
 
 import taxonomyData from '../data/taxonomy_structure.json';
+import categorieData from '../data/categorie.json';
 
 const SLUG_TO_TEMA = taxonomyData.slugToTema;
 const TEMA_TO_CATEGORIA = taxonomyData.temaToCategoria;
 const MEGACLUSTER_TEMI = taxonomyData.megaclusterTemi;
+
+// ── Lookup categorie i18n ─────────────────────────────────────────────────────
+// Indice slug → { it, en } costruito da src/data/categorie.json.
+// Lookup O(1) a build-time.
+const SLUG_TO_LABELS = Object.fromEntries(
+  categorieData.categorie.map((c) => [c.slug, { it: c.it, en: c.en }])
+);
+
+/**
+ * Restituisce la label localizzata per uno slug di categoria.
+ * Se lo slug non è riconosciuto (es. tema_label fallback), ritorna rawValue invariato.
+ * @param {string|null|undefined} slugOrRaw  - slug canonico (es. "spiritualita") o valore raw legacy
+ * @param {'it'|'en'} lang
+ * @returns {string|null}
+ */
+export function getCategoriaLabel(slugOrRaw, lang) {
+  if (!slugOrRaw) return null;
+  const entry = SLUG_TO_LABELS[slugOrRaw];
+  if (!entry) return slugOrRaw;  // valore non riconosciuto → raw (backward compat)
+  return entry[lang] ?? entry.it ?? slugOrRaw;
+}
 
 /** Macro-tipologie di contenuto (approccio formale) */
 export const FORMAL_TYPES = [
@@ -186,15 +212,23 @@ export function getCategoryBySlug(slug) {
 }
 
 /**
- * Dato un articolo Directus, restituisce tema_label, categoria_menu e ruolo_editoriale.
- * Legge i campi direttamente dall'oggetto articolo (migrati da _legacy_articoli_megacluster.json).
- * @param {{ tema_label?: string|null, categoria_menu?: string|null, ruolo_editoriale?: string|null }|null} articolo
+ * Restituisce tema_label, categoria_menu (label localizzata) e ruolo_editoriale.
+ *
+ * Fase 0 i18n: categoria_menu in Directus è uno slug canonico (es. "spiritualita").
+ * Questa funzione lo traduce in label localizzata (es. "Spiritualità" IT / "Spirituality" EN)
+ * tramite getCategoriaLabel(). Valori non riconosciuti come slug sono restituiti invariati
+ * per backward compat (es. tema_label usato come fallback, valori legacy).
+ *
+ * @param {{ lang?: string|null, tema_label?: string|null, categoria_menu?: string|null, ruolo_editoriale?: string|null }|null} articolo
  * @returns {{ tema_label: string | null, categoria_menu: string | null, ruolo_editoriale: string | null }}
  */
 export function getMegaclusterForArticle(articolo) {
+  const lang = articolo?.lang === 'en' ? 'en' : 'it';
+  const rawCategoria = articolo?.categoria_menu ?? articolo?.tema_label ?? null;
+  const categoriaLabel = rawCategoria ? getCategoriaLabel(rawCategoria, lang) : null;
   return {
     tema_label: articolo?.tema_label ?? null,
-    categoria_menu: articolo?.categoria_menu ?? articolo?.tema_label ?? null,
+    categoria_menu: categoriaLabel,
     ruolo_editoriale: articolo?.ruolo_editoriale ?? null,
   };
 }

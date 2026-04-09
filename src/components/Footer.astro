@@ -1,16 +1,17 @@
 ---
 import logo from '../assets/logo.svg';
-import { getThemesWithSlugs } from '../config/taxonomy.js';
+import { getThemesWithSlugs, getCategoriaLabel } from '../config/taxonomy.js';
 import { RUNTS, CODICE_FISCALE } from '../config/support.ts';
 import { getLangFromUrl, t } from '../utils/i18n';
 
 interface Props {
   pathname?: string;
+  lang?: 'it' | 'en';
 }
-const { pathname = '/' } = Astro.props;
-const lang = getLangFromUrl(pathname);
+const { pathname = '/', lang: langProp } = Astro.props;
+const lang = langProp ?? getLangFromUrl(pathname);
 
-const temi = getThemesWithSlugs();
+const temi = getThemesWithSlugs().map((t) => ({ ...t, nome: getCategoriaLabel(t.slug, lang) ?? t.nome }));
 const meta = Math.ceil(temi.length / 2);
 const temiCol1 = temi.slice(0, meta);
 const temiCol2 = temi.slice(meta);
@@ -21,7 +22,7 @@ const sezioniFormali = [
   { nome: t(lang, 'footer_interviews'), href: '/categoria/interviste' },
   { nome: t(lang, 'footer_reviews'), href: '/categoria/recensioni' },
   { nome: t(lang, 'footer_diari'), href: '/sezioni/diari' },
-  { nome: 'Dialogo aperto', href: '/sezioni/dialogo-aperto' },
+  { nome: lang === 'en' ? 'Open Dialogue' : 'Dialogo aperto', href: '/sezioni/dialogo-aperto' },
 ];
 
 const aboutLinks = [
@@ -32,7 +33,7 @@ const aboutLinks = [
   { nome: t(lang, 'footer_wrote_for_us'), slug: '/chi-siamo#hanno-scritto-per-noi' },
   { nome: t(lang, 'footer_diari'), slug: '/sezioni/diari' },
   { nome: t(lang, 'footer_contacts'), slug: '/chi-siamo#contatti' },
-  { nome: 'Newsletter', slug: '/newsletter' },
+  { nome: t(lang, 'nav_newsletter'), slug: '/newsletter' },
 ];
 
 const legalLinks = [
@@ -48,6 +49,19 @@ const socialLinks = [
   { nome: 'YouTube', url: 'https://www.youtube.com/channel/UCypEHP-N_RaUiz1BcBsplVQ', icon: 'youtube' },
   { nome: 'TikTok', url: '#', icon: 'tiktok' },
 ];
+const homeHref = lang === 'en' ? '/blog/en' : '/';
+const footerLegalText =
+  lang === 'en'
+    ? 'Quarterly magazine. Registered publication at the Court of Rome, registration no. 1 of January 16, 2020. Editorial office and administration: Via dei Cessati Spiriti 3, 00185 Rome.'
+    : 'Rivista trimestrale. Testata registrata presso il Tribunale di Roma, iscrizione n. 1 del 16 gennaio 2020. Direzione, redazione e amministrazione: Via dei Cessati Spiriti 3, 00185 Roma.';
+const footerCcText =
+  lang === 'en'
+    ? '(c) 1974-2026 Unless otherwise indicated, the content of this site is licensed under'
+    : '(c) 1974-2026 Eccetto dove diversamente indicato, il contenuto di questo sito è concesso in licenza';
+const ccLicenseLabel =
+  lang === 'en'
+    ? 'Creative Commons: Attribution - NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)'
+    : 'Creative Commons: Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0)';
 ---
 
 <div class="footer-reveal-wrap">
@@ -57,15 +71,15 @@ const socialLinks = [
     <div class="footer-grid">
       <!-- Colonna 1: Identità (logo, tagline, editore, legale, social in fondo) -->
       <div class="footer-col footer-col-identity">
-        <a href="/" class="footer-logo-link">
+        <a href={homeHref} class="footer-logo-link">
           <img src={logo.src} alt="Ombre e Luci" class="footer-logo" width="160" height="55" />
         </a>
         <p class="footer-tagline">{t(lang, 'footer_tagline')}</p>
         <p class="footer-editor">
           {t(lang, 'footer_edited_by')} <a href="https://www.fedeeluce.it" target="_blank" rel="noopener noreferrer" class="footer-link">Associazione Fede e Luce A.P.S.</a>
         </p>
-        <p class="footer-legal">Rivista trimestrale. Testata registrata presso il Tribunale di Roma, iscrizione n. 1 del 16 gennaio 2020. Direzione, redazione e amministrazione: Via dei Cessati Spiriti 3, 00185 Roma.</p>
-        <div class="footer-social" aria-label="Seguici">
+        <p class="footer-legal">{footerLegalText}</p>
+        <div class="footer-social" aria-label={lang === 'en' ? 'Follow us' : 'Seguici'}>
           {socialLinks.map((s) => (
             <a href={s.url} target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label={s.nome}>
               {s.icon === 'facebook' && <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>}
@@ -136,8 +150,8 @@ const socialLinks = [
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copy-cc"><span class="footer-copy-inline">(c) 1974-2026 Eccetto</span> dove diversamente indicato, il contenuto di questo sito è concesso in licenza <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it" target="_blank" rel="noopener noreferrer" class="footer-link">Creative Commons: Attribuzione – Non commerciale – Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0)</a>.</p>
-      <p class="footer-legal-bottom">Associazione Fede e Luce Aps – C.F. {CODICE_FISCALE} | Iscrizione al RUNTS n. {RUNTS}</p>
+      <p class="footer-copy-cc"><span class="footer-copy-inline">{footerCcText}</span> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it" target="_blank" rel="noopener noreferrer" class="footer-link">{ccLicenseLabel}</a>.</p>
+      <p class="footer-legal-bottom">{lang === 'en' ? 'Fede e Luce Association APS' : 'Associazione Fede e Luce Aps'} - C.F. {CODICE_FISCALE} | {lang === 'en' ? 'RUNTS registration no.' : 'Iscrizione al RUNTS n.'} {RUNTS}</p>
     </div>
   </div>
   </footer>

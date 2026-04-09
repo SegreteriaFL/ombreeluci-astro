@@ -7,7 +7,7 @@
     "dev:local": "astro dev --host 127.0.0.1 --port 4321",
     "dev:host": "astro dev --host",
     "start": "astro dev",
-    "prebuild": "cp src/data/correlati.json public/correlati.json",
+    "prebuild": "node -e \"require('node:fs').copyFileSync('src/data/correlati.json','public/correlati.json')\"",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"

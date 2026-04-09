@@ -8,10 +8,17 @@
 /** URL raggiungibile da Cloudflare edge (evitare IP privato/non instradato). */
 const DEFAULT_DIRECTUS_PUBLIC = 'https://cms.ombreeluci.it';
 
-const DIRECTUS_URL: string =
-  (import.meta.env.DIRECTUS_URL as string | undefined)?.trim() || DEFAULT_DIRECTUS_PUBLIC;
-const DIRECTUS_TOKEN: string =
-  (import.meta.env.DIRECTUS_TOKEN as string | undefined) ?? '';
+function readEnvString(key: 'DIRECTUS_URL' | 'DIRECTUS_TOKEN'): string {
+  const fromImportMeta = (import.meta.env?.[key] as string | undefined)?.trim();
+  if (fromImportMeta) return fromImportMeta;
+  const fromProcess = (globalThis as { process?: { env?: Record<string, string | undefined> } })
+    ?.process?.env?.[key]?.trim();
+  if (fromProcess) return fromProcess;
+  return '';
+}
+
+const DIRECTUS_URL: string = readEnvString('DIRECTUS_URL') || DEFAULT_DIRECTUS_PUBLIC;
+const DIRECTUS_TOKEN: string = readEnvString('DIRECTUS_TOKEN');
 
 /** Override per SSR su CF Pages: token/URL da `locals.runtime.env`, non solo vite define (build). */
 export type DirectusRuntimeCreds = { url?: string; token?: string };
@@ -19,14 +26,20 @@ export type DirectusRuntimeCreds = { url?: string; token?: string };
 function resolveCreds(creds?: DirectusRuntimeCreds): { url: string; token: string } {
   const rawUrl = creds?.url?.trim() || DIRECTUS_URL || DEFAULT_DIRECTUS_PUBLIC;
   const url = rawUrl.replace(/\/$/, '');
-  const token = creds?.token ?? DIRECTUS_TOKEN;
+  const token = creds?.token?.trim() || DIRECTUS_TOKEN;
   return { url, token };
 }
 
 /** CF Pages / Workers: leggi env runtime (non baked da Vite al build). */
 export function directusCredsFromAstroLocals(locals: unknown): DirectusRuntimeCreds | undefined {
-  const r = locals as { runtime?: { env?: Record<string, string> } } | null;
-  const env = r?.runtime?.env;
+  const r = locals as
+    | {
+        runtime?: { env?: Record<string, string | undefined> };
+        locals?: { runtime?: { env?: Record<string, string | undefined> } };
+        env?: Record<string, string | undefined>;
+      }
+    | null;
+  const env = r?.runtime?.env ?? r?.locals?.runtime?.env ?? r?.env;
   if (!env) return undefined;
   const o: DirectusRuntimeCreds = {};
   if (typeof env.DIRECTUS_URL === 'string' && env.DIRECTUS_URL.trim()) o.url = env.DIRECTUS_URL.trim();

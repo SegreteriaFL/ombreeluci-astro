@@ -12,7 +12,6 @@ import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
 import Commenti from '../../components/Commenti.astro';
 
-const locale = getLangFromUrl(Astro.url.pathname);
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
 // ── SSR: fetch articolo on-demand ──────────────────────────────────────────────
@@ -37,6 +36,10 @@ if (!articolo) {
 // browser/CDN può servire stale fino a 24h durante revalidazione in background.
 Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
 
+// Fase 1 i18n: locale determinato da articolo.lang (fonte autoritativa), non dall'URL.
+// L'URL /blog/slug-en non matcha i pattern EN di getLangFromUrl, portando a shell IT su articoli EN.
+const locale = articolo.lang === 'en' ? 'en' as const : 'it' as const;
+
 // ── Fetch correlati.json a runtime (mai importato staticamente) ───────────────
 
 let correlatiMap: Record<string, string[]> = {};
@@ -54,8 +57,8 @@ const correlatiArticoli: ArticoloListItem[] = await getArticoliBySlugList(correl
 
 // ── Helper functions ───────────────────────────────────────────────────────────
 
-function formatDateItalian(date: Date): string {
-  return new Intl.DateTimeFormat('it-IT', {
+function formatDateItalian(date: Date, lang: 'it' | 'en' = 'it'): string {
+  return new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'it-IT', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
@@ -423,7 +426,7 @@ const relatedArticles = (() => {
             <a href={`/autori/${authorSlug}`} class="author-link">{autoreName}</a>
           </div>
           <div class="article-meta-item">
-            {formatDateItalian(articleDate)}
+            {formatDateItalian(articleDate, locale)}
           </div>
           <div class="article-meta-item">
             {readingTime} {t(locale, 'min_read')}
@@ -461,17 +464,15 @@ const relatedArticles = (() => {
       {/* Alert box per contenuti archivistici */}
       {articleDate.getFullYear() < 2000 && (
         <div class="article-header-wrapper">
-          <div class="archival-alert">
-            <strong>Contenuto d'archivio:</strong> Questo articolo del {articleDate.getFullYear()} riflette il linguaggio e le sensibilità del suo tempo.
-          </div>
-        </div>
-      )}
-      
-      {isTranslation && articleDate.getFullYear() < 2000 && (
-        <div class="article-header-wrapper">
-          <div class="archival-alert-en">
-            <strong>This archival content from {articleDate.getFullYear()} reflects the language and sensitivities of its time.</strong>
-          </div>
+          {locale === 'en' ? (
+            <div class="archival-alert-en">
+              <strong>This archival content from {articleDate.getFullYear()} reflects the language and sensitivities of its time.</strong>
+            </div>
+          ) : (
+            <div class="archival-alert">
+              <strong>Contenuto d'archivio:</strong> Questo articolo del {articleDate.getFullYear()} riflette il linguaggio e le sensibilità del suo tempo.
+            </div>
+          )}
         </div>
       )}
 
@@ -639,7 +640,7 @@ const relatedArticles = (() => {
         </section>
       )}
 
-      <Commenti articoloId={articolo.id} />
+      <Commenti articoloId={articolo.id} lang={locale} />
 
       {/* Debug: mostra i dati dell'articolo */}
       <details class="debug-section" hidden>
@@ -661,8 +662,8 @@ Slug: {articolo.slug}
     </div>
     </main>
     {hasInstagram && <script async src="https://www.instagram.com/embed.js" is:inline></script>}
-    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel: t(locale, 'read_also'), alternateArticleUrl, currentWpIdClean }}>
-      window.__BLOG_PAGE_DATA__ = { wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel, alternateArticleUrl, currentWpIdClean };
+    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel: t(locale, 'read_also'), alternateArticleUrl, currentWpIdClean, articleLang: articolo.lang }}>
+      window.__BLOG_PAGE_DATA__ = { wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel, alternateArticleUrl, currentWpIdClean, lang: articleLang };
     </script>
     <script is:inline>
       (function() {

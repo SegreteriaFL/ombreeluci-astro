@@ -54,8 +54,8 @@ const lang = headProps.lang ?? 'it';
     </BaseHead>
   </head>
   <body class:list={[bodyClass]}>
-    <Header alternateArticleUrl={alternateArticleUrl} />
+    <Header lang={lang} alternateArticleUrl={alternateArticleUrl} />
     <slot />
-    <Footer />
+    <Footer lang={lang} />
   </body>
 </html>
