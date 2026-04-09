@@ -22,6 +22,24 @@ const MEGACLUSTER_TEMI = taxonomyData.megaclusterTemi;
 const SLUG_TO_LABELS = Object.fromEntries(
   categorieData.categorie.map((c) => [c.slug, { it: c.it, en: c.en }])
 );
+const NORMALIZED_LABEL_TO_SLUG = Object.fromEntries(
+  categorieData.categorie.flatMap((c) => [
+    [normalizeCategoriaKey(c.slug), c.slug],
+    [normalizeCategoriaKey(c.it), c.slug],
+    [normalizeCategoriaKey(c.en), c.slug],
+  ])
+);
+
+function normalizeCategoriaKey(value) {
+  if (!value) return '';
+  return String(value)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
 
 /**
  * Restituisce la label localizzata per uno slug di categoria.
@@ -32,7 +50,12 @@ const SLUG_TO_LABELS = Object.fromEntries(
  */
 export function getCategoriaLabel(slugOrRaw, lang) {
   if (!slugOrRaw) return null;
-  const entry = SLUG_TO_LABELS[slugOrRaw];
+  const direct = String(slugOrRaw).trim();
+  const normalized = normalizeCategoriaKey(direct);
+  const canonicalSlug = SLUG_TO_LABELS[direct]
+    ? direct
+    : NORMALIZED_LABEL_TO_SLUG[normalized];
+  const entry = canonicalSlug ? SLUG_TO_LABELS[canonicalSlug] : null;
   if (!entry) return slugOrRaw;  // valore non riconosciuto → raw (backward compat)
   return entry[lang] ?? entry.it ?? slugOrRaw;
 }
