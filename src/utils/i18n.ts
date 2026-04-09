@@ -57,6 +57,9 @@ export const translations: Record<Locale, Record<string, string>> = {
     author_total_prefix: 'In totale',
     footer_tagline: 'Dal 1974 al 2026',
     footer_edited_by: 'Edito da',
+    author_by: 'Di',
+    author_unknown: 'Autore sconosciuto',
+    badge_online: 'Online',
   },
   en: {
     read_also: 'READ ALSO',
@@ -109,6 +112,9 @@ export const translations: Record<Locale, Record<string, string>> = {
     author_total_prefix: 'In total',
     footer_tagline: 'From 1974 to 2026',
     footer_edited_by: 'Published by',
+    author_by: 'By',
+    author_unknown: 'Unknown author',
+    badge_online: 'Online',
   },
 };
 

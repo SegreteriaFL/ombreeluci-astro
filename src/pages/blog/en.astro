@@ -40,9 +40,10 @@ const englishArticles = allArticles
                 categoriaMenu={categoria_menu ?? undefined}
                 issue={a.numero_rivista?.id_numero ?? null}
                 forma={formal}
-                author={a.autore?.nome_completo ?? 'Autore sconosciuto'}
+                author={a.autore?.nome_completo ?? t('en', 'author_unknown')}
                 date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
                 image={image}
+                lang="en"
               />
             );
           })}
