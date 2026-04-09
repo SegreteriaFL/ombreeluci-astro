@@ -14,6 +14,7 @@
     { "slug": "scuola",                     "it": "Scuola",                   "en": "School" },
     { "slug": "spiritualita",               "it": "Spiritualità",             "en": "Spirituality" },
     { "slug": "sport",                      "it": "Sport",                    "en": "Sport" },
-    { "slug": "tempo-libero",               "it": "Tempo libero",             "en": "Leisure" }
+    { "slug": "tempo-libero",               "it": "Tempo libero",             "en": "Leisure" },
+    { "slug": "da-categorizzare",           "it": "Da categorizzare",         "en": "To be categorized" }
   ]
 }

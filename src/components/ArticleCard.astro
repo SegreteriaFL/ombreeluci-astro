@@ -38,7 +38,19 @@ const {
 const hasIssue = issue != null && String(issue).trim() !== '';
 const imageSrc = (!hideImage && image) ? image : (!hideImage ? getPlaceholder(slug ?? title ?? '').src : null);
 // Badge: mostra solo categoria (+ forma se != Articolo). Pulito, senza jargon interno.
-const formaPrefix = forma && forma !== 'Articolo' ? `${forma} · ` : '';
+const FORMAL_LABELS_EN: Record<string, string> = {
+  Articolo: 'Article',
+  Intervista: 'Interview',
+  Recensione: 'Review',
+  Testimonianza: 'Testimonial',
+  Editoriale: 'Editorial',
+};
+const localizedForma = (() => {
+  if (!forma) return null;
+  if (lang !== 'en') return forma;
+  return FORMAL_LABELS_EN[forma] ?? forma;
+})();
+const formaPrefix = localizedForma && localizedForma !== (lang === 'en' ? 'Article' : 'Articolo') ? `${localizedForma} · ` : '';
 const badgeText = categoriaMenu
   ? `${formaPrefix}${categoriaMenu}`
   : (hasIssue ? '' : t(lang, 'badge_online'));
