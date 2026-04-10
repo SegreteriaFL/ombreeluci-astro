@@ -26,7 +26,7 @@ interface Props {
   ogImage?: string;
   /** Tipo Open Graph: 'website' (default) o 'article' */
   ogType?: 'website' | 'article';
-  /** URL canonico assoluto. Se omesso viene usato Astro.url.href */
+  /** URL canonico assoluto. Se omesso: pathname su Astro.site (deploy) oppure Astro.url.href */
   canonical?: string;
   /** Se true aggiunge <meta name="robots" content="noindex, nofollow"> */
   noindex?: boolean;
@@ -53,7 +53,12 @@ const GOOGLE_SITE_VERIFICATION = 'CHp0QtH-sw0M_ZYVjj6LRqHxV-4Z72IoYR_aiX9c6ZE';
 
 // Se il titolo contiene già il nome del sito (es. homepage), usarlo così com'è
 const pageTitle = title.includes(SITE_NAME) ? title : `${title} – ${SITE_NAME}`;
-const canonicalUrl = canonical ?? Astro.url.href;
+// Evita canonical/og:url con localhost se il prerender non ha origin corretta: usa Astro.site.
+const canonicalUrl =
+  canonical ??
+  (Astro.site
+    ? new URL(Astro.url.pathname, Astro.site).href
+    : Astro.url.href);
 const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
 ---
 
