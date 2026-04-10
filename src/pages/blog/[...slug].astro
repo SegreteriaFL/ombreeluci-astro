@@ -1164,13 +1164,13 @@ Slug: {articolo.slug}
       /* Social Sticky Bar - icone condividi */
       .social-sticky {
         position: fixed;
-        /* resta laterale a sinistra, allineata al contenitore articolo */
-        left: max(8px, calc((100vw - 1100px) / 2 - 56px));
+        /* resta ancorata al bordo sinistro viewport su desktop */
+        left: 0;
         top: 50%;
         transform: translateY(-50%);
         z-index: 100;
         background: transparent;
-        padding: 0.5rem 0.4rem;
+        padding: 0.5rem 0.2rem;
         display: flex;
         flex-direction: column;
         gap: 0.25rem;
