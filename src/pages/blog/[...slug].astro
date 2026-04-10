@@ -912,38 +912,6 @@ Slug: {articolo.slug}
       if (document.readyState === 'complete') processArticleLinks();
       else setTimeout(processArticleLinks, 200);
 
-      // Social sticky: si ferma sopra related-footer-section o footer
-      (function () {
-        function initSocialBound() {
-          const social = document.getElementById('social-sticky');
-          if (!social) return;
-          const stop = document.querySelector('.related-footer-section') || document.querySelector('footer');
-          if (!stop) return;
-
-          function adjust() {
-            const stopTop = stop.getBoundingClientRect().top;
-            const vh = window.innerHeight;
-            const sh = social.offsetHeight;
-            const gap = 16;
-
-            if (stopTop < vh) {
-              // il blocco stop è visibile: sposta la bar verso l'alto
-              const newTop = Math.max(gap, stopTop - sh - gap);
-              social.style.top = newTop + 'px';
-              social.style.transform = 'none';
-            } else {
-              social.style.top = '50%';
-              social.style.transform = 'translateY(-50%)';
-            }
-          }
-
-          window.addEventListener('scroll', adjust, { passive: true });
-          adjust();
-        }
-
-        document.addEventListener('astro:page-load', initSocialBound);
-        if (document.readyState !== 'loading') initSocialBound();
-      })();
     </script>
 </BaseLayout>
 
@@ -1195,10 +1163,10 @@ Slug: {articolo.slug}
 
       /* Social Sticky Bar - icone condividi */
       .social-sticky {
-        position: fixed;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
+        position: sticky;
+        top: calc(var(--header-height, 72px) + 16px);
+        left: auto;
+        transform: none;
         z-index: 100;
         background: transparent;
         padding: 0.5rem 0.4rem;

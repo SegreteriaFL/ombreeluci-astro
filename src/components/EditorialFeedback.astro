@@ -25,7 +25,7 @@ const directusEditUrl = articoloId
   ✏ Modifica in Directus
 </a>
 
-<aside class="editorial-feedback" aria-label="Box revisione editoriale" id="editorial-feedback-box" hidden>
+<aside class="editorial-feedback" aria-label="Box revisione editoriale" id="editorial-feedback-box">
   <div class="editorial-feedback-header">
     <span class="editorial-feedback-title">BOX REVISIONE EDITORIALE</span>
   </div>
@@ -83,11 +83,11 @@ const directusEditUrl = articoloId
     const editBtn = document.getElementById('directus-edit-btn');
     if (editBtn) editBtn.hidden = !isAuth;
 
-    // Editorial box
+    // Editorial box: sempre visibile, anche senza sessione Directus.
+    // Serve alla redazione per lavorare via endpoint feedback esterno.
     const box = document.getElementById('editorial-feedback-box');
     if (!box) return;
-    box.hidden = !isAuth;
-    if (!isAuth) return;
+    box.hidden = false;
 
     const form = document.getElementById('editorial-feedback-form') as HTMLFormElement | null;
     if (!form) return;
