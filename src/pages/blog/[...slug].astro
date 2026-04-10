@@ -1212,10 +1212,11 @@ Slug: {articolo.slug}
 
       /* Social Sticky Bar - icone condividi */
       .social-sticky {
-        position: sticky;
-        top: calc(var(--header-height, 72px) + 16px);
-        left: auto;
-        transform: none;
+        position: fixed;
+        /* resta laterale a sinistra, allineata al contenitore articolo */
+        left: max(8px, calc((100vw - 1100px) / 2 - 56px));
+        top: 50%;
+        transform: translateY(-50%);
         z-index: 100;
         background: transparent;
         padding: 0.5rem 0.4rem;
