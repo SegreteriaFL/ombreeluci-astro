@@ -13,8 +13,8 @@ import {
 } from '../config/taxonomy.js';
 import { DIARISTI } from '../data/diari.js';
 import numeriData from '../data/numeri_consolidati.json';
+import { getAllArticoliBuild } from '../lib/articoli-build';
 import {
-  getAllArticoli,
   getAllAutori,
   getArticoloCopertinaSrc,
   getAutoreImageUrl,
@@ -66,7 +66,7 @@ const autoriById: Record<string, { foto_url?: string }> = Object.fromEntries(
 
 // ── Articoli ──────────────────────────────────────────────────────────────────
 
-const allArticles = (await getAllArticoli()).filter((a) => a.lang !== 'en');
+const allArticles = (await getAllArticoliBuild()).filter((a) => a.lang !== 'en');
 type ArticoloItem = (typeof allArticles)[0];
 
 const sortedArticles = [...allArticles].sort((a, b) => {

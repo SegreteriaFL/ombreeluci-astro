@@ -197,7 +197,7 @@ Come da `docs/I18N_MASTER_PLAN.md` §5 Fase 2:
 | **CF Pages project** | `ombreeluci-staging` (nome storico) — branch `main` → deploy automatico su push |
 | **Dominio** | `ombreeluci.it` punta al Pages project via CF DNS |
 | **CF Worker** | `ombreeluci-redirects` — route **`ombreeluci.it/*`**: (1) path WordPress → proxy Aruba; (2) redirect legacy tab + regex data (stesso `REDIRECTS` nel JS); (3) tutto il resto → **`forwardToPages`** verso `PAGES_ORIGIN` (`ombreeluci-staging.pages.dev`). Così il DNS può restare su Aruba senza mostrare WP al pubblico. |
-| **Secrets Pages** | `DIRECTUS_TOKEN`, `DIRECTUS_URL`, e per ARCH-04 **`REVALIDATE_SECRET`**, **`CF_ZONE_ID`**, **`CF_PURGE_TOKEN`** (CF Pages → Settings → Environment variables, **runtime**; i secret purge non vanno nel bundle). |
+| **Secrets Pages** | **`DIRECTUS_TOKEN`**, **`DIRECTUS_URL`** (e opz. `MEDIA_BASE_URL`): vanno duplicate in **Build** e in **Production/Preview** (CF Pages → Settings → Environment variables). Solo in *runtime* → le pagine prerenderizzate (home, hub, sitemap, ecc.) chiamano Directus in **fase di build** e senza token la lista articoli è vuota; c’è fallback `articoli_snapshot.json` via `getAllArticoliBuild()`. Per ARCH-04 anche **`REVALIDATE_SECRET`**, **`CF_ZONE_ID`**, **`CF_PURGE_TOKEN`** (purge non nel bundle). |
 | **Secrets Worker** | Opzionali/none se il Worker è solo proxy WP. Se restano vecchi `wrangler secret` per purge, possono essere rimossi per evitare confusione (purge gestito da Astro). |
 | **Deploy** | `git push origin main` → Pages build automatica (~3-4 min) |
 | **Account CF** | Account ID: `6b071de7f55397ada5645e187c932202` |

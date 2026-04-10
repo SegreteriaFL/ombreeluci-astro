@@ -6,9 +6,9 @@
  */
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticoliRullo from '../../components/ArticoliRullo.astro';
-import { getAllArticoli } from '../../lib/directus';
+import { getAllArticoliBuild } from '../../lib/articoli-build';
 
-const allArticles = await getAllArticoli();
+const allArticles = await getAllArticoliBuild();
 
 const articoli = allArticles
   .filter((a) => a.lang !== 'en' && a.numero_rivista == null)
