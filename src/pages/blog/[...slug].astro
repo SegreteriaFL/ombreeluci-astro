@@ -1,7 +1,7 @@
 ---
 export const prerender = false;
 
-import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getAutoreImageUrl, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
+import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getAutoreImageUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
 import { getPlaceholder } from '../../utils/placeholder';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -60,8 +60,35 @@ try {
 
 const correlatiSlugsRaw: string[] = correlatiMap[articolo.slug] ?? [];
 
-// Fetch solo gli articoli correlati (max 10) per slugToArticolo, LeggiAnche e correlati in calce
-const correlatiArticoli: ArticoloListItem[] = await getArticoliBySlugList(correlatiSlugsRaw.slice(0, 10), creds).catch(() => []);
+// Fetch solo gli articoli correlati (max 10) per slugToArticolo, LeggiAnche e correlati in calce.
+// Fallback: se la mappa correlati non contiene lo slug, usa articoli recenti stessa lingua/categoria.
+let correlatiArticoli: ArticoloListItem[] = await getArticoliBySlugList(correlatiSlugsRaw.slice(0, 10), creds).catch(() => []);
+if (correlatiArticoli.length === 0) {
+  const preferred = await getFallbackRelatedArticles(
+    {
+      excludeSlug: articolo.slug,
+      lang: articolo.lang === 'en' ? 'en' : 'it',
+      categoriaMenu: articolo.categoria_menu ?? null,
+      limit: 4,
+    },
+    creds
+  ).catch(() => []);
+
+  correlatiArticoli = preferred;
+  if (correlatiArticoli.length === 0) {
+    correlatiArticoli = await getFallbackRelatedArticles(
+      {
+        excludeSlug: articolo.slug,
+        lang: articolo.lang === 'en' ? 'en' : 'it',
+        limit: 4,
+      },
+      creds
+    ).catch(() => []);
+  }
+}
+
+const correlatiSlugsEffective: string[] =
+  correlatiSlugsRaw.length > 0 ? correlatiSlugsRaw : correlatiArticoli.map((a) => a.slug);
 
 // ── Helper functions ───────────────────────────────────────────────────────────
 
@@ -167,8 +194,9 @@ const rawCorpo = articolo.corpo ?? '';
 const { html: processedCorpo, hasInstagram } = processEmbeds(rawCorpo);
 
 const leggiAncheSlug = articolo.lang !== 'en'
-  ? correlatiSlugsRaw.find((s) => {
+  ? correlatiSlugsEffective.find((s) => {
       // Evita loop A→B→A: salta B se il primo correlato di B è A
+      if (correlatiSlugsRaw.length === 0) return true;
       const bCorrelati = correlatiMap[s] ?? [];
       return bCorrelati[0] !== articolo.slug;
     }) ?? null
@@ -278,7 +306,7 @@ for (const a of correlatiArticoli) {
 
 // ── Articoli correlati in calce (UMAP semantici) ──────────────────────────────
 
-const correlatiSlugs: string[] = correlatiSlugsRaw;
+const correlatiSlugs: string[] = correlatiSlugsEffective;
 
 const relatedArticles = (() => {
   // Correlati UMAP: salta il primo (già usato nel box "Leggi anche"), max 3
@@ -933,38 +961,6 @@ Slug: {articolo.slug}
       if (document.readyState === 'complete') processArticleLinks();
       else setTimeout(processArticleLinks, 200);
 
-      // Social sticky: si ferma sopra related-footer-section o footer
-      (function () {
-        function initSocialBound() {
-          const social = document.getElementById('social-sticky');
-          if (!social) return;
-          const stop = document.querySelector('.related-footer-section') || document.querySelector('footer');
-          if (!stop) return;
-
-          function adjust() {
-            const stopTop = stop.getBoundingClientRect().top;
-            const vh = window.innerHeight;
-            const sh = social.offsetHeight;
-            const gap = 16;
-
-            if (stopTop < vh) {
-              // il blocco stop è visibile: sposta la bar verso l'alto
-              const newTop = Math.max(gap, stopTop - sh - gap);
-              social.style.top = newTop + 'px';
-              social.style.transform = 'none';
-            } else {
-              social.style.top = '50%';
-              social.style.transform = 'translateY(-50%)';
-            }
-          }
-
-          window.addEventListener('scroll', adjust, { passive: true });
-          adjust();
-        }
-
-        document.addEventListener('astro:page-load', initSocialBound);
-        if (document.readyState !== 'loading') initSocialBound();
-      })();
     </script>
 </BaseLayout>
 
@@ -1216,10 +1212,10 @@ Slug: {articolo.slug}
 
       /* Social Sticky Bar - icone condividi */
       .social-sticky {
-        position: fixed;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
+        position: sticky;
+        top: calc(var(--header-height, 72px) + 16px);
+        left: auto;
+        transform: none;
         z-index: 100;
         background: transparent;
         padding: 0.5rem 0.4rem;
