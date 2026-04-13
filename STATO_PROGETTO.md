@@ -2,6 +2,10 @@
 
 **Ultimo aggiornamento:** 20 marzo 2026
 
+> Documento storico/legacy: per stato operativo aggiornato usare `PROGRESS.md` e `docs/I18N_STATUS.md`.
+>
+> Nota correlati: la sorgente e' `src/data/correlati.json`; `public/correlati.json` e' copia generata in prebuild per il fetch runtime.
+
 ---
 
 ## Stato attuale: operativo

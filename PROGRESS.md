@@ -88,9 +88,16 @@ Come da `docs/I18N_MASTER_PLAN.md` §5 Fase 2:
 3. Sitemap EN (`/sitemap-en.xml`)
 4. Smoke test SEO con Screaming Frog su staging (gate F2 misurabili)
 
+#### Nota operativa — correlati articolo (fonte dati)
+
+- `src/data/correlati.json` e' la **fonte unica versionata** dei correlati.
+- `public/correlati.json` e' una **copia generata in prebuild** (script `prebuild` in `package.json`) per renderla fetchabile a runtime via `/correlati.json`.
+- I componenti articolo (`Leggi anche` nel corpo + card correlati in calce) leggono la mappa runtime da `/correlati.json`, che deriva da `src/data/correlati.json`.
+- Regola: modificare/aggiornare sempre `src/data/correlati.json`; `public/correlati.json` non va trattato come sorgente editoriale.
+
 **Prerequisito smoke test F1** (prima di avviare F2): aprire su staging 3 articoli EN → verificare shell lingua, switcher IT↔EN funzionante (40 nuovi link attivi), commenti EN, badge categoria slug→label EN.
 
-**Dove aprire gli URL (smoke):** base staging **https://ombreeluci-staging.pages.dev** — elenco EN: **https://ombreeluci-staging.pages.dev/blog/en/** (HTTP 200). Da lì aprire **3 card** a caso (oppure link diretti, stesso host): es. `/blog/il-progetto-dandelion-en`, `/blog/dialogo-aperto-n-165-en`, `/blog/adesso-saremo-tutti-diversi-en`. Controllare: header/footer EN, switcher → versione IT corretta, form commenti in inglese, badge categoria tradotto.
+**Dove aprire gli URL (smoke):** base staging **https://ombreeluci-staging.pages.dev** — elenco EN canonico: **https://ombreeluci-staging.pages.dev/en/** (legacy `/blog/en/` da mantenere solo per compatibilita'/redirect). Da lì aprire **3 card** a caso (oppure link diretti, stesso host): es. `/en/il-progetto-dandelion-en`, `/en/dialogo-aperto-n-165-en`, `/en/adesso-saremo-tutti-diversi-en`. Controllare: header/footer EN, switcher → versione IT corretta, form commenti in inglese, badge categoria tradotto.
 
 **Perché non vedi deploy “del branch i18n”:** il progetto CF Pages **`ombreeluci-staging`** è configurato per buildare da **`main`** (push → deploy). Il lavoro su **`feat/i18n-shell`** è in repo **solo dopo merge su `main` + `git push origin main`** (o preview branch se attivata in dashboard CF). In locale: `git branch` mostra `* feat/i18n-shell`; su GitHub il branch compare dopo `git push -u origin feat/i18n-shell`.
 

@@ -15,7 +15,7 @@ Obiettivo: pagine EN coerenti (chrome, badge categoria/forma, meta, JSON-LD) sen
 | Articolo | Meta, ruoli, autore, navigazione fondo, script «Leggi anche», correlati |
 | Categoria + forma | `getThemeLabel()` → megacluster + `localizeFormalType()`; `ArticleCard` allineata |
 | BaseLayout | `pathname` → Header/Footer |
-| **Breadcrumb JSON-LD** | Primo step = `nav_archive` localizzato + URL `/blog/en` o `/archivio` (allineato alla UI) |
+| **Breadcrumb JSON-LD** | Primo step = `nav_archive` localizzato + URL `/en` o `/archivio` (allineato alla UI) |
 | Keystatic | `format.data: 'yaml'` (API Keystatic; prima `frontmatter` invalido → `tsc` rosso) |
 | Smoke | `scripts/smoke-i18n.mjs`; CI legge **`vars.SMOKE_BASE_URL`** poi **`secrets.SMOKE_BASE_URL`** |
 | Tooling | Fix `generate_audit_migrazione.js`; `tsconfig` exclude `scripts` |
@@ -29,7 +29,7 @@ Obiettivo: pagine EN coerenti (chrome, badge categoria/forma, meta, JSON-LD) sen
    $env:SMOKE_BASE_URL = "http://localhost:PORT"
    npm run test:smoke
    # opzionale:
-   $env:SMOKE_EN_ARTICLE = "/blog/…-en/"
+   $env:SMOKE_EN_ARTICLE = "/en/…-en/"
    npm run test:smoke
    ```
 3. `npm run build`
@@ -48,6 +48,14 @@ Obiettivo: pagine EN coerenti (chrome, badge categoria/forma, meta, JSON-LD) sen
 
 - **Contenuto** degli articoli (titolo/corpo): lingua del pezzo, non della shell.
 - **Directus 401** in locale: token / `.dev.vars`.
+
+---
+
+## Nota correlati (fonte vs build artifact)
+
+- Fonte editoriale/versionata: `src/data/correlati.json`.
+- Copia runtime servita dal sito: `public/correlati.json` (generata in `prebuild`).
+- Uso in pagina articolo: la route SSR legge `/correlati.json` per popolare box nel corpo e correlati in calce.
 
 ---
 
