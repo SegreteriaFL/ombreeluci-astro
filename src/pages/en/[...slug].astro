@@ -1,0 +1,11 @@
+---
+export const prerender = false;
+
+/**
+ * Route canonica articoli EN.
+ * Riusa il renderer SSR già consolidato di /blog/[...slug].
+ */
+import BlogArticlePage from '../blog/[...slug].astro';
+---
+
+<BlogArticlePage />

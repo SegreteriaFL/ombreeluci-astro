@@ -32,6 +32,12 @@ if (!articolo) {
   return new Response('Not found', { status: 404 });
 }
 
+// Fase 2 routing: gli articoli EN canonici vivono su /en/<slug>.
+// Manteniamo /blog/<slug> come legacy entrypoint con redirect permanente.
+if (articolo.lang === 'en' && Astro.url.pathname.startsWith('/blog/')) {
+  return Astro.redirect(`/en/${articolo.slug}`, 301);
+}
+
 // Cache-Control: edge cache 1h (evita stale 404 in caso di downtime),
 // browser/CDN può servire stale fino a 24h durante revalidazione in background.
 Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
@@ -272,7 +278,9 @@ const currentSlug = articolo.slug;
 
 // articolo_traduzione è già nel payload di getArticoloBySlug — nessuna query extra
 const alternateItem = articolo.articolo_traduzione ?? null;
-const alternateArticleUrl = alternateItem ? `/blog/${alternateItem.slug}` : null;
+const alternateArticleUrl = alternateItem
+  ? (alternateItem.lang === 'en' ? `/en/${alternateItem.slug}` : `/blog/${alternateItem.slug}`)
+  : null;
 
 // ── wpIdToSlugMap — solo dai correlati (per link enrichment client-side) ────────
 
@@ -297,7 +305,7 @@ for (const a of correlatiArticoli) {
     title: a.titolo,
     image: imgUrl,
     excerpt: a.sottotitolo?.trim() || null,
-    href: `/blog/${a.slug}`,
+    href: a.lang === 'en' ? `/en/${a.slug}` : `/blog/${a.slug}`,
     category,
     lang,
     isItalian,
@@ -390,7 +398,7 @@ const relatedArticles = (() => {
       "@type": "BreadcrumbList",
       "itemListElement": (() => {
         const site = 'https://ombreeluci.it';
-        const archiveHref = locale === 'en' ? `${site}/blog/en` : `${site}/archivio`;
+        const archiveHref = locale === 'en' ? `${site}/en` : `${site}/archivio`;
         const items: Record<string, unknown>[] = [
           {
             "@type": "ListItem",
@@ -423,7 +431,7 @@ const relatedArticles = (() => {
     <div class="article-container">
       {/* Breadcrumbs */}
       <nav class="breadcrumbs">
-        <a href={locale === 'en' ? '/blog/en' : '/archivio'}>{t(locale, 'nav_archive')}</a>
+        <a href={locale === 'en' ? '/en' : '/archivio'}>{t(locale, 'nav_archive')}</a>
         {issueNumber && (
           <>
             {' > '}
@@ -671,7 +679,7 @@ const relatedArticles = (() => {
           <a href={pdfUrl} target="_blank" rel="noopener noreferrer" class="widget-link">{t(locale, 'widget_download_pdf')}</a>
         ) : null}
         {issueLink ? <a href={issueLink} class="widget-link">{t(locale, 'widget_go_to_issue')}</a> : null}
-        <a href={locale === 'en' ? '/blog/en' : '/archivio'} class="widget-link">{t(locale, 'nav_archive')}</a>
+        <a href={locale === 'en' ? '/en' : '/archivio'} class="widget-link">{t(locale, 'nav_archive')}</a>
       </div>
 
 
@@ -719,7 +727,7 @@ Slug: {articolo.slug}
       </details>
 
       <section class="article-nav-section" aria-label={t(locale, 'aria_article_bottom_nav')}>
-        <a href={locale === 'en' ? '/blog/en' : '/'} class="back-link">← {t(locale, 'back_to_home')}</a>
+        <a href={locale === 'en' ? '/en' : '/'} class="back-link">← {t(locale, 'back_to_home')}</a>
       </section>
     </div>
     </main>
@@ -937,7 +945,10 @@ Slug: {articolo.slug}
           if (wpMatch) {
             const wpId = parseInt(wpMatch[1]);
             const slug = wpIdToSlugMap[wpId];
-            if (slug) link.setAttribute('href', `/blog/${slug}`);
+            if (slug) {
+              var isEnSlug = /-en$/.test(slug) || String((meta && meta.lang) || '').toLowerCase() === 'en';
+              link.setAttribute('href', isEnSlug ? `/en/${slug}` : `/blog/${slug}`);
+            }
           }
 
           try {

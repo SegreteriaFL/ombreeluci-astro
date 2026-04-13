@@ -1,7 +1,7 @@
 ---
 /**
  * LanguageSelector – switch IT | EN stile fedeeluce.it.
- * Se siamo su un articolo e esiste la versione nell'altra lingua (stesso wp_id), il link punta lì; altrimenti / (IT) o /blog/en (EN).
+ * Se siamo su un articolo e esiste la versione nell'altra lingua (stesso wp_id), il link punta lì; altrimenti / (IT) o /en (EN).
  */
 import { getLangFromUrl, t } from '../utils/i18n';
 
@@ -16,7 +16,7 @@ const { pathname, alternateArticleUrl = null, lang: langProp } = Astro.props;
 const lang = langProp ?? getLangFromUrl(pathname);
 
 const hrefIt = lang === 'en' && alternateArticleUrl ? alternateArticleUrl : '/';
-const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/blog/en';
+const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/en';
 ---
 
 <div class="lang-selector" aria-label={t(lang, 'aria_lang_selector')}>
