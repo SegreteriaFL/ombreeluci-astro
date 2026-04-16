@@ -32,6 +32,13 @@ if (!articolo) {
   return new Response('Not found', { status: 404 });
 }
 
+// Fase 2 i18n: gli articoli EN hanno ora URL canonico /en/[slug-senza-en]/.
+// Il middleware li reindirizza prima di arrivare qui; questo guard è un fallback sicuro.
+if (articolo.lang === 'en') {
+  const enUrlSlug = slug.endsWith('-en') ? slug.slice(0, -3) : slug;
+  return Astro.redirect(`/en/${enUrlSlug}/`, 301);
+}
+
 // Cache-Control: edge cache 1h (evita stale 404 in caso di downtime),
 // browser/CDN può servire stale fino a 24h durante revalidazione in background.
 Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
@@ -272,7 +279,12 @@ const currentSlug = articolo.slug;
 
 // articolo_traduzione è già nel payload di getArticoloBySlug — nessuna query extra
 const alternateItem = articolo.articolo_traduzione ?? null;
-const alternateArticleUrl = alternateItem ? `/blog/${alternateItem.slug}` : null;
+// Fase 2 i18n: se il counterpart è EN, punta al nuovo URL canonico /en/[slug-senza-en].
+const alternateArticleUrl = alternateItem
+  ? alternateItem.lang === 'en'
+    ? `/en/${alternateItem.slug.endsWith('-en') ? alternateItem.slug.slice(0, -3) : alternateItem.slug}`
+    : `/blog/${alternateItem.slug}`
+  : null;
 
 // ── wpIdToSlugMap — solo dai correlati (per link enrichment client-side) ────────
 

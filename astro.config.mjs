@@ -48,5 +48,7 @@ export default defineConfig({
     '/chi-siamo/collaboratori': '/chi-siamo#collaboratori',
     '/chi-siamo/hanno-scritto-per-noi': '/chi-siamo#hanno-scritto-per-noi',
     '/chi-siamo/contatti': '/chi-siamo#contatti',
+    // Fase 2 i18n: /blog/en → /en/ (vecchio indice EN)
+    '/blog/en': '/en/',
   },
 });

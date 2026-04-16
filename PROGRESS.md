@@ -1,7 +1,38 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-09 (sessione i18n Fase 0 chiusa + Backfill traduzioni)
+**Ultimo aggiornamento:** 2026-04-13 (allineamento staging redazione + stato branch/main)
 **Stato:** Stack Astro+Directus attivo su staging — output:hybrid, blog SSR on-demand con edge cache CF. WordPress su Aruba resta online fino al cutover DNS finale.
+
+---
+
+## Stato ufficiale (2026-04-13)
+
+Questa sezione sostituisce eventuali riassunti parziali in chat.
+
+### 1) Cosa e' live su staging principale (`main`)
+
+- `63452786` — ripristino box revisione editoriale visibile + correzione social share bar.
+- `e3330693` — correzione layout social rail desktop.
+- `0a803168` — social rail ancorata al bordo sinistro viewport (desktop), mobile invariato.
+
+**Impatto operativo:** la redazione puo' continuare a lavorare su staging con box ruolo editoriale visibile mentre il resto del lavoro resta su branch.
+
+### 2) Cosa resta su branch (`feat/i18n-shell`)
+
+- i18n shell/articolo/SEO (Fase 0+1) e fix collegati.
+- fallback correlati robusto (`b7ab75d1`) e altre modifiche non ancora promosse su `main`.
+
+### 3) Regola di test (evita falsi negativi)
+
+- **Per validazione finale redazione usare solo:** `https://ombreeluci-staging.pages.dev` (deploy da `main`).
+- I preview hash `*.ombreeluci-staging.pages.dev` sono utili per branch testing ma non sono fonte unica di verita' per SSR/runtime.
+
+### 4) Prossimo flusso consigliato
+
+1. Proseguire sviluppo su `feat/i18n-shell`.
+2. Quando il pacchetto e' stabile, merge verso `main`.
+3. Attendere deploy CF verde.
+4. Eseguire smoke finale su staging principale.
 
 ---
 
@@ -80,13 +111,35 @@ Un task di tipo "rullo articoli" (lista filtrata di articoli) è **completo** qu
 
 I 7 ambigui e 11 no-match vanno revisionati manualmente dal CSV (slug EN → slug IT da collegare in Directus).
 
-#### Prossimo step: Fase 2 — Routing `/en/`
+#### Fase 2 — Routing `/en/`: COMPLETATA ✅ (2026-04-16)
 
-Come da `docs/I18N_MASTER_PLAN.md` §5 Fase 2:
-1. Introdurre route `/en/...` con redirect 301 da `/blog/*-en/` → `/en/*/`
-2. Canonical per lingua + hreflang reciproci
-3. Sitemap EN (`/sitemap-en.xml`)
-4. Smoke test SEO con Screaming Frog su staging (gate F2 misurabili)
+| Task | Cosa | Stato |
+|------|------|-------|
+| F2-1 | `src/pages/en/[slug].astro` — route SSR EN, locale forzato, 404 se lang≠en, canonical `/en/[slug]/`, hreflang, `noindex:false` | ✅ |
+| F2-2 | `src/pages/en/index.astro` — index EN a `/en/` con ArticleCard `basePath="/en"` | ✅ |
+| F2-3 | `src/middleware.ts` — regex `/blog/([^/]+)-en/` → `/en/$1/` (301) prima delle regole legacy | ✅ |
+| F2-4 | `astro.config.mjs` — redirect `/blog/en` → `/en/` | ✅ |
+| F2-5 | `blog/[...slug].astro` — `alternateArticleUrl` EN punta a `/en/[slug-senza-en]`; guard 301 se articolo.lang==='en' | ✅ |
+| F2-6 | `src/pages/sitemap-en.xml.ts` — sitemap EN con tutti gli articoli a `/en/[slug]/` | ✅ |
+| F2-7 | `ArticleCard.astro` — prop `basePath` opzionale (default `/blog`) | ✅ |
+| GATE | `npm run build` verde + `tsc --noEmit` pulito | ✅ |
+
+**Decisione slug EN:** URL = `/en/il-progetto-dandelion/` (suffisso `-en` rimosso dall'URL, mantenuto solo nel DB Directus). La route `en/[slug].astro` ricostruisce il Directus slug aggiungendo `-en`. Convenzione stabile su tutti i 131 articoli EN esistenti.
+
+**Redirect matrix EN:**
+- `/blog/foo-en/` → 301 → `/en/foo/` (middleware, copertura automatica su tutti gli slug `-en`)
+- `/blog/en` → 301 → `/en/` (astro.config.mjs)
+- Fallback: se un articolo EN arriva a `blog/[...slug].astro`, guard 301 → `/en/[slug]/`
+
+**Prossimo step: smoke test SEO (gate F2 misurabili)**
+1. Merge `feat/i18n-shell` → `main` + push
+2. Attendere deploy CF Pages verde
+3. Smoke test su staging:
+   - `curl -I https://ombreeluci-staging.pages.dev/blog/il-progetto-dandelion-en/` → deve essere 301 → `/en/il-progetto-dandelion/`
+   - `curl -I https://ombreeluci-staging.pages.dev/en/il-progetto-dandelion/` → 200 con HTML articolo EN
+   - `curl -I https://ombreeluci-staging.pages.dev/blog/en` → 301 → `/en/`
+   - `curl https://ombreeluci-staging.pages.dev/sitemap-en.xml` → HTTP 200, URL `/en/` nel file
+4. Screaming Frog su staging (gate F2 completi): zero redirect loop, hreflang reciproco IT↔EN, zero catene >1 hop
 
 **Prerequisito smoke test F1** (prima di avviare F2): aprire su staging 3 articoli EN → verificare shell lingua, switcher IT↔EN funzionante (40 nuovi link attivi), commenti EN, badge categoria slug→label EN.
 

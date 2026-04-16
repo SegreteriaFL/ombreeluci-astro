@@ -18,7 +18,8 @@ const {
   horizontal = false,
   sottotitolo = null,
   authorImage = null,
-  hideImage = false
+  hideImage = false,
+  basePath = '/blog',
 } = Astro.props as {
   title: string;
   author: string;
@@ -34,6 +35,8 @@ const {
   sottotitolo?: string | null;
   authorImage?: string | null;
   hideImage?: boolean;
+  /** Base path per il link articolo. Default: '/blog'. Usare '/en' per la sezione EN. */
+  basePath?: string;
 };
 const hasIssue = issue != null && String(issue).trim() !== '';
 const imageSrc = (!hideImage && image) ? image : (!hideImage ? getPlaceholder(slug ?? title ?? '').src : null);
@@ -71,7 +74,7 @@ const authorLinkSlug = authorSlug(author);
 ---
 
 <div class={`article-card${horizontal ? ' article-card--horizontal' : ''}`}>
-  <a href={`/blog/${slug}`} class="article-link">
+  <a href={`${basePath}/${slug}`} class="article-link">
     {imageSrc && (
       <div class="article-image-wrap">
         <img
