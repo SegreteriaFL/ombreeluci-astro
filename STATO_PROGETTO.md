@@ -1,6 +1,25 @@
 # Stato Progetto Ombre e Luci — Astro
 
-**Ultimo aggiornamento:** 20 marzo 2026
+> ⚠️ **Documento storico (legacy snapshot).**
+> Per lo stato corrente e le decisioni attive usare:
+> - `PROGRESS.md` (stato operativo)
+> - `docs/I18N_MASTER_PLAN.md` (architettura i18n ufficiale)
+> - `TRADUZIONI.md` (pipeline traduzioni AI)
+
+**Ultimo aggiornamento:** 13 aprile 2026 (allineamento con stato reale deploy)
+
+---
+
+## Stato attuale: storico (fare riferimento a PROGRESS)
+
+### Allineamento rapido 2026-04-13
+
+- Deploy operativo per redazione promosso su `main` con fix UI articolo:
+  - `63452786` (box ruolo editoriale visibile + primo fix share bar)
+  - `e3330693` (layout share rail)
+  - `0a803168` (share rail a bordo sinistro viewport)
+- Lavoro i18n piu' ampio e in corso resta su branch `feat/i18n-shell` (fonte ufficiale: `PROGRESS.md`).
+- Per verifiche funzionali usare `https://ombreeluci-staging.pages.dev` e non i preview hash branch.
 
 ---
 

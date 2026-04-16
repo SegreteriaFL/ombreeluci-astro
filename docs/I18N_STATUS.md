@@ -1,6 +1,7 @@
 # Stato i18n UI (IT / EN) — rotta e verifiche
 
-**Tranche i18n shell + articolo + SEO breadcrumb:** **chiusa** (2026-04-10).
+**Tranche i18n shell + articolo + SEO breadcrumb:** **chiusa** (2026-04-10).  
+**Nota operativa (2026-04-13):** fix urgenti redazione (box ruolo + share rail articolo) promossi su `main`; restante pacchetto i18n continua su `feat/i18n-shell` e verra' mergeato a fine ciclo.
 
 Obiettivo: pagine EN coerenti (chrome, badge categoria/forma, meta, JSON-LD) senza residui IT nei controlli automatici; build e `tsc` verdi.
 
@@ -55,3 +56,16 @@ Obiettivo: pagine EN coerenti (chrome, badge categoria/forma, meta, JSON-LD) sen
 
 - Architettura i18n: `docs/I18N_MASTER_PLAN.md` (se presente), `TRADUZIONI.md`, `PROGRESS.md`.
 - Snapshot storico progetto: `STATO_PROGETTO.md` (legacy).
+
+---
+
+## Stato branch/deploy (fonte unica)
+
+- **Staging principale (da `main`)**: `https://ombreeluci-staging.pages.dev`
+- **Branch di lavoro i18n**: `feat/i18n-shell`
+- **Commit main per sblocco redazione**:
+  - `63452786`
+  - `e3330693`
+  - `0a803168`
+
+Usare i preview hash `*.pages.dev` solo per test di branch; per validazione editoriale finale fare sempre riferimento allo staging principale.

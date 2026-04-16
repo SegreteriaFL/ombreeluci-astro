@@ -930,12 +930,25 @@ const archivioLinks = [
 </style>
 
 <script>
-  // ---- Mobile search toggle ----
-  (function () {
+  let headerChromeAbort: AbortController | null = null;
+
+  function initHeaderChrome() {
+    headerChromeAbort?.abort();
+    const ac = new AbortController();
+    headerChromeAbort = ac;
+    const { signal } = ac;
+
     const btn = document.getElementById('mobile-search-btn');
     const overlay = document.getElementById('mobile-search-overlay');
     const input = document.getElementById('mobile-search-input') as HTMLInputElement | null;
+    const trigger = document.getElementById('menu-trigger');
+    const megaMenu = document.getElementById('mega-menu');
+
     let searchOpen = false;
+    let isOpen = false;
+
+    const labelClose = trigger?.getAttribute('data-label-close') || 'Close menu';
+    const labelOpen = trigger?.getAttribute('data-label-open') || 'Open menu';
 
     function openSearch() {
       searchOpen = true;
@@ -950,29 +963,6 @@ const archivioLinks = [
       overlay?.setAttribute('aria-hidden', 'true');
       btn?.setAttribute('aria-expanded', 'false');
     }
-
-    btn?.addEventListener('click', () => {
-      searchOpen ? closeSearch() : openSearch();
-    });
-
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && searchOpen) closeSearch();
-    });
-
-    // Close when mega-menu opens
-    document.getElementById('menu-trigger')?.addEventListener('click', () => {
-      if (searchOpen) closeSearch();
-    });
-  })();
-
-  // ---- Mega-menu toggle ----
-  (function () {
-    const trigger = document.getElementById('menu-trigger');
-    const megaMenu = document.getElementById('mega-menu');
-    let isOpen = false;
-
-    const labelClose = trigger?.getAttribute('data-label-close') || 'Close menu';
-    const labelOpen = trigger?.getAttribute('data-label-open') || 'Open menu';
 
     function openMenu() {
       if (isOpen) return;
@@ -996,25 +986,47 @@ const archivioLinks = [
       isOpen ? closeMenu() : openMenu();
     }
 
-    function handleClickOutside(e) {
+    function handleClickOutside(e: Event) {
       if (!isOpen) return;
-      const target = e.target;
+      const target = e.target as Node | null;
+      if (!target) return;
       if (megaMenu?.contains(target) || trigger?.contains(target)) return;
       closeMenu();
     }
 
-    trigger?.addEventListener('click', toggleMenu);
+    btn?.addEventListener(
+      'click',
+      () => {
+        searchOpen ? closeSearch() : openSearch();
+      },
+      { signal }
+    );
 
-    document.addEventListener('keydown', function onKeydown(e) {
-      if (e.key === 'Escape' && isOpen) {
-        closeMenu();
-      }
-    });
+    trigger?.addEventListener(
+      'click',
+      () => {
+        if (searchOpen) closeSearch();
+        toggleMenu();
+      },
+      { signal }
+    );
 
-    document.addEventListener('click', handleClickOutside, true);
+    document.addEventListener(
+      'keydown',
+      (e) => {
+        if (e.key === 'Escape' && searchOpen) closeSearch();
+        if (e.key === 'Escape' && isOpen) closeMenu();
+      },
+      { signal }
+    );
+
+    document.addEventListener('click', handleClickOutside, { capture: true, signal });
 
     megaMenu?.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => closeMenu());
+      link.addEventListener('click', () => closeMenu(), { signal });
     });
-  })();
+  }
+
+  document.addEventListener('astro:page-load', initHeaderChrome);
+  initHeaderChrome();
 </script>
