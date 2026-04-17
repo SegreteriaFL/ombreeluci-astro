@@ -342,12 +342,148 @@ I 7 ambigui e 11 no-match vanno revisionati manualmente dal CSV (slug EN → slu
 | UX-02 | ✅ Fatto | **Mobile: rifinitura round 2** — Completato 2026-04-03. Analisi sistematica di tutte le pagine; modifiche mirate solo dove mancavano breakpoint. Pagine già OK senza intervento: `autori/index.astro` (600px copre mobile), `cerca.astro` (usa `.container` globale), `sostienici.astro` (cards già 1col), `archivio/index.astro` (già completo), `404.astro` (già completo). Interventi effettuati: `diari.astro` — aggiunti 768px e 480px (padding hub, margini sezioni); `autori/[slug].astro` — aggiunto 480px (author-name 1.5rem, header padding ridotto, articles-section margin ridotto); `chi-siamo/index.astro` — aggiunto 480px (sezioni compattate, h2 ridotto). Regola confermata: zero duplicazioni, zero stili custom per utility già coperte da `.container`. |
 | US-08 | ✅ Fatto | **Info testata numero rivista** — Completato 2026-04-04. `IssueCard.astro` riformattato: titolo "Numero {N} – {titolo}", meta "Ott-Dic 2025 · Anno 42 · IV". `anno_rivista` calcolato a build-time (OEL: anno-1983; INS: anno-1977). `numero_in_anno` da `(n-1) % 4 + 1` → romano. `abbreviaPeriodo()` abbrevia nomi mese. `periodo_label` aggiunto a interfaccia TS e query `getAllNumeriRivista`. Per popolare `periodo_label` su tutti i numeri storici in Directus: vedi script da scrivere. |
 | I18N-01 | L | **Sistema i18n globale** — piano ufficiale: [`docs/I18N_MASTER_PLAN.md`](docs/I18N_MASTER_PLAN.md). Esecuzione per fasi: F0 (categorie) → F1 (shell/switcher) → F2 (routing /en/) → batch traduzioni. |
+| URL-01 | M-A | **Migrazione URL articoli IT: rimozione `/blog/`** — Obiettivo: URL canonici IT passano da `/blog/[slug]` a `/[slug]`. SEO-critical. **Branch dedicato obbligatorio** (`feat/url-root-articles`). Non mescolare con altri cambi di routing. Dettagli e checklist: vedi sezione `### URL-01` sotto. |
 | DA-06 | L | **Pipeline traduzione AI IT→EN** — ~3265 articoli target. ⛔ **BLOCCATA** fino a gate F0+F1+F2+approvazione §3 TRADUZIONI.md. Dettagli: [`TRADUZIONI.md`](TRADUZIONI.md). |
 | DA-00 | ✅ Fatto | **Immagini inline corpo articoli** — 259 immagini su 144 articoli migrate su R2 (`corpo/`), src aggiornati in Directus. WordPress può essere spento senza rompere le immagini inline. |
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
 | WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
 | ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — Completato 2026-04-03. Blog SSR on-demand, bundle 107KB, Cache-Control s-maxage=86400. Tutti i gate verdi. Merge su main `7bf69d0d`. Directus Flow webhook configurata e verificata 2026-04-04: salvataggio UI → purge CF entro secondi. |
 | — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale. Prerequisiti: tutti i pre-lancio completati + validazione staging ok. |
+
+### URL-01 — Migrazione URL articoli IT: rimozione `/blog/`
+
+> **STATO: ⏳ Backlog pre-lancio** — non iniziata. Fare su branch `feat/url-root-articles`, mai su `main` direttamente.
+>
+> **Complessità: MEDIA-ALTA.** È una migrazione URL SEO-critical, non un semplice search/replace. Va trattata come tale: redirect map a hop singolo, nessuna catena, smoke + crawl obbligatori prima del merge.
+
+#### Decisione e motivazione
+
+Obiettivo: gli articoli italiani passano da `/blog/[slug]/` a `/[slug]/` (root-level).
+Motivo: URL più puliti, coerenza con il pattern EN (`/en/[slug]/`), riduzione di un livello di gerarchia non semantico.
+
+Da fare **prima del cutover DNS** — se fatta dopo, i redirect legacy vanno toccati una seconda volta.
+
+#### Perimetro completo (cosa toccare)
+
+| # | File / area | Tipo di modifica |
+|---|---|---|
+| 1 | `src/pages/blog/[...slug].astro` | Rinominare/spostare route (vedi nota routing sotto) |
+| 2 | `src/pages/sitemap.xml.ts:46` | Template literal `/blog/${slug}` → `/${slug}` |
+| 3 | `src/components/ArticleCard.astro:22` | `basePath = '/blog'` default → `basePath = ''` |
+| 4 | `src/components/ArticoliRullo.astro:166` | Link href hardcoded |
+| 5 | `src/components/ArticleListRow.astro`, `DiarioArticleRow.astro`, `LeggiAnche.astro` | Href hardcoded (1 riga ciascuno) |
+| 6 | `src/pages/newsletter.astro`, `test-*.astro`, `debug/` | Href hardcoded banali |
+| 7 | `src/pages/en/[slug].astro` | `alternateArticleUrl` IT: `/blog/${itSlug}` → `/${itSlug}` |
+| 8 | `src/middleware.ts` | Regex date-based `/YYYY/MM/DD/slug` → `/${slug}` (non più `/blog/${slug}`) |
+| 9 | `src/data/redirects-legacy.json` (1001 entry) | Target `/blog/...` → `/...` (rigenera con script) |
+| 10 | `cf-worker/redirect-worker.js` (REDIRECTS object) | Stesso aggiornamento del JSON legacy |
+| 11 | `src/pages/api/revalidate.ts:64` | `articleUrl = .../blog/${slug}/` → `.../${slug}/` |
+| 12 | Script client-side in `blog/[...slug].astro` | Eventuali rewrite JS verso `/blog/${slug}` |
+| 13 | **Aggiungere** 301 bulk `/blog/*` → `/*` | Middleware + Worker (ordine dopo regole EN) |
+
+#### Blocker routing: conflitto con `[diario].astro`
+
+`src/pages/[diario].astro` è già una route dinamica a root level.  
+Introdurre `src/pages/[slug].astro` crea **due route dinamiche allo stesso livello** — conflitto Astro.
+
+**Soluzione**: non usare `[slug].astro`. Invece:
+- Rinominare il file `blog/[...slug].astro` in `blog/[slug].astro` (segmento singolo, tutti gli slug IT sono piatti)
+- **Mantenere il prefisso directory `blog/`** ma aggiungere redirect permanente 301 `/blog/[slug]` → `/[slug]`
+- Oppure: valutare se `[diario].astro` può essere assorbita in una route named `/diario/[slug]` — semplificherebbe il routing complessivo (decisione separata, non blocca URL-01)
+
+> Prima di aprire il branch, definire esattamente quale strategia di route si adotta e verificare che Astro non generi conflitti con `build`. Gate: `npm run build` verde senza warning di route duplicate.
+
+#### Redirect map: hop singolo obbligatorio
+
+Obiettivo: ogni URL vecchio arriva alla destinazione finale in **1 solo hop**.
+
+| URL sorgente | Destinazione finale | Via |
+|---|---|---|
+| `/blog/[slug]/` | `/[slug]/` | 301 middleware + Worker |
+| `/YYYY/MM/DD/[slug]/` | `/[slug]/` | 301 middleware + Worker (non più via `/blog/`) |
+| legacy JSON `/blog/[slug]/` | `/[slug]/` | Aggiornare target direttamente (no catena) |
+| `/blog/[slug]-en/` | `/en/[slug]/` | 301 già esistente — **non toccare** |
+| `/blog/en` | `/en/` | 301 già esistente — **non toccare** |
+
+⚠️ **Anti-pattern da evitare:** lasciare i 1001 legacy a `/blog/...` e aggiungere `/blog/*` → `/*`. Creerebbe catena 2 hop. I target legacy vanno aggiornati direttamente a `/${slug}/`.
+
+#### Cache/revalidate
+
+`src/pages/api/revalidate.ts` costruisce l'URL da purgare come `https://ombreeluci.it/blog/${slug}/`. Va aggiornato a `https://ombreeluci.it/${slug}/`.
+
+Durante la transizione (se si fa il cutover DNS mentre ancora esistono cache su `/blog/`): purgare sia il vecchio che il nuovo URL nella stessa richiesta (temporaneo, rimuovere dopo stabilizzazione).
+
+#### Checklist operativa (10 passi, gate pass/fail)
+
+```
+[ ] 1. BRANCH
+        git checkout -b feat/url-root-articles
+        freeze altri cambi routing su main finché non chiudi
+
+[ ] 2. DECISIONE ROUTE (pre-coding)
+        Scegli strategia senza conflitti con [diario].astro
+        Verifica: npm run build → zero warning route duplicate
+
+[ ] 3. CANONICAL E ALTERNATES
+        IT canonical: https://ombreeluci.it/<slug>/
+        EN alternate IT: punta a /<it-slug>/ (non /blog/...)
+        hreflang reciproci IT↔EN corretti
+
+[ ] 4. LINK INTERNI (tutti i 13 punti del perimetro)
+        Aggiorna href hardcoded in componenti/pagine/script client-side
+        Aggiorna ArticleCard default basePath
+        Aggiorna api/revalidate.ts
+
+[ ] 5. SITEMAP
+        sitemap.xml IT: URL root /<slug>/
+        sitemap-en.xml: invariato /en/[slug]/ — verifica hreflang reciproco
+
+[ ] 6. REDIRECT 301 BULK (single-hop)
+        Aggiungi /blog/<slug>/ → /<slug>/ in middleware E in Worker
+        Ordine regole: EN (-en suffix) → bulk /blog/* → date-based
+        Verifica: nessun loop, nessuna catena con regole EN esistenti
+
+[ ] 7. LEGACY JSON + WORKER (1001 entry)
+        Script: aggiorna target redirects-legacy.json da /blog/... a /...
+        Rigenera oggetto REDIRECTS in cf-worker/redirect-worker.js
+        Verifica: grep -c '/blog/' redirects-legacy.json → 0
+
+[ ] 8. DATE-BASED REDIRECT
+        middleware.ts: /YYYY/MM/DD/slug → /${slug}/ (non più /blog/)
+        Worker: stessa modifica (coerenza tra i due layer)
+        Testa con 3 URL reali WP storici
+
+[ ] 9. CACHE/REVALIDATE
+        api/revalidate.ts: URL purge aggiornato a /${slug}/
+        (Opzionale transizione) purga anche /blog/${slug}/ durante cutover
+
+[10] GATE FINALI — non fare merge senza tutti verdi
+        npm run build + tsc --noEmit: zero errori
+        Smoke curl su staging (verificare Status + Location header):
+          /blog/[slug]/           → 301 → /[slug]/
+          /[slug]/                → 200
+          /YYYY/MM/DD/[slug]/     → 301 → /[slug]/  (singolo hop)
+          /en/[slug]/             → 200
+          /blog/[slug]-en/        → 301 → /en/[slug]/
+          /sitemap.xml            → 200, URL /[slug]/
+          /sitemap-en.xml         → 200, URL /en/[slug]/
+          hreflang IT→EN e EN→IT reciproci su 3 articoli
+        Crawl Screaming Frog su staging:
+          zero 404 inattesi
+          zero loop redirect
+          catene max 1 hop
+          canonical/hreflang corretti
+```
+
+#### Note finali
+
+- Branch `feat/url-root-articles` è il **solo** branch su cui fare questa migrazione.
+- Non mescolare con fix UI, contenuto, o altre feature.
+- PR dedicata con label `url-migration / seo-critical`.
+- Merge solo quando tutti i gate del passo 10 sono verdi su staging.
+- Coordinare con redazione: comunicare la data di switch (cambiano URL articoli bookmarkati).
+
+---
 
 ### ARCH-04 — Hybrid SSR + Directus webhook + CF edge cache
 
