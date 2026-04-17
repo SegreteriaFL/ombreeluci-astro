@@ -543,3 +543,42 @@ export async function getCommentiForArticolo(
   );
   return data?.data ?? [];
 }
+
+/**
+ * Tag per slug.
+ */
+export async function getTagBySlug(
+  tagSlug: string,
+  creds?: DirectusRuntimeCreds
+): Promise<TagRef | null> {
+  const params = new URLSearchParams({
+    'filter[slug][_eq]': tagSlug,
+    fields: 'id,slug,nome',
+    limit: '1',
+  });
+  const data = await directusFetch<{ data: TagRef[] }>(`/items/tags?${params}`, creds);
+  if (!data?.data?.length) return null;
+  return data.data[0];
+}
+
+/**
+ * Articoli pubblicati con un determinato tag (per slug).
+ * Ritorna ArticoloFull[] ordinati per data_pubblicazione decrescente.
+ */
+export async function getArticoliByTag(
+  tagSlug: string,
+  creds?: DirectusRuntimeCreds
+): Promise<ArticoloFull[]> {
+  const params = new URLSearchParams({
+    'filter[stato][_eq]': 'published',
+    'filter[tags][tags_id][slug][_eq]': tagSlug,
+    fields: ARTICOLO_LIST_FIELDS,
+    limit: '-1',
+    sort: '-data_pubblicazione',
+  });
+  const data = await directusFetch<{ data: ArticoloFull[] }>(
+    `/items/articoli?${params}`,
+    creds
+  );
+  return data?.data ?? [];
+}

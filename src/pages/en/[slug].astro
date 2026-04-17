@@ -617,6 +617,15 @@ const alternates: { lang: string; url: string }[] = [
           {corpoPart2 && <div set:html={corpoPart2} />}
         </div>
 
+        {/* Tags */}
+        {articolo.tags?.filter((t) => t.tags_id).length > 0 && (
+          <nav class="article-tags-list" aria-label="Tags">
+            {articolo.tags.filter((t) => t.tags_id).map((t) => (
+              <a href={`/tag/${t.tags_id.slug}`} class="article-tag-link">{t.tags_id.nome}</a>
+            ))}
+          </nav>
+        )}
+
         {/* Bio Autore */}
         <div class="author-bio-section">
           <div class="author-bio-wrapper">
@@ -1584,5 +1593,30 @@ const alternates: { lang: string; url: string }[] = [
         .related-footer-grid {
           grid-template-columns: minmax(0, 1fr);
         }
+      }
+
+      .article-tags-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 2.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border-color, #e5e5e5);
+      }
+
+      .article-tag-link {
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 999px;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        text-decoration: none;
+        transition: background 0.2s;
+      }
+
+      .article-tag-link:hover {
+        background: rgba(0, 0, 0, 0.1);
+        color: var(--accent-color);
       }
     </style>
