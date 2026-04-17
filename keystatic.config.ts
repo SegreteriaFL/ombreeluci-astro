@@ -14,7 +14,7 @@ export default config({
       slugField: 'title',
       path: 'src/content/blog/NUOVI/*',
       format: {
-        frontmatter: 'yaml',
+        data: 'yaml',
         contentField: 'content',
       },
       schema: {

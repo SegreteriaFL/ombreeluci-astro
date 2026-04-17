@@ -1,12 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getThemesWithSlugs } from '../config/taxonomy.js';
-import { getAllArticoli } from '../lib/directus';
+import { getAllArticoliBuild } from '../lib/articoli-build';
 
 const temi = getThemesWithSlugs().filter(t => t.nomeCompleto !== 'Personaggi che ispirano').slice(0, 8);
 
 // Newsletter precedenti: articoli con "newsletter" nello slug, ordine cronologico inverso
-const tuttiArticoli = await getAllArticoli();
+const tuttiArticoli = await getAllArticoliBuild();
 const newsletters = tuttiArticoli
   .filter(a => a.slug.toLowerCase().includes('newsletter'))
   .sort((a, b) => {

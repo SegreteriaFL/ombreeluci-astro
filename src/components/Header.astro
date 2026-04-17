@@ -2,7 +2,7 @@
 import logo from '../assets/logo.svg';
 import ultimoNumeroData from '../data/ultimo-numero.json';
 import { getThemesWithSlugs, getCategoriaLabel } from '../config/taxonomy.js';
-import { getLangFromUrl, t } from '../utils/i18n';
+import { getLangFromUrl, t, localizeIssuePeriodLabel } from '../utils/i18n';
 import LanguageSelector from './LanguageSelector.astro';
 
 interface Props {
@@ -75,7 +75,7 @@ const archivioLinks = [
 
       <div class="header-end">
         <LanguageSelector lang={lang} pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
-        <nav class="header-nav" aria-label="Servizi e utilità">
+        <nav class="header-nav" aria-label={t(lang, 'aria_header_utility')}>
           <a href="/chi-siamo" class:list={['header-link', { 'header-link--active': isActive('/chi-siamo') }]}>{t(lang, 'nav_about')}</a>
           <a href="/#newsletter" class="header-link">{t(lang, 'nav_newsletter')}</a>
         </nav>
@@ -122,7 +122,7 @@ const archivioLinks = [
     </form>
   </div>
 
-  <div class="mega-menu" id="mega-menu" role="dialog" aria-modal="true" aria-label="Menu di navigazione" aria-hidden="true">
+  <div class="mega-menu" id="mega-menu" role="dialog" aria-modal="true" aria-label={t(lang, 'aria_mega_menu')} aria-hidden="true">
     <div class="mega-menu-inner">
       <div class="mega-menu-container">
         <div class="mega-menu-grid">
@@ -189,7 +189,9 @@ const archivioLinks = [
                 <div class="last-issue-meta">
                   <p class="last-issue-label">{lang === 'en' ? 'Issue' : 'Numero'} {ultimoNumero.numero_progressivo ?? ''} · {ultimoNumero.anno_pubblicazione ?? ''}</p>
                   <h4 class="last-issue-title">{ultimoNumero.titolo_numero}</h4>
-                  {ultimoNumero.periodo_label && <p class="last-issue-period">{ultimoNumero.periodo_label}</p>}
+                  {ultimoNumero.periodo_label && (
+                    <p class="last-issue-period">{localizeIssuePeriodLabel(ultimoNumero.periodo_label, lang)}</p>
+                  )}
                   <a href="/sostienici" class="mega-menu-cta">{t(lang, 'nav_support')}</a>
                 </div>
               </div>
@@ -928,12 +930,25 @@ const archivioLinks = [
 </style>
 
 <script>
-  // ---- Mobile search toggle ----
-  (function () {
+  let headerChromeAbort: AbortController | null = null;
+
+  function initHeaderChrome() {
+    headerChromeAbort?.abort();
+    const ac = new AbortController();
+    headerChromeAbort = ac;
+    const { signal } = ac;
+
     const btn = document.getElementById('mobile-search-btn');
     const overlay = document.getElementById('mobile-search-overlay');
     const input = document.getElementById('mobile-search-input') as HTMLInputElement | null;
+    const trigger = document.getElementById('menu-trigger');
+    const megaMenu = document.getElementById('mega-menu');
+
     let searchOpen = false;
+    let isOpen = false;
+
+    const labelClose = trigger?.getAttribute('data-label-close') || 'Close menu';
+    const labelOpen = trigger?.getAttribute('data-label-open') || 'Open menu';
 
     function openSearch() {
       searchOpen = true;
@@ -948,29 +963,6 @@ const archivioLinks = [
       overlay?.setAttribute('aria-hidden', 'true');
       btn?.setAttribute('aria-expanded', 'false');
     }
-
-    btn?.addEventListener('click', () => {
-      searchOpen ? closeSearch() : openSearch();
-    });
-
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && searchOpen) closeSearch();
-    });
-
-    // Close when mega-menu opens
-    document.getElementById('menu-trigger')?.addEventListener('click', () => {
-      if (searchOpen) closeSearch();
-    });
-  })();
-
-  // ---- Mega-menu toggle ----
-  (function () {
-    const trigger = document.getElementById('menu-trigger');
-    const megaMenu = document.getElementById('mega-menu');
-    let isOpen = false;
-
-    const labelClose = trigger?.getAttribute('data-label-close') || 'Close menu';
-    const labelOpen = trigger?.getAttribute('data-label-open') || 'Open menu';
 
     function openMenu() {
       if (isOpen) return;
@@ -994,25 +986,47 @@ const archivioLinks = [
       isOpen ? closeMenu() : openMenu();
     }
 
-    function handleClickOutside(e) {
+    function handleClickOutside(e: Event) {
       if (!isOpen) return;
-      const target = e.target;
+      const target = e.target as Node | null;
+      if (!target) return;
       if (megaMenu?.contains(target) || trigger?.contains(target)) return;
       closeMenu();
     }
 
-    trigger?.addEventListener('click', toggleMenu);
+    btn?.addEventListener(
+      'click',
+      () => {
+        searchOpen ? closeSearch() : openSearch();
+      },
+      { signal }
+    );
 
-    document.addEventListener('keydown', function onKeydown(e) {
-      if (e.key === 'Escape' && isOpen) {
-        closeMenu();
-      }
-    });
+    trigger?.addEventListener(
+      'click',
+      () => {
+        if (searchOpen) closeSearch();
+        toggleMenu();
+      },
+      { signal }
+    );
 
-    document.addEventListener('click', handleClickOutside, true);
+    document.addEventListener(
+      'keydown',
+      (e) => {
+        if (e.key === 'Escape' && searchOpen) closeSearch();
+        if (e.key === 'Escape' && isOpen) closeMenu();
+      },
+      { signal }
+    );
+
+    document.addEventListener('click', handleClickOutside, { capture: true, signal });
 
     megaMenu?.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => closeMenu());
+      link.addEventListener('click', () => closeMenu(), { signal });
     });
-  })();
+  }
+
+  document.addEventListener('astro:page-load', initHeaderChrome);
+  initHeaderChrome();
 </script>

@@ -3,7 +3,7 @@
  * LanguageSelector – switch IT | EN stile fedeeluce.it.
  * Se siamo su un articolo e esiste la versione nell'altra lingua (stesso wp_id), il link punta lì; altrimenti / (IT) o /blog/en (EN).
  */
-import { getLangFromUrl } from '../utils/i18n';
+import { getLangFromUrl, t } from '../utils/i18n';
 
 interface Props {
   pathname: string;
@@ -19,7 +19,7 @@ const hrefIt = lang === 'en' && alternateArticleUrl ? alternateArticleUrl : '/';
 const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/blog/en';
 ---
 
-<div class="lang-selector" aria-label="Selezione lingua">
+<div class="lang-selector" aria-label={t(lang, 'aria_lang_selector')}>
   <a href={hrefIt} class="lang-link" class:list={[lang === 'it' && 'is-active']}>IT</a>
   <span class="lang-sep" aria-hidden="true">|</span>
   <a href={hrefEn} class="lang-link" class:list={[lang === 'en' && 'is-active']}>EN</a>

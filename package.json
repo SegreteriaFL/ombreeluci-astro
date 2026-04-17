@@ -10,7 +10,10 @@
     "prebuild": "node -e \"require('node:fs').copyFileSync('src/data/correlati.json','public/correlati.json')\"",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test": "npm run test:smoke",
+    "test:smoke": "node scripts/smoke-i18n.mjs",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^11.2.0",

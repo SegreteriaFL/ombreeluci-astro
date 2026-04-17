@@ -123,7 +123,7 @@ try {
 }
 
 const rawCsv = fs.readFileSync(CSV_V5_PATH, 'utf8');
-const lines = rawCsv.split(/\n').filter(Boolean);
+const lines = rawCsv.split('\n').filter(Boolean);
 const header = parseCSVLine(lines[0]);
 const idx = {
   id_articolo: header.indexOf('id_articolo'),

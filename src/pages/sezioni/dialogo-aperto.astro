@@ -5,10 +5,11 @@
  */
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticoliRullo from '../../components/ArticoliRullo.astro';
-import { getAllArticoli, getCategoriaDescrizione } from '../../lib/directus';
+import { getAllArticoliBuild } from '../../lib/articoli-build';
+import { getCategoriaDescrizione } from '../../lib/directus';
 
 const [allArticles, catMeta] = await Promise.all([
-  getAllArticoli(),
+  getAllArticoliBuild(),
   getCategoriaDescrizione('dialogo-aperto'),
 ]);
 const descrizione = catMeta?.descrizione

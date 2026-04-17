@@ -1,13 +1,19 @@
 ---
+import type { Locale } from '../utils/i18n';
+import { t } from '../utils/i18n';
+
 interface Props {
   wpId?: number | string | null;
   title: string;
   currentRole?: string | null;
   url: string;
   articoloId?: string | null;
+  /** Allinea testi staff al locale articolo (EN = DOM in inglese). */
+  lang?: Locale;
 }
 
-const { wpId, title, currentRole, url, articoloId } = Astro.props;
+const { wpId, title, currentRole, url, articoloId, lang: langProp } = Astro.props;
+const lang: Locale = langProp ?? 'it';
 const directusEditUrl = articoloId
   ? `https://cms.ombreeluci.it/admin/content/articoli/${articoloId}`
   : 'https://cms.ombreeluci.it/admin/content/articoli';
@@ -22,26 +28,32 @@ const directusEditUrl = articoloId
   class="directus-edit-btn"
   hidden
 >
-  ✏ Modifica in Directus
+  ✏ {t(lang, 'editorial_directus_edit')}
 </a>
 
-<aside class="editorial-feedback" aria-label="Box revisione editoriale" id="editorial-feedback-box">
+<aside class="editorial-feedback" aria-label={t(lang, 'editorial_aria')} id="editorial-feedback-box">
   <div class="editorial-feedback-header">
-    <span class="editorial-feedback-title">BOX REVISIONE EDITORIALE</span>
+    <span class="editorial-feedback-title">{t(lang, 'editorial_box_title')}</span>
   </div>
-  <form id="editorial-feedback-form" class="editorial-feedback-form">
+  <form
+    id="editorial-feedback-form"
+    class="editorial-feedback-form"
+    data-msg-sending={t(lang, 'editorial_sending')}
+    data-msg-sent={t(lang, 'editorial_sent')}
+    data-msg-error={t(lang, 'editorial_network_error')}
+  >
     <div class="editorial-feedback-row">
-      <label for="proposed_role" class="editorial-feedback-label">Ruolo proposto</label>
+      <label for="proposed_role" class="editorial-feedback-label">{t(lang, 'editorial_proposed_role')}</label>
       <select id="proposed_role" name="proposed_role" class="editorial-feedback-select">
-        <option value="">Nessun cambio</option>
-        <option value="portante">portante</option>
-        <option value="strutturale">strutturale</option>
-        <option value="laterale">laterale</option>
-        <option value="trasversale">trasversale</option>
+        <option value="">{t(lang, 'editorial_role_none')}</option>
+        <option value="portante">{t(lang, 'editorial_role_portante')}</option>
+        <option value="strutturale">{t(lang, 'editorial_role_strutturale')}</option>
+        <option value="laterale">{t(lang, 'editorial_role_laterale')}</option>
+        <option value="trasversale">{t(lang, 'editorial_role_trasversale')}</option>
       </select>
     </div>
     <div class="editorial-feedback-row">
-      <label for="notes" class="editorial-feedback-label">Note per la redazione</label>
+      <label for="notes" class="editorial-feedback-label">{t(lang, 'editorial_notes')}</label>
       <textarea id="notes" name="notes" class="editorial-feedback-textarea" rows={3}></textarea>
     </div>
     <input type="hidden" name="wp_id" value={wpId ?? ''} />
@@ -49,7 +61,7 @@ const directusEditUrl = articoloId
     <input type="hidden" name="current_role" value={currentRole ?? ''} />
     <input type="hidden" name="url" value={url} />
     <div class="editorial-feedback-row editorial-feedback-actions">
-      <button type="submit" class="editorial-feedback-submit">Invia</button>
+      <button type="submit" class="editorial-feedback-submit">{t(lang, 'editorial_submit')}</button>
       <p id="feedback-status" class="editorial-feedback-status" hidden></p>
     </div>
   </form>
@@ -92,6 +104,10 @@ const directusEditUrl = articoloId
     const form = document.getElementById('editorial-feedback-form') as HTMLFormElement | null;
     if (!form) return;
 
+    const msgSending = form.dataset.msgSending ?? '';
+    const msgSent = form.dataset.msgSent ?? '';
+    const msgError = form.dataset.msgError ?? '';
+
     // Clona per rimuovere eventuali listener precedenti (ViewTransitions)
     const fresh = form.cloneNode(true) as HTMLFormElement;
     form.replaceWith(fresh);
@@ -110,18 +126,18 @@ const directusEditUrl = articoloId
         url:           String(fd.get('url') ?? ''),
       });
 
-      if (freshStatus) { freshStatus.textContent = 'Invio in corso…'; freshStatus.hidden = false; }
+      if (freshStatus) { freshStatus.textContent = msgSending; freshStatus.hidden = false; }
       if (freshBtn) freshBtn.disabled = true;
 
       try {
         await fetch(`${ENDPOINT}?${qs.toString()}`, { mode: 'no-cors' });
         fresh.reset();
         if (freshStatus) {
-          freshStatus.textContent = '✓ Inviato!';
+          freshStatus.textContent = msgSent;
           setTimeout(() => { if (freshStatus) freshStatus.hidden = true; }, 4000);
         }
       } catch {
-        if (freshStatus) freshStatus.textContent = 'Errore di rete — riprova.';
+        if (freshStatus) freshStatus.textContent = msgError;
       } finally {
         if (freshBtn) setTimeout(() => { freshBtn.disabled = false; }, 3000);
       }

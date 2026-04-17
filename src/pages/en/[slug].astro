@@ -1,0 +1,767 @@
+---
+/**
+ * Route EN articoli: /en/[slug]
+ *
+ * Differenze rispetto a blog/[...slug].astro:
+ *   - locale forzato 'en'; 404 se article.lang !== 'en'
+ *   - canonical /en/[slug]/  (questi sono gli URL canonici EN)
+ *   - noindex: false  (URL canonici, non staging-only)
+ *   - alternateArticleUrl → /blog/[it-slug] (counterpart IT)
+ *   - pathname passato come /en/[slug] per nav/header/footer
+ *   - BreadcrumbList e nav link puntano a /en/
+ *   - ArticleCard correlati con basePath="/en"
+ *
+ * La route /blog/[slug-en]/ viene reindirizzata qui da middleware.ts
+ * con 301 per tutti gli slug che terminano in -en.
+ */
+export const prerender = false;
+
+import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getAutoreImageUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
+import { getPlaceholder } from '../../utils/placeholder';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EditorialFeedback from '../../components/EditorialFeedback.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
+import { t, localizeFormalType } from '../../utils/i18n';
+import autoriStats from '../../data/autori_stats.json';
+import LeggiAnche from '../../components/LeggiAnche.astro';
+import Commenti from '../../components/Commenti.astro';
+
+const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
+
+// ── SSR: fetch articolo on-demand ──────────────────────────────────────────────
+
+const creds = directusCredsFromAstroLocals(Astro.locals);
+// Il slug nell'URL NON include il suffisso '-en' (es. URL /en/il-progetto-dandelion/).
+// Il lookup Directus usa slug + '-en' (convenzione stabile su tutti i 131 articoli EN).
+const urlSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
+const directusSlug = urlSlug.endsWith('-en') ? urlSlug : `${urlSlug}-en`;
+
+let articolo;
+try {
+  articolo = await getArticoloBySlug(directusSlug, creds);
+} catch (e) {
+  console.error('[en/[slug].astro] fetch error:', e);
+  articolo = null;
+}
+
+// Questa route serve SOLO articoli EN.
+// Se l'articolo non esiste o non è EN → 404.
+if (!articolo || articolo.lang !== 'en') {
+  return new Response('Not found', { status: 404 });
+}
+
+// Cache-Control: coerente con la route IT (edge 1h, stale 24h).
+Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
+
+// Locale sempre 'en' su questa route.
+const locale = 'en' as const;
+const issueLabel = 'Issue';
+const badgeIssueAriaLabel = 'Category and issue';
+const shareLabelFacebook = 'Share on Facebook';
+const shareLabelX = 'Share on X (Twitter)';
+const shareLabelWhatsapp = 'Share on WhatsApp';
+const shareLabelLinkedin = 'Share on LinkedIn';
+const copyLinkLabel = 'Copy link';
+const copiedLinkLabel = 'Link copied!';
+
+// ── Fetch correlati.json a runtime (mai importato staticamente) ───────────────
+
+let correlatiMap: Record<string, string[]> = {};
+try {
+  const correlatiRes = await fetch(`${Astro.url.origin}/correlati.json`);
+  if (correlatiRes.ok) correlatiMap = await correlatiRes.json();
+} catch (e) {
+  console.warn('[en/[slug].astro] correlati.json fetch failed:', e);
+}
+
+const correlatiSlugsRaw: string[] = correlatiMap[articolo.slug] ?? [];
+
+// Correlati EN: solo articoli EN (isCurrentEn=true).
+let correlatiArticoli: ArticoloListItem[] = await getArticoliBySlugList(correlatiSlugsRaw.slice(0, 10), creds).catch(() => []);
+if (correlatiArticoli.length === 0) {
+  const preferred = await getFallbackRelatedArticles(
+    {
+      excludeSlug: articolo.slug,
+      lang: 'en',
+      categoriaMenu: articolo.categoria_menu ?? null,
+      limit: 4,
+    },
+    creds
+  ).catch(() => []);
+
+  correlatiArticoli = preferred;
+  if (correlatiArticoli.length === 0) {
+    correlatiArticoli = await getFallbackRelatedArticles(
+      {
+        excludeSlug: articolo.slug,
+        lang: 'en',
+        limit: 4,
+      },
+      creds
+    ).catch(() => []);
+  }
+}
+
+const correlatiSlugsEffective: string[] =
+  correlatiSlugsRaw.length > 0 ? correlatiSlugsRaw : correlatiArticoli.map((a) => a.slug);
+
+// ── Helper functions ───────────────────────────────────────────────────────────
+
+function formatDateItalian(date: Date, lang: 'it' | 'en' = 'it'): string {
+  return new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'it-IT', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  }).format(date);
+}
+
+function generateAuthorSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function generateIssueSlug(issueNumber: string): string {
+  return issueNumber.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+}
+
+function calculateReadingTimeFromHtml(html: string | null): number {
+  if (!html) return 3;
+  const textOnly = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const wordCount = textOnly.split(/\s+/).filter((w: string) => w.length > 0).length;
+  return Math.max(1, Math.ceil(wordCount / 200));
+}
+
+// ── Dati articolo ──────────────────────────────────────────────────────────────
+
+const articleTitle = articolo.titolo;
+const articleDate = articolo.data_pubblicazione ? new Date(articolo.data_pubblicazione) : new Date();
+const autoreCompleto = articolo.autore as any;
+const autoreName: string = autoreCompleto?.nome_completo ?? t(locale, 'author_unknown');
+const authorSlug = generateAuthorSlug(autoreName);
+
+const authorBioHtml: string | null = autoreCompleto?.bio_html?.trim() || null;
+const isJeanVanier: boolean = (autoreCompleto?.slug === 'jean-vanier') || autoreName.toLowerCase().includes('jean vanier');
+const authorFotoId: string | null = autoreCompleto?.foto?.id ?? null;
+const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${authorSlug}.jpg`;
+const authorBio: string | null = authorBioHtml;
+
+const readingTime = calculateReadingTimeFromHtml(articolo.corpo);
+const slugToArticolo = Object.fromEntries(correlatiArticoli.map((a) => [a.slug, a]));
+
+// ── Leggi anche: non mostrato su articoli EN (nessun box in-content) ──────────
+// (stesso comportamento della route IT: leggiAncheSlug=null se lang=en)
+const leggiAncheSlug: string | null = null;
+const leggiAncheArticolo = null;
+
+// ── Embed processing (YouTube + Instagram) ────────────────────────────────────
+
+function extractYouTubeId(url: string): string | null {
+  const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|v\/))([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
+
+function extractInstagramId(url: string): string | null {
+  const m = url.match(/instagram\.com\/(?:p|reel|tv)\/([A-Za-z0-9_-]+)/);
+  return m ? m[1] : null;
+}
+
+function processEmbeds(html: string): { html: string; hasInstagram: boolean } {
+  let out = html;
+  let hasInstagram = false;
+
+  out = out.replace(
+    /<p>\s*(https?:\/\/(?:youtu\.be\/|(?:www\.)?youtube\.com\/watch[^\s<"]*)[^\s<"]*)\s*<\/p>/gi,
+    (_, url) => {
+      const id = extractYouTubeId(url);
+      if (!id) return `<p>${url}</p>`;
+      return `<div class="video-embed"><iframe src="https://www.youtube.com/embed/${id}" title="Video YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`;
+    }
+  );
+
+  if (/<blockquote[^>]+instagram/i.test(out)) {
+    hasInstagram = true;
+    out = out.replace(
+      /(<blockquote\b(?![^>]*class)[^>]*)(data-instgrm-permalink)/gi,
+      '$1class="instagram-media" $2'
+    );
+  }
+
+  return { html: out, hasInstagram };
+}
+
+const rawCorpo = articolo.corpo ?? '';
+const { html: processedCorpo, hasInstagram } = processEmbeds(rawCorpo);
+const [corpoPart1, corpoPart2] = [processedCorpo, ''];
+
+// ── Issue (numero rivista) ─────────────────────────────────────────────────────
+
+const issueNumber = articolo.numero_rivista?.id_numero ?? null;
+const issueSlug = issueNumber ? generateIssueSlug(issueNumber) : null;
+const issueLink = issueSlug ? `/archivio/${issueSlug}` : null;
+
+// ── Immagine copertina ─────────────────────────────────────────────────────────
+
+const articleImageRaw = getArticoloCopertinaSrc(articolo);
+const articleImage = articolo.immagine_copertina?.id
+  ? articleImageRaw
+  : getPlaceholder(articolo.slug ?? '').src;
+
+// ── Sottotitolo e SEO ──────────────────────────────────────────────────────────
+
+const explicitSubtitle = articolo.sottotitolo?.trim() || articolo.seo_description?.trim() || null;
+const heroCaption: string | null = articolo.didascalia_copertina?.trim() || null;
+
+const metaDescription = (explicitSubtitle || articolo.seo_description)
+  ? (explicitSubtitle || articolo.seo_description)!.substring(0, 160).replace(/\s+/g, ' ').trim()
+  : `${articleTitle} - ${t(locale, 'meta_article_default_suffix')}`;
+
+// ── Categoria, etichette, ruolo editoriale (taxonomy.js via megacluster) ───────
+
+const categoryDisplay = getThemeLabel(articolo);
+const categorySlug = getCategorySlugForArticle(articolo);
+const categoryLink = categorySlug ? `/categoria/${categorySlug}` : null;
+const currentLabels = getLabels([], articolo);
+const formaDisplay =
+  currentLabels.formal && currentLabels.formal !== 'Articolo'
+    ? localizeFormalType(currentLabels.formal, locale)
+    : null;
+const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
+const showPubblicatoOnline = !hasIssue;
+
+const { ruolo_editoriale } = getMegaclusterForArticle(articolo);
+let roleLabel: string | null = null;
+let roleClassName = '';
+if (ruolo_editoriale === 'portante') {
+  roleLabel = t(locale, 'badge_role_portante');
+  roleClassName = ' article-badge-role--portante';
+} else if (ruolo_editoriale === 'strutturale') {
+  roleLabel = t(locale, 'badge_role_strutturale');
+  roleClassName = ' article-badge-role--strutturale';
+} else if (ruolo_editoriale === 'laterale') {
+  roleLabel = t(locale, 'badge_role_laterale');
+  roleClassName = ' article-badge-role--laterale';
+} else if (ruolo_editoriale === 'trasversale') {
+  roleLabel = t(locale, 'badge_role_trasversale');
+  roleClassName = ' article-badge-role--trasversale';
+}
+
+// ── PDF e copertina numero rivista ─────────────────────────────────────────────
+
+const pdfUrl: string | null = articolo.numero_rivista?.pdf_archive_url ?? null;
+
+// ── Language switcher ──────────────────────────────────────────────────────────
+// Su questa route, l'articolo è EN. Il counterpart è IT → punta a /blog/[it-slug].
+
+const alternateItem = articolo.articolo_traduzione ?? null;
+// alternateItem.lang dovrebbe essere 'it'; se per qualsiasi motivo fosse EN ignoriamo.
+const alternateArticleUrl = (alternateItem && alternateItem.lang !== 'en')
+  ? `/blog/${alternateItem.slug}`
+  : null;
+
+// ── Dati per enrichment client-side ───────────────────────────────────────────
+
+const currentSlug = directusSlug;
+const currentWpIdClean = String(articolo.wp_id ?? '');
+
+const wpIdToSlugMap: Record<number, string> = {};
+for (const a of correlatiArticoli) {
+  if (a.wp_id && a.slug) wpIdToSlugMap[a.wp_id] = a.slug;
+}
+
+const inContentRelatedMap: Record<string, {
+  title: string; image: string | null; excerpt: string | null;
+  href: string; category?: string | null; lang?: string; isItalian?: boolean;
+}> = {};
+
+for (const a of correlatiArticoli) {
+  const imgUrl = getArticoloCopertinaSrc(a);
+  const category = getCategorySlugForArticle(a) ?? null;
+  inContentRelatedMap[a.slug] = {
+    title: a.titolo,
+    image: imgUrl,
+    excerpt: a.sottotitolo?.trim() || null,
+    href: `/en/${a.slug}`,
+    category,
+    lang: a.lang,
+    isItalian: a.lang !== 'en',
+  };
+}
+
+// ── Articoli correlati in calce ────────────────────────────────────────────────
+
+const correlatiSlugs: string[] = correlatiSlugsEffective;
+
+const relatedArticles = (() => {
+  const umap = correlatiSlugs
+    .map((s) => slugToArticolo[s])
+    .filter((a): a is ArticoloListItem => !!a && a.id !== articolo.id && a.lang === 'en')
+    .slice(0, 3);
+
+  return umap.map((a) => {
+    const labels = getLabels([], a);
+    const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a);
+    return {
+      title: a.titolo,
+      author: a.autore?.nome_completo ?? t(locale, 'author_unknown'),
+      date: a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(),
+      issue: a.numero_rivista?.id_numero ?? null,
+      slug: a.slug,
+      image: getArticoloCopertinaSrc(a),
+      categoriaMenu: getThemeLabel(a) ?? null,
+      forma: labels.formal,
+      ruoloEditoriale: relRuolo,
+    };
+  });
+})();
+
+// ── Canonical e hreflang ───────────────────────────────────────────────────────
+// Canonical: /en/[slug]/ (URL canonico EN)
+// hreflang en → /en/[slug]/
+// hreflang it → /blog/[it-slug]/  (se esiste il counterpart)
+
+const canonicalUrl = `${Astro.url.origin}/en/${urlSlug}/`;
+const alternates: { lang: string; url: string }[] = [
+  { lang: 'en', url: canonicalUrl },
+  ...(alternateArticleUrl ? [{ lang: 'it', url: `${Astro.url.origin}${alternateArticleUrl}` }] : []),
+];
+---
+
+
+
+<BaseLayout
+  title={articleTitle}
+  description={metaDescription}
+  ogImage={articleImage}
+  ogType="article"
+  lang="en"
+  canonical={canonicalUrl}
+  noindex={false}
+  alternateArticleUrl={alternateArticleUrl}
+  alternates={alternates}
+  pathname={`/en/${urlSlug}`}
+>
+  <Fragment slot="head">
+    <meta name="pagefind:meta" content={`author:${autoreName}`} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": articleTitle,
+      "description": metaDescription ?? undefined,
+      "image": articleImage?.startsWith('http') ? articleImage : `https://ombreeluci.it${articleImage}`,
+      "datePublished": articleDate.toISOString(),
+      "dateModified": articleDate.toISOString(),
+      "inLanguage": "en-US",
+      "author": {
+        "@type": "Person",
+        "name": autoreName,
+        "url": `https://ombreeluci.it/autori/${authorSlug}`
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ombre e Luci",
+        "url": "https://ombreeluci.it",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ombreeluci.it/logo.svg"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": canonicalUrl
+      },
+      ...(articolo.numero_rivista?.id_numero ? {
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "@id": `https://ombreeluci.it/archivio/${articolo.numero_rivista.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-')}`
+        }
+      } : {})
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": (() => {
+        const site = 'https://ombreeluci.it';
+        const archiveHref = `${site}/en/`;
+        const items: Record<string, unknown>[] = [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": t('en', 'nav_archive'),
+            "item": archiveHref,
+          },
+        ];
+        if (categoryDisplay && categoryLink) {
+          items.push({
+            "@type": "ListItem",
+            "position": 2,
+            "name": categoryDisplay,
+            "item": `${site}${categoryLink}`,
+          });
+        }
+        items.push({
+          "@type": "ListItem",
+          "position": items.length + 1,
+          "name": articleTitle,
+        });
+        return items;
+      })(),
+    })} />
+  </Fragment>
+    <main class="site-main">
+    {/* Reading Progress Bar */}
+    <div class="reading-progress" id="reading-progress"></div>
+
+    <div class="article-container">
+      {/* Breadcrumbs */}
+      <nav class="breadcrumbs">
+        <a href="/en/">{t('en', 'nav_archive')}</a>
+        {issueNumber && (
+          <>
+            {' > '}
+            <a href={issueLink}>{issueLabel} {issueNumber}</a>
+          </>
+        )}
+      </nav>
+
+      {/* Header Centrato - max-width: 900px */}
+      <header class="article-header-wrapper">
+        {!showPubblicatoOnline ? (
+          <nav class="article-category-badge" aria-label={badgeIssueAriaLabel}>
+            {issueLink && <a href={issueLink} class="article-badge-link">{issueLabel} {issueNumber}</a>}
+            {issueLink && (formaDisplay || categoryLink) && <span class="article-badge-sep"> • </span>}
+            {formaDisplay && <span class="article-badge-text">{formaDisplay}</span>}
+            {formaDisplay && categoryLink && <span class="article-badge-sep"> / </span>}
+            {categoryLink ? (
+              <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>
+            ) : (
+              <span class="article-badge-text">{categoryDisplay}</span>
+            )}
+          </nav>
+        ) : (
+          <div class="article-category-badge article-category-badge--online">
+            {categoryLink ? (
+              <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>
+            ) : (
+              t('en', 'published_online')
+            )}
+          </div>
+        )}
+
+        <h1 class="article-title">{articleTitle}</h1>
+
+        {explicitSubtitle && (
+          <div class="article-subtitle">
+            {explicitSubtitle}
+          </div>
+        )}
+
+        <div class="article-meta">
+          <div class="article-meta-item">
+            <img
+              src={authorImagePath}
+              alt={autoreName}
+              class="article-meta-author-image"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              loading="lazy"
+            />
+            <div class="article-meta-author-placeholder" style="display: none;">
+              {autoreName.charAt(0).toUpperCase()}
+            </div>
+            <a href={`/autori/${authorSlug}`} class="author-link">{autoreName}</a>
+          </div>
+          <div class="article-meta-item">
+            {formatDateItalian(articleDate, 'en')}
+          </div>
+          <div class="article-meta-item">
+            {readingTime} {t('en', 'min_read')}
+          </div>
+          {roleLabel && (
+            <div class="article-meta-item">
+              <span class={`article-badge-role${roleClassName}`}>{roleLabel}</span>
+            </div>
+          )}
+        </div>
+      </header>
+
+      {/* Fascia Hero Larga - 1100px centrata */}
+      <div class="article-hero-wrapper">
+        <div class="article-hero-image-wrapper">
+          <img
+            src={articleImage}
+            alt={articleTitle}
+            class="article-image"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            data-copertina-fallback
+            onerror={COPERTINA_IMG_ONERROR}
+          />
+          {heroCaption && (
+            <div class="article-image-caption">
+              <img src="https://www.ombreeluci.it/wp-content/uploads/2023/10/icon-camera.png" alt="" class="caption-camera-icon" aria-hidden="true" />
+              {heroCaption}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Alert box per contenuti archivistici */}
+      {articleDate.getFullYear() < 2000 && (
+        <div class="article-header-wrapper">
+          <div class="archival-alert-en">
+            <strong>This archival content from {articleDate.getFullYear()} reflects the language and sensitivities of its time.</strong>
+          </div>
+        </div>
+      )}
+
+      {/* Social Sticky Bar */}
+      <div class="social-sticky" id="social-sticky">
+        <div class="social-sticky-inner">
+          <a
+            href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link facebook"
+            aria-label={shareLabelFacebook}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+          <a
+            href={`https://twitter.com/intent/tweet?url=${Astro.url.href}&text=${encodeURIComponent(articleTitle)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link twitter"
+            aria-label={shareLabelX}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a
+            href={`https://wa.me/?text=${encodeURIComponent(articleTitle + ' ' + Astro.url.href)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link whatsapp"
+            aria-label={shareLabelWhatsapp}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+          </a>
+          <a
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=${Astro.url.href}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link linkedin"
+            aria-label={shareLabelLinkedin}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 23.2 24 22.222 24h.003z"/>
+            </svg>
+          </a>
+          <a
+            href={`mailto:?subject=${encodeURIComponent(articleTitle)}&body=${encodeURIComponent(Astro.url.href)}`}
+            class="social-link email"
+            aria-label="Send by email"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="social-link copy-link"
+            aria-label={copyLinkLabel}
+            onclick={`event.preventDefault(); navigator.clipboard.writeText('${Astro.url.href}'); this.setAttribute('aria-label', '${copiedLinkLabel}'); setTimeout(() => this.setAttribute('aria-label', '${copyLinkLabel}'), 2000); return false;`}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      {/* Corpo del Testo */}
+      <div class="article-content-wrapper">
+        <div class="article-content" id="article-content">
+          {isJeanVanier && (
+            <aside class="vanier-alert" role="note">
+              <div>Notice: investigations commissioned by L&apos;Arche International established serious responsibility of Fr. Thomas Philippe (first report in 2015) and Jean Vanier (2020) toward several women. <a href="https://www.ombreeluci.it/2020/larca-internazionale-annuncia-i-risultati-dellindagine-indipendente/">Read the latest statement</a>, which unequivocally condemns these actions as "in total contradiction with the values Vanier advocated" and with "the fundamental principles of our communities".</div>
+            </aside>
+          )}
+          <div set:html={corpoPart1} />
+          {corpoPart2 && <div set:html={corpoPart2} />}
+        </div>
+
+        {/* Bio Autore */}
+        <div class="author-bio-section">
+          <div class="author-bio-wrapper">
+            <div class="author-bio-avatar">
+              <img
+                src={authorImagePath}
+                alt={autoreName}
+                class="author-bio-image"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                loading="lazy"
+              />
+              <div class="author-bio-placeholder" style="display: none;">
+                {autoreName.charAt(0).toUpperCase()}
+              </div>
+            </div>
+            <div class="author-bio-content">
+              <h3 class="author-bio-name">
+                <a href={`/autori/${authorSlug}`} class="author-bio-link">
+                  {autoreName}
+                </a>
+              </h3>
+              <div class="author-bio-text">
+                {authorBio ? (
+                  <div set:html={authorBio} />
+                ) : (
+                  t('en', 'author_bio_fallback')
+                )}
+              </div>
+              <p class="author-bio-total">
+                {t('en', 'author_total_prefix')} <a href="/autori">{totalAutori} {t('en', 'author_total')}</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <EditorialFeedback
+          wpId={articolo.wp_id}
+          title={articleTitle}
+          currentRole={ruolo_editoriale}
+          url={Astro.url.href}
+          articoloId={articolo.id}
+          lang={locale}
+        />
+      </div>
+
+      {/* Widget di navigazione */}
+      <div class="floating-widget" id="floating-widget">
+        <button class="close-btn" id="close-widget" aria-label={t('en', 'widget_close')}>×</button>
+        <h4>{t('en', 'widget_navigate')}</h4>
+        {pdfUrl ? (
+          <a href={pdfUrl} target="_blank" rel="noopener noreferrer" class="widget-link">{t('en', 'widget_download_pdf')}</a>
+        ) : null}
+        {issueLink ? <a href={issueLink} class="widget-link">{t('en', 'widget_go_to_issue')}</a> : null}
+        <a href="/en/" class="widget-link">{t('en', 'nav_archive')}</a>
+      </div>
+
+      {/* Articoli correlati in calce — basePath="/en" per URL corretti */}
+      {relatedArticles.length > 0 && (
+        <section class="related-footer-section" aria-label="Related articles">
+          <div class="related-footer-inner">
+            <h2 class="related-footer-title">Related articles</h2>
+            <div class="related-footer-grid">
+              {relatedArticles.map((rel) => (
+                <ArticleCard
+                  title={rel.title}
+                  author={rel.author}
+                  date={rel.date}
+                  issue={rel.issue}
+                  slug={rel.slug}
+                  image={rel.image}
+                  categoriaMenu={rel.categoriaMenu}
+                  forma={rel.forma}
+                  ruoloEditoriale={rel.ruoloEditoriale}
+                  lang="en"
+                  basePath="/en"
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <Commenti articoloId={articolo.id} lang="en" />
+
+      <details class="debug-section" hidden>
+        <summary style="cursor: pointer; color: var(--text-secondary); font-size: 0.85rem; margin-top: 2rem; padding: 0.5rem;">
+          🔍 Debug: Dati articolo
+        </summary>
+        <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
+{JSON.stringify({ id: articolo.id, wp_id: articolo.wp_id, slug: articolo.slug, titolo: articolo.titolo, lang: articolo.lang, stato: articolo.stato, data_pubblicazione: articolo.data_pubblicazione }, null, 2)}
+        </pre>
+      </details>
+
+      <section class="article-nav-section" aria-label={t('en', 'aria_article_bottom_nav')}>
+        <a href="/en/" class="back-link">← {t('en', 'back_to_home')}</a>
+      </section>
+    </div>
+    </main>
+    {hasInstagram && <script async src="https://www.instagram.com/embed.js" is:inline></script>}
+    <script define:vars={{ wpIdToSlugMap, inContentRelatedMap, currentSlug, currentWpIdClean, articleLang: 'en', alternateArticleUrl }}>
+      window.__BLOG_PAGE_DATA__ = { wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel: 'READ ALSO', alternateArticleUrl, currentWpIdClean, lang: articleLang };
+    </script>
+    <script>
+      // Reading Progress Bar
+      const readingProgress = document.getElementById('reading-progress');
+      const articleContent = document.getElementById('article-content');
+
+      function updateReadingProgress() {
+        if (!articleContent || !readingProgress) return;
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollableHeight = documentHeight - windowHeight;
+        const progress = (scrollTop / scrollableHeight) * 100;
+        readingProgress.style.width = Math.min(progress, 100) + '%';
+      }
+
+      window.addEventListener('scroll', updateReadingProgress);
+      updateReadingProgress();
+
+      // Widget a comparsa dopo 50% scroll
+      const floatingWidget = document.getElementById('floating-widget');
+      const closeWidgetBtn = document.getElementById('close-widget');
+      let widgetShown = false;
+      let widgetClosed = false;
+
+      function showWidget() {
+        if (widgetClosed || widgetShown) return;
+        if (floatingWidget) {
+          floatingWidget.classList.add('visible');
+          widgetShown = true;
+        }
+      }
+
+      if (closeWidgetBtn && floatingWidget) {
+        closeWidgetBtn.addEventListener('click', () => {
+          floatingWidget.classList.remove('visible');
+          widgetClosed = true;
+        });
+      }
+
+      window.addEventListener('scroll', () => {
+        const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+        if (scrollPercent > 50) showWidget();
+      });
+
+      // Social sticky bar
+      const socialSticky = document.getElementById('social-sticky');
+      if (socialSticky) {
+        const footer = document.querySelector('footer');
+        function updateSocialSticky() {
+          if (!footer) return;
+          const footerTop = footer.getBoundingClientRect().top;
+          const viewportHeight = window.innerHeight;
+          if (footerTop < viewportHeight) {
+            socialSticky.classList.add('above-footer');
+          } else {
+            socialSticky.classList.remove('above-footer');
+          }
+        }
+        window.addEventListener('scroll', updateSocialSticky);
+        updateSocialSticky();
+      }
+    </script>
+</BaseLayout>

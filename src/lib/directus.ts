@@ -310,6 +310,42 @@ export async function getArticoliBySlugList(slugs: string[], creds?: DirectusRun
 }
 
 /**
+ * Fallback correlati: articoli recenti stessa lingua (opz. stessa categoria_menu).
+ * Usato quando manca la mappa in correlati.json per uno slug.
+ */
+export async function getFallbackRelatedArticles(
+  {
+    excludeSlug,
+    lang,
+    categoriaMenu,
+    limit = 4,
+  }: {
+    excludeSlug: string;
+    lang: 'it' | 'en';
+    categoriaMenu?: string | null;
+    limit?: number;
+  },
+  creds?: DirectusRuntimeCreds
+): Promise<ArticoloListItem[]> {
+  const params = new URLSearchParams({
+    'filter[stato][_eq]': 'published',
+    'filter[slug][_neq]': excludeSlug,
+    'filter[lang][_eq]': lang,
+    fields: ARTICOLO_LIST_FIELDS,
+    limit: String(limit),
+    sort: '-data_pubblicazione',
+  });
+  if (categoriaMenu) {
+    params.set('filter[categoria_menu][_eq]', categoriaMenu);
+  }
+  const data = await directusFetch<{ data: ArticoloListItem[] }>(
+    `/items/articoli?${params}`,
+    creds
+  );
+  return data?.data ?? [];
+}
+
+/**
  * Articolo singolo per wp_id (utile per redirect legacy).
  */
 export async function getArticoloByWpId(wpId: number): Promise<ArticoloListItem | null> {

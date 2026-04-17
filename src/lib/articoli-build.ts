@@ -1,11 +1,11 @@
 /**
  * articoli-build.ts — wrapper BUILD-TIME ONLY per getAllArticoli con fallback snapshot.
  *
- * Questo modulo viene importato ESCLUSIVAMENTE in getStaticPaths() di pagine prerenderate.
- * NON importarlo in pagine SSR o componenti — verrà incluso nel worker bundle e causerà errori.
+ * Usare solo in pagine **prerenderizzate** (default hybrid: tutto tranne `prerender = false`).
+ * Non importare in route SSR runtime (es. `blog/[...slug]`) — il JSON snapshot è grande.
  *
- * Se Directus non è raggiungibile durante la build, usa src/data/articoli_snapshot.json
- * (snapshot senza campo 'corpo', aggiornato ogni lunedì da GH Actions).
+ * Se Directus non risponde o la build non ha token (es. CF Pages senza variabili in **Build**),
+ * usa `src/data/articoli_snapshot.json` (senza `corpo`, aggiornato da GH Actions).
  */
 
 import { getAllArticoli } from './directus';

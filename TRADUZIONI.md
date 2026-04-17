@@ -1,8 +1,21 @@
 # TRADUZIONI OEL — Piano Operativo IT → EN
 
-> **Ultima revisione:** 2026-04-07 · owner: Claude/SegreteriaFL
-> Documento autoritativo per la pipeline di traduzione.
+> **Ultima revisione:** 2026-04-09 · owner: Claude/SegreteriaFL
+> Documento autoritativo per la pipeline di traduzione AI (scope linguistico/editoriale).
+> Architettura i18n cross-progetto: vedi `docs/I18N_MASTER_PLAN.md`.
 > Riferimento in PROGRESS.md → task `DA-06`.
+
+---
+
+## Document Precedence
+
+Per evitare indicazioni contraddittorie:
+
+1. `docs/I18N_MASTER_PLAN.md` -> architettura i18n, routing, SEO, rollout.
+2. `PROGRESS.md` -> stato operativo e priorità correnti.
+3. `TRADUZIONI.md` -> implementazione pipeline traduzioni AI.
+
+Questo file non sostituisce le decisioni architetturali globali.
 
 ---
 
@@ -11,6 +24,11 @@
 Tradurre l'intero corpus italiano di Ombre e Luci non ancora disponibile in inglese
 (~3265 articoli) con Claude Haiku, rispettando filologicamente i testi originali,
 e collegare ogni versione EN alla IT tramite `articolo_traduzione` (bidirezionale).
+
+**Ordine di rollout contenuti:** la priorità della pipeline AI e dei quality gate è il
+corpus **articoli**. Le **pagine dell'archivio legate ai numeri di rivista** (uscite
+cartacee) sono **in intentione da tradurre/localizzare in una fase II**, dopo chiusura
+del batch articoli e gate associati; dettaglio in §17.
 
 ---
 
@@ -322,3 +340,163 @@ rollback selettivo, audit storico delle traduzioni.
 | `scripts/traduzione/backfill_traduzione_link.py` | Collega 131 EN legacy |
 | `scripts/traduzione/qa_check.py` | QA automatica post-batch |
 | `scripts/traduzione/rollback_batch.py` | Annulla batch da log |
+
+
+
+
+## 14. Esito audit definitivo (40 articoli EN AI)
+
+### 14.1 Copertura e metodo
+
+- Copertura: **40/40** URL EN verificati (`HTTP 200`).
+- Assi di verifica:
+  - **Tecnico UX/i18n** (switcher, contesto lingua, menu/logo, commenti, correlati, alert archivio)
+  - **Qualità traduzione** (Haiku vs Sonnet: fluidità, letteralità, coerenza)
+
+### 14.2 Esito tecnico (priorità)
+
+**P0 — Da correggere subito**
+
+1. **Language switcher errato su pagine EN**
+   - `IT` punta a `/` invece che al gemello italiano dell'articolo.
+   - `EN` in più casi punta allo slug IT (senza `-en`), creando toggle ambiguo.
+2. **Contesto EN non persistente**
+   - Shell pagina ancora in italiano (menu/search/footer/commenti/CTA) anche su articolo EN.
+3. **Correlati EN quasi assenti**
+   - Presenza sporadica nel campione; nella maggioranza dei casi non compaiono.
+
+**P1 — Conferme aggiuntive**
+
+4. **Issue doppio alert archivio non sistemico**
+   - Nel campione il problema è più spesso co-presenza IT+EN nello stesso blocco,
+     non duplicazione identica ripetuta due volte.
+
+### 14.3 Esito qualità traduzioni
+
+- Valutazione sintetica (campione 40):
+  - **Haiku: ~5.8/10**
+  - **Sonnet: ~6.2/10**
+- Pattern osservati:
+  - Sonnet mediamente più fluido sui testi lunghi.
+  - Haiku più letterale su titoli e passaggi idiomatici.
+  - Entrambi penalizzati da artefatti di formattazione e da shell UI non localizzata.
+
+### 14.4 Feedback linguistico esterno (Gemini) — sintesi integrata
+
+Il feedback madrelingua è coerente con l'audit:
+
+- **Fedeltà alta** al contenuto originale.
+- **Flow medio**: presenza di "unidiomatic phrasing" (calchi dall'italiano).
+- **Terminologia religiosa** generalmente buona.
+- Raccomandazione: aggiungere passaggio di **localization/editing**
+  (frasi più naturali, meno calchi, riduzione ripetizioni non funzionali in EN).
+
+Implicazione operativa: la pipeline AI va mantenuta, ma il livello "rivista internazionale"
+richiede un secondo pass editoriale per subset selezionato.
+
+### 14.5 Decisione architetturale e i18n
+
+Confermata direzione: URL lingua esplicita (`/en/...`) come target.
+
+Benefici:
+- SEO più chiaro (`hreflang`/canonical coerenti)
+- UX lingua persistente su tutta la navigazione
+- Sharability migliore
+- Scalabilità naturale a `/es/...`
+
+### 14.6 Cose da far fare a Claude (root fix)
+
+1. Correggere mapping switcher IT/EN con lookup deterministico IT↔EN (`articolo_traduzione`).
+2. Rendere locale sticky su shell EN (header/menu/logo/search/footer/commenti/CTA).
+3. Introdurre fallback correlati EN finché il corpus tradotto non è completo.
+4. Preparare routing `/en/...` con redirect 301 dai vecchi slug `-en`.
+5. Aggiungere test E2E i18n su almeno 5 URL EN (switcher + shell + correlati).
+
+---
+
+## 15. Strategia modelli (decisione operativa)
+
+### 15.1 Non irrigidire eccessivamente il prompt
+
+Regole filologiche restano vincolanti, ma evitare prompt troppo "bloccanti" che
+spingono calchi letterali. Mantenere:
+- fedeltà semantica
+- preservazione termini storici
+- preservazione eventuale grammatica non standard (quando intenzionale)
+
+Aggiungere esplicitamente:
+- priorità a inglese idiomatico quando non altera il senso
+- evitare traduzioni parola-per-parola
+
+### 15.2 Quale modello usare
+
+Decisione raccomandata:
+
+- **Base corpus:** Haiku (costo/velocità ottimali)
+- **Upgrade selettivo:** Sonnet solo su subset ad alta complessità/editorialità
+
+Motivo:
+- differenza qualità esiste ma non giustifica Sonnet su 100% corpus a parità di budget
+- approccio ibrido massimizza ROI editoriale
+
+### 15.3 Workflow consigliato
+
+1. Tradurre tutto con Haiku (`draft`).
+2. Eseguire `qa_check.py` + score linguistico.
+3. Mandare a Sonnet solo articoli flaggati:
+   - testi lunghi/saggistici
+   - titoli con bassa idiomaticità
+   - campi con warning di fluency
+4. Review redazionale finale e publish.
+
+---
+
+## 16. Copertura traduzioni media e metadata
+
+La pipeline deve coprire non solo il corpo articolo, ma anche i campi editoriali/media
+che impattano UX e SEO.
+
+### 16.1 Campi da includere nel piano traduzione
+
+- `titolo`
+- `sottotitolo`
+- `seo_description`
+- `corpo` (HTML)
+- `didascalia_copertina`
+- eventuali `figcaption` inline nel corpo (quando presenti)
+
+### 16.2 Campi media da non ignorare
+
+- `alt text` delle immagini (o `description`/equivalente nel file manager Directus)
+- metadati immagine rilevanti per accessibilità e discovery (quando esposti nel frontend)
+
+### 16.3 Metadati pagina
+
+Verificare localizzazione coerente di:
+
+- title/meta description (head)
+- Open Graph/Twitter title/description
+- breadcrumb labels
+- label UI collegate ai media (es. didascalie)
+
+Nota: la traduzione di alt/metadata media può seguire una pipeline separata dalla traduzione
+corpo, ma deve essere tracciata con quality gate dedicati.
+
+---
+
+## 17. Pagine numeri rivista (fase II — dopo gli articoli)
+
+**Intenzione:** estendere la localizzazione EN anche alle **viste archivio legate alle uscite**
+(numeri della rivista cartacea: landing, sommari, testi descrittivi in CMS ove presenti),
+così shell, SEO e navigazione restano coerenti per chi esplora l’archivio per **numero** e non
+solo per articolo.
+
+**Perché in secondo tempo:** il valore per il visitatore straniero è spesso concentrato sugli
+**articoli**; le pagine numero restano comunque utili per ricerca, memoria istituzionale e
+coerenza del sito bilingue. Separare la fase evita di mescolare scope, costi e gate con il
+batch principale sugli articoli.
+
+**Cosa resta da definire quando si apre la fase II:** modello dati (collection `numeri` o
+equivalente), eventuali record EN mirror, testi da tradurre vs. materiali solo grafici (copertine),
+allineamento a routing `/en/...` e hreflang. Fino ad allora la pipeline degli articoli (§8) resta
+il riferimento operativo.

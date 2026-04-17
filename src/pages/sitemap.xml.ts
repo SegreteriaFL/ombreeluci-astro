@@ -7,7 +7,7 @@
 export const prerender = true;
 
 import type { APIRoute } from 'astro';
-import { getAllArticoli } from '../lib/directus';
+import { getAllArticoliBuild } from '../lib/articoli-build';
 import { getAllCategorySlugs } from '../config/taxonomy.js';
 
 const SITE = 'https://ombreeluci.it';
@@ -38,7 +38,7 @@ export const GET: APIRoute = async () => {
   // 3. Articoli IT pubblicati
   let articleUrls: string[] = [];
   try {
-    const articoli = await getAllArticoli();
+    const articoli = await getAllArticoliBuild();
     const today = new Date().toISOString().slice(0, 10);
     articleUrls = articoli
       .filter(a => a.lang !== 'en')

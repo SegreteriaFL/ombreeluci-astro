@@ -34,6 +34,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import uuid
 from datetime import datetime
 from pathlib import Path
 from threading import Lock
@@ -44,7 +45,9 @@ DIRECTUS_URL = os.environ.get("DIRECTUS_URL", "https://cms.ombreeluci.it")
 DIRECTUS_TOKEN = os.environ.get("DIRECTUS_TOKEN", "")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
-MODEL = "claude-haiku-4-5-20251001"
+MODEL_HAIKU = "claude-haiku-4-5-20251001"
+MODEL_SONNET = "claude-sonnet-4-6"
+MODEL = MODEL_HAIKU  # default, sovrascrivibile via --model
 MAX_TOKENS_PER_CALL = 8192
 MAX_RETRIES = 4
 BACKOFF_BASE = 8.0        # secondi base per retry (raddoppia a ogni tentativo)
@@ -355,13 +358,16 @@ def call_haiku(client: anthropic.Anthropic, article: dict) -> tuple[dict, int, i
 
 # ─── Article fetch ───────────────────────────────────────────────────────────
 
-def fetch_articles(limit: int | None) -> list[dict]:
+def fetch_articles(limit: int | None, min_corpo: int = 0, max_corpo: int = 0) -> list[dict]:
     fields = (
         "id,slug,titolo,sottotitolo,seo_description,corpo,"
         "stato,data_pubblicazione,"
         "autore.id,numero_rivista.id,immagine_copertina.id"
     )
     articles, page = [], 1
+    # Filtro lunghezza corpo applicato post-fetch (Directus non supporta filter su lunghezza)
+    def corpo_tokens(a):
+        return len(a.get("corpo") or "") // 4
     while True:
         params = urllib.parse.urlencode({
             "filter[lang][_eq]": "it",
@@ -374,6 +380,11 @@ def fetch_articles(limit: int | None) -> list[dict]:
         batch = d_get(f"/items/articoli?{params}").get("data", [])
         if not batch:
             break
+        # Filtra per lunghezza corpo se richiesto
+        if min_corpo or max_corpo:
+            batch = [a for a in batch if
+                     (not min_corpo or corpo_tokens(a) >= min_corpo) and
+                     (not max_corpo or corpo_tokens(a) < max_corpo)]
         articles.extend(batch)
         print(f"  Caricati {len(articles)} articoli...", end="\r")
         if limit and len(articles) >= limit:
@@ -454,6 +465,7 @@ def process(
         copertina_id = (article.get("immagine_copertina") or {}).get("id")
 
         payload: dict = {
+            "id": str(uuid.uuid4()),
             "lang": "en", "slug": en_slug, "stato": stato,
             "titolo": translated["titolo"],
             "data_pubblicazione": article.get("data_pubblicazione"),
@@ -492,6 +504,13 @@ def main():
     parser.add_argument("--workers",  type=int, default=1)
     parser.add_argument("--resume",   action="store_true",
                         help="Salta articoli già OK nel log del job-id")
+    parser.add_argument("--model",     default="haiku",
+                        choices=["haiku", "sonnet"],
+                        help="Modello: haiku (default) o sonnet")
+    parser.add_argument("--min-tokens", type=int, default=0,
+                        help="Seleziona solo articoli con corpo >= N token (ibrida: Sonnet sui lunghi)")
+    parser.add_argument("--max-tokens", type=int, default=0,
+                        help="Seleziona solo articoli con corpo < N token")
     args = parser.parse_args()
 
     if not DIRECTUS_TOKEN:
@@ -499,11 +518,17 @@ def main():
     if not args.dry_run and not ANTHROPIC_API_KEY:
         print("ERROR: ANTHROPIC_API_KEY non impostato."); sys.exit(1)
 
-    print(f"Job: {args.job_id} | dry-run={args.dry_run} | workers={args.workers} | stato={args.stato}")
+    # Imposta modello globale
+    global MODEL
+    MODEL = MODEL_SONNET if args.model == "sonnet" else MODEL_HAIKU
+
+    print(f"Job: {args.job_id} | model={MODEL} | dry-run={args.dry_run} | workers={args.workers} | stato={args.stato}")
     print()
 
     print("Carico articoli da tradurre...")
-    articles = fetch_articles(args.limit)
+    articles = fetch_articles(args.limit,
+                              min_corpo=args.min_tokens,
+                              max_corpo=args.max_tokens)
     print(f"\nTrovati: {len(articles)} articoli")
 
     if args.resume:

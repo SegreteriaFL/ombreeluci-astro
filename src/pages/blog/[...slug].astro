@@ -1,13 +1,13 @@
 ---
 export const prerender = false;
 
-import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getAutoreImageUrl, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
+import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getAutoreImageUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
 import { getPlaceholder } from '../../utils/placeholder';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
-import { getLangFromUrl, t } from '../../utils/i18n';
+import { getLangFromUrl, t, localizeFormalType } from '../../utils/i18n';
 import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
 import Commenti from '../../components/Commenti.astro';
@@ -30,6 +30,13 @@ try {
 
 if (!articolo) {
   return new Response('Not found', { status: 404 });
+}
+
+// Fase 2 i18n: gli articoli EN hanno ora URL canonico /en/[slug-senza-en]/.
+// Il middleware li reindirizza prima di arrivare qui; questo guard è un fallback sicuro.
+if (articolo.lang === 'en') {
+  const enUrlSlug = slug.endsWith('-en') ? slug.slice(0, -3) : slug;
+  return Astro.redirect(`/en/${enUrlSlug}/`, 301);
 }
 
 // Cache-Control: edge cache 1h (evita stale 404 in caso di downtime),
@@ -60,8 +67,35 @@ try {
 
 const correlatiSlugsRaw: string[] = correlatiMap[articolo.slug] ?? [];
 
-// Fetch solo gli articoli correlati (max 10) per slugToArticolo, LeggiAnche e correlati in calce
-const correlatiArticoli: ArticoloListItem[] = await getArticoliBySlugList(correlatiSlugsRaw.slice(0, 10), creds).catch(() => []);
+// Fetch solo gli articoli correlati (max 10) per slugToArticolo, LeggiAnche e correlati in calce.
+// Fallback: se la mappa correlati non contiene lo slug, usa articoli recenti stessa lingua/categoria.
+let correlatiArticoli: ArticoloListItem[] = await getArticoliBySlugList(correlatiSlugsRaw.slice(0, 10), creds).catch(() => []);
+if (correlatiArticoli.length === 0) {
+  const preferred = await getFallbackRelatedArticles(
+    {
+      excludeSlug: articolo.slug,
+      lang: articolo.lang === 'en' ? 'en' : 'it',
+      categoriaMenu: articolo.categoria_menu ?? null,
+      limit: 4,
+    },
+    creds
+  ).catch(() => []);
+
+  correlatiArticoli = preferred;
+  if (correlatiArticoli.length === 0) {
+    correlatiArticoli = await getFallbackRelatedArticles(
+      {
+        excludeSlug: articolo.slug,
+        lang: articolo.lang === 'en' ? 'en' : 'it',
+        limit: 4,
+      },
+      creds
+    ).catch(() => []);
+  }
+}
+
+const correlatiSlugsEffective: string[] =
+  correlatiSlugsRaw.length > 0 ? correlatiSlugsRaw : correlatiArticoli.map((a) => a.slug);
 
 // ── Helper functions ───────────────────────────────────────────────────────────
 
@@ -98,7 +132,7 @@ function calculateReadingTimeFromHtml(html: string | null): number {
 const articleTitle = articolo.titolo;
 const articleDate = articolo.data_pubblicazione ? new Date(articolo.data_pubblicazione) : new Date();
 const autoreCompleto = articolo.autore as any;
-const autoreName: string = autoreCompleto?.nome_completo ?? 'Autore sconosciuto';
+const autoreName: string = autoreCompleto?.nome_completo ?? t(locale, 'author_unknown');
 const authorSlug = generateAuthorSlug(autoreName);
 
 const authorBioHtml: string | null = autoreCompleto?.bio_html?.trim() || null;
@@ -167,8 +201,9 @@ const rawCorpo = articolo.corpo ?? '';
 const { html: processedCorpo, hasInstagram } = processEmbeds(rawCorpo);
 
 const leggiAncheSlug = articolo.lang !== 'en'
-  ? correlatiSlugsRaw.find((s) => {
+  ? correlatiSlugsEffective.find((s) => {
       // Evita loop A→B→A: salta B se il primo correlato di B è A
+      if (correlatiSlugsRaw.length === 0) return true;
       const bCorrelati = correlatiMap[s] ?? [];
       return bCorrelati[0] !== articolo.slug;
     }) ?? null
@@ -198,7 +233,7 @@ const heroCaption: string | null = articolo.didascalia_copertina?.trim() || null
 
 const metaDescription = (explicitSubtitle || articolo.seo_description)
   ? (explicitSubtitle || articolo.seo_description)!.substring(0, 160).replace(/\s+/g, ' ').trim()
-  : `${articleTitle} - Articolo pubblicato su Ombre e Luci`;
+  : `${articleTitle} - ${t(locale, 'meta_article_default_suffix')}`;
 
 // ── Categoria, etichette, ruolo editoriale (taxonomy.js via megacluster) ───────
 
@@ -206,7 +241,10 @@ const categoryDisplay = getThemeLabel(articolo);
 const categorySlug = getCategorySlugForArticle(articolo);
 const categoryLink = categorySlug ? `/categoria/${categorySlug}` : null;
 const currentLabels = getLabels([], articolo);
-const formaDisplay = currentLabels.formal !== 'Articolo' ? currentLabels.formal : null;
+const formaDisplay =
+  currentLabels.formal && currentLabels.formal !== 'Articolo'
+    ? localizeFormalType(currentLabels.formal, locale)
+    : null;
 const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
 const showPubblicatoOnline = !hasIssue;
 
@@ -214,16 +252,16 @@ const { ruolo_editoriale } = getMegaclusterForArticle(articolo);
 let roleLabel: string | null = null;
 let roleClassName = '';
 if (ruolo_editoriale === 'portante') {
-  roleLabel = 'Portante';
+  roleLabel = t(locale, 'badge_role_portante');
   roleClassName = ' article-badge-role--portante';
 } else if (ruolo_editoriale === 'strutturale') {
-  roleLabel = 'Strutturale';
+  roleLabel = t(locale, 'badge_role_strutturale');
   roleClassName = ' article-badge-role--strutturale';
 } else if (ruolo_editoriale === 'laterale') {
-  roleLabel = 'Laterale';
+  roleLabel = t(locale, 'badge_role_laterale');
   roleClassName = ' article-badge-role--laterale';
 } else if (ruolo_editoriale === 'trasversale') {
-  roleLabel = 'Trasversale';
+  roleLabel = t(locale, 'badge_role_trasversale');
   roleClassName = ' article-badge-role--trasversale';
 }
 
@@ -241,7 +279,12 @@ const currentSlug = articolo.slug;
 
 // articolo_traduzione è già nel payload di getArticoloBySlug — nessuna query extra
 const alternateItem = articolo.articolo_traduzione ?? null;
-const alternateArticleUrl = alternateItem ? `/blog/${alternateItem.slug}` : null;
+// Fase 2 i18n: se il counterpart è EN, punta al nuovo URL canonico /en/[slug-senza-en].
+const alternateArticleUrl = alternateItem
+  ? alternateItem.lang === 'en'
+    ? `/en/${alternateItem.slug.endsWith('-en') ? alternateItem.slug.slice(0, -3) : alternateItem.slug}`
+    : `/blog/${alternateItem.slug}`
+  : null;
 
 // ── wpIdToSlugMap — solo dai correlati (per link enrichment client-side) ────────
 
@@ -275,7 +318,7 @@ for (const a of correlatiArticoli) {
 
 // ── Articoli correlati in calce (UMAP semantici) ──────────────────────────────
 
-const correlatiSlugs: string[] = correlatiSlugsRaw;
+const correlatiSlugs: string[] = correlatiSlugsEffective;
 
 const relatedArticles = (() => {
   // Correlati UMAP: salta il primo (già usato nel box "Leggi anche"), max 3
@@ -290,7 +333,7 @@ const relatedArticles = (() => {
     const { ruolo_editoriale: relRuolo } = getMegaclusterForArticle(a);
     return {
       title: a.titolo,
-      author: a.autore?.nome_completo ?? 'Autore sconosciuto',
+      author: a.autore?.nome_completo ?? t(locale, 'author_unknown'),
       date: a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(),
       issue: a.numero_rivista?.id_numero ?? null,
       slug: a.slug,
@@ -357,15 +400,32 @@ const relatedArticles = (() => {
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ombreeluci.it" },
-        ...(categoryDisplay && categoryLink ? [{
-          "@type": "ListItem", "position": 2,
-          "name": categoryDisplay,
-          "item": `https://ombreeluci.it${categoryLink}`
-        }] : []),
-        { "@type": "ListItem", "position": categoryLink ? 3 : 2, "name": articleTitle }
-      ]
+      "itemListElement": (() => {
+        const site = 'https://ombreeluci.it';
+        const archiveHref = locale === 'en' ? `${site}/blog/en` : `${site}/archivio`;
+        const items: Record<string, unknown>[] = [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": t(locale, 'nav_archive'),
+            "item": archiveHref,
+          },
+        ];
+        if (categoryDisplay && categoryLink) {
+          items.push({
+            "@type": "ListItem",
+            "position": 2,
+            "name": categoryDisplay,
+            "item": `${site}${categoryLink}`,
+          });
+        }
+        items.push({
+          "@type": "ListItem",
+          "position": items.length + 1,
+          "name": articleTitle,
+        });
+        return items;
+      })(),
     })} />
   </Fragment>
     <main class="site-main">
@@ -611,6 +671,7 @@ const relatedArticles = (() => {
           currentRole={ruolo_editoriale}
           url={Astro.url.href}
           articoloId={articolo.id}
+          lang={locale}
         />
       </div>
 
@@ -669,7 +730,7 @@ Slug: {articolo.slug}
         </pre>
       </details>
 
-      <section class="article-nav-section" aria-label="Navigazione">
+      <section class="article-nav-section" aria-label={t(locale, 'aria_article_bottom_nav')}>
         <a href={locale === 'en' ? '/blog/en' : '/'} class="back-link">← {t(locale, 'back_to_home')}</a>
       </section>
     </div>
@@ -685,7 +746,7 @@ Slug: {articolo.slug}
         var wpIdToSlugMap = data.wpIdToSlugMap || {};
         var inContentRelatedMap = data.inContentRelatedMap || {};
         var currentSlug = data.currentSlug;
-        var readAlsoLabel = data.readAlsoLabel || 'Leggi anche';
+        var readAlsoLabel = data.readAlsoLabel || (data.lang === 'en' ? 'READ ALSO' : 'Leggi anche');
         function getContainer() {
           return document.querySelector('article') || document.querySelector('.prose') || document.body;
         }

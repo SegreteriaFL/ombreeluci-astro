@@ -7,9 +7,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { t } from '../../utils/i18n';
-import { getAllArticoli, getArticoloCopertinaSrc } from '../../lib/directus';
+import { getAllArticoliBuild } from '../../lib/articoli-build';
+import { getArticoloCopertinaSrc } from '../../lib/directus';
 
-const allArticles = await getAllArticoli();
+const allArticles = await getAllArticoliBuild();
 const englishArticles = allArticles
   .filter((a) => a.lang === 'en')
   .sort((a, b) => {
