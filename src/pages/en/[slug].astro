@@ -32,17 +32,34 @@ const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 // ── SSR: fetch articolo on-demand ──────────────────────────────────────────────
 
 const creds = directusCredsFromAstroLocals(Astro.locals);
-// Il slug nell'URL NON include il suffisso '-en' (es. URL /en/il-progetto-dandelion/).
-// Il lookup Directus usa slug + '-en' (convenzione stabile su tutti i 131 articoli EN).
+// Slug nell'URL: non include il suffisso '-en' per articoli tradotti (es. /en/il-progetto-dandelion/)
+// ma può coincidere con il Directus slug per articoli originariamente in inglese
+// (es. /en/staying-connected-even-when-im-not-always-there).
+//
+// Strategia lookup a due tentativi:
+//   1. Cerca slug esatto (copre i 58 articoli EN con slug già in inglese)
+//   2. Se non trovato o non EN, cerca slug + '-en' (copre i 73 articoli tradotti)
 const urlSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
-const directusSlug = urlSlug.endsWith('-en') ? urlSlug : `${urlSlug}-en`;
 
 let articolo;
 try {
-  articolo = await getArticoloBySlug(directusSlug, creds);
+  articolo = await getArticoloBySlug(urlSlug, creds);
+  // Se trovato ma non è EN, ignoriamo (slug coincide con un articolo IT)
+  if (articolo && articolo.lang !== 'en') articolo = null;
 } catch (e) {
-  console.error('[en/[slug].astro] fetch error:', e);
   articolo = null;
+}
+
+if (!articolo) {
+  // Secondo tentativo: aggiungi '-en' (articoli tradotti IT→EN)
+  const directusSlug = urlSlug.endsWith('-en') ? urlSlug : `${urlSlug}-en`;
+  try {
+    articolo = await getArticoloBySlug(directusSlug, creds);
+    if (articolo && articolo.lang !== 'en') articolo = null;
+  } catch (e) {
+    console.error('[en/[slug].astro] fetch error:', e);
+    articolo = null;
+  }
 }
 
 // Questa route serve SOLO articoli EN.
@@ -265,7 +282,7 @@ const alternateArticleUrl = (alternateItem && alternateItem.lang !== 'en')
 
 // ── Dati per enrichment client-side ───────────────────────────────────────────
 
-const currentSlug = directusSlug;
+const currentSlug = articolo.slug; // slug reale in Directus
 const currentWpIdClean = String(articolo.wp_id ?? '');
 
 const wpIdToSlugMap: Record<number, string> = {};
