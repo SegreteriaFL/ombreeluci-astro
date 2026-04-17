@@ -26,6 +26,8 @@ const [tag, articoli] = await Promise.all([
 if (!tag) {
   return new Response('Not found', { status: 404 });
 }
+
+Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
 ---
 
 <BaseLayout
