@@ -21,7 +21,10 @@ const linkUrl = `/archivio/${numeroSlug}`;
 // Rimuove prefissi ridondanti (es. "Numero 172 – " o "Ombre e Luci n. 172 – ")
 // che compaiono quando titolo_numero viene dal fallback display_title.
 const temaClean = titolo_numero
-  ? titolo_numero.replace(/^(numero|ombre\s+e\s+luci)\s+n\.?\s*\d+\s*[-–—]\s*/i, '').trim()
+  ? titolo_numero
+      .replace(/^ombre\s+e\s+luci\s+n\.?\s*\d+\s*[-–—]\s*/i, '')
+      .replace(/^numero\s+\d+\s*[-–—]\s*/i, '')
+      .trim()
   : '';
 const cardTitle = temaClean ? `N.${numero} – ${temaClean}` : `N.${numero}`;
 
