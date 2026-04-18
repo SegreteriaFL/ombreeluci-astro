@@ -594,3 +594,21 @@ export async function getArticoliByTag(
   );
   return data?.data ?? [];
 }
+
+export async function getArticoliEN(
+  creds?: DirectusRuntimeCreds,
+  limit = 500
+): Promise<ArticoloFull[]> {
+  const params = new URLSearchParams({
+    'filter[stato][_eq]': 'published',
+    'filter[lang][_eq]': 'en',
+    fields: ARTICOLO_LIST_FIELDS,
+    limit: String(limit),
+    sort: '-data_pubblicazione',
+  });
+  const data = await directusFetch<{ data: ArticoloFull[] }>(
+    `/items/articoli?${params}`,
+    creds
+  );
+  return data?.data ?? [];
+}

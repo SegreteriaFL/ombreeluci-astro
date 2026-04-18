@@ -26,17 +26,30 @@ import concurrent.futures
 import csv
 import hashlib
 import html.parser
+import io
 import json
 import os
 import re
 import sys
+
+# Force UTF-8 stdout on Windows (avoids charmap errors with ✓/✗)
+if hasattr(sys.stdout, 'buffer'):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+import sys
 import time
+import ssl
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
 import uuid
 from datetime import datetime
 from pathlib import Path
+
+# VPS usa certificato self-signed — disabilita verifica SSL per connessioni Directus
+_SSL_CTX = ssl.create_default_context()
+_SSL_CTX.check_hostname = False
+_SSL_CTX.verify_mode = ssl.CERT_NONE
 from threading import Lock
 
 # ─── Config ─────────────────────────────────────────────────────────────────
@@ -141,6 +154,22 @@ class RateLimiter:
                 self._otokens = out_tok
 
 rate_limiter = RateLimiter()
+
+# ─── Slug helpers ────────────────────────────────────────────────────────────
+
+def slugify_en(title: str, fallback: str) -> str:
+    """Genera uno slug ASCII da un titolo inglese tradotto."""
+    if not title or not title.strip():
+        return fallback
+    # Normalizza unicode e rimuovi diacritici
+    text = unicodedata.normalize('NFD', title)
+    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
+    text = text.lower()
+    # Rimuovi caratteri non alfanumerici (eccetto spazi e trattini)
+    text = re.sub(r"[^a-z0-9\s\-]", "", text)
+    # Comprimi spazi/trattini multipli
+    text = re.sub(r"[\s\-]+", "-", text).strip("-")
+    return text if text else fallback
 
 # ─── HTML validator ──────────────────────────────────────────────────────────
 
@@ -277,25 +306,26 @@ def _headers() -> dict:
     return {
         "Authorization": f"Bearer {DIRECTUS_TOKEN}",
         "Content-Type": "application/json",
+        "User-Agent": "OEL-Translate/1.0",
     }
 
 def d_get(path: str) -> dict:
     req = urllib.request.Request(f"{DIRECTUS_URL}{path}", headers=_headers())
-    with urllib.request.urlopen(req, timeout=30) as r:
+    with urllib.request.urlopen(req, timeout=30, context=_SSL_CTX) as r:
         return json.loads(r.read())
 
 def d_post(path: str, payload: dict) -> dict:
     data = json.dumps(payload).encode()
     req = urllib.request.Request(f"{DIRECTUS_URL}{path}", data=data,
                                   headers=_headers(), method="POST")
-    with urllib.request.urlopen(req, timeout=30) as r:
+    with urllib.request.urlopen(req, timeout=30, context=_SSL_CTX) as r:
         return json.loads(r.read())
 
 def d_patch(path: str, payload: dict) -> dict:
     data = json.dumps(payload).encode()
     req = urllib.request.Request(f"{DIRECTUS_URL}{path}", data=data,
                                   headers=_headers(), method="PATCH")
-    with urllib.request.urlopen(req, timeout=30) as r:
+    with urllib.request.urlopen(req, timeout=30, context=_SSL_CTX) as r:
         return json.loads(r.read())
 
 # ─── Core translation call ───────────────────────────────────────────────────
@@ -437,27 +467,26 @@ def process(
 ) -> dict:
     it_id   = article["id"]
     it_slug = article["slug"]
-    en_slug = f"{it_slug}-en"
     shash   = source_hash(article)
 
     log = {k: "" for k in CSV_FIELDS}
     log.update({
         "job_id": job_id, "it_id": it_id, "it_slug": it_slug,
-        "en_slug": en_slug, "source_hash": shash,
+        "source_hash": shash,
         "timestamp": datetime.utcnow().isoformat(),
     })
 
     try:
+        if dry_run:
+            log.update({"status": "dry-run", "en_id": "DRY", "en_slug": f"{it_slug}-[en-title]"})
+            print(f"  [DRY] {it_slug} | corpo: {len(article.get('corpo') or '')} chars")
+            return log
+
         translated, in_tok, out_tok = call_haiku(client, article)
+        en_slug = slugify_en(translated.get("titolo", ""), fallback=it_slug)
 
         cost = round(in_tok * (0.80/1e6) + out_tok * (4.00/1e6), 6)
-        log.update({"input_tokens": in_tok, "output_tokens": out_tok, "cost_usd": cost})
-
-        if dry_run:
-            log.update({"status": "dry-run", "en_id": "DRY"})
-            print(f"  [DRY] {it_slug} → {en_slug}")
-            print(f"        Titolo EN: {translated['titolo'][:80]}")
-            return log
+        log.update({"input_tokens": in_tok, "output_tokens": out_tok, "cost_usd": cost, "en_slug": en_slug})
 
         # Crea articolo EN
         autore_id   = (article.get("autore") or {}).get("id")
@@ -593,12 +622,12 @@ def main():
     print(f"Errori:       {err_count}  ({'%.1f' % (err_count/max(1,len(all_logs))*100)}%)")
     print(f"Token input:  {total_in:,}")
     print(f"Token output: {total_out:,}")
-    print(f"Costo reale:  ${total_cost:.4f}  (≈€{total_cost/0.92:.2f})")
+    print(f"Costo reale:  ${total_cost:.4f}  (~EUR {total_cost/0.92:.2f})")
     print(f"Log:          {LOGS_DIR / args.job_id}.csv")
 
     if err_count / max(1, len(all_logs)) > 0.01:
         print()
-        print("⚠  Tasso errori > 1% — esegui qa_check.py prima di pubblicare")
+        print("WARN: Tasso errori > 1% -- esegui qa_check.py prima di pubblicare")
 
 if __name__ == "__main__":
     main()

@@ -103,9 +103,15 @@ articoli
 
 ### 4.1 Slug convention per nuove traduzioni EN
 
-**Formula: `{slug-italiano}-en`**
+**Formula: `slugify(titolo_en_tradotto)`**
 
-I 131 EN legacy (da WordPress) mantengono i loro slug originali.
+Lo slug EN viene generato dal titolo inglese tradotto (lowercase ASCII, spazi → `-`, caratteri speciali rimossi).
+Esempio: IT `alto-come-un-vaso-di-gerani-recensione` → EN `as-tall-as-a-geranium-pot-review`.
+
+**Fallback**: se lo slug generato confligge con un slug IT esistente (es. titoli identici IT/EN), si mantiene `{slug-it}-en`.
+La route `/en/[slug].astro` gestisce entrambi i casi via two-attempt lookup.
+
+I 131 EN legacy (da WordPress) e i 50 del pilot-20260418 mantengono gli slug originali aggiornati con questa formula.
 
 ### 4.2 Matching IT↔EN per i 131 EN esistenti (backfill)
 
