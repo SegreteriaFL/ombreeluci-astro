@@ -1,7 +1,46 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-13 (allineamento staging redazione + stato branch/main)
+**Ultimo aggiornamento:** 2026-04-18 (3 blockers chiusi: webhook rebuild, Pagefind decision, Utente Redazione UAT)
 **Stato:** Stack Astro+Directus attivo su staging — output:hybrid, blog SSR on-demand con edge cache CF. WordPress su Aruba resta online fino al cutover DNS finale.
+
+---
+
+## Sessione 2026-04-18 — 3 blockers chiusi
+
+### 1) Webhook rebuild CF Pages ✅
+
+| Cosa | Dettaglio |
+|------|-----------|
+| Directus Flow | `4adc7d3b` — "Rebuild CF Pages on Publish", trigger `items.update` su `articoli` |
+| Condizione | `$trigger.payload.stato._eq: "published"` — si attiva solo al passaggio a published |
+| Azione | POST `https://api.cloudflare.com/client/v4/accounts/6b071de7f…/pages/projects/ombreeluci-staging/deployments` |
+| Token CF | `CLOUDFLARE_API_TOKEN` da `.env` (hardcoded nell'operation Directus — da spostare in secret Directus se prod) |
+| Nota | Se si modifica un articolo già pubblicato (es. typo fix), il rebuild non si attiva automaticamente perché `stato` non cambia. In quel caso rebuild manuale da CF Pages dashboard. |
+
+**Rebuild di verifica triggerato manualmente** il 2026-04-18 (id: `87f8ce8e`) → stato: success.
+
+### 2) Pagefind — decisione ✅
+
+Mantenuto as-is. Rivista con ~3500 articoli storici, publish rate basso (≤1/settimana). Con il webhook rebuild, il Pagefind index si rigenera entro ~2-3 min dalla pubblicazione. Eventual consistency accettabile. Nessun codice modificato.
+
+### 4) Bug permissions — Redazione poteva modificare articoli published ✅ FIXED
+
+**Scoperto durante UAT (test automatizzato).** La permission `update` su `articoli` (id:92, policy Redazione) aveva `permissions: null` — nessun filtro sull'item corrente. La `validation` bloccava solo il valore in scrittura ma non impediva di toccare articoli già published.
+
+**Fix:** aggiunto `permissions: {"stato": {"_in": ["draft", "review"]}}` alla permission id:92.
+Ora la redazione può modificare solo articoli in stato draft o review.
+
+### 3) Utente Redazione UAT ✅
+
+| Campo | Valore |
+|-------|--------|
+| Email | `redazione-uat@ombreeluci.it` |
+| Password | `OmbreLuci2026!` _(solo staging UAT — da cambiare o eliminare prima del go-live)_ |
+| Ruolo | Redazione (`6916a57d`) |
+| Status | active |
+| UUID | `c51ffd7e-f278-49f0-8b1d-0d511c3b4d4a` |
+
+Usare questo account per UAT del flow redazione in staging.
 
 ---
 
@@ -148,6 +187,37 @@ I 7 ambigui e 11 no-match vanno revisionati manualmente dal CSV (slug EN → slu
 **Perché non vedi deploy “del branch i18n”:** il progetto CF Pages **`ombreeluci-staging`** è configurato per buildare da **`main`** (push → deploy). Il lavoro su **`feat/i18n-shell`** è in repo **solo dopo merge su `main` + `git push origin main`** (o preview branch se attivata in dashboard CF). In locale: `git branch` mostra `* feat/i18n-shell`; su GitHub il branch compare dopo `git push -u origin feat/i18n-shell`.
 
 **Ordine consigliato:** (1) commit + merge `feat/i18n-shell` → `main`, (2) push `main`, (3) attendere deploy verde in Cloudflare → Dashboard **Workers & Pages** → progetto Pages → ultimo deployment, (4) solo allora smoke su URL sopra — altrimenti si testa il **codice vecchio** su staging.
+
+---
+
+### Sessione 2026-04-17/18 — CMS-01 UX redazione: permessi, form, tag, asset
+
+| Area | Root cause | Fix applicato | Stato |
+|------|-----------|---------------|-------|
+| **FASE 4 Permessi Redazione** | Policy `0a5492ea` non collegata al ruolo; permessi API bloccati da schema in-memory | INSERT in `directus_access` via psql; 31 permissions create via psql; stato articoli limitato a `draft/review` | ✅ |
+| **Form articoli vuoto** | `group-detail` container (`group_contenuto` ecc.) esclusi da `FieldsService` perché `group` non è in `ALIAS_TYPES` | `special = 'alias,group'` sui 6 container → passano il filtro ALIAS_TYPES | ✅ |
+| **GET /items/articoli?fields=* → 500** | `alias` in special → `getSchema` aggiunge i container al runtime schema → `convertWildcards` li espande in SELECT SQL → `column group_seo does not exist` | `special = 'alias,group,no-data'`: `getSchema` filtra `no-data` prima di ALIAS_TYPES; `FieldsService` non ha quel filtro → visibili in UI, assenti da SQL | ✅ |
+| **tags.slug vuoto nel drawer** | Directus valida NOT NULL da schema DB prima del trigger; slug interface non si attiva in drawer M2M | `ALTER TABLE tags ALTER COLUMN slug DROP NOT NULL` + trigger PG `BEFORE INSERT OR UPDATE` con translitterazione IT + suffix numerico per duplicati | ✅ |
+| **Asset Directus → 403 anonimo** | Policy pubblica `abf8a154` senza `read` su `directus_files` | Permesso `directus_files/read` aggiunto (permission id `121`) + test anonimo su `/assets/{uuid}` | ✅ |
+
+**Stato Directus post-sessione:**
+- 6 group container: `special = ['alias','group','no-data']` — form visibile, items 200, nessun group_* in payload
+- Ruolo Redazione + Policy Redazione attivi, 31 permessi su articoli/autori/tags/temi/serie/numeri_rivista/junction
+- `tags.slug`: trigger `tags_auto_slug_fn()` attivo, colonna nullable, UNIQUE constraint invariata
+- Asset pubblici: endpoint anonimo validato (`GET /assets/{uuid}` → HTTP 200)
+
+**Prossimo step:** validare in staging che le copertine nuove rispondano 200 via `https://cms.ombreeluci.it/assets/{uuid}` e aggiornare DoD operativo.
+
+**Evidenze test/validazione (2026-04-18):**
+- `npm run typecheck` ✅ (`tsc --noEmit` exit 0)
+- `npm run test` ⚠️ smoke non eseguibile senza dev server locale: `fetch failed` su `http://localhost:4321/blog/en/` (nessun errore applicativo rilevato; prerequisito: avviare `npm run dev` e impostare `SMOKE_BASE_URL`)
+- Verifica infrastruttura asset: `GET https://cms.ombreeluci.it/assets/{uuid}` in anonimo → HTTP 200 (post-fix permessi `directus_files`)
+
+**Definition of Done (bug copertine staging):**
+1. URL immagine nel DOM articolo usa `https://cms.ombreeluci.it/assets/{uuid}` (non path R2 legacy)
+2. Request asset da staging restituisce HTTP 200 (no 403/404) in Network tab
+3. Articolo senza copertina mostra placeholder `'/images/placeholder-copertina.svg'`
+4. Pagina autori mostra foto da `/assets/{uuid}` o placeholder
 
 ---
 
