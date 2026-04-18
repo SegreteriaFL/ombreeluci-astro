@@ -17,8 +17,13 @@ const isOEL = tipo_rivista !== 'insieme' && !id_numero.toLowerCase().startsWith(
 const numeroSlug = id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-');
 const linkUrl = `/archivio/${numeroSlug}`;
 
-// Titolo card: "n.172 – Paradigma Pompei"
-const cardTitle = titolo_numero ? `n.${numero} – ${titolo_numero}` : `n.${numero}`;
+// Titolo card: "N.172 – Paradigma Pompei"
+// Rimuove prefissi ridondanti (es. "Numero 172 – " o "Ombre e Luci n. 172 – ")
+// che compaiono quando titolo_numero viene dal fallback display_title.
+const temaClean = titolo_numero
+  ? titolo_numero.replace(/^(numero|ombre\s+e\s+luci)\s+n\.?\s*\d+\s*[-–—]\s*/i, '').trim()
+  : '';
+const cardTitle = temaClean ? `N.${numero} – ${temaClean}` : `N.${numero}`;
 
 // Anno di vita della rivista: OEL anno 1 = 1983 → anno - 1982; INS anno 1 = 1974 → anno - 1973
 const annoRivista = isOEL ? anno - 1982 : anno - 1973;
