@@ -23,6 +23,34 @@
 
 Mantenuto as-is. Rivista con ~3500 articoli storici, publish rate basso (≤1/settimana). Con il webhook rebuild, il Pagefind index si rigenera entro ~2-3 min dalla pubblicazione. Eventual consistency accettabile. Nessun codice modificato.
 
+### 5) Slug articoli — auto-generazione e sanitizzazione ✅
+
+**Problema:** slug campo testo libero → redazione inseriva slash, maiuscole, o copiava URL con trailing slash.
+Caso reale: `ho-votato-no/` in DB → 404 sulla route SSR.
+
+**Soluzione implementata (multi-layer):**
+
+| Layer | Cosa | Dettaglio |
+|-------|------|-----------|
+| DB trigger | `articoli_slug_autogen_trigger` (BEFORE INSERT OR UPDATE) | Genera da titolo se NULL; sanitizza sempre |
+| `unaccent` extension | Translitterazione accenti IT/EU | `é→e`, `à→a`, `ü→u`, ecc. via PostgreSQL `unaccent` |
+| Campo Directus | Cambiato da `interface: slug` a `interface: input` | Rimossa auto-generazione lato server Directus (genera slug tronco per accenti) |
+| Nota campo | "Lascia vuoto: verrà generato automaticamente dal titolo al salvataggio" | Guida redazione |
+| NOT NULL rimosso | `ALTER TABLE articoli ALTER COLUMN slug DROP NOT NULL` | Il trigger garantisce slug sempre valorizzato |
+
+**Comportamento trigger:**
+- INSERT senza slug → genera da titolo con unaccent + lowercase + [^a-z0-9]→`-`
+- INSERT/UPDATE con slug → sanitiza (lowercase, strip `/`, no char speciali, no doppi trattini)
+- Duplicati → suffix numerico (`-1`, `-2`, ...)
+- UPDATE senza modifica slug → slug invariato (UPDATE non in branch generazione)
+
+**Test validati (psql diretto, encoding UTF-8 corretto):**
+- `Perché là è così difficile?` → `perche-la-e-cosi-difficile`
+- `Un percorso verso la libertà` → `un-percorso-verso-la-liberta`
+- Duplicato → `-1`, `-2` suffix
+- `SLUG/Con SLASH/` → `slug-con-slash`
+- Update titolo → slug invariato
+
 ### 4) Bug permissions — Redazione poteva modificare articoli published ✅ FIXED
 
 **Scoperto durante UAT (test automatizzato).** La permission `update` su `articoli` (id:92, policy Redazione) aveva `permissions: null` — nessun filtro sull'item corrente. La `validation` bloccava solo il valore in scrittura ma non impediva di toccare articoli già published.
