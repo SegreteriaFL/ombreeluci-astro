@@ -2,29 +2,20 @@
 /**
  * EN article index: /en/
  *
- * Corrisponde alla vecchia /blog/en (ora redirect 301 → /en/).
- * ArticleCard usa basePath="/en" per generare link /en/[slug] (senza suffisso -en).
+ * SSR (prerender=false) — mostra sempre gli articoli EN più recenti da Directus.
  */
+export const prerender = false;
+
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
 import { t } from '../../utils/i18n';
-import { getAllArticoliBuild } from '../../lib/articoli-build';
-import { getArticoloCopertinaSrc } from '../../lib/directus';
+import { getArticoliEN, getArticoloCopertinaSrc, directusCredsFromAstroLocals } from '../../lib/directus';
 
-const allArticles = await getAllArticoliBuild();
-const englishArticles = allArticles
-  .filter((a) => a.lang === 'en')
-  .sort((a, b) => {
-    const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
-    const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
-    return tB - tA;
-  });
+const creds = directusCredsFromAstroLocals(Astro.locals);
+const englishArticles = await getArticoliEN(creds);
 
-// slug EN → URL EN: rimuove il suffisso -en per costruire /en/[slug-senza-en]
-function toEnUrl(slug: string): string {
-  return slug.endsWith('-en') ? slug.slice(0, -3) : slug;
-}
+Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
 ---
 
 <BaseLayout
@@ -46,7 +37,7 @@ function toEnUrl(slug: string): string {
           return (
             <ArticleCard
               title={a.titolo}
-              slug={toEnUrl(a.slug)}
+              slug={a.slug}
               categoriaMenu={categoria_menu ?? undefined}
               issue={a.numero_rivista?.id_numero ?? null}
               forma={formal}

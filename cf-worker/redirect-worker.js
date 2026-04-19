@@ -1088,7 +1088,20 @@ export default {
       return Response.redirect('https://ombreeluci.it/blog/' + dateMatch[1], 301);
     }
 
-    // Tutto il resto → Astro su Pages (SSR/hybrid + static). Mai fetch(request): risolverebbe Aruba.
-    return forwardToPages(request, env);
+    // Tutto il resto → WordPress su Aruba (sito di produzione).
+    // forwardToPages (Astro staging) è DISABILITATO: il sito Astro non è ancora pronto.
+    const wpTarget = new URL(request.url);
+    wpTarget.hostname = ARUBA_IP;
+    wpTarget.protocol = 'http:';
+    wpTarget.port = '80';
+    const wpHeaders = new Headers(request.headers);
+    wpHeaders.set('Host', WP_HOST);
+    wpHeaders.delete('cf-connecting-ip');
+    return fetch(new Request(wpTarget.toString(), {
+      method: request.method,
+      headers: wpHeaders,
+      body: ['GET', 'HEAD'].includes(request.method) ? undefined : request.body,
+      redirect: 'manual',
+    }));
   }
 };

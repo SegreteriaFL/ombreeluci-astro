@@ -26,11 +26,14 @@ import concurrent.futures
 import csv
 import hashlib
 import html.parser
+import io
 import json
 import os
 import re
+import ssl
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -38,6 +41,15 @@ import uuid
 from datetime import datetime
 from pathlib import Path
 from threading import Lock
+
+# Force UTF-8 stdout on Windows (avoids charmap errors with ✓/✗)
+if hasattr(sys.stdout, 'buffer'):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
+# VPS usa certificato self-signed — disabilita verifica SSL per connessioni Directus
+_SSL_CTX = ssl.create_default_context()
+_SSL_CTX.check_hostname = False
+_SSL_CTX.verify_mode = ssl.CERT_NONE
 
 # ─── Config ─────────────────────────────────────────────────────────────────
 
@@ -66,13 +78,37 @@ DELIM_SEO        = "===SEO==="
 DELIM_CORPO      = "===CORPO==="
 
 SYSTEM_PROMPT = """\
-You are a professional translator for Ombre e Luci, an Italian Catholic magazine about
+You are a bilingual editor for Ombre e Luci, an Italian Catholic magazine about
 disability, faith, and human dignity, published since 1974.
+
+Your job is NOT to translate. Your job is to write an English magazine article that carries
+the same meaning, emotion, and narrative arc as the Italian source — but reads as if it was
+originally written in English by a skilled native speaker. Think: an editor at The Atlantic
+or Tablet magazine who happens to be fluent in Italian. You are rewriting, not transcribing.
 
 === CRITICAL TRANSLATION RULES ===
 
-1. FAITHFUL VOICE: Translate accurately from Italian to English. Preserve the author's
-   voice, style, and the cultural context of the original era.
+1. FAITHFUL VOICE (idiomatic English by default):
+   - For STANDARD editorial Italian — fluent prose by adults or professional journalists —
+     write NATURAL English: idiomatic word order, punctuation, and rhythm. Prefer a sentence
+     that reads like a native magazine piece over a literal clause-by-clause mirror of Italian.
+     Titles and standfirsts must sound like original English headlines, not calques.
+   - Preserve meaning, tone, emphasis, and cultural/historical context; semantic fidelity beats
+     literal word order when the two conflict.
+   - SENTENCE STRUCTURE: Italian academic and magazine prose favors long periodic sentences
+     with multiple subordinate clauses. English magazine writing favors shorter, crisper
+     sentences. You MAY split a long Italian sentence into two or three English sentences
+     when doing so improves clarity and rhythm — provided the meaning is fully preserved.
+   - ACTIVE VOICE: Prefer active constructions over passive when the Italian passive carries
+     no special emphasis. "È stato dimostrato che" → "Research shows that", not "It has been
+     demonstrated that".
+   - AVOID CALQUES: Common Italian-to-English false constructions to reject:
+     "make reference to" → "refer to" | "in occasion of" → "at / on the occasion of" |
+     "result to be" → "turn out to be" | "give the possibility" → "allow" |
+     "carry out an activity" → "carry out / do" | "at the level of" → "in terms of / at".
+   - Rule 3 (irregular grammar) applies ONLY when the Italian source is intentionally non-standard
+     (childlike syntax, deliberate fragments, strong oral/vulnerable voice). Do not use "preserve
+     voice" to justify stiff English when the source Italian is ordinary literary/editorial prose.
 
 2. DISABILITY TERMINOLOGY — NEVER MODERNIZE:
    Preserve period-accurate disability terms exactly as written:
@@ -93,10 +129,69 @@ disability, faith, and human dignity, published since 1974.
 5. PROPER NAMES — DO NOT TRANSLATE:
    "Fede e Luce", "Ombre e Luci", Italian cities/persons, "don/padre/suor" titles.
 
-6. THEOLOGICAL TERMS: "misericordia"→"mercy", "carisma"→"charism",
+6. VOCABULARY — PREFER PRECISION OVER VARIETY:
+   English favors repeating the exact right word over hunting for synonyms. Italian writers
+   vary synonyms to avoid repetition; do NOT import this habit. Use the same clear term
+   consistently ("disabled", "handicapped", "child") rather than rotating near-synonyms that
+   sound forced or off-register in English. Exception: theological/spiritual terms where
+   variety is meaningful.
+
+7. NARRATIVE TENSE CONSISTENCY:
+   For narrative/biographical texts in past tense: maintain consistent simple past throughout.
+   Do not switch between past and present within the same paragraph unless the Italian original
+   deliberately uses the historic present for dramatic effect (and even then, consider converting
+   to past tense if it reads more naturally in English).
+
+8. TITLES — REWRITE AS ENGLISH HEADLINES, NOT TRANSLATIONS:
+   A direct translation of an Italian title is almost always wrong. Italian titles can be
+   noun phrases or subordinate clauses; English magazine headlines prefer short, punchy,
+   verb-driven constructions. Ask yourself: would a native English editor write this headline?
+   If not, rework it. Keep the meaning and emotional register but prioritize impact over
+   literal fidelity. Example: "La difficile storia di Enrico" → "Enrico's Difficult Path"
+   (not "The Difficult Story of Enrico").
+
+9. VERB REGISTER — PREFER GERMANIC OVER LATINATE:
+   English has two vocabularies: Germanic (short, direct, conversational) and Latinate
+   (long, formal, academic). Italian maps naturally to Latinate English — which sounds
+   stiff and over-educated to a native reader. In personal narratives and magazine prose,
+   use the simpler Germanic/conversational verb:
+   - "transmit" → "pass on" / "share"      - "contemplate" → "think about" / "sit with"
+   - "evaluate" → "weigh" / "look at"       - "utilize" → "use"
+   - "endeavor" → "try"                      - "demonstrate" → "show"
+   - "commence" → "start" / "begin"          - "encounter" → "meet" / "run into"
+   - "experience [noun]" → describe the action ("they lived through" not "they had the
+     experience of")                          - "elaborate" → "develop" / "work out"
+   Exception: theological/formal/academic contexts where Latinate register is appropriate.
+
+10. SENTENCE RHYTHM — HARD LIMITS:
+    Italian periodic prose sustains 5-clause sentences. English magazine prose does not.
+    HARD CAP: if a sentence exceeds ~25 words, split it. No exceptions except dialogue.
+    After a long sentence, write a short one. Sometimes one word. Let the text breathe.
+    PUNCTUATION RULE: an Italian comma or semicolon between independent clauses almost
+    always becomes an English full stop. Do not chain clauses with commas.
+    CONNECTORS TO CUT: "And so,", "But when,", "In fact,", "Evidently," at sentence
+    openings are Italian connective tissue. English handles this with a new paragraph
+    or a simple short sentence. Cut them.
+    FILLER PHRASES TO DELETE: "it is possible to say that", "we can notice that",
+    "one can observe", "it is important to underline" — delete entirely or recast as
+    a direct statement.
+
+10b. VERBS OVER ADVERBS — NO EXCEPTIONS:
+    If you write verb + -ly adverb, stop and find a stronger verb instead.
+    "deeply love" → "cherish" | "speak softly" → "whisper" | "greatly admire" → "admire"
+    "intensely feel" → "feel" (cut the adverb) | "faithfully follow" → "follow closely"
+    Adverbs are almost always a sign that the verb choice was too weak. Fix the verb.
+
+11. THEOLOGICAL TERMS: "misericordia"→"mercy", "carisma"→"charism",
    "testimonianza"→"testimony", "fragilità"→"fragility".
 
-7. OUTPUT FORMAT — MANDATORY:
+12. CUT AND CONDENSE:
+    A good English editor cuts 20-30% of words from verbose Italian without losing meaning.
+    Redundant phrases ("in order to" → "to"), throat-clearing ("It must be said that…" → cut),
+    doubled adjectives ("long and difficult" → "hard") — all of these should go.
+    The test: if removing a word changes nothing, remove it.
+
+13. OUTPUT FORMAT — MANDATORY:
    Return the translation using EXACTLY these delimiters (no other text):
 
 ===TITOLO===
@@ -142,6 +237,22 @@ class RateLimiter:
 
 rate_limiter = RateLimiter()
 
+# ─── Slug helpers ────────────────────────────────────────────────────────────
+
+def slugify_en(title: str, fallback: str) -> str:
+    """Genera uno slug ASCII da un titolo inglese tradotto."""
+    if not title or not title.strip():
+        return fallback
+    # Normalizza unicode e rimuovi diacritici
+    text = unicodedata.normalize('NFD', title)
+    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
+    text = text.lower()
+    # Rimuovi caratteri non alfanumerici (eccetto spazi e trattini)
+    text = re.sub(r"[^a-z0-9\s\-]", "", text)
+    # Comprimi spazi/trattini multipli
+    text = re.sub(r"[\s\-]+", "-", text).strip("-")
+    return text if text else fallback
+
 # ─── HTML validator ──────────────────────────────────────────────────────────
 
 class HTMLChecker(html.parser.HTMLParser):
@@ -170,8 +281,13 @@ def is_html_structurally_ok(original: str, translated: str) -> tuple[bool, str]:
 
     tags_orig = count_tags(original)
     tags_trad = count_tags(translated)
-    if tags_orig > 5 and abs(tags_orig - tags_trad) > max(2, tags_orig * 0.15):
-        return False, f"tag count: {tags_orig} orig vs {tags_trad} trad"
+    if tags_orig > 5:
+        # Fail se il modello RIMUOVE più del 25% dei tag (perdita di struttura)
+        if tags_orig - tags_trad > max(3, tags_orig * 0.25):
+            return False, f"tag count: {tags_orig} orig vs {tags_trad} trad"
+        # Fail se il modello AGGIUNGE più del 300% dei tag (hallucina HTML)
+        if tags_trad - tags_orig > max(5, tags_orig * 3.0):
+            return False, f"tag count: {tags_orig} orig vs {tags_trad} trad"
 
     missing_hrefs = extract_hrefs(original) - extract_hrefs(translated)
     if missing_hrefs:
@@ -277,25 +393,26 @@ def _headers() -> dict:
     return {
         "Authorization": f"Bearer {DIRECTUS_TOKEN}",
         "Content-Type": "application/json",
+        "User-Agent": "OEL-Translate/1.0",
     }
 
 def d_get(path: str) -> dict:
     req = urllib.request.Request(f"{DIRECTUS_URL}{path}", headers=_headers())
-    with urllib.request.urlopen(req, timeout=30) as r:
+    with urllib.request.urlopen(req, timeout=30, context=_SSL_CTX) as r:
         return json.loads(r.read())
 
 def d_post(path: str, payload: dict) -> dict:
     data = json.dumps(payload).encode()
     req = urllib.request.Request(f"{DIRECTUS_URL}{path}", data=data,
                                   headers=_headers(), method="POST")
-    with urllib.request.urlopen(req, timeout=30) as r:
+    with urllib.request.urlopen(req, timeout=30, context=_SSL_CTX) as r:
         return json.loads(r.read())
 
 def d_patch(path: str, payload: dict) -> dict:
     data = json.dumps(payload).encode()
     req = urllib.request.Request(f"{DIRECTUS_URL}{path}", data=data,
                                   headers=_headers(), method="PATCH")
-    with urllib.request.urlopen(req, timeout=30) as r:
+    with urllib.request.urlopen(req, timeout=30, context=_SSL_CTX) as r:
         return json.loads(r.read())
 
 # ─── Core translation call ───────────────────────────────────────────────────
@@ -437,27 +554,26 @@ def process(
 ) -> dict:
     it_id   = article["id"]
     it_slug = article["slug"]
-    en_slug = f"{it_slug}-en"
     shash   = source_hash(article)
 
     log = {k: "" for k in CSV_FIELDS}
     log.update({
         "job_id": job_id, "it_id": it_id, "it_slug": it_slug,
-        "en_slug": en_slug, "source_hash": shash,
+        "source_hash": shash,
         "timestamp": datetime.utcnow().isoformat(),
     })
 
     try:
+        if dry_run:
+            log.update({"status": "dry-run", "en_id": "DRY", "en_slug": f"{it_slug}-[en-title]"})
+            print(f"  [DRY] {it_slug} | corpo: {len(article.get('corpo') or '')} chars")
+            return log
+
         translated, in_tok, out_tok = call_haiku(client, article)
+        en_slug = slugify_en(translated.get("titolo", ""), fallback=it_slug)
 
         cost = round(in_tok * (0.80/1e6) + out_tok * (4.00/1e6), 6)
-        log.update({"input_tokens": in_tok, "output_tokens": out_tok, "cost_usd": cost})
-
-        if dry_run:
-            log.update({"status": "dry-run", "en_id": "DRY"})
-            print(f"  [DRY] {it_slug} → {en_slug}")
-            print(f"        Titolo EN: {translated['titolo'][:80]}")
-            return log
+        log.update({"input_tokens": in_tok, "output_tokens": out_tok, "cost_usd": cost, "en_slug": en_slug})
 
         # Crea articolo EN
         autore_id   = (article.get("autore") or {}).get("id")
@@ -477,7 +593,18 @@ def process(
         if numero_id:                     payload["numero_rivista"] = numero_id
         if copertina_id:                  payload["immagine_copertina"] = copertina_id
 
-        created = d_post("/items/articoli", payload)
+        try:
+            created = d_post("/items/articoli", payload)
+        except urllib.error.HTTPError as e:
+            if e.code == 400:
+                # Slug conflict: aggiungi suffisso hash dell'id IT (4 char)
+                suffix = it_id[:4]
+                payload["slug"] = f"{en_slug}-{suffix}"
+                en_slug = payload["slug"]
+                log["en_slug"] = en_slug
+                created = d_post("/items/articoli", payload)
+            else:
+                raise
         en_id   = created["data"]["id"]
 
         # Collegamento bidirezionale
@@ -511,6 +638,8 @@ def main():
                         help="Seleziona solo articoli con corpo >= N token (ibrida: Sonnet sui lunghi)")
     parser.add_argument("--max-tokens", type=int, default=0,
                         help="Seleziona solo articoli con corpo < N token")
+    parser.add_argument("--offset",     type=int, default=0,
+                        help="Salta i primi N articoli dalla lista (utile per bypassare problematici)")
     args = parser.parse_args()
 
     if not DIRECTUS_TOKEN:
@@ -526,9 +655,14 @@ def main():
     print()
 
     print("Carico articoli da tradurre...")
-    articles = fetch_articles(args.limit,
+    fetch_limit = (args.limit + args.offset) if args.limit else None
+    articles = fetch_articles(fetch_limit,
                               min_corpo=args.min_tokens,
                               max_corpo=args.max_tokens)
+    if args.offset:
+        articles = articles[args.offset:]
+    if args.limit:
+        articles = articles[:args.limit]
     print(f"\nTrovati: {len(articles)} articoli")
 
     if args.resume:
@@ -593,12 +727,12 @@ def main():
     print(f"Errori:       {err_count}  ({'%.1f' % (err_count/max(1,len(all_logs))*100)}%)")
     print(f"Token input:  {total_in:,}")
     print(f"Token output: {total_out:,}")
-    print(f"Costo reale:  ${total_cost:.4f}  (≈€{total_cost/0.92:.2f})")
+    print(f"Costo reale:  ${total_cost:.4f}  (~EUR {total_cost/0.92:.2f})")
     print(f"Log:          {LOGS_DIR / args.job_id}.csv")
 
     if err_count / max(1, len(all_logs)) > 0.01:
         print()
-        print("⚠  Tasso errori > 1% — esegui qa_check.py prima di pubblicare")
+        print("WARN: Tasso errori > 1% -- esegui qa_check.py prima di pubblicare")
 
 if __name__ == "__main__":
     main()

@@ -47,12 +47,24 @@ export function directusCredsFromAstroLocals(locals: unknown): DirectusRuntimeCr
   return Object.keys(o).length ? o : undefined;
 }
 
+/**
+ * URL pubblico file Directus (`directus_files.id`).
+ * Usare questo per copertine/autori caricati da CMS: lo storage è servito da Directus (`/assets/:id`),
+ * non dal path R2 legacy `copertine/{id}` che valeva solo per import/migrazione.
+ */
+export function getDirectusAssetUrl(fileId: string): string {
+  const id = String(fileId || '').trim();
+  const base = DIRECTUS_URL.replace(/\/$/, '');
+  return `${base}/assets/${encodeURIComponent(id)}`;
+}
+
+/** @deprecated Preferisci getDirectusAssetUrl; mantenuto come alias per compatibilità. */
 export function getImageUrl(fileId: string): string {
-  return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/copertine/${fileId}`;
+  return getDirectusAssetUrl(fileId);
 }
 
 export function getAutoreImageUrl(fileId: string): string {
-  return `https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev/autori/${fileId}`;
+  return getDirectusAssetUrl(fileId);
 }
 
 /**
@@ -574,6 +586,24 @@ export async function getArticoliByTag(
     'filter[tags][tags_id][slug][_eq]': tagSlug,
     fields: ARTICOLO_LIST_FIELDS,
     limit: '-1',
+    sort: '-data_pubblicazione',
+  });
+  const data = await directusFetch<{ data: ArticoloFull[] }>(
+    `/items/articoli?${params}`,
+    creds
+  );
+  return data?.data ?? [];
+}
+
+export async function getArticoliEN(
+  creds?: DirectusRuntimeCreds,
+  limit = 500
+): Promise<ArticoloFull[]> {
+  const params = new URLSearchParams({
+    'filter[stato][_eq]': 'published',
+    'filter[lang][_eq]': 'en',
+    fields: ARTICOLO_LIST_FIELDS,
+    limit: String(limit),
     sort: '-data_pubblicazione',
   });
   const data = await directusFetch<{ data: ArticoloFull[] }>(
