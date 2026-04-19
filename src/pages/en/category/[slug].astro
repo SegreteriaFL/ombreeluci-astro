@@ -13,19 +13,21 @@ import {
   getAutoreImageUrl,
   directusCredsFromAstroLocals,
 } from '../../../lib/directus';
-import { localizeCategory, t } from '../../../utils/i18n';
+import { localizeCategory, t, CAT_EN_TO_IT_SLUG } from '../../../utils/i18n';
 import { getMegaclusterForArticle, getLabels, getRoleWeight } from '../../../config/taxonomy.js';
 
 const creds = directusCredsFromAstroLocals(Astro.locals);
-const slug = (Astro.params.slug ?? '').replace(/\/$/, '');
+// Accetta sia slug EN (spirituality) che IT (spiritualita) per retrocompatibilità
+const enSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
+const itSlug = CAT_EN_TO_IT_SLUG[enSlug] ?? enSlug;
 
-const articoli = await getArticoliByCategoria(slug, 'en', creds);
+const articoli = await getArticoliByCategoria(itSlug, 'en', creds);
 
 if (!articoli.length) {
   return new Response('Not found', { status: 404 });
 }
 
-const categoryLabel = localizeCategory(slug, 'en') ?? slug;
+const categoryLabel = localizeCategory(itSlug, 'en') ?? enSlug;
 
 const sorted = [...articoli].sort((a, b) => {
   const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
@@ -56,6 +58,7 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
   title={categoryLabel}
   description={`English articles in category "${categoryLabel}" on Ombre e Luci.`}
   noindex={true}
+  lang="en"
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify({
