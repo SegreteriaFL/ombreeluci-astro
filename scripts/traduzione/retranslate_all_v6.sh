@@ -4,9 +4,9 @@
 
 set -e
 
-export DIRECTUS_TOKEN="uVlgDIPkUPFofSFAx0VjR7Ag9wHHjMBL"
-export DIRECTUS_URL="https://cms.ombreeluci.it"
-export ANTHROPIC_API_KEY="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"
+: "${DIRECTUS_TOKEN:?export DIRECTUS_TOKEN prima di lanciare}"
+: "${ANTHROPIC_API_KEY:?export ANTHROPIC_API_KEY prima di lanciare}"
+export DIRECTUS_URL="${DIRECTUS_URL:-https://cms.ombreeluci.it}"
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
