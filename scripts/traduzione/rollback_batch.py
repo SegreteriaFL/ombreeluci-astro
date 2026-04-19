@@ -12,30 +12,43 @@ Uso:
 
 import argparse
 import csv
+import io
 import json
 import os
+import ssl
 import sys
 import urllib.request
 from pathlib import Path
+
+if hasattr(sys.stdout, 'buffer'):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 DIRECTUS_URL = os.environ.get("DIRECTUS_URL", "https://cms.ombreeluci.it")
 DIRECTUS_TOKEN = os.environ.get("DIRECTUS_TOKEN", "")
 LOGS_DIR = Path(__file__).parent / "logs"
 
+_SSL_CTX = ssl.create_default_context()
+_SSL_CTX.check_hostname = False
+_SSL_CTX.verify_mode = ssl.CERT_NONE
+
 def _headers():
-    return {"Authorization": f"Bearer {DIRECTUS_TOKEN}", "Content-Type": "application/json"}
+    return {
+        "Authorization": f"Bearer {DIRECTUS_TOKEN}",
+        "Content-Type": "application/json",
+        "User-Agent": "OEL-Translate/1.0",
+    }
 
 def directus_patch(path, payload):
     data = json.dumps(payload).encode()
     req = urllib.request.Request(f"{DIRECTUS_URL}{path}", data=data,
                                   headers=_headers(), method="PATCH")
-    with urllib.request.urlopen(req, timeout=30) as r:
+    with urllib.request.urlopen(req, context=_SSL_CTX, timeout=30) as r:
         return json.loads(r.read())
 
 def directus_delete(path):
     req = urllib.request.Request(f"{DIRECTUS_URL}{path}",
                                   headers=_headers(), method="DELETE")
-    with urllib.request.urlopen(req, timeout=30):
+    with urllib.request.urlopen(req, context=_SSL_CTX, timeout=30):
         pass
 
 def main():
