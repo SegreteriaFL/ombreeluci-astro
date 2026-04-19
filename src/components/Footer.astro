@@ -2,7 +2,7 @@
 import logo from '../assets/logo.svg';
 import { getThemesWithSlugs, getCategoriaLabel } from '../config/taxonomy.js';
 import { RUNTS, CODICE_FISCALE } from '../config/support.ts';
-import { getLangFromUrl, t } from '../utils/i18n';
+import { getLangFromUrl, t, CAT_IT_TO_EN_SLUG } from '../utils/i18n';
 
 interface Props {
   pathname?: string;
@@ -11,7 +11,14 @@ interface Props {
 const { pathname = '/', lang: langProp } = Astro.props;
 const lang = langProp ?? getLangFromUrl(pathname);
 
-const temi = getThemesWithSlugs().map((t) => ({ ...t, nome: getCategoriaLabel(t.slug, lang) ?? t.nome }));
+const catBase = lang === 'en' ? '/en/category' : '/categoria';
+const catSlug = (itSlug: string) =>
+  lang === 'en' ? (CAT_IT_TO_EN_SLUG[itSlug] ?? itSlug) : itSlug;
+const temi = getThemesWithSlugs().map((t) => ({
+  ...t,
+  nome: getCategoriaLabel(t.slug, lang) ?? t.nome,
+  href: `${catBase}/${catSlug(t.slug)}`,
+}));
 const meta = Math.ceil(temi.length / 2);
 const temiCol1 = temi.slice(0, meta);
 const temiCol2 = temi.slice(meta);
@@ -111,14 +118,14 @@ const ccLicenseLabel =
           <ul class="footer-list">
             {temiCol1.map((cat) => (
               <li>
-                <a href={`/categoria/${cat.slug}`} class="footer-link">{cat.nome}</a>
+                <a href={cat.href} class="footer-link">{cat.nome}</a>
               </li>
             ))}
           </ul>
           <ul class="footer-list">
             {temiCol2.map((cat) => (
               <li>
-                <a href={`/categoria/${cat.slug}`} class="footer-link">{cat.nome}</a>
+                <a href={cat.href} class="footer-link">{cat.nome}</a>
               </li>
             ))}
           </ul>

@@ -237,6 +237,28 @@ export const translations: Record<Locale, Record<string, string>> = {
   },
 };
 
+/** Mappa slug IT (Directus) → slug EN (URL) per le pagine /en/category/ */
+export const CAT_IT_TO_EN_SLUG: Record<string, string> = {
+  'fede-e-luce':              'faith-and-light',
+  cultura:                    'culture',
+  famiglia:                   'family',
+  spiritualita:               'spirituality',
+  progetti:                   'projects',
+  salute:                     'health',
+  catechesi:                  'catechesis',
+  scuola:                     'education',
+  'educazione-e-formazione':  'education-and-training',
+  'tempo-libero':             'leisure',
+  'personaggi-che-ispirano':  'inspiring-figures',
+  lavoro:                     'work',
+  sport:                      'sport',
+};
+
+/** Inverso: slug EN (URL) → slug IT (Directus) */
+export const CAT_EN_TO_IT_SLUG: Record<string, string> = Object.fromEntries(
+  Object.entries(CAT_IT_TO_EN_SLUG).map(([it, en]) => [en, it])
+);
+
 /** categoria_menu slug da Directus → chiave dizionario */
 const CAT_SLUG_TO_I18N_KEY: Record<string, keyof (typeof translations)['it']> = {
   'fede-e-luce': 'cat_fede_e_luce',

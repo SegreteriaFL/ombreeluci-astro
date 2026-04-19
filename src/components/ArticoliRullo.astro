@@ -18,6 +18,7 @@ import ArticleCard from './ArticleCard.astro';
 import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
 import { getArticoloCopertinaSrc } from '../lib/directus';
 import type { ArticoloFull } from '../lib/directus';
+import { localizeCategory, localizeFormalType, type Locale } from '../utils/i18n';
 
 interface Props {
   title: string;
@@ -29,9 +30,11 @@ interface Props {
   pageSize?: number;
   /** Prefisso URL per i link articolo (default '/blog'). Usare '/en' per la shell EN. */
   basePath?: string;
+  /** Locale per date e label (default 'it'). */
+  locale?: Locale;
 }
 
-const { title, articoli, description = null, headingLevel = 1, pageSize, basePath = '/blog' } = Astro.props;
+const { title, articoli, description = null, headingLevel = 1, pageSize, basePath = '/blog', locale = 'it' } = Astro.props;
 
 const usePageSize = pageSize != null && pageSize > 0;
 const firstPage = usePageSize ? articoli.slice(0, pageSize) : articoli;
@@ -52,10 +55,12 @@ const restData = rest.map((a) => {
   const { categoria_menu } = getMegaclusterForArticle(a);
   const { formal } = getLabels([], a);
   const hasIssue = a.numero_rivista?.id_numero != null;
-  const formaPrefix = formal && formal !== 'Articolo' ? `${formal} · ` : '';
-  const badge = categoria_menu
-    ? `${formaPrefix}${categoria_menu}`
-    : (hasIssue ? '' : 'Online');
+  const catLabel = localizeCategory(categoria_menu ?? null, locale) ?? categoria_menu;
+  const formaLabel = formal && formal !== 'Articolo' ? localizeFormalType(formal, locale) : null;
+  const formaPrefix = formaLabel ? `${formaLabel} · ` : '';
+  const badge = catLabel
+    ? `${formaPrefix}${catLabel}`
+    : (hasIssue ? '' : (locale === 'en' ? 'Online' : 'Online'));
   return {
     titolo: a.titolo,
     slug: a.slug,
@@ -114,6 +119,7 @@ const restData = rest.map((a) => {
               data-loaded={firstPage.length}
               data-total={articoli.length}
               data-base-path={basePath}
+              data-locale={locale}
               aria-label={`Carica altri articoli (${rest.length} rimanenti)`}>
               Carica altri
               <span class="rullo-remaining" id="rullo-remaining">
@@ -156,10 +162,11 @@ const restData = rest.map((a) => {
     }>;
     let loaded = 0;
     const basePath = btn.dataset.basePath ?? '/blog';
+    const locale = btn.dataset.locale === 'en' ? 'en-US' : 'it-IT';
 
     function makeCard(a: typeof remaining[number]): HTMLElement {
       const dateStr = a.data
-        ? new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
+        ? new Intl.DateTimeFormat(locale, { day: 'numeric', month: 'long', year: 'numeric' })
             .format(new Date(a.data))
         : '';
 

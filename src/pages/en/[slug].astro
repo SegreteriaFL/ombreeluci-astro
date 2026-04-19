@@ -22,7 +22,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
-import { t, localizeFormalType, localizeCategory, localizeTheme } from '../../utils/i18n';
+import { t, localizeFormalType, localizeCategory, localizeTheme, CAT_IT_TO_EN_SLUG } from '../../utils/i18n';
 import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
 import Commenti from '../../components/Commenti.astro';
@@ -243,8 +243,9 @@ const categoryDisplayRaw = getThemeLabel(articolo);
 const categoryDisplay = localizeCategory(articolo.categoria_menu, 'en')
   ?? localizeTheme(categoryDisplayRaw, 'en')
   ?? categoryDisplayRaw;
-const categorySlug = articolo.categoria_menu ?? getCategorySlugForArticle(articolo);
-const categoryLink = categorySlug ? `/en/category/${categorySlug}` : null;
+const categoryItSlug = articolo.categoria_menu ?? getCategorySlugForArticle(articolo);
+const categoryEnSlug = categoryItSlug ? (CAT_IT_TO_EN_SLUG[categoryItSlug] ?? categoryItSlug) : null;
+const categoryLink = categoryEnSlug ? `/en/category/${categoryEnSlug}` : null;
 const currentLabels = getLabels([], articolo);
 const formaDisplay =
   currentLabels.formal && currentLabels.formal !== 'Articolo'
