@@ -1599,13 +1599,11 @@ const alternates: { lang: string; url: string }[] = [
         }
       }
 
+      /* TODO(tags-en): tag names are in Italian only (no nome_en field in Directus).
+         Hidden until tags schema gets nome_en + slug_en + backfill script.
+         Re-enable by removing display:none and wiring slug_en into the href. */
       .article-tags-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-bottom: 2.5rem;
-        padding-top: 1.5rem;
-        border-top: 1px solid var(--border-color, #e5e5e5);
+        display: none;
       }
 
       .article-tag-link {
