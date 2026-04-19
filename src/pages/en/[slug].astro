@@ -22,7 +22,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle } from '../../config/taxonomy.js';
-import { t, localizeFormalType } from '../../utils/i18n';
+import { t, localizeFormalType, localizeCategory, localizeTheme } from '../../utils/i18n';
 import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
 import Commenti from '../../components/Commenti.astro';
@@ -126,7 +126,7 @@ const correlatiSlugsEffective: string[] =
 // ── Helper functions ───────────────────────────────────────────────────────────
 
 function formatDateItalian(date: Date, lang: 'it' | 'en' = 'it'): string {
-  return new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'it-IT', {
+  return new Intl.DateTimeFormat(lang === 'en' ? 'en-US' : 'it-IT', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
@@ -239,9 +239,13 @@ const metaDescription = (explicitSubtitle || articolo.seo_description)
 
 // ── Categoria, etichette, ruolo editoriale (taxonomy.js via megacluster) ───────
 
-const categoryDisplay = getThemeLabel(articolo);
+const categoryDisplayRaw = getThemeLabel(articolo);
+const categoryDisplay = localizeCategory(articolo.categoria_menu, 'en')
+  ?? localizeTheme(categoryDisplayRaw, 'en')
+  ?? categoryDisplayRaw;
 const categorySlug = getCategorySlugForArticle(articolo);
-const categoryLink = categorySlug ? `/categoria/${categorySlug}` : null;
+// EN category pages non ancora disponibili (Backlog 1) — link disabilitato
+const categoryLink = null;
 const currentLabels = getLabels([], articolo);
 const formaDisplay =
   currentLabels.formal && currentLabels.formal !== 'Articolo'
@@ -621,7 +625,7 @@ const alternates: { lang: string; url: string }[] = [
         {articolo.tags?.filter((t) => t.tags_id).length > 0 && (
           <nav class="article-tags-list" aria-label="Tags">
             {articolo.tags.filter((t) => t.tags_id).map((t) => (
-              <a href={`/tag/${t.tags_id.slug}`} class="article-tag-link">{t.tags_id.nome}</a>
+              <a href={`/en/tag/${t.tags_id.slug}`} class="article-tag-link">{t.tags_id.nome}</a>
             ))}
           </nav>
         )}

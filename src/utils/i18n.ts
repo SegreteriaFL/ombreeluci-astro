@@ -91,6 +91,35 @@ export const translations: Record<Locale, Record<string, string>> = {
     formal_editoriale: 'Editoriale',
     formal_dialogo_aperto: 'Dialogo Aperto',
     category_uncategorized: 'Da categorizzare',
+    // Categorie (categoria_menu slug → label display)
+    cat_fede_e_luce: 'Fede e Luce',
+    cat_cultura: 'Cultura',
+    cat_famiglia: 'Famiglia',
+    cat_spiritualita: 'Spiritualità',
+    cat_progetti: 'Progetti',
+    cat_salute: 'Salute',
+    cat_catechesi: 'Catechesi',
+    cat_scuola: 'Scuola',
+    cat_educazione_e_formazione: 'Educazione e Formazione',
+    cat_tempo_libero: 'Tempo libero',
+    cat_personaggi_che_ispirano: 'Personaggi che ispirano',
+    cat_lavoro: 'Lavoro',
+    cat_sport: 'Sport',
+    // Temi (tema_label → label display)
+    tema_catechesi: 'Catechesi',
+    tema_cultura: 'Cultura',
+    tema_da_categorizzare: 'Da categorizzare',
+    tema_educazione_e_formazione: 'Educazione e Formazione',
+    tema_famiglia: 'Famiglia',
+    tema_fede_e_luce: 'Fede e Luce',
+    tema_lavoro: 'Lavoro',
+    tema_personaggi_che_ispirano: 'Personaggi che ispirano',
+    tema_progetti: 'Progetti',
+    tema_salute: 'Salute',
+    tema_scuola: 'Scuola',
+    tema_spiritualita: 'Spiritualità',
+    tema_sport: 'Sport',
+    tema_tempo_libero: 'Tempo libero',
   },
   en: {
     read_also: 'READ ALSO',
@@ -176,8 +205,90 @@ export const translations: Record<Locale, Record<string, string>> = {
     formal_editoriale: 'Editorial',
     formal_dialogo_aperto: 'Open Dialogue',
     category_uncategorized: 'To be categorized',
+    // Categories (categoria_menu slug → display label)
+    cat_fede_e_luce: 'Faith and Light',
+    cat_cultura: 'Culture',
+    cat_famiglia: 'Family',
+    cat_spiritualita: 'Spirituality',
+    cat_progetti: 'Projects',
+    cat_salute: 'Health',
+    cat_catechesi: 'Catechesis',
+    cat_scuola: 'Education',
+    cat_educazione_e_formazione: 'Education and Training',
+    cat_tempo_libero: 'Leisure',
+    cat_personaggi_che_ispirano: 'Inspiring Figures',
+    cat_lavoro: 'Work',
+    cat_sport: 'Sport',
+    // Themes (tema_label → display label)
+    tema_catechesi: 'Catechesis',
+    tema_cultura: 'Culture',
+    tema_da_categorizzare: 'Uncategorized',
+    tema_educazione_e_formazione: 'Education and Training',
+    tema_famiglia: 'Family',
+    tema_fede_e_luce: 'Faith and Light',
+    tema_lavoro: 'Work',
+    tema_personaggi_che_ispirano: 'Inspiring Figures',
+    tema_progetti: 'Projects',
+    tema_salute: 'Health',
+    tema_scuola: 'Education',
+    tema_spiritualita: 'Spirituality',
+    tema_sport: 'Sport',
+    tema_tempo_libero: 'Leisure',
   },
 };
+
+/** categoria_menu slug da Directus → chiave dizionario */
+const CAT_SLUG_TO_I18N_KEY: Record<string, keyof (typeof translations)['it']> = {
+  'fede-e-luce': 'cat_fede_e_luce',
+  'Fede e Luce': 'cat_fede_e_luce',
+  cultura: 'cat_cultura',
+  'Cultura': 'cat_cultura',
+  famiglia: 'cat_famiglia',
+  'Famiglia': 'cat_famiglia',
+  spiritualita: 'cat_spiritualita',
+  progetti: 'cat_progetti',
+  salute: 'cat_salute',
+  catechesi: 'cat_catechesi',
+  scuola: 'cat_scuola',
+  'educazione-e-formazione': 'cat_educazione_e_formazione',
+  'tempo-libero': 'cat_tempo_libero',
+  'Tempo libero': 'cat_tempo_libero',
+  'personaggi-che-ispirano': 'cat_personaggi_che_ispirano',
+  lavoro: 'cat_lavoro',
+  sport: 'cat_sport',
+};
+
+/** tema_label da Directus → chiave dizionario */
+const TEMA_IT_TO_I18N_KEY: Record<string, keyof (typeof translations)['it']> = {
+  Catechesi: 'tema_catechesi',
+  Cultura: 'tema_cultura',
+  'Da categorizzare': 'tema_da_categorizzare',
+  'Educazione e Formazione': 'tema_educazione_e_formazione',
+  Famiglia: 'tema_famiglia',
+  'Fede e Luce': 'tema_fede_e_luce',
+  Lavoro: 'tema_lavoro',
+  'Personaggi che ispirano': 'tema_personaggi_che_ispirano',
+  Progetti: 'tema_progetti',
+  Salute: 'tema_salute',
+  Scuola: 'tema_scuola',
+  'Spiritualità': 'tema_spiritualita',
+  Sport: 'tema_sport',
+  'Tempo libero': 'tema_tempo_libero',
+};
+
+export function localizeCategory(slug: string | null | undefined, locale: Locale): string | null {
+  if (slug == null || slug === '') return null;
+  const key = CAT_SLUG_TO_I18N_KEY[slug];
+  if (key) return t(locale, key);
+  return slug;
+}
+
+export function localizeTheme(label: string | null | undefined, locale: Locale): string | null {
+  if (label == null || label === '') return null;
+  const key = TEMA_IT_TO_I18N_KEY[label];
+  if (key) return t(locale, key);
+  return label;
+}
 
 /** Valori `forma` italiani da Directus → chiave dizionario */
 const FORMAL_IT_TO_I18N_KEY: Record<string, keyof (typeof translations)['it']> = {
