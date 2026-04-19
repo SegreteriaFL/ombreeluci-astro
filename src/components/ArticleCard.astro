@@ -2,7 +2,7 @@
 // ArticleCard.astro – struttura: contenitore, link (solo immagine+badge+titolo), riga autore fuori dal link
 import { COPERTINA_IMG_ONERROR } from '../lib/directus';
 import { getPlaceholder } from '../utils/placeholder';
-import { t, localizeFormalType, type Locale } from '../utils/i18n';
+import { t, localizeFormalType, localizeCategory, type Locale } from '../utils/i18n';
 
 const {
   title,
@@ -43,11 +43,7 @@ const imageSrc = (!hideImage && image) ? image : (!hideImage ? getPlaceholder(sl
 // Badge: mostra solo categoria (+ forma se != Articolo). Label forma da i18n (allineato a taxonomy).
 const localizedForma = forma ? localizeFormalType(forma, lang) : null;
 const genericFormalLabel = t(lang, 'formal_articolo');
-const localizedCategoriaMenu = (() => {
-  if (!categoriaMenu) return categoriaMenu;
-  if (lang === 'en' && categoriaMenu === 'Da categorizzare') return t(lang, 'category_uncategorized');
-  return categoriaMenu;
-})();
+const localizedCategoriaMenu = localizeCategory(categoriaMenu ?? null, lang) ?? categoriaMenu;
 const formaPrefix =
   localizedForma && localizedForma !== genericFormalLabel ? `${localizedForma} · ` : '';
 const badgeText = categoriaMenu
@@ -63,7 +59,7 @@ function authorSlug(name: string): string {
     .replace(/^-|-$/g, '');
 }
 
-const dateLocale = lang === 'en' ? 'en-GB' : 'it-IT';
+const dateLocale = lang === 'en' ? 'en-US' : 'it-IT';
 const formattedDate = new Intl.DateTimeFormat(dateLocale, {
   year: 'numeric',
   month: 'long',

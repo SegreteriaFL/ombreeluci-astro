@@ -16,7 +16,7 @@ const { pathname, alternateArticleUrl = null, lang: langProp } = Astro.props;
 const lang = langProp ?? getLangFromUrl(pathname);
 
 const hrefIt = lang === 'en' && alternateArticleUrl ? alternateArticleUrl : '/';
-const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/blog/en';
+const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/en';
 ---
 
 <div class="lang-selector" aria-label={t(lang, 'aria_lang_selector')}>
