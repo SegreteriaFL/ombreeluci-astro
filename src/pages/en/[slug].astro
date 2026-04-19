@@ -454,14 +454,14 @@ const alternates: { lang: string; url: string }[] = [
         {!showPubblicatoOnline ? (
           <nav class="article-category-badge" aria-label={badgeIssueAriaLabel}>
             {issueLink && <a href={issueLink} class="article-badge-link">{issueLabel} {issueNumber}</a>}
-            {issueLink && (formaDisplay || categoryLink) && <span class="article-badge-sep"> • </span>}
+            {issueLink && (formaDisplay || categoryDisplay) && <span class="article-badge-sep"> • </span>}
             {formaDisplay && <span class="article-badge-text">{formaDisplay}</span>}
-            {formaDisplay && categoryLink && <span class="article-badge-sep"> / </span>}
-            {categoryLink ? (
+            {formaDisplay && categoryDisplay && <span class="article-badge-sep"> / </span>}
+            {categoryDisplay && (categoryLink ? (
               <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>
             ) : (
               <span class="article-badge-text">{categoryDisplay}</span>
-            )}
+            ))}
           </nav>
         ) : (
           <div class="article-category-badge article-category-badge--online">
