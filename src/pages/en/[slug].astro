@@ -126,7 +126,7 @@ const correlatiSlugsEffective: string[] =
 // ── Helper functions ───────────────────────────────────────────────────────────
 
 function formatDateItalian(date: Date, lang: 'it' | 'en' = 'it'): string {
-  return new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'it-IT', {
+  return new Intl.DateTimeFormat(lang === 'en' ? 'en-US' : 'it-IT', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
@@ -621,7 +621,7 @@ const alternates: { lang: string; url: string }[] = [
         {articolo.tags?.filter((t) => t.tags_id).length > 0 && (
           <nav class="article-tags-list" aria-label="Tags">
             {articolo.tags.filter((t) => t.tags_id).map((t) => (
-              <a href={`/tag/${t.tags_id.slug}`} class="article-tag-link">{t.tags_id.nome}</a>
+              <a href={`/en/tag/${t.tags_id.slug}`} class="article-tag-link">{t.tags_id.nome}</a>
             ))}
           </nav>
         )}
