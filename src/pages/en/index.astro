@@ -26,7 +26,7 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
   pathname="/en/"
 >
   <main class="site-main">
-    <div class="container" style="padding-top: 2.5rem; padding-bottom: 3rem;">
+    <div class="container en-index-container">
       <h1 style="margin-bottom: 0.5rem;">{t('en', 'english_articles')}</h1>
       <p style="color: var(--text-secondary); margin-bottom: 2rem;">Articles from Ombre e Luci available in English.</p>
       <div class="en-grid">
@@ -54,6 +54,11 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
   </main>
 
 <style>
+  .en-index-container {
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+  }
+
   .en-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
