@@ -27,9 +27,11 @@ interface Props {
   headingLevel?: 1 | 2;
   /** Quante card renderizzare server-side. Il resto appare via load-more. */
   pageSize?: number;
+  /** Prefisso URL per i link articolo (default '/blog'). Usare '/en' per la shell EN. */
+  basePath?: string;
 }
 
-const { title, articoli, description = null, headingLevel = 1, pageSize } = Astro.props;
+const { title, articoli, description = null, headingLevel = 1, pageSize, basePath = '/blog' } = Astro.props;
 
 const usePageSize = pageSize != null && pageSize > 0;
 const firstPage = usePageSize ? articoli.slice(0, pageSize) : articoli;
@@ -92,6 +94,7 @@ const restData = rest.map((a) => {
             <ArticleCard
               title={a.titolo}
               slug={a.slug}
+              basePath={basePath}
               categoriaMenu={categoria_menu ?? undefined}
               issue={a.numero_rivista?.id_numero ?? null}
               forma={formal}
@@ -110,6 +113,7 @@ const restData = rest.map((a) => {
             <button class="rullo-loadmore" id="rullo-loadmore"
               data-loaded={firstPage.length}
               data-total={articoli.length}
+              data-base-path={basePath}
               aria-label={`Carica altri articoli (${rest.length} rimanenti)`}>
               Carica altri
               <span class="rullo-remaining" id="rullo-remaining">
@@ -151,6 +155,7 @@ const restData = rest.map((a) => {
       badge: string;
     }>;
     let loaded = 0;
+    const basePath = btn.dataset.basePath ?? '/blog';
 
     function makeCard(a: typeof remaining[number]): HTMLElement {
       const dateStr = a.data
@@ -163,7 +168,7 @@ const restData = rest.map((a) => {
       card.className = 'article-card';
 
       const link = document.createElement('a');
-      link.href = `/blog/${a.slug}`;
+      link.href = `${basePath}/${a.slug}`;
       link.className = 'article-link';
 
       if (a.immagine) {

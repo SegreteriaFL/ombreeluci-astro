@@ -243,9 +243,8 @@ const categoryDisplayRaw = getThemeLabel(articolo);
 const categoryDisplay = localizeCategory(articolo.categoria_menu, 'en')
   ?? localizeTheme(categoryDisplayRaw, 'en')
   ?? categoryDisplayRaw;
-const categorySlug = getCategorySlugForArticle(articolo);
-// EN category pages non ancora disponibili (Backlog 1) — link disabilitato
-const categoryLink = null;
+const categorySlug = articolo.categoria_menu ?? getCategorySlugForArticle(articolo);
+const categoryLink = categorySlug ? `/en/category/${categorySlug}` : null;
 const currentLabels = getLabels([], articolo);
 const formaDisplay =
   currentLabels.formal && currentLabels.formal !== 'Articolo'

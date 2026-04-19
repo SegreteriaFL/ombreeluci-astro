@@ -1,0 +1,240 @@
+---
+/**
+ * EN category page: /en/category/[slug]
+ * Shows all EN articles in a given category (categoria_menu slug).
+ */
+export const prerender = false;
+
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import {
+  getArticoliByCategoria,
+  getArticoloCopertinaSrc,
+  getAutoreImageUrl,
+  directusCredsFromAstroLocals,
+} from '../../../lib/directus';
+import { localizeCategory, t } from '../../../utils/i18n';
+import { getMegaclusterForArticle, getLabels, getRoleWeight } from '../../../config/taxonomy.js';
+
+const creds = directusCredsFromAstroLocals(Astro.locals);
+const slug = (Astro.params.slug ?? '').replace(/\/$/, '');
+
+const articoli = await getArticoliByCategoria(slug, 'en', creds);
+
+if (!articoli.length) {
+  return new Response('Not found', { status: 404 });
+}
+
+const categoryLabel = localizeCategory(slug, 'en') ?? slug;
+
+const sorted = [...articoli].sort((a, b) => {
+  const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+  const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+  if (tA !== tB) return tB - tA;
+  const wA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
+  const wB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
+  return wB - wA;
+});
+
+const hero = sorted[0] ?? null;
+const rest = sorted.slice(1);
+
+const evidenzaEffettiva = sorted
+  .filter((a) => {
+    const r = getMegaclusterForArticle(a).ruolo_editoriale;
+    return r === 'portante' || r === 'strutturale';
+  })
+  .sort((a, b) => getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale) - getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale))
+  .slice(0, 5);
+
+const hasEvidenza = evidenzaEffettiva.length > 0;
+
+Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
+---
+
+<BaseLayout
+  title={categoryLabel}
+  description={`English articles in category "${categoryLabel}" on Ombre e Luci.`}
+  noindex={true}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ombreeluci.it/en/" },
+        { "@type": "ListItem", "position": 2, "name": categoryLabel, "item": Astro.url.href }
+      ]
+    })} />
+  </Fragment>
+
+  <main class="site-main">
+    <div class="categoria-container">
+      <header class="categoria-header">
+        <h1 class="categoria-title">{categoryLabel}</h1>
+        <p class="categoria-count">
+          {sorted.length} {sorted.length === 1 ? 'article' : 'articles'}
+        </p>
+      </header>
+
+      <div class={`categoria-body${hasEvidenza ? '' : ' categoria-body--no-evidenza'}`}>
+
+        <div class="feed-col">
+          {hero && (() => {
+            const { ruolo_editoriale } = getMegaclusterForArticle(hero);
+            const { formal } = getLabels([], hero);
+            return (
+              <div class="hero-wrap">
+                <ArticleCard
+                  title={hero.titolo}
+                  slug={hero.slug}
+                  basePath="/en"
+                  categoriaMenu={hero.categoria_menu ?? undefined}
+                  issue={hero.numero_rivista?.id_numero ?? null}
+                  forma={formal}
+                  author={hero.autore?.nome_completo ?? t('en', 'author_unknown')}
+                  date={hero.data_pubblicazione ? new Date(hero.data_pubblicazione) : new Date()}
+                  image={getArticoloCopertinaSrc(hero)}
+                  ruoloEditoriale={ruolo_editoriale ?? undefined}
+                />
+              </div>
+            );
+          })()}
+
+          <div class="articles-list">
+            {rest.map((a) => {
+              const { ruolo_editoriale } = getMegaclusterForArticle(a);
+              const { formal } = getLabels([], a);
+              const autFotoId = (a.autore as any)?.foto?.id;
+              return (
+                <ArticleCard
+                  title={a.titolo}
+                  slug={a.slug}
+                  basePath="/en"
+                  categoriaMenu={a.categoria_menu ?? undefined}
+                  issue={a.numero_rivista?.id_numero ?? null}
+                  forma={formal}
+                  author={a.autore?.nome_completo ?? t('en', 'author_unknown')}
+                  date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+                  image={getArticoloCopertinaSrc(a)}
+                  ruoloEditoriale={ruolo_editoriale ?? undefined}
+                  horizontal={true}
+                  sottotitolo={a.sottotitolo ?? null}
+                  authorImage={autFotoId ? getAutoreImageUrl(autFotoId) : null}
+                />
+              );
+            })}
+          </div>
+        </div>
+
+        {hasEvidenza && (
+          <aside class="evidenza-col">
+            <h2 class="evidenza-title">Featured</h2>
+            <div class="evidenza-list">
+              {evidenzaEffettiva.map((a, idx) => {
+                const { ruolo_editoriale } = getMegaclusterForArticle(a);
+                const { formal } = getLabels([], a);
+                return (
+                  <ArticleCard
+                    title={a.titolo}
+                    slug={a.slug}
+                    basePath="/en"
+                    issue={a.numero_rivista?.id_numero ?? null}
+                    forma={formal}
+                    author={a.autore?.nome_completo ?? t('en', 'author_unknown')}
+                    date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+                    image={getArticoloCopertinaSrc(a)}
+                    hideImage={idx !== 0}
+                    ruoloEditoriale={ruolo_editoriale ?? undefined}
+                  />
+                );
+              })}
+            </div>
+          </aside>
+        )}
+
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .categoria-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  .categoria-header { margin-bottom: 2rem; }
+  .categoria-title {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+  }
+  .categoria-count { font-size: 1rem; color: var(--text-secondary); }
+  .categoria-body {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 3rem;
+    align-items: start;
+  }
+  .categoria-body--no-evidenza { grid-template-columns: 1fr; }
+  .feed-col .hero-wrap { margin-bottom: 2rem; }
+  .articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border-color, #e8e6e3);
+  }
+  .articles-list :global(.article-card) {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--border-color, #e8e6e3);
+  }
+  .articles-list :global(.article-card--horizontal .article-image-wrap) {
+    width: 200px;
+    min-width: 200px;
+    aspect-ratio: 4/3;
+  }
+  .evidenza-col {
+    position: sticky;
+    top: calc(var(--header-height, 72px) + 1.5rem);
+  }
+  .evidenza-title {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-color);
+  }
+  .evidenza-list { display: flex; flex-direction: column; gap: 0; }
+  .evidenza-list :global(.article-card) {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color, #e8e6e3);
+  }
+  .evidenza-list :global(.article-card:first-child) { padding-top: 0; }
+  .evidenza-list :global(.article-title) { font-size: 0.9375rem; -webkit-line-clamp: 2; }
+  .evidenza-list :global(.author-row) { font-size: 0.75rem; }
+  .evidenza-list :global(.article-badge) { font-size: 11px; }
+  @media (max-width: 1024px) {
+    .categoria-body { grid-template-columns: 1fr; }
+    .evidenza-col { position: static; border-top: 1px solid var(--border-color, #e8e6e3); padding-top: 2rem; }
+    .evidenza-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+  }
+  @media (max-width: 768px) {
+    .categoria-container { padding: 1.5rem 1.25rem; }
+    .categoria-title { font-size: 1.75rem; }
+    .articles-list :global(.article-card--horizontal .article-image-wrap) { width: 120px; min-width: 120px; }
+  }
+  @media (max-width: 480px) {
+    .categoria-container { padding: 1.25rem 1rem; }
+    .categoria-title { font-size: 1.5rem; }
+    .evidenza-list { grid-template-columns: 1fr; gap: 0; }
+    .articles-list :global(.article-card--horizontal .article-image-wrap) { width: 90px; min-width: 90px; }
+  }
+</style>

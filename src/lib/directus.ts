@@ -577,6 +577,29 @@ export async function getTagBySlug(
  * Articoli pubblicati con un determinato tag (per slug).
  * Ritorna ArticoloFull[] ordinati per data_pubblicazione decrescente.
  */
+/**
+ * Articoli pubblicati per categoria_menu slug, opzionalmente filtrati per lingua.
+ */
+export async function getArticoliByCategoria(
+  categoriaSlug: string,
+  lang?: 'it' | 'en',
+  creds?: DirectusRuntimeCreds
+): Promise<ArticoloFull[]> {
+  const params = new URLSearchParams({
+    'filter[stato][_eq]': 'published',
+    'filter[categoria_menu][_eq]': categoriaSlug,
+    fields: ARTICOLO_LIST_FIELDS,
+    limit: '-1',
+    sort: '-data_pubblicazione',
+  });
+  if (lang) params.set('filter[lang][_eq]', lang);
+  const data = await directusFetch<{ data: ArticoloFull[] }>(
+    `/items/articoli?${params}`,
+    creds
+  );
+  return data?.data ?? [];
+}
+
 export async function getArticoliByTag(
   tagSlug: string,
   creds?: DirectusRuntimeCreds
