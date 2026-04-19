@@ -107,6 +107,7 @@ const restData = rest.map((a) => {
               date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
               image={getArticoloCopertinaSrc(a)}
               ruoloEditoriale={ruolo_editoriale ?? undefined}
+              lang={locale}
             />
           );
         })}

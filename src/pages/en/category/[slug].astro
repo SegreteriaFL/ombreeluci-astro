@@ -59,6 +59,7 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
   description={`English articles in category "${categoryLabel}" on Ombre e Luci.`}
   noindex={true}
   lang="en"
+  alternateArticleUrl={`/categoria/${itSlug}`}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify({
@@ -99,6 +100,7 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
                   date={hero.data_pubblicazione ? new Date(hero.data_pubblicazione) : new Date()}
                   image={getArticoloCopertinaSrc(hero)}
                   ruoloEditoriale={ruolo_editoriale ?? undefined}
+                  lang="en"
                 />
               </div>
             );
@@ -124,6 +126,7 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
                   horizontal={true}
                   sottotitolo={a.sottotitolo ?? null}
                   authorImage={autFotoId ? getAutoreImageUrl(autFotoId) : null}
+                  lang="en"
                 />
               );
             })}
@@ -149,6 +152,7 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
                     image={getArticoloCopertinaSrc(a)}
                     hideImage={idx !== 0}
                     ruoloEditoriale={ruolo_editoriale ?? undefined}
+                    lang="en"
                   />
                 );
               })}
