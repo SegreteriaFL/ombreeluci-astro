@@ -51,7 +51,7 @@ def _patch(path, payload):
 def fetch_all_en(page_size=500):
     """Fetcha tutti gli EN con il loro IT counterpart."""
     fields = (
-        "id,slug,categoria_menu,forma,tema_label,didascalia_copertina,"
+        "id,slug,data_pubblicazione,categoria_menu,forma,tema_label,didascalia_copertina,"
         "tags.tags_id.id,temi.temi_id.id,"
         "articolo_traduzione.id"
     )
@@ -78,14 +78,17 @@ def fetch_all_en(page_size=500):
 
 def fetch_it_fields(it_id):
     """Fetcha i campi tassonomici dell'IT corrispondente."""
-    fields = "id,categoria_menu,forma,tema_label,didascalia_copertina,tags.tags_id.id,temi.temi_id.id"
+    fields = "id,data_pubblicazione,categoria_menu,forma,tema_label,didascalia_copertina,tags.tags_id.id,temi.temi_id.id"
     params = urllib.parse.urlencode({"fields": fields})
     data = _get(f"/items/articoli/{it_id}?{params}")
     return data.get("data") or data  # Directus single item può restituire direttamente
 
-def build_patch(it):
+def build_patch(it, en):
     """Costruisce il payload PATCH dall'articolo IT. Restituisce None se nulla da aggiornare."""
     patch = {}
+    # data_pubblicazione: copia dall'IT solo se l'EN è null
+    if not en.get("data_pubblicazione") and it.get("data_pubblicazione"):
+        patch["data_pubblicazione"] = it["data_pubblicazione"]
     if it.get("categoria_menu"):
         patch["categoria_menu"] = it["categoria_menu"]
     if it.get("forma"):
@@ -131,7 +134,7 @@ def process_one(en, dry_run, job_id):
 
     try:
         it = fetch_it_fields(it_id)
-        patch = build_patch(it)
+        patch = build_patch(it, en)
 
         if not patch:
             row.update({"status": "skip", "error": "nulla da aggiornare"})
