@@ -1,0 +1,48 @@
+---
+/**
+ * EN tag page: /en/tag/[slug]
+ * Shows all EN articles with a given tag.
+ */
+export const prerender = false;
+
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticoliRullo from '../../../components/ArticoliRullo.astro';
+import {
+  getArticoliByTag,
+  getTagBySlug,
+  directusCredsFromAstroLocals,
+} from '../../../lib/directus';
+
+const creds = directusCredsFromAstroLocals(Astro.locals);
+const tagSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
+
+const [tag, allArticoli] = await Promise.all([
+  getTagBySlug(tagSlug, creds),
+  getArticoliByTag(tagSlug, creds),
+]);
+
+if (!tag) {
+  return new Response('Not found', { status: 404 });
+}
+
+const articoli = allArticoli.filter((a) => a.lang === 'en');
+
+Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
+---
+
+<BaseLayout
+  title={tag.nome}
+  description={`English articles tagged "${tag.nome}" on Ombre e Luci.`}
+  noindex={true}
+>
+  <main class="site-main">
+    <div class="container">
+      <ArticoliRullo
+        title={tag.nome}
+        articoli={articoli}
+        pageSize={24}
+        basePath="/en"
+      />
+    </div>
+  </main>
+</BaseLayout>
