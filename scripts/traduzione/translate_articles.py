@@ -479,7 +479,9 @@ def fetch_articles(limit: int | None, min_corpo: int = 0, max_corpo: int = 0) ->
     fields = (
         "id,slug,titolo,sottotitolo,seo_description,corpo,"
         "stato,data_pubblicazione,"
-        "autore.id,numero_rivista.id,immagine_copertina.id"
+        "categoria_menu,forma,tema_label,didascalia_copertina,"
+        "autore.id,numero_rivista.id,immagine_copertina.id,"
+        "temi.temi_id.id,tags.tags_id.id"
     )
     articles, page = [], 1
     # Filtro lunghezza corpo applicato post-fetch (Directus non supporta filter su lunghezza)
@@ -592,6 +594,16 @@ def process(
         if autore_id:                     payload["autore"] = autore_id
         if numero_id:                     payload["numero_rivista"] = numero_id
         if copertina_id:                  payload["immagine_copertina"] = copertina_id
+        # Campi tassonomici — copiati dall'IT verbatim (stringa slug, non tradotta)
+        if article.get("categoria_menu"):     payload["categoria_menu"] = article["categoria_menu"]
+        if article.get("forma"):              payload["forma"] = article["forma"]
+        if article.get("tema_label"):         payload["tema_label"] = article["tema_label"]
+        if article.get("didascalia_copertina"): payload["didascalia_copertina"] = article["didascalia_copertina"]
+        # M2M temi e tag: Directus junction table format [{temi_id: id}, ...]
+        temi_payload = [{"temi_id": t["temi_id"]["id"]} for t in (article.get("temi") or []) if t.get("temi_id")]
+        if temi_payload: payload["temi"] = temi_payload
+        tags_payload = [{"tags_id": t["tags_id"]["id"]} for t in (article.get("tags") or []) if t.get("tags_id")]
+        if tags_payload: payload["tags"] = tags_payload
 
         try:
             created = d_post("/items/articoli", payload)
