@@ -6,6 +6,7 @@
  * Aggiungere lingue future nella array `langs`.
  */
 import { getLangFromUrl, t } from '../utils/i18n';
+import iconTranslate from '../assets/icon-translate.svg?raw';
 
 interface Props {
   pathname: string;
@@ -30,26 +31,12 @@ const langs = [
 <div class="ls-wrap" aria-label={t(lang, 'aria_lang_selector')}>
   <!-- Icona translate (SVG inline, nessuna dipendenza esterna) -->
   <button class="ls-icon-btn" id="ls-toggle" aria-expanded="false" aria-haspopup="true" aria-label={t(lang, 'aria_lang_selector')}>
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M5 8l6 6"/>
-      <path d="M4 14l6-6 2-3"/>
-      <path d="M2 5h12"/>
-      <path d="M7 2h1"/>
-      <path d="M22 22l-5-10-5 10"/>
-      <path d="M14 18h6"/>
-    </svg>
+    <span class="ls-btn-icon" aria-hidden="true" set:html={iconTranslate} />
   </button>
 
   <!-- Pill desktop (sempre visibile su ≥768px): icona + codici lingua -->
   <div class="ls-pill" role="list">
-    <svg class="ls-pill-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M5 8l6 6"/>
-      <path d="M4 14l6-6 2-3"/>
-      <path d="M2 5h12"/>
-      <path d="M7 2h1"/>
-      <path d="M22 22l-5-10-5 10"/>
-      <path d="M14 18h6"/>
-    </svg>
+    <span class="ls-pill-icon" aria-hidden="true" set:html={iconTranslate} />
     {langs.map((l) => (
       <a
         href={l.href}
@@ -120,6 +107,17 @@ const langs = [
     padding: 0;
   }
 
+  .ls-btn-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .ls-btn-icon svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+  }
+
   .ls-icon-btn:hover {
     background: rgba(0, 0, 0, 0.1);
     color: var(--text-color);
@@ -136,9 +134,17 @@ const langs = [
   }
 
   .ls-pill-icon {
+    display: flex;
+    align-items: center;
     color: var(--text-secondary, #5c5c5c);
     flex-shrink: 0;
     margin-right: 0.1rem;
+  }
+
+  .ls-pill-icon svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
   }
 
   .ls-code {
