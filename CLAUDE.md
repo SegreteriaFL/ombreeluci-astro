@@ -64,6 +64,14 @@ Esempio già fatto: `CategoriaPageContent.astro` usato da `/categoria/[categoria
 
 ---
 
+## CI/CD — note operative
+
+- **Nightly rebuild** (02:00 UTC): triggera rebuild CF Pages via Deploy Hook (`CF_DEPLOY_HOOK` secret). NON usare l'endpoint API `POST /pages/projects/{name}/deployments` — non funziona per progetti Git-connected (restituisce `success=false`).
+- **Update snapshot** (lunedì 01:00 UTC): rigenera `src/data/articoli_snapshot.json` via Directus API. Richiede secret `DIRECTUS_TOKEN`.
+- Per aggiungere un nuovo trigger CF Pages schedulato: usare sempre Deploy Hook, non l'API REST.
+
+---
+
 ## Componenti condivisi esistenti
 
 | Componente | Usato da |
