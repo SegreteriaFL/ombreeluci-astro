@@ -31,18 +31,19 @@ jobs:
     runs-on: ubuntu-latest
     needs: check-directus
     steps:
-      - name: Trigger Cloudflare Pages deployment
+      - name: Trigger Cloudflare Pages deployment (Deploy Hook)
         id: deploy
         run: |
-          RESPONSE=$(curl -s -X POST \
-            "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CF_ACCOUNT_ID }}/pages/projects/ombreeluci-staging/deployments" \
-            -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
-            -H "Content-Type: application/json")
-          SUCCESS=$(echo "$RESPONSE" | python3 -c "import sys,json; print(json.load(sys.stdin).get('success', False))" 2>/dev/null || echo "False")
-          DEPLOY_ID=$(echo "$RESPONSE" | python3 -c "import sys,json; print(json.load(sys.stdin).get('result',{}).get('id','?'))" 2>/dev/null || echo "?")
-          echo "Deploy triggered: $DEPLOY_ID (success=$SUCCESS)"
-          if [ "$SUCCESS" != "True" ]; then
-            echo "::error::Deployment trigger fallito"
+          if [ -z "${{ secrets.CF_DEPLOY_HOOK }}" ]; then
+            echo "::error::Secret CF_DEPLOY_HOOK mancante"
+            exit 1
+          fi
+          HTTP=$(curl -s -o /tmp/hook_body.txt -w "%{http_code}" \
+            -X POST "${{ secrets.CF_DEPLOY_HOOK }}")
+          echo "Deploy hook HTTP: $HTTP"
+          echo "Body:"; cat /tmp/hook_body.txt || true
+          if [ "$HTTP" -lt 200 ] || [ "$HTTP" -ge 300 ]; then
+            echo "::error::Deploy hook fallito (HTTP $HTTP)"
             exit 1
           fi
 
