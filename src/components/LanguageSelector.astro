@@ -16,8 +16,10 @@ interface Props {
 const { pathname, alternateArticleUrl = null, lang: langProp } = Astro.props;
 const lang = langProp ?? getLangFromUrl(pathname);
 
-const hrefIt = lang === 'en' && alternateArticleUrl ? alternateArticleUrl : '/';
-const hrefEn = lang === 'it' && alternateArticleUrl ? alternateArticleUrl : '/en';
+// Su pagina IT: IT → pagina corrente, EN → controparte EN (o /en)
+// Su pagina EN: IT → controparte IT (o /), EN → pagina corrente
+const hrefIt = lang === 'en' ? (alternateArticleUrl ?? '/') : (pathname ?? '/');
+const hrefEn = lang === 'it' ? (alternateArticleUrl ?? '/en') : (pathname ?? '/en');
 
 const langs = [
   { code: 'IT', href: hrefIt, active: lang === 'it' },
@@ -38,8 +40,16 @@ const langs = [
     </svg>
   </button>
 
-  <!-- Pill desktop (sempre visibile su ≥768px) -->
+  <!-- Pill desktop (sempre visibile su ≥768px): icona + codici lingua -->
   <div class="ls-pill" role="list">
+    <svg class="ls-pill-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M5 8l6 6"/>
+      <path d="M4 14l6-6 2-3"/>
+      <path d="M2 5h12"/>
+      <path d="M7 2h1"/>
+      <path d="M22 22l-5-10-5 10"/>
+      <path d="M14 18h6"/>
+    </svg>
     {langs.map((l) => (
       <a
         href={l.href}
@@ -123,6 +133,12 @@ const langs = [
     background: rgba(0, 0, 0, 0.05);
     border-radius: 999px;
     padding: 0.25rem 0.5rem;
+  }
+
+  .ls-pill-icon {
+    color: var(--text-secondary, #5c5c5c);
+    flex-shrink: 0;
+    margin-right: 0.1rem;
   }
 
   .ls-code {
