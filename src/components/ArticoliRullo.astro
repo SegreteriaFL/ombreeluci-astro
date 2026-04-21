@@ -121,6 +121,7 @@ const restData = rest.map((a) => {
               data-total={articoli.length}
               data-base-path={basePath}
               data-locale={locale}
+              data-author-by={t(locale, 'author_by')}
               aria-label={`Carica altri articoli (${rest.length} rimanenti)`}>
               Carica altri
               <span class="rullo-remaining" id="rullo-remaining">
@@ -164,6 +165,7 @@ const restData = rest.map((a) => {
     let loaded = 0;
     const basePath = btn.dataset.basePath ?? '/blog';
     const locale = btn.dataset.locale === 'en' ? 'en-US' : 'it-IT';
+    const authorByLabel = btn.dataset.authorBy ?? 'Di';
 
     function makeCard(a: typeof remaining[number]): HTMLElement {
       const dateStr = a.data
@@ -215,7 +217,7 @@ const restData = rest.map((a) => {
 
       const authorRow = document.createElement('p');
       authorRow.className = 'author-row';
-      authorRow.appendChild(document.createTextNode('Di '));
+      authorRow.appendChild(document.createTextNode(authorByLabel + ' '));
       const authorLink = document.createElement('a');
       authorLink.href = `/autori/${a.autoreSlug}`;
       authorLink.className = 'author-link';
