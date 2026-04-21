@@ -18,7 +18,7 @@ import ArticleCard from './ArticleCard.astro';
 import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
 import { getArticoloCopertinaSrc } from '../lib/directus';
 import type { ArticoloFull } from '../lib/directus';
-import { localizeCategory, localizeFormalType, type Locale } from '../utils/i18n';
+import { t, localizeCategory, localizeFormalType, type Locale } from '../utils/i18n';
 
 interface Props {
   title: string;
