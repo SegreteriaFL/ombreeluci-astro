@@ -16,8 +16,9 @@ Flusso corretto:
 
 Esempio già fatto: `CategoriaPageContent.astro` usato da `/categoria/[categoria].astro` e `/en/category/[slug].astro`.
 
-**Pagine ancora da refactorare (lavoro futuro, non urgente):**
-- `/blog/[...slug].astro` e `/en/[slug].astro` (~1900 + ~1600 righe) — estrarre `ArticlePageContent.astro`
+**Fatto:**
+- `ArticlePageLayout.astro` — CSS condiviso IT+EN via `is:global`. Entrambe le pagine articolo lo usano invece di `BaseLayout`. Il CSS è l'unica fonte di verità.
+- Resto del template (logica dati, script) rimane nei file pagina — sono sufficientemente diversi (SSG vs SSR, script "leggi anche" solo IT).
 
 ---
 
@@ -79,4 +80,5 @@ Esempio già fatto: `CategoriaPageContent.astro` usato da `/categoria/[categoria
 | `CategoriaPageContent.astro` | `/categoria/[categoria].astro`, `/en/category/[slug].astro` |
 | `ArticoliRullo.astro` | `/tag/[slug].astro`, `/en/tag/[slug].astro`, altre sezioni |
 | `ArticleCard.astro` | ovunque — accetta `lang` e `basePath` |
+| `ArticlePageLayout.astro` | `/blog/[...slug].astro`, `/en/[slug].astro` — CSS articolo via `is:global` |
 | `BaseLayout.astro` | tutte le pagine — accetta `lang`, `alternateArticleUrl` |
