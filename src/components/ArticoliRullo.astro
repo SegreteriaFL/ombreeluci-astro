@@ -81,7 +81,9 @@ const restData = rest.map((a) => {
         : <h1 class="rullo-title">{title}</h1>
       }
       <span class="rullo-count" id="rullo-count">
-        {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'}
+        {articoli.length} {locale === 'en'
+          ? (articoli.length === 1 ? 'article' : 'articles')
+          : (articoli.length === 1 ? 'articolo' : 'articoli')}
       </span>
     </div>
     {description && (
@@ -122,10 +124,11 @@ const restData = rest.map((a) => {
               data-base-path={basePath}
               data-locale={locale}
               data-author-by={t(locale, 'author_by')}
-              aria-label={`Carica altri articoli (${rest.length} rimanenti)`}>
-              Carica altri
+              data-remaining-label={t(locale, 'load_more_remaining')}
+              aria-label={`${t(locale, 'load_more_aria')} (${rest.length} ${t(locale, 'load_more_remaining')})`}>
+              {t(locale, 'load_more')}
               <span class="rullo-remaining" id="rullo-remaining">
-                ({rest.length} rimanenti)
+                ({rest.length} {t(locale, 'load_more_remaining')})
               </span>
             </button>
           </div>
@@ -141,7 +144,7 @@ const restData = rest.map((a) => {
     </>
   ) : (
     <div class="rullo-empty">
-      <p>Nessun articolo disponibile.</p>
+      <p>{locale === 'en' ? 'No articles available.' : 'Nessun articolo disponibile.'}</p>
     </div>
   )}
 </section>
@@ -166,6 +169,7 @@ const restData = rest.map((a) => {
     const basePath = btn.dataset.basePath ?? '/blog';
     const locale = btn.dataset.locale === 'en' ? 'en-US' : 'it-IT';
     const authorByLabel = btn.dataset.authorBy ?? 'Di';
+    const remainingLabel = btn.dataset.remainingLabel ?? 'rimanenti';
 
     function makeCard(a: typeof remaining[number]): HTMLElement {
       const dateStr = a.data
@@ -242,7 +246,7 @@ const restData = rest.map((a) => {
         wrap.remove();
       } else {
         const span = document.getElementById('rullo-remaining');
-        if (span) span.textContent = `(${left} rimanenti)`;
+        if (span) span.textContent = `(${left} ${remainingLabel})`;
         btn.dataset.loaded = String((parseInt(btn.dataset.loaded ?? '0')) + batch.length);
       }
     }
