@@ -26,6 +26,13 @@ jobs:
             exit 1
           fi
 
+      - name: Verifica secret DIRECTUS_TOKEN
+        run: |
+          if [ -z "${{ secrets.DIRECTUS_TOKEN }}" ]; then
+            echo "::error::Secret DIRECTUS_TOKEN mancante o vuoto"
+            exit 1
+          fi
+
       - name: Genera snapshot
         env:
           DIRECTUS_TOKEN: ${{ secrets.DIRECTUS_TOKEN }}
