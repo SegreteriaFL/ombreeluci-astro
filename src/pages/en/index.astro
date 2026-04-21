@@ -1,16 +1,14 @@
 ---
 /**
  * EN article index: /en/
- *
- * SSR (prerender=false) — mostra sempre gli articoli EN più recenti da Directus.
+ * SSR — mostra tutti gli articoli EN via ArticoliRullo (load-more incluso).
  */
 export const prerender = false;
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import ArticleCard from '../../components/ArticleCard.astro';
-import { getMegaclusterForArticle, getLabels } from '../../config/taxonomy.js';
+import ArticoliRullo from '../../components/ArticoliRullo.astro';
 import { t } from '../../utils/i18n';
-import { getArticoliEN, getArticoloCopertinaSrc, directusCredsFromAstroLocals } from '../../lib/directus';
+import { getArticoliEN, directusCredsFromAstroLocals } from '../../lib/directus';
 
 const creds = directusCredsFromAstroLocals(Astro.locals);
 const englishArticles = await getArticoliEN(creds);
@@ -19,52 +17,22 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
 ---
 
 <BaseLayout
-  title={`${t('en', 'english_articles')}`}
-  description="Articles in English from Ombre e Luci."
+  title={t('en', 'english_articles')}
+  description="Articles from Ombre e Luci available in English."
   lang="en"
   canonical="https://ombreeluci.it/en/"
   pathname="/en/"
 >
   <main class="site-main">
-    <div class="container en-index-container">
-      <h1 style="margin-bottom: 0.5rem;">{t('en', 'english_articles')}</h1>
-      <p style="color: var(--text-secondary); margin-bottom: 2rem;">Articles from Ombre e Luci available in English.</p>
-      <div class="en-grid">
-        {englishArticles.map((a) => {
-          const image = getArticoloCopertinaSrc(a);
-          const { categoria_menu } = getMegaclusterForArticle(a);
-          const { formal } = getLabels([], a);
-          return (
-            <ArticleCard
-              title={a.titolo}
-              slug={a.slug}
-              categoriaMenu={categoria_menu ?? undefined}
-              issue={a.numero_rivista?.id_numero ?? null}
-              forma={formal}
-              author={a.autore?.nome_completo ?? t('en', 'author_unknown')}
-              date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
-              image={image}
-              lang="en"
-              basePath="/en"
-            />
-          );
-        })}
-      </div>
+    <div class="container">
+      <ArticoliRullo
+        title={t('en', 'english_articles')}
+        description="Articles from Ombre e Luci available in English."
+        articoli={englishArticles}
+        pageSize={24}
+        basePath="/en"
+        locale="en"
+      />
     </div>
   </main>
-
-<style>
-  .en-index-container {
-    padding-top: 2.5rem;
-    padding-bottom: 3rem;
-  }
-
-  .en-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.75rem;
-  }
-  @media (max-width: 1024px) { .en-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 640px)  { .en-grid { grid-template-columns: 1fr; } }
-</style>
 </BaseLayout>
