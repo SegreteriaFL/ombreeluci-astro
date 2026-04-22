@@ -1,0 +1,5 @@
+job_id,it_id,it_slug,en_id,en_slug,source_hash,status,error,input_tokens,output_tokens,cost_usd,timestamp
+sample-v6,9935324d-96d5-4b14-a928-10177e29dbbf,far-luce-sulla-realta-delle-migrazioni,49f85be4-b7ab-4d33-a837-e4696284281b,shedding-light-on-migration,fefc8f639d4c5bda,ok,,2864,577,0.004599,2026-04-18T22:21:10.075300
+sample-v6,994975e8-dfe9-4842-9df3-2bcddaecdc21,storia-di-una-promessa-mantenuta,0e8c34b4-d8b9-481f-b193-251039a52485,a-promise-kept,5256f74822d78c1b,ok,,3138,858,0.005942,2026-04-18T22:21:17.120585
+sample-v6,994f451b-4807-4563-8ae0-99eb1de0ebf3,brescia-raccolta-fondi-per-i-progetti-sollievo,eec028a4-594f-404b-8a02-3fac750602b2,brescia-rallies-behind-respite-programs-for-disabled-families,ae0a9273b4d0fc36,ok,,3079,802,0.005671,2026-04-18T22:21:27.756903
+sample-v6,99613b71-7c25-4e8e-bf78-d620476c2cda,una-storia-sacra,e263c53e-072e-4240-bbfa-e47f8b419e72,a-sacred-story,4816b368242e0a79,ok,,5575,2623,0.014952,2026-04-18T22:21:35.748914

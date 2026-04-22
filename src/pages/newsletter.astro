@@ -75,7 +75,7 @@ function formatDate(d: string | null): string {
             <ul class="nl-archive-list">
               {newsletters.map(n => (
                 <li class="nl-archive-item">
-                  <a href={`/blog/${n.slug}`} class="nl-archive-link">
+                  <a href={`/${n.slug}`} class="nl-archive-link">
                     <span class="nl-archive-title">{n.titolo}</span>
                     <span class="nl-archive-date">{formatDate(n.data_pubblicazione)}</span>
                   </a>

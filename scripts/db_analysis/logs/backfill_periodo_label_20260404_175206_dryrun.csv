@@ -1,0 +1,205 @@
+id_numero,status,periodo,metodo
+INS-2,ok,Luglio – Settembre,fallback_date
+INS--1,ok,Gennaio – Marzo,fallback_date
+INS-3,ok,Novembre – Dicembre,pat_simple
+INS-7,ok,Dicembre,pat_simple
+INS-5,ok,Marzo – Aprile – Maggio,pat_simple
+INS-4,ok,Febbraio,pat_simple
+INS-6,ok,Luglio,pat_simple
+INS-8,ok,Gennaio – Febbraio,pat_simple
+INS-9,ok,Marzo – Aprile – Maggio,pat_simple
+INS-10,ok,Giugno – Settembre,pat_simple
+INS-11,ok,Ottobre – Novembre – Dicembre,pat_simple
+INS-15,ok,Ottobre – Novembre – Dicembre,pat_simple
+INS-14,ok,Luglio – Agosto – Settembre,pat_simple
+INS-12,ok,Gennaio – Febbraio – Marzo,pat_simple
+INS-13,ok,Aprile – Maggio – Giugno,pat_simple
+INS-16,ok,Gennaio – Febbraio – Marzo,pat_simple
+INS-18,ok,Luglio – Agosto – Settembre,pat_simple
+INS-19,ok,Ottobre – Novembre – Dicembre,pat_simple
+INS-17,ok,Marzo,pat_simple
+INS-22,ok,Luglio – Agosto – Settembre,pat_simple
+INS-20,ok,Gennaio – Febbraio – Marzo,pat_simple
+INS-23,ok,Ottobre – Novembre – Dicembre,pat_simple
+INS-21,ok,Aprile – Maggio – Giugno,pat_simple
+INS-26,ok,Luglio – Agosto – Settembre,pat_simple
+INS-24,ok,Gennaio – Febbraio – Marzo,pat_simple
+INS-25,ok,Aprile – Maggio – Giugno,pat_simple
+INS-27,ok,Ottobre – Novembre – Dicembre,pat_simple
+INS--3,ok,Novembre – Dicembre,pat_simple
+INS--2,ok,Luglio – Settembre,fallback_date
+INS-30,ok,Luglio – Agosto – Settembre,pat_simple
+INS-28,ok,Gennaio – Febbraio – Marzo,pat_simple
+INS-29,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-2,ok,Luglio – Settembre,fallback_date
+OEL-4,ok,Febbraio,pat_simple
+OEL-3,ok,Novembre – Dicembre,pat_simple
+OEL-1,ok,Gennaio – Marzo,fallback_date
+OEL-8,ok,Gennaio – Febbraio,pat_simple
+OEL-6,ok,Luglio,pat_simple
+OEL-7,ok,Dicembre,pat_simple
+OEL-5,ok,Marzo – Aprile – Maggio,pat_simple
+OEL-9,ok,Marzo – Aprile – Maggio,pat_simple
+OEL-10,ok,Giugno – Settembre,pat_simple
+OEL-12,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-11,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-16,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-14,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-13,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-15,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-20,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-17,ok,Marzo,pat_simple
+OEL-18,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-19,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-22,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-24,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-23,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-21,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-26,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-25,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-28,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-27,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-29,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-31,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-32,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-30,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-34,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-33,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-35,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-36,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-37,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-38,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-39,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-40,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-42,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-41,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-43,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-44,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-45,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-48,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-47,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-46,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-52,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-51,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-50,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-49,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-53,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-56,error,,none
+OEL-54,ok,Aprile – Maggio – Giugno,pat_full
+OEL-55,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-60,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-58,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-59,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-57,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-64,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-62,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-61,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-63,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-66,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-68,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-65,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-67,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-72,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-69,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-70,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-71,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-73,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-76,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-74,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-75,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-77,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-80,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-79,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-78,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-81,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-83,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-82,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-84,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-88,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-85,ok,Gennaio – Febbraio – Marzo,pat_simple
+OEL-87,ok,Luglio – Agosto – Settembre,pat_simple
+OEL-86,ok,Aprile – Maggio – Giugno,pat_simple
+OEL-91,ok,Settembre,pat_simple
+OEL-89,ok,Gennaio – Marzo,fallback_date
+OEL-90,ok,Giugno,pat_simple
+OEL-92,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-94,ok,Giugno,pat_simple
+OEL-96,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-95,ok,Settembre,pat_simple
+OEL-93,ok,Marzo,pat_simple
+OEL-98,ok,Giugno,pat_simple
+OEL-97,ok,Marzo,pat_simple
+OEL-100,ok,Ottobre – Novembre – Dicembre,pat_simple
+OEL-99,ok,Settembre,pat_simple
+OEL-101,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-102,ok,Aprile – Maggio – Giugno,pat_full
+OEL-103,ok,Luglio – Agosto – Settembre,pat_full
+OEL-104,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-107,ok,Luglio – Agosto – Settembre,pat_full
+OEL-105,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-108,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-106,ok,Aprile – Maggio – Giugno,pat_full
+OEL-109,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-112,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-110,ok,Aprile – Maggio – Giugno,pat_full
+OEL-111,ok,Luglio – Agosto – Settembre,pat_full
+OEL-114,ok,Aprile – Maggio,pat_full
+OEL-115,ok,Luglio – Agosto – Settembre,pat_full
+OEL-116,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-113,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-119,ok,Luglio – Agosto – Settembre,pat_full
+OEL-118,ok,Luglio – Agosto – Settembre,pat_full
+OEL-117,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-120,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-121,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-123,ok,Luglio – Agosto – Settembre,pat_full
+OEL-122,ok,Aprile – Maggio – Giugno,pat_full
+OEL-124,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-126,ok,Aprile – Maggio – Giugno,pat_full
+OEL-127,ok,Luglio – Agosto – Settembre,pat_full
+OEL-128,ok,Ottobre – Dicembre,fallback_date
+OEL-125,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-130,ok,Aprile – Giugno,fallback_date
+OEL-132,ok,Ottobre – Dicembre,fallback_date
+OEL-129,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-131,ok,Luglio – Settembre,fallback_date
+OEL-133,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-134,ok,Maggio – Giugno,pat_simple
+OEL-135,ok,Luglio – Agosto – Settembre,pat_full
+OEL-136,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-137,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-139,ok,Ottobre – Dicembre,fallback_date
+OEL-138,ok,Aprile – Maggio – Giugno,pat_full
+OEL-140,ok,Gennaio – Marzo,fallback_date
+OEL-141,ok,Aprile – Giugno,fallback_date
+OEL-143,ok,Ottobre – Dicembre,fallback_date
+OEL-142,ok,Luglio – Settembre,fallback_date
+OEL-144,ok,Gennaio – Marzo,fallback_date
+OEL-146,ok,Luglio – Settembre,fallback_date
+OEL-145,ok,Gennaio – Marzo,fallback_date
+OEL-148,ok,Ottobre – Dicembre,fallback_date
+OEL-147,ok,Ottobre – Dicembre,fallback_date
+OEL-152,ok,Ottobre – Dicembre,fallback_date
+OEL-151,ok,Luglio – Settembre,fallback_date
+OEL-150,ok,Aprile – Giugno,fallback_date
+OEL-149,ok,Gennaio – Marzo,fallback_date
+OEL-155,ok,Luglio – Agosto – Settembre,pat_full
+OEL-154,ok,Aprile – Giugno,fallback_date
+OEL-153,ok,Gennaio – Marzo,fallback_date
+OEL-159,ok,Luglio – Agosto – Settembre,pat_full
+OEL-158,ok,Aprile – Maggio – Giugno,pat_full
+OEL-156,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-157,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-160,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-163,ok,Luglio – Agosto – Settembre,pat_full
+OEL-161,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-162,ok,Aprile – Maggio – Giugno,pat_full
+OEL-167,ok,Luglio – Agosto – Settembre,pat_full
+OEL-168,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-164,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-165,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-166,ok,Aprile – Maggio – Giugno,pat_full
+OEL-169,ok,Gennaio – Febbraio – Marzo,pat_full
+OEL-172,ok,Ottobre – Novembre – Dicembre,pat_full
+OEL-170,ok,Aprile – Maggio – Giugno,pat_full
+OEL-171,ok,Luglio – Agosto – Settembre,pat_full

@@ -1,0 +1,12 @@
+job_id,it_id,it_slug,en_id,en_slug,source_hash,status,error,input_tokens,output_tokens,cost_usd,timestamp
+sample-v4,1e6bde7e-707c-49b7-908f-456a389e08e9,indice-articoli-per-argomenti,,,314ead60c13dce04,error,Quality gate fallito: HTML: tag count: 473 orig vs 304 trad,,,,2026-04-18T21:45:06.694560
+sample-v4,4d3303dd-3d02-4df9-a01d-f6c6cdb2ba30,insegnante-di-lettere-canale-della-vita,,,77d01f9b89b2d18e,error,Quality gate fallito: HTML: tag count: 33 orig vs 17 trad,,,,2026-04-18T21:50:05.222613
+sample-v4,64b894ee-60d3-4fa5-9f0f-b7e25dd06de2,dialogo-aperto-n-32,,,47c4c631b93e4683,error,Quality gate fallito: HTML: tag count: 7 orig vs 38 trad,,,,2026-04-18T21:52:03.326473
+sample-v4,68d1d9a4-f559-416c-a727-02da77c92d14,la-storia-della-reliquia-di-giovanni-paolo-ii,,,a84d6d48e99ea82e,error,Quality gate fallito: HTML: tag count: 28 orig vs 22 trad,,,,2026-04-18T21:58:38.979787
+sample-v4,74d9cfac-e365-4771-8c79-3cdf3180af4e,gli-amici-che-non-ti-aspetti,,friends-from-unexpected-places-74d9,f6cc375494371ecc,error,HTTP Error 400: Bad Request,2762,1085,0.00655,2026-04-18T22:00:21.217848
+sample-v4,794a3134-e3b2-48ea-9b57-7971d795705b,dialogo-aperto-n-119,,,daca7caf5449edcb,error,Quality gate fallito: HTML: tag count: 13 orig vs 51 trad,,,,2026-04-18T22:00:34.346047
+sample-v4,8ff6ce1b-18e3-4ed6-b6ae-cb54941fdcc6,se-avessi-ascoltato-la-mia-disperazione,ad47582b-d1ef-4447-81e5-bc6004db1b9a,what-if-i-had-listened-to-my-despair-8ff6,947163d681f04823,ok,,2978,1313,0.007634,2026-04-18T22:03:52.281061
+sample-v4,68d1d9a4-f559-416c-a727-02da77c92d14,la-storia-della-reliquia-di-giovanni-paolo-ii,ed75b780-a820-40f5-944b-a3a3776f4c6e,the-story-of-john-paul-iis-relic,a84d6d48e99ea82e,ok,,2943,1228,0.007266,2026-04-18T22:04:53.279041
+sample-v4,74d9cfac-e365-4771-8c79-3cdf3180af4e,gli-amici-che-non-ti-aspetti,61ea83f1-1da0-4c30-8b93-05819a5b4e5c,friends-you-never-see-coming,f6cc375494371ecc,ok,,2762,1105,0.00663,2026-04-18T22:05:08.151872
+sample-v4,794a3134-e3b2-48ea-9b57-7971d795705b,dialogo-aperto-n-119,a5138657-2f04-4c98-88ad-9eaaad19146c,open-dialogue-no-119,daca7caf5449edcb,ok,,4603,2588,0.014034,2026-04-18T22:05:21.415006
+sample-v4,94c04912-a6b5-495d-86cc-912fabd1a933,ridere-e-una-cosa-seria,e09fc7b3-31e8-41b6-98fd-af3c2552f122,laughter-takes-serious-work,8d0f7521979776b3,ok,,2255,749,0.0048,2026-04-18T22:05:57.767338

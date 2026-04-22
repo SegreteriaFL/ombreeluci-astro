@@ -225,7 +225,7 @@ const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
                     data-hero-candidate
                     style={i > 0 ? 'display:none' : ''}
                   >
-                    <a href={`/blog/${meta.slug}`}>
+                    <a href={`/${meta.slug}`}>
                       <figure class="home-featured-figure">
                         <img
                           src={meta.image || PLACEHOLDER_COPERTINA}
@@ -252,7 +252,7 @@ const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
             <aside class="home-recenti">
               <h2 class="section-title">Recenti</h2>
               {latestArticles.map((meta) => (
-                <a href={`/blog/${meta.slug}`} class="home-recenti-item">
+                <a href={`/${meta.slug}`} class="home-recenti-item">
                   <div class="home-recenti-thumb">
                     <img
                       src={meta.image || PLACEHOLDER_COPERTINA}
@@ -297,7 +297,7 @@ const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
                 {latestPerDiario.map(({ diarista, meta }) => {
                   const fotoUrl = autoriById[diarista.authorSlug]?.foto_url || '';
                   return (
-                    <a href={`/blog/${meta.slug}`} class="home-diario-card">
+                    <a href={`/${meta.slug}`} class="home-diario-card">
                       <div class="home-diario-avatar">
                         {fotoUrl
                           ? <img src={fotoUrl} alt={diarista.nome} loading="lazy" />
@@ -317,7 +317,7 @@ const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
             <!-- Testimonianze + CTA -->
             <div class="home-testi-col">
               {testimonianze.map((meta) => (
-                <a href={`/blog/${meta.slug}`} class="home-testi-item">
+                <a href={`/${meta.slug}`} class="home-testi-item">
                   {meta.image && (
                     <div class="home-testi-img">
                       <img
