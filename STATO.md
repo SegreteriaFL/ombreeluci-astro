@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-21
+**Ultimo aggiornamento:** 2026-04-22 (B-03)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -58,8 +58,8 @@ Il cutover avviene quando tutti i blockers sono verdi. Ordinati per dipendenza l
 | ID | Stato | Owner | Descrizione |
 |----|-------|-------|-------------|
 | B-01 | ✅ | — | Merge `feat/i18n-shell` su main |
-| B-02 | ⏳ | Dev | Smoke test SEO F2 (Screaming Frog) — gate formali da verificare |
-| B-03 | ⏳ | Dev | CORS Directus: `CORS_ORIGIN=https://ombreeluci.it` + `CORS_CREDENTIALS=true` — senza questo il bottone "Modifica in Directus" non appare mai agli utenti loggati |
+| B-02 | ✅ | Dev | Smoke test SEO F2 — curl checks verdi; fix hreflang EN assoluto (`fix/hreflang-absolute-url`, merge `6aab9c44`) |
+| B-03 | ✅ | — | CORS Directus già configurato in docker-compose.yml — verificato `Access-Control-Allow-Origin` + `Credentials: true` su staging |
 | B-04 | ⏳ | Redazione | V-02: assegnare categoria ai 19 articoli "da-categorizzare" in Directus |
 | B-05 | ⏳ | Dev | URL-01: rimozione prefisso `/blog/` dagli URL articoli IT — SEO-critical, branch dedicato `feat/url-root-articles`, non mescolare con altro (vedi WORKING.md) |
 | B-06 | ⏳ | Dev/Redazione | T1/T2/T3: validare workflow creazione numero OEL-173 + associazione articolo da account Redazione UAT |

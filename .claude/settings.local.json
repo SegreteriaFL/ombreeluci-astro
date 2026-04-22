@@ -14,7 +14,8 @@
       "Bash(npx tsc:*)",
       "Bash(xargs grep:*)",
       "Bash(/dev/null grep:*)",
-      "Read(//dev/**)"
+      "Read(//dev/**)",
+      "WebFetch(domain:claude.com)"
     ]
   }
 }

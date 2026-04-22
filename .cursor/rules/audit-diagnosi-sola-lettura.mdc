@@ -1,5 +1,5 @@
 ---
-description: Audit e diagnosi solo in lettura — evitare sovrapposizione con altri agenti
+description: Audit e diagnosi solo in lettura
 alwaysApply: true
 ---
 
@@ -10,6 +10,6 @@ Quando il compito è **audit**, **diagnosi**, **check**, **stato**, **cosa succe
 1. **Non intervenire**: niente modifiche a file, niente `git commit` / `push`, niente `wrangler deploy`, niente install di dipendenze, niente riformattazioni.
 2. **Usare solo strumenti di lettura**: aprire file, grep, log pubblici, fetch HTTP di URL, `git status` / `git log` in sola consultazione.
 3. **Riportare in modo strutturato**: cosa funziona, cosa no, ipotesi, cosa verificare a mano (dashboard CF, Directus, DNS).
-4. **Se serve un intervento**, chiuderla con una frase tipo: *«Intervento non eseguito; dimmi se vuoi che applichi le correzioni.»* — così non si sovrappone al lavoro di altri (es. Claude Code) sullo stesso problema.
+4. **Se serve un intervento**, chiuderla con una frase tipo: *«Intervento non eseguito; dimmi se vuoi che applichi le correzioni.»*
 
 Eccezione: richiesta esplicita del tipo *«applica il fix»*, *«committa»*, *«deploya»*.
