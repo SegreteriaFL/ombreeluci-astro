@@ -282,8 +282,8 @@ const alternateItem = articolo.articolo_traduzione ?? null;
 // Fase 2 i18n: se il counterpart è EN, punta al nuovo URL canonico /en/[slug-senza-en].
 const alternateArticleUrl = alternateItem
   ? alternateItem.lang === 'en'
-    ? `/en/${alternateItem.slug.endsWith('-en') ? alternateItem.slug.slice(0, -3) : alternateItem.slug}`
-    : `/blog/${alternateItem.slug}`
+    ? `${Astro.url.origin}/en/${alternateItem.slug.endsWith('-en') ? alternateItem.slug.slice(0, -3) : alternateItem.slug}`
+    : `${Astro.url.origin}/blog/${alternateItem.slug}`
   : null;
 
 // ── wpIdToSlugMap — solo dai correlati (per link enrichment client-side) ────────
