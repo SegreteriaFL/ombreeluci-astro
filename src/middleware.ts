@@ -7,6 +7,9 @@ const REDIRECTS: Record<string, string> = redirectsLegacy;
 // Copre 15.582 URL WordPress, gestita qui invece che nel CF Worker esterno.
 const DATE_PATH_RE = /^\/\d{4}\/\d{2}\/\d{2}\/(.+)$/;
 
+// Variante senza giorno: /YYYY/MM/slug/ → /slug/ (era in public/_redirects, ora in middleware)
+const YEAR_MONTH_SLUG_RE = /^\/\d{4}\/\d{2}\/([^/]+?)\/?$/;
+
 // Fase 2 i18n: redirect articoli EN dalla vecchia URL al nuovo prefisso /en/.
 // Pattern: /blog/[qualsiasi-slug]-en  (con o senza trailing slash)
 // Target:  /en/[qualsiasi-slug]       (suffisso -en rimosso, URL canonico EN)
@@ -52,6 +55,12 @@ export const onRequest = defineMiddleware(({ url, redirect }, next) => {
   const dateMatch = path.match(DATE_PATH_RE);
   if (dateMatch) {
     return redirect('https://ombreeluci.it/' + dateMatch[1], 301);
+  }
+
+  // Rule B2: /YYYY/MM/slug/ → /slug/ (variante senza giorno, ex public/_redirects)
+  const ymMatch = path.match(YEAR_MONTH_SLUG_RE);
+  if (ymMatch) {
+    return redirect('https://ombreeluci.it/' + ymMatch[1], 301);
   }
 
   return next();
