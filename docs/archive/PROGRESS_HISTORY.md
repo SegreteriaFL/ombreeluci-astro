@@ -1,7 +1,17 @@
 # PROGRESS — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-18 (3 blockers chiusi: webhook rebuild, Pagefind decision, Utente Redazione UAT)
+**Ultimo aggiornamento:** 2026-04-18 (3 blockers chiusi: webhook rebuild, Pagefind decision, Utente Redazione UAT; backlog VERT-01 pagine verticali slug WP; AUT-01 bio autori + pagine autore i18n)
 **Stato:** Stack Astro+Directus attivo su staging — output:hybrid, blog SSR on-demand con edge cache CF. WordPress su Aruba resta online fino al cutover DNS finale.
+
+---
+
+## Da testare (prossima sessione con contenuti reali)
+
+| # | Test | Cosa serve |
+|---|------|-----------|
+| T1 | Creazione OEL-173 da Redazione | Titolo tema, anno, periodo_label, copertina |
+| T2 | Associazione articolo → numero rivista (M2O dal form) | OEL-173 creato (T1) |
+| T3 | Nota campo numero_rivista guida la redazione | Verificare visibilità nota in UI |
 
 ---
 
@@ -446,7 +456,40 @@ I 7 ambigui e 11 no-match vanno revisionati manualmente dal CSV (slug EN → slu
 | — | S | **Ruoli e permessi Directus** — profili redazione con accessi limitati ai soli campi necessari. |
 | WP-01 | ✅ Fatto | **Proxy WordPress via CF Worker** — `/wp-admin/*`, `/wp-login.php`, ecc. proxati a Aruba IP `89.46.105.36`. La redazione può continuare a usare WP in produzione durante il periodo di staging. |
 | ARCH-04 | ✅ Fatto | **Hybrid SSR + edge cache invalidation** — Completato 2026-04-03. Blog SSR on-demand, bundle 107KB, Cache-Control s-maxage=86400. Tutti i gate verdi. Merge su main `7bf69d0d`. Directus Flow webhook configurata e verificata 2026-04-04: salvataggio UI → purge CF entro secondi. |
+| AUT-01 | M | **Biografie autori + pagine autore i18n** — tono/lunghezza bio; traduzioni lingue previste; lista articoli per `lang`; pagina `/autori/redazione/` internazionalizzata. Dettaglio: sezione **AUT-01** sotto. |
 | — | — | **Cutover DNS** `ombreeluci.it` → Cloudflare Pages. Step finale. Prerequisiti: tutti i pre-lancio completati + validazione staging ok. |
+
+### VERT-01 — Pagine verticali / hub (parità slug con WordPress)
+
+> **Stato:** ⏳ Backlog — creare pagine sul nuovo sito con **stesso path** del vecchio `ombreeluci.it` (landing, raccolte, dossier). Utile per redirect 1:1 al cutover e per link esterni già indicizzati.
+>
+> Riferimento WP (ultima versione nota): path = `https://www.ombreeluci.it/{slug}/`
+
+| Slug | Contenuto WP (sintesi) |
+|------|-------------------------|
+| `mariangela-bertolini` | Biografia fondatrice + griglia articoli collegati |
+| `ciao-stefano-di-franco` | Memorial / raccolta ricordo Stefano Di Franco + articoli |
+| `autismo` | Hub tematico autismo |
+| `cinema-e-disabilita` | Hub tematico cinema e disabilità |
+| `aktion-t4-sterminio-persone-disabilita` | Hub / dossier Operazione T4 |
+| `studiosi-educatori-e-attivisti-ombre-e-luci` | Elenco collaboratori (studiose/educatori/attivisti) + link articoli |
+| `catechesi-e-disabilita` | Hub tematico catechesi e disabilità |
+| `noi-papa-un-figlio-disabile` | Hub raccolta “papà di un figlio con disabilità” + articoli |
+
+**DoD minimo:** route pubblica su staging con slug identico, contenuto equivalente o redirect 301 verso nuova struttura documentata; meta title/description coerenti; nessun 404 su URL legacy elencati dopo cutover.
+
+### AUT-01 — Biografie autori e pagine autore (i18n)
+
+> **Stato:** ⏳ Backlog — contenuti autore e UX per lingua; dipende da modello dati Directus (bio per locale o traduzioni) e da [`docs/I18N_MASTER_PLAN.md`](docs/I18N_MASTER_PLAN.md).
+
+| # | Problema / obiettivo | Note |
+|---|----------------------|------|
+| 1 | **Biografie: tono e lunghezza** | Uniformare linee guida redazione + revisione batch (stesso registro, lunghezza comparabile tra autori). |
+| 2 | **Biografie nelle lingue previste** | Tradurre (o mantenere campi dedicati per) le bio nelle lingue del sito; coerenza con rollout i18n articoli. |
+| 3 | **Pagine autore per lingua** | Route/layout differenziati per locale (`/autori/...` vs `/en/authors/...` o schema adottato); **lista articoli filtrata per `lang`** — in EN solo articoli EN, in IT solo IT. |
+| 4 | **Pagina “Redazione”** | [`/autori/redazione/`](https://ombreeluci-staging.pages.dev/autori/redazione/) (e equivalenti per lingua): **internazionalizzare** titoli, testi UI, meta; contenuto allineato alla lingua attiva. |
+
+**DoD minimo:** per ogni lingua supportata, pagina autore mostra bio nella lingua corretta e solo articoli di quella lingua; pagina redazione localizzata; nessun mix IT/EN nella stessa vista salvo switcher esplicito.
 
 ### URL-01 — Migrazione URL articoli IT: rimozione `/blog/`
 
