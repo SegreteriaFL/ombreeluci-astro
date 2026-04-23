@@ -29,7 +29,18 @@ console.log('[config] site:', site);
 export default defineConfig({
   site,
   output: 'hybrid',
-  adapter: cloudflare(),
+  adapter: cloudflare({
+    routes: {
+      extend: {
+        include: [
+          { pattern: '/blog/*' },
+          { pattern: '/[0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9]/*' },
+          { pattern: '/[0-9][0-9][0-9][0-9]/[0-9][0-9]/*' },
+          { pattern: '/diario-di-*' },
+        ],
+      },
+    },
+  }),
   integrations: [pagefind()],
   vite: {
     define: {
