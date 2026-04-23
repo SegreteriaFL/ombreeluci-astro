@@ -1,0 +1,6592 @@
+[
+  {
+    "wp_id": 43,
+    "directus_id": "261fa864-2d32-44aa-8249-a4999201921d",
+    "slug": "ombre-e-luci",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ombre che, a volte, diventano notte opaca e pesante. Le luci"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 67,
+    "directus_id": "1f8b4102-6f81-463a-b9fa-339c7488eb3c",
+    "slug": "lesperienza-della-solitudine",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Tutti i genitori con figli handicappati sanno per esperienza"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 88,
+    "directus_id": "a7dcb0a5-d70d-4897-94c3-fef26164b845",
+    "slug": "a-proposito-della-vita-affettiva-dellhandicappato-mentale",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“Sì ti capisco, capisco quello che provi. È qualcosa di sacr"
+      },
+      {
+        "status": "ok_prev",
+        "text": "\"Ma c'è una richiesta di infinito nel suo cuore, la richiest"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 224,
+    "directus_id": "60b49afc-5594-4406-a83d-e0473e872e2e",
+    "slug": "editoriale-4-il-mio-bambino-con-la-sindrome-down",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Consapevoli di questo immenso dolore che dura una vita, che "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 228,
+    "directus_id": "beff6862-e36d-4de9-b7cb-c35643d62a68",
+    "slug": "vacanze-con-la-differenza-nel-cuore",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Mi hanno posto di fronte alla \"differenza\", proponendomela i"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Ho scoperto che entrando un po' più nel cuore di ognuno, si "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 313,
+    "directus_id": "4ddc6659-2e40-437f-91fa-aa16bf727352",
+    "slug": "con-loro-sono-salito-sul-monte-meta",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ogni volta che ripenso a quei momenti, esulto di gioia e mi "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 325,
+    "directus_id": "fac2bdd5-5a76-41f8-9234-7609d4a2283f",
+    "slug": "per-la-prima-volta-lontano-da-me",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Così cominciò anche per me un nuovo modo di vivere."
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 328,
+    "directus_id": "da1328bb-ec8b-4613-b6fe-485e897abd3e",
+    "slug": "insieme-si-ma-come",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Questa la gioia di un gruppo: vedere che ognuno si impegna f"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 330,
+    "directus_id": "658a7561-a915-4b89-99f1-aa3913fd5daa",
+    "slug": "ed-e-stata-una-vera-vacanza",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Molto presto la distinzione, fra handicappati e non, sparì d"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 340,
+    "directus_id": "052c88ba-51ea-4459-95b1-8ebf9fd72ebd",
+    "slug": "unaltra-proposta-di-vacanze-con-persone-disabili-i-soggiorni-invernali",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Non sono solo ricordi le cose che restano, ognuno di questi "
+      },
+      {
+        "status": "ok_prev",
+        "text": "È bene che chi partecipa sappia stare un po’ in silenzio, sa"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 607,
+    "directus_id": "5e764b8d-6f87-4924-9943-f63559d76cb6",
+    "slug": "speranza-a-dura-prova",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Restare aperti alla speranza, senza scoraggiarsi, senza paur"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 612,
+    "directus_id": "a11af852-8363-492f-a7c7-0331127b9513",
+    "slug": "conoscere-lhandicap-lorenza",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“Non c’è niente da fare per lei” “Ricoveratela in un istitut"
+      },
+      {
+        "status": "ok_prev",
+        "text": "\"Così si impara anche a osare chiedere e ricevere un aiuto\"."
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 617,
+    "directus_id": "bbcac4f4-0054-4ad5-a419-d5b041e5bba3",
+    "slug": "la-paralisi-cerebrale-infantile",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Le pagine che vi proponiamo sulla paralisi cerebrale infanti"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 767,
+    "directus_id": "2f8919b5-7629-4d7f-be0a-0f546b5972ee",
+    "slug": "la-lezione-del-femminismo",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Poi la scoperta che mi avrebbe cambiato la vita: il bambino "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Un giorno un giovane amico mi chiese se poteva portare mio f"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 1211,
+    "directus_id": "05686c7b-75ce-4661-a8bd-a391af4cdd32",
+    "slug": "terapia-con-il-cavallo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Conosco un ragazzo che non poteva camminare ma montare a ca"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 1217,
+    "directus_id": "16087ec2-941a-497f-b965-9311fc2a448e",
+    "slug": "vicenza-centro-di-formazione-professionale-dell-opera-francescana-charitas",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Girando per i laboratori si percepisce la freschezza e la cu"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Ma che cosa succede quando lasciano il centro? Come li accog"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 1414,
+    "directus_id": "83ca207a-4270-4763-8f91-1cd080694825",
+    "slug": "fuori-dellacquario",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "L’amicizia vera, come del resto l’amore, non si può imporre,"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 1442,
+    "directus_id": "9fc4edb2-b7d2-4411-97d8-39b5ae751c3e",
+    "slug": "la-felicita-e-imperfetta",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Come fanno ad essere felici nonostante il loro dolore?"
+      },
+      {
+        "status": "ok_prev",
+        "text": "“Fede e Luce non è solo essere con, ma soprattutto, restare "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2203,
+    "directus_id": "f76cd21d-1b32-49b3-8aff-af2b2a28083e",
+    "slug": "il-lavoro-di-gianni",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Gianni lavora in pizzeria. Ha cominciato con i lavori sempli"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2205,
+    "directus_id": "d2d4527c-963f-4d7e-9f8d-60a69c56c360",
+    "slug": "quando-sono-adulti",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Se li si aiuta nella crescita, le loro doti di tenerezza e d"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2212,
+    "directus_id": "781c4a9c-f4b7-4ca2-9ad8-bf076301dfcf",
+    "slug": "andrea-a-scuola",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Le attività psicomotorie, soprattutto nelle prime classi, so"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2214,
+    "directus_id": "44e2cc5e-8814-4961-9048-dbfb64d562a8",
+    "slug": "trisomia-21-la-sindrome-down",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "I bambini con trisomia 21 hanno tutte le paia di cromosomi n"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Nessuno dei sintomi è specifico, ogni anomalia può trovarsi "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Si può dire che il bambino trisomico è sereno, felice di viv"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2218,
+    "directus_id": "b50a3393-9e8c-4f68-bbdf-12f2ec219e02",
+    "slug": "quando-la-vita-e-cosi-difficile",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quando la vita è così difficile, quando mi sento sfinita, qu"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2238,
+    "directus_id": "ad03246e-66d8-48ce-b430-0dc2eeab15ab",
+    "slug": "nessuno-escluso",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La certezza che il Regno di Dio è aperto a tutti"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2243,
+    "directus_id": "65eb77f2-0c08-4f3d-a97a-a2246b47f6d4",
+    "slug": "perche-lontano-da-dio",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Molti restano fuori perché quella porta aperta non dice più "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2252,
+    "directus_id": "1e3d716b-a5eb-4d3c-a1c0-3ca5d867b1f3",
+    "slug": "lei-non-entra",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il corpo di Cristo non sarà completo finché ci saranno degli"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2257,
+    "directus_id": "b240cca8-a049-4077-8a88-09253a317088",
+    "slug": "come-le-altre-domeniche-anna",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "E noi abbiamo forse la certezza di essere più vicini al sacr"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2259,
+    "directus_id": "63ce2405-2e03-429a-a1e9-b4901d4df896",
+    "slug": "basta-la-porta-aperta-domande-in-6-parrocchie",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Non siamo con loro per conquiste missionarie, per convertire"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Il primo impatto ti lascia “così”. Poi ci si lavora su, si "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2263,
+    "directus_id": "809ddfed-f701-43c3-81fb-002b286e576c",
+    "slug": "cosa-dirvi-di-piu",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Che cosa avviene in quel momento nel cuore di quella donna, "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Dio solo sa. È un mistero d'amore che ci sarà rivelato solo "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2265,
+    "directus_id": "b62e2043-c7a5-4db7-b669-7f9911f75814",
+    "slug": "secondo-le-possibilita-e-secondo-il-vangelo-chiediamo-alle-comunita-religiose",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il diritto alla vita deve essere accompagnato da realizzazio"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2343,
+    "directus_id": "4b5cac7d-b643-4691-9e35-a7ec7d802819",
+    "slug": "il-mistero-del-bambino-psicotico",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "I genitori scoprono progressivamente che il bambino è come m"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2348,
+    "directus_id": "6d6bed92-f794-4b53-afc6-65a677a27e3b",
+    "slug": "figlio-mio-non-credo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«E’ venuto un gruppo di fedeli a protestare, io non posso cr"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2352,
+    "directus_id": "30528160-f530-47a0-9828-fd21dca846ca",
+    "slug": "e-sempre-stato-rifiutato",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "...mi hanno preso R. anche se non è la scuola adatta per lui"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2354,
+    "directus_id": "06b30b53-01ed-496d-bde2-217a244760c0",
+    "slug": "la-legge-sullintegrazione",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La gioia per la nascita del nostro primogenito, iniziò ad es"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2356,
+    "directus_id": "81fce0d2-e01d-456d-9017-729eb92bc89c",
+    "slug": "la-riabilitazione-nella-scuole-ma-la-bambina-non-e-tenuta-in-classe",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Dicono che ci vuole pazienza, che gli inizi sono difficili, "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2358,
+    "directus_id": "18b4ab1a-bf12-45d4-a080-d764d7ee061a",
+    "slug": "nessun-uomo-e-una-pietra",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "All’inizio di ogni comportamento, c’è il bisogno di sicurezz"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Fra un essere sano e un essere umano molto sminuito ci sono "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Quelle piccole cose, insignificanti per noi che ne ignoriamo"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2361,
+    "directus_id": "6f70a248-f466-4e58-b721-04aa4af85e4c",
+    "slug": "psicosi-precoci-che-cosa-sono",
+    "total_evidenziazioni": 5,
+    "inserted": 5,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La malattia mentale grave è uno schermo che maschera la prof"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Non parla, forse perché non è interessato, ma sembra che cap"
+      },
+      {
+        "status": "ok_prev",
+        "text": "L'autismo si trova in tutte le razze in ogni popolo, in tutt"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Un bambino — si ritiene — non nasce psicotico o non lo diven"
+      },
+      {
+        "status": "ok_prev",
+        "text": "La precocità della diagnosi e dell’intervento terapeutico su"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2380,
+    "directus_id": "04474117-46de-4095-b47c-0a19e64706fa",
+    "slug": "oltre-la-scienza-umanita-e-buon-senso-in-un-centro-per-la-cura-della-psicosi",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Laura ha 12 anni. E’ molto bella. Nella stanza della musicot"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2391,
+    "directus_id": "3201ad74-6bc6-4c64-b595-21afbf04795e",
+    "slug": "integrazione-a-scuola-una-verita-difficile-a-dirsi",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Basta \"socializzare\" per educare? Basta trovarsi con altri b"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Ciò che importa è non far cadere ancora una volta sui più de"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2394,
+    "directus_id": "74986486-3b0a-4c91-a888-657cb88c80ef",
+    "slug": "classe-azzurro",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Le ragazze della classe «Azzurro» partecipano a tutte le att"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2396,
+    "directus_id": "375a2035-f0eb-4e93-b2dc-e0971cc748dc",
+    "slug": "quel-lupo-dentro-noi",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Cerchiamo di non aver paura di penetrare nella nostra fragil"
+      },
+      {
+        "status": "ok_prev",
+        "text": "So che sono un insieme di amore e di odio, di luce e di tene"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Cerchiamo di non aver paura di scoprire il povero che è in n"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Il ricco è chi se la cava da solo: non chiede aiuto e non ne"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2398,
+    "directus_id": "96418c1f-7b59-4dae-a690-4aa106174a58",
+    "slug": "quando-e-volontariato",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "L'essenza del volontariato è la qualità dei rapporti fra le "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2400,
+    "directus_id": "2323d3bf-9c71-4e97-a7f1-01641c8d8dbc",
+    "slug": "il-nostro-cucciolo-di-due-metri-storia-di-un-adozione",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ero tentata di rinunciare ai bambini quando vedevo quelle be"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2402,
+    "directus_id": "a93ea67d-1236-4bb8-86ab-de9eb8e42b45",
+    "slug": "casa-jada",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il clima è sereno, l'incontro spontaneo anche se se non sarà"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2416,
+    "directus_id": "43a383cc-1e0a-4887-a856-1df0b91ec653",
+    "slug": "un-uovo-due-uova",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il principio alla base di questa esperienza di «scuola occup"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2427,
+    "directus_id": "fd993856-2439-4b12-93bd-8b409fb71e01",
+    "slug": "ritrovarsi-genitore-di-un-bambino-handicappato",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Allora si cerca di fuggire. Fughe discrete, nascoste a volte"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2431,
+    "directus_id": "c5769fe8-cfb7-4202-bb65-07f9acea18ad",
+    "slug": "essere-forti-per-lei",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Non sanno che forza bisogna tirar fuori per tenere a bada i "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2433,
+    "directus_id": "d5e70269-295f-4547-8839-b195b9ba4388",
+    "slug": "ed-era-la-nostra-consolazione",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Le circostanze che ero costretto a combattere ottenebravano "
+      },
+      {
+        "status": "ok_prev",
+        "text": "La vita è una cosa meravigliosa. Anche la vita di un handica"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2439,
+    "directus_id": "7bcad11c-344e-4e63-8763-a2f80365932a",
+    "slug": "so-quel-che-non-bisogna-fare",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "L’annuncio della malattia può essere accompagnato da una pro"
+      },
+      {
+        "status": "ok_prev",
+        "text": "E' il momento di dimenticare i piccoli dissensi per rifare l"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2441,
+    "directus_id": "f40fa94d-2f99-45f6-8a9e-e5377a4eaabe",
+    "slug": "prima-che-sia-tardi",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il colpo ai genitori è duro, ma benefico perché mette fine a"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Chi informa i genitori ha un problema in più nella scelta de"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 2445,
+    "directus_id": "83e67ebf-830b-4bd4-a631-9bca46c61d1a",
+    "slug": "vita-fede-e-luce-n-8-che-cosa-e-fede-e-luce",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Fede e Luce è comunità di incontro. Al centro delle comunità"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Se la persona handicappata è al centro del messaggio di Fed"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3002,
+    "directus_id": "31cab405-2e3c-4e88-b440-aa921274b93b",
+    "slug": "voci-di-sorelle-e-fratelli",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Fratelli e sorelle che hanno avuto il coraggio di prendere l"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3013,
+    "directus_id": "c6c47896-46e1-4059-94a5-d7b0870bd907",
+    "slug": "care-sorelle-cari-fratelli-vi-scrivo",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il nostro cuore di uomini, a volte così generoso, ha molte d"
+      },
+      {
+        "status": "ok_prev",
+        "text": "I genitori ci sono per aiutare i figli a diventare quello ch"
+      },
+      {
+        "status": "ok_prev",
+        "text": "E lui non sa che farsene della vostra pietà, non vi chiede d"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Che male ha questo mio fratello, questa sorella? Non tenetev"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3015,
+    "directus_id": "3ac19cdd-c955-4667-851e-b7d3a1a67130",
+    "slug": "piano-piano-notai-che-sergio-era-differente",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Mi ha insegnato a cogliere umanamente il messaggio che la pe"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3018,
+    "directus_id": "29879bb7-f20b-4d13-b501-891e39c75d46",
+    "slug": "non-solo-tutto-lanno-ma-tutti-gli-anni",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Troppo presi dal figlio malato, finiscono spesso col trascur"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3023,
+    "directus_id": "f4c1d8bd-d94f-4b8f-9f83-a0069ce5eadc",
+    "slug": "spesso-pero-mi-regala-il-suo-prezioso-sorriso",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Carlo mi crea quindi tanti problemi, ma forse mi aiuta anche"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3027,
+    "directus_id": "39b875d4-8b74-43bf-b400-51c555c5ef19",
+    "slug": "forse-per-questo-non-sono-andato-via",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ho scoperto poi che non c’è famiglia che non passi per la pr"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3035,
+    "directus_id": "204dc2f0-8ca8-4472-ba1a-5dc48dbb8403",
+    "slug": "mio-fratello-era-handicappato",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Tutti in famiglia avevamo per lui un grande affetto, forse p"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Anche se i genitori non possono dare altro che amore, i loro"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3038,
+    "directus_id": "155b2404-32bb-4905-b502-4844d54499b4",
+    "slug": "ho-scelto-mio-fratello",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "In anni di guerra, la presenza di Giorgio ci portò serenità "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Una nuova sistemazione, i nuovi impegni, la cura della casa,"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Capivo come fosse necessario venir incontro a tante famiglie"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3121,
+    "directus_id": "1ddc9904-d2dd-4002-850f-3c26a1131aec",
+    "slug": "vita-fede-e-luce-n-10-ricordo-di-don-dario",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Di fronte a colui che non crede perché la sua vita è segnata"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3146,
+    "directus_id": "c5060be6-d2d6-401e-90a8-c19d5baab606",
+    "slug": "comunita-e-cooperativa-il-girasole",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Dare a ognuno la possibilità di sviluppare le qualità che ha"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3150,
+    "directus_id": "cd11f0a4-5250-4fb8-9d64-11032c101dc4",
+    "slug": "esperienze-epilessia-in-famiglia-e-a-scuola",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Dovevo spiegarle quello che le succedeva? Dovevo condizionar"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Rendere tutti consapevoli che ognuno di noi ha bisogno degli"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3158,
+    "directus_id": "2b742ac4-8d34-4154-af27-c0f92f134239",
+    "slug": "epilessia-una-malattia-neurologica-ancora-sconosciuta",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "L’epilessia non è una malattia misteriosa e chi ne è affetto"
+      },
+      {
+        "status": "ok_prev",
+        "text": "A tutti può capitare di ammalarsi di epilessia come di altre"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3160,
+    "directus_id": "3294491c-2623-4925-bfc8-4de2e763b7d2",
+    "slug": "epilessia-una-malattia-che-imprime-un-marchio",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Un marchio, per un’eredità del passato, quando epilettico er"
+      },
+      {
+        "status": "ok_prev",
+        "text": "E’ un segno che isola dal mondo dei normali"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 3347,
+    "directus_id": "96dba73e-ee2b-4629-ad23-f2e2ccb229dd",
+    "slug": "connessi-per-davvero",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Le storie che troverete in questo numero, sono fatte di temp"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 4410,
+    "directus_id": "ceb0f15d-dc44-415e-8f1e-23bfad00f784",
+    "slug": "alla-fine-qualcosa-ci-inventeremo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"A volte la cosa difficile non è diventare adulti ma imparar"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 4444,
+    "directus_id": "1df08cc7-b311-4dd1-8ba8-7d0a9869dad0",
+    "slug": "un-panorama-riscoprire",
+    "total_evidenziazioni": 1,
+    "inserted": 0,
+    "not_found": 1,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "La scoperta della patologia di Caterina è stata graduale. Ma"
+      }
+    ],
+    "status": "no_change"
+  },
+  {
+    "wp_id": 4611,
+    "directus_id": "7e0eea81-1cbe-4bdf-bf6b-3ec49765eba6",
+    "slug": "nicola-pintus-il-progetto-filippide",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Non è facile per una persona autistica sradicarsi dal suo am"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 4704,
+    "directus_id": "1dd04fb0-0388-47e0-ab31-fd4b14c9c633",
+    "slug": "eccomi",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il racconto dell’Annunciazione, infatti, è un racconto di vo"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Anche a noi, in modi diversi, Dio ha mandato un angelo per c"
+      },
+      {
+        "status": "ok_prev",
+        "text": "L’esempio di Maria è molto importante per me: così come lei "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 4807,
+    "directus_id": "c22133b9-4dc7-4e24-b029-7e943876c2a2",
+    "slug": "dalla-disperazione-alla-speranza",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "È duro restare così nelle tenebre, con quest'amarezza nel cu"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Condividere i pesi degli altri può alleggerire il proprio pe"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 4811,
+    "directus_id": "00fef3c7-6f07-45d4-b610-ef5273d84832",
+    "slug": "joyeux-noel-2",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Le finestre delle case risplendono e scintillano"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 4821,
+    "directus_id": "3ea8054e-1da1-4bdc-94f3-5eedeb8715b8",
+    "slug": "ora-sappiamo-un-senso",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Tutti i centri ci davano la stessa risposta: vostra figlia "
+      },
+      {
+        "status": "ok_prev",
+        "text": "«A mano a mano che passava il tempo, il ritardo sia fisico c"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 4836,
+    "directus_id": "2293e815-f06e-4746-aa1c-27a3dce53c0e",
+    "slug": "un-salsicciotto-tanta-acqua-un-po-coraggio",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"In acqua mi sento veramente libero, perché posso muovermi s"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 4841,
+    "directus_id": "53729ce1-8e5c-4719-ace3-f684083f1456",
+    "slug": "verdetto-dei-medici",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Aspettiamo che il medico ci ascolti, ci guardi, ci riconosca"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 4843,
+    "directus_id": "a50442fd-ff3f-4fb3-a659-6c9a5467a719",
+    "slug": "vede-sente-parla-le-mani",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Insegnare al bambino sordo-cieco soprattutto la possibilità "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5012,
+    "directus_id": "86d54604-ce34-4c14-b980-41cb341e5672",
+    "slug": "come-sogni-il-futuro-dei-tuoi-figli-alcuni-genitori-rispondono",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Sono sicura che, nella migliore delle ipotesi, un po’ soffri"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Vorrei non pensarci..."
+      },
+      {
+        "status": "ok_prev",
+        "text": "Quando? Penso che si dovrebbe iniziare subito"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5020,
+    "directus_id": "df43fe6f-ee72-4ba7-92af-f50b3101c505",
+    "slug": "cascina-nibai-cooperativa-fraternita",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "1980. Ci siamo trovati di fronte all'interrogativo suscitato"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Nessuno è un pacchetto scomodo. Ognuno impari a farsi carico"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5040,
+    "directus_id": "65c84abc-c2c7-4dfb-8379-0f883f83e1b2",
+    "slug": "villa-pizzone-cancello-aperto",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Tirar fuori un’abitazione da un mucchio di macerie è un mod"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Non vogliamo lavorare per arricchirci, accumulare, garantirc"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5044,
+    "directus_id": "d3a44862-6f92-44fb-9942-fa111cae28d9",
+    "slug": "la-casa-gino-interessante-colonia-agricola",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Riteniamo che una persona diventa matura non tanto quando c"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Abbiamo difficoltà nell'inserire i ragazzi, che potrebbero l"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Per me, predicare il Vangelo è soprattutto testimoniarlo con"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5149,
+    "directus_id": "ab20ea99-f243-43fe-91c2-ee3cf24991ed",
+    "slug": "integrazione-non-parola",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Le educatrici credono veramente nell'importanza dei rapporti"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5216,
+    "directus_id": "7568bd57-94f8-4d9e-83bc-cb3ac02f5966",
+    "slug": "card-martini-alla-comunita-fede-luce",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Adagio adagio, con coraggio, giorno dopo giorno, aiutati da "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5266,
+    "directus_id": "e382cd90-6cc7-453e-96b2-71d30dfc062e",
+    "slug": "al-primo-posto",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Per stabilire con loro una relazione di fiducia e di vera am"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Trattarli sempre con rispetto e con delicatezza... perché so"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Ho costatato miracoli operati dall’amore, dalla tenerezza de"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Invece di tenere da parte le persone minorate ... dobbiamo d"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5272,
+    "directus_id": "d11a7470-7af1-41c2-990b-b08deb02afc4",
+    "slug": "perche-si-manifestassero-le-opere-dio",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Una risposta nuova a una domanda angosciosa e antica"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Tutte le forme di isolamento o di ripiegarsi su di sé non ha"
+      },
+      {
+        "status": "ok_prev",
+        "text": "La società rischia di trasformare questa realtà in senso di "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5387,
+    "directus_id": "673c9f3f-8f11-49eb-a483-c2c867ebda1c",
+    "slug": "alzati-ritrova-la-speranza",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Anche il più piccolo fra noi ha un dono: dell’amore, dell’ac"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5407,
+    "directus_id": "8ecd10e3-01c2-44cd-a973-00282351c6a9",
+    "slug": "e-una-offerta-unica",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Vi ringrazio di questo gesto che avete voluto fare nei confr"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5447,
+    "directus_id": "3930b9f7-b0e1-47a7-8352-075d8b2cd347",
+    "slug": "scendere-le-scale",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "E Dio gli disse il gran segreto che dice a ognuno di noi: ti"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Non avrai bisogno di denaro perché io mi occuperò di te"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Gesù dice al giovane: vieni, lavoreremo insieme per il regno"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Se non porto molto frutto i poveri resteranno in fondo"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5610,
+    "directus_id": "913758d5-b93b-43bf-926d-5b2bc6bd3048",
+    "slug": "la-fortuna-di-avere-daniela-lettera-di-una-mamma",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Noi non viviamo già in paradiso, la strada sarà ancora diffi"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5617,
+    "directus_id": "d1ea6c52-0576-4175-bed2-b34b9c5c4b40",
+    "slug": "un-risveglio-religioso-dei-piu-handicappati",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Amministrare i sacramenti dell’iniziazione cristiana e quell"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Quando si possiede un segreto che assicura la felicità, ci s"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Anche i giovani profondamente handicappati hanno un loro mod"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Anche per loro Gesù ha dato la vita. Sono anche loro chiamat"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5671,
+    "directus_id": "81e7d2ac-ae0d-4984-bcf2-c46ccb318db7",
+    "slug": "mary-mount-settimane-al-sole",
+    "total_evidenziazioni": 2,
+    "inserted": 0,
+    "not_found": 2,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "Ogni persona con handicap è affidata in modo speciale a una "
+      },
+      {
+        "status": "not_found",
+        "text": "«Davvero mi sono trovata molto bene. La gente era simpatica "
+      }
+    ],
+    "status": "no_change"
+  },
+  {
+    "wp_id": 5742,
+    "directus_id": "6c62f7b6-c9e6-4ce2-a79f-68ce58b46718",
+    "slug": "prepariamolo-vivere-con-gli-altri",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Se riusciremo a renderlo contento, calmo, ben educato... la "
+      },
+      {
+        "status": "ok_prev",
+        "text": "L'amicizia che riceve e della quale risente ha un effetto mo"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Fino a quando non riuscite ad accettare i limiti, pensate ch"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5745,
+    "directus_id": "2a379c88-7b08-417f-b824-075f8f1e96d8",
+    "slug": "tutto-quello-che-ha-fatto-per-noi",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Mi sentivo crollare il mondo addosso e non potevo fare nient"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5751,
+    "directus_id": "02fce70b-2ebc-458e-b68b-e44e7b1bbda3",
+    "slug": "ora-che-sono-sola-non-sono-piu-sola",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quella stanza vuota ormai da tanto tempo, quella stanza sile"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5756,
+    "directus_id": "e8249062-3d79-43bb-997e-54c9825f8c9c",
+    "slug": "festa-in-casa-con-lui",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Sapevo solo che lui dipendeva da me e che lui aveva voglia d"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5760,
+    "directus_id": "d909657a-9578-4cb7-bdc0-0809b401d0b3",
+    "slug": "perche-ho-dato-una-mano",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Un aiuto anche limitato ma con una certa continuità ha una s"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5784,
+    "directus_id": "1b82b5b0-1766-4e52-bd19-d59ccfb65955",
+    "slug": "vita-fede-luce-n-16-corso-formazione-ilkley",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Vivere la condivisione nella differenza"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Penso che la mia famiglia sia come una piccola comunità Fede"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5840,
+    "directus_id": "1a054e8a-7339-499f-b1be-27b187efa0f5",
+    "slug": "rendere-viva-la-messa-unita",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Rendere viva una messa è fare in modo che la riunione sia ve"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Non è necessario che una celebrazione abbia molti elementi. "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5846,
+    "directus_id": "1479cbc4-5b6b-4865-835d-ea9d2a524068",
+    "slug": "cresima-marco",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ho sempre incoraggiato i miei confratelli parroci ad accogli"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 5857,
+    "directus_id": "2d4819ed-e4b8-4e34-8cd7-61a3927c1e09",
+    "slug": "aspetto-ci-accorgessimo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Noi sacerdoti, insieme alle comunità ecclesiali, abbiamo que"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6035,
+    "directus_id": "def15807-4190-4f17-8b78-36e06750dd5d",
+    "slug": "non-so-come-ne-a-chi-dirlo",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "I modi con cui si manifesta il disagio sono talvolta sconcer"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Quando lui tace, il vostro cuore non smette di ascoltare il "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6044,
+    "directus_id": "c44bc36b-954a-4825-bfaf-732bd5938830",
+    "slug": "parla-senza-parole",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Se mio figlio non avesse usato il linguaggio della violenza,"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6059,
+    "directus_id": "f52794bb-a6f3-4a06-a48f-f142672b86d5",
+    "slug": "posso-insegnargli-qualcosa",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Aiutatelo solo quando è necessario. Lasciatelo fare da solo "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Proponetegli di volta in volta compiti corrispondenti al suo"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Il vostro modo di comportarvi, di parlare, di mangiare è mod"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6062,
+    "directus_id": "1cfac70a-ca37-4c4e-8580-ae7527a8ae1c",
+    "slug": "fame-di-normalita",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Trovano uno specchio in cui specchiarsi invece di quelli def"
+      },
+      {
+        "status": "ok_prev",
+        "text": "I ragazzi sentono un profondo rancore per quel che non hanno"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6083,
+    "directus_id": "2d55b0b3-8d09-40a8-bf78-b5aad4e7d5c4",
+    "slug": "perche-nessuno-sia-dimenticato",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quanti bambini e ragazzi sono lasciati da parte perché consi"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Si dovrà intervenire presso certe “autorità” che dimostrano "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Siamo convinti che ogni bambino, anche il più handicappato è"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6106,
+    "directus_id": "d56f5013-21f4-4a83-aa0a-15692a219fd1",
+    "slug": "tenendoci-mano-cresima-insieme",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La cresima deve essere una scelta matura che ci introduce al"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6109,
+    "directus_id": "b8a3d1cd-1143-4c01-b0b0-7a3155a8ebf0",
+    "slug": "temevo-non-accettata-catechista",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Sono riuscita a costruire con molti di loro un cammino che è"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6128,
+    "directus_id": "f3ff1daa-c3c6-481e-acb0-26b0a1ba49a1",
+    "slug": "una-lettera-per-te",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Rispondiamo ai bisogni e ai desideri dei nostri lettori?"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6160,
+    "directus_id": "fb3c74ea-a2a6-43d2-b512-6cd22829c6c7",
+    "slug": "non-vedo-le-meraviglie-dio-le-canto",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Non ho potuto sfuggire ai dolorosi «Perché io?» ma circondat"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Anche senza gli occhi voglio vivere, perché anche senza occh"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6176,
+    "directus_id": "cde4000b-7486-47db-b378-47d104ae41d7",
+    "slug": "la-persona-con-disabilita-come-fonte-di-unita-nella-chiesa",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La persona con disabilità, che il mondo considera come poco "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Siamo pronti a riconoscere la Sua azione diretta anche nella"
+      },
+      {
+        "status": "ok_prev",
+        "text": "La persona con handicap mentale ci meraviglia sempre quando "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6352,
+    "directus_id": "ead484e2-505c-4286-a54d-ffe323033449",
+    "slug": "sono-il-papa-di-francesca",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "E così indifesa che bramerei avere la capacità di proteggerl"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6373,
+    "directus_id": "35f24137-19d8-4f8a-818c-7ad21ae540e8",
+    "slug": "quanti-sanno",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Amare non è appagare se stessi. Amare è andare incontro a ch"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6381,
+    "directus_id": "e6ca5680-6888-4852-9905-68eae5306050",
+    "slug": "atteso-braccia-aperte",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Fin dall'inizio il padre deve vegliare affinché la famiglia "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6384,
+    "directus_id": "09fec868-4e83-40ff-b5a4-729affa11dfe",
+    "slug": "chicco-casa-famiglia-dellarche",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Chi non ha conosciuto i bambini al loro arrivo al Chicco, no"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6589,
+    "directus_id": "a45e4b32-16f5-4cac-b89b-cdc4d213c248",
+    "slug": "addomesticare-la-malattia-mentale",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Dopo l'accumularsi di tante prove ci sentivamo logorati, vul"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Ho scoperto che il mondo della malattia mentale ha le sue ri"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6592,
+    "directus_id": "77e5900e-b7c5-4f3a-9af2-71d76094c971",
+    "slug": "bloccati-nel-sogno",
+    "total_evidenziazioni": 5,
+    "inserted": 5,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Chi è mentalmente fragile è in cerca di una relazione “fuzi"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Quando siamo stati traumatizzati, spezzati da situazioni di "
+      },
+      {
+        "status": "ok_prev",
+        "text": "L'accompagnatore deve conservare una giusta distanza nella r"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«I genitori hanno bisogno di essere sostenuti, aiutati a tro"
+      },
+      {
+        "status": "ok_prev",
+        "text": "\"Partendo dalla Parola di Dio, dalla preghiera, si può aiuta"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6649,
+    "directus_id": "fb01fafb-cb06-4bae-9225-e8e7e0430fc6",
+    "slug": "scuola-ricamo-imparare-divertendoci",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ora forse dovremo chiudere. Speriamo che qualcuno capisca qu"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6652,
+    "directus_id": "50df621a-1347-464a-bf1e-bcd6d5dc0dc5",
+    "slug": "lavorando-insieme-un-pomeriggio-chiamato-laboratorio",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Abbiamo imparato a valorizzare il lavoro di ciascuno, adatta"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6670,
+    "directus_id": "34b4a5dc-178a-4d1a-bdb3-fdea0e2428b3",
+    "slug": "poco-tanto-tutti-stanno-meglio-la-danza",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Che felice, che sono col mio corpo!\""
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6673,
+    "directus_id": "cdd207fc-b9f4-418b-a799-05cc26535cf4",
+    "slug": "fare-teatro-persone-disabili",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Fare teatro richiede impegno, organizzazione, tempo e voglia"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Far teatro dà piacere, allegria, insegna a stare insieme"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6682,
+    "directus_id": "6fa943a9-2d67-4f26-8aeb-b6cabe9c26b8",
+    "slug": "diritto-alla-festa",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Cos'hai? Perché tu triste?»"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6728,
+    "directus_id": "b3a58ee2-5dae-41b6-9f8d-72ba441548f1",
+    "slug": "farci-servizi-perche-alla-cresima-la-cugina-accattava-giovanni",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ti ringrazio, o Padre, Signore del cielo e della terra, perc"
+      },
+      {
+        "status": "ok_prev",
+        "text": "La semplicità dei nostri incontri, fatti di piccoli gesti af"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6735,
+    "directus_id": "6e862138-a0aa-48a3-822d-2297dae2c31c",
+    "slug": "leducazione-religiosa-alla-fede-dei-nostri-figli-handicap-mentale",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«In quanto ciristiani abbiamo il dovere di fare in modo che "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6741,
+    "directus_id": "86e74c85-fae2-40bd-9b5d-4f3f2b35bae2",
+    "slug": "posto-mia-figlia-nella-chiesa",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Continuavamo il nostro cammino sentendoci soli più che mai,"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Gli amici sono stati per noi un ponte lanciato tra la cruda"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Si trattava di mettere in discussione il nostro modo di vive"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6761,
+    "directus_id": "7a0c4438-41d9-4f43-8529-a01546a0d424",
+    "slug": "perche-cambiata-la-mia-vita",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Io sono venuto perché abbiano la vita e l’abbiano in abbond"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6796,
+    "directus_id": "da93ad4f-75f4-4823-95e1-02519714ba62",
+    "slug": "dalla-scuola-amore",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ci sono bambini belli, svegli e pieni di salute che sono ins"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Anche per lui sono importanti le buone abitudini, i piccoli "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Da subito bisogna guidarlo, prepararlo, attrezzarlo direi, p"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Ho visto ragazzi handicappati in prima fila nei giochi e alt"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6800,
+    "directus_id": "377cb831-8331-4f51-b7c0-98a5505d5568",
+    "slug": "paolo-e-chiara",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Paolo mi ha dato moltissimo, mi ha insegnato a essere conten"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Chiara attendeva all’ospedale che qualcuno si prendesse cura"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6805,
+    "directus_id": "37934758-78d0-4124-8764-858e81bc75e8",
+    "slug": "dialogo-aperto-n-24",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Certo non eravamo preparati ad accogliere una figlia molto "
+      },
+      {
+        "status": "ok_prev",
+        "text": "\"Anche noi eravamo diventati diversi, il nostro pensiero fis"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6929,
+    "directus_id": "e12baeeb-e453-4358-b07e-4b466f13c3eb",
+    "slug": "si-organizza-un-campeggio-fede-luce",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Nello scegliere il luogo del campo, tener presente che l’amb"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Signore ti ringraziamo per questo cibo e per coloro che lo "
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Ma, sempre è Gesù che ci propone questa insolita vacanza ac"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6935,
+    "directus_id": "0ab0e8ef-64f9-4b99-8a6b-beafa2ede9a9",
+    "slug": "al-tepore-un-amore-semplice",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "II campeggio è anche «un luogo e un periodo di silenzio. Il "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6937,
+    "directus_id": "f1d1402a-d895-4f22-a5d6-345af58be8b6",
+    "slug": "guardavano-guardavano",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Per me i primi campeggi sono stati vacanze con amici che sa"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6941,
+    "directus_id": "45c49b41-541e-47dd-bcc2-c2fe04a1b4c2",
+    "slug": "allora-si-parte",
+    "total_evidenziazioni": 15,
+    "inserted": 15,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Ma allora Pablo vale qualcosa non solo per me!»"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Lui aveva bisogno di ricevere dagli altri e io glielo avevo"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Se tu vuoi veramente bene a tuo figlio, fallo crescere, dag"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Quel primo campeggio è stato per Pablo una tappa importante"
+      },
+      {
+        "status": "ok_prev",
+        "text": "* * *"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Ma allora Pablo vale qualcosa non solo per me!»"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Lui aveva bisogno di ricevere dagli altri e io glielo avevo"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Se tu vuoi veramente bene a tuo figlio, fallo crescere, dag"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Quel primo campeggio è stato per Pablo una tappa importante"
+      },
+      {
+        "status": "ok_prev",
+        "text": "* * *"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Ma allora Pablo vale qualcosa non solo per me!»"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Lui aveva bisogno di ricevere dagli altri e io glielo avevo"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Se tu vuoi veramente bene a tuo figlio, fallo crescere, dag"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Quel primo campeggio è stato per Pablo una tappa importante"
+      },
+      {
+        "status": "ok_prev",
+        "text": "* * *"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 6984,
+    "directus_id": "4d4a87cd-dc2d-481c-99df-0bb057bf7653",
+    "slug": "amici-nonostante-la-guerra",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "A volte fa bene seguire il cammino di speranza vissuto da al"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7029,
+    "directus_id": "c28da680-9060-4680-ba13-e17bda4bb4e4",
+    "slug": "parlano-senza-parole",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Anche io sono bravo. Voglio la tua simpatia. Anche io vogli"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7036,
+    "directus_id": "4a5cdff5-52e3-4ae1-b79c-285ff9793945",
+    "slug": "perceval-un-luogo-vivere-imparare-vivere",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Una casa senza muri di cinta né barriere; un lavoro scelto i"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7046,
+    "directus_id": "a27a4ec8-44f1-4041-87fe-b8980d1ae499",
+    "slug": "non-sempre-facile-sorella",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quando il bambino con handicap è piccolo i problemi sono min"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7050,
+    "directus_id": "47ecccea-6ef1-4953-a45d-b17d70ac65d9",
+    "slug": "aiutarlo-diventare-un-uomo",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ma è nostro fratello e la sua tenerezza risponde sempre alla"
+      },
+      {
+        "status": "ok_prev",
+        "text": "E importante «dialogare» con lui, ascoltarlo, cercare di cap"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7062,
+    "directus_id": "b4a7bcc5-d63f-40a6-bf5c-b97f288876af",
+    "slug": "da-dove-cominciare",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ora, avvicinandovi alla sera della vostra vita, siete avvolt"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7153,
+    "directus_id": "c59bc5c9-e000-421f-a75e-47d43fa7ee63",
+    "slug": "dal-silenzio-alla-comunicazione",
+    "total_evidenziazioni": 8,
+    "inserted": 8,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Inesorabilmente la bambina cessò di udire e il suo comportam"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Il sordo profondo vive in un mondo di assoluto silenzio, dif"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Per due anni aveva vissuto una vita normale; ora era costret"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Non mostrava alcun interesse per il suo ambiente, sembrava p"
+      },
+      {
+        "status": "ok_prev",
+        "text": "La bambina doveva essere trattata come se comprendesse il li"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Rifiutava qualsiasi esercitazione che avesse attinenza con l"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Ogni giorno un piccolo passo andava formando una nuova perso"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Senza la partecipazione della bambina non avrei avuto risult"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7157,
+    "directus_id": "059f9fbf-7d78-4a48-a6b9-f34453b6baa7",
+    "slug": "la-storia-di-angelica",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Col reparto scout, ha partecipato ai giochi, alle attività v"
+      },
+      {
+        "status": "ok_prev",
+        "text": "I suoi fratelli sono i suoi amici più cari, i suoi confident"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7202,
+    "directus_id": "20b18b5b-9b46-4530-9390-7c71c7c8ee99",
+    "slug": "le-case-della-carita",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La comunità cristiana si occupa in certa misura di questi po"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Vicino la chiesa, al centro della comunità, le persone con d"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7211,
+    "directus_id": "e584dec4-e348-4b07-852c-2983a4e14f59",
+    "slug": "un-grande-progetto-a-piccoli-passi",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Scoprivamo a poco a poco una bambina allegra e vivace che s"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Attraverso Blandine possiamo costatare con meraviglia quanto"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7216,
+    "directus_id": "30c93b4a-2c5b-4094-83cc-5e38e5d3c080",
+    "slug": "dove-se-non-in-chiesa",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Una sfida per la parrocchia è discernere e decidere perché e"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7219,
+    "directus_id": "bd9b6263-d1ca-445c-a763-f7e637623d5b",
+    "slug": "i-pasti-di-francesca-un-rito-e-una-avventura",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Francesca è molto sensibile agli atteggiamenti degli altri v"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7223,
+    "directus_id": "c76e9166-5608-4668-acc9-75fa0f7563d0",
+    "slug": "il-bambino-che-non-vuol-mangiare",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il rifiuto del bambino durante i pasti... susciterà in altri"
+      },
+      {
+        "status": "ok_prev",
+        "text": "La mancanza di appetito dei figli ha messo in crisi tante ma"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7227,
+    "directus_id": "00f4b82f-7f43-4f70-b89c-3c02257161e6",
+    "slug": "mangiare-insieme",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Sotto ogni cielo la festa è occasione di mettersi a tavola, "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7314,
+    "directus_id": "33a772b5-af0e-4c6e-b44b-e1d212aa3419",
+    "slug": "dialogo-aperto-n-29",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ombre e Luci è per aiutare per capire per conoscere per non "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7322,
+    "directus_id": "c3da8590-14d6-4022-8405-f56325399b74",
+    "slug": "forse-e-per-mia-sorella-che-sono-cosi",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Mia madre, mia sorella e io. Talvolta la tensione che si cre"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7327,
+    "directus_id": "09432447-e7d4-4923-a7ec-2f882ae6bfd5",
+    "slug": "ma-non-carichiamoli-di-un-peso-eccessivo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "È normale allora sentirsi soffocati; incapaci di godere la v"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7332,
+    "directus_id": "81bdd80d-ee13-475f-a143-800aeb5e2c6b",
+    "slug": "sentivo-crescere-la-mia-responsabilita",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "...e acquistavo una visione della vita più ampia e più profo"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7434,
+    "directus_id": "f696b4d8-f213-4920-8b9e-b6716580c0a8",
+    "slug": "la-nostra-famiglia-e-lhandicap",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ogni individuo ha diritto di raggiungere ed esplicare il mas"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7451,
+    "directus_id": "4ecbfd2a-737e-405a-a644-2cc4dac8d47d",
+    "slug": "lhai-chiamata-per-portare-frutto",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Lorenza non ha mai camminato, né parlato"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Si può ammettere che da questo male da cui è stato colpito p"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Lorenza ci ha resi più sensibili alle sofferenze, alla solit"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7465,
+    "directus_id": "b3d0c426-9e94-4c55-a3b1-9e20af72d9af",
+    "slug": "dipendente-ma-libero",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Che cosa ti ha sostenuto? I miei genitori, mio fratello, gli"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7476,
+    "directus_id": "2859e4f1-26f7-44bd-93f5-1c80861d8dc3",
+    "slug": "arrendermi-o-agire",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "A dieci mesi eri già irriconoscibile... Cominciò il giro est"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Decisi di rimboccarmi le maniche e agire, anche contro ogni "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Tu, in qualche modo, hai determinato la nostra vita, la nost"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7568,
+    "directus_id": "39f31310-156d-4e31-8cea-4f83b56d1bae",
+    "slug": "nonostante-il-mio-handicap",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ho avuto, per l’ennesima volta, la conferma che Fede e Luce "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7779,
+    "directus_id": "b2fb7410-9cdb-46aa-9052-6e375486f829",
+    "slug": "un-nuovo-modo-di-vedere-la-vita",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Sabina non aveva amici, nessuno veniva a trovarla. Chi conos"
+      },
+      {
+        "status": "ok_prev",
+        "text": "FL ha dato a tutti noi un nuovo modo di vedere la vita. Fina"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7789,
+    "directus_id": "1eef1684-6f9b-46ed-8d66-587843744aae",
+    "slug": "fede-e-luce-giorno-e-notte",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Un quadro fatto di cento immagini, una vicina all'altra: tan"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Un campeggio non è solo questo ma è anche questo. Il più res"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7810,
+    "directus_id": "b5d49e4a-e7b8-4a3a-a031-a874939eb3ce",
+    "slug": "equipe-di-coordinamento-come-funziona",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Generalmente ogni comunità si dà una équipe di animazione, o"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7816,
+    "directus_id": "bacf2922-c597-4f7c-bdbd-b5b3573c2928",
+    "slug": "il-4-momento-tra-un-incontro-e-laltro",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "A mano a mano che i rapporti di amicizia crescono nella comu"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7828,
+    "directus_id": "2cb11ad6-fcfe-4d15-a58c-5779d63c80da",
+    "slug": "incontro-di-una-comunita-di-fede-e-luce",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Spesso ci costruiamo un personaggio che crediamo tutto in re"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Se è il tempo delle invenzioni d’amore, è anche quello delle"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Una festa bisogna prepararla bene... perché ci sia più gioia"
+      },
+      {
+        "status": "ok_prev",
+        "text": "È il tempo dell’amicizia messa alla prova... Sono i segni di"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7852,
+    "directus_id": "83268a64-1006-44bd-a777-7f0b6ddd090c",
+    "slug": "lamicizia-a-fede-e-luce-un-legame-anche-con-chi-e-piu-debole-e-solitamente-rifiutato",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La nostra fedeltà nell’amicizia ai ragazzi dice loro: «Sei i"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7926,
+    "directus_id": "2680b4d3-6063-4bcd-b196-78f3b6b1c1e5",
+    "slug": "ma-non-sono-sola",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ho avuto la fortuna di non subire il pietismo e la condiscen"
+      },
+      {
+        "status": "ok_prev",
+        "text": "E se in futuro padri e madri insegneranno a cercare in chi s"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7944,
+    "directus_id": "8c76e31c-82e8-437d-bf95-1b9bbd1366ea",
+    "slug": "io-sono-una-come-voi-una-mamma",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Teresa, si avvicina ai trentanni. Accettata con affetto educ"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7951,
+    "directus_id": "0e053f97-6f21-4bc0-80cd-e732e48a7f3b",
+    "slug": "accogliere-un-bambino-autistico",
+    "total_evidenziazioni": 5,
+    "inserted": 5,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Si può abituarlo prendendolo sulle ginocchia; siamo così un "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Il bambino autistico non sa adagiarsi fra le braccia: è o ba"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Molto spesso è un bel bambino. Eppure presto scopriremo che "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Indifferente: non gira la testa quando è chiamato"
+      },
+      {
+        "status": "ok_prev",
+        "text": "È bene rendergli familiare l’ambiente attraverso il gioco: l"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 7958,
+    "directus_id": "c95089f3-0e02-43f1-9b86-842094b6abe4",
+    "slug": "abib-mohamed-e-naima",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "A noi sembravano miracolosi la fede e il coraggio di questa "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Non avrei mai pensato di trovare amici che mi aiutassero cos"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Abbiamo perso il lavoro, la casa, però ringrazio Iddio che g"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8057,
+    "directus_id": "d3a5decb-22b2-401e-94a9-8a144d4ad5b9",
+    "slug": "da-piccola-ero-down",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“Noi siamo felici, Giulia è felice e ci rende felici”"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8118,
+    "directus_id": "4ed1ba19-e03e-4bd3-8d48-2b9f146bada3",
+    "slug": "la-stelletta",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Non bisogna mai smettere di battersi\""
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8134,
+    "directus_id": "57c74680-2170-4385-a7f4-7a448bd380c7",
+    "slug": "quello-che-manca-ai-notri-figli",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Offrire un’amicizia è forse quello che di più grande e di pi"
+      },
+      {
+        "status": "ok_prev",
+        "text": "A Fede e Luce l'amico, con tutta la fatica che questa parola"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8140,
+    "directus_id": "a1e4551b-a166-41c9-b97c-94dbd74e8892",
+    "slug": "famiglie-diverse",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quanti genitori hanno visto fuggire parenti e amici che semb"
+      },
+      {
+        "status": "ok_prev",
+        "text": "I nostri sforzi hanno un senso, una speranza di portare risu"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8312,
+    "directus_id": "903c08fc-4e35-45fe-84db-6fc01b375285",
+    "slug": "teresa-una-storia-di-lavoro-integrato",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Così Teresa a poco a poco matura, si costruisce una filosofi"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8322,
+    "directus_id": "d31eec01-0e90-46b1-aa35-ca4873756610",
+    "slug": "maschio-e-femmina-li-creo",
+    "total_evidenziazioni": 5,
+    "inserted": 5,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Creare un ambiente armonioso dove ciascuno può trovare una c"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Lo sguardo che si rivolge a qualcuno può trasformarlo"
+      },
+      {
+        "status": "ok_prev",
+        "text": "La complessità della realtà umana e la profondità di certe c"
+      },
+      {
+        "status": "ok_prev",
+        "text": "L’essere umano è molto ricco di possibilità di crescita, ma "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Scoprire il significato profondo e la ricchezza di questa se"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8325,
+    "directus_id": "18ec63b5-e8ef-4b73-a84a-17c6dbeefdb2",
+    "slug": "non-ha-piu-sedici-anni",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Spesso alla persona adulta con una disabilità mentale viene "
+      },
+      {
+        "status": "ok_prev",
+        "text": "La persona con handicap non rimane bambina per sempre"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Occorrono istituzioni a misura di famiglia dove sia possibil"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8376,
+    "directus_id": "d8f3b153-0a0f-4e3b-a5ba-cfe709eeac70",
+    "slug": "che-vita-e-la-nostra-sei-mamme-si-raccontano",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«I doni dei nostri ragazzi sono molto difficili da accettare"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«I medici non mi hanno dato nessun aiuto, anzi sono andati c"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«... La famiglia è sola. Non c'è l’appoggio dei medici, né d"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Dopo i primi anni di tragedia e ombra totale, a un certo pu"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8386,
+    "directus_id": "56f5cdd9-d0c9-4a8d-b24f-4d4dc0e3f1ac",
+    "slug": "il-momento-di-capire",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "il meglio verrà e verrà molto prima con il metodo del perdon"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8514,
+    "directus_id": "aec41cb3-1401-4875-a782-a2914e440400",
+    "slug": "momenti-misteriosi",
+    "total_evidenziazioni": 6,
+    "inserted": 6,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“Turbata da quelle parole, ella si domandava cosa potesse si"
+      },
+      {
+        "status": "ok_prev",
+        "text": "“Beata colei che ha creduto che si sarebbe avverato quanto e"
+      },
+      {
+        "status": "ok_prev",
+        "text": "“Gloria a Dio nel più alto dei cieli e pace in terra agli uo"
+      },
+      {
+        "status": "ok_prev",
+        "text": "“Ecco, Egli è posto come segno di contraddizione. Anzi, a te"
+      },
+      {
+        "status": "ok_prev",
+        "text": "“Ora, tutti quelli che lo ascoltavano si stupivano della sua"
+      },
+      {
+        "status": "ok_prev",
+        "text": "“O Maria, che con il tuo fiat ci hai dato Gesù, che con il t"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8595,
+    "directus_id": "c2c306dd-5595-4984-9972-28bed6e5e34f",
+    "slug": "lettera-a-un-medico-per-la-nascita-di-un-bambino-disabile",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Bisogna far capire ai genitori che il loro compito più impor"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Bisogna trovare il modo di far sì che i genitori ‘desiderino"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8612,
+    "directus_id": "28dc5054-faae-45ef-a370-e2c3b26b7fab",
+    "slug": "ora-manuela",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Manuela nell’Istituto della “Lega del Filo d’Oro” ha fatto p"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8716,
+    "directus_id": "3cfd8961-a2d6-4f1d-9e8c-ae0b18970ca8",
+    "slug": "viviana",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Ho tre case e sto bene con tutti, ho tanti amici e faccio t"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8809,
+    "directus_id": "dc737b40-2de8-4303-a7e5-3cbc9fb18b3f",
+    "slug": "non-potevo-diventare-suora-perche-non-potevo-leggere",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“Ho abbandonato tutto per seguire il Cristo a Betania; non v"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8816,
+    "directus_id": "506922c1-cda3-423f-9e13-1b797e7bc8ab",
+    "slug": "essere-padrino-ha-cambiato-la-sua-vita",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Era poco dopo Natale. Emanuele commosso fece la conoscenza d"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8822,
+    "directus_id": "82360036-a043-4b8f-bb86-62a5f453a629",
+    "slug": "la-prima-comunione-di-flaminia-ci-ha-fatto-crescere",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "I Sacramenti sono gesti di Dio per l’uomo, per ogni uomo"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8893,
+    "directus_id": "f14cb535-0ade-44b1-9fba-a1b2457a18b0",
+    "slug": "case-della-carita",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La casa è mantenuta dalla provvidenza, sotto forma di doni d"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8905,
+    "directus_id": "f0aa94b5-a9b5-4c81-93bf-65ad5bef223f",
+    "slug": "loro-noi-che-stiamo-in-piedi",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Gli obiettori di coscienza sarebbero molto utili se si potes"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Insieme alla grande disperazione iniziale, hanno una insoppr"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8908,
+    "directus_id": "b1b87bcc-a10b-43b7-9891-aceacd043fea",
+    "slug": "non-aver-paura-sono-io-che-ti-guido",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“Non aver paura sono Io che ti guido” è un invito ad assumer"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Quel tempo in cui ho ricevuto tanta amicizia ha svegliato in"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Non ho mai sofferto così poco per gli scalini da salire o da"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 8910,
+    "directus_id": "6a456ff6-d37d-43da-95d0-8386aae31551",
+    "slug": "di-fronte-alle-persone-che-soffrono-fuggire-o-andare-incontro",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La sofferenza può imprigionarci in un mondo chiuso, ma può a"
+      },
+      {
+        "status": "ok_prev",
+        "text": "In questo mondo di sofferenza scaturisce, soffocato o violen"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9002,
+    "directus_id": "1cd12122-424a-43ee-8c15-677d1801d4c0",
+    "slug": "e-ci-aiutiamo-a-camminare",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ogni attività, ogni indirizzo, ogni lettore mi dicono storie"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9006,
+    "directus_id": "1f2a3437-11f5-4a77-8453-eaccef4b0ad3",
+    "slug": "proibito-amarlo",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Finii per sentirmi in colpa quando mi occupavo di Alessio. Q"
+      },
+      {
+        "status": "ok_prev",
+        "text": "La reazione più comune della società è che il bambino con ha"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9119,
+    "directus_id": "d97d4b87-cc2b-4b13-85ac-78610cec0950",
+    "slug": "faccio-io",
+    "total_evidenziazioni": 2,
+    "inserted": 0,
+    "not_found": 2,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "«Faccio io!» «Io! Solo!» «So’ bravo!»."
+      },
+      {
+        "status": "not_found",
+        "text": "E spesso chiedendo un servizio che si permette ai timidi di "
+      }
+    ],
+    "status": "no_change"
+  },
+  {
+    "wp_id": 9276,
+    "directus_id": "d2cb07c2-9bd0-43a7-b030-84449aa6b643",
+    "slug": "di-notte-bagna",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "In realtà l’unico trattamento positivo è quello di agire sul"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9282,
+    "directus_id": "1c46e650-65a9-4603-9c71-c216110bf1d5",
+    "slug": "prima-di-andare-a-letto",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Per favorire un sonno tranquillo aiuta: preparare il corpo, "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9405,
+    "directus_id": "23e2667c-e167-42fd-acc6-f0176541cda4",
+    "slug": "imparando-a-vivere-bene-con-jimmy-2-parte",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Abili nell’evitare quel che gli dà ansia, agitazione"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Ridere insieme è una grande terapia per tutti"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Farlo tornare ogni volta nel «suo spazio», sempre con le ste"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9417,
+    "directus_id": "6a900cd9-d13d-426a-929c-c81a0fcc273c",
+    "slug": "due-piccole-isole-di-luce",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Nei loro occhi la vita che riemerge quando qualcuno vi guard"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Quando il mondo di fuori vi ha abbandonato..."
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9586,
+    "directus_id": "e2d998ba-4dd8-4c49-8906-3d8724145a1a",
+    "slug": "a-scuola-con-chicco-in-braccio",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Chicco è un ragazzo sereno, è socievole con tutti e non gli "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Si, Chicco, il bambino «fortunato», è un ragazzo sedicenne, "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9592,
+    "directus_id": "af94b87c-caf2-4ab8-a76b-16574e74b89c",
+    "slug": "ma-lui-dovera",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Lui mi chiama alla pienezza della vita vera... allora Gli of"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9593,
+    "directus_id": "faee2c67-d074-43ce-b11e-f996e2346662",
+    "slug": "mi-sentii-tradita",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Tante speranze, tanti progetti... tutto perse significato: n"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Gli parlo, lo prego di farmi comprendere il suo amore, che m"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9626,
+    "directus_id": "8df9fe32-86df-49e4-9c48-dd8680c0c9f0",
+    "slug": "il-giocare-del-bambino-autistico",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Finché non capisce né il come né il perché del gioco e dello"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9651,
+    "directus_id": "fa0c883a-4ebd-4519-b8a3-39c9fc903a28",
+    "slug": "cantare-giocare-comunicare",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Pronti a entrare in relazione attraverso canzoni, storielle,"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Sono fondamentali i giochi con il corpo... è il fascino di r"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9720,
+    "directus_id": "b362cc6b-03b2-4796-909d-d0961e9af10b",
+    "slug": "non-vuole-piu-andare-a-messa",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Dobbiamo fare di loro persone libere ma responsabili"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9723,
+    "directus_id": "b553bb6b-807e-4aed-9af3-02df574c3d35",
+    "slug": "un-fardello-pesante",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Cercavo di pregare ma non mi riusciva. Dio era diventato un "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Insieme portiamo un fardello molto pesante: i nostri figli d"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Più che i parenti, ci furono vicini i genitori di altri bamb"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Gli interventi chirurgici hanno fatto dei nostri figli ragaz"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9820,
+    "directus_id": "f23b2183-79ff-494b-9047-251437c231b3",
+    "slug": "non-vergognatevi-di-essere-felici",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Voi, fratelli o sorelle di un ragazzo o di una ragazza grave"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Possiamo contare sui nonni: hanno una grande esperienza di v"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 9823,
+    "directus_id": "338532cc-cffb-490d-a24f-dc0d134aaf93",
+    "slug": "chiacchierata-in-famiglia-da-meditare",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "PABLO Vorrei avere una persona che mi sta accanto, una ragaz"
+      },
+      {
+        "status": "ok_prev",
+        "text": "RITA: Ho acquistato molta più esperienza e tranquillità nel "
+      },
+      {
+        "status": "ok_prev",
+        "text": "RITA. Il desiderio più grande: una casa famiglia adatta per "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10050,
+    "directus_id": "31c8c895-edfb-4714-aa9e-d74b0c3b9933",
+    "slug": "mi-ama-come-sono",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Durante i miei studi dovevo provare sempre di valere. Vengo "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10057,
+    "directus_id": "8859eed4-71ec-4103-8769-5abe314b7813",
+    "slug": "tu-ci-liberi-dal-male",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Per rischiarare quelli che stanno nelle tenebre e nell’ombr"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10059,
+    "directus_id": "644be608-31ae-4216-bcd3-9ea950c1a6b2",
+    "slug": "il-cardinale-martini-risponde",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Non disperazione e tenebre, ma Fede e Luce"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10424,
+    "directus_id": "ffeb64f5-47d6-406c-905e-0b14ea15627b",
+    "slug": "non-conosco-la-tua-lingua-ma-desidero-impararla",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Giovanni è cresciuto sul piano spirituale; di questo aiuto m"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10429,
+    "directus_id": "df19bbc0-42e8-4191-bb4e-f03deb00bd22",
+    "slug": "eucaristia-e-cresima-di-giacomo",
+    "total_evidenziazioni": 2,
+    "inserted": 0,
+    "not_found": 2,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "Dio ha composto il Corpo in modo che venga dato più onore al"
+      },
+      {
+        "status": "not_found",
+        "text": "Dunque non possiamo mettere in dubbio l'incommensurabile ope"
+      }
+    ],
+    "status": "no_change"
+  },
+  {
+    "wp_id": 10444,
+    "directus_id": "7e20a256-098f-449e-8220-75dff7ebeb8d",
+    "slug": "sacramenti-e-disabili",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Se tu conoscessi il dono di Dio» (Giov. 4,10)"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10490,
+    "directus_id": "460c381d-2f3b-4902-94a3-d71e15584f42",
+    "slug": "i-fornelli-di-marta-e-matteo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quando capii che Chi aveva spinto e voluto tutta questa stor"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10528,
+    "directus_id": "eb649bad-3167-43aa-96ae-15cf5791cde3",
+    "slug": "lo-sconforto-emotivo-esige-comprensione",
+    "total_evidenziazioni": 4,
+    "inserted": 1,
+    "not_found": 3,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "Ci sarà un deficit particolare, un handicap fisico, una mala"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Il sentimento che se il bambino ha dei bisogni speciali ha a"
+      },
+      {
+        "status": "not_found",
+        "text": "I genitori aspettano un bambino in buona salute, perfetto al"
+      },
+      {
+        "status": "not_found",
+        "text": "Sono possibili tempi di crisi nella vita di una persona con "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10657,
+    "directus_id": "25e7c622-2092-4354-a0f8-055305665166",
+    "slug": "anche-loro-hanno-una-propria-storia",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_next",
+        "text": "L'handicap mantiene una persona in una grande dipendenza e c"
+      },
+      {
+        "status": "ok_next",
+        "text": "Fare un tirocinio di lavoro o frequentare un laboratorio son"
+      },
+      {
+        "status": "ok_next",
+        "text": "Se crediamo nella loro evoluzione, il nostro amore per loro "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10671,
+    "directus_id": "3a6c7b76-d999-4d2c-99ef-da06ee58e0ad",
+    "slug": "lascia-che-vada-a-vivere-fuori-di-casa",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Non porta alcun beneficio tenere a casa nostro figlio, anch"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Lasciare veramente andare via un figlio è una cosa alla qua"
+      },
+      {
+        "status": "ok_prev",
+        "text": "«Più invecchio e più mi manca»"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10683,
+    "directus_id": "afac3e51-057a-4b61-a180-08dfb6cafa34",
+    "slug": "i-miei-30-anni-allarca",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«All'arca scopriamo che l'umanità non è condannata alla guer"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10695,
+    "directus_id": "9c248e1d-f20c-42ae-a054-dad6cecc9209",
+    "slug": "in-pizzeria",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ora che sono adulti, li sento ancor più vicini di prima"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10844,
+    "directus_id": "ba7c256d-b32d-4911-9b83-86a8732a0415",
+    "slug": "ho-guadagnato-un-anno-al-carro",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ho capito che Mimmo mi aveva accolto, oltre che come persona"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10872,
+    "directus_id": "a8252dbd-185a-4cae-bcce-c7b5978300db",
+    "slug": "quale-metodo-scegliere",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Finché non conosceremo le cause dell’autismo questi sforzi p"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10883,
+    "directus_id": "8debfd45-34b2-4c2a-90be-e75a142f0a07",
+    "slug": "catechesi-anche-per-le-persone-autistiche",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Possono ricevere, in particolai in campo religioso, molto pi"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 10915,
+    "directus_id": "b7c21d50-73b9-4dff-8e7f-8b2dff9eac09",
+    "slug": "sono-molti-ad-aspettare",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Suggerimenti o utopia? A voi la risposta affinché non avveng"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11067,
+    "directus_id": "644721ea-bdac-4a4b-b7ca-e2b7c3bc9f74",
+    "slug": "recensione-del-film-lottavo-giorno",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_next",
+        "text": "«Non poteva proprio sottrarsi alle malevole interpretazioni "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11102,
+    "directus_id": "39017d9b-a267-4d03-a624-165ccb4c39a2",
+    "slug": "le-richieste-della-sorella-di-un-ragazzo-disabile-ai-suoi-amici",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "A poco a poco ha trasformato il mio sguardo e il mio cuore n"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11121,
+    "directus_id": "682328f2-4f93-4cf0-99db-c8a6bb7c4c1a",
+    "slug": "care-sorelle-cari-fratelli",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Sorridete al vostro futuro pur rimanendo vicini a loro"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11446,
+    "directus_id": "8b098758-906d-4619-a74a-2cb45a3e824a",
+    "slug": "il-libro-di-alice",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "II libro di Alice «è nato per il bene di molti: per addolcir"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11450,
+    "directus_id": "f35377f4-4dfc-41c0-be50-bb7c4fb832a5",
+    "slug": "soluzione-per-malati-mentali-insieme-si-puo",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "A mano a mano che l'ospite esce dalla patologia e recupera «"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Il lavoro è necessario per «curare» e possibilmente inserire"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11454,
+    "directus_id": "0729a52b-a726-4dc1-a6b0-17ba1447fc7f",
+    "slug": "igor-o-limprevisto-di-dio",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Mary e Michel nella loro rappresentazione. «Che faremo di qu"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Il piccolo Igor, figlio di Michel e Mary, intorno al quale è"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Con questo spettacolo abbiamo voluto dire che ogni essere, p"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11470,
+    "directus_id": "476913bd-7eb1-4282-97e0-8c8d190e7392",
+    "slug": "a-scuola-con-tre-insegnanti",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "L’inserimento dei ragazzi portatori di handicap nella scuola"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Ci sono ancora tante cose che non conosciamo di lei o di lui"
+      },
+      {
+        "status": "ok_prev",
+        "text": "La loro presenza nella scuola è uno stimolo o meglio una pro"
+      },
+      {
+        "status": "ok_prev",
+        "text": "La programmazione permette di far emergere le sue potenziali"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11533,
+    "directus_id": "7399c283-a6be-40f3-89ae-5d3edb1a2a44",
+    "slug": "un-hamburger-fatto-bene",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Secondo il regolamento ogni operatore sa fare tutte le mansi"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11820,
+    "directus_id": "93d0016b-a2b4-4bcf-9f59-1f278ea2b396",
+    "slug": "laiuto-spirituale-dei-nonni",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "I nonni possono assicurare al bambino quei segni di continui"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11824,
+    "directus_id": "dcc9c901-f5b2-4c54-a21b-83bc85ce1179",
+    "slug": "dedicato-ai-bambini-carlo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Dai, non fare così... Io sto peggio se piangi”."
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 11826,
+    "directus_id": "15e04c3f-6a0f-49de-a268-55a32ce190db",
+    "slug": "i-nonni-possono-fare-molto",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Nella maggioranza dei casi i nonni sono meravigliosi per del"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12160,
+    "directus_id": "1d5a32ae-af60-46d4-bc98-869eae280636",
+    "slug": "benedetta-raccontata-da-sua-sorella",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Com’è bello andar verso la Stelletta in motocicletta!»"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12200,
+    "directus_id": "e4aa38a2-aacd-4207-a587-039eb1cbc1dc",
+    "slug": "teatro-in-un-gruppo-fede-e-luce",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Una recita di circa venti minuti, pieni di allegria e di ten"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12208,
+    "directus_id": "464dd3fa-b52f-4094-8983-81cac21255ae",
+    "slug": "aspettate-arrivo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Aspettate, arrivo!"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12322,
+    "directus_id": "15bfa3b7-ac67-4f9b-ad02-3a70da22d708",
+    "slug": "roberto-trova-unaltra-casa",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il posto è bello, dentro il centro abitato ma con un bel gia"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12388,
+    "directus_id": "205b8ef9-543d-4c54-a771-104063f70524",
+    "slug": "la-tua-parola-e-per-tutti-henri-bissonnier",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il libro è chiaro, semplice, ma non inganni la sua semplicit"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12400,
+    "directus_id": "46346575-dfe1-4c92-bd3b-10fd5f318303",
+    "slug": "il-chicco",
+    "total_evidenziazioni": 1,
+    "inserted": 0,
+    "not_found": 1,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "Oggi, dopo tanti anni, il piccolo seme è diventato albero e "
+      }
+    ],
+    "status": "no_change"
+  },
+  {
+    "wp_id": 12528,
+    "directus_id": "e07d7a81-e232-4c9b-a60a-57e50f4ee162",
+    "slug": "piu-forti-di-loro-scritti-monaci-trappisti-uccisi-algeria-1999",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "È anche per te, amico dell'ultimo minuto, che non avrai sapu"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12576,
+    "directus_id": "8ad0f45d-96ef-4469-8dff-41bc06c99a6d",
+    "slug": "la-mamma-e-il-teologo",
+    "total_evidenziazioni": 5,
+    "inserted": 5,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Paura di ascoltare ancora una volta quei discorsi tanto gius"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Siamo capaci, con affermazioni simili, di crocifiggere l'inn"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Non posso dire altro che questo: non so da dove e perché vie"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Poi il tono della voce cambia registro, scende di almeno due"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Non certezze, non teorie, ma la capacità di intuire la vasti"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12660,
+    "directus_id": "f3c9e33d-ca1f-49bf-9355-041f4d50070b",
+    "slug": "jean-e-il-carro-di-genevieve",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "I punti di contatto tra l’Arca e le Piccole Sorelle sono mol"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12668,
+    "directus_id": "6da60992-4c97-4750-b0e7-caa6b8e4e329",
+    "slug": "levatrice-di-cose-nuove",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Sono passati tanti anni Siamo soddisfatti? Sappiamo che non"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12672,
+    "directus_id": "20dacc40-080f-4a6d-9d2b-034700b5ec41",
+    "slug": "ci-ha-fatto-vedere-cio-che-non-avevamo-ancora-visto",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Che differenza rispetto a fondatori di altri gruppi o comuni"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12677,
+    "directus_id": "0e2a8758-9b9d-421b-b922-674296ccd27d",
+    "slug": "lautista-piu-illustre",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quel che avevamo letto nei libri di Jean e che gli avevamo s"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12804,
+    "directus_id": "e95e1aa5-b753-4878-9c70-55f7eef78b89",
+    "slug": "sempre-io-christopher-reeve",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Che cosa è un eroe?\" Ora so che è chi trova la forza di per"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12808,
+    "directus_id": "ed137225-d1b3-4281-80a0-4f1785899619",
+    "slug": "e-francesca-e-basta",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Ero tanto arrabbiata con Dio e ora non so...»"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 12908,
+    "directus_id": "b64599bc-2108-4cce-b022-097e9f2f5ec8",
+    "slug": "verso-la-maturita",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "L'accettazione di se stessi anche con le proprie debolezze.."
+      },
+      {
+        "status": "ok_prev",
+        "text": "Gioire delle gioie dell'altro"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 13042,
+    "directus_id": "4ea2abcd-e3c1-43bd-b558-22bdaef7d826",
+    "slug": "cecilia-vuole-una-casa",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Sorrideva nel rispondermi, era un sorriso amaro ma, innocent"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 13323,
+    "directus_id": "3f9c3fc4-7043-4139-bd5b-53cdd6a717e6",
+    "slug": "alfabeto-che-manca",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Non basta l’omelia dal pulpito, servono relazioni. La fede s"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 13342,
+    "directus_id": "58fae097-c327-4afe-a243-3ad59d102822",
+    "slug": "chiesa-accoglie-davvero",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Tante sono state le messe dalle quali ci hanno invitato a us"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 13352,
+    "directus_id": "32d3bd7a-ea39-4dcc-9015-53be14426e6e",
+    "slug": "stai-pensando-me",
+    "total_evidenziazioni": 1,
+    "inserted": 0,
+    "not_found": 1,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "È l’inizio di una storia bella di una famiglia tutta special"
+      }
+    ],
+    "status": "no_change"
+  },
+  {
+    "wp_id": 13384,
+    "directus_id": "49b8df0c-4734-4469-889c-9116432a12ec",
+    "slug": "catalogo-prelibatezze",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il progetto ha pure registrato l’etichetta “BuoniBuoni” impr"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 14168,
+    "directus_id": "e742005d-866a-48c9-9bef-4e88ba2511f6",
+    "slug": "gli-altri-siamo-noi",
+    "total_evidenziazioni": 1,
+    "inserted": 0,
+    "not_found": 1,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "Quindi, sì, gli altri siamo noi, ogni volta che ci trattenia"
+      }
+    ],
+    "status": "no_change"
+  },
+  {
+    "wp_id": 14383,
+    "directus_id": "d9aa250e-3bd3-4841-aaa0-f8fd6064988a",
+    "slug": "non-mi-piace-andare-al-cinema",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "I film sono finti. Non ci sono le persone vere. Non si tocca"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 14976,
+    "directus_id": "ba4353df-b651-4464-b32e-136850dc0650",
+    "slug": "unica-nel-suo-genere",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il termine “volontariato” sembrava inopportuno Era difficile"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15000,
+    "directus_id": "8b8ca43a-cb74-4018-877e-bb810249f27f",
+    "slug": "boston-chicago-arca",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quando incontro una persona con disabilità incontro un indiv"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15013,
+    "directus_id": "80cdbcab-3fb0-4cc6-92cd-1a6ea0d5a800",
+    "slug": "tenera-magnetica",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Servire non significa sottrarre tempo agli affetti. Signific"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15034,
+    "directus_id": "70901f33-1bf4-4521-be64-0abbfe57cb6a",
+    "slug": "breccia-muro",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Uno sport con contatti fisici frequenti e importanti come il"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15041,
+    "directus_id": "83a8bad3-3140-4992-9805-a3e0612f4efa",
+    "slug": "chiamare-nome-paura",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Venticinque anni di cammino insieme fra alti e bassi costitu"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15549,
+    "directus_id": "42870a6e-e9fa-4490-bc43-d8650a955fa6",
+    "slug": "ausmerzen-vite-indegne-di-essere-vissute",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Tutto quello che dico parla di noi\""
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 16027,
+    "directus_id": "bfe9fceb-a88a-4fcc-b2cb-c27a73550f58",
+    "slug": "teologia-disabile",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Mi domando se non sia il caso di abbandonare una teologia de"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 16327,
+    "directus_id": "0d39ece7-1c3a-44c4-86dd-8abe7aff2864",
+    "slug": "vedersi-in-vetrina",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Se per Beth Wilson è stata una sorpresa trovare in vetrina u"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 16340,
+    "directus_id": "12b1b32e-380c-45cf-8e2c-47b6aa24c1b9",
+    "slug": "jillian-la-divina",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quello di diventare una top nota a livello internazionale no"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 16354,
+    "directus_id": "e9e2b6af-447b-4e78-a334-6c8239a922e0",
+    "slug": "sfilate-da-sogno",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Maria Carmela e Silvia si trovarono convinte che la comunanz"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 16709,
+    "directus_id": "cc78e77a-5198-42fc-aee4-78676e38fd93",
+    "slug": "premio-donna-2002-a-mariangela",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Più che un ponte, a me Mariangela ricorda un acquedotto roma"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 17100,
+    "directus_id": "1bfddd2d-5d82-4fe2-b39b-7192cbedde19",
+    "slug": "liberi-di-vivere-come-tutti-prima-conferenza-nazionale-delle-politiche-sull-handicap",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Si dice handicap e si pensa sempre all’handicap fisico. Inve"
+      },
+      {
+        "status": "ok_prev",
+        "text": "\"Anche noi familiari vogliamo essere liberi di vivere come t"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 17114,
+    "directus_id": "dd86c642-9e06-4e3c-9e0c-2474fe8628fb",
+    "slug": "gli-siamo-grati-per-questo-la-testimonianza-dei-genitori-di-gianni",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Era la nostra vita, l’abbiamo accettata: ci siamo detti: Gia"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 17169,
+    "directus_id": "831229ee-6cd8-41e1-a7f1-fae071436325",
+    "slug": "rosamaria",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Ho imparato, per far fronte alle esigenze di Davide, ad app"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 17677,
+    "directus_id": "7ff201e3-3381-4dc2-bffd-097998243815",
+    "slug": "centro-di-riabilitazione-il-testardo-pet-therapy",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Gli asini sono in gradi di prodigare tolleranza a esseri uma"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 18648,
+    "directus_id": "c97adf6c-bc9a-4bff-83f4-4041db415bd1",
+    "slug": "interpreti-di-se-stessi",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Sono convinto che l’intrattenimento influenzi la cultura, p"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 18817,
+    "directus_id": "3cbd14ee-4d96-46c7-9e71-a513512ce370",
+    "slug": "mamma-non-siamo-soli",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“Ti faccio compagnia, così non stai sola, mamma”."
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 18948,
+    "directus_id": "4067dc89-6ce7-4fe8-9cc5-f8ed382b7e82",
+    "slug": "dal-gatto-sulla-cattedra-ai-monti-di-goethe",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“In due mesi e mezzo Beatrice non ha mai avuto alcun contatt"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 19120,
+    "directus_id": "13fe2356-879f-4abb-8fd9-aee8f14cb814",
+    "slug": "nessuna-pieta-che-immagine-trasmettono-dellhandicap-i-mezzi-di-comunicazione-di-massa",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "L’immagine del disabile è «altro da noi», rafforza il nostro"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 19197,
+    "directus_id": "37784c2c-65cf-4d7d-8237-edf5efe14e76",
+    "slug": "medici-o-stregoni",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“In tanti hanno osservato Dafne, pochissimi l’hanno capita”"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 19703,
+    "directus_id": "8705be6b-012f-4050-a743-b26c8ec81426",
+    "slug": "scout-a-lourdes",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Per me fare la vita ospedaliera era una cosa meravigliosa p"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 19927,
+    "directus_id": "5d2b046f-050b-48f3-a0e4-59094eec02a7",
+    "slug": "intervista-ad-andrea-romeo-su-cinema-e-disabilita",
+    "total_evidenziazioni": 1,
+    "inserted": 0,
+    "not_found": 1,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "«A me interessa il cinema che riesce a sostenere lo sguardo "
+      }
+    ],
+    "status": "no_change"
+  },
+  {
+    "wp_id": 20554,
+    "directus_id": "be0921c4-6e91-4885-9d7f-352350b404cd",
+    "slug": "si-continua-a-crescere-insieme-anche-il-bollettino-insieme-cresce-e-sempre-di-piu",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Uno spazio pieno di vita, di incontro e sempre “Insieme”"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 21175,
+    "directus_id": "64035ee6-dc18-46e3-aad6-056b76079d0f",
+    "slug": "diario-di-bordo",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Da una voce muta, a una voce con l’eco di ritorno Essere e s"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Siamo come dei magneti… tutti attratti nello stesso scopo! C"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 22376,
+    "directus_id": "56b5a49e-c0ef-4800-94c4-28562a16979c",
+    "slug": "mantenere-viva-la-giovinezza-nel-cuore",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Credevo anche di potere e dovere portarla da sola, ma mi acc"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 22779,
+    "directus_id": "cacd5075-9205-483e-974b-c0c958a6563e",
+    "slug": "io-e-francesca",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Mi riusciva di calmarla anche accostandomi al suo banco. Lei"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 22856,
+    "directus_id": "89c8d840-8349-43ee-b8ee-49d9cb09089d",
+    "slug": "vangelo-immaginazione-e-intelligenza",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Negli anni la religiosa ha cercato di bilanciare impegni e d"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 23714,
+    "directus_id": "f254f20b-3f1f-4244-a29a-d16c89eecfe6",
+    "slug": "cosa-si-potrebbe-imparare-dai-banchi-monoposto",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Non ricordo chi era seduto accanto a me alle elementari e al"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 25417,
+    "directus_id": "fd0692be-b7b3-4dcd-bb01-c91d8e738b1c",
+    "slug": "per-portare-frutto-incontro-dei-delegati-di-fede-e-luce-di-tutto-il-mondo-2002",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“Siamo qui per rendere grazie a Gesù per aver trasformato le"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 26263,
+    "directus_id": "a80c99c5-77b9-4b38-b9c4-688c1a063201",
+    "slug": "comunita-fede-e-luce-nel-mondo-tante-piccole-fiaccole-di-unita-e-di-amore",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Abbiamo vissuto il miracolo dell'amicizia in F.L. nel moment"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 26332,
+    "directus_id": "26f669bb-bf6b-4dd2-b600-5d1b78cac8b1",
+    "slug": "la-missione-del-sacerdote-nella-comunita-fede-e-luce",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Dio è in quel figlio disabile. Non è facile accogliere quest"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 26442,
+    "directus_id": "8b845c55-a37e-4ba0-9ee4-5064da3055ed",
+    "slug": "i-fratelli-e-le-sorelle-di-ragazzi-con-disabilita-che-pensano-che-provano",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Certo non hanno vita facile"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Probabilmente diventeranno persone straordinarie"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Di sicuro avranno la capacità di stare vicino ad ‘e persone "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 26481,
+    "directus_id": "a3335fbe-1bee-446f-aafa-21b413a91b2e",
+    "slug": "festeggiamo-la-nascita-di-un-bambino-genitori-di-ragazzi-con-disabilita",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Credo che sia importante per noi provare a guardare il Natal"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 26493,
+    "directus_id": "a388d295-7b2e-4443-8d30-8e922776ef59",
+    "slug": "che-cosa-e-fede-e-luce-2",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Solo partecipando è possibile vivere un'amicizia che pare pr"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 26962,
+    "directus_id": "ee7562ea-2a0c-4721-9bc3-687be3b7dece",
+    "slug": "sscuola-e-handicap-una-scuola-da-imitare",
+    "total_evidenziazioni": 3,
+    "inserted": 3,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Principio essenziale, la coeducazione: tutte le persone nell"
+      },
+      {
+        "status": "ok_prev",
+        "text": "È essenziale la convinzione che tutti siamo chiamati, non ad"
+      },
+      {
+        "status": "ok_prev",
+        "text": "L’handicap può essere una forza dirompente nello immobilismo"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 27423,
+    "directus_id": "02b6d565-e218-4374-a508-c0091b091d98",
+    "slug": "quel-regalo-immenso-chiamato-vaccino",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Che emozione il giorno della prima dose! Sembrava ti stessim"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 27435,
+    "directus_id": "e246d2ad-1382-45c6-835b-47fd1ec9ff45",
+    "slug": "diario-di-efrem-lavoratore",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quando abbiamo completato la prima rivista Vivere In l’ho po"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 27611,
+    "directus_id": "61ce029d-e2c6-45f7-b9b2-7b1ab5ce6139",
+    "slug": "intervista-a-matteo-mazzarotto-e-ivana-perri",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«In questo momento sento un riconoscimento non solo a noi in"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 27879,
+    "directus_id": "4e3ac030-3c2b-412c-9c53-f71538c77771",
+    "slug": "poco-a-sud-dellequatore",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Nella Rdc i bambini con disabilità vivono nascosti e segrega"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 27887,
+    "directus_id": "730f1727-9a01-4770-ae10-5648fa0cb43a",
+    "slug": "le-donne-e-gli-uomini-della-seconda-fila",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_next",
+        "text": "È un protagonismo senza palcoscenico che ha calcato la strad"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 28049,
+    "directus_id": "c2130231-ba89-43e1-a156-8f7d6520f0a8",
+    "slug": "come-non-perdere-cio-che-abbiamo-vissuto",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "È veramente l’opera del Signore, una meraviglia ai nostri oc"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 28080,
+    "directus_id": "e070f419-3e82-437b-a558-46f208d50702",
+    "slug": "e-nato-qualcosa-che-nessuno-aveva-previsto",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Vi confermo in questo vostro impegno essere, nelle tempeste"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 28234,
+    "directus_id": "ec9f3b4e-b7b8-4b6c-96de-7d763d9af938",
+    "slug": "comunita-viaggianti",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Ognuno camminava per sé… dodici persone che non comunicavan"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 28540,
+    "directus_id": "d2ae20ce-187f-4648-8aff-912e84c665c1",
+    "slug": "fanny-che-vede-un-futuro-per-se-stessa",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Pur non potendo parlare, non si è sentita persa perché ha tr"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 28554,
+    "directus_id": "8b490635-5faa-4f21-8f5d-1992a6fff3ec",
+    "slug": "quel-riserbo-che-ha-conquistato-mio-figlio",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Andare al maneggio è stato un punto fermo, importante, sopra"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 28661,
+    "directus_id": "9795608f-ab3d-4ee0-a59d-40ea96c29306",
+    "slug": "tutti-portano-tutti-ricevono",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "A Casa Ilaria ogni persona scopre il bisogno di dare qualcos"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 28708,
+    "directus_id": "6251d744-6e3f-4db7-9700-8a559da5535f",
+    "slug": "la-magia-delle-nostre-vacanze-insieme",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Invece, qualcosa di magico accade"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 28761,
+    "directus_id": "605e344a-6ec5-4e38-9a14-3b332db16929",
+    "slug": "non-siete-stati-ancora-sconfitti-recensione",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "« Migliorare la vostra democrazia : questa è sempre stata la"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 28851,
+    "directus_id": "d8b25916-8da7-4be8-b878-c7fd27c28b56",
+    "slug": "se-le-universita-sono-state-le-prime-ad-ascoltare",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "In Italia le esperienze bilingue sono ancora rarissime eccez"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 29117,
+    "directus_id": "fc70bdd8-0f42-4ea4-90d1-f43e26f2abbb",
+    "slug": "papa-dove-sei",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "È emerso un bisogno, un vuoto difficile da colmare. La doman"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 29310,
+    "directus_id": "c25bcd82-5793-4225-9ce8-bf336fb746aa",
+    "slug": "voglia-di-comunicare",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_next",
+        "text": "Non esiste una soluzione unica per le difficoltà di comunica"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 29491,
+    "directus_id": "8b69dcb3-c762-4d01-8b6a-ed527eb5d99d",
+    "slug": "chi-risponde-alle-domande",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "In molti luoghi la disabilità è vissuta ancora nella solitud"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 30014,
+    "directus_id": "075d6272-7fdf-4e96-9309-579d85a67001",
+    "slug": "piovono-mucche-e-altri-nuovi-libri",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Noi che per una ragione o l’altra abbiamo visto e letto tant"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 30028,
+    "directus_id": "04322c36-1c56-4ae1-adbf-71b18c8fbdc7",
+    "slug": "come-possiamo-accompagnare-piccole-e-grandi-crisi",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Di fronte a una persona alla quale vogliamo bene e che vedia"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Accompagnare la persona in crisi è tutto ciò che possiamo fa"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 30347,
+    "directus_id": "9eae9275-2524-41d2-a949-667f37b50e84",
+    "slug": "grazie-per-questo-figlio-disabile",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quante volte mio figlio mi ha chiesto: “Mamma mi vuoi bene? "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 31480,
+    "directus_id": "6649785e-e572-45c3-b2c5-ef7687258430",
+    "slug": "la-tenerezza-di-dio-2",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "In ciascuno di noi dimora una sorgente. Un pozzo di tenerezz"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 31739,
+    "directus_id": "fa036156-1044-4db0-8eca-6d688cc7278c",
+    "slug": "produzioni-fuori-dal-comune",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Costi e tempi necessari per un cortometraggio richiedono alm"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 31749,
+    "directus_id": "70266ce1-8c16-4155-b052-4af5f5ad9b41",
+    "slug": "tikitaka",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Lo scopo è aprire porte e confini, creare collegamenti, favo"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 31849,
+    "directus_id": "77cf28d6-0e09-4582-a5fa-5b916e3aacdb",
+    "slug": "lamniocentesi-di-stato-e-la-grande-colpa-di-noi-madri-selvagge-recensione",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quella madre andava fiera della sua bambina... ma si vergogn"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 31860,
+    "directus_id": "b1de1e32-1f09-4b37-ad8b-876278cb3b67",
+    "slug": "genitori-e-medici-davanti-allannuncio-dellhandicap",
+    "total_evidenziazioni": 1,
+    "inserted": 0,
+    "not_found": 1,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "“Fra genitori e medici turbati dalla diagnosi, dovrebbe inst"
+      }
+    ],
+    "status": "no_change"
+  },
+  {
+    "wp_id": 32232,
+    "directus_id": "f409c987-3990-4a4a-876d-c443f308c1ac",
+    "slug": "alzheimer-ma-soprattutto-e-mio-nonno",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Anche un fiore vecchio e malato, può dare ancora splendidi f"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 32586,
+    "directus_id": "33f461cc-50a6-4c10-90f5-f18d5a433de6",
+    "slug": "salvatore-medico-pediatra-acondroplasico",
+    "total_evidenziazioni": 1,
+    "inserted": 0,
+    "not_found": 1,
+    "items": [
+      {
+        "status": "not_found",
+        "text": "Sono nato in una famiglia che mi ha permesso di accettare la"
+      }
+    ],
+    "status": "no_change"
+  },
+  {
+    "wp_id": 33121,
+    "directus_id": "1933d9cd-94f5-4104-b5bc-488a519da30b",
+    "slug": "alberta-e-la-rivoluzione",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "È una storia di bambine empatiche, di bullismo e di soluzion"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Può la bambolina più venduta al mondo diventare una spia del"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 33228,
+    "directus_id": "f2f4dd7d-5f87-446d-b1b6-8d37b028c021",
+    "slug": "testimonianza-giulia-cirillo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Vorrei che restassimo tutti uniti, che non ci chiudessimo ne"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 33295,
+    "directus_id": "38f5b66a-e4d2-422e-b371-a06529ed1622",
+    "slug": "arche-bologna-tandem",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ci sono tanti luoghi comuni, lo vediamo quando passiamo coi "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 33472,
+    "directus_id": "7403c3be-1c5b-4aa4-9c75-caea4a3ffcb9",
+    "slug": "invertire-addendi-tandem",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Spesso si dà spazio a storie sicuramente importanti, ma che "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 33635,
+    "directus_id": "6200cd81-8fc5-4d0b-a246-30e8fe055910",
+    "slug": "ciclisti-non-vedenti-vaticano",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quando lo sport è davvero vissuto nella sua essenza di inclu"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 33777,
+    "directus_id": "07f359d7-bfc1-4a6d-b7f0-9d9829f7a7de",
+    "slug": "associazione-habitat-per-lautismo-onlus",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“I lavori di bambini più grandi, di scuola elementare e medi"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 34141,
+    "directus_id": "4421d6b1-6a94-47a2-92a4-25bb7fa5d209",
+    "slug": "museo-tattile-omero-ancona",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quando siamo nati ci chiamavano pazzi, eravamo l’unica realt"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 34310,
+    "directus_id": "6428822d-08a0-490e-bd6e-a7f02cf2fdd2",
+    "slug": "recensione-as-we-see-it",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "È un racconto attento a non scivolare in facili retoriche ma"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 34661,
+    "directus_id": "02b4030d-9b84-4a5c-af27-309cea2a9671",
+    "slug": "special-olympics-dove-tutto-e-diverso-da-tutto",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "All’inizio avevamo un po’ ditimore nei vostri confronti. Il "
+      },
+      {
+        "status": "ok_prev",
+        "text": "La vita è un percorso pieno di ostacoli, ma anche di esperie"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Grazie, perché in questi giorni ci avete aiutato a togliere "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Avevo paura di sentirmi in imbarazzo e di non sapere come co"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 34828,
+    "directus_id": "272cd267-7966-438c-b6d2-e4ba56048e4e",
+    "slug": "e-legittima-l-assistenza-sessuale-alle-persone-handicappate",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ciò che permette il fiorire della persona e le procura seren"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Sì, ogni essere umano ha diritto di essere riconosciuto nei "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 35234,
+    "directus_id": "eb98754f-2026-4906-8f46-b328e147e771",
+    "slug": "per-rompere-la-solitudine",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Il rispetto della fragilità, la forza e la gioia della condi"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 37158,
+    "directus_id": "4f913f1e-2d01-42e3-93f7-f10a91ebcd9d",
+    "slug": "quattro-punti-cardinali-i-luoghi-di-ombre-e-luci-tra-i-quartieri-di-roma",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Non si sapeva all’inizio quale sviluppo avrebbe avuto l’idea"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 37357,
+    "directus_id": "c1899e42-0254-417a-b209-b29744ea9157",
+    "slug": "la-parola-alle-mamme",
+    "total_evidenziazioni": 4,
+    "inserted": 4,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "“Io e mio marito, abbiamo problemi di salute, ma siamo corag"
+      },
+      {
+        "status": "ok_prev",
+        "text": "“Mi fa bene uscire, vedere amici, leggere, stare all’aria ap"
+      },
+      {
+        "status": "ok_prev",
+        "text": "“Vivo alla giornata, ieri è stata dura, oggi è bello, grazie"
+      },
+      {
+        "status": "ok_prev",
+        "text": "“Con l’aiuto di Dio sono riuscita ad uscire da quel guscio d"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 38029,
+    "directus_id": "f198b1ed-11e3-4229-b43d-d7c0903868c3",
+    "slug": "tutti-prescelti-lo-yoga-per-le-persone-disabili",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Questo è stato uno dei motivi per cui ho pensato che sarebbe"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 39606,
+    "directus_id": "be8278c0-e882-4a57-89d4-1b5e3a144d82",
+    "slug": "i-doni-di-dio",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Sono Super Eroi perché ti insegnano ad amare"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 39719,
+    "directus_id": "27d443c7-cec5-4c93-a862-bbd5fff5ce4f",
+    "slug": "i-geni-del-passato-handiche",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "C'è un'estrema somiglianza tra le pitture rupestri antiche e"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 39741,
+    "directus_id": "46fc8828-831f-4a05-85b4-fb53bc4c2434",
+    "slug": "avere-un-posto-nella-societa",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Tutti hanno bisogno di avere un ruolo nella società e di se"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 39823,
+    "directus_id": "8331804f-1163-4177-afc0-0677d64b810c",
+    "slug": "sara-bello",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Nasce così la mia idea di scartagonismo: scartati dagli uom"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 39984,
+    "directus_id": "5f941386-b8e5-4545-9b52-100992b305c6",
+    "slug": "il-plusabile-due-sorelle-speciali",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "È vero che chi ha una disabilità richiede più tempo, più att"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 40374,
+    "directus_id": "87857305-d77b-4515-bcba-e4f0086dcfbd",
+    "slug": "dinamiche-fondamentali",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Mi sono accorta di come, al di là della geografia e delle li"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 40922,
+    "directus_id": "6b816a9d-e0aa-4d32-b86f-6ed821c6a217",
+    "slug": "con-i-tre-fratelli",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "I diversi laboratori di confronto e condivisione una volta i"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 40941,
+    "directus_id": "49107cea-c622-4993-bdcb-eb4a548ba275",
+    "slug": "da-due-persiane-socchiuse",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Quattordici anni fa nasceva il progetto in uno dei centri di"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 42070,
+    "directus_id": "89e7d87d-8bc1-4744-9037-40659a14c8c0",
+    "slug": "una-specie-di-erasmus-con-fede-e-luce",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "«Visitare» una città non basta: per Samuèl è indispensabile "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 42082,
+    "directus_id": "4a8331d5-6da0-45bf-af32-0f01cfa764eb",
+    "slug": "possibile-che-gabriele-non-abbia-un-posto",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "A San Rocco e a Madonna Bianca Gabriele si muove con sicurez"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 42113,
+    "directus_id": "3bf83a2a-f06d-4954-a571-cc7149691516",
+    "slug": "basterebbe-un-po-di-coerenza",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La mia gravidanza è stata tutta diversa a partire dal fatto "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 42724,
+    "directus_id": "4b3868a5-aa0d-4db7-853d-211e5bd22a36",
+    "slug": "la-musica-del-mondo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Ripercorrendo gli ultimi cinque anni del movimento si è parl"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 43468,
+    "directus_id": "0c7079d5-355d-4a73-a7f8-cbfb445033c9",
+    "slug": "linterezza-questa-sconosciuta",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Noi medici facciamo innumerevoli progetti eppure durante la "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 44053,
+    "directus_id": "afcbd7c7-b2f8-443a-ade9-430c923c2625",
+    "slug": "tra-conquiste-e-fatiche",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Vorrei davvero creare una rete con altri fratelli e sorelle,"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 44072,
+    "directus_id": "78a30b98-2849-41cd-81db-c7f00ae77170",
+    "slug": "serate-impossibili-e-una-possibilissima",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Spesso insofferente a stare tanto seduta e in attesa, Cateri"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 44079,
+    "directus_id": "b9c56ad8-2731-4fa6-a55e-d8b5d6ecfcde",
+    "slug": "quel-portachiavi-uguale-al-mio",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Mamma e papà meglio che non vengano perché sto con gli amici"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 45193,
+    "directus_id": "4bdc3e25-4a7f-450f-92b2-ca47739751ef",
+    "slug": "fu-un-buon-vento",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "A superare la visione discriminatoria ed emarginante della s"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Poi toccò a me essere quella madre che correva subito a pren"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 45214,
+    "directus_id": "88a12211-2294-40af-ac08-ee9f3a4d25a7",
+    "slug": "porte-aperte",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Tra gli obiettivi c’è anche quello di includere e far toccar"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 45720,
+    "directus_id": "cc623a16-3080-4fd5-814e-1ce6f9d69270",
+    "slug": "molto-piu-di-un-aggettivo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Crescere vuol dire fare i conti con un corpo che cambia. Con"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 45728,
+    "directus_id": "86685073-5004-4cd4-99b2-1c62ad6ac2e4",
+    "slug": "trasformare-le-pratiche",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Le prime cose da fare sono due: «Ascoltare e parlare». La ch"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 46161,
+    "directus_id": "7185460f-90da-4428-9813-71ada0579078",
+    "slug": "perche-non-mi-capisci-2",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "\"Perché non mi capisci? Perché non mi aiuti? Scusami per que"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 46709,
+    "directus_id": "bdab4f5e-d5c8-4e5f-945b-7a642c0f31a8",
+    "slug": "va-verso-i-tuoi-fratelli-e-di-loro",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "che importa se le nostre strade sono fatte di ombre o di luc"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 47072,
+    "directus_id": "5571cee7-bfff-4602-8607-085c1674be97",
+    "slug": "come-vitamina-tra-la-gente",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Noi cristiani non possiamo proprio fare la guerra. I cristia"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 47095,
+    "directus_id": "b1e7e104-db3a-4cbd-8997-4d640950c7c3",
+    "slug": "ti-chiamano",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Avere cura della spiritualità di una comunità per me, prima "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 47115,
+    "directus_id": "04fbd325-51c2-4592-96a8-1aa2a6bc6791",
+    "slug": "trascendere-i-limiti-per-abbracciare-ogni-limite",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Non riuscivo a credere in un Dio astratto, dovevo toccarlo, "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Come le onde concentriche, il movimento provocato da Fede e "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 47125,
+    "directus_id": "23b0e60c-baad-4b3d-95dc-9d72f72ee35e",
+    "slug": "anelli-di-incontri",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Io, Elena, uscii da quella Piccola Casa ricca di un’emozione"
+      },
+      {
+        "status": "ok_prev",
+        "text": "Troppo spesso cadiamo nel rischio di dover fare qualcosa per"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 47308,
+    "directus_id": "a17081e3-1677-4f2d-af22-96a5970a5e08",
+    "slug": "verso-una-pace-duratura",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Con tutta questa energia a bordo, le ombre non possono fare "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 48131,
+    "directus_id": "f6877d1c-cdd8-4a14-920a-bd61fd86fffc",
+    "slug": "limpossibile-diventa-possibile-recensione",
+    "total_evidenziazioni": 2,
+    "inserted": 2,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "I tempi che stiamo vivendo sembrano ripensare traguardi che "
+      },
+      {
+        "status": "ok_prev",
+        "text": "Ad esser realizzata è stata solo la parte della legge che sm"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 48283,
+    "directus_id": "f58a63bb-08ff-4f43-a551-1909579c0498",
+    "slug": "la-scelta-di-geel",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Poiché Geel accoglie persone psichicamente fragili, in quest"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 48323,
+    "directus_id": "092697d1-1946-439c-a1a7-9d98a77b37c2",
+    "slug": "tra-gli-ultimi-regali-di-mio-padre",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "E poi c'è sempre chi si lamenta per il costo, per il traspor"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 48347,
+    "directus_id": "986d8424-47e7-49fc-af84-f23e5016dbb9",
+    "slug": "storie-che-ci-vengono-affidate",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Un pellegrinaggio è sempre un avventura umana profonda: si s"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 48352,
+    "directus_id": "3ce06f5d-5d82-4951-85b5-6d4e2607bca5",
+    "slug": "qui-e-ora",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La Piccola Marcia è un pellegrinaggio breve e accessibile ne"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 48359,
+    "directus_id": "6ac0f84e-da25-4595-b90f-61ca10aa7c24",
+    "slug": "mastri-biscottai-in-31-casette",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La cosa più complicata? «Riconoscersi come colleghi: bisogna"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 48364,
+    "directus_id": "bb60f73c-0a0a-497b-ad16-455873562f61",
+    "slug": "con-la-valigia-ma-senza-bagaglio",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Tutto parte dal lavoro sulla percezione di sé. Dal «sentirsi"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767628,
+    "directus_id": "ffee08f5-54de-44a2-8df4-93ce0b7c45e7",
+    "slug": "transforming-lives-a-journey-of-hope-and-healing-in-the-heart-of-the-congo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "In the DRC, children with disabilities live hidden and segre"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767693,
+    "directus_id": "796add14-3820-4eb1-bdd0-60e5b6e1e931",
+    "slug": "mio-figlio-ha-degli-amici",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Fede e Luce farà poco ma – lo spiega bene anche Serena Silli"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767704,
+    "directus_id": "ea0b6597-7341-4690-b80f-0eaf6684d856",
+    "slug": "my-son-has-friends",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Faith and Light may not do much—but as Serena Sillitto puts "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767709,
+    "directus_id": "2b017cbb-c60b-4c31-9494-425723c6ba7d",
+    "slug": "tuffarsi-nelle-storie-ma-mai-da-soli",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "La direttrice della biblioteca un giorno mi ha chiesto se vo"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767716,
+    "directus_id": "7d1cb58a-37a6-4e59-8350-abb91b7d452f",
+    "slug": "diving-into-stories-but-never-alone",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "One day, the library director asked me if I wanted to take t"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767721,
+    "directus_id": "949f3303-99f4-4e9b-a392-ea6ec8ae151d",
+    "slug": "scintilla-bellissima",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "In questo lungo percorso abbiamo visto i nostri figli entrar"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767732,
+    "directus_id": "4db8526a-096b-4c7e-bb7b-ba0d3d88ac02",
+    "slug": "linclusione-che-ancora-manca-nel-cinema-italiano",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Le espressioni di un attore neurotipico possono risultare fi"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767777,
+    "directus_id": "8843b92b-8d62-4d77-bfc9-c6d8ef28ef72",
+    "slug": "padel-for-autism-a-game-where-everyone-wins",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Throughout this long journey, we’ve seen our children step o"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767793,
+    "directus_id": "7a3e0e18-220c-473d-9880-1852c35e722c",
+    "slug": "in-pellegrinaggio-con-unitalsi-e-fede-e-luce",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Che sia coniugato sul versante del «fare per» come nel caso "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767805,
+    "directus_id": "74da053e-2196-4973-8295-5a9d074cc3c9",
+    "slug": "two-ways-of-pilgrimage-one-heart-of-faith",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Whether it’s about “doing for,” as in the case of Unitalsi, "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767853,
+    "directus_id": "127506a0-aba2-44b1-b3bc-c935f95ed4d1",
+    "slug": "verso-pompei-per-i-50-anni-di-fede-e-luce-in-italia",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Al centro di tutto, l’incontro. Come l’episodio della visita"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767870,
+    "directus_id": "eca7f463-456b-42b9-9583-dfe261d5f2e2",
+    "slug": "faith-and-light-at-fifty-a-journey-still-burning-bright",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "At the heart of it all: the encounter. Like the Visitation, "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767876,
+    "directus_id": "dccef4dc-92b2-4420-a08e-2aebf2e07565",
+    "slug": "a-santiago-per-mio-figlio",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "L'accoglienza dei compagni e della scuola, che lo avevano se"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15767894,
+    "directus_id": "1d83786b-d3b2-4826-8642-525223f2b225",
+    "slug": "a-fathers-camino-walking-side-by-side-with-my-autistic-son",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "The support from his classmates and school—who followed his "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15768536,
+    "directus_id": "cd1d3718-e035-484b-abc8-b7f5e40821b2",
+    "slug": "il-senso-di-quel-che-facciamo",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Da un anziano amico ho compreso appieno il senso della comun"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15768562,
+    "directus_id": "7aa9e578-67d9-49f7-902a-e4593b805c40",
+    "slug": "tra-i-vicoli-di-napoli",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Una lunga storia vissuta assieme nata dal sogno di costruire"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15768610,
+    "directus_id": "4d50a4bc-9a79-4305-8f05-ea6c93153a1d",
+    "slug": "una-terza-via",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "L’impatto con Giulia smontò quel «delirio di onnipotenza» ch"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15768643,
+    "directus_id": "f064a87d-a6f8-49c9-bf90-125f50fe0751",
+    "slug": "dissodare-il-terreno",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Uscire dagli schemi nella liturgia per entrare nel vissuto e"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15768670,
+    "directus_id": "6fe7bafe-b0dd-4c81-822b-5f7efc4e017b",
+    "slug": "accoglienza-alle-porte-di-roma",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Se il vangelo deve essere annunciato a tutti, dove erano le "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15768723,
+    "directus_id": "b777f620-cede-4fe7-b1ff-a99d51b58199",
+    "slug": "cronaca-di-due-giorni-accidentati",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "È davvero necessario un evento per la disabilità? Perché non"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15768994,
+    "directus_id": "dea5b21f-12e6-4f15-97aa-e6033784f0c0",
+    "slug": "decidemmo-di-restare",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "In questi anni ho scoperto un Dio immerso nel fango della no"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15769000,
+    "directus_id": "eb887f9c-6b5d-4673-a8e8-ffc9dcb966d2",
+    "slug": "in-cosa-ci-sentiamo-fragili-oggi",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Da una parte l’importanza di conservare la fiducia in Dio, d"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15769049,
+    "directus_id": "e2bd911a-5102-4615-9b7d-2670498a40f1",
+    "slug": "the-magnificat-and-our-fragility",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "On the one hand, the importance of preserving trust in God; "
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15769052,
+    "directus_id": "5438643d-ced6-4020-8543-d2fd68d95146",
+    "slug": "when-an-encounter-changes-everything",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Over these years I have discovered a God immersed in the mud"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15769056,
+    "directus_id": "9f4d6472-2956-443e-90c2-3852c6300ce9",
+    "slug": "dare-spazio-a-chi-non-ne-ha",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "AUTelier è un posto di lavoro adatto e che si adatta: dal co"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15769058,
+    "directus_id": "e0b26071-6cbb-409a-a947-3fb88f92a409",
+    "slug": "quel-regalo-al-pubblico",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Grazie a un QR code, le parole di chi racconta il cinema han"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15769070,
+    "directus_id": "7e4e1ba5-7ac1-48f7-a42e-b60788a01ca8",
+    "slug": "a-place-for-everyone-work-dignity-and-autism-at-autelier",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "AUTelier is a workplace that is both suitable and adaptable:"
+      }
+    ],
+    "status": "patched"
+  },
+  {
+    "wp_id": 15769075,
+    "directus_id": "5c1231d9-74e9-4ef4-8b4e-db11643a3e2c",
+    "slug": "making-cinema-heard-accessibility-and-hearing-loss-at-the-rome-film-festival",
+    "total_evidenziazioni": 1,
+    "inserted": 1,
+    "not_found": 0,
+    "items": [
+      {
+        "status": "ok_prev",
+        "text": "Thanks to a QR code, the voices of those who tell the story "
+      }
+    ],
+    "status": "patched"
+  }
+]

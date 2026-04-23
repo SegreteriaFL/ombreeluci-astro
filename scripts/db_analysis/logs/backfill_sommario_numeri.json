@@ -1,0 +1,1102 @@
+[
+  {
+    "slug": "numero-20-e-il-padre",
+    "id_numero": "INS-20",
+    "directus_id": "949a6149-6512-46ac-bc69-0d3823e0fd14",
+    "sommario_preview": "<p>Insieme ad alcune testimonianze e riflessioni sul ruolo del padre, due papà raccontano quale legame si crei con i fig",
+    "sommario_length": 454,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-27-i-bambini-sordi",
+    "id_numero": "INS-27",
+    "directus_id": "38a4fcba-40ec-44bc-9a90-917e8fd60e95",
+    "sommario_preview": "<p>Cosa significa non udire, vivere nel silenzio? E se udiamo, <a href=\"/blog/come-ascoltare-veramente/\">come ascoltiamo",
+    "sommario_length": 1175,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-28-a-tavola",
+    "id_numero": "INS-28",
+    "directus_id": "129b73aa-d7fb-4962-a305-bdd5082ce6ca",
+    "sommario_preview": "<p>«Si mangia perché è vitale, ma molto presto si mangia perché si prova piacere... È <a href=\"/blog/mangiare-insieme/\">",
+    "sommario_length": 1170,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-26-gli-altri",
+    "id_numero": "INS-26",
+    "directus_id": "2059505c-0043-47be-90e9-1abfc7f3bb40",
+    "sommario_preview": "<p><b>«Ogni genitore che ha un figlio che può raggiungere una certa autonomia sa bene che non deve stringere con lui un ",
+    "sommario_length": 1085,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-3-vacanze-tempo-privilegiato-per-lintegrazione",
+    "id_numero": "INS-3",
+    "directus_id": "6ee0a6fd-919b-4579-8a8e-3b2dd7358109",
+    "sommario_preview": "Vacanze con chi ha una disabilità mentale, lontano dalla propria famiglia. Il momento migliore per l’integrazione tra gl",
+    "sommario_length": 304,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-1-inverno-la-vita-affettiva-degli-handicappati-mentali",
+    "id_numero": "INS--1",
+    "directus_id": "8059abb0-91dc-48ab-9173-af851ba2078e",
+    "sommario_preview": "Con Ombre e Luci ci rivolgiamo ai genitori, agli amici, agli educatori di persone con disabilità (bambini, adolescenti, ",
+    "sommario_length": 536,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-2-la-paralisi-cerebrale-infantile",
+    "id_numero": "INS-2",
+    "directus_id": "8f396209-38c4-4559-883b-2337bdc7cfaf",
+    "sommario_preview": "Paralisi cerebrale. Cerchiamo di capire le difficoltà di chi ne è colpito dalla nascita. Non è facile restare aperti all",
+    "sommario_length": 342,
+    "status": "patched"
+  },
+  {
+    "slug": "ombre-e-luci-n-52-sacramenti-segni-di-gesu-per-noi",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-4-un-figlio-mongoloide",
+    "id_numero": "INS-4",
+    "directus_id": "76e7be22-a2d8-47c9-8f20-6f01957e9cc3",
+    "sommario_preview": "La Sindrome di Down. Cristiano, 30 anni è un uomo molto vero, sa quali sono i suoi veri amici, ha un grande senso della ",
+    "sommario_length": 372,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-5-chi-accoglie-voi-accoglie-me",
+    "id_numero": "INS-5",
+    "directus_id": "af09b759-70d8-4512-b889-b4632c14e0ef",
+    "sommario_preview": "“Chi accoglie voi, accoglie me”. La vita spirituale delle persone con disabilità mentale. Esperienze negative e positive",
+    "sommario_length": 467,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-6-il-mistero-del-bambino-psicotico",
+    "id_numero": "INS-6",
+    "directus_id": "fdca6832-64aa-446c-a11a-708f2bbd5778",
+    "sommario_preview": "Con il termine \"psicosi infantile\" si indicano molte problematiche e, 30 anni fa, includeva anche l’autismo: venivano co",
+    "sommario_length": 676,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-7-scuola-del-fare",
+    "id_numero": "INS-7",
+    "directus_id": "2e332f30-ab3d-4aaf-8ad0-0daefe2fd743",
+    "sommario_preview": "Alcune esperienze concrete e le domande sulle criticità dell’integrazione scolastica. Ma anche una riflessione di Jean V",
+    "sommario_length": 291,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-8-essere-forti-per-loro",
+    "id_numero": "INS-8",
+    "directus_id": "f5be0343-c524-40a0-b11e-8c17cc322e2f",
+    "sommario_preview": "Ritrovarsi genitori di un bambino con una disabilità: “... all’inizio non volevamo credere... La prima reazione è di non",
+    "sommario_length": 497,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-9-fratelli-sorelle",
+    "id_numero": "INS-9",
+    "directus_id": "638fd34f-89d8-4b1a-aa6d-70e6741627f2",
+    "sommario_preview": "Voci di fratelli e sorelle di una persona con disabilità mentale. Si tace troppo spesso la loro sofferenza, spesso trasc",
+    "sommario_length": 413,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-10-epilessia-una-montagna-di-pregiudizi",
+    "id_numero": "INS-10",
+    "directus_id": "2adcb121-f7df-4106-b541-0c1f6492c9d4",
+    "sommario_preview": "Conosciamo meglio l'epilessia; la comunità cooperativa Il Girasole, modello di integrazione tra pubblico e privato. Appr",
+    "sommario_length": 364,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-139-connessi-davvero",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-132-nessuno-resti-solo",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-131-coraggio",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-130-luoghi-della-relazione",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-14-speciale-assisi-1986-lasciarsi-scegliere",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-13-murati-nelloscurita-e-nel-silenzio",
+    "id_numero": "INS-13",
+    "directus_id": "895c8bc2-e5ab-4e83-b4b6-2131166bd3e7",
+    "sommario_preview": "</h4><p>Avere un figlio che non vede, non sente, non cammina, non comunica… una delle prove più traumatizzanti per una f",
+    "sommario_length": 277,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-11-casa-famiglia-sogno-realta",
+    "id_numero": "INS-11",
+    "directus_id": "917a392b-e637-4e21-b611-f3bae63d8377",
+    "sommario_preview": "Casa famiglia, sogno o realtà? Per ogni genitore di un figlio con disabilità, il pensiero di quando non saranno più in g",
+    "sommario_length": 446,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-12-perche-mi-guardi",
+    "id_numero": "INS-12",
+    "directus_id": "d3b867f2-e381-4076-b6e9-b0d83abe9ad0",
+    "sommario_preview": "<p>Lo sguardo, “quella finestra sul mondo attraverso la quale ci formiamo un’immagine interiore” dice Marie Hélène Mathi",
+    "sommario_length": 360,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-140-perche-tu-prezioso-ai-miei-occhi",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-15-comunione",
+    "id_numero": "INS-15",
+    "directus_id": "abc50722-51b7-4d72-b5b5-9c721d3731f1",
+    "sommario_preview": "<p>Cosa si fa per l<strong>'iniziazione cristiana delle persone con gravi disabilità</strong>? Un importante contributo ",
+    "sommario_length": 423,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-17-quando-sono-adulti",
+    "id_numero": "INS-17",
+    "directus_id": "acc6d042-6f96-4458-b494-b76dced75758",
+    "sommario_preview": "<p>Tanto si è fatto - e si fa - in tema di prevenzione, diagnosi precoce, riabilitazione, inserimento scolastico per qua",
+    "sommario_length": 429,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-16-teniamo-aperta-la-porta",
+    "id_numero": "INS-16",
+    "directus_id": "f27b5cc3-daf2-420a-82cf-a5c258148317",
+    "sommario_preview": "<p>“Il <em>farsi prossimo</em> esige che da ambedue le parti ci sia volontà di comunicare, per portare insieme quello ch",
+    "sommario_length": 377,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-18-il-comportamento-un-messaggio",
+    "id_numero": "INS-18",
+    "directus_id": "045242b2-0525-49c9-993b-fa772803369d",
+    "sommario_preview": "<p>Quando il comportamento esprime un disagio impossibile ad esprimersi con le parole; e quando il <strong>comportamento",
+    "sommario_length": 471,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-19-non-vedo-le-meraviglie-dio-le-canto",
+    "id_numero": "INS-19",
+    "directus_id": "46a4d8c4-ae90-41f0-b7c6-83194700ba7a",
+    "sommario_preview": "<p><em>Le persone con disabilità: segno di contraddizione e fonte di unità</em>. Padre Mihelcic: “Niente da fare: la per",
+    "sommario_length": 588,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-21-rompere-la-solitudine-del-malato-mentale",
+    "id_numero": "INS-21",
+    "directus_id": "3f941e82-68d5-4779-b6a6-beb2445532d5",
+    "sommario_preview": "<p>La solitudine nella <a href=\"/blog/la-malattia-mentale/\">malattia mentale</a>. Incontrare un malato mentale è spesso ",
+    "sommario_length": 596,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-22-diritto-alla-festa",
+    "id_numero": "INS-22",
+    "directus_id": "069f41bd-9e1e-43e3-907f-66c96b27bdf7",
+    "sommario_preview": "<p>Stare insieme è bello soprattutto per <a href=\"/blog/diritto-alla-festa/\">far festa</a>. Non c’è disabilità che tenga",
+    "sommario_length": 789,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-23-pretendono-un-posto-nella-casa-dio",
+    "id_numero": "INS-23",
+    "directus_id": "06fa31b6-81ef-445c-9d43-facaf4dcedb8",
+    "sommario_preview": "<p>Due sacerdoti, una <a href=\"/blog/posto-mia-figlia-nella-chiesa/\">mamma</a>, una suora francescana. Sono loro le voci",
+    "sommario_length": 425,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-24-fin-dai-primi-passi",
+    "id_numero": "INS-24",
+    "directus_id": "c873acd5-745d-4721-9eb8-98cbf37af4e4",
+    "sommario_preview": "<p>Se non mancano le ombre della fatica e della rabbia di fronte alla disabilità di un figlio, come leggiamo nelle lette",
+    "sommario_length": 879,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-25-la-bellezza-del-campo-fede-e-luce",
+    "id_numero": "INS-25",
+    "directus_id": "06e2b964-0402-4c17-84b5-39d6088d4061",
+    "sommario_preview": "<p>L’esperienza di una vacanza in piena libertà, per chi ha una disabilità soprattutto mentale, non è affatto scontata. ",
+    "sommario_length": 1650,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-29-fratelli-responsabili",
+    "id_numero": "INS-29",
+    "directus_id": "4917b924-2af2-481d-87d3-1e3db22b3e53",
+    "sommario_preview": "<p>Essere fratelli e sorelle di una persona con disabilità intellettiva cambia la vita. Se in peggio o in meglio dipende",
+    "sommario_length": 1700,
+    "status": "patched"
+  },
+  {
+    "slug": "ombre-e-luci-n-30",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-34-cosi-noi-lavoriamo-con-gli-altri",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-31-le-comunita-fede-e-luce",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-33-collaborare-per-risolvere",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-141-impara-a-chiamarmi-per-nome",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-32-nasca-la-speranza-nel-nostro-vecchio-mondo",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-36-il-desiderio-di-tanti-casa-famiglia",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-35-ascoltiamo-i-genitori",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-40-la-vita-sulla-sedia-a-rotelle",
+    "id_numero": "OEL-40",
+    "directus_id": "9dd447ae-c5a1-4a15-ae68-ab016e730b81",
+    "sommario_preview": "<p>Fermati un momento. È quello che dovremmo fare ogni tanto. È quello che Ombre e Luci propone ogni volta ai suoi letto",
+    "sommario_length": 272,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-37-pellegrinaggio-a-lourdes-1991-che-siano-una-cosa-sola",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-38-chi-aiuta-la-famiglia-terapisti-amici-educatori",
+    "id_numero": "OEL-38",
+    "directus_id": "a7dd8c6b-74e0-4849-9c7b-d02da536213f",
+    "sommario_preview": "<p>I protagonisti di questo numero sono: Lelia, Giacomo, Roberta e Viviana. Le loro quattro brevi presentazioni dicono q",
+    "sommario_length": 228,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-39-catechesi-perche-nessuno-sia-dimenticato",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-41-10-anni-di-ombre-e-luci-piu-che-una-rivista-una-grande-famiglia",
+    "id_numero": "OEL-41",
+    "directus_id": "7b520985-514a-48ef-88c6-f82659b20f42",
+    "sommario_preview": "<h4>10 anni di Ombre e Luci: Una grande famiglia</h4><a href=\"10-anni-di-ombre-e-luci-piu-che-una-rivista-una-grande-fam",
+    "sommario_length": 962,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-42-posso-anche-io-essere-utile",
+    "id_numero": "OEL-42",
+    "directus_id": "32ba827f-04dd-4cfe-a11d-b80aa62ecf92",
+    "sommario_preview": "Deve essere molto duro tirar fuori qualcosa di buono da se stessi quando ci si sente sempre «ultimo della classe».",
+    "sommario_length": 114,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-44-segni-di-speranza",
+    "id_numero": "OEL-44",
+    "directus_id": "a286275b-e544-496c-82bf-68c7258fb0f7",
+    "sommario_preview": "In questo numero, presentiamo qualche segno di speranza, perché in occasione del Natale porti un po’ di luce nelle nostr",
+    "sommario_length": 314,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-43-quando-scende-la-sera",
+    "id_numero": "OEL-43",
+    "directus_id": "5ed793ec-a0ca-4dbd-8677-8df8dcd00fad",
+    "sommario_preview": "Coraggio, speranza, fiducia: questi tre atteggiamenti dell’animo, sono quelli da ricercare sempre, dovunque, comunque, p",
+    "sommario_length": 168,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-45-dio-cosi-lontano-cosi-vicino",
+    "id_numero": "OEL-45",
+    "directus_id": "380194e7-a3d2-492b-8154-d34f84b6f37a",
+    "sommario_preview": "<p>I genitori di un figlio disabile, da soli, raramente possono far fronte a una prova così difficile; hanno bisogno di ",
+    "sommario_length": 310,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-142-segni-da-scoprire",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-46-andiamo-a-giocare",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "ombre-e-luci-n-47-non-escludiamoli-dalla-nostra-vita",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-48-non-vergognatevi-di-essere-felici",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-49-vita-affettiva-e-sessuale-questo-bisogno-cosi-forte-di-amare-e-di-essere-amati",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-50-fede-e-luce-1975-1995",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-51-liberarsi-dalla-depressione",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-53-le-nostre-mani-unite-dai-piu-piccoli",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-143-corrispondenze",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-54-anche-loro-hanno-una-propria-storia",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-55-il-mistero-del-bambino-autistico",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-144-in-movimento",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-56-fratelli-e-sorelle-vicini-ma-non-prigionieri",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-57-buona-pasqua",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-58-e-possibile",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-60-tenerezza-in-piu-i-nonni",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "ombre-e-luci-n-59-jean-vanier-premio-paolo-vi-la-loro-vita-nei-film",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-128-magnificat",
+    "id_numero": "OEL-128",
+    "directus_id": "4bcbaa62-acfe-43aa-90b2-76f26ede0ed7",
+    "sommario_preview": "<br />Un numero speciale dedicato a Mariangela Bertolini, attraverso il quale vorremmo far memoria delle cose vissute in",
+    "sommario_length": 3305,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-145-vecchi-a-chi",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "ombre-e-luci-n-61-quella-lieve-disabilita",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-62-teatro-e-altre-invenzioni",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-63-il-melograno",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-64-alla-ricerca-di-chi-sa-accogliere",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-65",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-66-mangiare-e-un-problema",
+    "id_numero": "OEL-66",
+    "directus_id": "4ec212c4-afee-4768-bd11-301309ed9bb2",
+    "sommario_preview": "<br /><a href=\"/blog/le-pagnottelle-di-s-giuseppe/\">Le pagnottelle di S. Giuseppe</a> di M. Bertolini<br /><a href=\"/blo",
+    "sommario_length": 708,
+    "status": "patched"
+  },
+  {
+    "slug": "ombre-e-luci-n-67-verso-la-maturita",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-68-per-loro-non-ce-posto",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-146-jean-vanier",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-147-girotondo-danime",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-148-lincontro-con-la-disabilita",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-149-io-la-moda",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-69-la-sua-vita-nelle-mani-dei-genitori",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-70-quando-la-natura-fa-rivivere",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-71-accostarsi-alla-verita",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-72-vi-annuncio-una-grande-gioia",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-150-protagonisti",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-73-da-un-sentiero-allaltro",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-74-invecchiando-rivelo-il-mio-carattere",
+    "id_numero": "OEL-74",
+    "directus_id": "c3403605-865b-48b5-8f0e-c89d5097cf24",
+    "sommario_preview": "<br /><a href=\"/blog/la-presenza-dei-piu-piccoli/\">La presenza dei piccoli</a> di Mariangela Bertolini</p><h4><a href=\"/",
+    "sommario_length": 1087,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-75-vogliamo-andare-avanti",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-76-un-natale-difficile",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "insieme-bollettino-fede-e-luce-n-1",
+    "id_numero": "INS--1",
+    "directus_id": "8059abb0-91dc-48ab-9173-af851ba2078e",
+    "sommario_preview": "<a href=\"/blog/insieme/\">Insieme</a> di Enzo <a href=\"/blog/i-bambini-di-tutti/\">I bambini di tutti</a> di Maria Teresa ",
+    "sommario_length": 355,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-2-bollettino-fede-e-luce",
+    "id_numero": "INS-2",
+    "directus_id": "8f396209-38c4-4559-883b-2337bdc7cfaf",
+    "sommario_preview": "<a href=\"/blog/fede-e-luce/\">Fede e Luce</a> di Enzo <a href=\"/blog/la-paura-degli-altri/\">La paura degli altri</a> di M",
+    "sommario_length": 509,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-151-viaggio-nellarte",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "insieme-n-4-bollettino-fede-e-luce",
+    "id_numero": "INS-4",
+    "directus_id": "76e7be22-a2d8-47c9-8f20-6f01957e9cc3",
+    "sommario_preview": "<p><a href=\"/blog/pellegrinaggio-a-roma-con-foi-et-lumiere/\">Pellegrinaggio a Roma con Foi et Lumère</a> di Suor Ida Mar",
+    "sommario_length": 827,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-6",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-5-bollettino-fede-e-luce",
+    "id_numero": "INS-5",
+    "directus_id": "af09b759-70d8-4512-b889-b4632c14e0ef",
+    "sommario_preview": "<a href=\"/blog/ombra-e-luce/\">Ombra e Luce</a> di Redazione <a href=\"/blog/gli-amici-dei-bimbi-reparto-gesu-bambino-isti",
+    "sommario_length": 458,
+    "status": "patched"
+  },
+  {
+    "slug": "ombre-e-luci-n-77-lasciami-diventare-grande",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-78-buone-vacanze",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-81-speciale-fede-e-luce-2003",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-79-il-passo-sicuro-della-speranza",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-80",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-152-adozioni",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-82-parlami-damore",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-83-crescere-insieme-a-scuola-e-al-lavoro",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-84-lettere-di-natale",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-153-nello-spazio-e-nel-tempo",
+    "id_numero": "OEL-153",
+    "directus_id": "6b0bc8f8-839a-4107-80e8-572fd6003010",
+    "sommario_preview": "<p>Un viaggio, ricchissimo e scoppiettante, nello spazio e nel tempo. Apre – grazie alla generosità dell’autrice Eliane ",
+    "sommario_length": 1633,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-154-guardami-questa-questo-sono-io",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-7-1975-bollettino-fede-e-luce",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "ombre-e-luci-n-85-ecco-io-faccio-nuove-tutte-le-cose",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-86",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-87-diventare-amico-di-una-persona-significa-scoprirne-il-mistero",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "ombre-e-luci-n-88",
+    "id_numero": "OEL-88",
+    "directus_id": "2004f860-4495-4717-8852-7b10eb1adbb7",
+    "sommario_preview": "<h4>Il Natale di...</h4><a href=\"/blog/il-natale-di-massimo/\">Massimo</a> di M. Bertolini <a href=\"/blog/il-natale-di-ca",
+    "sommario_length": 1787,
+    "status": "patched"
+  },
+  {
+    "slug": "ombre-e-luci-n-89",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "ombre-e-luci-n-90-buone-vacanze",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-91-con-gli-altri-nella-scuola-e-nello-sport",
+    "id_numero": "OEL-91",
+    "directus_id": "2204f1f8-674f-4f57-a1d7-745144c6f84b",
+    "sommario_preview": "<a href=\"Nel nome del padre\">Nel nome del padre</a> di M. Bertolini <h4>Integrazione scolastica</h4><a href=\"/blog/allas",
+    "sommario_length": 1421,
+    "status": "patched"
+  },
+  {
+    "slug": "ombre-e-luci-n-92-noi-papa",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-93-la-forza-della-tenerezza",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-94-unattesa-difficile",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-95-domande-sulla-persona-down",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-96-2006-cosi-lontani-cosi-vicini",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-97-iperattivita",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-98-concorso-fotografico-legami",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-99-parlami-di-lui",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "ombre-e-luci-n-100-centesimo-numero",
+    "id_numero": "OEL-100",
+    "directus_id": "d740fcbf-2a53-4d85-be08-56bcf671e7e4",
+    "sommario_preview": "<h4>Editoriali</h4><a href=\"/blog/una-grande-famiglia/\">Una grande famiglia</a> di M. Bertolini <a href=\"/blog/con-tutto",
+    "sommario_length": 170,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-155-lavoro",
+    "id_numero": "OEL-155",
+    "directus_id": "df9ef8e1-4c04-4dfa-b745-01f25af896d8",
+    "sommario_preview": "<p>Oggi, in Italia, per le persone con disabilità il lavoro è un diritto, una realtà o una chimera? Armati di qualche da",
+    "sommario_length": 1011,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-156-alle-radici-di-cinquantanni-di-storia",
+    "id_numero": "OEL-156",
+    "directus_id": "00dd1cda-d7cd-4a14-ab5f-7bbb4644a8aa",
+    "sommario_preview": "Ai cinquant’anni di Fede e Luce abbiamo dedicato il focus di OL 4/2021: il menù è ricchissimo! C’è il racconto, con molt",
+    "sommario_length": 1490,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-157-mai-per-caso",
+    "id_numero": "OEL-157",
+    "directus_id": "b8efd8b6-bdf0-42ed-aff9-13d77ce88316",
+    "sommario_preview": "<p>«Quando sono entrata nel movimento ho scoperto un mondo (…). Alcune disabilità non le avevo mai viste, non avevo avut",
+    "sommario_length": 2920,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-158-perche-elaborare-il-lutto",
+    "id_numero": "OEL-158",
+    "directus_id": "ce7f3227-ca5c-4f12-b853-91c35854a343",
+    "sommario_preview": "<p>Se l’elaborazione del lutto è impresa difficile per tutti, essa diventa ancora più impervia quando i protagonisti son",
+    "sommario_length": 1169,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-159-a-che-gioco-giochiamo",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-138-costruire-laccoglienza",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-137-un-posto-tra-gli-altri",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-136-valgo-anchio",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-135-tu-ci-hai-chiamato-eccoci",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-134-tuttiabordo",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-133-chiamati-al-traguardo",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-129-quando-non-si-e-piu-soli-la-vita-risulta-trasformata",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-127-custodi-della-speranza",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-126-sulla-sua-strada",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-125-rimbocchiamoci-le-maniche",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-124-con-gioia-nel-silenzio-vivere-la-pace",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-123-non-altro-non-diversa-parte-della-vita",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-121-chiesa-viva-e-vicina-a-tutti",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-122-momenti-difficili",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-120-aggiungi-un-posto-a-casa",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-119-i-volti-della-bellezza",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-118-malattie-rare",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-117-la-presenza-dei-nonni",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-116-in-cammino",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-115-difendere-la-fragilita-di-ognuno",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-114-perche-non-io",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-113-muoviti-con-chi-non-puo-muoversi",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-110-lincanto-della-natura",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-112-sul-far-della-sera",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-111-cammina-al-mio-fianco-e-sii-mio-amico",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-108-saper-accogliere",
+    "id_numero": "OEL-108",
+    "directus_id": "f4329691-b632-49fd-962f-6a1d97c34bb1",
+    "sommario_preview": "<h4>Editoriali</h4><a href=\"/blog/pensando-alla-nascita-di-gesu/\">Pensando alla nascita di Gesù</a> di M. Bertolini <a h",
+    "sommario_length": 991,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-109-essere-mamma",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-107-posso-anchio-fare-scout",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-106-il-coraggio-di-osare",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-105-fratelli-e-sorelle",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-104-chi-accoglie-uno-dei-miei-piccoli",
+    "id_numero": "OEL-104",
+    "directus_id": "d2034599-20ff-4662-beb9-a785be0377bc",
+    "sommario_preview": "<h4>Editoriali</h4><a href=\"/blog/philippine/\">Philippine</a> di M.Bertolini <a href=\"/blog/presenza-reale/\">Presenza Re",
+    "sommario_length": 141,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-102-vite-da-riaccogliere",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-103-ci-sono-anchio",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-101-quando-dallincontro-scaturisce-la-vita",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-160-ruote-nuove-su-occhi-nuovi",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-161-quarantanni-di-ol",
+    "id_numero": "OEL-161",
+    "directus_id": "09d2a76a-f405-4658-9f8e-8d218dff9248",
+    "sommario_preview": "<p>Attraverso voci e disegni di chi c’era e c’è, ripercorriamo tempi e spazi di questo progetto editoriale (nato in seno",
+    "sommario_length": 909,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-162-vita-in-comunita",
+    "id_numero": "OEL-162",
+    "directus_id": "a226f1c3-4e45-4519-b0ae-301d3548cb41",
+    "sommario_preview": "<p>Un ideale giro per l’Europa, attraverso tre esperienze di vita comunitarie accomunate dalla presenza di persone con d",
+    "sommario_length": 721,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-20-bollettino-fede-e-luce-1979",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-3",
+    "id_numero": "INS-3",
+    "directus_id": "6ee0a6fd-919b-4579-8a8e-3b2dd7358109",
+    "sommario_preview": "<a href=\"/blog/sono-tornato-stasera/\">Sono tornato stasera</a><a href=\"/blog/noris/\">Noris</a><a href=\"/blog/giovanissim",
+    "sommario_length": 477,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-8-bollettino-fede-e-luce",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-9-bollettino-fede-e-luce",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-10-bollettino-fede-e-luce-1976",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-11-bollettino-fede-e-luce-1976",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-12-bollettino-fede-e-luce-1977",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-13-bollettino-fede-e-luce-1977",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-14-bollettino-fede-e-luce-1977",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-15-bollettino-fede-e-luce-1977",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-16-bollettino-fede-e-luce-1978",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-17-bollettino-fede-e-luce-assisi-1978",
+    "id_numero": "INS-17",
+    "directus_id": "acc6d042-6f96-4458-b494-b76dced75758",
+    "sommario_preview": "<p>Questo numero di <a href=\"/blog/insieme/\">Insieme</a>, che esce in occasione del Pellegrinaggio Fede e Luce ad Assisi",
+    "sommario_length": 407,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-18-bollettino-fede-e-luce-1978",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-19-bollettino-fede-e-luce-1978",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "numero-163-pazienti",
+    "id_numero": "OEL-163",
+    "directus_id": "989aea4d-06ba-4bbc-9138-a3f8a96575d7",
+    "sommario_preview": "<p>«Al pari di ogni altro individuo, la persona con disabilità ha il diritto di godere del migliore stato di salute poss",
+    "sommario_length": 483,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-21-bollettino-fede-e-luce-1979",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-22-bollettino-fede-e-luce-1979",
+    "id_numero": "INS-22",
+    "directus_id": "069f41bd-9e1e-43e3-907f-66c96b27bdf7",
+    "sommario_preview": "Questo numero di \"Insieme\" ci porta in un viaggio attraverso le esperienze di vita e fede condivise dalle famiglie di Fe",
+    "sommario_length": 505,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-23-bollettino-fede-e-luce-1979",
+    "id_numero": "INS-23",
+    "directus_id": "06fa31b6-81ef-445c-9d43-facaf4dcedb8",
+    "sommario_preview": "<p>Questo numero di \"Insieme\" ci porta a riflettere sul valore della dignità umana e sull'importanza dell'ascolto e dell",
+    "sommario_length": 408,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-24-bollettino-fede-e-luce-1980",
+    "id_numero": "INS-24",
+    "directus_id": "c873acd5-745d-4721-9eb8-98cbf37af4e4",
+    "sommario_preview": "In questo numero di \"Insieme\" abbiamo voluto raccontare cosa significa essere una comunità di Fede e Luce. Partiamo dall",
+    "sommario_length": 974,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-25-bollettino-fede-e-luce-1980",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-26-bollettino-fede-e-luce-1980",
+    "id_numero": "INS-26",
+    "directus_id": "2059505c-0043-47be-90e9-1abfc7f3bb40",
+    "sommario_preview": "Questo numero di \"Insieme\" esplora la crescita del movimento Fede e Luce attraverso l'esperienza della \"Casetta\" come sp",
+    "sommario_length": 373,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-27-bollettino-fede-e-luce-1980",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-28-bollettino-fede-e-luce-1981",
+    "status": "no_sommario"
+  },
+  {
+    "slug": "insieme-n-29-bollettino-fede-e-luce-1981",
+    "id_numero": "INS-29",
+    "directus_id": "4917b924-2af2-481d-87d3-1e3db22b3e53",
+    "sommario_preview": "<p>Questo numero di \"Insieme\" è interamente dedicato al tema dell'animazione nelle comunità di Fede e Luce. Dall'organiz",
+    "sommario_length": 862,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-n-30-bollettino-fede-e-luce-1981",
+    "id_numero": "INS-30",
+    "directus_id": "ee4d7df0-83ac-4ee1-9dfb-a2fa09fda7b2",
+    "sommario_preview": "<p>Numero speciale della rivista \"Insieme\" di Fede e Luce dedicato al pellegrinaggio internazionale a Lourdes dell'april",
+    "sommario_length": 342,
+    "status": "patched"
+  },
+  {
+    "slug": "insieme-giallo-speciale-verso-pasqua-1981",
+    "status": "no_directus_match"
+  },
+  {
+    "slug": "insieme-speciale-fede-e-luce-1981",
+    "status": "no_directus_match"
+  },
+  {
+    "slug": "numero-164-ancora-pazienti",
+    "id_numero": "OEL-164",
+    "directus_id": "1f582024-88b8-41e0-a4c2-46ed6cda1839",
+    "sommario_preview": "<p>Accompagnato dalla <em>Nativity</em> dell'artista cinese He Qi, Giovanni Grossi riflette sulle contraddizioni del Nat",
+    "sommario_length": 803,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-165-uscire-la-sera",
+    "id_numero": "OEL-165",
+    "directus_id": "7d84b1ce-f121-4c00-b5c0-27d92ddc4401",
+    "sommario_preview": "<p>«Nel quotidiano, andare a mangiare fuori per una persona con disabilità cos'è? Un diritto sacrosanto, un miraggio vic",
+    "sommario_length": 1510,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-166-il-paese-giusto",
+    "id_numero": "OEL-166",
+    "directus_id": "6b67b6f1-de19-46fd-a62d-be70752b8489",
+    "sommario_preview": "<p>«Nessun diritto purtroppo si acquisisce una volta per tutte e non si può mai abbassare la guardia... Però quando una ",
+    "sommario_length": 1334,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-167-fare-la-storia-per-ridare-la-vita",
+    "id_numero": "OEL-167",
+    "directus_id": "ba7d94fe-ac9b-4e2b-b54a-7b91e9132874",
+    "sommario_preview": "<p>Perché ricordare Franco Basaglia? Oltre l’occasione del centenario, scrive Giulia Galeotti, «il medico italiano è riu",
+    "sommario_length": 1001,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-168-sorelle-tutte",
+    "id_numero": "OEL-168",
+    "directus_id": "3ae4776e-b247-4a20-bce2-1ffcd1cb980b",
+    "sommario_preview": "<p>Camelia, Elena, Ilaria e Teresita: quattro voci di donne consacrate ci raccontano come abbiano intrecciato la loro vo",
+    "sommario_length": 681,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-169-noi-pellegrini",
+    "id_numero": "OEL-169",
+    "directus_id": "091a8fd7-e7ec-47f4-b391-0cff35fcce53",
+    "sommario_preview": "<p>Il 2025 è anno di pellegrinaggi, non solo per il Giubileo della Speranza aperto da papa Francesco, ma anche per i 50 ",
+    "sommario_length": 1328,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-170-camminiamo-insieme",
+    "status": "parse_failed"
+  },
+  {
+    "slug": "numero-171-fratelli-tutti",
+    "id_numero": "OEL-171",
+    "directus_id": "9a52facd-5e9b-4555-8e96-76eae19aba27",
+    "sommario_preview": "<p>In ideale continuità con il numero <a href=\"https://www.ombreeluci.it/project/numero-168-sorelle-tutte/\"><strong><em>",
+    "sommario_length": 1481,
+    "status": "patched"
+  },
+  {
+    "slug": "numero-172-paradigma-pompei",
+    "id_numero": "OEL-172",
+    "directus_id": "588920a7-542e-4c51-ac41-af8942275264",
+    "sommario_preview": "<p><em>Paradigma Pompei</em>, l'ultimo numero del 2025 di Ombre e Luci, racconta di un viaggio: un insieme di voci, rifl",
+    "sommario_length": 558,
+    "status": "patched"
+  }
+]

@@ -80,7 +80,7 @@ try {
     <ol class="article-list">
       {allArticlesList.map((a) => (
         <li class="article-item">
-          <a href={`/blog/${a.slug}`} class="article-link">
+          <a href={`/${a.slug}`} class="article-link">
             {a.titolo || 'Titolo mancante'}
           </a>
           <span class="article-meta">

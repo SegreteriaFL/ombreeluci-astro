@@ -281,7 +281,7 @@ const pdfUrl: string | null = articolo.numero_rivista?.pdf_archive_url ?? null;
 const alternateItem = articolo.articolo_traduzione ?? null;
 // alternateItem.lang dovrebbe essere 'it'; se per qualsiasi motivo fosse EN ignoriamo.
 const alternateArticleUrl = (alternateItem && alternateItem.lang !== 'en')
-  ? `/blog/${alternateItem.slug}`
+  ? `/${alternateItem.slug}`
   : null;
 
 // ── Dati per enrichment client-side ───────────────────────────────────────────

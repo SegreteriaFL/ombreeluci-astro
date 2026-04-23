@@ -45,7 +45,7 @@ const articoliDiari = allArticles
           <div class="diari-cards diari-cards--polaroid">
             {diaristiConMeta.map((d) => (
               <article class="diari-card diari-card--polaroid">
-                <a href={`/${d.diarioSlug}`} class="diari-card-link">
+                <a href={`/diari/${d.diarioSlug}`} class="diari-card-link">
                   <div class="diari-polaroid-frame">
                     <div class="diari-polaroid-photo">
                       {d.fotoUrl ? (

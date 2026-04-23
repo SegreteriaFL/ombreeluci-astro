@@ -187,3 +187,18 @@ Non aggiungere altri commit sopra un sistema rotto.
 Per audit o diagnosi **senza** parola d'ordine di implementazione: solo lettura, nessun commit, nessun deploy. La regola è in `.cursor/rules/audit-diagnosi-sola-lettura.mdc`.
 
 Al termine di ogni sessione di implementazione: aggiornare STATO.md con i task chiusi e i nuovi task emersi.
+
+---
+## Staging vs produzione — regola fondamentale
+
+**Il sito in produzione è `ombreeluci.it` su Aruba (WordPress). Non viene toccato.**
+
+Staging (`ombreeluci-staging.pages.dev`) è un cantiere. Non ha visitatori reali, non è indicizzato, non ha SEO da proteggere. Tutto il lavoro attuale serve a preparare una base pulita che diventerà produzione al momento del cutover DNS.
+
+Implicazioni pratiche:
+- Le preoccupazioni SEO (redirect 1:1, no catene, hreflang, canonical corretti) diventano critiche **al cutover DNS**, non prima
+- Rompere un URL su staging non danneggia nessuno — va fixato prima del cutover, non prima del commit
+- "Rischioso" su staging significa "richiede attenzione tecnica", non "può danneggiare utenti reali"
+- I gate SEO pre-merge servono a garantire che il codice sia pronto per il cutover, non a proteggere staging
+
+Il cutover DNS avviene quando tutti i blockers in `STATO.md` sono verdi. Fino ad allora, staging è un banco di lavoro.
