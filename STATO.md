@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-22 (B-03)
+**Ultimo aggiornamento:** 2026-04-23 (B-05)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -61,7 +61,7 @@ Il cutover avviene quando tutti i blockers sono verdi. Ordinati per dipendenza l
 | B-02 | ✅ | Dev | Smoke test SEO F2 — curl checks verdi; fix hreflang EN assoluto (`fix/hreflang-absolute-url`, merge `6aab9c44`) |
 | B-03 | ✅ | — | CORS Directus già configurato in docker-compose.yml — verificato `Access-Control-Allow-Origin` + `Credentials: true` su staging |
 | B-04 | ⏳ | Redazione | V-02: assegnare categoria ai 19 articoli "da-categorizzare" in Directus |
-| B-05 | ⏳ | Dev | URL-01: rimozione prefisso `/blog/` dagli URL articoli IT — SEO-critical, branch dedicato `feat/url-root-articles`, non mescolare con altro (vedi WORKING.md) |
+| B-05 | ✅ | Dev | URL-01: rimozione prefisso `/blog/` dagli URL articoli IT — merge `feat/url-root-articles` su main 2026-04-23 (commit `bf1b81dd`). Curl post-deploy da verificare (push bloccato da credenziali). |
 | B-06 | ⏳ | Dev/Redazione | T1/T2/T3: validare workflow creazione numero OEL-173 + associazione articolo da account Redazione UAT |
 | B-07 | ⏳ | Dev | Keystatic: dismettere formalmente — tutti i nuovi articoli devono entrare da Directus. Il Worker `keystatic-oel` è ancora attivo su CF Workers |
 | B-08 | ⏳ | Dev | Copertine staging: verificare che le immagini usino `/assets/{uuid}` e rispondano 200 in Network tab |
@@ -69,7 +69,16 @@ Il cutover avviene quando tutti i blockers sono verdi. Ordinati per dipendenza l
 | B-10 | ⏳ | Sysadmin | Slack alert build: aggiungere secret `SLACK_WEBHOOK_URL` su GitHub Actions |
 | B-11 | ⏳ | Sysadmin | Iubenda: correggere `ownerName` da `"fedeeluce.it"` a `"ombreeluci.it"` sul pannello Iubenda prima del cutover |
 
-Dipendenze: B-04 sblocca B-12 (ruoli editoriali). B-05 richiede branch dedicato, non mescolare. B-03 dipende da CORS configurato sul server.
+Dipendenze: B-04 sblocca B-12 (ruoli editoriali). B-03 dipende da CORS configurato sul server.
+
+### Nota CSS — leak `is:global` ArticlePageLayout (caso documentato)
+
+Durante B-05 si è manifestato un CSS leak dalla regola `is:global` in `src/layouts/ArticlePageLayout.astro`:
+i selettori `.article-meta` (con `display:flex`, `justify-content:center`, `border-bottom`, `text-align:center`) e `.article-title` (con `letter-spacing:-0.02em`, `text-align:center`) fuoriuscivano dal layout articolo e applicavano stili errati ai componenti `ArticleCard` presenti nelle sezioni "Articoli correlati" all'interno della stessa pagina articolo.
+
+Fix applicato: override scoped in `ArticleCard.astro` con `display:block`, `padding-bottom:0`, `border-bottom:none`, `text-align:left` e `letter-spacing:normal`.
+
+Questo caso conferma la regola in CLAUDE.md: `is:global` in componenti condivisi richiede prefisso wrapper univoco su ogni selettore. Se si refactora `ArticlePageLayout`, tutti i selettori `.article-meta` e `.article-title` vanno prefissati con `.article-page-layout` o simile.
 
 ---
 
