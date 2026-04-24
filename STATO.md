@@ -64,7 +64,7 @@ Il cutover avviene quando tutti i blockers sono verdi. Ordinati per dipendenza l
 | B-05 | ✅ | Dev | URL-01: rimozione prefisso `/blog/` dagli URL articoli IT — merge su main, verificato su staging 2026-04-24. Curl: `/{slug}/`→200, `/blog/{slug}/`→301, `/YYYY/MM/DD/{slug}/`→301. |
 | B-06 | ⏳ | Dev/Redazione | T1/T2/T3: validare workflow creazione numero OEL-173 + associazione articolo da account Redazione UAT |
 | B-07 | ⏳ | Dev | Keystatic: dismettere formalmente — tutti i nuovi articoli devono entrare da Directus. Il Worker `keystatic-oel` è ancora attivo su CF Workers |
-| B-08 | ⏳ | Dev | Copertine staging: verificare che le immagini usino `/assets/{uuid}` e rispondano 200 in Network tab |
+| B-08 | ✅ | Dev | Copertine staging: tutte le immagini articolo usano `cms.ombreeluci.it/assets/{uuid}`, 200 verificato 2026-04-24. Nota: copertina rivista OEL-172 ancora su `wp-content/uploads` — dato Directus da verificare (non bloccante). |
 | B-09 | ⏳ | Sysadmin | UptimeRobot: configurare monitor per `cms.ombreeluci.it/server/ping` (5 min) e `ombreeluci.it/` (10 min) |
 | B-10 | ⏳ | Sysadmin | Slack alert build: aggiungere secret `SLACK_WEBHOOK_URL` su GitHub Actions |
 | B-11 | ⏳ | Sysadmin | Iubenda: correggere `ownerName` da `"fedeeluce.it"` a `"ombreeluci.it"` sul pannello Iubenda prima del cutover |
