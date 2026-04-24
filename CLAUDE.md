@@ -167,6 +167,31 @@ La route `src/pages/en/[slug].astro` ricostruisce lo slug Directus aggiungendo `
 Cambiare questa convenzione richiede uno script di migrazione su tutti i 131 articoli EN esistenti e aggiornamento della route. Non farlo mai come side effect di un altro task.
 
 ---
+## _routes.json — regola per catch-all SSR
+
+Con `[...path].astro` catch-all SSR a root level, le route prerender dinamiche non vengono aggiunte automaticamente all'exclude di `_routes.json`. Vanno dichiarate esplicitamente in `astro.config.mjs`:
+
+```js
+cloudflare({
+  routes: {
+    extend: {
+      exclude: [
+        { pattern: '/categoria/*' },
+        { pattern: '/autori/*' },
+        { pattern: '/tag/*' },
+        { pattern: '/diari/*' },
+        { pattern: '/sezioni/*' },
+        { pattern: '/archivio/oel-*' },
+        { pattern: '/archivio/ins-*' },
+      ]
+    }
+  }
+})
+```
+
+Ogni nuova route prerender dinamica aggiunta al progetto richiede una voce corrispondente qui.
+
+---
 ## Nightly build — CI/CD
 
 Usare sempre il Deploy Hook (`CF_DEPLOY_HOOK` secret) per triggare rebuild CF Pages da GitHub Actions. Non usare l'endpoint API REST `POST /pages/projects/{name}/deployments` — non funziona per progetti Git-connected.

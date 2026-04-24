@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-23 (B-05)
+**Ultimo aggiornamento:** 2026-04-24 (fix routing _routes.json + categoria basePath + alternateUrl EN)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -68,6 +68,7 @@ Il cutover avviene quando tutti i blockers sono verdi. Ordinati per dipendenza l
 | B-09 | ⏳ | Sysadmin | UptimeRobot: configurare monitor per `cms.ombreeluci.it/server/ping` (5 min) e `ombreeluci.it/` (10 min) |
 | B-10 | ⏳ | Sysadmin | Slack alert build: aggiungere secret `SLACK_WEBHOOK_URL` su GitHub Actions |
 | B-11 | ⏳ | Sysadmin | Iubenda: correggere `ownerName` da `"fedeeluce.it"` a `"ombreeluci.it"` sul pannello Iubenda prima del cutover |
+| FIX-ROUTING | ✅ | Dev | Routes.json: exclude espliciti per pagine prerender dinamiche — commit `3e528a6c` |
 
 Dipendenze: B-04 sblocca B-12 (ruoli editoriali). B-03 dipende da CORS configurato sul server.
 
@@ -79,6 +80,14 @@ i selettori `.article-meta` (con `display:flex`, `justify-content:center`, `bord
 Fix applicato: override scoped in `ArticleCard.astro` con `display:block`, `padding-bottom:0`, `border-bottom:none`, `text-align:left` e `letter-spacing:normal`.
 
 Questo caso conferma la regola in CLAUDE.md: `is:global` in componenti condivisi richiede prefisso wrapper univoco su ogni selettore. Se si refactora `ArticlePageLayout`, tutti i selettori `.article-meta` e `.article-title` vanno prefissati con `.article-page-layout` o simile.
+
+### Nota routing — _routes.json e catch-all SSR (caso documentato 2026-04-24)
+
+Con `[...path].astro` catch-all SSR a root level, l'adapter Cloudflare genera `_routes.json` con `include: ["/*"]` ma inserisce nell'exclude automatico solo le pagine che conosce esplicitamente. Le route prerender dinamiche (`/categoria/*`, `/autori/*`, `/tag/*`, `/diari/*`, `/sezioni/*`, `/archivio/oel-*`, `/archivio/ins-*`) vanno aggiunte manualmente via `routes.extend.exclude` in `astro.config.mjs`.
+
+Regola: ogni volta che si aggiunge una nuova route prerender dinamica, verificare che il suo pattern sia presente nell'exclude di `astro.config.mjs`. Senza questo, CF Pages manda le richieste al Worker SSR che risponde 404.
+
+Fix applicato: commit `3e528a6c` — `astro.config.mjs` con extend.exclude completo.
 
 ### Nota auth — EditorialFeedback box e bottone (fix 2026-04-24)
 
@@ -119,7 +128,6 @@ Questi fix sono stati scritti in sessione 2026-04-04 ma non committati. Vanno re
 | B-12 | 🟡 | M | US-15: rivalutazione ruoli editoriali per categoria (dopo B-04) |
 | VERT-01 | 🟡 | L | 8 pagine verticali WP da replicare con stesso slug: `mariangela-bertolini`, `autismo`, `cinema-e-disabilita`, `aktion-t4-sterminio-persone-disabilita`, `catechesi-e-disabilita`, `noi-papa-un-figlio-disabile`, `ciao-stefano-di-franco`, `studiosi-educatori-e-attivisti-ombre-e-luci` |
 | AUT-01 | 🟡 | M | Pagine autore: filtro per lingua, componente condiviso `AuthorPageContent.astro`, route `/en/authors/[slug]` (vedi CONTENUTI.md) |
-| SEARCH-01 | 🟡 | M | Ricerca: decisione architetturale + implementazione (vedi CONTENUTI.md sezione Ricerca) |
 | LINK-01 | 🟡 | S | 7 link IT↔EN ambigui + 11 no-match da revisionare: `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |
 | V-05 | 🟡 | S | 35 articoli Jean Vanier con `tema_label = null`: riassegnare categoria in Directus |
 | DA-02 | 🟢 | S | 16 pull quote non reinserite: 11 articoli con posizione ambigua, da inserire a mano in Directus |
@@ -165,6 +173,7 @@ Richiedono occhio umano su staging. Non sono tecniche.
 | UX-11 | UX | Diari home su mobile: layout affollato a 2 colonne |
 | PF-03 | Perf | Immagini non responsive: srcset mancante su ArticleCard, hero, LeggiAnche |
 | PF-04 | Perf | CSS render-blocking: `_slug_.css` e `_diario_.css` bloccano rendering ~610ms |
+| SEARCH-01 | Post-lancio | Ricerca Algolia — opzione A (Pagefind prerender) abbandonata: snapshot senza corpo (0/3527 articoli indicizzabili), 956 articoli mancanti da getStaticPaths, build 10-15min. Procedere con opzione B (Algolia free tier). Vedi CONTENUTI.md sezione Ricerca. |
 | DA-06-ES | Traduzioni | Pipeline spagnolo: dopo chiusura e stabilizzazione EN |
 | fedeeluce | Infra | Directus multi-tenant per fedeeluce.it sullo stesso VPS (costo: solo rinnovo dominio) |
 
