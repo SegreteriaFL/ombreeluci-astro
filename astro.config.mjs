@@ -29,7 +29,27 @@ console.log('[config] site:', site);
 export default defineConfig({
   site,
   output: 'hybrid',
-  adapter: cloudflare(),
+  adapter: cloudflare({
+    routes: {
+      extend: {
+        exclude: [
+          { pattern: '/categoria/*' },
+          { pattern: '/autori/*' },
+          { pattern: '/autori' },
+          { pattern: '/tag/*' },
+          { pattern: '/archivio/*' },
+          { pattern: '/diari/*' },
+          { pattern: '/sezioni/*' },
+          { pattern: '/sezioni' },
+          { pattern: '/cerca' },
+          { pattern: '/sostienici' },
+          { pattern: '/newsletter' },
+          { pattern: '/debug/*' },
+          { pattern: '/test-*' },
+        ],
+      },
+    },
+  }),
   integrations: [pagefind()],
   vite: {
     define: {
