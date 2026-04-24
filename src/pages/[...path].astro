@@ -1,0 +1,9 @@
+---
+// Catch-all SSR per garantire che il middleware venga eseguito su path
+// multi-segmento non coperti da altre route (es. /blog/slug/, /YYYY/MM/DD/slug/).
+// Il middleware in src/middleware.ts gestisce tutti i redirect; questa pagina
+// non viene mai raggiunta se il middleware fa redirect correttamente.
+export const prerender = false;
+
+return new Response(null, { status: 404 });
+---
