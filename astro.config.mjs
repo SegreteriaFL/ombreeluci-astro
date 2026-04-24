@@ -33,6 +33,8 @@ export default defineConfig({
     routes: {
       extend: {
         exclude: [
+          { pattern: '/archivio/oel-*' },
+          { pattern: '/archivio/ins-*' },
           { pattern: '/categoria/*' },
           { pattern: '/autori/*' },
           { pattern: '/autori' },

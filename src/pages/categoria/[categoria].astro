@@ -47,12 +47,15 @@ export async function getStaticPaths() {
 }
 
 const { articoli, categoryLabel, descrizione, evidenza } = Astro.props;
+const { categoria } = Astro.params;
+const alternateArticleUrl = `/en/category/${categoria}`;
 ---
 
 <BaseLayout
   title={categoryLabel}
   description={descrizione ?? `Articoli nella categoria ${categoryLabel} su Ombre e Luci`}
   noindex={true}
+  alternateArticleUrl={alternateArticleUrl}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify({
@@ -71,7 +74,7 @@ const { articoli, categoryLabel, descrizione, evidenza } = Astro.props;
       descrizione={descrizione}
       evidenza={evidenza}
       lang="it"
-      basePath="/"
+      basePath=""
     />
   </main>
 </BaseLayout>
