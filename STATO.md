@@ -61,7 +61,7 @@ Il cutover avviene quando tutti i blockers sono verdi. Ordinati per dipendenza l
 | B-02 | ✅ | Dev | Smoke test SEO F2 — curl checks verdi; fix hreflang EN assoluto (`fix/hreflang-absolute-url`, merge `6aab9c44`) |
 | B-03 | ✅ | — | CORS Directus già configurato in docker-compose.yml — verificato `Access-Control-Allow-Origin` + `Credentials: true` su staging |
 | B-04 | ⏳ | Redazione | V-02: assegnare categoria ai 19 articoli "da-categorizzare" in Directus |
-| B-05 | ✅ | Dev | URL-01: rimozione prefisso `/blog/` dagli URL articoli IT — merge `feat/url-root-articles` su main 2026-04-23 (commit `bf1b81dd`). Curl post-deploy da verificare (push bloccato da credenziali). |
+| B-05 | ✅ | Dev | URL-01: rimozione prefisso `/blog/` dagli URL articoli IT — merge su main, verificato su staging 2026-04-24. Curl: `/{slug}/`→200, `/blog/{slug}/`→301, `/YYYY/MM/DD/{slug}/`→301. |
 | B-06 | ⏳ | Dev/Redazione | T1/T2/T3: validare workflow creazione numero OEL-173 + associazione articolo da account Redazione UAT |
 | B-07 | ⏳ | Dev | Keystatic: dismettere formalmente — tutti i nuovi articoli devono entrare da Directus. Il Worker `keystatic-oel` è ancora attivo su CF Workers |
 | B-08 | ⏳ | Dev | Copertine staging: verificare che le immagini usino `/assets/{uuid}` e rispondano 200 in Network tab |
@@ -79,6 +79,14 @@ i selettori `.article-meta` (con `display:flex`, `justify-content:center`, `bord
 Fix applicato: override scoped in `ArticleCard.astro` con `display:block`, `padding-bottom:0`, `border-bottom:none`, `text-align:left` e `letter-spacing:normal`.
 
 Questo caso conferma la regola in CLAUDE.md: `is:global` in componenti condivisi richiede prefisso wrapper univoco su ogni selettore. Se si refactora `ArticlePageLayout`, tutti i selettori `.article-meta` e `.article-title` vanno prefissati con `.article-page-layout` o simile.
+
+### Nota infrastruttura — middleware Astro/CF Pages (caso documentato)
+
+Il middleware Astro (`src/middleware.ts`) viene eseguito **solo per route presenti nel manifest**. Path come `/blog/slug/` o `/2018/02/19/slug/` che non corrispondono a nessuna pagina Astro bypassano il middleware e ottengono 404 direttamente.
+
+Fix permanente: `src/pages/[...path].astro` catch-all SSR (solo `return new Response(null, {status:404})`). Garantisce che tutti i path abbiano una route nel manifest → middleware gira → redirect in `middleware.ts` funzionano.
+
+**Regola:** ogni volta che si aggiunge una nuova categoria di redirect nel middleware (es. un nuovo prefisso di path non coperto da route esistenti), verificare che quel path abbia una route nel manifest. In caso contrario, il middleware non gira.
 
 ---
 
