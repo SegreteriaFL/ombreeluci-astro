@@ -239,7 +239,11 @@ const metaDescription = (explicitSubtitle || articolo.seo_description)
 
 const categoryDisplay = getThemeLabel(articolo);
 const categorySlug = getCategorySlugForArticle(articolo);
-const categoryLink = categorySlug ? `/categoria/${categorySlug}` : null;
+const categoryLink = categorySlug
+  ? locale === 'en'
+    ? `/en/category/${categorySlug}`
+    : `/categoria/${categorySlug}`
+  : null;
 const currentLabels = getLabels([], articolo);
 const formaDisplay =
   currentLabels.formal && currentLabels.formal !== 'Articolo'
