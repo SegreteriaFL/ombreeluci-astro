@@ -63,7 +63,7 @@ Il cutover avviene quando tutti i blockers sono verdi. Ordinati per dipendenza l
 | B-04 | ⏳ | Redazione | V-02: assegnare categoria ai 19 articoli "da-categorizzare" in Directus |
 | B-05 | ✅ | Dev | URL-01: rimozione prefisso `/blog/` dagli URL articoli IT — merge su main, verificato su staging 2026-04-24. Curl: `/{slug}/`→200, `/blog/{slug}/`→301, `/YYYY/MM/DD/{slug}/`→301. |
 | B-06 | ⏳ | Dev/Redazione | T1/T2/T3: validare workflow creazione numero OEL-173 + associazione articolo da account Redazione UAT |
-| B-07 | ⏳ | Dev | Keystatic: dismettere formalmente — tutti i nuovi articoli devono entrare da Directus. Il Worker `keystatic-oel` è ancora attivo su CF Workers |
+| B-07 | ✅ | Dev | Keystatic dismesso 2026-04-24 — Worker `keystatic-oel` eliminato via `wrangler delete`. Verifica: `https://keystatic-oel.bold-firefly-5209.workers.dev/keystatic` → 404. |
 | B-08 | ✅ | Dev | Copertine staging: tutte le immagini articolo usano `cms.ombreeluci.it/assets/{uuid}`, 200 verificato 2026-04-24. Nota: copertina rivista OEL-172 ancora su `wp-content/uploads` — dato Directus da verificare (non bloccante). |
 | B-09 | ⏳ | Sysadmin | UptimeRobot: configurare monitor per `cms.ombreeluci.it/server/ping` (5 min) e `ombreeluci.it/` (10 min) |
 | B-10 | ⏳ | Sysadmin | Slack alert build: aggiungere secret `SLACK_WEBHOOK_URL` su GitHub Actions |
@@ -79,6 +79,14 @@ i selettori `.article-meta` (con `display:flex`, `justify-content:center`, `bord
 Fix applicato: override scoped in `ArticleCard.astro` con `display:block`, `padding-bottom:0`, `border-bottom:none`, `text-align:left` e `letter-spacing:normal`.
 
 Questo caso conferma la regola in CLAUDE.md: `is:global` in componenti condivisi richiede prefisso wrapper univoco su ogni selettore. Se si refactora `ArticlePageLayout`, tutti i selettori `.article-meta` e `.article-title` vanno prefissati con `.article-page-layout` o simile.
+
+### Nota auth — EditorialFeedback box e bottone (fix 2026-04-24)
+
+`EditorialFeedback.astro`: box `#editorial-feedback-box` e bottone `#directus-edit-btn` erano visibili agli utenti anonimi. Fix in due parti:
+1. Aggiunto `hidden` come attributo di default nel markup su entrambi gli elementi
+2. JS mostra gli elementi solo se `fetch('/users/me')` risponde `r.ok` (200)
+
+Causa del bug residuo sul bottone: `.directus-edit-btn { display: inline-flex }` nel CSS scoped batteva il `[hidden]` del browser (user-agent stylesheet ha specificità zero). Fix: aggiunto `[hidden] { display: none !important; }` in `global.css`.
 
 ### Nota infrastruttura — middleware Astro/CF Pages (caso documentato)
 
@@ -118,6 +126,7 @@ Questi fix sono stati scritti in sessione 2026-04-04 ma non committati. Vanno re
 | UX-19 | 🟢 | S | Pagine test/debug pubbliche da rimuovere o proteggere: `test-lista.astro`, `test-minimal.astro`, `test-no-articles.astro`, `test-status.astro`, `debug/audit-editoriale.astro` |
 | PF-01 | 🔴 | S | Placeholder copertina 4.2MB: ridimensionare a 400px + WebP/AVIF |
 | PF-02 | 🔴 | S | Cache-Control assente su R2 (`r2.dev/copertine/*`, `r2.dev/corpo/*`): aggiungere `max-age=31536000, immutable` via CF Transform Rule |
+| TAG-03 | 🟡 | S | Pagine `/tag/[slug]` e `/en/tag/[slug]` mostrano articoli IT e EN mescolati — aggiungere filtro `lang` alla query in `directus.ts`. Stessa soluzione di AUT-01. |
 
 ---
 
