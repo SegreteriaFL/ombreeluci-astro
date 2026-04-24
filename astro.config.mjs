@@ -37,7 +37,6 @@ export default defineConfig({
           { pattern: '/autori/*' },
           { pattern: '/autori' },
           { pattern: '/tag/*' },
-          { pattern: '/archivio/*' },
           { pattern: '/diari/*' },
           { pattern: '/sezioni/*' },
           { pattern: '/sezioni' },
