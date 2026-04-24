@@ -1,18 +1,27 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-24 (fix routing _routes.json + categoria basePath + alternateUrl EN)
+**Ultimo aggiornamento:** 2026-04-24 (fix routing, basePath, categoryLink EN)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
 
 ---
 
-## Stato attuale verificato (2026-04-21)
+## Stato attuale verificato (2026-04-24)
 
 | Verifica | Esito |
 |----------|-------|
 | Home staging | ✅ 200 |
+| Articolo IT `/{slug}/` | ✅ 200 (verificato `/la-nostra-buona-novella/`) |
 | Articolo EN `/en/il-progetto-dandelion/` | ✅ 200, SSR, Cache-Control corretto |
+| Redirect `/blog/*-en/` → `/en/*/` | ✅ 301 |
+| Pagina categoria `/categoria/testimonianze/` | ✅ 200 (fix `3e528a6c`) |
+| Archivio numero `/archivio/oel-171/` | ✅ 200 (fix `3e528a6c`) |
+| Pagina autore IT | ✅ 200 |
+| Pagina cerca | ✅ 200 |
+| i18n F0+F1+F2 su main | ✅ merge `a4b032f9` |
+| Link articoli da categoria (no `//slug`) | ✅ fix `57100eff` |
+| Badge categoria articolo EN → `/en/category/` | ✅ fix `d44594c8` |
 | Redirect `/blog/*-en/` → `/en/*/` | ✅ 301 |
 | Pagina autore IT | ✅ 200 |
 | Pagina cerca | ✅ 200 |
@@ -69,6 +78,8 @@ Il cutover avviene quando tutti i blockers sono verdi. Ordinati per dipendenza l
 | B-10 | ⏳ | Sysadmin | Slack alert build: aggiungere secret `SLACK_WEBHOOK_URL` su GitHub Actions |
 | B-11 | ⏳ | Sysadmin | Iubenda: correggere `ownerName` da `"fedeeluce.it"` a `"ombreeluci.it"` sul pannello Iubenda prima del cutover |
 | FIX-ROUTING | ✅ | Dev | Routes.json: exclude espliciti per pagine prerender dinamiche — commit `3e528a6c` |
+| FIX-BASEPATH | ✅ | Dev | `basePath` default `''` in ArticleCard, ArticoliRullo, CategoriaPageContent — evita `//slug` — commit `57100eff` |
+| FIX-BADGE-EN | ✅ | Dev | `categoryLink` lingua-aware in `[slug].astro`: EN → `/en/category/`, IT → `/categoria/` — commit `d44594c8` |
 
 Dipendenze: B-04 sblocca B-12 (ruoli editoriali). B-03 dipende da CORS configurato sul server.
 
