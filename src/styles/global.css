@@ -3,6 +3,9 @@
    Eleganza invisibile (Medium / Il Tascabile)
    ============================================ */
 
+/* Garantisce che [hidden] funzioni anche quando il CSS authored imposta display esplicito */
+[hidden] { display: none !important; }
+
 /* Raleway locale - public/fonts */
 @font-face {
   font-family: 'Raleway';
