@@ -1,282 +1,49 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import ArticleCard from '../../components/ArticleCard.astro';
-import { getMegaclusterForArticle, getLabels, getRoleWeight } from '../../config/taxonomy.js';
-import { getAllAutori, getArticoloCopertinaSrc, getAutoreImageUrl } from '../../lib/directus';
+import AuthorPageContent from '../../components/AuthorPageContent.astro';
+import { getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
+import { getAllAutori, getAutoreImageUrl } from '../../lib/directus';
 import { getAllArticoliBuild } from '../../lib/articoli-build';
 
 export async function getStaticPaths() {
-  function toUrlSlug(name: string): string {
-    return name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-  }
   const [allAutori, allArticoli] = await Promise.all([getAllAutori(), getAllArticoliBuild()]);
 
   return allAutori.map((autore) => {
-    const urlSlug = toUrlSlug(autore.nome_completo);
     const articoli = allArticoli
-      .filter((a) => (a.autore?.nome_completo || '') === autore.nome_completo)
+      .filter((a) => a.autore?.slug === autore.slug && a.lang === 'it')
       .sort((a, b) => {
         const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
         const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
         if (tA !== tB) return tB - tA;
         const weightA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
-        const weightB = getRoleWeight(getMegaclusterForArticle(b.wp_id).ruolo_editoriale);
+        const weightB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
         return weightB - weightA;
       });
     return {
-      params: { slug: urlSlug },
+      params: { slug: autore.slug },
       props: { autore, articoli },
     };
   });
 }
 
 const { autore, articoli } = Astro.props;
-const nomeAutore: string = autore.nome_completo;
-const slug = Astro.params.slug ?? '';
-
-const authorFotoId: string | null = autore.foto?.id ?? null;
-const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${slug}.jpg`;
-const authorBioHtml: string | null = autore.bio_html?.trim() || null;
-const bioIsHtml = authorBioHtml && /<[a-z][^>]*>/i.test(authorBioHtml);
+const authorFotoId = autore.foto?.id ?? null;
+const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${autore.slug}.jpg`;
+const alternateUrl = `/en/authors/${autore.slug}/`;
 ---
 
 <BaseLayout
-  title={`Articoli di ${nomeAutore}`}
-  description={`Leggi tutti i contributi di ${nomeAutore} pubblicati su Ombre e Luci`}
+  title={`Articoli di ${autore.nome_completo}`}
+  description={`Leggi tutti i contributi di ${autore.nome_completo} pubblicati su Ombre e Luci`}
+  lang="it"
   noindex={true}
   ogImage={authorImagePath}
+  alternateArticleUrl={alternateUrl}
 >
-    <main class="site-main">
-      <div class="author-container">
-      <div class="author-header">
-        <div class="author-avatar-wrapper">
-          <img 
-            src={authorImagePath}
-            alt={nomeAutore}
-            class="author-avatar-image"
-            onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';"
-            loading="lazy"
-          />
-          <div class="author-avatar-fallback" style="display: none;">
-            {nomeAutore.charAt(0).toUpperCase()}
-          </div>
-        </div>
-        <div class="author-info">
-          <h1 class="author-name">{nomeAutore}</h1>
-          <div class="author-bio">
-            {authorBioHtml ? (
-              <div class="author-bio-content" set:html={bioIsHtml ? authorBioHtml : `<p>${authorBioHtml.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>`} />
-            ) : (
-              <>Autore di {articoli.length} {articoli.length === 1 ? 'articolo' : 'articoli'} pubblicati su Ombre e Luci.</>
-            )}
-          </div>
-          <div class="author-stats">
-            <div class="author-stats-item">
-              <span class="author-stats-number">{articoli.length}</span>
-              <span>{articoli.length === 1 ? 'articolo' : 'articoli'}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section class="articles-section">
-        <div class="articles-header">
-          <h2 class="articles-title">Articoli</h2>
-          <p class="articles-count">
-            [{articoli.length}] articoli pubblicati
-          </p>
-        </div>
-
-        <div class="articles-grid">
-          {articoli.map((a) => {
-            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
-            const { formal } = getLabels([], a);
-            const articleImage = getArticoloCopertinaSrc(a);
-            return (
-              <ArticleCard
-                title={a.titolo}
-                slug={a.slug}
-                categoriaMenu={categoria_menu ?? undefined}
-                issue={a.numero_rivista?.id_numero ?? null}
-                forma={formal}
-                author={a.autore?.nome_completo ?? nomeAutore}
-                date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
-                image={articleImage}
-                ruoloEditoriale={ruolo_editoriale ?? undefined}
-              />
-            );
-          })}
-        </div>
-      </section>
-      </div>
-    </main>
+  <AuthorPageContent
+    lang="it"
+    author={autore}
+    articles={articoli}
+    basePath="/it"
+  />
 </BaseLayout>
-
-<style>
-      .author-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem 1.5rem;
-      }
-
-      .author-header {
-        background: #fff;
-        padding: 3rem 2rem;
-        border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-        margin-bottom: 3rem;
-        display: flex;
-        gap: 2rem;
-        align-items: flex-start;
-      }
-
-      .author-avatar-wrapper {
-        position: relative;
-        width: 120px;
-        height: 120px;
-        flex-shrink: 0;
-      }
-
-      .author-avatar-image {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        object-fit: cover;
-        display: block;
-      }
-
-      .author-avatar-fallback {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-size: 2.5rem;
-        font-weight: 700;
-      }
-
-      .author-info {
-        flex: 1;
-      }
-
-      .author-name {
-        font-family: 'Raleway', sans-serif;
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: var(--text-color);
-        margin-bottom: 1rem;
-      }
-
-      .author-bio {
-        font-size: 1.125rem;
-        line-height: 1.7;
-        color: var(--text-secondary);
-        margin-bottom: 1rem;
-      }
-      .author-bio-content i,
-      .author-bio-content em { font-style: italic; }
-      .author-bio-content b,
-      .author-bio-content strong { font-weight: 700; }
-      .author-bio-content a { color: var(--accent-color); text-decoration: none; }
-      .author-bio-content a:hover { text-decoration: underline; }
-      .author-bio-content p { margin: 0 0 0.75rem; }
-      .author-bio-content p:last-child { margin-bottom: 0; }
-
-      .author-stats {
-        display: flex;
-        gap: 2rem;
-        margin-top: 1.5rem;
-        font-size: 1rem;
-        color: var(--text-secondary);
-      }
-
-      .author-stats-item {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-      }
-
-      .author-stats-number {
-        font-weight: 600;
-        color: #667eea;
-      }
-
-      .articles-section {
-        margin-top: 3rem;
-      }
-
-      .articles-header {
-        margin-bottom: 2rem;
-      }
-
-      .articles-title {
-        font-size: 2rem;
-        font-weight: 700;
-        color: var(--text-color);
-        margin-bottom: 0.5rem;
-      }
-
-      .articles-count {
-        font-size: 1rem;
-        color: var(--text-secondary);
-      }
-
-      .articles-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 32px;
-      }
-
-      /* Responsive */
-      @media (max-width: 1024px) {
-        .articles-grid {
-          grid-template-columns: repeat(2, 1fr);
-          gap: 32px;
-        }
-      }
-
-      @media (max-width: 768px) {
-        .author-container {
-          padding: 1.5rem 1rem;
-        }
-
-        .author-header {
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-          padding: 2rem 1.5rem;
-        }
-
-        .author-name {
-          font-size: 2rem;
-        }
-
-        .articles-grid {
-          grid-template-columns: 1fr;
-          gap: 32px;
-        }
-      }
-
-      @media (max-width: 480px) {
-        .author-header {
-          padding: 1.5rem 1rem;
-          margin-bottom: 2rem;
-          border-radius: 8px;
-        }
-
-        .author-name {
-          font-size: 1.5rem;
-        }
-
-        .articles-section {
-          margin-top: 2rem;
-        }
-
-        .articles-title {
-          font-size: 1.5rem;
-        }
-      }
-    </style>
