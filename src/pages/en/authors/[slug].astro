@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import AuthorPageContent from '../../../components/AuthorPageContent.astro';
+import { getMegaclusterForArticle, getRoleWeight } from '../../../config/taxonomy.js';
+import { getAllAutori, getAutoreImageUrl } from '../../../lib/directus';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
+
+export async function getStaticPaths() {
+  const [allAutori, allArticoli] = await Promise.all([getAllAutori(), getAllArticoliBuild()]);
+
+  return allAutori
+    .map((autore) => {
+      const articoli = allArticoli
+        .filter((a) => a.autore?.slug === autore.slug && a.lang === 'en')
+        .sort((a, b) => {
+          const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+          const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+          if (tA !== tB) return tB - tA;
+          const weightA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
+          const weightB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
+          return weightB - weightA;
+        });
+      return { autore, articoli };
+    })
+    .filter(({ articoli }) => articoli.length > 0)
+    .map(({ autore, articoli }) => ({
+      params: { slug: autore.slug },
+      props: { autore, articoli },
+    }));
+}
+
+const { autore, articoli } = Astro.props;
+const authorFotoId = autore.foto?.id ?? null;
+const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${autore.slug}.jpg`;
+const alternateUrl = `/autori/${autore.slug}/`;
+---
+
+<BaseLayout
+  title={`Articles by ${autore.nome_completo}`}
+  description={`Read all contributions by ${autore.nome_completo} published on Ombre e Luci`}
+  lang="en"
+  noindex={false}
+  ogImage={authorImagePath}
+  alternateArticleUrl={alternateUrl}
+>
+  <AuthorPageContent
+    lang="en"
+    author={autore}
+    articles={articoli}
+    basePath="/en"
+  />
+</BaseLayout>

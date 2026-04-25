@@ -172,6 +172,7 @@ export interface Autore {
   slug: string;
   nome_completo: string;
   bio_html: string | null;
+  bio_en: string | null;
   foto: FileRef | null;
   /** Articoli pubblicati con questo autore (da aggregazione Directus). */
   articoli_count?: number;
@@ -407,7 +408,7 @@ export async function getAllAutori(): Promise<Autore[]> {
   const [countByAutore, authorsRes] = await Promise.all([
     getArticoliCountByAutoreId(),
     directusFetch<{ data: Autore[] }>(
-      '/items/autori?fields=id,slug,nome_completo,bio_html,foto.id,foto.filename_download&limit=-1&sort=nome_completo'
+      '/items/autori?fields=id,slug,nome_completo,bio_html,bio_en,foto.id,foto.filename_download&limit=-1&sort=nome_completo'
     ),
   ]);
   if (!authorsRes?.data) return [];
@@ -423,7 +424,7 @@ export async function getAllAutori(): Promise<Autore[]> {
 export async function getAutoreBySlug(slug: string): Promise<Autore | null> {
   const params = new URLSearchParams({
     'filter[slug][_eq]': slug,
-    fields: 'id,slug,nome_completo,bio_html,foto.id,foto.filename_download',
+    fields: 'id,slug,nome_completo,bio_html,bio_en,foto.id,foto.filename_download',
     limit: '1',
   });
   const data = await directusFetch<{ data: Autore[] }>(`/items/autori?${params}`);

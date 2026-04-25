@@ -1,23 +1,27 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-25 (URL-IT-01: articoli IT su /it/)
+**Ultimo aggiornamento:** 2026-04-25 (AUT-01: pagine autore multilingua)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
 
 ---
 
-## Stato attuale verificato (2026-04-25 — feat/url-it-prefix, da verificare dopo deploy)
+## Stato attuale verificato (2026-04-25 — feat/aut-01-author-pages, build OK)
 
 | Verifica | Esito |
 |----------|-------|
 | Home staging | ✅ 200 |
-| Articolo IT `/it/{slug}/` | ⏳ da verificare |
+| Articolo IT `/it/{slug}/` | ⏳ da verificare dopo deploy |
 | Articolo EN `/en/il-progetto-dandelion/` | ✅ 200, SSR, Cache-Control corretto |
 | Redirect `/blog/*-en/` → `/en/*/` | ✅ 301 |
 | Redirect `/blog/{slug}/` → `/{slug}/` | ✅ 301 |
 | Pagina categoria IT | ✅ 200 |
 | Pagina categoria EN `/en/category/family/` | ✅ 200 |
+| Pagina autore IT `/autori/{slug}/` (filtro lang=it) | ✅ build OK |
+| Pagina autore EN `/en/authors/{slug}/` | ✅ build OK (352 pagine) |
+| Lista autori IT `/autori/` | ✅ 200 |
+| Lista autori EN `/en/authors/` | ✅ build OK |
 | Archivio numero `/archivio/oel-171/` | ✅ 200 |
 | Pagina autore IT | ✅ 200 |
 | Badge categoria articolo lingua-aware | ✅ |
@@ -66,7 +70,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 |----|----------|--------|-------------|
 | TAG-404 | 🔴 | S | Pagine `/tag/*` danno 404 — aggiungere `{ pattern: '/tag/*' }` a `astro.config.mjs` extend.exclude |
 | SLUG-CAT-EN | 🔴 | M | Centralizzare mappatura slug categorie in `categorie.json`, rimuovere mappe hardcoded da `i18n.ts`. Aggiungere chiave `en_slug` per ogni categoria. Fix badge e switcher. Vedi CONTENUTI.md. |
-| AUT-01 | 🔴 | M | Pagine autore: route EN `/en/authors/[slug]` con filtro `lang=en`, componente condiviso `AuthorPageContent.astro`. IT mostra solo articoli IT, EN solo EN. |
+| AUT-01 | ✅ | M | Pagine autore: route EN `/en/authors/[slug]`, componente condiviso `AuthorPageContent.astro`, filtro lang per lingua, bio_en in Directus. Build OK. Commit feat/aut-01-author-pages. |
 | HOME-EN | 🔴 | M | Homepage EN `/en/`: stessa struttura della homepage IT. Decidere struttura IT e replicarla in EN (e future lingue) automaticamente. |
 | ARCH-EN | 🟡 | M | Archivio numeri: versione per lingua — `/archivio/oel-N/` articoli IT, `/en/archive/oel-N/` articoli EN. |
 | DIARI-EN | 🟡 | M | Pagine diari: versione EN `/en/diaries/[diario]/` con articoli EN del diarista. |
