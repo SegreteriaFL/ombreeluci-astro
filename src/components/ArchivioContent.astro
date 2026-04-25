@@ -1,0 +1,187 @@
+---
+import { t, type Locale } from '../utils/i18n';
+import IssueCard from './IssueCard.astro';
+import { getNumeroImageUrl } from '../lib/directus';
+
+interface NumeroRivista {
+  id: string;
+  id_numero: string;
+  anno_pubblicazione?: number | null;
+  titolo_tema?: string | null;
+  display_title?: string | null;
+  periodo_label?: string | null;
+  tipo?: string | null;
+  [key: string]: unknown;
+}
+
+interface Props {
+  lang: Locale;
+  numeriOrdinati: NumeroRivista[];
+  anni: number[];
+}
+
+const { lang, numeriOrdinati, anni } = Astro.props;
+
+function numeroFromId(idNumero: string): number {
+  const m = idNumero.match(/(\d+)$/);
+  return m ? parseInt(m[1], 10) : 0;
+}
+---
+
+<main class="site-main">
+  <div class="archivio-container">
+    <div class="archivio-header">
+      <h1 class="archivio-title">{t(lang, 'archive_title')}</h1>
+      <p class="archivio-subtitle">{t(lang, 'archive_subtitle')}</p>
+    </div>
+
+    <div class="filters-container">
+      <div class="filter-group">
+        <label for="filter-anno" class="filter-label">{t(lang, 'archive_filter_year')}</label>
+        <select id="filter-anno" class="filter-select" data-filter-year>
+          <option value="">{t(lang, 'archive_filter_all')}</option>
+          {anni.map(anno => (
+            <option value={anno}>{anno}</option>
+          ))}
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filter-testata" class="filter-label">{t(lang, 'archive_filter_type')}</label>
+        <select id="filter-testata" class="filter-select" data-filter-type>
+          <option value="">{t(lang, 'archive_filter_all')}</option>
+          <option value="ombreeluci">Ombre e Luci</option>
+          <option value="insieme">Insieme</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filter-ordine" class="filter-label">{lang === 'en' ? 'Order' : 'Ordinamento'}</label>
+        <select id="filter-ordine" class="filter-select">
+          <option value="desc">{lang === 'en' ? 'Date ↓' : 'Data ↓'}</option>
+          <option value="asc">{lang === 'en' ? 'Date ↑' : 'Data ↑'}</option>
+        </select>
+      </div>
+
+      <div class="results-count" id="results-count">
+        {numeriOrdinati.length} {t(lang, 'archive_results_suffix')}
+      </div>
+    </div>
+
+    <div class="issues-grid" id="issues-grid">
+      {numeriOrdinati.map((n) => {
+        const anno = n.anno_pubblicazione ?? 0;
+        const numero = numeroFromId(n.id_numero);
+        const tipoFilter = n.tipo === 'ins' ? 'insieme' : 'ombreeluci';
+        const tipoRivista = n.tipo === 'insieme' ? 'insieme' : 'ombre_e_luci';
+        return (
+          <div
+            class="issue-card-wrapper"
+            data-id={n.id_numero}
+            data-year={anno || ''}
+            data-type={tipoFilter}
+            data-numero={numero}
+          >
+            <IssueCard
+              cover_url={getNumeroImageUrl(n as any) ?? undefined}
+              titolo_numero={n.titolo_tema ?? n.display_title ?? ''}
+              numero={numero}
+              anno={anno}
+              periodo_label={n.periodo_label ?? undefined}
+              tipo_rivista={tipoRivista}
+              id_numero={n.id_numero}
+              lang={lang}
+            />
+          </div>
+        );
+      })}
+    </div>
+
+    <div class="no-results" id="no-results" style="display: none;">
+      <h2 class="no-results-title">{t(lang, 'archive_no_results_title')}</h2>
+      <p class="no-results-text">{t(lang, 'archive_no_results_body')}</p>
+    </div>
+  </div>
+
+  <script define:vars={{ resultsSuffix: t(lang, 'archive_results_suffix') }}>
+    document.addEventListener('astro:page-load', function() {
+      const filterAnno = document.getElementById('filter-anno');
+      const filterTestata = document.getElementById('filter-testata');
+      const filterOrdine = document.getElementById('filter-ordine');
+      const issuesGrid = document.getElementById('issues-grid');
+      const noResults = document.getElementById('no-results');
+      const resultsCount = document.getElementById('results-count');
+      if (!filterAnno || !filterTestata || !filterOrdine || !issuesGrid || !noResults || !resultsCount) return;
+
+      var wrappers = Array.from(issuesGrid.querySelectorAll('.issue-card-wrapper'));
+
+      function filterAndSort() {
+        var annoFiltro = filterAnno.value.trim();
+        var testataFiltro = filterTestata.value.trim();
+        var ordineFiltro = filterOrdine.value;
+
+        wrappers.forEach(function(w) {
+          var year = String(w.getAttribute('data-year') || '');
+          var type = String(w.getAttribute('data-type') || '');
+          var matchYear = !annoFiltro || year === annoFiltro;
+          var matchType = !testataFiltro || type === testataFiltro;
+          w.style.display = matchYear && matchType ? '' : 'none';
+        });
+
+        var visible = wrappers.filter(function(w) { return w.style.display !== 'none'; });
+
+        visible.sort(function(a, b) {
+          var annoA = parseInt(a.getAttribute('data-year') || '0', 10);
+          var annoB = parseInt(b.getAttribute('data-year') || '0', 10);
+          var numA = parseInt(a.getAttribute('data-numero') || '0', 10);
+          var numB = parseInt(b.getAttribute('data-numero') || '0', 10);
+          if (annoA !== annoB) return ordineFiltro === 'desc' ? annoB - annoA : annoA - annoB;
+          return ordineFiltro === 'desc' ? numB - numA : numA - numB;
+        });
+
+        visible.forEach(function(w) { issuesGrid.appendChild(w); });
+
+        resultsCount.textContent = visible.length + ' ' + resultsSuffix;
+        issuesGrid.style.display = visible.length ? 'grid' : 'none';
+        noResults.style.display = visible.length ? 'none' : 'block';
+      }
+
+      filterAnno.addEventListener('change', filterAndSort);
+      filterTestata.addEventListener('change', filterAndSort);
+      filterOrdine.addEventListener('change', filterAndSort);
+      filterAndSort();
+    });
+  </script>
+</main>
+
+<style>
+  .archivio-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  .archivio-header { margin-bottom: 2.5rem; }
+  .archivio-title { font-size: 2.5rem; font-weight: 700; color: var(--text-color); margin-bottom: 0.5rem; }
+  .archivio-subtitle { font-size: 1.125rem; color: var(--text-secondary); margin-bottom: 2rem; }
+  .filters-container { background: transparent; padding: 0; margin-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+  .filter-group { display: flex; flex-direction: column; gap: 0.5rem; }
+  .filter-label { font-size: 0.875rem; font-weight: 400; color: var(--text-secondary); }
+  .filter-select { padding: 0.625rem 1rem; border: none; border-radius: 8px; font-size: 0.9375rem; background: rgba(0,0,0,0.05); color: var(--text-color); cursor: pointer; transition: all 0.2s ease; min-width: 150px; }
+  .filter-select:hover { background: rgba(0,0,0,0.08); }
+  .filter-select:focus { outline: none; background: rgba(0,0,0,0.1); }
+  .results-count { margin-left: auto; font-size: 0.9375rem; color: var(--text-secondary); font-weight: 500; }
+  .issues-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+  .issue-card-wrapper { min-height: 0; }
+  .no-results { text-align: center; padding: 4rem 2rem; color: var(--text-secondary); }
+  .no-results-title { font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--text-color); }
+  @media (max-width: 1200px) { .issues-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 768px) {
+    .archivio-container { padding: 1.5rem 1rem; }
+    .archivio-title { font-size: 2rem; }
+    .filters-container { flex-direction: column; align-items: stretch; }
+    .filter-group { width: 100%; }
+    .results-count { margin-left: 0; margin-top: 0.5rem; }
+    .issues-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  }
+  @media (max-width: 480px) { .issues-grid { grid-template-columns: 1fr; } }
+</style>

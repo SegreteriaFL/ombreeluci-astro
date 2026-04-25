@@ -1,0 +1,221 @@
+---
+import { type Locale } from '../utils/i18n';
+import ArticleCard from './ArticleCard.astro';
+import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
+import { getArticoloCopertinaSrc } from '../lib/directus';
+import type { ArticoloFull } from '../lib/directus';
+
+interface Props {
+  lang: Locale;
+  nomeAutore: string;
+  titoloDiario: string;
+  fotoUrl: string;
+  descrizioneDiario: string;
+  articoli: ArticoloFull[];
+}
+
+const { lang, nomeAutore, titoloDiario, fotoUrl, descrizioneDiario, articoli } = Astro.props;
+
+const backLabel = lang === 'en' ? 'Back to all Diaries' : 'Torna a tutti i Diari';
+const backHref = lang === 'en' ? '/en/diaries/' : '/sezioni/diari';
+const byLabel = lang === 'en' ? 'by' : 'di';
+const emptyMsg = lang === 'en' ? 'No articles published for this diary yet.' : 'Nessun articolo ancora pubblicato per questo diario.';
+const articleBasePath = lang === 'en' ? '/en' : '/it';
+---
+
+<main class="site-main diario-single-main">
+  <div class="container diario-page">
+    <a href={backHref} class="diario-back-link" aria-label={backLabel}>
+      <span class="diario-back-arrow" aria-hidden="true">←</span> {backLabel}
+    </a>
+
+    <header class="diario-section-header">
+      <div class="diario-header-photo">
+        {fotoUrl ? (
+          <img src={fotoUrl} alt={nomeAutore} width="200" height="200" />
+        ) : (
+          <div class="diario-header-placeholder" aria-hidden="true" />
+        )}
+      </div>
+      <div class="diario-header-text">
+        <h1 class="diario-page-title">{titoloDiario}</h1>
+        <p class="diario-author-name">{byLabel} {nomeAutore}</p>
+        <div class="diario-presentazione">
+          <p>{descrizioneDiario}</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="diario-feed-section" aria-label={lang === 'en' ? `Articles from ${titoloDiario}` : `Articoli di ${titoloDiario}`}>
+      <h2 class="visually-hidden">{lang === 'en' ? `Articles by ${nomeAutore}` : `Articoli di ${nomeAutore}`}</h2>
+      {articoli.length > 0 ? (
+        <div class="diario-articles-grid">
+          {articoli.map((a) => {
+            const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+            const { formal } = getLabels([], a);
+            const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+            const articleImage = getArticoloCopertinaSrc(a);
+            return (
+              <ArticleCard
+                title={a.titolo}
+                slug={a.slug}
+                categoriaMenu={categoria_menu ?? undefined}
+                issue={a.numero_rivista?.id_numero ?? null}
+                forma={formal}
+                author={a.autore?.nome_completo ?? nomeAutore}
+                date={articleDate}
+                image={articleImage}
+                ruoloEditoriale={ruolo_editoriale ?? undefined}
+                basePath={articleBasePath}
+                lang={lang}
+              />
+            );
+          })}
+        </div>
+      ) : (
+        <p class="diario-empty">{emptyMsg}</p>
+      )}
+    </section>
+
+    <p class="diario-back-bottom">
+      <a href={backHref} class="diario-back-link"><span class="diario-back-arrow" aria-hidden="true">←</span> {backLabel}</a>
+    </p>
+  </div>
+</main>
+
+<style>
+  .diario-single-main {
+    background-color: var(--bg-color);
+  }
+
+  .diario-page {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .diario-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  .diario-back-link:hover {
+    color: var(--accent-color);
+  }
+  .diario-back-arrow {
+    font-size: 0.75rem;
+    opacity: 0.85;
+  }
+
+  .diario-section-header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2.25rem;
+    align-items: start;
+    margin-bottom: 3.5rem;
+    padding: 2.5rem 2rem;
+    background-color: #f0f7ff;
+    border: none;
+  }
+  @media (max-width: 640px) {
+    .diario-section-header {
+      grid-template-columns: 1fr;
+      text-align: center;
+      padding: 2rem 1.5rem;
+    }
+    .diario-header-photo {
+      margin: 0 auto;
+    }
+  }
+
+  .diario-header-photo {
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background: var(--bg-light);
+    border: 3px solid #fff;
+    padding: 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  }
+  .diario-header-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .diario-header-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--border-color);
+  }
+
+  .diario-header-text {
+    min-width: 0;
+  }
+
+  .diario-page-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.85rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.35rem;
+  }
+
+  .diario-author-name {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+  }
+
+  .diario-presentazione {
+    font-size: 1.125rem;
+    line-height: 1.85;
+    color: var(--text-color);
+    max-width: 56ch;
+  }
+  .diario-presentazione :global(p) {
+    margin-bottom: 0.75em;
+  }
+  .diario-presentazione :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .diario-feed-section {
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .diario-articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .diario-empty {
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  .diario-back-bottom {
+    margin-top: 2.5rem;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>

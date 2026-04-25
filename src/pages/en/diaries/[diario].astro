@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import DiarioContent from '../../components/DiarioContent.astro';
-import { DIARISTI, getDiaristaByDiarioSlug } from '../../data/diari.ts';
-import { getAllAutori, getAutoreImageUrl } from '../../lib/directus';
-import { getAllArticoliBuild } from '../../lib/articoli-build';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import DiarioContent from '../../../components/DiarioContent.astro';
+import { DIARISTI, getDiaristaByDiarioSlug } from '../../../data/diari.ts';
+import { getAllAutori, getAutoreImageUrl } from '../../../lib/directus';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
 export async function getStaticPaths() {
   const allArticoli = await getAllArticoliBuild();
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
     const fotoUrl = autore?.foto?.id ? getAutoreImageUrl(autore.foto.id) : '';
 
     const articoli = allArticoli
-      .filter((a) => a.lang !== 'en' && (a.autore?.nome_completo || '').trim() === d.nome)
+      .filter((a) => a.lang === 'en' && (a.autore?.nome_completo || '').trim() === d.nome)
       .sort((a, b) => {
         const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
         const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
@@ -50,13 +50,13 @@ const { nomeAutore, titoloDiario, fotoUrl, descrizioneDiario, articoli } = Astro
 
 <BaseLayout
   title={String(titoloDiario)}
-  description={`Leggi le cronache e gli articoli di ${nomeAutore}, ${titoloDiario}, su Ombre e Luci.`}
+  description={`Read the diary entries and articles by ${nomeAutore}, ${titoloDiario}, in Ombre e Luci.`}
   noindex={true}
-  lang="it"
-  alternateArticleUrl={`/en/diaries/${diarista.diarioSlug}`}
+  lang="en"
+  alternateArticleUrl={`/diari/${diarista.diarioSlug}`}
 >
   <DiarioContent
-    lang="it"
+    lang="en"
     nomeAutore={String(nomeAutore)}
     titoloDiario={String(titoloDiario)}
     fotoUrl={String(fotoUrl)}

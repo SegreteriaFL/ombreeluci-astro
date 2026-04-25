@@ -1,0 +1,66 @@
+---
+import { t, type Locale } from '../utils/i18n';
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+---
+
+<main class="site-main">
+  <div class="container" style="padding-top: 2rem; padding-bottom: 4rem;">
+    <h1>{t(lang, 'cerca_title')}</h1>
+    <p style="color: var(--text-secondary); margin-bottom: 2rem;">{t(lang, 'cerca_description')}</p>
+    <div id="search"></div>
+  </div>
+</main>
+
+<script define:vars={{ lang }}>
+  import { PagefindUI } from '@pagefind/default-ui';
+  import '@pagefind/default-ui/css/ui.css';
+
+  document.addEventListener('astro:before-preparation', function () {
+    const headerInput = document.getElementById('header-search');
+    if (headerInput) headerInput.value = '';
+  });
+
+  document.addEventListener('astro:page-load', function () {
+    const el = document.getElementById('search');
+    if (!el) return;
+    el.innerHTML = '';
+
+    const isEN = lang === 'en';
+    new PagefindUI({
+      element: '#search',
+      showSubResults: false,
+      showImages: true,
+      pageSize: 25,
+      translations: isEN ? {
+        placeholder: 'Search articles, authors, themes…',
+        zero_results: 'No results for [SEARCH_TERM]',
+        many_results: '[COUNT] results for [SEARCH_TERM]',
+        one_result: '1 result for [SEARCH_TERM]',
+        loading: 'Loading…',
+        load_more: 'Load more results',
+      } : {
+        placeholder: 'Cerca articoli, autori, temi…',
+        zero_results: 'Nessun risultato per [SEARCH_TERM]',
+        many_results: '[COUNT] risultati per [SEARCH_TERM]',
+        one_result: '1 risultato per [SEARCH_TERM]',
+        loading: 'Caricamento…',
+        load_more: 'Carica altri risultati',
+      },
+    });
+
+    const q = new URLSearchParams(window.location.search).get('q');
+    if (q) {
+      setTimeout(() => {
+        const input = el.querySelector('input[type=text]');
+        if (input) {
+          input.value = q;
+          input.dispatchEvent(new Event('input'));
+        }
+      }, 100);
+    }
+  });
+</script>

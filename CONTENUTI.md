@@ -102,21 +102,21 @@ Ogni nuova pagina creata (verticali, dossier, sezioni) deve essere progettata co
 | Autore | `/autori/[slug]` | `/en/authors/[slug]` | ✅ `AuthorPageContent.astro` |
 | Lista autori | `/autori/` | `/en/authors/` | ✅ `AutoriIndexContent.astro` |
 | Tag | `/tag/[slug]` | `/en/tag/[slug]` | ✅ `ArticoliRullo.astro` |
-| Homepage | `/` | `/en/` ❌ | ❌ `HomePageContent.astro` da creare |
-| Archivio rivista | `/archivio/` | `/en/archive/` ❌ | ❌ `ArchivioContent.astro` da creare |
-| Numero rivista | `/archivio/[issue]` | `/en/archive/[issue]` ❌ | ❌ `IssueContent.astro` da creare |
-| Archivio web-only | `/archivio/web-only` | `/en/archive/web-only` ❌ | ❌ `WebOnlyContent.astro` da creare |
-| Sezione diari | `/sezioni/diari` | `/en/diaries/` ❌ | ❌ `DiariContent.astro` da creare |
-| Diario singolo | `/diari/[diario]` | `/en/diaries/[diario]` ❌ | ❌ `DiarioContent.astro` da creare |
-| Dialogo Aperto | `/sezioni/dialogo-aperto` | `/en/dialogue/` ❌ | ❌ `DialogoApertoContent.astro` da creare |
-| Chi siamo | `/chi-siamo/` | `/en/about/` ❌ | ❌ `ChiSiamoContent.astro` da creare |
-| La redazione | `/chi-siamo/la-redazione` | `/en/about/team/` ❌ | ❌ `RedazioneContent.astro` da creare |
-| Collaboratori | `/chi-siamo/collaboratori` | `/en/about/contributors/` ❌ | ❌ `CollaboratoriContent.astro` da creare |
-| La rivista | `/chi-siamo/la-rivista` | `/en/about/magazine/` ❌ | ❌ `LaRivistaContent.astro` da creare |
-| Contatti | `/chi-siamo/contatti` | `/en/about/contact/` ❌ | ❌ `ContattiContent.astro` da creare |
-| Sostienici | `/sostienici` | `/en/support-us/` ❌ | ❌ `SostienicContent.astro` da creare |
-| Newsletter | `/newsletter` | `/en/newsletter/` ❌ | ❌ `NewsletterContent.astro` da creare |
-| Cerca | `/cerca` | `/en/search/` ❌ | ❌ `CercaContent.astro` da creare |
+| Homepage | `/` | `/en/` | ✅ `HomePageContent.astro` |
+| Archivio rivista | `/archivio/` | `/en/archive/` | ✅ `ArchivioContent.astro` |
+| Numero rivista | `/archivio/[issue]` | `/en/archive/[issue]` | ✅ `IssueContent.astro` |
+| Archivio web-only | `/archivio/web-only` | `/en/archive/web-only` | ✅ `ArticoliRullo.astro` (già condiviso) |
+| Sezione diari | `/sezioni/diari` | `/en/diaries/` | ✅ `DiariContent.astro` |
+| Diario singolo | `/diari/[diario]` | `/en/diaries/[diario]` | ✅ `DiarioContent.astro` |
+| Dialogo Aperto | `/sezioni/dialogo-aperto` | `/en/dialogue/` | ✅ `ArticoliRullo.astro` (già condiviso) |
+| Chi siamo | `/chi-siamo/` | `/en/about/` | ✅ `ChiSiamoContent.astro` |
+| La redazione | `/chi-siamo/la-redazione` | → `/chi-siamo#la-redazione` (redirect) | ✅ sezione in ChiSiamoContent |
+| Collaboratori | `/chi-siamo/collaboratori` | → `/chi-siamo#collaboratori` (redirect) | ✅ sezione in ChiSiamoContent |
+| La rivista | `/chi-siamo/la-rivista` | → `/chi-siamo#la-rivista` (redirect) | ✅ sezione in ChiSiamoContent |
+| Contatti | `/chi-siamo/contatti` | → `/chi-siamo#contatti` (redirect) | ✅ sezione in ChiSiamoContent |
+| Sostienici | `/sostienici` | `/en/support-us/` | ✅ `SostienicContent.astro` |
+| Newsletter | `/newsletter` | `/en/newsletter/` | ✅ `NewsletterContent.astro` |
+| Cerca | `/cerca` | `/en/search/` | ✅ `CercaContent.astro` |
 
 Regola: la colonna "Route EN" diventa ✅ solo dopo che il componente condiviso è estratto e la route EN creata. Vedi CLAUDE.md "REGOLA FONDAMENTALE".
 

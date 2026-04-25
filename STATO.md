@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-25 (HOME-EN merged; audit Directus EN — slug/categorie/traduzione fotografati)
+**Ultimo aggiornamento:** 2026-04-25 (feat/static-pages-en — tutte le pagine statiche EN, S3 fix, 8 componenti condivisi)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro

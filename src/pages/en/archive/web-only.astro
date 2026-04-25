@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticoliRullo from '../../../components/ArticoliRullo.astro';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
+
+const allArticles = await getAllArticoliBuild();
+const articoli = allArticles
+  .filter((a) => a.lang === 'en' && a.numero_rivista == null)
+  .sort((a, b) => {
+    const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+    const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+    return tB - tA;
+  });
+---
+
+<BaseLayout
+  title="Published online — Ombre e Luci"
+  description="Articles published on the website only, without a print issue."
+  noindex={true}
+  lang="en"
+  alternateArticleUrl="/archivio/web-only"
+>
+  <main class="site-main">
+    <div class="container">
+      <ArticoliRullo
+        title="Published online"
+        description="Articles published on the website only, without a print issue."
+        articoli={articoli}
+        basePath="/en"
+        locale="en"
+      />
+    </div>
+  </main>
+</BaseLayout>

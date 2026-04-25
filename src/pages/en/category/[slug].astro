@@ -14,6 +14,7 @@ import {
 import { localizeCategory } from '../../../utils/i18n';
 import { getMegaclusterForArticle, getRoleWeight, getCategoriaSlugIT } from '../../../config/taxonomy.js';
 
+const { redirect } = Astro;
 const creds = directusCredsFromAstroLocals(Astro.locals);
 const enSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
 const itSlug = getCategoriaSlugIT(enSlug, 'en');
@@ -21,7 +22,7 @@ const itSlug = getCategoriaSlugIT(enSlug, 'en');
 const articoli = await getArticoliByCategoria(itSlug, 'en', creds);
 
 if (!articoli.length) {
-  return new Response('Not found', { status: 404 });
+  return redirect('/en/', 302);
 }
 
 const categoryLabel = localizeCategory(itSlug, 'en') ?? enSlug;

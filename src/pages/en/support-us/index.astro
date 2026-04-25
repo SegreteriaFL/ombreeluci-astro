@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SostienicContent from '../../../components/SostienicContent.astro';
+---
+
+<BaseLayout
+  title="Support Us — Ombre e Luci"
+  description="Support Ombre e Luci with a donation. No sponsors: the magazine lives thanks to its readers."
+  lang="en"
+  bodyClass="support-page"
+  alternateArticleUrl="/sostienici"
+>
+  <SostienicContent lang="en" />
+</BaseLayout>
+
+<style>
+  :global(.support-page) :global(.footer-reveal-wrap) :global(.reveal-spacer) {
+    height: 0 !important;
+  }
+  :global(.support-page) :global(.site-footer) {
+    position: static !important;
+    left: auto !important;
+    bottom: auto !important;
+  }
+</style>

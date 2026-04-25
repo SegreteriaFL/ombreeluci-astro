@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticoliRullo from '../../../components/ArticoliRullo.astro';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
+
+const allArticles = await getAllArticoliBuild();
+const articoli = allArticles
+  .filter((a) => a.lang === 'en' && a.serie?.slug === 'dialogo-aperto')
+  .sort((a, b) => {
+    const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+    const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+    return tB - tA;
+  });
+---
+
+<BaseLayout
+  title="Open Dialogue — Ombre e Luci"
+  description="The Open Dialogue section of Ombre e Luci: readers, families and people with disabilities in open conversation."
+  noindex={true}
+  lang="en"
+  alternateArticleUrl="/sezioni/dialogo-aperto"
+>
+  <main class="site-main">
+    <div class="container">
+      <ArticoliRullo
+        title="Open Dialogue"
+        description="The space for open exchange among readers, families and people with disabilities. Questions, answers and shared reflections in the pages of Ombre e Luci."
+        articoli={articoli}
+        basePath="/en"
+        locale="en"
+      />
+    </div>
+  </main>
+</BaseLayout>
