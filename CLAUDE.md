@@ -29,7 +29,7 @@ Flusso obbligatorio per qualsiasi pagina template:
 
 | Pagina | Componente da creare | Route IT | Route EN target |
 |---|---|---|---|
-| Homepage | `HomePageContent.astro` | `/` | `/en/` |
+| Homepage | `HomePageContent.astro` | `/` | `/en/` ✅ già fatto |
 | Archivio rivista | `ArchivioContent.astro` | `/archivio/` | `/en/archive/` |
 | Numero rivista | `IssueContent.astro` | `/archivio/[issue]` | `/en/archive/[issue]` |
 | Archivio web-only | `WebOnlyContent.astro` | `/archivio/web-only` | `/en/archive/web-only` |
@@ -71,7 +71,7 @@ getCategoriaLabel(slugIT, lang)  // IT slug → label localizzata
 
 **Route per lingua:** ogni lingua ha `src/pages/{lang}/` con struttura identica. Le route leggono `categorie.json`, non mappe hardcoded.
 
-**Language switcher:** ogni pagina passa `alternateUrls` con i link per tutte le lingue disponibili. Se una traduzione non esiste → link alla homepage della lingua.
+**Language switcher:** ogni pagina passa `alternateUrls` con i link per tutte le lingue disponibili. Se una traduzione non esiste → link alla **homepage della lingua target** (`/${lang}/`), mai un URL specifico che potrebbe non esistere.
 
 **Nuove pagine:** ogni nuova pagina (verticali, dossier, sezioni) va progettata multilingua fin dall'inizio, non retrofittata.
 
@@ -79,7 +79,29 @@ Riferimento completo: `CONTENUTI.md` sezione "Principio di scalabilità multilin
 
 ---
 
+## INVARIANTE — categoria_menu è sempre slug IT
+
+**`categoria_menu` non è un campo localizzato. È la chiave della tassonomia interna.**
+
+Un articolo in qualsiasi lingua (EN, ES, FR) deve avere `categoria_menu = 'famiglia'`, non `'family'` né `'familia'`. La label localizzata viene derivata da `categorie.json` al render — non va memorizzata sull'articolo.
+
+```
+articolo EN corretto:  { lang: 'en', categoria_menu: 'famiglia' }
+articolo EN sbagliato: { lang: 'en', categoria_menu: 'family' }   ← rompe le route categoria
+```
+
+**Conseguenza pratica:** ogni pipeline di traduzione/importazione deve copiare `categoria_menu` dall'articolo IT sorgente, non tradurlo. La route `en/category/[slug].astro` e le future `es/category/[slug].astro` si basano su `categorie.json` per mappare `'famiglia'` → `'family'` → `'familia'` — il DB non deve sapere nulla di queste label.
+
+**Verifica post-pipeline:** dopo ogni importazione batch di articoli non-IT, controllare che `categoria_menu` sia uguale all'IT sorgente:
+```
+GET /items/articoli?filter[lang][_eq]=en&filter[categoria_menu][_null]=true&limit=1
+```
+Se ritorna risultati, la pipeline ha saltato il campo.
+
+---
+
 ## Routing canonical per lingua (stato 2026-04-25)
 
 - IT: `/it/{slug}/` — route `src/pages/it/[slug].astro` (URL-IT-01)
 - EN: `/en/{slug}/` — route `src/pages/en/[slug].astro`, lookup a due tentativi (slug esatto → slug+`-en`)
+- Regola slug generalizzata: lo slug URL di un articolo tradotto è sempre `dbSlug.replace(/-${lang}$/, '')`. Valida per EN, ES, FR — usare `toArticleUrlSlug(dbSlug, lang)` da `src/utils/i18n.ts` (da implementare in SLUG-EN).
