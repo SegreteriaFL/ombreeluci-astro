@@ -11,12 +11,12 @@ import {
   getArticoliByCategoria,
   directusCredsFromAstroLocals,
 } from '../../../lib/directus';
-import { localizeCategory, CAT_EN_TO_IT_SLUG } from '../../../utils/i18n';
-import { getMegaclusterForArticle, getRoleWeight } from '../../../config/taxonomy.js';
+import { localizeCategory } from '../../../utils/i18n';
+import { getMegaclusterForArticle, getRoleWeight, getCategoriaSlugIT } from '../../../config/taxonomy.js';
 
 const creds = directusCredsFromAstroLocals(Astro.locals);
 const enSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
-const itSlug = CAT_EN_TO_IT_SLUG[enSlug] ?? enSlug;
+const itSlug = getCategoriaSlugIT(enSlug, 'en');
 
 const articoli = await getArticoliByCategoria(itSlug, 'en', creds);
 
