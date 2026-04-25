@@ -7,15 +7,16 @@ interface Props {
   periodo_label?: string;
   tipo_rivista: string;
   id_numero: string;
+  lang?: string;
 }
 
-const { cover_url, titolo_numero, numero, anno, periodo_label, tipo_rivista, id_numero } = Astro.props;
+const { cover_url, titolo_numero, numero, anno, periodo_label, tipo_rivista, id_numero, lang } = Astro.props;
 
 const isOEL = tipo_rivista !== 'insieme' && !id_numero.toLowerCase().startsWith('ins');
 
-// Genera il link al numero
 const numeroSlug = id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-');
-const linkUrl = `/archivio/${numeroSlug}`;
+const archiveBase = lang === 'en' ? '/en/archive' : '/archivio';
+const linkUrl = `${archiveBase}/${numeroSlug}`;
 
 // Titolo card: "N.172 – Paradigma Pompei"
 // Rimuove prefissi ridondanti (es. "Numero 172 – " o "Ombre e Luci n. 172 – ")
