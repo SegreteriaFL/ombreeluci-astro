@@ -7,26 +7,39 @@
 
 ---
 
-## Stato attuale verificato (2026-04-25 — main, post-merge HOME-EN)
+## Stato attuale verificato (2026-04-25 — main, post-merge static-pages-en)
 
 | Verifica | Esito |
 |----------|-------|
 | Home IT `/` | ✅ 200, SSG |
-| Home EN `/en/` | ✅ 200, componente condiviso `HomePageContent.astro` |
+| Home EN `/en/` | ✅ 200, `HomePageContent.astro` |
 | Articolo IT `/it/{slug}/` | ✅ 200 |
 | Articolo EN `/en/{slug}/` | ✅ 200, SSR, lookup a due tentativi |
-| Redirect `/blog/*-en/` → `/en/*/` | ✅ 301 |
-| Redirect `/blog/{slug}/` → `/{slug}/` | ✅ 301 |
-| Pagina categoria IT | ✅ 200 |
-| Pagina categoria EN `/en/category/family/` | ✅ 200 |
-| Pagina autore IT `/autori/{slug}/` | ✅ 200 |
-| Pagina autore EN `/en/authors/{slug}/` | ✅ 200 |
-| Lista autori IT `/autori/` | ✅ 200 |
-| Lista autori EN `/en/authors/` | ✅ 200 |
-| Archivio numero `/archivio/oel-171/` | ✅ 200 |
-| Badge categoria articolo lingua-aware | ✅ |
+| Categoria IT `/categoria/famiglia/` | ✅ 200 |
+| Categoria EN `/en/category/family/` | ✅ 200, redirect a /en/ se 0 articoli published |
+| Autore IT `/autori/{slug}/` | ✅ 200 |
+| Autore EN `/en/authors/{slug}/` | ✅ 200 |
+| Lista autori IT/EN | ✅ 200 |
+| Archivio IT `/archivio/` | ✅ 200, `ArchivioContent.astro` |
+| Archivio EN `/en/archive/` | ✅ 200, `ArchivioContent.astro` lang=en |
+| Numero IT `/archivio/oel-171/` | ✅ 200, `IssueContent.astro` |
+| Numero EN `/en/archive/oel-171/` | ✅ 200, `IssueContent.astro` lang=en |
+| Chi siamo IT `/chi-siamo/` | ✅ 200, `ChiSiamoContent.astro` |
+| About EN `/en/about/` | ✅ 200, `ChiSiamoContent.astro` lang=en |
+| Sostienici IT `/sostienici` | ✅ 200, `SostienicContent.astro` |
+| Support EN `/en/support-us/` | ✅ 200, `SostienicContent.astro` lang=en |
+| Newsletter IT `/newsletter` | ✅ 200, `NewsletterContent.astro` |
+| Newsletter EN `/en/newsletter/` | ✅ 200, `NewsletterContent.astro` lang=en |
+| Cerca IT `/cerca` | ✅ 200, `CercaContent.astro` |
+| Search EN `/en/search/` | ✅ 200, `CercaContent.astro` lang=en |
+| Diari IT `/sezioni/diari` | ✅ 200, `DiariContent.astro` |
+| Diaries EN `/en/diaries/` | ✅ 200, `DiariContent.astro` lang=en |
+| Web-only IT/EN | ✅ `ArticoliRullo.astro` condiviso |
+| Dialogo aperto IT/EN | ✅ `ArticoliRullo.astro` condiviso |
+| Tag IT/EN | ✅ 200 |
+| Redirect `/blog/*` | ✅ 301 |
 | CORS Directus | ✅ |
-| i18n F0+F1+F2+HOME-EN su main | ✅ |
+| LanguageSelector fallback null → homepage lingua | ✅ già presente |
 
 ---
 
@@ -49,7 +62,7 @@
 
 ## Prossima azione immediata
 
-**B-04** (redazione: 19 articoli "da-categorizzare") → **Pagine statiche EN** (Chi siamo, Contatti, ecc. — lista completa in CLAUDE.md) → **SEARCH-01 Algolia** (B-13).
+**SEARCH-01 / B-13 — Algolia** (blocker pre-lancio). Script sync Directus→Algolia + integrazione frontend `/cerca` e `/en/search`. Vedi CONTENUTI.md sezione Ricerca.
 
 ---
 
@@ -84,8 +97,8 @@ Tutto questo deve essere verde prima del cutover DNS.
 | SLUG-CAT-EN | ✅ | M | `categorie.json` è già fonte unica di verità con `en_slug`. Mappe hardcoded `CAT_IT_TO_EN_SLUG` non esistono più in `i18n.ts`. `getCategoriaUrlSlug/getCategoriaSlugIT` leggono da JSON. Chiuso. |
 | AUT-01 | ✅ | M | Pagine autore: route EN `/en/authors/[slug]`, componente condiviso `AuthorPageContent.astro`, filtro lang per lingua, bio_en in Directus. Build OK. Commit feat/aut-01-author-pages. |
 | HOME-EN | ✅ | M | Homepage EN `/en/` — `HomePageContent.astro` estratto, `index.astro` refactored, `en/index.astro` creato. Merge `1c4bbe90`. |
-| ARCH-EN | 🟡 | M | Archivio numeri: versione per lingua — `/archivio/oel-N/` IT, `/en/archive/oel-N/` EN. **Richiede estrazione `ArchivioContent.astro` + `IssueContent.astro` prima.** |
-| DIARI-EN | 🟡 | M | Pagine diari: versione EN `/en/diaries/[diario]/` con articoli EN del diarista. **Richiede estrazione `DiariContent.astro` + `DiarioContent.astro` prima.** |
+| ARCH-EN | ✅ | M | `/en/archive/` e `/en/archive/[issue]` — `ArchivioContent.astro` + `IssueContent.astro`. Merge `feat/static-pages-en`. |
+| DIARI-EN | ✅ | M | `/en/diaries/` e `/en/diaries/[diario]` — `DiariContent.astro` + `DiarioContent.astro`. Merge `feat/static-pages-en`. |
 | TAG-03 | 🟡 | S | Pagine tag filtro lingua: `/tag/[slug]` solo IT, `/en/tag/[slug]` solo EN. |
 | SEARCH-01 | 🔴 | L | **Ricerca Algolia — BLOCKER PRE-LANCIO** (→ B-13). Non si va in produzione senza ricerca. Indice `ombreeluci_articoli` creato, credenziali in `.env`. Da fare: script sync Directus→Algolia + integrazione frontend `/cerca` e `/en/search`. Decisione architetturale documentata in CONTENUTI.md (Opzione B scelta). |
 | VERT-01 | 🟡 | L | 8 pagine verticali WP da replicare con struttura multilingua fin dall'inizio: `mariangela-bertolini`, `autismo`, `cinema-e-disabilita`, `aktion-t4-sterminio-persone-disabilita`, `catechesi-e-disabilita`, `noi-papa-un-figlio-disabile`, `ciao-stefano-di-franco`, `studiosi-educatori-e-attivisti-ombre-e-luci` |
@@ -139,21 +152,16 @@ Commit `34fbd576`.
 
 Pipeline traduzione AI completata. 3470 articoli EN published in Directus. I 131 EN originali (traduzione manuale da WP) restano invariati. Qualità da auditare post-lancio — non blocca il cutover. Route `en/[slug].astro` li serve via lookup a due tentativi: prima slug esatto, poi slug + `-en`. DA-06 aggiornato in backlog post-lancio.
 
-### Bug strutturali EN — tre radici (2026-04-25)
+### Bug strutturali EN — stato aggiornato (2026-04-25)
 
-Rilevati post HOME-EN. Non sono regressioni del branch, sono pre-esistenti. Fix strutturale pianificato in SLUG-EN.
+**S1 — Slug URL EN non normalizzati** — ⏳ bassa priorità fino a pubblicazione articoli AI
+42 articoli con suffisso `-en` nel DB: la route li trova via lookup a due tentativi (entrambi i formati URL funzionano). I 3339 AI sono draft → impatto reale quasi zero. Fix da fare prima di pubblicare gli AI: `toArticleUrlSlug(slug, lang)` in `src/utils/i18n.ts`, applicato ovunque si costruisce `href` per articoli non-IT.
 
-**S1 — Slug URL EN non normalizzati**
-`getArticleMeta()` usa `a.slug` grezzo. Gli articoli con suffisso `-en` in Directus (ex: `progetto-dandelion-en`) producono link `/en/progetto-dandelion-en` invece di `/en/progetto-dandelion`. La route `en/[slug].astro` accetta entrambe le forme (lookup a due tentativi), ma i link generati da homepage/card usano lo slug grezzo → 404 per metà degli articoli.
-Fix: aggiungere `getEnArticleUrlSlug(slug)` — `slug.endsWith('-en') ? slug.slice(0,-3) : slug` — e usarlo ovunque si costruisce un href `/en/...`.
+**S2 — CHIUSO, ERA FALSO** (verificato 2026-04-25)
+La pipeline AI HA copiato `categoria_menu` correttamente per il 99% degli articoli (valori slug IT, non tradotti). Il 4 vs 237 su `/en/category/projects/` è perché 231 articoli sono draft. Zero codice da toccare — si risolve da solo quando gli AI vengono pubblicati dopo QA.
 
-**S2 — Categorie EN vuote (solo "Attualità")**
-La pipeline AI ha creato 3470 articoli EN senza copiare il campo `categoria_menu` dall'articolo IT sorgente. `en/category/[slug].astro` genera pagine SSG solo per categorie con almeno un articolo EN → tutte le categorie tranne "Attualità" non hanno pagina → il language switcher su `/categoria/famiglia/` punta a `/en/category/family/` che è 404.
-Fix: script Directus PATCH batch che per ogni articolo EN con `articolo_traduzione` valorizzato copia `categoria_menu` dall'articolo IT collegato. ~3470 record, eseguibile in 35 batch da 100.
-
-**S3 — Language switcher senza fallback difensivo**
-Quando `alternateArticleUrl` è `null` o punta a un URL che non esiste (articolo senza traduzione, categoria EN vuota), il selettore lingua mostra un link che dà 404. Non c'è fallback alla homepage della lingua target.
-Fix: nel `Header.astro` (o nel componente LanguageSelector), se `alternateArticleUrl` è null, costruire il fallback come `/${lang}/` — ovvero mandare alla homepage della lingua target invece di generare un link rotto.
+**S3 — FIXATO** (feat/static-pages-en, 2026-04-25)
+`LanguageSelector.astro`: già aveva fallback `alternateArticleUrl ?? '/en'`. `en/category/[slug].astro`: ora fa `redirect('/en/', 302)` invece di 404 quando 0 articoli published.
 
 ### basePath default '' non '/' (2026-04-24)
 `ArticleCard.astro` e `ArticoliRullo.astro` avevano `basePath='/'` → href `//slug`. Fix: `basePath=''`. Commit `57100eff`.
