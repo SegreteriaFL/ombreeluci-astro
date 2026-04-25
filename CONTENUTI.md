@@ -23,9 +23,66 @@ architettura multilingua, routing lingue, ricerca, pagine autore, traduzione AI,
 ### Principi (non negoziabili)
 
 - Il locale è determinato una volta per request e propagato ovunque (BaseLayout → Header → Footer → Commenti)
-- Routing lingua esplicito: IT default su `/blog/[slug]`, EN su `/en/[slug]`
+- Routing lingua esplicito: IT default su `/{slug}`, EN su `/en/{slug}`, ES su `/es/{slug}`, FR su `/fr/{slug}`
 - Nessun URL indicizzato viene rotto: sempre 301 verso canonical nuovo
 - Traduzione massiva AI solo su base i18n tecnica stabile
+
+### Principio di scalabilità multilingua (non negoziabile)
+
+**Obiettivo:** il sito deve supportare IT, EN, ES, FR e qualsiasi lingua futura senza modifiche strutturali al codice. Aggiungere una lingua deve richiedere solo: aggiungere una chiave nel file dati, creare le route nella nuova cartella lingua, tradurre i contenuti.
+
+**Regola fondamentale — fonte unica di verità per slug e label:**
+
+Tutte le mappature slug→label per lingua vivono in `src/data/categorie.json`. Nessuna mappa hardcoded nel codice (`CAT_IT_TO_EN_SLUG`, `CAT_EN_TO_IT_SLUG` ecc. in `i18n.ts` sono deprecate e vanno rimosse).
+
+Struttura `categorie.json`:
+```json
+[
+  {
+    "slug": "famiglia",
+    "it": "Famiglia",
+    "en": "Family",
+    "es": "Familia",
+    "fr": "Famille"
+  }
+]
+```
+
+Per aggiungere una nuova lingua: aggiungere la chiave nel JSON. Nient'altro.
+
+**Funzioni di utilità (in `src/config/taxonomy.js` o `src/utils/i18n.ts`):**
+
+```js
+// Slug IT → slug per lingua target
+getCategoriaSlug(slugIT, lang)
+// es. getCategoriaSlug('famiglia', 'en') → 'family'
+// es. getCategoriaSlug('famiglia', 'es') → 'familia'
+
+// Slug qualsiasi lingua → slug IT (per query Directus)
+getCategoriaSlugIT(slugLang, lang)
+// es. getCategoriaSlugIT('family', 'en') → 'famiglia'
+
+// Slug IT → label localizzata
+getCategoriaLabel(slugIT, lang)
+// es. getCategoriaLabel('famiglia', 'it') → 'Famiglia'
+```
+
+**URL categoria per lingua:**
+```
+IT:  /categoria/{slug-it}/
+EN:  /en/category/{slug-en}/
+ES:  /es/categoria/{slug-es}/
+FR:  /fr/categorie/{slug-fr}/
+```
+
+**Route per lingua:**
+Ogni lingua ha la sua cartella in `src/pages/{lang}/`. La struttura è identica per tutte le lingue. Le route leggono `categorie.json` per risolvere slug e label — non usano mappe hardcoded.
+
+**Language switcher:**
+Ogni pagina passa `alternateUrls` (mappa lang→url) a `BaseLayout`. Il switcher mostra tutte le lingue disponibili con il link corretto. Se una traduzione non esiste, il link porta alla homepage della lingua.
+
+**Pagine verticali e nuove pagine:**
+Ogni nuova pagina creata (verticali, dossier, sezioni) deve essere progettata con la struttura multilingua fin dall'inizio — non retrofittata. Il componente condiviso riceve `lang` come prop e gestisce internamente label e link.
 
 ### Stato attuale (post-merge `a4b032f9`)
 

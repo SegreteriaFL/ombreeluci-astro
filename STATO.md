@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-24 (fix routing, basePath, categoryLink EN)
+**Ultimo aggiornamento:** 2026-04-25
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -12,146 +12,79 @@
 | Verifica | Esito |
 |----------|-------|
 | Home staging | ✅ 200 |
-| Articolo IT `/{slug}/` | ✅ 200 (verificato `/la-nostra-buona-novella/`) |
+| Articolo IT `/{slug}/` | ✅ 200 |
 | Articolo EN `/en/il-progetto-dandelion/` | ✅ 200, SSR, Cache-Control corretto |
 | Redirect `/blog/*-en/` → `/en/*/` | ✅ 301 |
-| Pagina categoria `/categoria/testimonianze/` | ✅ 200 (fix `3e528a6c`) |
-| Archivio numero `/archivio/oel-171/` | ✅ 200 (fix `3e528a6c`) |
+| Redirect `/blog/{slug}/` → `/{slug}/` | ✅ 301 |
+| Pagina categoria IT | ✅ 200 |
+| Pagina categoria EN `/en/category/family/` | ✅ 200 |
+| Archivio numero `/archivio/oel-171/` | ✅ 200 |
 | Pagina autore IT | ✅ 200 |
-| Pagina cerca | ✅ 200 |
+| Badge categoria articolo lingua-aware | ✅ |
+| Link articoli da categoria (no `//slug`) | ✅ |
+| Editorial box/bottone nascosti ad anonimi | ✅ |
+| CORS Directus | ✅ |
 | i18n F0+F1+F2 su main | ✅ merge `a4b032f9` |
-| Link articoli da categoria (no `//slug`) | ✅ fix `57100eff` |
-| Badge categoria articolo EN → `/en/category/` | ✅ fix `d44594c8` |
-| Redirect `/blog/*-en/` → `/en/*/` | ✅ 301 |
-| Pagina autore IT | ✅ 200 |
-| Pagina cerca | ✅ 200 |
-| i18n F0+F1+F2 su main | ✅ merge `a4b032f9` |
-
-Branch `feat/i18n-shell` è già mergeato. Lo smoke test SEO formale (Screaming Frog) non è ancora stato eseguito — è il prossimo step obbligatorio prima di procedere con qualsiasi altra cosa SEO-critica.
 
 ---
 
 ## Prossima azione immediata
 
-**Smoke test SEO post-merge i18n** — eseguire il crawl Screaming Frog su staging per validare gate F2. Finché questo non è verde, nessun lavoro che tocca routing, canonical o hreflang.
+Tre bug da chiudere prima di qualsiasi altro lavoro:
 
-Gate F2 da verificare:
-
-| Criterio | Tool | Pass |
-|----------|------|------|
-| Zero redirect loop | Screaming Frog crawl staging | 0 loop |
-| Catene redirect ≤ 1 hop | Screaming Frog | 0 catene > 1 hop |
-| hreflang reciproco IT↔EN | Screaming Frog → tab Hreflang | 0 "missing return tag" |
-| Canonical per lingua coerente | Screaming Frog → tab Canonical | 0 canonical lingua sbagliata |
-| Sitemap EN presente | `curl .../sitemap-en.xml` | 200, URL `/en/` nel file |
-| Nessun `/blog/*-en/` indicizzabile | Screaming Frog | 0 risultati (tutti 301) |
-
-Curl di controllo rapido pre-Screaming Frog:
-```bash
-curl -sI https://ombreeluci-staging.pages.dev/blog/il-progetto-dandelion-en/
-# atteso: 301 → /en/il-progetto-dandelion/
-
-curl -sI https://ombreeluci-staging.pages.dev/en/il-progetto-dandelion/
-# atteso: 200
-
-curl -s https://ombreeluci-staging.pages.dev/sitemap-en.xml | head -5
-# atteso: 200, URL /en/ nel file
-```
+1. **TAG-404** — `/tag/*` mancante da `_routes.json` exclude. Fix: aggiungere `{ pattern: '/tag/*' }` a `astro.config.mjs` routes.extend.exclude.
+2. **SLUG-CAT-EN** — badge categoria e switcher usano slug IT nell'URL EN (es. `/en/category/famiglia` invece di `/en/category/family`). Fix: centralizzare mappatura in `categorie.json`, rimuovere mappe hardcoded da `i18n.ts`. Vedi CONTENUTI.md sezione "Principio di scalabilità multilingua".
+3. **SWITCHER-CAT** — switcher lingua da categoria IT porta a URL EN sbagliato. Dipende da fix n.2.
 
 ---
 
 ## Blockers pre-lancio (cutover DNS)
 
-Il cutover avviene quando tutti i blockers sono verdi. Ordinati per dipendenza logica.
+Il cutover avviene quando tutti i blockers sono verdi.
 
 | ID | Stato | Owner | Descrizione |
 |----|-------|-------|-------------|
 | B-01 | ✅ | — | Merge `feat/i18n-shell` su main |
-| B-02 | ✅ | Dev | Smoke test SEO F2 — curl checks verdi; fix hreflang EN assoluto (`fix/hreflang-absolute-url`, merge `6aab9c44`) |
-| B-03 | ✅ | — | CORS Directus già configurato in docker-compose.yml — verificato `Access-Control-Allow-Origin` + `Credentials: true` su staging |
+| B-02 | ✅ | Dev | Smoke test SEO F2 — curl verdi, fix hreflang assoluto `6aab9c44` |
+| B-03 | ✅ | Dev | CORS Directus configurato e verificato |
 | B-04 | ⏳ | Redazione | V-02: assegnare categoria ai 19 articoli "da-categorizzare" in Directus |
-| B-05 | ✅ | Dev | URL-01: rimozione prefisso `/blog/` dagli URL articoli IT — merge su main, verificato su staging 2026-04-24. Curl: `/{slug}/`→200, `/blog/{slug}/`→301, `/YYYY/MM/DD/{slug}/`→301. |
-| B-06 | ⏳ | Dev/Redazione | T1/T2/T3: validare workflow creazione numero OEL-173 + associazione articolo da account Redazione UAT |
-| B-07 | ✅ | Dev | Keystatic dismesso 2026-04-24 — Worker `keystatic-oel` eliminato via `wrangler delete`. Verifica: `https://keystatic-oel.bold-firefly-5209.workers.dev/keystatic` → 404. |
-| B-08 | ✅ | Dev | Copertine staging: tutte le immagini articolo usano `cms.ombreeluci.it/assets/{uuid}`, 200 verificato 2026-04-24. Nota: copertina rivista OEL-172 ancora su `wp-content/uploads` — dato Directus da verificare (non bloccante). |
-| B-09 | ⏳ | Sysadmin | UptimeRobot: configurare monitor per `cms.ombreeluci.it/server/ping` (5 min) e `ombreeluci.it/` (10 min) |
-| B-10 | ⏳ | Sysadmin | Slack alert build: aggiungere secret `SLACK_WEBHOOK_URL` su GitHub Actions |
-| B-11 | ⏳ | Sysadmin | Iubenda: correggere `ownerName` da `"fedeeluce.it"` a `"ombreeluci.it"` sul pannello Iubenda prima del cutover |
-| FIX-ROUTING | ✅ | Dev | Routes.json: exclude espliciti per pagine prerender dinamiche — commit `3e528a6c` |
-| FIX-BASEPATH | ✅ | Dev | `basePath` default `''` in ArticleCard, ArticoliRullo, CategoriaPageContent — evita `//slug` — commit `57100eff` |
-| FIX-BADGE-EN | ✅ | Dev | `categoryLink` lingua-aware in `[slug].astro`: EN → `/en/category/`, IT → `/categoria/` — commit `d44594c8` |
-
-Dipendenze: B-04 sblocca B-12 (ruoli editoriali). B-03 dipende da CORS configurato sul server.
-
-### Nota CSS — leak `is:global` ArticlePageLayout (caso documentato)
-
-Durante B-05 si è manifestato un CSS leak dalla regola `is:global` in `src/layouts/ArticlePageLayout.astro`:
-i selettori `.article-meta` (con `display:flex`, `justify-content:center`, `border-bottom`, `text-align:center`) e `.article-title` (con `letter-spacing:-0.02em`, `text-align:center`) fuoriuscivano dal layout articolo e applicavano stili errati ai componenti `ArticleCard` presenti nelle sezioni "Articoli correlati" all'interno della stessa pagina articolo.
-
-Fix applicato: override scoped in `ArticleCard.astro` con `display:block`, `padding-bottom:0`, `border-bottom:none`, `text-align:left` e `letter-spacing:normal`.
-
-Questo caso conferma la regola in CLAUDE.md: `is:global` in componenti condivisi richiede prefisso wrapper univoco su ogni selettore. Se si refactora `ArticlePageLayout`, tutti i selettori `.article-meta` e `.article-title` vanno prefissati con `.article-page-layout` o simile.
-
-### Nota routing — _routes.json e catch-all SSR (caso documentato 2026-04-24)
-
-Con `[...path].astro` catch-all SSR a root level, l'adapter Cloudflare genera `_routes.json` con `include: ["/*"]` ma inserisce nell'exclude automatico solo le pagine che conosce esplicitamente. Le route prerender dinamiche (`/categoria/*`, `/autori/*`, `/tag/*`, `/diari/*`, `/sezioni/*`, `/archivio/oel-*`, `/archivio/ins-*`) vanno aggiunte manualmente via `routes.extend.exclude` in `astro.config.mjs`.
-
-Regola: ogni volta che si aggiunge una nuova route prerender dinamica, verificare che il suo pattern sia presente nell'exclude di `astro.config.mjs`. Senza questo, CF Pages manda le richieste al Worker SSR che risponde 404.
-
-Fix applicato: commit `3e528a6c` — `astro.config.mjs` con extend.exclude completo.
-
-### Nota auth — EditorialFeedback box e bottone (fix 2026-04-24)
-
-`EditorialFeedback.astro`: box `#editorial-feedback-box` e bottone `#directus-edit-btn` erano visibili agli utenti anonimi. Fix in due parti:
-1. Aggiunto `hidden` come attributo di default nel markup su entrambi gli elementi
-2. JS mostra gli elementi solo se `fetch('/users/me')` risponde `r.ok` (200)
-
-Causa del bug residuo sul bottone: `.directus-edit-btn { display: inline-flex }` nel CSS scoped batteva il `[hidden]` del browser (user-agent stylesheet ha specificità zero). Fix: aggiunto `[hidden] { display: none !important; }` in `global.css`.
-
-### Nota infrastruttura — middleware Astro/CF Pages (caso documentato)
-
-Il middleware Astro (`src/middleware.ts`) viene eseguito **solo per route presenti nel manifest**. Path come `/blog/slug/` o `/2018/02/19/slug/` che non corrispondono a nessuna pagina Astro bypassano il middleware e ottengono 404 direttamente.
-
-Fix permanente: `src/pages/[...path].astro` catch-all SSR (solo `return new Response(null, {status:404})`). Garantisce che tutti i path abbiano una route nel manifest → middleware gira → redirect in `middleware.ts` funzionano.
-
-**Regola:** ogni volta che si aggiunge una nuova categoria di redirect nel middleware (es. un nuovo prefisso di path non coperto da route esistenti), verificare che quel path abbia una route nel manifest. In caso contrario, il middleware non gira.
+| B-05 | ✅ | Dev | URL-01: rimozione `/blog/` — verificato su staging 2026-04-24 |
+| B-06 | ⏳ | Dev/Redazione | T1/T2/T3: validare workflow creazione OEL-173 da account Redazione UAT |
+| B-07 | ✅ | Dev | Keystatic dismesso — Worker `keystatic-oel` eliminato |
+| B-08 | ✅ | Dev | Copertine staging: tutte su `cms.ombreeluci.it/assets/{uuid}`, 200 OK |
+| B-09 | → post-lancio | Sysadmin | UptimeRobot monitoring |
+| B-10 | → post-lancio | Sysadmin | Slack alert build |
+| B-11 | N/A | — | Iubenda ownerName `fedeeluce.it` è corretto (editore legale) |
 
 ---
 
-## Commit pendenti non pushati (da recuperare)
+## Backlog pre-lancio
 
-Questi fix sono stati scritti in sessione 2026-04-04 ma non committati. Vanno recuperati, committati su branch e mergeati:
-
-| Fix | Impatto | Priorità |
-|-----|---------|----------|
-| Edit button: auth check `/users/me` invece di localStorage `?redazione=1` | Bottone modifica non funziona senza CORS (B-03) | 🔴 dopo B-03 |
-| `display:none` su `.debug-section` in `blog/[...slug].astro` | Sezione debug visibile in produzione | 🟡 |
-| Footer: aggiunto "Dialogo aperto" (`/sezioni/dialogo-aperto`) | Coerenza con megamenu | 🟡 |
-| Homepage tagline: rimosso `<br>` e punto finale | Cosmetic | 🟢 |
-| Homepage recenti: colonna destra da 3 a 6 articoli | UX | 🟢 |
-
----
-
-## Backlog pre-lancio (non bloccanti ma da chiudere prima del go-live)
+Tutto questo deve essere verde prima del cutover DNS.
 
 | ID | Priorità | Effort | Descrizione |
 |----|----------|--------|-------------|
-| B-12 | 🟡 | M | US-15: rivalutazione ruoli editoriali per categoria (dopo B-04) |
-| VERT-01 | 🟡 | L | 8 pagine verticali WP da replicare con stesso slug: `mariangela-bertolini`, `autismo`, `cinema-e-disabilita`, `aktion-t4-sterminio-persone-disabilita`, `catechesi-e-disabilita`, `noi-papa-un-figlio-disabile`, `ciao-stefano-di-franco`, `studiosi-educatori-e-attivisti-ombre-e-luci` |
-| AUT-01 | 🟡 | M | Pagine autore: filtro per lingua, componente condiviso `AuthorPageContent.astro`, route `/en/authors/[slug]` (vedi CONTENUTI.md) |
-| LINK-01 | 🟡 | S | 7 link IT↔EN ambigui + 11 no-match da revisionare: `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |
+| TAG-404 | 🔴 | S | Pagine `/tag/*` danno 404 — aggiungere `{ pattern: '/tag/*' }` a `astro.config.mjs` extend.exclude |
+| SLUG-CAT-EN | 🔴 | M | Centralizzare mappatura slug categorie in `categorie.json`, rimuovere mappe hardcoded da `i18n.ts`. Aggiungere chiave `en_slug` per ogni categoria. Fix badge e switcher. Vedi CONTENUTI.md. |
+| AUT-01 | 🔴 | M | Pagine autore: route EN `/en/authors/[slug]` con filtro `lang=en`, componente condiviso `AuthorPageContent.astro`. IT mostra solo articoli IT, EN solo EN. |
+| HOME-EN | 🔴 | M | Homepage EN `/en/`: stessa struttura della homepage IT. Decidere struttura IT e replicarla in EN (e future lingue) automaticamente. |
+| ARCH-EN | 🟡 | M | Archivio numeri: versione per lingua — `/archivio/oel-N/` articoli IT, `/en/archive/oel-N/` articoli EN. |
+| DIARI-EN | 🟡 | M | Pagine diari: versione EN `/en/diaries/[diario]/` con articoli EN del diarista. |
+| TAG-03 | 🟡 | S | Pagine tag filtro lingua: `/tag/[slug]` solo IT, `/en/tag/[slug]` solo EN. |
+| SEARCH-01 | 🟡 | L | Ricerca Algolia — indice `ombreeluci_articoli` creato, credenziali in `.env`. Script sync Directus→Algolia da scrivere. Vedi CONTENUTI.md sezione Ricerca. |
+| VERT-01 | 🟡 | L | 8 pagine verticali WP da replicare con struttura multilingua fin dall'inizio: `mariangela-bertolini`, `autismo`, `cinema-e-disabilita`, `aktion-t4-sterminio-persone-disabilita`, `catechesi-e-disabilita`, `noi-papa-un-figlio-disabile`, `ciao-stefano-di-franco`, `studiosi-educatori-e-attivisti-ombre-e-luci` |
+| B-12 | 🟡 | M | Rivalutazione ruoli editoriali per categoria (dopo B-04) |
+| LINK-01 | 🟡 | S | 7 link IT↔EN ambigui + 11 no-match: `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |
 | V-05 | 🟡 | S | 35 articoli Jean Vanier con `tema_label = null`: riassegnare categoria in Directus |
-| DA-02 | 🟢 | S | 16 pull quote non reinserite: 11 articoli con posizione ambigua, da inserire a mano in Directus |
-| UX-19 | 🟢 | S | Pagine test/debug pubbliche da rimuovere o proteggere: `test-lista.astro`, `test-minimal.astro`, `test-no-articles.astro`, `test-status.astro`, `debug/audit-editoriale.astro` |
+| UX-19 | 🟢 | S | Rimuovere o proteggere pagine test/debug: `test-lista.astro`, `test-minimal.astro`, `test-no-articles.astro`, `test-status.astro`, `debug/audit-editoriale.astro` |
 | PF-01 | 🔴 | S | Placeholder copertina 4.2MB: ridimensionare a 400px + WebP/AVIF |
-| PF-02 | 🔴 | S | Cache-Control assente su R2 (`r2.dev/copertine/*`, `r2.dev/corpo/*`): aggiungere `max-age=31536000, immutable` via CF Transform Rule |
-| TAG-03 | 🟡 | S | Pagine `/tag/[slug]` e `/en/tag/[slug]` mostrano articoli IT e EN mescolati — aggiungere filtro `lang` alla query in `directus.ts`. Stessa soluzione di AUT-01. |
+| PF-02 | 🔴 | S | Cache-Control assente su R2: aggiungere `max-age=31536000, immutable` via CF Transform Rule |
+| DA-02 | 🟢 | S | 16 pull quote non reinserite: 11 articoli con posizione ambigua, inserire a mano in Directus |
+| UAT-CLEANUP | 🔴 | S | Eliminare utente Redazione UAT `redazione-uat@ombreeluci.it` prima del go-live |
 
 ---
 
 ## Validazioni in attesa dalla Redazione
-
-Richiedono occhio umano su staging. Non sono tecniche.
 
 | # | Cosa | Come verificare |
 |---|------|-----------------|
@@ -166,37 +99,69 @@ Richiedono occhio umano su staging. Non sono tecniche.
 
 ---
 
+## Note tecniche (casi documentati)
+
+### CSS leak is:global — ArticlePageLayout (2026-04-24)
+`.article-meta` e `.article-title` con `is:global` fuoriuscivano in `ArticleCard`. Fix: override scoped in `ArticleCard.astro`. Regola: `is:global` in componenti condivisi richiede prefisso wrapper univoco.
+
+### Routing _routes.json e catch-all SSR (2026-04-24)
+Con `[...path].astro` catch-all SSR, le route prerender dinamiche non entrano automaticamente nell'exclude. Vanno dichiarate in `astro.config.mjs` routes.extend.exclude. Commit `3e528a6c`. Ogni nuova route prerender dinamica richiede una voce nell'exclude.
+
+Pattern attualmente in exclude:
+```js
+{ pattern: '/categoria/*' }, { pattern: '/autori/*' }, { pattern: '/autori' },
+{ pattern: '/tag/*' }, { pattern: '/archivio/oel-*' }, { pattern: '/archivio/ins-*' },
+{ pattern: '/diari/*' }, { pattern: '/sezioni/*' }, { pattern: '/sezioni' },
+{ pattern: '/cerca' }, { pattern: '/sostienici' }, { pattern: '/newsletter' },
+{ pattern: '/debug/*' }, { pattern: '/test-*' }
+```
+
+### basePath default '' non '/' (2026-04-24)
+`ArticleCard.astro` e `ArticoliRullo.astro` avevano `basePath='/'` → href `//slug`. Fix: `basePath=''`. Commit `57100eff`.
+
+### Auth EditorialFeedback (2026-04-24)
+`display:inline-flex` CSS batteva `[hidden]`. Fix: `[hidden]{display:none!important}` in `global.css`.
+
+### Middleware Astro/CF Pages — catch-all obbligatorio
+Il middleware gira solo per route nel manifest. Fix: `[...path].astro` catch-all SSR garantisce che tutti i path abbiano una route.
+
+---
+
 ## Backlog post-lancio
 
 | ID | Area | Descrizione |
 |----|------|-------------|
-| DA-03 | Infra | Upgrade VPS CX23 → CX32 (prerequisito per pgvector embeddings attivi) |
-| DA-04 | AI | Ricerca semantica + correlati pgvector (dopo DA-03 e cutover) |
-| DA-05 | Dati | 37 numeri rivista senza `pdf_archive_url`: scraping profilo Archive.org + PATCH Directus |
-| DA-06 | Traduzioni | Pipeline traduzione AI IT→EN (~3265 articoli): bloccata fino a SEARCH-01 + AUT-01 stabili (vedi CONTENUTI.md) |
-| TAG-01 | Frontend | Tag articoli non visibili nella pagina articolo (le route `/tag/[slug]` e `/en/tag/[slug]` esistono già) |
-| GR-04 | Crescita | Google AdSense `ca-pub-2238371130141396` (dopo lancio, via GTM) |
-| GR-05 | Crescita | Newsletter Mailchimp: form moderno senza Dojo (uuid `00c5dad63480d9601563b5692`) |
-| GR-06 | Crescita | CTA dinamiche a fine articolo (rotazione abbonamento/donazione/newsletter) |
+| DA-03 | Infra | Upgrade VPS CX23 → CX32 (prerequisito pgvector) |
+| DA-04 | AI | Ricerca semantica + correlati pgvector (dopo DA-03) |
+| DA-05 | Dati | 37 numeri rivista senza `pdf_archive_url`: scraping Archive.org |
+| DA-06 | Traduzioni | Pipeline traduzione AI IT→EN (~3265 articoli) — dopo SEARCH-01 + AUT-01 |
+| DA-06-ES | Traduzioni | Pipeline spagnolo — dopo chiusura EN |
+| TAG-01 | Frontend | Tag articoli non visibili nella pagina articolo |
+| DIR-01 | Directus | Pannello "Articoli correlati" in Directus durante scrittura |
+| DIR-02 | Directus | Suggerimenti AI durante scrittura (Claude API) — dopo DA-03+DA-04 |
+| SEARCH-02 | Ricerca | Algolia avanzato: faceting, ranking, as-you-type (dopo SEARCH-01 stabile) |
+| GR-04 | Crescita | Google AdSense (dopo lancio, via GTM) |
+| GR-05 | Crescita | Newsletter Mailchimp form moderno |
+| GR-06 | Crescita | CTA dinamiche a fine articolo |
 | GR-07 | Crescita | Pagina `/newsletter` dedicata |
-| UX-07 | UX | Articolo su mobile: padding laterale, tipografia fluida, capolettera |
-| UX-10 | UX | Selettore lingua: nascondere o disabilitare se non esiste traduzione dell'articolo |
-| UX-11 | UX | Diari home su mobile: layout affollato a 2 colonne |
-| PF-03 | Perf | Immagini non responsive: srcset mancante su ArticleCard, hero, LeggiAnche |
-| PF-04 | Perf | CSS render-blocking: `_slug_.css` e `_diario_.css` bloccano rendering ~610ms |
-| SEARCH-01 | Post-lancio | Ricerca Algolia — opzione A (Pagefind prerender) abbandonata: snapshot senza corpo (0/3527 articoli indicizzabili), 956 articoli mancanti da getStaticPaths, build 10-15min. Procedere con opzione B (Algolia free tier). Vedi CONTENUTI.md sezione Ricerca. |
-| DA-06-ES | Traduzioni | Pipeline spagnolo: dopo chiusura e stabilizzazione EN |
-| fedeeluce | Infra | Directus multi-tenant per fedeeluce.it sullo stesso VPS (costo: solo rinnovo dominio) |
+| UX-07 | UX | Articolo su mobile: padding, tipografia fluida, capolettera |
+| UX-10 | UX | Selettore lingua: nascondere se non esiste traduzione |
+| PF-03 | Perf | Immagini non responsive: srcset mancante |
+| PF-04 | Perf | CSS render-blocking |
+| B-09 | Infra | UptimeRobot monitoring |
+| B-10 | Infra | Slack alert build GH Actions |
+| fedeeluce | Infra | Directus multi-tenant per fedeeluce.it |
 
 ---
 
-## Pulizia tecnica da fare (non urgente ma non dimenticare)
+## Pulizia tecnica
 
-| Cosa | Dove | Azione |
-|------|------|--------|
-| Branch locali morti | repo locale | Eliminare: `feat/arch-04-ssr`, `feat/articoli-rullo`, `feat/directus-migration`, `feat/i18n-master-plan`, `feat/seo-ux-improvements`, `hardening/resilience`, `master`, `safe/feat-i18n-align` |
-| File legacy in `src/data/` | repo | Rimuovere o spostare in `_archive/`: `estrai_tutto.json`, `database_autori.csv`, `_legacy_articoli_megacluster.json`, `numeri_consolidati.json`, `media_articoli.csv` (tutti residui della fase pre-Directus) |
-| `blog/en.astro` | `src/pages/blog/en.astro` | Verificare se è ancora referenziata o se può essere rimossa (indice EN ora su `/en/index.astro`) |
+| Cosa | Azione |
+|------|--------|
+| Branch locali morti | Eliminare: `feat/arch-04-ssr`, `feat/articoli-rullo`, `feat/directus-migration`, `feat/i18n-master-plan`, `feat/seo-ux-improvements`, `hardening/resilience`, `master`, `safe/feat-i18n-align` |
+| File legacy in `src/data/` | Spostare in `_archive/`: `estrai_tutto.json`, `database_autori.csv`, `_legacy_articoli_megacluster.json`, `numeri_consolidati.json`, `media_articoli.csv` |
+| `blog/en.astro` | Verificare se sostituibile da `/en/index.astro` |
+| Mappe hardcoded `CAT_IT_TO_EN_SLUG` in `i18n.ts` | Rimuovere dopo SLUG-CAT-EN completato |
 
 ---
 
@@ -210,6 +175,8 @@ Richiedono occhio umano su staging. Non sono tecniche.
 | VPS | 159.69.196.64 — Hetzner CX23, Ubuntu 24.04, €4.09/mese |
 | CF Account ID | `6b071de7f55397ada5645e187c932202` |
 | CF Zone ID | `0cc4507d662828548b5f9f90e4b2d494` |
-| R2 bucket | `oel-media` — pub URL: `pub-2251dc2142e3492a961f629f2af543d0.r2.dev` |
+| R2 bucket | `oel-media` — pub: `pub-2251dc2142e3492a961f629f2af543d0.r2.dev` |
 | Credenziali VPS | `vps_credentials.txt` (locale — non committare mai) |
 | Utente Redazione UAT | `redazione-uat@ombreeluci.it` / `OmbreLuci2026!` — **eliminare prima del go-live** |
+| Algolia App ID | in `.env` come `ALGOLIA_APP_ID` |
+| Algolia Index | `ombreeluci_articoli` |

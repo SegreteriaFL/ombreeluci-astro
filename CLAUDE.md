@@ -1,197 +1,30 @@
-# Regole architetturali — Ombre e Luci
-
-Queste regole valgono per ogni sessione. Hanno precedenza su qualsiasi comportamento di default.
 
 ---
+## i18n scalabilità — regola permanente
 
-## Struttura IT/EN — regola fondamentale
+Il sito supporterà IT, EN, ES, FR e lingue future. Ogni decisione i18n deve essere presa con questa prospettiva.
 
-**Quando una pagina EN ha struttura identica o analoga a una pagina IT esistente, si estrae prima il layout in un componente condiviso. Mai copiare markup tra pagine.**
+**Regola assoluta:** nessuna mappa slug/label hardcoded nel codice TypeScript o JavaScript. Tutto vive in `src/data/categorie.json` con una chiave per lingua. Aggiungere ES significa aggiungere `"es": "Familia"` nel JSON — zero modifiche al codice.
 
-Flusso corretto:
-1. Esiste una pagina IT con un layout → se serve la versione EN, si crea `src/components/NomePageContent.astro`
-2. La pagina IT viene riscritta per usare il componente
-3. La pagina EN usa lo stesso componente con `lang="en"` e `basePath="/en"`
-4. Qualsiasi cambio futuro al layout si fa nel componente — si propaga a entrambe le versioni automaticamente
-
-Esempio già fatto: `CategoriaPageContent.astro` usato da `/categoria/[categoria].astro` e `/en/category/[slug].astro`.
-
-**Fatto:**
-- `ArticlePageLayout.astro` — CSS condiviso IT+EN via `is:global`. Entrambe le pagine articolo lo usano invece di `BaseLayout`. Il CSS è l'unica fonte di verità.
-- Resto del template (logica dati, script) rimane nei file pagina — sono sufficientemente diversi (SSG vs SSR, script "leggi anche" solo IT).
-
----
-
-## CSS — regola assoluta
-
-- Usare classi globali esistenti (`.container`, `.site-main`) — mai classi custom orfane
-- Mai `style="..."` inline su elementi strutturali — usare classi CSS
-- Mai blocchi `<style>` locali per utility già coperte dal CSS globale
-- I `<style>` locali sono accettati solo per componenti che non hanno equivalente globale
-
----
-
-## Branch strategy
-
-- Lavoro sperimentale su branch dedicato, mai direttamente su `main`
-- `main` deve essere sempre deployabile
-- Push su `main` solo dopo conferma utente che l'obiettivo è raggiunto
-
----
-
-## Git push
-
-- `git push` solo dopo conferma esplicita dell'utente che il risultato è OK
-- Non pushare automaticamente dopo ogni fix
-
----
-
-## Approccio ai fix
-
-- Prima analisi, poi fix — mai "fix a caso di cane"
-- Documentare e testare ogni step prima di procedere al successivo
-- Se si scopre un debito tecnico durante un fix, segnalarlo senza toccarlo (a meno che blocchi il fix corrente)
-- Per bug di dati (es. campi null): verificare prima se il problema è nel codice o nei dati prima di scrivere codice
-
----
-
-## Internazionalizzazione (i18n)
-
-- Tutte le label UI visibili all'utente passano per `t(lang, key)` in `src/utils/i18n.ts`
-- Le categorie usano `localizeCategory(slug, lang)` — non stringhe hardcoded
-- I componenti accettano `lang: Locale` prop e lo passano a tutti i figli
-- Le pagine EN passano sempre `lang="en"` a `BaseLayout` — senza di esso Header/Footer restano in italiano
-- **Tag**: il campo `nome_en` non esiste ancora in Directus. Le tag sono nascoste nelle pagine EN (display:none con TODO comment). Non aggiungere mapping hardcoded.
-
----
-
-## CI/CD — note operative
-
-- **Nightly rebuild** (02:00 UTC): triggera rebuild CF Pages via Deploy Hook (`CF_DEPLOY_HOOK` secret). NON usare l'endpoint API `POST /pages/projects/{name}/deployments` — non funziona per progetti Git-connected (restituisce `success=false`).
-- **Update snapshot** (lunedì 01:00 UTC): rigenera `src/data/articoli_snapshot.json` via Directus API. Richiede secret `DIRECTUS_TOKEN`.
-- Per aggiungere un nuovo trigger CF Pages schedulato: usare sempre Deploy Hook, non l'API REST.
-
----
-
-## Componenti condivisi esistenti
-
-| Componente | Usato da |
-|---|---|
-| `CategoriaPageContent.astro` | `/categoria/[categoria].astro`, `/en/category/[slug].astro` |
-| `ArticoliRullo.astro` | `/tag/[slug].astro`, `/en/tag/[slug].astro`, altre sezioni |
-| `ArticleCard.astro` | ovunque — accetta `lang` e `basePath` |
-| `ArticlePageLayout.astro` | `/blog/[...slug].astro`, `/en/[slug].astro` — CSS articolo via `is:global` |
-| `BaseLayout.astro` | tutte le pagine — accetta `lang`, `alternateArticleUrl` |
-
----
-## Documenti di progetto — leggere all'inizio di ogni sessione
-
-| Documento | Cosa contiene |
-|-----------|---------------|
-| `STATO.md` | Stato verificato, blockers pre-lancio, backlog ordinato, prossima azione |
-| `WORKING.md` | Regole operative complete: routing, CSS, SSR, bundle, gate pre-merge |
-| `CONTENUTI.md` | Architettura i18n, ricerca, autori, traduzioni AI, tag, pagine verticali |
-| `INFRASTRUTTURA.md` | Stack, deploy, backup, env vars, versioni |
-| `RUNBOOK.md` | Incident playbook operativo (sul server: `/opt/oel-cms/RUNBOOK.md`) |
-| `NORME_EDITORIALI_OEL.md` | Regole editoriali (per la redazione) |
-
----
-## CSS in componenti condivisi — regola critica
-
-`is:global` in un componente riusabile è pericoloso: i suoi stili fuggono in tutte le pagine che includono il componente, causando regressioni visive difficili da tracciare.
-
-**Regola:** qualsiasi stile che deve applicarsi a markup generato dinamicamente (es. HTML da Directus nel corpo articolo) va scritto con selettore padre prefissato.
-
-Corretto:
-```css
-/* in ArticlePageLayout.astro o in global.css con prefisso */
-.article-body h2 { ... }
-.article-body p { ... }
-.article-body img { ... }
+**Vietato:**
+```ts
+// MAI fare così
+const CAT_IT_TO_EN = { 'famiglia': 'family', 'cultura': 'culture' }
+const CAT_IT_TO_ES = { 'famiglia': 'familia', 'cultura': 'cultura' }
 ```
 
-Sbagliato:
-```css
-/* is:global senza prefisso in componente condiviso */
-<style is:global>
-h2 { ... }        /* fugge ovunque */
-p { ... }         /* fugge ovunque */
-</style>
+**Corretto:**
+```ts
+// Leggere sempre da categorie.json
+getCategoriaSlug(slugIT, lang)   // IT slug → slug nella lingua target
+getCategoriaSlugIT(slug, lang)   // slug qualsiasi lingua → slug IT
+getCategoriaLabel(slugIT, lang)  // IT slug → label localizzata
 ```
 
-Eccezione ammessa: `is:global` in componente condiviso **solo se** ogni selettore è prefissato con una classe wrapper univoca del componente stesso (es. `.article-page-layout h2`).
+**Route per lingua:** ogni lingua ha `src/pages/{lang}/` con struttura identica. Le route leggono `categorie.json`, non mappe hardcoded.
 
----
-## Routing e infrastruttura — regole permanenti da incidente 2026-04
+**Language switcher:** ogni pagina passa `alternateUrls` con i link per tutte le lingue disponibili. Se una traduzione non esiste → link alla homepage della lingua.
 
-**Incidente:** rimozione route `/*` dal CF Worker senza mappare la catena DNS → `ombreeluci.it` mostrava WordPress per ore.
+**Nuove pagine:** ogni nuova pagina (verticali, dossier, sezioni) va progettata multilingua fin dall'inizio, non retrofittata.
 
-**Regola:** prima di toccare Worker, middleware, adapter CF, DNS o redirect, disegna la catena completa:
-`DNS apex → Worker route attiva → fetch verso Pages/Aruba`
-Se non sai rispondere a ogni step: non committare.
-
-**Catena attuale (non modificare senza documentare in WORKING.md):**
-- `ombreeluci.it/*` → CF Worker `ombreeluci-redirects` → proxy WP Aruba | redirect legacy | forwardToPages
-- `*.pages.dev` → CF Pages direttamente → `src/middleware.ts` gestisce redirect legacy
-
-**`nodejs_compat` vietato:** questo flag corrompe la serializzazione della Response in Astro hybrid SSR (body diventa `[object Object]`). Non attivarlo mai su progetti Pages con output hybrid.
-
----
-## Bundle size SSR — regola permanente da incidente 2026-04
-
-**Incidente:** import statico di `correlati.json` (749KB) in pagina SSR → bundle 908KB → CF Pages crash silenzioso → `[object Object]` come body.
-
-**Regola:** nessun JSON > 50KB va importato staticamente in pagine SSR.
-
-Pattern corretto per JSON pesanti in SSR:
-```typescript
-const res = await fetch(`${Astro.url.origin}/correlati.json`);
-const data = res.ok ? await res.json() : {};
-```
-
-Il file deve stare in `public/` — il `prebuild` in `package.json` lo copia da `src/data/`.
-
-Dopo ogni build che tocca pagine SSR, verificare:
-```bash
-find dist/_worker.js -name "*.mjs" | xargs ls -lh | sort -k5 -rh | head -5
-# pages/blog/_---slug_.astro.mjs deve stare sotto 500KB
-```
-
----
-## Slug convention articoli EN — non cambiare mai senza script di migrazione
-
-Directus: slug con suffisso `-en` (es. `il-progetto-dandelion-en`).
-URL pubblico: `/en/il-progetto-dandelion/` (suffisso rimosso).
-La route `src/pages/en/[slug].astro` ricostruisce lo slug Directus aggiungendo `-en`.
-
-Cambiare questa convenzione richiede uno script di migrazione su tutti i 131 articoli EN esistenti e aggiornamento della route. Non farlo mai come side effect di un altro task.
-
----
-## _routes.json — regola per catch-all SSR
-
-Con `[...path].astro` catch-all SSR a root level, le route prerender dinamiche non vengono aggiunte automaticamente all'exclude di `_routes.json`. Vanno dichiarate esplicitamente in `astro.config.mjs`:
-
-```js
-cloudflare({
-  routes: {
-    extend: {
-      exclude: [
-        { pattern: '/categoria/*' },
-        { pattern: '/autori/*' },
-        { pattern: '/tag/*' },
-        { pattern: '/diari/*' },
-        { pattern: '/sezioni/*' },
-        { pattern: '/archivio/oel-*' },
-        { pattern: '/archivio/ins-*' },
-      ]
-    }
-  }
-})
-```
-
-Ogni nuova route prerender dinamica aggiunta al progetto richiede una voce corrispondente qui.
-
----
-## Nightly build — CI/CD
-
-Usare sempre il Deploy Hook (`CF_DEPLOY_HOOK` secret) per triggare rebuild CF Pages da GitHub Actions. Non usare l'endpoint API REST `POST /pages/projects/{name}/deployments` — non funziona per progetti Git-connected.
+Riferimento completo: `CONTENUTI.md` sezione "Principio di scalabilità multilingua".
