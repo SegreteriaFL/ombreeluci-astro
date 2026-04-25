@@ -33,18 +33,6 @@ export default defineConfig({
     routes: {
       extend: {
         exclude: [
-          { pattern: '/archivio/oel-*' },
-          { pattern: '/archivio/ins-*' },
-          { pattern: '/categoria/*' },
-          { pattern: '/autori/*' },
-          { pattern: '/autori' },
-          { pattern: '/tag/*' },
-          { pattern: '/diari/*' },
-          { pattern: '/sezioni/*' },
-          { pattern: '/sezioni' },
-          { pattern: '/cerca' },
-          { pattern: '/sostienici' },
-          { pattern: '/newsletter' },
           { pattern: '/debug/*' },
           { pattern: '/test-*' },
         ],
