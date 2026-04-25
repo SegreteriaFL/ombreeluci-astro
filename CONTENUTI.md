@@ -93,6 +93,33 @@ Ogni nuova pagina creata (verticali, dossier, sezioni) deve essere progettata co
 | F2 — Routing `/en/` | ✅ | Route `en/[slug].astro`, `en/index.astro`, `en/category/[slug].astro`, `en/tag/[slug].astro`, sitemap EN, redirect 301 `/blog/*-en/` → `/en/*/` |
 | Smoke test SEO F2 | ⏳ | Screaming Frog su staging — gate formali da eseguire (vedi STATO.md B-02) |
 
+### Parità lingue — stato pagine
+
+| Pagina | Route IT | Route EN | Componente condiviso |
+|--------|----------|----------|----------------------|
+| Articolo | `/it/[slug]` | `/en/[slug]` | ✅ `ArticlePageLayout.astro` |
+| Categoria | `/categoria/[cat]` | `/en/category/[slug]` | ✅ `CategoriaPageContent.astro` |
+| Autore | `/autori/[slug]` | `/en/authors/[slug]` | ✅ `AuthorPageContent.astro` |
+| Lista autori | `/autori/` | `/en/authors/` | ✅ `AutoriIndexContent.astro` |
+| Tag | `/tag/[slug]` | `/en/tag/[slug]` | ✅ `ArticoliRullo.astro` |
+| Homepage | `/` | `/en/` ❌ | ❌ `HomePageContent.astro` da creare |
+| Archivio rivista | `/archivio/` | `/en/archive/` ❌ | ❌ `ArchivioContent.astro` da creare |
+| Numero rivista | `/archivio/[issue]` | `/en/archive/[issue]` ❌ | ❌ `IssueContent.astro` da creare |
+| Archivio web-only | `/archivio/web-only` | `/en/archive/web-only` ❌ | ❌ `WebOnlyContent.astro` da creare |
+| Sezione diari | `/sezioni/diari` | `/en/diaries/` ❌ | ❌ `DiariContent.astro` da creare |
+| Diario singolo | `/diari/[diario]` | `/en/diaries/[diario]` ❌ | ❌ `DiarioContent.astro` da creare |
+| Dialogo Aperto | `/sezioni/dialogo-aperto` | `/en/dialogue/` ❌ | ❌ `DialogoApertoContent.astro` da creare |
+| Chi siamo | `/chi-siamo/` | `/en/about/` ❌ | ❌ `ChiSiamoContent.astro` da creare |
+| La redazione | `/chi-siamo/la-redazione` | `/en/about/team/` ❌ | ❌ `RedazioneContent.astro` da creare |
+| Collaboratori | `/chi-siamo/collaboratori` | `/en/about/contributors/` ❌ | ❌ `CollaboratoriContent.astro` da creare |
+| La rivista | `/chi-siamo/la-rivista` | `/en/about/magazine/` ❌ | ❌ `LaRivistaContent.astro` da creare |
+| Contatti | `/chi-siamo/contatti` | `/en/about/contact/` ❌ | ❌ `ContattiContent.astro` da creare |
+| Sostienici | `/sostienici` | `/en/support-us/` ❌ | ❌ `SostienicContent.astro` da creare |
+| Newsletter | `/newsletter` | `/en/newsletter/` ❌ | ❌ `NewsletterContent.astro` da creare |
+| Cerca | `/cerca` | `/en/search/` ❌ | ❌ `CercaContent.astro` da creare |
+
+Regola: la colonna "Route EN" diventa ✅ solo dopo che il componente condiviso è estratto e la route EN creata. Vedi CLAUDE.md "REGOLA FONDAMENTALE".
+
 ### Slug convention EN
 
 Directus: `titolo-articolo-en` (suffisso `-en` nel DB).

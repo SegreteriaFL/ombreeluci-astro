@@ -67,9 +67,9 @@ Tutto questo deve essere verde prima del cutover DNS.
 | TAG-404 | 🔴 | S | Pagine `/tag/*` danno 404 — aggiungere `{ pattern: '/tag/*' }` a `astro.config.mjs` extend.exclude |
 | SLUG-CAT-EN | 🔴 | M | Centralizzare mappatura slug categorie in `categorie.json`, rimuovere mappe hardcoded da `i18n.ts`. Aggiungere chiave `en_slug` per ogni categoria. Fix badge e switcher. Vedi CONTENUTI.md. |
 | AUT-01 | ✅ | M | Pagine autore: route EN `/en/authors/[slug]`, componente condiviso `AuthorPageContent.astro`, filtro lang per lingua, bio_en in Directus. Build OK. Commit feat/aut-01-author-pages. |
-| HOME-EN | 🔴 | M | Homepage EN `/en/`: stessa struttura della homepage IT. Decidere struttura IT e replicarla in EN (e future lingue) automaticamente. |
-| ARCH-EN | 🟡 | M | Archivio numeri: versione per lingua — `/archivio/oel-N/` articoli IT, `/en/archive/oel-N/` articoli EN. |
-| DIARI-EN | 🟡 | M | Pagine diari: versione EN `/en/diaries/[diario]/` con articoli EN del diarista. |
+| HOME-EN | 🔴 | M | Homepage EN `/en/`: stessa struttura della homepage IT. **Richiede estrazione `HomePageContent.astro` prima di creare la route EN.** |
+| ARCH-EN | 🟡 | M | Archivio numeri: versione per lingua — `/archivio/oel-N/` IT, `/en/archive/oel-N/` EN. **Richiede estrazione `ArchivioContent.astro` + `IssueContent.astro` prima.** |
+| DIARI-EN | 🟡 | M | Pagine diari: versione EN `/en/diaries/[diario]/` con articoli EN del diarista. **Richiede estrazione `DiariContent.astro` + `DiarioContent.astro` prima.** |
 | TAG-03 | 🟡 | S | Pagine tag filtro lingua: `/tag/[slug]` solo IT, `/en/tag/[slug]` solo EN. |
 | SEARCH-01 | 🟡 | L | Ricerca Algolia — indice `ombreeluci_articoli` creato, credenziali in `.env`. Script sync Directus→Algolia da scrivere. Vedi CONTENUTI.md sezione Ricerca. |
 | VERT-01 | 🟡 | L | 8 pagine verticali WP da replicare con struttura multilingua fin dall'inizio: `mariangela-bertolini`, `autismo`, `cinema-e-disabilita`, `aktion-t4-sterminio-persone-disabilita`, `catechesi-e-disabilita`, `noi-papa-un-figlio-disabile`, `ciao-stefano-di-franco`, `studiosi-educatori-e-attivisti-ombre-e-luci` |
