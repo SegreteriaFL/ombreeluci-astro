@@ -1,40 +1,38 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-25 (AUT-01 merged main — 60fcb27c; URL-IT-01 ✅; EN 3470 articoli published)
+**Ultimo aggiornamento:** 2026-04-25 (HOME-EN merged main — 1c4bbe90; AUT-01 ✅; URL-IT-01 ✅)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
 
 ---
 
-## Stato attuale verificato (2026-04-25 — main, post-merge AUT-01 + URL-IT-01)
+## Stato attuale verificato (2026-04-25 — main, post-merge HOME-EN)
 
 | Verifica | Esito |
 |----------|-------|
-| Home staging | ✅ 200 |
+| Home IT `/` | ✅ 200, SSG |
+| Home EN `/en/` | ✅ 200, componente condiviso `HomePageContent.astro` |
 | Articolo IT `/it/{slug}/` | ✅ 200 |
-| Articolo EN `/en/il-progetto-dandelion/` | ✅ 200, SSR, Cache-Control corretto |
+| Articolo EN `/en/{slug}/` | ✅ 200, SSR, lookup a due tentativi |
 | Redirect `/blog/*-en/` → `/en/*/` | ✅ 301 |
 | Redirect `/blog/{slug}/` → `/{slug}/` | ✅ 301 |
 | Pagina categoria IT | ✅ 200 |
 | Pagina categoria EN `/en/category/family/` | ✅ 200 |
-| Pagina autore IT `/autori/{slug}/` (filtro lang=it) | ✅ 200 |
-| Pagina autore EN `/en/authors/{slug}/` | ✅ 200 (352 autori, curl verde) |
+| Pagina autore IT `/autori/{slug}/` | ✅ 200 |
+| Pagina autore EN `/en/authors/{slug}/` | ✅ 200 |
 | Lista autori IT `/autori/` | ✅ 200 |
 | Lista autori EN `/en/authors/` | ✅ 200 |
 | Archivio numero `/archivio/oel-171/` | ✅ 200 |
-| Pagina autore IT | ✅ 200 |
 | Badge categoria articolo lingua-aware | ✅ |
-| Link articoli da categoria (no `//slug`) | ✅ |
-| Editorial box/bottone nascosti ad anonimi | ✅ |
 | CORS Directus | ✅ |
-| i18n F0+F1+F2 su main | ✅ merge `a4b032f9` |
+| i18n F0+F1+F2+HOME-EN su main | ✅ |
 
 ---
 
 ## Prossima azione immediata
 
-**HOME-EN** (`src/pages/en/index.astro`) — Homepage inglese `/en/`: stessa struttura della homepage IT, articoli EN in rotazione. AUT-01 completato e merged su main (60fcb27c). Bug aperti in parallelo: TAG-404, SLUG-CAT-EN, SWITCHER-CAT (vedi Backlog pre-lancio).
+**SLUG-EN** — Fix strutturale URL articoli EN + categorie EN + language switcher (3 bug strutturali individuati post HOME-EN, vedi Note tecniche). Poi ARCH-EN.
 
 ---
 
@@ -67,7 +65,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 | TAG-404 | 🔴 | S | Pagine `/tag/*` danno 404 — aggiungere `{ pattern: '/tag/*' }` a `astro.config.mjs` extend.exclude |
 | SLUG-CAT-EN | 🔴 | M | Centralizzare mappatura slug categorie in `categorie.json`, rimuovere mappe hardcoded da `i18n.ts`. Aggiungere chiave `en_slug` per ogni categoria. Fix badge e switcher. Vedi CONTENUTI.md. |
 | AUT-01 | ✅ | M | Pagine autore: route EN `/en/authors/[slug]`, componente condiviso `AuthorPageContent.astro`, filtro lang per lingua, bio_en in Directus. Build OK. Commit feat/aut-01-author-pages. |
-| HOME-EN | 🔴 | M | Homepage EN `/en/`: stessa struttura della homepage IT. **Richiede estrazione `HomePageContent.astro` prima di creare la route EN.** |
+| HOME-EN | ✅ | M | Homepage EN `/en/` — `HomePageContent.astro` estratto, `index.astro` refactored, `en/index.astro` creato. Merge `1c4bbe90`. |
 | ARCH-EN | 🟡 | M | Archivio numeri: versione per lingua — `/archivio/oel-N/` IT, `/en/archive/oel-N/` EN. **Richiede estrazione `ArchivioContent.astro` + `IssueContent.astro` prima.** |
 | DIARI-EN | 🟡 | M | Pagine diari: versione EN `/en/diaries/[diario]/` con articoli EN del diarista. **Richiede estrazione `DiariContent.astro` + `DiarioContent.astro` prima.** |
 | TAG-03 | 🟡 | S | Pagine tag filtro lingua: `/tag/[slug]` solo IT, `/en/tag/[slug]` solo EN. |
@@ -122,6 +120,22 @@ Commit `34fbd576`.
 ### EN articoli traduzione AI — 3470 published (2026-04-25)
 
 Pipeline traduzione AI completata. 3470 articoli EN published in Directus. I 131 EN originali (traduzione manuale da WP) restano invariati. Qualità da auditare post-lancio — non blocca il cutover. Route `en/[slug].astro` li serve via lookup a due tentativi: prima slug esatto, poi slug + `-en`. DA-06 aggiornato in backlog post-lancio.
+
+### Bug strutturali EN — tre radici (2026-04-25)
+
+Rilevati post HOME-EN. Non sono regressioni del branch, sono pre-esistenti. Fix strutturale pianificato in SLUG-EN.
+
+**S1 — Slug URL EN non normalizzati**
+`getArticleMeta()` usa `a.slug` grezzo. Gli articoli con suffisso `-en` in Directus (ex: `progetto-dandelion-en`) producono link `/en/progetto-dandelion-en` invece di `/en/progetto-dandelion`. La route `en/[slug].astro` accetta entrambe le forme (lookup a due tentativi), ma i link generati da homepage/card usano lo slug grezzo → 404 per metà degli articoli.
+Fix: aggiungere `getEnArticleUrlSlug(slug)` — `slug.endsWith('-en') ? slug.slice(0,-3) : slug` — e usarlo ovunque si costruisce un href `/en/...`.
+
+**S2 — Categorie EN vuote (solo "Attualità")**
+La pipeline AI ha creato 3470 articoli EN senza copiare il campo `categoria_menu` dall'articolo IT sorgente. `en/category/[slug].astro` genera pagine SSG solo per categorie con almeno un articolo EN → tutte le categorie tranne "Attualità" non hanno pagina → il language switcher su `/categoria/famiglia/` punta a `/en/category/family/` che è 404.
+Fix: script Directus PATCH batch che per ogni articolo EN con `articolo_traduzione` valorizzato copia `categoria_menu` dall'articolo IT collegato. ~3470 record, eseguibile in 35 batch da 100.
+
+**S3 — Language switcher senza fallback difensivo**
+Quando `alternateArticleUrl` è `null` o punta a un URL che non esiste (articolo senza traduzione, categoria EN vuota), il selettore lingua mostra un link che dà 404. Non c'è fallback alla homepage della lingua target.
+Fix: nel `Header.astro` (o nel componente LanguageSelector), se `alternateArticleUrl` è null, costruire il fallback come `/${lang}/` — ovvero mandare alla homepage della lingua target invece di generare un link rotto.
 
 ### basePath default '' non '/' (2026-04-24)
 `ArticleCard.astro` e `ArticoliRullo.astro` avevano `basePath='/'` → href `//slug`. Fix: `basePath=''`. Commit `57100eff`.
