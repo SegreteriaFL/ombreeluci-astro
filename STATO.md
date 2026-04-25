@@ -35,19 +35,21 @@
 | Campo | Valore | Note |
 |---|---|---|
 | Articoli EN totali | 3470 | |
-| Slug con suffisso `-en` | **42** | Sopravvissuti traduzioni manuali originali. I 3339 AI hanno slug EN puliti. |
+| EN published | **70** | Originals manuali sopravvissuti al rollback |
+| EN draft | **3400** | Rollback parziale avvenuto — articoli AI tornati a draft |
+| Slug con suffisso `-en` | **42** | Traduzioni manuali originali. Il suffisso è **necessario** (evita collisione slug IT). Non va rimosso. |
 | `articolo_traduzione` valorizzato | **3452 / 3470** (99,4%) | 18 orfani. Link IT↔EN quasi completo. |
 | `categoria_menu` valorizzato | **3436 / 3470** (99%) | Valori corretti: slug IT (`famiglia`, `progetti`, ecc.) — NON tradotti in inglese. |
-| `categoria_menu` NULL | **34** | Backfill residuo da fare. |
-| Slug EN sbagliati (`family`, `projects`…) | **0** | Il pipeline ha copiato correttamente lo slug IT. |
+| `categoria_menu` NULL | **34** | Backfill residuo. |
+| Slug EN sbagliati (`family`, `projects`…) | **0** | Pipeline AI ha copiato correttamente lo slug IT. |
 
-**Conseguenza:** il bug `/en/category/projects/ = 4 articoli` NON è un problema di dati Directus (235 EN con `categoria_menu = 'progetti'` ci sono). È un problema di build/snapshot — da investigare in CAT-EN-BUILD.
+**Spiegazione `/en/category/projects/` = 4 articoli:** i 235 EN con `categoria_menu = 'progetti'` ci sono, ma 231 sono draft. Mostrare 4 è **comportamento corretto** dato lo stato attuale. Quando gli articoli AI saranno pubblicati (dopo QA), le pagine categoria EN si popoleranno automaticamente — zero codice da toccare.
 
 ---
 
 ## Prossima azione immediata
 
-**CAT-EN-BUILD** — Capire perché `/en/category/projects/` mostra 4 articoli invece di 235 (i dati Directus sono corretti). Probabile causa: SSG usa `articoli_snapshot.json` invece di Directus live. Poi **SEARCH-01** (Algolia — blocker pre-lancio).
+**B-04** (redazione: 19 articoli "da-categorizzare") → **Pagine statiche EN** (Chi siamo, Contatti, ecc. — lista completa in CLAUDE.md) → **SEARCH-01 Algolia** (B-13).
 
 ---
 
@@ -78,8 +80,8 @@ Tutto questo deve essere verde prima del cutover DNS.
 
 | ID | Priorità | Effort | Descrizione |
 |----|----------|--------|-------------|
-| TAG-404 | 🔴 | S | Pagine `/tag/*` danno 404 — aggiungere `{ pattern: '/tag/*' }` a `astro.config.mjs` extend.exclude |
-| SLUG-CAT-EN | 🔴 | M | Centralizzare mappatura slug categorie in `categorie.json`, rimuovere mappe hardcoded da `i18n.ts`. Aggiungere chiave `en_slug` per ogni categoria. Fix badge e switcher. Vedi CONTENUTI.md. |
+| TAG-404 | ✅ | S | Risolto automaticamente — `/tag/*` è nel `_routes.json` include, staging 200 OK (verificato 2026-04-25). |
+| SLUG-CAT-EN | ✅ | M | `categorie.json` è già fonte unica di verità con `en_slug`. Mappe hardcoded `CAT_IT_TO_EN_SLUG` non esistono più in `i18n.ts`. `getCategoriaUrlSlug/getCategoriaSlugIT` leggono da JSON. Chiuso. |
 | AUT-01 | ✅ | M | Pagine autore: route EN `/en/authors/[slug]`, componente condiviso `AuthorPageContent.astro`, filtro lang per lingua, bio_en in Directus. Build OK. Commit feat/aut-01-author-pages. |
 | HOME-EN | ✅ | M | Homepage EN `/en/` — `HomePageContent.astro` estratto, `index.astro` refactored, `en/index.astro` creato. Merge `1c4bbe90`. |
 | ARCH-EN | 🟡 | M | Archivio numeri: versione per lingua — `/archivio/oel-N/` IT, `/en/archive/oel-N/` EN. **Richiede estrazione `ArchivioContent.astro` + `IssueContent.astro` prima.** |
@@ -198,7 +200,7 @@ Il middleware gira solo per route nel manifest. Fix: `[...path].astro` catch-all
 | Branch locali morti | Eliminare: `feat/arch-04-ssr`, `feat/articoli-rullo`, `feat/directus-migration`, `feat/i18n-master-plan`, `feat/seo-ux-improvements`, `hardening/resilience`, `master`, `safe/feat-i18n-align` |
 | File legacy in `src/data/` | Spostare in `_archive/`: `estrai_tutto.json`, `database_autori.csv`, `_legacy_articoli_megacluster.json`, `numeri_consolidati.json`, `media_articoli.csv` |
 | `blog/en.astro` | Verificare se sostituibile da `/en/index.astro` |
-| Mappe hardcoded `CAT_IT_TO_EN_SLUG` in `i18n.ts` | Rimuovere dopo SLUG-CAT-EN completato |
+| Mappe hardcoded `CAT_IT_TO_EN_SLUG` in `i18n.ts` | ✅ già rimosse — `categorie.json` è fonte unica |
 
 ---
 
