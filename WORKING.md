@@ -136,11 +136,14 @@ find dist/_worker.js -name "*.mjs" | xargs ls -lh | sort -k5 -rh | head -5
 
 ---
 
-## Slug convention articoli EN
+## Slug convention articoli EN (stato verificato 2026-04-25)
 
-Gli articoli EN in Directus hanno slug con suffisso `-en` (es. `il-progetto-dandelion-en`). L'URL pubblico rimuove il suffisso: `/en/il-progetto-dandelion/`. La route `src/pages/en/[slug].astro` usa un lookup a due tentativi: prima cerca lo slug esatto in Directus, poi tenta slug + `-en`. Questo gestisce sia i 131 articoli EN originali (che potrebbero avere slug irregolari) sia i 3470 nuovi dalla pipeline AI.
+**3339 articoli AI** (pipeline aprile 2026): slug EN pulito senza suffisso (es. `the-dandelion-project`).
+**42 articoli** (traduzioni manuali originali): ancora con suffisso `-en` (es. `storia-di-un-padre-en`). Da rinominare (task SLUG-EN).
 
-Non cambiare questa convenzione senza aggiornare tutti gli articoli EN e la route.
+La route `src/pages/en/[slug].astro` usa lookup a due tentativi per compatibilità con entrambe le forme: prima cerca slug esatto, poi tenta slug+`-en`. Questo resterà finché i 42 non saranno rinominati. Quando SLUG-EN è completato il secondo tentativo diventa dead code e va rimosso.
+
+Non rinominare i 42 articoli manualmente — usare lo script batch (da scrivere in SLUG-EN).
 
 ---
 

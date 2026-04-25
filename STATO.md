@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-25 (HOME-EN merged main — 1c4bbe90; AUT-01 ✅; URL-IT-01 ✅)
+**Ultimo aggiornamento:** 2026-04-25 (HOME-EN merged; audit Directus EN — slug/categorie/traduzione fotografati)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -30,9 +30,24 @@
 
 ---
 
+## Audit Directus EN — stato reale (verificato 2026-04-25 con curl)
+
+| Campo | Valore | Note |
+|---|---|---|
+| Articoli EN totali | 3470 | |
+| Slug con suffisso `-en` | **42** | Sopravvissuti traduzioni manuali originali. I 3339 AI hanno slug EN puliti. |
+| `articolo_traduzione` valorizzato | **3452 / 3470** (99,4%) | 18 orfani. Link IT↔EN quasi completo. |
+| `categoria_menu` valorizzato | **3436 / 3470** (99%) | Valori corretti: slug IT (`famiglia`, `progetti`, ecc.) — NON tradotti in inglese. |
+| `categoria_menu` NULL | **34** | Backfill residuo da fare. |
+| Slug EN sbagliati (`family`, `projects`…) | **0** | Il pipeline ha copiato correttamente lo slug IT. |
+
+**Conseguenza:** il bug `/en/category/projects/ = 4 articoli` NON è un problema di dati Directus (235 EN con `categoria_menu = 'progetti'` ci sono). È un problema di build/snapshot — da investigare in CAT-EN-BUILD.
+
+---
+
 ## Prossima azione immediata
 
-**SLUG-EN** — Fix strutturale URL articoli EN + categorie EN + language switcher (3 bug strutturali individuati post HOME-EN, vedi Note tecniche). Poi ARCH-EN.
+**CAT-EN-BUILD** — Capire perché `/en/category/projects/` mostra 4 articoli invece di 235 (i dati Directus sono corretti). Probabile causa: SSG usa `articoli_snapshot.json` invece di Directus live. Poi **SEARCH-01** (Algolia — blocker pre-lancio).
 
 ---
 
@@ -53,6 +68,7 @@ Il cutover avviene quando tutti i blockers sono verdi.
 | B-09 | → post-lancio | Sysadmin | UptimeRobot monitoring |
 | B-10 | → post-lancio | Sysadmin | Slack alert build |
 | B-11 | N/A | — | Iubenda ownerName `fedeeluce.it` è corretto (editore legale) |
+| B-13 | 🔴 | Dev | **Ricerca Algolia** — non si va in produzione senza ricerca funzionante. Indice creato, credenziali in `.env`. Da fare: script sync Directus→Algolia + integrazione frontend. Vedi CONTENUTI.md sezione Ricerca e SEARCH-01 backlog. |
 
 ---
 
@@ -69,7 +85,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 | ARCH-EN | 🟡 | M | Archivio numeri: versione per lingua — `/archivio/oel-N/` IT, `/en/archive/oel-N/` EN. **Richiede estrazione `ArchivioContent.astro` + `IssueContent.astro` prima.** |
 | DIARI-EN | 🟡 | M | Pagine diari: versione EN `/en/diaries/[diario]/` con articoli EN del diarista. **Richiede estrazione `DiariContent.astro` + `DiarioContent.astro` prima.** |
 | TAG-03 | 🟡 | S | Pagine tag filtro lingua: `/tag/[slug]` solo IT, `/en/tag/[slug]` solo EN. |
-| SEARCH-01 | 🟡 | L | Ricerca Algolia — indice `ombreeluci_articoli` creato, credenziali in `.env`. Script sync Directus→Algolia da scrivere. Vedi CONTENUTI.md sezione Ricerca. |
+| SEARCH-01 | 🔴 | L | **Ricerca Algolia — BLOCKER PRE-LANCIO** (→ B-13). Non si va in produzione senza ricerca. Indice `ombreeluci_articoli` creato, credenziali in `.env`. Da fare: script sync Directus→Algolia + integrazione frontend `/cerca` e `/en/search`. Decisione architetturale documentata in CONTENUTI.md (Opzione B scelta). |
 | VERT-01 | 🟡 | L | 8 pagine verticali WP da replicare con struttura multilingua fin dall'inizio: `mariangela-bertolini`, `autismo`, `cinema-e-disabilita`, `aktion-t4-sterminio-persone-disabilita`, `catechesi-e-disabilita`, `noi-papa-un-figlio-disabile`, `ciao-stefano-di-franco`, `studiosi-educatori-e-attivisti-ombre-e-luci` |
 | B-12 | 🟡 | M | Rivalutazione ruoli editoriali per categoria (dopo B-04) |
 | LINK-01 | 🟡 | S | 7 link IT↔EN ambigui + 11 no-match: `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |

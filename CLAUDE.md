@@ -104,4 +104,14 @@ Se ritorna risultati, la pipeline ha saltato il campo.
 
 - IT: `/it/{slug}/` — route `src/pages/it/[slug].astro` (URL-IT-01)
 - EN: `/en/{slug}/` — route `src/pages/en/[slug].astro`, lookup a due tentativi (slug esatto → slug+`-en`)
-- Regola slug generalizzata: lo slug URL di un articolo tradotto è sempre `dbSlug.replace(/-${lang}$/, '')`. Valida per EN, ES, FR — usare `toArticleUrlSlug(dbSlug, lang)` da `src/utils/i18n.ts` (da implementare in SLUG-EN).
+
+### Stato slug EN reale (verificato 2026-04-25 via curl Directus)
+
+| Gruppo | Quantità | Slug convention |
+|---|---|---|
+| Articoli AI (pipeline 2026-04-25) | ~3339 | Slug EN pulito, niente suffisso (es. `the-dandelion-project`) |
+| Traduzioni manuali originali | ~131 totali, **42 ancora con `-en`** | Slug con suffisso (es. `storia-di-un-padre-en`) |
+
+Il suffisso `-en` è quasi eliminato (97%). 42 articoli hanno ancora il suffisso — sono le traduzioni manuali originali non ancora rinominate. La route usa lookup a due tentativi per compatibilità con entrambe le forme. **Obiettivo:** portare a 0 i `-en` con script di rinomina su quei 42 (task SLUG-EN).
+
+Quando si arriverà a ES/FR: lo slug URL sarà sempre lo slug pulito senza suffisso. `toArticleUrlSlug(dbSlug, lang)` (da aggiungere in `src/utils/i18n.ts`) gestirà il caso generale.

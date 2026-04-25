@@ -120,12 +120,12 @@ Ogni nuova pagina creata (verticali, dossier, sezioni) deve essere progettata co
 
 Regola: la colonna "Route EN" diventa ✅ solo dopo che il componente condiviso è estratto e la route EN creata. Vedi CLAUDE.md "REGOLA FONDAMENTALE".
 
-### Slug convention EN
+### Slug convention EN (verificato 2026-04-25)
 
-Directus: `titolo-articolo-en` (suffisso `-en` nel DB).
-URL pubblico: `/en/titolo-articolo/` (suffisso rimosso).
-La route `en/[slug].astro` ricostruisce lo slug Directus aggiungendo `-en`.
-Non cambiare questa convenzione senza script di migrazione sui 131 articoli esistenti.
+**3339 articoli AI**: slug EN pulito, niente suffisso (es. `the-dandelion-project`). URL = slug diretto.
+**42 articoli** (traduzioni manuali originali): ancora con suffisso `-en`. URL rimuove il suffisso.
+La route `en/[slug].astro` usa lookup a due tentativi per gestire entrambi i casi.
+Obiettivo: rinominare i 42 con script batch (SLUG-EN) e rimuovere il secondo tentativo.
 
 ### Redirect matrix EN (immutabile)
 
@@ -161,28 +161,17 @@ Questo è il problema principale della ricerca, non la UX dei risultati.
 
 Problema secondario: i risultati non hanno faceting per tipo (articolo/autore/numero) né per lingua — tutto misto.
 
-### Decisione architetturale pendente (SEARCH-01)
+### Decisione architetturale — PRESA (2026-04-25)
 
-Prima di qualsiasi lavoro sulla UX della ricerca, decidere l'architettura. Le opzioni:
+**Opzione B — Algolia.** Blocker pre-lancio (B-13). Non si va in produzione senza ricerca funzionante.
 
-**Opzione A — Prerender tutti gli articoli (tornare a output:static per le pagine articolo)**
-- Pro: indice Pagefind completo, zero dipendenze esterne, funziona offline
-- Contro: build ~10-15 minuti, cache invalidation più complessa, pagine sempre stale fino al prossimo build
-- Nota: il sito era in questo stato fino a ARCH-04; il ritorno è tecnicamente semplice
+Motivazione: il corpus è 6866+ articoli (IT + EN), SSR per gli articoli IT rende impossibile l'indicizzazione Pagefind, e la ricerca è una funzionalità centrale per un archivio di 40 anni. Algolia free tier (10k records) è sufficiente per ora; se si supera il limite si passa a paid tier.
 
-**Opzione B — Algolia free tier (motore esterno)**
-- Pro: ricerca full-text su tutto il corpus, faceting nativo, aggiornamento in tempo reale
-- Contro: dipendenza esterna, sync pipeline da costruire (Directus → Algolia webhook), 10k records su free tier (sufficiente per 3527 articoli)
-- Nota: richiede 1-2 giorni di setup
-
-**Opzione C — Accettare la limitazione, migliorare solo UX**
-- Pro: zero lavoro tecnico
-- Contro: la ricerca non trova gli articoli — il difetto principale resta irrisolto
-- Nota: non raccomandato come soluzione permanente
-
-**Raccomandazione:** Opzione A se si vuole semplicità e zero dipendenze. Opzione B se si vuole ricerca di qualità con faceting e real-time. Opzione C non è una soluzione, è un rinvio.
-
-La decisione deve essere presa e documentata qui prima di qualsiasi implementazione.
+**Da fare (SEARCH-01):**
+1. Script sync Directus → Algolia: `scripts/algolia-sync.js` — indicizza `id, slug, titolo, sottotitolo, autore, categoria_menu, lang, data_pubblicazione, url` per tutti gli articoli published
+2. Webhook Directus che ri-sincronizza all'aggiornamento di un articolo
+3. Frontend: pagina `/cerca` (IT) e `/en/search` (EN) con `algoliasearch` client, faceting per `lang` e `categoria_menu`
+4. Smoke test: ricerca "famiglia" restituisce risultati IT, ricerca "family" restituisce risultati EN
 
 ### UX ricerca (da fare dopo decisione architetturale)
 
