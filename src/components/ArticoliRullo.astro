@@ -34,7 +34,7 @@ interface Props {
   locale?: Locale;
 }
 
-const { title, articoli, description = null, headingLevel = 1, pageSize, basePath = '', locale = 'it' } = Astro.props;
+const { title, articoli, description = null, headingLevel = 1, pageSize, basePath = '/it', locale = 'it' } = Astro.props;
 
 const usePageSize = pageSize != null && pageSize > 0;
 const firstPage = usePageSize ? articoli.slice(0, pageSize) : articoli;
@@ -166,7 +166,7 @@ const restData = rest.map((a) => {
       badge: string;
     }>;
     let loaded = 0;
-    const basePath = btn.dataset.basePath ?? '';
+    const basePath = btn.dataset.basePath ?? '/it';
     const locale = btn.dataset.locale === 'en' ? 'en-US' : 'it-IT';
     const authorByLabel = btn.dataset.authorBy ?? 'Di';
     const remainingLabel = btn.dataset.remainingLabel ?? 'rimanenti';

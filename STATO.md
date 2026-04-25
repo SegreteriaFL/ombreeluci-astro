@@ -1,18 +1,18 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-25
+**Ultimo aggiornamento:** 2026-04-25 (URL-IT-01: articoli IT su /it/)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
 
 ---
 
-## Stato attuale verificato (2026-04-24)
+## Stato attuale verificato (2026-04-25 — feat/url-it-prefix, da verificare dopo deploy)
 
 | Verifica | Esito |
 |----------|-------|
 | Home staging | ✅ 200 |
-| Articolo IT `/{slug}/` | ✅ 200 |
+| Articolo IT `/it/{slug}/` | ⏳ da verificare |
 | Articolo EN `/en/il-progetto-dandelion/` | ✅ 200, SSR, Cache-Control corretto |
 | Redirect `/blog/*-en/` → `/en/*/` | ✅ 301 |
 | Redirect `/blog/{slug}/` → `/{slug}/` | ✅ 301 |
