@@ -28,3 +28,16 @@ getCategoriaLabel(slugIT, lang)  // IT slug → label localizzata
 **Nuove pagine:** ogni nuova pagina (verticali, dossier, sezioni) va progettata multilingua fin dall'inizio, non retrofittata.
 
 Riferimento completo: `CONTENUTI.md` sezione "Principio di scalabilità multilingua".
+
+---
+
+## Componenti condivisi esistenti
+
+- `AuthorPageContent.astro` — pagina autore multilingua. Props: `lang`, `author`, `articles`, `basePath`. Usato da `autori/[slug].astro` (IT) e `en/authors/[slug].astro` (EN). Merge AUT-01, commit 60fcb27c.
+
+---
+
+## Routing canonical per lingua (stato 2026-04-25)
+
+- IT: `/it/{slug}/` — route `src/pages/it/[slug].astro` (URL-IT-01)
+- EN: `/en/{slug}/` — route `src/pages/en/[slug].astro`, lookup a due tentativi (slug esatto → slug+`-en`)

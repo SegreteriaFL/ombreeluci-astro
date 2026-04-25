@@ -9,7 +9,7 @@ architettura multilingua, routing lingue, ricerca, pagine autore, traduzione AI,
 
 | Risorsa | Quantità | Note |
 |---------|----------|------|
-| Articoli pubblicati | 3527 | IT: 3396, EN: 131 |
+| Articoli pubblicati | 3527 | IT: 3396, EN: 3470 published (traduzione AI completata 2026-04-25; base originale EN: 131 al 2026-03-22) |
 | Autori | 352 | 88 con foto su R2 (`autori/{uuid}`) |
 | Numeri rivista | 204 | Copertine su R2, `copertina_url` popolato |
 | Temi | 285 | M2M: 6676 relazioni articoli↔temi |
@@ -23,7 +23,7 @@ architettura multilingua, routing lingue, ricerca, pagine autore, traduzione AI,
 ### Principi (non negoziabili)
 
 - Il locale è determinato una volta per request e propagato ovunque (BaseLayout → Header → Footer → Commenti)
-- Routing lingua esplicito: IT default su `/{slug}`, EN su `/en/{slug}`, ES su `/es/{slug}`, FR su `/fr/{slug}`
+- Routing lingua esplicito: IT su `/it/{slug}`, EN su `/en/{slug}`, ES su `/es/{slug}`, FR su `/fr/{slug}`
 - Nessun URL indicizzato viene rotto: sempre 301 verso canonical nuovo
 - Traduzione massiva AI solo su base i18n tecnica stabile
 
@@ -196,14 +196,14 @@ Attualmente nessun autore ha bio in EN. Il campo non è stato aggiunto in Direct
 
 Per il lancio EN è sufficiente la soluzione rapida con `bio_en` nullable (fallback alla bio IT se vuota).
 
-### DoD pagine autore i18n
+### DoD pagine autore i18n — ✅ completato (AUT-01, merge 60fcb27c, 2026-04-25)
 
-- Route IT mostra solo articoli IT dell'autore
-- Route EN mostra solo articoli EN dell'autore
-- Componente condiviso: una modifica UI si propaga a entrambe le lingue
-- hreflang reciproco IT↔EN quando entrambe le versioni esistono
-- Bio in EN (anche se fallback a IT)
-- Pagina `/autori/redazione/` localizzata
+- ✅ Route IT mostra solo articoli IT dell'autore
+- ✅ Route EN mostra solo articoli EN dell'autore
+- ✅ Componente condiviso `AuthorPageContent.astro`: una modifica UI si propaga a entrambe le lingue
+- ✅ hreflang reciproco IT↔EN quando entrambe le versioni esistono
+- ✅ Bio in EN (campo `bio_en` nullable, fallback a bio IT)
+- ✅ Pagina `/autori/redazione/` localizzata
 
 ---
 
@@ -211,12 +211,7 @@ Per il lancio EN è sufficiente la soluzione rapida con `bio_en` nullable (fallb
 
 ### Stato
 
-Pipeline **bloccata** in attesa di:
-1. Smoke test SEO F2 completato (STATO.md B-02)
-2. Decisione SEARCH-01 implementata
-3. Pagine autore AUT-01 completate
-
-Motivo: tradurre 3265 articoli su una base con ricerca non funzionante e pagine autore incoerenti moltiplica i problemi esistenti.
+Pipeline **completata** — 3470 articoli EN published in Directus (2026-04-25). I 131 EN originali (traduzione manuale da WP) restano invariati. Audit qualità da eseguire post-lancio: campionamento redazionale, verifica quality gates, backfill link IT↔EN sui nuovi articoli.
 
 ### Corpus target
 

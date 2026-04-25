@@ -1,27 +1,27 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-25 (AUT-01: pagine autore multilingua)
+**Ultimo aggiornamento:** 2026-04-25 (AUT-01 merged main — 60fcb27c; URL-IT-01 ✅; EN 3470 articoli published)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
 
 ---
 
-## Stato attuale verificato (2026-04-25 — feat/aut-01-author-pages, build OK)
+## Stato attuale verificato (2026-04-25 — main, post-merge AUT-01 + URL-IT-01)
 
 | Verifica | Esito |
 |----------|-------|
 | Home staging | ✅ 200 |
-| Articolo IT `/it/{slug}/` | ⏳ da verificare dopo deploy |
+| Articolo IT `/it/{slug}/` | ✅ 200 |
 | Articolo EN `/en/il-progetto-dandelion/` | ✅ 200, SSR, Cache-Control corretto |
 | Redirect `/blog/*-en/` → `/en/*/` | ✅ 301 |
 | Redirect `/blog/{slug}/` → `/{slug}/` | ✅ 301 |
 | Pagina categoria IT | ✅ 200 |
 | Pagina categoria EN `/en/category/family/` | ✅ 200 |
-| Pagina autore IT `/autori/{slug}/` (filtro lang=it) | ✅ build OK |
-| Pagina autore EN `/en/authors/{slug}/` | ✅ build OK (352 pagine) |
+| Pagina autore IT `/autori/{slug}/` (filtro lang=it) | ✅ 200 |
+| Pagina autore EN `/en/authors/{slug}/` | ✅ 200 (352 autori, curl verde) |
 | Lista autori IT `/autori/` | ✅ 200 |
-| Lista autori EN `/en/authors/` | ✅ build OK |
+| Lista autori EN `/en/authors/` | ✅ 200 |
 | Archivio numero `/archivio/oel-171/` | ✅ 200 |
 | Pagina autore IT | ✅ 200 |
 | Badge categoria articolo lingua-aware | ✅ |
@@ -34,11 +34,7 @@
 
 ## Prossima azione immediata
 
-Tre bug da chiudere prima di qualsiasi altro lavoro:
-
-1. **TAG-404** — `/tag/*` mancante da `_routes.json` exclude. Fix: aggiungere `{ pattern: '/tag/*' }` a `astro.config.mjs` routes.extend.exclude.
-2. **SLUG-CAT-EN** — badge categoria e switcher usano slug IT nell'URL EN (es. `/en/category/famiglia` invece di `/en/category/family`). Fix: centralizzare mappatura in `categorie.json`, rimuovere mappe hardcoded da `i18n.ts`. Vedi CONTENUTI.md sezione "Principio di scalabilità multilingua".
-3. **SWITCHER-CAT** — switcher lingua da categoria IT porta a URL EN sbagliato. Dipende da fix n.2.
+**HOME-EN** (`src/pages/en/index.astro`) — Homepage inglese `/en/`: stessa struttura della homepage IT, articoli EN in rotazione. AUT-01 completato e merged su main (60fcb27c). Bug aperti in parallelo: TAG-404, SLUG-CAT-EN, SWITCHER-CAT (vedi Backlog pre-lancio).
 
 ---
 
@@ -123,6 +119,10 @@ Usare `extend.exclude` SOLO per pattern che Astro non genera automaticamente:
 
 Commit `34fbd576`.
 
+### EN articoli traduzione AI — 3470 published (2026-04-25)
+
+Pipeline traduzione AI completata. 3470 articoli EN published in Directus. I 131 EN originali (traduzione manuale da WP) restano invariati. Qualità da auditare post-lancio — non blocca il cutover. Route `en/[slug].astro` li serve via lookup a due tentativi: prima slug esatto, poi slug + `-en`. DA-06 aggiornato in backlog post-lancio.
+
 ### basePath default '' non '/' (2026-04-24)
 `ArticleCard.astro` e `ArticoliRullo.astro` avevano `basePath='/'` → href `//slug`. Fix: `basePath=''`. Commit `57100eff`.
 
@@ -141,7 +141,7 @@ Il middleware gira solo per route nel manifest. Fix: `[...path].astro` catch-all
 | DA-03 | Infra | Upgrade VPS CX23 → CX32 (prerequisito pgvector) |
 | DA-04 | AI | Ricerca semantica + correlati pgvector (dopo DA-03) |
 | DA-05 | Dati | 37 numeri rivista senza `pdf_archive_url`: scraping Archive.org |
-| DA-06 | Traduzioni | Pipeline traduzione AI IT→EN (~3265 articoli) — dopo SEARCH-01 + AUT-01 |
+| DA-06 | Traduzioni | ✅ Pipeline traduzione AI IT→EN completata — 3470 articoli EN published (2026-04-25). Audit qualità post-lancio. |
 | DA-06-ES | Traduzioni | Pipeline spagnolo — dopo chiusura EN |
 | TAG-01 | Frontend | Tag articoli non visibili nella pagina articolo |
 | DIR-01 | Directus | Pannello "Articoli correlati" in Directus durante scrittura |

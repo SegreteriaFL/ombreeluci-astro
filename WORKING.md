@@ -36,8 +36,8 @@ src/
 ├── pages/
 │   ├── index.astro              # Homepage (prerender)
 │   ├── [diario].astro           # Route dinamica diari (prerender) — attenzione ai conflitti
-│   ├── blog/[...slug].astro     # Articolo IT (SSR, s-maxage=3600)
-│   ├── en/[slug].astro          # Articolo EN (SSR)
+│   ├── it/[slug].astro           # Articolo IT (SSR, s-maxage=3600)
+│   ├── en/[slug].astro          # Articolo EN (SSR) — lookup a due tentativi: slug esatto, poi slug+'-en'
 │   ├── en/index.astro           # Indice EN
 │   ├── en/category/[slug].astro # Categoria EN
 │   ├── en/tag/[slug].astro      # Tag EN
@@ -138,9 +138,9 @@ find dist/_worker.js -name "*.mjs" | xargs ls -lh | sort -k5 -rh | head -5
 
 ## Slug convention articoli EN
 
-Gli articoli EN in Directus hanno slug con suffisso `-en` (es. `il-progetto-dandelion-en`). L'URL pubblico rimuove il suffisso: `/en/il-progetto-dandelion/`. La route `src/pages/en/[slug].astro` ricostruisce lo slug Directus aggiungendo `-en`.
+Gli articoli EN in Directus hanno slug con suffisso `-en` (es. `il-progetto-dandelion-en`). L'URL pubblico rimuove il suffisso: `/en/il-progetto-dandelion/`. La route `src/pages/en/[slug].astro` usa un lookup a due tentativi: prima cerca lo slug esatto in Directus, poi tenta slug + `-en`. Questo gestisce sia i 131 articoli EN originali (che potrebbero avere slug irregolari) sia i 3470 nuovi dalla pipeline AI.
 
-Non cambiare questa convenzione senza aggiornare tutti i 131 articoli EN esistenti e la route.
+Non cambiare questa convenzione senza aggiornare tutti gli articoli EN e la route.
 
 ---
 
