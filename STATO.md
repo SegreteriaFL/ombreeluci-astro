@@ -48,15 +48,15 @@
 | Campo | Valore | Note |
 |---|---|---|
 | Articoli EN totali | 3470 | |
-| EN published | **70** | Originals manuali sopravvissuti al rollback |
-| EN draft | **3400** | Rollback parziale avvenuto — articoli AI tornati a draft |
+| EN published | **3470** | Tutti published — zero draft (aggiornato 2026-04-25) |
+| EN draft | **0** | ✅ |
 | Slug con suffisso `-en` | **42** | Traduzioni manuali originali. Il suffisso è **necessario** (evita collisione slug IT). Non va rimosso. |
 | `articolo_traduzione` valorizzato | **3452 / 3470** (99,4%) | 18 orfani. Link IT↔EN quasi completo. |
 | `categoria_menu` valorizzato | **3436 / 3470** (99%) | Valori corretti: slug IT (`famiglia`, `progetti`, ecc.) — NON tradotti in inglese. |
 | `categoria_menu` NULL | **34** | Backfill residuo. |
 | Slug EN sbagliati (`family`, `projects`…) | **0** | Pipeline AI ha copiato correttamente lo slug IT. |
 
-**Spiegazione `/en/category/projects/` = 4 articoli:** i 235 EN con `categoria_menu = 'progetti'` ci sono, ma 231 sono draft. Mostrare 4 è **comportamento corretto** dato lo stato attuale. Quando gli articoli AI saranno pubblicati (dopo QA), le pagine categoria EN si popoleranno automaticamente — zero codice da toccare.
+**`/en/category/projects/`**: 235 EN con `categoria_menu = 'progetti'`, tutti published. Le pagine categoria EN sono ora popolate.
 
 ---
 
@@ -84,6 +84,7 @@ Il cutover avviene quando tutti i blockers sono verdi.
 | B-10 | → post-lancio | Sysadmin | Slack alert build |
 | B-11 | N/A | — | Iubenda ownerName `fedeeluce.it` è corretto (editore legale) |
 | B-13 | 🔴 | Dev | **Ricerca Algolia** — non si va in produzione senza ricerca funzionante. Indice creato, credenziali in `.env`. Da fare: script sync Directus→Algolia + integrazione frontend. Vedi CONTENUTI.md sezione Ricerca e SEARCH-01 backlog. |
+| B-14 | 🔴 | Dev | **URL-IT-02** — prefisso `/it/` sulle pagine sezione IT per simmetria con `/en/`. Se lasciato asimmetrico, aggiungere ES/FR genera URL incoerenti (`/es/archive/` ma IT è `/archivio/`). Richiede redirect 301 da URL vecchi. Da fare prima del lancio. |
 
 ---
 

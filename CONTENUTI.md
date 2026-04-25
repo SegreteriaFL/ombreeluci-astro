@@ -225,9 +225,18 @@ Per il lancio EN è sufficiente la soluzione rapida con `bio_en` nullable (fallb
 
 ## Traduzione AI (pipeline IT→EN)
 
-### Stato
+### Stato e politica editoriale (definitiva — non negoziabile)
 
-Pipeline **completata** — 3470 articoli EN published in Directus (2026-04-25). I 131 EN originali (traduzione manuale da WP) restano invariati. Audit qualità da eseguire post-lancio: campionamento redazionale, verifica quality gates, backfill link IT↔EN sui nuovi articoli.
+**Il sito va in produzione con tutti gli articoli tradotti pubblicati.** La traduzione Haiku è approssimativa e funzionale — è il punto di partenza, non il risultato finale. Non si aspetta la perfezione per andare online.
+
+| Fase | Cosa | Quando |
+|---|---|---|
+| Lancio | 3470 articoli EN **tutti published** | ✅ fatto 2026-04-25 |
+| Post-lancio IT | Campionamento redazionale, miglioramento iterativo su articoli prioritari | Dopo lancio |
+| Spagnolo ES | Pipeline Haiku IT→ES, pubblica tutto, migliora in iterazioni | Prima o contestuale al lancio |
+| FR e lingue future | Stesso modello | Dopo ES |
+
+3470 articoli EN published (di cui 42 con slug `-en` legacy, 3428 con slug EN pulito). Tutti published, zero draft.
 
 ### Corpus target
 
