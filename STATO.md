@@ -104,17 +104,20 @@ Tutto questo deve essere verde prima del cutover DNS.
 ### CSS leak is:global — ArticlePageLayout (2026-04-24)
 `.article-meta` e `.article-title` con `is:global` fuoriuscivano in `ArticleCard`. Fix: override scoped in `ArticleCard.astro`. Regola: `is:global` in componenti condivisi richiede prefisso wrapper univoco.
 
-### Routing _routes.json e catch-all SSR (2026-04-24)
-Con `[...path].astro` catch-all SSR, le route prerender dinamiche non entrano automaticamente nell'exclude. Vanno dichiarate in `astro.config.mjs` routes.extend.exclude. Commit `3e528a6c`. Ogni nuova route prerender dinamica richiede una voce nell'exclude.
+### Routing _routes.json e catch-all SSR (aggiornato 2026-04-25)
 
-Pattern attualmente in exclude:
+Regola corretta (2026-04-25): NON aggiungere wildcard manuali in `extend.exclude`
+per route prerender dinamiche. Astro/CF Pages genera automaticamente le entry
+specifiche per ogni pagina SSG. I wildcard manuali (es. `/categoria/*`) causano
+overlap con quelle entry → build failure Error 8000057.
+
+Usare `extend.exclude` SOLO per pattern che Astro non genera automaticamente:
 ```js
-{ pattern: '/categoria/*' }, { pattern: '/autori/*' }, { pattern: '/autori' },
-{ pattern: '/tag/*' }, { pattern: '/archivio/oel-*' }, { pattern: '/archivio/ins-*' },
-{ pattern: '/diari/*' }, { pattern: '/sezioni/*' }, { pattern: '/sezioni' },
-{ pattern: '/cerca' }, { pattern: '/sostienici' }, { pattern: '/newsletter' },
-{ pattern: '/debug/*' }, { pattern: '/test-*' }
+{ pattern: '/debug/*' },  // pagine non-SSG
+{ pattern: '/test-*' },   // pagine non-SSG
 ```
+
+Commit `34fbd576`.
 
 ### basePath default '' non '/' (2026-04-24)
 `ArticleCard.astro` e `ArticoliRullo.astro` avevano `basePath='/'` → href `//slug`. Fix: `basePath=''`. Commit `57100eff`.
