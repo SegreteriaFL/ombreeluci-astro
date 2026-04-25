@@ -1,10 +1,17 @@
 ---
 import { EMAIL } from '../../config/support.ts';
+
+interface Props {
+  lang?: 'it' | 'en';
+}
+const { lang = 'it' } = Astro.props;
+
 interface Item {
   q: string;
   a: string;
 }
-const items: Item[] = [
+
+const itemsIT: Item[] = [
   {
     q: 'Ricevuta o detraibilità?',
     a: `Siamo un ETS. Se ti serve attestazione scrivici a ${EMAIL}.`,
@@ -14,7 +21,7 @@ const items: Item[] = [
     a: 'Puoi impostare un bonifico ricorrente dalla tua banca (mensile o altro).',
   },
   {
-    q: 'Dall\'estero?',
+    q: "Dall'estero?",
     a: 'Contattaci e ti indichiamo il modo più semplice.',
   },
   {
@@ -22,6 +29,27 @@ const items: Item[] = [
     a: 'Da PayPal (nel tuo account) o annullando il bonifico ricorrente in banca.',
   },
 ];
+
+const itemsEN: Item[] = [
+  {
+    q: 'Receipt or tax deduction?',
+    a: `We are an ETS registered in Italy. For documentation write to us at ${EMAIL}.`,
+  },
+  {
+    q: 'Recurring donation without PayPal?',
+    a: 'You can set up a recurring bank transfer (monthly or otherwise).',
+  },
+  {
+    q: 'Donating from abroad?',
+    a: "Contact us and we'll suggest the simplest way.",
+  },
+  {
+    q: 'How to cancel?',
+    a: 'Via PayPal (in your account) or by cancelling the recurring bank transfer with your bank.',
+  },
+];
+
+const items = lang === 'en' ? itemsEN : itemsIT;
 ---
 
 <div class="faq-accordion" role="region" aria-label="Domande frequenti">

@@ -5,9 +5,15 @@ interface Props {
   /** Array di URL immagini per dissolvenza (timer 3s), tutte usate in sequenza */
   imageSrcs: string[];
   imageAlt?: string;
+  /** Override title (default Italian) */
+  title?: string;
+  /** Override subtitle (default Italian) */
+  subtitle?: string;
 }
-const { imageSrcs, imageAlt = 'Ombre e Luci' } = Astro.props;
+const { imageSrcs, imageAlt = 'Ombre e Luci', title, subtitle } = Astro.props;
 const sources = imageSrcs.length >= 1 ? imageSrcs : [''];
+const heroTitle = title ?? 'Sostieni Ombre e Luci';
+const heroSubtitle = subtitle ?? 'Aiutaci a tenere accesa la luce';
 ---
 
 <div class="support-page-layout" id="top">
@@ -30,8 +36,8 @@ const sources = imageSrcs.length >= 1 ? imageSrcs : [''];
   <div class="support-hero-right">
     <main class="site-main">
       <div class="support-hero-content">
-        <h1 class="support-hero-h1">Sostieni Ombre e Luci</h1>
-        <h2 class="support-hero-h2">Aiutaci a tenere accesa la luce</h2>
+        <h1 class="support-hero-h1">{heroTitle}</h1>
+        <h2 class="support-hero-h2">{heroSubtitle}</h2>
         <SupportBox />
       </div>
       <slot />

@@ -1,72 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CercaContent from '../components/CercaContent.astro';
 ---
 
 <BaseLayout
-  title={"Cerca"}
-  description={"Cerca articoli, autori e temi nella rivista Ombre e Luci"}
+  title="Cerca"
+  description="Cerca articoli, autori e temi nella rivista Ombre e Luci"
+  lang="it"
   noindex={true}
+  alternateArticleUrl="/en/search/"
 >
-    <main class="site-main">
-      <div class="container" style="padding-top: 2rem; padding-bottom: 4rem;">
-        <h1>Cerca</h1>
-        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Cerca tra oltre 3500 articoli della rivista Ombre e Luci dal 1983 ad oggi.</p>
-        <div id="search"></div>
-      </div>
-    </main>
-
-    <script>
-      import { PagefindUI } from '@pagefind/default-ui';
-      import '@pagefind/default-ui/css/ui.css';
-
-      // Pulisce l'input dell'header quando si lascia /cerca
-      document.addEventListener('astro:before-preparation', function () {
-        const headerInput = document.getElementById('header-search');
-        if (headerInput) (headerInput as HTMLInputElement).value = '';
-      });
-
-      document.addEventListener('astro:page-load', function () {
-        const el = document.getElementById('search');
-        if (!el) return;
-        el.innerHTML = '';
-
-        const ui = new PagefindUI({
-          element: '#search',
-          showSubResults: false,
-          showImages: true,
-          pageSize: 25,
-          translations: {
-            placeholder: 'Cerca articoli, autori, temi…',
-            zero_results: 'Nessun risultato per [SEARCH_TERM]',
-            many_results: '[COUNT] risultati per [SEARCH_TERM]',
-            one_result: '1 risultato per [SEARCH_TERM]',
-            loading: 'Caricamento…',
-            load_more: 'Carica altri risultati',
-          },
-        });
-
-        // Pre-riempie la ricerca se arriva dal form dell'header (?q=...)
-        const q = new URLSearchParams(window.location.search).get('q');
-        if (q) ui.triggerSearch(q);
-      });
-    </script>
+  <CercaContent lang="it" />
 </BaseLayout>
-
-<style>
-  .cerca-container {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 2rem 1rem 4rem;
-  }
-
-  .cerca-title {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-  }
-
-  .cerca-intro {
-    color: var(--text-secondary, #555);
-    margin-bottom: 2rem;
-  }
-</style>

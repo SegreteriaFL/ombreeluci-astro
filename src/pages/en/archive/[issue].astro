@@ -1,8 +1,8 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import IssueContent from '../../components/IssueContent.astro';
-import { getAllNumeriRivista, getNumeroImageUrl } from '../../lib/directus';
-import { getAllArticoliBuild } from '../../lib/articoli-build';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import IssueContent from '../../../components/IssueContent.astro';
+import { getAllNumeriRivista, getNumeroImageUrl } from '../../../lib/directus';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
 export async function getStaticPaths() {
   const rawNumeri = await getAllNumeriRivista();
@@ -24,8 +24,9 @@ export async function getStaticPaths() {
     const nextNumero = index < numeriOrdinati.length - 1 ? numeriOrdinati[index + 1] : null;
     const prevSlug = prevNumero ? prevNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
     const nextSlug = nextNumero ? nextNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
+    // For the EN page, we show EN articles (lang === 'en') for this issue
     const articoliNumero = allArticoli
-      .filter(a => a.numero_rivista?.id === numero.id && a.stato === 'published')
+      .filter(a => a.numero_rivista?.id === numero.id && a.stato === 'published' && a.lang === 'en')
       .sort((a, b) => {
         const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
         const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
@@ -44,19 +45,19 @@ const testata = numero.tipo === 'ins' ? 'Insieme' : 'Ombre e Luci';
 ---
 
 <BaseLayout
-  title={`${numero.display_title} – Archivio`}
-  description={numero.descrizione ?? `${testata} – ${numero.display_title}: sfoglia gli articoli e scarica il PDF.`}
+  title={`${numero.display_title} – Archive`}
+  description={`${testata} – ${numero.display_title}: browse articles and download the PDF.`}
   noindex={true}
   ogImage={copertinaNumeroUrl}
-  lang="it"
-  alternateArticleUrl={`/en/archive/${numero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-')}`}
+  lang="en"
+  alternateArticleUrl={`/archivio/${numero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-')}`}
 >
   <IssueContent
-    lang="it"
+    lang="en"
     numero={numero}
     prevSlug={prevSlug}
     nextSlug={nextSlug}
     articoliNumero={articoliNumero}
-    archiveBasePath="/archivio"
+    archiveBasePath="/en/archive"
   />
 </BaseLayout>

@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import NewsletterContent from '../../../components/NewsletterContent.astro';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
+
+const tuttiArticoli = await getAllArticoliBuild();
+const newsletters = tuttiArticoli
+  .filter(a => a.lang === 'en' && a.slug.toLowerCase().includes('newsletter'))
+  .sort((a, b) => {
+    const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+    const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+    return tB - tA;
+  });
+---
+
+<BaseLayout
+  title="Newsletter — Ombre e Luci"
+  description="Subscribe to the Ombre e Luci newsletter: articles, life stories and reflections on disability and fragility, delivered to your inbox."
+  lang="en"
+  noindex={true}
+  alternateArticleUrl="/newsletter"
+>
+  <NewsletterContent lang="en" newsletters={newsletters} />
+</BaseLayout>

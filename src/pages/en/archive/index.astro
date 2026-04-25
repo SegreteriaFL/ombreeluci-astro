@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArchivioContent from '../../../components/ArchivioContent.astro';
+import { getAllNumeriRivista } from '../../../lib/directus';
+
+const rawNumeri = await getAllNumeriRivista();
+const numeriOrdinati = [...rawNumeri].sort((a, b) =>
+  (b.anno_pubblicazione ?? 0) - (a.anno_pubblicazione ?? 0)
+);
+
+const anni = Array.from(new Set(numeriOrdinati.map((n) => n.anno_pubblicazione ?? 0)))
+  .filter((y) => y > 0)
+  .sort((a, b) => b - a);
+---
+
+<BaseLayout
+  title="Archive — Ombre e Luci"
+  description="Browse the issues of Ombre e Luci magazine since 1977."
+  noindex={true}
+  lang="en"
+  alternateArticleUrl="/archivio/"
+>
+  <ArchivioContent lang="en" numeriOrdinati={numeriOrdinati} anni={anni} />
+</BaseLayout>
