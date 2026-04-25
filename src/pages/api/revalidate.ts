@@ -61,7 +61,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
     return new Response('Server misconfiguration', { status: 500 });
   }
 
-  const articleUrl = `https://ombreeluci.it/${slug}/`;
+  const articleUrl = `https://ombreeluci.it/it/${slug}/`;
 
   const purgeRes = await fetch(
     `https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache`,

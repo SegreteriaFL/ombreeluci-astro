@@ -43,7 +43,7 @@ export const GET: APIRoute = async () => {
     articleUrls = articoli
       .filter(a => a.lang !== 'en')
       .map(a => url(
-        `/${a.slug}`,
+        `/it/${a.slug}`,
         a.data_pubblicazione ? new Date(a.data_pubblicazione).toISOString().slice(0, 10) : today
       ));
   } catch (e) {

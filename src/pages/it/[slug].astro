@@ -1,16 +1,16 @@
 ---
 export const prerender = false;
 
-import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getAutoreImageUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../lib/directus';
-import { getPlaceholder } from '../utils/placeholder';
-import ArticlePageLayout from '../layouts/ArticlePageLayout.astro';
-import EditorialFeedback from '../components/EditorialFeedback.astro';
-import ArticleCard from '../components/ArticleCard.astro';
-import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle, getCategoriaUrlSlug } from '../config/taxonomy.js';
-import { getLangFromUrl, t, localizeFormalType } from '../utils/i18n';
-import autoriStats from '../data/autori_stats.json';
-import LeggiAnche from '../components/LeggiAnche.astro';
-import Commenti from '../components/Commenti.astro';
+import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getAutoreImageUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
+import { getPlaceholder } from '../../utils/placeholder';
+import ArticlePageLayout from '../../layouts/ArticlePageLayout.astro';
+import EditorialFeedback from '../../components/EditorialFeedback.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle, getCategoriaUrlSlug } from '../../config/taxonomy.js';
+import { getLangFromUrl, t, localizeFormalType } from '../../utils/i18n';
+import autoriStats from '../../data/autori_stats.json';
+import LeggiAnche from '../../components/LeggiAnche.astro';
+import Commenti from '../../components/Commenti.astro';
 
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
@@ -287,7 +287,7 @@ const alternateItem = articolo.articolo_traduzione ?? null;
 const alternateArticleUrl = alternateItem
   ? alternateItem.lang === 'en'
     ? `${Astro.url.origin}/en/${alternateItem.slug.endsWith('-en') ? alternateItem.slug.slice(0, -3) : alternateItem.slug}`
-    : `${Astro.url.origin}/${alternateItem.slug}`
+    : `${Astro.url.origin}/it/${alternateItem.slug}`
   : null;
 
 // ── wpIdToSlugMap — solo dai correlati (per link enrichment client-side) ────────
@@ -313,7 +313,7 @@ for (const a of correlatiArticoli) {
     title: a.titolo,
     image: imgUrl,
     excerpt: a.sottotitolo?.trim() || null,
-    href: `/${a.slug}`,
+    href: isItalian ? `/it/${a.slug}` : `/en/${a.slug.endsWith('-en') ? a.slug.slice(0, -3) : a.slug}`,
     category,
     lang,
     isItalian,

@@ -29,16 +29,7 @@ console.log('[config] site:', site);
 export default defineConfig({
   site,
   output: 'hybrid',
-  adapter: cloudflare({
-    routes: {
-      extend: {
-        exclude: [
-          { pattern: '/debug/*' },
-          { pattern: '/test-*' },
-        ],
-      },
-    },
-  }),
+  adapter: cloudflare(),
   integrations: [pagefind()],
   vite: {
     define: {
