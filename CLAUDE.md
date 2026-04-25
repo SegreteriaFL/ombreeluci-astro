@@ -14,37 +14,27 @@ Flusso obbligatorio per qualsiasi pagina template:
 
 **Conseguenza pratica:** se stai creando una pagina EN copiando markup da una pagina IT, stai sbagliando. Fermati, estrai prima il componente, poi crea la route EN.
 
-**Stato attuale componenti condivisi:**
+**Stato attuale componenti condivisi (tutti estratti — 2026-04-25):**
 
-| Componente | Pagine che lo usano |
-|---|---|
-| `ArticlePageLayout.astro` | `/it/[slug]`, `/en/[slug]` |
-| `CategoriaPageContent.astro` | `/categoria/[cat]`, `/en/category/[slug]` |
-| `AuthorPageContent.astro` | `/autori/[slug]`, `/en/authors/[slug]` |
-| `ArticoliRullo.astro` | `/tag/[slug]`, `/en/tag/[slug]`, sezioni |
-| `ArticleCard.astro` | ovunque |
-| `BaseLayout.astro` | tutte le pagine |
+| Componente | Route IT | Route EN |
+|---|---|---|
+| `ArticlePageLayout.astro` | `/it/[slug]` | `/en/[slug]` |
+| `CategoriaPageContent.astro` | `/categoria/[cat]` | `/en/category/[slug]` |
+| `AuthorPageContent.astro` | `/autori/[slug]` | `/en/authors/[slug]` |
+| `HomePageContent.astro` | `/` | `/en/` |
+| `ChiSiamoContent.astro` | `/chi-siamo/` | `/en/about/` |
+| `SostienicContent.astro` | `/sostienici` | `/en/support-us/` |
+| `NewsletterContent.astro` | `/newsletter` | `/en/newsletter/` |
+| `CercaContent.astro` | `/cerca` | `/en/search/` |
+| `ArchivioContent.astro` | `/archivio/` | `/en/archive/` |
+| `IssueContent.astro` | `/archivio/[issue]` | `/en/archive/[issue]` |
+| `DiariContent.astro` | `/sezioni/diari` | `/en/diaries/` |
+| `DiarioContent.astro` | `/diari/[diario]` | `/en/diaries/[diario]` |
+| `ArticoliRullo.astro` | `/tag/[slug]`, `/archivio/web-only`, `/sezioni/dialogo-aperto` | `/en/tag/[slug]`, `/en/archive/web-only`, `/en/dialogue/` |
+| `ArticleCard.astro` | ovunque | ovunque |
+| `BaseLayout.astro` | tutte le pagine | tutte le pagine |
 
-**Pagine ancora da estrarre in componente condiviso (da fare prima di creare versioni EN):**
-
-| Pagina | Componente da creare | Route IT | Route EN target |
-|---|---|---|---|
-| Homepage | `HomePageContent.astro` | `/` | `/en/` ✅ già fatto |
-| Archivio rivista | `ArchivioContent.astro` | `/archivio/` | `/en/archive/` |
-| Numero rivista | `IssueContent.astro` | `/archivio/[issue]` | `/en/archive/[issue]` |
-| Archivio web-only | `WebOnlyContent.astro` | `/archivio/web-only` | `/en/archive/web-only` |
-| Sezione diari | `DiariContent.astro` | `/sezioni/diari` | `/en/diaries/` |
-| Diario singolo | `DiarioContent.astro` | `/diari/[diario]` | `/en/diaries/[diario]` |
-| Dialogo Aperto | `DialogoApertoContent.astro` | `/sezioni/dialogo-aperto` | `/en/dialogue/` |
-| Chi siamo | `ChiSiamoContent.astro` | `/chi-siamo/` | `/en/about/` |
-| La redazione | `RedazioneContent.astro` | `/chi-siamo/la-redazione` | `/en/about/team/` |
-| Collaboratori | `CollaboratoriContent.astro` | `/chi-siamo/collaboratori` | `/en/about/contributors/` |
-| La rivista | `LaRivistaContent.astro` | `/chi-siamo/la-rivista` | `/en/about/magazine/` |
-| Contatti | `ContattiContent.astro` | `/chi-siamo/contatti` | `/en/about/contact/` |
-| Sostienici | `SostienicContent.astro` | `/sostienici` | `/en/support-us/` |
-| Newsletter | `NewsletterContent.astro` | `/newsletter` | `/en/newsletter/` |
-| Autori index | `AutoriIndexContent.astro` | `/autori/` | `/en/authors/` ✅ già fatto |
-| Cerca | `CercaContent.astro` | `/cerca` | `/en/search/` |
+**Aggiungere una nuova lingua (ES, FR):** creare `src/pages/es/` con gli stessi file route, passare `lang="es"` ai componenti. Zero markup da duplicare.
 
 ---
 
