@@ -1,38 +1,163 @@
 ---
-/**
- * EN article index: /en/
- * SSR — mostra tutti gli articoli EN via ArticoliRullo (load-more incluso).
- */
-export const prerender = false;
-
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import ArticoliRullo from '../../components/ArticoliRullo.astro';
-import { t } from '../../utils/i18n';
-import { getArticoliEN, directusCredsFromAstroLocals } from '../../lib/directus';
+import HomePageContent from '../../components/HomePageContent.astro';
+import {
+  getMegaclusterForArticle,
+  getLabels,
+  getRoleWeight,
+  getCategorySlugForArticle,
+  getCategoriaUrlSlug,
+  getCategoriaLabel,
+} from '../../config/taxonomy.js';
+import numeriData from '../../data/numeri_consolidati.json';
+import { getAllArticoliBuild } from '../../lib/articoli-build';
+import { getArticoloCopertinaSrc } from '../../lib/directus';
 
-const creds = directusCredsFromAstroLocals(Astro.locals);
-const englishArticles = await getArticoliEN(creds);
+type NumeroRecord = {
+  id_numero: string;
+  tipo_rivista: string;
+  numero_progressivo: number;
+  anno_pubblicazione: number;
+  display_title?: string;
+  titolo_numero?: string;
+  periodo_label?: string | null;
+  sommario_lancio?: string | null;
+  seo_description?: string | null;
+  descrizione_ai?: string | null;
+  copertina_url?: string | null;
+  [key: string]: unknown;
+};
 
-Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
+const numeri = numeriData as NumeroRecord[];
+const numeriOEL = [...numeri]
+  .filter((n) => n.tipo_rivista === 'ombre_e_luci')
+  .sort((a, b) => {
+    if (a.anno_pubblicazione !== b.anno_pubblicazione)
+      return b.anno_pubblicazione - a.anno_pubblicazione;
+    return (b.numero_progressivo ?? 0) - (a.numero_progressivo ?? 0);
+  });
+
+const ultimoNumero = numeriOEL[0] ?? null;
+const issueSlug = ultimoNumero
+  ? ultimoNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-')
+  : '';
+const numeriPerCarousel = numeriOEL.slice(0, 20);
+
+const allArticlesRaw = await getAllArticoliBuild();
+const allArticlesEN = allArticlesRaw.filter((a) => a.lang === 'en');
+const allArticlesIT = allArticlesRaw.filter((a) => a.lang !== 'en');
+
+type ArticoloItem = (typeof allArticlesRaw)[0];
+
+function sortByDate(articles: ArticoloItem[]) {
+  return [...articles].sort((a, b) => {
+    const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+    const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+    if (tA !== tB) return tB - tA;
+    const wA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
+    const wB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
+    return wB - wA;
+  });
+}
+
+function getArticleMeta(a: ArticoloItem) {
+  const { categoria_menu } = getMegaclusterForArticle(a);
+  const image = getArticoloCopertinaSrc(a);
+  const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+  return {
+    slug: a.slug,
+    title: a.titolo || 'Untitled',
+    author: a.autore?.nome_completo || 'Unknown author',
+    date,
+    image,
+    sommario: a.sottotitolo?.trim() || undefined,
+    categoria_menu: categoria_menu ?? undefined,
+    issue: a.numero_rivista?.id_numero ?? null,
+  };
+}
+
+const sortedEN = sortByDate(allArticlesEN);
+const sortedIT = sortByDate(allArticlesIT);
+
+const eighteenMonthsAgo = new Date();
+eighteenMonthsAgo.setMonth(eighteenMonthsAgo.getMonth() - 18);
+
+const featuredPool = (() => {
+  const portanti = sortedEN.filter((a) => {
+    const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(0);
+    const { ruolo_editoriale } = getMegaclusterForArticle(a);
+    return (ruolo_editoriale === 'portante' || ruolo_editoriale === 'strutturale') && date >= eighteenMonthsAgo;
+  });
+  return (portanti.length >= 2 ? portanti : sortedEN).slice(0, 7);
+})().map((a) => getArticleMeta(a));
+
+const poolSlugs = new Set(featuredPool.map((m) => m.slug));
+const remaining = sortedEN.filter((a) => !poolSlugs.has(a.slug));
+const latestArticles = remaining.slice(0, 6).map((a) => getArticleMeta(a));
+const closeUpArticles = remaining.slice(6, 10).map((a) => getArticleMeta(a));
+
+const testimonianze = sortedEN
+  .filter((a) => getLabels([], a).formal === 'Testimonianza')
+  .slice(0, 2)
+  .map((a) => getArticleMeta(a));
+
+// IT articles for representative category images (EN articles have known category bug)
+const EXPLORE_CATEGORIES_IT = [
+  'Fede e Luce', 'Famiglia', 'Spiritualità', 'Cultura',
+  'Scuola e educazione', 'Salute', 'Lavoro', 'Personaggi che ispirano',
+];
+
+const exploreItems = EXPLORE_CATEGORIES_IT.map((catLabelIT) => {
+  const article = sortedIT.find((a) => getMegaclusterForArticle(a).categoria_menu === catLabelIT);
+  if (!article) return null;
+  const slugIT = getCategorySlugForArticle(article);
+  if (!slugIT) return null;
+  const enSlug = getCategoriaUrlSlug(slugIT, 'en');
+  if (!enSlug) return null;
+  const catLabel = getCategoriaLabel(slugIT, 'en') || catLabelIT;
+  return {
+    catLabel,
+    catUrl: `/en/category/${enSlug}`,
+    meta: getArticleMeta(article),
+  };
+}).filter((x): x is NonNullable<typeof x> => x !== null);
 ---
 
 <BaseLayout
-  title={t('en', 'english_articles')}
-  description="Articles from Ombre e Luci available in English."
+  title="Ombre e Luci – A new perspective through disability"
+  description="Ombre e Luci: stories, reflections and culture on fragility and human dignity. Since 1983."
   lang="en"
-  canonical="https://ombreeluci.it/en/"
-  pathname="/en/"
+  noindex={true}
+  bodyClass="home-page"
+  alternateArticleUrl="/"
 >
-  <main class="site-main">
-    <div class="container">
-      <ArticoliRullo
-        title={t('en', 'english_articles')}
-        description="Articles from Ombre e Luci available in English."
-        articoli={englishArticles}
-        pageSize={24}
-        basePath="/en"
-        locale="en"
-      />
-    </div>
-  </main>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify([
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Ombre e Luci",
+        "url": "https://ombreeluci.it",
+        "inLanguage": "en",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ombreeluci.it/en/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ])} />
+  </Fragment>
+
+  <HomePageContent
+    lang="en"
+    featuredPool={featuredPool}
+    latestArticles={latestArticles}
+    diariCards={[]}
+    closeUpArticles={closeUpArticles}
+    testimonianze={testimonianze}
+    exploreItems={exploreItems}
+    numeriPerCarousel={numeriPerCarousel}
+    ultimoNumero={ultimoNumero}
+    issueSlug={issueSlug}
+  />
 </BaseLayout>
