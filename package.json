@@ -9,6 +9,7 @@
     "start": "astro dev",
     "prebuild": "node -e \"require('node:fs').copyFileSync('src/data/correlati.json','public/correlati.json')\"",
     "build": "astro build",
+    "postbuild": "node scripts/fix-routes.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "test": "npm run test:smoke",
