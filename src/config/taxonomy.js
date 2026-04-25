@@ -293,6 +293,36 @@ export function getThemesWithSlugs() {
   });
 }
 
+/**
+ * IT slug (Directus) → URL slug per la lingua target.
+ * Es: getCategoriaUrlSlug('famiglia', 'en') → 'family'
+ * @param {string} slugIT - slug canonico IT (es. "famiglia")
+ * @param {'it'|'en'} lang
+ * @returns {string}
+ */
+export function getCategoriaUrlSlug(slugIT, lang) {
+  const cat = categorieData.categorie.find((c) => c.slug === slugIT);
+  if (!cat) return slugIT;
+  if (lang === 'en') return cat.en_slug ?? slugIT;
+  return slugIT;
+}
+
+/**
+ * URL slug per lingua → slug IT canonico (Directus).
+ * Es: getCategoriaSlugIT('family', 'en') → 'famiglia'
+ * @param {string} slugLang - slug come appare nell'URL
+ * @param {'it'|'en'} lang
+ * @returns {string}
+ */
+export function getCategoriaSlugIT(slugLang, lang) {
+  if (lang === 'it') return slugLang;
+  if (lang === 'en') {
+    const cat = categorieData.categorie.find((c) => c.en_slug === slugLang);
+    return cat?.slug ?? slugLang;
+  }
+  return slugLang;
+}
+
 function slugifyLabel(label) {
   return String(label)
     .toLowerCase()

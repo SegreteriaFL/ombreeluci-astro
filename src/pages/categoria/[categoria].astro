@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CategoriaPageContent from '../../components/CategoriaPageContent.astro';
-import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
+import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight, getCategoriaUrlSlug } from '../../config/taxonomy.js';
 import { getCategoriaDescrizione, getArticoliInEvidenza } from '../../lib/directus';
 import { getAllArticoliBuild } from '../../lib/articoli-build';
 
@@ -48,7 +48,7 @@ export async function getStaticPaths() {
 
 const { articoli, categoryLabel, descrizione, evidenza } = Astro.props;
 const { categoria } = Astro.params;
-const alternateArticleUrl = `/en/category/${categoria}`;
+const alternateArticleUrl = `/en/category/${getCategoriaUrlSlug(categoria, 'en')}/`;
 ---
 
 <BaseLayout

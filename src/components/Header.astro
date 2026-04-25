@@ -1,8 +1,8 @@
 ---
 import logo from '../assets/logo.svg';
 import ultimoNumeroData from '../data/ultimo-numero.json';
-import { getThemesWithSlugs, getCategoriaLabel } from '../config/taxonomy.js';
-import { getLangFromUrl, t, localizeIssuePeriodLabel, CAT_IT_TO_EN_SLUG } from '../utils/i18n';
+import { getThemesWithSlugs, getCategoriaLabel, getCategoriaUrlSlug } from '../config/taxonomy.js';
+import { getLangFromUrl, t, localizeIssuePeriodLabel } from '../utils/i18n';
 import LanguageSelector from './LanguageSelector.astro';
 
 interface Props {
@@ -28,8 +28,7 @@ function isActive(href: string): boolean {
 }
 
 const catBase = lang === 'en' ? '/en/category' : '/categoria';
-const catSlug = (itSlug: string) =>
-  lang === 'en' ? (CAT_IT_TO_EN_SLUG[itSlug] ?? itSlug) : itSlug;
+const catSlug = (itSlug: string) => getCategoriaUrlSlug(itSlug, lang);
 
 const temi = getThemesWithSlugs()
   .filter((t) => t.nomeCompleto !== 'Personaggi che ispirano')
