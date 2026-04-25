@@ -1,53 +1,34 @@
 # Ombre e Luci
 
-Sito archivio della rivista Ombre e Luci, costruito con Astro. Database finale: **3488 articoli** in `src/data/articoli_megacluster.json`.
+Sito archivio della rivista cattolica Ombre e Luci (1983–oggi). 3527 articoli, multilingua IT/EN.
 
-## Documentazione
+**Stack:** Astro hybrid SSR · Cloudflare Pages · Directus 11 · PostgreSQL 16 · Cloudflare R2
 
-- **Stato di stabilità e istruzioni:** [PROGRESS.md](./PROGRESS.md) — architettura dati, merge (V5 + Export PHP + API), autori (bio/foto), fix mobile, comandi per rigenerare.
-- **Architettura dati:** [docs/ARCHITETTURA_DATI.md](./docs/ARCHITETTURA_DATI.md) — colonne V5, script di build, dipendenze.
+## Documentazione — dove trovare cosa
 
-## Rigenerare dati
+| Cosa cerchi | Documento |
+|---|---|
+| Stato attuale, cosa fare ora, blockers | `STATO.md` |
+| Come si lavora, regole operative, gate | `WORKING.md` |
+| Regole architetturali, componenti, i18n | `CLAUDE.md` |
+| Contenuti, lingue, ricerca, traduzioni | `CONTENUTI.md` |
+| Stack, deploy, backup, env vars | `INFRASTRUTTURA.md` |
+| Incident playbook, restore DB | `RUNBOOK.md` |
+| Regole editoriali (per la redazione) | `NORME_EDITORIALI_OEL.md` |
 
-```bash
-node scripts/merge_media.js
-node scripts/build_articoli_megacluster.js
-```
+## Comandi principali
 
-## 🚀 Project Structure
+| Comando | Azione |
+|---|---|
+| `npm run dev` | Dev server locale (non SSR — usa wrangler per SSR) |
+| `npm run build` | Build produzione |
+| `npx wrangler pages dev ./dist` | Simula CF Pages edge runtime in locale |
+| `npm run test:smoke` | Smoke test i18n (richiede `SMOKE_BASE_URL`) |
 
-Inside of your Astro project, you'll see the following folders and files:
+## URL
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`     |
-| `npm run dev -- --host`   | Same + accessibile in LAN (es. mobile sulla stessa Wi‑Fi) |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
+| Ambiente | URL |
+|---|---|
+| Staging | https://ombreeluci-staging.pages.dev |
+| CMS | https://cms.ombreeluci.it |
+| Produzione (WP, da sostituire) | https://ombreeluci.it |

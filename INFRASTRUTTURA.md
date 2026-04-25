@@ -72,6 +72,18 @@ src/
 
 ---
 
+## Media (immagini)
+
+### Limiti e policy immagini
+
+- Dimensione massima upload in Directus: configurare `MAX_PAYLOAD_SIZE=50mb` in docker-compose.yml
+- Ottimizzazione: Cloudflare Image Resizing disponibile su piano Pro. Attualmente non attivo — le immagini vengono servite full-size da R2.
+- Cache R2: aggiungere `Cache-Control: public, max-age=31536000, immutable` via CF Transform Rule (PF-02 in backlog).
+- Formato consigliato per upload: WebP o JPEG, max 2MB per copertine articoli.
+- Immagini inline nel corpo articoli: su R2 in `corpo/{uuid}`, src aggiornati in Directus.
+
+---
+
 ## Backup
 
 | Cosa | Frequenza | Dove | Script |

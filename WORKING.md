@@ -189,6 +189,25 @@ Per audit o diagnosi **senza** parola d'ordine di implementazione: solo lettura,
 Al termine di ogni sessione di implementazione: aggiornare STATO.md con i task chiusi e i nuovi task emersi.
 
 ---
+
+## Pre-cutover DNS — verifica redirect obbligatoria
+
+Prima del cutover DNS da Aruba a Cloudflare, eseguire verifica completa dei redirect WP→Astro.
+
+Il CF Worker gestisce i redirect in produzione. Su staging i redirect legacy sono in `src/middleware.ts` + `src/data/redirects-legacy.json` (1001 slug) + regex date-based.
+
+Verifica pre-cutover:
+1. Esportare lista URL WP da Google Search Console (tutti gli URL indicizzati)
+2. Per ogni URL verificare che esista un redirect 301 verso il nuovo URL
+3. Zero catene di redirect (max 1 hop)
+4. Zero redirect verso pagine 404
+
+Script di verifica: `scripts/verify-redirects.mjs` (da creare prima del cutover).
+
+Questo non è opzionale. 15 anni di indicizzazione WP sono a rischio se i redirect non sono corretti al momento del cutover.
+
+---
+
 ## Staging vs produzione — regola fondamentale
 
 **Il sito in produzione è `ombreeluci.it` su Aruba (WordPress). Non viene toccato.**
