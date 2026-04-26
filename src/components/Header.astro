@@ -33,7 +33,7 @@ const catSlug = (itSlug: string) => getCategoriaUrlSlug(itSlug, lang);
 
 const temi = getThemesWithSlugs()
   .filter((t) => t.nomeCompleto !== 'Personaggi che ispirano')
-  .map((t) => ({ ...t, nome: getCategoriaLabel(t.slug, lang) ?? t.nome, href: `${catBase}/${catSlug(t.slug)}` }));
+  .map((t) => ({ ...t, nome: lang === 'it' ? t.nome : (getCategoriaLabel(t.slug, lang) ?? t.nome), href: `${catBase}/${catSlug(t.slug)}` }));
 
 const homeHref    = lang === 'en' ? '/en/' : '/';
 const aboutHref   = lang === 'en' ? '/en/about/' : '/chi-siamo';
