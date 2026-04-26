@@ -5,6 +5,7 @@ import { getThemesWithSlugs, getCategoriaLabel, getCategoriaUrlSlug } from '../c
 import rubricheData from '../data/rubriche.json';
 import { getLangFromUrl, t, localizeIssuePeriodLabel } from '../utils/i18n';
 import LanguageSelector from './LanguageSelector.astro';
+import AutocompleteWidget from './AutocompleteWidget.astro';
 
 interface Props {
   pathname?: string;
@@ -67,23 +68,7 @@ const archivioLinks = [
         <img src={logo.src} alt="Ombre e Luci" class="logo" />
       </a>
 
-      <form class="search-form" action={searchHref} method="get" aria-label={t(lang, 'search_label')}>
-        <label for="header-search" class="search-label">{t(lang, 'search_label')}</label>
-        <input
-          id="header-search"
-          type="search"
-          name="q"
-          placeholder={t(lang, 'search_placeholder')}
-          class="search-input"
-          aria-label={t(lang, 'search_label')}
-        />
-        <button type="submit" class="search-button" aria-label={t(lang, 'search_label')}>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <circle cx="11" cy="11" r="8"></circle>
-            <path d="m21 21-4.35-4.35"></path>
-          </svg>
-        </button>
-      </form>
+      <AutocompleteWidget lang={lang} searchHref={searchHref} />
 
       <div class="header-end">
         <LanguageSelector lang={lang} pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
