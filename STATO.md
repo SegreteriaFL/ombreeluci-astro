@@ -7,7 +7,7 @@
 
 ---
 
-## Stato attuale verificato (2026-04-25 — main, post-merge static-pages-en)
+## Stato attuale verificato (2026-04-26 — main, post-merge rubriche)
 
 | Verifica | Esito |
 |----------|-------|
@@ -35,7 +35,12 @@
 | Diari IT `/sezioni/diari` | ✅ 200, `DiariContent.astro` |
 | Diaries EN `/en/diaries/` | ✅ 200, `DiariContent.astro` lang=en |
 | Web-only IT/EN | ✅ `ArticoliRullo.astro` condiviso |
-| Dialogo aperto IT/EN | ✅ `ArticoliRullo.astro` condiviso |
+| Dialogo aperto IT/EN | ✅ `RubricaPageContent.astro` — `/rubriche/dialogo-aperto/`, `/en/sections/open-dialogue/` |
+| Diari IT/EN (hub) | ✅ `/rubriche/diari/`, `/en/sections/diaries/` — `DiariContent.astro` |
+| Editoriali IT/EN | ✅ `/rubriche/editoriali/`, `/en/sections/editorials/` — `RubricaPageContent.astro` |
+| Interviste IT/EN | ✅ `/rubriche/interviste/`, `/en/sections/interviews/` |
+| Testimonianze IT/EN | ✅ `/rubriche/testimonianze/`, `/en/sections/testimonies/` |
+| Recensioni IT/EN | ✅ `/rubriche/recensioni/`, `/en/sections/reviews/` |
 | Tag IT/EN | ✅ 200 |
 | Redirect `/blog/*` | ✅ 301 |
 | CORS Directus | ✅ |
@@ -62,9 +67,7 @@
 
 ## Prossima azione immediata
 
-**RUBRICHE** — Refactor tassonomia: `/categoria/` solo temi, `/rubriche/` per rubriche editoriali. Piano dettagliato in `PIANO_RUBRICHE.md`. Eseguire leggendo quel file dall'inizio alla fine.
-
-Poi: **SEARCH-01 / B-13 — Algolia** (blocker pre-lancio).
+**SEARCH-01 / B-13 — Algolia** (blocker pre-lancio). Script sync Directus→Algolia + integrazione frontend `/cerca` e `/en/search`.
 
 ---
 

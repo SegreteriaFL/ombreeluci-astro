@@ -15,10 +15,6 @@
     { "slug": "spiritualita",               "it": "Spiritualità",             "en": "Spirituality",      "en_slug": "spirituality" },
     { "slug": "sport",                      "it": "Sport",                    "en": "Sport",             "en_slug": "sport" },
     { "slug": "tempo-libero",               "it": "Tempo libero",             "en": "Leisure",           "en_slug": "leisure" },
-    { "slug": "da-categorizzare",           "it": "Da categorizzare",         "en": "To be categorized", "en_slug": "da-categorizzare" },
-    { "slug": "testimonianze",              "it": "Testimonianze",            "en": "Testimonies",       "en_slug": "testimonies" },
-    { "slug": "interviste",                 "it": "Interviste",               "en": "Interviews",        "en_slug": "interviews" },
-    { "slug": "recensioni",                 "it": "Recensioni",               "en": "Reviews",           "en_slug": "reviews" },
-    { "slug": "editoriali",                 "it": "Editoriali",               "en": "Editorials",        "en_slug": "editorials" }
+    { "slug": "da-categorizzare",           "it": "Da categorizzare",         "en": "To be categorized", "en_slug": "da-categorizzare" }
   ]
 }

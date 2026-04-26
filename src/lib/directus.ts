@@ -601,6 +601,30 @@ export async function getArticoliByCategoria(
   return data?.data ?? [];
 }
 
+/**
+ * Articoli pubblicati per valore del campo `forma` (es. "Editoriale", "Dialogo Aperto").
+ * URLSearchParams encode automaticamente lo spazio in "Dialogo Aperto" → "Dialogo%20Aperto".
+ */
+export async function getArticoliByForma(
+  forma: string,
+  lang: 'it' | 'en',
+  creds?: DirectusRuntimeCreds
+): Promise<ArticoloFull[]> {
+  const params = new URLSearchParams({
+    'filter[stato][_eq]': 'published',
+    'filter[forma][_eq]': forma,
+    'filter[lang][_eq]': lang,
+    fields: ARTICOLO_LIST_FIELDS,
+    limit: '-1',
+    sort: '-data_pubblicazione',
+  });
+  const data = await directusFetch<{ data: ArticoloFull[] }>(
+    `/items/articoli?${params}`,
+    creds
+  );
+  return data?.data ?? [];
+}
+
 export async function getArticoliByTag(
   tagSlug: string,
   creds?: DirectusRuntimeCreds

@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CategoriaPageContent from '../../components/CategoriaPageContent.astro';
-import { getLabels, getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight, getCategoriaUrlSlug } from '../../config/taxonomy.js';
+import { getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight, getCategoriaUrlSlug } from '../../config/taxonomy.js';
 import { getCategoriaDescrizione, getArticoliInEvidenza } from '../../lib/directus';
 import { getAllArticoliBuild } from '../../lib/articoli-build';
 
@@ -16,10 +16,6 @@ export async function getStaticPaths() {
       if (cat?.type === 'thematic') {
         const { tema_label } = getMegaclusterForArticle(a);
         return tema_label === label;
-      }
-      if (cat?.type === 'formal') {
-        const { formal } = getLabels([], a);
-        return formal === label;
       }
       return false;
     }).sort((a, b) => {

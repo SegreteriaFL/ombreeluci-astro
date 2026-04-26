@@ -106,9 +106,9 @@ Ogni nuova pagina creata (verticali, dossier, sezioni) deve essere progettata co
 | Archivio rivista | `/archivio/` | `/en/archive/` | ✅ `ArchivioContent.astro` |
 | Numero rivista | `/archivio/[issue]` | `/en/archive/[issue]` | ✅ `IssueContent.astro` |
 | Archivio web-only | `/archivio/web-only` | `/en/archive/web-only` | ✅ `ArticoliRullo.astro` (già condiviso) |
-| Sezione diari | `/sezioni/diari` | `/en/diaries/` | ✅ `DiariContent.astro` |
+| Rubriche (editoriali, interviste, testimonianze, recensioni, dialogo-aperto) | `/rubriche/[slug]` | `/en/sections/[slug]` | ✅ `RubricaPageContent.astro` |
+| Diari (hub) | `/rubriche/diari` | `/en/sections/diaries/` | ✅ `DiariContent.astro` |
 | Diario singolo | `/diari/[diario]` | `/en/diaries/[diario]` | ✅ `DiarioContent.astro` |
-| Dialogo Aperto | `/sezioni/dialogo-aperto` | `/en/dialogue/` | ✅ `ArticoliRullo.astro` (già condiviso) |
 | Chi siamo | `/chi-siamo/` | `/en/about/` | ✅ `ChiSiamoContent.astro` |
 | La redazione | `/chi-siamo/la-redazione` | → `/chi-siamo#la-redazione` (redirect) | ✅ sezione in ChiSiamoContent |
 | Collaboratori | `/chi-siamo/collaboratori` | → `/chi-siamo#collaboratori` (redirect) | ✅ sezione in ChiSiamoContent |

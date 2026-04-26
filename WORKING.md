@@ -29,7 +29,8 @@ src/
 │   └── articoli-build.ts    # Wrapper build-time con fallback snapshot
 ├── data/
 │   ├── articoli_snapshot.json   # Fallback 3527 articoli (aggiornato ogni lunedì)
-│   ├── categorie.json           # 14 slug canonici + label {it,en}
+│   ├── categorie.json           # Slug tematici canonici + label {it,en} (NO rubriche)
+│   ├── rubriche.json            # 6 rubriche editoriali: slug, en_slug, filtro, valore
 │   ├── correlati.json           # 3487 articoli × 5 vicini UMAP (non importare staticamente in SSR)
 │   ├── ultimo-numero.json       # ~200B — ultimo numero OEL per Header
 │   └── redirects-legacy.json   # ~1001 slug redirect legacy
@@ -40,15 +41,19 @@ src/
 │   ├── en/[slug].astro          # Articolo EN (SSR) — lookup a due tentativi: slug esatto, poi slug+'-en'
 │   ├── en/index.astro           # Indice EN
 │   ├── en/category/[slug].astro # Categoria EN
+│   ├── en/sections/[slug].astro # Rubrica EN (SSR) — legge rubriche.json, chiama getArticoliByForma
+│   ├── en/sections/diaries.astro# Override statico per /en/sections/diaries/ (DiariContent)
 │   ├── en/tag/[slug].astro      # Tag EN
 │   ├── tag/[slug].astro         # Tag IT
-│   ├── categoria/[categoria].astro
+│   ├── categoria/[categoria].astro  # Solo temi (campo tema_label)
+│   ├── rubriche/[rubrica].astro # Rubrica IT SSG — legge rubriche.json, filtro per forma
+│   ├── rubriche/diari.astro     # Override statico per /rubriche/diari/ (DiariContent)
 │   ├── autori/[slug].astro
 │   ├── archivio/[issue].astro
 │   └── cerca.astro              # Ricerca Pagefind
 ├── components/                  # Tutti i componenti Astro
 ├── config/
-│   └── taxonomy.js              # getCategoriaLabel(), getMegaclusterForArticle()
+│   └── taxonomy.js              # getCategoriaLabel(), getRubricaBySlug(), getFormaToRubricaSlug()
 └── middleware.ts                # Redirect legacy per host *.pages.dev
 ```
 

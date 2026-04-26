@@ -1,0 +1,49 @@
+---
+export const prerender = false;
+
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import RubricaPageContent from '../../../components/RubricaPageContent.astro';
+import DiariContent from '../../../components/DiariContent.astro';
+import rubricheData from '../../../data/rubriche.json';
+import { getArticoliByForma, directusCredsFromAstroLocals, getAllAutori, getAutoreImageUrl, getCategoriaDescrizione } from '../../../lib/directus';
+import { getDiaristiWithMeta, NOMI_DIARISTI } from '../../../data/diari.ts';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
+
+const { slug } = Astro.params;
+const rubrica = rubricheData.find((r) => r.en_slug === slug);
+
+if (!rubrica) {
+  return Astro.redirect('/en/', 302);
+}
+
+const creds = directusCredsFromAstroLocals(Astro.locals);
+
+let articoli = [];
+let diaristiConMeta = [];
+let articoliDiari = [];
+let diariDescrizione = null;
+
+if (rubrica.filtro === 'forma') {
+  articoli = await getArticoliByForma(rubrica.valore, 'en', creds);
+  if (articoli.length === 0) {
+    return Astro.redirect('/en/', 302);
+  }
+} else {
+  // filtro === 'autori' → diari (non dovrebbe arrivare qui, diaries.astro ha priorità)
+  return Astro.redirect('/en/sections/diaries/', 301);
+}
+
+const alternateItUrl = `/rubriche/${rubrica.slug}/`;
+---
+
+<BaseLayout
+  title={rubrica.en}
+  description={`${rubrica.en}: section of Ombre e Luci`}
+  noindex={true}
+  lang="en"
+  alternateArticleUrl={alternateItUrl}
+>
+  <main class="site-main">
+    <RubricaPageContent lang="en" rubrica={rubrica} articoli={articoli} />
+  </main>
+</BaseLayout>

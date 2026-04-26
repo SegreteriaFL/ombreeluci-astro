@@ -1,0 +1,8 @@
+[
+  { "slug": "editoriali",    "en_slug": "editorials",    "it": "Editoriali",     "en": "Editorials",     "filtro": "forma", "valore": "Editoriale"     },
+  { "slug": "interviste",    "en_slug": "interviews",    "it": "Interviste",     "en": "Interviews",     "filtro": "forma", "valore": "Intervista"     },
+  { "slug": "testimonianze", "en_slug": "testimonies",   "it": "Testimonianze",  "en": "Testimonies",    "filtro": "forma", "valore": "Testimonianza"  },
+  { "slug": "recensioni",    "en_slug": "reviews",       "it": "Recensioni",     "en": "Reviews",        "filtro": "forma", "valore": "Recensione"     },
+  { "slug": "dialogo-aperto","en_slug": "open-dialogue", "it": "Dialogo Aperto", "en": "Open Dialogue",  "filtro": "forma", "valore": "Dialogo Aperto" },
+  { "slug": "diari",         "en_slug": "diaries",       "it": "I Diari",        "en": "The Diaries",    "filtro": "autori","valore": "diaristi"       }
+]

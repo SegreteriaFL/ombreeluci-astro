@@ -2,6 +2,7 @@
 import logo from '../assets/logo.svg';
 import ultimoNumeroData from '../data/ultimo-numero.json';
 import { getThemesWithSlugs, getCategoriaLabel, getCategoriaUrlSlug } from '../config/taxonomy.js';
+import rubricheData from '../data/rubriche.json';
 import { getLangFromUrl, t, localizeIssuePeriodLabel } from '../utils/i18n';
 import LanguageSelector from './LanguageSelector.astro';
 
@@ -47,14 +48,10 @@ const issueSlug = ultimoNumero
   : '';
 const issueHref = lang === 'en' ? `/en/archive/${issueSlug}` : `/archivio/${issueSlug}`;
 
-const sezioniForme = [
-  { nome: t(lang, 'footer_editorials'), href: `${catBase}/${catSlug('editoriali')}` },
-  { nome: t(lang, 'footer_testimonials'), href: `${catBase}/${catSlug('testimonianze')}` },
-  { nome: t(lang, 'footer_interviews'), href: `${catBase}/${catSlug('interviste')}` },
-  { nome: t(lang, 'footer_reviews'), href: `${catBase}/${catSlug('recensioni')}` },
-  { nome: t(lang, 'footer_diari'), href: lang === 'en' ? '/en/diaries/' : '/sezioni/diari' },
-  { nome: lang === 'en' ? 'Open Dialogue' : 'Dialogo aperto', href: lang === 'en' ? '/en/dialogue/' : '/sezioni/dialogo-aperto' },
-];
+const sezioniForme = rubricheData.map((r) => ({
+  nome: lang === 'en' ? r.en : r.it,
+  href: lang === 'en' ? `/en/sections/${r.en_slug}/` : `/rubriche/${r.slug}/`,
+}));
 const archivioLinks = [
   { nome: t(lang, 'nav_latest'), slug: homeHref },
   { nome: t(lang, 'nav_archive_full'), slug: archiveHref },

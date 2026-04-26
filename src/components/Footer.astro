@@ -1,6 +1,7 @@
 ---
 import logo from '../assets/logo.svg';
 import { getThemesWithSlugs, getCategoriaLabel, getCategoriaUrlSlug } from '../config/taxonomy.js';
+import rubricheData from '../data/rubriche.json';
 import { RUNTS, CODICE_FISCALE } from '../config/support.ts';
 import { getLangFromUrl, t } from '../utils/i18n';
 
@@ -22,14 +23,10 @@ const meta = Math.ceil(temi.length / 2);
 const temiCol1 = temi.slice(0, meta);
 const temiCol2 = temi.slice(meta);
 
-const sezioniFormali = [
-  { nome: t(lang, 'footer_editorials'), href: '/categoria/editoriali' },
-  { nome: t(lang, 'footer_testimonials'), href: '/categoria/testimonianze' },
-  { nome: t(lang, 'footer_interviews'), href: '/categoria/interviste' },
-  { nome: t(lang, 'footer_reviews'), href: '/categoria/recensioni' },
-  { nome: t(lang, 'footer_diari'), href: '/sezioni/diari' },
-  { nome: lang === 'en' ? 'Open Dialogue' : 'Dialogo aperto', href: '/sezioni/dialogo-aperto' },
-];
+const sezioniFormali = rubricheData.map((r) => ({
+  nome: lang === 'en' ? r.en : r.it,
+  href: lang === 'en' ? `/en/sections/${r.en_slug}/` : `/rubriche/${r.slug}/`,
+}));
 
 const aboutLinks = [
   { nome: t(lang, 'footer_about'), slug: '/chi-siamo' },
@@ -37,7 +34,7 @@ const aboutLinks = [
   { nome: t(lang, 'footer_redaction_history'), slug: '/chi-siamo#redazione-storica' },
   { nome: t(lang, 'footer_collaborators'), slug: '/chi-siamo#collaboratori' },
   { nome: t(lang, 'footer_wrote_for_us'), slug: '/chi-siamo#hanno-scritto-per-noi' },
-  { nome: t(lang, 'footer_diari'), slug: '/sezioni/diari' },
+  { nome: t(lang, 'footer_diari'), slug: lang === 'en' ? '/en/sections/diaries/' : '/rubriche/diari/' },
   { nome: t(lang, 'footer_contacts'), slug: '/chi-siamo#contatti' },
   { nome: t(lang, 'nav_newsletter'), slug: '/newsletter' },
 ];

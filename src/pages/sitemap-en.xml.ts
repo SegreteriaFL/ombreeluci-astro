@@ -8,6 +8,7 @@
  */
 import type { APIRoute } from 'astro';
 import { getAllArticoliBuild } from '../lib/articoli-build';
+import rubricheData from '../data/rubriche.json';
 
 export const prerender = true;
 
@@ -30,6 +31,11 @@ export const GET: APIRoute = async ({ site }) => {
     return `  <url>\n    <loc>${siteUrl}/en/${urlSlug}/</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>`;
   });
 
+  // Sections EN
+  const sectionsEntries = rubricheData.map(
+    (r) => `  <url>\n    <loc>${siteUrl}/en/sections/${r.en_slug}/</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>`
+  );
+
   // Aggiungi la pagina indice EN
   const indexEntry = `  <url>\n    <loc>${siteUrl}/en/</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`;
 
@@ -37,6 +43,7 @@ export const GET: APIRoute = async ({ site }) => {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${indexEntry}
+${sectionsEntries.join('\n')}
 ${entries.join('\n')}
 </urlset>`;
 

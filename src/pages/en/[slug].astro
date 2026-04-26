@@ -21,7 +21,7 @@ import { getPlaceholder } from '../../utils/placeholder';
 import ArticlePageLayout from '../../layouts/ArticlePageLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle, getCategoriaUrlSlug } from '../../config/taxonomy.js';
+import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle, getCategoriaUrlSlug, getFormaToRubricaSlug, getRubricaUrlSlug } from '../../config/taxonomy.js';
 import { t, localizeFormalType, localizeCategory, localizeTheme } from '../../utils/i18n';
 import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
@@ -251,6 +251,10 @@ const formaDisplay =
   currentLabels.formal && currentLabels.formal !== 'Articolo'
     ? localizeFormalType(currentLabels.formal, locale)
     : null;
+const rubricaSlugIT = getFormaToRubricaSlug(currentLabels.formal);
+const formaLink = rubricaSlugIT
+  ? `/en/sections/${getRubricaUrlSlug(rubricaSlugIT, 'en')}/`
+  : null;
 const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
 const showPubblicatoOnline = !hasIssue;
 
@@ -455,7 +459,10 @@ const alternates: { lang: string; url: string }[] = [
           <nav class="article-category-badge" aria-label={badgeIssueAriaLabel}>
             {issueLink && <a href={issueLink} class="article-badge-link">{issueLabel} {issueNumber}</a>}
             {issueLink && (formaDisplay || categoryDisplay) && <span class="article-badge-sep"> • </span>}
-            {formaDisplay && <span class="article-badge-text">{formaDisplay}</span>}
+            {formaDisplay && (formaLink
+              ? <a href={formaLink} class="article-badge-link">{formaDisplay}</a>
+              : <span class="article-badge-text">{formaDisplay}</span>
+            )}
             {formaDisplay && categoryDisplay && <span class="article-badge-sep"> / </span>}
             {categoryDisplay && (categoryLink ? (
               <a href={categoryLink} class="article-badge-link">{categoryDisplay}</a>

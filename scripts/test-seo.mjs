@@ -12,6 +12,10 @@ const PAGES_TO_TEST = [
   { url: '/en/authors/jean-vanier/', lang: 'en', expectCanonical: true },
   { url: '/', lang: 'it', expectCanonical: true },
   { url: '/en/', lang: 'en', expectCanonical: true },
+  { url: '/rubriche/editoriali/', lang: 'it', expectCanonical: true, expectHreflang: true },
+  { url: '/rubriche/diari/', lang: 'it', expectCanonical: true, expectHreflang: true },
+  { url: '/en/sections/editorials/', lang: 'en', expectCanonical: true, expectHreflang: true },
+  { url: '/en/sections/diaries/', lang: 'en', expectCanonical: true, expectHreflang: true },
 ];
 
 let passed = 0, failed = 0;

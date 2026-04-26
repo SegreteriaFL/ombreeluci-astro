@@ -11,6 +11,7 @@
 
 import taxonomyData from '../data/taxonomy_structure.json';
 import categorieData from '../data/categorie.json';
+import rubricheData from '../data/rubriche.json';
 
 const SLUG_TO_TEMA = taxonomyData.slugToTema;
 const TEMA_TO_CATEGORIA = taxonomyData.temaToCategoria;
@@ -196,27 +197,20 @@ export function getAllThemes() {
 }
 
 /**
- * Restituisce tutti gli slug di categoria: temi Megacluster (slug) + forme (interviste, recensioni, ...).
+ * Restituisce tutti gli slug di categoria tematici (campo tema_label/categoria_menu).
+ * Le rubriche (editoriali, interviste, testimonianze, recensioni, dialogo-aperto, diari)
+ * sono ora in src/data/rubriche.json e non più in categorie.json.
  * @returns {string[]}
  */
 export function getAllCategorySlugs() {
-  const temaSlugs = Object.keys(SLUG_TO_TEMA);
-  const formalSlugs = ['interviste', 'recensioni', 'testimonianze', 'editoriali'];
-  return [...temaSlugs, ...formalSlugs];
+  return Object.keys(SLUG_TO_TEMA);
 }
-
-const SLUG_TO_FORMAL = {
-  interviste: 'Intervista',
-  recensioni: 'Recensione',
-  testimonianze: 'Testimonianza',
-  editoriali: 'Editoriale',
-};
 
 /**
  * Dato lo slug dell'URL, restituisce { type, label, displayLabel } per filtrare e mostrare.
  * label = tema_label (per filtro articoli); displayLabel = categoria_menu (per titolo/menu).
  * @param {string} slug - slug dalla URL (lowercase)
- * @returns {{ type: 'thematic'|'formal', label: string, displayLabel?: string } | null}
+ * @returns {{ type: 'thematic', label: string, displayLabel?: string } | null}
  */
 export function getCategoryBySlug(slug) {
   const s = (slug || '').toLowerCase().trim();
@@ -228,10 +222,52 @@ export function getCategoryBySlug(slug) {
       displayLabel: TEMA_TO_CATEGORIA[temaLabel] ?? temaLabel,
     };
   }
-  if (SLUG_TO_FORMAL[s]) {
-    return { type: 'formal', label: SLUG_TO_FORMAL[s] };
-  }
   return null;
+}
+
+// ── Helper rubriche ───────────────────────────────────────────────────────────
+
+/**
+ * Restituisce l'oggetto rubrica dato lo slug IT (es. "editoriali").
+ * @param {string} slug
+ * @returns {import('../data/rubriche.json')[0] | undefined}
+ */
+export function getRubricaBySlug(slug) {
+  return rubricheData.find((r) => r.slug === slug);
+}
+
+/**
+ * Restituisce l'oggetto rubrica dato lo slug EN (es. "editorials").
+ * @param {string} enSlug
+ * @returns {import('../data/rubriche.json')[0] | undefined}
+ */
+export function getRubricaByEnSlug(enSlug) {
+  return rubricheData.find((r) => r.en_slug === enSlug);
+}
+
+/**
+ * Dato il valore del campo `forma` (es. "Editoriale"), restituisce lo slug IT della rubrica.
+ * Utile per costruire il link badge in pagina articolo.
+ * @param {string|null|undefined} forma
+ * @returns {string | null}
+ */
+export function getFormaToRubricaSlug(forma) {
+  if (!forma) return null;
+  const r = rubricheData.find((r) => r.filtro === 'forma' && r.valore === forma);
+  return r?.slug ?? null;
+}
+
+/**
+ * Slug IT rubrica → slug nella lingua target.
+ * @param {string} slugIT
+ * @param {'it'|'en'} lang
+ * @returns {string}
+ */
+export function getRubricaUrlSlug(slugIT, lang) {
+  const r = rubricheData.find((r) => r.slug === slugIT);
+  if (!r) return slugIT;
+  if (lang === 'en') return r.en_slug;
+  return slugIT;
 }
 
 /**

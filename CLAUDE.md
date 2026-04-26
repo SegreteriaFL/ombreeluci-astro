@@ -14,12 +14,13 @@ Flusso obbligatorio per qualsiasi pagina template:
 
 **Conseguenza pratica:** se stai creando una pagina EN copiando markup da una pagina IT, stai sbagliando. Fermati, estrai prima il componente, poi crea la route EN.
 
-**Stato attuale componenti condivisi (tutti estratti — 2026-04-25):**
+**Stato attuale componenti condivisi (tutti estratti — 2026-04-26):**
 
 | Componente | Route IT | Route EN |
 |---|---|---|
 | `ArticlePageLayout.astro` | `/it/[slug]` | `/en/[slug]` |
 | `CategoriaPageContent.astro` | `/categoria/[cat]` | `/en/category/[slug]` |
+| `RubricaPageContent.astro` | `/rubriche/[rubrica]` | `/en/sections/[slug]` |
 | `AuthorPageContent.astro` | `/autori/[slug]` | `/en/authors/[slug]` |
 | `HomePageContent.astro` | `/` | `/en/` |
 | `ChiSiamoContent.astro` | `/chi-siamo/` | `/en/about/` |
@@ -28,9 +29,9 @@ Flusso obbligatorio per qualsiasi pagina template:
 | `CercaContent.astro` | `/cerca` | `/en/search/` |
 | `ArchivioContent.astro` | `/archivio/` | `/en/archive/` |
 | `IssueContent.astro` | `/archivio/[issue]` | `/en/archive/[issue]` |
-| `DiariContent.astro` | `/sezioni/diari` | `/en/diaries/` |
+| `DiariContent.astro` | `/rubriche/diari` | `/en/sections/diaries/` |
 | `DiarioContent.astro` | `/diari/[diario]` | `/en/diaries/[diario]` |
-| `ArticoliRullo.astro` | `/tag/[slug]`, `/archivio/web-only`, `/sezioni/dialogo-aperto` | `/en/tag/[slug]`, `/en/archive/web-only`, `/en/dialogue/` |
+| `ArticoliRullo.astro` | `/tag/[slug]`, `/archivio/web-only` | `/en/tag/[slug]`, `/en/archive/web-only` |
 | `ArticleCard.astro` | ovunque | ovunque |
 | `BaseLayout.astro` | tutte le pagine | tutte le pagine |
 

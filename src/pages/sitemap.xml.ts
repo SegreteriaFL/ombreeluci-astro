@@ -9,6 +9,7 @@ export const prerender = true;
 import type { APIRoute } from 'astro';
 import { getAllArticoliBuild } from '../lib/articoli-build';
 import { getAllCategorySlugs } from '../config/taxonomy.js';
+import rubricheData from '../data/rubriche.json';
 
 const SITE = 'https://ombreeluci.it';
 
@@ -27,9 +28,10 @@ export const GET: APIRoute = async () => {
     { path: '/chi-siamo' },
     { path: '/sostienici' },
     { path: '/newsletter' },
-    { path: '/sezioni/diari' },
-    { path: '/sezioni/dialogo-aperto' },
   ];
+
+  // Rubriche IT
+  const rubrichePages = rubricheData.map((r) => ({ path: `/rubriche/${r.slug}/` }));
 
   // 2. Categorie
   const categorySlugs: string[] = getAllCategorySlugs();
@@ -50,7 +52,7 @@ export const GET: APIRoute = async () => {
     console.warn('[sitemap] Directus fetch failed, articles omitted:', e);
   }
 
-  const staticUrls = [...staticPages, ...categoryPages].map(p => url(p.path));
+  const staticUrls = [...staticPages, ...categoryPages, ...rubrichePages].map(p => url(p.path));
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

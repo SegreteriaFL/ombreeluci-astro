@@ -1,0 +1,298 @@
+---
+/**
+ * RubricaPageContent — layout condiviso per pagine rubrica (IT e EN).
+ * Identico a CategoriaPageContent ma per rubriche: editoriali, interviste,
+ * testimonianze, recensioni, dialogo-aperto, diari.
+ */
+import ArticleCard from './ArticleCard.astro';
+import { getLabels, getMegaclusterForArticle, getRoleWeight } from '../config/taxonomy.js';
+import { getArticoloCopertinaSrc, getAutoreImageUrl } from '../lib/directus';
+import type { ArticoloFull } from '../lib/directus';
+import { t, type Locale } from '../utils/i18n';
+
+interface Rubrica {
+  slug: string;
+  en_slug: string;
+  it: string;
+  en: string;
+  filtro: string;
+  valore: string;
+}
+
+interface Props {
+  lang: Locale;
+  rubrica: Rubrica;
+  articoli: ArticoloFull[];
+}
+
+const { lang, rubrica, articoli } = Astro.props;
+
+const basePath = lang === 'en' ? '/en' : '/it';
+const rubricaLabel = lang === 'en' ? rubrica.en : rubrica.it;
+
+const alternateItUrl = `/rubriche/${rubrica.slug}/`;
+const alternateEnUrl = `/en/sections/${rubrica.en_slug}/`;
+
+const sorted = articoli;
+const hero = sorted[0] ?? null;
+const rest = sorted.slice(1);
+
+const evidenzaEffettiva = sorted
+  .filter((a) => {
+    const r = getMegaclusterForArticle(a).ruolo_editoriale;
+    return r === 'portante' || r === 'strutturale';
+  })
+  .sort(
+    (a, b) =>
+      getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale) -
+      getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale)
+  )
+  .slice(0, 5);
+
+const hasEvidenza = evidenzaEffettiva.length > 0;
+const evidenzaTitle = lang === 'en' ? 'Featured' : 'In evidenza';
+const authorFallback = t(lang, 'author_unknown');
+---
+
+<div class="categoria-container">
+  <header class="categoria-header">
+    <h1 class="categoria-title">{rubricaLabel}</h1>
+    <p class="categoria-count">
+      {articoli.length}
+      {lang === 'en'
+        ? (articoli.length === 1 ? 'article' : 'articles')
+        : (articoli.length === 1 ? 'articolo' : 'articoli')}
+    </p>
+  </header>
+
+  <div class={`categoria-body${hasEvidenza ? '' : ' categoria-body--no-evidenza'}`}>
+
+    <div class="feed-col">
+      {hero && (() => {
+        const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(hero);
+        const { formal } = getLabels([], hero);
+        return (
+          <div class="hero-wrap">
+            <ArticleCard
+              title={hero.titolo}
+              slug={hero.slug}
+              basePath={basePath}
+              categoriaMenu={categoria_menu ?? hero.categoria_menu ?? undefined}
+              issue={hero.numero_rivista?.id_numero ?? null}
+              forma={formal}
+              author={hero.autore?.nome_completo ?? authorFallback}
+              date={hero.data_pubblicazione ? new Date(hero.data_pubblicazione) : new Date()}
+              image={getArticoloCopertinaSrc(hero)}
+              ruoloEditoriale={ruolo_editoriale ?? undefined}
+              lang={lang}
+            />
+          </div>
+        );
+      })()}
+
+      <div class="articles-list">
+        {rest.map((a) => {
+          const { categoria_menu, ruolo_editoriale } = getMegaclusterForArticle(a);
+          const { formal } = getLabels([], a);
+          const autFotoId = (a.autore as any)?.foto?.id;
+          return (
+            <ArticleCard
+              title={a.titolo}
+              slug={a.slug}
+              basePath={basePath}
+              categoriaMenu={categoria_menu ?? a.categoria_menu ?? undefined}
+              issue={a.numero_rivista?.id_numero ?? null}
+              forma={formal}
+              author={a.autore?.nome_completo ?? authorFallback}
+              date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+              image={getArticoloCopertinaSrc(a)}
+              ruoloEditoriale={ruolo_editoriale ?? undefined}
+              horizontal={true}
+              sottotitolo={a.sottotitolo ?? null}
+              authorImage={autFotoId ? getAutoreImageUrl(autFotoId) : null}
+              lang={lang}
+            />
+          );
+        })}
+      </div>
+    </div>
+
+    {hasEvidenza && (
+      <aside class="evidenza-col">
+        <h2 class="evidenza-title">{evidenzaTitle}</h2>
+        <div class="evidenza-list">
+          {evidenzaEffettiva.map((a, idx) => {
+            const { ruolo_editoriale } = getMegaclusterForArticle(a);
+            const { formal } = getLabels([], a);
+            return (
+              <ArticleCard
+                title={a.titolo}
+                slug={a.slug}
+                basePath={basePath}
+                issue={a.numero_rivista?.id_numero ?? null}
+                forma={formal}
+                author={a.autore?.nome_completo ?? authorFallback}
+                date={a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date()}
+                image={getArticoloCopertinaSrc(a)}
+                hideImage={idx !== 0}
+                ruoloEditoriale={ruolo_editoriale ?? undefined}
+                lang={lang}
+              />
+            );
+          })}
+        </div>
+      </aside>
+    )}
+
+  </div>
+</div>
+
+<style>
+  .categoria-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+
+  .categoria-header {
+    margin-bottom: 2rem;
+  }
+
+  .categoria-title {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+  }
+
+  .categoria-count {
+    font-size: 1rem;
+    color: var(--text-secondary);
+  }
+
+  .categoria-body {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .categoria-body--no-evidenza {
+    grid-template-columns: 1fr;
+  }
+
+  .feed-col .hero-wrap {
+    margin-bottom: 2rem;
+  }
+
+  .articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .articles-list :global(.article-card) {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .articles-list :global(.article-card--horizontal .article-image-wrap) {
+    width: 200px;
+    min-width: 200px;
+    aspect-ratio: 4/3;
+  }
+
+  .evidenza-col {
+    position: sticky;
+    top: calc(var(--header-height, 72px) + 1.5rem);
+  }
+
+  .evidenza-title {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-color);
+  }
+
+  .evidenza-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .evidenza-list :global(.article-card) {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .evidenza-list :global(.article-card:first-child) {
+    padding-top: 0;
+  }
+
+  .evidenza-list :global(.article-title) {
+    font-size: 0.9375rem;
+    -webkit-line-clamp: 2;
+  }
+
+  .evidenza-list :global(.author-row) {
+    font-size: 0.75rem;
+  }
+
+  .evidenza-list :global(.article-badge) {
+    font-size: 11px;
+  }
+
+  @media (max-width: 1024px) {
+    .categoria-body {
+      grid-template-columns: 1fr;
+    }
+    .evidenza-col {
+      position: static;
+      border-top: 1px solid var(--border-color, #e8e6e3);
+      padding-top: 2rem;
+    }
+    .evidenza-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .categoria-container {
+      padding: 1.5rem 1.25rem;
+    }
+    .categoria-title {
+      font-size: 1.75rem;
+    }
+    .articles-list :global(.article-card--horizontal .article-image-wrap) {
+      width: 120px;
+      min-width: 120px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .categoria-container {
+      padding: 1.25rem 1rem;
+    }
+    .categoria-title {
+      font-size: 1.5rem;
+    }
+    .evidenza-list {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .articles-list :global(.article-card--horizontal .article-image-wrap) {
+      width: 90px;
+      min-width: 90px;
+    }
+  }
+</style>
