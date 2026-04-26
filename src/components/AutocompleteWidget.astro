@@ -103,12 +103,14 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
     if (!appId || !searchKey) return;
 
     const l = LABELS[lang] ?? LABELS.it;
-    // Wrapper v4-compat: autocomplete-js v1 chiama search([...]) (v4),
-    // liteClient v5 espone search({ requests: [...] }) — bridge necessario.
+    // Wrapper v4→v5: autocomplete-js v1 chiama search([{indexName,query,params:{...}}])
+    // Il v5 vuole params piatti: {indexName,query,filters,hitsPerPage,...}
+    // Flatten del sotto-oggetto params prima di passare a liteClient v5.
     const _raw = liteClient(appId, searchKey);
     const searchClient = {
       search(requests: any[]) {
-        return _raw.search({ requests });
+        const flat = requests.map(({ params, ...rest }: any) => ({ ...rest, ...(params ?? {}) }));
+        return _raw.search({ requests: flat });
       },
     };
 
