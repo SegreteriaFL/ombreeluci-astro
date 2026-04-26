@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-25 (feat/static-pages-en — tutte le pagine statiche EN, S3 fix, 8 componenti condivisi)
+**Ultimo aggiornamento:** 2026-04-26 (main — ALGOLIA-01/02/03/04: indicizzazione + autocomplete + InstantSearch)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -88,7 +88,7 @@ Il cutover avviene quando tutti i blockers sono verdi.
 | B-09 | → post-lancio | Sysadmin | UptimeRobot monitoring |
 | B-10 | → post-lancio | Sysadmin | Slack alert build |
 | B-11 | N/A | — | Iubenda ownerName `fedeeluce.it` è corretto (editore legale) |
-| B-13 | 🔴 | Dev | **Ricerca Algolia** — non si va in produzione senza ricerca funzionante. Indice creato, credenziali in `.env`. Da fare: script sync Directus→Algolia + integrazione frontend. Vedi CONTENUTI.md sezione Ricerca e SEARCH-01 backlog. |
+| B-13 | 🟡 | Dev | **Ricerca Algolia** — implementato (ALGOLIA-01/02/03/04, 2026-04-26). Dropdown header + pagina risultati funzionanti su staging. **Da testare seriamente prima del go-live** (vedi § Algolia sotto). Manca ALGOLIA-05 (webhook sync automatico). |
 | B-14 | 🔴 | Dev | **URL-IT-02** — prefisso `/it/` sulle pagine sezione IT per simmetria con `/en/`. Se lasciato asimmetrico, aggiungere ES/FR genera URL incoerenti (`/es/archive/` ma IT è `/archivio/`). Richiede redirect 301 da URL vecchi. Da fare prima del lancio. |
 
 ---
@@ -107,7 +107,8 @@ Tutto questo deve essere verde prima del cutover DNS.
 | DIARI-EN | ✅ | M | `/en/diaries/` e `/en/diaries/[diario]` — `DiariContent.astro` + `DiarioContent.astro`. Merge `feat/static-pages-en`. |
 | TAG-03 | 🟡 | S | Pagine tag filtro lingua: `/tag/[slug]` solo IT, `/en/tag/[slug]` solo EN. |
 | TAG-REC | 🟡 | M | Filtro per tipo dentro `/rubriche/recensioni/`: libri, cinema, teatro, tv. Architettura: tag Directus + filtro client-side dentro RubricaPageContent (NON sub-URL). Pre-requisito: verificare che le recensioni abbiano già tag `cinema`/`libri`/`teatro`/`tv` in Directus — se no, lavoro editoriale. Post-lancio. |
-| SEARCH-01 | 🔴 | L | **Ricerca Algolia — BLOCKER PRE-LANCIO** (→ B-13). Non si va in produzione senza ricerca. Indice `ombreeluci_articoli` creato, credenziali in `.env`. Da fare: script sync Directus→Algolia + integrazione frontend `/cerca` e `/en/search`. Decisione architetturale documentata in CONTENUTI.md (Opzione B scelta). |
+| SEARCH-01 | 🟡 | L | **Ricerca Algolia** — ALGOLIA-01/02/03/04 completati (2026-04-26). Indice popolato (7502 record). Autocomplete header + InstantSearch `/cerca` e `/en/search` deployati su main. **Richiede test sistematico pre-lancio** — vedi § Algolia. Manca ALGOLIA-05 (webhook). |
+| ALGOLIA-05 | 🔴 | M | **Webhook sync Directus→Algolia** — pubblicare/modificare un articolo in Directus deve aggiornare automaticamente l'indice Algolia. Senza questo, ogni re-indicizzazione è manuale (`node scripts/algolia/index-all.mjs`). Da fare prima del go-live. |
 | VERT-01 | 🟡 | L | 8 pagine verticali WP da replicare con struttura multilingua fin dall'inizio: `mariangela-bertolini`, `autismo`, `cinema-e-disabilita`, `aktion-t4-sterminio-persone-disabilita`, `catechesi-e-disabilita`, `noi-papa-un-figlio-disabile`, `ciao-stefano-di-franco`, `studiosi-educatori-e-attivisti-ombre-e-luci` |
 | B-12 | 🟡 | M | Rivalutazione ruoli editoriali per categoria (dopo B-04) |
 | LINK-01 | 🟡 | S | 7 link IT↔EN ambigui + 11 no-match: `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |
@@ -132,6 +133,70 @@ Tutto questo deve essere verde prima del cutover DNS.
 | V-14 | Embed video YouTube funzionanti | `/blog/berlinale-74-orso-doro/` |
 | V-16 | Pull quote (570): posizione e formattazione corretta | Articoli lunghi con citazioni evidenziate |
 | V-17 | Sommari numeri rivista (71): testo leggibile e corretto | `/archivio` → apri alcuni numeri |
+
+---
+
+## Algolia — stato implementazione (2026-04-26)
+
+### Architettura
+
+| Componente | File | Stato |
+|---|---|---|
+| Script indicizzazione | `scripts/algolia/index-all.mjs` | ✅ funzionante |
+| Indice articoli | `oel_articoli` | ✅ 6945 record (IT+EN, filter per `lang`) |
+| Indice autori | `oel_autori` | ✅ 353 record |
+| Indice numeri | `oel_numeri` | ✅ 204 record |
+| Autocomplete header | `src/components/AutocompleteWidget.astro` | ✅ deployato, da testare |
+| InstantSearch `/cerca` | `src/components/CercaContent.astro` | ✅ deployato, da testare |
+| Webhook sync automatico | — | 🔴 **non implementato** |
+
+### Re-indicizzazione manuale
+
+Finché ALGOLIA-05 non è implementato, ogni volta che si pubblica/modifica un articolo in Directus l'indice Algolia rimane desincronizzato. Per aggiornare:
+
+```bash
+node scripts/algolia/index-all.mjs
+```
+
+Richiede `.env` con `ALGOLIA_APPLICATION_ID` e `ALGOLIA_WRITE_API`.
+
+### Limiti piano gratuito (Build)
+
+| Limite | Valore | Stato attuale |
+|---|---|---|
+| Record | 10.000 | 7.502 (75%) — attenzione crescita |
+| Ricerche/mese | 10.000 | Da monitorare post-lancio |
+
+**Alert**: configurare notifica email in [Algolia Dashboard → Settings → Billing](https://dashboard.algolia.com) quando si avvicina a 10k ricerche/mese. A regime può essere necessario il piano Grow ($0,50/1k ricerche oltre soglia). Valutare dopo 30 giorni di produzione.
+
+### ⚠️ Test sistematici richiesti prima del go-live
+
+L'implementazione è funzionante su staging ma non è stata testata in modo sistematico. Prima del cutover DNS verificare:
+
+- [ ] Autocomplete header: dropdown appare correttamente digitando ≥2 caratteri
+- [ ] Autocomplete header: navigazione tastiera (↑↓ Enter) funziona
+- [ ] Autocomplete header: click su risultato porta alla pagina corretta
+- [ ] Autocomplete header: invio senza selezionare item porta a `/cerca/?q=...`
+- [ ] Autocomplete header: "Vedi tutti i risultati" funziona
+- [ ] Autocomplete header: risultati in IT mostrano solo articoli `lang:it`
+- [ ] Autocomplete header EN `/en/`: risultati in EN
+- [ ] Autocomplete header: View Transitions — dropdown si reinizializza dopo navigazione
+- [ ] Autocomplete header: mobile ≤480px — dropdown nascosto, mobile-search-overlay funziona
+- [ ] Autocomplete header: mobile 481-767px — form fallback visibile, submit porta a `/cerca/`
+- [ ] Pagina `/cerca/`: searchbox, filtri forma/categoria/anno, paginazione
+- [ ] Pagina `/cerca/`: pre-popolamento da `?q=` (passaggio da autocomplete)
+- [ ] Pagina `/cerca/`: URL routing (back/forward browser mantiene query e filtri)
+- [ ] Pagina `/en/search/`: stessa verifica in EN
+- [ ] Performance: latenza percepita del dropdown accettabile
+- [ ] Indice sincronizzato: pubblicare articolo test → rilanciare script → appare in ricerca
+
+### Note tecniche Algolia
+
+**Compat wrapper algoliasearch v5 + autocomplete-js v1**: `autocomplete-js` v1 chiama `searchClient.search([{indexName, query, params:{...}}])` (API v4 con params annidati). `liteClient` v5 vuole params piatti e `search({ requests: [...] })`. Il wrapper in `AutocompleteWidget.astro` fa il bridge: flatten dei `params` + wrapping in `{ requests }`. Senza questo: HTTP 400 "Expecting a string" da Algolia.
+
+**`algoliasearch` in devDependencies**: il pacchetto è in `devDependencies` perché usato principalmente dallo script di indicizzazione. Vite lo bundla ugualmente nel JS client. Se CF Pages in futuro cambia comportamento su `npm install`, spostarlo in `dependencies`.
+
+**Classi CSS generate da JS**: le classi `.cerca-hit*` dei template `hits()` in `CercaContent.astro` sono generate da InstantSearch.js a runtime → vanno in `<style is:global>`. Le classi `.ais-*` idem.
 
 ---
 
