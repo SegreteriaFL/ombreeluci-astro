@@ -32,6 +32,7 @@ const langs = [
   <!-- Icona translate (SVG inline, nessuna dipendenza esterna) -->
   <button class="ls-icon-btn" id="ls-toggle" aria-expanded="false" aria-haspopup="true" aria-label={t(lang, 'aria_lang_selector')}>
     <span class="ls-btn-icon" aria-hidden="true" set:html={iconTranslate} />
+    <span class="ls-btn-lang" aria-hidden="true">{lang.toUpperCase()}</span>
   </button>
 
   <!-- Pill desktop (sempre visibile su ≥768px): icona + codici lingua -->
@@ -96,15 +97,15 @@ const langs = [
     display: none;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    border: none;
-    background: rgba(0, 0, 0, 0.05);
-    color: var(--text-secondary, #5c5c5c);
+    gap: 0.2rem;
+    height: 32px;
+    border-radius: 999px;
+    border: 1px solid var(--border-color, #e8e6e3);
+    background: transparent;
+    color: var(--text-color);
     cursor: pointer;
-    transition: background 0.15s;
-    padding: 0;
+    transition: background 0.15s, border-color 0.15s;
+    padding: 0 0.6rem;
   }
 
   .ls-btn-icon {
@@ -113,14 +114,22 @@ const langs = [
   }
 
   .ls-btn-icon svg {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     fill: currentColor;
   }
 
+  .ls-btn-lang {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1;
+  }
+
   .ls-icon-btn:hover {
-    background: rgba(0, 0, 0, 0.1);
-    color: var(--text-color);
+    background: rgba(0, 0, 0, 0.05);
+    border-color: var(--text-secondary, #5c5c5c);
   }
 
   /* Pill desktop */
