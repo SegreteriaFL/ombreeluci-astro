@@ -1,66 +1,723 @@
 ---
+/**
+ * CercaContent — pagina ricerca con InstantSearch.js (vanilla, no React).
+ * ALGOLIA-04: sostituisce Pagefind.
+ * Legge ?q= dall'URL per pre-popolare la ricerca (bridge con autocomplete header).
+ */
 import { t, type Locale } from '../utils/i18n';
 
 interface Props {
   lang: Locale;
 }
 const { lang } = Astro.props;
+
+const appId     = import.meta.env.PUBLIC_ALGOLIA_APP_ID     ?? '';
+const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
+
+const LABELS = {
+  it: {
+    title: 'Cerca',
+    description: 'Articoli, autori e numeri della rivista Ombre e Luci dal 1975 a oggi.',
+    placeholder: 'Cerca nel sito…',
+    noResults: 'Nessun risultato.',
+    noResultsHint: 'Prova con termini diversi o meno specifici.',
+    filterForma: 'Tipo contenuto',
+    filterCategoria: 'Tema',
+    filterAnno: 'Anno',
+    showMore: 'Mostra altri',
+    resetFilters: 'Azzera filtri',
+    resultsCount: 'risultati',
+  },
+  en: {
+    title: 'Search',
+    description: 'Articles, authors and magazine issues from 1975 to today.',
+    placeholder: 'Search…',
+    noResults: 'No results.',
+    noResultsHint: 'Try different or broader terms.',
+    filterForma: 'Content type',
+    filterCategoria: 'Theme',
+    filterAnno: 'Year',
+    showMore: 'Show more',
+    resetFilters: 'Reset filters',
+    resultsCount: 'results',
+  },
+} as const;
+const l = LABELS[lang] ?? LABELS.it;
 ---
 
 <main class="site-main">
-  <div class="container" style="padding-top: 2rem; padding-bottom: 4rem;">
-    <h1>{t(lang, 'cerca_title')}</h1>
-    <p style="color: var(--text-secondary); margin-bottom: 2rem;">{t(lang, 'cerca_description')}</p>
-    <div id="search"></div>
+  <div
+    class="cerca-root container"
+    data-lang={lang}
+    data-app-id={appId}
+    data-search-key={searchKey}
+  >
+    <header class="cerca-header">
+      <h1 class="cerca-title">{l.title}</h1>
+      <p class="cerca-desc">{l.description}</p>
+    </header>
+
+    <div class="cerca-layout">
+      <!-- Filtri sidebar -->
+      <aside class="cerca-sidebar" id="cerca-filters">
+        <div class="cerca-filter-group">
+          <h3 class="cerca-filter-label">{l.filterForma}</h3>
+          <div id="filter-forma"></div>
+        </div>
+        <div class="cerca-filter-group">
+          <h3 class="cerca-filter-label">{l.filterCategoria}</h3>
+          <div id="filter-categoria"></div>
+        </div>
+        <div class="cerca-filter-group">
+          <h3 class="cerca-filter-label">{l.filterAnno}</h3>
+          <div id="filter-anno"></div>
+        </div>
+        <div id="cerca-reset" class="cerca-reset-wrap"></div>
+      </aside>
+
+      <!-- Risultati -->
+      <section class="cerca-results">
+        <div id="cerca-searchbox" class="cerca-searchbox-wrap"></div>
+        <div id="cerca-stats" class="cerca-stats"></div>
+        <div id="cerca-hits" class="cerca-hits"></div>
+        <div id="cerca-pagination" class="cerca-pagination"></div>
+      </section>
+    </div>
   </div>
 </main>
 
-<script define:vars={{ lang }}>
-  import { PagefindUI } from '@pagefind/default-ui';
-  import '@pagefind/default-ui/css/ui.css';
+<script>
+  import instantsearch from 'instantsearch.js';
+  import {
+    configure,
+    searchBox,
+    hits,
+    refinementList,
+    pagination,
+    stats,
+    clearRefinements,
+    currentRefinements,
+  } from 'instantsearch.js/es/widgets';
+  import { liteClient as algoliasearch } from 'algoliasearch/lite';
 
-  document.addEventListener('astro:before-preparation', function () {
-    const headerInput = document.getElementById('header-search');
-    if (headerInput) headerInput.value = '';
-  });
+  type Lang = 'it' | 'en';
 
-  document.addEventListener('astro:page-load', function () {
-    const el = document.getElementById('search');
-    if (!el) return;
-    el.innerHTML = '';
+  let searchInstance: ReturnType<typeof instantsearch> | null = null;
 
-    const isEN = lang === 'en';
-    new PagefindUI({
-      element: '#search',
-      showSubResults: false,
-      showImages: true,
-      pageSize: 25,
-      translations: isEN ? {
-        placeholder: 'Search articles, authors, themes…',
-        zero_results: 'No results for [SEARCH_TERM]',
-        many_results: '[COUNT] results for [SEARCH_TERM]',
-        one_result: '1 result for [SEARCH_TERM]',
-        loading: 'Loading…',
-        load_more: 'Load more results',
-      } : {
-        placeholder: 'Cerca articoli, autori, temi…',
-        zero_results: 'Nessun risultato per [SEARCH_TERM]',
-        many_results: '[COUNT] risultati per [SEARCH_TERM]',
-        one_result: '1 risultato per [SEARCH_TERM]',
-        loading: 'Caricamento…',
-        load_more: 'Carica altri risultati',
+  const CATEGORIA_LABELS: Record<string, Record<Lang, string>> = {
+    famiglia: { it: 'Famiglia', en: 'Family' },
+    cultura: { it: 'Cultura', en: 'Culture' },
+    spiritualita: { it: 'Spiritualità', en: 'Spirituality' },
+    catechesi: { it: 'Catechesi', en: 'Catechesis' },
+    salute: { it: 'Salute', en: 'Health' },
+    scuola: { it: 'Scuola', en: 'School' },
+    lavoro: { it: 'Lavoro', en: 'Work' },
+    'educazione-e-formazione': { it: 'Educazione', en: 'Education' },
+    progetti: { it: 'Progetti', en: 'Projects' },
+    'fede-e-luce': { it: 'Fede e Luce', en: 'Faith and Light' },
+    attualita: { it: 'Attualità', en: 'Current affairs' },
+  };
+
+  const FORMA_LABELS: Record<string, Record<Lang, string>> = {
+    Editoriale: { it: 'Editoriali', en: 'Editorials' },
+    Intervista: { it: 'Interviste', en: 'Interviews' },
+    Testimonianza: { it: 'Testimonianze', en: 'Testimonies' },
+    Recensione: { it: 'Recensioni', en: 'Reviews' },
+    'Dialogo Aperto': { it: 'Dialogo Aperto', en: 'Open Dialogue' },
+    Articolo: { it: 'Articoli', en: 'Articles' },
+  };
+
+  function labelForCategoria(val: string, lang: Lang): string {
+    return CATEGORIA_LABELS[val]?.[lang] ?? val;
+  }
+
+  function labelForForma(val: string, lang: Lang): string {
+    return FORMA_LABELS[val]?.[lang] ?? val;
+  }
+
+  function initSearch() {
+    const root = document.querySelector('.cerca-root') as HTMLElement | null;
+    if (!root) return;
+
+    if (searchInstance) {
+      try { searchInstance.dispose(); } catch {}
+      searchInstance = null;
+    }
+
+    const lang       = (root.dataset.lang ?? 'it') as Lang;
+    const appId      = root.dataset.appId ?? '';
+    const searchKey  = root.dataset.searchKey ?? '';
+
+    if (!appId || !searchKey) return;
+
+    const initialQuery = new URLSearchParams(window.location.search).get('q') ?? '';
+
+    const LABELS = {
+      it: {
+        placeholder: 'Cerca nel sito…',
+        noResults: (q: string) => `Nessun risultato per "<strong>${q}</strong>". Prova con termini diversi.`,
+        stats: (n: number) => `${n.toLocaleString('it')} risultati`,
+        showMore: 'Mostra altri',
+        reset: 'Azzera filtri',
+      },
+      en: {
+        placeholder: 'Search…',
+        noResults: (q: string) => `No results for "<strong>${q}</strong>". Try different terms.`,
+        stats: (n: number) => `${n.toLocaleString('en')} results`,
+        showMore: 'Show more',
+        reset: 'Reset filters',
+      },
+    };
+    const l = LABELS[lang];
+
+    const searchClient = algoliasearch(appId, searchKey);
+
+    searchInstance = instantsearch({
+      indexName: 'oel_articoli',
+      searchClient,
+      initialUiState: {
+        oel_articoli: { query: initialQuery },
+      },
+      // Sincronizza query con URL (back/forward funzionano)
+      routing: {
+        stateMapping: {
+          stateToRoute(uiState) {
+            const s = uiState['oel_articoli'] ?? {};
+            const route: Record<string, string | undefined> = {};
+            if (s.query) route.q = s.query;
+            if (s.refinementList?.forma?.length) route.forma = s.refinementList.forma.join(',');
+            if (s.refinementList?.categoria_menu?.length) route.cat = s.refinementList.categoria_menu.join(',');
+            if (s.refinementList?.anno?.length) route.anno = s.refinementList.anno.join(',');
+            return route;
+          },
+          routeToState(route: Record<string, string | undefined>) {
+            const state: any = { query: route.q ?? '' };
+            if (route.forma) state.refinementList = { ...(state.refinementList ?? {}), forma: route.forma.split(',') };
+            if (route.cat)   state.refinementList = { ...(state.refinementList ?? {}), categoria_menu: route.cat.split(',') };
+            if (route.anno)  state.refinementList = { ...(state.refinementList ?? {}), anno: route.anno.split(',') };
+            return { oel_articoli: state };
+          },
+        },
       },
     });
 
-    const q = new URLSearchParams(window.location.search).get('q');
-    if (q) {
-      setTimeout(() => {
-        const input = el.querySelector('input[type=text]');
-        if (input) {
-          input.value = q;
-          input.dispatchEvent(new Event('input'));
-        }
-      }, 100);
+    searchInstance.addWidgets([
+      // Filtro fisso per lingua
+      configure({
+        filters: `lang:${lang}`,
+        hitsPerPage: 24,
+        attributesToSnippet: ['corpo:25'],
+        snippetEllipsisText: '…',
+      }),
+
+      // Search box
+      searchBox({
+        container: '#cerca-searchbox',
+        placeholder: l.placeholder,
+        showReset: true,
+        showSubmit: false,
+        showLoadingIndicator: true,
+        cssClasses: {
+          root: 'ais-SearchBox-cerca',
+          input: 'ais-SearchBox-input-cerca',
+          reset: 'ais-SearchBox-reset-cerca',
+        },
+      }),
+
+      // Stats
+      stats({
+        container: '#cerca-stats',
+        templates: {
+          text({ nbHits }: { nbHits: number }) {
+            return nbHits > 0 ? l.stats(nbHits) : '';
+          },
+        },
+      }),
+
+      // Hits
+      hits({
+        container: '#cerca-hits',
+        templates: {
+          item(hit: any, { html, components }: any) {
+            return html`
+              <article class="cerca-hit">
+                <a href="${hit.url}" class="cerca-hit-link">
+                  ${hit.immagine_url
+                    ? html`<img src="${hit.immagine_url}" alt="" class="cerca-hit-img" loading="lazy" width="80" height="56" />`
+                    : null
+                  }
+                  <div class="cerca-hit-body">
+                    <div class="cerca-hit-meta">
+                      ${hit.forma ? html`<span class="cerca-hit-tag">${labelForForma(hit.forma, lang)}</span>` : null}
+                      ${hit.anno ? html`<span class="cerca-hit-year">${hit.anno}</span>` : null}
+                    </div>
+                    <h2 class="cerca-hit-title">
+                      ${components.Highlight({ hit, attribute: 'titolo' })}
+                    </h2>
+                    ${hit.autore_nome
+                      ? html`<p class="cerca-hit-author">${hit.autore_nome}</p>`
+                      : null
+                    }
+                    ${hit._snippetResult?.corpo?.matchLevel !== 'none'
+                      ? html`<p class="cerca-hit-snippet">
+                          ${components.Snippet({ hit, attribute: 'corpo' })}
+                        </p>`
+                      : hit.sottotitolo
+                        ? html`<p class="cerca-hit-snippet">${hit.sottotitolo}</p>`
+                        : null
+                    }
+                  </div>
+                </a>
+              </article>`;
+          },
+          empty({ query }: any) {
+            return `<div class="cerca-empty"><p>${l.noResults(query)}</p></div>`;
+          },
+        },
+      }),
+
+      // Filtro forma
+      refinementList({
+        container: '#filter-forma',
+        attribute: 'forma',
+        limit: 6,
+        showMore: false,
+        sortBy: ['count:desc'],
+        transformItems(items: any[]) {
+          return items.map((item) => ({
+            ...item,
+            label: labelForForma(item.label, lang),
+          }));
+        },
+        cssClasses: { root: 'ais-RefinementList-cerca' },
+      }),
+
+      // Filtro categoria
+      refinementList({
+        container: '#filter-categoria',
+        attribute: 'categoria_menu',
+        limit: 6,
+        showMore: true,
+        showMoreLimit: 12,
+        sortBy: ['count:desc'],
+        templates: { showMoreText: () => l.showMore },
+        transformItems(items: any[]) {
+          return items.map((item) => ({
+            ...item,
+            label: labelForCategoria(item.label, lang),
+          }));
+        },
+        cssClasses: { root: 'ais-RefinementList-cerca' },
+      }),
+
+      // Filtro anno
+      refinementList({
+        container: '#filter-anno',
+        attribute: 'anno',
+        limit: 8,
+        showMore: true,
+        showMoreLimit: 50,
+        sortBy: ['name:desc'],
+        templates: { showMoreText: () => l.showMore },
+        cssClasses: { root: 'ais-RefinementList-cerca' },
+      }),
+
+      // Pulsante reset filtri
+      clearRefinements({
+        container: '#cerca-reset',
+        templates: {
+          resetLabel() { return l.reset; },
+        },
+        cssClasses: { button: 'cerca-reset-btn' },
+      }),
+
+      // Paginazione
+      pagination({
+        container: '#cerca-pagination',
+        padding: 2,
+        cssClasses: { root: 'ais-Pagination-cerca' },
+      }),
+    ]);
+
+    searchInstance.start();
+
+    // Focus sulla searchbox se c'è già una query dall'URL
+    if (initialQuery) {
+      requestAnimationFrame(() => {
+        const input = root.querySelector<HTMLInputElement>('.ais-SearchBox-input-cerca');
+        input?.focus();
+      });
     }
+  }
+
+  document.addEventListener('astro:after-swap', () => {
+    requestAnimationFrame(initSearch);
+  });
+  document.addEventListener('astro:page-load', () => {
+    requestAnimationFrame(initSearch);
   });
 </script>
+
+<style>
+  .cerca-root {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .cerca-header {
+    margin-bottom: 2rem;
+  }
+
+  .cerca-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+  }
+
+  .cerca-desc {
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  /* Layout sidebar + risultati */
+  .cerca-layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  @media (max-width: 768px) {
+    .cerca-layout {
+      grid-template-columns: 1fr;
+    }
+    .cerca-sidebar {
+      order: 2;
+      border-top: 1px solid var(--border-color, #e8e6e3);
+      padding-top: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    .cerca-results {
+      order: 1;
+    }
+  }
+
+  /* Sidebar filtri */
+  .cerca-sidebar {
+    position: sticky;
+    top: calc(var(--header-height, 72px) + 1rem);
+  }
+
+  .cerca-filter-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .cerca-filter-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin: 0 0 0.5rem;
+  }
+
+  .cerca-reset-wrap {
+    margin-top: 0.5rem;
+  }
+
+  /* SearchBox */
+  .cerca-searchbox-wrap {
+    margin-bottom: 1rem;
+  }
+
+  .cerca-stats {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    min-height: 1.2em;
+  }
+
+  /* Hits grid */
+  .cerca-hits {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .cerca-hit {
+    border-bottom: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .cerca-hit:first-child {
+    border-top: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .cerca-hit-link {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.1s;
+  }
+
+  .cerca-hit-link:hover .cerca-hit-title {
+    color: var(--accent-color);
+  }
+
+  .cerca-hit-img {
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-top: 2px;
+  }
+
+  .cerca-hit-body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .cerca-hit-meta {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.25rem;
+  }
+
+  .cerca-hit-tag {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+  }
+
+  .cerca-hit-year {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+  }
+
+  .cerca-hit-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin: 0 0 0.25rem;
+    transition: color 0.15s;
+  }
+
+  .cerca-hit-author {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin: 0 0 0.25rem;
+  }
+
+  .cerca-hit-snippet {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .cerca-empty {
+    padding: 2rem 0;
+    color: var(--text-secondary);
+  }
+
+  /* Paginazione */
+  .cerca-pagination {
+    margin-top: 2rem;
+  }
+</style>
+
+<!-- Stili InstantSearch (globali: classi generate da instantsearch.js) -->
+<style is:global>
+  /* SearchBox */
+  .ais-SearchBox-cerca {
+    position: relative;
+  }
+
+  .ais-SearchBox-cerca form {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--border-color, #e8e6e3);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .ais-SearchBox-cerca form:focus-within {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(196, 30, 58, 0.12);
+  }
+
+  .ais-SearchBox-input-cerca {
+    flex: 1;
+    height: 44px;
+    padding: 0 0.875rem;
+    border: none;
+    outline: none;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.9375rem;
+    color: var(--text-color);
+    background: transparent;
+  }
+
+  .ais-SearchBox-input-cerca::placeholder {
+    color: var(--text-secondary, #5c5c5c);
+  }
+
+  .ais-SearchBox-reset-cerca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 44px;
+    border: none;
+    background: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: color 0.15s;
+  }
+
+  .ais-SearchBox-reset-cerca:hover { color: var(--accent-color); }
+  .ais-SearchBox-reset-cerca[hidden] { display: none; }
+
+  /* RefinementList */
+  .ais-RefinementList-cerca .ais-RefinementList-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .ais-RefinementList-cerca .ais-RefinementList-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .ais-RefinementList-cerca .ais-RefinementList-label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    color: var(--text-color);
+    user-select: none;
+    width: 100%;
+  }
+
+  .ais-RefinementList-cerca .ais-RefinementList-checkbox {
+    width: 14px;
+    height: 14px;
+    accent-color: var(--accent-color);
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .ais-RefinementList-cerca .ais-RefinementList-labelText {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .ais-RefinementList-cerca .ais-RefinementList-count {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    margin-left: auto;
+  }
+
+  .ais-RefinementList-cerca .ais-RefinementList-item--selected .ais-RefinementList-labelText {
+    font-weight: 600;
+    color: var(--accent-color);
+  }
+
+  .ais-RefinementList-cerca .ais-RefinementList-showMore {
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+  }
+
+  /* ClearRefinements */
+  .cerca-reset-btn {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    background: none;
+    border: 1px solid var(--border-color, #e8e6e3);
+    border-radius: 4px;
+    padding: 0.3rem 0.7rem;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+
+  .cerca-reset-btn:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+
+  .cerca-reset-btn[disabled] { opacity: 0.4; cursor: default; }
+
+  /* Highlight */
+  .ais-Highlight-highlighted,
+  .ais-Snippet-highlighted {
+    background: transparent;
+    color: var(--accent-color);
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* Paginazione */
+  .ais-Pagination-cerca .ais-Pagination-list {
+    display: flex;
+    gap: 0.25rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  .ais-Pagination-cerca .ais-Pagination-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--border-color, #e8e6e3);
+    border-radius: 6px;
+    font-size: 0.875rem;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .ais-Pagination-cerca .ais-Pagination-link:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+
+  .ais-Pagination-cerca .ais-Pagination-item--selected .ais-Pagination-link {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .ais-Pagination-cerca .ais-Pagination-item--disabled .ais-Pagination-link {
+    opacity: 0.3;
+    cursor: default;
+    pointer-events: none;
+  }
+</style>

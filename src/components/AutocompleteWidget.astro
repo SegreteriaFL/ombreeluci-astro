@@ -1,0 +1,530 @@
+---
+/**
+ * AutocompleteWidget — ricerca istantanea categorizzata (Articoli / Autori / Numeri).
+ * Monta su desktop (≥768px); sul mobile l'overlay esistente gestisce la ricerca.
+ * ALGOLIA-03: usa @algolia/autocomplete-js, nessun import statico nel frontmatter.
+ */
+import type { Locale } from '../utils/i18n';
+
+interface Props {
+  lang: Locale;
+  searchHref: string;
+}
+
+const { lang, searchHref } = Astro.props;
+const appId     = import.meta.env.PUBLIC_ALGOLIA_APP_ID     ?? '';
+const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
+---
+
+<!-- No-JS fallback: form originale visibile senza JS -->
+<form
+  class="search-form"
+  id="aa-fallback-form"
+  action={searchHref}
+  method="get"
+  aria-label={lang === 'en' ? 'Search' : 'Cerca'}
+>
+  <label for="aa-fallback-input" class="search-label">
+    {lang === 'en' ? 'Search' : 'Cerca nel sito'}
+  </label>
+  <input
+    id="aa-fallback-input"
+    type="search"
+    name="q"
+    placeholder={lang === 'en' ? 'Search articles, authors…' : 'Cerca articoli, autori…'}
+    class="search-input"
+    autocomplete="off"
+  />
+  <button type="submit" class="search-button" aria-label={lang === 'en' ? 'Search' : 'Cerca'}>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <circle cx="11" cy="11" r="8"></circle>
+      <path d="m21 21-4.35-4.35"></path>
+    </svg>
+  </button>
+</form>
+
+<!-- Container autocomplete (popolato da JS, nascosto di default) -->
+<div
+  id="aa-container"
+  class="search-form"
+  style="display:none"
+  data-lang={lang}
+  data-search-href={searchHref}
+  data-app-id={appId}
+  data-search-key={searchKey}
+></div>
+
+<script>
+  import { autocomplete, getAlgoliaResults } from '@algolia/autocomplete-js';
+  import { liteClient as algoliasearch } from 'algoliasearch/lite';
+
+  type Lang = 'it' | 'en';
+
+  let acInstance: ReturnType<typeof autocomplete> | null = null;
+
+  const LABELS = {
+    it: {
+      articoli: 'Articoli',
+      autori: 'Autori',
+      numeri: 'Numeri della rivista',
+      seeAll: 'Vedi tutti i risultati',
+      placeholder: 'Cerca articoli, autori, numeri…',
+      noResults: 'Nessun risultato per',
+      minChars: 'Digita almeno 2 caratteri',
+    },
+    en: {
+      articoli: 'Articles',
+      autori: 'Authors',
+      numeri: 'Magazine issues',
+      seeAll: 'See all results',
+      placeholder: 'Search articles, authors, issues…',
+      noResults: 'No results for',
+      minChars: 'Type at least 2 characters',
+    },
+  } as const;
+
+  function initAutocomplete() {
+    const container = document.getElementById('aa-container') as HTMLElement | null;
+    const fallback  = document.getElementById('aa-fallback-form') as HTMLElement | null;
+    if (!container) return;
+
+    // Destroy previous instance (Astro View Transitions re-mount)
+    if (acInstance) {
+      try { acInstance.destroy(); } catch {}
+      acInstance = null;
+    }
+
+    const lang      = (container.dataset.lang ?? 'it') as Lang;
+    const appId     = container.dataset.appId ?? '';
+    const searchKey = container.dataset.searchKey ?? '';
+    const searchHref = container.dataset.searchHref ?? (lang === 'en' ? '/en/search/' : '/cerca');
+
+    // Silent fail: chiavi mancanti (staging senza env vars)
+    if (!appId || !searchKey) return;
+
+    const l = LABELS[lang] ?? LABELS.it;
+    const searchClient = algoliasearch(appId, searchKey);
+
+    // Mostra autocomplete, nascondi fallback
+    container.style.display = '';
+    if (fallback) fallback.style.display = 'none';
+
+    acInstance = autocomplete({
+      container,
+      placeholder: l.placeholder,
+      // Mai modale — sempre inline panel
+      detachedMediaQuery: 'none',
+      openOnFocus: false,
+      // Debounce built-in: non aggiungerne uno manuale sopra
+      stallThreshold: 300,
+
+      getSources({ query }) {
+        // Non inviare query < 2 caratteri
+        if (!query || query.trim().length < 2) return [];
+
+        const q = query.trim();
+
+        return [
+          // ── Articoli ──────────────────────────────────────────────────
+          {
+            sourceId: 'articoli',
+            getItemUrl({ item }: { item: any }) {
+              return item.url as string;
+            },
+            getItems() {
+              return getAlgoliaResults({
+                searchClient,
+                queries: [
+                  {
+                    indexName: 'oel_articoli',
+                    query: q,
+                    params: {
+                      filters: `lang:${lang}`,
+                      hitsPerPage: 5,
+                      attributesToSnippet: ['titolo:12', 'corpo:22'],
+                      snippetEllipsisText: '…',
+                    },
+                  },
+                ],
+              });
+            },
+            templates: {
+              header() {
+                return `<span class="aa-SectionTitle">${l.articoli}</span>`;
+              },
+              item({ item, html, components }: any) {
+                return html`
+                  <a href="${item.url}" class="aa-ItemLink">
+                    ${item.immagine_url
+                      ? html`<img src="${item.immagine_url}" alt="" class="aa-ItemImg" loading="lazy" width="56" height="40" />`
+                      : html`<div class="aa-ItemImgPlaceholder"></div>`
+                    }
+                    <div class="aa-ItemBody">
+                      <div class="aa-ItemTitle">
+                        ${components.Snippet({ hit: item, attribute: 'titolo' })}
+                      </div>
+                      ${item.autore_nome
+                        ? html`<div class="aa-ItemMeta">${item.autore_nome}</div>`
+                        : null
+                      }
+                      ${item._snippetResult?.corpo?.matchLevel !== 'none'
+                        ? html`<div class="aa-ItemSnippet">
+                            ${components.Snippet({ hit: item, attribute: 'corpo' })}
+                          </div>`
+                        : null
+                      }
+                    </div>
+                  </a>`;
+              },
+              footer({ state }: any) {
+                return `<a href="${searchHref}?q=${encodeURIComponent(state.query)}" class="aa-SeeAll">${l.seeAll} →</a>`;
+              },
+              noResults() {
+                return `<p class="aa-NoResults">${l.noResults} "<strong>${q}</strong>"</p>`;
+              },
+            },
+          },
+
+          // ── Autori ────────────────────────────────────────────────────
+          {
+            sourceId: 'autori',
+            getItemUrl({ item }: { item: any }) {
+              return lang === 'en'
+                ? `/en/authors/${item.slug}/`
+                : `/autori/${item.slug}/`;
+            },
+            getItems() {
+              return getAlgoliaResults({
+                searchClient,
+                queries: [{ indexName: 'oel_autori', query: q, params: { hitsPerPage: 3 } }],
+              });
+            },
+            templates: {
+              header() {
+                return `<span class="aa-SectionTitle">${l.autori}</span>`;
+              },
+              item({ item, html }: any) {
+                const url = lang === 'en'
+                  ? `/en/authors/${item.slug}/`
+                  : `/autori/${item.slug}/`;
+                return html`
+                  <a href="${url}" class="aa-ItemLink">
+                    ${item.foto_url
+                      ? html`<img src="${item.foto_url}" alt="" class="aa-ItemImg aa-ItemImg--round" loading="lazy" width="40" height="40" />`
+                      : html`<div class="aa-ItemImgPlaceholder aa-ItemImgPlaceholder--round"></div>`
+                    }
+                    <div class="aa-ItemBody">
+                      <div class="aa-ItemTitle">${item.nome_completo}</div>
+                    </div>
+                  </a>`;
+              },
+            },
+          },
+
+          // ── Numeri rivista ────────────────────────────────────────────
+          {
+            sourceId: 'numeri',
+            getItemUrl({ item }: { item: any }) {
+              return lang === 'en'
+                ? `/en/archive/${String(item.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-')}/`
+                : item.url;
+            },
+            getItems() {
+              return getAlgoliaResults({
+                searchClient,
+                queries: [{ indexName: 'oel_numeri', query: q, params: { hitsPerPage: 2 } }],
+              });
+            },
+            templates: {
+              header() {
+                return `<span class="aa-SectionTitle">${l.numeri}</span>`;
+              },
+              item({ item, html }: any) {
+                const url = lang === 'en'
+                  ? `/en/archive/${String(item.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-')}/`
+                  : item.url;
+                return html`
+                  <a href="${url}" class="aa-ItemLink">
+                    ${item.copertina_url
+                      ? html`<img src="${item.copertina_url}" alt="" class="aa-ItemImg" loading="lazy" width="32" height="44" />`
+                      : html`<div class="aa-ItemImgPlaceholder"></div>`
+                    }
+                    <div class="aa-ItemBody">
+                      <div class="aa-ItemTitle">${item.display_title}</div>
+                      ${item.anno_pubblicazione
+                        ? html`<div class="aa-ItemMeta">${item.anno_pubblicazione}</div>`
+                        : null
+                      }
+                    </div>
+                  </a>`;
+              },
+            },
+          },
+        ];
+      },
+
+      // Navigazione tastiera → segue getItemUrl
+      navigator: {
+        navigate({ itemUrl }: { itemUrl: string }) {
+          window.location.assign(itemUrl);
+        },
+      },
+
+      // Invio senza selezionare un item → pagina risultati lang-aware
+      onSubmit({ state }: any) {
+        const q = state.query?.trim();
+        if (q) {
+          window.location.assign(
+            `${searchHref}?q=${encodeURIComponent(q)}`
+          );
+        }
+      },
+    });
+  }
+
+  // Reinit a ogni navigazione Astro.
+  // astro:after-swap garantisce che il DOM nuovo sia già nel documento prima del mount.
+  // requestAnimationFrame assicura che il browser abbia completato il layout dopo lo swap.
+  document.addEventListener('astro:after-swap', () => {
+    requestAnimationFrame(initAutocomplete);
+  });
+  // Caricamento iniziale (nessun after-swap su prima navigazione)
+  document.addEventListener('astro:page-load', () => {
+    requestAnimationFrame(initAutocomplete);
+  });
+</script>
+
+<style is:global>
+  /* ── Input form (identico a .search-form originale) ──────────────────────── */
+  #aa-container .aa-Autocomplete { width: 100%; }
+
+  #aa-container .aa-Form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--border-color, #e8e6e3);
+    border-radius: 6px;
+    background: #fff;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+  }
+
+  #aa-container .aa-Form:focus-within {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(196, 30, 58, 0.12);
+  }
+
+  #aa-container .aa-InputWrapperPrefix {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    color: var(--text-secondary, #5c5c5c);
+    flex-shrink: 0;
+  }
+
+  #aa-container .aa-SubmitIcon,
+  #aa-container .aa-LoadingIcon {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+  }
+
+  #aa-container .aa-InputWrapper { flex: 1; min-width: 0; }
+
+  #aa-container .aa-Input {
+    width: 100%;
+    height: 38px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.875rem;
+    color: var(--text-color);
+    padding: 0;
+  }
+
+  #aa-container .aa-Input::placeholder { color: var(--text-secondary, #5c5c5c); }
+
+  #aa-container .aa-InputWrapperSuffix {
+    display: flex;
+    align-items: center;
+    padding: 0 0.35rem;
+    flex-shrink: 0;
+  }
+
+  #aa-container .aa-ClearButton {
+    display: flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px;
+    border: none; background: none;
+    color: var(--text-secondary, #5c5c5c);
+    cursor: pointer; border-radius: 4px; padding: 0;
+    transition: color 0.15s;
+  }
+  #aa-container .aa-ClearButton:hover { color: var(--accent-color); }
+  #aa-container .aa-ClearIcon { width: 16px; height: 16px; fill: currentColor; }
+
+  /* ── Panel — 600px, vita.it-style ────────────────────────────────────────── */
+  .aa-Panel {
+    z-index: 1200 !important;
+    /* Sovrascrive width inline di autocomplete-js (pari al container ~360px) */
+    width: 600px !important;
+    max-width: calc(100vw - 2rem) !important;
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10), 0 2px 6px rgba(0,0,0,0.06);
+    border: 1px solid var(--border-color, #e8e6e3);
+    border-top: none;
+    overflow: hidden;
+    font-family: 'Raleway', system-ui, sans-serif;
+  }
+
+  .aa-PanelLayout {
+    padding: 0;
+    max-height: 520px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  /* ── Sezioni ──────────────────────────────────────────────────────────────── */
+  .aa-Source + .aa-Source {
+    border-top: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .aa-SourceHeader {
+    margin: 0;
+    padding: 0.625rem 1rem 0.3rem;
+  }
+
+  .aa-SectionTitle {
+    font-size: 0.6rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #aaa;
+  }
+
+  .aa-List {
+    list-style: none;
+    margin: 0;
+    padding: 0 0.5rem 0.5rem;
+  }
+
+  /* ── Item ─────────────────────────────────────────────────────────────────── */
+  .aa-Item {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .aa-Item[aria-selected="true"] { background: #f7f5f2; }
+  .aa-Item:hover { background: #f7f5f2; }
+
+  .aa-ItemLink {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.45rem 0.625rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* Thumbnail articolo 72×50, copertina numero 30×42, foto autore 38×38 rotonda */
+  .aa-ItemImg {
+    object-fit: cover;
+    border-radius: 3px;
+    flex-shrink: 0;
+    background: var(--border-color, #e8e6e3);
+  }
+  .aa-ItemImg--round { border-radius: 50%; }
+
+  .aa-ItemImgPlaceholder {
+    width: 72px; height: 50px;
+    background: var(--border-color, #e8e6e3);
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+  .aa-ItemImgPlaceholder--round {
+    width: 38px; height: 38px;
+    border-radius: 50%;
+  }
+
+  .aa-ItemBody {
+    flex: 1; min-width: 0;
+    display: flex; flex-direction: column; gap: 0.15rem;
+  }
+
+  .aa-ItemTitle {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-color);
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .aa-ItemMeta {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--text-secondary, #777);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .aa-ItemSnippet {
+    font-size: 0.8rem;
+    color: #777;
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Highlight: keyword in rosso, non bold — come vita.it */
+  .aa-ItemTitle mark,
+  .aa-ItemSnippet mark {
+    background: transparent;
+    color: var(--accent-color);
+    font-weight: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+
+  /* ── Footer sezione articoli: "Vedi tutti" ───────────────────────────────── */
+  .aa-SourceFooter { padding: 0.25rem 1.125rem 0.75rem; }
+
+  .aa-SeeAll {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    text-decoration: none;
+    padding: 0.3rem 0.7rem;
+    border: 1.5px solid var(--accent-color);
+    border-radius: 999px;
+    transition: background 0.15s, color 0.15s;
+  }
+  .aa-SeeAll:hover {
+    background: var(--accent-color);
+    color: #fff;
+  }
+
+  .aa-NoResults {
+    font-size: 0.875rem;
+    color: var(--text-secondary, #5c5c5c);
+    padding: 0.75rem 1rem 1rem;
+    margin: 0;
+  }
+
+  /* ── Mobile: autocomplete header nascosto, usa overlay ───────────────────── */
+  @media (max-width: 767px) {
+    #aa-container    { display: none !important; }
+    #aa-fallback-form { display: none !important; }
+  }
+</style>
