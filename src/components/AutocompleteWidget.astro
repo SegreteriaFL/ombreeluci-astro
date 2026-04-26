@@ -56,7 +56,7 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
 
 <script>
   import { autocomplete, getAlgoliaResults } from '@algolia/autocomplete-js';
-  import { algoliasearch } from 'algoliasearch';
+  import { liteClient as algoliasearch } from 'algoliasearch/lite';
 
   type Lang = 'it' | 'en';
 
@@ -295,11 +295,8 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
 </script>
 
 <style is:global>
-  /* ── Contenitore e form ───────────────────────────────────────────────────── */
-  #aa-container .aa-Autocomplete {
-    width: 100%;
-    position: relative;
-  }
+  /* ── Input form (identico a .search-form originale) ──────────────────────── */
+  #aa-container .aa-Autocomplete { width: 100%; }
 
   #aa-container .aa-Form {
     display: flex;
@@ -335,10 +332,7 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
     stroke-width: 2;
   }
 
-  #aa-container .aa-InputWrapper {
-    flex: 1;
-    min-width: 0;
-  }
+  #aa-container .aa-InputWrapper { flex: 1; min-width: 0; }
 
   #aa-container .aa-Input {
     width: 100%;
@@ -352,9 +346,7 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
     padding: 0;
   }
 
-  #aa-container .aa-Input::placeholder {
-    color: var(--text-secondary, #5c5c5c);
-  }
+  #aa-container .aa-Input::placeholder { color: var(--text-secondary, #5c5c5c); }
 
   #aa-container .aa-InputWrapperSuffix {
     display: flex;
@@ -364,202 +356,175 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
   }
 
   #aa-container .aa-ClearButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    border: none;
-    background: none;
+    display: flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px;
+    border: none; background: none;
     color: var(--text-secondary, #5c5c5c);
-    cursor: pointer;
-    border-radius: 4px;
-    padding: 0;
+    cursor: pointer; border-radius: 4px; padding: 0;
     transition: color 0.15s;
   }
+  #aa-container .aa-ClearButton:hover { color: var(--accent-color); }
+  #aa-container .aa-ClearIcon { width: 16px; height: 16px; fill: currentColor; }
 
-  #aa-container .aa-ClearButton:hover {
-    color: var(--accent-color);
-  }
-
-  #aa-container .aa-ClearIcon {
-    width: 16px;
-    height: 16px;
-    fill: currentColor;
-  }
-
-  /* ── Panel (dropdown) ─────────────────────────────────────────────────────── */
+  /* ── Panel — 600px, vita.it-style ────────────────────────────────────────── */
   .aa-Panel {
-    /* Portal su document.body: z-index sopra header (1100) e mega-menu (1090) */
     z-index: 1200 !important;
+    /* Sovrascrive width inline di autocomplete-js (pari al container ~360px) */
+    width: 600px !important;
+    max-width: calc(100vw - 2rem) !important;
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10), 0 2px 6px rgba(0,0,0,0.06);
     border: 1px solid var(--border-color, #e8e6e3);
+    border-top: none;
     overflow: hidden;
     font-family: 'Raleway', system-ui, sans-serif;
   }
 
   .aa-PanelLayout {
-    padding: 0.5rem 0;
-    max-height: 480px;
+    padding: 0;
+    max-height: 520px;
     overflow-y: auto;
     overscroll-behavior: contain;
   }
 
   /* ── Sezioni ──────────────────────────────────────────────────────────────── */
-  .aa-Source {
-    padding: 0;
+  .aa-Source + .aa-Source {
+    border-top: 1px solid var(--border-color, #e8e6e3);
   }
 
   .aa-SourceHeader {
     margin: 0;
-    padding: 0.4rem 1rem 0.2rem;
+    padding: 0.625rem 1rem 0.3rem;
   }
 
   .aa-SectionTitle {
-    font-size: 0.65rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
+    font-size: 0.6rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #999;
+    color: #aaa;
   }
 
   .aa-List {
     list-style: none;
     margin: 0;
-    padding: 0 0.35rem;
+    padding: 0 0.5rem 0.5rem;
   }
 
   /* ── Item ─────────────────────────────────────────────────────────────────── */
   .aa-Item {
-    border-radius: 6px;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background 0.1s;
   }
 
-  .aa-Item[aria-selected="true"],
-  .aa-Item:hover {
-    background: rgba(0,0,0,0.04);
-  }
+  .aa-Item[aria-selected="true"] { background: #f7f5f2; }
+  .aa-Item:hover { background: #f7f5f2; }
 
   .aa-ItemLink {
     display: flex;
-    align-items: flex-start;
-    gap: 0.625rem;
-    padding: 0.5rem 0.625rem;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.45rem 0.625rem;
     text-decoration: none;
     color: inherit;
   }
 
+  /* Thumbnail articolo 72×50, copertina numero 30×42, foto autore 38×38 rotonda */
   .aa-ItemImg {
     object-fit: cover;
     border-radius: 3px;
     flex-shrink: 0;
+    background: var(--border-color, #e8e6e3);
   }
-
-  .aa-ItemImg--round {
-    border-radius: 50%;
-  }
+  .aa-ItemImg--round { border-radius: 50%; }
 
   .aa-ItemImgPlaceholder {
-    width: 56px;
-    height: 40px;
+    width: 72px; height: 50px;
     background: var(--border-color, #e8e6e3);
     border-radius: 3px;
     flex-shrink: 0;
   }
-
   .aa-ItemImgPlaceholder--round {
-    width: 40px;
-    height: 40px;
+    width: 38px; height: 38px;
     border-radius: 50%;
   }
 
   .aa-ItemBody {
-    flex: 1;
-    min-width: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
+    flex: 1; min-width: 0;
+    display: flex; flex-direction: column; gap: 0.15rem;
   }
 
   .aa-ItemTitle {
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--text-color);
-    line-height: 1.35;
+    line-height: 1.3;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
   .aa-ItemMeta {
-    font-size: 0.75rem;
-    color: var(--text-secondary, #5c5c5c);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--text-secondary, #777);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 
   .aa-ItemSnippet {
-    font-size: 0.75rem;
-    color: var(--text-secondary, #5c5c5c);
-    line-height: 1.4;
+    font-size: 0.8rem;
+    color: #777;
+    line-height: 1.45;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
-  /* Highlight Algolia */
+  /* Highlight: keyword in rosso, non bold — come vita.it */
   .aa-ItemTitle mark,
   .aa-ItemSnippet mark {
     background: transparent;
     color: var(--accent-color);
-    font-weight: 700;
+    font-weight: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
   }
 
-  /* ── Footer "Vedi tutti" + no-results ────────────────────────────────────── */
-  .aa-SourceFooter {
-    padding: 0.25rem 1rem 0.5rem;
-  }
+  /* ── Footer sezione articoli: "Vedi tutti" ───────────────────────────────── */
+  .aa-SourceFooter { padding: 0.25rem 1.125rem 0.75rem; }
 
   .aa-SeeAll {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--accent-color);
     text-decoration: none;
-    display: block;
-    padding: 0.25rem 0;
-    transition: color 0.15s;
+    padding: 0.3rem 0.7rem;
+    border: 1.5px solid var(--accent-color);
+    border-radius: 999px;
+    transition: background 0.15s, color 0.15s;
   }
-
   .aa-SeeAll:hover {
-    color: var(--accent-hover, #a0162e);
+    background: var(--accent-color);
+    color: #fff;
   }
 
   .aa-NoResults {
     font-size: 0.875rem;
     color: var(--text-secondary, #5c5c5c);
-    padding: 0.5rem 1rem 0.75rem;
+    padding: 0.75rem 1rem 1rem;
     margin: 0;
   }
 
-  /* ── Separatore tra sezioni ───────────────────────────────────────────────── */
-  .aa-Source + .aa-Source {
-    border-top: 1px solid var(--border-color, #e8e6e3);
-    margin-top: 0.25rem;
-    padding-top: 0.25rem;
-  }
-
-  /* ── Mobile: autocomplete non mostrato sotto 768px (form overlay gestisce) ── */
+  /* ── Mobile: autocomplete header nascosto, usa overlay ───────────────────── */
   @media (max-width: 767px) {
-    #aa-container {
-      display: none !important;
-    }
-    #aa-fallback-form {
-      display: none !important; /* anche il fallback è nascosto — usa mobile overlay */
-    }
+    #aa-container    { display: none !important; }
+    #aa-fallback-form { display: none !important; }
   }
 </style>

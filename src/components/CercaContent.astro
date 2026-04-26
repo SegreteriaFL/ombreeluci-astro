@@ -98,7 +98,7 @@ const l = LABELS[lang] ?? LABELS.it;
     clearRefinements,
     currentRefinements,
   } from 'instantsearch.js/es/widgets';
-  import { algoliasearch } from 'algoliasearch';
+  import { liteClient as algoliasearch } from 'algoliasearch/lite';
 
   type Lang = 'it' | 'en';
 
