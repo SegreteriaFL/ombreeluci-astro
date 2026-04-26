@@ -437,97 +437,6 @@ const l = LABELS[lang] ?? LABELS.it;
     min-height: 1.2em;
   }
 
-  /* Hits grid */
-  .cerca-hits {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .cerca-hit {
-    border-bottom: 1px solid var(--border-color, #e8e6e3);
-  }
-
-  .cerca-hit:first-child {
-    border-top: 1px solid var(--border-color, #e8e6e3);
-  }
-
-  .cerca-hit-link {
-    display: flex;
-    gap: 1rem;
-    padding: 1rem 0;
-    text-decoration: none;
-    color: inherit;
-    transition: background 0.1s;
-  }
-
-  .cerca-hit-link:hover .cerca-hit-title {
-    color: var(--accent-color);
-  }
-
-  .cerca-hit-img {
-    object-fit: cover;
-    border-radius: 4px;
-    flex-shrink: 0;
-    align-self: flex-start;
-    margin-top: 2px;
-  }
-
-  .cerca-hit-body {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .cerca-hit-meta {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    margin-bottom: 0.25rem;
-  }
-
-  .cerca-hit-tag {
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--accent-color);
-  }
-
-  .cerca-hit-year {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-  }
-
-  .cerca-hit-title {
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.35;
-    margin: 0 0 0.25rem;
-    transition: color 0.15s;
-  }
-
-  .cerca-hit-author {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-    margin: 0 0 0.25rem;
-  }
-
-  .cerca-hit-snippet {
-    font-size: 0.8125rem;
-    color: var(--text-secondary);
-    line-height: 1.5;
-    margin: 0;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .cerca-empty {
-    padding: 2rem 0;
-    color: var(--text-secondary);
-  }
-
   /* Paginazione */
   .cerca-pagination {
     margin-top: 2rem;
@@ -719,5 +628,96 @@ const l = LABELS[lang] ?? LABELS.it;
     opacity: 0.3;
     cursor: default;
     pointer-events: none;
+  }
+
+  /* ── Hits: classi generate da JS (non raggiungibili da CSS scopato) ────── */
+  .cerca-hit {
+    border-bottom: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .cerca-hit:first-child {
+    border-top: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .cerca-hit-link {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .cerca-hit-link:hover .cerca-hit-title {
+    color: var(--accent-color);
+  }
+
+  .cerca-hit-img {
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-top: 2px;
+  }
+
+  .cerca-hit-body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .cerca-hit-meta {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.25rem;
+  }
+
+  .cerca-hit-tag {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+  }
+
+  .cerca-hit-year {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+  }
+
+  .cerca-hit-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin: 0 0 0.25rem;
+    transition: color 0.15s;
+  }
+
+  .cerca-hit-author {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin: 0 0 0.25rem;
+  }
+
+  .cerca-hit-snippet {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .cerca-empty {
+    padding: 2rem 0;
+    color: var(--text-secondary);
+  }
+
+  /* Hits container generato da IS.js */
+  .ais-Hits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 </style>

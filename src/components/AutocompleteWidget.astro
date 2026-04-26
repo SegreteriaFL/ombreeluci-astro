@@ -56,7 +56,7 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
 
 <script>
   import { autocomplete, getAlgoliaResults } from '@algolia/autocomplete-js';
-  import { liteClient as algoliasearch } from 'algoliasearch/lite';
+  import { liteClient } from 'algoliasearch/lite';
 
   type Lang = 'it' | 'en';
 
@@ -103,7 +103,14 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
     if (!appId || !searchKey) return;
 
     const l = LABELS[lang] ?? LABELS.it;
-    const searchClient = algoliasearch(appId, searchKey);
+    // Wrapper v4-compat: autocomplete-js v1 chiama search([...]) (v4),
+    // liteClient v5 espone search({ requests: [...] }) — bridge necessario.
+    const _raw = liteClient(appId, searchKey);
+    const searchClient = {
+      search(requests: any[]) {
+        return _raw.search({ requests });
+      },
+    };
 
     // Mostra autocomplete, nascondi fallback
     container.style.display = '';
@@ -522,9 +529,12 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
     margin: 0;
   }
 
-  /* ── Mobile: autocomplete header nascosto, usa overlay ───────────────────── */
+  /* ── Mobile: autocomplete nascosto, form fallback visibile fino a 480px ──── */
   @media (max-width: 767px) {
-    #aa-container    { display: none !important; }
+    #aa-container { display: none !important; }
+  }
+  /* Sotto 480px c'è il mobile-search-overlay nell'Header */
+  @media (max-width: 480px) {
     #aa-fallback-form { display: none !important; }
   }
 </style>
