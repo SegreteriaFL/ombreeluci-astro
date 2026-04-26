@@ -62,7 +62,9 @@
 
 ## Prossima azione immediata
 
-**SEARCH-01 / B-13 — Algolia** (blocker pre-lancio). Script sync Directus→Algolia + integrazione frontend `/cerca` e `/en/search`. Vedi CONTENUTI.md sezione Ricerca.
+**RUBRICHE** — Refactor tassonomia: `/categoria/` solo temi, `/rubriche/` per rubriche editoriali. Piano dettagliato in `PIANO_RUBRICHE.md`. Eseguire leggendo quel file dall'inizio alla fine.
+
+Poi: **SEARCH-01 / B-13 — Algolia** (blocker pre-lancio).
 
 ---
 
