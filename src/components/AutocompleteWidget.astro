@@ -160,8 +160,8 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
               });
             },
             templates: {
-              header() {
-                return `<span class="aa-SectionTitle">${l.articoli}</span>`;
+              header({ html }: any) {
+                return html`<span class="aa-SectionTitle">${l.articoli}</span>`;
               },
               item({ item, html, components }: any) {
                 return html`
@@ -187,11 +187,11 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
                     </div>
                   </a>`;
               },
-              footer({ state }: any) {
-                return `<a href="${searchHref}?q=${encodeURIComponent(state.query)}" class="aa-SeeAll">${l.seeAll} →</a>`;
+              footer({ state, html }: any) {
+                return html`<a href="${searchHref}?q=${encodeURIComponent(state.query)}" class="aa-SeeAll">${l.seeAll} →</a>`;
               },
-              noResults() {
-                return `<p class="aa-NoResults">${l.noResults} "<strong>${q}</strong>"</p>`;
+              noResults({ html }: any) {
+                return html`<p class="aa-NoResults">${l.noResults} "<strong>${q}</strong>"</p>`;
               },
             },
           },
@@ -211,8 +211,8 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
               });
             },
             templates: {
-              header() {
-                return `<span class="aa-SectionTitle">${l.autori}</span>`;
+              header({ html }: any) {
+                return html`<span class="aa-SectionTitle">${l.autori}</span>`;
               },
               item({ item, html }: any) {
                 const url = lang === 'en'
@@ -247,8 +247,8 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
               });
             },
             templates: {
-              header() {
-                return `<span class="aa-SectionTitle">${l.numeri}</span>`;
+              header({ html }: any) {
+                return html`<span class="aa-SectionTitle">${l.numeri}</span>`;
               },
               item({ item, html }: any) {
                 const url = lang === 'en'
@@ -379,15 +379,15 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
 
   /* ── Panel — 600px, vita.it-style ────────────────────────────────────────── */
   .aa-Panel {
+    position: fixed !important;
     z-index: 1200 !important;
-    /* Sovrascrive width inline di autocomplete-js (pari al container ~360px) */
     width: 600px !important;
     max-width: calc(100vw - 2rem) !important;
-    background: #fff;
-    border-radius: 0 0 8px 8px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.10), 0 2px 6px rgba(0,0,0,0.06);
-    border: 1px solid var(--border-color, #e8e6e3);
-    border-top: none;
+    background: #fff !important;
+    border-radius: 0 0 8px 8px !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10), 0 2px 6px rgba(0,0,0,0.06) !important;
+    border: 1px solid var(--border-color, #e8e6e3) !important;
+    border-top: none !important;
     overflow: hidden;
     font-family: 'Raleway', system-ui, sans-serif;
   }
