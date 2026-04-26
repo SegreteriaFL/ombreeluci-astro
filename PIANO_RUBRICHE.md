@@ -310,6 +310,36 @@ npm run test:seo
 
 ---
 
+## _routes.json — verifica post-build obbligatoria
+
+`/rubriche/*` è SSG (prerender) → Astro genera automaticamente le entry nell'`exclude` di `_routes.json`. Non serve intervento manuale.
+
+`/en/sections/*` è SSR → deve stare nell'`include`. Il pattern `/en/*` già presente copre tutto — nessuna modifica necessaria.
+
+Verifica dopo ogni `npm run build`:
+
+```bash
+cat dist/_routes.json | python3 -c "
+import json, sys
+r = json.load(sys.stdin)
+print('include:', r.get('include'))
+excl = [e['pattern'] for e in r.get('exclude', [])]
+print('exclude count:', len(excl))
+print('/rubriche/ in exclude:', any('rubriche' in e for e in excl))
+print('/en/* in include:', any('en' in str(i) for i in r.get('include', [])))
+# Cerca overlap tra include e exclude
+overlap = [e for e in excl if any(e.startswith(str(i).rstrip('*')) for i in r.get('include', []))]
+print('Overlap include/exclude:', overlap or 'nessuno')
+"
+```
+
+Atteso:
+- `/rubriche/editoriali/`, `/rubriche/interviste/` ecc. compaiono nell'`exclude` (SSG)
+- `/en/*` o `/en/sections/*` nell'`include` (SSR)
+- Zero overlap
+
+---
+
 ## Punto critico da verificare
 
 `forma = 'Dialogo Aperto'` ha uno spazio. La query Directus:

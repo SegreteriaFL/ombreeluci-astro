@@ -103,6 +103,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 | ARCH-EN | ✅ | M | `/en/archive/` e `/en/archive/[issue]` — `ArchivioContent.astro` + `IssueContent.astro`. Merge `feat/static-pages-en`. |
 | DIARI-EN | ✅ | M | `/en/diaries/` e `/en/diaries/[diario]` — `DiariContent.astro` + `DiarioContent.astro`. Merge `feat/static-pages-en`. |
 | TAG-03 | 🟡 | S | Pagine tag filtro lingua: `/tag/[slug]` solo IT, `/en/tag/[slug]` solo EN. |
+| TAG-REC | 🟡 | M | Filtro per tipo dentro `/rubriche/recensioni/`: libri, cinema, teatro, tv. Architettura: tag Directus + filtro client-side dentro RubricaPageContent (NON sub-URL). Pre-requisito: verificare che le recensioni abbiano già tag `cinema`/`libri`/`teatro`/`tv` in Directus — se no, lavoro editoriale. Post-lancio. |
 | SEARCH-01 | 🔴 | L | **Ricerca Algolia — BLOCKER PRE-LANCIO** (→ B-13). Non si va in produzione senza ricerca. Indice `ombreeluci_articoli` creato, credenziali in `.env`. Da fare: script sync Directus→Algolia + integrazione frontend `/cerca` e `/en/search`. Decisione architetturale documentata in CONTENUTI.md (Opzione B scelta). |
 | VERT-01 | 🟡 | L | 8 pagine verticali WP da replicare con struttura multilingua fin dall'inizio: `mariangela-bertolini`, `autismo`, `cinema-e-disabilita`, `aktion-t4-sterminio-persone-disabilita`, `catechesi-e-disabilita`, `noi-papa-un-figlio-disabile`, `ciao-stefano-di-franco`, `studiosi-educatori-e-attivisti-ombre-e-luci` |
 | B-12 | 🟡 | M | Rivalutazione ruoli editoriali per categoria (dopo B-04) |
