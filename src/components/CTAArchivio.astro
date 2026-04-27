@@ -1,0 +1,136 @@
+---
+/**
+ * CTAArchivio — banner sostienici per pagine archivio e singolo numero.
+ * Dati in src/data/cta.json — modificabili senza toccare questo file.
+ * Tracking: data-cta-id per GTM + UTM nel link.
+ * Immagine: /cta-numero.webp (700×500px, 47KB WebP, ottimizzata 2026-04-27)
+ */
+import ctaData from '../data/cta.json';
+
+interface Props {
+  lang?: 'it' | 'en';
+  /** Contesto pagina per UTM utm_source — 'archivio' | 'numero' */
+  pageContext?: 'archivio' | 'numero';
+}
+
+const { lang = 'it', pageContext = 'archivio' } = Astro.props;
+const cta = ctaData.archivio;
+const ui = lang === 'en' ? cta.en : cta.it;
+const utmLink = `/sostienici?utm_source=${pageContext}&utm_medium=cta-banner&utm_campaign=${cta.id}&utm_content=${lang}`;
+---
+
+<aside
+  class="cta-archivio"
+  data-cta-id={cta.id}
+  data-cta-name={cta.name}
+  aria-label={lang === 'en' ? 'Support us' : 'Sostienici'}
+>
+  <div class="cta-archivio__body">
+    <div class="cta-archivio__text">
+      <p class="cta-archivio__titolo">{ui.titolo}</p>
+      <p class="cta-archivio__sottotitolo">{ui.sottotitolo}</p>
+      <a
+        href={utmLink}
+        class="cta-archivio__btn"
+        data-cta-id={cta.id}
+        data-cta-context={pageContext}
+      >{ui.cta}</a>
+    </div>
+    <div class="cta-archivio__image" aria-hidden="true">
+      <img
+        src="/cta-numero.webp"
+        alt=""
+        width="350"
+        height="250"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+  </div>
+</aside>
+
+<style>
+  .cta-archivio {
+    background: #e6f1f8;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 3rem 0 1rem;
+  }
+
+  .cta-archivio__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2.5rem 3rem;
+  }
+
+  .cta-archivio__text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .cta-archivio__titolo {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0 0 0.75rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+
+  .cta-archivio__sottotitolo {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin: 0 0 1.75rem;
+    line-height: 1.6;
+    max-width: 480px;
+  }
+
+  .cta-archivio__btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: #2d8b6a;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: background 0.2s;
+  }
+  .cta-archivio__btn:hover { background: #1a6b52; }
+
+  .cta-archivio__image {
+    flex-shrink: 0;
+    width: 300px;
+  }
+  .cta-archivio__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  @media (max-width: 900px) {
+    .cta-archivio__image { width: 220px; }
+    .cta-archivio__titolo { font-size: 1.5rem; }
+  }
+
+  @media (max-width: 640px) {
+    .cta-archivio__body {
+      flex-direction: column;
+      padding: 2rem 1.5rem;
+      gap: 1.5rem;
+    }
+    .cta-archivio__image {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    .cta-archivio__btn {
+      display: block;
+      text-align: center;
+    }
+  }
+</style>

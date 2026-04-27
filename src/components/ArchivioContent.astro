@@ -1,6 +1,7 @@
 ---
 import { t, type Locale } from '../utils/i18n';
 import IssueCard from './IssueCard.astro';
+import CTAArchivio from './CTAArchivio.astro';
 import { getNumeroImageUrl } from '../lib/directus';
 
 interface NumeroRivista {
@@ -101,6 +102,8 @@ function numeroFromId(idNumero: string): number {
       <h2 class="no-results-title">{t(lang, 'archive_no_results_title')}</h2>
       <p class="no-results-text">{t(lang, 'archive_no_results_body')}</p>
     </div>
+
+    <CTAArchivio lang={lang} pageContext="archivio" />
   </div>
 
   <script define:vars={{ resultsSuffix: t(lang, 'archive_results_suffix') }}>

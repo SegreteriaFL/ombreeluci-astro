@@ -2,6 +2,7 @@
 import { t, type Locale } from '../utils/i18n';
 import ArticleCard from './ArticleCard.astro';
 import IssueNavPill from './IssueNavPill.astro';
+import CTAArchivio from './CTAArchivio.astro';
 import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
 import { getArticoloCopertinaSrc, getNumeroImageUrl } from '../lib/directus';
 import type { ArticoloFull } from '../lib/directus';
@@ -211,6 +212,8 @@ const articleBasePath = lang === 'en' ? '/en' : '/it';
         </div>
       )}
     </section>
+
+    <CTAArchivio lang={lang} pageContext="numero" />
   </div>
 </main>
 <IssueNavPill prevSlug={prevNavSlug} nextSlug={nextNavSlug} />

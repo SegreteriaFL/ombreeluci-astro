@@ -26,6 +26,7 @@ import { t, localizeFormalType, localizeCategory, localizeTheme } from '../../ut
 import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
 import Commenti from '../../components/Commenti.astro';
+import CTAArticolo from '../../components/CTAArticolo.astro';
 
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
@@ -641,6 +642,9 @@ const alternates: { lang: string; url: string }[] = [
             ))}
           </nav>
         )}
+
+        {/* CTA Sostienici — dopo tag, prima bio autore. Spostare questo blocco per cambiare posizione. */}
+        <CTAArticolo lang="en" pageContext="articolo-en" />
 
         {/* Bio Autore */}
         <div class="author-bio-section">

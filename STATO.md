@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-27 (main — `a2da57c6` commenti accordion + bio troncata + bio_en EN + audit doc completo)
+**Ultimo aggiornamento:** 2026-04-27 (main — CTA Sostienici articoli+archivio+numeri, cta-numero.webp 47KB)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -289,7 +289,7 @@ Il middleware gira solo per route nel manifest. Fix: `[...path].astro` catch-all
 | GR-05 | Crescita | Newsletter Mailchimp form moderno |
 | GR-06 | Crescita | CTA dinamiche a fine articolo |
 | GR-07 | Crescita | Pagina `/newsletter` dedicata |
-| GR-CTA | Crescita | **CTA "Sostienici" in fondo agli articoli** — vedi § GR-CTA per specifiche complete. Effort: M. |
+| GR-CTA | Crescita | ✅ **CHIUSO 2026-04-27** — CTA Sostienici implementate. 3 varianti (sage/peach/amber) su articoli IT+EN, banner con immagine su archivio e numeri. Dati in `src/data/cta.json`. Tracking: UTM + `data-cta-id`. Vedi § GR-CTA per architettura. |
 | UX-07 | UX | Articolo su mobile: padding, tipografia fluida, capolettera |
 | UX-10 | UX | Selettore lingua: nascondere se non esiste traduzione |
 | UX-BIO | UX | ✅ **CHIUSO 2026-04-27** — Bio autore troncata a 200 caratteri con link "Leggi di più →" alla pagina autore. Implementato in `it/[slug].astro` e `en/[slug].astro`. |

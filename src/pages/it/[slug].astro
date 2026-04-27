@@ -11,6 +11,7 @@ import { getLangFromUrl, t, localizeFormalType } from '../../utils/i18n';
 import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
 import Commenti from '../../components/Commenti.astro';
+import CTAArticolo from '../../components/CTAArticolo.astro';
 
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
@@ -652,6 +653,9 @@ const relatedArticles = (() => {
             ))}
           </nav>
         )}
+
+        {/* CTA Sostienici — dopo tag, prima bio autore. Spostare questo blocco per cambiare posizione. */}
+        <CTAArticolo lang="it" pageContext="articolo-it" />
 
         {/* Bio Autore */}
         <div class="author-bio-section">

@@ -1,0 +1,100 @@
+---
+/**
+ * CTAArticolo — CTA sostienici in fondo agli articoli.
+ * Seleziona una variante random (SSR = diversa ad ogni request).
+ * Dati in src/data/cta.json — modificabili senza toccare questo file.
+ * Tracking: data-cta-id per GTM + UTM nel link.
+ * Posizione: dopo i tag, prima della bio autore (agile da spostare).
+ */
+import ctaData from '../data/cta.json';
+
+interface Props {
+  lang?: 'it' | 'en';
+  /** Contesto pagina per UTM utm_source — es. 'articolo-it', 'articolo-en' */
+  pageContext?: string;
+}
+
+const { lang = 'it', pageContext = 'articolo' } = Astro.props;
+
+const ctas = ctaData.articolo;
+const cta = ctas[Math.floor(Math.random() * ctas.length)];
+const ui = lang === 'en' ? cta.en : cta.it;
+const utmLink = `/sostienici?utm_source=${pageContext}&utm_medium=cta-inline&utm_campaign=${cta.id}&utm_content=${lang}`;
+---
+
+<aside
+  class={`cta-articolo cta-articolo--${cta.colore}`}
+  data-cta-id={cta.id}
+  data-cta-name={cta.name}
+  aria-label={lang === 'en' ? 'Support us' : 'Sostienici'}
+>
+  <p class="cta-articolo__titolo">{ui.titolo}</p>
+  <p class="cta-articolo__testo">{ui.testo}</p>
+  <a
+    href={utmLink}
+    class="cta-articolo__link"
+    data-cta-id={cta.id}
+    data-cta-context={pageContext}
+  >{ui.cta} →</a>
+</aside>
+
+<style>
+  .cta-articolo {
+    margin: 2rem 0;
+    padding: 1.5rem 1.75rem;
+    border-left: 4px solid;
+    border-radius: 0 8px 8px 0;
+  }
+
+  /* sage — verde salvia caldo */
+  .cta-articolo--sage {
+    background: #edf6f1;
+    border-color: #2d8b6a;
+  }
+  .cta-articolo--sage .cta-articolo__link { color: #1a6b52; }
+
+  /* peach — pesca caldo */
+  .cta-articolo--peach {
+    background: #fff3eb;
+    border-color: #d4641a;
+  }
+  .cta-articolo--peach .cta-articolo__link { color: #b5530a; }
+
+  /* amber — ambra / giallo caldo */
+  .cta-articolo--amber {
+    background: #fef9e4;
+    border-color: #c59c20;
+  }
+  .cta-articolo--amber .cta-articolo__link { color: #8b6914; }
+
+  .cta-articolo__titolo {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0 0 0.6rem;
+    line-height: 1.35;
+  }
+
+  .cta-articolo__testo {
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    margin: 0 0 1rem;
+  }
+
+  .cta-articolo__link {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: opacity 0.15s;
+  }
+  .cta-articolo__link:hover { text-decoration: underline; }
+
+  @media (max-width: 480px) {
+    .cta-articolo { padding: 1.25rem 1.25rem; }
+    .cta-articolo__titolo { font-size: 1rem; }
+    .cta-articolo__testo { font-size: 0.875rem; }
+  }
+</style>
