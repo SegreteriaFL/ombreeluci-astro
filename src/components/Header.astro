@@ -480,6 +480,7 @@ const archivioLinks = [
   .mega-menu[aria-hidden="false"] {
     max-height: 85vh;
     overflow-y: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -516,6 +517,7 @@ const archivioLinks = [
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    min-width: 0; /* grid item default min-width:auto can force columns wider than 1fr */
   }
 
   .mega-menu-title {
