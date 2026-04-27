@@ -401,7 +401,7 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 1.5rem;
-    max-height: 520px;
+    max-height: calc(100vh - var(--header-height, 72px) - 1rem);
     overflow-y: auto;
     overscroll-behavior: contain;
   }
@@ -453,6 +453,7 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
     object-fit: cover;
     border-radius: 3px;
     flex-shrink: 0;
+    align-self: flex-start;
     background: var(--border-color, #e8e6e3);
   }
   .aa-ItemImg--round { border-radius: 50%; }

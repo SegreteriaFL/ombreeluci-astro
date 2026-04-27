@@ -6,7 +6,6 @@
  * Aggiungere lingue future nella array `langs`.
  */
 import { getLangFromUrl, t } from '../utils/i18n';
-import iconTranslate from '../assets/icon-translate.svg?raw';
 
 interface Props {
   pathname: string;
@@ -29,15 +28,25 @@ const langs = [
 ---
 
 <div class="ls-wrap" aria-label={t(lang, 'aria_lang_selector')}>
-  <!-- Icona translate (SVG inline, nessuna dipendenza esterna) -->
+  <!-- Icona translate -->
   <button class="ls-icon-btn" id="ls-toggle" aria-expanded="false" aria-haspopup="true" aria-label={t(lang, 'aria_lang_selector')}>
-    <span class="ls-btn-icon" aria-hidden="true" set:html={iconTranslate} />
+    <span class="ls-btn-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+    </span>
     <span class="ls-btn-lang" aria-hidden="true">{lang.toUpperCase()}</span>
   </button>
 
   <!-- Pill desktop (sempre visibile su ≥768px): icona + codici lingua -->
   <div class="ls-pill" role="list">
-    <span class="ls-pill-icon" aria-hidden="true" set:html={iconTranslate} />
+    <span class="ls-pill-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+    </span>
     {langs.map((l) => (
       <a
         href={l.href}
@@ -63,9 +72,18 @@ const langs = [
 </div>
 
 <script>
-  const btn = document.getElementById('ls-toggle');
-  const dropdown = document.getElementById('ls-dropdown');
-  if (btn && dropdown) {
+  let lsAbort: AbortController | null = null;
+
+  function initLangSelector() {
+    lsAbort?.abort();
+    const ac = new AbortController();
+    lsAbort = ac;
+    const { signal } = ac;
+
+    const btn = document.getElementById('ls-toggle');
+    const dropdown = document.getElementById('ls-dropdown');
+    if (!btn || !dropdown) return;
+
     function close() {
       dropdown.setAttribute('aria-hidden', 'true');
       btn.setAttribute('aria-expanded', 'false');
@@ -76,13 +94,18 @@ const langs = [
       btn.setAttribute('aria-expanded', 'true');
       dropdown.querySelectorAll('a').forEach(a => a.removeAttribute('tabindex'));
     }
+
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       dropdown.getAttribute('aria-hidden') === 'false' ? close() : open();
-    });
-    document.addEventListener('click', close);
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+    }, { signal });
+
+    document.addEventListener('click', close, { signal });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); }, { signal });
   }
+
+  document.addEventListener('astro:page-load', initLangSelector);
+  initLangSelector();
 </script>
 
 <style>
@@ -116,7 +139,8 @@ const langs = [
   .ls-btn-icon svg {
     width: 16px;
     height: 16px;
-    fill: currentColor;
+    stroke: currentColor;
+    fill: none;
   }
 
   .ls-btn-lang {
@@ -153,7 +177,8 @@ const langs = [
   .ls-pill-icon svg {
     width: 16px;
     height: 16px;
-    fill: currentColor;
+    stroke: currentColor;
+    fill: none;
   }
 
   .ls-code {
