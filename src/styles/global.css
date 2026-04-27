@@ -62,7 +62,7 @@
 }
 
 html {
-  overflow-x: clip; /* prevent any element from causing horizontal page scroll without breaking position:sticky */
+  overflow-x: hidden; /* prevent horizontal page scroll; on html (not body) to preserve position:sticky */
 }
 
 hr {
