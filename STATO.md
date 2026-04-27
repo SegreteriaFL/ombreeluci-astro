@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-27 (main — fix IssueNavPill, TAG-03, scroll mobile, img leggi-anche; doc audit UX/SEO/redirect/analytics/Directus/commenti)
+**Ultimo aggiornamento:** 2026-04-27 (main — `a2da57c6` commenti accordion + bio troncata + bio_en EN + audit doc completo)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -73,11 +73,12 @@
 
 | Commit | Fix |
 |--------|-----|
+| `a2da57c6` | UX: commenti accordion `<details>` chiusi di default; bio autore troncata 200 char + link "Leggi di più"; bio_en su articoli EN; audit doc completo (§SEO, §Analytics, §Redirect, §Directus, §Commenti, §Piano EN/ES) |
 | `5ee8326` | IssueNavPill: href doppio `/archivio//archivio/` — passato path completo, non prefissato di nuovo |
-| `3dac352` | Mobile scroll orizzontale: `min-width:0` su `.mega-menu-block` (grid item default), `overflow-x:hidden` esplicito su stato aperto mega menu, `overflow-x:clip` su `html` in global.css |
+| `3dac352` | Mobile scroll orizzontale: `min-width:0` su `.mega-menu-block`, `overflow-x:hidden` su mega menu aperto, `overflow-x:clip` su `html` |
 | `cd2f988` | Mobile scroll orizzontale: `overflow-x:clip` → `overflow-x:hidden` su `html` (clip non supportato iOS Safari <16) |
-| `3930532` | ArticlePageLayout: reset `margin:0; border-radius:0` su `.article-content .leggi-anche img` — `.article-content img { margin: 2rem }` colpiva il thumbnail del correlato |
-| `(corrente)` | TAG-03: `/tag/[slug]` IT ora filtra `lang=it` — prima mostrava IT+EN insieme |
+| `3930532` | ArticlePageLayout: reset `margin:0; border-radius:0` su `.article-content .leggi-anche img` |
+| `04bfcf0a` | TAG-03: `/tag/[slug]` IT ora filtra `lang=it` — prima mostrava IT+EN insieme |
 
 **Scroll orizzontale mobile**: `overflow-x:hidden` su `html` è deployato. Da verificare su altri device prima di confermare chiuso.
 
