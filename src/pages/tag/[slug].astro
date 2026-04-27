@@ -18,7 +18,7 @@ import {
 const creds = directusCredsFromAstroLocals(Astro.locals);
 const tagSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
 
-const [tag, articoli] = await Promise.all([
+const [tag, allArticoli] = await Promise.all([
   getTagBySlug(tagSlug, creds),
   getArticoliByTag(tagSlug, creds),
 ]);
@@ -26,6 +26,8 @@ const [tag, articoli] = await Promise.all([
 if (!tag) {
   return new Response('Not found', { status: 404 });
 }
+
+const articoli = allArticoli.filter((a) => a.lang === 'it');
 
 Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
 ---

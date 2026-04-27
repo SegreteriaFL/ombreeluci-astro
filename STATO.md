@@ -1,13 +1,13 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-26 (main — ALGOLIA-01/02/03/04: indicizzazione + autocomplete + InstantSearch)
+**Ultimo aggiornamento:** 2026-04-27 (main — fix IssueNavPill, TAG-03, scroll mobile, img leggi-anche)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
 
 ---
 
-## Stato attuale verificato (2026-04-26 — main, post-merge rubriche)
+## Stato attuale verificato (aggiornato 2026-04-27)
 
 | Verifica | Esito |
 |----------|-------|
@@ -41,10 +41,14 @@
 | Interviste IT/EN | ✅ `/rubriche/interviste/`, `/en/sections/interviews/` |
 | Testimonianze IT/EN | ✅ `/rubriche/testimonianze/`, `/en/sections/testimonies/` |
 | Recensioni IT/EN | ✅ `/rubriche/recensioni/`, `/en/sections/reviews/` |
-| Tag IT/EN | ✅ 200 |
+| Tag IT `/tag/[slug]/` | ✅ solo articoli `lang=it` (fix 2026-04-27) |
+| Tag EN `/en/tag/[slug]/` | ✅ solo articoli `lang=en` |
 | Redirect `/blog/*` | ✅ 301 |
 | CORS Directus | ✅ |
 | LanguageSelector fallback null → homepage lingua | ✅ già presente |
+| IssueNavPill prev/next link | ✅ fix 2026-04-27 (era `/archivio//archivio/`) |
+| Scroll orizzontale mobile | 🟡 fix deployato (2026-04-27) — da verificare su più device |
+| `.leggi-anche` img margin nell'articolo | ✅ fix 2026-04-27 |
 
 ---
 
@@ -65,9 +69,23 @@
 
 ---
 
+## Fix recenti (2026-04-27)
+
+| Commit | Fix |
+|--------|-----|
+| `5ee8326` | IssueNavPill: href doppio `/archivio//archivio/` — passato path completo, non prefissato di nuovo |
+| `3dac352` | Mobile scroll orizzontale: `min-width:0` su `.mega-menu-block` (grid item default), `overflow-x:hidden` esplicito su stato aperto mega menu, `overflow-x:clip` su `html` in global.css |
+| `cd2f988` | Mobile scroll orizzontale: `overflow-x:clip` → `overflow-x:hidden` su `html` (clip non supportato iOS Safari <16) |
+| `3930532` | ArticlePageLayout: reset `margin:0; border-radius:0` su `.article-content .leggi-anche img` — `.article-content img { margin: 2rem }` colpiva il thumbnail del correlato |
+| `(corrente)` | TAG-03: `/tag/[slug]` IT ora filtra `lang=it` — prima mostrava IT+EN insieme |
+
+**Scroll orizzontale mobile**: `overflow-x:hidden` su `html` è deployato. Da verificare su altri device prima di confermare chiuso.
+
+---
+
 ## Prossima azione immediata
 
-**SEARCH-01 / B-13 — Algolia** (blocker pre-lancio). Script sync Directus→Algolia + integrazione frontend `/cerca` e `/en/search`.
+**SEARCH-01 / B-13 — Algolia** (blocker pre-lancio). Da testare seriamente su staging (vedi checklist § Algolia). Manca ALGOLIA-05 (webhook sync automatico).
 
 ---
 
@@ -105,7 +123,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 | HOME-EN | ✅ | M | Homepage EN `/en/` — `HomePageContent.astro` estratto, `index.astro` refactored, `en/index.astro` creato. Merge `1c4bbe90`. |
 | ARCH-EN | ✅ | M | `/en/archive/` e `/en/archive/[issue]` — `ArchivioContent.astro` + `IssueContent.astro`. Merge `feat/static-pages-en`. |
 | DIARI-EN | ✅ | M | `/en/diaries/` e `/en/diaries/[diario]` — `DiariContent.astro` + `DiarioContent.astro`. Merge `feat/static-pages-en`. |
-| TAG-03 | 🟡 | S | Pagine tag filtro lingua: `/tag/[slug]` solo IT, `/en/tag/[slug]` solo EN. |
+| TAG-03 | ✅ | S | `/tag/[slug]` ora filtra `lang=it`; `/en/tag/[slug]` filtra `lang=en`. Fix 2026-04-27. |
 | TAG-REC | 🟡 | M | Filtro per tipo dentro `/rubriche/recensioni/`: libri, cinema, teatro, tv. Architettura: tag Directus + filtro client-side dentro RubricaPageContent (NON sub-URL). Pre-requisito: verificare che le recensioni abbiano già tag `cinema`/`libri`/`teatro`/`tv` in Directus — se no, lavoro editoriale. Post-lancio. |
 | SEARCH-01 | 🟡 | L | **Ricerca Algolia** — ALGOLIA-01/02/03/04 completati (2026-04-26). Indice popolato (7502 record). Autocomplete header + InstantSearch `/cerca` e `/en/search` deployati su main. **Richiede test sistematico pre-lancio** — vedi § Algolia. Manca ALGOLIA-05 (webhook). |
 | ALGOLIA-05 | 🔴 | M | **Webhook sync Directus→Algolia** — pubblicare/modificare un articolo in Directus deve aggiornare automaticamente l'indice Algolia. Senza questo, ogni re-indicizzazione è manuale (`node scripts/algolia/index-all.mjs`). Da fare prima del go-live. |
