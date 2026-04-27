@@ -17,18 +17,18 @@ function formatData(iso: string): string {
 }
 
 const ui = lang === 'en' ? {
-  heading: commenti.length > 0
-    ? `${commenti.length} comment${commenti.length > 1 ? 's' : ''}`
-    : 'Comments',
+  showComments: commenti.length === 1
+    ? '1 comment'
+    : `${commenti.length} comments`,
   formTitle: 'Leave a comment',
   formNote: 'Your comment will be published after editorial approval. Your email will not be published.',
   labelName: 'Name',
   labelComment: 'Comment',
   submitBtn: 'Submit comment',
 } : {
-  heading: commenti.length > 0
-    ? `${commenti.length} comment${commenti.length > 1 ? 'i' : ''}`
-    : 'Commenti',
+  showComments: commenti.length === 1
+    ? '1 commento'
+    : `${commenti.length} commenti`,
   formTitle: 'Lascia un commento',
   formNote: 'Il tuo commento sarà pubblicato dopo approvazione della redazione. L\'email non verrà pubblicata.',
   labelName: 'Nome',
@@ -37,34 +37,42 @@ const ui = lang === 'en' ? {
 };
 ---
 
-<section class="commenti-section" aria-labelledby="commenti-titolo">
-  <h2 class="commenti-titolo" id="commenti-titolo">{ui.heading}</h2>
+<section class="commenti-section">
 
   {commenti.length > 0 && (
-    <ol class="commenti-lista" aria-label="Commenti approvati">
-      {commenti.map((c) => (
-        <li class="commento">
-          <div class="commento-header">
-            <span class="commento-autore">{c.autore_nome}</span>
-            <time class="commento-data" datetime={c.data_creazione}>
-              {formatData(c.data_creazione)}
-            </time>
-          </div>
-          <p class="commento-testo">{c.testo}</p>
-        </li>
-      ))}
-    </ol>
+    <details class="commenti-accordion">
+      <summary class="commenti-accordion-summary">
+        <span class="commenti-accordion-label">{ui.showComments}</span>
+        <span class="commenti-accordion-icon" aria-hidden="true"></span>
+      </summary>
+      <ol class="commenti-lista" aria-label="Commenti approvati">
+        {commenti.map((c) => (
+          <li class="commento">
+            <div class="commento-header">
+              <span class="commento-autore">{c.autore_nome}</span>
+              <time class="commento-data" datetime={c.data_creazione}>
+                {formatData(c.data_creazione)}
+              </time>
+            </div>
+            <p class="commento-testo">{c.testo}</p>
+          </li>
+        ))}
+      </ol>
+    </details>
   )}
 
-  <div class="commento-form-wrap">
-    <h3 class="commento-form-titolo">{ui.formTitle}</h3>
-    <p class="commento-form-nota">{ui.formNote}</p>
-
-    <form
-      class="commento-form"
-      data-articolo-id={articoloId}
-      novalidate
-    >
+  <details class="commenti-accordion">
+    <summary class="commenti-accordion-summary">
+      <span class="commenti-accordion-label">{ui.formTitle}</span>
+      <span class="commenti-accordion-icon" aria-hidden="true"></span>
+    </summary>
+    <div class="commento-form-wrap">
+      <p class="commento-form-nota">{ui.formNote}</p>
+      <form
+        class="commento-form"
+        data-articolo-id={articoloId}
+        novalidate
+      >
       {/* Honeypot anti-spam: nascosto, deve restare vuoto */}
       <input
         type="text"
@@ -129,7 +137,9 @@ const ui = lang === 'en' ? {
 
       <div class="commento-feedback" role="alert" aria-live="assertive" hidden></div>
     </form>
-  </div>
+    </div>
+  </details>
+
 </section>
 
 <script define:vars={{ commentoLang: lang, commentoSubmitBtn: ui.submitBtn }}>
@@ -206,24 +216,67 @@ const ui = lang === 'en' ? {
     margin-top: 3rem;
     padding-top: 2.5rem;
     border-top: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
-  .commenti-titolo {
-    font-size: 1.5rem;
+  /* Accordion */
+  .commenti-accordion {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .commenti-accordion-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    background: color-mix(in srgb, var(--bg-cream) 60%, white);
+    transition: background 0.15s;
+  }
+  .commenti-accordion-summary::-webkit-details-marker { display: none; }
+  .commenti-accordion-summary::marker { display: none; }
+  .commenti-accordion-summary:hover {
+    background: color-mix(in srgb, var(--bg-cream) 90%, white);
+  }
+
+  .commenti-accordion-label {
+    font-size: 1rem;
     font-weight: 700;
-    margin-bottom: 1.5rem;
-    letter-spacing: -0.01em;
     color: var(--text-color);
+    letter-spacing: -0.01em;
   }
 
-  /* Lista commenti */
+  .commenti-accordion-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23555' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.2s ease;
+  }
+  .commenti-accordion[open] .commenti-accordion-icon {
+    transform: rotate(180deg);
+  }
+
+  .commenti-accordion[open] .commenti-accordion-summary {
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  /* Lista commenti dentro l'accordion */
   .commenti-lista {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 1.1rem;
-    margin-bottom: 2.5rem;
-    padding: 0;
+    padding: 1.25rem;
+    margin: 0;
   }
 
   .commento {
@@ -263,21 +316,10 @@ const ui = lang === 'en' ? {
     white-space: pre-line;
   }
 
-  /* Form */
+  /* Form — dentro l'accordion, niente bordo/ombra doppi */
   .commento-form-wrap {
     background: linear-gradient(180deg, color-mix(in srgb, var(--bg-cream) 88%, white), var(--bg-cream));
-    border-radius: 12px;
-    padding: 1.75rem 2rem;
-    border: 1px solid var(--border-color);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04);
-  }
-
-  .commento-form-titolo {
-    font-size: 1.15rem;
-    font-weight: 700;
-    margin-bottom: 0.35rem;
-    letter-spacing: -0.01em;
-    color: var(--text-color);
+    padding: 1.5rem 1.5rem 1.75rem;
   }
 
   .commento-form-nota {

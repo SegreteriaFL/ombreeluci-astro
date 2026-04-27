@@ -141,6 +141,11 @@ const authorFotoId: string | null = autoreCompleto?.foto?.id ?? null;
 const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${authorSlug}.jpg`;
 const authorBio: string | null = authorBioHtml;
 
+const _bioStripped = authorBioHtml ? authorBioHtml.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() : null;
+const authorBioTruncated: string | null = _bioStripped && _bioStripped.length > 200
+  ? _bioStripped.substring(0, 200).replace(/\s\S*$/, '') + '…'
+  : null;
+
 const readingTime = calculateReadingTimeFromHtml(articolo.corpo);
 const slugToArticolo = Object.fromEntries(correlatiArticoli.map((a) => [a.slug, a]));
 
@@ -670,7 +675,14 @@ const relatedArticles = (() => {
                 </a>
               </h3>
               <div class="author-bio-text">
-                {authorBio ? (
+                {authorBioTruncated ? (
+                  <>
+                    <p>{authorBioTruncated}</p>
+                    <a href={`/autori/${authorSlug}`} class="author-bio-more">
+                      {locale === 'en' ? 'Read more →' : 'Leggi di più →'}
+                    </a>
+                  </>
+                ) : authorBio ? (
                   <div set:html={authorBio} />
                 ) : (
                   t(locale, 'author_bio_fallback')
