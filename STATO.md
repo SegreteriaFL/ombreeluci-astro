@@ -235,6 +235,10 @@ La pipeline AI HA copiato `categoria_menu` correttamente per il 99% degli artico
 **S3 — FIXATO** (feat/static-pages-en, 2026-04-25)
 `LanguageSelector.astro`: già aveva fallback `alternateArticleUrl ?? '/en'`. `en/category/[slug].astro`: ora fa `redirect('/en/', 302)` invece di 404 quando 0 articoli published.
 
+### BUG-REGEX — SyntaxError "missing ) in parenthetical" su articoli specifici (2026-04-27)
+
+`Uncaught SyntaxError: missing ) in parenthetical` in console su `/it/la-costituzione-dei-poveri-recensione` e `/en/the-constitution-of-the-poor-book-review`. Errore client-side in `hoisted.*.js` alla riga 7 e 19 dell'articolo compilato. Causa probabile: il `corpo` dell'articolo contiene un carattere (es. `(` senza `)` corrispondente, o un pattern che JS interpreta come regex malformata) che viene usato in un contesto RegExp da qualche componente client. Limitato a questi due articoli (IT+EN stesso pezzo). **Da investigare in sessione separata**: aprire l'articolo in Directus, cercare parentesi non bilanciate o caratteri speciali nel campo `corpo` o `titolo`.
+
 ### basePath default '' non '/' (2026-04-24)
 `ArticleCard.astro` e `ArticoliRullo.astro` avevano `basePath='/'` → href `//slug`. Fix: `basePath=''`. Commit `57100eff`.
 
