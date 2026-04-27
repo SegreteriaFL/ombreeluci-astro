@@ -19,7 +19,7 @@ const { prevSlug, nextSlug } = Astro.props;
     <!-- Freccia sinistra: numero precedente -->
     {prevSlug ? (
       <a
-        href={`/archivio/${prevSlug}`}
+        href={prevSlug}
         class="issue-nav-pill__btn issue-nav-pill__btn--prev"
         aria-label="Numero precedente"
         data-tooltip="Numero precedente"
@@ -48,7 +48,7 @@ const { prevSlug, nextSlug } = Astro.props;
     <!-- Freccia destra: numero successivo -->
     {nextSlug ? (
       <a
-        href={`/archivio/${nextSlug}`}
+        href={nextSlug}
         class="issue-nav-pill__btn issue-nav-pill__btn--next"
         aria-label="Numero successivo"
         data-tooltip="Numero successivo"
