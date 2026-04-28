@@ -6,9 +6,10 @@
 export interface Props {
   prevSlug: string | null;
   nextSlug: string | null;
+  archiveBasePath?: string;
 }
 
-const { prevSlug, nextSlug } = Astro.props;
+const { prevSlug, nextSlug, archiveBasePath = '/archivio' } = Astro.props;
 ---
 
 <nav
@@ -40,9 +41,9 @@ const { prevSlug, nextSlug } = Astro.props;
       </span>
     )}
 
-    <!-- Centro: link Archivio -->
-    <a href="/archivio" class="issue-nav-pill__center" data-tooltip="Torna all'archivio">
-      Archivio
+    <!-- Centro: link Magazine -->
+    <a href={archiveBasePath} class="issue-nav-pill__center" data-tooltip="Tutti i numeri">
+      Magazine
     </a>
 
     <!-- Freccia destra: numero successivo -->

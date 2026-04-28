@@ -54,34 +54,25 @@ const ultimoIssueHref = `${archiveBase}/${ultimoSlug}`;
       </div>
     </div>
 
-    <!-- Filtri inline -->
+    <!-- Filtri inline senza label -->
     <div class="filters-bar">
-      <div class="filter-group">
-        <label for="filter-anno" class="filter-label">{t(lang, 'archive_filter_year')}</label>
-        <select id="filter-anno" class="filter-select" data-filter-year>
-          <option value="">{t(lang, 'archive_filter_all')}</option>
-          {anni.map(anno => (
-            <option value={anno}>{anno}</option>
-          ))}
-        </select>
-      </div>
+      <select id="filter-anno" class="filter-select" data-filter-year aria-label={t(lang, 'archive_filter_year')}>
+        <option value="">{lang === 'en' ? 'All years' : 'Tutti gli anni'}</option>
+        {anni.map(anno => (
+          <option value={anno}>{anno}</option>
+        ))}
+      </select>
 
-      <div class="filter-group">
-        <label for="filter-testata" class="filter-label">{t(lang, 'archive_filter_type')}</label>
-        <select id="filter-testata" class="filter-select" data-filter-type>
-          <option value="">{t(lang, 'archive_filter_all')}</option>
-          <option value="ombreeluci">Ombre e Luci</option>
-          <option value="insieme">Insieme</option>
-        </select>
-      </div>
+      <select id="filter-testata" class="filter-select" data-filter-type aria-label={t(lang, 'archive_filter_type')}>
+        <option value="">{lang === 'en' ? 'All types' : 'Tutte le riviste'}</option>
+        <option value="ombreeluci">Ombre e Luci</option>
+        <option value="insieme">Insieme</option>
+      </select>
 
-      <div class="filter-group">
-        <label for="filter-ordine" class="filter-label">{lang === 'en' ? 'Order' : 'Ordine'}</label>
-        <select id="filter-ordine" class="filter-select">
-          <option value="desc">{lang === 'en' ? 'Newest first' : 'Più recenti'}</option>
-          <option value="asc">{lang === 'en' ? 'Oldest first' : 'Meno recenti'}</option>
-        </select>
-      </div>
+      <select id="filter-ordine" class="filter-select" aria-label={lang === 'en' ? 'Order' : 'Ordine'}>
+        <option value="desc">{lang === 'en' ? 'Newest first' : 'Più recenti'}</option>
+        <option value="asc">{lang === 'en' ? 'Oldest first' : 'Meno recenti'}</option>
+      </select>
 
       <div class="results-count" id="results-count">
         {numeriOrdinati.length} {t(lang, 'archive_results_suffix')}
@@ -258,37 +249,24 @@ const ultimoIssueHref = `${archiveBase}/${ultimoSlug}`;
   .filters-bar {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    align-items: flex-end;
+    gap: 0.5rem;
+    align-items: center;
     margin-bottom: 1.5rem;
     padding-bottom: 1.25rem;
     border-bottom: 1px solid var(--border-color, #e8e6e3);
-  }
-
-  .filter-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-  }
-
-  .filter-label {
-    font-size: 0.75rem;
-    font-weight: 500;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
   }
 
   .filter-select {
     padding: 0.4rem 0.75rem;
     border: none;
     border-radius: 6px;
-    font-size: 0.85rem;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.8125rem;
     background: rgba(0, 0, 0, 0.05);
     color: var(--text-color);
     cursor: pointer;
     transition: background 0.2s ease;
-    min-width: 130px;
+    min-width: 120px;
   }
 
   .filter-select:hover { background: rgba(0, 0, 0, 0.08); }
@@ -299,8 +277,6 @@ const ultimoIssueHref = `${archiveBase}/${ultimoSlug}`;
     font-size: 0.8125rem;
     color: var(--text-secondary, #5c5c5c);
     font-weight: 500;
-    align-self: flex-end;
-    padding-bottom: 0.35rem;
   }
 
   /* ---- Issues grid ---- */
@@ -334,9 +310,9 @@ const ultimoIssueHref = `${archiveBase}/${ultimoSlug}`;
     .mag-intro { padding: 2rem 0 2rem; }
     .mag-title { font-size: 2.25rem; }
 
-    .filters-bar { gap: 0.75rem; }
-    .filter-select { min-width: 0; }
-    .results-count { margin-left: 0; }
+    .filters-bar { gap: 0.5rem; }
+    .filter-select { min-width: 0; flex: 1; }
+    .results-count { margin-left: 0; order: -1; width: 100%; }
 
     .issues-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   }

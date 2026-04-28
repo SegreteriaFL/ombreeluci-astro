@@ -241,7 +241,7 @@ const isUltimoNumero = numero.id_numero === ultimoNumeroData.id_numero;
     <CTAArchivio lang={lang} pageContext="numero" />
   </div>
 </main>
-<IssueNavPill prevSlug={prevNavSlug} nextSlug={nextNavSlug} />
+<IssueNavPill prevSlug={prevNavSlug} nextSlug={nextNavSlug} archiveBasePath={archiveBasePath} />
 
 <style>
   .issue-main {
@@ -259,7 +259,8 @@ const isUltimoNumero = numero.id_numero === ultimoNumeroData.id_numero;
   .issue-mag-header {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     gap: 0.75rem;
     margin-bottom: 1.75rem;
   }
