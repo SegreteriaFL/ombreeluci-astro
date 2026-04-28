@@ -6,6 +6,7 @@ import CTAArchivio from './CTAArchivio.astro';
 import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
 import { getArticoloCopertinaSrc, getNumeroImageUrl } from '../lib/directus';
 import type { ArticoloFull } from '../lib/directus';
+import ultimoNumeroData from '../data/ultimo-numero.json';
 
 interface NumeroRivista {
   id: string;
@@ -59,16 +60,33 @@ const noArticlesMsg = lang === 'en' ? 'No articles found for this issue.' : 'Non
 const noArticlesTitle = lang === 'en' ? 'No articles found' : 'Nessun articolo trovato';
 const englishEditionLabel = 'English Edition';
 const articleBasePath = lang === 'en' ? '/en' : '/it';
+
+// Switcher: link a ultimo numero per "Ultima edizione", archivio per "Tutte le edizioni"
+const ultimoSlug = String(ultimoNumeroData.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-');
+const ultimoIssueHref = `${archiveBasePath}/${ultimoSlug}`;
+const isUltimoNumero = numero.id_numero === ultimoNumeroData.id_numero;
 ---
 
 <main class="issue-main">
   <div class="issue-container">
-    <!-- Breadcrumb Magazine -->
-    <nav class="issue-breadcrumb" aria-label="breadcrumb">
-      <a href={archiveBasePath} class="issue-breadcrumb-back">{t(lang, 'issue_back_archive')}</a>
-      <span class="issue-breadcrumb-sep" aria-hidden="true">·</span>
-      <a href={`${archiveBasePath}?tab=numeri`} class="issue-breadcrumb-all">{t(lang, 'archive_tab_all')}</a>
-    </nav>
+    <!-- Magazine switcher -->
+    <div class="issue-mag-header">
+      <p class="issue-mag-eyebrow">{t(lang, 'archive_title')}</p>
+      <div class="mag-switcher" role="tablist">
+        {isUltimoNumero ? (
+          <span class="mag-switcher-btn mag-switcher-btn--active" role="tab" aria-selected="true">
+            {t(lang, 'archive_tab_last')}
+          </span>
+        ) : (
+          <a href={ultimoIssueHref} class="mag-switcher-btn" role="tab">
+            {t(lang, 'archive_tab_last')}
+          </a>
+        )}
+        <a href={archiveBasePath} class="mag-switcher-btn" role="tab">
+          {t(lang, 'archive_tab_all')}
+        </a>
+      </div>
+    </div>
 
     <!-- Hero Section -->
     <section class="hero-section">
@@ -238,31 +256,58 @@ const articleBasePath = lang === 'en' ? '/en' : '/it';
     padding: 2rem 1.5rem;
   }
 
-  .issue-breadcrumb {
+  .issue-mag-header {
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 1.75rem;
   }
 
-  .issue-breadcrumb-back,
-  .issue-breadcrumb-all {
+  .issue-mag-eyebrow {
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.875rem;
-    font-weight: 500;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-secondary, #5c5c5c);
+    margin: 0;
+  }
+
+  .mag-switcher {
+    display: inline-flex;
+    gap: 4px;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 100px;
+    padding: 4px;
+  }
+
+  .mag-switcher-btn {
+    display: inline-block;
+    padding: 0.45rem 1.1rem;
+    border-radius: 100px;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
     color: var(--text-secondary, #5c5c5c);
     text-decoration: none;
+    cursor: pointer;
     transition: color 0.2s ease;
+    white-space: nowrap;
   }
 
-  .issue-breadcrumb-back:hover,
-  .issue-breadcrumb-all:hover {
-    color: var(--accent-color);
+  .mag-switcher-btn:hover {
+    color: var(--text-color);
   }
 
-  .issue-breadcrumb-sep {
-    color: var(--text-secondary, #5c5c5c);
-    font-size: 0.75rem;
+  .mag-switcher-btn--active {
+    background: #111111;
+    color: #ffffff;
+    cursor: default;
+  }
+
+  .mag-switcher-btn--active:hover {
+    color: #ffffff;
   }
 
   .hero-section {
