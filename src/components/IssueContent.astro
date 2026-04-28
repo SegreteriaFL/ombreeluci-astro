@@ -63,6 +63,13 @@ const articleBasePath = lang === 'en' ? '/en' : '/it';
 
 <main class="issue-main">
   <div class="issue-container">
+    <!-- Breadcrumb Magazine -->
+    <nav class="issue-breadcrumb" aria-label="breadcrumb">
+      <a href={archiveBasePath} class="issue-breadcrumb-back">{t(lang, 'issue_back_archive')}</a>
+      <span class="issue-breadcrumb-sep" aria-hidden="true">·</span>
+      <a href={`${archiveBasePath}?tab=numeri`} class="issue-breadcrumb-all">{t(lang, 'archive_tab_all')}</a>
+    </nav>
+
     <!-- Hero Section -->
     <section class="hero-section">
       <div class="hero-cover">
@@ -229,6 +236,33 @@ const articleBasePath = lang === 'en' ? '/en' : '/it';
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 1.5rem;
+  }
+
+  .issue-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .issue-breadcrumb-back,
+  .issue-breadcrumb-all {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-secondary, #5c5c5c);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .issue-breadcrumb-back:hover,
+  .issue-breadcrumb-all:hover {
+    color: var(--accent-color);
+  }
+
+  .issue-breadcrumb-sep {
+    color: var(--text-secondary, #5c5c5c);
+    font-size: 0.75rem;
   }
 
   .hero-section {

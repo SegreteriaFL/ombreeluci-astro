@@ -55,7 +55,7 @@ const sezioniForme = rubricheData.map((r) => ({
 }));
 const archivioLinks = [
   { nome: t(lang, 'nav_latest'), slug: homeHref },
-  { nome: t(lang, 'nav_archive_full'), slug: archiveHref },
+  { nome: t(lang, 'nav_newsletter'), slug: nlHref },
   { nome: t(lang, 'nav_authors'), slug: authorsHref },
   { nome: t(lang, 'search_label'), slug: searchHref },
 ];
@@ -74,7 +74,7 @@ const archivioLinks = [
         <LanguageSelector lang={lang} pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
         <nav class="header-nav" aria-label={t(lang, 'aria_header_utility')}>
           <a href={aboutHref} class:list={['header-link', { 'header-link--active': isActive(aboutHref) }]}>{t(lang, 'nav_about')}</a>
-          <a href={nlHref} class:list={['header-link', { 'header-link--active': isActive(nlHref) }]}>{t(lang, 'nav_newsletter')}</a>
+          <a href={archiveHref} class:list={['header-link', { 'header-link--active': isActive(archiveHref) }]}>{t(lang, 'archive_title')}</a>
         </nav>
         <button type="button" class="mobile-search-btn" id="mobile-search-btn" aria-label={t(lang, 'search_label')} aria-expanded="false" aria-controls="mobile-search-overlay">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">

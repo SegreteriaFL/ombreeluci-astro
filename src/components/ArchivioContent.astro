@@ -19,14 +19,21 @@ interface Props {
   lang: Locale;
   numeriOrdinati: NumeroRivista[];
   anni: number[];
+  ultimoNumero: NumeroRivista;
 }
 
-const { lang, numeriOrdinati, anni } = Astro.props;
+const { lang, numeriOrdinati, anni, ultimoNumero } = Astro.props;
 
 function numeroFromId(idNumero: string): number {
   const m = idNumero.match(/(\d+)$/);
   return m ? parseInt(m[1], 10) : 0;
 }
+
+const archiveBase = lang === 'en' ? '/en/archive' : '/archivio';
+const ultimoSlug = String(ultimoNumero.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-');
+const ultimoIssueHref = `${archiveBase}/${ultimoSlug}`;
+const ultimoCoverUrl = getNumeroImageUrl(ultimoNumero as any);
+const ultimoNumeroDisplay = numeroFromId(ultimoNumero.id_numero);
 ---
 
 <main class="site-main">
@@ -36,84 +43,160 @@ function numeroFromId(idNumero: string): number {
       <p class="archivio-subtitle">{t(lang, 'archive_subtitle')}</p>
     </div>
 
-    <div class="filters-container">
-      <div class="filter-group">
-        <label for="filter-anno" class="filter-label">{t(lang, 'archive_filter_year')}</label>
-        <select id="filter-anno" class="filter-select" data-filter-year>
-          <option value="">{t(lang, 'archive_filter_all')}</option>
-          {anni.map(anno => (
-            <option value={anno}>{anno}</option>
-          ))}
-        </select>
-      </div>
+    <!-- CSS-only tabs: radio inputs must precede tab-nav and panels as siblings -->
+    <input type="radio" name="mag-tab" id="tab-ultimo" class="tab-radio" checked>
+    <input type="radio" name="mag-tab" id="tab-numeri" class="tab-radio">
 
-      <div class="filter-group">
-        <label for="filter-testata" class="filter-label">{t(lang, 'archive_filter_type')}</label>
-        <select id="filter-testata" class="filter-select" data-filter-type>
-          <option value="">{t(lang, 'archive_filter_all')}</option>
-          <option value="ombreeluci">Ombre e Luci</option>
-          <option value="insieme">Insieme</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <label for="filter-ordine" class="filter-label">{lang === 'en' ? 'Order' : 'Ordinamento'}</label>
-        <select id="filter-ordine" class="filter-select">
-          <option value="desc">{lang === 'en' ? 'Date ↓' : 'Data ↓'}</option>
-          <option value="asc">{lang === 'en' ? 'Date ↑' : 'Data ↑'}</option>
-        </select>
-      </div>
-
-      <div class="results-count" id="results-count">
-        {numeriOrdinati.length} {t(lang, 'archive_results_suffix')}
-      </div>
+    <div class="tab-nav" role="tablist">
+      <label for="tab-ultimo" class="tab-btn" role="tab">{t(lang, 'archive_tab_last')}</label>
+      <label for="tab-numeri" class="tab-btn" role="tab">{t(lang, 'archive_tab_all')}</label>
     </div>
 
-    <div class="issues-grid" id="issues-grid">
-      {numeriOrdinati.map((n) => {
-        const anno = n.anno_pubblicazione ?? 0;
-        const numero = numeroFromId(n.id_numero);
-        const tipoFilter = n.tipo === 'ins' ? 'insieme' : 'ombreeluci';
-        const tipoRivista = n.tipo === 'insieme' ? 'insieme' : 'ombre_e_luci';
-        return (
-          <div
-            class="issue-card-wrapper"
-            data-id={n.id_numero}
-            data-year={anno || ''}
-            data-type={tipoFilter}
-            data-numero={numero}
-          >
-            <IssueCard
-              cover_url={getNumeroImageUrl(n as any) ?? undefined}
-              titolo_numero={n.titolo_tema ?? n.display_title ?? ''}
-              numero={numero}
-              anno={anno}
-              periodo_label={n.periodo_label ?? undefined}
-              tipo_rivista={tipoRivista}
-              id_numero={n.id_numero}
-              lang={lang}
-            />
+    <!-- Tab 1: Ultimo numero -->
+    <div class="tab-panel tab-panel--ultimo">
+      <div class="ultimo-hero">
+        <div class="ultimo-cover">
+          {ultimoCoverUrl ? (
+            <a href={ultimoIssueHref}>
+              <img
+                src={ultimoCoverUrl}
+                alt={`Copertina ${ultimoNumero.display_title ?? ultimoNumero.id_numero}`}
+                width={320}
+                height={427}
+                data-copertina-fallback
+              />
+            </a>
+          ) : (
+            <div class="ultimo-cover-placeholder">
+              <span>Ombre e Luci</span>
+              <span>{ultimoNumero.id_numero}</span>
+            </div>
+          )}
+        </div>
+
+        <div class="ultimo-content">
+          <span class="ultimo-badge">
+            {lang === 'en' ? 'Issue' : 'Numero'} {ultimoNumeroDisplay} · {ultimoNumero.anno_pubblicazione}
+          </span>
+
+          <h2 class="ultimo-title">
+            <a href={ultimoIssueHref}>{ultimoNumero.display_title ?? ultimoNumero.titolo_tema ?? ultimoNumero.id_numero}</a>
+          </h2>
+
+          {ultimoNumero.periodo_label && (
+            <p class="ultimo-period">{ultimoNumero.periodo_label}</p>
+          )}
+
+          <div class="ultimo-actions">
+            <a href={ultimoIssueHref} class="ultimo-btn-primary">
+              {t(lang, 'archive_read_issue')}
+            </a>
+            <label for="tab-numeri" class="ultimo-btn-secondary">
+              {t(lang, 'archive_tab_all')} →
+            </label>
           </div>
-        );
-      })}
+        </div>
+      </div>
+
+      <CTAArchivio lang={lang} pageContext="archivio" />
     </div>
 
-    <div class="no-results" id="no-results" style="display: none;">
-      <h2 class="no-results-title">{t(lang, 'archive_no_results_title')}</h2>
-      <p class="no-results-text">{t(lang, 'archive_no_results_body')}</p>
-    </div>
+    <!-- Tab 2: Tutti i numeri -->
+    <div class="tab-panel tab-panel--numeri">
 
-    <CTAArchivio lang={lang} pageContext="archivio" />
+      <details class="filtri-accordion">
+        <summary class="filtri-summary">
+          <span class="filtri-label">{t(lang, 'archive_filters_label')}</span>
+          <span class="filtri-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="filters-container">
+          <div class="filter-group">
+            <label for="filter-anno" class="filter-label">{t(lang, 'archive_filter_year')}</label>
+            <select id="filter-anno" class="filter-select" data-filter-year>
+              <option value="">{t(lang, 'archive_filter_all')}</option>
+              {anni.map(anno => (
+                <option value={anno}>{anno}</option>
+              ))}
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-testata" class="filter-label">{t(lang, 'archive_filter_type')}</label>
+            <select id="filter-testata" class="filter-select" data-filter-type>
+              <option value="">{t(lang, 'archive_filter_all')}</option>
+              <option value="ombreeluci">Ombre e Luci</option>
+              <option value="insieme">Insieme</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-ordine" class="filter-label">{lang === 'en' ? 'Order' : 'Ordinamento'}</label>
+            <select id="filter-ordine" class="filter-select">
+              <option value="desc">{lang === 'en' ? 'Date ↓' : 'Data ↓'}</option>
+              <option value="asc">{lang === 'en' ? 'Date ↑' : 'Data ↑'}</option>
+            </select>
+          </div>
+        </div>
+      </details>
+
+      <div class="results-header">
+        <div class="results-count" id="results-count">
+          {numeriOrdinati.length} {t(lang, 'archive_results_suffix')}
+        </div>
+      </div>
+
+      <div class="issues-grid" id="issues-grid">
+        {numeriOrdinati.map((n) => {
+          const anno = n.anno_pubblicazione ?? 0;
+          const numero = numeroFromId(n.id_numero);
+          const tipoFilter = n.tipo === 'ins' ? 'insieme' : 'ombreeluci';
+          const tipoRivista = n.tipo === 'insieme' ? 'insieme' : 'ombre_e_luci';
+          return (
+            <div
+              class="issue-card-wrapper"
+              data-id={n.id_numero}
+              data-year={anno || ''}
+              data-type={tipoFilter}
+              data-numero={numero}
+            >
+              <IssueCard
+                cover_url={getNumeroImageUrl(n as any) ?? undefined}
+                titolo_numero={n.titolo_tema ?? n.display_title ?? ''}
+                numero={numero}
+                anno={anno}
+                periodo_label={n.periodo_label ?? undefined}
+                tipo_rivista={tipoRivista}
+                id_numero={n.id_numero}
+                lang={lang}
+              />
+            </div>
+          );
+        })}
+      </div>
+
+      <div class="no-results" id="no-results" style="display: none;">
+        <h2 class="no-results-title">{t(lang, 'archive_no_results_title')}</h2>
+        <p class="no-results-text">{t(lang, 'archive_no_results_body')}</p>
+      </div>
+
+    </div><!-- /tab-panel--numeri -->
   </div>
 
   <script define:vars={{ resultsSuffix: t(lang, 'archive_results_suffix') }}>
     document.addEventListener('astro:page-load', function() {
-      const filterAnno = document.getElementById('filter-anno');
-      const filterTestata = document.getElementById('filter-testata');
-      const filterOrdine = document.getElementById('filter-ordine');
-      const issuesGrid = document.getElementById('issues-grid');
-      const noResults = document.getElementById('no-results');
-      const resultsCount = document.getElementById('results-count');
+      // URL param: ?tab=numeri → activate second tab
+      var params = new URLSearchParams(location.search);
+      if (params.get('tab') === 'numeri') {
+        var radioNumeri = document.getElementById('tab-numeri');
+        if (radioNumeri) radioNumeri.checked = true;
+      }
+
+      var filterAnno = document.getElementById('filter-anno');
+      var filterTestata = document.getElementById('filter-testata');
+      var filterOrdine = document.getElementById('filter-ordine');
+      var issuesGrid = document.getElementById('issues-grid');
+      var noResults = document.getElementById('no-results');
+      var resultsCount = document.getElementById('results-count');
       if (!filterAnno || !filterTestata || !filterOrdine || !issuesGrid || !noResults || !resultsCount) return;
 
       var wrappers = Array.from(issuesGrid.querySelectorAll('.issue-card-wrapper'));
@@ -163,28 +246,384 @@ function numeroFromId(idNumero: string): number {
     margin: 0 auto;
     padding: 2rem 1.5rem;
   }
-  .archivio-header { margin-bottom: 2.5rem; }
-  .archivio-title { font-size: 2.5rem; font-weight: 700; color: var(--text-color); margin-bottom: 0.5rem; }
-  .archivio-subtitle { font-size: 1.125rem; color: var(--text-secondary); margin-bottom: 2rem; }
-  .filters-container { background: transparent; padding: 0; margin-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
-  .filter-group { display: flex; flex-direction: column; gap: 0.5rem; }
-  .filter-label { font-size: 0.875rem; font-weight: 400; color: var(--text-secondary); }
-  .filter-select { padding: 0.625rem 1rem; border: none; border-radius: 8px; font-size: 0.9375rem; background: rgba(0,0,0,0.05); color: var(--text-color); cursor: pointer; transition: all 0.2s ease; min-width: 150px; }
-  .filter-select:hover { background: rgba(0,0,0,0.08); }
-  .filter-select:focus { outline: none; background: rgba(0,0,0,0.1); }
-  .results-count { margin-left: auto; font-size: 0.9375rem; color: var(--text-secondary); font-weight: 500; }
-  .issues-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+
+  .archivio-header {
+    margin-bottom: 2rem;
+  }
+
+  .archivio-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+  }
+
+  .archivio-subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+  }
+
+  /* ---- Tab radios: hidden but functional ---- */
+  .tab-radio {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+  }
+
+  /* ---- Tab nav ---- */
+  .tab-nav {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid var(--border-color, #e8e6e3);
+    margin-bottom: 2rem;
+  }
+
+  .tab-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--text-secondary, #5c5c5c);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+    user-select: none;
+  }
+
+  .tab-btn:hover {
+    color: var(--text-color);
+  }
+
+  /* Active tab via checked radio sibling selectors */
+  #tab-ultimo:checked ~ .tab-nav label[for="tab-ultimo"],
+  #tab-numeri:checked ~ .tab-nav label[for="tab-numeri"] {
+    color: var(--accent-color);
+    font-weight: 700;
+    border-bottom-color: var(--accent-color);
+  }
+
+  /* ---- Tab panels ---- */
+  .tab-panel {
+    display: none;
+  }
+
+  #tab-ultimo:checked ~ .tab-panel--ultimo {
+    display: block;
+  }
+
+  #tab-numeri:checked ~ .tab-panel--numeri {
+    display: block;
+  }
+
+  /* ---- Ultimo numero hero ---- */
+  .ultimo-hero {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2.5rem;
+    background: var(--bg-card, #fdfcfb);
+    border: 1px solid var(--border-color, #e8e6e3);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+    align-items: start;
+  }
+
+  .ultimo-cover {
+    width: 100%;
+  }
+
+  .ultimo-cover a {
+    display: block;
+  }
+
+  .ultimo-cover img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+    transition: transform 0.25s ease;
+  }
+
+  .ultimo-cover a:hover img {
+    transform: translateY(-3px);
+  }
+
+  .ultimo-cover-placeholder {
+    width: 100%;
+    aspect-ratio: 3/4;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
+    gap: 0.5rem;
+    font-family: 'Raleway', system-ui, sans-serif;
+  }
+
+  .ultimo-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-top: 0.5rem;
+  }
+
+  .ultimo-badge {
+    display: inline-block;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-secondary, #5c5c5c);
+    background: rgba(0, 0, 0, 0.05);
+    padding: 0.35rem 0.75rem;
+    border-radius: 6px;
+    width: fit-content;
+  }
+
+  .ultimo-title {
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text-color);
+    margin: 0;
+  }
+
+  .ultimo-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .ultimo-title a:hover {
+    color: var(--accent-color);
+  }
+
+  .ultimo-period {
+    font-size: 1rem;
+    color: var(--text-secondary, #5c5c5c);
+    font-family: 'Raleway', system-ui, sans-serif;
+    margin: 0;
+  }
+
+  .ultimo-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }
+
+  .ultimo-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--accent-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .ultimo-btn-primary:hover {
+    background: var(--accent-hover);
+    transform: translateY(-1px);
+  }
+
+  .ultimo-btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 8px;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+    user-select: none;
+  }
+
+  .ultimo-btn-secondary:hover {
+    background: var(--accent-color);
+    color: #fff;
+  }
+
+  /* ---- Filters accordion (in tab 2) ---- */
+  .filtri-accordion {
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border-color, #e8e6e3);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .filtri-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.875rem 1.25rem;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    background: var(--bg-card, #fdfcfb);
+    transition: background 0.15s ease;
+  }
+
+  .filtri-summary::-webkit-details-marker { display: none; }
+  .filtri-summary::marker { display: none; }
+
+  .filtri-summary:hover {
+    background: rgba(0, 0, 0, 0.03);
+  }
+
+  .filtri-label {
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .filtri-icon {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.25s ease;
+  }
+
+  .filtri-icon::before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--text-secondary, #5c5c5c);
+    border-bottom: 2px solid var(--text-secondary, #5c5c5c);
+    transform: rotate(45deg) translateY(-2px);
+    transition: transform 0.25s ease;
+  }
+
+  .filtri-accordion[open] .filtri-icon::before {
+    transform: rotate(-135deg) translateY(-2px);
+  }
+
+  .filters-container {
+    padding: 1rem 1.25rem 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-end;
+    border-top: 1px solid var(--border-color, #e8e6e3);
+  }
+
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .filter-label {
+    font-size: 0.8125rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+  }
+
+  .filter-select {
+    padding: 0.5rem 0.875rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    background: rgba(0, 0, 0, 0.05);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background 0.2s ease;
+    min-width: 140px;
+  }
+
+  .filter-select:hover { background: rgba(0, 0, 0, 0.08); }
+  .filter-select:focus { outline: none; background: rgba(0, 0, 0, 0.1); }
+
+  /* ---- Results header ---- */
+  .results-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 1.25rem;
+  }
+
+  .results-count {
+    font-size: 0.875rem;
+    color: var(--text-secondary, #5c5c5c);
+    font-weight: 500;
+  }
+
+  /* ---- Issues grid ---- */
+  .issues-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+
   .issue-card-wrapper { min-height: 0; }
-  .no-results { text-align: center; padding: 4rem 2rem; color: var(--text-secondary); }
-  .no-results-title { font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--text-color); }
-  @media (max-width: 1200px) { .issues-grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .no-results {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--text-secondary, #5c5c5c);
+  }
+
+  .no-results-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+  }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 1200px) {
+    .issues-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+
   @media (max-width: 768px) {
     .archivio-container { padding: 1.5rem 1rem; }
     .archivio-title { font-size: 2rem; }
+
+    .tab-btn { padding: 0.625rem 1rem; font-size: 0.875rem; }
+
+    .ultimo-hero {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .ultimo-cover {
+      max-width: 240px;
+      margin: 0 auto;
+    }
+
+    .ultimo-actions { flex-direction: column; }
+    .ultimo-btn-primary, .ultimo-btn-secondary { justify-content: center; }
+
     .filters-container { flex-direction: column; align-items: stretch; }
     .filter-group { width: 100%; }
-    .results-count { margin-left: 0; margin-top: 0.5rem; }
+    .filter-select { min-width: 0; width: 100%; }
+
     .issues-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   }
-  @media (max-width: 480px) { .issues-grid { grid-template-columns: 1fr; } }
+
+  @media (max-width: 480px) {
+    .issues-grid { grid-template-columns: 1fr; }
+  }
 </style>

@@ -11,14 +11,16 @@ const numeriOrdinati = [...rawNumeri].sort((a, b) =>
 const anni = Array.from(new Set(numeriOrdinati.map((n) => n.anno_pubblicazione ?? 0)))
   .filter((y) => y > 0)
   .sort((a, b) => b - a);
+
+const ultimoNumero = numeriOrdinati.find(n => n.tipo !== 'ins') ?? numeriOrdinati[0];
 ---
 
 <BaseLayout
-  title="Archive — Ombre e Luci"
+  title="Magazine — Ombre e Luci"
   description="Browse the issues of Ombre e Luci magazine since 1977."
   noindex={true}
   lang="en"
   alternateArticleUrl="/archivio/"
 >
-  <ArchivioContent lang="en" numeriOrdinati={numeriOrdinati} anni={anni} />
+  <ArchivioContent lang="en" numeriOrdinati={numeriOrdinati} anni={anni} ultimoNumero={ultimoNumero} />
 </BaseLayout>
