@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-27 (main — CTA Sostienici articoli+archivio+numeri, cta-numero.webp 47KB)
+**Ultimo aggiornamento:** 2026-04-28 (main — Magazine redesign: label, pill switcher, tab UI, CTA articoli, header fixes)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -69,6 +69,16 @@
 
 ---
 
+## Fix recenti (2026-04-28)
+
+| Commit | Fix |
+|--------|-----|
+| `ae17cc4f` | feat(magazine): label "Archivio" → "Magazine" in i18n IT+EN, header nav (Newsletter→Magazine, Archivio completo→Newsletter nel megamenu), ArchivioContent con tab CSS-only (Ultimo numero / Tutti i numeri), IssueContent breadcrumb |
+| `b4259dac` | refactor(magazine): rimuove tab intermedio — "Ultima edizione" è link diretto al numero più recente; header centrato con pill switcher stile vita.it (dark pill su active); filtri inline senza accordion; `?tab=numeri` rimosso (non più necessario) |
+| `7dd5b9ba` | fix(magazine): .issue-mag-header centrato (align-items:center); IssueNavPill "Archivio"→"Magazine" con prop archiveBasePath lang-aware; .header-link font-weight 500→700; search form width 360→480px; filtri senza label, contesto nelle option |
+
+---
+
 ## Fix recenti (2026-04-27)
 
 | Commit | Fix |
@@ -85,6 +95,8 @@
 ---
 
 ## Prossima azione immediata
+
+**BUG-HEADER — Header scroll con megamenu aperto** (UX critico). Quando il megamenu è aperto e si scrolla, l'header (`position:sticky`) scorre via mentre il megamenu (`position:fixed`) resta fisso. Causa: `overflow-x:hidden` su `html` cambia il scroll container su iOS Safari, rompendo `sticky`. Fix: cambiare header a `position:fixed` + `padding-top:var(--header-height)` su `body` in `global.css`. Vedi § Bug Header.
 
 **SEARCH-01 / B-13 — Algolia** (blocker pre-lancio). Da testare seriamente su staging (vedi checklist § Algolia). Manca ALGOLIA-05 (webhook sync automatico).
 
@@ -222,6 +234,50 @@ L'implementazione è funzionante su staging ma non è stata testata in modo sist
 
 ---
 
+## § Bug Header — scroll con megamenu aperto (🔴 aperto)
+
+**Sintomo:** su iOS/mobile, quando il megamenu è aperto e l'utente scrolla, l'header (`position:sticky`) scorre via con la pagina mentre il megamenu (`position:fixed; top:var(--header-height)`) resta fisso → spazio vuoto visibile.
+
+**Causa:** `overflow-x:hidden` su `html` (commit `cd2f988`, fix horizontal scroll iOS Safari <16) crea un nuovo scroll container su alcuni browser mobile. `position:sticky` funziona relativo allo scroll container antenato → con `html` come nuovo container, il comportamento sticky si rompe.
+
+**Fix pianificato:**
+1. `src/styles/global.css`: aggiungere `body { padding-top: var(--header-height) }` (desktop + mobile tramite CSS variable)
+2. `src/components/Header.astro` CSS: `.header { position: sticky }` → `.header { position: fixed; top: 0; left: 0; right: 0 }`
+3. Verificare che footer reveal (già `position:fixed; bottom:0` su desktop) non venga influenzato
+
+**Note:** il fix non richiede JS. Il `body.style.overflow = 'hidden'` che si imposta all'apertura menu rimane invariato. Il `padding-top` assicura che il contenuto non parta sotto l'header.
+
+---
+
+## § Magazine — architettura (2026-04-28)
+
+### Route e componenti
+
+| Pagina | Route IT | Route EN | Componente |
+|--------|----------|----------|------------|
+| Griglia numeri | `/archivio/` | `/en/archive/` | `ArchivioContent.astro` |
+| Singolo numero | `/archivio/[issue]/` | `/en/archive/[issue]/` | `IssueContent.astro` |
+
+### Pill switcher — logica
+
+**Su `/archivio/`:**
+- "Ultima edizione" (inattivo) → link a `/archivio/{ultimoSlug}` (da `numeriOrdinati.find(n => n.tipo !== 'ins')`)
+- "Tutte le edizioni" (attivo, dark pill) → pagina corrente
+
+**Su `/archivio/[issue]/`:**
+- "Ultima edizione" (attivo se `numero.id_numero === ultimoNumeroData.id_numero`, altrimenti link) → `/archivio/{ultimoSlug}` (da `src/data/ultimo-numero.json`)
+- "Tutte le edizioni" (inattivo) → link ad `archiveBasePath` (lang-aware)
+
+### Aggiornare l'ultimo numero
+
+`src/data/ultimo-numero.json` va aggiornato manualmente (o via webhook ALGOLIA-05) quando esce un nuovo numero. Campi: `id_numero`, `copertina_url`, `titolo_numero`, `numero_progressivo`, `anno_pubblicazione`, `periodo_label`.
+
+### IssueNavPill (telecomandino)
+
+Il pill flottante prev/next in basso è **separato** dal pill switcher in testa. Non è ridondante: serve per navigare sequenzialmente tra numeri senza tornare alla griglia. Centro ora mostra "Magazine" (era "Archivio") con link lang-aware ad `archiveBasePath`.
+
+---
+
 ## Note tecniche (casi documentati)
 
 ### CSS leak is:global — ArticlePageLayout (2026-04-24)
@@ -294,7 +350,7 @@ Il middleware gira solo per route nel manifest. Fix: `[...path].astro` catch-all
 | UX-10 | UX | Selettore lingua: nascondere se non esiste traduzione |
 | UX-BIO | UX | ✅ **CHIUSO 2026-04-27** — Bio autore troncata a 200 caratteri con link "Leggi di più →" alla pagina autore. Implementato in `it/[slug].astro` e `en/[slug].astro`. |
 | UX-CMT | UX | ✅ **CHIUSO 2026-04-27** — Form commenti in accordion `<details>/<summary>`: "Mostra commenti (N)" solo se presenti; "Lascia un commento" sempre. Entrambi chiusi di default. File: `src/components/Commenti.astro`. |
-| ARCH-02 | UX | **Archivio: split "Ultimo numero" / "Tutti i numeri"** — vedi § ARCH-02 per specifiche. Effort: M. |
+| ARCH-02 | UX | ✅ **CHIUSO 2026-04-28** — Magazine redesign completo. Label "Archivio"→"Magazine" ovunque; pill switcher centrato (vita.it style) su `/archivio/` e pagine numero; "Ultima edizione" = link diretto al numero, "Tutte le edizioni" = griglia filtri. IssueNavPill aggiornato a "Magazine". Header link più pesanti, form ricerca più larga. |
 | DIR-TAG-EN | Directus | Aggiungere `nome_en` e `slug_en` alla collection `tags` in Directus. Prerequisito per mostrare tag sugli articoli EN. Attualmente i tag EN sono nascosti con `.article-tags-list--hidden` (nota in `ArticlePageLayout.astro`). |
 | DID-EN | Traduzione | Aggiungere campo `didascalia_en` alla collection `articoli` in Directus. Attualmente `didascalia_copertina` non ha equivalente EN — le didascalie sugli articoli EN sono sempre in italiano. |
 | BIO-EN-ART | Traduzione | ✅ **CHIUSO 2026-04-27** — `en/[slug].astro`: `authorBioHtml` ora usa `bio_en` se disponibile, con fallback a `bio_html` IT. |
