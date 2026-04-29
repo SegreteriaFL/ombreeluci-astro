@@ -1,0 +1,18 @@
+---
+export const prerender = true;
+
+import VerticaleContent from '../../components/VerticaleContent.astro';
+import { getVerticali } from '../../lib/directus';
+
+export async function getStaticPaths() {
+  const verticali = await getVerticali();
+  return verticali.map(v => ({
+    params: { vertical: v.slug_en },
+    props: { verticale: v },
+  }));
+}
+
+const { verticale } = Astro.props;
+---
+
+<VerticaleContent verticale={verticale} lang="en" />

@@ -660,3 +660,132 @@ export async function getArticoliEN(
   );
   return data?.data ?? [];
 }
+
+// ── Verticali ─────────────────────────────────────────────────────────────────
+
+export interface VerticaleBloccoArticolo {
+  id: string;
+  slug: string;
+  titolo: string;
+  sottotitolo?: string | null;
+  data_pubblicazione: string;
+  immagine_copertina?: { id: string } | null;
+  autore?: { nome_completo: string; slug: string } | null;
+  categoria_menu?: string | null;
+  forma?: string | null;
+}
+
+export interface VerticaleBlocco {
+  id: number;
+  tipo: 'testo' | 'articoli';
+  ordine: number;
+  titolo_sezione?: string | null;
+  titolo_sezione_en?: string | null;
+  testo?: string | null;
+  testo_en?: string | null;
+  immagine?: { id: string } | null;
+  layout_immagine?: 'nessuna' | 'sfondo' | 'laterale-dx' | 'laterale-sx' | null;
+  articoli?: { articolo_id: VerticaleBloccoArticolo }[];
+}
+
+export interface Verticale {
+  id: number;
+  slug: string;
+  slug_en: string;
+  titolo: string;
+  titolo_en?: string | null;
+  seo_description?: string | null;
+  seo_description_en?: string | null;
+  tema_visivo: 'chiaro' | 'scuro' | 'caldo' | 'magazine';
+  hero_immagine?: { id: string } | null;
+  hero_video_url?: string | null;
+  intro?: string | null;
+  intro_en?: string | null;
+  testo_coda?: string | null;
+  testo_coda_en?: string | null;
+  pubblicato: boolean;
+  sezioni?: VerticaleBlocco[];
+}
+
+const VERTICALE_FIELDS = [
+  'id', 'slug', 'slug_en', 'titolo', 'titolo_en',
+  'seo_description', 'seo_description_en',
+  'tema_visivo', 'hero_immagine.id', 'hero_video_url',
+  'intro', 'intro_en', 'testo_coda', 'testo_coda_en', 'pubblicato',
+  'sezioni.id', 'sezioni.tipo', 'sezioni.ordine',
+  'sezioni.titolo_sezione', 'sezioni.titolo_sezione_en',
+  'sezioni.testo', 'sezioni.testo_en',
+  'sezioni.immagine.id', 'sezioni.layout_immagine',
+  'sezioni.articoli.articolo_id.id',
+  'sezioni.articoli.articolo_id.slug',
+  'sezioni.articoli.articolo_id.titolo',
+  'sezioni.articoli.articolo_id.sottotitolo',
+  'sezioni.articoli.articolo_id.data_pubblicazione',
+  'sezioni.articoli.articolo_id.immagine_copertina.id',
+  'sezioni.articoli.articolo_id.autore.nome_completo',
+  'sezioni.articoli.articolo_id.autore.slug',
+  'sezioni.articoli.articolo_id.categoria_menu',
+  'sezioni.articoli.articolo_id.forma',
+].join(',');
+
+/** Lista di tutte le verticali pubblicate (per getStaticPaths). */
+export async function getVerticali(creds?: DirectusRuntimeCreds): Promise<Verticale[]> {
+  const params = new URLSearchParams({
+    'filter[pubblicato][_eq]': 'true',
+    fields: VERTICALE_FIELDS,
+    'sort': 'slug',
+    limit: '50',
+  });
+  const data = await directusFetch<{ data: Verticale[] }>(
+    `/items/verticali?${params}`,
+    creds
+  );
+  const rows = data?.data ?? [];
+  return rows.map(normalizeVerticale);
+}
+
+/** Singola verticale per slug IT. */
+export async function getVerticaleBySlug(
+  slug: string,
+  creds?: DirectusRuntimeCreds
+): Promise<Verticale | null> {
+  const params = new URLSearchParams({
+    'filter[slug][_eq]': slug,
+    'filter[pubblicato][_eq]': 'true',
+    fields: VERTICALE_FIELDS,
+    limit: '1',
+  });
+  const data = await directusFetch<{ data: Verticale[] }>(
+    `/items/verticali?${params}`,
+    creds
+  );
+  const v = data?.data?.[0];
+  return v ? normalizeVerticale(v) : null;
+}
+
+/** Singola verticale per slug EN. */
+export async function getVerticaleBySlugEN(
+  slugEn: string,
+  creds?: DirectusRuntimeCreds
+): Promise<Verticale | null> {
+  const params = new URLSearchParams({
+    'filter[slug_en][_eq]': slugEn,
+    'filter[pubblicato][_eq]': 'true',
+    fields: VERTICALE_FIELDS,
+    limit: '1',
+  });
+  const data = await directusFetch<{ data: Verticale[] }>(
+    `/items/verticali?${params}`,
+    creds
+  );
+  const v = data?.data?.[0];
+  return v ? normalizeVerticale(v) : null;
+}
+
+function normalizeVerticale(v: Verticale): Verticale {
+  return {
+    ...v,
+    sezioni: (v.sezioni ?? [])
+      .sort((a, b) => (a.ordine ?? 0) - (b.ordine ?? 0)),
+  };
+}

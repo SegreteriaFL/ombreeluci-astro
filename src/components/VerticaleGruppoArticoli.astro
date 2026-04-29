@@ -1,0 +1,71 @@
+---
+import ArticleCard from './ArticleCard.astro';
+import { getDirectusAssetUrl } from '../lib/directus';
+import type { VerticaleBlocco } from '../lib/directus';
+import type { Locale } from '../utils/i18n';
+
+interface Props {
+  blocco: VerticaleBlocco;
+  lang: Locale;
+}
+
+const { blocco, lang } = Astro.props;
+
+const titolo = lang === 'en'
+  ? (blocco.titolo_sezione_en || blocco.titolo_sezione)
+  : blocco.titolo_sezione;
+
+const articoli = (blocco.articoli ?? [])
+  .map(r => r.articolo_id)
+  .filter(Boolean);
+
+const basePath = lang === 'en' ? '/en' : '/it';
+---
+
+{titolo && (
+  <h2 class="vga-heading">{titolo}</h2>
+)}
+
+<div class="vga-grid">
+  {articoli.map(a => (
+    <ArticleCard
+      title={a.titolo}
+      author={a.autore?.nome_completo ?? ''}
+      date={a.data_pubblicazione}
+      slug={a.slug}
+      image={a.immagine_copertina?.id ? getDirectusAssetUrl(a.immagine_copertina.id) : null}
+      categoriaMenu={a.categoria_menu}
+      forma={a.forma}
+      lang={lang}
+      basePath={basePath}
+    />
+  ))}
+</div>
+
+<style>
+  .vga-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent-color);
+    margin: 0 0 1.5rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-color);
+  }
+
+  .vga-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  @media (max-width: 1024px) {
+    .vga-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 480px) {
+    .vga-grid { grid-template-columns: 1fr; }
+  }
+</style>

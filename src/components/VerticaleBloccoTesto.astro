@@ -1,0 +1,115 @@
+---
+import { getDirectusAssetUrl } from '../lib/directus';
+import type { VerticaleBlocco } from '../lib/directus';
+import type { Locale } from '../utils/i18n';
+
+interface Props {
+  blocco: VerticaleBlocco;
+  lang: Locale;
+}
+
+const { blocco, lang } = Astro.props;
+const testo = lang === 'en' ? (blocco.testo_en || blocco.testo) : blocco.testo;
+const imgId = blocco.immagine?.id;
+const imgUrl = imgId ? getDirectusAssetUrl(imgId) : null;
+const layout = blocco.layout_immagine ?? 'nessuna';
+---
+
+<div class={`verticale-blocco-testo verticale-blocco-testo--${layout}`}>
+  {layout === 'sfondo' && imgUrl && (
+    <div class="vbt-sfondo" style={`background-image:url('${imgUrl}')`} aria-hidden="true" />
+  )}
+
+  <div class={`vbt-inner${layout === 'sfondo' ? ' vbt-inner--overlay' : ''}`}>
+    {layout === 'laterale-sx' && imgUrl && (
+      <div class="vbt-img vbt-img--sx">
+        <img src={imgUrl} alt="" loading="lazy" />
+      </div>
+    )}
+
+    {testo && (
+      <div class="vbt-testo rich-text" set:html={testo} />
+    )}
+
+    {layout === 'laterale-dx' && imgUrl && (
+      <div class="vbt-img vbt-img--dx">
+        <img src={imgUrl} alt="" loading="lazy" />
+      </div>
+    )}
+  </div>
+</div>
+
+<style>
+  .verticale-blocco-testo {
+    position: relative;
+    padding: 3rem 0;
+  }
+
+  /* ── Sfondo ── */
+  .verticale-blocco-testo--sfondo {
+    overflow: hidden;
+  }
+  .vbt-sfondo {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.35);
+    z-index: 0;
+  }
+  .vbt-inner--overlay {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  .vbt-inner--overlay :global(h2),
+  .vbt-inner--overlay :global(h3) {
+    color: #fff;
+  }
+
+  /* ── Laterale ── */
+  .vbt-inner {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  .vbt-img {
+    flex: 0 0 340px;
+    max-width: 340px;
+  }
+  .vbt-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+  }
+  .vbt-testo {
+    flex: 1;
+    min-width: 0;
+  }
+
+  /* ── Nessuna immagine ── */
+  .verticale-blocco-testo--nessuna .vbt-inner {
+    max-width: 720px;
+  }
+
+  @media (max-width: 768px) {
+    .vbt-inner {
+      flex-direction: column;
+    }
+    .vbt-img {
+      flex: none;
+      max-width: 100%;
+      width: 100%;
+    }
+    .vbt-img--sx { order: -1; }
+  }
+</style>

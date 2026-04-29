@@ -553,6 +553,16 @@ export function localizeIssuePeriodLabel(
 }
 
 /**
+ * Restituisce il base path per le pagine autore nella lingua data.
+ * IT usa /autori (path storico), le altre lingue usano /{lang}/authors.
+ * Aggiungere ES/FR: basta estendere Locale — questa funzione non va toccata.
+ */
+export function getAuthorBasePath(lang: Locale): string {
+  if (lang === 'it') return '/autori';
+  return `/${lang}/authors`;
+}
+
+/**
  * Restituisce la lingua in base al pathname (es. /en/... → 'en').
  */
 export function getLangFromUrl(pathname: string): Locale {

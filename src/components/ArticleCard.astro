@@ -2,7 +2,7 @@
 // ArticleCard.astro – struttura: contenitore, link (solo immagine+badge+titolo), riga autore fuori dal link
 import { COPERTINA_IMG_ONERROR } from '../lib/directus';
 import { getPlaceholder } from '../utils/placeholder';
-import { t, localizeFormalType, localizeCategory, type Locale } from '../utils/i18n';
+import { t, localizeFormalType, localizeCategory, getAuthorBasePath, type Locale } from '../utils/i18n';
 
 const {
   title,
@@ -67,6 +67,7 @@ const formattedDate = new Intl.DateTimeFormat(dateLocale, {
 }).format(date instanceof Date ? date : new Date(date));
 
 const authorLinkSlug = authorSlug(author);
+const authorBasePath = getAuthorBasePath(lang);
 ---
 
 <div class={`article-card${horizontal ? ' article-card--horizontal' : ''}`}>
@@ -96,7 +97,7 @@ const authorLinkSlug = authorSlug(author);
     {horizontal && authorImage && (
       <img src={authorImage} alt={author} class="author-avatar" loading="lazy" />
     )}
-    {t(lang, 'author_by')} <a href={`/autori/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
+    {t(lang, 'author_by')} <a href={`${authorBasePath}/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
   </p>
 </div>
 

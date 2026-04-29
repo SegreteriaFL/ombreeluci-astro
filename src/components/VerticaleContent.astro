@@ -1,0 +1,240 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import VerticaleBloccoTesto from './VerticaleBloccoTesto.astro';
+import VerticaleGruppoArticoli from './VerticaleGruppoArticoli.astro';
+import { getDirectusAssetUrl } from '../lib/directus';
+import type { Verticale } from '../lib/directus';
+import type { Locale } from '../utils/i18n';
+
+interface Props {
+  verticale: Verticale;
+  lang: Locale;
+}
+
+const { verticale, lang } = Astro.props;
+
+const titolo = lang === 'en' ? (verticale.titolo_en || verticale.titolo) : verticale.titolo;
+const intro = lang === 'en' ? (verticale.intro_en || verticale.intro) : verticale.intro;
+const testoCoda = lang === 'en' ? (verticale.testo_coda_en || verticale.testo_coda) : verticale.testo_coda;
+const seoDesc = lang === 'en'
+  ? (verticale.seo_description_en || verticale.seo_description)
+  : verticale.seo_description;
+
+const heroUrl = verticale.hero_immagine?.id
+  ? getDirectusAssetUrl(verticale.hero_immagine.id)
+  : null;
+
+const slug = lang === 'en' ? verticale.slug_en : verticale.slug;
+const alternateItUrl = `/${verticale.slug}/`;
+const alternateEnUrl = `/en/${verticale.slug_en}/`;
+
+const canonicalUrl = lang === 'en' ? alternateEnUrl : alternateItUrl;
+---
+
+<BaseLayout
+  title={titolo}
+  description={seoDesc ?? ''}
+  lang={lang}
+  ogImage={heroUrl ?? undefined}
+  canonical={canonicalUrl}
+  alternates={[
+    { lang: 'it', url: alternateItUrl },
+    { lang: 'en', url: alternateEnUrl },
+  ]}
+  noindex={false}
+>
+  <article class={`verticale verticale--${verticale.tema_visivo}`}>
+
+    <!-- Hero -->
+    <header class="verticale-hero">
+      {verticale.hero_video_url ? (
+        <div class="verticale-hero__video">
+          <iframe
+            src={verticale.hero_video_url.replace('watch?v=', 'embed/')}
+            title={titolo}
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          />
+        </div>
+      ) : heroUrl ? (
+        <div class="verticale-hero__img">
+          <img src={heroUrl} alt={titolo} loading="eager" />
+        </div>
+      ) : null}
+
+      <div class="verticale-hero__text container">
+        <p class="verticale-eyebrow">Ombre e Luci</p>
+        <h1 class="verticale-titolo">{titolo}</h1>
+      </div>
+    </header>
+
+    <!-- Intro -->
+    {intro && (
+      <div class="verticale-intro container">
+        <div class="rich-text" set:html={intro} />
+      </div>
+    )}
+
+    <!-- Sezioni (blocchi ordinati: testo | articoli) -->
+    <div class="verticale-sezioni container">
+      {(verticale.sezioni ?? []).map(blocco => (
+        blocco.tipo === 'testo'
+          ? <VerticaleBloccoTesto blocco={blocco} lang={lang} />
+          : <VerticaleGruppoArticoli blocco={blocco} lang={lang} />
+      ))}
+    </div>
+
+    <!-- Testo coda -->
+    {testoCoda && (
+      <div class="verticale-coda container">
+        <div class="rich-text" set:html={testoCoda} />
+      </div>
+    )}
+
+  </article>
+</BaseLayout>
+
+<style>
+  /* ── Base ── */
+  .verticale {
+    --v-accent: var(--accent-color);
+    --v-hero-overlay: rgba(20, 47, 47, 0.55);
+  }
+
+  /* ── Skin: chiaro (default) ── */
+  .verticale--chiaro {
+    --v-accent: #008b8b;
+    --v-hero-overlay: rgba(20, 47, 47, 0.45);
+  }
+
+  /* ── Skin: scuro ── */
+  .verticale--scuro {
+    --v-accent: #c0392b;
+    --v-hero-overlay: rgba(10, 10, 20, 0.72);
+  }
+  .verticale--scuro .verticale-intro {
+    background: #0d1117;
+    color: #e8e6e3;
+    border-radius: 0;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .verticale--scuro .verticale-intro :global(p),
+  .verticale--scuro .verticale-intro :global(h2) {
+    color: #e8e6e3;
+  }
+
+  /* ── Skin: caldo ── */
+  .verticale--caldo {
+    --v-accent: #b5651d;
+    --v-hero-overlay: rgba(90, 40, 10, 0.50);
+  }
+  .verticale--caldo .verticale-intro {
+    background: #fdf6ee;
+  }
+
+  /* ── Skin: magazine ── */
+  .verticale--magazine {
+    --v-accent: #1a1a1a;
+    --v-hero-overlay: rgba(0, 0, 0, 0.65);
+  }
+  .verticale--magazine .verticale-titolo {
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    letter-spacing: -0.02em;
+  }
+
+  /* ── Hero ── */
+  .verticale-hero {
+    position: relative;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+  }
+  .verticale-hero__img {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  .verticale-hero__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .verticale-hero__img::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--v-hero-overlay);
+  }
+  .verticale-hero__video {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  .verticale-hero__video iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .verticale-hero__text {
+    position: relative;
+    z-index: 1;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+    color: #fff;
+  }
+  .verticale-eyebrow {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.7);
+    margin: 0 0 0.5rem 0;
+  }
+  .verticale-titolo {
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    font-weight: 800;
+    line-height: 1.1;
+    color: #fff;
+    margin: 0;
+  }
+
+  /* ── Intro ── */
+  .verticale-intro {
+    padding: 2.5rem 1.5rem;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .verticale-intro :global(p) {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: var(--text-color);
+  }
+
+  /* ── Sezioni ── */
+  .verticale-sezioni {
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  /* ── Coda ── */
+  .verticale-coda {
+    padding: 2.5rem 1.5rem 4rem;
+    max-width: 760px;
+    margin: 0 auto;
+    border-top: 1px solid var(--border-color);
+  }
+
+  @media (max-width: 768px) {
+    .verticale-hero { min-height: 280px; }
+    .verticale-sezioni { gap: 2.5rem; }
+  }
+</style>
