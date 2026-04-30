@@ -697,7 +697,7 @@ export interface Verticale {
   seo_description?: string | null;
   seo_description_en?: string | null;
   tema_visivo: 'chiaro' | 'scuro' | 'caldo' | 'magazine';
-  hero_immagine?: { id: string } | null;
+  hero_immagine?: string | null;
   hero_video_url?: string | null;
   intro?: string | null;
   intro_en?: string | null;
@@ -710,7 +710,7 @@ export interface Verticale {
 const VERTICALE_FIELDS = [
   'id', 'slug', 'slug_en', 'titolo', 'titolo_en',
   'seo_description', 'seo_description_en',
-  'tema_visivo', 'hero_immagine.id', 'hero_video_url',
+  'tema_visivo', 'hero_immagine', 'hero_video_url',
   'intro', 'intro_en', 'testo_coda', 'testo_coda_en', 'pubblicato',
   'sezioni.id', 'sezioni.tipo', 'sezioni.ordine',
   'sezioni.titolo_sezione', 'sezioni.titolo_sezione_en',

@@ -20,8 +20,8 @@ const seoDesc = lang === 'en'
   ? (verticale.seo_description_en || verticale.seo_description)
   : verticale.seo_description;
 
-const heroUrl = verticale.hero_immagine?.id
-  ? getDirectusAssetUrl(verticale.hero_immagine.id)
+const heroUrl = verticale.hero_immagine
+  ? getDirectusAssetUrl(verticale.hero_immagine)
   : null;
 
 const slug = lang === 'en' ? verticale.slug_en : verticale.slug;
