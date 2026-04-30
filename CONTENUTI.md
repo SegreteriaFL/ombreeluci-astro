@@ -323,16 +323,24 @@ I tag non hanno versione EN. Nessun campo `label_en` esiste in Directus per la c
 
 8 URL WordPress con contenuto editoriale specifico da replicare sul nuovo sito con lo stesso slug (per redirect 1:1 al cutover e link esterni già indicizzati).
 
-| Slug | Contenuto |
-|------|-----------|
-| `mariangela-bertolini` | Biografia fondatrice + articoli collegati |
-| `ciao-stefano-di-franco` | Memorial Stefano Di Franco + articoli |
-| `autismo` | Hub tematico autismo |
-| `cinema-e-disabilita` | Hub tematico cinema e disabilità |
-| `aktion-t4-sterminio-persone-disabilita` | Hub/dossier Operazione T4 |
-| `studiosi-educatori-e-attivisti-ombre-e-luci` | Elenco collaboratori + link articoli |
-| `catechesi-e-disabilita` | Hub tematico catechesi e disabilità |
-| `noi-papa-un-figlio-disabile` | Raccolta "papà di un figlio con disabilità" |
+### Stato pagine (aggiornato 2026-05-01)
+
+| Slug IT | Slug EN | Directus ID | Stato | Note |
+|---------|---------|-------------|-------|------|
+| `mariangela-bertolini` | `mariangela-bertolini` | 2 | ✅ live | Prima pagina, con articoli e hero |
+| `autismo` | `autism` | 3 | ✅ live | 8 articoli, hero `focus-cover-autismo.jpg` |
+| `noi-papa-un-figlio-disabile` | `we-fathers-of-a-disabled-child` | 4 | ✅ live | 7 articoli, hero `focus-cover-noi-papa.jpg` |
+| `aktion-t4-sterminio-persone-disabilita` | `aktion-t4-extermination-disabled-people` | 5 | ✅ live | 9 articoli, hero `focus-cover-aktiont4.jpg` |
+| `speciale-cinema-e-disabilita` | `cinema-and-disability` | 6 | ✅ live | 6 articoli, hero `focus-cover-cinema-e-disabilita.jpg`. ⚠️ Slug diverso da WP (`/2019/speciale-cinema-e-disabilita/`) — verificare redirect 301 al cutover. |
+| `ciao-stefano-di-franco` | `ciao-stefano-di-franco` | 7 | ✅ live | 8 articoli, hero video YouTube |
+| `studiosi-educatori-e-attivisti-ombre-e-luci` | `scholars-educators-activists` | — | 🔴 da fare | Contenuto da WP — fornire testo e articoli |
+| `catechesi-e-disabilita` | `catechesis-and-disability` | — | 🔴 da fare | Contenuto da WP — fornire testo e articoli |
+
+**Listing:**
+- `/it/focus/` → ✅ live (`FocusListingContent.astro`, commit `2d8cba4e`)
+- `/en/focus/` → ✅ live (stesso componente, lang="en")
+
+**Script di popolamento:** `scripts/create-verticali.py` — usato per creare le 5 nuove verticali via Directus REST API (2026-05-01). Riutilizzabile per le ultime 2 pagine.
 
 DoD minimo: route pubblica su staging con slug identico, contenuto equivalente o redirect 301 documentato, meta title/description coerenti, nessun 404 su questi URL dopo cutover.
 

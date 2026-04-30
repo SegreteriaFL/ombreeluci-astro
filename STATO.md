@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-30 (main — Fix CSS: ArticleCard styles → global.css; fix footer su focus pages; route /it/focus/ + /en/focus/ live con Mariangela Bertolini)
+**Ultimo aggiornamento:** 2026-05-01 (main — 5 nuove pagine Focus populate in Directus; `/it/focus/` e `/en/focus/` listing live; hero cover images upload)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -96,6 +96,10 @@
 
 ## Prossima azione immediata
 
+**VERT-01 — 2 pagine Focus mancanti** (editoriale). Mancano `studiosi-educatori-e-attivisti-ombre-e-luci` e `catechesi-e-disabilita`. Fornire testo intro e lista articoli (come per le 5 già create). Script `scripts/create-verticali.py` pronto per il riuso.
+
+**CF Pages build** — triggerare deploy per pubblicare le 5 nuove verticali su staging e verificare visivamente.
+
 **BUG-HEADER — Header scroll con megamenu aperto** (UX critico). Quando il megamenu è aperto e si scrolla, l'header (`position:sticky`) scorre via mentre il megamenu (`position:fixed`) resta fisso. Causa: `overflow-x:hidden` su `html` cambia il scroll container su iOS Safari, rompendo `sticky`. Fix: cambiare header a `position:fixed` + `padding-top:var(--header-height)` su `body` in `global.css`. Vedi § Bug Header.
 
 **SEARCH-01 / B-13 — Algolia** (blocker pre-lancio). Da testare seriamente su staging (vedi checklist § Algolia). Manca ALGOLIA-05 (webhook sync automatico).
@@ -143,9 +147,9 @@ Tutto questo deve essere verde prima del cutover DNS.
 | TAG-REC | 🟡 | M | Filtro per tipo dentro `/rubriche/recensioni/`: libri, cinema, teatro, tv. Architettura: tag Directus + filtro client-side dentro RubricaPageContent (NON sub-URL). Pre-requisito: verificare che le recensioni abbiano già tag `cinema`/`libri`/`teatro`/`tv` in Directus — se no, lavoro editoriale. Post-lancio. |
 | SEARCH-01 | 🟡 | L | **Ricerca Algolia** — ALGOLIA-01/02/03/04 completati (2026-04-26). Indice popolato (7502 record). Autocomplete header + InstantSearch `/cerca` e `/en/search` deployati su main. **Richiede test sistematico pre-lancio** — vedi § Algolia. Manca ALGOLIA-05 (webhook). |
 | ALGOLIA-05 | 🔴 | M | **Webhook sync Directus→Algolia** — pubblicare/modificare un articolo in Directus deve aggiornare automaticamente l'indice Algolia. Senza questo, ogni re-indicizzazione è manuale (`node scripts/algolia/index-all.mjs`). Da fare prima del go-live. |
-| VERT-01 | 🟡 | L | **Focus pages** — schema Directus, componenti e route `/it/focus/[slug]` + `/en/focus/[slug]` live. Fix footer e CSS completati (commit `038f1b21`, `4f516c76`). Prima pagina Mariangela Bertolini popolata. Restano: verifica visiva staging, 7 pagine da popolare, listing, megamenu link. Vedi § VERT-01. |
-| VERT-LISTING | 🔴 | S | **Listing `/it/focus/` e `/en/focus/`** — pagina indice di tutti i focus pubblicati. Da fare dopo che le 8 pagine sono popolate. |
-| VERT-SEARCH | 🔴 | M | **Focus nella ricerca Algolia** — le pagine focus non sono indicizzate. Aggiungere allo script come tipo `focus` con titolo, intro (HTML stripped), slug IT/EN. Prerequisito: VERT-01 con ≥4 pagine stabili. |
+| VERT-01 | 🟡 | L | **Focus pages** — schema Directus, componenti e route `/it/focus/[slug]` + `/en/focus/[slug]` live. 6/8 pagine populate (Mariangela, Autismo, Noi papà, Aktion T4, Cinema, Ciao Stefano). Restano: `studiosi-educatori-e-attivisti-ombre-e-luci` e `catechesi-e-disabilita`. Verifica visiva staging + megamenu link ancora aperti. Vedi § VERT-01. |
+| VERT-LISTING | ✅ | S | **Listing `/it/focus/` e `/en/focus/`** — live su main (commit `2d8cba4e`). `FocusListingContent.astro` componente condiviso IT/EN. |
+| VERT-SEARCH | 🟡 | M | **Focus nella ricerca Algolia** — le pagine focus non sono indicizzate. Aggiungere allo script come tipo `focus` con titolo, intro (HTML stripped), slug IT/EN. Prerequisito: VERT-01 con ≥4 pagine stabili — **ora soddisfatto (6 pagine)**. Fare dopo VERT-01 completo (8/8). |
 | B-12 | 🟡 | M | Rivalutazione ruoli editoriali per categoria (dopo B-04) |
 | LINK-01 | 🟡 | S | 7 link IT↔EN ambigui + 11 no-match: `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |
 | V-05 | 🟡 | S | 35 articoli Jean Vanier con `tema_label = null`: riassegnare categoria in Directus |
@@ -277,6 +281,16 @@ L'implementazione è funzionante su staging ma non è stata testata in modo sist
 ### IssueNavPill (telecomandino)
 
 Il pill flottante prev/next in basso è **separato** dal pill switcher in testa. Non è ridondante: serve per navigare sequenzialmente tra numeri senza tornare alla griglia. Centro ora mostra "Magazine" (era "Archivio") con link lang-aware ad `archiveBasePath`.
+
+---
+
+## Fix recenti (2026-05-01)
+
+| Commit | Fix |
+|--------|-----|
+| `2d8cba4e` | feat(focus): `FocusListingContent.astro` + route `/it/focus/index.astro` + `/en/focus/index.astro` — listing delle verticali live per entrambe le lingue. CLAUDE.md aggiornato con nuova riga nella tabella componenti condivisi. |
+| `4a6f0b6c` | feat(focus): 4 hero cover image specifiche per le pagine Focus caricate in Directus e nel repo (`public/images/focus-cover-*.jpg`). Script `scripts/create-verticali.py` committato. |
+| Directus | Populate 5 nuove verticali via API: Autismo (ID=3), Noi papà (ID=4), Aktion T4 (ID=5), Cinema e disabilità (ID=6), Ciao Stefano (ID=7). 43 articoli collegati complessivamente. Hero immagini assegnate. |
 
 ---
 
