@@ -1,0 +1,215 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getDirectusAssetUrl } from '../lib/directus';
+import type { Verticale } from '../lib/directus';
+import type { Locale } from '../utils/i18n';
+
+interface Props {
+  verticali: Verticale[];
+  lang: Locale;
+}
+
+const { verticali, lang } = Astro.props;
+
+const isIT = lang === 'it';
+const canonicalUrl = isIT ? '/it/focus/' : '/en/focus/';
+const altIT = '/it/focus/';
+const altEN = '/en/focus/';
+
+const pageTitle = isIT ? 'Focus' : 'Focus';
+const pageDesc = isIT
+  ? 'Percorsi tematici curati dalla redazione: persone, storie, dossier.'
+  : 'Curated thematic collections: people, stories, dossiers.';
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDesc}
+  lang={lang}
+  canonical={canonicalUrl}
+  alternates={[
+    { lang: 'it', url: altIT },
+    { lang: 'en', url: altEN },
+  ]}
+  noindex={false}
+>
+  <main class="site-main">
+    <div class="focus-listing">
+      <header class="focus-listing-header container">
+        <p class="focus-eyebrow">Ombre e Luci</p>
+        <h1 class="focus-listing-title">Focus</h1>
+        <p class="focus-listing-lead">
+          {isIT
+            ? 'Percorsi tematici curati dalla redazione: persone, storie, dossier storici.'
+            : 'Curated thematic collections: people, stories, historical dossiers.'}
+        </p>
+      </header>
+
+      <div class="focus-grid container">
+        {verticali.map(v => {
+          const titolo = lang === 'en' ? (v.titolo_en || v.titolo) : v.titolo;
+          const desc = lang === 'en' ? (v.seo_description_en || v.seo_description) : v.seo_description;
+          const href = lang === 'en' ? `/en/focus/${v.slug_en}/` : `/it/focus/${v.slug}/`;
+          const imgUrl = v.hero_immagine ? getDirectusAssetUrl(v.hero_immagine) : null;
+
+          return (
+            <a href={href} class={`focus-card focus-card--${v.tema_visivo}`}>
+              <div class="focus-card-img">
+                {imgUrl
+                  ? <img src={imgUrl} alt={titolo} loading="lazy" />
+                  : <div class="focus-card-placeholder" />
+                }
+              </div>
+              <div class="focus-card-body">
+                <h2 class="focus-card-title">{titolo}</h2>
+                {desc && <p class="focus-card-desc">{desc}</p>}
+                <span class="focus-card-cta">{isIT ? 'Esplora →' : 'Explore →'}</span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .focus-listing {
+    padding-bottom: 5rem;
+  }
+
+  .focus-listing-header {
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 3rem;
+  }
+
+  .focus-eyebrow {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent-color);
+    margin: 0 0 0.5rem;
+  }
+
+  .focus-listing-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0 0 1rem;
+    color: var(--text-color);
+  }
+
+  .focus-listing-lead {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    max-width: 640px;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  .focus-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .focus-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .focus-listing-header { padding-top: 2.5rem; }
+  }
+
+  .focus-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .focus-card:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+    transform: translateY(-2px);
+  }
+
+  .focus-card-img {
+    width: 100%;
+    aspect-ratio: 16/7;
+    overflow: hidden;
+    background: var(--bg-color);
+    flex-shrink: 0;
+  }
+
+  .focus-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+  }
+
+  .focus-card:hover .focus-card-img img {
+    transform: scale(1.04);
+  }
+
+  .focus-card-placeholder {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Skin accent colors per placeholder */
+  .focus-card--chiaro .focus-card-placeholder { background: #e0f2f2; }
+  .focus-card--scuro  .focus-card-placeholder { background: #2a1a1a; }
+  .focus-card--caldo  .focus-card-placeholder { background: #fdf0e0; }
+  .focus-card--magazine .focus-card-placeholder { background: #1a1a1a; }
+
+  .focus-card-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+  }
+
+  .focus-card-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    color: var(--text-color);
+  }
+
+  .focus-card-desc {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .focus-card-cta {
+    margin-top: auto;
+    padding-top: 0.75rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--accent-color);
+  }
+
+  /* Accent color per skin sulla CTA */
+  .focus-card--chiaro .focus-card-cta { color: #008b8b; }
+  .focus-card--scuro  .focus-card-cta { color: #c0392b; }
+  .focus-card--caldo  .focus-card-cta { color: #b5651d; }
+  .focus-card--magazine .focus-card-cta { color: #1a1a1a; }
+</style>

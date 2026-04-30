@@ -14,7 +14,7 @@ Flusso obbligatorio per qualsiasi pagina template:
 
 **Conseguenza pratica:** se stai creando una pagina EN copiando markup da una pagina IT, stai sbagliando. Fermati, estrai prima il componente, poi crea la route EN.
 
-**Stato attuale componenti condivisi (tutti estratti — 2026-04-26):**
+**Stato attuale componenti condivisi (tutti estratti — 2026-05-01):**
 
 | Componente | Route IT | Route EN |
 |---|---|---|
@@ -35,6 +35,7 @@ Flusso obbligatorio per qualsiasi pagina template:
 | `ArticleCard.astro` | ovunque | ovunque |
 | `BaseLayout.astro` | tutte le pagine | tutte le pagine |
 | `VerticaleContent.astro` | `/it/focus/[vertical]` | `/en/focus/[vertical]` |
+| `FocusListingContent.astro` | `/it/focus/` | `/en/focus/` |
 
 **Aggiungere una nuova lingua (ES, FR):** creare `src/pages/es/` con gli stessi file route, passare `lang="es"` ai componenti. Zero markup da duplicare.
 

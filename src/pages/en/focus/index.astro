@@ -1,0 +1,10 @@
+---
+export const prerender = true;
+
+import FocusListingContent from '../../../components/FocusListingContent.astro';
+import { getVerticali } from '../../../lib/directus';
+
+const verticali = await getVerticali();
+---
+
+<FocusListingContent verticali={verticali} lang="en" />
