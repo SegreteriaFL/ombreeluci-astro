@@ -34,6 +34,7 @@ Flusso obbligatorio per qualsiasi pagina template:
 | `ArticoliRullo.astro` | `/tag/[slug]`, `/archivio/web-only` | `/en/tag/[slug]`, `/en/archive/web-only` |
 | `ArticleCard.astro` | ovunque | ovunque |
 | `BaseLayout.astro` | tutte le pagine | tutte le pagine |
+| `VerticaleContent.astro` | `/it/focus/[vertical]` | `/en/focus/[vertical]` |
 
 **Aggiungere una nuova lingua (ES, FR):** creare `src/pages/es/` con gli stessi file route, passare `lang="es"` ai componenti. Zero markup da duplicare.
 
@@ -106,3 +107,40 @@ Se ritorna risultati, la pipeline ha saltato il campo.
 Il suffisso `-en` è quasi eliminato (97%). 42 articoli hanno ancora il suffisso — sono le traduzioni manuali originali non ancora rinominate. La route usa lookup a due tentativi per compatibilità con entrambe le forme. **Obiettivo:** portare a 0 i `-en` con script di rinomina su quei 42 (task SLUG-EN).
 
 Quando si arriverà a ES/FR: lo slug URL sarà sempre lo slug pulito senza suffisso. `toArticleUrlSlug(dbSlug, lang)` (da aggiungere in `src/utils/i18n.ts`) gestirà il caso generale.
+
+---
+
+## REGOLA CSS — mai toccare global.css senza grep preventivo
+
+**Prima di aggiungere qualsiasi classe a `global.css`, fare grep su tutta la codebase per verificare che quella classe non esista già in altri componenti con stili diversi.**
+
+```bash
+grep -r "\.nome-classe" src/
+```
+
+Se la classe esiste altrove (es. `.article-title` in `ArticlePageLayout.astro`), aggiungerla a `global.css` sovrascrive quegli stili silenziosamente — il bug si vede solo visivamente, non come errore di build.
+
+**Regola pratica:**
+- CSS di un componente → `<style>` scoped nel componente, sempre
+- `global.css` → solo classi utility di layout già concordate (`.container`, `.site-main`, `.rich-text`, ecc.)
+- Se una nuova classe utility serve globalmente, prima verificare conflitti, poi discutere
+
+**Caso documentato (2026-04-30):** spostare le scoped styles di `ArticleCard.astro` in `global.css` ha reso `.article-title`, `.article-badge`, `.author-row` globali, sovrascrivendo gli stili della pagina articolo (`ArticlePageLayout.astro`) che usa le stesse classi. Risultato: titoli articolo con font/dimensione sbagliati su tutto il sito. Revertato con `e912e5e4`.
+
+---
+
+## REGOLA LAYOUT — `<main class="site-main">` è obbligatorio
+
+Ogni componente che usa `BaseLayout` **deve** wrappare il suo contenuto in `<main class="site-main">`.
+
+Il footer usa `position: fixed; z-index: 1`. Il `site-main` ha `position: relative; z-index: 10; background-color: var(--bg-light)` — senza questo wrapper il footer è visibile sopra il contenuto della pagina.
+
+```astro
+<BaseLayout ...>
+  <main class="site-main">
+    <!-- contenuto -->
+  </main>
+</BaseLayout>
+```
+
+Questa regola è già rispettata da tutti i componenti esistenti. Ogni nuovo componente deve seguirla.
