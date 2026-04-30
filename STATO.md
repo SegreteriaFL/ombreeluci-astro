@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-30 (main — Focus pages VERT-01: schema Directus, componenti, route /it/focus/ + /en/focus/, prima pagina Mariangela Bertolini)
+**Ultimo aggiornamento:** 2026-04-30 (main — Fix CSS: ArticleCard styles → global.css; fix footer su focus pages; route /it/focus/ + /en/focus/ live con Mariangela Bertolini)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -143,7 +143,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 | TAG-REC | 🟡 | M | Filtro per tipo dentro `/rubriche/recensioni/`: libri, cinema, teatro, tv. Architettura: tag Directus + filtro client-side dentro RubricaPageContent (NON sub-URL). Pre-requisito: verificare che le recensioni abbiano già tag `cinema`/`libri`/`teatro`/`tv` in Directus — se no, lavoro editoriale. Post-lancio. |
 | SEARCH-01 | 🟡 | L | **Ricerca Algolia** — ALGOLIA-01/02/03/04 completati (2026-04-26). Indice popolato (7502 record). Autocomplete header + InstantSearch `/cerca` e `/en/search` deployati su main. **Richiede test sistematico pre-lancio** — vedi § Algolia. Manca ALGOLIA-05 (webhook). |
 | ALGOLIA-05 | 🔴 | M | **Webhook sync Directus→Algolia** — pubblicare/modificare un articolo in Directus deve aggiornare automaticamente l'indice Algolia. Senza questo, ogni re-indicizzazione è manuale (`node scripts/algolia/index-all.mjs`). Da fare prima del go-live. |
-| VERT-01 | 🟡 | L | **Focus pages** — schema Directus completo, componenti e route `/it/focus/[slug]` + `/en/focus/[slug]` live su staging. Prima pagina popolata: Mariangela Bertolini. Restano 7 pagine da popolare + listing `/it/focus/`. Vedi § VERT-01. |
+| VERT-01 | 🟡 | L | **Focus pages** — schema Directus, componenti e route `/it/focus/[slug]` + `/en/focus/[slug]` live. Fix footer e CSS completati (commit `038f1b21`, `4f516c76`). Prima pagina Mariangela Bertolini popolata. Restano: verifica visiva staging, 7 pagine da popolare, listing, megamenu link. Vedi § VERT-01. |
 | VERT-LISTING | 🔴 | S | **Listing `/it/focus/` e `/en/focus/`** — pagina indice di tutti i focus pubblicati. Da fare dopo che le 8 pagine sono popolate. |
 | VERT-SEARCH | 🔴 | M | **Focus nella ricerca Algolia** — le pagine focus non sono indicizzate. Aggiungere allo script come tipo `focus` con titolo, intro (HTML stripped), slug IT/EN. Prerequisito: VERT-01 con ≥4 pagine stabili. |
 | B-12 | 🟡 | M | Rivalutazione ruoli editoriali per categoria (dopo B-04) |
@@ -280,6 +280,15 @@ Il pill flottante prev/next in basso è **separato** dal pill switcher in testa.
 
 ---
 
+## Fix recenti (2026-04-30)
+
+| Commit | Fix |
+|--------|-----|
+| `038f1b21` | fix(verticali): `<main class="site-main">` aggiunto in `VerticaleContent.astro` — il footer appariva sopra al contenuto delle focus page perché il layout usa `site-main` come elemento che copre il footer fixed. Regola: ogni componente che usa `BaseLayout` deve wrappare il contenuto in `<main class="site-main">`. |
+| `4f516c76` | fix(css): CSS di `ArticleCard.astro` spostata in `global.css` — le focus page caricavano HTML corretto (14 card) ma senza stili, perché Vite metteva le scoped styles di ArticleCard in un chunk condiviso non linkato alle nuove route. Soluzione definitiva: `ArticleCard` è una primitiva UI globale, la sua CSS appartiene a `global.css`. Il blocco `<style>` è stato rimosso da `ArticleCard.astro`. |
+
+---
+
 ## Fix recenti (2026-04-29)
 
 | Commit | Fix |
@@ -289,6 +298,16 @@ Il pill flottante prev/next in basso è **separato** dal pill switcher in testa.
 ---
 
 ## Note tecniche (casi documentati)
+
+### Vite CSS chunk splitting — primitiva UI globale (2026-04-30)
+
+Quando una nuova route Astro importa un componente a ≥3 livelli di profondità (route → A → B → C), Vite può mettere la CSS scoped di C in un chunk condiviso e **non aggiungere il `<link>` a quel chunk nell'HTML della nuova route**. Risultato: HTML corretto, CSS mancante.
+
+**Fix architetturale**: le CSS di componenti usati ovunque (primitiva UI globale) non devono stare in `<style>` scoped del componente — devono stare in `global.css`. `ArticleCard.astro` è il caso canonico: usato su home, categoria, autori, focus. Il suo `<style>` è stato rimosso e la CSS è in `global.css` (`/* ── ArticleCard ──`).
+
+**Regola pratica**: se un componente `.astro` viene importato e renderizzato in almeno 4-5 pagine diverse del sito, valutare di spostare la sua CSS in `global.css`. I nomi di classe sono abbastanza univoci da non richiedere scoping.
+
+**NON fare**: aggiungere `import ComponenteX from './ComponenteX.astro'` senza renderizzare il componente solo per "forzare" la CSS — Astro include la CSS scoped solo per componenti che vengono effettivamente renderizzati, non solo importati.
 
 ### CSS leak is:global — ArticlePageLayout (2026-04-24)
 `.article-meta` e `.article-title` con `is:global` fuoriuscivano in `ArticleCard`. Fix: override scoped in `ArticleCard.astro`. Regola: `is:global` in componenti condivisi richiede prefisso wrapper univoco.
@@ -1249,6 +1268,8 @@ Ogni skin è una classe CSS `verticale--{nome}` che sovrascrive le variabili `--
 | 2026-04-29 | Popolata pagina Mariangela Bertolini (14 articoli, 5 blocchi, citazioni) | — |
 | 2026-04-30 | Fix `hero_immagine` UUID plain string | `7034b3bb` |
 | 2026-04-30 | Refactor route `/it/focus/` + `/en/focus/` | `91a8ccdb` |
+| 2026-04-30 | Fix footer: `<main class="site-main">` aggiunto a `VerticaleContent` | `038f1b21` |
+| 2026-04-30 | Fix CSS: `ArticleCard` styles → `global.css` (risolve Vite chunk splitting su nuove route) | `4f516c76` |
 
 ### Roadmap per chiudere VERT-01
 
@@ -1257,7 +1278,9 @@ Ogni skin è una classe CSS `verticale--{nome}` che sovrascrive le variabili `--
 | ✅ | Schema Directus completo + permessi | Fatto | Script `scripts/setup-verticali-schema.mjs` |
 | ✅ | Componenti Astro + route prerender | Fatto | `VerticaleContent.astro` e sub-componenti |
 | ✅ | Prima pagina: Mariangela Bertolini | Fatto | Live staging `/it/focus/mariangela-bertolini/` |
-| 🔴 | Immagine hero per Mariangela in Directus | Da fare | File `public/images/mariangela-cover.jpg` caricato (UUID `66b09d2d`), verificare che appaia dopo rebuild |
+| ✅ | Fix footer (site-main wrapper) | Fatto | `038f1b21` |
+| ✅ | Fix CSS ArticleCard (global.css) | Fatto | `4f516c76` |
+| 🟡 | Verifica visiva staging post-rebuild | Pendente | Controllare hero, card stili, footer su `/it/focus/mariangela-bertolini/` |
 | 🔴 | Popolare 7 pagine restanti (IT) | Da fare | Vedi tabella "Le 8 pagine focus" |
 | 🔴 | Revisione editoriale intro e testi (IT) | Da fare | Redazione |
 | 🔴 | Popolare versioni EN di tutte le pagine | Da fare | `intro_en`, `titolo_sezione_en`, testi blocchi |
@@ -1275,3 +1298,173 @@ Ogni skin è una classe CSS `verticale--{nome}` che sovrascrive le variabili `--
 - **autismo / catechesi-e-disabilita / cinema-e-disabilita**: hub tematici puri — articoli protagonisti, testo di raccordo leggero, più sezioni con titolo per sotto-tema.
 - **noi-papa-un-figlio-disabile**: raccolta voci per tipo narratore — gruppare articoli per "voci" (padri, madri, fratelli, nonni) con heading sezione distinto per gruppo.
 - **studiosi-educatori-e-attivisti**: elenco persone — valutare se serve layout da "directory" (card persona con bio breve) oltre agli articoli. Da discutere.
+
+---
+
+## § Iter — Creare una nuova pagina/template (checklist completa)
+
+Queste regole valgono per qualsiasi nuova sezione del sito: una nuova tipologia di pagina (es. "Dossier", "Serie", "Evento"), una nuova route statistica (es. `/manifesto/`), o una nuova listing page.
+
+---
+
+### Fase 0 — Architettura (prima di toccare il codice)
+
+Rispondere a queste domande prima di aprire un file:
+
+1. **Dati**: da dove vengono? Directus (dinamico) o `src/data/*.json` (statico)?
+2. **Prerender o SSR?** Se i dati vengono da Directus al build time → `export const prerender = true` + `getStaticPaths`. Se i dati cambiano spesso senza rebuild → SSR (ma attenzione: ogni SSR ha un costo su CF Workers).
+3. **Quante lingue?** IT solo? IT+EN? Progettare multilingua fin dall'inizio (regola CLAUDE.md).
+4. **Componente condiviso?** Se la pagina esiste in IT e EN (o altre lingue future), il markup va in un componente con prop `lang` — mai duplicare markup tra route.
+5. **URL**: coerente con il prefisso `/it/` per contenuto italiano? Permette listing page futura?
+6. **CSS**: il componente usa altri componenti? Quanti livelli di profondità? Se usa componenti già diffusi nel sito (come `ArticleCard`), la loro CSS è già in `global.css`.
+
+---
+
+### Fase 1 — Schema Directus (se serve una nuova collection)
+
+Se la pagina ha dati propri in Directus:
+
+- [ ] Creare script idempotente `scripts/setup-{nome}-schema.mjs`
+- [ ] Creare la collection con campi base: `id`, `slug` (unique), `slug_en` (unique), `pubblicato` (boolean)
+- [ ] Aggiungere campi multilingua: `titolo` + `titolo_en`, `intro` + `intro_en`, ecc.
+- [ ] Se ci sono relazioni O2M: creare la relazione **E** il campo alias sulla collection parent esplicitamente (Directus 11 non crea il campo alias automaticamente dalla relazione)
+- [ ] Se ci sono relazioni M2M con ordinamento: verificare che `one_field` e `sort_field` siano settati sulla relazione junction via PATCH `/relations/{junction}/{fk_field}`
+- [ ] Aggiungere permessi read su tutte e 5 le policy Directus per le nuove collection: `verticali`, `verticale_blocchi`, `verticale_blocchi_articoli` (o qualunque sia il nome)
+- [ ] Testare la query con il token build: `curl -H "Authorization: Bearer $BUILD_TOKEN" "https://cms.ombreeluci.it/items/{collection}?fields=*"` — deve restituire 200 con dati (non 403)
+- [ ] Eseguire lo script: `node scripts/setup-{nome}-schema.mjs`
+
+**Gotcha Directus 11** (già documentati sopra in § VERT-01 ma ripetuti qui per comodità):
+- Campo `file-image` con `type: uuid` → restituisce UUID plain string, non `{ id: string }`. Query: `?fields=hero_immagine` (non `hero_immagine.id`)
+- POST su collection con alias nel SELECT → SQL error. Usare `?fields=id,campo1,campo2,...` escludendo alias
+- M2M: `one_field` su junction relation deve essere settato manualmente
+
+---
+
+### Fase 2 — TypeScript (src/lib/directus.ts)
+
+- [ ] Aggiungere interfaccia `type NuovaCollection = { id: number; slug: string; slug_en: string; ... }`
+- [ ] Definire `NUOVA_COLLECTION_FIELDS` con tutti i campi da fetchare (includere nested con dot notation)
+- [ ] Scrivere funzione `getNuoveCollection()` che chiama Directus con filter `pubblicato=true`
+- [ ] Se serve fetch per singolo slug IT: `getNuovaCollectionBySlug(slug: string)`
+- [ ] Se serve fetch per singolo slug EN: `getNuovaCollectionBySlugEN(slug: string)`
+- [ ] Aggiungere `normalizeNuovaCollection(raw)` se i dati necessitano ordinamento o trasformazione
+
+---
+
+### Fase 3 — Componenti Astro
+
+**Regola CLAUDE.md**: SEMPRE componente condiviso con prop `lang`, MAI markup duplicato tra route.
+
+- [ ] Creare `src/components/NuovaPaginaContent.astro` con:
+  - Props: `{ data: NuovaCollection; lang: Locale }`
+  - Wrapper obbligatorio: `<main class="site-main">` **immediatamente dopo** `<BaseLayout>`
+  - `<BaseLayout title={...} description={...} lang={lang} canonical={...} alternates={[...]} noindex={false}>`
+  - Logica multilingua: `const titolo = lang === 'en' ? (data.titolo_en || data.titolo) : data.titolo`
+  - URL canonico e alternate correttamente valorizzati
+- [ ] Se il componente renderizza altri componenti già esistenti (es. `ArticleCard`): **non fare niente di speciale** — la CSS di ArticleCard è già in `global.css`
+- [ ] Se il componente introduce CSS custom in `<style>`: usare classi con prefisso univoco (es. `.nuova-hero`, `.nuova-grid`) per evitare collisioni
+
+**Struttura HTML obbligatoria:**
+
+```astro
+<BaseLayout title={titolo} description={desc} lang={lang} canonical={canonicalUrl}
+  alternates={[{ lang: 'it', url: itUrl }, { lang: 'en', url: enUrl }]}
+  noindex={false}
+>
+  <main class="site-main">
+    <!-- contenuto -->
+  </main>
+</BaseLayout>
+```
+
+⚠️ **MAI omettere `<main class="site-main">`**: il footer usa `position:fixed; z-index:1`. Il `site-main` ha `position:relative; z-index:10; background-color:var(--bg-light)` — senza di esso il footer è visibile sopra il contenuto della pagina.
+
+---
+
+### Fase 4 — Route Astro
+
+Creare le route per ogni lingua:
+
+**`src/pages/it/nuova-sezione/[slug].astro`:**
+
+```astro
+---
+export const prerender = true;
+import NuovaPaginaContent from '../../../components/NuovaPaginaContent.astro';
+import { getNuoveCollection } from '../../../lib/directus';
+
+export async function getStaticPaths() {
+  const items = await getNuoveCollection();
+  return items.map(item => ({
+    params: { slug: item.slug },
+    props: { data: item },
+  }));
+}
+
+const { data } = Astro.props;
+---
+<NuovaPaginaContent data={data} lang="it" />
+```
+
+**`src/pages/en/nuova-sezione/[slug].astro`:** identico ma `slug: item.slug_en` e `lang="en"`.
+
+**Se serve listing page:**
+- `src/pages/it/nuova-sezione/index.astro` — `export const prerender = true`, fetch tutti i record pubblicati, componente `NuovaSezioneListingContent.astro`
+- `src/pages/en/nuova-sezione/index.astro` — stesso componente con `lang="en"`
+
+---
+
+### Fase 5 — Navigazione (Header + Footer)
+
+- [ ] Aggiungere voce nel megamenu in `src/components/Header.astro` con link `/it/nuova-sezione/` (IT) e `/en/nuova-sezione/` (EN)
+- [ ] Valutare se aggiungere voce nel footer `src/components/Footer.astro` (colonna "Sezioni" o colonna dedicata)
+- [ ] Se la sezione è importante per la navigazione: verificare che sia visibile su mobile (hamburger menu)
+
+---
+
+### Fase 6 — SEO e sitemap
+
+- [ ] Verificare che `canonical` e `alternates` (hreflang) siano passati correttamente a `BaseLayout`
+- [ ] Aggiungere le URL della nuova sezione a `src/pages/sitemap.xml.ts` (IT)
+- [ ] Aggiungere le URL a `src/pages/sitemap-en.xml.ts` (EN)
+- [ ] La nuova pagina deve avere `noindex={false}` (o omettere, il default è `false`)
+
+---
+
+### Fase 7 — Ricerca Algolia (se il contenuto è ricercabile)
+
+- [ ] Aprire `scripts/algolia/index-all.mjs`
+- [ ] Aggiungere un blocco di indicizzazione per la nuova collection (tipo `focus`, `dossier`, ecc.)
+- [ ] Campi minimi: `objectID`, `type`, `title`, `intro` (HTML stripped), `slug`, `slug_en`, `url`
+- [ ] Eseguire: `node scripts/algolia/index-all.mjs` (richiede `.env` con `ALGOLIA_APPLICATION_ID` + `ALGOLIA_WRITE_API`)
+- [ ] Verificare che i nuovi record compaiano nella ricerca su staging
+
+---
+
+### Fase 8 — Build e verifica staging
+
+- [ ] Commit e push su `main` → CF Pages rebuilda automaticamente
+- [ ] Attendere il completamento del build (2-4 minuti di solito)
+- [ ] Verificare la pagina su staging: `https://ombreeluci-staging.pages.dev/it/nuova-sezione/slug/`
+- [ ] Checklist visiva rapida:
+  - [ ] Hero image visibile (se prevista)
+  - [ ] Testo e card stilate correttamente
+  - [ ] Footer SOTTO il contenuto (non sopra)
+  - [ ] Language switcher porta alla versione EN
+  - [ ] `curl https://ombreeluci-staging.pages.dev/it/nuova-sezione/slug/ | grep -E 'canonical|hreflang'` → URL corretti
+  - [ ] Nessun errore in console DevTools
+
+---
+
+### Errori comuni da evitare (storia)
+
+| Errore | Causa | Fix |
+|--------|-------|-----|
+| Footer visibile sopra il contenuto | Manca `<main class="site-main">` nel componente | Aggiungere wrapper obbligatorio |
+| CSS mancante su nuove route | Componente profondamente nested → Vite chunk non linkato | CSS della primitiva UI in `global.css` |
+| 403 su query Directus al build | Permessi non aggiunti alle policy | PATCH `/permissions` per ogni policy |
+| 403 su campo alias (O2M) | Campo alias non creato manualmente in Directus 11 | POST `/fields/{collection}` con `type:alias, special:['o2m']` |
+| Articoli M2M non ritornano | `one_field` null sulla relazione junction | PATCH `/relations/{junction}/{fk_field}` con `one_field` e `sort_field` |
+| `hero_immagine` undefined | Query con `.id` su campo UUID plain | Cambiare query a `hero_immagine` (senza `.id`), tipo TS `string | null` |
+| POST con alias nel SELECT → SQL error | Directus include l'alias nella query SQL | POST con `?fields=id,campo1,...` (solo campi fisici) |
+| Markup duplicato tra IT e EN | Fretta di fare la route EN | Fermarsi, estrarre componente condiviso, poi fare entrambe le route |
