@@ -144,6 +144,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 | SEARCH-01 | 🟡 | L | **Ricerca Algolia** — ALGOLIA-01/02/03/04 completati (2026-04-26). Indice popolato (7502 record). Autocomplete header + InstantSearch `/cerca` e `/en/search` deployati su main. **Richiede test sistematico pre-lancio** — vedi § Algolia. Manca ALGOLIA-05 (webhook). |
 | ALGOLIA-05 | 🔴 | M | **Webhook sync Directus→Algolia** — pubblicare/modificare un articolo in Directus deve aggiornare automaticamente l'indice Algolia. Senza questo, ogni re-indicizzazione è manuale (`node scripts/algolia/index-all.mjs`). Da fare prima del go-live. |
 | VERT-01 | 🟡 | L | 8 pagine verticali — architettura definita 2026-04-29, implementazione in corso. Vedi § VERT-01 per schema completo, roadmap e decisioni architetturali. |
+| VERT-SEARCH | 🔴 | M | **Verticali nella ricerca Algolia** — le pagine verticali non sono indicizzate in Algolia. Vanno aggiunte allo script di indicizzazione come tipo distinto (`type: 'verticale'`) con campi titolo, intro (stripped HTML), slug IT e EN. Prerequisito: VERT-01 stabile con contenuti. |
 | B-12 | 🟡 | M | Rivalutazione ruoli editoriali per categoria (dopo B-04) |
 | LINK-01 | 🟡 | S | 7 link IT↔EN ambigui + 11 no-match: `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |
 | V-05 | 🟡 | S | 35 articoli Jean Vanier con `tema_label = null`: riassegnare categoria in Directus |
