@@ -53,8 +53,10 @@ const sezioniForme = rubricheData.map((r) => ({
   nome: lang === 'en' ? r.en : r.it,
   href: lang === 'en' ? `/en/sections/${r.en_slug}/` : `/rubriche/${r.slug}/`,
 }));
+const focusHref = lang === 'en' ? '/en/focus/' : '/it/focus/';
 const archivioLinks = [
   { nome: t(lang, 'nav_latest'), slug: homeHref },
+  { nome: t(lang, 'nav_focus'), slug: focusHref },
   { nome: t(lang, 'nav_newsletter'), slug: nlHref },
   { nome: t(lang, 'nav_authors'), slug: authorsHref },
   { nome: t(lang, 'search_label'), slug: searchHref },
@@ -231,7 +233,7 @@ const archivioLinks = [
 
 <style>
   .header {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;

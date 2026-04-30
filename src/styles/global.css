@@ -80,6 +80,7 @@ body {
   background: var(--bg-light);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: var(--header-height);
 }
 
 /* Header: stesso stile su tutte le pagine; con ViewTransitions usa transition:persist per evitare salti */
