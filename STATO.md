@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-04-28 (main — Magazine redesign: label, pill switcher, tab UI, CTA articoli, header fixes)
+**Ultimo aggiornamento:** 2026-04-30 (main — Focus pages VERT-01: schema Directus, componenti, route /it/focus/ + /en/focus/, prima pagina Mariangela Bertolini)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -143,8 +143,9 @@ Tutto questo deve essere verde prima del cutover DNS.
 | TAG-REC | 🟡 | M | Filtro per tipo dentro `/rubriche/recensioni/`: libri, cinema, teatro, tv. Architettura: tag Directus + filtro client-side dentro RubricaPageContent (NON sub-URL). Pre-requisito: verificare che le recensioni abbiano già tag `cinema`/`libri`/`teatro`/`tv` in Directus — se no, lavoro editoriale. Post-lancio. |
 | SEARCH-01 | 🟡 | L | **Ricerca Algolia** — ALGOLIA-01/02/03/04 completati (2026-04-26). Indice popolato (7502 record). Autocomplete header + InstantSearch `/cerca` e `/en/search` deployati su main. **Richiede test sistematico pre-lancio** — vedi § Algolia. Manca ALGOLIA-05 (webhook). |
 | ALGOLIA-05 | 🔴 | M | **Webhook sync Directus→Algolia** — pubblicare/modificare un articolo in Directus deve aggiornare automaticamente l'indice Algolia. Senza questo, ogni re-indicizzazione è manuale (`node scripts/algolia/index-all.mjs`). Da fare prima del go-live. |
-| VERT-01 | 🟡 | L | 8 pagine verticali — architettura definita 2026-04-29, implementazione in corso. Vedi § VERT-01 per schema completo, roadmap e decisioni architetturali. |
-| VERT-SEARCH | 🔴 | M | **Verticali nella ricerca Algolia** — le pagine verticali non sono indicizzate in Algolia. Vanno aggiunte allo script di indicizzazione come tipo distinto (`type: 'verticale'`) con campi titolo, intro (stripped HTML), slug IT e EN. Prerequisito: VERT-01 stabile con contenuti. |
+| VERT-01 | 🟡 | L | **Focus pages** — schema Directus completo, componenti e route `/it/focus/[slug]` + `/en/focus/[slug]` live su staging. Prima pagina popolata: Mariangela Bertolini. Restano 7 pagine da popolare + listing `/it/focus/`. Vedi § VERT-01. |
+| VERT-LISTING | 🔴 | S | **Listing `/it/focus/` e `/en/focus/`** — pagina indice di tutti i focus pubblicati. Da fare dopo che le 8 pagine sono popolate. |
+| VERT-SEARCH | 🔴 | M | **Focus nella ricerca Algolia** — le pagine focus non sono indicizzate. Aggiungere allo script come tipo `focus` con titolo, intro (HTML stripped), slug IT/EN. Prerequisito: VERT-01 con ≥4 pagine stabili. |
 | B-12 | 🟡 | M | Rivalutazione ruoli editoriali per categoria (dopo B-04) |
 | LINK-01 | 🟡 | S | 7 link IT↔EN ambigui + 11 no-match: `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |
 | V-05 | 🟡 | S | 35 articoli Jean Vanier con `tema_label = null`: riassegnare categoria in Directus |
@@ -1104,109 +1105,173 @@ Varianti di partenza (da affinare con la redazione):
 
 ---
 
-## § VERT-01 — Pagine verticali (architettura 2026-04-29)
+## § VERT-01 — Focus pages (architettura 2026-04-29, aggiornato 2026-04-30)
 
-### Decisioni architetturali
+### Cos'è una Focus page
 
-- Struttura pagina: sequenza ordinata di blocchi (testo | articoli), non page builder libero
-- Diversità visiva: parametro `tema_visivo` (4 skin) + hero image/video — zero markup custom per pagina
-- Lingue: componente condiviso `VerticaleContent.astro` con prop `lang`, route IT e EN separate
-- Contenuti: 100% gestibili da Directus (articoli, blocchi testo, immagini, ordinamento)
-- Slug EN tradotti (coerente con il resto del sito); nome proprio `mariangela-bertolini` invariato
+Pagina tematica curata che raccoglie articoli, testi di raccordo narrativo e citazioni attorno a un tema, una persona o un dossier storico. Non è una categoria automatica (queried da tag/categoria) ma una selezione editoriale manuale con narrazione propria.
 
-### Le 8 pagine
+**Nome pubblico**: "Focus" — funziona in italiano e inglese, editorialmente preciso, breve.
 
-| Slug IT | Slug EN | Tipo | Skin consigliata |
-|---------|---------|------|-----------------|
-| `mariangela-bertolini` | `mariangela-bertolini` | Biografica | `caldo` |
-| `autismo` | `autism` | Hub tematico | `chiaro` |
-| `cinema-e-disabilita` | `cinema-and-disability` | Hub tematico | `scuro` |
-| `aktion-t4-sterminio-persone-disabilita` | `aktion-t4-extermination-of-disabled-people` | Hub/dossier | `scuro` |
-| `catechesi-e-disabilita` | `catechesis-and-disability` | Hub tematico | `chiaro` |
-| `noi-papa-un-figlio-disabile` | `we-fathers-a-disabled-child` | Hub raccolta | `caldo` |
-| `ciao-stefano-di-franco` | `ciao-stefano-di-franco` | Memorial | `magazine` |
-| `studiosi-educatori-e-attivisti-ombre-e-luci` | `scholars-educators-and-activists` | Elenco | `chiaro` |
+### URL e routing
 
-### Schema Directus
+```
+IT:  /it/focus/{slug}/          ← src/pages/it/focus/[vertical].astro
+EN:  /en/focus/{slug}/          ← src/pages/en/focus/[vertical].astro
+```
+
+**Perché `/it/focus/` e non `/focus/`**:
+- Coerente con il prefisso `/it/` di tutto il contenuto italiano
+- Permette listing page `/it/focus/` (tutti i focus pubblicati)
+- Simmetria perfetta con `/en/focus/`
+- Aggiungere ES/FR: zero modifiche al frontend, solo `src/pages/es/focus/[vertical].astro`
+
+**Slug**: sempre in lingua (es. `autismo` IT, `autism` EN). Eccezione: nomi propri invariati (`mariangela-bertolini`, `ciao-stefano-di-franco`).
+
+### Decisioni architetturali chiave
+
+| Decisione | Scelta | Alternativa scartata | Motivo |
+|-----------|--------|----------------------|--------|
+| Struttura blocchi | Sequenza ordinata `tipo: testo\|articoli` | Page builder libero | Semplicità Directus, niente complessità UI |
+| Diversità visiva | `tema_visivo` CSS class (4 skin) | Markup custom per pagina | Zero duplicazione, editabile da CMS |
+| Multilingua | `VerticaleContent.astro` + prop `lang` | Route separate con markup diverso | Regola CLAUDE.md: componente condiviso |
+| Citazioni/raccordi | Blocco `tipo=testo` tra gruppi articoli | Campo dedicato citazione | Non serve un tipo in più, il rich text copre tutto |
+| Immagine hero | UUID diretto in `hero_immagine` | M2O espanso | Directus restituisce UUID plain per campi `file-image` senza relazione esplicita |
+
+### Le 8 pagine focus
+
+| # | Slug IT | Slug EN | Tipo | Skin | Stato |
+|---|---------|---------|------|------|-------|
+| 1 | `mariangela-bertolini` | `mariangela-bertolini` | Biografica fondatrice | `caldo` | ✅ Popolata |
+| 2 | `autismo` | `autism` | Hub tematico | `chiaro` | 🔴 Da fare |
+| 3 | `cinema-e-disabilita` | `cinema-and-disability` | Hub tematico | `scuro` | 🔴 Da fare |
+| 4 | `aktion-t4-sterminio-persone-disabilita` | `aktion-t4-extermination-of-disabled-people` | Dossier storico | `scuro` | 🔴 Da fare |
+| 5 | `catechesi-e-disabilita` | `catechesis-and-disability` | Hub tematico | `chiaro` | 🔴 Da fare |
+| 6 | `noi-papa-un-figlio-disabile` | `we-fathers-a-disabled-child` | Raccolta voci | `caldo` | 🔴 Da fare |
+| 7 | `ciao-stefano-di-franco` | `ciao-stefano-di-franco` | Memorial | `magazine` | 🔴 Da fare |
+| 8 | `studiosi-educatori-e-attivisti-ombre-e-luci` | `scholars-educators-and-activists` | Directory persone | `chiaro` | 🔴 Da fare |
+
+### Schema Directus (live su cms.ombreeluci.it)
 
 **Collection `verticali`**
 
-| Campo | Tipo | Obbligatorio |
-|-------|------|-------------|
-| `slug` | string unique | ✅ |
-| `slug_en` | string unique | ✅ |
-| `titolo` / `titolo_en` | string | ✅ |
-| `seo_description` / `seo_description_en` | string | ✅ |
-| `hero_immagine` | file (R2) | ✅ |
-| `hero_video_url` | string nullable | ❌ |
-| `tema_visivo` | select: `chiaro` \| `scuro` \| `caldo` \| `magazine` | ✅ |
-| `intro` / `intro_en` | rich text | ✅ |
-| `testo_coda` / `testo_coda_en` | rich text nullable | ❌ |
-| `pubblicato` | boolean | ✅ |
-| `sezioni` | O2M → `verticale_blocchi` | — |
+| Campo | Tipo Directus | Note |
+|-------|--------------|------|
+| `id` | integer PK | auto |
+| `slug` | string unique | URL slug IT |
+| `slug_en` | string unique | URL slug EN |
+| `titolo` / `titolo_en` | string | `titolo_en` nullable |
+| `seo_description` / `seo_description_en` | text | max 160 char |
+| `hero_immagine` | uuid (file-image) | UUID diretto — NON espanso da Directus; usare `getDirectusAssetUrl(verticale.hero_immagine)` |
+| `hero_video_url` | string nullable | URL YouTube/Vimeo — sovrascrive immagine se presente |
+| `tema_visivo` | select | `chiaro` \| `scuro` \| `caldo` \| `magazine` |
+| `intro` / `intro_en` | rich text | `intro_en` nullable |
+| `testo_coda` / `testo_coda_en` | rich text nullable | Testo conclusivo opzionale |
+| `pubblicato` | boolean | Filter read pubblico: `pubblicato=true` |
+| `sezioni` | alias O2M → `verticale_blocchi` | Campo alias creato manualmente (Directus 11 non lo crea automatico dalla relazione) |
 
-**Collection `verticale_blocchi`** (sequenza ordinata di blocchi)
+**Collection `verticale_blocchi`**
 
 | Campo | Tipo | Note |
 |-------|------|------|
-| `verticale_id` | M2O → `verticali` | |
-| `tipo` | select: `testo` \| `articoli` | Determina quali campi usare |
-| `ordine` | sort (drag&drop) | |
-| `testo` / `testo_en` | rich text nullable | Solo se `tipo=testo` |
-| `immagine` | file nullable | Solo se `tipo=testo` |
-| `layout_immagine` | select: `nessuna` \| `sfondo` \| `laterale-dx` \| `laterale-sx` | Solo se `tipo=testo` |
-| `titolo_sezione` / `titolo_sezione_en` | string nullable | Heading opzionale per gruppi articoli |
-| `articoli` | M2M → `articoli` (con sort) | Solo se `tipo=articoli` |
+| `verticale_id` | M2O → `verticali` | FK con CASCADE delete |
+| `ordine` | integer sort | Drag&drop in Directus |
+| `tipo` | select `testo\|articoli` | Discriminatore blocco |
+| `titolo_sezione` / `titolo_sezione_en` | string nullable | Heading sopra gruppo articoli |
+| `testo` / `testo_en` | rich text nullable | Solo `tipo=testo` |
+| `immagine` | uuid (file) nullable | Solo `tipo=testo` |
+| `layout_immagine` | select | `nessuna` \| `sfondo` \| `laterale-dx` \| `laterale-sx` |
+| `articoli` | alias M2M → `articoli` | Tramite junction `verticale_blocchi_articoli` |
 
-**Junction `verticale_blocchi_articoli`**: `blocco_id`, `articolo_id`, `ordine`
+**Junction `verticale_blocchi_articoli`**: `blocco_id` (integer FK), `articolo_id` (uuid FK), `ordine` (sort)
 
-**Permessi Directus**: ruolo pubblico → read su `verticali` (filter: pubblicato=true), `verticale_blocchi`, junction.
+**Permessi Directus**: tutte e 5 le policy hanno read su `verticali`, `verticale_blocchi`, `verticale_blocchi_articoli` con `fields: ['*']`.
 
-### Architettura frontend
+**⚠️ Gotcha Directus 11 — da sapere per manutenzione schema:**
+1. Il campo alias `sezioni` su `verticali` va creato esplicitamente via `/fields/verticali` con `type:alias, special:['o2m']` — non viene auto-creato dalla relazione
+2. La relazione M2M lato `blocco_id` richiede `one_field:'articoli'` e `sort_field:'ordine'` settati esplicitamente via PATCH su `/relations/verticale_blocchi_articoli/blocco_id`
+3. `hero_immagine` ritorna UUID plain string, non `{ id }` — query con `fields=hero_immagine` (senza `.id`)
+4. POST su `verticale_blocchi` va fatto con `?fields=id,ordine,...` esplicitando i campi fisici — se includi l'alias `articoli` nel SELECT la query SQL va in errore
+
+### Architettura frontend (live)
 
 ```
 src/
 ├── components/
-│   ├── VerticaleContent.astro     ← wrapper principale, prop lang, tema_visivo → CSS class
-│   ├── VerticaleHero.astro        ← hero image/video + titolo + eyebrow
-│   ├── VerticaleBloccoTesto.astro ← blocco testo + foto (sfondo/laterale/nessuna)
-│   └── VerticaleGruppoArticoli.astro ← heading sezione + griglia/lista articoli
+│   ├── VerticaleContent.astro        — layout principale; legge tema_visivo → CSS class,
+│   │                                   canonical /it/focus/{slug}/ + hreflang IT/EN
+│   ├── VerticaleBloccoTesto.astro    — blocco testo + immagine (4 layout)
+│   └── VerticaleGruppoArticoli.astro — heading sezione + ArticleCard grid (3-2-1 col)
 ├── pages/
-│   ├── [vertical].astro           ← route IT, prerender, getStaticPaths da Directus
-│   └── en/
-│       └── [vertical].astro       ← route EN, stesso componente lang="en"
+│   ├── it/focus/[vertical].astro     — prerender, getStaticPaths → slug IT
+│   └── en/focus/[vertical].astro     — prerender, getStaticPaths → slug_en EN
+└── lib/
+    └── directus.ts                   — getVerticali(), getVerticaleBySlug(),
+                                        getVerticaleBySlugEN(), VERTICALE_FIELDS, normalizeVerticale()
 ```
 
-**Nota routing**: `[vertical].astro` coesiste con `[diario].astro` perché Astro SSG genera file statici distinti per ogni slug da `getStaticPaths`. Gli slug verticali non collidono con quelli dei diari.
+**⚠️ REGOLA OBBLIGATORIA — `<main class="site-main">` attorno al contenuto**
+
+Ogni componente che usa `BaseLayout` DEVE wrappare il suo contenuto in `<main class="site-main">`. Senza di esso il footer si posiziona immediatamente dopo l'header perché il CSS del layout usa `site-main` come flex item che spinge il footer in fondo. `VerticaleContent.astro` e qualsiasi futura pagina focus devono rispettare questa regola. Il pattern corretto è sempre:
+
+```astro
+<BaseLayout ...>
+  <main class="site-main">
+    <!-- contenuto pagina -->
+  </main>
+</BaseLayout>
+```
+
+**`VERTICALE_FIELDS`** (query Directus): tutti i campi flat + nested `sezioni.*`, `sezioni.immagine.id`, `sezioni.articoli.articolo_id.*` incluso `autore.nome_completo`, `autore.slug`, `immagine_copertina.id`.
+
+**`normalizeVerticale()`**: ordina `sezioni` per campo `ordine` ascending (Directus non garantisce l'ordine senza `sort` param esplicito sui blocchi).
 
 ### CSS skin (`tema_visivo`)
 
-| Skin | Mood | Hero | Palette |
-|------|------|------|---------|
-| `chiaro` | Leggero, editoriale | Immagine + testo su bianco sotto | Bianco, grigio chiaro, accent verde |
-| `scuro` | Forte, dossier | Full-bleed con testo overlay bianco | Nero/navy, bianco, accent rosso |
-| `caldo` | Umano, biografico | Immagine con overlay caldo + titolo | Ocra, terracotta, crema |
-| `magazine` | Tipografico, memorial | Testo dominante, foto a lato | Nero, bianco, un solo colore accent |
+Ogni skin è una classe CSS `verticale--{nome}` che sovrascrive le variabili `--v-accent` e `--v-hero-overlay`:
 
-### Roadmap implementazione
+| Skin | `--v-accent` | `--v-hero-overlay` | Override aggiuntivi |
+|------|-------------|-------------------|---------------------|
+| `chiaro` | `#008b8b` (teal) | `rgba(20,47,47,.45)` | — |
+| `scuro` | `#c0392b` (rosso) | `rgba(10,10,20,.72)` | `.verticale-intro` sfondo nero, testo bianco |
+| `caldo` | `#b5651d` (terracotta) | `rgba(90,40,10,.50)` | `.verticale-intro` sfondo crema |
+| `magazine` | `#1a1a1a` (nero) | `rgba(0,0,0,.65)` | Titolo più grande, letter-spacing |
 
-| Step | Cosa | Dipendenze |
-|------|------|------------|
-| 1 | Setup schema Directus (collections + permessi) | — |
-| 2 | Popolare le 8 verticali con contenuti IT | Step 1 |
-| 3 | Popolare versioni EN + slug_en | Step 2 |
-| 4 | `getVerticali()` e `getVerticaleBySlug()` in `directus.ts` | Step 1 |
-| 5 | `VerticaleContent.astro` + sub-componenti | Step 4 |
-| 6 | Route IT `[vertical].astro` | Step 5 |
-| 7 | Route EN `en/[vertical].astro` | Step 5 |
-| 8 | CSS 4 skin in `global.css` o `verticali.css` | Step 5 |
-| 9 | Test build + routing (no conflitti con diari) | Step 6-7 |
-| 10 | Smoke test staging + hreflang + SEO | Step 9 |
+### Lavoro fatto (2026-04-29/30)
 
-### Note per ogni pagina
+| Data | Cosa | Commit |
+|------|------|--------|
+| 2026-04-29 | Schema Directus creato via script API (script idempotente) | `07b10f8d` |
+| 2026-04-29 | Tipi TS + fetch functions in `directus.ts` | `07b10f8d` |
+| 2026-04-29 | Componenti `VerticaleContent`, `VerticaleBloccoTesto`, `VerticaleGruppoArticoli` | `07b10f8d` |
+| 2026-04-29 | Route IT/EN prerender + fix bug autore link (`getAuthorBasePath`) | `07b10f8d` |
+| 2026-04-29 | Debug permessi Directus (alias field, M2M one_field) | — |
+| 2026-04-29 | Popolata pagina Mariangela Bertolini (14 articoli, 5 blocchi, citazioni) | — |
+| 2026-04-30 | Fix `hero_immagine` UUID plain string | `7034b3bb` |
+| 2026-04-30 | Refactor route `/it/focus/` + `/en/focus/` | `91a8ccdb` |
 
-- **mariangela-bertolini / ciao-stefano-di-franco**: pagine persona — l'intro deve avere spazio per bio/commemorazione, i blocchi testo sono essenziali per il raccordo narrativo
-- **aktion-t4**: dossier storico — skin scuro, intro densa, più blocchi testo che raccordano le fasi storiche
-- **autismo / catechesi / cinema**: hub tematici puri — articoli protagonisti, testo di raccordo leggero
-- **noi-papa**: raccolta per tipo narratore — gruppare articoli per "voci" (padri, madri, fratelli, nonni) con heading sezione
-- **studiosi-educatori**: lista persone — valutare se serve un layout più da "directory" che da hub articoli
+### Roadmap per chiudere VERT-01
+
+| Step | Task | Stato | Note |
+|------|------|-------|------|
+| ✅ | Schema Directus completo + permessi | Fatto | Script `scripts/setup-verticali-schema.mjs` |
+| ✅ | Componenti Astro + route prerender | Fatto | `VerticaleContent.astro` e sub-componenti |
+| ✅ | Prima pagina: Mariangela Bertolini | Fatto | Live staging `/it/focus/mariangela-bertolini/` |
+| 🔴 | Immagine hero per Mariangela in Directus | Da fare | File `public/images/mariangela-cover.jpg` caricato (UUID `66b09d2d`), verificare che appaia dopo rebuild |
+| 🔴 | Popolare 7 pagine restanti (IT) | Da fare | Vedi tabella "Le 8 pagine focus" |
+| 🔴 | Revisione editoriale intro e testi (IT) | Da fare | Redazione |
+| 🔴 | Popolare versioni EN di tutte le pagine | Da fare | `intro_en`, `titolo_sezione_en`, testi blocchi |
+| 🔴 | Listing page `/it/focus/` e `/en/focus/` | Da fare | `src/pages/it/focus/index.astro` — griglia di tutti i focus pubblicati |
+| 🔴 | Link "Focus" nel megamenu e navbar | Da fare | Voce in `Header.astro` → `/it/focus/` |
+| 🔴 | Indicizzazione Algolia (VERT-SEARCH) | Da fare | Tipo `focus`, dopo ≥4 pagine stabili |
+| 🔴 | Smoke test hreflang + canonical | Da fare | Verificare su staging con tool SEO |
+| 🔴 | Sitemap IT/EN con `/it/focus/*` | Da fare | Controllare `sitemap.xml.ts` e `sitemap-en.xml.ts` |
+
+### Note editoriali per ogni pagina
+
+- **mariangela-bertolini** (✅): intro biografica, 3 gruppi articoli raccordati da citazioni (Mariangela + Jean Vanier). Da aggiungere: intro EN, hero visibile.
+- **ciao-stefano-di-franco**: pagina memorial — skin `magazine`, intro commemorativa, raccolta articoli scritti o dedicati a Stefano di Franco.
+- **aktion-t4**: dossier storico pesante — skin `scuro`, intro densa con contesto storico, blocchi testo che raccordano le fasi storiche + articoli documentaristici.
+- **autismo / catechesi-e-disabilita / cinema-e-disabilita**: hub tematici puri — articoli protagonisti, testo di raccordo leggero, più sezioni con titolo per sotto-tema.
+- **noi-papa-un-figlio-disabile**: raccolta voci per tipo narratore — gruppare articoli per "voci" (padri, madri, fratelli, nonni) con heading sezione distinto per gruppo.
+- **studiosi-educatori-e-attivisti**: elenco persone — valutare se serve layout da "directory" (card persona con bio breve) oltre agli articoli. Da discutere.
