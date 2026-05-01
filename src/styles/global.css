@@ -62,7 +62,7 @@
 }
 
 html {
-  overflow-x: hidden; /* prevent horizontal page scroll; on html (not body) to preserve position:sticky */
+  overflow-x: hidden; /* prevent horizontal page scroll; on html so it doesn't create a new scroll container for position:fixed elements */
 }
 
 hr {
@@ -80,7 +80,7 @@ body {
   background: var(--bg-light);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: var(--header-height);
+  padding-top: var(--header-height, 72px);
 }
 
 /* Header: stesso stile su tutte le pagine; con ViewTransitions usa transition:persist per evitare salti */

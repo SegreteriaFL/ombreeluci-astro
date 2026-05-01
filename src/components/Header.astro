@@ -887,6 +887,7 @@ const archivioLinks = [
 
     let searchOpen = false;
     let isOpen = false;
+    let savedScrollY = 0;
 
     const labelClose = trigger?.getAttribute('data-label-close') || 'Close menu';
     const labelOpen = trigger?.getAttribute('data-label-open') || 'Open menu';
@@ -911,7 +912,12 @@ const archivioLinks = [
       megaMenu?.setAttribute('aria-hidden', 'false');
       trigger?.setAttribute('aria-expanded', 'true');
       trigger?.setAttribute('aria-label', labelClose);
+      // iOS Safari: position:fixed + saved scroll is the only reliable scroll lock
+      savedScrollY = window.scrollY;
       document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${savedScrollY}px`;
+      document.body.style.width = '100%';
     }
 
     function closeMenu() {
@@ -921,6 +927,10 @@ const archivioLinks = [
       trigger?.setAttribute('aria-expanded', 'false');
       trigger?.setAttribute('aria-label', labelOpen);
       document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      window.scrollTo(0, savedScrollY);
     }
 
     function toggleMenu() {
