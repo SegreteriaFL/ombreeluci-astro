@@ -62,7 +62,11 @@
 }
 
 html {
-  overflow-x: hidden; /* prevent horizontal page scroll; on html so it doesn't create a new scroll container for position:fixed elements */
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: clip; /* clip senza nuovo scroll context — non rompe position:fixed */
 }
 
 hr {

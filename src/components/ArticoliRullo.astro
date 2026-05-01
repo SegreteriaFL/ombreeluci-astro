@@ -328,16 +328,13 @@ const restData = rest.map((a) => {
     margin: 0;
     font-size: 0.9rem;
     color: var(--text-secondary);
-    white-space: nowrap;
+    flex-wrap: wrap;
   }
   .article-card .author-link {
     color: var(--accent-color);
     text-decoration: none;
     font-weight: 600;
     display: inline;
-  }
-  @media (max-width: 480px) {
-    .article-card .author-row { white-space: normal; flex-wrap: wrap; }
   }
 </style>
 

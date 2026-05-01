@@ -171,10 +171,6 @@ const authorBasePath = getAuthorBasePath(lang);
   .article-link:hover .article-image-wrap img {
     transform: scale(1.03);
   }
-  @media (max-width: 480px) {
-    .author-row { white-space: normal; flex-wrap: wrap; }
-  }
-
   .article-meta {
     width: 100%;
     margin: 0;
@@ -233,7 +229,7 @@ const authorBasePath = getAuthorBasePath(lang);
     margin: 0;
     font-size: 0.9rem;
     color: var(--text-secondary);
-    white-space: nowrap;
+    flex-wrap: wrap;
   }
 
   .author-link {
