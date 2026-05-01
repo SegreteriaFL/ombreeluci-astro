@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import DiarioContent from '../../components/DiarioContent.astro';
-import { DIARISTI, getDiaristaByDiarioSlug } from '../../data/diari.ts';
-import { getAllAutori, getAutoreImageUrl } from '../../lib/directus';
-import { getAllArticoliBuild } from '../../lib/articoli-build';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import DiarioContent from '../../../components/DiarioContent.astro';
+import { DIARISTI, getDiaristaByDiarioSlug } from '../../../data/diari.ts';
+import { getAllAutori, getAutoreImageUrl } from '../../../lib/directus';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
 export async function getStaticPaths() {
   const allArticoli = await getAllArticoliBuild();

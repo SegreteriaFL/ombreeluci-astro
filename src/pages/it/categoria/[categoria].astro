@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import CategoriaPageContent from '../../components/CategoriaPageContent.astro';
-import { getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight, getCategoriaUrlSlug } from '../../config/taxonomy.js';
-import { getCategoriaDescrizione, getArticoliInEvidenza } from '../../lib/directus';
-import { getAllArticoliBuild } from '../../lib/articoli-build';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import CategoriaPageContent from '../../../components/CategoriaPageContent.astro';
+import { getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight, getCategoriaUrlSlug } from '../../../config/taxonomy.js';
+import { getCategoriaDescrizione, getArticoliInEvidenza } from '../../../lib/directus';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
 export async function getStaticPaths() {
   const allArticles = (await getAllArticoliBuild()).filter((a) => a.lang !== 'en');

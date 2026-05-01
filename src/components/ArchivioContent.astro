@@ -29,7 +29,7 @@ function numeroFromId(idNumero: string): number {
   return m ? parseInt(m[1], 10) : 0;
 }
 
-const archiveBase = lang === 'en' ? '/en/archive' : '/archivio';
+const archiveBase = lang === 'en' ? '/en/archive' : '/it/archivio';
 const ultimoSlug = String(ultimoNumero.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-');
 const ultimoIssueHref = `${archiveBase}/${ultimoSlug}`;
 ---

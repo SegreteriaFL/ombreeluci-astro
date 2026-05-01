@@ -4,9 +4,9 @@
  * Lista filtrata e ordinata; la presentazione è demandata ad ArticoliRullo.
  * Load-more: rimosso — pagina renderizza l'intera lista (decisione 2026-04-07).
  */
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import ArticoliRullo from '../../components/ArticoliRullo.astro';
-import { getAllArticoliBuild } from '../../lib/articoli-build';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticoliRullo from '../../../components/ArticoliRullo.astro';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
 const allArticles = await getAllArticoliBuild();
 

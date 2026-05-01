@@ -25,7 +25,7 @@ export const onRequest = defineMiddleware(({ url, redirect }, next) => {
   if (enMatch) return redirect('/en/' + enMatch[1] + '/', 301);
 
   const diarioMatch = path.match(DIARIO_RE);
-  if (diarioMatch) return redirect('/diari' + diarioMatch[1] + '/', 301);
+  if (diarioMatch) return redirect('/it/diari' + diarioMatch[1] + '/', 301);
 
   const blogItMatch = path.match(BLOG_IT_SLUG_RE);
   if (blogItMatch && blogItMatch[1] !== 'en') {

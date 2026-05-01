@@ -23,19 +23,19 @@ export const GET: APIRoute = async () => {
   // 1. Pagine statiche
   const staticPages = [
     { path: '/' },
-    { path: '/archivio' },
-    { path: '/autori' },
-    { path: '/chi-siamo' },
-    { path: '/sostienici' },
-    { path: '/newsletter' },
+    { path: '/it/archivio' },
+    { path: '/it/autori' },
+    { path: '/it/chi-siamo' },
+    { path: '/it/sostienici' },
+    { path: '/it/newsletter' },
   ];
 
   // Rubriche IT
-  const rubrichePages = rubricheData.map((r) => ({ path: `/rubriche/${r.slug}/` }));
+  const rubrichePages = rubricheData.map((r) => ({ path: `/it/rubriche/${r.slug}/` }));
 
   // 2. Categorie
   const categorySlugs: string[] = getAllCategorySlugs();
-  const categoryPages = categorySlugs.map((s: string) => ({ path: `/categoria/${s}` }));
+  const categoryPages = categorySlugs.map((s: string) => ({ path: `/it/categoria/${s}` }));
 
   // 3. Articoli IT pubblicati
   let articleUrls: string[] = [];

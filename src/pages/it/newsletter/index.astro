@@ -1,7 +1,7 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import NewsletterContent from '../components/NewsletterContent.astro';
-import { getAllArticoliBuild } from '../lib/articoli-build';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import NewsletterContent from '../../../components/NewsletterContent.astro';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
 const tuttiArticoli = await getAllArticoliBuild();
 const newsletters = tuttiArticoli

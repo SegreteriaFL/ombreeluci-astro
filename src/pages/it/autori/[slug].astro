@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import AuthorPageContent from '../../components/AuthorPageContent.astro';
-import { getMegaclusterForArticle, getRoleWeight } from '../../config/taxonomy.js';
-import { getAllAutori, getAutoreImageUrl } from '../../lib/directus';
-import { getAllArticoliBuild } from '../../lib/articoli-build';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import AuthorPageContent from '../../../components/AuthorPageContent.astro';
+import { getMegaclusterForArticle, getRoleWeight } from '../../../config/taxonomy.js';
+import { getAllAutori, getAutoreImageUrl } from '../../../lib/directus';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
 export async function getStaticPaths() {
   const [allAutori, allArticoli] = await Promise.all([getAllAutori(), getAllArticoliBuild()]);

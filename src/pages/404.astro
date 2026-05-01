@@ -21,8 +21,8 @@ const temi = getThemesWithSlugs().filter(t => t.nomeCompleto !== 'Personaggi che
         </p>
         <div class="nf-actions">
           <a href="/" class="nf-btn nf-btn--primary">Torna all'homepage</a>
-          <a href="/archivio" class="nf-btn nf-btn--ghost">Sfoglia l'archivio</a>
-          <a href="/cerca" class="nf-btn nf-btn--ghost">Cerca →</a>
+          <a href="/it/archivio" class="nf-btn nf-btn--ghost">Sfoglia l'archivio</a>
+          <a href="/it/cerca" class="nf-btn nf-btn--ghost">Cerca →</a>
         </div>
       </div>
 
@@ -31,7 +31,7 @@ const temi = getThemesWithSlugs().filter(t => t.nomeCompleto !== 'Personaggi che
         <ul class="nf-temi-list">
           {temi.map(t => (
             <li>
-              <a href={`/categoria/${t.slug}`} class="nf-tema-link">{t.nome}</a>
+              <a href={`/it/categoria/${t.slug}`} class="nf-tema-link">{t.nome}</a>
             </li>
           ))}
         </ul>

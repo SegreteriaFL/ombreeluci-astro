@@ -560,7 +560,7 @@ export function localizeIssuePeriodLabel(
  * Aggiungere ES/FR: basta estendere Locale — questa funzione non va toccata.
  */
 export function getAuthorBasePath(lang: Locale): string {
-  if (lang === 'it') return '/autori';
+  if (lang === 'it') return '/it/autori';
   return `/${lang}/authors`;
 }
 

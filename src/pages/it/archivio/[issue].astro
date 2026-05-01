@@ -1,8 +1,8 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import IssueContent from '../../components/IssueContent.astro';
-import { getAllNumeriRivista, getNumeroImageUrl } from '../../lib/directus';
-import { getAllArticoliBuild } from '../../lib/articoli-build';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import IssueContent from '../../../components/IssueContent.astro';
+import { getAllNumeriRivista, getNumeroImageUrl } from '../../../lib/directus';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
 export async function getStaticPaths() {
   const rawNumeri = await getAllNumeriRivista();
@@ -57,6 +57,6 @@ const testata = numero.tipo === 'ins' ? 'Insieme' : 'Ombre e Luci';
     prevSlug={prevSlug}
     nextSlug={nextSlug}
     articoliNumero={articoliNumero}
-    archiveBasePath="/archivio"
+    archiveBasePath="/it/archivio"
   />
 </BaseLayout>

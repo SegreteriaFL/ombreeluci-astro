@@ -97,7 +97,7 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
     const lang      = (container.dataset.lang ?? 'it') as Lang;
     const appId     = container.dataset.appId ?? '';
     const searchKey = container.dataset.searchKey ?? '';
-    const searchHref = container.dataset.searchHref ?? (lang === 'en' ? '/en/search/' : '/cerca');
+    const searchHref = container.dataset.searchHref ?? (lang === 'en' ? '/en/search/' : '/it/cerca');
 
     // Silent fail: chiavi mancanti (staging senza env vars)
     if (!appId || !searchKey) return;

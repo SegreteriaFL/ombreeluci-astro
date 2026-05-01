@@ -12,7 +12,7 @@ interface Props {
 const { pathname = '/', lang: langProp } = Astro.props;
 const lang = langProp ?? getLangFromUrl(pathname);
 
-const catBase = lang === 'en' ? '/en/category' : '/categoria';
+const catBase = lang === 'en' ? '/en/category' : '/it/categoria';
 const catSlug = (itSlug: string) => getCategoriaUrlSlug(itSlug, lang);
 const temi = getThemesWithSlugs().map((t) => ({
   ...t,
@@ -25,18 +25,18 @@ const temiCol2 = temi.slice(meta);
 
 const sezioniFormali = rubricheData.map((r) => ({
   nome: lang === 'en' ? r.en : r.it,
-  href: lang === 'en' ? `/en/sections/${r.en_slug}/` : `/rubriche/${r.slug}/`,
+  href: lang === 'en' ? `/en/sections/${r.en_slug}/` : `/it/rubriche/${r.slug}/`,
 }));
 
 const aboutLinks = [
-  { nome: t(lang, 'footer_about'), slug: '/chi-siamo' },
-  { nome: t(lang, 'footer_redaction'), slug: '/chi-siamo#la-redazione' },
-  { nome: t(lang, 'footer_redaction_history'), slug: '/chi-siamo#redazione-storica' },
-  { nome: t(lang, 'footer_collaborators'), slug: '/chi-siamo#collaboratori' },
-  { nome: t(lang, 'footer_wrote_for_us'), slug: '/chi-siamo#hanno-scritto-per-noi' },
-  { nome: t(lang, 'footer_diari'), slug: lang === 'en' ? '/en/sections/diaries/' : '/rubriche/diari/' },
-  { nome: t(lang, 'footer_contacts'), slug: '/chi-siamo#contatti' },
-  { nome: t(lang, 'nav_newsletter'), slug: '/newsletter' },
+  { nome: t(lang, 'footer_about'), slug: lang === 'en' ? '/en/about/' : '/it/chi-siamo' },
+  { nome: t(lang, 'footer_redaction'), slug: lang === 'en' ? '/en/about/#la-redazione' : '/it/chi-siamo#la-redazione' },
+  { nome: t(lang, 'footer_redaction_history'), slug: lang === 'en' ? '/en/about/#redazione-storica' : '/it/chi-siamo#redazione-storica' },
+  { nome: t(lang, 'footer_collaborators'), slug: lang === 'en' ? '/en/about/#collaboratori' : '/it/chi-siamo#collaboratori' },
+  { nome: t(lang, 'footer_wrote_for_us'), slug: lang === 'en' ? '/en/about/#hanno-scritto-per-noi' : '/it/chi-siamo#hanno-scritto-per-noi' },
+  { nome: t(lang, 'footer_diari'), slug: lang === 'en' ? '/en/sections/diaries/' : '/it/rubriche/diari/' },
+  { nome: t(lang, 'footer_contacts'), slug: lang === 'en' ? '/en/about/#contatti' : '/it/chi-siamo#contatti' },
+  { nome: t(lang, 'nav_newsletter'), slug: lang === 'en' ? '/en/newsletter/' : '/it/newsletter' },
 ];
 
 const legalLinks = [
@@ -52,7 +52,7 @@ const socialLinks = [
   { nome: 'YouTube', url: 'https://www.youtube.com/channel/UCypEHP-N_RaUiz1BcBsplVQ', icon: 'youtube' },
   { nome: 'TikTok', url: '#', icon: 'tiktok' },
 ];
-const homeHref = lang === 'en' ? '/blog/en' : '/';
+const homeHref = lang === 'en' ? '/en/' : '/';
 const footerLegalText =
   lang === 'en'
     ? 'Quarterly magazine. Registered publication at the Court of Rome, registration no. 1 of January 16, 2020. Editorial office and administration: Via dei Cessati Spiriti 3, 00185 Rome.'

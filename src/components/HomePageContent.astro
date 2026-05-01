@@ -90,10 +90,10 @@ function formatRelative(d: Date): string {
   const y = Math.floor(days / 365); return y === 1 ? 'un anno fa' : `${y} anni fa`;
 }
 
-const archiveBasePath = lang === 'en' ? '/en/archive' : '/archivio';
+const archiveBasePath = lang === 'en' ? '/en/archive' : '/it/archivio';
 const diariesPath = lang === 'en' ? '/en/authors' : '/sezioni/diari';
-const supportPath = lang === 'en' ? '/en/support' : '/sostienici';
-const contactPath = lang === 'en' ? '/en/contact' : '/chi-siamo/contatti';
+const supportPath = lang === 'en' ? '/en/support' : '/it/sostienici';
+const contactPath = lang === 'en' ? '/en/contact' : '/it/chi-siamo/contatti';
 
 const issuePeriodLabel = ultimoNumero
   ? localizeIssuePeriodLabel(ultimoNumero.periodo_label ?? null, lang)

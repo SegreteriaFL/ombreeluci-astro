@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import RubricaPageContent from '../../components/RubricaPageContent.astro';
-import rubricheData from '../../data/rubriche.json';
-import { getAllArticoliBuild } from '../../lib/articoli-build';
-import { getLabels } from '../../config/taxonomy.js';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import RubricaPageContent from '../../../components/RubricaPageContent.astro';
+import rubricheData from '../../../data/rubriche.json';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
+import { getLabels } from '../../../config/taxonomy.js';
 
 export async function getStaticPaths() {
   const allArticles = (await getAllArticoliBuild()).filter((a) => a.lang !== 'en');

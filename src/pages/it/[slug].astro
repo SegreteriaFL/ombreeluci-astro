@@ -447,7 +447,7 @@ const relatedArticles = (() => {
     <div class="article-container">
       {/* Breadcrumbs */}
       <nav class="breadcrumbs">
-        <a href={locale === 'en' ? '/en/' : '/archivio'}>{t(locale, 'nav_archive')}</a>
+        <a href={locale === 'en' ? '/en/' : '/it/archivio'}>{t(locale, 'nav_archive')}</a>
         {issueNumber && (
           <>
             {' > '}
@@ -717,7 +717,7 @@ const relatedArticles = (() => {
           <a href={pdfUrl} target="_blank" rel="noopener noreferrer" class="widget-link">{t(locale, 'widget_download_pdf')}</a>
         ) : null}
         {issueLink ? <a href={issueLink} class="widget-link">{t(locale, 'widget_go_to_issue')}</a> : null}
-        <a href={locale === 'en' ? '/en/' : '/archivio'} class="widget-link">{t(locale, 'nav_archive')}</a>
+        <a href={locale === 'en' ? '/en/' : '/it/archivio'} class="widget-link">{t(locale, 'nav_archive')}</a>
       </div>
 
 

@@ -15,7 +15,7 @@ const { cover_url, titolo_numero, numero, anno, periodo_label, tipo_rivista, id_
 const isOEL = tipo_rivista !== 'insieme' && !id_numero.toLowerCase().startsWith('ins');
 
 const numeroSlug = id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-');
-const archiveBase = lang === 'en' ? '/en/archive' : '/archivio';
+const archiveBase = lang === 'en' ? '/en/archive' : '/it/archivio';
 const linkUrl = `${archiveBase}/${numeroSlug}`;
 
 // Titolo card: "N.172 – Paradigma Pompei"

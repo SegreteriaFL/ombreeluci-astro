@@ -29,7 +29,7 @@ function isActive(href: string): boolean {
   return pathname === href || pathname.startsWith(href + '/');
 }
 
-const catBase = lang === 'en' ? '/en/category' : '/categoria';
+const catBase = lang === 'en' ? '/en/category' : '/it/categoria';
 const catSlug = (itSlug: string) => getCategoriaUrlSlug(itSlug, lang);
 
 const temi = getThemesWithSlugs()
@@ -37,21 +37,21 @@ const temi = getThemesWithSlugs()
   .map((t) => ({ ...t, nome: lang === 'it' ? t.nome : (getCategoriaLabel(t.slug, lang) ?? t.nome), href: `${catBase}/${catSlug(t.slug)}` }));
 
 const homeHref    = lang === 'en' ? '/en/' : '/';
-const aboutHref   = lang === 'en' ? '/en/about/' : '/chi-siamo';
-const nlHref      = lang === 'en' ? '/en/newsletter/' : '/newsletter';
-const supportHref = lang === 'en' ? '/en/support-us/' : '/sostienici';
-const archiveHref = lang === 'en' ? '/en/archive/' : '/archivio';
-const authorsHref = lang === 'en' ? '/en/authors/' : '/autori';
-const searchHref  = lang === 'en' ? '/en/search/' : '/cerca/';
+const aboutHref   = lang === 'en' ? '/en/about/' : '/it/chi-siamo';
+const nlHref      = lang === 'en' ? '/en/newsletter/' : '/it/newsletter/';
+const supportHref = lang === 'en' ? '/en/support-us/' : '/it/sostienici';
+const archiveHref = lang === 'en' ? '/en/archive/' : '/it/archivio';
+const authorsHref = lang === 'en' ? '/en/authors/' : '/it/autori';
+const searchHref  = lang === 'en' ? '/en/search/' : '/it/cerca/';
 
 const issueSlug = ultimoNumero
   ? String(ultimoNumero.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-')
   : '';
-const issueHref = lang === 'en' ? `/en/archive/${issueSlug}` : `/archivio/${issueSlug}`;
+const issueHref = lang === 'en' ? `/en/archive/${issueSlug}` : `/it/archivio/${issueSlug}`;
 
 const sezioniForme = rubricheData.map((r) => ({
   nome: lang === 'en' ? r.en : r.it,
-  href: lang === 'en' ? `/en/sections/${r.en_slug}/` : `/rubriche/${r.slug}/`,
+  href: lang === 'en' ? `/en/sections/${r.en_slug}/` : `/it/rubriche/${r.slug}/`,
 }));
 const focusHref = lang === 'en' ? '/en/focus/' : '/it/focus/';
 const archivioLinks = [

@@ -1,7 +1,7 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import ArchivioContent from '../../components/ArchivioContent.astro';
-import { getAllNumeriRivista } from '../../lib/directus';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArchivioContent from '../../../components/ArchivioContent.astro';
+import { getAllNumeriRivista } from '../../../lib/directus';
 
 const rawNumeri = await getAllNumeriRivista();
 const numeriOrdinati = [...rawNumeri].sort((a, b) =>

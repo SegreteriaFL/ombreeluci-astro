@@ -14,24 +14,24 @@ Flusso obbligatorio per qualsiasi pagina template:
 
 **Conseguenza pratica:** se stai creando una pagina EN copiando markup da una pagina IT, stai sbagliando. Fermati, estrai prima il componente, poi crea la route EN.
 
-**Stato attuale componenti condivisi (tutti estratti — 2026-05-01):**
+**Stato attuale componenti condivisi (tutti estratti — 2026-05-01, routing /it/ completato B-14):**
 
 | Componente | Route IT | Route EN |
 |---|---|---|
 | `ArticlePageLayout.astro` | `/it/[slug]` | `/en/[slug]` |
-| `CategoriaPageContent.astro` | `/categoria/[cat]` | `/en/category/[slug]` |
-| `RubricaPageContent.astro` | `/rubriche/[rubrica]` | `/en/sections/[slug]` |
-| `AuthorPageContent.astro` | `/autori/[slug]` | `/en/authors/[slug]` |
+| `CategoriaPageContent.astro` | `/it/categoria/[cat]` | `/en/category/[slug]` |
+| `RubricaPageContent.astro` | `/it/rubriche/[rubrica]` | `/en/sections/[slug]` |
+| `AuthorPageContent.astro` | `/it/autori/[slug]` | `/en/authors/[slug]` |
 | `HomePageContent.astro` | `/` | `/en/` |
-| `ChiSiamoContent.astro` | `/chi-siamo/` | `/en/about/` |
-| `SostienicContent.astro` | `/sostienici` | `/en/support-us/` |
-| `NewsletterContent.astro` | `/newsletter` | `/en/newsletter/` |
-| `CercaContent.astro` | `/cerca` | `/en/search/` |
-| `ArchivioContent.astro` | `/archivio/` | `/en/archive/` |
-| `IssueContent.astro` | `/archivio/[issue]` | `/en/archive/[issue]` |
-| `DiariContent.astro` | `/rubriche/diari` | `/en/sections/diaries/` |
-| `DiarioContent.astro` | `/diari/[diario]` | `/en/diaries/[diario]` |
-| `ArticoliRullo.astro` | `/tag/[slug]`, `/archivio/web-only` | `/en/tag/[slug]`, `/en/archive/web-only` |
+| `ChiSiamoContent.astro` | `/it/chi-siamo/` | `/en/about/` |
+| `SostienicContent.astro` | `/it/sostienici/` | `/en/support-us/` |
+| `NewsletterContent.astro` | `/it/newsletter/` | `/en/newsletter/` |
+| `CercaContent.astro` | `/it/cerca/` | `/en/search/` |
+| `ArchivioContent.astro` | `/it/archivio/` | `/en/archive/` |
+| `IssueContent.astro` | `/it/archivio/[issue]` | `/en/archive/[issue]` |
+| `DiariContent.astro` | `/it/rubriche/diari` | `/en/sections/diaries/` |
+| `DiarioContent.astro` | `/it/diari/[diario]` | `/en/diaries/[diario]` |
+| `ArticoliRullo.astro` | `/it/tag/[slug]`, `/it/archivio/web-only` | `/en/tag/[slug]`, `/en/archive/web-only` |
 | `ArticleCard.astro` | ovunque | ovunque |
 | `BaseLayout.astro` | tutte le pagine | tutte le pagine |
 | `VerticaleContent.astro` | `/it/focus/[vertical]` | `/en/focus/[vertical]` |
@@ -93,10 +93,22 @@ Se ritorna risultati, la pipeline ha saltato il campo.
 
 ---
 
-## Routing canonical per lingua (stato 2026-04-25)
+## Routing canonical per lingua (stato 2026-05-01, B-14 completato)
 
-- IT: `/it/{slug}/` — route `src/pages/it/[slug].astro` (URL-IT-01)
-- EN: `/en/{slug}/` — route `src/pages/en/[slug].astro`, lookup a due tentativi (slug esatto → slug+`-en`)
+Tutte le route IT sono ora sotto `/it/`. Nessuna route IT vive più alla root (eccetto `/` homepage).
+
+- IT articoli: `/it/{slug}/` — route `src/pages/it/[slug].astro`
+- IT sezioni: `/it/archivio/`, `/it/autori/`, `/it/categoria/`, `/it/cerca/`, `/it/chi-siamo/`, `/it/diari/`, `/it/focus/`, `/it/newsletter/`, `/it/rubriche/`, `/it/sostienici/`, `/it/tag/`
+- EN articoli: `/en/{slug}/` — route `src/pages/en/[slug].astro`, lookup a due tentativi (slug esatto → slug+`-en`)
+- EN sezioni: `/en/archive/`, `/en/authors/`, `/en/category/`, `/en/search/`, `/en/about/`, `/en/diaries/`, `/en/focus/`, `/en/newsletter/`, `/en/sections/`, `/en/support-us/`, `/en/tag/`
+
+**Redirect root→/it/ in astro.config.mjs** (staging, evita link rotti): `/archivio`, `/autori`, `/categoria`, `/cerca`, `/chi-siamo`, `/diari`, `/newsletter`, `/rubriche`, `/sostienici`, `/tag` → rispettivi `/it/…`.
+
+**`getAuthorBasePath(lang)`** in `src/utils/i18n.ts` restituisce `/it/autori` per IT e `/${lang}/authors` per le altre lingue.
+
+**Aggiungere una nuova lingua (ES, FR):** creare `src/pages/es/` con struttura identica a `src/pages/en/`. Zero markup da duplicare.
+
+### Stato slug EN reale (verificato 2026-04-25 via curl Directus)
 
 ### Stato slug EN reale (verificato 2026-04-25 via curl Directus)
 

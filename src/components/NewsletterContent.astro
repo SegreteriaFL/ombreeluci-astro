@@ -27,10 +27,10 @@ function categoryUrl(itSlug: string): string {
     const enSlug = getCategoriaUrlSlug(itSlug, 'en');
     return `/en/category/${enSlug}`;
   }
-  return `/categoria/${itSlug}`;
+  return `/it/categoria/${itSlug}`;
 }
 
-const archiveUrl = lang === 'en' ? '/en/archive' : '/archivio';
+const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
 ---
 
 <main class="site-main">

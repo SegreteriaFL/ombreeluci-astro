@@ -7,13 +7,13 @@
  */
 export const prerender = false;
 
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import ArticoliRullo from '../../components/ArticoliRullo.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticoliRullo from '../../../components/ArticoliRullo.astro';
 import {
   getArticoliByTag,
   getTagBySlug,
   directusCredsFromAstroLocals,
-} from '../../lib/directus';
+} from '../../../lib/directus';
 
 const creds = directusCredsFromAstroLocals(Astro.locals);
 const tagSlug = (Astro.params.slug ?? '').replace(/\/$/, '');

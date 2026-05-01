@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import DiariContent from '../../components/DiariContent.astro';
-import { getDiaristiWithMeta, NOMI_DIARISTI } from '../../data/diari.ts';
-import { getAllArticoliBuild } from '../../lib/articoli-build';
-import { getAllAutori, getAutoreImageUrl, getCategoriaDescrizione } from '../../lib/directus';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import DiariContent from '../../../components/DiariContent.astro';
+import { getDiaristiWithMeta, NOMI_DIARISTI } from '../../../data/diari.ts';
+import { getAllArticoliBuild } from '../../../lib/articoli-build';
+import { getAllAutori, getAutoreImageUrl, getCategoriaDescrizione } from '../../../lib/directus';
 
 const [allAutori, diariMeta] = await Promise.all([getAllAutori(), getCategoriaDescrizione('diari')]);
 const diariDescrizione = diariMeta?.descrizione ?? null;

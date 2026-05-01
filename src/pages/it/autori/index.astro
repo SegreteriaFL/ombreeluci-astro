@@ -1,6 +1,6 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getAllAutori, getAutoreImageUrl } from '../../lib/directus';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getAllAutori, getAutoreImageUrl } from '../../../lib/directus';
 
 function stripHtml(html: string): string {
   return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
