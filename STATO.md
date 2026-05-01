@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-01 (main — 5 nuove pagine Focus populate in Directus; `/it/focus/` e `/en/focus/` listing live; hero cover images upload)
+**Ultimo aggiornamento:** 2026-05-01 (main — B-14: tutte le route IT sotto `/it/`; MOBILE-01: iOS Safari scroll-lock megamenu, LanguageSelector fix, overflow-wrap articoli)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -15,24 +15,24 @@
 | Home EN `/en/` | ✅ 200, `HomePageContent.astro` |
 | Articolo IT `/it/{slug}/` | ✅ 200 |
 | Articolo EN `/en/{slug}/` | ✅ 200, SSR, lookup a due tentativi |
-| Categoria IT `/categoria/famiglia/` | ✅ 200 |
+| Categoria IT `/it/categoria/famiglia/` | ✅ 200 (B-14: era `/categoria/`) |
 | Categoria EN `/en/category/family/` | ✅ 200, redirect a /en/ se 0 articoli published |
-| Autore IT `/autori/{slug}/` | ✅ 200 |
+| Autore IT `/it/autori/{slug}/` | ✅ 200 (B-14: era `/autori/`) |
 | Autore EN `/en/authors/{slug}/` | ✅ 200 |
-| Lista autori IT/EN | ✅ 200 |
-| Archivio IT `/archivio/` | ✅ 200, `ArchivioContent.astro` |
+| Lista autori IT `/it/autori/` | ✅ 200 (B-14) |
+| Archivio IT `/it/archivio/` | ✅ 200, `ArchivioContent.astro` (B-14) |
 | Archivio EN `/en/archive/` | ✅ 200, `ArchivioContent.astro` lang=en |
-| Numero IT `/archivio/oel-171/` | ✅ 200, `IssueContent.astro` |
+| Numero IT `/it/archivio/oel-171/` | ✅ 200, `IssueContent.astro` (B-14) |
 | Numero EN `/en/archive/oel-171/` | ✅ 200, `IssueContent.astro` lang=en |
-| Chi siamo IT `/chi-siamo/` | ✅ 200, `ChiSiamoContent.astro` |
+| Chi siamo IT `/it/chi-siamo/` | ✅ 200, `ChiSiamoContent.astro` (B-14) |
 | About EN `/en/about/` | ✅ 200, `ChiSiamoContent.astro` lang=en |
-| Sostienici IT `/sostienici` | ✅ 200, `SostienicContent.astro` |
+| Sostienici IT `/it/sostienici/` | ✅ 200, `SostienicContent.astro` (B-14) |
 | Support EN `/en/support-us/` | ✅ 200, `SostienicContent.astro` lang=en |
-| Newsletter IT `/newsletter` | ✅ 200, `NewsletterContent.astro` |
+| Newsletter IT `/it/newsletter/` | ✅ 200, `NewsletterContent.astro` (B-14) |
 | Newsletter EN `/en/newsletter/` | ✅ 200, `NewsletterContent.astro` lang=en |
-| Cerca IT `/cerca` | ✅ 200, `CercaContent.astro` |
+| Cerca IT `/it/cerca/` | ✅ 200, `CercaContent.astro` (B-14) |
 | Search EN `/en/search/` | ✅ 200, `CercaContent.astro` lang=en |
-| Diari IT `/sezioni/diari` | ✅ 200, `DiariContent.astro` |
+| Diari IT `/it/rubriche/diari/` | ✅ 200, `DiariContent.astro` (B-14) |
 | Diaries EN `/en/diaries/` | ✅ 200, `DiariContent.astro` lang=en |
 | Web-only IT/EN | ✅ `ArticoliRullo.astro` condiviso |
 | Dialogo aperto IT/EN | ✅ `RubricaPageContent.astro` — `/rubriche/dialogo-aperto/`, `/en/sections/open-dialogue/` |
@@ -48,6 +48,7 @@
 | LanguageSelector fallback null → homepage lingua | ✅ già presente |
 | IssueNavPill prev/next link | ✅ fix 2026-04-27 (era `/archivio//archivio/`) |
 | Scroll orizzontale mobile | 🟡 fix deployato (2026-04-27) — da verificare su più device |
+| Megamenu iOS Safari scroll-lock | 🟡 fix deployato (MOBILE-01, 2026-05-01) — da verificare su iOS Safari ≤15 |
 | `.leggi-anche` img margin nell'articolo | ✅ fix 2026-04-27 |
 
 ---
@@ -124,7 +125,7 @@ Il cutover avviene quando tutti i blockers sono verdi.
 | B-10 | → post-lancio | Sysadmin | Slack alert build |
 | B-11 | N/A | — | Iubenda ownerName `fedeeluce.it` è corretto (editore legale) |
 | B-13 | 🟡 | Dev | **Ricerca Algolia** — implementato (ALGOLIA-01/02/03/04, 2026-04-26). Dropdown header + pagina risultati funzionanti su staging. **Da testare seriamente prima del go-live** (vedi § Algolia sotto). Manca ALGOLIA-05 (webhook sync automatico). |
-| B-14 | 🔴 | Dev | **URL-IT-02** — prefisso `/it/` sulle pagine sezione IT per simmetria con `/en/`. Se lasciato asimmetrico, aggiungere ES/FR genera URL incoerenti (`/es/archive/` ma IT è `/archivio/`). Richiede redirect 301 da URL vecchi. Da fare prima del lancio. |
+| B-14 | ✅ | Dev | **URL-IT-02** — prefisso `/it/` su tutte le route IT (commit `01456a13`). Redirect root→/it/ in astro.config.mjs. |
 | B-15 | 🔴 | Dev | **noindex SWEEP — ULTIMA AZIONE PRE-CUTOVER** ⚠️ **NON toccare finché il sito è su staging.** Il `noindex={true}` su tutte le pagine è intenzionale e protegge lo staging dall'indicizzazione. Rimuoverlo prima del cutover significherebbe indicizzare lo staging su Google. Questo è l'ULTIMO commit da fare, immediatamente prima di cambiare il DNS — contestualmente all'apertura di `robots.txt`. Vedere § SEO per lista completa dei file da modificare. |
 | B-16 | 🔴 | Dev | **Sitemap completa pre-lancio** — `/sitemap.xml` attuale copre solo IT static + categorie + articoli IT. Mancano: articoli EN, numeri archivio, pagine autore, pagine EN. Aggiornare `sitemap.xml.ts` e registrare in Search Console al cutover. |
 | B-17 | 🔴 | Dev | **Analytics GA4/GTM** — zero analytics implementato. Minimo pre-lancio: attivare Cloudflare Web Analytics (gratis, già disponibile su CF Pages, 1 riga di codice) O aggiungere GA4 via script. Senza questo non si sa nulla del traffico dal giorno 1. Vedere § Analytics. |
@@ -165,14 +166,21 @@ Tutto questo deve essere verde prima del cutover DNS.
 
 | # | Cosa | Come verificare |
 |---|------|-----------------|
-| V-01 | 13 categorie: distribuzione articoli sensata? | Staging → menu Temi → ogni `/categoria/*` |
+| V-01 | 13 categorie: distribuzione articoli sensata? | Staging → menu Temi → ogni `/it/categoria/*` |
 | V-02 | 19 articoli "da-categorizzare" da assegnare | Directus → filtra `categoria_menu = da-categorizzare` |
-| V-04 | "Fede e Luce" (1114 articoli): serve suddivisione? | Staging → `/categoria/fede-e-luce` |
+| V-04 | "Fede e Luce" (1114 articoli): serve suddivisione? | Staging → `/it/categoria/fede-e-luce` |
 | V-05 | 35 articoli Jean Vanier senza categoria | Directus → filtra `tema_label` vuoto |
 | V-13 | Homepage v2: qualità editoriale articoli in rotazione | Staging → ricarica più volte |
-| V-14 | Embed video YouTube funzionanti | `/blog/berlinale-74-orso-doro/` |
+| V-14 | Embed video YouTube funzionanti | Un articolo con video YouTube incorporato |
 | V-16 | Pull quote (570): posizione e formattazione corretta | Articoli lunghi con citazioni evidenziate |
-| V-17 | Sommari numeri rivista (71): testo leggibile e corretto | `/archivio` → apri alcuni numeri |
+| V-17 | Sommari numeri rivista (71): testo leggibile e corretto | `/it/archivio` → apri alcuni numeri |
+| **M-01** | **Header mobile: logo + hamburger visibili, nessun overflow** | iPhone/Android — apri staging, verifica header a 320px/375px |
+| **M-02** | **Megamenu: apertura, scroll interno, chiusura** | iPhone → tap hamburger → scroll voci menu → tap voce → naviga correttamente |
+| **M-03** | **Megamenu: background NON scrolla mentre menu è aperto** | iPhone Safari → apri menu → prova a scrollare dietro → deve restare bloccato |
+| **M-04** | **Ricerca mobile: form appare, submit porta a `/it/cerca/`** | iPhone ≤480px → tap icona lente → digita → invio → pagina risultati |
+| **M-05** | **Language switcher mobile: dropdown IT/EN funzionante** | iPhone → tap icona globo → appare dropdown → tap EN → naviga |
+| **M-06** | **Articolo: testo leggibile su 375px, nessun overflow orizzontale** | iPhone → apri un articolo lungo → verifica font, spaziatura, link lunghi |
+| **M-07** | **Focus page + listing: layout card su mobile** | iPhone → `/it/focus/` → apri una verticale → card articoli corrette |
 
 ---
 
@@ -240,18 +248,11 @@ L'implementazione è funzionante su staging ma non è stata testata in modo sist
 
 ---
 
-## § Bug Header — scroll con megamenu aperto (🔴 aperto)
+## § Bug Header — ✅ RISOLTO (MOBILE-01, commit `aeb42553`)
 
-**Sintomo:** su iOS/mobile, quando il megamenu è aperto e l'utente scrolla, l'header (`position:sticky`) scorre via con la pagina mentre il megamenu (`position:fixed; top:var(--header-height)`) resta fisso → spazio vuoto visibile.
+**Sintomo originale:** header sticky + overflow-x:hidden su html rompeva sticky su iOS Safari.
 
-**Causa:** `overflow-x:hidden` su `html` (commit `cd2f988`, fix horizontal scroll iOS Safari <16) crea un nuovo scroll container su alcuni browser mobile. `position:sticky` funziona relativo allo scroll container antenato → con `html` come nuovo container, il comportamento sticky si rompe.
-
-**Fix pianificato:**
-1. `src/styles/global.css`: aggiungere `body { padding-top: var(--header-height) }` (desktop + mobile tramite CSS variable)
-2. `src/components/Header.astro` CSS: `.header { position: sticky }` → `.header { position: fixed; top: 0; left: 0; right: 0 }`
-3. Verificare che footer reveal (già `position:fixed; bottom:0` su desktop) non venga influenzato
-
-**Note:** il fix non richiede JS. Il `body.style.overflow = 'hidden'` che si imposta all'apertura menu rimane invariato. Il `padding-top` assicura che il contenuto non parta sotto l'header.
+**Fix applicato:** header era già `position:fixed` da una versione precedente. MOBILE-01 ha risolto il problema residuo: iOS Safari scroll-lock inaffidabile (body.style.overflow='hidden' non sufficiente) — sostituito con `position:fixed + savedScrollY` sul body durante l'apertura del megamenu. In più: LanguageSelector breakpoint allineato a 768px, fallback `var(--header-height, 72px)`, `overflow-wrap` su `.article-content`.
 
 ---
 
@@ -288,6 +289,8 @@ Il pill flottante prev/next in basso è **separato** dal pill switcher in testa.
 
 | Commit | Fix |
 |--------|-----|
+| `01456a13` | **B-14** refactor(routing): prefisso `/it/` su tutte le route IT — 20 file spostati in `src/pages/it/`, import path corretti, redirect root→/it/ in astro.config.mjs, sitemap aggiornata, CLAUDE.md aggiornata |
+| `aeb42553` | **MOBILE-01** fix(mobile): iOS Safari scroll-lock megamenu (position:fixed+savedScrollY), LanguageSelector breakpoint 767→768px, var(--header-height,72px) fallback, overflow-wrap su .article-content |
 | `2d8cba4e` | feat(focus): `FocusListingContent.astro` + route `/it/focus/index.astro` + `/en/focus/index.astro` — listing delle verticali live per entrambe le lingue. CLAUDE.md aggiornato con nuova riga nella tabella componenti condivisi. |
 | `4a6f0b6c` | feat(focus): 4 hero cover image specifiche per le pagine Focus caricate in Directus e nel repo (`public/images/focus-cover-*.jpg`). Script `scripts/create-verticali.py` committato. |
 | Directus | Populate 5 nuove verticali via API: Autismo (ID=3), Noi papà (ID=4), Aktion T4 (ID=5), Cinema e disabilità (ID=6), Ciao Stefano (ID=7). 43 articoli collegati complessivamente. Hero immagini assegnate. |
