@@ -159,6 +159,10 @@ Tutto questo deve essere verde prima del cutover DNS.
 | PF-02 | 🔴 | S | Cache-Control assente su R2: aggiungere `max-age=31536000, immutable` via CF Transform Rule |
 | DA-02 | 🟢 | S | 16 pull quote non reinserite: 11 articoli con posizione ambigua, inserire a mano in Directus |
 | UAT-CLEANUP | 🔴 | S | Eliminare utente Redazione UAT `redazione-uat@ombreeluci.it` prima del go-live |
+| SEC-01 | 🔴 | S | **Security headers** — `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy` mancanti. Aggiungere via `public/_headers` o Cloudflare Transform Rule. |
+| NL-FORM | 🔴 | M | **Form newsletter reale** — `/it/newsletter/` ha `action` placeholder (TODO nel codice). Mailchimp uuid `00c5dad63480d9601563b5692`, lid `efd099264d`. |
+| BUG-REGEX | 🟡 | S | **SyntaxError JS su 2 articoli** — `/it/la-costituzione-dei-poveri-recensione` e EN. Parentesi non bilanciate nel `corpo` in Directus. Aprire articolo in Directus e sistemare il testo. |
+| PERM-DIR | 🔴 | M | **Ruoli e permessi Directus** — profili redazione con accessi limitati non configurati. Prerequisito per UAT reale. |
 
 ---
 
@@ -608,24 +612,27 @@ Sequenza corretta al cutover:
 6. Cambio record DNS → ombreeluci.it
 7. Verifica in GSC entro 24h
 
-Pagine da cui rimuovere `noindex={true}`:
+Pagine da cui rimuovere `noindex={true}` (path aggiornati dopo B-14):
 
 - [ ] `src/pages/index.astro` (homepage IT)
 - [ ] `src/pages/it/[slug].astro` (articoli IT — BLOCCANTE SEO)
-- [ ] `src/pages/categoria/[categoria].astro`
-- [ ] `src/pages/archivio/index.astro`
-- [ ] `src/pages/archivio/[issue].astro`
-- [ ] `src/pages/archivio/web-only.astro`
-- [ ] `src/pages/autori/index.astro`
-- [ ] `src/pages/autori/[slug].astro`
-- [ ] `src/pages/rubriche/[rubrica].astro`
-- [ ] `src/pages/rubriche/diari.astro`
-- [ ] `src/pages/tag/[slug].astro`
-- [ ] `src/pages/diari/[diario].astro`
-- [ ] `src/pages/chi-siamo/index.astro`
-- [ ] `src/pages/sostienici.astro` (se esiste)
-- [ ] `src/pages/newsletter.astro`
+- [ ] `src/pages/it/categoria/[categoria].astro`
+- [ ] `src/pages/it/archivio/index.astro`
+- [ ] `src/pages/it/archivio/[issue].astro`
+- [ ] `src/pages/it/archivio/web-only.astro`
+- [ ] `src/pages/it/autori/index.astro`
+- [ ] `src/pages/it/autori/[slug].astro`
+- [ ] `src/pages/it/rubriche/[rubrica].astro`
+- [ ] `src/pages/it/rubriche/diari.astro`
+- [ ] `src/pages/it/tag/[slug].astro`
+- [ ] `src/pages/it/diari/[diario].astro`
+- [ ] `src/pages/it/chi-siamo/index.astro`
+- [ ] `src/pages/it/sostienici/index.astro`
+- [ ] `src/pages/it/newsletter/index.astro`
+- [ ] `src/pages/it/focus/index.astro`
+- [ ] `src/pages/it/focus/[vertical].astro`
 - [ ] `src/pages/en/index.astro`
+- [ ] `src/pages/en/[slug].astro` (articoli EN)
 - [ ] `src/pages/en/category/[slug].astro`
 - [ ] `src/pages/en/sections/[slug].astro`
 - [ ] `src/pages/en/sections/diaries.astro`
@@ -633,16 +640,19 @@ Pagine da cui rimuovere `noindex={true}`:
 - [ ] `src/pages/en/archive/[issue].astro`
 - [ ] `src/pages/en/archive/web-only.astro`
 - [ ] `src/pages/en/authors/index.astro`
+- [ ] `src/pages/en/authors/[slug].astro`
 - [ ] `src/pages/en/diaries/[diario].astro`
 - [ ] `src/pages/en/about/index.astro`
 - [ ] `src/pages/en/newsletter/index.astro`
+- [ ] `src/pages/en/focus/index.astro`
+- [ ] `src/pages/en/focus/[vertical].astro`
 
 Pagine che devono restare `noindex=true`:
 - `src/pages/404.astro`
-- `src/pages/cerca.astro` e `src/pages/en/search/index.astro`
+- `src/pages/it/cerca/index.astro` e `src/pages/en/search/index.astro`
 - `src/pages/en/tag/[slug].astro` (decide redazione — contenuto duplicato potenziale)
 - Tutto sotto `src/pages/debug/` e `src/pages/test-*.astro`
-- Pagine chi-siamo sottopagine: `la-redazione.astro`, `redazione-storica.astro`, ecc. (già reindirizzate da astro.config.mjs)
+- Sottopagine chi-siamo (la-redazione, redazione-storica, collaboratori, ecc.) — già reindirizzate in astro.config.mjs
 
 ### Sitemap
 
