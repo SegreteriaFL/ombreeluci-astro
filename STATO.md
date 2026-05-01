@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-01 (main — B-14: tutte le route IT sotto `/it/`; MOBILE-01: iOS Safari scroll-lock megamenu, LanguageSelector fix, overflow-wrap articoli)
+**Ultimo aggiornamento:** 2026-05-01 (main — B-14 routing /it/; MOBILE-01 mobile fix; Directus audit permessi Redazione completato; B-06 chiuso)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -118,7 +118,7 @@ Il cutover avviene quando tutti i blockers sono verdi.
 | B-03 | ✅ | Dev | CORS Directus configurato e verificato |
 | B-04 | ⏳ | Redazione | V-02: assegnare categoria ai 19 articoli "da-categorizzare" in Directus |
 | B-05 | ✅ | Dev | URL-01: rimozione `/blog/` — verificato su staging 2026-04-24 |
-| B-06 | ⏳ | Dev/Redazione | T1/T2/T3: validare workflow creazione OEL-173 da account Redazione UAT |
+| B-06 | ✅ | Dev | Audit e fix permessi Directus ruolo Redazione completato (2026-05-01). Vedi § Directus Audit. |
 | B-07 | ✅ | Dev | Keystatic dismesso — Worker `keystatic-oel` eliminato |
 | B-08 | ✅ | Dev | Copertine staging: tutte su `cms.ombreeluci.it/assets/{uuid}`, 200 OK |
 | B-09 | → post-lancio | Sysadmin | UptimeRobot monitoring |
@@ -286,6 +286,47 @@ L'implementazione è funzionante su staging ma non è stata testata in modo sist
 ### IssueNavPill (telecomandino)
 
 Il pill flottante prev/next in basso è **separato** dal pill switcher in testa. Non è ridondante: serve per navigare sequenzialmente tra numeri senza tornare alla griglia. Centro ora mostra "Magazine" (era "Archivio") con link lang-aware ad `archiveBasePath`.
+
+---
+
+## § Directus — Audit permessi ruolo Redazione (2026-05-01)
+
+### Configurazione finale policy Redazione (`0a5492ea`)
+
+| Collection | CREATE | READ | UPDATE | DELETE | Note |
+|---|---|---|---|---|---|
+| `articoli` | `*` | 27 campi | `*` | — | READ esclude: slug, lang, wp_id, original_url, articolo_traduzione, cluster_id, umap_*, data_creazione, data_aggiornamento |
+| `articoli_tags` | `*` | `*` | `*` | `*` | M2M tag |
+| `articoli_temi` | `*` | `*` | `*` | `*` | M2M temi |
+| `autori` | `*` | `*` | `*` | — | |
+| `categorie_articoli` | `*` | `*` | `*` | `*` | M2M categorie |
+| `directus_files` | `*` | `*` | `*` | — | Necessario per upload immagini copertina |
+| `numeri_rivista` | `*` | `*` | `*` | — | Per creazione OEL-173 e successive |
+| `tags` | `*` | `*` | `*` | — | READ necessario per M2M display in articoli |
+| `temi` | `*` | `*` | `*` | — | READ necessario per M2M display in articoli |
+| `verticali` | — | `*` | — | — | Solo lettura focus page |
+| `verticale_blocchi` | — | `*` | — | — | Solo lettura |
+| `verticale_blocchi_articoli` | — | `*` | — | — | Solo lettura |
+
+**Categorie e serie:** nascoste globalmente dalla nav (`hidden: true` su `directus_collections`) — API e M2M continuano a funzionare.
+
+### Bug critici trovati e risolti
+
+**1. Nessun accesso a `directus_files`**
+Mancava il permesso CREATE/READ/UPDATE su `directus_files`. La Redazione non poteva fare upload di nessuna immagine. Aggiunto.
+
+**2. Permissions filter bloccava articoli published**
+Il permesso UPDATE aveva un filtro record `{"stato": {"_in": ["draft", "review"]}}` — la Redazione non poteva modificare articoli già published. Su ogni campo compariva il simbolo "divieto". Trovato anche un `validation` identico che impediva di impostare `stato: published`. Entrambi rimossi.
+
+**3. Campi tecnici visibili**
+READ con `fields: *` mostrava slug, lang, wp_id, original_url, articolo_traduzione, cluster_id, umap_x/y/z. Ora READ è ristretto a 27 campi editoriali.
+
+**4. Categorie e Serie nel menu**
+Visibili nella nav laterale ma non utili per uso editoriale. Nascoste globalmente.
+
+### Account di test
+- `redazione-uat@ombreeluci.it` — da eliminare prima del go-live (UAT-CLEANUP)
+- Credenziali in `STATO.md § Riferimenti rapidi`
 
 ---
 
