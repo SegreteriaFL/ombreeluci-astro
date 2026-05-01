@@ -154,14 +154,14 @@ Tutto questo deve essere verde prima del cutover DNS.
 | B-12 | 🟡 | M | Rivalutazione ruoli editoriali per categoria (dopo B-04) |
 | LINK-01 | 🟡 | S | 7 link IT↔EN ambigui + 11 no-match: `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |
 | V-05 | 🟡 | S | 35 articoli Jean Vanier con `tema_label = null`: riassegnare categoria in Directus |
-| UX-19 | 🟢 | S | Rimuovere o proteggere pagine test/debug: `test-lista.astro`, `test-minimal.astro`, `test-no-articles.astro`, `test-status.astro`, `debug/audit-editoriale.astro` |
-| PF-01 | 🔴 | S | Placeholder copertina 4.2MB: ridimensionare a 400px + WebP/AVIF |
-| PF-02 | 🔴 | S | Cache-Control assente su R2: aggiungere `max-age=31536000, immutable` via CF Transform Rule |
+| UX-19 | ✅ | S | Pagine test eliminate (test-lista/minimal/no-articles/status), debug ha già noindex. Dead code `ArticleListRow.astro` eliminato. |
+| PF-01 | ✅ | S | Placeholder copertina: 386 byte SVG, già ottimale — info 4.2MB era obsoleta. |
+| PF-02 | 🔴 | S | Cache-Control assente su R2 (`pub-2251...r2.dev`). Fix: CF Dashboard → Rules → Transform Rules → Modify Response Header → URL `pub-*.r2.dev/*` → add `Cache-Control: public, max-age=31536000, immutable`. Non eseguibile via codice. |
 | DA-02 | 🟢 | S | 16 pull quote non reinserite: 11 articoli con posizione ambigua, inserire a mano in Directus |
 | UAT-CLEANUP | 🔴 | S | Eliminare utente Redazione UAT `redazione-uat@ombreeluci.it` prima del go-live |
-| SEC-01 | 🔴 | S | **Security headers** — `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy` mancanti. Aggiungere via `public/_headers` o Cloudflare Transform Rule. |
+| SEC-01 | ✅ | S | Security headers aggiunti via `public/_headers`: X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy. |
 | NL-FORM | 🔴 | M | **Form newsletter reale** — `/it/newsletter/` ha `action` placeholder (TODO nel codice). Mailchimp uuid `00c5dad63480d9601563b5692`, lid `efd099264d`. |
-| BUG-REGEX | 🟡 | S | **SyntaxError JS su 2 articoli** — `/it/la-costituzione-dei-poveri-recensione` e EN. Parentesi non bilanciate nel `corpo` in Directus. Aprire articolo in Directus e sistemare il testo. |
+| BUG-REGEX | 🟡 | S | Encoding fixato in Directus: 5+1 sequenze `Ã\xa0` (double-encoding UTF-8→Latin-1 di `à/è`) patchate via API (2026-05-01). Se l'errore JS console persiste, causa diversa — indagare. |
 | PERM-DIR | 🔴 | M | **Ruoli e permessi Directus** — profili redazione con accessi limitati non configurati. Prerequisito per UAT reale. |
 
 ---
