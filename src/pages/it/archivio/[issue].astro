@@ -1,44 +1,44 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import IssueContent from '../../../components/IssueContent.astro';
-import { getAllNumeriRivista, getNumeroImageUrl } from '../../../lib/directus';
-import { getAllArticoliBuild } from '../../../lib/articoli-build';
+import { getAllNumeriRivista, getArticoliByNumero, getNumeroImageUrl } from '../../../lib/directus';
 
-export async function getStaticPaths() {
-  const rawNumeri = await getAllNumeriRivista();
-  function numProgressivo(idNumero: string): number {
-    const m = idNumero.match(/(\d+)$/);
-    return m ? parseInt(m[1], 10) : 0;
-  }
-  const numeriOrdinati = [...rawNumeri].sort((a, b) => {
-    const annoA = a.anno_pubblicazione ?? 0;
-    const annoB = b.anno_pubblicazione ?? 0;
-    if (annoA !== annoB) return annoA - annoB;
-    return numProgressivo(a.id_numero) - numProgressivo(b.id_numero);
-  });
-  const allArticoli = await getAllArticoliBuild();
+// SSR: ogni visita legge Directus live — articoli nuovi visibili subito senza rebuild
+export const prerender = false;
 
-  return numeriOrdinati.map((numero, index) => {
-    const issueSlug = numero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-');
-    const prevNumero = index > 0 ? numeriOrdinati[index - 1] : null;
-    const nextNumero = index < numeriOrdinati.length - 1 ? numeriOrdinati[index + 1] : null;
-    const prevSlug = prevNumero ? prevNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
-    const nextSlug = nextNumero ? nextNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
-    const articoliNumero = allArticoli
-      .filter(a => a.numero_rivista?.id === numero.id && a.stato === 'published')
-      .sort((a, b) => {
-        const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
-        const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
-        return tA - tB;
-      });
-    return {
-      params: { issue: issueSlug },
-      props: { numero, prevSlug, nextSlug, articoliNumero },
-    };
-  });
+const { issue } = Astro.params;
+if (!issue) return Astro.redirect('/it/archivio/');
+
+// Carica tutti i numeri per trovare il record corrente e calcolare prev/next
+const rawNumeri = await getAllNumeriRivista();
+
+function numProgressivo(idNumero: string): number {
+  const m = idNumero.match(/(\d+)$/);
+  return m ? parseInt(m[1], 10) : 0;
 }
 
-const { numero, prevSlug, nextSlug, articoliNumero } = Astro.props;
+const numeriOrdinati = [...rawNumeri].sort((a, b) => {
+  const annoA = a.anno_pubblicazione ?? 0;
+  const annoB = b.anno_pubblicazione ?? 0;
+  if (annoA !== annoB) return annoA - annoB;
+  return numProgressivo(a.id_numero) - numProgressivo(b.id_numero);
+});
+
+// Trova il numero corrispondente allo slug richiesto
+const index = numeriOrdinati.findIndex(
+  n => n.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') === issue
+);
+if (index === -1) return Astro.redirect('/it/archivio/');
+
+const numero = numeriOrdinati[index];
+const prevNumero = index > 0 ? numeriOrdinati[index - 1] : null;
+const nextNumero = index < numeriOrdinati.length - 1 ? numeriOrdinati[index + 1] : null;
+const prevSlug = prevNumero ? prevNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
+const nextSlug = nextNumero ? nextNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
+
+// Articoli del numero: query live, sempre freschi
+const articoliNumero = await getArticoliByNumero(numero.id_numero);
+
 const copertinaNumeroUrl = getNumeroImageUrl(numero);
 const testata = numero.tipo === 'ins' ? 'Insieme' : 'Ombre e Luci';
 ---
