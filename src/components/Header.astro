@@ -68,8 +68,7 @@ const archivioLinks = [
   <div class="header-bar">
     <div class="header-inner">
       <a href={homeHref} class="logo-link" aria-label="Ombre e Luci - Home">
-        <img src={logo.src} alt="Ombre e Luci" class="logo logo--dark" />
-        {heroHeader && <img src="/logo-bianco.svg" alt="Ombre e Luci" class="logo logo--white" aria-hidden="true" />}
+        <img src={logo.src} alt="Ombre e Luci" class="logo" />
       </a>
 
       <div class="search-wrap">
@@ -871,69 +870,59 @@ const archivioLinks = [
     background: var(--accent-hover);
   }
 
-  /* ── Hero transparent header ─────────────────────────────────
-     header[data-hero] parte TRASPARENTE da CSS (no flash al caricamento).
-     JS aggiunge .header--scrolled quando il hero esce dal viewport.
-  ──────────────────────────────────────────────────────────── */
-
-  .logo--white { display: none; }
-
-  /* Stato default: trasparente (hero visibile) */
-  .header[data-hero="true"] {
-    background: transparent;
-    box-shadow: none;
-    transition: background 0.35s ease, box-shadow 0.35s ease;
-  }
-  .header[data-hero="true"] .logo--dark  { display: none; }
-  .header[data-hero="true"] .logo--white { display: block; }
-  .header[data-hero="true"] .header-link,
-  .header[data-hero="true"] .menu-trigger { color: #ffffff; }
-  .header[data-hero="true"] .header-link:hover,
-  .header[data-hero="true"] .menu-trigger:hover { color: rgba(255,255,255,0.75); }
-  .header[data-hero="true"] .hamburger-line { background: #ffffff; }
-
-  /* Stato scrolled: opaco bianco */
-  .header[data-hero="true"].header--scrolled {
-    background: #ffffff;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.06);
-  }
-  .header[data-hero="true"].header--scrolled .logo--dark  { display: block; }
-  .header[data-hero="true"].header--scrolled .logo--white { display: none; }
-  .header[data-hero="true"].header--scrolled .header-link,
-  .header[data-hero="true"].header--scrolled .menu-trigger { color: var(--text-color); }
-  .header[data-hero="true"].header--scrolled .header-link:hover,
-  .header[data-hero="true"].header--scrolled .menu-trigger:hover { color: var(--accent-color); }
-  .header[data-hero="true"].header--scrolled .hamburger-line { background: var(--text-color); }
-
-  /* Megamenu aperto: header opaco anche se hero visibile */
-  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) {
-    background: #ffffff;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.06);
-  }
-  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) .logo--dark  { display: block; }
-  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) .logo--white { display: none; }
-  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) .header-link,
-  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) .menu-trigger { color: var(--text-color); }
-  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) .hamburger-line { background: var(--text-color); }
+  /* placeholder — regole hero spostate in is:global sotto */
 </style>
 
 <style is:global>
-  /* LanguageSelector: bianco in stato trasparente hero */
-  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-icon-btn,
-  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-pill {
+  /* ── Hero transparent header ─────────────────────────────────
+     Tutto in is:global per evitare problemi di scoping Astro.
+     header[data-hero] parte TRASPARENTE da CSS (no flash).
+     JS aggiunge .header--scrolled quando hero esce dal viewport.
+  ──────────────────────────────────────────────────────────── */
+
+  /* Transizione fluida tra i due stati */
+  #site-header[data-hero="true"] {
+    transition: background 0.35s ease, box-shadow 0.35s ease;
+  }
+
+  /* ── Stato trasparente (hero visibile) ── */
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /* Logo: filter invert → nero diventa bianco */
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .logo {
+    filter: brightness(0) invert(1);
+  }
+
+  /* Link nav, hamburger */
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .header-link,
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .menu-trigger {
+    color: #ffffff;
+  }
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .hamburger-line {
+    background: #ffffff;
+  }
+
+  /* LanguageSelector */
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .ls-icon-btn,
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .ls-pill {
     color: #ffffff;
     border-color: rgba(255,255,255,0.5);
     background: rgba(255,255,255,0.12);
   }
-  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-btn-icon svg,
-  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-pill-icon svg {
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .ls-btn-icon svg,
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .ls-pill-icon svg {
     fill: #ffffff;
-    stroke: #ffffff;
   }
-  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-btn-lang,
-  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-code {
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .ls-btn-lang,
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .ls-code {
     color: #ffffff;
   }
+
+  /* ── Stato scrolled: opaco bianco (normale) ── */
+  /* (nessuna regola necessaria: il default dell'header è già white) */
 </style>
 
 <script>
