@@ -28,7 +28,8 @@ const FIELDS = [
   'numero_progressivo',
   'anno_pubblicazione',
   'periodo_label',
-  'copertina_url',
+  'copertina',       // M2O → directus_files (nuovi numeri)
+  'copertina_url',   // stringa legacy (numeri precedenti)
   'tipo',
 ].join(',');
 
@@ -55,10 +56,16 @@ async function fetchUltimo() {
   const raw  = json?.data?.[0];
   if (!raw) throw new Error('Nessun numero restituito da Directus');
 
+  // Risolve copertina: M2O file (nuovi) → URL stringa legacy (vecchi numeri)
+  const copBase = process.env.DIRECTUS_URL || 'https://cms.ombreeluci.it';
+  const copertina_url = raw.copertina
+    ? `${copBase}/assets/${raw.copertina}`
+    : (raw.copertina_url ?? null);
+
   // Mappa i nomi Directus → nomi attesi da Header/IssueContent/HomePageContent
   return {
     id_numero:           raw.id_numero,
-    copertina_url:       raw.copertina_url   ?? null,
+    copertina_url,
     titolo_numero:       raw.titolo_tema      ?? raw.display_title ?? null,
     numero_progressivo:  raw.numero_progressivo ?? null,
     anno_pubblicazione:  raw.anno_pubblicazione ?? null,

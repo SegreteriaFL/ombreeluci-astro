@@ -14,6 +14,7 @@ import {
   getAllNumeriRivista,
   getArticoloCopertinaSrc,
   getAutoreImageUrl,
+  getNumeroImageUrl,
   type NumeroRivista,
 } from '../lib/directus';
 
@@ -43,7 +44,7 @@ function mapNumero(n: NumeroRivista): NumeroRecord {
     periodo_label:      n.periodo_label ?? null,
     sommario_lancio:    n.descrizione ?? null,
     seo_description:    null,
-    copertina_url:      n.copertina_url ?? null,
+    copertina_url:      getNumeroImageUrl(n),
   };
 }
 

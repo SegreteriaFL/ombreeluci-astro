@@ -68,10 +68,12 @@ export function getAutoreImageUrl(fileId: string): string {
 }
 
 /**
- * URL copertina del numero rivista: campo Directus `copertina_url` (immagine su R2).
- * Ritorna null se non impostato (es. prima del backfill).
+ * URL copertina del numero rivista.
+ * Priorità: campo M2O `copertina` (Directus files) → `copertina_url` stringa legacy.
+ * I nuovi numeri usano il campo file; i 172 numeri esistenti restano sul legacy URL.
  */
-export function getNumeroImageUrl(numero: { copertina_url?: string | null }): string | null {
+export function getNumeroImageUrl(numero: { copertina?: string | null; copertina_url?: string | null }): string | null {
+  if (numero.copertina) return `${DIRECTUS_URL}/assets/${numero.copertina}`;
   const u = numero.copertina_url?.trim();
   return u || null;
 }
@@ -188,7 +190,9 @@ export interface NumeroRivista {
   descrizione: string | null;
   pdf_archive_url: string | null;
   wp_url: string | null;
-  /** URL assoluto copertina. */
+  /** UUID del file copertina (M2O → directus_files). Campo preferito per nuovi numeri. */
+  copertina: string | null;
+  /** URL stringa legacy (R2 o WP). Fallback per i numeri precedenti all'M2O. */
   copertina_url: string | null;
   /** Es. "Ottobre – Dicembre". */
   periodo_label: string | null;
@@ -438,7 +442,7 @@ export async function getAutoreBySlug(slug: string): Promise<Autore | null> {
 /**
  * Tutti i numeri rivista.
  */
-const NUMERO_FIELDS = 'id,id_numero,display_title,titolo_tema,numero_progressivo,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina_url,periodo_label';
+const NUMERO_FIELDS = 'id,id_numero,display_title,titolo_tema,numero_progressivo,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina,copertina_url,periodo_label';
 
 export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
   const data = await directusFetch<{ data: NumeroRivista[] }>(
