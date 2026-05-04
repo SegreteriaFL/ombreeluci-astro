@@ -105,6 +105,11 @@ function getArticleMeta(a: ArticoloItem) {
 const eighteenMonthsAgo = new Date();
 eighteenMonthsAgo.setMonth(eighteenMonthsAgo.getMonth() - 18);
 
+// Set globale: ogni slug aggiunto non ricompare in nessuna sezione successiva.
+// Ordine di priorità: hero → recenti → diari → testimonianze → esplora.
+const usedSlugs = new Set<string>();
+
+// 1. HERO SLIDER — portanti/strutturali con cover, max 4
 const featuredPool = (() => {
   const withCover = sortedArticles.filter((a) => !!getArticoloCopertinaSrc(a));
   const portanti = withCover.filter((a) => {
@@ -113,41 +118,52 @@ const featuredPool = (() => {
     return (ruolo_editoriale === 'portante' || ruolo_editoriale === 'strutturale') && date >= eighteenMonthsAgo;
   });
   return (portanti.length >= 2 ? portanti : withCover).slice(0, 4);
-})().map((a) => getArticleMeta(a));
+})().map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
-const poolSlugs = new Set(featuredPool.map((m) => m.slug));
-const latestArticles = sortedArticles.filter((a) => !poolSlugs.has(a.slug)).slice(0, 6).map((a) => getArticleMeta(a));
+// 2. RECENTI (sezione sotto hero) — esclude hero
+const latestArticles = sortedArticles
+  .filter((a) => !usedSlugs.has(a.slug))
+  .slice(0, 6)
+  .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
+// 3. DIARI — ultimo articolo per diarista, esclude hero+recenti
 const diaristiAttivi = DIARISTI.filter((d) => d.nome !== 'Davide Passeri');
 const latestPerDiario = diaristiAttivi
   .map((diarista) => {
     const article = allArticles
-      .filter((a) => (a.autore?.nome_completo || '').trim() === diarista.nome)
+      .filter((a) => (a.autore?.nome_completo || '').trim() === diarista.nome && !usedSlugs.has(a.slug))
       .sort((a, b) => {
         const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
         const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
         return tB - tA;
       })[0];
-    return article ? { diarista, meta: getArticleMeta(article) } : null;
+    if (!article) return null;
+    usedSlugs.add(article.slug);
+    return { diarista, meta: getArticleMeta(article) };
   })
   .filter((x): x is NonNullable<typeof x> => x !== null)
   .slice(0, 4);
 
+// 4. TESTIMONIANZE — esclude tutto il sopra
 const testimonianze = sortedArticles
-  .filter((a) => getLabels([], a).formal === 'Testimonianza')
+  .filter((a) => getLabels([], a).formal === 'Testimonianza' && !usedSlugs.has(a.slug))
   .slice(0, 2)
-  .map((a) => getArticleMeta(a));
+  .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
+// 5. ESPLORA — primo articolo non usato per categoria
 const EXPLORE_CATEGORIES = [
   'Fede e Luce', 'Famiglia', 'Spiritualità', 'Cultura',
   'Scuola e educazione', 'Salute', 'Lavoro', 'Personaggi che ispirano',
 ];
 
 const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
-  const article = sortedArticles.find((a) => getMegaclusterForArticle(a).categoria_menu === catLabel);
+  const article = sortedArticles.find(
+    (a) => getMegaclusterForArticle(a).categoria_menu === catLabel && !usedSlugs.has(a.slug)
+  );
   if (!article) return null;
   const slug = getCategorySlugForArticle(article);
   if (!slug) return null;
+  usedSlugs.add(article.slug);
   return { catLabel, slug, meta: getArticleMeta(article) };
 }).filter((x): x is NonNullable<typeof x> => x !== null);
 ---

@@ -112,6 +112,10 @@ const sortedIT = sortByDate(allArticlesIT);
 const eighteenMonthsAgo = new Date();
 eighteenMonthsAgo.setMonth(eighteenMonthsAgo.getMonth() - 18);
 
+// Set globale: ogni slug aggiunto non ricompare in nessuna sezione successiva.
+const usedSlugs = new Set<string>();
+
+// 1. HERO SLIDER
 const featuredPool = (() => {
   const withCover = sortedEN.filter((a) => !!getArticoloCopertinaSrc(a));
   const portanti = withCover.filter((a) => {
@@ -120,31 +124,44 @@ const featuredPool = (() => {
     return (ruolo_editoriale === 'portante' || ruolo_editoriale === 'strutturale') && date >= eighteenMonthsAgo;
   });
   return (portanti.length >= 2 ? portanti : withCover).slice(0, 4);
-})().map((a) => getArticleMeta(a));
+})().map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
-const poolSlugs = new Set(featuredPool.map((m) => m.slug));
-const remaining = sortedEN.filter((a) => !poolSlugs.has(a.slug));
-const latestArticles = remaining.slice(0, 6).map((a) => getArticleMeta(a));
-const closeUpArticles = remaining.slice(6, 10).map((a) => getArticleMeta(a));
+// 2. RECENTI — esclude hero
+const latestArticles = sortedEN
+  .filter((a) => !usedSlugs.has(a.slug))
+  .slice(0, 6)
+  .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
+// 3. CLOSE UP (sezione Da vicino EN, in assenza di diari) — esclude hero+recenti
+const closeUpArticles = sortedEN
+  .filter((a) => !usedSlugs.has(a.slug))
+  .slice(0, 4)
+  .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
+
+// 4. TESTIMONIANZE — esclude tutto il sopra
 const testimonianze = sortedEN
-  .filter((a) => getLabels([], a).formal === 'Testimonianza')
+  .filter((a) => getLabels([], a).formal === 'Testimonianza' && !usedSlugs.has(a.slug))
   .slice(0, 2)
-  .map((a) => getArticleMeta(a));
+  .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
-// IT articles for representative category images (EN articles have known category bug)
+// 5. ESPLORA — articoli IT come immagini rappresentative di categoria (bug categoria EN noto)
+// usedSlugs EN non si applica qui (pool IT separato), ma evitiamo duplicati nel pool IT
+const usedSlugsIT = new Set<string>();
 const EXPLORE_CATEGORIES_IT = [
   'Fede e Luce', 'Famiglia', 'Spiritualità', 'Cultura',
   'Scuola e educazione', 'Salute', 'Lavoro', 'Personaggi che ispirano',
 ];
 
 const exploreItems = EXPLORE_CATEGORIES_IT.map((catLabelIT) => {
-  const article = sortedIT.find((a) => getMegaclusterForArticle(a).categoria_menu === catLabelIT);
+  const article = sortedIT.find(
+    (a) => getMegaclusterForArticle(a).categoria_menu === catLabelIT && !usedSlugsIT.has(a.slug)
+  );
   if (!article) return null;
   const slugIT = getCategorySlugForArticle(article);
   if (!slugIT) return null;
   const enSlug = getCategoriaUrlSlug(slugIT, 'en');
   if (!enSlug) return null;
+  usedSlugsIT.add(article.slug);
   const catLabel = getCategoriaLabel(slugIT, 'en') || catLabelIT;
   return {
     catLabel,

@@ -95,6 +95,80 @@
 
 ---
 
+## § Architettura numeri rivista (2026-05-04)
+
+### Come funziona il ciclo pubblicazione → sito
+
+```
+Redattore pubblica/modifica numeri_rivista in Directus
+  → Directus Flow (d3b1f2a1) → POST CF_DEPLOY_HOOK
+  → CF Pages rebuild (~3 min)
+  → prebuild: node scripts/fetch-static-data.mjs
+      → aggiorna src/data/ultimo-numero.json (con fallback se Directus down)
+  → Astro build: homepage e archivio listing usano Directus live
+  → Sito aggiornato
+```
+
+**Pubblicare articoli** in un numero non richiede rebuild: la pagina del numero è **SSR**.
+
+### Pagine e loro modalità
+
+| Pagina | Modalità | Fonte dati articoli |
+|--------|----------|---------------------|
+| `/it/archivio/` | SSG (rebuild auto) | `getAllNumeriRivista()` live al build |
+| `/it/archivio/[issue]` | **SSR** | `getArticoliByNumeroId(numero.id)` live |
+| `/en/archive/[issue]` | **SSR** | `getArticoliByNumeroId(numero.id)` live |
+| Homepage carousel | SSG (rebuild auto) | `getAllNumeriRivista()` live al build |
+| Header megamenu | SSG (rebuild auto) | `src/data/ultimo-numero.json` (prebuild) |
+
+### Copertina numeri — campo M2O vs URL legacy
+
+- **Nuovi numeri (OEL-173+):** campo `copertina` (M2O → `directus_files`). Il redattore carica l'immagine dal file picker nel form Directus. `getNumeroImageUrl()` restituisce `https://cms.ombreeluci.it/assets/{uuid}`.
+- **Vecchi numeri (OEL-1…172):** campo `copertina_url` (stringa URL). Fallback automatico in `getNumeroImageUrl()`.
+- **Ordine di priorità in `getNumeroImageUrl()`:** `copertina` M2O → `copertina_url` stringa → `null`.
+
+### Deploy Hook CF Pages
+
+- Hook ID: `94f27b2c-a75b-4d3c-b0bc-6268e1eade41`
+- URL: `https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/94f27b2c-...`
+- Salvato in `.env` come `CF_DEPLOY_HOOK`
+- Flow Directus: ID `d3b1f2a1-b140-4d04-a516-13f48924ba30`, operazione `7231841d-6f77-42e3-a7e8-0660b7cc114c`
+
+### Se si rompe qualcosa
+
+**Articoli non appaiono in `/it/archivio/oel-NNN/`:**
+1. Verifica che siano `published` in Directus
+2. Verifica che `numero_rivista` sia impostato (UUID, non stringa `OEL-NNN`)
+3. La pagina è SSR: ricarica, non serve rebuild
+
+**Ultimo numero sbagliato in header:**
+1. Verifica `src/data/ultimo-numero.json` — campo `id_numero`
+2. Lancia manualmente `node scripts/fetch-static-data.mjs` e ricostruisci
+3. Oppure modifica/salva il record in Directus → Flow → rebuild automatico
+
+**Flow non scatta:**
+1. Directus → Settings → Flows → `CF Pages rebuild on numeri_rivista publish` → verifica status Active
+2. Testa manualmente: `curl -X POST $CF_DEPLOY_HOOK`
+3. Se risponde 400 "invalid hook ID": il hook è scaduto → ricrearlo con `scripts/fetch-static-data.mjs` come riferimento
+
+**`getArticoliByNumeroId` restituisce 0 risultati:**
+- Usa filter `[numero_rivista][_eq]={uuid}` — NON `numero_rivista.id_numero` (richiede permessi relazionali)
+- L'UUID del record si trova con: `GET /items/numeri_rivista?filter[id_numero][_eq]=OEL-173&fields=id`
+
+### Deduplicazione articoli homepage
+
+`index.astro` e `en/index.astro` usano un `usedSlugs: Set<string>` globale.
+Ogni articolo è aggiunto al set quando viene assegnato a una sezione; le sezioni successive escludono i già usati.
+
+Ordine di priorità:
+1. Hero slider (`featuredPool`) — portanti/strutturali con cover
+2. Recenti (sotto hero)
+3. Diari (per diarista specifico)
+4. Testimonianze
+5. Esplora (un articolo per categoria)
+
+---
+
 ## Fix recenti (2026-05-04, branch feat/hero-slider)
 
 | Commit | Fix |
