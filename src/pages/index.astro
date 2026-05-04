@@ -88,12 +88,13 @@ const eighteenMonthsAgo = new Date();
 eighteenMonthsAgo.setMonth(eighteenMonthsAgo.getMonth() - 18);
 
 const featuredPool = (() => {
-  const portanti = sortedArticles.filter((a) => {
+  const withCover = sortedArticles.filter((a) => !!getArticoloCopertinaSrc(a));
+  const portanti = withCover.filter((a) => {
     const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(0);
     const { ruolo_editoriale } = getMegaclusterForArticle(a);
     return (ruolo_editoriale === 'portante' || ruolo_editoriale === 'strutturale') && date >= eighteenMonthsAgo;
   });
-  return (portanti.length >= 2 ? portanti : sortedArticles).slice(0, 7);
+  return (portanti.length >= 2 ? portanti : withCover).slice(0, 5);
 })().map((a) => getArticleMeta(a));
 
 const poolSlugs = new Set(featuredPool.map((m) => m.slug));

@@ -872,52 +872,67 @@ const archivioLinks = [
   }
 
   /* ── Hero transparent header ─────────────────────────────────
-     Attivo solo quando data-hero="true" + classe header--transparent
-     aggiunta da IntersectionObserver. Non tocca altre pagine.
+     header[data-hero] parte TRASPARENTE da CSS (no flash al caricamento).
+     JS aggiunge .header--scrolled quando il hero esce dal viewport.
   ──────────────────────────────────────────────────────────── */
+
   .logo--white { display: none; }
 
-  .header[data-hero="true"].header--transparent {
+  /* Stato default: trasparente (hero visibile) */
+  .header[data-hero="true"] {
     background: transparent;
     box-shadow: none;
     transition: background 0.35s ease, box-shadow 0.35s ease;
   }
+  .header[data-hero="true"] .logo--dark  { display: none; }
+  .header[data-hero="true"] .logo--white { display: block; }
+  .header[data-hero="true"] .header-link,
+  .header[data-hero="true"] .menu-trigger { color: #ffffff; }
+  .header[data-hero="true"] .header-link:hover,
+  .header[data-hero="true"] .menu-trigger:hover { color: rgba(255,255,255,0.75); }
+  .header[data-hero="true"] .hamburger-line { background: #ffffff; }
 
-  .header[data-hero="true"].header--transparent .logo--dark  { display: none; }
-  .header[data-hero="true"].header--transparent .logo--white { display: block; }
+  /* Stato scrolled: opaco bianco */
+  .header[data-hero="true"].header--scrolled {
+    background: #ffffff;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+  }
+  .header[data-hero="true"].header--scrolled .logo--dark  { display: block; }
+  .header[data-hero="true"].header--scrolled .logo--white { display: none; }
+  .header[data-hero="true"].header--scrolled .header-link,
+  .header[data-hero="true"].header--scrolled .menu-trigger { color: var(--text-color); }
+  .header[data-hero="true"].header--scrolled .header-link:hover,
+  .header[data-hero="true"].header--scrolled .menu-trigger:hover { color: var(--accent-color); }
+  .header[data-hero="true"].header--scrolled .hamburger-line { background: var(--text-color); }
 
-  .header[data-hero="true"].header--transparent .header-link,
-  .header[data-hero="true"].header--transparent .menu-trigger {
+  /* Megamenu aperto: header opaco anche se hero visibile */
+  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) {
+    background: #ffffff;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+  }
+  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) .logo--dark  { display: block; }
+  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) .logo--white { display: none; }
+  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) .header-link,
+  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) .menu-trigger { color: var(--text-color); }
+  .header[data-hero="true"]:has(.mega-menu[aria-hidden="false"]) .hamburger-line { background: var(--text-color); }
+</style>
+
+<style is:global>
+  /* LanguageSelector: bianco in stato trasparente hero */
+  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-icon-btn,
+  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-pill {
     color: #ffffff;
+    border-color: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.12);
   }
-
-  .header[data-hero="true"].header--transparent .header-link:hover,
-  .header[data-hero="true"].header--transparent .menu-trigger:hover {
-    color: rgba(255, 255, 255, 0.75);
+  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-btn-icon svg,
+  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-pill-icon svg {
+    fill: #ffffff;
+    stroke: #ffffff;
   }
-
-  .header[data-hero="true"].header--transparent .hamburger-line {
-    background: #ffffff;
-  }
-
-  /* Quando megamenu è aperto: ripristina sfondo bianco anche se hero visibile */
-  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) {
-    background: #ffffff;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
-  }
-  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) .logo--dark  { display: block; }
-  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) .logo--white { display: none; }
-  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) .header-link,
-  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) .menu-trigger {
-    color: var(--text-color);
-  }
-  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) .hamburger-line {
-    background: var(--text-color);
-  }
-
-  /* Transizione fluida verso stato opaco */
-  .header[data-hero="true"] {
-    transition: background 0.35s ease, box-shadow 0.35s ease;
+  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-btn-lang,
+  .header[data-hero="true"]:not(.header--scrolled):not(:has(.mega-menu[aria-hidden="false"])) .ls-code {
+    color: #ffffff;
   }
 </style>
 
@@ -1033,30 +1048,31 @@ const archivioLinks = [
   initHeaderChrome();
 
   // ── Hero transparent header ──────────────────────────────────
+  // CSS gestisce stato default (trasparente su data-hero="true").
+  // JS aggiunge header--scrolled quando il hero esce dal viewport.
   let heroObserver: IntersectionObserver | null = null;
 
   function initHeroTransparency() {
     const header = document.getElementById('site-header');
     if (!header || header.getAttribute('data-hero') !== 'true') {
-      // Pagina senza hero: assicura stato normale
-      header?.classList.remove('header--transparent');
+      header?.classList.remove('header--scrolled');
       heroObserver?.disconnect();
       return;
     }
 
     const heroSection = document.querySelector('.home-hero-slider') as Element | null;
     if (!heroSection) {
-      header.classList.remove('header--transparent');
+      header.classList.add('header--scrolled');
       return;
     }
 
-    // Stato iniziale: trasparente (hero visibile al caricamento)
-    header.classList.add('header--transparent');
+    // Rimuovi scrolled all'inizio (hero è visibile)
+    header.classList.remove('header--scrolled');
 
     heroObserver?.disconnect();
     heroObserver = new IntersectionObserver(
       ([entry]) => {
-        header.classList.toggle('header--transparent', entry.isIntersecting);
+        header.classList.toggle('header--scrolled', !entry.isIntersecting);
       },
       { threshold: 0 }
     );
