@@ -119,6 +119,7 @@ const issuePeriodLabel = ultimoNumero
         />
         <div class="hero-slide-overlay" />
         <div class="hero-slide-content">
+          <div class="hero-content-box">
           <!-- ogni .hr (reveal) è l'orizzonte: overflow:hidden crea la riga di taglio -->
           <!-- il figlio .hri parte da translateY(110%) e risale -->
           <div class="hr">
@@ -152,6 +153,7 @@ const issuePeriodLabel = ultimoNumero
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
           </div>
+          </div><!-- /hero-content-box -->
         </div>
       </div>
     ))}
@@ -675,7 +677,7 @@ const issuePeriodLabel = ultimoNumero
   .hero-slide--active .hr--d1 .hri { animation-delay: 0.1s; }
   .hero-slide--active .hr--d2 .hri { animation-delay: 0.22s; }
 
-  /* Contenuto testo — stesso wrapper di header e tab strip */
+  /* Contenuto testo — outer: allineato con header/tabs; inner: max 600px */
   .hero-slide-content {
     position: absolute;
     bottom: 42%;
@@ -686,6 +688,10 @@ const issuePeriodLabel = ultimoNumero
     padding: 0 1.5rem;
     color: #fff;
     z-index: 2;
+  }
+
+  .hero-content-box {
+    max-width: 600px;
   }
 
   /* Meta: avatar + autore + categoria */
@@ -733,9 +739,9 @@ const issuePeriodLabel = ultimoNumero
   /* Titolo */
   .hero-title {
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: clamp(1.6rem, 4vw, 2.8rem);
+    font-size: 2.1875rem; /* 35px */
     font-weight: 900;
-    line-height: 1.15;
+    line-height: 1.5;
     margin: 0 0 1.5rem 0;
     letter-spacing: -0.02em;
   }
