@@ -123,6 +123,22 @@ Quando si arriverà a ES/FR: lo slug URL sarà sempre lo slug pulito senza suffi
 
 ---
 
+## REGOLA overflow-x — architettura anti-scroll-orizzontale
+
+**Stato attuale (2026-05-01):**
+```css
+html  { overflow-x: hidden; } /* legacy iOS Safari <16: evita scroll orizzontale della pagina */
+body  { overflow-x: clip;   } /* secondo livello: clip non crea nuovo scroll container, non rompe position:fixed */
+```
+
+`overflow-x: hidden` su `html` era necessario per iOS Safari <16 (`clip` non supportato). Il problema storico: `hidden` su `html` crea un nuovo scroll container, il che può rompere `position: sticky`. L'header usa già `position: fixed` (non sticky), quindi il problema sticky non si applica. `clip` su `body` è il fix moderno: stessa funzione, senza side effect sullo scroll context.
+
+**Non toccare questi due valori senza capire:**
+- Rimuovere `html { overflow-x: hidden }` può far ricomparire lo scroll orizzontale su iOS <16
+- `body { overflow-x: clip }` fa sì che elementi con margini negativi o transform non fuoriescano dal viewport senza creare un nuovo scroll container
+
+---
+
 ## REGOLA CSS — mai toccare global.css senza grep preventivo
 
 **Prima di aggiungere qualsiasi classe a `global.css`, fare grep su tutta la codebase per verificare che quella classe non esista già in altri componenti con stili diversi.**

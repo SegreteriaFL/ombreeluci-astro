@@ -11,12 +11,13 @@ interface Props {
   pathname?: string;
   alternateArticleUrl?: string | null;
   lang?: 'it' | 'en';
+  heroHeader?: boolean;
 }
 // pathname default a Astro.url.pathname: Header funziona correttamente anche
 // quando usato da BaseLayout senza prop esplicita.
 // lang: se passato esplicitamente (es. da BaseLayout su articolo EN), usa quello;
 // altrimenti inferisce da pathname (backward compat per pagine non-articolo).
-const { pathname = Astro.url.pathname, alternateArticleUrl = null, lang: langProp } = Astro.props;
+const { pathname = Astro.url.pathname, alternateArticleUrl = null, lang: langProp, heroHeader } = Astro.props;
 const lang = langProp ?? getLangFromUrl(pathname);
 
 // Ultimo numero
@@ -63,11 +64,12 @@ const archivioLinks = [
 ];
 ---
 
-<header class="header" id="site-header" data-pagefind-ignore>
+<header class="header" id="site-header" data-pagefind-ignore data-hero={heroHeader ? 'true' : undefined}>
   <div class="header-bar">
     <div class="header-inner">
       <a href={homeHref} class="logo-link" aria-label="Ombre e Luci - Home">
-        <img src={logo.src} alt="Ombre e Luci" class="logo" />
+        <img src={logo.src} alt="Ombre e Luci" class="logo logo--dark" />
+        {heroHeader && <img src="/logo-bianco.svg" alt="Ombre e Luci" class="logo logo--white" aria-hidden="true" />}
       </a>
 
       <div class="search-wrap">
@@ -868,6 +870,55 @@ const archivioLinks = [
   .mobile-search-submit:hover {
     background: var(--accent-hover);
   }
+
+  /* ── Hero transparent header ─────────────────────────────────
+     Attivo solo quando data-hero="true" + classe header--transparent
+     aggiunta da IntersectionObserver. Non tocca altre pagine.
+  ──────────────────────────────────────────────────────────── */
+  .logo--white { display: none; }
+
+  .header[data-hero="true"].header--transparent {
+    background: transparent;
+    box-shadow: none;
+    transition: background 0.35s ease, box-shadow 0.35s ease;
+  }
+
+  .header[data-hero="true"].header--transparent .logo--dark  { display: none; }
+  .header[data-hero="true"].header--transparent .logo--white { display: block; }
+
+  .header[data-hero="true"].header--transparent .header-link,
+  .header[data-hero="true"].header--transparent .menu-trigger {
+    color: #ffffff;
+  }
+
+  .header[data-hero="true"].header--transparent .header-link:hover,
+  .header[data-hero="true"].header--transparent .menu-trigger:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .header[data-hero="true"].header--transparent .hamburger-line {
+    background: #ffffff;
+  }
+
+  /* Quando megamenu è aperto: ripristina sfondo bianco anche se hero visibile */
+  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) {
+    background: #ffffff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  }
+  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) .logo--dark  { display: block; }
+  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) .logo--white { display: none; }
+  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) .header-link,
+  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) .menu-trigger {
+    color: var(--text-color);
+  }
+  .header[data-hero="true"].header--transparent:has(.mega-menu[aria-hidden="false"]) .hamburger-line {
+    background: var(--text-color);
+  }
+
+  /* Transizione fluida verso stato opaco */
+  .header[data-hero="true"] {
+    transition: background 0.35s ease, box-shadow 0.35s ease;
+  }
 </style>
 
 <script>
@@ -980,4 +1031,38 @@ const archivioLinks = [
 
   document.addEventListener('astro:page-load', initHeaderChrome);
   initHeaderChrome();
+
+  // ── Hero transparent header ──────────────────────────────────
+  let heroObserver: IntersectionObserver | null = null;
+
+  function initHeroTransparency() {
+    const header = document.getElementById('site-header');
+    if (!header || header.getAttribute('data-hero') !== 'true') {
+      // Pagina senza hero: assicura stato normale
+      header?.classList.remove('header--transparent');
+      heroObserver?.disconnect();
+      return;
+    }
+
+    const heroSection = document.querySelector('.home-hero-slider') as Element | null;
+    if (!heroSection) {
+      header.classList.remove('header--transparent');
+      return;
+    }
+
+    // Stato iniziale: trasparente (hero visibile al caricamento)
+    header.classList.add('header--transparent');
+
+    heroObserver?.disconnect();
+    heroObserver = new IntersectionObserver(
+      ([entry]) => {
+        header.classList.toggle('header--transparent', entry.isIntersecting);
+      },
+      { threshold: 0 }
+    );
+    heroObserver.observe(heroSection);
+  }
+
+  document.addEventListener('astro:page-load', initHeroTransparency);
+  initHeroTransparency();
 </script>

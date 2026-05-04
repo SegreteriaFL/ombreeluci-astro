@@ -91,19 +91,19 @@
 | `3930532` | ArticlePageLayout: reset `margin:0; border-radius:0` su `.article-content .leggi-anche img` |
 | `04bfcf0a` | TAG-03: `/tag/[slug]` IT ora filtra `lang=it` — prima mostrava IT+EN insieme |
 
-**Scroll orizzontale mobile**: `overflow-x:hidden` su `html` è deployato. Da verificare su altri device prima di confermare chiuso.
+**Scroll orizzontale mobile**: doppia protezione deployata — `overflow-x:hidden` su `html` (legacy) + `overflow-x:clip` su `body` (MOBILE-01 `d9883183`; `clip` non crea nuovo scroll context, non rompe `position:fixed`). Da verificare su device fisici.
 
 ---
 
 ## Prossima azione immediata
 
-**VERT-01 — 2 pagine Focus mancanti** (editoriale). Mancano `studiosi-educatori-e-attivisti-ombre-e-luci` e `catechesi-e-disabilita`. Fornire testo intro e lista articoli (come per le 5 già create). Script `scripts/create-verticali.py` pronto per il riuso.
+**VERT-01 — 2 pagine Focus mancanti** (editoriale). Mancano `studiosi-educatori-e-attivisti-ombre-e-luci` e `catechesi-e-disabilita`. Fornire testo intro e lista articoli. Script `scripts/create-verticali.py` pronto.
 
-**CF Pages build** — triggerare deploy per pubblicare le 5 nuove verticali su staging e verificare visivamente.
+**SEARCH-01 / B-13 — Algolia** (blocker pre-lancio). Da testare sistematicamente su staging (vedi checklist § Algolia). Manca ALGOLIA-05 (webhook sync automatico).
 
-**BUG-HEADER — Header scroll con megamenu aperto** (UX critico). Quando il megamenu è aperto e si scrolla, l'header (`position:sticky`) scorre via mentre il megamenu (`position:fixed`) resta fisso. Causa: `overflow-x:hidden` su `html` cambia il scroll container su iOS Safari, rompendo `sticky`. Fix: cambiare header a `position:fixed` + `padding-top:var(--header-height)` su `body` in `global.css`. Vedi § Bug Header.
+**NL-FORM** — form newsletter reale con Mailchimp (uuid `00c5dad63480d9601563b5692`, lid `efd099264d`).
 
-**SEARCH-01 / B-13 — Algolia** (blocker pre-lancio). Da testare seriamente su staging (vedi checklist § Algolia). Manca ALGOLIA-05 (webhook sync automatico).
+**PF-02** — Cache-Control su R2 via CF Transform Rule (istruzioni nel backlog).
 
 ---
 
@@ -162,7 +162,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 | SEC-01 | ✅ | S | Security headers aggiunti via `public/_headers`: X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy. |
 | NL-FORM | 🔴 | M | **Form newsletter reale** — `/it/newsletter/` ha `action` placeholder (TODO nel codice). Mailchimp uuid `00c5dad63480d9601563b5692`, lid `efd099264d`. |
 | BUG-REGEX | 🟡 | S | Encoding fixato in Directus: 5+1 sequenze `Ã\xa0` (double-encoding UTF-8→Latin-1 di `à/è`) patchate via API (2026-05-01). Se l'errore JS console persiste, causa diversa — indagare. |
-| PERM-DIR | 🔴 | M | **Ruoli e permessi Directus** — profili redazione con accessi limitati non configurati. Prerequisito per UAT reale. |
+| PERM-DIR | ✅ | M | Permessi ruolo Redazione configurati e documentati (commit `f326b0ea`). UAT verifica ancora da eseguire (B-06). |
 
 ---
 
@@ -336,6 +336,9 @@ Visibili nella nav laterale ma non utili per uso editoriale. Nascoste globalment
 |--------|-----|
 | `01456a13` | **B-14** refactor(routing): prefisso `/it/` su tutte le route IT — 20 file spostati in `src/pages/it/`, import path corretti, redirect root→/it/ in astro.config.mjs, sitemap aggiornata, CLAUDE.md aggiornata |
 | `aeb42553` | **MOBILE-01** fix(mobile): iOS Safari scroll-lock megamenu (position:fixed+savedScrollY), LanguageSelector breakpoint 767→768px, var(--header-height,72px) fallback, overflow-wrap su .article-content |
+| `f326b0ea` | **B-06/PERM-DIR** docs(directus): audit e fix permessi ruolo Redazione — directus_files aggiunto, filter stato su UPDATE rimosso, READ limitato a 27 campi, categorie/serie nascoste |
+| `546aeeca` | **SEC-01/UX-19** fix: public/_headers security headers, pagine test eliminate, dead code ArticleListRow rimosso, BUG-REGEX encoding fixato in Directus, PF-01 chiuso |
+| `d9883183` | fix(mobile): `body { overflow-x: clip }` aggiunto come secondo livello anti-scroll-orizzontale; `white-space:nowrap` rimosso da `.author-row` in ArticleCard+ArticoliRullo (causava overflow su card strette) |
 | `2d8cba4e` | feat(focus): `FocusListingContent.astro` + route `/it/focus/index.astro` + `/en/focus/index.astro` — listing delle verticali live per entrambe le lingue. CLAUDE.md aggiornato con nuova riga nella tabella componenti condivisi. |
 | `4a6f0b6c` | feat(focus): 4 hero cover image specifiche per le pagine Focus caricate in Directus e nel repo (`public/images/focus-cover-*.jpg`). Script `scripts/create-verticali.py` committato. |
 | Directus | Populate 5 nuove verticali via API: Autismo (ID=3), Noi papà (ID=4), Aktion T4 (ID=5), Cinema e disabilità (ID=6), Ciao Stefano (ID=7). 43 articoli collegati complessivamente. Hero immagini assegnate. |

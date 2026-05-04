@@ -70,10 +70,12 @@ function getArticleMeta(a: ArticoloItem) {
   const { categoria_menu } = getMegaclusterForArticle(a);
   const image = getArticoloCopertinaSrc(a);
   const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+  const authorSlug = (a.autore as any)?.slug ?? '';
   return {
     slug: a.slug,
     title: a.titolo || 'Titolo mancante',
     author: a.autore?.nome_completo || 'Autore sconosciuto',
+    authorAvatar: autoriById[authorSlug]?.foto_url ?? null,
     date,
     image,
     sommario: a.sottotitolo?.trim() || undefined,
@@ -138,6 +140,7 @@ const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
   noindex={true}
   bodyClass="home-page"
   alternateArticleUrl="/en/"
+  heroHeader={true}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify([

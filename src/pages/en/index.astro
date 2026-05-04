@@ -11,7 +11,7 @@ import {
 } from '../../config/taxonomy.js';
 import numeriData from '../../data/numeri_consolidati.json';
 import { getAllArticoliBuild } from '../../lib/articoli-build';
-import { getArticoloCopertinaSrc } from '../../lib/directus';
+import { getArticoloCopertinaSrc, getAllAutori, getAutoreImageUrl } from '../../lib/directus';
 
 type NumeroRecord = {
   id_numero: string;
@@ -47,6 +47,14 @@ const allArticlesRaw = await getAllArticoliBuild();
 const allArticlesEN = allArticlesRaw.filter((a) => a.lang === 'en');
 const allArticlesIT = allArticlesRaw.filter((a) => a.lang !== 'en');
 
+const allAutori = await getAllAutori();
+const autoriById: Record<string, { foto_url?: string }> = Object.fromEntries(
+  allAutori.map((a) => [
+    a.slug,
+    { foto_url: a.foto?.id ? getAutoreImageUrl(a.foto.id) : undefined },
+  ])
+);
+
 type ArticoloItem = (typeof allArticlesRaw)[0];
 
 function sortByDate(articles: ArticoloItem[]) {
@@ -64,10 +72,12 @@ function getArticleMeta(a: ArticoloItem) {
   const { categoria_menu } = getMegaclusterForArticle(a);
   const image = getArticoloCopertinaSrc(a);
   const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
+  const authorSlug = (a.autore as any)?.slug ?? '';
   return {
     slug: a.slug,
     title: a.titolo || 'Untitled',
     author: a.autore?.nome_completo || 'Unknown author',
+    authorAvatar: autoriById[authorSlug]?.foto_url ?? null,
     date,
     image,
     sommario: a.sottotitolo?.trim() || undefined,
@@ -130,6 +140,7 @@ const exploreItems = EXPLORE_CATEGORIES_IT.map((catLabelIT) => {
   noindex={true}
   bodyClass="home-page"
   alternateArticleUrl="/"
+  heroHeader={true}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify([

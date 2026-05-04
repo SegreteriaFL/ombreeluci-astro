@@ -43,9 +43,11 @@ interface Props {
   alternateArticleUrl?: string | null;
   /** Path corrente (nav attiva, language selector); default: URL della richiesta */
   pathname?: string;
+  /** Header trasparente sopra hero slider (solo homepage) */
+  heroHeader?: boolean;
 }
 
-const { bodyClass, alternateArticleUrl = null, pathname: pathnameProp, ...headProps } = Astro.props;
+const { bodyClass, alternateArticleUrl = null, pathname: pathnameProp, heroHeader, ...headProps } = Astro.props;
 const pathname = pathnameProp ?? Astro.url.pathname;
 const lang = headProps.lang ?? 'it';
 ---
@@ -57,7 +59,7 @@ const lang = headProps.lang ?? 'it';
     </BaseHead>
   </head>
   <body class:list={[bodyClass]}>
-    <Header lang={lang} pathname={pathname} alternateArticleUrl={alternateArticleUrl} />
+    <Header lang={lang} pathname={pathname} alternateArticleUrl={alternateArticleUrl} heroHeader={heroHeader} />
     <slot />
     <Footer lang={lang} pathname={pathname} />
   </body>
