@@ -95,7 +95,41 @@
 
 ---
 
+## Fix recenti (2026-05-04, branch feat/hero-slider)
+
+| Commit | Fix |
+|--------|-----|
+| `f193558e` | **HERO-01** feat: hero slider fullscreen + header trasparente homepage |
+| `54f6965e` | fix: 6 fix post-review (logo filter, is:global CSS, tab Nectar-style, 4 articoli, cover reali) |
+| `b509e923` | fix: 4 articoli, animazione fade-up, titolo Raleway 900 |
+| `0792a3f3` | fix: struttura Nectar esatta — li diretto, ::before/::after su li |
+| `bee3cb7c` | feat: ripristina sezione tagline+featured+recenti sotto hero slider |
+| `9ef18bd7` | fix: timer globale + astro:page-load — no double setInterval |
+| `e924436f` | feat: text reveal dall'orizzonte (translateY 110%→0) |
+| `486ad937` | fix: ls-code--active scuro su hero trasparente |
+| `7f408a46` | fix: content box max-width 600px, titolo 35px/lh 1.5 |
+| cleanup | refactor: rinomina .hr/.hri → .hero-reveal/.hero-reveal-inner; Raleway 900 scaricato |
+
+### § Hero Slider — architettura (2026-05-04)
+
+| Componente | Dettaglio |
+|---|---|
+| Route | `/` e `/en/` (prop `heroHeader={true}` su BaseLayout) |
+| Componente | `HomePageContent.astro` — sezione `home-hero-slider` |
+| Slide | 4 articoli con cover reale da `featuredPool`, autorotate 5s |
+| Tab strip | Struttura Nectar: `<li>` diretti, `::before` track + `::after` fill 4.95s linear |
+| Animazione testo | Text reveal: `.hero-reveal` (overflow:hidden) + `.hero-reveal-inner` (translateY 110%→0) |
+| Header trasparente | CSS-first su `[data-hero="true"]`, JS aggiunge `.header--scrolled` a scroll |
+| Logo | `filter: brightness(0) invert(1)` su logo nero — no asset aggiuntivi |
+| LanguageSelector | Bianco in stato trasparente, active code con pill bianco+testo scuro |
+| Timer bug fix | `_heroTimer` module-level + `astro:page-load` — no double setInterval con View Transitions |
+| Font | Raleway 900 vero (`raleway-900-latin.woff2`, 22KB) aggiunto a `global.css` |
+
+---
+
 ## Prossima azione immediata
+
+**ART-TYPO** — fix tipografia pagina articolo (titolo 900, sottotitolo no-italic, badge categoria).
 
 **VERT-01 — 2 pagine Focus mancanti** (editoriale). Mancano `studiosi-educatori-e-attivisti-ombre-e-luci` e `catechesi-e-disabilita`. Fornire testo intro e lista articoli. Script `scripts/create-verticali.py` pronto.
 

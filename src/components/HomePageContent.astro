@@ -120,10 +120,10 @@ const issuePeriodLabel = ultimoNumero
         <div class="hero-slide-overlay" />
         <div class="hero-slide-content">
           <div class="hero-content-box">
-          <!-- ogni .hr (reveal) è l'orizzonte: overflow:hidden crea la riga di taglio -->
-          <!-- il figlio .hri parte da translateY(110%) e risale -->
-          <div class="hr">
-            <div class="hri hero-slide-meta">
+          <!-- ogni .hero-reveal (reveal) è l'orizzonte: overflow:hidden crea la riga di taglio -->
+          <!-- il figlio .hero-reveal-inner parte da translateY(110%) e risale -->
+          <div class="hero-reveal">
+            <div class="hero-reveal-inner hero-slide-meta">
               {meta.authorAvatar
                 ? <img src={meta.authorAvatar} alt="" class="hero-avatar" loading={i === 0 ? 'eager' : 'lazy'} width="40" height="40" />
                 : <span class="hero-avatar hero-avatar--placeholder">{meta.author.charAt(0)}</span>
@@ -136,17 +136,17 @@ const issuePeriodLabel = ultimoNumero
               </span>
             </div>
           </div>
-          <div class="hr hr--d1">
-            <h2 class="hri hero-title">
+          <div class="hero-reveal hero-reveal--d1">
+            <h2 class="hero-reveal-inner hero-title">
               <a href={`${articleBasePath}/${meta.slug}`} class="hero-title-link" tabindex={i !== 0 ? -1 : undefined}>
                 {meta.title}
               </a>
             </h2>
           </div>
-          <div class="hr hr--d2">
+          <div class="hero-reveal hero-reveal--d2">
             <a
               href={`${articleBasePath}/${meta.slug}`}
-              class="hri hero-cta"
+              class="hero-reveal-inner hero-cta"
               tabindex={i !== 0 ? -1 : undefined}
             >
               {lang === 'en' ? 'Read Article' : 'Leggi l\'articolo'}
@@ -651,31 +651,31 @@ const issuePeriodLabel = ultimoNumero
   }
 
   /* ── Text reveal: "risale dall'orizzonte" ───────────────────
-     .hr  = wrapper con overflow:hidden (la riga di taglio)
-     .hri = elemento che parte sotto e risale
+     .hero-reveal  = wrapper con overflow:hidden (la riga di taglio)
+     .hero-reveal-inner = elemento che parte sotto e risale
   ─────────────────────────────────────────────────────────── */
   @keyframes heroRiseUp {
     from { transform: translateY(110%); }
     to   { transform: translateY(0); }
   }
 
-  .hr {
+  .hero-reveal {
     overflow: hidden;
     display: block;
   }
 
-  .hri {
+  .hero-reveal-inner {
     transform: translateY(110%); /* sotto l'orizzonte di default */
   }
 
-  /* Quando lo slide è attivo: ogni .hri risale */
-  .hero-slide--active .hri {
+  /* Quando lo slide è attivo: ogni .hero-reveal-inner risale */
+  .hero-slide--active .hero-reveal-inner {
     animation: heroRiseUp 0.75s cubic-bezier(0.22, 1, 0.36, 1) forwards;
   }
 
   /* Delay staggerato per meta → titolo → CTA */
-  .hero-slide--active .hr--d1 .hri { animation-delay: 0.1s; }
-  .hero-slide--active .hr--d2 .hri { animation-delay: 0.22s; }
+  .hero-slide--active .hero-reveal--d1 .hero-reveal-inner { animation-delay: 0.1s; }
+  .hero-slide--active .hero-reveal--d2 .hero-reveal-inner { animation-delay: 0.22s; }
 
   /* Contenuto testo — outer: allineato con header/tabs; inner: max 600px */
   .hero-slide-content {
