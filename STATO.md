@@ -1,13 +1,13 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-01 (main — B-14 routing /it/; MOBILE-01 mobile fix; Directus audit permessi Redazione completato; B-06 chiuso)
+**Ultimo aggiornamento:** 2026-05-04 (main — hero slider; ART-TYPO; numeri rivista live+SSR; homepage deduplicazione; Algolia fix post-test)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
 
 ---
 
-## Stato attuale verificato (aggiornato 2026-04-27)
+## Stato attuale verificato (aggiornato 2026-05-04)
 
 | Verifica | Esito |
 |----------|-------|
@@ -22,8 +22,8 @@
 | Lista autori IT `/it/autori/` | ✅ 200 (B-14) |
 | Archivio IT `/it/archivio/` | ✅ 200, `ArchivioContent.astro` (B-14) |
 | Archivio EN `/en/archive/` | ✅ 200, `ArchivioContent.astro` lang=en |
-| Numero IT `/it/archivio/oel-171/` | ✅ 200, `IssueContent.astro` (B-14) |
-| Numero EN `/en/archive/oel-171/` | ✅ 200, `IssueContent.astro` lang=en |
+| Numero IT `/it/archivio/oel-173/` | ✅ 200, SSR live, articoli aggiornati senza rebuild |
+| Numero EN `/en/archive/oel-173/` | ✅ 200, SSR live, articoli EN |
 | Chi siamo IT `/it/chi-siamo/` | ✅ 200, `ChiSiamoContent.astro` (B-14) |
 | About EN `/en/about/` | ✅ 200, `ChiSiamoContent.astro` lang=en |
 | Sostienici IT `/it/sostienici/` | ✅ 200, `SostienicContent.astro` (B-14) |
@@ -67,6 +67,21 @@
 | Slug EN sbagliati (`family`, `projects`…) | **0** | Pipeline AI ha copiato correttamente lo slug IT. |
 
 **`/en/category/projects/`**: 235 EN con `categoria_menu = 'progetti'`, tutti published. Le pagine categoria EN sono ora popolate.
+
+---
+
+## Fix recenti (2026-05-04)
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| `f193558e`→`cf0eb4e6` | **HERO-01** | Hero slider fullscreen homepage IT+EN: 4 slide, autorotate WAAPI, tab strip Nectar-style, header trasparente CSS-first, text reveal animazione, Raleway 900 reale |
+| `57a35da2` | **ART-TYPO** | Pagina articolo: titolo Raleway 900, sottotitolo Raleway no-italic 1.5rem, badge categoria all-caps |
+| `0ff6ae21` | **NUMERI-01** | `fetch-static-data.mjs` prebuild: fetcha ultimo numero da Directus con fallback; `numeri_consolidati.json` rimosso da homepage, sostituito con `getAllNumeriRivista()` |
+| `63494dd2` | **NUMERI-02** | Campo M2O `copertina` su `numeri_rivista` reso visibile; `getNumeroImageUrl()` priorità M2O→URL; Flow Directus `d3b1f2a1` creato per rebuild automatico CF Pages |
+| `ebb69112` | **NUMERI-03** | Pagine `[issue].astro` IT+EN convertite da SSG a **SSR**: articoli pubblicati visibili immediatamente senza rebuild |
+| `1a8408e2` | **NUMERI-04** | `getArticoliByNumeroId(uuid)`: filter diretto per UUID (no deep relazionale → no FORBIDDEN) |
+| `ffe8055d` | **HOME-DEDUP** | Deduplicazione globale homepage: `usedSlugs` Set con priorità hero→recenti→diari→testimonianze→esplora |
+| `f7a74710` | **SEARCH-FIX** | EN search language switcher mobile fix; categorie mancanti CATEGORIA_LABELS; `id_numero` in searchableAttributes `oel_numeri`; issueUrl corretto `/it/archivio/`; re-indicizzazione 7508 record |
 
 ---
 
@@ -203,11 +218,9 @@ Ordine di priorità:
 
 ## Prossima azione immediata
 
-**ART-TYPO** — fix tipografia pagina articolo (titolo 900, sottotitolo no-italic, badge categoria).
+**ALGOLIA-05** — webhook Directus→Algolia automatico. Senza questo ogni pubblicazione richiede `node scripts/algolia/index-all.mjs` a mano.
 
 **VERT-01 — 2 pagine Focus mancanti** (editoriale). Mancano `studiosi-educatori-e-attivisti-ombre-e-luci` e `catechesi-e-disabilita`. Fornire testo intro e lista articoli. Script `scripts/create-verticali.py` pronto.
-
-**SEARCH-01 / B-13 — Algolia** (blocker pre-lancio). Da testare sistematicamente su staging (vedi checklist § Algolia). Manca ALGOLIA-05 (webhook sync automatico).
 
 **NL-FORM** — form newsletter reale con Mailchimp (uuid `00c5dad63480d9601563b5692`, lid `efd099264d`).
 
@@ -232,7 +245,7 @@ Il cutover avviene quando tutti i blockers sono verdi.
 | B-09 | → post-lancio | Sysadmin | UptimeRobot monitoring |
 | B-10 | → post-lancio | Sysadmin | Slack alert build |
 | B-11 | N/A | — | Iubenda ownerName `fedeeluce.it` è corretto (editore legale) |
-| B-13 | 🟡 | Dev | **Ricerca Algolia** — implementato (ALGOLIA-01/02/03/04, 2026-04-26). Dropdown header + pagina risultati funzionanti su staging. **Da testare seriamente prima del go-live** (vedi § Algolia sotto). Manca ALGOLIA-05 (webhook sync automatico). |
+| B-13 | ✅ | Dev | **Ricerca Algolia** — testata sistematicamente (2026-05-04). Autocomplete IT/EN ✅, pagina cerca IT/EN ✅, filtri tradotti ✅, numeri ricercabili ✅. Manca solo ALGOLIA-05 (webhook auto-sync, non blocca il lancio). |
 | B-14 | ✅ | Dev | **URL-IT-02** — prefisso `/it/` su tutte le route IT (commit `01456a13`). Redirect root→/it/ in astro.config.mjs. |
 | B-15 | 🔴 | Dev | **noindex SWEEP — ULTIMA AZIONE PRE-CUTOVER** ⚠️ **NON toccare finché il sito è su staging.** Il `noindex={true}` su tutte le pagine è intenzionale e protegge lo staging dall'indicizzazione. Rimuoverlo prima del cutover significherebbe indicizzare lo staging su Google. Questo è l'ULTIMO commit da fare, immediatamente prima di cambiare il DNS — contestualmente all'apertura di `robots.txt`. Vedere § SEO per lista completa dei file da modificare. |
 | B-16 | 🔴 | Dev | **Sitemap completa pre-lancio** — `/sitemap.xml` attuale copre solo IT static + categorie + articoli IT. Mancano: articoli EN, numeri archivio, pagine autore, pagine EN. Aggiornare `sitemap.xml.ts` e registrare in Search Console al cutover. |
@@ -254,8 +267,8 @@ Tutto questo deve essere verde prima del cutover DNS.
 | DIARI-EN | ✅ | M | `/en/diaries/` e `/en/diaries/[diario]` — `DiariContent.astro` + `DiarioContent.astro`. Merge `feat/static-pages-en`. |
 | TAG-03 | ✅ | S | `/tag/[slug]` ora filtra `lang=it`; `/en/tag/[slug]` filtra `lang=en`. Fix 2026-04-27. |
 | TAG-REC | 🟡 | M | Filtro per tipo dentro `/rubriche/recensioni/`: libri, cinema, teatro, tv. Architettura: tag Directus + filtro client-side dentro RubricaPageContent (NON sub-URL). Pre-requisito: verificare che le recensioni abbiano già tag `cinema`/`libri`/`teatro`/`tv` in Directus — se no, lavoro editoriale. Post-lancio. |
-| SEARCH-01 | 🟡 | L | **Ricerca Algolia** — ALGOLIA-01/02/03/04 completati (2026-04-26). Indice popolato (7502 record). Autocomplete header + InstantSearch `/cerca` e `/en/search` deployati su main. **Richiede test sistematico pre-lancio** — vedi § Algolia. Manca ALGOLIA-05 (webhook). |
-| ALGOLIA-05 | 🔴 | M | **Webhook sync Directus→Algolia** — pubblicare/modificare un articolo in Directus deve aggiornare automaticamente l'indice Algolia. Senza questo, ogni re-indicizzazione è manuale (`node scripts/algolia/index-all.mjs`). Da fare prima del go-live. |
+| SEARCH-01 | ✅ | L | **Ricerca Algolia** — testata sistematicamente (2026-05-04). 7508 record, fix post-test applicati (URL numeri, traduzioni filtri EN, id_numero ricercabile). Chiuso. |
+| ALGOLIA-05 | 🔴 | M | **Webhook sync Directus→Algolia** — pubblicare/modificare articolo in Directus non aggiorna l'indice automaticamente. Workaround: `node scripts/algolia/index-all.mjs`. Non blocca lancio ma deve essere fatto presto dopo. |
 | VERT-01 | 🟡 | L | **Focus pages** — schema Directus, componenti e route `/it/focus/[slug]` + `/en/focus/[slug]` live. 6/8 pagine populate (Mariangela, Autismo, Noi papà, Aktion T4, Cinema, Ciao Stefano). Restano: `studiosi-educatori-e-attivisti-ombre-e-luci` e `catechesi-e-disabilita`. Verifica visiva staging + megamenu link ancora aperti. Vedi § VERT-01. |
 | VERT-LISTING | ✅ | S | **Listing `/it/focus/` e `/en/focus/`** — live su main (commit `2d8cba4e`). `FocusListingContent.astro` componente condiviso IT/EN. |
 | VERT-SEARCH | 🟡 | M | **Focus nella ricerca Algolia** — le pagine focus non sono indicizzate. Aggiungere allo script come tipo `focus` con titolo, intro (HTML stripped), slug IT/EN. Prerequisito: VERT-01 con ≥4 pagine stabili — **ora soddisfatto (6 pagine)**. Fare dopo VERT-01 completo (8/8). |
@@ -296,19 +309,34 @@ Tutto questo deve essere verde prima del cutover DNS.
 
 ---
 
-## Algolia — stato implementazione (2026-04-26)
+## Algolia — stato implementazione (aggiornato 2026-05-04)
 
 ### Architettura
 
 | Componente | File | Stato |
 |---|---|---|
-| Script indicizzazione | `scripts/algolia/index-all.mjs` | ✅ funzionante |
-| Indice articoli | `oel_articoli` | ✅ 6945 record (IT+EN, filter per `lang`) |
-| Indice autori | `oel_autori` | ✅ 353 record |
-| Indice numeri | `oel_numeri` | ✅ 204 record |
-| Autocomplete header | `src/components/AutocompleteWidget.astro` | ✅ deployato, da testare |
-| InstantSearch `/cerca` | `src/components/CercaContent.astro` | ✅ deployato, da testare |
-| Webhook sync automatico | — | 🔴 **non implementato** |
+| Script indicizzazione | `scripts/algolia/index-all.mjs` | ✅ funzionante — ri-indicizzare con `node scripts/algolia/index-all.mjs` |
+| Indice articoli | `oel_articoli` | ✅ 6949 record (IT+EN, filter per `lang`) |
+| Indice autori | `oel_autori` | ✅ 354 record |
+| Indice numeri | `oel_numeri` | ✅ 205 record — `id_numero` ora ricercabile, URL corretti `/it/archivio/` |
+| Autocomplete header | `src/components/AutocompleteWidget.astro` | ✅ testato e funzionante |
+| InstantSearch `/cerca` + `/en/search` | `src/components/CercaContent.astro` | ✅ testato — filtri tradotti IT+EN, URL routing, paginazione |
+| Webhook sync automatico | — | 🔴 **ALGOLIA-05 non implementato** — re-indicizzare manualmente dopo ogni pubblicazione |
+
+### Test sistematico (2026-05-04) — risultati
+
+| Test | Esito |
+|------|-------|
+| Autocomplete header desktop IT/EN | ✅ |
+| View Transitions (reinit dopo navigazione) | ✅ |
+| Autocomplete mobile | ✅ |
+| Pagina `/it/cerca/` — filtri, paginazione, URL routing | ✅ |
+| Pagina `/en/search/` — filtri tradotti | ✅ (fix applicato) |
+| Language switcher da `/en/search/` → IT | ✅ (fix applicato: `/it/cerca/` diretto) |
+| Ricerca per titolo esatto | 🟡 Non sempre primo — ranking post-lancio |
+| Ricerca numero per ID (es. "OEL-172") | ✅ (fix: `id_numero` in searchableAttributes) |
+| Ricerca autore (es. "Mariangela") | ✅ |
+| Link risultati numeri | ✅ (fix: URL `/it/archivio/` corretti) |
 
 ### Re-indicizzazione manuale
 
