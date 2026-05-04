@@ -757,31 +757,34 @@ const issuePeriodLabel = ultimoNumero
   }
 
   .hero-tab {
-    display: inline-block;
-    vertical-align: bottom; /* bottoms allineati → progress bar sempre alla stessa quota */
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end; /* titolo sempre appoggiato in basso */
+    vertical-align: bottom;
     width: 18%;
     margin: 50px 9% 50px 0;
     padding: 10px 0;
+    /* altezza fissa = 3 righe + padding → progress bar sempre alla stessa quota */
+    height: calc(1rem * 1.375 * 3 + 20px);
     position: relative;
     cursor: pointer;
     color: #fff;
     opacity: 0.65;
     transition: opacity 0.2s ease;
+    box-sizing: border-box;
   }
   .hero-tab:last-child { margin-right: 0; }
   .hero-tab:hover { opacity: 0.85; }
   .hero-tab--active { opacity: 1; }
 
   .hero-tab-title {
-    display: -webkit-box;
     font-family: 'Raleway', system-ui, sans-serif;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.375;
     text-transform: uppercase;
-    /* altezza fissa = 3 righe esatte → progress bar sempre allineata */
-    height: calc(1rem * 1.375 * 3);
     overflow: hidden;
+    display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
   }
