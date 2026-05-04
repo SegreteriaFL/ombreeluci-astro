@@ -9,9 +9,14 @@ import {
   getCategoriaUrlSlug,
   getCategoriaLabel,
 } from '../../config/taxonomy.js';
-import numeriData from '../../data/numeri_consolidati.json';
 import { getAllArticoliBuild } from '../../lib/articoli-build';
-import { getArticoloCopertinaSrc, getAllAutori, getAutoreImageUrl } from '../../lib/directus';
+import {
+  getArticoloCopertinaSrc,
+  getAllAutori,
+  getAutoreImageUrl,
+  getAllNumeriRivista,
+  type NumeroRivista,
+} from '../../lib/directus';
 
 type NumeroRecord = {
   id_numero: string;
@@ -23,19 +28,33 @@ type NumeroRecord = {
   periodo_label?: string | null;
   sommario_lancio?: string | null;
   seo_description?: string | null;
-  descrizione_ai?: string | null;
   copertina_url?: string | null;
-  [key: string]: unknown;
 };
 
-const numeri = numeriData as NumeroRecord[];
-const numeriOEL = [...numeri]
-  .filter((n) => n.tipo_rivista === 'ombre_e_luci')
+function mapNumero(n: NumeroRivista): NumeroRecord {
+  return {
+    id_numero:          n.id_numero,
+    tipo_rivista:       n.tipo === 'ins' ? 'insieme' : 'ombre_e_luci',
+    numero_progressivo: n.numero_progressivo ?? 0,
+    anno_pubblicazione: n.anno_pubblicazione ?? 0,
+    display_title:      n.display_title ?? undefined,
+    titolo_numero:      n.titolo_tema ?? n.display_title ?? undefined,
+    periodo_label:      n.periodo_label ?? null,
+    sommario_lancio:    n.descrizione ?? null,
+    seo_description:    null,
+    copertina_url:      n.copertina_url ?? null,
+  };
+}
+
+const rawNumeri = await getAllNumeriRivista();
+const numeriOEL = rawNumeri
+  .filter(n => n.tipo !== 'ins')
   .sort((a, b) => {
-    if (a.anno_pubblicazione !== b.anno_pubblicazione)
-      return b.anno_pubblicazione - a.anno_pubblicazione;
+    if ((a.anno_pubblicazione ?? 0) !== (b.anno_pubblicazione ?? 0))
+      return (b.anno_pubblicazione ?? 0) - (a.anno_pubblicazione ?? 0);
     return (b.numero_progressivo ?? 0) - (a.numero_progressivo ?? 0);
-  });
+  })
+  .map(mapNumero);
 
 const ultimoNumero = numeriOEL[0] ?? null;
 const issueSlug = ultimoNumero

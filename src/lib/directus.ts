@@ -183,16 +183,19 @@ export interface NumeroRivista {
   id_numero: string;
   display_title: string;
   anno_pubblicazione: number | null;
+  /** 'oel' per Ombre e Luci, 'ins' per Insieme. */
   tipo: string | null;
   descrizione: string | null;
   pdf_archive_url: string | null;
   wp_url: string | null;
-  /** URL assoluto copertina (R2 `numeri/{wp_id}.jpg`), non la M2O `copertina`. */
+  /** URL assoluto copertina. */
   copertina_url: string | null;
-  /** Es. "Ottobre – Dicembre" — periodo di pubblicazione del numero. */
+  /** Es. "Ottobre – Dicembre". */
   periodo_label: string | null;
-  /** Solo il titolo tematico, senza numero (es. "Paradigma Pompei"). */
+  /** Titolo tematico del numero (es. "Paradigma Pompei"). */
   titolo_tema: string | null;
+  /** Numero progressivo della rivista (es. 173). */
+  numero_progressivo: number | null;
 }
 
 // ── HTTP helper ───────────────────────────────────────────────────────────────
@@ -435,12 +438,21 @@ export async function getAutoreBySlug(slug: string): Promise<Autore | null> {
 /**
  * Tutti i numeri rivista.
  */
+const NUMERO_FIELDS = 'id,id_numero,display_title,titolo_tema,numero_progressivo,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina_url,periodo_label';
+
 export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
   const data = await directusFetch<{ data: NumeroRivista[] }>(
-    '/items/numeri_rivista?fields=id,id_numero,display_title,titolo_tema,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina_url,periodo_label&limit=-1&sort=anno_pubblicazione'
+    `/items/numeri_rivista?fields=${NUMERO_FIELDS}&limit=-1&sort=anno_pubblicazione`
   );
   if (!data) return [];
   return data.data ?? [];
+}
+
+export async function getUltimoNumeroRivista(): Promise<NumeroRivista | null> {
+  const data = await directusFetch<{ data: NumeroRivista[] }>(
+    `/items/numeri_rivista?fields=${NUMERO_FIELDS}&filter[tipo][_eq]=oel&sort[]=-anno_pubblicazione&sort[]=-numero_progressivo&limit=1`
+  );
+  return data?.data?.[0] ?? null;
 }
 
 /**
@@ -449,7 +461,7 @@ export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
 export async function getNumeroRivistaById(idNumero: string): Promise<NumeroRivista | null> {
   const params = new URLSearchParams({
     'filter[id_numero][_eq]': idNumero,
-    fields: 'id,id_numero,display_title,titolo_tema,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina_url,periodo_label',
+    fields: NUMERO_FIELDS,
     limit: '1',
   });
   const data = await directusFetch<{ data: NumeroRivista[] }>(
