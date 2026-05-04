@@ -171,6 +171,7 @@ const issuePeriodLabel = ultimoNumero
             tabindex={i === 0 ? 0 : -1}
           >
             <span class="hero-tab-title">{meta.title}</span>
+            <span class="hero-tab-progress" aria-hidden="true"></span>
           </li>
         ))}
       </ul>
@@ -489,93 +490,131 @@ const issuePeriodLabel = ultimoNumero
 </main>
 
 <script>
-  // ── Hero slider ───────────────────────────────────────────────────────────────
-  // Variabili module-level (sopravvivono tra navigazioni View Transitions)
-  let _heroTimer: ReturnType<typeof setInterval> | null = null;
-  let _heroCurrent = 0;
-  let _heroAbort: AbortController | null = null; // pulisce i listener dello slider
+  // ── Hero Slider — Web Animations API ──────────────────────────────────────────
+  //
+  // Architettura:
+  //   • Nessun setInterval: il cambio slide è triggerato da animation.finished
+  //   • animation.pause() / play() per hover — nativo, preciso
+  //   • animation.cancel() per reset istantaneo — nessun hack reflow
+  //   • AbortController per pulire tutti gli event listener ad ogni reinit
+  //   • window.__heroListenerRegistered: astro:page-load registrato una sola volta
+  //
+  // ─────────────────────────────────────────────────────────────────────────────
 
-  function _heroStopTimer() {
-    if (_heroTimer) { clearInterval(_heroTimer); _heroTimer = null; }
-  }
+  const SLIDE_DURATION = 5000; // ms per slide
+
+  let _heroAnim:  Animation | null = null;   // WAAPI animation corrente
+  let _heroCur  = 0;                          // indice slide corrente
+  let _heroAbort: AbortController | null = null;
 
   function initHeroSlider() {
-    _heroStopTimer();
-
-    // Pulisce TUTTI i listener dello slider precedente (mouseenter, tab click, ecc.)
+    // Pulizia completa: cancella animazione e tutti i listener precedenti
+    _heroAnim?.cancel();
+    _heroAnim = null;
     _heroAbort?.abort();
     _heroAbort = new AbortController();
     const { signal } = _heroAbort;
 
-    // Rotazione random articolo featured nella sezione sotto
+    // Rotazione random articolo nella sezione sotto lo slider
     const candidates = document.querySelectorAll<HTMLElement>('[data-hero-candidate]');
     if (candidates.length > 1) {
-      const idx = Math.floor(Math.random() * candidates.length);
-      candidates.forEach((c, i) => { c.style.display = i === idx ? '' : 'none'; });
+      const pick = Math.floor(Math.random() * candidates.length);
+      candidates.forEach((c, i) => { c.style.display = i === pick ? '' : 'none'; });
     }
 
-    const slider = document.querySelector('.home-hero-slider');
+    const slider = document.querySelector<HTMLElement>('.home-hero-slider');
     if (!slider) return;
 
     const slides = Array.from(slider.querySelectorAll<HTMLElement>('.hero-slide'));
     const tabs   = Array.from(slider.querySelectorAll<HTMLElement>('.hero-tab'));
     if (slides.length < 2) return;
 
-    _heroCurrent = 0;
+    _heroCur = 0;
+    let _heroPaused = false;
 
-    const firstTab = tabs[0];
-    firstTab.classList.remove('hero-tab--active');
-    void firstTab.offsetWidth;
-    firstTab.classList.add('hero-tab--active');
+    // ── Attiva lo slide idx e avvia la progress bar WAAPI ──────────────────────
+    function activate(idx: number) {
+      const prev = _heroCur;
+      _heroCur = ((idx % slides.length) + slides.length) % slides.length;
 
-    function goTo(idx: number) {
-      const prev = _heroCurrent;
-      _heroCurrent = (idx + slides.length) % slides.length;
-      if (prev === _heroCurrent) return;
+      // Deattiva slide precedente
+      if (prev !== _heroCur) {
+        slides[prev].classList.remove('hero-slide--active');
+        slides[prev].setAttribute('aria-hidden', 'true');
+        slides[prev].querySelectorAll<HTMLElement>('a').forEach(el => el.setAttribute('tabindex', '-1'));
+        tabs[prev].classList.remove('hero-tab--active');
+        tabs[prev].setAttribute('aria-selected', 'false');
+        tabs[prev].setAttribute('tabindex', '-1');
+        // Reset progress bar precedente → scaleX(0) istantaneo
+        const prevBar = tabs[prev].querySelector<HTMLElement>('.hero-tab-progress');
+        prevBar?.animate([{ transform: 'scaleX(0)' }], { duration: 0, fill: 'forwards' });
+      }
 
-      slides[prev].classList.remove('hero-slide--active');
-      slides[prev].setAttribute('aria-hidden', 'true');
-      slides[prev].querySelectorAll<HTMLElement>('a').forEach(el => el.setAttribute('tabindex', '-1'));
+      // Attiva nuovo slide
+      slides[_heroCur].classList.add('hero-slide--active');
+      slides[_heroCur].removeAttribute('aria-hidden');
+      slides[_heroCur].querySelectorAll<HTMLElement>('[tabindex="-1"]').forEach(el => el.removeAttribute('tabindex'));
+      tabs[_heroCur].classList.add('hero-tab--active');
+      tabs[_heroCur].setAttribute('aria-selected', 'true');
+      tabs[_heroCur].setAttribute('tabindex', '0');
 
-      const prevTab = tabs[prev];
-      prevTab.classList.add('hero-tab--trans-out');
-      prevTab.classList.remove('hero-tab--active');
-      prevTab.setAttribute('aria-selected', 'false');
-      prevTab.setAttribute('tabindex', '-1');
-      requestAnimationFrame(() => prevTab.classList.remove('hero-tab--trans-out'));
+      // Avvia progress bar con WAAPI
+      _heroAnim?.cancel();
+      const bar = tabs[_heroCur].querySelector<HTMLElement>('.hero-tab-progress');
+      if (!bar) return;
 
-      slides[_heroCurrent].classList.add('hero-slide--active');
-      slides[_heroCurrent].removeAttribute('aria-hidden');
-      slides[_heroCurrent].querySelectorAll<HTMLElement>('[tabindex="-1"]').forEach(el => el.removeAttribute('tabindex'));
+      _heroAnim = bar.animate(
+        [
+          { transform: 'scaleX(0)', transformOrigin: 'left center' },
+          { transform: 'scaleX(1)', transformOrigin: 'left center' },
+        ],
+        { duration: SLIDE_DURATION, easing: 'linear', fill: 'forwards' }
+      );
 
-      const newTab = tabs[_heroCurrent];
-      newTab.classList.remove('hero-tab--active');
-      void newTab.offsetWidth;
-      newTab.classList.add('hero-tab--active');
-      newTab.setAttribute('aria-selected', 'true');
-      newTab.setAttribute('tabindex', '0');
+      // Al completamento: passa allo slide successivo (se non in pausa)
+      _heroAnim.finished
+        .then(() => { if (!_heroPaused) activate(_heroCur + 1); })
+        .catch(() => { /* AbortError su cancel() — ignorato */ });
     }
 
-    function startTimer() {
-      _heroTimer = setInterval(() => goTo(_heroCurrent + 1), 5000);
-    }
+    // ── Hover: pause / resume precisi ──────────────────────────────────────────
+    slider.addEventListener('mouseenter', () => {
+      _heroPaused = true;
+      _heroAnim?.pause();
+    }, { signal });
 
-    // Tutti i listener usano { signal } → vengono rimossi automaticamente su abort()
+    slider.addEventListener('mouseleave', () => {
+      _heroPaused = false;
+      _heroAnim?.play();
+    }, { signal });
+
+    slider.addEventListener('touchstart', () => {
+      // Su touch: ferma permanentemente (l'utente sta interagendo)
+      _heroPaused = true;
+      _heroAnim?.pause();
+    }, { passive: true, signal });
+
+    // ── Click / keyboard sui tab ────────────────────────────────────────────────
     tabs.forEach((tab, i) => {
-      tab.addEventListener('click', () => { goTo(i); _heroStopTimer(); startTimer(); }, { signal });
+      tab.addEventListener('click', () => {
+        _heroPaused = false; // riprende autoplay dopo click manuale
+        activate(i);
+      }, { signal });
+
       tab.addEventListener('keydown', (e: KeyboardEvent) => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); goTo(i); _heroStopTimer(); startTimer(); }
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          _heroPaused = false;
+          activate(i);
+        }
       }, { signal });
     });
 
-    slider.addEventListener('mouseenter', _heroStopTimer, { signal });
-    slider.addEventListener('mouseleave', startTimer, { signal });
-    slider.addEventListener('touchstart', _heroStopTimer, { passive: true, signal });
-
-    startTimer();
+    // Avvio
+    activate(0);
   }
 
-  // Registra astro:page-load UNA SOLA VOLTA (window sopravvive alle View Transitions)
+  // Registra astro:page-load UNA SOLA VOLTA per tutta la vita della finestra
   if (!(window as any).__heroListenerRegistered) {
     (window as any).__heroListenerRegistered = true;
     document.addEventListener('astro:page-load', initHeroSlider);
@@ -836,12 +875,11 @@ const issuePeriodLabel = ultimoNumero
     -webkit-box-orient: vertical;
   }
 
-  /* ── Progress bar Nectar-style (::before/::after sull'li) ──
-     ::before = track grigio (sempre visibile)
-     ::after  = fill teal (scaleX 0→1 in 4.95s)
-  ────────────────────────────────────────────────────────── */
-  .hero-tab::before,
-  .hero-tab::after {
+  /* ── Progress bar — elemento DOM reale, animato via Web Animations API ──
+     ::before  = track grigio (sfondo, sempre visibile)
+     .hero-tab-progress = fill bar (animata da JS con WAAPI, non CSS transition)
+  ───────────────────────────────────────────────────────────────────────── */
+  .hero-tab::before {
     display: block;
     content: '';
     position: absolute;
@@ -849,27 +887,19 @@ const issuePeriodLabel = ultimoNumero
     left: 0;
     width: 100%;
     height: 2px;
-  }
-
-  .hero-tab::before {
     background: rgba(255,255,255,0.2);
   }
 
-  .hero-tab::after {
+  .hero-tab-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
     background: var(--accent-color, #008b8b);
     transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 1s cubic-bezier(.4, 0, .1, 1);
-  }
-
-  .hero-tab--active::after {
-    transform: scaleX(1);
-    transform-origin: left;
-    transition: transform 4.95s linear;
-  }
-
-  .hero-tab--trans-out::after {
-    transition: none;
+    transform-origin: left center;
+    /* nessuna transition CSS — il controllo è interamente in JS (WAAPI) */
   }
 
   /* Mobile */
