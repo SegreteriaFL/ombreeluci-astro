@@ -476,7 +476,26 @@ export async function getNumeroRivistaById(idNumero: string): Promise<NumeroRivi
 }
 
 /**
+ * Articoli per numero rivista tramite UUID interno del record.
+ * Usare questo nelle pagine SSR: non richiede permessi su campi relazionali.
+ */
+export async function getArticoliByNumeroId(numeroId: string): Promise<ArticoloListItem[]> {
+  const params = new URLSearchParams({
+    'filter[numero_rivista][_eq]': numeroId,
+    'filter[stato][_eq]': 'published',
+    fields: ARTICOLO_LIST_FIELDS,
+    limit: '-1',
+    sort: 'data_pubblicazione',
+  });
+  const data = await directusFetch<{ data: ArticoloListItem[] }>(
+    `/items/articoli?${params}`
+  );
+  return data?.data ?? [];
+}
+
+/**
  * Articoli per numero rivista (id_numero).
+ * @deprecated Preferire getArticoliByNumeroId() nelle pagine SSR.
  */
 export async function getArticoliByNumero(idNumero: string): Promise<ArticoloListItem[]> {
   const params = new URLSearchParams({

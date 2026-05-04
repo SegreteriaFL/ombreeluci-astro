@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import IssueContent from '../../../components/IssueContent.astro';
-import { getAllNumeriRivista, getArticoliByNumero, getNumeroImageUrl } from '../../../lib/directus';
+import { getAllNumeriRivista, getArticoliByNumeroId, getNumeroImageUrl } from '../../../lib/directus';
 
 // SSR: ogni visita legge Directus live — articoli nuovi visibili subito senza rebuild
 export const prerender = false;
@@ -34,8 +34,8 @@ const nextNumero = index < numeriOrdinati.length - 1 ? numeriOrdinati[index + 1]
 const prevSlug = prevNumero ? prevNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
 const nextSlug = nextNumero ? nextNumero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-') : null;
 
-// Solo articoli EN del numero, query live
-const articoliAll = await getArticoliByNumero(numero.id_numero);
+// Articoli EN del numero: filter diretto per UUID
+const articoliAll = await getArticoliByNumeroId(numero.id);
 const articoliNumero = articoliAll.filter(a => a.lang === 'en');
 
 const copertinaNumeroUrl = getNumeroImageUrl(numero);
