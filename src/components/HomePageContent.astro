@@ -639,14 +639,15 @@ const issuePeriodLabel = ultimoNumero
     to   { opacity: 1; transform: translateY(0); }
   }
 
-  /* Contenuto testo */
+  /* Contenuto testo — stesso wrapper di header e tab strip */
   .hero-slide-content {
     position: absolute;
     bottom: 42%;
     left: 0;
     right: 0;
-    padding: 0 clamp(1.5rem, 6vw, 7rem);
-    max-width: 760px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
     color: #fff;
     z-index: 2;
     opacity: 0;
@@ -822,7 +823,7 @@ const issuePeriodLabel = ultimoNumero
   /* Mobile */
   @media (max-width: 768px) {
     .home-hero-slider { min-height: 460px; }
-    .hero-slide-content { bottom: 30%; padding: 0 1.5rem; max-width: 100%; }
+    .hero-slide-content { bottom: 30%; }
     .hero-title { font-size: clamp(1.35rem, 5.5vw, 2rem); }
     /* Mobile: 2 tab visibili, block */
     .hero-tab {
