@@ -566,6 +566,12 @@ const issuePeriodLabel = ultimoNumero
     );
   }
 
+  /* Animazione fade-up del contenuto slide */
+  @keyframes heroContentIn {
+    from { opacity: 0; transform: translateY(28px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
   /* Contenuto testo */
   .hero-slide-content {
     position: absolute;
@@ -576,6 +582,12 @@ const issuePeriodLabel = ultimoNumero
     max-width: 760px;
     color: #fff;
     z-index: 2;
+    opacity: 0;
+  }
+
+  /* Quando lo slide è attivo: anima il contenuto in entrata */
+  .hero-slide--active .hero-slide-content {
+    animation: heroContentIn 0.65s cubic-bezier(0.22, 1, 0.36, 1) 0.15s forwards;
   }
 
   /* Meta: avatar + autore + categoria */
@@ -622,12 +634,12 @@ const issuePeriodLabel = ultimoNumero
 
   /* Titolo */
   .hero-title {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Raleway', system-ui, sans-serif;
     font-size: clamp(1.6rem, 4vw, 2.8rem);
-    font-weight: 700;
-    line-height: 1.2;
+    font-weight: 900;
+    line-height: 1.15;
     margin: 0 0 1.5rem 0;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
   }
   .hero-title-link {
     color: #fff;
@@ -668,7 +680,12 @@ const issuePeriodLabel = ultimoNumero
     margin: 0 auto;
     padding: 0;
     max-width: 1280px;
-    padding: 0 clamp(1.5rem, 6vw, 7rem);
+    gap: 0;
+  }
+
+  /* Separatore verticale tra tab */
+  .hero-controls-list li + li {
+    border-left: 1px solid rgba(255,255,255,0.15);
   }
 
   /* Tab: no border, no border-radius — solo progress bar Nectar-style */
@@ -748,7 +765,6 @@ const issuePeriodLabel = ultimoNumero
     .hero-tab-title { font-size: 0.65rem; }
     .hero-tab { padding: 0.6rem 0.75rem 1rem; }
     .hero-controls { bottom: 1.5rem; }
-    .hero-controls-list { padding: 0 1.5rem; }
   }
 
   @media (max-width: 480px) {

@@ -99,7 +99,7 @@ const featuredPool = (() => {
     const { ruolo_editoriale } = getMegaclusterForArticle(a);
     return (ruolo_editoriale === 'portante' || ruolo_editoriale === 'strutturale') && date >= eighteenMonthsAgo;
   });
-  return (portanti.length >= 2 ? portanti : withCover).slice(0, 5);
+  return (portanti.length >= 2 ? portanti : withCover).slice(0, 4);
 })().map((a) => getArticleMeta(a));
 
 const poolSlugs = new Set(featuredPool.map((m) => m.slug));
