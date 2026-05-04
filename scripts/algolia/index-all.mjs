@@ -70,7 +70,8 @@ function articleUrl(slug, lang) {
 }
 
 function issueUrl(idNumero) {
-  return `/archivio/${String(idNumero).toLowerCase().replace(/[^a-z0-9-]/g, '-')}/`;
+  // B-14: route IT sotto /it/
+  return `/it/archivio/${String(idNumero).toLowerCase().replace(/[^a-z0-9-]/g, '-')}/`;
 }
 
 // ── Fetch da Directus ─────────────────────────────────────────────────────────
@@ -229,7 +230,7 @@ async function configureAllIndices() {
   });
 
   await configureIndex(INDEX_NUMERI, {
-    searchableAttributes: ['display_title', 'titolo_tema', 'periodo_label'],
+    searchableAttributes: ['id_numero', 'display_title', 'titolo_tema', 'periodo_label'],
     attributesToRetrieve: [
       'objectID', 'tipo', 'id_numero', 'url',
       'display_title', 'titolo_tema', 'anno_pubblicazione',
