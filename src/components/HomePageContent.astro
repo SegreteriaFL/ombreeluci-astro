@@ -758,7 +758,7 @@ const issuePeriodLabel = ultimoNumero
 
   .hero-tab {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom; /* bottoms allineati → progress bar sempre alla stessa quota */
     width: 18%;
     margin: 50px 9% 50px 0;
     padding: 10px 0;
@@ -773,14 +773,15 @@ const issuePeriodLabel = ultimoNumero
   .hero-tab--active { opacity: 1; }
 
   .hero-tab-title {
-    display: block;
+    display: -webkit-box;
     font-family: 'Raleway', system-ui, sans-serif;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.375;
     text-transform: uppercase;
+    /* altezza fissa = 3 righe esatte → progress bar sempre allineata */
+    height: calc(1rem * 1.375 * 3);
     overflow: hidden;
-    display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
   }
