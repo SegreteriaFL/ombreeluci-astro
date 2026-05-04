@@ -921,6 +921,14 @@ const archivioLinks = [
     color: #ffffff;
   }
 
+  /* Active language code: pill bianco con testo scuro per distinguerlo */
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .ls-code--active {
+    color: var(--text-color, #142f2f);
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 1px 5px;
+  }
+
   /* ── Stato scrolled: opaco bianco (normale) ── */
   /* (nessuna regola necessaria: il default dell'header è già white) */
 </style>
