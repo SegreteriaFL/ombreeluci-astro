@@ -575,7 +575,7 @@ const issuePeriodLabel = ultimoNumero
   /* Contenuto testo */
   .hero-slide-content {
     position: absolute;
-    bottom: 22%;
+    bottom: 42%;
     left: 0;
     right: 0;
     padding: 0 clamp(1.5rem, 6vw, 7rem);
@@ -688,21 +688,22 @@ const issuePeriodLabel = ultimoNumero
     border-left: 1px solid rgba(255,255,255,0.25);
   }
 
-  /* Tab: no border, no border-radius — solo progress bar Nectar-style */
+  /* Tab: Nectar-style — padding 0, opacity per active/inactive */
   .hero-tab {
     width: 100%;
-    padding: 0.6rem 2rem 1rem;
+    padding: 10px 0;
     background: none;
     border: none;
     border-radius: 0;
-    color: rgba(255,255,255,0.5);
+    color: #fff;
+    opacity: 0.55;
     cursor: pointer;
     text-align: left;
-    transition: color 0.2s;
+    transition: opacity 0.2s ease;
     position: relative;
   }
-  .hero-tab:hover { color: rgba(255,255,255,0.8); }
-  .hero-tab--active { color: #fff; }
+  .hero-tab:hover { opacity: 0.85; }
+  .hero-tab--active { opacity: 1; }
 
   .hero-tab-title {
     display: -webkit-box;
@@ -710,11 +711,9 @@ const issuePeriodLabel = ultimoNumero
     -webkit-box-orient: vertical;
     overflow: hidden;
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.72rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    line-height: 1.35;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.375;
   }
 
   /* ── Progress bar Nectar-style ───────────────────────────────
@@ -760,10 +759,9 @@ const issuePeriodLabel = ultimoNumero
   /* Mobile */
   @media (max-width: 768px) {
     .home-hero-slider { min-height: 460px; }
-    .hero-slide-content { bottom: 28%; padding: 0 1.5rem; max-width: 100%; }
+    .hero-slide-content { bottom: 30%; padding: 0 1.5rem; max-width: 100%; }
     .hero-title { font-size: clamp(1.35rem, 5.5vw, 2rem); }
-    .hero-tab-title { font-size: 0.65rem; }
-    .hero-tab { padding: 0.6rem 0.75rem 1rem; }
+    .hero-tab-title { font-size: 0.85rem; }
     .hero-controls { bottom: 1.5rem; }
   }
 
