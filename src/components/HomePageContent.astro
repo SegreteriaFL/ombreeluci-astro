@@ -119,31 +119,39 @@ const issuePeriodLabel = ultimoNumero
         />
         <div class="hero-slide-overlay" />
         <div class="hero-slide-content">
-          <div class="hero-slide-meta">
-            {meta.authorAvatar
-              ? <img src={meta.authorAvatar} alt="" class="hero-avatar" loading={i === 0 ? 'eager' : 'lazy'} width="40" height="40" />
-              : <span class="hero-avatar hero-avatar--placeholder">{meta.author.charAt(0)}</span>
-            }
-            <span class="hero-byline-text">
-              {lang === 'en' ? 'By' : 'Di'} <strong>{meta.author}</strong>
-              {meta.categoria_menu && (
-                <> &middot; <span class="hero-cat-label">{meta.categoria_menu.replace(/-/g, ' ')}</span></>
-              )}
-            </span>
+          <!-- ogni .hr (reveal) è l'orizzonte: overflow:hidden crea la riga di taglio -->
+          <!-- il figlio .hri parte da translateY(110%) e risale -->
+          <div class="hr">
+            <div class="hri hero-slide-meta">
+              {meta.authorAvatar
+                ? <img src={meta.authorAvatar} alt="" class="hero-avatar" loading={i === 0 ? 'eager' : 'lazy'} width="40" height="40" />
+                : <span class="hero-avatar hero-avatar--placeholder">{meta.author.charAt(0)}</span>
+              }
+              <span class="hero-byline-text">
+                {lang === 'en' ? 'By' : 'Di'} <strong>{meta.author}</strong>
+                {meta.categoria_menu && (
+                  <> &middot; <span class="hero-cat-label">{meta.categoria_menu.replace(/-/g, ' ')}</span></>
+                )}
+              </span>
+            </div>
           </div>
-          <h2 class="hero-title">
-            <a href={`${articleBasePath}/${meta.slug}`} class="hero-title-link" tabindex={i !== 0 ? -1 : undefined}>
-              {meta.title}
+          <div class="hr hr--d1">
+            <h2 class="hri hero-title">
+              <a href={`${articleBasePath}/${meta.slug}`} class="hero-title-link" tabindex={i !== 0 ? -1 : undefined}>
+                {meta.title}
+              </a>
+            </h2>
+          </div>
+          <div class="hr hr--d2">
+            <a
+              href={`${articleBasePath}/${meta.slug}`}
+              class="hri hero-cta"
+              tabindex={i !== 0 ? -1 : undefined}
+            >
+              {lang === 'en' ? 'Read Article' : 'Leggi l\'articolo'}
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
-          </h2>
-          <a
-            href={`${articleBasePath}/${meta.slug}`}
-            class="hero-cta"
-            tabindex={i !== 0 ? -1 : undefined}
-          >
-            {lang === 'en' ? 'Read Article' : 'Leggi l\'articolo'}
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
+          </div>
         </div>
       </div>
     ))}
@@ -640,11 +648,32 @@ const issuePeriodLabel = ultimoNumero
     );
   }
 
-  /* Animazione fade-up del contenuto slide */
-  @keyframes heroContentIn {
-    from { opacity: 0; transform: translateY(28px); }
-    to   { opacity: 1; transform: translateY(0); }
+  /* ── Text reveal: "risale dall'orizzonte" ───────────────────
+     .hr  = wrapper con overflow:hidden (la riga di taglio)
+     .hri = elemento che parte sotto e risale
+  ─────────────────────────────────────────────────────────── */
+  @keyframes heroRiseUp {
+    from { transform: translateY(110%); }
+    to   { transform: translateY(0); }
   }
+
+  .hr {
+    overflow: hidden;
+    display: block;
+  }
+
+  .hri {
+    transform: translateY(110%); /* sotto l'orizzonte di default */
+  }
+
+  /* Quando lo slide è attivo: ogni .hri risale */
+  .hero-slide--active .hri {
+    animation: heroRiseUp 0.75s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  /* Delay staggerato per meta → titolo → CTA */
+  .hero-slide--active .hr--d1 .hri { animation-delay: 0.1s; }
+  .hero-slide--active .hr--d2 .hri { animation-delay: 0.22s; }
 
   /* Contenuto testo — stesso wrapper di header e tab strip */
   .hero-slide-content {
@@ -657,12 +686,6 @@ const issuePeriodLabel = ultimoNumero
     padding: 0 1.5rem;
     color: #fff;
     z-index: 2;
-    opacity: 0;
-  }
-
-  /* Quando lo slide è attivo: anima il contenuto in entrata */
-  .hero-slide--active .hero-slide-content {
-    animation: heroContentIn 0.65s cubic-bezier(0.22, 1, 0.36, 1) 0.15s forwards;
   }
 
   /* Meta: avatar + autore + categoria */
