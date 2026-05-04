@@ -479,17 +479,24 @@ const issuePeriodLabel = ultimoNumero
 </main>
 
 <script>
-  // Rotazione random articolo featured nella sezione sotto lo slider
-  (function () {
+  // ── Hero slider — timer globale per evitare doppio setInterval con View Transitions ──
+  let _heroTimer: ReturnType<typeof setInterval> | null = null;
+  let _heroCurrent = 0;
+
+  function _heroStopTimer() {
+    if (_heroTimer) { clearInterval(_heroTimer); _heroTimer = null; }
+  }
+
+  function initHeroSlider() {
+    _heroStopTimer(); // cancella sempre il timer precedente
+
+    // Rotazione random articolo featured
     const candidates = document.querySelectorAll<HTMLElement>('[data-hero-candidate]');
     if (candidates.length > 1) {
       const idx = Math.floor(Math.random() * candidates.length);
       candidates.forEach((c, i) => { c.style.display = i === idx ? '' : 'none'; });
     }
-  })();
 
-  // ── Hero slider ──────────────────────────────────────────────
-  (function () {
     const slider = document.querySelector('.home-hero-slider');
     if (!slider) return;
 
@@ -497,20 +504,23 @@ const issuePeriodLabel = ultimoNumero
     const tabs   = Array.from(slider.querySelectorAll<HTMLElement>('.hero-tab'));
     if (slides.length < 2) return;
 
-    let current = 0;
-    let timer: ReturnType<typeof setInterval> | null = null;
+    _heroCurrent = 0;
+
+    // Trigger animazione progress bar sul primo tab (server-rendered senza transizione)
+    const firstTab = tabs[0];
+    firstTab.classList.remove('hero-tab--active');
+    void firstTab.offsetWidth; // force reflow
+    firstTab.classList.add('hero-tab--active');
 
     function goTo(idx: number) {
-      const prev = current;
-      current = (idx + slides.length) % slides.length;
-      if (prev === current) return;
+      const prev = _heroCurrent;
+      _heroCurrent = (idx + slides.length) % slides.length;
+      if (prev === _heroCurrent) return;
 
-      // Disattiva slide precedente
       slides[prev].classList.remove('hero-slide--active');
       slides[prev].setAttribute('aria-hidden', 'true');
       slides[prev].querySelectorAll<HTMLElement>('a').forEach(el => el.setAttribute('tabindex', '-1'));
 
-      // Trans-out: collasso istantaneo progress bar
       const prevTab = tabs[prev];
       prevTab.classList.add('hero-tab--trans-out');
       prevTab.classList.remove('hero-tab--active');
@@ -518,13 +528,11 @@ const issuePeriodLabel = ultimoNumero
       prevTab.setAttribute('tabindex', '-1');
       requestAnimationFrame(() => prevTab.classList.remove('hero-tab--trans-out'));
 
-      // Attiva nuova slide
-      slides[current].classList.add('hero-slide--active');
-      slides[current].removeAttribute('aria-hidden');
-      slides[current].querySelectorAll<HTMLElement>('[tabindex="-1"]').forEach(el => el.removeAttribute('tabindex'));
+      slides[_heroCurrent].classList.add('hero-slide--active');
+      slides[_heroCurrent].removeAttribute('aria-hidden');
+      slides[_heroCurrent].querySelectorAll<HTMLElement>('[tabindex="-1"]').forEach(el => el.removeAttribute('tabindex'));
 
-      // Forza reflow per riavviare animazione ::after
-      const newTab = tabs[current];
+      const newTab = tabs[_heroCurrent];
       newTab.classList.remove('hero-tab--active');
       void newTab.offsetWidth;
       newTab.classList.add('hero-tab--active');
@@ -533,26 +541,25 @@ const issuePeriodLabel = ultimoNumero
     }
 
     function startTimer() {
-      timer = setInterval(() => goTo(current + 1), 5000);
-    }
-
-    function stopTimer() {
-      if (timer) { clearInterval(timer); timer = null; }
+      _heroTimer = setInterval(() => goTo(_heroCurrent + 1), 5000);
     }
 
     tabs.forEach((tab, i) => {
-      tab.addEventListener('click', () => { goTo(i); stopTimer(); startTimer(); });
+      tab.addEventListener('click', () => { goTo(i); _heroStopTimer(); startTimer(); });
       tab.addEventListener('keydown', (e: KeyboardEvent) => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); goTo(i); stopTimer(); startTimer(); }
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); goTo(i); _heroStopTimer(); startTimer(); }
       });
     });
 
-    slider.addEventListener('mouseenter', stopTimer);
+    slider.addEventListener('mouseenter', _heroStopTimer);
     slider.addEventListener('mouseleave', startTimer);
-    slider.addEventListener('touchstart', stopTimer, { passive: true });
+    slider.addEventListener('touchstart', _heroStopTimer, { passive: true });
 
     startTimer();
-  })();
+  }
+
+  document.addEventListener('astro:page-load', initHeroSlider);
+  initHeroSlider();
 
   // Carousel archivio
   (function () {
