@@ -56,3 +56,4 @@ vps_credentials.txt
 
 # Variabili d'ambiente locali per wrangler pages dev (mai committare)
 .dev.vars
+hero-nectar/
