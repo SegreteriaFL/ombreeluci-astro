@@ -387,7 +387,7 @@ const relatedArticles = (() => {
       "author": {
         "@type": "Person",
         "name": autoreName,
-        "url": `https://ombreeluci.it/autori/${authorSlug}`
+        "url": `https://ombreeluci.it/it/autori/${authorSlug}`
       },
       "publisher": {
         "@type": "Organization",
@@ -506,7 +506,7 @@ const relatedArticles = (() => {
             <div class="article-meta-author-placeholder" style="display: none;">
               {autoreName.charAt(0).toUpperCase()}
             </div>
-            <a href={`/autori/${authorSlug}`} class="author-link">{autoreName}</a>
+            <a href={`/it/autori/${authorSlug}`} class="author-link">{autoreName}</a>
           </div>
           <div class="article-meta-item">
             {formatDateItalian(articleDate, locale)}
@@ -674,7 +674,7 @@ const relatedArticles = (() => {
             </div>
             <div class="author-bio-content">
               <h3 class="author-bio-name">
-                <a href={`/autori/${authorSlug}`} class="author-bio-link">
+                <a href={`/it/autori/${authorSlug}`} class="author-bio-link">
                   {autoreName}
                 </a>
               </h3>
@@ -682,7 +682,7 @@ const relatedArticles = (() => {
                 {authorBioTruncated ? (
                   <>
                     <p>{authorBioTruncated}</p>
-                    <a href={`/autori/${authorSlug}`} class="author-bio-more">
+                    <a href={`/it/autori/${authorSlug}`} class="author-bio-more">
                       {locale === 'en' ? 'Read more →' : 'Leggi di più →'}
                     </a>
                   </>

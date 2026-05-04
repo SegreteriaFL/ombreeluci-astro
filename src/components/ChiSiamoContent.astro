@@ -184,10 +184,10 @@ function iniziali(nome: string): string {
                   <img src={`/images/redazione/${r.foto || r.slug + '.jpg'}`} alt="" width="200" height="200" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
                   <span class="redazione-photo-fallback">{iniziali(r.nome)}</span>
                 </div>
-                <h3 class="redazione-card-nome"><a href={`/autori/${r.slug}`}>{r.nome}</a></h3>
+                <h3 class="redazione-card-nome"><a href={lang === 'en' ? `/en/authors/${r.slug}` : `/it/autori/${r.slug}`}>{r.nome}</a></h3>
                 <p class="redazione-card-ruolo">{r.ruolo[lang]}</p>
                 <p class="redazione-card-bio">{r.bioBreve[lang]}</p>
-                <a href={`/autori/${r.slug}`} class="redazione-leggi-piu">{t(lang, 'about_read_more')}</a>
+                <a href={lang === 'en' ? `/en/authors/${r.slug}` : `/it/autori/${r.slug}`} class="redazione-leggi-piu">{t(lang, 'about_read_more')}</a>
               </article>
             ))}
           </div>
@@ -214,7 +214,7 @@ function iniziali(nome: string): string {
                   <img src={`/images/redazione/${s.foto || s.slug + '.jpg'}`} alt="" width="200" height="200" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
                   <span class="redazione-photo-fallback">{iniziali(s.nome)}</span>
                 </div>
-                <h3 class="storica-card-nome"><a href={`/autori/${s.slug}`}>{s.nome}</a></h3>
+                <h3 class="storica-card-nome"><a href={lang === 'en' ? `/en/authors/${s.slug}` : `/it/autori/${s.slug}`}>{s.nome}</a></h3>
                 <p class="storica-card-ruolo">{s.ruolo[lang]}</p>
               </article>
             ))}
@@ -229,7 +229,7 @@ function iniziali(nome: string): string {
           <p class="chi-siamo-lead">{t(lang, 'about_collaborators_lead')}</p>
           <div class="collaboratori-grid collaboratori-grid--2x6">
             {collaboratori.map((c) => (
-              <a href={`/autori/${c.slug}`} class="collaboratore-card collaboratore-card--solo-foto">
+              <a href={lang === 'en' ? `/en/authors/${c.slug}` : `/it/autori/${c.slug}`} class="collaboratore-card collaboratore-card--solo-foto">
                 <div class="collaboratore-photo collaboratore-photo--circle" aria-hidden="true">
                   <img src={`/images/redazione/${c.foto || c.slug + '.jpg'}`} alt="" width="80" height="80" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
                   <span class="redazione-photo-fallback">{iniziali(c.nome)}</span>

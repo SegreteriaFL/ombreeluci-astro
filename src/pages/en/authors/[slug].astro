@@ -32,7 +32,7 @@ export async function getStaticPaths() {
 const { autore, articoli } = Astro.props;
 const authorFotoId = autore.foto?.id ?? null;
 const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${autore.slug}.jpg`;
-const alternateUrl = `/autori/${autore.slug}/`;
+const alternateUrl = `/it/autori/${autore.slug}/`;
 ---
 
 <BaseLayout

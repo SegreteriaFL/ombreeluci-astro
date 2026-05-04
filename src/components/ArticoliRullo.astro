@@ -223,7 +223,7 @@ const restData = rest.map((a) => {
       authorRow.className = 'author-row';
       authorRow.appendChild(document.createTextNode(authorByLabel + ' '));
       const authorLink = document.createElement('a');
-      authorLink.href = `/autori/${a.autoreSlug}`;
+      authorLink.href = basePath.startsWith('/en') ? `/en/authors/${a.autoreSlug}` : `/it/autori/${a.autoreSlug}`;
       authorLink.className = 'author-link';
       authorLink.textContent = a.autore;
       authorRow.appendChild(authorLink);

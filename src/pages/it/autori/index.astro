@@ -57,7 +57,7 @@ const autori = allAutori.map((autore) => {
 
         <div id="autori-grid" class="autori-grid">
           {autori.map((autore) => (
-            <a href={`/autori/${autore.slug}`} class="autori-card" data-nome={autore.nome.toLowerCase()} data-count={autore.count_articoli}>
+            <a href={`/it/autori/${autore.slug}`} class="autori-card" data-nome={autore.nome.toLowerCase()} data-count={autore.count_articoli}>
               <div class="autori-card-image">
                 {autore.foto && !autore.foto.includes('default.png') ? (
                   <img src={autore.foto} alt="" width="80" height="80" loading="lazy" onError="this.style.display='none'; this.nextElementSibling?.classList.add('visible')" />

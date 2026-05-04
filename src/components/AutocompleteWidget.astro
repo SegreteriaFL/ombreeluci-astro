@@ -202,7 +202,7 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
             getItemUrl({ item }: { item: any }) {
               return lang === 'en'
                 ? `/en/authors/${item.slug}/`
-                : `/autori/${item.slug}/`;
+                : `/it/autori/${item.slug}/`;
             },
             getItems() {
               return getAlgoliaResults({
@@ -217,7 +217,7 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
               item({ item, html }: any) {
                 const url = lang === 'en'
                   ? `/en/authors/${item.slug}/`
-                  : `/autori/${item.slug}/`;
+                  : `/it/autori/${item.slug}/`;
                 return html`
                   <a href="${url}" class="aa-ItemLink">
                     ${item.foto_url
