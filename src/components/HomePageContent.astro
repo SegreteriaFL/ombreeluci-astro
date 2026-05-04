@@ -187,7 +187,7 @@ const issuePeriodLabel = ultimoNumero
         <div>
           <p class="home-tagline">{t(lang, 'home_tagline')}</p>
           <div id="hero-pool">
-            {featuredPool.map((meta, i) => (
+            {latestArticles.map((meta, i) => (
               <article data-hero-candidate style={i > 0 ? 'display:none' : ''}>
                 <a href={`${articleBasePath}/${meta.slug}`}>
                   <figure class="home-featured-figure">
@@ -489,18 +489,25 @@ const issuePeriodLabel = ultimoNumero
 </main>
 
 <script>
-  // ── Hero slider — timer globale per evitare doppio setInterval con View Transitions ──
+  // ── Hero slider ───────────────────────────────────────────────────────────────
+  // Variabili module-level (sopravvivono tra navigazioni View Transitions)
   let _heroTimer: ReturnType<typeof setInterval> | null = null;
   let _heroCurrent = 0;
+  let _heroAbort: AbortController | null = null; // pulisce i listener dello slider
 
   function _heroStopTimer() {
     if (_heroTimer) { clearInterval(_heroTimer); _heroTimer = null; }
   }
 
   function initHeroSlider() {
-    _heroStopTimer(); // cancella sempre il timer precedente
+    _heroStopTimer();
 
-    // Rotazione random articolo featured
+    // Pulisce TUTTI i listener dello slider precedente (mouseenter, tab click, ecc.)
+    _heroAbort?.abort();
+    _heroAbort = new AbortController();
+    const { signal } = _heroAbort;
+
+    // Rotazione random articolo featured nella sezione sotto
     const candidates = document.querySelectorAll<HTMLElement>('[data-hero-candidate]');
     if (candidates.length > 1) {
       const idx = Math.floor(Math.random() * candidates.length);
@@ -516,10 +523,9 @@ const issuePeriodLabel = ultimoNumero
 
     _heroCurrent = 0;
 
-    // Trigger animazione progress bar sul primo tab (server-rendered senza transizione)
     const firstTab = tabs[0];
     firstTab.classList.remove('hero-tab--active');
-    void firstTab.offsetWidth; // force reflow
+    void firstTab.offsetWidth;
     firstTab.classList.add('hero-tab--active');
 
     function goTo(idx: number) {
@@ -554,21 +560,26 @@ const issuePeriodLabel = ultimoNumero
       _heroTimer = setInterval(() => goTo(_heroCurrent + 1), 5000);
     }
 
+    // Tutti i listener usano { signal } → vengono rimossi automaticamente su abort()
     tabs.forEach((tab, i) => {
-      tab.addEventListener('click', () => { goTo(i); _heroStopTimer(); startTimer(); });
+      tab.addEventListener('click', () => { goTo(i); _heroStopTimer(); startTimer(); }, { signal });
       tab.addEventListener('keydown', (e: KeyboardEvent) => {
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); goTo(i); _heroStopTimer(); startTimer(); }
-      });
+      }, { signal });
     });
 
-    slider.addEventListener('mouseenter', _heroStopTimer);
-    slider.addEventListener('mouseleave', startTimer);
-    slider.addEventListener('touchstart', _heroStopTimer, { passive: true });
+    slider.addEventListener('mouseenter', _heroStopTimer, { signal });
+    slider.addEventListener('mouseleave', startTimer, { signal });
+    slider.addEventListener('touchstart', _heroStopTimer, { passive: true, signal });
 
     startTimer();
   }
 
-  document.addEventListener('astro:page-load', initHeroSlider);
+  // Registra astro:page-load UNA SOLA VOLTA (window sopravvive alle View Transitions)
+  if (!(window as any).__heroListenerRegistered) {
+    (window as any).__heroListenerRegistered = true;
+    document.addEventListener('astro:page-load', initHeroSlider);
+  }
   initHeroSlider();
 
   // Carousel archivio
