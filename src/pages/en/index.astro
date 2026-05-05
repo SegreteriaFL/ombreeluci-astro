@@ -65,6 +65,7 @@ const numeriPerCarousel = numeriOEL.slice(0, 20);
 
 const allArticlesRaw = await getAllArticoliBuild();
 const allArticlesEN = allArticlesRaw.filter((a) => a.lang === 'en');
+const allArticlesIT = allArticlesRaw.filter((a) => a.lang !== 'en');
 
 const allAutori = await getAllAutori();
 const autoriById: Record<string, { foto_url?: string }> = Object.fromEntries(
@@ -107,6 +108,7 @@ function getArticleMeta(a: ArticoloItem) {
 }
 
 const sortedEN = sortByDate(allArticlesEN);
+const sortedIT = sortByDate(allArticlesIT);
 
 const twoYearsAgo = new Date();
 twoYearsAgo.setMonth(twoYearsAgo.getMonth() - 24);
@@ -156,23 +158,26 @@ const testimonianze = (testimonianzePoll.length >= 2
   : testimonianzePoll.slice(0, 2)
 ).filter(Boolean).map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
-// 5. ESPLORA — articoli EN, primo per categoria non ancora usato
-// usedSlugs EN garantisce zero ripetizioni con hero/recenti/testimonianze
+// 5. ESPLORA — articoli IT come immagini rappresentative di categoria
+// getMegaclusterForArticle localizza in base ad articolo.lang: per EN restituisce 'Family'
+// non 'Famiglia', quindi il confronto funziona solo con il pool IT.
+// Il titolo articolo (italiano) viene nascosto nel componente quando lang='en'.
+const usedSlugsIT = new Set<string>();
 const EXPLORE_CATEGORIES_IT = [
   'Fede e Luce', 'Famiglia', 'Spiritualità', 'Cultura',
   'Scuola e educazione', 'Salute', 'Lavoro', 'Personaggi che ispirano',
 ];
 
 const exploreItems = EXPLORE_CATEGORIES_IT.map((catLabelIT) => {
-  const article = sortedEN.find(
-    (a) => getMegaclusterForArticle(a).categoria_menu === catLabelIT && !usedSlugs.has(a.slug)
+  const article = sortedIT.find(
+    (a) => getMegaclusterForArticle(a).categoria_menu === catLabelIT && !usedSlugsIT.has(a.slug)
   );
   if (!article) return null;
   const slugIT = getCategorySlugForArticle(article);
   if (!slugIT) return null;
   const enSlug = getCategoriaUrlSlug(slugIT, 'en');
   if (!enSlug) return null;
-  usedSlugs.add(article.slug);
+  usedSlugsIT.add(article.slug);
   const catLabel = getCategoriaLabel(slugIT, 'en') || catLabelIT;
   return { catLabel, catUrl: `/en/category/${enSlug}`, meta: getArticleMeta(article) };
 }).filter((x): x is NonNullable<typeof x> => x !== null);

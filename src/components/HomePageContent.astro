@@ -357,7 +357,7 @@ const issuePeriodLabel = ultimoNumero
             </div>
             <div class="home-esplora-body">
               <p class="home-esplora-cat">{catLabel}</p>
-              <h3 class="home-esplora-title">{meta.title}</h3>
+              {lang !== 'en' && <h3 class="home-esplora-title">{meta.title}</h3>}
             </div>
           </a>
         ))}
