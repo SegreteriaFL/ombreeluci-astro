@@ -281,6 +281,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 | VERT-LISTING | ✅ | S | **Listing `/it/focus/` e `/en/focus/`** — live su main (commit `2d8cba4e`). `FocusListingContent.astro` componente condiviso IT/EN. |
 | VERT-SEARCH | 🟡 | M | **Focus nella ricerca Algolia** — le pagine focus non sono indicizzate. Aggiungere allo script come tipo `focus` con titolo, intro (HTML stripped), slug IT/EN. Prerequisito: VERT-01 con ≥4 pagine stabili — **ora soddisfatto (6 pagine)**. Fare dopo VERT-01 completo (8/8). |
 | B-12 | 🟡 | M | Rivalutazione ruoli editoriali per categoria (dopo B-04) |
+| UPTIME-CUTOVER | 🟡 | XS | **Aggiorna URL monitor UptimeRobot da staging a produzione via API** — sostituire `ombreeluci-staging.pages.dev` con `ombreeluci.it` nei 6 monitor (ID: 802995114, 802995136, 802995137, 802995138, 802995139, 802995143). 30 secondi via API. Fare contestualmente al cutover DNS. |
 | LINK-01 | 🟡 | S | 7 link IT↔EN ambigui + 11 no-match: `scripts/traduzione/logs/backfill_traduzione_link_20260408_231827.csv` |
 | V-05 | 🟡 | S | 35 articoli Jean Vanier con `tema_label = null`: riassegnare categoria in Directus |
 | UX-19 | ✅ | S | Pagine test eliminate (test-lista/minimal/no-articles/status), debug ha già noindex. Dead code `ArticleListRow.astro` eliminato. |
