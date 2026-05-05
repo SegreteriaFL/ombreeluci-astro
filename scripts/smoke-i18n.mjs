@@ -91,13 +91,13 @@ async function assertEnChrome(html, label) {
 async function main() {
   console.log(`SMOKE_BASE_URL=${BASE}${process.env.SMOKE_BASE_URL ? '' : ` (default ${DEFAULT_BASE}; se il dev usa un'altra porta, esporta SMOKE_BASE_URL)`}\n`);
 
-  const listing = await fetchText('/blog/en/');
+  const listing = await fetchText('/en/');
   if (listing.res.status !== 200) {
-    fail(`/blog/en/ → HTTP ${listing.res.status} (${listing.url})`);
+    fail(`/en/ → HTTP ${listing.res.status} (${listing.url})`);
   }
-  await assertNoItalianChrome(listing.text, '/blog/en/');
-  await assertEnChrome(listing.text, '/blog/en/');
-  ok('/blog/en/ — chrome EN senza residui IT noti');
+  await assertNoItalianChrome(listing.text, '/en/');
+  await assertEnChrome(listing.text, '/en/');
+  ok('/en/ — chrome EN senza residui IT noti');
 
   const articlePath = process.env.SMOKE_EN_ARTICLE?.trim();
   if (articlePath) {
