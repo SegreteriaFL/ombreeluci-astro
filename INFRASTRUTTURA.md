@@ -66,8 +66,10 @@ src/
 └── config/
     └── taxonomy.js          # Struttura temi/categorie/ruoli editoriali
 .github/workflows/
+├── smoke-post-deploy.yml    # Push main → 11 check staging + Slack alert
 ├── nightly-build.yml        # Build notturna 02:00 UTC + Slack alert
-└── update-snapshot.yml      # Aggiorna snapshot lunedì 01:00 UTC
+├── update-snapshot.yml      # Aggiorna snapshot lunedì 01:00 UTC
+└── sync-runbook.yml         # Push main → copia RUNBOOK.md su VPS
 ```
 
 ---
@@ -180,6 +182,19 @@ Istruzioni di configurazione complete in `docs/MONITORING.md`.
 | Archivio | `ombreeluci-staging.pages.dev/it/archivio/` | UptimeRobot (ID 802995139) | 15 min | Email | ✅ attivo 2026-05-05 |
 | Health endpoint | `ombreeluci-staging.pages.dev/api/health` | UptimeRobot (ID 802995143) | 5 min | Email | ✅ attivo 2026-05-05 |
 | Smoke post-deploy (11 check) | staging | GitHub Actions | ad ogni push main | Slack | ✅ deployato con MONITORING-01 |
+
+---
+
+## GitHub Actions — workflow attivi
+
+> Prima di aggiungerne di nuovi verificare che non esista già uno con funzione analoga in `.github/workflows/`.
+
+| Workflow | Trigger | Cosa fa |
+|---|---|---|
+| `smoke-post-deploy.yml` | push main | Attende deploy CF Pages (~3 min), esegue 11 check su staging (health, homepage IT/EN, articolo SSR, archivio, redirect legacy, sitemap, CMS ping), Slack alert su failure, artifact log 7 giorni |
+| `nightly-build.yml` | cron 02:00 UTC | Build notturna completa + Slack alert |
+| `update-snapshot.yml` | cron lunedì 01:00 UTC | Aggiorna `src/data/articoli_snapshot.json` (fallback build-time) |
+| `sync-runbook.yml` | push main | Copia `RUNBOOK.md` su VPS via SSH |
 
 ---
 
