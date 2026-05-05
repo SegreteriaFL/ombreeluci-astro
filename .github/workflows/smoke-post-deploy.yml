@@ -1,0 +1,188 @@
+name: Smoke post-deploy
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  BASE_URL: https://ombreeluci-staging.pages.dev
+  LOG: /tmp/smoke.txt
+
+jobs:
+  smoke:
+    name: Smoke test staging
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Attesa deploy CF Pages (~3 min)
+        run: sleep 200
+
+      - name: "Check 1 — Health endpoint"
+        id: c1
+        continue-on-error: true
+        run: |
+          echo "=== Check 1: Health endpoint ===" | tee -a $LOG
+          HTTP=$(curl -s -o /tmp/health.json -w "%{http_code}" "$BASE_URL/api/health")
+          echo "HTTP: $HTTP" | tee -a $LOG
+          cat /tmp/health.json | tee -a $LOG
+          echo "" | tee -a $LOG
+          [ "$HTTP" = "200" ] && grep -q '"status":"ok"' /tmp/health.json
+
+      - name: "Check 2 — Homepage IT"
+        id: c2
+        continue-on-error: true
+        run: |
+          echo "=== Check 2: Homepage IT ===" | tee -a $LOG
+          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/")
+          echo "HTTP: $HTTP" | tee -a $LOG
+          [ "$HTTP" = "200" ]
+
+      - name: "Check 3 — Homepage EN"
+        id: c3
+        continue-on-error: true
+        run: |
+          echo "=== Check 3: Homepage EN ===" | tee -a $LOG
+          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/en/")
+          echo "HTTP: $HTTP" | tee -a $LOG
+          [ "$HTTP" = "200" ]
+
+      - name: "Check 4 — Articolo SSR IT (ombre-e-luci)"
+        id: c4
+        continue-on-error: true
+        run: |
+          echo "=== Check 4: Articolo SSR IT ===" | tee -a $LOG
+          BODY=$(curl -sf "$BASE_URL/it/ombre-e-luci/")
+          INCIPIT="${BODY:0:15}"
+          echo "Incipit: $INCIPIT" | tee -a $LOG
+          echo "$INCIPIT" | grep -q "<!DOCTYPE" || { echo "FAIL: body inizia con [object Object] o simile" | tee -a $LOG; exit 1; }
+          echo "$BODY" | grep -q 'lang="it"' || { echo "FAIL: lang=it mancante" | tee -a $LOG; exit 1; }
+          echo "OK" | tee -a $LOG
+
+      - name: "Check 5 — Indice EN"
+        id: c5
+        continue-on-error: true
+        run: |
+          echo "=== Check 5: Indice EN ===" | tee -a $LOG
+          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/en/")
+          echo "HTTP: $HTTP" | tee -a $LOG
+          [ "$HTTP" = "200" ]
+
+      - name: "Check 6 — Archivio IT"
+        id: c6
+        continue-on-error: true
+        run: |
+          echo "=== Check 6: Archivio IT ===" | tee -a $LOG
+          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/it/archivio/")
+          echo "HTTP: $HTTP" | tee -a $LOG
+          [ "$HTTP" = "200" ]
+
+      - name: "Check 7 — Numero rivista SSR (oel-173)"
+        id: c7
+        continue-on-error: true
+        run: |
+          echo "=== Check 7: Numero rivista SSR ===" | tee -a $LOG
+          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/it/archivio/oel-173/")
+          echo "HTTP: $HTTP" | tee -a $LOG
+          [ "$HTTP" = "200" ]
+
+      - name: "Check 8 — Redirect /blog/ → /it/"
+        id: c8
+        continue-on-error: true
+        run: |
+          echo "=== Check 8: Redirect legacy ===" | tee -a $LOG
+          SLUG=$(python3 -c "import json; d=json.load(open('src/data/redirects-legacy.json')); print(list(d.keys())[0].strip('/'))")
+          echo "Slug: $SLUG" | tee -a $LOG
+          curl -sI -o /tmp/redir_hdrs.txt "$BASE_URL/blog/$SLUG/"
+          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/blog/$SLUG/")
+          echo "HTTP: $HTTP" | tee -a $LOG
+          cat /tmp/redir_hdrs.txt | tee -a $LOG
+          [ "$HTTP" = "301" ] && grep -i "location:" /tmp/redir_hdrs.txt | grep -q "/it/"
+
+      - name: "Check 9 — Sitemap IT"
+        id: c9
+        continue-on-error: true
+        run: |
+          echo "=== Check 9: Sitemap IT ===" | tee -a $LOG
+          BODY=$(curl -sf "$BASE_URL/sitemap.xml")
+          echo "$BODY" | grep -q "<loc>" || { echo "FAIL: <loc> mancante" | tee -a $LOG; exit 1; }
+          echo "OK" | tee -a $LOG
+
+      - name: "Check 10 — Sitemap EN"
+        id: c10
+        continue-on-error: true
+        run: |
+          echo "=== Check 10: Sitemap EN ===" | tee -a $LOG
+          BODY=$(curl -sf "$BASE_URL/sitemap-en.xml")
+          echo "$BODY" | grep -q "/en/" || { echo "FAIL: /en/ mancante in sitemap" | tee -a $LOG; exit 1; }
+          echo "OK" | tee -a $LOG
+
+      - name: "Check 11 — CMS ping diretto"
+        id: c11
+        continue-on-error: true
+        run: |
+          echo "=== Check 11: CMS ping diretto ===" | tee -a $LOG
+          BODY=$(curl -sf "https://cms.ombreeluci.it/server/ping")
+          echo "Response: $BODY" | tee -a $LOG
+          echo "$BODY" | grep -q "pong" || { echo "FAIL: pong mancante" | tee -a $LOG; exit 1; }
+          echo "OK" | tee -a $LOG
+
+      - name: Riepilogo risultati
+        if: always()
+        run: |
+          echo "" | tee -a $LOG
+          echo "=== Riepilogo ===" | tee -a $LOG
+          echo "c1  health:       ${{ steps.c1.outcome }}" | tee -a $LOG
+          echo "c2  home_it:      ${{ steps.c2.outcome }}" | tee -a $LOG
+          echo "c3  home_en:      ${{ steps.c3.outcome }}" | tee -a $LOG
+          echo "c4  article_it:   ${{ steps.c4.outcome }}" | tee -a $LOG
+          echo "c5  index_en:     ${{ steps.c5.outcome }}" | tee -a $LOG
+          echo "c6  archivio:     ${{ steps.c6.outcome }}" | tee -a $LOG
+          echo "c7  numero_ssr:   ${{ steps.c7.outcome }}" | tee -a $LOG
+          echo "c8  redirect:     ${{ steps.c8.outcome }}" | tee -a $LOG
+          echo "c9  sitemap_it:   ${{ steps.c9.outcome }}" | tee -a $LOG
+          echo "c10 sitemap_en:   ${{ steps.c10.outcome }}" | tee -a $LOG
+          echo "c11 cms_ping:     ${{ steps.c11.outcome }}" | tee -a $LOG
+
+      - name: Upload log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-log-${{ github.run_id }}
+          path: /tmp/smoke.txt
+          retention-days: 7
+
+      - name: Notifica Slack
+        if: >-
+          always() && (
+            steps.c1.outcome == 'failure' ||
+            steps.c2.outcome == 'failure' ||
+            steps.c3.outcome == 'failure' ||
+            steps.c4.outcome == 'failure' ||
+            steps.c5.outcome == 'failure' ||
+            steps.c6.outcome == 'failure' ||
+            steps.c7.outcome == 'failure' ||
+            steps.c8.outcome == 'failure' ||
+            steps.c9.outcome == 'failure' ||
+            steps.c10.outcome == 'failure' ||
+            steps.c11.outcome == 'failure'
+          )
+        run: |
+          if [ -z "${{ secrets.SLACK_WEBHOOK_URL }}" ]; then exit 0; fi
+          FAILURES=""
+          [ "${{ steps.c1.outcome }}"  = "failure" ] && FAILURES="$FAILURES c1(health)"
+          [ "${{ steps.c2.outcome }}"  = "failure" ] && FAILURES="$FAILURES c2(home_it)"
+          [ "${{ steps.c3.outcome }}"  = "failure" ] && FAILURES="$FAILURES c3(home_en)"
+          [ "${{ steps.c4.outcome }}"  = "failure" ] && FAILURES="$FAILURES c4(article_it)"
+          [ "${{ steps.c5.outcome }}"  = "failure" ] && FAILURES="$FAILURES c5(index_en)"
+          [ "${{ steps.c6.outcome }}"  = "failure" ] && FAILURES="$FAILURES c6(archivio)"
+          [ "${{ steps.c7.outcome }}"  = "failure" ] && FAILURES="$FAILURES c7(numero_ssr)"
+          [ "${{ steps.c8.outcome }}"  = "failure" ] && FAILURES="$FAILURES c8(redirect)"
+          [ "${{ steps.c9.outcome }}"  = "failure" ] && FAILURES="$FAILURES c9(sitemap_it)"
+          [ "${{ steps.c10.outcome }}" = "failure" ] && FAILURES="$FAILURES c10(sitemap_en)"
+          [ "${{ steps.c11.outcome }}" = "failure" ] && FAILURES="$FAILURES c11(cms_ping)"
+          curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"text\":\"⚠️ *OEL smoke post-deploy: check falliti*\nFalliti:$FAILURES\nDettagli: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"

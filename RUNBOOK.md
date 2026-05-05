@@ -197,3 +197,45 @@ curl -s "https://cms.ombreeluci.it/items/articoli?limit=1" \
 - Directus: `11.16.1` — in `/opt/oel-cms/docker-compose.yml`
 - PostgreSQL: `pgvector/pgvector:pg16`
 - Upgrade: test su staging → aggiorna compose → `docker compose pull && docker compose up -d`
+
+---
+
+## Monitoring e alert
+
+Documentazione completa in `docs/MONITORING.md`.
+
+### Canali di alert attivi
+
+| Canale | Trigger | Configurazione |
+|---|---|---|
+| Slack (webhook) | Build nightly fallita (`nightly-build.yml`) | Secret `SLACK_WEBHOOK_URL` su GitHub Actions |
+| Slack (webhook) | Smoke post-deploy: check falliti (`smoke-post-deploy.yml`) | Stesso secret `SLACK_WEBHOOK_URL` |
+| Email + Slack | UptimeRobot: CMS ping, Homepage IT, Health endpoint | ⚠️ da configurare su uptimerobot.com |
+| Email | UptimeRobot: Homepage EN, Articolo SSR, Archivio | ⚠️ da configurare su uptimerobot.com |
+
+### Verifica manuale stato del sistema
+
+```bash
+# Staging
+curl https://ombreeluci-staging.pages.dev/api/health | jq
+
+# Produzione (dopo cutover DNS)
+curl https://ombreeluci.it/api/health | jq
+```
+
+Il campo `status` restituisce `"ok"`, `"degraded"` o `"down"`. Vedere `docs/MONITORING.md` § "Come interpretare /api/health" per il dettaglio di ogni campo.
+
+### Silenziare temporaneamente gli alert UptimeRobot (manutenzione pianificata)
+
+1. Accedere a [uptimerobot.com](https://uptimerobot.com)
+2. Dashboard → selezionare i monitor da silenziare (checkbox)
+3. Bulk Actions → Pause monitors
+4. Al termine della manutenzione: stessa procedura → Resume monitors
+
+In alternativa, per silenziare solo gli alert senza stoppare il monitoring:
+Dashboard → monitor → Edit → Alert Contacts → rimuovere temporaneamente i contatti → Save.
+
+### Log smoke post-deploy
+
+Ogni run del workflow `smoke-post-deploy.yml` produce un artifact con il log completo (retention 7 giorni).
+GitHub → SegreteriaFL/ombreeluci-astro → Actions → "Smoke post-deploy" → run → Artifacts → `smoke-log-{run_id}`.

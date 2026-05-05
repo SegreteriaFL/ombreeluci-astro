@@ -111,10 +111,8 @@ Runbook completo: `/opt/oel-cms/RUNBOOK.md` sul server.
 
 ## Monitoring da configurare
 
-- **UptimeRobot** (gratuito): registrarsi su uptimerobot.com, aggiungere:
-  - `https://cms.ombreeluci.it/server/ping` ogni 5 min
-  - `https://ombreeluci.it/` ogni 10 min
-- **Slack alert build**: aggiungere secret `SLACK_WEBHOOK_URL` su GitHub → Actions
+- **UptimeRobot** (gratuito): istruzioni complete di configurazione in `docs/MONITORING.md` § "Configurazione UptimeRobot"
+- **Slack alert build**: aggiungere secret `SLACK_WEBHOOK_URL` su GitHub → Actions (usato anche dal workflow `smoke-post-deploy.yml`)
 
 ---
 
@@ -169,14 +167,18 @@ Runbook completo: `/opt/oel-cms/RUNBOOK.md` sul server.
 | Esito | ✅ OK |
 
 ### Monitor attivi
-| Endpoint | Strumento | Alert | Stato | Owner setup |
-|---|---|---|---|---|
-| `cms.ombreeluci.it/server/ping` | — | — | ⚠️ da configurare | — |
-| `ombreeluci.it/` | — | — | ⚠️ da configurare | — |
-| Build nightly GH Actions | GitHub Actions | Slack | ⚠️ secret `SLACK_WEBHOOK_URL` mancante | — |
 
-Per UptimeRobot: [uptimerobot.com](https://uptimerobot.com) → New Monitor → HTTP(s) → interval 5 min.
-Una volta configurato: aggiorna questa tabella con strumento, canale alert, owner, data.
+Istruzioni di configurazione complete in `docs/MONITORING.md`.
+
+| Monitor | URL | Strumento | Intervallo | Alert | Stato |
+|---|---|---|---|---|---|
+| CMS ping | `cms.ombreeluci.it/server/ping` | UptimeRobot | 5 min | Email + Slack | ⚠️ da configurare |
+| Homepage IT | `ombreeluci.it/` | UptimeRobot | 5 min | Email + Slack | ⚠️ da configurare |
+| Homepage EN | `ombreeluci.it/en/` | UptimeRobot | 10 min | Email | ⚠️ da configurare |
+| Articolo SSR | `ombreeluci.it/it/ombre-e-luci/` | UptimeRobot | 10 min | Email | ⚠️ da configurare |
+| Archivio | `ombreeluci.it/it/archivio/` | UptimeRobot | 15 min | Email | ⚠️ da configurare |
+| Health endpoint | `ombreeluci.it/api/health` | UptimeRobot | 5 min | Email + Slack | ⚠️ da configurare |
+| Smoke post-deploy (11 check) | staging | GitHub Actions | ad ogni push main | Slack | ✅ deployato con MONITORING-01 |
 
 ---
 

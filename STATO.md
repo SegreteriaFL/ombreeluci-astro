@@ -70,6 +70,14 @@
 
 ---
 
+## Fix recenti (2026-05-05)
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| — | **MONITORING-01** | Sistema di osservabilità a tre livelli: `src/pages/api/health.ts` (endpoint /api/health con 3 check paralleli Directus), `.github/workflows/smoke-post-deploy.yml` (11 check post-deploy via curl, artifact log 7gg, Slack alert), `docs/MONITORING.md` (architettura, istruzioni UptimeRobot, 6 monitor da configurare). Aggiornati: `INFRASTRUTTURA.md` (tabella Monitor attivi), `RUNBOOK.md` (sezione Monitoring e alert). |
+
+---
+
 ## Fix recenti (2026-05-04)
 
 | Commit | Area | Fix |
