@@ -103,28 +103,36 @@ function getArticleMeta(a: ArticoloItem) {
     sommario: a.sottotitolo?.trim() || undefined,
     categoria_menu: categoria_menu ?? undefined,
     issue: a.numero_rivista?.id_numero ?? null,
+    flagged: a.in_evidenza === true,
   };
 }
 
 const sortedEN = sortByDate(allArticlesEN);
 const sortedIT = sortByDate(allArticlesIT);
 
-const eighteenMonthsAgo = new Date();
-eighteenMonthsAgo.setMonth(eighteenMonthsAgo.getMonth() - 18);
+const twoYearsAgo = new Date();
+twoYearsAgo.setMonth(twoYearsAgo.getMonth() - 24);
 
 // Set globale: ogni slug aggiunto non ricompare in nessuna sezione successiva.
 const usedSlugs = new Set<string>();
 
-// 1. HERO SLIDER
-const featuredPool = (() => {
+// 1. HERO SLIDER — pool di 16: flaggati (in_evidenza=true) sempre primi,
+//    poi portanti/strutturali ultimi 24 mesi. Il JS client shuffla a ogni visita.
+const rotationPool = (() => {
   const withCover = sortedEN.filter((a) => !!getArticoloCopertinaSrc(a));
-  const portanti = withCover.filter((a) => {
+  const flagged = withCover.filter((a) => a.in_evidenza === true);
+  const algorithmic = withCover.filter((a) => {
+    if (a.in_evidenza === true) return false;
     const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(0);
     const { ruolo_editoriale } = getMegaclusterForArticle(a);
-    return (ruolo_editoriale === 'portante' || ruolo_editoriale === 'strutturale') && date >= eighteenMonthsAgo;
+    return (ruolo_editoriale === 'portante' || ruolo_editoriale === 'strutturale') && date >= twoYearsAgo;
   });
-  return (portanti.length >= 2 ? portanti : withCover).slice(0, 4);
+  const pool = [...flagged, ...algorithmic];
+  if (pool.length < 4) pool.push(...withCover.filter((a) => !pool.includes(a)));
+  return pool.slice(0, 16);
 })().map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
+
+const featuredPool = rotationPool.slice(0, 4);
 
 // 2. RECENTI — esclude hero
 const latestArticles = sortedEN
@@ -200,6 +208,7 @@ const exploreItems = EXPLORE_CATEGORIES_IT.map((catLabelIT) => {
   <HomePageContent
     lang="en"
     featuredPool={featuredPool}
+    rotationPool={rotationPool}
     latestArticles={latestArticles}
     diariCards={[]}
     closeUpArticles={closeUpArticles}

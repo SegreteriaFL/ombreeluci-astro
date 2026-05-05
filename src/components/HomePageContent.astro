@@ -13,6 +13,7 @@ interface ArticleMeta {
   sommario?: string;
   categoria_menu?: string;
   issue: string | null;
+  flagged?: boolean;
 }
 
 interface DiarioCard {
@@ -43,6 +44,7 @@ interface NumeroRecord {
 interface Props {
   lang: Locale;
   featuredPool: ArticleMeta[];
+  rotationPool?: ArticleMeta[];
   latestArticles: ArticleMeta[];
   diariCards: DiarioCard[];
   closeUpArticles: ArticleMeta[];
@@ -56,6 +58,7 @@ interface Props {
 const {
   lang,
   featuredPool,
+  rotationPool,
   latestArticles,
   diariCards,
   closeUpArticles,
@@ -176,6 +179,19 @@ const issuePeriodLabel = ultimoNumero
         ))}
       </ul>
     </nav>
+    {rotationPool && rotationPool.length > 4 && (
+      <script type="application/json" id="hero-rotation-pool" set:html={JSON.stringify(
+        rotationPool.map(m => ({
+          slug: m.slug,
+          title: m.title,
+          author: m.author,
+          authorAvatar: m.authorAvatar ?? null,
+          image: m.image,
+          categoria_menu: m.categoria_menu ?? null,
+          flagged: m.flagged ?? false,
+        }))
+      )} />
+    )}
   </section>
 
   <!-- ══════════════════════════════════════════════════════════
@@ -507,6 +523,55 @@ const issuePeriodLabel = ultimoNumero
   let _heroCur  = 0;                          // indice slide corrente
   let _heroAbort: AbortController | null = null;
 
+  // ── Shuffle Fisher-Yates ───────────────────────────────────────────────────
+  function shufflePool<T>(arr: T[]): T[] {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  // ── Aggiorna contenuto di un singolo slide dal pool ───────────────────────
+  type PoolItem = { slug: string; title: string; author: string; authorAvatar: string | null; image: string | null; categoria_menu: string | null; flagged: boolean };
+
+  function applyMetaToSlide(slide: HTMLElement, tab: HTMLElement | undefined, meta: PoolItem, basePath: string) {
+    const bg = slide.querySelector<HTMLElement>('.hero-slide-bg');
+    if (bg) bg.style.backgroundImage = meta.image ? `url('${meta.image}')` : '';
+
+    const metaEl = slide.querySelector<HTMLElement>('.hero-slide-meta');
+    if (metaEl) {
+      const existingImg = metaEl.querySelector<HTMLImageElement>('img.hero-avatar');
+      const existingSpan = metaEl.querySelector<HTMLElement>('span.hero-avatar');
+      if (meta.authorAvatar) {
+        if (existingImg) { existingImg.src = meta.authorAvatar; }
+        else if (existingSpan) {
+          existingSpan.outerHTML = `<img src="${meta.authorAvatar}" alt="" class="hero-avatar" width="40" height="40" loading="lazy">`;
+        }
+      } else {
+        const initial = meta.author.charAt(0);
+        if (existingSpan) { existingSpan.textContent = initial; }
+        else if (existingImg) {
+          existingImg.outerHTML = `<span class="hero-avatar hero-avatar--placeholder">${initial}</span>`;
+        }
+      }
+      const byline = metaEl.querySelector<HTMLElement>('.hero-byline-text');
+      if (byline) byline.innerHTML = `<strong>${meta.author}</strong>${meta.categoria_menu ? ` &middot; <span class="hero-cat-label">${meta.categoria_menu.replace(/-/g, ' ')}</span>` : ''}`;
+    }
+
+    const titleLink = slide.querySelector<HTMLAnchorElement>('.hero-title-link');
+    if (titleLink) { titleLink.href = `${basePath}/${meta.slug}`; titleLink.textContent = meta.title; }
+
+    const cta = slide.querySelector<HTMLAnchorElement>('.hero-cta');
+    if (cta) cta.href = `${basePath}/${meta.slug}`;
+
+    if (tab) {
+      const tabTitle = tab.querySelector<HTMLElement>('.hero-tab-title');
+      if (tabTitle) tabTitle.textContent = meta.title;
+    }
+  }
+
   function initHeroSlider() {
     // Pulizia completa: cancella animazione e tutti i listener precedenti
     _heroAnim?.cancel();
@@ -514,6 +579,28 @@ const issuePeriodLabel = ultimoNumero
     _heroAbort?.abort();
     _heroAbort = new AbortController();
     const { signal } = _heroAbort;
+
+    // ── Shuffle pool di rotazione a ogni visita ─────────────────────────────
+    const poolScript = document.getElementById('hero-rotation-pool');
+    if (poolScript) {
+      try {
+        const pool: PoolItem[] = JSON.parse(poolScript.textContent || '[]');
+        if (pool.length > 4) {
+          const flagged = shufflePool(pool.filter(p => p.flagged));
+          const rest    = shufflePool(pool.filter(p => !p.flagged));
+          const shuffled = [...flagged, ...rest];
+          const slider = document.querySelector<HTMLElement>('.home-hero-slider');
+          if (slider) {
+            const slides = Array.from(slider.querySelectorAll<HTMLElement>('.hero-slide'));
+            const tabs   = Array.from(slider.querySelectorAll<HTMLElement>('.hero-tab'));
+            const basePath = document.documentElement.lang === 'en' ? '/en' : '/it';
+            slides.forEach((slide, i) => {
+              if (shuffled[i]) applyMetaToSlide(slide, tabs[i], shuffled[i], basePath);
+            });
+          }
+        }
+      } catch (_) { /* JSON parse fallback — continua con SSR content */ }
+    }
 
     // Rotazione random articolo nella sezione sotto lo slider
     const candidates = document.querySelectorAll<HTMLElement>('[data-hero-candidate]');

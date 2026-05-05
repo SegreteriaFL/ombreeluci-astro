@@ -155,6 +155,7 @@ export interface ArticoloListItem {
   didascalia_copertina: string | null;
   categoria_menu: string | null;
   ruolo_editoriale: string | null;
+  in_evidenza: boolean | null;
   forma: string | null;
   tema_label: string | null;
   temi: Array<{ temi_id: TemaRef }>;
@@ -234,7 +235,7 @@ const ARTICOLO_LIST_FIELDS = [
   'id', 'wp_id', 'slug', 'lang', 'titolo', 'sottotitolo', 'stato',
   'data_pubblicazione', 'cluster_id', 'umap_x', 'umap_y', 'umap_z',
   'seo_title', 'seo_description',
-  'categoria_menu', 'ruolo_editoriale', 'forma', 'tema_label',
+  'categoria_menu', 'ruolo_editoriale', 'in_evidenza', 'forma', 'tema_label',
   'corpo', 'has_comments', 'original_url',
   'autore.id', 'autore.slug', 'autore.nome_completo',
   'autore.bio_html', 'autore.foto.id', 'autore.foto.filename_download',
