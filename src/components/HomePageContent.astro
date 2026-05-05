@@ -816,7 +816,7 @@ const issuePeriodLabel = ultimoNumero
     text-decoration: none;
     transition: background 0.2s ease, transform 0.2s ease;
   }
-  .hero-cta:hover { background: var(--accent-hover); transform: translateY(-1px); }
+  .hero-cta:hover { background: var(--accent-hover); filter: brightness(1.18); box-shadow: 0 4px 16px rgba(0,0,0,0.25); }
 
   /* ── Controls — struttura Nectar esatta ───────────────────────
      Replicato da:
@@ -1409,19 +1409,17 @@ const issuePeriodLabel = ultimoNumero
   }
   .home-carousel-btn {
     flex-shrink: 0;
-    width: 42px; height: 42px;
+    width: 40px; height: 40px;
     border: none; border-radius: 50%;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.14);
+    background: var(--accent-color);
     cursor: pointer;
     display: flex; align-items: center; justify-content: center;
-    transition: background 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
-    color: var(--accent-color);
+    transition: background 0.2s ease, transform 0.2s ease;
+    color: #fff;
   }
   .home-carousel-btn:hover {
-    background: var(--accent-color);
-    color: #fff;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.18);
+    background: var(--accent-hover);
+    transform: scale(1.08);
   }
   .home-carousel-track-wrap { flex: 1; min-width: 0; overflow: hidden; }
   .home-carousel-track {
