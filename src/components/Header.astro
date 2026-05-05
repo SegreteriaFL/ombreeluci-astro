@@ -639,6 +639,10 @@ const archivioLinks = [
       --header-height: 60px;
     }
 
+    .header {
+      box-shadow: none;
+    }
+
     .header-inner {
       padding: 0 1rem;
       gap: 0.75rem;
@@ -927,6 +931,11 @@ const archivioLinks = [
     background: #ffffff;
     border-radius: 3px;
     padding: 1px 5px;
+  }
+
+  /* Icona lente mobile: bianca su hero trasparente */
+  #site-header[data-hero="true"]:not(.header--scrolled):not(:has(#mega-menu[aria-hidden="false"])) .mobile-search-btn {
+    color: #ffffff;
   }
 
   /* ── Stato scrolled: opaco bianco (normale) ── */

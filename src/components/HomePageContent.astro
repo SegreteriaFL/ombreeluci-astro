@@ -903,7 +903,7 @@ const issuePeriodLabel = ultimoNumero
     text-decoration: none;
     transition: background 0.2s ease, transform 0.2s ease;
   }
-  .hero-cta:hover { background: var(--accent-hover); filter: brightness(1.18); box-shadow: 0 4px 16px rgba(0,0,0,0.25); }
+  .hero-cta:hover { background: var(--accent-hover); box-shadow: 0 4px 16px rgba(0,0,0,0.25); }
 
   /* ── Controls — struttura Nectar esatta ───────────────────────
      Replicato da:
@@ -1408,14 +1408,17 @@ const issuePeriodLabel = ultimoNumero
 
   .home-ultimo-numero {
     display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 3rem;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
     align-items: center;
     padding-bottom: 3rem;
   }
+  .home-rivista-cover-col {
+    order: -1;
+  }
   @media (max-width: 768px) {
     .home-ultimo-numero { grid-template-columns: 1fr; gap: 1.5rem; }
-    .home-rivista-cover-col { display: flex; justify-content: center; }
+    .home-rivista-cover-col { order: 0; display: flex; justify-content: center; }
   }
 
   .home-rivista-eyebrow {
@@ -1496,17 +1499,19 @@ const issuePeriodLabel = ultimoNumero
   }
   .home-carousel-btn {
     flex-shrink: 0;
-    width: 40px; height: 40px;
-    border: none; border-radius: 50%;
-    background: var(--accent-color);
+    width: 36px; height: 36px;
+    border: 1.5px solid var(--border-color);
+    border-radius: 8px;
+    background: #fff;
     cursor: pointer;
     display: flex; align-items: center; justify-content: center;
-    transition: background 0.2s ease, transform 0.2s ease;
-    color: #fff;
+    transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+    color: var(--text-color);
   }
   .home-carousel-btn:hover {
-    background: var(--accent-hover);
-    transform: scale(1.08);
+    border-color: var(--accent-color);
+    background: var(--accent-color);
+    color: #fff;
   }
   .home-carousel-track-wrap { flex: 1; min-width: 0; overflow: hidden; }
   .home-carousel-track {

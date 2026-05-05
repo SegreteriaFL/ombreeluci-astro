@@ -388,8 +388,15 @@ const ccLicenseLabel =
     }
 
     .footer-grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: 1.25rem;
+    }
+
+    /* Identità, Chi siamo e Temi: larghezza intera */
+    .footer-col-identity,
+    .footer-col:nth-child(2),
+    .footer-col-temi {
+      grid-column: 1 / -1;
     }
 
     .footer-col-identity {
@@ -403,6 +410,7 @@ const ccLicenseLabel =
     }
 
     .footer-bottom {
+      grid-column: 1 / -1;
       margin-top: 1.25rem;
       padding-top: 1rem;
     }

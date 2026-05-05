@@ -4,17 +4,39 @@ export interface Props {
   active?: string;
   /** Se true, i link puntano a #anchor sulla stessa pagina (pagina unica Chi Siamo) */
   useAnchors?: boolean;
+  lang?: 'it' | 'en';
 }
 
-const { active = '', useAnchors = true } = Astro.props;
+const { active = '', useAnchors = true, lang = 'it' } = Astro.props;
+
+const labels = {
+  it: {
+    rivista: 'La Rivista',
+    redazione: 'La Redazione',
+    storica: 'La Redazione storica',
+    collaboratori: 'Collaboratori',
+    hanno_scritto: 'Hanno scritto per noi',
+    contatti: 'Info e contatti redazione',
+  },
+  en: {
+    rivista: 'The Magazine',
+    redazione: 'The Editorial Team',
+    storica: 'Historical Editorial Team',
+    collaboratori: 'Contributors',
+    hanno_scritto: 'Have written for us',
+    contatti: 'Info & editorial contacts',
+  },
+}[lang];
+
+const aboutBase = lang === 'en' ? '/en/about' : '/it/chi-siamo';
 
 const links = [
-  { label: 'La Rivista', href: useAnchors ? '#top' : '/it/chi-siamo/la-rivista', slug: 'la-rivista' },
-  { label: 'La Redazione', href: useAnchors ? '#la-redazione' : '/it/chi-siamo/la-redazione', slug: 'la-redazione' },
-  { label: 'La Redazione storica', href: useAnchors ? '#redazione-storica' : '/it/chi-siamo/redazione-storica', slug: 'redazione-storica' },
-  { label: 'Collaboratori', href: useAnchors ? '#collaboratori' : '/it/chi-siamo/collaboratori', slug: 'collaboratori' },
-  { label: 'Hanno scritto per noi', href: useAnchors ? '#hanno-scritto-per-noi' : '/it/chi-siamo/hanno-scritto-per-noi', slug: 'hanno-scritto-per-noi' },
-  { label: 'Info e contatti redazione', href: useAnchors ? '#contatti' : '/it/chi-siamo/contatti', slug: 'contatti' },
+  { label: labels.rivista, href: useAnchors ? '#top' : `${aboutBase}/la-rivista`, slug: 'la-rivista' },
+  { label: labels.redazione, href: useAnchors ? '#la-redazione' : `${aboutBase}/la-redazione`, slug: 'la-redazione' },
+  { label: labels.storica, href: useAnchors ? '#redazione-storica' : `${aboutBase}/redazione-storica`, slug: 'redazione-storica' },
+  { label: labels.collaboratori, href: useAnchors ? '#collaboratori' : `${aboutBase}/collaboratori`, slug: 'collaboratori' },
+  { label: labels.hanno_scritto, href: useAnchors ? '#hanno-scritto-per-noi' : `${aboutBase}/hanno-scritto-per-noi`, slug: 'hanno-scritto-per-noi' },
+  { label: labels.contatti, href: useAnchors ? '#contatti' : `${aboutBase}/contatti`, slug: 'contatti' },
 ];
 ---
 
@@ -36,13 +58,32 @@ const links = [
 
 <script>
   (function () {
-    // Scroll-spy: evidenzia il link della sezione in viewport (solo su pagina unica con anchor)
     const sidebar = document.getElementById('chi-siamo-sidebar');
     if (!sidebar) return;
-    const links = sidebar.querySelectorAll('.about-sidebar-link[href^="/chi-siamo#"]');
-    if (links.length === 0) return;
 
-    const sectionIds = Array.from(links).map((a) => a.getAttribute('href')?.split('#')[1]).filter(Boolean);
+    // Smooth scroll per link anchor (#section)
+    sidebar.querySelectorAll<HTMLAnchorElement>('.about-sidebar-link[href^="#"]').forEach((a) => {
+      a.addEventListener('click', (e) => {
+        const hash = a.getAttribute('href');
+        if (!hash || !hash.startsWith('#')) return;
+        const target = hash === '#top' ? document.getElementById('top') || document.body : document.getElementById(hash.slice(1));
+        if (!target) return;
+        e.preventDefault();
+        const headerH = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-height') || '72', 10);
+        const top = target.getBoundingClientRect().top + window.scrollY - headerH - 16;
+        window.scrollTo({ top, behavior: 'smooth' });
+        history.pushState(null, '', hash);
+      });
+    });
+
+    // Scroll-spy: evidenzia il link della sezione in viewport
+    const anchorLinks = sidebar.querySelectorAll<HTMLAnchorElement>('.about-sidebar-link[href^="#"]');
+    if (anchorLinks.length === 0) return;
+
+    const sectionIds = Array.from(anchorLinks).map((a) => {
+      const h = a.getAttribute('href');
+      return h && h.startsWith('#') && h !== '#top' ? h.slice(1) : null;
+    }).filter(Boolean) as string[];
 
     function setActiveFromScroll() {
       const scrollY = window.scrollY;
@@ -54,8 +95,9 @@ const links = [
         const top = el.getBoundingClientRect().top + scrollY - headerH;
         if (scrollY >= top - 20) current = id;
       }
-      links.forEach((a) => {
-        const slug = a.getAttribute('href')?.split('#')[1];
+      anchorLinks.forEach((a) => {
+        const h = a.getAttribute('href');
+        const slug = h && h.startsWith('#') ? h.slice(1) : null;
         a.classList.toggle('about-sidebar-link--active', slug === current);
       });
     }
@@ -63,8 +105,8 @@ const links = [
     function setActiveFromHash() {
       const hash = window.location.hash.slice(1);
       if (hash && sectionIds.includes(hash)) {
-        links.forEach((a) => {
-          const slug = a.getAttribute('href')?.split('#')[1];
+        anchorLinks.forEach((a) => {
+          const slug = a.getAttribute('href')?.slice(1);
           a.classList.toggle('about-sidebar-link--active', slug === hash);
         });
         return true;

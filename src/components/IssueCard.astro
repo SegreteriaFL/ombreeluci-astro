@@ -93,17 +93,11 @@ const metaLine = metaParts.join(' · ');
     flex-direction: column;
     text-decoration: none;
     color: inherit;
-    background: #fff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: transparent;
+    border-radius: 0;
+    overflow: visible;
+    box-shadow: none;
     height: 100%;
-  }
-
-  .issue-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
   }
 
   .issue-card-image-wrapper {
@@ -111,6 +105,14 @@ const metaLine = metaParts.join(' · ');
     width: 100%;
     overflow: hidden;
     background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+  }
+
+  .issue-card:hover .issue-card-image-wrapper {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
   }
 
   .issue-card-image {
@@ -129,6 +131,7 @@ const metaLine = metaParts.join(' · ');
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 1rem;
+    border-radius: 10px;
   }
 
   .issue-card-placeholder-text {
@@ -143,11 +146,13 @@ const metaLine = metaParts.join(' · ');
   }
 
   .issue-card-content {
-    display: none;
+    display: block;
+    padding: 0.5rem 0.25rem 0;
+    background: transparent;
   }
 
   .issue-card-title {
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: 600;
     line-height: 1.4;
     margin: 0;
@@ -159,10 +164,8 @@ const metaLine = metaParts.join(' · ');
   }
 
   .issue-card-meta {
-    font-size: 0.8125rem;
+    font-size: 0.75rem;
     color: var(--accent-color);
-    margin: 0;
-    margin-top: auto;
-    padding-top: 0.375rem;
+    margin: 0.25rem 0 0;
   }
 </style>
