@@ -230,6 +230,11 @@ const archivioLinks = [
   :root {
     --header-height: 72px;
   }
+  @media (max-width: 768px) {
+    :root {
+      --header-height: 60px;
+    }
+  }
 </style>
 
 <style>
@@ -635,10 +640,6 @@ const archivioLinks = [
   }
 
   @media (max-width: 768px) {
-    :root {
-      --header-height: 60px;
-    }
-
     .header {
       box-shadow: none;
     }
