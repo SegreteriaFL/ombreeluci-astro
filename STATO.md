@@ -74,6 +74,7 @@
 
 | Commit | Area | Fix |
 |--------|------|-----|
+| — | **DOCS-01** | Riorganizzazione documentazione: `bug_ux_ui.md` — frontmatter e riferimenti componenti Astro per ogni bug; `CONTENUTI.md` — nuova sezione "Traduzioni AI — stato e regole" (stato batch, regole filologiche, modelli, fase II); `README.md` — tabella aggiornata con tutti i documenti attivi, sezione "File archiviati"; `docs/archive/` — già contiene PROGRESS, ARCH-04-PLAYBOOK, STATO_PROGETTO, TRADUZIONI con suffisso _legacy. |
 | — | **MONITORING-01** | Sistema di osservabilità a tre livelli: `src/pages/api/health.ts` (endpoint /api/health con 3 check paralleli Directus), `.github/workflows/smoke-post-deploy.yml` (11 check post-deploy via curl, artifact log 7gg, Slack alert), `docs/MONITORING.md` (architettura, istruzioni UptimeRobot, 6 monitor da configurare). Aggiornati: `INFRASTRUTTURA.md` (tabella Monitor attivi), `RUNBOOK.md` (sezione Monitoring e alert). |
 
 ---

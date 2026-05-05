@@ -349,3 +349,40 @@ DoD minimo: route pubblica su staging con slug identico, contenuto equivalente o
 ## Numeri rivista in EN (fase II)
 
 Le pagine archivio legate ai numeri della rivista cartacea (landing, sommari) non sono nel perimetro della traduzione AI iniziale. Seguono in fase II, dopo completamento e stabilizzazione del corpus articoli EN. Scope, gate e modello dati da definire quando si apre la fase.
+
+---
+
+## Traduzioni AI — stato e regole
+
+### Stato batch (aprile 2026)
+
+Pipeline IT→EN completata aprile 2026. **3339 articoli** tradotti con Haiku, tutti pubblicati.
+Quality gates superati (HTML valido ≥99.5%, link preservati 100%, collegamento IT↔EN 99.4%).
+**42 articoli** (traduzioni manuali originali) hanno ancora slug con suffisso `-en` — da rinominare con script batch (task SLUG-EN). La route EN usa lookup a due tentativi per compatibilità nel frattempo.
+
+### Regole filologiche obbligatorie
+
+Valgono per qualsiasi futura traduzione o editing degli articoli EN.
+
+**Terminologia disabilità — non modernizzare mai:**
+
+| Italiano originale | EN corretto | Non usare |
+|---|---|---|
+| spastico/a | spastic | person with spasticity |
+| subnormale | subnormal | intellectually disabled |
+| handicappato/a | handicapped | person with a disability |
+| mongoloide | mongoloid | person with Down syndrome |
+| ritardato/a | retarded | person with intellectual disability |
+
+**Grammatica non standard — non correggere:**
+Alcuni articoli sono scritti da bambini o persone con disabilità cognitiva. Preservare il livello di irregolarità grammaticale dell'originale. Non "riparare" la lingua.
+
+### Modelli e workflow
+
+- **Corpus base:** `claude-haiku-4-5-20251001` — costo ~€25-45 per IT→EN su corpus completo
+- **Upgrade selettivo:** `claude-sonnet-4-6` per articoli prioritari post-lancio (qualità "rivista internazionale")
+- **Secondo pass editoriale:** campionamento redazionale su articoli prioritari dopo lancio
+
+### Fase II — pagine numeri rivista
+
+Le landing dei numeri della rivista cartacea non rientrano nella traduzione AI iniziale. Da pianificare in fase II, dopo stabilizzazione corpus articoli EN. Scope e gate da definire quando si apre la fase.

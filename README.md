@@ -8,13 +8,20 @@ Sito archivio della rivista cattolica Ombre e Luci (1983–oggi). 3527 articoli,
 
 | Cosa cerchi | Documento |
 |---|---|
-| Stato attuale, cosa fare ora, blockers | `STATO.md` |
+| Stato attuale, task aperti, blockers | `STATO.md` |
 | Come si lavora, regole operative, gate | `WORKING.md` |
 | Regole architetturali, componenti, i18n | `CLAUDE.md` |
-| Contenuti, lingue, ricerca, traduzioni | `CONTENUTI.md` |
+| Contenuti, lingue, traduzioni, Algolia | `CONTENUTI.md` |
 | Stack, deploy, backup, env vars | `INFRASTRUTTURA.md` |
-| Incident playbook, restore DB | `RUNBOOK.md` |
+| Incident playbook, restore DB, monitoring | `RUNBOOK.md` |
+| Bug visivi e UX da risolvere | `bug_ux_ui.md` |
+| Sistema di monitoring (dettaglio) | `docs/MONITORING.md` |
 | Regole editoriali (per la redazione) | `NORME_EDITORIALI_OEL.md` |
+
+## File archiviati
+
+`docs/archive/` contiene documentazione storica (sessioni precedenti, playbook obsoleti,
+pipeline completate). Non leggere per lavoro corrente — solo per riferimento storico se necessario.
 
 ## Comandi principali
 
