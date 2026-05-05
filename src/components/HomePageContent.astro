@@ -95,7 +95,7 @@ function formatRelative(d: Date): string {
 }
 
 const archiveBasePath = lang === 'en' ? '/en/archive' : '/it/archivio';
-const diariesPath = lang === 'en' ? '/en/authors' : '/sezioni/diari';
+const diariesPath = lang === 'en' ? '/en/sections/diaries/' : '/it/rubriche/diari/';
 const supportPath = lang === 'en' ? '/en/support' : '/it/sostienici';
 const contactPath = lang === 'en' ? '/en/contact' : '/it/chi-siamo/contatti';
 
@@ -269,25 +269,32 @@ const issuePeriodLabel = ultimoNumero
             {diariCards.length > 0
               ? diariCards.map(({ diarista, meta, fotoUrl }) => (
                   <a href={`${articleBasePath}/${meta.slug}`} class="home-diario-card">
-                    <div class="home-diario-avatar">
+                    <div class="home-diario-cover">
                       {fotoUrl
                         ? <img src={fotoUrl} alt={diarista.nome} loading="lazy" />
-                        : <div class="home-diario-avatar-placeholder">{diarista.nome.charAt(0)}</div>
+                        : <div class="home-diario-cover-placeholder">{diarista.nome.charAt(0)}</div>
                       }
                     </div>
-                    <p class="home-diario-nome">{diarista.nome}</p>
-                    <h3 class="home-diario-titolo">{meta.title}</h3>
-                    <p class="home-diario-date">{formatRelative(meta.date)}</p>
+                    <div class="home-diario-body">
+                      <p class="home-diario-nome">{diarista.nome}</p>
+                      <h3 class="home-diario-titolo">{meta.title}</h3>
+                      <p class="home-diario-date">{formatRelative(meta.date)}</p>
+                    </div>
                   </a>
                 ))
               : closeUpArticles.map((meta) => (
                   <a href={`${articleBasePath}/${meta.slug}`} class="home-diario-card">
-                    <div class="home-diario-avatar">
-                      <div class="home-diario-avatar-placeholder">{meta.author.charAt(0)}</div>
+                    <div class="home-diario-cover">
+                      {meta.image
+                        ? <img src={meta.image} alt="" loading="lazy" />
+                        : <div class="home-diario-cover-placeholder">{meta.author.charAt(0)}</div>
+                      }
                     </div>
-                    <p class="home-diario-nome">{meta.author}</p>
-                    <h3 class="home-diario-titolo">{meta.title}</h3>
-                    <p class="home-diario-date">{formatRelative(meta.date)}</p>
+                    <div class="home-diario-body">
+                      <p class="home-diario-nome">{meta.author}</p>
+                      <h3 class="home-diario-titolo">{meta.title}</h3>
+                      <p class="home-diario-date">{formatRelative(meta.date)}</p>
+                    </div>
                   </a>
                 ))
             }
@@ -1173,57 +1180,65 @@ const issuePeriodLabel = ultimoNumero
   .home-diari-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.75rem;
-    margin-bottom: 0.75rem;
+    gap: 1rem;
   }
 
   .home-diario-card {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 0.55rem;
-    padding: 1rem;
-    background: #fff;
-    border: 1px solid var(--border-color);
-    border-radius: 10px;
     text-decoration: none;
     color: inherit;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
     transition: border-color 0.2s, box-shadow 0.2s, transform 0.18s;
-    min-height: 130px;
   }
   .home-diario-card:hover {
     border-color: var(--accent-color);
-    box-shadow: 0 4px 14px rgba(0,0,0,0.07);
-    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    transform: translateY(-3px);
   }
   .home-diario-card:hover .home-diario-titolo { color: var(--accent-color); }
 
-  .home-diario-avatar {
-    width: 40px; height: 40px;
-    border-radius: 50%;
+  /* Cover image — piena larghezza, aspetto 4:3 */
+  .home-diario-cover {
+    width: 100%;
+    aspect-ratio: 4 / 3;
     overflow: hidden;
-    background: var(--border-color);
+    background: var(--bg-light);
     flex-shrink: 0;
   }
-  .home-diario-avatar img { width: 100%; height: 100%; object-fit: cover; }
-  .home-diario-avatar-placeholder {
+  .home-diario-cover img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.35s ease; }
+  .home-diario-card:hover .home-diario-cover img { transform: scale(1.04); }
+  .home-diario-cover-placeholder {
     width: 100%; height: 100%;
     display: flex; align-items: center; justify-content: center;
-    font-size: 1rem; font-weight: 700; color: var(--text-secondary);
-    background: var(--bg-light);
+    font-size: 2.5rem; font-weight: 700;
+    color: var(--text-secondary);
+    background: var(--bg-cream);
+  }
+
+  /* Body testo sotto la cover */
+  .home-diario-body {
+    padding: 0.75rem 0.9rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    flex: 1;
   }
 
   .home-diario-nome {
-    font-size: 0.65rem;
+    font-size: 0.63rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.07em;
-    color: var(--text-secondary);
+    letter-spacing: 0.08em;
+    color: var(--accent-color);
     margin: 0;
   }
   .home-diario-titolo {
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     font-weight: 600;
     line-height: 1.4;
     color: var(--text-color);
@@ -1236,7 +1251,7 @@ const issuePeriodLabel = ultimoNumero
     overflow: hidden;
   }
   .home-diario-date {
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     color: var(--text-secondary);
     margin: 0;
   }
@@ -1634,7 +1649,6 @@ const issuePeriodLabel = ultimoNumero
   @media (max-width: 480px) {
     .home-container { padding: 0 1rem; }
     .home-diari-grid { grid-template-columns: 1fr; }
-    .home-diario-card { min-height: auto; }
     .home-rivista-cover { width: 160px; }
     .home-unisciti-grid { gap: 0.875rem; }
     .home-unisciti-card { padding: 1.25rem 1rem 1rem; }

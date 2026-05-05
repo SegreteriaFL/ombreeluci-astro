@@ -65,7 +65,6 @@ const numeriPerCarousel = numeriOEL.slice(0, 20);
 
 const allArticlesRaw = await getAllArticoliBuild();
 const allArticlesEN = allArticlesRaw.filter((a) => a.lang === 'en');
-const allArticlesIT = allArticlesRaw.filter((a) => a.lang !== 'en');
 
 const allAutori = await getAllAutori();
 const autoriById: Record<string, { foto_url?: string }> = Object.fromEntries(
@@ -108,7 +107,6 @@ function getArticleMeta(a: ArticoloItem) {
 }
 
 const sortedEN = sortByDate(allArticlesEN);
-const sortedIT = sortByDate(allArticlesIT);
 
 const twoYearsAgo = new Date();
 twoYearsAgo.setMonth(twoYearsAgo.getMonth() - 24);
@@ -146,36 +144,37 @@ const closeUpArticles = sortedEN
   .slice(0, 4)
   .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
-// 4. TESTIMONIANZE — esclude tutto il sopra
-const testimonianze = sortedEN
+// 4. TESTIMONIANZE — pool top-10, rotazione giornaliera
+const testimonianzePoll = sortedEN
   .filter((a) => getLabels([], a).formal === 'Testimonianza' && !usedSlugs.has(a.slug))
-  .slice(0, 2)
-  .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
+  .slice(0, 10);
+const _tDay = Math.floor(Date.now() / 86400000);
+const _t0 = _tDay % Math.max(testimonianzePoll.length, 1);
+const _t1 = (_tDay + 1) % Math.max(testimonianzePoll.length, 1);
+const testimonianze = (testimonianzePoll.length >= 2
+  ? [testimonianzePoll[_t0], testimonianzePoll[_t1]]
+  : testimonianzePoll.slice(0, 2)
+).filter(Boolean).map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
-// 5. ESPLORA — articoli IT come immagini rappresentative di categoria (bug categoria EN noto)
-// usedSlugs EN non si applica qui (pool IT separato), ma evitiamo duplicati nel pool IT
-const usedSlugsIT = new Set<string>();
+// 5. ESPLORA — articoli EN, primo per categoria non ancora usato
+// usedSlugs EN garantisce zero ripetizioni con hero/recenti/testimonianze
 const EXPLORE_CATEGORIES_IT = [
   'Fede e Luce', 'Famiglia', 'Spiritualità', 'Cultura',
   'Scuola e educazione', 'Salute', 'Lavoro', 'Personaggi che ispirano',
 ];
 
 const exploreItems = EXPLORE_CATEGORIES_IT.map((catLabelIT) => {
-  const article = sortedIT.find(
-    (a) => getMegaclusterForArticle(a).categoria_menu === catLabelIT && !usedSlugsIT.has(a.slug)
+  const article = sortedEN.find(
+    (a) => getMegaclusterForArticle(a).categoria_menu === catLabelIT && !usedSlugs.has(a.slug)
   );
   if (!article) return null;
   const slugIT = getCategorySlugForArticle(article);
   if (!slugIT) return null;
   const enSlug = getCategoriaUrlSlug(slugIT, 'en');
   if (!enSlug) return null;
-  usedSlugsIT.add(article.slug);
+  usedSlugs.add(article.slug);
   const catLabel = getCategoriaLabel(slugIT, 'en') || catLabelIT;
-  return {
-    catLabel,
-    catUrl: `/en/category/${enSlug}`,
-    meta: getArticleMeta(article),
-  };
+  return { catLabel, catUrl: `/en/category/${enSlug}`, meta: getArticleMeta(article) };
 }).filter((x): x is NonNullable<typeof x> => x !== null);
 ---
 
