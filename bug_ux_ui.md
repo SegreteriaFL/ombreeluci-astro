@@ -14,43 +14,44 @@ I bug per sezione (home, archivio, ecc.) sono localizzati e indipendenti tra lor
 
 
 ## Generale
-[] transizioni tra una pagina e l'altra morbide e elegnati
+[x] transizioni tra una pagina e l'altra morbide e eleganti (732d8280)
 
 ## home
 
-[] button hover hero slider tutto verde --> deve essere uguale a  contribuisci
+[x] button hover hero slider tutto verde --> deve essere uguale a  contribuisci (732d8280)
 // file: src/components/HomePageContent.astro (classe .hero-cta, sezione hero-controls)
-[] home-rivista-section diesgnare meglio, avvicinare elementi, foto troppo a dx vuoto in mezzo; forrse invertire foto a sx e testo a dx?=
+[x] home-rivista-section diesgnare meglio, avvicinare elementi, foto troppo a dx vuoto in mezzo; forrse invertire foto a sx e testo a dx?= (732d8280)
 // file: src/components/HomePageContent.astro
-[] home-archivio-strip frecce non si vedono, ovali, brutto da navigare
+[x] home-archivio-strip frecce non si vedono, ovali, brutto da navigare (732d8280)
 // file: src/components/HomePageContent.astro
 [] articolo diari non si capisce a che diario appartiene, deve essere chiaro e evidente con link alla home diario
 // file: src/layouts/ArticlePageLayout.astro
-[] mobile didascalia aggiungere margin sx
+// POSTICIPATO — screenshot in arrivo
+[x] mobile didascalia aggiungere margin sx (732d8280)
 // file: src/layouts/ArticlePageLayout.astro
-[] mobile footer fix allineamento colonne --> info e privacy accanto a rubriche 
+[x] mobile footer fix allineamento colonne --> info e privacy accanto a rubriche (732d8280)
 // file: src/components/Footer.astro
-[] mobile elimina riga bianca bottom header 
+[x] mobile elimina riga bianca bottom header (732d8280)
 // file: src/components/Header.astro
-[] mobile header trasparente icona lente cerca è nera
+[x] mobile header trasparente icona lente cerca è nera (732d8280)
 // file: src/components/Header.astro
 
 
 ## archivio
-[] .issue-card[data-astro-cid-afktgyng] disattiva background; 
+[x] .issue-card[data-astro-cid-afktgyng] disattiva background (732d8280)
 // file: src/components/IssueCard.astro
-[] associare box shadow e border radius all'img issue-card-image
+[x] associare box shadow e border radius all'img issue-card-image (732d8280)
 // file: src/components/IssueCard.astro
-[] issue-card-content senza sfondo
+[x] issue-card-content senza sfondo (732d8280)
 // file: src/components/IssueCard.astro
-[] hover con transition solo su img
+[x] hover con transition solo su img (732d8280)
 // file: src/components/IssueCard.astro
 
 ## Chi siamo
-[] traduzione menu laterale
-// file: src/components/ChiSiamoContent.astro
-[] transizioni al click sul menu laterale
-// file: src/components/ChiSiamoContent.astro
+[x] traduzione menu laterale (732d8280)
+// file: src/components/AboutSidebar.astro (etichette EN; lang passato da ChiSiamoContent)
+[x] transizioni al click sul menu laterale (732d8280)
+// file: src/components/AboutSidebar.astro (smooth scroll con scrollTo behavior:smooth)
 
 
 

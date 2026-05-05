@@ -247,6 +247,35 @@ img {
   /* Stesso stile per tutti i ruoli; classi mantenute solo per eventuali usi futuri */
 }
 
+/* ── View Transitions — fade uniforme ─────────────────────────────────────────
+   Astro ViewTransitions sostituisce l'intera pagina: old esce, new entra.
+   Fade semplice con leggero shift verso l'alto sull'entrata.
+   Il contenuto non è visibile fino al completamento della transizione:
+   astro:before-swap → old-root a opacity 0, astro:page-load → new-root a 1.
+─────────────────────────────────────────────────────────────────────────────── */
+@keyframes vt-fade-out {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+@keyframes vt-fade-in {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+::view-transition-old(root) {
+  animation: 160ms ease-in both vt-fade-out;
+}
+::view-transition-new(root) {
+  animation: 260ms ease-out both vt-fade-in;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}
+
 /* ── Capolettera ─────────────────────────────────────────────────────────────── */
 span.capolettera {
   font-weight: 900;
