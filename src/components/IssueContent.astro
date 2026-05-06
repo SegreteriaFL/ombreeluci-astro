@@ -173,11 +173,10 @@ const isUltimoNumero = numero.id_numero === ultimoNumeroData.id_numero;
         <h2 class="articles-title">{t(lang, 'issue_articles_heading')}</h2>
         <p class="articles-count">
           {articoliDisplay.length} {articoliDisplay.length === 1 ? (lang === 'en' ? 'article' : 'articolo') : (lang === 'en' ? 'articles' : 'articoli')}
-          {lang === 'it' && articoliEnExtra.length > 0 && ` · ${articoliEnExtra.length} in English`}
         </p>
       </div>
 
-      {(articoliDisplay.length > 0 || articoliEnExtra.length > 0) ? (
+      {articoliDisplay.length > 0 ? (
         <>
           <div class="articles-grid">
             {articoliDisplay.map((a) => {
@@ -202,33 +201,6 @@ const isUltimoNumero = numero.id_numero === ultimoNumeroData.id_numero;
             })}
           </div>
 
-          {articoliEnExtra.length > 0 && (
-            <div class="english-edition-section">
-              <h2>{englishEditionLabel}</h2>
-              <div class="articles-grid">
-                {articoliEnExtra.map((a) => {
-                  const articleDate = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date();
-                  const { categoria_menu } = getMegaclusterForArticle(a);
-                  const { formal } = getLabels([], a);
-                  const articleImage = getArticoloCopertinaSrc(a);
-                  return (
-                    <ArticleCard
-                      title={a.titolo}
-                      slug={a.slug}
-                      categoriaMenu={categoria_menu ?? undefined}
-                      issue={a.numero_rivista?.id_numero ?? null}
-                      forma={formal}
-                      author={a.autore?.nome_completo ?? 'Unknown author'}
-                      date={articleDate}
-                      image={articleImage}
-                      basePath="/en"
-                      lang="en"
-                    />
-                  );
-                })}
-              </div>
-            </div>
-          )}
         </>
       ) : (
         <div class="no-articles">

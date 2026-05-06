@@ -416,35 +416,23 @@ const issuePeriodLabel = ultimoNumero
       <div class="home-archivio-strip">
         <div class="home-container">
           <h3 class="section-title">{t(lang, 'home_magazine_all_issues')}</h3>
-          <div class="home-carousel-wrap">
-            <button type="button" class="home-carousel-btn home-carousel-prev" aria-label="Previous">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M15 18l-6-6 6-6"/>
-              </svg>
-            </button>
-            <div class="home-carousel-track-wrap">
-              <div class="home-carousel-track" id="home-carousel-track">
-                {numeriPerCarousel.map((n) => (
-                  <div class="home-carousel-item">
-                    <IssueCard
-                      cover_url={n.copertina_url ?? undefined}
-                      titolo_numero={n.titolo_numero ?? n.display_title ?? `Ombre e Luci n. ${n.numero_progressivo}`}
-                      numero={n.numero_progressivo ?? 0}
-                      anno={n.anno_pubblicazione ?? 0}
-                      periodo_label={n.periodo_label ?? undefined}
-                      tipo_rivista={n.tipo_rivista ?? 'ombre_e_luci'}
-                      id_numero={n.id_numero ?? ''}
-                      lang={lang}
-                    />
-                  </div>
-                ))}
-              </div>
+          <div class="home-carousel-track-wrap">
+            <div class="home-carousel-track" id="home-carousel-track">
+              {numeriPerCarousel.map((n) => (
+                <div class="home-carousel-item">
+                  <IssueCard
+                    cover_url={n.copertina_url ?? undefined}
+                    titolo_numero={n.titolo_numero ?? n.display_title ?? `Ombre e Luci n. ${n.numero_progressivo}`}
+                    numero={n.numero_progressivo ?? 0}
+                    anno={n.anno_pubblicazione ?? 0}
+                    periodo_label={n.periodo_label ?? undefined}
+                    tipo_rivista={n.tipo_rivista ?? 'ombre_e_luci'}
+                    id_numero={n.id_numero ?? ''}
+                    lang={lang}
+                  />
+                </div>
+              ))}
             </div>
-            <button type="button" class="home-carousel-btn home-carousel-next" aria-label="Next">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M9 18l6-6-6-6"/>
-              </svg>
-            </button>
           </div>
           <p style="margin-top: 0.75rem;">
             <a href={archiveBasePath} class="home-link-more">{t(lang, 'home_magazine_archive_link')}</a>
@@ -715,20 +703,6 @@ const issuePeriodLabel = ultimoNumero
   }
   initHeroSlider();
 
-  // Carousel archivio
-  (function () {
-    const track = document.getElementById('home-carousel-track');
-    const prev = document.querySelector<HTMLElement>('.home-carousel-prev');
-    const next = document.querySelector<HTMLElement>('.home-carousel-next');
-    if (!track || !prev || !next) return;
-    const scroll = (180 + 20) * 2;
-    prev.addEventListener('click', () => track.scrollBy({ left: -scroll, behavior: 'smooth' }));
-    next.addEventListener('click', () => track.scrollBy({ left: scroll, behavior: 'smooth' }));
-    let iv = setInterval(() => track.scrollBy({ left: scroll, behavior: 'smooth' }), 4000);
-    const stop = () => clearInterval(iv);
-    track.addEventListener('mouseenter', stop);
-    track.addEventListener('touchstart', stop, { passive: true });
-  })();
 </script>
 
 <style is:global>
@@ -1506,29 +1480,7 @@ const issuePeriodLabel = ultimoNumero
     padding: 2rem 0 2.5rem;
   }
 
-  .home-carousel-wrap {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin-top: 0.5rem;
-  }
-  .home-carousel-btn {
-    flex-shrink: 0;
-    width: 36px; height: 36px;
-    border: 1.5px solid var(--border-color);
-    border-radius: 8px;
-    background: #fff;
-    cursor: pointer;
-    display: flex; align-items: center; justify-content: center;
-    transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
-    color: var(--text-color);
-  }
-  .home-page .home-carousel-btn:hover {
-    border-color: var(--accent-color);
-    background: var(--accent-color);
-    color: #fff;
-  }
-  .home-carousel-track-wrap { flex: 1; min-width: 0; overflow: hidden; }
+  .home-carousel-track-wrap { overflow: hidden; margin-top: 0.5rem; }
   .home-carousel-track {
     display: flex;
     gap: 1.25rem;
