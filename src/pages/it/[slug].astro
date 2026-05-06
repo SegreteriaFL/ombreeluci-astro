@@ -649,7 +649,7 @@ const relatedArticles = (() => {
         {articolo.tags?.filter((t) => t.tags_id).length > 0 && (
           <nav class="article-tags-list" aria-label="Tag">
             {articolo.tags.filter((t) => t.tags_id).map((t) => (
-              <a href={`/tag/${t.tags_id.slug}`} class="article-tag-link">{t.tags_id.nome}</a>
+              <a href={`/it/tag/${t.tags_id.slug}`} class="article-tag-link">{t.tags_id.nome}</a>
             ))}
           </nav>
         )}
