@@ -391,7 +391,7 @@ Le landing dei numeri della rivista cartacea non rientrano nella traduzione AI i
 
 ## Didascalie foto articolo — campo `didascalia_copertina`
 
-Campo Directus: `didascalia_copertina` (stringa, plain text o HTML).
+Campo Directus: `didascalia_copertina` (tipo `text`, plain text o HTML, lunghezza illimitata). Originariamente `varchar(255)` — ampliato a `text` il 2026-05-06 per supportare URL lunghi (es. link Unsplash con parametri UTM).
 
 **Supporto HTML attivo** (dal 2026-05-06): il campo è reso con `set:html` — la redazione può inserire HTML nella didascalia. Sia route IT (`/it/[slug].astro`) che EN (`/en/[slug].astro`) lo supportano.
 
