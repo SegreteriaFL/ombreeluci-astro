@@ -538,7 +538,7 @@ const relatedArticles = (() => {
           {heroCaption && (
             <div class="article-image-caption">
               <img src="https://www.ombreeluci.it/wp-content/uploads/2023/10/icon-camera.png" alt="" class="caption-camera-icon" aria-hidden="true" />
-              {heroCaption}
+              <span set:html={heroCaption} />
             </div>
           )}
         </div>

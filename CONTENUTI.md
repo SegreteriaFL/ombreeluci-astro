@@ -358,7 +358,7 @@ Le pagine archivio legate ai numeri della rivista cartacea (landing, sommari) no
 
 Pipeline IT→EN completata aprile 2026. **3339 articoli** tradotti con Haiku, tutti pubblicati.
 Quality gates superati (HTML valido ≥99.5%, link preservati 100%, collegamento IT↔EN 99.4%).
-**42 articoli** (traduzioni manuali originali) hanno ancora slug con suffisso `-en` — da rinominare con script batch (task SLUG-EN). La route EN usa lookup a due tentativi per compatibilità nel frattempo.
+**42 articoli** (traduzioni manuali originali) hanno ancora slug con suffisso `-en`. Il suffisso è strutturalmente necessario: Directus ha un unico campo `slug` per tutta la tabella, tutti e 42 confliggono con l'omonimo articolo IT. Task SLUG-EN chiuso. La route EN usa lookup a due tentativi.
 
 ### Regole filologiche obbligatorie
 
@@ -386,3 +386,30 @@ Alcuni articoli sono scritti da bambini o persone con disabilità cognitiva. Pre
 ### Fase II — pagine numeri rivista
 
 Le landing dei numeri della rivista cartacea non rientrano nella traduzione AI iniziale. Da pianificare in fase II, dopo stabilizzazione corpus articoli EN. Scope e gate da definire quando si apre la fase.
+
+---
+
+## Didascalie foto articolo — campo `didascalia_copertina`
+
+Campo Directus: `didascalia_copertina` (stringa, plain text o HTML).
+
+**Supporto HTML attivo** (dal 2026-05-06): il campo è reso con `set:html` — la redazione può inserire HTML nella didascalia. Sia route IT (`/it/[slug].astro`) che EN (`/en/[slug].astro`) lo supportano.
+
+### Esempi di utilizzo nel campo CMS
+
+```html
+Foto di <a href="https://example.com/fotografo">Mario Rossi</a> — CC BY 2.0
+```
+
+```html
+© Archivio <em>Ombre e Luci</em> — tutti i diritti riservati
+```
+
+```html
+Da sinistra: Giovanni, Maria e Luca durante il campo estivo di <a href="https://www.fedeeluce.it">Fede e Luce</a>
+```
+
+### Note
+- Il campo accetta qualsiasi HTML, ma la redazione deve usare solo tag semplici: `<a>`, `<em>`, `<strong>`, `<br>`.
+- Non inserire `<script>`, `<img>` o tag strutturali — il campo è accessibile solo a utenti CMS autenticati quindi non è un rischio XSS, ma per chiarezza visiva è meglio restare su markup minimale.
+- I link nelle didascalie sono già stilizzati in `ArticlePageLayout.astro` (`.article-image-caption a`) con colore accent e underline.
