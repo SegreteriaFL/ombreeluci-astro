@@ -63,7 +63,7 @@
 | Slug con suffisso `-en` | **42** | Traduzioni manuali originali. Il suffisso è **necessario** (evita collisione slug IT). Non va rimosso. |
 | `articolo_traduzione` valorizzato | **3452 / 3470** (99,4%) | 18 orfani. Link IT↔EN quasi completo. |
 | `categoria_menu` valorizzato | **3436 / 3470** (99%) | Valori corretti: slug IT (`famiglia`, `progetti`, ecc.) — NON tradotti in inglese. |
-| `categoria_menu` NULL | **34** | Backfill residuo. |
+| `categoria_menu` NULL | **34** | Traduzioni manuali storiche pre-tassonomia. Né l'EN né l'IT collegato hanno categoria o tema_label → mostrano "Attualità" come fallback. Fix richiede assegnazione manuale in Directus (articoli Jean Vanier/L'Arche). Script di backfill: `scripts/backfill-en-categoria-menu.mjs`. |
 | Slug EN sbagliati (`family`, `projects`…) | **0** | Pipeline AI ha copiato correttamente lo slug IT. |
 
 **`/en/category/projects/`**: 235 EN con `categoria_menu = 'progetti'`, tutti published. Le pagine categoria EN sono ora popolate.
