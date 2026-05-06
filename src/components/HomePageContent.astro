@@ -300,9 +300,13 @@ const issuePeriodLabel = ultimoNumero
             }
           </div>
           <a href={diariesPath} class="home-link-more">{t(lang, 'home_section_all_stories')}</a>
+          <div class="home-testi-cta">
+            <p>{t(lang, 'home_testi_cta_text')}</p>
+            <a href="mailto:ombreeluci@fedeeluce.it" class="home-testi-cta-link">{t(lang, 'home_testi_cta_link')}</a>
+          </div>
         </div>
 
-        <!-- Colonna destra: testimonianze + CTA -->
+        <!-- Colonna destra: testimonianze -->
         <div class="home-testi-col">
           {testimonianze.map((meta) => (
             <a href={`${articleBasePath}/${meta.slug}`} class="home-testi-item">
@@ -324,10 +328,6 @@ const issuePeriodLabel = ultimoNumero
               </div>
             </a>
           ))}
-          <div class="home-testi-cta">
-            <p>{t(lang, 'home_testi_cta_text')}</p>
-            <a href="mailto:ombreeluci@fedeeluce.it" class="home-testi-cta-link">{t(lang, 'home_testi_cta_link')}</a>
-          </div>
         </div>
 
       </div>
