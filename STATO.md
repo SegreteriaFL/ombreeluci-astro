@@ -60,7 +60,7 @@
 | Articoli EN totali | 3470 | |
 | EN published | **3470** | Tutti published — zero draft (aggiornato 2026-04-25) |
 | EN draft | **0** | ✅ |
-| Slug con suffisso `-en` | **42** | Traduzioni manuali originali. Il suffisso è **necessario** (evita collisione slug IT). Non va rimosso. |
+| Slug con suffisso `-en` | **42** | Traduzioni manuali originali. Il suffisso è **strutturalmente necessario**: Directus ha un unico campo slug per tutta la tabella — non possono coesistere `storia-di-un-padre` (IT) e `storia-di-un-padre` (EN). Rinomina automatica **impossibile** (tutti e 42 confliggono con IT). Task SLUG-EN chiuso. La route a due tentativi gestisce trasparentemente la situazione. |
 | `articolo_traduzione` valorizzato | **3452 / 3470** (99,4%) | 18 orfani. Link IT↔EN quasi completo. |
 | `categoria_menu` valorizzato | **3436 / 3470** (99%) | Valori corretti: slug IT (`famiglia`, `progetti`, ecc.) — NON tradotti in inglese. |
 | `categoria_menu` NULL | **34** | Traduzioni manuali storiche pre-tassonomia. Né l'EN né l'IT collegato hanno categoria o tema_label → mostrano "Attualità" come fallback. Fix richiede assegnazione manuale in Directus (articoli Jean Vanier/L'Arche). Script di backfill: `scripts/backfill-en-categoria-menu.mjs`. |
