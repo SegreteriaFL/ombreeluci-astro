@@ -117,7 +117,7 @@ Tutte le route IT sono ora sotto `/it/`. Nessuna route IT vive più alla root (e
 | Articoli AI (pipeline 2026-04-25) | ~3339 | Slug EN pulito, niente suffisso (es. `the-dandelion-project`) |
 | Traduzioni manuali originali | ~131 totali, **42 ancora con `-en`** | Slug con suffisso (es. `storia-di-un-padre-en`) |
 
-Il suffisso `-en` è quasi eliminato (97%). 42 articoli hanno ancora il suffisso — sono le traduzioni manuali originali non ancora rinominate. La route usa lookup a due tentativi per compatibilità con entrambe le forme. **Obiettivo:** portare a 0 i `-en` con script di rinomina su quei 42 (task SLUG-EN).
+Il suffisso `-en` è eliminato. 41/42 articoli rinominati con slug inglese dal titolo (2026-05-06, script `scripts/rename-en-slugs.mjs`). 1 residuo: `joyeux-noel-2-en` (conflitto con IT `merry-christmas`). La route usa lookup a due tentativi: primo tentativo diretto (copre tutti i 3400+ articoli AI + i 41 rinominati), secondo tentativo `slug+'-en'` (copre solo `joyeux-noel-2-en`).
 
 Quando si arriverà a ES/FR: lo slug URL sarà sempre lo slug pulito senza suffisso. `toArticleUrlSlug(dbSlug, lang)` (da aggiungere in `src/utils/i18n.ts`) gestirà il caso generale.
 
