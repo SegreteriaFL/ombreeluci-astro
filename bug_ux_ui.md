@@ -27,7 +27,7 @@ I bug per sezione (home, archivio, ecc.) sono localizzati e indipendenti tra lor
 // file: src/components/HomePageContent.astro (classe .hero-cta, sezione hero-controls)
 [x] home-rivista-section diesgnare meglio, avvicinare elementi, foto troppo a dx vuoto in mezzo; forrse invertire foto a sx e testo a dx?= (732d8280)
 // file: src/components/HomePageContent.astro
-[] home-archivio-strip frecce non si vedono, ovali, brutto da navigare (732d8280)
+[x] home-archivio-strip frecce non si vedono, ovali — rimosse, track swipeable (79bdd2e4)
 // file: src/components/HomePageContent.astro
 [] articolo diari non si capisce a che diario appartiene, deve essere chiaro e evidente con link alla home diario
 // file: src/layouts/ArticlePageLayout.astro
@@ -61,4 +61,9 @@ I bug per sezione (home, archivio, ecc.) sono localizzati e indipendenti tra lor
 
 
 ## Archivio
-[] da https://ombreeluci-staging.pages.dev/en/archive/ switch lang punta a https://ombreeluci-staging.pages.dev/archivio/ = 404 oltre a fixare fare curl per trovare altre link url rimasti indietro senza /it/ o /en/
+[x] da /en/archive/ e altre 9 pagine EN switch lang senza /it/ = 404 — fixate 10 pagine (22198279)
+// pages: en/archive, en/about, en/authors, en/newsletter, en/support-us, en/sections/diaries, en/archive/web-only, en/category/[slug], en/diaries/[diario], en/tag/[slug]
+[x] home esplora section link /categoria/ senza /it/ = 404 (79bdd2e4)
+// file: src/pages/index.astro
+[x] pagina numero IT mostra articoli EN sotto "English Edition" — rimossi (79bdd2e4)
+// file: src/components/IssueContent.astro

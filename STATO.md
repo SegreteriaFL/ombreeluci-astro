@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-04 (main — hero slider; ART-TYPO; numeri rivista live+SSR; homepage deduplicazione; Algolia fix post-test)
+**Ultimo aggiornamento:** 2026-05-06 (main — sprint UX: lang-switch, diari-grid, testimonianze rotation, esplora EN, frecce carousel, issue IT no EN articles)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -67,6 +67,17 @@
 | Slug EN sbagliati (`family`, `projects`…) | **0** | Pipeline AI ha copiato correttamente lo slug IT. |
 
 **`/en/category/projects/`**: 235 EN con `categoria_menu = 'progetti'`, tutti published. Le pagine categoria EN sono ora popolate.
+
+---
+
+## Fix recenti (2026-05-06)
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| `b1bb5fb9` | **GITIGNORE** | `.wrangler/tmp/` e `prompt_sicurezza.md` rimossi dal repo (accidentalmente committati); aggiunti a `.gitignore` |
+| `79bdd2e4` | **UX-HOME** | Esplora IT: catUrl `/categoria/` → `/it/categoria/` (era 404); frecce carousel rimosse (non funzionavano — track ora swipeable); pagina numero IT: sezione "English Edition" rimossa |
+| `22198279` | **LANG-SWITCH** | 10 pagine EN con `alternateArticleUrl` senza `/it/` → 404: fixate `/en/archive/`, `/en/about/`, `/en/authors/`, `/en/newsletter/`, `/en/support-us/`, `/en/sections/diaries`, `/en/archive/web-only`, `/en/category/[slug]`, `/en/diaries/[diario]`, `/en/tag/[slug]` |
+| (sprint) | **UX-HOME** | Diari grid redesign (cover 4:3, no avatar 40px); testimonianze rotazione giornaliera (pool 10, modulo day); esplora EN usa pool IT per immagini categoria (no titoli IT visibili su EN); home-diari-grid fix (no articoli non-diari in EN) |
 
 ---
 
