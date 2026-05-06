@@ -259,17 +259,27 @@ type Props = BaseLayoutProps;
     background: rgba(0, 0, 0, 0.08);
   }
 
-  /* Social Sticky Bar */
+  /* Article body: flex row che contiene sidebar sticky + contenuto */
+  .article-body-row {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .article-body-main {
+    flex: 1;
+    min-width: 0;
+  }
+
+  /* Social Sticky Bar — position: sticky (non fixed), si ferma da solo a fine .article-body-row */
   .social-sticky {
-    position: fixed;
-    left: max(8px, calc(50% - 431px));
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 100;
-    padding: 0.5rem 0;
+    position: sticky;
+    top: calc(var(--header-height, 72px) + 76px); /* = ~148px, come il sito di riferimento */
+    flex-shrink: 0;
+    width: 70px;
+    padding: 0.25rem 0;
     opacity: 0;
+    transition: opacity 0.65s ease;
     pointer-events: none;
-    transition: opacity 0.4s ease;
   }
 
   .social-sticky.visible {
@@ -280,7 +290,7 @@ type Props = BaseLayoutProps;
   .social-sticky-inner {
     display: flex;
     flex-direction: column;
-    gap: 0.625rem;
+    gap: 0;
     align-items: center;
   }
 
@@ -296,13 +306,21 @@ type Props = BaseLayoutProps;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background: transparent;
     cursor: pointer;
+    margin-bottom: 15px;
     transition: color 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
   }
 
+  /* Hover: fill colorato per piattaforma, testo bianco, bordo trasparente */
   .social-link:hover {
-    color: var(--accent-hover);
-    border-color: var(--accent-hover);
+    border-color: transparent;
+    color: #fff;
   }
+  .social-link.facebook:hover  { background-color: #1877f2; }
+  .social-link.twitter:hover   { background-color: #6abaf7; }
+  .social-link.whatsapp:hover  { background-color: #25d366; }
+  .social-link.linkedin:hover  { background-color: #0a66c2; }
+  .social-link.email:hover     { background-color: #6c757d; }
+  .social-link.copy-link:hover { background-color: #495057; }
 
   .social-link svg {
     fill: currentColor;
@@ -827,17 +845,19 @@ type Props = BaseLayoutProps;
     .article-meta { gap: 0.75rem; font-size: 0.875rem; }
     .article-content { font-size: 1rem; }
     .article-content p { font-size: 1rem; margin-bottom: 1.5rem; }
+    .article-body-row { display: block; }
+    .article-body-main { width: 100%; }
     .social-sticky {
       position: relative;
-      left: auto;
       top: auto;
-      transform: none;
+      width: 100%;
       opacity: 1;
       pointer-events: auto;
       margin: 1.5rem 0;
       padding: 0;
     }
-    .social-sticky-inner { flex-direction: row; justify-content: center; }
+    .social-sticky-inner { flex-direction: row; justify-content: center; flex-wrap: wrap; }
+    .social-link { margin-bottom: 0; }
     .author-bio-wrapper { flex-direction: column; align-items: center; text-align: center; }
     .related-footer-section { padding: 0 1.25rem; }
     .article-image-caption,

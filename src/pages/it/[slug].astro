@@ -559,7 +559,10 @@ const relatedArticles = (() => {
         </div>
       )}
 
-      {/* Social Sticky Bar */}
+      {/* Article body: flex row — sidebar sticky a sinistra, contenuto a destra */}
+      <div class="article-body-row">
+
+      {/* Social Sticky Bar — position: sticky, si ferma da solo a fine article-body-row */}
       <div class="social-sticky" id="social-sticky">
         <div class="social-sticky-inner">
           <a href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`} target="_blank" rel="noopener noreferrer" class="social-link facebook" aria-label={shareLabelFacebook}>
@@ -583,6 +586,8 @@ const relatedArticles = (() => {
         </div>
       </div>
 
+      {/* Colonna contenuto */}
+      <div class="article-body-main">
       {/* Corpo del Testo - max-width: 750px */}
       <div class="article-content-wrapper">
         <div class="article-content" id="article-content">
@@ -662,7 +667,9 @@ const relatedArticles = (() => {
           articoloId={articolo.id}
           lang={locale}
         />
-      </div>
+      </div>{/* /article-content-wrapper */}
+      </div>{/* /article-body-main */}
+      </div>{/* /article-body-row */}
 
       {/* Widget di navigazione: card standard, appare dopo scroll */}
       <div class="floating-widget" id="floating-widget">
@@ -921,55 +928,16 @@ Slug: {articolo.slug}
       
       window.addEventListener('scroll', checkScrollForWidget);
 
-      // Social sticky: fade-in al primo paragrafo, pin + hide corretto
+      // Social sticky: fade-in al primo <p> dell'articolo (sticky behavior gestito da CSS)
       (function() {
         var bar = document.getElementById('social-sticky');
         if (!bar) return;
-        // Bottom boundary: bio autore (include testo + tag + CTA)
-        var stopEl = document.querySelector('.author-bio-section') || document.getElementById('article-content');
-        var headerH = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-height') || '72');
-
-        // Trigger show: primo <p> dentro #article-content entra nel viewport
         var firstP = document.querySelector('#article-content p');
         if (firstP) {
-          var obs = new IntersectionObserver(function(entries) {
-            if (entries[0].isIntersecting) {
-              bar.classList.add('visible');
-              obs.disconnect();
-            }
-          }, { threshold: 0.1 });
-          obs.observe(firstP);
+          new IntersectionObserver(function(entries, obs) {
+            if (entries[0].isIntersecting) { bar.classList.add('visible'); obs.disconnect(); }
+          }, { threshold: 0.1 }).observe(firstP);
         }
-
-        function updatePin() {
-          if (!bar.classList.contains('visible')) return;
-          if (!stopEl) return;
-          var barH = bar.offsetHeight;
-          var naturalTop = window.innerHeight / 2 - barH / 2;
-          var stopBottom = stopEl.getBoundingClientRect().top; // top del bio = bottom del contenuto leggibile
-          var minTop = headerH + 12; // non andare sotto l'header
-
-          if (stopBottom < minTop + barH) {
-            // Contenuto salito sopra la zona header → nascondi
-            bar.style.opacity = '0';
-            bar.style.pointerEvents = 'none';
-          } else if (stopBottom < naturalTop + barH) {
-            // Pinna: ancora il fondo delle icone al top del bio
-            bar.style.opacity = '';
-            bar.style.pointerEvents = '';
-            bar.style.top = (stopBottom - barH) + 'px';
-            bar.style.transform = 'none';
-          } else {
-            // Scroll normale: centrato nel viewport
-            bar.style.opacity = '';
-            bar.style.pointerEvents = '';
-            bar.style.top = '';
-            bar.style.transform = '';
-          }
-        }
-
-        window.addEventListener('scroll', updatePin, { passive: true });
-        updatePin();
       })();
 
       // Processa link WordPress e link esterni (targeting: article, .prose o body)

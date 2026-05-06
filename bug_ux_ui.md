@@ -16,6 +16,7 @@ I bug per sezione (home, archivio, ecc.) sono localizzati e indipendenti tra lor
 ## Generale
 [x] transizioni tra una pagina e l'altra morbide e eleganti (732d8280)
 [x] tag negli articoli potrebbero non avere it e en? e rimandare a pagine tipo https://ombreeluci-staging.pages.dev/tag/lucio-corsi --> 404? (fix: /it/tag/ mancava in it/[slug].astro — solo EN aveva il prefisso corretto)
+[x] social share icons pagina articolo: posizione, sticky, fade-in (branch feat/social-sticky-v2 — position:sticky CSS-nativo, IntersectionObserver fade-in al primo <p>, hover fill per piattaforma, 6 icone)
 
 ## home
 

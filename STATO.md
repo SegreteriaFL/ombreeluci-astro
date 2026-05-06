@@ -70,6 +70,13 @@
 
 ---
 
+## Fix recenti (2026-05-07)
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| (branch `feat/social-sticky-v2`) | **SOCIAL-STICKY** | Refactor completo: da `position:fixed`+JS a `position:sticky` CSS-nativo. DOM: `article-body-row` flex container con sidebar (`social-sticky`) + `article-body-main`. JS ridotto a solo IntersectionObserver fade-in. Stile nectar: 46px, border-radius 100px, hover fill per piattaforma. 6 icone (FB, X, WA, LinkedIn, email, copy). Revert: `git revert <sha>` su main dopo merge. |
+| `d5fc53f5` | **TAG** | `/tag/{slug}` → `/it/tag/{slug}` in `it/[slug].astro` (solo EN aveva prefisso corretto) |
+
 ## Fix recenti (2026-05-06)
 
 | Commit | Area | Fix |
