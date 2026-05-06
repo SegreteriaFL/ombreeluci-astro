@@ -262,21 +262,25 @@ type Props = BaseLayoutProps;
   /* Social Sticky Bar */
   .social-sticky {
     position: fixed;
-    left: 0;
+    left: max(8px, calc(50% - 431px));
     top: 50%;
     transform: translateY(-50%);
     z-index: 100;
-    background: transparent;
-    padding: 0.5rem 0.2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+    padding: 0.5rem 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+  }
+
+  .social-sticky.visible {
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .social-sticky-inner {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.625rem;
     align-items: center;
   }
 
@@ -284,32 +288,24 @@ type Props = BaseLayoutProps;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 0;
-    color: var(--accent-color);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    color: var(--text-color);
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    border: 2px solid var(--text-color);
     background: transparent;
-    border: none;
     cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease;
   }
 
   .social-link:hover {
     color: var(--accent-hover);
-    transform: translateY(-2px);
+    border-color: var(--accent-hover);
   }
 
   .social-link svg {
     fill: currentColor;
-  }
-
-  .social-link button {
-    background: none;
-    border: none;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
   }
 
   /* Author Bio Section */
@@ -836,6 +832,8 @@ type Props = BaseLayoutProps;
       left: auto;
       top: auto;
       transform: none;
+      opacity: 1;
+      pointer-events: auto;
       margin: 1.5rem 0;
       padding: 0;
     }
