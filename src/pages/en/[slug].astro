@@ -225,7 +225,7 @@ const [corpoPart1, corpoPart2] = [processedCorpo, ''];
 
 const issueNumber = articolo.numero_rivista?.id_numero ?? null;
 const issueSlug = issueNumber ? generateIssueSlug(issueNumber) : null;
-const issueLink = issueSlug ? `/archivio/${issueSlug}` : null;
+const issueLink = issueSlug ? `/en/archive/${issueSlug}` : null;
 
 // ── Immagine copertina ─────────────────────────────────────────────────────────
 
@@ -640,7 +640,7 @@ const alternates: { lang: string; url: string }[] = [
                 )}
               </div>
               <p class="author-bio-total">
-                {t('en', 'author_total_prefix')} <a href="/autori">{totalAutori} {t('en', 'author_total')}</a>
+                {t('en', 'author_total_prefix')} <a href="/en/authors">{totalAutori} {t('en', 'author_total')}</a>
               </p>
             </div>
           </div>

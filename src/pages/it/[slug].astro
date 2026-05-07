@@ -223,7 +223,7 @@ const [corpoPart1, corpoPart2] = leggiAncheArticolo && processedCorpo
 
 const issueNumber = articolo.numero_rivista?.id_numero ?? null;
 const issueSlug = issueNumber ? generateIssueSlug(issueNumber) : null;
-const issueLink = issueSlug ? `/archivio/${issueSlug}` : null;
+const issueLink = issueSlug ? `/it/archivio/${issueSlug}` : null;
 
 // ── Immagine copertina ─────────────────────────────────────────────────────────
 
@@ -248,7 +248,7 @@ const categorySlug = getCategorySlugForArticle(articolo);
 const categoryLink = categorySlug
   ? locale === 'en'
     ? `/en/category/${getCategoriaUrlSlug(categorySlug, 'en')}/`
-    : `/categoria/${categorySlug}/`
+    : `/it/categoria/${categorySlug}/`
   : null;
 const currentLabels = getLabels([], articolo);
 const formaDisplay =
@@ -256,7 +256,7 @@ const formaDisplay =
     ? localizeFormalType(currentLabels.formal, locale)
     : null;
 const rubricaSlug = getFormaToRubricaSlug(currentLabels.formal);
-const formaLink = rubricaSlug ? `/rubriche/${rubricaSlug}/` : null;
+const formaLink = rubricaSlug ? `/it/rubriche/${rubricaSlug}/` : null;
 const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
 const showPubblicatoOnline = !hasIssue;
 
@@ -653,7 +653,7 @@ const relatedArticles = (() => {
                 )}
               </div>
               <p class="author-bio-total">
-                {t(locale, 'author_total_prefix')} <a href="/autori">{totalAutori} {t(locale, 'author_total')}</a>
+                {t(locale, 'author_total_prefix')} <a href="/it/autori">{totalAutori} {t(locale, 'author_total')}</a>
               </p>
             </div>
           </div>
