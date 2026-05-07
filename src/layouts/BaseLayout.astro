@@ -59,8 +59,49 @@ const lang = headProps.lang ?? 'it';
     </BaseHead>
   </head>
   <body class:list={[bodyClass]}>
+    <div id="page-loader" aria-hidden="true">
+      <div class="page-loader-spinner"></div>
+    </div>
     <Header lang={lang} pathname={pathname} alternateArticleUrl={alternateArticleUrl} heroHeader={heroHeader} />
     <slot />
     <Footer lang={lang} pathname={pathname} />
+    <script>
+      (function () {
+        var loader = document.getElementById('page-loader');
+
+        function ready() {
+          document.body.classList.add('ready');
+          if (loader) {
+            loader.classList.add('hidden');
+            setTimeout(function () {
+              if (loader.parentNode) loader.parentNode.removeChild(loader);
+            }, 250);
+          }
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', ready);
+        } else {
+          ready();
+        }
+
+        document.addEventListener('astro:before-preparation', function () {
+          document.body.classList.remove('ready');
+          if (!document.getElementById('page-loader')) {
+            var newLoader = document.createElement('div');
+            newLoader.id = 'page-loader';
+            newLoader.setAttribute('aria-hidden', 'true');
+            newLoader.innerHTML = '<div class="page-loader-spinner"></div>';
+            document.body.insertBefore(newLoader, document.body.firstChild);
+            loader = newLoader;
+          }
+        });
+
+        document.addEventListener('astro:page-load', function () {
+          loader = document.getElementById('page-loader');
+          ready();
+        });
+      })();
+    </script>
   </body>
 </html>
