@@ -39,7 +39,9 @@ const {
   basePath?: string;
 };
 const hasIssue = issue != null && String(issue).trim() !== '';
-const imageSrc = (!hideImage && image) ? image : (!hideImage ? getPlaceholder(slug ?? title ?? '').src : null);
+const isPlaceholder = !hideImage && !image;
+const useBw = isPlaceholder && new Date(date).getFullYear() < 1998;
+const imageSrc = !hideImage ? (image ?? getPlaceholder(slug ?? title ?? '', useBw).src) : null;
 // Badge: mostra solo categoria (+ forma se != Articolo). Label forma da i18n (allineato a taxonomy).
 const localizedForma = forma ? localizeFormalType(forma, lang) : null;
 const genericFormalLabel = t(lang, 'formal_articolo');
