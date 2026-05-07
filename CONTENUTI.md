@@ -413,3 +413,41 @@ Da sinistra: Giovanni, Maria e Luca durante il campo estivo di <a href="https://
 - Il campo accetta qualsiasi HTML, ma la redazione deve usare solo tag semplici: `<a>`, `<em>`, `<strong>`, `<br>`.
 - Non inserire `<script>`, `<img>` o tag strutturali — il campo è accessibile solo a utenti CMS autenticati quindi non è un rischio XSS, ma per chiarezza visiva è meglio restare su markup minimale.
 - I link nelle didascalie sono già stilizzati in `ArticlePageLayout.astro` (`.article-image-caption a`) con colore accent e underline.
+
+---
+
+## Placeholder immagini copertina — `src/utils/placeholder.ts`
+
+Quando un articolo non ha `immagine_copertina`, viene mostrata un'immagine placeholder da `public/placeholder/`. La logica è in `src/utils/placeholder.ts`.
+
+### Pool disponibili
+
+**COLOR** (8 foto) — articoli dal 1998 in poi senza immagine:
+- `ph-1/2/3.webp` — Steve Johnson su Unsplash
+- `ph-4.webp` — vackground.com su Unsplash
+- `dennis-van-lith-rD1_nrA5_1U-unsplash.webp` — Dennis van Lith
+- `jr-korpa-WKK4yIc3JBM-unsplash.webp` — Jr Korpa
+- `martin-martz-W0EaIFjAck4-unsplash.webp` — Martin Martz
+- `niko-n-_FJNAM5B0p0-unsplash.webp` — Niko N.
+
+**BW** (14 foto B&N) — articoli anteriori al 1998 senza immagine:
+- `ph-bw-fia-yang-*.webp` — Fia Yang (×2)
+- `ph-bw-everett-beaupit-*.webp` — Everett Beaupit
+- `ph-bw-hilda-rytteke-*.webp` — Hilda Rytteke
+- `ph-bw-jan-huber-*.webp` — Jan Huber
+- `ph-bw-kseniya-lapteva-*.webp` — Kseniya Lapteva
+- `ph-bw-mahdi-bafande-*.webp` — Mahdi Bafande
+- `ph-bw-xander-ashwell-*.webp` — Xander Ashwell
+- `caio-brigagao-lunardi-*.webp`, `james-trenda-*.webp`, `jr-korpa-GQeSfSWmXvI-*.webp`, `jr-korpa-PY6OnoitYfY-*.webp`, `kate-trysh-*.webp`, `thomas-lindner-*.webp`
+
+### Selezione
+La foto è deterministica: `hash(slug) % pool.length` — ogni articolo ha sempre la stessa placeholder.
+
+### Attribution
+Ogni placeholder ha attribution HTML con link al fotografo e alla foto su Unsplash (UTM `utm_source=ombreeluci&utm_medium=referral`). La caption appare automaticamente se `didascalia_copertina` è vuoto; se la redazione riempie il campo in Directus, quello ha la precedenza.
+
+### Aggiungere nuove foto
+1. Metti il file JPG/PNG in `public/placeholder/` con nome Unsplash standard (`{username}-{photoId}-unsplash.jpg`)
+2. Per B&N aggiungi prefisso `ph-bw-` al nome
+3. Esegui `node scripts/optimize-placeholders.mjs` — genera il `.webp` ottimizzato (<150KB)
+4. Aggiungi l'entry manualmente in `src/utils/placeholder.ts` nel pool giusto (COLOR o BW)

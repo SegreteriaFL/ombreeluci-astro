@@ -48,6 +48,13 @@ dump_db_old/
 __pycache__/
 *.pyc
 
+# Placeholder originali JPG (sorgenti non ottimizzati — in repo solo i .webp)
+public/placeholder/*.jpg
+public/placeholder/*.jpeg
+public/placeholder/*.png
+# Cartella placeholder nella radice (posizione errata — usare public/placeholder/)
+/placeholder/
+
 # File temporanei script
 scripts_and_data/scripts/_preview_markdown_before_after_tmp.py
 

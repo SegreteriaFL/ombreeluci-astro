@@ -230,14 +230,18 @@ const issueLink = issueSlug ? `/en/archive/${issueSlug}` : null;
 // ── Immagine copertina ─────────────────────────────────────────────────────────
 
 const articleImageRaw = getArticoloCopertinaSrc(articolo);
-const articleImage = articolo.immagine_copertina?.id
-  ? articleImageRaw
-  : getPlaceholder(articolo.slug ?? '').src;
+const isPlaceholder = !articolo.immagine_copertina?.id;
+const useBwPlaceholder = isPlaceholder && articleDate.getFullYear() < 1998;
+const articleImage = isPlaceholder
+  ? getPlaceholder(articolo.slug ?? '', useBwPlaceholder).src
+  : articleImageRaw;
 
 // ── Sottotitolo e SEO ──────────────────────────────────────────────────────────
 
 const explicitSubtitle = articolo.sottotitolo?.trim() || articolo.seo_description?.trim() || null;
-const heroCaption: string | null = articolo.didascalia_copertina?.trim() || null;
+const heroCaption: string | null =
+  articolo.didascalia_copertina?.trim() ||
+  (isPlaceholder ? getPlaceholder(articolo.slug ?? '', useBwPlaceholder).caption : null);
 
 const metaDescription = (explicitSubtitle || articolo.seo_description)
   ? (explicitSubtitle || articolo.seo_description)!.substring(0, 160).replace(/\s+/g, ' ').trim()
