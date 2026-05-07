@@ -773,11 +773,47 @@ Slug: {articolo.slug}
         }
         function buildRelatedCard(slug, meta) {
           var hrefFinal = meta.href || '/' + slug;
-          var safeTitle = (meta.title || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
-          var safeExcerpt = (meta.excerpt || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
           var article = document.createElement('article');
           article.className = 'incontent-related-card';
-          article.innerHTML = '<a href="' + hrefFinal + '" class="incontent-related-link"><span class="incontent-related-label">' + readAlsoLabel + '</span><div class="incontent-related-image-wrapper"><img src="' + meta.image + '" alt="' + safeTitle + '" loading="lazy" onerror="this.onerror=null;this.src=\'/images/placeholder-copertina.svg\'" /></div><div class="incontent-related-content"><h4 class="incontent-related-title">' + safeTitle + '</h4>' + (safeExcerpt ? '<p class="incontent-related-excerpt">' + safeExcerpt + '</p>' : '') + '</div></a>';
+
+          var a = document.createElement('a');
+          a.href = hrefFinal;
+          a.className = 'incontent-related-link';
+
+          var labelEl = document.createElement('span');
+          labelEl.className = 'incontent-related-label';
+          labelEl.textContent = readAlsoLabel;
+          a.appendChild(labelEl);
+
+          var imgWrapper = document.createElement('div');
+          imgWrapper.className = 'incontent-related-image-wrapper';
+          if (meta.image) {
+            var img = document.createElement('img');
+            img.src = meta.image;
+            img.alt = meta.title || '';
+            img.loading = 'lazy';
+            img.onerror = function() { this.onerror = null; this.src = '/images/placeholder-copertina.svg'; };
+            imgWrapper.appendChild(img);
+          }
+          a.appendChild(imgWrapper);
+
+          var contentEl = document.createElement('div');
+          contentEl.className = 'incontent-related-content';
+
+          var h4 = document.createElement('h4');
+          h4.className = 'incontent-related-title';
+          h4.textContent = meta.title || '';
+          contentEl.appendChild(h4);
+
+          if (meta.excerpt) {
+            var p = document.createElement('p');
+            p.className = 'incontent-related-excerpt';
+            p.textContent = meta.excerpt;
+            contentEl.appendChild(p);
+          }
+
+          a.appendChild(contentEl);
+          article.appendChild(a);
           return article;
         }
         function removeOldRelatedSections() {
