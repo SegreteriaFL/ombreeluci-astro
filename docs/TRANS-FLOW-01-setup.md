@@ -1,5 +1,29 @@
 # TRANS-FLOW-01 — Setup Directus: flusso traduzione manuale assistita
 
+## Stato
+
+| Campo | Valore |
+|---|---|
+| **Stato** | ✅ Completato |
+| **Data completamento** | 2026-05-08 |
+| **Testato** | Sì — flow import e export verificati con articolo di test |
+
+### Cosa è stato implementato
+
+- **Step 1–2** (campo `json_traduzione` + permessi Redazione): completati via API script in sessione 2026-05-07
+- **Step 3** (Flow "Import traduzione da JSON"): configurato in Directus UI in sessione 2026-05-08, testato e funzionante
+- **TRANS-FLOW-01b** (Flow export manuale per redazione): implementato nella stessa sessione invece che come fase separata. Flow "Esporta per traduzione" con trigger manuale su `articoli` — pulsante nell'UI dell'articolo IT che genera il JSON nel campo `json_export`. Campo `json_export` creato via API.
+
+### Gotcha emersi durante la configurazione reale
+
+- **Run Script firma funzione**: Directus 11 riceve i dati come `function(data)` non `function({ data })` — `data['$trigger']` è undefined con la firma destructurata
+- **Chiave operation**: la chiave del Run Script deve essere `parse` (non l'auto-generata) — tutte le operation successive la referenziano come `{{ parse.xxx }}`
+- **Create Data restituisce array**: `new_en` è `["uuid"]` non `{ id: "uuid" }` — usare `{{ new_en[0] }}` non `{{ new_en.id }}`
+- **Condition regola**: non va wrappata in `{ "filter": { ... } }` — la regola va scritta direttamente senza wrapper
+- **Read Data campi relazionali**: i temi ritornano come `{ temi_id: { id: "..." } }` (annidato) — il Run Script del flow export deve normalizzarli a `{ temi_id: "..." }` per l'import
+
+---
+
 Questo documento guida il setup manuale in Directus UI e descrive il flusso operativo per la redazione.
 Lo script CLI (`scripts/export-per-traduzione.mjs`) è già funzionante — questo documento copre solo la parte Directus.
 
