@@ -8,6 +8,7 @@ Claude Code attacca i bug in ordine dall'alto verso il basso.
 Ogni bug completato: sostituire [ ] con [x] e aggiungere il commit hash.
 Priorità implicita: i bug senza sezione sono bloccanti o cross-cutting.
 I bug per sezione (home, archivio, ecc.) sono localizzati e indipendenti tra loro.
+La redazione può togliere la x se il fix non risolve possibilmente commentando e motivando il rifiuto il bug e Claude deve ritornarci sopra
 -->
 
 ### BUG
@@ -20,13 +21,18 @@ I bug per sezione (home, archivio, ecc.) sono localizzati e indipendenti tra lor
 [] debug-section con dati JSON articolo presente nel DOM con hidden — va rimossa completamente da it/[slug].astro e en/[slug].astro prima del cutover (non solo nascosta)
 // file: src/pages/it/[slug].astro, src/pages/en/[slug].astro
 [] traduzioni didascalie
+// DID-EN: script translate-didascalie.mjs pronto. Bloccato da: 1) creare campo didascalia_en in Directus UI, 2) aggiornare en/[slug].astro per leggerlo. Vedi CONTENUTI.md § "Didascalie foto — traduzione EN"
 [x] fix didascalie unsplash come da documentazione (non so dove avevamo apputanto credits con link)
-[] traduzioni bio
+[x] traduzioni bio (3133111c + 7756e067 — 79/79 bio tradotte IT→EN con Haiku, campo bio_en popolato, live su SSR articoli e SSG pagine autore dopo rebuild)
 [] automazione creazione versione inglese di articoli e numeri: capire come facilitare il compito della redazione. proposte: 1 opzione base: tasto in cms dentro articolo o pagina numero "crea versione inglese" (o spa o altra lingua pensare in modo che sia interfaccia scalabile) si apre pagina con struttura copiata 2 opzione pro: automazione completa con chiamata api per traduzione immediata di tutti i contenuti dell'oggetto. Valutare, documentare e fare piano di lavoro
 [] numero 52 mancavano gli articoli. fixato in italiano --> va sistemato numero inglese  mettendo gli articoli corrispondendi. Vale anche per numeri, ancora da fixare it, 47 46, https://ombreeluci-staging.pages.dev/it/archivio/ins--3 https://ombreeluci-staging.pages.dev/it/archivio/ins--2
 
 [x] tag negli articoli potrebbero non avere it e en? e rimandare a pagine tipo https://ombreeluci-staging.pages.dev/tag/lucio-corsi --> 404? (fix: /it/tag/ mancava in it/[slug].astro — solo EN aveva il prefisso corretto)
 [x] social share icons pagina articolo: posizione, sticky, fade-in (branch feat/social-sticky-v2 — position:sticky CSS-nativo, IntersectionObserver fade-in al primo <p>, hover fill per piattaforma, 6 icone)
+
+[] ingrandire testi mobile
+[] lancira veririfica prima del golive speed test site e correzioni errori
+[] lanciare verifica prima del golive errori in consolle f12
 
 ## home
 

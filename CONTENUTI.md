@@ -204,13 +204,24 @@ Indipendentemente dall'opzione scelta, la UX va migliorata:
 
 **hreflang** tra le due versioni quando entrambe esistono.
 
-### Bio autori multilingua
+### Bio autori multilingua — ✅ completato (BIO-EN, 2026-05-07)
 
-Attualmente nessun autore ha bio in EN. Il campo non è stato aggiunto in Directus. Opzioni:
-- Rapida: aggiungere campo `bio_en` in Directus (implementabile in un'ora)
-- Scalabile: schema translations Directus (parte di F3)
+**Stato:** 79 bio autori tradotte IT→EN con Claude Haiku. Campo `bio_en` popolato su tutti gli autori che hanno una bio IT.
 
-Per il lancio EN è sufficiente la soluzione rapida con `bio_en` nullable (fallback alla bio IT se vuota).
+**Come funziona:**
+- Campo `bio_en` (text, nullable) nella collection `autori` di Directus.
+- `en/[slug].astro` riga 165: `const authorBioHtml = autore?.bio_en?.trim() || autore?.bio_html?.trim()` — bio EN se presente, fallback a bio IT.
+- `AuthorPageContent.astro` riga 22: stessa logica per le pagine autore EN.
+- Le pagine autore sono SSG: il rebuild propagato al push popola le bio EN su staging.
+
+**Script:** `scripts/traduzione/translate-bio.mjs` — idempotente, rilancabile, log CSV in `scripts/traduzione/logs/`.
+**Log run:** `scripts/traduzione/logs/translate-bio-2026-05-07T17-03-32.csv` — 79/79 ok, 0 errori.
+
+**Autori con bio IT ma senza foto** (bio mostrata, avatar con iniziale): Adriana Duci, Antonello Damiani, Cristina Marchese, Gianluigi Visentini, Mariano S. Pergola, Maurizio Pilone.
+
+**3 autori senza bio** (nessun testo, solo link articoli): Marta Tersigni, P. Noel Simard, Vittorio Paoli.
+
+**F3 — Modello dati Directus multilingua** (post-lancio, invariato): schema translations per bio, label UI, descrizioni categorie. Per ora la soluzione con campi separati (`bio_en`) è sufficiente.
 
 ### DoD pagine autore i18n — ✅ completato (AUT-01, merge 60fcb27c, 2026-04-25)
 
@@ -451,3 +462,79 @@ Ogni placeholder ha attribution HTML con link al fotografo e alla foto su Unspla
 2. Per B&N aggiungi prefisso `ph-bw-` al nome
 3. Esegui `node scripts/optimize-placeholders.mjs` — genera il `.webp` ottimizzato (<150KB)
 4. Aggiungi l'entry manualmente in `src/utils/placeholder.ts` nel pool giusto (COLOR o BW)
+
+---
+
+## Didascalie foto — traduzione EN (DID-EN)
+
+**Stato:** campo `didascalia_en` non ancora creato in Directus. Script pronto ma bloccato dal prerequisito.
+
+### Prerequisiti (in ordine)
+
+1. **Creare campo `didascalia_en` in Directus** (manuale — non automatizzabile):
+   Impostazioni → Modello dati → articoli → Aggiungi campo → Tipo: Textarea, Nome: `didascalia_en`
+
+2. **Aggiornare `en/[slug].astro`** per leggere `didascalia_en` con fallback su `didascalia_copertina`:
+   ```ts
+   const caption = article.didascalia_en?.trim() || article.didascalia_copertina || null;
+   ```
+   Aggiungere `didascalia_en` ai `fields` nella query Directus della route EN.
+
+3. **Eseguire lo script di traduzione**:
+   ```bash
+   node scripts/traduzione/translate-didascalie.mjs --dry-run   # verifica
+   node scripts/traduzione/translate-didascalie.mjs             # ~29 minuti, ~3470 record
+   node scripts/traduzione/translate-didascalie.mjs --resume    # riprendi se interrotto
+   ```
+
+### Architettura campo
+
+| Campo | Collection | Tipo | Note |
+|---|---|---|---|
+| `didascalia_copertina` | `articoli` | text, HTML | Campo IT, già esistente. Reso con `set:html`. |
+| `didascalia_en` | `articoli` | text, HTML | Campo EN, da creare. Stessa logica di rendering. |
+
+### Script `translate-didascalie.mjs`
+
+- Legge articoli EN con `didascalia_copertina` non nulla e `didascalia_en` vuota
+- Traduce con Claude Haiku (`claude-haiku-4-5-20251001`)
+- Converte automaticamente "Foto di X su Unsplash" → "Photo by X on Unsplash"
+- 2 worker paralleli, 1 req/sec ciascuno
+- Checkpoint ogni 100 record: `scripts/traduzione/logs/translate-didascalie-checkpoint.json`
+- Idempotente: rilancio sicuro, salta i record già tradotti
+
+---
+
+## Pagina Studiosi, Educatori e Attivisti — ✅ completato (2026-05-07)
+
+Pagina editoriale con lista curata di 47 autori storici della rivista che hanno contribuito in qualità di studiosi, educatori o attivisti per i diritti delle persone con disabilità.
+
+### Route
+
+| Lingua | URL | File |
+|---|---|---|
+| IT | `/it/studiosi-educatori-attivisti/` | `src/pages/it/studiosi-educatori-attivisti/index.astro` |
+| EN | `/en/scholars-educators-activists/` | `src/pages/en/scholars-educators-activists/index.astro` |
+| Redirect WP | `/studiosi-educatori-e-attivisti-ombre-e-luci` | `astro.config.mjs` redirects |
+
+### Componente condiviso
+
+`src/components/StudosiContent.astro` — props: `lang: Locale`, `autori: Autore[]`.
+
+Mostra per ogni autore: foto circolare (con fallback iniziale nome), nome linkato alla pagina autore, bio nella lingua corretta (`bio_en` su EN, `bio_html` su IT), link "Visualizza tutti gli articoli" con conteggio se disponibile.
+
+### Lista curata
+
+`src/data/studiosi.json` — array di 47 slug in ordine alfabetico. Fonte editoriale unica. Per aggiungere/rimuovere un autore: modificare il JSON, nessun altro file da toccare.
+
+**3 autori senza bio** (mancano in Directus): `marta-tersigni`, `p-noel-simard`, `vittorio-paoli` — mostrano solo il link articoli, come sull'originale WP.
+
+### Fetch dati
+
+Le pagine sono SSG. Entrambe chiamano `getAllAutori()` da `src/lib/directus.ts` e filtrano/ordinano in base a `studiosi.json`. `getAllAutori()` include già `bio_en`, quindi le bio EN sono live senza modifiche.
+
+### Aggiungere un autore alla lista
+
+1. Trovare lo slug in Directus: `GET /items/autori?filter[nome_completo][_contains]=Nome&fields=slug`
+2. Aggiungere lo slug in `src/data/studiosi.json` nella posizione alfabetica corretta
+3. Rebuild (push su main) — la pagina si aggiorna automaticamente

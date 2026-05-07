@@ -76,9 +76,9 @@
 |--------|------|-----|
 | (branch `feat/social-sticky-v2`) | **SOCIAL-STICKY** | Refactor completo: da `position:fixed`+JS a `position:sticky` CSS-nativo. DOM: `article-body-row` flex container con sidebar (`social-sticky`) + `article-body-main`. JS ridotto a solo IntersectionObserver fade-in. Stile nectar: 46px, border-radius 100px, hover fill per piattaforma. 6 icone (FB, X, WA, LinkedIn, email, copy). Revert: `git revert <sha>` su main dopo merge. |
 | `d5fc53f5` | **TAG** | `/tag/{slug}` → `/it/tag/{slug}` in `it/[slug].astro` (solo EN aveva prefisso corretto) |
-| `3133111c` | **BIO-EN** | ✅ `translate-bio.mjs` eseguito — 79/79 bio autori tradotte IT→EN, zero errori. `bio_en` popolato su tutti gli autori con bio. |
-| (in corso) | **DID-EN** | Script `scripts/traduzione/translate-didascalie.mjs` pronto — ~3470 record. Prerequisito: creare campo `didascalia_en` in Directus UI + aggiornare `en/[slug].astro` (task separato). |
-| (in corso) | **STUDIOSI** | Pagina studiosi/educatori/attivisti: `StudosiContent.astro`, route `/it/studiosi-educatori-attivisti/` e `/en/scholars-educators-activists/`. 47 autori da `src/data/studiosi.json`. Redirect WP `/studiosi-educatori-e-attivisti-ombre-e-luci` → `/it/studiosi-educatori-attivisti/`. |
+| `3133111c` + `7756e067` | **BIO-EN** | ✅ Script `translate-bio.mjs` scritto ed eseguito — 79/79 bio autori tradotte IT→EN con Haiku, zero errori. Campo `bio_en` ora popolato. Log: `scripts/traduzione/logs/translate-bio-2026-05-07T17-03-32.csv`. Bio live su articoli EN (SSR) e su pagine autore (SSG) dopo rebuild. |
+| (bloccato) | **DID-EN** | Script `translate-didascalie.mjs` pronto. Bloccato da: 1) creare campo `didascalia_en` in Directus UI, 2) aggiornare `en/[slug].astro` per leggerlo. Vedi CONTENUTI.md § "Didascalie foto — traduzione EN". |
+| `f910efb1` | **STUDIOSI** | ✅ Pagina studiosi/educatori/attivisti IT+EN. `StudosiContent.astro`, 47 autori da `src/data/studiosi.json`, bio lang-aware, foto circolare, redirect WP. |
 
 ## Fix recenti (2026-05-06)
 
@@ -616,8 +616,10 @@ Il middleware gira solo per route nel manifest. Fix: `[...path].astro` catch-all
 | UX-CMT | UX | ✅ **CHIUSO 2026-04-27** — Form commenti in accordion `<details>/<summary>`: "Mostra commenti (N)" solo se presenti; "Lascia un commento" sempre. Entrambi chiusi di default. File: `src/components/Commenti.astro`. |
 | ARCH-02 | UX | ✅ **CHIUSO 2026-04-28** — Magazine redesign completo. Label "Archivio"→"Magazine" ovunque; pill switcher centrato (vita.it style) su `/archivio/` e pagine numero; "Ultima edizione" = link diretto al numero, "Tutte le edizioni" = griglia filtri. IssueNavPill aggiornato a "Magazine". Header link più pesanti, form ricerca più larga. |
 | DIR-TAG-EN | Directus | Aggiungere `nome_en` e `slug_en` alla collection `tags` in Directus. Prerequisito per mostrare tag sugli articoli EN. Attualmente i tag EN sono nascosti con `.article-tags-list--hidden` (nota in `ArticlePageLayout.astro`). |
-| DID-EN | Traduzione | Aggiungere campo `didascalia_en` alla collection `articoli` in Directus. Attualmente `didascalia_copertina` non ha equivalente EN — le didascalie sugli articoli EN sono sempre in italiano. |
+| DID-EN | Traduzione | 🟡 Script pronto (`translate-didascalie.mjs`). Bloccato da prerequisiti: 1) creare campo `didascalia_en` in Directus UI, 2) aggiornare `en/[slug].astro`. Vedi CONTENUTI.md § "Didascalie foto — traduzione EN". |
+| BIO-EN | Traduzione | ✅ **CHIUSO 2026-05-07** — 79 bio autori tradotte IT→EN con Haiku. Campo `bio_en` popolato. Script: `scripts/traduzione/translate-bio.mjs`. |
 | BIO-EN-ART | Traduzione | ✅ **CHIUSO 2026-04-27** — `en/[slug].astro`: `authorBioHtml` ora usa `bio_en` se disponibile, con fallback a `bio_html` IT. |
+| STUDIOSI | Frontend | ✅ **CHIUSO 2026-05-07** — Pagina studiosi/educatori/attivisti IT (`/it/studiosi-educatori-attivisti/`) + EN (`/en/scholars-educators-activists/`). 47 autori curati in `src/data/studiosi.json`. Redirect WP in `astro.config.mjs`. |
 | PF-03 | Perf | Immagini non responsive: srcset mancante |
 | PF-04 | Perf | CSS render-blocking |
 | B-09 | Infra | UptimeRobot monitoring |
