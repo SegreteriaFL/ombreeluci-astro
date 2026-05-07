@@ -506,18 +506,13 @@ Ogni placeholder ha attribution HTML con link al fotografo e alla foto su Unspla
 
 ## Didascalie foto — traduzione EN (DID-EN)
 
-**Stato:** campo `didascalia_en` non ancora creato in Directus. Script pronto ma bloccato dal prerequisito.
+**Stato:** campo `didascalia_en` ✅ creato in Directus. Codice ✅ aggiornato (commit `78a453ea`). Script da eseguire per popolare le traduzioni.
 
 ### Prerequisiti (in ordine)
 
-1. **Creare campo `didascalia_en` in Directus** (manuale — non automatizzabile):
-   Impostazioni → Modello dati → articoli → Aggiungi campo → Tipo: Textarea, Nome: `didascalia_en`
+1. ✅ **Campo `didascalia_en` creato in Directus**
 
-2. **Aggiornare `en/[slug].astro`** per leggere `didascalia_en` con fallback su `didascalia_copertina`:
-   ```ts
-   const caption = article.didascalia_en?.trim() || article.didascalia_copertina || null;
-   ```
-   Aggiungere `didascalia_en` ai `fields` nella query Directus della route EN.
+2. ✅ **`en/[slug].astro` aggiornato** — legge `didascalia_en` con fallback su `didascalia_copertina` (commit `78a453ea`, 2026-05-07).
 
 3. **Eseguire lo script di traduzione**:
    ```bash
