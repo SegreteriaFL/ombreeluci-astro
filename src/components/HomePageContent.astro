@@ -542,17 +542,39 @@ const issuePeriodLabel = ultimoNumero
       if (meta.authorAvatar) {
         if (existingImg) { existingImg.src = meta.authorAvatar; }
         else if (existingSpan) {
-          existingSpan.outerHTML = `<img src="${meta.authorAvatar}" alt="" class="hero-avatar" width="40" height="40" loading="lazy">`;
+          const newImg = document.createElement('img');
+          newImg.src = meta.authorAvatar;
+          newImg.alt = '';
+          newImg.className = 'hero-avatar';
+          newImg.width = 40;
+          newImg.height = 40;
+          newImg.loading = 'lazy';
+          existingSpan.replaceWith(newImg);
         }
       } else {
         const initial = meta.author.charAt(0);
         if (existingSpan) { existingSpan.textContent = initial; }
         else if (existingImg) {
-          existingImg.outerHTML = `<span class="hero-avatar hero-avatar--placeholder">${initial}</span>`;
+          const newSpan = document.createElement('span');
+          newSpan.className = 'hero-avatar hero-avatar--placeholder';
+          newSpan.textContent = initial;
+          existingImg.replaceWith(newSpan);
         }
       }
       const byline = metaEl.querySelector<HTMLElement>('.hero-byline-text');
-      if (byline) byline.innerHTML = `<strong>${meta.author}</strong>${meta.categoria_menu ? ` &middot; <span class="hero-cat-label">${meta.categoria_menu.replace(/-/g, ' ')}</span>` : ''}`;
+      if (byline) {
+        byline.textContent = '';
+        const strong = document.createElement('strong');
+        strong.textContent = meta.author;
+        byline.appendChild(strong);
+        if (meta.categoria_menu) {
+          byline.appendChild(document.createTextNode(' · '));
+          const catSpan = document.createElement('span');
+          catSpan.className = 'hero-cat-label';
+          catSpan.textContent = meta.categoria_menu.replace(/-/g, ' ');
+          byline.appendChild(catSpan);
+        }
+      }
     }
 
     const titleLink = slide.querySelector<HTMLAnchorElement>('.hero-title-link');
