@@ -400,6 +400,45 @@ Le landing dei numeri della rivista cartacea non rientrano nella traduzione AI i
 
 ---
 
+## Traduzione manuale assistita — TRANS-FLOW-01 (2026-05-07)
+
+Per nuovi articoli che richiedono qualità editoriale superiore alla pipeline Haiku, o per articoli pubblicati post-lancio senza versione EN.
+
+### Flusso
+
+```
+scripts/export-per-traduzione.mjs --slug {slug}
+  → exports/article-{slug}-en.json
+      (_meta / _copy_invariant / _translate / _prompt)
+  → incollare in Claude web
+  → JSON tradotto
+  → incollare in campo json_traduzione dell'articolo IT in Directus
+  → Flow Directus crea EN draft + link bidirezionale IT↔EN
+  → redazione verifica e pubblica
+```
+
+### Campi tradotti dal flusso
+
+`titolo`, `sottotitolo`, `seo_title`, `seo_description`, `didascalia_copertina`, `corpo`.
+
+### Campi copiati invariati
+
+`categoria_menu` (invariante assoluta), `forma`, `tema_label`, `ruolo_editoriale`, `immagine_copertina`, `autore`, `numero_rivista`, `data_pubblicazione`, `temi`, `tags`.
+
+### Stato implementazione
+
+| Componente | Stato |
+|---|---|
+| Script CLI `scripts/export-per-traduzione.mjs` | ✅ pronto |
+| Campo `json_traduzione` in Directus | 🔴 da creare manualmente (istruzioni in `docs/TRANS-FLOW-01-setup.md`) |
+| Flow Directus import | 🔴 da configurare manualmente (istruzioni in `docs/TRANS-FLOW-01-setup.md`) |
+
+### Regole filologiche
+
+Valgono le stesse regole della pipeline AI (sezione "Regole filologiche obbligatorie" sopra). Il campo `_prompt` nel JSON le include già — la redazione non deve ricordarle separatamente.
+
+---
+
 ## Didascalie foto articolo — campo `didascalia_copertina`
 
 Campo Directus: `didascalia_copertina` (tipo `text`, plain text o HTML, lunghezza illimitata). Originariamente `varchar(255)` — ampliato a `text` il 2026-05-06 per supportare URL lunghi (es. link Unsplash con parametri UTM).
