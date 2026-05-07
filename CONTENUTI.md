@@ -506,7 +506,7 @@ Ogni placeholder ha attribution HTML con link al fotografo e alla foto su Unspla
 
 ## Didascalie foto — traduzione EN (DID-EN)
 
-**Stato:** campo `didascalia_en` ✅ creato in Directus. Codice ✅ aggiornato (commit `78a453ea`). Script da eseguire per popolare le traduzioni.
+**Stato:** ✅ completato (2026-05-08). 1965/1965 didascalie tradotte IT→EN con Haiku. Log: `scripts/traduzione/logs/translate-didascalie-2026-05-07T21-44-57.csv`.
 
 ### Prerequisiti (in ordine)
 
