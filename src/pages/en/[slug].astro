@@ -240,6 +240,7 @@ const articleImage = isPlaceholder
 
 const explicitSubtitle = articolo.sottotitolo?.trim() || articolo.seo_description?.trim() || null;
 const heroCaption: string | null =
+  articolo.didascalia_en?.trim() ||
   articolo.didascalia_copertina?.trim() ||
   (isPlaceholder ? getPlaceholder(articolo.slug ?? '', useBwPlaceholder).caption : null);
 

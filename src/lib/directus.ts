@@ -100,6 +100,8 @@ export interface AutoreRef {
   id: string;
   slug: string;
   nome_completo: string;
+  bio_en?: string | null;
+  bio_html?: string | null;
 }
 
 export interface NumeroRivistaRef {
@@ -153,6 +155,7 @@ export interface ArticoloListItem {
   seo_title: string | null;
   seo_description: string | null;
   didascalia_copertina: string | null;
+  didascalia_en: string | null;
   categoria_menu: string | null;
   ruolo_editoriale: string | null;
   in_evidenza: boolean | null;
@@ -285,7 +288,7 @@ export async function getArticoloBySlug(
     fields: [
       '*',
       'autore.id', 'autore.slug', 'autore.nome_completo',
-      'autore.bio_html', 'autore.foto.id', 'autore.foto.filename_download',
+      'autore.bio_html', 'autore.bio_en', 'autore.foto.id', 'autore.foto.filename_download',
       'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
       'numero_rivista.anno_pubblicazione', 'numero_rivista.copertina_url',
       'serie.id', 'serie.slug', 'serie.nome',
