@@ -74,6 +74,7 @@
 
 | Commit | Area | Fix |
 |--------|------|-----|
+| (script) | **TRANS-FLOW-01** | Script export traduzione `scripts/export-per-traduzione.mjs` pronto. Setup Directus (campo `json_traduzione` + Flow import) documentato in `docs/TRANS-FLOW-01-setup.md` — da completare manualmente in Directus UI. |
 | (branch `feat/social-sticky-v2`) | **SOCIAL-STICKY** | Refactor completo: da `position:fixed`+JS a `position:sticky` CSS-nativo. DOM: `article-body-row` flex container con sidebar (`social-sticky`) + `article-body-main`. JS ridotto a solo IntersectionObserver fade-in. Stile nectar: 46px, border-radius 100px, hover fill per piattaforma. 6 icone (FB, X, WA, LinkedIn, email, copy). Revert: `git revert <sha>` su main dopo merge. |
 | `d5fc53f5` | **TAG** | `/tag/{slug}` → `/it/tag/{slug}` in `it/[slug].astro` (solo EN aveva prefisso corretto) |
 | `3133111c` + `7756e067` | **BIO-EN** | ✅ Script `translate-bio.mjs` scritto ed eseguito — 79/79 bio autori tradotte IT→EN con Haiku, zero errori. Campo `bio_en` ora popolato. Log: `scripts/traduzione/logs/translate-bio-2026-05-07T17-03-32.csv`. Bio live su articoli EN (SSR) e su pagine autore (SSG) dopo rebuild. |

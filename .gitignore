@@ -70,3 +70,6 @@ hero-nectar/
 
 # File di lavoro privati
 prompt_sicurezza.md
+
+# Export articoli per traduzione manuale (TRANS-FLOW-01 — rigenerabili via script)
+exports/
