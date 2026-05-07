@@ -486,7 +486,7 @@ export async function getArticoliByNumeroId(numeroId: string): Promise<ArticoloL
     'filter[stato][_eq]': 'published',
     fields: ARTICOLO_LIST_FIELDS,
     limit: '-1',
-    sort: 'data_pubblicazione',
+    sort: '-data_pubblicazione',
   });
   const data = await directusFetch<{ data: ArticoloListItem[] }>(
     `/items/articoli?${params}`
