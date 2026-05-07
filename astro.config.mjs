@@ -61,5 +61,7 @@ export default defineConfig({
     '/tag': '/it/tag',
     // Fase 2 i18n: /blog/en → /en/
     '/blog/en': '/en/',
+    // WP legacy
+    '/studiosi-educatori-e-attivisti-ombre-e-luci': '/it/studiosi-educatori-attivisti/',
   },
 });

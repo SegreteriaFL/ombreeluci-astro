@@ -1,0 +1,226 @@
+---
+import type { Autore } from '../lib/directus';
+import { getAutoreImageUrl } from '../lib/directus';
+import type { Locale } from '../utils/i18n';
+
+interface Props {
+  lang: Locale;
+  autori: Autore[];
+}
+
+const { lang, autori } = Astro.props;
+
+const authorBasePath = lang === 'en' ? '/en/authors' : '/it/autori';
+
+const ui = {
+  it: {
+    title: 'Studiosi, educatori e attivisti',
+    subtitle: 'che hanno scritto per Ombre e Luci',
+    intro: 'Nel corso degli anni, Ombre e Luci ha ospitato contributi di studiosi, educatori e attivisti impegnati nella promozione dei diritti delle persone con disabilità.',
+    viewArticles: 'Visualizza tutti gli articoli →',
+    articles: 'articoli',
+  },
+  en: {
+    title: 'Scholars, Educators and Activists',
+    subtitle: 'who have written for Ombre e Luci',
+    intro: 'Over the years, Ombre e Luci has welcomed contributions from scholars, educators and activists committed to promoting the rights of people with disabilities.',
+    viewArticles: 'View all articles →',
+    articles: 'articles',
+  },
+} as const;
+
+const c = ui[lang];
+---
+
+<main class="site-main">
+  <div class="container">
+    <header class="studiosi-header">
+      <h1 class="studiosi-title">{c.title}</h1>
+      <p class="studiosi-subtitle">{c.subtitle}</p>
+      <p class="studiosi-intro">{c.intro}</p>
+    </header>
+
+    <ul class="studiosi-list">
+      {autori.map((autore) => {
+        const bio = (lang === 'en' && autore.bio_en?.trim()) ? autore.bio_en : autore.bio_html;
+        const fotoUrl = autore.foto?.id ? getAutoreImageUrl(autore.foto.id) : null;
+        const authorUrl = `${authorBasePath}/${autore.slug}/`;
+        return (
+          <li class="studioso-card">
+            <div class="studioso-avatar">
+              {fotoUrl ? (
+                <img
+                  src={fotoUrl}
+                  alt={autore.nome_completo}
+                  class="studioso-foto"
+                  loading="lazy"
+                  width="96"
+                  height="96"
+                />
+              ) : (
+                <div class="studioso-foto-placeholder" aria-hidden="true">
+                  {autore.nome_completo.charAt(0)}
+                </div>
+              )}
+            </div>
+            <div class="studioso-info">
+              <h2 class="studioso-nome">
+                <a href={authorUrl}>{autore.nome_completo}</a>
+              </h2>
+              {bio && (
+                <div class="studioso-bio" set:html={bio} />
+              )}
+              <a href={authorUrl} class="studioso-link">
+                {autore.articoli_count
+                  ? `${autore.articoli_count} ${c.articles} →`
+                  : c.viewArticles}
+              </a>
+            </div>
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+</main>
+
+<style>
+  .studiosi-header {
+    max-width: 720px;
+    margin: 3rem 0 3rem;
+  }
+
+  .studiosi-title {
+    font-family: var(--font-heading);
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 900;
+    line-height: 1.1;
+    color: var(--text-dark);
+    margin: 0 0 0.25rem;
+  }
+
+  .studiosi-subtitle {
+    font-family: var(--font-heading);
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-weight: 400;
+    color: var(--text-muted);
+    margin: 0 0 1.5rem;
+  }
+
+  .studiosi-intro {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--text-dark);
+    margin: 0;
+  }
+
+  .studiosi-list {
+    list-style: none;
+    margin: 0 0 4rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .studioso-card {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--border-light, #e8e4df);
+    align-items: flex-start;
+  }
+
+  .studioso-card:first-child {
+    border-top: 1px solid var(--border-light, #e8e4df);
+  }
+
+  .studioso-avatar {
+    flex-shrink: 0;
+    width: 80px;
+  }
+
+  .studioso-foto,
+  .studioso-foto-placeholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .studioso-foto-placeholder {
+    background: var(--accent-color);
+    color: #fff;
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .studioso-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .studioso-nome {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 0.625rem;
+    line-height: 1.2;
+  }
+
+  .studioso-nome a {
+    color: var(--text-dark);
+    text-decoration: none;
+  }
+
+  .studioso-nome a:hover {
+    color: var(--accent-color);
+  }
+
+  .studioso-bio {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--text-body, #333);
+    margin-bottom: 0.75rem;
+  }
+
+  .studioso-bio p { margin: 0 0 0.5rem; }
+  .studioso-bio p:last-child { margin-bottom: 0; }
+  .studioso-bio a { color: var(--accent-color); }
+
+  .studioso-link {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+
+  .studioso-link:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 480px) {
+    .studioso-card {
+      gap: 1rem;
+    }
+
+    .studioso-avatar {
+      width: 56px;
+    }
+
+    .studioso-foto,
+    .studioso-foto-placeholder {
+      width: 56px;
+      height: 56px;
+    }
+
+    .studioso-foto-placeholder {
+      font-size: 1.4rem;
+    }
+  }
+</style>

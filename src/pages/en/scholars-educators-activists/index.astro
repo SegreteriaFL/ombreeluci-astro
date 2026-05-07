@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import StudosiContent from '../../../components/StudosiContent.astro';
+import { getAllAutori } from '../../../lib/directus';
+import slugsOrdinati from '../../../data/studiosi.json';
+
+const tuttiAutori = await getAllAutori();
+const slugSet = new Set(slugsOrdinati);
+const autoriMap = new Map(tuttiAutori.filter(a => slugSet.has(a.slug)).map(a => [a.slug, a]));
+const autori = slugsOrdinati.map(s => autoriMap.get(s)).filter(Boolean);
+---
+
+<BaseLayout
+  title="Scholars, Educators and Activists — Ombre e Luci"
+  description="Over the years, Ombre e Luci has welcomed contributions from scholars, educators and activists committed to promoting the rights of people with disabilities."
+  lang="en"
+  alternateArticleUrl="/it/studiosi-educatori-attivisti/"
+>
+  <StudosiContent lang="en" autori={autori} />
+</BaseLayout>

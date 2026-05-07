@@ -36,6 +36,7 @@ Flusso obbligatorio per qualsiasi pagina template:
 | `BaseLayout.astro` | tutte le pagine | tutte le pagine |
 | `VerticaleContent.astro` | `/it/focus/[vertical]` | `/en/focus/[vertical]` |
 | `FocusListingContent.astro` | `/it/focus/` | `/en/focus/` |
+| `StudosiContent.astro` | `/it/studiosi-educatori-attivisti/` | `/en/scholars-educators-activists/` |
 
 **Aggiungere una nuova lingua (ES, FR):** creare `src/pages/es/` con gli stessi file route, passare `lang="es"` ai componenti. Zero markup da duplicare.
 
