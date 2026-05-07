@@ -75,6 +75,7 @@
 | Commit | Area | Fix |
 |--------|------|-----|
 | (script) | **TRANS-FLOW-01** | Script export traduzione `scripts/export-per-traduzione.mjs` pronto. Setup Directus (campo `json_traduzione` + Flow import) documentato in `docs/TRANS-FLOW-01-setup.md` — da completare manualmente in Directus UI. |
+| (API Directus) | **TRANS-FLOW-01-setup** | Campo `json_traduzione` creato su `articoli`, permessi Redazione aggiornati (READ 28 campi + UPDATE `*`). Flow di import da configurare manualmente in Directus UI (`docs/TRANS-FLOW-01-setup.md` Step 3). |
 | `78a453ea` | **BIO-EN-QUERY** | Fix bug: `getArticoloBySlug` non fetchava `autore.bio_en` → la bio EN non appariva mai su articoli EN (fallback sempre su bio IT). Aggiunto `autore.bio_en` al fields array + `bio_en`/`bio_html` all'interfaccia `AutoreRef`. |
 | `78a453ea` | **DID-EN-CODE** | Codice `en/[slug].astro`: `heroCaption` ora usa `didascalia_en` con fallback su `didascalia_copertina`. Campo `didascalia_en` creato via API + 1965/1965 didascalie tradotte IT→EN con Haiku. |
 | (branch `feat/social-sticky-v2`) | **SOCIAL-STICKY** | Refactor completo: da `position:fixed`+JS a `position:sticky` CSS-nativo. DOM: `article-body-row` flex container con sidebar (`social-sticky`) + `article-body-main`. JS ridotto a solo IntersectionObserver fade-in. Stile nectar: 46px, border-radius 100px, hover fill per piattaforma. 6 icone (FB, X, WA, LinkedIn, email, copy). Revert: `git revert <sha>` su main dopo merge. |
