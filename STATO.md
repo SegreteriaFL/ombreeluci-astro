@@ -75,6 +75,8 @@
 | Commit | Area | Fix |
 |--------|------|-----|
 | (script) | **TRANS-FLOW-01** | Script export traduzione `scripts/export-per-traduzione.mjs` pronto. Setup Directus (campo `json_traduzione` + Flow import) documentato in `docs/TRANS-FLOW-01-setup.md` — da completare manualmente in Directus UI. |
+| `78a453ea` | **BIO-EN-QUERY** | Fix bug: `getArticoloBySlug` non fetchava `autore.bio_en` → la bio EN non appariva mai su articoli EN (fallback sempre su bio IT). Aggiunto `autore.bio_en` al fields array + `bio_en`/`bio_html` all'interfaccia `AutoreRef`. |
+| `78a453ea` | **DID-EN-CODE** | Codice `en/[slug].astro`: `heroCaption` ora usa `didascalia_en` con fallback su `didascalia_copertina`. Campo `didascalia_en` creato via API + 1965/1965 didascalie tradotte IT→EN con Haiku. |
 | (branch `feat/social-sticky-v2`) | **SOCIAL-STICKY** | Refactor completo: da `position:fixed`+JS a `position:sticky` CSS-nativo. DOM: `article-body-row` flex container con sidebar (`social-sticky`) + `article-body-main`. JS ridotto a solo IntersectionObserver fade-in. Stile nectar: 46px, border-radius 100px, hover fill per piattaforma. 6 icone (FB, X, WA, LinkedIn, email, copy). Revert: `git revert <sha>` su main dopo merge. |
 | `d5fc53f5` | **TAG** | `/tag/{slug}` → `/it/tag/{slug}` in `it/[slug].astro` (solo EN aveva prefisso corretto) |
 | `3133111c` + `7756e067` | **BIO-EN** | ✅ Script `translate-bio.mjs` scritto ed eseguito — 79/79 bio autori tradotte IT→EN con Haiku, zero errori. Campo `bio_en` ora popolato. Log: `scripts/traduzione/logs/translate-bio-2026-05-07T17-03-32.csv`. Bio live su articoli EN (SSR) e su pagine autore (SSG) dopo rebuild. |
@@ -1164,7 +1166,7 @@ Per ogni articolo campione verificare:
 - [ ] Articolo IT senza traduzione EN: language switch → homepage EN (non 404) ✅ già implementato
 - [ ] Articolo EN slug con `-en`: URL `/en/storia-di-un-padre/` funziona (senza `-en`) ✅ lookup
 - [ ] Articolo EN con `categoria_menu=NULL`: mostra "Pubblicato online" invece di categoria
-- [ ] Bio autore su articolo EN: mostra `bio_en` se disponibile; `bio_html` IT come fallback ⚠️ (BIO-EN-ART non ancora implementato)
+- [x] Bio autore su articolo EN: mostra `bio_en` se disponibile; `bio_html` IT come fallback ✅ (commit `78a453ea`)
 
 ### 8. Criteri di "done EN"
 
@@ -1207,8 +1209,8 @@ Algolia webhook → aggiorna indice (da implementare: ALGOLIA-05)
 | Webhook Directus→Pipeline | ❌ Non implementato | Da creare (flow Directus o CF Worker) |
 | Traduzione automatica nuovi articoli | ❌ Non attivo | Prerequisito: webhook |
 | Webhook Directus→Algolia | ❌ Non implementato (ALGOLIA-05) | Da creare |
-| Traduzione didascalie foto (`didascalia_en`) | ❌ Campo non esiste in Directus | Da aggiungere schema |
-| Traduzione bio autori (`bio_en`) | 🟡 Campo esiste, non sempre popolato | Pipeline AI deve coprire anche bio |
+| Traduzione didascalie foto (`didascalia_en`) | ✅ 1965/1965 tradotte (2026-05-08) | — |
+| Traduzione bio autori (`bio_en`) | ✅ 79/79 bio tradotte (2026-05-07) | — |
 | Traduzione nomi tag (`nome_en`, `slug_en`) | ❌ Campi non esistono in Directus | Da aggiungere schema |
 | Traduzione ES/FR | ❌ Non avviato | Dopo chiusura EN |
 
