@@ -20,6 +20,35 @@ type Props = BaseLayoutProps;
 </BaseLayout>
 
 <style is:global>
+  /* Animazioni entrata pagina articolo — dal basso + dissolvenza, solo desktop */
+  @keyframes article-entry {
+    from { opacity: 0; transform: translateY(28px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (min-width: 691px) {
+    .article-title {
+      animation: article-entry 0.65s ease both;
+      animation-delay: 0.2s;
+    }
+    .article-subtitle {
+      animation: article-entry 0.65s ease both;
+      animation-delay: 0.3s;
+    }
+    .article-meta {
+      animation: article-entry 0.65s ease both;
+      animation-delay: 0.3s;
+    }
+    .article-hero-wrapper {
+      animation: article-entry 0.75s ease both;
+      animation-delay: 0.4s;
+    }
+    .article-body-row {
+      animation: article-entry 0.65s ease both;
+      animation-delay: 0.5s;
+    }
+  }
+
   /* Reading Progress Bar */
   .reading-progress {
     position: fixed;

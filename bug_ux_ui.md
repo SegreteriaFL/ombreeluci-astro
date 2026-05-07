@@ -15,6 +15,11 @@ I bug per sezione (home, archivio, ecc.) sono localizzati e indipendenti tra lor
 
 ## Generale
 [x] transizioni tra una pagina e l'altra morbide e eleganti (732d8280)
+[x] transizioni entrata in pagina articolo: titolo .2s, sottotitolo+meta .3s, hero .4s, body .5s — @keyframes article-entry in ArticlePageLayout.astro, solo >=691px, zero JS
+
+
+
+
 [x] tag negli articoli potrebbero non avere it e en? e rimandare a pagine tipo https://ombreeluci-staging.pages.dev/tag/lucio-corsi --> 404? (fix: /it/tag/ mancava in it/[slug].astro — solo EN aveva il prefisso corretto)
 [x] social share icons pagina articolo: posizione, sticky, fade-in (branch feat/social-sticky-v2 — position:sticky CSS-nativo, IntersectionObserver fade-in al primo <p>, hover fill per piattaforma, 6 icone)
 
@@ -69,3 +74,5 @@ I bug per sezione (home, archivio, ecc.) sono localizzati e indipendenti tra lor
 // file: src/pages/index.astro
 [x] pagina numero IT mostra articoli EN sotto "English Edition" — rimossi (79bdd2e4)
 // file: src/components/IssueContent.astro
+
+
