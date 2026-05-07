@@ -36,9 +36,34 @@ const COLOR: Placeholder[] = [
     src: '/placeholder/niko-n-_FJNAM5B0p0-unsplash.webp',
     caption: `Foto di <a href="https://unsplash.com/@niko-n?${UTM}">Niko N.</a> su <a href="https://unsplash.com/photos/_FJNAM5B0p0?${UTM}">Unsplash</a>`,
   },
+  {
+    src: '/placeholder/caio-brigagao-lunardi-_Ye1pm9fGZ4-unsplash.webp',
+    caption: `Foto di <a href="https://unsplash.com/@caio-brigagao-lunardi?${UTM}">Caio Brigagão Lunardi</a> su <a href="https://unsplash.com/photos/_Ye1pm9fGZ4?${UTM}">Unsplash</a>`,
+  },
+  {
+    src: '/placeholder/james-trenda-bZFkDfESCR8-unsplash.webp',
+    caption: `Foto di <a href="https://unsplash.com/@james-trenda?${UTM}">James Trenda</a> su <a href="https://unsplash.com/photos/bZFkDfESCR8?${UTM}">Unsplash</a>`,
+  },
+  {
+    src: '/placeholder/jr-korpa-GQeSfSWmXvI-unsplash.webp',
+    caption: `Foto di <a href="https://unsplash.com/@jr-korpa?${UTM}">Jr Korpa</a> su <a href="https://unsplash.com/photos/GQeSfSWmXvI?${UTM}">Unsplash</a>`,
+  },
+  {
+    src: '/placeholder/jr-korpa-PY6OnoitYfY-unsplash.webp',
+    caption: `Foto di <a href="https://unsplash.com/@jr-korpa?${UTM}">Jr Korpa</a> su <a href="https://unsplash.com/photos/PY6OnoitYfY?${UTM}">Unsplash</a>`,
+  },
+  {
+    src: '/placeholder/kate-trysh-s0yXRDMr6bY-unsplash.webp',
+    caption: `Foto di <a href="https://unsplash.com/@kate-trysh?${UTM}">Kate Trysh</a> su <a href="https://unsplash.com/photos/s0yXRDMr6bY?${UTM}">Unsplash</a>`,
+  },
+  {
+    src: '/placeholder/thomas-lindner-6GmAvTz-QwY-unsplash.webp',
+    caption: `Foto di <a href="https://unsplash.com/@thomas-lindner?${UTM}">Thomas Lindner</a> su <a href="https://unsplash.com/photos/6GmAvTz-QwY?${UTM}">Unsplash</a>`,
+  },
 ];
 
-// ── Foto in bianco e nero (per articoli diari) ─────────────────────────────────
+// ── Foto in bianco e nero (articoli ante-1998 senza immagine) ──────────────────
+// Solo foto con prefisso ph-bw-: scelte manualmente, garantite B&N.
 const BW: Placeholder[] = [
   {
     src: '/placeholder/ph-bw-fia-yang-5ye2nOdHDqM-unsplash.webp',
@@ -71,31 +96,6 @@ const BW: Placeholder[] = [
   {
     src: '/placeholder/ph-bw-xander-ashwell-bhTjAUHHvSg-unsplash.webp',
     caption: `Foto di <a href="https://unsplash.com/@xander-ashwell?${UTM}">Xander Ashwell</a> su <a href="https://unsplash.com/photos/bhTjAUHHvSg?${UTM}">Unsplash</a>`,
-  },
-  // Rilevate come B&N da sharp (senza prefisso ph-bw- nel nome file)
-  {
-    src: '/placeholder/caio-brigagao-lunardi-_Ye1pm9fGZ4-unsplash.webp',
-    caption: `Foto di <a href="https://unsplash.com/@caio-brigagao-lunardi?${UTM}">Caio Brigagão Lunardi</a> su <a href="https://unsplash.com/photos/_Ye1pm9fGZ4?${UTM}">Unsplash</a>`,
-  },
-  {
-    src: '/placeholder/james-trenda-bZFkDfESCR8-unsplash.webp',
-    caption: `Foto di <a href="https://unsplash.com/@james-trenda?${UTM}">James Trenda</a> su <a href="https://unsplash.com/photos/bZFkDfESCR8?${UTM}">Unsplash</a>`,
-  },
-  {
-    src: '/placeholder/jr-korpa-GQeSfSWmXvI-unsplash.webp',
-    caption: `Foto di <a href="https://unsplash.com/@jr-korpa?${UTM}">Jr Korpa</a> su <a href="https://unsplash.com/photos/GQeSfSWmXvI?${UTM}">Unsplash</a>`,
-  },
-  {
-    src: '/placeholder/jr-korpa-PY6OnoitYfY-unsplash.webp',
-    caption: `Foto di <a href="https://unsplash.com/@jr-korpa?${UTM}">Jr Korpa</a> su <a href="https://unsplash.com/photos/PY6OnoitYfY?${UTM}">Unsplash</a>`,
-  },
-  {
-    src: '/placeholder/kate-trysh-s0yXRDMr6bY-unsplash.webp',
-    caption: `Foto di <a href="https://unsplash.com/@kate-trysh?${UTM}">Kate Trysh</a> su <a href="https://unsplash.com/photos/s0yXRDMr6bY?${UTM}">Unsplash</a>`,
-  },
-  {
-    src: '/placeholder/thomas-lindner-6GmAvTz-QwY-unsplash.webp',
-    caption: `Foto di <a href="https://unsplash.com/@thomas-lindner?${UTM}">Thomas Lindner</a> su <a href="https://unsplash.com/photos/6GmAvTz-QwY?${UTM}">Unsplash</a>`,
   },
 ];
 
