@@ -17,11 +17,13 @@ I bug per sezione (home, archivio, ecc.) sono localizzati e indipendenti tra lor
 [x] transizioni tra una pagina e l'altra morbide e eleganti (732d8280)
 [x] transizioni entrata in pagina articolo: titolo .2s, sottotitolo+meta .3s, hero .4s, body .5s — @keyframes article-entry in ArticlePageLayout.astro, solo >=691px, zero JS
 [] in article-badge-link mancano /it/ e in alcuni casi anche /en/ --> fai check a 360° per capire cosa manca da fixare e che ti sei person nelle iterazioni precedenti
+[] debug-section con dati JSON articolo presente nel DOM con hidden — va rimossa completamente da it/[slug].astro e en/[slug].astro prima del cutover (non solo nascosta)
+// file: src/pages/it/[slug].astro, src/pages/en/[slug].astro
 [] traduzioni didascalie
 [x] fix didascalie unsplash come da documentazione (non so dove avevamo apputanto credits con link)
 [] traduzioni bio
 [] automazione creazione versione inglese di articoli e numeri: capire come facilitare il compito della redazione. proposte: 1 opzione base: tasto in cms dentro articolo o pagina numero "crea versione inglese" (o spa o altra lingua pensare in modo che sia interfaccia scalabile) si apre pagina con struttura copiata 2 opzione pro: automazione completa con chiamata api per traduzione immediata di tutti i contenuti dell'oggetto. Valutare, documentare e fare piano di lavoro
-
+[] numero 52 mancavano gli articoli. fixato in italiano --> va sistemato numero inglese  mettendo gli articoli corrispondendi. Vale anche per numeri, ancora da fixare it, 47 46, https://ombreeluci-staging.pages.dev/it/archivio/ins--3 https://ombreeluci-staging.pages.dev/it/archivio/ins--2
 
 [x] tag negli articoli potrebbero non avere it e en? e rimandare a pagine tipo https://ombreeluci-staging.pages.dev/tag/lucio-corsi --> 404? (fix: /it/tag/ mancava in it/[slug].astro — solo EN aveva il prefisso corretto)
 [x] social share icons pagina articolo: posizione, sticky, fade-in (branch feat/social-sticky-v2 — position:sticky CSS-nativo, IntersectionObserver fade-in al primo <p>, hover fill per piattaforma, 6 icone)

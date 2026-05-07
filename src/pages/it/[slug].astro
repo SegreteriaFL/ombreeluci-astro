@@ -932,16 +932,10 @@ Slug: {articolo.slug}
       
       window.addEventListener('scroll', checkScrollForWidget);
 
-      // Social sticky: fade-in al primo <p> dell'articolo (sticky behavior gestito da CSS)
+      // Social sticky: fade-in dopo le animazioni d'entrata pagina (0.45s delay + 0.55s duration = 1s)
       (function() {
         var bar = document.getElementById('social-sticky');
-        if (!bar) return;
-        var firstP = document.querySelector('#article-content p');
-        if (firstP) {
-          new IntersectionObserver(function(entries, obs) {
-            if (entries[0].isIntersecting) { bar.classList.add('visible'); obs.disconnect(); }
-          }, { threshold: 0.1 }).observe(firstP);
-        }
+        if (bar) setTimeout(function() { bar.classList.add('visible'); }, 1100);
       })();
 
       // Processa link WordPress e link esterni (targeting: article, .prose o body)
