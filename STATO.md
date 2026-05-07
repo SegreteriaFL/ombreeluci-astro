@@ -76,7 +76,7 @@
 |--------|------|-----|
 | (branch `feat/social-sticky-v2`) | **SOCIAL-STICKY** | Refactor completo: da `position:fixed`+JS a `position:sticky` CSS-nativo. DOM: `article-body-row` flex container con sidebar (`social-sticky`) + `article-body-main`. JS ridotto a solo IntersectionObserver fade-in. Stile nectar: 46px, border-radius 100px, hover fill per piattaforma. 6 icone (FB, X, WA, LinkedIn, email, copy). Revert: `git revert <sha>` su main dopo merge. |
 | `d5fc53f5` | **TAG** | `/tag/{slug}` → `/it/tag/{slug}` in `it/[slug].astro` (solo EN aveva prefisso corretto) |
-| (in corso) | **BIO-EN** | Script `scripts/traduzione/translate-bio.mjs` pronto — 79 autori da tradurre. Da eseguire senza prerequisiti. |
+| `3133111c` | **BIO-EN** | ✅ `translate-bio.mjs` eseguito — 79/79 bio autori tradotte IT→EN, zero errori. `bio_en` popolato su tutti gli autori con bio. |
 | (in corso) | **DID-EN** | Script `scripts/traduzione/translate-didascalie.mjs` pronto — ~3470 record. Prerequisito: creare campo `didascalia_en` in Directus UI + aggiornare `en/[slug].astro` (task separato). |
 
 ## Fix recenti (2026-05-06)
