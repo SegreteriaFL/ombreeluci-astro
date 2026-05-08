@@ -10,7 +10,7 @@ export async function getStaticPaths() {
   const categorySlugs = getAllCategorySlugs();
   return Promise.all(categorySlugs.map(async (categoria) => {
     const displayLabel = getCategoriaLabel(categoria, 'it') ?? categoria;
-    const articoli = allArticles.filter((a) => a.categoria_menu === categoria).sort((a, b) => {
+    const articoli = allArticles.filter((a) => a.categoria_menu === categoria || a.categoria_menu_2 === categoria).sort((a, b) => {
       const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
       const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
       if (tA !== tB) return tB - tA;

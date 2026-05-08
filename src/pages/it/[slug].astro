@@ -6,7 +6,7 @@ import { getPlaceholder } from '../../utils/placeholder';
 import ArticlePageLayout from '../../layouts/ArticlePageLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle, getCategoriaUrlSlug, getFormaToRubricaSlug } from '../../config/taxonomy.js';
+import { getLabels, getMegaclusterForArticle, getThemeLabel, getCategorySlugForArticle, getCategoriaUrlSlug, getFormaToRubricaSlug, getCategoriaLabel } from '../../config/taxonomy.js';
 import { getLangFromUrl, t, localizeFormalType } from '../../utils/i18n';
 import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
@@ -254,6 +254,9 @@ const categoryLink = categorySlug
     ? `/en/category/${getCategoriaUrlSlug(categorySlug, 'en')}/`
     : `/it/categoria/${categorySlug}/`
   : null;
+const categorySlug2 = articolo.categoria_menu_2 ?? null;
+const categoryDisplay2 = categorySlug2 ? (getCategoriaLabel(categorySlug2, 'it') ?? null) : null;
+const categoryLink2 = categorySlug2 ? `/it/categoria/${categorySlug2}/` : null;
 const currentLabels = getLabels([], articolo);
 const formaDisplay =
   currentLabels.formal && currentLabels.formal !== 'Articolo'
@@ -477,6 +480,12 @@ const relatedArticles = (() => {
             ) : (
               <span class="article-badge-text">{categoryDisplay}</span>
             )}
+            {categoryDisplay2 && <span class="article-badge-sep"> · </span>}
+            {categoryDisplay2 && (categoryLink2 ? (
+              <a href={categoryLink2} class="article-badge-link">{categoryDisplay2}</a>
+            ) : (
+              <span class="article-badge-text">{categoryDisplay2}</span>
+            ))}
           </nav>
         ) : (
           <div class="article-category-badge article-category-badge--online">

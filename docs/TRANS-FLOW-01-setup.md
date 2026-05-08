@@ -204,6 +204,7 @@ Payload (da configurare come "raw" JSON con riferimenti alle variabili del Flow)
   "didascalia_copertina": "{{ $last_parse.translate.didascalia_copertina }}",
   "corpo": "{{ $last_parse.translate.corpo }}",
   "categoria_menu": "{{ $last_parse.copy_invariant.categoria_menu }}",
+  "categoria_menu_2": "{{ $last_parse.copy_invariant.categoria_menu_2 }}",
   "forma": "{{ $last_parse.copy_invariant.forma }}",
   "tema_label": "{{ $last_parse.copy_invariant.tema_label }}",
   "ruolo_editoriale": "{{ $last_parse.copy_invariant.ruolo_editoriale }}",
