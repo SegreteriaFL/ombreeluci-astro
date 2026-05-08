@@ -13,7 +13,93 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 ------
 
+## dalla redazione
 
+## Redazione — segnalazioni (2026-05-08)
+
+### Directus UX
+
+[] TEMI-LEGACY: campo `temi` (M2M legacy 285 temi) visibile nel form articolo — 
+   nasconderlo completamente. Non serve per nuovi articoli.
+   // via: PATCH /fields/articoli/temi meta.hidden:true
+
+[~] TAG-UX: inserimento tag infelice — interfaccia M2M non ha autocomplete inline 
+   come WordPress. Valutare se Directus 11 supporta autocomplete su M2M, 
+   altrimenti documentare come limite strutturale.
+   // via: Directus API meta.options
+
+[] FORMA-POSITION: campo Forma da spostare accanto a Tema in cima alla sezione 
+   Classificazione. Attualmente in fondo.
+   // via: PATCH meta.sort sui campi classificazione
+
+[] PREVIEW-DIR: anteprima articolo non funziona in Directus.
+   // file: Directus Settings → Data Model → articoli → Preview URL
+
+[] SAVE-DEFAULT: al salvataggio articolo il default dovrebbe essere 
+   "Salva e rimani" non "Salva e esci".
+   // via: Directus Settings o meta campo
+
+[] AUTORE-FILTER: quando si apre il selettore autore, filtrare automaticamente 
+   solo i collaboratori (escludere utenti tecnici/admin).
+   // via: PATCH relazione autore meta.filter
+
+[] FILTRI-LISTA: elenco articoli mostra filtri inutili (umap_x, umap_y, umap_z, 
+   cluster_id ecc.). Rimuovere i campi tecnici dai filtri visibili, 
+   tenere solo quelli editoriali utili.
+   // via: PATCH meta.display su campi tecnici
+
+[] SLUG-AUTORE: slug segnalato come obbligatorio anche se presente — 
+   blocca pubblicazione nuovo autore.
+   // file: src/lib/directus.ts o Directus field validation
+
+[] FOLDERS-FORBIDDEN: errore FORBIDDEN su directus_folders durante upload — 
+   aggiungere permesso READ su directus_folders per ruolo Redazione.
+   // via: POST /permissions policy Redazione
+
+[] UAT-PULIZIA: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
+   per FK constraint su directus_files. Reassegnare file all'admin 
+   (UUID 93c154ca) poi eliminare utente.
+   // via: PATCH /files + DELETE /users
+
+### Frontend
+
+[] ARCHIVAL-ALERT: range alert archivio troppo basso — aumentare da 10 anni 
+   a valore più ampio per articoli storici anni '80-'90.
+   // file: src/layouts/ArticlePageLayout.astro o src/pages/it/[slug].astro
+
+[] CORRELATI-EDIT: nessun modo per correggere correlati sbagliati o vecchi 
+   dalla redazione. Valutare campo override manuale in Directus.
+   // architettura da definire
+
+[] DIARI-MANCANTI: alcuni articoli mancano dall'associazione al diario corretto. 
+   Come inserire nuovi articoli in un diario esistente?
+   // via: Directus campo serie/diario su articolo
+
+[] DIARI-GRAFICA: modificare graficamente i post dei diari.
+   // file: src/components/DiarioContent.astro o DiarioLayout.astro
+
+### Feature da implementare
+
+[] FOCUS-HOWTO: documentare come aggiungere articoli ai focus esistenti 
+   e come creare nuovi focus per la redazione.
+   // docs: aggiungere sezione in NORME_EDITORIALI_OEL.md
+
+[] IMMAGINI-MULTI: possibilità di inserire più immagini contemporaneamente 
+   nell'articolo (upload multiplo).
+   // via: Directus field configuration
+
+[] TESTI-STATICI: come modificare testi non-articolo (descrizioni categorie, 
+   testi homepage). Decidere architettura: collection Directus dedicata 
+   vs testo nel codice.
+   // architettura da definire
+
+[] NL-MAILCHIMP: form newsletter da collegare a Mailchimp.
+   // uuid: 00c5dad63480d9601563b5692, lid: efd099264d
+   // file: src/components/NewsletterContent.astro
+
+[] EVIDENZA-RECENTI: gestione "In evidenza" — selezionare automaticamente 
+   solo i 4 più recenti tra quelli flaggati.
+   // file: src/lib/directus.ts getArticoliInEvidenza o equivalente
 
 
 -------------
@@ -22,10 +108,8 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 
 ## Generale
-[] UAT-CLEANUP parziale: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
-— FK constraint su directus_files (uploaded_by). Per pulizia completa: reassegnare 
-i file dell'utente UAT all'admin (UUID 93c154ca-372c-4f94-8a35-e0fe66850780) via 
-PATCH /files, poi eliminare l'utente. Non urgente — utente già sospeso, non può fare login.
+[x] UAT-CLEANUP parziale: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
+— FK constraint su directus_files (uploaded_by). Per pulizia completa: reassegnare i file dell'utente UAT all'admin (UUID 93c154ca-372c-4f94-8a35-e0fe66850780) via PATCH /files, poi eliminare l'utente. Non urgente — utente già sospeso, non può fare login.
 // via: Directus API
 [] Page loader anti-FOUC non funziona al primo caricamento — flash del DOM 
 non sistemato visibile, spinner mai visibile. Script is:inline in <head> 

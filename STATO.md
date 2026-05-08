@@ -1,9 +1,32 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-08 (main — sprint UX+security: page loader anti-FOUC, XSS fix, mobile typography)
+**Ultimo aggiornamento:** 2026-05-08 (branch feat/classificazione-cleanup — smoke test CLASSIF-01)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
+
+---
+
+## Smoke test CLASSIF-01 (2026-05-08 — branch feat/classificazione-cleanup)
+
+Test eseguiti su preview CF Pages (`feat-classificazione-cleanup.ombreeluci-staging.pages.dev`) e su main staging per SSR.
+
+| Test | URL | Esito | Note |
+|------|-----|-------|------|
+| 1 — Categoria ombre-e-luci | `/it/categoria/ombre-e-luci/` | ✅ 200 | SSG, preview branch |
+| 2 — Badge categoria articolo IT | `/it/ombre-e-luci/` | ⚠️ non verificabile | SSR rotto su preview deployment (vedi sotto) — su main staging badge link OK: `/it/categoria/*` |
+| 3 — Megamenu contiene ombre-e-luci | `/` | ✅ presente | Preview branch: 14 categorie, inclusa `ombre-e-luci` (vs 13 su main) |
+| 4 — Categoria famiglia | `/it/categoria/famiglia/` | ✅ 200 | SSG, preview branch |
+| 5 — Categoria EN family | `/en/category/family/` | ✅ 200 | Preview branch |
+| 6 — Language switcher IT→EN | `/it/la-nostra-buona-novella` | ✅ corretto | Main staging: `hreflang="en"` punta a `/en/good-news-for-us-all`, non alla homepage EN |
+| 7 — Build preview | CF Pages preview | ✅ deployato | SSG OK; SSR rotto solo su deployment preview (vedi sotto) |
+
+**Anomalia rilevata — SSR `[object Object]` sul preview deployment:**
+Tutti i percorsi SSR (`/it/[slug]`, `/en/[slug]`) sul preview branch restituiscono `[object Object]` (15B).
+Causa: noto problema CF Pages con `nodejs_compat` su preview deployment (documentato in WORKING.md).
+Non è un bug del codice CLASSIF-01 — i file modificati (categoria.astro, taxonomy.js, directus.ts, i18n.ts, content/config.ts, en/[slug].astro) sono tutti SSG o non cambiano la pipeline SSR.
+Main staging (deployato da main) non ha questo problema.
+**Azione richiesta:** fare merge su main → smoke test completo su `ombreeluci-staging.pages.dev` per confermare SSR post-merge.
 
 ---
 
@@ -74,6 +97,7 @@
 
 | Commit | Area | Fix |
 |--------|------|-----|
+| (API Directus, 2026-05-08) | **CLASSIF-02** | Tre fix sezione Classificazione Directus: (1) campo `temi` (M2M legacy) nascosto via `meta.hidden:true` — non appare più nel form né per admin; (2) riordine campi: Tema=301, Forma=302, Tag=303, Ruolo editoriale=304, In evidenza=305, temi (nascosto)=310; (3) **tag autocomplete M2M — non implementabile**: in Directus 11, `list-m2m` usa sempre drawer/modale e non ha opzione `inline` o `autocomplete`. L'interfaccia `tags` inline esiste solo per campi `json`/`csv` (stringhe), non per M2M relazionali — cambio di tipo spezzerebbe la collection `tags`. Configurazione attuale (`enableCreate:true`, `enableSelect:true`) è il massimo disponibile su M2M. |
 | (branch feat/classificazione-cleanup) | **CLASSIF-01** | Fix conflitto critico SSG/SSR categoria: `it/categoria/[categoria].astro` ora filtra su `a.categoria_menu === slug` invece di `tema_label === label` — SSG e SSR ora usano lo stesso campo. Aggiunta 14a categoria `ombre-e-luci` in `taxonomy_structure.json` e `categorie.json` (già presente). Rimozione completa `tema_label` da: `taxonomy.js` (fallback, funzioni), `directus.ts` (interfaccia, fields query), `utils/i18n.ts` (dizionari, `TEMA_IT_TO_I18N_KEY`, `localizeTheme`), `content/config.ts`. `getCategorySlugForArticle` riscritta su `categoria_menu` diretto. Directus UI: choices `categoria_menu` aggiornate a slug canonici + 14a voce; label IT "Tema"/"Forma"/"Tag"/"Ruolo editoriale"/"In evidenza"; campi tecnici nascosti (tema_label, umap_x/y/z, cluster_id, wp_id); permesso Redazione (id 90) aggiornato (rimosso tema_label, aggiunti slug/lang/in_evidenza/articolo_traduzione/didascalia_en). File modificati: `src/pages/it/categoria/[categoria].astro`, `src/data/taxonomy_structure.json`, `src/config/taxonomy.js`, `src/lib/directus.ts`, `src/utils/i18n.ts`, `src/content/config.ts`, `src/pages/en/[slug].astro`. |
 | (verifica) | **LANG-SWITCHER-STATUS** | Language switcher funziona correttamente: 3451 IT con link bidirezionale IT↔EN, testato su staging (`la-nostra-buona-novella` → `/en/good-news-for-us-all`). I 39 IT senza link non hanno traduzione EN — dato mancante, non bug. `come-tradurre-un-articolo-in-inglese-col-nuovo-cms` senza link perché l'import TRANS-FLOW-01 è fallito (JSON troncato nel copia-incolla, errore a posizione 3783). Nessun EN orfano. Nessun fix necessario al codice. |
 | (verifica) | **BIO-EN-STATUS** | `bio_en` funziona correttamente: campo in `getArticoloBySlug` fields, in template `en/[slug].astro` (riga 165: `bio_en` first, `bio_html` fallback). 79/354 autori hanno bio_en (= tutti quelli con bio IT). Staging verificato: `sexuality-and-disability-dont-wait-to-talk-about-it` mostra bio EN in pagina. Autori senza bio = 275/354 — non hanno bio in nessuna lingua, dato mancante, non bug. |
