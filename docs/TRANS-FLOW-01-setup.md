@@ -12,7 +12,17 @@
 
 - **Step 1–2** (campo `json_traduzione` + permessi Redazione): completati via API script in sessione 2026-05-07
 - **Step 3** (Flow "Import traduzione da JSON"): configurato in Directus UI in sessione 2026-05-08, testato e funzionante
-- **TRANS-FLOW-01b** (Flow export manuale per redazione): implementato nella stessa sessione invece che come fase separata. Flow "Esporta per traduzione" con trigger manuale su `articoli` — pulsante nell'UI dell'articolo IT che genera il JSON nel campo `json_export`. Campo `json_export` creato via API.
+- **TRANS-FLOW-01b** (Flow "Esporta per traduzione"): trigger manuale su `articoli` — pulsante ⋮ nell'UI dell'articolo IT che genera il JSON nel campo `json_export`. Campo `json_export` creato via API. Flow configurato via script `scripts/setup-export-flow.mjs` in sessione 2026-05-08.
+
+### Architettura finale flow "Esporta per traduzione"
+
+Tre operation in sequenza (configurate via `scripts/setup-export-flow.mjs`):
+
+| # | Tipo | Chiave | Cosa fa |
+|---|---|---|---|
+| 1 | item-read | `leggi_articolo` | Legge l'articolo con tutti i campi necessari. Key: `{{$trigger.body.keys[0]}}` |
+| 2 | exec (Run Script) | `costruisci_json` | JS puro — costruisce il JSON export da `data['leggi_articolo']`. Zero I/O. |
+| 3 | item-update | `scrivi_json` | Scrive `{{costruisci_json.json}}` nel campo `json_export` dell'articolo IT |
 
 ### Gotcha emersi durante la configurazione reale
 
@@ -21,6 +31,10 @@
 - **Create Data restituisce array**: `new_en` è `["uuid"]` non `{ id: "uuid" }` — usare `{{ new_en[0] }}` non `{{ new_en.id }}`
 - **Condition regola**: non va wrappata in `{ "filter": { ... } }` — la regola va scritta direttamente senza wrapper
 - **Read Data campi relazionali**: i temi ritornano come `{ temi_id: { id: "..." } }` (annidato) — il Run Script del flow export deve normalizzarli a `{ temi_id: "..." }` per l'import
+- **Run Script sandbox — no fetch, no require**: Directus 11.16.1 esegue gli script in un VM context dove né `fetch` (Node < 18) né `require` sono disponibili. La soluzione è fare il fetch **prima** con un item-read, poi passare i dati al Run Script che usa solo JS puro.
+- **item-read con key dinamica nei trigger manuali**: funziona correttamente con `{{$trigger.body.keys[0]}}` nella configurazione `options.key`. Il bug osservato in precedenza era dovuto a una configurazione errata (key passata come template nel campo sbagliato dell'UI).
+- **Foreign key constraint al delete operation**: prima di cancellare una operation, azzerare `resolve` e `reject` su tutte — altrimenti Postgres blocca il delete per FK violation.
+- **Errore "json_traduzione non è un JSON valido"**: se il JSON incollato è troncato (copy-paste parziale da Claude), il flow lo segnala esplicitamente con posizione dell'errore. Non è un bug — serve copiare l'intera risposta di Claude.
 
 ---
 
@@ -300,20 +314,16 @@ La **Condition "JSON presente?"** (Operation 1) blocca l'esecuzione perché `jso
 ### Come usare il flusso
 
 1. Aprire l'articolo IT in Directus
-2. Chiedere al tecnico di eseguire:
-   ```bash
-   node scripts/export-per-traduzione.mjs --slug {slug-articolo}
-   ```
-   (In futuro: cliccare "Esporta per traduzione" — Flow export manuale, TRANS-FLOW-01b da implementare)
-3. Aprire il file JSON generato in `exports/article-{slug}-en.json`
+2. Cliccare **⋮ → "Esporta per traduzione"** — il flow genera il JSON nel campo `json_export` (attesa ~5 sec, poi ricaricare la pagina)
+3. Copiare il contenuto del campo `json_export`
 4. Andare su [claude.ai](https://claude.ai), aprire una nuova conversazione
-5. Incollare l'intero contenuto del file JSON — il campo `_prompt` contiene già tutte le istruzioni per Claude, non serve aggiungere altro
+5. Incollare l'intero contenuto — il campo `_prompt` contiene già tutte le istruzioni per Claude, non serve aggiungere altro
 6. Claude restituisce il JSON tradotto
-7. Copiare il JSON tradotto restituito da Claude
+7. **Copiare l'intera risposta di Claude** — usare il pulsante copia di Claude.ai, non selezionare manualmente (rischio testo troncato)
 8. Tornare all'articolo IT in Directus
 9. Incollare il JSON nel campo **"JSON traduzione da importare"**
-10. Salvare — il sistema crea automaticamente la versione tradotta in bozza
-11. Aprire la versione tradotta (link `articolo_traduzione`), verificare, pubblicare
+10. Salvare — il sistema crea automaticamente la versione tradotta pubblicata
+11. L'articolo EN compare in `/en/{slug}/` — verificare titolo, corpo, immagini
 
 ### Cosa fa il sistema automaticamente
 
