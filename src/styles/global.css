@@ -210,7 +210,7 @@ img {
   }
 
   h1 {
-    font-size: 1.875rem;
+    font-size: 2rem;
   }
 
   h2 {
@@ -229,6 +229,7 @@ img {
   }
 
   p, li {
+    font-size: 1.125rem;
     line-height: 1.7;
   }
 
