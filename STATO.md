@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-06 (main — sprint UX: lang-switch, diari-grid, testimonianze rotation, esplora EN, frecce carousel, issue IT no EN articles)
+**Ultimo aggiornamento:** 2026-05-08 (main — sprint UX+security: page loader anti-FOUC, XSS fix, mobile typography)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
@@ -69,6 +69,18 @@
 **`/en/category/projects/`**: 235 EN con `categoria_menu = 'progetti'`, tutti published. Le pagine categoria EN sono ora popolate.
 
 ---
+
+## Fix recenti (2026-05-08)
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| `add83081` | **UX-PAGELOAD** | Page loader anti-FOUC: overlay `#page-loader` con spinner in `BaseLayout.astro`, `body { opacity:0 }` + `body.ready { opacity:1; transition:200ms }` in `global.css`. Script `is:inline` in `<head>` (gira prima del primo paint). Ciclo ripetuto su View Transitions (`astro:before-preparation` / `astro:page-load`). Disabilitato con `prefers-reduced-motion`. Colori da `--bg-light` e `--accent-color`. |
+| `15a7bcd6` | **UX-PAGELOAD fix** | Script page loader spostato da `</body>` a primo figlio di `<head>` con `is:inline`: garantisce esecuzione sincrona prima del paint. `loader` ora cercato nel DOM dentro `ready()` (non all'avvio, quando il body non esiste ancora). |
+| `abf5bbd3` | **SECURITY-XSS** | Vulnerabilità XSS reale: `HomePageContent.astro` hero byline usava `innerHTML` con `meta.author` e `meta.categoria_menu` non sanitizzati (dati Directus). Sostituito con `createElement`+`textContent` per ogni nodo. Stesso fix per `outerHTML` con `meta.author.charAt(0)`. |
+| `04543a7d` | **SECURITY-XSS** | Anti-pattern XSS fragile: `buildRelatedCard` in `it/[slug].astro` usava `innerHTML` con concatenazione stringa e `.replace(/</g,'&lt;')` manuale. Riscritto interamente con DOM API (`createElement`, `textContent` per tutti i valori testuali). Nessuna sanitizzazione manuale necessaria. |
+| `92c3904a` | **UX-MOBILE-TYPE** | `global.css` @media 768px: aggiunti `h2 1.5rem`, `h3 1.25rem`, `h4 1.1rem` con `line-height`; `p, li` con `line-height: 1.7`. |
+| `e98a5e54` | **UX-MOBILE-TYPE** | `global.css` 768px: `h1` da `1.875rem` → `2rem`; `p, li` aggiunto `font-size: 1.125rem`. `ArticlePageLayout.astro` 768px: `.article-subtitle` da `1.1rem` → `1.125rem` (necessario nello scoped perché prevale su global). |
+| `e665c964` | **UX-MOBILE-TYPE** | `ArticlePageLayout.astro` 768px: `.article-content p` da `font-size:1rem` → `1.125rem` + aggiunto `line-height:1.75`. |
 
 ## Fix recenti (2026-05-07)
 
