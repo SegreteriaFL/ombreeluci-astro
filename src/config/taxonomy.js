@@ -2,11 +2,10 @@
  * Configurazione tassonomia: Megacluster (CSV post-iterazione 7.5) + Forma (tipo contenuto).
  * Ogni articolo è mappato per Forma (Intervista, Editoriale, ecc.) e per Tema del Megacluster.
  * Struttura navigazione (slug/temi): src/data/taxonomy_structure.json.
- * Campi per-articolo (tema_label, categoria_menu, ruolo_editoriale, forma): su Directus (migrati da _legacy_articoli_megacluster.json).
- *
- * Fase 0 i18n: categoria_menu in Directus è ora uno slug canonico (es. "spiritualita").
- * Usare getCategoriaLabel(slug, lang) per ottenere la label localizzata da src/data/categorie.json.
- * getMegaclusterForArticle() restituisce già la label tradotta in base a articolo.lang.
+ * Campi per-articolo (categoria_menu, ruolo_editoriale, forma): su Directus.
+ * categoria_menu è uno slug canonico IT (es. "spiritualita").
+ * Usare getCategoriaLabel(slug, lang) per la label localizzata da src/data/categorie.json.
+ * getMegaclusterForArticle() restituisce la label tradotta in base a articolo.lang.
  */
 
 import taxonomyData from '../data/taxonomy_structure.json';
@@ -44,7 +43,7 @@ function normalizeCategoriaKey(value) {
 
 /**
  * Restituisce la label localizzata per uno slug di categoria.
- * Se lo slug non è riconosciuto (es. tema_label fallback), ritorna rawValue invariato.
+ * Se lo slug non è riconosciuto, ritorna rawValue invariato.
  * @param {string|null|undefined} slugOrRaw  - slug canonico (es. "spiritualita") o valore raw legacy
  * @param {'it'|'en'} lang
  * @returns {string|null}
@@ -104,7 +103,7 @@ export function getRoleWeight(role) {
 
 /**
  * Alias per label: le nuove 13 categorie hanno già nomi brevi, mappa 1:1.
- * Chiave = tema_label, valore = label da mostrare in menu e UI.
+ * Chiave = label categoria, valore = label da mostrare in menu e UI.
  */
 export const THEME_ALIASES = {
   'Famiglia': 'Famiglia',
@@ -124,7 +123,7 @@ export const THEME_ALIASES = {
 
 /**
  * Restituisce la label da mostrare in menu/UI: alias se definito, altrimenti label completa.
- * @param {string} temaLabel - tema_label dal Megacluster
+ * @param {string} temaLabel - label categoria
  * @returns {string}
  */
 export function getThemeDisplayName(temaLabel) {
@@ -157,10 +156,9 @@ const TAG_TO_FORMAL = {
 };
 
 /**
- * Restituisce tipo formale e tema. Legge forma e tema_label direttamente dall'oggetto articolo
- * (campi migrati da _legacy_articoli_megacluster.json a Directus).
+ * Restituisce tipo formale e tema. Legge forma e categoria_menu dall'oggetto articolo.
  * @param {string[]|string} wp_tags - Array di tag o stringa singola (fallback per formal se forma assente)
- * @param {{ forma?: string|null, tema_label?: string|null, categoria_menu?: string|null }|null} articolo
+ * @param {{ forma?: string|null, categoria_menu?: string|null }|null} articolo
  * @returns {{ formal: string, thematic: string }}
  */
 export function getLabels(wp_tags, articolo) {
@@ -183,7 +181,7 @@ export function getLabels(wp_tags, articolo) {
     }
   }
 
-  const thematic = articolo?.categoria_menu || articolo?.tema_label || THEMATIC_FALLBACK;
+  const thematic = articolo?.categoria_menu || THEMATIC_FALLBACK;
 
   return { formal, thematic };
 }
@@ -197,9 +195,9 @@ export function getAllThemes() {
 }
 
 /**
- * Restituisce tutti gli slug di categoria tematici (campo tema_label/categoria_menu).
+ * Restituisce tutti gli slug di categoria tematici (campo categoria_menu).
  * Le rubriche (editoriali, interviste, testimonianze, recensioni, dialogo-aperto, diari)
- * sono ora in src/data/rubriche.json e non più in categorie.json.
+ * sono in src/data/rubriche.json e non in categorie.json.
  * @returns {string[]}
  */
 export function getAllCategorySlugs() {
@@ -208,7 +206,7 @@ export function getAllCategorySlugs() {
 
 /**
  * Dato lo slug dell'URL, restituisce { type, label, displayLabel } per filtrare e mostrare.
- * label = tema_label (per filtro articoli); displayLabel = categoria_menu (per titolo/menu).
+ * label = valore tema (per filtro); displayLabel = categoria_menu (per titolo/menu).
  * @param {string} slug - slug dalla URL (lowercase)
  * @returns {{ type: 'thematic', label: string, displayLabel?: string } | null}
  */
@@ -271,22 +269,20 @@ export function getRubricaUrlSlug(slugIT, lang) {
 }
 
 /**
- * Restituisce tema_label, categoria_menu (label localizzata) e ruolo_editoriale.
+ * Restituisce categoria_menu (label localizzata) e ruolo_editoriale.
  *
- * Fase 0 i18n: categoria_menu in Directus è uno slug canonico (es. "spiritualita").
+ * categoria_menu in Directus è uno slug canonico (es. "spiritualita").
  * Questa funzione lo traduce in label localizzata (es. "Spiritualità" IT / "Spirituality" EN)
- * tramite getCategoriaLabel(). Valori non riconosciuti come slug sono restituiti invariati
- * per backward compat (es. tema_label usato come fallback, valori legacy).
+ * tramite getCategoriaLabel().
  *
- * @param {{ lang?: string|null, tema_label?: string|null, categoria_menu?: string|null, ruolo_editoriale?: string|null }|null} articolo
- * @returns {{ tema_label: string | null, categoria_menu: string | null, ruolo_editoriale: string | null }}
+ * @param {{ lang?: string|null, categoria_menu?: string|null, ruolo_editoriale?: string|null }|null} articolo
+ * @returns {{ categoria_menu: string | null, ruolo_editoriale: string | null }}
  */
 export function getMegaclusterForArticle(articolo) {
   const lang = articolo?.lang === 'en' ? 'en' : 'it';
-  const rawCategoria = articolo?.categoria_menu ?? articolo?.tema_label ?? null;
+  const rawCategoria = articolo?.categoria_menu ?? null;
   const categoriaLabel = rawCategoria ? getCategoriaLabel(rawCategoria, lang) : null;
   return {
-    tema_label: articolo?.tema_label ?? null,
     categoria_menu: categoriaLabel,
     ruolo_editoriale: articolo?.ruolo_editoriale ?? null,
   };
@@ -295,30 +291,28 @@ export function getMegaclusterForArticle(articolo) {
 /**
  * Label da mostrare per tema/categoria in UI, localizzata se articolo.lang === 'en'
  * (usa getMegaclusterForArticle → getCategoriaLabel).
- * @param {{ categoria_menu?: string|null, tema_label?: string|null, lang?: string|null }|null} articolo
+ * @param {{ categoria_menu?: string|null, lang?: string|null }|null} articolo
  * @returns {string}
  */
 export function getThemeLabel(articolo) {
   if (!articolo) return THEMATIC_FALLBACK;
   const mc = getMegaclusterForArticle(articolo);
-  if (mc.categoria_menu) return mc.categoria_menu;
-  return articolo.tema_label || THEMATIC_FALLBACK;
+  return mc.categoria_menu || THEMATIC_FALLBACK;
 }
 
 /**
- * Slug della categoria/tema per link (/categoria/[slug]).
- * @param {{ tema_label?: string|null }|null} articolo
+ * Slug IT della categoria per link (/it/categoria/[slug]).
+ * Legge categoria_menu (slug canonico Directus).
+ * @param {{ categoria_menu?: string|null }|null} articolo
  * @returns {string | null}
  */
 export function getCategorySlugForArticle(articolo) {
-  if (!articolo?.tema_label) return null;
-  const slug = Object.keys(SLUG_TO_TEMA).find((s) => SLUG_TO_TEMA[s] === articolo.tema_label);
-  return slug ?? slugifyLabel(articolo.tema_label);
+  return articolo?.categoria_menu ?? null;
 }
 
 /**
  * Restituisce i temi Megacluster con slug per menu e link (/categoria/[slug]).
- * nome = categoria_menu (alias già pronti da FINAL_V4).
+ * nome = label display della categoria.
  * @returns {{ nome: string, slug: string, nomeCompleto: string }[]}
  */
 export function getThemesWithSlugs() {
