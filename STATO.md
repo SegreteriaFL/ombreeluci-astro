@@ -74,6 +74,7 @@
 
 | Commit | Area | Fix |
 |--------|------|-----|
+| (verifica) | **LANG-SWITCHER-STATUS** | Language switcher funziona correttamente: 3451 IT con link bidirezionale IT↔EN, testato su staging (`la-nostra-buona-novella` → `/en/good-news-for-us-all`). I 39 IT senza link non hanno traduzione EN — dato mancante, non bug. `come-tradurre-un-articolo-in-inglese-col-nuovo-cms` senza link perché l'import TRANS-FLOW-01 è fallito (JSON troncato nel copia-incolla, errore a posizione 3783). Nessun EN orfano. Nessun fix necessario al codice. |
 | (verifica) | **BIO-EN-STATUS** | `bio_en` funziona correttamente: campo in `getArticoloBySlug` fields, in template `en/[slug].astro` (riga 165: `bio_en` first, `bio_html` fallback). 79/354 autori hanno bio_en (= tutti quelli con bio IT). Staging verificato: `sexuality-and-disability-dont-wait-to-talk-about-it` mostra bio EN in pagina. Autori senza bio = 275/354 — non hanno bio in nessuna lingua, dato mancante, non bug. |
 | (verifica) | **TRANS-FLOW-PERM** | `json_export` già presente nei 29 campi READ della policy Redazione (permesso id 90) — nessuna modifica necessaria. |
 | `add83081` | **UX-PAGELOAD** | Page loader anti-FOUC: overlay `#page-loader` con spinner in `BaseLayout.astro`, `body { opacity:0 }` + `body.ready { opacity:1; transition:200ms }` in `global.css`. Script `is:inline` in `<head>` (gira prima del primo paint). Ciclo ripetuto su View Transitions (`astro:before-preparation` / `astro:page-load`). Disabilitato con `prefers-reduced-motion`. Colori da `--bg-light` e `--accent-color`. |
