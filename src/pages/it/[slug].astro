@@ -716,20 +716,6 @@ const relatedArticles = (() => {
 
       <Commenti articoloId={articolo.id} lang={locale} />
 
-      {/* Debug: mostra i dati dell'articolo */}
-      <details class="debug-section" hidden>
-        <summary style="cursor: pointer; color: var(--text-secondary); font-size: 0.85rem; margin-top: 2rem; padding: 0.5rem;">
-          🔍 Debug: Dati articolo
-        </summary>
-        <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
-{JSON.stringify({ id: articolo.id, wp_id: articolo.wp_id, slug: articolo.slug, titolo: articolo.titolo, lang: articolo.lang, stato: articolo.stato, data_pubblicazione: articolo.data_pubblicazione }, null, 2)}
-        </pre>
-        <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
-ID: {articolo.id}
-Slug: {articolo.slug}
-        </pre>
-      </details>
-
       <section class="article-nav-section" aria-label={t(locale, 'aria_article_bottom_nav')}>
         <a href={locale === 'en' ? '/en/' : '/'} class="back-link">← {t(locale, 'back_to_home')}</a>
       </section>

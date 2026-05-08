@@ -702,15 +702,6 @@ const alternates: { lang: string; url: string }[] = [
 
       <Commenti articoloId={articolo.id} lang="en" />
 
-      <details class="debug-section" hidden>
-        <summary style="cursor: pointer; color: var(--text-secondary); font-size: 0.85rem; margin-top: 2rem; padding: 0.5rem;">
-          🔍 Debug: Dati articolo
-        </summary>
-        <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.75rem; margin-top: 0.5rem;">
-{JSON.stringify({ id: articolo.id, wp_id: articolo.wp_id, slug: articolo.slug, titolo: articolo.titolo, lang: articolo.lang, stato: articolo.stato, data_pubblicazione: articolo.data_pubblicazione }, null, 2)}
-        </pre>
-      </details>
-
       <section class="article-nav-section" aria-label={t('en', 'aria_article_bottom_nav')}>
         <a href="/en/" class="back-link">← {t('en', 'back_to_home')}</a>
       </section>
