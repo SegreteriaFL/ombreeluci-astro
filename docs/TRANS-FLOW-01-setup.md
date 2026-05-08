@@ -333,8 +333,25 @@ La **Condition "JSON presente?"** (Operation 1) blocca l'esecuzione perché `jso
 - Azzera il campo `json_traduzione` sull'IT (il campo sparisce dopo l'elaborazione)
 - Se la traduzione EN esiste già: aggiorna i campi tradotti senza ricreare il record
 
+### Prompt di traduzione (aggiornato 2026-05-08)
+
+Il campo `_prompt` nel JSON esportato contiene le istruzioni per Claude. Versione attuale, ottimizzata per articoli nuovi:
+
+1. Restituire JSON con struttura invariata — solo i campi in `_translate` tradotti
+2. Inglese naturale e idiomatico — come scriverebbe un editor madrelingua, non una traduzione letterale
+3. Titoli come headline originali EN, non traduzioni
+4. Frasi italiane lunghe/complesse → spezzare in frasi brevi (la prosa EN privilegia chiarezza e ritmo breve)
+5. Tag HTML preservati esattamente nel campo `corpo`
+6. Crediti foto "Foto di X su Unsplash" → "Photo by X on Unsplash"
+7. Nomi propri non tradotti: "Fede e Luce", "Ombre e Luci", città italiane, titoli "don/padre/suor/fr."
+8. Terminologia disabilità: usare terminologia inclusiva moderna EN ("person with Down syndrome", "intellectual disability", "autism")
+9. Solo il JSON tradotto — nessuna spiegazione, nessun markdown fence
+
+**Nota archivio storico**: per articoli storici (anni '70–'90) con terminologia d'epoca, il prompt attuale userà la terminologia inclusiva moderna. Se si vuole preservare il registro originale per un articolo specifico, modificare manualmente la regola 8 nel JSON prima di inviarlo a Claude.
+
 ### Cosa deve fare la redazione manualmente dopo
 
-- Aprire l'articolo EN appena creato in Directus e verificare la formattazione
-- Controllare che le immagini e i link nel corpo siano corretti
-- Pubblicare l'articolo EN (`stato: published`)
+- Verificare titolo e sottotitolo: devono suonare come EN originale
+- Controllare le frasi lunghe: Claude dovrebbe averle già spezzate, ma rivedere
+- Verificare immagini e link nel corpo
+- L'articolo EN è pubblicato automaticamente — nessun ulteriore step

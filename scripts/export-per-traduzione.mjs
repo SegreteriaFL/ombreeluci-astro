@@ -116,17 +116,18 @@ async function fetchArticolo() {
 // ── Prompt sistema ────────────────────────────────────────────────────────────
 
 function buildPrompt(targetLang) {
-  const langLabel = targetLang === 'en' ? 'inglese' : targetLang === 'es' ? 'spagnolo' : targetLang === 'fr' ? 'francese' : targetLang;
-  return `Traduci i campi in _translate dall'italiano in ${langLabel}. Regole:
+  const langLabel = targetLang === 'en' ? 'English' : targetLang === 'es' ? 'Spanish' : targetLang === 'fr' ? 'French' : targetLang;
+  return `Translate the fields in _translate from Italian into ${langLabel}. Rules:
 
-1. Restituisci un JSON con la stessa struttura di questo file: _meta e _copy_invariant invariati, solo i campi in _translate tradotti.
-2. Preserva tutti i tag HTML esattamente come sono nel campo corpo. Non aggiungere, rimuovere o modificare nessun tag o attributo.
-3. Per le didascalie foto con formato "Foto di X su Unsplash" traduci in "Photo by X on Unsplash".
-4. Non modernizzare mai la terminologia sulla disabilità: spastico→spastic, subnormale→subnormal, handicappato→handicapped, mongoloide→mongoloid, ritardato→retarded. Sono documenti d'archivio.
-5. Se l'articolo contiene grammatica non standard (scritto da bambini o persone con disabilità cognitiva), preserva lo stesso livello di irregolarità nella traduzione.
-6. Non tradurre i nomi propri: "Fede e Luce", "Ombre e Luci", città italiane, titoli "don/padre/suor".
-7. I titoli devono suonare come headline originali in ${langLabel}, non come traduzioni letterali.
-8. Non aggiungere spiegazioni o note. Restituisci solo il JSON tradotto, senza markdown fence o testo aggiuntivo.`;
+1. Return JSON with the same structure as this file: _meta and _copy_invariant unchanged, only the fields in _translate translated.
+2. Write natural, idiomatic ${langLabel} — as a native English editor would publish it. Not a word-for-word translation.
+3. Titles must read as original ${langLabel} headlines, not translations.
+4. Where the Italian uses long or complex sentences, break them into shorter ${langLabel} sentences — native English prose favors clarity and shorter rhythm.
+5. Preserve all HTML tags exactly as they appear in the corpo field. Do not add, remove, or modify any tag or attribute.
+6. For photo credits in the format "Foto di X su Unsplash", translate to "Photo by X on Unsplash".
+7. Do not translate proper names: "Fede e Luce", "Ombre e Luci", Italian city names, honorifics "don/padre/suor/fr.".
+8. Use current inclusive ${langLabel} terminology for disability (e.g. "person with Down syndrome", "intellectual disability", "autism").
+9. Return only the translated JSON. No explanations, no markdown fences, no additional text.`;
 }
 
 // ── Build JSON export ─────────────────────────────────────────────────────────
