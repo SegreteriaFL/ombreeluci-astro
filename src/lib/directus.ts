@@ -157,6 +157,7 @@ export interface ArticoloListItem {
   didascalia_copertina: string | null;
   didascalia_en: string | null;
   categoria_menu: string | null;
+  categoria_menu_2: string | null;
   ruolo_editoriale: string | null;
   in_evidenza: boolean | null;
   forma: string | null;
@@ -237,7 +238,7 @@ const ARTICOLO_LIST_FIELDS = [
   'id', 'wp_id', 'slug', 'lang', 'titolo', 'sottotitolo', 'stato',
   'data_pubblicazione', 'cluster_id', 'umap_x', 'umap_y', 'umap_z',
   'seo_title', 'seo_description',
-  'categoria_menu', 'ruolo_editoriale', 'in_evidenza', 'forma',
+  'categoria_menu', 'categoria_menu_2', 'ruolo_editoriale', 'in_evidenza', 'forma',
   'corpo', 'has_comments', 'original_url',
   'autore.id', 'autore.slug', 'autore.nome_completo',
   'autore.bio_html', 'autore.foto.id', 'autore.foto.filename_download',
@@ -626,7 +627,8 @@ export async function getArticoliByCategoria(
 ): Promise<ArticoloFull[]> {
   const params = new URLSearchParams({
     'filter[stato][_eq]': 'published',
-    'filter[categoria_menu][_eq]': categoriaSlug,
+    'filter[_or][0][categoria_menu][_eq]': categoriaSlug,
+    'filter[_or][1][categoria_menu_2][_eq]': categoriaSlug,
     fields: ARTICOLO_LIST_FIELDS,
     limit: '-1',
     sort: '-data_pubblicazione',
@@ -710,6 +712,7 @@ export interface VerticaleBloccoArticolo {
   immagine_copertina?: { id: string } | null;
   autore?: { nome_completo: string; slug: string } | null;
   categoria_menu?: string | null;
+  categoria_menu_2?: string | null;
   forma?: string | null;
 }
 

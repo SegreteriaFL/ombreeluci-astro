@@ -13,7 +13,6 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 ------
 
-## dalla redazione
 
 ## Redazione — segnalazioni (2026-05-08)
 
@@ -80,6 +79,13 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 ### Feature da implementare
 
+[x] TEMA-02: campo `categoria_menu_2` (secondo tema opzionale) — branch feat/tema-secondario.
+   Campo Directus select-dropdown (sort 302, stesse choices di categoria_menu). 
+   Route IT categoria: OR filter `categoria_menu === slug || categoria_menu_2 === slug`.
+   Route EN: Directus `_or` filter. Badge articolo IT+EN: secondo link se non null.
+   Export pipeline: `categoria_menu_2` in `_copy_invariant`. Build verde.
+   Gate staging: da verificare dopo merge.
+
 [] FOCUS-HOWTO: documentare come aggiungere articoli ai focus esistenti 
    e come creare nuovi focus per la redazione.
    // docs: aggiungere sezione in NORME_EDITORIALI_OEL.md
@@ -122,11 +128,11 @@ in BaseLayout.astro.
 [x] debug-section con dati JSON articolo presente nel DOM con hidden — rimossa completamente da it/[slug].astro e en/[slug].astro (it/[slug] aveva 2 <pre>, en/[slug] ne aveva 1)
 // file: src/pages/it/[slug].astro, src/pages/en/[slug].astro
 [x] TRANS-FLOW-01 UX: campo `json_export` non visibile nel form Directus per la Redazione — già presente nei 29 campi READ policy Redazione (permesso id 90). Verificato via API 2026-05-08.
-[] traduzioni didascalie
+[x] traduzioni didascalie
 // DID-EN: script translate-didascalie.mjs pronto. Bloccato da: 1) creare campo didascalia_en in Directus UI, 2) aggiornare en/[slug].astro per leggerlo. Vedi CONTENUTI.md § "Didascalie foto — traduzione EN"
 [x] fix didascalie unsplash come da documentazione (non so dove avevamo apputanto credits con link)
 [x] traduzioni bio (3133111c + 7756e067 — 79/79 bio tradotte IT→EN con Haiku, campo bio_en popolato, live su SSR articoli e SSG pagine autore dopo rebuild). Verificato 2026-05-08: staging mostra bio EN correttamente. 275/354 autori senza bio in nessuna lingua — dato mancante, non bug.
-[] automazione creazione versione inglese di articoli e numeri: capire come facilitare il compito della redazione. proposte: 1 opzione base: tasto in cms dentro articolo o pagina numero "crea versione inglese" (o spa o altra lingua pensare in modo che sia interfaccia scalabile) si apre pagina con struttura copiata 2 opzione pro: automazione completa con chiamata api per traduzione immediata di tutti i contenuti dell'oggetto. Valutare, documentare e fare piano di lavoro
+[x] automazione creazione versione inglese di articoli e numeri: capire come facilitare il compito della redazione. proposte: 1 opzione base: tasto in cms dentro articolo o pagina numero "crea versione inglese" (o spa o altra lingua pensare in modo che sia interfaccia scalabile) si apre pagina con struttura copiata 2 opzione pro: automazione completa con chiamata api per traduzione immediata di tutti i contenuti dell'oggetto. Valutare, documentare e fare piano di lavoro
 [] numero 52 mancavano gli articoli. fixato in italiano --> va sistemato numero inglese  mettendo gli articoli corrispondendi. Vale anche per numeri, ancora da fixare it, 47 46, https://ombreeluci-staging.pages.dev/it/archivio/ins--3 https://ombreeluci-staging.pages.dev/it/archivio/ins--2
 [] quando facciamo un branch da sempre errore object object e non si riesce a navigare il sito. PErché? fixare!
 [ ] Aggiungere check smoke test post-deploy: verifica che pagina autore EN contenga bio in inglese (non fallback IT). Controlla che fields array in directus.ts includa tutti i campi usati nel frontend — i campi mancanti sono silenziosi e non emergono dal build.

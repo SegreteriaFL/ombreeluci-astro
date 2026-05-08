@@ -86,7 +86,7 @@ function directusFetch(path) {
 const FIELDS = [
   'id', 'slug', 'lang', 'titolo', 'sottotitolo',
   'seo_title', 'seo_description', 'corpo', 'didascalia_copertina',
-  'categoria_menu', 'forma', 'tema_label', 'ruolo_editoriale',
+  'categoria_menu', 'categoria_menu_2', 'forma', 'tema_label', 'ruolo_editoriale',
   'data_pubblicazione', 'stato',
   'immagine_copertina.id',
   'autore.id', 'autore.nome_completo',
@@ -155,6 +155,7 @@ function buildExportJson(articolo, targetLang) {
     },
     _copy_invariant: {
       categoria_menu: articolo.categoria_menu || null,
+      categoria_menu_2: articolo.categoria_menu_2 || null,
       forma: articolo.forma || null,
       tema_label: articolo.tema_label || null,
       ruolo_editoriale: articolo.ruolo_editoriale || null,

@@ -86,8 +86,13 @@ articolo EN sbagliato: { lang: 'en', categoria_menu: 'family' }   ← rompe le r
 
 **Conseguenza pratica:** ogni pipeline di traduzione/importazione deve copiare `categoria_menu` dall'articolo IT sorgente, non tradurlo. La route `en/category/[slug].astro` e le future `es/category/[slug].astro` si basano su `categorie.json` per mappare `'famiglia'` → `'family'` → `'familia'` — il DB non deve sapere nulla di queste label.
 
-**I 15 slug canonici validi (aggiornato 2026-05-08, CLASSIF-01):**
-`catechesi`, `cultura`, `educazione-e-formazione`, `famiglia`, `fede-e-luce`, `lavoro`, `ombre-e-luci`, `personaggi-che-ispirano`, `progetti`, `salute`, `scuola`, `spiritualita`, `sport`, `tempo-libero`, `da-categorizzare`
+**I 14 slug canonici validi per `categoria_menu` e `categoria_menu_2` (aggiornato 2026-05-08, CLASSIF-01 + TEMA-02):**
+`catechesi`, `cultura`, `educazione-e-formazione`, `famiglia`, `fede-e-luce`, `lavoro`, `ombre-e-luci`, `personaggi-che-ispirano`, `progetti`, `salute`, `scuola`, `spiritualita`, `sport`, `tempo-libero`
+
+`da-categorizzare` è valido solo per `categoria_menu` (tema primario), non per `categoria_menu_2`.
+
+**`categoria_menu_2` — secondo tema opzionale (TEMA-02, 2026-05-08):**
+Usare solo se l'articolo appartiene chiaramente a due sezioni del sito. Max 1 secondo tema. Stesso slug canonico IT di `categoria_menu`. La route categoria IT usa filtro OR (`categoria_menu === slug || categoria_menu_2 === slug`). La route EN usa Directus `_or` filter. Il badge articolo mostra max 2 link separati da `·`. La pipeline export/import copia `categoria_menu_2` come invariante (non tradotto).
 
 **`tema_label` è stato rimosso (CLASSIF-01, 2026-05-08).** Non esiste più come campo rilevante nel frontend — rimosso da interfacce TypeScript, query Directus, taxonomy.js e i18n.ts. Il campo esiste ancora nel DB ma è nascosto nella UI Directus e non viene fetchato.
 
