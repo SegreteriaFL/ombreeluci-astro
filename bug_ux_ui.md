@@ -28,6 +28,7 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 [x] in article-badge-link mancano /it/ e in alcuni casi anche /en/ — fix incluso in B-14; verificato su staging IT+EN, tutti i badge link hanno prefisso lingua corretto
 [x] debug-section con dati JSON articolo presente nel DOM con hidden — rimossa completamente da it/[slug].astro e en/[slug].astro (it/[slug] aveva 2 <pre>, en/[slug] ne aveva 1)
 // file: src/pages/it/[slug].astro, src/pages/en/[slug].astro
+[] TRANS-FLOW-01 UX: campo `json_export` non visibile nel form Directus per la Redazione — aggiungere il campo alla lista READ dei permessi ruolo Redazione via API Directus. Permette alla Redazione di vedere e copiare il JSON esportato senza accedere ai campi tecnici.
 [] traduzioni didascalie
 // DID-EN: script translate-didascalie.mjs pronto. Bloccato da: 1) creare campo didascalia_en in Directus UI, 2) aggiornare en/[slug].astro per leggerlo. Vedi CONTENUTI.md § "Didascalie foto — traduzione EN"
 [x] fix didascalie unsplash come da documentazione (non so dove avevamo apputanto credits con link)

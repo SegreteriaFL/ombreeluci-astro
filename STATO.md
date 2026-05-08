@@ -275,6 +275,14 @@ Ordine di priorità:
 
 ---
 
+## Da testare
+
+| ID | Test | Procedura |
+|----|------|-----------|
+| T4 | Verifica articolo TRANS-FLOW-01 | Aprire articolo IT in Directus → ⋮ → "Esporta per traduzione" → copiare json_export → incollare in Claude.ai → copiare JSON tradotto → incollare in json_traduzione → salvare → verificare che l'articolo EN creato abbia: corpo tradotto, bio autore EN (non IT), didascalia_en valorizzata |
+
+---
+
 ## Blockers pre-lancio (cutover DNS)
 
 Il cutover avviene quando tutti i blockers sono verdi.
