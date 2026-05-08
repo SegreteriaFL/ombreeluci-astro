@@ -109,6 +109,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     cat_personaggi_che_ispirano: 'Personaggi che ispirano',
     cat_lavoro: 'Lavoro',
     cat_sport: 'Sport',
+    cat_ombre_e_luci: 'Ombre e Luci',
     // Homepage
     home_tagline: 'Un nuovo sguardo attraverso la disabilità',
     home_section_recent: 'Recenti',
@@ -211,21 +212,6 @@ export const translations: Record<Locale, Record<string, string>> = {
     diaries_all_feed_title: 'Tutti i diari',
     // Dialogo aperto / Open Dialogue
     dialogue_title: 'Dialogo aperto',
-    // Temi (tema_label → label display)
-    tema_catechesi: 'Catechesi',
-    tema_cultura: 'Cultura',
-    tema_da_categorizzare: 'Da categorizzare',
-    tema_educazione_e_formazione: 'Educazione e Formazione',
-    tema_famiglia: 'Famiglia',
-    tema_fede_e_luce: 'Fede e Luce',
-    tema_lavoro: 'Lavoro',
-    tema_personaggi_che_ispirano: 'Personaggi che ispirano',
-    tema_progetti: 'Progetti',
-    tema_salute: 'Salute',
-    tema_scuola: 'Scuola',
-    tema_spiritualita: 'Spiritualità',
-    tema_sport: 'Sport',
-    tema_tempo_libero: 'Tempo libero',
   },
   en: {
     read_also: 'READ ALSO',
@@ -329,6 +315,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     cat_personaggi_che_ispirano: 'Inspiring Figures',
     cat_lavoro: 'Work',
     cat_sport: 'Sport',
+    cat_ombre_e_luci: 'Ombre e Luci',
     // Homepage
     home_tagline: 'A new perspective through disability',
     home_section_recent: 'Recent',
@@ -431,21 +418,6 @@ export const translations: Record<Locale, Record<string, string>> = {
     diaries_all_feed_title: 'All diaries',
     // Open Dialogue
     dialogue_title: 'Open Dialogue',
-    // Themes (tema_label → display label)
-    tema_catechesi: 'Catechesis',
-    tema_cultura: 'Culture',
-    tema_da_categorizzare: 'Uncategorized',
-    tema_educazione_e_formazione: 'Education and Training',
-    tema_famiglia: 'Family',
-    tema_fede_e_luce: 'Faith and Light',
-    tema_lavoro: 'Work',
-    tema_personaggi_che_ispirano: 'Inspiring Figures',
-    tema_progetti: 'Projects',
-    tema_salute: 'Health',
-    tema_scuola: 'Education',
-    tema_spiritualita: 'Spirituality',
-    tema_sport: 'Sport',
-    tema_tempo_libero: 'Leisure',
   },
 };
 
@@ -468,24 +440,7 @@ const CAT_SLUG_TO_I18N_KEY: Record<string, keyof (typeof translations)['it']> = 
   'personaggi-che-ispirano': 'cat_personaggi_che_ispirano',
   lavoro: 'cat_lavoro',
   sport: 'cat_sport',
-};
-
-/** tema_label da Directus → chiave dizionario */
-const TEMA_IT_TO_I18N_KEY: Record<string, keyof (typeof translations)['it']> = {
-  Catechesi: 'tema_catechesi',
-  Cultura: 'tema_cultura',
-  'Da categorizzare': 'tema_da_categorizzare',
-  'Educazione e Formazione': 'tema_educazione_e_formazione',
-  Famiglia: 'tema_famiglia',
-  'Fede e Luce': 'tema_fede_e_luce',
-  Lavoro: 'tema_lavoro',
-  'Personaggi che ispirano': 'tema_personaggi_che_ispirano',
-  Progetti: 'tema_progetti',
-  Salute: 'tema_salute',
-  Scuola: 'tema_scuola',
-  'Spiritualità': 'tema_spiritualita',
-  Sport: 'tema_sport',
-  'Tempo libero': 'tema_tempo_libero',
+  'ombre-e-luci': 'cat_ombre_e_luci',
 };
 
 export function localizeCategory(slug: string | null | undefined, locale: Locale): string | null {
@@ -493,13 +448,6 @@ export function localizeCategory(slug: string | null | undefined, locale: Locale
   const key = CAT_SLUG_TO_I18N_KEY[slug];
   if (key) return t(locale, key);
   return slug;
-}
-
-export function localizeTheme(label: string | null | undefined, locale: Locale): string | null {
-  if (label == null || label === '') return null;
-  const key = TEMA_IT_TO_I18N_KEY[label];
-  if (key) return t(locale, key);
-  return label;
 }
 
 /** Valori `forma` italiani da Directus → chiave dizionario */

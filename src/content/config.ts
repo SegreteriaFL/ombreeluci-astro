@@ -69,7 +69,6 @@ const blog = defineCollection({
     is_translation: z.union([z.boolean(), z.string().transform(s => s === 'true')]).optional(),
     original_slug: z.string().optional(),
     tema_code: z.string().optional(),
-    tema_label: z.string().optional(),
     categoria_menu: z.string().optional(),
   }).passthrough(),
 });

@@ -160,7 +160,6 @@ export interface ArticoloListItem {
   ruolo_editoriale: string | null;
   in_evidenza: boolean | null;
   forma: string | null;
-  tema_label: string | null;
   temi: Array<{ temi_id: TemaRef }>;
   tags: Array<{ tags_id: TagRef }>;
 }
@@ -238,7 +237,7 @@ const ARTICOLO_LIST_FIELDS = [
   'id', 'wp_id', 'slug', 'lang', 'titolo', 'sottotitolo', 'stato',
   'data_pubblicazione', 'cluster_id', 'umap_x', 'umap_y', 'umap_z',
   'seo_title', 'seo_description',
-  'categoria_menu', 'ruolo_editoriale', 'in_evidenza', 'forma', 'tema_label',
+  'categoria_menu', 'ruolo_editoriale', 'in_evidenza', 'forma',
   'corpo', 'has_comments', 'original_url',
   'autore.id', 'autore.slug', 'autore.nome_completo',
   'autore.bio_html', 'autore.foto.id', 'autore.foto.filename_download',
@@ -318,7 +317,7 @@ export async function getArticoliBySlugList(slugs: string[], creds?: DirectusRun
     'filter[stato][_eq]': 'published',
     fields: [
       'id', 'wp_id', 'slug', 'lang', 'titolo', 'sottotitolo', 'stato',
-      'data_pubblicazione', 'categoria_menu', 'ruolo_editoriale', 'forma', 'tema_label',
+      'data_pubblicazione', 'categoria_menu', 'ruolo_editoriale', 'forma',
       'seo_description',
       'autore.id', 'autore.slug', 'autore.nome_completo',
       'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
@@ -553,7 +552,7 @@ export async function getCategoriaDescrizione(slug: string): Promise<{ nome: str
 export async function getArticoliInEvidenza(categoriaSlug: string): Promise<ArticoloListItem[]> {
   const fields = [
     'articoli_id.id', 'articoli_id.titolo', 'articoli_id.slug', 'articoli_id.sottotitolo',
-    'articoli_id.data_pubblicazione', 'articoli_id.forma', 'articoli_id.tema_label',
+    'articoli_id.data_pubblicazione', 'articoli_id.forma',
     'articoli_id.categoria_menu', 'articoli_id.ruolo_editoriale',
     'articoli_id.immagine_copertina', 'articoli_id.numero_rivista.id_numero',
     'articoli_id.autore.nome_completo', 'sort'

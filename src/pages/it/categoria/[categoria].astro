@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import CategoriaPageContent from '../../../components/CategoriaPageContent.astro';
-import { getCategoryBySlug, getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight, getCategoriaUrlSlug } from '../../../config/taxonomy.js';
+import { getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight, getCategoriaUrlSlug, getCategoriaLabel } from '../../../config/taxonomy.js';
 import { getCategoriaDescrizione, getArticoliInEvidenza } from '../../../lib/directus';
 import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
@@ -9,16 +9,8 @@ export async function getStaticPaths() {
   const allArticles = (await getAllArticoliBuild()).filter((a) => a.lang !== 'en');
   const categorySlugs = getAllCategorySlugs();
   return Promise.all(categorySlugs.map(async (categoria) => {
-    const cat = getCategoryBySlug(categoria);
-    const label = cat ? cat.label : categoria;
-    const displayLabel = cat?.displayLabel ?? cat?.label ?? categoria;
-    const articoli = allArticles.filter((a) => {
-      if (cat?.type === 'thematic') {
-        const { tema_label } = getMegaclusterForArticle(a);
-        return tema_label === label;
-      }
-      return false;
-    }).sort((a, b) => {
+    const displayLabel = getCategoriaLabel(categoria, 'it') ?? categoria;
+    const articoli = allArticles.filter((a) => a.categoria_menu === categoria).sort((a, b) => {
       const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
       const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
       if (tA !== tB) return tB - tA;
