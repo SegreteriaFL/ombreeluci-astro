@@ -74,6 +74,8 @@
 
 | Commit | Area | Fix |
 |--------|------|-----|
+| (verifica) | **BIO-EN-STATUS** | `bio_en` funziona correttamente: campo in `getArticoloBySlug` fields, in template `en/[slug].astro` (riga 165: `bio_en` first, `bio_html` fallback). 79/354 autori hanno bio_en (= tutti quelli con bio IT). Staging verificato: `sexuality-and-disability-dont-wait-to-talk-about-it` mostra bio EN in pagina. Autori senza bio = 275/354 — non hanno bio in nessuna lingua, dato mancante, non bug. |
+| (verifica) | **TRANS-FLOW-PERM** | `json_export` già presente nei 29 campi READ della policy Redazione (permesso id 90) — nessuna modifica necessaria. |
 | `add83081` | **UX-PAGELOAD** | Page loader anti-FOUC: overlay `#page-loader` con spinner in `BaseLayout.astro`, `body { opacity:0 }` + `body.ready { opacity:1; transition:200ms }` in `global.css`. Script `is:inline` in `<head>` (gira prima del primo paint). Ciclo ripetuto su View Transitions (`astro:before-preparation` / `astro:page-load`). Disabilitato con `prefers-reduced-motion`. Colori da `--bg-light` e `--accent-color`. |
 | `15a7bcd6` | **UX-PAGELOAD fix** | Script page loader spostato da `</body>` a primo figlio di `<head>` con `is:inline`: garantisce esecuzione sincrona prima del paint. `loader` ora cercato nel DOM dentro `ready()` (non all'avvio, quando il body non esiste ancora). |
 | `abf5bbd3` | **SECURITY-XSS** | Vulnerabilità XSS reale: `HomePageContent.astro` hero byline usava `innerHTML` con `meta.author` e `meta.categoria_menu` non sanitizzati (dati Directus). Sostituito con `createElement`+`textContent` per ogni nodo. Stesso fix per `outerHTML` con `meta.author.charAt(0)`. |
@@ -333,7 +335,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 | V-05 | 🟡 | S | 35 articoli Jean Vanier con `tema_label = null`: riassegnare categoria in Directus |
 | UX-19 | ✅ | S | Pagine test eliminate (test-lista/minimal/no-articles/status), debug ha già noindex. Dead code `ArticleListRow.astro` eliminato. |
 | PF-01 | ✅ | S | Placeholder copertina: 386 byte SVG, già ottimale — info 4.2MB era obsoleta. |
-| PF-02 | 🔴 | S | Cache-Control assente su R2 (`pub-2251...r2.dev`). Fix: CF Dashboard → Rules → Transform Rules → Modify Response Header → URL `pub-*.r2.dev/*` → add `Cache-Control: public, max-age=31536000, immutable`. Non eseguibile via codice. |
+| PF-02 | ⛔ BLOCCATO | S | Cache-Control assente su R2 (`pub-2251...r2.dev`). La Transform Rule in CF Dashboard non funziona perché il dominio R2 è fuori dalla zona `ombreeluci.it`. Fix corretto: collegare R2 a custom domain `media.ombreeluci.it` con Cache Rule dedicata. Prerequisito: cutover DNS da Aruba a Cloudflare. Fare contestualmente o subito dopo il cutover. |
 | DA-02 | 🟢 | S | 16 pull quote non reinserite: 11 articoli con posizione ambigua, inserire a mano in Directus |
 | UAT-CLEANUP | 🔴 | S | Eliminare utente Redazione UAT `redazione-uat@ombreeluci.it` prima del go-live |
 | SEC-01 | ✅ | S | Security headers aggiunti via `public/_headers`: X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy. |

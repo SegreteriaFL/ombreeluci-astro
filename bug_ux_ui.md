@@ -22,17 +22,26 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 
 ## Generale
-
+[] UAT-CLEANUP parziale: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
+— FK constraint su directus_files (uploaded_by). Per pulizia completa: reassegnare 
+i file dell'utente UAT all'admin (UUID 93c154ca-372c-4f94-8a35-e0fe66850780) via 
+PATCH /files, poi eliminare l'utente. Non urgente — utente già sospeso, non può fare login.
+// via: Directus API
+[] Page loader anti-FOUC non funziona al primo caricamento — flash del DOM 
+non sistemato visibile, spinner mai visibile. Script is:inline in <head> 
+probabilmente gira dopo il primo paint. Investigare posizionamento script 
+in BaseLayout.astro.
+// file: src/layouts/BaseLayout.astro (o BaseHead.astro)
 [x] transizioni tra una pagina e l'altra morbide e eleganti (732d8280)
 [x] transizioni entrata in pagina articolo: titolo .2s, sottotitolo+meta .3s, hero .4s, body .5s — @keyframes article-entry in ArticlePageLayout.astro, solo >=691px, zero JS
 [x] in article-badge-link mancano /it/ e in alcuni casi anche /en/ — fix incluso in B-14; verificato su staging IT+EN, tutti i badge link hanno prefisso lingua corretto
 [x] debug-section con dati JSON articolo presente nel DOM con hidden — rimossa completamente da it/[slug].astro e en/[slug].astro (it/[slug] aveva 2 <pre>, en/[slug] ne aveva 1)
 // file: src/pages/it/[slug].astro, src/pages/en/[slug].astro
-[] TRANS-FLOW-01 UX: campo `json_export` non visibile nel form Directus per la Redazione — aggiungere il campo alla lista READ dei permessi ruolo Redazione via API Directus. Permette alla Redazione di vedere e copiare il JSON esportato senza accedere ai campi tecnici.
+[x] TRANS-FLOW-01 UX: campo `json_export` non visibile nel form Directus per la Redazione — già presente nei 29 campi READ policy Redazione (permesso id 90). Verificato via API 2026-05-08.
 [] traduzioni didascalie
 // DID-EN: script translate-didascalie.mjs pronto. Bloccato da: 1) creare campo didascalia_en in Directus UI, 2) aggiornare en/[slug].astro per leggerlo. Vedi CONTENUTI.md § "Didascalie foto — traduzione EN"
 [x] fix didascalie unsplash come da documentazione (non so dove avevamo apputanto credits con link)
-[x] traduzioni bio (3133111c + 7756e067 — 79/79 bio tradotte IT→EN con Haiku, campo bio_en popolato, live su SSR articoli e SSG pagine autore dopo rebuild)
+[x] traduzioni bio (3133111c + 7756e067 — 79/79 bio tradotte IT→EN con Haiku, campo bio_en popolato, live su SSR articoli e SSG pagine autore dopo rebuild). Verificato 2026-05-08: staging mostra bio EN correttamente. 275/354 autori senza bio in nessuna lingua — dato mancante, non bug.
 [] automazione creazione versione inglese di articoli e numeri: capire come facilitare il compito della redazione. proposte: 1 opzione base: tasto in cms dentro articolo o pagina numero "crea versione inglese" (o spa o altra lingua pensare in modo che sia interfaccia scalabile) si apre pagina con struttura copiata 2 opzione pro: automazione completa con chiamata api per traduzione immediata di tutti i contenuti dell'oggetto. Valutare, documentare e fare piano di lavoro
 [] numero 52 mancavano gli articoli. fixato in italiano --> va sistemato numero inglese  mettendo gli articoli corrispondendi. Vale anche per numeri, ancora da fixare it, 47 46, https://ombreeluci-staging.pages.dev/it/archivio/ins--3 https://ombreeluci-staging.pages.dev/it/archivio/ins--2
 [] quando facciamo un branch da sempre errore object object e non si riesce a navigare il sito. PErché? fixare!
@@ -74,6 +83,10 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 
 ## archivio
+[] IssueCard: immagini copertina senza loading="lazy" — tutte le ~200 copertine 
+si caricano in parallelo, appaiono tutte insieme dopo ~1.5s. Fix: aggiungere 
+loading="lazy" su <img> in IssueCard.astro. Abbinare a PF-02 (Cache-Control R2).
+// file: src/components/IssueCard.astro
 [x] .issue-card[data-astro-cid-afktgyng] disattiva background (732d8280)
 // file: src/components/IssueCard.astro
 [x] associare box shadow e border radius all'img issue-card-image (732d8280)
