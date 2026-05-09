@@ -118,6 +118,16 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    #f5f5f5 su ArticleCard (IssueCard l'aveva già). 2026-05-09.
    // file: src/styles/global.css, src/layouts/BaseLayout.astro, src/components/ArticleCard.astro
 
+[x] IMG-BLURUP-SEARCH: immagini ricerca invisibili causa opacity:0 su lazy.
+   Fix: escluse .cerca-hit-img e .aa-ItemImg dalla regola IMG-BLURUP.
+   Immagini caricate dinamicamente da InstantSearch non ricevevano .loaded. 2026-05-09.
+   // file: src/styles/global.css
+
+[x] ALGOLIA-REINDEX: reindicizzazione completa 3 indici (7522 record totali).
+   oel_articoli: 6963, oel_autori: 354, oel_numeri: 205. Numeri rivista ora
+   appaiono in autocomplete (es. "47" trova OEL 47). 2026-05-09.
+   // script: node scripts/algolia/index-all.mjs
+
 
 -------------
 
@@ -144,8 +154,10 @@ Gestisce View Transitions (astro:before-preparation/page-load). Commit add83081 
 [x] fix didascalie unsplash come da documentazione (non so dove avevamo apputanto credits con link)
 [x] traduzioni bio (3133111c + 7756e067 — 79/79 bio tradotte IT→EN con Haiku, campo bio_en popolato, live su SSR articoli e SSG pagine autore dopo rebuild). Verificato 2026-05-08: staging mostra bio EN correttamente. 275/354 autori senza bio in nessuna lingua — dato mancante, non bug.
 [x] automazione creazione versione inglese di articoli e numeri: capire come facilitare il compito della redazione. proposte: 1 opzione base: tasto in cms dentro articolo o pagina numero "crea versione inglese" (o spa o altra lingua pensare in modo che sia interfaccia scalabile) si apre pagina con struttura copiata 2 opzione pro: automazione completa con chiamata api per traduzione immediata di tutti i contenuti dell'oggetto. Valutare, documentare e fare piano di lavoro
-[] numero 52 mancavano gli articoli. fixato in italiano --> va sistemato numero inglese  mettendo gli articoli corrispondendi. Vale anche per numeri, ancora da fixare it, 47 46, https://ombreeluci-staging.pages.dev/it/archivio/ins--3 https://ombreeluci-staging.pages.dev/it/archivio/ins--2
-[] quando facciamo un branch da sempre errore object object e non si riesce a navigare il sito. PErché? fixare!
+[x] numero 52 mancavano gli articoli. fixato in italiano --> va sistemato numero inglese  mettendo gli articoli corrispondendi. Vale anche per numeri, ancora da fixare it, 47 46, https://ombreeluci-staging.pages.dev/it/archivio/ins--3 https://ombreeluci-staging.pages.dev/it/archivio/ins--2
+   // FATTO: OEL-52 EN (38cf8678), OEL-47+OEL-46 (4b07b086), INS--2→INS-31 + INS--3→INS-32 (80fccd8c). 2026-05-09.
+[~] quando facciamo un branch da sempre errore object object e non si riesce a navigare il sito. PErché? fixare!
+   // LIMITE CF PAGES: nodejs_compat non funziona su preview deployment (solo su main). Documentato in STATO.md. Non è bug del codice.
 [ ] Aggiungere check smoke test post-deploy: verifica che pagina autore EN contenga bio in inglese (non fallback IT). Controlla che fields array in directus.ts includa tutti i campi usati nel frontend — i campi mancanti sono silenziosi e non emergono dal build.
 
 
