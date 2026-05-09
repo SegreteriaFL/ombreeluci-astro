@@ -109,6 +109,14 @@ Main staging (deployato da main) non ha questo problema.
 
 ---
 
+## Fix recenti (2026-05-09) — BACKFILL-DATES
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| (commit) | **BACKFILL-DATES** | Aggiornati timestamp `data_pubblicazione` da `T00:00:00` a timestamp completo con ore:minuti:secondi. Fonte: `scripts_and_data/datasets/articoli/articoli_semantici_FULL_2026.json` campo `meta.date`, matching per `wp_id`. **3.459 articoli aggiornati, 0 errori, 39 saltati** (articoli EN post-import con wp_id non presente in FULL_2026). Batch da 50 con pausa 1s. Effetto: ordinamento articoli per numero rivista ora deterministico (i timestamp del 2026-09-02 che prima erano tutti `T00:00:00` ora hanno ore:minuti:secondi diversi → ordine stabile). Verifica OEL-47: 9 articoli con timestamp distinti, ordine decrescente corretto (wp_id 5844→9681→9727→9723→9720→9717→9715→9713→9708). Script: `scripts/backfill-dates.mjs`. Log dryrun: `scripts/logs/backfill-dates-2026-05-09T02-34-49-dryrun.csv`. Log reale: `scripts/logs/backfill-dates-2026-05-09T02-36-12.csv`. |
+
+---
+
 ## Fix recenti (2026-05-09) — OEL-46/OEL-47
 
 ### Audit ordinamento articoli OEL-47 (2026-05-09)
