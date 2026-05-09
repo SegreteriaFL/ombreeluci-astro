@@ -96,14 +96,20 @@ body {
   padding-top: var(--header-height, 72px);
 }
 
-/* IMG-BLURUP: fade-in globale per immagini lazy */
-img[loading="lazy"] {
+/* IMG-BLURUP: fade-in per immagini lazy (escluse quelle caricate dinamicamente da JS) */
+img[loading="lazy"]:not(.cerca-hit-img):not(.aa-ItemImg) {
   opacity: 0;
   transition: opacity 0.4s ease;
 }
 
 img[loading="lazy"].loaded {
   opacity: 1;
+}
+
+/* Immagini dinamiche (ricerca Algolia): sempre visibili */
+.cerca-hit-img,
+.aa-ItemImg {
+  opacity: 1 !important;
 }
 
 /* Header: stesso stile su tutte le pagine; con ViewTransitions usa transition:persist per evitare salti */
