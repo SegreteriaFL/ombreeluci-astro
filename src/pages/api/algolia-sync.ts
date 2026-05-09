@@ -150,8 +150,10 @@ export const POST: APIRoute = async ({ request, locals }) => {
 
   if (!syncSecret || providedSecret !== syncSecret) {
     console.error('ALGOLIA-SYNC: Invalid or missing secret');
+    // Debug: indicate which check failed
+    const debugInfo = !syncSecret ? 'secret_not_configured' : 'secret_mismatch';
     return new Response(
-      JSON.stringify({ ok: false, error: 'unauthorized' }),
+      JSON.stringify({ ok: false, error: 'unauthorized', debug: debugInfo }),
       { status: 401, headers: { 'Content-Type': 'application/json' } }
     );
   }
