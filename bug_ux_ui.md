@@ -113,6 +113,11 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    categoria_menu/categoria_menu_2, sort -data_pubblicazione, limit 4. 2026-05-09.
    // file: src/lib/directus.ts
 
+[x] IMG-BLURUP: fade-in globale per immagini lazy. CSS opacity 0→1 con transition 0.4s.
+   Script in BaseLayout aggiunge classe .loaded al completamento. Background placeholder
+   #f5f5f5 su ArticleCard (IssueCard l'aveva già). 2026-05-09.
+   // file: src/styles/global.css, src/layouts/BaseLayout.astro, src/components/ArticleCard.astro
+
 
 -------------
 

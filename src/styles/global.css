@@ -96,6 +96,16 @@ body {
   padding-top: var(--header-height, 72px);
 }
 
+/* IMG-BLURUP: fade-in globale per immagini lazy */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+img[loading="lazy"].loaded {
+  opacity: 1;
+}
+
 /* Header: stesso stile su tutte le pagine; con ViewTransitions usa transition:persist per evitare salti */
 
 h1, h2, h3, h4, h5, h6 {

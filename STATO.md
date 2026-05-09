@@ -100,6 +100,19 @@ Main staging (deployato da main) non ha questo problema.
 | (API Directus) | **ALGOLIA-05-FIX-2** ✅ | Flow Algolia ancora non scattava. **Causa:** template body usava `{{$trigger.key}}` (non esiste in Directus 11 su `items.update`). **Fix:** corretto a `{{$trigger.keys[0]}}`. Test endpoint OK. |
 | (API Directus) | **OEL-52-EN** ✅ | 11 articoli EN di OEL-52 avevano `numero_rivista` sbagliato (puntavano a un altro numero). Riassegnati al numero corretto `8d50d735-c9d1-4443-9fc9-3f11eec04682`. Verifica: `/it/archivio/oel-52/` ora mostra 12 IT + 12 EN = 24 articoli. |
 | (script) | **VERIFY-REDIRECTS-STAGING** ⚠️ | Test eseguito: 1001 redirect → 100% 404 su staging. **Comportamento atteso:** il middleware redirige a `ombreeluci.it` (produzione), non a staging locale. Lo script serve per test **post-cutover** sul dominio produzione. |
+| (codice) | **IMG-BLURUP** ✅ | Fade-in globale per immagini lazy. CSS: `img[loading="lazy"] { opacity:0; transition:0.4s }` + classe `.loaded`. Script in BaseLayout per aggiungere `.loaded` al completamento. Background placeholder `#f5f5f5` su `ArticleCard.astro` (IssueCard l'aveva già). Build verde. |
+| (script+API) | **NUMERI-EN-SYNC** ✅ | Sincronizzati 72 articoli EN ai numeri rivista corretti. Audit: 2847 IT con traduzione EN e numero → 2775 EN già allineati, 72 corretti. Script: `scripts/numeri-en-sync.mjs`. Log: `scripts/logs/numeri-en-sync-2026-05-09T16-13-07.csv`. |
+
+### Verifica numeri prioritari post-sync
+
+| Numero | IT | EN | Status |
+|--------|----|----|--------|
+| OEL-46 | 9 | 9 | ✅ allineato |
+| OEL-47 | 9 | 8 | ⚠️ 1 IT senza traduzione EN |
+| INS-31 | 19 | 19 | ✅ allineato |
+| INS-32 | 24 | 24 | ✅ allineato |
+
+Pagine staging verificate: `/en/archive/oel-46/`, `/en/archive/oel-47/`, `/en/archive/ins-31/`, `/en/archive/ins-32/` → tutte 200 OK.
 
 ---
 

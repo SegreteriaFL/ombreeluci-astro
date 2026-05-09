@@ -86,6 +86,19 @@ const lang = headProps.lang ?? 'it';
         });
 
         document.addEventListener('astro:page-load', ready);
+
+        // IMG-BLURUP: fade-in per immagini lazy
+        function initLazyImages() {
+          document.querySelectorAll('img[loading="lazy"]:not(.loaded)').forEach(function(img) {
+            if (img.complete) {
+              img.classList.add('loaded');
+            } else {
+              img.addEventListener('load', function() { img.classList.add('loaded'); });
+            }
+          });
+        }
+        document.addEventListener('DOMContentLoaded', initLazyImages);
+        document.addEventListener('astro:page-load', initLazyImages);
       })();
     </script>
     <BaseHead {...headProps}>
