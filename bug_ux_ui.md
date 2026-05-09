@@ -85,9 +85,9 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    76 record per chi-siamo, sostienici, footer, cerca, categorie.
    API: `getContenutiStatici()` + `getCS()` in directus.ts. 2026-05-09.
 
-[] NL-MAILCHIMP: form newsletter da collegare a Mailchimp.
-   // uuid: 00c5dad63480d9601563b5692, lid: efd099264d
-   // file: src/components/NewsletterContent.astro
+[x] NL-MAILCHIMP: form newsletter collegato a Mailchimp (NL-FORM).
+   Endpoint API /api/newsletter, double opt-in, tag pagina sorgente, GA4 tracking.
+   2026-05-09.
 
 [] EVIDENZA-RECENTI: gestione "In evidenza" — selezionare automaticamente 
    solo i 4 più recenti tra quelli flaggati.

@@ -46,24 +46,22 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
 
       <!-- Form iscrizione -->
       <section class="nl-form-section">
-        {/* ⚠ TODO: sostituire action con il valore reale del provider email (Mailchimp/Brevo) */}
         <form
           class="nl-form"
-          action="#"
-          method="POST"
-          target="_blank"
-          rel="noopener noreferrer"
+          id="nl-form"
+          data-lang={lang}
         >
           <div class="nl-form-row">
             <input
               type="email"
-              name="EMAIL"
+              name="email"
+              id="nl-email"
               required
               placeholder={t(lang, 'nl_email_placeholder')}
               class="nl-input"
               aria-label={t(lang, 'nl_email_placeholder')}
             />
-            <button type="submit" class="nl-submit">{t(lang, 'nl_subscribe')}</button>
+            <button type="submit" id="nl-submit" class="nl-submit">{t(lang, 'nl_subscribe')}</button>
           </div>
           <p class="nl-privacy">
             {t(lang, 'nl_privacy_prefix')}
@@ -71,6 +69,7 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
             Associazione Fede e Luce A.P.S.
           </p>
         </form>
+        <p id="nl-message" class="nl-message" style="display:none" aria-live="polite"></p>
       </section>
 
       <!-- Newsletter precedenti -->
@@ -108,6 +107,98 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
     </div>
   </div>
 </main>
+
+<script>
+  const MESSAGES = {
+    it: {
+      ok: 'Grazie! Controlla la tua email per confermare l\'iscrizione.',
+      already_subscribed: 'Sei già iscritto alla newsletter.',
+      invalid_email: 'Inserisci un indirizzo email valido.',
+      server_error: 'Si è verificato un errore. Riprova più tardi.',
+    },
+    en: {
+      ok: 'Thank you! Check your email to confirm your subscription.',
+      already_subscribed: 'You are already subscribed.',
+      invalid_email: 'Please enter a valid email address.',
+      server_error: 'An error occurred. Please try again later.',
+    },
+  } as const;
+
+  function getSourcePage(): string {
+    const path = window.location.pathname;
+    // Remove leading/trailing slashes, replace / with -
+    let clean = path.replace(/^\/+|\/+$/g, '').replace(/\//g, '-');
+    return clean || 'homepage';
+  }
+
+  function initNewsletterForm() {
+    const form = document.getElementById('nl-form') as HTMLFormElement | null;
+    const emailInput = document.getElementById('nl-email') as HTMLInputElement | null;
+    const submitBtn = document.getElementById('nl-submit') as HTMLButtonElement | null;
+    const messageEl = document.getElementById('nl-message') as HTMLElement | null;
+
+    if (!form || !emailInput || !submitBtn || !messageEl) return;
+
+    const lang = (form.dataset.lang === 'en' ? 'en' : 'it') as 'it' | 'en';
+    const msgs = MESSAGES[lang];
+    const originalBtnText = submitBtn.textContent || '';
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const email = emailInput.value.trim();
+      if (!email) return;
+
+      // Disable button, show loading
+      submitBtn.disabled = true;
+      submitBtn.textContent = '...';
+      messageEl.style.display = 'none';
+      messageEl.className = 'nl-message';
+
+      try {
+        const res = await fetch('/api/newsletter', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            email,
+            lang,
+            source_page: getSourcePage(),
+          }),
+        });
+
+        const data = await res.json();
+
+        if (data.ok) {
+          messageEl.textContent = msgs.ok;
+          messageEl.classList.add('nl-message--success');
+          emailInput.value = '';
+
+          // GA4 tracking
+          (window as any).dataLayer = (window as any).dataLayer || [];
+          (window as any).dataLayer.push({
+            event: 'newsletter_signup',
+            newsletter_lang: lang,
+            newsletter_source: getSourcePage(),
+          });
+        } else {
+          const errorKey = data.error as keyof typeof msgs;
+          messageEl.textContent = msgs[errorKey] || msgs.server_error;
+          messageEl.classList.add('nl-message--error');
+        }
+      } catch {
+        messageEl.textContent = msgs.server_error;
+        messageEl.classList.add('nl-message--error');
+      }
+
+      messageEl.style.display = 'block';
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalBtnText;
+    });
+  }
+
+  // Init on page load and Astro navigation
+  document.addEventListener('astro:page-load', initNewsletterForm);
+</script>
 
 <style>
   .nl-container {
@@ -206,6 +297,24 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
   }
 
   .nl-privacy a { color: var(--accent-color); text-decoration: none; }
+
+  .nl-message {
+    margin: 0.75rem 0 0;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+
+  .nl-message--success {
+    background: #e8f5e9;
+    color: #2e7d32;
+  }
+
+  .nl-message--error {
+    background: #ffebee;
+    color: #c62828;
+  }
 
   /* Archive */
   .nl-section-title {

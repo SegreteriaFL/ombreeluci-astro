@@ -126,6 +126,14 @@ Main staging (deployato da main) non ha questo problema.
 
 ---
 
+## Fix recenti (2026-05-09) — NL-FORM
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| (codice + CF Pages) | **NL-FORM** ✅ | Integrazione newsletter Mailchimp con double opt-in. **Endpoint API:** `src/pages/api/newsletter.ts` POST con validazione email, chiamata Mailchimp API (server us17, list efd099264d), status "pending" per double opt-in, tag `website` + `page:{source}`. **Frontend:** `NewsletterContent.astro` aggiornato con form JS che intercetta submit, mostra messaggi inline IT/EN (successo, già iscritto, email invalida, errore). **Tracking GA4:** `dataLayer.push` con evento `newsletter_signup`, lang e source_page. **CF Pages:** secret `MAILCHIMP_API_KEY` aggiunto a production e preview. |
+
+---
+
 ## Fix recenti (2026-05-09) — DATA-DEFAULT
 
 | Commit | Area | Fix |
