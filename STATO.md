@@ -109,6 +109,14 @@ Main staging (deployato da main) non ha questo problema.
 
 ---
 
+## Fix recenti (2026-05-09) — INS-31/INS-32
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| `80fccd8c` | **INS-31/INS-32** | Rinomina due numeri INS mal nominati in Directus. **INS--2 → INS-31** "Insieme Giallo – Speciale Verso Pasqua" (nr_progressivo=31, anno=1981, periodo "Novembre 1979 – Settembre 1981", sommario, PDF/archive URL aggiornati). **INS--3 → INS-32** "Insieme Speciale Fede e Luce" (nr_progressivo=32, anno=1981, periodo "Dicembre 1981", sommario, PDF/archive URL). Articoli assegnati: 19/19 a INS-31 (tutti da NULL), 23+1 a INS-32 (23 da NULL + 1 già presente). 5 conflitti INS-32 **non toccati** (già assegnati ad altri numeri): `alfedena-1976...`→INS-11, `la-casetta...`→INS-18, `leducazione...`→INS-16, `per-la-nostra-riflessione...`→INS-21, `principi-di-azione...`→INS-29. Redirect aggiunti in `src/middleware.ts` e `cf-worker/redirect-worker.js`: `/it/archivio/ins--2/`→`/it/archivio/ins-31/` e `/it/archivio/ins--3/`→`/it/archivio/ins-32/`. Conteggi finali Directus: INS-31=19 articoli, INS-32=24 articoli. Staging: da verificare dopo deploy (`/it/archivio/ins-31/`, `/it/archivio/ins-32/`). |
+
+---
+
 ## Fix recenti (2026-05-08)
 
 | Commit | Area | Fix |
