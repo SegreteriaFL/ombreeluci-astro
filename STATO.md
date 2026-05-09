@@ -1,9 +1,35 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-08 (branch feat/classificazione-cleanup — smoke test CLASSIF-01)
+**Ultimo aggiornamento:** 2026-05-09 (TRANS-FLOW-02 — fix JSON parsing robusto)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
+
+---
+
+## TRANS-FLOW-02 — Fix JSON parsing robusto (2026-05-09)
+
+**Problema:** Flow "Import traduzione da JSON" falliva con `json_traduzione non è un JSON valido: Expected ',' or '}' after property value in JSON at position 716`. Causa: Claude a volte restituisce JSON con newline non escapate o wrappato in code fences.
+
+**Soluzione implementata:**
+
+1. **Prompt export migliorato** (`scripts/setup-export-flow.mjs`):
+   - Sezione critica esplicita sui requisiti di escaping JSON
+   - Istruzioni su virgolette, newline, backslash
+   - Divieto esplicito di code fences markdown
+
+2. **Import flow robusto** (`scripts/setup-import-flow.mjs`):
+   - Rimozione automatica markdown code fences (` ```json ... ``` `)
+   - Fix euristico per newline non escapate dentro le stringhe
+   - Diagnostica dettagliata: in caso di errore mostra 50 caratteri di contesto intorno alla posizione
+
+**Script eseguiti:**
+```bash
+node scripts/setup-export-flow.mjs  # riconfigura flow export
+node scripts/setup-import-flow.mjs  # aggiorna Run Script import
+```
+
+**Documentazione aggiornata:** `docs/TRANS-FLOW-01-setup.md`
 
 ---
 

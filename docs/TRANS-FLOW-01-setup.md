@@ -34,7 +34,11 @@ Tre operation in sequenza (configurate via `scripts/setup-export-flow.mjs`):
 - **Run Script sandbox — no fetch, no require**: Directus 11.16.1 esegue gli script in un VM context dove né `fetch` (Node < 18) né `require` sono disponibili. La soluzione è fare il fetch **prima** con un item-read, poi passare i dati al Run Script che usa solo JS puro.
 - **item-read con key dinamica nei trigger manuali**: funziona correttamente con `{{$trigger.body.keys[0]}}` nella configurazione `options.key`. Il bug osservato in precedenza era dovuto a una configurazione errata (key passata come template nel campo sbagliato dell'UI).
 - **Foreign key constraint al delete operation**: prima di cancellare una operation, azzerare `resolve` e `reject` su tutte — altrimenti Postgres blocca il delete per FK violation.
-- **Errore "json_traduzione non è un JSON valido"**: se il JSON incollato è troncato (copy-paste parziale da Claude), il flow lo segnala esplicitamente con posizione dell'errore. Non è un bug — serve copiare l'intera risposta di Claude.
+- **Errore "json_traduzione non è un JSON valido"**: il flow ora include pre-processing robusto (aggiornato 2026-05-09 via `scripts/setup-import-flow.mjs`):
+  - Rimuove automaticamente markdown code fences (` ```json ... ``` `)
+  - Tenta fix euristico per newline non escapate dentro le stringhe
+  - In caso di errore, mostra il contesto (50 caratteri prima e dopo la posizione dell'errore)
+  - Il prompt di export include ora istruzioni esplicite sull'escaping JSON
 
 ---
 
@@ -334,19 +338,28 @@ La **Condition "JSON presente?"** (Operation 1) blocca l'esecuzione perché `jso
 - Azzera il campo `json_traduzione` sull'IT (il campo sparisce dopo l'elaborazione)
 - Se la traduzione EN esiste già: aggiorna i campi tradotti senza ricreare il record
 
-### Prompt di traduzione (aggiornato 2026-05-08)
+### Prompt di traduzione (aggiornato 2026-05-09)
 
-Il campo `_prompt` nel JSON esportato contiene le istruzioni per Claude. Versione attuale, ottimizzata per articoli nuovi:
+Il campo `_prompt` nel JSON esportato contiene le istruzioni per Claude. Versione attuale con istruzioni esplicite sull'escaping JSON:
 
+**SEZIONE CRITICA — FORMATO JSON:**
+- Restituire SOLO JSON valido parsabile da `JSON.parse()`
+- Escape obbligatorio dentro le stringhe: virgolette → `\"`, newline → `\n`, backslash → `\\`
+- Il campo `corpo` contiene HTML con virgolette negli attributi — DEVONO essere escapate
+- Non usare a capo reali dentro i valori stringa — usare `\n`
+- Non wrappare in markdown code fences
+
+**REGOLE DI TRADUZIONE:**
 1. Restituire JSON con struttura invariata — solo i campi in `_translate` tradotti
 2. Inglese naturale e idiomatico — come scriverebbe un editor madrelingua, non una traduzione letterale
 3. Titoli come headline originali EN, non traduzioni
 4. Frasi italiane lunghe/complesse → spezzare in frasi brevi (la prosa EN privilegia chiarezza e ritmo breve)
-5. Tag HTML preservati esattamente nel campo `corpo`
+5. Tag HTML preservati esattamente nel campo `corpo` — non aggiungere, rimuovere o modificare tag
 6. Crediti foto "Foto di X su Unsplash" → "Photo by X on Unsplash"
 7. Nomi propri non tradotti: "Fede e Luce", "Ombre e Luci", città italiane, titoli "don/padre/suor/fr."
 8. Terminologia disabilità: usare terminologia inclusiva moderna EN ("person with Down syndrome", "intellectual disability", "autism")
-9. Solo il JSON tradotto — nessuna spiegazione, nessun markdown fence
+
+Restituire SOLO il JSON. Nessuna spiegazione prima o dopo.
 
 **Nota archivio storico**: per articoli storici (anni '70–'90) con terminologia d'epoca, il prompt attuale userà la terminologia inclusiva moderna. Se si vuole preservare il registro originale per un articolo specifico, modificare manualmente la regola 8 nel JSON prima di inviarlo a Claude.
 

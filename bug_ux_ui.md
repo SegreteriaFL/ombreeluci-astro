@@ -138,6 +138,7 @@ Gestisce View Transitions (astro:before-preparation/page-load). Commit add83081 
 [x] debug-section con dati JSON articolo presente nel DOM con hidden — rimossa completamente da it/[slug].astro e en/[slug].astro (it/[slug] aveva 2 <pre>, en/[slug] ne aveva 1)
 // file: src/pages/it/[slug].astro, src/pages/en/[slug].astro
 [x] TRANS-FLOW-01 UX: campo `json_export` non visibile nel form Directus per la Redazione — già presente nei 29 campi READ policy Redazione (permesso id 90). Verificato via API 2026-05-08.
+[x] TRANS-FLOW-02: JSON parsing robusto nel flow import. Errore "json_traduzione non è un JSON valido" causato da newline non escapate o code fences markdown. Fix: prompt export con istruzioni esplicite escaping JSON + Run Script import con pre-processing (rimozione code fences, fix euristico newline, diagnostica con contesto). Scripts: setup-export-flow.mjs, setup-import-flow.mjs. 2026-05-09.
 [x] traduzioni didascalie
 // DID-EN: script translate-didascalie.mjs pronto. Bloccato da: 1) creare campo didascalia_en in Directus UI, 2) aggiornare en/[slug].astro per leggerlo. Vedi CONTENUTI.md § "Didascalie foto — traduzione EN"
 [x] fix didascalie unsplash come da documentazione (non so dove avevamo apputanto credits con link)
