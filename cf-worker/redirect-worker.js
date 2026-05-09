@@ -3,6 +3,9 @@
 // Rule C+D: lookup table  (1001 redirects)
 
 const REDIRECTS = {
+  // Numeri rivista rinominati dopo import (INS-3x con doppio trattino → ID corretto)
+  "/it/archivio/ins--2/": "/it/archivio/ins-31/",
+  "/it/archivio/ins--3/": "/it/archivio/ins-32/",
   "/ombre-e-luci-n-1-1983-sfogliabile/": "/it/ombre-e-luci-n-3-1983-sfogliabile/",
   "/ombre-e-luci-n-1-1983/": "/it/ombre-e-luci-n-3-1983-sfogliabile/",
   "/editoriale-4-la-sindrome-down/": "/it/editoriale-4-il-mio-bambino-con-la-sindrome-down/",

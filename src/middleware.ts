@@ -3,6 +3,12 @@ import redirectsLegacy from './data/redirects-legacy.json';
 
 const REDIRECTS: Record<string, string> = redirectsLegacy;
 
+// Redirect numeri rivista rinominati (ID Directus corretto dopo import)
+const ARCHIVIO_REDIRECTS: Record<string, string> = {
+  '/it/archivio/ins--2/': '/it/archivio/ins-31/',
+  '/it/archivio/ins--3/': '/it/archivio/ins-32/',
+};
+
 // Regex per redirect WordPress date-based: /YYYY/MM/DD/slug/ → /it/slug/
 // Nota: senza [...path].astro questi path non raggiungono il middleware su staging.
 // In produzione li gestisce il CF Worker (cf-worker/redirect-worker.js).
@@ -20,6 +26,9 @@ const BLOG_IT_SLUG_RE = /^\/blog\/([^/]+?)\/?$/;
 
 export const onRequest = defineMiddleware(({ url, redirect }, next) => {
   const path = url.pathname;
+
+  const archivioRedirect = ARCHIVIO_REDIRECTS[path];
+  if (archivioRedirect) return redirect(archivioRedirect, 301);
 
   const enMatch = path.match(BLOG_EN_SLUG_RE);
   if (enMatch) return redirect('/en/' + enMatch[1] + '/', 301);
