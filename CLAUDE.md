@@ -73,6 +73,33 @@ Riferimento completo: `CONTENUTI.md` sezione "Principio di scalabilità multilin
 
 ---
 
+## Contenuti statici in Directus (STATIC-01)
+
+**Collection `contenuti_statici`:** testi del sito modificabili dalla redazione senza toccare il codice.
+
+**Gruppi disponibili:** `chi-siamo`, `sostienici`, `footer`, `varie`, `categorie`.
+
+**Pattern di utilizzo nei componenti:**
+```astro
+---
+import { getContenutiStatici, getCS } from '../lib/directus';
+const cs = await getContenutiStatici('chi-siamo'); // fetch per gruppo
+---
+{getCS(cs, 'about_manifesto', lang, 'Testo di fallback se Directus non disponibile')}
+```
+
+**Regole:**
+- Ogni componente che usa contenuti_statici deve avere un fallback inline per resilienza
+- La redazione modifica `valore_it` e `valore_en` da Directus → il sito si aggiorna al prossimo build/SSR
+- Il campo `chiave` è immutabile dopo la creazione (identificatore univoco)
+- Le descrizioni categorie (`categoria_{slug}_descrizione`) sono inizialmente null — da compilare dalla redazione
+
+**Aggiungere nuovi testi:**
+1. POST /items/contenuti_statici con chiave univoca, gruppo appropriato
+2. Nel componente: usare `getCS(cs, 'nuova_chiave', lang, 'fallback')`
+
+---
+
 ## INVARIANTE — categoria_menu è sempre slug IT
 
 **`categoria_menu` non è un campo localizzato. È la chiave della tassonomia interna.**

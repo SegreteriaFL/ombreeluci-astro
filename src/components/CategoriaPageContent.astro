@@ -5,7 +5,7 @@
  */
 import ArticleCard from './ArticleCard.astro';
 import { getLabels, getMegaclusterForArticle, getRoleWeight } from '../config/taxonomy.js';
-import { getArticoloCopertinaSrc, getAutoreImageUrl } from '../lib/directus';
+import { getArticoloCopertinaSrc, getAutoreImageUrl, getContenutiStatici, getCS } from '../lib/directus';
 import type { ArticoloFull } from '../lib/directus';
 import { t, type Locale } from '../utils/i18n';
 
@@ -13,6 +13,8 @@ interface Props {
   articoli: ArticoloFull[];
   categoryLabel: string;
   descrizione?: string | null;
+  /** Slug categoria IT per lookup descrizione da Directus (es. 'famiglia'). */
+  categoriaSlug?: string | null;
   /** Selezione manuale per la colonna evidenza. Se null/vuoto si usa auto (portante/strutturale). */
   evidenza?: ArticoloFull[] | null;
   lang?: Locale;
@@ -22,11 +24,19 @@ interface Props {
 const {
   articoli,
   categoryLabel,
-  descrizione = null,
+  descrizione: descrizioneProp = null,
+  categoriaSlug = null,
   evidenza = null,
   lang = 'it',
   basePath = '',
 } = Astro.props;
+
+// Se descrizione non passata ma abbiamo lo slug, cerchiamo in Directus
+let descrizione = descrizioneProp;
+if (!descrizione && categoriaSlug) {
+  const cs = await getContenutiStatici('categorie');
+  descrizione = getCS(cs, `categoria_${categoriaSlug}_descrizione`, lang, '') || null;
+}
 
 const sorted = articoli; // si assume già ordinato dalla pagina ospite
 

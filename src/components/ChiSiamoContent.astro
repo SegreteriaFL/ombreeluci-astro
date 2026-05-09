@@ -1,5 +1,6 @@
 ---
 import { t, type Locale } from '../utils/i18n';
+import { getContenutiStatici, getCS } from '../lib/directus';
 import AboutSidebar from './AboutSidebar.astro';
 
 interface Props {
@@ -8,84 +9,67 @@ interface Props {
 
 const { lang } = Astro.props;
 
-// Inline content objects — language-specific text
-const content = {
+// Contenuti statici da Directus (con fallback inline)
+const cs = await getContenutiStatici('chi-siamo');
+
+// Fallback content (usato se Directus non disponibile)
+const fallbackContent = {
   it: {
     manifesto: "Ombre e Luci è una rivista che da oltre quarant'anni accompagna le persone con disabilità, le loro famiglie e le comunità che li accolgono, offrendo riflessioni, testimonianze e strumenti per vivere insieme la diversità come una ricchezza.",
     magazine_lead: "Rivista trimestrale che mette al centro l'inclusione e la dignità di ogni persona, attraverso testimonianze, esperienze e riflessioni.",
-    blocchi: [
-      { titolo: 'Testimonianze', descrizione: "Voci e storie di chi vive la disabilità e l'inclusione ogni giorno.", href: '/it/categoria/testimonianze' },
-      { titolo: 'Esperienze', descrizione: 'Percorsi condivisi di comunità, associazioni e famiglie.', href: '/it/categoria/interviste' },
-      { titolo: 'Riflessioni', descrizione: "Approfondimenti su spiritualità, dignità e cultura dell'accoglienza.", href: '/it/categoria/riflessioni' },
-      { titolo: 'Cultura', descrizione: 'Recensioni, interviste e sguardi sul mondo che ci circonda.', href: '/it/categoria/recensioni' },
-    ],
-    timeline: [
-      { anno: '1977', titolo: "Nasce 'Insieme'", descrizione: 'Il primo bollettino ciclostilato. Il desiderio di non restare soli.', linkTesto: 'Primo numero Insieme', linkUrl: '/it/archivio/ins-1' },
-      { anno: '1983', titolo: 'Ombre e Luci', descrizione: 'Esce il numero 1. Formato professionale, temi di vita, fede e inclusione.', linkTesto: 'Numero 1 (PDF)', linkUrl: 'https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf', linkPagina: '/it/archivio/oel-1' },
-      { anno: '2010', titolo: 'Web', descrizione: 'La rivista approda online.' },
-      { anno: '2018', titolo: 'Digitalizzazione', descrizione: "Inizia il recupero dell'archivio storico, un 'regalo' per i 40 anni della rivista.", linkTesto: 'Leggi', linkUrl: '/digitalizzando-ombre-e-luci-come-un-album-di-famiglia' },
-      { anno: '2023', titolo: 'In English!', descrizione: 'Apertura internazionale con la versione inglese.', linkTesto: 'Leggi', linkUrl: '/ombre-e-luci-in-inglese' },
-      { anno: '2025', titolo: 'Progetto AiOeL', descrizione: "L'intelligenza artificiale al servizio della memoria e delle voci dell'archivio.", linkTesto: 'Leggi', linkUrl: '/intelligenza-artificiale-e-memoria-editoriale-il-mio-lavoro-con-ombre-e-luci' },
-    ],
-    comeLavoriamo: [
-      'Ascolto del territorio: ascoltiamo le comunità, le famiglie e i lettori per cogliere i temi che bruciano.',
-      'Scelta del tema: ogni numero prende forma attorno a un tema guida, declinato in testimonianze, riflessioni e cultura.',
-      'Cura del linguaggio: parole accessibili e rispettose, senza rinunciare alla profondità.',
-      'Apertura al dialogo: la rivista è un luogo di incontro tra voci diverse, in Italia e nel mondo.',
-    ],
     legacy_lead: 'I volti che hanno costruito Ombre e Luci dagli inizi fino a pochi anni fa.',
     authors_lead: 'Negli anni oltre 400 autori, testimoni e ospiti hanno contribuito a raccontare la fragilità sulle pagine di Ombre e Luci.',
-    readArticlesHref: '/',
-    supportHref: '/it/sostienici',
-    seeAllAuthorsHref: '/it/autori',
-    legacyArchiveHref: '/it/archivio',
-    orari: [
-      { giorno: 'Lun – Ven', ore: '10:00 – 13:00' },
-      { giorno: 'Mercoledì', ore: '10:00 – 16:00' },
-    ],
   },
   en: {
     manifesto: 'Ombre e Luci is a magazine that for more than forty years has accompanied people with disabilities, their families, and the communities that welcome them, offering reflections, testimonies and tools for living together with diversity as a gift.',
     magazine_lead: 'A quarterly magazine centred on inclusion and the dignity of every person, through testimonies, experiences and reflections.',
-    blocchi: [
-      { titolo: 'Testimonials', descrizione: 'Voices and stories of those who live with disability and inclusion every day.', href: '/en/category/testimonies' },
-      { titolo: 'Experiences', descrizione: 'Shared journeys of communities, associations and families.', href: '/en/category/culture' },
-      { titolo: 'Reflections', descrizione: 'In-depth pieces on spirituality, dignity and the culture of welcome.', href: '/en/category/spirituality' },
-      { titolo: 'Culture', descrizione: 'Reviews, interviews and perspectives on the world around us.', href: '/en/category/culture' },
-    ],
-    timeline: [
-      { anno: '1977', titolo: "Birth of 'Insieme'", descrizione: 'The first mimeographed bulletin. The wish not to remain alone.', linkTesto: 'First Insieme issue', linkUrl: '/en/archive/ins-1' },
-      { anno: '1983', titolo: 'Ombre e Luci', descrizione: 'Issue 1 published. Professional format, themes of life, faith and inclusion.', linkTesto: 'Issue 1 (PDF)', linkUrl: 'https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf', linkPagina: '/en/archive/oel-1' },
-      { anno: '2010', titolo: 'Online', descrizione: 'The magazine goes online.' },
-      { anno: '2018', titolo: 'Digitisation', descrizione: "The recovery of the historical archive begins — a 'gift' for the magazine's 40th anniversary.", linkTesto: 'Read', linkUrl: '/digitalizzando-ombre-e-luci-come-un-album-di-famiglia' },
-      { anno: '2023', titolo: 'In English!', descrizione: 'International opening with the English edition.', linkTesto: 'Read', linkUrl: '/ombre-e-luci-in-inglese' },
-      { anno: '2025', titolo: 'AiOeL Project', descrizione: 'Artificial intelligence in service of the memory and voices of the archive.', linkTesto: 'Read', linkUrl: '/intelligenza-artificiale-e-memoria-editoriale-il-mio-lavoro-con-ombre-e-luci' },
-    ],
-    comeLavoriamo: [
-      'Listening to the community: we listen to communities, families and readers to grasp the most pressing themes.',
-      'Choosing the theme: each issue takes shape around a guiding theme, explored through testimonies, reflections and culture.',
-      'Care with language: accessible and respectful words, without sacrificing depth.',
-      'Openness to dialogue: the magazine is a meeting place for diverse voices, in Italy and around the world.',
-    ],
     legacy_lead: 'The faces who built Ombre e Luci from the very beginning through recent years.',
     authors_lead: 'Over the years, more than 400 authors, witnesses and guests have contributed to telling the story of fragility in the pages of Ombre e Luci.',
-    readArticlesHref: '/en/',
-    supportHref: '/en/support-us/',
-    seeAllAuthorsHref: '/en/authors/',
-    legacyArchiveHref: '/en/archive/',
-    orari: [
-      { giorno: 'Mon – Fri', ore: '10:00 – 13:00' },
-      { giorno: 'Wednesday', ore: '10:00 – 16:00' },
-    ],
   },
-}[lang];
+};
 
-// Shared data — language-neutral
+// Contenuti da Directus con fallback
+const content = {
+  manifesto: getCS(cs, 'about_manifesto', lang, fallbackContent[lang].manifesto),
+  magazine_lead: getCS(cs, 'about_magazine_lead', lang, fallbackContent[lang].magazine_lead),
+  legacy_lead: getCS(cs, 'about_legacy_lead', lang, fallbackContent[lang].legacy_lead),
+  authors_lead: getCS(cs, 'about_authors_lead', lang, fallbackContent[lang].authors_lead),
+  blocchi: [
+    { titolo: getCS(cs, 'about_blocco_1_titolo', lang, lang === 'it' ? 'Testimonianze' : 'Testimonials'), descrizione: getCS(cs, 'about_blocco_1_desc', lang, lang === 'it' ? "Voci e storie di chi vive la disabilità e l'inclusione ogni giorno." : 'Voices and stories of those who live with disability and inclusion every day.'), href: lang === 'it' ? '/it/categoria/testimonianze' : '/en/category/testimonies' },
+    { titolo: getCS(cs, 'about_blocco_2_titolo', lang, lang === 'it' ? 'Esperienze' : 'Experiences'), descrizione: getCS(cs, 'about_blocco_2_desc', lang, lang === 'it' ? 'Percorsi condivisi di comunità, associazioni e famiglie.' : 'Shared journeys of communities, associations and families.'), href: lang === 'it' ? '/it/categoria/interviste' : '/en/category/culture' },
+    { titolo: getCS(cs, 'about_blocco_3_titolo', lang, lang === 'it' ? 'Riflessioni' : 'Reflections'), descrizione: getCS(cs, 'about_blocco_3_desc', lang, lang === 'it' ? "Approfondimenti su spiritualità, dignità e cultura dell'accoglienza." : 'In-depth pieces on spirituality, dignity and the culture of welcome.'), href: lang === 'it' ? '/it/categoria/riflessioni' : '/en/category/spirituality' },
+    { titolo: getCS(cs, 'about_blocco_4_titolo', lang, lang === 'it' ? 'Cultura' : 'Culture'), descrizione: getCS(cs, 'about_blocco_4_desc', lang, lang === 'it' ? 'Recensioni, interviste e sguardi sul mondo che ci circonda.' : 'Reviews, interviews and perspectives on the world around us.'), href: lang === 'it' ? '/it/categoria/recensioni' : '/en/category/culture' },
+  ],
+  timeline: [
+    { anno: '1977', titolo: getCS(cs, 'about_timeline_1977_titolo', lang, lang === 'it' ? "Nasce 'Insieme'" : "Birth of 'Insieme'"), descrizione: getCS(cs, 'about_timeline_1977_desc', lang, lang === 'it' ? 'Il primo bollettino ciclostilato. Il desiderio di non restare soli.' : 'The first mimeographed bulletin. The wish not to remain alone.'), linkTesto: lang === 'it' ? 'Primo numero Insieme' : 'First Insieme issue', linkUrl: lang === 'it' ? '/it/archivio/ins-1' : '/en/archive/ins-1' },
+    { anno: '1983', titolo: getCS(cs, 'about_timeline_1983_titolo', lang, 'Ombre e Luci'), descrizione: getCS(cs, 'about_timeline_1983_desc', lang, lang === 'it' ? 'Esce il numero 1. Formato professionale, temi di vita, fede e inclusione.' : 'Issue 1 published. Professional format, themes of life, faith and inclusion.'), linkTesto: lang === 'it' ? 'Numero 1 (PDF)' : 'Issue 1 (PDF)', linkUrl: 'https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf', linkPagina: lang === 'it' ? '/it/archivio/oel-1' : '/en/archive/oel-1' },
+    { anno: '2010', titolo: getCS(cs, 'about_timeline_2010_titolo', lang, lang === 'it' ? 'Web' : 'Online'), descrizione: getCS(cs, 'about_timeline_2010_desc', lang, lang === 'it' ? 'La rivista approda online.' : 'The magazine goes online.') },
+    { anno: '2018', titolo: getCS(cs, 'about_timeline_2018_titolo', lang, lang === 'it' ? 'Digitalizzazione' : 'Digitisation'), descrizione: getCS(cs, 'about_timeline_2018_desc', lang, lang === 'it' ? "Inizia il recupero dell'archivio storico, un 'regalo' per i 40 anni della rivista." : "The recovery of the historical archive begins — a 'gift' for the magazine's 40th anniversary."), linkTesto: lang === 'it' ? 'Leggi' : 'Read', linkUrl: '/digitalizzando-ombre-e-luci-come-un-album-di-famiglia' },
+    { anno: '2023', titolo: getCS(cs, 'about_timeline_2023_titolo', lang, 'In English!'), descrizione: getCS(cs, 'about_timeline_2023_desc', lang, lang === 'it' ? 'Apertura internazionale con la versione inglese.' : 'International opening with the English edition.'), linkTesto: lang === 'it' ? 'Leggi' : 'Read', linkUrl: '/ombre-e-luci-in-inglese' },
+    { anno: '2025', titolo: getCS(cs, 'about_timeline_2025_titolo', lang, lang === 'it' ? 'Progetto AiOeL' : 'AiOeL Project'), descrizione: getCS(cs, 'about_timeline_2025_desc', lang, lang === 'it' ? "L'intelligenza artificiale al servizio della memoria e delle voci dell'archivio." : 'Artificial intelligence in service of the memory and voices of the archive.'), linkTesto: lang === 'it' ? 'Leggi' : 'Read', linkUrl: '/intelligenza-artificiale-e-memoria-editoriale-il-mio-lavoro-con-ombre-e-luci' },
+  ],
+  comeLavoriamo: [
+    getCS(cs, 'about_come_lavoriamo_1', lang, lang === 'it' ? 'Ascolto del territorio: ascoltiamo le comunità, le famiglie e i lettori per cogliere i temi che bruciano.' : 'Listening to the community: we listen to communities, families and readers to grasp the most pressing themes.'),
+    getCS(cs, 'about_come_lavoriamo_2', lang, lang === 'it' ? 'Scelta del tema: ogni numero prende forma attorno a un tema guida, declinato in testimonianze, riflessioni e cultura.' : 'Choosing the theme: each issue takes shape around a guiding theme, explored through testimonies, reflections and culture.'),
+    getCS(cs, 'about_come_lavoriamo_3', lang, lang === 'it' ? 'Cura del linguaggio: parole accessibili e rispettose, senza rinunciare alla profondità.' : 'Care with language: accessible and respectful words, without sacrificing depth.'),
+    getCS(cs, 'about_come_lavoriamo_4', lang, lang === 'it' ? 'Apertura al dialogo: la rivista è un luogo di incontro tra voci diverse, in Italia e nel mondo.' : 'Openness to dialogue: the magazine is a meeting place for diverse voices, in Italy and around the world.'),
+  ],
+  readArticlesHref: lang === 'it' ? '/' : '/en/',
+  supportHref: lang === 'it' ? '/it/sostienici' : '/en/support-us/',
+  seeAllAuthorsHref: lang === 'it' ? '/it/autori' : '/en/authors/',
+  legacyArchiveHref: lang === 'it' ? '/it/archivio' : '/en/archive/',
+  orari: [
+    { giorno: getCS(cs, 'about_orari_1_giorno', lang, lang === 'it' ? 'Lun – Ven' : 'Mon – Fri'), ore: getCS(cs, 'about_orari_1_ore', lang, '10:00 – 13:00') },
+    { giorno: getCS(cs, 'about_orari_2_giorno', lang, lang === 'it' ? 'Mercoledì' : 'Wednesday'), ore: getCS(cs, 'about_orari_2_ore', lang, '10:00 – 16:00') },
+  ],
+};
+
+// Shared data — language-neutral (con override da Directus per ruolo e bio)
 const redazioneChiave = [
-  { nome: 'Giulia Galeotti', ruolo: { it: 'Direttore responsabile', en: 'Editor-in-chief' }, slug: 'giulia-galeotti', foto: 'giulia-galeotti.webp', bioBreve: { it: "Dirige la rivista con uno sguardo attento alla qualità editoriale e ai temi dell'inclusione e della spiritualità.", en: 'Leads the magazine with a keen eye for editorial quality and themes of inclusion and spirituality.' } },
-  { nome: 'Cristina Tersigni', ruolo: { it: 'Responsabile editoriale', en: 'Editorial director' }, slug: 'cristina-tersigni', foto: 'cristina-tersigni.webp', bioBreve: { it: 'Coordina la redazione e i progetti editoriali di Ombre e Luci, curando il dialogo tra contenuti e comunità.', en: 'Coordinates the editorial team and projects of Ombre e Luci, nurturing the dialogue between content and community.' } },
-  { nome: 'Matteo Cinti', ruolo: { it: 'Grafica e design', en: 'Graphics and design' }, slug: 'matteo-cinti', foto: 'matteo-cinti.png', bioBreve: { it: "Cura l'identità visiva e la grafica della rivista, in carta e in digitale.", en: 'Responsible for the visual identity and design of the magazine, in print and digital.' } },
-  { nome: 'Franco Manuzio', ruolo: { it: 'Area digital', en: 'Digital' }, slug: 'franco-manuzio', foto: 'franco-manuzio.jpg', bioBreve: { it: "Responsabile dell'area digital, informatizzazione dell'archivio cartaceo e progetti di intelligenza artificiale.", en: 'Responsible for the digital area, digitisation of the print archive and artificial intelligence projects.' } },
+  { nome: 'Giulia Galeotti', ruolo: getCS(cs, 'about_team_galeotti_ruolo', lang, lang === 'it' ? 'Direttore responsabile' : 'Editor-in-chief'), slug: 'giulia-galeotti', foto: 'giulia-galeotti.webp', bioBreve: getCS(cs, 'about_team_galeotti_bio', lang, lang === 'it' ? "Dirige la rivista con uno sguardo attento alla qualità editoriale e ai temi dell'inclusione e della spiritualità." : 'Leads the magazine with a keen eye for editorial quality and themes of inclusion and spirituality.') },
+  { nome: 'Cristina Tersigni', ruolo: getCS(cs, 'about_team_tersigni_ruolo', lang, lang === 'it' ? 'Responsabile editoriale' : 'Editorial director'), slug: 'cristina-tersigni', foto: 'cristina-tersigni.webp', bioBreve: getCS(cs, 'about_team_tersigni_bio', lang, lang === 'it' ? 'Coordina la redazione e i progetti editoriali di Ombre e Luci, curando il dialogo tra contenuti e comunità.' : 'Coordinates the editorial team and projects of Ombre e Luci, nurturing the dialogue between content and community.') },
+  { nome: 'Matteo Cinti', ruolo: getCS(cs, 'about_team_cinti_ruolo', lang, lang === 'it' ? 'Grafica e design' : 'Graphics and design'), slug: 'matteo-cinti', foto: 'matteo-cinti.png', bioBreve: getCS(cs, 'about_team_cinti_bio', lang, lang === 'it' ? "Cura l'identità visiva e la grafica della rivista, in carta e in digitale." : 'Responsible for the visual identity and design of the magazine, in print and digital.') },
+  { nome: 'Franco Manuzio', ruolo: getCS(cs, 'about_team_manuzio_ruolo', lang, lang === 'it' ? 'Area digital' : 'Digital'), slug: 'franco-manuzio', foto: 'franco-manuzio.jpg', bioBreve: getCS(cs, 'about_team_manuzio_bio', lang, lang === 'it' ? "Responsabile dell'area digital, informatizzazione dell'archivio cartaceo e progetti di intelligenza artificiale." : 'Responsible for the digital area, digitisation of the print archive and artificial intelligence projects.') },
 ];
 
 const storica = [
@@ -185,8 +169,8 @@ function iniziali(nome: string): string {
                   <span class="redazione-photo-fallback">{iniziali(r.nome)}</span>
                 </div>
                 <h3 class="redazione-card-nome"><a href={lang === 'en' ? `/en/authors/${r.slug}` : `/it/autori/${r.slug}`}>{r.nome}</a></h3>
-                <p class="redazione-card-ruolo">{r.ruolo[lang]}</p>
-                <p class="redazione-card-bio">{r.bioBreve[lang]}</p>
+                <p class="redazione-card-ruolo">{r.ruolo}</p>
+                <p class="redazione-card-bio">{r.bioBreve}</p>
                 <a href={lang === 'en' ? `/en/authors/${r.slug}` : `/it/autori/${r.slug}`} class="redazione-leggi-piu">{t(lang, 'about_read_more')}</a>
               </article>
             ))}

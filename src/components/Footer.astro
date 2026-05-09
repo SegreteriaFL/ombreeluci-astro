@@ -4,6 +4,7 @@ import { getThemesWithSlugs, getCategoriaLabel, getCategoriaUrlSlug } from '../c
 import rubricheData from '../data/rubriche.json';
 import { RUNTS, CODICE_FISCALE } from '../config/support.ts';
 import { getLangFromUrl, t } from '../utils/i18n';
+import { getContenutiStatici, getCS } from '../lib/directus';
 
 interface Props {
   pathname?: string;
@@ -11,6 +12,9 @@ interface Props {
 }
 const { pathname = '/', lang: langProp } = Astro.props;
 const lang = langProp ?? getLangFromUrl(pathname);
+
+// Contenuti statici da Directus
+const cs = await getContenutiStatici('footer');
 
 const catBase = lang === 'en' ? '/en/category' : '/it/categoria';
 const catSlug = (itSlug: string) => getCategoriaUrlSlug(itSlug, lang);
@@ -53,18 +57,18 @@ const socialLinks = [
   { nome: 'TikTok', url: '#', icon: 'tiktok' },
 ];
 const homeHref = lang === 'en' ? '/en/' : '/';
-const footerLegalText =
+const footerLegalText = getCS(cs, 'footer_legal_text', lang,
   lang === 'en'
     ? 'Quarterly magazine. Registered publication at the Court of Rome, registration no. 1 of January 16, 2020. Editorial office and administration: Via dei Cessati Spiriti 3, 00185 Rome.'
-    : 'Rivista trimestrale. Testata registrata presso il Tribunale di Roma, iscrizione n. 1 del 16 gennaio 2020. Direzione, redazione e amministrazione: Via dei Cessati Spiriti 3, 00185 Roma.';
-const footerCcText =
+    : 'Rivista trimestrale. Testata registrata presso il Tribunale di Roma, iscrizione n. 1 del 16 gennaio 2020. Direzione, redazione e amministrazione: Via dei Cessati Spiriti 3, 00185 Roma.');
+const footerCcText = getCS(cs, 'footer_cc_text', lang,
   lang === 'en'
     ? '(c) 1974-2026 Unless otherwise indicated, the content of this site is licensed under'
-    : '(c) 1974-2026 Eccetto dove diversamente indicato, il contenuto di questo sito è concesso in licenza';
-const ccLicenseLabel =
+    : '(c) 1974-2026 Eccetto dove diversamente indicato, il contenuto di questo sito è concesso in licenza');
+const ccLicenseLabel = getCS(cs, 'footer_cc_license_label', lang,
   lang === 'en'
     ? 'Creative Commons: Attribution - NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)'
-    : 'Creative Commons: Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0)';
+    : 'Creative Commons: Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0)');
 ---
 
 <div class="footer-reveal-wrap">

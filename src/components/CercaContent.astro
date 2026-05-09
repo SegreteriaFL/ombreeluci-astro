@@ -5,11 +5,15 @@
  * Legge ?q= dall'URL per pre-popolare la ricerca (bridge con autocomplete header).
  */
 import { t, type Locale } from '../utils/i18n';
+import { getContenutiStatici, getCS } from '../lib/directus';
 
 interface Props {
   lang: Locale;
 }
 const { lang } = Astro.props;
+
+// Contenuti statici da Directus
+const cs = await getContenutiStatici('varie');
 
 const appId     = import.meta.env.PUBLIC_ALGOLIA_APP_ID     ?? '';
 const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
@@ -17,7 +21,7 @@ const searchKey = import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY ?? '';
 const LABELS = {
   it: {
     title: 'Cerca',
-    description: 'Articoli, autori e numeri della rivista Ombre e Luci dal 1975 a oggi.',
+    description: getCS(cs, 'cerca_description', 'it', 'Articoli, autori e numeri della rivista Ombre e Luci dal 1975 a oggi.'),
     placeholder: 'Cerca nel sito…',
     noResults: 'Nessun risultato.',
     noResultsHint: 'Prova con termini diversi o meno specifici.',
@@ -30,7 +34,7 @@ const LABELS = {
   },
   en: {
     title: 'Search',
-    description: 'Articles, authors and magazine issues from 1975 to today.',
+    description: getCS(cs, 'cerca_description', 'en', 'Articles, authors and magazine issues from 1975 to today.'),
     placeholder: 'Search…',
     noResults: 'No results.',
     noResultsHint: 'Try different or broader terms.',

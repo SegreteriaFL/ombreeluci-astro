@@ -114,6 +114,15 @@ Main staging (deployato da main) non ha questo problema.
 | Commit | Area | Fix |
 |--------|------|-----|
 | (commit) | **BACKFILL-DATES** | Aggiornati timestamp `data_pubblicazione` da `T00:00:00` a timestamp completo con ore:minuti:secondi. Fonte: `scripts_and_data/datasets/articoli/articoli_semantici_FULL_2026.json` campo `meta.date`, matching per `wp_id`. **3.459 articoli aggiornati, 0 errori, 39 saltati** (articoli EN post-import con wp_id non presente in FULL_2026). Batch da 50 con pausa 1s. Effetto: ordinamento articoli per numero rivista ora deterministico (i timestamp del 2026-09-02 che prima erano tutti `T00:00:00` ora hanno ore:minuti:secondi diversi → ordine stabile). Verifica OEL-47: 9 articoli con timestamp distinti, ordine decrescente corretto (wp_id 5844→9681→9727→9723→9720→9717→9715→9713→9708). Script: `scripts/backfill-dates.mjs`. Log dryrun: `scripts/logs/backfill-dates-2026-05-09T02-34-49-dryrun.csv`. Log reale: `scripts/logs/backfill-dates-2026-05-09T02-36-12.csv`. |
+| (API Directus) | **BACKFILL-DATES-EN** ✅ | Aggiornati timestamp `data_pubblicazione` articoli EN da `T00:00:00` a timestamp completo. **3.379 articoli EN aggiornati, 75 già con timestamp corretto (SKIP)**. Script: `scripts/backfill-dates-en.mjs`. Log dryrun: `scripts/logs/backfill-dates-en-2026-05-09T02-44-57-dryrun.csv`. Log reale: `scripts/logs/backfill-dates-en-2026-05-09T02-48-54.csv`. |
+
+---
+
+## Fix recenti (2026-05-09) — STATIC-01
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| (API Directus + codice) | **STATIC-01** ✅ | Collection `contenuti_statici` in Directus per testi modificabili dalla redazione. **Fase 1 — Schema:** collection creata con 6 campi (chiave unique, valore_it, valore_en, tipo, gruppo, ordine). Permessi: READ+UPDATE per Redazione (solo valore_it/en), READ pubblico per frontend. **Fase 2 — Popolamento:** 76 record creati (44 chi-siamo, 14 sostienici, 3 footer, 1 varie, 14 categorie). **Fase 3 — API layer:** `getContenutiStatici(gruppo?)` e `getCS(contenuti, chiave, lang, fallback)` in `src/lib/directus.ts`. **Fase 4 — Frontend:** componenti aggiornati per leggere da Directus con fallback inline: `ChiSiamoContent.astro`, `SostienicContent.astro`, `FaqAccordion.astro`, `Footer.astro`, `CercaContent.astro`, `CategoriaPageContent.astro`. **Gate:** build verde, tsc verde, accesso pubblico Directus verificato. |
 
 ---
 

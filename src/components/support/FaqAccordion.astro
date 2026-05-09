@@ -1,55 +1,38 @@
 ---
 import { EMAIL } from '../../config/support.ts';
+import { getContenutiStatici, getCS } from '../../lib/directus';
 
 interface Props {
   lang?: 'it' | 'en';
 }
 const { lang = 'it' } = Astro.props;
 
+// Contenuti statici da Directus
+const cs = await getContenutiStatici('sostienici');
+
 interface Item {
   q: string;
   a: string;
 }
 
-const itemsIT: Item[] = [
+const items: Item[] = [
   {
-    q: 'Ricevuta o detraibilità?',
-    a: `Siamo un ETS. Se ti serve attestazione scrivici a ${EMAIL}.`,
+    q: getCS(cs, 'support_faq_1_q', lang, lang === 'it' ? 'Ricevuta o detraibilità?' : 'Receipt or tax deduction?'),
+    a: getCS(cs, 'support_faq_1_a', lang, lang === 'it' ? `Siamo un ETS. Se ti serve attestazione scrivici a ${EMAIL}.` : `We are an ETS registered in Italy. For documentation write to us at ${EMAIL}.`),
   },
   {
-    q: 'Donazione ricorrente senza PayPal?',
-    a: 'Puoi impostare un bonifico ricorrente dalla tua banca (mensile o altro).',
+    q: getCS(cs, 'support_faq_2_q', lang, lang === 'it' ? 'Donazione ricorrente senza PayPal?' : 'Recurring donation without PayPal?'),
+    a: getCS(cs, 'support_faq_2_a', lang, lang === 'it' ? 'Puoi impostare un bonifico ricorrente dalla tua banca (mensile o altro).' : 'You can set up a recurring bank transfer (monthly or otherwise).'),
   },
   {
-    q: "Dall'estero?",
-    a: 'Contattaci e ti indichiamo il modo più semplice.',
+    q: getCS(cs, 'support_faq_3_q', lang, lang === 'it' ? "Dall'estero?" : 'Donating from abroad?'),
+    a: getCS(cs, 'support_faq_3_a', lang, lang === 'it' ? 'Contattaci e ti indichiamo il modo più semplice.' : "Contact us and we'll suggest the simplest way."),
   },
   {
-    q: 'Come disdire?',
-    a: 'Da PayPal (nel tuo account) o annullando il bonifico ricorrente in banca.',
-  },
-];
-
-const itemsEN: Item[] = [
-  {
-    q: 'Receipt or tax deduction?',
-    a: `We are an ETS registered in Italy. For documentation write to us at ${EMAIL}.`,
-  },
-  {
-    q: 'Recurring donation without PayPal?',
-    a: 'You can set up a recurring bank transfer (monthly or otherwise).',
-  },
-  {
-    q: 'Donating from abroad?',
-    a: "Contact us and we'll suggest the simplest way.",
-  },
-  {
-    q: 'How to cancel?',
-    a: 'Via PayPal (in your account) or by cancelling the recurring bank transfer with your bank.',
+    q: getCS(cs, 'support_faq_4_q', lang, lang === 'it' ? 'Come disdire?' : 'How to cancel?'),
+    a: getCS(cs, 'support_faq_4_a', lang, lang === 'it' ? 'Da PayPal (nel tuo account) o annullando il bonifico ricorrente in banca.' : 'Via PayPal (in your account) or by cancelling the recurring bank transfer with your bank.'),
   },
 ];
-
-const items = lang === 'en' ? itemsEN : itemsIT;
 ---
 
 <div class="faq-accordion" role="region" aria-label="Domande frequenti">

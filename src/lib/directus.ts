@@ -830,3 +830,56 @@ function normalizeVerticale(v: Verticale): Verticale {
       .sort((a, b) => (a.ordine ?? 0) - (b.ordine ?? 0)),
   };
 }
+
+// ── Contenuti Statici ─────────────────────────────────────────────────────────
+
+export interface ContenutoStatico {
+  chiave: string;
+  valore_it: string | null;
+  valore_en: string | null;
+  tipo: 'testo' | 'paragrafo' | 'html';
+  gruppo: string;
+  ordine: number | null;
+}
+
+/**
+ * Recupera tutti i contenuti statici, opzionalmente filtrati per gruppo.
+ * Ritorna un dizionario chiave → record per accesso O(1).
+ */
+export async function getContenutiStatici(
+  gruppo?: string,
+  creds?: DirectusRuntimeCreds
+): Promise<Record<string, ContenutoStatico>> {
+  const params = new URLSearchParams({
+    'fields[]': 'chiave,valore_it,valore_en,tipo,gruppo,ordine',
+    'limit': '-1',
+  });
+  if (gruppo) {
+    params.set('filter[gruppo][_eq]', gruppo);
+  }
+  const data = await directusFetch<{ data: ContenutoStatico[] }>(
+    `/items/contenuti_statici?${params}`,
+    creds
+  );
+  return Object.fromEntries(
+    (data?.data ?? []).map((c: ContenutoStatico) => [c.chiave, c])
+  );
+}
+
+/**
+ * Helper per leggere un contenuto statico con fallback.
+ * @param contenuti - dizionario da getContenutiStatici()
+ * @param chiave - chiave del contenuto
+ * @param lang - lingua ('it' o 'en')
+ * @param fallback - valore di fallback se il contenuto non esiste
+ */
+export function getCS(
+  contenuti: Record<string, ContenutoStatico>,
+  chiave: string,
+  lang: 'it' | 'en',
+  fallback = ''
+): string {
+  const c = contenuti[chiave];
+  if (!c) return fallback;
+  return (lang === 'en' ? c.valore_en : c.valore_it) ?? c.valore_it ?? fallback;
+}

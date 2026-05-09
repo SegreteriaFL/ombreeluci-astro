@@ -1,5 +1,6 @@
 ---
 import { t, type Locale } from '../utils/i18n';
+import { getContenutiStatici, getCS } from '../lib/directus';
 import SupportHero from './support/SupportHero.astro';
 import CopyField from './support/CopyField.astro';
 import FaqAccordion from './support/FaqAccordion.astro';
@@ -23,32 +24,21 @@ interface Props {
 
 const { lang } = Astro.props;
 
+// Contenuti statici da Directus
+const cs = await getContenutiStatici('sostienici');
+
 const heroImages = ['/images/dona1.webp', '/images/dona2.webp', '/images/dona3.webp', '/images/dona4.webp', '/images/dona7.webp'];
 
-const impactItems = {
-  it: [
-    'Pubblicazione e lavoro editoriale',
-    'Sito e archivio',
-    'Stampa e spedizione dei numeri',
-    'Progetti e attività collegati a Fede e Luce',
-  ],
-  en: [
-    'Publication and editorial work',
-    'Website and archive',
-    'Printing and distribution of issues',
-    'Projects and activities linked to Fede e Luce',
-  ],
-}[lang];
+const impactItems = [
+  getCS(cs, 'support_impact_item_1', lang, lang === 'it' ? 'Pubblicazione e lavoro editoriale' : 'Publication and editorial work'),
+  getCS(cs, 'support_impact_item_2', lang, lang === 'it' ? 'Sito e archivio' : 'Website and archive'),
+  getCS(cs, 'support_impact_item_3', lang, lang === 'it' ? 'Stampa e spedizione dei numeri' : 'Printing and distribution of issues'),
+  getCS(cs, 'support_impact_item_4', lang, lang === 'it' ? 'Progetti e attività collegati a Fede e Luce' : 'Projects and activities linked to Fede e Luce'),
+];
 
-const heroTitle = {
-  it: 'Sostieni Ombre e Luci',
-  en: 'Support Ombre e Luci',
-}[lang];
+const heroTitle = getCS(cs, 'support_hero_title', lang, lang === 'it' ? 'Sostieni Ombre e Luci' : 'Support Ombre e Luci');
 
-const heroSubtitle = {
-  it: 'Aiutaci a tenere accesa la luce',
-  en: 'Help us keep the light burning',
-}[lang];
+const heroSubtitle = getCS(cs, 'support_hero_subtitle', lang, lang === 'it' ? 'Aiutaci a tenere accesa la luce' : 'Help us keep the light burning');
 ---
 
 <div id="support-toast" class="support-toast" role="status" aria-live="polite" aria-hidden="true">
