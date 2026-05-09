@@ -93,6 +93,20 @@ Main staging (deployato da main) non ha questo problema.
 
 ---
 
+## Fix recenti (2026-05-09) — SPRINT-02
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| (codice) | **ISSUECARD-LCP** ✅ | Ottimizzazione lazy loading per LCP: `IssueCard.astro` con prop `index`, prime 6 card `loading="eager"`, resto `loading="lazy"`. `ArchivioContent.astro` passa `index={idx}` a ogni card. Build verde. |
+| (script) | **VERIFY-REDIRECTS** ✅ | Script `scripts/verify-redirects.mjs` creato per testare 1001 redirect legacy pre-cutover. **Esito staging: 100% 404 (expected)** — il middleware in `src/middleware.ts` redirige a `https://ombreeluci.it` (produzione), non a staging. I redirect funzionano tramite CF Worker in produzione. Script utile per test post-cutover su dominio produzione, non su staging. Report generato in `scripts/logs/verify-redirects-*.json`. |
+| (investigazione) | **PREVIEW-DIR-2** ⚠️ | Pulsante anteprima Directus: `preview_url` correttamente configurato (`https://ombreeluci-staging.pages.dev/it/{{slug}}/`). Possibili cause mancato funzionamento: popup blocker browser, comportamento UI Directus 11. Richiede test manuale con popup blocker disabilitato. |
+| (investigazione) | **LIST-PREVIEW** ⚠️ | Link diretto in lista articoli Directus: limitazione strutturale — `display_template` non supporta link cliccabili. Workaround: aggiungere colonna `slug` nella tabella lista e usarla per navigare manualmente. |
+| (codice + Directus) | **ALGOLIA-05** ✅ | Webhook sync Directus→Algolia implementato. **Endpoint:** `src/pages/api/algolia-sync.ts` — accetta POST `{ id, action: 'update'|'delete' }`, auth via `Authorization: Bearer ALGOLIA_SYNC_SECRET`. Fetch full article da Directus, se published aggiorna index `oel_articoli`, se non-published rimuove. Aggiorna anche articolo EN collegato. **Flow Directus:** "Algolia sync su pubblicazione" (id: `c09762f8-b022-41c0-a76a-5bbbd1f516a0`) — trigger `items.update`+`items.create` su articoli, condition `payload.stato = published`, HTTP request a webhook. **Secret da aggiungere a CF Pages:** `ALGOLIA_SYNC_SECRET=f28d04c5fa6d05393f36fbb9e23ef89d40bb16cb216da0248ea57ec421e22f8f`. Script setup: `scripts/setup-algolia-flow.mjs`. |
+| (codice) | **EVIDENZA-RECENTI** ✅ | `getArticoliInEvidenza` in directus.ts riscritta: seleziona automaticamente i 4 più recenti con `in_evidenza = true` per la categoria. Filter OR su `categoria_menu`/`categoria_menu_2`, sort `-data_pubblicazione`, limit 4. Non usa più junction table `categorie_articoli`. |
+| (infrastruttura) | **EDIT-BTN-FRONTEND** ⚠️ | CORS Directus non verificabile — richiede accesso Docker (`docker exec oel-cms-directus-1 env | grep CORS`). Da verificare manualmente: `CORS_ORIGIN` deve includere `https://ombreeluci-staging.pages.dev` e `https://ombreeluci.it`, `CORS_CREDENTIALS=true`. |
+
+---
+
 ## Fix recenti (2026-05-09)
 
 | Commit | Area | Fix |

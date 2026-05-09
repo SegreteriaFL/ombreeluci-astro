@@ -547,26 +547,35 @@ export async function getCategoriaDescrizione(slug: string): Promise<{ nome: str
 }
 
 /**
- * Articoli in evidenza per una categoria (selezionati dalla redazione via Directus).
- * Ritorna max 5 articoli ordinati per sort della junction table.
+ * Articoli in evidenza per una categoria.
+ * EVIDENZA-RECENTI: seleziona automaticamente i 4 più recenti tra quelli
+ * con in_evidenza = true e categoria_menu (o categoria_menu_2) = slug.
+ * Ordinati per data_pubblicazione decrescente.
  */
 export async function getArticoliInEvidenza(categoriaSlug: string): Promise<ArticoloListItem[]> {
   const fields = [
-    'articoli_id.id', 'articoli_id.titolo', 'articoli_id.slug', 'articoli_id.sottotitolo',
-    'articoli_id.data_pubblicazione', 'articoli_id.forma',
-    'articoli_id.categoria_menu', 'articoli_id.ruolo_editoriale',
-    'articoli_id.immagine_copertina', 'articoli_id.numero_rivista.id_numero',
-    'articoli_id.autore.nome_completo', 'sort'
+    'id', 'titolo', 'slug', 'sottotitolo', 'data_pubblicazione', 'forma',
+    'categoria_menu', 'categoria_menu_2', 'ruolo_editoriale', 'in_evidenza',
+    'immagine_copertina.id', 'immagine_copertina.filename_download',
+    'numero_rivista.id_numero',
+    'autore.nome_completo', 'autore.slug'
   ].join(',');
+
+  // Filter: in_evidenza = true AND (categoria_menu OR categoria_menu_2 = slug)
   const params = new URLSearchParams({
-    'filter[categorie_slug][_eq]': categoriaSlug,
-    fields, sort: 'sort', limit: '5'
+    'filter[stato][_eq]': 'published',
+    'filter[in_evidenza][_eq]': 'true',
+    'filter[_or][0][categoria_menu][_eq]': categoriaSlug,
+    'filter[_or][1][categoria_menu_2][_eq]': categoriaSlug,
+    fields,
+    sort: '-data_pubblicazione',
+    limit: '4'
   });
-  const data = await directusFetch<{ data: { articoli_id: ArticoloListItem; sort: number }[] }>(
-    `/items/categorie_articoli?${params}`
+
+  const data = await directusFetch<{ data: ArticoloListItem[] }>(
+    `/items/articoli?${params}`
   );
-  if (!data) return [];
-  return (data.data ?? []).map((r) => r.articoli_id).filter(Boolean);
+  return data?.data ?? [];
 }
 
 // ── Commenti ──────────────────────────────────────────────────────────────────

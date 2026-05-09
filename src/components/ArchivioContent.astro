@@ -81,7 +81,7 @@ const ultimoIssueHref = `${archiveBase}/${ultimoSlug}`;
 
     <!-- Griglia numeri -->
     <div class="issues-grid" id="issues-grid">
-      {numeriOrdinati.map((n) => {
+      {numeriOrdinati.map((n, idx) => {
         const anno = n.anno_pubblicazione ?? 0;
         const numero = numeroFromId(n.id_numero);
         const tipoFilter = n.tipo === 'ins' ? 'insieme' : 'ombreeluci';
@@ -103,6 +103,7 @@ const ultimoIssueHref = `${archiveBase}/${ultimoSlug}`;
               tipo_rivista={tipoRivista}
               id_numero={n.id_numero}
               lang={lang}
+              index={idx}
             />
           </div>
         );

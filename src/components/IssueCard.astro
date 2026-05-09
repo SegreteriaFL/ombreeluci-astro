@@ -8,9 +8,14 @@ interface Props {
   tipo_rivista: string;
   id_numero: string;
   lang?: string;
+  /** Card index for LCP optimization: first 6 cards use eager loading */
+  index?: number;
 }
 
-const { cover_url, titolo_numero, numero, anno, periodo_label, tipo_rivista, id_numero, lang } = Astro.props;
+const { cover_url, titolo_numero, numero, anno, periodo_label, tipo_rivista, id_numero, lang, index = 99 } = Astro.props;
+
+// First 6 cards (2 rows on desktop) load eagerly for LCP, rest lazy
+const imgLoading = index < 6 ? 'eager' : 'lazy';
 
 const isOEL = tipo_rivista !== 'insieme' && !id_numero.toLowerCase().startsWith('ins');
 
@@ -68,7 +73,7 @@ const metaLine = metaParts.join(' · ');
         src={cover_url}
         alt={`Copertina ${cardTitle}`}
         class="issue-card-image"
-        loading="lazy"
+        loading={imgLoading}
         data-copertina-fallback
       />
     ) : (

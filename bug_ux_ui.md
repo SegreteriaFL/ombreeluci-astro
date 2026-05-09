@@ -111,9 +111,10 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    Endpoint API /api/newsletter, double opt-in, tag pagina sorgente, GA4 tracking.
    2026-05-09.
 
-[] EVIDENZA-RECENTI: gestione "In evidenza" — selezionare automaticamente 
-   solo i 4 più recenti tra quelli flaggati.
-   // file: src/lib/directus.ts getArticoliInEvidenza o equivalente
+[x] EVIDENZA-RECENTI: getArticoliInEvidenza ora seleziona automaticamente
+   i 4 più recenti con in_evidenza=true per la categoria. Filter OR su
+   categoria_menu/categoria_menu_2, sort -data_pubblicazione, limit 4. 2026-05-09.
+   // file: src/lib/directus.ts
 
 
 -------------
@@ -125,11 +126,10 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 [x] UAT-CLEANUP parziale: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
 — FK constraint su directus_files (uploaded_by). Per pulizia completa: reassegnare i file dell'utente UAT all'admin (UUID 93c154ca-372c-4f94-8a35-e0fe66850780) via PATCH /files, poi eliminare l'utente. Non urgente — utente già sospeso, non può fare login.
 // via: Directus API
-[] Page loader anti-FOUC non funziona al primo caricamento — flash del DOM 
-non sistemato visibile, spinner mai visibile. Script is:inline in <head> 
-probabilmente gira dopo il primo paint. Investigare posizionamento script 
-in BaseLayout.astro.
-// file: src/layouts/BaseLayout.astro (o BaseHead.astro)
+[x] Page loader anti-FOUC: script spostato a primo figlio di `<head>` con `is:inline`,
+`body { opacity:0 }` + `body.ready { opacity:1 }`, overlay #page-loader con spinner.
+Gestisce View Transitions (astro:before-preparation/page-load). Commit add83081 + 15a7bcd6.
+// file: src/layouts/BaseLayout.astro
 [x] transizioni tra una pagina e l'altra morbide e eleganti (732d8280)
 [x] transizioni entrata in pagina articolo: titolo .2s, sottotitolo+meta .3s, hero .4s, body .5s — @keyframes article-entry in ArticlePageLayout.astro, solo >=691px, zero JS
 [x] in article-badge-link mancano /it/ e in alcuni casi anche /en/ — fix incluso in B-14; verificato su staging IT+EN, tutti i badge link hanno prefisso lingua corretto
@@ -149,7 +149,10 @@ in BaseLayout.astro.
 [x] tag negli articoli potrebbero non avere it e en? e rimandare a pagine tipo https://ombreeluci-staging.pages.dev/tag/lucio-corsi --> 404? (fix: /it/tag/ mancava in it/[slug].astro — solo EN aveva il prefisso corretto)
 [x] social share icons pagina articolo: posizione, sticky, fade-in (branch feat/social-sticky-v2 — position:sticky CSS-nativo, IntersectionObserver fade-in al primo <p>, hover fill per piattaforma, 6 icone)
 
-[] ingrandire testi mobile
+[x] ingrandire testi mobile — global.css @media 768px: h1 2rem, h2 1.5rem, h3 1.25rem,
+   h4 1.1rem, p/li 1.125rem + line-height 1.7. ArticlePageLayout.astro 768px:
+   .article-subtitle 1.125rem, .article-content p 1.125rem + line-height 1.75.
+   Commit 92c3904a + e98a5e54 + e665c964.
 [] lancira veririfica prima del golive speed test site e correzioni errori
 [] lanciare verifica prima del golive errori in consolle f12
 
@@ -181,10 +184,10 @@ in BaseLayout.astro.
 
 
 ## archivio
-[] IssueCard: immagini copertina senza loading="lazy" — tutte le ~200 copertine 
-si caricano in parallelo, appaiono tutte insieme dopo ~1.5s. Fix: aggiungere 
-loading="lazy" su <img> in IssueCard.astro. Abbinare a PF-02 (Cache-Control R2).
-// file: src/components/IssueCard.astro
+[x] IssueCard: immagini copertina con loading ottimizzato per LCP — prime 6 card
+   (2 righe desktop) loading="eager", resto loading="lazy". Prop `index` passa
+   da ArchivioContent.astro. 2026-05-09.
+// file: src/components/IssueCard.astro, src/components/ArchivioContent.astro
 [x] .issue-card[data-astro-cid-afktgyng] disattiva background (732d8280)
 // file: src/components/IssueCard.astro
 [x] associare box shadow e border radius all'img issue-card-image (732d8280)
