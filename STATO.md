@@ -126,6 +126,14 @@ Main staging (deployato da main) non ha questo problema.
 
 ---
 
+## Fix recenti (2026-05-09) — DATA-DEFAULT
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| (trigger PostgreSQL) | **DATA-DEFAULT** ✅ | Trigger `articoli_data_default_trigger` su tabella `articoli`: se `data_pubblicazione` è NULL all'INSERT, imposta automaticamente `NOW()`. Function: `articoli_data_default_fn()`. Testato: articolo creato senza data → `data_pubblicazione` popolato automaticamente. Articolo test eliminato. Trigger verificato in `information_schema.triggers`. |
+
+---
+
 ## Fix recenti (2026-05-09) — OEL-46/OEL-47
 
 ### Audit ordinamento articoli OEL-47 (2026-05-09)
