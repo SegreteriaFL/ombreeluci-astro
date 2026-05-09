@@ -52,6 +52,9 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 [x] ARCHIVAL-ALERT: soglie progressive 10/20/30 anni in it/[slug].astro + en/[slug].astro. 2026-05-09.
 
+[x] AUTOCOMPLETE-POSITION: dropdown autocomplete appariva in fondo alla pagina invece che sotto la searchbox.
+   Fix: aggiunto `position: relative` a `#aa-container` in AutocompleteWidget.astro. 2026-05-09.
+
 [] CORRELATI-EDIT: nessun modo per correggere correlati sbagliati o vecchi 
    dalla redazione. Valutare campo override manuale in Directus.
    // architettura da definire
@@ -78,10 +81,9 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    nell'articolo (upload multiplo).
    // via: Directus field configuration
 
-[] TESTI-STATICI: come modificare testi non-articolo (descrizioni categorie, 
-   testi homepage). Decidere architettura: collection Directus dedicata 
-   vs testo nel codice.
-   // architettura da definire
+[x] TESTI-STATICI: collection `contenuti_statici` in Directus (STATIC-01).
+   76 record per chi-siamo, sostienici, footer, cerca, categorie.
+   API: `getContenutiStatici()` + `getCS()` in directus.ts. 2026-05-09.
 
 [] NL-MAILCHIMP: form newsletter da collegare a Mailchimp.
    // uuid: 00c5dad63480d9601563b5692, lid: efd099264d
