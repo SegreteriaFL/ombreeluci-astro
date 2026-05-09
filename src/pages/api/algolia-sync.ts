@@ -150,10 +150,8 @@ export const POST: APIRoute = async ({ request, locals }) => {
 
   if (!syncSecret || providedSecret !== syncSecret) {
     console.error('ALGOLIA-SYNC: Invalid or missing secret');
-    // Debug: indicate which check failed
-    const debugInfo = !syncSecret ? 'secret_not_configured' : 'secret_mismatch';
     return new Response(
-      JSON.stringify({ ok: false, error: 'unauthorized', debug: debugInfo }),
+      JSON.stringify({ ok: false, error: 'unauthorized' }),
       { status: 401, headers: { 'Content-Type': 'application/json' } }
     );
   }
@@ -162,15 +160,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
   if (!algoliaAppId || !algoliaApiKey) {
     console.error('ALGOLIA-SYNC: Missing Algolia credentials');
     return new Response(
-      JSON.stringify({
-        ok: false,
-        error: 'server_config_error',
-        debug: {
-          hasAppId: !!algoliaAppId,
-          hasApiKey: !!algoliaApiKey,
-          hasDirectusToken: !!directusToken
-        }
-      }),
+      JSON.stringify({ ok: false, error: 'server_config_error' }),
       { status: 500, headers: { 'Content-Type': 'application/json' } }
     );
   }
