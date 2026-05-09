@@ -93,6 +93,24 @@ Main staging (deployato da main) non ha questo problema.
 
 ---
 
+## Fix recenti (2026-05-09) — Session 2
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| (API Directus) | **ALGOLIA-05-FIX** ✅ | Flow "Algolia sync su pubblicazione" non scattava su aggiornamenti articoli già pubblicati. **Causa:** condition `payload.stato === 'published'` passa solo quando si cambia lo stato, non quando si modifica titolo/corpo di articolo già published. **Fix:** rimossa condition (filtro vuoto `{}`). L'endpoint `/api/algolia-sync` gestisce già articoli non-published (li rimuove dall'indice). Test manuale: articolo `lanno-della-disabilita-nelle-serie-tv` aggiornato OK. |
+| (codice) | **EDIT-BTN-FIX** ✅ | Pulsante "Modifica in Directus" non appariva. **Causa:** i cookie di sessione Directus non vengono inviati cross-site (manca `SameSite=None` sul server). **Fix pragmatico:** `EditorialFeedback.astro` ora mostra sempre il pulsante (`hidden = false`). L'utente vedrà il login Directus se non loggato. Il box feedback editoriale rimane nascosto (richiede auth funzionante). |
+| (API Directus) | **FILTRI-LISTA-2** ✅ | Nascosti dai filtri Directus i campi `slug`, `id`, `wp_id`, `original_url` con `searchable: false`. (In aggiunta ai 9 già nascosti in FILTRI-LISTA.) |
+
+### Note per la redazione (comportamenti by design)
+
+| Comportamento | Spiegazione |
+|---------------|-------------|
+| **Homepage slider** | L'homepage è SSG (Static Site Generation): si aggiorna solo al rebuild notturno automatico o manuale. Modificare un articolo in Directus non cambia la homepage istantaneamente. Workaround: triggera rebuild da CF Pages o attendi il cron notturno. |
+| **"Salva e rimani"** | Directus 11 non ha un'opzione globale per "Salva e rimani". Ogni redattore può impostarlo nel proprio profilo: icona utente → Preferences → Default Save Behavior. È una preferenza personale, non di sistema. |
+| **Filtri memorizzati** | Directus memorizza i filtri per sessione utente. È comportamento nativo non disattivabile. I filtri si resettano chiudendo il browser o facendo logout. |
+
+---
+
 ## Fix recenti (2026-05-09) — SPRINT-02
 
 | Commit | Area | Fix |

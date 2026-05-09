@@ -89,12 +89,13 @@ const directusEditUrl = articoloId
   }
 
   async function initEditorialFeedback() {
-    const isAuth = await checkDirectusAuth();
-
-    // Edit button
+    // Edit button: sempre visibile — l'utente vedrà il login Directus se non loggato
+    // (i cookie di sessione Directus non vengono inviati cross-site senza SameSite=None)
     const editBtn = document.getElementById('directus-edit-btn');
-    if (editBtn) editBtn.hidden = !isAuth;
+    if (editBtn) editBtn.hidden = false;
 
+    // Box feedback: richiede auth cross-site (funziona solo con SameSite=None sul server)
+    const isAuth = await checkDirectusAuth();
     const box = document.getElementById('editorial-feedback-box');
     if (!box) return;
     box.hidden = !isAuth;

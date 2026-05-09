@@ -37,7 +37,7 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 [x] AUTORE-FILTER: nessun filtro attivo su campo autore — tutti gli autori visibili. Nessuna modifica necessaria. 2026-05-09.
 
-[x] FILTRI-LISTA: searchable:false su umap_x/y/z, cluster_id, wp_id, original_url, json_export, json_traduzione, articolo_traduzione. 2026-05-09.
+[x] FILTRI-LISTA: searchable:false su umap_x/y/z, cluster_id, wp_id, original_url, json_export, json_traduzione, articolo_traduzione, slug, id. 2026-05-09.
 
 [x] SLUG-AUTORE: autori.slug reso nullable (era NOT NULL). Interfaccia slug auto-genera da nome_completo. Nota campo aggiornata. 2026-05-09.
 
@@ -56,11 +56,11 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    rapida con link https://ombreeluci-staging.pages.dev/it/{{slug}}/
    // via: Directus display template o custom action su collection
 
-[x] EDIT-BTN-FRONTEND: CORS Directus verificato via SSH 2026-05-09.
-   Config OK: CORS_ORIGIN include staging+prod, CORS_CREDENTIALS=true.
-   Se pulsante non appare, problema è nel frontend (cookies cross-origin
-   o rilevamento sessione), non nel CORS server-side.
-   // file: src/pages/it/[slug].astro o ArticlePageLayout.astro
+[x] EDIT-BTN-FRONTEND: Pulsante ora sempre visibile. 2026-05-09.
+   CORS server-side OK. Cookie sessione non inviati cross-site (manca SameSite=None).
+   Fix pragmatico: EditorialFeedback.astro mostra sempre il pulsante (hidden=false).
+   L'utente vede login Directus se non loggato. Box feedback richiede auth funzionante.
+   // file: src/components/EditorialFeedback.astro
 
 [] UAT-PULIZIA: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
    per FK constraint su directus_files. Reassegnare file all'admin 
