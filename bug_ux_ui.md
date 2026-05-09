@@ -56,14 +56,11 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    rapida con link https://ombreeluci-staging.pages.dev/it/{{slug}}/
    // via: Directus display template o custom action su collection
 
-[] EDIT-BTN-FRONTEND: pulsante "Modifica in Directus" non appare
-   sul frontend degli articoli anche quando loggati su cms.ombreeluci.it.
-   Il sistema usa fetch /users/me con credentials:include per rilevare
-   il login — verificare CORS Directus (CORS_ORIGIN deve includere
-   ombreeluci-staging.pages.dev) e che il cookie di sessione
-   Directus sia inviato cross-origin.
+[x] EDIT-BTN-FRONTEND: CORS Directus verificato via SSH 2026-05-09.
+   Config OK: CORS_ORIGIN include staging+prod, CORS_CREDENTIALS=true.
+   Se pulsante non appare, problema è nel frontend (cookies cross-origin
+   o rilevamento sessione), non nel CORS server-side.
    // file: src/pages/it/[slug].astro o ArticlePageLayout.astro
-   // via: Directus docker-compose.yml CORS_ORIGIN
 
 [] UAT-PULIZIA: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
    per FK constraint su directus_files. Reassegnare file all'admin 
