@@ -111,6 +111,14 @@ Main staging (deployato da main) non ha questo problema.
 
 ## Fix recenti (2026-05-09) — OEL-46/OEL-47
 
+### Audit ordinamento articoli OEL-47 (2026-05-09)
+
+**Verifica 1 — Articolo anomalo `confessione`:** è un articolo distinto da `catechesi-disabilita-confessione`. Dati: `confessione` (titolo: "Confessione", wp_id=5844, data=1994-09-07, UUID=`d1ce8ae1…`) vs `catechesi-disabilita-confessione` (titolo: "Catechesi e disabilità: la Confessione", wp_id=9717, data=1994-09-02, UUID=`92e6c3be…`). Stesso tema (sacramento della confessione e disabilità) ma articoli separati importati da WP.
+
+**Verifica 2 — Timestamp WordPress:** lo snapshot (`articoli_snapshot.json`) conferma che i timestamp importati da WP hanno granularità al **solo giorno** (`T00:00:00`) per tutti e 9 gli articoli OEL-47. Non esiste nessun campo aggiuntivo con ore/minuti/secondi: i soli campi data disponibili sono `data_pubblicazione` (importato) e nessun `wp_date_gmt` o equivalente. L'import da WordPress ha perso la granularità oraria. Conseguenza: 7 degli 8 articoli del 1994-09-02 hanno timestamp identico → **ordine tra questi articoli non deterministico** con l'attuale `sort: -data_pubblicazione`. Per ordinare secondo il sommario cartaceo serve un campo `sort` manuale dedicato (non implementato).
+
+**Ordinamento OEL-47 per wp_id ascendente** (possibile proxy dell'ordine di pubblicazione WP): `dialogo-aperto-n-47` (9708) → `per-tutte-le-sabine-del-mondo` (9713) → `come-costruire-il-futuro-delle-persone-disabili` (9715) → `catechesi-disabilita-confessione` (9717) → `non-vuole-piu-andare-a-messa` (9720) → `un-fardello-pesante` (9723) → `ferie-dagosto` (9727) — poi `vita-fede-e-luce-n-47` (9681) e `confessione` (5844, probabilmente articolo generico riassegnato).
+
 | Commit | Area | Fix |
 |--------|------|-----|
 | (API Directus + commit) | **OEL-46/OEL-47** | Metadati aggiornati: **OEL-47** "Non escludiamoli dalla nostra vita" (periodo "Luglio–Agosto–Settembre 1994", anno=1994, nr_progressivo=47, pdf/archive URL); **OEL-46** "Andiamo a giocare" (periodo "Aprile–Maggio–Giugno 1994", anno=1994, nr_progressivo=46, pdf/archive URL). Articoli: tutti 8/8 trovati per OEL-47 e 8/8 per OEL-46. **Anomalia rilevata:** tutti gli articoli di OEL-46 e OEL-47 erano già assegnati a OEL-48 (`4679dd4e…`, "Non vergognatevi di essere felici") per errore di import; `quando-il-gioco-e-difficile-o-impossibile` era su OEL-144. Riassegnazione eseguita perché si tratta di errori sistematici di import (articoli su "giochi" non possono essere in OEL-48). OEL-48 rimane con 41 articoli propri non toccati. Conteggi finali: OEL-47 = **9 articoli**, OEL-46 = **10 articoli**. Pagine SSR — visibili immediatamente: `/it/archivio/oel-47/`, `/it/archivio/oel-46/`. |
