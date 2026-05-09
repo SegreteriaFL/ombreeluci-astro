@@ -56,7 +56,11 @@ const lang = headProps.lang ?? 'it';
   <head>
     <script is:inline>
       (function () {
+        var inIframe = (function () { try { return window.self !== window.top; } catch (e) { return true; } })();
+        if (!inIframe) document.documentElement.classList.add('page-loading');
+
         function ready() {
+          document.documentElement.classList.remove('page-loading');
           var loader = document.getElementById('page-loader');
           document.body.classList.add('ready');
           if (loader) {
@@ -67,10 +71,10 @@ const lang = headProps.lang ?? 'it';
           }
         }
 
-        // Script gira in <head> — readyState è sempre 'loading' qui
         document.addEventListener('DOMContentLoaded', ready);
 
         document.addEventListener('astro:before-preparation', function () {
+          if (!inIframe) document.documentElement.classList.add('page-loading');
           document.body.classList.remove('ready');
           if (!document.getElementById('page-loader')) {
             var newLoader = document.createElement('div');

@@ -341,9 +341,10 @@ div.evidenziazione {
   font-style: italic;
 }
 
-/* Page loader — elimina FOUC */
+/* Page loader — elimina FOUC.
+   opacity:0 applicato solo via JS (html.page-loading) per non bloccare iframe (Directus preview). */
 
-body {
+html.page-loading body {
   opacity: 0;
 }
 
@@ -387,7 +388,7 @@ body.ready {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  body { opacity: 1; }
+  html.page-loading body { opacity: 1; }
   #page-loader { display: none; }
   body.ready { transition: none; }
 }
