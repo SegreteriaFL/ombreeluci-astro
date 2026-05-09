@@ -269,7 +269,7 @@ const formaLink = rubricaSlugIT
   : null;
 const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
 const _yearsAgoEn = new Date().getFullYear() - articleDate.getFullYear();
-const archivalYearsAgo = _yearsAgoEn >= 30 ? 30 : _yearsAgoEn >= 20 ? 20 : _yearsAgoEn >= 10 ? 10 : 0;
+const archivalYearsAgo = _yearsAgoEn >= 40 ? 40 : _yearsAgoEn >= 30 ? 30 : _yearsAgoEn >= 20 ? 20 : _yearsAgoEn >= 10 ? 10 : 0;
 const showPubblicatoOnline = !hasIssue;
 
 const { ruolo_editoriale } = getMegaclusterForArticle(articolo);
@@ -558,11 +558,11 @@ const alternates: { lang: string; url: string }[] = [
         </div>
       </div>
 
-      {/* Alert box per contenuti archivistici — soglie progressive 10/20/30 anni */}
+      {/* Alert box per contenuti archivistici — soglie progressive 10/20/30/40 anni */}
       {archivalYearsAgo > 0 && (
         <div class="article-header-wrapper">
           <div class="archival-alert-en">
-            This article was published more than {archivalYearsAgo} years ago.
+            <strong>Archival content:</strong> This article was published more than {archivalYearsAgo} years ago. The language and content reflect the sensitivities of the time.
           </div>
         </div>
       )}
