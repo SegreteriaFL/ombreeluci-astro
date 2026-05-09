@@ -93,6 +93,16 @@ Main staging (deployato da main) non ha questo problema.
 
 ---
 
+## Fix recenti (2026-05-09) — Session 3
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| (API Directus) | **ALGOLIA-05-FIX-2** ✅ | Flow Algolia ancora non scattava. **Causa:** template body usava `{{$trigger.key}}` (non esiste in Directus 11 su `items.update`). **Fix:** corretto a `{{$trigger.keys[0]}}`. Test endpoint OK. |
+| (API Directus) | **OEL-52-EN** ✅ | 11 articoli EN di OEL-52 avevano `numero_rivista` sbagliato (puntavano a un altro numero). Riassegnati al numero corretto `8d50d735-c9d1-4443-9fc9-3f11eec04682`. Verifica: `/it/archivio/oel-52/` ora mostra 12 IT + 12 EN = 24 articoli. |
+| (script) | **VERIFY-REDIRECTS-STAGING** ⚠️ | Test eseguito: 1001 redirect → 100% 404 su staging. **Comportamento atteso:** il middleware redirige a `ombreeluci.it` (produzione), non a staging locale. Lo script serve per test **post-cutover** sul dominio produzione. |
+
+---
+
 ## Fix recenti (2026-05-09) — Session 2
 
 | Commit | Area | Fix |
