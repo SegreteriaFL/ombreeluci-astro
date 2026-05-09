@@ -162,7 +162,15 @@ export const POST: APIRoute = async ({ request, locals }) => {
   if (!algoliaAppId || !algoliaApiKey) {
     console.error('ALGOLIA-SYNC: Missing Algolia credentials');
     return new Response(
-      JSON.stringify({ ok: false, error: 'server_config_error' }),
+      JSON.stringify({
+        ok: false,
+        error: 'server_config_error',
+        debug: {
+          hasAppId: !!algoliaAppId,
+          hasApiKey: !!algoliaApiKey,
+          hasDirectusToken: !!directusToken
+        }
+      }),
       { status: 500, headers: { 'Content-Type': 'application/json' } }
     );
   }
