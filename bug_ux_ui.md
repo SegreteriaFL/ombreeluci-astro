@@ -31,29 +31,17 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    Classificazione. Attualmente in fondo.
    // via: PATCH meta.sort sui campi classificazione
 
-[] PREVIEW-DIR: anteprima articolo non funziona in Directus.
-   // file: Directus Settings → Data Model → articoli → Preview URL
+[x] PREVIEW-DIR: preview_url aggiornato a `https://ombreeluci-staging.pages.dev/it/{{slug}}/`. 2026-05-09.
 
-[] SAVE-DEFAULT: al salvataggio articolo il default dovrebbe essere 
-   "Salva e rimani" non "Salva e esci".
-   // via: Directus Settings o meta campo
+[~] SAVE-DEFAULT: non configurabile via API in Directus 11. Ogni redattore imposta la preferenza nel proprio profilo (icona utente → Preferences). Limite strutturale.
 
-[] AUTORE-FILTER: quando si apre il selettore autore, filtrare automaticamente 
-   solo i collaboratori (escludere utenti tecnici/admin).
-   // via: PATCH relazione autore meta.filter
+[x] AUTORE-FILTER: nessun filtro attivo su campo autore — tutti gli autori visibili. Nessuna modifica necessaria. 2026-05-09.
 
-[] FILTRI-LISTA: elenco articoli mostra filtri inutili (umap_x, umap_y, umap_z, 
-   cluster_id ecc.). Rimuovere i campi tecnici dai filtri visibili, 
-   tenere solo quelli editoriali utili.
-   // via: PATCH meta.display su campi tecnici
+[x] FILTRI-LISTA: searchable:false su umap_x/y/z, cluster_id, wp_id, original_url, json_export, json_traduzione, articolo_traduzione. 2026-05-09.
 
-[] SLUG-AUTORE: slug segnalato come obbligatorio anche se presente — 
-   blocca pubblicazione nuovo autore.
-   // file: src/lib/directus.ts o Directus field validation
+[x] SLUG-AUTORE: autori.slug reso nullable (era NOT NULL). Interfaccia slug auto-genera da nome_completo. Nota campo aggiornata. 2026-05-09.
 
-[] FOLDERS-FORBIDDEN: errore FORBIDDEN su directus_folders durante upload — 
-   aggiungere permesso READ su directus_folders per ruolo Redazione.
-   // via: POST /permissions policy Redazione
+[x] FOLDERS-FORBIDDEN: permesso READ directus_folders aggiunto (id=145, policy Redazione 0a5492ea). 2026-05-09.
 
 [] UAT-PULIZIA: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
    per FK constraint su directus_files. Reassegnare file all'admin 
@@ -62,9 +50,7 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 ### Frontend
 
-[] ARCHIVAL-ALERT: range alert archivio troppo basso — aumentare da 10 anni 
-   a valore più ampio per articoli storici anni '80-'90.
-   // file: src/layouts/ArticlePageLayout.astro o src/pages/it/[slug].astro
+[x] ARCHIVAL-ALERT: soglie progressive 10/20/30 anni in it/[slug].astro + en/[slug].astro. 2026-05-09.
 
 [] CORRELATI-EDIT: nessun modo per correggere correlati sbagliati o vecchi 
    dalla redazione. Valutare campo override manuale in Directus.
@@ -86,9 +72,7 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    Export pipeline: `categoria_menu_2` in `_copy_invariant`. Build verde.
    Gate staging: da verificare dopo merge.
 
-[] FOCUS-HOWTO: documentare come aggiungere articoli ai focus esistenti 
-   e come creare nuovi focus per la redazione.
-   // docs: aggiungere sezione in NORME_EDITORIALI_OEL.md
+[x] FOCUS-HOWTO: sezione "Focus tematici" in NORME_EDITORIALI_OEL.md. 6 focus attivi con URL. 2026-05-09.
 
 [] IMMAGINI-MULTI: possibilità di inserire più immagini contemporaneamente 
    nell'articolo (upload multiplo).

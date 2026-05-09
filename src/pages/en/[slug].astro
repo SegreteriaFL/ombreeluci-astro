@@ -268,6 +268,8 @@ const formaLink = rubricaSlugIT
   ? `/en/sections/${getRubricaUrlSlug(rubricaSlugIT, 'en')}/`
   : null;
 const hasIssue = issueNumber != null && String(issueNumber).trim() !== '';
+const _yearsAgoEn = new Date().getFullYear() - articleDate.getFullYear();
+const archivalYearsAgo = _yearsAgoEn >= 30 ? 30 : _yearsAgoEn >= 20 ? 20 : _yearsAgoEn >= 10 ? 10 : 0;
 const showPubblicatoOnline = !hasIssue;
 
 const { ruolo_editoriale } = getMegaclusterForArticle(articolo);
@@ -556,11 +558,11 @@ const alternates: { lang: string; url: string }[] = [
         </div>
       </div>
 
-      {/* Alert box per contenuti archivistici */}
-      {articleDate.getFullYear() < 2000 && (
+      {/* Alert box per contenuti archivistici — soglie progressive 10/20/30 anni */}
+      {archivalYearsAgo > 0 && (
         <div class="article-header-wrapper">
           <div class="archival-alert-en">
-            <strong>This archival content from {articleDate.getFullYear()} reflects the language and sensitivities of its time.</strong>
+            This article was published more than {archivalYearsAgo} years ago.
           </div>
         </div>
       )}

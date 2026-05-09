@@ -93,6 +93,22 @@ Main staging (deployato da main) non ha questo problema.
 
 ---
 
+## Fix recenti (2026-05-09)
+
+| Commit | Area | Fix |
+|--------|------|-----|
+| (API Directus) | **FOLDERS-FORBIDDEN** ✅ | POST /permissions id=145: READ `directus_folders` per policy Redazione (0a5492ea). Verificato GET /permissions/145. |
+| (API Directus) | **AUTORE-FILTER** ✅ | Nessun filtro attivo su campo autore — `options: {template, enableCreate, enableSelect}`, nessuna restrizione. Task già risolto, marcato. |
+| (API Directus) | **FILTRI-LISTA** ✅ | `searchable: false` su 9 campi tecnici: umap_x, umap_y, umap_z, cluster_id, wp_id, original_url, json_export, json_traduzione, articolo_traduzione. Non appariranno più nel pannello filtri della lista articoli. |
+| (API Directus) | **SAVE-DEFAULT** ⚠️ | Non configurabile via API in Directus 11 — nessuna chiave `save_behavior` in /settings. Procedura manuale: Directus → Settings → Project Settings → nessuna opzione disponibile. Limite strutturale di Directus 11 — ogni redattore può impostarlo nel proprio profilo utente (icona utente → Preferences). |
+| (API Directus) | **PREVIEW-DIR** ✅ | PATCH /collections/articoli: `preview_url` aggiornato a `https://ombreeluci-staging.pages.dev/it/{{slug}}/`. Pulsante anteprima (occhio) ora punta al corretto URL staging. |
+| (codice) | **ARCHIVAL-ALERT** ✅ | Soglie progressive 10/20/30 anni in `it/[slug].astro` e `en/[slug].astro`. IT: "Questo articolo è stato pubblicato più di X anni fa." EN: "This article was published more than X years ago." Smoke test staging: da verificare post-deploy (articolo 1987 deve mostrare "30 anni"). |
+| (API Directus) | **SLUG-AUTORE** ✅ | Causa: DB column `autori.slug` era `is_nullable: false`. Fix: reso nullable via PATCH schema. Interfaccia `slug` con `fields:["nome_completo"]` già presente — auto-genera dalla UI. Nota campo aggiornata. Flow Directus creato ma disabilitato (non necessario). |
+| (docs) | **FOCUS-HOWTO** ✅ | Creato `NORME_EDITORIALI_OEL.md` con sezioni: Focus tematici (come aggiungere + creare), 6 focus attivi con URL staging, procedura pubblicazione articolo, classificazione, ruolo editoriale, autori, tag, traduzione EN. |
+| (docs) | **NORME-RUOLO** ✅ | In `NORME_EDITORIALI_OEL.md` sezione Ruolo editoriale: nota "Il ruolo editoriale si riferisce sempre al tema primario. Se l'articolo ha un secondo tema, il ruolo non viene applicato a quella seconda sezione." |
+
+---
+
 ## Fix recenti (2026-05-08)
 
 | Commit | Area | Fix |
