@@ -111,13 +111,13 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
 <script>
   const MESSAGES = {
     it: {
-      ok: 'Grazie! Controlla la tua email per confermare l\'iscrizione.',
+      ok: '✉ Benvenuto! Ti abbiamo inviato un\'email di conferma — controllala (anche nello spam) e clicca il link per attivare la tua iscrizione. Non vediamo l\'ora di condividere storie con te.',
       already_subscribed: 'Sei già iscritto alla newsletter.',
       invalid_email: 'Inserisci un indirizzo email valido.',
       server_error: 'Si è verificato un errore. Riprova più tardi.',
     },
     en: {
-      ok: 'Thank you! Check your email to confirm your subscription.',
+      ok: '✉ Welcome! We\'ve sent you a confirmation email — check your inbox (and spam folder) and click the link to activate your subscription. We can\'t wait to share stories with you.',
       already_subscribed: 'You are already subscribed.',
       invalid_email: 'Please enter a valid email address.',
       server_error: 'An error occurred. Please try again later.',
@@ -307,8 +307,10 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
   }
 
   .nl-message--success {
-    background: #e8f5e9;
-    color: #2e7d32;
+    background: rgba(196, 30, 58, 0.08);
+    color: var(--accent-color);
+    font-size: 1.0625rem;
+    line-height: 1.6;
   }
 
   .nl-message--error {
