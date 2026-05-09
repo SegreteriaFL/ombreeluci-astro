@@ -43,6 +43,28 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 [x] FOLDERS-FORBIDDEN: permesso READ directus_folders aggiunto (id=145, policy Redazione 0a5492ea). 2026-05-09.
 
+[] PREVIEW-DIR-2: anteprima articolo in Directus ancora non funziona
+   nonostante preview_url configurato. Investigare perché il pulsante
+   occhio non apre la pagina corretta. Verificare configurazione
+   preview_url su /collections/articoli e se Directus 11 richiede
+   configurazione aggiuntiva (es. allowedDomains, token preview).
+   // via: Directus Settings → Data Model → articoli → Preview URL
+
+[] LIST-PREVIEW: nella lista articoli Directus manca link diretto
+   "Vedi sul sito" per aprire l'articolo sul frontend senza dover
+   aprire il record e usare l'anteprima. Aggiungere colonna o azione
+   rapida con link https://ombreeluci-staging.pages.dev/it/{{slug}}/
+   // via: Directus display template o custom action su collection
+
+[] EDIT-BTN-FRONTEND: pulsante "Modifica in Directus" non appare
+   sul frontend degli articoli anche quando loggati su cms.ombreeluci.it.
+   Il sistema usa fetch /users/me con credentials:include per rilevare
+   il login — verificare CORS Directus (CORS_ORIGIN deve includere
+   ombreeluci-staging.pages.dev) e che il cookie di sessione
+   Directus sia inviato cross-origin.
+   // file: src/pages/it/[slug].astro o ArticlePageLayout.astro
+   // via: Directus docker-compose.yml CORS_ORIGIN
+
 [] UAT-PULIZIA: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
    per FK constraint su directus_files. Reassegnare file all'admin 
    (UUID 93c154ca) poi eliminare utente.
