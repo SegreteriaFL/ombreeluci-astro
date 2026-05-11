@@ -27,8 +27,8 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    altrimenti documentare come limite strutturale.
    // via: Directus API meta.options
 
-[] FORMA-POSITION: campo Forma da spostare accanto a Tema in cima alla sezione 
-   Classificazione. Attualmente in fondo.
+[x] FORMA-POSITION: campo Forma da spostare accanto a Tema in cima alla sezione
+   Classificazione. Attualmente in fondo. FATTO 2026-05-09.
    // via: PATCH meta.sort sui campi classificazione
 
 [x] PREVIEW-DIR: preview_url aggiornato a `https://ombreeluci-staging.pages.dev/it/{{slug}}/`. 2026-05-09.
@@ -113,15 +113,11 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    categoria_menu/categoria_menu_2, sort -data_pubblicazione, limit 4. 2026-05-09.
    // file: src/lib/directus.ts
 
-[x] IMG-BLURUP: fade-in globale per immagini lazy. CSS opacity 0→1 con transition 0.4s.
-   Script in BaseLayout aggiunge classe .loaded al completamento. Background placeholder
-   #f5f5f5 su ArticleCard (IssueCard l'aveva già). 2026-05-09.
-   // file: src/styles/global.css, src/layouts/BaseLayout.astro, src/components/ArticleCard.astro
-
-[x] IMG-BLURUP-SEARCH: immagini ricerca invisibili causa opacity:0 su lazy.
-   Fix: escluse .cerca-hit-img e .aa-ItemImg dalla regola IMG-BLURUP.
-   Immagini caricate dinamicamente da InstantSearch non ricevevano .loaded. 2026-05-09.
-   // file: src/styles/global.css
+[x] IMG-BLURUP: RIMOSSO — causava immagini invisibili in megamenu, homepage, archivio, ricerca.
+   Le immagini lazy nascoste o below-the-fold non ricevevano .loaded perché il browser
+   non le carica finché non sono visibili. Regola globale rimossa da global.css e JS da BaseLayout.
+   Fade-in può essere ri-aggiunto in modo opt-in su singoli componenti se necessario. 2026-05-09.
+   // file: src/styles/global.css, src/layouts/BaseLayout.astro
 
 [x] ALGOLIA-REINDEX: reindicizzazione completa 3 indici (7522 record totali).
    oel_articoli: 6963, oel_autori: 354, oel_numeri: 205. Numeri rivista ora

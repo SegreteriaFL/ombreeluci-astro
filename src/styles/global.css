@@ -96,21 +96,10 @@ body {
   padding-top: var(--header-height, 72px);
 }
 
-/* IMG-BLURUP: fade-in per immagini lazy (escluse quelle caricate dinamicamente da JS) */
-img[loading="lazy"]:not(.cerca-hit-img):not(.aa-ItemImg) {
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-
-img[loading="lazy"].loaded {
-  opacity: 1;
-}
-
-/* Immagini dinamiche (ricerca Algolia): sempre visibili */
-.cerca-hit-img,
-.aa-ItemImg {
-  opacity: 1 !important;
-}
+/* IMG-BLURUP: rimosso — causava immagini invisibili in megamenu e homepage.
+   Le immagini lazy nascoste (display:none) o below-the-fold non ricevevano .loaded
+   perché il browser non le carica finché non sono visibili.
+   Fade-in può essere ri-aggiunto in modo opt-in su singoli componenti se necessario. */
 
 /* Header: stesso stile su tutte le pagine; con ViewTransitions usa transition:persist per evitare salti */
 
