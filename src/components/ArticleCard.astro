@@ -99,7 +99,7 @@ const authorBasePath = getAuthorBasePath(lang);
     {horizontal && authorImage && (
       <img src={authorImage} alt={author} class="author-avatar" loading="lazy" />
     )}
-    {t(lang, 'author_by')} <a href={`${authorBasePath}/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
+    <a href={`${authorBasePath}/${authorLinkSlug}`} class="author-link">{author}</a> • {formattedDate}
   </p>
 </div>
 

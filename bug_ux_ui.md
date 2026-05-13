@@ -13,12 +13,29 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 ------
 
+[x] togli "Di" e "By" prima degli autori dapperttutto
+    // fix: ArticleCard.astro:102 + ArticoliRullo.astro — rimosso prefisso author_by. Commit UX-REDAZIONE-01.
+[x] tutti i  link della pagina chi siamo puntatno a 404, rivedi e correggi aggiornando in base a documentazione
+    // fix: ChiSiamoContent.astro — blocchi La Rivista verso rubriche/categoria valide; link timeline con /it/ prefix.
+[x] testi statici non si aggiornano in atuomatico. quale e' il problema ad aggiornarli subito?
+    // causa: SSG build-time fetch. Fix: setup-static-rebuild-flow.mjs crea Directus Flow per rebuild CF Pages su modifica.
+[x] la categoria catechesi deve confluire in spiritualità quindi tutti i contentuti categorizzati come catechesi vanno spostati in spiritualità e catechesi va tolta dal megamenu e dal footer
+    // fix: categorie.json + taxonomy_structure.json aggiornati. Redirect in middleware.ts. Script migrate-catechesi.mjs da eseguire una tantum.
+[x] pagina autori correggi numero articoli --> sono il doppio di quelli reali o conta anche gli ingelsi
+    // fix: getArticoliCountByAutoreId() — aggiunto filter[lang][_eq]=it.
+[x] nella pagina dettaglio autore aggiungere link a tutti gli autori / bio autore si aggiorna negli articoli ma non nella pagina autore / articoli en senza correlati anche se in it ci sono
+    // fix: AuthorPageContent.astro — link "<- Tutti gli autori". Pagine autore IT+EN in SSR (prerender=false). en/[slug].astro: fallback IT slug + getArticoliEnByItSlugs().
+[x] nella pagina chi-siamo escono parole come fragilit� ---> verifica utf o quello che e'
+    // causa: encoding corrotto in contenuti_statici. Script fix-utf8-contenuti-statici.mjs da eseguire con DIRECTUS_TOKEN.
+[x] info e contatti redazione semplificare e mettere mappa
+    // fix: ChiSiamoContent.astro — indirizzo corretto (Via dei Cessati Spiriti 3), mappa Google Maps iframe.
+
 
 ## Redazione — segnalazioni (2026-05-08)
 
 ### Directus UX
 
-[] TEMI-LEGACY: campo `temi` (M2M legacy 285 temi) visibile nel form articolo — 
+[x] TEMI-LEGACY: campo `temi` (M2M legacy 285 temi) visibile nel form articolo — 
    nasconderlo completamente. Non serve per nuovi articoli.
    // via: PATCH /fields/articoli/temi meta.hidden:true
 
@@ -43,7 +60,7 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 [x] FOLDERS-FORBIDDEN: permesso READ directus_folders aggiunto (id=145, policy Redazione 0a5492ea). 2026-05-09.
 
-[] PREVIEW-DIR-2: anteprima articolo in Directus ancora non funziona
+[x] PREVIEW-DIR-2: anteprima articolo in Directus ancora non funziona
    nonostante preview_url configurato. Investigare perché il pulsante
    occhio non apre la pagina corretta. Verificare configurazione
    preview_url su /collections/articoli e se Directus 11 richiede
@@ -62,7 +79,7 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    L'utente vede login Directus se non loggato. Box feedback richiede auth funzionante.
    // file: src/components/EditorialFeedback.astro
 
-[] UAT-PULIZIA: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
+[x] UAT-PULIZIA: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
    per FK constraint su directus_files. Reassegnare file all'admin 
    (UUID 93c154ca) poi eliminare utente.
    // via: PATCH /files + DELETE /users

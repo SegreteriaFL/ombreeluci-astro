@@ -1,7 +1,6 @@
 {
   "_comment": "Source of truth for category labels and URL slugs per language. slug is the canonical key stored in articoli.categoria_menu. To add a new language, add its ISO code (label + en_slug pattern) to each entry.",
   "categorie": [
-    { "slug": "catechesi",                  "it": "Catechesi",                "en": "Catechesis",        "en_slug": "catechesis" },
     { "slug": "cultura",                    "it": "Cultura",                  "en": "Culture",           "en_slug": "culture" },
     { "slug": "educazione-e-formazione",    "it": "Educazione e Formazione",  "en": "Education",         "en_slug": "education-and-training" },
     { "slug": "famiglia",                   "it": "Famiglia",                 "en": "Family",            "en_slug": "family" },

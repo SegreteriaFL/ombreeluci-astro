@@ -1,35 +1,30 @@
 ---
+export const prerender = false;
+
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import AuthorPageContent from '../../../components/AuthorPageContent.astro';
 import { getMegaclusterForArticle, getRoleWeight } from '../../../config/taxonomy.js';
-import { getAllAutori, getAutoreImageUrl } from '../../../lib/directus';
-import { getAllArticoliBuild } from '../../../lib/articoli-build';
+import { getAutoreBySlug, getArticoliByAutoreSlug, getAutoreImageUrl } from '../../../lib/directus';
 
-export async function getStaticPaths() {
-  const [allAutori, allArticoli] = await Promise.all([getAllAutori(), getAllArticoliBuild()]);
+const { slug } = Astro.params;
+if (!slug) return Astro.redirect('/en/authors/', 302);
 
-  return allAutori
-    .map((autore) => {
-      const articoli = allArticoli
-        .filter((a) => a.autore?.slug === autore.slug && a.lang === 'en')
-        .sort((a, b) => {
-          const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
-          const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
-          if (tA !== tB) return tB - tA;
-          const weightA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
-          const weightB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
-          return weightB - weightA;
-        });
-      return { autore, articoli };
-    })
-    .filter(({ articoli }) => articoli.length > 0)
-    .map(({ autore, articoli }) => ({
-      params: { slug: autore.slug },
-      props: { autore, articoli },
-    }));
-}
+const [autore, articoli] = await Promise.all([
+  getAutoreBySlug(slug),
+  getArticoliByAutoreSlug(slug, 'en'),
+]);
 
-const { autore, articoli } = Astro.props;
+if (!autore) return new Response(null, { status: 404 });
+
+const sorted = articoli.sort((a, b) => {
+  const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+  const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+  if (tA !== tB) return tB - tA;
+  const weightA = getRoleWeight(getMegaclusterForArticle(a).ruolo_editoriale);
+  const weightB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
+  return weightB - weightA;
+});
+
 const authorFotoId = autore.foto?.id ?? null;
 const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${autore.slug}.jpg`;
 const alternateUrl = `/it/autori/${autore.slug}/`;
@@ -46,7 +41,7 @@ const alternateUrl = `/it/autori/${autore.slug}/`;
   <AuthorPageContent
     lang="en"
     author={autore}
-    articles={articoli}
+    articles={sorted}
     basePath="/en"
   />
 </BaseLayout>

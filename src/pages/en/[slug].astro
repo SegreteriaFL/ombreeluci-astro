@@ -16,7 +16,7 @@
  */
 export const prerender = false;
 
-import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getAutoreImageUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
+import { getArticoloBySlug, getArticoliBySlugList, getArticoliEnByItSlugs, getArticoloCopertinaSrc, getAutoreImageUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
 import { getPlaceholder } from '../../utils/placeholder';
 import ArticlePageLayout from '../../layouts/ArticlePageLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -93,10 +93,31 @@ try {
   console.warn('[en/[slug].astro] correlati.json fetch failed:', e);
 }
 
-const correlatiSlugsRaw: string[] = correlatiMap[articolo.slug] ?? [];
+let correlatiSlugsRaw: string[] = correlatiMap[articolo.slug] ?? [];
 
-// Correlati EN: solo articoli EN (isCurrentEn=true).
-let correlatiArticoli: ArticoloListItem[] = await getArticoliBySlugList(correlatiSlugsRaw.slice(0, 10), creds).catch(() => []);
+// Se lo slug EN non è in correlati.json, prova con lo slug IT sorgente (correlati.json indicizzato per slug IT)
+const itSourceSlug = (articolo as any).articolo_traduzione?.slug as string | undefined;
+if (correlatiSlugsRaw.length === 0 && itSourceSlug) {
+  correlatiSlugsRaw = correlatiMap[itSourceSlug] ?? [];
+}
+
+// Correlati EN: solo articoli EN.
+// Se correlatiSlugsRaw provengono dallo slug IT, sono slug IT → cerca le traduzioni EN.
+let correlatiArticoli: ArticoloListItem[];
+if (correlatiSlugsRaw.length > 0) {
+  const byDirectSlug = await getArticoliBySlugList(correlatiSlugsRaw.slice(0, 10), creds).catch(() => [] as ArticoloListItem[]);
+  const enArticoli = byDirectSlug.filter(a => a.lang === 'en');
+  if (enArticoli.length >= 2) {
+    correlatiArticoli = enArticoli;
+  } else {
+    // I slugs erano IT — cerca le versioni EN via articolo_traduzione
+    const enByTranslation = await getArticoliEnByItSlugs(correlatiSlugsRaw.slice(0, 10), creds).catch(() => [] as ArticoloListItem[]);
+    correlatiArticoli = enByTranslation.length > 0 ? enByTranslation : enArticoli;
+  }
+} else {
+  correlatiArticoli = [];
+}
+
 if (correlatiArticoli.length === 0) {
   const preferred = await getFallbackRelatedArticles(
     {

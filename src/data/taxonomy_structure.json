@@ -2,7 +2,6 @@
   "slugToTema": {
     "famiglia": "Famiglia",
     "spiritualita": "Spiritualità",
-    "catechesi": "Catechesi",
     "cultura": "Cultura",
     "fede-e-luce": "Fede e Luce",
     "ombre-e-luci": "Ombre e Luci",
@@ -18,7 +17,6 @@
   "temaToCategoria": {
     "Famiglia": "Famiglia",
     "Spiritualità": "Spiritualità",
-    "Catechesi": "Catechesi",
     "Cultura": "Cultura",
     "Fede e Luce": "Fede e Luce",
     "Ombre e Luci": "Ombre e Luci",
@@ -34,7 +32,6 @@
   "megaclusterTemi": [
     "Famiglia",
     "Spiritualità",
-    "Catechesi",
     "Cultura",
     "Fede e Luce",
     "Ombre e Luci",

@@ -7,6 +7,11 @@ const REDIRECTS: Record<string, string> = redirectsLegacy;
 const ARCHIVIO_REDIRECTS: Record<string, string> = {
   '/it/archivio/ins--2/': '/it/archivio/ins-31/',
   '/it/archivio/ins--3/': '/it/archivio/ins-32/',
+  // catechesi → spiritualità (merge categorie, 2026-05-13)
+  '/it/categoria/catechesi': '/it/categoria/spiritualita/',
+  '/it/categoria/catechesi/': '/it/categoria/spiritualita/',
+  '/en/category/catechesis': '/en/category/spirituality/',
+  '/en/category/catechesis/': '/en/category/spirituality/',
 };
 
 // Regex per redirect WordPress date-based: /YYYY/MM/DD/slug/ → /it/slug/

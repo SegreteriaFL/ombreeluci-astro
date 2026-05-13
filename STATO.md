@@ -1,9 +1,38 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-13 (CI-STABILITY — versioni pinnate, workflow hardening)
+**Ultimo aggiornamento:** 2026-05-13 (UX-REDAZIONE-01 — bug fix autori, chi siamo, catechesi, correlati EN)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
+
+---
+
+## UX-REDAZIONE-01 — Fix bug redazione (2026-05-13)
+
+| Task | Stato | Note |
+|---|---|---|
+| Rimuovi Di/By prima autori | ✅ | ArticleCard.astro + ArticoliRullo.astro |
+| Fix link rotti Chi siamo | ✅ | 4 blocchi La Rivista + 3 link timeline |
+| Flow Directus rebuild su contenuti_statici | ✅ | Script `setup-static-rebuild-flow.mjs` (eseguire con CF_DEPLOY_HOOK) |
+| Migra catechesi → spiritualità | ✅ | categorie.json + taxonomy_structure.json + redirect middleware + script `migrate-catechesi.mjs` |
+| Fix conteggio articoli autori (doppio) | ✅ | directus.ts: filter[lang][_eq]=it |
+| Link "Tutti gli autori" in pagina autore | ✅ | AuthorPageContent.astro |
+| Pagine autore IT/EN → SSR | ✅ | prerender=false, getArticoliByAutoreSlug() |
+| Correlati EN con fallback slug IT | ✅ | en/[slug].astro + getArticoliEnByItSlugs() |
+| Script fix UTF-8 contenuti_statici | ✅ | `fix-utf8-contenuti-statici.mjs` (eseguire con DIRECTUS_TOKEN) |
+| Mappa contatti Chi siamo | ✅ | Google Maps iframe + indirizzo corretto |
+
+**Script one-time da eseguire su staging:**
+```bash
+# 1. Migrazione catechesi → spiritualità in Directus
+DIRECTUS_TOKEN=xxx DIRECTUS_URL=https://cms.ombreeluci.it node scripts/migrate-catechesi.mjs
+
+# 2. Fix UTF-8 in contenuti_statici
+DIRECTUS_TOKEN=xxx node scripts/fix-utf8-contenuti-statici.mjs
+
+# 3. Setup Flow Directus per rebuild automatico
+DIRECTUS_TOKEN=xxx CF_DEPLOY_HOOK=https://api.cloudflare.com/... node scripts/setup-static-rebuild-flow.mjs
+```
 
 ---
 

@@ -334,6 +334,31 @@ export async function getArticoliBySlugList(slugs: string[], creds?: DirectusRun
 }
 
 /**
+ * Dato un elenco di slug IT (da correlati.json), restituisce gli articoli EN
+ * che sono traduzione di quegli articoli IT. Usato come fallback per correlati
+ * su pagine EN quando correlati.json è indicizzato per slug IT.
+ */
+export async function getArticoliEnByItSlugs(itSlugs: string[], creds?: DirectusRuntimeCreds): Promise<ArticoloListItem[]> {
+  if (!itSlugs.length) return [];
+  const params = new URLSearchParams({
+    'filter[articolo_traduzione][slug][_in]': itSlugs.join(','),
+    'filter[lang][_eq]': 'en',
+    'filter[stato][_eq]': 'published',
+    fields: [
+      'id', 'wp_id', 'slug', 'lang', 'titolo', 'sottotitolo', 'stato',
+      'data_pubblicazione', 'categoria_menu', 'ruolo_editoriale', 'forma',
+      'seo_description',
+      'autore.id', 'autore.slug', 'autore.nome_completo',
+      'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
+      'immagine_copertina.id', 'immagine_copertina.filename_download',
+    ].join(','),
+    limit: String(itSlugs.length),
+  });
+  const data = await directusFetch<{ data: ArticoloListItem[] }>(`/items/articoli?${params}`, creds);
+  return data?.data ?? [];
+}
+
+/**
  * Fallback correlati: articoli recenti stessa lingua (opz. stessa categoria_menu).
  * Usato quando manca la mappa in correlati.json per uno slug.
  */
@@ -396,6 +421,7 @@ async function getArticoliCountByAutoreId(): Promise<Map<string, number>> {
   const params = new URLSearchParams({
     'filter[stato][_eq]': 'published',
     'filter[autore][_nnull]': 'true',
+    'filter[lang][_eq]': 'it',
     'aggregate[count]': 'id',
     limit: '-1',
   });
@@ -441,6 +467,23 @@ export async function getAutoreBySlug(slug: string): Promise<Autore | null> {
   const data = await directusFetch<{ data: Autore[] }>(`/items/autori?${params}`);
   if (!data || !data.data?.length) return null;
   return data.data[0];
+}
+
+/**
+ * Articoli pubblicati di un autore (per slug autore), ordinati per data desc.
+ * Usare in pagine SSR per evitare stale data da snapshot.
+ */
+export async function getArticoliByAutoreSlug(autoreSlug: string, lang: 'it' | 'en'): Promise<ArticoloFull[]> {
+  const params = new URLSearchParams({
+    'filter[stato][_eq]': 'published',
+    'filter[autore][slug][_eq]': autoreSlug,
+    'filter[lang][_eq]': lang,
+    fields: ARTICOLO_LIST_FIELDS,
+    limit: '-1',
+    'sort[]': '-data_pubblicazione',
+  });
+  const data = await directusFetch<{ data: ArticoloFull[] }>(`/items/articoli?${params}`);
+  return data?.data ?? [];
 }
 
 /**

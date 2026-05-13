@@ -123,7 +123,6 @@ const restData = rest.map((a) => {
               data-total={articoli.length}
               data-base-path={basePath}
               data-locale={locale}
-              data-author-by={t(locale, 'author_by')}
               data-remaining-label={t(locale, 'load_more_remaining')}
               aria-label={`${t(locale, 'load_more_aria')} (${rest.length} ${t(locale, 'load_more_remaining')})`}>
               {t(locale, 'load_more')}
@@ -168,7 +167,6 @@ const restData = rest.map((a) => {
     let loaded = 0;
     const basePath = btn.dataset.basePath ?? '/it';
     const locale = btn.dataset.locale === 'en' ? 'en-US' : 'it-IT';
-    const authorByLabel = btn.dataset.authorBy ?? 'Di';
     const remainingLabel = btn.dataset.remainingLabel ?? 'rimanenti';
 
     function makeCard(a: typeof remaining[number]): HTMLElement {
@@ -221,7 +219,6 @@ const restData = rest.map((a) => {
 
       const authorRow = document.createElement('p');
       authorRow.className = 'author-row';
-      authorRow.appendChild(document.createTextNode(authorByLabel + ' '));
       const authorLink = document.createElement('a');
       authorLink.href = basePath.startsWith('/en') ? `/en/authors/${a.autoreSlug}` : `/it/autori/${a.autoreSlug}`;
       authorLink.className = 'author-link';

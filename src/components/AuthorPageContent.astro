@@ -40,6 +40,9 @@ const fallbackBio =
 
 <main class="site-main">
   <div class="author-container">
+    <a href={lang === 'en' ? '/en/authors/' : '/it/autori/'} class="author-back-link">
+      ← {lang === 'en' ? 'All authors' : 'Tutti gli autori'}
+    </a>
     <div class="author-header">
       <div class="author-avatar-wrapper">
         <img
@@ -113,6 +116,18 @@ const fallbackBio =
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 1.5rem;
+  }
+
+  .author-back-link {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  .author-back-link:hover {
+    text-decoration: underline;
   }
 
   .author-header {
