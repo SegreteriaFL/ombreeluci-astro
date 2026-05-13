@@ -20,19 +20,17 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
       <IconDiari size={16} />
       {hubLabel}
     </a>
-    <span class="diario-fascia-sep" aria-hidden="true"> · </span>
     {autoreFotoUrl && (
       <img
         src={autoreFotoUrl}
         alt={nomeAutore}
         class="diario-fascia-foto"
-        width="48"
+        width="144"
         height="48"
         loading="lazy"
       />
     )}
     <a href={diarioHref} class="diario-fascia-diary">{titoloDiario}</a>
-    <span class="diario-fascia-sep" aria-hidden="true"> · </span>
     <span class="diario-fascia-author">{byLabel} {nomeAutore}</span>
   </div>
 </div>
@@ -47,7 +45,7 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
   .diario-fascia-inner {
     max-width: 850px;
     margin: 0 auto;
-    padding: 0.6rem 2rem 0;
+    padding: 0 2rem 0;
     display: flex;
     align-items: flex-end;
     flex-wrap: nowrap;
@@ -75,19 +73,13 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
     text-decoration: underline;
   }
 
-  .diario-fascia-sep {
-    color: var(--text-secondary);
-    padding: 0 0.1rem 0.6rem;
-    white-space: nowrap;
-  }
-
   .diario-fascia-foto {
-    width: 48px;
+    width: 144px;
     height: 48px;
     object-fit: cover;
     display: block;
     flex-shrink: 0;
-    margin-right: 0.45rem;
+    margin-right: 0;
     align-self: flex-end;
   }
 
@@ -98,6 +90,7 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
     font-family: 'Ultra', Georgia, serif;
     font-size: 1rem;
     padding-bottom: 0.6rem;
+    margin-left: 1rem;
     white-space: nowrap;
   }
 
@@ -108,12 +101,13 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
   .diario-fascia-author {
     color: var(--text-secondary);
     padding-bottom: 0.6rem;
+    margin-left: 0.5rem;
     white-space: nowrap;
   }
 
   @media (max-width: 768px) {
     .diario-fascia-inner {
-      padding: 0.5rem 1.25rem 0;
+      padding: 0 1.25rem 0;
     }
   }
 </style>
