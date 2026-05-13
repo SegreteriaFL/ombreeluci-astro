@@ -17,22 +17,22 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
 <div class="diario-article-fascia">
   <div class="diario-fascia-inner">
     <a href={hubHref} class="diario-fascia-hub">
-      <IconDiari size={16} class="diario-fascia-icon" />
+      <IconDiari size={16} />
       {hubLabel}
     </a>
-    <span class="diario-fascia-sep" aria-hidden="true"> · </span>
-    <a href={diarioHref} class="diario-fascia-diary">{titoloDiario}</a>
     <span class="diario-fascia-sep" aria-hidden="true"> · </span>
     {autoreFotoUrl && (
       <img
         src={autoreFotoUrl}
         alt={nomeAutore}
         class="diario-fascia-foto"
-        width="28"
-        height="28"
+        width="48"
+        height="48"
         loading="lazy"
       />
     )}
+    <a href={diarioHref} class="diario-fascia-diary">{titoloDiario}</a>
+    <span class="diario-fascia-sep" aria-hidden="true"> · </span>
     <span class="diario-fascia-author">{byLabel} {nomeAutore}</span>
   </div>
 </div>
@@ -41,18 +41,20 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
   .diario-article-fascia {
     background-color: var(--diari-bg, #f0f7ff);
     width: 100%;
+    overflow: visible;
   }
 
   .diario-fascia-inner {
     max-width: 850px;
     margin: 0 auto;
-    padding: 0.85rem 2rem;
+    padding: 0.6rem 2rem 0;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-wrap: nowrap;
     gap: 0;
     font-family: 'Raleway', system-ui, sans-serif;
     font-size: 0.875rem;
+    min-height: 48px;
   }
 
   .diario-fascia-hub {
@@ -65,6 +67,8 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
     letter-spacing: 0.07em;
     text-transform: uppercase;
     font-size: 0.75rem;
+    padding-bottom: 0.6rem;
+    white-space: nowrap;
   }
 
   .diario-fascia-hub:hover {
@@ -73,41 +77,43 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
 
   .diario-fascia-sep {
     color: var(--text-secondary);
-    padding: 0 0.1rem;
-  }
-
-  .diario-fascia-diary {
-    color: var(--text-color);
-    text-decoration: none;
-    font-weight: 600;
-    font-family: 'Ultra', Georgia, serif;
-    font-size: 0.9375rem;
-  }
-
-  .diario-fascia-diary:hover {
-    color: var(--accent-color);
-    text-decoration: underline;
+    padding: 0 0.1rem 0.6rem;
+    white-space: nowrap;
   }
 
   .diario-fascia-foto {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
+    width: 48px;
+    height: 48px;
     object-fit: cover;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 0.35rem;
+    display: block;
     flex-shrink: 0;
-    border: 1px solid rgba(0, 0, 0, 0.08);
+    margin-right: 0.45rem;
+    align-self: flex-end;
+  }
+
+  .diario-fascia-diary {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Ultra', Georgia, serif;
+    font-size: 1rem;
+    padding-bottom: 0.6rem;
+    white-space: nowrap;
+  }
+
+  .diario-fascia-diary:hover {
+    text-decoration: underline;
   }
 
   .diario-fascia-author {
     color: var(--text-secondary);
+    padding-bottom: 0.6rem;
+    white-space: nowrap;
   }
 
   @media (max-width: 768px) {
     .diario-fascia-inner {
-      padding: 0.75rem 1.25rem;
+      padding: 0.5rem 1.25rem 0;
     }
   }
 </style>
