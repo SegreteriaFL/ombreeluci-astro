@@ -18,11 +18,13 @@ const cs = await getContenutiStatici('footer');
 
 const catBase = lang === 'en' ? '/en/category' : '/it/categoria';
 const catSlug = (itSlug: string) => getCategoriaUrlSlug(itSlug, lang);
-const temi = getThemesWithSlugs().map((t) => ({
-  ...t,
-  nome: getCategoriaLabel(t.slug, lang) ?? t.nome,
-  href: `${catBase}/${catSlug(t.slug)}`,
-}));
+const temi = getThemesWithSlugs()
+  .filter((t) => t.slug !== 'personaggi-che-ispirano')
+  .map((t) => ({
+    ...t,
+    nome: getCategoriaLabel(t.slug, lang) ?? t.nome,
+    href: `${catBase}/${catSlug(t.slug)}`,
+  }));
 const meta = Math.ceil(temi.length / 2);
 const temiCol1 = temi.slice(0, meta);
 const temiCol2 = temi.slice(meta);
