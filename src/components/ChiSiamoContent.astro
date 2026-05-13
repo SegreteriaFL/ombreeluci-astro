@@ -41,7 +41,7 @@ const content = {
     { titolo: getCS(cs, 'about_blocco_4_titolo', lang, lang === 'it' ? 'Cultura' : 'Culture'), descrizione: getCS(cs, 'about_blocco_4_desc', lang, lang === 'it' ? 'Recensioni, interviste e sguardi sul mondo che ci circonda.' : 'Reviews, interviews and perspectives on the world around us.'), href: lang === 'it' ? '/it/categoria/cultura' : '/en/category/culture' },
   ],
   timeline: [
-    { anno: '1977', titolo: getCS(cs, 'about_timeline_1977_titolo', lang, lang === 'it' ? "Nasce 'Insieme'" : "Birth of 'Insieme'"), descrizione: getCS(cs, 'about_timeline_1977_desc', lang, lang === 'it' ? 'Il primo bollettino ciclostilato. Il desiderio di non restare soli.' : 'The first mimeographed bulletin. The wish not to remain alone.'), linkTesto: lang === 'it' ? 'Primo numero Insieme' : 'First Insieme issue', linkUrl: lang === 'it' ? '/it/archivio/ins-1' : '/en/archive/ins-1' },
+    { anno: '1977', titolo: getCS(cs, 'about_timeline_1977_titolo', lang, lang === 'it' ? "Nasce 'Insieme'" : "Birth of 'Insieme'"), descrizione: getCS(cs, 'about_timeline_1977_desc', lang, lang === 'it' ? 'Il primo bollettino ciclostilato. Il desiderio di non restare soli.' : 'The first mimeographed bulletin. The wish not to remain alone.'), linkTesto: lang === 'it' ? 'Primo numero Insieme' : 'First Insieme issue', linkUrl: lang === 'it' ? '/it/archivio/ins--1' : '/en/archive/ins--1' },
     { anno: '1983', titolo: getCS(cs, 'about_timeline_1983_titolo', lang, 'Ombre e Luci'), descrizione: getCS(cs, 'about_timeline_1983_desc', lang, lang === 'it' ? 'Esce il numero 1. Formato professionale, temi di vita, fede e inclusione.' : 'Issue 1 published. Professional format, themes of life, faith and inclusion.'), linkTesto: lang === 'it' ? 'Numero 1 (PDF)' : 'Issue 1 (PDF)', linkUrl: 'https://archive.org/download/OmbreELuci_001/Ombre-e-Luci-n.1.pdf', linkPagina: lang === 'it' ? '/it/archivio/oel-1' : '/en/archive/oel-1' },
     { anno: '2010', titolo: getCS(cs, 'about_timeline_2010_titolo', lang, lang === 'it' ? 'Web' : 'Online'), descrizione: getCS(cs, 'about_timeline_2010_desc', lang, lang === 'it' ? 'La rivista approda online.' : 'The magazine goes online.') },
     { anno: '2018', titolo: getCS(cs, 'about_timeline_2018_titolo', lang, lang === 'it' ? 'Digitalizzazione' : 'Digitisation'), descrizione: getCS(cs, 'about_timeline_2018_desc', lang, lang === 'it' ? "Inizia il recupero dell'archivio storico, un 'regalo' per i 40 anni della rivista." : "The recovery of the historical archive begins — a 'gift' for the magazine's 40th anniversary."), linkTesto: lang === 'it' ? 'Leggi' : 'Read', linkUrl: '/it/digitalizzando-ombre-e-luci-come-un-album-di-famiglia' },
@@ -82,7 +82,7 @@ const storica = [
 
 const collaboratori = [
   { nome: 'Nicla Bettazzi', slug: 'nicla-bettazzi', foto: 'nicla-bettazzi.jpg' },
-  { nome: 'Don Marco Bove', slug: 'don-marco-bove', foto: 'don-marco-bove.jpg' },
+  { nome: 'Don Marco Bove', slug: 'marco-bove', foto: 'don-marco-bove.jpg' },
   { nome: 'Claudio Cinus', slug: 'claudio-cinus', foto: 'claudio-cinus.jpg' },
   { nome: 'Benedetta Mattei', slug: 'benedetta-mattei', foto: 'benedetta-mattei.png' },
   { nome: 'Rita Massi', slug: 'rita-massi', foto: 'rita-massi.png' },
@@ -246,22 +246,21 @@ function iniziali(nome: string): string {
               <h3 class="contatti-card-title">{t(lang, 'about_contact_phone_label')}</h3>
               <p><a href="tel:+390612345678">+39 06 12345678</a></p>
             </div>
-            <div class="contatti-card contatti-card--mappa">
+            <div class="contatti-card">
               <h3 class="contatti-card-title">{t(lang, 'about_contact_address_label')}</h3>
               <p>Via dei Cessati Spiriti 3, 00185 Roma</p>
-              <div class="mappa-embed">
-                <iframe
-                  title="Ombre e Luci — Via dei Cessati Spiriti 3, Roma"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.0!2d12.5113!3d41.8919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61a6a0b1f1b1%3A0x0!2sVia%20dei%20Cessati%20Spiriti%203%2C%2000185%20Roma!5e0!3m2!1sit!2sit!4v1715600000000"
-                  width="100%"
-                  height="200"
-                  style="border:0;border-radius:8px;margin-top:1rem;"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
             </div>
+          </div>
+          <div class="mappa-embed">
+            <iframe
+              title="Ombre e Luci — Via dei Cessati Spiriti 3, Roma"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.0!2d12.5113!3d41.8919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61a6a0b1f1b1%3A0x0!2sVia%20dei%20Cessati%20Spiriti%203%2C%2000185%20Roma!5e0!3m2!1sit!2sit!4v1715600000000"
+              width="100%"
+              height="340"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
           <div class="contatti-orari">
             <h3 class="chi-siamo-h3">{t(lang, 'about_hours_section')}</h3>
@@ -722,7 +721,16 @@ function iniziali(nome: string): string {
   }
 
   .mappa-embed {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
+    border-radius: 12px;
+    overflow: hidden;
+    line-height: 0;
+  }
+  .mappa-embed iframe {
+    display: block;
+    width: 100%;
+    border: 0;
+    filter: grayscale(100%) contrast(1.05);
   }
 
   .contatti-orari {
