@@ -28,10 +28,6 @@ const articlesLabel =
     ? articles.length === 1 ? 'article' : 'articles'
     : articles.length === 1 ? 'articolo' : 'articoli';
 const articlesTitle = lang === 'en' ? 'Articles' : 'Articoli';
-const articlesCountLabel =
-  lang === 'en'
-    ? `[${articles.length}] published articles`
-    : `[${articles.length}] articoli pubblicati`;
 const fallbackBio =
   lang === 'en'
     ? `Author of ${articles.length} ${articlesLabel} published on Ombre e Luci.`
@@ -82,7 +78,6 @@ const fallbackBio =
     <section class="articles-section">
       <div class="articles-header">
         <h2 class="articles-title">{articlesTitle}</h2>
-        <p class="articles-count">{articlesCountLabel}</p>
       </div>
 
       <div class="articles-grid">
