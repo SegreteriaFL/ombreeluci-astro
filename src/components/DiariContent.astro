@@ -14,18 +14,13 @@ interface Props {
 const { lang, diaristiConMeta, articoliDiari, diariDescrizione } = Astro.props;
 
 const defaultDesc = {
-  it: 'Sette voci, sette storie in corso. I Diari di Ombre e Luci sono uno spazio narrativo dove autori fissi raccontano la propria vita con la disabilità — in famiglia, in comunità, nella fede — settimana dopo settimana.',
-  en: 'Seven voices, seven ongoing stories. The Diaries of Ombre e Luci are a narrative space where regular authors share their lives with disability — in the family, in the community, in faith — week after week.',
+  it: 'I Diari di Ombre e Luci sono uno spazio narrativo dove autori fissi raccontano la propria vita con la disabilità — in famiglia, in comunità, nella fede — settimana dopo settimana.',
+  en: 'The Diaries of Ombre e Luci are a narrative space where regular authors share their lives with disability — in the family, in the community, in faith — week after week.',
 }[lang];
 
 const hubTitle = {
   it: 'I Diari di Ombre e Luci',
   en: 'The Diaries of Ombre e Luci',
-}[lang];
-
-const hubEyebrow = {
-  it: 'I DIARI',
-  en: 'THE DIARIES',
 }[lang];
 
 const diarByLabel = {
@@ -39,8 +34,8 @@ const feedTitle = {
 }[lang];
 
 const feedDesc = {
-  it: 'Gli ultimi contributi dei sette autori dei Diari, dal più recente al più vecchio.',
-  en: "The latest contributions from the seven Diaries authors, most recent first.",
+  it: 'Gli ultimi contributi dagli autori dei Diari, dal più recente al più vecchio.',
+  en: 'The latest contributions from the Diaries authors, most recent first.',
 }[lang];
 
 const diarioBasePath = lang === 'en' ? '/en/diaries' : '/it/diari';
@@ -50,11 +45,10 @@ const articleBasePath = lang === 'en' ? '/en' : '/it';
 <main class="site-main diari-hub-bg">
   <div class="container diari-hub">
     <header class="diari-hub-header">
-      <div class="diari-hub-eyebrow">
-        <span aria-hidden="true">📖</span>
-        <span>{hubEyebrow}</span>
-      </div>
-      <h1 class="diari-hub-title">{hubTitle}</h1>
+      <h1 class="diari-hub-title">
+        <img src="/images/diari/icon-diari.svg" alt="" aria-hidden="true" class="diari-title-icon" width="32" height="32" />
+        {hubTitle}
+      </h1>
       <p class="diari-hub-desc">{diariDescrizione ?? defaultDesc}</p>
     </header>
 
@@ -103,26 +97,21 @@ const articleBasePath = lang === 'en' ? '/en' : '/it';
     margin-bottom: 2.5rem;
   }
 
-  .diari-hub-eyebrow {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--accent-color);
-    margin-bottom: 0.6rem;
-  }
-
   .diari-hub-title {
-    font-family: 'Raleway', system-ui, sans-serif;
-    font-weight: 900;
-    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+    font-family: 'Ultra', Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
     color: var(--text-color);
     margin-bottom: 0.75rem;
-    line-height: 1.2;
+    line-height: 1.15;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .diari-title-icon {
+    flex-shrink: 0;
+    display: block;
   }
 
   .diari-hub-desc {
@@ -160,12 +149,11 @@ const articleBasePath = lang === 'en' ? '/en' : '/it';
     border-left: 1px solid rgba(0, 0, 0, 0.08);
   }
 
-  /* Rimuovi bordo bottom dagli ultimi due */
   .diari-item:nth-last-child(1),
   .diari-item:nth-last-child(2) {
     border-bottom: none;
   }
-  /* Se il totale è dispari, l'ultimo (singolo) potrebbe non essere nth-last-child(2) */
+
   .diari-item:last-child {
     border-bottom: none;
   }
@@ -230,7 +218,6 @@ const articleBasePath = lang === 'en' ? '/en' : '/it';
       border-left: none;
     }
 
-    /* Su mobile ripristina bordo bottom su tutti tranne l'ultimo */
     .diari-item:nth-last-child(2) {
       border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     }

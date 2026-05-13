@@ -6,20 +6,31 @@ interface Props {
   hubHref: string;
   hubLabel: string;
   byLabel: string;
+  autoreFotoUrl?: string;
 }
 
-const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel } = Astro.props;
+const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autoreFotoUrl } = Astro.props;
 ---
 
 <div class="diario-article-fascia">
   <div class="diario-fascia-inner">
     <a href={hubHref} class="diario-fascia-hub">
-      <span aria-hidden="true">📖</span>
+      <img src="/images/diari/icon-diari.svg" alt="" aria-hidden="true" class="diario-fascia-icon" width="18" height="18" />
       {hubLabel}
     </a>
     <span class="diario-fascia-sep" aria-hidden="true"> · </span>
     <a href={diarioHref} class="diario-fascia-diary">{titoloDiario}</a>
     <span class="diario-fascia-sep" aria-hidden="true"> · </span>
+    {autoreFotoUrl && (
+      <img
+        src={autoreFotoUrl}
+        alt={nomeAutore}
+        class="diario-fascia-foto"
+        width="28"
+        height="28"
+        loading="lazy"
+      />
+    )}
     <span class="diario-fascia-author">{byLabel} {nomeAutore}</span>
   </div>
 </div>
@@ -33,19 +44,19 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel } = Ast
   .diario-fascia-inner {
     max-width: 850px;
     margin: 0 auto;
-    padding: 0.55rem 2rem;
+    padding: 0.85rem 2rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    gap: 0;
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.8125rem;
-    line-height: 1;
+    font-size: 0.875rem;
   }
 
   .diario-fascia-hub {
     display: inline-flex;
     align-items: center;
-    gap: 0.3rem;
+    gap: 0.35rem;
     color: var(--accent-color);
     text-decoration: none;
     font-weight: 700;
@@ -58,9 +69,14 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel } = Ast
     text-decoration: underline;
   }
 
+  .diario-fascia-icon {
+    flex-shrink: 0;
+    display: block;
+  }
+
   .diario-fascia-sep {
     color: var(--text-secondary);
-    padding: 0 0.05rem;
+    padding: 0 0.1rem;
   }
 
   .diario-fascia-diary {
@@ -68,12 +84,24 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel } = Ast
     text-decoration: none;
     font-weight: 600;
     font-family: 'Ultra', Georgia, serif;
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
   }
 
   .diario-fascia-diary:hover {
     color: var(--accent-color);
     text-decoration: underline;
+  }
+
+  .diario-fascia-foto {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.35rem;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.08);
   }
 
   .diario-fascia-author {
@@ -82,7 +110,7 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel } = Ast
 
   @media (max-width: 768px) {
     .diario-fascia-inner {
-      padding: 0.55rem 1.25rem;
+      padding: 0.75rem 1.25rem;
     }
   }
 </style>

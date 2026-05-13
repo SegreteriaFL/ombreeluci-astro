@@ -27,10 +27,6 @@ const articlesLabel = lang === 'en' ? `Articles from ${titoloDiario}` : `Articol
 <main class="site-main">
   <div class="diario-hero">
     <div class="container diario-hero-inner">
-      <a href={backHref} class="diario-hub-link">
-        <span aria-hidden="true">📖</span>
-        {backLabel}
-      </a>
       <div class="diario-hero-content">
         <div class="diario-hero-photo">
           {fotoUrl ? (
@@ -40,6 +36,10 @@ const articlesLabel = lang === 'en' ? `Articles from ${titoloDiario}` : `Articol
           )}
         </div>
         <div class="diario-hero-text">
+          <a href={backHref} class="diario-hub-link">
+            <img src="/images/diari/icon-diari.svg" alt="" aria-hidden="true" class="diario-hub-icon" width="18" height="18" />
+            {backLabel}
+          </a>
           <h1 class="diario-hero-title">{titoloDiario}</h1>
           <p class="diario-hero-author">{byLabel} {nomeAutore}</p>
           {descrizioneDiario && (
@@ -86,30 +86,8 @@ const articlesLabel = lang === 'en' ? `Articles from ${titoloDiario}` : `Articol
 <style>
   .diario-hero {
     background-color: var(--diari-bg, #f0f7ff);
-    padding: 1.75rem 0 2.5rem;
+    padding: 2rem 0 2.5rem;
     width: 100%;
-  }
-
-  .diario-hero-inner {
-    /* container gestisce max-width */
-  }
-
-  .diario-hub-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--accent-color);
-    text-decoration: none;
-    margin-bottom: 1.5rem;
-  }
-
-  .diario-hub-link:hover {
-    text-decoration: underline;
   }
 
   .diario-hero-content {
@@ -145,6 +123,30 @@ const articlesLabel = lang === 'en' ? `Articles from ${titoloDiario}` : `Articol
 
   .diario-hero-text {
     min-width: 0;
+    padding-top: 0.25rem;
+  }
+
+  .diario-hub-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    text-decoration: none;
+    margin-bottom: 0.75rem;
+  }
+
+  .diario-hub-link:hover {
+    text-decoration: underline;
+  }
+
+  .diario-hub-icon {
+    flex-shrink: 0;
+    display: block;
   }
 
   .diario-hero-title {
