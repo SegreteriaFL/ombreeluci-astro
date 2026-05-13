@@ -1,9 +1,30 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-13 (UX-REDAZIONE-01 — bug fix autori, chi siamo, catechesi, correlati EN)
+**Ultimo aggiornamento:** 2026-05-13 (DIARI-REDESIGN completato)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
+
+---
+
+## DIARI-REDESIGN — Hub griglia, hero diario, fascia articolo (2026-05-13)
+
+| Task | Stato | Note |
+|---|---|---|
+| Font Ultra self-hosted | ✅ | `public/fonts/ultra-latin.woff2` + `ultra-latin-ext.woff2`, `@font-face` in global.css |
+| DiariContent.astro redesign | ✅ | Griglia 2 colonne, titoli in Ultra, eyebrow 📖 I DIARI, separatori orizzontali |
+| DiarioContent.astro redesign | ✅ | Hero azzurro (--diari-bg), illustrazione circolare 200px, titolo Ultra 3.25rem, bio 3 righe clamp, griglia 3 colonne. Fix backHref (`/sezioni/diari` → `/it/rubriche/diari/` e `/en/sections/diaries/`) |
+| DiarioBadge.astro | ✅ | Fascia sottile in cima all'articolo: 📖 I DIARI · NomeDiario · di Autore |
+| Fascia in it/[slug].astro | ✅ | Usa `articolo.serie?.nome` o fallback da DIARISTI; attiva solo se autore è diarista |
+| Fascia in en/[slug].astro | ✅ | Stessa logica, path EN |
+
+**Gate:**
+- [x] `npm run build` verde, zero errori
+- [x] `/it/rubriche/diari/` — hub griglia 2 colonne con Ultra
+- [x] `/it/diari/diario-di-arianna/` — hero azzurro + griglia 3col
+- [x] Articolo di diarista — fascia DiarioBadge visibile
+- [x] Articolo non-diarista — fascia assente
+- [x] EN funzionanti (`/en/sections/diaries/`, `/en/diaries/diario-di-arianna/`)
 
 ---
 

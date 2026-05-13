@@ -14,13 +14,18 @@ interface Props {
 const { lang, diaristiConMeta, articoliDiari, diariDescrizione } = Astro.props;
 
 const defaultDesc = {
-  it: 'Storie in prima persona, racconti di vita e di fragilità: i Diari sono lo spazio dove autori e lettori condividono esperienze, riflessioni e incontri. Una finestra aperta sulla vita quotidiana, sulle comunità e sul cammino di Fede e Luce.',
-  en: 'First-person stories, accounts of life and fragility: the Diaries are the space where authors and readers share experiences, reflections and encounters. An open window onto everyday life, communities and the journey of Fede e Luce.',
+  it: 'Sette voci, sette storie in corso. I Diari di Ombre e Luci sono uno spazio narrativo dove autori fissi raccontano la propria vita con la disabilità — in famiglia, in comunità, nella fede — settimana dopo settimana.',
+  en: 'Seven voices, seven ongoing stories. The Diaries of Ombre e Luci are a narrative space where regular authors share their lives with disability — in the family, in the community, in faith — week after week.',
 }[lang];
 
-const diariGridLabel = {
-  it: 'I sette Diari',
-  en: 'The seven Diaries',
+const hubTitle = {
+  it: 'I Diari di Ombre e Luci',
+  en: 'The Diaries of Ombre e Luci',
+}[lang];
+
+const hubEyebrow = {
+  it: 'I DIARI',
+  en: 'THE DIARIES',
 }[lang];
 
 const diarByLabel = {
@@ -42,41 +47,36 @@ const diarioBasePath = lang === 'en' ? '/en/diaries' : '/it/diari';
 const articleBasePath = lang === 'en' ? '/en' : '/it';
 ---
 
-<main class="site-main diari-section-bg">
+<main class="site-main diari-hub-bg">
   <div class="container diari-hub">
-    <header class="diari-intro">
-      <h1 class="diari-hub-title">{t(lang, 'diaries_title')}</h1>
-      <p class="diari-hub-lead">
-        {diariDescrizione ?? defaultDesc}
-      </p>
+    <header class="diari-hub-header">
+      <div class="diari-hub-eyebrow">
+        <span aria-hidden="true">📖</span>
+        <span>{hubEyebrow}</span>
+      </div>
+      <h1 class="diari-hub-title">{hubTitle}</h1>
+      <p class="diari-hub-desc">{diariDescrizione ?? defaultDesc}</p>
     </header>
 
-    <section class="diari-grid-section" aria-label={diariGridLabel}>
-      <h2 class="visually-hidden">{diariGridLabel}</h2>
-      <div class="diari-cards diari-cards--polaroid">
-        {diaristiConMeta.map((d) => (
-          <article class="diari-card diari-card--polaroid">
-            <a href={`${diarioBasePath}/${d.diarioSlug}`} class="diari-card-link">
-              <div class="diari-polaroid-frame">
-                <div class="diari-polaroid-photo">
-                  {d.fotoUrl ? (
-                    <img src={d.fotoUrl} alt={d.nome} width="280" height="280" loading="lazy" />
-                  ) : (
-                    <div class="diari-card-photo-placeholder" aria-hidden="true" />
-                  )}
-                </div>
-                <div class="diari-polaroid-caption">
-                  <h3 class="diari-card-title">{d.titoloDiario}</h3>
-                  <p class="diari-card-author">{diarByLabel} {d.nome}</p>
-                </div>
-              </div>
-            </a>
-          </article>
-        ))}
-      </div>
+    <section class="diari-grid" aria-label={hubTitle}>
+      {diaristiConMeta.map((d) => (
+        <a href={`${diarioBasePath}/${d.diarioSlug}`} class="diari-item">
+          <div class="diari-item-photo">
+            {d.fotoUrl ? (
+              <img src={d.fotoUrl} alt={d.nome} width="80" height="80" loading="lazy" />
+            ) : (
+              <div class="diari-item-placeholder" aria-hidden="true" />
+            )}
+          </div>
+          <div class="diari-item-text">
+            <h3 class="diari-item-title">{d.titoloDiario}</h3>
+            <p class="diari-item-author">{diarByLabel} {d.nome}</p>
+          </div>
+        </a>
+      ))}
     </section>
 
-    <div class="diari-feed-section">
+    <div class="diari-feed">
       <ArticoliRullo
         title={feedTitle}
         description={feedDesc}
@@ -90,8 +90,8 @@ const articleBasePath = lang === 'en' ? '/en' : '/it';
 </main>
 
 <style>
-  .diari-section-bg {
-    background-color: var(--diari-bg);
+  .diari-hub-bg {
+    background-color: var(--diari-bg, #f0f7ff);
   }
 
   .diari-hub {
@@ -99,138 +99,149 @@ const articleBasePath = lang === 'en' ? '/en' : '/it';
     padding-bottom: 3.5rem;
   }
 
-  .diari-intro {
-    margin-bottom: 3rem;
+  .diari-hub-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .diari-hub-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    margin-bottom: 0.6rem;
   }
 
   .diari-hub-title {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
-    font-weight: 600;
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-weight: 900;
+    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
     color: var(--text-color);
     margin-bottom: 0.75rem;
+    line-height: 1.2;
   }
 
-  .diari-hub-lead {
-    max-width: 720px;
-    font-size: 1.1rem;
+  .diari-hub-desc {
+    max-width: 680px;
+    font-size: 1rem;
     line-height: 1.7;
-    color: var(--text-color);
+    color: var(--text-secondary);
+    margin: 0;
   }
 
-  .diari-grid-section {
+  .diari-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 3rem;
   }
 
-  .diari-cards--polaroid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 2rem;
-    align-items: start;
-  }
-
-  .diari-card--polaroid {
-    background: transparent;
-  }
-
-  .diari-card-link {
-    display: block;
+  .diari-item {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.25rem 1.5rem 1.25rem 0;
     text-decoration: none;
     color: inherit;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    transition: opacity 0.18s;
   }
 
-  .diari-polaroid-frame {
-    background: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.9);
-    padding: 0.75rem 0.75rem 1.25rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    transition: box-shadow 0.2s ease;
-  }
-  .diari-card-link:hover .diari-polaroid-frame {
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  .diari-item:hover {
+    opacity: 0.8;
   }
 
-  .diari-polaroid-photo {
-    width: 100%;
-    aspect-ratio: 1 / 1;
+  .diari-item:nth-child(even) {
+    padding-left: 1.5rem;
+    padding-right: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  /* Rimuovi bordo bottom dagli ultimi due */
+  .diari-item:nth-last-child(1),
+  .diari-item:nth-last-child(2) {
+    border-bottom: none;
+  }
+  /* Se il totale è dispari, l'ultimo (singolo) potrebbe non essere nth-last-child(2) */
+  .diari-item:last-child {
+    border-bottom: none;
+  }
+
+  .diari-item-photo {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
     overflow: hidden;
-    background: var(--bg-light);
+    background: var(--bg-light, #f5f5f5);
   }
-  .diari-polaroid-photo img {
+
+  .diari-item-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
   }
-  .diari-card-photo-placeholder {
+
+  .diari-item-placeholder {
     width: 100%;
     height: 100%;
-    background: var(--border-color);
+    background: var(--border-color, #ddd);
   }
 
-  .diari-polaroid-caption {
-    padding-top: 1rem;
-    text-align: left;
-  }
-
-  .diari-card-title {
-    font-family: Georgia, 'Times New Roman', serif;
+  .diari-item-title {
+    font-family: 'Ultra', Georgia, serif;
+    font-weight: 400;
     font-size: 1.25rem;
-    font-weight: 600;
     color: var(--text-color);
-    margin-bottom: 0.25rem;
-    line-height: 1.3;
+    margin-bottom: 0.2rem;
+    line-height: 1.2;
   }
 
-  .diari-card-author {
+  .diari-item-author {
     font-family: 'Raleway', system-ui, sans-serif;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--text-secondary);
     margin: 0;
   }
 
-  .diari-feed-section {
+  .diari-feed {
     margin-top: 2.5rem;
     padding-top: 2.5rem;
-    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 640px) {
     .diari-hub {
       padding-top: 1.5rem;
       padding-bottom: 2.5rem;
     }
-    .diari-intro {
+
+    .diari-grid {
+      grid-template-columns: 1fr;
       margin-bottom: 2rem;
     }
-    .diari-grid-section {
-      margin-bottom: 2rem;
+
+    .diari-item:nth-child(even) {
+      padding-left: 0;
+      border-left: none;
     }
-    .diari-feed-section {
+
+    /* Su mobile ripristina bordo bottom su tutti tranne l'ultimo */
+    .diari-item:nth-last-child(2) {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    .diari-item:last-child {
+      border-bottom: none;
+    }
+
+    .diari-feed {
       margin-top: 1.5rem;
       padding-top: 1.5rem;
     }
-  }
-
-  @media (max-width: 480px) {
-    .diari-hub {
-      padding-top: 1.25rem;
-      padding-bottom: 2rem;
-    }
-    .diari-intro {
-      margin-bottom: 1.5rem;
-    }
-  }
-
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
   }
 </style>

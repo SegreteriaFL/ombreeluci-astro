@@ -12,6 +12,8 @@ import autoriStats from '../../data/autori_stats.json';
 import LeggiAnche from '../../components/LeggiAnche.astro';
 import Commenti from '../../components/Commenti.astro';
 import CTAArticolo from '../../components/CTAArticolo.astro';
+import DiarioBadge from '../../components/DiarioBadge.astro';
+import { getDiaristaByAuthorName, NOMI_DIARISTI } from '../../data/diari.ts';
 
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
@@ -137,6 +139,16 @@ const autoreName: string = autoreCompleto?.nome_completo ?? t(locale, 'author_un
 const authorSlug = generateAuthorSlug(autoreName);
 
 const authorBioHtml: string | null = autoreCompleto?.bio_html?.trim() || null;
+
+// ── Fascia diario (se l'autore è un diarista) ──────────────────────────────────
+const _diarista = NOMI_DIARISTI.has(autoreName) ? getDiaristaByAuthorName(autoreName) : null;
+const diarioInfo = _diarista ? {
+  titoloDiario: articolo.serie?.nome ?? _diarista.titoloDiario,
+  diarioHref: `/it/diari/${_diarista.diarioSlug}`,
+  hubHref: '/it/rubriche/diari/',
+  hubLabel: 'I DIARI',
+  byLabel: 'di',
+} : null;
 const isJeanVanier: boolean = (autoreCompleto?.slug === 'jean-vanier') || autoreName.toLowerCase().includes('jean vanier');
 const authorFotoId: string | null = autoreCompleto?.foto?.id ?? null;
 const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${authorSlug}.jpg`;
@@ -454,6 +466,17 @@ const relatedArticles = (() => {
     <div class="reading-progress" id="reading-progress"></div>
     
     <div class="article-container">
+      {diarioInfo && (
+        <DiarioBadge
+          titoloDiario={diarioInfo.titoloDiario}
+          diarioHref={diarioInfo.diarioHref}
+          nomeAutore={autoreName}
+          hubHref={diarioInfo.hubHref}
+          hubLabel={diarioInfo.hubLabel}
+          byLabel={diarioInfo.byLabel}
+        />
+      )}
+
       {/* Breadcrumbs */}
       <nav class="breadcrumbs">
         <a href={locale === 'en' ? '/en/' : '/it/archivio'}>{t(locale, 'nav_archive')}</a>
