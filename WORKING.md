@@ -121,7 +121,7 @@ const data = res.ok ? await res.json() : {};
 
 Il file deve stare in `public/` (non solo `src/data/`). Il `prebuild` in `package.json` si occupa di copiarlo:
 ```
-"prebuild": "node -e \"require('fs').copyFileSync('src/data/correlati.json','public/correlati.json')\""
+"prebuild": "node scripts/fetch-static-data.mjs && node scripts/copy-correlati.mjs"
 ```
 
 Dopo ogni build, verificare il bundle size:
@@ -171,6 +171,75 @@ Per branch che toccano routing o SSR, aggiungere:
 [ ] curl -sI staging/en/[slug-en]/ → 200
 [ ] compatibility_flags Pages non contiene nodejs_compat
 ```
+
+---
+
+## Gestione dipendenze (CI-STABILITY — 2026-05-13)
+
+**Regola fondamentale:** tutte le dipendenze in `package.json` hanno versione esatta (niente `^` o `~`). Il `package-lock.json` è committato e autoritativo.
+
+### npm ci vs npm install
+
+| Contesto | Comando | Perché |
+|---|---|---|
+| CI / CF Pages | `npm ci` | Installa esattamente ciò che è nel lock file — zero sorprese |
+| Aggiungere una dipendenza | `npm install pkg@1.2.3` | `.npmrc` ha `save-exact=true` — scrive `"1.2.3"` senza `^` |
+| Aggiornare una dipendenza | `npm install pkg@x.y.z` | Mai `npm install pkg` senza versione |
+| Mai | `npm install` (senza args) | Potrebbe aggiornare dipendenze transitorie fuori dal lock |
+
+### Prima di fare push: verifica obbligatoria
+
+```bash
+npm run predeploy
+```
+
+Questo script (`scripts/predeploy-check.mjs`) verifica:
+1. Node major version === 20
+2. `package-lock.json` presente
+3. Nessuna versione floating (`^`/`~`) in `package.json`
+4. TypeScript senza errori (`tsc --noEmit`)
+
+Se uno dei check fallisce, lo script esce con codice 1 e mostra cosa sistemare.
+
+### Aggiornare una singola dipendenza
+
+```bash
+# 1. Installa la versione specifica (save-exact è in .npmrc)
+npm install astro@4.17.0
+
+# 2. Verifica che tutto funzioni
+npm run predeploy
+
+# 3. Committa entrambi i file insieme — mai separati
+git add package.json package-lock.json
+git commit -m "chore(deps): astro 4.16.19 → 4.17.0"
+```
+
+### Aggiornamenti mensili (npm-check-updates)
+
+Una volta al mese circa, controlla cosa si può aggiornare:
+
+```bash
+npx npm-check-updates   # mostra solo — non installa nulla
+# valuta manualmente quali aggiornare (evita major salvo test)
+npx npm-check-updates -u --target minor  # aggiorna solo minor/patch nel package.json
+npm install              # rigenera il lock file
+npm run predeploy        # verifica
+```
+
+### Dependabot — aggiornamenti automatici
+
+`.github/dependabot.yml` crea PR automatiche ogni lunedì per aggiornamenti minor/patch npm.
+Le PR passano per i smoke test post-deploy prima del merge.
+
+- Major versions di `astro` e `@astrojs/*` sono **escluse** (richiedono test manuale)
+- Aggiornamenti GitHub Actions: mensili (cambiano raramente)
+
+### Node version
+
+- Target: **Node 20.x** (`.node-version = 20.19.0`, `engines.node = "20.x"` in `package.json`)
+- CF Pages usa Node 20 leggendo `.node-version`
+- Per sviluppo locale: `nvm use` (legge `.node-version`) oppure installa Node 20 direttamente
 
 ---
 

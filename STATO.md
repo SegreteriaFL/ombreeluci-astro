@@ -1,9 +1,44 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-09 (TRANS-FLOW-02 — fix JSON parsing robusto)
+**Ultimo aggiornamento:** 2026-05-13 (CI-STABILITY — versioni pinnate, workflow hardening)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
+
+---
+
+## CI-STABILITY — Hardening dipendenze e workflow (2026-05-13)
+
+**Motivazione:** instabilità percepita su staging — un aggiornamento di dipendenze o un cambio minore poteva rompere il build senza preavviso.
+
+**Interventi completati:**
+
+| File | Modifica |
+|---|---|
+| `package.json` | Tutti `^`/`~` rimossi — versioni esatte dal lock file. Campo `engines.node: "20.x"`. Script `predeploy`. |
+| `.npmrc` | Aggiunto `save-exact=true` — futuri `npm install pkg` non aggiungono `^` |
+| `.node-version` | `20` → `20.19.0` — versione specifica per CF Pages e nvm |
+| `scripts/predeploy-check.mjs` | Nuovo — verifica Node, lock file, versioni esatte, TypeScript prima di ogni push |
+| `scripts/copy-correlati.mjs` | Nuovo — rimpiazzo ESM del fragile `node -e "require(...)"` nel prebuild |
+| `.github/workflows/*.yml` | `timeout-minutes` su tutti i job, `actions/*` pinnate a SHA esatto |
+| `.github/dependabot.yml` | Nuovo — PR automatiche minor/patch ogni lunedì |
+| `WORKING.md` | Sezione "Gestione dipendenze" con procedura completa |
+
+**Gate verificati:**
+- [x] Tutte le versioni in package.json esatte (no `^`/`~`)
+- [x] `package-lock.json` committato e non in `.gitignore`
+- [x] `engines.node: "20.x"` in package.json
+- [x] `.node-version = 20.19.0`
+- [x] `save-exact=true` in `.npmrc`
+- [x] Tutti i workflow hanno `timeout-minutes`
+- [x] `actions/checkout`, `actions/setup-node`, `actions/upload-artifact` pinnate a SHA
+- [x] Dependabot configurato
+- [x] WORKING.md aggiornato con procedura dipendenze
+
+**SHA actions al momento del pin (2026-05-13):**
+- `actions/checkout@v4` → `34e114876b0b11c390a56381ad16ebd13914f8d5`
+- `actions/setup-node@v4` → `49933ea5288caeca8642d1e84afbd3f7d6820020`
+- `actions/upload-artifact@v4` → `ea165f8d65b6e75b540449e92b4886f43607fa02`
 
 ---
 

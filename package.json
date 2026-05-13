@@ -2,40 +2,44 @@
   "name": "ombreeluci",
   "type": "module",
   "version": "0.0.1",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "astro dev",
     "dev:local": "astro dev --host 127.0.0.1 --port 4321",
     "dev:host": "astro dev --host",
     "start": "astro dev",
-    "prebuild": "node scripts/fetch-static-data.mjs && node -e \"require('node:fs').copyFileSync('src/data/correlati.json','public/correlati.json')\"",
+    "prebuild": "node scripts/fetch-static-data.mjs && node scripts/copy-correlati.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "predeploy": "node scripts/predeploy-check.mjs",
     "test": "npm run test:smoke",
     "test:smoke": "node scripts/smoke-i18n.mjs",
     "test:seo": "node scripts/test-seo.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@algolia/autocomplete-js": "^1.19.8",
-    "@astrojs/cloudflare": "^11.2.0",
-    "@astrojs/react": "^3.6.3",
-    "@keystatic/astro": "^5.0.6",
-    "@keystatic/core": "^0.5.48",
-    "astro": "^4.15.0",
-    "astro-pagefind": "^1.8.5",
-    "cheerio": "^1.2.0",
-    "instantsearch.js": "^4.94.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@algolia/autocomplete-js": "1.19.8",
+    "@astrojs/cloudflare": "11.2.0",
+    "@astrojs/react": "3.6.3",
+    "@keystatic/astro": "5.0.6",
+    "@keystatic/core": "0.5.48",
+    "astro": "4.16.19",
+    "astro-pagefind": "1.8.5",
+    "cheerio": "1.2.0",
+    "instantsearch.js": "4.94.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20.14.0",
-    "@types/react": "^18.3.28",
-    "@types/react-dom": "^18.3.7",
-    "algoliasearch": "^5.51.0",
-    "dotenv": "^17.4.2",
-    "typescript": "^5.5.0",
-    "zod": "^3.23.0"
+    "@types/node": "20.19.30",
+    "@types/react": "18.3.28",
+    "@types/react-dom": "18.3.7",
+    "algoliasearch": "5.51.0",
+    "dotenv": "17.4.2",
+    "typescript": "5.9.3",
+    "zod": "3.25.76"
   }
 }

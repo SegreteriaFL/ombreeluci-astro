@@ -10,6 +10,7 @@ jobs:
   check-directus:
     name: Verifica Directus raggiungibile
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     outputs:
       directus_ok: ${{ steps.health.outputs.ok }}
     steps:
@@ -29,6 +30,7 @@ jobs:
   trigger-build:
     name: Trigger Cloudflare Pages
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: check-directus
     steps:
       - name: Trigger Cloudflare Pages deployment (Deploy Hook)

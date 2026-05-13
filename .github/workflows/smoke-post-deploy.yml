@@ -14,9 +14,21 @@ jobs:
   smoke:
     name: Smoke test staging
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '20.19.0'
+
+      - name: Verify build environment
+        run: |
+          echo "Node: $(node --version)"
+          echo "npm: $(npm --version)"
+          node --version | grep -q "v20" || (echo "::error::Wrong Node version — atteso v20.x" && exit 1)
 
       - name: Attesa deploy CF Pages (~3 min)
         run: sleep 200
@@ -149,7 +161,7 @@ jobs:
 
       - name: Upload log
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: smoke-log-${{ github.run_id }}
           path: /tmp/smoke.txt
