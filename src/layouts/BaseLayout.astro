@@ -59,30 +59,48 @@ const lang = headProps.lang ?? 'it';
         var inIframe = (function () { try { return window.self !== window.top; } catch (e) { return true; } })();
         if (!inIframe) document.documentElement.classList.add('page-loading');
 
+        var safetyTimer = null;
+
         function ready() {
+          if (safetyTimer) { clearTimeout(safetyTimer); safetyTimer = null; }
           document.documentElement.classList.remove('page-loading');
           var loader = document.getElementById('page-loader');
-          document.body.classList.add('ready');
+          if (document.body) document.body.classList.add('ready');
           if (loader) {
             loader.classList.add('hidden');
             setTimeout(function () {
               if (loader.parentNode) loader.parentNode.removeChild(loader);
-            }, 250);
+            }, 300);
           }
         }
 
-        document.addEventListener('DOMContentLoaded', ready);
+        // Safety: forza ready() dopo 8s se nessun evento l'ha già chiamata
+        function armSafety() {
+          if (safetyTimer) clearTimeout(safetyTimer);
+          safetyTimer = setTimeout(ready, 8000);
+        }
+        armSafety();
+
+        // DOMContentLoaded: caricamento iniziale
+        // Nota: i module script in <head> sono deferred — DOMContentLoaded li aspetta.
+        // Il readyState check gestisce il caso raro in cui DCL sia già scattato.
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', ready);
+        } else {
+          ready();
+        }
 
         document.addEventListener('astro:before-preparation', function () {
           if (!inIframe) document.documentElement.classList.add('page-loading');
-          document.body.classList.remove('ready');
+          if (document.body) document.body.classList.remove('ready');
           if (!document.getElementById('page-loader')) {
             var newLoader = document.createElement('div');
             newLoader.id = 'page-loader';
             newLoader.setAttribute('aria-hidden', 'true');
             newLoader.innerHTML = '<div class="page-loader-spinner"></div>';
-            document.body.insertBefore(newLoader, document.body.firstChild);
+            if (document.body) document.body.insertBefore(newLoader, document.body.firstChild);
           }
+          armSafety();
         });
 
         document.addEventListener('astro:page-load', ready);
