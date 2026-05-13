@@ -17,19 +17,21 @@ import { getDiaristaByAuthorName, NOMI_DIARISTI } from '../../data/diari.ts';
 
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
-// ── SSR: fetch articolo on-demand ──────────────────────────────────────────────
+// ── SSR: articolo + correlati.json in parallelo (PERF-SSR) ────────────────────
 
 const creds = directusCredsFromAstroLocals(Astro.locals);
 const rawSlug = Astro.params.slug ?? '';
 const slug = rawSlug.replace(/\/$/, '');
 
-let articolo;
-try {
-  articolo = await getArticoloBySlug(slug, creds);
-} catch (e) {
-  console.error('[blog/[...slug].astro] fetch error:', e);
-  articolo = null;
-}
+const [articolo, correlatiMap] = await Promise.all([
+  getArticoloBySlug(slug, creds).catch((e) => {
+    console.error('[it/[slug].astro] fetch error:', e);
+    return null;
+  }),
+  fetch(`${Astro.url.origin}/correlati.json`)
+    .then((r) => (r.ok ? (r.json() as Promise<Record<string, string[]>>) : {}))
+    .catch(() => ({} as Record<string, string[]>)),
+]);
 
 if (!articolo) {
   return new Response('Not found', { status: 404 });
@@ -47,51 +49,38 @@ if (articolo.lang === 'en') {
 Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
 
 // Fase 1 i18n: locale determinato da articolo.lang (fonte autoritativa), non dall'URL.
-// L'URL /blog/slug-en non matcha i pattern EN di getLangFromUrl, portando a shell IT su articoli EN.
-const locale = articolo.lang === 'en' ? 'en' as const : 'it' as const;
-const issueLabel = locale === 'en' ? 'Issue' : 'Numero';
-const badgeIssueAriaLabel = locale === 'en' ? 'Category and issue' : 'Categoria e numero';
-const shareLabelFacebook = locale === 'en' ? 'Share on Facebook' : 'Condividi su Facebook';
-const shareLabelX = locale === 'en' ? 'Share on X (Twitter)' : 'Condividi su X (Twitter)';
-const shareLabelWhatsapp = locale === 'en' ? 'Share on WhatsApp' : 'Condividi su WhatsApp';
-const shareLabelLinkedin = locale === 'en' ? 'Share on LinkedIn' : 'Condividi su LinkedIn';
-const copyLinkLabel = locale === 'en' ? 'Copy link' : 'Copia link';
-const copiedLinkLabel = locale === 'en' ? 'Link copied!' : 'Link copiato!';
+const locale = 'it' as const;
+const issueLabel = 'Numero';
+const badgeIssueAriaLabel = 'Categoria e numero';
+const shareLabelFacebook = 'Condividi su Facebook';
+const shareLabelX = 'Condividi su X (Twitter)';
+const shareLabelWhatsapp = 'Condividi su WhatsApp';
+const shareLabelLinkedin = 'Condividi su LinkedIn';
+const copyLinkLabel = 'Copia link';
+const copiedLinkLabel = 'Link copiato!';
 
-// ── Fetch correlati.json a runtime (mai importato staticamente) ───────────────
+// ── Articoli correlati — slug dalla mappa, poi fallback ───────────────────────
 
-let correlatiMap: Record<string, string[]> = {};
-try {
-  const correlatiRes = await fetch(`${Astro.url.origin}/correlati.json`);
-  if (correlatiRes.ok) correlatiMap = await correlatiRes.json();
-} catch (e) {
-  console.warn('[blog/[...slug].astro] correlati.json fetch failed:', e);
-}
+const correlatiSlugsRaw: string[] = correlatiMap[articolo.slug]?.slice(0, 10) ?? [];
 
-const correlatiSlugsRaw: string[] = correlatiMap[articolo.slug] ?? [];
+let correlatiArticoli: ArticoloListItem[] = correlatiSlugsRaw.length > 0
+  ? await getArticoliBySlugList(correlatiSlugsRaw, creds).catch(() => [])
+  : [];
 
-// Fetch solo gli articoli correlati (max 10) per slugToArticolo, LeggiAnche e correlati in calce.
-// Fallback: se la mappa correlati non contiene lo slug, usa articoli recenti stessa lingua/categoria.
-let correlatiArticoli: ArticoloListItem[] = await getArticoliBySlugList(correlatiSlugsRaw.slice(0, 10), creds).catch(() => []);
 if (correlatiArticoli.length === 0) {
-  const preferred = await getFallbackRelatedArticles(
+  correlatiArticoli = await getFallbackRelatedArticles(
     {
       excludeSlug: articolo.slug,
-      lang: articolo.lang === 'en' ? 'en' : 'it',
+      lang: 'it',
       categoriaMenu: articolo.categoria_menu ?? null,
       limit: 4,
     },
     creds
   ).catch(() => []);
 
-  correlatiArticoli = preferred;
   if (correlatiArticoli.length === 0) {
     correlatiArticoli = await getFallbackRelatedArticles(
-      {
-        excludeSlug: articolo.slug,
-        lang: articolo.lang === 'en' ? 'en' : 'it',
-        limit: 4,
-      },
+      { excludeSlug: articolo.slug, lang: 'it', limit: 4 },
       creds
     ).catch(() => []);
   }

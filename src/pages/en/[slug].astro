@@ -32,33 +32,31 @@ import { getDiaristaByAuthorName, NOMI_DIARISTI } from '../../data/diari.ts';
 
 const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 
-// ── SSR: fetch articolo on-demand ──────────────────────────────────────────────
+// ── SSR: primo tentativo + correlati.json in parallelo (PERF-SSR) ─────────────
+//
+// Strategia lookup a due tentativi (necessaria, rimane sequenziale):
+//   1. Cerca slug esatto (copre articoli EN con slug già inglese)
+//   2. Se non trovato o non EN, cerca slug + '-en' (articoli tradotti)
+// correlati.json parte in parallelo al tentativo 1 — non dipende dall'articolo.
 
 const creds = directusCredsFromAstroLocals(Astro.locals);
-// Slug nell'URL: non include il suffisso '-en' per articoli tradotti (es. /en/il-progetto-dandelion/)
-// ma può coincidere con il Directus slug per articoli originariamente in inglese
-// (es. /en/staying-connected-even-when-im-not-always-there).
-//
-// Strategia lookup a due tentativi:
-//   1. Cerca slug esatto (copre i 58 articoli EN con slug già in inglese)
-//   2. Se non trovato o non EN, cerca slug + '-en' (copre i 73 articoli tradotti)
 const urlSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
 
-let articolo;
-try {
-  articolo = await getArticoloBySlug(urlSlug, creds);
-  // Se trovato ma non è EN, ignoriamo (slug coincide con un articolo IT)
-  if (articolo && articolo.lang !== 'en') articolo = null;
-} catch (e) {
-  articolo = null;
-}
+const [tentativo1, correlatiMap] = await Promise.all([
+  getArticoloBySlug(urlSlug, creds).catch(() => null),
+  fetch(`${Astro.url.origin}/correlati.json`)
+    .then((r) => (r.ok ? (r.json() as Promise<Record<string, string[]>>) : {}))
+    .catch(() => ({} as Record<string, string[]>)),
+]);
+
+let articolo = (tentativo1 && tentativo1.lang === 'en') ? tentativo1 : null;
 
 if (!articolo) {
   // Secondo tentativo: aggiungi '-en' (articoli tradotti IT→EN)
   const directusSlug = urlSlug.endsWith('-en') ? urlSlug : `${urlSlug}-en`;
   try {
-    articolo = await getArticoloBySlug(directusSlug, creds);
-    if (articolo && articolo.lang !== 'en') articolo = null;
+    const t2 = await getArticoloBySlug(directusSlug, creds);
+    articolo = (t2 && t2.lang === 'en') ? t2 : null;
   } catch (e) {
     console.error('[en/[slug].astro] fetch error:', e);
     articolo = null;
@@ -66,7 +64,6 @@ if (!articolo) {
 }
 
 // Questa route serve SOLO articoli EN.
-// Se l'articolo non esiste o non è EN → 404.
 if (!articolo || articolo.lang !== 'en') {
   return new Response('Not found', { status: 404 });
 }
@@ -74,7 +71,6 @@ if (!articolo || articolo.lang !== 'en') {
 // Cache-Control: coerente con la route IT (edge 1h, stale 24h).
 Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
 
-// Locale sempre 'en' su questa route.
 const locale = 'en' as const;
 const issueLabel = 'Issue';
 const badgeIssueAriaLabel = 'Category and issue';
@@ -85,35 +81,26 @@ const shareLabelLinkedin = 'Share on LinkedIn';
 const copyLinkLabel = 'Copy link';
 const copiedLinkLabel = 'Link copied!';
 
-// ── Fetch correlati.json a runtime (mai importato staticamente) ───────────────
-
-let correlatiMap: Record<string, string[]> = {};
-try {
-  const correlatiRes = await fetch(`${Astro.url.origin}/correlati.json`);
-  if (correlatiRes.ok) correlatiMap = await correlatiRes.json();
-} catch (e) {
-  console.warn('[en/[slug].astro] correlati.json fetch failed:', e);
-}
+// ── Articoli correlati EN ─────────────────────────────────────────────────────
 
 let correlatiSlugsRaw: string[] = correlatiMap[articolo.slug] ?? [];
 
-// Se lo slug EN non è in correlati.json, prova con lo slug IT sorgente (correlati.json indicizzato per slug IT)
+// correlati.json è indicizzato per slug IT — prova anche con lo slug del counterpart IT
 const itSourceSlug = (articolo as any).articolo_traduzione?.slug as string | undefined;
 if (correlatiSlugsRaw.length === 0 && itSourceSlug) {
   correlatiSlugsRaw = correlatiMap[itSourceSlug] ?? [];
 }
+correlatiSlugsRaw = correlatiSlugsRaw.slice(0, 10);
 
-// Correlati EN: solo articoli EN.
-// Se correlatiSlugsRaw provengono dallo slug IT, sono slug IT → cerca le traduzioni EN.
+// Se correlatiSlugsRaw provengono dallo slug IT, cerca le traduzioni EN
 let correlatiArticoli: ArticoloListItem[];
 if (correlatiSlugsRaw.length > 0) {
-  const byDirectSlug = await getArticoliBySlugList(correlatiSlugsRaw.slice(0, 10), creds).catch(() => [] as ArticoloListItem[]);
-  const enArticoli = byDirectSlug.filter(a => a.lang === 'en');
+  const byDirectSlug = await getArticoliBySlugList(correlatiSlugsRaw, creds).catch(() => [] as ArticoloListItem[]);
+  const enArticoli = byDirectSlug.filter((a) => a.lang === 'en');
   if (enArticoli.length >= 2) {
     correlatiArticoli = enArticoli;
   } else {
-    // I slugs erano IT — cerca le versioni EN via articolo_traduzione
-    const enByTranslation = await getArticoliEnByItSlugs(correlatiSlugsRaw.slice(0, 10), creds).catch(() => [] as ArticoloListItem[]);
+    const enByTranslation = await getArticoliEnByItSlugs(correlatiSlugsRaw, creds).catch(() => [] as ArticoloListItem[]);
     correlatiArticoli = enByTranslation.length > 0 ? enByTranslation : enArticoli;
   }
 } else {
@@ -121,24 +108,14 @@ if (correlatiSlugsRaw.length > 0) {
 }
 
 if (correlatiArticoli.length === 0) {
-  const preferred = await getFallbackRelatedArticles(
-    {
-      excludeSlug: articolo.slug,
-      lang: 'en',
-      categoriaMenu: articolo.categoria_menu ?? null,
-      limit: 4,
-    },
+  correlatiArticoli = await getFallbackRelatedArticles(
+    { excludeSlug: articolo.slug, lang: 'en', categoriaMenu: articolo.categoria_menu ?? null, limit: 4 },
     creds
   ).catch(() => []);
 
-  correlatiArticoli = preferred;
   if (correlatiArticoli.length === 0) {
     correlatiArticoli = await getFallbackRelatedArticles(
-      {
-        excludeSlug: articolo.slug,
-        lang: 'en',
-        limit: 4,
-      },
+      { excludeSlug: articolo.slug, lang: 'en', limit: 4 },
       creds
     ).catch(() => []);
   }

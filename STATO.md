@@ -1,6 +1,24 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-13 (DIARI-REDESIGN completato)
+**Ultimo aggiornamento:** 2026-05-14 (PERF-SSR completato)
+
+---
+
+## PERF-SSR — Parallelizza fetch articolo + correlati (2026-05-14)
+
+| File | Cambio | Risparmio atteso |
+|---|---|---|
+| `it/[slug].astro` | `Promise.all([getArticoloBySlug, fetch(correlati.json)])` | ~100ms (1 round-trip Directus eliminato dalla catena critica) |
+| `en/[slug].astro` | Stesso pattern; lookup a 2 tentativi rimane sequenziale (necessario) | ~100ms caso normale (slug EN diretto) |
+
+**Caso normale IT:** 2 richieste → ora in parallelo, poi 1 sequenziale per correlati = **~200ms** invece di ~300ms
+**Caso peggiore IT (no correlati):** `Promise.all` + 2 fallback sequenziali = **~400ms** invece di ~500ms
+**Caso normale EN (slug diretto):** `Promise.all` + correlati = **~200ms** invece di ~300ms
+**Caso peggiore EN (slug+'-en'):** secondo tentativo sequenziale + correlati = **~300ms** invece di ~400ms
+
+Gate:
+- [x] `npm run build` verde
+- [x] tsc zero errori (incluso nel build)
 **Staging:** https://ombreeluci-staging.pages.dev
 **CMS:** https://cms.ombreeluci.it
 **Repo:** SegreteriaFL/ombreeluci-astro
