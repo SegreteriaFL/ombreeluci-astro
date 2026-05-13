@@ -2,18 +2,25 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import DiarioContent from '../../../components/DiarioContent.astro';
 import { DIARISTI, getDiaristaByDiarioSlug } from '../../../data/diari.ts';
-import { getAllAutori, getAutoreImageUrl } from '../../../lib/directus';
+import { getAllAutori, getAutoreImageUrl, getAllSerieDiari } from '../../../lib/directus';
 import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
 export async function getStaticPaths() {
-  const allArticoli = await getAllArticoliBuild();
-  const allAutori = await getAllAutori();
+  const [allArticoli, allAutori, serieDiari] = await Promise.all([
+    getAllArticoliBuild(),
+    getAllAutori(),
+    getAllSerieDiari(),
+  ]);
+
+  const serieBySlug = Object.fromEntries(serieDiari.map((s) => [s.slug, s]));
 
   const paths: { params: { diario: string }; props: Record<string, unknown> }[] = [];
 
   for (const d of DIARISTI) {
     const autore = allAutori.find((a) => a.slug === d.authorSlug);
     const fotoUrl = autore?.foto?.id ? getAutoreImageUrl(autore.foto.id) : '';
+    const serie = serieBySlug[d.diarioSlug];
+    const descrizioneDiario = serie?.descrizione_en ?? serie?.descrizione ?? '';
 
     const articoli = allArticoli
       .filter((a) => a.lang === 'en' && (a.autore?.nome_completo || '').trim() === d.nome)
@@ -29,7 +36,7 @@ export async function getStaticPaths() {
         nomeAutore: d.nome,
         titoloDiario: d.titoloDiario,
         fotoUrl,
-        descrizioneDiario: d.descrizioneDiario,
+        descrizioneDiario,
         articoli,
       },
     });

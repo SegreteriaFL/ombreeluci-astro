@@ -117,6 +117,8 @@ export interface SerieRef {
   id: string;
   slug: string;
   nome: string;
+  descrizione: string | null;
+  descrizione_en: string | null;
 }
 
 export interface FileRef {
@@ -248,7 +250,7 @@ const ARTICOLO_LIST_FIELDS = [
   'didascalia_copertina',
   'temi.temi_id.id', 'temi.temi_id.slug', 'temi.temi_id.nome',
   'tags.tags_id.id', 'tags.tags_id.slug', 'tags.tags_id.nome',
-  'serie.id', 'serie.slug', 'serie.nome',
+  'serie.id', 'serie.slug', 'serie.nome', 'serie.descrizione', 'serie.descrizione_en',
   'articolo_traduzione.id', 'articolo_traduzione.slug', 'articolo_traduzione.lang',
 ].join(',');
 
@@ -291,7 +293,7 @@ export async function getArticoloBySlug(
       'autore.bio_html', 'autore.bio_en', 'autore.foto.id', 'autore.foto.filename_download',
       'numero_rivista.id', 'numero_rivista.id_numero', 'numero_rivista.display_title',
       'numero_rivista.anno_pubblicazione', 'numero_rivista.copertina_url',
-      'serie.id', 'serie.slug', 'serie.nome',
+      'serie.id', 'serie.slug', 'serie.nome', 'serie.descrizione', 'serie.descrizione_en',
       'immagine_copertina.id', 'immagine_copertina.filename_download',
       'temi.temi_id.id', 'temi.temi_id.slug', 'temi.temi_id.nome',
       'tags.tags_id.id', 'tags.tags_id.slug', 'tags.tags_id.nome',
@@ -581,6 +583,20 @@ export async function getArticoliByAutore(autoreSlug: string): Promise<ArticoloL
  * Descrizione editoriale di una categoria/sezione/forma per slug.
  * La redazione edita queste descrizioni direttamente da Directus → Categorie.
  */
+export async function getSerieBySlug(slug: string): Promise<SerieRef | null> {
+  const data = await directusFetch<{ data: SerieRef[] }>(
+    `/items/serie?filter[slug][_eq]=${encodeURIComponent(slug)}&fields=id,slug,nome,descrizione,descrizione_en&limit=1`
+  );
+  return (data as any)?.data?.[0] ?? null;
+}
+
+export async function getAllSerieDiari(): Promise<SerieRef[]> {
+  const data = await directusFetch<{ data: SerieRef[] }>(
+    `/items/serie?filter[slug][_starts_with]=diario-di&fields=id,slug,nome,descrizione,descrizione_en&limit=50`
+  );
+  return (data as any)?.data ?? [];
+}
+
 export async function getCategoriaDescrizione(slug: string): Promise<{ nome: string; descrizione: string | null } | null> {
   const data = await directusFetch<{ data: { slug: string; nome: string; descrizione: string | null } }>(
     `/items/categorie/${encodeURIComponent(slug)}?fields=slug,nome,descrizione`

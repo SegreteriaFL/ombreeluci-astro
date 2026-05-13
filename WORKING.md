@@ -59,6 +59,28 @@ src/
 
 ---
 
+## Testi italiani — regola assoluta (non negoziabile)
+
+**Nessun testo italiano hardcoded nel codice TypeScript, JavaScript o Astro.**
+
+Fonti accettate per testi in lingua naturale:
+- **Directus** — collection `contenuti_statici`, `serie`, `categorie`, ecc.
+- **`src/data/*.json`** — dati strutturati statici senza testo libero in italiano
+- **`src/utils/i18n.ts`** — traduzioni brevi con template literal `` `...` ``
+
+Vietato:
+```ts
+// MAI
+const desc = 'Sei voci, sei storie in corso...';
+descrizioneDiario: 'Sono nata a Roma...',
+```
+
+Motivo tecnico: le stringhe single-quoted con apostrofi italiani (`l'autonomia`, `D'Arco`) terminano la stringa nel bundle esbuild SSR. Causa errori di build silenziosi o difficili da debuggare.
+
+Caso concreto (2026-05-14): i testi `descrizioneDiario` in `diari.ts` causavano crash del bundle SSR con `Unexpected "'"`. Soluzione: descrizioni spostate in Directus collection `serie`, campo `descrizione` / `descrizione_en`.
+
+---
+
 ## Regole CSS (non negoziabili)
 
 Usare sempre le classi globali esistenti in `global.css` (`.container`, `.site-main`, ecc.).
