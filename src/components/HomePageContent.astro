@@ -132,7 +132,7 @@ const issuePeriodLabel = ultimoNumero
                 : <span class="hero-avatar hero-avatar--placeholder">{meta.author.charAt(0)}</span>
               }
               <span class="hero-byline-text">
-                {lang === 'en' ? 'By' : 'Di'} <strong>{meta.author}</strong>
+                <strong>{meta.author}</strong>
                 {meta.categoria_menu && (
                   <> &middot; <span class="hero-cat-label">{meta.categoria_menu.replace(/-/g, ' ')}</span></>
                 )}
@@ -221,7 +221,7 @@ const issuePeriodLabel = ultimoNumero
                   <h2 class="home-featured-title">{meta.title}</h2>
                   {meta.sommario && <p class="home-featured-deck">{meta.sommario}</p>}
                   <p class="home-byline">
-                    {lang === 'en' ? 'By' : 'Di'} <strong>{meta.author}</strong> · {formatDate(meta.date)}
+                    <strong>{meta.author}</strong> · {formatDate(meta.date)}
                   </p>
                 </a>
               </article>
@@ -240,7 +240,7 @@ const issuePeriodLabel = ultimoNumero
               <div>
                 <p class="home-cat-small">{meta.categoria_menu || t(lang, 'badge_online')}</p>
                 <h3 class="home-recenti-title">{meta.title}</h3>
-                <p class="home-byline-small">{lang === 'en' ? 'By' : 'Di'} {meta.author}</p>
+                <p class="home-byline-small">{meta.author}</p>
               </div>
             </a>
           ))}
@@ -324,7 +324,7 @@ const issuePeriodLabel = ultimoNumero
               <div class="home-testi-body">
                 <p class="home-cat">{lang === 'en' ? 'Testimonial' : 'Testimonianza'}</p>
                 <h3 class="home-testi-title">{meta.title}</h3>
-                <p class="home-byline-small">{lang === 'en' ? 'By' : 'Di'} {meta.author} · {formatDate(meta.date)}</p>
+                <p class="home-byline-small">{meta.author} · {formatDate(meta.date)}</p>
               </div>
             </a>
           ))}
