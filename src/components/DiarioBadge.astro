@@ -1,4 +1,6 @@
 ---
+import IconDiari from './IconDiari.astro';
+
 interface Props {
   titoloDiario: string;
   diarioHref: string;
@@ -15,7 +17,7 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
 <div class="diario-article-fascia">
   <div class="diario-fascia-inner">
     <a href={hubHref} class="diario-fascia-hub">
-      <img src="/images/diari/icon-diari.svg" alt="" aria-hidden="true" class="diario-fascia-icon" width="18" height="18" />
+      <IconDiari size={16} class="diario-fascia-icon" />
       {hubLabel}
     </a>
     <span class="diario-fascia-sep" aria-hidden="true"> · </span>
@@ -67,11 +69,6 @@ const { titoloDiario, diarioHref, nomeAutore, hubHref, hubLabel, byLabel, autore
 
   .diario-fascia-hub:hover {
     text-decoration: underline;
-  }
-
-  .diario-fascia-icon {
-    flex-shrink: 0;
-    display: block;
   }
 
   .diario-fascia-sep {
