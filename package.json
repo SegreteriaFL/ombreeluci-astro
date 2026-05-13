@@ -39,7 +39,7 @@
     "@types/react-dom": "18.3.7",
     "algoliasearch": "5.51.0",
     "dotenv": "17.4.2",
-    "typescript": "5.9.3",
+    "typescript": "6.0.3",
     "zod": "3.25.76"
   }
 }
