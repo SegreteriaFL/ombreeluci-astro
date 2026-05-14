@@ -705,6 +705,8 @@ const alternates: { lang: string; url: string }[] = [
         <a href="/en/" class="widget-link">{t('en', 'nav_archive')}</a>
       </div>
 
+      <Commenti articoloId={articolo.id} lang="en" />
+
       {/* Articoli correlati in calce — basePath="/en" per URL corretti */}
       {relatedArticles.length > 0 && (
         <section class="related-footer-section" aria-label="Related articles">
@@ -730,8 +732,6 @@ const alternates: { lang: string; url: string }[] = [
           </div>
         </section>
       )}
-
-      <Commenti articoloId={articolo.id} lang="en" />
 
       <section class="article-nav-section" aria-label={t('en', 'aria_article_bottom_nav')}>
         <a href="/en/" class="back-link">← {t('en', 'back_to_home')}</a>

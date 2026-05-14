@@ -705,13 +705,13 @@ const relatedArticles = (() => {
       </div>
 
 
+      <Commenti articoloId={articolo.id} lang={locale} />
+
 {/* Articoli correlati in calce (full-width, griglia ArticleCard) */}
       {relatedArticles.length > 0 && (
-        <section class="related-footer-section" aria-label={locale === 'en' ? 'Related articles' : 'Articoli correlati'}>
+        <section class="related-footer-section" aria-label="Articoli correlati">
           <div class="related-footer-inner">
-            <h2 class="related-footer-title">
-              {locale === 'en' ? 'Related articles' : 'Articoli correlati'}
-            </h2>
+            <h2 class="related-footer-title">Articoli correlati</h2>
             <div class="related-footer-grid">
               {relatedArticles.map((rel) => (
                 <ArticleCard
@@ -731,8 +731,6 @@ const relatedArticles = (() => {
           </div>
         </section>
       )}
-
-      <Commenti articoloId={articolo.id} lang={locale} />
 
       <section class="article-nav-section" aria-label={t(locale, 'aria_article_bottom_nav')}>
         <a href={locale === 'en' ? '/en/' : '/'} class="back-link">← {t(locale, 'back_to_home')}</a>
