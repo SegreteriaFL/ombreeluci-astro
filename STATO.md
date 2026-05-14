@@ -43,6 +43,28 @@ Ricerca `_contains=(?)` su tutti gli articoli IT tramite Directus API.
 
 ---
 
+## BUG-REGEX — Root cause identificata (2026-05-14)
+
+**Causa:** `src/components/Commenti.astro` riga 149 ha TypeScript puro in uno script `define:vars`:
+
+```ts
+charsLeft: (n: number) => _isEn ? `${n} characters remaining` : `${n} caratteri rimanenti`,
+```
+
+Gli script `<script define:vars={{ ... }}>` in Astro **non vengono compilati da Vite/TypeScript** — vengono inseriti come inline raw nell'HTML. Il browser riceve `(n: number)` e fallisce con `SyntaxError: missing ) in parenthetical` alla posizione della `:` in `n: number` (col 18, riga ~74 del documento renderizzato).
+
+**Non è article-specific.** L'errore appare su TUTTI gli articoli con commenti abilitati. La riga varia (74, 76, ecc.) perché dipende dalla lunghezza del corpo dell'articolo che precede lo script nel documento HTML.
+
+**Fix necessario (non implementato in questo audit):**
+```ts
+// Commenti.astro riga 149 — rimuovere `: number`
+charsLeft: (n) => _isEn ? `${n} characters remaining` : `${n} caratteri rimanenti`,
+```
+
+**File:** `src/components/Commenti.astro:149`
+
+---
+
 ## DIRECTUS-FALLBACK — Resilienza build SSG a Directus 503 (2026-05-14)
 
 | Funzione | Fix |
