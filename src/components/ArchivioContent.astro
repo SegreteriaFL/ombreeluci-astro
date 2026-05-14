@@ -19,7 +19,7 @@ interface Props {
   lang: Locale;
   numeriOrdinati: NumeroRivista[];
   anni: number[];
-  ultimoNumero: NumeroRivista;
+  ultimoNumero: NumeroRivista | null | undefined;
 }
 
 const { lang, numeriOrdinati, anni, ultimoNumero } = Astro.props;
@@ -30,12 +30,19 @@ function numeroFromId(idNumero: string): number {
 }
 
 const archiveBase = lang === 'en' ? '/en/archive' : '/it/archivio';
-const ultimoSlug = String(ultimoNumero.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-');
-const ultimoIssueHref = `${archiveBase}/${ultimoSlug}`;
+const ultimoSlug = ultimoNumero
+  ? String(ultimoNumero.id_numero).toLowerCase().replace(/[^a-z0-9-]/g, '-')
+  : '';
+const ultimoIssueHref = ultimoSlug ? `${archiveBase}/${ultimoSlug}` : archiveBase;
 ---
 
 <main class="site-main">
-  <div class="archivio-container">
+  {numeriOrdinati.length === 0 && (
+    <div style="text-align:center;padding:4rem 2rem;color:var(--text-secondary)">
+      <p>{lang === 'en' ? 'Archive temporarily unavailable. Please try again later.' : 'Archivio temporaneamente non disponibile. Riprova tra qualche minuto.'}</p>
+    </div>
+  )}
+  <div class="archivio-container" style={numeriOrdinati.length === 0 ? 'display:none' : ''}>
 
     <!-- Intro centrata -->
     <div class="mag-intro">

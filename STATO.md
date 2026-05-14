@@ -1,6 +1,20 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-14 (fix edit-btn, will-change, diagnosi BUG-REGEX)
+**Ultimo aggiornamento:** 2026-05-14 (fix fallback Directus 503 su build SSG)
+
+---
+
+## DIRECTUS-FALLBACK — Resilienza build SSG a Directus 503 (2026-05-14)
+
+| Funzione | Fix |
+|---|---|
+| `getAllNumeriRivista()` | try/catch → `[]` su errore/503 |
+| `getAllAutori()` | try/catch → `[]` su errore/503 |
+| `getAllSerieDiari()` | try/catch → `[]` su errore/503 |
+| `getContenutiStatici()` | try/catch → `{}` su errore/503 |
+| `ArchivioContent.astro` | `ultimoNumero` reso nullable + fallback visivo se `numeriOrdinati.length === 0` |
+
+**Fix 5 (hero grid dedup) — non un bug:** la colonna sinistra e destra del hero grid usano lo stesso array `latestArticles` by design. La destra è la lista di selezione, la sinistra il big view. `usedSlugs` deduplica correttamente rotationPool vs latestArticles.
 
 ---
 

@@ -444,17 +444,22 @@ async function getArticoliCountByAutoreId(): Promise<Map<string, number>> {
  * Tutti gli autori, con `articoli_count` (articoli pubblicati) da aggregazione Directus.
  */
 export async function getAllAutori(): Promise<Autore[]> {
-  const [countByAutore, authorsRes] = await Promise.all([
-    getArticoliCountByAutoreId(),
-    directusFetch<{ data: Autore[] }>(
-      '/items/autori?fields=id,slug,nome_completo,bio_html,bio_en,foto.id,foto.filename_download&limit=-1&sort=nome_completo'
-    ),
-  ]);
-  if (!authorsRes?.data) return [];
-  return authorsRes.data.map((a) => ({
-    ...a,
-    articoli_count: countByAutore.get(a.id) ?? 0,
-  }));
+  try {
+    const [countByAutore, authorsRes] = await Promise.all([
+      getArticoliCountByAutoreId(),
+      directusFetch<{ data: Autore[] }>(
+        '/items/autori?fields=id,slug,nome_completo,bio_html,bio_en,foto.id,foto.filename_download&limit=-1&sort=nome_completo'
+      ),
+    ]);
+    if (!authorsRes?.data) return [];
+    return authorsRes.data.map((a) => ({
+      ...a,
+      articoli_count: countByAutore.get(a.id) ?? 0,
+    }));
+  } catch (e) {
+    console.warn('[directus] getAllAutori fallback: []', e);
+    return [];
+  }
 }
 
 /**
@@ -494,11 +499,16 @@ export async function getArticoliByAutoreSlug(autoreSlug: string, lang: 'it' | '
 const NUMERO_FIELDS = 'id,id_numero,display_title,titolo_tema,numero_progressivo,anno_pubblicazione,tipo,descrizione,pdf_archive_url,wp_url,copertina,copertina_url,periodo_label';
 
 export async function getAllNumeriRivista(): Promise<NumeroRivista[]> {
-  const data = await directusFetch<{ data: NumeroRivista[] }>(
-    `/items/numeri_rivista?fields=${NUMERO_FIELDS}&limit=-1&sort=anno_pubblicazione`
-  );
-  if (!data) return [];
-  return data.data ?? [];
+  try {
+    const data = await directusFetch<{ data: NumeroRivista[] }>(
+      `/items/numeri_rivista?fields=${NUMERO_FIELDS}&limit=-1&sort=anno_pubblicazione`
+    );
+    if (!data) return [];
+    return data.data ?? [];
+  } catch (e) {
+    console.warn('[directus] getAllNumeriRivista fallback: []', e);
+    return [];
+  }
 }
 
 export async function getUltimoNumeroRivista(): Promise<NumeroRivista | null> {
@@ -591,10 +601,15 @@ export async function getSerieBySlug(slug: string): Promise<SerieRef | null> {
 }
 
 export async function getAllSerieDiari(): Promise<SerieRef[]> {
-  const data = await directusFetch<{ data: SerieRef[] }>(
-    `/items/serie?filter[slug][_starts_with]=diario-di&fields=id,slug,nome,descrizione,descrizione_en&limit=50`
-  );
-  return (data as any)?.data ?? [];
+  try {
+    const data = await directusFetch<{ data: SerieRef[] }>(
+      `/items/serie?filter[slug][_starts_with]=diario-di&fields=id,slug,nome,descrizione,descrizione_en&limit=50`
+    );
+    return (data as any)?.data ?? [];
+  } catch (e) {
+    console.warn('[directus] getAllSerieDiari fallback: []', e);
+    return [];
+  }
 }
 
 export async function getCategoriaDescrizione(slug: string): Promise<{ nome: string; descrizione: string | null } | null> {
@@ -918,20 +933,25 @@ export async function getContenutiStatici(
   gruppo?: string,
   creds?: DirectusRuntimeCreds
 ): Promise<Record<string, ContenutoStatico>> {
-  const params = new URLSearchParams({
-    'fields[]': 'chiave,valore_it,valore_en,tipo,gruppo,ordine',
-    'limit': '-1',
-  });
-  if (gruppo) {
-    params.set('filter[gruppo][_eq]', gruppo);
+  try {
+    const params = new URLSearchParams({
+      'fields[]': 'chiave,valore_it,valore_en,tipo,gruppo,ordine',
+      'limit': '-1',
+    });
+    if (gruppo) {
+      params.set('filter[gruppo][_eq]', gruppo);
+    }
+    const data = await directusFetch<{ data: ContenutoStatico[] }>(
+      `/items/contenuti_statici?${params}`,
+      creds
+    );
+    return Object.fromEntries(
+      (data?.data ?? []).map((c: ContenutoStatico) => [c.chiave, c])
+    );
+  } catch (e) {
+    console.warn('[directus] getContenutiStatici fallback: {}', e);
+    return {};
   }
-  const data = await directusFetch<{ data: ContenutoStatico[] }>(
-    `/items/contenuti_statici?${params}`,
-    creds
-  );
-  return Object.fromEntries(
-    (data?.data ?? []).map((c: ContenutoStatico) => [c.chiave, c])
-  );
 }
 
 /**
