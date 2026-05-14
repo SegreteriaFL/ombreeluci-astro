@@ -112,11 +112,14 @@ const authorBasePath = getAuthorBasePath(lang);
   }
 
   .article-card--horizontal {
-    flex-direction: row;
-    gap: 1rem;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    column-gap: 1rem;
+    row-gap: 0.35rem;
+    align-items: start;
   }
   .article-card--horizontal .article-link {
+    grid-column: 1 / -1;
     flex-direction: row;
     gap: 1rem;
     align-items: flex-start;
@@ -132,11 +135,15 @@ const authorBasePath = getAuthorBasePath(lang);
     -webkit-line-clamp: 3;
   }
   .article-card--horizontal .author-row {
+    grid-column: 2;
     font-size: 0.8125rem;
     white-space: normal;
     flex-wrap: wrap;
   }
   @media (max-width: 480px) {
+    .article-card--horizontal {
+      grid-template-columns: 100px 1fr;
+    }
     .article-card--horizontal .article-image-wrap {
       width: 100px;
       min-width: 100px;
