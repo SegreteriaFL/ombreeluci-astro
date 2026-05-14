@@ -1,6 +1,13 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-14 (audit immagini Directus — tutto pulito)
+**Ultimo aggiornamento:** 2026-05-14 (sessione completa — vedi bug_ux_ui.md § "Fix sessione 2026-05-14")
+
+Ultimi fix non ancora in sezioni dedicate:
+- `3cc4f72a` BUG-REGEX: Commenti.astro TypeScript in define:vars → SyntaxError su tutti gli articoli. Fix: rimosso.
+- `c3a0307b` Homepage sidebar Recenti non mostra più l'articolo hero; ArticleCard horizontal display:flex + width 220px
+- `891f975a` Articolo: author-row ristrutturato, CTA "Contribuisci" button, archival-alert lowercase, floating-widget rimosso
+- `d568b734` Rimosso pulsante "Modifica in Directus" + fetch /users/me (401 console), will-change cleanup
+- `f18f898f` article-badge-role display:none
 
 ---
 
