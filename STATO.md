@@ -1,6 +1,26 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-14 (fix fallback Directus 503 su build SSG)
+**Ultimo aggiornamento:** 2026-05-14 (audit immagini Directus — tutto pulito)
+
+---
+
+## Audit immagini mancanti (2026-05-14) — solo lettura
+
+| Metrica | Valore |
+|---|---|
+| File totali in Directus (`directus_files`) | **3429** |
+| File con `filesize ≤ 0` (corrotti/vuoti) | **0** |
+| Articoli totali | **6971** |
+| Articoli con `immagine_copertina` valorizzata | **5864** |
+| Articoli senza copertina (usa placeholder) | **1107** |
+| Articoli con copertina → file UUID mancante | **0** |
+| Numeri rivista totali | **205** |
+| Numeri rivista con campo `copertina` (file) valorizzato | **1** (OEL-173) |
+| Numeri rivista con copertina → file UUID mancante | **0** |
+
+**Conclusione: nessun file corrotto, nessun riferimento rotto.** Tutti i 5864 articoli con immagine_copertina puntano a file validi esistenti. I 1107 articoli senza copertina sono in stato normale (mostrano placeholder in frontend). I 204 numeri rivista senza campo `copertina` usano il campo `copertina_url` (URL esterno R2 — non verificato in questo audit).
+
+**Nota tecnica:** `meta.total_count` in Directus 11 restituisce sempre il totale della collection ignorando i filtri — usare `meta.filter_count` per conteggi filtrati corretti.
 
 ---
 
