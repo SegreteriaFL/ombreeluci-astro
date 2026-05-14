@@ -143,10 +143,11 @@ const ui = lang === 'en' ? {
 </section>
 
 <script define:vars={{ commentoLang: lang, commentoSubmitBtn: ui.submitBtn }}>
+  // define:vars non viene compilato da TypeScript — solo JS vanilla
   const _isEn = commentoLang === 'en';
   const _str = {
     submitting: _isEn ? 'Submitting…' : 'Invio in corso…',
-    charsLeft: (n: number) => _isEn ? `${n} characters remaining` : `${n} caratteri rimanenti`,
+    charsLeft: (n) => _isEn ? `${n} characters remaining` : `${n} caratteri rimanenti`,
     success: _isEn
       ? 'Thank you! Your comment has been submitted and will be published after editorial approval.'
       : 'Grazie! Il tuo commento è stato inviato e sarà pubblicato dopo approvazione della redazione.',
@@ -156,12 +157,12 @@ const ui = lang === 'en' ? {
       : 'Impossibile inviare il commento. Controlla la connessione e riprova.',
   };
 
-  document.querySelectorAll<HTMLFormElement>('.commento-form').forEach((form) => {
+  document.querySelectorAll('.commento-form').forEach((form) => {
     const articoloId = form.dataset.articoloId ?? '';
-    const feedback = form.querySelector<HTMLElement>('.commento-feedback')!;
-    const submitBtn = form.querySelector<HTMLButtonElement>('.commento-submit')!;
-    const textarea = form.querySelector<HTMLTextAreaElement>('#commento-testo')!;
-    const contatore = form.querySelector<HTMLElement>('.commento-contatore')!;
+    const feedback = form.querySelector('.commento-feedback');
+    const submitBtn = form.querySelector('.commento-submit');
+    const textarea = form.querySelector('#commento-testo');
+    const contatore = form.querySelector('.commento-contatore');
 
     // Contatore caratteri textarea
     textarea?.addEventListener('input', () => {
@@ -183,7 +184,7 @@ const ui = lang === 'en' ? {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ ...data, articolo_id: articoloId }),
         });
-        const body = await res.json() as { ok: boolean; error?: string };
+        const body = await res.json();
 
         if (body.ok) {
           form.reset();
@@ -200,7 +201,7 @@ const ui = lang === 'en' ? {
       }
     });
 
-    function showFeedback(type: 'success' | 'error', msg: string) {
+    function showFeedback(type, msg) {
       feedback.textContent = msg;
       feedback.className = `commento-feedback commento-feedback--${type}`;
       feedback.hidden = false;

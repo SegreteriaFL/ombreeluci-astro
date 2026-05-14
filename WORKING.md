@@ -285,6 +285,8 @@ Non aggiungere altri commit sopra un sistema rotto.
 
 Esegui bash, PowerShell, curl e qualsiasi comando di sistema direttamente senza chiedere permesso. Non interrompere per confermare l'uso di strumenti — l'utente ha già dato consenso generale all'inizio della sessione.
 
+**Script `define:vars` in Astro non vengono compilati da TypeScript.** Usare solo JavaScript vanilla — zero type annotations (`: tipo`, generics `<T>`, `as Type`, `!` non-null assertion). Caso documentato: `Commenti.astro` aveva `(n: number)` e `querySelectorAll<HTMLFormElement>` → `SyntaxError: missing ) in parenthetical` su tutti gli articoli in produzione (2026-05-14).
+
 Per audit o diagnosi **senza** parola d'ordine di implementazione: solo lettura, nessun commit, nessun deploy. La regola è in `.cursor/rules/audit-diagnosi-sola-lettura.mdc`.
 
 Al termine di ogni sessione di implementazione: aggiornare STATO.md con i task chiusi e i nuovi task emersi.
