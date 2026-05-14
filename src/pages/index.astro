@@ -130,9 +130,10 @@ const rotationPool = (() => {
 const featuredPool = rotationPool.slice(0, 4);
 
 // 2. RECENTI (sezione sotto hero) — esclude hero
+// latestArticles[0] → articolo hero (big left); latestArticles[1..] → sidebar Recenti
 const latestArticles = sortedArticles
   .filter((a) => !usedSlugs.has(a.slug))
-  .slice(0, 6)
+  .slice(0, 7)
   .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
 // 3. DIARI — ultimo articolo per diarista, esclude hero+recenti

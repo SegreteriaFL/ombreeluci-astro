@@ -135,9 +135,10 @@ const rotationPool = (() => {
 const featuredPool = rotationPool.slice(0, 4);
 
 // 2. RECENTI — esclude hero
+// latestArticles[0] → articolo hero (big left); latestArticles[1..] → sidebar Recenti
 const latestArticles = sortedEN
   .filter((a) => !usedSlugs.has(a.slug))
-  .slice(0, 6)
+  .slice(0, 7)
   .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
 // 3. CLOSE UP (sezione Da vicino EN, in assenza di diari) — esclude hero+recenti

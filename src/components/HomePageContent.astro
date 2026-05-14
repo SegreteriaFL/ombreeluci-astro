@@ -204,7 +204,7 @@ const issuePeriodLabel = ultimoNumero
         <div>
           <p class="home-tagline">{t(lang, 'home_tagline')}</p>
           <div id="hero-pool">
-            {latestArticles.map((meta, i) => (
+            {latestArticles.slice(0, 1).map((meta, i) => (
               <article data-hero-candidate style={i > 0 ? 'display:none' : ''}>
                 <a href={`${articleBasePath}/${meta.slug}`}>
                   <figure class="home-featured-figure">
@@ -231,7 +231,7 @@ const issuePeriodLabel = ultimoNumero
 
         <aside class="home-recenti">
           <h2 class="section-title">{t(lang, 'home_section_recent')}</h2>
-          {latestArticles.map((meta) => (
+          {latestArticles.slice(1).map((meta) => (
             <a href={`${articleBasePath}/${meta.slug}`} class="home-recenti-item">
               <div class="home-recenti-thumb">
                 <img src={meta.image || PLACEHOLDER_COPERTINA} alt="" loading="lazy"
