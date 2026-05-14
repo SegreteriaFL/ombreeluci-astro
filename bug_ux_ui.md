@@ -12,7 +12,44 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 -->
 
 ------
-[x] 
+
+## Fix sessione 2026-05-14
+
+| Hash | Area | Fix |
+|---|---|---|
+| `d70392d6` | Diari | Redesign hub griglia 2col + hero diario + fascia articolo; aggiunta Valeria Antonucci (Scorribande) |
+| `effb44ca` | Diari | Descrizioni diari spostate da codice TypeScript a Directus (collection `serie`) — regola testi IT |
+| `6d92691f` | Diari | Icona libro SVG inline (`IconDiari.astro`); CSS hero foto: rimossi border-radius/border/shadow; hub item |
+| `1ba93d3a` | Diari | Icona libro aggiornata con SVG dell'utente, `fill=currentColor` |
+| `807ec7b0` | Diari | Fascia articolo: foto prima del titolo, allineata al bordo basso, titolo in accent-color |
+| `62ec465a` | Diari | Fascia: rimossi separatori `·`, foto 144×48px, padding-top 0 |
+| `808d46dc` | Diari | Fascia: rimosso nome autore (solo icona + "I DIARI" + foto + titolo diario) |
+| `7761ce72` | Loader | Spinner sempre visibile: aggiunto safety timeout 8s + null guard su `document.body` + `readyState` check |
+| `4df87dbd` | Perf SSR | `Promise.all([getArticoloBySlug, fetch(correlati.json)])` su IT e EN — ~100ms risparmiati per request |
+| `0b45e5d3` | Articolo | Commenti spostati sopra i correlati in calce (IT + EN) |
+| `ec835d39` | Card | `ArticleCard` horizontal: CSS grid → author-row dentro colonna testo, sotto excerpt |
+| `d568b734` | Articolo | Rimosso pulsante "Modifica in Directus" + fetch `/users/me` (eliminato 401 in console) + `will-change` |
+| `891f975a` | Articolo | 4 fix UX: author-row HTML ristrutturato, CTA → button "Contribuisci", archival-alert lowercase, floating-widget rimosso |
+| `f7d90900` | Infra | Fallback `try/catch → []` su 4 funzioni Directus SSG; `ArchivioContent` resiliente a 503 |
+| `c3a0307b` | Homepage | Dedup sidebar Recenti (non mostra più l'articolo hero); `ArticleCard` horizontal: `display:flex` + width 220px |
+| `fb331ea9` | Audit | Immagini Directus: 3429 file, 0 corrotti, 5864 articoli con copertina, 0 riferimenti rotti |
+| `8250a12a` | Audit | BUG-REGEX: 2 articoli con `(?` letterario (non problematici); `un-pellegrinaggio` corpo pulito |
+| `3391b060` | Docs | Root cause BUG-REGEX documentata: `define:vars` bypassa TypeScript; regola permessi agenti in WORKING.md |
+| `3cc4f72a` | BUG-REGEX | `Commenti.astro`: rimosso TypeScript da script `define:vars` — fix `SyntaxError: missing ) in parenthetical` su tutti gli articoli |
+
+------
+
+[] PERF-IMG-DIMENSIONS: tutte le immagini del sito devono avere 
+   attributi width e height espliciti per evitare layout shift (CLS).
+   Audit con: grep -rn "<img" src/components/ src/pages/ src/layouts/ 
+   | grep -v "width=" 
+   Per ogni img senza width/height: aggiungere dimensioni esplicite 
+   o aspect-ratio CSS sul container.
+   Riferimento PSI: "Gli elementi immagine non hanno width e height esplicite"
+   // file: src/components/*.astro, src/layouts/*.astro
+
+
+
 [x] commenti spostato sopra correlati
 [x] La fascia azzurra dari mostra solo: [icona] I DIARI [foto] NasoMano
 [x] togli "Di" e "By" prima degli autori dapperttutto
@@ -106,8 +143,8 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    Come inserire nuovi articoli in un diario esistente?
    // via: Directus campo serie/diario su articolo
 
-[] DIARI-GRAFICA: modificare graficamente i post dei diari.
-   // file: src/components/DiarioContent.astro o DiarioLayout.astro
+[x] DIARI-GRAFICA: modificare graficamente i post dei diari. 2026-05-14.
+   // Commit d70392d6–6d92691f: redesign hub griglia 2col, hero diario azzurro, fascia articolo DiarioBadge.
 
 ### Feature da implementare
 
@@ -189,15 +226,12 @@ Gestisce View Transitions (astro:before-preparation/page-load). Commit add83081 
    .article-subtitle 1.125rem, .article-content p 1.125rem + line-height 1.75.
    Commit 92c3904a + e98a5e54 + e665c964.
 [] lancira veririfica prima del golive speed test site e correzioni errori
-[] lanciare verifica prima del golive errori in consolle f12
+[x] lanciare verifica prima del golive errori in consolle f12 — SyntaxError BUG-REGEX fixato. 2026-05-14.
+   // Commit 3cc4f72a: Commenti.astro define:vars aveva TypeScript → SyntaxError su tutti gli articoli. Rimosso.
 [x] will-change eccessivo: rimosso da ArticlePageLayout.astro (5 elementi animati una tantum).
    Le animazioni CSS @keyframes article-entry funzionano senza hint will-change. 2026-05-14.
    // file: src/layouts/ArticlePageLayout.astro
-[~] BUG-REGEX: corpo articolo un-pellegrinaggio-significativo pulito (2098 char, 0 parentesi sbilanciate).
-   Errore "missing ) in parenthetical" a riga 74:18 della pagina renderizzata.
-   Probabile origine: script inline define:vars o LD+JSON con carattere speciale in un correlato.
-   Da investigare aprendo sorgente pagina live (Ctrl+U) e cercando riga 74. Non bloccante.
-   // articolo id: 449e140b-2396-4d23-9d10-0c7f102f95af
+[x] BUG-REGEX: SyntaxError "missing ) in parenthetical" su tutti gli articoli. Root cause: Commenti.astro:149 aveva `(n: number)` in script `define:vars` non compilato da TypeScript → browser riceveva type annotation raw. Fix: commit 3cc4f72a. 2026-05-14.
 
 ## home
 
@@ -212,9 +246,8 @@ Gestisce View Transitions (astro:before-preparation/page-load). Commit add83081 
 // file: src/components/HomePageContent.astro
 [x] home-archivio-strip frecce non si vedono, ovali — rimosse, track swipeable (79bdd2e4)
 // file: src/components/HomePageContent.astro
-[] articolo diari non si capisce a che diario appartiene, deve essere chiaro e evidente con link alla home diario
-// file: src/layouts/ArticlePageLayout.astro
-// POSTICIPATO — screenshot in arrivo
+[x] articolo diari non si capisce a che diario appartiene, deve essere chiaro e evidente con link alla home diario. 2026-05-14.
+   // Commit 807ec7b0: DiarioBadge fascia azzurra in cima all'articolo con icona, foto autore, link hub e link diario.
 [x] mobile didascalia aggiungere margin sx (732d8280)
 // file: src/layouts/ArticlePageLayout.astro
 [x] mobile footer fix allineamento colonne --> info e privacy accanto a rubriche (732d8280)
