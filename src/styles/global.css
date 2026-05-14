@@ -268,9 +268,9 @@ img {
   }
 }
 
-/* Badge ruolo editoriale – usato in card e pagina dettaglio */
+/* Badge ruolo editoriale – nascosto (display:none) */
 .article-badge-role {
-  display: inline-block;
+  display: none;
   margin-right: 0.35rem;
   font-family: 'Raleway', system-ui, -apple-system, sans-serif;
   font-size: 0.6rem;
