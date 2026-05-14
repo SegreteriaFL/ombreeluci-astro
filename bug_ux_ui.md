@@ -12,7 +12,9 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 -->
 
 ------
-
+[x] 
+[x] commenti spostato sopra correlati
+[x] La fascia azzurra dari mostra solo: [icona] I DIARI [foto] NasoMano
 [x] togli "Di" e "By" prima degli autori dapperttutto
     // fix: ArticleCard.astro:102 + ArticoliRullo.astro — rimosso prefisso author_by. Commit UX-REDAZIONE-01.
 [x] tutti i  link della pagina chi siamo puntatno a 404, rivedi e correggi aggiornando in base a documentazione
@@ -78,6 +80,11 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
    Fix pragmatico: EditorialFeedback.astro mostra sempre il pulsante (hidden=false).
    L'utente vede login Directus se non loggato. Box feedback richiede auth funzionante.
    // file: src/components/EditorialFeedback.astro
+[x] EDIT-BTN-REMOVE: Pulsante "Modifica in Directus" e fetch /users/me rimossi. 2026-05-14.
+   Eliminati: <a directus-edit-btn>, checkDirectusAuth(), .directus-edit-btn CSS,
+   editorial_directus_edit da i18n.ts. Box feedback rimane nel DOM ma hidden permanente
+   (nessun meccanismo auth attivo). Zero errori 401 in console.
+   // file: src/components/EditorialFeedback.astro, src/utils/i18n.ts
 
 [x] UAT-PULIZIA: utente redazione-uat@ombreeluci.it sospeso ma non eliminato 
    per FK constraint su directus_files. Reassegnare file all'admin 
@@ -183,6 +190,14 @@ Gestisce View Transitions (astro:before-preparation/page-load). Commit add83081 
    Commit 92c3904a + e98a5e54 + e665c964.
 [] lancira veririfica prima del golive speed test site e correzioni errori
 [] lanciare verifica prima del golive errori in consolle f12
+[x] will-change eccessivo: rimosso da ArticlePageLayout.astro (5 elementi animati una tantum).
+   Le animazioni CSS @keyframes article-entry funzionano senza hint will-change. 2026-05-14.
+   // file: src/layouts/ArticlePageLayout.astro
+[~] BUG-REGEX: corpo articolo un-pellegrinaggio-significativo pulito (2098 char, 0 parentesi sbilanciate).
+   Errore "missing ) in parenthetical" a riga 74:18 della pagina renderizzata.
+   Probabile origine: script inline define:vars o LD+JSON con carattere speciale in un correlato.
+   Da investigare aprendo sorgente pagina live (Ctrl+U) e cercando riga 74. Non bloccante.
+   // articolo id: 449e140b-2396-4d23-9d10-0c7f102f95af
 
 ## home
 

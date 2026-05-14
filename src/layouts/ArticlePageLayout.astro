@@ -27,13 +27,6 @@ type Props = BaseLayoutProps;
   }
 
   @media (min-width: 691px) and (prefers-reduced-motion: no-preference) {
-    .article-title,
-    .article-subtitle,
-    .article-meta,
-    .article-hero-wrapper,
-    .article-body-row {
-      will-change: transform, opacity;
-    }
     .article-title        { animation: article-entry 0.55s ease-out both 0.15s; }
     .article-subtitle     { animation: article-entry 0.55s ease-out both 0.25s; }
     .article-meta         { animation: article-entry 0.55s ease-out both 0.25s; }

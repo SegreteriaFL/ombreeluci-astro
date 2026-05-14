@@ -8,28 +8,12 @@ interface Props {
   currentRole?: string | null;
   url: string;
   articoloId?: string | null;
-  /** Allinea testi staff al locale articolo (EN = DOM in inglese). */
   lang?: Locale;
 }
 
 const { wpId, title, currentRole, url, articoloId, lang: langProp } = Astro.props;
 const lang: Locale = langProp ?? 'it';
-const directusEditUrl = articoloId
-  ? `https://cms.ombreeluci.it/admin/content/articoli/${articoloId}`
-  : 'https://cms.ombreeluci.it/admin/content/articoli';
 ---
-
-<!-- Bottone modifica Directus (sempre nel DOM, mostrato via JS) -->
-<a
-  id="directus-edit-btn"
-  href={directusEditUrl}
-  target="_blank"
-  rel="noopener noreferrer"
-  class="directus-edit-btn"
-  hidden
->
-  ✏ {t(lang, 'editorial_directus_edit')}
-</a>
 
 <aside class="editorial-feedback" aria-label={t(lang, 'editorial_aria')} id="editorial-feedback-box" hidden>
   <div class="editorial-feedback-header">
@@ -70,35 +54,9 @@ const directusEditUrl = articoloId
 <script>
   const ENDPOINT = 'https://script.google.com/macros/s/AKfycbyXki9Wi36EGXhdmxnqVVe9FiDdV4PraC0fkkM_eBJS4sGp0xyZZft6kPJm0R_koUiKCw/exec';
 
-  // Cached per tutta la sessione (ViewTransitions non ricarica il modulo)
-  let _authChecked = false;
-  let _isAuthenticated = false;
-
-  async function checkDirectusAuth(): Promise<boolean> {
-    if (_authChecked) return _isAuthenticated;
-    try {
-      const r = await fetch('https://cms.ombreeluci.it/users/me', {
-        credentials: 'include',
-      });
-      _isAuthenticated = r.ok;
-    } catch {
-      _isAuthenticated = false;
-    }
-    _authChecked = true;
-    return _isAuthenticated;
-  }
-
-  async function initEditorialFeedback() {
-    // Edit button: sempre visibile — l'utente vedrà il login Directus se non loggato
-    // (i cookie di sessione Directus non vengono inviati cross-site senza SameSite=None)
-    const editBtn = document.getElementById('directus-edit-btn');
-    if (editBtn) editBtn.hidden = false;
-
-    // Box feedback: richiede auth cross-site (funziona solo con SameSite=None sul server)
-    const isAuth = await checkDirectusAuth();
+  function initEditorialFeedback() {
     const box = document.getElementById('editorial-feedback-box');
     if (!box) return;
-    box.hidden = !isAuth;
 
     const form = document.getElementById('editorial-feedback-form') as HTMLFormElement | null;
     if (!form) return;
@@ -107,7 +65,6 @@ const directusEditUrl = articoloId
     const msgSent = form.dataset.msgSent ?? '';
     const msgError = form.dataset.msgError ?? '';
 
-    // Clona per rimuovere eventuali listener precedenti (ViewTransitions)
     const fresh = form.cloneNode(true) as HTMLFormElement;
     form.replaceWith(fresh);
     const freshBtn = fresh.querySelector<HTMLButtonElement>('.editorial-feedback-submit');
@@ -148,23 +105,6 @@ const directusEditUrl = articoloId
 </script>
 
 <style>
-  .directus-edit-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    margin-top: 1.5rem;
-    padding: 0.4rem 0.9rem;
-    background: #1a1a2e;
-    color: #fff;
-    font-size: 0.8rem;
-    font-weight: 600;
-    border-radius: 6px;
-    text-decoration: none;
-    opacity: 0.85;
-    transition: opacity 0.2s;
-  }
-  .directus-edit-btn:hover { opacity: 1; }
-
   .editorial-feedback {
     margin-top: 1.5rem;
     padding: 0.75rem 1rem 0.9rem;

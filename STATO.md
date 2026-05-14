@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-14 (PERF-SSR completato)
+**Ultimo aggiornamento:** 2026-05-14 (fix edit-btn, will-change, diagnosi BUG-REGEX)
 
 ---
 
