@@ -584,7 +584,7 @@ const alternates: { lang: string; url: string }[] = [
       {archivalYearsAgo > 0 && (
         <div class="article-header-wrapper">
           <div class="archival-alert-en">
-            <strong>Archival content:</strong> This article was published more than {archivalYearsAgo} years ago. The language and content reflect the sensitivities of the time.
+            <strong>Archival content:</strong> this article was published more than {archivalYearsAgo} years ago. The language and content reflect the sensitivities of the time.
           </div>
         </div>
       )}
@@ -694,16 +694,6 @@ const alternates: { lang: string; url: string }[] = [
       </div>{/* /article-body-main */}
       </div>{/* /article-body-row */}
 
-      {/* Widget di navigazione */}
-      <div class="floating-widget" id="floating-widget">
-        <button class="close-btn" id="close-widget" aria-label={t('en', 'widget_close')}>×</button>
-        <h4>{t('en', 'widget_navigate')}</h4>
-        {pdfUrl ? (
-          <a href={pdfUrl} target="_blank" rel="noopener noreferrer" class="widget-link">{t('en', 'widget_download_pdf')}</a>
-        ) : null}
-        {issueLink ? <a href={issueLink} class="widget-link">{t('en', 'widget_go_to_issue')}</a> : null}
-        <a href="/en/" class="widget-link">{t('en', 'nav_archive')}</a>
-      </div>
 
       <Commenti articoloId={articolo.id} lang="en" />
 
@@ -760,31 +750,6 @@ const alternates: { lang: string; url: string }[] = [
       window.addEventListener('scroll', updateReadingProgress);
       updateReadingProgress();
 
-      // Widget a comparsa dopo 50% scroll
-      const floatingWidget = document.getElementById('floating-widget');
-      const closeWidgetBtn = document.getElementById('close-widget');
-      let widgetShown = false;
-      let widgetClosed = false;
-
-      function showWidget() {
-        if (widgetClosed || widgetShown) return;
-        if (floatingWidget) {
-          floatingWidget.classList.add('visible');
-          widgetShown = true;
-        }
-      }
-
-      if (closeWidgetBtn && floatingWidget) {
-        closeWidgetBtn.addEventListener('click', () => {
-          floatingWidget.classList.remove('visible');
-          widgetClosed = true;
-        });
-      }
-
-      window.addEventListener('scroll', () => {
-        const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-        if (scrollPercent > 50) showWidget();
-      });
 
       // Social sticky: fade-in dopo le animazioni d'entrata pagina (0.45s delay + 0.55s duration = 1s)
       (function() {

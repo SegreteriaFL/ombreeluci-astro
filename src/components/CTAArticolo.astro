@@ -32,10 +32,10 @@ const utmLink = `/sostienici?utm_source=${pageContext}&utm_medium=cta-inline&utm
   <p class="cta-articolo__testo">{ui.testo}</p>
   <a
     href={utmLink}
-    class="cta-articolo__link"
+    class="cta-articolo__btn"
     data-cta-id={cta.id}
     data-cta-context={pageContext}
-  >{ui.cta} →</a>
+  >{lang === 'en' ? 'Contribute' : 'Contribuisci'}</a>
 </aside>
 
 <style>
@@ -83,14 +83,22 @@ const utmLink = `/sostienici?utm_source=${pageContext}&utm_medium=cta-inline&utm
     margin: 0 0 1rem;
   }
 
-  .cta-articolo__link {
+  .cta-articolo__btn {
+    display: inline-block;
     font-family: 'Raleway', system-ui, sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
     text-decoration: none;
-    transition: opacity 0.15s;
+    padding: 0.5rem 1.25rem;
+    border-radius: 6px;
+    background-color: var(--accent-color);
+    color: #fff;
+    transition: background-color 0.15s, opacity 0.15s;
   }
-  .cta-articolo__link:hover { text-decoration: underline; }
+  .cta-articolo__btn:hover {
+    background-color: var(--accent-hover, #007070);
+    opacity: 1;
+  }
 
   @media (max-width: 480px) {
     .cta-articolo { padding: 1.25rem 1.25rem; }

@@ -576,7 +576,7 @@ const relatedArticles = (() => {
       {archivalYearsAgo > 0 && (
         <div class="article-header-wrapper">
           <div class="archival-alert">
-            <strong>Contenuto d'archivio:</strong> Questo articolo è stato pubblicato più di {archivalYearsAgo} anni fa. Il linguaggio e i contenuti riflettono le sensibilità dell'epoca.
+            <strong>Contenuto d'archivio:</strong> questo articolo è stato pubblicato più di {archivalYearsAgo} anni fa. Il linguaggio e i contenuti riflettono le sensibilità dell'epoca.
           </div>
         </div>
       )}
@@ -693,16 +693,6 @@ const relatedArticles = (() => {
       </div>{/* /article-body-main */}
       </div>{/* /article-body-row */}
 
-      {/* Widget di navigazione: card standard, appare dopo scroll */}
-      <div class="floating-widget" id="floating-widget">
-        <button class="close-btn" id="close-widget" aria-label={t(locale, 'widget_close')}>×</button>
-        <h4>{t(locale, 'widget_navigate')}</h4>
-        {pdfUrl ? (
-          <a href={pdfUrl} target="_blank" rel="noopener noreferrer" class="widget-link">{t(locale, 'widget_download_pdf')}</a>
-        ) : null}
-        {issueLink ? <a href={issueLink} class="widget-link">{t(locale, 'widget_go_to_issue')}</a> : null}
-        <a href={locale === 'en' ? '/en/' : '/it/archivio'} class="widget-link">{t(locale, 'nav_archive')}</a>
-      </div>
 
 
       <Commenti articoloId={articolo.id} lang={locale} />
@@ -938,37 +928,6 @@ const relatedArticles = (() => {
       window.addEventListener('scroll', updateReadingProgress);
       updateReadingProgress();
 
-      // Widget a comparsa dopo 50% scroll
-      const floatingWidget = document.getElementById('floating-widget');
-      const closeWidgetBtn = document.getElementById('close-widget');
-      let widgetShown = false;
-      let widgetClosed = false;
-      
-      function checkScrollForWidget() {
-        if (widgetClosed || widgetShown || !floatingWidget) return;
-        
-        const windowHeight = window.innerHeight;
-        const documentHeight = document.documentElement.scrollHeight;
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const scrollableHeight = documentHeight - windowHeight;
-        const scrollPercent = (scrollTop / scrollableHeight) * 100;
-        
-        if (scrollPercent >= 50) {
-          floatingWidget.classList.add('visible');
-          widgetShown = true;
-        }
-      }
-      
-      if (closeWidgetBtn) {
-        closeWidgetBtn.addEventListener('click', () => {
-          if (floatingWidget) {
-            floatingWidget.classList.remove('visible');
-            widgetClosed = true;
-          }
-        });
-      }
-      
-      window.addEventListener('scroll', checkScrollForWidget);
 
       // Social sticky: fade-in dopo le animazioni d'entrata pagina (0.45s delay + 0.55s duration = 1s)
       (function() {
