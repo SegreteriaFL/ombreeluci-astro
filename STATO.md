@@ -24,6 +24,25 @@
 
 ---
 
+## BUG-REGEX — Articoli con pattern `(?` nel corpo (2026-05-14)
+
+Ricerca `_contains=(?)` su tutti gli articoli IT tramite Directus API.
+
+| Slug | Pattern | Posizione | Contesto |
+|---|---|---|---|
+| `punti-incontro-servire-giocare-lavorare-riflettere` | `(?!)` | pos 4844 | `"è difficile perdonare (?!) al Signore quando siamo colpiti da grandi disgrazie"` — interrobang letterario |
+| `storie-di-lavoro-chi-sarei-se-potessi-essere-la-condizione-adulta-del-disabile-mentale` | `(?)` ×5 | pos 933–999 | `"malattia (?), menomazione (?), stigma (?), peculiarità (?), caratteristica (?)"` — domanda retorica tra parentesi |
+
+**Questi pattern `(?` sono testo letterario, non codice.** Non causano errori di rendering nel browser: il testo HTML non viene interpretato come regex. L'unico rischio teorico è se finiscono dentro un template string JS (`\`...\``) o in un attributo `data-*` usato poi come regex — non è il caso qui.
+
+**Articolo `un-pellegrinaggio-significativo`** (segnalato in console come `:74:18`): corpo di 2098 char, **completamente pulito** — nessun `(?`, `\(`, `url(`, backslash o pattern CSS problematici. Autore: Antonietta Pantone. L'errore CSS `missing ) in parenthetical` non viene dal contenuto dell'articolo ma dalla pagina renderizzata (linea 74 del HTML compilato). Causa esatta non determinata senza DevTools live.
+
+**Pattern `\(` / `\)` nel corpo**: non ricercabili via Directus `_contains` (l'API rifiuta backslash nei filtri con 400). Nessuna `url(` CSS nel corpo (0 risultati).
+
+**Azione richiesta dalla redazione:** nessuna urgente. I due articoli con `(?` usano punteggiatura letteraria normale — nessuna modifica necessaria.
+
+---
+
 ## DIRECTUS-FALLBACK — Resilienza build SSG a Directus 503 (2026-05-14)
 
 | Funzione | Fix |
