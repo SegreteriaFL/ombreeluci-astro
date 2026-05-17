@@ -168,6 +168,12 @@ Runbook completo: `/opt/oel-cms/RUNBOOK.md` sul server.
 | Righe `directus_activity` | 62.343 |
 | Esito | ✅ OK |
 
+### Fix e interventi sul server
+
+| Data | Owner | Intervento | Esito |
+|---|---|---|---|
+| 2026-05-17 | Claude / SegreteriaFL | Fix health check Directus: `localhost` → `127.0.0.1` in `/opt/oel-cms/docker-compose.yml`. False negative da 29 giorni (FailingStreak 83.891), nessun impatto operativo. Container ricreato con `docker compose up -d --no-deps directus`. | ✅ Status: healthy, FailingStreak: 0 |
+
 ### Monitor attivi
 
 Istruzioni di configurazione complete in `docs/MONITORING.md`.
