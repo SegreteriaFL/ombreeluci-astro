@@ -239,3 +239,26 @@ Dashboard → monitor → Edit → Alert Contacts → rimuovere temporaneamente 
 
 Ogni run del workflow `smoke-post-deploy.yml` produce un artifact con il log completo (retention 7 giorni).
 GitHub → SegreteriaFL/ombreeluci-astro → Actions → "Smoke post-deploy" → run → Artifacts → `smoke-log-{run_id}`.
+
+---
+
+## Swap — aggiunta se necessario
+
+Il VPS CX22 non ha swap configurato (verificato 2026-05-17).
+Con traffico reale post-cutover, monitorare la RAM available.
+Se scende sotto 500MB per più di 10 minuti consecutivi, aggiungere swap:
+
+```bash
+ssh -i ~/.ssh/claude_oel_key root@159.69.196.64
+
+fallocate -l 2G /swapfile
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile
+echo '/swapfile none swap sw 0 0' >> /etc/fstab
+```
+
+Verifica: `free -h` → deve mostrare 2GB swap
+
+Quando farlo: solo se RAM available < 500MB con traffico reale.
+Non farlo preventivamente — il disco è limitato (38GB totali, 23% usato).
