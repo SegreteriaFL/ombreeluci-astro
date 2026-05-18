@@ -1,107 +1,100 @@
-> **Contesto:** vedere `docs/PRE-CUTOVER-ANALYSIS.md` per l'analisi completa dei rischi,
-> i blockers scoperti nell'audit del 2026-05-17, e il piano di lavoro Mar–Ven 19–22 maggio.
+> **Contesto:** vedere `docs/PRE-CUTOVER-ANALYSIS.md` per l'analisi completa dei rischi e lo stato aggiornato.
+> **Aggiornamento 2026-05-18:** tutto il pre-lavoro è completato. Restano solo le 6 operazioni del 22 maggio.
 
 ---
 
-# Checklist cutover DNS — ombreeluci.it
+# Checklist cutover SEO — ombreeluci.it — venerdì 22 maggio
 
 ---
 
-## FASE 0 — Preparazione (giorni prima)
+## FASE 0 — Preparazione ✅ COMPLETATA
 
 ### Codice e contenuti
 
-- [ ] B-15 noindex SWEEP — rimuovere `noindex={true}` da tutte le pagine e aprire `robots.txt`. Commit su main ma NON pushare ancora — va pushato contestualmente al cambio DNS
-- [ ] B-16 Sitemap completa — aggiornare `sitemap.xml.ts` con articoli EN, numeri archivio, pagine autore, pagine EN
-- [ ] Verificare che la pagina 404 personalizzata esista e funzioni su staging
-- [ ] Test M-01→M-07 — verifica visiva mobile con la redazione completata
+- [x] B-15 noindex SWEEP — branch `fix/cutover-noindex` pronto, commit `171ff27d`
+- [x] B-16 Sitemap completa — `f6ddc5aa` (IT 4089 URL, EN 4068 URL)
+- [x] Iubenda banner in `BaseHead.astro` — `c19943fd`
+- [x] GA4 G-2TJV78DNFQ in `BaseHead.astro` — `edac44e5`
+- [x] PUBLIC_SITE_URL in CF Pages env vars (produzione)
 
-### Email (critico — rischio principale)
+### Email
 
-- [ ] Identificare il provider email attuale di `redazione@ombreeluci.it`
-- [ ] Annotare i record MX attuali esatti: `dig MX ombreeluci.it`
-- [ ] Confermare che i record MX possono essere ricreati su Cloudflare identici
+- [x] Provider email: Aruba Mail
+- [x] Record MX: `10 mx.ombreeluci.it.` → 8 IP Aruba (62.149.128.x). SPF: `include:aruba.it`
+- [x] TTL: ~300s (già su Cloudflare)
 
-### Analytics
+### Analytics / Iubenda
 
-- [ ] Verificare che il data stream GA4 sia configurato per `ombreeluci.it` e non per staging
-- [ ] Verificare che GTM non stia già tracciando staging con la proprietà produzione
+- [x] GA4 snippet in BaseHead (G-2TJV78DNFQ)
+- [x] Iubenda banner in BaseHead (siteId 1433329, cookiePolicyId 66379072)
 
-### Iubenda
+### Cloudflare
 
-- [ ] Verificare che il banner cookie appaia correttamente su staging
-- [ ] Aggiornare i domini in Iubenda dashboard per includere `ombreeluci.it`
-- [ ] Verificare che Privacy Policy e Cookie Policy puntino a URL `ombreeluci.it`
-- [ ] Verificare che il form newsletter abbia link Privacy Policy funzionante
-
-### Cloudflare — setup preliminare
-
-- [ ] Aggiungere dominio `ombreeluci.it` su Cloudflare (se non già fatto)
-- [ ] Importare tutti i record DNS attuali da Aruba (Cloudflare lo fa automaticamente)
-- [ ] Verificare che i record MX siano importati correttamente
-- [ ] Aggiungere record CNAME per Pages: `ombreeluci.it` → `ombreeluci-staging.pages.dev`
-- [ ] Aggiungere record A per CMS: `cms.ombreeluci.it` → `159.69.196.64` (DNS-only, grey cloud)
-- [ ] Aggiungere redirect www: `www.ombreeluci.it` → `ombreeluci.it` via Redirect Rule
+- [x] Dominio `ombreeluci.it` su Cloudflare — zone `active`
+- [x] NS Cloudflare attivi: `dana.ns.cloudflare.com`, `julio.ns.cloudflare.com`
+- [x] Record MX presenti in CF DNS zone
+- [x] Worker `ombreeluci-redirects` attivo su `ombreeluci.it/*`
+- [x] Redirect temporaneo apex→www nel Worker (mantiene WP visibile fino a venerdì)
 
 ---
 
-## FASE 1 — Giorno del cutover (T-2h)
-
-### Verifica staging finale
-
-- [ ] `curl -sI https://ombreeluci-staging.pages.dev/` → 200
-- [ ] `curl -sI https://ombreeluci-staging.pages.dev/it/ombre-e-luci/` → 200, body inizia con `<!DOCTYPE`
-- [ ] `curl -sI https://ombreeluci-staging.pages.dev/it/archivio/` → 200
-- [ ] `curl -s https://cms.ombreeluci.it/server/ping` → `{"data":"pong"}`
-- [ ] Homepage visiva su staging — tutto ok
-
-### Avvisa
-
-- [ ] Avvisa la redazione: "sito in manutenzione per ~30 minuti"
-- [ ] Banner manutenzione su WP (opzionale)
-
----
-
-## FASE 2 — Il cutover (T=0)
-
-Eseguire in questo ordine esatto.
-
-### Step 1 — Push noindex SWEEP su main
+## FASE 1 — Verifica pre-lancio (T-1h)
 
 ```bash
+curl -sI https://ombreeluci.it/ | head -1          # → 301 (redirect temporaneo apex→www)
+curl -sI https://ombreeluci-staging.pages.dev/it/ombre-e-luci/ | head -1  # → 200
+curl -s https://cms.ombreeluci.it/server/ping      # → pong
+```
+
+---
+
+## FASE 2 — Il cutover SEO (T=0) — sequenza obbligatoria
+
+**I nameserver sono già su Cloudflare. Questa fase abilita l'indicizzazione.**
+
+### Step 1 — Rimuovi redirect temporaneo apex→www dal Worker
+
+```bash
+# In cf-worker/redirect-worker.js: rimuovere la regola temporanea apex→www
+# poi:
+cd cf-worker && npx wrangler deploy
+```
+
+Verifica immediata: `curl -sI https://ombreeluci.it/` deve rispondere **200** (non più 301).
+
+### Step 2 — Merge fix/cutover-noindex su main
+
+```bash
+git checkout main
+git merge fix/cutover-noindex
 git push origin main
 ```
 
-Attendi deploy CF Pages (~3 minuti). Verifica build verde su CF Pages Dashboard.
+Attendi build CF Pages verde (~3 minuti). Verifica:
+```bash
+curl -s https://ombreeluci.it/ | grep -i "noindex"  # deve essere vuoto
+curl -s https://ombreeluci.it/robots.txt             # deve mostrare Disallow: (vuoto)
+```
 
-### Step 2 — Cambia nameserver su Aruba
+### Step 3 — Attiva custom domain in CF Pages
 
-Aruba → gestione dominio `ombreeluci.it` → nameserver → sostituisci con nameserver Cloudflare (visibili in Cloudflare Dashboard → DNS → nameservers del dominio).
+Cloudflare Dashboard → Pages → `ombreeluci-staging` → Custom domains → attiva `ombreeluci.it` e `www.ombreeluci.it`.
 
-Propagazione: 5 minuti → 48 ore. Di solito 15-30 minuti.
+### Step 4 — Crea CF Redirect Rule www→apex
 
-### Step 3 — Aggiungi dominio custom su CF Pages
+Cloudflare Dashboard → Zone `ombreeluci.it` → Rules → Redirect Rules:
+- Match: `www.ombreeluci.it/*`
+- Redirect: `https://ombreeluci.it/{1}` — 301 permanente
 
-Cloudflare Dashboard → Pages → ombreeluci-staging → Custom domains → aggiungi `ombreeluci.it` e `www.ombreeluci.it`.
+Verifica: `curl -sI https://www.ombreeluci.it/` → deve rispondere `301` → `https://ombreeluci.it/`
 
-### Step 4 — Verifica CF Worker
-
-Nel worker `ombreeluci-redirects` verifica che la route sia corretta per `ombreeluci.it`. La catena deve essere: `DNS → Worker → Pages`.
-
-### Step 5 — Verifica propagazione
+### Step 5 — Verifica sito live
 
 ```bash
-dig NS ombreeluci.it
-# deve mostrare nameserver Cloudflare
-
-curl -sI https://ombreeluci.it/
-# deve rispondere 200 (non il vecchio WP Aruba)
-
-curl -sI https://ombreeluci.it/it/ombre-e-luci/
-# deve rispondere 200, body inizia con <!DOCTYPE
-
-curl -sI https://www.ombreeluci.it/
-# deve rispondere 301 → https://ombreeluci.it/
+curl -sI https://ombreeluci.it/                    # → 200
+curl -sI https://ombreeluci.it/it/ombre-e-luci/    # → 200, <!DOCTYPE
+curl -sI https://ombreeluci.it/it/archivio/         # → 200
+curl -sI https://www.ombreeluci.it/                # → 301 → ombreeluci.it
 ```
 
 ---
@@ -142,10 +135,11 @@ curl -sI https://www.ombreeluci.it/
 
 ## FASE 4 — Nelle ore successive (T+2h)
 
-### Google Search Console
+### Google Search Console (Step 6 del cutover)
 
-- [ ] Aggiungi proprietà `ombreeluci.it` in Search Console
-- [ ] Verifica proprietà via record TXT su Cloudflare DNS (metodo più semplice)
+- [ ] Aggiungi proprietà `https://ombreeluci.it` in Search Console
+  (la proprietà esiste già — verificare se basta aggiungere la versione https)
+- [ ] Verifica proprietà via record TXT su Cloudflare DNS
 - [ ] Invia sitemap IT: `https://ombreeluci.it/sitemap.xml`
 - [ ] Invia sitemap EN: `https://ombreeluci.it/sitemap-en.xml`
 - [ ] Se esiste proprietà SC del vecchio WP: imposta Change of Address tool

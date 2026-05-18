@@ -1,6 +1,44 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-18
+**Ultimo aggiornamento:** 2026-05-18 (sessione serale)
+
+---
+
+## Stato pre-cutover al 2026-05-18 — tutto il lavoro pre-venerdì completato
+
+| Task | Stato | Commit / Azione |
+|---|---|---|
+| B-WORKER: forwardToPages | ✅ | `ac1782b7` + deploy `8608ac3b` |
+| B-15: noindex sweep + robots.txt | ✅ branch pronto | `171ff27d` su `fix/cutover-noindex` — merge venerdì 22 |
+| B-16: sitemap completa | ✅ | `f6ddc5aa` — IT 4089 URL, EN 4068 URL |
+| Iubenda banner in BaseHead | ✅ | `c19943fd` — `is:inline`, siteId 1433329 |
+| GA4 G-2TJV78DNFQ in BaseHead | ✅ | `edac44e5` — `is:inline` sul secondo script |
+| Redirect temporaneo apex→www | ✅ | CF Worker — mantiene WP visibile fino a venerdì |
+| PUBLIC_SITE_URL in CF Pages env | ✅ | `https://ombreeluci.it` in produzione |
+| GSC proprietà esistente | ✅ | Proprietà `ombreeluci.it` già presente in Search Console |
+| Health check Directus | ✅ | `190930d9` — localhost → 127.0.0.1 |
+| MX record documentati | ✅ | `10 mx.ombreeluci.it.` (8 IP Aruba), SPF verificato |
+
+**Tutto il lavoro pre-venerdì è completato. Restano solo le operazioni del giorno del cutover.**
+
+---
+
+## Piano venerdì 22 maggio — sequenza operazioni cutover SEO
+
+Da eseguire in questo ordine:
+
+1. **Rimuovi redirect temporaneo apex→www dal Worker e rideploya**
+   - `cf-worker/redirect-worker.js` — rimuovere la regola temporanea, `npx wrangler deploy`
+2. **Merge `fix/cutover-noindex` su main** — `git merge fix/cutover-noindex && git push`
+   - CF Pages rebuild automatico (~3 min) — attendi build verde
+3. **Attiva custom domain `ombreeluci.it` e `www.ombreeluci.it` in CF Pages**
+   - Dashboard CF Pages → ombreeluci-staging → Custom domains → attiva
+4. **Crea CF Redirect Rule www→apex 301**
+   - CF Dashboard → Zone ombreeluci.it → Rules → Redirect Rules → `www.ombreeluci.it/*` → `https://ombreeluci.it/{1}` (301)
+5. **Verifica propagazione, email, sitemap** — seguire CUTOVER.md FASE 3
+6. **Aggiungi proprietà `https://ombreeluci.it` in GSC e invia sitemap**
+   - Search Console → Aggiungi proprietà → TXT su Cloudflare DNS
+   - Invia `https://ombreeluci.it/sitemap.xml` e `https://ombreeluci.it/sitemap-en.xml`
 
 ---
 
@@ -14,22 +52,6 @@
 | `d5773455` | **Docs** ✅ | `docs/PRE-CUTOVER-ANALYSIS.md` e `docs/CUTOVER.md` creati. Piano cutover 22 maggio. |
 | (audit) | **DNS** ℹ️ | Scoperto: NS `ombreeluci.it` già su Cloudflare (dana/julio). Zone: active. Il "cutover DNS" è già avvenuto. B-TTL e CF DNS setup non più necessari. |
 | (audit) | **MX** ✅ | Record MX documentati: `10 mx.ombreeluci.it.` → 8 IP Aruba (62.149.128.x). SPF: `v=spf1 include:aruba.it ~all`. TTL già ~300s. |
-| (audit) | **CF Pages** ⚠️ | Custom domain `ombreeluci.it` e `www.ombreeluci.it` su CF Pages: stato `deactivated`. Da attivare. |
-| (audit) | **www** ⚠️ | `www.ombreeluci.it` non ha Worker route → serve WordPress Aruba (200). Nessuna CF Redirect Rule www→apex configurata. Da aggiungere. |
-
-**Stato ombreeluci.it al 2026-05-18:**
-- `ombreeluci.it` → ✅ 200, sito Astro via Worker + forwardToPages
-- `www.ombreeluci.it` → ⚠️ 200, WordPress Aruba (nessun Worker route, nessun redirect)
-- `robots.txt` → blocca tutti i crawler (`Disallow: /`) — Google non indicizza
-- `noindex` → attivo su quasi tutte le pagine IT — Google non indicizza
-
-**Blockers ancora aperti per cutover SEO (venerdì 22):**
-- B-15: noindex SWEEP + robots.txt
-- B-16: Sitemap completamento
-- B-CANONICAL: PUBLIC_SITE_URL in CF Pages env
-- B-ARUBA: verifica scadenza dominio 27 maggio
-- CF Pages custom domain attivazione (`ombreeluci.it` deactivated)
-- www redirect 301 (CF Redirect Rule)
 
 ---
 
