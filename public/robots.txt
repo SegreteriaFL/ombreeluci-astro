@@ -1,9 +1,5 @@
-# PRE-LANCIO: Googlebot bloccato intenzionalmente.
-# Al cutover DNS, sostituire con:
-#
-# User-agent: *
-# Disallow: /api/
-# Sitemap: https://ombreeluci.it/sitemap.xml
-
 User-agent: *
-Disallow: /
+Disallow:
+
+Sitemap: https://ombreeluci.it/sitemap.xml
+Sitemap: https://ombreeluci.it/sitemap-en.xml

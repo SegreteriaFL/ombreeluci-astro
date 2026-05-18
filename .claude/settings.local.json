@@ -15,7 +15,10 @@
       "Bash(xargs grep:*)",
       "Bash(/dev/null grep:*)",
       "Read(//dev/**)",
-      "WebFetch(domain:claude.com)"
+      "WebFetch(domain:claude.com)",
+      "PowerShell(node --version)",
+      "PowerShell(Rename-Item \"C:\\\\Users\\\\berto\\\\Documents\\\\Ombreeluci\\\\public\\\\images\\\\diari\\\\ermes-sardella-ill1.png\" \"efrem-sardella-ill1.png\")",
+      "PowerShell(cd \"c:\\\\Users\\\\berto\\\\Documents\\\\Ombreeluci\\\\cf-worker\"; $env:CLOUDFLARE_API_TOKEN = \\(Get-Content ../.env | Where-Object { $_ -match \"^CLOUDFLARE_API_TOKEN=\" } | ForEach-Object { $_ -replace \"^CLOUDFLARE_API_TOKEN=\", \"\" }\\); npx wrangler deploy 2>&1)"
     ]
   }
 }
