@@ -19,7 +19,17 @@
 | Health check Directus | ✅ | `190930d9` — localhost → 127.0.0.1 |
 | MX record documentati | ✅ | `10 mx.ombreeluci.it.` (8 IP Aruba), SPF verificato |
 
+| Redirect Fix 1-6 (regex middleware) | ✅ | `b209c37e` — copertura da 0.5% a 97.3% |
+| Redirect Fix 7 (96 URL singoli legacy.json) | ✅ | `fd20fed8` — copertura finale 99.8%, 0 MISSING |
+
 **Tutto il lavoro pre-venerdì è completato. Restano solo le operazioni del giorno del cutover.**
+
+**Redirect — stato finale (simulazione 2026-05-19):**
+- Totale URL WP analizzati: 3.499
+- ✅ OK (redirect coperto): 3.493 (99.8%)
+- 🔴 MISSING: 0 (0.0%) — sotto soglia 2% ✅
+- 🟠 TO_HOMEPAGE (intenzionali): 6 (0.2%)
+- Due voci provvisorie in attesa redazione: `/riflessioni/` e `/attualita/` → `/it/archivio/`
 
 ---
 
