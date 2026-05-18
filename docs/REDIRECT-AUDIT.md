@@ -52,14 +52,17 @@ Verificati come identici alla lookup table del CF Worker.
 
 ---
 
-## Risultati simulazione (3.499 URL analizzati)
+## Risultati simulazione — confronto prima/dopo
 
-| Categoria | URL | % | Stato |
+| Categoria | Prima dei fix | Dopo fix 1-7 | Stato |
 |---|---|---|---|
-| ✅ OK — redirect coperto | 16 | 0.5% | — |
-| ⚠️ GAP_COVERED — logica mancante, fix semplice | 3.134 | 89.6% | **Da fixare** |
-| 🔴 MISSING — nessun redirect | 349 | 10.0% | **Da analizzare** |
-| 🟠 TO_HOMEPAGE — redirect verso homepage | 0 | 0% | ✅ |
+| ✅ OK — redirect coperto | 16 (0.5%) | **3.493 (99.8%)** | ✅ |
+| ⚠️ GAP_COVERED — fix applicati | 3.134 (89.6%) | 0 | ✅ |
+| 🔴 MISSING — nessun redirect | 349 (10.0%) | **0 (0.0%)** | ✅ |
+| 🟠 TO_HOMEPAGE (intenzionali) | 0 | 6 (0.2%) | ✅ |
+
+**Commits:** `b209c37e` (Fix 1-6), `fd20fed8` (Fix 7), `5d7dc626` (correzioni destinazioni)
+**Voci redirects-legacy.json:** 1.001 → 1.097 (+96)
 
 ---
 
@@ -188,21 +191,21 @@ URL che non seguono pattern strutturali — da aggiungere come voci esatte.
 
 ---
 
-## Copertura per pattern WP specificati nel task
+## Copertura per pattern WP specificati nel task — stato finale ✅
 
 | Pattern WP | Coperto? | Layer |
 |---|---|---|
-| `/2023/{slug}/` | ⚠️ GAP-1 — da fixare | regex `/YYYY/{slug}/` mancante |
-| `/2023/04/{slug}/` | ✅ parziale | `YEAR_MONTH_SLUG_RE` nel middleware |
+| `/2023/{slug}/` | ✅ | `YEAR_SLUG_RE` (Fix-1) |
+| `/2023/04/{slug}/` | ✅ | `YEAR_MONTH_SLUG_RE` nel middleware |
 | `/2023/04/15/{slug}/` | ✅ | `DATE_PATH_RE` nel middleware |
 | `/blog/{slug}/` | ✅ | `BLOG_IT_SLUG_RE` nel middleware |
 | `/blog/{slug}-en/` | ✅ | `BLOG_EN_SLUG_RE` nel middleware |
-| `/project/numero-{N}-{titolo}/` | ⚠️ GAP-3 — da fixare | regex mancante |
-| `/esperienze/` | 🔴 MISSING | nessun layer |
-| `/{nome-categoria}/` | 🔴 MISSING | vedi GAP-7 |
-| `/i-diari-di-ombre-e-luci/` | 🔴 MISSING | nessun layer |
+| `/project/numero-{N}-{titolo}/` | ✅ | `PROJECT_NUMERO_RE` (Fix-3) |
+| `/esperienze/` | ✅ | `redirects-legacy.json` → `/it/categoria/progetti/` |
+| `/{nome-categoria}/` | ✅ | `redirects-legacy.json` (voci esatte) |
+| `/i-diari-di-ombre-e-luci/` | ✅ | `redirects-legacy.json` → `/it/rubriche/diari/` |
 | `/diario-di-{nome}/` | ✅ | `DIARIO_RE` nel middleware |
-| `/la-rivista/` | 🔴 MISSING | nessun layer |
+| `/la-rivista/` | ✅ | `redirects-legacy.json` → `/it/archivio/` |
 | `/chi-siamo/` | ✅ | `astro.config.mjs` |
 | `/sostienici/` | ✅ | `astro.config.mjs` |
 | `/newsletter/` | ✅ | `astro.config.mjs` |

@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-18 (sessione serale)
+**Ultimo aggiornamento:** 2026-05-19
 
 ---
 
@@ -21,16 +21,9 @@
 
 | Redirect Fix 1-6 (regex middleware) | ✅ | `b209c37e` — copertura da 0.5% a 97.3% |
 | Redirect Fix 7 (96 URL singoli legacy.json) | ✅ | `fd20fed8` — copertura finale 99.8%, 0 MISSING |
+| Redirect correzioni 7 destinazioni | ✅ | `5d7dc626` — autismo/cinema/aktion-t4→focus, dopo-di-noi/vita-comunitaria→tag |
 
 **Tutto il lavoro pre-venerdì è completato. Restano solo le operazioni del giorno del cutover.**
-
-**Redirect — stato finale (simulazione 2026-05-19):**
-- Totale URL WP analizzati: 3.499
-- ✅ OK (redirect coperto): 3.493 (99.8%)
-- 🔴 MISSING: 0 (0.0%) — sotto soglia 2% ✅
-- 🟠 TO_HOMEPAGE (intenzionali): 6 (0.2%)
-- Due voci provvisorie in attesa redazione: `/riflessioni/` e `/attualita/` → `/it/archivio/`
-- `5d7dc626` — 7 correzioni destinazioni (autismo/cinema/aktion-t4 → focus, dopo-di-noi/vita-comunitaria → tag)
 
 ---
 
@@ -63,6 +56,50 @@ Da eseguire in questo ordine:
 | `d5773455` | **Docs** ✅ | `docs/PRE-CUTOVER-ANALYSIS.md` e `docs/CUTOVER.md` creati. Piano cutover 22 maggio. |
 | (audit) | **DNS** ℹ️ | Scoperto: NS `ombreeluci.it` già su Cloudflare (dana/julio). Zone: active. Il "cutover DNS" è già avvenuto. B-TTL e CF DNS setup non più necessari. |
 | (audit) | **MX** ✅ | Record MX documentati: `10 mx.ombreeluci.it.` → 8 IP Aruba (62.149.128.x). SPF: `v=spf1 include:aruba.it ~all`. TTL già ~300s. |
+
+---
+
+## REDIRECT-LEGACY — Audit e fix completo (2026-05-19)
+
+**Fonte dati:** 3.500 URL dalla sitemap WP (4 post-sitemap + page + project + category).
+**Metodo:** simulazione locale `scripts/verify-redirects-local.mjs` — no HTTP request.
+**Documenti:** `docs/REDIRECT-AUDIT.md`, `scripts/redirect-report.md`.
+
+### Scoperta critica: il WP usa `/YYYY/{slug}/` non `/YYYY/MM/DD/{slug}/`
+
+Il permalink di ombreeluci.it usa solo l'anno (es. `/1983/dialogo-aperto-n-1/`).
+Il middleware aveva regex per `/YYYY/MM/DD/` (zero URL reali) ma non per `/YYYY/` (84% del traffico).
+Prima dei fix: **16/3.499 URL coperti (0.5%)**.
+
+### Fix applicati
+
+| Fix | Pattern | URL coperti | Layer | Commit |
+|---|---|---|---|---|
+| Fix-1 | `/YYYY/{slug}/` → `/it/{slug}/` | 2.928 | `YEAR_SLUG_RE` in middleware | `b209c37e` |
+| Fix-2 | `/en/YYYY/{slug}/` → `/en/{slug}/` | 54 | `EN_YEAR_SLUG_RE` in middleware | `b209c37e` |
+| Fix-3 | `/project/numero-N-{titolo}/` → `/it/archivio/oel-N/` | 129 | `PROJECT_NUMERO_RE` in middleware | `b209c37e` |
+| Fix-3b | `/project/*` → `/it/archivio/` | 77 | `PROJECT_ANY_RE` in middleware | `b209c37e` |
+| Fix-4 | `/n-N/` → `/it/archivio/oel-N/` | ~150 | `NUMERO_SHORT_RE` in middleware | `b209c37e` |
+| Fix-5 | `/insieme/insieme-n-N/` → `/it/archivio/ins-N/` | ~30 | `INSIEME_RE` in middleware | `b209c37e` |
+| Fix-7 | 96 URL singoli (categorie, rubriche, autori, EN, utility) | 96 | `redirects-legacy.json` (+93 voci) | `fd20fed8` |
+| Fix-7b | 7 correzioni destinazioni (focus, tag) | — | `redirects-legacy.json` | `5d7dc626` |
+
+### Risultato finale
+
+| Metrica | Prima | Dopo |
+|---|---|---|
+| URL WP analizzati | 3.499 | 3.499 |
+| ✅ OK | 16 (0.5%) | **3.493 (99.8%)** |
+| 🔴 MISSING | 3.483 (99.5%) | **0 (0.0%)** |
+| 🟠 TO_HOMEPAGE (intenzionali) | 0 | 6 (0.2%) |
+
+**Voci in `redirects-legacy.json`:** 1.001 → **1.097** (+96)
+
+### Da fare post-lancio
+
+- `/riflessioni/` → `/it/archivio/` (**provvisorio** — la redazione decide la sezione corretta)
+- `/attualita/` → `/it/archivio/` (**provvisorio** — idem)
+- Rieseguire `scripts/verify-redirects-local.mjs` dopo ogni aggiornamento WP significativo
 
 ---
 
