@@ -154,7 +154,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     nl_archive_link: 'Tutti i numeri →',
     // Chi siamo / About
     about_title: 'Chi Siamo',
-    about_cta_read: 'Leggi gli articoli',
+    about_cta_read: 'Vai a Info e Contatti',
     about_cta_support: 'Sostienici',
     about_magazine_section: 'La Rivista',
     about_timeline_section: 'Album di Famiglia',
@@ -359,7 +359,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     nl_archive_link: 'All issues →',
     // About
     about_title: 'About Us',
-    about_cta_read: 'Read the articles',
+    about_cta_read: 'Info & Contacts',
     about_cta_support: 'Support us',
     about_magazine_section: 'The Magazine',
     about_timeline_section: 'Family Album',
