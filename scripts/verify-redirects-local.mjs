@@ -60,12 +60,13 @@ const BLOG_EN_SLUG_RE     = /^\/blog\/([^/]+)-en\/?$/;           // /blog/slug-e
 const DIARIO_RE           = /^(\/diario-di-[^/]+)\/?$/;          // /diario-di-nome
 const BLOG_IT_SLUG_RE     = /^\/blog\/([^/]+?)\/?$/;             // /blog/slug
 
-// ── Layer 5 (GAP da fixare): /YYYY/slug → /it/slug ────────────────────────
-const YEAR_SLUG_RE        = /^\/(\d{4})\/([^/]+?)\/?$/;         // /YYYY/slug (mancante)
-
-// ── Layer 6 (GAP da fixare): /project/numero-N-* → /it/archivio/oel-N/ ───
-const PROJECT_NUMERO_RE   = /^\/project\/numero-(\d+)-/;
+// ── Layer 5/6 — fix implementati nel middleware ────────────────────────────
+const EN_YEAR_SLUG_RE     = /^\/en\/(\d{4})\/([^/]+?)\/?$/;    // Fix-2: /en/YYYY/slug
+const YEAR_SLUG_RE        = /^\/(\d{4})\/([^/]+?)\/?$/;        // Fix-1: /YYYY/slug
+const PROJECT_NUMERO_RE   = /^\/project\/numero-(\d+)-/;        // Fix-3
 const PROJECT_ROOT_RE     = /^\/project\/?$/;
+const NUMERO_SHORT_RE     = /^\/n-(\d+)\/?$/;                  // Fix-5: /n-N/
+const INSIEME_RE          = /^\/insieme\/insieme-n-(\d+)\/?$/; // Fix-6
 
 // ── Pagine statiche valide (lista approssimativa per validare target) ───────
 const VALID_IT_PATHS = new Set([
@@ -117,19 +118,30 @@ function simulateRedirect(rawPath) {
   const ymMatch = pathSlash.match(YEAR_MONTH_SLUG_RE);
   if (ymMatch) return { target: '/it/' + ymMatch[1] + '/', layer: 'middleware-date-yyyymm', note: '' };
 
-  // Layer 9 (GAP): /YYYY/slug → /it/slug/
-  const yearSlugMatch = pathSlash.match(YEAR_SLUG_RE);
-  if (yearSlugMatch) return { target: '/it/' + yearSlugMatch[2] + '/', layer: 'GAP-year-slug', note: 'MANCA regex /YYYY/slug in middleware' };
+  // Layer 9 (Fix-2): /en/YYYY/slug → /en/slug/
+  const enYearSlugMatch = pathSlash.match(EN_YEAR_SLUG_RE);
+  if (enYearSlugMatch) return { target: '/en/' + enYearSlugMatch[2] + '/', layer: 'fix2-en-year-slug', note: '' };
 
-  // Layer 10 (GAP): /project/numero-N-* → /it/archivio/oel-N/
+  // Layer 10 (Fix-1): /YYYY/slug → /it/slug/
+  const yearSlugMatch = pathSlash.match(YEAR_SLUG_RE);
+  if (yearSlugMatch) return { target: '/it/' + yearSlugMatch[2] + '/', layer: 'fix1-year-slug', note: '' };
+
+  // Layer 11 (Fix-3): /project/numero-N-* → /it/archivio/oel-N/
   const projectRoot = pathSlash.match(PROJECT_ROOT_RE);
-  if (projectRoot) return { target: '/it/archivio/', layer: 'GAP-project-root', note: 'MANCA redirect /project/' };
+  if (projectRoot) return { target: '/it/archivio/', layer: 'fix3-project-root', note: '' };
 
   const projectNumero = pathSlash.match(PROJECT_NUMERO_RE);
-  if (projectNumero) return { target: `/it/archivio/oel-${projectNumero[1]}/`, layer: 'GAP-project-numero', note: 'MANCA regex /project/numero-N-*' };
+  if (projectNumero) return { target: `/it/archivio/oel-${projectNumero[1]}/`, layer: 'fix3-project-numero', note: '' };
 
-  // /project/{altri} → /it/archivio/
-  if (pathSlash.startsWith('/project/')) return { target: '/it/archivio/', layer: 'GAP-project-other', note: 'MANCA redirect /project/' };
+  if (pathSlash.startsWith('/project/')) return { target: '/it/archivio/', layer: 'fix3-project-other', note: '' };
+
+  // Layer 12 (Fix-5): /n-N/ → /it/archivio/oel-N/
+  const nMatch = pathSlash.match(NUMERO_SHORT_RE);
+  if (nMatch) return { target: '/it/archivio/oel-' + nMatch[1] + '/', layer: 'fix5-n-short', note: '' };
+
+  // Layer 13 (Fix-6): /insieme/insieme-n-N/ → /it/archivio/ins-N/
+  const insiemeMatch = pathSlash.match(INSIEME_RE);
+  if (insiemeMatch) return { target: '/it/archivio/ins-' + insiemeMatch[1] + '/', layer: 'fix6-insieme', note: '' };
 
   return { target: null, layer: 'MISSING', note: 'nessun redirect trovato' };
 }
