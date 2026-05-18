@@ -7,6 +7,28 @@ Documento di sintesi prodotto il 2026-05-17 integrando:
 
 ---
 
+## Aggiornamento 2026-05-18
+
+| Blocker | Stato |
+|---------|-------|
+| B-WORKER | ✅ **RISOLTO** — `forwardToPages` abilitato, deploy `8608ac3b`. `ombreeluci.it` 200 OK. |
+| B-MX | ✅ **RISOLTO** — Record documentati: `10 mx.ombreeluci.it.` (8 IP Aruba). SPF verificato. |
+| B-TTL | ✅ **N/A** — DNS già su Cloudflare, TTL ~300s, propagazione immediata. |
+| CF DNS setup | ✅ **GIÀ FATTO** — NS `dana/julio.ns.cloudflare.com` attivi, zone `active`. |
+| B-15 noindex SWEEP | 🔴 **APERTO** — priorità invariata |
+| B-16 Sitemap | 🟡 **APERTO** |
+| B-CANONICAL | 🟡 **APERTO** — PUBLIC_SITE_URL non ancora impostato |
+| B-ARUBA scadenza | 🔴 **DA VERIFICARE** — dominio scade 27/05, rinnovo non confermato |
+| CF Pages custom domain | ⚠️ **NUOVO** — `ombreeluci.it` e `www` in stato `deactivated` su CF Pages |
+| www redirect 301 | ⚠️ **APERTO** — nessuna CF Redirect Rule www→apex |
+
+**Scoperta critica 2026-05-18:** il DNS era già su Cloudflare prima dell'audit.
+`ombreeluci.it` stava restituendo 403 (CF error 1003) a tutti gli utenti reali
+perché il Worker tentava fetch verso l'IP raw di Aruba post-cutover DNS.
+Fix B-WORKER implementato e deployato in emergenza.
+
+---
+
 ## Stato staging al 2026-05-17
 
 | Check | Esito |
@@ -25,18 +47,15 @@ Documento di sintesi prodotto il 2026-05-17 integrando:
 
 ## Blockers assoluti pre-cutover
 
-### B-WORKER — CF Worker non forwardia a Pages 🔴 CRITICO
+### B-WORKER — CF Worker non forwardia a Pages ✅ RISOLTO 2026-05-18
 
-**Scoperto nell'audit del 17/05. Non documentato precedentemente.**
+~~Il catch-all in `cf-worker/redirect-worker.js` proxia verso WordPress su Aruba~~
+~~invece di chiamare `forwardToPages()`.~~
 
-Il catch-all in `cf-worker/redirect-worker.js` proxia verso WordPress su Aruba
-(`89.46.105.36`) invece di chiamare `forwardToPages()`. La funzione esiste ma
-è commentata/disabilitata. Senza questo fix, dopo il cutover DNS tutto il traffico
-non-redirect continuerà ad andare a WordPress.
-
-Fix: sostituire il catch-all WP proxy con `return forwardToPages(request, env)`.
-Può essere deployato ora — nessun effetto finché DNS è su Aruba.
-Effort: 30 minuti. Rischio se non fatto: sito rotto al D-day, 3 minuti di fix.
+**Fix applicato in emergenza 2026-05-18:** il DNS era già su Cloudflare e il sito
+restituiva 403 (CF error 1003) a tutti gli utenti. Catch-all sostituito con
+`return forwardToPages(request, env)`. Commit `ac1782b7`, deploy Worker `8608ac3b`.
+Verificato: `ombreeluci.it` 200 OK su homepage, articolo SSR, archivio.
 
 ### B-15 — noindex SWEEP 🔴 CRITICO
 
@@ -69,21 +88,20 @@ Le pagine mancanti vengono trovate da Google via link interni ma entreranno
 nell'indice più lentamente. Non bloccante per il lancio ma va completato
 entro il giorno del cutover.
 
-### B-MX — Record MX email 🔴 CRITICO
+### B-MX — Record MX email ✅ RISOLTO 2026-05-18
 
-Non ancora verificato. Se i record MX non vengono replicati identici su Cloudflare
-prima del cambio nameserver, `redazione@ombreeluci.it` smette di ricevere email.
-La propagazione DNS MX richiede ore — non è reversibile rapidamente.
+Record verificati e documentati:
+- `10 mx.ombreeluci.it.` → 8 IP Aruba Mail (62.149.128.74/160/154/72/166/151/163/157)
+- SPF: `v=spf1 include:aruba.it ~all`
+- TTL: ~300s (già basso — propagazione rapida)
+- Provider: **Aruba Mail**
 
-**Azione urgente oggi**: `dig MX ombreeluci.it +short` per documentare i record
-esatti e identificare il provider email.
+Da replicare su CF DNS (DNS-only, grey cloud): record MX + 8 record A per mx.ombreeluci.it + TXT SPF.
+CF importa automaticamente la zona — verificare che questi record siano presenti prima del noindex sweep.
 
-### B-TTL — TTL DNS 🟡 URGENTE
+### B-TTL — TTL DNS ✅ N/A 2026-05-18
 
-Aruba di default imposta TTL a 3600s (1 ora). Va abbassato a 300s
-entro il 24 maggio per garantire propagazione rapida al cutover.
-Se TTL è ancora alto al momento del cambio nameserver, alcuni utenti
-vedranno WordPress per 1 ora dopo il cutover.
+DNS già su Cloudflare. TTL verificato ~300s. Non applicabile.
 
 ### B-CANONICAL — PUBLIC_SITE_URL 🟡 IMPORTANTE
 
@@ -186,48 +204,55 @@ ma può richiedere mesi per siti grandi.
 
 ---
 
-## Piano di lavoro Mar 19 → Ven 22 maggio
+## Piano di lavoro aggiornato al 2026-05-18
 
-### Martedì 19 maggio
+### Già completati ✅
+
+| Task | Commit / Azione |
+|------|-----------------|
+| B-WORKER: forwardToPages | `ac1782b7` + deploy `8608ac3b` |
+| B-MX: record email documentati | audit 2026-05-18 |
+| B-TTL: N/A (DNS già su CF) | — |
+| CF DNS setup: zona active | già esistente |
+| Health check Directus | `190930d9` |
+
+### Lunedì 19 / Martedì 20 maggio
 
 | Priorità | Task | Effort | Chi |
 |----------|------|--------|-----|
-| 🔴 P0 | B-WORKER: abilita forwardToPages in CF Worker | 30 min | CC |
-| 🔴 P0 | B-MX: `dig MX ombreeluci.it` — documenta record email | 15 min | Fede |
-| 🔴 P0 | B-ARUBA: verifica rinnovo automatico dominio | 15 min | Fede |
-| 🟡 P1 | B-CANONICAL: `PUBLIC_SITE_URL` in CF Pages env vars | 15 min | CC |
+| 🔴 P0 | B-ARUBA: verifica rinnovo automatico dominio (scade 27/05) | 15 min | Fede |
+| 🔴 P0 | CF Pages: attiva custom domain `ombreeluci.it` (ora `deactivated`) | 15 min | Fede |
+| 🔴 P0 | Verifica MX record importati correttamente in CF DNS zone | 15 min | Fede |
+| 🟡 P1 | B-CANONICAL: `PUBLIC_SITE_URL=https://ombreeluci.it` in CF Pages env (produzione) | 15 min | CC |
 | 🟡 P1 | B-16: Sitemap — aggiungi autori IT + numeri rivista IT | 2h | CC |
-| 🟡 P1 | CF DNS setup preliminare (no nameserver change) | 1h | Fede |
+| 🟡 P1 | CF Redirect Rule www→apex (301) | 15 min | Fede |
 
-### Mercoledì 20 maggio
+### Mercoledì 21 maggio
 
 | Priorità | Task | Effort | Chi |
 |----------|------|--------|-----|
-| 🔴 P0 | B-15: noindex SWEEP — commit su branch, non pushare | 2h | CC |
-| 🔴 P0 | robots.txt — attivare testo già pronto nel file | 15 min | CC |
-| 🟡 P1 | B-TTL: abbassa TTL a 300s su Aruba | 15 min | Fede |
-| 🟡 P1 | CF Redirect Rule www→apex | 15 min | Fede |
-| 🟡 P1 | B-16: Sitemap — aggiungi EN categorie + diari | 1h | CC |
+| 🔴 P0 | B-15: noindex SWEEP + robots.txt — commit su branch, non pushare ancora | 2h | CC |
+| 🟡 P1 | B-16: Sitemap EN — categorie + diari | 1h | CC |
 | 🟡 P1 | Iubenda: aggiorna domini per includere ombreeluci.it | 15 min | Fede |
 | 🟡 P1 | GA4: verifica data stream punta a ombreeluci.it | 15 min | Fede |
+| 🟡 P1 | nodejs_compat flag check su CF Pages | 5 min | CC |
+| 🟡 P1 | Algolia domain check | 15 min | CC |
 
-### Giovedì 21 maggio
+### Giovedì 22 maggio
 
 | Priorità | Task | Effort | Chi |
 |----------|------|--------|-----|
-| 🔴 P0 | Smoke test completo pre-cutover (CUTOVER.md FASE 1) | 1h | CC+Fede |
-| 🔴 P0 | Verifica visiva mobile con redazione (M-01→M-07) | 1h | Fede+redazione |
-| 🟡 P1 | CF Worker — verifica route su zona CF corretta | 30 min | CC |
-| 🟡 P1 | Algolia domain restrictions check | 15 min | CC |
-| 🟡 P1 | nodejs_compat flag check su CF Pages | 5 min | CC |
-| 🟡 P1 | Comunicazione redazione: venerdì manutenzione ~30 min | 15 min | Fede |
-| 🟡 P1 | Bug fix minori se c'è tempo (slug doppio, CSS) | 1h | CC |
+| 🔴 P0 | Smoke test completo (CUTOVER.md FASE 1) | 1h | CC+Fede |
+| 🔴 P0 | Verifica visiva mobile con redazione | 1h | Fede+redazione |
+| 🟡 P1 | Comunicazione redazione: domani il noindex sweep | 15 min | Fede |
 
-### Venerdì 22 maggio — Cutover
+### Venerdì 23 maggio — Noindex sweep (cutover SEO)
 
-Seguire CUTOVER.md in ordine rigoroso.
-Orario consigliato: mattina presto (8:00-9:00) per avere tutta la giornata
-per gestire eventuali problemi.
+**Nota:** il "cutover DNS" è già avvenuto. Il 23 maggio è il giorno
+del **cutover SEO**: si abilita l'indicizzazione su un sito già live.
+Seguire CUTOVER.md Fase 2 (push noindex sweep) → Fase 3 e seguenti.
+
+Orario consigliato: mattina (8:00-9:00).
 
 ---
 
@@ -250,19 +275,22 @@ per gestire eventuali problemi.
 
 ---
 
-## Checklist verifica finale (giovedì sera)
+## Checklist verifica finale (giovedì 22 sera)
 
-- [ ] CF Worker deployato con forwardToPages abilitato
+- [x] CF Worker deployato con forwardToPages abilitato
 - [ ] noindex SWEEP commit pronto su branch (non pushato)
 - [ ] robots.txt aggiornato nel branch
 - [ ] PUBLIC_SITE_URL in CF Pages env vars (produzione)
 - [ ] Sitemap IT include autori + numeri
-- [ ] Record MX documentati e replicati su CF DNS
-- [ ] TTL abbassato a 300s su Aruba
-- [ ] CF DNS setup completo (CNAME Pages + cms A record + www redirect)
+- [x] Record MX documentati (Aruba Mail, 8 IP, SPF verificato)
+- [x] TTL ~300s (già su Cloudflare — N/A)
+- [x] CF DNS zona active (NS già Cloudflare)
+- [ ] CF Pages custom domain `ombreeluci.it` attivato (ora deactivated)
+- [ ] CF Redirect Rule www→apex configurata
+- [ ] MX record verificati in CF DNS zone (import corretto da Aruba)
 - [ ] Iubenda aggiornato per ombreeluci.it
 - [ ] GA4 data stream verificato
-- [ ] Dominio Aruba non scade prima del 26 maggio
+- [ ] Dominio Aruba non scade prima del 26 maggio (verifica rinnovo)
 - [ ] Comunicazione redazione inviata
 
 ---

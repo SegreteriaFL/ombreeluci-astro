@@ -1,8 +1,39 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-14 (sessione completa — vedi bug_ux_ui.md § "Fix sessione 2026-05-14")
+**Ultimo aggiornamento:** 2026-05-18
 
-Ultimi fix non ancora in sezioni dedicate:
+---
+
+## Fix sessione 2026-05-18 — Infrastruttura e cutover
+
+| Commit / Azione | Area | Fix |
+|---|---|---|
+| `ac1782b7` | **B-WORKER** ✅ | CF Worker: catch-all WP proxy sostituito con `forwardToPages(request, env)`. Causa outage: DNS già su CF, Worker tentava fetch a IP raw Aruba → CF error 1003. Deployato via wrangler. `ombreeluci.it` ora serve Astro (200 OK). |
+| `190930d9` | **Infra** ✅ | Health check Directus: `localhost` → `127.0.0.1` in docker-compose. False negative da 29 giorni. Container ricreato, Status: healthy. |
+| `3c0674ee` | **Docs** ✅ | RUNBOOK.md: sezione swap post-cutover (istruzioni condizionate a RAM < 500MB). |
+| `d5773455` | **Docs** ✅ | `docs/PRE-CUTOVER-ANALYSIS.md` e `docs/CUTOVER.md` creati. Piano cutover 22 maggio. |
+| (audit) | **DNS** ℹ️ | Scoperto: NS `ombreeluci.it` già su Cloudflare (dana/julio). Zone: active. Il "cutover DNS" è già avvenuto. B-TTL e CF DNS setup non più necessari. |
+| (audit) | **MX** ✅ | Record MX documentati: `10 mx.ombreeluci.it.` → 8 IP Aruba (62.149.128.x). SPF: `v=spf1 include:aruba.it ~all`. TTL già ~300s. |
+| (audit) | **CF Pages** ⚠️ | Custom domain `ombreeluci.it` e `www.ombreeluci.it` su CF Pages: stato `deactivated`. Da attivare. |
+| (audit) | **www** ⚠️ | `www.ombreeluci.it` non ha Worker route → serve WordPress Aruba (200). Nessuna CF Redirect Rule www→apex configurata. Da aggiungere. |
+
+**Stato ombreeluci.it al 2026-05-18:**
+- `ombreeluci.it` → ✅ 200, sito Astro via Worker + forwardToPages
+- `www.ombreeluci.it` → ⚠️ 200, WordPress Aruba (nessun Worker route, nessun redirect)
+- `robots.txt` → blocca tutti i crawler (`Disallow: /`) — Google non indicizza
+- `noindex` → attivo su quasi tutte le pagine IT — Google non indicizza
+
+**Blockers ancora aperti per cutover SEO (venerdì 22):**
+- B-15: noindex SWEEP + robots.txt
+- B-16: Sitemap completamento
+- B-CANONICAL: PUBLIC_SITE_URL in CF Pages env
+- B-ARUBA: verifica scadenza dominio 27 maggio
+- CF Pages custom domain attivazione (`ombreeluci.it` deactivated)
+- www redirect 301 (CF Redirect Rule)
+
+---
+
+**Fix sessione 2026-05-14** (precedente):
 - `3cc4f72a` BUG-REGEX: Commenti.astro TypeScript in define:vars → SyntaxError su tutti gli articoli. Fix: rimosso.
 - `c3a0307b` Homepage sidebar Recenti non mostra più l'articolo hero; ArticleCard horizontal display:flex + width 220px
 - `891f975a` Articolo: author-row ristrutturato, CTA "Contribuisci" button, archival-alert lowercase, floating-widget rimosso
