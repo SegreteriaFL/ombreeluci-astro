@@ -103,6 +103,18 @@ const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
 <!-- Preconnect origini critiche -->
 <link rel="preconnect" href="https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev" />
 
+<!-- Iubenda cookie consent banner -->
+<script is:inline type="text/javascript">
+  var _iub = _iub || [];
+  _iub.csConfiguration = {
+    "siteId": 1433329,
+    "cookiePolicyId": 66379072,
+    "lang": "it",
+    "storage": { "useSiteId": true }
+  };
+</script>
+<script is:inline type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
 <!-- Slot per contenuto aggiuntivo (JSON-LD, meta custom) -->
 <slot />
 
