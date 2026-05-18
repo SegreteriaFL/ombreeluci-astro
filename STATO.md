@@ -30,6 +30,7 @@
 - 🔴 MISSING: 0 (0.0%) — sotto soglia 2% ✅
 - 🟠 TO_HOMEPAGE (intenzionali): 6 (0.2%)
 - Due voci provvisorie in attesa redazione: `/riflessioni/` e `/attualita/` → `/it/archivio/`
+- `5d7dc626` — 7 correzioni destinazioni (autismo/cinema/aktion-t4 → focus, dopo-di-noi/vita-comunitaria → tag)
 
 ---
 
