@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-20
+**Ultimo aggiornamento:** 2026-05-20 (audit pre-lancio)
 
 ---
 
@@ -22,11 +22,27 @@
 | Redirect Fix 1-6 (regex middleware) | ✅ | `b209c37e` — copertura da 0.5% a 97.3% |
 | Redirect Fix 7 (96 URL singoli legacy.json) | ✅ | `fd20fed8` — copertura finale 99.8%, 0 MISSING |
 | Redirect correzioni 7 destinazioni | ✅ | `5d7dc626` — autismo/cinema/aktion-t4→focus, dopo-di-noi/vita-comunitaria→tag |
-| Fix algolia bundle oversize | ✅ | `ed596ad6` — SDK → fetch REST dirette; Worker da 1.4MB a 1.1MB (165KB gzip) |
-| Fix CTA hardcodata IT su pagine EN | ✅ | `32170b12` — CTAArticolo + CTAArchivio + HomepageContent supportPath |
-| Correlati EN — indice statico slug_en→slug_it | 🔵 post-lancio | Script da scrivere; correlati vuoti su articoli nuovi accettabili pre-lancio |
+| Fix algolia bundle oversize | ✅ | `ed596ad6` — SDK → fetch REST dirette; Worker 1.4MB→1.1MB (165KB gzip) |
+| Fix CTA hardcodata IT su pagine EN | ✅ | `32170b12` — CTAArticolo + CTAArchivio + HomepageContent `/en/support-us/` |
+| Correlati EN — indice statico | ✅ | `81f14483` — 3457 voci slug_en→slug_it; prebuild auto `f77a92c0` |
+| /riflessioni/ destinazione confermata | ✅ | `c6e46b28` — → `/it/rubriche/testimonianze/` (approvato redazione) |
+| /attualita/ destinazione confermata | ✅ | `c6e46b28` — → `/` homepage (approvato redazione) |
 
 **Tutto il lavoro pre-venerdì è completato. Restano solo le operazioni del giorno del cutover.**
+
+---
+
+## Debt tecnico — post-lancio
+
+| Task | Priorità | Note |
+|---|---|---|
+| Ricalcolo UMAP correlati | Media | `correlati.json` fermo a marzo 2026. Articoli nuovi senza correlati UMAP (hanno fallback categoria). Script: pipeline embeddings pgvector. |
+| SLUG-EN normalizzazione | Bassa | 1 slug residuo con `-en`: `joyeux-noel-2-en`. Route a due tentativi lo gestisce. |
+| Correlati EDIT in Directus | Bassa | Nessun modo per la redazione di correggere correlati sbagliati. |
+| DIARI-MANCANTI | Bassa | Alcuni articoli non associati al diario corretto — lavoro editoriale. |
+| PERF-IMG-DIMENSIONS | Media | Immagini senza width/height espliciti → CLS. Impatto PageSpeed post-lancio. |
+| Speed test PageSpeed | Media | Da eseguire entro T+24h dopo il lancio (bug_ux_ui.md). |
+| LIST-PREVIEW Directus | Bassa | Link diretto "Vedi sul sito" nella lista articoli Directus. |
 
 ---
 
