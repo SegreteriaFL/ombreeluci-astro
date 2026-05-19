@@ -10,7 +10,7 @@
     "dev:local": "astro dev --host 127.0.0.1 --port 4321",
     "dev:host": "astro dev --host",
     "start": "astro dev",
-    "prebuild": "node scripts/fetch-static-data.mjs && node scripts/copy-correlati.mjs",
+    "prebuild": "node scripts/fetch-static-data.mjs && node scripts/copy-correlati.mjs && node scripts/build-en-to-it-index.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
