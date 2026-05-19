@@ -148,9 +148,25 @@ Il file deve stare in `public/` (non solo `src/data/`). Il `prebuild` in `packag
 
 Dopo ogni build, verificare il bundle size:
 ```bash
-find dist/_worker.js -name "*.mjs" | xargs ls -lh | sort -k5 -rh | head -5
-# pages/blog/_---slug_.astro.mjs deve stare sotto 500KB
+find dist/_worker.js -name "*.mjs" | xargs ls -lh | sort -k5 -rh | head -10
+# pages/it/_slug_.astro.mjs deve stare sotto 500KB
 ```
+
+Il limite CF Pages è 1MB **gzipped** (non uncompressed). Il Worker gzippato è ~165KB.
+Baseline uncompressed al 2026-05-19:
+
+| File | KB | Natura |
+|---|---|---|
+| `manifest_*.mjs` | 122 | Astro route manifest — cresce con le pagine, non riducibile |
+| `astro/server_*.mjs` | 91 | Astro framework runtime — non riducibile |
+| `_astro-internal_middleware.mjs` | 89 | **redirects-legacy.json (87KB dati)** — cresce con nuovi redirect |
+| `DiarioBadge_*.mjs` | 74 | Componente + dati diari — accettabile |
+| `pages/it/_slug_.astro.mjs` | 51 | Articolo SSR — ✅ sotto soglia |
+
+**Dipendenze da non importare staticamente in endpoint/pagine SSR:**
+- `algoliasearch` SDK — 380KB bundlato (rimosso 2026-05-19, sostituito con fetch dirette)
+- `correlati.json` (749KB) — usare `fetch()` da `public/`
+- qualsiasi npm package con bundle >50KB — verificare con la lista sopra dopo ogni `npm install`
 
 ---
 
