@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-19
+**Ultimo aggiornamento:** 2026-05-20
 
 ---
 
@@ -22,6 +22,9 @@
 | Redirect Fix 1-6 (regex middleware) | ✅ | `b209c37e` — copertura da 0.5% a 97.3% |
 | Redirect Fix 7 (96 URL singoli legacy.json) | ✅ | `fd20fed8` — copertura finale 99.8%, 0 MISSING |
 | Redirect correzioni 7 destinazioni | ✅ | `5d7dc626` — autismo/cinema/aktion-t4→focus, dopo-di-noi/vita-comunitaria→tag |
+| Fix algolia bundle oversize | ✅ | `ed596ad6` — SDK → fetch REST dirette; Worker da 1.4MB a 1.1MB (165KB gzip) |
+| Fix CTA hardcodata IT su pagine EN | ✅ | `32170b12` — CTAArticolo + CTAArchivio + HomepageContent supportPath |
+| Correlati EN — indice statico slug_en→slug_it | 🔵 post-lancio | Script da scrivere; correlati vuoti su articoli nuovi accettabili pre-lancio |
 
 **Tutto il lavoro pre-venerdì è completato. Restano solo le operazioni del giorno del cutover.**
 
