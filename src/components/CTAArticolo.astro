@@ -19,7 +19,8 @@ const { lang = 'it', pageContext = 'articolo' } = Astro.props;
 const ctas = ctaData.articolo;
 const cta = ctas[Math.floor(Math.random() * ctas.length)];
 const ui = lang === 'en' ? cta.en : cta.it;
-const utmLink = `/sostienici?utm_source=${pageContext}&utm_medium=cta-inline&utm_campaign=${cta.id}&utm_content=${lang}`;
+const supportBase = lang === 'en' ? '/en/support-us' : '/it/sostienici';
+const utmLink = `${supportBase}?utm_source=${pageContext}&utm_medium=cta-inline&utm_campaign=${cta.id}&utm_content=${lang}`;
 ---
 
 <aside
