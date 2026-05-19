@@ -42,11 +42,14 @@ const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 const creds = directusCredsFromAstroLocals(Astro.locals);
 const urlSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
 
-const [tentativo1, correlatiMap] = await Promise.all([
+const [tentativo1, correlatiMap, enToItIndex] = await Promise.all([
   getArticoloBySlug(urlSlug, creds).catch(() => null),
   fetch(`${Astro.url.origin}/correlati.json`)
     .then((r) => (r.ok ? (r.json() as Promise<Record<string, string[]>>) : {}))
     .catch(() => ({} as Record<string, string[]>)),
+  fetch(`${Astro.url.origin}/en-to-it-slugs.json`)
+    .then((r) => (r.ok ? (r.json() as Promise<Record<string, string>>) : {}))
+    .catch(() => ({} as Record<string, string>)),
 ]);
 
 let articolo = (tentativo1 && tentativo1.lang === 'en') ? tentativo1 : null;
@@ -85,10 +88,13 @@ const copiedLinkLabel = 'Link copied!';
 
 let correlatiSlugsRaw: string[] = correlatiMap[articolo.slug] ?? [];
 
-// correlati.json è indicizzato per slug IT — prova anche con lo slug del counterpart IT
-const itSourceSlug = (articolo as any).articolo_traduzione?.slug as string | undefined;
-if (correlatiSlugsRaw.length === 0 && itSourceSlug) {
-  correlatiSlugsRaw = correlatiMap[itSourceSlug] ?? [];
+// correlati.json è indicizzato per slug IT — risolvi EN→IT con indice statico
+// Fallback: articolo_traduzione?.slug (per articoli non ancora nell'indice)
+if (correlatiSlugsRaw.length === 0) {
+  const slugIt = (enToItIndex as Record<string, string>)[articolo.slug]
+    ?? (articolo as any).articolo_traduzione?.slug as string | undefined
+    ?? null;
+  if (slugIt) correlatiSlugsRaw = correlatiMap[slugIt] ?? [];
 }
 correlatiSlugsRaw = correlatiSlugsRaw.slice(0, 10);
 
