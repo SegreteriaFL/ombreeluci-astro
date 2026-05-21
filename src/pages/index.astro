@@ -137,8 +137,7 @@ const latestArticles = sortedArticles
   .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
 // 3. DIARI — ultimo articolo per diarista, esclude hero+recenti
-const diaristiAttivi = DIARISTI.filter((d) => d.nome !== 'Davide Passeri');
-const latestPerDiario = diaristiAttivi
+const latestPerDiario = DIARISTI
   .map((diarista) => {
     const article = allArticles
       .filter((a) => (a.autore?.nome_completo || '').trim() === diarista.nome && !usedSlugs.has(a.slug))
@@ -149,9 +148,10 @@ const latestPerDiario = diaristiAttivi
       })[0];
     if (!article) return null;
     usedSlugs.add(article.slug);
-    return { diarista, meta: getArticleMeta(article) };
+    return { diarista, meta: getArticleMeta(article), date: article.data_pubblicazione ? new Date(article.data_pubblicazione).getTime() : 0 };
   })
   .filter((x): x is NonNullable<typeof x> => x !== null)
+  .sort((a, b) => b.date - a.date)
   .slice(0, 8);
 
 // 4. TESTIMONIANZE — pool top-10, rotazione giornaliera (cambia ogni nightly build)
