@@ -23,11 +23,31 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 - Componenti da toccare: `CTAArticolo.astro`, `CTAArchivio.astro`, `NewsletterContent.astro`, `ArticlePageLayout.astro`
 
 ### Articoli "cinema e disabilità" — contenuto vuoto
-- [ ] Verificare e ripopolare articoli della serie "cinema e disabilità" che risultano vuoti in Directus
-- URL campione: `https://ombreeluci.it/it/cinema-e-disabilita-i-3-film-di-boris-sollazzo`
-- URL campione: `https://ombreeluci.it/it/cinema-e-disabilita-i-3-film-di-valerio-sammarco`
-- Fonte contenuto: vecchio WordPress su Aruba (IP `89.46.105.36`, Host `www.ombreeluci.it`) oppure dump MySQL della migrazione (vedere `_migration_archive/2-1-25/export.php`)
-- Strategia: fetch da WP via IP diretto → copia body in Directus via PATCH `/items/articoli/{id}`
+- [x] **RISOLTO 2026-05-21** — 17 articoli IT ripopolati da WP (IP `89.46.105.36`); tag "cinema e disabilità" aggiunto a tutti 16; 18 sfogliabili messi in bozza; podcast e galleria Assisi ripopolati; barattolo/questionario → bozza
+
+### Articoli WP post-migrazione — non importati in Directus (PRIORITÀ ALTA)
+Articoli pubblicati su WP dopo il cutover della migrazione (~apr 2026) non sono presenti in Directus → 404 sul nuovo sito.
+Segnalati da social share / link esterni:
+- [ ] `interpretazioni-disabilita-al-far-east-festival` (WP ID 15769606, maggio 2026)
+- [ ] `anche-questanno-partecipero-alla-12-ore-nuotando-con-amore` (WP ID 15769564, maggio 2026)
+- Pattern: tutti gli articoli WP con ID > ~15768000 potrebbero mancare. Verificare via:
+  `curl -k "https://www.ombreeluci.it/wp-json/wp/v2/posts?per_page=100&orderby=id&order=desc&_fields=id,slug,date&status=publish"` confrontando con Directus
+- Strategia: importare manualmente da WP REST API via IP `89.46.105.36` + pipeline Directus
+
+### OG image default — da creare (PRIORITÀ MEDIA)
+- [ ] Creare immagine branded 1200x630px per OG default (logo + nome sito su sfondo colore brand)
+- [ ] Caricare su R2 in `copertine/og-default.jpg` via rclone o wrangler R2
+- [ ] Ripristinare in `BaseHead.astro`: `DEFAULT_OG_IMAGE = 'https://pub-...r2.dev/copertine/og-default.jpg'`
+- Attuale fallback temporaneo: `apple-touch-icon.png` (192x192, non ottimale per social)
+
+### Performance immagini — ottimizzazione urgente (PRIORITÀ ALTA)
+PageSpeed Mobile: 71/100. Causa principale: immagini Directus servite senza resize.
+- [ ] **Foto autori/diaristi in `DiariContent.astro`**: l'immagine `diario-fascia-foto` viene da `cms.ombreeluci.it/assets/{uuid}` senza parametri → 1.3MB per foto 962x320 visualizzata a 144x48px
+  - Fix: aggiungere `?width=288&height=288&fit=cover&format=webp&quality=80` all'URL dell'asset Directus
+  - Componente: `src/components/DiariContent.astro` (classe `diario-fascia-foto`)
+- [ ] **Foto autori in `AuthorPageContent.astro` e `ArticlePageLayout.astro`**: stesso problema
+- [ ] **Copertine articoli**: usare Directus transforms `?width=800&fit=cover&format=webp` invece di immagini full-res
+- Direttus transforms docs: `https://cms.ombreeluci.it/assets/{uuid}?width=X&height=Y&fit=cover&format=webp&quality=80`
 
 ------
 
