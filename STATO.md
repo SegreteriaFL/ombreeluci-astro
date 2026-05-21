@@ -4,6 +4,29 @@
 
 ---
 
+## Cutover completato — 2026-05-21 — Sito live su ombreeluci.it
+
+| Azione | Stato | Note |
+|---|---|---|
+| Step 1 — Redirect apex→www rimosso dal Worker | ✅ | `ombreeluci.it` serve Astro direttamente |
+| Step 2 — Merge `fix/cutover-noindex` | ✅ | noindex rimosso, robots.txt aperto |
+| Step 3 — Custom domain CF Pages attivato | ✅ | `ombreeluci.it` custom domain su Pages |
+| Step 4 — CF Redirect Rule www→apex 301 | ✅ | `www.ombreeluci.it/*` → `https://ombreeluci.it/{1}` |
+| Canonical URL fix | ✅ | `22f75539` — `PUBLIC_SITE_URL` ha precedenza su `CF_PAGES_URL` |
+| GSC proprietà `https://ombreeluci.it/` | ✅ | Aggiunta come Prefisso URL — verifica via meta tag |
+| Sitemap IT inviata a GSC | ✅ | `https://ombreeluci.it/sitemap.xml` |
+| Sitemap EN inviata a GSC | ⏳ | `https://ombreeluci.it/sitemap-en.xml` — in attesa crawl GSC |
+| Redirect legacy 1097 URL | ✅ 99.8% | 1095/1097 — 2 URL non-ASCII irrilevanti |
+| Worker regex patterns aggiornati | ✅ | Fix-7 + /page/N/ + /YYYY/slug/ + /n-N/ + /project/ + /author/ |
+| Sitelink Google (6 URL) | ✅ | Tutti risolvono: /archivio/, /sostienici/, /chi-siamo/, ecc. |
+| Iubenda popup — pulsanti Accept/Rifiuta | ✅ | Config banner aggiornata con accetta/rifiuta/personalizza |
+| UptimeRobot — aggiorna 6 monitor | ❌ da fare | IDs: 802995114, 802995136-39, 802995143 |
+| Mailchimp DKIM/SPF | ❌ da fare | Record su CF DNS da configurare |
+| Check URL mancanti (3500 WP urls) | ⏳ | In corso — risultati a breve |
+| Token CF temporaneo da revocare | ⚠️ | `cfut_v8gHYvFSVP0XkppNFCd37Sx3JFCdDCogwEZec9qg17a02875` |
+
+---
+
 ## Fix sessione 2026-05-21 — Home diari, articolo mobile, EN Close Up
 
 | Commit / Azione | Area | Fix |
