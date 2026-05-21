@@ -17,10 +17,10 @@ console.log('[config] DIRECTUS_URL:', DIRECTUS_URL);
 console.log('[config] DIRECTUS_TOKEN set:', DIRECTUS_TOKEN.length > 0);
 
 // URL pubblico per canonical, og:url e View Transitions durante il build.
-// Cloudflare Pages espone CF_PAGES_URL per ogni deploy (anche preview hash.*.pages.dev).
-// Fallback produzione se il build è locale senza env.
+// PUBLIC_SITE_URL ha precedenza (impostato manualmente su produzione CF Pages).
+// CF_PAGES_URL è il fallback: su preview hash è es. https://abc123.ombreeluci-staging.pages.dev.
 const site =
-  (process.env.CF_PAGES_URL || process.env.PUBLIC_SITE_URL || 'https://ombreeluci.it').replace(
+  (process.env.PUBLIC_SITE_URL || process.env.CF_PAGES_URL || 'https://ombreeluci.it').replace(
     /\/$/,
     '',
   );
