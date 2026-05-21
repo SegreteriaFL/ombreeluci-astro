@@ -20,7 +20,7 @@
 | Worker regex patterns aggiornati | ✅ | Fix-7 + /page/N/ + /YYYY/slug/ + /n-N/ + /project/ + /author/ |
 | Sitelink Google (6 URL) | ✅ | Tutti risolvono: /archivio/, /sostienici/, /chi-siamo/, ecc. |
 | Iubenda popup — pulsanti Accept/Rifiuta | ✅ | Config banner aggiornata con accetta/rifiuta/personalizza |
-| UptimeRobot — aggiorna 6 monitor | ❌ da fare | IDs: 802995114, 802995136-39, 802995143 |
+| UptimeRobot — aggiorna 6 monitor | ✅ | URL aggiornati a produzione via API. Nomi: 4/6 (Articolo SSR e Archivio da rinominare manualmente) |
 | Mailchimp DKIM/SPF | ❌ da fare | Record su CF DNS da configurare |
 | Check URL mancanti (3500 WP urls) | ⏳ | In corso — risultati a breve |
 | Token CF temporaneo da revocare | ⚠️ | `cfut_v8gHYvFSVP0XkppNFCd37Sx3JFCdDCogwEZec9qg17a02875` |
