@@ -152,7 +152,7 @@ const latestPerDiario = diaristiAttivi
     return { diarista, meta: getArticleMeta(article) };
   })
   .filter((x): x is NonNullable<typeof x> => x !== null)
-  .slice(0, 4);
+  .slice(0, 8);
 
 // 4. TESTIMONIANZE — pool top-10, rotazione giornaliera (cambia ogni nightly build)
 const testimonianzePoll = sortedArticles
