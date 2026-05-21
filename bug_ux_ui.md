@@ -12,6 +12,25 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 -->
 ------
 
+## TODO — post-lancio (quanto prima)
+
+### GA4 — eventi e conversioni
+- [ ] **CTAArticolo / CTAArchivio**: aggiungere `gtag('event', 'cta_sostienici_click')` sul click del pulsante Sostienici
+- [ ] **NewsletterContent**: `gtag('event', 'newsletter_signup')` sul submit form
+- [ ] **ArticlePageLayout**: `gtag('event', 'article_read_complete')` su scroll >75% dell'articolo
+- [ ] **Shared social / Header**: `gtag('event', 'share', { method: 'twitter'|'facebook' })`
+- [ ] In GA4 Dashboard: configurare gli eventi come Conversioni (Sostienici click, newsletter_signup)
+- Componenti da toccare: `CTAArticolo.astro`, `CTAArchivio.astro`, `NewsletterContent.astro`, `ArticlePageLayout.astro`
+
+### Articoli "cinema e disabilità" — contenuto vuoto
+- [ ] Verificare e ripopolare articoli della serie "cinema e disabilità" che risultano vuoti in Directus
+- URL campione: `https://ombreeluci.it/it/cinema-e-disabilita-i-3-film-di-boris-sollazzo`
+- URL campione: `https://ombreeluci.it/it/cinema-e-disabilita-i-3-film-di-valerio-sammarco`
+- Fonte contenuto: vecchio WordPress su Aruba (IP `89.46.105.36`, Host `www.ombreeluci.it`) oppure dump MySQL della migrazione (vedere `_migration_archive/2-1-25/export.php`)
+- Strategia: fetch da WP via IP diretto → copia body in Directus via PATCH `/items/articoli/{id}`
+
+------
+
 ## Fix sessione 2026-05-21
 
 | Hash | Area | Fix |
