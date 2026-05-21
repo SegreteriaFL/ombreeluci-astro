@@ -34,14 +34,33 @@
 
 ## Da fare — pendenti post-lancio
 
+### Infrastruttura sviluppo
+
+| Task | Priorità | Note |
+|---|---|---|
+| **Setup seconda postazione Mac (redazione)** | Alta | Installare: [VS Code](https://code.visualstudio.com/), [Claude Code](https://claude.ai/code), [GitHub Desktop](https://desktop.github.com/) o git CLI. Clonare repo `SegreteriaFL/ombreeluci-astro`. Configurare `.env.local` con `DIRECTUS_TOKEN` e `PUBLIC_DIRECTUS_URL`. Obiettivo: poter aggiornare e debuggare il sito anche dalla redazione senza dipendere dalla postazione principale. |
+| **Documentazione setup ambiente** | Alta | Creare `SETUP.md` con istruzioni step-by-step per onboarding nuova postazione: prerequisiti (Node 20, npm), clone repo, `.env.local`, `npm install`, `npm run dev`. Deve essere autosufficiente — chiunque in redazione deve poter seguirla senza aiuto esterno. |
+
+### Privacy / Legal
+
 | Task | Priorità | Note |
 |---|---|---|
 | **Contattare supporto Iubenda** | Alta | Richiedere attivazione piano Advanced su ombreeluci.it (era incluso nel preventivo originale "due siti + due lingue"). Email: support@iubenda.com. Riferire siteId fedeeluce.it `1433329` e nuovo progetto ombreeluci.it (cookiePolicyId `64241862`). |
 | **Policy Iubenda in italiano** | Media | Dashboard Iubenda → ombreeluci.it → Settings → cambia lingua da EN → IT. Poi rigenera policy. |
-| **Ricalcolo UMAP correlati** | Media | `correlati.json` fermo a marzo 2026. Articoli nuovi senza correlati UMAP (fallback categoria). |
+
+### Contenuti / SEO
+
+| Task | Priorità | Note |
+|---|---|---|
+| **Articoli WP post-migrazione** | Alta | Articoli pubblicati su WP dopo ~2026-04-25 (WP ID > ~15768000) non in Directus → 404. Es: `anche-questanno-partecipero-alla-12-ore-nuotando-con-amore`. Audit sistematico e import. |
 | **PageSpeed mobile** | Media | Eseguire test post-deploy image transforms. Stimato +15-20 punti. |
 | **PERF-IMG-DIMENSIONS** | Media | Immagini senza width/height espliciti → CLS. |
-| **Articoli WP post-migrazione** | Media | Articoli pubblicati su WP dopo ~2026-04-25 (WP ID > ~15768000) non in Directus → 404. Es: `anche-questanno-partecipero-alla-12-ore-nuotando-con-amore`. Audit sistematico e import. |
+| **Ricalcolo UMAP correlati** | Media | `correlati.json` fermo a marzo 2026. Articoli nuovi senza correlati UMAP (fallback categoria). |
+
+### Infrastruttura tecnica
+
+| Task | Priorità | Note |
+|---|---|---|
 | **Assisi 1986 gallery** | Bassa | 28 immagini `oel14-gallery-XXX.jpg` da migrare su R2. wp-content proxy non funziona per questi. |
 | **UptimeRobot rename** | Bassa | Monitor "Articolo SSR" e "Archivio" ancora con "(staging)" nel nome — rinominare manualmente. |
 | **R2 Cache-Control** | Bassa | `Cache-Control: public, max-age=31536000, immutable` via CF Transform Rule per media. |
