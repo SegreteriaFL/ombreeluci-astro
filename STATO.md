@@ -20,6 +20,10 @@
 | Worker regex patterns aggiornati | ✅ | Fix-7 + /page/N/ + /YYYY/slug/ + /n-N/ + /project/ + /author/ |
 | Sitelink Google (6 URL) | ✅ | Tutti risolvono: /archivio/, /sostienici/, /chi-siamo/, ecc. |
 | Iubenda popup — pulsanti Accept/Rifiuta | ✅ | Config banner aggiornata con accetta/rifiuta/personalizza |
+| Iubenda banner — dominio ombreeluci.it | ✅ | Widget OEL dedicato (ID `0309471a`), cookiePolicyId `64241862`. Sostituisce config fedeeluce.it. `01f5f610` |
+| OG default image 1200x630 | ✅ | `public/images/og-default.jpg` — tramonto con silhouette. BaseHead punta a `/images/og-default.jpg`. `765e1d35` |
+| Directus image transforms | ✅ | Tutte le immagini servite con WebP + resize. PageSpeed mobile stimato +15-20 punti. |
+| CF Worker slug redirect | ✅ | `interpretazioni-disabilita` → `interpretare-la-disabilita` (slug WP vs AI). `a815ddcb` |
 | UptimeRobot — aggiorna 6 monitor | ✅ | URL aggiornati a produzione via API. Nomi: 4/6 (Articolo SSR e Archivio da rinominare manualmente) |
 | Mailchimp DKIM/SPF | ✅ N/A | Newsletter inviata da `ombreeluci@fedeeluce.it` — fedeeluce.it già autenticato |
 | Check URL mancanti (3500 WP urls) | ⏳ | In corso — risultati a breve |
