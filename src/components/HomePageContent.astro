@@ -1,5 +1,6 @@
 ---
 import IssueCard from './IssueCard.astro';
+import IconDiari from './IconDiari.astro';
 import { COPERTINA_IMG_ONERROR, PLACEHOLDER_COPERTINA } from '../lib/directus';
 import { t, localizeIssuePeriodLabel, type Locale } from '../utils/i18n';
 
@@ -299,7 +300,10 @@ const issuePeriodLabel = ultimoNumero
                 ))
             }
           </div>
-          <a href={diariesPath} class="home-link-more">{t(lang, 'home_section_all_stories')}</a>
+          <a href={diariesPath} class="home-diari-hub-title">
+            <IconDiari size={28} class="home-diari-title-icon" />
+            {lang === 'en' ? 'The Diaries of Ombre e Luci' : 'I Diari di Ombre e Luci'}
+          </a>
           <div class="home-testi-cta">
             <p>{t(lang, 'home_testi_cta_text')}</p>
             <a href="mailto:ombreeluci@fedeeluce.it" class="home-testi-cta-link">{t(lang, 'home_testi_cta_link')}</a>
@@ -1031,17 +1035,22 @@ const issuePeriodLabel = ultimoNumero
     .home-hero-grid { grid-template-columns: 1fr; }
   }
 
-  .home-tagline {
-    font-family: 'Raleway', system-ui, sans-serif;
-    font-size: clamp(1.5rem, 3.2vw, 2.4rem);
-    font-weight: 600;
-    line-height: 1.2;
+  .home-tagline { display: none; }
+
+  .home-diari-hub-title {
+    font-family: 'Ultra', Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(1.3rem, 2.5vw, 1.75rem);
     color: var(--text-color);
-    margin: 0 0 1.5rem 0;
-    letter-spacing: -0.01em;
-    padding-bottom: 1.25rem;
-    border-bottom: 1px solid var(--border-color);
+    line-height: 1.15;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    margin-top: 0.5rem;
   }
+  .home-diari-hub-title:hover { color: var(--accent-color); }
+  .home-diari-title-icon { flex-shrink: 0; display: block; }
   @media (max-width: 900px) {
     .home-tagline { font-size: clamp(1.3rem, 5vw, 1.9rem); margin-bottom: 1.25rem; }
   }
