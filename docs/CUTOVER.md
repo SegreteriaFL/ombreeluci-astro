@@ -1,5 +1,5 @@
 > **Contesto:** vedere `docs/PRE-CUTOVER-ANALYSIS.md` per l'analisi completa dei rischi e lo stato aggiornato.
-> **Aggiornamento 2026-05-18:** tutto il pre-lavoro è completato. Restano solo le 6 operazioni del 22 maggio.
+> **Aggiornamento 2026-05-21:** cutover completato. Sito live su `https://ombreeluci.it`. Restano UptimeRobot, Mailchimp DKIM/SPF, e revoca token CF temporaneo.
 
 ---
 
@@ -57,10 +57,10 @@ curl -s https://cms.ombreeluci.it/server/ping      # → pong
 
 - [x] Step 1 — Redirect temporaneo apex→www rimosso dal Worker ✅ 2026-05-21
 - [x] Step 3 — Custom domain `ombreeluci.it` attivato in CF Pages ✅ 2026-05-21
-- [ ] Step 2 — Merge `fix/cutover-noindex` + commit fix canonical astro.config.mjs
-- [ ] Step 4 — CF Redirect Rule www→apex 301
-- [ ] Step 5 — Verifica propagazione (curl home + articolo SSR + noindex + canonical)
-- [ ] Step 6 — GSC: aggiungi proprietà https://ombreeluci.it + invia sitemap IT e EN
+- [x] Step 2 — Merge `fix/cutover-noindex` + fix canonical `astro.config.mjs` ✅ 2026-05-21
+- [x] Step 4 — CF Redirect Rule www→apex 301 ✅ 2026-05-21
+- [x] Step 5 — Verifica propagazione ✅ sito live, 200 OK su home + articoli + archivio
+- [x] Step 6 — GSC: proprietà `https://ombreeluci.it/` aggiunta, sitemap IT e EN inviate ✅ 2026-05-21
 
 ### Step 1 — Rimuovi redirect temporaneo apex→www dal Worker
 
@@ -118,12 +118,12 @@ curl -sI https://www.ombreeluci.it/                # → 301 → ombreeluci.it
 
 ### Verifica sito
 
-- [ ] Homepage `https://ombreeluci.it/` — visiva OK
-- [ ] Articolo SSR `https://ombreeluci.it/it/ombre-e-luci/` — OK
-- [ ] Archivio `https://ombreeluci.it/it/archivio/` — OK
-- [ ] CMS `https://cms.ombreeluci.it` — accessibile
-- [ ] Redirect legacy: `curl -sI https://ombreeluci.it/blog/uno-slug-vecchio/` → 301 verso `/it/`
-- [ ] noindex rimosso: `curl -s https://ombreeluci.it/ | grep -i "noindex"` → zero risultati
+- [x] Homepage `https://ombreeluci.it/` — visiva OK ✅
+- [x] Articolo SSR `https://ombreeluci.it/it/ombre-e-luci/` — OK ✅
+- [x] Archivio `https://ombreeluci.it/it/archivio/` — OK ✅
+- [x] CMS `https://cms.ombreeluci.it` — accessibile ✅
+- [x] Redirect legacy: check 3500 URL WP → 99.97% OK (3499/3500) ✅ 2026-05-21
+- [x] noindex rimosso ✅ — Iubenda banner con categorie attivo ✅
 
 ### UptimeRobot — aggiorna URL monitor
 
@@ -133,6 +133,10 @@ curl -sI https://www.ombreeluci.it/                # → 301 → ombreeluci.it
 # Sostituisci ombreeluci-staging.pages.dev con ombreeluci.it
 # Istruzioni complete in docs/MONITORING.md
 ```
+
+> **Nota:** gli URL target in MONITORING.md §2 puntano già a `ombreeluci.it`.
+> Aggiornare direttamente dal dashboard UptimeRobot → ogni monitor → Edit → URL.
+> Oppure via API con la chiave in My Settings → API Settings.
 
 ### Mailchimp SPF/DKIM
 
