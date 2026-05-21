@@ -21,9 +21,9 @@
 | Sitelink Google (6 URL) | ✅ | Tutti risolvono: /archivio/, /sostienici/, /chi-siamo/, ecc. |
 | Iubenda popup — pulsanti Accept/Rifiuta | ✅ | Config banner aggiornata con accetta/rifiuta/personalizza |
 | UptimeRobot — aggiorna 6 monitor | ✅ | URL aggiornati a produzione via API. Nomi: 4/6 (Articolo SSR e Archivio da rinominare manualmente) |
-| Mailchimp DKIM/SPF | ❌ da fare | Record su CF DNS da configurare |
+| Mailchimp DKIM/SPF | ✅ N/A | Newsletter inviata da `ombreeluci@fedeeluce.it` — fedeeluce.it già autenticato |
 | Check URL mancanti (3500 WP urls) | ⏳ | In corso — risultati a breve |
-| Token CF temporaneo da revocare | ⚠️ | `cfut_v8gHYvFSVP0XkppNFCd37Sx3JFCdDCogwEZec9qg17a02875` |
+| Token CF temporaneo da revocare | ✅ | Revocato 2026-05-21 |
 
 ---
 
