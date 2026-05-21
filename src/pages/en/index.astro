@@ -142,17 +142,18 @@ const latestArticles = sortedEN
   .slice(0, 7)
   .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
-// 3. CLOSE UP — stessi diari dell'IT, da articoli IT (i diari non hanno traduzioni EN)
+// 3. CLOSE UP — versioni EN degli articoli dei diaristi (stessa logica dell'IT ma su pool EN)
 const latestPerDiario = DIARISTI
   .map((diarista) => {
-    const article = allArticlesIT
-      .filter((a) => (a.autore?.nome_completo || '').trim() === diarista.nome)
+    const article = allArticlesEN
+      .filter((a) => (a.autore?.nome_completo || '').trim() === diarista.nome && !usedSlugs.has(a.slug))
       .sort((a, b) => {
         const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
         const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
         return tB - tA;
       })[0];
     if (!article) return null;
+    usedSlugs.add(article.slug);
     return { diarista, meta: getArticleMeta(article), date: article.data_pubblicazione ? new Date(article.data_pubblicazione).getTime() : 0 };
   })
   .filter((x): x is NonNullable<typeof x> => x !== null)
