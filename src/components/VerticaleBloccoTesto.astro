@@ -11,7 +11,7 @@ interface Props {
 const { blocco, lang } = Astro.props;
 const testo = lang === 'en' ? (blocco.testo_en || blocco.testo) : blocco.testo;
 const imgId = blocco.immagine?.id;
-const imgUrl = imgId ? getDirectusAssetUrl(imgId) : null;
+const imgUrl = imgId ? getDirectusAssetUrl(imgId, { width: 900, fit: 'cover', format: 'webp', quality: 82 }) : null;
 const layout = blocco.layout_immagine ?? 'nessuna';
 ---
 

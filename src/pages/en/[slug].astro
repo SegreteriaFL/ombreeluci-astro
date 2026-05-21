@@ -16,7 +16,7 @@
  */
 export const prerender = false;
 
-import { getArticoloBySlug, getArticoliBySlugList, getArticoliEnByItSlugs, getArticoloCopertinaSrc, getAutoreImageUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
+import { getArticoloBySlug, getArticoliBySlugList, getArticoliEnByItSlugs, getArticoloCopertinaSrc, getAutoreImageUrl, getDirectusAssetUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
 import { getPlaceholder } from '../../utils/placeholder';
 import ArticlePageLayout from '../../layouts/ArticlePageLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -182,6 +182,7 @@ const diarioInfo = _diarista ? {
 const isJeanVanier: boolean = (autoreCompleto?.slug === 'jean-vanier') || autoreName.toLowerCase().includes('jean vanier');
 const authorFotoId: string | null = autoreCompleto?.foto?.id ?? null;
 const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${authorSlug}.jpg`;
+const authorFasciaPath = authorFotoId ? getDirectusAssetUrl(authorFotoId, { width: 288, height: 96, fit: 'cover', format: 'webp', quality: 80 }) : authorImagePath;
 const authorBio: string | null = authorBioHtml;
 
 const _bioStripped = authorBioHtml ? authorBioHtml.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() : null;
@@ -480,7 +481,7 @@ const alternates: { lang: string; url: string }[] = [
           hubHref={diarioInfo.hubHref}
           hubLabel={diarioInfo.hubLabel}
           byLabel={diarioInfo.byLabel}
-          autoreFotoUrl={authorImagePath}
+          autoreFotoUrl={authorFasciaPath}
         />
       )}
 

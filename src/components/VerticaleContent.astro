@@ -21,7 +21,7 @@ const seoDesc = lang === 'en'
   : verticale.seo_description;
 
 const heroUrl = verticale.hero_immagine
-  ? getDirectusAssetUrl(verticale.hero_immagine)
+  ? getDirectusAssetUrl(verticale.hero_immagine, { width: 1200, fit: 'cover', format: 'webp', quality: 85 })
   : null;
 
 const slug = lang === 'en' ? verticale.slug_en : verticale.slug;

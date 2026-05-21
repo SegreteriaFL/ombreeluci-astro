@@ -33,7 +33,7 @@ const basePath = lang === 'en' ? '/en' : '/it';
       author={a.autore?.nome_completo ?? ''}
       date={a.data_pubblicazione}
       slug={a.slug}
-      image={a.immagine_copertina?.id ? getDirectusAssetUrl(a.immagine_copertina.id) : null}
+      image={a.immagine_copertina?.id ? getDirectusAssetUrl(a.immagine_copertina.id, { width: 800, fit: 'cover', format: 'webp', quality: 82 }) : null}
       categoriaMenu={a.categoria_menu}
       forma={a.forma}
       lang={lang}

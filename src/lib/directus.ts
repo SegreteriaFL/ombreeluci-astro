@@ -49,13 +49,25 @@ export function directusCredsFromAstroLocals(locals: unknown): DirectusRuntimeCr
 
 /**
  * URL pubblico file Directus (`directus_files.id`).
- * Usare questo per copertine/autori caricati da CMS: lo storage è servito da Directus (`/assets/:id`),
- * non dal path R2 legacy `copertine/{id}` che valeva solo per import/migrazione.
+ * Accetta parametri opzionali di trasformazione immagine Directus:
+ * width, height, fit (cover|contain|fill|inside|outside), format (webp|jpg|png), quality (0-100).
  */
-export function getDirectusAssetUrl(fileId: string): string {
+export function getDirectusAssetUrl(
+  fileId: string,
+  transforms?: { width?: number; height?: number; fit?: string; format?: string; quality?: number }
+): string {
   const id = String(fileId || '').trim();
   const base = DIRECTUS_URL.replace(/\/$/, '');
-  return `${base}/assets/${encodeURIComponent(id)}`;
+  const url = `${base}/assets/${encodeURIComponent(id)}`;
+  if (!transforms) return url;
+  const params = new URLSearchParams();
+  if (transforms.width)   params.set('width',   String(transforms.width));
+  if (transforms.height)  params.set('height',  String(transforms.height));
+  if (transforms.fit)     params.set('fit',     transforms.fit);
+  if (transforms.format)  params.set('format',  transforms.format);
+  if (transforms.quality) params.set('quality', String(transforms.quality));
+  const qs = params.toString();
+  return qs ? `${url}?${qs}` : url;
 }
 
 /** @deprecated Preferisci getDirectusAssetUrl; mantenuto come alias per compatibilità. */
@@ -63,8 +75,14 @@ export function getImageUrl(fileId: string): string {
   return getDirectusAssetUrl(fileId);
 }
 
+/** Foto autore: ottimizzata WebP 200x200 per thumbnail/avatar. */
 export function getAutoreImageUrl(fileId: string): string {
-  return getDirectusAssetUrl(fileId);
+  return getDirectusAssetUrl(fileId, { width: 200, height: 200, fit: 'cover', format: 'webp', quality: 80 });
+}
+
+/** Foto autore in fascia diario (molto piccola, 96x96 @2x): ulteriore ottimizzazione. */
+export function getAutoreFotoFasciaUrl(fileId: string): string {
+  return getDirectusAssetUrl(fileId, { width: 96, height: 96, fit: 'cover', format: 'webp', quality: 80 });
 }
 
 /**
@@ -81,13 +99,18 @@ export function getNumeroImageUrl(numero: { copertina?: string | null; copertina
 /** Copertina articolo assente o non caricabile: asset statico in `public/`. */
 export const PLACEHOLDER_COPERTINA = '/images/placeholder-copertina.svg';
 
-export function getArticoloCopertinaSrc(articolo: {
-  immagine_copertina?: { id: string } | null;
-}): string | null {
+/**
+ * Copertina articolo ottimizzata WebP.
+ * width default 800 (card); passare 1200 per hero/header, 400 per thumbnail piccoli.
+ */
+export function getArticoloCopertinaSrc(
+  articolo: { immagine_copertina?: { id: string } | null },
+  width = 800
+): string | null {
   const raw = articolo?.immagine_copertina?.id;
   const id = typeof raw === 'string' ? raw.trim() : '';
   if (!id) return null;
-  return getImageUrl(id);
+  return getDirectusAssetUrl(id, { width, fit: 'cover', format: 'webp', quality: 82 });
 }
 
 /** Handler `onerror` per `<img>` copertina: fallback se l’URL R2 non risponde. */

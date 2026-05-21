@@ -50,7 +50,7 @@ const pageDesc = isIT
           const titolo = lang === 'en' ? (v.titolo_en || v.titolo) : v.titolo;
           const desc = lang === 'en' ? (v.seo_description_en || v.seo_description) : v.seo_description;
           const href = lang === 'en' ? `/en/focus/${v.slug_en}/` : `/it/focus/${v.slug}/`;
-          const imgUrl = v.hero_immagine ? getDirectusAssetUrl(v.hero_immagine) : null;
+          const imgUrl = v.hero_immagine ? getDirectusAssetUrl(v.hero_immagine, { width: 800, fit: 'cover', format: 'webp', quality: 82 }) : null;
 
           return (
             <a href={href} class={`focus-card focus-card--${v.tema_visivo}`}>

@@ -3,6 +3,8 @@
 // Rule C+D: lookup table  (1001 redirects)
 
 const REDIRECTS = {
+  // Slug WP → slug Directus (pipeline AI genera slug diverso da WP originale)
+  "/it/interpretazioni-disabilita-al-far-east-festival/": "/it/interpretare-la-disabilita-al-far-east-festival/",
   // Numeri rivista rinominati dopo import (INS-3x con doppio trattino → ID corretto)
   "/it/archivio/ins--2/": "/it/archivio/ins-31/",
   "/it/archivio/ins--3/": "/it/archivio/ins-32/",
