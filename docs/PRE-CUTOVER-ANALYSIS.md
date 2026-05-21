@@ -1,3 +1,5 @@
+> **Documento storico — cutover completato il 2026-05-21.** Sito live su `https://ombreeluci.it`. Questo documento è conservato come riferimento delle decisioni prese.
+
 # Analisi pre-cutover — Ombre e Luci
 
 Documento di sintesi prodotto il 2026-05-17 integrando:

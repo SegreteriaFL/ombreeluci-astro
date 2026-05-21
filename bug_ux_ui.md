@@ -10,35 +10,6 @@ Priorità implicita: i bug senza sezione sono bloccanti o cross-cutting.
 I bug per sezione (home, archivio, ecc.) sono localizzati e indipendenti tra loro.
 La redazione può togliere la x se il fix non risolve possibilmente commentando e motivando il rifiuto il bug e Claude deve ritornarci sopra
 -->
- prompt per www
-
- Prompt Claude Code — Redirect temporaneo apex → www
-Contesto: ombreeluci.it serve già il sito Astro (fix B-WORKER applicato oggi). Fino al rilascio ufficiale di venerdì 22 maggio vogliamo che i visitatori umani vengano mandati su www.ombreeluci.it (WordPress Aruba, funzionante). Il redirect deve essere nel CF Worker, non in CF Dashboard, perché il Worker intercetta già tutto il traffico su ombreeluci.it.
-Task: Nel file cf-worker/redirect-worker.js, come primissima cosa nel handler (prima di qualsiasi altra logica), aggiungi un redirect 302 temporaneo da ombreeluci.it a www.ombreeluci.it per tutto il traffico che non sia:
-
-cms.ombreeluci.it (Directus — non toccare)
-ombreeluci-staging.pages.dev (staging diretto — non toccare)
-
-Il redirect deve essere 302 (temporaneo, non 301) perché verrà rimosso venerdì. Un 301 verrebbe cachato dai browser e creerebbe problemi al rilascio.
-La logica è:
-javascriptconst url = new URL(request.url);
-if (url.hostname === 'ombreeluci.it') {
-  return Response.redirect(
-    `https://www.ombreeluci.it${url.pathname}${url.search}`,
-    302
-  );
-}
-Questa riga va messa prima di tutto il resto nel handler, subito dopo async function fetch(request, env).
-Dopo aver modificato il file: deploya immediatamente con wrangler deploy e verifica:
-bashcurl -sI https://ombreeluci.it/ | grep -E "location|HTTP"
-# atteso: HTTP 302, location: https://www.ombreeluci.it/
-curl -sI https://ombreeluci.it/it/ombre-e-luci/ | grep -E "location|HTTP"
-# atteso: HTTP 302, location: https://www.ombreeluci.it/it/ombre-e-luci/
-Venerdì mattina, come prima azione del cutover: rimuovere questo blocco e rideploy del Worker prima di procedere con il resto del CUTOVER.md. Aggiungere una nota prominente in cima a redirect-worker.js che ricordi di farlo.
-
-Dopo il deploy dimmi l'esito dei due curl così confermo che funziona.
-
-
 ------
 
 ## Fix sessione 2026-05-21

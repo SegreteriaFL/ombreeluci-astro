@@ -177,17 +177,17 @@ Runbook completo: `/opt/oel-cms/RUNBOOK.md` sul server.
 ### Monitor attivi
 
 Istruzioni di configurazione complete in `docs/MONITORING.md`.
-**Nota cutover DNS:** gli URL UptimeRobot puntano attualmente a staging. Al cutover aggiornare via API (30 secondi — vedi backlog STATO.md).
+**Aggiornato al cutover 2026-05-21:** tutti i monitor puntano a produzione.
 
-| Monitor | URL attuale (staging) | Strumento | Intervallo | Alert | Stato |
+| Monitor | URL produzione | Strumento | Intervallo | Alert | Stato |
 |---|---|---|---|---|---|
-| CMS ping | `cms.ombreeluci.it/server/ping` | UptimeRobot (ID 802995136) | 5 min | Email | ✅ attivo 2026-05-05 |
-| Homepage IT | `ombreeluci-staging.pages.dev/` | UptimeRobot (ID 802995114) | 5 min | Email | ✅ attivo 2026-05-05 |
-| Homepage EN | `ombreeluci-staging.pages.dev/en/` | UptimeRobot (ID 802995137) | 10 min | Email | ✅ attivo 2026-05-05 |
-| Articolo SSR | `ombreeluci-staging.pages.dev/it/ombre-e-luci/` | UptimeRobot (ID 802995138) | 10 min | Email | ✅ attivo 2026-05-05 |
-| Archivio | `ombreeluci-staging.pages.dev/it/archivio/` | UptimeRobot (ID 802995139) | 15 min | Email | ✅ attivo 2026-05-05 |
-| Health endpoint | `ombreeluci-staging.pages.dev/api/health` | UptimeRobot (ID 802995143) | 5 min | Email | ✅ attivo 2026-05-05 |
-| Smoke post-deploy (11 check) | staging | GitHub Actions | ad ogni push main | Slack | ✅ deployato con MONITORING-01 |
+| CMS ping | `cms.ombreeluci.it/server/ping` | UptimeRobot (ID 802995136) | 5 min | Email | ✅ attivo |
+| Homepage IT | `https://ombreeluci.it/` | UptimeRobot (ID 802995114) | 5 min | Email | ✅ attivo |
+| Homepage EN | `https://ombreeluci.it/en/` | UptimeRobot (ID 802995137) | 10 min | Email | ✅ attivo |
+| Articolo SSR | `https://ombreeluci.it/it/ombre-e-luci/` | UptimeRobot (ID 802995138) | 10 min | Email | ✅ attivo |
+| Archivio | `https://ombreeluci.it/it/archivio/` | UptimeRobot (ID 802995139) | 15 min | Email | ✅ attivo |
+| Health endpoint | `https://ombreeluci.it/api/health` | UptimeRobot (ID 802995143) | 5 min | Email | ✅ attivo |
+| Smoke post-deploy (11 check) | produzione | GitHub Actions | ad ogni push main | Slack | ✅ attivo |
 
 ---
 
