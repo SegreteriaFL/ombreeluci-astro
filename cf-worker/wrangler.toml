@@ -1,6 +1,7 @@
 name = "ombreeluci-redirects"
 main = "redirect-worker.js"
 compatibility_date = "2024-01-01"
+account_id = "6b071de7f55397ada5645e187c932202"
 
 routes = [
   # Intercetta tutto il traffico sul dominio: il DNS punta ancora ad Aruba, quindi

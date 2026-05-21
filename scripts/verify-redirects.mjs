@@ -11,7 +11,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const BASE_URL = 'https://ombreeluci-staging.pages.dev';
+const BASE_URL = process.env.BASE_URL || 'https://ombreeluci-staging.pages.dev';
 
 // Load redirect mappings
 const redirectsPath = path.join(__dirname, '../src/data/redirects-legacy.json');
