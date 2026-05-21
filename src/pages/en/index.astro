@@ -10,6 +10,7 @@ import {
   getCategoriaLabel,
 } from '../../config/taxonomy.js';
 import { getAllArticoliBuild } from '../../lib/articoli-build';
+import { DIARISTI } from '../../data/diari.js';
 import {
   getArticoloCopertinaSrc,
   getAllAutori,
@@ -141,11 +142,24 @@ const latestArticles = sortedEN
   .slice(0, 7)
   .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
-// 3. CLOSE UP (sezione Da vicino EN, in assenza di diari) — esclude hero+recenti
-const closeUpArticles = sortedEN
-  .filter((a) => !usedSlugs.has(a.slug))
-  .slice(0, 4)
-  .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
+// 3. CLOSE UP — stessi diari dell'IT, da articoli IT (i diari non hanno traduzioni EN)
+const latestPerDiario = DIARISTI
+  .map((diarista) => {
+    const article = allArticlesIT
+      .filter((a) => (a.autore?.nome_completo || '').trim() === diarista.nome)
+      .sort((a, b) => {
+        const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
+        const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
+        return tB - tA;
+      })[0];
+    if (!article) return null;
+    return { diarista, meta: getArticleMeta(article), date: article.data_pubblicazione ? new Date(article.data_pubblicazione).getTime() : 0 };
+  })
+  .filter((x): x is NonNullable<typeof x> => x !== null)
+  .sort((a, b) => b.date - a.date)
+  .slice(0, 8);
+
+const closeUpArticles: ReturnType<typeof getArticleMeta>[] = [];
 
 // 4. TESTIMONIANZE — pool top-10, rotazione giornaliera
 const testimonianzePoll = sortedEN
@@ -215,7 +229,11 @@ const exploreItems = EXPLORE_CATEGORIES_IT.map((catLabelIT) => {
     featuredPool={featuredPool}
     rotationPool={rotationPool}
     latestArticles={latestArticles}
-    diariCards={[]}
+    diariCards={latestPerDiario.map(({ diarista, meta }) => ({
+      diarista,
+      meta,
+      fotoUrl: autoriById[diarista.authorSlug]?.foto_url || '',
+    }))}
     closeUpArticles={closeUpArticles}
     testimonianze={testimonianze}
     exploreItems={exploreItems}

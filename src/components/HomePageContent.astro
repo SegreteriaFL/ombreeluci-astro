@@ -269,7 +269,7 @@ const issuePeriodLabel = ultimoNumero
           <div class="home-diari-grid">
             {diariCards.length > 0
               ? diariCards.map(({ diarista, meta, fotoUrl }) => (
-                  <a href={`${articleBasePath}/${meta.slug}`} class="home-diario-card">
+                  <a href={`/it/${meta.slug}`} class="home-diario-card">
                     <div class="home-diario-cover">
                       {fotoUrl
                         ? <img src={fotoUrl} alt={diarista.nome} loading="lazy" />
