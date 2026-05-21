@@ -1,6 +1,23 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-20 (audit pre-lancio)
+**Ultimo aggiornamento:** 2026-05-21
+
+---
+
+## Fix sessione 2026-05-21 — Home diari, articolo mobile, EN Close Up
+
+| Commit / Azione | Area | Fix |
+|---|---|---|
+| `00eadf93` | **Home diari** | Griglia da 2 a 3 colonne; limite card da 4 a 8. |
+| `9668ca8f` | **Home diari** | Rimosso filtro che escludeva Davide Passeri; ordinamento per data articolo decrescente (dal più recente). |
+| `161b5ca9` | **Home diari mobile** | Griglia 2 colonne su tutto il mobile (rimosso breakpoint 480px→1col aggiunto per errore). |
+| `72f3fb5b` | **Home diari mobile** | Fix bug preesistente: `@media (max-width:480px)` nel file aveva `.home-diari-grid{grid-template-columns:1fr}` che sovrascriveva il fix — corretto a `repeat(2,1fr)`. |
+| `ee904d59` | **Home diari titolo** | "Tutte le storie →" sostituito con heading Ultra + IconDiari: "I Diari di Ombre e Luci". `home-tagline` → `display:none`. |
+| `38b1d666` | **Articolo mobile** | `@media (max-width:480px)`: `.article-title` 1.5rem→2rem, `.article-subtitle` 1rem→1.3rem. Base desktop invariata. |
+| `2d74a425` → `22b0ac46` | **EN home Close Up** | Sezione Close Up EN ora mostra versioni EN degli articoli dei diaristi (stesso ordinamento IT: per data decrescente, max 8). Prima mostrava 4 articoli EN casuali post-hero. Link a `/en/{slug}`. |
+| (Directus PATCH) | **Dati** | Slug autore Pierfrancesco De Paolis corretto: `pierfrancesco-depaolis` → `pierfrancesco-de-paolis`. Causa 404 su `/it/autori/pierfrancesco-de-paolis`. |
+
+**Nota architetturale EN Close Up:** i diari non hanno traduzioni EN sistematiche — se un diarista non ha articoli EN nel pool, viene escluso dalla griglia. Card visibili = diaristi con almeno 1 articolo EN pubblicato.
 
 ---
 
