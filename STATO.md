@@ -52,7 +52,7 @@
 
 | Task | Priorità | Note |
 |---|---|---|
-| **Articoli WP post-migrazione** | Alta | Articoli pubblicati su WP dopo ~2026-04-25 (WP ID > ~15768000) non in Directus → 404. Es: `anche-questanno-partecipero-alla-12-ore-nuotando-con-amore`. Audit sistematico e import. |
+| **Articoli WP post-migrazione — 404 sul nuovo sito** | Alta | Articoli pubblicati su WordPress dopo ~2026-04-25 (WP ID > ~15768000) non sono stati importati in Directus durante la migrazione e danno 404 sul nuovo sito. Esempio noto: `anche-questanno-partecipero-alla-12-ore-nuotando-con-amore` (WP ID 15769564). Quanti sono? Da fare: estrarre da dump WP tutti i post con ID > 15768000 e `post_status = publish`, confrontare con Directus, importare i mancanti. Script da scrivere. |
 | **PageSpeed mobile** | Media | Eseguire test post-deploy image transforms. Stimato +15-20 punti. |
 | **PERF-IMG-DIMENSIONS** | Media | Immagini senza width/height espliciti → CLS. |
 | **Ricalcolo UMAP correlati** | Media | `correlati.json` fermo a marzo 2026. Articoli nuovi senza correlati UMAP (fallback categoria). |
