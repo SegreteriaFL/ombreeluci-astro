@@ -48,8 +48,7 @@ const {
 } = Astro.props;
 
 const SITE_NAME = 'Ombre e Luci';
-// TODO: creare og-default.jpg 1200x630 branded e caricarlo su R2 in copertine/
-const DEFAULT_OG_IMAGE = 'https://ombreeluci.it/apple-touch-icon.png';
+const DEFAULT_OG_IMAGE = 'https://ombreeluci.it/images/og-default.jpg';
 const GOOGLE_SITE_VERIFICATION = 'CHp0QtH-sw0M_ZYVjj6LRqHxV-4Z72IoYR_aiX9c6ZE';
 
 // Se il titolo contiene già il nome del sito (es. homepage), usarlo così com'è
@@ -119,12 +118,19 @@ const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
       "customizeButtonDisplay": true,
       "rejectButtonDisplay": true,
       "position": "float-bottom-center",
+      "backgroundOverlay": false,
+      "listPurposes": true,
+      "showTotalNumberOfProviders": true,
+      "closeButtonDisplay": true,
       "acceptButtonColor": "#0073CE",
       "acceptButtonCaptionColor": "#ffffff",
-      "rejectButtonColor": "#0073CE",
-      "rejectButtonCaptionColor": "#ffffff",
-      "customizeButtonColor": "#DADADA",
-      "customizeButtonCaptionColor": "#4D4D4D"
+      "rejectButtonColor": "#ffffff",
+      "rejectButtonCaptionColor": "#0073CE",
+      "customizeButtonColor": "#ffffff",
+      "customizeButtonCaptionColor": "#333333",
+      "backgroundColor": "#ffffff",
+      "textColor": "#333333",
+      "fontSizeBody": "13px"
     }
   };
 </script>
