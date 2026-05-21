@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-21
+**Ultimo aggiornamento:** 2026-05-22
 
 ---
 
@@ -28,6 +28,37 @@
 | Mailchimp DKIM/SPF | ✅ N/A | Newsletter inviata da `ombreeluci@fedeeluce.it` — fedeeluce.it già autenticato |
 | Check URL mancanti (3500 WP urls) | ⏳ | In corso — risultati a breve |
 | Token CF temporaneo da revocare | ✅ | Revocato 2026-05-21 |
+| icon-camera.png 403 da wp-content | ✅ | `66f8e51b` — file in `public/images/`, URL locale in IT/EN slug page |
+
+---
+
+## Da fare — pendenti post-lancio
+
+| Task | Priorità | Note |
+|---|---|---|
+| **Contattare supporto Iubenda** | Alta | Richiedere attivazione piano Advanced su ombreeluci.it (era incluso nel preventivo originale "due siti + due lingue"). Email: support@iubenda.com. Riferire siteId fedeeluce.it `1433329` e nuovo progetto ombreeluci.it (cookiePolicyId `64241862`). |
+| **Policy Iubenda in italiano** | Media | Dashboard Iubenda → ombreeluci.it → Settings → cambia lingua da EN → IT. Poi rigenera policy. |
+| **Ricalcolo UMAP correlati** | Media | `correlati.json` fermo a marzo 2026. Articoli nuovi senza correlati UMAP (fallback categoria). |
+| **PageSpeed mobile** | Media | Eseguire test post-deploy image transforms. Stimato +15-20 punti. |
+| **PERF-IMG-DIMENSIONS** | Media | Immagini senza width/height espliciti → CLS. |
+| **Articoli WP post-migrazione** | Media | Articoli pubblicati su WP dopo ~2026-04-25 (WP ID > ~15768000) non in Directus → 404. Es: `anche-questanno-partecipero-alla-12-ore-nuotando-con-amore`. Audit sistematico e import. |
+| **Assisi 1986 gallery** | Bassa | 28 immagini `oel14-gallery-XXX.jpg` da migrare su R2. wp-content proxy non funziona per questi. |
+| **UptimeRobot rename** | Bassa | Monitor "Articolo SSR" e "Archivio" ancora con "(staging)" nel nome — rinominare manualmente. |
+| **R2 Cache-Control** | Bassa | `Cache-Control: public, max-age=31536000, immutable` via CF Transform Rule per media. |
+| **SLUG-EN joyeux-noel-2-en** | Bassa | 1 slug residuo con `-en`. Route a due tentativi lo gestisce ma andrebbe normalizzato. |
+
+---
+
+## Fix sessione 2026-05-22 — SEO, Iubenda, immagini, icon-camera
+
+| Commit / Azione | Area | Fix |
+|---|---|---|
+| `765e1d35` | **OG image** | `public/images/og-default.jpg` (1200×630) aggiunto. BaseHead usa `/images/og-default.jpg` come default og:image. |
+| `01f5f610` | **Iubenda** | Widget ombreeluci.it dedicato (ID `0309471a`, cookiePolicyId `64241862`). Sostituisce config fedeeluce.it. Banner mostra "ombreeluci.it". Piano Free — Advanced da richiedere a supporto. |
+| `66f8e51b` | **icon-camera** | `icon-camera.png` (124×124) scaricata da Aruba e salvata in `public/images/`. Rimosso URL hardcoded `www.ombreeluci.it/wp-content/` da `it/[slug].astro` e `en/[slug].astro`. |
+| (directus.ts) | **Image transforms** | Tutte le immagini Directus ora servite con WebP + resize. Author photo: 1.4MB → ~10KB. |
+| (CF Worker) | **Slug redirect** | `interpretazioni-disabilita-al-far-east-festival` → `interpretare-la-disabilita-al-far-east-festival`. |
+| (GitHub) | **Secret scanning** | Token CF `cfut_v8gH…` revocato su Cloudflare. Bypass GitHub secret scanning approvato. |
 
 ---
 
