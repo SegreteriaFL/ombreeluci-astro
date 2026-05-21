@@ -180,7 +180,7 @@ type Props = BaseLayoutProps;
 
   .article-title {
     font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-    font-size: 2rem;
+    font-size: clamp(1.875rem, 4vw, 2.75rem);
     font-weight: 900;
     line-height: 1.25;
     letter-spacing: -0.02em;
@@ -191,7 +191,7 @@ type Props = BaseLayoutProps;
 
   .article-subtitle {
     font-family: 'Raleway', system-ui, -apple-system, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 400;
     font-style: normal;
     color: #555;
@@ -881,8 +881,8 @@ type Props = BaseLayoutProps;
   @media (max-width: 480px) {
     .article-header-wrapper { padding: 1.25rem 1rem 1.5rem; }
     .article-content-wrapper { padding: 0 1rem 2rem; }
-    .article-title { font-size: 1.5rem; letter-spacing: -0.01em; }
-    .article-subtitle { font-size: 1rem; }
+    .article-title { font-size: 2rem; letter-spacing: -0.01em; }
+    .article-subtitle { font-size: 1.3rem; }
     .article-meta { gap: 0.5rem; font-size: 0.8125rem; }
     .article-header { margin-bottom: 2rem; }
     .related-footer-section { padding: 0 1rem; }
