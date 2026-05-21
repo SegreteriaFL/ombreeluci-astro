@@ -45,7 +45,6 @@ const testata = numero.tipo === 'ins' ? 'Insieme' : 'Ombre e Luci';
 <BaseLayout
   title={`${numero.display_title} – Archive`}
   description={`${testata} – ${numero.display_title}: browse articles and download the PDF.`}
-  noindex={true}
   ogImage={copertinaNumeroUrl}
   lang="en"
   alternateArticleUrl={`/it/archivio/${numero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-')}`}
