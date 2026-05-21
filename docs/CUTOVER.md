@@ -50,7 +50,17 @@ curl -s https://cms.ombreeluci.it/server/ping      # → pong
 
 ## FASE 2 — Il cutover SEO (T=0) — sequenza obbligatoria
 
+> **Cutover in corso — 2026-05-21.** `ombreeluci.it` serve già Astro (200 OK).
+> `www.ombreeluci.it` ancora su WordPress Aruba — redirect 301 da creare in CF Dashboard (Step 4).
+
 **I nameserver sono già su Cloudflare. Questa fase abilita l'indicizzazione.**
+
+- [x] Step 1 — Redirect temporaneo apex→www rimosso dal Worker ✅ 2026-05-21
+- [x] Step 3 — Custom domain `ombreeluci.it` attivato in CF Pages ✅ 2026-05-21
+- [ ] Step 2 — Merge `fix/cutover-noindex` + commit fix canonical astro.config.mjs
+- [ ] Step 4 — CF Redirect Rule www→apex 301
+- [ ] Step 5 — Verifica propagazione (curl home + articolo SSR + noindex + canonical)
+- [ ] Step 6 — GSC: aggiungi proprietà https://ombreeluci.it + invia sitemap IT e EN
 
 ### Step 1 — Rimuovi redirect temporaneo apex→www dal Worker
 
