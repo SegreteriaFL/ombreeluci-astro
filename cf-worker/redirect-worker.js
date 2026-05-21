@@ -1012,6 +1012,8 @@ const REDIRECTS = {
   "/la-rivista/": "/it/archivio/",
   "/i-diari-di-ombre-e-luci/": "/it/rubriche/diari/",
   "/mariangela-bertolini/": "/it/focus/mariangela-bertolini/",
+  "/author/nanni/": "/it/autori/nanni-bertolini/",
+  "/chi-siamo/": "/it/chi-siamo/",
   "/contatti/": "/it/chi-siamo/",
   "/fede-e-luce/": "/it/categoria/fede-e-luce/",
   "/famiglia/": "/it/categoria/famiglia/",
@@ -1026,8 +1028,10 @@ const REDIRECTS = {
   "/testimonianze/": "/it/rubriche/testimonianze/",
   "/riflessioni/": "/it/rubriche/testimonianze/",
   "/storia-ombre-e-luci/": "/it/chi-siamo/",
+  "/storia-di-ombre-e-luci/": "/it/chi-siamo/",
   "/jean-vanier/": "/it/autori/jean-vanier/",
   "/jeanvanier/": "/it/autori/jean-vanier/",
+  "/archivio/": "/it/archivio/",
   "/argomenti/": "/it/archivio/",
   "/articoli/": "/it/archivio/",
   "/archivi/": "/it/archivio/",
@@ -1083,8 +1087,10 @@ const REDIRECTS = {
   "/en/home-english/": "/en/",
   "/en/project/": "/en/archive/",
   "/en/senza-categoria-en/": "/en/",
+  "/newsletter/": "/it/newsletter/",
   "/archivio-newsletter/": "/it/newsletter/",
   "/iscrizione-newsletter-confermata/": "/it/newsletter/",
+  "/sostienici/": "/it/sostienici/",
   "/sostienici-2019/": "/it/sostienici/",
   "/regala-ol/": "/it/sostienici/",
   "/creative-commons/": "/it/chi-siamo/",
@@ -1187,6 +1193,46 @@ export default {
     const dateMatch = path.match(/^\/\d{4}\/\d{2}\/\d{2}\/(.+)$/);
     if (dateMatch) {
       return Response.redirect('https://ombreeluci.it/it/' + dateMatch[1], 301);
+    }
+
+    // Rule E: /page/N/ → archivio (vecchie pagine WP paginate)
+    if (/^\/page\/\d+\/?$/.test(path)) {
+      return Response.redirect('https://ombreeluci.it/it/archivio/', 301);
+    }
+
+    // Rule F: /YYYY/slug/ → /it/slug/ (permalink WP anno-only, senza mese/giorno)
+    const yearSlugMatch = path.match(/^\/(\d{4})\/([^/]+?)\/?$/);
+    if (yearSlugMatch) {
+      return Response.redirect('https://ombreeluci.it/it/' + yearSlugMatch[2] + '/', 301);
+    }
+
+    // Rule F2: /en/YYYY/slug/ → /en/slug/ (EN articles WP con anno nel permalink)
+    const enYearSlugMatch = path.match(/^\/en\/(\d{4})\/([^/]+?)\/?$/);
+    if (enYearSlugMatch) {
+      return Response.redirect('https://ombreeluci.it/en/' + enYearSlugMatch[2] + '/', 301);
+    }
+
+    // Rule G: /n-N/ → /it/archivio/oel-N/ (shortlink numeri rivista)
+    const nMatch = path.match(/^\/n-(\d+)\/?$/);
+    if (nMatch) {
+      return Response.redirect('https://ombreeluci.it/it/archivio/oel-' + nMatch[1] + '/', 301);
+    }
+
+    // Rule H: /project/numero-N-*/ → /it/archivio/oel-N/
+    const projectNumeroMatch = path.match(/^\/project\/numero-(\d+)-/);
+    if (projectNumeroMatch) {
+      return Response.redirect('https://ombreeluci.it/it/archivio/oel-' + projectNumeroMatch[1] + '/', 301);
+    }
+
+    // Rule I: /project/*/ o /project_category/*/ → archivio
+    if (/^\/project[\/_]/.test(path) || path.startsWith('/project/')) {
+      return Response.redirect('https://ombreeluci.it/it/archivio/', 301);
+    }
+
+    // Rule J: /author/slug/ → /it/autori/slug/
+    const authorMatch = path.match(/^\/author\/([^/]+)\/?$/);
+    if (authorMatch) {
+      return Response.redirect('https://ombreeluci.it/it/autori/' + authorMatch[1] + '/', 301);
     }
 
     // Tutto il resto → Astro su CF Pages.
