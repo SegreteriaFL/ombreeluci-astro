@@ -51,6 +51,17 @@ PageSpeed Mobile: 71/100. Causa principale: immagini Directus servite senza resi
 
 ------
 
+## Fix sessione 2026-05-22 (seconda sessione)
+
+| Hash | Area | Fix |
+|---|---|---|
+| (middleware.ts) | Redirect autore | `/it/autori/pierfrancesco-depaolis/` → 301 → `/it/autori/pierfrancesco-de-paolis/`. Il fix Directus del 2026-05-21 aveva cambiato lo slug nel DB ma non aggiunto il redirect per il vecchio URL. |
+| (Directus API) | categoria_menu_2 allowNone | `allowNone:true` sul campo secondo tema — la redazione può ora azzerare il secondo tema dopo averlo impostato. |
+| (Directus API) | Catechesi rimossa dai dropdown | `catechesi` rimossa dalle choices di `categoria_menu` e `categoria_menu_2` (era rimasta dopo la migrazione → spiritualità del 2026-05-13). |
+| (Directus API) | Flow contenuti_statici | Verificato attivo (id `96434e02`), hook CF Pages valido. Ogni modifica a `contenuti_statici` triggera rebuild automatico. |
+
+---
+
 ## Fix sessione 2026-05-21
 
 | Hash | Area | Fix |

@@ -12,6 +12,9 @@ const ARCHIVIO_REDIRECTS: Record<string, string> = {
   '/it/categoria/catechesi/': '/it/categoria/spiritualita/',
   '/en/category/catechesis': '/en/category/spirituality/',
   '/en/category/catechesis/': '/en/category/spirituality/',
+  // slug autore corretto in Directus (2026-05-21): depaolis → de-paolis
+  '/it/autori/pierfrancesco-depaolis': '/it/autori/pierfrancesco-de-paolis/',
+  '/it/autori/pierfrancesco-depaolis/': '/it/autori/pierfrancesco-de-paolis/',
 };
 
 // Regex per redirect WordPress date-based: /YYYY/MM/DD/slug/ → /it/slug/

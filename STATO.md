@@ -68,6 +68,20 @@
 
 ---
 
+## Fix sessione 2026-05-22 — Directus UX, redirect autore, contenuti statici
+
+| Commit / Azione | Area | Fix |
+|---|---|---|
+| (middleware.ts) | **Redirect autore** | `/it/autori/pierfrancesco-depaolis/` → 301 `/it/autori/pierfrancesco-de-paolis/`. Il fix precedente aveva aggiornato solo il dato in Directus; mancava il redirect per il vecchio URL. |
+| (Directus API) | **categoria_menu_2 — allowNone** | Aggiunto `allowNone: true` al campo `categoria_menu_2`. Da ora la redazione può azzerare il secondo tema dopo averlo impostato (voce vuota in cima al dropdown). Script: `scripts/fix-secondo-tema-e-rebuild-flow.mjs`. |
+| (Directus API) | **categoria_menu_2 — rimozione catechesi** | `catechesi` rimossa dalle choices di `categoria_menu_2` (categoria migrata in spiritualità 2026-05-13). |
+| (Directus API) | **categoria_menu — rimozione catechesi** | `catechesi` rimossa anche dalle choices del tema primario `categoria_menu` (era rimasta nel dropdown). |
+| (Directus API) | **Flow contenuti_statici** | Flow "Rebuild sito su aggiornamento contenuti_statici" verificato attivo (id: `96434e02`). Hook CF Pages: `94f27b2c` — risponde 200. Ogni modifica a `contenuti_statici` triggera rebuild automatico (~3 min). |
+| (script) | **fix-secondo-tema-e-rebuild-flow.mjs** | Nuovo script diagnostico/fix: verifica e applica `allowNone` su `categoria_menu_2`; verifica o crea il Flow rebuild per `contenuti_statici`. |
+| (.env.local) | **Variabili ambiente** | Creato `.env.local` (gitignored) con tutte le variabili necessarie agli script: `DIRECTUS_TOKEN`, `DIRECTUS_URL`, `CF_DEPLOY_HOOK`, Algolia, Mailchimp. |
+
+---
+
 ## Fix sessione 2026-05-22 — SEO, Iubenda, immagini, icon-camera
 
 | Commit / Azione | Area | Fix |
