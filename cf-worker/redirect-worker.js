@@ -1095,7 +1095,6 @@ const REDIRECTS = {
   "/en/n-156-en/": "/en/archive/oel-156/",
   "/en/n-160-en/": "/en/archive/oel-160/",
   "/en/n-170-en/": "/en/archive/oel-170/",
-  "/en/about/": "/en/about/",
   "/en/testimonies/": "/en/sections/testimonies/",
   "/en/reviews/": "/en/sections/reviews/",
   "/en/editorials/": "/en/sections/editorials/",
