@@ -38,8 +38,10 @@
 
 | Task | Priorità | Note |
 |---|---|---|
-| **Setup seconda postazione Mac (redazione)** | Alta | Installare: [VS Code](https://code.visualstudio.com/), [Claude Code](https://claude.ai/code), [GitHub Desktop](https://desktop.github.com/) o git CLI. Clonare repo `SegreteriaFL/ombreeluci-astro`. Configurare `.env.local` con `DIRECTUS_TOKEN` e `PUBLIC_DIRECTUS_URL`. Obiettivo: poter aggiornare e debuggare il sito anche dalla redazione senza dipendere dalla postazione principale. |
-| **Documentazione setup ambiente** | Alta | Creare `SETUP.md` con istruzioni step-by-step per onboarding nuova postazione: prerequisiti (Node 20, npm), clone repo, `.env.local`, `npm install`, `npm run dev`. Deve essere autosufficiente — chiunque in redazione deve poter seguirla senza aiuto esterno. |
+| **Setup seconda postazione Mac (redazione)** | Alta | Installare: [VS Code](https://code.visualstudio.com/), [Claude Code](https://claude.ai/code), [GitHub Desktop](https://desktop.github.com/) o git CLI. Clonare repo `SegreteriaFL/ombreeluci-astro`. Configurare `.env` con `DIRECTUS_TOKEN=Jddta6xvh_BFPj_ictSWpcnqMVQxvaX1` (token bot — non ruotare). Obiettivo: poter aggiornare e debuggare il sito anche dalla redazione senza dipendere dalla postazione principale. |
+| **Documentazione setup ambiente** | Alta | Creare `SETUP.md` con istruzioni step-by-step per onboarding nuova postazione: prerequisiti (Node 20, npm), clone repo, `.env`, `npm install`, `npm run dev`. Deve essere autosufficiente — chiunque in redazione deve poter seguirla senza aiuto esterno. |
+| **Token Directus bot** | ✅ Fatto | Utente `bot@ombreeluci.it` creato in Directus con token statico fisso. Non ruotare mai — questo token va nel `.env` di tutte le macchine. I token personali (login dashboard) possono ruotare liberamente. |
+| **Flow rebuild su contenuti_statici** | ✅ Fatto | Flow Directus `cb470bff` attivo: ogni modifica a `contenuti_statici` triggera rebuild automatico di CF Pages. La redazione non dovrà più triggerare manualmente il rebuild dopo aver aggiornato testi statici. |
 
 ### Privacy / Legal
 
