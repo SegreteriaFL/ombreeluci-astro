@@ -103,15 +103,15 @@ function getArticleMeta(a: ArticoloItem) {
   };
 }
 
-const twoYearsAgo = new Date();
-twoYearsAgo.setMonth(twoYearsAgo.getMonth() - 24);
+const threeYearsAgo = new Date();
+threeYearsAgo.setMonth(threeYearsAgo.getMonth() - 36);
 
 // Set globale: ogni slug aggiunto non ricompare in nessuna sezione successiva.
 // Ordine di priorità: hero → recenti → diari → testimonianze → esplora.
 const usedSlugs = new Set<string>();
 
-// 1. HERO SLIDER — pool di 16: flaggati (in_evidenza=true) sempre primi,
-//    poi portanti/strutturali ultimi 24 mesi. Il JS client shuffla a ogni visita.
+// 1. HERO SLIDER — pool di 50: flaggati (in_evidenza=true) sempre primi,
+//    poi portanti/strutturali/laterali ultimi 36 mesi. Il JS client shuffla a ogni visita.
 const rotationPool = (() => {
   const withCover = sortedArticles.filter((a) => !!getArticoloCopertinaSrc(a));
   const flagged = withCover.filter((a) => a.in_evidenza === true);
@@ -119,11 +119,15 @@ const rotationPool = (() => {
     if (a.in_evidenza === true) return false;
     const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(0);
     const { ruolo_editoriale } = getMegaclusterForArticle(a);
-    return (ruolo_editoriale === 'portante' || ruolo_editoriale === 'strutturale') && date >= twoYearsAgo;
+    return (
+      ruolo_editoriale === 'portante' ||
+      ruolo_editoriale === 'strutturale' ||
+      ruolo_editoriale === 'laterale'
+    ) && date >= threeYearsAgo;
   });
   const pool = [...flagged, ...algorithmic];
   if (pool.length < 4) pool.push(...withCover.filter((a) => !pool.includes(a)));
-  return pool.slice(0, 16);
+  return pool.slice(0, 50);
 })().map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
 // Alias per retrocompatibilità col componente (usato anche come featuredPool statico)
