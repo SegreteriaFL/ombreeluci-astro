@@ -70,6 +70,18 @@
 
 ---
 
+## Fix sessione 2026-05-24 — home rotation, UptimeRobot
+
+| Commit / Azione | Area | Fix |
+|---|---|---|
+| `45fb734b` | **Home Recenti — rotazione** | Sezione home-hero-grid (articolo featured + 6 sidebar) ora ruota a ogni visita. Pool `latestArticles` 7→25 in `index.astro` (IT+EN). Aggiunto `<script id="recenti-pool">` JSON + funzione `initRecentiPool()` in `HomePageContent.astro`: Fisher-Yates shuffle, aggiorna featured + sidebar ogni visita. |
+| `45fb734b` | **Hero slider — fix shuffle** | Bug: condizione `pool.length > 4` impediva il shuffle quando il pool aveva esattamente 4 articoli (JSON non generato, JS non girava). Fix: cambiato a `>= 4` sia nel template che nel JS. |
+| (UptimeRobot API) | **CMS ping monitor** | `keyword_type` 1→2. Era configurato al contrario: alertava quando `pong` era TROVATO invece che assente. Il CMS funzionava correttamente da sempre, falso allarme da 19 giorni. |
+| (UptimeRobot API) | **Health endpoint monitor** | Stesso bug: `keyword_type` 1→2. L'endpoint `/api/health` risponde `{"status":"ok"}` correttamente. |
+| (UptimeRobot API) | **Nomi monitor** | "Articolo SSR (staging)" → "Articolo SSR (produzione)". "Archivio (staging)" → "Archivio (produzione)". |
+
+---
+
 ## Fix sessione 2026-05-22/24 — redirect loop, home hero rotation
 
 | Commit | Area | Fix |
