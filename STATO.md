@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-22
+**Ultimo aggiornamento:** 2026-05-24
 
 ---
 
@@ -67,6 +67,15 @@
 | **UptimeRobot rename** | Bassa | Monitor "Articolo SSR" e "Archivio" ancora con "(staging)" nel nome — rinominare manualmente. |
 | **R2 Cache-Control** | Bassa | `Cache-Control: public, max-age=31536000, immutable` via CF Transform Rule per media. |
 | **SLUG-EN joyeux-noel-2-en** | Bassa | 1 slug residuo con `-en`. Route a due tentativi lo gestisce ma andrebbe normalizzato. |
+
+---
+
+## Fix sessione 2026-05-22/24 — redirect loop, home hero rotation
+
+| Commit | Area | Fix |
+|---|---|---|
+| `4b33839e` | **`/en/about/` loop** | Rimossa entry `"/en/about/": "/en/about/"` da `redirects-legacy.json`. Era stata aggiunta per errore durante la migrazione legacy e causava un loop infinito: il middleware intercettava il path e faceva redirect a se stesso (200 con meta refresh). |
+| `8011aeb8` | **Home hero rotation pool** | Pool articoli hero slider: 16 → **50 articoli**, finestra temporale 24 → **36 mesi**, ruoli inclusi: portante + strutturale → **+ laterale**. Impatto performance trascurabile (~12KB HTML extra, zero HTTP aggiuntivi). Fix applicato sia a `src/pages/index.astro` che a `src/pages/en/index.astro`. |
 
 ---
 
