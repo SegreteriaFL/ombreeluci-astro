@@ -180,7 +180,7 @@ const issuePeriodLabel = ultimoNumero
         ))}
       </ul>
     </nav>
-    {rotationPool && rotationPool.length > 4 && (
+    {rotationPool && rotationPool.length >= 4 && (
       <script type="application/json" id="hero-rotation-pool" set:html={JSON.stringify(
         rotationPool.map(m => ({
           slug: m.slug,
@@ -232,7 +232,7 @@ const issuePeriodLabel = ultimoNumero
 
         <aside class="home-recenti">
           <h2 class="section-title">{t(lang, 'home_section_recent')}</h2>
-          {latestArticles.slice(1).map((meta) => (
+          {latestArticles.slice(1, 7).map((meta) => (
             <a href={`${articleBasePath}/${meta.slug}`} class="home-recenti-item">
               <div class="home-recenti-thumb">
                 <img src={meta.image || PLACEHOLDER_COPERTINA} alt="" loading="lazy"
@@ -250,6 +250,18 @@ const issuePeriodLabel = ultimoNumero
       </div>
     </div>
   </section>
+
+  <script type="application/json" id="recenti-pool" set:html={JSON.stringify(
+    latestArticles.map(m => ({
+      slug: m.slug,
+      title: m.title,
+      author: m.author,
+      image: m.image ?? null,
+      categoria_menu: m.categoria_menu ?? null,
+      sommario: m.sommario ?? null,
+      date: m.date.toISOString(),
+    }))
+  )} />
 
   <!-- ══════════════════════════════════════════════════════════
        3. DA VICINO / CLOSE UP
@@ -522,6 +534,64 @@ const issuePeriodLabel = ultimoNumero
   let _heroCur  = 0;                          // indice slide corrente
   let _heroAbort: AbortController | null = null;
 
+  // ── Rotazione sezione Recenti ─────────────────────────────────────────────
+  type RecentiItem = { slug: string; title: string; author: string; image: string | null; categoria_menu: string | null; sommario: string | null; date: string };
+
+  function fmtDate(iso: string, lang: string): string {
+    return new Intl.DateTimeFormat(lang === 'en' ? 'en-US' : 'it-IT', { year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(iso));
+  }
+
+  function initRecentiPool() {
+    const poolScript = document.getElementById('recenti-pool');
+    if (!poolScript) return;
+    try {
+      const pool: RecentiItem[] = JSON.parse(poolScript.textContent || '[]');
+      if (pool.length <= 7) return;
+      const shuffled = shufflePool(pool);
+      const picked = shuffled.slice(0, 7);
+      const lang = document.documentElement.lang || 'it';
+      const basePath = lang === 'en' ? '/en' : '/it';
+
+      // Featured (picked[0]) — big article a sinistra
+      const featuredEl = document.querySelector<HTMLElement>('[data-hero-candidate]');
+      if (featuredEl) {
+        const a = featuredEl.querySelector<HTMLAnchorElement>('a');
+        if (a) a.href = `${basePath}/${picked[0].slug}`;
+        const img = featuredEl.querySelector<HTMLImageElement>('img');
+        if (img && picked[0].image) img.src = picked[0].image;
+        const cat = featuredEl.querySelector<HTMLElement>('.home-cat');
+        if (cat) cat.textContent = picked[0].categoria_menu?.replace(/-/g, ' ') || '';
+        const titleEl = featuredEl.querySelector<HTMLElement>('.home-featured-title');
+        if (titleEl) titleEl.textContent = picked[0].title;
+        const deck = featuredEl.querySelector<HTMLElement>('.home-featured-deck');
+        if (deck) { deck.textContent = picked[0].sommario || ''; deck.style.display = picked[0].sommario ? '' : 'none'; }
+        const byline = featuredEl.querySelector<HTMLElement>('.home-byline');
+        if (byline) {
+          const strong = byline.querySelector('strong');
+          if (strong) strong.textContent = picked[0].author;
+          const textNodes = Array.from(byline.childNodes).filter(n => n.nodeType === 3);
+          if (textNodes.length) textNodes[textNodes.length - 1].textContent = ' · ' + fmtDate(picked[0].date, lang);
+        }
+      }
+
+      // Recenti sidebar (picked[1..6])
+      const recentiItems = Array.from(document.querySelectorAll<HTMLAnchorElement>('.home-recenti-item'));
+      recentiItems.forEach((item, i) => {
+        const meta = picked[i + 1];
+        if (!meta) return;
+        item.href = `${basePath}/${meta.slug}`;
+        const img = item.querySelector<HTMLImageElement>('img');
+        if (img && meta.image) img.src = meta.image;
+        const cat = item.querySelector<HTMLElement>('.home-cat-small');
+        if (cat) cat.textContent = meta.categoria_menu?.replace(/-/g, ' ') || '';
+        const titleEl = item.querySelector<HTMLElement>('.home-recenti-title');
+        if (titleEl) titleEl.textContent = meta.title;
+        const byline = item.querySelector<HTMLElement>('.home-byline-small');
+        if (byline) byline.textContent = meta.author;
+      });
+    } catch (_) { /* fallback: SSR content rimane invariato */ }
+  }
+
   // ── Shuffle Fisher-Yates ───────────────────────────────────────────────────
   function shufflePool<T>(arr: T[]): T[] {
     const a = [...arr];
@@ -606,7 +676,7 @@ const issuePeriodLabel = ultimoNumero
     if (poolScript) {
       try {
         const pool: PoolItem[] = JSON.parse(poolScript.textContent || '[]');
-        if (pool.length > 4) {
+        if (pool.length >= 4) {
           const flagged = shufflePool(pool.filter(p => p.flagged));
           const rest    = shufflePool(pool.filter(p => !p.flagged));
           const shuffled = [...flagged, ...rest];
@@ -722,12 +792,14 @@ const issuePeriodLabel = ultimoNumero
     activate(0);
   }
 
+  function initAll() { initHeroSlider(); initRecentiPool(); }
+
   // Registra astro:page-load UNA SOLA VOLTA per tutta la vita della finestra
   if (!(window as any).__heroListenerRegistered) {
     (window as any).__heroListenerRegistered = true;
-    document.addEventListener('astro:page-load', initHeroSlider);
+    document.addEventListener('astro:page-load', initAll);
   }
-  initHeroSlider();
+  initAll();
 
 </script>
 

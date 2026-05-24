@@ -133,11 +133,10 @@ const rotationPool = (() => {
 // Alias per retrocompatibilità col componente (usato anche come featuredPool statico)
 const featuredPool = rotationPool.slice(0, 4);
 
-// 2. RECENTI (sezione sotto hero) — esclude hero
-// latestArticles[0] → articolo hero (big left); latestArticles[1..] → sidebar Recenti
+// 2. RECENTI (sezione sotto hero) — pool di 25, JS shuffla e mostra 7 a ogni visita
 const latestArticles = sortedArticles
   .filter((a) => !usedSlugs.has(a.slug))
-  .slice(0, 7)
+  .slice(0, 25)
   .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
 // 3. DIARI — ultimo articolo per diarista, esclude hero+recenti

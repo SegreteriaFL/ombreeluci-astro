@@ -139,11 +139,10 @@ const rotationPool = (() => {
 
 const featuredPool = rotationPool.slice(0, 4);
 
-// 2. RECENTI — esclude hero
-// latestArticles[0] → articolo hero (big left); latestArticles[1..] → sidebar Recenti
+// 2. RECENTI — pool di 25, JS shuffla e mostra 7 a ogni visita
 const latestArticles = sortedEN
   .filter((a) => !usedSlugs.has(a.slug))
-  .slice(0, 7)
+  .slice(0, 25)
   .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
 // 3. CLOSE UP — versioni EN degli articoli dei diaristi (stessa logica dell'IT ma su pool EN)
