@@ -1254,6 +1254,18 @@ export default {
       return Response.redirect('https://ombreeluci.it/it/autori/' + authorMatch[1] + '/', 301);
     }
 
+    // Rule K: /diario-di-*/ → /it/diari/diario-di-*/
+    const diarioMatch = path.match(/^(\/diario-di-[^/]+)\/?$/);
+    if (diarioMatch) {
+      return Response.redirect('https://ombreeluci.it/it/diari' + diarioMatch[1] + '/', 301);
+    }
+
+    // Rule L: /insieme/insieme-n-N/ → /it/archivio/ins-N/
+    const insiemeMatch = path.match(/^\/insieme\/insieme-n-(\d+)\/?$/);
+    if (insiemeMatch) {
+      return Response.redirect('https://ombreeluci.it/it/archivio/ins-' + insiemeMatch[1] + '/', 301);
+    }
+
     // Tutto il resto → Astro su CF Pages.
     return forwardToPages(request, env);
   }
