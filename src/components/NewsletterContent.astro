@@ -175,7 +175,7 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
 
           // GA4 tracking
           if (typeof (window as any).gtag === 'function') {
-            (window as any).gtag('event', 'newsletter_signup', {
+            (window as any).gtag('event', 'conferma_iscrizione_newsletter', {
               newsletter_lang: lang,
               newsletter_source: getSourcePage(),
             });

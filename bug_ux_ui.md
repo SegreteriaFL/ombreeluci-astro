@@ -15,12 +15,11 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 ## TODO — post-lancio (quanto prima)
 
 ### GA4 — eventi e conversioni
-- [x] **CTAArticolo**: `gtag('event', 'cta_sostienici_click', {cta_id, cta_context})` — click delegation in `CTAArticolo.astro` ✅ 2026-05-25
-- [x] **NewsletterContent**: `gtag('event', 'newsletter_signup', {lang, source})` — su iscrizione OK ✅ 2026-05-25
+- [x] **CTAArticolo**: `gtag('event', 'btn_sostienici')` — click delegation in `CTAArticolo.astro` ✅ 2026-05-25
+- [x] **NewsletterContent**: `gtag('event', 'conferma_iscrizione_newsletter')` — su iscrizione OK ✅ 2026-05-25
 - [x] **Scroll depth**: `gtag('event', 'scroll_depth', {percent, lang})` — soglie 25/50/75/90% in `it/[slug].astro` e `en/[slug].astro` ✅ 2026-05-25
-- [ ] **CTAArchivio**: stesso pattern di CTAArticolo — da verificare se esiste il componente
-- [ ] **Social share**: `gtag('event', 'share', { method: 'twitter'|'facebook' })`
-- [ ] **GA4 Dashboard**: marcare come Conversioni gli eventi `newsletter_signup` e `cta_sostienici_click` (Admin → Conversioni → Nuovo evento di conversione)
+- [x] **Social share**: `gtag('event', network)` per facebook/twitter/whatsapp/linkedin — click listener su `#social-sticky` in IT e EN ✅ 2026-05-25
+- [ ] **GA4 Dashboard**: `btn_sostienici` e `conferma_iscrizione_newsletter` già Key Events — verificare se attivi dopo deploy
 
 ### Articoli "cinema e disabilità" — contenuto vuoto
 - [x] **RISOLTO 2026-05-21** — 17 articoli IT ripopolati da WP (IP `89.46.105.36`); tag "cinema e disabilità" aggiunto a tutti 16; 18 sfogliabili messi in bozza; podcast e galleria Assisi ripopolati; barattolo/questionario → bozza

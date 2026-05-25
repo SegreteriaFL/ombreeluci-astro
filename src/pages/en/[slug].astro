@@ -773,5 +773,13 @@ const alternates: { lang: string; url: string }[] = [
         var bar = document.getElementById('social-sticky');
         if (bar) setTimeout(function() { bar.classList.add('visible'); }, 1100);
       })();
+
+      // GA4 social share tracking
+      document.getElementById('social-sticky')?.addEventListener('click', (e) => {
+        const link = (e.target as Element).closest('a.social-link') as HTMLAnchorElement | null;
+        if (!link || typeof (window as any).gtag !== 'function') return;
+        const network = ['facebook','twitter','whatsapp','linkedin'].find(n => link.classList.contains(n));
+        if (network) (window as any).gtag('event', network, { method: network });
+      });
     </script>
 </ArticlePageLayout>

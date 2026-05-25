@@ -114,7 +114,7 @@ const utmLink = `${supportBase}?utm_source=${pageContext}&utm_medium=cta-inline&
     if (!btn) return;
     const aside = btn.closest('[data-cta-id]') as HTMLElement | null;
     if (typeof (window as any).gtag === 'function') {
-      (window as any).gtag('event', 'cta_sostienici_click', {
+      (window as any).gtag('event', 'btn_sostienici', {
         cta_id: aside?.dataset.ctaId ?? '',
         cta_context: (btn as HTMLElement).dataset.ctaContext ?? '',
       });
