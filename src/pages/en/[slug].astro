@@ -740,9 +740,10 @@ const alternates: { lang: string; url: string }[] = [
       window.__BLOG_PAGE_DATA__ = { wpIdToSlugMap, inContentRelatedMap, currentSlug, readAlsoLabel: 'READ ALSO', alternateArticleUrl, currentWpIdClean, lang: articleLang };
     </script>
     <script>
-      // Reading Progress Bar
+      // Reading Progress Bar + GA4 scroll depth
       const readingProgress = document.getElementById('reading-progress');
       const articleContent = document.getElementById('article-content');
+      const _scrollFired = new Set<number>();
 
       function updateReadingProgress() {
         if (!articleContent || !readingProgress) return;
@@ -752,6 +753,15 @@ const alternates: { lang: string; url: string }[] = [
         const scrollableHeight = documentHeight - windowHeight;
         const progress = (scrollTop / scrollableHeight) * 100;
         readingProgress.style.width = Math.min(progress, 100) + '%';
+
+        for (const threshold of [25, 50, 75, 90]) {
+          if (progress >= threshold && !_scrollFired.has(threshold)) {
+            _scrollFired.add(threshold);
+            if (typeof (window as any).gtag === 'function') {
+              (window as any).gtag('event', 'scroll_depth', { percent: threshold, lang: 'en' });
+            }
+          }
+        }
       }
 
       window.addEventListener('scroll', updateReadingProgress);

@@ -15,12 +15,12 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 ## TODO — post-lancio (quanto prima)
 
 ### GA4 — eventi e conversioni
-- [ ] **CTAArticolo / CTAArchivio**: aggiungere `gtag('event', 'cta_sostienici_click')` sul click del pulsante Sostienici
-- [ ] **NewsletterContent**: `gtag('event', 'newsletter_signup')` sul submit form
-- [ ] **ArticlePageLayout**: `gtag('event', 'article_read_complete')` su scroll >75% dell'articolo
-- [ ] **Shared social / Header**: `gtag('event', 'share', { method: 'twitter'|'facebook' })`
-- [ ] In GA4 Dashboard: configurare gli eventi come Conversioni (Sostienici click, newsletter_signup)
-- Componenti da toccare: `CTAArticolo.astro`, `CTAArchivio.astro`, `NewsletterContent.astro`, `ArticlePageLayout.astro`
+- [x] **CTAArticolo**: `gtag('event', 'cta_sostienici_click', {cta_id, cta_context})` — click delegation in `CTAArticolo.astro` ✅ 2026-05-25
+- [x] **NewsletterContent**: `gtag('event', 'newsletter_signup', {lang, source})` — su iscrizione OK ✅ 2026-05-25
+- [x] **Scroll depth**: `gtag('event', 'scroll_depth', {percent, lang})` — soglie 25/50/75/90% in `it/[slug].astro` e `en/[slug].astro` ✅ 2026-05-25
+- [ ] **CTAArchivio**: stesso pattern di CTAArticolo — da verificare se esiste il componente
+- [ ] **Social share**: `gtag('event', 'share', { method: 'twitter'|'facebook' })`
+- [ ] **GA4 Dashboard**: marcare come Conversioni gli eventi `newsletter_signup` e `cta_sostienici_click` (Admin → Conversioni → Nuovo evento di conversione)
 
 ### Articoli "cinema e disabilità" — contenuto vuoto
 - [x] **RISOLTO 2026-05-21** — 17 articoli IT ripopolati da WP (IP `89.46.105.36`); tag "cinema e disabilità" aggiunto a tutti 16; 18 sfogliabili messi in bozza; podcast e galleria Assisi ripopolati; barattolo/questionario → bozza

@@ -107,3 +107,17 @@ const utmLink = `${supportBase}?utm_source=${pageContext}&utm_medium=cta-inline&
     .cta-articolo__testo { font-size: 0.875rem; }
   }
 </style>
+
+<script>
+  document.addEventListener('click', (e) => {
+    const btn = (e.target as Element).closest('.cta-articolo__btn');
+    if (!btn) return;
+    const aside = btn.closest('[data-cta-id]') as HTMLElement | null;
+    if (typeof (window as any).gtag === 'function') {
+      (window as any).gtag('event', 'cta_sostienici_click', {
+        cta_id: aside?.dataset.ctaId ?? '',
+        cta_context: (btn as HTMLElement).dataset.ctaContext ?? '',
+      });
+    }
+  });
+</script>

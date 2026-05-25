@@ -174,12 +174,12 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
           emailInput.value = '';
 
           // GA4 tracking
-          (window as any).dataLayer = (window as any).dataLayer || [];
-          (window as any).dataLayer.push({
-            event: 'newsletter_signup',
-            newsletter_lang: lang,
-            newsletter_source: getSourcePage(),
-          });
+          if (typeof (window as any).gtag === 'function') {
+            (window as any).gtag('event', 'newsletter_signup', {
+              newsletter_lang: lang,
+              newsletter_source: getSourcePage(),
+            });
+          }
         } else {
           const errorKey = data.error as keyof typeof msgs;
           messageEl.textContent = msgs[errorKey] || msgs.server_error;
