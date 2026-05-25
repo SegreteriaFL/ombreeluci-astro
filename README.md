@@ -19,12 +19,11 @@ Sito archivio della rivista cattolica Ombre e Luci (1983–oggi). 3527 articoli,
 | Bug visivi e UX da risolvere | `bug_ux_ui.md` |
 | Sistema di monitoring (dettaglio) | `docs/MONITORING.md` |
 | Regole editoriali (per la redazione) | `NORME_EDITORIALI_OEL.md` |
-| Analisi pre-cutover e piano di lavoro | `docs/PRE-CUTOVER-ANALYSIS.md` |
 
 ## File archiviati
 
-`docs/archive/` contiene documentazione storica (sessioni precedenti, playbook obsoleti,
-pipeline completate). Non leggere per lavoro corrente — solo per riferimento storico se necessario.
+`docs/archive/` contiene documentazione storica (sessioni precedenti, checklist cutover completate,
+playbook obsoleti, pipeline completate). Non leggere per lavoro corrente — solo per riferimento storico.
 
 ## Comandi principali
 

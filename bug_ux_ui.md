@@ -34,11 +34,9 @@ Segnalati da social share / link esterni:
   `curl -k "https://www.ombreeluci.it/wp-json/wp/v2/posts?per_page=100&orderby=id&order=desc&_fields=id,slug,date&status=publish"` confrontando con Directus
 - Strategia: importare manualmente da WP REST API via IP `89.46.105.36` + pipeline Directus
 
-### OG image default — da creare (PRIORITÀ MEDIA)
-- [ ] Creare immagine branded 1200x630px per OG default (logo + nome sito su sfondo colore brand)
-- [ ] Caricare su R2 in `copertine/og-default.jpg` via rclone o wrangler R2
-- [ ] Ripristinare in `BaseHead.astro`: `DEFAULT_OG_IMAGE = 'https://pub-...r2.dev/copertine/og-default.jpg'`
-- Attuale fallback temporaneo: `apple-touch-icon.png` (192x192, non ottimale per social)
+### OG image default — ✅ RISOLTO 2026-05-21
+- [x] `public/images/og-default.jpg` — tramonto con silhouette, 1200x630. Commit `765e1d35`.
+- [x] `BaseHead.astro` punta a `/images/og-default.jpg` (file locale, non R2).
 
 ### Performance immagini — ottimizzazione urgente (PRIORITÀ ALTA)
 PageSpeed Mobile: 71/100. Causa principale: immagini Directus servite senza resize.

@@ -35,22 +35,26 @@ src/
 │   ├── ultimo-numero.json       # ~200B — ultimo numero OEL per Header
 │   └── redirects-legacy.json   # ~1001 slug redirect legacy
 ├── pages/
-│   ├── index.astro              # Homepage (prerender)
-│   ├── [diario].astro           # Route dinamica diari (prerender) — attenzione ai conflitti
-│   ├── it/[slug].astro           # Articolo IT (SSR, s-maxage=3600)
-│   ├── en/[slug].astro          # Articolo EN (SSR) — lookup a due tentativi: slug esatto, poi slug+'-en'
-│   ├── en/index.astro           # Indice EN
-│   ├── en/category/[slug].astro # Categoria EN
-│   ├── en/sections/[slug].astro # Rubrica EN (SSR) — legge rubriche.json, chiama getArticoliByForma
-│   ├── en/sections/diaries.astro# Override statico per /en/sections/diaries/ (DiariContent)
-│   ├── en/tag/[slug].astro      # Tag EN
-│   ├── tag/[slug].astro         # Tag IT
-│   ├── categoria/[categoria].astro  # Solo temi (campo tema_label)
-│   ├── rubriche/[rubrica].astro # Rubrica IT SSG — legge rubriche.json, filtro per forma
-│   ├── rubriche/diari.astro     # Override statico per /rubriche/diari/ (DiariContent)
-│   ├── autori/[slug].astro
-│   ├── archivio/[issue].astro
-│   └── cerca.astro              # Ricerca Pagefind
+│   ├── index.astro                          # Homepage (prerender)
+│   ├── it/[slug].astro                      # Articolo IT (SSR, s-maxage=3600)
+│   ├── it/categoria/[categoria].astro       # Categoria tema IT
+│   ├── it/rubriche/[rubrica].astro          # Rubrica IT SSG — legge rubriche.json, filtro per forma
+│   ├── it/rubriche/diari.astro              # Override statico per /it/rubriche/diari/
+│   ├── it/autori/[slug].astro
+│   ├── it/archivio/[issue].astro
+│   ├── it/cerca/index.astro                 # Ricerca Pagefind
+│   ├── it/diari/[diario].astro
+│   ├── it/focus/[vertical].astro
+│   ├── it/focus/index.astro
+│   ├── it/tag/[slug].astro
+│   ├── en/[slug].astro                      # Articolo EN (SSR) — lookup a due tentativi: slug esatto, poi slug+'-en'
+│   ├── en/index.astro                       # Indice EN
+│   ├── en/category/[slug].astro             # Categoria EN
+│   ├── en/sections/[slug].astro             # Rubrica EN (SSR) — legge rubriche.json
+│   ├── en/sections/diaries.astro            # Override statico per /en/sections/diaries/
+│   ├── en/tag/[slug].astro
+│   ├── en/focus/[vertical].astro
+│   └── en/focus/index.astro
 ├── components/                  # Tutti i componenti Astro
 ├── config/
 │   └── taxonomy.js              # getCategoriaLabel(), getRubricaBySlug(), getFormaToRubricaSlug()
@@ -182,11 +186,10 @@ Baseline uncompressed al 2026-05-19:
 ## Slug convention articoli EN (stato verificato 2026-04-25)
 
 **3339 articoli AI** (pipeline aprile 2026): slug EN pulito senza suffisso (es. `the-dandelion-project`).
-**42 articoli** (traduzioni manuali originali): ancora con suffisso `-en` (es. `storia-di-un-padre-en`). Da rinominare (task SLUG-EN).
+**41 articoli** (traduzioni manuali): rinominati con slug inglese da titolo via `scripts/rename-en-slugs.mjs` (2026-05-06).
+**1 articolo residuo**: `joyeux-noel-2-en` — conflitto con slug IT `merry-christmas`, non rinominato.
 
-La route `src/pages/en/[slug].astro` usa lookup a due tentativi per compatibilità con entrambe le forme: prima cerca slug esatto, poi tenta slug+`-en`. Questo resterà finché i 42 non saranno rinominati. Quando SLUG-EN è completato il secondo tentativo diventa dead code e va rimosso.
-
-Non rinominare i 42 articoli manualmente — usare lo script batch (da scrivere in SLUG-EN).
+La route `src/pages/en/[slug].astro` usa lookup a due tentativi: prima cerca slug esatto, poi tenta slug+`-en`. Il secondo tentativo copre solo il residuo `joyeux-noel-2-en`. Quando quel caso sarà risolto il secondo tentativo diventa dead code e va rimosso.
 
 ---
 
@@ -196,7 +199,7 @@ Per qualsiasi branch:
 ```
 [ ] npm run build — zero errori TypeScript e zero warning critici
 [ ] tsc --noEmit — zero errori
-[ ] Bundle size check: pages/blog/_---slug_.astro.mjs < 500KB
+[ ] Bundle size check: pages/it/_slug_.astro.mjs < 500KB
 [ ] npx wrangler pages dev ./dist — test locale edge runtime
 [ ] Smoke test su staging dopo push (non su preview hash)
 ```
