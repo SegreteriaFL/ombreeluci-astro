@@ -96,8 +96,8 @@ const heroSubtitle = getCS(cs, 'support_hero_subtitle', lang, lang === 'it' ? 'A
     function emit(name: string, detail?: Record<string, unknown>) {
       try {
         window.dispatchEvent(new CustomEvent(name, { detail: detail || {} }));
-        if (typeof (window as any).dataLayer !== 'undefined') {
-          (window as any).dataLayer.push({ event: name, ...(detail || {}) });
+        if (typeof (window as any).gtag === 'function') {
+          (window as any).gtag('event', name, detail || {});
         }
       } catch (_) {}
     }

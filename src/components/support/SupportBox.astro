@@ -47,8 +47,8 @@ import { PAYPAL_DONATE_URL } from '../../config/support.ts';
     function emit(name, detail) {
       try {
         window.dispatchEvent(new CustomEvent(name, { detail: detail || {} }));
-        if (typeof window.dataLayer !== 'undefined') {
-          window.dataLayer.push({ event: name, ...(detail || {}) });
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', name, detail || {});
         }
       } catch (_) {}
     }
@@ -72,7 +72,7 @@ import { PAYPAL_DONATE_URL } from '../../config/support.ts';
       });
     });
 
-    cta.addEventListener('click', () => emit('support_click_paypal'));
+    cta.addEventListener('click', () => emit('btn_sostienici', { method: 'paypal' }));
 
     const bonificoLink = document.getElementById('support-bonifico-scroll');
     if (bonificoLink) {
