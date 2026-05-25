@@ -114,6 +114,16 @@ const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
   gtag('js', new Date());
   gtag('config', 'G-2TJV78DNFQ');
 </script>
+<!-- View Transitions: ri-invia pageview GA4 ad ogni navigazione client-side -->
+<script>
+  document.addEventListener('astro:page-load', () => {
+    if (typeof (window as any).gtag === 'function') {
+      (window as any).gtag('config', 'G-2TJV78DNFQ', {
+        page_path: window.location.pathname,
+      });
+    }
+  });
+</script>
 
 <!-- Slot per contenuto aggiuntivo (JSON-LD, meta custom) -->
 <slot />
