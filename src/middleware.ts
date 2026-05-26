@@ -47,6 +47,9 @@ const NUMERO_SHORT_RE = /^\/n-(\d+)\/?$/;
 // Fix-6: bollettino Insieme /insieme/insieme-n-N/ → /it/archivio/ins-N/
 const INSIEME_RE = /^\/insieme\/insieme-n-(\d+)\/?$/;
 
+// Fix-7: sfogliabili rivista con anno /it/ombre(-e)?-luci-n-N-YYYY-sfogliabile/ → /it/archivio/oel-N/
+const SFOGLIABILE_RE = /^\/it\/ombre(?:-e)?-luci-n-(\d+)-\d{4}-sfogliabile\/?$/;
+
 export const onRequest = defineMiddleware(({ url, redirect }, next) => {
   const path = url.pathname;
 
@@ -95,6 +98,10 @@ export const onRequest = defineMiddleware(({ url, redirect }, next) => {
   // Fix-6: /insieme/insieme-n-N → /it/archivio/ins-N/
   const insiemeMatch = path.match(INSIEME_RE);
   if (insiemeMatch) return redirect('/it/archivio/ins-' + insiemeMatch[1] + '/', 301);
+
+  // Fix-7: /it/ombre(-e)?-luci-n-N-YYYY-sfogliabile/ → /it/archivio/oel-N/
+  const sfogliabileMatch = path.match(SFOGLIABILE_RE);
+  if (sfogliabileMatch) return redirect('/it/archivio/oel-' + sfogliabileMatch[1] + '/', 301);
 
   return next();
 });
