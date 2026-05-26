@@ -54,10 +54,15 @@ const GOOGLE_SITE_VERIFICATION = 'CHp0QtH-sw0M_ZYVjj6LRqHxV-4Z72IoYR_aiX9c6ZE';
 // Se il titolo contiene già il nome del sito (es. homepage), usarlo così com'è
 const pageTitle = title.includes(SITE_NAME) ? title : `${title} – ${SITE_NAME}`;
 // Evita canonical/og:url con localhost se il prerender non ha origin corretta: usa Astro.site.
+const rawPathname = Astro.url.pathname.includes('.')
+  ? Astro.url.pathname
+  : Astro.url.pathname.endsWith('/')
+    ? Astro.url.pathname
+    : Astro.url.pathname + '/';
 const canonicalUrl =
   canonical ??
   (Astro.site
-    ? new URL(Astro.url.pathname, Astro.site).href
+    ? new URL(rawPathname, Astro.site).href
     : Astro.url.href);
 const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
 ---
