@@ -1280,6 +1280,18 @@ export default {
       return Response.redirect('https://ombreeluci.it/it/autori/' + autoriMatch[1] + '/', 301);
     }
 
+    // Rule O: /blog/slug-en/ → /en/slug/ (legacy WP EN con suffisso -en)
+    const blogEnMatch = path.match(/^\/blog\/([^/]+)-en\/?$/);
+    if (blogEnMatch) {
+      return Response.redirect('https://ombreeluci.it/en/' + blogEnMatch[1] + '/', 301);
+    }
+
+    // Rule P: /blog/slug/ → /it/slug/ (legacy WP IT)
+    const blogItMatch = path.match(/^\/blog\/([^/]+?)\/?$/);
+    if (blogItMatch) {
+      return Response.redirect('https://ombreeluci.it/it/' + blogItMatch[1] + '/', 301);
+    }
+
     // Tutto il resto → Astro su CF Pages.
     return forwardToPages(request, env);
   }
