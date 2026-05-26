@@ -79,6 +79,7 @@
 | `ac0305e2` + deploy `86c5ed24` | Worker Unicode | `decodeURIComponent(path)` prima del lookup REDIRECTS — fix `/メリークリスマス/` e `/c-poждеctbom/`. Redirect legacy: 1095/1097 → 1097/1097 (100%) |
 | Directus PATCH | CMS | Bio Chiara Gatti: `href="emdr.it"` → `href="https://www.emdr.it"` (bio_html IT + bio_en) |
 | `01965994` + deploy `bd787f99` | Worker Rule O+P | `/blog/slug-en/` → `/en/slug/`, `/blog/slug/` → `/it/slug/` — sync repo con deploy |
+| `77a58472` + deploy `50aa6113` | Worker Rule Q | `/categoria/slug/` → `/it/categoria/slug/` |
 
 GSC: 128 URL "Non trovata (404)" — convalida correzione inviata 2026-05-26.
 URL irrisolti accettati: `/it/gossip/` e `/api/commento` (404 corretti by design).
