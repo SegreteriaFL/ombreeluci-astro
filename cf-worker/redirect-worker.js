@@ -1292,6 +1292,12 @@ export default {
       return Response.redirect('https://ombreeluci.it/it/' + blogItMatch[1] + '/', 301);
     }
 
+    // Rule Q: /categoria/slug/ → /it/categoria/slug/
+    const categoriaMatch = path.match(/^\/categoria\/([^/]+)\/?$/);
+    if (categoriaMatch) {
+      return Response.redirect('https://ombreeluci.it/it/categoria/' + categoriaMatch[1] + '/', 301);
+    }
+
     // Tutto il resto → Astro su CF Pages.
     return forwardToPages(request, env);
   }
