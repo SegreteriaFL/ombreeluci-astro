@@ -53,16 +53,6 @@ const SFOGLIABILE_RE = /^\/it\/ombre(?:-e)?-luci-n-(\d+)-\d{4}-sfogliabile\/?$/;
 export const onRequest = defineMiddleware(({ url, redirect }, next) => {
   const path = url.pathname;
 
-  // Normalizzazione trailing slash: /it/ e /en/ senza slash finale → 301
-  if (
-    !path.endsWith('/') &&
-    !path.includes('.') &&
-    !path.startsWith('/api/') &&
-    (path.startsWith('/it/') || path.startsWith('/en/'))
-  ) {
-    return redirect(url.origin + path + '/', 301);
-  }
-
   const archivioRedirect = ARCHIVIO_REDIRECTS[path];
   if (archivioRedirect) return redirect(archivioRedirect, 301);
 

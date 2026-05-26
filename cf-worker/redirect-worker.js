@@ -1298,6 +1298,17 @@ export default {
       return Response.redirect('https://ombreeluci.it/it/categoria/' + categoriaMatch[1] + '/', 301);
     }
 
+    // Rule R: /it/* e /en/* senza trailing slash → 301 con slash (canonical SEO)
+    // Gestito qui perché forwardToPages() segue i redirect interni di Astro silenziosamente.
+    if (
+      !path.endsWith('/') &&
+      !path.includes('.') &&
+      !path.startsWith('/api/') &&
+      (path.startsWith('/it/') || path.startsWith('/en/'))
+    ) {
+      return Response.redirect(url.origin + path + '/', 301);
+    }
+
     // Tutto il resto → Astro su CF Pages.
     return forwardToPages(request, env);
   }
