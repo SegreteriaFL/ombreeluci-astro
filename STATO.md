@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-24
+**Ultimo aggiornamento:** 2026-05-26
 
 ---
 
@@ -16,7 +16,7 @@
 | GSC proprietà `https://ombreeluci.it/` | ✅ | Aggiunta come Prefisso URL — verifica via meta tag |
 | Sitemap IT inviata a GSC | ✅ | `https://ombreeluci.it/sitemap.xml` |
 | Sitemap EN inviata a GSC | ⏳ | `https://ombreeluci.it/sitemap-en.xml` — in attesa crawl GSC |
-| Redirect legacy 1097 URL | ✅ 99.8% | 1095/1097 — 2 URL non-ASCII irrilevanti |
+| Redirect legacy 1097 URL | ✅ 100% | 1097/1097 — fix Unicode `decodeURIComponent` (ac0305e2) |
 | Worker regex patterns aggiornati | ✅ | Fix-7 + /page/N/ + /YYYY/slug/ + /n-N/ + /project/ + /author/ |
 | Sitelink Google (6 URL) | ✅ | Tutti risolvono: /archivio/, /sostienici/, /chi-siamo/, ecc. |
 | Iubenda popup — pulsanti Accept/Rifiuta | ✅ | Config banner aggiornata con accetta/rifiuta/personalizza |
@@ -67,6 +67,21 @@
 | **UptimeRobot rename** | Bassa | Monitor "Articolo SSR" e "Archivio" ancora con "(staging)" nel nome — rinominare manualmente. |
 | **R2 Cache-Control** | Bassa | `Cache-Control: public, max-age=31536000, immutable` via CF Transform Rule per media. |
 | **SLUG-EN joyeux-noel-2-en** | Bassa | 1 slug residuo con `-en`. Route a due tentativi lo gestisce ma andrebbe normalizzato. |
+
+---
+
+## Fix sessione 2026-05-26 — GSC 404 cleanup
+
+| Commit | Area | Fix |
+|---|---|---|
+| `62ad08da` + deploy `70765efb` | Worker Rule M+N | `/archivio/(oel\|ins)-N/` e `/autori/slug/` senza `/it/` → 301 |
+| `fd02b7b1` | Middleware Fix-7 | `/it/ombre(-e)?-luci-n-N-YYYY-sfogliabile/` → `/it/archivio/oel-N/` |
+| `ac0305e2` + deploy `86c5ed24` | Worker Unicode | `decodeURIComponent(path)` prima del lookup REDIRECTS — fix `/メリークリスマス/` e `/c-poждеctbom/`. Redirect legacy: 1095/1097 → 1097/1097 (100%) |
+| Directus PATCH | CMS | Bio Chiara Gatti: `href="emdr.it"` → `href="https://www.emdr.it"` (bio_html IT + bio_en) |
+| `01965994` + deploy `bd787f99` | Worker Rule O+P | `/blog/slug-en/` → `/en/slug/`, `/blog/slug/` → `/it/slug/` — sync repo con deploy |
+
+GSC: 128 URL "Non trovata (404)" — convalida correzione inviata 2026-05-26.
+URL irrisolti accettati: `/it/gossip/` e `/api/commento` (404 corretti by design).
 
 ---
 
