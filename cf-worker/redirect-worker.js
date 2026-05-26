@@ -1203,9 +1203,11 @@ export default {
       return fetch(proxyReq);
     }
 
-    // Rule C+D: lookup table (exact match)
-    if (REDIRECTS[path]) {
-      return Response.redirect('https://ombreeluci.it' + REDIRECTS[path], 301);
+    // Rule C+D: lookup table (exact match); decodedPath copre chiavi Unicode (es. /メリークリスマス/)
+    const decodedPath = (() => { try { return decodeURIComponent(path); } catch (_) { return path; } })();
+    const cdTarget = REDIRECTS[path] || REDIRECTS[decodedPath];
+    if (cdTarget) {
+      return Response.redirect('https://ombreeluci.it' + cdTarget, 301);
     }
 
     // Rule B: /YYYY/MM/DD/slug/ → /slug/
