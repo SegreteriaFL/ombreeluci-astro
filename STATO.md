@@ -70,19 +70,25 @@
 
 ---
 
-## Fix sessione 2026-05-26 — GSC 404 cleanup
+## Fix sessione 2026-05-26 — GSC cleanup redirect e canonical
 
-| Commit | Area | Fix |
+| Commit / Deploy | Area | Fix |
 |---|---|---|
 | `62ad08da` + deploy `70765efb` | Worker Rule M+N | `/archivio/(oel\|ins)-N/` e `/autori/slug/` senza `/it/` → 301 |
 | `fd02b7b1` | Middleware Fix-7 | `/it/ombre(-e)?-luci-n-N-YYYY-sfogliabile/` → `/it/archivio/oel-N/` |
-| `ac0305e2` + deploy `86c5ed24` | Worker Unicode | `decodeURIComponent(path)` prima del lookup REDIRECTS — fix `/メリークリスマス/` e `/c-poждеctbom/`. Redirect legacy: 1095/1097 → 1097/1097 (100%) |
+| `ac0305e2` + deploy `86c5ed24` | Worker Unicode | `decodeURIComponent(path)` prima del lookup REDIRECTS — fix `/メリークリスマス/` e `/c-poждеctbom/`. Redirect legacy: 1097/1097 (100%) |
 | Directus PATCH | CMS | Bio Chiara Gatti: `href="emdr.it"` → `href="https://www.emdr.it"` (bio_html IT + bio_en) |
-| `01965994` + deploy `bd787f99` | Worker Rule O+P | `/blog/slug-en/` → `/en/slug/`, `/blog/slug/` → `/it/slug/` — sync repo con deploy |
+| `01965994` + deploy `bd787f99` | Worker Rule O+P | `/blog/slug-en/` → `/en/slug/`, `/blog/slug/` → `/it/slug/` |
 | `77a58472` + deploy `50aa6113` | Worker Rule Q | `/categoria/slug/` → `/it/categoria/slug/` |
+| `1b04bad4` | BaseHead + middleware | Canonical trailing slash normalization in `rawPathname` (BaseHead). Rimossa dal middleware in commit successivo. |
+| `4e9f0b43` + deploy `c75dd3bb` | Worker Rule R | `/it/*` e `/en/*` senza trailing slash → 301 con slash. Logica corretta nel Worker (non nel middleware — `forwardToPages` inglobava silenziosamente il redirect). |
 
-GSC: 128 URL "Non trovata (404)" — convalida correzione inviata 2026-05-26.
-URL irrisolti accettati: `/it/gossip/` e `/api/commento` (404 corretti by design).
+GSC validazioni inviate 2026-05-26:
+- Bloccata 403 (75) → Convalida correzione
+- Non trovata 404 (128) → Convalida correzione
+- Errore di reindirizzamento (1) → Convalida correzione
+- Esclusa in base al tag noindex (58) → Convalida correzione
+- Pagina duplicata canonical diverso (54) → Convalida correzione
 
 ---
 
