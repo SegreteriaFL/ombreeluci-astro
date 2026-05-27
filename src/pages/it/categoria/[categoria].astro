@@ -2,12 +2,14 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import CategoriaPageContent from '../../../components/CategoriaPageContent.astro';
 import { getAllCategorySlugs, getMegaclusterForArticle, getRoleWeight, getCategoriaUrlSlug, getCategoriaLabel } from '../../../config/taxonomy.js';
-import { getCategoriaDescrizione, getArticoliInEvidenza } from '../../../lib/directus';
+import { getContenutiStatici, getCS, getArticoliInEvidenza } from '../../../lib/directus';
 import { getAllArticoliBuild } from '../../../lib/articoli-build';
 
 export async function getStaticPaths() {
   const allArticles = (await getAllArticoliBuild()).filter((a) => a.lang !== 'en');
   const categorySlugs = getAllCategorySlugs();
+  // Fetch contenuti_statici una volta sola per tutte le categorie
+  const csCategorie = await getContenutiStatici('categorie');
   return Promise.all(categorySlugs.map(async (categoria) => {
     const displayLabel = getCategoriaLabel(categoria, 'it') ?? categoria;
     const articoli = allArticles.filter((a) => a.categoria_menu === categoria || a.categoria_menu_2 === categoria).sort((a, b) => {
@@ -18,16 +20,14 @@ export async function getStaticPaths() {
       const weightB = getRoleWeight(getMegaclusterForArticle(b).ruolo_editoriale);
       return weightB - weightA;
     });
-    const [catMeta, evidenza] = await Promise.all([
-      getCategoriaDescrizione(categoria),
-      getArticoliInEvidenza(categoria),
-    ]);
+    const descrizione = getCS(csCategorie, `categoria_${categoria}_descrizione`, 'it', '') || null;
+    const evidenza = await getArticoliInEvidenza(categoria);
     return {
       params: { categoria },
       props: {
         articoli,
         categoryLabel: displayLabel,
-        descrizione: catMeta?.descrizione ?? null,
+        descrizione,
         evidenza,
       },
     };
