@@ -1,6 +1,15 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-26
+**Ultimo aggiornamento:** 2026-05-27
+
+---
+
+## Fix sessione 2026-05-27 — SEO hreflang e descrizioni categoria
+
+| Commit / Azione | Area | Fix |
+|---|---|---|
+| `21f5ce84` + `8b6a7e74` | **SEO hreflang homepage e categoria** | Tag `<link rel="alternate" hreflang>` aggiunti su homepage IT/EN e pagine categoria IT/EN (erano presenti solo sugli articoli). Gotcha CF Workers SSR: `Astro.url.origin` restituisce il dominio staging — corretto con `new URL(path, Astro.site).href` coerente con il pattern canonical di BaseHead. Verificato con curl post-deploy: tutti e 4 i punti restituiscono IT+EN+x-default su `ombreeluci.it`. |
+| `aae0b6ad` (Directus API + codice) | **Fix descrizioni categoria** | Collection `categorie` aveva `hidden:true` in Directus: unhideata via API (redazione ora la vede nel pannello). 11 descrizioni IT migrate da `categorie.descrizione` a `contenuti_statici.valore_it`. Pagina IT categoria ora legge da `contenuti_statici` — stessa sorgente della EN. `getCategoriaDescrizione` rimossa. `sottotitolo` su `articoli` verificato: `hidden:false`, nessun bug. |
 
 ---
 
