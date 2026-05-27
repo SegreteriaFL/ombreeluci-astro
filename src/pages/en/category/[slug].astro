@@ -51,8 +51,8 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
   lang="en"
   alternateArticleUrl={`/it/categoria/${itSlug}`}
   alternates={[
-    { lang: 'en', url: `${Astro.url.origin}/en/category/${enSlug}/` },
-    { lang: 'it', url: `${Astro.url.origin}/it/categoria/${itSlug}/` },
+    { lang: 'en', url: new URL(`en/category/${enSlug}/`, Astro.site).href },
+    { lang: 'it', url: new URL(`it/categoria/${itSlug}/`, Astro.site).href },
   ]}
 >
   <Fragment slot="head">
