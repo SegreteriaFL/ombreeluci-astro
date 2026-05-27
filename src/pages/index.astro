@@ -194,6 +194,10 @@ const exploreItems = EXPLORE_CATEGORIES.map((catLabel) => {
   bodyClass="home-page"
   alternateArticleUrl="/en/"
   heroHeader={true}
+  alternates={[
+    { lang: 'it', url: 'https://ombreeluci.it/' },
+    { lang: 'en', url: 'https://ombreeluci.it/en/' },
+  ]}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify([

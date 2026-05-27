@@ -43,6 +43,10 @@ const alternateArticleUrl = `/en/category/${getCategoriaUrlSlug(categoria, 'en')
   title={categoryLabel}
   description={descrizione ?? `Articoli nella categoria ${categoryLabel} su Ombre e Luci`}
   alternateArticleUrl={alternateArticleUrl}
+  alternates={[
+    { lang: 'it', url: `https://ombreeluci.it/it/categoria/${categoria}/` },
+    { lang: 'en', url: `https://ombreeluci.it/en/category/${getCategoriaUrlSlug(categoria, 'en')}/` },
+  ]}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify({

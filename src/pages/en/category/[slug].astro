@@ -9,6 +9,8 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import CategoriaPageContent from '../../../components/CategoriaPageContent.astro';
 import {
   getArticoliByCategoria,
+  getContenutiStatici,
+  getCS,
   directusCredsFromAstroLocals,
 } from '../../../lib/directus';
 import { localizeCategory } from '../../../utils/i18n';
@@ -19,13 +21,17 @@ const creds = directusCredsFromAstroLocals(Astro.locals);
 const enSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
 const itSlug = getCategoriaSlugIT(enSlug, 'en');
 
-const articoli = await getArticoliByCategoria(itSlug, 'en', creds);
+const [articoli, csCategorie] = await Promise.all([
+  getArticoliByCategoria(itSlug, 'en', creds),
+  getContenutiStatici('categorie'),
+]);
 
 if (!articoli.length) {
   return redirect('/en/', 302);
 }
 
 const categoryLabel = localizeCategory(itSlug, 'en') ?? enSlug;
+const descrizioneEN = getCS(csCategorie, `categoria_${itSlug}_descrizione`, 'en', '') || null;
 
 const sorted = [...articoli].sort((a, b) => {
   const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
@@ -41,9 +47,13 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
 
 <BaseLayout
   title={categoryLabel}
-  description={`English articles in category "${categoryLabel}" on Ombre e Luci.`}
+  description={descrizioneEN ?? `English articles in category "${categoryLabel}" on Ombre e Luci.`}
   lang="en"
   alternateArticleUrl={`/it/categoria/${itSlug}`}
+  alternates={[
+    { lang: 'en', url: `${Astro.url.origin}/en/category/${enSlug}/` },
+    { lang: 'it', url: `${Astro.url.origin}/it/categoria/${itSlug}/` },
+  ]}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify({
@@ -59,6 +69,7 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
     <CategoriaPageContent
       articoli={sorted}
       categoryLabel={categoryLabel}
+      descrizione={descrizioneEN}
       categoriaSlug={itSlug}
       lang="en"
       basePath="/en"

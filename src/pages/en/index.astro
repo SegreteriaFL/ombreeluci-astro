@@ -209,6 +209,10 @@ const exploreItems = EXPLORE_CATEGORIES_IT.map((catLabelIT) => {
   bodyClass="home-page"
   alternateArticleUrl="/"
   heroHeader={true}
+  alternates={[
+    { lang: 'en', url: `${Astro.url.origin}/en/` },
+    { lang: 'it', url: `${Astro.url.origin}/` },
+  ]}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify([
