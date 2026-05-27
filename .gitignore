@@ -73,3 +73,6 @@ prompt_sicurezza.md
 
 # Export articoli per traduzione manuale (TRANS-FLOW-01 — rigenerabili via script)
 exports/
+
+# Articoli AI OEL (dati grezzi, non nel repo)
+articoli_aioel/
