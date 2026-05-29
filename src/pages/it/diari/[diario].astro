@@ -60,6 +60,10 @@ const { nomeAutore, titoloDiario, fotoUrl, descrizioneDiario, articoli } = Astro
   description={`Leggi le cronache e gli articoli di ${nomeAutore}, ${titoloDiario}, su Ombre e Luci.`}
   lang="it"
   alternateArticleUrl={`/en/diaries/${diarista.diarioSlug}`}
+  alternates={[
+    { lang: 'it', url: `https://ombreeluci.it/it/diari/${diario}/` },
+    { lang: 'en', url: `https://ombreeluci.it/en/diaries/${diario}/` },
+  ]}
 >
   <DiarioContent
     lang="it"

@@ -9,6 +9,10 @@ import ChiSiamoContent from '../../../components/ChiSiamoContent.astro';
   lang="en"
   alternateArticleUrl="/it/chi-siamo/"
   bodyClass="chi-siamo-page"
+  alternates={[
+    { lang: 'en', url: 'https://ombreeluci.it/en/about/' },
+    { lang: 'it', url: 'https://ombreeluci.it/it/chi-siamo/' },
+  ]}
 >
   <ChiSiamoContent lang="en" />
 </BaseLayout>

@@ -15,6 +15,10 @@ const autori = slugsOrdinati.map(s => autoriMap.get(s)).filter(Boolean);
   description="Nel corso degli anni, Ombre e Luci ha ospitato contributi di studiosi, educatori e attivisti impegnati nella promozione dei diritti delle persone con disabilità."
   lang="it"
   alternateArticleUrl="/en/scholars-educators-activists/"
+  alternates={[
+    { lang: 'it', url: 'https://ombreeluci.it/it/studiosi-educatori-attivisti/' },
+    { lang: 'en', url: 'https://ombreeluci.it/en/scholars-educators-activists/' },
+  ]}
 >
   <StudosiContent lang="it" autori={autori} />
 </BaseLayout>

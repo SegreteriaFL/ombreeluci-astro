@@ -18,6 +18,10 @@ const newsletters = tuttiArticoli
   description="Iscriviti alla newsletter di Ombre e Luci: storie, riflessioni e novità sulla disabilità e sulla fragilità umana direttamente nella tua casella di posta."
   lang="it"
   alternateArticleUrl="/en/newsletter/"
+  alternates={[
+    { lang: 'it', url: 'https://ombreeluci.it/it/newsletter/' },
+    { lang: 'en', url: 'https://ombreeluci.it/en/newsletter/' },
+  ]}
 >
   <NewsletterContent lang="it" newsletters={newsletters} />
 </BaseLayout>

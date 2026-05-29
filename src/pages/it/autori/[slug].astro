@@ -36,6 +36,10 @@ const alternateUrl = `/en/authors/${autore.slug}/`;
   lang="it"
   ogImage={authorImagePath}
   alternateArticleUrl={alternateUrl}
+  alternates={[
+    { lang: 'it', url: new URL(`/it/autori/${autore.slug}/`, Astro.site).href },
+    { lang: 'en', url: new URL(`/en/authors/${autore.slug}/`, Astro.site).href },
+  ]}
 >
   <AuthorPageContent
     lang="it"

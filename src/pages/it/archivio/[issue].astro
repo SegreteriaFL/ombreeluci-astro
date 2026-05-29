@@ -49,6 +49,10 @@ const testata = numero.tipo === 'ins' ? 'Insieme' : 'Ombre e Luci';
   ogImage={copertinaNumeroUrl}
   lang="it"
   alternateArticleUrl={`/en/archive/${numero.id_numero.toLowerCase().replace(/[^a-z0-9-]/g, '-')}`}
+  alternates={[
+    { lang: 'it', url: new URL(`/it/archivio/${issue}/`, Astro.site).href },
+    { lang: 'en', url: new URL(`/en/archive/${issue}/`, Astro.site).href },
+  ]}
 >
   <IssueContent
     lang="it"

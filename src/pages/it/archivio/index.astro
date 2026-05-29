@@ -20,6 +20,10 @@ const ultimoNumero = numeriOrdinati.find(n => n.tipo !== 'ins') ?? numeriOrdinat
   description="Sfoglia i numeri della rivista Ombre e Luci dal 1977 ad oggi."
   lang="it"
   alternateArticleUrl="/en/archive/"
+  alternates={[
+    { lang: 'it', url: 'https://ombreeluci.it/it/archivio/' },
+    { lang: 'en', url: 'https://ombreeluci.it/en/archive/' },
+  ]}
 >
   <ArchivioContent lang="it" numeriOrdinati={numeriOrdinati} anni={anni} ultimoNumero={ultimoNumero} />
 </BaseLayout>

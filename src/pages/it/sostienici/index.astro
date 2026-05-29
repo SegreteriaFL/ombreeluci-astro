@@ -9,6 +9,10 @@ import SostienicContent from '../../../components/SostienicContent.astro';
   lang="it"
   bodyClass="support-page"
   alternateArticleUrl="/en/support-us/"
+  alternates={[
+    { lang: 'it', url: 'https://ombreeluci.it/it/sostienici/' },
+    { lang: 'en', url: 'https://ombreeluci.it/en/support-us/' },
+  ]}
 >
   <SostienicContent lang="it" />
 </BaseLayout>
