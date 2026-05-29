@@ -33,7 +33,7 @@ if (rubrica.filtro === 'forma') {
   return Astro.redirect('/en/sections/diaries/', 301);
 }
 
-const alternateItUrl = `/rubriche/${rubrica.slug}/`;
+const alternateItUrl = `/it/rubriche/${rubrica.slug}/`;
 ---
 
 <BaseLayout
@@ -41,6 +41,10 @@ const alternateItUrl = `/rubriche/${rubrica.slug}/`;
   description={`${rubrica.en}: section of Ombre e Luci`}
   lang="en"
   alternateArticleUrl={alternateItUrl}
+  alternates={[
+    { lang: 'en', url: new URL(`/en/sections/${rubrica.en_slug}/`, Astro.site).href },
+    { lang: 'it', url: new URL(`/it/rubriche/${rubrica.slug}/`, Astro.site).href },
+  ]}
 >
   <main class="site-main">
     <RubricaPageContent lang="en" rubrica={rubrica} articoli={articoli} />

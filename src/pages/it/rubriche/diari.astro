@@ -27,6 +27,10 @@ const articoliDiari = allArticles
   description="I Diari: storie in prima persona, racconti di vita e di fragilita sulle pagine di Ombre e Luci."
   lang="it"
   alternateArticleUrl="/en/sections/diaries/"
+  alternates={[
+    { lang: 'it', url: new URL('/it/rubriche/diari/', Astro.site).href },
+    { lang: 'en', url: new URL('/en/sections/diaries/', Astro.site).href },
+  ]}
 >
   <DiariContent
     lang="it"

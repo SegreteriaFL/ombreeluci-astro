@@ -33,6 +33,10 @@ const alternateEnUrl = `/en/sections/${rubrica.en_slug}/`;
   description={`${rubrica.it}: rubrica di Ombre e Luci`}
   lang="it"
   alternateArticleUrl={alternateEnUrl}
+  alternates={[
+    { lang: 'it', url: new URL(`/it/rubriche/${rubrica.slug}/`, Astro.site).href },
+    { lang: 'en', url: new URL(`/en/sections/${rubrica.en_slug}/`, Astro.site).href },
+  ]}
 >
   <main class="site-main">
     <RubricaPageContent lang="it" rubrica={rubrica} articoli={articoli} />

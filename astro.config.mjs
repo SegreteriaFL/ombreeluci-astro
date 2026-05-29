@@ -63,5 +63,8 @@ export default defineConfig({
     '/blog/en': '/en/',
     // WP legacy
     '/studiosi-educatori-e-attivisti-ombre-e-luci': '/it/studiosi-educatori-attivisti/',
+    // EN categories con zero articoli EN → versione IT
+    '/en/category/ombre-e-luci': '/it/categoria/ombre-e-luci/',
+    '/en/category/ombre-e-luci/': '/it/categoria/ombre-e-luci/',
   },
 });
