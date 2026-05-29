@@ -91,7 +91,7 @@ export function getAutoreFotoFasciaUrl(fileId: string): string {
  * I nuovi numeri usano il campo file; i 172 numeri esistenti restano sul legacy URL.
  */
 export function getNumeroImageUrl(numero: { copertina?: string | null; copertina_url?: string | null }): string | null {
-  if (numero.copertina) return `${DIRECTUS_URL}/assets/${numero.copertina}`;
+  if (numero.copertina) return getDirectusAssetUrl(numero.copertina, { width: 400, format: 'webp', quality: 80 });
   const u = numero.copertina_url?.trim();
   return u || null;
 }
@@ -111,6 +111,24 @@ export function getArticoloCopertinaSrc(
   const id = typeof raw === 'string' ? raw.trim() : '';
   if (!id) return null;
   return getDirectusAssetUrl(id, { width, fit: 'cover', format: 'webp', quality: 82 });
+}
+
+/**
+ * Copertina articolo hero con srcset responsivo (400/800/1100w, WebP).
+ * Ritorna null se l’articolo non ha immagine (usa il placeholder lato chiamante).
+ */
+export function getArticoloCopertinaSet(
+  articolo: { immagine_copertina?: { id: string } | null }
+): { src: string; srcset: string; sizes: string } | null {
+  const raw = articolo?.immagine_copertina?.id;
+  const id = typeof raw === ‘string’ ? raw.trim() : ‘’;
+  if (!id) return null;
+  const make = (w: number) => getDirectusAssetUrl(id, { width: w, fit: ‘cover’, format: ‘webp’, quality: 82 });
+  return {
+    src: make(800),
+    srcset: `${make(400)} 400w, ${make(800)} 800w, ${make(1100)} 1100w`,
+    sizes: ‘(max-width: 768px) 100vw, 800px’,
+  };
 }
 
 /** Handler `onerror` per `<img>` copertina: fallback se l’URL R2 non risponde. */
