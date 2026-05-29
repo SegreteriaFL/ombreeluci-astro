@@ -4,6 +4,33 @@
 
 ---
 
+## Fix sessione 2026-05-26/27 — GSC cleanup e SEO hreflang
+
+| Commit / Azione | Area | Fix |
+|---|---|---|
+| `62ad08da` + deploy `70765efb` | Worker Rule M+N | `/archivio/(oel\|ins)-N/` e `/autori/slug/` senza `/it/` → 301 |
+| `fd02b7b1` | Middleware | `/it/ombre(-e)?-luci-n-N-YYYY-sfogliabile/` → `/it/archivio/oel-N/` |
+| Directus PATCH | CMS | Bio Chiara Gatti: `href="emdr.it"` → `href="https://www.emdr.it"` IT+EN |
+| `01965994` + deploy `bd787f99` | Worker Rule O+P | `/blog/slug-en/` → `/en/slug/`, `/blog/slug/` → `/it/slug/` — sync repo con deploy |
+| `77a58472` + deploy `50aa6113` | Worker Rule Q | `/categoria/slug/` → `/it/categoria/slug/` |
+| `1b04bad4` | BaseHead + middleware | Canonical trailing slash — rawPathname normalization |
+| `4e9f0b43` + deploy `c75dd3bb` | Worker Rule R | `/it/*` e `/en/*` senza trailing slash → 301. Rimossa logica duplicata da middleware |
+| (Directus API + codice) | Fix categorie descrizioni | Collection `categorie` unhidden. 11 descrizioni IT migrate da `categorie.descrizione` a `contenuti_statici.valore_it`. `getCategoriaDescrizione` rimossa. |
+| commit hreflang categorie | SEO | hreflang alternates su homepage IT/EN e categorie IT/EN |
+| `1750848f` | SEO | hreflang rubriche IT/EN (6 sezioni) + fix `alternateItUrl` mancante `/it/` |
+| `astro.config.mjs` | SEO | redirect `/en/category/ombre-e-luci/` → `/it/categoria/ombre-e-luci/` (zero articoli EN) |
+| `f71dc03b` | SEO | hreflang alternates su 20 pagine IT/EN mancanti (autori, archivio, diari, statiche) |
+
+GSC validazioni inviate 2026-05-26:
+- Bloccata 403 (75) → Convalida correzione inviata
+- Non trovata 404 (128) → Convalida correzione inviata
+- Errore di reindirizzamento (1) → Convalida correzione inviata
+- Esclusa in base al tag noindex (58) → Convalida correzione inviata
+- Pagina duplicata canonical diverso IT (54) → Convalida correzione inviata
+- Errore server 5xx EN (30) → Convalida correzione inviata
+
+---
+
 ## Fix sessione 2026-05-27 — SEO hreflang e descrizioni categoria
 
 | Commit / Azione | Area | Fix |
@@ -63,6 +90,10 @@
 
 | Task | Priorità | Note |
 |---|---|---|
+| **GSC revisione 2 settimane** | Media | Tornare su GSC dopo 2026-06-10 per verificare: hreflang processato, 403/404/5xx chiusi, rilevate non indicizzate ridotte |
+| **contenuti_statici valore_en categorie** | Media | 14 record gruppo `categorie` con `valore_en` null — da compilare dalla redazione |
+| **hreflang focus pages** | Bassa | `src/pages/it/focus/[vertical].astro` e `en/focus/[vertical].astro` mancano di `alternates` |
+| **hreflang tag IT/EN** | Bassa | `tag/[slug]` escluso dal batch — slug identico IT/EN ma verificare esistenza articoli EN prima di aggiungere |
 | **Articoli WP post-migrazione — 404 sul nuovo sito** | Alta | Articoli pubblicati su WordPress dopo ~2026-04-25 (WP ID > ~15768000) non sono stati importati in Directus durante la migrazione e danno 404 sul nuovo sito. Esempio noto: `anche-questanno-partecipero-alla-12-ore-nuotando-con-amore` (WP ID 15769564). Quanti sono? Da fare: estrarre da dump WP tutti i post con ID > 15768000 e `post_status = publish`, confrontare con Directus, importare i mancanti. Script da scrivere. |
 | **PageSpeed mobile** | Media | Eseguire test post-deploy image transforms. Stimato +15-20 punti. |
 | **PERF-IMG-DIMENSIONS** | Media | Immagini senza width/height espliciti → CLS. |
@@ -98,6 +129,32 @@ GSC validazioni inviate 2026-05-26:
 - Errore di reindirizzamento (1) → Convalida correzione
 - Esclusa in base al tag noindex (58) → Convalida correzione
 - Pagina duplicata canonical diverso (54) → Convalida correzione
+
+---
+
+## CF Worker — regole redirect attive (ultimo deploy `c75dd3bb`)
+
+Ordine: C+D → B → E → F → F2 → G → H → I → J → K → L → M → N → O → P → Q → R → forwardToPages
+
+| Rule | Pattern | Target | Note |
+|---|---|---|---|
+| C+D | lookup table + Unicode decode | redirects-legacy.json | 1097 voci |
+| B | `/YYYY/MM/DD/slug/` | `/it/slug/` | permalink WP con data |
+| E | `/page/N/` | `/it/archivio/` | pagine WP paginate |
+| F | `/YYYY/slug/` | `/it/slug/` | permalink WP anno-only |
+| F2 | `/en/YYYY/slug/` | `/en/slug/` | EN permalink WP con anno |
+| G | `/n-N/` | `/it/archivio/oel-N/` | shortlink numeri |
+| H | `/project/numero-N-*/` | `/it/archivio/oel-N/` | project WP numerati |
+| I | `/project/*` | `/it/archivio/` | project WP generici |
+| J | `/author/slug/` | `/it/autori/slug/` | tassonomia WP author |
+| K | `/diario-di-*/` | `/it/diari/diario-di-*/` | backward compat diari |
+| L | `/insieme/insieme-n-N/` | `/it/archivio/ins-N/` | numeri Insieme legacy |
+| M | `/archivio/(oel\|ins)-N/` | `/it/archivio/$1/` | archivio senza `/it/` |
+| N | `/autori/slug/` | `/it/autori/slug/` | autori senza `/it/` |
+| O | `/blog/slug-en/` | `/en/slug/` | EN legacy WP con `-en` |
+| P | `/blog/slug/` | `/it/slug/` | IT legacy WP |
+| Q | `/categoria/slug/` | `/it/categoria/slug/` | categoria senza `/it/` |
+| R | `/it/*` e `/en/*` senza trailing slash | stessa URL + `/` | canonical SEO |
 
 ---
 
