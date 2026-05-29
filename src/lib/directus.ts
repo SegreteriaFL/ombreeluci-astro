@@ -113,21 +113,20 @@ export function getArticoloCopertinaSrc(
   return getDirectusAssetUrl(id, { width, fit: 'cover', format: 'webp', quality: 82 });
 }
 
-/**
- * Copertina articolo hero con srcset responsivo (400/800/1100w, WebP).
- * Ritorna null se l’articolo non ha immagine (usa il placeholder lato chiamante).
- */
 export function getArticoloCopertinaSet(
   articolo: { immagine_copertina?: { id: string } | null }
 ): { src: string; srcset: string; sizes: string } | null {
-  const raw = articolo?.immagine_copertina?.id;
-  const id = typeof raw === ‘string’ ? raw.trim() : ‘’;
-  if (!id) return null;
-  const make = (w: number) => getDirectusAssetUrl(id, { width: w, fit: ‘cover’, format: ‘webp’, quality: 82 });
+  const fileId = articolo?.immagine_copertina?.id;
+  if (!fileId || typeof fileId !== "string" || !fileId.trim()) return null;
+  const id = fileId.trim();
+  const opts = { fit: "cover", format: "webp", quality: 82 } as const;
+  const u400  = getDirectusAssetUrl(id, { ...opts, width: 400 });
+  const u800  = getDirectusAssetUrl(id, { ...opts, width: 800 });
+  const u1100 = getDirectusAssetUrl(id, { ...opts, width: 1100 });
   return {
-    src: make(800),
-    srcset: `${make(400)} 400w, ${make(800)} 800w, ${make(1100)} 1100w`,
-    sizes: ‘(max-width: 768px) 100vw, 800px’,
+    src:    u800,
+    srcset: u400 + " 400w, " + u800 + " 800w, " + u1100 + " 1100w",
+    sizes:  "(max-width: 768px) 100vw, 800px",
   };
 }
 

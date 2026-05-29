@@ -16,7 +16,7 @@
  */
 export const prerender = false;
 
-import { getArticoloBySlug, getArticoliBySlugList, getArticoliEnByItSlugs, getArticoloCopertinaSrc, getAutoreImageUrl, getDirectusAssetUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
+import { getArticoloBySlug, getArticoliBySlugList, getArticoliEnByItSlugs, getArticoloCopertinaSrc, getArticoloCopertinaSet, getAutoreImageUrl, getDirectusAssetUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
 import { getPlaceholder } from '../../utils/placeholder';
 import ArticlePageLayout from '../../layouts/ArticlePageLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -248,6 +248,7 @@ const issueLink = issueSlug ? `/en/archive/${issueSlug}` : null;
 
 const articleImageRaw = getArticoloCopertinaSrc(articolo);
 const isPlaceholder = !articolo.immagine_copertina?.id;
+const coverSet = !isPlaceholder ? getArticoloCopertinaSet(articolo) : null;
 const useBwPlaceholder = isPlaceholder && articleDate.getFullYear() < 1998;
 const articleImage = isPlaceholder
   ? getPlaceholder(articolo.slug ?? '', useBwPlaceholder).src
@@ -570,11 +571,15 @@ const alternates: { lang: string; url: string }[] = [
         <div class="article-hero-image-wrapper">
           <img
             src={articleImage}
+            srcset={coverSet?.srcset}
+            sizes={coverSet?.sizes}
             alt={articleTitle}
             class="article-image"
             loading="eager"
             decoding="async"
             fetchpriority="high"
+            width={1100}
+            height={733}
             data-copertina-fallback
             onerror={COPERTINA_IMG_ONERROR}
           />
