@@ -292,3 +292,52 @@ direttamente nel bundle SSR — il lungo script JS di enrichment link/leggi-anch
 ## Strategia raccomandata
 
 _(da compilare insieme)_
+
+---
+
+## Interventi eseguiti — 2026-05-29
+
+| Fix | Commit | Stato | Impatto atteso |
+|---|---|---|---|
+| P1 — Iubenda defer + preconnect | d61b2e07 | **REVERTATO** 178a46d9 | — |
+| P3 — getNumeroImageUrl transform | 8b7faeb6 | live ✓ | -KiB copertine numeri rivista |
+| P4 — Hero articolo srcset | a6ce111f | live ✓ | -KiB copertina articolo LCP |
+
+## Risultati verifiche post-deploy
+
+### P1 — Iubenda defer
+- Banner visibile post-deploy: sì
+- GA4 presente in Network: sì
+- FOUC osservato: no
+- **Revertato** (178a46d9) — da analizzare in sessione dedicata prima di ri-applicare
+
+### P3 — getNumeroImageUrl
+- curl archivio → URL con transform:
+  ```
+  src="https://cms.ombreeluci.it/assets/beec6332-66b2-4363-b247-db72b8de655c?width=400&format=webp&quality=80"
+  ```
+  (verificato su /it/archivio/oel-173/)
+
+### P4 — srcset hero
+- curl articolo → srcset presente:
+  ```
+  srcset="https://cms.ombreeluci.it/assets/b74440ef-68a2-4bb6-bb01-d65d39b0f1b9?width=400&fit=cover&format=webp&quality=82 400w,
+          https://cms.ombreeluci.it/assets/b74440ef-68a2-4bb6-bb01-d65d39b0f1b9?width=800&fit=cover&format=webp&quality=82 800w,
+          https://cms.ombreeluci.it/assets/b74440ef-68a2-4bb6-bb01-d65d39b0f1b9?width=1100&fit=cover&format=webp&quality=82 1100w"
+  ```
+  (verificato su /it/ho-capito-di-non-essere-lunica/)
+
+### PageSpeed post-fix
+- URL testata: https://ombreeluci.it/it/ho-capito-di-non-essere-lunica/
+- Punteggio mobile prima: 83
+- Punteggio mobile dopo: da verificare manualmente (quota API PSI esaurita)
+- Delta FCP: da compilare
+- Delta LCP: da compilare
+
+## Problemi rimandati
+
+| Fix | Motivo |
+|---|---|
+| P1 — Iubenda defer | Revertato — analizzare impatto su banner prima di ri-applicare |
+| P2 — Immagini corpo articolo | Regex su HTML — richiede test approfondito |
+| P5 — Bundle JS | Richiede bundle visualizer — sessione dedicata |
