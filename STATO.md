@@ -90,14 +90,14 @@ GSC validazioni inviate 2026-05-26:
 
 | Task | Priorità | Note |
 |---|---|---|
-| **GSC revisione 2 settimane** | Media | Tornare su GSC dopo 2026-06-10 per verificare: hreflang processato, 403/404/5xx chiusi, rilevate non indicizzate ridotte |
-| **contenuti_statici valore_en categorie** | Media | 14 record gruppo `categorie` con `valore_en` null — da compilare dalla redazione |
-| **hreflang focus pages** | Bassa | `src/pages/it/focus/[vertical].astro` e `en/focus/[vertical].astro` mancano di `alternates` |
-| **hreflang tag IT/EN** | Bassa | `tag/[slug]` escluso dal batch — slug identico IT/EN ma verificare esistenza articoli EN prima di aggiungere |
-| **Articoli WP post-migrazione — 404 sul nuovo sito** | Alta | Articoli pubblicati su WordPress dopo ~2026-04-25 (WP ID > ~15768000) non sono stati importati in Directus durante la migrazione e danno 404 sul nuovo sito. Esempio noto: `anche-questanno-partecipero-alla-12-ore-nuotando-con-amore` (WP ID 15769564). Quanti sono? Da fare: estrarre da dump WP tutti i post con ID > 15768000 e `post_status = publish`, confrontare con Directus, importare i mancanti. Script da scrivere. |
+| **hreflang focus pages** | ✅ Fatto | `VerticaleContent.astro` righe 40-42: `alternates` IT+EN già presenti. Verificato 2026-06-04. |
+| **hreflang tag IT/EN** | 🔴 Aperto | `it/tag/[slug].astro` non passa `alternates` a BaseLayout. EN ha `alternateArticleUrl` ma manca il reciproco IT. Da fare: aggiungere `alternates={[{lang:'it',...},{lang:'en',...}]}` su entrambe le route tag. |
+| **Articoli WP post-migrazione — 404 sul nuovo sito** | ✅ Chiuso | Curl su 93 URL da missing-production.txt: tutti 200. File era snapshot stale. Nessun 404 reale in produzione. Verificato 2026-06-04. |
+| **GSC revisione** | Media | Tornare su GSC dopo 2026-06-10 per verificare: hreflang processato, errori chiusi, non indicizzate ridotte. |
+| **contenuti_statici valore_en categorie** | Media | 14 record gruppo `categorie` con `valore_en` null — da compilare dalla redazione. |
 | **PageSpeed mobile** | Media | Eseguire test post-deploy image transforms. Stimato +15-20 punti. |
 | **PERF-IMG-DIMENSIONS** | Media | Immagini senza width/height espliciti → CLS. |
-| **Ricalcolo UMAP correlati** | Media | `correlati.json` fermo a marzo 2026. Articoli nuovi senza correlati UMAP (fallback categoria). |
+| **Ricalcolo UMAP correlati** | Media | `correlati.json` fermo a marzo 2026. Articoli nuovi senza correlati UMAP (fallback categoria). Vedi ROADMAP-AUTOMAZIONE Fase 4. |
 
 ### Infrastruttura tecnica
 
