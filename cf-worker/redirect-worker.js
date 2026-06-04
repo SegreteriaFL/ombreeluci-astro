@@ -1292,6 +1292,11 @@ export default {
       return Response.redirect('https://ombreeluci.it/it/' + blogItMatch[1] + '/', 301);
     }
 
+    // Rule Q0: /categoria/catechesi → spiritualità (migrazione 2026-05)
+    if (path === '/categoria/catechesi' || path === '/categoria/catechesi/') {
+      return Response.redirect(url.origin + '/it/categoria/spiritualita/', 301);
+    }
+
     // Rule Q: /categoria/slug/ → /it/categoria/slug/
     const categoriaMatch = path.match(/^\/categoria\/([^/]+)\/?$/);
     if (categoriaMatch) {
