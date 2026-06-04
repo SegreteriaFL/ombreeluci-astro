@@ -20,6 +20,9 @@
 | `1750848f` | SEO | hreflang rubriche IT/EN (6 sezioni) + fix `alternateItUrl` mancante `/it/` |
 | `astro.config.mjs` | SEO | redirect `/en/category/ombre-e-luci/` → `/it/categoria/ombre-e-luci/` (zero articoli EN) |
 | `f71dc03b` | SEO | hreflang alternates su 20 pagine IT/EN mancanti (autori, archivio, diari, statiche) |
+| `4fd2f61f` + deploy `a95fea8c` | Worker Rule Q0 | `/categoria/catechesi` → `/it/categoria/spiritualita/` |
+| Directus PATCH | CMS | `open-dialogue-no-90` IT+EN: `href="www.angsaonlus.org"` → `href="https://www.angsaonlus.org"` |
+| (nessun fix) | Info redazione | `ii-barattolo-di-maionese-e-caffe` esiste in Directus come draft — pubblicare o eliminare |
 
 GSC validazioni inviate 2026-05-26:
 - Bloccata 403 (75) → Convalida correzione inviata
