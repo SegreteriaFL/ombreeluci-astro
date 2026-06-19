@@ -2,7 +2,7 @@
 import { t, type Locale } from '../utils/i18n';
 import ArticoliRullo from './ArticoliRullo.astro';
 import IconDiari from './IconDiari.astro';
-import type { ArticoloFull } from '../lib/directus';
+import { getContenutiStatici, getCS, type ArticoloFull } from '../lib/directus';
 import type { DiaristaConMeta } from '../data/diari.ts';
 
 interface Props {
@@ -14,30 +14,32 @@ interface Props {
 
 const { lang, diaristiConMeta, articoliDiari, diariDescrizione } = Astro.props;
 
-const defaultDesc = {
-  it: 'I Diari di Ombre e Luci sono uno spazio narrativo dove autori fissi raccontano la propria vita con la disabilità — in famiglia, in comunità, nella fede — settimana dopo settimana.',
-  en: 'The Diaries of Ombre e Luci are a narrative space where regular authors share their lives with disability — in the family, in the community, in faith — week after week.',
-}[lang];
+const cs = await getContenutiStatici('diari');
 
-const hubTitle = {
-  it: 'I Diari di Ombre e Luci',
-  en: 'The Diaries of Ombre e Luci',
-}[lang];
+const defaultDesc = getCS(cs, 'diari_description', lang,
+  lang === 'it'
+    ? 'I Diari di Ombre e Luci sono uno spazio narrativo dove autori fissi raccontano la propria vita con la disabilità — in famiglia, in comunità, nella fede — settimana dopo settimana.'
+    : 'The Diaries of Ombre e Luci are a narrative space where regular authors share their lives with disability — in the family, in the community, in faith — week after week.'
+);
+
+const hubTitle = getCS(cs, 'diari_title', lang,
+  lang === 'it' ? 'I Diari di Ombre e Luci' : 'The Diaries of Ombre e Luci'
+);
 
 const diarByLabel = {
   it: 'di',
   en: 'by',
 }[lang];
 
-const feedTitle = {
-  it: 'Tutti gli articoli dai Diari',
-  en: 'All Diaries articles',
-}[lang];
+const feedTitle = getCS(cs, 'diari_feed_title', lang,
+  lang === 'it' ? 'Tutti gli articoli dai Diari' : 'All Diaries articles'
+);
 
-const feedDesc = {
-  it: 'Gli ultimi contributi dagli autori dei Diari, dal più recente al più vecchio.',
-  en: 'The latest contributions from the Diaries authors, most recent first.',
-}[lang];
+const feedDesc = getCS(cs, 'diari_feed_desc', lang,
+  lang === 'it'
+    ? 'Gli ultimi contributi dagli autori dei Diari, dal più recente al più vecchio.'
+    : 'The latest contributions from the Diaries authors, most recent first.'
+);
 
 const diarioBasePath = lang === 'en' ? '/en/diaries' : '/it/diari';
 const articleBasePath = lang === 'en' ? '/en' : '/it';

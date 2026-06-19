@@ -1,7 +1,7 @@
 ---
 import IssueCard from './IssueCard.astro';
 import IconDiari from './IconDiari.astro';
-import { COPERTINA_IMG_ONERROR, PLACEHOLDER_COPERTINA } from '../lib/directus';
+import { COPERTINA_IMG_ONERROR, PLACEHOLDER_COPERTINA, getContenutiStatici, getCS } from '../lib/directus';
 import { t, localizeIssuePeriodLabel, type Locale } from '../utils/i18n';
 
 interface ArticleMeta {
@@ -69,6 +69,8 @@ const {
   ultimoNumero,
   issueSlug,
 } = Astro.props;
+
+const cs = await getContenutiStatici('homepage');
 
 const articleBasePath = lang === 'en' ? '/en' : '/it';
 const dateLocale = lang === 'en' ? 'en-US' : 'it-IT';
@@ -203,7 +205,7 @@ const issuePeriodLabel = ultimoNumero
       <div class="home-hero-grid">
 
         <div>
-          <p class="home-tagline">{t(lang, 'home_tagline')}</p>
+          <p class="home-tagline">{getCS(cs, 'home_tagline', lang, lang === 'it' ? 'Un nuovo sguardo attraverso la disabilità' : 'A new perspective through disability')}</p>
           <div id="hero-pool">
             {latestArticles.slice(0, 1).map((meta, i) => (
               <article data-hero-candidate style={i > 0 ? 'display:none' : ''}>
@@ -266,12 +268,12 @@ const issuePeriodLabel = ultimoNumero
   <!-- ══════════════════════════════════════════════════════════
        3. DA VICINO / CLOSE UP
        ══════════════════════════════════════════════════════════ -->
-  <section class="home-davicino-section" aria-label={t(lang, 'home_section_close_up')}>
+  <section class="home-davicino-section" aria-label={getCS(cs, 'home_section_close_up', lang, lang === 'it' ? 'Da vicino' : 'Close Up')}>
     <div class="home-container">
 
       <div class="home-section-intro">
-        <h2 class="home-section-heading">{t(lang, 'home_section_close_up')}</h2>
-        <p class="home-section-sub">{t(lang, 'home_section_close_up_sub')}</p>
+        <h2 class="home-section-heading">{getCS(cs, 'home_section_close_up', lang, lang === 'it' ? 'Da vicino' : 'Close Up')}</h2>
+        <p class="home-section-sub">{getCS(cs, 'home_section_close_up_sub', lang, lang === 'it' ? 'I diari di chi vive questa realtà e le storie di chi, stando accanto, ha visto qualcosa cambiare.' : 'Personal stories from those who live this reality every day.')}</p>
       </div>
 
       <div class="home-davicino-grid">
@@ -317,8 +319,8 @@ const issuePeriodLabel = ultimoNumero
             {lang === 'en' ? 'The Diaries of Ombre e Luci' : 'I Diari di Ombre e Luci'}
           </a>
           <div class="home-testi-cta">
-            <p>{t(lang, 'home_testi_cta_text')}</p>
-            <a href="mailto:ombreeluci@fedeeluce.it" class="home-testi-cta-link">{t(lang, 'home_testi_cta_link')}</a>
+            <p>{getCS(cs, 'home_testi_cta_text', lang, lang === 'it' ? 'Hai vissuto qualcosa che vale la pena raccontare?' : 'Have you experienced something worth sharing?')}</p>
+            <a href="mailto:ombreeluci@fedeeluce.it" class="home-testi-cta-link">{getCS(cs, 'home_testi_cta_link', lang, lang === 'it' ? 'Scrivici →' : 'Write to us →')}</a>
           </div>
         </div>
 
@@ -353,11 +355,11 @@ const issuePeriodLabel = ultimoNumero
   <!-- ══════════════════════════════════════════════════════════
        3. ESPLORA / EXPLORE
        ══════════════════════════════════════════════════════════ -->
-  <section class="home-esplora-section" aria-label={t(lang, 'home_section_explore')}>
+  <section class="home-esplora-section" aria-label={getCS(cs, 'home_section_explore', lang, lang === 'it' ? 'Esplora' : 'Explore')}>
     <div class="home-container">
       <div class="home-section-intro">
-        <h2 class="home-section-heading">{t(lang, 'home_section_explore')}</h2>
-        <p class="home-section-sub">{t(lang, 'home_section_explore_sub')}</p>
+        <h2 class="home-section-heading">{getCS(cs, 'home_section_explore', lang, lang === 'it' ? 'Esplora' : 'Explore')}</h2>
+        <p class="home-section-sub">{getCS(cs, 'home_section_explore_sub', lang, lang === 'it' ? "Quarant'anni di storie, riflessioni e incontri." : 'Forty years of stories, reflections and encounters.')}</p>
       </div>
       <div class="home-esplora-grid">
         {exploreItems.map(({ catLabel, catUrl, meta }) => (
@@ -384,12 +386,12 @@ const issuePeriodLabel = ultimoNumero
   <!-- ══════════════════════════════════════════════════════════
        4. LA RIVISTA / THE MAGAZINE
        ══════════════════════════════════════════════════════════ -->
-  <section class="home-rivista-section" aria-label={t(lang, 'home_section_magazine') || 'La rivista'}>
+  <section class="home-rivista-section" aria-label={lang === 'it' ? 'La rivista' : 'The magazine'}>
     <div class="home-container">
       {ultimoNumero && (
         <div class="home-ultimo-numero">
           <div>
-            <p class="home-rivista-eyebrow">{t(lang, 'home_magazine_eyebrow')}</p>
+            <p class="home-rivista-eyebrow">{getCS(cs, 'home_magazine_eyebrow', lang, lang === 'it' ? 'La rivista · esce ogni tre mesi dal 1983' : 'The magazine · published quarterly since 1983')}</p>
             <div class="home-rivista-riga" aria-hidden="true" />
             <p class="home-rivista-meta">
               {issuePeriodLabel ?? ultimoNumero.anno_pubblicazione} · n.{ultimoNumero.numero_progressivo}
@@ -405,9 +407,9 @@ const issuePeriodLabel = ultimoNumero
             )}
             <div class="home-rivista-actions">
               <a href={issueSlug ? `${archiveBasePath}/${issueSlug}` : archiveBasePath} class="home-rivista-cta">
-                {t(lang, 'home_magazine_discover')}
+                {getCS(cs, 'home_magazine_discover', lang, lang === 'it' ? 'Scopri il numero →' : 'Discover the issue →')}
               </a>
-              <a href={archiveBasePath} class="home-rivista-link">{t(lang, 'home_magazine_archive')}</a>
+              <a href={archiveBasePath} class="home-rivista-link">{getCS(cs, 'home_magazine_archive', lang, lang === 'it' ? 'Tutti i numeri' : 'All issues')}</a>
             </div>
           </div>
           <div class="home-rivista-cover-col">
@@ -431,7 +433,7 @@ const issuePeriodLabel = ultimoNumero
     {numeriPerCarousel.length > 0 && (
       <div class="home-archivio-strip">
         <div class="home-container">
-          <h3 class="section-title">{t(lang, 'home_magazine_all_issues')}</h3>
+          <h3 class="section-title">{getCS(cs, 'home_magazine_all_issues', lang, lang === 'it' ? 'Tutti i numeri' : 'All issues')}</h3>
           <div class="home-carousel-track-wrap">
             <div class="home-carousel-track" id="home-carousel-track">
               {numeriPerCarousel.map((n) => (
@@ -451,7 +453,7 @@ const issuePeriodLabel = ultimoNumero
             </div>
           </div>
           <p style="margin-top: 0.75rem;">
-            <a href={archiveBasePath} class="home-link-more">{t(lang, 'home_magazine_archive_link')}</a>
+            <a href={archiveBasePath} class="home-link-more">{getCS(cs, 'home_magazine_archive_link', lang, lang === 'it' ? 'Tutti i numeri →' : 'All issues →')}</a>
           </p>
         </div>
       </div>
@@ -461,11 +463,11 @@ const issuePeriodLabel = ultimoNumero
   <!-- ══════════════════════════════════════════════════════════
        5. UNISCITI / GET INVOLVED
        ══════════════════════════════════════════════════════════ -->
-  <section class="home-unisciti-section" aria-label={t(lang, 'home_section_join')}>
+  <section class="home-unisciti-section" aria-label={getCS(cs, 'home_section_join', lang, lang === 'it' ? 'Unisciti' : 'Get Involved')}>
     <div class="home-container">
       <div class="home-section-intro">
-        <h2 class="home-section-heading">{t(lang, 'home_section_join')}</h2>
-        <p class="home-section-sub">{t(lang, 'home_section_join_sub')}</p>
+        <h2 class="home-section-heading">{getCS(cs, 'home_section_join', lang, lang === 'it' ? 'Unisciti' : 'Get Involved')}</h2>
+        <p class="home-section-sub">{getCS(cs, 'home_section_join_sub', lang, lang === 'it' ? 'Ombre e Luci esiste grazie a chi ci crede. Ci sono molti modi per esserci.' : 'Ombre e Luci exists thanks to those who believe in it. There are many ways to be part of it.')}</p>
       </div>
       <div class="home-unisciti-grid">
 
@@ -475,9 +477,9 @@ const issuePeriodLabel = ultimoNumero
               <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
             </svg>
           </div>
-          <h3 class="home-unisciti-title">{t(lang, 'home_join_support_title')}</h3>
-          <p class="home-unisciti-text">{t(lang, 'home_join_support_text')}</p>
-          <a href={supportPath} class="home-unisciti-btn">{t(lang, 'home_join_support_btn')}</a>
+          <h3 class="home-unisciti-title">{getCS(cs, 'home_join_support_title', lang, lang === 'it' ? 'Sostieni la rivista' : 'Support the magazine')}</h3>
+          <p class="home-unisciti-text">{getCS(cs, 'home_join_support_text', lang, lang === 'it' ? 'Una donazione, anche piccola e ricorrente, permette a Ombre e Luci di continuare a pubblicare storie che contano.' : 'A donation, even a small recurring one, allows Ombre e Luci to continue publishing stories that matter.')}</p>
+          <a href={supportPath} class="home-unisciti-btn">{getCS(cs, 'home_join_support_btn', lang, lang === 'it' ? 'Scopri come →' : 'Find out how →')}</a>
         </div>
 
         <div class="home-unisciti-card">
@@ -486,9 +488,9 @@ const issuePeriodLabel = ultimoNumero
               <path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
             </svg>
           </div>
-          <h3 class="home-unisciti-title">{t(lang, 'home_join_story_title')}</h3>
-          <p class="home-unisciti-text">{t(lang, 'home_join_story_text')}</p>
-          <a href="mailto:ombreeluci@fedeeluce.it" class="home-unisciti-btn">{t(lang, 'home_join_story_btn')}</a>
+          <h3 class="home-unisciti-title">{getCS(cs, 'home_join_story_title', lang, lang === 'it' ? 'Racconta la tua storia' : 'Share your story')}</h3>
+          <p class="home-unisciti-text">{getCS(cs, 'home_join_story_text', lang, lang === 'it' ? 'Hai vissuto qualcosa che vale la pena condividere? Le storie più vere arrivano da chi le ha vissute.' : 'Have you experienced something worth sharing? The truest stories come from those who have lived them.')}</p>
+          <a href="mailto:ombreeluci@fedeeluce.it" class="home-unisciti-btn">{getCS(cs, 'home_join_story_btn', lang, lang === 'it' ? 'Scrivici →' : 'Write to us →')}</a>
         </div>
 
         <div class="home-unisciti-card">
@@ -497,19 +499,19 @@ const issuePeriodLabel = ultimoNumero
               <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
             </svg>
           </div>
-          <h3 class="home-unisciti-title">{t(lang, 'home_join_help_title')}</h3>
-          <p class="home-unisciti-text">{t(lang, 'home_join_help_text')}</p>
-          <a href={contactPath} class="home-unisciti-btn">{t(lang, 'home_join_help_btn')}</a>
+          <h3 class="home-unisciti-title">{getCS(cs, 'home_join_help_title', lang, lang === 'it' ? 'Dai una mano' : 'Lend a hand')}</h3>
+          <p class="home-unisciti-text">{getCS(cs, 'home_join_help_text', lang, lang === 'it' ? 'Vuoi collaborare, fare volontariato o contribuire in un altro modo? Siamo sempre aperti.' : 'Want to collaborate, volunteer or contribute in another way? We are always open.')}</p>
+          <a href={contactPath} class="home-unisciti-btn">{getCS(cs, 'home_join_help_btn', lang, lang === 'it' ? 'Contattaci →' : 'Contact us →')}</a>
         </div>
 
       </div>
       <p class="home-newsletter-row">
-        {t(lang, 'home_newsletter_row')}
+        {getCS(cs, 'home_newsletter_row', lang, lang === 'it' ? 'Resta in contatto:' : 'Stay connected:')}
         <a
           href="https://ombreeluci.us17.list-manage.com/subscribe?u=00c5dad63480d9601563b5692&id=efd099264d"
           target="_blank"
           rel="noopener noreferrer"
-        >{t(lang, 'home_newsletter_link')}</a>
+        >{getCS(cs, 'home_newsletter_link', lang, lang === 'it' ? 'iscriviti alla newsletter' : 'subscribe to our newsletter')}</a>
       </p>
     </div>
   </section>

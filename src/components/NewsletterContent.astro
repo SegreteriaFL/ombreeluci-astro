@@ -1,7 +1,7 @@
 ---
 import { t, type Locale } from '../utils/i18n';
 import { getThemesWithSlugs, getCategoriaUrlSlug } from '../config/taxonomy.js';
-import type { ArticoloFull } from '../lib/directus';
+import { getContenutiStatici, getCS, type ArticoloFull } from '../lib/directus';
 
 interface Props {
   lang: Locale;
@@ -9,6 +9,8 @@ interface Props {
 }
 
 const { lang, newsletters } = Astro.props;
+
+const cs = await getContenutiStatici('newsletter');
 
 const temi = getThemesWithSlugs().filter((t: any) => t.nomeCompleto !== 'Personaggi che ispirano').slice(0, 8);
 
@@ -37,9 +39,9 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
   <div class="nl-container">
 
     <header class="nl-header">
-      <p class="nl-eyebrow">{t(lang, 'nl_eyebrow')}</p>
-      <h1 class="nl-title">{t(lang, 'nl_title')}</h1>
-      <p class="nl-subtitle">{t(lang, 'nl_subtitle')}</p>
+      <p class="nl-eyebrow">{getCS(cs, 'nl_eyebrow', lang, 'Newsletter')}</p>
+      <h1 class="nl-title">{getCS(cs, 'nl_title', lang, lang === 'it' ? 'Rimani in contatto' : 'Stay in touch')}</h1>
+      <p class="nl-subtitle">{getCS(cs, 'nl_subtitle', lang, lang === 'it' ? 'Ogni numero: articoli scelti dalla redazione, storie di vita, riflessioni sulla disabilità e sulla fragilità. Nessuno spam, puoi cancellarti in ogni momento.' : 'Each issue: articles selected by the editorial team, life stories, reflections on disability and fragility. No spam, unsubscribe any time.')}</p>
     </header>
 
     <div class="nl-body">
@@ -75,7 +77,7 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
       <!-- Newsletter precedenti -->
       {newsletters.length > 0 && (
         <section class="nl-archive">
-          <h2 class="nl-section-title">{t(lang, 'nl_prev_title')}</h2>
+          <h2 class="nl-section-title">{getCS(cs, 'nl_prev_title', lang, lang === 'it' ? 'Newsletter precedenti' : 'Previous newsletters')}</h2>
           <ul class="nl-archive-list">
             {newsletters.map(n => (
               <li class="nl-archive-item">
@@ -91,7 +93,7 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
 
       <!-- Esplora i temi -->
       <section class="nl-explore">
-        <h2 class="nl-section-title">{t(lang, 'nl_explore_title')}</h2>
+        <h2 class="nl-section-title">{getCS(cs, 'nl_explore_title', lang, lang === 'it' ? 'Esplora i temi della rivista' : 'Explore magazine themes')}</h2>
         <ul class="nl-temi">
           {temi.map((tema: any) => (
             <li>
@@ -99,7 +101,7 @@ const archiveUrl = lang === 'en' ? '/en/archive' : '/it/archivio';
             </li>
           ))}
           <li>
-            <a href={archiveUrl} class="nl-tema-link nl-tema-all">{t(lang, 'nl_archive_link')}</a>
+            <a href={archiveUrl} class="nl-tema-link nl-tema-all">{getCS(cs, 'nl_archive_link', lang, lang === 'it' ? 'Tutti i numeri →' : 'All issues →')}</a>
           </li>
         </ul>
       </section>

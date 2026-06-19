@@ -4,7 +4,7 @@ import ArticleCard from './ArticleCard.astro';
 import IssueNavPill from './IssueNavPill.astro';
 import CTAArchivio from './CTAArchivio.astro';
 import { getMegaclusterForArticle, getLabels } from '../config/taxonomy.js';
-import { getArticoloCopertinaSrc, getNumeroImageUrl } from '../lib/directus';
+import { getArticoloCopertinaSrc, getNumeroImageUrl, getContenutiStatici, getCS } from '../lib/directus';
 import type { ArticoloFull } from '../lib/directus';
 import ultimoNumeroData from '../data/ultimo-numero.json';
 
@@ -32,6 +32,8 @@ interface Props {
 }
 
 const { lang, numero, prevSlug, nextSlug, articoliNumero, archiveBasePath } = Astro.props;
+
+const cs = await getContenutiStatici('archivio');
 
 const archiveViewUrl = numero.wp_url || null;
 const pdfUrl = numero.pdf_archive_url || null;
@@ -71,7 +73,7 @@ const isUltimoNumero = numero.id_numero === ultimoNumeroData.id_numero;
   <div class="issue-container">
     <!-- Magazine switcher -->
     <div class="issue-mag-header">
-      <p class="issue-mag-eyebrow">{t(lang, 'archive_title')}</p>
+      <p class="issue-mag-eyebrow">{getCS(cs, 'archive_title', lang, 'Magazine')}</p>
       <div class="mag-switcher" role="tablist">
         {isUltimoNumero ? (
           <span class="mag-switcher-btn mag-switcher-btn--active" role="tab" aria-selected="true">
@@ -170,7 +172,7 @@ const isUltimoNumero = numero.id_numero === ultimoNumeroData.id_numero;
     <!-- Articoli -->
     <section class="articles-section">
       <div class="articles-header">
-        <h2 class="articles-title">{t(lang, 'issue_articles_heading')}</h2>
+        <h2 class="articles-title">{getCS(cs, 'issue_articles_heading', lang, lang === 'it' ? 'Articoli di questo numero' : 'Articles in this issue')}</h2>
         <p class="articles-count">
           {articoliDisplay.length} {articoliDisplay.length === 1 ? (lang === 'en' ? 'article' : 'articolo') : (lang === 'en' ? 'articles' : 'articoli')}
         </p>

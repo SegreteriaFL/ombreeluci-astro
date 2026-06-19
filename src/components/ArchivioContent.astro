@@ -2,7 +2,7 @@
 import { t, type Locale } from '../utils/i18n';
 import IssueCard from './IssueCard.astro';
 import CTAArchivio from './CTAArchivio.astro';
-import { getNumeroImageUrl } from '../lib/directus';
+import { getNumeroImageUrl, getContenutiStatici, getCS } from '../lib/directus';
 
 interface NumeroRivista {
   id: string;
@@ -23,6 +23,8 @@ interface Props {
 }
 
 const { lang, numeriOrdinati, anni, ultimoNumero } = Astro.props;
+
+const cs = await getContenutiStatici('archivio');
 
 function numeroFromId(idNumero: string): number {
   const m = idNumero.match(/(\d+)$/);
@@ -46,9 +48,9 @@ const ultimoIssueHref = ultimoSlug ? `${archiveBase}/${ultimoSlug}` : archiveBas
 
     <!-- Intro centrata -->
     <div class="mag-intro">
-      <p class="mag-eyebrow">{lang === 'en' ? 'The magazine · quarterly since 1983' : 'La rivista · trimestrale dal 1983'}</p>
-      <h1 class="mag-title">{t(lang, 'archive_title')}</h1>
-      <p class="mag-subtitle">{t(lang, 'archive_subtitle')}</p>
+      <p class="mag-eyebrow">{getCS(cs, 'archive_eyebrow', lang, lang === 'it' ? 'La rivista · trimestrale dal 1983' : 'The magazine · quarterly since 1983')}</p>
+      <h1 class="mag-title">{getCS(cs, 'archive_title', lang, lang === 'it' ? 'Magazine' : 'Magazine')}</h1>
+      <p class="mag-subtitle">{getCS(cs, 'archive_subtitle', lang, lang === 'it' ? 'Sfoglia i numeri della rivista Ombre e Luci dal 1977 ad oggi.' : 'Browse the issues of Ombre e Luci magazine since 1977.')}</p>
 
       <!-- Pill switcher -->
       <div class="mag-switcher" role="tablist">
@@ -118,8 +120,8 @@ const ultimoIssueHref = ultimoSlug ? `${archiveBase}/${ultimoSlug}` : archiveBas
     </div>
 
     <div class="no-results" id="no-results" style="display: none;">
-      <h2 class="no-results-title">{t(lang, 'archive_no_results_title')}</h2>
-      <p class="no-results-text">{t(lang, 'archive_no_results_body')}</p>
+      <h2 class="no-results-title">{getCS(cs, 'archive_no_results_title', lang, lang === 'it' ? 'Nessun numero trovato' : 'No issues found')}</h2>
+      <p class="no-results-text">{getCS(cs, 'archive_no_results_body', lang, lang === 'it' ? 'Prova a cambiare i filtri.' : 'Try changing the filters.')}</p>
     </div>
 
     <CTAArchivio lang={lang} pageContext="archivio" />
