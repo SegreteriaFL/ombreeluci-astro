@@ -147,11 +147,12 @@ const latestArticles = sortedArticles
   .slice(0, 25)
   .map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
-// 3. DIARI — ultimo articolo per diarista, esclude hero+recenti
+// 3. DIARI — ultimo articolo pubblicato per diarista (ignora usedSlugs:
+//    lo scopo è sempre mostrare il più recente, anche se appare altrove in homepage)
 const latestPerDiario = DIARISTI
   .map((diarista) => {
     const article = allArticles
-      .filter((a) => (a.autore?.nome_completo || '').trim() === diarista.nome && !usedSlugs.has(a.slug))
+      .filter((a) => (a.autore?.nome_completo || '').trim() === diarista.nome)
       .sort((a, b) => {
         const tA = a.data_pubblicazione ? new Date(a.data_pubblicazione).getTime() : 0;
         const tB = b.data_pubblicazione ? new Date(b.data_pubblicazione).getTime() : 0;
