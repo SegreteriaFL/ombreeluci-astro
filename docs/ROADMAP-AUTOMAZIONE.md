@@ -226,8 +226,12 @@ Fase 5 — progetto separato, dopo Fase 4 stabile
 | Colonna embedding in PostgreSQL | ✅ `vector(3072)`, creata 2026-06-21 |
 | Embeddings popolati via Directus API | ✅ 3.447/3.488 articoli IT (41 senza wp_id match) |
 | correlati.json K=30 cosine similarity | ✅ rigenerato 2026-06-20, 3.427 articoli |
-| Indice ivfflat per KNN | ❌ da creare (serve dopo popolamento) |
+| Indice ivfflat per KNN | ❌ da creare via console Hetzner (serve tabella popolata) |
 | TRANS-FLOW-01 (traduzione manuale) | ✅ funzionante |
-| Traduzione triggered automatica | ❌ non implementata |
-| Sync metadati IT→EN automatica | ❌ non implementata |
+| Traduzione triggered automatica | ❌ non implementata (Fase 3) |
+| Sync metadati IT→EN automatica | ✅ endpoint `/api/sync-metadata` + Flow Directus `bb1e90af` |
+| Campi sync: scalari | ✅ autore, numero_rivista, categoria_menu, categoria_menu_2, data_pubblicazione, forma, ruolo_editoriale, immagine_copertina, in_evidenza, serie, has_comments |
+| Campi sync: M2M tags | ✅ junction `articoli_tags` copiata IT→EN |
+| EN orfani fix | ✅ 14/18 linkati (umana vince su AI), 4 residui senza match IT |
 | Algolia webhook sync | ✅ funzionante |
+| **Didascalia → file (F3 anticipata)** | ❌ prossima sessione — spostare `didascalia_copertina`/`didascalia_en` da articolo a `directus_files` con traduzioni. Prerequisito ES/FR. |

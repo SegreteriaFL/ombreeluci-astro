@@ -15,6 +15,14 @@
 | `6525c57f` | **Diari homepage** | Diari mostrano sempre l'ultimo articolo per diarista (rimosso filtro `usedSlugs` che causava articoli stale). |
 | `3235c423` | **Audit CF** | SSL strict, TLS 1.2 min, Always HTTPS, Early Hints, 0-RTT, Always Online, Hotlink Protection. Transform Rule cache immutable su asset statici. Cache rate 0.02%→60-80% atteso. Dettagli: `docs/CF-AUDIT-2026-06-21.md`. |
 | `f3a5b224` | **Pulizia repo** | CUTOVER.md rimosso, gitignore aggiornato (gsc/, scripts/logs/, scheduled_tasks.lock), gsc-query.mjs aggiunto. |
+| `73b4a6db` | **Fase 1 pgvector** | Colonna `embedding vector(3072)` creata, 3.447 articoli IT popolati via Directus API. Script `populate-embeddings.py`. |
+| `3179528a` + `82709d18` | **Fase 2 sync metadati** | Endpoint `/api/sync-metadata` + Flow Directus. Sync automatica IT→EN: 11 campi scalari + tag M2M. 14 EN orfani fixati (traduzione umana vince su AI). |
+| (Directus) | **EN orfani** | 14/18 swap umana→AI (AI cancellata). 4 residui senza match IT. |
+
+**Da fare prossima sessione (priorità):**
+- **Didascalia → file (F3 anticipata):** spostare `didascalia_copertina` e `didascalia_en` da articolo a `directus_files` con collection traduzioni. Pulisce form articolo Directus + prerequisito ES/FR.
+- **Indice ivfflat pgvector:** `CREATE INDEX` via console Hetzner per abilitare KNN live.
+- **Test sync end-to-end:** modificare un campo su articolo IT in Directus e verificare cascata su EN.
 
 ---
 
