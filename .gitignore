@@ -33,6 +33,7 @@ _migration_archive/
 
 # Claude Code local session settings (personal, not team)
 .claude/settings.local.json
+.claude/scheduled_tasks.lock
 
 # --- Essenziali per il sito (NON ignorare, tenere in repo) ---
 # src/data/*.json (articoli_megacluster.json, autori_stats.json) sono generati da script ma necessari per build
@@ -43,6 +44,10 @@ _migration_archive/
 
 # Service account credentials (GSC API, ecc.)
 .secrets/
+gsc/
+
+# Log temporanei script (verifiche redirect, ecc.)
+scripts/logs/
 
 # SQL dump database (troppo grande per git)
 dump_db_old/
