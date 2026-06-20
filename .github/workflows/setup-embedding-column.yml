@@ -1,0 +1,66 @@
+name: "Setup embedding column + SSH key (one-shot)"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    name: Setup VPS — SSH key, swap, pgvector, embedding column
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_DEPLOY_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Add dev SSH key + setup embedding column
+        run: |
+          ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no root@159.69.196.64 << 'REMOTE'
+          set -e
+
+          echo "=== ADD DEV SSH KEY ==="
+          mkdir -p /root/.ssh
+          KEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINvYvA9meuK0k8o5rmBJsz8DY1pgRu8S3unsukH2m8AV"
+          if grep -q "$KEY" /root/.ssh/authorized_keys 2>/dev/null; then
+            echo "Key already present"
+          else
+            echo "$KEY" >> /root/.ssh/authorized_keys
+            chmod 600 /root/.ssh/authorized_keys
+            echo "Key added"
+          fi
+
+          echo ""
+          echo "=== SWAP ==="
+          free -h | grep -i swap
+          SWAP_TOTAL=$(free -m | awk '/^Swap:/ {print $2}')
+          if [ "$SWAP_TOTAL" -lt 1000 ]; then
+            echo "Swap insufficiente ($SWAP_TOTAL MB), creazione 2GB..."
+            fallocate -l 2G /swapfile
+            chmod 600 /swapfile
+            mkswap /swapfile
+            swapon /swapfile
+            echo '/swapfile none swap sw 0 0' >> /etc/fstab
+            echo "Swap creato"
+            free -h | grep -i swap
+          else
+            echo "Swap OK ($SWAP_TOTAL MB)"
+          fi
+
+          echo ""
+          echo "=== PGVECTOR ==="
+          docker exec oel-postgres psql -U directus -d directus -c "SELECT extversion FROM pg_extension WHERE extname='vector';"
+
+          echo ""
+          echo "=== ADD COLUMN ==="
+          docker exec oel-postgres psql -U directus -d directus -c "
+            ALTER TABLE articoli ADD COLUMN IF NOT EXISTS embedding vector(3072);
+            SELECT column_name, data_type, udt_name
+            FROM information_schema.columns
+            WHERE table_name = 'articoli' AND column_name = 'embedding';
+          "
+
+          echo "=== DONE ==="
+          REMOTE
