@@ -679,9 +679,7 @@ const issuePeriodLabel = ultimoNumero
       try {
         const pool: PoolItem[] = JSON.parse(poolScript.textContent || '[]');
         if (pool.length >= 4) {
-          const flagged = shufflePool(pool.filter(p => p.flagged));
-          const rest    = shufflePool(pool.filter(p => !p.flagged));
-          const shuffled = [...flagged, ...rest];
+          const shuffled = shufflePool(pool);
           const slider = document.querySelector<HTMLElement>('.home-hero-slider');
           if (slider) {
             const slides = Array.from(slider.querySelectorAll<HTMLElement>('.hero-slide'));

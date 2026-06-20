@@ -117,8 +117,8 @@ threeYearsAgo.setMonth(threeYearsAgo.getMonth() - 36);
 // Set globale: ogni slug aggiunto non ricompare in nessuna sezione successiva.
 const usedSlugs = new Set<string>();
 
-// 1. HERO SLIDER — pool di 50: flaggati (in_evidenza=true) sempre primi,
-//    poi portanti/strutturali/laterali ultimi 36 mesi. Il JS client shuffla a ogni visita.
+// 1. HERO SLIDER — pool di 50: flaggati + portanti/strutturali/laterali ultimi 36 mesi.
+//    Shuffle deterministico con seed giornaliero + JS client ri-shuffla a ogni visita.
 const rotationPool = (() => {
   const withCover = sortedEN.filter((a) => !!getArticoloCopertinaSrc(a));
   const flagged = withCover.filter((a) => a.in_evidenza === true);
@@ -134,7 +134,13 @@ const rotationPool = (() => {
   });
   const pool = [...flagged, ...algorithmic];
   if (pool.length < 4) pool.push(...withCover.filter((a) => !pool.includes(a)));
-  return pool.slice(0, 50);
+  const trimmed = pool.slice(0, 50);
+  const daySeed = Math.floor(Date.now() / 86400000);
+  for (let i = trimmed.length - 1; i > 0; i--) {
+    const j = ((daySeed * (i + 1) * 2654435761) >>> 0) % (i + 1);
+    [trimmed[i], trimmed[j]] = [trimmed[j], trimmed[i]];
+  }
+  return trimmed;
 })().map((a) => { usedSlugs.add(a.slug); return getArticleMeta(a); });
 
 const featuredPool = rotationPool.slice(0, 4);
