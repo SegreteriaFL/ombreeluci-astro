@@ -50,7 +50,14 @@ const INSIEME_RE = /^\/insieme\/insieme-n-(\d+)\/?$/;
 // Fix-7: sfogliabili rivista con anno /it/ombre(-e)?-luci-n-N-YYYY-sfogliabile/ → /it/archivio/oel-N/
 const SFOGLIABILE_RE = /^\/it\/ombre(?:-e)?-luci-n-(\d+)-\d{4}-sfogliabile\/?$/;
 
-export const onRequest = defineMiddleware(({ url, redirect }, next) => {
+export const onRequest = defineMiddleware(async ({ url, redirect, request }, next) => {
+  const host = url.hostname;
+  if (host.includes('staging') || host.includes('pages.dev')) {
+    const response = await next();
+    response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+    return response;
+  }
+
   const path = url.pathname;
 
   const archivioRedirect = ARCHIVIO_REDIRECTS[path];
