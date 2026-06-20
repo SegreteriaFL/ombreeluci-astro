@@ -108,7 +108,7 @@ GSC validazioni inviate 2026-05-26:
 |---|---|---|
 | **Assisi 1986 gallery** | Bassa | 28 immagini `oel14-gallery-XXX.jpg` da migrare su R2. wp-content proxy non funziona per questi. |
 | **UptimeRobot rename** | Bassa | Monitor "Articolo SSR" e "Archivio" ancora con "(staging)" nel nome — rinominare manualmente. |
-| **R2 Cache-Control** | Bassa | `Cache-Control: public, max-age=31536000, immutable` via CF Transform Rule per media. |
+| **CF Cache & Security audit** | ✅ Fatto | Audit completo 2026-06-21: Transform Rule cache immutable su asset statici, Cache Rules edge TTL, SSL strict, TLS 1.2 min, Early Hints, 0-RTT, Always Online, Hotlink Protection. Cache rate da 0.02% → 60-80% atteso. Dettagli: `docs/CF-AUDIT-2026-06-21.md`. |
 | **SLUG-EN joyeux-noel-2-en** | Bassa | 1 slug residuo con `-en`. Route a due tentativi lo gestisce ma andrebbe normalizzato. |
 
 ---
