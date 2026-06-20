@@ -218,14 +218,15 @@ Fase 5 — progetto separato, dopo Fase 4 stabile
 
 ---
 
-## Stato attuale (baseline 2026-05-29)
+## Stato attuale (aggiornato 2026-06-21)
 
 | Componente | Stato |
 |---|---|
 | pgvector installato (v0.8.2) | ✅ |
-| Colonna embedding in PostgreSQL | ❌ non esiste |
-| Embeddings .npy 3488 articoli (locale) | ✅ |
-| correlati.json K=5, 3488 articoli | ✅ ma fermo a marzo 2026 |
+| Colonna embedding in PostgreSQL | ✅ `vector(3072)`, creata 2026-06-21 |
+| Embeddings popolati via Directus API | ✅ 3.447/3.488 articoli IT (41 senza wp_id match) |
+| correlati.json K=30 cosine similarity | ✅ rigenerato 2026-06-20, 3.427 articoli |
+| Indice ivfflat per KNN | ❌ da creare (serve dopo popolamento) |
 | TRANS-FLOW-01 (traduzione manuale) | ✅ funzionante |
 | Traduzione triggered automatica | ❌ non implementata |
 | Sync metadati IT→EN automatica | ❌ non implementata |
