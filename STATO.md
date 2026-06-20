@@ -1,6 +1,20 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-05-27
+**Ultimo aggiornamento:** 2026-06-21
+
+---
+
+## Fix sessione 2026-06-20/21 — Correlati, hero rotation, CF audit, hreflang
+
+| Commit / Azione | Area | Fix |
+|---|---|---|
+| `0ac41ad5` | **correlati.json K=30** | Rigenerato con cosine similarity su embedding 3072-dim (non più euclidea UMAP 3D). K=5→30, solo slug IT, 3.427 articoli. Script `genera_correlati.py` riscritto con User-Agent fix per CF. |
+| `0ac41ad5` | **hreflang tag IT/EN** | `alternates` aggiunti su `it/tag/[slug].astro` e `en/tag/[slug].astro` — erano l'unica route senza hreflang reciproco. |
+| `0ac41ad5` | **GSC check 2026-06-20** | Impressioni 3.500+/giorno (picco 4.162 il 16/6), click 46/g, posizione 9.9. Log aggiornato in `docs/SEO-MONITORING-LOG.md`. |
+| `67103c12` | **Hero rotation** | Shuffle uniforme pool 50 articoli (rimossa priorità flagged-first che bloccava sempre gli stessi 4). Seed giornaliero server-side + Fisher-Yates client-side. Rimosso `in_evidenza` da 2 articoli meta/test in Directus. |
+| `6525c57f` | **Diari homepage** | Diari mostrano sempre l'ultimo articolo per diarista (rimosso filtro `usedSlugs` che causava articoli stale). |
+| `3235c423` | **Audit CF** | SSL strict, TLS 1.2 min, Always HTTPS, Early Hints, 0-RTT, Always Online, Hotlink Protection. Transform Rule cache immutable su asset statici. Cache rate 0.02%→60-80% atteso. Dettagli: `docs/CF-AUDIT-2026-06-21.md`. |
+| `f3a5b224` | **Pulizia repo** | CUTOVER.md rimosso, gitignore aggiornato (gsc/, scripts/logs/, scheduled_tasks.lock), gsc-query.mjs aggiunto. |
 
 ---
 
