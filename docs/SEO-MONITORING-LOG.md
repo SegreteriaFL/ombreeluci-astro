@@ -6,6 +6,23 @@
 
 ---
 
+## 2026-06-20 — check manuale sessione interattiva
+
+**Stato generale:** sano, crescita confermata. Record impressioni.
+
+- **GSC Search Analytics (21/5→18/6):** impressioni in crescita costante 739→3.500+/giorno (picco 4.162 il 16/6, record). Click 7→46/giorno. Posizione media migliorata a 9.9. CTR stabile ~1.3%. Nessun impatto residuo dall'outage DNS 8-10/6.
+- **Top pagine:** "22 mini giochi da fare insieme" (106 click, 7.601 impressioni), "14 giochi da fare insieme" (44 click), homepage (31 click, CTR 11.6%), "The Crown cugine autismo" (22 click). Pagine autore e categorie in crescita.
+- **EN emergente:** `/en/authors/anna-cece/` con 2.000 impressioni (3 click). Homepage EN 19 impressioni, 2 click. Primi segnali di indicizzazione EN.
+- **Trailing slash duplicati:** GSC mostra URL con e senza trailing slash come pagine separate (es. `/it/categoria/cultura` e `/it/categoria/cultura/`). Il Worker Rule R dovrebbe fare 301 — da verificare che il redirect funzioni lato server; potrebbe essere un artefatto GSC storico pre-fix.
+- **Uptime (15/6→20/6):** non verificato (UPTIMEROBOT_API_KEY non in .env.local su questa macchina). Da aggiungere per prossimi check.
+
+**Confronto con check precedente (15/6):**
+- Impressioni: 3.049 → 3.500+/giorno (+15%)
+- Click: 47 → 46/giorno (stabile)
+- Posizione: 10.1 → 9.9 (migliorata)
+
+---
+
 ## 2026-06-15 — check settimanale
 
 **Stato generale:** sano (uptime e redirect perfetti). GSC non verificato per un problema tecnico del cron, vedi nota.
@@ -20,7 +37,7 @@
 ---
 
 ## 2026-06-14 — setup iniziale
-
+ q
 **Stato generale:** sano.
 
 - **GSC Search Analytics (22/5→12/6):** impressioni in crescita 739→3049/giorno, click 7→47, posizione media stabile 9-11. Trend in salita continuo, nessun impatto visibile dall'outage del 7-8/6.

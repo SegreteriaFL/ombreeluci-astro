@@ -35,6 +35,10 @@ Astro.response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalida
   description={`English articles tagged "${tag.nome}" on Ombre e Luci.`}
   lang="en"
   alternateArticleUrl={`/it/tag/${tagSlug}`}
+  alternates={[
+    { lang: 'it', url: `/it/tag/${tagSlug}/` },
+    { lang: 'en', url: `/en/tag/${tagSlug}/` },
+  ]}
 >
   <main class="site-main">
     <div class="container">

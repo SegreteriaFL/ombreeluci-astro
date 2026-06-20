@@ -41,6 +41,9 @@ _migration_archive/
 # Private keys
 *.pem
 
+# Service account credentials (GSC API, ecc.)
+.secrets/
+
 # SQL dump database (troppo grande per git)
 dump_db_old/
 

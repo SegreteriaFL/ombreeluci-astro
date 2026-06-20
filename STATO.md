@@ -94,13 +94,13 @@ GSC validazioni inviate 2026-05-26:
 | Task | Priorità | Note |
 |---|---|---|
 | **hreflang focus pages** | ✅ Fatto | `VerticaleContent.astro` righe 40-42: `alternates` IT+EN già presenti. Verificato 2026-06-04. |
-| **hreflang tag IT/EN** | 🔴 Aperto | `it/tag/[slug].astro` non passa `alternates` a BaseLayout. EN ha `alternateArticleUrl` ma manca il reciproco IT. Da fare: aggiungere `alternates={[{lang:'it',...},{lang:'en',...}]}` su entrambe le route tag. |
+| **hreflang tag IT/EN** | ✅ Fatto | `alternates` IT+EN aggiunti su entrambe le route tag (`it/tag/[slug].astro` e `en/tag/[slug].astro`). 2026-06-20. |
 | **Articoli WP post-migrazione — 404 sul nuovo sito** | ✅ Chiuso | Curl su 93 URL da missing-production.txt: tutti 200. File era snapshot stale. Nessun 404 reale in produzione. Verificato 2026-06-04. |
-| **GSC revisione** | Media | Tornare su GSC dopo 2026-06-10 per verificare: hreflang processato, errori chiusi, non indicizzate ridotte. |
+| **GSC revisione** | ✅ Fatto | Check 2026-06-20: impressioni 3.500+/giorno (picco 4.162), click 46/giorno, posizione 9.9. Crescita costante. Dettagli in `docs/SEO-MONITORING-LOG.md`. |
 | **contenuti_statici valore_en categorie** | Media | 14 record gruppo `categorie` con `valore_en` null — da compilare dalla redazione. |
 | **PageSpeed mobile** | Media | Eseguire test post-deploy image transforms. Stimato +15-20 punti. |
 | **PERF-IMG-DIMENSIONS** | Media | Immagini senza width/height espliciti → CLS. |
-| **Ricalcolo UMAP correlati** | Media | `correlati.json` fermo a marzo 2026. Articoli nuovi senza correlati UMAP (fallback categoria). Vedi ROADMAP-AUTOMAZIONE Fase 4. |
+| **Ricalcolo correlati K=30** | ✅ Fatto | `correlati.json` rigenerato 2026-06-20: cosine similarity su embedding 3072-dim (non più euclidea su UMAP 3D), K=30 (era 5), solo slug IT. 3488 articoli, 3.7MB. Script aggiornato: `scripts/genera_correlati.py`. |
 
 ### Infrastruttura tecnica
 
@@ -258,7 +258,7 @@ Ordine: C+D → B → E → F → F2 → G → H → I → J → K → L → M �
 
 | Task | Priorità | Note |
 |---|---|---|
-| Ricalcolo UMAP correlati | Media | `correlati.json` fermo a marzo 2026. Articoli nuovi senza correlati UMAP (hanno fallback categoria). Script: pipeline embeddings pgvector. |
+| Ricalcolo correlati | ✅ Fatto | `correlati.json` rigenerato 2026-06-20 con cosine similarity K=30 su embedding 3072-dim. Articoli futuri: Fase 4 roadmap (pgvector live). |
 | SLUG-EN normalizzazione | Bassa | 1 slug residuo con `-en`: `joyeux-noel-2-en`. Route a due tentativi lo gestisce. |
 | Correlati EDIT in Directus | Bassa | Nessun modo per la redazione di correggere correlati sbagliati. |
 | DIARI-MANCANTI | Bassa | Alcuni articoli non associati al diario corretto — lavoro editoriale. |
