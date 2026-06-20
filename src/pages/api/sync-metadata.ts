@@ -24,6 +24,8 @@ const SYNC_FIELDS = [
   'ruolo_editoriale',
   'immagine_copertina',
   'in_evidenza',
+  'serie',
+  'has_comments',
 ];
 
 export const POST: APIRoute = async ({ request, locals }) => {
@@ -57,14 +59,11 @@ export const POST: APIRoute = async ({ request, locals }) => {
     }
 
     const patch: Record<string, any> = {};
+    const M2O_FIELDS = ['autore', 'numero_rivista', 'immagine_copertina', 'serie'];
     for (const field of SYNC_FIELDS) {
       const value = (itArticle as any)[field];
-      if (field === 'autore') {
-        patch[field] = value?.id ?? value ?? null;
-      } else if (field === 'numero_rivista') {
-        patch[field] = value?.id_numero ?? value ?? null;
-      } else if (field === 'immagine_copertina') {
-        patch[field] = value?.id ?? value ?? null;
+      if (M2O_FIELDS.includes(field)) {
+        patch[field] = value?.id ?? value?.id_numero ?? value ?? null;
       } else {
         patch[field] = value ?? null;
       }
@@ -76,8 +75,34 @@ export const POST: APIRoute = async ({ request, locals }) => {
 
     await patchArticle(translationId, patch, directusUrl, directusToken);
 
-    console.log(`SYNC-META: ${itArticle.slug} -> ${translationId} (${Object.keys(patch).length} fields)`);
-    return json({ ok: true, action: 'synced', id, translation: translationId, fields: Object.keys(patch) }, 200);
+    // Sync tags M2M: copy IT tags to EN
+    const synced: string[] = [...Object.keys(patch)];
+    try {
+      const itTags = await fetchM2M(`${directusUrl}/items/articoli_tags?filter[articoli_id][_eq]=${id}&fields=tags_id`, directusToken);
+      if (itTags.length > 0) {
+        // Delete existing EN tags
+        const enTags = await fetchM2M(`${directusUrl}/items/articoli_tags?filter[articoli_id][_eq]=${translationId}&fields=id`, directusToken);
+        for (const t of enTags) {
+          await fetch(`${directusUrl}/items/articoli_tags/${t.id}`, {
+            method: 'DELETE', headers: { Authorization: `Bearer ${directusToken}` },
+          });
+        }
+        // Create EN tags from IT
+        for (const t of itTags) {
+          await fetch(`${directusUrl}/items/articoli_tags`, {
+            method: 'POST',
+            headers: { Authorization: `Bearer ${directusToken}`, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ articoli_id: translationId, tags_id: t.tags_id }),
+          });
+        }
+        synced.push(`tags(${itTags.length})`);
+      }
+    } catch (tagErr) {
+      console.error('SYNC-META tags error:', tagErr);
+    }
+
+    console.log(`SYNC-META: ${itArticle.slug} -> ${translationId} (${synced.join(', ')})`);
+    return json({ ok: true, action: 'synced', id, translation: translationId, fields: synced }, 200);
 
   } catch (err) {
     console.error('SYNC-META error:', err);
@@ -107,6 +132,7 @@ async function fetchArticle(id: string, directusUrl: string, token: string): Pro
       if (f === 'autore') return 'autore.id';
       if (f === 'numero_rivista') return 'numero_rivista.id_numero';
       if (f === 'immagine_copertina') return 'immagine_copertina.id';
+      if (f === 'serie') return 'serie.id';
       return f;
     }),
   ].join(',');
@@ -116,6 +142,12 @@ async function fetchArticle(id: string, directusUrl: string, token: string): Pro
   });
   if (!res.ok) return null;
   return ((await res.json()) as { data: ArticoloData }).data;
+}
+
+async function fetchM2M(url: string, token: string): Promise<any[]> {
+  const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+  if (!res.ok) return [];
+  return ((await res.json()) as { data: any[] }).data;
 }
 
 async function patchArticle(id: string, data: Record<string, any>, directusUrl: string, token: string): Promise<void> {
