@@ -59,13 +59,16 @@ export const POST: APIRoute = async ({ request, locals }) => {
     }
 
     const patch: Record<string, any> = {};
-    const M2O_FIELDS = ['autore', 'numero_rivista', 'immagine_copertina', 'serie'];
     for (const field of SYNC_FIELDS) {
       const value = (itArticle as any)[field];
-      if (M2O_FIELDS.includes(field)) {
-        patch[field] = value?.id ?? value?.id_numero ?? value ?? null;
+      if (value == null) {
+        patch[field] = null;
+      } else if (typeof value === 'object' && value.id) {
+        patch[field] = value.id;
+      } else if (typeof value === 'object' && value.id_numero) {
+        patch[field] = value.id_numero;
       } else {
-        patch[field] = value ?? null;
+        patch[field] = value;
       }
     }
 
@@ -104,9 +107,9 @@ export const POST: APIRoute = async ({ request, locals }) => {
     console.log(`SYNC-META: ${itArticle.slug} -> ${translationId} (${synced.join(', ')})`);
     return json({ ok: true, action: 'synced', id, translation: translationId, fields: synced }, 200);
 
-  } catch (err) {
+  } catch (err: any) {
     console.error('SYNC-META error:', err);
-    return json({ ok: false, error: 'sync_error' }, 500);
+    return json({ ok: false, error: 'sync_error', detail: err?.message ?? String(err) }, 500);
   }
 };
 
