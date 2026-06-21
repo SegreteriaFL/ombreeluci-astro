@@ -132,8 +132,35 @@ jobs:
           echo "$BODY" | grep -q "/en/" || { echo "FAIL: /en/ mancante in sitemap" | tee -a $LOG; exit 1; }
           echo "OK" | tee -a $LOG
 
-      - name: "Check 11 — CMS ping diretto"
+      - name: "Check 11 — Produzione NO noindex"
         id: c11
+        continue-on-error: true
+        run: |
+          echo "=== Check 11: Produzione NO noindex ===" | tee -a $LOG
+          # Verifica su ombreeluci.it (non staging) che non ci sia noindex
+          HEADERS=$(curl -sI "https://ombreeluci.it/it/ombre-e-luci/")
+          echo "$HEADERS" | tee -a $LOG
+          if echo "$HEADERS" | grep -qi "noindex"; then
+            echo "FAIL: noindex trovato su PRODUZIONE — URGENTE" | tee -a $LOG
+            exit 1
+          fi
+          echo "OK: nessun noindex su produzione" | tee -a $LOG
+
+      - name: "Check 12 — Staging HA noindex"
+        id: c12
+        continue-on-error: true
+        run: |
+          echo "=== Check 12: Staging HA noindex ===" | tee -a $LOG
+          HEADERS=$(curl -sI "$BASE_URL/it/ombre-e-luci/")
+          if echo "$HEADERS" | grep -qi "noindex"; then
+            echo "OK: staging ha noindex" | tee -a $LOG
+          else
+            echo "WARN: staging senza noindex" | tee -a $LOG
+            exit 1
+          fi
+
+      - name: "Check 13 — CMS ping diretto"
+        id: c13
         continue-on-error: true
         run: |
           echo "=== Check 11: CMS ping diretto ===" | tee -a $LOG
@@ -157,7 +184,9 @@ jobs:
           echo "c8  redirect:     ${{ steps.c8.outcome }}" | tee -a $LOG
           echo "c9  sitemap_it:   ${{ steps.c9.outcome }}" | tee -a $LOG
           echo "c10 sitemap_en:   ${{ steps.c10.outcome }}" | tee -a $LOG
-          echo "c11 cms_ping:     ${{ steps.c11.outcome }}" | tee -a $LOG
+          echo "c11 prod_noindex: ${{ steps.c11.outcome }}" | tee -a $LOG
+          echo "c12 stag_noindex: ${{ steps.c12.outcome }}" | tee -a $LOG
+          echo "c13 cms_ping:     ${{ steps.c13.outcome }}" | tee -a $LOG
 
       - name: Upload log
         if: always()
@@ -180,7 +209,9 @@ jobs:
             steps.c8.outcome == 'failure' ||
             steps.c9.outcome == 'failure' ||
             steps.c10.outcome == 'failure' ||
-            steps.c11.outcome == 'failure'
+            steps.c11.outcome == 'failure' ||
+            steps.c12.outcome == 'failure' ||
+            steps.c13.outcome == 'failure'
           )
         run: |
           if [ -z "${{ secrets.SLACK_WEBHOOK_URL }}" ]; then exit 0; fi
@@ -195,7 +226,9 @@ jobs:
           [ "${{ steps.c8.outcome }}"  = "failure" ] && FAILURES="$FAILURES c8(redirect)"
           [ "${{ steps.c9.outcome }}"  = "failure" ] && FAILURES="$FAILURES c9(sitemap_it)"
           [ "${{ steps.c10.outcome }}" = "failure" ] && FAILURES="$FAILURES c10(sitemap_en)"
-          [ "${{ steps.c11.outcome }}" = "failure" ] && FAILURES="$FAILURES c11(cms_ping)"
+          [ "${{ steps.c11.outcome }}" = "failure" ] && FAILURES="$FAILURES c11(NOINDEX_PROD!)"
+          [ "${{ steps.c12.outcome }}" = "failure" ] && FAILURES="$FAILURES c12(staging_noindex)"
+          [ "${{ steps.c13.outcome }}" = "failure" ] && FAILURES="$FAILURES c13(cms_ping)"
           curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
             -H "Content-Type: application/json" \
             -d "{\"text\":\"⚠️ *OEL smoke post-deploy: check falliti*\nFalliti:$FAILURES\nDettagli: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"
