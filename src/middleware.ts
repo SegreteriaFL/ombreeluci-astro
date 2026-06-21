@@ -51,8 +51,9 @@ const INSIEME_RE = /^\/insieme\/insieme-n-(\d+)\/?$/;
 const SFOGLIABILE_RE = /^\/it\/ombre(?:-e)?-luci-n-(\d+)-\d{4}-sfogliabile\/?$/;
 
 export const onRequest = defineMiddleware(async ({ url, redirect, request }, next) => {
-  const host = request.headers.get('host') ?? url.hostname;
-  if (host !== 'ombreeluci.it') {
+  const prodUrl = import.meta.env.PUBLIC_SITE_URL || '';
+  const isProduction = prodUrl.includes('ombreeluci.it');
+  if (!isProduction) {
     const response = await next();
     response.headers.set('X-Robots-Tag', 'noindex, nofollow');
     return response;
