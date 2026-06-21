@@ -23,10 +23,19 @@
 | `71d3f61c` | **Didascalie → file (F3)** | Collection `didascalie_img` creata (file+lang+didascalia+alt_text). 3.934 record migrati da articoli. Campi legacy nascosti dal form Directus. Route IT/EN leggono da nuova collection con fallback. |
 | (console Hetzner) | **Indice pgvector** | Non creabile: pgvector max 2000 dim per indice, embedding 3072. Brute force OK per 3.400 articoli. |
 
+| `ac5ee028`→`01e04439` | **Staging noindex fix** | Bug: noindex scattava su produzione (progetto CF Pages si chiama `ombreeluci-staging`). Fix: usa `PUBLIC_SITE_URL` env var. Smoke test aggiornato con check critico noindex. |
+| (Directus) | **Didascalie migrate** | 3.941 record in `didascalie_img` (1.989 IT + 1.952 EN). Zero errori. Campi legacy nascosti. |
+| `517a6ff6` | **Smoke test riscritto** | 7 check critici (bloccanti) + 7 importanti. Verifica noindex, SSR, canonical, cache, CMS, hreflang. |
+| (CF) | **HSTS attivato** | `Strict-Transport-Security: max-age=31536000; includeSubDomains` |
+| `45ef86e5` | **Sync end-to-end verificata** | `ruolo_editoriale` IT→EN: `None`→`trasversale` confermato. 11 campi + tag M2M. |
+
+**PageSpeed post-sessione (mobile, ora-basta):** FCP 2.0s (era 4.6s), LCP 4.7s (da monitorare con cache piena), SEO risolto (era 69, ora OK).
+
 **Da fare prossima sessione:**
-- **Test sync end-to-end:** modificare un campo su articolo IT in Directus e verificare cascata su EN.
-- **Fix SSH VPS:** risolvere accesso SSH da questa macchina (porta 22 probabilmente bloccata dalla rete).
-- **Didascalie: 7 errori migrazione** da ritentare (503 temporaneo durante rebuild).
+- **PageSpeed LCP:** se >2.5s dopo 24h cache, serve preload immagine copertina + width/height espliciti
+- **Render-blocking CSS:** -1410ms stimati da Lighthouse
+- **Fix SSH VPS:** risolvere accesso (porta 22 o Cloudflare Tunnel)
+- **Fase 3 roadmap:** traduzione automatica alla pubblicazione
 
 ---
 
