@@ -45,6 +45,8 @@ interface Props {
   pathname?: string;
   /** Header trasparente sopra hero slider (solo homepage) */
   heroHeader?: boolean;
+  /** URL immagine LCP da preloadare */
+  lcpImage?: string;
 }
 
 const { bodyClass, alternateArticleUrl = null, pathname: pathnameProp, heroHeader, ...headProps } = Astro.props;

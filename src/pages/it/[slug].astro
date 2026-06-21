@@ -378,6 +378,7 @@ const relatedArticles = (() => {
   description={metaDescription}
   ogImage={articleImage}
   ogType="article"
+  lcpImage={articleImage}
   lang={articolo.lang === 'en' ? 'en' : 'it'}
   alternateArticleUrl={alternateArticleUrl}
   alternates={[
@@ -526,12 +527,14 @@ const relatedArticles = (() => {
         {/* Metadati con foto autore */}
         <div class="article-meta">
           <div class="article-meta-item">
-            <img 
+            <img
               src={authorImagePath}
               alt={autoreName}
               class="article-meta-author-image"
               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
               loading="lazy"
+              width={40}
+              height={40}
             />
             <div class="article-meta-author-placeholder" style="display: none;">
               {autoreName.charAt(0).toUpperCase()}
@@ -571,7 +574,7 @@ const relatedArticles = (() => {
           />
           {heroCaption && (
             <div class="article-image-caption">
-              <img src="/images/icon-camera.png" alt="" class="caption-camera-icon" aria-hidden="true" />
+              <img src="/images/icon-camera.png" alt="" class="caption-camera-icon" aria-hidden="true" width={16} height={16} />
               <span set:html={heroCaption} />
             </div>
           )}
@@ -649,12 +652,14 @@ const relatedArticles = (() => {
         <div class="author-bio-section">
           <div class="author-bio-wrapper">
             <div class="author-bio-avatar">
-              <img 
+              <img
                 src={authorImagePath}
                 alt={autoreName}
                 class="author-bio-image"
                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                 loading="lazy"
+                width={80}
+                height={80}
               />
               <div class="author-bio-placeholder" style="display: none;">
                 {autoreName.charAt(0).toUpperCase()}

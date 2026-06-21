@@ -396,6 +396,7 @@ const alternates: { lang: string; url: string }[] = [
   description={metaDescription}
   ogImage={articleImage}
   ogType="article"
+  lcpImage={articleImage}
   lang="en"
   canonical={canonicalUrl}
   noindex={false}
@@ -547,6 +548,8 @@ const alternates: { lang: string; url: string }[] = [
               class="article-meta-author-image"
               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
               loading="lazy"
+              width={40}
+              height={40}
             />
             <div class="article-meta-author-placeholder" style="display: none;">
               {autoreName.charAt(0).toUpperCase()}
@@ -586,7 +589,7 @@ const alternates: { lang: string; url: string }[] = [
           />
           {heroCaption && (
             <div class="article-image-caption">
-              <img src="/images/icon-camera.png" alt="" class="caption-camera-icon" aria-hidden="true" />
+              <img src="/images/icon-camera.png" alt="" class="caption-camera-icon" aria-hidden="true" width={16} height={16} />
               <span set:html={heroCaption} />
             </div>
           )}
@@ -665,6 +668,8 @@ const alternates: { lang: string; url: string }[] = [
                 class="author-bio-image"
                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                 loading="lazy"
+                width={80}
+                height={80}
               />
               <div class="author-bio-placeholder" style="display: none;">
                 {autoreName.charAt(0).toUpperCase()}
