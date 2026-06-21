@@ -65,8 +65,6 @@ export const POST: APIRoute = async ({ request, locals }) => {
         patch[field] = null;
       } else if (typeof value === 'object' && value.id) {
         patch[field] = value.id;
-      } else if (typeof value === 'object' && value.id_numero) {
-        patch[field] = value.id_numero;
       } else {
         patch[field] = value;
       }
@@ -132,10 +130,7 @@ async function fetchArticle(id: string, directusUrl: string, token: string): Pro
   const fields = [
     'id', 'slug', 'lang', 'articolo_traduzione',
     ...SYNC_FIELDS.map(f => {
-      if (f === 'autore') return 'autore.id';
-      if (f === 'numero_rivista') return 'numero_rivista.id_numero';
-      if (f === 'immagine_copertina') return 'immagine_copertina.id';
-      if (f === 'serie') return 'serie.id';
+      if (['autore', 'numero_rivista', 'immagine_copertina', 'serie'].includes(f)) return `${f}.id`;
       return f;
     }),
   ].join(',');
