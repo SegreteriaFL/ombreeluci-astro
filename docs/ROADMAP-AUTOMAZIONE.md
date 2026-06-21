@@ -226,7 +226,7 @@ Fase 5 — progetto separato, dopo Fase 4 stabile
 | Colonna embedding in PostgreSQL | ✅ `vector(3072)`, creata 2026-06-21 |
 | Embeddings popolati via Directus API | ✅ 3.447/3.488 articoli IT (41 senza wp_id match) |
 | correlati.json K=30 cosine similarity | ✅ rigenerato 2026-06-20, 3.427 articoli |
-| Indice ivfflat per KNN | ❌ da creare via console Hetzner (serve tabella popolata) |
+| Indice KNN pgvector | N/A — pgvector max 2000 dim per indice, embedding 3072. Brute force `ORDER BY <=>` OK per 3.400 articoli (<50ms). Indice necessario solo sopra 50k articoli, a quel punto ridurre dimensioni embedding. |
 | TRANS-FLOW-01 (traduzione manuale) | ✅ funzionante |
 | Traduzione triggered automatica | ❌ non implementata (Fase 3) |
 | Sync metadati IT→EN automatica | ✅ endpoint `/api/sync-metadata` + Flow Directus `bb1e90af` |

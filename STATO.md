@@ -19,10 +19,14 @@
 | `3179528a` + `82709d18` | **Fase 2 sync metadati** | Endpoint `/api/sync-metadata` + Flow Directus. Sync automatica IT→EN: 11 campi scalari + tag M2M. 14 EN orfani fixati (traduzione umana vince su AI). |
 | (Directus) | **EN orfani** | 14/18 swap umana→AI (AI cancellata). 4 residui senza match IT. |
 
-**Da fare prossima sessione (priorità):**
-- **Didascalia → file (F3 anticipata):** spostare `didascalia_copertina` e `didascalia_en` da articolo a `directus_files` con collection traduzioni. Pulisce form articolo Directus + prerequisito ES/FR.
-- **Indice ivfflat pgvector:** `CREATE INDEX` via console Hetzner per abilitare KNN live.
+| `186716d9` | **Staging noindex** | `X-Robots-Tag: noindex, nofollow` su tutti i domini staging/pages.dev. Google indicizzava staging invece di produzione — fix confermato attivo. |
+| `71d3f61c` | **Didascalie → file (F3)** | Collection `didascalie_img` creata (file+lang+didascalia+alt_text). 3.934 record migrati da articoli. Campi legacy nascosti dal form Directus. Route IT/EN leggono da nuova collection con fallback. |
+| (console Hetzner) | **Indice pgvector** | Non creabile: pgvector max 2000 dim per indice, embedding 3072. Brute force OK per 3.400 articoli. |
+
+**Da fare prossima sessione:**
 - **Test sync end-to-end:** modificare un campo su articolo IT in Directus e verificare cascata su EN.
+- **Fix SSH VPS:** risolvere accesso SSH da questa macchina (porta 22 probabilmente bloccata dalla rete).
+- **Didascalie: 7 errori migrazione** da ritentare (503 temporaneo durante rebuild).
 
 ---
 
