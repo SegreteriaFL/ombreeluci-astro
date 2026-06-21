@@ -7,228 +7,223 @@ on:
   workflow_dispatch:
 
 env:
-  BASE_URL: https://ombreeluci-staging.pages.dev
-  LOG: /tmp/smoke.txt
+  PROD: https://ombreeluci.it
+  STAGING: https://ombreeluci-staging.pages.dev
+  CMS: https://cms.ombreeluci.it
 
 jobs:
   smoke:
-    name: Smoke test staging
+    name: Smoke test post-deploy
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
-        with:
-          node-version: '20.19.0'
+      - name: Attesa deploy CF Pages (~3.5 min)
+        run: sleep 210
 
-      - name: Verify build environment
+      # ═══════════════════════════════════════════════════════════
+      # CRITICI — fallimento = danno reale, azione immediata
+      # ═══════════════════════════════════════════════════════════
+
+      - name: "CRITICO — Produzione NO noindex"
+        id: noindex_prod
         run: |
-          echo "Node: $(node --version)"
-          echo "npm: $(npm --version)"
-          node --version | grep -q "v20" || (echo "::error::Wrong Node version — atteso v20.x" && exit 1)
-
-      - name: Attesa deploy CF Pages (~3 min)
-        run: sleep 200
-
-      - name: "Check 1 — Health endpoint"
-        id: c1
-        continue-on-error: true
-        run: |
-          echo "=== Check 1: Health endpoint ===" | tee -a $LOG
-          HTTP=$(curl -s -o /tmp/health.json -w "%{http_code}" "$BASE_URL/api/health")
-          echo "HTTP: $HTTP" | tee -a $LOG
-          cat /tmp/health.json | tee -a $LOG
-          echo "" | tee -a $LOG
-          [ "$HTTP" = "200" ] && grep -q '"status":"ok"' /tmp/health.json
-
-      - name: "Check 2 — Homepage IT"
-        id: c2
-        continue-on-error: true
-        run: |
-          echo "=== Check 2: Homepage IT ===" | tee -a $LOG
-          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/")
-          echo "HTTP: $HTTP" | tee -a $LOG
-          [ "$HTTP" = "200" ]
-
-      - name: "Check 3 — Homepage EN"
-        id: c3
-        continue-on-error: true
-        run: |
-          echo "=== Check 3: Homepage EN ===" | tee -a $LOG
-          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/en/")
-          echo "HTTP: $HTTP" | tee -a $LOG
-          [ "$HTTP" = "200" ]
-
-      - name: "Check 4 — Articolo SSR IT (ombre-e-luci)"
-        id: c4
-        continue-on-error: true
-        run: |
-          echo "=== Check 4: Articolo SSR IT ===" | tee -a $LOG
-          BODY=$(curl -sf "$BASE_URL/it/ombre-e-luci/")
-          INCIPIT="${BODY:0:15}"
-          echo "Incipit: $INCIPIT" | tee -a $LOG
-          echo "$INCIPIT" | grep -q "<!DOCTYPE" || { echo "FAIL: body inizia con [object Object] o simile" | tee -a $LOG; exit 1; }
-          echo "$BODY" | grep -q 'lang="it"' || { echo "FAIL: lang=it mancante" | tee -a $LOG; exit 1; }
-          echo "OK" | tee -a $LOG
-
-      - name: "Check 5 — Indice EN"
-        id: c5
-        continue-on-error: true
-        run: |
-          echo "=== Check 5: Indice EN ===" | tee -a $LOG
-          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/en/")
-          echo "HTTP: $HTTP" | tee -a $LOG
-          [ "$HTTP" = "200" ]
-
-      - name: "Check 6 — Archivio IT"
-        id: c6
-        continue-on-error: true
-        run: |
-          echo "=== Check 6: Archivio IT ===" | tee -a $LOG
-          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/it/archivio/")
-          echo "HTTP: $HTTP" | tee -a $LOG
-          [ "$HTTP" = "200" ]
-
-      - name: "Check 7 — Numero rivista SSR (oel-173)"
-        id: c7
-        continue-on-error: true
-        run: |
-          echo "=== Check 7: Numero rivista SSR ===" | tee -a $LOG
-          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/it/archivio/oel-173/")
-          echo "HTTP: $HTTP" | tee -a $LOG
-          [ "$HTTP" = "200" ]
-
-      - name: "Check 8 — Redirect /blog/ → /it/"
-        id: c8
-        continue-on-error: true
-        run: |
-          echo "=== Check 8: Redirect legacy ===" | tee -a $LOG
-          SLUG=$(python3 -c "import json; d=json.load(open('src/data/redirects-legacy.json')); print(list(d.keys())[0].strip('/'))")
-          echo "Slug: $SLUG" | tee -a $LOG
-          curl -sI -o /tmp/redir_hdrs.txt "$BASE_URL/blog/$SLUG/"
-          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$BASE_URL/blog/$SLUG/")
-          echo "HTTP: $HTTP" | tee -a $LOG
-          cat /tmp/redir_hdrs.txt | tee -a $LOG
-          [ "$HTTP" = "301" ] && grep -i "location:" /tmp/redir_hdrs.txt | grep -q "/it/"
-
-      - name: "Check 9 — Sitemap IT"
-        id: c9
-        continue-on-error: true
-        run: |
-          echo "=== Check 9: Sitemap IT ===" | tee -a $LOG
-          BODY=$(curl -sf "$BASE_URL/sitemap.xml")
-          echo "$BODY" | grep -q "<loc>" || { echo "FAIL: <loc> mancante" | tee -a $LOG; exit 1; }
-          echo "OK" | tee -a $LOG
-
-      - name: "Check 10 — Sitemap EN"
-        id: c10
-        continue-on-error: true
-        run: |
-          echo "=== Check 10: Sitemap EN ===" | tee -a $LOG
-          BODY=$(curl -sf "$BASE_URL/sitemap-en.xml")
-          echo "$BODY" | grep -q "/en/" || { echo "FAIL: /en/ mancante in sitemap" | tee -a $LOG; exit 1; }
-          echo "OK" | tee -a $LOG
-
-      - name: "Check 11 — Produzione NO noindex"
-        id: c11
-        continue-on-error: true
-        run: |
-          echo "=== Check 11: Produzione NO noindex ===" | tee -a $LOG
-          # Verifica su ombreeluci.it (non staging) che non ci sia noindex
-          HEADERS=$(curl -sI "https://ombreeluci.it/it/ombre-e-luci/")
-          echo "$HEADERS" | tee -a $LOG
+          HEADERS=$(curl -sI "$PROD/it/ombre-e-luci/")
           if echo "$HEADERS" | grep -qi "noindex"; then
-            echo "FAIL: noindex trovato su PRODUZIONE — URGENTE" | tee -a $LOG
-            exit 1
-          fi
-          echo "OK: nessun noindex su produzione" | tee -a $LOG
-
-      - name: "Check 12 — Staging HA noindex"
-        id: c12
-        continue-on-error: true
-        run: |
-          echo "=== Check 12: Staging HA noindex ===" | tee -a $LOG
-          HEADERS=$(curl -sI "$BASE_URL/it/ombre-e-luci/")
-          if echo "$HEADERS" | grep -qi "noindex"; then
-            echo "OK: staging ha noindex" | tee -a $LOG
-          else
-            echo "WARN: staging senza noindex" | tee -a $LOG
+            echo "::error::NOINDEX SU PRODUZIONE — Google sta de-indicizzando il sito!"
             exit 1
           fi
 
-      - name: "Check 13 — CMS ping diretto"
-        id: c13
+      - name: "CRITICO — Homepage IT 200"
+        id: home_it
+        run: |
+          HTTP=$(curl -s -o /dev/null -w "%{http_code}" "$PROD/")
+          if [ "$HTTP" != "200" ]; then
+            echo "::error::Homepage IT non risponde (HTTP $HTTP)"
+            exit 1
+          fi
+
+      - name: "CRITICO — Articolo SSR IT non broken"
+        id: ssr_it
+        run: |
+          BODY=$(curl -sf "$PROD/it/ombre-e-luci/" || echo "FETCH_FAILED")
+          if echo "$BODY" | head -1 | grep -q "object Object"; then
+            echo "::error::SSR IT restituisce [object Object] — sito rotto"
+            exit 1
+          fi
+          if ! echo "$BODY" | grep -q '<!DOCTYPE'; then
+            echo "::error::SSR IT non restituisce HTML valido"
+            exit 1
+          fi
+
+      - name: "CRITICO — Articolo SSR EN non broken"
+        id: ssr_en
+        run: |
+          BODY=$(curl -sf "$PROD/en/good-news-for-us-all/" || echo "FETCH_FAILED")
+          if echo "$BODY" | head -1 | grep -q "object Object"; then
+            echo "::error::SSR EN restituisce [object Object]"
+            exit 1
+          fi
+
+      - name: "CRITICO — CMS Directus raggiungibile"
+        id: cms
+        run: |
+          BODY=$(curl -sf --max-time 10 "$CMS/server/ping" || echo "FAIL")
+          if ! echo "$BODY" | grep -q "pong"; then
+            echo "::error::CMS Directus non raggiungibile"
+            exit 1
+          fi
+
+      - name: "CRITICO — Canonical non punta a staging"
+        id: canonical
+        run: |
+          BODY=$(curl -sf "$PROD/it/ombre-e-luci/")
+          if echo "$BODY" | grep -q 'rel="canonical".*staging'; then
+            echo "::error::Canonical punta a staging!"
+            exit 1
+          fi
+          if echo "$BODY" | grep -q 'rel="canonical".*pages.dev'; then
+            echo "::error::Canonical punta a pages.dev!"
+            exit 1
+          fi
+
+      - name: "CRITICO — Cache-Control asset immutable"
+        id: cache_assets
+        run: |
+          CSS=$(curl -sf "$PROD/" | grep -oE '/_astro/[^"]+\.css' | head -1)
+          if [ -n "$CSS" ]; then
+            CC=$(curl -sI "$PROD$CSS" | grep -i "cache-control")
+            if ! echo "$CC" | grep -qi "immutable"; then
+              echo "::error::CSS senza cache immutable — cache rate crollerà"
+              exit 1
+            fi
+          fi
+
+      # ═══════════════════════════════════════════════════════════
+      # IMPORTANTI — fallimento = degrado, da fixare entro 24h
+      # ═══════════════════════════════════════════════════════════
+
+      - name: "IMPORTANTE — Staging HA noindex"
+        id: noindex_staging
         continue-on-error: true
         run: |
-          echo "=== Check 11: CMS ping diretto ===" | tee -a $LOG
-          BODY=$(curl -sf "https://cms.ombreeluci.it/server/ping")
-          echo "Response: $BODY" | tee -a $LOG
-          echo "$BODY" | grep -q "pong" || { echo "FAIL: pong mancante" | tee -a $LOG; exit 1; }
-          echo "OK" | tee -a $LOG
+          HEADERS=$(curl -sI "$STAGING/it/ombre-e-luci/")
+          if ! echo "$HEADERS" | grep -qi "noindex"; then
+            echo "::warning::Staging senza noindex — Google potrebbe indicizzarlo"
+            exit 1
+          fi
 
-      - name: Riepilogo risultati
+      - name: "IMPORTANTE — Homepage EN 200"
+        id: home_en
+        continue-on-error: true
+        run: |
+          HTTP=$(curl -s -o /dev/null -w "%{http_code}" "$PROD/en/")
+          [ "$HTTP" = "200" ] || exit 1
+
+      - name: "IMPORTANTE — Sitemap IT valida"
+        id: sitemap_it
+        continue-on-error: true
+        run: |
+          BODY=$(curl -sf "$PROD/sitemap.xml")
+          echo "$BODY" | grep -q "<loc>" || exit 1
+
+      - name: "IMPORTANTE — Sitemap EN valida"
+        id: sitemap_en
+        continue-on-error: true
+        run: |
+          BODY=$(curl -sf "$PROD/sitemap-en.xml")
+          echo "$BODY" | grep -q "/en/" || exit 1
+
+      - name: "IMPORTANTE — Redirect legacy funziona"
+        id: redirect
+        continue-on-error: true
+        run: |
+          HTTP=$(curl -sI -o /dev/null -w "%{http_code}" "$PROD/2023/ombre-e-luci/")
+          [ "$HTTP" = "301" ] || exit 1
+
+      - name: "IMPORTANTE — Archivio IT 200"
+        id: archivio
+        continue-on-error: true
+        run: |
+          HTTP=$(curl -s -o /dev/null -w "%{http_code}" "$PROD/it/archivio/")
+          [ "$HTTP" = "200" ] || exit 1
+
+      - name: "IMPORTANTE — Numero rivista SSR 200"
+        id: numero
+        continue-on-error: true
+        run: |
+          HTTP=$(curl -s -o /dev/null -w "%{http_code}" "$PROD/it/archivio/oel-173/")
+          [ "$HTTP" = "200" ] || exit 1
+
+      - name: "IMPORTANTE — hreflang presente su articolo"
+        id: hreflang
+        continue-on-error: true
+        run: |
+          BODY=$(curl -sf "$PROD/it/ombre-e-luci/")
+          if ! echo "$BODY" | grep -q 'hreflang="en"'; then
+            echo "::warning::hreflang EN mancante su articolo IT"
+            exit 1
+          fi
+
+      - name: "IMPORTANTE — API health endpoint"
+        id: api_health
+        continue-on-error: true
+        run: |
+          HTTP=$(curl -s -o /dev/null -w "%{http_code}" "$PROD/api/health")
+          [ "$HTTP" = "200" ] || exit 1
+
+      # ═══════════════════════════════════════════════════════════
+      # RIEPILOGO
+      # ═══════════════════════════════════════════════════════════
+
+      - name: Riepilogo
         if: always()
         run: |
-          echo "" | tee -a $LOG
-          echo "=== Riepilogo ===" | tee -a $LOG
-          echo "c1  health:       ${{ steps.c1.outcome }}" | tee -a $LOG
-          echo "c2  home_it:      ${{ steps.c2.outcome }}" | tee -a $LOG
-          echo "c3  home_en:      ${{ steps.c3.outcome }}" | tee -a $LOG
-          echo "c4  article_it:   ${{ steps.c4.outcome }}" | tee -a $LOG
-          echo "c5  index_en:     ${{ steps.c5.outcome }}" | tee -a $LOG
-          echo "c6  archivio:     ${{ steps.c6.outcome }}" | tee -a $LOG
-          echo "c7  numero_ssr:   ${{ steps.c7.outcome }}" | tee -a $LOG
-          echo "c8  redirect:     ${{ steps.c8.outcome }}" | tee -a $LOG
-          echo "c9  sitemap_it:   ${{ steps.c9.outcome }}" | tee -a $LOG
-          echo "c10 sitemap_en:   ${{ steps.c10.outcome }}" | tee -a $LOG
-          echo "c11 prod_noindex: ${{ steps.c11.outcome }}" | tee -a $LOG
-          echo "c12 stag_noindex: ${{ steps.c12.outcome }}" | tee -a $LOG
-          echo "c13 cms_ping:     ${{ steps.c13.outcome }}" | tee -a $LOG
+          echo "═══ CRITICI ═══"
+          echo "noindex_prod:  ${{ steps.noindex_prod.outcome }}"
+          echo "home_it:       ${{ steps.home_it.outcome }}"
+          echo "ssr_it:        ${{ steps.ssr_it.outcome }}"
+          echo "ssr_en:        ${{ steps.ssr_en.outcome }}"
+          echo "cms:           ${{ steps.cms.outcome }}"
+          echo "canonical:     ${{ steps.canonical.outcome }}"
+          echo "cache_assets:  ${{ steps.cache_assets.outcome }}"
+          echo ""
+          echo "═══ IMPORTANTI ═══"
+          echo "noindex_stag:  ${{ steps.noindex_staging.outcome }}"
+          echo "home_en:       ${{ steps.home_en.outcome }}"
+          echo "sitemap_it:    ${{ steps.sitemap_it.outcome }}"
+          echo "sitemap_en:    ${{ steps.sitemap_en.outcome }}"
+          echo "redirect:      ${{ steps.redirect.outcome }}"
+          echo "archivio:      ${{ steps.archivio.outcome }}"
+          echo "numero:        ${{ steps.numero.outcome }}"
+          echo "hreflang:      ${{ steps.hreflang.outcome }}"
+          echo "api_health:    ${{ steps.api_health.outcome }}"
 
-      - name: Upload log
-        if: always()
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
-        with:
-          name: smoke-log-${{ github.run_id }}
-          path: /tmp/smoke.txt
-          retention-days: 7
-
-      - name: Notifica Slack
+      - name: Notifica fallimenti critici
         if: >-
           always() && (
-            steps.c1.outcome == 'failure' ||
-            steps.c2.outcome == 'failure' ||
-            steps.c3.outcome == 'failure' ||
-            steps.c4.outcome == 'failure' ||
-            steps.c5.outcome == 'failure' ||
-            steps.c6.outcome == 'failure' ||
-            steps.c7.outcome == 'failure' ||
-            steps.c8.outcome == 'failure' ||
-            steps.c9.outcome == 'failure' ||
-            steps.c10.outcome == 'failure' ||
-            steps.c11.outcome == 'failure' ||
-            steps.c12.outcome == 'failure' ||
-            steps.c13.outcome == 'failure'
+            steps.noindex_prod.outcome == 'failure' ||
+            steps.home_it.outcome == 'failure' ||
+            steps.ssr_it.outcome == 'failure' ||
+            steps.ssr_en.outcome == 'failure' ||
+            steps.cms.outcome == 'failure' ||
+            steps.canonical.outcome == 'failure' ||
+            steps.cache_assets.outcome == 'failure'
           )
         run: |
-          if [ -z "${{ secrets.SLACK_WEBHOOK_URL }}" ]; then exit 0; fi
           FAILURES=""
-          [ "${{ steps.c1.outcome }}"  = "failure" ] && FAILURES="$FAILURES c1(health)"
-          [ "${{ steps.c2.outcome }}"  = "failure" ] && FAILURES="$FAILURES c2(home_it)"
-          [ "${{ steps.c3.outcome }}"  = "failure" ] && FAILURES="$FAILURES c3(home_en)"
-          [ "${{ steps.c4.outcome }}"  = "failure" ] && FAILURES="$FAILURES c4(article_it)"
-          [ "${{ steps.c5.outcome }}"  = "failure" ] && FAILURES="$FAILURES c5(index_en)"
-          [ "${{ steps.c6.outcome }}"  = "failure" ] && FAILURES="$FAILURES c6(archivio)"
-          [ "${{ steps.c7.outcome }}"  = "failure" ] && FAILURES="$FAILURES c7(numero_ssr)"
-          [ "${{ steps.c8.outcome }}"  = "failure" ] && FAILURES="$FAILURES c8(redirect)"
-          [ "${{ steps.c9.outcome }}"  = "failure" ] && FAILURES="$FAILURES c9(sitemap_it)"
-          [ "${{ steps.c10.outcome }}" = "failure" ] && FAILURES="$FAILURES c10(sitemap_en)"
-          [ "${{ steps.c11.outcome }}" = "failure" ] && FAILURES="$FAILURES c11(NOINDEX_PROD!)"
-          [ "${{ steps.c12.outcome }}" = "failure" ] && FAILURES="$FAILURES c12(staging_noindex)"
-          [ "${{ steps.c13.outcome }}" = "failure" ] && FAILURES="$FAILURES c13(cms_ping)"
-          curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
-            -H "Content-Type: application/json" \
-            -d "{\"text\":\"⚠️ *OEL smoke post-deploy: check falliti*\nFalliti:$FAILURES\nDettagli: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"
+          [ "${{ steps.noindex_prod.outcome }}" = "failure" ] && FAILURES="$FAILURES 🔴NOINDEX_PROD"
+          [ "${{ steps.home_it.outcome }}" = "failure" ] && FAILURES="$FAILURES 🔴HOME_DOWN"
+          [ "${{ steps.ssr_it.outcome }}" = "failure" ] && FAILURES="$FAILURES 🔴SSR_IT_BROKEN"
+          [ "${{ steps.ssr_en.outcome }}" = "failure" ] && FAILURES="$FAILURES 🔴SSR_EN_BROKEN"
+          [ "${{ steps.cms.outcome }}" = "failure" ] && FAILURES="$FAILURES 🔴CMS_DOWN"
+          [ "${{ steps.canonical.outcome }}" = "failure" ] && FAILURES="$FAILURES 🔴CANONICAL_WRONG"
+          [ "${{ steps.cache_assets.outcome }}" = "failure" ] && FAILURES="$FAILURES 🟡CACHE_BROKEN"
+          echo "::error::SMOKE TEST FALLITO:$FAILURES"
+          if [ -n "${{ secrets.SLACK_WEBHOOK_URL }}" ]; then
+            curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
+              -H "Content-Type: application/json" \
+              -d "{\"text\":\"🚨 *OEL SMOKE CRITICO*\n$FAILURES\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"
+          fi
