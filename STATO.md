@@ -39,9 +39,11 @@
 - SEO: **100** (era 69)
 - Per superare 90 mobile serve CSS critico inline (effort M) o proxy immagini via CF
 
+| `27634ded` | **Sync didascalia IT→EN** | Endpoint `/api/sync-didascalia` + Flow Directus. Traduce didascalie con Claude Haiku automaticamente. Testato: "copertina libro - vi ho amato tutti" → "book cover - i have loved you all". |
+
 **Da fare prossima sessione:**
+- **Fase 3 roadmap:** traduzione automatica corpo articolo alla pubblicazione
 - **Fix SSH VPS:** risolvere accesso (porta 22 o Cloudflare Tunnel)
-- **Fase 3 roadmap:** traduzione automatica alla pubblicazione
 - **CSS critico inline:** valutare se il guadagno LCP -1250ms giustifica la complessità
 
 ---
