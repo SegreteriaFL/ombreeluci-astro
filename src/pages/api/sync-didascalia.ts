@@ -57,7 +57,10 @@ export const POST: APIRoute = async ({ request, locals }) => {
 
     for (const targetLang of TARGET_LANGS) {
       const translated = await translateCaption(record.didascalia, targetLang, anthropicKey);
-      if (!translated) continue;
+      if (!translated) {
+        results.push(`${targetLang}:translation_failed`);
+        continue;
+      }
 
       const existing = await findDidascalia(directusUrl, directusToken, record.file, targetLang);
 
@@ -114,7 +117,8 @@ async function translateCaption(text: string, targetLang: string, apiKey: string
   });
 
   if (!res.ok) {
-    console.error(`Claude API error: ${res.status}`);
+    const errBody = await res.text();
+    console.error(`Claude API error: ${res.status} ${errBody}`);
     return null;
   }
 
