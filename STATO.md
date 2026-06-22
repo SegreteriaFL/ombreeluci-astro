@@ -31,11 +31,18 @@
 
 **PageSpeed post-sessione (mobile, ora-basta):** FCP 2.0s (era 4.6s), LCP 4.7s (da monitorare con cache piena), SEO risolto (era 69, ora OK).
 
+| `66ec7e37` | **PageSpeed fix** | Iubenda async (-2.2s TTFB), preload LCP immagine copertina, width/height su logo/avatar/icona. FCP 4.6s→1.4s, SEO 69→100, Performance 81→76-91 (varia per pagina). |
+
+**PageSpeed mobile post-fix:**
+- FCP: **1.4s** (era 4.6s) — Iubenda async risolve
+- LCP: **4.6-5.9s** — collo di bottiglia è CSS render-blocking (1250ms) + immagine da Directus su 4G simulato
+- SEO: **100** (era 69)
+- Per superare 90 mobile serve CSS critico inline (effort M) o proxy immagini via CF
+
 **Da fare prossima sessione:**
-- **PageSpeed LCP:** se >2.5s dopo 24h cache, serve preload immagine copertina + width/height espliciti
-- **Render-blocking CSS:** -1410ms stimati da Lighthouse
 - **Fix SSH VPS:** risolvere accesso (porta 22 o Cloudflare Tunnel)
 - **Fase 3 roadmap:** traduzione automatica alla pubblicazione
+- **CSS critico inline:** valutare se il guadagno LCP -1250ms giustifica la complessità
 
 ---
 
