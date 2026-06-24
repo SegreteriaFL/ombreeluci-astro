@@ -113,17 +113,25 @@ const sortedIT = sortByDate(allArticlesIT);
 
 const threeYearsAgo = new Date();
 threeYearsAgo.setMonth(threeYearsAgo.getMonth() - 36);
+const freshCutoff = new Date();
+freshCutoff.setDate(freshCutoff.getDate() - 60);
 
 // Set globale: ogni slug aggiunto non ricompare in nessuna sezione successiva.
 const usedSlugs = new Set<string>();
 
 // 1. HERO SLIDER — pool di 50: flaggati + portanti/strutturali/laterali ultimi 36 mesi.
-//    Shuffle deterministico con seed giornaliero + JS client ri-shuffla a ogni visita.
+//    Esclusi gli articoli freschi (≤60gg): quelli vanno nei Recenti per dare visibilità
+//    a ciò che è appena uscito. L'hero è il "meglio dell'archivio", non le novità.
 const rotationPool = (() => {
+  const isFresh = (a: ArticoloItem) => {
+    const d = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(0);
+    return d >= freshCutoff;
+  };
   const withCover = sortedEN.filter((a) => !!getArticoloCopertinaSrc(a));
-  const flagged = withCover.filter((a) => a.in_evidenza === true);
+  const flagged = withCover.filter((a) => a.in_evidenza === true && !isFresh(a));
   const algorithmic = withCover.filter((a) => {
     if (a.in_evidenza === true) return false;
+    if (isFresh(a)) return false;
     const date = a.data_pubblicazione ? new Date(a.data_pubblicazione) : new Date(0);
     const { ruolo_editoriale } = getMegaclusterForArticle(a);
     return (
