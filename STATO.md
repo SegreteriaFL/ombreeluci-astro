@@ -1,6 +1,21 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-06-21
+**Ultimo aggiornamento:** 2026-06-24
+
+---
+
+## Sessione 2026-06-24 — Contenuti statici Directus, recenti fresh-first
+
+| Commit | Area | Descrizione |
+|---|---|---|
+| `ca9abf7d` | **STATIC-01 — contenuti statici Directus** | Migrati i testi editoriali di 5 componenti (HomePageContent, NewsletterContent, ArchivioContent, IssueContent, DiariContent) dalla mappa hardcoded `i18n.ts` alla collection `contenuti_statici` di Directus. 41 nuove chiavi create nei gruppi `homepage`, `newsletter`, `archivio`, `diari`. Ogni componente usa `getCS()` con fallback inline — se Directus non risponde il sito funziona comunque con i testi precedenti. La redazione ora può modificare titoli, descrizioni, CTA e copy di sezione dal pannello Directus senza toccare codice. Script seed: `scripts/seed-contenuti-statici.mjs` (idempotente). |
+| `c013f179` | **Recenti — shuffle fresh-first** | La sezione "Recenti" in homepage mostrava articoli vecchi perché il pool di 25 veniva shufflato con Fisher-Yates uniforme. Fix: `pickRecentiWeighted()` divide il pool in "freschi" (≤60 giorni) e "resto", shuffla ciascun gruppo internamente, ma i freschi occupano sempre i primi slot. Diverso dall'hero slider che usa shuffle uniforme senza priorità (fix `67103c12`): i due contesti sono distinti — l'hero pesca da 36 mesi di editoriale per massima varietà, i recenti devono dare visibilità a ciò che è appena uscito. |
+
+### Nota: coerenza rotazione hero vs recenti
+
+L'hero slider (commit `67103c12`, 2026-06-20) ha **rimosso** la priorità flagged-first perché bloccava sempre gli stessi 4 articoli su 4 slot — shuffle uniforme su pool 50 è la scelta giusta per quel contesto (36 mesi, massima varietà editoriale).
+
+I recenti (commit `c013f179`, 2026-06-24) **aggiungono** una priorità temporale (freschi ≤60gg primi), ma il rischio di stallo non esiste: il pool è 25 articoli per 7 slot, e la priorità è sulla data (dinamica), non su un flag statico. La sezione si chiama "Recenti" e deve mostrare contenuti recenti — lo shuffle interno ai freschi garantisce comunque varietà ad ogni visita.
 
 ---
 
@@ -978,9 +993,9 @@ Redattore pubblica/modifica numeri_rivista in Directus
 Ogni articolo è aggiunto al set quando viene assegnato a una sezione; le sezioni successive escludono i già usati.
 
 Ordine di priorità:
-1. Hero slider (`featuredPool`) — portanti/strutturali con cover
-2. Recenti (sotto hero)
-3. Diari (per diarista specifico)
+1. Hero slider (`featuredPool`) — portanti/strutturali con cover, shuffle uniforme (no priorità)
+2. Recenti (sotto hero) — pool 25, shuffle fresh-first (≤60gg occupano primi slot)
+3. Diari (per diarista specifico, ignora usedSlugs)
 4. Testimonianze
 5. Esplora (un articolo per categoria)
 
