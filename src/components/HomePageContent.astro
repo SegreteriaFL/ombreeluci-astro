@@ -549,8 +549,7 @@ const issuePeriodLabel = ultimoNumero
     try {
       const pool: RecentiItem[] = JSON.parse(poolScript.textContent || '[]');
       if (pool.length <= 7) return;
-      const shuffled = shufflePool(pool);
-      const picked = shuffled.slice(0, 7);
+      const picked = pickRecentiWeighted(pool, 7);
       const lang = document.documentElement.lang || 'it';
       const basePath = lang === 'en' ? '/en' : '/it';
 
@@ -602,6 +601,21 @@ const issuePeriodLabel = ultimoNumero
       [a[i], a[j]] = [a[j], a[i]];
     }
     return a;
+  }
+
+  // Shuffle con priorità: articoli freschi (≤60gg) riempiono i primi slot,
+  // poi il resto. Entrambi i gruppi sono shufflati internamente per varietà.
+  function pickRecentiWeighted(pool: RecentiItem[], count: number): RecentiItem[] {
+    const now = Date.now();
+    const FRESH_MS = 60 * 24 * 60 * 60 * 1000;
+    const fresh: RecentiItem[] = [];
+    const rest: RecentiItem[] = [];
+    for (const item of pool) {
+      const age = now - new Date(item.date).getTime();
+      (age <= FRESH_MS ? fresh : rest).push(item);
+    }
+    const out = [...shufflePool(fresh), ...shufflePool(rest)];
+    return out.slice(0, count);
   }
 
   // ── Aggiorna contenuto di un singolo slide dal pool ───────────────────────
