@@ -6,7 +6,7 @@ export const prerender = true;
 
 import rss from '@astrojs/rss';
 import type { APIRoute } from 'astro';
-import { getRssItems } from '../lib/rss-items';
+import { getRssItems } from '../../lib/rss-items';
 
 export const GET: APIRoute = async (context) => {
   const items = await getRssItems('it');
