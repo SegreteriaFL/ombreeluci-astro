@@ -46,6 +46,7 @@ export async function getRssItems(lang: 'it' | 'en'): Promise<RssItemData[]> {
         ? getDirectusAssetUrl(a.immagine_copertina.id, { width: IMAGE_WIDTH, fit: 'cover', format: 'jpg', quality: 82 })
         : null;
       const imageHtml = imageUrl ? `<img src="${escapeHtmlAttr(imageUrl)}" alt="${escapeHtmlAttr(a.titolo)}" />` : '';
+      const body = a.corpo ?? `<p>${description}</p>`;
 
       return {
         title: a.titolo,
@@ -54,7 +55,7 @@ export async function getRssItems(lang: 'it' | 'en'): Promise<RssItemData[]> {
         pubDate: new Date(a.data_pubblicazione),
         author: a.autore?.nome_completo,
         categories: a.categoria_menu ? [a.categoria_menu] : undefined,
-        content: `${imageHtml}<p>${description}</p>`,
+        content: `${imageHtml}${body}`,
         enclosure: imageUrl ? { url: imageUrl, length: 0, type: 'image/jpeg' } : undefined,
       };
     });
