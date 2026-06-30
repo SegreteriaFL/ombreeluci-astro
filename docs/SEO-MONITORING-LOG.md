@@ -2,7 +2,50 @@
 
 > Log settimanale generato dal check automatico. Entry più recente in alto.
 > Per l'architettura generale del monitoring vedi [MONITORING.md](MONITORING.md).
-> Tool usato: `scripts/gsc-query.mjs` (Search Analytics), UptimeRobot API, `scripts/verify-redirects.mjs`.
+> Tool usato: `scripts/gsc-query.mjs` (Search Analytics), `scripts/cf-analytics.mjs` (CF), `scripts/ga-query.mjs` (GA4), UptimeRobot API, `scripts/verify-redirects.mjs`.
+
+---
+
+## 2026-06-28 — check completo GSC + CF + GA4
+
+**Stato generale:** sano, traffico organico stabile. Scoperta e bonifica spam bot.
+
+### GSC Search Analytics (14-25/6)
+- Impressioni: 3.000-4.100/giorno (14-18/6), calate a 1.987-2.681 (19-25/6) — probabile stagionalità fine scuole
+- Click: 30-46/giorno, stabile
+- Posizione media: 9.1-11.0, stabile
+- Top pagina: "22 mini giochi da fare insieme" (55 click, 3.264 impressioni)
+- EN emergente: `/en/authors/anna-cece/` con 2.104 impressioni (posizione 10)
+
+### Cloudflare Analytics (14-27/6)
+- 188k uniques, 329k pageViews, 902k requests in 14 giorni
+- **85% traffico è bot** (US 50%, SG 7%, CN 5%, IT solo 5.5%)
+- Cache rate 0.61% — quasi tutto va al Worker SSR
+- SG: 5.561 threats su 60k requests — spam puro
+
+### GA4 (14-27/6) — prima volta con accesso API
+- Property `G-2TJV78DNFQ`, ID `308368126`
+- **Utenti reali Italia: ~298 in 14 giorni (~21/giorno)**
+- Durata media sessione (organic): 68 secondi — buona
+- Top eventi Italia: scroll_depth (216), durata_permanenza_3m (32), form_start (10), support_scroll_bonifico (3)
+- 90% del traffico GA4 era spam bot Singapore (2.925 users finti con durata 2s)
+
+### Pagine EN fuori Italia
+- 52 users umani reali, 114 pageViews (giugno)
+- Paesi reali: US (13), UK (4), Australia (2), Irlanda, Canada
+- Top EN: "22 fun mini games to play together" (10 users)
+- Google sta indicizzando i 3.400 articoli EN — ROI atteso in 3-6 mesi
+
+### Azioni intraprese
+- **WAF rule "Block bot spam SG/CN" deployata** — Managed Challenge su traffico SG e CN (esclusi bot verificati). Eliminerà ~85% del traffico fake.
+- Creato `scripts/cf-analytics.mjs` — query CF Analytics via API (token `CF_ANALYTICS_TOKEN`)
+- Creato `scripts/ga-query.mjs` — query GA4 via API (stessa service account di GSC)
+- Copiato `.secrets/ombreeluci-seo-*.json` da `gsc/` a `.secrets/`
+
+### Da monitorare
+- Effetto WAF rule nei prossimi giorni (calo requests CF, calo spam GA4)
+- Cache rate CF — da migliorare con page rules o cache headers
+- Calo impressioni GSC: se continua sotto 2.000/giorno la prossima settimana, investigare
 
 ---
 
