@@ -8,7 +8,7 @@
 
 | Commit | Area | Descrizione |
 |---|---|---|
-| (questo commit) | **BACKFILL-NULL-DATES** | 68 articoli pubblicati (39 IT + 29 EN) avevano `data_pubblicazione: null`, causando ordinamento scorretto nelle pagine autore e ovunque si usi `sort: -data_pubblicazione`. **Causa:** il backfill del 2026-05-09 (`backfill-dates.mjs`) filtrava solo articoli con `T00:00:00` — gli articoli con NULL venivano saltati perché `null?.endsWith(...)` restituisce `undefined`. A monte: lo script import (`import_to_directus.py`) usa un upsert con `compare_fields` che **non include** `data_pubblicazione`; se in una prima esecuzione la data mancava, nessuna esecuzione successiva la correggeva. **Fix:** nuovo script `scripts/backfill-null-dates.mjs` — recupera i 29 IT con wp_id da `articoli_semantici_FULL_2026.json` (timestamp completo con ore:min:sec), aggiorna il campo IT e la traduzione EN collegata (`articolo_traduzione`). Risultato: 29 IT + 28 EN aggiornati (1 EN senza `articolo_traduzione`), 0 errori. I restanti 10 IT senza data sono articoli creati direttamente in Directus dalla redazione — richiedono data manuale. |
+| `cde6628b` | **BACKFILL-NULL-DATES** | 68 articoli pubblicati (39 IT + 29 EN) avevano `data_pubblicazione: null`, causando ordinamento scorretto nelle pagine autore e ovunque si usi `sort: -data_pubblicazione`. **Causa:** il backfill del 2026-05-09 (`backfill-dates.mjs`) filtrava solo articoli con `T00:00:00` — gli articoli con NULL venivano saltati perché `null?.endsWith(...)` restituisce `undefined`. A monte: lo script import (`import_to_directus.py`) usa un upsert con `compare_fields` che **non include** `data_pubblicazione`; se in una prima esecuzione la data mancava, nessuna esecuzione successiva la correggeva. **Fix:** nuovo script `scripts/backfill-null-dates.mjs` — recupera i 29 IT con wp_id da `articoli_semantici_FULL_2026.json` (timestamp completo con ore:min:sec), aggiorna il campo IT e la traduzione EN collegata (`articolo_traduzione`). Risultato: 29 IT + 28 EN aggiornati (1 EN senza `articolo_traduzione`), 0 errori. I restanti 10 IT senza data sono articoli creati direttamente in Directus dalla redazione — richiedono data manuale. |
 
 ### Articoli ancora senza data (10 IT + EN collegati) — richiedono intervento redazione
 
@@ -28,6 +28,36 @@ Creati direttamente in Directus (nessun wp_id), nessuna fonte automatica per la 
 | `le-mie-insicurezze` | senza numero rivista |
 
 Azione: la redazione deve impostare la data in Directus per ciascuno.
+
+---
+
+## Sessione 2026-06-30 — RSS feed, monitoring CF/GA4, fix traduzione EN
+
+| Commit | Area | Descrizione |
+|---|---|---|
+| `ad7862d4` | **RSS feed + monitoring tooling** | Aggiunto feed RSS via `@astrojs/rss`: helper condiviso `src/lib/rss-items.ts` (riusa `getAllArticoliBuild()`, stessa fonte/fallback delle sitemap), ultimi 50 articoli pubblicati per lingua. Autodiscovery link in `BaseHead.astro`. Creati `scripts/cf-analytics.mjs` (Cloudflare Analytics via GraphQL API) e `scripts/ga-query.mjs` (Google Analytics 4 Data API) per il check settimanale SEO/traffico, integrati in `docs/SEO-MONITORING-LOG.md`. |
+| `ad78995a` | **Redirect /feed** | `/feed` e `/en/feed` (convenzione WordPress) → redirect 301 ai nuovi feed RSS. |
+| `d422eb5c` | **Fix path RSS IT** | Il feed IT era inizialmente su `/rss.xml` (root) — spostato a `/it/rss.xml` per coerenza con la regola di routing del progetto (nessuna route IT alla root eccetto homepage). Aggiornati autodiscovery e redirect di conseguenza. |
+
+**URL feed finali:**
+- IT: `https://ombreeluci.it/it/rss.xml` (anche via redirect `/feed`)
+- EN: `https://ombreeluci.it/en/rss.xml` (anche via redirect `/en/feed`)
+
+### Diagnosi traffico GSC + Cloudflare + GA4 (2026-06-28)
+
+Prima sessione con accesso completo alle 3 fonti dati integrate. Scoperta chiave: **il traffico reale è ~21 utenti Italia/giorno**, non i 13k uniques/giorno mostrati da Cloudflare (85% erano bot, soprattutto Singapore e Cina). GA4 confermato come fonte di verità per comportamento utenti reali (durata sessione, eventi, bounce).
+
+**Azione presa:** WAF rule "Block bot spam SG/CN" deployata su Cloudflare (Managed Challenge per traffico da Singapore/Cina non verificato come bot legittimo). Permesso `Firewall Services` aggiunto al token `CF_ZONE_TOKEN` per gestione futura via API.
+
+**EN — verifica ROI traduzioni:** ~50 utenti umani reali fuori Italia in giugno (depurati dai bot), ma Google sta indicizzando attivamente i 3.400 articoli EN (es. `/en/authors/anna-cece/` con 2.100+ impressioni). ROI atteso in 3-6 mesi quando il dominio EN guadagnerà autorità.
+
+### Fix dati: traduzione EN incompleta
+
+Articolo "Making Cinema Heard..." (`5c1231d9-74e9-4ef4-8b4e-db11643a3e2c`) aveva `seo_description` con testo italiano residuo incollato davanti alla traduzione inglese (bug pipeline di traduzione). Corretto via PATCH diretto su Directus.
+
+### Nota operativa: account GitHub multipli
+
+Su questa macchina `gh auth` ha 3 account loggati (`trikkia`, `SegreteriaFL`, `unlongobardo`). Se `git push` fallisce con 403, eseguire `gh auth switch --user SegreteriaFL` prima di ripushare — non è un problema di permessi del repo, solo di account attivo.
 
 ---
 

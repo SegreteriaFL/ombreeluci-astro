@@ -108,6 +108,9 @@ const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
   <link rel="alternate" hreflang="x-default" href={alternates.find(a => a.lang === 'it')?.url ?? canonicalUrl} />
 )}
 
+<!-- RSS autodiscovery -->
+<link rel="alternate" type="application/rss+xml" title={lang === 'en' ? 'Ombre e Luci (English)' : 'Ombre e Luci'} href={lang === 'en' ? '/en/rss.xml' : '/it/rss.xml'} />
+
 <!-- Preconnect origini critiche -->
 <link rel="preconnect" href="https://pub-2251dc2142e3492a961f629f2af543d0.r2.dev" />
 <link rel="preconnect" href="https://cms.ombreeluci.it" />
