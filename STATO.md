@@ -4,6 +4,18 @@
 
 ---
 
+## Sessione 2026-07-01 — Fix flow "Esporta per traduzione" + Backfill date null
+
+### Fix TRANS-FLOW export
+
+| Area | Descrizione |
+|---|---|
+| **TRANS-FLOW-EXPORT-FIX** | Flow "Esporta per traduzione" (`f53500c6`) non scriveva `json_export` per gli utenti Redazione. **Causa:** `accountability: "all"` — il flow girava con i permessi dell'utente loggato; la scrittura su `json_export` veniva bloccata silenziosamente anche con `UPDATE *`. **Fix:** `accountability` → `"activity"` (permessi di sistema). Aggiornato anche `scripts/setup-export-flow.mjs` per includere questa impostazione. Secondo problema: `group_note` aveva `start: "closed"` — i campi `json_export` e `json_traduzione` erano invisibili di default. Fix: `start: "open"`. |
+
+**Regola generale per tutti i flow Directus:** usare sempre `accountability: "activity"` per flow operativi che devono girare indipendentemente dal ruolo dell'utente. `accountability: "all"` è corretto solo se si vuole che il flow rispetti i permessi dell'utente loggato — ma causa fallimenti silenziosi quando quei permessi non coprono tutte le operazioni necessarie.
+
+---
+
 ## Sessione 2026-07-01 — Backfill date null su articoli WP
 
 | Commit | Area | Descrizione |

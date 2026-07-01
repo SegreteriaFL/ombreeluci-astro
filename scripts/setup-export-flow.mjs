@@ -125,8 +125,10 @@ async function main() {
   const existingOps = opsRes?.data || [];
   console.log(`  Trovate ${existingOps.length}: ${existingOps.map(o => `${o.key}(${o.id})`).join(', ')}`);
 
-  // 2. Azzera entry point
-  await req('PATCH', `/flows/${FLOW_ID}`, { operation: null });
+  // 2. Azzera entry point + forza accountability:activity (il flow deve girare con permessi
+  //    di sistema, non dell'utente loggato — con "all" la scrittura su json_export veniva
+  //    bloccata silenziosamente per gli utenti Redazione)
+  await req('PATCH', `/flows/${FLOW_ID}`, { operation: null, accountability: 'activity' });
 
   // 3. Azzera resolve/reject (foreign key constraint)
   for (const op of existingOps) {
