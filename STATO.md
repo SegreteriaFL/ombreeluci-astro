@@ -1,6 +1,33 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-06-24
+**Ultimo aggiornamento:** 2026-07-01
+
+---
+
+## Sessione 2026-07-01 — Backfill date null su articoli WP
+
+| Commit | Area | Descrizione |
+|---|---|---|
+| (questo commit) | **BACKFILL-NULL-DATES** | 68 articoli pubblicati (39 IT + 29 EN) avevano `data_pubblicazione: null`, causando ordinamento scorretto nelle pagine autore e ovunque si usi `sort: -data_pubblicazione`. **Causa:** il backfill del 2026-05-09 (`backfill-dates.mjs`) filtrava solo articoli con `T00:00:00` — gli articoli con NULL venivano saltati perché `null?.endsWith(...)` restituisce `undefined`. A monte: lo script import (`import_to_directus.py`) usa un upsert con `compare_fields` che **non include** `data_pubblicazione`; se in una prima esecuzione la data mancava, nessuna esecuzione successiva la correggeva. **Fix:** nuovo script `scripts/backfill-null-dates.mjs` — recupera i 29 IT con wp_id da `articoli_semantici_FULL_2026.json` (timestamp completo con ore:min:sec), aggiorna il campo IT e la traduzione EN collegata (`articolo_traduzione`). Risultato: 29 IT + 28 EN aggiornati (1 EN senza `articolo_traduzione`), 0 errori. I restanti 10 IT senza data sono articoli creati direttamente in Directus dalla redazione — richiedono data manuale. |
+
+### Articoli ancora senza data (10 IT + EN collegati) — richiedono intervento redazione
+
+Creati direttamente in Directus (nessun wp_id), nessuna fonte automatica per la data:
+
+| Slug | Note |
+|---|---|
+| `ponti` | senza numero rivista |
+| `la-mia-vita-come-la-vostra-recensione` | senza numero rivista |
+| `notte-inquieta-recensione` | senza numero rivista |
+| `volevo-un-te-al-limone-recensione` | con numero rivista |
+| `quel-rito-solito-e-sempre-diverso` | senza numero rivista |
+| `il-weekend-delle-palme-a-bassano-romano` | senza numero rivista |
+| `pero-c-e-un-pero` | senza numero rivista |
+| `un-motivo-in-ogni-cosa` | con numero rivista |
+| `la-piccola-e-si-e-persa-nel-parco-recensione` | senza numero rivista |
+| `le-mie-insicurezze` | senza numero rivista |
+
+Azione: la redazione deve impostare la data in Directus per ciascuno.
 
 ---
 
