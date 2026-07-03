@@ -41,6 +41,19 @@ Creati direttamente in Directus (nessun wp_id), nessuna fonte automatica per la 
 
 Azione: la redazione deve impostare la data in Directus per ciascuno.
 
+### Archivio SSG — nuovo numero non visibile senza rebuild
+
+`/it/archivio/` (e `/en/archive/`) sono pagine **SSG**: vengono generate al build e non riflettono nuovi numeri rivista aggiunti in Directus finché non viene triggerato un rebuild.
+
+**Procedura rebuild manuale Cloudflare Pages:**
+1. dash.cloudflare.com → Workers & Pages → **ombreeluci-staging**
+2. Tab **Deployments** → tre puntini `...` sull'ultimo deployment → **Retry deployment**
+3. Attesa ~3 minuti → il nuovo numero appare in archivio
+
+**Nota:** la pagina del singolo numero (`/it/archivio/oel-N/`) è SSR e si aggiorna in tempo reale senza rebuild.
+
+**Da valutare:** rendere SSR anche `src/pages/it/archivio/index.astro` per eliminare il rebuild manuale ad ogni nuovo numero.
+
 ---
 
 ## Sessione 2026-06-30 — RSS feed, monitoring CF/GA4, fix traduzione EN
