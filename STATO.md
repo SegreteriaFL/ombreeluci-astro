@@ -4,12 +4,14 @@
 
 ---
 
-## Sessione 2026-07-06 — Supporto account Directus
+## Sessione 2026-07-06 — Supporto account Directus + Dropdown tipo numeri_rivista
 
 | Area | Descrizione |
 |---|---|
 | **Account sovrapposti Cristina/Matteo** | Cristina Tersigni vedeva l'account di Matteo Cinti dopo il login. Indagine completa: autenticazione API corretta (JWT con ID Cristina), `/users/me` restituiva Cristina, `autori.directus_user` correttamente mappato, avatar distinti. **Causa:** la finestra incognito non era stata chiusa completamente tra i tentativi — localStorage e sessione Directus persistono all'interno della stessa finestra incognito anche tra tab diversi. La sessione attiva di Matteo veniva riutilizzata. **Fix:** chiudere completamente il browser (non solo la tab), riaprire una nuova finestra privata. **Regola:** in caso di sessione errata su Directus, chiudere del tutto il browser prima di riaprire una finestra incognito. |
 | **Password resettate** | Durante l'indagine sono state resettate le password di Cristina (`CristinaOEL2026!`) e Matteo (`MatteoOEL2026!`). Comunicare a entrambi di cambiarle dal proprio profilo Directus. |
+| **Dropdown tipo numeri_rivista** | Campo `tipo` nella collection `numeri_rivista` configurato con `interface: select-dropdown` via API Directus (`PATCH /fields/numeri_rivista/tipo`). Opzioni: "OEL — Ombre e Luci" → `oel`, "INS — Insieme" → `ins`. I valori nel DB erano già lowercase (`oel`/`ins`) dall'import originale — le choices matchano. |
+| **Fix deploy automatico numeri_rivista** | Il flow "CF Pages rebuild on numeri_rivista publish" aveva un deploy hook CF Pages errato/vecchio (`94f27b2c…`). Aggiornato con il hook corretto (`d3d489e5…`, uguale a `CF_DEPLOY_HOOK` in `.env.local`) via `PATCH /operations/7231841d`. Ora il deploy parte automaticamente su ogni create/update di `numeri_rivista`. |
 
 ---
 
