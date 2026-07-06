@@ -1,6 +1,15 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-07-01
+**Ultimo aggiornamento:** 2026-07-06
+
+---
+
+## Sessione 2026-07-06 — Supporto account Directus
+
+| Area | Descrizione |
+|---|---|
+| **Account sovrapposti Cristina/Matteo** | Cristina Tersigni vedeva l'account di Matteo Cinti dopo il login. Indagine completa: autenticazione API corretta (JWT con ID Cristina), `/users/me` restituiva Cristina, `autori.directus_user` correttamente mappato, avatar distinti. **Causa:** la finestra incognito non era stata chiusa completamente tra i tentativi — localStorage e sessione Directus persistono all'interno della stessa finestra incognito anche tra tab diversi. La sessione attiva di Matteo veniva riutilizzata. **Fix:** chiudere completamente il browser (non solo la tab), riaprire una nuova finestra privata. **Regola:** in caso di sessione errata su Directus, chiudere del tutto il browser prima di riaprire una finestra incognito. |
+| **Password resettate** | Durante l'indagine sono state resettate le password di Cristina (`CristinaOEL2026!`) e Matteo (`MatteoOEL2026!`). Comunicare a entrambi di cambiarle dal proprio profilo Directus. |
 
 ---
 
