@@ -69,7 +69,9 @@ export const onRequest = defineMiddleware(async ({ url, redirect, request, local
       const secretMatch = !!proxySecret && request.headers.get('x-internal-proxy-auth') === proxySecret;
       // Visibilità passiva sullo stato del bug Step B (mismatch secret) senza dover testare
       // manualmente ogni volta — vedi NOTA FAIL-SAFE sotto. Non logga il valore del secret.
-      console.log(JSON.stringify({ tag: 'internal_proxy_auth_check', path, secret_match: secretMatch }));
+      // secret_length_pages: DIAGNOSTICA TEMPORANEA (Step B2, 2026-07-08) — solo .length, mai
+      // il valore. Da rimuovere non appena la causa del mismatch è confermata e risolta.
+      console.log(JSON.stringify({ tag: 'internal_proxy_auth_check', path, secret_match: secretMatch, secret_length_pages: proxySecret.length }));
       // Se il secret non è configurato (dev locale senza CF runtime), non forzare redirect.
       if (proxySecret && !secretMatch) {
         return redirect('https://ombreeluci.it' + path + url.search, 301);

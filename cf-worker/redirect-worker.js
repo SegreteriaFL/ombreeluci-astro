@@ -1167,6 +1167,9 @@ async function forwardToPages(request, env) {
   // Segnala all'app Astro che la richiesta arriva dal Worker (proxy legittimo verso ombreeluci.it),
   // non da un accesso diretto a *.pages.dev (es. Googlebot che indicizza il backend nudo).
   headers.set('X-Internal-Proxy-Auth', env.INTERNAL_PROXY_AUTH);
+  // DIAGNOSTICA TEMPORANEA (Step B2, 2026-07-08) — solo .length, mai il valore. Da rimuovere
+  // non appena la causa del mismatch secret è confermata e risolta.
+  console.log(JSON.stringify({ tag: 'internal_proxy_auth_set', secret_length_worker: String(env.INTERNAL_PROXY_AUTH ?? '').length }));
   // Segnale SEPARATO e incondizionato (non dipende dal secret sopra): dice al middleware
   // "questa richiesta è stata instradata dal Worker" a scopo di anti-loop, non di autenticazione.
   // Anche se il confronto del secret ha un bug, questo header impedisce comunque un redirect
