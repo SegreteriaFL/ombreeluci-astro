@@ -50,16 +50,40 @@ const INSIEME_RE = /^\/insieme\/insieme-n-(\d+)\/?$/;
 // Fix-7: sfogliabili rivista con anno /it/ombre(-e)?-luci-n-N-YYYY-sfogliabile/ → /it/archivio/oel-N/
 const SFOGLIABILE_RE = /^\/it\/ombre(?:-e)?-luci-n-(\d+)-\d{4}-sfogliabile\/?$/;
 
-export const onRequest = defineMiddleware(async ({ url, redirect, request }, next) => {
-  const prodUrl = import.meta.env.PUBLIC_SITE_URL || '';
-  const isProduction = prodUrl.includes('ombreeluci.it');
-  if (!isProduction) {
-    const response = await next();
-    response.headers.set('X-Robots-Tag', 'noindex, nofollow');
-    return response;
-  }
-
+export const onRequest = defineMiddleware(async ({ url, redirect, request, locals }, next) => {
   const path = url.pathname;
+
+  // /api/* è gestito dai singoli endpoint (alcuni sono chiamati direttamente su *.pages.dev
+  // da webhook esterni, es. Directus → /api/algolia-sync). Mai redirect qui.
+  if (!path.startsWith('/api/')) {
+    // Guard-rail anti-loop, indipendente dal secret sotto (vedi cf-worker/redirect-worker.js,
+    // forwardToPages(): header impostato SEMPRE dal Worker, non condizionato al secret).
+    // Se la richiesta è arrivata tramite il Worker, non va MAI reindirizzata, a prescindere
+    // da cosa dice il controllo del secret — altrimenti un bug nel confronto del secret
+    // genera un redirect verso l'URL che il client ha già richiesto (loop infinito lato
+    // client, incidente del 2026-07-08).
+    const arrivedViaWorker = request.headers.get('x-forwarded-host') === 'ombreeluci.it';
+    if (!arrivedViaWorker) {
+      const runtime = (locals as any)?.runtime?.env ?? {};
+      const proxySecret = runtime.INTERNAL_PROXY_AUTH ?? import.meta.env.INTERNAL_PROXY_AUTH ?? '';
+      const secretMatch = !!proxySecret && request.headers.get('x-internal-proxy-auth') === proxySecret;
+      // Visibilità passiva sullo stato del bug Step B (mismatch secret) senza dover testare
+      // manualmente ogni volta — vedi NOTA FAIL-SAFE sotto. Non logga il valore del secret.
+      console.log(JSON.stringify({ tag: 'internal_proxy_auth_check', path, secret_match: secretMatch }));
+      // Se il secret non è configurato (dev locale senza CF runtime), non forzare redirect.
+      if (proxySecret && !secretMatch) {
+        return redirect('https://ombreeluci.it' + path + url.search, 301);
+      }
+    }
+    // NOTA FAIL-SAFE (2026-07-08): questo guard-rail nasconde lo stato reale del bug del secret
+    // INTERNAL_PROXY_AUTH (mismatch non ancora diagnosticato, Step B). Il traffico instradato
+    // dal Worker non raggiunge più il confronto del secret (arrivedViaWorker=true lo esclude
+    // sempre) — quindi da produzione NON si può più osservare se il secret combacia o no: il
+    // comportamento visibile è identico in entrambi i casi ("nessun redirect per il Worker").
+    // Verificare che il bug sia risolto richiede un test esplicito e diretto contro pages.dev
+    // (bypassando il Worker) con l'header X-Internal-Proxy-Auth corretto — non basta osservare
+    // che produzione funziona, perché ora funzionerebbe comunque anche col bug presente.
+  }
 
   const archivioRedirect = ARCHIVIO_REDIRECTS[path];
   if (archivioRedirect) return redirect(archivioRedirect, 301);
