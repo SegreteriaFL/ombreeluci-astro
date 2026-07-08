@@ -50,19 +50,16 @@ const INSIEME_RE = /^\/insieme\/insieme-n-(\d+)\/?$/;
 // Fix-7: sfogliabili rivista con anno /it/ombre(-e)?-luci-n-N-YYYY-sfogliabile/ → /it/archivio/oel-N/
 const SFOGLIABILE_RE = /^\/it\/ombre(?:-e)?-luci-n-(\d+)-\d{4}-sfogliabile\/?$/;
 
-export const onRequest = defineMiddleware(async ({ url, redirect, request, locals }, next) => {
-  const path = url.pathname;
-
-  // /api/* è gestito dai singoli endpoint (alcuni sono chiamati direttamente su *.pages.dev
-  // da webhook esterni, es. Directus → /api/algolia-sync). Mai redirect qui.
-  if (!path.startsWith('/api/')) {
-    const runtime = (locals as any)?.runtime?.env ?? {};
-    const proxySecret = runtime.INTERNAL_PROXY_AUTH ?? import.meta.env.INTERNAL_PROXY_AUTH ?? '';
-    // Se il secret non è configurato (dev locale senza CF runtime), non forzare redirect.
-    if (proxySecret && request.headers.get('x-internal-proxy-auth') !== proxySecret) {
-      return redirect('https://ombreeluci.it' + path + url.search, 301);
-    }
+export const onRequest = defineMiddleware(async ({ url, redirect, request }, next) => {
+  const prodUrl = import.meta.env.PUBLIC_SITE_URL || '';
+  const isProduction = prodUrl.includes('ombreeluci.it');
+  if (!isProduction) {
+    const response = await next();
+    response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+    return response;
   }
+
+  const path = url.pathname;
 
   const archivioRedirect = ARCHIVIO_REDIRECTS[path];
   if (archivioRedirect) return redirect(archivioRedirect, 301);
