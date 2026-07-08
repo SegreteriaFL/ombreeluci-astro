@@ -1164,6 +1164,9 @@ async function forwardToPages(request, env) {
 
   const headers = new Headers(request.headers);
   headers.delete('cf-connecting-ip');
+  // Segnala all'app Astro che la richiesta arriva dal Worker (proxy legittimo verso ombreeluci.it),
+  // non da un accesso diretto a *.pages.dev (es. Googlebot che indicizza il backend nudo).
+  headers.set('X-Internal-Proxy-Auth', env.INTERNAL_PROXY_AUTH);
   // Altrimenti il client manda Host: ombreeluci.it e la subrequest verso *.pages.dev fallisce o va storta.
   headers.delete('Host');
 
