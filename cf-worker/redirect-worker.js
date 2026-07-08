@@ -1175,6 +1175,12 @@ async function forwardToPages(request, env) {
       method: request.method,
       headers,
       body: ['GET', 'HEAD'].includes(request.method) ? undefined : request.body,
+      // Senza questo, fetch() segue in automatico un eventuale 301 di Pages: la subrequest
+      // risultante punterebbe a ombreeluci.it (stessa zona del Worker), Cloudflare la instrada
+      // fuori dal Worker per prevenire loop, e finisce su un origin senza certificato → 526.
+      // Con 'manual', il 301 arriva qui come Response normale (Location già assoluto verso
+      // ombreeluci.it, impostato dal middleware) e va solo inoltrato al client com'è.
+      redirect: 'manual',
     })
   );
 }
