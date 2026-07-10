@@ -1,6 +1,35 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-07-06
+**Ultimo aggiornamento:** 2026-07-10
+
+---
+
+## Sessione 2026-07-08/09 — Incidente staging noindex → redirect condizionato (rollback)
+
+**Esito:** rollback a `e219515e` (stato pre-sessione). Sito stabile. Approccio "redirect condizionato" **abbandonato** in attesa di diagnosi più approfondita. La strategia in produzione resta il **noindex statico** (`X-Robots-Tag: noindex, nofollow` in `middleware.ts` per gli host non-produzione).
+
+### Obiettivo tentato
+Impedire l'indicizzazione di Google sul backend nudo `*.pages.dev`. Si voleva sostituire il `X-Robots-Tag: noindex` statico su staging con un **301 condizionato** verso `ombreeluci.it`, mantenendo però raggiungibile Pages per le richieste legittime instradate dal CF Worker.
+
+### Cosa è andato storto (due incidenti in produzione)
+1. **526** — `fetch()` nel Worker seguiva automaticamente il 301 di Pages: la subrequest verso `ombreeluci.it` (stessa zona del Worker) veniva instradata fuori dal Worker per prevenire loop e finiva su un origin senza certificato. Mitigato con `redirect: 'manual'` nella subrequest (`forwardToPages`).
+2. **Loop di redirect infinito** lato client quando il confronto del secret falliva su richieste già instradate dal Worker (`Location` identico alla richiesta originale). Tentativo di guard-rail: header `X-Forwarded-Host` impostato **incondizionatamente** dal Worker, letto dal middleware per non reindirizzare mai le richieste dal Worker a prescindere dal secret.
+3. **Stub anomalo** su route SSG (`/it/archivio/`, `/it/rubriche/recensioni/`) — inizialmente attribuito a un deploy via `deploy_hook` con output diverso da una build pulita dello stesso commit. **Ipotesi falsificata:** il problema si è riprodotto anche con deploy via `git push` normale.
+
+### Rollback e stato finale
+- `ba2a223a` — revert emergency: `middleware.ts` ripristinato a stato pre-sessione (priorità stabilità sito).
+- `9e66db17` — reapply del guard-rail (Step B1/B2), poi di nuovo revertato.
+- `d632c920` — secondo rollback emergency a `e219515e`.
+- **Diff netto residuo (`e219515e..d632c920`):** solo `cf-worker/redirect-worker.js` (+19 righe). Il Worker conserva `X-Internal-Proxy-Auth`, `X-Forwarded-Host: ombreeluci.it`, `redirect: 'manual'` e un **log diagnostico temporaneo** (`internal_proxy_auth_set`, solo `.length` del secret, mai il valore). Il `middleware.ts` NON legge più questi header (rollbackato) — sono innocui ma orfani.
+
+### Problemi aperti (da diagnosticare prima di ritentare)
+- **Mismatch secret `INTERNAL_PROXY_AUTH`** tra Worker (`env.INTERNAL_PROXY_AUTH`) e Pages (`runtime.env.INTERNAL_PROXY_AUTH`) — il confronto fallisce anche con header corretto (Step B, non diagnosticato). Il log `.length` in `redirect-worker.js` serve a osservarlo passivamente; **rimuovere il log una volta risolto**.
+- **Stub anomalo su SSG riproducibile anche via `git push`** — causa non identificata, non è (solo) il `deploy_hook`.
+
+### Regole apprese
+- Per lo staging noindex: **preferire il noindex statico** al redirect condizionato finché il mismatch secret e lo stub SSG non sono compresi.
+- Un `fetch()` verso la stessa zona CF che segue un 301 automatico → rischio 526/loop: usare sempre `redirect: 'manual'` nelle subrequest del Worker.
+- Un guard-rail anti-loop deve essere **indipendente dal secret** (header separato tipo `X-Forwarded-Host`), così un bug nel secret non trasforma il redirect in loop.
 
 ---
 
