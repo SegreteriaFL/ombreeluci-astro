@@ -1,6 +1,17 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-07-10
+**Ultimo aggiornamento:** 2026-07-13
+
+---
+
+## Sessione 2026-07-13 — Sanificazione segreti in .claude/settings + finding sicurezza
+
+| Area | Descrizione |
+|---|---|
+| **Allowlist settings sanificata** (`d7f405b4`) | I file `.claude/settings.json` e `.claude/settings.local.json` contenevano, nelle voci dell'allowlist dei permessi, un **token Directus** live (ripetuto ~79 volte), un JWT di sessione e password utente in chiaro — salvati automaticamente dai comandi `curl` approvati nelle sessioni precedenti. Il repo è **pubblico**. Token/JWT/password sostituiti con placeholder (`REDACTED_*`) e rimosse le voci meta/diagnostiche contenenti segreti prima di commit+push. **Verificato:** il token Directus non è mai stato committato in nessun punto della history (nessuna esposizione pubblica). |
+| **⚠️ Finding aperto — password in history pubblica** | Le password di Cristina e Matteo, resettate nella sessione 2026-07-06, sono in chiaro nella voce "Password resettate" della sessione 2026-07-06 (più sotto in questo file) e nel commit pubblico `31df8bd7`. Da considerare **compromesse**. Rimediazione decisa: nessun intervento immediato su richiesta utente (2026-07-13). Azione raccomandata: far cambiare le due password in Directus — così le stringhe esposte diventano inutili, a prescindere dalla history git (un rewrite della history su repo pubblico condiviso non è giustificato se le credenziali vengono ruotate). |
+
+**Regola operativa:** l'harness registra i comandi Bash approvati nell'allowlist di `.claude/settings*.json`. **Mai passare segreti (token, password, JWT) come letterali sulla riga di comando** — usare variabili d'ambiente o file gitignored, altrimenti finiscono nell'allowlist e, essendo il repo pubblico, rischiano l'esposizione. Il token Directus va letto da `.env`/`.env.local`, non incollato nei `curl`.
 
 ---
 

@@ -113,8 +113,10 @@ articolo EN sbagliato: { lang: 'en', categoria_menu: 'family' }   ← rompe le r
 
 **Conseguenza pratica:** ogni pipeline di traduzione/importazione deve copiare `categoria_menu` dall'articolo IT sorgente, non tradurlo. La route `en/category/[slug].astro` e le future `es/category/[slug].astro` si basano su `categorie.json` per mappare `'famiglia'` → `'family'` → `'familia'` — il DB non deve sapere nulla di queste label.
 
-**I 14 slug canonici validi per `categoria_menu` e `categoria_menu_2` (aggiornato 2026-05-08, CLASSIF-01 + TEMA-02):**
-`catechesi`, `cultura`, `educazione-e-formazione`, `famiglia`, `fede-e-luce`, `lavoro`, `ombre-e-luci`, `personaggi-che-ispirano`, `progetti`, `salute`, `scuola`, `spiritualita`, `sport`, `tempo-libero`
+**I 13 slug canonici validi per `categoria_menu` e `categoria_menu_2` (aggiornato 2026-05-13, CLASSIF-01 + TEMA-02 + merge catechesi):**
+`cultura`, `educazione-e-formazione`, `famiglia`, `fede-e-luce`, `lavoro`, `ombre-e-luci`, `personaggi-che-ispirano`, `progetti`, `salute`, `scuola`, `spiritualita`, `sport`, `tempo-libero`
+
+**`catechesi` è stato fuso in `spiritualita` il 2026-05-13** (commit `35b59cb2`, UX-REDAZIONE-01). Non è più uno slug valido: `categorie.json` non lo contiene e `src/middleware.ts` ha redirect 301 permanenti `/it/categoria/catechesi → /it/categoria/spiritualita/` e `/en/category/catechesis → /en/category/spirituality/`. Fonte di verità per gli slug validi è **`src/data/categorie.json`** (13 categorie + `da-categorizzare`), non questa lista.
 
 `da-categorizzare` è valido solo per `categoria_menu` (tema primario), non per `categoria_menu_2`.
 
