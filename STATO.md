@@ -4,6 +4,16 @@
 
 ---
 
+## Sessione 2026-07-13 — Fix flow "Esporta per traduzione" (403 tema_label per Redazione)
+
+| Area | Descrizione |
+|---|---|
+| **TRANS-FLOW-EXPORT-403** | Il flow "Esporta per traduzione" (`f53500c6`) non popolava `json_export` per gli utenti **Redazione**: cliccando il pulsante il campo restava vuoto. **Causa:** l'operation `Leggi articolo` (item-read) interrogava il campo `tema_label`, **rimosso** con CLASSIF-01 (2026-05-08) e non più nei permessi di lettura del ruolo Redazione. L'item-read falliva con `403 FORBIDDEN — You don't have permission to access field "tema_label"`, interrompendo la catena prima della scrittura. Funzionava con utenti admin (che leggono tutti i campi), da qui la difficoltà a diagnosticarlo. Nota: `accountability: activity` **non** basta a bypassare i permessi di campo sull'item-read per un trigger non-admin. **Fix:** rimosso `tema_label` dai `fields` dell'op1 e dal `_copy_invariant` dello script op2 (`Costruisci JSON`), via PATCH Directus. Aggiornato anche `scripts/setup-export-flow.mjs` (rimosso `tema_label` + commento anti-regressione). **Verificato** creando un utente Redazione temporaneo: prima del fix trigger→403 e campo vuoto; dopo il fix trigger→200 e `json_export` scritto (JSON valido, leggibile dal ruolo Redazione). Utente temp eliminato. |
+
+**Regola:** ogni campo interrogato dall'item-read di un flow con trigger manuale deve essere leggibile dal ruolo che clicca il pulsante. Quando si rimuove un campo dalla tassonomia (come `tema_label`), va rimosso anche dalle query dei flow, altrimenti i non-admin ottengono 403 silenziosi.
+
+---
+
 ## Sessione 2026-07-13 — Sanificazione segreti in .claude/settings + finding sicurezza
 
 | Area | Descrizione |

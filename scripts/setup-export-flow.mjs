@@ -94,7 +94,6 @@ const BUILD_SCRIPT = `module.exports = async function(data) {
     _copy_invariant: {
       categoria_menu: a.categoria_menu || null,
       forma: a.forma || null,
-      tema_label: a.tema_label || null,
       ruolo_editoriale: a.ruolo_editoriale || null,
       immagine_copertina: (a.immagine_copertina && a.immagine_copertina.id) || null,
       autore: (a.autore && a.autore.id) || null,
@@ -153,10 +152,13 @@ async function main() {
       collection: 'articoli',
       key: '{{$trigger.body.keys[0]}}',
       query: {
+        // NB: non interrogare 'tema_label' — rimosso (CLASSIF-01, 2026-05-08) e non
+        // leggibile dal ruolo Redazione. La sua presenza qui fa fallire l'item-read con
+        // 403 per gli utenti non-admin, lasciando json_export vuoto (incidente 2026-07-13).
         fields: [
           'id', 'slug', 'lang', 'titolo', 'sottotitolo',
           'seo_title', 'seo_description', 'corpo', 'didascalia_copertina',
-          'categoria_menu', 'forma', 'tema_label', 'ruolo_editoriale',
+          'categoria_menu', 'forma', 'ruolo_editoriale',
           'data_pubblicazione',
           'immagine_copertina.id',
           'autore.id',
