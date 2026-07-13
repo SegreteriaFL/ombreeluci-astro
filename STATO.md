@@ -4,6 +4,16 @@
 
 ---
 
+## Sessione 2026-07-13 — Diagnosi "articolo non si aggiorna online" = cache browser (nessun bug)
+
+| Area | Descrizione |
+|---|---|
+| **CACHE-DIAG** | Segnalazione: un articolo (`7480c35c`, *Sport, solidarietà e inclusione…*) sembrava non aggiornarsi — corpo e foto "diversi" tra Directus e online. **Verifica:** confronto simultaneo Directus vs produzione vs staging → **tutto identico** (stessa `immagine_copertina` `2189e9e3`, 16/16 frasi del corpo coincidenti; `data_aggiornamento` DB = 11:37 dello stesso giorno). Nessun service worker (`/sw.js`, `/service-worker.js` → 404). **Causa:** cache del **browser** dell'utente (in incognito la pagina era corretta). Risolto con hard reload / incognito. **Nessuna modifica a codice o dati.** |
+
+**Nota architetturale utile per future segnalazioni "la mia modifica non compare online":** le pagine articolo escono con `Cache-Control: s-maxage=3600, stale-while-revalidate=86400` → Cloudflare può servire la pagina in cache fino a **~1 ora** (e una copia stale fino a 24h mentre rigenera in background); nodi edge diversi possono avere versioni di momenti diversi. **Percorso di diagnosi:** (1) confronta il contenuto reale Directus con l'URL online **con cache-bust** (`?v=xxx`) — se coincidono, il backend è a posto; (2) test in **incognito** → se corretto, era cache del browser; se ancora vecchio, è la cache CDN → hard reload, attesa, oppure flow "Revalida cache articolo" / purge Cloudflare. Campi utili: `articoli` non ha `date_created`/`date_updated` di sistema ma i campi `data_creazione` e `data_aggiornamento`.
+
+---
+
 ## Sessione 2026-07-13 — Fix flow "Esporta per traduzione" (403 tema_label per Redazione)
 
 | Area | Descrizione |
