@@ -1,6 +1,16 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-07-13
+**Ultimo aggiornamento:** 2026-07-14
+
+---
+
+## Sessione 2026-07-14 — Setup nuova postazione (segreteria) + onboarding Claude Code
+
+| Area | Descrizione |
+|---|---|
+| **Setup ambiente** | Repo clonato in locale (`/Users/met/Documents/Claude`) su un Mac non precedentemente configurato per il progetto. Autenticazione GitHub configurata via Personal Access Token (classic, scope repo), salvato nel Keychain macOS tramite `git credential-osxkeychain` — non in chiaro su disco. Push verificato funzionante (`git push --dry-run`). |
+| **Stato setup — non ancora fatto** | `npm install` non eseguito, `.env`/`.env.local` non creato su questa macchina (mancano `DIRECTUS_TOKEN`, `CF_DEPLOY_HOOK`, credenziali Algolia/Mailchimp — vedi `.env.example`). Da fare prima di lanciare `npm run dev` o script che richiedono queste variabili. |
+| **Onboarding** | Documentazione di progetto (CLAUDE.md, WORKING.md, README.md, STATO.md per intero) letta e revisionata per contesto. Nessuna modifica al codice in questa sessione. |
 
 ---
 
