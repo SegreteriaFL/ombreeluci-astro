@@ -1,6 +1,6 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-07-14
+**Ultimo aggiornamento:** 2026-07-15
 
 ---
 
@@ -11,6 +11,22 @@
 | **Setup ambiente** | Repo clonato in locale (`/Users/met/Documents/Claude`) su un Mac non precedentemente configurato per il progetto. Autenticazione GitHub configurata via Personal Access Token (classic, scope repo), salvato nel Keychain macOS tramite `git credential-osxkeychain` — non in chiaro su disco. Push verificato funzionante (`git push --dry-run`). |
 | **Stato setup — non ancora fatto** | `npm install` non eseguito, `.env`/`.env.local` non creato su questa macchina (mancano `DIRECTUS_TOKEN`, `CF_DEPLOY_HOOK`, credenziali Algolia/Mailchimp — vedi `.env.example`). Da fare prima di lanciare `npm run dev` o script che richiedono queste variabili. |
 | **Onboarding** | Documentazione di progetto (CLAUDE.md, WORKING.md, README.md, STATO.md per intero) letta e revisionata per contesto. Nessuna modifica al codice in questa sessione. |
+
+---
+
+## Sessione 2026-07-15 — Pubblicazione programmata articoli (SCHED-PUB-01, ATTIVO)
+
+| Area | Descrizione |
+|---|---|
+| **SCHED-PUB-01** | Aggiunta la **pubblicazione programmata** degli articoli, richiesta dalla redazione. Prima non era possibile: le query filtrano solo `stato=published` senza controllare la data, quindi un articolo pubblicato con data futura andava online subito. **Soluzione (additiva e reversibile):** nuovo campo `articoli.data_pubblicazione_programmata` (dateTime nullable) + flow Directus **"Pubblicazione programmata"** (`bb58342e`, trigger **schedule** cron `*/15 * * * *`, `accountability: activity`). Catena: `item-read` (draft + campo `_nnull` e `_lte $NOW`) → `exec` (estrai id) → `condition` (count>0) → `item-update` (`stato=published`, `data_pubblicazione=now`, azzera il campo). Il rebuild del sito parte automaticamente dal flow event esistente **"Rebuild CF Pages on Publish"**. **Uso redazione:** articolo in Bozza + compilare `data_pubblicazione_programmata` → pubblicato entro ≤15 min da quell'ora; campo vuoto = pubblicazione manuale come prima. |
+
+**Sicurezza / reversibilità:**
+- Design **additivo**: nessun campo/flow esistente modificato. Solo i draft con il nuovo campo valorizzato vengono toccati — i 29 draft "normali" (campo nullo) restano intatti (verificato con articolo-esca).
+- **Fail-safe**: se il flow fallisce, al massimo un articolo non si pubblica in orario — mai un danno al sito.
+- **REVERT completo:** `node scripts/teardown-scheduled-publish.mjs` elimina flow + campo e riporta Directus allo stato precedente. Setup ricreabile con `scripts/setup-scheduled-publish.mjs` (commit `56878f4b`).
+- **Verificato end-to-end (test live 2026-07-15):** articolo-esca programmato nel passato → pubblicato dal flow entro 1 min (stato→published, data_pubblicazione impostata, campo azzerato), poi esca eliminata. Filtro testato: seleziona solo l'esca scaduta, ignora data futura e tutti i draft normali.
+
+**Nota:** Directus è unico e condiviso tra prod e staging → il flow non è isolabile per ambiente; il "test su staging" è stato fatto creando il flow disattivato + articolo-esca, poi attivazione supervisionata.
 
 ---
 
