@@ -100,6 +100,20 @@ const cs = await getContenutiStatici('chi-siamo'); // fetch per gruppo
 
 ---
 
+## Pubblicazione programmata articoli (SCHED-PUB-01, attivo 2026-07-15)
+
+La pubblicazione futura NON è gestita dal frontend: **tutte le query filtrano solo `stato === 'published'`**, non controllano mai `data_pubblicazione` (che resta solo etichetta + ordinamento). Un articolo diventa visibile appena `stato = published`.
+
+Lo scheduling è gestito interamente in Directus da un flow, senza modifiche al codice del sito:
+- Campo `articoli.data_pubblicazione_programmata` (dateTime nullable): se valorizzato su un articolo in `draft`, il flow lo pubblica a quell'ora.
+- Flow **"Pubblicazione programmata"** (`bb58342e`, trigger schedule cron `*/15`, `accountability: activity`): seleziona `stato=draft` + campo `_nnull` e `_lte $NOW` → imposta `stato=published`. Il rebuild parte dal flow event esistente "Rebuild CF Pages on Publish".
+
+**Invarianti da non rompere:**
+- Non aggiungere un filtro `data_pubblicazione <= now` alle query del sito: lo scheduling è delegato al flow, non al frontend. Se un giorno lo si volesse spostare nel frontend, ricordare che le pagine SSG (archivio) + cache CDN richiederebbero un rebuild schedulato.
+- Non rimuovere il campo `data_pubblicazione_programmata` né il flow senza il teardown: `scripts/setup-scheduled-publish.mjs` / `scripts/teardown-scheduled-publish.mjs`. Il flow è **fail-safe** (se fallisce, l'articolo non si pubblica in orario — nessun danno al sito).
+
+---
+
 ## INVARIANTE — categoria_menu è sempre slug IT
 
 **`categoria_menu` non è un campo localizzato. È la chiave della tassonomia interna.**
