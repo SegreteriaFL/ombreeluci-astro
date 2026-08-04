@@ -12,6 +12,90 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 -->
 ------
 
+## Segnalazioni 2026-07-28
+
+### RISOLTO — /en/category/ombre-e-luci/ 404 invece del redirect
+**Desiderata:** "sistema tutto quello che c'è da sistemare... e che puoi sistemare facilmente."
+
+**PRIMA:** `astro.config.mjs` aveva un redirect statico `/en/category/ombre-e-luci/` → `/it/categoria/ombre-e-luci/`, ma la route dinamica `src/pages/en/category/[slug].astro` intercettava il path prima (stesso pattern letterale), e il suo fallback per categorie senza articoli EN reindirizzava genericamente a `/en/` — comportamento osservato in produzione: 404 secco (non ancora chiarito il motivo esatto del 404 invece del 302 atteso a `/en/`, ma irrilevante: il redirect statico non veniva comunque mai raggiunto).
+
+**Intervento:** `src/pages/en/category/[slug].astro` — il fallback per categorie EN senza articoli ora reindirizza a `/it/categoria/${itSlug}/` invece che genericamente a `/en/` (fix generale, vale per qualsiasi categoria futura senza articoli EN, non solo `ombre-e-luci`). Rimossi da `astro.config.mjs` i 2 redirect statici specifici per `ombre-e-luci`, ora ridondanti e mai comunque raggiunti.
+
+**DOPO:** build locale pulita (`npm run build`, nessun errore/warning). **Non ancora deployato** — serve commit + push su main per il deploy automatico CF Pages. In attesa di conferma.
+
+### VERIFICATO/FIXATO — Altri due webhook Directus con lo stesso pattern di fallimento silenzioso
+Seguendo il sospetto lasciato aperto ieri ("probabilmente ha bloccato anche altri webhook").
+
+- **Sync metadati IT→EN** (`bb1e90af`): aveva una condizione `check_it` (`$trigger.payload.lang _null:true`) che bloccava l'esecuzione per qualunque update parziale che non tocca il campo `lang` — cioè quasi ogni edit reale della redazione. L'endpoint (`sync-metadata.ts`) valida già `lang` internamente (riga 53), quindi la condizione era ridondante oltre che rotta. Rewired: trigger → direttamente alla request. **Verificato end-to-end 2 volte** (toggle `in_evidenza` true/false su un articolo reale, propagazione confermata su EN in ~5s).
+- **Sync didascalia IT→EN** (`6fda6c8a`): aveva `accountability: "all"` invece di `"activity"` — violazione della regola già documentata in `STATO.md` (sessione 2026-07-01) dopo un incidente identico sul flow di traduzione. Corretto a `"activity"`. Endpoint testato manualmente con secret corretto: funziona (`{"ok":true,"action":"translated",...}`). **Non verificato con certezza end-to-end via trigger reale** — i tentativi di conferma via CF Analytics erano inconcludenti per via del ritardo di aggregazione dei log (diversi minuti, non tempo reale), quindi non ho potuto confermare nella finestra di test se il trigger reale chiama davvero l'endpoint dopo il fix. **Da verificare**: la prossima volta che la redazione modifica una didascalia IT già tradotta, controllare entro 1-2 minuti se la versione EN si aggiorna.
+
+### APERTO — /en/category/ombre-e-luci/ risponde 404 invece del redirect configurato
+**Desiderata:** verifica utente su GSC "Pagina con reindirizzamento" (nuovo motivo indicizzazione) → durante la verifica trovato questo bug a margine.
+
+**PRIMA:** `astro.config.mjs:72-73` ha `'/en/category/ombre-e-luci/': '/it/categoria/ombre-e-luci/'` (categoria senza articoli EN, redirect verso IT). Testato live 2026-07-28: `curl https://ombreeluci.it/en/category/ombre-e-luci/` → **404**, non 301. Confermato anche via GSC URL Inspection API: `coverageState: "Not found (404)"`, crawlato l'ultima volta 2026-07-26.
+
+**Causa probabile (non ancora confermata con fix):** la route dinamica `src/pages/en/category/[slug].astro` intercetta il path prima che il redirect statico di `astro.config.mjs` possa applicarsi, e la pagina stessa risponde 404 per mancanza di articoli nella categoria invece di lasciar passare il redirect.
+
+**Non ancora fixato** — in attesa di conferma per procedere.
+
+### Verifica GSC "Pagina con reindirizzamento" (nuovo motivo, 2026-07-28)
+[x] **Verificato, non è un bug** — testato via Search Console URL Inspection API: le pagine canoniche (`/it/…/`, `/en/…/` con slash finale) risultano `PASS — Submitted and indexed`. Le varianti senza slash finale o senza prefisso lingua (es. `/it/il-mio-ritiro-spirituale-a-morlupo` senza `/`, `/chi-siamo` senza `/it/`) risultano `NEUTRAL — Page with redirect`, comportamento corretto e voluto (redirect di canonicalizzazione già esistenti, Rule R + astro.config.mjs). Nessuna azione necessaria su questo fronte specifico.
+
+## Segnalazioni 2026-07-27
+
+### RISOLTO — Proxy WordPress legacy su Aruba rimosso dal Worker
+**Desiderata utente:** "il redirect su Aruba possiamo abolirlo appena puoi" → poi, dopo aver visto i numeri del traffico, "direi di sì" (conferma a procedere anche su wp-content/wp-json + deploy).
+
+**PRIMA:** `cf-worker/redirect-worker.js` proxava verso un WordPress live su Aruba (IP `89.46.105.36`) tutte le richieste su `/wp-admin`, `/wp-content`, `/wp-includes`, `/wp-json`, `/feed`, `wp-login.php`, `wp-cron.php`, `xmlrpc.php`. Nessun audit del traffico reale era mai stato fatto prima di questa sessione.
+
+**Intervento:**
+1. Audit CF Analytics 7gg (21-27/7) per path — vedi tabella sotto.
+2. Branch dedicato `fix/aruba-wp-proxy-cleanup` (mai su main, per [[feedback_branch_strategy]]).
+3. Rimossi `/wp-admin`, `/wp-includes`, `wp-login.php`, `wp-cron.php`, `xmlrpc.php` (zero traffico legittimo, solo scanner) + `/feed` (bug: intercettato qui prima del redirect Astro verso `/it/rss.xml`, causava 403 invece di 301).
+4. Su conferma esplicita dopo revisione dati: rimossi anche `/wp-content` e `/wp-json`, pur avendo traffico reale non-scanner (vedi tabella) — decisione: accettabile lasciar decadere questi URL residui piuttosto che mantenere WordPress pubblico vivo solo per servirli.
+5. Sintassi verificata (`node --check`), poi `npx wrangler deploy` da `cf-worker/`.
+
+**Traffico misurato (7gg, campione top-50/giorno, sottostima della coda lunga):**
+
+| Path | Hit/sett. | Natura | Esito |
+|---|---|---|---|
+| `wp-login.php`, `wp-admin/*`, `wp-includes/*`, `xmlrpc.php`, `wp-cron.php` | ~centinaia totali | Scanner/bot (brute-force, probe `.php` inventati tipo `pwnd-1/kurd.php`) | Rimosso, zero perdita |
+| `/feed` (bare) | n/a | Bug: 403 invece di redirect 301 | Fix — ora raggiunge il redirect Astro |
+| `wp-content/uploads/*.jpg\|png\|webp` (86 file distinti) | 838 | Reale — hotlink/backlink storici | Rimosso su conferma esplicita — questi URL ora 404 |
+| `wp-json/oembed/1.0/embed` | 944 | Probabile reale — anteprima link esterni | Rimosso su conferma esplicita — anteprime per vecchi URL OeL smettono di funzionare |
+| `wp-json/wp/v2/users` | 27 | Malevolo — enumerazione utenti | Rimosso, positivo per sicurezza |
+| `wp-json/wp/v2/posts*`, `batch/v1`, bare | 131 | Ambiguo | Rimosso |
+
+**DOPO — verificato con smoke test post-deploy (2026-07-27, deploy `879f73cc`):**
+- Home, articolo IT, articolo EN: 200 invariato.
+- `/feed`: **301 → `/it/rss.xml`** (era 403 da WordPress — bug fixato).
+- `wp-admin/`, `xmlrpc.php`, `wp-content/uploads/*`, `wp-json/oembed/*`: **404 pulito da Astro/Pages**, nessun contatto con Aruba (prima risposta 403 subito dopo il deploy era cache edge stale, sparita al retest con cache-bust).
+- Nessuna regressione osservata sul resto del sito.
+
+### RISOLTO — Algolia sync (3 bug indipendenti sovrapposti, causa reale = Cloudflare Bot Fight Mode)
+[x] **RISOLTO 2026-07-27** — la Flow "Algolia sync su pubblicazione" (id `c09762f8`) non sincronizzava mai la ricerca del sito dopo la pubblicazione iniziale di un articolo. Tre bug indipendenti si sommavano:
+   1. **Secret disallineato**: `ALGOLIA_SYNC_SECRET` sulla Flow non combaciava con quello su CF Pages → 401. Fix: secret rigenerato e allineato su entrambi (richiede un redeploy CF Pages per essere letto — i secret impostati via `wrangler pages secret put` si applicano solo alle build successive, non a quella già in esecuzione).
+   2. **URL sbagliato**: la Flow chiamava `ombreeluci-staging.pages.dev` **direttamente**, bypassando il Worker — a differenza della Flow gemella "Sync metadati IT→EN" che chiama correttamente `ombreeluci.it`. Le variabili d'ambiente CF Pages "production" a quanto pare non sono garantite sull'URL nudo `*.pages.dev`. Fix: URL allineato a `https://ombreeluci.it/api/algolia-sync`.
+   3. **Causa reale e principale — Cloudflare Bot Fight Mode**: ogni richiesta del server Directus (VPS Hetzner, IP `159.69.196.64`, ASN 24940) verso `/api/*` su `ombreeluci.it` riceveva un `managed_challenge` (confermato nei log Firewall CF, `source: botFight`) — una sfida JS che un server non può risolvere. La Flow non riceveva mai una vera risposta dall'endpoint, qualunque fosse secret/URL. **Probabilmente ha bloccato silenziosamente anche le altre Flow con lo stesso pattern (sync-didascalia, e sync-metadata quando triggerata realmente da Directus, non testata a mano da rete esterna).** Fix: creata IP Access Rule Cloudflare (whitelist) per `159.69.196.64` a livello zona — bypassa Bot Fight Mode per il VPS, non cambia nulla per il resto del traffico.
+   4. Bonus: rimossa anche l'operation condizionale "Check if published" nella Flow — aveva un filtro vuoto mai configurato dal 09/05/2026, bloccava l'esecuzione a monte indipendentemente dagli altri 3 bug. Il controllo pubblicato/non pubblicato è comunque già fatto correttamente dentro l'endpoint (`algolia-sync.ts`), quindi l'operation era ridondante oltre che rotta.
+   **Verificato end-to-end**: PATCH reale su un articolo → propagazione automatica su Algolia in pochi secondi, confermato con marker di test. Rilanciato reindex completo (`node scripts/algolia/index-all.mjs`): 6953 articoli + 355 autori + 206 numeri, per sanare lo stale accumulato.
+
+### Jean Vanier "Le sacrament de la tendresse" — foto e dimensioni
+[x] **Foto vecchia in ricerca**: causa = ALGOLIA-SYNC-401 sopra. Fix stopgap: record Algolia corretto a mano 2026-07-27 (ora punta a `86d48925-...`, l'immagine con i fiori). Si sistemerà da solo per i prossimi articoli quando ALGOLIA-SYNC-401 sarà risolto.
+[ ] **Dimensione foto "sbagliata" nonostante editing Photopea**: da verificare visivamente — l'immagine di copertina viene sempre servita con crop fisso `?width=400&height=280&fit=cover` in ricerca/liste (aspect ratio 10:7). Se la foto originale ha un aspect ratio molto diverso (es. verticale), il crop automatico può tagliare il soggetto in modo indesiderato anche se il file caricato è già ridimensionato correttamente in Photopea — non è detto sia un bug, potrebbe essere il comportamento atteso del crop "cover". Verificare con Cristina quale specifica visualizzazione (articolo, card, ricerca) mostra la foto storta, poi decidere se serve un punto di focus/crop manuale sull'immagine invece del cover automatico.
+
+### Traduzione De Paolis non pubblicata nonostante flow "completo"
+[x] **RISOLTO 2026-07-27** — articolo IT `047749e5` (la-disabilita-non-e-un-superpotere...): il campo `json_traduzione` incollato dalla redazione era JSON non valido (parentesi graffa doppia in apertura + escaping rotto delle virgolette negli attributi `href` di `didascalia_copertina`). La flow "Import traduzione da JSON" fallisce silenziosamente su `JSON.parse` senza mostrare errore all'utente — stesso pattern sistemico di ALGOLIA-SYNC-401 sopra: **le Flow Directus non hanno un meccanismo per segnalare errori a chi ha innescato l'azione**. Fix: JSON ricostruito manualmente e valido, riscritto sul campo → la flow è ripartita da sola (trigger `items.update`) e ha creato l'articolo EN `2fbb0166` (slug `disability-is-not-a-superpower-or-an-image-problem`), pubblicato, linkato bidirezionalmente. Verificato live (200 su IT ed EN).
+   // Da valutare: aggiungere un campo tipo `errore_traduzione` che la flow scrive quando il parse fallisce, così l'errore è visibile in Directus invece di scoprirlo mesi dopo via ticket.
+
+### Foto EN "il mio ritiro spirituale a Morlupo" sempre sbagliata
+[x] **RISOLTO 2026-07-27** — l'articolo EN `651061d0` (my-spiritual-retreat-in-morlupo) aveva `immagine_copertina` e `didascalia_copertina` **null** — non era mai stato sincronizzato con la copertina dell'IT dopo la bonifica del duplicato Morlupo (sessione 24/7, vedi STATO.md DUPLICATO-MORLUPO). La pagina mostrava un placeholder, percepito come "foto sbagliata". Fix: copiati `immagine_copertina` (`2369653b-...`) e didascalia tradotta dall'IT. Verificato live.
+
+### Preview URL Directus
+[x] **RISOLTO 2026-07-27** — `preview_url` su collection `articoli` puntava a `ombreeluci-staging.pages.dev` (uno dei sintomi del problema staging generale). Rimosso (`meta.preview_url = null`) su richiesta esplicita — non funzionava comunque.
+
+------
+
 ## TODO — post-lancio (quanto prima)
 
 ### GA4 — eventi e conversioni

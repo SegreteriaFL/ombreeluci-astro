@@ -6,6 +6,35 @@
 
 ---
 
+## 2026-07-27 — check completo GSC + CF + GA4 (primo check da 28/6, quasi un mese di gap)
+
+**Stato generale:** plateau su GSC (non crescita, non crollo), EN ancora sostanzialmente invisibile, crescita reale confermata su GA4 Italia, cache CF diagnosticata (causa trovata).
+
+### GSC Search Analytics (28/6→25/7)
+- Impressioni: 1.560-2.293/giorno, click 19-46/giorno, posizione media 8.5-11.8 — **piatto**, nessuna prosecuzione del trend di crescita maggio-giugno (739→4.162 impressioni/giorno)
+- **Ipotesi sul plateau:** il bug BUG-EN-STAGING (hreflang/canonical/social che puntavano a `ombreeluci-staging.pages.dev`, fixato il 24/7) è stato live in produzione per una parte non quantificata di luglio, dopo le modifiche al Worker dell'incidente noindex dell'8-9/7. Segnali contraddittori a Google (canonical/hreflang non sempre coerenti) sono un sospetto plausibile per l'assenza di crescita. **Verificato 27/7:** il fix è live e corretto (curl su pagina di test: canonical e hreflang puntano a `ombreeluci.it`). Da monitorare le prossime 2 settimane — se riparte la crescita, conferma l'ipotesi.
+- EN: impressioni 24-140/giorno, click quasi sempre 0 (0-1 ogni pochi giorni) su 3.400+ articoli pubblicati. Nessun segnale di decollo organico. Pagina più visibile: `/en/sections/reviews/` (143 impressioni, posizione 22.3). **Azione consigliata non ancora fatta:** controllare il report GSC Copertura/Indicizzazione (non solo Search Analytics) per capire se la causa è "crawled non indicizzata" (problema di qualità/valore percepito) o "individuata non ancora scansionata" (solo questione di tempo/crawl budget).
+
+### Cloudflare Analytics (13-26/7)
+- 106k uniques, 223k pageViews, 672k requests in 14 giorni — media 7.574 uniques/giorno, 15.954 pv/giorno
+- **Cache rate 2,72%** — invariato da giugno nonostante l'audit CF del 21/6. **Causa trovata questa sessione:** l'audit di giugno ha coperto solo gli asset statici (Transform Rule cache immutable); l'HTML — la maggioranza delle richieste — non è mai stato reso "eligible for cache" via Cache Rule. L'homepage risponde `Cache-Control: public, max-age=0, must-revalidate` (comportamento di default CF Pages, niente cache); le pagine articolo SSR rispondono `s-maxage=3600` ma Cloudflare non lo rispetta di default per contenuto dinamico senza una Cache Rule esplicita. **Azione consigliata:** aggiungere una Cache Rule "Eligible for Cache" sulle route HTML (partendo dalle pagine articolo), rispettando il TTL d'origine — potenziale guadagno reale su performance e carico Worker/Pages Function, non ancora implementato.
+
+### GA4 (13-26/7)
+- **Italia: 538 utenti in 14 giorni (~38/giorno)** — +80% rispetto alla baseline di fine giugno (~21/giorno). Crescita reale confermata.
+- **Traffico internazionale ora distribuito su paesi reali** (USA 140, Svizzera 29, Giappone 29, Francia 26, UK 25, Olanda 21, Germania 19...) invece che dominato da bot Singapore/Cina come a fine giugno. La WAF rule "Block bot spam SG/CN" del 28/6 sembra aver funzionato meglio nel tempo di quanto risultasse dal check del 7/7 (allora sembrava inefficace — vedi entry precedente). Singapore ora a soli 26 utenti con durata sessione ~1s (ancora bot residuo, ma volume molto ridotto rispetto a giugno).
+
+### Bug trovati durante questa sessione (impatto SEO/dati indiretto — vedi `bug_ux_ui.md` per dettagli)
+- **ALGOLIA-SYNC-401**: la Flow di sync Algolia fallisce silenziosamente da tempo indeterminato (secret disallineato Directus↔CF Pages) — la ricerca interna del sito può mostrare dati stale (foto, titoli) per un numero non quantificato di articoli modificati dopo l'ultimo secret valido. Non ancora risolto sistemicamente (solo stopgap su un articolo).
+- **Import traduzione silenzioso**: una traduzione con JSON malformato non genera errore visibile — un articolo tradotto può restare invisibile online senza che nessuno se ne accorga finché non lo si cerca esplicitamente.
+
+### Da fare prossimo check
+- Verificare se il plateau GSC si sblocca dopo il fix BUG-EN-STAGING (confronto prossime 2 settimane)
+- Controllare GSC Copertura/Indicizzazione per capire la causa reale della bassa visibilità EN
+- Implementare Cache Rule HTML e rimisurare cache rate CF
+- Rotazione `ALGOLIA_SYNC_SECRET` + reindex completo Algolia
+
+---
+
 ## 2026-06-28 — check completo GSC + CF + GA4
 
 **Stato generale:** sano, traffico organico stabile. Scoperta e bonifica spam bot.

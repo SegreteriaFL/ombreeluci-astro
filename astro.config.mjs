@@ -68,8 +68,5 @@ export default defineConfig({
     '/feed/': '/it/rss.xml',
     '/en/feed': '/en/rss.xml',
     '/en/feed/': '/en/rss.xml',
-    // EN categories con zero articoli EN → versione IT
-    '/en/category/ombre-e-luci': '/it/categoria/ombre-e-luci/',
-    '/en/category/ombre-e-luci/': '/it/categoria/ombre-e-luci/',
   },
 });

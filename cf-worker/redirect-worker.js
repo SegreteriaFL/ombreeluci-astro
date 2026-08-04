@@ -1136,8 +1136,22 @@ const REDIRECTS = {
 // Il sito WordPress originale è su Aruba (89.46.105.36). Da quando il DNS è
 // passato a Cloudflare Pages, /wp-admin e le route WP non sono più raggiungibili.
 // Questo proxy le reinstrada trasparentemente verso l'IP Aruba.
-const WP_PREFIX = ['/wp-admin', '/wp-content', '/wp-includes', '/wp-json', '/feed'];
-const WP_EXACT  = ['/wp-login.php', '/wp-cron.php', '/xmlrpc.php'];
+// ARUBA-WP-CLEANUP (2026-07-27): proxy WordPress legacy interamente ritirato.
+// Fase 1 (stesso giorno): rimossi /wp-admin, /wp-includes, /feed, wp-login.php, wp-cron.php,
+// xmlrpc.php — audit CF Analytics 7gg mostra solo scanner/bot su questi path (brute-force
+// wp-login, probe .php inventati, enumerazione /wp-json/wp/v2/users), zero traffico legittimo.
+// /feed era anche un bug: intercettato qui PRIMA del redirect Astro verso /it/rss.xml
+// (astro.config.mjs), quindi restituiva 403 da WordPress invece del 301.
+// Fase 2 (stesso giorno, decisione esplicita utente): rimossi anche /wp-content e /wp-json.
+// Avevano traffico reale non banale (~838 hit/settimana su 86 immagini storiche
+// wp-content/uploads/*, ~944 hit/settimana su wp-json/oembed — probabile anteprima link
+// da servizi esterni) — non scanner, ma coda lunga di un CMS dismesso da tempo. Decisione:
+// accettare la rottura di questi URL residui piuttosto che mantenere un WordPress pubblico
+// vivo su Aruba solo per servirli. Impatto atteso: ~86 URL immagine e l'anteprima link per
+// vecchi URL OeL condivisi altrove smettono di funzionare (404 invece di 200/redirect).
+// Vedi bug_ux_ui.md e DECISIONE-STAGING.md §6 per il dettaglio completo dell'audit.
+const WP_PREFIX = [];
+const WP_EXACT  = [];
 const ARUBA_IP  = '89.46.105.36';
 const WP_HOST   = 'www.ombreeluci.it';
 

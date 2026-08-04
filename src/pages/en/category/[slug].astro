@@ -27,7 +27,9 @@ const [articoli, csCategorie] = await Promise.all([
 ]);
 
 if (!articoli.length) {
-  return redirect('/en/', 302);
+  // EN-CAT-EMPTY-REDIRECT (2026-07-28): categorie senza articoli EN (es. ombre-e-luci)
+  // rimandano alla categoria IT equivalente invece che alla home EN generica.
+  return redirect(`/it/categoria/${itSlug}/`, 302);
 }
 
 const categoryLabel = localizeCategory(itSlug, 'en') ?? enSlug;
