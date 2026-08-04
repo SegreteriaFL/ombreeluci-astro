@@ -1,19 +1,21 @@
 /**
  * TRANSLATE — Fase 3 roadmap (docs/ROADMAP-AUTOMAZIONE.md). Traduce un articolo IT → EN
- * automaticamente e crea l'articolo EN, senza intervento umano.
+ * via pulsante manuale "Avvia/aggiorna traduzione" nella pagina articolo di Directus.
  *
  * POST /api/translate
  * Headers: Authorization: Bearer <SYNC_METADATA_SECRET>
  * Body: { id: string }  (id articolo IT)
  *
- * Chiamato da Directus Flow quando un articolo IT viene pubblicato per la prima volta.
- * Usa Claude Sonnet 5 con output strutturato (JSON Schema) — non testo libero da parsare:
- * elimina la classe di bug "JSON malformato incollato a mano" vista il 2026-08-04.
+ * Trigger: manuale, click dell'utente — non automatico alla pubblicazione (2026-08-04,
+ * cambiato dal design iniziale: un'azione esplicita dà controllo su QUANDO tradurre,
+ * invece di partire su un articolo non ancora finito).
  *
- * Principio di sicurezza: se l'EN esiste già, non tocca nulla. Non sovrascrive mai
- * una traduzione esistente — evita di cancellare correzioni manuali della redazione.
- * Per ri-tradurre un articolo dopo modifiche IT, va chiamato un altro meccanismo
- * (non ancora costruito — vedi nota in ROADMAP-AUTOMAZIONE.md).
+ * Usa Claude Sonnet 5 con output strutturato (JSON Schema) — non testo libero da parsare:
+ * elimina la classe di bug "JSON malformato incollato a mano" vista lo stesso giorno.
+ *
+ * Comportamento: se l'EN non esiste ancora, la crea. Se esiste già, la AGGIORNA
+ * (titolo/sottotitolo/seo/didascalia/corpo) — sicuro perché è un'azione deliberata
+ * dell'utente, non un trigger silenzioso in background.
  */
 export const prerender = false;
 
@@ -88,19 +90,31 @@ export const POST: APIRoute = async ({ request, locals }) => {
       return json({ ok: true, action: 'skip_non_it', lang: itArticle.lang }, 200);
     }
 
-    if (itArticle.articolo_traduzione) {
-      return json({ ok: true, action: 'skip_existing_translation', id }, 200);
-    }
-
-    if (itArticle.stato !== 'published') {
-      return json({ ok: true, action: 'skip_not_published' }, 200);
-    }
+    const existingEnId = typeof itArticle.articolo_traduzione === 'object'
+      ? (itArticle.articolo_traduzione as any)?.id
+      : itArticle.articolo_traduzione;
 
     const translated = await translateArticle(itArticle, anthropicKey);
     if (!translated) {
       return json({ ok: false, error: 'translation_failed' }, 502);
     }
 
+    // --- Aggiorna una traduzione EN già esistente ---
+    if (existingEnId) {
+      await patchArticle(existingEnId, {
+        titolo: translated.titolo,
+        sottotitolo: translated.sottotitolo,
+        seo_title: translated.seo_title,
+        seo_description: translated.seo_description,
+        didascalia_copertina: translated.didascalia_copertina,
+        corpo: translated.corpo,
+      }, directusUrl, directusToken);
+
+      console.log(`TRANSLATE: ${itArticle.slug} -> EN ${existingEnId} aggiornata`);
+      return json({ ok: true, action: 'updated', id, translation: existingEnId }, 200);
+    }
+
+    // --- Crea una nuova traduzione EN ---
     const enSlug = await uniqueSlug(slugify(translated.titolo), directusUrl, directusToken);
 
     const copyInvariant: Record<string, any> = {};
@@ -112,7 +126,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
     const enId = await createArticle(directusUrl, directusToken, {
       slug: enSlug,
       lang: 'en',
-      stato: 'published',
+      stato: itArticle.stato ?? 'draft',
       titolo: translated.titolo,
       sottotitolo: translated.sottotitolo,
       seo_title: translated.seo_title,
