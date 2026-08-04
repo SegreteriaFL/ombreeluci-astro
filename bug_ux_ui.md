@@ -12,6 +12,24 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 -->
 ------
 
+## Segnalazioni 2026-08-04
+
+### FATTO — Fase 3 roadmap: traduzione automatica IT→EN
+**Desiderata:** eliminare il giro manuale export→traduci esternamente→incolla→spera che il JSON sia valido (causa del bug De Paolis di oggi), automatizzando del tutto la creazione della versione EN. Piano già scritto in `docs/ROADMAP-AUTOMAZIONE.md` Fase 3 (mai implementata), trovato su richiesta esplicita di cercare prima di ricostruire da zero.
+
+**PRIMA:** nessuna traduzione automatica del contenuto testuale. Ogni articolo IT pubblicato restava senza EN finché qualcuno non avviava a mano il giro export/traduci/incolla/importa — fragile, come visto oggi con De Paolis.
+
+**Intervento:**
+- Nuovo endpoint `src/pages/api/translate.ts` — Claude **Sonnet 5**, output strutturato via JSON Schema nativo (non testo libero da parsare — il costo Sonnet vs Haiku è ~1,5 vs ~0,8 centesimi/articolo, irrilevante, quindi si è scelta la qualità). Crea l'EN **solo se `articolo_traduzione` non è già valorizzato** — non tocca mai una traduzione esistente.
+- Nuova Flow Directus "Traduzione automatica EN" (`1e022c88`) — `accountability: activity` fin dalla creazione (non "all"), nessuna condition fragile nel grafo Flow (il filtro lo fa l'endpoint), URL di produzione `ombreeluci.it` non `pages.dev` diretto. Tutte le lezioni della sessione applicate da subito, non aggiunte dopo un incidente.
+- Fix a margine: `/en/category/ombre-e-luci/` tornava 404 nonostante il fix di ieri — era propagazione dell'edge Cloudflare a livello di routing (non contenuto), risolto da solo entro un minuto dal deploy. Non un bug del codice.
+
+**DOPO — verificato end-to-end con articolo di test reale (creato e poi eliminato):**
+- Bozza IT → pubblicazione → EN creato automaticamente in pochi secondi: titolo, sottotitolo, corpo HTML (struttura preservata), categoria/autore/forma copiati correttamente, slug pulito, link bidirezionale `articolo_traduzione` su entrambi i lati. Verificato live (200 su entrambe le pagine).
+- Secondo update sull'IT con EN già esistente → **EN non toccato**, verificato leggendo il campo dopo l'update.
+- **Scoperta collaterale durante il cleanup:** eliminare un articolo con `articolo_traduzione` collegato fallisce con errore vincolo FK (`articoli_articolo_traduzione_foreign`) finché non si azzera il campo su **entrambi** i lati prima del delete. Utile saperlo per qualunque eliminazione futura di coppie di articoli tradotti.
+- **Non implementato (deciso esplicitamente, non dimenticato):** ri-traduzione automatica quando l'IT viene modificato dopo che l'EN esiste già — rischio di sovrascrivere correzioni manuali della redazione. Resta un giro manuale per quel caso.
+
 ## Segnalazioni 2026-07-28
 
 ### RISOLTO — /en/category/ombre-e-luci/ 404 invece del redirect

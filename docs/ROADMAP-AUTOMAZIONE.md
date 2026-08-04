@@ -213,12 +213,12 @@ Fase 5 — progetto separato, dopo Fase 4 stabile
 | Cosa | Dove | Quando | Costo stimato |
 |---|---|---|---|
 | Swap 2GB VPS | SSH RUNBOOK.md | Fase 1 | Gratis |
-| Anthropic API key | console.anthropic.com | Fase 3 | ~€0.50/articolo EN |
+| Anthropic API key | console.anthropic.com | Fase 3 | ~1,5 centesimi/articolo EN con Sonnet 5 (verificato 2026-08-04 sui prezzi reali — la stima originale di €0,50 era di un ordine di grandezza sbagliato, probabilmente una cifra prudenziale scritta senza calcolo sui token) |
 | OpenAI API key | platform.openai.com | Fase 4 | ~€0.02/articolo embedding |
 
 ---
 
-## Stato attuale (aggiornato 2026-06-21)
+## Stato attuale (aggiornato 2026-08-04)
 
 | Componente | Stato |
 |---|---|
@@ -227,8 +227,8 @@ Fase 5 — progetto separato, dopo Fase 4 stabile
 | Embeddings popolati via Directus API | ✅ 3.447/3.488 articoli IT (41 senza wp_id match) |
 | correlati.json K=30 cosine similarity | ✅ rigenerato 2026-06-20, 3.427 articoli |
 | Indice KNN pgvector | N/A — pgvector max 2000 dim per indice, embedding 3072. Brute force `ORDER BY <=>` OK per 3.400 articoli (<50ms). Indice necessario solo sopra 50k articoli, a quel punto ridurre dimensioni embedding. |
-| TRANS-FLOW-01 (traduzione manuale) | ✅ funzionante |
-| Traduzione triggered automatica | ❌ non implementata (Fase 3) |
+| TRANS-FLOW-01 (traduzione manuale) | ⚠️ funzionante ma fragile — vedi bug JSON malformato del 2026-08-04 in `bug_ux_ui.md`. Ora superata in pratica dalla traduzione automatica sotto, per i nuovi articoli. |
+| **Traduzione triggered automatica (Fase 3)** | ✅ **implementata e testata 2026-08-04** — endpoint `/api/translate.ts` + Flow Directus `1e022c88` ("Traduzione automatica EN"), `accountability: activity`, trigger `items.create`+`items.update`. Usa **Claude Sonnet 5** (non Haiku come da stima originale — costo reale trascurabile, ~1,5 centesimi/articolo, vedi sopra) con **output strutturato** (JSON Schema nativo Claude, non testo libero da parsare — elimina la classe di bug vista lo stesso giorno con l'import manuale). Crea l'EN **solo se non esiste già** un `articolo_traduzione` collegato — non sovrascrive mai traduzioni esistenti, incluse correzioni manuali. Verificato end-to-end con articolo di test reale: creazione IT→EN corretta (titolo, sottotitolo, corpo HTML preservato, categoria/autore/forma copiati, link bidirezionale, slug pulito), e verificato che un secondo update IT non tocca l'EN già creato. **Non implementato:** ri-traduzione automatica di un EN già esistente dopo modifiche IT (rischio sovrascrittura correzioni manuali, richiede un meccanismo di change-detection non ancora progettato). **Nota operativa:** eliminare un articolo con `articolo_traduzione` collegato fallisce con errore FK finché non si azzera il campo su entrambi i lati prima del delete — scoperto durante il cleanup del test. |
 | Sync metadati IT→EN automatica | ✅ endpoint `/api/sync-metadata` + Flow Directus `bb1e90af` |
 | Campi sync: scalari | ✅ autore, numero_rivista, categoria_menu, categoria_menu_2, data_pubblicazione, forma, ruolo_editoriale, immagine_copertina, in_evidenza, serie, has_comments |
 | Campi sync: M2M tags | ✅ junction `articoli_tags` copiata IT→EN |
