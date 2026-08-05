@@ -12,6 +12,19 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 -->
 ------
 
+## Segnalazioni 2026-08-04 (parte 2 — pulizia form articolo)
+
+### FATTO — Campi tecnici nascosti dal form articolo
+**Desiderata:** dopo aver introdotto il pulsante "Avvia/aggiorna traduzione", i vecchi campi JSON Export/Traduzione restavano visibili e confondevano; segnalato anche il campo "Embedding" (array di migliaia di numeri) sempre visibile in cima al form, senza alcun senso per la redazione.
+
+**PRIMA:** `json_export`/`json_traduzione` visibili con nota che rimandava al vecchio processo manuale ("Esporta per traduzione"). `embedding` (vettore 3072 dimensioni per il calcolo dei correlati) **non aveva nessuna configurazione Directus** (`meta: null`) — per questo si vedeva l'array grezzo in cima al form, fuori da ogni gruppo.
+
+**Intervento:** `json_export`/`json_traduzione` → `hidden: true` + etichetta "⚠️ OBSOLETO — NON USARE" + nota aggiornata. `embedding` → creata configurazione da zero (non esisteva) con `hidden: true`, `readonly: true`, nota esplicativa. Sweep di controllo su tutti gli altri campi tecnici storici (`umap_x/y/z`, `cluster_id`, `wp_id`, `original_url`, `tema_label`) — già tutti correttamente nascosti da pulizie precedenti, nessun altro orfano trovato.
+
+**DOPO:** verificato via API (`hidden: true` su tutti) e confermato visivamente dall'utente su più articoli diversi.
+
+**⚠️ Nota non risolta — mistero di propagazione:** durante questa modifica, il cambiamento non si è visto per un tempo anomalo anche con test che avrebbero dovuto escluderlo con certezza: browser diverso mai usato prima (Edge "vergine"), cache HTTP disattivata da DevTools, cache interna di Directus svuotata via `/utils/cache/clear`. In ogni test il server, interrogato direttamente e nello stesso momento, restituiva già il dato corretto — eppure l'app admin per un periodo non l'ha mostrato, poi si è sistemato da solo senza un'azione risolutiva chiaramente identificabile. **Non abbiamo una spiegazione definitiva.** Ipotesi più plausibile ma non verificata: storage persistente lato client (IndexedDB/localStorage) usato dalla SPA di Directus per la cache dello schema, non toccato da nessuno dei rimedi provati. Se ricapita, provare da subito: DevTools → Applicazione → Archiviazione → "Cancella dati sito" (non solo Service Worker) prima di altri tentativi. Ulteriore argomento a favore della valutazione Directus↔Sanity già aperta in `MIGRAZIONE-SANITY-BOZZA.md`.
+
 ## Segnalazioni 2026-08-04
 
 ### FATTO — Fase 3 roadmap: traduzione automatica IT→EN
