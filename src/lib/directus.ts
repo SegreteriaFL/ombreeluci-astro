@@ -1012,25 +1012,3 @@ export function getCS(
   return (lang === 'en' ? c.valore_en : c.valore_it) ?? c.valore_it ?? fallback;
 }
 
-/**
- * Didascalia immagine dalla collection didascalie_img.
- * Fallback: campo legacy sull'articolo (didascalia_copertina / didascalia_en).
- */
-export async function getDidascaliaImg(
-  fileId: string | null,
-  lang: 'it' | 'en',
-  creds?: DirectusRuntimeCreds
-): Promise<string | null> {
-  if (!fileId) return null;
-  const params = new URLSearchParams({
-    'filter[file][_eq]': fileId,
-    'filter[lang][_eq]': lang,
-    fields: 'didascalia',
-    limit: '1',
-  });
-  const data = await directusFetch<{ data: Array<{ didascalia: string | null }> }>(
-    `/items/didascalie_img?${params}`,
-    creds
-  );
-  return data?.data?.[0]?.didascalia?.trim() || null;
-}

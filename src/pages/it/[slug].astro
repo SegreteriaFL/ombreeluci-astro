@@ -1,7 +1,7 @@
 ---
 export const prerender = false;
 
-import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getArticoloCopertinaSet, getAutoreImageUrl, getDirectusAssetUrl, getFallbackRelatedArticles, getDidascaliaImg, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
+import { getArticoloBySlug, getArticoliBySlugList, getArticoloCopertinaSrc, getArticoloCopertinaSet, getAutoreImageUrl, getDirectusAssetUrl, getFallbackRelatedArticles, COPERTINA_IMG_ONERROR, directusCredsFromAstroLocals, type ArticoloListItem } from '../../lib/directus';
 import { getPlaceholder } from '../../utils/placeholder';
 import ArticlePageLayout from '../../layouts/ArticlePageLayout.astro';
 import EditorialFeedback from '../../components/EditorialFeedback.astro';
@@ -241,7 +241,6 @@ const articleImage = isPlaceholder
 
 const explicitSubtitle = articolo.sottotitolo?.trim() || articolo.seo_description?.trim() || null;
 const heroCaption: string | null =
-  await getDidascaliaImg(articolo.immagine_copertina?.id ?? null, 'it', creds) ||
   articolo.didascalia_copertina?.trim() ||
   (isPlaceholder ? getPlaceholder(articolo.slug ?? '', useBwPlaceholder).caption : null);
 
