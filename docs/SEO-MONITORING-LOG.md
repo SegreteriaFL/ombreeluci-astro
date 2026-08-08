@@ -6,6 +6,46 @@
 
 ---
 
+## 2026-08-08 — check completo GSC + CF + GA4
+
+**Stato generale:** sano e in crescita. Il plateau segnalato il 27/7 si è sbloccato: impressioni e click GSC in crescita ~+30-35%, crescita GA4 Italia confermata su più check consecutivi. EN ancora fermo. Uptime e redirect perfetti. Nuova osservazione: ritorno di traffico bot da Singapore su GA4.
+
+### GSC Search Analytics (27/7→6/8, 11 giorni per lag di reporting GSC)
+- Impressioni 2.517-3.256/giorno, click 32-64/giorno, posizione media 8,5-11,0
+- **Confronto col check 27/7** (periodo 28/6-25/7: impressioni 1.560-2.293, click 19-46, posizione 8,5-11,8): **+30-35% su impressioni e click, plateau sbloccato**. Coerente con l'ipotesi formulata il 27/7: il fix BUG-EN-STAGING (hreflang/canonical, live dal 24/7) ha avuto le 2 settimane di osservazione previste e la crescita è ripartita.
+- Top pagina invariata: "22 mini giochi da fare insieme" (125 click, 9.023 impressioni nel periodo), seguita da "14 giochi da fare insieme" (50 click)
+- EN: solo 9 click totali sulle 15 pagine EN più visibili nel periodo, impressioni 1-12 per pagina — **ancora sostanzialmente invisibile** su 3.400+ articoli pubblicati, nessun cambiamento rispetto al 27/7. Resta da fare: controllo GSC Copertura/Indicizzazione (non ancora eseguito, azione consigliata dal 27/7 non ancora presa).
+
+### Cloudflare Analytics (27/7→8/8, 13 giorni)
+- 102.019 uniques, 153.858 pageviews, 515.152 requests — media 7.848 uniques/giorno, 11.835 pv/giorno
+- **Cache rate 2,77%** (era 2,72% il 27/7) — invariato, Cache Rule HTML sulle route articolo ancora non implementata (nota ricorrente, non un'azione urgente per questo check)
+- Country: US 301k requests (dominante), IT 41,8k, FR 25,3k, DE 23,7k, CN 17,6k, SG 12,2k, threats concentrati su GB (4.498) e US (3.522)
+
+### GA4 (27/7→8/8)
+- **Italia: 691 utenti, 800 sessioni, 1.130 pageviews in 13 giorni → 53 utenti/giorno media**, +40% rispetto ai 38/giorno del check del 27/7 — crescita reale confermata su più check consecutivi (21→38→53 utenti/giorno su fine giugno/27-7/8-8)
+- Sorgenti Italia: google/organic dominante (503 utenti, 750 pageviews), direct 135 utenti
+- **Globale per paese: Singapore 3.361 "utenti" con durata sessione 0s** — ritorno di traffico bot, molto oltre i 26 residui rilevati il 27/7 (allora si era conclusa una WAF rule SG/CN del 28/6 stabilmente efficace). Il Managed Challenge non blocca in modo duraturo bot che eseguono JS e triggerano il beacon GA4 — pattern intermittente, non un'azione urgente ma da ricontrollare al prossimo check invece di considerarlo risolto.
+
+### Uptime (27/7→8/8)
+- Tutti i 6 monitor status UP, **0 eventi down/up nel periodo** — settimana pulita.
+
+### Redirect legacy (produzione, 1096 voci)
+- Attenzione operativa: `scripts/verify-redirects.mjs` di default punta a staging (`BASE_URL` hardcoded) — prima run senza override ha dato un falso 98,4% fail rate. Rilanciato con `BASE_URL="https://ombreeluci.it" node scripts/verify-redirects.mjs`.
+- **1096/1096 OK, fail rate 0%** — nessuna regressione.
+
+### Risposte alle domande aperte dal check del 27/7
+1. **Plateau GSC sbloccato dopo il fix BUG-EN-STAGING?** Sì — impressioni e click in crescita ~+30-35% nella finestra di osservazione di 2 settimane prevista.
+2. **Cache rate CF ancora ~2,7%?** Sì, 2,77% — invariato, Cache Rule HTML ancora da implementare.
+3. **EN click ancora vicini a zero su 3.400+ articoli?** Sì, confermato — 9 click totali nel periodo.
+
+### Da fare prossimo check
+- Confermare che il trend di crescita GSC/GA4 prosegue (secondo check di conferma dopo lo sblocco del plateau)
+- Ricontrollare il traffico bot Singapore su GA4 — capire se il pattern è intermittente o se la WAF rule del 28/6 ha smesso di essere efficace
+- Controllare GSC Copertura/Indicizzazione per capire la causa reale della bassa visibilità EN (azione consigliata dal 27/7, non ancora fatta)
+- Implementare Cache Rule HTML e rimisurare cache rate CF (azione consigliata dal 27/7, non ancora fatta)
+
+---
+
 ## 2026-07-27 — check completo GSC + CF + GA4 (primo check da 28/6, quasi un mese di gap)
 
 **Stato generale:** plateau su GSC (non crescita, non crollo), EN ancora sostanzialmente invisibile, crescita reale confermata su GA4 Italia, cache CF diagnosticata (causa trovata).
