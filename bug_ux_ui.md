@@ -12,6 +12,21 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 -->
 ------
 
+## Segnalazioni 2026-08-07
+
+### FATTO — Didascalia foto non si aggiornava mai (articolo "Esperienze, i campi dell'estate 1977")
+**Desiderata:** correggere la didascalia della foto copertina — nome sbagliato "Manuela" invece di "Nanda", refuso "paseggiata" invece di "passeggiata". Segnalato dalla redazione come bug di salvataggio: modificavano il campo, chiudevano e riaprivano il CMS, il valore non restava e online non cambiava mai — comportamento diverso dal solito, dove le modifiche si vedono subito.
+
+**PRIMA:** la redazione modificava `didascalia_copertina` sull'articolo dal form. Il salvataggio **funzionava correttamente** (verificato nello storico revisioni Directus: 3 tentativi salvati regolarmente il 7/8 alle 14:38, 14:41, 14:46), ma il sito continuava a mostrare il testo vecchio sia in IT che in EN.
+
+**Causa reale (non era un bug di salvataggio):** la didascalia mostrata in pagina non legge `articolo.didascalia_copertina` — legge prima da una collection separata `didascalie_img`, indicizzata per **file immagine + lingua**, e usa quel valore se presente (fallback su `didascalia_copertina` solo se vuoto — vedi `getDidascaliaImg()` in `src/lib/directus.ts:1019`). Questa foto ha un record in `didascalie_img` (usata per didascalie condivise su foto d'archivio riutilizzate su più articoli) ancora con il testo sbagliato — invisibile e non modificabile dal form articolo. Qualunque modifica a `didascalia_copertina` sull'articolo era quindi ininfluente per questa foto specifica, a prescindere da quante volte veniva risalvata.
+
+**Intervento:** corretti direttamente i due record in `didascalie_img` (id 1392 IT, id 3462 EN — anche l'EN aveva "Manuela"): "Robert, Nanda e Guenda durante una passeggiata ad Alfedena, 1977 (archivio Ombre e Luci)" / equivalente EN.
+
+**DOPO:** verificato live su entrambe le pagine (`/it/esperienze-i-campi-dellestate-1977/` e `/en/summer-1977-experiences-and-camps/`) — testo corretto in entrambe le lingue, nessun rebuild necessario (pagina SSR, dato letto in tempo reale da Directus).
+
+**⚠️ Problema sistemico non risolto:** questo può ripresentarsi su qualunque altro articolo la cui foto abbia un record in `didascalie_img` — dal form articolo non c'è alcun indizio che la didascalia visibile sul sito venga da un'altra tabella. Da valutare: esporre/collegare `didascalie_img` nel form articolo, o eliminare la doppia fonte se non è più necessaria (capire prima quanti articoli condividono davvero la stessa foto/didascalia — se sono pochi, l'architettura "condivisa" potrebbe non giustificarsi più).
+
 ## Segnalazioni 2026-08-04 (parte 2 — pulizia form articolo)
 
 ### FATTO — Campi tecnici nascosti dal form articolo

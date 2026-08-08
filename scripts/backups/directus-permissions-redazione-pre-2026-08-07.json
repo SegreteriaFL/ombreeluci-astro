@@ -1,0 +1,77 @@
+{
+  "90": {
+    "id": 90,
+    "collection": "articoli",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "id",
+      "slug",
+      "lang",
+      "titolo",
+      "sottotitolo",
+      "corpo",
+      "autore",
+      "immagine_copertina",
+      "didascalia_copertina",
+      "didascalia_en",
+      "numero_rivista",
+      "serie",
+      "data_pubblicazione",
+      "stato",
+      "categoria_menu",
+      "ruolo_editoriale",
+      "in_evidenza",
+      "forma",
+      "note_redazione",
+      "seo_title",
+      "seo_description",
+      "has_comments",
+      "tags",
+      "temi",
+      "articolo_traduzione",
+      "group_contenuto",
+      "group_autore_numero",
+      "group_classificazione",
+      "group_pubblicazione",
+      "group_seo",
+      "group_note",
+      "json_traduzione",
+      "json_export"
+    ],
+    "policy": "0a5492ea-9da0-43ba-b61e-ee7c97b035b4"
+  },
+  "91": {
+    "id": 91,
+    "collection": "articoli",
+    "action": "create",
+    "permissions": null,
+    "validation": {
+      "stato": {
+        "_in": [
+          "draft",
+          "review"
+        ]
+      }
+    },
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "0a5492ea-9da0-43ba-b61e-ee7c97b035b4"
+  },
+  "92": {
+    "id": 92,
+    "collection": "articoli",
+    "action": "update",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "0a5492ea-9da0-43ba-b61e-ee7c97b035b4"
+  }
+}

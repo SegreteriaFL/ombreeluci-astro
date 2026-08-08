@@ -1,0 +1,38 @@
+{
+  "3": {
+    "id": 3,
+    "collection": "articoli",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "fccac256-25a1-452d-811c-5b4c573e1851"
+  },
+  "4": {
+    "id": 4,
+    "collection": "articoli",
+    "action": "update",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "fccac256-25a1-452d-811c-5b4c573e1851"
+  },
+  "5": {
+    "id": 5,
+    "collection": "articoli",
+    "action": "create",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "fccac256-25a1-452d-811c-5b4c573e1851"
+  }
+}

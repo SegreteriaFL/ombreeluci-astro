@@ -1,0 +1,50 @@
+{
+  "12": {
+    "id": 12,
+    "collection": "articoli",
+    "action": "create",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "d61b5ea6-d001-4812-857f-6498842fb5a4"
+  },
+  "13": {
+    "id": 13,
+    "collection": "articoli",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "d61b5ea6-d001-4812-857f-6498842fb5a4"
+  },
+  "14": {
+    "id": 14,
+    "collection": "articoli",
+    "action": "update",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "d61b5ea6-d001-4812-857f-6498842fb5a4"
+  },
+  "15": {
+    "id": 15,
+    "collection": "articoli",
+    "action": "delete",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "d61b5ea6-d001-4812-857f-6498842fb5a4"
+  }
+}
