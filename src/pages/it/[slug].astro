@@ -375,10 +375,13 @@ const relatedArticles = (() => {
     };
   });
 })();
+
+console.log('[DIAG] CP0 end-of-frontmatter', JSON.stringify({ slug: articolo.slug, heroCaption, isPlaceholder, articleImage }));
 ---
 
 
 
+{(() => { console.log('[DIAG] CP1 template-start'); return null; })()}
 <ArticlePageLayout
   title={articleTitle}
   description={metaDescription}
@@ -586,6 +589,7 @@ const relatedArticles = (() => {
           )}
         </div>
       </div>
+      {(() => { console.log('[DIAG] CP2 after-caption-block'); return null; })()}
 
       {/* Alert box per contenuti archivistici — soglie progressive 10/20/30/40 anni */}
       {archivalYearsAgo > 0 && (
@@ -1012,4 +1016,5 @@ const relatedArticles = (() => {
       else setTimeout(processArticleLinks, 200);
 
     </script>
+{(() => { console.log('[DIAG] CP3 template-end'); return null; })()}
 </ArticlePageLayout>
