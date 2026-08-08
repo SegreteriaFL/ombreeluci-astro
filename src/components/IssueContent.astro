@@ -39,7 +39,11 @@ const archiveViewUrl = numero.wp_url || null;
 const pdfUrl = numero.pdf_archive_url || null;
 const copertinaNumeroUrl = getNumeroImageUrl(numero as any);
 const testata = numero.tipo === 'ins' ? 'Insieme' : 'Ombre e Luci';
-const descrizione = numero.descrizione || null;
+// descrizione legacy da import WP: spesso solo un elenco di <a href="/blog/..."> ormai rotti
+// (struttura URL pre-migrazione), non un vero sommario editoriale — i link vanno rimossi,
+// il testo (titoli articolo + autore) resta.
+const descrizioneRaw = numero.descrizione?.replace(/<a\b[^>]*>(.*?)<\/a>/gi, '$1') || null;
+const descrizione = descrizioneRaw?.trim() ? descrizioneRaw : null;
 
 // For IT page: show IT articles + EN section. For EN page: show EN articles only.
 const articoliDisplay = lang === 'en'
