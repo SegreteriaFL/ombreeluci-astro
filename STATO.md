@@ -4,6 +4,21 @@
 
 ---
 
+## Prossimi passi — stabilità sito e Directus (definiti 2026-08-08, non ancora iniziati)
+
+Elenco prioritizzato, discusso con Fede a fine sessione dell'8/8, coerente con la decisione presa lo stesso giorno ("fixare il fixabile o cambiare CMS", vedi memoria `project_directus_flow_silent_failures`).
+
+**Sito (Astro/Cloudflare):**
+1. **Staging Worker → dominio diretto** (piano B→A completo in `DECISIONE-STAGING.md` §6) — intervento a più leva per la stabilità: elimina la classe di bug dei 3 incidenti di produzione di luglio (sync secret Worker↔Pages). Non urgente (zero incidenti attivi), ma è il singolo cambiamento che riduce di più il rischio strutturale nel tempo. Richiede sessione dedicata + finestra di manutenzione, mai incastrato tra altro lavoro.
+2. **Articoli post-migrazione mancanti** (memoria `project_articoli_mancanti`) — 404 reali, lavoro meccanico e limitato (dump SQL + confronto slug con Directus), quando c'è mezza giornata libera.
+
+**Directus (priorità più alta secondo Fede — impatta la redazione ogni giorno):**
+1. **Campo errore visibile sulle Flow critiche** (es. `errore_flow` su `articoli`, scritto quando un'operation fallisce — parse error, 401, ecc.) — non ancora implementato, proposto da tempo in `project_directus_flow_silent_failures` come fix di lungo periodo. **Identificato come il prossimo intervento con più leva**: il pattern ricorrente dietro la maggior parte degli incidenti "sembrava salvato ma non lo era" (import JSON, Algolia, sync-didascalia) è sempre lo stesso — Flow che falliscono senza segnalare nulla a chi le ha innescate. Un campo errore visibile trasforma "lo scopriamo tra due settimane" in "errore visibile subito", senza dover fixare ogni singola Flow una alla volta.
+2. **Permessi Editor→EN, decidere su `delete`** — oggi bloccato per effetto collaterale della restrizione del 7/8 (vedi [[feedback_it_first_cascade]] aggiornata 8/8): un Editor non può più completare da solo la cancellazione di una coppia di articoli tradotti. Proposto restituire almeno `delete`, mantenendo bloccati `create`/`update`/`read` su righe EN. Non ancora deciso.
+3. **Cache/Service Worker admin Directus** — nessun fix tecnico disponibile (limite della loro PWA, non nostro, vedi memoria `project_directus_admin_stale_cache`). Solo mitigazione: abitudine di hard-refresh, non un intervento da pianificare.
+
+---
+
 ## Sessione 2026-08-08 (continua) — Fase 2 mergiata su main, deployata in produzione, Fase 3 completata
 
 | Area | Descrizione |
