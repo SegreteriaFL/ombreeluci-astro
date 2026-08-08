@@ -39,10 +39,11 @@ const archiveViewUrl = numero.wp_url || null;
 const pdfUrl = numero.pdf_archive_url || null;
 const copertinaNumeroUrl = getNumeroImageUrl(numero as any);
 const testata = numero.tipo === 'ins' ? 'Insieme' : 'Ombre e Luci';
-// descrizione legacy da import WP: spesso solo un elenco di <a href="/blog/..."> ormai rotti
-// (struttura URL pre-migrazione), non un vero sommario editoriale — i link vanno rimossi,
-// il testo (titoli articolo + autore) resta.
-const descrizioneRaw = numero.descrizione?.replace(/<a\b[^>]*>(.*?)<\/a>/gi, '$1') || null;
+// descrizione legacy da import WP: dopo l'eventuale prosa editoriale, spesso segue un
+// <h4> "sommario" e/o un elenco di <a href="/blog/..."> ormai rotti (struttura URL
+// pre-migrazione) — mai un vero sommario cliccabile. Si taglia tutto da lì in poi,
+// tenendo solo l'eventuale prosa che precede (se non c'è nulla prima, resta vuoto).
+const descrizioneRaw = numero.descrizione?.replace(/(<h4\b|<a\b)[\s\S]*$/i, '') || null;
 const descrizione = descrizioneRaw?.trim() ? descrizioneRaw : null;
 
 // For IT page: show IT articles + EN section. For EN page: show EN articles only.
