@@ -51,9 +51,13 @@ const INSIEME_RE = /^\/insieme\/insieme-n-(\d+)\/?$/;
 const SFOGLIABILE_RE = /^\/it\/ombre(?:-e)?-luci-n-(\d+)-\d{4}-sfogliabile\/?$/;
 
 export const onRequest = defineMiddleware(async ({ url, redirect, request }, next) => {
-  const prodUrl = import.meta.env.PUBLIC_SITE_URL || '';
-  const isProduction = prodUrl.includes('ombreeluci.it');
-  if (!isProduction) {
+  // Il noindex deve dipendere dall'host REALE della richiesta, non da una variabile
+  // di build: pages.dev e ombreeluci.it servono lo stesso identico deployment/build,
+  // quindi un controllo su PUBLIC_SITE_URL (env var, fissa per tutto il build) risulta
+  // "produzione" per entrambi gli host — bug confermato 2026-08-09, pages.dev raggiunto
+  // direttamente non riceveva alcun X-Robots-Tag. Va confrontato l'host effettivo.
+  const isRealProdHost = url.hostname === 'ombreeluci.it' || url.hostname === 'www.ombreeluci.it';
+  if (!isRealProdHost) {
     const response = await next();
     response.headers.set('X-Robots-Tag', 'noindex, nofollow');
     return response;
