@@ -3,8 +3,8 @@
 ## DECISIONE ATTUALE — 2026-08-09
 
 1. **Non intervenire ulteriormente sul `middleware.ts`** per il problema di indicizzazione `pages.dev`. Il fix noindex già spedito (`d73617a7`, confronto sull'host reale invece della env var `PUBLIC_SITE_URL`) resta in produzione come mitigazione a rischio zero (solo header, nessun redirect) mentre il resto del piano procede con calma.
-2. **Eseguire la Fase 0** del piano sotto (audit, zero rischio, nessuna modifica in produzione).
-3. Se l'audit conferma parità funzionale con il Worker attuale → **Fase 1** (porting su branch, zero deploy) → **Fase 2** (cutover: custom domain diretto su Cloudflare Pages, eliminazione del Worker come proxy).
+2. **Fase 0 (audit) eseguita il 2026-08-10** — esito: **non ancora sicuro ritirare il Worker**. Confronto regola-per-regola completo in Appendice A8: trovati gap reali oltre a Rule R (trailing slash), già noto — vedi tabella in "Piano operativo" sotto. Il proxy WordPress legacy verso Aruba, che la Fase 0 dell'audit del 27/7 doveva ancora misurare, **è già stato ritirato quello stesso giorno** (commit `a69b441f`, dati e decisione in Appendice A2-bis / `bug_ux_ui.md`) — non è più un punto aperto.
+3. Prossimo passo: **Fase 1** — portare in Astro le regole mancanti trovate dall'audit (elenco sotto), poi verificare parità completa su branch prima di considerare **Fase 2** (cutover: custom domain diretto su Cloudflare Pages, eliminazione del Worker come proxy).
 4. **Stabilizzare almeno una settimana** dopo il cutover prima di procedere oltre.
 5. Solo a quel punto, attivare la misura definitiva di deindicizzazione per `pages.dev`: **Fase 3 — Cloudflare Access**, non Bulk Redirects. Bulk Redirects è stato verificato tecnicamente funzionante (redirect reale a livello edge) ma **non supporta destinazioni dinamiche a livello account** — coprire l'intero sito richiederebbe una lista di migliaia di URL mantenuta manualmente ad ogni pubblicazione, reintroducendo esattamente il tipo di automazione fragile (secret/chiamata API che può fallire in silenzio) che altrove in questo progetto si è già speso tempo a eliminare. Dettagli del test in Appendice A6.
 6. **Prima di attivare Fase 3 per davvero** (non prima dell'audit): verificare se il meccanismo scelto intercetta la subrequest interna del Worker (`forwardToPages()`) nello scenario di rollback — il Worker resta disattivato-non-eliminato apposta come rete di sicurezza (Fase 2, punto 1), quindi se mai venisse riattivato *dopo* che Access è già live su `pages.dev`, il rischio di intercettazione si ripresenterebbe. Non bloccante per procedere con l'audit.
@@ -13,32 +13,44 @@
 
 ---
 
-## Piano operativo B → A (aggiornato 2026-08-09)
+## Piano operativo B → A (aggiornato 2026-08-10, esito audit Fase 0)
 
-**Trovato durante l'audit del Worker (2026-07-27), cambia la valutazione di rischio della migrazione:**
+**Confronto regola-per-regola completo del Worker contro `middleware.ts`/`astro.config.mjs`/`redirects-legacy.json`, eseguito il 2026-08-10 (dettaglio completo in Appendice A8). Sostituisce la tabella "quasi tutto già duplicato" ipotizzata il 27/7 — quell'audit non aveva ancora fatto il confronto pattern-per-pattern, solo un controllo per nome.**
 
 | Elemento del Worker | Stato | Nota |
 |---|---|---|
-| Rule C+D (lookup table 1096 redirect) | ✅ Già duplicato | `src/data/redirects-legacy.json`, importato in `middleware.ts` |
-| Rule B, F, F2, G, H, I, J, K, O, P (regex WP legacy) | ✅ Già duplicati | Stessi pattern presenti in `middleware.ts` (`DATE_PATH_RE`, `YEAR_SLUG_RE`, ecc.) — **da verificare parità byte-per-byte, non solo per nome**, prima del cutover |
-| Rule Q, Q0 (categoria redirect) | ✅ Già duplicati | `astro.config.mjs` + `ARCHIVIO_REDIRECTS` in middleware |
-| **Rule R (trailing slash `/it/*`, `/en/*` → +`/`)** | ❌ **Solo nel Worker** | Unico gap reale. Portabile con `trailingSlash: 'always'` nativo di Astro (`astro.config.mjs`) — probabilmente più pulito di riscriverla a mano nel middleware |
-| **Proxy WordPress legacy** (`/wp-content`, `/wp-admin`, `/wp-json`, `/wp-login.php`, `/xmlrpc.php`, `/wp-cron.php`) → Aruba IP `89.46.105.36` | ⚠️ **Nessun equivalente Astro** | Il Worker instrada ancora richieste a un **WordPress live su Aruba** per questi path. Non sappiamo quanto traffico reale ricevano oggi (da misurare, vedi Fase 0). Nota STATO.md: 28 immagini gallery Assisi 1986 già falliscono con questo proxy — è già un sistema parzialmente rotto, non un pilastro solido da preservare a tutti i costi |
+| Rule C+D (lookup table 1096 redirect) | ⚠️ **Duplicato con 1 gap** | `src/data/redirects-legacy.json` via `middleware.ts` — manca il fallback su path decodificato: 2 chiavi Unicode (`/メリークリスマス/`, `/поздравляем/` ecc.) non matchano perché `url.pathname` arriva percent-encoded |
+| Rule B, F, F2, G, H, K, L, O (date, anno-slug, numero, project-numero, diario, insieme, blog EN) | ✅ Duplicati e verificati equivalenti | `DATE_PATH_RE`, `YEAR_SLUG_RE`, `EN_YEAR_SLUG_RE`, `NUMERO_SHORT_RE`, `PROJECT_NUMERO_RE`, `DIARIO_RE`, `INSIEME_RE`, `BLOG_EN_SLUG_RE` |
+| Rule P (blog IT) | ✅ Duplicato, **Astro è più corretto** | Il Worker ha un bug proprio (`/blog/en` → `/it/en/` invece di `/en/`); `middleware.ts` lo gestisce già correttamente. Nessun rischio per B, anzi un micro-miglioramento |
+| **Rule E** (`/page/N/` → archivio) | ❌ **Gap** | Nessun equivalente in Astro |
+| **Rule I** (`/project_category/*` → archivio) | ❌ **Gap parziale** | `PROJECT_ANY_RE` copre solo `/project/`, non `/project_category/` |
+| **Rule J** (`/author/slug/` → `/it/autori/slug/`) | ❌ **Gap** | Solo un caso hardcoded (`/author/nanni/`) nel JSON legacy, non una regola generale |
+| **Rule M** (`/archivio/oel-N|ins-N/` senza `/it/`) | ❌ **Gap** | Nessuna copertura |
+| **Rule N** (`/autori/slug/` senza `/it/`) | ❌ **Gap** | `astro.config.mjs` copre solo la radice bare `/autori` → `/it/autori`, non i singoli slug |
+| **Rule Q** (`/categoria/slug/` senza `/it/`) | ❌ **Gap** | Stesso problema di Rule N, solo la radice è coperta |
+| **Rule Q0** (`/categoria/catechesi` bare) | ❌ **Gap** | `ARCHIVIO_REDIRECTS` copre solo la variante `/it/categoria/catechesi` |
+| **Rule R (trailing slash `/it/*`, `/en/*` → +`/`)** | ❌ **Gap**, già noto | Portabile con `trailingSlash: 'always'` nativo di Astro (`astro.config.mjs`) — probabilmente più pulito di riscriverla a mano nel middleware |
+| **Proxy WordPress legacy** → Aruba `89.46.105.36` | ✅ **Già ritirato** (non più nel Worker) | Rimosso interamente il 2026-07-27 (commit `a69b441f`), su dati reali e decisione esplicita — vedi `bug_ux_ui.md` "Segnalazioni 2026-07-27". Non è più un punto della migrazione B |
 | Header `X-Internal-Proxy-Auth` / `X-Forwarded-Host` / secret sync | 🗑️ Da eliminare con B | Causa dei 3 incidenti di luglio (Appendice A2) — con B non serve più: niente Worker, niente secret da sincronizzare tra due sistemi |
 
-### Fase 0 — Audit (0 rischio, nessuna modifica in produzione)
+**Conclusione Fase 0:** il Worker **non è ancora ritirabile** senza portare in Astro le 7 regole mancanti (E, I, J, M, N, Q, Q0) + il fallback Unicode sulla lookup table + Rule R. Nessuna di queste è complessa singolarmente (redirect statici/regex semplici), ma vanno tutte scritte e verificate prima di considerare chiusa la Fase 1.
 
-1. **Misurare traffico reale sui path WordPress legacy** via CF Analytics per path (`scripts/cf-analytics.mjs --by=path`, filtrato su `/wp-`) su una finestra di 30 giorni. Se è rumore/bot, si può ritirare il proxy Aruba senza sostituirlo. Se c'è traffico reale (es. hotlink a vecchie immagini `wp-content/uploads`), va deciso se migrare quei file su R2 o mantenere un proxy minimo dedicato.
-2. **Diff riga-per-riga** di ogni regola del Worker (B, F, F2, G, H, I, J, K, L, M, N, O, P, Q, Q0) contro l'equivalente in `middleware.ts`/`astro.config.mjs` — non fidarsi del nome uguale, verificare stesso input→stesso output su un campione di URL reali per regola.
-3. **Verificare sulla documentazione ufficiale Cloudflare** (non assumere) se un progetto Pages con custom domain attivo rende `*.pages.dev` **non più raggiungibile pubblicamente** o se resta comunque accessibile in parallelo — questo determina se, dopo B, la Fase 3 resta comunque necessaria per il problema SEO originale (probabile: sì, va verificato per certezza).
-4. **Elenco completo redirect da altri sistemi** che potrebbero dipendere dal Worker e non essere documentati qui (es. link social storici, backlink esterni) — grep su documentazione e su `redirects-legacy.json` per pattern non coperti.
+### Fase 0 — Audit (0 rischio, nessuna modifica in produzione) — ✅ COMPLETATA 2026-08-10
 
-### Fase 1 — Porting (su branch, build locale + `wrangler pages dev`, zero deploy)
+1. ~~Misurare traffico reale sui path WordPress legacy~~ — **già fatto il 2026-07-27**, prima ancora che questo audit iniziasse: proxy Aruba misurato e ritirato su decisione esplicita (vedi tabella sopra e `bug_ux_ui.md`). Nessuna azione residua.
+2. ~~Diff riga-per-riga di ogni regola del Worker~~ — **fatto**, esito nella tabella "Piano operativo" sopra e in Appendice A8: 7 gap reali + 1 fallback Unicode mancante, oltre a Rule R già nota.
+3. ~~Verificare se `*.pages.dev` resta raggiungibile con custom domain attivo~~ — **confermato sulla doc ufficiale Cloudflare**: sì, resta raggiungibile in parallelo. La doc stessa indica Access o Bulk Redirect come gli strumenti per disattivarlo — conferma che la Fase 3 resta necessaria dopo B.
+4. ~~Redirect da altri sistemi non documentati che dipendono dal Worker~~ — nessuna dipendenza nascosta trovata. Nota a margine: `WORKING.md` righe 118-127 ("catena attuale") è stale, mostra ancora il ramo proxy-Aruba come attivo — da correggere in una sessione di manutenzione documentazione, non blocca nulla.
 
+### Fase 1 — Porting (su branch, build locale + `wrangler pages dev`, zero deploy) — non ancora iniziata
+
+Task concreti emersi dall'audit Fase 0, tutti redirect statici o regex semplici:
 1. Aggiungere `trailingSlash: 'always'` (o equivalente) in `astro.config.mjs` per Rule R — verificare che non rompa route con query string o file statici (`.xml`, asset).
-2. Decidere e implementare l'esito dell'audit Fase 0 punto 1 (drop proxy WP, migrazione file mancanti su R2, o proxy minimo dedicato).
-3. Colmare eventuali gap trovati nel diff di Fase 0 punto 2.
-4. Smoke test completo su preview deployment (branch) contro un campione ampio di URL storici (usare `scripts/verify-redirects.mjs` esteso a coprire anche i pattern regex, non solo la lookup table).
+2. Portare Rule E (`/page/N/` → `/it/archivio/`), Rule M (`/archivio/oel-N|ins-N/` → `+/it`), Rule N (`/autori/slug/` → `+/it`), Rule Q (`/categoria/slug/` → `+/it`), Rule Q0 (`/categoria/catechesi` bare → spiritualità) in `middleware.ts` o `astro.config.mjs` a seconda del pattern (statico vs regex).
+3. Estendere Rule J (`/author/slug/` → `/it/autori/slug/`) da caso singolo hardcoded a regola generale.
+4. Estendere `PROJECT_ANY_RE` (Rule I) per coprire anche `/project_category/*`, non solo `/project/`.
+5. Aggiungere fallback su path decodificato nel lookup `REDIRECTS[path]` di `middleware.ts` (come già fa il Worker: `REDIRECTS[path] || REDIRECTS[decodedPath]`), per le 2 chiavi Unicode nella lookup table.
+6. Smoke test completo su preview deployment (branch) contro un campione ampio di URL storici, incluse tutte le regole appena portate (usare `scripts/verify-redirects.mjs` esteso a coprire anche i pattern regex, non solo la lookup table).
 
 ### Fase 2 — Cutover DNS (finestra di manutenzione dedicata, rollback pronto)
 
@@ -115,6 +127,34 @@ Conferma: il meccanismo funziona a livello edge, ma **è puntuale** (match esatt
 **Conclusione (motiva la Decisione attuale in cima):** per coprire l'intero sito via Bulk Redirects servirebbe una lista con una voce per ogni URL reale, mantenuta manualmente ad ogni pubblicazione — o automatizzata con un'integrazione aggiuntiva (es. Directus Flow → Cloudflare API ad ogni publish) che reintrodurrebbe esattamente la classe di rischio (secret/chiamata API che può fallire in silenzio) che questo progetto ha speso sessioni a eliminare altrove. Non è la soluzione "una riga e via" che sembrava dalla documentazione. **Cloudflare Access resta la scelta primaria per la Fase 3** — Bulk Redirects resta utile solo per redirect puntuali (pochi URL fissi), non come sostituto di Access per la copertura totale.
 
 **Non ancora testato:** se il meccanismo intercetta anche la subrequest interna del Worker (`forwardToPages()`), non solo le richieste esterne dirette — vedi punto 6 della Decisione attuale (da chiudere prima di attivare Fase 3, non bloccante per l'audit).
+
+## A7-bis. Proxy WordPress legacy — ritiro (2026-07-27, per completezza cronologica)
+
+Contestualmente all'audit del Worker del 27/7 (Appendice A4/tabella "Piano operativo"), è stato anche misurato e ritirato il proxy verso il WordPress live su Aruba (`89.46.105.36`) che il Worker usava per `/wp-admin`, `/wp-content`, `/wp-includes`, `/wp-json`, `/feed`, `wp-login.php`, `wp-cron.php`, `xmlrpc.php`. Traffico reale 7gg campionato: centinaia di hit scanner/bot (rimossi senza perdita), 838 hit/settimana su 86 immagini storiche `wp-content/uploads/*` e 944 hit/settimana su `wp-json/oembed` (probabile anteprima link esterni) — su questi due, decisione esplicita dell'utente di accettare la rottura (404) piuttosto che mantenere un WordPress pubblico vivo solo per servirli. Deploy `879f73cc`, smoke test post-deploy pulito. Dettaglio completo in `bug_ux_ui.md`, sezione "Segnalazioni 2026-07-27". Non più un punto aperto della migrazione B→A.
+
+## A8. Confronto regola-per-regola Worker vs Astro (audit Fase 0, 2026-08-10)
+
+Eseguito per verificare l'assunzione (mai testata rigorosamente prima) che le regole del Worker fossero "quasi tutte già duplicate" in Astro. Confronto pattern-per-pattern (stesso input → stesso output), non solo per nome/commento.
+
+**Duplicate e verificate equivalenti:** Rule B (data), F/F2 (anno-slug IT/EN), G (numero corto), H (project-numero), K (diario), L (insieme), O (blog EN).
+
+**Duplicata con comportamento migliore in Astro:** Rule P (blog IT) — il Worker ha un bug proprio (`/blog/en` → `/it/en/` invece di `/en/`); Astro lo gestisce già correttamente.
+
+**Gap reali (nessun equivalente in Astro):**
+- Rule E: `/page/N/` → archivio
+- Rule I: `/project_category/*` → archivio (coperto solo `/project/`, non la variante `_category`)
+- Rule J: `/author/slug/` → `/it/autori/slug/` (solo un caso hardcoded esiste, non una regola generale)
+- Rule M: `/archivio/oel-N|ins-N/` senza prefisso `/it/`
+- Rule N: `/autori/slug/` senza prefisso `/it/` (solo la radice bare è coperta)
+- Rule Q: `/categoria/slug/` senza prefisso `/it/` (solo la radice bare è coperta)
+- Rule Q0: `/categoria/catechesi` bare (coperta solo la variante `/it/categoria/catechesi`)
+- Rule R: trailing slash (già nota da prima di questo audit)
+
+**Gap parziale sulla lookup table:** `middleware.ts` fa `REDIRECTS[path]` senza fallback su path decodificato; il Worker fa `REDIRECTS[path] || REDIRECTS[decodedPath]`. Impatto: le 2 chiavi Unicode nel JSON legacy (es. `/メリークリスマス/`) non matchano in Astro perché `url.pathname` arriva percent-encoded — 404 invece di 301 per quei 2 URL specifici.
+
+Verificato che il file del Worker non contiene altri redirect hardcoded dopo Rule R: l'ultima istruzione è `return forwardToPages(request, env)`.
+
+**Lezione:** l'audit del 27/7 (Appendice A4) aveva concluso "quasi tutto già duplicato" basandosi su un controllo per nome/commento, non su un confronto pattern-per-pattern degli input reali — esattamente il tipo di verifica ottimistica-non-testata che ha causato i 3 incidenti di luglio (Appendice A2). Il piano operativo in cima a questo documento è stato corretto di conseguenza.
 
 ## A7. Note tecniche — API Cloudflare per prossime sessioni
 
