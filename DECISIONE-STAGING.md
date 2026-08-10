@@ -42,15 +42,17 @@
 3. ~~Verificare se `*.pages.dev` resta raggiungibile con custom domain attivo~~ — **confermato sulla doc ufficiale Cloudflare**: sì, resta raggiungibile in parallelo. La doc stessa indica Access o Bulk Redirect come gli strumenti per disattivarlo — conferma che la Fase 3 resta necessaria dopo B.
 4. ~~Redirect da altri sistemi non documentati che dipendono dal Worker~~ — nessuna dipendenza nascosta trovata. Nota a margine: `WORKING.md` righe 118-127 ("catena attuale") è stale, mostra ancora il ramo proxy-Aruba come attivo — da correggere in una sessione di manutenzione documentazione, non blocca nulla.
 
-### Fase 1 — Porting (su branch, build locale + `wrangler pages dev`, zero deploy) — non ancora iniziata
+### Fase 1 — Porting — ✅ COMPLETATA 2026-08-10 (branch, non ancora in produzione attiva)
 
-Task concreti emersi dall'audit Fase 0, tutti redirect statici o regex semplici:
-1. Aggiungere `trailingSlash: 'always'` (o equivalente) in `astro.config.mjs` per Rule R — verificare che non rompa route con query string o file statici (`.xml`, asset).
-2. Portare Rule E (`/page/N/` → `/it/archivio/`), Rule M (`/archivio/oel-N|ins-N/` → `+/it`), Rule N (`/autori/slug/` → `+/it`), Rule Q (`/categoria/slug/` → `+/it`), Rule Q0 (`/categoria/catechesi` bare → spiritualità) in `middleware.ts` o `astro.config.mjs` a seconda del pattern (statico vs regex).
-3. Estendere Rule J (`/author/slug/` → `/it/autori/slug/`) da caso singolo hardcoded a regola generale.
-4. Estendere `PROJECT_ANY_RE` (Rule I) per coprire anche `/project_category/*`, non solo `/project/`.
-5. Aggiungere fallback su path decodificato nel lookup `REDIRECTS[path]` di `middleware.ts` (come già fa il Worker: `REDIRECTS[path] || REDIRECTS[decodedPath]`), per le 2 chiavi Unicode nella lookup table.
-6. Smoke test completo su preview deployment (branch) contro un campione ampio di URL storici, incluse tutte le regole appena portate (usare `scripts/verify-redirects.mjs` esteso a coprire anche i pattern regex, non solo la lookup table).
+Tutte le 7 regole mancanti + fallback Unicode portate in `src/middleware.ts` in un unico commit (revertibile con un solo `git revert`). Rule R implementata come check esplicito nel middleware (stessa logica esatta del Worker), non con l'opzione nativa `trailingSlash` di Astro — comportamento non verificato per route dinamiche/nested, replicare 1:1 è più sicuro che fidarsi di una funzione diversa.
+
+**Verifica in 3 livelli, dato che il testing HTTP end-to-end via preview `pages.dev` si è rivelato inaffidabile per un motivo strutturale (vedi sotto):**
+1. **Simulazione pura in Node** con la stessa identica logica regex/lookup, contro 19 casi reali (non sintetici): i 2 URL Unicode byte-per-byte dal JSON, l'autore `pierfrancesco-de-paolis` (reale), il numero `oel-38` (reale), la categoria `famiglia` (slug reale da `categorie.json`), la precedenza Q0→Q. **19/19 passati.**
+2. **Build locale** (`npm run build`) pulita, nessun errore TypeScript.
+3. **Test HTTP reale** tentato prima in locale (`wrangler pages dev`), poi su una preview Cloudflare isolata (`wrangler pages deploy dist --branch=test-fase1-redirect-audit`, deployment temporaneo scollegato da git, non toccato main): entrambi hanno dato 404 per i path bare appena portati. **Causa identificata, non un bug nel codice**: il middleware ha un gate preesistente (non toccato da questa Fase 1) che confronta `url.hostname` con `ombreeluci.it`/`www.ombreeluci.it` — su un URL `*.pages.dev` questo è sempre falso, quindi la richiesta esce subito con solo l'header noindex, senza mai raggiungere la logica di redirect sottostante. Confermato spoofando l'header `Host: ombreeluci.it`: in locale Miniflare lo accetta (falso positivo, non rappresentativo), sull'edge reale Cloudflare lo rifiuta con 403 (mismatch host/SNI, comportamento di sicurezza corretto). Prova decisiva: su `/categoria/famiglia/` richiesto con l'hostname reale `pages.dev` (nessuno spoofing), l'header `X-Robots-Tag: noindex` **è presente** — cioè il middleware **viene invocato** anche per i path bare sull'edge reale (a differenza del simulatore locale, che si è rivelato inaffidabile su questo aspetto specifico). Il gate host, non un difetto di routing, è l'unica ragione per cui il redirect finale non è verificabile via preview.
+4. **Perché è sicuro comunque**: oggi in produzione il Worker (`ombreeluci-redirects`) intercetta questi stessi path bare (`/categoria/*`, `/autori/*`, `/page/*`, ecc.) **prima** che la richiesta arrivi ad Astro/Pages — le nuove regole in `middleware.ts` sono quindi dormienti finché il Worker resta davanti al traffico. Diventano attive solo dopo la Fase 2 (cutover). Il merge in `main` di questo porting non cambia alcun comportamento visibile oggi.
+
+**Nota per Fase 2:** una verifica HTTP end-to-end sui target di redirect reali sarà possibile solo con hostname `ombreeluci.it` vero — o subito dopo il cutover (con rollback pronto), o disattivando temporaneamente il gate host in una sessione di test dedicata, mai tramite preview `pages.dev`.
 
 ### Fase 2 — Cutover DNS (finestra di manutenzione dedicata, rollback pronto)
 

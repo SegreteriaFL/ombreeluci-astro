@@ -15,6 +15,11 @@ const ARCHIVIO_REDIRECTS: Record<string, string> = {
   // slug autore corretto in Directus (2026-05-21): depaolis → de-paolis
   '/it/autori/pierfrancesco-depaolis': '/it/autori/pierfrancesco-de-paolis/',
   '/it/autori/pierfrancesco-depaolis/': '/it/autori/pierfrancesco-de-paolis/',
+  // Rule Q0 (porting da cf-worker/redirect-worker.js, FASE1-01 2026-08-10): variante bare
+  // senza /it/, controllata prima della Rule Q generica altrimenti '/categoria/catechesi'
+  // finirebbe su '/it/categoria/catechesi/' invece che sul redirect a spiritualità.
+  '/categoria/catechesi': '/it/categoria/spiritualita/',
+  '/categoria/catechesi/': '/it/categoria/spiritualita/',
 };
 
 // Regex per redirect WordPress date-based: /YYYY/MM/DD/slug/ → /it/slug/
@@ -39,7 +44,8 @@ const YEAR_SLUG_RE    = /^\/(\d{4})\/([^/]+?)\/?$/;       // /YYYY/slug    → /
 
 // Fix-3/4: WP custom post type "project" = numeri rivista
 const PROJECT_NUMERO_RE = /^\/project\/numero-(\d+)-/;    // /project/numero-N-* → /it/archivio/oel-N/
-const PROJECT_ANY_RE    = /^\/project\//;                  // /project/*          → /it/archivio/
+// Rule I (porting FASE1-01): anche /project_category/* nel Worker, non solo /project/*.
+const PROJECT_ANY_RE    = /^\/project[/_]/;                // /project/* o /project_category/* → /it/archivio/
 
 // Fix-5: shortlink numeri rivista /n-N/ → /it/archivio/oel-N/
 const NUMERO_SHORT_RE = /^\/n-(\d+)\/?$/;
@@ -49,6 +55,31 @@ const INSIEME_RE = /^\/insieme\/insieme-n-(\d+)\/?$/;
 
 // Fix-7: sfogliabili rivista con anno /it/ombre(-e)?-luci-n-N-YYYY-sfogliabile/ → /it/archivio/oel-N/
 const SFOGLIABILE_RE = /^\/it\/ombre(?:-e)?-luci-n-(\d+)-\d{4}-sfogliabile\/?$/;
+
+// --- Porting da cf-worker/redirect-worker.js (FASE1-01, 2026-08-10) ---
+// Audit Fase 0 (DECISIONE-STAGING.md Appendice A8) ha trovato queste regole del Worker
+// senza equivalente in Astro — necessarie prima di poter ritirare il Worker (Fase 2).
+
+// Rule E: /page/N/ (vecchia paginazione WP) → /it/archivio/
+const PAGE_RE = /^\/page\/\d+\/?$/;
+
+// Rule J+N unificate: /author/slug/ e /autori/slug/ (bare, senza /it/) → /it/autori/slug/.
+// Nel Worker sono due regole distinte ma producono lo stesso target via semplice
+// concatenazione di stringa (nessun lookup dati) — unificabili senza rischio.
+const AUTORI_BARE_RE = /^\/(?:author|autori)\/([^/]+)\/?$/;
+
+// Rule M: /archivio/oel-N/ o /archivio/ins-N/ (bare, senza /it/) → /it/archivio/oel-N|ins-N/
+const ARCHIVIO_BARE_RE = /^\/archivio\/((?:oel|ins)-\d+)\/?$/;
+
+// Rule Q: /categoria/slug/ (bare, senza /it/) → /it/categoria/slug/.
+// La variante /categoria/catechesi è già gestita sopra in ARCHIVIO_REDIRECTS (Rule Q0),
+// controllata prima di questa regola generica.
+const CATEGORIA_BARE_RE = /^\/categoria\/([^/]+)\/?$/;
+
+// Rule R: /it/* e /en/* senza trailing slash → 301 con slash (canonical SEO).
+// Stessa logica esatta del Worker, non l'opzione nativa astro.config.mjs trailingSlash
+// (comportamento non verificato per route dinamiche/nested — replicare 1:1 è più sicuro).
+const TRAILING_SLASH_RE = /^\/(it|en)\//;
 
 export const onRequest = defineMiddleware(async ({ url, redirect, request }, next) => {
   // Il noindex deve dipendere dall'host REALE della richiesta, non da una variabile
@@ -79,8 +110,15 @@ export const onRequest = defineMiddleware(async ({ url, redirect, request }, nex
     return redirect('/it/' + blogItMatch[1] + '/', 301);
   }
 
-  const target = REDIRECTS[path];
+  // Fallback su path decodificato (porting FASE1-01): url.pathname arriva percent-encoded
+  // per caratteri non-ASCII (es. /メリークリスマス/ → /%E3%83%A1.../), le chiavi del JSON
+  // sono invece UTF-8 raw — senza questo fallback quelle 2 voci non matchano mai.
+  const decodedPath = (() => { try { return decodeURIComponent(path); } catch { return path; } })();
+  const target = REDIRECTS[path] || REDIRECTS[decodedPath];
   if (target) return redirect('https://ombreeluci.it' + target, 301);
+
+  const pageMatch = path.match(PAGE_RE);
+  if (pageMatch) return redirect('/it/archivio/', 301);
 
   const dateMatch = path.match(DATE_PATH_RE);
   if (dateMatch) return redirect('https://ombreeluci.it/it/' + dateMatch[1], 301);
@@ -114,6 +152,28 @@ export const onRequest = defineMiddleware(async ({ url, redirect, request }, nex
   // Fix-7: /it/ombre(-e)?-luci-n-N-YYYY-sfogliabile/ → /it/archivio/oel-N/
   const sfogliabileMatch = path.match(SFOGLIABILE_RE);
   if (sfogliabileMatch) return redirect('/it/archivio/oel-' + sfogliabileMatch[1] + '/', 301);
+
+  // Rule J+N: /author/slug/ o /autori/slug/ (bare) → /it/autori/slug/
+  const autoriBareMatch = path.match(AUTORI_BARE_RE);
+  if (autoriBareMatch) return redirect('/it/autori/' + autoriBareMatch[1] + '/', 301);
+
+  // Rule M: /archivio/oel-N|ins-N/ (bare) → /it/archivio/oel-N|ins-N/
+  const archivioBareMatch = path.match(ARCHIVIO_BARE_RE);
+  if (archivioBareMatch) return redirect('/it/archivio/' + archivioBareMatch[1] + '/', 301);
+
+  // Rule Q: /categoria/slug/ (bare) → /it/categoria/slug/ — Rule Q0 (catechesi) già gestita sopra.
+  const categoriaBareMatch = path.match(CATEGORIA_BARE_RE);
+  if (categoriaBareMatch) return redirect('/it/categoria/' + categoriaBareMatch[1] + '/', 301);
+
+  // Rule R: /it/* e /en/* senza trailing slash → +'/' (esclude file con estensione e /api/).
+  if (
+    TRAILING_SLASH_RE.test(path) &&
+    !path.endsWith('/') &&
+    !path.includes('.') &&
+    !path.startsWith('/api/')
+  ) {
+    return redirect(path + '/', 301);
+  }
 
   return next();
 });
