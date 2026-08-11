@@ -56,9 +56,18 @@ Tutte le 7 regole mancanti + fallback Unicode portate in `src/middleware.ts` in 
 
 ### Fase 2 — Cutover DNS (finestra di manutenzione dedicata, rollback pronto)
 
-1. Procedura ricalcata su quella del cutover 21/5 (`STATO.md`): custom domain Pages riattivato, DNS puntato direttamente, Worker disattivato **non eliminato** (tenerlo pronto per rollback immediato in caso di sorpresa).
-2. Finestra a basso traffico, monitoraggio attivo CF Analytics + UptimeRobot durante e dopo.
-3. Criterio di rollback esplicito e scritto **prima** di iniziare (es. "se error rate >1% per >5 minuti, riattiva Worker").
+**Verificato il 2026-08-10 (API Cloudflare + dashboard), cambia la sequenza rispetto a una generica "attiva il custom domain":**
+- Il record DNS apex `ombreeluci.it` (A, proxied) punta ancora letteralmente a `89.46.105.36` — l'IP Aruba del vecchio WordPress, la stessa costante `ARUBA_IP` scritta nel codice del Worker. Il sito funziona solo perché la Route del Worker intercetta il 100% del traffico prima che possa raggiungere quell'IP (incidente reale già accaduto il 3/4/2026 per questo esatto motivo — rimossa la route senza aver mappato la catena DNS, sito ha mostrato WordPress per ore, vedi `WORKING.md`).
+- Il custom domain Pages **esiste già** per entrambi `ombreeluci.it` e `www.ombreeluci.it` (creati 2026-04-01, verificati via `GET /accounts/{id}/pages/projects/ombreeluci-staging/domains`) ma **status `"deactivated"`** per entrambi. Non è "attivare da zero", è **riattivare** un'associazione dormiente.
+
+**Sequenza corretta (l'ordine conta, mai al contrario):**
+1. **Riattivare i due custom domain deactivated** su Pages (dashboard progetto → Custom domains, o API) e verificare che lo stato torni `"active"` per entrambi. Il metodo di validazione salvato è `http` — se Cloudflare richiede una nuova validazione dopo mesi di inattività, va risolta qui, prima di toccare il Worker.
+2. **Verificare che Pages serva correttamente `ombreeluci.it`** con il Worker ancora attivo in parallelo (i due meccanismi possono coesistere; la Route del Worker vince comunque su tutto, quindi riattivare i custom domain a questo punto è a rischio zero — non cambia nulla di visibile finché la Route resta attiva).
+3. **Solo a questo punto**, disattivare (non eliminare) la Route del Worker su `ombreeluci.it/*` — tenerla pronta per una riattivazione immediata come rollback.
+4. Procedura per il resto ricalcata sul cutover del 21/5 (`STATO.md`): finestra a basso traffico, monitoraggio attivo CF Analytics + UptimeRobot durante e dopo.
+5. Criterio di rollback esplicito e scritto **prima** di iniziare (es. "se error rate >1% per >5 minuti, riattiva la Route del Worker").
+
+**Perché l'ordine 1→3 e non il contrario:** se si disattiva la Route del Worker prima di aver confermato che il custom domain Pages è di nuovo `active`, si riapre esattamente la finestra dell'incidente del 3/4/2026 — nessun meccanismo servirebbe più `ombreeluci.it`, e il traffico cadrebbe sul record DNS letterale, cioè sul WordPress morto su Aruba.
 
 ### Fase 3 — Cloudflare Access davanti a Pages
 
