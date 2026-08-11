@@ -21,7 +21,10 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 
 **Intervento:** aggiunto lo stesso blocco `categoryDisplay2`/`categoryLink2` (separatore ` · `) anche al ramo `--online`, identico pattern già usato nell'altro ramo. File: `src/pages/it/[slug].astro`, `src/pages/en/[slug].astro`.
 
-**Da verificare su staging dopo deploy:** un articolo web-only con secondo tema mostra ora entrambi i link nel badge.
+**DOPO:** verificato live su staging post-deploy (`3d539aff`), 3 casi reali via query Directus:
+- IT web-only, 2 temi (`il-mio-ritiro-spirituale-a-morlupo`) → badge mostra "Fede e Luce · Tempo libero" con entrambi i link.
+- EN web-only, 2 temi (`august-a-holiday-i-dont-know`) → badge mostra "Leisure · Family" con entrambi i link.
+- IT con numero rivista, 2 temi (`ascoltare-i-segni-perche-in-lis`, OEL-142) → nessuna regressione, comportamento invariato.
 
 ## Segnalazioni 2026-08-07
 
