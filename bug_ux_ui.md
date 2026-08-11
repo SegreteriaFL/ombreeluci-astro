@@ -12,6 +12,20 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 -->
 ------
 
+## Segnalazioni 2026-08-11
+
+### FATTO — Secondo tema (`categoria_menu_2`) mancante nel badge degli articoli "pubblicati online"
+**Desiderata:** un articolo con `categoria_menu` e `categoria_menu_2` entrambi valorizzati mostrava un solo tema nel badge sopra il titolo.
+
+**Causa:** il badge ha due varianti: articoli con numero rivista assegnato (`<nav class="article-category-badge">`) e articoli "pubblicati online" senza numero (`<div class="article-category-badge--online">`). TEMA-02 (`7dab7419`, 2026-05-08) aveva aggiunto `categoryDisplay2`/`categoryLink2` solo alla prima variante — la seconda non è mai stata toccata, per una dimenticanza nel commit originale (confermato dal diff: si ferma subito prima del ramo `else`). Nessuna decisione editoriale dietro, verificato in `CLAUDE.md`/`STATO.md`: la spec TEMA-02 descrive il comportamento in modo generico ("il badge mostra max 2 link"), senza distinguere le due varianti.
+
+**Intervento:** aggiunto lo stesso blocco `categoryDisplay2`/`categoryLink2` (separatore ` · `) anche al ramo `--online`, identico pattern già usato nell'altro ramo. File: `src/pages/it/[slug].astro`, `src/pages/en/[slug].astro`.
+
+**DOPO:** verificato live su staging post-deploy (`3d539aff`), 3 casi reali via query Directus:
+- IT web-only, 2 temi (`il-mio-ritiro-spirituale-a-morlupo`) → badge mostra "Fede e Luce · Tempo libero" con entrambi i link.
+- EN web-only, 2 temi (`august-a-holiday-i-dont-know`) → badge mostra "Leisure · Family" con entrambi i link.
+- IT con numero rivista, 2 temi (`ascoltare-i-segni-perche-in-lis`, OEL-142) → nessuna regressione, comportamento invariato.
+
 ## Segnalazioni 2026-08-07
 
 ### FATTO — Didascalia foto non si aggiornava mai (articolo "Esperienze, i campi dell'estate 1977")

@@ -518,6 +518,12 @@ const relatedArticles = (() => {
             ) : (
               t(locale, 'published_online')
             )}
+            {categoryDisplay2 && <span class="article-badge-sep"> · </span>}
+            {categoryDisplay2 && (categoryLink2 ? (
+              <a href={categoryLink2} class="article-badge-link">{categoryDisplay2}</a>
+            ) : (
+              <span class="article-badge-text">{categoryDisplay2}</span>
+            ))}
           </div>
         )}
 
