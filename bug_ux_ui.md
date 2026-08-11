@@ -12,6 +12,17 @@ La redazione può togliere la x se il fix non risolve possibilmente commentando 
 -->
 ------
 
+## Segnalazioni 2026-08-11
+
+### FATTO — Secondo tema (`categoria_menu_2`) mancante nel badge degli articoli "pubblicati online"
+**Desiderata:** un articolo con `categoria_menu` e `categoria_menu_2` entrambi valorizzati mostrava un solo tema nel badge sopra il titolo.
+
+**Causa:** il badge ha due varianti: articoli con numero rivista assegnato (`<nav class="article-category-badge">`) e articoli "pubblicati online" senza numero (`<div class="article-category-badge--online">`). TEMA-02 (`7dab7419`, 2026-05-08) aveva aggiunto `categoryDisplay2`/`categoryLink2` solo alla prima variante — la seconda non è mai stata toccata, per una dimenticanza nel commit originale (confermato dal diff: si ferma subito prima del ramo `else`). Nessuna decisione editoriale dietro, verificato in `CLAUDE.md`/`STATO.md`: la spec TEMA-02 descrive il comportamento in modo generico ("il badge mostra max 2 link"), senza distinguere le due varianti.
+
+**Intervento:** aggiunto lo stesso blocco `categoryDisplay2`/`categoryLink2` (separatore ` · `) anche al ramo `--online`, identico pattern già usato nell'altro ramo. File: `src/pages/it/[slug].astro`, `src/pages/en/[slug].astro`.
+
+**Da verificare su staging dopo deploy:** un articolo web-only con secondo tema mostra ora entrambi i link nel badge.
+
 ## Segnalazioni 2026-08-07
 
 ### FATTO — Didascalia foto non si aggiornava mai (articolo "Esperienze, i campi dell'estate 1977")
