@@ -1,7 +1,7 @@
 # Log monitoraggio SEO/uptime/redirect — Ombre e Luci
 
 > Log settimanale generato dal check automatico. Entry più recente in alto.
-> Per l'architettura generale del monitoring vedi [MONITORING.md](MONITORING.md).
+> Per l'architettura generale del monitoring vedi [RUNBOOK.md](../RUNBOOK.md) § 12-17.
 > Tool usato: `scripts/gsc-query.mjs` (Search Analytics), `scripts/cf-analytics.mjs` (CF), `scripts/ga-query.mjs` (GA4), UptimeRobot API, `scripts/verify-redirects.mjs`.
 
 ---

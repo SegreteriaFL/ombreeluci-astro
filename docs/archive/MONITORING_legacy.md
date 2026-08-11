@@ -1,3 +1,5 @@
+> **ARCHIVIATO 2026-08-10** — contenuto consolidato in `RUNBOOK.md` (repo root), sezioni 12-17. Conservato solo per riferimento storico, non aggiornare.
+
 # Sistema di monitoring — Ombre e Luci
 
 > Documento tecnico di riferimento per il sistema di osservabilità del sito.

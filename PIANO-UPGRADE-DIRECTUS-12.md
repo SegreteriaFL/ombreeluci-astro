@@ -41,7 +41,7 @@ Rischio diretto per noi: abbiamo permessi per-campo curati a mano su più ruoli 
 
 ### Fase 2 — Cutover produzione (finestra di manutenzione)
 1. Solo dopo Fase 1 verde. Backup pre-upgrade esplicito (oltre al backup giornaliero automatico già esistente).
-2. `docker compose pull && docker compose up -d` sulla versione 12.x scelta, seguendo la procedura già documentata in `INFRASTRUTTURA.md`.
+2. `docker compose pull && docker compose up -d` sulla versione 12.x scelta, seguendo la procedura già documentata in `RUNBOOK.md` § 9 "Versioni".
 3. Configurare/attivare la licenza gratuita **immediatamente**, non aspettare i 30 giorni.
 4. Smoke test completo (login Editor reale, non solo admin; verifica un articolo con WYSIWYG; verifica le Flow critiche).
 5. Monitorare per 48h.

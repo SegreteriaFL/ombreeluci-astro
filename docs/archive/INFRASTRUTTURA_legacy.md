@@ -1,3 +1,5 @@
+> **ARCHIVIATO 2026-08-10** — contenuto consolidato in `RUNBOOK.md` (repo root). Conservato solo per riferimento storico, non aggiornare.
+
 # Ombre e Luci — Infrastruttura e Operatività
 
 ## Come gira tutto
