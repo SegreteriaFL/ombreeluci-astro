@@ -1,21 +1,8 @@
+> **ARCHIVIATO 2026-08-12** — versione di `STATO.md` immediatamente precedente alla fusione con `bug_ux_ui.md` e `docs/SEO-MONITORING-LOG.md`. Conservato per riferimento storico/diff, non aggiornare. Versione corrente: `STATO.md` (repo root).
+
 # STATO — Ombre e Luci
 
 **Ultimo aggiornamento:** 2026-08-08
-
----
-
-## Come leggere questo file (nota di fusione — 2026-08-12)
-
-Questo file **unisce tre log** che nel tempo si erano sovrapposti: la vecchia `STATO.md` (log di sessione principale, cronologia perlopiù inversa), `bug_ux_ui.md` (tracker bug/ticket con marcatori FATTO/APERTO/RISOLTO/`[x]`/`[ ]`) e `docs/SEO-MONITORING-LOG.md` (check settimanale SEO/traffico/uptime). Fusione verificata e finalizzata il 2026-08-12 — i tre file originali sono archiviati in `docs/archive/` (`STATO_pre-merge-2026-08-12_legacy.md`, `bug_ux_ui_legacy.md`, `SEO-MONITORING-LOG_legacy.md`) per riferimento storico, non più la fonte di verità.
-
-Struttura prodotta:
-
-- **Corpo principale** — la cronologia sessioni di `STATO.md`, preservata come backbone senza riscriverne il contenuto già esistente.
-- **Sezioni con intestazione `[BUG] Segnalazioni YYYY-MM-DD`** — contenuto portato da `bug_ux_ui.md` per date/lavoro che NON avevano una voce corrispondente in `STATO.md` (tracciate solo come ticket, mai narrate come sessione di sviluppo). Inserite alla posizione cronologica corretta nella timeline. Il caso più rilevante: **le sessioni del 2026-07-27 e 2026-07-28** (rimozione proxy WordPress su Aruba, tre bug indipendenti nella sync Algolia, traduzione De Paolis, foto EN Morlupo, redirect `/en/category/ombre-e-luci/`) esistevano **solo** in `bug_ux_ui.md` — `STATO.md` non aveva nessuna voce per quelle due date, pur avendo sessioni sia prima (24/7) che dopo (7/8).
-- **Dove `bug_ux_ui.md` copriva la STESSA data/lavoro già narrato in `STATO.md`** — nessuna voce duplicata creata. Il caso principale è il 2026-08-07 (bug didascalia "Nanda"): la voce `STATO.md` **DIDASCALIA-NANDA** esistente è stata integrata con i dettagli presenti solo nel bug tracker (i tre timestamp di salvataggio 14:38/14:41/14:46, il riferimento a `src/lib/directus.ts:1019`, la nota di rischio sistemico) invece di creare una seconda voce.
-- **Backlog** — le sezioni "Da fare"/backlog di `STATO.md` sono preservate dove già esistevano. I bug ancora APERTO nel tracker senza già una riga di backlog corrispondente sono stati aggiunti come nuove righe, marcate `[da bug_ux_ui.md]`. Un caso di stato disallineato tra le fonti è segnalato inline con `[DA REVISIONARE]`.
-- **`## Log SEO/Monitoring settimanale`** in fondo al file — contenuto integrale di `docs/SEO-MONITORING-LOG.md`, incollato come blocco unico con la sua cronologia interna invariata. Non interfogliato nella timeline giornaliera: sono check settimanali tabellari/numerici, interfogliarli avrebbe frammentato le tabelle senza guadagno di leggibilità.
-- **Appendice finale** — un blocco di testo (credit foto Unsplash) trovato in coda a `bug_ux_ui.md`, senza relazione con nessun bug. Non è stato scartato (zero information loss) ma isolato in un'appendice a parte.
 
 ---
 
@@ -25,30 +12,12 @@ Elenco prioritizzato, discusso con Fede a fine sessione dell'8/8, coerente con l
 
 **Sito (Astro/Cloudflare):**
 1. **Staging Worker → dominio diretto** (piano B→A completo in `DECISIONE-STAGING.md` §6) — intervento a più leva per la stabilità: elimina la classe di bug dei 3 incidenti di produzione di luglio (sync secret Worker↔Pages). Non urgente (zero incidenti attivi), ma è il singolo cambiamento che riduce di più il rischio strutturale nel tempo. Richiede sessione dedicata + finestra di manutenzione, mai incastrato tra altro lavoro.
-2. **Articoli post-migrazione mancanti** (memoria `project_articoli_mancanti`) — 404 reali, lavoro meccanico e limitato (dump SQL + confronto slug con Directus), quando c'è mezza giornata libera. **Esempi noti da `bug_ux_ui.md` (fusi qui):** `interpretazioni-disabilita-al-far-east-festival` (WP ID 15769606, maggio 2026), `anche-questanno-partecipero-alla-12-ore-nuotando-con-amore` (WP ID 15769564, maggio 2026). Pattern: probabilmente tutti gli articoli WP con ID > ~15768000. Verifica: `curl -k "https://www.ombreeluci.it/wp-json/wp/v2/posts?per_page=100&orderby=id&order=desc&_fields=id,slug,date&status=publish"` confrontando con Directus.
+2. **Articoli post-migrazione mancanti** (memoria `project_articoli_mancanti`) — 404 reali, lavoro meccanico e limitato (dump SQL + confronto slug con Directus), quando c'è mezza giornata libera.
 
 **Directus (priorità più alta secondo Fede — impatta la redazione ogni giorno):**
 1. **Campo errore visibile sulle Flow critiche** (es. `errore_flow` su `articoli`, scritto quando un'operation fallisce — parse error, 401, ecc.) — non ancora implementato, proposto da tempo in `project_directus_flow_silent_failures` come fix di lungo periodo. **Identificato come il prossimo intervento con più leva**: il pattern ricorrente dietro la maggior parte degli incidenti "sembrava salvato ma non lo era" (import JSON, Algolia, sync-didascalia) è sempre lo stesso — Flow che falliscono senza segnalare nulla a chi le ha innescate. Un campo errore visibile trasforma "lo scopriamo tra due settimane" in "errore visibile subito", senza dover fixare ogni singola Flow una alla volta.
 2. **Permessi Editor→EN, decidere su `delete`** — oggi bloccato per effetto collaterale della restrizione del 7/8 (vedi [[feedback_it_first_cascade]] aggiornata 8/8): un Editor non può più completare da solo la cancellazione di una coppia di articoli tradotti. Proposto restituire almeno `delete`, mantenendo bloccati `create`/`update`/`read` su righe EN. Non ancora deciso.
 3. **Cache/Service Worker admin Directus** — nessun fix tecnico disponibile (limite della loro PWA, non nostro, vedi memoria `project_directus_admin_stale_cache`). Solo mitigazione: abitudine di hard-refresh, non un intervento da pianificare.
-
----
-
-## [BUG] Segnalazioni 2026-08-11 — Secondo tema mancante nel badge "pubblicati online"
-
-*Portato da `bug_ux_ui.md` — nessuna sessione `STATO.md` per questa data (è la voce più recente del bug tracker, successiva anche all'ultimo aggiornamento datato di `STATO.md`, 2026-08-08).*
-
-### FATTO — Secondo tema (`categoria_menu_2`) mancante nel badge degli articoli "pubblicati online"
-**Desiderata:** un articolo con `categoria_menu` e `categoria_menu_2` entrambi valorizzati mostrava un solo tema nel badge sopra il titolo.
-
-**Causa:** il badge ha due varianti: articoli con numero rivista assegnato (`<nav class="article-category-badge">`) e articoli "pubblicati online" senza numero (`<div class="article-category-badge--online">`). TEMA-02 (`7dab7419`, 2026-05-08) aveva aggiunto `categoryDisplay2`/`categoryLink2` solo alla prima variante — la seconda non è mai stata toccata, per una dimenticanza nel commit originale (confermato dal diff: si ferma subito prima del ramo `else`). Nessuna decisione editoriale dietro, verificato in `CLAUDE.md`/`STATO.md`: la spec TEMA-02 descrive il comportamento in modo generico ("il badge mostra max 2 link"), senza distinguere le due varianti.
-
-**Intervento:** aggiunto lo stesso blocco `categoryDisplay2`/`categoryLink2` (separatore ` · `) anche al ramo `--online`, identico pattern già usato nell'altro ramo. File: `src/pages/it/[slug].astro`, `src/pages/en/[slug].astro`.
-
-**DOPO:** verificato live su staging post-deploy (`3d539aff`), 3 casi reali via query Directus:
-- IT web-only, 2 temi (`il-mio-ritiro-spirituale-a-morlupo`) → badge mostra "Fede e Luce · Tempo libero" con entrambi i link.
-- EN web-only, 2 temi (`august-a-holiday-i-dont-know`) → badge mostra "Leisure · Family" con entrambi i link.
-- IT con numero rivista, 2 temi (`ascoltare-i-segni-perche-in-lis`, OEL-142) → nessuna regressione, comportamento invariato.
 
 ---
 
@@ -81,146 +50,12 @@ Elenco prioritizzato, discusso con Fede a fine sessione dell'8/8, coerente con l
 
 | Area | Descrizione |
 |---|---|
-| **DIDASCALIA-NANDA** | Stesso bug di `DIDASCALIA-REESPOSTA` (24/7), ricorso: didascalia articolo "Esperienze, i campi dell'estate 1977" mostrava "Manuela"/"paseggiata" invece di "Nanda"/"passeggiata" nonostante 3 salvataggi corretti dalla redazione (verificato nello storico revisioni). **Causa confermata:** `didascalie_img` (collection separata, per file immagine+lingua) ha priorità sul campo `didascalia_copertina` dell'articolo in `it/[slug].astro:244` e `en/[slug].astro:261-264` — invisibile e non raggiungibile dal form articolo. **Fix puntuale:** corretti i due record `didascalie_img` (id 1392 IT, id 3462 EN — anche l'EN aveva "Manuela"). **Fix strutturale pianificato** (non ancora eseguito, piano approvato in `C:\Users\berto\.claude\plans\iridescent-wibbling-plum.md`): consolidare tutto su `didascalia_copertina`, eliminare `didascalie_img`/`didascalia_en`/flow `sync-didascalia`. **Dettagli aggiuntivi da `bug_ux_ui.md` (fusi qui, nessuna voce duplicata creata):** la segnalazione della redazione parlava di "bug di salvataggio" — il salvataggio in realtà **funzionava correttamente**, verificato nello storico revisioni Directus: 3 tentativi salvati regolarmente il 7/8 alle 14:38, 14:41, 14:46, ma il sito continuava a mostrare il testo vecchio perché leggeva da un'altra tabella. Riferimento di codice preciso: `getDidascaliaImg()` in `src/lib/directus.ts:1019`. **Problema sistemico non risolto da questo fix puntuale** (poi effettivamente risolto dal consolidamento Fase 1-5 più sopra in questa stessa giornata): questo bug può ripresentarsi su qualunque altro articolo la cui foto abbia un record in `didascalie_img` — dal form articolo non c'è alcun indizio che la didascalia visibile sul sito venga da un'altra tabella. |
+| **DIDASCALIA-NANDA** | Stesso bug di `DIDASCALIA-REESPOSTA` (24/7), ricorso: didascalia articolo "Esperienze, i campi dell'estate 1977" mostrava "Manuela"/"paseggiata" invece di "Nanda"/"passeggiata" nonostante 3 salvataggi corretti dalla redazione (verificato nello storico revisioni). **Causa confermata:** `didascalie_img` (collection separata, per file immagine+lingua) ha priorità sul campo `didascalia_copertina` dell'articolo in `it/[slug].astro:244` e `en/[slug].astro:261-264` — invisibile e non raggiungibile dal form articolo. **Fix puntuale:** corretti i due record `didascalie_img` (id 1392 IT, id 3462 EN — anche l'EN aveva "Manuela"). **Fix strutturale pianificato** (non ancora eseguito, piano approvato in `C:\Users\berto\.claude\plans\iridescent-wibbling-plum.md`): consolidare tutto su `didascalia_copertina`, eliminare `didascalie_img`/`didascalia_en`/flow `sync-didascalia`. Dettagli completi in `bug_ux_ui.md` sezione "Segnalazioni 2026-08-07". |
 | **PERM-EDITOR-LANG** | Diagnosticato e chiuso: qualunque utente col ruolo **Editor** (Cristina Tersigni, Al Boino, Matteo Cinti — non "Redazione", che non ha utenti reali assegnati) poteva leggere/creare/modificare/cancellare righe `articoli` in **qualsiasi lingua**, incluso EN, nonostante l'unico scrittore legittimo delle righe EN dovrebbe essere il bot di traduzione (`bot@ombreeluci.it`, ruolo Administrator, token statico `DIRECTUS_TOKEN` indipendente da ogni sessione utente — verificato via `/users/me`). Stesso pattern strutturale del bug Nanda (due scrittori sullo stesso concetto, uno invisibile), qui a livello di permessi invece che di dati. **Verifiche di sicurezza chiuse prima di applicare:** (V1) il pulsante "Avvia/aggiorna traduzione" (Flow `1e022c88`) fa una sola chiamata webhook con token di servizio proprio, mai la sessione dell'Editor — restringere la lettura EN non lo tocca, verificato nel grafo della Flow via API, non assunto. (V2) risposta ricevuta: cancellazioni di articoli bilingue capitano (non rare) → delete incluso nella restrizione. **Fix applicato** su policy Editor (`d61b5ea6-d001-4812-857f-6498842fb5a4`), collection `articoli`, un permission id alla volta con test intermedio e snapshot pre-modifica in `scripts/backups/directus-permissions-editor-pre-2026-08-07.json`: `create` (id 12) → `validation:{lang:{_eq:'it'}}`; `update` (id 14) → `permissions:{lang:{_eq:'it'}}`; `read` (id 13) → `permissions:{lang:{_eq:'it'}}`; `delete` (id 15) → `permissions:{lang:{_eq:'it'}}`. Tutti e 4 testati con un account Editor di test dedicato (`editor@ombreeluci.it`, token temporaneo generato e rimosso a fine test): create/update/delete su riga EN → rispettivamente 400/403/403; lista articoli mostra solo `lang=it`; articolo IT tradotto si apre normalmente; anteprima relazionale `articolo_traduzione` degrada a `null` (atteso, non bloccante, decisione B2 opzione (a): campo lasciato visibile così com'è). Nessuna modifica a `translate.ts`/`sync-metadata.ts`. **Esteso lo stesso giorno a Redazione e Redattore** (stessa pipeline, nessun utente reale oggi ma allineamento fatto per coerenza): scoperti due scostamenti verificando gli id reali — nessuna riga `delete` esiste su nessuna delle due policy (azione già negata di default, nessun PATCH necessario), e Redazione aveva già un vincolo `validation` su create (`stato` in draft/review) che è stato preservato con un merge `_and` invece di un overwrite. Tutti i PATCH testati con account UAT dedicati. Dettagli completi in `docs/PERMESSI-RUOLI-REDAZIONALI.md` (rinominato da `PERMESSI-EDITOR.md`). **Task A completo su tutte e tre le policy.** |
 | **DIDASCALIE-FASE0** | Fase 0 (backup di sicurezza, sola lettura) del piano di consolidamento didascalie (`C:\Users\berto\.claude\plans\iridescent-wibbling-plum.md`) eseguita dopo la chiusura di Task A: `scripts/backups/didascalie_img-backup-2026-08-07.json` (3941 righe, tutta la collection `didascalie_img`), `scripts/backups/articoli-didascalie-backup-2026-08-07.json` (5877 articoli con `immagine_copertina`), `scripts/backups/baseline-captions-2026-08-07.json` (56 URL con cover: 30 IT + 26 EN, copre tutti i casi speciali del piano — i 6 gruppi di foto condivise, il caso `living-the-essential-not-doing-for-but-living-with` che dipende da `didascalia_en`, più campione random) e `scripts/backups/baseline-captions-nocover-2026-08-07.json` (10 articoli senza cover, per verificare che il placeholder resti invariato). Il piano stimava "~80 URL" in modo approssimativo; la scomposizione dichiarata (6 gruppi + 1 caso speciale + 20 IT random + 20 EN random) somma a ~65, coerente con i 66 (56+10) prodotti — nessuna integrazione necessaria. **Nota su file ridondante:** esiste anche `scripts/backups/baseline-urls-2026-08-07.json` (56 slug, creato ~1m30s prima di `baseline-captions`) — è un elenco di slug di un primo tentativo di campionamento random, con solo 16/56 slug in comune con la lista finale usata in `baseline-captions` (quindi non un semplice duplicato, ma un draft superseduto da un secondo sorteggio random). Non è la baseline da usare in Fase 4: il riferimento per il confronto post-migrazione sono `baseline-captions-2026-08-07.json` + `baseline-captions-nocover-2026-08-07.json`. Tenuto nei backup solo come artefatto del processo, nessuna azione richiesta. |
 | **DIDASCALIE-FASE1** | Fase 1 (migrazione dati) eseguita: script `scripts/migrate-didascalie-to-articoli.mjs` (dry-run di default, `--apply` per scrivere). Logica: per ogni articolo con `immagine_copertina`, replica la stessa catena di priorità usata oggi dal rendering (`didascalie_img` → `didascalia_en` solo EN → `didascalia_copertina`) e scrive il valore effettivo dentro `didascalia_copertina`, solo se differisce dal valore attuale. Dry-run (`scripts/backups/migrate-didascalie-dryrun-2026-08-07.log`) verificato contro l'audit del piano prima di procedere: 3941 righe `didascalie_img` e 5877 articoli fetchati (identici alla Fase 0, nessun drift dati nel frattempo), 1902 PATCH necessari (IT: 3 = 2 vuote + 1 diversa; EN: 1899 = 1898 via `didascalie_img` + 1 via `didascalia_en`, il caso speciale `living-the-essential-not-doing-for-but-living-with`), 3 righe orfane in `didascalie_img` (nessun articolo le referenzia, solo loggate). Numeri coincidenti con l'audit originale del piano (IT ~3, EN ~1898 + 1 caso speciale = 1899). Verifica manuale a campione sui casi più delicati prima di applicare: le 3 righe IT (incl. l'unica "diversa", un articolo di test), il caso `living-the-essential`, il gruppo "Dialogo Aperto" EN (`open-dialogue-no-98` correggeva un residuo di testo italiano non tradotto in `didascalia_copertina` con la traduzione EN corretta) — tutti puliti. **Eseguito `--apply`**: 1902 articoli aggiornati, log `scripts/backups/migrate-didascalie-apply-2026-08-07.log` verificato identico riga-per-riga al dry-run (stesso contenuto, stesse 1902 modifiche). **Nessun cambiamento visibile online per ora**: il rendering (`it/[slug].astro`, `en/[slug].astro`) legge ancora `didascalie_img` con priorità su `didascalia_copertina` (Fase 2, non ancora eseguita) — questa fase ha solo allineato il campo di destinazione, che diventerà la fonte effettiva solo dopo la semplificazione del rendering. **Prossimo step:** Fase 2 (rimuovere `getDidascaliaImg` da entrambe le pagine articolo e da `src/lib/directus.ts`), da eseguire solo dopo conferma esplicita. |
 | **DIDASCALIE-FASE2** | Codice preparato su branch isolato `refactor/consolidamento-didascalie-fase2` (commit `45f76329`, separato da ogni altra modifica pendente): rimosso `getDidascaliaImg()` da `src/pages/it/[slug].astro`, `src/pages/en/[slug].astro` (anche il fallback `didascalia_en`, ormai ridondante dopo la Fase 1) e da `src/lib/directus.ts` (nessun altro chiamante). Catena ridotta a `didascalia_copertina?.trim() \|\| placeholder`. Typecheck e build locale puliti. **Non ancora mergiato su `main`, non ancora deployato in produzione** — bloccato dall'incidente INCIDENTE-TOKEN-PROD sotto, riparte da qui. |
 | **INCIDENTE-TOKEN-PROD** (🔴 grave, autocontenuto, **non correlato a DIDASCALIE-FASE2**) | Durante la preparazione del deploy di preview per la Fase 2, build di preview CF Pages fallita con `401 Unauthorized` da Directus (log: `Error: Directus error 401` in `scripts/build-en-to-it-index.mjs`) — causa: `DIRECTUS_TOKEN` dell'ambiente **preview** su Cloudflare Pages non corrispondeva a nessun token valido locale/produzione (verificato: tre token distinti per i tre ambienti, mai stato un problema fino a una rotazione). L'utente ha ruotato il token su Directus e aggiornato l'ambiente **preview** su CF Pages, ma non (ancora) quello **production** — che usava lo stesso token appena invalidato dalla rotazione. **Effetto:** ogni pagina articolo SSR (`it/[slug].astro`, `en/[slug].astro`) su produzione (`ombreeluci.it`) ha iniziato a rispondere **404** (IT ed EN, confermato anche sull'ultimo deployment noto-buono `a940abb4` di stamattina, quindi non un problema di build/codice) — causa architetturale: `directusFetch()` in `src/lib/directus.ts:265-268` inghiotte silenziosamente qualsiasi errore Directus (incluso 401), ritorna `null`, e la pagina tratta `null` come "articolo non trovato" → 404, senza nessun errore visibile né 500. Solo le pagine statiche (homepage) restavano `200`. **Rilevato per caso** durante il test dell'articolo "Esperienze, i campi dell'estate 1977" sull'URL di preview isolato — non un sintomo della Fase 2, la homepage e le pagine SSG non erano toccate dal branch. **Fix:** (1) utente ha aggiornato anche il `DIRECTUS_TOKEN` dell'ambiente **production** su CF Pages; (2) rilanciato l'ultimo deployment noto-buono `a940abb4` (branch `main`, commit `374eb0b9`) via `POST .../deployments/{id}/retry` — **stesso codice, nessun nuovo commit, nessun nuovo deploy** — per fargli raccogliere il token nuovo; nuovo deployment `b2cdd51e`, successo. (3) Un URL (`dialogo-aperto-n-109`) restava 404 anche dopo il redeploy: causa una risposta 404 cachata a bordo CDN durante la finestra di guasto (`Cache-Control: s-maxage=3600, stale-while-revalidate=86400` — la stessa dinamica già documentata in CACHE-DIAG del 13/7). **Fix:** purge cache completo della zona `ombreeluci.it` (`purge_everything`, via `CF_ZONE_TOKEN`), confermato con l'utente prima di eseguire vista la portata sito-wide. **Verifica finale post-purge:** `dialogo-aperto-n-109`, `esperienze-i-campi-dellestate-1977` (IT+EN), homepage → tutti `200` puliti, senza bisogno di cache-bust. Due URL restano `404` (`come-tradurre-un-articolo-in-inglese-col-nuovo-cms`, `il-nuovo-sito-di-ombre-e-luci`) — verificato su Directus: `stato: draft`, mai stati pubblici, 404 corretto e atteso, non un residuo dell'incidente. **Finestra di esposizione:** dal momento della rotazione token alla fine del redeploy (~pochi minuti nella notte 7→8/8, traffico presumibilmente minimo), rilevato e risolto nella stessa sessione, nessuna segnalazione esterna. **Nota permanente:** i tre ambienti (locale, preview CF Pages, production CF Pages) hanno *tre* `DIRECTUS_TOKEN` indipendenti — una rotazione futura del token Directus va propagata a **tutti e tre**, non solo a quello con cui si sta lavorando in quel momento. Da valutare in altra sessione: rendere `directusFetch()` meno silenzioso su errori di autenticazione (oggi un 401 sitewide è indistinguibile da un articolo davvero inesistente). |
-
----
-
-## [BUG] Segnalazioni 2026-08-04 (parte 2 — pulizia form articolo)
-
-*Portato da `bug_ux_ui.md` — nessuna sessione `STATO.md` per questa data.*
-
-### FATTO — Campi tecnici nascosti dal form articolo
-**Desiderata:** dopo aver introdotto il pulsante "Avvia/aggiorna traduzione", i vecchi campi JSON Export/Traduzione restavano visibili e confondevano; segnalato anche il campo "Embedding" (array di migliaia di numeri) sempre visibile in cima al form, senza alcun senso per la redazione.
-
-**PRIMA:** `json_export`/`json_traduzione` visibili con nota che rimandava al vecchio processo manuale ("Esporta per traduzione"). `embedding` (vettore 3072 dimensioni per il calcolo dei correlati) **non aveva nessuna configurazione Directus** (`meta: null`) — per questo si vedeva l'array grezzo in cima al form, fuori da ogni gruppo.
-
-**Intervento:** `json_export`/`json_traduzione` → `hidden: true` + etichetta "⚠️ OBSOLETO — NON USARE" + nota aggiornata. `embedding` → creata configurazione da zero (non esisteva) con `hidden: true`, `readonly: true`, nota esplicativa. Sweep di controllo su tutti gli altri campi tecnici storici (`umap_x/y/z`, `cluster_id`, `wp_id`, `original_url`, `tema_label`) — già tutti correttamente nascosti da pulizie precedenti, nessun altro orfano trovato.
-
-**DOPO:** verificato via API (`hidden: true` su tutti) e confermato visivamente dall'utente su più articoli diversi.
-
-**⚠️ Nota non risolta — mistero di propagazione:** durante questa modifica, il cambiamento non si è visto per un tempo anomalo anche con test che avrebbero dovuto escluderlo con certezza: browser diverso mai usato prima (Edge "vergine"), cache HTTP disattivata da DevTools, cache interna di Directus svuotata via `/utils/cache/clear`. In ogni test il server, interrogato direttamente e nello stesso momento, restituiva già il dato corretto — eppure l'app admin per un periodo non l'ha mostrato, poi si è sistemato da solo senza un'azione risolutiva chiaramente identificabile. **Non abbiamo una spiegazione definitiva.** Ipotesi più plausibile ma non verificata: storage persistente lato client (IndexedDB/localStorage) usato dalla SPA di Directus per la cache dello schema, non toccato da nessuno dei rimedi provati. Se ricapita, provare da subito: DevTools → Applicazione → Archiviazione → "Cancella dati sito" (non solo Service Worker) prima di altri tentativi. Ulteriore argomento a favore della valutazione Directus↔Sanity già aperta in `MIGRAZIONE-SANITY-BOZZA.md`.
-
----
-
-## [BUG] Segnalazioni 2026-08-04 — Fase 3 roadmap: traduzione automatica IT→EN
-
-*Portato da `bug_ux_ui.md` — nessuna sessione `STATO.md` per questa data (la sessione 2026-08-07 fa riferimento alla Flow `1e022c88` creata qui, ma senza documentarne la creazione).*
-
-### FATTO — Fase 3 roadmap: traduzione automatica IT→EN
-**Desiderata:** eliminare il giro manuale export→traduci esternamente→incolla→spera che il JSON sia valido (causa del bug De Paolis di oggi — vedi blocco `[BUG] Segnalazioni 2026-07-27` più sotto), automatizzando del tutto la creazione della versione EN. Piano già scritto in `docs/ROADMAP-AUTOMAZIONE.md` Fase 3 (mai implementata), trovato su richiesta esplicita di cercare prima di ricostruire da zero.
-
-**PRIMA:** nessuna traduzione automatica del contenuto testuale. Ogni articolo IT pubblicato restava senza EN finché qualcuno non avviava a mano il giro export/traduci/incolla/importa — fragile, come visto oggi con De Paolis.
-
-**Intervento:**
-- Nuovo endpoint `src/pages/api/translate.ts` — Claude **Sonnet 5**, output strutturato via JSON Schema nativo (non testo libero da parsare — il costo Sonnet vs Haiku è ~1,5 vs ~0,8 centesimi/articolo, irrilevante, quindi si è scelta la qualità). Crea l'EN **solo se `articolo_traduzione` non è già valorizzato** — non tocca mai una traduzione esistente.
-- Nuova Flow Directus "Traduzione automatica EN" (`1e022c88`) — `accountability: activity` fin dalla creazione (non "all"), nessuna condition fragile nel grafo Flow (il filtro lo fa l'endpoint), URL di produzione `ombreeluci.it` non `pages.dev` diretto. Tutte le lezioni della sessione applicate da subito, non aggiunte dopo un incidente.
-- Fix a margine: `/en/category/ombre-e-luci/` tornava 404 nonostante il fix di ieri — era propagazione dell'edge Cloudflare a livello di routing (non contenuto), risolto da solo entro un minuto dal deploy. Non un bug del codice. **(Nota di fusione: "il fix di ieri" si riferisce al blocco `[BUG] Segnalazioni 2026-07-28` più sotto — questa riga conferma che quel fix è stato effettivamente deployato e ha funzionato, risolvendo l'ambiguità tra le sezioni RISOLTO/APERTO di quella data.)**
-
-**DOPO — verificato end-to-end con articolo di test reale (creato e poi eliminato):**
-- Bozza IT → pubblicazione → EN creato automaticamente in pochi secondi: titolo, sottotitolo, corpo HTML (struttura preservata), categoria/autore/forma copiati correttamente, slug pulito, link bidirezionale `articolo_traduzione` su entrambi i lati. Verificato live (200 su entrambe le pagine).
-- Secondo update sull'IT con EN già esistente → **EN non toccato**, verificato leggendo il campo dopo l'update.
-- **Scoperta collaterale durante il cleanup:** eliminare un articolo con `articolo_traduzione` collegato fallisce con errore vincolo FK (`articoli_articolo_traduzione_foreign`) finché non si azzera il campo su **entrambi** i lati prima del delete. Utile saperlo per qualunque eliminazione futura di coppie di articoli tradotti.
-- **Non implementato (deciso esplicitamente, non dimenticato):** ri-traduzione automatica quando l'IT viene modificato dopo che l'EN esiste già — rischio di sovrascrivere correzioni manuali della redazione. Resta un giro manuale per quel caso.
-
----
-
-## [BUG] Segnalazioni 2026-07-28
-
-*Portato da `bug_ux_ui.md` — nessuna sessione `STATO.md` per questa data. Vedi anche l'entry SEO-MONITORING-LOG.md del 27/7 che rimanda esplicitamente a "vedi bug_ux_ui.md per dettagli" per questi stessi bug.*
-
-### RISOLTO — /en/category/ombre-e-luci/ 404 invece del redirect
-**Desiderata:** "sistema tutto quello che c'è da sistemare... e che puoi sistemare facilmente."
-
-**PRIMA:** `astro.config.mjs` aveva un redirect statico `/en/category/ombre-e-luci/` → `/it/categoria/ombre-e-luci/`, ma la route dinamica `src/pages/en/category/[slug].astro` intercettava il path prima (stesso pattern letterale), e il suo fallback per categorie senza articoli EN reindirizzava genericamente a `/en/` — comportamento osservato in produzione: 404 secco (non ancora chiarito il motivo esatto del 404 invece del 302 atteso a `/en/`, ma irrilevante: il redirect statico non veniva comunque mai raggiunto).
-
-**Intervento:** `src/pages/en/category/[slug].astro` — il fallback per categorie EN senza articoli ora reindirizza a `/it/categoria/${itSlug}/` invece che genericamente a `/en/` (fix generale, vale per qualsiasi categoria futura senza articoli EN, non solo `ombre-e-luci`). Rimossi da `astro.config.mjs` i 2 redirect statici specifici per `ombre-e-luci`, ora ridondanti e mai comunque raggiunti.
-
-**DOPO:** build locale pulita (`npm run build`, nessun errore/warning). **Non ancora deployato** al momento della scrittura — serve commit + push su main per il deploy automatico CF Pages. **Nota di fusione:** confermato deployato e funzionante dal blocco `[BUG] Segnalazioni 2026-08-04` più sopra ("il fix di ieri" — risolto entro un minuto dal deploy, solo propagazione edge).
-
-### VERIFICATO/FIXATO — Altri due webhook Directus con lo stesso pattern di fallimento silenzioso
-Seguendo il sospetto lasciato aperto ieri ("probabilmente ha bloccato anche altri webhook").
-
-- **Sync metadati IT→EN** (`bb1e90af`): aveva una condizione `check_it` (`$trigger.payload.lang _null:true`) che bloccava l'esecuzione per qualunque update parziale che non tocca il campo `lang` — cioè quasi ogni edit reale della redazione. L'endpoint (`sync-metadata.ts`) valida già `lang` internamente (riga 53), quindi la condizione era ridondante oltre che rotta. Rewired: trigger → direttamente alla request. **Verificato end-to-end 2 volte** (toggle `in_evidenza` true/false su un articolo reale, propagazione confermata su EN in ~5s).
-- **Sync didascalia IT→EN** (`6fda6c8a`): aveva `accountability: "all"` invece di `"activity"` — violazione della regola già documentata in `STATO.md` (sessione 2026-07-01) dopo un incidente identico sul flow di traduzione. Corretto a `"activity"`. Endpoint testato manualmente con secret corretto: funziona (`{"ok":true,"action":"translated",...}`). **Non verificato con certezza end-to-end via trigger reale** — i tentativi di conferma via CF Analytics erano inconcludenti per via del ritardo di aggregazione dei log (diversi minuti, non tempo reale), quindi non ho potuto confermare nella finestra di test se il trigger reale chiama davvero l'endpoint dopo il fix. **Da verificare**: la prossima volta che la redazione modifica una didascalia IT già tradotta, controllare entro 1-2 minuti se la versione EN si aggiorna. **Nota di fusione:** questa stessa Flow `6fda6c8a` è stata disattivata definitivamente l'8/8 nell'ambito del consolidamento didascalie (vedi sessione "2026-08-08 (continua)", riga DIDASCALIE-FASE3) — la verifica end-to-end residua qui non è più rilevante, la Flow non gira più.
-
-### APERTO (al momento della scoperta) — /en/category/ombre-e-luci/ risponde 404 invece del redirect configurato
-**Desiderata:** verifica utente su GSC "Pagina con reindirizzamento" (nuovo motivo indicizzazione) → durante la verifica trovato questo bug a margine.
-
-**PRIMA:** `astro.config.mjs:72-73` ha `'/en/category/ombre-e-luci/': '/it/categoria/ombre-e-luci/'` (categoria senza articoli EN, redirect verso IT). Testato live 2026-07-28: `curl https://ombreeluci.it/en/category/ombre-e-luci/` → **404**, non 301. Confermato anche via GSC URL Inspection API: `coverageState: "Not found (404)"`, crawlato l'ultima volta 2026-07-26.
-
-**Causa probabile (non ancora confermata con fix al momento di questa nota):** la route dinamica `src/pages/en/category/[slug].astro` intercetta il path prima che il redirect statico di `astro.config.mjs` possa applicarsi, e la pagina stessa risponde 404 per mancanza di articoli nella categoria invece di lasciar passare il redirect.
-
-**Nota di fusione:** questo è lo stesso bug descritto nel blocco "RISOLTO" più sopra nella stessa data — sembra essere la nota di scoperta (via audit GSC) scritta durante/prima dell'implementazione del fix, non un secondo bug distinto. Riportato integralmente per fedeltà alla fonte, senza fondere i due blocchi.
-
-### Verifica GSC "Pagina con reindirizzamento" (nuovo motivo, 2026-07-28)
-**Verificato, non è un bug** — testato via Search Console URL Inspection API: le pagine canoniche (`/it/…/`, `/en/…/` con slash finale) risultano `PASS — Submitted and indexed`. Le varianti senza slash finale o senza prefisso lingua (es. `/it/il-mio-ritiro-spirituale-a-morlupo` senza `/`, `/chi-siamo` senza `/it/`) risultano `NEUTRAL — Page with redirect`, comportamento corretto e voluto (redirect di canonicalizzazione già esistenti, Rule R + astro.config.mjs). Nessuna azione necessaria su questo fronte specifico.
-
----
-
-## [BUG] Segnalazioni 2026-07-27
-
-*Portato da `bug_ux_ui.md` — nessuna sessione `STATO.md` per questa data (STATO.md salta direttamente dal 24/7 al 7/8). L'entry `docs/SEO-MONITORING-LOG.md` del 27/7 rimanda esplicitamente a questi bug ("impatto SEO/dati indiretto — vedi bug_ux_ui.md per dettagli").*
-
-### RISOLTO — Proxy WordPress legacy su Aruba rimosso dal Worker
-**Desiderata utente:** "il redirect su Aruba possiamo abolirlo appena puoi" → poi, dopo aver visto i numeri del traffico, "direi di sì" (conferma a procedere anche su wp-content/wp-json + deploy).
-
-**PRIMA:** `cf-worker/redirect-worker.js` proxava verso un WordPress live su Aruba (IP `89.46.105.36`) tutte le richieste su `/wp-admin`, `/wp-content`, `/wp-includes`, `/wp-json`, `/feed`, `wp-login.php`, `wp-cron.php`, `xmlrpc.php`. Nessun audit del traffico reale era mai stato fatto prima di questa sessione.
-
-**Intervento:**
-1. Audit CF Analytics 7gg (21-27/7) per path — vedi tabella sotto.
-2. Branch dedicato `fix/aruba-wp-proxy-cleanup` (mai su main, per la regola di branch strategy).
-3. Rimossi `/wp-admin`, `/wp-includes`, `wp-login.php`, `wp-cron.php`, `xmlrpc.php` (zero traffico legittimo, solo scanner) + `/feed` (bug: intercettato qui prima del redirect Astro verso `/it/rss.xml`, causava 403 invece di 301).
-4. Su conferma esplicita dopo revisione dati: rimossi anche `/wp-content` e `/wp-json`, pur avendo traffico reale non-scanner (vedi tabella) — decisione: accettabile lasciar decadere questi URL residui piuttosto che mantenere WordPress pubblico vivo solo per servirli.
-5. Sintassi verificata (`node --check`), poi `npx wrangler deploy` da `cf-worker/`.
-
-**Traffico misurato (7gg, campione top-50/giorno, sottostima della coda lunga):**
-
-| Path | Hit/sett. | Natura | Esito |
-|---|---|---|---|
-| `wp-login.php`, `wp-admin/*`, `wp-includes/*`, `xmlrpc.php`, `wp-cron.php` | ~centinaia totali | Scanner/bot (brute-force, probe `.php` inventati tipo `pwnd-1/kurd.php`) | Rimosso, zero perdita |
-| `/feed` (bare) | n/a | Bug: 403 invece di redirect 301 | Fix — ora raggiunge il redirect Astro |
-| `wp-content/uploads/*.jpg\|png\|webp` (86 file distinti) | 838 | Reale — hotlink/backlink storici | Rimosso su conferma esplicita — questi URL ora 404 |
-| `wp-json/oembed/1.0/embed` | 944 | Probabile reale — anteprima link esterni | Rimosso su conferma esplicita — anteprime per vecchi URL OeL smettono di funzionare |
-| `wp-json/wp/v2/users` | 27 | Malevolo — enumerazione utenti | Rimosso, positivo per sicurezza |
-| `wp-json/wp/v2/posts*`, `batch/v1`, bare | 131 | Ambiguo | Rimosso |
-
-**DOPO — verificato con smoke test post-deploy (2026-07-27, deploy `879f73cc`):**
-- Home, articolo IT, articolo EN: 200 invariato.
-- `/feed`: **301 → `/it/rss.xml`** (era 403 da WordPress — bug fixato).
-- `wp-admin/`, `xmlrpc.php`, `wp-content/uploads/*`, `wp-json/oembed/*`: **404 pulito da Astro/Pages**, nessun contatto con Aruba (prima risposta 403 subito dopo il deploy era cache edge stale, sparita al retest con cache-bust).
-- Nessuna regressione osservata sul resto del sito.
-
-### RISOLTO — Algolia sync (3 bug indipendenti sovrapposti, causa reale = Cloudflare Bot Fight Mode)
-La Flow "Algolia sync su pubblicazione" (id `c09762f8`) non sincronizzava mai la ricerca del sito dopo la pubblicazione iniziale di un articolo. Tre bug indipendenti si sommavano:
-   1. **Secret disallineato**: `ALGOLIA_SYNC_SECRET` sulla Flow non combaciava con quello su CF Pages → 401. Fix: secret rigenerato e allineato su entrambi (richiede un redeploy CF Pages per essere letto — i secret impostati via `wrangler pages secret put` si applicano solo alle build successive, non a quella già in esecuzione).
-   2. **URL sbagliato**: la Flow chiamava `ombreeluci-staging.pages.dev` **direttamente**, bypassando il Worker — a differenza della Flow gemella "Sync metadati IT→EN" che chiama correttamente `ombreeluci.it`. Le variabili d'ambiente CF Pages "production" a quanto pare non sono garantite sull'URL nudo `*.pages.dev`. Fix: URL allineato a `https://ombreeluci.it/api/algolia-sync`.
-   3. **Causa reale e principale — Cloudflare Bot Fight Mode**: ogni richiesta del server Directus (VPS Hetzner, IP `159.69.196.64`, ASN 24940) verso `/api/*` su `ombreeluci.it` riceveva un `managed_challenge` (confermato nei log Firewall CF, `source: botFight`) — una sfida JS che un server non può risolvere. La Flow non riceveva mai una vera risposta dall'endpoint, qualunque fosse secret/URL. **Probabilmente ha bloccato silenziosamente anche le altre Flow con lo stesso pattern (sync-didascalia, e sync-metadata quando triggerata realmente da Directus, non testata a mano da rete esterna).** Fix: creata IP Access Rule Cloudflare (whitelist) per `159.69.196.64` a livello zona — bypassa Bot Fight Mode per il VPS, non cambia nulla per il resto del traffico.
-   4. Bonus: rimossa anche l'operation condizionale "Check if published" nella Flow — aveva un filtro vuoto mai configurato dal 09/05/2026, bloccava l'esecuzione a monte indipendentemente dagli altri 3 bug. Il controllo pubblicato/non pubblicato è comunque già fatto correttamente dentro l'endpoint (`algolia-sync.ts`), quindi l'operation era ridondante oltre che rotta.
-
-**Verificato end-to-end**: PATCH reale su un articolo → propagazione automatica su Algolia in pochi secondi, confermato con marker di test. Rilanciato reindex completo (`node scripts/algolia/index-all.mjs`): 6953 articoli + 355 autori + 206 numeri, per sanare lo stale accumulato.
-
-**Nota di fusione — backlog:** questo fix chiude di fatto la voce **ALGOLIA-05** che compare come 🔴 aperta nella tabella "Backlog pre-lancio" più sopra in questo file (risalente a maggio 2026) — quella riga non era mai stata aggiornata. Vedere annotazione inline su quella riga.
-
-### FATTO — Jean Vanier "Le sacrament de la tendresse" — foto e dimensioni
-**Foto vecchia in ricerca**: causa = il bug Algolia sync sopra. Fix stopgap: record Algolia corretto a mano 2026-07-27 (ora punta a `86d48925-...`, l'immagine con i fiori). Si sistemerà da solo per i prossimi articoli quando il bug Algolia sync sarà risolto (fatto, vedi sopra).
-
-**APERTO — Dimensione foto "sbagliata" nonostante editing Photopea**: da verificare visivamente — l'immagine di copertina viene sempre servita con crop fisso `?width=400&height=280&fit=cover` in ricerca/liste (aspect ratio 10:7). Se la foto originale ha un aspect ratio molto diverso (es. verticale), il crop automatico può tagliare il soggetto in modo indesiderato anche se il file caricato è già ridimensionato correttamente in Photopea — non è detto sia un bug, potrebbe essere il comportamento atteso del crop "cover". Verificare con Cristina quale specifica visualizzazione (articolo, card, ricerca) mostra la foto storta, poi decidere se serve un punto di focus/crop manuale sull'immagine invece del cover automatico. **[da bug_ux_ui.md — aggiunto al backlog, vedi sezione backlog più in basso.]**
-
-### RISOLTO — Traduzione De Paolis non pubblicata nonostante flow "completo"
-Articolo IT `047749e5` (la-disabilita-non-e-un-superpotere...): il campo `json_traduzione` incollato dalla redazione era JSON non valido (parentesi graffa doppia in apertura + escaping rotto delle virgolette negli attributi `href` di `didascalia_copertina`). La flow "Import traduzione da JSON" fallisce silenziosamente su `JSON.parse` senza mostrare errore all'utente — stesso pattern sistemico del bug Algolia sopra: **le Flow Directus non hanno un meccanismo per segnalare errori a chi ha innescato l'azione**. Fix: JSON ricostruito manualmente e valido, riscritto sul campo → la flow è ripartita da sola (trigger `items.update`) e ha creato l'articolo EN `2fbb0166` (slug `disability-is-not-a-superpower-or-an-image-problem`), pubblicato, linkato bidirezionalmente. Verificato live (200 su IT ed EN).
-
-// Da valutare: aggiungere un campo tipo `errore_traduzione` che la flow scrive quando il parse fallisce, così l'errore è visibile in Directus invece di scoprirlo mesi dopo via ticket. **Nota di fusione:** questa idea è stata ripresa e generalizzata l'8/8 come "campo errore visibile sulle Flow critiche" — vedi sezione "Prossimi passi" in cima a questo file, punto Directus #1.
-
-### RISOLTO — Foto EN "il mio ritiro spirituale a Morlupo" sempre sbagliata
-L'articolo EN `651061d0` (my-spiritual-retreat-in-morlupo) aveva `immagine_copertina` e `didascalia_copertina` **null** — non era mai stato sincronizzato con la copertina dell'IT dopo la bonifica del duplicato Morlupo (sessione 24/7 in `STATO.md`, voce DUPLICATO-MORLUPO). La pagina mostrava un placeholder, percepito come "foto sbagliata". Fix: copiati `immagine_copertina` (`2369653b-...`) e didascalia tradotta dall'IT. Verificato live.
-
-### RISOLTO — Preview URL Directus
-`preview_url` su collection `articoli` puntava a `ombreeluci-staging.pages.dev` (uno dei sintomi del problema staging generale). Rimosso (`meta.preview_url = null`) su richiesta esplicita — non funzionava comunque.
 
 ---
 
@@ -1515,7 +1350,7 @@ Tutto questo deve essere verde prima del cutover DNS.
 | TAG-03 | ✅ | S | `/tag/[slug]` ora filtra `lang=it`; `/en/tag/[slug]` filtra `lang=en`. Fix 2026-04-27. |
 | TAG-REC | 🟡 | M | Filtro per tipo dentro `/rubriche/recensioni/`: libri, cinema, teatro, tv. Architettura: tag Directus + filtro client-side dentro RubricaPageContent (NON sub-URL). Pre-requisito: verificare che le recensioni abbiano già tag `cinema`/`libri`/`teatro`/`tv` in Directus — se no, lavoro editoriale. Post-lancio. |
 | SEARCH-01 | ✅ | L | **Ricerca Algolia** — testata sistematicamente (2026-05-04). 7508 record, fix post-test applicati (URL numeri, traduzioni filtri EN, id_numero ricercabile). Chiuso. |
-| ALGOLIA-05 | 🔴 (nota fusione: ✅ implementato 2026-05-09, poi rotto silenziosamente e ✅ rifissato per la causa reale il 2026-07-27 — vedi blocco `[BUG] Segnalazioni 2026-07-27` in cima al file) | M | **Webhook sync Directus→Algolia** — pubblicare/modificare articolo in Directus non aggiorna l'indice automaticamente. Workaround: `node scripts/algolia/index-all.mjs`. Non blocca lancio ma deve essere fatto presto dopo. |
+| ALGOLIA-05 | 🔴 | M | **Webhook sync Directus→Algolia** — pubblicare/modificare articolo in Directus non aggiorna l'indice automaticamente. Workaround: `node scripts/algolia/index-all.mjs`. Non blocca lancio ma deve essere fatto presto dopo. |
 | VERT-01 | 🟡 | L | **Focus pages** — schema Directus, componenti e route `/it/focus/[slug]` + `/en/focus/[slug]` live. 6/8 pagine populate (Mariangela, Autismo, Noi papà, Aktion T4, Cinema, Ciao Stefano). Restano: `studiosi-educatori-e-attivisti-ombre-e-luci` e `catechesi-e-disabilita`. Verifica visiva staging + megamenu link ancora aperti. Vedi § VERT-01. |
 | VERT-LISTING | ✅ | S | **Listing `/it/focus/` e `/en/focus/`** — live su main (commit `2d8cba4e`). `FocusListingContent.astro` componente condiviso IT/EN. |
 | VERT-SEARCH | 🟡 | M | **Focus nella ricerca Algolia** — le pagine focus non sono indicizzate. Aggiungere allo script come tipo `focus` con titolo, intro (HTML stripped), slug IT/EN. Prerequisito: VERT-01 con ≥4 pagine stabili — **ora soddisfatto (6 pagine)**. Fare dopo VERT-01 completo (8/8). |
@@ -1842,9 +1677,6 @@ Il middleware gira solo per route nel manifest. Fix: `[...path].astro` catch-all
 | B-09 | Infra | UptimeRobot monitoring |
 | B-10 | Infra | Slack alert build GH Actions |
 | fedeeluce | Infra | Directus multi-tenant per fedeeluce.it |
-| IMMAGINI-MULTI [da bug_ux_ui.md] | Directus | Possibilità di inserire più immagini contemporaneamente nell'articolo (upload multiplo). Via: configurazione campo Directus. Aperto, nessun lavoro iniziato — trovato solo nel bug tracker (sezione "Redazione — segnalazioni 2026-05-08"), non aveva riga di backlog qui. |
-| FOTO-CROP-JEAN-VANIER [da bug_ux_ui.md] | Contenuti/UX | Segnalato 2026-07-27 (Jean Vanier "Le sacrament de la tendresse"): l'immagine di copertina è sempre servita con crop fisso `?width=400&height=280&fit=cover` (aspect ratio 10:7) in ricerca/liste — se la foto originale ha un aspect ratio molto diverso il crop può tagliare il soggetto in modo indesiderato anche con editing corretto in Photopea a monte. Non è certo sia un bug (potrebbe essere il comportamento "cover" atteso). **Da fare:** verificare con Cristina quale visualizzazione specifica (articolo/card/ricerca) mostra la foto storta, poi decidere se serve un punto di focus/crop manuale invece del cover automatico. |
-| ~~PERF-IMG-RESIZE-DIRECTUS~~ | Perf | ✅ **Verificato risolto (2026-08-12), non più da fare.** `bug_ux_ui.md` segnalava foto autori/diaristi servite senza resize. Grep puntuale sul codice attuale: `foto_url` viene costruito con `getAutoreImageUrl(a.foto.id)` (200×200 WebP) in tutti i 4 punti dove viene assegnato (`src/pages/index.astro`, `src/pages/en/index.astro`, `src/pages/it/rubriche/diari.astro`, `src/pages/en/sections/diaries.astro`), e `AuthorPageContent.astro`/`StudosiContent.astro`/le pagine `[diario].astro` usano `getAutoreImageUrl()` direttamente. La entry di cutover era corretta — copriva anche questi casi, non solo le copertine articolo. |
 
 ---
 
@@ -2928,241 +2760,3 @@ const { data } = Astro.props;
 | `hero_immagine` undefined | Query con `.id` su campo UUID plain | Cambiare query a `hero_immagine` (senza `.id`), tipo TS `string | null` |
 | POST con alias nel SELECT → SQL error | Directus include l'alias nella query SQL | POST con `?fields=id,campo1,...` (solo campi fisici) |
 | Markup duplicato tra IT e EN | Fretta di fare la route EN | Fermarsi, estrarre componente condiviso, poi fare entrambe le route |
-
-## Log SEO/Monitoring settimanale
-
-*Contenuto integrale di `docs/SEO-MONITORING-LOG.md`, che in precedenza era un file separato — incollato qui come blocco unico, cronologia interna (inversa) invariata. Non interfogliato con la timeline giornaliera qui sopra: sono check settimanali tabellari/numerici (GSC, Cloudflare Analytics, GA4, uptime, redirect), interfogliarli avrebbe frammentato le tabelle senza guadagno di leggibilità.*
-
-> Log settimanale generato dal check automatico. Entry più recente in alto.
-> Per l'architettura generale del monitoring vedi [RUNBOOK.md](../RUNBOOK.md) § 12-17.
-> Tool usato: `scripts/gsc-query.mjs` (Search Analytics), `scripts/cf-analytics.mjs` (CF), `scripts/ga-query.mjs` (GA4), UptimeRobot API, `scripts/verify-redirects.mjs`.
-
----
-
-## 2026-08-08 — check completo GSC + CF + GA4
-
-**Stato generale:** sano e in crescita. Il plateau segnalato il 27/7 si è sbloccato: impressioni e click GSC in crescita ~+30-35%, crescita GA4 Italia confermata su più check consecutivi. EN ancora fermo. Uptime e redirect perfetti. Nuova osservazione: ritorno di traffico bot da Singapore su GA4.
-
-### GSC Search Analytics (27/7→6/8, 11 giorni per lag di reporting GSC)
-- Impressioni 2.517-3.256/giorno, click 32-64/giorno, posizione media 8,5-11,0
-- **Confronto col check 27/7** (periodo 28/6-25/7: impressioni 1.560-2.293, click 19-46, posizione 8,5-11,8): **+30-35% su impressioni e click, plateau sbloccato**. Coerente con l'ipotesi formulata il 27/7: il fix BUG-EN-STAGING (hreflang/canonical, live dal 24/7) ha avuto le 2 settimane di osservazione previste e la crescita è ripartita.
-- Top pagina invariata: "22 mini giochi da fare insieme" (125 click, 9.023 impressioni nel periodo), seguita da "14 giochi da fare insieme" (50 click)
-- EN: solo 9 click totali sulle 15 pagine EN più visibili nel periodo, impressioni 1-12 per pagina — **ancora sostanzialmente invisibile** su 3.400+ articoli pubblicati, nessun cambiamento rispetto al 27/7.
-- **Approfondimento EN eseguito lo stesso giorno (8/8), chiude l'azione "controllo GSC Copertura" pendente dal 27/7:** query `--dimensions=page --contains=ombreeluci.it/en` su 30 giorni (9/7-8/8) → **486 pagine EN su ~3.472 pubblicate (14%) hanno avuto almeno 1 impressione**, l'86% restante zero impressioni nel mese. Delle 486 con impressioni, posizioni quasi tutte 5-35 (raramente prima pagina), solo ~10 pagine con più di 1 click totale nel periodo. **Conclusione: non è un problema di indicizzazione bloccata** (in quel caso vedremmo 0% con impressioni) **ma di autorità/novità del dominio in una nicchia internazionale già occupata**, probabilmente aggravato dal volume di traduzioni AI-bulk (3.400+ articoli) che i sistemi di qualità Google potrebbero leggere come contenuto a basso valore aggiunto rispetto agli originali IT. Non è un bug risolvibile tecnicamente — valutazione: non investire altro tempo di indagine su questo nel breve termine, è un problema di tempo/autorità.
-
-### Cloudflare Analytics (27/7→8/8, 13 giorni)
-- 102.019 uniques, 153.858 pageviews, 515.152 requests — media 7.848 uniques/giorno, 11.835 pv/giorno
-- **Cache rate 2,77%** (era 2,72% il 27/7) — invariato. **Correzione importante rispetto alle entry precedenti (che dicevano "Cache Rule HTML mai implementata" — FALSO, verificato l'8/8):** la Cache Rule per HTML/JSON esiste davvero (ruleset "OEL Cache Rules", id `a1645e425b1d48b6be5c154b702da6f0`, regola `edf9eca073014e22a796bf9a6b1c9716`, creata il 20/6, `enabled: true`, espressione corretta, TTL edge 1h) ma **non ha mai avuto alcun effetto misurabile** — verificato l'8/8 con header live: `cf-cache-status` completamente assente (non "BYPASS", proprio assente) su homepage statica, pagine articolo SSR, produzione (via Worker) e staging diretto (senza Worker) — quindi non è colpa del Worker proxy. Causa più probabile (non documentata esplicitamente da Cloudflare ma coerente col loro stesso avviso ufficiale sulle Cache Rules + Pages custom domain): **Cloudflare Pages non si integra in modo affidabile col prodotto "Cache Rules" di zona**, pensato per origin tradizionali dietro reverse proxy, non per Pages. Non è un errore di configurazione da correggere (la regola è già corretta) — un fix reale richiederebbe una cache esplicita via Worker (Cache API), lavoro non banale, non ancora valutato se ne vale la pena data la Free tier e il traffico attuale.
-- Country: US 301k requests (dominante), IT 41,8k, FR 25,3k, DE 23,7k, CN 17,6k, SG 12,2k, threats concentrati su GB (4.498) e US (3.522)
-
-### GA4 (27/7→8/8)
-- **Italia: 691 utenti, 800 sessioni, 1.130 pageviews in 13 giorni → 53 utenti/giorno media**, +40% rispetto ai 38/giorno del check del 27/7 — crescita reale confermata su più check consecutivi (21→38→53 utenti/giorno su fine giugno/27-7/8-8)
-- Sorgenti Italia: google/organic dominante (503 utenti, 750 pageviews), direct 135 utenti
-- **Globale per paese: Singapore 3.361 "utenti" con durata sessione 0s** — ritorno di traffico bot, molto oltre i 26 residui rilevati il 27/7 (allora si era conclusa una WAF rule SG/CN del 28/6 stabilmente efficace). Il Managed Challenge non blocca in modo duraturo bot che eseguono JS e triggerano il beacon GA4 — pattern intermittente, non un'azione urgente ma da ricontrollare al prossimo check invece di considerarlo risolto.
-
-### Uptime (27/7→8/8)
-- Tutti i 6 monitor status UP, **0 eventi down/up nel periodo** — settimana pulita.
-
-### Redirect legacy (produzione, 1096 voci)
-- Attenzione operativa: `scripts/verify-redirects.mjs` di default punta a staging (`BASE_URL` hardcoded) — prima run senza override ha dato un falso 98,4% fail rate. Rilanciato con `BASE_URL="https://ombreeluci.it" node scripts/verify-redirects.mjs`.
-- **1096/1096 OK, fail rate 0%** — nessuna regressione.
-
-### Risposte alle domande aperte dal check del 27/7
-1. **Plateau GSC sbloccato dopo il fix BUG-EN-STAGING?** Sì — impressioni e click in crescita ~+30-35% nella finestra di osservazione di 2 settimane prevista.
-2. **Cache rate CF ancora ~2,7%?** Sì, 2,77% — invariato, Cache Rule HTML ancora da implementare.
-3. **EN click ancora vicini a zero su 3.400+ articoli?** Sì, confermato — 9 click totali nel periodo.
-
-### Da fare prossimo check
-- Confermare che il trend di crescita GSC/GA4 prosegue (secondo check di conferma dopo lo sblocco del plateau)
-- Ricontrollare il traffico bot Singapore su GA4 — capire se il pattern è intermittente o se la WAF rule del 28/6 ha smesso di essere efficace
-- Controllare GSC Copertura/Indicizzazione per capire la causa reale della bassa visibilità EN (azione consigliata dal 27/7, non ancora fatta)
-- Implementare Cache Rule HTML e rimisurare cache rate CF (azione consigliata dal 27/7, non ancora fatta)
-
----
-
-## 2026-07-27 — check completo GSC + CF + GA4 (primo check da 28/6, quasi un mese di gap)
-
-**Stato generale:** plateau su GSC (non crescita, non crollo), EN ancora sostanzialmente invisibile, crescita reale confermata su GA4 Italia, cache CF diagnosticata (causa trovata).
-
-### GSC Search Analytics (28/6→25/7)
-- Impressioni: 1.560-2.293/giorno, click 19-46/giorno, posizione media 8.5-11.8 — **piatto**, nessuna prosecuzione del trend di crescita maggio-giugno (739→4.162 impressioni/giorno)
-- **Ipotesi sul plateau:** il bug BUG-EN-STAGING (hreflang/canonical/social che puntavano a `ombreeluci-staging.pages.dev`, fixato il 24/7) è stato live in produzione per una parte non quantificata di luglio, dopo le modifiche al Worker dell'incidente noindex dell'8-9/7. Segnali contraddittori a Google (canonical/hreflang non sempre coerenti) sono un sospetto plausibile per l'assenza di crescita. **Verificato 27/7:** il fix è live e corretto (curl su pagina di test: canonical e hreflang puntano a `ombreeluci.it`). Da monitorare le prossime 2 settimane — se riparte la crescita, conferma l'ipotesi.
-- EN: impressioni 24-140/giorno, click quasi sempre 0 (0-1 ogni pochi giorni) su 3.400+ articoli pubblicati. Nessun segnale di decollo organico. Pagina più visibile: `/en/sections/reviews/` (143 impressioni, posizione 22.3). **Azione consigliata non ancora fatta:** controllare il report GSC Copertura/Indicizzazione (non solo Search Analytics) per capire se la causa è "crawled non indicizzata" (problema di qualità/valore percepito) o "individuata non ancora scansionata" (solo questione di tempo/crawl budget).
-
-### Cloudflare Analytics (13-26/7)
-- 106k uniques, 223k pageViews, 672k requests in 14 giorni — media 7.574 uniques/giorno, 15.954 pv/giorno
-- **Cache rate 2,72%** — invariato da giugno nonostante l'audit CF del 21/6. **Causa trovata questa sessione:** l'audit di giugno ha coperto solo gli asset statici (Transform Rule cache immutable); l'HTML — la maggioranza delle richieste — non è mai stato reso "eligible for cache" via Cache Rule. L'homepage risponde `Cache-Control: public, max-age=0, must-revalidate` (comportamento di default CF Pages, niente cache); le pagine articolo SSR rispondono `s-maxage=3600` ma Cloudflare non lo rispetta di default per contenuto dinamico senza una Cache Rule esplicita. **Azione consigliata:** aggiungere una Cache Rule "Eligible for Cache" sulle route HTML (partendo dalle pagine articolo), rispettando il TTL d'origine — potenziale guadagno reale su performance e carico Worker/Pages Function, non ancora implementato.
-
-### GA4 (13-26/7)
-- **Italia: 538 utenti in 14 giorni (~38/giorno)** — +80% rispetto alla baseline di fine giugno (~21/giorno). Crescita reale confermata.
-- **Traffico internazionale ora distribuito su paesi reali** (USA 140, Svizzera 29, Giappone 29, Francia 26, UK 25, Olanda 21, Germania 19...) invece che dominato da bot Singapore/Cina come a fine giugno. La WAF rule "Block bot spam SG/CN" del 28/6 sembra aver funzionato meglio nel tempo di quanto risultasse dal check del 7/7 (allora sembrava inefficace — vedi entry precedente). Singapore ora a soli 26 utenti con durata sessione ~1s (ancora bot residuo, ma volume molto ridotto rispetto a giugno).
-
-### Bug trovati durante questa sessione (impatto SEO/dati indiretto)
-*Nota di fusione: questi bug sono ora narrati per intero, con marcatori FATTO/RISOLTO/APERTO, nei blocchi `[BUG] Segnalazioni 2026-07-27` e `[BUG] Segnalazioni 2026-07-28` nella timeline principale più sopra in questo file.*
-- **ALGOLIA-SYNC-401**: la Flow di sync Algolia fallisce silenziosamente da tempo indeterminato (secret disallineato Directus↔CF Pages) — la ricerca interna del sito può mostrare dati stale (foto, titoli) per un numero non quantificato di articoli modificati dopo l'ultimo secret valido. Non ancora risolto sistemicamente (solo stopgap su un articolo) al momento di questa nota — risolto sistemicamente lo stesso giorno, causa reale = Cloudflare Bot Fight Mode (vedi blocco `[BUG]` sopra).
-- **Import traduzione silenzioso**: una traduzione con JSON malformato non genera errore visibile — un articolo tradotto può restare invisibile online senza che nessuno se ne accorga finché non lo si cerca esplicitamente.
-
-### Da fare prossimo check
-- Verificare se il plateau GSC si sblocca dopo il fix BUG-EN-STAGING (confronto prossime 2 settimane)
-- Controllare GSC Copertura/Indicizzazione per capire la causa reale della bassa visibilità EN
-- Implementare Cache Rule HTML e rimisurare cache rate CF
-- Rotazione `ALGOLIA_SYNC_SECRET` + reindex completo Algolia
-
----
-
-## 2026-06-28 — check completo GSC + CF + GA4
-
-**Stato generale:** sano, traffico organico stabile. Scoperta e bonifica spam bot.
-
-### GSC Search Analytics (14-25/6)
-- Impressioni: 3.000-4.100/giorno (14-18/6), calate a 1.987-2.681 (19-25/6) — probabile stagionalità fine scuole
-- Click: 30-46/giorno, stabile
-- Posizione media: 9.1-11.0, stabile
-- Top pagina: "22 mini giochi da fare insieme" (55 click, 3.264 impressioni)
-- EN emergente: `/en/authors/anna-cece/` con 2.104 impressioni (posizione 10)
-
-### Cloudflare Analytics (14-27/6)
-- 188k uniques, 329k pageViews, 902k requests in 14 giorni
-- **85% traffico è bot** (US 50%, SG 7%, CN 5%, IT solo 5.5%)
-- Cache rate 0.61% — quasi tutto va al Worker SSR
-- SG: 5.561 threats su 60k requests — spam puro
-
-### GA4 (14-27/6) — prima volta con accesso API
-- Property `G-2TJV78DNFQ`, ID `308368126`
-- **Utenti reali Italia: ~298 in 14 giorni (~21/giorno)**
-- Durata media sessione (organic): 68 secondi — buona
-- Top eventi Italia: scroll_depth (216), durata_permanenza_3m (32), form_start (10), support_scroll_bonifico (3)
-- 90% del traffico GA4 era spam bot Singapore (2.925 users finti con durata 2s)
-
-### Pagine EN fuori Italia
-- 52 users umani reali, 114 pageViews (giugno)
-- Paesi reali: US (13), UK (4), Australia (2), Irlanda, Canada
-- Top EN: "22 fun mini games to play together" (10 users)
-- Google sta indicizzando i 3.400 articoli EN — ROI atteso in 3-6 mesi
-
-### Azioni intraprese
-- **WAF rule "Block bot spam SG/CN" deployata** — Managed Challenge su traffico SG e CN (esclusi bot verificati). Eliminerà ~85% del traffico fake.
-- Creato `scripts/cf-analytics.mjs` — query CF Analytics via API (token `CF_ANALYTICS_TOKEN`)
-- Creato `scripts/ga-query.mjs` — query GA4 via API (stessa service account di GSC)
-- Copiato `.secrets/ombreeluci-seo-*.json` da `gsc/` a `.secrets/`
-
-### Da monitorare
-- Effetto WAF rule nei prossimi giorni (calo requests CF, calo spam GA4)
-- Cache rate CF — da migliorare con page rules o cache headers
-- Calo impressioni GSC: se continua sotto 2.000/giorno la prossima settimana, investigare
-
----
-
-## 2026-06-20 — check manuale sessione interattiva
-
-**Stato generale:** sano, crescita confermata. Record impressioni.
-
-- **GSC Search Analytics (21/5→18/6):** impressioni in crescita costante 739→3.500+/giorno (picco 4.162 il 16/6, record). Click 7→46/giorno. Posizione media migliorata a 9.9. CTR stabile ~1.3%. Nessun impatto residuo dall'outage DNS 8-10/6.
-- **Top pagine:** "22 mini giochi da fare insieme" (106 click, 7.601 impressioni), "14 giochi da fare insieme" (44 click), homepage (31 click, CTR 11.6%), "The Crown cugine autismo" (22 click). Pagine autore e categorie in crescita.
-- **EN emergente:** `/en/authors/anna-cece/` con 2.000 impressioni (3 click). Homepage EN 19 impressioni, 2 click. Primi segnali di indicizzazione EN.
-- **Trailing slash duplicati:** GSC mostra URL con e senza trailing slash come pagine separate (es. `/it/categoria/cultura` e `/it/categoria/cultura/`). Il Worker Rule R dovrebbe fare 301 — da verificare che il redirect funzioni lato server; potrebbe essere un artefatto GSC storico pre-fix.
-- **Uptime (15/6→20/6):** non verificato (UPTIMEROBOT_API_KEY non in .env.local su questa macchina). Da aggiungere per prossimi check.
-
-**Confronto con check precedente (15/6):**
-- Impressioni: 3.049 → 3.500+/giorno (+15%)
-- Click: 47 → 46/giorno (stabile)
-- Posizione: 10.1 → 9.9 (migliorata)
-
----
-
-## 2026-06-15 — check settimanale
-
-**Stato generale:** sano (uptime e redirect perfetti). GSC non verificato per un problema tecnico del cron, vedi nota.
-
-- **GSC Search Analytics:** ❌ check non eseguito — il file di credenziali `.secrets/ombreeluci-seo-1ede0e05d5b6.json` (locale, gitignored) non è presente nell'ambiente di esecuzione del cron. Da risolvere per i prossimi check automatici.
-- **Uptime (8/6→15/6):** tutti i 6 monitor UP, 0 eventi down/up nell'ultima settimana. Settimana pulita (dopo il recovery dall'outage DNS dell'8/6).
-- **Redirect legacy (produzione, 1096 voci):** 1096/1096 OK, fail rate 0%. Miglioramento rispetto al baseline 21/5 (1095/1097 — i 2 fail su URL spam non-Latini non risultano più tra le voci attuali).
-
-**Attività proposte:**
-1. Decidere come rendere disponibile la credenziale GSC nell'ambiente del cron (es. variabile d'ambiente con contenuto JSON, o eseguire questo step solo nel check di backup a inizio sessione interattiva).
-
----
-
-## 2026-06-14 — setup iniziale
-
-**Stato generale:** sano.
-
-- **GSC Search Analytics (22/5→12/6):** impressioni in crescita 739→3049/giorno, click 7→47, posizione media stabile 9-11. Trend in salita continuo, nessun impatto visibile dall'outage del 7-8/6.
-- **Nota:** la colonna "Impressioni" del CSV export GSC Coverage (che mostrava un calo -48% 22/5→8/6) è un falso allarme — misura qualcosa di diverso da Search Analytics. Per il traffico reale usare sempre Search Analytics.
-- **Outage dominio 8-10/6:** dominio ombreeluci.it non rinnovato, ~52h di instabilità (DNS + 5xx), risolto. Auto-renewal DNS ora attivo.
-- **Redirect legacy (1096 voci):** baseline `verify-redirects` del 21/5 = 1095/1097 ok. I 2 fail sono su URL spam non-Latini (`/с-рождеством/`, `/メリークリスマス/`), ignorabili.
-- **Uptime:** nessun downtime oltre l'outage DNS dell'8/6.
-
-**Attività proposte:** nessuna — tutto in linea.
-
----
-
-## Appendice — contenuto residuo non correlato ai bug (fondo di bug_ux_ui.md)
-
-*Il blocco seguente è stato trovato in coda a `bug_ux_ui.md` (dopo l'ultima sezione di bug reale), senza alcuna relazione con bug/UX/UI — sembra un elenco di credit fotografici Unsplash per didascalie, incollato lì per errore o come nota di lavoro. Riportato integralmente per non perdere informazione (potrebbe essere ancora necessario per attribuzioni foto), ma isolato qui perché non è cronologia né backlog.*
-
-```
-DIDASCALIE
-
-
-https://unsplash.com/it/foto/un-dipinto-astratto-colorato-con-uno-sfondo-bianco-KTrMmadLm7w
-Foto di <a href="https://unsplash.com/it/@vackground?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">vackground.com</a> su <a href="https://unsplash.com/it/foto/un-dipinto-astratto-colorato-con-uno-sfondo-bianco-KTrMmadLm7w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-steve-a-johnson-RKRnPx9e4jQ-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@steve_j?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Steve A Johnson</a> su <a href="https://unsplash.com/it/foto/pittura-astratta-blu-e-rossa-RKRnPx9e4jQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-fia-yang-5ye2nOdHDqM-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@fiayang?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">FÍA YANG</a> su <a href="https://unsplash.com/it/foto/una-foto-in-bianco-e-nero-di-una-mucca-5ye2nOdHDqM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-fia-yang-ENrCGBOFcnw-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@fiayang?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">FÍA YANG</a> su <a href="https://unsplash.com/it/foto/una-foto-in-bianco-e-nero-del-volto-di-una-donna-ENrCGBOFcnw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-everett-beaupit-A0nyxh7w6O8-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@j_b_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Everett Beaupit</a> su <a href="https://unsplash.com/it/foto/alberi-sfocati-appaiono-sullacqua-A0nyxh7w6O8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-
-jr-korpa-PY6OnoitYfY-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@jrkorpa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jr Korpa</a> su <a href="https://unsplash.com/it/foto/una-foto-in-bianco-e-nero-di-persone-che-camminano-lungo-un-sentiero-PY6OnoitYfY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-jr-korpa-WKK4yIc3JBM-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@jrkorpa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jr Korpa</a> su <a href="https://unsplash.com/it/foto/unimmagine-sfocata-di-un-uomo-che-cammina-sotto-la-pioggia-WKK4yIc3JBM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-kseniya-lapteva-xw8dKzrjXbk-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@ksushlapush?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kseniya Lapteva</a> su <a href="https://unsplash.com/it/foto/pittura-astratta-bianca-e-grigia-xw8dKzrjXbk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-xander-ashwell-bhTjAUHHvSg-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@xanderashwell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Xander Ashwell</a> su <a href="https://unsplash.com/it/foto/fotografia-in-scala-di-grigi-del-campo-derba-bhTjAUHHvSg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-hilda-rytteke-tSWxeJx-C3E-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@hilda_r?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hilda Rytteke</a> su <a href="https://unsplash.com/it/foto/un-uccello-seduto-su-un-ramo-dellalbero-tSWxeJx-C3E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-jan-huber-3D_Ks04MYdI-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@jan_huber?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Huber</a> su <a href="https://unsplash.com/it/foto/pali-elettrici-sul-campo-sotto-il-cielo-bianco-3D_Ks04MYdI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-mahdi-bafande-CYsMPZ2yjlw-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@mahdibafande?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mahdi Bafande</a> su <a href="https://unsplash.com/it/foto/texture-fume-grigio-chiaro-e-scuro-astratta-CYsMPZ2yjlw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-martin-martz-W0EaIFjAck4-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@martz90?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Martin Martz</a> su <a href="https://unsplash.com/it/foto/uno-sfondo-astratto-blu-con-forme-ondulate-W0EaIFjAck4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-james-trenda-bZFkDfESCR8-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@trendagraphy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Trenda</a> su <a href="https://unsplash.com/it/foto/unonda-nelloceano-bZFkDfESCR8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-thomas-lindner-6GmAvTz-QwY-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@vertic4l?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thomas Lindner</a> su <a href="https://unsplash.com/it/foto/una-lunga-strada-vuota-che-scompare-nella-nebbia-6GmAvTz-QwY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-jr-korpa-GQeSfSWmXvI-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@jrkorpa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jr Korpa</a> su <a href="https://unsplash.com/it/foto/pittura-astratta-verde-e-blu-GQeSfSWmXvI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-kate-trysh-s0yXRDMr6bY-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@katetrysh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kate Trysh</a> su <a href="https://unsplash.com/it/foto/nuvole-soffici-illuminate-dalla-luce-soffusa-del-sole-dallalto-s0yXRDMr6bY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-niko-n-_FJNAM5B0p0-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@niko_nguyen_10?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">niko n</a> su <a href="https://unsplash.com/it/foto/alba-sopra-le-nuvole-dal-finestrino-dellaereo-_FJNAM5B0p0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-caio-brigagao-lunardi-_Ye1pm9fGZ4-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@cblunardi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caio Brigagão Lunardi</a> su <a href="https://unsplash.com/it/foto/fotografia-aerea-del-mare-di-nuvole-durante-lora-doro-_Ye1pm9fGZ4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-dennis-van-lith-rD1_nrA5_1U-unsplash.jpg
-Foto di <a href="https://unsplash.com/it/@le_marquis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dennis van Lith</a> su <a href="https://unsplash.com/it/foto/cielo-blu-e-nuvole-bianche-durante-il-tramonto-rD1_nrA5_1U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-```

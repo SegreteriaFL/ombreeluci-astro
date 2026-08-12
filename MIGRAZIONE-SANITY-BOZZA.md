@@ -1,7 +1,7 @@
 # Bozza — valutazione/migrazione a Sanity
 
 **Stato:** bozza iniziale, nessuna decisione presa. Sessione 2026-07-27.
-**Perché questo documento esiste:** feedback diretto della redazione ("mi sembra di camminare sulle uova") dopo mesi di bug ricorrenti su Directus (traduzioni che non si pubblicano, foto sbagliate, ricerca stale — vedi `bug_ux_ui.md` sezione 2026-07-27). Con Sorain (preventivo ~20k) e Tartufo in arrivo, la scelta del CMS per i *nuovi* progetti non ha vincoli di sunk cost — va fatta su cosa è più solido oggi, non su cosa già conosciamo.
+**Perché questo documento esiste:** feedback diretto della redazione ("mi sembra di camminare sulle uova") dopo mesi di bug ricorrenti su Directus (traduzioni che non si pubblicano, foto sbagliate, ricerca stale — vedi `STATO.md` § [BUG] Segnalazioni 2026-07-27). Con Sorain (preventivo ~20k) e Tartufo in arrivo, la scelta del CMS per i *nuovi* progetti non ha vincoli di sunk cost — va fatta su cosa è più solido oggi, non su cosa già conosciamo.
 
 ---
 

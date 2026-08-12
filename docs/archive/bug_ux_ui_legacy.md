@@ -1,3 +1,4 @@
+<!-- ARCHIVIATO 2026-08-12 — contenuto fuso in STATO.md (sezioni [BUG] Segnalazioni YYYY-MM-DD + backlog). Conservato solo per riferimento storico, non aggiornare. -->
 <!--
 BUG / UX / UI — Ombre e Luci
 

@@ -10,12 +10,11 @@ Sito archivio della rivista cattolica Ombre e Luci (1983–oggi). 3527 articoli,
 
 | Cosa cerchi | Documento |
 |---|---|
-| Stato attuale, task aperti, blockers | `STATO.md` |
+| Stato attuale, log di sessione, bug tracker, backlog, log SEO/monitoring | `STATO.md` |
 | Come si lavora, regole operative, gate | `WORKING.md` |
 | Regole architetturali, componenti, i18n | `CLAUDE.md` |
 | Contenuti, lingue, traduzioni, Algolia | `CONTENUTI.md` |
 | Architettura, stack, backup, restore, monitoring, incident playbook | `RUNBOOK.md` |
-| Bug visivi e UX da risolvere | `bug_ux_ui.md` |
 | Regole editoriali (per la redazione) | `NORME_EDITORIALI_OEL.md` |
 
 **Regola anti-frammentazione (2026-08-10):** prima di creare un nuovo file `.md`, controllare se l'argomento rientra già in uno di questi. Un nuovo argomento *ricorrente* (log, riferimento operativo, checklist che si ripete) va aggiunto come sezione in `STATO.md` o `RUNBOOK.md`, non in un file nuovo — è già successo due volte che la documentazione si frammentasse in file paralleli mai più riunificati (vedi `docs/archive/PROMPT_CLAUDECODE_legacy.md` per la consolidazione precedente). Un file nuovo si giustifica solo per una decisione/analisi one-off e autocontenuta (es. `DECISIONE-STAGING.md`) — e va archiviato in `docs/archive/` non appena la decisione è chiusa e implementata.

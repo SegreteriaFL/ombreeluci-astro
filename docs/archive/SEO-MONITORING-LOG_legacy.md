@@ -1,3 +1,5 @@
+> **ARCHIVIATO 2026-08-12** — contenuto fuso in STATO.md § "Log SEO/Monitoring settimanale". Conservato solo per riferimento storico, non aggiornare.
+
 # Log monitoraggio SEO/uptime/redirect — Ombre e Luci
 
 > Log settimanale generato dal check automatico. Entry più recente in alto.
