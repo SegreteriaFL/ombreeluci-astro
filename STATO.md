@@ -27,7 +27,7 @@ Struttura prodotta:
 
 **Bug redirect bare-path Fase 1 (`/categoria/*`, `/archivio/oel-N/`, `/page/N/` senza `/it/` → 404 invece di redirect)** — log diagnostico temporaneo scritto in `src/middleware.ts` (non ancora committato/deployato), pronto per isolare la causa in una sessione dedicata.
 
-**Debito tecnico da non riscoprire da zero**: custom domain Pages per `www.ombreeluci.it` bloccato in stato `"error"` generico Cloudflare dal cutover di ieri, causa non accertata, mitigato da una redirect rule di zona indipendente e verificata funzionante — vedi `DECISIONE-STAGING.md` Appendice A9, "Imprevisto 3".
+~~**Debito tecnico da non riscoprire da zero**: custom domain Pages per `www.ombreeluci.it` bloccato in stato `"error"`.~~ **Risolto da solo (2026-08-13)** — ricontrollato un giorno dopo senza interventi, risulta `active`. Confermato transitorio, non un problema di configurazione. Vedi `DECISIONE-STAGING.md` Appendice A9, "Imprevisto 3".
 
 ---
 
