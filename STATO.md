@@ -19,6 +19,18 @@ Struttura prodotta:
 
 ---
 
+## Sessione 2026-08-13 — incidente secret + diagnosi corretta bug rebuild-on-edit
+
+**SICUREZZA — token Cloudflare esposto in chat, ruotato.** Durante l'indagine sul Flow Directus "Rebuild CF Pages on Publish" (vedi sotto), una query di sola lettura ha restituito in chiaro il token Cloudflare (permesso `Pages:Edit`) incorporato nell'operation del Flow. Risposta: (1) rotazione immediata — generato nuovo token con permesso minimo, aggiornata l'operation via API Directus senza far ripassare il nuovo valore dalla chat (letto da `.env` locale, mai incollato); (2) vecchio token revocato da dashboard; (3) controllato audit log account (30gg) e storico deployment del progetto Pages (25 run) per uso anomalo — nessuna anomalia trovata, tutta l'attività spiegabile con sessioni note. Un secondo tentativo di rotazione ha esposto per errore anche un token intermedio (mai arrivato a essere salvato attivo da nessuna parte, probabile screen di conferma Cloudflare non completato) — nessuna azione necessaria, non risultava nella lista token attivi. **Lezione**: per aggiornare credenziali via comando, usare sempre lettura da `.env` locale o `Read-Host` interattivo, mai valori scritti direttamente nel comando che l'assistente fornisce — è successo 2 volte nella stessa sessione prima di essere corretto.
+
+**Diagnosi corretta — non è un problema di cache.** Durante la Fase 2 (cutover Worker→custom domain diretto, vedi `DECISIONE-STAGING.md`) era stato osservato che le pagine categoria/home potevano mostrare contenuto non aggiornato fino a 1h dopo una modifica articolo, attribuito inizialmente a una Cache Rule di zona risvegliata dal cutover. **Causa reale**, trovata interrogando Directus direttamente: il Flow "Rebuild CF Pages on Publish" ha una condizione `$trigger.payload.stato _eq "published"` che controlla il payload del salvataggio, non lo stato corrente — modificare un articolo già pubblicato senza toccare il campo `stato` non triggera alcun rebuild. Le pagine statiche (categoria/home/autori/archivio, prerenderizzate a build-time) restano vecchie fino al rebuild notturno (02:00 UTC) — fino a 24h, non 1h. Dettaglio completo e opzioni di fix in `DECISIONE-STAGING.md` Appendice A9. **Non ancora deciso** se allargare la condizione del Flow (rischio: rebuild ad ogni salvataggio minore, verificare rate limit CF Pages prima) o accettare il rebuild notturno come comportamento noto — decisione da prendere in sessione dedicata, non improvvisata.
+
+**Bug redirect bare-path Fase 1 (`/categoria/*`, `/archivio/oel-N/`, `/page/N/` senza `/it/` → 404 invece di redirect)** — log diagnostico temporaneo scritto in `src/middleware.ts` (non ancora committato/deployato), pronto per isolare la causa in una sessione dedicata.
+
+**Debito tecnico da non riscoprire da zero**: custom domain Pages per `www.ombreeluci.it` bloccato in stato `"error"` generico Cloudflare dal cutover di ieri, causa non accertata, mitigato da una redirect rule di zona indipendente e verificata funzionante — vedi `DECISIONE-STAGING.md` Appendice A9, "Imprevisto 3".
+
+---
+
 ## Prossimi passi — stabilità sito e Directus (definiti 2026-08-08, non ancora iniziati)
 
 Elenco prioritizzato, discusso con Fede a fine sessione dell'8/8, coerente con la decisione presa lo stesso giorno ("fixare il fixabile o cambiare CMS", vedi memoria `project_directus_flow_silent_failures`).
