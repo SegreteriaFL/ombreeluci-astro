@@ -96,20 +96,6 @@ export const onRequest = defineMiddleware(async ({ url, redirect, request }, nex
 
   const path = url.pathname;
 
-  // DIAGNOSTICA TEMPORANEA (2026-08-13, bug redirect bare-path Fase 1) — da rimuovere
-  // appena la causa è confermata. Solo .length sui valori sensibili, mai il contenuto pieno
-  // se non serve. Log su ogni richiesta che passa il gate host, per isolare dove si perde
-  // il match sulle regole bare-path (/categoria/*, /archivio/*, /page/*).
-  console.log(JSON.stringify({
-    tag: 'DIAG_bare_path_2026_08_13',
-    path,
-    pathLength: path.length,
-    pathCharCodes: Array.from(path).map(c => c.charCodeAt(0)),
-    categoriaBareTest: CATEGORIA_BARE_RE.test(path),
-    archivioBareTest: ARCHIVIO_BARE_RE.test(path),
-    pageTest: PAGE_RE.test(path),
-  }));
-
   const archivioRedirect = ARCHIVIO_REDIRECTS[path];
   if (archivioRedirect) return redirect(archivioRedirect, 301);
 
@@ -189,5 +175,13 @@ export const onRequest = defineMiddleware(async ({ url, redirect, request }, nex
     return redirect(path + '/', 301);
   }
 
-  return next();
+  // DIAGNOSTICA TEMPORANEA (2026-08-13, bug redirect bare-path Fase 1) — da rimuovere
+  // appena la causa è confermata. console.log non viene catturato in modo affidabile
+  // da wrangler pages deployment tail in questo ambiente (verificato: anche richieste
+  // SSR reali da 1300ms mostrano logs:[] vuoto) — uso un header di risposta invece,
+  // verificabile con un semplice `curl -I`, senza dipendere dalla cattura dei log.
+  const response = await next();
+  response.headers.set('X-Diag-Middleware-Reached', 'true');
+  response.headers.set('X-Diag-Path-Length', String(path.length));
+  return response;
 });
