@@ -1,6 +1,16 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-08-08
+**Ultimo aggiornamento:** 2026-08-13 — ⚠️ **Fase 2 (cutover Worker→custom domain) ROLLBACKATA lo stesso giorno.** Il Worker `ombreeluci-redirects` è di nuovo attivo. Vedi `DECISIONE-STAGING.md` § "DECISIONE ATTUALE" e Appendice A10 per il dettaglio completo.
+
+---
+
+## Sessione 2026-08-13 (continua) — Fase 2 rollbackata: regressione critica sui redirect legacy
+
+Riprendendo la diagnosi del bug redirect bare-path di Fase 1 (log diagnostico → sostituito console.log con header di risposta dopo aver scoperto che `wrangler pages deployment tail` non cattura `console.log` in modo affidabile in questo ambiente), scoperto che il problema è **molto più grande** di 3 regole: sul custom domain Cloudflare Pages la Function SSR non viene invocata per **nessun path bare-root** (non `/it/*`/`/en/*`) — verificato su `/n-38/`, `/insieme/*`, `/project/*`, `/2023/slug/`, `/blog/slug/`, `/diario-di-*`, tutti preesistenti e mai toccati da Fase 1. **1078 dei 1096 redirect della tabella legacy (98%) erano rotti** — mascherati dal Worker fino alla Fase 2, esposti per ~24h prima della scoperta.
+
+**Rollback immediato eseguito** (non diagnosi ulteriore prima) — Route del Worker ricreata via API, 11 pattern verificati tornati a 301 corretto, sito normale invariato. Dettaglio completo, causa, e piano prima di ritentare la Fase 2: `DECISIONE-STAGING.md` Appendice A10.
+
+**Lezione**: lo smoke test CI era rotto (Bot Fight Mode, sessione stessa) esattamente nella finestra in cui sarebbe servito a intercettare questo — nessuna rete di sicurezza automatica ha segnalato nulla. Un controllo mirato sui redirect legacy va nella checklist di verifica immediata di ogni futuro cutover, non assunto implicitamente.
 
 ---
 

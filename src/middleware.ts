@@ -175,13 +175,5 @@ export const onRequest = defineMiddleware(async ({ url, redirect, request }, nex
     return redirect(path + '/', 301);
   }
 
-  // DIAGNOSTICA TEMPORANEA (2026-08-13, bug redirect bare-path Fase 1) — da rimuovere
-  // appena la causa è confermata. console.log non viene catturato in modo affidabile
-  // da wrangler pages deployment tail in questo ambiente (verificato: anche richieste
-  // SSR reali da 1300ms mostrano logs:[] vuoto) — uso un header di risposta invece,
-  // verificabile con un semplice `curl -I`, senza dipendere dalla cattura dei log.
-  const response = await next();
-  response.headers.set('X-Diag-Middleware-Reached', 'true');
-  response.headers.set('X-Diag-Path-Length', String(path.length));
-  return response;
+  return next();
 });
