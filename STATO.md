@@ -29,6 +29,16 @@ Struttura prodotta:
 
 ~~**Debito tecnico da non riscoprire da zero**: custom domain Pages per `www.ombreeluci.it` bloccato in stato `"error"`.~~ **Risolto da solo (2026-08-13)** — ricontrollato un giorno dopo senza interventi, risulta `active`. Confermato transitorio, non un problema di configurazione. Vedi `DECISIONE-STAGING.md` Appendice A9, "Imprevisto 3".
 
+**Smoke-post-deploy 403 — indagato, causa confermata, fix tentato e scartato.** Causa: Bot Fight Mode Cloudflare blocca con managed challenge (`cf-mitigated: challenge`, pagina "Just a moment...") ogni richiesta `curl` sia dai runner GitHub Actions sia — sorprendentemente — anche dal VPS Hetzner nonostante sia in whitelist IP a livello zona (`159.69.196.64`, regola creata 27/7 per il webhook Directus). Test mirato: sia `/` sia `/api/health` bloccati identicamente dal VPS → non è un problema di path specifico, la whitelist IP semplicemente non basta a bypassare Bot Fight Mode per una richiesta `curl` generica, contraddicendo l'assunto usato per il fix di luglio (dove però la richiesta era una `POST` autenticata con Bearer token dalla Flow Directus, non una `GET` anonima — differenza non ancora verificata come causa, ipotesi aperta). Confermato anche da documentazione ufficiale Cloudflare: **Bot Fight Mode su piano Free non è skippabile da nessuna Custom Rule, per design**, indipendentemente da IP/allowlist.
+
+Tentato un fix (workflow GitHub Actions instrada le richieste via SSH sul VPS invece che dal runner) — **non funziona per lo stesso motivo, revertito integralmente** (commit di revert, nessun residuo: rimossi anche il secret `VPS_SSH_KEY` da GitHub e la chiave dedicata da `authorized_keys` sul VPS).
+
+**Verifica collaterale importante**: controllato UptimeRobot (6/6 monitor, tutti i tempi storici) — **nessun impatto**, 100% uptime, 0 incidenti recenti, nessun pattern di 403. Gli unici incidenti in storico (503/526/timeout a luglio) sono i 3 incidenti di produzione del Worker già documentati altrove, correttamente rilevati e risolti — prova che l'allarme reale funziona. Bot Fight Mode blocca solo `curl`/CI, non il monitoraggio reale.
+
+**Decisione rimandata, da prendere con calma**: (a) disattivare Bot Fight Mode (riduce protezione generale), (b) accettare il limite dello smoke test CI e affidarsi a UptimeRobot come rete di sicurezza reale (già verificata affidabile — preferenza istintiva, ma è una scelta di budget/rischio da confermare con Fede, non decisa qui), (c) upgrade a Cloudflare Pro per Super Bot Fight Mode (skippabile via regole). Nessuna urgenza — il monitoraggio reale copre già il rischio.
+
+**Debito minore — permission creep su `CF_ZONE_TOKEN`**: durante l'indagine è stato aggiunto il permesso "Zone WAF" al token (necessario per leggere/scrivere il ruleset `http_request_firewall_custom`), ma la regola che lo richiedeva non è mai stata creata (piano scartato dopo aver scoperto che Bot Fight Mode non è skippabile). Il permesso resta sul token senza uso attivo — nessun rischio operativo immediato (non ha creato nulla), ma va rivalutato se rimuoverlo la prossima volta che si tocca quel token, per non accumulare permessi non più giustificati dallo scopo dichiarato.
+
 ---
 
 ## Prossimi passi — stabilità sito e Directus (definiti 2026-08-08, non ancora iniziati)
