@@ -206,6 +206,39 @@ Non è stato un semplice "clic per riattivare" come previsto — sono emersi 3 i
 2. Progettare e verificare il fix end-to-end su path bare-root reali **sul dominio custom di produzione** (non locale, non preview `pages.dev` — comportamenti già visti diversi tra i due in questa stessa indagine).
 3. Solo dopo un fix verificato, ripianificare un nuovo tentativo di Fase 2 — con la stessa sequenza e le stesse cautele già scritte (custom domain riattivato e confermato `active` prima di disattivare la Route, non dopo).
 
+## A11. Baseline Google Search Console — Crawl Stats pre-incidente (2026-08-13)
+
+**Proprietà GSC attiva**: `https://ombreeluci.it/` (URL-prefix). Verificato con l'utente che dopo il passaggio a Cloudflare è rimasta verificata solo questa — le proprietà `https://www.ombreeluci.it/` e `https://www.ombreeluci.it/en/` visibili nello switcher sono residui pre-migrazione, non monitorate. Esiste anche la proprietà dominio `ombreeluci.it` (sc-domain), che aggrega tutti gli host (utile come contesto, non è quella su cui interroga lo script `gsc-query.mjs`).
+
+**Dati Crawl Stats, periodo 15/05/26–11/08/26 (ultimo dato disponibile prima del rollback, lag GSC 1-2 giorni — non copre ancora l'incidente Fase 2 dell'11-13/08):**
+
+Proprietà `https://ombreeluci.it/` (quella monitorata dal service account):
+- Richieste di scansione totali: 172K
+- Per risposta: OK (200) 59%, spostato permanentemente (301) 27%, non trovata (404) 6%, altro 4XX 5%, errore server 5XX 3%
+
+Proprietà dominio `ombreeluci.it` (aggregato tutti gli host, solo contesto):
+- Richieste di scansione totali: 216K — per risposta: 200 52%, 301 36%, 404 5%
+- Breakdown host: `ombreeluci.it` 171.822 richieste, `www.ombreeluci.it` 33.050 richieste (entrambi "problemi in passato" nello stato host, verosimilmente storico/DNS pre-CF, da non interpretare come segnale attuale), `cms.ombreeluci.it` 11.266 richieste ("nessun problema")
+- Grafico: un picco anomalo isolato intorno al 12/06/26 (~14-15K richieste in un giorno) e uno minore verso il 15/07/26 — nessun picco visibile a ridosso dell'11/08 (ultimo dato disponibile)
+
+**Baseline 404 pre-incidente: ~5-6% delle richieste di scansione totali.** Nessuna anomalia visibile fino all'11/08. Questo NON è ancora un verdetto sull'impatto della Fase 2 (rollback eseguito il 13/08) — va ricontrollato tra 2-3 giorni quando il dato coprirà la finestra 11-13/08, confrontando il nuovo valore % 404 con questo baseline.
+
+**Segnale separato, non collegato all'incidente**: nel report "Rendimento" (Search Analytics, non Crawl Stats) della stessa proprietà, click e impressioni crollano quasi a zero a partire da giugno 2026 e restano piatti da allora — un calo che precede l'incidente Fase 2 di settimane e merita un'indagine propria, non ancora aperta.
+
+**AGGIORNAMENTO (2026-08-13, stessa sessione) — indagine aperta e chiusa: falso allarme.** Query diretta via `gsc-query.mjs` sulla proprietà `https://ombreeluci.it/` (quella confermata dall'utente come l'unica attiva post-migrazione CF — vedi sopra) per l'intero periodo 2026-02-13/2026-08-11, dimensione `date`: **nessun calo — il traffico è in crescita**. Click giornalieri: ~20-40/giorno a maggio-giugno, stabili tra 25-45/giorno per tutta luglio, **in salita a 40-66/giorno nella prima decade di agosto** (ultimo dato disponibile: 66 click, 11/08). Nessuna anomalia, nessun crollo, nessun giorno a zero click dopo il 20/05 (il primo giorno della serie, plausibilmente un giorno di dati parziali).
+
+**Root cause del falso allarme**: lo screenshot che aveva innescato il sospetto proveniva da una proprietà GSC diversa — una delle varianti `https://www.ombreeluci.it/` residue pre-migrazione CF (chiarito con l'utente: solo `https://ombreeluci.it/` è rimasta verificata e attiva dopo il passaggio a Cloudflare, le altre sono relitti mai deverificati). Quella proprietà vecchia mostra verosimilmente un calo a zero perché ha semplicemente smesso di ricevere segnale reale (traffico/indicizzazione migrati alla proprietà corretta), non perché il sito abbia un problema di traffico.
+
+**Conclusione**: nessuna azione necessaria, nessuna causa tecnica da cercare (niente cross-reference con git log, niente controllo Crawl Stats per l'ipotesi — non serve, dato che l'anomalia stessa non esiste nella proprietà corretta). Indagine chiusa lo stesso giorno in cui è stata aperta.
+
+**Nota permanente — QUALE proprietà GSC guardare (per evitare un terzo falso allarme).** Questa è la seconda volta in questa sessione che una proprietà GSC residua pre-migrazione CF genera confusione (prima con lo screenshot mostrante `www.ombreeluci.it`, ora con l'apparente calo di giugno). Per chiunque legga questo file in futuro (utente, Cristina, o una sessione CC senza questo contesto):
+
+> **L'UNICA proprietà GSC da guardare è `https://ombreeluci.it/` (URL-prefix, non-dominio, senza www).** È l'unica rimasta verificata e attiva dopo il passaggio a Cloudflare (confermato dall'utente). È anche l'unica a cui il service account (`scripts/gsc-query.mjs`) ha accesso — se una query API fallisce con "permission denied" su un'altra proprietà, è previsto, non è un problema da risolvere.
+>
+> **Tutte le varianti `www.ombreeluci.it` visibili nello switcher GSC sono residue pre-migrazione — NON monitorarle, i loro dati (inclusi eventuali cali o anomalie) non sono rappresentativi dello stato reale del sito.** Non deverificarle/rimuoverle senza motivo (potrebbero servire da riferimento storico), ma non usarle mai come fonte per una diagnosi.
+
+Stessa nota aggiunta in sintesi a `STATO.md` per chi non apre questo file.
+
 ## A7. Note tecniche — API Cloudflare per prossime sessioni
 
 - Liste: `GET/POST/DELETE /accounts/{account_id}/rules/lists`, item: `.../rules/lists/{list_id}/items` (async, creazione item ritorna `operation_id`, va ripollato)
