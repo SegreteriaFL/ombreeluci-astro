@@ -96,6 +96,20 @@ export const onRequest = defineMiddleware(async ({ url, redirect, request }, nex
 
   const path = url.pathname;
 
+  // DIAGNOSTICA TEMPORANEA (2026-08-13, bug redirect bare-path Fase 1) — da rimuovere
+  // appena la causa è confermata. Solo .length sui valori sensibili, mai il contenuto pieno
+  // se non serve. Log su ogni richiesta che passa il gate host, per isolare dove si perde
+  // il match sulle regole bare-path (/categoria/*, /archivio/*, /page/*).
+  console.log(JSON.stringify({
+    tag: 'DIAG_bare_path_2026_08_13',
+    path,
+    pathLength: path.length,
+    pathCharCodes: Array.from(path).map(c => c.charCodeAt(0)),
+    categoriaBareTest: CATEGORIA_BARE_RE.test(path),
+    archivioBareTest: ARCHIVIO_BARE_RE.test(path),
+    pageTest: PAGE_RE.test(path),
+  }));
+
   const archivioRedirect = ARCHIVIO_REDIRECTS[path];
   if (archivioRedirect) return redirect(archivioRedirect, 301);
 
