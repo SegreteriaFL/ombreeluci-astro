@@ -1,6 +1,20 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-08-13 — ⚠️ **Fase 2 (cutover Worker→custom domain) ROLLBACKATA lo stesso giorno.** Il Worker `ombreeluci-redirects` è di nuovo attivo. Vedi `DECISIONE-STAGING.md` § "DECISIONE ATTUALE" e Appendice A10 per il dettaglio completo. **Stessa giornata, incidente separato e risolto**: rotazione `DIRECTUS_TOKEN` ha rotto tutte le pagine articolo in produzione per ~9 minuti (17:22-17:31 UTC) — causa e fix in fondo alla sessione qui sotto. Sito verificato stabile dopo entrambi gli incidenti.
+**Ultimo aggiornamento:** 2026-08-15 — ✅ **Ricontrollo programmato post-rollback Fase 2: nessun danno residuo trovato** (vedi sessione sotto). Il Worker `ombreeluci-redirects` resta attivo davanti a tutto, 1096/1096 redirect legacy verificati OK in produzione. Vedi `DECISIONE-STAGING.md` § "DECISIONE ATTUALE" e Appendice A10 per il dettaglio del rollback del 13/8.
+
+---
+
+## Sessione 2026-08-15 — Ricontrollo programmato (target 15-16/08): impatto reale Fase 2, esito pulito
+
+Ricontrollo previsto in sessione 13/08 (vedi sotto) per misurare l'impatto reale dei 1078/1096 redirect legacy rimasti rotti per ~24h prima del rollback.
+
+- **Redirect legacy in produzione**: `BASE_URL="https://ombreeluci.it" node scripts/verify-redirects.mjs` → **1096/1096 OK, 0 404, fail rate 0%**. Il Worker (Route ripristinata il 13/8) tiene perfettamente oggi.
+- **GSC Search Analytics** (proprietà corretta `https://ombreeluci.it/`, dati fino all'11-13/8, lag 1-2gg): impressioni 3046-3236/giorno, click 41-48/giorno, posizione 9.0-10.2 — nessuna anomalia nella finestra dell'incidente (11-13/8), in linea con la baseline pre-rollback.
+- **UptimeRobot**: 6/6 monitor UP. Unico log della finestra è il down "Not Found" di "Articolo SSR (produzione)" 17:09-17:30 UTC il 13/8 — coincide con l'incidente `DIRECTUS_TOKEN` già documentato e chiuso quella stessa sessione, non collegato al rollback Fase 2.
+- **Non verificabile via API**: il report "Statistiche di scansione" (Crawl Stats) di GSC — quello che in Appendice A11 dava la baseline 404 al 5-6% — non è esposto dalla Search Console API, `gsc-query.mjs` copre solo Search Analytics (Rendimento). Il confronto diretto % 404 pre/post incidente richiede **controllo manuale nella UI GSC** (proprietà `https://ombreeluci.it/` → Impostazioni → Statistiche di scansione → Per risposta), non ancora fatto.
+- **Stima del danno reale in traffico (punto 5 di `DECISIONE-STAGING.md` § DECISIONE ATTUALE) — completata, danno trascurabile.** `CF_ANALYTICS_TOKEN` era scaduto ("Authentication error" 10000): rigenerato dall'utente in dashboard CF (permesso `Zone > Analytics > Read`, scope `ombreeluci.it`), aggiornato in `.env` senza farlo transitare in chat. Con il token nuovo, `scripts/cf-analytics.mjs --by=path` falliva su 3 bug distinti nella query GraphQL (mai eseguita con successo prima d'ora, verosimilmente mai testata dopo la scrittura): `clientRequestHTTPMethodIn` → nome campo corretto `clientRequestHTTPMethodName_in`; `orderBy: [count_DEC]` → enum corretto `count_DESC`; filtro `edgeResponseContentTypeName: "html"` non accessibile sul piano CF attuale (errore authz), rimosso. Scoperto anche un limite di piano non documentato nello script: `httpRequestsAdaptiveGroups` (usato da `--by=path`) accetta **solo range di 1 giorno**, non un intervallo — lo script va richiamato un giorno alla volta per questo tipo di query. Tutti e 3 i fix applicati direttamente in `scripts/cf-analytics.mjs`. **Risultato**: top 40 path per hit del 12/8 (giorno pieno nella finestra di esposizione) dominato da traffico API/Directus (`/items/*`, `/server/ping`) e asset del sito — **nessuno dei path legacy noti rotti** (`/n-38/`, `/insieme/*`, `/project/*`, `/2023/*`, `/blog/*`, `/diario-di-*`) compare tra le pagine più richieste. Segnale di traffico reale basso sui path coinvolti nella finestra dei 98% redirect rotti.
+
+**Conclusione**: nessuna azione correttiva necessaria. Rollback verificato pulito su tre fonti indipendenti (redirect, GSC, CF path traffic) più uptime. Resta aperto solo il controllo manuale Crawl Stats (UI, 5 minuti, non automatizzabile — l'API Search Console non espone questo report) e il fix root-cause (Function SSR non invocata su path bare-root sul custom domain) prima di ritentare la Fase 2 — vedi `DECISIONE-STAGING.md` punto 2.
 
 ---
 

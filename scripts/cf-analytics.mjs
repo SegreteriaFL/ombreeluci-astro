@@ -145,7 +145,7 @@ async function byPath() {
   const data = await query(`{
     viewer {
       zones(filter: {zoneTag: "${ZONE_ID}"}) {
-        httpRequestsAdaptiveGroups(limit: ${rowLimit}, filter: {date_geq: "${startDate}", date_leq: "${endDate}", requestSource: "eyeball", clientRequestHTTPMethodIn: ["GET"], edgeResponseContentTypeName: "html"}, orderBy: [count_DEC]) {
+        httpRequestsAdaptiveGroups(limit: ${rowLimit}, filter: {date_geq: "${startDate}", date_leq: "${endDate}", requestSource: "eyeball", clientRequestHTTPMethodName_in: ["GET"]}, orderBy: [count_DESC]) {
           count
           dimensions { clientRequestPath }
         }
