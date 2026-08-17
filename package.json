@@ -21,7 +21,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@algolia/autocomplete-js": "1.19.8",
+    "@algolia/autocomplete-js": "1.19.9",
     "@astrojs/cloudflare": "11.2.0",
     "@astrojs/react": "3.6.3",
     "@astrojs/rss": "4.0.18",
