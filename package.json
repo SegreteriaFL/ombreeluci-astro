@@ -39,7 +39,7 @@
     "@types/react-dom": "18.3.7",
     "algoliasearch": "5.51.0",
     "dotenv": "17.4.2",
-    "googleapis": "173.0.0",
+    "googleapis": "174.0.1",
     "typescript": "6.0.3",
     "zod": "3.25.76"
   }
