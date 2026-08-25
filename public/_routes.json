@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/_astro/*",
+    "/admin/*",
+    "/apple-touch-icon.png",
+    "/correlati.json",
+    "/cta-numero.png",
+    "/cta-numero.webp",
+    "/en-to-it-slugs.json",
+    "/favicon.ico",
+    "/favicon.png",
+    "/favicon.svg",
+    "/fonts/*",
+    "/googlea52351fb65034ff3.html",
+    "/images/*",
+    "/logo-bianco.svg",
+    "/placeholder/*",
+    "/robots.txt"
+  ]
+}

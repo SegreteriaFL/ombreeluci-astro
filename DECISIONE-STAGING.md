@@ -57,7 +57,23 @@
 - Decidere se revocare il Service Token `directus-webhook-origin` (creato per simmetria col piano, risultato inutilizzato — nessuna Flow Directus chiama `pages.dev` direttamente) o tenerlo per un eventuale uso futuro
 - Verificare tra 24-48h che la richiesta di Rimozione sia stata processata (stato "Rimosso" invece di "Elaborazione")
 - Il token `ZEROTRUST_OEL` non ha permesso `Workers Routes:Edit` (zone-level) — il deploy del Worker ha comunque funzionato (la Route esistente non richiedeva modifiche), ma `wrangler deploy` stampa un errore non bloccante su questo. Da sistemare se in futuro serve modificare la Route stessa.
-- Bug SSR bare-root: resta task separato, non toccato, non più bloccante per nulla (confermato in pratica in questa sessione)
+- Bug SSR bare-root: **root cause trovata e fix pushato**, vedi sezione dedicata subito sotto — non toccato prima, non più bloccante per nulla
+
+---
+
+## BUG SSR BARE-ROOT — root cause trovata e fix pushato su main (2026-08-26)
+
+**Causa esatta** (letta nel sorgente di `@astrojs/cloudflare`, non più un'ipotesi): l'adapter genera `_routes.json` in due modi diversi a seconda che il totale di regole include+exclude superi il limite Cloudflare di 100:
+- **Sotto 100** (situazione dell'11-13/8): `include: ["/it/*", "/en/*"]` + `exclude` con tutte le pagine statiche note. Qualsiasi path bare-root (i redirect legacy) non è né in include né in exclude → Cloudflare non invoca mai la Function → 404 statico prima che `middleware.ts` possa fare il redirect. Combacia esattamente con quanto osservato il 13/8.
+- **Sopra 100** (situazione attuale, il sito è cresciuto): fallback a `include: ["/*"]` con `exclude` troncato ai primi 99 elementi in un ordine non garantito — più sicuro ma instabile, dipende da quante pagine statiche esistono in quel momento.
+
+**Fix** (`public/_routes.json`, commit `4b84d84d` su `main`, 2026-08-26): l'adapter salta la propria generazione se trova già un `_routes.json` in `public/`. Scritto a mano: `include: ["/*"]` fisso, `exclude` solo sui veri asset statici (font, immagini, favicon, `_astro/*`) — piccolo, stabile, indipendente dal numero di articoli.
+
+**Verificato**: rebuild locale conferma che il file custom viene rispettato (non sovrascritto). **Non verificato end-to-end sul dominio custom reale** — `wrangler pages dev` in locale non riproduce in modo affidabile l'invocazione della Function (limite già noto, vedi Appendice A8/A9), e un test vero richiederebbe un deploy della build su Pages, cosa non fatta perché il branch attuale ha altro lavoro in corso non pronto per la produzione.
+
+**Impatto oggi: zero.** Il Worker resta davanti a tutto il traffico e maschera qualunque comportamento di Pages, esattamente come da mesi. Questo fix prende effetto solo quando/se si deciderà di ritentare la Fase 2.
+
+**Prima di ritentare la Fase 2, resta comunque necessario**: verificare end-to-end su path bare-root reali sul dominio custom di produzione (non locale, non solo la lettura del codice) prima di disattivare la Route del Worker — vedi punto 4 della decisione del 13/8. Il fix qui sopra rimuove la causa nota, ma la verifica pratica pre-cutover resta un passo a sé, da fare con una build pulita in una sessione dedicata.
 
 ---
 
