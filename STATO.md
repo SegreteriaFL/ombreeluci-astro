@@ -1,6 +1,16 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-08-25 — ✅ **`pages.dev` protetto con Cloudflare Access**: `ombreeluci-staging.pages.dev` risponde 403 a chiunque non presenti un Service Token valido (Google incluso), `ombreeluci.it` invariato (200, 1096/1096 redirect OK). Dettaglio completo, incluso un incidente breve (~40s di 403 in produzione, causa e correzione) in `DECISIONE-STAGING.md` § "FASE A ESEGUITA — 2026-08-25".
+**Ultimo aggiornamento:** 2026-08-26 — ✅ **Root cause del bug SSR bare-root (Fase 2, 13/8) trovata e fix pushato su `main`** (commit `4b84d84d`). Non ancora verificato dal vivo, zero impatto oggi (Worker resta davanti a tutto). Il 25/8: `pages.dev` protetto con Cloudflare Access (403 senza credenziali, `ombreeluci.it` invariato). **Stato completo e aggiornato: `DECISIONE-STAGING.md` § "STATO ATTUALE" in cima al file** — consultare quella sezione, non ricostruire lo stato da questo log cronologico.
+
+---
+
+## Sessione 2026-08-26 — Root cause bug SSR bare-root trovata, fix su main
+
+Letto il sorgente dell'adapter `@astrojs/cloudflare` (`generate-routes-json.js`): sopra 100 regole `_routes.json` combinate (limite Cloudflare), l'adapter tronca l'exclude list in modo non deterministico; sotto 100, restringe `include` a `["/it/*","/en/*"]` — lasciando ogni path bare-root fuori sia da include che da exclude, quindi mai invocata la Function. Root cause esatta del rollback Fase 2 del 13/8, confermata a livello di codice.
+
+Fix: `public/_routes.json` scritto a mano (l'adapter lo rispetta e salta la propria generazione se già presente) — `include` fisso a tutto, `exclude` solo sui veri asset statici. Verificato con rebuild locale che il file custom viene rispettato. **Non verificato end-to-end sul dominio custom reale** (richiederebbe deployare il branch corrente, con altro lavoro in corso, su Pages — non fatto). Pushato isolato su `main` (commit `4b84d84d`, stesso pattern del file di verifica Google del 25/8) e tracciato anche sul branch di lavoro corrente.
+
+Discussione collaterale: perché non eliminare il Worker ora che Access funziona senza di esso — risposta: la ragione originale (sbloccare Access) non c'è più, resta solo pulizia architetturale non urgente. Dettaglio completo, incluso il confronto costi/benefici, in `DECISIONE-STAGING.md` § "STATO ATTUALE".
 
 ---
 

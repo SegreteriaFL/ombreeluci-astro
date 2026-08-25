@@ -1,6 +1,23 @@
 # Decisione — deindicizzazione ombreeluci-staging.pages.dev
 
-## DECISIONE ATTUALE — 2026-08-25 (piano B→A abbandonato, sostituito da Fase A scorporata)
+## STATO ATTUALE — 2026-08-26 (leggi solo questa sezione per lo stato reale)
+
+Il resto del file sotto è diario tecnico storico (utile per capire *perché*, non per sapere *cosa fare ora*). Qui la sintesi di ciò che è vero oggi:
+
+| Cosa | Stato | Nota |
+|---|---|---|
+| **Indicizzazione `pages.dev` (il problema originale)** | ✅ Chiuso | Cloudflare Access protegge `ombreeluci-staging.pages.dev` (403 senza credenziali) dal 25/8. Richiesta di Rimozione temporanea inviata a Google — verificare tra 24-48h dal 25/8 che sia passata da "Elaborazione" a "Rimosso" |
+| **Worker `ombreeluci-redirects`** | Attivo, invariato | Resta davanti a tutto il traffico. Il motivo per cui si voleva eliminarlo (sbloccare Access) **non esiste più** — Access è stato ottenuto senza toccarlo. Tenerlo è oggi una scelta di igiene architetturale a bassa priorità, non una necessità |
+| **Bug SSR bare-root (causa rollback Fase 2 del 13/8)** | Root cause trovata, fix scritto | `public/_routes.json` su `main` (commit `4b84d84d`, 26/8). **Non verificato dal vivo** sul dominio custom — solo letto il codice + build locale. Zero impatto oggi (Worker maschera tutto) |
+| **Fase 2 (eliminare il Worker, dominio diretto su Pages)** | Non urgente, non ripianificata | Se mai la si rifà: riattivare il custom domain Pages (oggi `deactivated`), verificarlo `active` con Worker ancora acceso, solo poi disattivare la Route. Verificare il fix `_routes.json` dal vivo prima di procedere. Storia di 3 imprevisti minori l'ultima volta (DNS A→CNAME, conflitto AAAA, dominio bloccato ~24h in verifica) — vedi Appendice A9 |
+| **Fase 3 (Access su tutto `*.pages.dev`, incluse le preview branch)** | Parziale | Fatta solo sulla produzione (`ombreeluci-staging.pages.dev`, hostname esatto). Le preview dei branch (`<hash>.pages.dev`) restano pubbliche — nessuna prova che siano indicizzate, bassa priorità |
+| **Service Token `directus-webhook-origin`** | Creato, inutilizzato | Nessuna Flow Directus chiama `pages.dev` direttamente (chiamano già `ombreeluci.it`). Decidere: tenerlo o revocarlo |
+
+**Se devi decidere cosa fare ora**: niente è urgente. Le uniche azioni con una scadenza sono verificare l'esito della richiesta GSC (24-48h dal 25/8) e, quando vorrai, decidere sul Service Token Directus inutilizzato.
+
+---
+
+## [STORICO] Decisione — 2026-08-25 (piano B→A abbandonato, sostituito da Fase A scorporata — vedi tabella riassuntiva in cima al file)
 
 **Il ragionamento "B prima di A" del 13/8 (vedi sotto, riga "Perché B prima di A") è superato.** Quel ragionamento assumeva che proteggere `pages.dev` richiedesse comunque un'eccezione applicativa per la subrequest del Worker — cioè lo stesso tipo di logica custom in `middleware.ts` che ha causato i 3 incidenti di luglio (Appendice A2). Non è vero: **i Service Token nativi di Cloudflare Access sono verificati al bordo della rete Cloudflare, prima che la richiesta raggiunga Worker o Pages** — non c'è più codice applicativo (confronto stringhe, gestione redirect, guard-rail) che possa avere bug. Elimina strutturalmente la classe di problema del tentativo di luglio, non solo il sintomo.
 
@@ -77,7 +94,7 @@
 
 ---
 
-## DECISIONE PRECEDENTE — 2026-08-13 (Fase 2 ROLLBACKATA) — superata dalla sezione sopra sul punto "B prima di A"
+## [STORICO] Decisione — 2026-08-13 (Fase 2 ROLLBACKATA) — superata, vedi tabella riassuntiva in cima al file
 
 1. **Fase 2 rollbackata il 2026-08-13, dopo ~24h in produzione.** Il Worker `ombreeluci-redirects` è di nuovo **attivo** (Route ricreata via API, stesso pattern/script di sempre — nessuna modifica, solo ripristino dello stato pre-cutover). Verificato stabile: 11 pattern di redirect testati, tutti tornati a 301 corretto; sito normale (home, articoli) invariato.
 2. **Causa del rollback — regressione critica, non un bug minore**: sul custom domain Cloudflare Pages, la Function SSR (dove vive `middleware.ts`) **non viene invocata per nessun path che non inizi con `/it/` o `/en/`**. Verificato sistematicamente: **1078 dei 1096 redirect della tabella legacy (98%)** — accumulati in mesi di migrazione da WordPress — e **tutte** le regole regex bare-root del middleware (comprese quelle preesistenti, non solo le 7 di Fase 1) restituivano 404 invece del redirect atteso. Il Worker aveva sempre mascherato questo problema intercettando il traffico prima che arrivasse a Pages — la Fase 2 lo ha rimosso, esponendo la regressione. **Root cause architetturale ancora da accertare** (prossimo passo, vedi sotto): se sia comportamento documentato/atteso della piattaforma Cloudflare Pages (gap di pianificazione del piano B) o un comportamento imprevisto — cambia se la soluzione è "correggere una configurazione" o "ripensare quali path passano da SSR".
@@ -93,7 +110,7 @@
 
 ---
 
-## Piano operativo B → A (aggiornato 2026-08-10, esito audit Fase 0)
+## [STORICO] Piano operativo B → A (aggiornato 2026-08-10, esito audit Fase 0 — piano abbandonato, vedi tabella riassuntiva in cima al file)
 
 **Confronto regola-per-regola completo del Worker contro `middleware.ts`/`astro.config.mjs`/`redirects-legacy.json`, eseguito il 2026-08-10 (dettaglio completo in Appendice A8). Sostituisce la tabella "quasi tutto già duplicato" ipotizzata il 27/7 — quell'audit non aveva ancora fatto il confronto pattern-per-pattern, solo un controllo per nome.**
 
