@@ -1,6 +1,16 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-08-15 — ✅ **Ricontrollo programmato post-rollback Fase 2: nessun danno residuo trovato** (vedi sessione sotto). Il Worker `ombreeluci-redirects` resta attivo davanti a tutto, 1096/1096 redirect legacy verificati OK in produzione. Vedi `DECISIONE-STAGING.md` § "DECISIONE ATTUALE" e Appendice A10 per il dettaglio del rollback del 13/8.
+**Ultimo aggiornamento:** 2026-08-25 — ✅ **`pages.dev` protetto con Cloudflare Access**: `ombreeluci-staging.pages.dev` risponde 403 a chiunque non presenti un Service Token valido (Google incluso), `ombreeluci.it` invariato (200, 1096/1096 redirect OK). Dettaglio completo, incluso un incidente breve (~40s di 403 in produzione, causa e correzione) in `DECISIONE-STAGING.md` § "FASE A ESEGUITA — 2026-08-25".
+
+---
+
+## Sessione 2026-08-25 — Cloudflare Access davanti a pages.dev, scorporato dal bug SSR (Fase 2)
+
+Dopo quasi 2 settimane di `noindex` inefficace (verificato: `site:ombreeluci-staging.pages.dev` mostrava ancora articoli reali indicizzati), confronto con 4 LLM esterni + verifica propria ha validato un piano alternativo: Cloudflare Access con Service Token nativi sul progetto Pages esistente, **senza** eliminare il Worker né aspettare la diagnosi del bug SSR bare-root (che restava un blocco nel piano "B poi A" del 13/8). Dettaglio tecnico completo, incidente incluso, in `DECISIONE-STAGING.md`.
+
+**Riassunto esito**: Access Application creata su `ombreeluci-staging.pages.dev`, 2 Service Token generati, Worker aggiornato (`cf-worker/redirect-worker.js`) per autenticarsi con le credenziali invece della vecchia logica custom `X-Internal-Proxy-Auth` (rimossa, era orfana da luglio). Un incidente di ~40 secondi (403 su `ombreeluci.it` per sequenza sbagliata: Access attivata prima che il Worker avesse le credenziali) corretto immediatamente col rollback già pronto, poi rieseguito nell'ordine giusto senza downtime. Scoperta collaterale utile: i webhook Directus (10 operazioni HTTP verificate) chiamano già `ombreeluci.it`, non `pages.dev` direttamente — nessuna modifica necessaria lì, contrariamente a quanto documentato in precedenza (riferimento obsoleto in `scripts/setup-algolia-flow.mjs`).
+
+**Bonifica completata lo stesso giorno**: proprietà `pages.dev` verificata in Search Console (file HTML, con un bypass Access dedicato — un primo tentativo è fallito per un redirect 308 non coperto dal bypass iniziale, corretto con un wildcard), richiesta di Rimozione temporanea inviata per l'intero prefisso `https://ombreeluci-staging.pages.dev/` (stato "Elaborazione", effetto atteso 24-48h). Il capitolo indicizzazione `pages.dev` è chiuso in pratica: bloccato per il futuro (Access) e in bonifica per il passato (Removals). Bug SSR bare-root: confermato non più bloccante per nulla, resta task separato quando si vorrà.
 
 ---
 

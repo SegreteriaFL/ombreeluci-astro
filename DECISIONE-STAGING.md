@@ -1,6 +1,67 @@
 # Decisione — deindicizzazione ombreeluci-staging.pages.dev
 
-## DECISIONE ATTUALE — 2026-08-13 (Fase 2 ROLLBACKATA)
+## DECISIONE ATTUALE — 2026-08-25 (piano B→A abbandonato, sostituito da Fase A scorporata)
+
+**Il ragionamento "B prima di A" del 13/8 (vedi sotto, riga "Perché B prima di A") è superato.** Quel ragionamento assumeva che proteggere `pages.dev` richiedesse comunque un'eccezione applicativa per la subrequest del Worker — cioè lo stesso tipo di logica custom in `middleware.ts` che ha causato i 3 incidenti di luglio (Appendice A2). Non è vero: **i Service Token nativi di Cloudflare Access sono verificati al bordo della rete Cloudflare, prima che la richiesta raggiunga Worker o Pages** — non c'è più codice applicativo (confronto stringhe, gestione redirect, guard-rail) che possa avere bug. Elimina strutturalmente la classe di problema del tentativo di luglio, non solo il sintomo.
+
+**Validato 2026-08-25 incrociando 4 LLM indipendenti (Claude Web, ChatGPT, Gemini, Grok)** su un brief tecnico completo della situazione — convergenza unanime sui punti chiave, con correzioni utili emerse dal confronto:
+
+1. **Fase A (Cloudflare Access) si fa oggi, scorporata da Fase B** — non serve eliminare il Worker né aspettare la diagnosi del bug SSR bare-root. Il Worker aggiunge solo 2 header (`CF-Access-Client-Id` / `CF-Access-Client-Secret`, da Worker Secrets) alla `fetch()` esistente verso `pages.dev`. Nessuna nuova condizione, nessun redirect, zero modifiche a `middleware.ts` in questa fase.
+2. **Una sola Access Application, solo sul hostname di produzione `ombreeluci-staging.pages.dev`** — non anche `*.pages.dev` (preview). Correzione emersa dal confronto (ChatGPT contro l'assunzione iniziale di due app): i risultati Google verificati sono tutti sul dominio principale, non su preview con hash. Meno superficie modificata = meno rischio. Il wildcard preview si valuta solo se emergesse come problema separato.
+3. **Due Service Token distinti fin dall'inizio**: uno per il Worker, uno per il webhook Directus (`/api/algolia-sync`, `/api/sync-metadata`) — revocabili/ruotabili indipendentemente, coerente con [[reference_infra_best_practices]].
+4. **Non riattivare il custom domain Pages nel frattempo** — Access + custom domain contemporaneamente ha un'interazione di policy documentata da Cloudflare da evitare. Lasciare `Worker → ombreeluci.it → Pages` esattamente come oggi.
+5. **Rimuovere la vecchia logica `X-Internal-Proxy-Auth` da `middleware.ts` solo dopo aver verificato che Access funziona** — non lasciare due meccanismi di autenticazione sovrapposti.
+6. **`noindex` da solo non basta e non sta funzionando** (verificato 2026-08-25: `site:ombreeluci-staging.pages.dev` mostra ancora articoli reali indicizzati, ~2 settimane dopo l'attivazione del tag) — serve azione attiva parallela: verificare `ombreeluci-staging.pages.dev` come proprietà separata in Search Console e usare lo strumento **Rimozioni** (rimozione temporanea, effetto 24-48h) sul prefisso completo.
+7. **Test di successo non negoziabile prima di chiudere**: richiesta diretta (curl/browser) a `https://ombreeluci-staging.pages.dev/...` senza header → **403**; stessa richiesta con i 2 header Access → **200**; traffico via `ombreeluci.it` (attraverso il Worker) → invariato, redirect legacy 1096/1096 ancora OK; webhook Directus → 200.
+
+**Lead per quando si riprenderà il bug SSR bare-root (Appendice A10, non urgente, task separato)**: sospetto emerso dal confronto — `_routes.json` generato dall'adapter `@astrojs/cloudflare` potrebbe avere un `include`/`exclude` che esclude i path legacy dalla Function SSR, facendoli servire come 404 statico da Cloudflare prima che `middleware.ts` intervenga. Da verificare ispezionando `dist/_routes.json` dopo un build, non da assumere.
+
+**Prossimo passo concreto**: sessione dedicata per implementare Fase A (Access + 2 Service Token + modifica Worker), con la stessa disciplina già rodata (finestra a basso traffico, rollback = rimuovere la Access Application, verifica esplicita dei 4 test sopra prima di dichiararla chiusa).
+
+---
+
+## FASE A ESEGUITA — 2026-08-25, esito: chiusa con successo (dopo un incidente breve, causa e correzione documentate)
+
+**Prerequisiti attivati dall'utente**: Cloudflare Zero Trust abilitato sull'account (mai attivo prima — confermato via API, errore `access.api.error.not_enabled` prima dell'attivazione). Token dedicato `ZEROTRUST_OEL` creato con permessi `Access: Apps and Policies:Edit`, `Access: Service Tokens:Edit`, `Workers Scripts:Edit` (account-level), in `.env`.
+
+**Eseguito:**
+1. Creati 2 Service Token via API: `ombreeluci-worker-origin` (per il Worker), `directus-webhook-origin` (creato per simmetria col piano originale, **si è poi scoperto non necessario**, vedi punto 6).
+2. Creata Access Application self-hosted su `ombreeluci-staging.pages.dev` (solo hostname di produzione, non wildcard preview), policy `non_identity` con entrambi i Service Token inclusi.
+
+**⚠️ Incidente, ~40 secondi, causa mia (sequenza sbagliata)**: ho testato subito l'Access Application appena creata (403 senza header, 200 con header — entrambi corretti) prima di aver aggiornato il Worker con le credenziali. Non avevo considerato che l'Access Application protegge **immediatamente tutte le richieste**, incluse quelle del Worker di produzione verso `pages.dev` — che a quel punto non aveva ancora gli header. Risultato: `ombreeluci.it` (home + articoli) ha risposto **403** a tutti gli utenti reali per circa 40 secondi, rilevato con curl diretto e corretto immediatamente eliminando l'Access Application appena creata (rollback pre-concordato, istantaneo). UptimeRobot non ha registrato l'evento (finestra troppo breve per il suo intervallo di check).
+
+**Correzione applicata e sequenza rifatta correttamente**:
+1. Impostati i secrets `CF_ACCESS_CLIENT_ID`/`CF_ACCESS_CLIENT_SECRET` sul Worker (`wrangler secret put`, valori dal token `ombreeluci-worker-origin`, mai passati in chiaro in chat).
+2. Modificato `cf-worker/redirect-worker.js` (`forwardToPages`): rimossa la vecchia logica orfana `X-Internal-Proxy-Auth` + `X-Forwarded-Host` + il log diagnostico temporaneo di luglio (nessuno la leggeva più, confermato via grep su `middleware.ts` prima di toccare nulla); aggiunti i 2 header Access alla `fetch()` esistente.
+3. Deploy del Worker aggiornato **con Access ancora spenta** — zero rischio, i 2 nuovi header non avevano ancora effetto. Verificato sito integro (home, articolo, EN, archivio statico, 1096/1096 redirect) prima di procedere.
+4. **Solo a quel punto** ricreata l'Access Application — questa volta il Worker aveva già le credenziali pronte: **zero downtime**, verificato immediatamente (`ombreeluci.it` → 200, `pages.dev` diretto senza header → 403).
+5. Riverificati 1096/1096 redirect + home/EN/archivio dopo l'attivazione definitiva.
+
+**Lezione da questo incidente** (aggiunta alle altre del progetto): quando si introduce una protezione a livello di edge (Access, o qualunque meccanismo che blocca per hostname), **l'ordine corretto è sempre "il chiamante ha già le credenziali" PRIMA di "la protezione è attiva"**, mai il contrario — anche se la protezione stessa è istantaneamente reversibile. "Reversibile" non equivale a "senza impatto nel frattempo".
+
+6. **Scoperta che semplifica il piano**: verificando le Flow Directus reali via API (non lo script storico `scripts/setup-algolia-flow.mjs`, che ha un URL `pages.dev` ormai obsoleto solo nel codice del setup, mai nella Flow live), **tutte le 10 operazioni HTTP configurate chiamano già `https://ombreeluci.it/...`**, nessuna `pages.dev` direttamente. Il Service Token `directus-webhook-origin` resta creato ma **non collegato a nulla** — nessuna modifica necessaria lato Directus, nessun rischio di rompere webhook esistenti.
+
+**Stato finale verificato (2026-08-25, sera)**:
+- `https://ombreeluci-staging.pages.dev/*` → **403** senza credenziali Access (Google/chiunque acceda direttamente)
+- `https://ombreeluci.it/*` (via Worker, con credenziali) → **200**, invariato
+- 1096/1096 redirect legacy OK
+- `middleware.ts` non toccato (era già pulito, zero residui dei tentativi di luglio)
+- Vecchia logica auth custom nel Worker: rimossa
+
+**Bonifica SEO completata lo stesso giorno (2026-08-25, sera):**
+- Proprietà `https://ombreeluci-staging.pages.dev/` verificata in Google Search Console (metodo file HTML). **Nota tecnica**: il file `public/googlea52351fb65034ff3.html` fa un 308 automatico verso il path senza estensione (comportamento standard Cloudflare Pages/Astro sui file statici) — il bypass Access iniziale era scoped solo al path `.html` esatto e non copriva il redirect, causando un primo tentativo di verifica fallito ("Impossibile trovare il sito"). Corretto allargando il bypass a un wildcard (`.../googlea52351fb65034ff3*`). Verifica riuscita al secondo tentativo.
+- File di verifica pushato **direttamente su `main`** (eccezione motivata: singolo file statico isolato, zero relazione col lavoro in corso sul branch `refactor/consolidamento-didascalie-fase2`, commit creato via git plumbing senza checkout completo per evitare un problema noto di lunghezza nomi file su Windows con l'albero legacy del repo).
+- Richiesta di **Rimozione temporanea** inviata per il prefisso `https://ombreeluci-staging.pages.dev/` (tutti gli URL) — stato "Elaborazione della richiesta", effetto atteso entro 24-48h, durata ~6 mesi.
+
+**Non ancora fatto** (non urgente):
+- Decidere se revocare il Service Token `directus-webhook-origin` (creato per simmetria col piano, risultato inutilizzato — nessuna Flow Directus chiama `pages.dev` direttamente) o tenerlo per un eventuale uso futuro
+- Verificare tra 24-48h che la richiesta di Rimozione sia stata processata (stato "Rimosso" invece di "Elaborazione")
+- Il token `ZEROTRUST_OEL` non ha permesso `Workers Routes:Edit` (zone-level) — il deploy del Worker ha comunque funzionato (la Route esistente non richiedeva modifiche), ma `wrangler deploy` stampa un errore non bloccante su questo. Da sistemare se in futuro serve modificare la Route stessa.
+- Bug SSR bare-root: resta task separato, non toccato, non più bloccante per nulla (confermato in pratica in questa sessione)
+
+---
+
+## DECISIONE PRECEDENTE — 2026-08-13 (Fase 2 ROLLBACKATA) — superata dalla sezione sopra sul punto "B prima di A"
 
 1. **Fase 2 rollbackata il 2026-08-13, dopo ~24h in produzione.** Il Worker `ombreeluci-redirects` è di nuovo **attivo** (Route ricreata via API, stesso pattern/script di sempre — nessuna modifica, solo ripristino dello stato pre-cutover). Verificato stabile: 11 pattern di redirect testati, tutti tornati a 301 corretto; sito normale (home, articoli) invariato.
 2. **Causa del rollback — regressione critica, non un bug minore**: sul custom domain Cloudflare Pages, la Function SSR (dove vive `middleware.ts`) **non viene invocata per nessun path che non inizi con `/it/` o `/en/`**. Verificato sistematicamente: **1078 dei 1096 redirect della tabella legacy (98%)** — accumulati in mesi di migrazione da WordPress — e **tutte** le regole regex bare-root del middleware (comprese quelle preesistenti, non solo le 7 di Fase 1) restituivano 404 invece del redirect atteso. Il Worker aveva sempre mascherato questo problema intercettando il traffico prima che arrivasse a Pages — la Fase 2 lo ha rimosso, esponendo la regressione. **Root cause architetturale ancora da accertare** (prossimo passo, vedi sotto): se sia comportamento documentato/atteso della piattaforma Cloudflare Pages (gap di pianificazione del piano B) o un comportamento imprevisto — cambia se la soluzione è "correggere una configurazione" o "ripensare quali path passano da SSR".
