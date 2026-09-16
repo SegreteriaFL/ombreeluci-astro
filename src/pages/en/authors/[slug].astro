@@ -26,7 +26,9 @@ const sorted = articoli.sort((a, b) => {
 });
 
 const authorFotoId = autore.foto?.id ?? null;
-const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : `/assets/authors/${autore.slug}.jpg`;
+// Senza foto in Directus si lascia undefined: BaseHead ricade su og-default.jpg.
+// Il vecchio fallback `/assets/authors/<slug>.jpg` era sempre un 404 (public/assets/ non esiste).
+const authorImagePath = authorFotoId ? getAutoreImageUrl(authorFotoId) : undefined;
 const alternateUrl = `/it/autori/${autore.slug}/`;
 ---
 
