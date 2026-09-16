@@ -255,4 +255,19 @@ const ogImageUrl = toOgImageUrl(ogImage, Astro.site);
 - L'immagine mostrata **in pagina** resta WebP (`getArticoloCopertinaSrc`, `lcpImage`): la conversione tocca solo il `<head>`, quindi nessun impatto su LCP.
 - Aggiungendo un nuovo placeholder in `public/placeholder/` in formato WebP, la sua anteprima social sarà `og-default.jpg`. Per avere l'immagine reale serve il gemello `.jpg` **e** una regola di mapping nel util.
 
-**Dopo ogni deploy che cambia un `og:image`**: l'esito precedente resta in cache su Facebook — va rilanciato "Scrape Again" dal [debugger](https://developers.facebook.com/tools/debug/).
+**Dopo ogni deploy che cambia un `og:image`**: l'esito precedente resta in cache su Facebook — va rilanciato "Scrape Again" dal [debugger](https://developers.facebook.com/tools/debug/). La cache dell'**immagine** è separata da quella della pagina e ha come chiave l'URL dell'immagine: ri-scansionare la pagina (anche con `?fbrefresh=1`) non forza un nuovo download. Per obbligarlo serve cambiare l'URL dell'immagine — Directus tollera un parametro extra (`&v=2`) e restituisce il file identico.
+
+### Il formato non basta: serve anche che lo scraper possa scaricare l'immagine
+
+**`robots.txt` dell'host che serve l'immagine vale quanto il formato.** Facebook (`facebookexternalhit`) e X (`Twitterbot`) rispettano `robots.txt` e **non scaricano** un'immagine che sia sotto `Disallow`. WhatsApp no, la scarica comunque.
+
+Le immagini stanno su `cms.ombreeluci.it`, **un host diverso** dalle pagine (`ombreeluci.it`): sono due `robots.txt` distinti e vanno controllati entrambi.
+
+```bash
+curl -s https://cms.ombreeluci.it/robots.txt   # deve contenere Allow: /assets/
+curl -s https://ombreeluci.it/robots.txt
+```
+
+**Trappola diagnostica da conoscere:** quando lo scraper non può scaricare l'immagine, Facebook risponde *"Immagine danneggiata — formato non valido"* anche se il file è perfetto. **Non prendere quel messaggio alla lettera.** Il test che distingue i due casi in dieci secondi: condividere lo stesso link su WhatsApp. Se su WhatsApp l'anteprima si vede e su Facebook/X no, il file è sano e il problema è `robots.txt` o comunque un blocco lato fetch — non il formato.
+
+Directus di default serve `User-agent: * / Disallow: /`, che blocca anche `/assets/`. Si corregge con l'env var `ROBOTS_TXT` sul VPS (vedi `STATO.md` § "Sessione 2026-09-16"), tenendo `Allow: /assets/` **prima** di `Disallow: /`. Lo stesso blocco esclude le immagini anche da Google Immagini.

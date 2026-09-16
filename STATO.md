@@ -1,26 +1,122 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-09-16 — ✅ **RISOLTO e verificato in produzione: `og:image` in WebP rifiutato da tutti gli scraper social** ("Immagine danneggiata" sul debugger Facebook). Fix centralizzato in `BaseHead` (`e7704d7c`), più un secondo bug trovato durante la verifica (og:image autori sempre 404). Vedi sezione "Sessione 2026-09-16" sotto.
+**Ultimo aggiornamento:** 2026-09-16 — 🔴 **APERTO: anteprime social rotte su Facebook e X. Causa reale = `robots.txt` di Directus (`Disallow: /`) che vieta agli scraper di scaricare le immagini da `cms.ombreeluci.it`.** Richiede una modifica sul VPS, non ancora eseguita (SSH bloccato dal classificatore). Nella stessa sessione risolti due bug frontend reali e distinti (og:image in WebP, og:image autori 404). Vedi sezione "Sessione 2026-09-16" sotto.
 
 ---
 
-## Sessione 2026-09-16 — RISOLTO: `og:image` in WebP, anteprima social rotta su tutto il sito
+## Sessione 2026-09-16 — Anteprime social: due bug frontend RISOLTI + causa radice APERTA (robots.txt Directus)
+
+> **Leggere prima questo.** La sessione ha attraversato tre cause sovrapposte. Le prime due sono state corrette e deployate; la terza è quella che tiene ancora rotte le anteprime ed è **aperta**.
+>
+> | # | Problema | Stato |
+> |---|---|---|
+> | 1 | `og:image` servito in WebP — nessuno scraper social lo elabora | ✅ risolto (`e7704d7c`) |
+> | 2 | `og:image` pagine autore → path 404 (`public/assets/` non esiste) | ✅ risolto (`2108b3f1`) |
+> | 3 | **`robots.txt` di `cms.ombreeluci.it` = `Disallow: /`** → Facebook e X non possono scaricare NESSUNA immagine | 🔴 **APERTO — richiede modifica sul VPS** |
+
+### 🔴 CAUSA RADICE APERTA — `robots.txt` di Directus blocca gli scraper
+
+```
+cms.ombreeluci.it/robots.txt  →  User-agent: *
+                                 Disallow: /          ← default Directus, blocca anche /assets/
+ombreeluci.it/robots.txt      →  User-agent: *
+                                 Disallow:            ← tutto permesso
+```
+
+La pagina HTML sta su `ombreeluci.it` (permesso) e Facebook la legge senza problemi — infatti nell'errore cita l'URL aggiornato dell'immagine. L'immagine sta su `cms.ombreeluci.it` (vietato) e **non viene mai scaricata**.
+
+**Il dato che ha sciolto il caso** è stato l'utente che ha provato a condividere il link su piattaforme diverse:
+
+| Piattaforma | Rispetta `robots.txt` | Anteprima |
+|---|---|---|
+| WhatsApp | **no** | ✅ funziona |
+| Facebook (`facebookexternalhit`) | **sì** | ❌ "Immagine danneggiata", card vuota |
+| X (`Twitterbot`) | **sì** | ❌ nessuna immagine |
+
+**Il messaggio di Facebook è fuorviante**: dice "Immagine danneggiata / formato non valido" anche quando il file è perfetto e semplicemente non gli è *permesso* scaricarlo. Non interpretarlo mai alla lettera.
+
+**Danno collaterale non sospettato:** quel `Disallow: /` esclude **tutte le immagini del sito da Google Immagini**, da sempre.
+
+**Fix da eseguire sul VPS** (env var `ROBOTS_TXT` di Directus):
+
+```bash
+ssh -i ~/.ssh/claude_oel_key root@159.69.196.64
+cd /opt/oel-cms
+cp docker-compose.yml docker-compose.yml.bak-$(date +%F-%H%M)   # NON fare cat: segreti in chiaro
+grep -n "ROBOTS_TXT" docker-compose.yml                          # se non stampa nulla, aggiungere:
+```
+
+nel servizio `directus`, sotto `environment:`:
+
+```yaml
+      ROBOTS_TXT: |
+        User-agent: *
+        Allow: /assets/
+        Disallow: /
+```
+
+```bash
+docker compose up -d --no-deps directus
+curl -s https://cms.ombreeluci.it/robots.txt      # verifica
+rm docker-compose.yml.bak-*                        # il backup contiene credenziali in chiaro
+```
+
+`Allow` **prima** di `Disallow`: i parser conformi scelgono la regola più specifica e l'ordine è irrilevante, ma alcuni parser semplici prendono la prima che combacia — in questo ordine funziona con entrambi. Admin e API restano esclusi dai motori, si apre solo `/assets/`.
+
+**Rollback**: ripristinare il backup + `docker compose up -d --no-deps directus`. Il cambiamento tocca solo il testo servito su `/robots.txt`, non può rompere sito né CMS.
+
+**Perché non l'ha fatto Claude**: il comando `ssh` verso il VPS di produzione è stato **bloccato dal classificatore di sicurezza di Claude Code** (prima `[Credential Exploration]`, poi `[Production Reads]`). Per farlo eseguire a Claude serve una regola Bash esplicita per `ssh` nei permessi. Non è stato tentato alcun aggiramento.
+
+**Dopo il fix**: "Scrape Again" sul debugger Facebook + Card Validator di X.
+
+**Alternativa se non si vuole toccare il VPS**: servire l'og:image da `ombreeluci.it/og/<id>.jpg` (route SSR che fa da proxy a Directus) — risolve Facebook e X restando dentro al repo, ma **non** recupera Google Immagini e aggiunge un endpoint da mantenere. Valutata e non scelta.
+
+### Diagnosi: cosa è stato escluso prima di arrivarci
+
+Tutto verificato a mano sull'immagine dell'articolo `una-spesa-per-tutti-quanto-sono-accessibili-i-nostri-supermercati`, **tutto risultato sano** — utile per non rifare lo stesso giro:
+
+| Controllo | Esito |
+|---|---|
+| File servito | JPEG baseline, sRGB, 8 bit, 1200×630, 240 KB |
+| File originale in Directus | JPEG 1640×923 con EXIF |
+| `content-type` | `image/jpeg` |
+| Trasformazione a freddo | ~250 ms |
+| 10 trasformazioni in parallelo | tutte `200` (nessun limite `ASSETS_TRANSFORM_MAX_CONCURRENT`) |
+| UA `facebookexternalhit` | `200`, immagine |
+| Da IP datacenter (non residenziale) | `200`, immagine |
+| DNS immagine vs pagina | **stessi IP Cloudflare**, v4 e v6 → blocco di rete escluso |
+| `<head>` | ben formato, un solo `og:image`, a 3,4 KB dall'inizio |
+| `og:url` / `canonical` | corretti |
+| Parametro extra `&v=2` | tollerato da Directus, stesso file byte per byte |
+
+**Anomalia minore trovata, non la causa:** Directus dichiara `accept-ranges: bytes` ma **ignora** le richieste `Range` — risponde `200` con il corpo intero invece di `206`. Tollerato dallo standard, nessun impatto osservato.
+
+
+### ✅ Bug 1 RISOLTO — `og:image` servito in WebP
 
 **Segnalazione utente**: il debugger di Facebook su un articolo risponde *"Immagine danneggiata — Non è stato possibile elaborare come un'immagine l'URL og:image fornito `https://cms.ombreeluci.it/assets/2d6d4451-…?width=800&fit=cover&format=webp&quality=82`"*.
 
-**Causa**: non è l'immagine a essere danneggiata, è il **formato**. Gli scraper social (Meta/Facebook, LinkedIn, anteprima WhatsApp) non elaborano WebP/AVIF/SVG — accettano solo JPEG, PNG, GIF. Il sito serve tutte le copertine in WebP (corretto per il browser) e passava lo stesso identico URL a `og:image`. Verificato con `curl` sull'asset segnalato: `format=webp` → `200 image/webp` **rifiutato**; `format=jpg` → `200 image/jpeg`, JPEG valido 1200×630 / 240 KB (validato con sharp).
+**Causa**: il **formato**. Gli scraper social (Meta/Facebook, LinkedIn) non elaborano WebP/AVIF/SVG — accettano solo JPEG, PNG, GIF. Il sito serve tutte le copertine in WebP (corretto per il browser) e passava lo stesso identico URL a `og:image`. **Nota**: WhatsApp era stato incluso per errore nell'elenco iniziale — a fine sessione si è visto che WhatsApp mostra l'anteprima correttamente, ed è proprio quella differenza ad aver rivelato la causa radice (robots.txt) sopra. Questo bug era comunque reale: senza il fix, le anteprime sarebbero rimaste rotte anche dopo aver sbloccato il robots.txt. Verificato con `curl` sull'asset segnalato: `format=webp` → `200 image/webp` **rifiutato**; `format=jpg` → `200 image/jpeg`, JPEG valido 1200×630 / 240 KB (validato con sharp).
 
 **Ampiezza reale, più grande della segnalazione**: non era un singolo articolo ma **ogni pagina del sito** — tutti e 7 i call site di `ogImage` (articoli IT/EN, autori IT/EN, numeri archivio IT/EN, verticali focus) producevano WebP. Gli articoli **senza** copertina stavano peggio: `og:image` era il placeholder `/placeholder/ph-N.webp`, cioè un path **relativo** — non un URL valido per uno scraper, oltre che WebP.
 
 **Fix** (`e7704d7c`, direttamente su `main` → deploy di produzione): nuovo [src/utils/og-image.ts](src/utils/og-image.ts) con `toOgImageUrl()`, applicato in un punto unico in [BaseHead.astro](src/components/BaseHead.astro) — quindi copre tutte le route e tutte le lingue senza toccare nessun componente. Asset Directus → JPEG 1200×630; statico già JPEG/PNG/GIF → reso assoluto; tutto il resto → `og-default.jpg`. Aggiunti `og:image:secure_url` e `og:image:alt`. **L'immagine in pagina resta WebP**: la conversione tocca solo il `<head>`, nessun impatto su LCP. Regola permanente scritta in `CLAUDE.md` § "REGOLA og:image".
 
-**VERIFICATO IN PRODUZIONE** (2026-09-16, dopo il deploy): `curl` su due articoli reali mostra `og:image`, `og:image:secure_url` e `twitter:image` tutti su `…?width=1200&height=630&fit=cover&format=jpg&quality=82`, più `og:image:alt` col titolo. Scaricata e validata con sharp la JPEG servita: **1200×630 jpeg**. Homepage su `og-default.jpg` come previsto.
+**VERIFICATO IN PRODUZIONE** (2026-09-16, dopo il deploy) — verifica del *tag*, non dell'anteprima social, che resta bloccata dal robots.txt: `curl` su due articoli reali mostra `og:image`, `og:image:secure_url` e `twitter:image` tutti su `…?width=1200&height=630&fit=cover&format=jpg&quality=82`, più `og:image:alt` col titolo. Scaricata e validata con sharp la JPEG servita: **1200×630 jpeg**. Homepage su `og-default.jpg` come previsto.
 
 **Limite di postazione (ricorrente, non un incidente di oggi)**: non è possibile eseguire `astro dev` né `astro build` in locale — l'adapter Cloudflare/miniflare richiede macOS 13.5+, la postazione è su **macOS 12.6** (`Unsupported macOS version: The Cloudflare Workers runtime cannot run…`). `@astrojs/check` non è installato. Conseguenza pratica: **il build CF Pages è l'unico controllo reale disponibile** per qualsiasi modifica al frontend, la verifica pre-push si ferma ai test in isolamento (qui `node --experimental-strip-types` su 10 casi limite di `toOgImageUrl()`).
 
-**Bug collaterale trovato e risolto durante la verifica — og:image autori sempre 404**: le pagine autore usavano `` `/assets/authors/${slug}.jpg` `` come fallback quando l'autore non ha `foto` in Directus, ma **`public/assets/` non esiste**: quel path è sempre stato un 404 (confermato con `curl -I` su `/assets/authors/lucio-cammarota.jpg` → `404`). Prima del fix di oggi era anche un path relativo, quindi doppiamente inservibile come og:image. `authorImagePath` è usato **solo** per `ogImage` (non è la foto mostrata in pagina), quindi il fallback è stato sostituito con `undefined` in [it/autori/[slug].astro](src/pages/it/autori/[slug].astro) e [en/authors/[slug].astro](src/pages/en/authors/[slug].astro) → ricade su `og-default.jpg`, che esiste.
+### ✅ Bug 2 RISOLTO — og:image pagine autore sempre 404
 
-**Da fare dopo il deploy**: rilanciare **"Scrape Again"** sul [debugger Facebook](https://developers.facebook.com/tools/debug/) per gli articoli già condivisi — l'esito negativo resta in cache lato Meta.
+**Trovato durante la verifica del bug 1**: le pagine autore usavano `` `/assets/authors/${slug}.jpg` `` come fallback quando l'autore non ha `foto` in Directus, ma **`public/assets/` non esiste**: quel path è sempre stato un 404 (confermato con `curl -I` su `/assets/authors/lucio-cammarota.jpg` → `404`). Prima del fix di oggi era anche un path relativo, quindi doppiamente inservibile come og:image. `authorImagePath` è usato **solo** per `ogImage` (non è la foto mostrata in pagina), quindi il fallback è stato sostituito con `undefined` in [it/autori/[slug].astro](src/pages/it/autori/[slug].astro) e [en/authors/[slug].astro](src/pages/en/authors/[slug].astro) → ricade su `og-default.jpg`, che esiste.
+
+### Ripresa — da dove ripartire
+
+1. Eseguire il fix `ROBOTS_TXT` sul VPS (comandi nel blocco "CAUSA RADICE APERTA" sopra), oppure concedere a Claude il permesso Bash per `ssh` e farglielo eseguire.
+2. Verificare `curl -s https://cms.ombreeluci.it/robots.txt`.
+3. "Scrape Again" sul [debugger Facebook](https://developers.facebook.com/tools/debug/) + [Card Validator X](https://cards-dev.twitter.com/validator).
+4. Se Facebook continua a fallire **dopo** lo sblocco: la cache immagine di Meta è per-URL e separata da quella della pagina, quindi `?fbrefresh=1` sull'URL della pagina non la invalida. Leva già verificata: aggiungere `&v=2` in `toOgImageUrl()` — Directus tollera il parametro e restituisce il file identico, ma l'URL nuovo forza un download pulito.
+5. Controllare in Google Search Console se le immagini ricompaiono in Google Immagini (effetto atteso dello sblocco, con lag di settimane).
 
 **Nota collaterale (ricorrente)**: `DIRECTUS_TOKEN` in `.env.local` risponde di nuovo `INVALID_CREDENTIALS` (32 caratteri) — stessa osservazione della sessione 2026-09-02, il token è stato ruotato senza aggiornare il file locale. Non blocca il frontend in produzione (il token di build è su CF Pages), ma impedisce qualsiasi query Directus in locale.
 
@@ -1959,6 +2055,7 @@ Il middleware gira solo per route nel manifest. Fix: `[...path].astro` catch-all
 | fedeeluce | Infra | Directus multi-tenant per fedeeluce.it |
 | IMMAGINI-MULTI [da bug_ux_ui.md] | Directus | Possibilità di inserire più immagini contemporaneamente nell'articolo (upload multiplo). Via: configurazione campo Directus. Aperto, nessun lavoro iniziato — trovato solo nel bug tracker (sezione "Redazione — segnalazioni 2026-05-08"), non aveva riga di backlog qui. |
 | FOTO-CROP-JEAN-VANIER [da bug_ux_ui.md] | Contenuti/UX | Segnalato 2026-07-27 (Jean Vanier "Le sacrament de la tendresse"): l'immagine di copertina è sempre servita con crop fisso `?width=400&height=280&fit=cover` (aspect ratio 10:7) in ricerca/liste — se la foto originale ha un aspect ratio molto diverso il crop può tagliare il soggetto in modo indesiderato anche con editing corretto in Photopea a monte. Non è certo sia un bug (potrebbe essere il comportamento "cover" atteso). **Da fare:** verificare con Cristina quale visualizzazione specifica (articolo/card/ricerca) mostra la foto storta, poi decidere se serve un punto di focus/crop manuale invece del cover automatico. |
+| OG-ROBOTS-CMS | Infra/SEO | **Aperto 2026-09-16.** `cms.ombreeluci.it/robots.txt` = `Disallow: /` (default Directus): Facebook e X non scaricano le immagini → anteprime social senza immagine; escluse anche da Google Immagini. Fix = env var `ROBOTS_TXT` su `/opt/oel-cms/docker-compose.yml` con `Allow: /assets/`. Comandi pronti in "Sessione 2026-09-16". Non eseguito: `ssh` al VPS bloccato dal classificatore di Claude Code, serve una regola Bash esplicita. |
 | DIDA-INLINE | Contenuti/Frontend | **Segnalato 2026-08-14 (redazione):** la didascalia si può mettere **solo sulla copertina**, non sulle foto dentro l'articolo. Non è un bug di rendering ma una conseguenza del consolidamento didascalie: `articoli.didascalia_copertina` è un campo singolo per articolo, quindi non esiste posto dove mettere la 2ª/3ª dida. Il `corpo` è HTML grezzo iniettato con `set:html` ([it/[slug].astro:646](src/pages/it/[slug].astro#L646)) dopo `processEmbeds()` (che tocca solo gli embed social): nessuno stile `figure`/`figcaption` esiste in `src/styles/` né nella pagina articolo (grep 2026-08-14: zero occorrenze). **Contesto storico:** `didascalie_img` era indicizzata su `(file, lang)` — didascalia legata al *file*, che è la struttura giusta per le foto interne; la Fase 1 (`scripts/migrate-didascalie-to-articoli.mjs`) ha migrato su `didascalia_copertina` solo i file usati come `immagine_copertina`, la Fase 2 (`45f76329`, in main) ha rimosso `getDidascaliaImg`. **Due strade:** (1) `<figure>`/`<figcaption>` nel WYSIWYG + stili allineati a `.article-image-caption` (icona macchina fotografica) — semplice, ma la dida finisce dentro `corpo` e non è traducibile automaticamente; (2) rianimare il lookup per-file `didascalie_img` e iniettare la dida sotto ogni `<img>` lato server — più lavoro, ma dida per-file riusabile e la traduzione IT→EN automatica **già esiste e funziona** (`api/sync-didascalia.ts`); va però contro la direzione della Fase 2, in finestra di osservazione (Fase 5). **Dato mancante per decidere:** quante foto interne ci sono davvero negli articoli — censimento non eseguito (il backup `articoli-didascalie-backup-2026-08-07.json` contiene solo i campi didascalia, non il `corpo`). |
 | DIDA-ORFANI | Pulizia tecnica | **Trovato 2026-08-14** ispezionando DIDA-INLINE, due residui della Fase 2: (1) [src/pages/api/sync-didascalia.ts](src/pages/api/sync-didascalia.ts) **scrive ancora** su `didascalie_img` (traduce la dida IT→EN con Haiku, chiamato da un Flow Directus) — una collection che nessuna pagina legge più dalla rimozione di `getDidascaliaImg`: endpoint + Flow mantengono dati inerti (stato del Flow non verificato lato Directus); (2) `didascalia_en` è dichiarato nell'interfaccia TypeScript ([lib/directus.ts:200](src/lib/directus.ts#L200)) ma **non è nella lista dei campi fetchati** ([:290](src/lib/directus.ts#L290) ha solo `didascalia_copertina`) — campo morto nel tipo. **Da non toccare prima di DIDA-INLINE:** se si scegliesse la strada (2) di DIDA-INLINE, `sync-didascalia` e `didascalie_img` tornerebbero utili — smontarli adesso sarebbe lavoro da rifare. |
 | ~~PERF-IMG-RESIZE-DIRECTUS~~ | Perf | ✅ **Verificato risolto (2026-08-12), non più da fare.** `bug_ux_ui.md` segnalava foto autori/diaristi servite senza resize. Grep puntuale sul codice attuale: `foto_url` viene costruito con `getAutoreImageUrl(a.foto.id)` (200×200 WebP) in tutti i 4 punti dove viene assegnato (`src/pages/index.astro`, `src/pages/en/index.astro`, `src/pages/it/rubriche/diari.astro`, `src/pages/en/sections/diaries.astro`), e `AuthorPageContent.astro`/`StudosiContent.astro`/le pagine `[diario].astro` usano `getAutoreImageUrl()` direttamente. La entry di cutover era corretta — copriva anche questi casi, non solo le copertine articolo. |
