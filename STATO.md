@@ -1,6 +1,44 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-08-13 — ⚠️ **Fase 2 (cutover Worker→custom domain) ROLLBACKATA lo stesso giorno.** Il Worker `ombreeluci-redirects` è di nuovo attivo. Vedi `DECISIONE-STAGING.md` § "DECISIONE ATTUALE" e Appendice A10 per il dettaglio completo. **Stessa giornata, incidente separato e risolto**: rotazione `DIRECTUS_TOKEN` ha rotto tutte le pagine articolo in produzione per ~9 minuti (17:22-17:31 UTC) — causa e fix in fondo alla sessione qui sotto. Sito verificato stabile dopo entrambi gli incidenti.
+**Ultimo aggiornamento:** 2026-09-16 — ✅ **RISOLTO e verificato in produzione: `og:image` in WebP rifiutato da tutti gli scraper social** ("Immagine danneggiata" sul debugger Facebook). Fix centralizzato in `BaseHead` (`e7704d7c`), più un secondo bug trovato durante la verifica (og:image autori sempre 404). Vedi sezione "Sessione 2026-09-16" sotto.
+
+---
+
+## Sessione 2026-09-16 — RISOLTO: `og:image` in WebP, anteprima social rotta su tutto il sito
+
+**Segnalazione utente**: il debugger di Facebook su un articolo risponde *"Immagine danneggiata — Non è stato possibile elaborare come un'immagine l'URL og:image fornito `https://cms.ombreeluci.it/assets/2d6d4451-…?width=800&fit=cover&format=webp&quality=82`"*.
+
+**Causa**: non è l'immagine a essere danneggiata, è il **formato**. Gli scraper social (Meta/Facebook, LinkedIn, anteprima WhatsApp) non elaborano WebP/AVIF/SVG — accettano solo JPEG, PNG, GIF. Il sito serve tutte le copertine in WebP (corretto per il browser) e passava lo stesso identico URL a `og:image`. Verificato con `curl` sull'asset segnalato: `format=webp` → `200 image/webp` **rifiutato**; `format=jpg` → `200 image/jpeg`, JPEG valido 1200×630 / 240 KB (validato con sharp).
+
+**Ampiezza reale, più grande della segnalazione**: non era un singolo articolo ma **ogni pagina del sito** — tutti e 7 i call site di `ogImage` (articoli IT/EN, autori IT/EN, numeri archivio IT/EN, verticali focus) producevano WebP. Gli articoli **senza** copertina stavano peggio: `og:image` era il placeholder `/placeholder/ph-N.webp`, cioè un path **relativo** — non un URL valido per uno scraper, oltre che WebP.
+
+**Fix** (`e7704d7c`, direttamente su `main` → deploy di produzione): nuovo [src/utils/og-image.ts](src/utils/og-image.ts) con `toOgImageUrl()`, applicato in un punto unico in [BaseHead.astro](src/components/BaseHead.astro) — quindi copre tutte le route e tutte le lingue senza toccare nessun componente. Asset Directus → JPEG 1200×630; statico già JPEG/PNG/GIF → reso assoluto; tutto il resto → `og-default.jpg`. Aggiunti `og:image:secure_url` e `og:image:alt`. **L'immagine in pagina resta WebP**: la conversione tocca solo il `<head>`, nessun impatto su LCP. Regola permanente scritta in `CLAUDE.md` § "REGOLA og:image".
+
+**VERIFICATO IN PRODUZIONE** (2026-09-16, dopo il deploy): `curl` su due articoli reali mostra `og:image`, `og:image:secure_url` e `twitter:image` tutti su `…?width=1200&height=630&fit=cover&format=jpg&quality=82`, più `og:image:alt` col titolo. Scaricata e validata con sharp la JPEG servita: **1200×630 jpeg**. Homepage su `og-default.jpg` come previsto.
+
+**Limite di postazione (ricorrente, non un incidente di oggi)**: non è possibile eseguire `astro dev` né `astro build` in locale — l'adapter Cloudflare/miniflare richiede macOS 13.5+, la postazione è su **macOS 12.6** (`Unsupported macOS version: The Cloudflare Workers runtime cannot run…`). `@astrojs/check` non è installato. Conseguenza pratica: **il build CF Pages è l'unico controllo reale disponibile** per qualsiasi modifica al frontend, la verifica pre-push si ferma ai test in isolamento (qui `node --experimental-strip-types` su 10 casi limite di `toOgImageUrl()`).
+
+**Bug collaterale trovato e risolto durante la verifica — og:image autori sempre 404**: le pagine autore usavano `` `/assets/authors/${slug}.jpg` `` come fallback quando l'autore non ha `foto` in Directus, ma **`public/assets/` non esiste**: quel path è sempre stato un 404 (confermato con `curl -I` su `/assets/authors/lucio-cammarota.jpg` → `404`). Prima del fix di oggi era anche un path relativo, quindi doppiamente inservibile come og:image. `authorImagePath` è usato **solo** per `ogImage` (non è la foto mostrata in pagina), quindi il fallback è stato sostituito con `undefined` in [it/autori/[slug].astro](src/pages/it/autori/[slug].astro) e [en/authors/[slug].astro](src/pages/en/authors/[slug].astro) → ricade su `og-default.jpg`, che esiste.
+
+**Da fare dopo il deploy**: rilanciare **"Scrape Again"** sul [debugger Facebook](https://developers.facebook.com/tools/debug/) per gli articoli già condivisi — l'esito negativo resta in cache lato Meta.
+
+**Nota collaterale (ricorrente)**: `DIRECTUS_TOKEN` in `.env.local` risponde di nuovo `INVALID_CREDENTIALS` (32 caratteri) — stessa osservazione della sessione 2026-09-02, il token è stato ruotato senza aggiornare il file locale. Non blocca il frontend in produzione (il token di build è su CF Pages), ma impedisce qualsiasi query Directus in locale.
+
+**Migliorabile, non fatto**: i placeholder sono 22 file WebP e solo 4 hanno il gemello `.jpg`, quindi gli articoli senza copertina hanno come anteprima social la card generica `og-default.jpg` invece del loro placeholder colorato. Funziona correttamente, ma è un'anteprima meno ricca e uguale per tutti. Per risolverlo: generare i gemelli JPEG con sharp + mappare `/placeholder/*.webp` → `.jpg` nel util.
+
+---
+
+## Sessione 2026-09-02 — RISOLTO: campo `corpo` WYSIWYG non renderizzava in Directus admin (causa: Brave Shields, non un bug)
+
+**Segnalazione utente**: riaprendo un articolo in `cms.ombreeluci.it/admin/content/articoli/{id}`, la sezione "Corpo" appare come intestazione collassabile ma senza l'editor di testo sotto — cliccando la freccina si apre solo la toolbar di formattazione HTML grezzo, senza l'area di editing. **Confermato che avviene sia su articoli `draft` che `published`** (non è quindi un caso di visibilità condizionale legata allo stato).
+
+**Indagine svolta**: ricerca sistematica in tutto il repo (script di setup/migrazione schema Directus, JSON di configurazione, documentazione) per `conditions`/`hidden`/`readonly` sul campo `corpo`, per PATCH storici su `/fields/articoli/corpo`, e per eventuale codice sorgente di estensioni Directus custom (`extensions/`, dipendenze `@directus/*`). **Nessun riscontro**: nessuno script di questo repo tocca la configurazione/visibilità del campo `corpo`; `public/admin` è config Decap CMS inutilizzata, non c'entra con Directus. **Conclusione: la causa è interamente nella configurazione dell'istanza Directus** (Impostazioni → Modelli dati → `articoli` → `corpo`, probabilmente tab "Condizioni" o interfaccia WYSIWYG corrotta) oppure lato browser (rendering TinyMCE/iframe bloccato — screenshot utente mostra Brave, i cui Shields sono un sospetto plausibile per iframe/editor che non caricano).
+
+**Non risolvibile da codice in questo repo**: nessun file qui controlla l'admin UI di Directus. `DIRECTUS_TOKEN` in `.env.local` risultato non valido durante l'indagine (`Invalid user credentials` su `/users/me`) — non testato direttamente via API contro lo schema live; da verificare se il token è stato ruotato senza aggiornare `.env.local`.
+
+**RISOLTO — causa confermata**: testato con Chrome, nessun problema. Causa è Brave Shields che blocca il rendering dell'editor WYSIWYG (probabile blocco iframe/script TinyMCE) su `cms.ombreeluci.it`. **Non è un bug di Directus né del repo.** Soluzione per chi usa Brave: disattivare gli Shields solo per `cms.ombreeluci.it` (icona leone nella barra indirizzi), oppure usare Chrome per il backend.
+
+**Nota collaterale (non urgente)**: `scripts/db_analysis/create_directus_schema.py` (committato, 2026-03-23) contiene credenziali admin Directus in chiaro (`ADMIN_PASS`, `STATIC_TOKEN`) puntate al vecchio IP VPS pre-migrazione (`159.69.196.64`). Quasi certamente già invalidate dalle rotazioni successive documentate in questo file, ma andrebbe ripulito/rimosso dal repo.
 
 ---
 
@@ -1921,6 +1959,8 @@ Il middleware gira solo per route nel manifest. Fix: `[...path].astro` catch-all
 | fedeeluce | Infra | Directus multi-tenant per fedeeluce.it |
 | IMMAGINI-MULTI [da bug_ux_ui.md] | Directus | Possibilità di inserire più immagini contemporaneamente nell'articolo (upload multiplo). Via: configurazione campo Directus. Aperto, nessun lavoro iniziato — trovato solo nel bug tracker (sezione "Redazione — segnalazioni 2026-05-08"), non aveva riga di backlog qui. |
 | FOTO-CROP-JEAN-VANIER [da bug_ux_ui.md] | Contenuti/UX | Segnalato 2026-07-27 (Jean Vanier "Le sacrament de la tendresse"): l'immagine di copertina è sempre servita con crop fisso `?width=400&height=280&fit=cover` (aspect ratio 10:7) in ricerca/liste — se la foto originale ha un aspect ratio molto diverso il crop può tagliare il soggetto in modo indesiderato anche con editing corretto in Photopea a monte. Non è certo sia un bug (potrebbe essere il comportamento "cover" atteso). **Da fare:** verificare con Cristina quale visualizzazione specifica (articolo/card/ricerca) mostra la foto storta, poi decidere se serve un punto di focus/crop manuale invece del cover automatico. |
+| DIDA-INLINE | Contenuti/Frontend | **Segnalato 2026-08-14 (redazione):** la didascalia si può mettere **solo sulla copertina**, non sulle foto dentro l'articolo. Non è un bug di rendering ma una conseguenza del consolidamento didascalie: `articoli.didascalia_copertina` è un campo singolo per articolo, quindi non esiste posto dove mettere la 2ª/3ª dida. Il `corpo` è HTML grezzo iniettato con `set:html` ([it/[slug].astro:646](src/pages/it/[slug].astro#L646)) dopo `processEmbeds()` (che tocca solo gli embed social): nessuno stile `figure`/`figcaption` esiste in `src/styles/` né nella pagina articolo (grep 2026-08-14: zero occorrenze). **Contesto storico:** `didascalie_img` era indicizzata su `(file, lang)` — didascalia legata al *file*, che è la struttura giusta per le foto interne; la Fase 1 (`scripts/migrate-didascalie-to-articoli.mjs`) ha migrato su `didascalia_copertina` solo i file usati come `immagine_copertina`, la Fase 2 (`45f76329`, in main) ha rimosso `getDidascaliaImg`. **Due strade:** (1) `<figure>`/`<figcaption>` nel WYSIWYG + stili allineati a `.article-image-caption` (icona macchina fotografica) — semplice, ma la dida finisce dentro `corpo` e non è traducibile automaticamente; (2) rianimare il lookup per-file `didascalie_img` e iniettare la dida sotto ogni `<img>` lato server — più lavoro, ma dida per-file riusabile e la traduzione IT→EN automatica **già esiste e funziona** (`api/sync-didascalia.ts`); va però contro la direzione della Fase 2, in finestra di osservazione (Fase 5). **Dato mancante per decidere:** quante foto interne ci sono davvero negli articoli — censimento non eseguito (il backup `articoli-didascalie-backup-2026-08-07.json` contiene solo i campi didascalia, non il `corpo`). |
+| DIDA-ORFANI | Pulizia tecnica | **Trovato 2026-08-14** ispezionando DIDA-INLINE, due residui della Fase 2: (1) [src/pages/api/sync-didascalia.ts](src/pages/api/sync-didascalia.ts) **scrive ancora** su `didascalie_img` (traduce la dida IT→EN con Haiku, chiamato da un Flow Directus) — una collection che nessuna pagina legge più dalla rimozione di `getDidascaliaImg`: endpoint + Flow mantengono dati inerti (stato del Flow non verificato lato Directus); (2) `didascalia_en` è dichiarato nell'interfaccia TypeScript ([lib/directus.ts:200](src/lib/directus.ts#L200)) ma **non è nella lista dei campi fetchati** ([:290](src/lib/directus.ts#L290) ha solo `didascalia_copertina`) — campo morto nel tipo. **Da non toccare prima di DIDA-INLINE:** se si scegliesse la strada (2) di DIDA-INLINE, `sync-didascalia` e `didascalie_img` tornerebbero utili — smontarli adesso sarebbe lavoro da rifare. |
 | ~~PERF-IMG-RESIZE-DIRECTUS~~ | Perf | ✅ **Verificato risolto (2026-08-12), non più da fare.** `bug_ux_ui.md` segnalava foto autori/diaristi servite senza resize. Grep puntuale sul codice attuale: `foto_url` viene costruito con `getAutoreImageUrl(a.foto.id)` (200×200 WebP) in tutti i 4 punti dove viene assegnato (`src/pages/index.astro`, `src/pages/en/index.astro`, `src/pages/it/rubriche/diari.astro`, `src/pages/en/sections/diaries.astro`), e `AuthorPageContent.astro`/`StudosiContent.astro`/le pagine `[diario].astro` usano `getAutoreImageUrl()` direttamente. La entry di cutover era corretta — copriva anche questi casi, non solo le copertine articolo. |
 
 ---
@@ -2284,7 +2324,7 @@ Pagine che devono restare `noindex=true`:
 | `<title>` dinamico | `BaseHead.astro` | `{titolo} – Ombre e Luci`, homepage usa titolo completo |
 | `<meta description>` | `BaseHead.astro` | Dinamica per pagina |
 | `<link rel="canonical">` | `BaseHead.astro` | URL assoluto, usa `Astro.site` per evitare localhost |
-| Open Graph (og:title, og:description, og:image, og:type, og:url, og:locale) | `BaseHead.astro` | Completo |
+| Open Graph (og:title, og:description, og:image, og:type, og:url, og:locale) | `BaseHead.astro` | Completo. `og:image` normalizzato in JPEG 1200×630 da `toOgImageUrl()` (`src/utils/og-image.ts`, fix `e7704d7c`): gli scraper social non elaborano WebP. Aggiunti `og:image:secure_url` e `og:image:alt`. |
 | Twitter Card (summary_large_image) | `BaseHead.astro` | Completo |
 | hreflang IT/EN + x-default | `BaseHead.astro` | URL assoluti (fix `6aab9c44`) |
 | Google Site Verification | `BaseHead.astro` | Token presente |
@@ -2513,7 +2553,7 @@ Algolia webhook → aggiorna indice (da implementare: ALGOLIA-05)
 **Collection `articoli`** — verificare con account Redazione:
 - [ ] Campi visibili al ruolo Redazione: titolo, sottotitolo, corpo, autore, categoria_menu, numero_rivista, tags, immagine_copertina, didascalia_copertina, stato, data_pubblicazione
 - [ ] Campi nascosti al ruolo Redazione: id, slug, lang, wp_id, articolo_traduzione, seo_description (o visibile ma non modificabile)
-- [ ] Campo `corpo` WYSIWYG: funziona correttamente? Upload immagini inline? Paste da Word?
+- [x] Campo `corpo` WYSIWYG: **bug confermato 2026-09-02** — vedi sezione "Sessione 2026-09-02" in cima al file. Editor non renderizza (draft e published), causa non nel repo.
 - [ ] Campo `immagine_copertina`: upload su R2 funzionante?
 - [ ] Campo `tags`: interfaccia M2M funzionante? Può creare nuovi tag?
 - [ ] Campo `numero_rivista`: dropdown con numeri rivista funzionante?

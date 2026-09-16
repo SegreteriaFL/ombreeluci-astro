@@ -227,3 +227,32 @@ Il footer usa `position: fixed; z-index: 1`. Il `site-main` ha `position: relati
 ```
 
 Questa regola è già rispettata da tutti i componenti esistenti. Ogni nuovo componente deve seguirla.
+
+---
+
+## REGOLA og:image — sempre JPEG, mai WebP (fix 2026-09-16)
+
+**Gli scraper social non elaborano WebP, AVIF o SVG.** Facebook/Meta, LinkedIn e l'anteprima WhatsApp accettano solo **JPEG, PNG, GIF**. Il sito serve tutte le immagini in WebP — corretto per il browser, fatale per la card social: il debugger di Facebook risponde *"Immagine danneggiata — non è stato possibile elaborare come un'immagine l'URL og:image fornito"*.
+
+**Nessun componente costruisce mai un `og:image` da solo.** I componenti passano a `BaseLayout`/`BaseHead` l'URL dell'immagine **normale** (anche WebP, anche relativo); la conversione avviene in un punto unico:
+
+```astro
+<!-- BaseHead.astro — unico posto dove si costruisce og:image -->
+const ogImageUrl = toOgImageUrl(ogImage, Astro.site);
+```
+
+`toOgImageUrl()` vive in [`src/utils/og-image.ts`](src/utils/og-image.ts):
+
+| Input | Output |
+|---|---|
+| asset Directus `/assets/<id>` (qualsiasi query) | stessa immagine in **JPEG 1200×630** (`format=jpg&fit=cover&quality=82`) |
+| statico già `.jpg` / `.png` / `.gif` | URL reso assoluto, invariato |
+| WebP/SVG statico, URL relativo non risolvibile, valore vuoto | `og-default.jpg` (1200×630) |
+
+**Invarianti da non rompere:**
+- Non passare `ogImage` già trasformato: la normalizzazione è idempotente ma il punto di controllo deve restare uno solo.
+- Non "ottimizzare" `toOgImageUrl` facendogli restituire WebP perché più leggero — è esattamente il bug che questa regola previene.
+- L'immagine mostrata **in pagina** resta WebP (`getArticoloCopertinaSrc`, `lcpImage`): la conversione tocca solo il `<head>`, quindi nessun impatto su LCP.
+- Aggiungendo un nuovo placeholder in `public/placeholder/` in formato WebP, la sua anteprima social sarà `og-default.jpg`. Per avere l'immagine reale serve il gemello `.jpg` **e** una regola di mapping nel util.
+
+**Dopo ogni deploy che cambia un `og:image`**: l'esito precedente resta in cache su Facebook — va rilanciato "Scrape Again" dal [debugger](https://developers.facebook.com/tools/debug/).
