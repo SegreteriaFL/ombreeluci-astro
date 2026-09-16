@@ -15,6 +15,7 @@
  *   <BaseHead ...><script type="application/ld+json">...</script></BaseHead>
  */
 import { ViewTransitions } from 'astro:transitions';
+import { toOgImageUrl } from '../utils/og-image';
 import '../styles/global.css';
 
 interface Props {
@@ -22,7 +23,11 @@ interface Props {
   title: string;
   /** Meta description (~155 caratteri) */
   description?: string;
-  /** URL assoluto immagine per og:image e twitter:image */
+  /**
+   * Immagine per og:image / twitter:image: si passa l'URL dell'immagine normale
+   * (anche WebP o relativo). `toOgImageUrl` la converte nel formato accettato
+   * dagli scraper social — vedi `src/utils/og-image.ts`.
+   */
   ogImage?: string;
   /** Tipo Open Graph: 'website' (default) o 'article' */
   ogType?: 'website' | 'article';
@@ -51,7 +56,6 @@ const {
 } = Astro.props;
 
 const SITE_NAME = 'Ombre e Luci';
-const DEFAULT_OG_IMAGE = 'https://ombreeluci.it/images/og-default.jpg';
 const GOOGLE_SITE_VERIFICATION = 'CHp0QtH-sw0M_ZYVjj6LRqHxV-4Z72IoYR_aiX9c6ZE';
 
 // Se il titolo contiene già il nome del sito (es. homepage), usarlo così com'è
@@ -67,7 +71,8 @@ const canonicalUrl =
   (Astro.site
     ? new URL(rawPathname, Astro.site).href
     : Astro.url.href);
-const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
+// Facebook & co. non elaborano WebP/SVG: l'URL va sempre normalizzato in JPEG assoluto.
+const ogImageUrl = toOgImageUrl(ogImage, Astro.site);
 ---
 
 <meta charset="utf-8" />
@@ -90,6 +95,8 @@ const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
 <meta property="og:title" content={pageTitle} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={ogImageUrl} />
+<meta property="og:image:secure_url" content={ogImageUrl} />
+<meta property="og:image:alt" content={pageTitle} />
 <meta property="og:type" content={ogType} />
 <meta property="og:url" content={canonicalUrl} />
 <meta property="og:locale" content={lang === 'en' ? 'en_US' : 'it_IT'} />
