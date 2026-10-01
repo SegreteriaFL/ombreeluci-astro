@@ -1194,7 +1194,7 @@ async function forwardToPages(request, env) {
   // Altrimenti il client manda Host: ombreeluci.it e la subrequest verso *.pages.dev fallisce o va storta.
   headers.delete('Host');
 
-  return fetch(
+  const res = await fetch(
     new Request(target.toString(), {
       method: request.method,
       headers,
@@ -1207,6 +1207,14 @@ async function forwardToPages(request, env) {
       redirect: 'manual',
     })
   );
+
+  // La subrequest arriva al middleware con hostname *.pages.dev, quindi le pagine SSR
+  // escono con X-Robots-Tag: noindex anche su ombreeluci.it (bug 2026-08-09 → 2026-10-01,
+  // impressioni GSC -90%). Qui siamo per definizione sul dominio di produzione: l'header
+  // va sempre rimosso. I noindex legittimi (cerca, 404) usano il meta tag, non l'header.
+  const out = new Response(res.body, res);
+  out.headers.delete('X-Robots-Tag');
+  return out;
 }
 
 export default {
