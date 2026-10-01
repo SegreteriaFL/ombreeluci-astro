@@ -42,8 +42,13 @@ const totalAutori = Array.isArray(autoriStats) ? autoriStats.length : 0;
 const creds = directusCredsFromAstroLocals(Astro.locals);
 const urlSlug = (Astro.params.slug ?? '').replace(/\/$/, '');
 
+let directusDown = false;
 const [tentativo1, correlatiMap, enToItIndex] = await Promise.all([
-  getArticoloBySlug(urlSlug, creds).catch(() => null),
+  getArticoloBySlug(urlSlug, creds).catch((e) => {
+    console.error('[en/[slug].astro] fetch error:', e);
+    directusDown = true;
+    return null;
+  }),
   fetch(`${Astro.url.origin}/correlati.json`)
     .then((r) => (r.ok ? (r.json() as Promise<Record<string, string[]>>) : {}))
     .catch(() => ({} as Record<string, string[]>)),
@@ -62,8 +67,17 @@ if (!articolo) {
     articolo = (t2 && t2.lang === 'en') ? t2 : null;
   } catch (e) {
     console.error('[en/[slug].astro] fetch error:', e);
+    directusDown = true;
     articolo = null;
   }
+}
+
+// CMS irraggiungibile ≠ articolo inesistente: 503 dice a Google "riprova", 404 lo deindicizza.
+if (!articolo && directusDown) {
+  return new Response('Service unavailable', {
+    status: 503,
+    headers: { 'Retry-After': '300', 'Cache-Control': 'no-store' },
+  });
 }
 
 // Questa route serve SOLO articoli EN.

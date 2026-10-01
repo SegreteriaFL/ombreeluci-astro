@@ -23,15 +23,25 @@ const creds = directusCredsFromAstroLocals(Astro.locals);
 const rawSlug = Astro.params.slug ?? '';
 const slug = rawSlug.replace(/\/$/, '');
 
+let directusDown = false;
 const [articolo, correlatiMap] = await Promise.all([
   getArticoloBySlug(slug, creds).catch((e) => {
     console.error('[it/[slug].astro] fetch error:', e);
+    directusDown = true;
     return null;
   }),
   fetch(`${Astro.url.origin}/correlati.json`)
     .then((r) => (r.ok ? (r.json() as Promise<Record<string, string[]>>) : {}))
     .catch(() => ({} as Record<string, string[]>)),
 ]);
+
+// CMS irraggiungibile ≠ articolo inesistente: 503 dice a Google "riprova", 404 lo deindicizza.
+if (directusDown) {
+  return new Response('Service unavailable', {
+    status: 503,
+    headers: { 'Retry-After': '300', 'Cache-Control': 'no-store' },
+  });
+}
 
 if (!articolo) {
   return new Response('Not found', { status: 404 });

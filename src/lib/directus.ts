@@ -341,13 +341,23 @@ export async function getArticoloBySlug(
     ].join(','),
     limit: '1',
   });
-  const data = await directusFetch<{ data: ArticoloFull[] }>(
-    `/items/articoli?${params}`,
-    creds
-  );
-  if (!data || !data.data?.length) return null;
+  // Fetch "strict": un errore Directus (403 Bot Fight Mode, 5xx, rete) deve
+  // lanciare, non diventare null — altrimenti la route risponde 404 e Google
+  // deindicizza un articolo esistente (incidente 2026-10-01). null = non esiste.
+  const { url: base, token } = resolveCreds(creds);
+  const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+  if (token) headers.Authorization = `Bearer ${token}`;
+  const res = await fetch(`${base}/items/articoli?${params}`, { headers });
+  if (!res.ok) {
+    throw new DirectusUnavailableError(`[directus] ${res.status} ${res.statusText} — /items/articoli`);
+  }
+  const data = (await res.json()) as { data: ArticoloFull[] };
+  if (!data.data?.length) return null;
   return data.data[0];
 }
+
+/** Directus non raggiungibile o ha risposto con errore: la route deve dare 503, non 404. */
+export class DirectusUnavailableError extends Error {}
 
 /**
  * Recupera più articoli per slug (per correlati in SSR).
