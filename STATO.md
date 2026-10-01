@@ -1,6 +1,8 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-09-16 — 🔴 **APERTO: anteprime social rotte su Facebook e X. Causa reale = `robots.txt` di Directus (`Disallow: /`) che vieta agli scraper di scaricare le immagini da `cms.ombreeluci.it`.** Richiede una modifica sul VPS, non ancora eseguita (SSH bloccato dal classificatore). Nella stessa sessione risolti due bug frontend reali e distinti (og:image in WebP, og:image autori 404). Vedi sezione "Sessione 2026-09-16" sotto.
+**Ultimo aggiornamento:** 2026-10-01 — 🔴 **Crollo GSC agosto-settembre (−90% impressioni): tre cause trovate e corrette** (`noindex` su tutte le pagine SSR dal 9/8, Bot Fight Mode che dava 404 a Googlebot, `robots.txt` del CMS). Recupero e lavori di prevenzione si seguono in **[`docs/PIANO-AFFIDABILITA.md`](docs/PIANO-AFFIDABILITA.md)**, prossimo controllo venerdì 2026-10-09. Il `robots.txt` Directus della sessione 16/9 qui sotto è ✅ **risolto** (1/10, `Allow: /assets/`).
+
+**Aggiornamento precedente:** 2026-09-16 — 🔴 **APERTO: anteprime social rotte su Facebook e X. Causa reale = `robots.txt` di Directus (`Disallow: /`) che vieta agli scraper di scaricare le immagini da `cms.ombreeluci.it`.** Richiede una modifica sul VPS, non ancora eseguita (SSH bloccato dal classificatore). Nella stessa sessione risolti due bug frontend reali e distinti (og:image in WebP, og:image autori 404). Vedi sezione "Sessione 2026-09-16" sotto.
 
 ---
 
