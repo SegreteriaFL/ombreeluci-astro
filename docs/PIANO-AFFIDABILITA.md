@@ -7,7 +7,7 @@
 > 1. `git pull` su `main` (lavorare su `main` aggiornato: il branch `refactor/consolidamento-didascalie-fase2` è stato unito il 3/10).
 > 2. **Venerdì 9/10 — monitoraggio** (issue #12): compilare le tabelle del §3 e spuntare la riga del 9/10.
 > 3. **Lavoro successivo: L8 — inventario link rotti** (issue #20): link esterni, elenco 404 di Search Console, immagini; portare gli script in `scripts/`.
-> 4. **Decisioni in sospeso dell'utente:** L2 (#14) chi riceve gli avvisi e su quale canale; L10 (#22) controllo dei link scritti male solo settimanale o anche al salvataggio in Directus.
+> 4. **Decisioni in sospeso dell'utente:** L2 (#14) chi riceve gli avvisi e su quale canale; L13 (#25) come evitare che le build falliscano a Singapore; L10 (#22) controllo dei link scritti male solo settimanale o anche al salvataggio in Directus.
 > 5. **Worker Cloudflare:** prima di qualsiasi modifica leggere L12 (#24). Il file su `main` è quello in produzione (versione `86f3f5dd`). Mai `wrangler deploy` diretto: prova su URL di anteprima, poi deploy della versione provata.
 >
 > A fine sessione: aggiornare questo blocco, il registro (§6) e spuntare le issue.
@@ -90,6 +90,7 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
 | L10 | Sistema che impedisce che i link rotti tornino (#22) | ⬜ | Claude |
 | L11 | Interventi su Search Console dopo L7–L9 (#23) | ⬜ | utente (Claude prepara gli elenchi) |
 | L12 | Il Worker in produzione coincide sempre con quello su `main` (#24) | 🟨 allineato a mano 3/10, manca l'automatismo | Claude |
+| L13 | Build Cloudflare fallisce a caso se gira a Singapore (#25) | ⬜ decisione da prendere | utente + Claude |
 
 **Ordine concordato (2026-10-02):** ~~L7~~ (fatto 3/10) → L8 → L9 (AiOel → redirect → articoli/PDF mancanti → testo) → L10 → L11. Prima si documenta, poi si interviene, una famiglia alla volta con verifica.
 
@@ -214,6 +215,13 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
   3. nel frattempo, a mano: mai `wrangler deploy` da un branch o da una cartella diversa da `main` aggiornato.
 - **Dopo:** _(da compilare)_
 
+### L13 — Build Cloudflare fallisce a caso se gira a Singapore
+
+- **Cosa vogliamo:** ogni pubblicazione su `main` va online, e se una build fallisce qualcuno lo sa.
+- **Prima (verificato 3/10):** la build di Pages gira su un server scelto da Cloudflare. Il 2/10 alle 22:46 UTC è capitata a Singapore: la regola firewall di giugno che blocca SG/CN (`firewallCustom`) ha bloccato le chiamate dello script di build verso `cms.ombreeluci.it/items/...`, `scripts/build-en-to-it-index.mjs` è uscito con "Directus error 403" e la build è fallita (commit `10093515`). La build precedente (22:12, server in Canada) era riuscita. 1 fallimento su 106 build di produzione dal 4/8. Il sito non ne risente (resta sull'ultima build riuscita), ma la pubblicazione non va online e nessuno viene avvisato. Rilanciata il 3/10: riuscita.
+- **Possibili soluzioni (da decidere):** escludere dalla regola SG/CN le richieste al CMS con il token Directus; oppure far usare allo script i dati dell'ultima build se Directus non risponde (come già fa `fetch-static-data.mjs`); in ogni caso un avviso quando una build di produzione fallisce (L2).
+- **Dopo:** _(da compilare)_
+
 ## 5. Lezioni del 2026-10-01 (da portare in `docs/LEZIONI.md`)
 
 | Problema | Controllo automatico che lo avrebbe intercettato |
@@ -234,3 +242,4 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
 | 2026-10-02 | Primo deploy della correzione 404: **sito in 403 per ~50 s** (23:45–23:46), rollback a `2baa9ef2`. Il Worker su `main` non aveva le credenziali di Access | Claude |
 | 2026-10-03 | Causa del 403 accertata su URL di anteprima. **L7 chiuso**: Worker `86f3f5dd` in produzione, 404 del sito al posto della schermata Access. `main` allineato alla produzione. Aggiunto L12 | utente + Claude |
 | 2026-10-03 | Branch `refactor/consolidamento-didascalie-fase2` unito in `main` (solo documentazione + `scripts/cf-analytics.mjs`; codice del sito e Worker invariati, verificato). Create le issue #12–#24 (etichetta `affidabilita`), #19 chiusa | utente + Claude |
+| 2026-10-03 | Build del merge fallita (server di build a Singapore bloccato dal firewall SG/CN), rilanciata con successo. Aperto L13 (#25) | Claude |
