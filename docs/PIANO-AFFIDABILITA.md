@@ -74,13 +74,14 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
 | L4 | Togliere il `noindex` per hostname dal middleware | ⬜ | Claude |
 | L5 | `docs/LEZIONI.md`: ogni lezione ha il suo controllo | ⬜ | Claude |
 | L6 | 503 invece di 404 anche su autori e archivio | ⬜ | Claude |
-| L7 | Pagina 404 del sito al posto della schermata "Cloudflare Access" | ⬜ | Claude |
+| L7 | Pagina 404 del sito al posto della schermata "Cloudflare Access" | ✅ 3/10 | Claude |
 | L8 | Inventario link rotti (interni, esterni, 404 di GSC) | 🟨 interni fatti | Claude |
 | L9 | Correzione link rotti per famiglia | ⬜ | Claude, con approvazione utente sulle modifiche ai contenuti |
 | L10 | Sistema che impedisce che i link rotti tornino | ⬜ | Claude |
 | L11 | Interventi su Search Console dopo L7–L9 | ⬜ | utente (Claude prepara gli elenchi) |
+| L12 | Il Worker in produzione coincide sempre con quello su `main` | 🟨 allineato a mano 3/10, manca l'automatismo | Claude |
 
-**Ordine concordato (2026-10-02):** L7 → L8 → L9 (AiOel → redirect → articoli/PDF mancanti → testo) → L10 → L11. Prima si documenta, poi si interviene, una famiglia alla volta con verifica.
+**Ordine concordato (2026-10-02):** ~~L7~~ (fatto 3/10) → L8 → L9 (AiOel → redirect → articoli/PDF mancanti → testo) → L10 → L11. Prima si documenta, poi si interviene, una famiglia alla volta con verifica.
 
 ### L1 — Smoke test affidabile
 
@@ -133,8 +134,10 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
 
 - **Cosa vogliamo:** chi segue un link rotto vede la pagina 404 di Ombre e Luci (menu, ricerca, link alla home), non una schermata di errore tecnica.
 - **Prima (verificato 2/10):** **ogni** indirizzo inesistente, inventato compreso (es. `/it/questa-pagina-non-esiste-xyz/`), risponde con status 404 (corretto per Google) ma con il corpo "Forbidden — Cloudflare Access" e gli header `Cf-Access-Domain: ombreeluci-staging.pages.dev`. Segnalato dall'utente su `/AiOel/mappa_umap_3d_cluster_sprint8_v2.html`.
-- **Ipotesi da verificare prima di toccare nulla:** dal 25/8 (attivazione Access su pages.dev) la 404 di Pages viene sostituita dalla pagina di errore di Access lungo il passaggio Worker → pages.dev. Non verificata: va letta la configurazione dell'Access Application (pagine di errore personalizzate) e confrontata la risposta di pages.dev con le credenziali del Worker.
-- **Dopo:** _(da compilare)_
+- **Causa (verificata 2-3/10):** l'Access Application non ha pagine di errore personalizzate; la stessa build servita da un URL di deployment senza Access (`<hash>.ombreeluci-staging.pages.dev`) mostra la 404 corretta. È Cloudflare Access a sostituire il corpo dei 404 di Pages con la sua schermata. Le risposte generate da Access hanno l'header `cf-access-domain`, le pagine del sito no.
+- **Correzione:** il Worker, se pages.dev risponde 404 con `cf-access-domain`, serve `/404.html` del sito mantenendo lo status 404 (versione Worker `86f3f5dd`, provata prima su URL di anteprima, poi messa in produzione).
+- **Dopo (verificato 3/10 in produzione):** `/it/questa-pagina-non-esiste-xyz/`, `/AiOel/mappa_umap_3d_cluster_sprint8_v2.html` (con e senza `www`) → **404 con "Pagina non trovata — Ombre e Luci"** e meta `noindex`; home, articoli IT/EN, categorie, autori → 200 senza `X-Robots-Tag`; `/it/cerca/` mantiene il suo meta `noindex`; redirect legacy 1096/1096 OK.
+- **Incidente durante il lavoro (2/10, 23:45:29–23:46:18 ora italiana, ~50 s):** il primo deploy della correzione ha mandato **tutto il sito in 403**. Causa accertata il 3/10: il Worker su `main` **non conteneva le credenziali di Access**, aggiunte il 25/8 (`4c3a459a`) solo sul branch `refactor/consolidamento-didascalie-fase2` e mai unite. L'1/10 il deploy era partito dalla cartella di quel branch (giusta), ma la correzione `noindex` era stata riportata su `main` applicandola al file vecchio, e il commit dichiarava erroneamente "main coincide con la produzione". Il 2/10 il deploy è partito da `main`. Rollback immediato a `2baa9ef2`. Diagnosi fatta poi interamente su URL di anteprima (`wrangler versions upload`), senza toccare i visitatori. Dopo la correzione `main` contiene il file **identico byte per byte** alla versione in produzione `86f3f5dd`. Vedi L12.
 
 ### L8 — Inventario link rotti
 
@@ -190,6 +193,17 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
   - un mese dopo: confronto della riga "Non trovata (404)" con il valore del 1/10 (1.232).
 - **Dopo:** _(da compilare)_
 
+### L12 — Il Worker in produzione coincide sempre con quello su `main`
+
+- **Cosa vogliamo:** un solo posto da cui parte il Worker (`main`) e un controllo che segnala se la produzione è diversa.
+- **Prima:** il Worker si pubblicava a mano con `wrangler deploy` dalla cartella in cui ci si trovava. Dal 25/8 al 3/10 la produzione girava con codice che **non era su `main`** (solo su un branch di lavoro): chiunque avesse pubblicato da `main` avrebbe tolto le credenziali di Access e mandato il sito in 403, come è successo il 2/10.
+- **Fatto (3/10):** `main` allineato al file in produzione (`86f3f5dd`), verificato byte per byte.
+- **Da fare:**
+  1. pubblicazione del Worker **solo da GitHub Actions su `main`** (quando cambia `cf-worker/`), con un passaggio di prova su URL di anteprima prima della messa in produzione e rollback automatico se home/articolo/404 non rispondono come atteso;
+  2. nello smoke test (L1): confronto tra il codice del Worker in produzione e quello su `main`, con allarme se differiscono;
+  3. nel frattempo, a mano: mai `wrangler deploy` da un branch o da una cartella diversa da `main` aggiornato.
+- **Dopo:** _(da compilare)_
+
 ## 5. Lezioni del 2026-10-01 (da portare in `docs/LEZIONI.md`)
 
 | Problema | Controllo automatico che lo avrebbe intercettato |
@@ -207,3 +221,5 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
 |---|---|---|
 | 2026-10-01 | Diagnosi e correzione delle 3 cause; convalide GSC avviate; piano scritto | utente + Claude |
 | 2026-10-02 | Utente segnala link rotti negli articoli (AiOel). Inventario link interni (84 rotti in 170 articoli). Scoperto che ogni 404 mostra la schermata Cloudflare Access. Aggiunti L7–L11. `/english` corretto a mano dall'utente in `/it/ombre-e-luci-in-inglese/` | utente + Claude |
+| 2026-10-02 | Primo deploy della correzione 404: **sito in 403 per ~50 s** (23:45–23:46), rollback a `2baa9ef2`. Il Worker su `main` non aveva le credenziali di Access | Claude |
+| 2026-10-03 | Causa del 403 accertata su URL di anteprima. **L7 chiuso**: Worker `86f3f5dd` in produzione, 404 del sito al posto della schermata Access. `main` allineato alla produzione. Aggiunto L12 | utente + Claude |
