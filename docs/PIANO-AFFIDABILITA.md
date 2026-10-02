@@ -1,6 +1,6 @@
 # Piano affidabilità — dopo il crollo GSC di agosto-settembre 2026
 
-**Aperto:** 2026-10-01 · **Prossimo controllo:** venerdì 2026-10-09 · **Stato:** documentato, lavori non iniziati
+**Aperto:** 2026-10-01 · **Aggiornato:** 2026-10-02 (link rotti, L7–L11) · **Prossimo controllo:** venerdì 2026-10-09 · **Stato:** documentato, lavori non iniziati
 
 Questo file serve a due cose: seguire il **recupero su Google** settimana per settimana e seguire l'avanzamento dei **lavori** che devono impedire che succeda di nuovo. Ogni lavoro ha tre campi: cosa vogliamo, com'era prima, com'è dopo (verificato, non presunto).
 
@@ -74,6 +74,13 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
 | L4 | Togliere il `noindex` per hostname dal middleware | ⬜ | Claude |
 | L5 | `docs/LEZIONI.md`: ogni lezione ha il suo controllo | ⬜ | Claude |
 | L6 | 503 invece di 404 anche su autori e archivio | ⬜ | Claude |
+| L7 | Pagina 404 del sito al posto della schermata "Cloudflare Access" | ⬜ | Claude |
+| L8 | Inventario link rotti (interni, esterni, 404 di GSC) | 🟨 interni fatti | Claude |
+| L9 | Correzione link rotti per famiglia | ⬜ | Claude, con approvazione utente sulle modifiche ai contenuti |
+| L10 | Sistema che impedisce che i link rotti tornino | ⬜ | Claude |
+| L11 | Interventi su Search Console dopo L7–L9 | ⬜ | utente (Claude prepara gli elenchi) |
+
+**Ordine concordato (2026-10-02):** L7 → L8 → L9 (AiOel → redirect → articoli/PDF mancanti → testo) → L10 → L11. Prima si documenta, poi si interviene, una famiglia alla volta con verifica.
 
 ### L1 — Smoke test affidabile
 
@@ -122,6 +129,67 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
 - **Prima:** corretto solo per gli articoli IT/EN (`909a2daf`). Pagine autore e numeri d'archivio usano ancora `directusFetch`, che trasforma ogni errore in `null`, quindi in 404.
 - **Dopo:** _(da compilare)_
 
+### L7 — Pagina 404 del sito al posto della schermata "Cloudflare Access"
+
+- **Cosa vogliamo:** chi segue un link rotto vede la pagina 404 di Ombre e Luci (menu, ricerca, link alla home), non una schermata di errore tecnica.
+- **Prima (verificato 2/10):** **ogni** indirizzo inesistente, inventato compreso (es. `/it/questa-pagina-non-esiste-xyz/`), risponde con status 404 (corretto per Google) ma con il corpo "Forbidden — Cloudflare Access" e gli header `Cf-Access-Domain: ombreeluci-staging.pages.dev`. Segnalato dall'utente su `/AiOel/mappa_umap_3d_cluster_sprint8_v2.html`.
+- **Ipotesi da verificare prima di toccare nulla:** dal 25/8 (attivazione Access su pages.dev) la 404 di Pages viene sostituita dalla pagina di errore di Access lungo il passaggio Worker → pages.dev. Non verificata: va letta la configurazione dell'Access Application (pagine di errore personalizzate) e confrontata la risposta di pages.dev con le credenziali del Worker.
+- **Dopo:** _(da compilare)_
+
+### L8 — Inventario link rotti
+
+- **Cosa vogliamo:** l'elenco completo dei link rotti, raggruppati per causa, con gli articoli coinvolti. Si corregge solo dopo.
+- **Prima (2/10, link interni, solo letture):** 7.008 articoli pubblicati, 5.851 link, 1.033 indirizzi interni diversi. **84 rotti (404) in 170 articoli.** Altri 949 funzionano ma passano per 2–3 redirect (puntano ai vecchi URL WordPress `www.ombreeluci.it/AAAA/slug/`).
+
+  | Famiglia | Link | Esempio | Correzione prevista |
+  |---|---|---|---|
+  | Vecchi URL EN `/en/AAAA/MM/GG/slug/` | 23 | `/en/2023/08/24/alberta-and-the-barbie-revolution/` | regola di redirect |
+  | Vecchi `/tag/…` e `/author/…` | 18 | `/tag/il-carro/`, `/author/marie-odilerethore/` | regole di redirect |
+  | Articoli WordPress mai importati `/AAAA/slug/` | ~15 | `/1984/la-riabilitazione/` | importazione (vedi "articoli mancanti") |
+  | Pagine AiOel `/AiOel/*.html` | 4 | `mappa_umap_3d_cluster_sprint8_v2.html` | **ripristino**: 3 file su 4 in `_migration_archive/` (fuori dal repo), il quarto (`…_nomi.html`) da cercare |
+  | PDF `/wp-content/uploads/` | 6 | `Vite-straordinarie-….pdf` | recupero dal backup WordPress |
+  | Link scritti male nel testo | ~8 | `ombreeluci.it/www.saperidoc.it` (manca `https://`) | correzione del contenuto |
+  | Vecchie pagine `/english`, `/chisiamo`, `/questionario` | 4 | `/english/` (uno già corretto a mano dall'utente) | redirect o correzione |
+
+- **Ancora da fare:** link esterni (~3.000 verso altri siti); elenco "Non trovata (404)" di Search Console (1.232 URL), che include anche i link **da altri siti** verso vecchi indirizzi, non solo quelli interni; immagini (`<img>`) negli articoli.
+- **Strumenti:** gli script di estrazione e verifica usati il 2/10 vanno portati in `scripts/` quando si inizia il lavoro (oggi sono solo locali).
+- **Dopo:** _(da compilare)_
+
+### L9 — Correzione link rotti per famiglia
+
+- **Cosa vogliamo:** zero link interni rotti; i link interni puntano direttamente all'indirizzo finale, senza catene di redirect.
+- **Metodo:**
+  - una famiglia alla volta, con verifica dopo ciascuna;
+  - per gli URL con uno schema comune: regole di redirect (sistemano anche i link da altri siti e da Google, non solo quelli negli articoli);
+  - pagine e file persi (AiOel, PDF): ripristino allo **stesso indirizzo** di prima;
+  - correzioni al testo degli articoli con uno script su Directus: prima una prova a vuoto con l'elenco delle modifiche da far approvare all'utente, poi l'applicazione con backup. Mai a mano, link per link. Le traduzioni seguono la regola "IT sorgente unica";
+  - per una pagina che non esiste più e non ha un equivalente: 404 (o 410), mai un redirect alla home.
+- **Dopo:** _(da compilare, per famiglia)_
+
+### L10 — Sistema che impedisce che i link rotti tornino
+
+- **Cosa vogliamo:** un link rotto viene segnalato entro una settimana da quando si rompe, da qualunque causa (articolo nuovo, pagina rimossa, migrazione, sito esterno sparito).
+- **Prima:** nessun controllo. I link rotti li scopre l'utente leggendo gli articoli.
+- **Da fare:**
+  1. **Controllo settimanale dei link** (GitHub Actions, programmato): legge tutti gli articoli pubblicati da Directus, verifica i link interni ed esterni e va in allarme se ne compare uno rotto **nuovo** rispetto all'elenco già noto. Gli esterni con tolleranza: un sito esterno può essere giù per un giorno, quindi si segnala solo se fallisce due settimane di fila.
+  2. **Controllo della pagina 404 nello smoke test (L1):** un indirizzo inventato deve rispondere 404 **con la pagina del sito** (titolo di Ombre e Luci), non con "Cloudflare Access".
+  3. **Controllo dei link scritti male al momento della pubblicazione:** href senza `https://`, `ombreeluci.it/www.…`, `=`. Da valutare dove: nel controllo settimanale (sicuro) oppure in Directus al salvataggio (più immediato, ma le Flow Directus falliscono senza avvisare: va deciso).
+  4. **Regola per ogni migrazione, dismissione o cambio di hosting** (es. il ritiro di Aruba): prima si lancia l'inventario dei link e si confronta con i file che spariscono. Le pagine AiOel si sono perse così: non erano nell'elenco di ciò che andava spostato.
+  5. **404 di Search Console nel controllo SEO settimanale (L3):** nuovi URL "Non trovata (404)" segnalati insieme al calo di impressioni.
+- **Dopo:** _(da compilare)_
+
+### L11 — Interventi su Search Console dopo le correzioni
+
+- **Cosa vogliamo:** Google registra le correzioni il prima possibile e le righe di errore in GSC si svuotano.
+- **Da fare (utente, con elenchi preparati da Claude):**
+  - dopo L7: nessuna azione GSC necessaria (lo status era già 404 corretto), salvo ricontrollare che i test live non mostrino la pagina di Access;
+  - dopo il ripristino AiOel e PDF: "Richiedi indicizzazione" su ogni pagina ripristinata;
+  - dopo le regole di redirect: "Convalida correzione" sulla riga "Non trovata (404)" (già avviata il 1/10: se nel frattempo risulta "non riuscita", va riavviata);
+  - URL rimasti 404 di proposito (contenuti che non esistono più): nessuna azione, Google li toglie da solo; non usare lo strumento Rimozioni, che è temporaneo e serve ad altro;
+  - controllare che la sitemap non contenga URL che rispondono 404 o redirect (si può automatizzare dentro L10);
+  - un mese dopo: confronto della riga "Non trovata (404)" con il valore del 1/10 (1.232).
+- **Dopo:** _(da compilare)_
+
 ## 5. Lezioni del 2026-10-01 (da portare in `docs/LEZIONI.md`)
 
 | Problema | Controllo automatico che lo avrebbe intercettato |
@@ -138,3 +206,4 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
 | Data | Cosa | Chi |
 |---|---|---|
 | 2026-10-01 | Diagnosi e correzione delle 3 cause; convalide GSC avviate; piano scritto | utente + Claude |
+| 2026-10-02 | Utente segnala link rotti negli articoli (AiOel). Inventario link interni (84 rotti in 170 articoli). Scoperto che ogni 404 mostra la schermata Cloudflare Access. Aggiunti L7–L11. `/english` corretto a mano dall'utente in `/it/ombre-e-luci-in-inglese/` | utente + Claude |
