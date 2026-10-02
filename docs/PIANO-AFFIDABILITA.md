@@ -1,6 +1,16 @@
 # Piano affidabilità — dopo il crollo GSC di agosto-settembre 2026
 
-**Aperto:** 2026-10-01 · **Aggiornato:** 2026-10-02 (link rotti, L7–L11) · **Prossimo controllo:** venerdì 2026-10-09 · **Stato:** documentato, lavori non iniziati
+**Aperto:** 2026-10-01 · **Aggiornato:** 2026-10-03 · **Prossimo controllo:** venerdì 2026-10-09 · **Avanzamento:** issue GitHub con etichetta `affidabilita`, milestone "Piano affidabilità 2026-10" (#12–#24)
+
+> ### ▶ Prossima sessione: riprendi da qui
+>
+> 1. `git pull` su `main` (lavorare su `main` aggiornato: il branch `refactor/consolidamento-didascalie-fase2` è stato unito il 3/10).
+> 2. **Venerdì 9/10 — monitoraggio** (issue #12): compilare le tabelle del §3 e spuntare la riga del 9/10.
+> 3. **Lavoro successivo: L8 — inventario link rotti** (issue #20): link esterni, elenco 404 di Search Console, immagini; portare gli script in `scripts/`.
+> 4. **Decisioni in sospeso dell'utente:** L2 (#14) chi riceve gli avvisi e su quale canale; L10 (#22) controllo dei link scritti male solo settimanale o anche al salvataggio in Directus.
+> 5. **Worker Cloudflare:** prima di qualsiasi modifica leggere L12 (#24). Il file su `main` è quello in produzione (versione `86f3f5dd`). Mai `wrangler deploy` diretto: prova su URL di anteprima, poi deploy della versione provata.
+>
+> A fine sessione: aggiornare questo blocco, il registro (§6) e spuntare le issue.
 
 Questo file serve a due cose: seguire il **recupero su Google** settimana per settimana e seguire l'avanzamento dei **lavori** che devono impedire che succeda di nuovo. Ogni lavoro ha tre campi: cosa vogliamo, com'era prima, com'è dopo (verificato, non presunto).
 
@@ -68,18 +78,18 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
 
 | # | Lavoro | Stato | Chi |
 |---|---|---|---|
-| L1 | Smoke test affidabile | ⬜ | Claude |
-| L2 | Notifiche che arrivano davvero | ⬜ | decisione utente + Claude |
-| L3 | Controllo SEO settimanale automatico | ⬜ | Claude |
-| L4 | Togliere il `noindex` per hostname dal middleware | ⬜ | Claude |
-| L5 | `docs/LEZIONI.md`: ogni lezione ha il suo controllo | ⬜ | Claude |
-| L6 | 503 invece di 404 anche su autori e archivio | ⬜ | Claude |
-| L7 | Pagina 404 del sito al posto della schermata "Cloudflare Access" | ✅ 3/10 | Claude |
-| L8 | Inventario link rotti (interni, esterni, 404 di GSC) | 🟨 interni fatti | Claude |
-| L9 | Correzione link rotti per famiglia | ⬜ | Claude, con approvazione utente sulle modifiche ai contenuti |
-| L10 | Sistema che impedisce che i link rotti tornino | ⬜ | Claude |
-| L11 | Interventi su Search Console dopo L7–L9 | ⬜ | utente (Claude prepara gli elenchi) |
-| L12 | Il Worker in produzione coincide sempre con quello su `main` | 🟨 allineato a mano 3/10, manca l'automatismo | Claude |
+| L1 | Smoke test affidabile (#13) | ⬜ | Claude |
+| L2 | Notifiche che arrivano davvero (#14) | ⬜ | decisione utente + Claude |
+| L3 | Controllo SEO settimanale automatico (#15) | ⬜ | Claude |
+| L4 | Togliere il `noindex` per hostname dal middleware (#16) | ⬜ | Claude |
+| L5 | `docs/LEZIONI.md`: ogni lezione ha il suo controllo (#17) | ⬜ | Claude |
+| L6 | 503 invece di 404 anche su autori e archivio (#18) | ⬜ | Claude |
+| L7 | Pagina 404 del sito al posto della schermata "Cloudflare Access" (#19) | ✅ 3/10 | Claude |
+| L8 | Inventario link rotti (interni, esterni, 404 di GSC) (#20) | 🟨 interni fatti | Claude |
+| L9 | Correzione link rotti per famiglia (#21) | ⬜ | Claude, con approvazione utente sulle modifiche ai contenuti |
+| L10 | Sistema che impedisce che i link rotti tornino (#22) | ⬜ | Claude |
+| L11 | Interventi su Search Console dopo L7–L9 (#23) | ⬜ | utente (Claude prepara gli elenchi) |
+| L12 | Il Worker in produzione coincide sempre con quello su `main` (#24) | 🟨 allineato a mano 3/10, manca l'automatismo | Claude |
 
 **Ordine concordato (2026-10-02):** ~~L7~~ (fatto 3/10) → L8 → L9 (AiOel → redirect → articoli/PDF mancanti → testo) → L10 → L11. Prima si documenta, poi si interviene, una famiglia alla volta con verifica.
 
@@ -223,3 +233,4 @@ Legenda: ⬜ da fare · 🟨 in corso · ✅ fatto e verificato
 | 2026-10-02 | Utente segnala link rotti negli articoli (AiOel). Inventario link interni (84 rotti in 170 articoli). Scoperto che ogni 404 mostra la schermata Cloudflare Access. Aggiunti L7–L11. `/english` corretto a mano dall'utente in `/it/ombre-e-luci-in-inglese/` | utente + Claude |
 | 2026-10-02 | Primo deploy della correzione 404: **sito in 403 per ~50 s** (23:45–23:46), rollback a `2baa9ef2`. Il Worker su `main` non aveva le credenziali di Access | Claude |
 | 2026-10-03 | Causa del 403 accertata su URL di anteprima. **L7 chiuso**: Worker `86f3f5dd` in produzione, 404 del sito al posto della schermata Access. `main` allineato alla produzione. Aggiunto L12 | utente + Claude |
+| 2026-10-03 | Branch `refactor/consolidamento-didascalie-fase2` unito in `main` (solo documentazione + `scripts/cf-analytics.mjs`; codice del sito e Worker invariati, verificato). Create le issue #12–#24 (etichetta `affidabilita`), #19 chiusa | utente + Claude |

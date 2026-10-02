@@ -1,6 +1,8 @@
 # STATO — Ombre e Luci
 
-**Ultimo aggiornamento:** 2026-10-01 — 🔴 **Crollo GSC agosto-settembre (−90% impressioni): tre cause trovate e corrette** (`noindex` su tutte le pagine SSR dal 9/8, Bot Fight Mode che dava 404 a Googlebot, `robots.txt` del CMS). Recupero e lavori di prevenzione si seguono in **[`docs/PIANO-AFFIDABILITA.md`](docs/PIANO-AFFIDABILITA.md)**, prossimo controllo venerdì 2026-10-09. Il `robots.txt` Directus della sessione 16/9 qui sotto è ✅ **risolto** (1/10, `Allow: /assets/`).
+**Ultimo aggiornamento:** 2026-10-03 — Lavori di affidabilità in corso. **Da dove riprendere: blocco "Prossima sessione" in cima a [`docs/PIANO-AFFIDABILITA.md`](docs/PIANO-AFFIDABILITA.md)**; avanzamento nelle issue GitHub con etichetta `affidabilita` (#12–#24). Fatto finora: crollo GSC (−90%) diagnosticato e corretto il 1/10 (`noindex` SSR, Bot Fight Mode, `robots.txt` CMS); 3/10 pagina 404 del sito al posto della schermata Cloudflare Access; `main` allineato al Worker in produzione e branch `refactor/consolidamento-didascalie-fase2` unito. ⚠️ 2/10 sito in 403 per ~50 s per un deploy del Worker da `main` non allineato (dettaglio nel piano, L7/L12).
+
+**Aggiornamento del 2026-10-01:** 🔴 **Crollo GSC agosto-settembre (−90% impressioni): tre cause trovate e corrette** (`noindex` su tutte le pagine SSR dal 9/8, Bot Fight Mode che dava 404 a Googlebot, `robots.txt` del CMS). Recupero e lavori di prevenzione si seguono in **[`docs/PIANO-AFFIDABILITA.md`](docs/PIANO-AFFIDABILITA.md)**, prossimo controllo venerdì 2026-10-09. Il `robots.txt` Directus della sessione 16/9 qui sotto è ✅ **risolto** (1/10, `Allow: /assets/`).
 
 **Aggiornamento precedente:** 2026-09-16 — 🔴 **APERTO: anteprime social rotte su Facebook e X. Causa reale = `robots.txt` di Directus (`Disallow: /`) che vieta agli scraper di scaricare le immagini da `cms.ombreeluci.it`.** Richiede una modifica sul VPS, non ancora eseguita (SSH bloccato dal classificatore). Nella stessa sessione risolti due bug frontend reali e distinti (og:image in WebP, og:image autori 404). Vedi sezione "Sessione 2026-09-16" sotto.
 
@@ -137,6 +139,40 @@ Tutto verificato a mano sull'immagine dell'articolo `una-spesa-per-tutti-quanto-
 **RISOLTO — causa confermata**: testato con Chrome, nessun problema. Causa è Brave Shields che blocca il rendering dell'editor WYSIWYG (probabile blocco iframe/script TinyMCE) su `cms.ombreeluci.it`. **Non è un bug di Directus né del repo.** Soluzione per chi usa Brave: disattivare gli Shields solo per `cms.ombreeluci.it` (icona leone nella barra indirizzi), oppure usare Chrome per il backend.
 
 **Nota collaterale (non urgente)**: `scripts/db_analysis/create_directus_schema.py` (committato, 2026-03-23) contiene credenziali admin Directus in chiaro (`ADMIN_PASS`, `STATIC_TOKEN`) puntate al vecchio IP VPS pre-migrazione (`159.69.196.64`). Quasi certamente già invalidate dalle rotazioni successive documentate in questo file, ma andrebbe ripulito/rimosso dal repo.
+
+---
+
+## Sessione 2026-08-26 — Root cause bug SSR bare-root trovata, fix su main
+
+Letto il sorgente dell'adapter `@astrojs/cloudflare` (`generate-routes-json.js`): sopra 100 regole `_routes.json` combinate (limite Cloudflare), l'adapter tronca l'exclude list in modo non deterministico; sotto 100, restringe `include` a `["/it/*","/en/*"]` — lasciando ogni path bare-root fuori sia da include che da exclude, quindi mai invocata la Function. Root cause esatta del rollback Fase 2 del 13/8, confermata a livello di codice.
+
+Fix: `public/_routes.json` scritto a mano (l'adapter lo rispetta e salta la propria generazione se già presente) — `include` fisso a tutto, `exclude` solo sui veri asset statici. Verificato con rebuild locale che il file custom viene rispettato. **Non verificato end-to-end sul dominio custom reale** (richiederebbe deployare il branch corrente, con altro lavoro in corso, su Pages — non fatto). Pushato isolato su `main` (commit `4b84d84d`, stesso pattern del file di verifica Google del 25/8) e tracciato anche sul branch di lavoro corrente.
+
+Discussione collaterale: perché non eliminare il Worker ora che Access funziona senza di esso — risposta: la ragione originale (sbloccare Access) non c'è più, resta solo pulizia architetturale non urgente. Dettaglio completo, incluso il confronto costi/benefici, in `DECISIONE-STAGING.md` § "STATO ATTUALE".
+
+---
+
+## Sessione 2026-08-25 — Cloudflare Access davanti a pages.dev, scorporato dal bug SSR (Fase 2)
+
+Dopo quasi 2 settimane di `noindex` inefficace (verificato: `site:ombreeluci-staging.pages.dev` mostrava ancora articoli reali indicizzati), confronto con 4 LLM esterni + verifica propria ha validato un piano alternativo: Cloudflare Access con Service Token nativi sul progetto Pages esistente, **senza** eliminare il Worker né aspettare la diagnosi del bug SSR bare-root (che restava un blocco nel piano "B poi A" del 13/8). Dettaglio tecnico completo, incidente incluso, in `DECISIONE-STAGING.md`.
+
+**Riassunto esito**: Access Application creata su `ombreeluci-staging.pages.dev`, 2 Service Token generati, Worker aggiornato (`cf-worker/redirect-worker.js`) per autenticarsi con le credenziali invece della vecchia logica custom `X-Internal-Proxy-Auth` (rimossa, era orfana da luglio). Un incidente di ~40 secondi (403 su `ombreeluci.it` per sequenza sbagliata: Access attivata prima che il Worker avesse le credenziali) corretto immediatamente col rollback già pronto, poi rieseguito nell'ordine giusto senza downtime. Scoperta collaterale utile: i webhook Directus (10 operazioni HTTP verificate) chiamano già `ombreeluci.it`, non `pages.dev` direttamente — nessuna modifica necessaria lì, contrariamente a quanto documentato in precedenza (riferimento obsoleto in `scripts/setup-algolia-flow.mjs`).
+
+**Bonifica completata lo stesso giorno**: proprietà `pages.dev` verificata in Search Console (file HTML, con un bypass Access dedicato — un primo tentativo è fallito per un redirect 308 non coperto dal bypass iniziale, corretto con un wildcard), richiesta di Rimozione temporanea inviata per l'intero prefisso `https://ombreeluci-staging.pages.dev/` (stato "Elaborazione", effetto atteso 24-48h). Il capitolo indicizzazione `pages.dev` è chiuso in pratica: bloccato per il futuro (Access) e in bonifica per il passato (Removals). Bug SSR bare-root: confermato non più bloccante per nulla, resta task separato quando si vorrà.
+
+---
+
+## Sessione 2026-08-15 — Ricontrollo programmato (target 15-16/08): impatto reale Fase 2, esito pulito
+
+Ricontrollo previsto in sessione 13/08 (vedi sotto) per misurare l'impatto reale dei 1078/1096 redirect legacy rimasti rotti per ~24h prima del rollback.
+
+- **Redirect legacy in produzione**: `BASE_URL="https://ombreeluci.it" node scripts/verify-redirects.mjs` → **1096/1096 OK, 0 404, fail rate 0%**. Il Worker (Route ripristinata il 13/8) tiene perfettamente oggi.
+- **GSC Search Analytics** (proprietà corretta `https://ombreeluci.it/`, dati fino all'11-13/8, lag 1-2gg): impressioni 3046-3236/giorno, click 41-48/giorno, posizione 9.0-10.2 — nessuna anomalia nella finestra dell'incidente (11-13/8), in linea con la baseline pre-rollback.
+- **UptimeRobot**: 6/6 monitor UP. Unico log della finestra è il down "Not Found" di "Articolo SSR (produzione)" 17:09-17:30 UTC il 13/8 — coincide con l'incidente `DIRECTUS_TOKEN` già documentato e chiuso quella stessa sessione, non collegato al rollback Fase 2.
+- **Non verificabile via API**: il report "Statistiche di scansione" (Crawl Stats) di GSC — quello che in Appendice A11 dava la baseline 404 al 5-6% — non è esposto dalla Search Console API, `gsc-query.mjs` copre solo Search Analytics (Rendimento). Il confronto diretto % 404 pre/post incidente richiede **controllo manuale nella UI GSC** (proprietà `https://ombreeluci.it/` → Impostazioni → Statistiche di scansione → Per risposta), non ancora fatto.
+- **Stima del danno reale in traffico (punto 5 di `DECISIONE-STAGING.md` § DECISIONE ATTUALE) — completata, danno trascurabile.** `CF_ANALYTICS_TOKEN` era scaduto ("Authentication error" 10000): rigenerato dall'utente in dashboard CF (permesso `Zone > Analytics > Read`, scope `ombreeluci.it`), aggiornato in `.env` senza farlo transitare in chat. Con il token nuovo, `scripts/cf-analytics.mjs --by=path` falliva su 3 bug distinti nella query GraphQL (mai eseguita con successo prima d'ora, verosimilmente mai testata dopo la scrittura): `clientRequestHTTPMethodIn` → nome campo corretto `clientRequestHTTPMethodName_in`; `orderBy: [count_DEC]` → enum corretto `count_DESC`; filtro `edgeResponseContentTypeName: "html"` non accessibile sul piano CF attuale (errore authz), rimosso. Scoperto anche un limite di piano non documentato nello script: `httpRequestsAdaptiveGroups` (usato da `--by=path`) accetta **solo range di 1 giorno**, non un intervallo — lo script va richiamato un giorno alla volta per questo tipo di query. Tutti e 3 i fix applicati direttamente in `scripts/cf-analytics.mjs`. **Risultato**: top 40 path per hit del 12/8 (giorno pieno nella finestra di esposizione) dominato da traffico API/Directus (`/items/*`, `/server/ping`) e asset del sito — **nessuno dei path legacy noti rotti** (`/n-38/`, `/insieme/*`, `/project/*`, `/2023/*`, `/blog/*`, `/diario-di-*`) compare tra le pagine più richieste. Segnale di traffico reale basso sui path coinvolti nella finestra dei 98% redirect rotti.
+
+**Conclusione**: nessuna azione correttiva necessaria. Rollback verificato pulito su tre fonti indipendenti (redirect, GSC, CF path traffic) più uptime. Resta aperto solo il controllo manuale Crawl Stats (UI, 5 minuti, non automatizzabile — l'API Search Console non espone questo report) e il fix root-cause (Function SSR non invocata su path bare-root sul custom domain) prima di ritentare la Fase 2 — vedi `DECISIONE-STAGING.md` punto 2.
 
 ---
 
